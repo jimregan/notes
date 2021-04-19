@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>MTM100 sucks at Irish | notes</title>
+<title>M2M100 sucks at Irish | notes</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="MTM100 sucks at Irish" />
+<meta property="og:title" content="M2M100 sucks at Irish" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No" />
 <meta property="og:description" content="So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No" />
-<link rel="canonical" href="https://jimregan.github.io/notes/mtm100/badmt/2021/04/13/m2m100-sucks-at-irish.html" />
-<meta property="og:url" content="https://jimregan.github.io/notes/mtm100/badmt/2021/04/13/m2m100-sucks-at-irish.html" />
+<link rel="canonical" href="https://jimregan.github.io/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html" />
 <meta property="og:site_name" content="notes" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-04-13T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://jimregan.github.io/notes/mtm100/badmt/2021/04/13/m2m100-sucks-at-irish.html","@type":"BlogPosting","headline":"MTM100 sucks at Irish","dateModified":"2021-04-13T00:00:00-05:00","datePublished":"2021-04-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/mtm100/badmt/2021/04/13/m2m100-sucks-at-irish.html"},"description":"So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No","@context":"https://schema.org"}</script>
+{"url":"https://jimregan.github.io/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html","@type":"BlogPosting","headline":"M2M100 sucks at Irish","dateModified":"2021-04-13T00:00:00-05:00","datePublished":"2021-04-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html"},"description":"So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,7 +87,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">MTM100 sucks at Irish</h1><p class="page-description">So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-04-13T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">M2M100 sucks at Irish</h1><p class="page-description">So, do massively multilingual MT models trained on massively crawled datasets lead to great output? No</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-04-13T00:00:00-05:00" itemprop="datePublished">
         Apr 13, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -100,7 +100,7 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/notes/categories/#mtm100">mtm100</a>
+        <a class="category-tags-link" href="/notes/categories/#m2m100">m2m100</a>
         &nbsp;
       
         <a class="category-tags-link" href="/notes/categories/#badmt">badmt</a>
@@ -143,6 +143,13 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Huggingface Transformers added the <a href="https://about.fb.com/news/2020/10/first-multilingual-machine-translation-model/">M2M 100 model</a>, I tried it out and tweeted screenshots of the appalling output, so I thought I'd recreate the translations to show they were very real.</p>
+
+</div>
+</div>
+</div>
     
     
 <div class="cell border-box-sizing code_cell rendered">
@@ -254,8 +261,13 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p>twitter <a href="https://twitter.com/jimregan/status/1381638666716602372">https://twitter.com/jimregan/status/1381638666716602372</a></p>
-</blockquote>
+<p>
+<center>
+    <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/4b6DgbbhtE">pic.twitter.com/4b6DgbbhtE</a></p>&mdash; Jim O&#39;Regan (@jimregan) <a href="https://twitter.com/jimregan/status/1381638666716602372?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</center>
+</p>
 
 </div>
 </div>
@@ -300,8 +312,13 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p>twitter <a href="https://twitter.com/jimregan/status/1381638904416243715">https://twitter.com/jimregan/status/1381638904416243715</a></p>
-</blockquote>
+<p>
+<center>
+    <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s almost poetic <a href="https://t.co/IbJi1zvlrX">pic.twitter.com/IbJi1zvlrX</a></p>&mdash; Jim O&#39;Regan (@jimregan) <a href="https://twitter.com/jimregan/status/1381638904416243715?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</center>
+</p>
 
 </div>
 </div>
@@ -346,8 +363,13 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p>twitter <a href="https://twitter.com/jimregan/status/1381639237926334468">https://twitter.com/jimregan/status/1381639237926334468</a></p>
-</blockquote>
+<p>
+<center>
+    <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/GH4KtctnTI">pic.twitter.com/GH4KtctnTI</a></p>&mdash; Jim O&#39;Regan (@jimregan) <a href="https://twitter.com/jimregan/status/1381639237926334468?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</center>
+</p>
 
 </div>
 </div>
@@ -392,8 +414,13 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<blockquote><p>twitter <a href="https://twitter.com/jimregan/status/1381641689786413059">https://twitter.com/jimregan/status/1381641689786413059</a></p>
-</blockquote>
+<p>
+<center>
+    <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Switching to English output, it at least gives a decent-looking sentence. (It only looks decent, it&#39;s wrong) <a href="https://t.co/4HyBQvTAux">pic.twitter.com/4HyBQvTAux</a></p>&mdash; Jim O&#39;Regan (@jimregan) <a href="https://twitter.com/jimregan/status/1381641689786413059?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</center>
+</p>
 
 </div>
 </div>
@@ -448,7 +475,7 @@ window.onload = wrap_img;
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/notes/mtm100/badmt/2021/04/13/m2m100-sucks-at-irish.html" hidden></a>
+</script><a class="u-url" href="/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
