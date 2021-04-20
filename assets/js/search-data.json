@@ -22,6 +22,17 @@
         
     
   
+    
+        ,"post2": {
+            "title": "Install pynini on Colab",
+            "content": "!pip install -q condacolab import condacolab condacolab.install() . ✨🍰✨ Everything looks OK! . !conda install -c conda-forge pynini . import pynini .",
+            "url": "https://jimregan.github.io/notes/colab/pynini/2021/04/06/install-pynini-on-colab.html",
+            "relUrl": "/colab/pynini/2021/04/06/install-pynini-on-colab.html",
+            "date": " • Apr 6, 2021"
+        }
+        
+    
+  
 
   
   
