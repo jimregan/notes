@@ -6,7 +6,7 @@
 
 https://jimregan.github.io/notes/
 
-# My Blog
+# My notes to self
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
