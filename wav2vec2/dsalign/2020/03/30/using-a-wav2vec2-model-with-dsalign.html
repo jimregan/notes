@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Using a wav2vec2 model with DSAlign | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Using a wav2vec2 model with DSAlign" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Speech recognition with wav2vec2, as input to the DSAlign aligner" />
+<meta property="og:description" content="Speech recognition with wav2vec2, as input to the DSAlign aligner" />
+<link rel="canonical" href="https://jimregan.github.io/notes/wav2vec2/dsalign/2020/03/30/using-a-wav2vec2-model-with-dsalign.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/wav2vec2/dsalign/2020/03/30/using-a-wav2vec2-model-with-dsalign.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/wav2vec2/dsalign/2020/03/30/using-a-wav2vec2-model-with-dsalign.html","@type":"BlogPosting","headline":"Using a wav2vec2 model with DSAlign","dateModified":"2020-03-30T00:00:00-05:00","datePublished":"2020-03-30T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/wav2vec2/dsalign/2020/03/30/using-a-wav2vec2-model-with-dsalign.html"},"description":"Speech recognition with wav2vec2, as input to the DSAlign aligner","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Using a wav2vec2 model with DSAlign</h1><p class="page-description">Speech recognition with wav2vec2, as input to the DSAlign aligner</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-30T00:00:00-05:00" itemprop="datePublished">
+        Mar 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      8 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#wav2vec2">wav2vec2</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#dsalign">dsalign</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2020-03-30-using-a-wav2vec2-model-with-dsalign.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2020-03-30-using-a-wav2vec2-model-with-dsalign.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2020-03-30-using-a-wav2vec2-model-with-dsalign.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-03-30-using-a-wav2vec2-model-with-dsalign.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">librosa</span> <span class="n">webrtcvad</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The VAD wrapper is taken from <a href="https://github.com/HarryVolek/PyTorch_Speaker_Verification">PyTorch Speaker Verification</a>, which is in turn is based on <a href="https://github.com/wiseman/py-webrtcvad/">py-webrtcvad</a>.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1"># VAD wrapper is taken from PyTorch Speaker Verification:</span>
+<span class="c1"># https://github.com/HarryVolek/PyTorch_Speaker_Verification</span>
+<span class="c1"># Copyright (c) 2019, HarryVolek</span>
+<span class="c1"># License: BSD-3-Clause</span>
+<span class="c1"># based on https://github.com/wiseman/py-webrtcvad/blob/master/example.py</span>
+<span class="c1"># Copyright (c) 2016 John Wiseman</span>
+<span class="c1"># License: MIT</span>
+<span class="kn">import</span> <span class="nn">collections</span>
+<span class="kn">import</span> <span class="nn">contextlib</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">librosa</span>
+<span class="kn">import</span> <span class="nn">wave</span>
+
+<span class="kn">import</span> <span class="nn">webrtcvad</span>
+
+<span class="c1">#from hparam import hparam as hp</span>
+<span class="n">sr</span> <span class="o">=</span> <span class="mi">16000</span>
+
+<span class="k">def</span> <span class="nf">read_wave</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">sr</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Reads a .wav file.</span>
+<span class="sd">    Takes the path, and returns (PCM audio data, sample rate).</span>
+<span class="sd">    Assumes sample width == 2</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="n">contextlib</span><span class="o">.</span><span class="n">closing</span><span class="p">(</span><span class="n">wave</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">))</span> <span class="k">as</span> <span class="n">wf</span><span class="p">:</span>
+        <span class="n">num_channels</span> <span class="o">=</span> <span class="n">wf</span><span class="o">.</span><span class="n">getnchannels</span><span class="p">()</span>
+        <span class="k">assert</span> <span class="n">num_channels</span> <span class="o">==</span> <span class="mi">1</span>
+        <span class="n">sample_width</span> <span class="o">=</span> <span class="n">wf</span><span class="o">.</span><span class="n">getsampwidth</span><span class="p">()</span>
+        <span class="k">assert</span> <span class="n">sample_width</span> <span class="o">==</span> <span class="mi">2</span>
+        <span class="n">sample_rate</span> <span class="o">=</span> <span class="n">wf</span><span class="o">.</span><span class="n">getframerate</span><span class="p">()</span>
+        <span class="k">assert</span> <span class="n">sample_rate</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">8000</span><span class="p">,</span> <span class="mi">16000</span><span class="p">,</span> <span class="mi">32000</span><span class="p">,</span> <span class="mi">48000</span><span class="p">)</span>
+        <span class="n">pcm_data</span> <span class="o">=</span> <span class="n">wf</span><span class="o">.</span><span class="n">readframes</span><span class="p">(</span><span class="n">wf</span><span class="o">.</span><span class="n">getnframes</span><span class="p">())</span>
+    <span class="n">data</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">sr</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span>
+    <span class="k">assert</span> <span class="n">sr</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">8000</span><span class="p">,</span> <span class="mi">16000</span><span class="p">,</span> <span class="mi">32000</span><span class="p">,</span> <span class="mi">48000</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">data</span><span class="p">,</span> <span class="n">pcm_data</span>
+    
+<span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Represents a &quot;frame&quot; of audio data.&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">,</span> <span class="n">timestamp</span><span class="p">,</span> <span class="n">duration</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bytes</span> <span class="o">=</span> <span class="nb">bytes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">=</span> <span class="n">timestamp</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">duration</span> <span class="o">=</span> <span class="n">duration</span>
+
+
+<span class="k">def</span> <span class="nf">frame_generator</span><span class="p">(</span><span class="n">frame_duration_ms</span><span class="p">,</span> <span class="n">audio</span><span class="p">,</span> <span class="n">sample_rate</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Generates audio frames from PCM audio data.</span>
+<span class="sd">    Takes the desired frame duration in milliseconds, the PCM data, and</span>
+<span class="sd">    the sample rate.</span>
+<span class="sd">    Yields Frames of the requested duration.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">sample_rate</span> <span class="o">*</span> <span class="p">(</span><span class="n">frame_duration_ms</span> <span class="o">/</span> <span class="mf">1000.0</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">offset</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">timestamp</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">duration</span> <span class="o">=</span> <span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="n">sample_rate</span><span class="p">)</span> <span class="o">/</span> <span class="mf">2.0</span>
+    <span class="k">while</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">audio</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">Frame</span><span class="p">(</span><span class="n">audio</span><span class="p">[</span><span class="n">offset</span><span class="p">:</span><span class="n">offset</span> <span class="o">+</span> <span class="n">n</span><span class="p">],</span> <span class="n">timestamp</span><span class="p">,</span> <span class="n">duration</span><span class="p">)</span>
+        <span class="n">timestamp</span> <span class="o">+=</span> <span class="n">duration</span>
+        <span class="n">offset</span> <span class="o">+=</span> <span class="n">n</span>
+
+
+<span class="k">def</span> <span class="nf">vad_collector</span><span class="p">(</span><span class="n">sample_rate</span><span class="p">,</span> <span class="n">frame_duration_ms</span><span class="p">,</span>
+                  <span class="n">padding_duration_ms</span><span class="p">,</span> <span class="n">vad</span><span class="p">,</span> <span class="n">frames</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Filters out non-voiced audio frames.</span>
+<span class="sd">    Given a webrtcvad.Vad and a source of audio frames, yields only</span>
+<span class="sd">    the voiced audio.</span>
+<span class="sd">    Uses a padded, sliding window algorithm over the audio frames.</span>
+<span class="sd">    When more than 90% of the frames in the window are voiced (as</span>
+<span class="sd">    reported by the VAD), the collector triggers and begins yielding</span>
+<span class="sd">    audio frames. Then the collector waits until 90% of the frames in</span>
+<span class="sd">    the window are unvoiced to detrigger.</span>
+<span class="sd">    The window is padded at the front and back to provide a small</span>
+<span class="sd">    amount of silence or the beginnings/endings of speech around the</span>
+<span class="sd">    voiced frames.</span>
+<span class="sd">    Arguments:</span>
+<span class="sd">    sample_rate - The audio sample rate, in Hz.</span>
+<span class="sd">    frame_duration_ms - The frame duration in milliseconds.</span>
+<span class="sd">    padding_duration_ms - The amount to pad the window, in milliseconds.</span>
+<span class="sd">    vad - An instance of webrtcvad.Vad.</span>
+<span class="sd">    frames - a source of audio frames (sequence or generator).</span>
+<span class="sd">    Returns: A generator that yields PCM audio data.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">num_padding_frames</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">padding_duration_ms</span> <span class="o">/</span> <span class="n">frame_duration_ms</span><span class="p">)</span>
+    <span class="c1"># We use a deque for our sliding window/ring buffer.</span>
+    <span class="n">ring_buffer</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">deque</span><span class="p">(</span><span class="n">maxlen</span><span class="o">=</span><span class="n">num_padding_frames</span><span class="p">)</span>
+    <span class="c1"># We have two states: TRIGGERED and NOTTRIGGERED. We start in the</span>
+    <span class="c1"># NOTTRIGGERED state.</span>
+    <span class="n">triggered</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="n">voiced_frames</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">frame</span> <span class="ow">in</span> <span class="n">frames</span><span class="p">:</span>
+        <span class="n">is_speech</span> <span class="o">=</span> <span class="n">vad</span><span class="o">.</span><span class="n">is_speech</span><span class="p">(</span><span class="n">frame</span><span class="o">.</span><span class="n">bytes</span><span class="p">,</span> <span class="n">sample_rate</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">triggered</span><span class="p">:</span>
+            <span class="n">ring_buffer</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">frame</span><span class="p">,</span> <span class="n">is_speech</span><span class="p">))</span>
+            <span class="n">num_voiced</span> <span class="o">=</span> <span class="nb">len</span><span class="p">([</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span><span class="p">,</span> <span class="n">speech</span> <span class="ow">in</span> <span class="n">ring_buffer</span> <span class="k">if</span> <span class="n">speech</span><span class="p">])</span>
+            <span class="c1"># If we&#39;re NOTTRIGGERED and more than 90% of the frames in</span>
+            <span class="c1"># the ring buffer are voiced frames, then enter the</span>
+            <span class="c1"># TRIGGERED state.</span>
+            <span class="k">if</span> <span class="n">num_voiced</span> <span class="o">&gt;</span> <span class="mf">0.9</span> <span class="o">*</span> <span class="n">ring_buffer</span><span class="o">.</span><span class="n">maxlen</span><span class="p">:</span>
+                <span class="n">triggered</span> <span class="o">=</span> <span class="kc">True</span>
+                <span class="n">start</span> <span class="o">=</span> <span class="n">ring_buffer</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">timestamp</span>
+                <span class="c1"># We want to yield all the audio we see from now until</span>
+                <span class="c1"># we are NOTTRIGGERED, but we have to start with the</span>
+                <span class="c1"># audio that&#39;s already in the ring buffer.</span>
+                <span class="k">for</span> <span class="n">f</span><span class="p">,</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">ring_buffer</span><span class="p">:</span>
+                    <span class="n">voiced_frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+                <span class="n">ring_buffer</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># We&#39;re in the TRIGGERED state, so collect the audio data</span>
+            <span class="c1"># and add it to the ring buffer.</span>
+            <span class="n">voiced_frames</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frame</span><span class="p">)</span>
+            <span class="n">ring_buffer</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">frame</span><span class="p">,</span> <span class="n">is_speech</span><span class="p">))</span>
+            <span class="n">num_unvoiced</span> <span class="o">=</span> <span class="nb">len</span><span class="p">([</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span><span class="p">,</span> <span class="n">speech</span> <span class="ow">in</span> <span class="n">ring_buffer</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">speech</span><span class="p">])</span>
+            <span class="c1"># If more than 90% of the frames in the ring buffer are</span>
+            <span class="c1"># unvoiced, then enter NOTTRIGGERED and yield whatever</span>
+            <span class="c1"># audio we&#39;ve collected.</span>
+            <span class="k">if</span> <span class="n">num_unvoiced</span> <span class="o">&gt;</span> <span class="mf">0.9</span> <span class="o">*</span> <span class="n">ring_buffer</span><span class="o">.</span><span class="n">maxlen</span><span class="p">:</span>
+                <span class="n">triggered</span> <span class="o">=</span> <span class="kc">False</span>
+                <span class="k">yield</span> <span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">frame</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">+</span> <span class="n">frame</span><span class="o">.</span><span class="n">duration</span><span class="p">)</span>
+                <span class="n">ring_buffer</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+                <span class="n">voiced_frames</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="c1"># If we have any leftover voiced audio when we run out of input,</span>
+    <span class="c1"># yield it.</span>
+    <span class="k">if</span> <span class="n">voiced_frames</span><span class="p">:</span>
+        <span class="k">yield</span> <span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">frame</span><span class="o">.</span><span class="n">timestamp</span> <span class="o">+</span> <span class="n">frame</span><span class="o">.</span><span class="n">duration</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">VAD_chunk</span><span class="p">(</span><span class="n">aggressiveness</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
+    <span class="n">audio</span><span class="p">,</span> <span class="n">byte_audio</span> <span class="o">=</span> <span class="n">read_wave</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">sr</span><span class="p">)</span>
+    <span class="n">vad</span> <span class="o">=</span> <span class="n">webrtcvad</span><span class="o">.</span><span class="n">Vad</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">aggressiveness</span><span class="p">))</span>
+    <span class="n">frames</span> <span class="o">=</span> <span class="n">frame_generator</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="n">byte_audio</span><span class="p">,</span> <span class="n">sr</span><span class="p">)</span>
+    <span class="n">frames</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">frames</span><span class="p">)</span>
+    <span class="n">times</span> <span class="o">=</span> <span class="n">vad_collector</span><span class="p">(</span><span class="n">sr</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">vad</span><span class="p">,</span> <span class="n">frames</span><span class="p">)</span>
+    <span class="n">speech_times</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">speech_segs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">time</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">times</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">time</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">decimals</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">time</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">decimals</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">j</span> <span class="o">=</span> <span class="n">start</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">+</span> <span class="o">.</span><span class="mi">4</span> <span class="o">&lt;</span> <span class="n">end</span><span class="p">:</span>
+            <span class="n">end_j</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">j</span><span class="o">+.</span><span class="mi">4</span><span class="p">,</span><span class="n">decimals</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+            <span class="n">speech_times</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">j</span><span class="p">,</span> <span class="n">end_j</span><span class="p">))</span>
+            <span class="n">speech_segs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">audio</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">j</span><span class="o">*</span><span class="n">sr</span><span class="p">):</span><span class="nb">int</span><span class="p">(</span><span class="n">end_j</span><span class="o">*</span><span class="n">sr</span><span class="p">)])</span>
+            <span class="n">j</span> <span class="o">=</span> <span class="n">end_j</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">speech_times</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">j</span><span class="p">,</span> <span class="n">end</span><span class="p">))</span>
+            <span class="n">speech_segs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">audio</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">j</span><span class="o">*</span><span class="n">sr</span><span class="p">):</span><span class="nb">int</span><span class="p">(</span><span class="n">end</span><span class="o">*</span><span class="n">sr</span><span class="p">)])</span>
+    <span class="k">return</span> <span class="n">speech_times</span><span class="p">,</span> <span class="n">speech_segs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Running">Running<a class="anchor-link" href="#Running"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I'm going to use a video from YouTube as my input, so first I need to install youtube-dl</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">youtube</span><span class="o">-</span><span class="n">dl</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I've selected <a href="https://www.youtube.com/watch?v=VRg-a0qSGa8">this video</a> because it's a speech by the President of Ireland (and so copyright-free as a matter of public record), it has subtitles (in Irish, though listed as English), and the subtitles are quite faithful to what was spoken.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">youtube</span><span class="o">-</span><span class="n">dl</span> <span class="o">--</span><span class="nb">all</span><span class="o">-</span><span class="n">subs</span> <span class="o">-</span><span class="n">o</span> <span class="s1">&#39;</span><span class="si">%(id)s</span><span class="s1">&#39;</span> <span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The audio needs to be a 16k wav, so I'm converting it with ffmpeg.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">ffmpeg</span> <span class="o">-</span><span class="n">i</span> <span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span><span class="o">.</span><span class="n">mkv</span> <span class="o">-</span><span class="n">acodec</span> <span class="n">pcm_s16le</span> <span class="o">-</span><span class="n">ac</span> <span class="mi">1</span> <span class="o">-</span><span class="n">ar</span> <span class="mi">16000</span> <span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span><span class="o">.</span><span class="n">wav</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Next, I'm using the <code>VAD_chunk()</code> function to get the start and end times, and audio segements of each part of the video with speech.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">times</span><span class="p">,</span> <span class="n">segs</span> <span class="o">=</span> <span class="n">VAD_chunk</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;VRg-a0qSGa8.wav&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The <code>wav2vec2</code> models generally perform badly on short input, so <code>vad_concat()</code> concatenates the segments, as well as the times (for DSAlign).</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description" open="">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1"># Based on code from PyTorch Speaker Verification:</span>
+<span class="c1"># https://github.com/HarryVolek/PyTorch_Speaker_Verification</span>
+<span class="c1"># Copyright (c) 2019, HarryVolek</span>
+<span class="c1"># Additions Copyright (c) 2021, Jim O&#39;Regan</span>
+<span class="c1"># License: MIT</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># wav2vec2&#39;s max duration is 40 seconds, using 39 by default</span>
+<span class="c1"># to be a little safer</span>
+<span class="k">def</span> <span class="nf">vad_concat</span><span class="p">(</span><span class="n">times</span><span class="p">,</span> <span class="n">segs</span><span class="p">,</span> <span class="n">max_duration</span><span class="o">=</span><span class="mf">39.0</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Concatenate continuous times and their segments, where the end time</span>
+<span class="sd">    of a segment is the same as the start time of the next</span>
+<span class="sd">        Parameters:</span>
+<span class="sd">            times: list of tuple (start, end)</span>
+<span class="sd">            segs: list of segments (audio frames)</span>
+<span class="sd">            max_duration: maximum duration of the resulting concatenated</span>
+<span class="sd">                segments; the kernel size of wav2vec2 is 40 seconds, so</span>
+<span class="sd">                the default max_duration is 39, to ensure the resulting</span>
+<span class="sd">                list of segments will fit</span>
+<span class="sd">        Returns:</span>
+<span class="sd">            concat_times: list of tuple (start, end)</span>
+<span class="sd">            concat_segs: list of segments (audio frames)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">absolute_maximum</span><span class="o">=</span><span class="mf">40.0</span>
+    <span class="k">if</span> <span class="n">max_duration</span> <span class="o">&gt;</span> <span class="n">absolute_maximum</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;`max_duration` </span><span class="si">{:.2f}</span><span class="s1"> larger than kernel size (40 seconds)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">max_duration</span><span class="p">))</span>
+    <span class="c1"># we take 0.0 to mean &quot;don&#39;t concatenate&quot;</span>
+    <span class="n">do_concat</span> <span class="o">=</span> <span class="p">(</span><span class="n">max_duration</span> <span class="o">!=</span> <span class="mf">0.0</span><span class="p">)</span>
+    <span class="n">concat_seg</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">concat_times</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">seg_concat</span> <span class="o">=</span> <span class="n">segs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">time_concat</span> <span class="o">=</span> <span class="n">times</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">times</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">can_concat</span> <span class="o">=</span> <span class="p">(</span><span class="n">times</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">time_concat</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">&lt;</span> <span class="n">max_duration</span>
+        <span class="k">if</span> <span class="n">time_concat</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">times</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">do_concat</span> <span class="ow">and</span> <span class="n">can_concat</span><span class="p">:</span>
+            <span class="n">seg_concat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">seg_concat</span><span class="p">,</span> <span class="n">segs</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]))</span>
+            <span class="n">time_concat</span> <span class="o">=</span> <span class="p">(</span><span class="n">time_concat</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">times</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">concat_seg</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">seg_concat</span><span class="p">)</span>
+            <span class="n">seg_concat</span> <span class="o">=</span> <span class="n">segs</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+            <span class="n">concat_times</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">time_concat</span><span class="p">)</span>
+            <span class="n">time_concat</span> <span class="o">=</span> <span class="n">times</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">concat_seg</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">seg_concat</span><span class="p">)</span>
+        <span class="n">concat_times</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">time_concat</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">concat_times</span><span class="p">,</span> <span class="n">concat_seg</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">ntimes</span><span class="p">,</span> <span class="n">nsegs</span> <span class="o">=</span> <span class="n">vad_concat</span><span class="p">(</span><span class="n">times</span><span class="p">,</span> <span class="n">segs</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Next, I'm putting the data into a dict that Huggingface datasets can read:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">starts</span> <span class="o">=</span> <span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">ntimes</span><span class="p">]</span>
+<span class="n">ends</span> <span class="o">=</span> <span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">ntimes</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">dset</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;start&#39;</span><span class="p">:</span> <span class="n">starts</span><span class="p">,</span>
+        <span class="s1">&#39;end&#39;</span><span class="p">:</span> <span class="n">ends</span><span class="p">,</span>
+        <span class="s1">&#39;speech&#39;</span><span class="p">:</span> <span class="n">nsegs</span><span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">datasets</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">datasets</span> <span class="kn">import</span> <span class="n">Dataset</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">Dataset</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">dset</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">dataset</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Dataset({
+    features: [&#39;start&#39;, &#39;end&#39;, &#39;speech&#39;],
+    num_rows: 137
+})</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now, the data is ready to plug into my wav2vec2 model.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">transformers</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Wav2Vec2Processor</span><span class="p">,</span> <span class="n">Wav2Vec2ForCTC</span>
+<span class="c1"># load model and tokenizer</span>
+<span class="n">processor</span> <span class="o">=</span> <span class="n">Wav2Vec2Processor</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s2">&quot;jimregan/wav2vec2-large-xlsr-irish-basic&quot;</span><span class="p">)</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">Wav2Vec2ForCTC</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="s2">&quot;jimregan/wav2vec2-large-xlsr-irish-basic&quot;</span><span class="p">)</span>
+<span class="n">model</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;cuda&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Special tokens have been added in the vocabulary, make sure the associated word embedding are fine-tuned or trained.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p><div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">speech_file_to_array_fn</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="kn">import</span> <span class="nn">torchaudio</span>
+    <span class="n">speech_array</span><span class="p">,</span> <span class="n">sampling_rate</span> <span class="o">=</span> <span class="n">torchaudio</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;path&quot;</span><span class="p">])</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">speech_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sampling_rate</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;target_text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sentence&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">batch</span>
+<span class="k">def</span> <span class="nf">evaluate</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+  <span class="kn">import</span> <span class="nn">torch</span>
+  <span class="n">inputs</span> <span class="o">=</span> <span class="n">processor</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">],</span> <span class="n">sampling_rate</span><span class="o">=</span><span class="mi">16_000</span><span class="p">,</span> <span class="n">return_tensors</span><span class="o">=</span><span class="s2">&quot;pt&quot;</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+  <span class="k">with</span> <span class="n">torch</span><span class="o">.</span><span class="n">no_grad</span><span class="p">():</span>
+    <span class="n">logits</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">inputs</span><span class="o">.</span><span class="n">input_values</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;cuda&quot;</span><span class="p">),</span> <span class="n">attention_mask</span><span class="o">=</span><span class="n">inputs</span><span class="o">.</span><span class="n">attention_mask</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="s2">&quot;cuda&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">logits</span>
+
+  <span class="n">pred_ids</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;pred_strings&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">processor</span><span class="o">.</span><span class="n">batch_decode</span><span class="p">(</span><span class="n">pred_ids</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">batch</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+</p>
+    </details>
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">evaluate</span><span class="p">,</span> <span class="n">batched</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">speechless</span> <span class="o">=</span> <span class="n">result</span><span class="o">.</span><span class="n">remove_columns</span><span class="p">([</span><span class="s1">&#39;speech&#39;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">d</span><span class="o">=</span><span class="n">speechless</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">tlog</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;end&#39;</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
+  <span class="n">out</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+  <span class="n">out</span><span class="p">[</span><span class="s1">&#39;start&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;start&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+  <span class="n">out</span><span class="p">[</span><span class="s1">&#39;end&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;end&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+  <span class="n">out</span><span class="p">[</span><span class="s1">&#39;transcript&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">d</span><span class="p">[</span><span class="s1">&#39;pred_strings&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+  <span class="n">tlog</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/VRg-a0qSGa8.tlog&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">tlog</span><span class="p">,</span> <span class="n">outfile</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Next, I'm extracting the text content from the vtt file</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">webvtt</span><span class="o">-</span><span class="n">py</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: webvtt-py in /usr/local/lib/python3.7/dist-packages (0.4.6)
+Requirement already satisfied: docopt in /usr/local/lib/python3.7/dist-packages (from webvtt-py) (0.6.2)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">get_vtt_text</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+  <span class="kn">import</span> <span class="nn">webvtt</span>
+  <span class="n">out</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
+  <span class="k">for</span> <span class="n">sub</span> <span class="ow">in</span> <span class="n">webvtt</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sub</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+  <span class="k">return</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="n">get_vtt_text</span><span class="p">(</span><span class="s1">&#39;/content/VRg-a0qSGa8.en.vtt&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I can do some normalisation now:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;1901&#39;</span><span class="p">,</span> <span class="s1">&#39;naoi déag is a haon&#39;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;2021&#39;</span><span class="p">,</span> <span class="s1">&#39;fiche is fiche is a haon&#39;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;Covid-19&#39;</span><span class="p">,</span> <span class="s1">&#39;covid a naoi déag&#39;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;fiche fiche haon&#39;</span><span class="p">,</span> <span class="s1">&#39;fiche is fiche is a haon&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I want sentences, so I'm going to use mosestokenizer to split the text (there aren't any specific abbreviations in this video, so the English splitter works fine. YMMV.)</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">mosestokenizer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The actual moses tokeniser has sentence splitting support for Irish, but the Python version was forked before that; we don't actually need any specific support for Irish here, so we can just use English.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">mosestokenizer</span> <span class="kn">import</span> <span class="n">MosesSentenceSplitter</span>
+<span class="k">with</span> <span class="n">MosesSentenceSplitter</span><span class="p">(</span><span class="s1">&#39;en&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">splitsents</span><span class="p">:</span>
+  <span class="n">sents</span> <span class="o">=</span> <span class="n">splitsents</span><span class="p">([</span><span class="n">text</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/VRg-a0qSGa8.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+  <span class="n">outfile</span><span class="o">.</span><span class="n">writelines</span><span class="p">([</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sents</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>DSAlign requires an alphabet (1 character per line), so create that first</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">alpha</span><span class="o">=</span><span class="s2">&quot;aábcdeéfghiíjklmnoópqrstuúvwxyz&#39;-&quot;</span>
+<span class="n">alpha_chars</span> <span class="o">=</span> <span class="p">[</span><span class="n">char</span> <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">alpha</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/ga.alphabet&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+  <span class="n">outfile</span><span class="o">.</span><span class="n">writelines</span><span class="p">([</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">alpha_chars</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now, to install DSAlign and its dependencies:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">mozilla</span><span class="o">/</span><span class="n">DSAlign</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">sox</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="s1">&#39;DSAlign&#39;</span><span class="p">)</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Now, I'm ready to align:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="nb">bin</span><span class="o">/</span><span class="n">align</span><span class="o">.</span><span class="n">sh</span> <span class="o">--</span><span class="n">force</span> <span class="o">--</span><span class="n">tlog</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span><span class="o">.</span><span class="n">tlog</span> <span class="o">--</span><span class="n">script</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">aligned</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">VRg</span><span class="o">-</span><span class="n">a0qSGa8</span><span class="o">.</span><span class="n">aligned</span> <span class="o">--</span><span class="n">text</span><span class="o">-</span><span class="n">meaningful</span><span class="o">-</span><span class="n">newlines</span> <span class="o">--</span><span class="n">alphabet</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">ga</span><span class="o">.</span><span class="n">alphabet</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>bin/align.sh: line 3: /content/DSAlign/venv/bin/activate: No such file or directory
+INFO:root:Aligning
+ 1 of 1 : 100.00% (elapsed: 00:00:04, speed: 0.25 it/s, ETA: 00:00:00)
+INFO:root:Aligned 24 fragments
+INFO:root:Dropped 112 fragments 466.67%:
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>24 out of 136 fragments isn't great, but it's quite good considering the WER of the model (43.7%); the next step would be to add the aligned data to the training set, retrain, and repeat.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"85aab658733e4c6aaa70316ad1486bd2": {"model_module": "@jupyter-widgets/controls", "model_name": "HBoxModel", "state": {"_view_name": "HBoxView", "_dom_classes": [], "_model_name": "HBoxModel", "_view_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_view_count": null, "_view_module_version": "1.5.0", "box_style": "", "layout": "IPY_MODEL_645d349cf21c4382a8c978fcbea0af41", "_model_module": "@jupyter-widgets/controls", "children": ["IPY_MODEL_7a288f831bfe458bb1698fe9c85edae2", "IPY_MODEL_6fed060131f34086812cd5567e7538cc"]}}, "645d349cf21c4382a8c978fcbea0af41": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}, "7a288f831bfe458bb1698fe9c85edae2": {"model_module": "@jupyter-widgets/controls", "model_name": "FloatProgressModel", "state": {"_view_name": "ProgressView", "style": "IPY_MODEL_2cc66ae29b7c47d389e713e363b91c38", "_dom_classes": [], "description": "100%", "_model_name": "FloatProgressModel", "bar_style": "success", "max": 18, "_view_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "value": 18, "_view_count": null, "_view_module_version": "1.5.0", "orientation": "horizontal", "min": 0, "description_tooltip": null, "_model_module": "@jupyter-widgets/controls", "layout": "IPY_MODEL_03e934bb2747474db84b7d80c7e99c9b"}}, "6fed060131f34086812cd5567e7538cc": {"model_module": "@jupyter-widgets/controls", "model_name": "HTMLModel", "state": {"_view_name": "HTMLView", "style": "IPY_MODEL_6eafddb79621458d8294887bdfa036fa", "_dom_classes": [], "description": "", "_model_name": "HTMLModel", "placeholder": "\u200b", "_view_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "value": " 18/18 [00:18&lt;00:00,  1.04s/ba]", "_view_count": null, "_view_module_version": "1.5.0", "description_tooltip": null, "_model_module": "@jupyter-widgets/controls", "layout": "IPY_MODEL_5e929ea1d96140f999a5ba1ccab14696"}}, "2cc66ae29b7c47d389e713e363b91c38": {"model_module": "@jupyter-widgets/controls", "model_name": "ProgressStyleModel", "state": {"_view_name": "StyleView", "_model_name": "ProgressStyleModel", "description_width": "initial", "_view_module": "@jupyter-widgets/base", "_model_module_version": "1.5.0", "_view_count": null, "_view_module_version": "1.2.0", "bar_color": null, "_model_module": "@jupyter-widgets/controls"}}, "03e934bb2747474db84b7d80c7e99c9b": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}, "6eafddb79621458d8294887bdfa036fa": {"model_module": "@jupyter-widgets/controls", "model_name": "DescriptionStyleModel", "state": {"_view_name": "StyleView", "_model_name": "DescriptionStyleModel", "description_width": "", "_view_module": "@jupyter-widgets/base", "_model_module_version": "1.5.0", "_view_count": null, "_view_module_version": "1.2.0", "_model_module": "@jupyter-widgets/controls"}}, "5e929ea1d96140f999a5ba1ccab14696": {"model_module": "@jupyter-widgets/base", "model_name": "LayoutModel", "state": {"_view_name": "LayoutView", "grid_template_rows": null, "right": null, "justify_content": null, "_view_module": "@jupyter-widgets/base", "overflow": null, "_model_module_version": "1.2.0", "_view_count": null, "flex_flow": null, "width": null, "min_width": null, "border": null, "align_items": null, "bottom": null, "_model_module": "@jupyter-widgets/base", "top": null, "grid_column": null, "overflow_y": null, "overflow_x": null, "grid_auto_flow": null, "grid_area": null, "grid_template_columns": null, "flex": null, "_model_name": "LayoutModel", "justify_items": null, "grid_row": null, "max_height": null, "align_content": null, "visibility": null, "align_self": null, "height": null, "min_height": null, "padding": null, "grid_auto_rows": null, "grid_gap": null, "max_width": null, "order": null, "_view_module_version": "1.2.0", "grid_template_areas": null, "object_position": null, "object_fit": null, "grid_auto_columns": null, "margin": null, "display": null, "left": null}}}
+</script>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/wav2vec2/dsalign/2020/03/30/using-a-wav2vec2-model-with-dsalign.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
