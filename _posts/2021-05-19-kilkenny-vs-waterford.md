@@ -43,18 +43,18 @@ Comparing
 | fadó | fədoː | fəˈdoː | 62 | fad’ ó |
 | fear | f′ar | f′ar | 44 |
 | fhios | (ə)s | _ə ŋanəs_ | 231 | i ngan-fhios |
-| lig | l′ig′ | 
+| lig | l′ig′ | l′ig′ | 426 | léig |
 | lochta | loxdə | 
 | lámh | lɑː | _laː l′ə_, _laːv′_ | p. 134 n. 2 | _láimh lé_, _láimh_ |
 | mná | mnɑː | məˈnaː | 227 |
-| ní | n′iː | 
-| raibh | re | 
+| ní | n′iː | n′iː | p. 67 n. 2 |
+| raibh | re | re | p. 119 n. 6 |
 | siad | s′iəd | 
-| siar | s′iər | 
-| suí | siː | 
-| sé | s′e | 
+| siar | s′iər | ʃiər | 180 |
+| suí | siː | siː | 24 | suidhe |
+| sé | s′e | ʃe | t. 305 | 
 | thine | hin′ə | _t′in′ə_ | 26 + 210 | _teine_
-| thá | hɑː | 
+| thá | hɑː | haː | t. 323 | atá | 
 | trí | t′ʒiː | t′siː | 219 |
 | tórramh | toːrə | 
 | uile | el′ə | 
