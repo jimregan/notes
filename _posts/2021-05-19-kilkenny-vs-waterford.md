@@ -16,6 +16,9 @@ with an addition from this:
 
 {% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
 
+I've marked the clear differences in bold face; differences in transcription (s′/ʃ) are not marked, nor are expected differences (⟨ao⟩ → [ai] in Waterford Irish; /r′/ → [ʒ] in Kilkenny Irish).
+
+_ansoin_ and _ansan_ are clearly different, but Breatnach (t. 20) gives _ó shoin_ (/oː xin′/).
 
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
