@@ -32,19 +32,19 @@ Comparing
 | broim | brəim′ | brəim′ | 545 | |
 | cadé | d′eː | d′eː | 302 | dé |
 | caidhp | kəip′ | — |
-| chuir | xiʒ | 
+| chuir | xiʒ | xir′ | 28
 | chun | xuːn | 
-| cé | k′eː | 
+| cé | k′eː | k′eː | t. 56 | cia |
 | deir | **d′er** | **d′er′** | 303 | |
-| duine | din′ə | 
+| duine | din′ə | din′ə | 77 |
 | dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
-| fadó | fədoː | 
-| fear | f′ar | 
-| fhios | (ə)s | 
+| fadó | fədoː | fəˈdoː | 62 | fad’ ó |
+| fear | f′ar | f′ar | 44 |
+| fhios | (ə)s | ə ŋanəs | 231 | i ngan-fhios |
 | lig | l′ig′ | 
 | lochta | loxdə | 
 | lámh | lɑː | 
-| mná | mnɑː | 
+| mná | mnɑː | məˈnaː | 227 |
 | ní | n′iː | 
 | raibh | re | 
 | siad | s′iəd | 
@@ -53,7 +53,7 @@ Comparing
 | sé | s′e | 
 | thine | hin′ə | 
 | thá | hɑː | 
-| trí | t′ʒiː | 
+| trí | t′ʒiː | t′siː | 219 |
 | tórramh | toːrə | 
 | uile | el′ə | 
 | well | wel′ | 
