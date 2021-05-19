@@ -89,4 +89,4 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 | uile | el′ə | 
 | well | wel′ | 
 
-[^1] Breatnach, R. B., (1947). _The Irish of Ring, Co. Waterford: A Phonetic Study._ Dublin Institute for Advanced Studies.
+[^1]: Breatnach, R. B., (1947). _The Irish of Ring, Co. Waterford: A Phonetic Study._ Dublin Institute for Advanced Studies.
