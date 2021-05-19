@@ -12,21 +12,21 @@ Comparing
 
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
-|a | ə | ə | t. 349 | |
-|acu | əku | əˈku | 163 | aca |
-|ag | eg′ | eg′ | p. 146 n. 4 | |
-|ag | ə | ə | 317 | |
-|ag | g′ | g′ | 42 | |
-|agus | ɑgəs | agə(s) | 303 | |
-|an | ən | ən | 250 | |
-|an | ə | ə | t. 339 | |
-|an | (ə)n | n | 496 | |
-|an | en | ? | ? | | |
-|anchuid | anəˈxid′ | anə + xid′ | 171 + t. 253 | ana- + chuid |
-|ann | **uːn** | **aun** | 110 | |
-|ansoin | **ənsin′** | **ənson** | 320 | annsan |
-|ar | eʒ | er′ | 42 | |
-| bean | b′an | 
+| a | ə | ə | t. 349 | |
+| acu | əku | əˈku | 163 | aca |
+| ag | eg′ | eg′ | p. 146 n. 4 | |
+| ag | ə | ə | 317 | |
+| ag | g′ | g′ | 42 | |
+| agus | ɑgəs | agə(s) | 303 | |
+| an | ən | ən | 250 | |
+| an | ə | ə | t. 339 | |
+| an | (ə)n | n | 496 | |
+| an | en | ? | ? | | |
+| anchuid | anəˈxid′ | anə + xid′ | 171 + t. 253 | ana- + chuid |
+| ann | **uːn** | **aun** | 110 | |
+| ansoin | **ənsin′** | **ənson** | 320 | annsan |
+| ar | eʒ | er′ | 42 | |
+| bean | b′an | b′an | 44 | |
 | bhean | v′an | 
 | bhí | v′iː | 
 | broim | brəim′ | brəim′ | 
