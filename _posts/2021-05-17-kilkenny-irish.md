@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: Via Cormac de Briotún: https://twitter.com/erisceres
+description: "Via [Cormac de Briotún](https://twitter.com/erisceres)"
 title: Kilkenny Irish example
 categories: [irish, twitter, kilkenny]
 ---
