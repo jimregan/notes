@@ -6,7 +6,7 @@ title: Kilkenny Irish example
 categories: [irish, twitter, kilkenny]
 ---
 
-{% https://twitter.com/erisceres/status/1394204439565713410 %}
+{% twitter https://twitter.com/erisceres/status/1394204439565713410 %}
 
 The picture is nice; transcriptions are better:
 
