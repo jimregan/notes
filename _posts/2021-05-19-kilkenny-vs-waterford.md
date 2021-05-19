@@ -8,7 +8,7 @@ categories: [irish, kilkenny, waterford]
 
 Comparing Kilkenny Irish with Waterford Irish.
 
-The Kilkenny Irish comes from these tweets:
+The Kilkenny Irish comes from these tweets: (Google Books says _Éigse_, vol. 26, p. 35)
 
 {% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
 
