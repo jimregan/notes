@@ -12,7 +12,7 @@ The Kilkenny Irish comes from these tweets: (Google Books says _Éigse_, vol. 26
 
 {% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
 
-I've marked the clear differences in bold face; differences in transcription (s′/ʃ) are not marked, nor are expected differences (⟨ao⟩ → [ai] in Waterford Irish; /r′/ → [ʒ] in Kilkenny Irish).
+I've marked the clear differences in bold face; differences in transcription (s′/ʃ, ɑː/aː) are not marked, nor are expected differences (⟨ao⟩ → [ai] in Waterford Irish; /r′/ → [ʒ] in Kilkenny Irish).
 
 The Waterford side of the comparison is from Breatnach [^1]; references as in the index. I chose the first (that matched), except with some common words, where I used the first place I came across them.
 
