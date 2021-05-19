@@ -26,3 +26,35 @@ Comparing
 |ann | **uːn** | **aun** | 110 | |
 |ansoin | **ənsin′** | **ənson** | 320 | annsan |
 |ar | eʒ | er′ | 42 | |
+| bean | b′an | 
+| bhean | v′an | 
+| bhí | v′iː | 
+| broim | brəim′ | brəim′ | 
+| caidhp | kəip′ | 	
+| chuir | xiʒ | 
+| chun | xuːn | 
+| cé | k′eː | 
+| deir | d′er | 
+| duine | din′ə | 
+| dúirt | duːrt′ | 
+| fadó | fədoː | 
+| fear | f′ar | 
+| fhios | (ə)s | 
+| lig | l′ig′ | 
+| lochta | loxdə | 
+| lámh | lɑː | 
+| mná | mnɑː | 
+| ní | n′iː | 
+| raibh | re | 
+| siad | s′iəd | 
+| siar | s′iər | 
+| suí | siː | 
+| sé | s′e | 
+| thine | hin′ə | 
+| thá | hɑː | 
+| trí | t′ʒiː | 
+| tórramh | toːrə | 
+| uile | el′ə | 
+| well | wel′ | 
+| áit | ɑːt′ | 
+| éinne | eːŋ′ə | 
