@@ -6,9 +6,16 @@ title: Kilkenny vs. Waterford
 categories: [irish, kilkenny, waterford]
 ---
 
-Comparing 
+Comparing Kilkenny Irish with Waterford Irish.
+
+The Kilkenny Irish comes from this tweet:
 
 {% twitter https://twitter.com/erisceres/status/1394204439565713410 %}
+
+with an addition from this:
+
+{% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
+
 
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
@@ -29,6 +36,7 @@ Comparing
 | ar | eʒ | er′ | 42 | |
 | bean | b′an | b′an | 44 | |
 | bhean | v′an | v′an | 483 | |
+| bhfuil | bil′ | bil′ | 399 |
 | bhí | v′iː | v′iː | 21 |
 | broim | brəim′ | brəim′ | 545 | |
 | cadé | d′eː | d′eː | 302 | dé |
@@ -36,6 +44,8 @@ Comparing
 | chuir | xiʒ | xir′ | 28
 | chun | xuːn | 
 | cé | k′eː | k′eː | t. 56 | cia |
+| conas | kunəs | kunəs | 66 | cionnus |
+| déin | t′eːn′ | d′eːn′ | 34 |
 | deir | **d′er** | **d′er′** | 303 | |
 | duine | din′ə | din′ə | 77 |
 | dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
@@ -48,14 +58,17 @@ Comparing
 | lámh | lɑː | _laː l′ə_, _laːv′_ | p. 134 n. 2 | _láimh lé_, _láimh_ |
 | mná | mnɑː | məˈnaː | 227 |
 | ní | n′iː | n′iː | p. 67 n. 2 |
+| orthu | orhə | orhə | 57 | ortha |
 | raibh | re | re | p. 119 n. 6 |
 | siad | s′iəd | 
 | siar | s′iər | ʃiər | 180 |
 | suí | siː | siː | 24 | suidhe |
 | sé | s′e | ʃe | t. 305 | 
+| t-ainm | tan′əm′ | _an′əm′_ | 44 | _ainm_ |
 | thine | hin′ə | _t′in′ə_ | 26 + 210 | _teine_
 | thá | hɑː | haː | t. 323 | atá | 
 | trí | t′ʒiː | t′siː | 219 |
+| tú | tu | **tuː**, **tə** | 134, 80 |
 | tórramh | toːrə | 
 | uile | el′ə | 
 | well | wel′ | 
