@@ -18,9 +18,11 @@ with an addition from this:
 
 I've marked the clear differences in bold face; differences in transcription (s′/ʃ) are not marked, nor are expected differences (⟨ao⟩ → [ai] in Waterford Irish; /r′/ → [ʒ] in Kilkenny Irish).
 
+The Waterford side of the comparison is from Breatnach [^1]; references as in the index. I chose the first (that matched), except with some common words, where I used the first place I came across them.
+
 _ansoin_ and _ansan_ are clearly different, but Breatnach (t. 20) gives _ó shoin_ (/oː xin′/).
 
-The retention of /r′/ in _dúirt_ in Waterford Irish is unusual; though 
+_raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns, and considers it a back-formation from the unstressed form /rə/ (/rev′/ stressed).
 
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
@@ -84,3 +86,5 @@ The retention of /r′/ in _dúirt_ in Waterford Irish is unusual; though
 | tórramh | toːrə | 
 | uile | el′ə | 
 | well | wel′ | 
+
+[^1] Breatnach, R. B., (1947). _The Irish of Ring, Co. Waterford: A Phonetic Study._ Dublin Institute for Advanced Studies.
