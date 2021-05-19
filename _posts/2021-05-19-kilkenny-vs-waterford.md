@@ -27,16 +27,17 @@ Comparing
 | ansoin | **ənsin′** | **ənson** | 320 | annsan |
 | ar | eʒ | er′ | 42 | |
 | bean | b′an | b′an | 44 | |
-| bhean | v′an | 
-| bhí | v′iː | 
-| broim | brəim′ | brəim′ | 
-| caidhp | kəip′ | 	
+| bhean | v′an | v′an | 483 | |
+| bhí | v′iː | v′iː | 21 |
+| broim | brəim′ | brəim′ | 545 | |
+| cadé | d′eː | d′eː | 302 | dé |
+| caidhp | kəip′ | — |
 | chuir | xiʒ | 
 | chun | xuːn | 
 | cé | k′eː | 
-| deir | d′er | 
+| deir | **d′er** | **d′er′** | 303 | |
 | duine | din′ə | 
-| dúirt | duːrt′ | 
+| dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
 | fadó | fədoː | 
 | fear | f′ar | 
 | fhios | (ə)s | 
