@@ -18,6 +18,7 @@ Comparing
 | ag | ə | ə | 317 | |
 | ag | g′ | g′ | 42 | |
 | agus | ɑgəs | agə(s) | 303 | |
+| áit | ɑːt′ | aːt′ | 53 |
 | an | ən | ən | 250 | |
 | an | ə | ə | t. 339 | |
 | an | (ə)n | n | 496 | |
@@ -38,6 +39,7 @@ Comparing
 | deir | **d′er** | **d′er′** | 303 | |
 | duine | din′ə | din′ə | 77 |
 | dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
+| éinne | eːŋ′ə | aiŋ′ə | 106 | aonduine |
 | fadó | fədoː | fəˈdoː | 62 | fad’ ó |
 | fear | f′ar | f′ar | 44 |
 | fhios | (ə)s | _ə ŋanəs_ | 231 | i ngan-fhios |
@@ -57,5 +59,3 @@ Comparing
 | tórramh | toːrə | 
 | uile | el′ə | 
 | well | wel′ | 
-| áit | ɑːt′ | 
-| éinne | eːŋ′ə | 
