@@ -20,6 +20,8 @@ I've marked the clear differences in bold face; differences in transcription (s�
 
 _ansoin_ and _ansan_ are clearly different, but Breatnach (t. 20) gives _ó shoin_ (/oː xin′/).
 
+The retention of /r′/ in _dúirt_ in Waterford Irish is unusual; though 
+
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
 | a | ə | ə | t. 349 | |
@@ -33,8 +35,10 @@ _ansoin_ and _ansan_ are clearly different, but Breatnach (t. 20) gives _ó shoi
 | an | ə | ə | t. 339 | |
 | an | (ə)n | n | 496 | |
 | an | en | ? | ? | | |
+| anall | ənəul | (ə)ˈnaul | 111 |
 | anchuid | anəˈxid′ | anə + xid′ | 171 + t. 253 | ana- + chuid |
 | ann | **uːn** | **aun** | 110 | |
+| anonn | **ənuːn** | **(ə)ˈnaun** | 111 |
 | ansoin | **ənsin′** | **ənson** | 320 | annsan |
 | ar | eʒ | er′ | 42 | |
 | bean | b′an | b′an | 44 | |
@@ -45,28 +49,33 @@ _ansoin_ and _ansan_ are clearly different, but Breatnach (t. 20) gives _ó shoi
 | cadé | d′eː | d′eː | 302 | dé |
 | caidhp | kəip′ | — |
 | chuir | xiʒ | xir′ | 28
-| chun | xuːn | 
+| chun | xuːn | xuːn | 308 | chún |
 | cé | k′eː | k′eː | t. 56 | cia |
 | conas | kunəs | kunəs | 66 | cionnus |
-| déin | t′eːn′ | d′eːn′ | 34 |
+| cuir | **kir** | **kir′** | 260 |
+| déin | **t′eːn′** | **d′eːn′** | 34 |
 | deir | **d′er** | **d′er′** | 303 | |
 | duine | din′ə | din′ə | 77 |
 | dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
 | éinne | eːŋ′ə | aiŋ′ə | 106 | aonduine |
 | fadó | fədoː | fəˈdoː | 62 | fad’ ó |
 | fear | f′ar | f′ar | 44 |
+| feicim | **hek′əm′** | **f′ek′əm′** | 553 | faicim |
 | fhios | (ə)s | _ə ŋanəs_ | 231 | i ngan-fhios |
 | lig | l′ig′ | l′ig′ | 426 | léig |
 | lochta | loxdə | 
 | lámh | lɑː | _laː l′ə_, _laːv′_ | p. 134 n. 2 | _láimh lé_, _láimh_ |
+| leis | l′es′ | l′eʃ | 39 |
 | mná | mnɑː | məˈnaː | 227 |
 | ní | n′iː | n′iː | p. 67 n. 2 |
 | orthu | orhə | orhə | 57 | ortha |
 | raibh | re | re | p. 119 n. 6 |
+| réidh | **reː** | **reːg′** | 36 |
 | siad | s′iəd | 
 | siar | s′iər | ʃiər | 180 |
 | suí | siː | siː | 24 | suidhe |
-| sé | s′e | ʃe | t. 305 | 
+| sé | s′e | ʃe | t. 305 |
+| scian | s′g′iən | ʃg′iən | 87 |
 | t-ainm | tan′əm′ | _an′əm′_ | 44 | _ainm_ |
 | thine | hin′ə | _t′in′ə_ | 26 + 210 | _teine_
 | thá | hɑː | haː | t. 323 | atá | 
