@@ -40,10 +40,10 @@ Comparing
 | dúirt | **duːrt′** | **duːr′t′** | 72 | adubhairt |
 | fadó | fədoː | fəˈdoː | 62 | fad’ ó |
 | fear | f′ar | f′ar | 44 |
-| fhios | (ə)s | ə ŋanəs | 231 | i ngan-fhios |
+| fhios | (ə)s | _ə ŋanəs_ | 231 | i ngan-fhios |
 | lig | l′ig′ | 
 | lochta | loxdə | 
-| lámh | lɑː | 
+| lámh | lɑː | _laː l′ə_, _laːv′_ | p. 134 n. 2 | _láimh lé_, _láimh_ |
 | mná | mnɑː | məˈnaː | 227 |
 | ní | n′iː | 
 | raibh | re | 
@@ -51,7 +51,7 @@ Comparing
 | siar | s′iər | 
 | suí | siː | 
 | sé | s′e | 
-| thine | hin′ə | 
+| thine | hin′ə | _t′in′ə_ | 26 + 210 | _teine_
 | thá | hɑː | 
 | trí | t′ʒiː | t′siː | 219 |
 | tórramh | toːrə | 
