@@ -8,11 +8,7 @@ categories: [irish, kilkenny, waterford]
 
 Comparing Kilkenny Irish with Waterford Irish.
 
-The Kilkenny Irish comes from this tweet:
-
-{% twitter https://twitter.com/erisceres/status/1394204439565713410 %}
-
-with an addition from this:
+The Kilkenny Irish comes from these tweets:
 
 {% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
 
@@ -28,31 +24,30 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 
 |K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
 |-|-|-|-|-|
-| a | ə | ə | t. 349 | |
+| a | ə | ə | t. 349 |
 | acu | əku | əˈku | 163 | aca |
-| ag | eg′ | eg′ | p. 146 n. 4 | |
-| ag | ə | ə | 317 | |
-| ag | g′ | g′ | 42 | |
-| agus | ɑgəs | agə(s) | 303 | |
+| ag | eg′ | eg′ | p. 146 n. 4 |
+| ag | ə | ə | 317 |
+| ag | g′ | g′ | 42 |
+| agus | ɑgəs | agə(s) | 303 |
 | áit | ɑːt′ | aːt′ | 53 |
-| an | ən | ən | 250 | |
-| an | ə | ə | t. 339 | |
-| an | (ə)n | n | 496 | |
-| an | en | ? | ? | | |
+| an | ən | ən | 250 |
+| an | ə | ə | t. 339 |
+| an | (ə)n | n | 496 |
+| ag an | g′en | g′en | t. 78 | aige ’n |
 | anall | ənəul | (ə)ˈnaul | 111 |
 | anchuid | anəˈxid′ | anə + xid′ | 171 + t. 253 | ana- + chuid |
-| ann | **uːn** | **aun** | 110 | |
+| ann | **uːn** | **aun** | 110 |
 | anonn | **ənuːn** | **(ə)ˈnaun** | 111 |
 | ansoin | **ənsin′** | **ənson** | 320 | annsan |
-| ar | eʒ | er′ | 42 | |
-| bean | b′an | b′an | 44 | |
-| bhean | v′an | v′an | 483 | |
+| ar | eʒ | er′ | 42 |
+| bean | b′an | b′an | 44 |
+| bhean | v′an | v′an | 483 |
 | bhfuil | bil′ | bil′ | 399 |
 | bhí | v′iː | v′iː | 21 |
-| broim | brəim′ | brəim′ | 545 | |
+| broim | brəim′ | brəim′ | 545 |
 | cadé | d′eː | d′eː | 302 | dé |
-| caidhp | kəip′ | — |
-| chuir | xiʒ | xir′ | 28
+| chuir | xiʒ | xir′ | 28 |
 | chun | xuːn | xuːn | 308 | chún |
 | cé | k′eː | k′eː | t. 56 | cia |
 | conas | kunəs | kunəs | 66 | cionnus |
@@ -67,7 +62,6 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 | feicim | **hek′əm′** | **f′ek′əm′** | 553 | faicim |
 | fhios | (ə)s | _ə ŋanəs_ | 231 | i ngan-fhios |
 | lig | l′ig′ | l′ig′ | 426 | léig |
-| lochta | loxdə | 
 | lámh | lɑː | _laː l′ə_, _laːv′_ | p. 134 n. 2 | _láimh lé_, _láimh_ |
 | leis | l′es′ | l′eʃ | 39 |
 | mná | mnɑː | məˈnaː | 227 |
@@ -75,7 +69,6 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 | orthu | orhə | orhə | 57 | ortha |
 | raibh | re | re | p. 119 n. 6 |
 | réidh | **reː** | **reːg′** | 36 |
-| siad | s′iəd | 
 | siar | s′iər | ʃiər | 180 |
 | suí | siː | siː | 24 | suidhe |
 | sé | s′e | ʃe | t. 305 |
@@ -85,8 +78,5 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 | thá | hɑː | haː | t. 323 | atá | 
 | trí | t′ʒiː | t′siː | 219 |
 | tú | tu | **tuː**, **tə** | 134, 80 |
-| tórramh | toːrə | 
-| uile | el′ə | 
-| well | wel′ | 
 
 [^1]: Breatnach, R. B., (1947). _The Irish of Ring, Co. Waterford: A Phonetic Study._ Dublin Institute for Advanced Studies.
