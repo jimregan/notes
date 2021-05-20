@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Running rbg2p",
+            "title": "Running rbg2p on Colab",
             "content": "!pip install -q condacolab import condacolab condacolab.install() . ⏬ Downloading https://github.com/jaimergp/miniforge/releases/latest/download/Mambaforge-colab-Linux-x86_64.sh... 📦 Installing... 📌 Adjusting configuration... 🩹 Patching environment... ⏲ Done in 0:00:30 🔁 Restarting kernel... . %%capture !conda install -c conda-forge go go-cgo -y . %%capture !pip install --upgrade setuptools wheel . !go get github.com/sergi/go-diff !go get github.com/stts-se/rbg2p . go: downloading github.com/sergi/go-diff v1.2.0 . !git clone https://github.com/stts-se/rbg2p . Cloning into &#39;rbg2p&#39;... remote: Enumerating objects: 3918, done. remote: Counting objects: 100% (123/123), done. remote: Compressing objects: 100% (85/85), done. remote: Total 3918 (delta 59), reused 77 (delta 29), pack-reused 3795 Receiving objects: 100% (3918/3918), 678.17 KiB | 2.32 MiB/s, done. Resolving deltas: 100% (1233/1233), done. . import os os.environ[&quot;PATH&quot;]=f&#39;{os.environ[&quot;PATH&quot;]}:/root/go/bin&#39; . %cd rbg2p . /content/rbg2p . %%writefile maori.g2p CHARACTER_SET &quot;aeghikmnoprtuwāēīōū&quot; DEFAULT_PHONEME &quot;_&quot; PHONEME_DELIMITER &quot; &quot; wh -&gt; f h -&gt; h k -&gt; k m -&gt; m ng -&gt; ŋ n -&gt; n p -&gt; p r -&gt; ɾ t -&gt; t w -&gt; w au -&gt; au ā -&gt; aː a -&gt; a ē -&gt; ɛː e -&gt; ɛ ī -&gt; iː i -&gt; i ō -&gt; ɔː o -&gt; ɔ ū -&gt; ʉː u -&gt; ʉ g -&gt; ∅ . Writing maori.g2p . !echo kaumātua | go run cmd/g2p/g2p.go ../maori.g2p . 0 ERROR(S) FOR ../maori.g2p 0 WARNING(S) FOR ../maori.g2p ALL 0 TESTS PASSED FOR ../maori.g2p Reading input from stdin... kaumātua k au m aː t ʉ a TOTAL INPUT : 1 ERRORS : 0 TRANSCRIBED : 1 .",
-            "url": "https://jimregan.github.io/notes/go/python/rbg2p/2021/05/20/running-rbg2p.html",
-            "relUrl": "/go/python/rbg2p/2021/05/20/running-rbg2p.html",
+            "url": "https://jimregan.github.io/notes/rbg2p/colab/2021/05/20/running-rbg2p.html",
+            "relUrl": "/rbg2p/colab/2021/05/20/running-rbg2p.html",
             "date": " • May 20, 2021"
         }
         
