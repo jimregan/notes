@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      2 min read
     
 </span></p>
 
@@ -218,7 +218,7 @@ Successfully installed condacolab-0.1.2
 📦 Installing...
 📌 Adjusting configuration...
 🩹 Patching environment...
-⏲ Done in 0:00:34
+⏲ Done in 0:00:36
 🔁 Restarting kernel...
 </pre>
 </div>
@@ -237,7 +237,8 @@ Successfully installed condacolab-0.1.2
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>conda install -c pykaldi pykaldi -y
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">pykaldi</span> <span class="n">pykaldi</span> <span class="o">-</span><span class="n">y</span>
 </pre></div>
 
     </div>
@@ -270,8 +271,8 @@ Successfully installed condacolab-0.1.2
 <pre>Cloning into &#39;fairseq&#39;...
 remote: Enumerating objects: 28296, done.
 remote: Total 28296 (delta 0), reused 0 (delta 0), pack-reused 28296
-Receiving objects: 100% (28296/28296), 11.77 MiB | 16.71 MiB/s, done.
-Resolving deltas: 100% (21291/21291), done.
+Receiving objects: 100% (28296/28296), 11.77 MiB | 24.69 MiB/s, done.
+Resolving deltas: 100% (21286/21286), done.
 </pre>
 </div>
 </div>
@@ -307,7 +308,7 @@ remote: Enumerating objects: 13824, done.
 remote: Counting objects: 100% (137/137), done.
 remote: Compressing objects: 100% (79/79), done.
 remote: Total 13824 (delta 76), reused 92 (delta 45), pack-reused 13687
-Receiving objects: 100% (13824/13824), 5.49 MiB | 11.12 MiB/s, done.
+Receiving objects: 100% (13824/13824), 5.49 MiB | 20.76 MiB/s, done.
 Resolving deltas: 100% (7956/7956), done.
 </pre>
 </div>
@@ -344,31 +345,10 @@ Resolving deltas: 100% (7956/7956), done.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> kenlm
-<span class="o">!</span>mkdir build
-<span class="o">%</span><span class="k">cd</span> build
-<span class="o">!</span>cmake ..
-<span class="o">!</span>make -j <span class="m">4</span>
-<span class="o">%</span><span class="k">cd</span> /tmp
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /content/kenlm
-<span class="o">!</span>python setup.py install
-<span class="o">%</span><span class="k">cd</span> /tmp
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">kenlm</span>
+<span class="err">!</span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+<span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">tmp</span>
 </pre></div>
 
     </div>
@@ -435,7 +415,8 @@ Resolving deltas: 100% (7956/7956), done.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>python setup.py install
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
 </pre></div>
 
     </div>
@@ -494,7 +475,8 @@ Resolving deltas: 100% (7956/7956), done.
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install kaggle
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">kaggle</span>
 </pre></div>
 
     </div>
@@ -535,8 +517,8 @@ Resolving deltas: 100% (7956/7956), done.
 
 <div class="output_html rendered_html output_subarea ">
 
-     <input type="file" id="files-99f401f2-6150-4bbe-869e-1a2c87ed566e" name="files[]" multiple="" disabled="" style="border:none" />
-     <output id="result-99f401f2-6150-4bbe-869e-1a2c87ed566e">
+     <input type="file" id="files-5e4e6896-01cc-4d10-86eb-d4ad216b5965" name="files[]" multiple="" disabled="" style="border:none" />
+     <output id="result-5e4e6896-01cc-4d10-86eb-d4ad216b5965">
       Upload widget is only available when the cell has been executed in the
       current browser session. Please rerun this cell to enable.
       </output>
@@ -612,8 +594,8 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Downloading w2vu-cvsv-prepared-text.zip to /content
- 29% 5.00M/17.4M [00:00&lt;00:00, 31.7MB/s]
-100% 17.4M/17.4M [00:00&lt;00:00, 75.8MB/s]
+ 75% 13.0M/17.4M [00:00&lt;00:00, 55.1MB/s]
+100% 17.4M/17.4M [00:00&lt;00:00, 64.5MB/s]
 </pre>
 </div>
 </div>
@@ -631,7 +613,8 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>unzip /content/w2vu-cvsv-prepared-text.zip
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">unzip</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">w2vu</span><span class="o">-</span><span class="n">cvsv</span><span class="o">-</span><span class="n">prepared</span><span class="o">-</span><span class="n">text</span><span class="o">.</span><span class="n">zip</span>
 </pre></div>
 
     </div>
@@ -662,8 +645,8 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Downloading w2vu-cvsv-precompute-pca512-cls128-mean-pooled.zip to /content
- 94% 369M/394M [00:03&lt;00:00, 122MB/s]
-100% 394M/394M [00:03&lt;00:00, 120MB/s]
+ 98% 386M/394M [00:04&lt;00:00, 90.1MB/s]
+100% 394M/394M [00:04&lt;00:00, 102MB/s] 
 </pre>
 </div>
 </div>
@@ -681,7 +664,8 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>unzip w2vu-cvsv-precompute-pca512-cls128-mean-pooled.zip
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">unzip</span> <span class="n">w2vu</span><span class="o">-</span><span class="n">cvsv</span><span class="o">-</span><span class="n">precompute</span><span class="o">-</span><span class="n">pca512</span><span class="o">-</span><span class="n">cls128</span><span class="o">-</span><span class="n">mean</span><span class="o">-</span><span class="n">pooled</span><span class="o">.</span><span class="n">zip</span>
 </pre></div>
 
     </div>
@@ -819,13 +803,28 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
+<span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s1">&#39;/content/drive&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> rungan.sh
 <span class="n">PREFIX</span><span class="o">=</span><span class="n">w2v_unsup_gan_xp</span>
-<span class="c1">#TASK_DATA=/path/to/features/unfiltered/precompute_unfiltered_pca512_cls128_mean_pooled</span>
 <span class="n">TASK_DATA</span><span class="o">=/</span><span class="n">content</span><span class="o">/</span><span class="n">precompute_pca512_cls128_mean_pooled</span>
-<span class="c1">#TEXT_DATA=/path/to/data  # path to fairseq-preprocessed GAN data</span>
 <span class="n">TEXT_DATA</span><span class="o">=/</span><span class="n">content</span><span class="o">/</span><span class="n">preppedtext</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span>
-<span class="c1">#KENLM_PATH=/path/to/data/kenlm.phn.o4.bin  # KenLM 4-gram phoneme language model (LM data = GAN data here)</span>
 <span class="n">KENLM_PATH</span><span class="o">=/</span><span class="n">content</span><span class="o">/</span><span class="n">preppedtext</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">04.</span><span class="n">bin</span>
 
 <span class="n">PREFIX</span><span class="o">=</span><span class="err">$</span><span class="n">PREFIX</span> <span class="n">CUDA_LAUNCH_BLOCKING</span><span class="o">=</span><span class="mi">1</span> <span class="n">fairseq</span><span class="o">-</span><span class="n">hydra</span><span class="o">-</span><span class="n">train</span> \
@@ -835,6 +834,8 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 	<span class="n">task</span><span class="o">.</span><span class="n">text_data</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="n">TEXT_DATA</span><span class="p">}</span> \
 	<span class="n">task</span><span class="o">.</span><span class="n">kenlm_path</span><span class="o">=</span><span class="err">$</span><span class="p">{</span><span class="n">KENLM_PATH</span><span class="p">}</span> \
 	<span class="n">checkpoint</span><span class="o">.</span><span class="n">no_epoch_checkpoints</span><span class="o">=</span><span class="n">false</span> \
+	<span class="n">checkpoint</span><span class="o">.</span><span class="n">keep_last_epochs</span><span class="o">=</span><span class="mi">5</span> \
+	<span class="n">checkpoint</span><span class="o">.</span><span class="n">save_dir</span><span class="o">=/</span><span class="n">content</span><span class="o">/</span><span class="n">drive</span><span class="o">/</span><span class="n">MyDrive</span><span class="o">/</span><span class="n">w2vu</span> \
 	<span class="s1">&#39;common.seed=range(0,5)&#39;</span>
 </pre></div>
 
@@ -879,20 +880,15 @@ User uploaded file &#34;kaggle.json&#34; with length 64 bytes
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[2021-06-03 21:49:40,282][fairseq.tasks.unpaired_audio_text][INFO] - REF: ɛ n f œ ʂ ə n a d ɵ ʂ ə k t f øː r d eː t s ɔ m h ɛ n d ə p oː ɕ œ r k ɔ n s ɛ t ə n
-[2021-06-03 21:49:40,286][fairseq.tasks.unpaired_audio_text][INFO] - HYP: s oː ɵ s ɵ yː f øː r m yː ʃ ɕ ɵ ʃ yː s ʃ yː v a k ɵ l a k ɔ m ə a s ɡ v uː l v a r d ə ɕ uː tː f øː d ə m ə oː
-[2021-06-03 21:49:40,295][fairseq.tasks.unpaired_audio_text][INFO] - LM [REF]: -53.44462585449219, 0.05339602260269112
-[2021-06-03 21:49:40,295][fairseq.tasks.unpaired_audio_text][INFO] - LM [HYP]: -97.8524169921875, 0.012059384906545269
-[2021-06-03 21:49:40,917][valid][INFO] - {&#34;epoch&#34;: 601, &#34;valid_loss&#34;: &#34;1.003&#34;, &#34;valid_ntokens&#34;: &#34;3039.79&#34;, &#34;valid_nsentences&#34;: &#34;144.214&#34;, &#34;valid_lm_score_sum&#34;: &#34;-90380.3&#34;, &#34;valid_num_pred_chars&#34;: &#34;48062&#34;, &#34;valid_vocab_seen_pct&#34;: &#34;0.881533&#34;, &#34;valid_uer&#34;: &#34;100.282&#34;, &#34;valid_weighted_lm_ppl&#34;: &#34;82.0741&#34;, &#34;valid_lm_ppl&#34;: &#34;63.7798&#34;, &#34;valid_wps&#34;: &#34;16767.1&#34;, &#34;valid_wpb&#34;: &#34;3039.8&#34;, &#34;valid_bsz&#34;: &#34;144.2&#34;, &#34;valid_num_updates&#34;: &#34;9616&#34;, &#34;valid_best_weighted_lm_ppl&#34;: &#34;81.1358&#34;}
-[2021-06-03 21:49:40,918][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 601 @ 9616 updates
-[2021-06-03 21:49:40,919][fairseq.trainer][INFO] - Saving checkpoint to ./checkpoint601.pt
-[2021-06-03 21:49:40,950][fairseq.trainer][INFO] - Finished saving checkpoint to ./checkpoint601.pt
-[2021-06-03 21:49:40,966][fairseq.checkpoint_utils][INFO] - Saved checkpoint ./checkpoint601.pt (epoch 601 @ 9616 updates, score 82.07407569167788) (writing took 0.04761703300027875 seconds)
-[2021-06-03 21:49:40,966][fairseq_cli.train][INFO] - end of epoch 601 (average epoch stats below)
-[2021-06-03 21:49:40,967][train][INFO] - {&#34;epoch&#34;: 601, &#34;train_loss&#34;: &#34;2.139&#34;, &#34;train_ntokens&#34;: &#34;145.688&#34;, &#34;train_nsentences&#34;: &#34;145.688&#34;, &#34;train_temp&#34;: &#34;1.237&#34;, &#34;train_code_ppl&#34;: &#34;9.569&#34;, &#34;train_loss_code_pen&#34;: &#34;0.293&#34;, &#34;train_loss_smoothness&#34;: &#34;1.559&#34;, &#34;train_loss_dense_g&#34;: &#34;2.356&#34;, &#34;train_lm_score_sum&#34;: 0.0, &#34;train_num_pred_chars&#34;: 0.0, &#34;train_loss_grad_pen&#34;: &#34;0.179&#34;, &#34;train_loss_dense_d&#34;: &#34;0.138&#34;, &#34;train_loss_token_d&#34;: &#34;0.123&#34;, &#34;train_wps&#34;: &#34;255.4&#34;, &#34;train_ups&#34;: &#34;1.75&#34;, &#34;train_wpb&#34;: &#34;145.7&#34;, &#34;train_bsz&#34;: &#34;145.7&#34;, &#34;train_num_updates&#34;: &#34;9616&#34;, &#34;train_lr_discriminator&#34;: &#34;0.0005&#34;, &#34;train_lr_generator&#34;: &#34;0.0004&#34;, &#34;train_gnorm&#34;: &#34;17.731&#34;, &#34;train_clip&#34;: &#34;81.2&#34;, &#34;train_train_wall&#34;: &#34;5&#34;, &#34;train_gb_free&#34;: &#34;14.2&#34;, &#34;train_wall&#34;: &#34;5425&#34;}
-[2021-06-03 21:49:40,997][fairseq.logging.progress_bar][WARNING] - tensorboard not found, please install with: pip install tensorboard
-[2021-06-03 21:49:41,000][fairseq.trainer][INFO] - begin training epoch 602
-[2021-06-03 21:49:41,001][fairseq_cli.train][INFO] - Start iterating over samples
+<pre>[2021-06-04 00:06:14,189][fairseq.tasks.unpaired_audio_text][INFO] - REF: ɛ n f œ ʂ ə n a d ɵ ʂ ə k t f øː r d eː t s ɔ m h ɛ n d ə p oː ɕ œ r k ɔ n s ɛ t ə n
+[2021-06-04 00:06:14,192][fairseq.tasks.unpaired_audio_text][INFO] - HYP: oː b iː ʃ œ m ɕ m œ ɕ ɪ ɵ ɕ ɵ m ɵ s ɵ uː ɵ s ɵ ɛ ʂ a tː sx
+[2021-06-04 00:06:14,198][fairseq.tasks.unpaired_audio_text][INFO] - LM [REF]: -53.44462585449219, 0.05339602260269112
+[2021-06-04 00:06:14,198][fairseq.tasks.unpaired_audio_text][INFO] - LM [HYP]: -61.104984283447266, 0.006571721232914821
+[2021-06-04 00:06:14,844][valid][INFO] - {&#34;epoch&#34;: 8, &#34;valid_loss&#34;: &#34;0.93&#34;, &#34;valid_ntokens&#34;: &#34;3039.79&#34;, &#34;valid_nsentences&#34;: &#34;144.214&#34;, &#34;valid_lm_score_sum&#34;: &#34;-71760.8&#34;, &#34;valid_num_pred_chars&#34;: &#34;28972&#34;, &#34;valid_vocab_seen_pct&#34;: &#34;0.949477&#34;, &#34;valid_uer&#34;: &#34;92.9812&#34;, &#34;valid_weighted_lm_ppl&#34;: &#34;229.386&#34;, &#34;valid_lm_ppl&#34;: &#34;206.793&#34;, &#34;valid_wps&#34;: &#34;15426&#34;, &#34;valid_wpb&#34;: &#34;3039.8&#34;, &#34;valid_bsz&#34;: &#34;144.2&#34;, &#34;valid_num_updates&#34;: &#34;128&#34;, &#34;valid_best_weighted_lm_ppl&#34;: &#34;189.002&#34;}
+[2021-06-04 00:06:14,846][fairseq.checkpoint_utils][INFO] - Preparing to save checkpoint for epoch 8 @ 128 updates
+[2021-06-04 00:06:14,847][fairseq.trainer][INFO] - Saving checkpoint to /content/drive/MyDrive/w2vu/checkpoint8.pt
+[2021-06-04 00:06:14,911][fairseq.trainer][INFO] - Finished saving checkpoint to /content/drive/MyDrive/w2vu/checkpoint8.pt
+[2021-06-04 00:06:14,974][fairseq.checkpoint_utils][INFO] - Saved checkpoint /content/drive/MyDrive/w2vu/checkpoint8.pt (epoch 8 @ 128 updates, score 229.38563413598007) (writing took 0.12713056299980963 seconds)
 </pre>
 </div>
 </div>
