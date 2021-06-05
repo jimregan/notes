@@ -83,3 +83,16 @@ There's a passing mention of rVAD, like it's a common piece of software that you
 
 This went fairly smoothly; I wrestled with Kaggle a bit, but I think any problems here were of my own creation.
 
+## Step 2: `prepare_audio.sh`
+
+My notebook for [prepare_audio.sh]({% post_url 2021-05-27-wav2vec-u-cv-swedish-audio %}) is quite short; basically, you need the `dict.*`, `*.wrd`, `*.ltr`, and `*.phn` files from Step 0.1, and:
+
+```
+pip install npy-append-array faiss-gpu
+```
+
+(also, possibly, `apt install zsh`)
+
+Also: wow! This used GPU on Kaggle, and actually worked.
+
+## Step 3: 
