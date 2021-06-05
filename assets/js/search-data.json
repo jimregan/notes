@@ -68,10 +68,10 @@
   
     
         ,"post6": {
-            "title": "Title",
+            "title": "Azure ASR's JSONL output to JSON",
             "content": "import glob import json for i in glob.glob(&#39;../input/mo-sgeal-fein-wikisource-azure-asr-output/*.jsonl&#39;): outf = i.replace(&#39;jsonl&#39;, &#39;json&#39;).split(&#39;/&#39;)[-1] with open(i) as f: curfile = [] for line in f.readlines(): cur = {} json_data = json.loads(line) cur[&#39;start&#39;] = json_data[&#39;Offset&#39;] cur[&#39;duration&#39;] = json_data[&#39;Duration&#39;] cur[&#39;text&#39;] = json_data[&#39;NBest&#39;][0][&#39;Lexical&#39;] curfile.append(cur) with open(outf, &#39;w&#39;) as of: json.dump(curfile, of) .",
-            "url": "https://jimregan.github.io/notes/2021/05/04/msf-azure-jsonl-to-json.html",
-            "relUrl": "/2021/05/04/msf-azure-jsonl-to-json.html",
+            "url": "https://jimregan.github.io/notes/azure/irish/asr/2021/05/04/msf-azure-jsonl-to-json.html",
+            "relUrl": "/azure/irish/asr/2021/05/04/msf-azure-jsonl-to-json.html",
             "date": " • May 4, 2021"
         }
         
