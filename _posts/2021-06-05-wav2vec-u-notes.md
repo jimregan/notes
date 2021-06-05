@@ -112,5 +112,12 @@ My notebook for running `prepare_text.sh` has more notes than usual: [check it o
 
 ## Step 4: GAN training
 
-This doesn't work on Kaggle, because GPU. It does, however, run on CPU, albeit 8-9 times slower, so I've been chaining together calls
+This doesn't work on Kaggle, because GPU. It does, however, run on CPU—albeit 8-9 times slower—so I've been chaining together calls, starting with [this]({% post_url 2021-06-01-wav2vec-u-cv-swedish-gan-cpu1 %}), leading up to (at the time of writing) [this]({% post_url 2021-06-05-wav2vec-u-cv-swedish-gan-cpu8 %}).
+
+The good news is, it runs fine on Colab: [notebook here]({% post_url 2021-05-30-wav2vec-u-cv-swedish-gan %}).
+
+## Fin
+
+I'm still waiting for GAN training to finish, so I can't comment on anything else.
+
 
