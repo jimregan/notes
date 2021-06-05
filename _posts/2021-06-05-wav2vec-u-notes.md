@@ -22,7 +22,7 @@ I like Kaggle. A lot. I like the workflow, and being able to use the output of o
 
 But the GPU images on Kaggle are seriously broken. It could be by design: the handful of things I've tried that are run purely as a notebook seem to work well. Maybe conda is deliberately cobbled, maybe it's unintentional, but it fails more often than not. So anything that involves using a GPU: switch to Colab.
 
-## Step 0: Audio
+## Step 0: Data
 
 In an ideal world, Kaggle's dataset uploader would Do The Right Thing when given a link to a zip file, or, rather, one of two Right Things: just download it, or download and unzip. Instead, it creates a directory for every file in the zip.
 
@@ -31,4 +31,47 @@ In an ideal world, Kaggle's dataset uploader would Do The Right Thing when given
 Cool, I'll just do that in a [notebook]({% post_url 2021-05-25-download-common-voice-swedish %}).
 
 wav2vec-u (and just about everything else in the world of ASR, ever) needs audio sampled at 16 kHz, and uses `soundfile`, so MP3s are not welcome, so I'll do that in [another notebook]({% post_url 2021-05-25-common-voice-swedish-16bit-wav %}).
+
+## Step 0.1: ltr/wrd/phn files
+
+Preparing these files is mentioned in passing, as though they're self-explanatory. Which they are, if you happen to have played with phoneme-based ASR as well as wav2letter. So, not really.
+
+What I ended up doing is [this]({% post_url 2021-05-26-wav2vec-u-cv-swedish-prep-ltr-phn-wrd %}); I _should have_ changed the tab separation in the `dict.*` files to a space, because that's what's usually given to Kaldi, but IIRC, it handles tab. So change:
+
+```
+paste /tmp/$i.wl /tmp/$i.wl.phn > dict.$i
+```
+
+to:
+
+```
+paste /tmp/$i.wl /tmp/$i.wl.phn | tr '\t' ' ' > dict.$i
+```
+
+or equivalent.
+
+Caveat: I can't say for sure if these are actually correct outputs, and I'm not even sure they're actually used by default, aside from the `prepare_audio.sh` script dying if they're missing.
+
+There are some notes in [that notebook]({% post_url 2021-05-26-wav2vec-u-cv-swedish-prep-ltr-phn-wrd %}) where I tracked down and corrected for espeak's language switching; feel free to ignore that if you're not borderline OCD.
+
+## Step 0.2: Preparing TSVs
+
+Another thing that's glossed over a bit is the TSV files, which are more pseudo-TSV.
+
+"Similar to wav2vec 2.0" is more-or-less true, in that you can figure it out if you look at [this script](https://github.com/pytorch/fairseq/blob/master/examples/wav2vec/libri_labels.py); basically, the format is:
+
+```
+/path/to/my/audio/
+file1.wav	[number of frames]
+file2.wav	[number of frames]
+... (etc.)
+```
+
+I used [this notebook]({% post_url 2021-05-25-wav2vec-u-cv-swedish-tsv %}) to convert Common Voice TSV to these pseudo-TSVs, but the number of frames aren't read by anything, so you can get away with a file list, as long as the first line is the path.
+
+## Step 1: VAD/Silence trimming
+
+There's a passing mention of rVAD, like it's a common piece of software that you should just be able to install. It's not: it's [here](https://github.com/zhenghuatan/rVADfast). Or, you know, save yourself the trouble and copy the relevant steps from the [notebook]({% post_url 2021-05-25-wav2vec-u-cv-swedish-vads %})
+
+This went fairly smoothly; I wrestled with Kaggle a bit, but I think any problems here were of my own creation.
 
