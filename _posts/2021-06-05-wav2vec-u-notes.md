@@ -2,9 +2,11 @@
 toc: true
 layout: post
 title: wav2vec-u notes
-description: Comparing Irish varieties
+description: tl;dr - wav2vec-u is difficult to get running
 categories: [wav2vec-u]
 ---
+
+## The skippable blah
 
 [wav2vec unsupervised](https://arxiv.org/abs/1904.05862) has caught a bit of attention. 
 
@@ -12,7 +14,21 @@ There has been a mixed bag of expectations: there was [a blog post](https://ai.f
 
 {% twitter https://twitter.com/facebookai/status/1399750058883444738 %}
 
-So, quite a few people have had the expectation that it would be quite a bit easier than it turned out to.
+So, a few people have had the expectation that it would be quite a bit easier than it turned out to.
 
-I've been beating my head against multiple walls for over a decade, with various pieces of research software for various purposes, so my expectations were a little different. Just looking at the [directory](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised), the third subdirectory is `kaldi_self_train`, which is the first red flag: this will not be easy. Scrolling down, among the first instructions are zsh scripts. zsh is a great shell, and using it as a shell was a sign of sophistication in the late 90s, but it isn't the most universal shell, so if your scripts are zsh scripts, that's a pretty good sign you've never tried to run them on a second computer.
+I've been beating my head against multiple walls for over a decade, with various pieces of research software for various purposes, so my expectations were a little different. Just looking at the [directory](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised), the third subdirectory is `kaldi_self_train`, which is the first red flag: this will not be easy. Scrolling down, among the first instructions are zsh scripts. zsh is a great shell, and using it as a shell was a sign of sophistication in the late 90s, but it isn't the most universal shell, so if your scripts are zsh scripts, that's a pretty good sign you've never tried to run them on a second computer. That said, trying to use any kind of software on Linux in the late 90s involved some sort of beating of heads against walls, so that contributes too.
+
+I like Kaggle. A lot. I like the workflow, and being able to use the output of one notebook as the input to another. I like being able to run something, and not have to babysit it in case it disconnects, like with Colab. So I've tried to do as much of this as possible on Kaggle.
+
+But the GPU images on Kaggle are seriously broken. It could be by design: the handful of things I've tried that are run purely as a notebook seem to work well. Maybe conda is deliberately cobbled, maybe it's unintentional, but it fails more often than not. So anything that involves using a GPU: switch to Colab.
+
+## Step 0: Audio
+
+In an ideal world, Kaggle's dataset uploader would Do The Right Thing when given a link to a zip file, or, rather, one of two Right Things: just download it, or download and unzip. Instead, it creates a directory for every file in the zip.
+
+🤦
+
+Cool, I'll just do that in a [notebook]({% post_url 2021-05-25-download-common-voice-swedish %}).
+
+wav2vec-u (and just about everything else in the world of ASR, ever) needs audio sampled at 16 kHz, and uses `soundfile`, so MP3s are not welcome, so I'll do that in [another notebook]({% post_url 2021-05-25-common-voice-swedish-16bit-wav %}).
 
