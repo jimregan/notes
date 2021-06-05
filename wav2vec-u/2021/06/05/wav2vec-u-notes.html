@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>wav2vec-u notes | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="wav2vec-u notes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="tl;dr - wav2vec-u is difficult to get running" />
+<meta property="og:description" content="tl;dr - wav2vec-u is difficult to get running" />
+<link rel="canonical" href="https://jimregan.github.io/notes/wav2vec-u/2021/06/05/wav2vec-u-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/wav2vec-u/2021/06/05/wav2vec-u-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/wav2vec-u/2021/06/05/wav2vec-u-notes.html","@type":"BlogPosting","headline":"wav2vec-u notes","dateModified":"2021-06-05T00:00:00-05:00","datePublished":"2021-06-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/wav2vec-u/2021/06/05/wav2vec-u-notes.html"},"description":"tl;dr - wav2vec-u is difficult to get running","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">wav2vec-u notes</h1><p class="page-description">tl;dr - wav2vec-u is difficult to get running</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-05T00:00:00-05:00" itemprop="datePublished">
+        Jun 5, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#wav2vec-u">wav2vec-u</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#the-skippable-blah">The skippable blah</a></li>
+<li class="toc-entry toc-h2"><a href="#caveat">Caveat</a></li>
+<li class="toc-entry toc-h2"><a href="#step-0-data">Step 0: Data</a></li>
+<li class="toc-entry toc-h2"><a href="#step-01-ltrwrdphn-files">Step 0.1: ltr/wrd/phn files</a></li>
+<li class="toc-entry toc-h2"><a href="#step-02-preparing-tsvs">Step 0.2: Preparing TSVs</a></li>
+<li class="toc-entry toc-h2"><a href="#step-1-vadsilence-trimming">Step 1: VAD/Silence trimming</a></li>
+<li class="toc-entry toc-h2"><a href="#step-2-prepare_audiosh">Step 2: prepare_audio.sh</a></li>
+<li class="toc-entry toc-h2"><a href="#step-3-prepare_textsh">Step 3: prepare_text.sh</a></li>
+<li class="toc-entry toc-h2"><a href="#step-4-gan-training">Step 4: GAN training</a></li>
+<li class="toc-entry toc-h2"><a href="#fin">Fin</a></li>
+</ul><h2 id="the-skippable-blah">
+<a class="anchor" href="#the-skippable-blah" aria-hidden="true"><span class="octicon octicon-link"></span></a>The skippable blah</h2>
+
+<p><a href="https://arxiv.org/abs/1904.05862">wav2vec unsupervised</a> has caught a bit of attention.</p>
+
+<p>There has been a mixed bag of expectations: there was <a href="https://ai.facebook.com/blog/wav2vec-unsupervised-speech-recognition-without-supervision/">a blog post</a>, they even had a video:</p>
+
+<div class="jekyll-twitter-plugin">
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Facebook AI’s new open source speech recognition model, wav2vec Unsupervised, uses no transcribed data at all. We’ve tested it on many languages, such as Swahili, that have proven challenging for other systems. <br>Learn more in our blog post here: <a href="https://t.co/b6ic50AsM6">https://t.co/b6ic50AsM6</a> <a href="https://t.co/x3Tx9nxq5i">pic.twitter.com/x3Tx9nxq5i</a></p>— Facebook AI (@facebookai) <a href="https://twitter.com/facebookai/status/1399750058883444738?ref_src=twsrc%5Etfw">June 1, 2021</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<p>So, a few people have had the expectation that it would be quite a bit easier than it turned out to.</p>
+
+<p>I’ve been beating my head against multiple walls for over a decade, with various pieces of research software for various purposes, so my expectations were a little different. Just looking at the <a href="https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised">directory</a>, the third subdirectory is <code class="language-plaintext highlighter-rouge">kaldi_self_train</code>, which is the first red flag: this will not be easy. Scrolling down, among the first instructions are zsh scripts. zsh is a great shell, and using it as a shell was a sign of sophistication in the late 90s, but it isn’t the most universal shell, so if your scripts are zsh scripts, that’s a pretty good sign you’ve never tried to run them on a second computer. That said, trying to use any kind of software on Linux in the late 90s involved some sort of beating of heads against walls, so that contributes too.</p>
+
+<p>I like Kaggle. A lot. I like the workflow, and being able to use the output of one notebook as the input to another. I like being able to run something, and not have to babysit it in case it disconnects, like with Colab. So I’ve tried to do as much of this as possible on Kaggle.</p>
+
+<p>But the GPU images on Kaggle are seriously broken. It could be by design: the handful of things I’ve tried that are run purely as a notebook seem to work well. Maybe conda is deliberately cobbled, maybe it’s unintentional, but it fails more often than not. So anything that involves using a GPU: switch to Colab.</p>
+
+<h2 id="caveat">
+<a class="anchor" href="#caveat" aria-hidden="true"><span class="octicon octicon-link"></span></a>Caveat</h2>
+
+<p>These are my notes for my own use, because once I’ve done a full trial run, I have some data I want to try out. I’m deliberately not adding additional text, mostly because I want the trial run to go as quickly as possible; that’s failing for other reasons, but such is life.</p>
+
+<p>What I’ve done was based on my understanding, or best guess. I can guarantee that I was not smoking any illegal substances, but considering where I live, I can’t guarantee that there was no second-hand smoke.</p>
+
+<p>There is <a href="https://github.com/pytorch/fairseq/issues/3591">an issue</a> on fairseq’s github where Alexei Baevski has said that better instructions are coming in a week or so, so maybe bide your time; he also offered to answer questions on that thread, so if you have questions, your best bet is to ask there.</p>
+
+<h2 id="step-0-data">
+<a class="anchor" href="#step-0-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 0: Data</h2>
+
+<p>In an ideal world, Kaggle’s dataset uploader would Do The Right Thing when given a link to a zip file, or, rather, one of two Right Things: just download it, or download and unzip. Instead, it creates a directory for every file in the zip.</p>
+
+<p>🤦</p>
+
+<p>Cool, I’ll just do that in a <a href="/notes/kaggle/wav2vec-u/2021/05/25/download-common-voice-swedish.html">notebook</a>.</p>
+
+<p>wav2vec-u (and just about everything else in the world of ASR, ever) needs audio sampled at 16 kHz, and uses <code class="language-plaintext highlighter-rouge">soundfile</code>, so MP3s are not welcome, so I’ll do that in <a href="/notes/kaggle/wav2vec-u/2021/05/25/common-voice-swedish-16bit-wav.html">another notebook</a>.</p>
+
+<h2 id="step-01-ltrwrdphn-files">
+<a class="anchor" href="#step-01-ltrwrdphn-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 0.1: ltr/wrd/phn files</h2>
+
+<p>Preparing these files is mentioned in passing, as though they’re self-explanatory. Which they are, if you happen to have played with phoneme-based ASR as well as wav2letter. So, not really.</p>
+
+<p>What I ended up doing is <a href="/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html">this</a>; I <em>should have</em> changed the tab separation in the <code class="language-plaintext highlighter-rouge">dict.*</code> files to a space, because that’s what’s usually given to Kaldi, but IIRC, it handles tab. So change:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paste /tmp/$i.wl /tmp/$i.wl.phn &gt; dict.$i
+</code></pre></div></div>
+
+<p>to:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paste /tmp/$i.wl /tmp/$i.wl.phn | tr '\t' ' ' &gt; dict.$i
+</code></pre></div></div>
+
+<p>or equivalent.</p>
+
+<p>Caveat: I can’t say for sure if these are actually correct outputs, and I’m not even sure they’re actually used by default, aside from the <code class="language-plaintext highlighter-rouge">prepare_audio.sh</code> script dying if they’re missing.</p>
+
+<p>There are some notes in <a href="/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html">that notebook</a> where I tracked down and corrected for espeak’s language switching; feel free to ignore that if you’re not borderline OCD.</p>
+
+<h2 id="step-02-preparing-tsvs">
+<a class="anchor" href="#step-02-preparing-tsvs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 0.2: Preparing TSVs</h2>
+
+<p>Another thing that’s glossed over a bit is the TSV files, which are more pseudo-TSV.</p>
+
+<p>“Similar to wav2vec 2.0” is more-or-less true, in that you can figure it out if you look at <a href="https://github.com/pytorch/fairseq/blob/master/examples/wav2vec/libri_labels.py">this script</a>; basically, the format is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/path/to/my/audio/
+file1.wav	[number of frames]
+file2.wav	[number of frames]
+... (etc.)
+</code></pre></div></div>
+
+<p>I used <a href="/notes/kaggle/wav2vec-u/2021/05/25/wav2vec-u-cv-swedish-tsv.html">this notebook</a> to convert Common Voice TSV to these pseudo-TSVs, but the number of frames aren’t read by anything, so you can get away with a file list, as long as the first line is the path.</p>
+
+<h2 id="step-1-vadsilence-trimming">
+<a class="anchor" href="#step-1-vadsilence-trimming" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 1: VAD/Silence trimming</h2>
+
+<p>There’s a passing mention of rVAD, like it’s a common piece of software that you should just be able to install. It’s not: it’s <a href="https://github.com/zhenghuatan/rVADfast">here</a>. Or, you know, save yourself the trouble and copy the relevant steps from the <a href="/notes/kaggle/wav2vec-u/2021/05/25/wav2vec-u-cv-swedish-vads.html">notebook</a></p>
+
+<p>This went fairly smoothly; I wrestled with Kaggle a bit, but I think any problems here were of my own creation.</p>
+
+<h2 id="step-2-prepare_audiosh">
+<a class="anchor" href="#step-2-prepare_audiosh" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 2: <code class="language-plaintext highlighter-rouge">prepare_audio.sh</code>
+</h2>
+
+<p>My notebook for <a href="/notes/kaggle/wav2vec-u/2021/05/27/wav2vec-u-cv-swedish-audio.html">prepare_audio.sh</a> is quite short; basically, you need the <code class="language-plaintext highlighter-rouge">dict.*</code>, <code class="language-plaintext highlighter-rouge">*.wrd</code>, <code class="language-plaintext highlighter-rouge">*.ltr</code>, and <code class="language-plaintext highlighter-rouge">*.phn</code> files from Step 0.1, and:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install npy-append-array faiss-gpu
+</code></pre></div></div>
+
+<p>(also, possibly, <code class="language-plaintext highlighter-rouge">apt install zsh</code>)</p>
+
+<p>Also: wow! This used GPU on Kaggle, and actually worked.</p>
+
+<h2 id="step-3-prepare_textsh">
+<a class="anchor" href="#step-3-prepare_textsh" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 3: <code class="language-plaintext highlighter-rouge">prepare_text.sh</code>
+</h2>
+
+<p>This needs Kaldi to compile FSTs. On Kaggle, I used <a href="/notes/kaggle/kaldi/wav2vec-u/2021/05/15/extract-prebuilt-kaldi-from-docker.html">this notebook</a> to extract a pre-built version from the official docker images. DNN parts won’t run, because they’re compiled for an earlier version of CUDA, but they’re not necessary for this step.</p>
+
+<p>If you’re using Colab, <a href="https://stackoverflow.com/questions/49771968/is-it-possible-to-install-kaldi-on-google-colab">this question</a> on Stack Overflow is for you:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!pip install kora -q
+import kora.install.kaldi
+</code></pre></div></div>
+
+<p>The version of Kaldi there is also from the official docker image (that’s where I got the idea), but it also downloads and unpacks it for you. Which is nice.</p>
+
+<p>My notebook for running <code class="language-plaintext highlighter-rouge">prepare_text.sh</code> has more notes than usual: <a href="/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html">check it out</a></p>
+
+<h2 id="step-4-gan-training">
+<a class="anchor" href="#step-4-gan-training" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 4: GAN training</h2>
+
+<p>This doesn’t work on Kaggle, because GPU. It does, however, run on CPU—albeit 8-9 times slower—so I’ve been chaining together calls, starting with <a href="/notes/kaggle/wav2vec-u/2021/06/01/wav2vec-u-cv-swedish-gan-cpu1.html">this</a>, leading up to (at the time of writing) <a href="/notes/kaggle/wav2vec-u/2021/06/05/wav2vec-u-cv-swedish-gan-cpu8.html">this</a>.</p>
+
+<p>The good news is, it runs fine on Colab: <a href="/notes/kaggle/colab/wav2vec-u/2021/05/30/wav2vec-u-cv-swedish-gan.html">notebook here</a>.</p>
+
+<h2 id="fin">
+<a class="anchor" href="#fin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fin</h2>
+
+<p>I’m still waiting for GAN training to finish, so I can’t comment on anything else.</p>
+
+
+  </div><a class="u-url" href="/notes/wav2vec-u/2021/06/05/wav2vec-u-notes.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
