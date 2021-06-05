@@ -22,6 +22,14 @@ I like Kaggle. A lot. I like the workflow, and being able to use the output of o
 
 But the GPU images on Kaggle are seriously broken. It could be by design: the handful of things I've tried that are run purely as a notebook seem to work well. Maybe conda is deliberately cobbled, maybe it's unintentional, but it fails more often than not. So anything that involves using a GPU: switch to Colab.
 
+## Caveat
+
+These are my notes for my own use, because once I've done a full trial run, I have some data I want to try out. I'm deliberately not adding additional text, mostly because I want the trial run to go as quickly as possible; that's failing for other reasons, but such is life.
+
+What I've done was based on my understanding, or best guess. I can guarantee that I was not smoking any illegal substances, but considering where I live, I can't guarantee that there was no second-hand smoke.
+
+There is [an issue](https://github.com/pytorch/fairseq/issues/3591) on fairseq's github where Alexei Baevski has said that better instructions are coming in a week or so, so maybe bide your time; he also offered to answer questions on that thread, so if you have questions, your best bet is to ask there.
+
 ## Step 0: Data
 
 In an ideal world, Kaggle's dataset uploader would Do The Right Thing when given a link to a zip file, or, rather, one of two Right Things: just download it, or download and unzip. Instead, it creates a directory for every file in the zip.
