@@ -95,4 +95,22 @@ pip install npy-append-array faiss-gpu
 
 Also: wow! This used GPU on Kaggle, and actually worked.
 
-## Step 3: 
+## Step 3: `prepare_text.sh`
+
+This needs Kaldi to compile FSTs. On Kaggle, I used [this notebook]({% post_url 2021-05-15-extract-prebuilt-kaldi-from-docker %}) to extract a pre-built version from the official docker images. DNN parts won't run, because they're compiled for an earlier version of CUDA, but they're not necessary for this step.
+
+If you're using Colab, [this question](https://stackoverflow.com/questions/49771968/is-it-possible-to-install-kaldi-on-google-colab) on Stack Overflow is for you:
+
+```
+!pip install kora -q
+import kora.install.kaldi
+```
+
+The version of Kaldi there is also from the official docker image (that's where I got the idea), but it also downloads and unpacks it for you. Which is nice.
+
+My notebook for running `prepare_text.sh` has more notes than usual: [check it out]({% post_url 2021-05-26-wav2vec-u-cv-swedish-text-prep %})
+
+## Step 4: GAN training
+
+This doesn't work on Kaggle, because GPU. It does, however, run on CPU, albeit 8-9 times slower, so I've been chaining together calls
+
