@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>wav2vec-u CV-sv - prepare text | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="wav2vec-u CV-sv - prepare text" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Running prepare_text.sh for wav2vec-u on Common Voice Swedish" />
+<meta property="og:description" content="Running prepare_text.sh for wav2vec-u on Common Voice Swedish" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-26T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html","@type":"BlogPosting","headline":"wav2vec-u CV-sv - prepare text","dateModified":"2021-05-26T00:00:00-05:00","datePublished":"2021-05-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html"},"description":"Running prepare_text.sh for wav2vec-u on Common Voice Swedish","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">wav2vec-u CV-sv - prepare text</h1><p class="page-description">Running prepare_text.sh for wav2vec-u on Common Voice Swedish</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
+        May 26, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#wav2vec-u">wav2vec-u</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-05-26-wav2vec-u-cv-swedish-text-prep.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Original <a href="https://www.kaggle.com/jimregan/wav2vec-u-cv-swedish-text-prep">here</a></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /opt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">tar</span> <span class="n">xvf</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">extract</span><span class="o">-</span><span class="n">prebuilt</span><span class="o">-</span><span class="n">kaldi</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">docker</span><span class="o">/</span><span class="n">kaldi</span><span class="o">.</span><span class="n">tar</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /tmp
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/tmp
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git clone https://github.com/pytorch/fairseq/
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">phonemizer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pytorch</span><span class="o">/</span><span class="n">fairseq</span><span class="o">/</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">espeak</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git clone https://github.com/kpu/kenlm
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">libeigen3</span><span class="o">-</span><span class="n">dev</span> <span class="n">liblzma</span><span class="o">-</span><span class="n">dev</span> <span class="n">zlib1g</span><span class="o">-</span><span class="n">dev</span> <span class="n">libbz2</span><span class="o">-</span><span class="n">dev</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="o">%</span><span class="n">cd</span> <span class="n">kenlm</span>
+<span class="err">!</span><span class="n">mkdir</span> <span class="n">build</span>
+<span class="o">%</span><span class="n">cd</span> <span class="n">build</span>
+<span class="err">!</span><span class="n">cmake</span> <span class="o">..</span>
+<span class="err">!</span><span class="n">make</span> <span class="o">-</span><span class="n">j</span> <span class="mi">4</span>
+<span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">tmp</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PATH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PATH&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">:/tmp/kenlm/build/bin/&quot;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;FAIRSEQ_ROOT&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/tmp/fairseq&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat /kaggle/input/wav2vec-u-cv-swedish-audio/*.wrd <span class="p">|</span> grep -v <span class="s1">&#39;^$&#39;</span> <span class="p">|</span> sort<span class="p">|</span> uniq &gt; /kaggle/working/sentences.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> fairseq/examples/wav2vec/unsupervised
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/tmp/fairseq/examples/wav2vec/unsupervised
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">zsh</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir /kaggle/working/preppedtext
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> scripts
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/tmp/fairseq/examples/wav2vec/unsupervised/scripts
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The next part requires a FastText language id model; I don't know where the 187 language model comes from, but there is a model for 176 languages <a href="https://fasttext.cc/docs/en/language-identification.html#content">here</a></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>wget https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat normalize_and_filter_text.py<span class="p">|</span>sed -e <span class="s1">&#39;s/187/176/&#39;</span> &gt; tmp
+<span class="o">!</span>mv tmp normalize_and_filter_text.py
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;HYDRA_FULL_ERROR&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;1&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;LD_LIBRARY_PATH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/opt/conda/lib:/opt/kaldi/tools/openfst-1.6.7/lib:/opt/kaldi/src/lib&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are two lines with missing variables in <code>prepare_text.sh</code> - <a href="https://github.com/pytorch/fairseq/pull/3569">pull request</a> - so replace the file.</p>
+<p>While I'm replacing the file: most of the first part of the script is unneeded, as I already have a phonetic dictionary, so I'm use that instead.</p>
+<p>With the calls of the <code>preprocess.py</code> script, make sure to check the threshold: there's a divide by zero if the threshold is set too high.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Config options for <code>kaldi_initializer.py</code></p>
+<ul>
+<li><code>in_labels</code>: a naming component, for the Kaldi lexicons/fsts (required)</li>
+<li><code>wav2letter_lexicon</code>: path to wav2letter lexicon</li>
+<li><code>out_labels</code>: a naming component, for the Kaldi lexicons/fsts: set to <code>in_label</code> if missing</li>
+<li><code>kaldi_root</code>: path to Kaldi: <code>/opt/kaldi</code> for my kaggle image</li>
+<li><code>fst_dir</code>: path where generated fsts will be saved</li>
+<li><code>data_dir</code>: path to phones data</li>
+<li><code>lm_arpa</code>: path to the lm in ARPA format</li>
+<li><code>blank_symbol</code>: CTC blank symbol (<code>&lt;s&gt;</code> here)</li>
+<li><code>silence_symbol</code>: Kaldi symbol for silence (<code>&lt;SIL&gt;</code> is set for two of the scripts)</li>
+</ul>
+<p>A config file needs to exist for this, even though the options set in it seem to be ignored.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir /tmp/fairseq/examples/speech_recognition/kaldi/config/
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> /tmp/fairseq/examples/speech_recognition/kaldi/config/config.yaml
+<span class="n">kaldi_root</span><span class="p">:</span> <span class="s2">&quot;/opt/kaldi&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Writing /tmp/fairseq/examples/speech_recognition/kaldi/config/config.yaml
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> prepare_text.sh
+<span class="ch">#!/usr/bin/env zsh</span>
+<span class="c1"># Copyright (c) Facebook, Inc. and its affiliates.</span>
+<span class="c1">#</span>
+<span class="c1"># This source code is licensed under the MIT license found in the</span>
+<span class="c1"># LICENSE file in the root directory of this source tree.</span>
+
+<span class="n">lg</span><span class="o">=</span><span class="err">$</span><span class="mi">1</span>
+<span class="n">text_path</span><span class="o">=</span><span class="err">$</span><span class="mi">2</span>
+<span class="n">target_dir</span><span class="o">=</span><span class="err">$</span><span class="mi">3</span>
+
+<span class="c1">#ph_lg=${lg:l}</span>
+<span class="c1">#if test &quot;$lg&quot; = &#39;fr&#39;; then</span>
+<span class="c1">#  ph_lg=&#39;fr-fr&#39;</span>
+<span class="c1">#elif test &quot;$lg&quot; = &#39;en&#39;; then</span>
+<span class="c1">#  ph_lg=&#39;en-us&#39;</span>
+<span class="c1">#elif test &quot;$lg&quot; = &#39;pt&#39;; then</span>
+<span class="c1">#  ph_lg=&#39;pt-br&#39;</span>
+<span class="c1">#fi</span>
+<span class="n">ph_lg</span><span class="o">=</span><span class="s2">&quot;sv&quot;</span>
+
+<span class="n">echo</span> <span class="err">$</span><span class="n">lg</span>
+<span class="n">echo</span> <span class="err">$</span><span class="n">ph_lg</span>
+<span class="n">echo</span> <span class="err">$</span><span class="n">text_path</span>
+<span class="n">echo</span> <span class="err">$</span><span class="n">target_dir</span>
+
+<span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="err">$</span><span class="n">target_dir</span>
+<span class="c1">#python normalize_and_filter_text.py --lang $lg &lt; $text_path | grep -v &#39;\-\-\-&#39; &gt;! $target_dir/lm.upper.lid.txt</span>
+<span class="c1">#python $FAIRSEQ_ROOT/fairseq_cli/preprocess.py --dataset-impl mmap --trainpref $target_dir/lm.upper.lid.txt --only-source --destdir $target_dir --thresholdsrc 2 --padding-factor 1 --dict-only</span>
+<span class="c1">#cut -f1 -d&#39; &#39; $target_dir/dict.txt | grep -v -x &#39;[[:punct:]]*&#39; | grep -Pv &#39;\d\d\d\d\d+&#39; &gt;! $target_dir/words.txt</span>
+<span class="n">cp</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">wav2vec</span><span class="o">-</span><span class="n">u</span><span class="o">-</span><span class="n">cv</span><span class="o">-</span><span class="n">swedish</span><span class="o">-</span><span class="n">audio</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">wrd</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">upper</span><span class="o">.</span><span class="n">lid</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">cut</span> <span class="o">-</span><span class="n">f1</span> <span class="o">-</span><span class="n">d</span><span class="s1">&#39; &#39;</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">wav2vec</span><span class="o">-</span><span class="n">u</span><span class="o">-</span><span class="n">cv</span><span class="o">-</span><span class="n">swedish</span><span class="o">-</span><span class="n">audio</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">train</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">words</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1">#one=$(echo &quot;1&quot; | PHONEMIZER_ESPEAK_PATH=$(which espeak) phonemize -p &#39; &#39; -w &#39;&#39; -l $ph_lg --language-switch remove-flags)</span>
+<span class="c1">#sed &#39;s/$/ 1/&#39; $target_dir/words.txt | PHONEMIZER_ESPEAK_PATH=$(which espeak) phonemize -o $target_dir/phones.txt -p &#39; &#39; -w &#39;&#39; -l $ph_lg -j 70 --language-switch remove-flags</span>
+<span class="n">cut</span> <span class="o">-</span><span class="n">f2</span><span class="o">-</span> <span class="o">-</span><span class="n">d</span><span class="s1">&#39; &#39;</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">wav2vec</span><span class="o">-</span><span class="n">u</span><span class="o">-</span><span class="n">cv</span><span class="o">-</span><span class="n">swedish</span><span class="o">-</span><span class="n">audio</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">train</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1">#echo &quot;one is ${one}&quot;</span>
+
+<span class="c1">#sed -i &quot;s/${one}$//&quot; $target_dir/phones.txt</span>
+<span class="c1">#paste $target_dir/words.txt $target_dir/phones.txt &gt;! $target_dir/lexicon.lst</span>
+<span class="n">cp</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">wav2vec</span><span class="o">-</span><span class="n">u</span><span class="o">-</span><span class="n">cv</span><span class="o">-</span><span class="n">swedish</span><span class="o">-</span><span class="n">audio</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">train</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon</span><span class="o">.</span><span class="n">lst</span>
+
+<span class="c1">#python $FAIRSEQ_ROOT/fairseq_cli/preprocess.py --dataset-impl mmap --trainpref $target_dir/phones.txt --only-source --destdir $target_dir/phones --thresholdsrc 1000 --padding-factor 1 --dict-only</span>
+<span class="n">python</span> <span class="err">$</span><span class="n">FAIRSEQ_ROOT</span><span class="o">/</span><span class="n">fairseq_cli</span><span class="o">/</span><span class="n">preprocess</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">dataset</span><span class="o">-</span><span class="n">impl</span> <span class="n">mmap</span> <span class="o">--</span><span class="n">trainpref</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">only</span><span class="o">-</span><span class="n">source</span> <span class="o">--</span><span class="n">destdir</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span> <span class="o">--</span><span class="n">thresholdsrc</span> <span class="mi">2</span> <span class="o">--</span><span class="n">padding</span><span class="o">-</span><span class="n">factor</span> <span class="mi">1</span> <span class="o">--</span><span class="nb">dict</span><span class="o">-</span><span class="n">only</span>
+
+<span class="n">python</span> <span class="n">filter_lexicon</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">d</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">txt</span> <span class="o">&lt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon</span><span class="o">.</span><span class="n">lst</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon_filtered</span><span class="o">.</span><span class="n">lst</span>
+<span class="n">python</span> <span class="n">phonemize_with_sil</span><span class="o">.</span><span class="n">py</span> <span class="o">-</span><span class="n">s</span> <span class="mf">0.25</span> <span class="o">--</span><span class="n">surround</span> <span class="o">--</span><span class="n">lexicon</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon_filtered</span><span class="o">.</span><span class="n">lst</span> <span class="o">&lt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">upper</span><span class="o">.</span><span class="n">lid</span><span class="o">.</span><span class="n">txt</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">cp</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">txt</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">phn</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">echo</span> <span class="s2">&quot;&lt;SIL&gt; 0&quot;</span> <span class="o">&gt;&gt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">phn</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">python</span> <span class="err">$</span><span class="n">FAIRSEQ_ROOT</span><span class="o">/</span><span class="n">fairseq_cli</span><span class="o">/</span><span class="n">preprocess</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">dataset</span><span class="o">-</span><span class="n">impl</span> <span class="n">mmap</span> <span class="o">--</span><span class="n">trainpref</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">workers</span> <span class="mi">70</span> <span class="o">--</span><span class="n">only</span><span class="o">-</span><span class="n">source</span> <span class="o">--</span><span class="n">destdir</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span> <span class="o">--</span><span class="n">srcdict</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="nb">dict</span><span class="o">.</span><span class="n">phn</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="n">lmplz</span> <span class="o">-</span><span class="n">o</span> <span class="mi">4</span> <span class="o">&lt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">upper</span><span class="o">.</span><span class="n">lid</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">discount_fallback</span> <span class="o">--</span><span class="n">prune</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">3</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">kenlm</span><span class="o">.</span><span class="n">wrd</span><span class="o">.</span><span class="n">o40003</span><span class="o">.</span><span class="n">arpa</span>
+<span class="n">build_binary</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">kenlm</span><span class="o">.</span><span class="n">wrd</span><span class="o">.</span><span class="n">o40003</span><span class="o">.</span><span class="n">arpa</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">kenlm</span><span class="o">.</span><span class="n">wrd</span><span class="o">.</span><span class="n">o40003</span><span class="o">.</span><span class="n">bin</span>
+<span class="n">lg</span><span class="o">=</span><span class="err">$</span><span class="n">lg</span> <span class="n">python</span> <span class="err">$</span><span class="n">FAIRSEQ_ROOT</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">speech_recognition</span><span class="o">/</span><span class="n">kaldi</span><span class="o">/</span><span class="n">kaldi_initializer</span><span class="o">.</span><span class="n">py</span> <span class="n">fst_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">fst</span><span class="o">/</span><span class="n">phn_to_words_sil</span> <span class="n">lm_arpa</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">kenlm</span><span class="o">.</span><span class="n">wrd</span><span class="o">.</span><span class="n">o40003</span><span class="o">.</span><span class="n">arpa</span> <span class="n">wav2letter_lexicon</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon_filtered</span><span class="o">.</span><span class="n">lst</span> <span class="n">data_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span> <span class="s2">&quot;blank_symbol=&#39;&lt;SIL&gt;&#39;&quot;</span> <span class="s2">&quot;in_labels=&#39;phn&#39;&quot;</span> <span class="s2">&quot;kaldi_root=&#39;/opt/kaldi&#39;&quot;</span>
+<span class="n">lg</span><span class="o">=</span><span class="err">$</span><span class="n">lg</span> <span class="n">python</span> <span class="err">$</span><span class="n">FAIRSEQ_ROOT</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">speech_recognition</span><span class="o">/</span><span class="n">kaldi</span><span class="o">/</span><span class="n">kaldi_initializer</span><span class="o">.</span><span class="n">py</span> <span class="n">fst_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">fst</span><span class="o">/</span><span class="n">phn_to_words</span> <span class="n">lm_arpa</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">kenlm</span><span class="o">.</span><span class="n">wrd</span><span class="o">.</span><span class="n">o40003</span><span class="o">.</span><span class="n">arpa</span> <span class="n">wav2letter_lexicon</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">lexicon_filtered</span><span class="o">.</span><span class="n">lst</span> <span class="n">data_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span>  <span class="s2">&quot;in_labels=&#39;phn&#39;&quot;</span> <span class="s2">&quot;kaldi_root=&#39;/opt/kaldi&#39;&quot;</span>
+
+<span class="n">lmplz</span> <span class="o">-</span><span class="n">o</span> <span class="mi">4</span> <span class="o">&lt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">discount_fallback</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">04.</span><span class="n">arpa</span>
+<span class="n">build_binary</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">04.</span><span class="n">arpa</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">04.</span><span class="n">bin</span>
+<span class="n">lmplz</span> <span class="o">-</span><span class="n">o</span> <span class="mi">6</span> <span class="o">&lt;</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">discount_fallback</span> <span class="o">&gt;</span><span class="err">!</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">06.</span><span class="n">arpa</span>
+<span class="n">build_binary</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">06.</span><span class="n">arpa</span> <span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">06.</span><span class="n">bin</span>
+
+<span class="n">lg</span><span class="o">=</span><span class="err">$</span><span class="n">lg</span> <span class="n">python</span> <span class="err">$</span><span class="n">FAIRSEQ_ROOT</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">speech_recognition</span><span class="o">/</span><span class="n">kaldi</span><span class="o">/</span><span class="n">kaldi_initializer</span><span class="o">.</span><span class="n">py</span> <span class="n">fst_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">fst</span><span class="o">/</span><span class="n">phn_to_phn_sil</span> <span class="n">lm_arpa</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">phones</span><span class="o">.</span><span class="n">filtered</span><span class="o">.</span><span class="mf">06.</span><span class="n">arpa</span> <span class="n">data_dir</span><span class="o">=</span><span class="err">$</span><span class="n">target_dir</span><span class="o">/</span><span class="n">phones</span> <span class="s2">&quot;blank_symbol=&#39;&lt;SIL&gt;&#39;&quot;</span> <span class="s2">&quot;in_labels=&#39;phn&#39;&quot;</span> <span class="s2">&quot;kaldi_root=&#39;/opt/kaldi&#39;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Overwriting prepare_text.sh
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>add-self-loop-simple.cc</code> attempts to use <code>std::endl</code> with <code>KALDI_LOG</code>, which doesn't work, so rewrite that (I'm not sure if this actually prevents anything from working, but it is really distracting).</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> /tmp/fairseq/examples/speech_recognition/kaldi/add-self-loop-simple.cc
+<span class="o">/*</span>
+<span class="o">*</span> <span class="n">Copyright</span> <span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="n">Facebook</span><span class="p">,</span> <span class="n">Inc</span><span class="o">.</span> <span class="ow">and</span> <span class="n">its</span> <span class="n">affiliates</span><span class="o">.</span>
+<span class="o">*</span>
+<span class="o">*</span> <span class="n">This</span> <span class="n">source</span> <span class="n">code</span> <span class="ow">is</span> <span class="n">licensed</span> <span class="n">under</span> <span class="n">the</span> <span class="n">MIT</span> <span class="n">license</span> <span class="n">found</span> <span class="ow">in</span> <span class="n">the</span>
+<span class="o">*</span> <span class="n">LICENSE</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">root</span> <span class="n">directory</span> <span class="n">of</span> <span class="n">this</span> <span class="n">source</span> <span class="n">tree</span><span class="o">.</span>
+<span class="o">*/</span>
+
+<span class="c1">#include &lt;iostream&gt;</span>
+<span class="c1">#include &quot;fstext/fstext-lib.h&quot; // @manual</span>
+<span class="c1">#include &quot;util/common-utils.h&quot; // @manual</span>
+
+<span class="o">/*</span>
+ <span class="o">*</span> <span class="n">This</span> <span class="n">program</span> <span class="ow">is</span> <span class="n">to</span> <span class="n">modify</span> <span class="n">a</span> <span class="n">FST</span> <span class="n">without</span> <span class="bp">self</span><span class="o">-</span><span class="n">loop</span> <span class="n">by</span><span class="p">:</span>
+ <span class="o">*</span>   <span class="k">for</span> <span class="n">each</span> <span class="n">incoming</span> <span class="n">arc</span> <span class="k">with</span> <span class="n">non</span><span class="o">-</span><span class="n">eps</span> <span class="nb">input</span> <span class="n">symbol</span><span class="p">,</span> <span class="n">add</span> <span class="n">a</span> <span class="bp">self</span><span class="o">-</span><span class="n">loop</span> <span class="n">arc</span>
+ <span class="o">*</span>   <span class="k">with</span> <span class="n">that</span> <span class="n">non</span><span class="o">-</span><span class="n">eps</span> <span class="n">symbol</span> <span class="k">as</span> <span class="nb">input</span> <span class="ow">and</span> <span class="n">eps</span> <span class="k">as</span> <span class="n">output</span><span class="o">.</span>
+ <span class="o">*</span>
+ <span class="o">*</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">to</span> <span class="n">make</span> <span class="n">sure</span> <span class="n">the</span> <span class="n">resultant</span> <span class="n">FST</span> <span class="n">can</span> <span class="n">do</span> <span class="n">deduplication</span> <span class="k">for</span> <span class="n">repeated</span>
+ <span class="o">*</span> <span class="n">symbols</span><span class="p">,</span> <span class="n">which</span> <span class="ow">is</span> <span class="n">very</span> <span class="n">common</span> <span class="ow">in</span> <span class="n">acoustic</span> <span class="n">model</span>
+ <span class="o">*</span>
+ <span class="o">*/</span>
+<span class="n">namespace</span> <span class="p">{</span>
+<span class="n">int32</span> <span class="n">AddSelfLoopsSimple</span><span class="p">(</span><span class="n">fst</span><span class="p">::</span><span class="n">StdVectorFst</span><span class="o">*</span> <span class="n">fst</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">typedef</span> <span class="n">fst</span><span class="p">::</span><span class="n">MutableArcIterator</span><span class="o">&lt;</span><span class="n">fst</span><span class="p">::</span><span class="n">StdVectorFst</span><span class="o">&gt;</span> <span class="n">IterType</span><span class="p">;</span>
+
+  <span class="n">int32</span> <span class="n">num_states_before</span> <span class="o">=</span> <span class="n">fst</span><span class="o">-&gt;</span><span class="n">NumStates</span><span class="p">();</span>
+  <span class="n">fst</span><span class="p">::</span><span class="n">MakePrecedingInputSymbolsSame</span><span class="p">(</span><span class="n">false</span><span class="p">,</span> <span class="n">fst</span><span class="p">);</span>
+  <span class="n">int32</span> <span class="n">num_states_after</span> <span class="o">=</span> <span class="n">fst</span><span class="o">-&gt;</span><span class="n">NumStates</span><span class="p">();</span>
+  <span class="n">KALDI_LOG</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;There are &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">num_states_before</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; states in the original FST; &quot;</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; after MakePrecedingInputSymbolsSame, there are &quot;</span>
+            <span class="o">&lt;&lt;</span> <span class="n">num_states_after</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot; states &quot;</span><span class="p">;</span>
+
+  <span class="n">auto</span> <span class="n">weight_one</span> <span class="o">=</span> <span class="n">fst</span><span class="p">::</span><span class="n">StdArc</span><span class="p">::</span><span class="n">Weight</span><span class="p">::</span><span class="n">One</span><span class="p">();</span>
+
+  <span class="n">int32</span> <span class="n">num_arc_added</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+  <span class="n">fst</span><span class="p">::</span><span class="n">StdArc</span> <span class="n">self_loop_arc</span><span class="p">;</span>
+  <span class="n">self_loop_arc</span><span class="o">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight_one</span><span class="p">;</span>
+
+  <span class="n">int32</span> <span class="n">num_states</span> <span class="o">=</span> <span class="n">fst</span><span class="o">-&gt;</span><span class="n">NumStates</span><span class="p">();</span>
+  <span class="n">std</span><span class="p">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="p">::</span><span class="nb">set</span><span class="o">&lt;</span><span class="n">int32</span><span class="o">&gt;&gt;</span> <span class="n">incoming_non_eps_label_per_state</span><span class="p">(</span><span class="n">num_states</span><span class="p">);</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="n">int32</span> <span class="n">state</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">state</span> <span class="o">&lt;</span> <span class="n">num_states</span><span class="p">;</span> <span class="n">state</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">IterType</span> <span class="n">aiter</span><span class="p">(</span><span class="n">fst</span><span class="p">,</span> <span class="n">state</span><span class="p">);</span> <span class="err">!</span><span class="n">aiter</span><span class="o">.</span><span class="n">Done</span><span class="p">();</span> <span class="n">aiter</span><span class="o">.</span><span class="n">Next</span><span class="p">())</span> <span class="p">{</span>
+      <span class="n">fst</span><span class="p">::</span><span class="n">StdArc</span> <span class="n">arc</span><span class="p">(</span><span class="n">aiter</span><span class="o">.</span><span class="n">Value</span><span class="p">());</span>
+      <span class="k">if</span> <span class="p">(</span><span class="n">arc</span><span class="o">.</span><span class="n">ilabel</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">incoming_non_eps_label_per_state</span><span class="p">[</span><span class="n">arc</span><span class="o">.</span><span class="n">nextstate</span><span class="p">]</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">arc</span><span class="o">.</span><span class="n">ilabel</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="n">int32</span> <span class="n">state</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">state</span> <span class="o">&lt;</span> <span class="n">num_states</span><span class="p">;</span> <span class="n">state</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="err">!</span><span class="n">incoming_non_eps_label_per_state</span><span class="p">[</span><span class="n">state</span><span class="p">]</span><span class="o">.</span><span class="n">empty</span><span class="p">())</span> <span class="p">{</span>
+      <span class="n">auto</span><span class="o">&amp;</span> <span class="n">ilabel_set</span> <span class="o">=</span> <span class="n">incoming_non_eps_label_per_state</span><span class="p">[</span><span class="n">state</span><span class="p">];</span>
+      <span class="k">for</span> <span class="p">(</span><span class="n">auto</span> <span class="n">it</span> <span class="o">=</span> <span class="n">ilabel_set</span><span class="o">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">it</span> <span class="o">!=</span> <span class="n">ilabel_set</span><span class="o">.</span><span class="n">end</span><span class="p">();</span> <span class="n">it</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">self_loop_arc</span><span class="o">.</span><span class="n">ilabel</span> <span class="o">=</span> <span class="o">*</span><span class="n">it</span><span class="p">;</span>
+        <span class="n">self_loop_arc</span><span class="o">.</span><span class="n">olabel</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="n">self_loop_arc</span><span class="o">.</span><span class="n">nextstate</span> <span class="o">=</span> <span class="n">state</span><span class="p">;</span>
+        <span class="n">fst</span><span class="o">-&gt;</span><span class="n">AddArc</span><span class="p">(</span><span class="n">state</span><span class="p">,</span> <span class="n">self_loop_arc</span><span class="p">);</span>
+        <span class="n">num_arc_added</span><span class="o">++</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="n">num_arc_added</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">void</span> <span class="n">print_usage</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">std</span><span class="p">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;add-self-loop-simple usage:</span><span class="se">\n</span><span class="s2">&quot;</span>
+               <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">add-self-loop-simple &lt;in-fst&gt; &lt;out-fst&gt; </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="p">}</span> <span class="o">//</span> <span class="n">namespace</span>
+
+<span class="nb">int</span> <span class="n">main</span><span class="p">(</span><span class="nb">int</span> <span class="n">argc</span><span class="p">,</span> <span class="n">char</span><span class="o">**</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">print_usage</span><span class="p">();</span>
+    <span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="n">auto</span> <span class="nb">input</span> <span class="o">=</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+  <span class="n">auto</span> <span class="n">output</span> <span class="o">=</span> <span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span>
+
+  <span class="n">auto</span> <span class="n">fst</span> <span class="o">=</span> <span class="n">fst</span><span class="p">::</span><span class="n">ReadFstKaldi</span><span class="p">(</span><span class="nb">input</span><span class="p">);</span>
+  <span class="n">auto</span> <span class="n">num_states</span> <span class="o">=</span> <span class="n">fst</span><span class="o">-&gt;</span><span class="n">NumStates</span><span class="p">();</span>
+  <span class="n">KALDI_LOG</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;Loading FST from &quot;</span> <span class="o">&lt;&lt;</span> <span class="nb">input</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot; with &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">num_states</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; states.&quot;</span><span class="p">;</span>
+
+  <span class="n">int32</span> <span class="n">num_arc_added</span> <span class="o">=</span> <span class="n">AddSelfLoopsSimple</span><span class="p">(</span><span class="n">fst</span><span class="p">);</span>
+  <span class="n">KALDI_LOG</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;Adding &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">num_arc_added</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot; self-loop arcs &quot;</span><span class="p">;</span>
+
+  <span class="n">fst</span><span class="p">::</span><span class="n">WriteFstKaldi</span><span class="p">(</span><span class="o">*</span><span class="n">fst</span><span class="p">,</span> <span class="n">std</span><span class="p">::</span><span class="n">string</span><span class="p">(</span><span class="n">output</span><span class="p">));</span>
+  <span class="n">KALDI_LOG</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;Writing FST to &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">output</span><span class="p">;</span>
+
+  <span class="n">delete</span> <span class="n">fst</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Overwriting /tmp/fairseq/examples/speech_recognition/kaldi/add-self-loop-simple.cc
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>zsh prepare_text.sh sv /kaggle/working/sentences.txt /kaggle/working/preppedtext
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>sv
+sv
+/kaggle/working/sentences.txt
+/kaggle/working/preppedtext
+=== 1/5 Counting and sorting n-grams ===
+Reading /kaggle/working/preppedtext/lm.upper.lid.txt
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Unigram tokens 14359 types 3160
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:37920 2:2571431424 3:4821433856 4:7714294272
+Statistics:
+1 3160 D1=0.722623 D2=1.14413 D3+=1.45956
+2 10285 D1=0.848104 D2=1.2466 D3+=1.46191
+3 12632 D1=0.943362 D2=1.24166 D3+=1.32723
+4 19/11699 D1=0.970399 D2=1.4843 D3+=2.12351
+Memory estimate for binary LM:
+type     kB
+probing 617 assuming -p 1.5
+probing 764 assuming -r models -p 1.5
+trie    309 without quantization
+trie    182 assuming -q 8 -b 8 quantization 
+trie    293 assuming -a 22 array pointer compression
+trie    166 assuming -a 22 -q 8 -b 8 array pointer compression and quantization
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:37920 2:164560 3:252640 4:456
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:37920 2:164560 3:252640 4:456
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 5/5 Writing ARPA model ===
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Name:lmplz	VmPeak:14925024 kB	VmRSS:6488 kB	RSSMax:2975268 kB	user:0.194576	sys:0.839708	CPU:1.03431	real:1.03864
+Reading /kaggle/working/preppedtext/kenlm.wrd.o40003.arpa
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+SUCCESS
+[2021-05-30 15:50:13,771][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/kaldi_dict.phn.txt
+[2021-05-30 15:50:13,771][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/G_kenlm.wrd.o40003.fst
+/opt/kaldi/src/lmbin/arpa2fst --disambig-symbol=#0 --write-symbol-table=/kaggle/working/preppedtext/fst/phn_to_words_sil/kaldi_dict.kenlm.wrd.o40003.txt /kaggle/working/preppedtext/kenlm.wrd.o40003.arpa /kaggle/working/preppedtext/fst/phn_to_words_sil/G_kenlm.wrd.o40003.fst 
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \3-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \4-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:RemoveRedundantStates():arpa-lm-compiler.cc:359) Reduced num-states from 22665 to 12144
+[2021-05-30 15:50:13,918][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/kaldi_lexicon.phn.kenlm.wrd.o40003.txt (in units file: /kaggle/working/preppedtext/fst/phn_to_words_sil/kaldi_dict.phn.txt)
+[2021-05-30 15:50:14,005][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/H.phn.fst
+[2021-05-30 15:50:14,045][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/L.phn.kenlm.wrd.o40003.fst (in units: /kaggle/working/preppedtext/fst/phn_to_words_sil/kaldi_dict.phn_disambig.txt)
+[2021-05-30 15:50:14,244][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/LG.phn.kenlm.wrd.o40003.fst
+[2021-05-30 15:50:15,269][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/HLGa.phn.kenlm.wrd.o40003.fst
+[2021-05-30 15:50:17,600][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words_sil/HLG.phn.kenlm.wrd.o40003.fst
+[2021-05-30 15:50:26,782][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/kaldi_dict.phn.txt
+[2021-05-30 15:50:26,783][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/G_kenlm.wrd.o40003.fst
+/opt/kaldi/src/lmbin/arpa2fst --disambig-symbol=#0 --write-symbol-table=/kaggle/working/preppedtext/fst/phn_to_words/kaldi_dict.kenlm.wrd.o40003.txt /kaggle/working/preppedtext/kenlm.wrd.o40003.arpa /kaggle/working/preppedtext/fst/phn_to_words/G_kenlm.wrd.o40003.fst 
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \3-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \4-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:RemoveRedundantStates():arpa-lm-compiler.cc:359) Reduced num-states from 22665 to 12144
+[2021-05-30 15:50:26,992][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/kaldi_lexicon.phn.kenlm.wrd.o40003.txt (in units file: /kaggle/working/preppedtext/fst/phn_to_words/kaldi_dict.phn.txt)
+[2021-05-30 15:50:27,047][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/H.phn.fst
+[2021-05-30 15:50:27,088][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/L.phn.kenlm.wrd.o40003.fst (in units: /kaggle/working/preppedtext/fst/phn_to_words/kaldi_dict.phn_disambig.txt)
+[2021-05-30 15:50:27,281][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/LG.phn.kenlm.wrd.o40003.fst
+[2021-05-30 15:50:28,293][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/HLGa.phn.kenlm.wrd.o40003.fst
+[2021-05-30 15:50:31,245][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_words/HLG.phn.kenlm.wrd.o40003.fst
+=== 1/5 Counting and sorting n-grams ===
+Reading /kaggle/working/preppedtext/phones/lm.phones.filtered.txt
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Unigram tokens 63676 types 44
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:528 2:2571437824 3:4821446144 4:7714313728
+Substituting fallback discounts for order 0: D1=0.5 D2=1 D3+=1.5
+Statistics:
+1 44 D1=0.5 D2=1 D3+=1.5
+2 1053 D1=0.421189 D2=1.06361 D3+=1.49793
+3 8534 D1=0.558099 D2=1.17765 D3+=1.45173
+4 23058 D1=0.643934 D2=1.15876 D3+=1.53884
+Memory estimate for binary LM:
+type     kB
+probing 631 assuming -p 1.5
+probing 687 assuming -r models -p 1.5
+trie    203 without quantization
+trie     88 assuming -q 8 -b 8 quantization 
+trie    196 assuming -a 22 array pointer compression
+trie     81 assuming -a 22 -q 8 -b 8 array pointer compression and quantization
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:528 2:16848 3:170680 4:553392
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:528 2:16848 3:170680 4:553392
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 5/5 Writing ARPA model ===
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Name:lmplz	VmPeak:14916784 kB	VmRSS:7056 kB	RSSMax:2973864 kB	user:0.209899	sys:0.716931	CPU:0.926881	real:0.936705
+Reading /kaggle/working/preppedtext/phones/lm.phones.filtered.04.arpa
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+SUCCESS
+=== 1/5 Counting and sorting n-grams ===
+Reading /kaggle/working/preppedtext/phones/lm.phones.filtered.txt
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Unigram tokens 63676 types 44
+=== 2/5 Calculating and sorting adjusted counts ===
+Chain sizes: 1:528 2:929673728 3:1743138176 4:2789021184 5:4067322624 6:5578042368
+Substituting fallback discounts for order 0: D1=0.5 D2=1 D3+=1.5
+Statistics:
+1 44 D1=0.5 D2=1 D3+=1.5
+2 1053 D1=0.421189 D2=1.06361 D3+=1.49793
+3 8534 D1=0.558099 D2=1.17765 D3+=1.45173
+4 23058 D1=0.704256 D2=1.25425 D3+=1.63465
+5 35879 D1=0.821218 D2=1.34714 D3+=1.61281
+6 43593 D1=0.834579 D2=1.24241 D3+=1.56972
+Memory estimate for binary LM:
+type      kB
+probing 2373 assuming -p 1.5
+probing 2775 assuming -r models -p 1.5
+trie     907 without quantization
+trie     401 assuming -q 8 -b 8 quantization 
+trie     838 assuming -a 22 array pointer compression
+trie     331 assuming -a 22 -q 8 -b 8 array pointer compression and quantization
+=== 3/5 Calculating and sorting initial probabilities ===
+Chain sizes: 1:528 2:16848 3:170680 4:553392 5:1004612 6:1394976
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 4/5 Calculating and writing order-interpolated probabilities ===
+Chain sizes: 1:528 2:16848 3:170680 4:553392 5:1004612 6:1394976
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+####################################################################################################
+=== 5/5 Writing ARPA model ===
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Name:lmplz	VmPeak:14949572 kB	VmRSS:6500 kB	RSSMax:2354520 kB	user:0.256512	sys:0.588288	CPU:0.84484	real:0.81585
+Reading /kaggle/working/preppedtext/phones/lm.phones.filtered.06.arpa
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+SUCCESS
+[2021-05-30 15:50:35,812][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/kaldi_dict.phn.txt
+[2021-05-30 15:50:35,812][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/G_lm.phones.filtered.06.fst
+/opt/kaldi/src/lmbin/arpa2fst --disambig-symbol=#0 --write-symbol-table=/kaggle/working/preppedtext/fst/phn_to_phn_sil/kaldi_dict.lm.phones.filtered.06.txt /kaggle/working/preppedtext/phones/lm.phones.filtered.06.arpa /kaggle/working/preppedtext/fst/phn_to_phn_sil/G_lm.phones.filtered.06.fst 
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:94) Reading \data\ section.
+LOG (arpa2fst[5.5.0~1-2b62]:HeaderAvailable():arpa-lm-compiler.cc:300) Reverting to slower state tracking because model is large: 6-gram with symbols up to 47
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \1-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \2-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \3-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \4-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \5-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:Read():arpa-file-parser.cc:149) Reading \6-grams: section.
+LOG (arpa2fst[5.5.0~1-2b62]:RemoveRedundantStates():arpa-lm-compiler.cc:359) Reduced num-states from 67529 to 67528
+[2021-05-30 15:50:36,696][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/kaldi_lexicon.phn.lm.phones.filtered.06.txt (in units file: /kaggle/working/preppedtext/fst/phn_to_phn_sil/kaldi_dict.phn.txt)
+[2021-05-30 15:50:36,713][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/H.phn.fst
+[2021-05-30 15:50:36,754][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/L.phn.lm.phones.filtered.06.fst (in units: /kaggle/working/preppedtext/fst/phn_to_phn_sil/kaldi_dict.phn_disambig.txt)
+[2021-05-30 15:50:36,802][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/LG.phn.lm.phones.filtered.06.fst
+[2021-05-30 15:50:37,700][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/HLGa.phn.lm.phones.filtered.06.fst
+[2021-05-30 15:50:40,759][__main__][INFO] - Creating /kaggle/working/preppedtext/fst/phn_to_phn_sil/HLG.phn.lm.phones.filtered.06.fst
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-text-prep.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

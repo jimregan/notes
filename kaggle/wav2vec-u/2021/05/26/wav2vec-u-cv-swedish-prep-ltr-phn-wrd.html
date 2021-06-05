@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>wav2vec-u Common Voice Swedish - prepare ltr/phn/wrd | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="wav2vec-u Common Voice Swedish - prepare ltr/phn/wrd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ltr/phn/wrd preparation for wav2vec-u on Common Voice Swedish" />
+<meta property="og:description" content="ltr/phn/wrd preparation for wav2vec-u on Common Voice Swedish" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-26T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html","@type":"BlogPosting","headline":"wav2vec-u Common Voice Swedish - prepare ltr/phn/wrd","dateModified":"2021-05-26T00:00:00-05:00","datePublished":"2021-05-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html"},"description":"ltr/phn/wrd preparation for wav2vec-u on Common Voice Swedish","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">wav2vec-u Common Voice Swedish - prepare ltr/phn/wrd</h1><p class="page-description">ltr/phn/wrd preparation for wav2vec-u on Common Voice Swedish</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-26T00:00:00-05:00" itemprop="datePublished">
+        May 26, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#wav2vec-u">wav2vec-u</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-05-26-wav2vec-u-cv-swedish-prep-ltr-phn-wrd.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Original <a href="https://www.kaggle.com/jimregan/wav2vec-u-cv-swedish-prep-ltr-phn-wrd">here</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In the section <a href="https://github.com/pytorch/fairseq/tree/master/examples/wav2vec/unsupervised#preparation-of-speech-and-text-data">Preparation of speech and text data</a> of the readme, it says:</p>
+<blockquote><p>Similar to <a href="https://github.com/pytorch/fairseq/blob/master/examples/wav2vec/README.md">wav2vec 2.0</a>,  data folders contain {train,valid,test}.{tsv,wrd,phn} files, where audio paths are stored in tsv files, and word, letter or phoneme transcriptions are stored in .{wrd,ltr,phn}.
+The <code>.wrd</code> and <code>.ltr</code> files are outputs of <code>libri_labels.py</code></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">phonemizer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">espeak</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">install</span> <span class="n">zsh</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is just my best guess at what the <code>.wrd</code> files contain - it seems to match up with what <code>libri_labels.py</code> does: given input like</p>
+
+<pre><code>1272-128104-0000 MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL</code></pre>
+<p>it does <code>" ".join(items[1:])</code>, which is basically the same</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat /kaggle/input/download-common-voice-swedish/cv-corpus-6.1-2020-12-11/sv-SE/test.tsv <span class="p">|</span> awk -F<span class="s1">&#39;\t&#39;</span> <span class="s1">&#39;{print $3}&#39;</span><span class="p">|</span>grep -v <span class="s1">&#39;^sentence$&#39;</span> <span class="p">|</span> perl -C7 -ane <span class="s1">&#39;chomp;$_=lc($_);s/[^\p{L}\p{N}\p{M}&#39;</span><span class="s2">&quot;\&#39;&quot;</span><span class="s1">&#39; \-]/ /g;s/  +/ /g;s/ $//;s/^ //;print &quot;$_\n&quot;;&#39;</span> &gt; test.wrd
+<span class="o">!</span>cat /kaggle/input/download-common-voice-swedish/cv-corpus-6.1-2020-12-11/sv-SE/dev.tsv <span class="p">|</span> awk -F<span class="s1">&#39;\t&#39;</span> <span class="s1">&#39;{print $3}&#39;</span><span class="p">|</span>grep -v <span class="s1">&#39;^sentence$&#39;</span> <span class="p">|</span> perl -C7 -ane <span class="s1">&#39;chomp;$_=lc($_);s/[^\p{L}\p{N}\p{M}&#39;</span><span class="s2">&quot;\&#39;&quot;</span><span class="s1">&#39; \-]/ /g;s/  +/ /g;s/ $//;s/^ //;print &quot;$_\n&quot;;&#39;</span> &gt; valid.wrd
+<span class="o">!</span>cat /kaggle/input/download-common-voice-swedish/cv-corpus-6.1-2020-12-11/sv-SE/train.tsv <span class="p">|</span> awk -F<span class="s1">&#39;\t&#39;</span> <span class="s1">&#39;{print $3}&#39;</span><span class="p">|</span>grep -v <span class="s1">&#39;^sentence$&#39;</span> <span class="p">|</span> perl -C7 -ane <span class="s1">&#39;chomp;$_=lc($_);s/[^\p{L}\p{N}\p{M}&#39;</span><span class="s2">&quot;\&#39;&quot;</span><span class="s1">&#39; \-]/ /g;s/  +/ /g;s/ $//;s/^ //;print &quot;$_\n&quot;;&#39;</span> &gt; train.wrd
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;train&#39;</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">,</span> <span class="s1">&#39;valid&#39;</span><span class="p">]:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;/kaggle/working/</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">.wrd&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;/kaggle/working/</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">.ltr&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">inf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="s2">&quot;|&quot;</span><span class="p">)))</span> <span class="o">+</span> <span class="s2">&quot; |&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">out</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>head train.ltr
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>v a d | ä r | d e t | i | e u r o |
+d u | s k a | v e t a | a t t | d e t | ä r | d u | s o m | h a r | f e l |
+g å | n e r | p å | k n ä |
+f ö r s t | m å s t e | j a g | s l å | s ö n d e r | d e n | d ä r | s t o r a | s k r o t h ö g e n |
+d e t | b l i r | s v å r t |
+v a d | f ö r | j ä v l a | f r å g a | ä r | d e t |
+j a g | å t e r v ä n d e r | i n t e | t i l l | s k i t h å l e t |
+t i t t a | p å | s ö m m a r n a |
+f e s | d u | p r e c i s |
+a k t r i s e r | h a r | e t t | b ä s t | f ö r e d a t u m |
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There are some warnings about switching, so echo the filename first to known where the errors are</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="k">for</span> i in train <span class="nb">test</span> valid<span class="p">;</span> <span class="k">do</span> <span class="nb">echo</span> <span class="nv">$i</span>.wrd<span class="p">;</span> cat <span class="nv">$i</span>.wrd <span class="p">|</span> <span class="nv">PHONEMIZER_ESPEAK_PATH</span><span class="o">=</span><span class="k">$(</span>which espeak<span class="k">)</span> phonemize -o <span class="nv">$i</span>.phn -p <span class="s1">&#39; &#39;</span> -w <span class="s1">&#39;&#39;</span> -l sv  -j <span class="m">70</span> --language-switch remove-flags <span class="p">;</span><span class="k">done</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>train.wrd
+[WARNING] 2 utterances containing language switches on lines 254, 1457
+[WARNING] extra phones may appear in the &#34;sv&#34; phoneset
+[WARNING] language switch flags have been removed (applying &#34;remove-flags&#34; policy)
+test.wrd
+[WARNING] 1 utterances containing language switches on lines 81
+[WARNING] extra phones may appear in the &#34;sv&#34; phoneset
+[WARNING] language switch flags have been removed (applying &#34;remove-flags&#34; policy)
+valid.wrd
+[WARNING] 1 utterances containing language switches on lines 1831
+[WARNING] extra phones may appear in the &#34;sv&#34; phoneset
+[WARNING] language switch flags have been removed (applying &#34;remove-flags&#34; policy)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat test.wrd<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==81){print $0};ln++}&#39;</span>
+<span class="o">!</span>cat train.wrd<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==254||ln==1457){print $0};ln++}&#39;</span>
+<span class="o">!</span>cat valid.wrd<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==1831){print $0};ln++}&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>det är taskigt
+och så unik design
+internet slutade fungera
+det finns inget internet
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat test.phn<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==81){print $0};ln++}&#39;</span>
+<span class="o">!</span>cat train.phn<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==254||ln==1457){print $0};ln++}&#39;</span>
+<span class="o">!</span>cat valid.phn<span class="p">|</span>awk <span class="s1">&#39;BEGIN{ln=1}{if(ln==1831){print $0};ln++}&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>d eː t ɛː r  t a s k ɪ ɡ t  
+ɔ k s oː ɵ n iː k  d ɪ z aɪ n  
+ ɪ n t ə n ɛ t  s l ʉ t a d ə f ɵ n ɡ eː r a 
+d eː t f ɪ n s ɪ ŋ ə t  ɪ n t ə n ɛ t  
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>"design" and "internet" are clearly the English words that are causing the switch in their respective sentences, but I'm not sure what the problem in test.wrd is: "taskigt"?</p>
+<ul>
+<li><a href="https://en.wiktionary.org/wiki/design#Swedish">design</a> <code>/dɛˈsajn/</code></li>
+<li><a href="https://en.wiktionary.org/wiki/internet#Swedish">internet</a> <code>/ˈɪntɛrnɛt/, /ɪntɛrˈnɛt/</code></li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="nb">echo</span> taskigt<span class="p">|</span>espeak -v sv --ipa <span class="m">2</span>&gt; /dev/null
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre> (en)tˈaskɪɡt(sv)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat test.phn<span class="p">|</span>sed -e <span class="s1">&#39;s/^ //;s/t a s k ɪ ɡ t/t a s k ɪ t/&#39;</span> &gt; tmp
+<span class="o">!</span>mv tmp test.phn
+<span class="o">!</span>cat train.phn<span class="p">|</span>sed -e <span class="s1">&#39;s/^ //;s/d ɪ z aɪ n/d ɛ s a j n/;s/ɪ n t ə n ɛ t/ɪ n t ɛ r n ɛ t/&#39;</span> &gt; tmp
+<span class="o">!</span>mv tmp train.phn
+<span class="o">!</span>cat valid.phn<span class="p">|</span>sed -e <span class="s1">&#39;s/^ //;s/ɪ n t ə n ɛ t/ɪ n t ɛ r n ɛ t/&#39;</span> &gt; tmp
+<span class="o">!</span>mv tmp valid.phn
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="k">for</span> i in train <span class="nb">test</span> valid<span class="p">;</span> <span class="k">do</span> cat <span class="nv">$i</span>.wrd<span class="p">|</span>tr <span class="s1">&#39; &#39;</span> <span class="s1">&#39;\n&#39;</span><span class="p">|</span>sort<span class="p">|</span>uniq <span class="p">|</span>grep -v <span class="s1">&#39;^internet$&#39;</span><span class="p">|</span>grep -v <span class="s1">&#39;^design$&#39;</span><span class="p">|</span>grep -v <span class="s1">&#39;^taskigt$&#39;</span> &gt; /tmp/<span class="nv">$i</span>.wl<span class="p">;</span> cat /tmp/<span class="nv">$i</span>.wl <span class="p">|</span> <span class="nv">PHONEMIZER_ESPEAK_PATH</span><span class="o">=</span><span class="k">$(</span>which espeak<span class="k">)</span> phonemize -o /tmp/<span class="nv">$i</span>.wl.phn -p <span class="s1">&#39; &#39;</span> -w <span class="s1">&#39;&#39;</span> -l sv  -j <span class="m">70</span> --language-switch remove-flags<span class="p">;</span>paste /tmp/<span class="nv">$i</span>.wl /tmp/<span class="nv">$i</span>.wl.phn &gt; dict.<span class="nv">$i</span><span class="p">;</span> <span class="k">done</span>
+<span class="o">!</span><span class="nb">printf</span> <span class="s2">&quot;taskigt\tt a s k ɪ t\n&quot;</span> &gt;&gt; dict.test
+<span class="o">!</span><span class="nb">printf</span> <span class="s2">&quot;design\td ɛ s a j n\n&quot;</span> &gt;&gt; dict.train
+<span class="o">!</span><span class="nb">printf</span> <span class="s2">&quot;internet\tɪ n t ɛ r n ɛ t\n&quot;</span> &gt;&gt; dict.train
+<span class="o">!</span><span class="nb">printf</span> <span class="s2">&quot;internet\tɪ n t ɛ r n ɛ t\n&quot;</span> &gt;&gt; dict.valid
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="k">for</span> i in dic*<span class="p">;</span><span class="k">do</span> cat <span class="nv">$i</span> <span class="p">|</span>sort &gt; tmp<span class="p">;</span>mv tmp <span class="nv">$i</span><span class="p">;</span><span class="k">done</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>cat: valid: No such file or directory
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/kaggle/wav2vec-u/2021/05/26/wav2vec-u-cv-swedish-prep-ltr-phn-wrd.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
