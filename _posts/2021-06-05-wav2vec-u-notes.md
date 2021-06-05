@@ -116,6 +116,8 @@ This doesn't work on Kaggle, because GPU. It does, however, run on CPU—albeit 
 
 The good news is, it runs fine on Colab: [notebook here]({% post_url 2021-05-30-wav2vec-u-cv-swedish-gan %}).
 
+(By "fine", I mean "with [this patch](https://github.com/pytorch/fairseq/pull/3569) added, running from [this branch](https://github.com/jimregan/fairseq/tree/issue3581) where everything has been moved around." Close enough.)
+
 ## Fin
 
 I'm still waiting for GAN training to finish, so I can't comment on anything else.
