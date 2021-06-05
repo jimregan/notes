@@ -8,7 +8,7 @@ categories: [wav2vec-u]
 
 ## The skippable blah
 
-[wav2vec unsupervised](https://arxiv.org/abs/1904.05862) has caught a bit of attention. 
+[wav2vec unsupervised](https://ai.facebook.com/research/publications/unsupervised-speech-recognition) has caught a bit of attention. 
 
 There has been a mixed bag of expectations: there was [a blog post](https://ai.facebook.com/blog/wav2vec-unsupervised-speech-recognition-without-supervision/), they even had a video:
 
