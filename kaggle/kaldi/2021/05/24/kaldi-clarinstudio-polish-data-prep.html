@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Training Kaldi on Kaggle - Data Prep | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Training Kaldi on Kaggle - Data Prep" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Training Kaldi on Kaggle needs to be split into steps" />
+<meta property="og:description" content="Training Kaldi on Kaggle needs to be split into steps" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/kaldi/2021/05/24/kaldi-clarinstudio-polish-data-prep.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/kaldi/2021/05/24/kaldi-clarinstudio-polish-data-prep.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-24T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/kaldi/2021/05/24/kaldi-clarinstudio-polish-data-prep.html","@type":"BlogPosting","headline":"Training Kaldi on Kaggle - Data Prep","dateModified":"2021-05-24T00:00:00-05:00","datePublished":"2021-05-24T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/kaldi/2021/05/24/kaldi-clarinstudio-polish-data-prep.html"},"description":"Training Kaldi on Kaggle needs to be split into steps","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Training Kaldi on Kaggle - Data Prep</h1><p class="page-description">Training Kaldi on Kaggle needs to be split into steps</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-24T00:00:00-05:00" itemprop="datePublished">
+        May 24, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      12 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#kaldi">kaldi</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-05-24-kaldi-clarinstudio-polish-data-prep.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /opt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">tar</span> <span class="n">xvf</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">extract</span><span class="o">-</span><span class="n">prebuilt</span><span class="o">-</span><span class="n">kaldi</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">docker</span><span class="o">/</span><span class="n">kaldi</span><span class="o">.</span><span class="n">tar</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> kaldi/egs
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt/kaldi/egs
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git clone https://github.com/danijel3/ClarinStudioKaldi
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cloning into &#39;ClarinStudioKaldi&#39;...
+remote: Enumerating objects: 778, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 778 (delta 0), reused 0 (delta 0), pack-reused 775
+Receiving objects: 100% (778/778), 35.26 MiB | 19.96 MiB/s, done.
+Resolving deltas: 100% (262/262), done.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> ClarinStudioKaldi
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt/kaldi/egs/ClarinStudioKaldi
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span> <span class="n">perl</span><span class="o">-</span><span class="n">perlio</span><span class="o">-</span><span class="n">gzip</span> <span class="o">-</span><span class="n">y</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;LD_LIBRARY_PATH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/opt/conda/lib:/opt/kaldi/tools/openfst-1.6.7/lib:/opt/kaldi/src/lib&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat path.sh<span class="p">|</span>sed -e <span class="s1">&#39;s/~\/apps/\/opt/&#39;</span> &gt; tmp
+<span class="o">!</span>mv tmp path.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="nb">echo</span> &gt; local_clarin/clarin_pl_clean.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir /kaggle/working/data
+<span class="o">!</span>ln -s /kaggle/working/data
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> /opt/kaldi/tools/phonetisaurus-g2p/src/scripts/phonetisaurus-apply
+<span class="ch">#!/usr/bin/env python</span>
+<span class="c1"># -*- mode: python; coding: utf-8 -*-</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">logging</span><span class="o">,</span> <span class="nn">subprocess</span><span class="o">,</span> <span class="nn">time</span><span class="o">,</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+<span class="kn">import</span> <span class="nn">tempfile</span>
+
+<span class="k">class</span> <span class="nc">G2PModelTester</span> <span class="p">()</span> <span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;G2P Model training wrapper class.</span>
+
+<span class="sd">    Phonetisaurus G2P modeling training wrapper class.</span>
+<span class="sd">    This wraps the alignment, joint n-gram training, and ARPA to</span>
+<span class="sd">    WFST conversion steps into one command.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">lexicon_file</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;lexicon&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nbest</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;nbest&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">thresh</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;thresh&quot;</span><span class="p">,</span> <span class="mi">99</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">beam</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;beam&quot;</span><span class="p">,</span> <span class="mi">10000</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">greedy</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;greedy&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">accumulate</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;accumulate&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pmass</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;pmass&quot;</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">probs</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;probs&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">=</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">get</span> <span class="p">(</span><span class="s2">&quot;verbose&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">setupLogger</span> <span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">setupLogger</span> <span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Setup the logger and logging level.</span>
+
+<span class="sd">        Setup the logger and logging level.  We only support</span>
+<span class="sd">        verbose and non-verbose mode.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            verbose (bool): Verbose mode, or not.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            Logger: A configured logger instance.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">level</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="k">else</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span> <span class="p">(</span>
+            <span class="n">level</span><span class="o">=</span><span class="n">level</span><span class="p">,</span>
+            <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\033</span><span class="s2">[94m</span><span class="si">%(levelname)s</span><span class="s2">:</span><span class="si">%(name)s</span><span class="s2">:&quot;</span>\
+            <span class="s2">&quot;</span><span class="si">%(asctime)s</span><span class="se">\033</span><span class="s2">[0m:  </span><span class="si">%(message)s</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="n">datefmt</span><span class="o">=</span><span class="s2">&quot;%Y-%m-</span><span class="si">%d</span><span class="s2"> %H:%M:%S&quot;</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span> <span class="p">(</span><span class="s2">&quot;phonetisaurus-apply&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_loadLexicon</span> <span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Load the lexicon from a file.</span>
+
+<span class="sd">        Load the reference lexicon from a file, and store it</span>
+<span class="sd">        in a defaultdict (list).</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">_lexicon</span> <span class="o">=</span> <span class="n">defaultdict</span> <span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">lexicon_file</span> <span class="p">:</span>
+            <span class="k">return</span> <span class="n">_lexicon</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span> <span class="p">(</span><span class="s2">&quot;Loading lexicon from file...&quot;</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">lexicon_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">ifp</span> <span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">ifp</span> <span class="p">:</span>
+                <span class="c1"># py2py3 compatbility,</span>
+                <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span> <span class="p">()</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span> <span class="p">()</span>
+                <span class="n">word</span><span class="p">,</span> <span class="n">pron</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span> <span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\t&quot;</span><span class="p">,</span> <span class="n">line</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+                <span class="n">_lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="o">.</span><span class="n">append</span> <span class="p">(</span><span class="n">pron</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">_lexicon</span>
+
+    <span class="k">def</span> <span class="nf">checkPhonetisaurusConfig</span> <span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Run some basic checks before training.</span>
+
+<span class="sd">        Run some basic checks regarding the $PATH, environment,</span>
+<span class="sd">        and provided data before starting training.</span>
+
+<span class="sd">        Raises:</span>
+<span class="sd">            EnvironmentError: raised if binaries are not found.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span> <span class="p">(</span><span class="s2">&quot;Checking command configuration...&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">program</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;phonetisaurus-g2pfst&quot;</span><span class="p">]</span> <span class="p">:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">which</span> <span class="p">(</span><span class="n">program</span><span class="p">)</span> <span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">EnvironmentError</span><span class="p">(</span><span class="s2">&quot;Phonetisaurus command, &#39;</span><span class="si">{0}</span><span class="s2">&#39;, &quot;</span>\
+                    <span class="s2">&quot;not found in path.&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">program</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">lexicon_file</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">lexicon_file</span><span class="p">)</span> <span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">error</span> <span class="p">(</span><span class="s2">&quot;Could not find provided lexicon file.&quot;</span><span class="p">)</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">exit</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">val</span> <span class="ow">in</span> <span class="nb">sorted</span> <span class="p">(</span><span class="nb">vars</span> <span class="p">(</span><span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">items</span> <span class="p">())</span> <span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span> <span class="p">(</span><span class="sa">u</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="s2">:  </span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">val</span><span class="p">))</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">lexicon</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_loadLexicon</span> <span class="p">()</span>
+
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">which</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">program</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Basic &#39;which&#39; implementation for python.</span>
+
+<span class="sd">        Basic &#39;which&#39; implementation for python from stackoverflow:</span>
+<span class="sd">          * https://stackoverflow.com/a/377028/6739158</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            program (str): The program name to search the $PATH for.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            path/None: The path to the executable, or None.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">is_exe</span> <span class="p">(</span><span class="n">fpath</span><span class="p">)</span> <span class="p">:</span>
+            <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span> <span class="p">(</span><span class="n">fpath</span><span class="p">)</span> <span class="ow">and</span> <span class="n">os</span><span class="o">.</span><span class="n">access</span> <span class="p">(</span><span class="n">fpath</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">X_OK</span><span class="p">)</span>
+
+        <span class="n">fpath</span><span class="p">,</span> <span class="n">fname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">split</span> <span class="p">(</span><span class="n">program</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">fpath</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">is_exe</span> <span class="p">(</span><span class="n">program</span><span class="p">):</span>
+                <span class="k">return</span> <span class="n">program</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;PATH&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">pathsep</span><span class="p">)</span> <span class="p">:</span>
+                <span class="n">path</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">strip</span> <span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+                <span class="n">exe_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span> <span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">program</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">is_exe</span> <span class="p">(</span><span class="n">exe_file</span><span class="p">):</span>
+                    <span class="k">return</span> <span class="n">exe_file</span>
+
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="nf">makeG2PCommand</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word_list</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Build the G2P command.</span>
+
+<span class="sd">        Build the G2P command from the provided arguments.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            list: The command in subprocess list format.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">command</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="sa">u</span><span class="s2">&quot;phonetisaurus-g2pfst&quot;</span><span class="p">,</span>
+            <span class="sa">u</span><span class="s2">&quot;--model=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="p">),</span>
+            <span class="sa">u</span><span class="s2">&quot;--nbest=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">nbest</span><span class="p">),</span>
+            <span class="sa">u</span><span class="s2">&quot;--beam=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">beam</span><span class="p">),</span>
+            <span class="sa">u</span><span class="s2">&quot;--thresh=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">thresh</span><span class="p">),</span>
+            <span class="sa">u</span><span class="s2">&quot;--accumulate=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="nb">str</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">accumulate</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span> <span class="p">()),</span>
+            <span class="sa">u</span><span class="s2">&quot;--pmass=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">pmass</span><span class="p">),</span>
+            <span class="sa">u</span><span class="s2">&quot;--nlog_probs=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">probs</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span> <span class="p">()),</span>
+            <span class="sa">u</span><span class="s2">&quot;--wordlist=</span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">word_list</span><span class="p">)</span>
+        <span class="p">]</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span> <span class="p">(</span><span class="sa">u</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span> <span class="p">(</span><span class="n">command</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="n">command</span>
+
+    <span class="k">def</span> <span class="nf">runG2PCommand</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Generate and run the actual G2P command.</span>
+
+<span class="sd">        Generate and run the actual G2P command.  Each synthesized</span>
+<span class="sd">        entry will be yielded back on-the-fly via the subprocess</span>
+<span class="sd">        stdout readline method.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            word_list_file (str): The input word list.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">g2p_command</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">makeG2PCommand</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">debug</span> <span class="p">(</span><span class="s2">&quot;Applying G2P model...&quot;</span><span class="p">)</span>
+
+        <span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">devnull</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">devnull</span> <span class="p">:</span>
+            <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">Popen</span> <span class="p">(</span>
+                <span class="n">g2p_command</span><span class="p">,</span>
+                <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">PIPE</span><span class="p">,</span>
+                <span class="n">stderr</span><span class="o">=</span><span class="n">devnull</span> <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="k">else</span> <span class="kc">None</span>
+            <span class="p">)</span>
+
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">proc</span><span class="o">.</span><span class="n">stdout</span> <span class="p">:</span>
+                <span class="n">parts</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span> <span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\t&quot;</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">decode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span> <span class="p">())</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span> <span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span> <span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">warning</span> <span class="p">(</span>
+                        <span class="sa">u</span><span class="s2">&quot;No pronunciation for word: &#39;</span><span class="si">{0}</span><span class="s2">&#39;&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">parts</span> <span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                    <span class="p">)</span>
+                    <span class="k">continue</span>
+
+                <span class="k">yield</span> <span class="n">parts</span>
+
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">applyG2POnly</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Apply the G2P model to a word list.</span>
+
+<span class="sd">        Apply the G2P model to a word list.  No filtering or application</span>
+<span class="sd">        of a reference lexicon is used here.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            word_list_file (str): The input word list.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">score</span><span class="p">,</span> <span class="n">pron</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">runG2PCommand</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;&quot;</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="se">\t</span><span class="si">{1:.2f}</span><span class="se">\t</span><span class="si">{2}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span>
+                    <span class="n">word</span><span class="p">,</span> <span class="nb">float</span> <span class="p">(</span><span class="n">score</span><span class="p">),</span> <span class="n">pron</span>
+                <span class="p">)</span>
+            <span class="k">else</span> <span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="se">\t</span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">pron</span><span class="p">)</span>
+            <span class="c1"># py2py3 compatbility,</span>
+            <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">encode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">))</span>
+            <span class="k">else</span> <span class="p">:</span>
+                <span class="nb">print</span> <span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">applyG2PWithLexicon</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Apply the G2P model to a word list, combined with lexicon.</span>
+
+<span class="sd">        Apply the G2P model to a word list, but combine this with</span>
+<span class="sd">        a reference lexicon.  Words for which a reference entry exists</span>
+<span class="sd">        will not be sent to the G2P, unless the additional &#39;--greedy&#39;</span>
+<span class="sd">        flag is set to True.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            word_list_file (str): The input word list.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">target_lexicon</span> <span class="o">=</span> <span class="n">defaultdict</span> <span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+        <span class="n">tmpwordlist</span> <span class="o">=</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">delete</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+        <span class="c1">#First, find any words in the target list for which we already</span>
+        <span class="c1"># have a canonical pronunciation in the reference lexicon.</span>
+        <span class="k">with</span> <span class="nb">open</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">ifp</span> <span class="p">:</span>
+            <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">ifp</span> <span class="p">:</span>
+                <span class="c1"># py2py3 compatbility,</span>
+                <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                    <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="o">.</span><span class="n">decode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span> <span class="p">()</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="o">.</span><span class="n">strip</span> <span class="p">()</span> <span class="c1"># already in &#39;utf8&#39;.</span>
+                <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">lexicon</span> <span class="p">:</span>
+                    <span class="n">target_lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="p">[(</span><span class="mf">0.0</span><span class="p">,</span><span class="n">pron</span><span class="p">)</span>
+                                             <span class="k">for</span> <span class="n">pron</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]]</span>
+                    <span class="c1">#In greedy mode we still send words to the G2P, even</span>
+                    <span class="c1"># if we have canonical entries in the reference lexicon.</span>
+                    <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">greedy</span> <span class="p">:</span>
+                        <span class="nb">print</span> <span class="p">(</span><span class="n">word</span><span class="o">.</span><span class="n">encode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">),</span> <span class="n">file</span><span class="o">=</span><span class="n">tmpwordlist</span><span class="p">)</span>
+                <span class="k">else</span> <span class="p">:</span>
+                    <span class="c1"># py2py3 compatbility,</span>
+                    <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                        <span class="nb">print</span> <span class="p">(</span><span class="n">word</span><span class="o">.</span><span class="n">encode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">),</span> <span class="n">file</span><span class="o">=</span><span class="n">tmpwordlist</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="nb">print</span> <span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">tmpwordlist</span><span class="p">)</span>
+        <span class="n">tmpwordlist</span><span class="o">.</span><span class="n">close</span> <span class="p">()</span>
+
+        <span class="c1">#Second, iterate through the G2P output, and filter against</span>
+        <span class="c1"># any possible duplicates previously found in the reference lexicon.</span>
+        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">score</span><span class="p">,</span> <span class="n">pron</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">runG2PCommand</span> <span class="p">(</span><span class="n">tmpwordlist</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="p">:</span>
+            <span class="n">prons</span> <span class="o">=</span> <span class="nb">set</span> <span class="p">([</span><span class="n">p</span> <span class="k">for</span> <span class="n">s</span><span class="p">,</span><span class="n">p</span> <span class="ow">in</span> <span class="n">target_lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]])</span>
+            <span class="k">if</span> <span class="n">pron</span> <span class="ow">in</span> <span class="n">prons</span> <span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">target_lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="o">.</span><span class="n">append</span> <span class="p">((</span><span class="n">score</span><span class="p">,</span> <span class="n">pron</span><span class="p">))</span>
+
+        <span class="c1">#Finally, sort everything that is left and print it.</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">sorted</span> <span class="p">(</span><span class="n">target_lexicon</span><span class="o">.</span><span class="n">keys</span> <span class="p">())</span> <span class="p">:</span>
+            <span class="k">for</span> <span class="n">score</span><span class="p">,</span> <span class="n">pron</span> <span class="ow">in</span> <span class="n">target_lexicon</span> <span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="p">:</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;&quot;</span>
+                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="p">:</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="se">\t</span><span class="si">{1:.2f}</span><span class="se">\t</span><span class="si">{2}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span>
+                        <span class="n">word</span><span class="p">,</span> <span class="nb">float</span> <span class="p">(</span><span class="n">score</span><span class="p">),</span> <span class="n">pron</span>
+                    <span class="p">)</span>
+                <span class="k">else</span> <span class="p">:</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="si">{0}</span><span class="se">\t</span><span class="si">{1}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">pron</span><span class="p">)</span>
+                <span class="c1"># py2py3 compatbility,</span>
+                <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">version_info</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+                    <span class="nb">print</span> <span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">encode</span> <span class="p">(</span><span class="s2">&quot;utf8&quot;</span><span class="p">))</span>
+                <span class="k">else</span> <span class="p">:</span>
+                    <span class="nb">print</span> <span class="p">(</span><span class="n">line</span><span class="p">)</span>
+
+        <span class="n">os</span><span class="o">.</span><span class="n">unlink</span> <span class="p">(</span><span class="n">tmpwordlist</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">return</span>
+
+    <span class="k">def</span> <span class="nf">ApplyG2PModel</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Apply the G2P model to a word list.</span>
+
+<span class="sd">        Apply the G2P model to a word list.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">            word_list_file (str): The input word list.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">checkPhonetisaurusConfig</span> <span class="p">()</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span> \
+           <span class="ow">or</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span> <span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">IOError</span><span class="p">(</span><span class="s2">&quot;Word list file not found.&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">len</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">lexicon</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">applyG2POnly</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">applyG2PWithLexicon</span> <span class="p">(</span><span class="n">word_list_file</span><span class="p">)</span>
+
+        <span class="k">return</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span> <span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">argparse</span>
+
+    <span class="n">example</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{0}</span><span class="s2"> --model train/model.fst --word test&quot;</span><span class="o">.</span><span class="n">format</span> <span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span> <span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="n">parser</span>  <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span> <span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="n">example</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--model&quot;</span><span class="p">,</span> <span class="s2">&quot;-m&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Phonetisaurus G2P fst model.&quot;</span><span class="p">,</span>
+                         <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--lexicon&quot;</span><span class="p">,</span> <span class="s2">&quot;-l&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Optional reference lexicon.&quot;</span><span class="p">,</span>
+                         <span class="n">required</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--nbest&quot;</span><span class="p">,</span> <span class="s2">&quot;-n&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Maximum number of hypotheses &quot;</span>
+                         <span class="s2">&quot;to produce.  Overridden if --pmass is set.&quot;</span><span class="p">,</span>
+                         <span class="n">default</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--beam&quot;</span><span class="p">,</span> <span class="s2">&quot;-b&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Search &#39;beam&#39;.&quot;</span><span class="p">,</span>
+                         <span class="n">default</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--thresh&quot;</span><span class="p">,</span> <span class="s2">&quot;-t&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Pruning threshold for n-best.&quot;</span><span class="p">,</span>
+                         <span class="n">default</span><span class="o">=</span><span class="mf">99.0</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--greedy&quot;</span><span class="p">,</span> <span class="s2">&quot;-g&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Use the G2P even if a &quot;</span>
+                         <span class="s2">&quot;reference lexicon has been provided.&quot;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                         <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--accumulate&quot;</span><span class="p">,</span> <span class="s2">&quot;-a&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Accumulate probabilities &quot;</span>
+                         <span class="s2">&quot;across unique pronunciations.&quot;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                         <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--pmass&quot;</span><span class="p">,</span> <span class="s2">&quot;-p&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Select the maximum number of &quot;</span>
+                         <span class="s2">&quot;hypotheses summing to P total mass for a word.&quot;</span><span class="p">,</span>
+                         <span class="n">default</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--probs&quot;</span><span class="p">,</span> <span class="s2">&quot;-pr&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Print exp(-val) &quot;</span>
+                         <span class="s2">&quot;instead of default -log values.&quot;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                         <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--word_list&quot;</span><span class="p">,</span> <span class="s2">&quot;-wl&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Input word or word list to apply &quot;</span>
+                        <span class="s2">&quot;G2P model to.&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">)</span>
+
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span> <span class="p">(</span><span class="s2">&quot;--verbose&quot;</span><span class="p">,</span> <span class="s2">&quot;-v&quot;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Verbose mode.&quot;</span><span class="p">,</span>
+                         <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">action</span><span class="o">=</span><span class="s2">&quot;store_true&quot;</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span> <span class="p">()</span>
+
+    <span class="n">tester</span> <span class="o">=</span> <span class="n">G2PModelTester</span> <span class="p">(</span>
+        <span class="n">args</span><span class="o">.</span><span class="n">model</span><span class="p">,</span>
+        <span class="o">**</span><span class="p">{</span><span class="n">key</span><span class="p">:</span><span class="n">val</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span><span class="n">val</span> <span class="ow">in</span> <span class="n">args</span><span class="o">.</span><span class="vm">__dict__</span><span class="o">.</span><span class="n">items</span> <span class="p">()</span>
+           <span class="k">if</span> <span class="ow">not</span> <span class="n">key</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;model&quot;</span><span class="p">,</span><span class="s2">&quot;word_list&quot;</span><span class="p">]}</span>
+    <span class="p">)</span>
+
+    <span class="n">tester</span><span class="o">.</span><span class="n">ApplyG2PModel</span> <span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">word_list</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Overwriting /opt/kaldi/tools/phonetisaurus-g2p/src/scripts/phonetisaurus-apply
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>chmod a+x /opt/kaldi/tools/phonetisaurus-g2p/src/scripts/phonetisaurus-apply
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> local_clarin/clarin_prepare_dict.sh
+<span class="ch">#!/bin/bash</span>
+
+<span class="c1"># Copyright 2010-2012 Microsoft Corporation  </span>
+<span class="c1">#           2012-2014 Johns Hopkins University (Author: Daniel Povey)</span>
+<span class="c1">#                2015 Guoguo Chen</span>
+
+<span class="c1"># Modified 2017 Danijel Korzinek</span>
+
+<span class="c1"># Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</span>
+<span class="c1"># you may not use this file except in compliance with the License.</span>
+<span class="c1"># You may obtain a copy of the License at</span>
+<span class="c1">#</span>
+<span class="c1">#  http://www.apache.org/licenses/LICENSE-2.0</span>
+<span class="c1">#</span>
+<span class="c1"># THIS CODE IS PROVIDED *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY</span>
+<span class="c1"># KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED</span>
+<span class="c1"># WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,</span>
+<span class="c1"># MERCHANTABLITY OR NON-INFRINGEMENT.</span>
+<span class="c1"># See the Apache 2 License for the specific language governing permissions and</span>
+<span class="c1"># limitations under the License.</span>
+
+<span class="c1"># Call this script from one level above, e.g. from the s3/ directory.  It puts</span>
+<span class="c1"># its output in data/local/.</span>
+
+<span class="c1"># The parts of the output of this that will be needed are</span>
+<span class="c1"># [in data/local/dict/ ]</span>
+<span class="c1"># lexicon.txt</span>
+<span class="c1"># extra_questions.txt</span>
+<span class="c1"># nonsilence_phones.txt</span>
+<span class="c1"># optional_silence.txt</span>
+<span class="c1"># silence_phones.txt</span>
+
+<span class="c1"># run this from ../</span>
+
+<span class="n">echo</span> <span class="s2">&quot;$0 $@&quot;</span>  <span class="c1"># Print the command line for logging</span>
+<span class="o">.</span> <span class="n">utils</span><span class="o">/</span><span class="n">parse_options</span><span class="o">.</span><span class="n">sh</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="o">.</span> <span class="o">./</span><span class="n">path</span><span class="o">.</span><span class="n">sh</span>
+
+<span class="k">if</span> <span class="p">[</span> <span class="err">$</span><span class="c1"># -ne 2 ]; then</span>
+  <span class="n">echo</span> <span class="s2">&quot;Usage: ./local/prepare_lang.sh &lt;word_list&gt; &lt;dict_dir&gt;&quot;</span>
+  <span class="n">echo</span> <span class="s2">&quot;Creates a folder &lt;dict_dir&gt; with lexicon derived from&quot;</span>
+  <span class="n">echo</span> <span class="s2">&quot;  word list &lt;word_list&gt;.&quot;</span>
+  <span class="n">exit</span> <span class="mi">1</span>
+<span class="n">fi</span>
+
+<span class="n">word_list</span><span class="o">=</span><span class="err">$</span><span class="mi">1</span>
+<span class="nb">dir</span><span class="o">=</span><span class="err">$</span><span class="mi">2</span>
+
+<span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="err">$</span><span class="nb">dir</span>
+
+<span class="c1"># Make phones symbol-table (adding in silence and verbal and non-verbal noises at this point).</span>
+<span class="c1"># We are adding suffixes _B, _E, _S for beginning, ending, and singleton phones.</span>
+
+<span class="c1"># silence phones, one per line.</span>
+<span class="p">(</span><span class="n">echo</span> <span class="n">sil</span><span class="p">)</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">silence_phones</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">echo</span> <span class="n">sil</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">optional_silence</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1"># nonsilence phones; on each line is a list of phones that correspond</span>
+<span class="c1"># really to the same base phone.</span>
+<span class="n">printf</span> <span class="s2">&quot;I</span><span class="se">\n</span><span class="s2">S</span><span class="se">\n</span><span class="s2">Z</span><span class="se">\n</span><span class="s2">a</span><span class="se">\n</span><span class="s2">b</span><span class="se">\n</span><span class="s2">d</span><span class="se">\n</span><span class="s2">dZ</span><span class="se">\n</span><span class="s2">dz</span><span class="se">\n</span><span class="s2">dzi</span><span class="se">\n</span><span class="s2">e</span><span class="se">\n</span><span class="s2">en</span><span class="se">\n</span><span class="s2">f</span><span class="se">\n</span><span class="s2">g</span><span class="se">\n</span><span class="s2">i</span><span class="se">\n</span><span class="s2">j</span><span class="se">\n</span><span class="s2">k</span><span class="se">\n</span><span class="s2">l</span><span class="se">\n</span><span class="s2">m</span><span class="se">\n</span><span class="s2">n</span><span class="se">\n</span><span class="s2">ni</span><span class="se">\n</span><span class="s2">o</span><span class="se">\n</span><span class="s2">on</span><span class="se">\n</span><span class="s2">p</span><span class="se">\n</span><span class="s2">r</span><span class="se">\n</span><span class="s2">s</span><span class="se">\n</span><span class="s2">si</span><span class="se">\n</span><span class="s2">t</span><span class="se">\n</span><span class="s2">tS</span><span class="se">\n</span><span class="s2">ts</span><span class="se">\n</span><span class="s2">tsi</span><span class="se">\n</span><span class="s2">u</span><span class="se">\n</span><span class="s2">v</span><span class="se">\n</span><span class="s2">w</span><span class="se">\n</span><span class="s2">x</span><span class="se">\n</span><span class="s2">z</span><span class="se">\n</span><span class="s2">zi</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">nonsilence_phones</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1"># A few extra questions that will be added to those obtained by automatically clustering</span>
+<span class="c1"># the &quot;real&quot; phones.  These ask about stress; there&#39;s also one for silence.</span>
+<span class="n">cat</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">silence_phones</span><span class="o">.</span><span class="n">txt</span><span class="o">|</span> <span class="n">awk</span> <span class="s1">&#39;{printf(&quot;</span><span class="si">%s</span><span class="s1"> &quot;, $1);} END{printf &quot;</span><span class="se">\n</span><span class="s1">&quot;;}&#39;</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">extra_questions</span><span class="o">.</span><span class="n">txt</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span><span class="p">;</span>
+<span class="n">cat</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">nonsilence_phones</span><span class="o">.</span><span class="n">txt</span> <span class="o">|</span> <span class="n">perl</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;while(&lt;&gt;){ foreach $p (split(&quot; &quot;, $_)) {</span>
+  <span class="err">$</span><span class="n">p</span> <span class="o">=~</span> <span class="n">m</span><span class="p">:</span><span class="o">^</span><span class="p">([</span><span class="o">^</span>\<span class="n">d</span><span class="p">]</span><span class="o">+</span><span class="p">)(</span>\<span class="n">d</span><span class="o">*</span><span class="p">)</span><span class="err">$</span><span class="p">:</span> <span class="o">||</span> <span class="n">die</span> <span class="s2">&quot;Bad phone $_&quot;</span><span class="p">;</span> <span class="err">$</span><span class="n">q</span><span class="p">{</span><span class="err">$</span><span class="mi">2</span><span class="p">}</span> <span class="o">.=</span> <span class="s2">&quot;$p &quot;</span><span class="p">;</span> <span class="p">}</span> <span class="p">}</span> <span class="n">foreach</span> <span class="err">$</span><span class="n">l</span> <span class="p">(</span><span class="n">values</span> <span class="o">%</span><span class="n">q</span><span class="p">)</span> <span class="p">{</span><span class="nb">print</span> <span class="s2">&quot;$l</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">;}</span><span class="s1">&#39; </span><span class="se">\</span>
+<span class="s1"> &gt;&gt; $dir/extra_questions.txt || exit 1;</span>
+
+<span class="c1">#Transcribe the wordlist</span>
+<span class="n">export</span> <span class="n">LD_LIBRARY_PATH</span><span class="o">=</span><span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">openfst</span><span class="o">/</span><span class="n">lib</span>
+<span class="n">export</span> <span class="n">PATH</span><span class="o">=</span><span class="err">$</span><span class="n">PATH</span><span class="p">:</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">kaldi</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">phonetisaurus</span><span class="o">-</span><span class="n">g2p</span><span class="o">/</span>
+<span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">kaldi</span><span class="o">/</span><span class="n">tools</span><span class="o">/</span><span class="n">phonetisaurus</span><span class="o">-</span><span class="n">g2p</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">scripts</span><span class="o">/</span><span class="n">phonetisaurus</span><span class="o">-</span><span class="n">apply</span> <span class="o">--</span><span class="n">model</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">fst</span> <span class="o">--</span><span class="n">lexicon</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">lexicon</span><span class="o">.</span><span class="n">txt</span> <span class="o">--</span><span class="n">word_list</span> <span class="err">$</span><span class="n">word_list</span> <span class="o">-</span><span class="n">p</span> <span class="mf">0.8</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon_raw_nosil</span><span class="o">.</span><span class="n">txt</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span>
+
+<span class="n">sort</span> <span class="o">-</span><span class="n">u</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon_raw_nosil</span><span class="o">.</span><span class="n">txt</span> <span class="o">-</span><span class="n">o</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon_raw_nosil</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="c1"># Add the silences, noises etc.</span>
+<span class="c1"># the sort | uniq is to remove a duplicated pron.</span>
+<span class="c1"># lexicon.txt is without the _B, _E, _S, _I markers.</span>
+<span class="p">(</span><span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;&lt;unk&gt;</span><span class="se">\t</span><span class="s1">sil&#39;</span> <span class="p">)</span> <span class="o">|</span> \
+ <span class="n">cat</span> <span class="o">-</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon_raw_nosil</span><span class="o">.</span><span class="n">txt</span> <span class="o">|</span> <span class="n">sort</span> <span class="o">-</span><span class="n">u</span> <span class="o">&gt;</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon</span><span class="o">.</span><span class="n">txt</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="c1"># Cleanup</span>
+<span class="n">rm</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexiconp</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">rm</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="nb">dir</span><span class="o">/</span><span class="n">lexicon_raw_nosil</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="n">echo</span> <span class="s2">&quot;Dictionary preparation succeeded&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Overwriting local_clarin/clarin_prepare_dict.sh
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> local_clarin/clarin_pl_data_prep.sh
+<span class="ch">#!/bin/bash</span>
+
+<span class="o">.</span> <span class="o">./</span><span class="n">path</span><span class="o">.</span><span class="n">sh</span>
+
+<span class="c1">#you can change this here, if you want it on a different partition, for example</span>
+<span class="n">AUDIO_DL_PATH</span><span class="o">=</span><span class="n">audio</span>
+
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">d</span> <span class="err">$</span><span class="n">AUDIO_DL_PATH</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">mkdir</span> <span class="o">-</span><span class="n">p</span> <span class="err">$</span><span class="n">AUDIO_DL_PATH</span> <span class="p">;</span> <span class="n">fi</span>
+<span class="n">pushd</span> <span class="err">$</span><span class="n">AUDIO_DL_PATH</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="n">audio</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
+	<span class="n">echo</span> <span class="s2">&quot;Downloading audio from the Clarin-pl website (~4.6GB)...&quot;</span>
+	<span class="n">curl</span> <span class="o">-</span><span class="n">O</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">mowa</span><span class="o">.</span><span class="n">clarin</span><span class="o">-</span><span class="n">pl</span><span class="o">.</span><span class="n">eu</span><span class="o">/</span><span class="n">korpusy</span><span class="o">/</span><span class="n">audio</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="k">else</span>
+	<span class="n">echo</span> <span class="s2">&quot;File already downloaded! Checking if download is consistent...&quot;</span>
+	<span class="n">curl</span> <span class="o">-</span><span class="n">O</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">mowa</span><span class="o">.</span><span class="n">clarin</span><span class="o">-</span><span class="n">pl</span><span class="o">.</span><span class="n">eu</span><span class="o">/</span><span class="n">korpusy</span><span class="o">/</span><span class="n">audio</span><span class="o">.</span><span class="n">md5sum</span>
+	<span class="k">if</span> <span class="err">!</span> <span class="n">md5sum</span> <span class="o">-</span><span class="n">c</span> <span class="n">audio</span><span class="o">.</span><span class="n">md5sum</span> <span class="p">;</span> <span class="n">then</span>
+		<span class="n">echo</span> <span class="s2">&quot;Download doesn&#39;t match the one on the server! &quot;</span>
+		<span class="n">echo</span> <span class="s2">&quot;Erase the audio.tar.gz file (and audio folder) and run this script again!&quot;</span>
+		<span class="n">exit</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="n">fi</span>
+<span class="n">fi</span>
+
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">d</span> <span class="n">audio</span>	<span class="p">]</span> <span class="p">;</span> <span class="n">then</span>
+	<span class="n">echo</span> <span class="s2">&quot;Extracting files...&quot;</span>
+	<span class="n">tar</span> <span class="n">xf</span> <span class="n">audio</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="k">else</span>
+	<span class="n">echo</span> <span class="s2">&quot;Files already extracted?&quot;</span>
+	<span class="n">echo</span> <span class="s2">&quot;Remove the audio dir to extract them again...&quot;</span>
+<span class="n">fi</span>
+<span class="n">popd</span>
+
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">d</span> <span class="n">data</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">mkdir</span> <span class="n">data</span> <span class="p">;</span> <span class="n">fi</span>
+
+<span class="n">echo</span> <span class="n">Generating</span> <span class="n">file</span> <span class="n">lists</span> <span class="n">using</span> <span class="n">proper</span> <span class="n">paths</span><span class="o">...</span>
+<span class="n">python3</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">generate_lists</span><span class="o">.</span><span class="n">py</span> <span class="err">$</span><span class="n">AUDIO_DL_PATH</span><span class="o">/</span><span class="n">audio</span> <span class="n">data</span> <span class="n">local_clarin</span>
+
+<span class="n">echo</span> <span class="n">Generating</span> <span class="n">spk2utt</span><span class="o">...</span>
+<span class="n">utils</span><span class="o">/</span><span class="n">utt2spk_to_spk2utt</span><span class="o">.</span><span class="n">pl</span> <span class="n">data</span><span class="o">/</span><span class="n">train</span><span class="o">/</span><span class="n">utt2spk</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">train</span><span class="o">/</span><span class="n">spk2utt</span>
+<span class="n">utils</span><span class="o">/</span><span class="n">utt2spk_to_spk2utt</span><span class="o">.</span><span class="n">pl</span> <span class="n">data</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">utt2spk</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">spk2utt</span>
+<span class="n">utils</span><span class="o">/</span><span class="n">utt2spk_to_spk2utt</span><span class="o">.</span><span class="n">pl</span> <span class="n">data</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">utt2spk</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">dev</span><span class="o">/</span><span class="n">spk2utt</span>
+
+<span class="n">echo</span> <span class="n">Preparing</span> <span class="n">dictionary</span><span class="o">...</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">d</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">mkdir</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span> <span class="p">;</span> <span class="n">fi</span>
+
+<span class="n">cut</span> <span class="o">-</span><span class="n">f2</span><span class="o">-</span> <span class="o">-</span><span class="n">d</span><span class="s1">&#39; &#39;</span> <span class="o">&lt;</span> <span class="n">data</span><span class="o">/</span><span class="n">train</span><span class="o">/</span><span class="n">text</span> <span class="o">|</span> <span class="n">tr</span> <span class="s1">&#39; &#39;</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="o">|</span> <span class="n">sort</span> <span class="o">-</span><span class="n">u</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">wlist</span>
+<span class="k">if</span> <span class="p">[</span> <span class="n">x</span><span class="s2">&quot;$(which ngram)&quot;</span> <span class="o">!=</span> <span class="n">x</span><span class="s2">&quot;&quot;</span> <span class="p">]</span>
+<span class="n">then</span>
+	<span class="n">ngram</span> <span class="o">-</span><span class="n">lm</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">arpa</span><span class="o">.</span><span class="n">lm</span><span class="o">.</span><span class="n">gz</span> <span class="o">-</span><span class="n">unk</span> <span class="o">-</span><span class="n">write</span><span class="o">-</span><span class="n">vocab</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">wlist</span>
+<span class="k">else</span>
+	<span class="n">perl</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">extract_vocab</span><span class="o">.</span><span class="n">pl</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">arpa</span><span class="o">.</span><span class="n">lm</span><span class="o">.</span><span class="n">gz</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">wlist</span>
+<span class="n">fi</span>
+<span class="n">tail</span> <span class="o">-</span><span class="n">n</span> <span class="o">+</span><span class="mi">5</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lm</span><span class="o">.</span><span class="n">wlist</span> <span class="o">|</span> <span class="n">cat</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">train</span><span class="o">.</span><span class="n">wlist</span> <span class="o">-</span> <span class="o">|</span> <span class="n">sort</span> <span class="o">-</span><span class="n">u</span> <span class="o">&gt;</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="nb">all</span><span class="o">.</span><span class="n">wlist</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">fst</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">gunzip</span> <span class="o">-</span><span class="n">c</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">fst</span><span class="o">.</span><span class="n">gz</span> <span class="o">&gt;</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">fst</span> <span class="p">;</span> <span class="n">fi</span>
+<span class="n">local_clarin</span><span class="o">/</span><span class="n">clarin_prepare_dict</span><span class="o">.</span><span class="n">sh</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="nb">all</span><span class="o">.</span><span class="n">wlist</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">dict_nosp</span> <span class="o">||</span> <span class="n">exit</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Overwriting local_clarin/clarin_pl_data_prep.sh
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> runmfcc.sh
+<span class="ch">#!/bin/bash</span>
+
+<span class="o">.</span> <span class="o">./</span><span class="n">path</span><span class="o">.</span><span class="n">sh</span> <span class="c1">## set the paths in this file correctly!</span>
+
+<span class="c1"># link to scripts from the standard Kaldi distribution</span>
+<span class="c1"># we try to use these as much as possible</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">conf</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">conf</span> <span class="p">;</span> <span class="n">fi</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">local</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">local</span> <span class="p">;</span> <span class="n">fi</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">utils</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">utils</span> <span class="p">;</span> <span class="n">fi</span>
+<span class="k">if</span> <span class="p">[</span> <span class="err">!</span> <span class="o">-</span><span class="n">f</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">steps</span> <span class="p">]</span> <span class="p">;</span> <span class="n">then</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="err">$</span><span class="n">KALDI_ROOT</span><span class="o">/</span><span class="n">egs</span><span class="o">/</span><span class="n">wsj</span><span class="o">/</span><span class="n">s5</span><span class="o">/</span><span class="n">steps</span> <span class="p">;</span> <span class="n">fi</span>
+
+<span class="c1"># exits script if error occurs anywhere</span>
+<span class="c1"># you might not want to do this for interactive shells.</span>
+<span class="nb">set</span> <span class="o">-</span><span class="n">e</span>
+
+<span class="n">export</span> <span class="n">nj</span><span class="o">=</span><span class="mi">40</span> <span class="c1">##number of concurrent processes</span>
+<span class="n">export</span> <span class="n">nj_test</span><span class="o">=</span><span class="mi">30</span> <span class="c1">## number of concurrent processes for test has to be &lt;=30</span>
+
+<span class="c1"># This is a shell script, but it&#39;s recommended that you run the commands one by</span>
+<span class="c1"># one by copying and pasting into the shell.</span>
+
+<span class="c1">#run some initial data preparation (look at the file for more details):</span>
+<span class="n">local_clarin</span><span class="o">/</span><span class="n">clarin_pl_data_prep</span><span class="o">.</span><span class="n">sh</span>
+
+<span class="c1">#prepare the lang directory</span>
+<span class="n">utils</span><span class="o">/</span><span class="n">prepare_lang</span><span class="o">.</span><span class="n">sh</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">dict_nosp</span> <span class="s2">&quot;&lt;unk&gt;&quot;</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">tmp_nosp</span> <span class="n">data</span><span class="o">/</span><span class="n">lang_nosp</span>
+
+<span class="c1">#make G.fst</span>
+<span class="n">utils</span><span class="o">/</span><span class="n">format_lm</span><span class="o">.</span><span class="n">sh</span> <span class="n">data</span><span class="o">/</span><span class="n">lang_nosp</span> <span class="n">local_clarin</span><span class="o">/</span><span class="n">arpa</span><span class="o">.</span><span class="n">lm</span><span class="o">.</span><span class="n">gz</span> <span class="n">data</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">dict_nosp</span><span class="o">/</span><span class="n">lexicon</span><span class="o">.</span><span class="n">txt</span> <span class="n">data</span><span class="o">/</span><span class="n">lang_nosp_test</span>
+
+<span class="c1"># Make normalized MFCC features.</span>
+<span class="n">steps</span><span class="o">/</span><span class="n">make_mfcc</span><span class="o">.</span><span class="n">sh</span> <span class="o">--</span><span class="n">nj</span> <span class="err">$</span><span class="n">nj</span> <span class="n">data</span><span class="o">/</span><span class="n">train</span>
+<span class="n">steps</span><span class="o">/</span><span class="n">compute_cmvn_stats</span><span class="o">.</span><span class="n">sh</span> <span class="n">data</span><span class="o">/</span><span class="n">train</span>
+<span class="n">steps</span><span class="o">/</span><span class="n">make_mfcc</span><span class="o">.</span><span class="n">sh</span> <span class="o">--</span><span class="n">nj</span> <span class="err">$</span><span class="n">nj</span> <span class="n">data</span><span class="o">/</span><span class="n">test</span>
+<span class="n">steps</span><span class="o">/</span><span class="n">compute_cmvn_stats</span><span class="o">.</span><span class="n">sh</span> <span class="n">data</span><span class="o">/</span><span class="n">test</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Writing runmfcc.sh
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>bash runmfcc.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/kaggle/kaldi/2021/05/24/kaldi-clarinstudio-polish-data-prep.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
