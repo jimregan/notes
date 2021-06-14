@@ -1,10 +1,10 @@
 Original	Transcript	Abair G2P	Abair source	Adjusted word (standardised)	Adjusted Abair	Rule
 An	ə	ˈəɴˠ	L			
-dtiocfadh	d′{ʒ}o̤ku	ˈdʲokˠuː	L			
+dtiocfadh	d′ᶾo̤ku	ˈdʲokˠuː	L			
 leat	L′at	ˈlʲatˠ	L			
 innse	ïΝ′ʃə	ˈiˈɴʲʃe		insint	ˌinʲˈʃinʲtʲ	
 domh	du	ˈdˠuː	L			
-goidé	gəˈd′{ʒ}e:	ˈgˠədʲeː	L			
+goidé	gəˈd′ᶾe:	ˈgˠədʲeː	L			
 n	n̥	nˠ	L			
 dóigh	dɔ:i	ˈdˠoːj	L			
 a	ə	ə	L			
@@ -118,7 +118,7 @@ thriomuigheadh	ˈx′r′ïmʷied′	ˈr̪ʲimˠəjuː		thriomaíodh	ˈr̪ʲim�
 siad	ʃəd	ˈʃiːdˠ	L			
 araist	əˈraʃd′	ˈaɾˠəʃtʲ				
 í	i:	ˈiː	L			
-Annsin	n̥ˈʃɪn′	ˈaˈɴʲʃinʲ				
+Annsin	n̥ˈʃɪn′	ˈaˈɴʲʃinʲ				ə → ∅ / V # _
 mheileadh	vəl′həd′	ˈvʲelʲuː				<eadh> → ədʲ / _ # PRONOUN
 siad	ʃəd	ˈʃiːdˠ	L			
 í	i:	ˈiː	L			
@@ -129,13 +129,13 @@ Bhí	vi:	ˈvʲiː	L
 na	Nə	ˈɴˠə	L			
 barraillí	ˈbɑRəL′i	ˈbˠaːˈɾˠaʟʲiː		bairillí	ˈbˠaɾʲəʟʲiː	
 acú	ɔku	ˈakˠuː		acu	akˠu	
-annsin	n̥ˈʃɪn′	ˈaˈɴʲʃinʲ		ansin	əɴˠʃinʲ	
+annsin	n̥ˈʃɪn′	ˈaˈɴʲʃinʲ		ansin	əɴˠʃinʲ	ə → ∅ / V # _
 agus	ɔges	ˈagˠəsˠ	L			
 líonadh	ˈL′i:nəd′	ˈʟʲiːɴˠuː	L			
 siad	ʃəd	ˈʃiːdˠ	L			
 lán	Lɑ:n	ˈʟˠaːɴˠ	L			
 uisce	ɪʃg′ə	ˈiʃcə	L			
-an	n̥	ˈəɴˠ	L			
+an	n̥	ˈəɴˠ	L			ə → ∅ / V # _
 barraille	ˈbɑRəL′ə	ˈbˠaːˈɾˠaʟʲə		bairille	ˈbˠaɾʲʟʲə	
 Chuireadh	xo̤r′əd′	ˈxuɾʲuː	L			<eadh> → ədʲ / _ # PRONOUN
 siad	ʃəd	ˈʃiːdˠ	L			
@@ -156,7 +156,7 @@ an	ə	ˈəɴˠ	L
 bharraille	ˈwɑRəL′ə	ˈwaːˈɾˠaʟʲə		bhairille	ˈwaɾʲʟʲə	
 agus	ɔgəs	ˈagˠəsˠ	L			
 ba	bo̤	ˈbˠə	L			
-ghoirid	ˈɣo̤r′id′{ʒ}	ˈɣoɾʲədʲ				
+ghoirid	ˈɣo̤r′id′ᶾ	ˈɣoɾʲədʲ				
 i	ə	ˈi	L			
 gcionn	g′o̤N	ˈɟoɴˠ	L			
 cheithre	ˈx′ɛr′ə	ˈxeɾʲə	L			
@@ -172,7 +172,7 @@ an	ə	ˈəɴˠ	L
 bharraille	ˈwɑRəL′ə	ˈwaːˈɾˠaʟʲə		bhairille	ˈwaɾʲʟʲə	
 agus	ɔgəs	ˈagˠəsˠ	L			
 bhí	vi:	ˈvʲiː	L			
-an	n	ˈəɴˠ	L			
+an	n	ˈəɴˠ	L			ə → ∅ / V # _
 ceol	ˈk′ʲɔ:l	ˈcoːʟˠ	L			
 aige	ɛg′ə	ˈeɟə	L			
 mar	mo̤r	ˈmˠaɾˠ	L			
@@ -186,7 +186,7 @@ naoi	ˈNi:	ˈɴˠiː	L
 lá	ˈLɑ:	ˈʟˠaː	L			
 shíolthuigheadh	ˈhiəlhiuw	ˈhiːʟˠhəjuː		shíothlaíodh	ˈhiːhʟˠiəɣ	
 an	ə	ˈəɴˠ	L			
-t-iomlán	ˈt′{ʃ}o̤mlan	ˈtʲuːmˠʟˠaɴˠ				
+t-iomlán	ˈt′ᶴo̤mlan	ˈtʲuːmˠʟˠaɴˠ				
 síos	ʃi:s	ˈʃiːsˠ	L			
 ins	n̥s	ˈinʲʃ				
 an	ə	ˈəɴˠ	L			
