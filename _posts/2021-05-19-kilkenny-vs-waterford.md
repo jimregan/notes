@@ -8,7 +8,7 @@ categories: [irish, kilkenny, waterford]
 
 Comparing Kilkenny Irish with Waterford Irish.
 
-The Kilkenny Irish comes from these tweets: (Google Books says _Éigse_, vol. 26, p. 35)
+The Kilkenny Irish comes from these tweets: (Google Books says _Éigse_, vol. 26, p. 35 [^2])
 
 {% twitter https://twitter.com/erisceres/status/1394224151175520260 %}
 
@@ -80,3 +80,7 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 | tú | tu | **tuː**, **tə** | 134, 80 |
 
 [^1]: Breatnach, R. B., (1947). _The Irish of Ring, Co. Waterford: A Phonetic Study._ Dublin Institute for Advanced Studies.
+
+[^2]: Breatnach, R. A., (1992). ‘Iarsmaí de Ghaeilig Chontae Chill Choinnigh’. In _Éigse_, 26, pp. 21—42.
+
+{% twitter https://twitter.com/SeaghanSionnach/status/1395149576424808448 %}
