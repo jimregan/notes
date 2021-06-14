@@ -22,7 +22,7 @@ _raibh_ /re/ is a bit of a stretch; Breatnach says this is only before pronouns,
 
 /duːr′t′/ for _dúirt_ in Waterford is a little unexpected: the usual rule is `r′ → [r] / _ [+dental]`.
 
-|K. Word|K. Phonetic|W. Phonetic|Breatnach|W. Word|
+|K. Word|K. Phonetic|W. Phonetic|TIoRCW ref.|W. Word|
 |-|-|-|-|-|
 | a | ə | ə | t. 349 |
 | acu | əku | əˈku | 163 | aca |
