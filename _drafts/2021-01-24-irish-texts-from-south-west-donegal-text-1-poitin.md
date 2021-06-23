@@ -1,3 +1,17 @@
+---
+toc: true
+layout: post
+hidden: true
+description: Text 1 from O'Neill's 1974 article, with comparison with Abair's G2P.
+title: Irish Texts from South West Donegal. Poitín.
+categories: [irish, donegal]
+---
+
+The table below compares the transcription from O’Neill’s[^1] “Irish Texts from South West Donegal.”
+
+[^1] O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
+
+
 | Original        | Transcript    | Abair G2P     | Abair source | Adjusted word (standardised) | Adjusted Abair | Rule                       |
 |-----------------|---------------|---------------|--------------|------------------------------|----------------|----------------------------|
 | An              | ə             | ˈəɴˠ          | L            |                              |                |                            |
