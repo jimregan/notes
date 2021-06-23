@@ -9,6 +9,10 @@ categories: [irish, donegal]
 
 The table below compares the transcription of Text 1: “Poitín” from O’Neill’s[^1] “Irish Texts from South West Donegal”, comparing it with Abair’s transcription.
 
+> Texts 1—4 were contributed by Seamus Ó Beirn (Jim Phat James), aged c. 70 years, cobbler, from the townland of Mín na Gaoithe, Teelin.
+
+> A special feature of his speech is the clearness and strength of the affricates t′ʃ and d′ʒ due to the deliberate manner in which each word is enunciated.
+
 The phonetic rules were mostly to help with automatic comparison, though the places where verb froms were pronounced differently before a pronoun was interesting enough to note.
 
 [^1] O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
