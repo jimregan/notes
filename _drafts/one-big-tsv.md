@@ -269,7 +269,6 @@
 | rabh            | ro            | ˈɾˠau         |              | raibh                        | ˈɾˠoːw         |                             |
 | rachadh         | rɑhu          | ˈɾˠahuː       | l            |                              |                |                             |
 | rachadh         | rɑhəd′        | ˈɾˠahuː       | l            |                              |                | <adh> → ədʲ / _ # pronoun   |
-| rachaidh        | rɑhə          | ˈɾˠaːhij      | l            |                              |                |                             |
 | rachaidh        | ˈrɑhə         | ˈɾˠaːhij      | l            |                              |                |                             |
 | raithte         | ˈrat′ʃ        | ˈɾˠahtʲə      |              | ráite                        | ˈɾˠaːtʲə       | ə → ∅ / _ # v               |
 | rannadh         | ˈrɑnhu        | ˈɾˠaɴˠuː      |              | roinnt                       | ˈɾˠoɴʲtʲ       |                             |
