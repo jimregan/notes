@@ -15,7 +15,7 @@ The table below compares the transcription of Text 1: “Poitín” from O’Nei
 
 The phonetic rules were mostly to help with automatic comparison, though the places where verb froms were pronounced differently before a pronoun was interesting enough to note.
 
-[^1] O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
+[^1]: O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
 
 
 | Original        | Transcript    | Abair G2P     | Abair source | Adjusted word (standardised) | Adjusted Abair | Rule                       |
@@ -46,7 +46,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | shoin           | xɪn′          | ˈhoˈinʲ       |              | shin                         | ˈhinʲ          |                            |
 | nuair           | Nuər′         | ˈɴˠuːɾʲ       | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| níodh           | ˈN′i:wəd′     | ˈnʲiːuː       | L            |                              |                | <odh> → ədʲ / _ # PRONOUN  |
+| níodh           | ˈN′i:wəd′     | ˈnʲiːuː       | L            |                              |                | `<odh>` → ədʲ / _ # PRONOUN  |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | as              | ïs           | ˈasˠ          | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
@@ -63,7 +63,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | astoigh         | əˈsdihʔ       | ˈasˠtˠə       |              | istigh                       | isˠˈtˠij       |                            |
 | ina             | əΝə           | ˈiɴˠə         | L            |                              |                |                            |
 | mála            | ˈmɑ:lə        | ˈmˠaːʟˠə      | L            |                              |                |                            |
-| bheireadh       | vɛr′əd′       | ˈvʲeɾʲuː      | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| bheireadh       | vɛr′əd′       | ˈvʲeɾʲuː      | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | leófa           | L′ɔ:fə        | ˈʟʲoːfˠə      |              | leo                          | ˈlʲo           |                            |
 | tuairim         | tuər′ɪm′      | ˈtˠuaɾʲimʲ    | L            |                              |                |                            |
@@ -74,7 +74,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | eórna           | ˈN′ɔ:rNə      | ˈoːɾˠɴˠə      |              | eorna                        | ˈoːɾˠɴˠə       |                            |
 | sin             | ʃɪn′          | ˈʃinʲ         | L            |                              |                |                            |
 | agus            | ɔgəs          | ˈagˠəsˠ       | L            |                              |                |                            |
-| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | isteach         | əˈʃd′ax       | iʃˈtʲah       | L            |                              |                |                            |
 | ina             | əΝə           | ˈiɴˠə         | L            |                              |                |                            |
@@ -83,23 +83,23 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | rud             | ro̤D          | ˈɾˠudˠ        | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | <adh> → ədʲ / _ # PRONOUN  |
+| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | `<adh>` → ədʲ / _ # PRONOUN  |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | bachtadh        | ˈbɑxdu        | ˈbˠaɾˠtˠuː    |              | bachta                       | ˈbˠaɾˠtˠə      |                            |
 | air             | ɛr′           | ˈeɾʲ          | L            |                              |                |                            |
 | Nuair           | Nuər′         | ˈɴˠuːɾʲ       | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| bhíodh          | vi:d′         | ˈvʲiːuː       | L            |                              |                | <odh> → ədʲ / _ # PRONOUN  |
+| bhíodh          | vi:d′         | ˈvʲiːuː       | L            |                              |                | `<odh>` → ədʲ / _ # PRONOUN  |
 | sí              | ʃi:           | ˈʃiː          | L            |                              |                |                            |
 | naoi            | ˈNi:          | ˈɴˠiː         | L            |                              |                |                            |
 | lá              | ˈLɑ:          | ˈʟˠaː         | L            |                              |                |                            |
 | annsin          | n̥ˈʃɪn′       | ˈaˈɴʲʃinʲ     |              |                              |                |                            |
-| d'fhásfadh      | dɑ:shəd′      | ˈdˠaːsˠuː     |              |                              |                | <adh> → ədʲ / _ # PRONOUN  |
+| d'fhásfadh      | dɑ:shəd′      | ˈdˠaːsˠuː     |              |                              |                | `<adh>` → ədʲ / _ # PRONOUN  |
 | sí              | ʃi:           | ˈʃiː          | L            |                              |                |                            |
 | géar            | ˈg′ɛ:ᵊr       | ˈɟeːɾˠ        | L            |                              |                |                            |
 | agus            | ɔgəs          | ˈagˠəsˠ       | L            |                              |                |                            |
-| rachadh         | rɑhəd′        | ˈɾˠahuː       | L            |                              |                | <adh> → ədʲ / _ # PRONOUN  |
+| rachadh         | rɑhəd′        | ˈɾˠahuː       | L            |                              |                | `<adh>` → ədʲ / _ # PRONOUN  |
 | sí              | ʃi:           | ˈʃiː          | L            |                              |                |                            |
 | a               |               | ə             | L            |                              |                | ə → ∅ / V # _              |
 | dh'fhás         | ˈɣɑ:s         | ˈɣaːsˠ        |              | d'fhás                       | ˈdˠaːsˠ        |                            |
@@ -140,7 +140,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | araist          | əˈraʃd′       | ˈaɾˠəʃtʲ      |              |                              |                |                            |
 | í               | i:            | ˈiː           | L            |                              |                |                            |
 | Annsin          | n̥ˈʃɪn′       | ˈaˈɴʲʃinʲ     |              |                              |                | ə → ∅ / V # _              |
-| mheileadh       | vəl′həd′      | ˈvʲelʲuː      |              |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| mheileadh       | vəl′həd′      | ˈvʲelʲuː      |              |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | í               | i:            | ˈiː           | L            |                              |                |                            |
 | le              | l′ɛ           | ˈlʲe          | L            |                              |                |                            |
@@ -158,7 +158,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | uisce           | ɪʃg′ə         | ˈiʃcə         | L            |                              |                |                            |
 | an              | n̥            | ˈəɴˠ          | L            |                              |                | ə → ∅ / V # _              |
 | barraille       | ˈbɑRəL′ə      | ˈbˠaːˈɾˠaʟʲə  |              | bairille                     | ˈbˠaɾʲʟʲə      |                            |
-| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | bhraich         | ˈvreihʔ       | ˈwɾˠaç        | L+M          |                              |                |                            |
@@ -169,7 +169,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | ghabháil        | ˈɣɔ:l′        | ˈɣolʲ         | L            |                              |                |                            |
 | annsin          | n̥ˈʃɪn′       | ˈaɴʲʃinʲ      |              | ansin                        | əɴˠʃinʲ        |                            |
-| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | cumhdach        | ˈku:dɑx       | ˈkˠuːdˠah     | L            |                              |                |                            |
 | ar              | ɛr            | ˈeɾʲ          | L            |                              |                |                            |
@@ -201,7 +201,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | beachóg         | ˈb′ahɔg       | ˈbʲahɔgˠ      |              |                              |                |                            |
 | Nuair           | Nuər′         | ˈɴˠuːɾʲ       | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| bhíodh          | vi:d′         | ˈvʲiːuː       | L            |                              |                | <odh> → ədʲ / _ # PRONOUN  |
+| bhíodh          | vi:d′         | ˈvʲiːuː       | L            |                              |                | `<odh>` → ədʲ / _ # PRONOUN  |
 | sé              | ʃɛ            | ˈʃeː          | L            |                              |                |                            |
 | naoi            | ˈNi:          | ˈɴˠiː         | L            |                              |                |                            |
 | lá              | ˈLɑ:          | ˈʟˠaː         | L            |                              |                |                            |
@@ -230,7 +230,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | dhéin           | ˈje:n′        | ˈjeːnʲ        | L+M          |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | still           | ˈsdïl         | ˈʃtʲiʟʲ       |              |                              |                |                            |
-| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| Chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | isteach         | əˈʃd′ah       | iʃˈtʲah       | L            |                              |                |                            |
 | insa            | n̥sə          | ˈinʲˈsˠə      |              |                              |                |                            |
@@ -243,7 +243,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | agus            | ɔgəs          | ˈagˠəsˠ       | L            |                              |                |                            |
 | rud             | ˈro̤D         | ˈɾˠudˠ        | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | <adh> → ədʲ / _ # PRONOUN  |
+| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | `<adh>` → ədʲ / _ # PRONOUN  |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | worm            | ˈwïr′əm       | ˈwoːɾˠəmˠ     |              |                              |                |                            |
 | air             | ɛr′           | ˈeɾʲ          | L            |                              |                |                            |
@@ -302,7 +302,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | rathaidh        | ˈrɑhi         | ˈɾˠahiː       |              | ratha                        | ˈɾˠahə         |                            |
 | raithte         | ˈrat′ʃ        | ˈɾˠahtʲə      |              | ráite                        | ˈɾˠaːtʲə       | ə → ∅ / _ # V              |
 | acú             | ɔku           | ˈakˠuː        |              |                              |                |                            |
-| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | isteach         | əˈʃd′ah       | iʃˈtʲah       | L            |                              |                |                            |
 | araist          | əˈraʃd′       | ˈaɾˠəʃtʲ      |              |                              |                |                            |
@@ -311,7 +311,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | still           | ˈsdïl         | ˈʃtʲiʟʲ       |              |                              |                |                            |
 | agus            | ɔgəs          | ˈagˠəsˠ       | L            |                              |                |                            |
-| níodh           | ˈN′i:wəd′     | ˈnʲiːuː       | L            |                              |                | <odh> → ədʲ / _ # PRONOUN  |
+| níodh           | ˈN′i:wəd′     | ˈnʲiːuː       | L            |                              |                | `<odh>` → ədʲ / _ # PRONOUN  |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | dara            | ˈdɑrə         | ˈdˠaɾˠə       | L            |                              |                |                            |
@@ -321,7 +321,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | gloine          | ˈglön′ə       | ˈgˠʟˠinʲə     | L            |                              |                |                            |
 | acú             | ɔku           | ˈakˠuː        |              |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | <adh> → ədʲ / _ # PRONOUN  |
+| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | L+M          |                              |                | `<adh>` → ədʲ / _ # PRONOUN  |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | adharc          | ˈNe:rk        | ˈeːɾˠkˠ       | L            |                              |                |                            |
@@ -336,7 +336,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | rathaidh        | ˈrɑhi         | ˈɾˠahiː       |              |                              |                |                            |
 | an              | n̥            | ˈəɴˠ          | L            |                              |                | ə → ∅ / V # _              |
 | phoitín         | ˈfɔt′in′      | ˈfˠotʲinʲ     | L+M          |                              |                |                            |
-| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | <eadh> → ədʲ / _ # PRONOUN |
+| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | L            |                              |                | `<eadh>` → ədʲ / _ # PRONOUN |
 | siad            | ʃəd           | ˈʃiːdˠ        | L            |                              |                |                            |
 | an              | ə             | ˈəɴˠ          | L            |                              |                |                            |
 | adharc          | ˈNe:rk        | ˈeːɾˠkˠ       | L            |                              |                |                            |

@@ -15,7 +15,7 @@ The table below compares the transcription of Text 2: “An mhóin” from O’N
 
 The phonetic rules were mostly to help with automatic comparison, though the places where verb froms were pronounced differently before a pronoun was interesting enough to note.
 
-[^1] O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
+[^1]: O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
 
 
 | Original       | Transcript   | Abair G2P     | Abair source | Adjusted word (standardised) | Adjusted Abair | Rule          |
