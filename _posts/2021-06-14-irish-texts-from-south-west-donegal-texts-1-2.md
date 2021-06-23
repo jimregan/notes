@@ -14,8 +14,6 @@ The table below compares the transcription of Texts 1 & 2: (“Poitín” and �
 
 The phonetic rules were mostly to help with automatic comparison, though the places where verb froms were pronounced differently before a pronoun was interesting enough to note.
 
-[^1] O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
-
 
 | Original        | Transcript    | Abair G2P     | Abair source | Adjusted word (standardised) | Adjusted Abair | Rule                        |
 |-----------------|---------------|---------------|--------------|------------------------------|----------------|-----------------------------|
@@ -78,7 +76,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | bhachtadh       | ˈwɑxdu        | ˈwaɾˠtˠuː     |              | bhachta                      |                |                             |
 | bhaint          | wï′nt         | ˈwanʲtʲ       | l            |                              |                |                             |
 | bharraille      | ˈwɑrəl′ə      | ˈwaːˈɾˠaʟʲə   |              | bhairille                    | ˈwaɾʲʟʲə       |                             |
-| bheireadh       | vɛr′əd′       | ˈvʲeɾʲuː      | l            |                              |                | <eadh> → ədʲ / _ # pronoun  |
+| bheireadh       | vɛr′əd′       | ˈvʲeɾʲuː      | l            |                              |                | `<eadh>` → ədʲ / _ # pronoun  |
 | bhfaghaidh      | ˈwɑ:          | ˈweːiː        |              | bhfaighidh                   | ˈwiː           |                             |
 | bhfeiceadh      | ˈvɛk′u        | ˈvʲecuː       |              |                              |                |                             |
 | bhfosclaidh     | ˈwɔsgli       | ˈwoˈsˠkˠʟˠeː  |              | bhfosclaí                    | ˈwoˈsˠkˠʟˠiː   |                             |
@@ -92,7 +90,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | bhéarfaidh      | vɛ:rhə        | ˈvʲeːɾˠhiː    | l            |                              |                |                             |
 | bhéarfaidh      | vɛrhə         | ˈvʲeːɾˠhiː    | l            |                              |                |                             |
 | bhí             | vi:           | ˈvʲiː         | l            |                              |                |                             |
-| bhíodh          | vi:d′         | ˈvʲiːuː       | l            |                              |                | <odh> → (ə)dʲ / _ # pronoun |
+| bhíodh          | vi:d′         | ˈvʲiːuː       | l            |                              |                | `<odh>` → (ə)dʲ / _ # pronoun |
 | bhíodh          | viuw          | ˈvʲiːuː       | l            |                              |                |                             |
 | binn            | ˈb′ïn′        | ˈbʲiɴʲ        | l            |                              |                |                             |
 | bith            | ˈb′i          | ˈbʲiː         | l            |                              |                |                             |
@@ -121,7 +119,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | chiall          | ˈx′i:əl       | ˈçiaʟˠ        | l            |                              |                |                             |
 | chionn          | x′o̤n         | ˈçiɴˠ         | l+m          |                              |                |                             |
 | chor            | ˈxɔr          | ˈxaɾˠ         | l            |                              |                |                             |
-| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | l            |                              |                | <eadh> → ədʲ / _ # pronoun  |
+| chuireadh       | xo̤r′əd′      | ˈxuɾʲuː       | l            |                              |                | `<eadh>` → ədʲ / _ # pronoun  |
 | chuireas        | ˈxo̤r′əs      | ˈxuɾʲəsˠ      | l            |                              |                |                             |
 | chur            | ˈxo̤r         | ˈxuɾˠ         | l            |                              |                |                             |
 | chéad           | ˈx′e(:)d      | ˈçeːdˠ        | l            |                              |                |                             |
@@ -136,7 +134,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | cumhdach        | ˈku:dɑx       | ˈkˠuːdˠah     | l            |                              |                |                             |
 | cur             | ˈko̤r         | ˈkˠuɾˠ        | l            |                              |                |                             |
 | cáithte         | ˈka:t′ʃə      | ˈkˠaːhtʲə     |              | cáite                        | kˠaːtʲə        |                             |
-| d'fhásfadh      | dɑ:shəd′      | ˈdˠaːsˠuː     |              |                              |                | <adh> → ədʲ / _ # pronoun   |
+| d'fhásfadh      | dɑ:shəd′      | ˈdˠaːsˠuː     |              |                              |                | `<adh>` → ədʲ / _ # pronoun   |
 | dabhach         | ˈdɔuʷɑx       | ˈdˠauh        | l            |                              |                |                             |
 | daoithe         | di:ʰə         | ˈdˠiːhə       |              | di                           | ˈdˠi           |                             |
 | daoithe         | dihə          | ˈdˠiːhə       |              | di                           | ˈdˠi           |                             |
@@ -158,7 +156,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | dtig            | ˈd′ᶾɪg′       | ˈdʲiɟ         | l            |                              |                |                             |
 | dtiocfadh       | d′ᶾo̤ku       | ˈdʲokˠuː      | l            |                              |                |                             |
 | dtiocfadh       | d′ᶾo̤ku       | ˈdʲokˠuː      | l            |                              |                |                             |
-| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | l+m          |                              |                | <adh> → ədʲ / _ # pronoun   |
+| dtugadh         | do̤gəd′       | ˈdˠugˠuː      | l+m          |                              |                | `<adh>` → ədʲ / _ # pronoun   |
 | dtéighidh       | ˈd′ᶾe:ᵊ       | ˈdʲeːjiː      |              | dté                          | ˈdʲeː          |                             |
 | dtí             | ˈdʒ′i:        | ˈdʲiː         | l            |                              |                |                             |
 | dtí             | ˈd′ʒi:        | ˈdʲiː         | l            |                              |                |                             |
@@ -252,10 +250,10 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | líonadh         | ˈl′i:nəd′     | ˈʟʲiːɴˠuː     | l            |                              |                |                             |
 | maith           | ˈmɑi          | ˈmˠahj        | l            |                              |                |                             |
 | mar             | mo̤r          | ˈmˠaɾˠ        | l            |                              |                |                             |
-| mar's           | mo̤řš         | ˈm_ea_er_ez_e | l            |                              |                |                             |
+| mar's           | mo̤řš         | `ˈm_ea_er_ez_e` | l            |                              |                |                             |
 | mar's           | məs           | ˈmˠaɾˠsˠ      | l            |                              |                |                             |
 | marbh           | ˈmaru         | ˈmˠaɾˠəw      | l            |                              |                |                             |
-| mheileadh       | vəl′həd′      | ˈvʲelʲuː      |              |                              |                | <eadh> → ədʲ / _ # pronoun  |
+| mheileadh       | vəl′həd′      | ˈvʲelʲuː      |              |                              |                | `<eadh>` → ədʲ / _ # pronoun  |
 | mhárta          | ˈwɑ:rtə       | ˈwaːɾˠtˠə     | l+m          |                              |                |                             |
 | mhóin           | ˈwo:n′        | ˈwoːnʲ        | l+m          |                              |                |                             |
 | mhóin           | ˈwo:ᵊn′       | ˈwoːnʲ        | l+m          |                              |                |                             |
@@ -276,7 +274,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | ná              | nɑ:           | ˈɴˠaː         | l            |                              |                |                             |
 | ní              | n′i:          | ˈɴʲiː         | l            |                              |                |                             |
 | níl             | ˈn′i:l′       | ˈɴʲiːlʲ       | l            |                              |                |                             |
-| níodh           | ˈn′i:wəd′     | ˈnʲiːuː       | l            |                              |                | <odh> → ədʲ / _ # pronoun   |
+| níodh           | ˈn′i:wəd′     | ˈnʲiːuː       | l            |                              |                | `<odh>` → ədʲ / _ # pronoun   |
 | nó              | nɑ:           | ˈɴˠoː         | l            |                              |                |                             |
 | ocht            | ɔxd           | ˈaxtˠ         | l            |                              |                |                             |
 | orthaí          | ɔrhi          | ˈoːɾˠhiː      |              | uirthi                       | ˈaɾˠhjiː       |                             |
@@ -287,7 +285,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | pádraig         | ˈpɑ:drik′     | ˈpˠaːdˠɾˠəɟ   | l            |                              |                |                             |
 | rabh            | ro            | ˈɾˠau         |              | raibh                        | ˈɾˠoːw         |                             |
 | rachadh         | rɑhu          | ˈɾˠahuː       | l            |                              |                |                             |
-| rachadh         | rɑhəd′        | ˈɾˠahuː       | l            |                              |                | <adh> → ədʲ / _ # pronoun   |
+| rachadh         | rɑhəd′        | ˈɾˠahuː       | l            |                              |                | `<adh>` → ədʲ / _ # pronoun   |
 | rachaidh        | ˈrɑhə         | ˈɾˠaːhij      | l            |                              |                |                             |
 | raithte         | ˈrat′ʃ        | ˈɾˠahtʲə      |              | ráite                        | ˈɾˠaːtʲə       | ə → ∅ / _ # v               |
 | rannadh         | ˈrɑnhu        | ˈɾˠaɴˠuː      |              | roinnt                       | ˈɾˠoɴʲtʲ       |                             |
@@ -369,3 +367,5 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | í               | i:            | ˈiː           | l            |                              |                |                             |
 | ó               | ɑ             | ˈoː           | l            |                              |                |                             |
 | ó               | ɔ             | ˈoː           | l            |                              |                |                             |
+
+[^1]: O’Neill, John E. “Irish Texts from South West Donegal.” _Zeitschrift Für Celtische Philologie_, vol. 33, 1974, doi:10.1515/zcph.1974.33.1.285.
