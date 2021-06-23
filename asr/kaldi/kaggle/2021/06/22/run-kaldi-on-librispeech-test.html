@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Scoring librispeech with Kaldi on Kaggle | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Scoring librispeech with Kaldi on Kaggle" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Results of test-clean and test-other" />
+<meta property="og:description" content="Results of test-clean and test-other" />
+<link rel="canonical" href="https://jimregan.github.io/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-22T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html","@type":"BlogPosting","headline":"Scoring librispeech with Kaldi on Kaggle","dateModified":"2021-06-22T00:00:00-05:00","datePublished":"2021-06-22T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html"},"description":"Results of test-clean and test-other","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Scoring librispeech with Kaldi on Kaggle</h1><p class="page-description">Results of test-clean and test-other</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-22T00:00:00-05:00" itemprop="datePublished">
+        Jun 22, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#asr">asr</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#kaldi">kaldi</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-06-22-run-kaldi-on-librispeech-test.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-06-22-run-kaldi-on-librispeech-test.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-06-22-run-kaldi-on-librispeech-test.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-06-22-run-kaldi-on-librispeech-test.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Original <a href="https://www.kaggle.com/jimregan/run-kaldi-on-librispeech-test">here</a>. This basically recreates <a href="https://desh2608.github.io/2020-05-18-using-librispeech/">this</a> blog post, but with different test sets, and on Kaggle, where setting up Kaldi is a little more involved than usual.</p>
+<p>Results:</p>
+<table>
+<thead><tr>
+<th></th>
+<th>test-clean</th>
+<th>test-other</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tgsmall LM</td>
+<td>7.13</td>
+<td>17.92</td>
+</tr>
+<tr>
+<td>rnnlm rescored:</td>
+<td>5.85</td>
+<td>15.98</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Unpack-Kaldi">Unpack Kaldi<a class="anchor-link" href="#Unpack-Kaldi"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /opt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">tar</span> <span class="n">xvf</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">extract</span><span class="o">-</span><span class="n">prebuilt</span><span class="o">-</span><span class="n">kaldi</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">docker</span><span class="o">/</span><span class="n">kaldi</span><span class="o">.</span><span class="n">tar</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;LD_LIBRARY_PATH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;/opt/conda/lib:/opt/kaldi/tools/openfst-1.6.7/lib:/opt/kaldi/src/lib:&#39;</span>
+<span class="n">EXISTING_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;PATH&#39;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">tar</span> <span class="n">xvf</span> <span class="o">/</span><span class="n">kaggle</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">extract</span><span class="o">-</span><span class="n">cuda</span><span class="o">-</span><span class="n">from</span><span class="o">-</span><span class="n">kaldi</span><span class="o">-</span><span class="n">docker</span><span class="o">/</span><span class="n">cuda</span><span class="o">.</span><span class="n">tar</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s1">&#39;LD_LIBRARY_PATH&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;LD_LIBRARY_PATH&quot;</span><span class="p">]</span><span class="si">}</span><span class="s1">:/usr/local/cuda-10.0/targets/x86_64-linux/lib/&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /opt/kaldi/egs
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt/kaldi/egs
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Install-flac">Install flac<a class="anchor-link" href="#Install-flac"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">apt</span> <span class="n">install</span> <span class="o">-</span><span class="n">y</span> <span class="n">flac</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Create-a-work-directory">Create a work directory<a class="anchor-link" href="#Create-a-work-directory"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir -p usels/s5
+<span class="o">%</span><span class="k">cd</span> usels/s5
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/opt/kaldi/egs/usels/s5
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir /kaggle/working/data
+<span class="o">!</span>mkdir /kaggle/working/exp
+<span class="o">!</span>ln -s /kaggle/working/data
+<span class="o">!</span>ln -s /kaggle/working/exp
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ln -s ../../wsj/s5/steps
+<span class="o">!</span>ln -s ../../wsj/s5/utils
+<span class="o">!</span>ln -s ../../librispeech/s5/local
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir conf
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> conf/mfcc_hires.conf
+<span class="c1"># config for high-resolution MFCC features, intended for neural network training</span>
+<span class="c1"># Note: we keep all cepstra, so it has the same info as filterbank features,</span>
+<span class="c1"># but MFCC is more easily compressible (because less correlated) which is why </span>
+<span class="c1"># we prefer this method.</span>
+<span class="o">--</span><span class="n">use</span><span class="o">-</span><span class="n">energy</span><span class="o">=</span><span class="n">false</span>   <span class="c1"># use average of log energy, not energy.</span>
+<span class="o">--</span><span class="n">num</span><span class="o">-</span><span class="n">mel</span><span class="o">-</span><span class="n">bins</span><span class="o">=</span><span class="mi">40</span>     <span class="c1"># similar to Google&#39;s setup.</span>
+<span class="o">--</span><span class="n">num</span><span class="o">-</span><span class="n">ceps</span><span class="o">=</span><span class="mi">40</span>     <span class="c1"># there is no dimensionality reduction.</span>
+<span class="o">--</span><span class="n">low</span><span class="o">-</span><span class="n">freq</span><span class="o">=</span><span class="mi">20</span>     <span class="c1"># low cutoff frequency for mel bins... this is high-bandwidth data, so</span>
+                  <span class="c1"># there might be some information at the low end.</span>
+<span class="o">--</span><span class="n">high</span><span class="o">-</span><span class="n">freq</span><span class="o">=-</span><span class="mi">400</span> <span class="c1"># high cutoff frequently, relative to Nyquist of 8000 (=7600)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Writing conf/mfcc_hires.conf
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Setting-up-paths">Setting up paths<a class="anchor-link" href="#Setting-up-paths"> </a></h2><p>(In the scripts, you just source <code>path.sh</code>)</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> KALDI_ROOT=/opt/kaldi
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: KALDI_ROOT=/opt/kaldi
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat ../../wsj/s5/path.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>export KALDI_ROOT=`pwd`/../../..
+[ -f $KALDI_ROOT/tools/env.sh ] &amp;&amp; . $KALDI_ROOT/tools/env.sh
+export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
+[ ! -f $KALDI_ROOT/tools/config/common_path.sh ] &amp;&amp; echo &gt;&amp;2 &#34;The standard file $KALDI_ROOT/tools/config/common_path.sh is not present -&gt; Exit!&#34; &amp;&amp; exit 1
+. $KALDI_ROOT/tools/config/common_path.sh
+export LC_ALL=C
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> LC_ALL=C
+<span class="c1">#PWD = !pwd</span>
+<span class="n">PWD</span> <span class="o">=</span> <span class="s1">&#39;/opt/kaldi/egs/usels/s5&#39;</span>
+<span class="n">KALDI_ROOT</span> <span class="o">=</span> <span class="s1">&#39;/opt/kaldi&#39;</span>
+<span class="n">WSJ_PATH</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">PWD</span><span class="si">}</span><span class="s1">/utils/:</span><span class="si">{</span><span class="n">KALDI_ROOT</span><span class="si">}</span><span class="s1">/tools/openfst/bin:</span><span class="si">{</span><span class="n">PWD</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">EXISTING_PATH</span><span class="si">}</span><span class="s1">&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: LC_ALL=C
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat <span class="nv">$KALDI_ROOT</span>/tools/config/common_path.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># we assume KALDI_ROOT is already defined
+[ -z &#34;$KALDI_ROOT&#34; ] &amp;&amp; echo &gt;&amp;2 &#34;The variable KALDI_ROOT must be already defined&#34; &amp;&amp; exit 1
+# The formatting of the path export command is intentionally weird, because
+# this allows for easy diff&#39;ing
+export PATH=\
+${KALDI_ROOT}/src/bin:\
+${KALDI_ROOT}/src/chainbin:\
+${KALDI_ROOT}/src/featbin:\
+${KALDI_ROOT}/src/fgmmbin:\
+${KALDI_ROOT}/src/fstbin:\
+${KALDI_ROOT}/src/gmmbin:\
+${KALDI_ROOT}/src/ivectorbin:\
+${KALDI_ROOT}/src/kwsbin:\
+${KALDI_ROOT}/src/latbin:\
+${KALDI_ROOT}/src/lmbin:\
+${KALDI_ROOT}/src/nnet2bin:\
+${KALDI_ROOT}/src/nnet3bin:\
+${KALDI_ROOT}/src/nnetbin:\
+${KALDI_ROOT}/src/online2bin:\
+${KALDI_ROOT}/src/onlinebin:\
+${KALDI_ROOT}/src/rnnlmbin:\
+${KALDI_ROOT}/src/sgmm2bin:\
+${KALDI_ROOT}/src/sgmmbin:\
+${KALDI_ROOT}/src/tfrnnlmbin:\
+${KALDI_ROOT}/src/cudadecoderbin:\
+$PATH
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">raw_kaldi_paths</span><span class="o">=!</span>cat <span class="nv">$KALDI_ROOT</span>/tools/config/common_path.sh<span class="p">|</span>grep <span class="s1">&#39;/src/&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;:&#39;</span> <span class="s1">&#39;{print $1}&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;/&#39;</span> <span class="s1">&#39;{print &quot;/opt/kaldi/src/&quot;$NF}&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">KALDI_PATHS</span><span class="o">=</span><span class="n">raw_kaldi_paths</span><span class="o">.</span><span class="n">nlstr</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="s1">&#39;:&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat <span class="nv">$KALDI_ROOT</span>/tools/env.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>export PATH=/opt/kaldi/tools/python:${PATH}
+export PHONETISAURUS=&#34;/tmp/output/opt/kaldi/tools/phonetisaurus-g2p&#34;
+export PATH=&#34;$PATH:${PHONETISAURUS}:${PHONETISAURUS}/src/scripts&#34;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">PHONETISAURUS</span> <span class="o">=</span> <span class="s2">&quot;/tmp/output/opt/kaldi/tools/phonetisaurus-g2p&quot;</span>
+<span class="n">TOOLS_PATH</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;/opt/kaldi/tools/python:</span><span class="si">{</span><span class="n">PHONETISAURUS</span><span class="si">}</span><span class="s1">:</span><span class="si">{</span><span class="n">PHONETISAURUS</span><span class="si">}</span><span class="s1">/src/scripts&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> PATH = f&quot;{WSJ_PATH}:{KALDI_PATHS}:{TOOLS_PATH}&quot;
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: PATH=f&#34;/opt/kaldi/egs/usels/s5/utils/:/opt/kaldi/tools/openfst/bin:/opt/kaldi/egs/usels/s5:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/kaldi/src/bin:/opt/kaldi/src/chainbin:/opt/kaldi/src/featbin:/opt/kaldi/src/fgmmbin:/opt/kaldi/src/fstbin:/opt/kaldi/src/gmmbin:/opt/kaldi/src/ivectorbin:/opt/kaldi/src/kwsbin:/opt/kaldi/src/latbin:/opt/kaldi/src/lmbin:/opt/kaldi/src/nnet2bin:/opt/kaldi/src/nnet3bin:/opt/kaldi/src/nnetbin:/opt/kaldi/src/online2bin:/opt/kaldi/src/onlinebin:/opt/kaldi/src/rnnlmbin:/opt/kaldi/src/sgmm2bin:/opt/kaldi/src/sgmmbin:/opt/kaldi/src/tfrnnlmbin:/opt/kaldi/src/cudadecoderbin:/opt/kaldi/tools/python:/tmp/output/opt/kaldi/tools/phonetisaurus-g2p:/tmp/output/opt/kaldi/tools/phonetisaurus-g2p/src/scripts&#34;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat ../../wsj/s5/cmd.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># you can change cmd.sh depending on what type of queue you are using.
+# If you have no queueing system and want to run on a local machine, you
+# can change all instances &#39;queue.pl&#39; to run.pl (but be careful and run
+# commands one by one: most recipes will exhaust the memory on your
+# machine).  queue.pl works with GridEngine (qsub).  slurm.pl works
+# with slurm.  Different queues are configured differently, with different
+# queue names and different ways of specifying things like memory;
+# to account for these differences you can create and edit the file
+# conf/queue.conf to match your queue&#39;s configuration.  Search for
+# conf/queue.conf in http://kaldi-asr.org/doc/queue.html for more information,
+# or search for the string &#39;default_config&#39; in utils/queue.pl or utils/slurm.pl.
+
+export train_cmd=queue.pl
+export decode_cmd=&#34;queue.pl --mem 2G&#34;
+# the use of cuda_cmd is deprecated, used only in &#39;nnet1&#39;,
+export cuda_cmd=&#34;queue.pl --gpu 1&#34;
+
+if [ &#34;$(hostname -d)&#34; == &#34;fit.vutbr.cz&#34; ]; then
+  queue_conf=$HOME/queue_conf/default.conf # see example /homes/kazi/iveselyk/queue_conf/default.conf,
+  export train_cmd=&#34;queue.pl --config $queue_conf --mem 2G --matylda 0.2&#34;
+  export decode_cmd=&#34;queue.pl --config $queue_conf --mem 3G --matylda 0.1&#34;
+  export cuda_cmd=&#34;queue.pl --config $queue_conf --gpu 1 --mem 10G --tmp 40G&#34;
+fi
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> train_cmd=run.pl
+<span class="o">%</span><span class="k">env</span> decode_cmd=run.pl
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: train_cmd=run.pl
+env: decode_cmd=run.pl
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ln -s ../../wsj/s5/cmd.sh
+<span class="o">!</span>ln -s ../../wsj/s5/path.sh
+<span class="o">!</span>ln -s utils/queue.pl
+<span class="o">!</span>ln -s utils/run.pl
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>rm *.pl
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Data-prep">Data prep<a class="anchor-link" href="#Data-prep"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>local/data_prep.sh /kaggle/input/librispeech-test-clean-and-other/LibriSpeech/test-other data/test-other
+<span class="o">!</span>local/data_prep.sh /kaggle/input/librispeech-test-clean-and-other/LibriSpeech/test-clean data/test-clean
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>utils/validate_data_dir.sh: Successfully validated data-directory data/test-other
+local/data_prep.sh: successfully prepared data in data/test-other
+utils/validate_data_dir.sh: Successfully validated data-directory data/test-clean
+local/data_prep.sh: successfully prepared data in data/test-clean
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>utils/copy_data_dir.sh data/test-clean data/test-clean_hires
+<span class="o">!</span>utils/copy_data_dir.sh data/test-other data/test-other_hires
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>utils/copy_data_dir.sh: copied data from data/test-clean to data/test-clean_hires
+utils/validate_data_dir.sh: Successfully validated data-directory data/test-clean_hires
+utils/copy_data_dir.sh: copied data from data/test-other to data/test-other_hires
+utils/validate_data_dir.sh: Successfully validated data-directory data/test-other_hires
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ln -s utils/parse_options.sh
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>steps/make_mfcc.sh --nj <span class="m">20</span> --mfcc-config conf/mfcc_hires.conf --cmd <span class="s2">&quot;</span><span class="nv">$train_cmd</span><span class="s2">&quot;</span> data/test-clean_hires
+<span class="o">!</span>steps/compute_cmvn_stats.sh data/test-clean_hires
+<span class="o">!</span>utils/fix_data_dir.sh data/test-clean_hires
+<span class="o">!</span>steps/make_mfcc.sh --nj <span class="m">20</span> --mfcc-config conf/mfcc_hires.conf --cmd <span class="s2">&quot;</span><span class="nv">$train_cmd</span><span class="s2">&quot;</span> data/test-other_hires
+<span class="o">!</span>steps/compute_cmvn_stats.sh data/test-other_hires
+<span class="o">!</span>utils/fix_data_dir.sh data/test-other_hires
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>steps/make_mfcc.sh --nj 20 --mfcc-config conf/mfcc_hires.conf --cmd run.pl data/test-clean_hires
+utils/validate_data_dir.sh: Successfully validated data-directory data/test-clean_hires
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: Succeeded creating MFCC features for test-clean_hires
+steps/compute_cmvn_stats.sh data/test-clean_hires
+Succeeded creating CMVN stats for test-clean_hires
+fix_data_dir.sh: kept all 2620 utterances.
+fix_data_dir.sh: old files are kept in data/test-clean_hires/.backup
+steps/make_mfcc.sh --nj 20 --mfcc-config conf/mfcc_hires.conf --cmd run.pl data/test-other_hires
+utils/validate_data_dir.sh: Successfully validated data-directory data/test-other_hires
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: Succeeded creating MFCC features for test-other_hires
+steps/compute_cmvn_stats.sh data/test-other_hires
+Succeeded creating CMVN stats for test-other_hires
+fix_data_dir.sh: kept all 2939 utterances.
+fix_data_dir.sh: old files are kept in data/test-other_hires/.backup
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Extract-i-vectors">Extract i-vectors<a class="anchor-link" href="#Extract-i-vectors"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ln -s /kaggle/input/kaldi-librispeech-model/exp/nnet3_cleaned/ exp/nnet3_cleaned
+<span class="o">!</span>ln -s /kaggle/input/kaldi-librispeech-model/exp/chain_cleaned/ exp/chain_cleaned
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> nspk=$(wc -l &lt;data/test-clean_hires/spk2utt)
+<span class="o">!</span>steps/online/nnet2/extract_ivectors_online.sh --cmd <span class="s2">&quot;</span><span class="nv">$train_cmd</span><span class="s2">&quot;</span> --nj <span class="s2">&quot;</span><span class="si">${</span><span class="nv">nspk</span><span class="si">}</span><span class="s2">&quot;</span> data/test-clean_hires exp/nnet3_cleaned/extractor exp/nnet3_cleaned_out/ivectors_test-clean_hires
+<span class="o">%</span><span class="k">env</span> nspk=$(wc -l &lt;data/test-other_hires/spk2utt)
+<span class="o">!</span>steps/online/nnet2/extract_ivectors_online.sh --cmd <span class="s2">&quot;</span><span class="nv">$train_cmd</span><span class="s2">&quot;</span> --nj <span class="s2">&quot;</span><span class="si">${</span><span class="nv">nspk</span><span class="si">}</span><span class="s2">&quot;</span> data/test-other_hires exp/nnet3_cleaned/extractor exp/nnet3_cleaned_out/ivectors_test-other_hires
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: nspk=$(wc -l &lt;data/test-clean_hires/spk2utt)
+steps/online/nnet2/extract_ivectors_online.sh --cmd run.pl --nj $(wc -l &lt;data/test-clean_hires/spk2utt) data/test-clean_hires exp/nnet3_cleaned/extractor exp/nnet3_cleaned_out/ivectors_test-clean_hires
+steps/online/nnet2/extract_ivectors_online.sh: extracting iVectors
+steps/online/nnet2/extract_ivectors_online.sh: combining iVectors across jobs
+steps/online/nnet2/extract_ivectors_online.sh: done extracting (online) iVectors to exp/nnet3_cleaned_out/ivectors_test-clean_hires using the extractor in exp/nnet3_cleaned/extractor.
+env: nspk=$(wc -l &lt;data/test-other_hires/spk2utt)
+steps/online/nnet2/extract_ivectors_online.sh --cmd run.pl --nj $(wc -l &lt;data/test-other_hires/spk2utt) data/test-other_hires exp/nnet3_cleaned/extractor exp/nnet3_cleaned_out/ivectors_test-other_hires
+steps/online/nnet2/extract_ivectors_online.sh: extracting iVectors
+steps/online/nnet2/extract_ivectors_online.sh: combining iVectors across jobs
+steps/online/nnet2/extract_ivectors_online.sh: done extracting (online) iVectors to exp/nnet3_cleaned_out/ivectors_test-other_hires using the extractor in exp/nnet3_cleaned/extractor.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Build-decoding-graph">Build decoding graph<a class="anchor-link" href="#Build-decoding-graph"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Just linking this directory won't work, as it expects to be able to write to it (Kaldi scripts, smh)</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cp -r /kaggle/input/kaldi-librispeech-model/data/lang_test_tgsmall data
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> tdnndir=exp/chain_cleaned/tdnn_1d_sp
+<span class="o">%</span><span class="k">env</span> graph_dir=exp/chain_cleaned_out/graph_tgsmall
+<span class="o">!</span>utils/mkgraph.sh --self-loop-scale <span class="m">1</span>.0 --remove-oov data/lang_test_tgsmall <span class="nv">$tdnndir</span> <span class="nv">$graph_dir</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: tdnndir=exp/chain_cleaned/tdnn_1d_sp
+env: graph_dir=exp/chain_cleaned_out/graph_tgsmall
+tree-info exp/chain_cleaned/tdnn_1d_sp/tree 
+tree-info exp/chain_cleaned/tdnn_1d_sp/tree 
+fstpushspecial 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fsttablecompose data/lang_test_tgsmall/L_disambig.fst data/lang_test_tgsmall/G.fst 
+fstisstochastic data/lang_test_tgsmall/tmp/LG.fst 
+-0.0459745 -0.0466771
+[info]: LG not stochastic.
+fstcomposecontext --context-size=2 --central-position=1 --read-disambig-syms=data/lang_test_tgsmall/phones/disambig.int --write-disambig-syms=data/lang_test_tgsmall/tmp/disambig_ilabels_2_1.int data/lang_test_tgsmall/tmp/ilabels_2_1.113735 data/lang_test_tgsmall/tmp/LG.fst 
+fstisstochastic data/lang_test_tgsmall/tmp/CLG_2_1.fst 
+-0.0459745 -0.0466771
+[info]: CLG not stochastic.
+make-h-transducer --disambig-syms-out=exp/chain_cleaned_out/graph_tgsmall/disambig_tid.int --transition-scale=1.0 data/lang_test_tgsmall/tmp/ilabels_2_1 exp/chain_cleaned/tdnn_1d_sp/tree exp/chain_cleaned/tdnn_1d_sp/final.mdl 
+fstdeterminizestar --use-log=true 
+fsttablecompose exp/chain_cleaned_out/graph_tgsmall/Ha.fst &#39;fstrmsymbols --remove-arcs=true --apply-to-output=true data/lang_test_tgsmall/oov.int data/lang_test_tgsmall/tmp/CLG_2_1.fst|&#39; 
+fstminimizeencoded 
+fstrmsymbols exp/chain_cleaned_out/graph_tgsmall/disambig_tid.int 
+fstrmepslocal 
+fstrmsymbols --remove-arcs=true --apply-to-output=true data/lang_test_tgsmall/oov.int data/lang_test_tgsmall/tmp/CLG_2_1.fst 
+fstisstochastic exp/chain_cleaned_out/graph_tgsmall/HCLGa.fst 
+3.39453 -0.209239
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=1.0 --reorder=true exp/chain_cleaned/tdnn_1d_sp/final.mdl exp/chain_cleaned_out/graph_tgsmall/HCLGa.fst 
+fstisstochastic exp/chain_cleaned_out/graph_tgsmall/HCLG.fst 
+3.05078 -0.127788
+[info]: final HCLG is not stochastic.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Decode">Decode<a class="anchor-link" href="#Decode"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mkdir exp/tdnn_1d_sp
+<span class="o">%</span><span class="k">pushd</span> exp/tdnn_1d_sp
+<span class="o">!</span><span class="k">for</span> i in /kaggle/input/kaldi-librispeech-model/exp/chain_cleaned/tdnn_1d_sp/*<span class="p">;</span><span class="k">do</span> ln -s <span class="nv">$i</span><span class="p">;</span><span class="k">done</span>
+<span class="o">%</span><span class="k">popd</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/kaggle/working/exp/tdnn_1d_sp
+/opt/kaldi/egs/usels/s5
+popd -&gt; /opt/kaldi/egs/usels/s5
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> tdnndir=exp/tdnn_1d_sp
+<span class="o">!</span>steps/nnet3/decode.sh --acwt <span class="m">1</span>.0 --post-decode-acwt <span class="m">10</span>.0 --nj <span class="m">8</span> --cmd <span class="s2">&quot;</span><span class="nv">$decode_cmd</span><span class="s2">&quot;</span> --online-ivector-dir exp/nnet3_cleaned_out/ivectors_test-clean_hires <span class="nv">$graph_dir</span> data/test-clean_hires <span class="nv">$tdnndir</span>/decode_test-clean_tgsmall
+<span class="o">!</span>steps/nnet3/decode.sh --acwt <span class="m">1</span>.0 --post-decode-acwt <span class="m">10</span>.0 --nj <span class="m">8</span> --cmd <span class="s2">&quot;</span><span class="nv">$decode_cmd</span><span class="s2">&quot;</span> --online-ivector-dir exp/nnet3_cleaned_out/ivectors_test-other_hires <span class="nv">$graph_dir</span> data/test-other_hires <span class="nv">$tdnndir</span>/decode_test-other_tgsmall
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: tdnndir=exp/tdnn_1d_sp
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 8 --cmd run.pl --online-ivector-dir exp/nnet3_cleaned_out/ivectors_test-clean_hires exp/chain_cleaned_out/graph_tgsmall data/test-clean_hires exp/tdnn_1d_sp/decode_test-clean_tgsmall
+steps/nnet3/decode.sh: feature type is raw
+steps/diagnostic/analyze_lats.sh --cmd run.pl --iter final exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-clean_tgsmall
+steps/diagnostic/analyze_lats.sh: see stats in exp/tdnn_1d_sp/decode_test-clean_tgsmall/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,5) and mean=2.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/tdnn_1d_sp/decode_test-clean_tgsmall/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+steps/nnet3/decode.sh --acwt 1.0 --post-decode-acwt 10.0 --nj 8 --cmd run.pl --online-ivector-dir exp/nnet3_cleaned_out/ivectors_test-other_hires exp/chain_cleaned_out/graph_tgsmall data/test-other_hires exp/tdnn_1d_sp/decode_test-other_tgsmall
+steps/nnet3/decode.sh: feature type is raw
+steps/diagnostic/analyze_lats.sh --cmd run.pl --iter final exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-other_tgsmall
+steps/diagnostic/analyze_lats.sh: see stats in exp/tdnn_1d_sp/decode_test-other_tgsmall/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,3,13) and mean=6.3
+steps/diagnostic/analyze_lats.sh: see stats in exp/tdnn_1d_sp/decode_test-other_tgsmall/log/analyze_lattice_depth_stats.log
+score best paths
+score confidence and timing with sclite
+Decoding done.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Score">Score<a class="anchor-link" href="#Score"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>steps/score_kaldi.sh --cmd <span class="s2">&quot;run.pl&quot;</span> data/test-clean_hires <span class="nv">$graph_dir</span> <span class="nv">$tdnndir</span>/decode_test-clean_tgsmall
+<span class="o">!</span>steps/score_kaldi.sh --cmd <span class="s2">&quot;run.pl&quot;</span> data/test-other_hires <span class="nv">$graph_dir</span> <span class="nv">$tdnndir</span>/decode_test-other_tgsmall
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>steps/score_kaldi.sh --cmd run.pl data/test-clean_hires exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-clean_tgsmall
+steps/score_kaldi.sh: scoring with word insertion penalty=0.0,0.5,1.0
+steps/score_kaldi.sh --cmd run.pl data/test-other_hires exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-other_tgsmall
+steps/score_kaldi.sh: scoring with word insertion penalty=0.0,0.5,1.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat exp/tdnn_1d_sp/decode_test-clean_tgsmall/scoring_kaldi/best_wer
+<span class="o">!</span>cat exp/tdnn_1d_sp/decode_test-other_tgsmall/scoring_kaldi/best_wer
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>%WER 7.13 [ 3747 / 52576, 648 ins, 242 del, 2857 sub ] exp/tdnn_1d_sp/decode_test-clean_tgsmall/wer_17_0.5
+%WER 17.92 [ 9378 / 52343, 1384 ins, 723 del, 7271 sub ] exp/tdnn_1d_sp/decode_test-other_tgsmall/wer_17_1.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Rescoring">Rescoring<a class="anchor-link" href="#Rescoring"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cp -r /kaggle/input/kaldi-librispeech-model/exp/rnnlm_lstm_1a/ exp
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ln -s /opt/kaldi/scripts/rnnlm
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">env</span> decode_dir=exp/tdnn_1d_sp/decode_test-clean_tgsmall
+<span class="o">!</span>rnnlm/lmrescore_pruned.sh --cmd <span class="s2">&quot;</span><span class="nv">$decode_cmd</span><span class="s2">&quot;</span> --weight <span class="m">0</span>.45 --max-ngram-order <span class="m">4</span> data/lang_test_tgsmall exp/rnnlm_lstm_1a data/test-clean_hires <span class="si">${</span><span class="nv">decode_dir</span><span class="si">}</span> <span class="nv">$tdnndir</span>/decode_test-clean_rescore
+<span class="o">%</span><span class="k">env</span> decode_dir=exp/tdnn_1d_sp/decode_test-other_tgsmall
+<span class="o">!</span>rnnlm/lmrescore_pruned.sh --cmd <span class="s2">&quot;</span><span class="nv">$decode_cmd</span><span class="s2">&quot;</span> --weight <span class="m">0</span>.45 --max-ngram-order <span class="m">4</span> data/lang_test_tgsmall exp/rnnlm_lstm_1a data/test-other_hires <span class="si">${</span><span class="nv">decode_dir</span><span class="si">}</span> <span class="nv">$tdnndir</span>/decode_test-other_rescore
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>env: decode_dir=exp/tdnn_1d_sp/decode_test-clean_tgsmall
+rnnlm/lmrescore_pruned.sh --cmd run.pl --weight 0.45 --max-ngram-order 4 data/lang_test_tgsmall exp/rnnlm_lstm_1a data/test-clean_hires exp/tdnn_1d_sp/decode_test-clean_tgsmall exp/tdnn_1d_sp/decode_test-clean_rescore
+local/score.sh --cmd run.pl data/test-clean_hires data/lang_test_tgsmall exp/tdnn_1d_sp/decode_test-clean_rescore
+env: decode_dir=exp/tdnn_1d_sp/decode_test-other_tgsmall
+rnnlm/lmrescore_pruned.sh --cmd run.pl --weight 0.45 --max-ngram-order 4 data/lang_test_tgsmall exp/rnnlm_lstm_1a data/test-other_hires exp/tdnn_1d_sp/decode_test-other_tgsmall exp/tdnn_1d_sp/decode_test-other_rescore
+local/score.sh --cmd run.pl data/test-other_hires data/lang_test_tgsmall exp/tdnn_1d_sp/decode_test-other_rescore
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>steps/score_kaldi.sh --cmd <span class="s2">&quot;run.pl&quot;</span> data/test-clean_hires <span class="nv">$graph_dir</span> <span class="nv">$tdnndir</span>/decode_test-clean_rescore
+<span class="o">!</span>steps/score_kaldi.sh --cmd <span class="s2">&quot;run.pl&quot;</span> data/test-other_hires <span class="nv">$graph_dir</span> <span class="nv">$tdnndir</span>/decode_test-other_rescore
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>steps/score_kaldi.sh --cmd run.pl data/test-clean_hires exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-clean_rescore
+steps/score_kaldi.sh: scoring with word insertion penalty=0.0,0.5,1.0
+steps/score_kaldi.sh --cmd run.pl data/test-other_hires exp/chain_cleaned_out/graph_tgsmall exp/tdnn_1d_sp/decode_test-other_rescore
+steps/score_kaldi.sh: scoring with word insertion penalty=0.0,0.5,1.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat <span class="nv">$tdnndir</span>/decode_test-clean_rescore/scoring_kaldi/best_wer
+<span class="o">!</span>cat <span class="nv">$tdnndir</span>/decode_test-other_rescore/scoring_kaldi/best_wer
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>%WER 5.85 [ 3078 / 52576, 617 ins, 198 del, 2263 sub ] exp/tdnn_1d_sp/decode_test-clean_rescore/wer_17_0.5
+%WER 15.98 [ 8362 / 52343, 1381 ins, 588 del, 6393 sub ] exp/tdnn_1d_sp/decode_test-other_rescore/wer_17_1.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="-"> <a class="anchor-link" href="#-"> </a></h2>
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
