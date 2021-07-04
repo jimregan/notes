@@ -49,6 +49,23 @@ w|h}hh a}w|ax	w|h}hh|w a}ax
 t|u}ch r}axr	t}ch u|r}axr
 d|u}jh a}uw|ax	d}jh u}uw a}ax
 c|i}sh a}iy|ey2	c}sh i}iy a}ey2
+i}ix a|t}t	i|a}ix t}t
+w|h}hh e}w|iy1 a|t}t	w|h}hh|w e|a}iy1 t}t
+q|u}k a}w|aa1	q}k u}w a}aa1
+q|u}k a}w|ao2	q}k u}w a}ao2
+q|u}k a}w|ae1	q}k u}w a}ae1
+w|h}hh a}w|aa1	w|h}hh|w a}aa1
+w|h}hh a}w|aa2	w|h}hh|w a}aa2
+w|h}hh e}w|ae1	w|h}hh|w a}ae1
+w|h}hh e}w|ae2	w|h}hh|w a}ae2
+w|h}hh i}w|ay1	w|h}hh|w a}ay1
+w|h}hh o}w|aa1	w|h}hh|w o}aa1
+y|a}y c|h}aa1 t}t	y}y a}aa1 c|h}_ t}t
+i}iy1 e}_	i|e}iy1
+m|a}m '}_ a}ae1	m}m a|'|a}ae1
+g|u}g e}_	g}g u|e}_
+r}r h}_	r|h}r
+s}z s|a}ix	s|s}z a}ix
 _HERE_
 
 my %replacements = ();
