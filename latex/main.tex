@@ -10,6 +10,8 @@
 %\usepackage{biblatex}
 \usepackage{natbib}
 \usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{trees}
 \bibliographystyle{unsrtnat}
 
 \setlength{\droptitle}{-6em}
@@ -30,11 +32,9 @@
 
 \section{Introduction}
 
-
+The goal of this report is to design an experiment to test the hypothesis that syllables--loosely defined as vowels, or a vocalic core, in context--as a unit for the representation of speech would outperform phonemes, taking into account the acoustic form, phonemic transcription, and written (orthographic) form.
 
 \section{Background}
-
-
 
 \subsection{Syllables}
 
@@ -44,7 +44,41 @@ no satisfactory definition. Syllables seem to
 be necessary units in the mental organization and production of utterances.~\citep{ladefoged_course_2011}
 \end{displayquote}
 
-\citet{goslin_comparing_2007} sort these syllabification methods under two broader categories: legality, and sonority. Methods in the legality category are based on the idea that syllables can only start with consonant sequences that are valid at the starts of words, and end with sequences that are valid ends of words. Sonority methods use a ranking of sonority, or loudness, of phonemes, so that sonority maximally rises towards the vowel, and maximally lowers away from it: in ``dormant'', the liquid `r' is ranked higher in sonority than the nasal `m', so ``dor-mant'' is the best syllabification.
+Syllables are...
+
+\begin{figure}[!h]
+\caption{The components of a syllable.}
+\label{fig:syll}
+\centering
+\begin{tikzpicture}[
+  tlabel/.style={pos=0.8,right=-1pt,font=\footnotesize\color{black}},level 1/.style={sibling distance=30mm}
+]
+\node{Syllable}
+  child{node{Onset}
+    child{node{C}}
+  }
+  child{node{Rime}
+    child{node{Nucleus}
+      child{node{V}}
+    }
+    child{node{Coda}
+      child{node{C}}
+    }
+  };
+\end{tikzpicture}
+\end{figure}
+
+Syllables are divided into two parts: \textbf{onset} (or \textit{anlaus}), and \textbf{rime} (or \textit{rhyme}); the rime is in turn divided into the \textbf{nucleus}, which contains the vowel, or vocalic element, and the \textbf{coda} (or \textit{auslaus}). Figure~\ref{fig:syll} contains a tree diagram of the elements of a syllable.
+
+\citet{wells_syllabification_2019} argues 
+%unconvincingly
+that stressed syllables should have maximum coda
+
+\citet{goslin_comparing_2007} sort these syllabification methods under two broader categories: legality, and sonority.
+
+Methods in the legality category are based on the idea that syllables can only start with consonant sequences that are valid at the starts of words, and end with sequences that are valid ends of words. The word ``timber'' can only be syllabified as ``tim-ber'', as `mb' is not a valid 
+
+Sonority methods use a ranking of sonority, or loudness, of phonemes, so that sonority maximally rises towards the vowel, and maximally lowers away from it: in ``dormant'', the liquid `r' is ranked higher in sonority than the nasal `m', so ``dor-mant'' is the best syllabification.
 
 \citet{saussure_course_1959} mentions vocalic fricatives as a criticism of sonoric syllabification; for English, at least, these hold equally for legality-based syllabification: in English, in general, words cannot start with `bz', `ps', or `pf', yet we have interjections `bzz', `psst', `pff'.
 
