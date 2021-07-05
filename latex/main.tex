@@ -26,9 +26,29 @@
 
 \maketitle
 
+\section{Background}
+
+\subsection{Syllables}
+
+\begin{displayquote}
+\textbf{syllable} A unit of speech for which there is
+no satisfactory definition. Syllables seem to
+be necessary units in the mental organization and production of utterances.~\citep{ladefoged_course_2011}
+\end{displayquote}
+
+\citet{goslin_comparing_2007} sort these syllabification methods under two broader categories: legality, and sonority. Methods in the legality category are based on the idea that syllables can only start with consonant sequences that are valid at the starts of words, and end with sequences that are valid end the ends of words. Sonority methods use a ranking of sonority, or loudness, of phonemes, so that sonority maximally rises towards the vowel, and maximally lowers away from it: in ``dormant'', the liquid `r' is higher ranked in sonority than the nasal `m', so `dor-mant' is the best syllabification.
+
+\citet{saussure_course_1959} mentions vocalic fricatives as a criticism of sonoric syllabification; for English, at least, these hold equally for legality-based syllabification: in English, in general, words cannot start with `bz', `ps', or `pf', yet we have interjections `bzz', `psst', `pff'.
+
+``particular'' could be broken into words as ``par tic you Lar'' or ``part ick yule are''.
+
+\subsection{Syllables in ASR}
+
 \citep{fujimura_syllable_1975}
 
+\citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus.
 
+\citet{soltau_neural_2017} trained a speech recognition system with CTC, using whole words as units.
 
 
 \bibliography{main}
