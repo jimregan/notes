@@ -179,13 +179,16 @@ The simple syllabifier then clusters these like so:
 a|b}ae1|b s|e|n}s|ix|n c|e|s}s|ix|z
 \end{verbatim}
 
-This output can then be used as input to Phonetisaurus, skipping its alignment, or trivially split to form a lexicon of syllables.
+This output could then be used as input to Phonetisaurus, skipping its alignment, or trivially split to form a lexicon of syllables.
 
-\subsection{The thing}
+%\subsection{The thing}
 
-Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as one of boundary insertion, similar to inserting spaces between words.
+%Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as one of boundary insertion, similar to inserting spaces between words.
+Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as a pair alignment task (similar to the process used by Phonetisaurus), using insertions to mark potential syllable boundaries.
 
 As segmentation is only necessary between vowels, the first onset and last coda are unambiguous; they can therefore be considered a corpus for the ambiguous segments between vowels.
+
+For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, the 
 
 %Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
 %1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
