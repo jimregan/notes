@@ -662,3 +662,27 @@ Publisher: The Science and Information (SAI) Organization Limited},
 	keywords = {Computer Science - Computation and Language, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
 	file = {arXiv Fulltext PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\4PGJFLPC\\Hannun et al. - 2014 - Deep Speech Scaling up end-to-end speech recognit.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\4GM52WB8\\1412.html:text/html},
 }
+
+@inproceedings{graves_towards_2014,
+	series = {{ICML}'14},
+	title = {Towards {End}-to-{End} {Speech} {Recognition} with {Recurrent} {Neural} {Networks}},
+	abstract = {This paper presents a speech recognition system that directly transcribes audio data with text, without requiring an intermediate phonetic representation. The system is based on a combination of the deep bidirectional LSTM recurrent neural network architecture and the Connectionist Temporal Classification objective function. A modification to the objective function is introduced that trains the network to minimise the expectation of an arbitrary transcription loss function. This allows a direct optimisation of the word error rate, even in the absence of a lexicon or language model. The system achieves a word error rate of 27.3\% on the Wall Street Journal corpus with no prior linguistic information, 21.9\% with only a lexicon of allowed words, and 8.2\% with a trigram language model. Combining the network with a baseline system further reduces the error rate to 6.7\%.},
+	booktitle = {Proceedings of the 31st {International} {Conference} on {International} {Conference} on {Machine} {Learning} - {Volume} 32},
+	publisher = {JMLR.org},
+	author = {Graves, Alex and Jaitly, Navdeep},
+	year = {2014},
+	pages = {II--1764--II--1772},
+}
+
+@inproceedings{li_acoustic--word_2017,
+	title = {Acoustic-to-word model without {OOV}},
+	doi = {10.1109/ASRU.2017.8268924},
+	abstract = {Recently, the acoustic-to-word model based on the Connectionist Temporal Classification (CTC) criterion was shown as a natural end-to-end model directly targeting words as output units. However, this type of word-based CTC model suffers from the out-of-vocabulary (OOV) issue as it can only model limited number of words in the output layer and maps all the remaining words into an OOV output node. Therefore, such word-based CTC model can only recognize the frequent words modeled by the network output nodes. It also cannot easily handle the hot-words which emerge after the model is trained. In this study, we improve the acoustic-to-word model with a hybrid CTC model which can predict both words and characters at the same time. With a shared-hidden-layer structure and modular design, the alignments of words generated from the word-based CTC and the character-based CTC are synchronized. Whenever the acoustic-to-word model emits an OOV token, we back off that OOV segment to the word output generated from the character-based CTC, hence solving the OOV or hot-words issue. Evaluated on a Microsoft Cortana voice assistant task, the proposed model can reduce the errors introduced by the OOV output token in the acoustic-to-word model by 30\%.},
+	booktitle = {2017 {IEEE} {Automatic} {Speech} {Recognition} and {Understanding} {Workshop} ({ASRU})},
+	author = {Li, Jinyu and Ye, Guoli and Zhao, Rui and Droppo, Jasha and Gong, Yifan},
+	month = dec,
+	year = {2017},
+	keywords = {acoustic-to-word, Acoustics, CTC, Decoding, hybrid, LSTM, OOV, Predictive models, Speech, Task analysis, Training, Training data},
+	pages = {111--117},
+	file = {IEEE Xplore Abstract Record:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\ZCMMBJ62\\8268924.html:text/html;Submitted Version:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\7J25JARJ\\Li et al. - 2017 - Acoustic-to-word model without OOV.pdf:application/pdf},
+}
