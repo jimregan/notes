@@ -139,12 +139,60 @@ I chose to base my experiment around the TIMIT corpus~\citep{garofolo_john_s_tim
 %``The TIMIT testing protocol pretty much dictates that you are supposed to use the bigram phone LM, which is an extremely poor LM for that task.  That's one of the reasons why almost no results using TIMIT are meaningful-- because the use of a good LM is "not allowed", certain methods, like recurrent acoustic models and CTC, which *implicitly* do language modeling, appear to be doing well.''
 TIMIT is the corpus of choice for phone recognition, because it is one of the few datasets which includes phone labels~\citep{lopes_phoneme_2011}; the acoustic component of the syllable can be obtained by concatenation according to the concatenation of the phonetic transcription.
 
-As the phonemic and orthographic components are both fundamentally text-based, I decided to use ``graphones'' as a representation. Graphones
+TIMIT does not contain syllabification, so I sought another source to use as a syllabification corpus. \citet{krantz_language-agnostic_2019} make use of CELEX~\citep{baayen_r_h_celex2_1995} for English, Dutch, and German, but the price is higher than I am able to afford\footnote{They do make use of lexicons for the Festival text-to-speech system for other languages, which would have been suitable, though I failed to notice that on my first reading.}.
 
-\citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus. I first extracted hyphenation patterns from Wiktionary, but 
+\citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus.
 
-\citet{baayen_r_h_celex2_1995}
+Although hyphenation and syllabification are different tasks, they are somewhat related; I tried to make use of this by extracting hyphenation patterns from the English edition of Wiktionary, which are represented using a template: for example, the word ``measure'' is represented like this:
 
+\begin{verbatim}
+{{hyphenation|en|mea|sure}}
+\end{verbatim}
+
+The predictable form of this template makes it easy to extract from one of the periodic database dumps that Wikimedia make available. The end result, while mostly high quality, was not consistent, and I decided instead to not use an explicit corpus.
+
+\subsection{Graphones}
+\label{ssect:graphones}
+
+% Now *this* was taking it too literally
+As the phonemic and orthographic components are both fundamentally text-based, I decided to use ``graphones'' as a representation. Graphones, short for grapheme-phoneme joint multigram~\citep{bisani_investigations_2002}, are a pair of sequences of graphemes and phonemes, used to model the grapheme-to-phoneme (G2P) conversion task.
+
+To obtain these graphones, I aligned a model using Phonetisaurus~\citep{novak_phonetisaurus_2016} on the TIMIT pronunciation dictionary. As Phonetisaurus in its default configuration only considers alignments of 1:1, 2:1, 1:2, 1:0, or 0:1, a few of these alignments were incorrect, so I wrote a script to correct them; during this process, I noticed a few errors in the transcription (for example, the letter `c' mapped to the phoneme symbol `ao', which represents a vowel), but the mapping to graphones had the additional benefit of localising these errors, making them trivial to repair.
+
+The motivation behind using graphones is to more easily extract the orthographic form that corresponds to the phoneme sequence. I implemented a relatively simplistic method, based primarily on a sonority ranking, to test this.\footnote{Based on a script found here: \url{http://web.archive.org/web/20091118145201/http://semarch.linguistics.fas.nyu.edu:80/barker/Syllables/syllabify.pl}}
+
+As an example, the TIMIT dictionary contains the following entry for the word ``absences'':
+
+\begin{verbatim}
+absences  /ae1 b s ix n s ix z/
+\end{verbatim}
+
+Phonetisaurus converts this into graphones like this:
+
+\begin{verbatim}
+a}ae1 b}b s}s e}ix n}n c}s e}ix s}z
+\end{verbatim}
+
+The simple syllabifier then clusters these like so:
+
+\begin{verbatim}
+a|b}ae1|b s|e|n}s|ix|n c|e|s}s|ix|z
+\end{verbatim}
+
+This output can then be used as input to Phonetisaurus, skipping its alignment, or trivially split to form a lexicon of syllables.
+
+\subsection{The thing}
+
+Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as one of boundary insertion, similar to inserting spaces between words.
+
+As segmentation is only necessary between vowels, the first onset and last coda are unambiguous; they can therefore be considered a corpus for the ambiguous segments between vowels.
+
+%Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
+%1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
+%2.  Rewrite the FSTs in the decoded alignments FAR as acceptors over a pair symbol vocabulary ${I} \times {O}$.
+%3.  Compute a higher-order language model (e.g., using the NGram tools), with standard smoothing and shrinking options, producing a weighted finite-state acceptor.
+%4.  Convert the weighted finite-state acceptor to a finite-state transducer by rewriting the ``acceptor'' ${I} \times {O}$ arcs with the corresponding ``transducer'' ${I} : {O}$ arcs.
+%Then the pair language model can be applied using composition and decoded using the Viterbi algorithm.
 
 \bibliography{main}
 %\bibliographystyle{apa}
