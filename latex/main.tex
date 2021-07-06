@@ -17,18 +17,6 @@
 \bibliographystyle{unsrtnat}
 
 \setlength{\droptitle}{-6em}
-%%% Helper code for Overleaf's build system to
-%%% automatically update output drawings when
-%%% code in a \digraph{...} is modified
-\usepackage{xpatch}
-\makeatletter
-\newcommand*{\addFileDependency}[1]{% argument=file name and extension
-  \typeout{(#1)}
-  \@addtofilelist{#1}
-  \IfFileExists{#1}{}{\typeout{No file #1.}}
-}
-\makeatother
-\xpretocmd{\digraph}{\addFileDependency{#2.dot}}{}{}
 
 %\addtolength{\oddsidemargin}{-.875in}
 %\addtolength{\evensidemargin}{-.875in}
@@ -213,44 +201,171 @@ c$|$k\}k & g\}g & r\}r & $|$
 \end{tabular}
 \end{center}
 
-\digraph{FST}{
-rankdir = LR;
-orientation = Portrait;
-0 [label = "0", shape = circle, style = bold, fontsize = 14]
-	0 -> 1 [label = "|", fontsize = 14];
-1 [label = "1", shape = circle, style = solid, fontsize = 14]
-	1 -> 2 [label = "b}b", fontsize = 14];
-2 [label = "2", shape = circle, style = solid, fontsize = 14]
-	2 -> 3 [label = "a}ae1", fontsize = 14];
-3 [label = "3", shape = circle, style = solid, fontsize = 14]
-	3 -> 4 [label = "|", fontsize = 14];
-	3 -> 5 [label = "c|k}k", fontsize = 14];
-4 [label = "4", shape = circle, style = solid, fontsize = 14]
-	4 -> 6 [label = "c|k}k", fontsize = 14];
-5 [label = "5", shape = circle, style = solid, fontsize = 14]
-	5 -> 6 [label = "|", fontsize = 14];
-	5 -> 7 [label = "g}g", fontsize = 14];
-6 [label = "6", shape = circle, style = solid, fontsize = 14]
-	6 -> 8 [label = "g}g", fontsize = 14];
-7 [label = "7", shape = circle, style = solid, fontsize = 14]
-	7 -> 8 [label = "|", fontsize = 14];
-	7 -> 9 [label = "r}r", fontsize = 14];
-8 [label = "8", shape = circle, style = solid, fontsize = 14]
-	8 -> 10 [label = "r}r", fontsize = 14];
-9 [label = "9", shape = circle, style = solid, fontsize = 14]
-	9 -> 10 [label = "|", fontsize = 14];
-10 [label = "10", shape = circle, style = solid, fontsize = 14]
-	10 -> 11 [label = "o|u}aw2", fontsize = 14];
-11 [label = "11", shape = circle, style = solid, fontsize = 14]
-	11 -> 12 [label = "n}n", fontsize = 14];
-12 [label = "12", shape = circle, style = solid, fontsize = 14]
-	12 -> 13 [label = "d}d", fontsize = 14];
-13 [label = "13", shape = circle, style = solid, fontsize = 14]
-	13 -> 14 [label = "|", fontsize = 14];
-14 [label = "14", shape = doublecircle, style = solid, fontsize = 14]
-}
-
-
+\begin{tikzpicture}[>=latex',line join=bevel,]
+  \pgfsetlinewidth{1bp}
+%%
+\pgfsetcolor{black}
+  % Edge: 0 -> 1
+  \draw [->] (36.011bp,78.0bp) .. controls (44.843bp,78.0bp) and (55.69bp,78.0bp)  .. (75.855bp,78.0bp);
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (56.0bp,85.5bp) node {|};
+  % Edge: 1 -> 2
+  \draw [->] (112.12bp,78.0bp) .. controls (125.65bp,78.0bp) and (144.38bp,78.0bp)  .. (169.93bp,78.0bp);
+  \draw (141.0bp,85.5bp) node {b\}b};
+  % Edge: 2 -> 3
+  \draw [->] (206.29bp,78.0bp) .. controls (222.4bp,78.0bp) and (246.12bp,78.0bp)  .. (274.92bp,78.0bp);
+  \draw (240.5bp,85.5bp) node {a\}ae1};
+  % Edge: 3 -> 4
+  \draw [->] (310.47bp,82.58bp) .. controls (326.38bp,86.75bp) and (350.13bp,92.975bp)  .. (378.44bp,100.4bp);
+  \draw (344.5bp,102.5bp) node {|};
+  % Edge: 3 -> 5
+  \draw [->] (310.56bp,73.038bp) .. controls (316.41bp,71.405bp) and (322.98bp,69.599bp)  .. (329.0bp,68.0bp) .. controls (341.92bp,64.568bp) and (356.28bp,60.904bp)  .. (378.34bp,55.366bp);
+  \draw (344.5bp,75.5bp) node {c|k\}k};
+  % Edge: 4 -> 6
+  \draw [->] (413.94bp,103.08bp) .. controls (429.65bp,101.41bp) and (452.73bp,98.941bp)  .. (480.92bp,95.931bp);
+  \draw (447.5bp,108.5bp) node {c|k\}k};
+  % Edge: 5 -> 6
+  \draw [->] (412.86bp,57.606bp) .. controls (426.45bp,62.975bp) and (446.02bp,70.81bp)  .. (463.0bp,78.0bp) .. controls (466.31bp,79.403bp) and (469.78bp,80.905bp)  .. (482.56bp,86.55bp);
+  \draw (447.5bp,85.5bp) node {|};
+  % Edge: 5 -> 7
+  \draw [->] (410.64bp,40.16bp) .. controls (416.89bp,36.161bp) and (424.47bp,32.096bp)  .. (432.0bp,30.0bp) .. controls (444.48bp,26.525bp) and (458.78bp,25.885bp)  .. (481.02bp,26.827bp);
+  \draw (447.5bp,37.5bp) node {g\}g};
+  % Edge: 6 -> 8
+  \draw [->] (516.68bp,89.862bp) .. controls (530.47bp,86.635bp) and (549.86bp,82.098bp)  .. (575.4bp,76.119bp);
+  \draw (546.0bp,91.5bp) node {g\}g};
+  % Edge: 7 -> 8
+  \draw [->] (515.37bp,36.49bp) .. controls (529.71bp,43.047bp) and (550.77bp,52.684bp)  .. (576.5bp,64.452bp);
+  \draw (546.0bp,61.5bp) node {|};
+  % Edge: 7 -> 9
+  \draw [->] (516.39bp,23.212bp) .. controls (522.23bp,21.524bp) and (528.84bp,19.894bp)  .. (535.0bp,19.0bp) .. controls (544.63bp,17.603bp) and (555.26bp,17.118bp)  .. (574.88bp,17.139bp);
+  \draw (546.0bp,26.5bp) node {r\}r};
+  % Edge: 8 -> 10
+  \draw [->] (610.51bp,66.794bp) .. controls (622.78bp,63.144bp) and (639.5bp,58.173bp)  .. (663.82bp,50.942bp);
+  \draw (637.0bp,67.5bp) node {r\}r};
+  % Edge: 9 -> 10
+  \draw [->] (610.51bp,23.206bp) .. controls (622.78bp,26.856bp) and (639.5bp,31.827bp)  .. (663.82bp,39.058bp);
+  \draw (637.0bp,41.5bp) node {|};
+  % Edge: 10 -> 11
+  \draw [->] (704.88bp,45.0bp) .. controls (725.19bp,45.0bp) and (756.15bp,45.0bp)  .. (789.43bp,45.0bp);
+  \draw (747.1bp,52.5bp) node {o|u\}aw2};
+  % Edge: 11 -> 12
+  \draw [->] (830.25bp,45.0bp) .. controls (843.95bp,45.0bp) and (862.24bp,45.0bp)  .. (887.87bp,45.0bp);
+  \draw (858.89bp,52.5bp) node {n\}n};
+  % Edge: 12 -> 13
+  \draw [->] (929.81bp,45.0bp) .. controls (943.55bp,45.0bp) and (961.69bp,45.0bp)  .. (987.2bp,45.0bp);
+  \draw (958.49bp,52.5bp) node {d\}d};
+  % Edge: 13 -> 14
+  \draw [->] (1029.4bp,45.0bp) .. controls (1038.3bp,45.0bp) and (1048.9bp,45.0bp)  .. (1069.0bp,45.0bp);
+  \draw (1049.1bp,52.5bp) node {|};
+  % Node: 0
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [very thick] (18.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (18.0bp,78.0bp) node {0};
+\end{scope}
+  % Node: 1
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (94.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (94.0bp,78.0bp) node {1};
+\end{scope}
+  % Node: 2
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (188.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (188.0bp,78.0bp) node {2};
+\end{scope}
+  % Node: 3
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (293.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (293.0bp,78.0bp) node {3};
+\end{scope}
+  % Node: 4
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (396.0bp,105.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (396.0bp,105.0bp) node {4};
+\end{scope}
+  % Node: 5
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (396.0bp,51.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (396.0bp,51.0bp) node {5};
+\end{scope}
+  % Node: 6
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (499.0bp,94.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (499.0bp,94.0bp) node {6};
+\end{scope}
+  % Node: 7
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (499.0bp,29.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (499.0bp,29.0bp) node {7};
+\end{scope}
+  % Node: 8
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (593.0bp,72.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (593.0bp,72.0bp) node {8};
+\end{scope}
+  % Node: 9
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (593.0bp,18.0bp) ellipse (18.0bp and 18.0bp);
+  \draw (593.0bp,18.0bp) node {9};
+\end{scope}
+  % Node: 10
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (683.8bp,45.0bp) ellipse (20.6bp and 20.6bp);
+  \draw (683.8bp,45.0bp) node {10};
+\end{scope}
+  % Node: 11
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (809.74bp,45.0bp) ellipse (20.3bp and 20.3bp);
+  \draw (809.74bp,45.0bp) node {11};
+\end{scope}
+  % Node: 12
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (908.69bp,45.0bp) ellipse (20.6bp and 20.6bp);
+  \draw (908.69bp,45.0bp) node {12};
+\end{scope}
+  % Node: 13
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (1008.29bp,45.0bp) ellipse (20.6bp and 20.6bp);
+  \draw (1008.3bp,45.0bp) node {13};
+\end{scope}
+  % Node: 14
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw [solid] (1093.88bp,45.0bp) ellipse (20.63bp and 20.63bp);
+  \draw [solid] (1093.88bp,45.0bp) ellipse (24.6bp and 24.6bp);
+  \draw (1093.9bp,45.0bp) node {14};
+\end{scope}
+%
+\end{tikzpicture}
 
 %Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
 %1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
