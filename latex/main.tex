@@ -109,19 +109,16 @@ This is according to the hierarchy given by \citet{kingston_role_1990}: vowels $
 % I'm scribbling this to keep myself writing, don't mind me.
 %``particular'' could be broken into words as ``par tic you Lar'' or ``part ick yule are''.
 
-
-\citet{baayen_r_h_celex2_1995}
-
 \subsection{Syllables in Automatic Speech Recognition (ASR)}
 \label{ssect:syllasr}
 
-Phoneme-based systems have been dominant in ASR for some time, in large part because they are ``inherently free from vocabulary limitations''~\citep{lopes_phoneme_2011}--that is, new vocabulary can be added to such a system at any time by adding its tran
+Phoneme-based systems have been dominant in ASR for some time, in large part because they are ``inherently free from vocabulary limitations''~\citep{lopes_phoneme_2011}--that is, new vocabulary can be added to such a system at any time by adding its transcription to the lexicon, or by enlarging its language model\footnote{The language model gives the probabilities of words in sequence, which is useful in the case of phonetic ambiguity: ``made a mistake'' is far more likely than ``made a miss take'', and so on.}; they are not inherently tied to the use of phonemes, however.
 
-\citep{fujimura_syllable_1975}\footnote{This article appeared in the same volume as the article that introduced HMM-based speech recognition~\citep{baker_dragon_1975}.}.
+Syllable-based systems can be found in the earliest days of ASR: \citet{fujimura_syllable_1975} is situated in a context of ASR systems that used template-matching to recognised isolated, individual words, spoken by known speakers\footnote{It appeared in the same volume as the article that introduced DRAGON~\citep{baker_dragon_1975}, the first phoneme-based system.}
 
-\citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus.
+The currently dominant paradigm uses deep neural networks to predict letters, trained using the Connectionist Temporal Classification (CTC) loss function~\citep{graves_towards_2014}; Deep Speech~\citep{hannun_deep_2014}, the system most responsible for the paradigm shift, can, however, be equally said to be syllable-based, insofar as they trained on Chinese as well as English, and Chinese characters, although pictographic (i.e., like hieroglyphs) are also syllabic in nature.
 
-Morpheme-based subwords have been used as a unit for speech recognition in a number of languages: English~\citep{huckvale_using_2002}, Arabic~\citep{jafri_concatenative_2021}, Tigrinya~\citep{abera_tigrinya_2020}, Basque~\citep{guijarrubia_morpheme-based_2009} and Amharic~\citep{tachbelie_morpheme-based_2010} are examples.
+Morpheme-based subwords have been used as a unit for speech recognition in a number of languages: English~\citep{huckvale_using_2002}, Arabic~\citep{jafri_concatenative_2021}, Tigrinya~\citep{abera_tigrinya_2020}, Czech~\citep{hejtmanek_using_2010}, Basque~\citep{guijarrubia_morpheme-based_2009} and Amharic~\citep{tachbelie_morpheme-based_2010} are examples. Although
 
 \citet{soltau_neural_2017} trained a speech recognition system with CTC, using whole words as units.
 
@@ -137,7 +134,9 @@ Perhaps taking too literally the stipulation of considering the orthographic, ph
 
 TIMIT is the corpus of choice for phone recognition, because it is one of the few datasets which includes phone labels.~\citep{lopes_phoneme_2011}. 
 
+\citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus. 
 
+\citet{baayen_r_h_celex2_1995}
 
 
 \bibliography{main}
