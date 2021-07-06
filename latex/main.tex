@@ -12,9 +12,23 @@
 \usepackage{enumitem}
 \usepackage{tikz}
 \usetikzlibrary{trees}
+\usepackage[pdf]{graphviz}
+%\usepackage[pdf]{graphicx}
 \bibliographystyle{unsrtnat}
 
 \setlength{\droptitle}{-6em}
+%%% Helper code for Overleaf's build system to
+%%% automatically update output drawings when
+%%% code in a \digraph{...} is modified
+\usepackage{xpatch}
+\makeatletter
+\newcommand*{\addFileDependency}[1]{% argument=file name and extension
+  \typeout{(#1)}
+  \@addtofilelist{#1}
+  \IfFileExists{#1}{}{\typeout{No file #1.}}
+}
+\makeatother
+\xpretocmd{\digraph}{\addFileDependency{#2.dot}}{}{}
 
 %\addtolength{\oddsidemargin}{-.875in}
 %\addtolength{\evensidemargin}{-.875in}
@@ -189,6 +203,52 @@ Rather than using an explicit corpus of syllabified words, I decided to treat th
 As segmentation is only necessary between vowels, the first onset and last coda are unambiguous; they can therefore be considered a corpus for the ambiguous segments between vowels.
 
 For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, a lattice is created with a syllable marker before each possible segmentation point, plus one after, corresponding to an $N \times N$ matrix, where $N$ is the number of intervening syllables plus one, with a syllable marker on the diagonal.
+
+\begin{center}
+\begin{tabular}{ c c c c }
+$|$ & c$|$k\}k & g\}g & r\}r \\
+c$|$k\}k & $|$ & g\}g & r\}r \\
+c$|$k\}k & g\}g & $|$ & r\}r \\
+c$|$k\}k & g\}g & r\}r & $|$
+\end{tabular}
+\end{center}
+
+\digraph{FST}{
+rankdir = LR;
+orientation = Portrait;
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 1 [label = "|", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 2 [label = "b}b", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 3 [label = "a}ae1", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 4 [label = "|", fontsize = 14];
+	3 -> 5 [label = "c|k}k", fontsize = 14];
+4 [label = "4", shape = circle, style = solid, fontsize = 14]
+	4 -> 6 [label = "c|k}k", fontsize = 14];
+5 [label = "5", shape = circle, style = solid, fontsize = 14]
+	5 -> 6 [label = "|", fontsize = 14];
+	5 -> 7 [label = "g}g", fontsize = 14];
+6 [label = "6", shape = circle, style = solid, fontsize = 14]
+	6 -> 8 [label = "g}g", fontsize = 14];
+7 [label = "7", shape = circle, style = solid, fontsize = 14]
+	7 -> 8 [label = "|", fontsize = 14];
+	7 -> 9 [label = "r}r", fontsize = 14];
+8 [label = "8", shape = circle, style = solid, fontsize = 14]
+	8 -> 10 [label = "r}r", fontsize = 14];
+9 [label = "9", shape = circle, style = solid, fontsize = 14]
+	9 -> 10 [label = "|", fontsize = 14];
+10 [label = "10", shape = circle, style = solid, fontsize = 14]
+	10 -> 11 [label = "o|u}aw2", fontsize = 14];
+11 [label = "11", shape = circle, style = solid, fontsize = 14]
+	11 -> 12 [label = "n}n", fontsize = 14];
+12 [label = "12", shape = circle, style = solid, fontsize = 14]
+	12 -> 13 [label = "d}d", fontsize = 14];
+13 [label = "13", shape = circle, style = solid, fontsize = 14]
+	13 -> 14 [label = "|", fontsize = 14];
+14 [label = "14", shape = doublecircle, style = solid, fontsize = 14]
+}
 
 
 
