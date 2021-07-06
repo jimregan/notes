@@ -188,7 +188,9 @@ Rather than using an explicit corpus of syllabified words, I decided to treat th
 
 As segmentation is only necessary between vowels, the first onset and last coda are unambiguous; they can therefore be considered a corpus for the ambiguous segments between vowels.
 
-For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, the 
+For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, a lattice is created with a syllable marker before each possible segmentation point, plus one after, corresponding to an $N \times N$ matrix, where $N$ is the number of intervening syllables plus one, with a syllable marker on the diagonal.
+
+
 
 %Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
 %1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
