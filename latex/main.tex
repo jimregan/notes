@@ -38,6 +38,8 @@ The goal of this report is to design an experiment to test the hypothesis that s
 \section{Background}
 \label{sect:bg}
 
+% I ramble on about syllables waaaaaay too long
+% ...but I read so much stuff!
 \subsection{Syllables}
 \label{ssect:syllables}
 
@@ -47,7 +49,7 @@ no satisfactory definition. Syllables seem to
 be necessary units in the mental organization and production of utterances.~\citep{ladefoged_course_2011}
 \end{displayquote}
 
-Syllables are...
+Most linguists are in agreement that the syllable is a fundamental unit of speech, but beyond that, very little is agreed. Theories about the syllable ``have been based on evidence from phonetics, phonological processes, prosody, language change, child language acquisition, and language universals.''~\citep{fallows_experimental_1981}
 
 \begin{figure}[!h]
 \caption{The components of a syllable.}
@@ -71,11 +73,11 @@ Syllables are...
 \end{tikzpicture}
 \end{figure}
 
-Syllables are divided into two parts: \textbf{onset} (or \textit{anlaus}), and \textbf{rime} (or \textit{rhyme}); the rime is in turn divided into the \textbf{nucleus}, which contains the vowel, or vocalic element, and the \textbf{coda} (or \textit{auslaus}). Figure~\ref{fig:syll} contains a tree diagram of the elements of a syllable.
+Syllables are divided into two parts: \textbf{onset} (or \textit{anlaus}), and \textbf{rime} (or \textit{rhyme}); the rime is in turn divided into the \textbf{nucleus}, which contains the vowel, or vocalic element, and the \textbf{coda} (or \textit{auslaus}). Figure~\ref{fig:syll} contains a tree diagram of the elements of a syllable. Languages vary in what a syllable may consist of, but this scheme of dividing the syllable is generally applicable to European languages.
 
 The nucleus of a syllable usually contains a vowel; however, sonorant consonants can also function as a nucleus. In the word ``button'', ``on'' is a sonorant `n'. Czech is particularly well known for words containing sonorant `r': the tongue-twister ``Str\v{c} prst skrz krk'' \textit{(stick a finger through the throat)} contains no vowels, but all of the `r's are sonorant.
 
-English allows syllables that follow the general template of 
+English allows syllables that follow the general template of CVC (consonant-vowel-consonant), where the onset may contain between 0 and 3 consonant sounds, and the coda may contain 0 to 5 consonant sounds, though in most dialects the maximum is 4.
 
 \subsection{Syllabification}
 \label{ssect:syllabification}
@@ -90,7 +92,7 @@ Stress is typically considered in connection with maximal onset: the stressed sy
 %unconvincingly
 that stressed syllables should have maximal coda in addition to maximal onset.
 
-Ambisyllabicity is, in its strictest sense, the idea that a consonant between two vowels can belong to both; other interpretations can allow for variation in syllabification, or sharing of certain sounds only. Gemination, or consonant lengthening, is often realised as a repetition of the consonant. Doubled consonants in English do not automatically signify gemination, as they do in Italian or Swedish, but they do in compound words (``midday'') or prefixed words (``misspell''); in these cases, the lengthened consonant is typically considered to be split in half, with the halves acting as the end and beginning of two syllables. 
+Ambisyllabicity is, in its strictest sense, the idea that a consonant between two vowels can belong to both; other interpretations can allow for variation in syllabification, or sharing of certain sounds only. Gemination, or consonant lengthening, is often realised as a repetition of the consonant. Doubled consonants in English do not automatically signify gemination, as they do in Italian or Swedish, but they do in compound words (``midday'') or prefixed words (``misspell''); in these cases, the lengthened consonant is typically considered to be split in half, with the halves acting as the end and beginning of two syllables.
 %Gemination? Polish, Italian & Swedish have a slightly different form of ambisyllabicity where two 'halves' of a long/geminated consonant are split between syllables.
 
 \citet{goslin_comparing_2007} sort syllabification methods into two broad categories: ``legality'' (restrictions on segment sequences, as above), and sonority.
@@ -100,17 +102,44 @@ Sonority methods use a ranking of sonority, or loudness, of phonemes, so that so
 This is according to the hierarchy given by \citet{kingston_role_1990}: vowels $>$ glides $>$ liquids $>$ nasals $>$ obstruents\footnote{For brevity, by example of the letters most associated with these sounds in English: \textit{glides} (semi-vowels): y, w; \textit{liquids}: r, l; \textit{nasals}: m, n, ng; \textit{obstruents}: f/v, s/z, t/d, p/b, sh/`zh', ch/j, k/g, paired as voiceless/voiced (with/without using the vocal cords).}, though there are several other hierarchies: \citet{katamba_introduction_1989}, for example, has: vowels $>$ glides $>$ nasals $>$ voiced obstruents $>$ voiceless obstruents; \citet{ladefoged_course_2011} give a hierarchy for individual sounds, estimated from acoustic data, but only for a few of the sounds of English.
 
 \citet{saussure_course_1959} mentions sonorant fricatives as a criticism of sonoric syllabification; for English, at least, these hold equally for legality-based syllabification: in English, in general, words cannot start with `bz', `ps', or `pf', yet we have interjections `bzz', `psst', `pff'.
+%although in fast speech the realisation can be one of these,
+% nah, I've written too much already
 
-``particular'' could be broken into words as ``par tic you Lar'' or ``part ick yule are''.
+% I was going to also look for how the existance of mono-syllabic words influences syllabification - Wells' maximal coda has ``dolphin'' segmented as ``dolph-in'', which matched the intuition of zero people I asked; my son specifically mentioned the existance of ``doll'' and ``fin'' as influencing his syllabification; the example below was intended to show that even taking words into consideration, syllabification can still be ambiguous.
+% I'm scribbling this to keep myself writing, don't mind me.
+%``particular'' could be broken into words as ``par tic you Lar'' or ``part ick yule are''.
+
+
+\citet{baayen_r_h_celex2_1995}
 
 \subsection{Syllables in Automatic Speech Recognition (ASR)}
 \label{ssect:syllasr}
+
+Phone-based systems have been dominant in ASR for some time, in large part because
+
+``Speech recognition based on phones is very attractive since it is inherently free from vocabulary limitations.''~\citep{lopes_phoneme_2011}
 
 \citep{fujimura_syllable_1975}\footnote{This article appeared in the same volume as the article that introduced HMM-based speech recognition~\citep{baker_dragon_1975}.}.
 
 \citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus.
 
+Morpheme-based subwords have been used as a unit for speech recognition in a number of languages: English~\citep{huckvale_using_2002}, Arabic~\citep{jafri_concatenative_2021}, Tigrinya~\citep{abera_tigrinya_2020}, Basque~\citep{guijarrubia_morpheme-based_2009} and Amharic~\citep{tachbelie_morpheme-based_2010} are examples.
+
 \citet{soltau_neural_2017} trained a speech recognition system with CTC, using whole words as units.
+
+\section{Experiment}
+\label{sect:experiment}
+
+% ASR FTW!
+I selected Automatic Speech Recognition (ASR) as the 
+
+\subsection{Corpus}
+
+Perhaps taking too literally the stipulation of considering the orthographic, phonetic, and acoustic forms of a syllable as a trio, I chose to base my experiment around the TIMIT corpus~\citep{garofolo_john_s_timit_nodate}.
+
+TIMIT is the corpus of choice for phone recognition, because it is one of the few datasets which includes phone labels.~\citep{lopes_phoneme_2011}. 
+
+
 
 
 \bibliography{main}
