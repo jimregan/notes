@@ -33,7 +33,7 @@
 \section{Introduction}
 \label{sect:intro}
 
-The goal of this report is to design an experiment to test the hypothesis that syllables--loosely defined as vowels, or a vocalic core, in context--as a unit for the representation of speech would outperform phonemes, taking into account the acoustic form, phonemic transcription, and written (orthographic) form.
+The goal of this report is to design an experiment to test the hypothesis that syllables--loosely defined as vowels, or a vocalic core, in context--as a unit for the representation of speech would outperform phonemes in a speech processing task, taking into account the acoustic form, phonemic transcription, and written (orthographic) form.
 
 \section{Background}
 \label{sect:bg}
@@ -116,26 +116,30 @@ Phoneme-based systems have been dominant in ASR for some time, in large part bec
 
 Syllable-based systems can be found in the earliest days of ASR: \citet{fujimura_syllable_1975} is situated in a context of ASR systems that used template-matching to recognised isolated, individual words, spoken by known speakers\footnote{It appeared in the same volume as the article that introduced DRAGON~\citep{baker_dragon_1975}, the first phoneme-based system.}
 
-The currently dominant paradigm uses deep neural networks to predict letters\footnote{It was possible to use letters in earlier systems--the \href{http://web.archive.org/web/20100814172908/http://cmusphinx.sourceforge.net/wiki/tutorialam}{CMU Sphinx acoustic model tutorial} suggests a letter-based lexicon where a phonetic lexicon is not available.}, trained using the Connectionist Temporal Classification (CTC) loss function~\citep{graves_towards_2014}; Deep Speech~\citep{hannun_deep_2014}, the system most responsible for the paradigm shift, can, however, be equally said to be syllable-based, insofar as they trained on Chinese as well as English, and Chinese characters, although pictographic (i.e., like hieroglyphs) are also syllabic in nature.
+The currently dominant paradigm uses deep neural networks to predict letters\footnote{It was possible to use letters in earlier systems--the \href{http://web.archive.org/web/20100814172908/http://cmusphinx.sourceforge.net/wiki/tutorialam}{CMU Sphinx acoustic model tutorial} from 2010 suggests a letter-based lexicon where a phonetic lexicon is not available.}, trained using the Connectionist Temporal Classification (CTC) loss function~\citep{graves_towards_2014}; Deep Speech~\citep{hannun_deep_2014}, the system most responsible for the paradigm shift, can, however, be equally said to be syllable-based, insofar as they trained on Chinese as well as English, and Chinese characters, although pictographic (i.e., like hieroglyphs) are also syllabic in nature.
 
-Morpheme-based subwords have been used as a unit for speech recognition in a number of languages: English~\citep{huckvale_using_2002}, Arabic~\citep{jafri_concatenative_2021}, Tigrinya~\citep{abera_tigrinya_2020}, Czech~\citep{hejtmanek_using_2010}, Basque~\citep{guijarrubia_morpheme-based_2009} and Amharic~\citep{tachbelie_morpheme-based_2010} are examples. Although
+Morpheme-based subwords have been used as a unit for speech recognition in a number of languages: English~\citep{huckvale_using_2002}, Arabic~\citep{jafri_concatenative_2021}, Tigrinya~\citep{abera_tigrinya_2020}, Czech~\citep{hejtmanek_using_2010}, Basque~\citep{guijarrubia_morpheme-based_2009} and Amharic~\citep{tachbelie_morpheme-based_2010} are examples. There is often a significant amount of overlap between morphemes and syllables: of the 121 prefixes and suffixes listed by \citet{huckvale_using_2002}, 76 are syllables, 8 are arguably one or two syllables: for example, ``-tory'' can be one or two syllables depending on dialect, while others depend on whether a double vowels are permitted as a single nucleus.
 
 \citet{soltau_neural_2017} trained a speech recognition system with CTC, using whole words as units; \citet{li_acoustic--word_2017} extend this to use both words and letters, with the word-based model backing off to letters in the case of out-of-vocabulary words. 
+
+Other units found in the literature include word pieces~\citep{dong_cif_2020} segmented using byte pair encoding (BPE)~\citep{sennrich_neural_2016} and biphones~\citep{hadian_flat-start_2018}. Word pieces are likely to be used more often in future: \citet{yi_efficiently_2021} fused an ASR system (based on wav2vec2) with a BERT language model into a single pipeline--such pipelines are currently extremely popular, thanks in part to the success of Hugging Face's Transformers library. It is worth noting, in the context of the hypothesis being tested in this report, that \citet{dong_cif_2020} specifically attribute the superior performance of their model on Chinese to its syllabic nature.
 
 \section{Experiment}
 \label{sect:experiment}
 
 % ASR FTW!
-I selected Automatic Speech Recognition (ASR) as the 
+I selected Automatic Speech Recognition (ASR) as the application with which to test the hypothesis; partly out of familiarity, and partly because it is easier to test the results of speech recognition in an automatic way: speech recognition systems are typically tested against a reference transcript, whereas Text-to-Speech systems are usually tested by listening to the output.
 
 \subsection{Corpus}
+\label{ssect:corpus}
 
-Perhaps taking too literally the stipulation of considering the orthographic, phonetic, and acoustic forms of a syllable as a trio, I chose to base my experiment around the TIMIT corpus~\citep{garofolo_john_s_timit_nodate}.
-
+%Perhaps taking too literally the stipulation of considering the orthographic, phonetic, and acoustic forms of a syllable as a trio, 
+I chose to base my experiment around the TIMIT corpus~\citep{garofolo_john_s_timit_nodate}.
 %https://groups.google.com/g/kaldi-help/c/i17cx9SEVVo/m/w0uxwLE0BgAJ
 %``The TIMIT testing protocol pretty much dictates that you are supposed to use the bigram phone LM, which is an extremely poor LM for that task.  That's one of the reasons why almost no results using TIMIT are meaningful-- because the use of a good LM is "not allowed", certain methods, like recurrent acoustic models and CTC, which *implicitly* do language modeling, appear to be doing well.''
+TIMIT is the corpus of choice for phone recognition, because it is one of the few datasets which includes phone labels~\citep{lopes_phoneme_2011}; the acoustic component of the syllable can be obtained by concatenation according to the concatenation of the phonetic transcription.
 
-TIMIT is the corpus of choice for phone recognition, because it is one of the few datasets which includes phone labels~\citep{lopes_phoneme_2011}. 
+As the phonemic and orthographic components are both fundamentally text-based, I decided to use ``graphones'' as a representation. Graphones
 
 \citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus. I first extracted hyphenation patterns from Wiktionary, but 
 
