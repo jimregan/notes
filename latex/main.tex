@@ -31,12 +31,15 @@
 \maketitle
 
 \section{Introduction}
+\label{sect:intro}
 
 The goal of this report is to design an experiment to test the hypothesis that syllables--loosely defined as vowels, or a vocalic core, in context--as a unit for the representation of speech would outperform phonemes, taking into account the acoustic form, phonemic transcription, and written (orthographic) form.
 
 \section{Background}
+\label{sect:bg}
 
 \subsection{Syllables}
+\label{ssect:syllables}
 
 \begin{displayquote}
 \textbf{syllable} A unit of speech for which there is
@@ -70,23 +73,40 @@ Syllables are...
 
 Syllables are divided into two parts: \textbf{onset} (or \textit{anlaus}), and \textbf{rime} (or \textit{rhyme}); the rime is in turn divided into the \textbf{nucleus}, which contains the vowel, or vocalic element, and the \textbf{coda} (or \textit{auslaus}). Figure~\ref{fig:syll} contains a tree diagram of the elements of a syllable.
 
-\citet{wells_syllabification_2019} argues 
+The nucleus of a syllable usually contains a vowel; however, sonorant consonants can also function as a nucleus. In the word ``button'', ``on'' is a sonorant `n'. Czech is particularly well known for words containing sonorant `r': the tongue-twister ``Str\v{c} prst skrz krk'' \textit{(stick a finger through the throat)} contains no vowels, but all of the `r's are sonorant.
+
+English allows syllables that follow the general template of 
+
+\subsection{Syllabification}
+\label{ssect:syllabification}
+
+\citet{fallows_experimental_1981} lists four basic principles shared to different degrees among several hypotheses of syllabification: restrictions on segment sequences, maximal onset, stress, and ambisyllabicity.
+
+Restrictions on segment sequences typically resolve to the idea that a sequence must be valid as the onset or coda of a word to be valid for any syllable; that syllables may only start with consonant sequences that are valid at the starts of words, and end with sequences that are valid at the ends of words. The word ``timber'' can only be syllabified as ``tim-ber'', as the sounds `m' and `b' cannot appear together in either a valid onset or coda in English words\footnote{That is, in general: there are dialects in Northern England that permit `m' and `b' in a coda; otherwise, a written `mb' is pronounced as `m'.}.
+
+Maximal onset is a preference for the largest onset size: for example, the word ``happy'' could be syllabified as ``ha-ppy'' or ``happ-y'': maximal onset would select ``ha-ppy''. Technological approaches to syllabification tend towards maximal onset~\citep{ladefoged_course_2011}, and this is the default for many languages (for example, Hawaiian syllables have no coda, while Japanese and Chinese restrict codas to nasals).
+
+Stress is typically considered in connection with maximal onset: the stressed syllable is first segmented to have maximal onset, unstressed syllables are treated after, in various ways. \citet{wells_syllabification_2019} argues 
 %unconvincingly
-that stressed syllables should have maximum coda
+that stressed syllables should have maximal coda in addition to maximal onset.
 
-\citet{goslin_comparing_2007} sort these syllabification methods under two broader categories: legality, and sonority.
+Ambisyllabicity is, in its strictest sense, the idea that a consonant between two vowels can belong to both; other interpretations can allow for variation in syllabification, or sharing of certain sounds only. Gemination, or consonant lengthening, is often realised as a repetition of the consonant. Doubled consonants in English do not automatically signify gemination, as they do in Italian or Swedish, but they do in compound words (``midday'') or prefixed words (``misspell''); in these cases, the lengthened consonant is typically considered to be split in half, with the halves acting as the end and beginning of two syllables. 
+%Gemination? Polish, Italian & Swedish have a slightly different form of ambisyllabicity where two 'halves' of a long/geminated consonant are split between syllables.
 
-Methods in the legality category are based on the idea that syllables can only start with consonant sequences that are valid at the starts of words, and end with sequences that are valid ends of words. The word ``timber'' can only be syllabified as ``tim-ber'', as `mb' is not a valid 
+\citet{goslin_comparing_2007} sort syllabification methods into two broad categories: ``legality'' (restrictions on segment sequences, as above), and sonority.
 
 Sonority methods use a ranking of sonority, or loudness, of phonemes, so that sonority maximally rises towards the vowel, and maximally lowers away from it: in ``dormant'', the liquid `r' is ranked higher in sonority than the nasal `m', so ``dor-mant'' is the best syllabification.
 
-\citet{saussure_course_1959} mentions vocalic fricatives as a criticism of sonoric syllabification; for English, at least, these hold equally for legality-based syllabification: in English, in general, words cannot start with `bz', `ps', or `pf', yet we have interjections `bzz', `psst', `pff'.
+This is according to the hierarchy given by \citet{kingston_role_1990}: vowels $>$ glides $>$ liquids $>$ nasals $>$ obstruents\footnote{For brevity, by example of the letters most associated with these sounds in English: \textit{glides} (semi-vowels): y, w; \textit{liquids}: r, l; \textit{nasals}: m, n, ng; \textit{obstruents}: f/v, s/z, t/d, p/b, sh/`zh', ch/j, k/g, paired as voiceless/voiced (with/without using the vocal cords).}, though there are several other hierarchies: \citet{katamba_introduction_1989}, for example, has: vowels $>$ glides $>$ nasals $>$ voiced obstruents $>$ voiceless obstruents; \citet{ladefoged_course_2011} give a hierarchy for individual sounds, estimated from acoustic data, but only for a few of the sounds of English.
+
+\citet{saussure_course_1959} mentions sonorant fricatives as a criticism of sonoric syllabification; for English, at least, these hold equally for legality-based syllabification: in English, in general, words cannot start with `bz', `ps', or `pf', yet we have interjections `bzz', `psst', `pff'.
 
 ``particular'' could be broken into words as ``par tic you Lar'' or ``part ick yule are''.
 
-\subsection{Syllables in ASR}
+\subsection{Syllables in Automatic Speech Recognition (ASR)}
+\label{ssect:syllasr}
 
-\citep{fujimura_syllable_1975}
+\citep{fujimura_syllable_1975}\footnote{This article appeared in the same volume as the article that introduced HMM-based speech recognition~\citep{baker_dragon_1975}.}.
 
 \citet{marchand_automatic_2009} list two major problems to the creation of a gold standard syllabification corpus: disagreement among annotators, and the impracticality of collecting a sufficiently large corpus.
 
