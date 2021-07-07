@@ -264,9 +264,11 @@ Although phoneme-based speech recognition is no longer to the fore of research, 
 
 Aside from general-purpose speech recognition, there are several other applications for speech recognition: for example, Computer-Assisted Pronunciation Training is a natural fit for phoneme-based speech recognition, because we want the learner to receive feedback when they use the wrong sound. It may be possible to simulate this using letters or words, but phonemes are the most obvious choice for that specific use case.
 
-%The initial revolutionary phase of deep learning-based speech recognition seems to have calmed; at the moment, there is something of a trend towards reappraising older methods and components within the new framework. \citet{baevski_unsupervised_2021} use a new feature extractor, but use it to train a Kaldi system, while \citet{hsu_hubert_2021} use the old feature extraction method (MFCCs). \citet{hannun_differentiable_2020} reformulate Weighted Finite-State Transducers to be differentiable.
+The joint word-letter learning of \citet{li_acoustic--word_2017} could be interesting in other contexts;
 
-\citet{li_acoustic--word_2017}
+%The initial revolutionary phase of deep learning-based speech recognition seems to have calmed; at the moment, there is something of a trend towards reappraising older methods and components within the new framework. \citet{baevski_unsupervised_2021} use a new feature extractor, but use it to train a Kaldi system, while \citet{hsu_hubert_2021} use the old feature extraction method (MFCCs). \citet{hannun_differentiable_2020} reformulate Weighted Finite-State Transducers to be differentiable. \citet{zeyer_ctc_2017} found that CTC is a special case of Hidden Markov Models.
+
+
 
 %Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
 %1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
