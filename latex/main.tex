@@ -186,186 +186,87 @@ This output could then be used as input to Phonetisaurus, skipping its alignment
 %\subsection{The thing}
 
 %Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as one of boundary insertion, similar to inserting spaces between words.
-Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as a pair alignment task (similar to the process used by Phonetisaurus), using insertions to mark potential syllable boundaries.
+Rather than using an explicit corpus of syllabified words, I decided to treat the syllabification problem as a joint alignment task (similar to the process used by Phonetisaurus), using insertions to mark potential syllable boundaries.
 
 As segmentation is only necessary between vowels, the first onset and last coda are unambiguous; they can therefore be considered a corpus for the ambiguous segments between vowels.
 
-For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, a lattice is created with a syllable marker before each possible segmentation point, plus one after, corresponding to an $N \times N$ matrix, where $N$ is the number of intervening syllables plus one, with a syllable marker on the diagonal.
+For each set of graphones representing a word and its transcription, a syllable marker is inserted at the beginning, and at the end; the graphones are searched for vowels, from the start, then from the back, to find the first and last vowel. If the location of the first vowel is equal to the location of the last vowel, the word is monosyllabic, and nothing else needs to be done. Otherwise, a graph is created with a syllable marker before each possible segmentation point, plus one after, corresponding to an $N \times N$ matrix, where $N$ is the number of intervening syllables plus one, with a syllable marker on the diagonal. Table \ref{table:matrix} contains the segmentation matrix for the ambiguous portion of ``ba\textbf{ckgr}ound'' (using $|$ as the segementation marker), while figure \ref{fig:fsa} contains the segmentation graph for the whole word.
+
+Each path is weighted with $1.0 \div P$, where $P$ is the number of paths through the segmentation graph (that is, each possible segmentation); this is converted into a language model to score possible segmentations, to allow the most probable to be selected.
 
 \begin{center}
+\begin{table}
+\centering
 \begin{tabular}{ c c c c }
 $|$ & c$|$k\}k & g\}g & r\}r \\
 c$|$k\}k & $|$ & g\}g & r\}r \\
 c$|$k\}k & g\}g & $|$ & r\}r \\
 c$|$k\}k & g\}g & r\}r & $|$
 \end{tabular}
+\caption{Segmentation matrix for ``ba\textbf{ckgr}ound''.}
+\label{table:matrix}
+\end{table}
 \end{center}
 
-\begin{tikzpicture}[>=latex',line join=bevel,]
-  \pgfsetlinewidth{1bp}
-%%
-\pgfsetcolor{black}
-  % Edge: 0 -> 1
-  \draw [->] (36.011bp,78.0bp) .. controls (44.843bp,78.0bp) and (55.69bp,78.0bp)  .. (75.855bp,78.0bp);
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw (56.0bp,85.5bp) node {|};
-  % Edge: 1 -> 2
-  \draw [->] (112.12bp,78.0bp) .. controls (125.65bp,78.0bp) and (144.38bp,78.0bp)  .. (169.93bp,78.0bp);
-  \draw (141.0bp,85.5bp) node {b\}b};
-  % Edge: 2 -> 3
-  \draw [->] (206.29bp,78.0bp) .. controls (222.4bp,78.0bp) and (246.12bp,78.0bp)  .. (274.92bp,78.0bp);
-  \draw (240.5bp,85.5bp) node {a\}ae1};
-  % Edge: 3 -> 4
-  \draw [->] (310.47bp,82.58bp) .. controls (326.38bp,86.75bp) and (350.13bp,92.975bp)  .. (378.44bp,100.4bp);
-  \draw (344.5bp,102.5bp) node {|};
-  % Edge: 3 -> 5
-  \draw [->] (310.56bp,73.038bp) .. controls (316.41bp,71.405bp) and (322.98bp,69.599bp)  .. (329.0bp,68.0bp) .. controls (341.92bp,64.568bp) and (356.28bp,60.904bp)  .. (378.34bp,55.366bp);
-  \draw (344.5bp,75.5bp) node {c|k\}k};
-  % Edge: 4 -> 6
-  \draw [->] (413.94bp,103.08bp) .. controls (429.65bp,101.41bp) and (452.73bp,98.941bp)  .. (480.92bp,95.931bp);
-  \draw (447.5bp,108.5bp) node {c|k\}k};
-  % Edge: 5 -> 6
-  \draw [->] (412.86bp,57.606bp) .. controls (426.45bp,62.975bp) and (446.02bp,70.81bp)  .. (463.0bp,78.0bp) .. controls (466.31bp,79.403bp) and (469.78bp,80.905bp)  .. (482.56bp,86.55bp);
-  \draw (447.5bp,85.5bp) node {|};
-  % Edge: 5 -> 7
-  \draw [->] (410.64bp,40.16bp) .. controls (416.89bp,36.161bp) and (424.47bp,32.096bp)  .. (432.0bp,30.0bp) .. controls (444.48bp,26.525bp) and (458.78bp,25.885bp)  .. (481.02bp,26.827bp);
-  \draw (447.5bp,37.5bp) node {g\}g};
-  % Edge: 6 -> 8
-  \draw [->] (516.68bp,89.862bp) .. controls (530.47bp,86.635bp) and (549.86bp,82.098bp)  .. (575.4bp,76.119bp);
-  \draw (546.0bp,91.5bp) node {g\}g};
-  % Edge: 7 -> 8
-  \draw [->] (515.37bp,36.49bp) .. controls (529.71bp,43.047bp) and (550.77bp,52.684bp)  .. (576.5bp,64.452bp);
-  \draw (546.0bp,61.5bp) node {|};
-  % Edge: 7 -> 9
-  \draw [->] (516.39bp,23.212bp) .. controls (522.23bp,21.524bp) and (528.84bp,19.894bp)  .. (535.0bp,19.0bp) .. controls (544.63bp,17.603bp) and (555.26bp,17.118bp)  .. (574.88bp,17.139bp);
-  \draw (546.0bp,26.5bp) node {r\}r};
-  % Edge: 8 -> 10
-  \draw [->] (610.51bp,66.794bp) .. controls (622.78bp,63.144bp) and (639.5bp,58.173bp)  .. (663.82bp,50.942bp);
-  \draw (637.0bp,67.5bp) node {r\}r};
-  % Edge: 9 -> 10
-  \draw [->] (610.51bp,23.206bp) .. controls (622.78bp,26.856bp) and (639.5bp,31.827bp)  .. (663.82bp,39.058bp);
-  \draw (637.0bp,41.5bp) node {|};
-  % Edge: 10 -> 11
-  \draw [->] (704.88bp,45.0bp) .. controls (725.19bp,45.0bp) and (756.15bp,45.0bp)  .. (789.43bp,45.0bp);
-  \draw (747.1bp,52.5bp) node {o|u\}aw2};
-  % Edge: 11 -> 12
-  \draw [->] (830.25bp,45.0bp) .. controls (843.95bp,45.0bp) and (862.24bp,45.0bp)  .. (887.87bp,45.0bp);
-  \draw (858.89bp,52.5bp) node {n\}n};
-  % Edge: 12 -> 13
-  \draw [->] (929.81bp,45.0bp) .. controls (943.55bp,45.0bp) and (961.69bp,45.0bp)  .. (987.2bp,45.0bp);
-  \draw (958.49bp,52.5bp) node {d\}d};
-  % Edge: 13 -> 14
-  \draw [->] (1029.4bp,45.0bp) .. controls (1038.3bp,45.0bp) and (1048.9bp,45.0bp)  .. (1069.0bp,45.0bp);
-  \draw (1049.1bp,52.5bp) node {|};
-  % Node: 0
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [very thick] (18.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (18.0bp,78.0bp) node {0};
-\end{scope}
-  % Node: 1
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (94.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (94.0bp,78.0bp) node {1};
-\end{scope}
-  % Node: 2
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (188.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (188.0bp,78.0bp) node {2};
-\end{scope}
-  % Node: 3
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (293.0bp,78.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (293.0bp,78.0bp) node {3};
-\end{scope}
-  % Node: 4
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (396.0bp,105.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (396.0bp,105.0bp) node {4};
-\end{scope}
-  % Node: 5
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (396.0bp,51.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (396.0bp,51.0bp) node {5};
-\end{scope}
-  % Node: 6
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (499.0bp,94.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (499.0bp,94.0bp) node {6};
-\end{scope}
-  % Node: 7
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (499.0bp,29.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (499.0bp,29.0bp) node {7};
-\end{scope}
-  % Node: 8
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (593.0bp,72.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (593.0bp,72.0bp) node {8};
-\end{scope}
-  % Node: 9
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (593.0bp,18.0bp) ellipse (18.0bp and 18.0bp);
-  \draw (593.0bp,18.0bp) node {9};
-\end{scope}
-  % Node: 10
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (683.8bp,45.0bp) ellipse (20.6bp and 20.6bp);
-  \draw (683.8bp,45.0bp) node {10};
-\end{scope}
-  % Node: 11
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (809.74bp,45.0bp) ellipse (20.3bp and 20.3bp);
-  \draw (809.74bp,45.0bp) node {11};
-\end{scope}
-  % Node: 12
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (908.69bp,45.0bp) ellipse (20.6bp and 20.6bp);
-  \draw (908.69bp,45.0bp) node {12};
-\end{scope}
-  % Node: 13
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (1008.29bp,45.0bp) ellipse (20.6bp and 20.6bp);
-  \draw (1008.3bp,45.0bp) node {13};
-\end{scope}
-  % Node: 14
-\begin{scope}
-  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
-  \pgfsetstrokecolor{strokecol}
-  \draw [solid] (1093.88bp,45.0bp) ellipse (20.63bp and 20.63bp);
-  \draw [solid] (1093.88bp,45.0bp) ellipse (24.6bp and 24.6bp);
-  \draw (1093.9bp,45.0bp) node {14};
-\end{scope}
-%
-\end{tikzpicture}
+\begin{figure}[!h]
+\caption{Segmentation graph for ``background''.}
+\label{fig:fsa}
+\includegraphics[width=320px]{fsa.pdf}
+\end{figure}
+
+To get an idea of the comparative performance, two systems are needed: one using syllables, the other using phonemes. Kaldi~\citep{povey_kaldi_2011} contains a recipe for TIMIT; it is only set up for making a purely phoneme-based system, but the data preparation parts are still useful.
+
+The phoneme-based system will use the TIMIT data as provided; the syllable-based system would need additional processing to extract the graphone-based syllables, using the model above, which would then be used as a basis for merging the timestamps of the phonetic transcripts, to create syllable transcripts. Once this data has been processed, the training procedure is the same as for the phoneme-based system, albeit using a differently segmented lexicon and language model.
+
+\subsection{Evaluation}
+\label{ssect:eval}
+
+The motivation behind this experiment is to improve the performance of a speech recognition system; because of this, evaluation based on speech recognition is more informative than anything task-specific.
+
+ASR systems are typically evaluated using Word Error Rate (WER) of the system's output, compared to a reference transcription. WER is formulated like so:
+
+\[ \mathit{WER} = \frac{S+D+I}{N} = \frac{S+D+I}{S+D+C} \]
+
+where $S$ is the number of substitutions, $D$ is the number of deletions, $I$ is the number of insertions, and $N$ is the total number of words in the reference transcription. 
+
+Phone-based systems and character-based systems are often additionally evaluated using Phone Error Rate (PER) and Character Error Rate (CER), respectively. These can be useful in analysing the errors made by the system.
+
+To perform a similar evaluation, the same formula can be used for ``Syllable Error Rate'', using syllables as input, though this would require re-segmenting the transcriptions of the test portion of the TIMIT corpus, as well as the training portion.
+
+\section{Discussion}
+\label{sect:discussion}
+
+\subsection{Potential issues}
+\label{ssect:issues}
+
+The first potential issue is that, because the segmentation scheme has no explicit attempt to enforce restrictions on segment sequences, it could lead to unnatural segmentations. This could be addressed by adding an explicit mechanism for preventing such segmentations.
+
+The next issue is the choice of corpus--TIMIT is quite small, and it's possible that the potential benefit of a larger basic unit would not be apparent without a sufficiently large training corpus.
+
+Related to the above, another issue is the number of symbols: the TIMIT dictionary contains 6228 words; the simple syllabification method mentioned in subsection \ref{ssect:graphones} produced 6540 unique syllables, and of those, many contained two vowels: a more thorough segmentation system would produce more.
+
+%An issue with my approach to the task is in how little attention I paid to the acoustic syllables. There are a number of methods for determining the locations of vowels in audio, but I came across the paper by \citet{dong_cif_2020} early on, which had a much better version of my idea, and I never quite came back to it.
+
+%Also, the statistical syllabifier still doesn't exist; I've been trying to use the OpenFST ngram and baumwelch tools, which are as under-documented as the tools with OpenFST itself, and I'm starting to think that encoding a sentence FST doesn't work the way I want. The alternative approach is to recursively generate each possible path and weight them individually, so at least there's still scope for that to work.
+
+\subsection{The premise}
+\label{ssect:premise}
+
+\subsubsection{Do syllables have a role as a unit for speech recognition?}
+
+Although English is not unique in its difficulty regarding sentence boundaries (for example, \citet{goslin_comparing_2007} found that French presented similar difficulties), there are many languages for which the syllable is more central, and more clearly defined. Chinese is clearly one, as demonstrated by \citet{dong_cif_2020}.
+
+An alternative unit might be a syllabic version of the phonetically-constrained morphological affixes presented by \citet{huckvale_using_2002}. \citet{tachbelie_morpheme-based_2010} mention that shorter morphological units are more confusable, but a syllable may be enough context to avoid that problem.
+
+\subsubsection{The role of phonemes}
+
+Although phoneme-based speech recognition is no longer to the fore of research, for practical speech recognition, it's likely that phonemes will continue to be useful. Languages do not exist in isolation: as I write this, Spain and Italy are playing in the semi-final of the Euros. Most, if not all, of these players will appear in at least the sporting news; few, if any, will be represented in a speech corpus.
+
+Aside from general-purpose speech recognition, there are several other applications for speech recognition: for example, Computer-Assisted Pronunciation Training is a natural fit for phoneme-based speech recognition, because we want the learner to receive feedback when they use the wrong sound. It may be possible to simulate this using letters or words, but phonemes are the most obvious choice for that specific use case.
+
+The initial revolutionary phase of deep learning-based speech recognition seems to have calmed; at the moment, there is something of a trend towards reappraising older methods and components within the new framework. 
+
+\citet{li_acoustic--word_2017}
 
 %Once the alignment model $\hat{\Gamma}$ is estimated, we can use it to construct a so-called \textit{pair language model} (Novak et al. 2012, 2016). This is much like a classic language model but the actual symbols represent pairs in ${I} \times {O}$; unlike $\hat{\Gamma}$, it is a joint model. To construct such a model:
 %1.  Compute the best $i, o$ alignments by decoding with $\hat{\Gamma}$.
