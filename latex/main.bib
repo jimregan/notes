@@ -43,52 +43,6 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	file = {Full Text PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\3UFJM87B\\Lopes and Perdigao - 2011 - Phoneme Recognition on the TIMIT Database.pdf:application/pdf;Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\MFPICHSN\\phoneme-recognition-on-the-timit-database.html:text/html},
 }
 
-@article{lee_speaker-independent_1989,
-	title = {Speaker-independent phone recognition using hidden {Markov} models},
-	volume = {37},
-	issn = {0096-3518},
-	doi = {10.1109/29.46546},
-	abstract = {Hidden Markov modeling is extended to speaker-independent phone recognition. Using multiple codebooks of various linear-predictive-coding (LPC) parameters and discrete hidden Markov models (HMMs) the authors obtain a speaker-independent phone recognition accuracy of 58.8-73.8\% on the TIMIT database, depending on the type of acoustic and language models used. In comparison, the performance of expert spectrogram readers is only 69\% without use of higher level knowledge. The authors introduce the co-occurrence smoothing algorithm, which enables accurate recognition even with very limited training data. Since the results were evaluated on a standard database, they can be used as benchmarks to evaluate future systems.{\textless}{\textgreater}},
-	number = {11},
-	journal = {IEEE Transactions on Acoustics, Speech, and Signal Processing},
-	author = {Lee, K.-F. and Hon, H.-W.},
-	month = nov,
-	year = {1989},
-	note = {Conference Name: IEEE Transactions on Acoustics, Speech, and Signal Processing},
-	keywords = {Acoustics, Context modeling, Databases, Hidden Markov models, Humans, Knowledge engineering, Linear predictive coding, Maximum likelihood decoding, Natural languages, Speech recognition},
-	pages = {1641--1648},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\LV8ANX62\\citations.html:text/html},
-}
-
-@article{belinkov_analyzing_2017,
-	title = {Analyzing {Hidden} {Representations} in {End}-to-{End} {Automatic} {Speech} {Recognition} {Systems}},
-	volume = {30},
-	url = {https://proceedings.neurips.cc/paper/2017/hash/b069b3415151fa7217e870017374de7c-Abstract.html},
-	language = {en},
-	urldate = {2021-06-24},
-	journal = {Advances in Neural Information Processing Systems},
-	author = {Belinkov, Yonatan and Glass, James},
-	year = {2017},
-	file = {Full Text PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\B3UY4WM9\\Belinkov and Glass - 2017 - Analyzing Hidden Representations in End-to-End Aut.pdf:application/pdf;Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\TIWCYTWD\\b069b3415151fa7217e870017374de7c-Abstract.html:text/html},
-}
-
-@article{webb_ensemble_2019,
-	title = {To {Ensemble} or {Not} {Ensemble}: {When} does {End}-{To}-{End} {Training} {Fail}?},
-	shorttitle = {To {Ensemble} or {Not} {Ensemble}},
-	url = {http://arxiv.org/abs/1902.04422},
-	doi = {10.13140/RG.2.2.28091.46880},
-	abstract = {End-to-End training (E2E) is becoming more and more popular to train complex Deep Network architectures. An interesting question is whether this trend will continue-are there any clear failure cases for E2E training? We study this question in depth, for the specific case of E2E training an ensemble of networks. Our strategy is to blend the gradient smoothly in between two extremes: from independent training of the networks, up to to full E2E training. We find clear failure cases, where over-parameterized models cannot be trained E2E. A surprising result is that the optimum can sometimes lie in between the two, neither an ensemble or an E2E system. The work also uncovers links to Dropout, and raises questions around the nature of ensemble diversity and multi-branch networks.},
-	urldate = {2021-06-25},
-	journal = {arXiv:1902.04422 [cs, stat]},
-	author = {Webb, Andrew M. and Reynolds, Charles and Chen, Wenlin and Reeve, Henry and Iliescu, Dan-Andrei and Lujan, Mikel and Brown, Gavin},
-	year = {2019},
-	note = {arXiv: 1902.04422},
-	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Statistics - Machine Learning},
-	annote = {Comment: Code: https://github.com/grey-area/modular-loss-experiments. Preprint updated to reflect version accepted for publication at ECML},
-	annote = {Comment: Code: https://github.com/grey-area/modular-loss-experiments. Preprint updated to reflect version accepted for publication at ECML},
-	file = {arXiv Fulltext PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\HL7TZ2VG\\Webb et al. - 2019 - To Ensemble or Not Ensemble When does End-To-End .pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\R26CGEA9\\1902.html:text/html;arXiv Fulltext PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\43W6WF6I\\Webb et al. - 2019 - To Ensemble or Not Ensemble When does End-To-End .pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\7GHF8B4Z\\1902.html:text/html},
-}
-
 @article{hsu_hubert_2021,
 	title = {{HuBERT}: {Self}-{Supervised} {Speech} {Representation} {Learning} by {Masked} {Prediction} of {Hidden} {Units}},
 	shorttitle = {{HuBERT}},
@@ -183,20 +137,6 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	file = {IEEE Xplore Abstract Record:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\JRLSUL8J\\9413734.html:text/html},
 }
 
-@inproceedings{doshi_extending_2021,
-	title = {Extending {Parrotron}: {An} {End}-to-{End}, {Speech} {Conversion} and {Speech} {Recognition} {Model} for {Atypical} {Speech}},
-	shorttitle = {Extending {Parrotron}},
-	doi = {10.1109/ICASSP39728.2021.9414644},
-	abstract = {We present an extended Parrotron model: a single, end-to-end network that enables voice conversion and recognition simultaneously. Input spectrograms are transformed to output spectrograms in the voice of a predetermined target speaker while also generating hypotheses in a target vocabulary. We study the performance of this novel architecture, which jointly predicts speech and text, on atypical (e.g. dysarthric) speech. We show that with as little as an hour of atypical speech, speaker adaptation can yield a 77\% relative reduction in Word Error Rate (WER), measured by ASR performance on the converted speech. We also show that data augmentation using a customized synthesizer built on atypical speech can provide an additional 10\% relative improvement over the best speaker-adapted model. Finally, we show how these methods generalize across 8 types of atypical speech for a range of speech impairment severities.},
-	booktitle = {{ICASSP} 2021 - 2021 {IEEE} {International} {Conference} on {Acoustics}, {Speech} and {Signal} {Processing} ({ICASSP})},
-	author = {Doshi, Rohan and Chen, Youzheng and Jiang, Liyang and Zhang, Xia and Biadsy, Fadi and Ramabhadran, Bhuvana and Chu, Fang and Rosenberg, Andrew and Moreno, Pedro J.},
-	month = jun,
-	year = {2021},
-	keywords = {Adaptation models, Conferences, Error analysis, Measurement uncertainty, sequence-to-sequence model, speech impairments, speech normalization, speech recognition, Speech recognition, Synthesizers, Vocabulary, voice conversion},
-	pages = {6988--6992},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\JLNLC79V\\9414644.html:text/html},
-}
-
 @inproceedings{li_towards_2019,
 	title = {Towards {Code}-switching {ASR} for {End}-to-end {CTC} {Models}},
 	doi = {10.1109/ICASSP.2019.8683223},
@@ -226,14 +166,6 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	file = {arXiv Fulltext PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\WCLBKTE4\\Naowarat et al. - 2021 - Reducing Spelling Inconsistencies in Code-Switchin.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\D3PBEJCQ\\2005.html:text/html},
 }
 
-@misc{noauthor_how_nodate,
-	title = {How many syllables exist in the {American} {English} language? - {Quora}},
-	url = {https://www.quora.com/How-many-syllables-exist-in-the-American-English-language},
-	urldate = {2021-06-29},
-	annote = {I'm going to give you a very specific number, 15,831. That is how many syllables there are in the English language.A syllable is a vowel sound with or without consonants.Girl can be pronounced as one or two syllables grl or grr-ell. Same with boy, boy-yee. People from Australia get two syllables out of the word no, somehow.Let's count them all, shall we?No, that's been done already, here's a link: Page on nyu.eduIt provides a very thorough look at what a syllable is and how many there are (and maybe how many there should be).Hope this helps.},
-	file = {How many syllables exist in the American English language? - Quora:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\8HCXBKRZ\\How-many-syllables-exist-in-the-American-English-language.html:text/html},
-}
-
 @inproceedings{rieger_idiosyncratic_2001,
 	title = {Idiosyncratic fillers in the speech of bilinguals},
 	volume = {DISS'01},
@@ -243,21 +175,6 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	year = {2001},
 	pages = {81--84},
 	file = {DISS'01 Abstract\: Rieger, Caroline L.:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\7WUDW5FF\\dis1_081.html:text/html},
-}
-
-@article{musgrave_metric_2020,
-	title = {A {Metric} {Learning} {Reality} {Check}},
-	url = {http://arxiv.org/abs/2003.08505},
-	abstract = {Deep metric learning papers from the past four years have consistently claimed great advances in accuracy, often more than doubling the performance of decade-old methods. In this paper, we take a closer look at the field to see if this is actually true. We find flaws in the experimental methodology of numerous metric learning papers, and show that the actual improvements over time have been marginal at best.},
-	urldate = {2021-06-29},
-	journal = {arXiv:2003.08505 [cs]},
-	author = {Musgrave, Kevin and Belongie, Serge and Lim, Ser-Nam},
-	month = sep,
-	year = {2020},
-	note = {arXiv: 2003.08505},
-	keywords = {Computer Science - Computer Vision and Pattern Recognition},
-	annote = {Comment: Visit https://www.github.com/KevinMusgrave/powerful-benchmarker for supplementary material, including the source code, configuration files, log files, and interactive bayesian optimization plots},
-	file = {arXiv Fulltext PDF:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\4DDYLHPA\\Musgrave et al. - 2020 - A Metric Learning Reality Check.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\MUCR9S4H\\2003.html:text/html},
 }
 
 @article{marchand_automatic_2009,
@@ -277,23 +194,6 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	keywords = {analogy, computational linguistics, corpus linguistics, rule-based systems, speech technology, syllabification},
 	pages = {1--27},
 	file = {Accepted Version:C\:\\Users\\Jim O'Regan\\Zotero\\storage\\KIUS6D3Q\\Marchand et al. - 2009 - Automatic Syllabification in English A Comparison.pdf:application/pdf},
-}
-
-@inproceedings{zhang_learning_1997,
-	address = {Berlin, Heidelberg},
-	series = {Lecture {Notes} in {Computer} {Science}},
-	title = {Learning {English} syllabification for words},
-	isbn = {978-3-540-69612-4},
-	doi = {10.1007/3-540-63614-5_17},
-	abstract = {This paper presents the LE-SR (Learning English Syllabification Rules learning system, which learns English syllabification rules using a symbolic pattern recognition approach. LE-SR was tested on NTC2, a 20,000 English word pronouncing dictionary. The ten-fold accuracy ranged from 94.55\% to 96.05\% for words and 96.81\% to 97.71\% for syllables.The frequency of the rule usage indicates that most of the syllabification (86.21\%) in NTC2 is covered by only 0.64\% of the syllabification rules produced by LE-SR, while exceptions (2.45\%) require 76.77\% of the syllabification rules. This experimental result is consistent with the linguistics literature. Relatively few rules cover the vast majority of cases, but a considerable number of exceptions must be handled individually.The learned rules can be used to divide any English word into syllables. Based on syllables, the English stress rules can be learned. Syllabification and stress greatly influence the naturalness of the output of a text-to-speech system. Existing text-to-speech systems have either obtained syllabification from a dictionary or used a few hand coded rules. Using machine learning approach to obtain these rules is a step towards producing natural speech sounding for text-to-speech systems.},
-	language = {en},
-	booktitle = {Foundations of {Intelligent} {Systems}},
-	publisher = {Springer},
-	author = {Zhang, Jian and Hamilton, Howard J.},
-	editor = {Raś, Zbigniew W. and Skowron, Andrzej},
-	year = {1997},
-	keywords = {English Word, Natural Speech, Performance Element, Rule Usage, Vowel Sound},
-	pages = {177--186},
 }
 
 @article{goslin_comparing_2007,
@@ -725,4 +625,11 @@ Phone recognition in TIMIT has more than two decades of intense research behind 
 	author = {Baevski, Alexei and Hsu, Wei-Ning and Conneau, Alexis and Auli, Michael},
 	year = {2021},
 	note = {arXiv: 2105.11084},
+}
+
+@article{hannun_differentiable_2020,
+	title = {Differentiable {Weighted} {Finite}-{State} {Transducers}},
+	journal = {arXiv:2010.01003},
+	author = {Hannun, Awni and Pratap, Vineel and Kahn, Jacob and Hsu, Wei-Ning},
+	year = {2020},
 }
