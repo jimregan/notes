@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>RnaG Podchraoltaí | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="RnaG Podchraoltaí" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="To re-create the dataset" />
+<meta property="og:description" content="To re-create the dataset" />
+<link rel="canonical" href="https://jimregan.github.io/notes/irish/kaggle/dataset/2021/08/01/rnag-podchraoltai.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/irish/kaggle/dataset/2021/08/01/rnag-podchraoltai.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-01T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/irish/kaggle/dataset/2021/08/01/rnag-podchraoltai.html","@type":"BlogPosting","headline":"RnaG Podchraoltaí","dateModified":"2021-08-01T00:00:00-05:00","datePublished":"2021-08-01T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/irish/kaggle/dataset/2021/08/01/rnag-podchraoltai.html"},"description":"To re-create the dataset","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">RnaG Podchraoltaí</h1><p class="page-description">To re-create the dataset</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-08-01T00:00:00-05:00" itemprop="datePublished">
+        Aug 1, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#dataset">dataset</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-08-01-rnag-podchraoltai.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-08-01-rnag-podchraoltai.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-08-01-rnag-podchraoltai.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-08-01-rnag-podchraoltai.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>curl https://www.rte.ie/radio/rnag/articles/eolas/2021/0712/1234521-podchraoltai/<span class="p">|</span>grep <span class="s1">&#39;il/Download&lt;/a&gt;&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;href=&quot;&#39;</span> <span class="s1">&#39;{print $2}&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;&quot;&#39;</span> <span class="s1">&#39;{print $1}&#39;</span><span class="p">|</span>sed -e <span class="s1">&#39;s/http:/https:/&#39;</span> &gt; urls
+<span class="o">!</span>cat urls <span class="p">|</span><span class="k">while</span> <span class="nb">read</span> i<span class="p">;</span><span class="k">do</span> wget <span class="k">$(</span>curl <span class="nv">$i</span><span class="p">|</span>grep <span class="s1">&#39;&lt;enclosure&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;url=&quot;&#39;</span> <span class="s1">&#39;{print $2}&#39;</span><span class="p">|</span>awk -F<span class="s1">&#39;&quot;&#39;</span> <span class="s1">&#39;{print $1}&#39;</span><span class="k">)</span><span class="p">;</span><span class="k">done</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-adhmhaidin_c21985558_21985605_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-nuachtnisi_c21985559_21985606_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-nuachtande_c21985560_21985607_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-nuachtantu_c21985561_21985608_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-nuachtania_c21985562_21985609_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-promhscalt_c21985563_21985610_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-promhscalt_c21985564_21985611_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-drcolmhenr_c21985565_21985612_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-tomssochin_c21985566_21985613_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-gearidnnic_c21985567_21985614_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-murtcualin_c21985568_21985615_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-sendebuitl_c21985569_21985616_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-anthonymol_c21985570_21985617_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-adhmhaidin-eoincathai_c21985571_21985618_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-adhmhaidin_c21985442_21985543_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-nuachtnisi_c21985443_21985544_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-nuachtande_c21985445_21985546_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-promhscalt_c21985447_21985548_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-antuairisc_c21985448_21985549_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-gearidnnic_c21985449_21985550_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-jimkeoghat_c21985450_21985551_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-gearidtuat_c21985451_21985552_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-eoincathai_c21985452_21985553_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-catherinec_c21985453_21985554_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-sencadhain_c21985454_21985555_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-crnanighal_c21985455_21985556_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-adhmhaidin-samuscosam_c21985456_21985557_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-adhmhaidin_c21984630_21984658_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-nuachtnisi_c21984631_21984659_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-nuachtantu_c21984632_21984660_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-nuachtania_c21984633_21984661_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-nuachtande_c21984634_21984662_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-promhscalt_c21984635_21984663_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-antuairisc_c21984636_21984664_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-gearidnnic_c21984637_21984665_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-eoincathin_c21984638_21984666_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-dithdemrdh_c21984639_21984667_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-drciarnfea_c21984640_21984668_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-aengussnod_c21984641_21984669_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-johnshamui_c21984642_21984670_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-adhmhaidin-johnconnol_c21984643_21984671_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-adhmhaidin_c21984065_21984079_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-nuachtnisi_c21984066_21984080_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-nuachtande_c21984067_21984081_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-nuachtantu_c21984068_21984082_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-nuachtania_c21984069_21984083_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-promhscalt_c21984070_21984084_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-antuairisc_c21984071_21984085_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-eoincathin_c21984072_21984086_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-pilnnchiar_c21984073_21984087_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-breandnmac_c21984074_21984088_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-rnndomhnai_c21984075_21984089_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-thomasotoo_c21984076_21984090_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-francesnic_c21984077_21984091_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-adhmhaidin-mirnuchidi_c21984078_21984092_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-adhmhaidin_c21983518_21983580_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-nuachtnisi_c21983519_21983581_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-nuachtania_c21983520_21983582_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-nuachtande_c21983521_21983583_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-nuachtantu_c21983522_21983584_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-promhscalt_c21983523_21983585_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-antuairisc_c21983524_21983586_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-eoghancorr_c21983525_21983587_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-anthonydoo_c21983526_21983588_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-jasonmongi_c21983527_21983589_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-cathalseoi_c21983528_21983590_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-johndownin_c21983529_21983591_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-slinenchat_c21983530_21983592_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-adhmhaidin-seosaimhcu_c21983531_21983593_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-adhmhaidin_c21982311_21982326_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-nuachtnisi_c21982312_21982327_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-nuachtantu_c21982313_21982328_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-nuachtania_c21982314_21982329_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-nuachtande_c21982315_21982330_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-promhscalt_c21982316_21982331_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-antuairisc_c21982317_21982332_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-drniallcle_c21982318_21982333_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-eoincathin_c21982319_21982334_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-pidbrowneo_c21982320_21982335_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-niallmurch_c21982321_21982336_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-pilnnchiar_c21982322_21982337_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-kevinohara_c21982323_21982338_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-aindriasmu_c21982324_21982339_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-adhmhaidin-niallmuill_c21982325_21982340_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-adhmhaidin_c21981849_21981901_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-nuachtnisi_c21981850_21981902_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-nuachtande_c21981851_21981903_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-nuachtantu_c21981852_21981904_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-nuachtania_c21981853_21981905_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-adhmhaidin-promhscalt_c21981854_21981906_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-ansaoldhea_c21988383_21988390_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-malachamac_c21988384_21988391_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-cathalfian_c21988385_21988392_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-jacquidesi_c21988386_21988393_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-gearidnnic_c21988387_21988394_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-michelmacg_c21988388_21988395_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-ansaolodheas-aoifenchob_c21988389_21988396_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-ansaoldhea_c21987459_21987473_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-michelglia_c21987460_21987474_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-edelnloibh_c21987461_21987475_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-padalypdra_c21987462_21987476_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-dnalliathi_c21987463_21987477_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-caitlnbrea_c21987464_21987478_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-ansaolodheas-crthachfao_c21987465_21987479_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-ansaoldhea_c21987011_21987017_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-gearidnnic_c21987012_21987018_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-peadarriad_c21987013_21987019_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-niallluasa_c21987014_21987020_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-aoifenghra_c21987015_21987021_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-ansaolodheas-gearidnnic_c21987016_21987022_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-ansaoldhea_c21986466_21986472_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-michelmuir_c21986467_21986473_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-michelcrod_c21986468_21986474_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-diarmaiddu_c21986469_21986475_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-mikeosheac_c21986470_21986476_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-ansaolodheas-valeriench_c21986471_21986477_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-ansaoldhea_c21985661_21985682_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-pdraigcear_c21985662_21985683_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-niamhndhri_c21985663_21985684_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-ritanbheag_c21985664_21985685_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-breandncob_c21985665_21985686_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-michelcrod_c21985666_21985687_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-ansaolodheas-aoifenchob_c21985667_21985688_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-ansaolodheas-ansaoldhea_c21985439_21985441_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-ansaoldhea_c21984759_21984765_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-johndownin_c21984760_21984766_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-nramarianm_c21984761_21984767_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-mirtnmacio_c21984762_21984768_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-samusciobh_c21984763_21984769_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-ansaolodheas-diarmuiddo_c21984764_21984770_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-ansaoldhea_c21984294_21984300_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-liamrchinl_c21984295_21984301_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-macdaramac_c21984296_21984302_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-donnchafia_c21984297_21984303_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-johngoduib_c21984298_21984304_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-ansaolodheas-pdraigcdri_c21984299_21984305_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-ansaolodheas-ansaoldhea_c21983702_21983707_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-ansaolodheas-michelmuir_c21983703_21983708_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-ansaolodheas-senceallai_c21983704_21983709_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-ansaolodheas-seghansuil_c21983705_21983710_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-ansaolodheas-miresebrea_c21983706_21983711_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-ansaolodheas-ansaoldhea_c21983345_21983346_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-ansaolodheas-ansaoldhea_c21982591_21982593_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-ansaoldhea_c21982052_21982073_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-senlionird_c21982053_21982074_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-slenchonai_c21982054_21982075_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-fredanicgi_c21982055_21982076_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-ruthnriada_c21982056_21982077_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-deirdrenic_c21982057_21982078_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-ansaolodheas-liambeagla_c21982058_21982079_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-ansaoldhea_c21981432_21981438_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-breandnmac_c21981433_21981439_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-samusdrisc_c21981434_21981440_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-mireniccra_c21981435_21981441_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-breandnbea_c21981436_21981442_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-ansaolodheas-michelceal_c21981437_21981443_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-ansaoldhea_c21980962_21980968_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-dithdemord_c21980963_21980969_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-padalytdbe_c21980964_21980970_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-andreapala_c21980965_21980971_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-mabhuainif_c21980966_21980972_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-ansaolodheas-michelcinn_c21980967_21980973_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-ansaolodhe_c21980827_21980839_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-deaglnragi_c21980828_21980840_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-aoifenchro_c21980829_21980841_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-ineuchuill_c21980830_21980842_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-amonnbraon_c21980831_21980843_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-ansaolodheas-oifenchobh_c21980832_21980844_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-ansaoldhea_c21979524_21979531_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-dnalgruagi_c21979525_21979532_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-angelaughr_c21979526_21979533_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-johnkenned_c21979527_21979534_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-sensilleab_c21979528_21979535_232_drm_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-ruthnriada_c21979529_21979536_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-ansaolodheas-drbreandnc_c21979530_21979537_232_drm_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0707/20210707_rteraidion-ansaolodheas-ansaoldhea_c21979272_21979273_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0706/20210706_rteraidion-ansaolodheas-ansaoldhea_c21978234_21978239_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0706/20210706_rteraidion-ansaolodheas-antathairc_c21978235_21978240_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0706/20210706_rteraidion-ansaolodheas-macdaramac_c21978236_21978241_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0706/20210706_rteraidion-ansaolodheas-sensuillea_c21978237_21978242_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-barrscalta_c21988305_21988432_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-inenbhreis_c21988306_21988433_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-nicolanbha_c21988307_21988434_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-marybnmhic_c21988308_21988435_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-ciarnrabha_c21988309_21988436_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-lorcnmirtn_c21988310_21988437_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-eimearngha_c21988311_21988438_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-barrscealta-maryaggiea_c21988312_21988439_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-barrscalta_c21987865_21987872_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-pilnnicgei_c21987866_21987873_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-andrteaghl_c21987867_21987874_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-michealdui_c21987868_21987875_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-conalldomh_c21987869_21987876_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-fearnaromh_c21987870_21987877_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-barrscealta-geneeoghai_c21987871_21987878_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-barrscalta_c21987378_21987385_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-inenbhreis_c21987379_21987386_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-michelhean_c21987380_21987387_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-aoifenicse_c21987381_21987388_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-taynanicga_c21987382_21987389_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-anradomhna_c21987383_21987390_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-barrscealta-antathaire_c21987384_21987391_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-barrscalta_c21986924_21986930_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-inenbhreis_c21986925_21986931_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-ancomhairl_c21986926_21986932_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-edwardmaol_c21986927_21986933_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-ansirsintj_c21986928_21986934_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-barrscealta-sylvesterm_c21986929_21986935_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-barrscalta_c21985619_21985696_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-francesnic_c21985620_21985697_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-caitlnnbhr_c21985621_21985698_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-deirdrenbh_c21985622_21985699_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-eoghanmacg_c21985623_21985700_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-gearidnnic_c21985624_21985701_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-slenfhearr_c21985625_21985702_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-barrscealta-maryaggiea_c21985626_21985703_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-barrscalta_c21985027_21985033_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-maighradua_c21985028_21985034_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-andrteaghl_c21985029_21985035_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-anteachtad_c21985030_21985036_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-cathalmacs_c21985031_21985037_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-barrscealta-fearnaromh_c21985032_21985038_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-barrscalta_c21984708_21984715_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-francesnic_c21984709_21984716_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-antathairb_c21984710_21984717_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-marjorienc_c21984711_21984718_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-siobhnocon_c21984712_21984719_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-annienmhio_c21984713_21984720_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-barrscealta-dianenchan_c21984714_21984721_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-pilnnicgid_c21984183_21984190_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-paddybrown_c21984184_21984191_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-ansirsintj_c21984185_21984192_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-willieghri_c21984186_21984193_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-rnndochart_c21984187_21984194_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-barrscealta-dnallceall_c21984188_21984195_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-barrscalta_c21983753_21983759_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-nascaltanu_c21983754_21983760_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-msdoogiedu_c21983755_21983761_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-turasireac_c21983756_21983762_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-sriantasli_c21983757_21983763_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-barrscealta-crsaspirtl_c21983758_21983764_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-barrscalta_c21982973_21982979_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-maighradua_c21982974_21982980_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-eilsndhoch_c21982975_21982981_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-antdarsenc_c21982976_21982982_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-maryaggiea_c21982977_21982983_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-barrscealta-charliever_c21982978_21982984_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-barrscalta_c21982443_21982450_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-pilnnicgid_c21982444_21982451_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-andrteaghl_c21982445_21982452_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-anteachtad_c21982446_21982453_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-caoimhnbao_c21982447_21982454_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-ancomhairl_c21982448_21982455_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-barrscealta-ciaranstii_c21982449_21982456_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-barrscealta-scaltanuac_c21980995_21981010_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-barrscealta-mrturasire_c21980996_21981011_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-barrscealta-kayleighnm_c21980997_21981012_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-barrscealta-antathairm_c21980998_21981013_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-barrscealta-nacluichga_c21980999_21981014_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-barrscalta_c21980223_21980230_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-pilnnicgid_c21980224_21980231_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-dnallcnimh_c21980225_21980232_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-conorgallc_c21980226_21980233_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-patriciada_c21980227_21980234_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-dannydomhn_c21980228_21980235_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-barrscealta-maryaggiea_c21980229_21980236_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-barrscealta-barrscalta_c21979436_21979442_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-barrscealta-francesnic_c21979437_21979443_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-barrscealta-annabeanug_c21979438_21979444_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0708/20210708_rteraidion-barrscealta-andrteaghl_c21979439_21979445_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0604/20210604_rteraidion-bladhairernag-igecilleac_c21963252_21963259_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0604/20210604_rteraidion-bladhairernag-jessiesmit_c21963253_21963260_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0604/20210604_rteraidion-bladhairernag-ancraoltir_c21963256_21963263_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0604/20210604_rteraidion-bladhairernag-johnfearra_c21963257_21963264_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0604/20210604_rteraidion-bladhairernag-michaelcur_c21963316_21963324_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0603/20210603_rteraidion-bladhairernag-filenageal_c21962703_21963068_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0603/20210603_rteraidion-bladhairernag-jamiesugru_c21962705_21963070_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0603/20210603_rteraidion-bladhairernag-eimearmcgo_c21962706_21963071_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0603/20210603_rteraidion-bladhairernag-marcusmacc_c21962707_21963072_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0528/20210528_rteraidion-bladhairernag-nadescalta_c21959922_21959928_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0528/20210528_rteraidion-bladhairernag-leahndhoch_c21959924_21959930_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0528/20210528_rteraidion-bladhairernag-conorbrumm_c21959925_21959931_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0528/20210528_rteraidion-bladhairernag-conormaccr_c21959926_21959932_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0527/20210527_rteraidion-bladhairernag-susancolem_c21959338_21959344_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0527/20210527_rteraidion-bladhairernag-ilsndhuibh_c21959339_21959345_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0527/20210527_rteraidion-bladhairernag-deirdrench_c21959340_21959346_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0527/20210527_rteraidion-bladhairernag-namonaghan_c21959341_21959347_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0527/20210527_rteraidion-bladhairernag-diarmuidma_c21959342_21959348_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0521/20210521_rteraidion-bladhairernag-nadescalta_c21956962_21957052_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0521/20210521_rteraidion-bladhairernag-clarenchea_c21956964_21957054_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0521/20210521_rteraidion-bladhairernag-pamelapren_c21956965_21957055_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0521/20210521_rteraidion-bladhairernag-gaeltharsi_c21956966_21957056_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-lisanicanb_c21956281_21956288_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-comrtasnag_c21956282_21956289_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-taiscevint_c21956283_21956290_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-richieconr_c21956284_21956291_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-tessaflemi_c21956285_21956292_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0520/20210520_rteraidion-bladhairernag-rosienghai_c21956286_21956293_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-bladhairec_c21954020_21954027_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-nadescalta_c21954021_21954028_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-ceolbeobil_c21954022_21954029_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-edelnbhrao_c21954023_21954030_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-pdraigcong_c21954024_21954031_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-mrteilifse_c21954025_21954032_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0514/20210514_rteraidion-bladhairernag-claresands_c21954026_21954033_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-bladhairec_c21953402_21953408_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-filenascco_c21953403_21953409_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-aoisachath_c21953404_21953410_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-claramurra_c21953405_21953411_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-franktorma_c21953406_21953412_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0513/20210513_rteraidion-bladhairernag-gearidcobh_c21953407_21953413_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-bladhairec_c21950931_21951100_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-nadescalta_c21950932_21951101_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-aoisachath_c21950933_21951102_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-mrceoilemm_c21950934_21951103_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-cultrlannm_c21950935_21951104_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0507/20210507_rteraidion-bladhairernag-comhdhilna_c21950936_21951105_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-bladhairec_c21950342_21950351_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-deirdrendh_c21950343_21950352_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-comrtasnab_c21950344_21950353_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-branmacglo_c21950345_21950354_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-ceolbeomar_c21950346_21950355_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-buachailln_c21950347_21950356_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-ceolbeomar_c21950348_21950357_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-pdraigjack_c21950349_21950358_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0506/20210506_rteraidion-bladhairernag-ceolbeocat_c21950350_21950359_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-bladhairec_c21948145_21948153_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-nadescalta_c21948146_21948154_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-jonnydillo_c21948147_21948155_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-diarmuidma_c21948148_21948156_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-geariddris_c21948149_21948157_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-paddyglack_c21948150_21948158_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-cianmaonla_c21948151_21948159_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0430/20210430_rteraidion-bladhairernag-aonachmhac_c21948152_21948160_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-bladhairec_c21947633_21947911_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-seoirsnnmh_c21947634_21947912_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-aoisachath_c21947635_21947913_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-darraghcao_c21947636_21947914_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-brdnfoxant_c21947637_21947915_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-muireannni_c21947638_21947916_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0429/20210429_rteraidion-bladhairernag-nascoilnas_c21947639_21947917_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-bladhairec_c21943846_21943852_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-hughmacgio_c21943847_21943853_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-helendiamo_c21943848_21943854_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-eoinmuirch_c21943849_21943855_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-ruthnicaoi_c21943850_21943856_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0423/20210423_rteraidion-bladhairernag-risnagusei_c21943851_21943857_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-bladhairec_c21943159_21943166_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-mollyheste_c21943160_21943167_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-garrymacdo_c21943161_21943168_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-culchaintl_c21943162_21943169_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-ciaraoconn_c21943163_21943170_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-gaeltharsi_c21943164_21943171_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0422/20210422_rteraidion-bladhairernag-andrcillia_c21943165_21943172_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-bladhairec_c21940555_21940562_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-juliejayna_c21940556_21940563_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-aoisachath_c21940557_21940564_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-bhalnamban_c21940558_21940565_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-paulinesca_c21940559_21940566_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0416/20210416_rteraidion-bladhairernag-gaeltharsi_c21940560_21940567_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0725/20210725_rteraidion-cartlannbhothar-citpheatsa_c21986304_21986305_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0718/20210718_rteraidion-cartlannbhothar-katepheats_c21984168_21984169_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0711/20210711_rteraidion-cartlannbhothar-mirencheoc_c21981051_21981052_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0627/20210627_rteraidion-cartlannbhothar-cartlannbh_c21974782_21974852_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0620/20210620_rteraidion-cartlannbhothar-cartlannbh_c21971339_21972928_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0620/20210620_rteraidion-cartlannbhothar-samuspound_c21971340_21972929_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0620/20210620_rteraidion-cartlannbhothar-muirisgogc_c21971341_21972930_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0620/20210620_rteraidion-cartlannbhothar-seanchasan_c21971342_21972931_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0613/20210613_rteraidion-cartlannbhothar-cartlannbh_c21967487_21967522_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0606/20210606_rteraidion-cartlannbhothar-leabharanp_c21965134_21965135_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0530/20210530_rteraidion-cartlannbhothar-clriomln30_c21961256_21961259_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0530/20210530_rteraidion-cartlannbhothar-nracitinna_c21961257_21961260_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0530/20210530_rteraidion-cartlannbhothar-nrauchoiti_c21961258_21961261_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0523/20210523_rteraidion-cartlannbhothar-cartlannbh_c21957611_21957615_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0523/20210523_rteraidion-cartlannbhothar-tadhgdrisc_c21957612_21957616_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0523/20210523_rteraidion-cartlannbhothar-michelmaol_c21957613_21957617_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0523/20210523_rteraidion-cartlannbhothar-annradeblc_c21957614_21957618_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0516/20210516_rteraidion-cartlannbhothar-cartlannbh_c21954551_21954552_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0509/20210509_rteraidion-cartlannbhothar-cartlannbh_c21951494_21951647_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0425/20210425_rteraidion-cartlannbhothar-cartlannbh_c21945215_21945216_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0418/20210418_rteraidion-cartlannbhothar-clriomln18_c21941195_21941196_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0404/20210404_rteraidion-cartlannbhothar-cartlannbh_c21934559_21934560_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0321/20210321_rteraidion-cartlannbhothar-cartlannbh_c21927145_21927146_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0314/20210314_rteraidion-cartlannbhothar-cartlannbh_c21924362_21924363_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0221/20210221_rteraidion-cartlannbhothar-cartlannbh_c21913398_21913399_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0207/20210207_rteraidion-cartlannbhothar-cartlannbh_c21907422_21907423_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0117/20210117_rteraidion-cartlannbhothar-cuasabhoda_c21894664_21894665_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1230/20201230_rteraidion-cartlannbhothar-cartlannbh_c21888929_21888933_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1230/20201230_rteraidion-cartlannbhothar-tommhicgro_c21888930_21888934_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1230/20201230_rteraidion-cartlannbhothar-siobhngrom_c21888931_21888935_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1230/20201230_rteraidion-cartlannbhothar-peigsayers_c21888932_21888936_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1220/20201220_rteraidion-cartlannbhothar-cartlannbh_c21886239_21886240_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1025/20201025_rteraidion-cartlannbhothar-clriomln25_c21856360_21856365_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1025/20201025_rteraidion-cartlannbhothar-dnallliath_c21856361_21856366_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1025/20201025_rteraidion-cartlannbhothar-plarluacha_c21856362_21856367_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1025/20201025_rteraidion-cartlannbhothar-simcionnfh_c21856363_21856368_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1025/20201025_rteraidion-cartlannbhothar-sendehra_c21856364_21856369_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1018/20201018_rteraidion-cartlannbhothar-cartlannbh_c21854576_21854577_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/1011/20201011_rteraidion-cartlannbhothar-cartlannbh_c21849866_21849867_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/0927/20200927_rteraidion-cartlannbhothar-cartlannbh_c21842121_21842122_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/0920/20200920_rteraidion-cartlannbhothar-cartlannbh_c21837633_21837637_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/0920/20200920_rteraidion-cartlannbhothar-cearnaigha_c21837634_21837638_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/0920/20200920_rteraidion-cartlannbhothar-mirenshcai_c21837635_21837639_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2020/0920/20200920_rteraidion-cartlannbhothar-donnchasha_c21837636_21837640_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-irisaniar-irisaniard_c21988256_21988263_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-irisaniar-andrneasan_c21988260_21988264_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-irisaniar-michaelfra_c21988261_21988265_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0730/20210730_rteraidion-irisaniar-senbnbreat_c21988262_21988266_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-irisaniard_c21987809_21987816_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-caomhnmacc_c21987811_21987817_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-deborahugh_c21987812_21987818_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-barrafthar_c21987813_21987819_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-pidtombnbr_c21987814_21987820_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-irisaniar-senbnbreat_c21987815_21987821_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-irisaniard_c21987335_21987342_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-mirnurinne_c21987336_21987343_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-angardabib_c21987337_21987344_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-bernienche_c21987338_21987345_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-senbnbreat_c21987339_21987346_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-irisaniar-aifrickeog_c21987341_21987347_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-irisaniar-tomsmaccon_c21986984_21986993_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-irisaniar-senbnbreat_c21986985_21986994_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-irisaniar-jimkeoghat_c21986327_21986332_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-irisaniar-breanndnbe_c21986328_21986333_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-irisaniar-chloenmhil_c21986329_21986334_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-irisaniar-senbnbreat_c21986330_21986335_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-irisaniar-irisaniard_c21984136_21984146_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-irisaniar-michelsmac_c21984137_21984147_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-irisaniar-desmondfen_c21984141_21984148_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-irisaniar-maryseoigh_c21984145_21984149_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-irisaniar-antollamhc_c21982413_21982417_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-irisaniar-michelsmac_c21982414_21982418_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-irisaniar-siobhnngha_c21982415_21982419_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-irisaniar-angardamic_c21982416_21982420_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-irisaniar-antiriseoi_c21981925_21981928_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-irisaniar-tomsruairc_c21981926_21981929_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-irisaniar-jenniferni_c21981927_21981930_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-irisaniar-endacongha_c21981362_21981365_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-irisaniar-bredanmhui_c21981363_21981366_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-irisaniar-bairbrenic_c21981364_21981367_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-irisaniar-geariddevn_c21980815_21980818_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-irisaniar-ritagibbon_c21980816_21980819_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-irisaniar-donnchamac_c21980817_21980820_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0702/20210702_rteraidion-irisaniar-irisaniard_c21976845_21976851_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0702/20210702_rteraidion-irisaniar-mairadfarr_c21976846_21976852_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0702/20210702_rteraidion-irisaniar-franorourk_c21976847_21976853_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0702/20210702_rteraidion-irisaniar-deirdrendh_c21976850_21976854_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0701/20210701_rteraidion-irisaniar-irisaniard_c21976185_21976215_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0701/20210701_rteraidion-irisaniar-deirdrensh_c21976211_21976216_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0701/20210701_rteraidion-irisaniar-pdraigmacd_c21976212_21976217_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0701/20210701_rteraidion-irisaniar-darachtuai_c21976213_21976218_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0701/20210701_rteraidion-irisaniar-muireannnd_c21976214_21976219_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0630/20210630_rteraidion-irisaniar-irisaniard_c21975584_21975593_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0630/20210630_rteraidion-irisaniar-breandnseo_c21975587_21975594_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0630/20210630_rteraidion-irisaniar-angardasti_c21975591_21975595_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0630/20210630_rteraidion-irisaniar-bridgebark_c21975592_21975596_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0625/20210625_rteraidion-irisaniar-antathairp_c21974114_21974115_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0623/20210623_rteraidion-irisaniar-pdraigloid_c21973019_21973024_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0623/20210623_rteraidion-irisaniar-colmanragh_c21973020_21973025_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0623/20210623_rteraidion-irisaniar-mairadmacc_c21973021_21973026_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0623/20210623_rteraidion-irisaniar-louisendhi_c21973022_21973027_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0623/20210623_rteraidion-irisaniar-annemarieu_c21973023_21973028_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-irisaniar-cilnneacht_c21972408_21972413_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-irisaniar-johnconnol_c21972409_21972414_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-irisaniar-ruairnillb_c21972410_21972415_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-irisaniar-inenfhgart_c21972411_21972416_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-irisaniar-samusrchin_c21972412_21972417_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0618/20210618_rteraidion-irisaniar-colmcuaiga_c21969857_21969862_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0618/20210618_rteraidion-irisaniar-brianstaun_c21969858_21969863_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0618/20210618_rteraidion-irisaniar-mirtncathi_c21969859_21969864_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0618/20210618_rteraidion-irisaniar-frankfahyc_c21969860_21969865_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0617/20210617_rteraidion-irisaniar-johnbhabaj_c21969299_21969318_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0617/20210617_rteraidion-irisaniar-fergusmacs_c21969300_21969319_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0617/20210617_rteraidion-irisaniar-donnchahal_c21969301_21969320_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0617/20210617_rteraidion-irisaniar-aislingnic_c21969302_21969321_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0616/20210616_rteraidion-irisaniar-mireumhaol_c21968788_21968792_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0616/20210616_rteraidion-irisaniar-orladebrca_c21968789_21968793_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0616/20210616_rteraidion-irisaniar-angardasal_c21968790_21968794_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0615/20210615_rteraidion-irisaniar-daramaoild_c21968302_21968307_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0615/20210615_rteraidion-irisaniar-emernrogin_c21968303_21968308_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0615/20210615_rteraidion-irisaniar-mirenneach_c21968304_21968309_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0615/20210615_rteraidion-irisaniar-edelnchurr_c21968305_21968310_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0614/20210614_rteraidion-irisaniar-samusbreat_c21967529_21967533_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0614/20210614_rteraidion-irisaniar-daramcgees_c21967530_21967534_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0611/20210611_rteraidion-irisaniar-aoifepower_c21966698_21966703_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0611/20210611_rteraidion-irisaniar-barryfthar_c21966699_21966704_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0611/20210611_rteraidion-irisaniar-lasairfhon_c21966700_21966705_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0611/20210611_rteraidion-irisaniar-andrsiobhn_c21966701_21966706_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0611/20210611_rteraidion-irisaniar-martndonnc_c21966702_21966707_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0610/20210610_rteraidion-irisaniar-inenchiari_c21966108_21966111_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0610/20210610_rteraidion-irisaniar-senhanaigh_c21966109_21966112_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0610/20210610_rteraidion-irisaniar-gearidcrib_c21966110_21966113_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0608/20210608_rteraidion-irisaniar-mireineuai_c21964956_21964960_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0608/20210608_rteraidion-irisaniar-cilliandon_c21964957_21964961_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsite29721_c21988022_21988036_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsitetuara_c21988023_21988037_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsitepolai_c21988024_21988038_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsiterbuai_c21988025_21988039_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsitecscir_c21988026_21988040_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsitemrnal_c21988027_21988041_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0729/20210729_rteraidion-tusaite-tsitemrnan_c21988028_21988042_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsite28721_c21987525_21987533_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsitenasco_c21987526_21987534_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsitepolai_c21987527_21987535_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsiteceapa_c21987528_21987536_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsitegarch_c21987529_21987537_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsitejoeca_c21987530_21987538_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsiteansca_c21987531_21987539_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0728/20210728_rteraidion-tusaite-tsitemrnam_c21987532_21987540_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-tusaite-tsite27721_c21987049_21987054_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-tusaite-tsitepolai_c21987050_21987055_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-tusaite-tsitevacsa_c21987051_21987056_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-tusaite-tsitecosdo_c21987052_21987057_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0727/20210727_rteraidion-tusaite-tsiteanpai_c21987053_21987058_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-tusaite-tsite26721_c21986532_21986536_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-tusaite-tsiteathos_c21986533_21986537_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-tusaite-tsitevacsa_c21986534_21986538_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0726/20210726_rteraidion-tusaite-tsitebagai_c21986535_21986539_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsite23721_c21985898_21985905_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitepolai_c21985899_21985906_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitetreoi_c21985900_21985907_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitefiosr_c21985901_21985908_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitesilsi_c21985902_21985909_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitescalt_c21985903_21985910_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0723/20210723_rteraidion-tusaite-tsitecrsas_c21985904_21985911_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsite22721_c21985214_21985221_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsitepolai_c21985215_21985222_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsitedeacr_c21985216_21985223_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsitenuach_c21985217_21985224_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsitecluic_c21985218_21985225_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsiteleasu_c21985219_21985226_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0722/20210722_rteraidion-tusaite-tsitemrnan_c21985220_21985227_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsite21721_c21984807_21984814_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsitepolai_c21984808_21984815_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsitebsdes_c21984809_21984816_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsiteathos_c21984810_21984817_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsiteleasu_c21984811_21984818_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsitemrnam_c21984812_21984819_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0721/20210721_rteraidion-tusaite-tsitemrnal_c21984813_21984820_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsite20721_c21984357_21984363_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsitedeaai_c21984358_21984364_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsitepolai_c21984359_21984365_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsitereach_c21984360_21984366_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsiteancoi_c21984361_21984367_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0720/20210720_rteraidion-tusaite-tsiteanpai_c21984362_21984368_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-tusaite-tsite19721_c21983790_21983795_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-tusaite-tsitemaols_c21983791_21983796_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-tusaite-tsitedeire_c21983792_21983797_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-tusaite-tsiteeasao_c21983793_21983798_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0719/20210719_rteraidion-tusaite-tsitebsdea_c21983794_21983799_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsite16721_c21983160_21983166_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsitepolai_c21983161_21983167_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsiteceart_c21983162_21983168_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsitesilsi_c21983163_21983169_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsitescalt_c21983164_21983170_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0716/20210716_rteraidion-tusaite-tsitecrsas_c21983165_21983171_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsite15721_c21982632_21982639_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitepolai_c21982633_21982640_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitelonna_c21982634_21982641_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitedroch_c21982635_21982642_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitemrnal_c21982636_21982643_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitemrnan_c21982637_21982644_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0715/20210715_rteraidion-tusaite-tsitedeaai_c21982638_21982645_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsite14721_c21982121_21982127_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsitepolai_c21982122_21982128_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsiteconco_c21982123_21982129_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsitereach_c21982124_21982130_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsitetarma_c21982125_21982131_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0714/20210714_rteraidion-tusaite-tsitemrnam_c21982126_21982132_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsite13721_c21981552_21981558_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsitepolai_c21981553_21981559_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsiteathos_c21981554_21981560_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsitebreat_c21981555_21981561_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsitesaigh_c21981556_21981562_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0713/20210713_rteraidion-tusaite-tsiteanpai_c21981557_21981563_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-tusaite-tsite12721_c21981073_21981093_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-tusaite-tsiteathos_c21981074_21981094_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-tusaite-tsitestdas_c21981075_21981095_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-tusaite-tsiteandar_c21981076_21981096_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-tusaite-tsitenaeur_c21981077_21981097_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-tusaite-tsite9721_c21980451_21980457_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-tusaite-tsitefotho_c21980452_21980458_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-tusaite-tsitepolai_c21980453_21980459_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0709/20210709_rteraidion-tusaite-tsitesilsi_c21980454_21980460_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0706/20210706_rteraidion-ancheadghluineile-clr3tinnch_c21978343_21978617_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0629/20210629_rteraidion-ancheadghluineile-clr2aedrae_c21977827_21977828_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0622/20210622_rteraidion-ancheadghluineile-clr1evelyn_c21973179_21975128_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-aistionaer-antidsceas_c21985799_21985809_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-aistionaer-oilithreac_c21985800_21985810_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-aistionaer-seandaoine_c21985801_21985811_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-aistionaer-mchmagusla_c21985802_21985812_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0712/20210712_rteraidion-aistionaer-seanlitrea_c21985803_21985813_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0724/20210724_rteraidion-bailiuchanbhairbre-bailichnbh_c21986295_21986296_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0717/20210717_rteraidion-bailiuchanbhairbre-clr6cuairt_c21984170_21984171_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0710/20210710_rteraidion-bailiuchanbhairbre-clr5btharg_c21981049_21981050_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0703/20210703_rteraidion-bailiuchanbhairbre-clr4anscoi_c21977529_21977530_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0626/20210626_rteraidion-bailiuchanbhairbre-bailichnbh_c21974765_21975131_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0619/20210619_rteraidion-bailiuchanbhairbre-bailichnbh_c21971319_21975130_232_.mp3
+https://podcast.rasset.ie/podcasts/audio/2021/0612/20210612_rteraidion-bailiuchanbhairbre-bailichnbh_c21967481_21975129_232_.mp3</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/irish/kaggle/dataset/2021/08/01/rnag-podchraoltai.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
