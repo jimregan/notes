@@ -58,12 +58,9 @@ _SCRAPES = ["20191117", "20210810"]
 class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
-    features: Optional[datasets.Features] = None
-
-    @property
-    def schema(self):
-        return pa.schema(self.features.type) if self.features is not None else None
-
+    def __init__(self, **kwargs):
+        self.cc_cache = kwargs.pop("cc_cache", None)
+        super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     """Corpus Crawler crawled text dataset."""
