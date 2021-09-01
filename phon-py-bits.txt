@@ -1,0 +1,12 @@
+
+dir = Path('pmg_ga_co/RCPiarsachALL/')
+def get_dirs(path):
+    for d in ['xml', 'lab', 'textproc_xml']:
+        labels = path / d
+        if labels.is_dir():
+            break
+    for w in ['wav_trimmed', 'wav44_trimmed', 'wav16_trimmed', 'wav_trimmed', 'wav', 'ogg']:
+        audio = path / w
+        if labels.is_dir():
+            break
+    return labels, audio
