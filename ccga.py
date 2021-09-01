@@ -103,9 +103,9 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
                 })
         ]
 
-    def _generate_examples(self, scrape_set, cc_cache):
+    def _generate_examples(self):
         """Generate examples from a Corpus Crawl cache."""
-        links = _get_links(scrape_set)
+        links = _get_links(self.config.scrape_set)
 
         _id = 1
         for link in links:
