@@ -35,6 +35,9 @@ from html.entities import name2codepoint
 from email import message_from_string as Message
 from urllib.parse import urlparse
 from pathlib import Path
+from typing import Optional
+
+import pyarrow as pa
 
 import datasets
 
@@ -55,16 +58,11 @@ _SCRAPES = ["20191117", "20210810"]
 class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
-    def __init__(self, **kwargs):
-        """
-        Args:
-          data_dir: `string`, the path to the folder containing the files in the
-            downloaded .tar
-          citation: `string`, citation for the data set
-          url: `string`, url for information about the data set
-          **kwargs: keyword arguments forwarded to super.
-        """
-        super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
+    features: Optional[datasets.Features] = None
+
+    @property
+    def schema(self):
+        return pa.schema(self.features.type) if self.features is not None else None
 
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
