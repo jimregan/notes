@@ -96,7 +96,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "corpus_crawler_cache": cc_cache
+                    "cc_cache": cc_cache
                 })
         ]
 
