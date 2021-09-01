@@ -90,20 +90,21 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
+        if not self.config.cc_cache:
+            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
+        cc_cache = self.config.cc_cache
+
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "filename": "tmp"
+                    "corpus_crawler_cache": cc_cache
                 })
         ]
 
-    def _generate_examples(self, archive_path, audio_path):
+    def _generate_examples(self, filename):
         """Generate examples from a Corpus Crawl cache."""
-        if not self.config.cc_cache:
-            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
-
-        links = _get_links(self.config.name)
+        links = _get_links(filename)
 
         _id = 1
         for link in links:
