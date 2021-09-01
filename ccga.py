@@ -59,6 +59,7 @@ class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
     def __init__(self, **kwargs):
+        self.scrape_set = kwargs.pop("scrape_set", None)
         self.cc_cache = kwargs.pop("cc_cache", None)
         super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
 
@@ -89,17 +90,22 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
             raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
         cc_cache = self.config.cc_cache
 
+        if not self.config.scrape_set:
+            raise ValueError(f"Scrape set must be specified, but got scrape_set={self.config.scrape_set}")
+        scrape_set = self.config.scrape_set
+
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
+                    "scrape_set": scrape_set,
                     "cc_cache": cc_cache
                 })
         ]
 
-    def _generate_examples(self, filename):
+    def _generate_examples(self, scrape_set, cc_cache):
         """Generate examples from a Corpus Crawl cache."""
-        links = _get_links(filename)
+        links = _get_links(scrape_set)
 
         _id = 1
         for link in links:
