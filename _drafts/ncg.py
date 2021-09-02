@@ -98,9 +98,9 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
 
         cng_path = Path(data_dir)
 
+        _id = 1
         for dir in dirs:
             dir_path = cng_path / dir
-            _id = 1
             for filepath in dir_path.glob('*.SGM'):
                 with open(filepath, encoding="utf-16-le") as f:
                     fid = filepath.stem
