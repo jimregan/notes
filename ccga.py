@@ -114,7 +114,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
 
         _id = 1
         for link in links:
-            res = self._fetch_page(link)
+            res = self._fetch_page(link, data_dir)
             for para in res['text']:
                 example = {
                     "genre": res['genre'],
@@ -127,7 +127,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
                 yield _id, example
                 _id += 1
     
-    def _fetch_page(self, url):
+    def _fetch_page(self, url, data_dir):
         _EXTRATORS = {
             'www.unicode.org': do_udhr,
             'tuairisc.ie': do_tuairisc_ie,
@@ -155,7 +155,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         host = parsed_url.netloc
         extract = _EXTRATORS.get(host)
         if extract:
-            fr = fetch(self.config.data_dir, url)
+            fr = fetch(data_dir, url)
             return extract(fr)
 
 
