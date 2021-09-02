@@ -35,6 +35,9 @@ from html.entities import name2codepoint
 from email import message_from_string as Message
 from urllib.parse import urlparse
 from pathlib import Path
+from typing import Optional
+
+import pyarrow as pa
 
 import datasets
 
@@ -46,33 +49,26 @@ Uses a list of URLs, collected by the crawler, to
 retrieve the files from the crawler's cache.
 """
 
-_SCRIPTDIR = os.path.dirname(os.path.abspath(__file__))
-
 #_SCRAPES = ["20180911", "20191117", "20210810"]
 _SCRAPES = ["20191117", "20210810"]
+
+
+logger = datasets.utils.logging.get_logger(__name__)
+_DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
 
 
 class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
     def __init__(self, **kwargs):
-        """
-        Args:
-          data_dir: `string`, the path to the folder containing the files in the
-            downloaded .tar
-          citation: `string`, citation for the data set
-          url: `string`, url for information about the data set
-          **kwargs: keyword arguments forwarded to super.
-        """
         super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
-
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     """Corpus Crawler crawled text dataset."""
 
     BUILDER_CONFIGS = [
         CorpusCrawlerIrishConfig(name=scrape) for scrape in _SCRAPES
-    ] + [CorpusCrawlerIrishConfig(name="ALL")]
+    ]
 
     def _info(self):
         return datasets.DatasetInfo(
@@ -90,37 +86,51 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
+        if not self.config.data_dir:
+            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got data_dir={self.config.data_dir}")
+        cc_cache = self.config.data_dir
+
+        if not self.config.name:
+            raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
+        scrape_set = self.config.name
+        dl_path = dl_manager.download(_DATA_URL.format(self.config.name))
+
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "filename": "tmp"
+                    "name": scrape_set,
+                    "data_dir": cc_cache,
+                    "data_file": dl_path,
                 })
         ]
 
-    def _generate_examples(self, archive_path, audio_path):
+    def _generate_examples(self, name, data_dir, data_file):
         """Generate examples from a Corpus Crawl cache."""
-        if not self.config.cc_cache:
-            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
-
-        links = _get_links(self.config.name)
+        logger.info("generating examples from = %s", name)
+        links = _get_links(data_file)
+        if not self.config.data_dir:
+            self.config.data_dir = data_dir
+        dd_path = Path(data_dir)
+        if not dd_path.is_dir():
+            raise Exception('No directory: ' + data_dir)
 
         _id = 1
         for link in links:
-            res = self._fetch_page(link)
+            res = self._fetch_page(link, data_dir)
             for para in res['text']:
                 example = {
-                    "genre": res['genre'],
-                    "url": res['url'],
-                    "publication_date": res['publication-date'],
-                    "video_url": res['video'],
-                    "title": res['title'],
+                    "genre": res.get('genre', ''),
+                    "url": res['location'],
+                    "publication_date": res.get('publication-date', ''),
+                    "video_url": res.get('video', ''),
+                    "title": res.get('title', ''),
                     "text": para
                 }
                 yield _id, example
                 _id += 1
     
-    def _fetch_page(self, url):
+    def _fetch_page(self, url, data_dir):
         _EXTRATORS = {
             'www.unicode.org': do_udhr,
             'tuairisc.ie': do_tuairisc_ie,
@@ -148,7 +158,9 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         host = parsed_url.netloc
         extract = _EXTRATORS.get(host)
         if extract:
-            fr = fetch(self.cc_cache, url)
+            fr = fetch(data_dir, url)
+            if fr is None:
+                raise Exception("Failed to fetch " + url + " from " + data_dir)
             return extract(fr)
 
 
@@ -204,6 +216,7 @@ FetchResult = collections.namedtuple('FetchResult',
 
 
 def fetch(cache_dir, url):
+    logger.info("fetching url %s from cache %s", url, cache_dir)
     try:
         digest = hashlib.sha256(url.encode('utf-8')).digest()
         filepath = os.path.join(cache_dir,
@@ -213,9 +226,18 @@ def fetch(cache_dir, url):
         filepath = os.path.join(cache_dir,
             "f" + base64.urlsafe_b64encode(digest))
 
+    fp = Path(filepath)
+    if not fp.is_file():
+        raise Exception("No such file: " + fp)
+
     try:
         with open(filepath, 'r', encoding='utf-8-sig', newline='') as f:
-            cached = f.read().split('\r\n\r\n\r\n', 1)
+            file_content = f.read()
+            if '\r\n\r\n\r\n' in file_content:
+                splitter = '\r\n\r\n\r\n'
+            else:
+                splitter = '\n\n\n'
+            cached = file_content.split(splitter, 1)
         if len(cached) == 2:
             headers, content = cached
             try:
@@ -226,8 +248,7 @@ def fetch(cache_dir, url):
             headers = Message(headers)
             return FetchResult(headers, content, url, filepath)
     except IOError:
-        pass
-
+        raise Exception("fetch() failed")
 
 def do_udhr(fetchresult):
     out = {}
@@ -354,7 +375,7 @@ def do_meoneile_ie(fetchresult):
     body = extract("<div class='article-content'>", '</article>', html) or ''
     byline = extract("<div class='byline'>", '</span>', html) or ''
     byline = _byline_to_pubdate(byline)
-    if body.find('<strong>%s</strong>' % title) >= 0:
+    if title:
         out['title'] = title
     paras = clean_paragraphs(body)
     if paras:
@@ -591,16 +612,8 @@ def do_forasnagaeilge_ie(fetchresult):
 
 
 def _get_links(scrape):
-    if scrape == 'ALL':
-        inp = _SCRAPES
-    else:
-        inp = [scrape]
-
     links = set()
-    dir = Path(_SCRIPTDIR)
-    for scrapename in inp:
-        filename = dir / f"crawled-{scrapename}.txt"
-        with open(filename) as f:
-            for url in f.readlines():
-                links.add(url.rstring())
+    with open(scrape) as f:
+        for url in f.readlines():
+            links.add(url.rstrip())
     return list(links)
