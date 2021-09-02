@@ -121,7 +121,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
             for para in res['text']:
                 example = {
                     "genre": res['genre'],
-                    "url": res['url'],
+                    "url": res['location'],
                     "publication_date": res['publication-date'],
                     "video_url": res['video'],
                     "title": res['title'],
@@ -249,8 +249,6 @@ def fetch(cache_dir, url):
             return FetchResult(headers, content, url, filepath)
     except IOError:
         raise Exception("fetch() failed")
-
-    raise Exception("Shouldn't get here")
 
 def do_udhr(fetchresult):
     out = {}
