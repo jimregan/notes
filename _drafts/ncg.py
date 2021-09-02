@@ -116,7 +116,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                             tags = [tok["msd"] for tok in sent]
                             yield fid, {
                                 "title": title,
-                                "docid": fid,
+                                "doc_id": fid,
                                 "author": author,
                                 "date": date,
                                 "classes": classes,
@@ -131,7 +131,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                         for para in text:
                             yield fid, {
                                 "title": title,
-                                "docid": fid,
+                                "doc_id": fid,
                                 "author": author,
                                 "date": date,
                                 "classes": classes,
