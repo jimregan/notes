@@ -65,8 +65,8 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     """Corpus Crawler crawled text dataset."""
 
     BUILDER_CONFIGS = [
-        CorpusCrawlerIrishConfig(name=scrape) for scrape in _SCRAPES
-    ] + [CorpusCrawlerIrishConfig(name="ALL")]
+        CorpusCrawlerIrishConfig(scrape_set=scrape) for scrape in _SCRAPES
+    ]
 
     def _info(self):
         return datasets.DatasetInfo(
