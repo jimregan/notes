@@ -38,6 +38,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
             features = datasets.Features(
                 {
                     "title": datasets.Value("string"),
+                    "doc_id": datasets.Value("string"),
                     "author": datasets.Value("string"),
                     "date": datasets.Value("string"),
                     "text": datasets.Value("string"),
@@ -48,6 +49,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
             features = datasets.Features(
                 {
                     "title": datasets.Value("string"),
+                    "doc_id": datasets.Value("string"),
                     "author": datasets.Value("string"),
                     "date": datasets.Value("string"),
                     "classes": datasets.Sequence(datasets.Value("string")),
@@ -98,6 +100,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
 
         for dir in dirs:
             dir_path = cng_path / dir
+            _id = 1
             for filepath in dir_path.glob('*.SGM'):
                 with open(filepath, encoding="utf-16-le") as f:
                     fid = filepath.stem
@@ -113,12 +116,14 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                             tags = [tok["msd"] for tok in sent]
                             yield fid, {
                                 "title": title,
+                                "docid": fid,
                                 "author": author,
                                 "date": date,
                                 "classes": classes,
                                 "words": words,
                                 "pos": tags
                             }
+                            _id += 1
                     else:
                         text = _get_paragraphs(soup)
                         if self.config.name == "documents":
@@ -126,11 +131,13 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                         for para in text:
                             yield fid, {
                                 "title": title,
+                                "docid": fid,
                                 "author": author,
                                 "date": date,
                                 "classes": classes,
                                 "text": para
                             }
+                            _id += 1
 
                         
 def _get_title(soup):
