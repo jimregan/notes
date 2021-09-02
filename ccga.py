@@ -49,8 +49,6 @@ Uses a list of URLs, collected by the crawler, to
 retrieve the files from the crawler's cache.
 """
 
-_SCRIPTDIR = os.path.dirname(os.path.abspath(__file__))
-
 #_SCRAPES = ["20180911", "20191117", "20210810"]
 _SCRAPES = ["20191117", "20210810"]
 
@@ -86,6 +84,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
+        _DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
         if not self.config.cc_cache:
             raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
         cc_cache = self.config.cc_cache
@@ -93,19 +92,20 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         if not self.config.scrape_set:
             raise ValueError(f"Scrape set must be specified, but got scrape_set={self.config.scrape_set}")
         scrape_set = self.config.scrape_set
+        dl_path = dl_manager.download(_DATA_URL.format(self.config.scrape_set))
 
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "scrape_set": scrape_set,
+                    "scrape_set": dl_path,
                     "cc_cache": cc_cache
                 })
         ]
 
-    def _generate_examples(self):
+    def _generate_examples(self, scrape_set, cc_cache):
         """Generate examples from a Corpus Crawl cache."""
-        links = _get_links(self.config.scrape_set)
+        links = _get_links(scrape_set)
 
         _id = 1
         for link in links:
@@ -593,16 +593,8 @@ def do_forasnagaeilge_ie(fetchresult):
 
 
 def _get_links(scrape):
-    if scrape == 'ALL':
-        inp = _SCRAPES
-    else:
-        inp = [scrape]
-
     links = set()
-    dir = Path(_SCRIPTDIR)
-    for scrapename in inp:
-        filename = dir / f"crawled-{scrapename}.txt"
-        with open(filename) as f:
-            for url in f.readlines():
-                links.add(url.rstring())
+    with open(scrape) as f:
+        for url in f.readlines():
+            links.add(url.rstring())
     return list(links)
