@@ -111,6 +111,9 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         links = _get_links(data_file)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
+        dd_path = Path(data_dir)
+        if not dd_path.is_dir():
+            raise Exception('No directory: ' + data_dir)
 
         _id = 1
         for link in links:
