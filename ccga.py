@@ -245,6 +245,7 @@ def fetch(cache_dir, url):
     except IOError:
         raise Exception("fetch() failed")
 
+    raise Exception("Shouldn't get here")
 
 def do_udhr(fetchresult):
     out = {}
