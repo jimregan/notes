@@ -601,5 +601,5 @@ def _get_links(scrape):
     links = set()
     with open(scrape) as f:
         for url in f.readlines():
-            links.add(url.rstring())
+            links.add(url.rstrip())
     return list(links)
