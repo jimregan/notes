@@ -91,7 +91,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         cc_cache = self.config.data_dir
 
         if not self.config.name:
-            raise ValueError(f"Scrape set must be specified, but got scrape_set={self.config.name}")
+            raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
         scrape_set = self.config.name
         dl_path = dl_manager.download(_DATA_URL.format(self.config.name))
 
@@ -104,7 +104,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
                 })
         ]
 
-    def _generate_examples(self, scrape_set, cc_cache):
+    def _generate_examples(self, scrape_set):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", scrape_set)
         links = _get_links(scrape_set)
