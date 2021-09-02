@@ -120,11 +120,11 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
             res = self._fetch_page(link, data_dir)
             for para in res['text']:
                 example = {
-                    "genre": res['genre'],
+                    "genre": res.get('genre', ''),
                     "url": res['location'],
-                    "publication_date": res['publication-date'],
-                    "video_url": res['video'],
-                    "title": res['title'],
+                    "publication_date": res.get('publication-date', ''),
+                    "video_url": res.get('video', ''),
+                    "title": res.get('title', ''),
                     "text": para
                 }
                 yield _id, example
