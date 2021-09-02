@@ -160,7 +160,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         if extract:
             fr = fetch(data_dir, url)
             if fr is None:
-                raise Exception(f"Failed to fetch {url} from {data_dir}")
+                raise Exception("Failed to fetch {} from {}" % (url, data_dir))
             return extract(fr)
 
 
