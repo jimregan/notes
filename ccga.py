@@ -236,7 +236,7 @@ def fetch(cache_dir, url):
             headers = Message(headers)
             return FetchResult(headers, content, url, filepath)
     except IOError:
-        pass
+        raise Exception("fetch() failed")
 
 
 def do_udhr(fetchresult):
