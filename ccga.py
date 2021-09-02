@@ -226,6 +226,10 @@ def fetch(cache_dir, url):
         filepath = os.path.join(cache_dir,
             "f" + base64.urlsafe_b64encode(digest))
 
+    fp = Path(filepath)
+    if not fp.is_file():
+        raise Exception("No such file: " + fp)
+
     try:
         with open(filepath, 'r', encoding='utf-8-sig', newline='') as f:
             cached = f.read().split('\r\n\r\n\r\n', 1)
