@@ -232,7 +232,12 @@ def fetch(cache_dir, url):
 
     try:
         with open(filepath, 'r', encoding='utf-8-sig', newline='') as f:
-            cached = f.read().split('\r\n\r\n\r\n', 1)
+            file_content = f.read()
+            if '\r\n\r\n\r\n' in file_content:
+                splitter = '\r\n\r\n\r\n'
+            else:
+                splitter = '\n\n\n'
+            cached = file_content.split(splitter, 1)
         if len(cached) == 2:
             headers, content = cached
             try:
