@@ -114,7 +114,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                         for sent in _get_pos(soup):
                             words = [tok["word"] for tok in sent]
                             tags = [tok["msd"] for tok in sent]
-                            yield fid, {
+                            yield _id, {
                                 "title": title,
                                 "doc_id": fid,
                                 "author": author,
@@ -129,7 +129,7 @@ class CNGDataset(datasets.GeneratorBasedBuilder):
                         if self.config.name == "documents":
                             text = ["\n".join(text)]
                         for para in text:
-                            yield fid, {
+                            yield _id, {
                                 "title": title,
                                 "doc_id": fid,
                                 "author": author,
