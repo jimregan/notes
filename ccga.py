@@ -60,15 +60,13 @@ class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
     def __init__(self, **kwargs):
-        self.scrape_set = kwargs.pop("scrape_set", None)
-        self.cc_cache = kwargs.pop("cc_cache", None)
         super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     """Corpus Crawler crawled text dataset."""
 
     BUILDER_CONFIGS = [
-        CorpusCrawlerIrishConfig(scrape_set=scrape, cc_cache="") for scrape in _SCRAPES
+        CorpusCrawlerIrishConfig(name=scrape) for scrape in _SCRAPES
     ]
 
     def _info(self):
@@ -89,20 +87,20 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     def _split_generators(self, dl_manager):
         _DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
         if not self.config.data_dir:
-            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got cc_cache={self.config.cc_cache}")
-        cc_cache = self.config.cc_cache
+            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got data_dir={self.config.data_dir}")
+        cc_cache = self.config.data_dir
 
-        if not self.config.scrape_set:
-            raise ValueError(f"Scrape set must be specified, but got scrape_set={self.config.scrape_set}")
-        scrape_set = self.config.scrape_set
-        dl_path = dl_manager.download(_DATA_URL.format(self.config.scrape_set))
+        if not self.config.name:
+            raise ValueError(f"Scrape set must be specified, but got scrape_set={self.config.name}")
+        scrape_set = self.config.name
+        dl_path = dl_manager.download(_DATA_URL.format(self.config.name))
 
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
-                    "scrape_set": scrape_set,
-                    "cc_cache": cc_cache
+                    "name": scrape_set,
+                    "data_dir": cc_cache
                 })
         ]
 
