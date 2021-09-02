@@ -159,6 +159,8 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         extract = _EXTRATORS.get(host)
         if extract:
             fr = fetch(data_dir, url)
+            if fr is None:
+                raise Exception(f"Failed to fetch {url} from {data_dir}")
             return extract(fr)
 
 
