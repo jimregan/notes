@@ -216,6 +216,7 @@ FetchResult = collections.namedtuple('FetchResult',
 
 
 def fetch(cache_dir, url):
+    logger.info("fetching url %s from cache %s", url, cache_dir)
     try:
         digest = hashlib.sha256(url.encode('utf-8')).digest()
         filepath = os.path.join(cache_dir,
