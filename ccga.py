@@ -375,7 +375,7 @@ def do_meoneile_ie(fetchresult):
     body = extract("<div class='article-content'>", '</article>', html) or ''
     byline = extract("<div class='byline'>", '</span>', html) or ''
     byline = _byline_to_pubdate(byline)
-    if body.find('<strong>%s</strong>' % title) >= 0:
+    if title:
         out['title'] = title
     paras = clean_paragraphs(body)
     if paras:
