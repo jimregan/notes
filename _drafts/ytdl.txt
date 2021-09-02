@@ -1,5 +1,2 @@
-youtube-dl -o '%(id)s.%(ext)s' https://soundcloud.com/cois-life-teoranta
-youtube-dl -o '%(id)s.%(ext)s' https://soundcloud.com/forasnagaeilge
-youtube-dl  -o '%(id)s.%(ext)s' https://soundcloud.com/rnl/ 
 youtube-dl  -o '%(id)s.%(ext)s' https://soundcloud.com/rte-rnag/
 youtube-dl  -o '%(id)s.%(ext)s' https://soundcloud.com/raidio-f
