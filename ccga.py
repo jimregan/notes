@@ -54,6 +54,7 @@ _SCRAPES = ["20191117", "20210810"]
 
 
 logger = datasets.utils.logging.get_logger(__name__)
+_DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
 
 
 class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
@@ -85,7 +86,6 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
-        _DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
         if not self.config.data_dir:
             raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got data_dir={self.config.data_dir}")
         cc_cache = self.config.data_dir
@@ -107,7 +107,8 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, name, data_dir):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", name)
-        links = _get_links(name)
+        filename = _DATA_URL.format(name)
+        links = _get_links(filename)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
 
