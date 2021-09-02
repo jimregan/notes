@@ -155,7 +155,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         host = parsed_url.netloc
         extract = _EXTRATORS.get(host)
         if extract:
-            fr = fetch(self.cc_cache, url)
+            fr = fetch(self.config.data_dir, url)
             return extract(fr)
 
 
