@@ -100,15 +100,15 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
                     "name": scrape_set,
-                    "data_dir": cc_cache
+                    "data_dir": cc_cache,
+                    "data_file": dl_path,
                 })
         ]
 
-    def _generate_examples(self, name, data_dir):
+    def _generate_examples(self, name, data_dir, data_file):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", name)
-        filename = _DATA_URL.format(name)
-        links = _get_links(filename)
+        links = _get_links(data_file)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
 
