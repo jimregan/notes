@@ -56,9 +56,9 @@ _SCRAPES = ["20191117", "20210810"]
 class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
     """BuilderConfig for CorpusCrawlerIrish."""
 
-    def __init__(self, scrape_set, cc_cache, **kwargs):
-        self.scrape_set = scrape_set
-        self.cc_cache = cc_cache
+    def __init__(self, **kwargs):
+        self.scrape_set = kwargs.pop("scrape_set", None)
+        self.cc_cache = kwargs.pop("cc_cache", None)
         super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
