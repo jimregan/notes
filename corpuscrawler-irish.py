@@ -50,20 +50,16 @@ _SCRAPES = ["20191117", "20210810"]
 
 
 logger = datasets.utils.logging.get_logger(__name__)
-_DATA_URL = 'https://gist.githubusercontent.com/jimregan/66612f4ecb88ed96d41d43266e6d0872/raw/26bd05f11b4c1c31e33d36528ac53dea587be8ef/crawled-{}.txt'
+_DATA_URL = 'https://huggingface.co/datasets/phonlab-tcd/corpuscrawler-ga/raw/main/crawled-{}.txt'
 
-
-class CorpusCrawlerIrishConfig(datasets.BuilderConfig):
-    """BuilderConfig for CorpusCrawlerIrish."""
-
-    def __init__(self, **kwargs):
-        super(CorpusCrawlerIrishConfig, self).__init__(version=datasets.Version("2.1.0", ""), **kwargs)
 
 class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     """Corpus Crawler crawled text dataset."""
 
     BUILDER_CONFIGS = [
-        CorpusCrawlerIrishConfig(name=scrape) for scrape in _SCRAPES
+        datasets.BuilderConfig(name=f"{scrape}_{cfg}")
+            for scrape in _SCRAPES
+            for cfg in ["documents", "paragraphs"]
     ]
 
     def _info(self):
@@ -82,21 +78,20 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
-        if not self.config.data_dir:
-            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got data_dir={self.config.data_dir}")
-        cc_cache = self.config.data_dir
+        manual_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
 
         if not self.config.name:
             raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
         scrape_set = self.config.name
-        dl_path = dl_manager.download(_DATA_URL.format(self.config.name))
+        sset= self.config.name.split('_')[0]
+        dl_path = dl_manager.download(_DATA_URL.format(sset))
 
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
                     "name": scrape_set,
-                    "data_dir": cc_cache,
+                    "data_dir": manual_dir,
                     "data_file": dl_path,
                 })
         ]
@@ -104,6 +99,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, name, data_dir, data_file):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", name)
+        scfg = self.config.name.split('_')[1]
         links = _get_links(data_file)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
@@ -114,7 +110,11 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         _id = 1
         for link in links:
             res = self._fetch_page(link, data_dir)
-            for para in res['text']:
+            if scfg == "documents":
+                text = ["\n".join(res['text'])]
+            else:
+                text = res['text']
+            for para in text:
                 example = {
                     "genre": res.get('genre', ''),
                     "url": res['location'],
