@@ -82,7 +82,6 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
 
         scrape_set = self.config.name
         sset = self.config.name.split('_')[0]
-        logger.debug("FETCHING: " + _DATA_URL.format(sset))
         dl_path = dl_manager.download(_DATA_URL.format(sset))
 
         return [
@@ -108,6 +107,8 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
 
         _id = 1
         for link in links:
+            if not link:
+                continue
             res = self._fetch_page(link, data_dir)
             if res is None:
                 raise Exception("Failed to read " + link + " from " + data_dir)
