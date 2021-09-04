@@ -82,6 +82,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
 
         scrape_set = self.config.name
         sset = self.config.name.split('_')[0]
+        logger.debug("FETCHING: " + _DATA_URL.format(sset))
         dl_path = dl_manager.download(_DATA_URL.format(sset))
 
         return [
