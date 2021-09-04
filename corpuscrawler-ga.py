@@ -100,6 +100,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", name)
         scfg = self.config.name.split('_')[1]
+        logger.info("reading links from = %s", data_file)
         links = _get_links(data_file)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
