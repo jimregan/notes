@@ -80,8 +80,6 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     def _split_generators(self, dl_manager):
         manual_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
 
-        if not self.config.name:
-            raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
         scrape_set = self.config.name
         sset = self.config.name.split('_')[0]
         dl_path = dl_manager.download(_DATA_URL.format(sset))
@@ -100,7 +98,6 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         """Generate examples from a Corpus Crawl cache."""
         logger.info("generating examples from = %s", name)
         scfg = self.config.name.split('_')[1]
-        logger.info("reading links from = %s", data_file)
         links = _get_links(data_file)
         if not self.config.data_dir:
             self.config.data_dir = data_dir
@@ -612,6 +609,8 @@ def do_forasnagaeilge_ie(fetchresult):
 
 def _get_links(scrape):
     links = set()
+    if not os.path.exists(scrape):
+        raise Exception(f"File {scrape} does not exist")
     with open(scrape) as f:
         for url in f.readlines():
             links.add(url.rstrip())
