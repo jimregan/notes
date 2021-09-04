@@ -244,11 +244,14 @@ def fetch(cache_dir, url):
                 # already encoded as bytes
                 pass
             headers = Message(headers)
+            if not content:
+                raise Exception("empty content")
             return FetchResult(headers, content, url, filepath)
         else:
             raise Exception("splitting headers and content failed")
     except IOError:
         raise Exception("fetch() failed")
+
 
 def do_udhr(fetchresult):
     out = {}
