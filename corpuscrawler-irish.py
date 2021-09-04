@@ -111,9 +111,9 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         for link in links:
             res = self._fetch_page(link, data_dir)
             if scfg == "documents":
-                text = ["\n".join(res['text'])]
+                text = ["\n".join(res.get('text', []))]
             else:
-                text = res['text']
+                text = res.get('text', [])
             for para in text:
                 example = {
                     "genre": res.get('genre', ''),
