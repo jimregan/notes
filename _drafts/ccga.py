@@ -78,9 +78,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
-        if not self.config.data_dir:
-            raise ValueError(f"Path to Corpus Crawler cache directory must be specified, but got data_dir={self.config.data_dir}")
-        cc_cache = self.config.data_dir
+        manual_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
 
         if not self.config.name:
             raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
@@ -93,7 +91,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
                     "name": scrape_set,
-                    "data_dir": cc_cache,
+                    "data_dir": manual_dir,
                     "data_file": dl_path,
                 })
         ]
