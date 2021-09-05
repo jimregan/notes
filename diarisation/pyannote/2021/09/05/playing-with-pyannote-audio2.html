@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Playing with pyannote.audio 2 | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Playing with pyannote.audio 2" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Doesn’t work: _torchtext.so: undefined symbol" />
+<meta property="og:description" content="Doesn’t work: _torchtext.so: undefined symbol" />
+<link rel="canonical" href="https://jimregan.github.io/notes/diarisation/pyannote/2021/09/05/playing-with-pyannote-audio2.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/diarisation/pyannote/2021/09/05/playing-with-pyannote-audio2.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/diarisation/pyannote/2021/09/05/playing-with-pyannote-audio2.html","@type":"BlogPosting","headline":"Playing with pyannote.audio 2","dateModified":"2021-09-05T00:00:00-05:00","datePublished":"2021-09-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/diarisation/pyannote/2021/09/05/playing-with-pyannote-audio2.html"},"description":"Doesn’t work: _torchtext.so: undefined symbol","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Playing with pyannote.audio 2</h1><p class="page-description">Doesn't work: _torchtext.so: undefined symbol</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-05T00:00:00-05:00" itemprop="datePublished">
+        Sep 5, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#diarisation">diarisation</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#pyannote">pyannote</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-09-05-playing-with-pyannote-audio2.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-09-05-playing-with-pyannote-audio2.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-09-05-playing-with-pyannote-audio2.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-09-05-playing-with-pyannote-audio2.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">condacolab</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: condacolab in /usr/local/lib/python3.7/dist-packages (0.1.3)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">condacolab</span>
+<span class="n">condacolab</span><span class="o">.</span><span class="n">install</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>⏬ Downloading https://github.com/jaimergp/miniforge/releases/latest/download/Mambaforge-colab-Linux-x86_64.sh...
+📦 Installing...
+📌 Adjusting configuration...
+🩹 Patching environment...
+⏲ Done in 0:00:39
+🔁 Restarting kernel...
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>conda create -n pyannote <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8.5
+<span class="o">!</span>conda activate pyannote
+
+<span class="o">!</span>conda install numpy cffi
+<span class="o">!</span>conda install <span class="nv">libsndfile</span><span class="o">=</span><span class="m">1</span>.0.28 -c conda-forge
+
+<span class="o">!</span>pip install https://github.com/pyannote/pyannote-audio/archive/develop.zip
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">podcast</span><span class="o">.</span><span class="n">rasset</span><span class="o">.</span><span class="n">ie</span><span class="o">/</span><span class="n">podcasts</span><span class="o">/</span><span class="n">audio</span><span class="o">/</span><span class="mi">2021</span><span class="o">/</span><span class="mi">0626</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">mp3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">ffmpeg</span> <span class="o">-</span><span class="n">i</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">mp3</span> <span class="o">-</span><span class="n">acodec</span> <span class="n">pcm_s16le</span> <span class="o">-</span><span class="n">ac</span> <span class="mi">1</span> <span class="o">-</span><span class="n">ar</span> <span class="mi">16000</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">wav</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyannote.audio.pipelines</span> <span class="kn">import</span> <span class="n">VoiceActivityDetection</span>
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">VoiceActivityDetection</span><span class="p">(</span><span class="n">segmentation</span><span class="o">=</span><span class="s2">&quot;pyannote/segmentation&quot;</span><span class="p">)</span>
+<span class="n">HYPER_PARAMETERS</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="c1"># onset/offset activation thresholds</span>
+  <span class="s2">&quot;onset&quot;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s2">&quot;offset&quot;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>
+  <span class="c1"># remove speech regions shorter than that many seconds.</span>
+  <span class="s2">&quot;min_duration_on&quot;</span><span class="p">:</span> <span class="mf">0.0</span><span class="p">,</span>
+  <span class="c1"># fill non-speech regions shorter than that many seconds.</span>
+  <span class="s2">&quot;min_duration_off&quot;</span><span class="p">:</span> <span class="mf">0.0</span>
+<span class="p">}</span>
+<span class="n">pipeline</span><span class="o">.</span><span class="n">instantiate</span><span class="p">(</span><span class="n">HYPER_PARAMETERS</span><span class="p">)</span>
+<span class="n">vad</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">(</span><span class="s2">&quot;/content/20210626_rteraidion-bailiuchanbhairbre-bailichnbh_c21974765_21975131_232_.wav&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">ImportError</span>                               Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-5-e82545d3d9d2&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pyannote<span class="ansi-blue-fg">.</span>audio<span class="ansi-blue-fg">.</span>pipelines <span class="ansi-green-fg">import</span> VoiceActivityDetection
+<span class="ansi-green-intense-fg ansi-bold">      2</span> pipeline <span class="ansi-blue-fg">=</span> VoiceActivityDetection<span class="ansi-blue-fg">(</span>segmentation<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#34;pyannote/segmentation&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span> HYPER_PARAMETERS = {
+<span class="ansi-green-intense-fg ansi-bold">      4</span>   <span class="ansi-red-fg"># onset/offset activation thresholds</span>
+<span class="ansi-green-intense-fg ansi-bold">      5</span>   <span class="ansi-blue-fg">&#34;onset&#34;</span><span class="ansi-blue-fg">:</span> <span class="ansi-cyan-fg">0.5</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;offset&#34;</span><span class="ansi-blue-fg">:</span> <span class="ansi-cyan-fg">0.5</span><span class="ansi-blue-fg">,</span>
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pyannote/audio/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     27</span> 
+<span class="ansi-green-intense-fg ansi-bold">     28</span> 
+<span class="ansi-green-fg">---&gt; 29</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span>core<span class="ansi-blue-fg">.</span>inference <span class="ansi-green-fg">import</span> Inference
+<span class="ansi-green-intense-fg ansi-bold">     30</span> <span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span>core<span class="ansi-blue-fg">.</span>io <span class="ansi-green-fg">import</span> Audio
+<span class="ansi-green-intense-fg ansi-bold">     31</span> <span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span>core<span class="ansi-blue-fg">.</span>model <span class="ansi-green-fg">import</span> Model
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pyannote/audio/core/inference.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     28</span> <span class="ansi-green-fg">import</span> torch
+<span class="ansi-green-intense-fg ansi-bold">     29</span> <span class="ansi-green-fg">from</span> einops <span class="ansi-green-fg">import</span> rearrange
+<span class="ansi-green-fg">---&gt; 30</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>utilities<span class="ansi-blue-fg">.</span>memory <span class="ansi-green-fg">import</span> is_oom_error
+<span class="ansi-green-intense-fg ansi-bold">     31</span> 
+<span class="ansi-green-intense-fg ansi-bold">     32</span> <span class="ansi-green-fg">from</span> pyannote<span class="ansi-blue-fg">.</span>audio<span class="ansi-blue-fg">.</span>core<span class="ansi-blue-fg">.</span>io <span class="ansi-green-fg">import</span> AudioFile
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     18</span> _PROJECT_ROOT <span class="ansi-blue-fg">=</span> os<span class="ansi-blue-fg">.</span>path<span class="ansi-blue-fg">.</span>dirname<span class="ansi-blue-fg">(</span>_PACKAGE_ROOT<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     19</span> 
+<span class="ansi-green-fg">---&gt; 20</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning <span class="ansi-green-fg">import</span> metrics  <span class="ansi-red-fg"># noqa: E402</span>
+<span class="ansi-green-intense-fg ansi-bold">     21</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>callbacks <span class="ansi-green-fg">import</span> Callback  <span class="ansi-red-fg"># noqa: E402</span>
+<span class="ansi-green-intense-fg ansi-bold">     22</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>core <span class="ansi-green-fg">import</span> LightningDataModule<span class="ansi-blue-fg">,</span> LightningModule  <span class="ansi-red-fg"># noqa: E402</span>
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/metrics/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     13</span> <span class="ansi-red-fg"># limitations under the License.</span>
+<span class="ansi-green-intense-fg ansi-bold">     14</span> 
+<span class="ansi-green-fg">---&gt; 15</span><span class="ansi-red-fg"> from pytorch_lightning.metrics.classification import (  # noqa: F401
+</span><span class="ansi-green-intense-fg ansi-bold">     16</span>     Accuracy<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">     17</span>     AUC<span class="ansi-blue-fg">,</span>
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/metrics/classification/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     12</span> <span class="ansi-red-fg"># See the License for the specific language governing permissions and</span>
+<span class="ansi-green-intense-fg ansi-bold">     13</span> <span class="ansi-red-fg"># limitations under the License.</span>
+<span class="ansi-green-fg">---&gt; 14</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>metrics<span class="ansi-blue-fg">.</span>classification<span class="ansi-blue-fg">.</span>accuracy <span class="ansi-green-fg">import</span> Accuracy  <span class="ansi-red-fg"># noqa: F401</span>
+<span class="ansi-green-intense-fg ansi-bold">     15</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>metrics<span class="ansi-blue-fg">.</span>classification<span class="ansi-blue-fg">.</span>auc <span class="ansi-green-fg">import</span> AUC  <span class="ansi-red-fg"># noqa: F401</span>
+<span class="ansi-green-intense-fg ansi-bold">     16</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>metrics<span class="ansi-blue-fg">.</span>classification<span class="ansi-blue-fg">.</span>auroc <span class="ansi-green-fg">import</span> AUROC  <span class="ansi-red-fg"># noqa: F401</span>
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/metrics/classification/accuracy.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     16</span> <span class="ansi-green-fg">from</span> torchmetrics <span class="ansi-green-fg">import</span> Accuracy <span class="ansi-green-fg">as</span> _Accuracy
+<span class="ansi-green-intense-fg ansi-bold">     17</span> 
+<span class="ansi-green-fg">---&gt; 18</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>metrics<span class="ansi-blue-fg">.</span>utils <span class="ansi-green-fg">import</span> deprecated_metrics<span class="ansi-blue-fg">,</span> void
+<span class="ansi-green-intense-fg ansi-bold">     19</span> 
+<span class="ansi-green-intense-fg ansi-bold">     20</span> 
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/metrics/utils.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     27</span> <span class="ansi-green-fg">from</span> torchmetrics<span class="ansi-blue-fg">.</span>utilities<span class="ansi-blue-fg">.</span>distributed <span class="ansi-green-fg">import</span> reduce <span class="ansi-green-fg">as</span> _reduce
+<span class="ansi-green-intense-fg ansi-bold">     28</span> 
+<span class="ansi-green-fg">---&gt; 29</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>utilities <span class="ansi-green-fg">import</span> rank_zero_deprecation
+<span class="ansi-green-intense-fg ansi-bold">     30</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>utilities<span class="ansi-blue-fg">.</span>imports <span class="ansi-green-fg">import</span> _TORCHMETRICS_GREATER_EQUAL_0_3<span class="ansi-blue-fg">,</span> _TORCHMETRICS_LOWER_THAN_0_3
+<span class="ansi-green-intense-fg ansi-bold">     31</span> 
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/utilities/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     16</span> <span class="ansi-green-fg">import</span> numpy
+<span class="ansi-green-intense-fg ansi-bold">     17</span> 
+<span class="ansi-green-fg">---&gt; 18</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>utilities<span class="ansi-blue-fg">.</span>apply_func <span class="ansi-green-fg">import</span> move_data_to_device  <span class="ansi-red-fg"># noqa: F401</span>
+<span class="ansi-green-intense-fg ansi-bold">     19</span> <span class="ansi-green-fg">from</span> pytorch_lightning<span class="ansi-blue-fg">.</span>utilities<span class="ansi-blue-fg">.</span>distributed <span class="ansi-green-fg">import</span> AllGatherGrad<span class="ansi-blue-fg">,</span> rank_zero_info<span class="ansi-blue-fg">,</span> rank_zero_only  <span class="ansi-red-fg"># noqa: F401</span>
+<span class="ansi-green-intense-fg ansi-bold">     20</span> from pytorch_lightning.utilities.enums import (  # noqa: F401
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/utilities/apply_func.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     28</span> 
+<span class="ansi-green-intense-fg ansi-bold">     29</span> <span class="ansi-green-fg">if</span> _TORCHTEXT_AVAILABLE<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">---&gt; 30</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">if</span> _compare_version<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;torchtext&#34;</span><span class="ansi-blue-fg">,</span> operator<span class="ansi-blue-fg">.</span>ge<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;0.9.0&#34;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">     31</span>         <span class="ansi-green-fg">from</span> torchtext<span class="ansi-blue-fg">.</span>legacy<span class="ansi-blue-fg">.</span>data <span class="ansi-green-fg">import</span> Batch
+<span class="ansi-green-intense-fg ansi-bold">     32</span>     <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/site-packages/pytorch_lightning/utilities/imports.py</span> in <span class="ansi-cyan-fg">_compare_version</span><span class="ansi-blue-fg">(package, op, version)</span>
+<span class="ansi-green-intense-fg ansi-bold">     52</span>     &#34;&#34;&#34;
+<span class="ansi-green-intense-fg ansi-bold">     53</span>     <span class="ansi-green-fg">try</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">---&gt; 54</span><span class="ansi-red-fg">         </span>pkg <span class="ansi-blue-fg">=</span> importlib<span class="ansi-blue-fg">.</span>import_module<span class="ansi-blue-fg">(</span>package<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     55</span>     <span class="ansi-green-fg">except</span> <span class="ansi-blue-fg">(</span>ModuleNotFoundError<span class="ansi-blue-fg">,</span> DistributionNotFound<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">     56</span>         <span class="ansi-green-fg">return</span> <span class="ansi-green-fg">False</span>
+
+<span class="ansi-green-fg">/usr/lib/python3.7/importlib/__init__.py</span> in <span class="ansi-cyan-fg">import_module</span><span class="ansi-blue-fg">(name, package)</span>
+<span class="ansi-green-intense-fg ansi-bold">    125</span>                 <span class="ansi-green-fg">break</span>
+<span class="ansi-green-intense-fg ansi-bold">    126</span>             level <span class="ansi-blue-fg">+=</span> <span class="ansi-cyan-fg">1</span>
+<span class="ansi-green-fg">--&gt; 127</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">return</span> _bootstrap<span class="ansi-blue-fg">.</span>_gcd_import<span class="ansi-blue-fg">(</span>name<span class="ansi-blue-fg">[</span>level<span class="ansi-blue-fg">:</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span> package<span class="ansi-blue-fg">,</span> level<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    128</span> 
+<span class="ansi-green-intense-fg ansi-bold">    129</span> 
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/dist-packages/torchtext/__init__.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span> <span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span> <span class="ansi-green-fg">import</span> datasets
+<span class="ansi-green-intense-fg ansi-bold">      4</span> <span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span> <span class="ansi-green-fg">import</span> utils
+<span class="ansi-green-fg">----&gt; 5</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span> <span class="ansi-green-fg">import</span> vocab
+<span class="ansi-green-intense-fg ansi-bold">      6</span> <span class="ansi-green-fg">from</span> <span class="ansi-blue-fg">.</span> <span class="ansi-green-fg">import</span> legacy
+<span class="ansi-green-intense-fg ansi-bold">      7</span> 
+
+<span class="ansi-green-fg">/usr/local/lib/python3.7/dist-packages/torchtext/vocab.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span> <span class="ansi-green-fg">from</span> typing <span class="ansi-green-fg">import</span> Dict<span class="ansi-blue-fg">,</span> List<span class="ansi-blue-fg">,</span> Optional<span class="ansi-blue-fg">,</span> Iterable
+<span class="ansi-green-intense-fg ansi-bold">     12</span> <span class="ansi-green-fg">from</span> collections <span class="ansi-green-fg">import</span> Counter<span class="ansi-blue-fg">,</span> OrderedDict
+<span class="ansi-green-fg">---&gt; 13</span><span class="ansi-red-fg"> from torchtext._torchtext import (
+</span><span class="ansi-green-intense-fg ansi-bold">     14</span>     Vocab <span class="ansi-green-fg">as</span> VocabPybind<span class="ansi-blue-fg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">     15</span> )
+
+<span class="ansi-red-fg">ImportError</span>: /usr/local/lib/python3.7/dist-packages/torchtext/_torchtext.so: undefined symbol: _ZN2at6detail10noopDeleteEPv
+
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span><span class="ansi-green-fg">
+NOTE: If your import is failing due to a missing package, you can
+manually install dependencies using either !pip or !apt.
+
+To view examples of installing some common dependencies, click the
+&#34;Open Examples&#34; button below.
+</span><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/diarisation/pyannote/2021/09/05/playing-with-pyannote-audio2.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
