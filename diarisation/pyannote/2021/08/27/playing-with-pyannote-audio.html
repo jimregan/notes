@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Playing with pyannote.audio | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Playing with pyannote.audio" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Doesn’t detect music" />
+<meta property="og:description" content="Doesn’t detect music" />
+<link rel="canonical" href="https://jimregan.github.io/notes/diarisation/pyannote/2021/08/27/playing-with-pyannote-audio.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/diarisation/pyannote/2021/08/27/playing-with-pyannote-audio.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-27T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/diarisation/pyannote/2021/08/27/playing-with-pyannote-audio.html","@type":"BlogPosting","headline":"Playing with pyannote.audio","dateModified":"2021-08-27T00:00:00-05:00","datePublished":"2021-08-27T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/diarisation/pyannote/2021/08/27/playing-with-pyannote-audio.html"},"description":"Doesn’t detect music","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Playing with pyannote.audio</h1><p class="page-description">Doesn't detect music</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-08-27T00:00:00-05:00" itemprop="datePublished">
+        Aug 27, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#diarisation">diarisation</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#pyannote">pyannote</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-08-27-playing-with-pyannote-audio.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-08-27-playing-with-pyannote-audio.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-08-27-playing-with-pyannote-audio.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-08-27-playing-with-pyannote-audio.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Only the <code>dia</code> pipeline seems to work.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">pyannote</span><span class="o">.</span><span class="n">audio</span><span class="o">==</span><span class="mf">1.1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">podcast</span><span class="o">.</span><span class="n">rasset</span><span class="o">.</span><span class="n">ie</span><span class="o">/</span><span class="n">podcasts</span><span class="o">/</span><span class="n">audio</span><span class="o">/</span><span class="mi">2021</span><span class="o">/</span><span class="mi">0626</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">mp3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">ffmpeg</span> <span class="o">-</span><span class="n">i</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">mp3</span> <span class="o">-</span><span class="n">acodec</span> <span class="n">pcm_s16le</span> <span class="o">-</span><span class="n">ac</span> <span class="mi">1</span> <span class="o">-</span><span class="n">ar</span> <span class="mi">16000</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="mi">20210626</span><span class="n">_rteraidion</span><span class="o">-</span><span class="n">bailiuchanbhairbre</span><span class="o">-</span><span class="n">bailichnbh_c21974765_21975131_232_</span><span class="o">.</span><span class="n">wav</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span>
+<span class="n">pipeline</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">hub</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;pyannote/pyannote-audio&#39;</span><span class="p">,</span> <span class="s1">&#39;dia&#39;</span><span class="p">)</span>
+<span class="n">diarization</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">({</span><span class="s1">&#39;audio&#39;</span><span class="p">:</span> <span class="s1">&#39;/content/20210626_rteraidion-bailiuchanbhairbre-bailichnbh_c21974765_21975131_232_.wav&#39;</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diarization</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea output_execute_result">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/20210626_rteraidion-bailiuchanbhairbre-bailichnbh_c21974765_21975131_232_.rttm&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">diarization</span><span class="o">.</span><span class="n">write_rttm</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">youtube</span><span class="o">-</span><span class="n">dl</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">youtube</span><span class="o">-</span><span class="n">dl</span> <span class="n">f3wKxcP7hYE</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%capture</span>
+<span class="err">!</span><span class="n">ffmpeg</span> <span class="o">-</span><span class="n">i</span> <span class="s1">&#39;Sraith 2 Eip 1-f3wKxcP7hYE.mp4&#39;</span> <span class="o">-</span><span class="n">acodec</span> <span class="n">pcm_s16le</span> <span class="o">-</span><span class="n">ac</span> <span class="mi">1</span> <span class="o">-</span><span class="n">ar</span> <span class="mi">16000</span> <span class="n">f3wKxcP7hYE</span><span class="o">.</span><span class="n">wav</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diarization2</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">({</span><span class="s1">&#39;audio&#39;</span><span class="p">:</span> <span class="s1">&#39;/content/f3wKxcP7hYE.wav&#39;</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diarization2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea output_execute_result">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>No good; first 8 seconds are silence (ok), next 30 are theme music (not ok).</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/content/f3wKxcP7hYE.rttm&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f2</span><span class="p">:</span>
+    <span class="n">diarization2</span><span class="o">.</span><span class="n">write_rttm</span><span class="p">(</span><span class="n">f2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/diarisation/pyannote/2021/08/27/playing-with-pyannote-audio.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
