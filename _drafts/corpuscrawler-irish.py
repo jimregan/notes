@@ -80,10 +80,8 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
     def _split_generators(self, dl_manager):
         manual_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
 
-        if not self.config.name:
-            raise ValueError(f"Scrape set must be specified, but got name={self.config.name}")
         scrape_set = self.config.name
-        sset= self.config.name.split('_')[0]
+        sset = self.config.name.split('_')[0]
         dl_path = dl_manager.download(_DATA_URL.format(sset))
 
         return [
@@ -109,15 +107,19 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
 
         _id = 1
         for link in links:
+            if not link:
+                continue
             res = self._fetch_page(link, data_dir)
+            if res is None:
+                raise Exception("Failed to read " + link + " from " + data_dir)
             if scfg == "documents":
-                text = ["\n".join(res['text'])]
+                text = ["\n".join(res.get('text', []))]
             else:
-                text = res['text']
+                text = res.get('text', [])
             for para in text:
                 example = {
                     "genre": res.get('genre', ''),
-                    "url": res['location'],
+                    "url": res.get('location', link),
                     "publication_date": res.get('publication-date', ''),
                     "video_url": res.get('video', ''),
                     "title": res.get('title', ''),
@@ -242,9 +244,14 @@ def fetch(cache_dir, url):
                 # already encoded as bytes
                 pass
             headers = Message(headers)
+            if not content:
+                raise Exception("empty content")
             return FetchResult(headers, content, url, filepath)
+        else:
+            raise Exception("splitting headers and content failed")
     except IOError:
         raise Exception("fetch() failed")
+
 
 def do_udhr(fetchresult):
     out = {}
@@ -609,6 +616,8 @@ def do_forasnagaeilge_ie(fetchresult):
 
 def _get_links(scrape):
     links = set()
+    if not os.path.exists(scrape):
+        raise Exception(f"File {scrape} does not exist")
     with open(scrape) as f:
         for url in f.readlines():
             links.add(url.rstrip())
