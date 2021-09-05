@@ -119,7 +119,7 @@ class CorpusCrawlerIrish(datasets.GeneratorBasedBuilder):
             for para in text:
                 example = {
                     "genre": res.get('genre', ''),
-                    "url": res['location'],
+                    "url": res.get('location', link),
                     "publication_date": res.get('publication-date', ''),
                     "video_url": res.get('video', ''),
                     "title": res.get('title', ''),
