@@ -85,9 +85,9 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
         self, data_dir, split
     ):
         """ Yields examples as (key, example) tuples. """
-        matcher = re.match("/([a-z]{3})_ga_(ul|mu|co)[_/](.*)[/$]", data_dir)
-        matcher2 = re.match("/ga_(UL|MU|CP)/([a-z]{3})/(.*)[/$]", data_dir)
-        matcher_en = re.match("/([a-z]{3})_en_ie", data_dir)
+        matcher = re.match(".*/([a-z]{3})_ga_(ul|mu|co)[_/](.*)[/$]", data_dir)
+        matcher2 = re.match(".*/ga_(UL|MU|CP)/([a-z]{3})/([^/]*)[/$]", data_dir)
+        matcher_en = re.match(".*/([a-z]{3})_en_ie", data_dir)
         if matcher:
             speaker_id = matcher.group(1)
             language = "ga"
