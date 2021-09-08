@@ -85,8 +85,8 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
         self, data_dir, split
     ):
         """ Yields examples as (key, example) tuples. """
-        matcher = re.match(".*/([a-z]{3})_ga_(ul|mu|co)[_/](.*)[/$]", data_dir)
-        matcher2 = re.match(".*/ga_(UL|MU|CP)/([a-z]{3})/([^/]*)[/$]", data_dir)
+        matcher = re.match(".*/([a-z]{3})_ga_(ul|mu|co)[_/](.*)/?$", data_dir)
+        matcher2 = re.match(".*/ga_(UL|MU|CP)/([a-z]{3})/([^/]*)/?$", data_dir)
         matcher_en = re.match(".*/([a-z]{3})_en_ie", data_dir)
         if matcher:
             speaker_id = matcher.group(1)
@@ -104,7 +104,7 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
             speaker_id = matcher_en.group(1)
             audio_set = ""
         else:
-            raise Exception(f"{data_dir} doesn't look like a valid path")
+            raise Exception(f"{data_dir} {type(data_dir)} doesn't look like a valid path")
 
         dd_path = Path(data_dir)
         xml_path = dd_path / "xml"
@@ -119,6 +119,7 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
             words = utt_to_words(utt)
             phonemes = utt_to_phonemes(utt)
             assert len(words) == len(phonemes)
+            file_id = xmlfile.stem
 
             audio = ""
             for wd in _AUDIO:
@@ -136,7 +137,8 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
             for pair in zip(words, phonemes):
                 yield _id, {
                     "speaker_id": speaker_id,
-                    "audio": audio,
+                    "file_id": file_id,
+                    "audio": str(audio),
                     "phonemes": pair[1],
                     "words": irish_lc(" ".join(pair[0])),
                     "language": language,
