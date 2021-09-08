@@ -86,12 +86,18 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
     ):
         """ Yields examples as (key, example) tuples. """
         matcher = re.match("/([a-z]{3})_ga_(ul|mu|co)[_/](.*)[/$]", data_dir)
+        matcher2 = re.match("/ga_(UL|MU|CP)/([a-z]{3})/(.*)[/$]", data_dir)
         matcher_en = re.match("/([a-z]{3})_en_ie", data_dir)
         if matcher:
             speaker_id = matcher.group(1)
             language = "ga"
             dialect = matcher.group(2)
             audio_set = matcher.group(3)
+        elif matcher2:
+            speaker_id = matcher2.group(2)
+            language = "ga"
+            dialect = matcher2.group(1).lower()
+            audio_set = matcher2.group(3)
         elif matcher_en:
             language = "en"
             dialect = "ie"
