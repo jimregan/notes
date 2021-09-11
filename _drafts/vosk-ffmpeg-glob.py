@@ -6,11 +6,12 @@ import os
 import subprocess
 import glob
 from pathlib import Path
+import json
 
 SetLogLevel(0)
 
 model = Model("model")
-rec = KaldiRecognizer(model, sample_rate)
+rec = KaldiRecognizer(model, 16000)
 rec.SetWords(True)
 
 if sys.argv and sys.argv[0]:
@@ -22,10 +23,11 @@ if not dir.is_dir():
     exit()
 
 for file in dir.glob('*.mp3'):
+    output = []
     outfile = dir / f"{file.stem}.json"
     process = subprocess.Popen(['ffmpeg', '-loglevel', 'quiet', '-i',
                                 str(file),
-                                '-ar', 16000, '-ac', '1', '-f', 's16le', '-'],
+                                '-ar', '16000', '-ac', '1', '-f', 's16le', '-'],
                                 stdout=subprocess.PIPE)
 
     while True:
@@ -36,6 +38,7 @@ for file in dir.glob('*.mp3'):
             print(rec.Result())
         else:
             print(rec.PartialResult())
+    res = rec.FinalResult()
+    output.append(json.loads(res))
 
-    with open(outfile, "w") as f:
-        f.write(rec.FinalResult())
+    json.dump(output, outfile)
