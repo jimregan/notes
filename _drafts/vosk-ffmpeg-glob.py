@@ -23,8 +23,10 @@ if not dir.is_dir():
     exit()
 
 for file in dir.glob('*.mp3'):
+    rec.Reset()
     output = []
     outfile = dir / f"{file.stem}.json"
+    print(f"{file}\n")
     process = subprocess.Popen(['ffmpeg', '-loglevel', 'quiet', '-i',
                                 str(file),
                                 '-ar', '16000', '-ac', '1', '-f', 's16le', '-'],
@@ -36,8 +38,6 @@ for file in dir.glob('*.mp3'):
             break
         if rec.AcceptWaveform(data):
             output.append(json.loads(rec.Result()))
-        else:
-            print(rec.PartialResult())
     output.append(json.loads(rec.FinalResult()))
 
     with open(outfile, "w") as f:
