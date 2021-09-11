@@ -11,8 +11,6 @@ import json
 SetLogLevel(0)
 
 model = Model("/home/jim/Playing/model")
-rec = KaldiRecognizer(model, 16000)
-rec.SetWords(True)
 
 if sys.argv and sys.argv[0]:
     dir = Path(sys.argv[1])
@@ -23,7 +21,8 @@ if not dir.is_dir():
     exit()
 
 for file in dir.glob('*.mp3'):
-    rec.Reset()
+    rec = KaldiRecognizer(model, 16000)
+    rec.SetWords(True)
     output = []
     outfile = dir / f"{file.stem}.json"
     print(f"{file}\n")
