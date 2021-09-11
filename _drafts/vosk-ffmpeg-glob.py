@@ -9,8 +9,8 @@ from pathlib import Path
 
 SetLogLevel(0)
 
-model = Model("/home/jim/Playing/model")
-rec = KaldiRecognizer(model, 16000)
+model = Model("model")
+rec = KaldiRecognizer(model, sample_rate)
 rec.SetWords(True)
 
 if sys.argv and sys.argv[0]:
@@ -25,7 +25,7 @@ for file in dir.glob('*.mp3'):
     outfile = dir / f"{file.stem}.json"
     process = subprocess.Popen(['ffmpeg', '-loglevel', 'quiet', '-i',
                                 str(file),
-                                '-ar', '16000', '-ac', '1', '-f', 's16le', '-'],
+                                '-ar', 16000, '-ac', '1', '-f', 's16le', '-'],
                                 stdout=subprocess.PIPE)
 
     while True:
@@ -37,5 +37,5 @@ for file in dir.glob('*.mp3'):
         else:
             print(rec.PartialResult())
 
-    with open(outfile, "w+") as f:
-        f.write(rec.FinalResult() + "\n")
+    with open(outfile, "w") as f:
+        f.write(rec.FinalResult())
