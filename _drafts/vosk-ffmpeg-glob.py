@@ -10,7 +10,7 @@ import json
 
 SetLogLevel(0)
 
-model = Model("model")
+model = Model("/home/jim/Playing/model")
 rec = KaldiRecognizer(model, 16000)
 rec.SetWords(True)
 
