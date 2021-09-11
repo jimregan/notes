@@ -10,7 +10,7 @@ import json
 
 SetLogLevel(0)
 
-model = Model("/home/jim/Playing/model")
+model = Model("model")
 rec = KaldiRecognizer(model, 16000)
 rec.SetWords(True)
 
@@ -35,10 +35,10 @@ for file in dir.glob('*.mp3'):
         if len(data) == 0:
             break
         if rec.AcceptWaveform(data):
-            print(rec.Result())
+            output.append(json.loads(rec.Result()))
         else:
             print(rec.PartialResult())
-    res = rec.FinalResult()
-    output.append(json.loads(res))
+    output.append(json.loads(rec.FinalResult()))
 
-    json.dump(output, outfile)
+    with open(outfile, "w") as f:
+        json.dump(output, f)
