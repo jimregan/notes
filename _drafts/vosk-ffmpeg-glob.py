@@ -41,4 +41,5 @@ for file in dir.glob('*.mp3'):
     res = rec.FinalResult()
     output.append(json.loads(res))
 
-    json.dump(output, outfile)
+    with open(outfile, "w") as f:
+        json.dump(output, f)
