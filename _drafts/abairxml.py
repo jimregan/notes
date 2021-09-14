@@ -240,7 +240,10 @@ def from_xml(source):
                 for syllable in word.findall('./syllable'):
                     phonemes = []
                     if 'stress' in syllable.attrib:
-                        stress = int(syllable.attrib['stress'])
+                        if syllable.attrib['stress'] == 'None':
+                            stress = 0
+                        else:
+                            stress = int(syllable.attrib['stress'])
                     else:
                         stress = 0
                     for phoneme in syllable.findall('./phoneme'):
