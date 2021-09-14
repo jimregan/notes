@@ -102,7 +102,12 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
             language = "en"
             dialect = "ie"
             speaker_id = matcher_en.group(1)
-            audio_set = ""
+            audio_set = f"{speaker_id}_en_ie"
+        elif "mul_ga_msf" in data_dir:
+            language = "ga"
+            dialect = "mu"
+            speaker_id = "mul"
+            audio_set = "msf"
         else:
             raise Exception(f"{data_dir} {type(data_dir)} doesn't look like a valid path")
 
