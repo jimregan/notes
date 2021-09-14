@@ -102,7 +102,12 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
             language = "en"
             dialect = "ie"
             speaker_id = matcher_en.group(1)
-            audio_set = ""
+            audio_set = f"{speaker_id}_en_ie"
+        elif "mul_ga_msf" in data_dir:
+            language = "ga"
+            dialect = "mu"
+            speaker_id = "mul"
+            audio_set = "msf"
         else:
             raise Exception(f"{data_dir} {type(data_dir)} doesn't look like a valid path")
 
@@ -126,6 +131,8 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
                 try_path = dd_path / wd
                 ext = "ogg" if wd == "ogg" else "wav"
                 stem = xmlfile.stem
+                if 'tcd_gd_text02_' in stem:
+                    stem = stem.replace('tcd_gd_text02_', 'tcd_gd_text02-')
                 audio = try_path / f"{stem}.{ext}"
                 if audio.is_file():
                     break
@@ -235,7 +242,10 @@ def from_xml(source):
                 for syllable in word.findall('./syllable'):
                     phonemes = []
                     if 'stress' in syllable.attrib:
-                        stress = int(syllable.attrib['stress'])
+                        if syllable.attrib['stress'] == 'None':
+                            stress = 0
+                        else:
+                            stress = int(syllable.attrib['stress'])
                     else:
                         stress = 0
                     for phoneme in syllable.findall('./phoneme'):
