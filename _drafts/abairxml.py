@@ -131,6 +131,8 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
                 try_path = dd_path / wd
                 ext = "ogg" if wd == "ogg" else "wav"
                 stem = xmlfile.stem
+                if 'tcd_gd_text02_' in stem:
+                    stem = stem.replace('tcd_gd_text02_', 'tcd_gd_text02-')
                 audio = try_path / f"{stem}.{ext}"
                 if audio.is_file():
                     break
