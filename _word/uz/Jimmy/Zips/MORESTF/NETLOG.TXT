@@ -1,14 +1,0 @@
-NETDI: ClassInstall (0x6 on 0x18b6:0x58) on  at 
-NETDI: dif_FirstTimeSetup
-NETDI: SetDefaultTransport: Couldn't determine transport
-NETDI: ClassInstall(0x6) end
-NETDI: NETDI: lpRegLogConf = 0x0
-NETDI: ClassInstall (0x9 on 0x18b6:0x58) on  at 
-NETDI: ClassInstall(0x9) end
-NETDI: ClassInstall (0xa on 0x18b6:0x58) on  at 
-NETDI: ChangeLine: Matched skip string: "*lastdrive*"
-NETDI: RemLine: Deleting "LASTDRIVE=M"
-NETDI: ClassInstall(0xa) end
-NETDI: ClassInstall (0xc on 0x18b6:0x58) on  at 
-NETDI: ClassInstall(0xc) end
-

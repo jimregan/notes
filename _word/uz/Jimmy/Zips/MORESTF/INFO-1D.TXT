@@ -1,7 +1,0 @@
-  <B>WinCIM's sound support should only be used if you 
-  are using a sound card.  Sounds can be associated with 
-  WinCIM events by accessing the sound module in the 
-  Windows Control Panel.
-  
-  <R>Adding sound support is not recommended if you are 
-  using the PC Speaker.<B>
