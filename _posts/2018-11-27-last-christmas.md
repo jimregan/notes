@@ -3,7 +3,7 @@ toc: true
 layout: post
 hidden: true
 description: Last Christmas is a popular Christmas song in Poland too
-title: "Last Christmas" notes
+title: Last Christmas notes
 categories: [english teaching, pruszków]
 ---
 
