@@ -7,8 +7,6 @@ title: Snatch vocabulary
 categories: [english teaching, pruszków]
 ---
 
-## "Snatch" vocabulary
-
 Bust a cap in his ass: African-American slang. "Bust a cap" means to
 shoot (a *cap* can be a small explosive used to set off a larger
 explosive, especially in mining, so in slang, it's a bullet); *one's
