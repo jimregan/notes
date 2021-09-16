@@ -310,18 +310,6 @@ https://www.tobarandualchais.co.uk/en/
 UniversalDependencies/UD_Scottish_Gaelic-ARCOSG
 https://github.com/UniversalDependencies/UD_Scottish_Gaelic-ARCOSG
 
-colinbatchelor (Colin Batchelor)
-https://github.com/colinbatchelor
-
-colinbatchelor/gdbank: Some tools and resources for natural language processing of Scottish Gaelic.
-https://github.com/colinbatchelor/gdbank
-
-colinbatchelor/pyccg: investigating Matthew Honnibal's ccg code
-https://github.com/colinbatchelor/pyccg
-
-syllog1sm (Matthew Honnibal)
-https://github.com/syllog1sm
-
 Gaelic-Algorithmic-Research-Group
 https://github.com/Gaelic-Algorithmic-Research-Group
 
@@ -358,41 +346,8 @@ https://github.com/lquirosd/P2PaLA
 mauvilsa/nw-page-editor: Simple app for visual editing of Page XML files
 https://github.com/mauvilsa/nw-page-editor#Desktop-variant
 
-TranskribusDictionaries/src/main/java/eu/transkribus/languageresources/dictionaries/abbreviations · master · readcoop / Transkribus / TranskribusLanguageResources · GitLab
-https://gitlab.com/readcoop/transkribus/TranskribusLanguageResources/-/tree/master/TranskribusDictionaries/src/main/java/eu/transkribus/languageresources/dictionaries/abbreviations
-
-Transkribus: open source transcription software - Digital Pathways
-https://digipathways.co.uk/resources/transkribus-open-source-transcription-software/
-
-Dutch Admiralty of Zeeland 17th century | Public Transkribus AI Model
-https://readcoop.eu/model/dutch-admiralty-of-zeeland-17th-century/
-
 The Acoustic Model and Scottish Gaelic Speech Recognition Results – Gaelic Algorithmic Research Group
 https://blogs.ed.ac.uk/garg/2021/05/28/the-acoustic-model-and-scottish-gaelic-speech-recognition-results/
-
-huggingface datasets logging - Google Search
-https://www.google.com/search?q=huggingface+datasets+logging&oq=huggingface+datasets+logging&aqs=edge..69i57j69i59.5570j0j1&sourceid=chrome&ie=UTF-8
-
-Classes used during the dataset building process — datasets 1.0.1 documentation
-https://huggingface.co/docs/datasets/v1.0.1/package_reference/builder_classes.html
-
-Logging — transformers 4.10.0 documentation
-https://huggingface.co/transformers/main_classes/logging.html
-
-Logging methods — datasets 1.11.0 documentation
-https://huggingface.co/docs/datasets/package_reference/logging_methods.html
-
-jiaaro/pydub: Manipulate audio with a simple and easy high level interface
-https://github.com/jiaaro/pydub
-
-New tab
-edge://newtab/
-
-
----
-
-m3hrdadfi/soxan: Wav2Vec for speech recognition, classification, and audio classification
-https://github.com/m3hrdadfi/soxan
 
 qiuqiangkong/audioset_tagging_cnn
 https://github.com/qiuqiangkong/audioset_tagging_cnn
@@ -418,9 +373,6 @@ https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_Rethinking_Semantic_
 Brabhsáil na Bailiúcháin · Cartlann Ghaeltacht Chonamara
 http://cartlann.ie/collections/browse
 
-
----
-
 Writing a dataset loading script — datasets 1.11.0 documentation
 https://huggingface.co/docs/datasets/add_dataset.html
 
@@ -444,12 +396,6 @@ https://colah.github.io/posts/2014-07-Understanding-Convolutions/
 
 Conv Nets: A Modular Perspective - colah's blog
 https://colah.github.io/posts/2014-07-Conv-Nets-Modular/
-
-CNN Explainer
-https://poloclub.github.io/cnn-explainer/
-
-
----
 
 matteo-39/vosk-build-model: How to create your own model for vosk
 https://github.com/matteo-39/vosk-build-model
