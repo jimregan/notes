@@ -33,3 +33,8 @@ categories: [links]
 [Svito-zar/gesticulator](https://github.com/Svito-zar/gesticulator): "Gesticulator: A framework for semantically-aware speech-driven gesture generation"
 
 [Remember the context! ASR slot error correction through memorization](https://arxiv.org/abs/2109.05092)
+
+[Setup - ngrok](https://dashboard.ngrok.com/get-started/setup)
+
+[optuna/optuna](https://github.com/optuna/optuna): A hyperparameter optimization framework
+
