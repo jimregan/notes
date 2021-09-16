@@ -1,3 +1,12 @@
+---
+toc: true
+layout: post
+hidden: true
+description: Incomplete modernisation
+title: Iníon an cheannaí
+categories: [irish]
+---
+
 Tá tamall fad anois a bhí fear ina chónaí i mbaile mór Chorcaí. Fear
 saibhir agus ceannaí farraige ab ea é. Do bhíodh loingeas ag teacht thar
 lár chúige. Do bhí aon iníon amháin aige gurb é an ainm a bhí uirthi
