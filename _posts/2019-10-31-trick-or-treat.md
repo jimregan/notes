@@ -1,4 +1,13 @@
-Trick or Treat
+---
+toc: true
+layout: post
+hidden: true
+description: For an English lesson at Hallowe'en, 2019
+title: Trick or Treak
+categories: [english teaching, pruszków]
+---
+
+## Trick or Treat
 
 Trick or treat is an American custom, but it has its origins in earlier
 customs: "guising", which was practiced in Scotland and Ireland; and
@@ -16,5 +25,5 @@ receive a "soul cake".
 
 "Trick or treat" is usually just something that people say - these days,
 people don't usually expect to have to play a trick - but in the 1990s,
-egging (throwing raw eggs) and TPing (throwing an opened roll of toilet
+egging (throwing raw eggs) and TP-ing (throwing an opened roll of toilet
 paper, to "decorate" the house) were common "tricks".
