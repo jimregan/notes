@@ -1,0 +1,9 @@
+  <B>If you have previously used a version of DOS CIM 
+  (prior to version 2.1) and would like to maintain its 
+  various support files (filing cabinet, address book, 
+  etc.), you will need to convert your DOS CIM directory 
+  into a structure that WinCIM will understand.  You can 
+  do this by running the <R>MOVECIM.EXE<B> program that is 
+  located in the same directory as your WINCIM.EXE file.
+
+  <B>See the file <R>MOVECIM.TXT<B> for instructions.
