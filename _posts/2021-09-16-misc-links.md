@@ -28,4 +28,8 @@ categories: [links]
 
 [Jam3/math-as-code](https://github.com/Jam3/math-as-code) - "a cheat-sheet for mathematical notation in code form"
 
+[VOSK language model adaptation](https://alphacephei.com/vosk/lm)
 
+[Svito-zar/gesticulator](https://github.com/Svito-zar/gesticulator): "Gesticulator: A framework for semantically-aware speech-driven gesture generation"
+
+[Remember the context! ASR slot error correction through memorization](https://arxiv.org/abs/2109.05092)
