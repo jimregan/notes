@@ -1,4 +1,11 @@
-**Treasure Island, Chapter 1 vocab**
+---
+toc: true
+layout: post
+hidden: true
+description: One of my adult students liked boats, and asked to read Treasure Island. We rarely stuck to the lesson plan, I don't think we ever used these.
+title: Treasure Island, Chapter 1 vocab
+categories: [english teaching, pruszków]
+---
 
 year of grace: year in the Christian era; year A.D.
 
@@ -7,14 +14,11 @@ wind
 
 Capstan: machine for putting force on ropes, usually on a ship
 
-![](media/image1.png){width="4.234375546806649in"
-height="3.175780839895013in"}
-
 Grog: rum and water
 
-\"sittyated\" - situated
+"sittyated" - situated
 
-\"mought\" - might
+"mought" - might
 
 berth - bunk for sleeping (usually on a ship); also, room for movement:
 *to give someone a wide berth* means to avoid them
