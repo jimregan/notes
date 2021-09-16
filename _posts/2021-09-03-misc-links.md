@@ -18,6 +18,10 @@ Runs [Together We Listen](http://togetherwelisten.nypl.org/)
 
 [WGBH-MLA/transcript-editor](https://github.com/WGBH-MLA/transcript-editor): Web-based tool for correcting speech-to-text generated transcripts.
 
+[CNN Explainer](https://poloclub.github.io/cnn-explainer/)
+
+[https://github.com/m3hrdadfi/soxan](m3hrdadfi/soxan): Wav2Vec for speech recognition, classification, and audio classification
+
 ## Irish relative clause
 
 [Indirect vs Direct Relative Clause – Irish for English Speakers/Gaeilge do Bhéarlóirí](https://irishforenglishspeakers.wordpress.com/2017/04/10/indirect-vs-direct-relative-clause/)
