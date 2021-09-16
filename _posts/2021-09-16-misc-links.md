@@ -38,3 +38,9 @@ categories: [links]
 
 [optuna/optuna](https://github.com/optuna/optuna): A hyperparameter optimization framework
 
+[dataqa/dataqa](https://github.com/dataqa/dataqa): Labelling platform for text using distant supervision
+
+[That XOR Trick](https://florian.github.io/xor-trick/)
+
+[abhishekkrthakur/colabcode](https://github.com/abhishekkrthakur/colabcode/): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks
+
