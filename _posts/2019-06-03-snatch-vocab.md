@@ -2,12 +2,10 @@
 toc: true
 layout: post
 hidden: true
-description: My Friday morning student (advanced) wanted to watch a movie with genuine British accents, and slang. We arrived at "Snatch". I regretted it every time I had to do vocabulary notes. I cringed deeply when I found this; hopefully I'll find it again in the future, and experience the same cringe.
+description: My Friday morning student (advanced adult) wanted to watch a movie with genuine British accents, and slang. We arrived at "Snatch". I regretted it every time I had to do vocabulary notes. I cringed deeply when I found this; hopefully I'll find it again in the future, and experience the same cringe.
 title: Snatch vocabulary
 categories: [english teaching, pruszków]
 ---
-
-## "Snatch" vocabulary
 
 Bust a cap in his ass: African-American slang. "Bust a cap" means to
 shoot (a *cap* can be a small explosive used to set off a larger

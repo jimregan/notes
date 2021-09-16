@@ -3,11 +3,9 @@ toc: true
 layout: post
 hidden: true
 description: For an English lesson at Hallowe'en, 2019
-title: Trick or Treak
+title: Trick or Treat
 categories: [english teaching, pruszków]
 ---
-
-## Trick or Treat
 
 Trick or treat is an American custom, but it has its origins in earlier
 customs: "guising", which was practiced in Scotland and Ireland; and
