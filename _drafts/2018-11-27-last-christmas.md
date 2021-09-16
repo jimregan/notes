@@ -1,4 +1,27 @@
-**Very **
+---
+toc: true
+layout: post
+hidden: true
+description: Last Christmas is a popular Christmas song in Poland too
+title: "Last Christmas" notes
+categories: [english teaching, pruszków]
+---
+
+For Christmas, the school insisted that we get the students to sing
+a song, and record it for their parents. So, with older students,
+we generally let them pick the song themselves.
+
+I had two all-girl groups, and both chose "Last Christmas" - fine by
+me, one set of notes. It also ended up being the song chosen by a
+group of mainly boys, because their other teacher foolishly
+mentioned that, having spent a Christmas working in retail in
+England, she really hated that song. Which I mentioned to them.
+Next lesson, she walked in to a serenade of "Last Christmas",
+and immediately came across to the office to ask if I might
+know why that had happened.
+
+---
+**Very**
 
 We most often see "very" as an adverb which intensifies an adjective:
 very dark, very wet, etc., but it can also be used as an adjective
