@@ -44,3 +44,4 @@ categories: [links]
 
 [abhishekkrthakur/colabcode](https://github.com/abhishekkrthakur/colabcode/): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks
 
+[tarun-bisht/wav2vec2-asr](https://github.com/tarun-bisht/wav2vec2-asr): wav2vec2 asr with transformers
