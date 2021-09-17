@@ -33,3 +33,16 @@ categories: [links]
 [Svito-zar/gesticulator](https://github.com/Svito-zar/gesticulator): "Gesticulator: A framework for semantically-aware speech-driven gesture generation"
 
 [Remember the context! ASR slot error correction through memorization](https://arxiv.org/abs/2109.05092)
+
+[Setup - ngrok](https://dashboard.ngrok.com/get-started/setup)
+
+[optuna/optuna](https://github.com/optuna/optuna): A hyperparameter optimization framework
+
+[dataqa/dataqa](https://github.com/dataqa/dataqa): Labelling platform for text using distant supervision
+
+[That XOR Trick](https://florian.github.io/xor-trick/)
+
+[abhishekkrthakur/colabcode](https://github.com/abhishekkrthakur/colabcode/): Run VSCode (codeserver) on Google Colab or Kaggle Notebooks
+
+[tarun-bisht/wav2vec2-asr](https://github.com/tarun-bisht/wav2vec2-asr): wav2vec2 asr with transformers
+
