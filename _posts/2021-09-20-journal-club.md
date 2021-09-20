@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Paper by Geoff Cumming
-title: The New Statistics\: Why and How
+title: The New Statistics Why and How
 categories: [journal club]
 ---
 
