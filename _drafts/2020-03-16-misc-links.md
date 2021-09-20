@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Misc. interesting things.
+title: Interesting links, 16/3/2020
+categories: [links]
+---
+
 [Pocketsphinx.js](https://syl22-00.github.io/pocketsphinx.js/) - Speech Recognition in JavaScript and WebAssembly
 
 [RiveScript](https://www.rivescript.com/) - Artificial Intelligence Scripting Language
