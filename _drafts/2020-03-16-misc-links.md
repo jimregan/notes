@@ -1,45 +1,14 @@
-Pocketsphinx.js - Speech Recognition in JavaScript and WebAssembly
-https://syl22-00.github.io/pocketsphinx.js/
+[Pocketsphinx.js](https://syl22-00.github.io/pocketsphinx.js/) - Speech Recognition in JavaScript and WebAssembly
 
-Artificial Intelligence Scripting Language - RiveScript.com
-https://www.rivescript.com/
+[RiveScript](https://www.rivescript.com/) - Artificial Intelligence Scripting Language
 
-andi611/Mockingjay-Speech-Representation: Official Implementation of Mockingjay in Pytorch
-https://github.com/andi611/Mockingjay-Speech-Representation
+[andi611/Mockingjay-Speech-Representation](https://github.com/andi611/Mockingjay-Speech-Representation) Official Implementation of Mockingjay in Pytorch
 
-Audio-Phonetic-and-Semantic-Embedding/audio2text_GAN.py at master · grtzsohalf/Audio-Phonetic-and-Semantic-Embedding
-https://github.com/grtzsohalf/Audio-Phonetic-and-Semantic-Embedding/blob/master/parallelizing/audio2text_GAN.py
+[grtzsohalf/Audio-Phonetic-and-Semantic-Embedding](https://github.com/grtzsohalf/Audio-Phonetic-and-Semantic-Embedding)
 
-1807.08089.pdf
-https://arxiv.org/pdf/1807.08089.pdf
+[Phonetic-and-Semantic Embedding of Spoken Words with Applications in Spoken Content Retrieval](https://arxiv.org/abs/1807.08089)
 
-TAL (@TalialillyG) / Twitter
-https://twitter.com/TalialillyG
+[Tesseract.js](https://tesseract.projectnaptha.com/) -- pure Javascript port of the popular Tesseract OCR engine.
 
-T A L (@talialillygood) • Instagram photos and videos
-https://www.instagram.com/talialillygood/
-
-https://tesseract.projectnaptha.com/demo.js
-https://tesseract.projectnaptha.com/demo.js
-
-notes/Lesson1.md at master · hiromis/notes
-https://github.com/hiromis/notes/blob/master/Lesson1.md
-
-The page you were looking for doesn't exist (404)
-https://leighleat.com/caib-3.html
-
-Template:ga-decl-adj - Wiktionary
-https://en.wiktionary.org/wiki/Template:ga-decl-adj
-
-Template:ga-conj-2 - Wiktionary
-https://en.wiktionary.org/wiki/Template:ga-conj-2
-
-Greek diacritics - Wikipedia
-https://en.wikipedia.org/wiki/Greek_diacritics
-
-Cyrillic script - Wikipedia
-https://en.wikipedia.org/wiki/Cyrillic_script
-
-Recognizers-Text/English-Numbers.yaml at master · microsoft/Recognizers-Text
-https://github.com/microsoft/Recognizers-Text/blob/master/Patterns/English/English-Numbers.yaml
+[microsoft/Recognizers-Text](https://github.com/microsoft/Recognizers-Text) Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, and date/time expressed in multiple languages
 
