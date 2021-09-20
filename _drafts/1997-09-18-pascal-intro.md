@@ -37,18 +37,18 @@ functions
 - [Atanasoff Berry Computer](https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer) -- 1942
 
 
-Input    \--\>
+```
+   Input    -->
 
-[CPU 
+       CPU 
 
-[ \--\>Secondary                       .
+              --> Secondary
+              <-- Memory
 
-[\<\-- Memory                          .  
+   (CU, ALU, Main Memory)
 
-[(CU, ALU, Main Memory)
-
-[ Output\<\--
-
+   Output <--
+```
 
 
 CPU -- all calculations and manipulations carried out
