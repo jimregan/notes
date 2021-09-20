@@ -62,12 +62,3 @@ CPU -- all calculations and manipulations carried out
 - Main memory allows data to be stored for processing & holds
 results
 
-
-
-
-
-
-
-[The Sundays - Summertime](https://www.youtube.com/watch?v=Z778slDEsds)
-
-[The Pastels - The Hits Hurt](https://www.youtube.com/watch?v=MHnsb1GlS6A)
