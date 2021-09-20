@@ -1,39 +1,36 @@
-http://www.openfst.org/twiki/bin/view/Contrib/FstContrib
-http://www.opengrm.org/twiki/bin/view/GRM/WebHome
-http://www.opengrm.org/twiki/bin/view/GRM/ThraxQuickTour
-http://www.opengrm.org/twiki/bin/view/Contrib/ThraxContrib
-http://www.opengrm.org/twiki/bin/view/GRM/NGramQuickTour#ModelFormat
+---
+toc: false
+layout: post
+hidden: true
+description: Misc. interesting things.
+title: Interesting links, 29/1/2019
+categories: [links]
+---
 
-https://github.com/mjansche/opengrm-ngram/tree/master/src/bin
-https://github.com/mjansche/thrax/blob/master/src/grammars/paradigms_and_features.grm
-https://github.com/mjansche/tts-tutorial
-https://github.com/google/sparrowhawk/blob/master/documentation/grammars/en_toy/classify/time.grm
-https://github.com/googlei18n/language-resources
-https://github.com/googlei18n/language-resources/tree/master/af/sparrowhawk
-https://github.com/googlei18n/language-resources
-https://github.com/googlei18n/language-resources/commit/2cee96582076fca6328e13063b96fc77c387cced
-https://github.com/googlei18n/language-resources/tree/master/festus
+[FstContrib](http://www.openfst.org/twiki/bin/view/Contrib/FstContrib)
 
-https://stackoverflow.com/questions/29253913/error-while-instaling-open-grm-thrax/30838354
-http://www.csee.ogi.edu/~sproatr/Courses/TextNorm/tutorial.html
+[OpenGrm Libraries](http://www.opengrm.org/twiki/bin/view/GRM/WebHome)
 
-https://bitbucket.org/dcavar/fle/src/80f1255e4498/src/?at=master
-https://bitbucket.org/dcavar/fle.git
+[OpenGrm Thrax Grammar Compiler](http://www.opengrm.org/twiki/bin/view/GRM/ThraxQuickTour)
 
-https://languagemachines.github.io/ucto/
-https://bitbucket.org/dcavar/fle/src/80f1255e449845dc626112f70cf2e85686568ed7/src/XLEMORPHOLOGY/?at=master
-https://bitbucket.org/dcavar/fle/src/80f1255e449845dc626112f70cf2e85686568ed7/src/xle_grammar1.txt?at=master&fileviewer=file-view-default
+[OpenGrm Thrax tools](http://www.opengrm.org/twiki/bin/view/Contrib/ThraxContrib)
 
-https://gorilla.linguistlist.org/software/
-https://bitbucket.org/dcavar/treebankparsersa/overview
+[mjansche/tts-tutorial](https://github.com/mjansche/tts-tutorial)
 
-https://clarino.uib.no/redmine/projects/inesspublic/wiki/NorGram_documentation/15
+[google/sparrowhawk](https://github.com/google/sparrowhawk)
 
-http://www.fb10.uni-bremen.de/khwagner/lfg/pdf/wescoat.pdf
+[google/language-resources](https://github.com/google/language-resources)
 
-http://ling.uni-konstanz.de/pages/home/butt/main/material/gd-lesson2.pdf
-Example
- S --> NP: (^ SUBJ)=!
+[Free Linguistic Environment](https://gorilla.linguistlist.org/software/) -- a grammar engineering platform for LFG. [git](https://bitbucket.org/dcavar/fle/src/master/)
+
+[dcavar/treebankparsersa](https://bitbucket.org/dcavar/treebankparsersa/overview) -- This is a tool that reads treebank files and generates a probabilistic grammar for use in FLE.
+
+[Practical Instructions for Working with LFG](http://www.fb10.uni-bremen.de/khwagner/lfg/pdf/wescoat.pdf)
+
+[Grammar Development with LFG and XLE](http://ling.uni-konstanz.de/pages/home/butt/main/material/gd-lesson2.pdf)
+
+```
+S --> NP: (^ SUBJ)=!
  (! CASE)=NOM;
  VP: ^=!.
 
@@ -41,7 +38,7 @@ Example
 VP --> V: ^=!; "head"
  (NP: (^ OBJ)=! "() = optionality"
  (! CASE)=ACC)
- PP*: ! $ (^ ADJUNCT). "$ = set, * = Kleene star”
+ PP*: ! $ (^ ADJUNCT). "$ = set, * = Kleene star"
+```
 
-
-https://github.com/astorfi/TensorFlow-World
+[astorfi/TensorFlow-World](https://github.com/astorfi/TensorFlow-World) -- Simple and ready-to-use tutorials for TensorFlow
