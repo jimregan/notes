@@ -12,3 +12,6 @@ categories: [links]
 - disable `group_by_length` if there's a long delay before training starts
   - Made no difference to the outcome
 
+---
+
+{% twitter https://www.youtube.com/watch?v=V29OhkbzwuQ %}
