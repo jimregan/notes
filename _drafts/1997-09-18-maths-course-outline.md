@@ -1,48 +1,44 @@
 ---
+toc: false
+layout: post
+hidden: true
+description: Notes from 1997
+title: Maths course outline
+categories: [college notes]
 ---
 
-[1. Foundation Systems (Numeration Systems)]{.span0}
+1. Foundation Systems (Numeration Systems)
 
-[2. Logic]{.span0}
+2. Logic
 
-[3. Sets and Relations]{.span0}
+3. Sets and Relations
 
-[4. Vectors and Matrix Algebra]{.span0}
+4. Vectors and Matrix Algebra
 
-[5. Calculus]{.span0}
+5. Calculus
 
-[6. Statistics]{.span0}
+6. Statistics
 
-[7. Integers, Semi Groups and Groups]{.span0}
+7. Integers, Semi Groups and Groups
 
-[]{.span0}
 
-[(If available) Essential Computer Mathematics]{.span0}
 
-[Seymour Lipschutz - Schaun Outline Series]{.span0}
+(If available) _Essential Computer Mathematics_
+Seymour Lipschutz
+Schaun Outline Series
 
-[]{.span0}
+_Discrete Mathematics for Computing_
+Peter Grossman
+ISBN 0 333 646 94 0
+Macmillan Press Ltd
 
-[Discrete Mathematics for Computing ]{.span0}
+_Mathematics for Computing_
+McKeon Smith
 
-[Peter Grossman]{.span0}
+Any book on discrete mathematics
 
-[ISBN 0 333 646 94 0]{.span0}
 
-[Macmillan Press Ltd]{.span0}
 
-[]{.span0}
+20% X-Mas
 
-[Mathematics for Computing]{.span0}
-
-[McKeon Smith]{.span0}
-
-[]{.span0}
-
-[Any book on discrete mathematics]{.span0}
-
-[]{.span0}
-
-[20% X-Mas]{.span0}
-
-[5% 2 Midterms (Nov, Mar)]{.span0}
+5% 2 Midterms (Nov, Mar)
