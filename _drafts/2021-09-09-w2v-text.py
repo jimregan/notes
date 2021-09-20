@@ -61,6 +61,7 @@ def remove_special_characters(batch):
     batch["text"] = batch["text"].replace("’", "'")
     batch["text"] = batch["text"].replace("(Tor@m)", "")
     batch["text"] = re.sub(chars_to_ignore_regex, '', irish_lc(batch["text"]))
+    batch["text"] = re.sub(' +$', '', batch["text"])
     batch["text"] = batch["text"].replace("\xa0", " ")
     batch["text"] = batch["text"].replace("\ufeff", "")
     batch["text"] = batch["text"].replace("1983", "naoi déag ochtó a trí")
@@ -365,7 +366,7 @@ from transformers import TrainingArguments
 
 training_args = TrainingArguments(
   output_dir="/home/jim/w2v-out",
-  group_by_length=False,
+  group_by_length=True,
   per_device_train_batch_size=16,
   gradient_accumulation_steps=2,
   evaluation_strategy="steps",
