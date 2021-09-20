@@ -20,4 +20,4 @@ categories: [links]
 
 ---
 
-{% twitter https://www.youtube.com/watch?v=V29OhkbzwuQ %}
+{% youtube https://www.youtube.com/watch?v=V29OhkbzwuQ %}
