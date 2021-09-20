@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Paper by Geoff Cumming
-title: The New Statistics: Why and How
+title: The New Statistics\: Why and How
 categories: [journal club]
 ---
 
@@ -23,6 +23,8 @@ note ={PMID: 24220629}
 }
 ```
 
+The problem:
+
 > ## Research Integrity
 >
 > - Published research is a biased selection of all 
@@ -30,6 +32,7 @@ note ={PMID: 24220629}
 > - data analysis and reporting are often selective and 
 > biased; and
 > - in many research fields, studies are rarely replicated, so false conclusions persist.
+
 
 > a decision to report 
 > research _\[...\]_
@@ -41,7 +44,7 @@ Agree, but...
 > make a commitment to report research in advance of 
 > conducting it
 
-Eh.
+Not sure I agree.
 
 > No 
 > matter how intriguing, however, the results of such pilot 
@@ -49,3 +52,6 @@ Eh.
 
 Strongly disagree.
 
+
+
+[PHONEME TRANSPOSITION AND TEMPORAL ENCODING IN HUMAN SPEECH RECOGNITION](https://osf.io/852bz) - example pre-registration that seems relevant to the lab.
