@@ -14,4 +14,10 @@ categories: [links]
 
 ---
 
+[ASR Systems as Models of Phonetic Category Perception in Adults](https://osf.io/f6ubg/)
+
+[PHONEME TRANSPOSITION AND TEMPORAL ENCODING IN HUMAN SPEECH RECOGNITION](https://osf.io/852bz)
+
+---
+
 {% twitter https://www.youtube.com/watch?v=V29OhkbzwuQ %}
