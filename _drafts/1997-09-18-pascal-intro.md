@@ -1,91 +1,73 @@
 ---
+toc: false
+layout: post
+hidden: true
+description: Notes from 1997
+title: Pascal, Introduction to programming
+categories: [college notes]
 ---
 
-[Introduction to Programming]{.span0}
 
-[]{.span1}
+## Introduction to Programming
 
-[Computer programmable electronic device that can store information,
-]{.span1}
+**Computer** -- programmable electronic device that can store information,
+process it and display results
 
-[ process it and display results]{.span1}
+**Hardware** -- Any physical component
 
-[]{.span1}
+**Software** -- set of instruction which enables computer to perform
+functions
 
-[Hardware Any physical component]{.span1}
+### History
 
-[]{.span1}
+- Newgrange, abacus -- 2000 years
 
-[Software set of instruction which enables computer to perform
-functions]{.span1}
+- Logarithms -- 1500 years
 
-[]{.span1}
+- Pascal's adder, Leibnitz calculator -- 1600s
 
-[]{.span1}
+- [Jacquard's Loom](https://en.wikipedia.org/wiki/Jacquard_machine) -- 1801
 
-[History]{.span0}
+- [Difference machine](https://en.wikipedia.org/wiki/Difference_engine), [Analytical engine](https://en.wikipedia.org/wiki/Analytical_Engine) -- 1820s
 
-[]{.span1}
+- Hollerith equipment -- 1900
 
-[Newgrange, abacus - 2000 years           .]{.span1}
+- Mark 1 -- 1944
 
-[Logarithms  - 1500 years]{.span1}
+- [Atanasoff Berry Computer](https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer) -- 1942
 
-[Pascal\'s adder, Leibnitz calculator - 1600s
-                                      .]{.span1}
 
-[Jacquard\'s Loom - 1801               .]{.span1}
+Input    \--\>
 
-[Difference machine, Analytical engine - 1820s
-                                           .]{.span1}
+[CPU 
 
-[Hollierth equipment - 1900                   .]{.span1}
+[ \--\>Secondary                       .
 
-[Mark 1 - 1944 .]{.span1}
+[\<\-- Memory                          .  
 
-[Atanasoff Berry Computer - 1942                            .]{.span1}
+[(CU, ALU, Main Memory)
 
-[]{.span1}
+[ Output\<\--
 
-[]{.span1}
 
-[ Input    \--\>]{.span1}
 
-[CPU ]{.span1}
+CPU -- all calculations and manipulations carried out
 
-[ \--\>Secondary                       .]{.span1}
+- CU takes instructions in given sequence 
 
-[\<\-- Memory                          .  ]{.span1}
+  - controls movement of data inside computer
 
-[(CU, ALU, Main Memory)]{.span1}
+- ALU performs mathematical functions & logical decisions
 
-[ Output\<\--]{.span1}
+- Main memory allows data to be stored for processing & holds
+results
 
-[]{.span1}
 
-[CPU all calculations and manipulations carried out]{.span1}
 
-[]{.span1}
 
-[CU takes instructions in given sequence ]{.span1}
 
-[ controls movement of data inside computer]{.span1}
 
-[]{.span1}
 
-[ALU performs mathematical functions & logical decisions]{.span1}
+[The Sundays - Summertime](https://www.youtube.com/watch?v=Z778slDEsds)
 
-[]{.span1}
-
-[Main memory allows data to be stored for procesing & holds
-results]{.span1}
-
-[]{.span1}
-
-[]{.span1}
-
-[]{.span1}
-
-[The Sundays - summertime]{.span2}
-
-[The Pastels - The Hits Hurt]{.span2}
+[The Pastels - The Hits Hurt](https://www.youtube.com/watch?v=MHnsb1GlS6A)

@@ -1,20 +1,21 @@
 ---
+toc: false
+layout: post
+hidden: true
+description: Notes from 1997
+title: Pascal Books
+categories: [college notes]
 ---
 
-[Turbo Pascal - Programming & Problem Solving]{.span0}
 
-[]{.span0}
+_Turbo Pascal - Programming & Problem Solving_
 
-[(Library) Introduction to Pascal, Welsh Elder 3rd ed. 1988]{.span0}
+(Library) _Introduction to Pascal_, Welsh Elder 3rd ed. 1988
+Prentice Hall 
+0-13-491549-6
 
-[Prentice Hall ]{.span0}
 
-[0-13-491549-6]{.span0}
 
-[]{.span0}
-
-[(library) Simple Pascal McGregor Watt 1989]{.span0}
-
-[Pitman]{.span0}
-
-[0-273-01704-7]{.span0}
+(library) _Simple Pascal_ McGregor Watt 1989
+Pitman
+0-273-01704-7
