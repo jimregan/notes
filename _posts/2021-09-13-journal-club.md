@@ -2,56 +2,23 @@
 toc: false
 layout: post
 hidden: true
-description: Paper by Geoff Cumming
-title: The New Statistics Why and How
+description: Paper by Martina Caccia and Maria Luisa Lorusso
+title: The processing of rhythmic structures in music and prosody by children with developmental dyslexia and developmental language disorder
 categories: [journal club]
 ---
 
-[The New Statistics: Why and How](https://journals.sagepub.com/doi/10.1177/0956797613504966)
+[The processing of rhythmic structures in music and prosody by children with developmental dyslexia and developmental language disorder](https://onlinelibrary.wiley.com/doi/epdf/10.1111/desc.12981)
 
 ```bibtex
-@article{cumming2014newstatistics,
-author = {Geoff Cumming},
-title ={The New Statistics: Why and How},
-journal = {Psychological Science},
-volume = {25},
+@article{caccia2021process,
+author = {Caccia, Martina and Lorusso, Maria Luisa},
+title = {The processing of rhythmic structures in music and prosody by children with developmental dyslexia and developmental language disorder},
+journal = {Developmental Science},
+volume = {24},
 number = {1},
-pages = {7-29},
-year = {2014},
-doi = {10.1177/0956797613504966},
-note ={PMID: 24220629}
+pages = {e12981},
+doi = {https://doi.org/10.1111/desc.12981},
+year = {2021}
 }
+
 ```
-
-The problem:
-
-> ## Research Integrity
->
-> - Published research is a biased selection of all 
-> research;
-> - data analysis and reporting are often selective and 
-> biased; and
-> - in many research fields, studies are rarely replicated, so false conclusions persist.
-
-
-> a decision to report 
-> research _\[...\]_
-> must be independent of the results.
-
-Agree, but...
-
-> The best way to ensure this is to 
-> make a commitment to report research in advance of 
-> conducting it
-
-Not sure I agree.
-
-> No 
-> matter how intriguing, however, the results of such pilot 
-> work rarely deserve even a brief mention in a report.
-
-Strongly disagree.
-
-
-
-[PHONEME TRANSPOSITION AND TEMPORAL ENCODING IN HUMAN SPEECH RECOGNITION](https://osf.io/852bz) - example pre-registration that seems relevant to the lab.
