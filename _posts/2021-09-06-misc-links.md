@@ -29,3 +29,20 @@ Huggingface: [KBLab](https://huggingface.co/KBLab)
 
 [superb benchmark models](https://huggingface.co/superb)
 
+---
+
+Scraping notes:
+
+[Gaelchultúr eolaire](https://www.gaelchultur.com/ga/eolaire_ac.aspx)
+
+Cogg: [Áiseanna Tacaíochta don Oideachas Speisialta](https://www.cogg.ie/aiseanna-tacaiochta-don-oideachas-speisialta/),
+[Bain Súp As](https://www.cogg.ie/bain-sup-as/)
+
+TG4: [an-scoil/reamhobair](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/an-scoil/reamhobair/),
+[cursai-idirnaisiunta/reamhobair/](tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/cursai-idirnaisiunta/reamhobair/),
+[fadhbanna/reamhobair/](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/fadhbanna/reamhobair/),
+[cursai-timpeallachta](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/cursai-timpeallachta/),
+[cursai-airgid/mir-a-do](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/cursai-airgid/mir-a-do/),
+[ponc/ponc-reamhobair](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/ponc/ponc-reamhobair/)
+
+[Fís agus Foghlaim](https://www.youtube.com/playlist?list=PL7wLVDMegS1RwEu_jnVOPwtl1UVSLdKpH)
