@@ -4,7 +4,7 @@ layout: post
 hidden: true
 description: Misc. interesting things.
 title: Interesting links, 6/9/2021
-categories: [links]
+categories: [links, scraping]
 ---
 
 [Kungbib/swedish-bert-models](https://github.com/Kungbib/swedish-bert-models).
@@ -36,7 +36,8 @@ Scraping notes:
 [Gaelchultúr eolaire](https://www.gaelchultur.com/ga/eolaire_ac.aspx)
 
 Cogg: [Áiseanna Tacaíochta don Oideachas Speisialta](https://www.cogg.ie/aiseanna-tacaiochta-don-oideachas-speisialta/),
-[Bain Súp As](https://www.cogg.ie/bain-sup-as/)
+[Bain Súp As](https://www.cogg.ie/bain-sup-as/),
+[Leabhair Dhigiteacha](https://www.cogg.ie/leabhair-dhigiteacha-2/)
 
 TG4: [an-scoil/reamhobair](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/an-scoil/reamhobair/),
 [cursai-idirnaisiunta/reamhobair/](tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/cursai-idirnaisiunta/reamhobair/),
@@ -46,3 +47,11 @@ TG4: [an-scoil/reamhobair](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtann
 [ponc/ponc-reamhobair](https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/ponc/ponc-reamhobair/)
 
 [Fís agus Foghlaim](https://www.youtube.com/playlist?list=PL7wLVDMegS1RwEu_jnVOPwtl1UVSLdKpH)
+
+[Comhar](https://comhar.ie/)
+
+[Coiscéim](http://www.coisceim.ie/)
+
+Club Leabhar: [PODCHRAOLTAÍ LÉIRMHEASTÓIREACHTA AR LEABHAIR NA MÍOSA](https://www.clubleabhar.com/Eolas.aspx?kd=Nuacht&Lang=ga),
+[AGALLAIMH ATÁ DÉANTA AGAINN LE HÚDAIR AGUS LE CRITICEOIRÍ LITEARTHA](https://www.clubleabhar.com/Eolas.aspx?kd=Interviews&Lang=ga),
+[Tintin mar charachtar an scéil](https://www.clubleabhar.com/Foram/Topaic.aspx?id=877)
