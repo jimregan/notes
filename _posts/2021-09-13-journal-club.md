@@ -20,3 +20,5 @@ categories: [journal club]
 }
 ```
 
+[Phonological Corpus of Czech](https://ujc.avcr.cz/phword/) -- seems similar enough to the described corpus for Czech.
+
