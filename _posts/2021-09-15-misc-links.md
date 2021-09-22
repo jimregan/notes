@@ -45,3 +45,16 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
 [BirgerMoell/tmh](https://github.com/BirgerMoell/tmh)
 
 [as-ideas/DeepPhonemizer](https://github.com/as-ideas/DeepPhonemizer)
+See: [Transformer based Grapheme-to-Phoneme Conversion](https://arxiv.org/abs/2004.06338)
+
+[Unifying Speech and Gesture Synthesis](https://www.unite.ai/unifying-speech-and-gesture-synthesis/)
+
+[Locals create CD-ROM celebrating Gaeltacht area of Dun Chaochain](https://www.irishtimes.com/news/locals-create-cd-rom-celebrating-gaeltacht-area-of-dun-chaochain-1.210322)
+
+Facebook's latest:
+[Textless NLP: Generating expressive speech from raw audio](https://ai.facebook.com/blog/textless-nlp-generating-expressive-speech-from-raw-audio)
+[Demo](https://speechbot.github.io/pgslm/)
+[Code](https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp),
+[Generative Spoken Language Modeling from Raw Audio](https://arxiv.org/abs/2102.01192),
+[Speech Resynthesis from Discrete Disentangled Self-Supervised Representations](https://arxiv.org/abs/2104.00355),
+[Text-Free Prosody-Aware Generative Spoken Language Modeling](https://arxiv.org/abs/2109.03264)
