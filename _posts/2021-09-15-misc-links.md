@@ -61,3 +61,10 @@ Facebook's latest:
 
 [AIdeaLab/wav2vec2_docker](https://github.com/AIdeaLab/wav2vec2_docker) -- pretraining wav2vec docker for sagemaker
 
+[as-ideas/DeepForcedAligner](https://github.com/as-ideas/DeepForcedAligner)
+
+[citizensinformation.ie mojibake](https://www.citizensinformation.ie/ga/reuse_psi.html)
+
+[kingabzpro/fine-tuning-xlsr-wav2vec2-for-wolof-asr-with](https://www.kaggle.com/kingabzpro/fine-tuning-xlsr-wav2vec2-for-wolof-asr-with)
+
+[ceyda/wav2vec2-base-760](https://huggingface.co/ceyda/wav2vec2-base-760) -- Turkish wav2vec2 base model
