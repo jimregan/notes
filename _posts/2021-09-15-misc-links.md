@@ -70,3 +70,11 @@ Facebook's latest:
 [ceyda/wav2vec2-base-760](https://huggingface.co/ceyda/wav2vec2-base-760) -- Turkish wav2vec2 base model
 
 [Excessive GPU-GPU communication with GPT2 making multi-GPU training slow?](https://github.com/huggingface/transformers/issues/9371)
+
+[Vosk LM](https://alphacephei.com/vosk/lm)
+
+[Svito-zar/gesticulator](https://github.com/Svito-zar/gesticulator)
+
+`run_cleanup_segmentation.sh` from [malach](https://github.com/kaldi-asr/kaldi/blob/master/egs/malach/s5/local/run_cleanup_segmentation.sh), based on
+[AMI](https://github.com/kaldi-asr/kaldi/blob/master/egs/ami/s5b/local/run_cleanup_segmentation.sh), in turn based on
+[Tedlium](https://github.com/kaldi-asr/kaldi/blob/master/egs/tedlium/s5_r2/local/run_segmentation_long_utts.sh)
