@@ -19,7 +19,29 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
 
 [VoxLingua107: a Dataset for Spoken Language Recognition](https://arxiv.org/abs/2011.12998) -- no Irish
 
+[Appen/UHV-OTS-Speech](https://github.com/Appen/UHV-OTS-Speech) -- A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
+[Paper](https://openreview.net/forum?id=-OFOwaDriw7)
 
+[The Effects of Automatic Speech Recognition Quality on Human Transcription Latency](https://www.cs.cmu.edu/~fmetze/interACT/Publications_files/publications/asr_threshold_w4a.pdf)
 
+```bibtex
+@inproceedings{gaur16latency,
+  author    = {Yashesh Gaur and
+               Walter S. Lasecki and
+               Florian Metze and
+               Jeffrey P. Bigham},
+  editor    = {Gregory R. Gay and
+               Tiago Jo{\~{a}}o Guerreiro},
+  title     = {{The Effects of Automatic Speech Recognition Quality on Human Transcription Latency}},
+  booktitle = {Proceedings of the 13th Web for All Conference, {W4A} '16, Montreal,
+               Canada, April 11-13, 2016},
+  pages     = {23:1--23:8},
+  publisher = {{ACM}},
+  year      = {2016},
+  doi       = {10.1145/2899475.2899478},
+}
+```
 
+[BirgerMoell/tmh](https://github.com/BirgerMoell/tmh)
 
+[as-ideas/DeepPhonemizer](https://github.com/as-ideas/DeepPhonemizer)
