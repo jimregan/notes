@@ -68,3 +68,5 @@ Facebook's latest:
 [kingabzpro/fine-tuning-xlsr-wav2vec2-for-wolof-asr-with](https://www.kaggle.com/kingabzpro/fine-tuning-xlsr-wav2vec2-for-wolof-asr-with)
 
 [ceyda/wav2vec2-base-760](https://huggingface.co/ceyda/wav2vec2-base-760) -- Turkish wav2vec2 base model
+
+[Excessive GPU-GPU communication with GPT2 making multi-GPU training slow?](https://github.com/huggingface/transformers/issues/9371)
