@@ -58,3 +58,6 @@ Facebook's latest:
 [Generative Spoken Language Modeling from Raw Audio](https://arxiv.org/abs/2102.01192),
 [Speech Resynthesis from Discrete Disentangled Self-Supervised Representations](https://arxiv.org/abs/2104.00355),
 [Text-Free Prosody-Aware Generative Spoken Language Modeling](https://arxiv.org/abs/2109.03264)
+
+[AIdeaLab/wav2vec2_docker](https://github.com/AIdeaLab/wav2vec2_docker) -- pretraining wav2vec docker for sagemaker
+
