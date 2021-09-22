@@ -78,3 +78,7 @@ Facebook's latest:
 `run_cleanup_segmentation.sh` from [malach](https://github.com/kaldi-asr/kaldi/blob/master/egs/malach/s5/local/run_cleanup_segmentation.sh), based on
 [AMI](https://github.com/kaldi-asr/kaldi/blob/master/egs/ami/s5b/local/run_cleanup_segmentation.sh), in turn based on
 [Tedlium](https://github.com/kaldi-asr/kaldi/blob/master/egs/tedlium/s5_r2/local/run_segmentation_long_utts.sh)
+
+[Numbers](http://www.nualeargais.ie/gnag/zahlen.htm)
+
+[Classroom materials](https://irishforparents.ie/classroom-materials/an-paiste/)
