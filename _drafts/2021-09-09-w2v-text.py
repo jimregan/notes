@@ -19,7 +19,7 @@ import os
 
 inputs = []
 for (path, dirs, files) in os.walk(dir):
-    if "/comhra/" in path:
+    if "/comhra" in path:
         continue
     if "corpusfile.txt" in files:
         inputs.append(os.path.join(path, "corpusfile.txt"))
@@ -411,4 +411,11 @@ trainer = Trainer(
 
 
 trainer.train()
+
+
+# In[ ]:
+
+
+trainer.save_model("/home/jim/w2v-test-run")
+tokenizer.save_pretrained("/home/jim/w2v-test-run")
 
