@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Todo list items
+title: ClarinPL SpeechTools links
+categories: [kaldi]
+---
+
 [ForcedAlign/run.sh](https://github.com/speech-clarin-pl/SpeechToolsWorkers/blob/master/speech_tools/tools/ForcedAlign/run.sh)
 
 ```bash
