@@ -89,4 +89,7 @@ categories: [links]
 
 [DeepFovea: Neural Reconstruction for Foveated Rendering and Video Compression using Learned Statistics of Natural Videos](https://research.fb.com/publications/deepfovea-neural-reconstruction-for-foveated-rendering-and-video-compression-using-learned-statistics-of-natural-videos/)
 
-[Textless NLP: Generating expressive speech from raw audio](https://ai.facebook.com/blog/textless-nlp-generating-expressive-speech-from-raw-audio)
+[PySimpleGUI/PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+
+[tyiannak/pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis)
+
