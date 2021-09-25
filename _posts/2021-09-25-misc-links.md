@@ -52,3 +52,29 @@ categories: [links]
 
 [keplr-io/quiver](https://github.com/keplr-io/quiver) --- Interactive convnet features visualization for Keras
 
+[asappresearch/sew](https://github.com/asappresearch/sew) --- SEW (Squeezed and Efficient Wav2vec)
+[Performance-Efficiency Trade-offs in Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/2109.06870)
+
+[Efficient Nearest Neighbor Language Models](https://arxiv.org/abs/2109.04212)
+
+[google/fnet-base](https://huggingface.co/google/fnet-base) --- FNet is a transformers model with attention replaced with fourier transforms
+
+[Block Pruning For Faster Transformers](https://arxiv.org/abs/2109.04838)
+
+[aterenin/phdthesis](https://github.com/aterenin/phdthesis)
+
+[pzelasko/kaldialign](https://github.com/pzelasko/kaldialign)
+
+[bytedance/music_source_separation](https://github.com/bytedance/music_source_separation)
+
+[mlflow/mlflow](https://github.com/mlflow/mlflow)
+
+[willmcgugan/rich](https://github.com/willmcgugan/rich) --- Rich is a Python library for rich text and beautiful formatting in the terminal.
+
+[smacke/ffsubsync](https://github.com/smacke/ffsubsync) --- Automagically synchronize subtitles with video.
+
+[chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) --- Turn (almost) any Python command line program into a full GUI application with one line
+
+[deanmalmgren/textract](https://github.com/deanmalmgren/textract)
+
+[scrapinghub/portia](https://github.com/scrapinghub/portia)
