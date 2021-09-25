@@ -3,13 +3,13 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2018-03-23-1
+title: Evernote web clips, 23/3/2018
 categories: [evernote, web clip]
 ---
 
 [Gangster’s paradise: how organised crime took over Russia](http://www.theguardian.com/news/2018/mar/23/how-organised-crime-took-over-russia-vory-super-mafia)
 
-[WIP: Segmenting long erroneous recordings by vimalmanohar · Pull Request #1167 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/1167/files)
+[WIP: Segmenting long erroneous recordings by vimalmanohar](https://github.com/kaldi-asr/kaldi/pull/1167/files)
 
 [vimalmanohar/kaldi](https://github.com/vimalmanohar/kaldi/blob/60062fdb0c01a4dd5247c8f85c8e1bb17b1ed842/egs/tedlium/s5_r2_wsj/local/tuning/run_segmentation_wsj_d.sh)
 
@@ -43,25 +43,21 @@ categories: [evernote, web clip]
 
 [tcsai/data-mining](https://github.com/tcsai/data-mining)
 
-[Add the diphone alignment system by akreal · Pull Request #90 · cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx/pull/90/commits/47deb5612fc953f13b73b90c89f6f17b5300ac3d)
+[Add the diphone alignment system by akreal](https://github.com/cmusphinx/pocketsphinx/pull/90/commits/47deb5612fc953f13b73b90c89f6f17b5300ac3d)
 
-[Add diphones acoustic model and dictionary by akreal · Pull Request #92 · cmusphinx/pocketsphinx](https://github.com/cmusphinx/pocketsphinx/pull/92)
+[Add diphones acoustic model and dictionary by akreal](https://github.com/cmusphinx/pocketsphinx/pull/92)
 
 [akreal/diphones](https://github.com/akreal/diphones)
 
-[[egs] Add modernized vystadial_cz recipe (#2278) · kaldi-asr/kaldi@b7f9446](https://github.com/kaldi-asr/kaldi/commit/b7f9446d2c7d246c177d6a6f669bc606d1181709)
+[Add modernized vystadial_cz recipe](https://github.com/kaldi-asr/kaldi/commit/b7f9446d2c7d246c177d6a6f669bc606d1181709)
 
-[Pretrained models · Issue #758 · mozilla/DeepSpeech](https://github.com/mozilla/DeepSpeech/issues/758)
-
-[Lektor Języka Angielskiego, Szkoła Języków Obcych ENJOY, Warszawa, mazowieckie](https://www.pracuj.pl/praca/lektor-jezyka-angielskiego-warszawa,oferta,5875312)
-
-[English Teacher, Accent for Professionals, Warszawa, mazowieckie](https://www.pracuj.pl/praca/english-teacher-warszawa,oferta,5879502)
+[Pretrained models](https://github.com/mozilla/DeepSpeech/issues/758)
 
 [GSByeon/multi-speaker-tacotron-tensorflow](https://github.com/GSByeon/multi-speaker-tacotron-tensorflow)
 
 [How to build a three-layer neural network from scratch](https://medium.freecodecamp.org/building-a-3-layer-neural-network-from-scratch-99239c4af5d3)
 
-[Prerequisites and Prework  |  Machine Learning Crash Course       |  Google Developers](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)
+[Prerequisites and Prework](https://developers.google.com/machine-learning/crash-course/prereqs-and-prework)
 
 [voicy-ai/DialogStateTracking](https://github.com/voicy-ai/DialogStateTracking)
 
@@ -79,9 +75,9 @@ categories: [evernote, web clip]
 
 [Machine learning in Perl | Sergey Kolychev [blogs.perl.org]](http://blogs.perl.org/users/sergey_kolychev/2017/02/machine-learning-in-perl.html)
 
-[(221) AN TRIAIL le Máiréad Ní Ghráda (2015) - YouTube](https://www.youtube.com/watch?v=BOhEBWVHvRo)
+[AN TRIAIL le Máiréad Ní Ghráda](https://www.youtube.com/watch?v=BOhEBWVHvRo)
 
-[Anna Heussaff ag léamh as SÁRÚ - YouTube](https://www.youtube.com/watch?v=N-11Hwb7JnQ&amp;feature=youtu.be&amp;utm_source=Website+checkout+subscribers&amp;utm_campaign=e97dd41095-EMAIL_CAMPAIGN_2018_02_27&amp;utm_medium=email&amp;utm_term=0_3e9aef06e6-e97dd41095-121126369)
+[Anna Heussaff ag léamh as SÁRÚ](https://www.youtube.com/watch?v=N-11Hwb7JnQ)
 
 [deepmipt/DeepPavlov](https://github.com/deepmipt/DeepPavlov)
 
