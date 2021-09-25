@@ -1498,6 +1498,17 @@
   
     
         ,"post136": {
+            "title": "Evernote web clips, 18/5/2012",
+            "content": "CMU Sphinx: Long audio aligner for foreign languages . A Tour of Scala: Sequence Comprehensions . ScalaNLP . VP trees: A data structure for finding stuff fast . Reading XML using Groovy’s XmlSlurper . R2R Framework – Translating RDF data from the Web to a target vocabulary . eldur/jwbf . TOPIC MODELING FOR WIKIPEDIA LINK DISAMBIGUATION .",
+            "url": "https://jimregan.github.io/notes/evernote/web%20clip/2012/05/18/evernote-links.html",
+            "relUrl": "/evernote/web%20clip/2012/05/18/evernote-links.html",
+            "date": " • May 18, 2012"
+        }
+        
+    
+  
+    
+        ,"post137": {
             "title": "Pascal, Software",
             "content": "Software . Two types - Operating Systems, Applications . O.S. – Set of instructions which control the computer — MS DOS, OS/2 . App. – Set of instructions to make computer perform specific tasks . Algorithm – set of instructions which lead to a solution . Program – algorithm expressed in a language thaat a computer can understand . Programs are all about data manipulation . must be able to store data &amp; instructions . | data and instructions stored in memory . | . Computer memory is a 2 state device – think of one state as 1, other as 0 – binary . Data and instructions are converted to binary using a coding scheme . Schemes – ASCII, EBCDIC . Programs are at levels, which depend on levels (how far away from the machine) . lowest – machine code . | next – assembler . | next – higher level language . | . Binary programming is difficult. Solutions to problems (programs) are usually written in English like structures called high level languages, which are converted to machine code using a compiler. . Source program (Pascal Statement) . | Compiler . | Object Program (Machine Language) . |",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/pascal-software.html",
@@ -1508,7 +1519,7 @@
     
   
     
-        ,"post137": {
+        ,"post138": {
             "title": "Pascal, Introduction to programming",
             "content": "Introduction to Programming . Computer – programmable electronic device that can store information, process it and display results . Hardware – Any physical component . Software – set of instruction which enables computer to perform functions . History . Newgrange, abacus – 2000 years . | Logarithms – 1500 years . | Pascal’s adder, Leibnitz calculator – 1600s . | Jacquard’s Loom – 1801 . | Difference machine, Analytical engine – 1820s . | Hollerith equipment – 1900 . | Mark 1 – 1944 . | Atanasoff Berry Computer – 1942 . | . Input    --&gt; CPU --&gt; Secondary &lt;-- Memory (CU, ALU, Main Memory) Output &lt;-- . CPU – all calculations and manipulations carried out . CU takes instructions in given sequence . controls movement of data inside computer | . | ALU performs mathematical functions &amp; logical decisions . | Main memory allows data to be stored for processing &amp; holds results . | .",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/pascal-intro.html",
@@ -1519,7 +1530,7 @@
     
   
     
-        ,"post138": {
+        ,"post139": {
             "title": "Pascal Books",
             "content": "Turbo Pascal - Programming &amp; Problem Solving . (Library) Introduction to Pascal, Welsh Elder 3rd ed. 1988 Prentice Hall 0-13-491549-6 . (library) Simple Pascal McGregor Watt 1989 Pitman 0-273-01704-7 .",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/pascal-books.html",
@@ -1530,7 +1541,7 @@
     
   
     
-        ,"post139": {
+        ,"post140": {
             "title": "Music",
             "content": "The Sundays - Summertime . The Pastels - The Hits Hurt . The Marbles - Car Crash . The Devlins - Waiting .",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/music.html",
@@ -1541,7 +1552,7 @@
     
   
     
-        ,"post140": {
+        ,"post141": {
             "title": "Maths course outline",
             "content": "Foundation Systems (Numeration Systems) . | Logic . | Sets and Relations . | Vectors and Matrix Algebra . | Calculus . | Statistics . | Integers, Semi Groups and Groups . | (If available) Essential Computer Mathematics Seymour Lipschutz Schaun Outline Series . Discrete Mathematics for Computing Peter Grossman ISBN 0 333 646 94 0 Macmillan Press Ltd . Mathematics for Computing McKeon Smith . Any book on discrete mathematics . 20% X-Mas . 5% 2 Midterms (Nov, Mar) .",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/maths-course-outline.html",
@@ -1552,7 +1563,7 @@
     
   
     
-        ,"post141": {
+        ,"post142": {
             "title": "Business systems, course outline",
             "content": "CP102 . Business Systems . Course Outline . Topic 1  - Business Organisations . Business functions (work areas) | . Topic 2  - Nature of Management . Topic 3  - Business and its external environment . Topic 4  - Corporate strategy and planning . Topic 5  - Organising . Topic 6  - Directing . Topic 7  - Controlling . Topic 8  - Marketing and sales management . Topic 9  - Production and operations management . Topic 10  - Human Resource Management . Topic 11  - Administration Management . Topic 12  - Role of the Systems Analyst . Topic 13  - Organisations and information . Topic 14  - Project feasibility and management . Topic 15  - Data collection and sampling . Topic 16  - Methods of Communication . Topic 17  - Interviews . Topic 18  - Questionnaires . Topic 19  - Prototyping . Topic 20  - Presentations . Topic 21  - The systems life cycle . Topic 22  - Systems analysis and design tools . Topic 23 - File management . Assessment . Continuous Assessment Excercises (30%) . Final Written Examination (70%) - 2 hours . Course Texts . Modern Business Administration Robert C Appelby (6th Edition) Pitman Publishing 1994 ISBN 0-273-60282-9 . Systems Analysis And Design K.E. Kendall &amp; J.E. Kendall (Third Edition) Prentice-Hall, 1995 .",
             "url": "https://jimregan.github.io/notes/college%20notes/1997/09/18/bus-sys-course-outline.html",
@@ -1563,7 +1574,7 @@
     
   
     
-        ,"post142": {
+        ,"post143": {
             "title": "Tortured teenage scribblings",
             "content": "Jimmy had been camping at Richard’s house after the Trax, and the next day Eccentric were auditioning singers (they fired PJ - crap). He said they taught him a thousand riffs he forgot, and that they’re sound &amp; said we can use their equipment any time we want. Jimmy tried out as their singer, but they don’t play “his music”. One guy came in, they played Die Laughing, he hadn’t a clue so he started doing a death metal growl: “Eh… it’s Therapy?” “Oh… I thought it sounded punky”. . Sat. we were here, &amp; Paul C came over. Chatted. He’s going to the Gaeltacht by himself today. Willie &amp; Liam Dunne are going in a few weeks. He’s going to Feothanach. (Joe went there). .",
             "url": "https://jimregan.github.io/notes/old%20diary/1996/07/01/tortured-teenage-scribblings.html",
@@ -1574,7 +1585,7 @@
     
   
     
-        ,"post143": {
+        ,"post144": {
             "title": "The Easter Holidays",
             "content": "The first few days of the Easter Holidays were quite uneventful. I sat around all day watching TV. Then on Holy Thursday I had to pack messages at Crazy Prices. This was quite boring too. I had to do it again on Easter Saturday. At lunch time we were eating at the Apollo. I had finished. One of the lads asked my patrol leader to pass the vinegar. As he was doing this he knocked the leader’s coffee on top of me. That evening, after I found out we had no scouts, I went into Romcos and played my first ever game of Street Fighter 2. The next day we went on a parade to mass. . The next Sunday we went climbing Galteemore. I almost died of tiredness on the way up and from the idiots from other units on the way down. But when we got to the bottom we stopped for a rest and we played on a heather-covered hill. Then we went to our buses. . When I got home I found that I had missed both episodes of “The Simpsons” and after a while I watched Mr Bean. . Then, after a couple of hours I went to sleep, dreading school the next day. .",
             "url": "https://jimregan.github.io/notes/old%20diary/1993/04/18/tortured-teenage-scribblings.html",
