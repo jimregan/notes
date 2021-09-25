@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2020-08-30
+title: Evernote web clips, 30/8/2020
 categories: [evernote, web clip]
 ---
 
@@ -13,5 +13,5 @@ categories: [evernote, web clip]
 
 [Festival Speech Synthesis System - 13 Lexicons](http://www.cstr.ed.ac.uk/projects/festival/manual/festival_13.html)
 
-[awslabs/mlm-scoring: Python library &amp; examples for Masked Language Model Scoring (ACL 2020)](https://github.com/awslabs/mlm-scoring)
+[awslabs/mlm-scoring](https://github.com/awslabs/mlm-scoring)
 
