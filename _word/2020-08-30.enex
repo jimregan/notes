@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211025T203141Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Language-Agnostic BERT Sentence Embedding</title>
+    <created>20200830T192741Z</created>
+    <updated>20200830T202024Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html</source-url>
+      <source-application>android.clipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>493</width>
+      <height>307</height>
+      <resource-attributes>
+        <file-name>261c73db2ef09efddf901d759b400289.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+3dc3cc1c3ea01c02d44aead052772b0a+https://www.evernote.com/shard/s160/res/1a315b1b-b895-4dcb-ac00-a1c7ef28bcc4</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>640</width>
+      <height>298</height>
+      <resource-attributes>
+        <file-name>1c03f8c9145038c2e37c15facc86dad5.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+4bc7d1597bd6a0619c43e4fb9270ab8d+https://www.evernote.com/shard/s160/res/7e57ae82-cfb7-4762-a073-3f1f8670ae7a</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>a4381bbc7f0d4369bfbed84444c49772.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+4e2633eb72f2026ba8464540a445a45f+https://www.evernote.com/shard/s160/res/0c39b45b-6530-47fb-83e4-7b2f0b727c9c</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>198855dabb1571e498f6125318f3dc8f.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+a4a815e062b3a04ad2cb425115438650+https://www.evernote.com/shard/s160/res/a0fe6747-f5e9-4933-bb53-d00a2ee63bb6</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>640</width>
+      <height>286</height>
+      <resource-attributes>
+        <file-name>cb5ecca5dc425e01ebf534b4a0d4839e.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+b12a8f55a1f6398013a99ffbcd57daa0+https://www.evernote.com/shard/s160/res/ca680f4d-60ca-480f-983f-da85304c29c2</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/gif</mime>
+      <width>489</width>
+      <height>161</height>
+      <resource-attributes>
+        <file-name>eb2e2e71a065407819b7021f2527b2d1.gif</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+d2bcdd9c46c1585435b3608c97e00b28+https://www.evernote.com/shard/s160/res/2b312d7c-41c3-449a-85f7-6a3d64899035</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>344</width>
+      <height>209</height>
+      <resource-attributes>
+        <file-name>f9c57f3b236ab4b1c2eb8375441c116e.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+1e17b012-51ab-4009-9d4c-6deea09a7024+dfbdead6e47c7af6c0644712e49c0513+https://www.evernote.com/shard/s160/res/03acab97-0d7a-45a7-a188-a8af684eee72</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>End-to-End Automatic Pronunciation Error Detection Based on Improved Hybrid CTC/Attention Architecture</title>
+    <created>20200829T161157Z</created>
+    <updated>20200829T161402Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7180994/</source-url>
+      <source-application>android.clipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>740</width>
+      <height>454</height>
+      <resource-attributes>
+        <file-name>261fefc5a3fb96b4a0a0cf8ecef4e215.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+0322d986e9ad1baec8e55ed4a6b0ba84+https://www.evernote.com/shard/s160/res/bdf51561-9e86-4c91-8056-798bc29e8f72</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>794</width>
+      <height>344</height>
+      <resource-attributes>
+        <file-name>7863c9b395907cc7ed5ad51e550e7d7a.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+056bef78ec3e850fa6d6107bc7320cda+https://www.evernote.com/shard/s160/res/58d4707a-a428-4f63-8977-5f67f5ba2def</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>780</width>
+      <height>1198</height>
+      <resource-attributes>
+        <file-name>b3d2410a108af86233405f06d72f7460.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+410c714f33f9d2a47b071b6defdf76b3+https://www.evernote.com/shard/s160/res/b1bc4836-d31a-4c7c-a0f4-c9a42228f584</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>724</width>
+      <height>335</height>
+      <resource-attributes>
+        <file-name>92fb4e5ce868938e71dbaf61f43687e8.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+4a2c0dcb50af610eb359d3b9da9b378b+https://www.evernote.com/shard/s160/res/d7cbd27a-f234-4db7-885a-bd4f8516de64</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>725</width>
+      <height>298</height>
+      <resource-attributes>
+        <file-name>1e36d7fd72e7ab49aac43697588e97f4.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+6b884d7f788b7303ddd60aa75a44421a+https://www.evernote.com/shard/s160/res/00d4d9b0-fd56-4c93-838b-f96c588c7881</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>781</width>
+      <height>329</height>
+      <resource-attributes>
+        <file-name>ea8b65245a05321ffcef73cf4085ed37.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+76073400dd7a00cc49c69908fa45e429+https://www.evernote.com/shard/s160/res/a74ccc90-ded7-4465-ab8e-a9798b1ac027</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>682</width>
+      <height>520</height>
+      <resource-attributes>
+        <file-name>3ea7f1cfb0c55eb2b833516d8f9caa58.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+6da42b15-36f6-472b-a24f-74fc73742312+951175e392b86ce419932cdbd24d4f6e+https://www.evernote.com/shard/s160/res/f06abee8-f4c9-4b23-bb60-6794d12e45ba</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Festival Speech Synthesis System - 13 Lexicons</title>
+    <created>20200811T152311Z</created>
+    <updated>20200811T152311Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>http://www.cstr.ed.ac.uk/projects/festival/manual/festival_13.html</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>awslabs/mlm-scoring: Python library &amp; examples for Masked Language Model Scoring (ACL 2020)</title>
+    <created>20200811T084405Z</created>
+    <updated>20200811T084405Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>https://github.com/awslabs/mlm-scoring</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1462</width>
+      <height>562</height>
+      <resource-attributes>
+        <file-name>mlm-scoring.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+2ee8bf20-e42c-4431-a6e7-2fbbef1d6285+9973f00918a48341177dacc6a40c40f8+https://www.evernote.com/shard/s160/res/75a0d67c-bda2-479b-9f26-da812ce2bb53</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>
