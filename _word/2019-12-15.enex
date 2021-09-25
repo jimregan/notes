@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211025T212536Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Controlling Text Generation with Plug and Play Language Models | Uber Engineering Blog</title>
+    <created>20191215T082957Z</created>
+    <updated>20191215T082957Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>https://eng.uber.com/pplm/</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>534</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>image14-1-534x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+2a7e564802c71d745c4e32ee0071c4b3+https://www.evernote.com/shard/s160/res/56d15c83-a91f-4f7f-8f04-a1649a59b75e</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>150</width>
+      <height>150</height>
+      <resource-attributes>
+        <file-name>Piero-Molino-150x150.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+306fcd2f8391e0afca4946c1cca537e5+https://www.evernote.com/shard/s160/res/285311a2-7f42-4950-ba87-bfb5c3eab59f</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>696</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>image12-3-696x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+431803819605dadcfb644a01ecf893b3+https://www.evernote.com/shard/s160/res/617aa83b-148b-4944-a023-1aa49fb2f8fb</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>696</width>
+      <height>417</height>
+      <resource-attributes>
+        <file-name>Screen-Shot-2019-12-04-at-5.37.06-PM-696x417.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+4aa646f872d6304096ea4f86895a1282+https://www.evernote.com/shard/s160/res/64822738-edf2-493d-8ea0-3cf296f9ebc7</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>545</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>Screen-Shot-2019-12-04-at-5.37.55-PM-545x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+538dcb03a9751dcfe58e5b2181ca5765+https://www.evernote.com/shard/s160/res/bc5e7b8d-1cce-4abb-9467-d1f88b8628db</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>696</width>
+      <height>298</height>
+      <resource-attributes>
+        <file-name>Header-696x298.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+61697e18d99182fbed48fe4032a6e32a+https://www.evernote.com/shard/s160/res/135b16fb-4421-4095-a149-1ec09f75b5a7</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>150</width>
+      <height>150</height>
+      <resource-attributes>
+        <file-name>jason-yosinski-150x150.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+63c434444289941b1b0d43fd5bd49aae+https://www.evernote.com/shard/s160/res/e8f00b04-8cc6-440f-9409-51b62ca17d69</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>696</width>
+      <height>310</height>
+      <resource-attributes>
+        <file-name>image5-1-696x310.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+8fc8af956b4aa84a3889eee966ec41eb+https://www.evernote.com/shard/s160/res/40f5f5d4-e778-4275-9e46-ec0102a9d007</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>696</width>
+      <height>233</height>
+      <resource-attributes>
+        <file-name>image4-696x233.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+a7a91b12bb03d21ec993dda650914485+https://www.evernote.com/shard/s160/res/37d50b6a-881a-4901-aece-3f337426cfbd</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>1688163_10152217792880907_758722905_n.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+ac9bedeb9c0e2c2c624b88e20b6cde0c+https://www.evernote.com/shard/s160/res/a8bbc90c-0a21-4f59-a215-ac940369266d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>51520549_3805156552858328_798642215139147776_n.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+acd959fb032f02c12796cbbca2b4e23e+https://www.evernote.com/shard/s160/res/4623a35e-fc0b-4c55-80ad-410e30de4a28</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>565</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>Screen-Shot-2019-12-04-at-5.37.43-PM-565x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+c2372e203225224f2a838ee7a9bf44a5+https://www.evernote.com/shard/s160/res/7b0a8717-f06b-49f8-8da7-90c0efb5f6b3</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>150</width>
+      <height>150</height>
+      <resource-attributes>
+        <file-name>image3-150x150.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+c7897a6da3189067eafbb6d1be6046af+https://www.evernote.com/shard/s160/res/af849187-a4a5-4d49-b7ce-49d00d166823</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>96</width>
+      <height>96</height>
+      <resource-attributes>
+        <file-name>image3-96x96.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+cf4ae39343baf9cef5cff82c27e0caba+https://www.evernote.com/shard/s160/res/68ed1dfa-72a5-441f-97f5-3853071c079c</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>150</width>
+      <height>150</height>
+      <resource-attributes>
+        <file-name>image8-1-150x150.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+dc168a61da17157990c3a8fc56e324e6+https://www.evernote.com/shard/s160/res/eb68708c-e768-43c8-8abc-704dd20ae87c</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>696</width>
+      <height>233</height>
+      <resource-attributes>
+        <file-name>image7-696x233.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+f395794e375a550329a6273d564dee55+https://www.evernote.com/shard/s160/res/9d73ee90-f43c-41f4-961d-c6f7436ee16b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>462</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>Screen-Shot-2019-12-04-at-5.38.07-PM-462x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+f4b765d65d1af9609a27efbd08592d37+https://www.evernote.com/shard/s160/res/3eae6971-379b-432c-9685-5f4e7d52e562</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>572</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name>Screen-Shot-2019-12-04-at-5.37.25-PM-572x420.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+4fea2ed2-f689-4d79-a149-e93ec6aae756+f8c0989b48962d4961ebca34e5947c11+https://www.evernote.com/shard/s160/res/22c5f6e2-8ec1-49da-b572-b80e78cc6035</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>How To Code Modern Neural Networks Using Python and NumPy -- Visual Studio Magazine</title>
+    <created>20191215T082915Z</created>
+    <updated>20191215T082915Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>https://visualstudiomagazine.com/articles/2019/07/01/modern-neural-networks.aspx?m=1</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>300</width>
+      <height>347</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+7d742ca8-0215-467f-aef8-e30852fea1e3+68db7f0f7bd8470031e19a5153cd4680+https://www.evernote.com/shard/s160/res/cab6282d-f43c-47f2-a10b-a40ffc742ee8</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>647</width>
+      <height>450</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+7d742ca8-0215-467f-aef8-e30852fea1e3+6c22560f78949c45b67c69cc26e80b31+https://www.evernote.com/shard/s160/res/6ac958f1-890b-4846-9af3-6b800a6a4b5d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>300</width>
+      <height>168</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+7d742ca8-0215-467f-aef8-e30852fea1e3+f4a38a82e696ffbd459162f016ea457f+https://www.evernote.com/shard/s160/res/16181485-3d8d-43db-b63f-f40fc4ba48d2</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>How To Code Modern Neural Networks Using Python and NumPy -- Visual Studio Magazine</title>
+    <created>20191213T114350Z</created>
+    <updated>20191213T114350Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>https://visualstudiomagazine.com/articles/2019/07/01/modern-neural-networks.aspx?m=1</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>300</width>
+      <height>347</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+8f7297fc-641b-4b8c-89a4-ea0ab0c5855b+68db7f0f7bd8470031e19a5153cd4680+https://www.evernote.com/shard/s160/res/8e72dff1-4448-449f-8cec-da3da1c1963b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>647</width>
+      <height>450</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+8f7297fc-641b-4b8c-89a4-ea0ab0c5855b+6c22560f78949c45b67c69cc26e80b31+https://www.evernote.com/shard/s160/res/cb6b900e-c4ba-405b-b078-f722cdfadca0</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>300</width>
+      <height>168</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+8f7297fc-641b-4b8c-89a4-ea0ab0c5855b+f4a38a82e696ffbd459162f016ea457f+https://www.evernote.com/shard/s160/res/a97f09b4-1ba3-4e2d-8add-41f96e403116</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Distilling knowledge from Neural Networks to build smaller and faster models</title>
+    <created>20191213T111304Z</created>
+    <updated>20191213T111304Z</updated>
+    <note-attributes>
+      <source>web.clip7</source>
+      <source-url>https://blog.floydhub.com/knowledge-distillation/</source-url>
+      <source-application>webclipper.evernote</source-application>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1600</width>
+      <height>721</height>
+      <resource-attributes>
+        <file-name>fotNbQyTqcj92C3YD7pQ6gjpWbg0pnY05H71JMLZLGAm6CJOYQfgRDwslDQcdpTQLud2I14Tv0UmUgkcuPyxtIPvxkK7MqMWETAAgL2esN_ggHJincrO37Qabxl3cv84H7b6bVt7</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+12f6efd13de70fdbb35e76722035decb+https://www.evernote.com/shard/s160/res/1429c9b2-ef6b-4bdb-b650-3b5040563c32</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>953</width>
+      <height>85</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+16ab633f4e74c813d0503fc139b1cdc7+https://www.evernote.com/shard/s160/res/e339d8c9-e590-4a19-896e-9cbcd6ad3eef</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>164</width>
+      <height>33</height>
+      <resource-attributes>
+        <file-name>button.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+30d57397b489db29aa01cd478ccf777a+https://www.evernote.com/shard/s160/res/66759231-8b5c-4e0a-a55a-fe6e0e5e88b7</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1200</width>
+      <height>506</height>
+      <resource-attributes>
+        <file-name>PtV2hzpn2OqLONB3JxvbzLjJz6GURCVM7xqUJ9I4hgCZUof5ci11FUthQVo9bzbpJU3aivGYQ9jQ3Wj2KF4vQt9pVQzbVtpO058KaSc_39ztS7y0QSnPPwSYPessubzsRNTHGeJq</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+74d9bd2b95fc76f6decf15cff8829af4+https://www.evernote.com/shard/s160/res/146199d3-e072-4e33-97de-807c96d6779d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>813</width>
+      <height>367</height>
+      <resource-attributes>
+        <file-name>kA9KNcAnH_GaMDguaptOIs51AJmrl0bna-Y0OkSuVNMiWt-8x867iRXb0nlRLWo_p4xmqla70S90TGhrTAaMt1QXmOGUpf6zbirS07RhKr67S24F93F4IH95NbuEKS3yqzrKMsTa</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+85bbe0a0d0314a01f31dc89d902bbfef+https://www.evernote.com/shard/s160/res/197d7122-bc92-4607-b920-80e88d81fdee</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>222</width>
+      <height>315</height>
+      <resource-attributes>
+        <file-name>xZfjHgbu9RcdCnnG26smU2sOlpfSgJ_iBp0BO2t59W2RFeC2CB4iokC-DkhZKfyLJ9MpzgBYgPck1g4vdapYokAUMmIa2KPD9MmJQHDhXSI7YxNDH0J6ZX9VXskgs6uz9tWH6EXh</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+af78a5a6e63a0330524e2b916e517e8b+https://www.evernote.com/shard/s160/res/d5b5589f-78d3-4ec1-899b-2fd07d5af4eb</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>960</width>
+      <height>540</height>
+      <resource-attributes>
+        <file-name>z1HgVNIrRl_izvFJAcdt43OYBR5v3KCbOVyWqmGs9ZJbSITpGoOayzuBTxXlA3OmbRFrRZGUvmbDvMZdBbJ8uBmjwMEVga2dgVYBOPns_SDMzGb-RgqLK6y7k-PLAEdhI8GzbAWR</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+bcc1ad8b75ae355ad09d08b185b5afc0+https://www.evernote.com/shard/s160/res/7391966f-3117-4d3d-b217-271d772ffe85</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>960</width>
+      <height>540</height>
+      <resource-attributes>
+        <file-name>_Um8DZIkqzdWxUq13cOW2TBsydss9IPpJWWwV9E6bxVgZDlGnDYLGt2yS-gcJXkIWetjEVDwYxbfJ4GXVUw8Ix2UiQ5zSolV7FJ4MidQ-mI5L21cvSCfpYK7WtgRIyv2-WL057l9</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+bffd9d8ad88a6676699c454d7d5d6798+https://www.evernote.com/shard/s160/res/77f6c7e3-38cd-493d-a8db-858a5adde913</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1515</width>
+      <height>477</height>
+      <resource-attributes>
+        <file-name>4RVI_pKbQYYmedG7H9bSCvsmImReuVrAHgm0UXb7P0MSpfPhZm8M7WivaXdK5a6dklCAkOc-V6EzkVbK92_Si8bdlvlM6vZFdTFXKi8wpEZN0bJ-PVRUDMqIeizgzmB7hX_es_bW</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+ce3132da9f7fc1917c9b8e96b98fd205+https://www.evernote.com/shard/s160/res/02ebf691-efef-4686-8f0b-20cf5011dd2a</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1600</width>
+      <height>842</height>
+      <resource-attributes>
+        <file-name>ZoaRoo-dWpdIx7iCmbEICmFcOPJLuVC2fc_Pau6akiBbLG6ad-IczRXgKHhnMXDuCXJbmxRU8ucPUJXH18B-cLUTvWekxqQn3cJTaybv3RGK8_5U0lxL8ZOeT6UalyelYBFpxTiL</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+ce5c255826b15667f2dfe0692d70b975+https://www.evernote.com/shard/s160/res/86db0871-c3a3-4eb8-877d-a68ed042d003</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>1000</width>
+      <height>750</height>
+      <resource-attributes>
+        <file-name>teacherclass.jpeg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+d7f3f54d85d923c9167992e843bc9429+https://www.evernote.com/shard/s160/res/a1cbf31e-6a89-4bb3-8ebb-b7dfb5b487b6</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>100</width>
+      <height>133</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+e89a8619-3d6f-434c-949e-57b18819282c+e7fff4c824558bca50eae36ecc9548c0+https://www.evernote.com/shard/s160/res/f1d47897-1446-4b92-a68d-111b9756552e</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>
