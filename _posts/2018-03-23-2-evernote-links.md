@@ -41,17 +41,11 @@ categories: [evernote, web clip]
 
 [Bliain an Áir (Year of Slaughter) – Irish Famine of 1740-1741](https://stairnaheireann.net/2017/11/02/bliain-an-air-year-of-slaughter-irish-famine-of-1740-1741-2/)
 
-[Foclóir Gaeilge–Béarla (Ó Dónaill): is](http://www.teanglann.ie/en/fgb/is)
-
-[Foclóir Gaeilge–Béarla (Ó Dónaill): a](http://www.teanglann.ie/en/fgb/a)
-
-[Foclóir Gaeilge–Béarla (Ó Dónaill): le](http://www.teanglann.ie/en/fgb/le)
-
 [Phn2vec Embeddings](http://bootphon.blogspot.com/2014/05/phn2vec-embeddings.html)
 
 [syhw/speech_embeddings](https://github.com/syhw/speech_embeddings)
 
-[[1506.03134] Pointer Networks](https://arxiv.org/abs/1506.03134)
+[Pointer Networks](https://arxiv.org/abs/1506.03134)
 
 [ikostrikov/TensorFlow-Pointer-Networks](https://github.com/ikostrikov/TensorFlow-Pointer-Networks/blob/master/main.py)
 
@@ -59,7 +53,7 @@ categories: [evernote, web clip]
 
 [tsee/p5-ML-TensorFlow](https://github.com/tsee/p5-ML-TensorFlow/blob/master/lib/ML/TensorFlow/CAPI.pm)
 
-[How To Write Your Own Tensorflow in C++ · Ray](https://oneraynyday.github.io/ml/2017/10/20/Tensorflow-C++/)
+[How To Write Your Own Tensorflow in C++](https://oneraynyday.github.io/ml/2017/10/20/Tensorflow-C++/)
 
 [MycroftAI/padatious](https://github.com/MycroftAI/padatious/blob/dev/padatious/match_data.py)
 
@@ -67,13 +61,13 @@ categories: [evernote, web clip]
 
 [MycroftAI/padatious](https://github.com/MycroftAI/padatious/tree/dev/padatious)
 
-[Conv Nets: A Modular Perspective - colah&apos;s blog](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
+[Conv Nets: A Modular Perspective](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/)
 
 [Attention and Augmented Recurrent Neural Networks](http://distill.pub/2016/augmented-rnns)
 
-[Understanding LSTM Networks -- colah&apos;s blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
-[UFLDL Recommended Readings - Ufldl](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Recommended_Readings)
+[UFLDL Recommended Readings](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Recommended_Readings)
 
 [tiny-dnn/tiny-dnn](https://github.com/tiny-dnn/tiny-dnn)
 
