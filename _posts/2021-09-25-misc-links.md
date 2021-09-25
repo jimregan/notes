@@ -28,3 +28,27 @@ categories: [links]
 
 [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
+[lima-vm/lima](https://github.com/lima-vm/lima) --- Linux virtual machines, on macOS (aka "Linux-on-Mac", "macOS subsystem for Linux", "containerd for Mac", unofficially)
+
+[openai/triton](https://github.com/openai/triton) ---  a language and compiler for writing highly efficient custom Deep-Learning primitives
+
+[JohnSnowLabs/spark-nlp](https://github.com/JohnSnowLabs/spark-nlp)
+
+[Haskell Liftoff](https://mmhaskell.com/liftoff)
+
+[mingrammer/diagrams](https://github.com/mingrammer/diagrams) --- Diagram as Code for prototyping cloud system architectures
+
+[babysor/MockingBird](https://github.com/babysor/MockingBird) --- Clone a voice in 5 seconds to generate arbitrary speech in real-time
+
+[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+
+[jina-ai/jina](https://github.com/jina-ai/jina)
+
+[iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive) --- Real-time face swap for PC streaming or video calls
+
+[paulgavrikov/visualkeras/](https://github.com/paulgavrikov/visualkeras/)
+
+[HarisIqbal88/PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) --- Latex code for making neural networks diagrams
+
+[keplr-io/quiver](https://github.com/keplr-io/quiver) --- Interactive convnet features visualization for Keras
+
