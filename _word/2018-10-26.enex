@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211025T234656Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Irish stuff</title>
+    <created>20151026T105406Z</created>
+    <updated>20151026T105425Z</updated>
+    <note-attributes>
+      <source-url>https://www.scss.tcd.ie/SLP/gaeilgenfuni.cgi?mode=Dependency&amp;text=d%27ól+mé&amp;submit=Go</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<table border="3" cellpadding="5" align="center" width="580">
+<tbody>
+<tr>
+<td align="center">
+<p/>
+<h3><font color="#339999" face="Verdana, Arial, Helvetica, sans-serif">Irish NLP Tools</font></h3>
+<p/>
+</td>
+</tr>
+<tr>
+<td>
+<h4 align="center"><font color="#339999" face="Verdana, Arial, Helvetica, sans-serif">Dependency Results</font></h4>
+<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Mon Oct 26 10:47:43 GMT 2015</font></p>
+<hr size="2"/>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Token: </b>d'<br/>
+<br/>
+<b>Lemma: </b>do<br/>
+<br/>
+<b>Dependency Analysis </b>for <i>d'</i></font></p>
+<table border="0">
+<tbody>
+<tr>
+<td/>
+</tr>
+<tr>
+<td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">do+Part+Vb+@&gt;V</font></td>
+</tr>
+</tbody>
+</table>
+<p/>
+<hr size="2"/>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Token: </b>ól<br/>
+<br/>
+<b>Lemma: </b>ól<br/>
+<br/>
+<b>Dependency Analysis </b>for <i>ól</i></font></p>
+<table border="0">
+<tbody>
+<tr>
+<td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">ól+Verb+VTI+Vow+PastInd+Len+@FMV</font></td>
+</tr>
+</tbody>
+</table>
+<p/>
+<hr size="2"/>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Token: </b>mé<br/>
+<br/>
+<b>Lemma: </b>mé<br/>
+<br/>
+<b>Dependency Analysis </b>for <i>mé</i></font></font></p>
+<table border="0">
+<tbody>
+<tr>
+<td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">mé+Pron+Pers+1P+Sg+@SUBJ</font></td>
+</tr>
+</tbody>
+</table>
+<p/>
+<hr size="2"/>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br/></font></font>
+<p align="center"><a href="https://www.scss.tcd.ie/SLP/irish.utf8.htm"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Ar Ais | Back</font></font></font></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
