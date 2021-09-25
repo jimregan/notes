@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2019-12-22
+title: Evernote web clips, 22/12/2019
 categories: [evernote, web clip]
 ---
 
@@ -11,7 +11,7 @@ categories: [evernote, web clip]
 
 [Marian :: MTM2017 Tutorial - Part 2](https://marian-nmt.github.io/examples/mtm2017/complex/)
 
-[PDF - www.lrec-conf.org](http://www.lrec-conf.org/proceedings/lrec2018/pdf/75.pdf)
+[Training and Adapting Multilingual NMT for Less-resourced and Morphologically Rich Languages](http://www.lrec-conf.org/proceedings/lrec2018/pdf/75.pdf)
 
-[PDF - arxiv.org](https://arxiv.org/pdf/1706.04138.pdf)
+[An Exploration of Neural Sequence-to-Sequence Architectures for Automatic Post-Editing](https://arxiv.org/abs/1706.04138)
 
