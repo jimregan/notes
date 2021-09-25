@@ -14,4 +14,5 @@ echo >> _posts/$date-evernote-links.md
 grep '<source-url' $1 |grep -v 'en-cache' |awk -F'[<>]' '{print $3}' > source-tmp
 grep '<title>' $1 |grep -v 'en-cache' |awk -F'[<>]' '{print $3}' > title-tmp
 
-paste source-tmp title-tmp | awk -F'\t' '{print "[" $1 "](" $2 ")\n"}' >> _posts/$date-evernote-links.md
+paste title-tmp source-tmp | awk -F'\t' '{print "[" $1 "](" $2 ")\n"}' >> _posts/$date-evernote-links.md
+rm title-tmp source-tmp
