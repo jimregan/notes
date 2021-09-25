@@ -15,7 +15,8 @@ categories: [evernote, web clip]
 
 [VP trees: A data structure for finding stuff fast](http://stevehanov.ca/blog/index.php?id=130)
 
-[Reading XML using Groovy's XmlSlurper](https://wjw465150.github.io/blog/Groovy/my_data/%E5%AE%98%E6%96%B9%E4%BE%8B%E5%AD%90/Groovy%20-%20Reading%20XML%20using%20Groovy's%20XmlSlurper.htm)
+[Reading XML using Groovy's XmlSlurper](http://groovy-lang.org/processing-xml.html)
+[wayback](https://web.archive.org/web/20161010194608/http://groovy-lang.org/processing-xml.html)
 
 [R2R Framework – Translating RDF data from the Web to a target vocabulary](http://wifo5-03.informatik.uni-mannheim.de/bizer/r2r/)
 
