@@ -78,3 +78,15 @@ categories: [links]
 [deanmalmgren/textract](https://github.com/deanmalmgren/textract)
 
 [scrapinghub/portia](https://github.com/scrapinghub/portia)
+
+[bohanli/BERT-flow](https://github.com/bohanli/BERT-flow) --- TensorFlow implementation of On the Sentence Embeddings from Pre-trained Language Models (EMNLP 2020)
+
+[5 Podcasts To Listen To If You’re Learning Swedish](https://www.babbel.com/en/magazine/5-best-podcasts-for-swedish-language-learners)
+
+[brapodcast.se](https://brapodcast.se/)
+
+[Podcast om Wikipedia](https://wikimedia.se/2015/03/19/podcast-om-wikipedia/)
+
+[DeepFovea: Neural Reconstruction for Foveated Rendering and Video Compression using Learned Statistics of Natural Videos](https://research.fb.com/publications/deepfovea-neural-reconstruction-for-foveated-rendering-and-video-compression-using-learned-statistics-of-natural-videos/)
+
+[Textless NLP: Generating expressive speech from raw audio](https://ai.facebook.com/blog/textless-nlp-generating-expressive-speech-from-raw-audio)
