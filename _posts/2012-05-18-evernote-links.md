@@ -7,21 +7,18 @@ title: Evernote web clips, 18/5/2012
 categories: [evernote, web clip]
 ---
 
-[SourceForge.net: CMU Sphinx: Long audio aligner for foreign languages](http://sourceforge.net/projects/cmusphinx/forums/forum/382337/topic/4925301)
+[CMU Sphinx: Long audio aligner for foreign languages](https://sourceforge.net/p/cmusphinx/discussion/sphinx4/thread/1957e1af/)
 
-[SourceForge.net: CMU Sphinx: Long audio aligner for foreign languages](http://sourceforge.net/projects/cmusphinx/forums/forum/382337/topic/4925301)
+[A Tour of Scala: Sequence Comprehensions](http://www.scala-lang.org/node/111)
 
-[A Tour of Scala: Sequence Comprehensions | The Scala Programming Language](http://www.scala-lang.org/node/111)
+[ScalaNLP](http://www.scalanlp.org/)
 
-[ScalaNLP » Download](http://www.scalanlp.org/download/)
+[VP trees: A data structure for finding stuff fast](http://stevehanov.ca/blog/index.php?id=130)
 
-[VP trees: A data structure for finding stuff fast - Steve Hanov's Programming Blog](http://stevehanov.ca/blog/index.php?id=130)
+[Reading XML using Groovy's XmlSlurper](https://wjw465150.github.io/blog/Groovy/my_data/%E5%AE%98%E6%96%B9%E4%BE%8B%E5%AD%90/Groovy%20-%20Reading%20XML%20using%20Groovy's%20XmlSlurper.htm)
 
-[Groovy - Reading XML using Groovy's XmlSlurper](http://groovy.codehaus.org/Reading+XML+using+Groovy%27s+XmlSlurper)
+[R2R Framework – Translating RDF data from the Web to a target vocabulary](http://wifo5-03.informatik.uni-mannheim.de/bizer/r2r/)
 
-[R2R Framework – Translating RDF data from the Web to a target vocabulary](http://www4.wiwiss.fu-berlin.de/bizer/r2r/)
+[eldur/jwbf](https://github.com/eldur/jwbf)
 
-[Jwbf - Getting Started](http://jwbf.sourceforge.net/getting-started/)
-
-[drum.lib.umd.edu/bitstream/1903/12383/1/Skaggs_umd_0117N_12844.pdf](http://drum.lib.umd.edu/bitstream/1903/12383/1/Skaggs_umd_0117N_12844.pdf)
-
+[TOPIC MODELING FOR WIKIPEDIA LINK DISAMBIGUATION](https://drum.lib.umd.edu/bitstream/handle/1903/12383/Skaggs_umd_0117N_12844.pdf)
