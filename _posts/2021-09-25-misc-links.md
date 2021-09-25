@@ -26,3 +26,5 @@ categories: [links]
 
 [Assisting the Human Fact-Checkers: Detecting All Previously Fact-Checked Claims in a Document](https://arxiv.org/abs/2109.07410)
 
+[tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+
