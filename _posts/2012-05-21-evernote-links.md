@@ -7,11 +7,9 @@ title: Evernote web clips, 2012-05-21
 categories: [evernote, web clip]
 ---
 
-[www.cs.colorado.edu/~grudic/teaching/CSCI4202_2005/How to write a Paper or Presentation.pdf](http://www.cs.colorado.edu/~grudic/teaching/CSCI4202_2005/How%20to%20write%20a%20Paper%20or%20Presentation.pdf)
+[How to write a Paper or Presentation](https://www.scribd.com/doc/42732950/How-to-Write-a-Paper-or-Presentation)
 
-[drum.lib.umd.edu/bitstream/1903/12383/1/Skaggs_umd_0117N_12844.pdf](http://drum.lib.umd.edu/bitstream/1903/12383/1/Skaggs_umd_0117N_12844.pdf)
+[10 Scala One Liners to Impress Your Friends](https://gist.github.com/mkaz/d11f8f08719d6d27bab5)
 
-[10 Scala One Liners to Impress Your Friends - solutions log - mkaz.com](http://mkaz.com/solog/scala/10-scala-one-liners-to-impress-your-friends.html/)
-
-[www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py](http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py)
+[VP_tree.py](http://www.logarithmic.net/pfh-files/blog/01164790008/VP_tree.py)
 
