@@ -10,6 +10,3 @@ categories: [evernote, web clip]
 [ethanfetaya/NRI](https://github.com/ethanfetaya/NRI)
 
 [C++ gradients: Fractional*Pool, Soft{Plus,Sign} by kbsriram · Pull Request #17331 · tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/pull/17331/files)
-
-[C++ gradients: Fractional*Pool, Soft{Plus,Sign} by kbsriram · Pull Request #17331 · tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/pull/17331/files)
-

@@ -9,7 +9,7 @@ categories: [evernote, web clip]
 
 [The Books and the Pilgrimage of the Polish Nation](https://books.google.com/books/about/The_Books_and_the_Pilgrimage_of_the_Poli.html?id=98RgAAAAcAAJ)
 
-[PDF - auai.org](http://auai.org/uai2017/proceedings/papers/306.pdf)
+[Adversarial Sets for Regularising Neural Link Predictors](http://auai.org/uai2017/proceedings/papers/306.pdf)
 
 [Compiling Deep Learning Models to WebGL with TVM](http://www.tvmlang.org/2018/03/12/webgl.html)
 
@@ -31,11 +31,7 @@ categories: [evernote, web clip]
 
 [Community Interaction and Conflict on the Web](https://snap.stanford.edu/conflict/)
 
-[Mum Claims £3.99 &apos;Miracle&apos; Cream Cured Her Little Girl&apos;s Eczema](http://www.ladbible.com/community/uk-interesting-news-mum-claims-399-miracle-cream-cured-her-little-girls-eczema-20180318)
-
 [Transfer Your Font Style with GANs](http://bair.berkeley.edu/blog/2018/03/13/mcgan/)
-
-[Tool for segmenting long audio files with erroneous transcripts · Issue #869 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/issues/869)
 
 [PolEval 2017 :: Tasks](http://poleval.pl/index.php/tasks/)
 
@@ -43,7 +39,7 @@ categories: [evernote, web clip]
 
 [Bad Speech Synthesis Made Simple](https://kastnerkyle.github.io/posts/bad-speech-synthesis-made-simple/)
 
-[[D] Are the hyper-realistic results of Tacotron-2 and Wavenet not reproducible? • r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/845uji/d_are_the_hyperrealistic_results_of_tacotron2_and/)
+[Are the hyper-realistic results of Tacotron-2 and Wavenet not reproducible? • r/MachineLearning](https://www.reddit.com/r/MachineLearning/comments/845uji/d_are_the_hyperrealistic_results_of_tacotron2_and/)
 
 [KPWr](http://nlp.pwr.wroc.pl/en/tools-and-resources/resources/kpwr)
 
@@ -59,7 +55,7 @@ categories: [evernote, web clip]
 
 [Xvectors: DNN Embeddings for Speaker Recognition  by david-ryan-snyder · Pull Request #1896 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/1896)
 
-[[src] Fix to nnet3 compilation issue affecting BLSTMP.  Thanks: Alim Misbullah by danpovey · Pull Request #2286 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/2286)
+[Fix to nnet3 compilation issue affecting BLSTMP.  Thanks: Alim Misbullah by danpovey · Pull Request #2286 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/2286)
 
 [DNN-based speaker embedding - Google Groups](https://groups.google.com/d/topic/kaldi-help/4uSHMUtqPtA)
 
