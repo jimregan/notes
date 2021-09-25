@@ -13,3 +13,4 @@ categories: [evernote, web clip]
 
 [Examples of synthesizing sounds with Praat VocalTract area functions](https://www.fon.hum.uva.nl/rob/VocalTractExamples/)
 
+[Recommendations for Real-Time Speech MRI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5079859/)
