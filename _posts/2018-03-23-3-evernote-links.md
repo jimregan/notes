@@ -23,8 +23,6 @@ categories: [evernote, web clip]
 
 [Starting to Corrode](https://aml3.github.io/RustTutorial/html/02.html)
 
-[Starting to Corrode](https://aml3.github.io/RustTutorial/html/02.html)
-
 [KeyMe Releases Two Machine Learning Models - KeyMe Blog](https://blog.key.me/machine-learning-models-released/)
 
 [PDF - arxiv.org](https://arxiv.org/pdf/1803.03697.pdf)
@@ -49,13 +47,9 @@ categories: [evernote, web clip]
 
 [Visual Geometry Group: VoxCeleb dataset](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
-[Transfer learning wsj-&gt;rm by pegahgh · Pull Request #1633 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/1633)
+[Transfer learning wsj-rm by pegahgh · Pull Request #1633 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/1633)
 
 [Semi-supervised training on Fisher English by vimalmanohar · Pull Request #2140 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/2140)
-
-[Xvectors: DNN Embeddings for Speaker Recognition  by david-ryan-snyder · Pull Request #1896 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/1896)
-
-[Fix to nnet3 compilation issue affecting BLSTMP.  Thanks: Alim Misbullah by danpovey · Pull Request #2286 · kaldi-asr/kaldi](https://github.com/kaldi-asr/kaldi/pull/2286)
 
 [DNN-based speaker embedding - Google Groups](https://groups.google.com/d/topic/kaldi-help/4uSHMUtqPtA)
 
@@ -63,13 +57,11 @@ categories: [evernote, web clip]
 
 [Machine learning in Perl | Sergey Kolychev [blogs.perl.org]](http://blogs.perl.org/users/sergey_kolychev/2017/02/machine-learning-in-perl.html)
 
-[PDF - www.checktheregister.ie](http://www.checktheregister.ie/appforms/RFA2_English_Form.pdf)
-
 [salesforce/nonauto-nmt](https://github.com/salesforce/nonauto-nmt/blob/master/model.py)
 
 [salesforce/awd-lstm-lm](https://github.com/salesforce/awd-lstm-lm)
 
-[PDF - arxiv.org](https://arxiv.org/pdf/1803.08240.pdf)
+[An Analysis of Neural Language Modeling at Multiple Scales](https://arxiv.org/abs/1803.08240)
 
 [facebookresearch/tdfbanks](https://github.com/facebookresearch/tdfbanks)
 
@@ -91,7 +83,7 @@ categories: [evernote, web clip]
 
 [PDF - arxiv.org](https://arxiv.org/pdf/1711.02281.pdf)
 
-[(16) Corpus building for data-driven TTS systems](https://www.researchgate.net/publication/4029874_Corpus_building_for_data-driven_TTS_systems)
+[Corpus building for data-driven TTS systems](https://www.researchgate.net/publication/4029874_Corpus_building_for_data-driven_TTS_systems)
 
 [apohllo/pjn](https://github.com/apohllo/pjn/blob/master/1-regexp.md)
 
