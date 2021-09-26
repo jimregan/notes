@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T120222Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>rajbot/audfprint Repository | Docker Hub Registry - Repositories of Docker Images</title>
+    <created>20141213T160050Z</created>
+    <updated>20210926T115615Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://registry.hub.docker.com/u/rajbot/audfprint/</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><br/><div style="font-size: 16px"><div style="font-size:100%;"><div style="font-family:&apos;Helvetica Neue&apos;, HelveticaNeue, TeXGyreHeros, FreeSans, &apos;Nimbus Sans L&apos;, &apos;Liberation Sans&apos;, Arimo, Helvetica, Arial, sans-serif;font-size:14px;line-height:1.7em;color:rgb(57, 77, 84);background-color:rgb(255, 255, 255);margin-top:30px;"><div><div><span style="display:table;line-height:0;"></span><div style="margin-left:-20px;position:relative;"><span style="display:table;line-height:0;"></span><div style="float:left;min-height:1px;margin-left:20px;width:940px;box-sizing:border-box;"><span> </span><span style="float:right;font-size:13px;font-weight:400;color:rgb(57, 77, 84);line-height:2em;">Updated 1 month, 2 weeks ago</span></div><div style="float:left;min-height:1px;margin-left:20px;width:940px;box-sizing:border-box;"><h1 style="margin:0px 0px 8px;font-family:inherit;font-weight:400;line-height:1.4;color:rgb(57, 77, 84);text-rendering:optimizelegibility;font-size:20px;float:left;"><span style="font-size:20px;font-weight:300;color:rgb(57, 77, 84);"><a href="https://registry.hub.docker.com/u/rajbot/" title="" style="color:rgb(0, 89, 118);text-decoration:none;font-size:20px;font-weight:400;">rajbot</a> / <a href="https://registry.hub.docker.com/u/rajbot/audfprint/" title="" style="color:rgb(0, 89, 118);text-decoration:none;font-size:20px;font-weight:500;">audfprint</a></span></h1><div style="float:right;"><div style="margin:0px;"><span style="cursor:pointer;font-size:13px;font-weight:400;line-height:35px;display:inline-block;color:rgb(57, 77, 84);margin:0px;">Pull this repository</span></div></div></div><div style="float:left;min-height:1px;margin-left:20px;width:940px;box-sizing:border-box;margin-top:4px;"><span style="font-size:13px;font-weight:400;color:rgb(57, 77, 84);line-height:2em;"> Installs audfprint and its many dependencies </span></div><div style="float:left;min-height:1px;margin-left:20px;width:940px;box-sizing:border-box;"><div style="float:left;"><div style="font-size:16px;font-weight:500;color:rgb(148, 157, 167);margin-bottom:20px;"><a href="https://registry.hub.docker.com/u/rajbot/audfprint/" title="" style="color:rgb(0, 89, 118);text-decoration:none;display:inline-block;margin-right:12px;line-height:20px;padding-left:23px;background:url(https://d207aa93qlcgug.cloudfront.net/dockerized-0.23.1/img/repository/repository-star-icon.svg?6bdc24533d0b) 0px 50% no-repeat;">0</a><span title="1 comments" style="display:inline-block;margin-right:12px;line-height:20px;padding-left:23px;background:url(https://d207aa93qlcgug.cloudfront.net/dockerized-0.23.1/img/repository/repository-comments-icon.svg?6bdc24533d0b) 0px 50% no-repeat;">1</span><span title="99 downloads" style="display:inline-block;margin-right:12px;line-height:20px;padding-left:27px;background:url(https://d207aa93qlcgug.cloudfront.net/dockerized-0.23.1/img/repository/repository-cloud-icon.svg?ca4c8d227b9a) 0px 50% no-repeat;">99</span></div></div></div><span style="display:table;line-height:0;clear:both;"></span></div><div style="margin-left:-20px;"><span style="display:table;line-height:0;"></span><div style="float:left;min-height:1px;margin-left:20px;width:700px;box-sizing:border-box;"><div style="margin-left:-20px;"><span style="display:table;line-height:0;"></span><div style="float:left;min-height:1px;margin-left:20px;width:700px;box-sizing:border-box;margin-bottom:36px;"><ul style="padding:0px;margin:0px;list-style:none;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(221, 221, 221);border-color:rgb(219, 221, 224);border-style:solid;border-width:1px 1px 0px;overflow:visible;"><span style="list-style:none;display:table;line-height:0;"></span><li style="line-height:1.7em;float:left;margin-bottom:-1px;width:50%;"><a href="https://registry.hub.docker.com/u/rajbot/audfprint/" title="" style="color:rgb(57, 77, 84);text-decoration:none;display:block;line-height:43px;border:1px solid transparent;border-width:0px 0px 1px 1px;border-style:solid;border-color:rgb(219, 221, 224);cursor:default;background-color:rgb(255, 255, 255);width:100%;padding:0px;text-align:center;margin:0px;font-size:18px;font-weight:500;box-sizing:border-box;border-left-width:0px;border-bottom-width:0px;border-top-width:4px;border-top-style:solid;border-top-color:rgb(211, 241, 251);border-top-right-radius:4px;border-top-left-radius:4px;position:relative;top:-4px;">Information</a></li><li style="line-height:1.7em;float:left;margin-bottom:-1px;width:50%;"><a href="https://registry.hub.docker.com/u/rajbot/audfprint/tags/manage/" title="" style="color:rgb(0, 89, 118);text-decoration:none;display:block;line-height:43px;border:1px solid transparent;width:100%;padding:0px;text-align:center;border-color:rgb(219, 221, 224);border-style:solid;border-width:0px 0px 1px 1px;margin:0px;font-size:18px;font-weight:500;box-sizing:border-box;">Tags</a></li><span style="list-style:none;display:table;line-height:0;clear:both;"></span></ul><div><div style="border-color:rgb(219, 221, 224);border-style:solid;border-width:0px 1px 1px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;padding:10px 20px;position:relative;"><div style="min-height:200px;word-wrap:break-word;"><p style="margin:0px 0px 1em;font-size:14px;font-weight:400;color:rgb(57, 77, 84);line-height:20px;">Created with this Dockerfile:</p><pre style="padding:0.35em;font-family:Monaco, Menlo, Consolas, &apos;Courier New&apos;, monospace;font-size:13px;color:rgb(51, 51, 51);display:block;margin:0px 0px 0.85em;line-height:1.7em;word-break:break-all;word-wrap:break-word;white-space:pre-wrap;border:1px solid rgba(0, 0, 0, 0.14902);background-color:rgb(245, 245, 245);"><code style="padding:0.5em;font-family:Monaco, Menlo, Consolas, &apos;Courier New&apos;, monospace;font-size:12px;color:black;border:0px;white-space:pre-wrap;display:block;background:rgb(240, 240, 240);"><span style="font-weight:bold;">FROM</span>    ubuntu:<span style="color:rgb(0, 136, 0);">14.04</span>
+<span style="font-weight:bold;">RUN</span>     apt-get update
+<span style="font-weight:bold;">RUN</span>     apt-get install -y wget python python-scipy python-pip git
+<span style="font-weight:bold;">RUN</span>     pip install -U distribute
+<span style="font-weight:bold;">RUN</span>     apt-get install -y python-matplotlib
+<span style="font-weight:bold;">RUN</span>     pip install git+git://github.com/bmcfee/librosa.git <span style="color:rgb(136, 136, 136);">#this takes forever</span>
+<span style="font-weight:bold;">RUN</span>     pip install docopt joblib
+
+<span style="font-weight:bold;">RUN</span>     apt-get install -y software-properties-common
+<span style="font-weight:bold;">RUN</span>     <span style="font-weight:bold;">add</span>-apt-repository -y ppa:jon-severinsson/ffmpeg
+<span style="font-weight:bold;">RUN</span>     apt-get -y update
+<span style="font-weight:bold;">RUN</span>     apt-get install -y ffmpeg
+<span style="font-weight:bold;">RUN</span>     apt-get install -y frei0r-plugins
+
+<span style="font-weight:bold;">RUN</span>     wget --no-check-certificate http://www.mega-nerd.com/SRC/libsamplerate-<span style="color:rgb(0, 136, 0);">0.1</span><span style="color:rgb(0, 136, 0);">.8</span>.tar.gz
+<span style="font-weight:bold;">RUN</span>     tar xvfz libsamplerate-<span style="color:rgb(0, 136, 0);">0.1</span><span style="color:rgb(0, 136, 0);">.8</span>.tar.gz
+<span style="font-weight:bold;">RUN</span>     cd libsamplerate-<span style="color:rgb(0, 136, 0);">0.1</span><span style="color:rgb(0, 136, 0);">.8</span> &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install
+
+<span style="font-weight:bold;">RUN</span>     pip install scikits.samplerate
+<span style="font-weight:bold;">RUN</span>     git clone https://github.com/dpwe/audfprint.git</code></pre></div></div></div></div><div style="float:left;min-height:1px;margin-left:20px;width:700px;box-sizing:border-box;"><h2 style="margin:0.85em 0px;font-family:inherit;font-weight:400;line-height:1.4;color:rgb(57, 77, 84);text-rendering:optimizelegibility;font-size:20px;margin-bottom:20px;float:left;">Comments</h2></div><div style="float:left;min-height:1px;margin-left:20px;width:700px;box-sizing:border-box;"><div style="padding:20px 0px;position:relative;border-top-width:1px;border-top-style:none;border-top-color:rgb(219, 221, 224);clear:both;padding-top:0px;"><div style="float:right;"><div style="font-size:14px;font-weight:400;color:rgb(148, 157, 167);margin-top:0px;padding-top:3px;display:inline-block;">1 month, 1 week ago</div></div><a href="https://registry.hub.docker.com/u/brewsterkahle/" title="" style="color:rgb(0, 89, 118);text-decoration:none;font-size:16px;font-weight:500;display:inline-block;line-height:25px;margin-bottom:5px;"><en-media type="image/jpeg" hash="ec85c9b3b7160a9a001c6330745add75" alt="profile picture" width="30" height="30" style="max-width:100%;height:auto;vertical-align:middle;border:0px;border-radius:50%;margin-right:11px;"></en-media>brewsterkahle
+                                    </a><div><p style="margin:0px 0px 1em;font-size:14px;font-weight:400;color:rgb(57, 77, 84);line-height:20px;">sudo docker run rajbot/audfprint python /audfprint/audfprint.py<br></br>
+works for me on ubuntu.   </p><p style="margin:0px 0px 1em;font-size:14px;font-weight:400;color:rgb(57, 77, 84);line-height:20px;">on macos boot2docker, this works:
+docker run rajbot/audfprint python /audfprint/audfprint.py</p></div></div></div><span style="display:table;line-height:0;clear:both;"></span></div></div><div style="float:left;min-height:1px;margin-left:20px;width:220px;box-sizing:border-box;"><div style="border:1px solid rgb(219, 221, 224);margin-bottom:20px;"><h2 style="margin:0px 0px 18px;font-family:inherit;font-weight:400;line-height:1;color:rgb(57, 77, 84);text-rendering:optimizelegibility;font-size:20px;margin-top:10px;margin-left:20px;margin-bottom:10px;">Properties</h2><hr style="margin:0px;border-width:1px 0px;border-top-style:solid;border-top-color:rgb(238, 238, 238);border-bottom-style:solid;border-bottom-color:rgb(255, 255, 255);"></hr><ul style="padding:0px;margin:0px 0px 0.85em 25px;margin-left:20px;list-style:none;margin-bottom:10px;margin-top:10px;"><li style="line-height:1.7em;"><i style="display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;margin-top:0px;background-image:none;background-position:0px 0px;background-repeat:repeat;font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;"><span style="line-height:normal;font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;display:inline-block;speak:none;"></span></i> <span>2014-10-27 21:32:08</span></li><li style="line-height:1.7em;"><a href="https://registry.hub.docker.com/u/rajbot/" title="" style="color:rgb(0, 89, 118);text-decoration:none;"><en-media type="image/jpeg" hash="425a15e4b90d7818da4afbc05981d24a" alt="profile picture" width="20" height="20" style="max-width:100%;height:auto;vertical-align:middle;border:0px;border-radius:50%;"></en-media> rajbot</a></li></ul></div></div><span style="display:table;line-height:0;clear:both;"></span></div><span style="display:table;line-height:0;clear:both;"></span></div></div></div></div></div><br/></en-note>      ]]>
+    </content>
+    <resource>
+      <data encoding="base64">
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAFAAUAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SF
+hoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A8d8Y/tCar8QvjpY694n8KHSbzwU/nwaZbSSRXMjRToY4pPMV2J3EZAC4Xdiul8UfET4m/tI/G7w34YsbrV/BTRhZLmxjunh+yLxI9yMbWdthG0Nk
+847k1yP7RPxTv/EfxI0nxlrdm9xHbah5kGmSSEILIpG0cUfZQpWQ5AzmTPauw/Y98TXHxk+PviHxFqkjXX2LTpBFHNGp2h5ESOMYGOFB56k9c5JrGpVcKbqW2R2U6SnP2bPvmzm0/TLWK1vrLVLiaFFQTWomlV1AGCWZQSfXOT6kmio00q3KDZp0YUcY8gEfhRXhf2hU7Ho/UKfdn49/HDWLnWb/AEz7S+421skMbDghPLQ4/X/PNaPwd+IPiLwI
+wm0DV7rSpru2WKaS3kKl0WRyAfxoor6RRTjZo8xO0mz0Bvi/43d2d/Futu7/ADMx1GYZJ+jUUUVnyR7IfPLuf//Z
+      </data>
+      <mime>image/jpeg</mime>
+      <width>20</width>
+      <height>20</height>
+      <resource-attributes>
+        <file-name>2fd208ca8aab882ac78159a7067f3bcc.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+74c215f6-61a7-47ac-ac86-5e9abffb8945+425a15e4b90d7818da4afbc05981d24a+https://www.evernote.com/shard/s160/res/78c66551-ce0b-42a1-a45c-104a3eaa2e4b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAHgAeAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SF
+hoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A0P2a/gtB4wtNNk+zKsGGiRHTK7VYjdjpzj9K9A+OXwLk0zw1dx6NZWsbrC6yIwWKM8HknpgjPWvJf2S/2gLeC8ttD3zCOeR5LWaNfkAJJ+uGPQep
+xX0Vrmq6h8cLPUrPUNPm0Hw55qQW9zdMYzdFeTvTg7GI2k5BGcjOK+Xjzc959PyPdiqUqKjBbq3zPxa+I/gXUPB2qs1xZG2tJ2PlMjh0yOqhh9cj2+hrE0a+ltHYwyeUSuC2OTz0r9B/2q/Cuj/E/wAF6tZaK9lpupeG4mQaRZRgxBI3QF0kxhvmOCw5OT75+IF+G17Z2MU8c8N27uyOkTFVXAUjlgM9Tnj86+tpXqe/BW7+R4NSHK/ZvX9Tsvh9
+4suPhbq9nrEGnx6klswEljdcpMoI4/2TwCGHIIFfdvwa/as0v4pDUDpfh7VtPstOEeVuoonVZXQ/u0ZW+fbg9gSMEgZxXxd8AfAx+M/iO5ivJxaaPZKslxHESJpgxICg9APlOT19Pb7q8PeHbbwxa21jpaJaWEeZIreNFCx7cLgcZ/hB5zkk59+HNquFc48m9t7f1c9rIstxlajKpN2i3Za/rrazt6t9Nyj8VvF2i6jod9b6dY3l3rd/F9meSWDZ
+Hbxk5Y8DBY89Ome3OfmXXPhtqOualaWdhGz+XDJKUfCqnzKOp789Pav0V8NaBp/inSLXWkhELeYUeEqMB1OCV/2TwQD06dq87+O1qU8YR2FqEQQWse0NkLg5Zjx3y4/KuCnjHhabtv6npYbL3jMVGk9Gr9E3daW10+/Q/9k=
+      </data>
+      <mime>image/jpeg</mime>
+      <width>30</width>
+      <height>30</height>
+      <resource-attributes>
+        <file-name>5874476a4dc0b10817debc60df58f6a3.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+74c215f6-61a7-47ac-ac86-5e9abffb8945+ec85c9b3b7160a9a001c6330745add75+https://www.evernote.com/shard/s160/res/012dc2a5-b022-4973-8cdd-ddc68c84e21d</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>UniML | DistributedRepresentation / Distributed Representation, Word Representation, Word Embedding 词向量</title>
+    <created>20141106T203137Z</created>
+    <updated>20210926T115130Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www.uniml.com/pmwiki/pmwiki.php?n=DistributedRepresentation.DistributedRepresentation</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><br/><div style="font-size: 16px"><div><div style="font-family:Arial, Helvetica, sans-serif;font-size:11pt;background-color:rgb(247, 247, 247);"><table style="font-size:inherit;font-weight:inherit;font-style:inherit;font-variant:inherit;"><tbody><tr><td style="font-size:11pt;background-color:white;"><div>
+          <div style="margin-top:8px;margin-bottom:2px;"><a href="http://www.uniml.com/pmwiki/pmwiki.php?n=DistributedRepresentation">DistributedRepresentation</a> /</div>
+          <h1 style="font-weight:normal;font-size:1.6em;line-height:1em;margin:0px;">Distributed Representation, Word Representation, Word Embedding 词向量</h1></div></td></tr></tbody></table></div></div></div><br/></en-note>      ]]>
+    </content>
+  </note>
+</en-export>
