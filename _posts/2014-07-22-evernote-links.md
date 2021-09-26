@@ -18,15 +18,8 @@ categories: [evernote, web clip]
 [Ukraina](http://wyborcza.pl/1,75248,16341650,.html?wall=1)
 
 ---
-toc: false
-layout: post
-hidden: true
-description: Old links
-title: Evernote web clips, 2014-07-22
-categories: [evernote, web clip]
----
 
-[Basic Binding using RoboVM and libGDXSeven Armed Squid](http://www.sevenarmedsquid.com/help/robovmbinding)
+[Basic Binding using RoboVM and libGDXSeven Armed Squid](https://web.archive.org/web/20150515114635/http://www.sevenarmsquid.com/help/robovmbinding)
 
 [Caffe | MNIST Tutorial](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
 
@@ -36,5 +29,4 @@ categories: [evernote, web clip]
 
 [gocircuit/escher](https://github.com/gocircuit/escher)
 
-[Untitled note](https://raw.githubusercontent.com/facebook/rocksdb/master/examples/simple_example.cc)
-
+[simple_example.cc](https://raw.githubusercontent.com/facebook/rocksdb/master/examples/simple_example.cc)
