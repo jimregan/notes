@@ -11,7 +11,7 @@ categories: [evernote, web clip]
 
 [facebook/Stack-RNN](https://github.com/facebook/Stack-RNN/commits/master)
 
-[Untitled note](http://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf)
+[An Introduction to Conditional Random Fields](http://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf)
 
 [Using word2vec for different NLP tasks • /r/MachineLearning](http://www.reddit.com/r/MachineLearning/comments/2e9i8p/using_word2vec_for_different_nlp_tasks/)
 
@@ -21,13 +21,11 @@ categories: [evernote, web clip]
 
 [SENNA](http://ml.nec-labs.com/senna/)
 
-[Untitled note](http://arxiv.org/pdf/1103.0398v1.pdf)
+[Natural Language Processing (almost) from Scratch](http://arxiv.org/abs/1103.0398)
 
 [The Agency](http://www.nytimes.com/2015/06/07/magazine/the-agency.html)
 
 [Demystifying LSTM Neural Networks](http://blog.terminal.com/demistifying-long-short-term-memory-lstm-recurrent-neural-networks/)
-
-[A good source to learn Recurrent Neural Nets and Long Short Term Memory Nets? • /r/MachineLearning](http://www.reddit.com/r/MachineLearning/comments/37raoo/a_good_source_to_learn_recurrent_neural_nets_and/)
 
 [A good source to learn Recurrent Neural Nets and Long Short Term Memory Nets? • /r/MachineLearning](http://www.reddit.com/r/MachineLearning/comments/37raoo/a_good_source_to_learn_recurrent_neural_nets_and/)
 
