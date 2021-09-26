@@ -7,15 +7,15 @@ title: Evernote web clips, 16/9/2012
 categories: [evernote, web clip]
 ---
 
-[Home | Natural Language Processing Laboratory](http://nlp.sbu.ac.ir/site/)
+[Home | Natural Language Processing Laboratory](http://web.archive.org/web/20110907050907/http://nlp.sbu.ac.ir/site)
 
 [Multilingual Central Repository | adimen.si.ehu.es](http://adimen.si.ehu.es/web/MCR)
 
-[MultiWordNet - Related works](http://multiwordnet.fbk.eu/english/download.php)
+[MultiWordNet - Related works](https://multiwordnet.fbk.eu/english/licence.php)
 
-[MLSN: Download](http://two.dcook.org/software/mlsn/about/download.html)
+[MLSN: Download](http://web.archive.org/web/20120520141536/http://two.dcook.org/software/mlsn/about/download.html)
 
-[Japanese Wordnet](http://nlpwww.nict.go.jp/wn-ja/index.en.html#downloads)
+[Japanese Wordnet](http://web.archive.org/web/20091106002749/http://nlpwww.nict.go.jp/wn-ja/index.en.html)
 
 [FinnWordNet: Download files - Department of General Linguistics](http://www.ling.helsinki.fi/en/lt/research/finnwordnet/download.shtml#data)
 
