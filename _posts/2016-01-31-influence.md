@@ -10,7 +10,7 @@ categories: [evernote]
 ## Influence
 
 - Festinger - cognitive dissonance
-- experiment - $\$20$ vs $\$1$ to lie
+- experiment - $ 20 vs $ 1 to lie
 - \> \$1 changed beliefs
 - Americans in Korea, captured by China
 - rice for propaganda, most became Communist

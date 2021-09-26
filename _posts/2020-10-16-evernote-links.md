@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2020-10-16
+title: Evernote web clips, 16/10/2020
 categories: [evernote, web clip, praat]
 ---
 
