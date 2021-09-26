@@ -7,21 +7,21 @@ title: Evernote web clips, 23/7/2014
 categories: [evernote, web clip]
 ---
 
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs8.html)
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs.html)
 
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs7.html)
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs1.html)
+
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs2.html)
+
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs3.html)
 
 [PL101: Create your own programming language](http://nathansuniversity.com/pegs4.html)
 
 [PL101: Create your own programming language](http://nathansuniversity.com/pegs6.html)
 
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs3.html)
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs7.html)
 
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs2.html)
-
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs1.html)
-
-[PL101: Create your own programming language](http://nathansuniversity.com/pegs.html)
+[PL101: Create your own programming language](http://nathansuniversity.com/pegs8.html)
 
 [Parsoid - MediaWiki](http://www.mediawiki.org/wiki/Parsoid)
 
