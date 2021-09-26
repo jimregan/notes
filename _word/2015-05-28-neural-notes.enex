@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T013141Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>neural notes</title>
+    <created>20150528T173857Z</created>
+    <updated>20150528T173909Z</updated>
+    <tag>neural net</tag>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<a href="http://arxiv.org/pdf/1503.08895v3.pdf">http://arxiv.org/pdf/1503.08895v3.pdf</a>
+<div><a href="http://arxiv.org/abs/1503.08895">http://arxiv.org/abs/1503.08895</a></div>
+<div>Weakly Supervised Memory Networks</div>
+<div><br/></div>
+<div><a href="https://research.facebook.com/researchers/1543934539189348">https://research.facebook.com/researchers/1543934539189348</a></div>
+<div><a href="http://arxiv.org/abs/1502.05698">http://arxiv.org/abs/1502.05698</a></div>
+<div>Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks</div>
+<div><br/></div>
+<div><a href="https://github.com/wojzaremba/lstm/blob/master/main.lua">https://github.com/wojzaremba/lstm/blob/master/main.lua</a></div>
+<div><br/></div>
+<div><a href="http://arxiv.org/pdf/1505.00521v1.pdf">http://arxiv.org/pdf/1505.00521v1.pdf</a></div>
+<div>Reinforcement Learning Neural Turing Machines</div>
+<div><br/></div>
+<div><a href="https://github.com/kaishengtai/torch-ntm">https://github.com/kaishengtai/torch-ntm</a></div>
+<div><br/></div>
+<div><a href="https://github.com/stanfordnlp/treelstm">https://github.com/stanfordnlp/treelstm</a></div>
+<div><br/></div>
+<div><a href="http://arxiv.org/abs/1409.0473">http://arxiv.org/abs/1409.0473</a></div>
+<div>Neural Machine Translation by Jointly Learning to Align and Translate</div>
+<div><a href="http://arxiv.org/pdf/1409.0473v6.pdf">http://arxiv.org/pdf/1409.0473v6.pdf</a></div>
+<div><a href="https://github.com/lisa-groundhog/GroundHog">https://github.com/lisa-groundhog/GroundHog</a></div>
+<div><br/></div>
+<div><a href="https://github.com/rsennrich/nplm">https://github.com/rsennrich/nplm</a></div>
+<div><br/></div>
+<div><a href="https://github.com/shawntan/neural-turing-machines/">https://github.com/shawntan/neural-turing-machines/</a></div>
+<div><a href="https://www.reddit.com/r/MachineLearning/comments/2m9mga/implementation_of_neural_turing_machines/">https://www.reddit.com/r/MachineLearning/comments/2m9mga/implementation_of_neural_turing_machines/</a></div>
+<div><a href="https://github.com/gcgibson/NTM">https://github.com/gcgibson/NTM</a></div>
+<div><br/></div>
+<div><a href="http://arxiv.org/abs/1410.4615">http://arxiv.org/abs/1410.4615</a></div>
+<div><br/></div>
+<div><a href="http://arxiv.org/pdf/1410.4615v3.pdf">http://arxiv.org/pdf/1410.4615v3.pdf</a></div>
+<div><br/></div>
+<div><a href="http://arxiv.org/pdf/1409.3215v3.pdf">http://arxiv.org/pdf/1409.3215v3.pdf</a></div>
+<div><a href="http://arxiv.org/abs/1409.3215">http://arxiv.org/abs/1409.3215</a></div>
+<div>Sequence to Sequence Learning with Neural Networks</div>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
