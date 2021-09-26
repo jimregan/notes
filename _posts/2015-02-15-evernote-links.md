@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2015-02-15
+title: Evernote web clips, 15/2/2015
 categories: [evernote, web clip]
 ---
 
@@ -35,7 +35,7 @@ categories: [evernote, web clip]
 
 [Speech Recognition with Neural Networks - Andrew Gibiansky](http://andrew.gibiansky.com/blog/machine-learning/speech-recognition-neural-networks/)
 
-[Untitled note](http://arxiv.org/pdf/1211.3711.pdf)
+[Sequence Transduction with Recurrent Neural Networks](http://arxiv.org/abs/1211.3711)
 
 [Speech Recognition with Neural Networks - Andrew Gibiansky](http://andrew.gibiansky.com/blog/machine-learning/speech-recognition-neural-networks/)
 
