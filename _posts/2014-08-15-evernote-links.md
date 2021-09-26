@@ -9,5 +9,5 @@ categories: [evernote, web clip]
 
 [Cédric Verstraeten](http://blog.cedric.ws/how-to-train-tesseract-301)
 
-[Google Fonts Uncial Antiqua]()
+[Google Fonts Uncial Antiqua](http://www.google.com/fonts/specimen/Uncial+Antiqua)
 
