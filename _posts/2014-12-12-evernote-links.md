@@ -19,8 +19,6 @@ categories: [evernote, web clip]
 
 [gensim: models.word2vec – Deep learning with word2vec](http://radimrehurek.com/gensim/models/word2vec.html)
 
-[Addressing the Rare Word Problem in Neural Machine Translation](http://arxiv.org/abs/1410.8206)
-
 [Sequence to Sequence Learning with Neural Networks](http://arxiv.org/abs/1409.3215)
 
 [Distributed Representations of Sentences and Documents](http://arxiv.org/abs/1405.4053)
@@ -44,4 +42,3 @@ categories: [evernote, web clip]
 [Spark/mllib SVD example](https://gist.github.com/vrilleup/9e0613175fab101ac7cd)
 
 [How do I turn off the unlimited whitespace in IntelliJ editor? - Stack Overflow](http://stackoverflow.com/questions/593214/how-do-i-turn-off-the-unlimited-whitespace-in-intellij-editor)
-
