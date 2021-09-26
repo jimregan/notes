@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T150501Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>SUMO relations</title>
+    <created>20120919T220407Z</created>
+    <updated>20120919T220435Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+equivalenceRelation     =
+<div>subsumingRelation     +</div>
+<div>instanceRelation     @</div>
+<div>antiSubsumingRelation     [</div>
+<div>antiEquivalenceRelation     :</div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
