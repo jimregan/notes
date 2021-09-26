@@ -3,11 +3,11 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2014-10-30
+title: Evernote web clips, 30/10/2014
 categories: [evernote, web clip]
 ---
 
-[Training Acoustic Model For CMUSphinx - CMUSphinx Wiki](http://cmusphinx.sourceforge.net/wiki/tutorialam)
+[Training Acoustic Model For CMUSphinx - CMUSphinx Wiki](https://cmusphinx.github.io/wiki/tutorialam/)
 
-[Russian Audiobook Morphology-Based Model | CMU Sphinx - Speech Recognition Toolkit](http://cmusphinx.sourceforge.net/2011/09/russian-audiobook-morphology-based-model/)
+[Russian Audiobook Morphology-Based Model | CMU Sphinx - Speech Recognition Toolkit](https://cmusphinx.github.io/2011/09/russian-audiobook-morphology-based-model/)
 
