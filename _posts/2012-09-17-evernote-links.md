@@ -20,6 +20,4 @@ categories: [evernote, web clip]
 >
 > `$ atsutil server -ping`
 
-[OpenIMAJ / Code / Commit [r1458]](https://sourceforge.net/p/openimaj/code/1458/)
-
-fastdoublekmeans
+[OpenIMAJ DoubleKMeans](http://openimaj.org/apidocs/org/openimaj/ml/clustering/kmeans/DoubleKMeans.html)
