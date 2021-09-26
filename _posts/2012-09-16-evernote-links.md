@@ -23,3 +23,6 @@ categories: [evernote, web clip]
 
 [Thai WordNet license](https://web.archive.org/web/20110226214304/http://www.tcllab.org/~wn-th/license.txt)
 
+[Sanskrit WordNet](http://www.cfilt.iitb.ac.in/wordnet/webswn/register.php)
+
+[Slovenská terminologická databáza](https://terminologickyportal.sk/wiki/Hlavn%C3%A1_str%C3%A1nka)
