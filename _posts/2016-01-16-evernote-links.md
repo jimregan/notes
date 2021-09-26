@@ -3,15 +3,15 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2016-01-16
+title: Evernote web clips, 16/1/2016
 categories: [evernote, web clip]
 ---
 
-[Untitled note](https://svn.code.sf.net/p/apertium/svn/trunk/apertium-tools/generate-bidix-templates.py)
+[generate-bidix-templates.py](https://svn.code.sf.net/p/apertium/svn/trunk/apertium-tools/generate-bidix-templates.py)
 
-[PDF - www.tcd.ie](https://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/IRAAL_2008.pdf)
+[Hiberno-English Vowel System: Drogheda English](https://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/IRAAL_2008.pdf)
 
-[PDF - www.tcd.ie](http://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/raya-interspeech2009.pdf)
+[Tonal Alignment in Three Varieties of Hiberno-English](http://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/raya-interspeech2009.pdf)
 
-[PDF - www.tcd.ie](http://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/raya-UCDpaper.pdf)
+[Hiberno-English Question Intonation: the Case of Drogheda English](http://www.tcd.ie/slscs/assets/documents/postgraduate/clcs/papers/raya-UCDpaper.pdf)
 

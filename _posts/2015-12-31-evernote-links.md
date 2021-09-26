@@ -3,11 +3,11 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2015-12-31
+title: Evernote web clips, 31/12/2015
 categories: [evernote, web clip]
 ---
 
-[Untitled Note](http://blog.dilbert.com/post/136330131311/hypnotizing-you-to-have-the-best-new-years-day)
+[Scott Adams Blog](http://blog.dilbert.com/post/136330131311/hypnotizing-you-to-have-the-best-new-years-day)
 
 [Scott Adams Blog](http://blog.dilbert.com/post/136258700406/hypnotizing-you-to-have-the-best-new-years-day)
 
@@ -15,5 +15,4 @@ categories: [evernote, web clip]
 
 [Scott Adams Blog](http://blog.dilbert.com/post/136111361531/hypnotizing-you-to-have-the-best-new-years-day)
 
-[Scott Adams Blog]()
 
