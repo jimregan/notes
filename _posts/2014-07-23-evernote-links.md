@@ -26,4 +26,3 @@ categories: [evernote, web clip]
 [Parsoid - MediaWiki](http://www.mediawiki.org/wiki/Parsoid)
 
 [Parsoid/MediaWiki DOM spec - MediaWiki](http://www.mediawiki.org/wiki/Parsoid/MediaWiki_DOM_spec)
-
