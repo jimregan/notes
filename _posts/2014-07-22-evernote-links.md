@@ -17,3 +17,24 @@ categories: [evernote, web clip]
 
 [Ukraina](http://wyborcza.pl/1,75248,16341650,.html?wall=1)
 
+---
+toc: false
+layout: post
+hidden: true
+description: Old links
+title: Evernote web clips, 2014-07-22
+categories: [evernote, web clip]
+---
+
+[Basic Binding using RoboVM and libGDXSeven Armed Squid](http://www.sevenarmedsquid.com/help/robovmbinding)
+
+[Caffe | MNIST Tutorial](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
+
+[article | Perl 5 to Perl 6](http://perlgeek.de/en/article/5-to-6)
+
+[Reading: It&apos;s All Good: Lolita](http://readerfool.blogspot.com/2008/12/lolita.html)
+
+[gocircuit/escher](https://github.com/gocircuit/escher)
+
+[Untitled note](https://raw.githubusercontent.com/facebook/rocksdb/master/examples/simple_example.cc)
+
