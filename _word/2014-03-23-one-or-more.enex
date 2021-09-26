@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T134838Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>oneOrMore</title>
+    <created>20140323T160644Z</created>
+    <updated>20140323T194128Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+void
+<div>Transducer::oneOrMore(int const epsilon_tag)</div>
+<div>{</div>
+<div>  joinFinals(epsilon_tag);</div>
+<div>  int state = newState();</div>
+<div>  linkStates(state, initial, epsilon_tag);</div>
+<div>  initial = state;</div>
+<div><br/></div>
+<div>  state = newState();</div>
+<div>  linkStates(*finals.begin(), state, epsilon_tag);</div>
+<div>  finals.clear();</div>
+<div>  finals.insert(state);</div>
+<div>  linkStates(state, initial, epsilon_tag);</div>
+<div>}</div>
+<div><br/></div>
+<div>void
+<div>Transducer::joinFinals(int const epsilon_tag)</div>
+<div>{</div>
+<div>  if(finals.size() &gt; 1)</div>
+<div>  {</div>
+<div>    int state = newState();</div>
+<div><br/></div>
+<div>    for(set&lt;int&gt;::iterator it = finals.begin(), limit = finals.end();</div>
+<div>        it != limit; it++)</div>
+<div>    {</div>
+<div>      linkStates(*it, state, epsilon_tag);</div>
+<div>    }</div>
+<div><br/></div>
+<div>    finals.clear();</div>
+<div>    finals.insert(state);</div>
+<div>  }</div>
+<div>  else if(finals.size() == 0)</div>
+<div>  {</div>
+<div>    wcerr &lt;&lt; L&quot;Error: empty set of final states&quot; &lt;&lt;endl;</div>
+<div>    exit(EXIT_FAILURE);</div>
+<div>  }</div>
+<div>}</div>
+</div>
+<div><br/></div>
+<div>void
+<div>Transducer::linkStates(int const source, int const destino,</div>
+<div>                   int const etiqueta)</div>
+<div>{</div>
+<div><br/></div>
+<div>  if(transitions.find(source) != transitions.end() &amp;&amp;</div>
+<div>     transitions.find(destino) != transitions.end())</div>
+<div>  {</div>
+<div>    // new code</div>
+<div>    pair&lt;multimap&lt;int, int&gt;::iterator, multimap&lt;int, int&gt;::iterator&gt; range;</div>
+<div>    range = transitions[source].equal_range(etiqueta);</div>
+<div>    for(;range.first != range.second; range.first++)</div>
+<div>    {</div>
+<div>      if(range.first-&gt;first == etiqueta &amp;&amp; range.first-&gt;second == destino)</div>
+<div>      {</div>
+<div>        return;</div>
+<div>      }</div>
+<div>    }</div>
+<div>    // end of new code</div>
+<div>    transitions[source].insert(pair&lt;int, int&gt;(etiqueta, destino));</div>
+<div>  }</div>
+<div>  else</div>
+<div>  {</div>
+<div>    wcerr &lt;&lt; L&quot;Error: Trying to link nonexistent states (&quot; &lt;&lt; source;</div>
+<div>    wcerr &lt;&lt; L&quot;, &quot; &lt;&lt; destino &lt;&lt; L&quot;, &quot; &lt;&lt; etiqueta &lt;&lt; L&quot;)&quot; &lt;&lt; endl;</div>
+<div>    exit(EXIT_FAILURE);</div>
+<div>  }</div>
+<div>}</div>
+</div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
