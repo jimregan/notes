@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T154110Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>How to clear font caches in Leopard | Macworld</title>
+    <created>20120917T190954Z</created>
+    <updated>20120917T191037Z</updated>
+    <note-attributes>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<table border="0" cellspacing="0" cellpadding="0"/>
+<a href="http://www.macworld.com/article/1139383/fontcacheclear.html">http://www.macworld.com/article/1139383/fontcacheclear.html</a>
+<div><br/></div>
+<div>If you want to remove the font cache for all users, use this command,       </div>
+<div>   and provide your admin password when asked:                                 </div>
+<div>   sudo atsutil databases -remove                                              </div>
+<div>                                                                               </div>
+<div>   Once you've cleared the caches, you should stop and restart the ATS         </div>
+<div>   server with these commands:                                                 </div>
+<div>                                                                               </div>
+<div>   $ atsutil server -shutdown                                                  </div>
+<div>                                                                               </div>
+<div>   $ atsutil server -ping       </div>
+</en-note>      ]]>
+    </content>
+  </note>
+  <note>
+    <title>OpenIMAJ / Code / Commit [r1458]</title>
+    <created>20120917T192509Z</created>
+    <updated>20120917T192524Z</updated>
+    <note-attributes>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<table border="0" cellspacing="0" cellpadding="0"/>
+<a href="https://sourceforge.net/p/openimaj/code/1458/">https://sourceforge.net/p/openimaj/code/1458/</a>
+<div><br/></div>
+<div>fastdoublekmeans</div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
