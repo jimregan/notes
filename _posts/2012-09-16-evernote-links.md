@@ -4,7 +4,7 @@ layout: post
 hidden: true
 description: Old links
 title: Evernote web clips, 16/9/2012
-categories: [evernote, web clip]
+categories: [evernote, web clip, wordnet]
 ---
 
 [Home | Natural Language Processing Laboratory](http://web.archive.org/web/20110907050907/http://nlp.sbu.ac.ir/site)
