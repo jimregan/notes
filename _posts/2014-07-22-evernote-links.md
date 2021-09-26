@@ -17,3 +17,16 @@ categories: [evernote, web clip]
 
 [Ukraina](http://wyborcza.pl/1,75248,16341650,.html?wall=1)
 
+---
+
+[Basic Binding using RoboVM and libGDXSeven Armed Squid](https://web.archive.org/web/20150515114635/http://www.sevenarmsquid.com/help/robovmbinding)
+
+[Caffe | MNIST Tutorial](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)
+
+[article | Perl 5 to Perl 6](http://perlgeek.de/en/article/5-to-6)
+
+[Reading: It&apos;s All Good: Lolita](http://readerfool.blogspot.com/2008/12/lolita.html)
+
+[gocircuit/escher](https://github.com/gocircuit/escher)
+
+[simple_example.cc](https://raw.githubusercontent.com/facebook/rocksdb/master/examples/simple_example.cc)
