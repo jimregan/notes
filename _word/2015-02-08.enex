@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T092107Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>SuDoKu Grabber with OpenCV: Recognizing digits - AI Shack</title>
+    <created>20150208T105649Z</created>
+    <updated>20150208T105649Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www.aishack.in/tutorials/sudoku-grabber-with-opencv-recognizing-digits/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>358</width>
+      <height>355</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+041c3e89861b0add233c9c4cd3422ad3+https://www.evernote.com/shard/s160/res/9731a3ed-c5e7-4eb1-84f4-e7ddf3955755</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+25734670dfee7ca83d297b173ebb32b1+https://www.evernote.com/shard/s160/res/57254391-eedb-4640-828e-5c2dfea38957</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+811ecc79a21c45663b3a2979b3c6563d+https://www.evernote.com/shard/s160/res/9cffeaf9-4e2e-4ed8-b45b-578eb4c04ae2</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>80</width>
+      <height>80</height>
+      <resource-attributes>
+        <file-name>066eac5a12b429666971cd4ae450f169.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+9a985595e63715d2e0229a30dc0734f2+https://www.evernote.com/shard/s160/res/b73902c0-7e28-4b84-8011-9d6d0477b3d5</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+9abbc99522559e35d52133d995a5d7f1+https://www.evernote.com/shard/s160/res/f35a65d7-b345-4414-909f-3125cfd9e337</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>597</width>
+      <height>163</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+c200981ce2a1ea25fa2563d7603935ba+https://www.evernote.com/shard/s160/res/0b178811-a64c-4294-a0c3-24d44ade2b4c</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>475</width>
+      <height>472</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3ef831cd-b3bb-4f83-910b-db1942262f82+da949700fe15b57aa02137c758c3e1fa+https://www.evernote.com/shard/s160/res/ced59dd4-50ca-4e93-bffe-7483417098c3</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>SuDoKu Grabber with OpenCV: Extracting digits - AI Shack</title>
+    <created>20150208T105604Z</created>
+    <updated>20150208T105604Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www.aishack.in/tutorials/sudoku-grabber-with-opencv-extracting-digits/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+4e1f0805368639f77bfb79286121b5e9+https://www.evernote.com/shard/s160/res/bc2db613-5d57-45ef-942d-6a2010854b93</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>115</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+80aa1ecb98c34270ac3fe9354ab50ce1+https://www.evernote.com/shard/s160/res/1bd84d80-af2f-448b-9a75-b83719ddc90d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+8675ec51dd684feabb1f1094d0c356ac+https://www.evernote.com/shard/s160/res/f9cd285f-4392-4fdb-839d-0a9f6edc9fb8</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>80</width>
+      <height>80</height>
+      <resource-attributes>
+        <file-name>066eac5a12b429666971cd4ae450f169.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+9a985595e63715d2e0229a30dc0734f2+https://www.evernote.com/shard/s160/res/5a7d941b-03c8-4bad-a112-794182f0aaf8</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>597</width>
+      <height>163</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+c200981ce2a1ea25fa2563d7603935ba+https://www.evernote.com/shard/s160/res/4561ef9b-3487-4c3b-be34-0a2153f4e421</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bfaad900-77dc-4bce-b580-29a998041f45+e8cf8a8de2634c9b508b16db013b25b9+https://www.evernote.com/shard/s160/res/12f486e9-596a-4f39-b825-0d88ace6efd5</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>SuDoKu Grabber with OpenCV: Extracting the grid - AI Shack</title>
+    <created>20150208T105531Z</created>
+    <updated>20150208T105531Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www.aishack.in/tutorials/sudoku-grabber-with-opencv-extracting-grid/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+25734670dfee7ca83d297b173ebb32b1+https://www.evernote.com/shard/s160/res/c39cfbfe-9b9b-4d1d-bf92-4288f2d68b77</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+811ecc79a21c45663b3a2979b3c6563d+https://www.evernote.com/shard/s160/res/8ac65ceb-bbd4-41b5-949f-37a3ab3096ec</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>80</width>
+      <height>80</height>
+      <resource-attributes>
+        <file-name>066eac5a12b429666971cd4ae450f169.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+9a985595e63715d2e0229a30dc0734f2+https://www.evernote.com/shard/s160/res/5391651b-0415-4610-bd98-2ea9deeca6c6</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+9abbc99522559e35d52133d995a5d7f1+https://www.evernote.com/shard/s160/res/aeba87ab-4fd8-49ae-94e7-1ccc18ef78b8</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>418</width>
+      <height>422</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+a8faece5e65bf96db749e5852735435e+https://www.evernote.com/shard/s160/res/53d0fc9e-9fd9-42df-8419-b8e88cca4097</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>597</width>
+      <height>163</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+c200981ce2a1ea25fa2563d7603935ba+https://www.evernote.com/shard/s160/res/130b102d-5faf-4b48-8691-0da56be9f97e</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>356</width>
+      <height>354</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+c2b1f924c36f99c4dc1cac77ec99b2cd+https://www.evernote.com/shard/s160/res/3e1cce23-1386-45ea-bdce-2a9675b0dec7</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>418</width>
+      <height>423</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+25b65651-5a2a-453b-a2d0-6b575d6e1f4c+d5942da999f927ee4c571e5935ceed5b+https://www.evernote.com/shard/s160/res/59795dc9-bb38-4659-955f-1410ce7a6eb9</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>SuDoKu Grabber with OpenCV: The Plot - AI Shack</title>
+    <created>20150208T105442Z</created>
+    <updated>20150208T105442Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www.aishack.in/tutorials/sudoku-grabber-with-opencv-plot/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>556</width>
+      <height>562</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+19e668b52390eba2fc8711dbb02e780c+https://www.evernote.com/shard/s160/res/c3b13149-9a11-4e22-a998-913c6eb64ea3</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>419</width>
+      <height>423</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+1a8d4bc2daed042ba94754dc73fb6914+https://www.evernote.com/shard/s160/res/517c68b4-2d44-4e15-b6d2-3bbdbc8438e4</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+4e1f0805368639f77bfb79286121b5e9+https://www.evernote.com/shard/s160/res/4c146510-8054-47e1-9782-6c42bd1bb95d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>417</width>
+      <height>423</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+536f3f5797dd3963e06c4540ce0b2f95+https://www.evernote.com/shard/s160/res/282202ab-51c7-47ea-ab27-570f65317c85</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>417</width>
+      <height>420</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+678b264112a78c8e19d21a2639b93140+https://www.evernote.com/shard/s160/res/f4c14ffa-a049-4edf-81b7-91b8db5967c3</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>417</width>
+      <height>423</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+784cc2baca0f3222a8a67486dd5beac9+https://www.evernote.com/shard/s160/res/ea2ced86-4d5a-4b26-a9e5-64447fb652c3</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+8675ec51dd684feabb1f1094d0c356ac+https://www.evernote.com/shard/s160/res/8c59ff12-7196-4a81-be69-2ed3e0671c20</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>80</width>
+      <height>80</height>
+      <resource-attributes>
+        <file-name>066eac5a12b429666971cd4ae450f169.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+9a985595e63715d2e0229a30dc0734f2+https://www.evernote.com/shard/s160/res/33df1e8a-8d67-4f61-a419-6f89c5b2064e</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>597</width>
+      <height>163</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+c200981ce2a1ea25fa2563d7603935ba+https://www.evernote.com/shard/s160/res/b1c6666d-2fcf-4d1b-b7a0-8f3672a71948</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>179</width>
+      <height>49</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+e8cf8a8de2634c9b508b16db013b25b9+https://www.evernote.com/shard/s160/res/52d2fd2d-6a69-476f-9460-785b29a16146</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>484</width>
+      <height>484</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+bf9720e6-ac56-4c8f-9b90-3c66e9c52412+f61b06c563bbf6fa9e0fe404be640eca+https://www.evernote.com/shard/s160/res/0a5164c5-5ebe-46ac-99f6-cf964be5ef20</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Untitled note</title>
+    <created>20150208T101001Z</created>
+    <updated>20150208T101001Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://github.com/BVLC/caffe/pull/1501.patch</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Untitled note</title>
+    <created>20150208T030814Z</created>
+    <updated>20150208T030814Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://github.com/BVLC/caffe/pull/1456.patch</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>On Academia… « muellis blog</title>
+    <created>20150208T025658Z</created>
+    <updated>20150208T025658Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://blogs.gnome.org/muelli/2015/01/on-academia/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Running the code with Ocelot - Udacity</title>
+    <created>20150208T024935Z</created>
+    <updated>20150208T024935Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://www.udacity.com/wiki/cs344/llvm-ocelot-dev</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+</en-export>
