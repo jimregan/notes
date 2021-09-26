@@ -66,3 +66,7 @@ training_args = TrainingArguments(
 
 [Few-shot Intent Classification and Slot Filling with Retrieved Examples](https://aclanthology.org/2021.naacl-main.59.pdf)
 
+[Comparing CTC and LFMMI for out-of-domain adaptation of wav2vec 2.0 acoustic model](https://arxiv.org/abs/2104.02558)
+
+[Unsupervised Cross-Modal Alignment of Speech and Text Embedding Spaces](https://ckbjimmy.github.io/docs/chung2018unsupervised_p.pdf)
+
