@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2015-05-27
+title: Evernote web clips, 27/5/2015
 categories: [evernote, web clip]
 ---
 
@@ -23,5 +23,5 @@ categories: [evernote, web clip]
 
 [Circular_buffer example - 1.58.0](http://www.boost.org/doc/libs/1_58_0/doc/html/circular_buffer/example.html)
 
-[[1409.0473] Neural Machine Translation by Jointly Learning to Align and Translate](http://arxiv.org/abs/1409.0473)
+[Neural Machine Translation by Jointly Learning to Align and Translate](http://arxiv.org/abs/1409.0473)
 

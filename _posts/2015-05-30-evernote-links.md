@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2015-05-30
+title: Evernote web clips, 30/5/2015
 categories: [evernote, web clip]
 ---
 
