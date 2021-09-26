@@ -87,5 +87,7 @@ return p
 other page:
 
 ```
-\{\{\#invoke:Bananas\|hello\}\}
+{% raw %}
+{{#invoke:Bananas|hello}}
+{% endraw %}
 ```
