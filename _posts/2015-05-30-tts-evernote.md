@@ -4,12 +4,12 @@ layout: post
 hidden: true
 description: Old notes
 title: Evernote notes, TTS
-categories: [evernote]
+categories: [evernote, tts, asr]
 ---
 
-Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups 
+[Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups](https://www.cs.toronto.edu/~gdahl/papers/deepSpeechReviewSPM2012.pdf)
 
-“Multi-distribution deep belief network for speech synthesis”
+[Multi-distribution deep belief network for speech synthesis](https://ieeexplore.ieee.org/document/6639225)
 
 [Modeling spectral envelopes using restricted Boltzmann machines for statistical parametric speech synthesis](http://research.microsoft.com/pubs/194347/0007825.pdf)
 
