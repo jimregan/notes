@@ -23,16 +23,14 @@ categories: [evernote, web clip]
 
 [ConcatDoc &lt; FST &lt; TWiki](http://www.openfst.org/twiki/bin/view/FST/ConcatDoc)
 
-[espeak/ttsengobj.cpp at master · rhdunn/espeak](https://github.com/rhdunn/espeak/blob/master/platforms/windows/windows_sapi/ttsengobj.cpp)
+[espeak ttsengine.cpp](https://github.com/espeak-ng/espeak-ng/blob/master/src/windows/com/ttsengine.cpp)
 
-[Untitled note](http://fubar5.fubar.org/fs2netd/fs2_open/speech/include/Spddkhlp.h)
+[/sources/flite/sapi/FliteTTSEngineObj/FliteTTSEngineObj.cpp](https://sourceforge.net/p/pure-data/svn/HEAD/tree/sources/flite/sapi/FliteTTSEngineObj/FliteTTSEngineObj.cpp)
 
-[Pure Data Computer Music System / SVN / [r17364] /sources/flite/sapi/FliteTTSEngineObj/FliteTTSEngineObj.cpp](http://sourceforge.net/p/pure-data/svn/HEAD/tree/sources/flite/sapi/FliteTTSEngineObj/FliteTTSEngineObj.cpp)
+[TTS Engine Vendor Porting Guide (SAPI 5.3)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms717037\(v=vs.85\))
 
-[TTS Engine Vendor Porting Guide (SAPI 5.3)](http://msdn.microsoft.com/en-us/library/ms717037(v=vs.85).aspx)
+[XML TTS Tutorial (SAPI 5.3)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms717077\(v=vs.85\))
 
-[XML TTS Tutorial (SAPI 5.3)](http://msdn.microsoft.com/en-us/library/ms717077(v=vs.85).aspx)
-
-[Overview of SAPI Grammar: Solitaire Example (SAPI 5.3)](http://msdn.microsoft.com/en-us/library/ms723636(v=vs.85).aspx)
+[Overview of SAPI Grammar: Solitaire Example (SAPI 5.3)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms723636\(v=vs.85\))
 
 [Helper SpConvertStreamFormatEnum (SAPI 5.3)](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms717497\(v=vs.85\))
