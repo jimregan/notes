@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T142528Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO3Z-INC.txt</title>
+    <created>20140421T225156Z</created>
+    <updated>20140421T225207Z</updated>
+    <tag>file format</tag>
+    <tag>locoscript</tag>
+    <note-attributes>
+      <source-url>http://cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO3Z-INC.txt</source-url>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<table border="0" cellspacing="0" cellpadding="0"/>
+<pre style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; white-space: pre-wrap;">
+(*******   LOCO3Z.INC  Includedatei zu LOCOCONZ.PAS   *******)
+
+FUNCTION LocoVorhanden : boolean;
+BEGIN
+  Blockread(Quelldatei,Puffer,3,BloeckeEin);
+  ClrScr;
+  Kasten(5,18,50,13);
+  gotoxy(7,20);
+  IF ((Puffer[0]=$4A)AND(Puffer[1]=$4F)
+                       AND(Puffer[2]=$59)) THEN
+  BEGIN
+    LocoVorhanden:=True;
+    write('Locoscriptdatei : &lt;&lt; ',Quelldateiname);
+    write(' &gt;&gt; gefunden.');
+    StartBlock:=Puffer[$7E];
+    IF ((NOT(StartBlock IN [1..15]))OR(BloeckeEin&lt;3)) THEN
+    BEGIN
+      LocoVorhanden:=False;
+      gotoxy(10,24);
+      write('Format der Locoscript-Datei ungeeignet!');
+      LocoVorhanden:=False;
+    END ELSE
+      BEGIN
+        ErsteSeite:=Puffer[107]; LetzteSeite:=Puffer[109];
+        gotoxy(7,22);
+        write('Von Seite   : ',ErsteSeite);
+        write('   bis Seite: ',LetzteSeite);
+        gotoxy(7,24); write('Dateigroesse: ');
+        write(FileSize(Quelldatei)*128,' Bytes');
+        gotoxy(7,26); write('Text-Info   : ');
+        FOR i:=5 TO 34 DO write(UmlautASC(Puffer[i]));
+        gotoxy(21,27);
+        FOR i:=35 TO 64 DO write(UmlautASC(Puffer[i]));
+        gotoxy(21,28);
+        FOR i:=65 TO 94 DO write(UmlautASC(Puffer[i]));
+        FOR n:=0 TO 10 DO FOR m:=0 TO 5 DO  {10 Layouts   }
+            LayoutTabelle[n,m]:=            {Schrift-RRand}
+              Puffer[$80+((10+Puffer[$60])*n)+m];
+        Kopfteil:=(Puffer[$70] DIV 2)-6;
+      END;
+  END ELSE
+    BEGIN
+      LocoVorhanden:=False;
+      write('Keine Locoscript-Datei !!!!');
+    END;
+  Weiter;
+END;
+
+PROCEDURE LocoDateiBearbeiten;
+VAR Seitenlaenge,
+    LetzterTab,
+    LayoutNr,
+    LiVersatz,
+    n,p,SeitenNr   : integer;
+    Schriftart,
+    Hervorhebecode : byte;
+    Textzeile      : string[128];
+    Unterstreichen,
+    StartFlag,
+    EndFlag        : boolean;
+
+  PROCEDURE Out(Zeichen:MiniString);
+  BEGIN
+    CASE Zeichen[1] OF
+      #$86: BEGIN                            {Zeilenanfang}
+              p:=LiRand-LiVersatz;
+              Textzeile:='';
+              IF Ausgabemodus IN ['P','S','C'] THEN
+                IF Unterstreichen THEN Textzeile:=
+                      Textzeile+CodeTabelle[Druckertyp,3];
+              FOR n:=1 TO p DO Textzeile:=Textzeile+' ';
+              IF Ausgabemodus IN ['P','S','C'] THEN
+                IF Unterstreichen THEN Textzeile:=
+                      Textzeile+CodeTabelle[Druckertyp,2];
+            END;
+      #$88: BEGIN                              {Zeilenende}
+              IF Textzeile[length(Textzeile)]=' '
+                THEN delete(Textzeile,length(Textzeile),1);
+              FOR n:=1 TO length(Textzeile) DO
+                BEGIN
+                  write(Zieldatei,Textzeile[n]);
+                  IF Ausgabemodus&lt;&gt;'D' THEN delay(Pause);
+                END;
+              writeln(Zieldatei);
+              Textzeile:='';
+            END;
+      #$89: BEGIN                                     {TAB}
+             FOR n:=(p+1) TO (LetzterTab - LiVersatz) DO
+                  BEGIN
+                    Textzeile:=Textzeile+' ';
+                    p:=succ(p);
+                  END;
+            END;
+      #$0C: IF Ausgabemodus='B' THEN           {Seitenende}
+                FOR n:=1 TO 90 DO write('-')
+                ELSE writeln(Zieldatei,#$0C);
+     ELSE BEGIN
+            Textzeile:=Textzeile+Zeichen;
+            IF length(Zeichen)&lt;6      {keine Steuersequenz}
+                  THEN p:=p+length(Zeichen);
+          END;
+    END;
+  END; {Out}
+
+  PROCEDURE Schriftwahl(x:byte);
+  BEGIN
+    CASE x OF
+      $00: Out(CodeTabelle[Druckertyp,6]);
+      $0E: Out(CodeTabelle[Druckertyp,9]);
+      $10: Out(CodeTabelle[Druckertyp,9]);
+      $14: Out(CodeTabelle[Druckertyp,8]);
+      $18: Out(CodeTabelle[Druckertyp,7]);
+    END;
+  END;
+
+  PROCEDURE Hervorheben(x:byte); {doppelt/kursiv/unterstr.}
+  BEGIN
+    IF (x AND $11)&gt;0 THEN Out(CodeTabelle[Druckertyp,0])
+                     ELSE Out(CodeTabelle[Druckertyp,1]);
+    IF (x AND $20)&gt;0 THEN Out(CodeTabelle[Druckertyp,4])
+                     ELSE Out(CodeTabelle[Druckertyp,5]);
+    IF (x AND $06)&gt;0 THEN BEGIN
+                            Out(CodeTabelle[Druckertyp,2]);
+                            Unterstreichen:=True;
+                          END
+                     ELSE Out(CodeTabelle[Druckertyp,3]);
+  END;
+
+  PROCEDURE LocoSonderzeichen;
+  BEGIN
+    CASE Puffer[i] OF
+      $80: IF EndFlag THEN Out(#$0C);          {Seitenende}
+      $81: Out(#$20);                         {Leerzeichen}
+      $82: BEGIN
+             IF Puffer[i+1]=1 THEN Out(#$88); {Seitenwech.}
+             IF Puffer[i+1]=2 THEN Out(#$2D); {Bindestrich}
+             i:=i+1;
+           END;
+      $86: BEGIN                             {Zeilenanfang}
+             Out(#$86);
+             i:=i+2;
+           END;
+      $88: BEGIN                               {Zeilenende}
+             IF Puffer[i+1]=8 THEN ELSE Out(#$88);
+             i:=i+1;
+           END;
+      $89,                                            {Tab}
+      $8B: BEGIN                              {Buendig-Tab}
+             IF Puffer[i+1]=0 THEN LiRand:=Puffer[i+2]
+               ELSE BEGIN
+                      LetzterTab:=Puffer[i+2];
+                      Out(#$89);
+                    END;
+             IF Puffer[i]=$8B THEN i:=i+7 ELSE i:=i+4;
+           END;
+      $8A: BEGIN                                  {buendig}
+             IF Puffer[i+1]=8 THEN ELSE Out(#$88);
+             i:=i+5;
+           END;
+    END;
+  END;  {LocoSonderzeichen}
+
+  PROCEDURE MitSteuerzeichen;
+  BEGIN
+    CASE Puffer[i] OF
+      $83 : BEGIN                         {Hervorheben ein}
+              CASE Puffer[i+1] OF
+                0,4: Out(CodeTabelle[Druckertyp,0]);
+                1,2: BEGIN
+                       Out(CodeTabelle[Druckertyp,2]);
+                       Unterstreichen:=True;
+                     END;
+                5  : Out(CodeTabelle[Druckertyp,4]);
+              END;
+              i:=i+1;
+            END;
+      $84 : BEGIN                         {Hervorheben aus}
+              CASE Puffer[i+1] OF
+                0,4: Out(CodeTabelle[Druckertyp,1]);
+                1,2: BEGIN
+                       Out(CodeTabelle[Druckertyp,3]);
+                       Unterstreichen:=False;
+                     END;
+                5  : Out(CodeTabelle[Druckertyp,5]);
+              END;
+              i:=i+1;
+            END;
+      $85 : BEGIN                               {Einfuegen}
+              CASE Puffer[i+1] OF
+                0: IF Puffer[i+2]=1 THEN
+                            Out(#$2D);          {Softtrenn}
+                2: IF Puffer[i+2]&lt;11 THEN    {neues Layout}
+                     BEGIN
+                       Unterstreichen:=False;
+                       Hervorhebecode:=
+                             LayoutTabelle[Puffer[i+2],3];
+                       Hervorheben(Hervorhebecode);
+                       Schriftart:=
+                             LayoutTabelle[Puffer[i+2],0];
+                       Schriftwahl(Schriftart);
+                     END;
+                5: BEGIN                          {Schrift}
+                     Schriftart:=Puffer[i+2];
+                     Schriftwahl(Schriftart);
+                    END;
+              END;
+              i:=i+2;
+            END;
+    END;
+  END;  {MitSteuerzeichen}
+
+  PROCEDURE OhneSteuerzeichen;
+  BEGIN
+    CASE Puffer[i] OF
+      $83,$84: i:=i+1;
+      $85    : BEGIN                            {Softtrenn}
+                 IF Puffer[i+1]=0 THEN IF Puffer[i+2]=1
+                                    THEN Out(#$2D);
+                 i:=i+2;
+               END;
+    END;
+  END;
+
+  PROCEDURE Seitenanfang;
+  BEGIN
+    Schriftart:=(Puffer[9] AND $7F);
+    Hervorhebecode:=Puffer[12];
+    LayoutNr:=Puffer[7];
+    LiRand:=Puffer[8];
+    LiVersatz:=0;
+    IF MitRand='N' THEN LiVersatz:=LayoutTabelle[0,4];
+    IF LiVersatz&gt;LiRand THEN LiVersatz:=LiRand;
+    Out(#$86);
+    IF (Ausgabemodus IN['P','S','C']) THEN
+      BEGIN
+        PapierEinlegen;
+        Kasten(28,25,30,5);
+        gotoxy(35,27);
+        write('* Seite: &lt; ',SeitenNr,' &gt; *');
+        gotoxy(90,30);
+        IF Druckertyp&gt;0 THEN
+          BEGIN
+            Schriftwahl(Schriftart);
+            Hervorheben(Hervorhebecode);
+            Out(#$88);
+          END;
+      END;
+    FOR n:=3 TO Kopfteil DO writeln(Zieldatei);
+  END;
+
+  PROCEDURE SeitennummerHolen;
+  BEGIN
+    VonSeite:=ErsteSeite;
+    BisSeite:=LetzteSeite;
+    IF ErsteSeite=LetzteSeite THEN EXIT;   {nur eine Seite}
+    REPEAT
+      ClrScr;
+      Kasten(5,3,80,11);
+      gotoxy(11,5);
+      write('Alle Seiten ausgeben, bzw. speichern ?    ');
+      write('j/n  : ');
+      REPEAT
+        read(KBD,Eingabe);
+      UNTIL upcase(Eingabe) IN['J','N'];
+      IF upcase(Eingabe)='N' THEN
+        BEGIN
+          write('nein');
+          gotoxy(11,7);
+          write('Erste Seite: ',ErsteSeite);
+          write('     Letzte Seite: ',LetzteSeite);
+          gotoxy(11,9);
+          write('Ausgabe von Seite: ');
+          {$I-} readln(VonSeite); {$I+}
+          IF IOresult&lt;&gt;0 THEN VonSeite:=0;
+          gotoxy(11,11);
+          write('        bis Seite: ');
+          {$I-} readln(BisSeite); {$I+}
+          IF IOresult&lt;&gt;0 THEN BisSeite:=0;
+        END ELSE BEGIN
+                   VonSeite:=ErsteSeite;
+                   BisSeite:=LetzteSeite;
+                 END;
+    UNTIL((VonSeite&lt;=BisSeite)AND((VonSeite&gt;=
+           ErsteSeite)AND(BisSeite&lt;=LetzteSeite)));
+  END;
+
+ FUNCTION Zulang :boolean;
+     {Bei Diskettenausgabe max. 16 kByte-Kopie aus anderem}
+     {Userbereich moeglich}
+ BEGIN
+   IF BloeckeEin&lt;(Puffer[0]-1) THEN
+     BEGIN
+       ClrScr; Kasten(10,5,65,7);
+       gotoxy(16,7);
+       write('Fehler! Datei zu lang ');
+       write('fuer unterschiedliche Usernummern');
+       gotoxy(22,9);
+       write('Datei auf User 0 (gruppe0) kopieren');
+       Weiter;
+       Zulang:=True;
+    END ELSE Zulang:=False;
+  END;
+
+BEGIN  {LocoDateiBearbeiten}
+  SeitennummerHolen;
+  IF Ausgabemodus='B' THEN ClrScr ELSE Geduld;
+  Unterstreichen:=False;
+  SeitenNr:=ErsteSeite;
+  Textzeile:='';  p:=1;
+  QuelldateiOeffnen;
+  IF NOT DateiVorhanden THEN EXIT;
+  Blockread(Quelldatei,Puffer,StartBlock);
+                              {Info-Bloecke blind einlesen}
+  WHILE NOT((EOF(Quelldatei))OR(SeitenNr&gt;BisSeite)) DO
+    BEGIN
+      WHILE SeitenNr&lt;VonSeite DO     {Seiten ueberspringen}
+        BEGIN
+          REPEAT
+            Blockread(Quelldatei,Puffer,1);
+            Blockread(Quelldatei,Puffer[128],Puffer[0]-1,
+              BloeckeEin);
+            IF Zulang THEN EXIT;
+          UNTIL (Puffer[2] AND $01)&gt;0;
+          SeitenNr:=succ(SeitenNr);
+        END;
+      REPEAT
+        Blockread(Quelldatei,Puffer,1);     {1. Textblock }
+        Seitenlaenge:=Puffer[0]*128-2;
+        IF (Puffer[2] AND $80)&gt;0 THEN
+                     StartFlag:=True ELSE StartFlag:=False;
+        IF (Puffer[2] AND $01)&gt;0 THEN
+                     EndFlag:=True ELSE EndFlag:=False;
+        Blockread(Quelldatei,Puffer[128],Puffer[0]-1,
+           BloeckeEin);
+        IF Zulang THEN EXIT;
+        IF StartFlag THEN Seitenanfang;
+        i:=13;                                 {Textanfang}
+        REPEAT
+          CASE Puffer[i] OF
+            $00..$1A: ;
+            $20..$5A,
+            $61..$7A: Out(chr(Puffer[i]));
+            $83..$85: IF ((Ausgabemodus IN ['B','D'])
+                           OR(Druckertyp=0))
+                           THEN OhneSteuerzeichen
+                              ELSE MitSteuerzeichen;
+            $80..$82,
+            $86..$9F: LocoSonderzeichen;
+            ELSE CASE KonvWahl OF
+                  'A' : Out(UmlautASC(Puffer[i]));
+                  'L' : Out(UmlautLOC(Puffer[i]));
+                  'O' : Out(OhneUmlaut(Puffer[i]));
+                 END;
+          END;
+          i:=succ(i);
+          IF Ausgabemodus IN ['P','S','C'] THEN
+            IF keypressed THEN IF DruckAbbrechen THEN EXIT;
+        UNTIL i&gt;Seitenlaenge;
+      UNTIL EndFlag=True;
+      SeitenNr:=succ(SeitenNr);
+    END;
+  close(Quelldatei);
+  IF Ausgabemodus='D' THEN BDOS(32,0);             {User=0}
+  close(Zieldatei);
+  IF Ausgabemodus='B' THEN Weiter;
+END;  {LocoDateiBearbeiten}
+
+</pre>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+  <note>
+    <title>cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO2Z-INC.txt</title>
+    <created>20140421T225131Z</created>
+    <updated>20140421T225145Z</updated>
+    <tag>file format</tag>
+    <tag>locoscript</tag>
+    <note-attributes>
+      <source-url>http://cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO2Z-INC.txt</source-url>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<table border="0" cellspacing="0" cellpadding="0"/>
+<pre style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; white-space: pre-wrap;">
+(*******   LOCO2z.INC  Includedatei zu LOCOCONZ.PAS   *******)
+
+PROCEDURE FormatdateiEinlesen;
+VAR a,b,c       : integer;
+    Nochmal     : boolean;
+    Formatdatei : file OF MiniString;
+    St          : MiniString;
+BEGIN
+  Assign(Formatdatei,'A:LOCOCON.FRM');
+  REPEAT
+    {$I-} reset(Formatdatei); {$I+}
+    IF IOresult &lt;&gt; 0 THEN
+      BEGIN
+        Nochmal:=True;
+        ClrScr;
+        Kasten(10,20,70,5);
+        gotoxy(12,22);
+        write('Fehler!  Formatdatei LOCOCO.FRM ');
+        write('in Laufwerk A: nicht gefunden');
+        gotoxy(20,29);
+        write(#7,'&lt;W&gt;iederholen oder &lt;I&gt;gnorieren ?  ');
+        read(KBD,Eingabe);
+        IF upcase(Eingabe)='I' THEN Nochmal:=False;
+      END ELSE
+        BEGIN
+          Nochmal:=False;
+          FOR a:=0 TO 3 DO FOR b:=0 TO 9 DO
+                    read(Formatdatei,CodeTabelle[a,b]);
+          read(Formatdatei,St); Val(St,SIOWahl,c);
+          read(Formatdatei,St); Val(St,PTRWahl,c);
+        END;
+  UNTIL Nochmal=False;
+  close(Formatdatei);
+END;
+
+PROCEDURE FormatdateiSpeichern;
+VAR a,b         : integer;
+    Formatdatei : file OF MiniString;
+    St          : MiniString;
+BEGIN
+  ClrScr;
+  Kasten(8,10,74,8);
+  gotoxy(12,13);
+  write('Die geaenderten Format- oder Steuersequenzen ');
+  write('werden abgespeichert');
+  gotoxy(12,15);
+  write('Bitte die Programm-Diskette in A: einlegen ');
+  write('und &lt;RETURN&gt; druecken');
+  readln;
+  Assign(Formatdatei,'A:LOCOCON.FRM');
+  rewrite(Formatdatei);
+  FOR a:=0 TO 3 DO FOR b:=0 TO 9 DO
+                  write(Formatdatei,CodeTabelle[a,b]);
+  Str(SIOWahl,St);
+  write(Formatdatei,St);
+  Str(PTRWahl,St);
+  write(Formatdatei,St);
+  close(Formatdatei);
+END;
+
+PROCEDURE SteuerzeichenAendern;
+VAR a,b,c,d,e,f : integer;
+    SteuerDatei : file OF MiniString;
+    St          : MiniString;
+BEGIN
+  ClrScr;
+  a:=1;
+  Kasten(1,1,89,29);
+  REPEAT
+    gotoxy(20,3);write('F O R M A T  &lt;&lt; ',a,' &gt;&gt;   fuer ');
+      CASE a OF
+        0   : write('JOYCE und SIO/CEN    ');
+        1,2 : write('SIO/CEN-Schnittstelle');
+        3   : write('JOYCE-Drucker        ');
+      END;
+    gotoxy(20,7);
+    write('Folgende Steuersequenzen sind gespeichert:');
+    gotoxy(20,9);write('0 = Doppeldruck ein');
+    gotoxy(20,10);write('1 = Doppeldruck aus');
+    gotoxy(20,11);write('2 = Unterstreichen ein');
+    gotoxy(20,12);write('3 = Unterstreichen aus');
+    gotoxy(20,13);write('4 = Kursiv ein');
+    gotoxy(20,14);write('5 = Kursiv aus');
+    gotoxy(20,15);write('6 = Proportionalschrift');
+    gotoxy(20,16);write('7 = 10 Zeichen/Zoll');
+    gotoxy(20,17);write('8 = 12 Zeichen/Zoll');
+    gotoxy(20,18);write('9 = 15 Zeichen/Zoll');
+    gotoxy(20,20);write('N = naechstes Format');
+    gotoxy(20,22);write('X = Menue verlassen');
+    FOR b:=0 TO 9 DO
+      BEGIN
+        gotoxy(46,9+b);write(': ');
+        FOR d:=1 TO 6 DO write(ord(CodeTabelle[a,b][d]):4);
+      END;
+    gotoxy(20,25);
+    write('Anwaehlen und Eingabe ');
+    write('in DEZ oder HEX($) mit &lt;RETURN&gt; ');
+    read(KBD,Eingabe);
+    Val(Eingabe,b,c);
+    IF (c=0) AND (b IN [0..9]) THEN
+      BEGIN
+        St:='';
+        gotoxy(48,9+b);
+        write('&gt;                            ');
+        gotoxy(50,9+b);
+        FOR d:=1 TO 6 DO
+          BEGIN
+            e:=0;
+            read(e);
+            St:=St+chr(e);
+            write('  ');
+          END;
+        CodeTabelle[a,b]:=St;
+        FormatGeaendert:=True;
+      END;
+    IF upcase(Eingabe)='N' THEN a:=succ(a);
+    IF a=4 THEN a:=0;
+  UNTIL upcase(Eingabe)='X';
+END;
+
+PROCEDURE DirectoryLesen;
+VAR FCB       : ARRAY[0..31] OF char;
+    Puffer    : ARRAY[0..127] OF char;
+    Name      : string[17];
+    Eingabe   : char;
+    st        : string[1];
+    z,sz,zz   : byte;
+BEGIN
+  ClrScr;
+  Kasten(10,2,70,6);
+  gotoxy(15,4);
+  write('Bitte Bezugslaufwerk waehlen     A, B oder M :  ');
+  read(KBD,Laufwerk); Laufwerk:=upcase(Laufwerk);
+  IF Laufwerk IN ['A','B','M'] THEN ELSE Laufwerk:='A';
+  write(Laufwerk);
+  DriveNr:=(ord(Laufwerk)-65);
+  IF Laufwerk IN ['A','B'] THEN
+    BEGIN
+      Kasten(10,9,70,6);
+      gotoxy(15,11);
+      write('Diskette in Laufwerk &lt;&lt; ');
+      write(Laufwerk,' &gt;&gt; einlegen !');
+      gotoxy(15,12);
+      write('&lt;RETURN&gt; druecken oder mit &lt;Z&gt; ');
+      write('zurueck zum Haupt-Menue   ');
+      REPEAT read(KBD,Eingabe)
+         UNTIL upcase(Eingabe) IN ['Z',#13];
+      IF upcase(Eingabe)='Z' THEN  EXIT;
+    END;
+  DirZahl:=0;
+  FCB:=
+  '????????????'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0;
+  BDOS(13);                 {Diskettensystem zuruecksetzen}
+  BDOS(14,DriveNr);              {Bezugslaufwerk festlegen}
+  BDOS(26,Addr(Puffer)); {Datenuebergabe-Adresse festlegen}
+  z:=BDOS(17,Addr(FCB));             {Ersten Eintrag holen}
+  WHILE z&lt;&gt;255 DO
+    BEGIN
+      IF Puffer[z*32]&lt;#128 THEN
+        BEGIN
+          Name:=copy(Puffer,z*32+2,11);
+          insert('.',Name,9);
+          User:=ord(Puffer[z*32]) AND 127;
+          IF (((User&lt;8)AND(ord(Name[11])&lt;128))AND
+             (copy(Name,10,3)&lt;&gt;'GRP')) THEN
+            BEGIN        {ohne SYS-, Trans und GRP-Dateien}
+              DirZahl:=succ(DirZahl);
+              IF Dirzahl&gt;MaxDir THEN EXIT;
+              Str(User:1,st);
+              Name:='&lt;'+st+'&gt;: '+Name;
+              DirFeld[DirZahl]:=Name;
+            END;
+        END;
+        z:=BDOS(18);              {Naechsten Eintrag holen}
+    END;
+  DirGelesen:=True;
+END;
+
+FUNCTION QuelldateinameHolen : boolean;
+VAR  zzmax,szmax,
+     zz,sz  : byte;
+     st     : string[1];
+BEGIN
+  ClrScr;
+  sz:=0; zz:=0;
+  Quelldateiname:='';
+  QuelldateinameHolen:=False;
+  gotoxy(1,1);
+  write('Im Laufwerk: ',Laufwerk,' sind unter der ');
+  write('vorangestellten USER-Nummer gespeichert:');
+  gotoxy(1,4);
+  FOR n:=1 TO Dirzahl DO
+    BEGIN
+      gotoxy(20*((n-1) MOD 4)+6,((n-1) DIV 4)+4);
+      write(DirFeld[n]);
+    END;
+  gotoxy(8,30);
+  write('Gewuenschte Datei anwaehlen und RETURN druecken');
+  write(' - oder mit &lt;Z&gt; zurueck');
+  gotoxy(6,4);
+  LowVideo; write(DirFeld[1],' '); NormVideo;
+  REPEAT
+    REPEAT
+      read(KBD,Eingabe);
+    UNTIL Eingabe IN [#6,#1,#30,#31,#13,'z','Z'];
+    zzmax:=((DirZahl-1) DIV 4);
+    szmax:=((DirZahl-1) MOD 4);
+    gotoxy(20*sz+6,4+zz); write(DirFeld[zz*4+sz+1],' ');
+      CASE Eingabe OF
+        #6  : IF((zz&lt;zzmax)OR((zz)=zzmax)AND(sz&lt;szmax))
+                           THEN IF sz&lt;3 THEN sz:=sz+1;
+        #1  : IF sz&gt;0 THEN sz:=sz-1;
+        #30 : IF (((zz+1)&lt;zzmax)OR(((zz+1)=zzmax)
+                           AND(sz&lt;=szmax)))THEN zz:=zz+1;
+        #31 : IF zz&gt;0 THEN zz:=zz-1;
+        'z','Z': EXIT;
+      END;
+    gotoxy(20*sz+6,4+zz);
+    LowVideo; write(DirFeld[zz*4+sz+1],' '); NormVideo;
+  UNTIL Eingabe=#13;
+  FOR n:=5 TO 17 DO
+    BEGIN
+      st:=copy(DirFeld[zz*4+sz+1],n,1);
+      IF st&lt;&gt;#32 THEN Quelldateiname:=Quelldateiname+st;
+    END;
+  st:=copy(DirFeld[zz*4+sz+1],2,1);
+  Val(st,User,n);
+  QuelldateinameHolen:=True;
+END;
+
+PROCEDURE QuelldateiOeffnen;
+BEGIN
+  BDOS(32,User);                    {Userbereich anwaehlen}
+  Assign(Quelldatei,Quelldateiname);
+  {$I-} reset(Quelldatei); {$I+}
+  IF IOresult &lt;&gt; 0 THEN
+    BEGIN
+      close(Quelldatei);
+      DateiVorhanden:=False;
+      ClrScr;
+      Kasten(15,20,60,7);
+      gotoxy(20,22); write('Fehler !   ');
+      write('Datei:  ',Quelldateiname,' nicht gefunden');
+      gotoxy(28,24);
+      write('Wurde die Diskette gewechselt ???');
+      Weiter;
+    END
+  ELSE DateiVorhanden:=True;
+END;
+
+PROCEDURE ZieldateinameHolen;
+BEGIN
+  ClrScr;
+  Kasten(5,1,80,5);
+  gotoxy(10,3);
+  write('Bitte Dateiname der Ziel-Datei eingeben:  ');
+  readln(Zieldateiname);
+END;
+
+FUNCTION OhneUmlaut(VAR b:byte):MiniString;
+BEGIN
+  CASE b OF
+    91 ,208: OhneUmlaut:='Ae';
+    92 ,211: OhneUmlaut:='Oe';
+    93 ,212: OhneUmlaut:='Ue';
+    123,240: OhneUmlaut:='ae';
+    124,243: OhneUmlaut:='oe';
+    125,244: OhneUmlaut:='ue';
+    126,186: OhneUmlaut:='ss';
+        ELSE OhneUmlaut:=chr(b);
+  END;
+END;
+
+FUNCTION UmlautASC(VAR b:byte):MiniString;
+BEGIN
+  CASE b OF
+    208: UmlautASC:=#91;
+    211: UmlautASC:=#92;
+    212: UmlautASC:=#93;
+    240: UmlautASC:=#123;
+    243: UmlautASC:=#124;
+    244: UmlautASC:=#125;
+    186: UmlautASC:=#126;
+    ELSE UmlautASC:=chr(b);
+  END;
+END;
+
+FUNCTION UmlautLOC(VAR b:byte):MiniString;
+BEGIN
+  CASE b OF
+    91 : UmlautLOC:=#208;
+    92 : UmlautLOC:=#211;
+    93 : UmlautLOC:=#212;
+    123: UmlautLOC:=#240;
+    124: UmlautLOC:=#243;
+    125: UmlautLOC:=#244;
+    126: UmlautLOC:=#186;
+    ELSE UmlautLOC:=chr(b);
+  END;
+END;
+
+PROCEDURE FormatWahl;
+VAR e,f         : integer;
+    SteuerDatei : file OF MiniString;
+    St          : MiniString;
+BEGIN
+  ClrScr;
+  write(CursorAus);
+  Menuebild('F O R M A T   -  M E N U E',
+  'LOCOSCRIPT-Dateien sollen wie folgt ausgegeben werden:',
+  '0 = SIO/CEN mit Format 0  (o. Steuerzeichen, nur Text)',
+  '1 = SIO/CEN mit Format 1  (z.B. EPSON-kompatibel)',
+  '2 = SIO/CEN mit Format 2  (z.B. Typenrad)',
+  '',
+  '3 = Joyce-Drucker ohne Steuerzeichen, nur Text',
+  '4 = Joyce-Drucker mit Schriftartwechsel + Hervorheben',
+  'X = Menue verlassen');
+  REPEAT
+    IF PTRWahl=0 THEN f:=4 ELSE f:=5;
+    FOR e:=0 TO 5 DO
+      BEGIN
+        gotoxy(19,2*e+11);
+        IF ((e=SIOWahl) OR (e=f)) THEN write('==&gt;')
+                                   ELSE write('   ');
+      END;
+    read(KBD,Eingabe);
+    IF Eingabe IN ['0'..'4'] THEN FormatGeaendert:=True;
+    CASE Eingabe OF
+      '0' : SIOWahl:=0;
+      '1' : SIOWahl:=1;
+      '2' : SIOWahl:=2;
+      '3' : PTRWahl:=0;
+      '4' : PTRWahl:=3;
+     END;
+  UNTIL upcase(Eingabe)='X';
+  write(CursorEin);
+END;
+
+PROCEDURE KonvertMenue;
+VAR   a,e,f : integer;
+BEGIN
+  ClrScr;
+  write(CursorAus);
+  Menuebild('K O N V E R T I E R U N G S  -  M E N U E',
+  'Die Ausgabe, bzw. Abspeicherung soll erfolgen mit:',
+  'A = ASCII-Umlauten, deutscher Zeichensatz',
+  'L = LOCOSCRIPT-Umlauten',
+  'O = keine Umlaute, sondern ae, ue, oe, ss, usw.',
+  '',
+  'M = mit linkem Rand wie Layout',
+  'K = kein linker Rand',
+  'X = Menue verlassen');
+  REPEAT
+    BEGIN
+      IF KonvWahl='A' THEN a:=0 ELSE IF KonvWahl='L'
+                                THEN a:=1 ELSE a:=2;
+      IF MitRand='J' THEN f:=4 ELSE f:=5;
+      FOR e:=0 TO 5 DO
+        BEGIN
+          gotoxy(19,2*e+11);
+          IF ((e=a) OR (e=f)) THEN write('==&gt;')
+                              ELSE write('   ');
+        END;
+      read(KBD,Eingabe); Eingabe:=upcase(Eingabe);
+      CASE Eingabe OF
+        'A','L','O' : KonvWahl:=Eingabe;
+        'M'         : MitRand:='J';
+        'K'         : MitRand:='N';
+      END;
+    END
+  UNTIL Eingabe ='X';
+  write(CursorEin);
+ END;
+
+PROCEDURE ASCIIDateiBearbeiten;
+BEGIN
+  ClrScr;
+  IF Ausgabemodus IN ['P','S','C'] THEN PapierEinlegen;
+  IF Ausgabemodus IN ['D'] THEN Geduld;
+  QuelldateiOeffnen;
+  IF NOT DateiVorhanden THEN EXIT;
+  REPEAT
+    Blockread(Quelldatei,Puffer,Pufferbloecke,BloeckeEin);
+    i:=0;
+    WHILE ((i&lt;BloeckeEin*128)AND(Puffer[i]&lt;&gt;$1A)) DO
+      BEGIN
+        CASE Puffer[i] OF
+          $20..$5A,
+          $61..$7A : write(Zieldatei,chr(Puffer[i]));
+          $0C      : BEGIN
+                       IF Ausgabemodus='B' THEN
+                             FOR n:=1 TO 90 DO write('-')
+                             ELSE write(Zieldatei,#$0C);
+                       IF (Ausgabemodus IN['P','S','C']) THEN
+                             PapierEinlegen;
+                     END;
+          ELSE
+            BEGIN
+             CASE KonvWahl OF
+              'A' : write(Zieldatei,UmlautASC(Puffer[i]));
+              'L' : write(Zieldatei,UmlautLOC(Puffer[i]));
+              'O' : write(Zieldatei,OhneUmlaut(Puffer[i]));
+             END;
+           END;
+        END;
+        i:=succ(i);
+        IF Ausgabemodus IN ['P','S','C'] THEN
+            IF keypressed THEN IF DruckAbbrechen THEN EXIT;
+        IF Ausgabemodus&lt;&gt;'D' THEN delay(Pause);
+    END;
+  UNTIL BloeckeEin=0;
+  close(Quelldatei);
+  IF Ausgabemodus='D' THEN BDOS(32,0);             {User=0}
+  close(Zieldatei);
+  IF Ausgabemodus='B' THEN Weiter;
+END;
+
+</pre>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+  <note>
+    <title>cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO1Z-INC.txt</title>
+    <created>20140421T225034Z</created>
+    <updated>20140421T225047Z</updated>
+    <tag>file format</tag>
+    <tag>locoscript</tag>
+    <note-attributes>
+      <source-url>http://cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCO1Z-INC.txt</source-url>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<table border="0" cellspacing="0" cellpadding="0"/>
+<pre style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; white-space: pre-wrap;">
+(*******   LOCO1Z.INC  Includedatei zu LOCOCONZ.PAS   *******)
+
+PROCEDURE Kasten(x,y,b,h :integer);
+BEGIN
+  gotoxy(x,y); write(#134);
+  FOR n:=1 TO (b-2) DO write(#138); write(#140);
+  gotoxy(x,y+h-1); write(#131);
+  FOR n:=1 TO (b-2) DO write(#138); write(#137);
+  FOR n:=1 TO (h-2) DO
+    BEGIN
+      gotoxy(x,y+n); write(#133);
+      gotoxy(x+b-1,y+n); write(#133);
+    END;
+END;
+
+PROCEDURE Anfang;
+BEGIN
+  ClrScr;
+  write(CursorAus);
+  FOR m:=1 TO 6 DO Kasten(2*m,2*m,93-4*m,33-4*m);
+  gotoxy(36,15); write('L  O  C  O  C  O  N');
+  gotoxy(16,17);
+  write('Programm zur Konvertierung und ');
+  write('Ausgabe von Dateien     (c)2.03');
+  delay(1000);
+  write(CursorEin);
+END;
+
+PROCEDURE Menuebild(Titel,Z0,Z1,Z2,Z3,Z4,Z5,Z6,Z7 :Zeile);
+BEGIN
+  Kasten(1,1,90,30);
+  gotoxy(1,5); write(#135);
+  FOR n:=1 TO 88 DO write(#138); write(#141);
+  gotoxy(1,28); write(#130);
+  FOR n:=1 TO 88 DO write(#154); write(#136);
+  gotoxy((90-length(Titel))DIV 2,3); write(Titel);
+  gotoxy(8,8); write(Z0);
+  gotoxy(24,11); write(Z1);
+  gotoxy(24,13); write(Z2);
+  gotoxy(24,15); write(Z3);
+  gotoxy(24,17); write(Z4);
+  gotoxy(24,19); write(Z5);
+  gotoxy(24,21); write(Z6);
+  gotoxy(24,23); write(Z7);
+  gotoxy(65,26); write('Bitte waehlen Sie !');
+END;
+
+PROCEDURE Weiter;
+BEGIN
+  writeln;writeln;
+  gotoxy(62,30); write(#7,'Weiter mit &lt;RETURN&gt;');
+  readln;
+END;
+
+PROCEDURE Geduld;
+BEGIN
+  ClrScr;
+  Kasten(20,24,51,5);
+  gotoxy(24,26);
+  write('*  B i t t e    e t w a s   G e d u l d   *');
+  gotoxy(90,30);
+END;
+
+PROCEDURE PapierEinlegen;
+BEGIN
+  ClrScr;
+  Kasten(10,8,67,5);
+  gotoxy(18,10);
+  write(#7,'*  Bitte Papier einlegen, ');
+  write('dann &lt;RETURN&gt; druecken  *');
+  readln(Eingabe);
+  Kasten(10,15,67,5);
+  gotoxy(27,17);
+  write('*  Die Daten werden ausgegeben  *');
+  gotoxy(90,30);
+END;
+
+FUNCTION DruckAbbrechen : boolean;
+BEGIN
+  ClrScr;
+  Kasten(12,8,66,5);
+  gotoxy(23,10);
+  write(#7,'Ausdruck abbrechen ?  j/n :  ');
+  readln(Eingabe);
+  IF upcase(Eingabe)='J' THEN DruckAbbrechen:=True
+      ELSE BEGIN
+             Druckabbrechen:=False;
+             gotoxy(23,10);
+             write(' *  Der Druckvorgang wird fortgesetzt  * ');
+           END;
+END;
+
+</pre>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+  <note>
+    <title>cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCOCONZ-PAS.txt</title>
+    <created>20140421T224929Z</created>
+    <updated>20140421T225022Z</updated>
+    <tag>file format</tag>
+    <tag>locoscript</tag>
+    <note-attributes>
+      <source-url>http://cirsovius.de/CPM/Projekte/TURBO-PASCAL/LOCO/LOCOCONZ-PAS.txt</source-url>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<table border="0" cellspacing="0" cellpadding="0"/>
+<pre style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; word-wrap: break-word; white-space: pre-wrap;">
+<br/>PROGRAM LOCOSCRIPT_KONVERTIERUNG;        (*  LOCOCONZ.PAS *)
+(* Version 2.03                          (c) W.Otternberg *)
+
+CONST CursorAus       = #27#102;
+      CursorEin       = #27#101;
+      Pufferbloecke   = 17;
+      Puffergroesse   = 2176;  {17 Bloecke mit je 128 byte}
+      MaxDir          = 64;
+
+TYPE  Zeile           = string[90];
+      MiniString      = string[6];
+
+VAR   Puffer          : Array[0..Puffergroesse] OF byte;
+      LayoutTabelle   : Array[0..10,0..5] OF byte;
+      CodeTabelle     : Array[0..3,0..9] OF MiniString;
+      DirFeld         : Array[1..MaxDir] OF string[17];
+      Zieldatei       : text;
+      Quelldatei      : file;
+
+      Quelldateiname,
+      Zieldateiname   : string[15];
+
+      SIOWahl,
+      PTRWahl,
+      Druckertyp,
+      User,
+      StartBlock,
+      BloeckeEin,
+      ErsteSeite,
+      LetzteSeite,
+      VonSeite,
+      BisSeite,
+      LiRand,
+      Kopfteil,
+      Dirzahl,Pause,
+      i,n,m           : integer;
+
+      DriveNr         : byte;
+
+      DirGelesen,
+      FormatGeaendert,
+      DateiVorhanden  : boolean;
+
+      Laufwerk,
+      KonvWahl,
+      Eingabe,
+      MitRand,
+      Hauptmodus,
+      Ausgabemodus,c  : char;
+
+{$I LOCO1Z.INC }
+{$I LOCO2Z.INC }
+{$I LOCO3Z.INC }
+
+  PROCEDURE Ausgabe;
+  BEGIN
+    REPEAT
+      ClrScr;
+      write(CursorAus);
+      Menuebild('A U S G A B E  -  M E N U E',
+      'Die Ausgabe soll erfolgen auf :',
+      'B = Bildschirm             P = Printer/JOYCE-Drucker',
+      'S = SIO-Schnittstelle      C = CENTRONICS-Schnittstelle',
+      'D = Diskette',
+      '',
+      'K = zum Konvert-Menue      Z = zur Zeiteinstellung',
+      'F = zum Format-Menue',
+      'X = zum Haupt-Menue / neue Datei bearbeiten');
+      gotoxy(5,29);
+      write('Bezugslaufwerk: ',chr(DriveNr+65));
+      gotoxy(55,29);
+      write('User: ',User);
+      gotoxy(68,29);
+      write('Datei: ',Quelldateiname);
+      read(KBD,Eingabe);
+      Ausgabemodus:=upcase(Eingabe);
+      write(CursorEin);
+      CASE Ausgabemodus OF
+        'B' : assign(Zieldatei,'CON:');
+        'P' : BEGIN
+                assign(Zieldatei,'LST:');
+                Druckertyp:=PTRWahl;
+              END;
+        'S',
+        'C' : BEGIN
+                IF Ausgabemodus='C' THEN MEM[$FBC5]:=$10
+                                    ELSE MEM[$FBC5]:=$20;
+                assign(Zieldatei,'AUX:');
+                Druckertyp:=SIOWahl;
+              END;
+        'D' : BEGIN
+                BDOS(32,0);            {User=0}
+                ZieldateinameHolen;
+                assign(Zieldatei,Zieldateiname);
+                {$I-} rewrite(Zieldatei); {$I+}
+                IF IOresult&lt;&gt;0 THEN EXIT;
+              END;
+        'K' : KonvertMenue;
+        'F' : FormatWahl;
+        'Z' : BEGIN
+                ClrScr;
+                Kasten(13,5,64,8);
+                gotoxy(22,7);
+                write('Verzoegerungszeit bei der Ausgabe (0 .... 200)');
+                gotoxy(29,9);
+                write('bisher: ',Pause,'      jetzt: ');
+                readln(Pause);
+              END;
+      END;
+      IF Ausgabemodus IN ['B','P','S','C','D'] THEN
+         IF Hauptmodus='L' THEN LocoDateiBearbeiten
+                           ELSE ASCIIDateiBearbeiten;
+    UNTIL Ausgabemodus='X';
+  END;    {Ausgabe}
+
+BEGIN     {LOCOCON}
+  Anfang;
+  Laufwerk:='A';
+  Quelldateiname:='';
+  FormatGeaendert:=False;
+  KonvWahl:='A';
+  MitRand:='J';
+  DirGelesen:=False;
+  Pause:=2;
+  FormatdateiEinlesen;
+  REPEAT
+    ClrScr;
+    write(CursorAus);
+    Menuebild('H A U P T  -  M E N U E ',
+    '',
+    '  L = LOCOSCRIPT-Datei bearbeiten',
+    '  A = ASCII-Datei bearbeiten',
+    '  D = Disketten- oder Laufwerkswechsel',
+    '  K = Konvertierungs-Menue',
+    '  F = Format-Menue fuer Drucker und SIO/CEN',
+    '  S = Steuerzeichen-Sequenzen aendern',
+    '  E = Programm beenden');
+    gotoxy(5,29);
+    write('Bezugslaufwerk: ',Laufwerk);
+    read(KBD,Eingabe);
+    write(CursorEin);
+    Hauptmodus:=upcase(Eingabe);
+    CASE Hauptmodus OF
+      'L' : BEGIN
+              IF DirGelesen=False THEN DirectoryLesen;
+              IF QuelldateinameHolen THEN
+                BEGIN
+                  QuelldateiOeffnen;
+                  IF DateiVorhanden THEN
+                     IF LocoVorhanden THEN
+                       BEGIN
+                         close(Quelldatei);
+                         Ausgabe;
+                       END;
+                END;
+            END;
+      'A' : BEGIN
+              IF DirGelesen=False THEN DirectoryLesen;
+              IF QuelldateinameHolen THEN Ausgabe;
+            END;
+      'D' : DirectoryLesen;
+      'K' : KonvertMenue;
+      'F' : FormatWahl;
+      'S' : SteuerzeichenAendern;
+    END;
+  UNTIL Hauptmodus='E';
+  BDOS(32,0);          {User = 0}
+  IF FormatGeaendert THEN FormatdateiSpeichern;
+  ClrScr;
+END.
+
+</pre>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
