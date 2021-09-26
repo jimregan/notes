@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Simple lttoolbox transducer | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Simple lttoolbox transducer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Old notes" />
+<meta property="og:description" content="Old notes" />
+<link rel="canonical" href="https://jimregan.github.io/notes/evernote/2015/05/28/simple-lttoolbox-transducer.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/evernote/2015/05/28/simple-lttoolbox-transducer.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-05-28T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/evernote/2015/05/28/simple-lttoolbox-transducer.html","@type":"BlogPosting","headline":"Simple lttoolbox transducer","dateModified":"2015-05-28T00:00:00-05:00","datePublished":"2015-05-28T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/evernote/2015/05/28/simple-lttoolbox-transducer.html"},"description":"Old notes","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Simple lttoolbox transducer</h1><p class="page-description">Old notes</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2015-05-28T00:00:00-05:00" itemprop="datePublished">
+        May 28, 2015
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#evernote">evernote</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hexdump /tmp/test2.bin 
+0000000 1a 40 61 40 62 40 63 40 64 40 65 40 66 40 67 40
+0000010 68 40 69 40 6a 40 6b 40 6c 40 6d 40 6e 40 6f 40
+0000020 70 40 71 40 72 40 73 40 74 40 75 40 76 40 77 40
+0000030 78 40 79 40 7a 01 01 40 6e 08 01 01 01 40 74 01
+0000040 00 40 67 40 67 40 70 40 70 40 63 40 63 40 62 40
+0000050 62 40 73 40 73 02 12 40 69 40 6e 40 63 40 6f 40
+0000060 40 40 69 40 6e 40 63 40 6f 40 6e 40 64 40 69 40
+0000070 74 40 69 40 6f 40 6e 40 61 40 6c 00 01 05 06 01
+0000080 05 01 01 06 01 01 07 01 01 01 01 01 02 01 00 0d
+0000090 40 6d 40 61 40 69 40 6e 40 40 40 73 40 74 40 61
+00000a0 40 6e 40 64 40 61 40 72 40 64 00 01 05 06 01 03
+00000b0 01 01 04 01 01 04 01 01 01 01 01 02 01 00     
+00000be
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>^Z@a@b@c@d@e@f@g@h@i@j@k@l@m@n@o@p@q@r@s@t@u@v@w@x@y@z
+^A^A@^A^A^A@t^A^@@g@g@p@p@c@c@b@b@s@s^B^R@i@n@c@o@@@i
+@n@c@o@n@d@i@t@i@o@n@a@l^@^A^E^F^A^E^A^A^F^A^A^G^A^A
+^A^A^A^B^A^@^M@m@a@i@n@@@s@t@a@n@d@a@r@d^@^A^E^F^A^C
+^A^A^D^A^A^D^A^A^A^A^A^B^A^@
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ lt-print /tmp/test2.bin
+0     1     b     b    
+1     2     a     a    
+2     3     r     r    
+3     4     ε     s    
+4     5     ε     &lt;n&gt;    
+5
+--
+0     1     f     f    
+1     2     o     o    
+2     3     o     o    
+3     4     ε     s    
+4     5     ε     &lt;n&gt;    
+5
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>^@
+^A^E^F^A^E^A^A^F^A^A^G^A^A^A^A^A^B^A
+^@
+^M
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">$ cat /tmp/test.dix</code></p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dictionary&gt;</span>
+  <span class="nt">&lt;alphabet&gt;</span>abcdefghijklmnopqrstuvwxyz<span class="nt">&lt;/alphabet&gt;</span>
+  <span class="nt">&lt;sdefs&gt;</span>
+    <span class="nt">&lt;sdef</span> <span class="na">n=</span><span class="s">"n"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;/sdefs&gt;</span>
+  <span class="nt">&lt;pardefs&gt;</span>
+    <span class="nt">&lt;pardef</span> <span class="na">n=</span><span class="s">"one"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;e&gt;&lt;p&gt;&lt;l&gt;&lt;/l&gt;&lt;r&gt;</span>s<span class="nt">&lt;s</span> <span class="na">n=</span><span class="s">"n"</span><span class="nt">/&gt;&lt;/r&gt;&lt;/p&gt;&lt;/e&gt;</span>
+    <span class="nt">&lt;/pardef&gt;</span>
+  <span class="nt">&lt;/pardefs&gt;</span>
+  <span class="nt">&lt;section</span> <span class="na">id=</span><span class="s">"main"</span> <span class="na">type=</span><span class="s">"standard"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;e&gt;&lt;i&gt;</span>foo<span class="nt">&lt;/i&gt;&lt;par</span> <span class="na">n=</span><span class="s">"one"</span><span class="nt">/&gt;&lt;/e&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+  <span class="nt">&lt;section</span> <span class="na">id=</span><span class="s">"inco"</span> <span class="na">type=</span><span class="s">"inconditional"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;e&gt;&lt;i&gt;</span>bar<span class="nt">&lt;/i&gt;&lt;par</span> <span class="na">n=</span><span class="s">"one"</span><span class="nt">/&gt;&lt;/e&gt;</span>
+  <span class="nt">&lt;/section&gt;</span>
+<span class="nt">&lt;/dictionary&gt;</span>
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/notes/evernote/2015/05/28/simple-lttoolbox-transducer.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
