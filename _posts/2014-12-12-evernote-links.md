@@ -7,23 +7,25 @@ title: Evernote web clips, 2014-12-12
 categories: [evernote, web clip]
 ---
 
-[Untitled note](http://arxiv.org/pdf/1410.8206v1.pdf)
+[Addressing the Rare Word Problem in Neural Machine Translation](http://arxiv.org/abs/1410.8206)
+
+[presslabs/gitfs](https://github.com/presslabs/gitfs)
 
 [gitfs/Vagrantfile at master · PressLabs/gitfs](https://github.com/PressLabs/gitfs/blob/master/Vagrantfile)
 
-[From word2vec to doc2vec: an approach driven by Chinese restaurant process | Kifi Engineering Blog](http://eng.kifi.com/from-word2vec-to-doc2vec-an-approach-driven-by-chinese-restaurant-process/)
+[From word2vec to doc2vec: an approach driven by Chinese restaurant process | Kifi Engineering Blog](https://web.archive.org/web/20160309231845/http://eng.kifi.com/from-word2vec-to-doc2vec-an-approach-driven-by-chinese-restaurant-process/)
 
-[Untitled note](http://arxiv.org/pdf/1402.3722.pdf)
+[word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method](http://arxiv.org/abs/1402.3722)
 
 [gensim: models.word2vec – Deep learning with word2vec](http://radimrehurek.com/gensim/models/word2vec.html)
 
-[Untitled note](http://arxiv.org/pdf/1410.8206v1.pdf)
+[Addressing the Rare Word Problem in Neural Machine Translation](http://arxiv.org/abs/1410.8206)
 
-[Untitled note](http://arxiv.org/pdf/1409.3215v2.pdf)
+[Sequence to Sequence Learning with Neural Networks](http://arxiv.org/abs/1409.3215)
 
-[Untitled note](http://arxiv.org/pdf/1405.4053v2.pdf)
+[Distributed Representations of Sentences and Documents](http://arxiv.org/abs/1405.4053)
 
-[Untitled note](http://kevindonnelly.org.uk/swahili/manual_draft.pdf)
+[Writing and transliterating Swahili in Arabic script with Andika!](http://kevindonnelly.org.uk/swahili/manual_draft.pdf)
 
 [Fast Randomized SVD | Blog | Research at Facebook](https://research.facebook.com/blog/294071574113354/fast-randomized-svd/)
 
@@ -31,7 +33,7 @@ categories: [evernote, web clip]
 
 [C3D: Generic Features for Video Analysis | Blog | Research at Facebook](https://research.facebook.com/blog/736987489723834/c3d-generic-features-for-video-analysis/)
 
-[Untitled note](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf)
+[Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf)
 
 [The Psychology of Color in Marketing and Branding](http://www.helpscout.net/blog/psychology-of-color/)
 
