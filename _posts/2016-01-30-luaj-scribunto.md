@@ -87,5 +87,5 @@ return p
 other page:
 
 ```
-`{{#invoke:Bananas\|hello}}`
+\{\{\#invoke:Bananas\|hello\}\}
 ```
