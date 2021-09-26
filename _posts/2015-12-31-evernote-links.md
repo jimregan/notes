@@ -13,6 +13,6 @@ categories: [evernote, web clip]
 
 [Scott Adams Blog](http://blog.dilbert.com/post/136185394196/hypnotizing-you-to-have-the-best-new-years-day)
 
-[Scott Adams Blog](http://blog.dilbert.com/post/136111361531/hypnotizing-you-to-have-the-best-new-years-day)
+[Scott Adams Blog](https://www.scottadamssays.com/2015/12/31/hypnotizing-you-to-have-the-best-new-years-day/)
 
 
