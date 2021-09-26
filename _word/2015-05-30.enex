@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T013019Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Looking up, tts/nn</title>
+    <created>20150530T092515Z</created>
+    <updated>20150530T093116Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Modeling spectral envelopes using restricted Boltzmann machines for statistical parametric speech synthesis</title>
+    <created>20150530T090709Z</created>
+    <updated>20150530T090756Z</updated>
+    <tag>neural net</tag>
+    <tag>tts</tag>
+    <note-attributes>
+      <source-url>http://research.microsoft.com/apps/pubs/default.aspx?id=194347</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Multi-distribution deep belief network for speech synthesis</title>
+    <created>20150530T083229Z</created>
+    <updated>20150530T083254Z</updated>
+    <tag>neural net</tag>
+    <tag>tts</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://www1.se.cuhk.edu.hk/~hccl/publications/pub/icassp2013-dbntts.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>icassp2013-dbntts.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+3d58350b-4942-44f2-9606-33e82f8da7ae+1d8a2fa8d69e7167807c85eb0b5e3732+https://www.evernote.com/shard/s160/res/ae439a30-6c46-4b8e-abcc-ad1e8fc8ba78</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Deep Neural Networks for Acoustic Modeling in Speech Recognition</title>
+    <created>20150530T082946Z</created>
+    <updated>20150530T083058Z</updated>
+    <tag>neural net</tag>
+    <tag>asr</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38131.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>38131.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+2ba5b6ba-d61a-4aa0-b948-e88551fd7f64+99dcaa7318302b775643d3738996ef1d+https://www.evernote.com/shard/s160/res/11b4de08-6535-4bbc-9eae-4fb6563f03fe</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Grapheme-based Synthesizer</title>
+    <created>20150530T082839Z</created>
+    <updated>20150530T082839Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://festvox.org/bsv/c3485.html</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>glecorve/rnnlm2wfst</title>
+    <created>20150530T080238Z</created>
+    <updated>20150530T080238Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://github.com/glecorve/rnnlm2wfst</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Statistical Parametric Speech Synthesis Using Deep Neural Networks</title>
+    <created>20150530T075555Z</created>
+    <updated>20150530T075628Z</updated>
+    <tag>neural net</tag>
+    <tag>tts</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/40837.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>40837.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+813c917d-8880-46a3-aef7-c567d2ad7e16+4b433bd8c9295254cdd7a1593f492b08+https://www.evernote.com/shard/s160/res/0cb3aa7b-5cb5-485b-ab64-71e72cd9cecf</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE</title>
+    <created>20150527T222506Z</created>
+    <updated>20150530T075505Z</updated>
+    <tag>neural net</tag>
+    <tag>mt</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://arxiv.org/pdf/1409.0473v6.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>1409.0473v6.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+8dadd640-ab9b-495e-be9e-ee9194a61390+d526c8f9bd8ef8d5495b24ca4a16275c+https://www.evernote.com/shard/s160/res/765deab4-f2d4-433f-ab53-5a99d38c2d2a</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Combining a vector space representation of linguistic context with a deep neural network for text-to-speech synthesis</title>
+    <created>20150530T075151Z</created>
+    <updated>20150530T075444Z</updated>
+    <tag>neural net</tag>
+    <tag>tts</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://ssw8.talp.cat/papers/ssw8_PS3-3_Lu.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>ssw8_PS3-3_Lu.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+cc42b74f-b585-4642-9928-4b5272b7c3ad+2237ed8d94b5ed964345c62a29e878de+https://www.evernote.com/shard/s160/res/71b702c6-477f-4983-ba4f-60e0b996987f</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>TTS Synthesis with Bidirectional LSTM based Recurrent Neural Networks</title>
+    <created>20150530T060412Z</created>
+    <updated>20150530T075417Z</updated>
+    <tag>neural net</tag>
+    <tag>tts</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://mazsola.iit.uni-miskolc.hu/~czap/letoltes/IS14/IS2014/PDF/AUTHOR/IS140552.PDF</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>IS140552.PDF.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+5359a017-577e-45ab-8274-f72aa8b7540a+7ac98af30ca097aa8519ce4e734d994f+https://www.evernote.com/shard/s160/res/56d3e873-8dd5-43ef-8b45-92822793c27f</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Implementation of Neural Turing Machines • /r/MachineLearning</title>
+    <created>20150529T000828Z</created>
+    <updated>20150530T075408Z</updated>
+    <tag>neural net</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://www.reddit.com/r/MachineLearning/comments/2m9mga/implementation_of_neural_turing_machines/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Sequence to Sequence Learning with Neural Networks</title>
+    <created>20150529T000739Z</created>
+    <updated>20150530T075401Z</updated>
+    <tag>neural net</tag>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://arxiv.org/pdf/1409.3215v3.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>1409.3215v3.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+fbdf97fa-a6af-438f-835a-2d29d26d555c+4c74116a86bf750934ab2fb5154a2cf7+https://www.evernote.com/shard/s160/res/c5be5caa-30bd-4048-96d4-16eaee43a915</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>Discriminative models, not discriminative training</title>
+    <created>20150530T074919Z</created>
+    <updated>20150530T075328Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://research.microsoft.com/pubs/70229/tr-2005-144.pdf</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>application/pdf</mime>
+      <resource-attributes>
+        <file-name>tr-2005-144.pdf</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+0c74c6f1-3d73-43d6-b3a8-3f67ec35c8c4+7003fdbc70e9c8896001b8c24e1501c1+https://www.evernote.com/shard/s160/res/ddb2764b-06e6-45b1-a5d6-28aa6b970255</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>kastnerkyle/test_ctc.py</title>
+    <created>20150530T075015Z</created>
+    <updated>20150530T075015Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://gist.github.com/kastnerkyle/1f57a5b42650e17a5c3a</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>glecorve/rnnlm2wfst</title>
+    <created>20150530T061917Z</created>
+    <updated>20150530T061917Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>https://github.com/glecorve/rnnlm2wfst</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>DEEP NEURAL NETWORK (DNN) FOR TTS SYNTHESIS - Microsoft Research</title>
+    <created>20150530T060502Z</created>
+    <updated>20150530T060502Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://research.microsoft.com/en-us/projects/dnntts/</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>72</width>
+      <height>72</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d10e29e3-1b28-4875-8155-197eea49cc84+d29d164b30dbe82a53fb0d668be83def+https://www.evernote.com/shard/s160/res/2615b60b-8098-4f6e-867d-90af3326d0e0</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>

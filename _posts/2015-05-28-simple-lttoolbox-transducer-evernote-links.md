@@ -7,6 +7,7 @@ title: Simple lttoolbox transducer
 categories: [evernote]
 ---
 
+```
 hexdump /tmp/test2.bin 
 0000000 1a 40 61 40 62 40 63 40 64 40 65 40 66 40 67 40
 0000010 68 40 69 40 6a 40 6b 40 6c 40 6d 40 6e 40 6f 40
@@ -21,11 +22,18 @@ hexdump /tmp/test2.bin
 00000a0 40 6e 40 64 40 61 40 72 40 64 00 01 05 06 01 03
 00000b0 01 01 04 01 01 04 01 01 01 01 01 02 01 00     
 00000be
+```
 
 
-^Z@a@b@c@d@e@f@g@h@i@j@k@l@m@n@o@p@q@r@s@t@u@v@w@x@y@z^A^A@^A^A^A@t^A^@@g@g@p@p@c@c@b@b@s@s^B^R@i@n@c@o@@@i@n@c@o@n@d@i@t@i@o@n@a@l^@^A^E^F^A^E^A^A^F^A^A^G^A^A
-^A^A^A^B^A^@^M@m@a@i@n@@@s@t@a@n@d@a@r@d^@^A^E^F^A^C^A^A^D^A^A^D^A^A^A^A^A^B^A^@
+```
+^Z@a@b@c@d@e@f@g@h@i@j@k@l@m@n@o@p@q@r@s@t@u@v@w@x@y@z
+^A^A@^A^A^A@t^A^@@g@g@p@p@c@c@b@b@s@s^B^R@i@n@c@o@@@i
+@n@c@o@n@d@i@t@i@o@n@a@l^@^A^E^F^A^E^A^A^F^A^A^G^A^A
+^A^A^A^B^A^@^M@m@a@i@n@@@s@t@a@n@d@a@r@d^@^A^E^F^A^C
+^A^A^D^A^A^D^A^A^A^A^A^B^A^@
+```
 
+```
 $ lt-print /tmp/test2.bin
 0     1     b     b    
 1     2     a     a    
@@ -40,14 +48,18 @@ $ lt-print /tmp/test2.bin
 3     4     ε     s    
 4     5     ε     <n>    
 5
+```
 
+```
 ^@
 ^A^E^F^A^E^A^A^F^A^A^G^A^A^A^A^A^B^A
 ^@
 ^M
+```
 
-$ cat /tmp/test.dix
+`$ cat /tmp/test.dix`
 
+```xml
 <dictionary>
   <alphabet>abcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
@@ -65,3 +77,4 @@ $ cat /tmp/test.dix
     <e><i>bar</i><par n="one"/></e>
   </section>
 </dictionary>
+```
