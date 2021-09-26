@@ -10,19 +10,20 @@ categories: [evernote]
 ## Influence
 
 - Festinger - cognitive dissonance
-- experiment - $20 vs $1 to lie
-- > $1 changed beliefs
+- experiment - \$20 vs \$1 to lie
+- \> \$1 changed beliefs
 - Americans in Korea, captured by China
 - rice for propaganda, most became Communist
 
 
 'We have to take our country back'
 - No details
- - Listener fills in details
+  - Listener fills in details
 - don't sell past the close
 
+Points:
 
-- Loss response > gain response
+- Loss response \> gain response
 
 - When you laugh, you look at the person you're most comfortable with
 - Feet pointing towards you -> at ease

@@ -23,11 +23,9 @@ categories: [evernote, web clip, jsoup]
 
 [Jsoup.clean without adding html entities - Stack Overflow](http://stackoverflow.com/questions/8683018/jsoup-clean-without-adding-html-entities)
 
-[jsoup: Java HTML Parser | Java Ninja Chronicles By Norris Shelton, Jr](http://norrisshelton.wordpress.com/2011/01/27/jsoup-java-html-parser/)
-
-[How To Parse HTML in JAVA -JSOUP Examples | Desi Coding](http://desicoding.blogspot.ie/2011/03/how-to-parse-html-in-java-jsoup.html)
+[jsoup: Java HTML Parser](http://norrisshelton.wordpress.com/2011/01/27/jsoup-java-html-parser/)
 
 [Whitelist (jsoup 1.7.4-SNAPSHOT API)](http://jsoup.org/apidocs/org/jsoup/safety/Whitelist.html)
 
-[How To Parse HTML in JAVA -JSOUP Examples | Desi Coding](http://desicoding.blogspot.ie/2011/03/how-to-parse-html-in-java-jsoup.html)
+[How To Parse HTML in JAVA -JSOUP Examples](http://desicoding.blogspot.ie/2011/03/how-to-parse-html-in-java-jsoup.html)
 
