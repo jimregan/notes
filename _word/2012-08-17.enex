@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T153705Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Linking lexical resources and ontologies on the semantic web with lemon</title>
+    <created>20120817T223814Z</created>
+    <updated>20120817T223814Z</updated>
+    <note-attributes>
+      <source-application>Google Chrome</source-application>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<table border="0" cellspacing="0" cellpadding="0"/>
+<pre style="color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+@inproceedings{McCrae:2011:LLR:2008892.2008914,
+ author = {McCrae, John and Spohr, Dennis and Cimiano, Philipp},
+ title = {Linking lexical resources and ontologies on the semantic web with lemon},
+ booktitle = {Proceedings of the 8th extended semantic web conference on The semantic web: research and applications - Volume Part I},
+ series = {ESWC'11},
+ year = {2011},
+ isbn = {978-3-642-21033-4},
+ location = {Heraklion, Crete, Greece},
+ pages = {245--259},
+ numpages = {15},
+ url = {<a href="http://dl.acm.org/citation.cfm?id=2008892.2008914">http://dl.acm.org/citation.cfm?id=2008892.2008914</a>},
+ acmid = {2008914},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+} 
+</pre>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
