@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T160644Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>LuaJ / Scribunto</title>
+    <created>20160130T230628Z</created>
+    <updated>20160130T230639Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+LuaJ Field Access / function calls
+<div><br/></div>
+<div>LuaValue globals = JsePlatform.standardGlobals();</div>
+<div>LuaValue sqrt = globals.get(&quot;math&quot;).get(&quot;sqrt&quot;);</div>
+<div>LuaValue print = globals.get(&quot;print&quot;);</div>
+<div>LuaValue d = sqrt.call(a);</div>
+<div>print.call(LuaValue.valueOf(&quot;sqrt(5):&quot;), a);</div>
+<div><br/></div>
+<div>varargs / multiple returns</div>
+<div>use invoke(Varargs) or invokemethod(LuaValue, Varargs)</div>
+<div>LuaValue modf = globals.get(&quot;math&quot;).get(&quot;modf&quot;);</div>
+<div>Varargs r = modf.invoke(d);</div>
+<div>print.call(r.arg(1), r.arg(2));</div>
+<div><br/></div>
+<div>To load / run script: LoadState</div>
+<div>LoadState.load(new FileInputStream(&quot;main.lua&quot;), &quot;main.lua&quot;, globals).call();</div>
+<div>or require</div>
+<div>globals.get(&quot;require&quot;).call(LuaValue.valueOf(&quot;main&quot;))</div>
+<div><br/></div>
+<div>preinit tables:</div>
+<div>listOf(LuaValue[]) - for unnamed elements</div>
+<div>tableOf (LuaValue[]) - for named</div>
+<div>tableOf(LuaValue[], LuaValue[], Varargs) - mixture</div>
+<div><br/></div>
+<div>LuaJ - date not implemented</div>
+<div><br/></div>
+<div>if (format[0] == '!') {</div>
+<div>     calendar = Calendar.getInstance(TimeZone.getTimeZone(&quot;GMT&quot;);</div>
+<div>} else {</div>
+<div>     calendar = Cak,getInst(TimeZone.getDefault());</div>
+<div>}</div>
+<div><br/></div>
+<div>^ also adjust format</div>
+<div><br/></div>
+<div>DST: TimeZone tz = TimeZone.getDefault();</div>
+<div>     bool.isdst = tz.useDaylightTime();</div>
+<div><br/></div>
+<div>function setTTL ($ttl) {</div>
+<div>     $args = func_get_args();</div>
+<div>     $this-&gt;checkNumber('setTTL', $args, 0);</div>
+<div>     $frame = $this-&gt;getFrameById('current');</div>
+<div>     if (is_callable(array($frame, 'setTTL'))) {</div>
+<div>          $frame-&gt;setTTL($ttl); // ??</div>
+<div>     }</div>
+<div>}</div>
+<div><br/></div>
+<div><br/></div>
+<div>Scribunto</div>
+<div><br/></div>
+<div>Module: Bananas</div>
+<div><br/></div>
+<div>local p = {}</div>
+<div>function p.hello(frame)</div>
+<div>     return &quot;Hello world&quot;</div>
+<div>end</div>
+<div>return p</div>
+<div><br/></div>
+<div>other page:</div>
+<div>{{#invoke:Bananas|hello}}</div>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
