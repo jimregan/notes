@@ -1,0 +1,1999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T155309Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Untitled Note</title>
+    <created>20130128T235510Z</created>
+    <updated>20130128T235514Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+mysql&gt; SELECT COUNT(DISTINCT p.product_id) AS total FROM oc_product p LEFT JOIN oc_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN oc_product_to_store p2s ON (p.product_id = p2s.product_id) LEFT JOIN oc_product_to_category p2c ON (p.product_id = p2c.product_id) WHERE pd.language_id = '1' AND p.status = '1' AND p.date_available &lt;= NOW() AND p2s.store_id = '0' AND (p2c.category_id = '2101');
+<div>+-------+</div>
+<div>| total |</div>
+<div>+-------+</div>
+<div>|    19 |</div>
+<div>+-------+</div>
+<div>1 row in set (15.58 sec)</div>
+<div><br/></div>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+  </note>
+  <note>
+    <title>Keynote DTD</title>
+    <created>20130128T231627Z</created>
+    <updated>20130128T231742Z</updated>
+    <note-attributes>
+      <source-url>http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html</source-url>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<center style="color: rgb(0, 0, 0); font-family: Times; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="left" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;"><en-media alt="Technical Note TN2067" type="image/jpeg" hash="8e6aec48b2a4b1791ec0750f8975c93a"/> <br/>
+<en-media alt="About the Keynote XML File Format (APXL Schema)" width="406" height="27" type="image/jpeg" hash="9836f7e8d08c5218a9debb19f6eec639"/> <br/>
+<br/></td>
+</tr>
+</tbody>
+</table>
+</center>
+<center style="color: rgb(0, 0, 0); font-family: Times; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+<table border="0" cellspacing="1" width="600">
+<tbody>
+<tr>
+<td align="left" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<table width="600" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td align="left" width="300" valign="top" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<table border="0" width="300" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" width="300" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;"><en-media alt="" align="bottom" width="300" height="7" type="image/gif" hash="a39b54e73e12d56aed3e7b995ef09341"/></td>
+</tr>
+<tr bgcolor="#E6E6E6">
+<td align="left" width="300" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;"><span style="font-weight: bold; font-size: 12px; margin-left: 10px; font-family: arial, helvetica, sans-serif;">CONTENTS <br/>
+<br/></span></td>
+</tr>
+<tr bgcolor="#E6E6E6">
+<td align="left" width="300" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<p style="color: rgb(0, 0, 0); font-family: helvetica, geneva, arial, sans-serif; font-size: 10px; margin-left: 10px; line-height: 14px;"><a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#Section1" style="color: rgb(102, 0, 153); text-decoration: initial;">About the Keynote XML File Format (APXL Schema)</a> <br/>
+<br/>
+<a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#Section2" style="color: rgb(102, 0, 153); text-decoration: initial;">Listing 1: The APXL schema</a> <br/>
+<br/>
+<a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#changes" style="color: rgb(102, 0, 153); text-decoration: initial;">Change History</a> <br/>
+<br/>
+<a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#Downloads" style="color: rgb(102, 0, 153); text-decoration: initial;">Downloads</a> <br/></p>
+</td>
+</tr>
+<tr>
+<td align="left" width="300" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;"><en-media alt="" width="300" type="image/gif" hash="b31a52a1037b86d7fd5fc4c7cf31ebbc"/></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="left" width="300" valign="top" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<p style="color: rgb(0, 0, 0); font-family: helvetica, geneva, arial, sans-serif; font-size: 14px; margin-left: 10px; line-height: 18px;">This Technical Note contains the schema describing the XML file format used by Keynote documents (refered to here and in later documents simply as &quot;APXL&quot; -- Apple Presentation XmL). It is intended for developers who wish to create or modify Keynote presentations programmatically.</p>
+<p style="color: rgb(0, 0, 0); font-family: helvetica, geneva, arial, sans-serif; font-size: 14px; margin-left: 10px; line-height: 18px;">For more information about the Keynote application, please visit the Keynote web page at <a href="http://Apple.com">Apple.com</a><a href="http://web.archive.org/web/20040203003742/http://www.apple.com/keynote" style="color: rgb(102, 0, 153); text-decoration: initial;">&lt;http://www.apple.com/keynote/&gt;</a></p>
+<h3 align="center" style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px; font-weight: bold;">[Feb 12 2003]</h3>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<br/>
+<hr width="500" align="center"/>
+<br/>
+<br/>
+<h2 style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 16px; font-weight: bold;"><a name="Section1">About the Keynote XML file format (APXL Schema)</a></h2>
+<a name="Section1"/>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;">Keynote documents are bundles (specially-constructed folders) containing a file named &quot;presentation.apxl&quot; and any supporting files (images, sound, QuickTime movies, etc.).</p>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;">This document is a companion to the four-part Technical Note &quot;Deconstructing a Keynote Document&quot; which describes the document format for Keynote in-depth. Please refer to these Technical Notes as they are made available. (They will be linked to from this page.)</p>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;">With this schema, you should be able to understand, create and parse a Keynote &quot;presentation.apxl&quot; file. This schema should validate all APXL files that Keynote is able to accept and display.</p>
+<br/>
+<br/>
+<center>
+<table border="0" cellpadding="5" width="550">
+<tbody>
+<tr>
+<td align="left" bgcolor="#E6E6E6" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;"><b>Note</b>:<br/>
+In some cases, in an effort to make this schema more readable, we compromised the strictness of the validation. These cases are commented in the schema itself. In addition, some restrictions could not be expressed by the W3C schema. We've also commented these instances in the APXL schema.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br/>
+<br/>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;"><a name="Section1">If you're interested in using or creating open-source software which works with the APXL schema, please join the keynote-tools mailing list and project at Open Darwin </a><a href="http://web.archive.org/web/20040203003742/http://www.opendarwin.org/mailman/listinfo/keynote-tools" style="color: rgb(102, 0, 153); text-decoration: initial;">&lt;http://www.opendarwin.org/mailman/listinfo/keynote-tools&gt;</a>.</p>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;">In the schema, there are references to &quot;plugins&quot; and a &quot;plugin schema&quot;. These are internal to Keynote. Keynote 1.0 does not provide support for third-party plug-ins.</p>
+<a name="Section2"><br/>
+<br/></a>
+<center>
+<table border="0" cellpadding="5" width="550">
+<tbody>
+<tr>
+<td align="left" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;"><b>Listing 1: The APXL Schema.</b> Note: This listing has been reformatted for the screen. Please use the downloadable APXL.xsd file in the <a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#Downloads" style="color: rgb(102, 0, 153); text-decoration: initial;">&quot;Downloads&quot;</a> section rather than cutting-and-pasting this listing.</p>
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="#E6E6E6" style="font-size: 10px; font-family: 'lucida grande', geneva, verdana, arial, helvetica, sans-serif;">
+<pre style="font-size: 12px; font-family: 'Courier New', monospace; color: rgb(0, 0, 0);">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt; 
+&lt;xs:schema  targetNamespace=&quot;<a href="http://developer.apple.com/schemas/APXL">http://developer.apple.com/schemas/APXL</a>&quot;
+     elementFormDefault=&quot;qualified&quot;
+     xmlns=&quot;<a href="http://developer.apple.com/schemas/APXL">http://developer.apple.com/schemas/APXL</a>&quot;
+     xmlns:plugin=&quot;<a href="http://developer.apple.com/schemas/APXLPlugins">http://developer.apple.com/schemas/APXLPlugins</a>&quot;
+     xmlns:xs=&quot;<a href="http://www.w3.org/2001/XMLSchema">http://www.w3.org/2001/XMLSchema</a>&quot;&gt;
+          
+&lt;!-- 
+____________________________________________
+ Section 0: Schema metadata 
+____________________________________________
+--&gt;
+ &lt;xs:annotation&gt;
+  &lt;xs:documentation&gt;
+APXL Schema version ready to validate APXL files
+
+Feb 11, 2003 - Released to the public.
+
+  &lt;/xs:documentation&gt;
+ &lt;/xs:annotation&gt;
+
+&lt;!--
+Content:
+
+Section 1 Simple Types
+Section 2 Commonly used attribute groups
+Section 3 Styling attribute groups 
+Section 4 Style elements and auxiliary elements used with styles
+Section 5 Basic drawable types and graphic elements
+Section 6 Text content types and elements
+Section 7 Bullet styles and bullet elements
+Section 8 Placeholders
+Section 9 Plugins
+Section 10 Drawable grouping
+Section 11 Prototypes
+Section 12 Transition/build style types and elements
+Section 13 Slide and master slide structure
+Section 14 Themes
+Section 15 Presentation and presentation-level structures
+
+Dictionary &quot;sub-schema&quot;
+Section D1 &quot;Keyed&quot; extensions of simple types
+Section D2 Types for complex keyed types used only in dictionaries
+Section D3 Dictionary and array structures and related groups
+
+________________________________________________________________________________
+Section 1. Simple Types
+________________________________________________________________________________
+--&gt;
+
+&lt;!-- Numeric types --&gt;
+ &lt;xs:simpleType name=&quot;p-number-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:float&quot;&gt;
+   &lt;xs:maxInclusive value=&quot;1.0&quot;/&gt;
+   &lt;xs:minInclusive value=&quot;0.0&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;xs:simpleType name=&quot;list-of-p-numbers&quot;&gt;
+  &lt;xs:list itemType=&quot;p-number-type&quot;/&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;xs:simpleType name=&quot;list-of-numbers&quot;&gt;
+  &lt;xs:list itemType=&quot;xs:float&quot;/&gt;
+ &lt;/xs:simpleType&gt;
+
+&lt;!-- Geomterical types --&gt;
+ &lt;xs:simpleType name=&quot;point-type&quot;&gt;
+  &lt;xs:restriction base=&quot;list-of-numbers&quot;&gt;
+   &lt;xs:length value=&quot;2&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+ &lt;xs:simpleType name=&quot;size-type&quot;&gt;
+  &lt;xs:restriction base=&quot;list-of-numbers&quot;&gt;
+   &lt;xs:length value=&quot;2&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+ &lt;xs:simpleType name=&quot;rect-type&quot;&gt;
+  &lt;xs:restriction base=&quot;list-of-numbers&quot;&gt;
+   &lt;xs:length value=&quot;4&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+ &lt;xs:simpleType name=&quot;range-type&quot;&gt;
+  &lt;xs:restriction base=&quot;list-of-numbers&quot;&gt;
+   &lt;xs:length value=&quot;2&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+ &lt;!-- Transformation is defined by 6 numbers composing tranformation matrix --&gt;
+ &lt;xs:simpleType name=&quot;transformation-type&quot;&gt;
+  &lt;xs:restriction base=&quot;list-of-numbers&quot;&gt;
+   &lt;xs:length value=&quot;6&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+&lt;!-- Direction of a text or table element --&gt;
+ &lt;xs:simpleType name=&quot;direction-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;vertical&quot;/&gt;
+   &lt;xs:enumeration value=&quot;horizontal&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+&lt;!-- vertical-alignment-type --&gt;
+ &lt;xs:simpleType name=&quot;vertical-alignment-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;top&quot;/&gt;
+   &lt;xs:enumeration value=&quot;middle&quot;/&gt;
+   &lt;xs:enumeration value=&quot;bottom&quot;/&gt;
+   &lt;xs:enumeration value=&quot;tracks-master&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Visibility enumeration --&gt;
+ &lt;xs:simpleType name=&quot;visibility-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;visible&quot;/&gt;
+   &lt;xs:enumeration value=&quot;hidden&quot;/&gt;
+   &lt;xs:enumeration value=&quot;invisisble&quot;/&gt;
+   &lt;xs:enumeration value=&quot;tracks-master&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Bullet marker type enumeration --&gt;
+ &lt;xs:simpleType name=&quot;bullet-marker-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;none&quot;/&gt;
+   &lt;xs:enumeration value=&quot;image&quot;/&gt;
+   &lt;xs:enumeration value=&quot;sequence&quot;/&gt;
+   &lt;xs:enumeration value=&quot;character&quot;/&gt;
+   &lt;xs:enumeration value=&quot;inherited&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Fill type enumeration --&gt;
+ &lt;xs:simpleType name=&quot;fillType-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;none&quot;/&gt;
+   &lt;xs:enumeration value=&quot;color&quot;/&gt;
+   &lt;xs:enumeration value=&quot;gradient&quot;/&gt;
+   &lt;xs:enumeration value=&quot;image&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Image scale type enumeration --&gt;
+ &lt;xs:simpleType name=&quot;image-scale-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;scale-to-fit&quot;/&gt;
+   &lt;xs:enumeration value=&quot;scale-to-fill&quot;/&gt;
+   &lt;xs:enumeration value=&quot;full-size&quot;/&gt;
+   &lt;xs:enumeration value=&quot;stretch&quot;/&gt;
+   &lt;xs:enumeration value=&quot;tile&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Font ligature style enumeration --&gt;
+ &lt;xs:simpleType name=&quot;font-ligature-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:NMTOKEN&quot;&gt;
+   &lt;xs:enumeration value=&quot;none&quot;/&gt;
+   &lt;xs:enumeration value=&quot;default&quot;/&gt;
+   &lt;xs:enumeration value=&quot;all&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Horizontal alignment enumeration --&gt;
+ &lt;xs:simpleType name=&quot;horizontal-alignment-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:NMTOKEN&quot;&gt;
+   &lt;xs:enumeration value=&quot;left&quot;/&gt;
+   &lt;xs:enumeration value=&quot;right&quot;/&gt;
+   &lt;xs:enumeration value=&quot;center&quot;/&gt;
+   &lt;xs:enumeration value=&quot;justified&quot;/&gt;
+   &lt;xs:enumeration value=&quot;natural&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Text wrap style enumeration --&gt;
+ &lt;xs:simpleType name=&quot;text-wrap-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;word-wrap&quot;/&gt;
+   &lt;xs:enumeration value=&quot;char-wrap&quot;/&gt;
+   &lt;xs:enumeration value=&quot;clip&quot;/&gt;
+   &lt;xs:enumeration value=&quot;truncate-head&quot;/&gt;
+   &lt;xs:enumeration value=&quot;truncate-tail&quot;/&gt;
+   &lt;xs:enumeration value=&quot;truncate-middle&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- number rounding style enumeration --&gt;
+ &lt;xs:simpleType name=&quot;rounding-mode-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt; 
+   &lt;xs:enumeration value=&quot;plain&quot;/&gt;
+   &lt;xs:enumeration value=&quot;up&quot;/&gt;
+   &lt;xs:enumeration value=&quot;down&quot;/&gt;
+   &lt;xs:enumeration value=&quot;bankers&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- How size is measured. Used for bullet size --&gt;
+ &lt;xs:simpleType name=&quot;size-measure-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:enumeration value=&quot;relative&quot;/&gt;
+   &lt;xs:enumeration value=&quot;absolute&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Measures the sixe of an image in bytes
+ It could be real size in bytes or '-1' for 'undefined --&gt;
+ &lt;xs:simpleType name=&quot;byte-size-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:integer&quot;&gt;
+   &lt;xs:minInclusive value=&quot;-1&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+&lt;!-- File and Image name type --&gt;
+ &lt;xs:simpleType name=&quot;file-name-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:anyURI&quot;&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;xs:simpleType name=&quot;image-data-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:anyURI&quot;&gt;
+  &lt;!-- basically, it has to be a file name in the same bundle --&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+&lt;!-- Path description --&gt;
+ &lt;xs:simpleType name=&quot;path-type&quot;&gt;
+  
+  &lt;xs:annotation&gt;
+   &lt;xs:documentation&gt;
+ The pattern specifies the way to describe the path in the APXL. It is
+ significantly simplified version of the SVG path description.
+ path := (step)*
+ step := m-step | l-step | c-step | z-step
+ m-step:= M num num
+ l-step:= L num num
+ c-step:= C num num num num num num
+ z-step := Z
+ num := (float number)
+   &lt;/xs:documentation&gt;
+  &lt;/xs:annotation&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:pattern value=&quot;((([ML]( -?\d+(\.\d+)?(e-?\d+)?){2})|
+      (C( -?\d+(\.\d+)?(e-?\d+)?){6})|Z)\s*)+&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;!-- Tab stop type --&gt;
+ &lt;xs:simpleType name=&quot;tab-stop-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:pattern value=&quot;([LDRC]\s*\d*(\.\d+)?\s*)+&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+&lt;!-- Describes the pattern of line
+Dash pattern can have one of the following values:
+  - word &quot;none&quot; for no stroke at all;
+  - word &quot;solid&quot; for solid line;
+  - up to six floating point values seperated by spaces, describing dash pattern.
+  Example: pattern=&quot;3 5 3 4&quot; --&gt;
+ &lt;xs:simpleType name=&quot;dash-pattern-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+   &lt;xs:pattern value=&quot;none|solid|(\d*(\.\d+)?\s*){1,6}&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+&lt;!-- Number style type - used in numbering pages(slides and bullets) 
+Repeats CPSequenceType enumeration
+--&gt;
+ &lt;xs:simpleType name=&quot;sequence-style-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt; 
+   &lt;xs:enumeration value=&quot;arabic&quot;/&gt;
+   &lt;xs:enumeration value=&quot;lowercase-roman&quot;/&gt;
+   &lt;xs:enumeration value=&quot;uppercase-roman&quot;/&gt;
+   &lt;xs:enumeration value=&quot;lowercase-alpha&quot;/&gt;
+   &lt;xs:enumeration value=&quot;uppercase-alpha&quot;/&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+&lt;!-- Color types --&gt;
+
+ &lt;!-- RGB-like: A string that contains 3 (RGB) or 4(RGBA white-space separated
+  floats (RGBA) all in the range between 0 and 1.0 --&gt;
+ &lt;xs:simpleType name=&quot;color-type&quot;&gt;
+  &lt;xs:union&gt;
+   &lt;!-- RGB-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;list-of-p-numbers&quot;&gt;
+     &lt;xs:length value=&quot;3&quot;/&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!-- RGBA-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;list-of-p-numbers&quot;&gt;
+     &lt;xs:length value=&quot;4&quot;/&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!-- Grayscale-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;g[01](\.0)?&quot;/&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;g0?\.\d+&quot;/&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!-- Grayscale-alpha-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;g(([01](\.0)?)|(0?\.\d+))\s*([01](\.0)?)|(0?\.\d+)&quot;/&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!-- CYMK-color-type 
+   c&lt;number&gt; y&lt;number&gt; m&lt;number&gt; k&lt;number&gt;
+   where &lt;number&gt; is between 0 and 1
+   --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;c([01](\.0)?)|(0?\.\d+)\s*y([01](\.0)?)|(0?\.\d+)
+        \s*m([01](\.0)?)|(0?\.\d+)\s*k([01](\.0)?)|(0?\.\d+)&quot;&gt;
+     &lt;/xs:pattern&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+   &lt;!-- CYMKA-color-type 
+   Same CMYK, followed by &lt;numner&gt; for &quot;alpha&quot; --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;c([01](\.0)?)|(0?\.\d+)\s*y([01](\.0)?)|(0?\.\d+)
+        \s*m([01](\.0)?)|(0?\.\d+)\s*k([01](\.0)?)|
+        (0?\.\d+)\s*([01](\.0)?)|(0?\.\d+)&quot;&gt;
+     &lt;/xs:pattern&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   
+   &lt;!-- Catalog color types
+   Catalog colors are defined by the pair
+   catalog-name:color-name-in-the-catalog
+   This definition migh be followed by RGB or RGBA specification used
+   as a fallback in case when catalog is not available --&gt;
+   
+   &lt;!-- catalog-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;[\w#x2D\-]+:[\w#x2D\-]+&quot;&gt;
+     &lt;/xs:pattern&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   
+   &lt;!-- catalog-RGB-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;[\w#x2D\-]+:[\w#x2D\-]+(\s*\(([01](\.0)?)|(0?\.\d+)){3}&quot;&gt;
+     &lt;/xs:pattern&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+   
+   &lt;!-- catalog-RGBA-color-type --&gt;
+   &lt;xs:simpleType&gt;
+    &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+     &lt;xs:pattern value=&quot;[\w#x2D\-]+:[\w#x2D\-]+(\s*\(([01](\.0)?)|(0?\.\d+)){4}&quot;&gt;
+     &lt;/xs:pattern&gt;
+    &lt;/xs:restriction&gt;
+   &lt;/xs:simpleType&gt;
+
+  &lt;/xs:union&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ 
+ &lt;!-- Key type; Attribute &quot;key&quot; mostly used in dictionaries --&gt;
+ &lt;xs:simpleType name=&quot;key-type&quot;&gt;
+  &lt;xs:restriction base=&quot;xs:string&quot;&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+ 
+ &lt;xs:simpleType name=&quot;opacity-type&quot;&gt;
+  &lt;xs:restriction base=&quot;p-number-type&quot;&gt;
+  &lt;/xs:restriction&gt;
+ &lt;/xs:simpleType&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 2. Commonly used attribute groups
+________________________________________________________________________________
+--&gt;
+&lt;!-- Geometric attribute groups --&gt;
+ &lt;xs:attributeGroup name=&quot;bounds&quot;&gt;
+  &lt;xs:attribute name=&quot;location&quot; type=&quot;point-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;size&quot; type=&quot;size-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+
+&lt;!-- Special attributes for drawables --&gt;
+ &lt;xs:attributeGroup name=&quot;stroke-attributes&quot;&gt;
+  &lt;xs:attribute name=&quot;stroke-color&quot; type=&quot;color-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;stroke-width&quot; type=&quot;xs:float&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+ &lt;xs:attributeGroup name=&quot;stroke-and-opacity&quot;&gt;
+  &lt;xs:attributeGroup ref=&quot;stroke-attributes&quot;/&gt;
+  &lt;xs:attribute name=&quot;opacity&quot; type=&quot;opacity-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+
+ 
+&lt;!-- Should be quite close to svg:path element, but way simpler --&gt;
+ &lt;xs:attributeGroup name=&quot;path&quot;&gt;
+  &lt;xs:attribute name=&quot;path&quot; type=&quot;path-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 3. Styling attribute groups 
+
+Note that we are using &quot;-styling&quot; suffix for attributes and groups
+as opposed to &quot;-style&quot; suffix for Style elements
+________________________________________________________________________________
+--&gt;
+
+&lt;!-- Text styling --&gt;
+
+ &lt;!-- Character styling --&gt;
+ &lt;xs:attributeGroup name=&quot;font-styling&quot;&gt;
+  &lt;xs:attribute name=&quot;font-name&quot; type=&quot;xs:string&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-size&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-color&quot; type=&quot;color-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+ &lt;!-- These attributes are used for text runs in addition to font attributes. --&gt;
+ &lt;xs:attributeGroup name=&quot;string-styling&quot;&gt;
+  &lt;xs:attribute name=&quot;font-underline&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-superscript&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-baseline-offset&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-kerning&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-ligatures&quot; type=&quot;font-ligature-type&quot; default=&quot;default&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-background-color&quot; type=&quot;color-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+ &lt;!-- Paragraph styling --&gt;
+ &lt;xs:attributeGroup name=&quot;paragraph-styling&quot;&gt;
+  &lt;xs:attribute name=&quot;paragraph-alignment&quot; type=&quot;horizontal-alignment-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-line-break&quot; type=&quot;text-wrap-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-head-indent&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-tail-indent&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-first-line-indent&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-line-spacing&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-line-min-height&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-line-max-height&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;paragraph-spacing&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;tab-stops&quot; type=&quot;tab-stop-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+ &lt;!-- All text attributes combined for &quot;fully styled text&quot; --&gt;
+ &lt;xs:attributeGroup name=&quot;text-styling&quot;&gt;
+  &lt;xs:attributeGroup ref=&quot;font-styling&quot;/&gt;
+  &lt;xs:attributeGroup ref=&quot;string-styling&quot;/&gt;
+  &lt;xs:attributeGroup ref=&quot;paragraph-styling&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+&lt;!-- Stroke and fill attributes --&gt;
+
+ &lt;!-- Dash styling attributes --&gt;
+ &lt;xs:attributeGroup name=&quot;dash-styling&quot;&gt;
+  &lt;xs:attribute name=&quot;pattern&quot; type=&quot;dash-pattern-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;offset&quot; type=&quot;xs:float&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+ &lt;!-- Shadow-styling attributes --&gt;
+ &lt;xs:attributeGroup name=&quot;shadow-style&quot;&gt;
+  &lt;xs:attribute name=&quot;angle&quot; type=&quot;xs:float&quot; default=&quot;0&quot;/&gt;
+  &lt;xs:attribute name=&quot;offset&quot; type=&quot;xs:float&quot; default=&quot;0&quot;/&gt;
+  &lt;xs:attribute name=&quot;radius&quot; type=&quot;xs:nonNegativeInteger&quot; default=&quot;0&quot;/&gt;
+  &lt;xs:attribute name=&quot;opacity&quot; type=&quot;opacity-type&quot; default=&quot;1&quot;/&gt;
+  &lt;xs:attribute name=&quot;color&quot; type=&quot;color-type&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+  
+ &lt;!-- Fill styling --&gt;
+ &lt;xs:attributeGroup name=&quot;image-fill-styling-group&quot;&gt;
+  &lt;xs:attribute name=&quot;image-data&quot; type=&quot;image-data-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;image-scale&quot; type=&quot;image-scale-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;byte-size&quot; type=&quot;xs:nonNegativeInteger&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+
+ &lt;xs:attributeGroup name=&quot;gradient-attribute-group&quot;&gt;
+  &lt;xs:attribute name=&quot;start-color&quot; type=&quot;color-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;end-color&quot; type=&quot;color-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;gradient-angle&quot; type=&quot;xs:float&quot;/&gt;
+ &lt;/xs:attributeGroup&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 4. Style elements and auxiliary elements used with styles
+
+Note that we are using &quot;-styling&quot; suffix for attributes and groups
+as opposed to &quot;-style&quot; suffix for Style elements
+________________________________________________________________________________
+--&gt; 
+
+ &lt;!-- Dash style type and element --&gt;
+ &lt;xs:complexType name=&quot;dash-style-type&quot;&gt;
+  &lt;xs:attributeGroup ref=&quot;dash-styling&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:element name=&quot;dash-style&quot; type=&quot;dash-style-type&quot;/&gt;
+ 
+ &lt;!-- Line-end style type and elements --&gt;
+ &lt;xs:complexType name=&quot;line-end-style-type&quot;&gt;
+  &lt;!-- match-x and match-y specify a &quot;match point&quot; for a line-end.
+   The match point is defined in the same co-ordinate space as the path.
+   It is this point that is matched with the end of the line
+   that is being decorated. (Rotation also occurs around this point.)
+   --&gt;
+  &lt;xs:attribute name=&quot;match-point&quot; type=&quot;point-type&quot; /&gt;
+  &lt;xs:attributeGroup ref=&quot;path&quot;/&gt;
+  &lt;xs:attribute name=&quot;is-filled&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+ &lt;/xs:complexType&gt;
+  
+ &lt;xs:element name=&quot;line-head-style&quot; type=&quot;line-end-style-type&quot;/&gt;
+ &lt;xs:element name=&quot;line-tail-style&quot; type=&quot;line-end-style-type&quot;/&gt;
+ 
+ &lt;!-- Shadow --&gt;
+ &lt;xs:complexType name=&quot;shadow-style-type&quot;&gt;
+  &lt;xs:attributeGroup ref=&quot;shadow-style&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+ &lt;/xs:complexType&gt;
+  
+ &lt;xs:element name=&quot;shadow-style&quot; type=&quot;shadow-style-type&quot;/&gt;
+ 
+ &lt;!-- gradient and other fills --&gt;
+ &lt;xs:element name=&quot;gradient&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:attributeGroup ref=&quot;gradient-attribute-group&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:complexType name=&quot;fill-style-type&quot;&gt;
+ &lt;!-- In fact, we have 4 alternatives: gradient, solid fill, image fill, no fill
+  The alternative is defined by the value of the &quot;fill-type&quot; attribute.
+ --&gt;
+  &lt;!-- Only for gradient type --&gt;
+  &lt;xs:choice minOccurs=&quot;0&quot;&gt;
+   &lt;xs:element ref=&quot;gradient&quot;/&gt;
+  &lt;/xs:choice&gt;
+  &lt;!-- for all types --&gt;
+  &lt;xs:attribute name=&quot;fill-type&quot; type=&quot;fillType-type&quot;/&gt;
+  &lt;!-- only for solid fill type --&gt;
+  &lt;xs:attribute name=&quot;fill-color&quot; type=&quot;color-type&quot;/&gt;
+  &lt;!-- only for image fill type --&gt;
+  &lt;xs:attributeGroup ref=&quot;image-fill-styling-group&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;fill-style&quot; type=&quot;fill-style-type&quot;/&gt;
+ &lt;xs:element name=&quot;background-fill-style&quot; type=&quot;fill-style-type&quot;/&gt;
+ 
+ &lt;!-- all graphic styles as a group --&gt;
+ &lt;xs:group name=&quot;styles-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:element ref=&quot;dash-style&quot;/&gt;
+   &lt;xs:element ref=&quot;shadow-style&quot;/&gt;
+   &lt;xs:element ref=&quot;fill-style&quot;/&gt;
+   &lt;xs:element ref=&quot;background-fill-style&quot;/&gt;
+   &lt;xs:element ref=&quot;line-head-style&quot;/&gt;
+   &lt;xs:element ref=&quot;line-tail-style&quot;/&gt;
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+ 
+ &lt;!-- Drawable styles hierarchy --&gt;
+ &lt;xs:complexType name=&quot;basic-drawable-style-type&quot;&gt;
+  &lt;xs:all&gt;
+   &lt;xs:element ref=&quot;shadow-style&quot; minOccurs=&quot;0&quot;/&gt;
+  &lt;/xs:all&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:complexType name=&quot;outlined-drawable-style-type&quot;&gt;
+  &lt;xs:all&gt;
+   &lt;xs:element ref=&quot;shadow-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;dash-style&quot; minOccurs=&quot;0&quot;/&gt;
+  &lt;/xs:all&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;filled-drawable-style-type&quot;&gt;
+  &lt;xs:all&gt;
+   &lt;xs:element ref=&quot;shadow-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;dash-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;fill-style&quot; minOccurs=&quot;0&quot;/&gt;
+  &lt;/xs:all&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;line-drawable-style-type&quot;&gt;
+  &lt;xs:all&gt;
+   &lt;xs:element ref=&quot;shadow-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;dash-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;line-head-style&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element ref=&quot;line-tail-style&quot; minOccurs=&quot;0&quot;/&gt;
+  &lt;/xs:all&gt;
+ &lt;/xs:complexType&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 5. Basic drawable types and graphic elements
+________________________________________________________________________________
+--&gt;
+ &lt;!-- Base type for all drawables on slides --&gt;
+ &lt;xs:complexType name=&quot;drawable-type&quot;&gt;
+  &lt;xs:attribute name=&quot;locked&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot; /&gt;
+ &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;!-- All drawables that could be moved --&gt;
+ &lt;xs:complexType name=&quot;content-type&quot;&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;drawable-type&quot;&gt;
+    &lt;xs:attribute name=&quot;transformation&quot; type=&quot;transformation-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;!-- Graphic elements --&gt;
+ 
+ &lt;xs:element name=&quot;image&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;styles&quot; type=&quot;outlined-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+     &lt;/xs:sequence&gt;
+     &lt;xs:attributeGroup ref=&quot;stroke-and-opacity&quot;/&gt;
+     &lt;!-- image-specific attributes --&gt;
+     &lt;xs:attribute name=&quot;display-name&quot; type=&quot;xs:string&quot;/&gt;
+     &lt;xs:attribute name=&quot;image-data&quot; type=&quot;image-data-type&quot;/&gt;
+     &lt;xs:attribute name=&quot;lock-aspect-ratio&quot; type=&quot;xs:boolean&quot;/&gt;
+     &lt;xs:attribute name=&quot;natural-size&quot; type=&quot;size-type&quot;/&gt;
+     &lt;xs:attribute name=&quot;byte-size&quot; type=&quot;byte-size-type&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;shape&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;styles&quot; type=&quot;filled-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+     &lt;/xs:sequence&gt;
+     &lt;xs:attributeGroup ref=&quot;path&quot;/&gt;
+     &lt;xs:attributeGroup ref=&quot;stroke-and-opacity&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;line&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:element name=&quot;styles&quot; type=&quot;line-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+     &lt;/xs:sequence&gt;
+   &lt;!-- &quot;required&quot; property is removed to accomodate prototypes --&gt;
+     &lt;xs:attribute name=&quot;head&quot; type=&quot;point-type&quot; /&gt;
+     &lt;xs:attribute name=&quot;tail&quot; type=&quot;point-type&quot; /&gt;
+     &lt;xs:attributeGroup ref=&quot;stroke-and-opacity&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt; 
+ 
+&lt;!--
+________________________________________________________________________________
+Section 6. Text content types and elements
+________________________________________________________________________________
+--&gt; 
+ &lt;xs:complexType name=&quot;font-styled-text-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:string&quot;&gt;
+    &lt;xs:attributeGroup ref=&quot;font-styling&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;   
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;text-span-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;font-styled-text-type&quot;&gt;
+    &lt;xs:attributeGroup ref=&quot;string-styling&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;full-styled-text-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;text-span-type&quot;&gt;
+    &lt;xs:attributeGroup ref=&quot;paragraph-styling&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;span&quot; type=&quot;text-span-type&quot;/&gt;
+ 
+ &lt;xs:element name=&quot;div&quot;&gt;
+  &lt;xs:complexType mixed=&quot;true&quot;&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;span&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+   &lt;xs:attributeGroup ref=&quot;text-styling&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:complexType name=&quot;text-content-type&quot; mixed=&quot;true&quot;&gt;
+  &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
+   &lt;xs:element ref=&quot;span&quot;/&gt;
+   &lt;xs:element ref=&quot;div&quot;/&gt;
+  &lt;/xs:choice&gt;
+  &lt;xs:attributeGroup ref=&quot;text-styling&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;!-- Note that this element is also used in the Table plugin --&gt;
+ &lt;xs:element name=&quot;content&quot; type=&quot;text-content-type&quot;/&gt;
+
+ &lt;!-- Textbox --&gt;
+ &lt;xs:element name=&quot;textbox&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:all&gt;
+      &lt;xs:element name=&quot;styles&quot; type=&quot;basic-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+      &lt;xs:element ref=&quot;content&quot; minOccurs=&quot;0&quot;/&gt;
+     &lt;/xs:all&gt;
+     &lt;xs:attribute name=&quot;size&quot; type=&quot;size-type&quot;/&gt;
+     &lt;xs:attribute name=&quot;grow-horizontally&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+     &lt;xs:attribute name=&quot;opacity&quot; type=&quot;opacity-type&quot; default=&quot;1&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 7. Bullet styles and bullet elements
+________________________________________________________________________________
+--&gt; 
+ &lt;xs:complexType name=&quot;bullet-style-type&quot;&gt;
+  &lt;xs:attribute name=&quot;size&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;size-technique&quot; type=&quot;size-measure-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;offset&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;image-bullet-style&quot;&gt;
+  &lt;xs:complexType&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;bullet-style-type&quot;&gt;
+    &lt;xs:attribute name=&quot;image-data&quot; use=&quot;required&quot; type=&quot;image-data-type&quot;/&gt;
+    &lt;xs:attribute name=&quot;byte-size&quot; type=&quot;byte-size-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+
+ &lt;xs:element name=&quot;sequence-bullet-style&quot;&gt;
+  &lt;xs:complexType&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;bullet-style-type&quot;&gt;
+    &lt;xs:attribute name=&quot;sequence-type&quot; type=&quot;sequence-style-type&quot;/&gt;
+    &lt;xs:attribute name=&quot;format-string&quot; type=&quot;xs:string&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;bullet-characters&quot; type=&quot;full-styled-text-type&quot;/&gt;
+  
+ &lt;xs:element name=&quot;character-bullet-style&quot;&gt;
+  &lt;xs:complexType &gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;bullet-style-type&quot;&gt;
+    &lt;!-- Note that the real characters go inside this element
+    as a fully styled text --&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:element ref=&quot;bullet-characters&quot;/&gt;
+     &lt;/xs:sequence&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;bullet&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;content&quot;/&gt;
+    &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;1&quot;&gt;
+     &lt;xs:element ref=&quot;character-bullet-style&quot;/&gt;
+     &lt;xs:element ref=&quot;sequence-bullet-style&quot;/&gt;
+     &lt;xs:element ref=&quot;image-bullet-style&quot;/&gt;
+    &lt;/xs:choice&gt;
+   &lt;/xs:sequence&gt;
+   &lt;xs:attribute name=&quot;level&quot; type=&quot;xs:nonNegativeInteger&quot;/&gt;
+   &lt;xs:attribute name=&quot;marker-type&quot; type=&quot;bullet-marker-type&quot;/&gt;
+   &lt;xs:attribute name=&quot;spacing&quot; type=&quot;xs:float&quot;/&gt;
+   &lt;xs:attribute name=&quot;offset&quot; type=&quot;xs:float&quot;/&gt;
+   &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot; /&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;bullets&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;bullet&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 8. Placeholders
+________________________________________________________________________________
+--&gt;    
+ &lt;!-- Placeholder type  --&gt;
+ &lt;xs:complexType name=&quot;placeholder-type&quot;&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;drawable-type&quot;&gt;
+    &lt;xs:sequence&gt;
+     &lt;xs:element name=&quot;styles&quot; type=&quot;filled-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;/xs:sequence&gt;
+    &lt;xs:attributeGroup ref=&quot;bounds&quot;/&gt;
+    &lt;xs:attributeGroup ref=&quot;stroke-and-opacity&quot;/&gt;
+    &lt;xs:attribute name=&quot;vertical-alignment&quot; type=&quot;vertical-alignment-type&quot;/&gt;
+    &lt;xs:attribute name=&quot;visibility&quot; type=&quot;visibility-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;!-- Specific placeholders --&gt;
+ &lt;xs:element name=&quot;title&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;placeholder-type&quot;/&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+
+ &lt;xs:element name=&quot;body&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;placeholder-type&quot;&gt;
+     &lt;xs:attribute name=&quot;bullet-indentation&quot; type=&quot;list-of-numbers&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;text-attributes&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:attributeGroup ref=&quot;text-styling&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+
+ &lt;!-- Only on master slides --&gt;
+ &lt;xs:element name=&quot;page-number&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;placeholder-type&quot;&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:element ref=&quot;text-attributes&quot;/&gt;
+     &lt;/xs:sequence&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 9. Plugins
+Note that for rendering purposes, plugins are just drawables that could be
+moved, transformeds, assigned opcaity, etc.
+________________________________________________________________________________
+--&gt;  
+ &lt;xs:element name=&quot;plugin-data&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:group ref=&quot;content-data-group&quot; maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:any namespace=&quot;<a href="http://apple.com/schemas/APXLPlugins">http://apple.com/schemas/APXLPlugins</a>&quot; processContents=&quot;lax&quot;/&gt;
+    &lt;!-- 
+    The proper way of specifying the content here would be:
+    &lt;choice&gt;
+     &lt;xs:element ref=&quot;plugin:chart&quot;/&gt;
+     &lt;xs:group ref=&quot;plugin:table&quot;/&gt;
+    &lt;/choice&gt;
+    
+    Unfortunately, this would require &quot;circular refernce between APXL.xsd
+    and APXLPlugins.xsd It is OK with W3C XML schema spec, but is not
+    with most validators
+    --&gt;
+    &lt;xs:group ref=&quot;content-data-group&quot; maxOccurs=&quot;unbounded&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;plugin&quot;&gt;
+  &lt;xs:complexType&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;content-type&quot;&gt;
+    &lt;xs:all&gt;
+     &lt;xs:element name=&quot;styles&quot; type=&quot;basic-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+     &lt;xs:element ref=&quot;plugin-data&quot;/&gt;     
+    &lt;/xs:all&gt;
+    &lt;xs:attribute name=&quot;opacity&quot; type=&quot;opacity-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 11. Drawable grouping
+________________________________________________________________________________
+--&gt;  
+&lt;!-- It contains evrything that could be drown, with exception of placeholders --&gt;
+ &lt;xs:group name=&quot;drawable-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:element ref=&quot;shape&quot;/&gt;
+   &lt;xs:element ref=&quot;line&quot;/&gt;
+   &lt;xs:element ref=&quot;g&quot;/&gt;
+   &lt;xs:element ref=&quot;textbox&quot;/&gt;
+   &lt;xs:element ref=&quot;image&quot;/&gt;
+   &lt;xs:element ref=&quot;plugin&quot;/&gt;
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+ 
+ &lt;xs:element name=&quot;g&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:sequence&gt;
+      &lt;xs:group ref=&quot;drawable-group&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+     &lt;/xs:sequence&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:complexType name=&quot;slide-drawables-type&quot;&gt;
+ &lt;!-- Slide drawables can contain any number of &quot;normal&quot; drawables,
+ plus exactly one &lt;title&gt; placeholder and exactly one &lt;body&gt; placeholder mixed
+ within drawables arbitrary
+  --&gt;
+  &lt;xs:sequence&gt;
+   &lt;xs:group ref=&quot;drawable-group&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;!-- which one goes first? title or body? --&gt;
+   &lt;xs:choice&gt;
+    &lt;!-- title is first, followed by body --&gt;
+    &lt;xs:sequence&gt;
+     &lt;xs:element ref=&quot;title&quot;/&gt;
+     &lt;xs:group ref=&quot;drawable-group&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+     &lt;xs:element ref=&quot;body&quot;/&gt;
+    &lt;/xs:sequence&gt;
+    
+    &lt;!-- body goes first --&gt;
+    &lt;xs:sequence&gt;
+     &lt;xs:element ref=&quot;body&quot;/&gt;
+     &lt;xs:group ref=&quot;drawable-group&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+     &lt;xs:element ref=&quot;title&quot;/&gt;
+    &lt;/xs:sequence&gt;
+     
+   &lt;/xs:choice&gt; 
+ 
+  &lt;!-- OK, finally placeholders are followed by zero or more &quot;normal&quot; drawables --&gt;
+  &lt;xs:group ref=&quot;drawable-group&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xs:sequence&gt;  
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;master-slide-drawables-type&quot;&gt;
+ &lt;!-- Master slide drawables are similar, but in addition
+ they can contain an optional &lt;page-number&gt; placeholder.
+ Unfortunately, using the same approach as in &lt;slide-drawable-type&gt;
+ leads to a non-deterministic schema
+ 
+ So, we put instead a crude approximation that will validate almost everything
+  --&gt;
+  &lt;xs:sequence&gt;
+   &lt;xs:choice minOccurs=&quot;1&quot; maxOccurs=&quot;unbounded&quot;&gt;
+   &lt;!-- master slide placeholders --&gt;
+    &lt;xs:element ref=&quot;body&quot;/&gt;
+    &lt;xs:element ref=&quot;title&quot;/&gt;
+    &lt;xs:element ref=&quot;page-number&quot;/&gt;
+   &lt;!-- the rest of drawable elements --&gt;
+    &lt;xs:group ref=&quot;drawable-group&quot;/&gt;
+   &lt;/xs:choice&gt;
+  &lt;/xs:sequence&gt;
+  
+ &lt;/xs:complexType&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 11. Prototypes 
+Prototypes are used on master slides to define default styles for drawable
+elements
+________________________________________________________________________________
+--&gt;  
+ &lt;!-- This group is used inside prototype drwabales.
+ Note that it contains no &lt;plugin&gt;s and no &lt;g&gt;. --&gt;
+ &lt;xs:group name=&quot;prototype-drawable-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:element ref=&quot;shape&quot;/&gt;
+   &lt;xs:element ref=&quot;line&quot;/&gt;
+   &lt;xs:element ref=&quot;textbox&quot;/&gt;
+   &lt;xs:element ref=&quot;image&quot;/&gt;
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+ 
+ &lt;!-- Prototype for drawables could be used on theme or on master slide level --&gt;
+ &lt;xs:element name=&quot;prototype-drawables&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:group ref=&quot;prototype-drawable-group&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;!-- Prototype-bullets elements always contain excatly 6 bullets! --&gt;
+ &lt;xs:element name=&quot;prototype-bullets&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;      
+    &lt;xs:element ref=&quot;bullet&quot; minOccurs=&quot;6&quot; maxOccurs=&quot;6&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+  
+ &lt;!-- In fact, it completely repeates &quot;plugin&quot; element defintion
+ but has a &quot;key&quot; attribute in addition. 
+ 
+ Then, unlike &lt;plugin-data&gt;, &lt;prototype-plugin-data&gt; is an array with &quot;table&quot;
+ or &quot;chart&quot; element being only one of possible elements of it. In fact, it
+ is completely up to the plugin developer what do they put in there. 
+ &quot;prototype-data&quot; acts as an array
+ --&gt;
+ 
+ &lt;xs:element name=&quot;prototype-data&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:group ref=&quot;general-data-group&quot; maxOccurs=&quot;unbounded&quot; minOccurs=&quot;1&quot;/&gt;
+  &lt;/xs:complexType&gt;  
+ &lt;/xs:element&gt;
+   
+ &lt;xs:element name=&quot;prototype-plugin&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:complexContent&gt;
+    &lt;xs:extension base=&quot;content-type&quot;&gt;
+     &lt;xs:all&gt;
+      &lt;xs:element name=&quot;styles&quot; type=&quot;basic-drawable-style-type&quot; minOccurs=&quot;0&quot;/&gt;
+      &lt;xs:element ref=&quot;prototype-data&quot;/&gt;
+     &lt;/xs:all&gt;
+     &lt;xs:attribute name=&quot;opacity&quot; type=&quot;opacity-type&quot;/&gt;
+    &lt;/xs:extension&gt;
+   &lt;/xs:complexContent&gt;   
+  &lt;/xs:complexType&gt;   
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;prototype-plugins&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;prototype-plugin&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+  
+ &lt;/xs:element&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section 12. Transition/build style types and elements
+________________________________________________________________________________
+--&gt;
+ &lt;xs:complexType name=&quot;name-integer-value-type&quot;&gt;
+  &lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;
+  &lt;xs:attribute name=&quot;value&quot; type=&quot;xs:integer&quot; use=&quot;required&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;property&quot; type=&quot;name-integer-value-type&quot;/&gt;
+ 
+ &lt;xs:complexType name=&quot;transition-style-type&quot;&gt;
+  &lt;xs:sequence&gt;
+   &lt;xs:element ref=&quot;property&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xs:sequence&gt;
+  &lt;!-- There is no enumeration in the code - just a string for now,
+  so we keep it open for more transition styles --&gt;
+  &lt;xs:attribute name=&quot;type&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;
+  &lt;xs:attribute name=&quot;duration&quot; type=&quot;xs:float&quot; /&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;transition-style&quot; type=&quot;transition-style-type&quot;/&gt;
+ 
+ &lt;xs:complexType name=&quot;build-type&quot;&gt;
+  &lt;xs:complexContent&gt;
+   &lt;xs:extension base=&quot;transition-style-type&quot;&gt;
+    &lt;xs:attribute name=&quot;target-id&quot; type=&quot;xs:IDREF&quot; use=&quot;required&quot;/&gt;
+    &lt;xs:attribute name=&quot;delivery&quot; type=&quot;xs:integer&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:complexContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:element name=&quot;build&quot; type=&quot;build-type&quot;/&gt;
+ 
+ &lt;!-- Build events are grouped in the slide --&gt;
+ &lt;xs:element name=&quot;events&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;build&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 12. Other slide-level elements and groups
+________________________________________________________________________________
+--&gt;  
+ &lt;!-- Guides --&gt;
+ &lt;xs:element name=&quot;guide&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:attribute name=&quot;orientation&quot; type=&quot;direction-type&quot;/&gt;
+   &lt;xs:attribute name=&quot;offset&quot; type=&quot;xs:float&quot;/&gt;
+   &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;guides&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;guide&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;!-- Text notes --&gt;
+ &lt;xs:element name=&quot;notes&quot; type=&quot;text-content-type&quot;&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;!-- Thumbnails --&gt; 
+ &lt;xs:element name=&quot;thumbnail&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:attribute name=&quot;file&quot; use=&quot;required&quot; type=&quot;file-name-type&quot;/&gt;
+   &lt;xs:attribute name=&quot;size&quot; use=&quot;required&quot; type=&quot;size-type&quot;/&gt;
+   &lt;xs:attribute name=&quot;byte-size&quot; type=&quot;byte-size-type&quot;/&gt;
+   &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;thumbnails&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;thumbnail&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt; 
+
+&lt;!--
+________________________________________________________________________________
+Section 13. Slide and master slide structure
+________________________________________________________________________________
+--&gt; 
+ &lt;xs:element name=&quot;master-slide&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:all&gt;
+    &lt;xs:element name=&quot;drawables&quot; type=&quot;master-slide-drawables-type&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;background-fill-style&quot; minOccurs=&quot;0&quot;/&gt; 
+    &lt;xs:element ref=&quot;prototype-bullets&quot;/&gt;
+    &lt;xs:element ref=&quot;transition-style&quot; minOccurs=&quot;0&quot;/&gt; 
+    &lt;!-- thumbnails - as many as necessary for different sizes --&gt;
+    &lt;xs:element ref=&quot;thumbnails&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;prototype-plugins&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;prototype-drawables&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;!-- Master slide can also have guides --&gt;
+    &lt;xs:element ref=&quot;guides&quot; minOccurs=&quot;0&quot;/&gt;
+
+   &lt;/xs:all&gt;
+   &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot; use=&quot;required&quot;/&gt;
+   &lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot;/&gt;
+   &lt;!-- If true, master slide objects can be put at any z-order on a slide --&gt;
+   &lt;xs:attribute name=&quot;floating-content&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+   
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;slide&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:all&gt;
+    &lt;xs:element name=&quot;drawables&quot; type=&quot;slide-drawables-type&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;background-fill-style&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;bullets&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;transition-style&quot; /&gt;
+    &lt;!-- thumbnails - as many as necessary for different sizes --&gt;
+    &lt;xs:element ref=&quot;thumbnails&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;guides&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;events&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;notes&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;/xs:all&gt;
+   &lt;xs:attribute name=&quot;master-slide-id&quot; type=&quot;xs:IDREF&quot; use=&quot;required&quot;/&gt;
+   &lt;xs:attribute name=&quot;depth&quot; type=&quot;xs:nonNegativeInteger&quot; default=&quot;0&quot;/&gt;
+   &lt;!-- indicates z-order of master slide objects inside sliede' drawable list --&gt;
+   &lt;xs:attribute name=&quot;master-content-index&quot; type=&quot;xs:nonNegativeInteger&quot; default=&quot;0&quot;/&gt;
+   &lt;xs:attribute name=&quot;hidden&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+   &lt;xs:attribute name=&quot;collapsed&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+   &lt;xs:attribute name=&quot;autobuild&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+   &lt;xs:attribute name=&quot;id&quot; type=&quot;xs:ID&quot;/&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 14. Themes
+________________________________________________________________________________
+--&gt; 
+ &lt;xs:element name=&quot;master-slides&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;master-slide&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;theme&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:all&gt;
+    &lt;!-- Templates for plugins and drawables - replace styles --&gt;
+    &lt;!-- Prototype drawables decsribe prototype for shapes and text
+    and basically define master styles --&gt;
+    &lt;xs:element ref=&quot;prototype-drawables&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;!-- Similar function for prototype plugins --&gt;
+    &lt;xs:element ref=&quot;prototype-plugins&quot; minOccurs=&quot;0&quot;/&gt;
+
+    &lt;!-- we have to make them children to be able to
+    escape quotes, etc. --&gt;
+    &lt;xs:element name=&quot;description&quot; minOccurs=&quot;0&quot; type=&quot;xs:string&quot;/&gt;
+          
+    &lt;!-- Local defintiion for Master slide list --&gt;
+    &lt;xs:element ref=&quot;master-slides&quot;/&gt;
+   &lt;/xs:all&gt;
+
+   &lt;xs:attribute name=&quot;slide-size&quot; type=&quot;size-type&quot; use=&quot;required&quot;/&gt;
+   &lt;xs:attribute name=&quot;changed&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+   &lt;xs:attribute name=&quot;self-contained&quot; type=&quot;xs:boolean&quot; default=&quot;false&quot;/&gt;
+
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section 15. Presentation and presentation-level structures
+________________________________________________________________________________
+--&gt; 
+ &lt;!-- Slide list element describes the real sequence of slides
+     to be shown.--&gt;
+ &lt;xs:element name=&quot;slide-list&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+    &lt;xs:element ref=&quot;slide&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+   &lt;/xs:sequence&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;!-- Metadata --&gt;
+ &lt;xs:element name=&quot;application-name&quot; type=&quot;xs:string&quot;/&gt;
+ &lt;xs:element name=&quot;application-version&quot; type=&quot;xs:string&quot; /&gt;
+ &lt;xs:element name=&quot;time-stamp&quot; type=&quot;xs:string&quot;/&gt;
+ 
+ &lt;xs:element name=&quot;metadata&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:all&gt;
+    &lt;xs:element ref=&quot;application-name&quot; /&gt;
+    &lt;xs:element ref=&quot;application-version&quot; minOccurs=&quot;0&quot;/&gt;
+    &lt;xs:element ref=&quot;time-stamp&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;/xs:all&gt;
+  &lt;/xs:complexType&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;!-- UI state
+ This is a dictionary of almost arbitrary parameters that could be stored
+ to preserve the UI state. --&gt; 
+ &lt;xs:element name=&quot;ui-state&quot; type=&quot;dictionary-type&quot;&gt;
+  &lt;xs:key name=&quot;ui-key&quot;&gt;
+   &lt;xs:selector xpath=&quot;*&quot;/&gt;
+   &lt;xs:field xpath=&quot;@key&quot;/&gt;
+  &lt;/xs:key&gt;
+ &lt;/xs:element&gt;
+ 
+ &lt;xs:element name=&quot;presentation&quot;&gt;
+  &lt;xs:complexType&gt;
+   &lt;xs:sequence&gt;
+
+    &lt;!-- metadata --&gt;
+    &lt;xs:element ref=&quot;metadata&quot; minOccurs=&quot;0&quot;/&gt;
+     
+    &lt;!-- Local definition - corresponds to BGTheme class --&gt;
+    &lt;xs:element ref=&quot;theme&quot;/&gt;
+    
+    &lt;!-- Slide list element describes the real sequence of slides
+     to be shown.--&gt;
+    &lt;xs:element ref=&quot;slide-list&quot;/&gt;
+
+    &lt;!-- Corresponds to uiSTate member --&gt;
+    &lt;xs:element ref=&quot;ui-state&quot; /&gt;
+
+   &lt;/xs:sequence&gt;
+
+   &lt;xs:attribute name=&quot;version&quot; type=&quot;xs:string&quot;/&gt;
+   &lt;xs:attribute name=&quot;self-contained&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;/xs:complexType&gt;
+
+ &lt;/xs:element&gt;
+
+&lt;!--
+________________________________________________________________________________
+
+ Dictionary schema -
+ Auxiliary schema for APXL to describe &quot;dictionaries&quot;(&lt;dict&gt;) and arrays
+
+ Integrated with the main schema to provide simpler validation.
+________________________________________________________________________________
+--&gt;
+&lt;!--
+________________________________________________________________________________
+Section D1. &quot;Keyed&quot; extensions of simple types
+________________________________________________________________________________
+--&gt;  
+ &lt;xs:complexType name=&quot;keyed-empty-type&quot;&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:complexType name=&quot;keyed-color-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;color-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;keyed-boolean-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:boolean&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:complexType name=&quot;keyed-number-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:float&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;keyed-integer-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:integer&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+    
+ &lt;xs:complexType name=&quot;keyed-string-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:string&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:complexType name=&quot;keyed-path-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;path-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+    
+ &lt;xs:complexType name=&quot;keyed-file-name-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;file-name-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;  
+   
+ &lt;xs:complexType name=&quot;keyed-point-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;point-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+   
+ &lt;xs:complexType name=&quot;keyed-size-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;size-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+    
+ &lt;xs:complexType name=&quot;keyed-rect-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;rect-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot; /&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;keyed-range-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;range-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot; /&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;keyed-transformation-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;transformation-type&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot; /&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+   
+ &lt;xs:complexType name=&quot;keyed-url-type&quot;&gt;
+  &lt;xs:simpleContent&gt;
+   &lt;xs:extension base=&quot;xs:anyURI&quot;&gt;
+    &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+   &lt;/xs:extension&gt;
+  &lt;/xs:simpleContent&gt;
+ &lt;/xs:complexType&gt;
+ 
+&lt;!--
+________________________________________________________________________________
+Section D2. Types for complex keyed types used only in dictionaries
+________________________________________________________________________________
+--&gt;
+ &lt;xs:complexType name=&quot;keyed-reference-type&quot;&gt;
+  &lt;xs:attribute name=&quot;id-ref&quot; type=&quot;xs:IDREF&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;keyed-font-type&quot;&gt;
+  &lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot;/&gt;
+  &lt;xs:attribute name=&quot;font-size&quot; type=&quot;xs:float&quot;/&gt;
+  &lt;xs:attribute name=&quot;transformation&quot; type=&quot;transformation-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;number-handler-type&quot;&gt;
+  &lt;xs:attribute name=&quot;rounding-mode&quot; type=&quot;rounding-mode-type&quot;/&gt;
+  &lt;xs:attribute name=&quot;raise-on-exactness&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;raise-on-divide-by-zero&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;raise-on-overflow&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;raise-on-underflow&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;scale&quot; type=&quot;xs:integer&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;date-formatter-type&quot;&gt;
+  &lt;xs:attribute name=&quot;allows-natural-language&quot; type=&quot;xs:boolean&quot;/&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+ 
+ &lt;xs:complexType name=&quot;number-formatter-type&quot;&gt;
+  &lt;xs:sequence&gt;
+   &lt;xs:element name=&quot;negative&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;positive&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;zero&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;nil&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;nan&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;thousand-separator&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;float-separator&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;rounding-behavior&quot; type=&quot;number-handler-type&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;min&quot; type=&quot;xs:float&quot; minOccurs=&quot;0&quot;/&gt;
+   &lt;xs:element name=&quot;max&quot; type=&quot;xs:float&quot; minOccurs=&quot;0&quot;/&gt;
+  &lt;/xs:sequence&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+
+&lt;!--
+________________________________________________________________________________
+Section D3. Dictionary and array structures and related groups
+________________________________________________________________________________
+--&gt;
+ &lt;xs:complexType name=&quot;dictionary-type&quot;&gt;
+  &lt;xs:sequence&gt;
+   &lt;xs:group ref=&quot;general-data-group&quot; minOccurs=&quot;1&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+  &lt;/xs:sequence&gt;
+  &lt;xs:attribute name=&quot;key&quot; type=&quot;key-type&quot;/&gt;
+ &lt;/xs:complexType&gt;
+
+ &lt;xs:element name=&quot;array&quot; type=&quot;dictionary-type&quot;/&gt;
+
+ &lt;xs:element name=&quot;dict&quot; type=&quot;dictionary-type&quot;&gt;
+  &lt;xs:key name=&quot;dict-key&quot;&gt;
+   &lt;xs:selector xpath=&quot;*&quot;/&gt;
+   &lt;xs:field xpath=&quot;@key&quot;/&gt;
+  &lt;/xs:key&gt;
+ &lt;/xs:element&gt;
+
+&lt;!-- Possible dictionary content as a group. --&gt;
+ &lt;xs:group name=&quot;dict-data-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:element ref=&quot;dict&quot;/&gt;
+   &lt;xs:element ref=&quot;array&quot;/&gt;
+   &lt;!-- elements used exclusively inside dictionaries --&gt;
+   &lt;xs:element name=&quot;null&quot; type=&quot;keyed-empty-type&quot;/&gt;
+   &lt;xs:element name=&quot;number&quot; type=&quot;keyed-number-type&quot;/&gt;
+   &lt;xs:element name=&quot;string&quot; type=&quot;keyed-string-type&quot;/&gt;
+
+   &lt;xs:element name=&quot;transformation&quot; type=&quot;keyed-transformation-type&quot;/&gt;
+   &lt;xs:element name=&quot;bezier-path&quot; type=&quot;keyed-path-type&quot;/&gt;
+   &lt;xs:element name=&quot;color&quot; type=&quot;keyed-color-type&quot;/&gt;
+
+   &lt;xs:element name=&quot;data&quot; type=&quot;keyed-file-name-type&quot;/&gt;
+   &lt;xs:element name=&quot;image-binary&quot; type=&quot;keyed-file-name-type&quot;/&gt;
+
+   &lt;xs:element name=&quot;file-wrapper&quot; type=&quot;keyed-file-name-type&quot;/&gt;
+
+   &lt;xs:element name=&quot;attributed-string&quot; type=&quot;text-content-type&quot;/&gt;
+   &lt;xs:element name=&quot;point&quot; type=&quot;keyed-point-type&quot;/&gt;
+   &lt;xs:element name=&quot;size&quot; type=&quot;keyed-size-type&quot;/&gt;
+
+   &lt;xs:element name=&quot;rect&quot; type=&quot;keyed-rect-type&quot;/&gt;
+   &lt;xs:element name=&quot;range&quot; type=&quot;keyed-range-type&quot;/&gt;
+   &lt;xs:element name=&quot;url&quot; type=&quot;keyed-url-type&quot;/&gt;
+   &lt;xs:element name=&quot;reference&quot; type=&quot;keyed-reference-type&quot;/&gt;
+   &lt;xs:element name=&quot;font&quot; type=&quot;keyed-font-type&quot;/&gt;
+   &lt;xs:element name=&quot;date-formatter&quot; type=&quot;date-formatter-type&quot;/&gt;
+   &lt;xs:element name=&quot;number-formatter&quot; type=&quot;number-formatter-type&quot;/&gt;
+
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+
+ &lt;xs:group name=&quot;content-data-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:group ref=&quot;dict-data-group&quot;/&gt;
+   &lt;xs:group ref=&quot;drawable-group&quot;/&gt;
+   &lt;xs:group ref=&quot;styles-group&quot;/&gt;
+   &lt;xs:element ref=&quot;content&quot;/&gt; &lt;!-- exclusively for Tables plugin data --&gt;
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+
+ &lt;xs:group name=&quot;general-data-group&quot;&gt;
+  &lt;xs:choice&gt;
+   &lt;xs:group ref=&quot;content-data-group&quot;/&gt;
+   &lt;!-- plugin:namespace elements may go in here as well --&gt;
+   &lt;xs:any namespace=&quot;<a href="http://apple.com/schemas/APXLPlugins">http://apple.com/schemas/APXLPlugins</a>&quot; processContents=&quot;lax&quot;/&gt;
+   &lt;!-- --&gt;
+  &lt;/xs:choice&gt;
+ &lt;/xs:group&gt;
+ 
+&lt;/xs:schema&gt;
+
+
+</pre></td>
+</tr>
+</tbody>
+</table>
+</center>
+<br/>
+<p style="color: rgb(0, 0, 0); font-family: geneva, helvetica, arial, sans-serif; font-size: 10px;"><a href="http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html#top" style="color: rgb(102, 0, 153); text-decoration: initial;">Back to top</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<div><br/></div>
+</en-note>      ]]>
+    </content>
+    <resource>
+      <data encoding="base64">
+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
+      </data>
+      <mime>image/jpeg</mime>
+      <width>339</width>
+      <height>42</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+570baa10-f9a6-4b4c-963a-86feaa5a5b07+8e6aec48b2a4b1791ec0750f8975c93a+https://www.evernote.com/shard/s160/res/5e4ba6db-1291-4b5c-9f0c-63447632bf79</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+/9j/4AAQSkZJRgABAQEASABIAAD//gAMQXBwbGVNYXJrCv/bAIQAAQEBAQEBAQEBAQICAQICAwICAgICAwMDAgMEBAQEBAQEBAQFBgUEBQYFBAQFBwUGBgYHBwcEBQcIBwcIBgcHBwECAgICAgIDAgIDBwUEBQcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH/8QBogAAAQUBAQEBAQEAAAAAAAAAAAEC
+AwQFBgcICQoLAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV
+1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+hEAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn
+6Onq8vP09fb3+Pn6/8AAEQgAIwIJAwEhAAIRAQMRAf/aAAwDAQACEQMRAD8A/v2d0jRpJGCxqCWYnAAHUk1xvgrx94c+IfgLw78SPB08l74Z1XTo9UsGSMrJPFIm9V2Pgq/O0q2MNkHGKAPK/wBnP9oSw/aK0f4k61p/gzUtCTw54uvPCU1nq7RC7ae0htpJmljiLLCwknaPyw8n+qzu+bav0RQAUUAZus6zpHh3SNU1/X9Ut7HQrG3ku7y8u5ki
+gtII1LySSSOQqIqgsWJAABJrSoAzZNZ0iHWLPw9NqluuvXNtNeW9k0yCee3haFJpUjzuZEa4gVmAwpmjBILDPz78HP2kdP8AjH8Vvjv8L7LwLq2jz+BW0qG6n1lFgmv5L5btwUtxkxw+XbxSJIzZkWcHYgUFgD6UooAq3t0LKyu70wSyiGJpfKgTfJJtBO1FH3mOMAdyRXzJ4N/a6+GnxA0T4m634Q8O+K7xPCEjW2u2w8M3kdxbXaPtmtFjkVfM
+uIuWkiUkovJ6jIB2/wAE/j94J+P+j3PiT4e6brh8KqqNbapqei3VjbaiGLA/ZmnVTMFK4ZlG0EgAnnHt1ABRQAUUAFZthrOkapc6xZ6bqlvcXen3Is7+KGZHayuDFFOIpQpJjcxTwybWwdkqNjDAkA0qxPEeu2/hnQ9T1+6sb25t7WIyvb6bZTXlzKB2ighVpJW/2VUmgDwf4P8A7Vnwo+O+meL9Z+GSa9f6XoYmW/mbw5qMKieJVd7aPzIh5tyF
+ZT5CZf5l+XkZj+Hf7WPwp+KNh4x1XwjYeKZtM0EzR6nMfBmt/up4XWOW3RFtmea4RmG63jVpAAxK4BNAHf8Awd+OPwu+PvhnUPGHwm8TnVfD9pqEulXMzWN5aNBdxJHJJE0V1FHICFljP3cfMOetZkv7RHwii+MbfACPxLcT/FpLaO8n0q00bU7kWkDqrLLPcQwNb26EMnzSSKB5iA4LrkA85vf2sbGz+Pyfs4f8KQ8cS+PXtDqsc8UWhGxfSvtB
+tv7R846kGW33qflZFm6L5W8hK+saAPkj4t/tdaP8H/it4R+D+rfBfxxqfiTxCZR4dudHttGktNcMMSS3AhefUInUxCQK6ypGcjKhlKszvht+2H4H8ffEbx/8Lde8B+KvBvirw1oreIdV/wCEys7Cyt47BXVHnWeG7mQxjduMmQm0MQx2mgD1/wCJvxi8KfDD4Ua58ZLuG91fwfZad/aobw/am/e6tdnmiWIxnZ5Xl/vDMzrGqfMXA5rd+GHji3+J
+vw0+HnxJtLB7S08Q6FYa5FayOHe2S7t47hY2YABiokCkgDOKAO5r53/aR/aN0L9mLwUnxF8X+AfEmreDI3EeoX3h+DT5l0ktJFFD9oW5uoHxK8oRWjWQAqQ5TKbgDzCT9tzw9pXjf4V+B/GnwI+Inh6fxlfwabomparpmkmwlnmIEavPa6hNsJyDtwXx823HNfa9ABRQAUUAFFAGbpOs6Rr1o9/omqW95ZLcXFo01tMkqLPbyvBPGWUkb45Y5InX
+qrxspwQRXFfFj4maP8JPA+p+M9XtZrqRJIbPT9NtdpudXv7mRYLS0gBIBkmmkSMZ4G4sxCqSACT4b6L4403R7nUPiP4iS+8X6hN9rube0G2w0gEAJZ2g2hnjjHBmkzJK5dyEUpFHp2vjvwxeePdZ+GkGoZ8YWGk2mt3NqVI22l1LcwROG6E77SUMvVcoT98UAeX/ALR37Q2hfsy+ApPiZ4v8EeINV8GwSpFqF1oMVhKdM8ySOKJpkubqBiskkqoD
+GJMH723Izy2hftZ+ErjxV4D8I+Pvh54r8F6h4qSL/hG7jxPZ2C2uszSKGS2Sexu7mOG4IIxBOYnJIULu4oAtaF+118JPEfxeuPgTp1r4kHxOgHmXGnT+FtTh+ywbkX7TK8kQVLcmSPExIQ71wTuGdSP9qL4aS/GGf4Exad4lb4ixMrS26+FtUMMcDSGJbpp/J8oWpcEC4LeWcfeoA5n4c/tY2PxI+MXi/wCCFl8EPHGneLvDptz4hn1KLQhZ6Ktz
+EZrZpZYNSlMglTBQQrKTnOAAxH1jQB8x/ET9qfwj4D1D4gWOm+BvE/iaLwjbJdeLLrw3ZWcsHh5Hj84LM1zcwGaQRfvnithPIiEM6rkZ958HeK9D8eeEfC3jjwzdNP4b1nTrbVtPmaN4zNbXMSzRMUcBkJR1O1gCM4IzQA7xZ4hHhPw1rXiQ6JqOpfYrdp/sGk2v2i8uyvSOCLI3uegGQPUgc15b+zZ8cLD9o/4M+FPjNpWgTaXpesTagttZXE6y
+yxxW19c2iM7KAoZ1txIUGQhcoGfbuIB7nRQAUUAFRzRCaGWFmZQ6lSyMVYZGMgjkH3FAHz/4B8b+IvDHxAl+BXxM1X7dr7afJq/hjX3SOJvEmnRSLHOkyIFRb21MsAm8tVSVJopkVMyRxfQlAHgv7TWtanpnwW8X6T4fufJ8VeIPs/hLSJVxuhvdWnj0+KYA9fJNz559FhYngGvmH/gmjql/ovwb8d/ATXrnzPEXw08Z6v4VkJzumtxcPPFNz/Az
+SzKnbbGMcYoA8J/Z6179qDTov23x+zz4O8KXr2Pxx8WahK3ia7vQ+rSFoQ1jaRW4RI5QsSMJ5ZtmZkUoBlx9XeHP24/Aur/skH9qO+0G5hlhU6fc+HI2L3X9tiUWy2CHbkl5mTa5TIjkDsowygA1NZ+NXxi+C+vfCWf4/wBr4Zk8E+MNWg8Ovc+Hre8gfwjqtyjvaw3Ek88y6hBIyNCbtY7MIwVjHh8LP8F/jF8W/Gvxv/a0+Cni+58OG48Df2EN
+D1TTdHvYFm/tWzuLtTdwS3spl8sLCpWOSLdtk5XcNoB+d/7UPxk+Pfxj/YZ/apuvE2uaBp114J+J9x4J1z+wdOvLdNe0+0udPt1WPz7iZ4S9zdiV/mIaOIR45bd+0PgG3+Ilt4eii+KGraLe+K/NcvPoGnXNlaeXxsAiuLi4k3DnLeZg8YAoA/N7VbP49f8AD0TVrbQPHWgfZpPhQL6wt9V0m7uINO0ZtWt4ZrdEhuYSbt54DL9oZmXa4UxkKoV3
+gTWfilB+3X/wUC8OfCXRNLfxLe2/gu4/tXX3m/szS1g0jaBLFbkT3EshnGyNWjXbFMzSqVVJAD6d/Zs+PfjT4g6h8afh18aND0nSvit8P9Uhs9bl0eaX+zL21uYTcWt5D9oJkhR41clHZiAoYsNxVfJj+114/f4d6X+1FHomjJ+zFdeJIdIW0ltrtdbGlS339mrrBnM3kgG4KOLH7MW8lg3n7vloA/Q+vxO/Z/8AH3hPxL8Q/wBpH9kq48WLY694
+z+Ovji/1WKORkuJtEt1tmmtoWH3JLsxyQ7hyIIrxlKusZoA/XvxV4k8IfCL4ea54p1fytP8AA/hzSZLuVII1VLW0toidkUa4HCoFRB1O1R1FfJfh79o74s6bc/s9+Mvih4e0O0+GPxO1CPS9KsrGG6XU/DFzeW8l3pcd3O8zR3pnjiZJNkFt5EhA/eDJoAi+DXxn/aD1v9qj4sfs/wDxY1XwamneGtLs9YsZNH8PalbXPiWyulIE8Rn1KZbYQytH
+HIpSbLEqGHDnxz4wftW/tTfBXwJ8ePiXqGg+EPEngXwvr8Hhi1v9K0m801o5XFmJr6dLjUpzLHDcXJsRbxAs8qvI0sSRFXAPTPjV+0F+1B8DtJ8P/Gnxb8P/AAovwMbU7C117RIZr2XxDodrdyrAs73QcWckiPJEHhSNlDvsWV1/e19F/tA/Gxfg14f8KxaRo6ap8RPE+uWvhnwvpUszxRXd/ctgPPIiO0VvEgeWWQKcKmBywoA4GD4x/E34ffF3
+wV8GPjLN4eubzxjp99N4T8RaLp95Y2p1GzRZJtPurSe5uWB2OJY5xcKJcNGI1YZPzL/wTtT402F3+1BP478e6Df+GrD4seJLXxBdTabcx397qcENnHJcxT/aRBb2m1I9sBgYoFIDhcAAHoh/a68fv8O9L/aij0TRk/ZiuvEkOkLaS212utjSpb7+zV1gzmbyQDcFHFj9mLeSwbz93y1+h9AH5GfES88bfse/tVeM4PhrpBm8L/HG3C+H4SoNpo/j
+cSJCZpgeEgdbg3UvO6U7lAxEMfpj8KfhtoHwh+HnhX4c+Gt7aXpdqITcTYM19OxLz3MxHDTTStJNI3d5GPegD80v+CfU6eAvjR8W/hwsckOjeMvCuh/FLQ7eQEFUmDWl/IQc58y4MbDHAAA5GKT9miCa7/4KF/Er4g3kxaXxv8Mn8V2TNJuNxpra19k051XPyj7Da2WQOATkEhgSAe5f85TP+6Af+7FX39QB+Yn7aXibw34N/a9/4J4+JfF/iCx0
+rw5aX/i17rUNSu4ra2tlNnYKDJLKyogLMqgkjkgd62/GnxS+Avxd+GH7R/7Rtt4F1LxR4V0TR9Z+HF7LoN1Eza5ooitbu7uFMhjEUcckkpWVWcrGjzIGLhQAdlq8mjz/APBMvWbrw/pDWGhzfAye4tLFrlrg2cUmgs6RGVgDKVDBd5A3YzgZxVXwh8aP+FN/sa/shrpGlx6j8QPE3hzwl4X8MabNK0cVzqF1YW4V53UFkt4kV5ZXAPyptBBYGgD1
+34YfFnxy3xk8bfs//FoaRN430/QrLxTpeqaFZ3Fna6vplxLJbSFrWee4e3khuImjP7+QSKyOAnKjxz/gqN/yYp8cv+4L/wCnjT6ANzwz8WfgL+0T41+G/wAFfD+t2HiO98NaTYePn1PRtUinh0m/sbi1itYd8QdHd/Om8xQ4KKu0j97leyvvjF8RPiP8XviH8I/gVNoNmng23tT4j1/xDp95fwNqF2jSwafbW1vcWu4rEvmTXBnYRl0TymJJUA5G
+D9rvWJ/2dvjF8VbX4XvdfE7wBdanpXirwtb6pCkdhd6dua4lFzMEMlr5I+0I6Rs7qdqqzA4+cPBv7dP7TdzoXj/x5r37N0eo/DWw+Gtt450nU9OeayjuXVYxc+fc3LNCUYC7uUhiBmSKALtlZiVAOi8U/ti/tI+BPhB8H/2oPEvww8N/8M9X9ro8niS3juLtvEMcV8kSm/gjB+yQQmWQGO3aSd2R4dzxtI4h9O8W/tDftGfCn4p/BZvit4D8LwfB
+bx34htvCtlBplxfTa34f1G8DG0W9lbFrNuKkOsSAKRIFdxGHkAPX/iz8etR0D4ufDv8AZ1+G2nWt18XPEVpNq8txqKytYeHNIhLh725jiZJLgu8bQxQJJHvf70sYALcV8CPi98Yvj58KPj9pVxcaHo3xi8L+L9e8AwatY2dw+nNdWSxCO9W1mlkdQPPB8ppZATHkkhtoAPJ/+CWDfE68/ZS+HWq+Jtf0m68EXI1aTTYY7G7GqLOdXvjPJd3Ulw8U
++6TzWUJDGQGXczEEntfjPqj+Nf24/wBlP4SzoZNA0HS9Y+IN9AwBjnuViewsJDno0Mkk7qQerjI4oA+9q/Gzw94u8ReHP+Cing7416pqW74d/FFvEXw+0qM8paJockMETgjg/abu0eSM91uWI+U0AfSv/BUb/kxT45f9wX/08afXmf8AwUTKar+zR8EPBGiNu+KOs+LPDsHhGGM/vhqCj/WoAMgIjMrOCoXzVyw3AEA6v9uPQdS+E/i74P8A7bvg
+6zlfUvBN4mleMILZcvqfhi8k8ucFf+WjQPKzoDwpmaQ/6sY+if2a9Al1PRPEHx5160CeM/iHNBrsitsL6fpCxhNIscrx+6tSskgBINxc3TA4YYAPF/2eP+T6/wDgop/3IP8A6Z56+/qAPyv+FPxP039mL9pj47fs9fHW0+w+GviR4wv/ABt4N8S32Dp+sG/SCOfTpJG+SN4vLjiVW6n5Wx5kPmfV/jnxpon7J/wa+FPgTwzpk2teICdI8A+DdKnu
+Fjl1e88tLa38+ZUKwxrHEZZptm1VRiBkqpAMXwT8Rv2i9H/aGsfg/wDF3Q/Dt/4R1XwrceINM8QeGtO1C0S0ubaeCG4s51ubicSbftMRWUGLduQ7AWKr8O/sMeKf2nl/YT+HMvwH8J+FhBoX9tbx4qe9kl8SMNQvLlo7FLR0WBf3ohWaZ23SpIpiVFWRwD7YsP2x/B0v7IGkftaX+iTJp13piSx6LDMHmn1NpzZiyifaN+boGISbPugyFAAQLGgf
+GT4u+D/i34I+E/xt0rQbnU/Fvh+/1jw/J4ahuLfyL7TxFJd6ZL9quJVnKxTRul5ut1cq4MKcGgDwbwh+1D+1z8avCPxu1X4Q/BnwzpfiTwd4q1PQ7m08VajcXAdrGGHdYwCwOLm7L+azytJDCnmwIhmBeRILn9r79o3x3+zhZftWfBv4ZeF4fhpp+lyanrem+Iru+k1LU1tNw1L7AbULFDFC8U8aSz7mk8p3MUYVRIAe/fED9rHS9G8E/s+33gXw
++dS+IXxUWy/4Q/SbuRoYkS4hhuJbq8kVWZILaKeN5Qil2yFUDJZbH7P/AMaPiT4z+MP7S3wT+J1tokuteArrRPs+q6FaXNnDqNvqlpJdRh7e4nuGjkjEeCRKQ2/gDbkgHB/t86pJ4A8I/BP46WAZNT8FfEHSb2WWMLvfTrsyWF9b5PIWWO4CnAJyq8cE1950AfHvx+tvG3j/AOMXwQ+GPw58V2Oka5pKah48vb3UNIbU4IVt4xptpHJbLcW5cyPq
+NxIh80Yay3YO3FfNfwT07xv8DP8Agod8TfBXxF8V2GqzfE/wfa+JYb/TtIfS7efUNNdrcwpbPPcYcQC5mc+a2dwbA3YAB6v+wMwz+2ouRuHx+8Xkj0/48/8AA1+ch0a7079ju6+LEDsPhgP2mf8AhN3kSMGFtAW7FiGUfdEf2hVIx8uRjvQB+iH/AAU0s5tc/Zlt/DOjyL/wlWseLvD+m6FtQO7X0l7GY/LB6ttWQ8dQCOhq3+zywX9u3/goijEB
+2XwEyg9WA0eYEj1AJAoA/P34izwXX7Bv/BT+6tZkktpPj5qkkckbBlkU6xoRDKRwQQcgiv36iurWea5t4bmN54WCzIrgtESAwDAcqSpBAPYg0AfAc88Fr/wVFmurqZI7aP8AZ9MkkkjBVjUeIslmJ4AAGSTT/wBnV0k/bo/4KJSRsGjYeASrA5BB0abBBoA8ijs9a1H43/8ABYTT/DcbP4in8IeGobBFzlrlvDV6sQGOclyvTmuc+Av7OfhL4/fs
+E/CzSfH/AO0j4vh+D8ujRXOpaXZy+G7HT7JrOd3ljedtNNx5UM8TE+dcP80QYngYAP2Ar+f61+H/AIi1zwN+3L8WPh3An/C1/hx+0DrXjbQ5DHlpks5d13btj5mje3MjGIf6xokXvkAH29+2H8QIPjn/AME2fiH8TPhxmSx1vw7p+qrGr72t4FvLWS9icr/HEiXEb9g0bA8A10Whfs5+EviP4K/Zl8feOf2kfF+r+E9AvPD3inwzZ3Mvhuy02W+U
+QfYAwtdNikmDF1hRGmZz5xVW3OSQDjf2y/Etr+zl+0P+zb+1ndW8zeF2iv8A4f8Ain7PG0ks1rcxyXdgqqoJO24SaQ8HOAO9YX7bnhDU/A//AATF+I2h6+yN4reHSdS1yRMbZtVvddsry/dcdmup52HXAIFAHqX/AAVG/wCTFPjl/wBwX/08afVD9sGO40j9o/8AYA8b6jIV8HWvjPUdFumKAoL/AFG0SKwyTwDuilA+pI5FAEn7a9jca38Wv2Dt
+C0Vx/wAJMfihb6nGFQNIbCzhae+x3CeUBu+oPYV5J8EF1Cf4C/8ABTrTdElUeJL34p/Ee00uMvtae8exi8lExyzFhkBeeDjpQBh/AX9nPwl8fv2CfhZpPj/9pHxfD8H5dGiudS0uzl8N2On2TWc7vLG87aabjyoZ4mJ864f5ogxPAx+wFAH5fftLfDDxT+10/wAXtX8E6pdW5+GiGz8BSWcxT7b4vtpIby+uBjhvJEMGmxlgQksl8eCoI+w/2Xvj
+hpn7RXwM+H/xWsTGt/f2Yi1W2jBAstRi/d3UW08qolVimeSjI3RhQB+ZvxX1DxH4A8H/APBO747fD+3l/tjW/Akfw23RgB5brWNGibRt3IwsV4pmYcnCnHPX6W8PaHpPhD/gpX4c8LaRGIdHsP2dYdNsIiRxHBrwREHTJCIOB2GaANssB/wVMUEgE/AHA9/+KizX2PpHj/Qtc8feNfh3p7M+s6BZabeag4KlIzfG6MUXXIcJbeYQRjbNHgnJwAfC
+37WChv22P+CcIYAj+0vFp59rKxIr1r41fCvwp8LP2Wv20E8I2xgs9f8AD/inxJdWwVFigu7jSWjm8pVUYVmh80g5O6R+cYAAOI/5xZ/90A/912vkPx/p2p3nhr/gjdL/AMJXd6F4fbTbCxk1iyjtZJrPULjSNNWxCLdxTW5d2WZB5kTgbiQpxQB+i/gb9njwz4J+Pl58aNd+MXiXxJ8W9Q8LS+HoovEF1oyKmlR3VvO5gtbCytQoSbytzgFQbg7h
+ukBryT/gqN/yYp8cv+4L/wCnjT6APpPwf8KvCUfi3wl8Z7a1MPjL/hDovDU7xqipdWjPb3EfmfLuZo2iYJ82AJXGDxj5d/YqjuNC+M/7efg3XJD/AMJVH8SpNdZXQK39najD5tgfUr5SEA9OM9zQB4JbWNxPZf8ABZjxRYuD4TudOvNMt/LQCP7fZ6Dd/bsEdX3TxBvcZ719Ff8AOLP/ALoB/wC67QB4B+0t/wAob/Dn/YgeBP8A0fo1e/8A7fP/
+ADZZ/wBl/wDCH/t5QB6Z8V/HllbfHHwZ8IPhvpmnW3x58SaFNPfeJ5bK3kuPDnhy2lYmT513XLPcO6W9uxMSys8rqyoySeJf8E4hpWn+H/2rNOsNbe8sx8cvFMVnd3N0J5tQjSKx2ytIeZmZQHZ++S3egDa/4JeXVrH+w78BrSS5jW7lXXGiiZwHkC6xf7iq9SBuXJHTI9aPHOmDw/8A8FKvgZ4tvV22viP4a6x4bsn3D95c2Nz9vkXGe0U+78/Q
+4APrX41+Pz8LPhJ8RfiDHF5l7pWkXN1Zwd7q72FbaEDuZJjHGB6uK/J79qn4E/H/AODv7MHwt8baj8UtD1y3+EmqaH4istOsvCM1leSSW0kcDs98b+cSDMpmlPkLvKF/lxtIB9Of8FJdd0zxR/wT2+K3ibRbgTaNqNn4fv7SUdJYZtV02SNh9VYH8a96+E37MnwR8Gaj4T+KGieC2bx3Fo8Nra6hqGqajqDadC8Q3JaJdzyx2akMykQLH8rMvQkU
+AY37QtlH8Y/FHg79l6KST+wNWiPiHxy0ErRvF4ftpAIrXcpDI19dhIflIJgt730ryj9gjxdrXhfTvib+yN4+1FpvHnwv1Q6dYyzH95qPh6f97ptwM9cRtswowieQDy1AFz9nhh/w3Z/wUTXI3EeAiB6/8Seb/EV9j+DfH+heOb7x9ZaEzOvh7XH8P3cuVKS3UdtbXEoTBzhDc+U2cHfE4xjBIB89axonwp/bs+A/jPw74u0KNNLGs6zoYLSJLc6H
+f6deXFnFdxuAvlSlY47gJ02T+WxdGbd+dHhLxd40vPD3/BInx/8AE+/klsU1vWtEu76Zi4uJpgbLR5Hd8FjJDEHDt8zbi3JPIB+313rukWOraRoV1fIusX6zPaW/JeZYQrSsABwq7kBY4AMiLnLKD8L/APBLn/kxT4G/9xr/ANPGoUAfmrJDdt/wSf8A2QL7+1JLDw9Z/EmK51rUI0Rjp1l/bOsIZ9rhozsleBgHUqTjIPSv10X9m3QE+NPwh+M3
+j/48+LPEHjXw9/aFn4Ys9auPD9vaO95aTJcqlvYadamaQwB5CVO7EAJyseKAPNf2Bv8Am9P/ALL/AOL/AP2zrwD9mn/lDf4j/wCxA8d/+j9ZoA9f8J/EjQ/Af7Pv7A+kaP4W0rUvjx4k8I6PoXgufUbdG/shZNKs31C8aTAlW3iiSJ5YYmRpysUeVyHXL/ZCsovDv7YX/BQHTL3xlNrN4k/giG41W9li8y9vG067MwxGFSPExkRYUAWMKI1ACAUA
+df8A8FLNKHiv9nHTfhxApbV/FXjPw94e0+MEDzbia9RgucjHyRyHPt6ZI/QOgD5t0v8AZvj0v466t8fl+M3jKbxJe2w02fS7iXRn0wacszzxWSRf2eJY4Y3dirrKJjklpWLMWwfin+ybpPxV+L/gz42Xvxj8Z6T4v8NiUeHo9HfQ0ttIE0SxXARbjTpnmEoBLid5R87ABVwoAM3Tf2NfCeiXPxNl8O/E/wAX6TZeNNY1LWPFljpl9ZJBrcl7czzs
+paa2lntNsc/2YPZy2ztHGhZi43V9FR/DTwDF8PV+E6eErL/hW403+x/7GMINsbPZ5flFT1G3jJ5J5znmgDyvwr+zT4Y8P6x4K1LW/GviPxHp3hcH/hFtL8QXdpPaeHn8vyUli8m3iluZkiLRRz3clzIis21wzFjk+P8A9kvwB49+LVv8Zk8W+LNB8WSWUWm6unhjxBLpkHiO1iJMcV75S+a4UHaGjkibGBu4GADGsf2IfgNpvgf45fDyx0rUIvDP
+xAvJb3WreK/aOK1kaQyRfY7dALe28ltuwiIsRHGJGkCgV7P8HfhF4e+Cvg6PwhoGsavqbtN9pvdW1/UHvdR1Sfy44RLcTsBvZYoYYVCqqqkKKAAKAPO/i/8AspfDP41/EHwh8SfFOoa5a65pdjNpFxDpGqtaW+v6ZK/mSWGoKqlprZm3Fo1aPdvYMWGAIPh5+y/p/wAOPjN4++OGn/F7xhfeJPFLQHxBY6jJorWGprbQvBaK0cOnxyRiBGxGYpEb
+5QHLgsGAJvhX+zLp/wAK/ir8R/i/bfFnxbrPifxatqPEEWstoptr9rSMw2jbbXT4HiMMbMiiN0Ug/MrYGOW0P9iT4S+GvFOparoGveJ7TwDeasNdufAUOslfDM1+HWXzTZ+Xv2+aqSG383yCURTFsUKAD63v7ea8sby0t7+W1nlieNLqARGW2ZgQJEEqvGWUncA6MuQMqRkV8m/DH9kHS/hHp/xds/B/xv8AHC3njTUJNX1a+upNAmni1CWQPPdQ
+btM8tJJRujYMjoFYlVVwrqAaP7Pf7JHg39nTwbrXw18P+O/Euu/DO+jnjfw94nl0u7s4vP4n2CKzikCyDcGiLtEd7nZuYtVf4W/sb/Db4Taxotzofi3xbf8AhHR7qS98O+FdZ15rvRvDk7hwJLWBkDsyCSTyzPJN5ZdnXD/NQAz4+3HgL4q+OPhN+z7JqGnah4mXxLZeKdY0xJ4pbnSNN0wG9W4miBLRJNOLS0G4LvW8fbkBsd3+0Z+z7oH7THw9
+uPhf4v8AGWvaV4PuZo5b+DQpbGJtREUiSxJK9zbTkKkkaSAR7CSo3EjigDl/i9+y5Z/HL4Q2vwX+Ifxn8ZXPhoyB9SuoW0KG81sJMk8C3TppojAieNCvkxwltoMhkPNeneIPhB4d8b/DB/hX8SNSvvEelyQrHNqOpNbxX8sqP5kVwJLOKBIp42CMksUcZUordckgGP4N+BmkeG/GEHxB8S+M9d8V+OLaxfTNM1LxHJYs+j2shDSx2sVlbW0MbSlU
+8yYxtM4jRWkKjFcr4P8A2Uvhn4I+NHi343aNqGuHWtXvpdXfRp9VZtHstTmha3nv4LQKMXMkTyxtI7PhZXVQoOKAOV0P9iT4S+GvFOparoGveJ7TwDeasNdufAUOslfDM1+HWXzTZ+Xv2+aqSG383yCURTFsUKPpnxt4bvPF/hbWPDVh4v1XQbm7jWMatojWq31oNyljC1zDNEpZQULGNiA5KlWCsoB4x8FP2cLX4EfDrW/hl4R+L3jC70O4E7WF
+xq8+k3N1oU08k8001rILFQ7vLO0rfaVuF3KCFALBvNvhL+xFoPwS0n4iaL8Pfj18QrWw8TPNcagr3mhyeTeTGPzLy3B03EM5SPy9wGNrfd3LGyAHpvgb9mfwf4O+HHw9+F+p+J9c8ReH/Cmr2Wr+HZtfksXudLayCi1hR7a2gDxR4bbvVpAHK79oRVxbr9lfTbz9oSx/aSl+MXjL/hNra2/s2GxEui/2dHphmMzWAhOnl/JZiQX8zz+ciYMAwAMX
+X/2QLLXPjnN+0RB8evHlh8SPsEmkWslm/h1raw015HkFnFBPpcqNErSMQZfMkzhi7N81dr8C/wBmzw18CNc+KHijTvHPibxD4o8YXtvf61qPia9tbiaSSBZEjEf2e3gVECyFQm0hVVFUKqgUAcr8Xv2R9H+MfxW8E/F/V/jN430vxJ4ZkeXw5b6NcaNFaaK8iRpOY0n0+V5fO8pTIJnlDZK8JhB7D8TvhbH8VPhbrnwq1nxvrVnpuqae2l6nqWnD
+Tkvb62kjMVwjGW1kgTzlZg5jhQjcdmzigDzUfsw2A/Z7P7Nv/C3/ABefBJ0/+xPtu7RP7QGkfZ/sv9n+Z/Z/leT5XG/yvP7edjiq/wDwyN8OtS+Adj+zp441/XPEngewFsmjXerT2ceo6EtrGkdoLS4sbe32GAJ8kjq7kO6OzxtsoA7j4SfArRPhPPqerP4z8SeKPF93BFZS694t1Rb6+W0iLNHbRskcccUQZ2chI1MjHdIXIUjJ/aQ/Z10P9pvw
+N/wrfxf488RaT4LlkWTULLQJdPiGqlJIpYRO9zazviOSIOqxtGCTlw+F2gHpPw28E3Xw88Jab4SufHOteIUtFEUF/rxsWuxCqqiRs9pb26SBQv33RpCSSzt24/xv8DtF8WeMbX4jaD4s1nwv8Q1sDpM+s+HmsRNqFiX8wW9xHe21zBKqPlkcxeZGWbY6hmBAMLV/2a/Bt38FNZ+BPh7xFrWheFdVju4tavtNls5tR1sXiyLfNdXF9b3HmSXBldpJ
+gqyZxtdAMVB/wzbpY/Z1j/ZpT4m+KB4NGjnw6dS3aQdSfSjEbf7GXaxMATyD5IcQiUKAfM3fNQBw3i39jDwz41/Z70D9mbXfjB41f4aWENvaYjl0Nbu7tLUwtaW00v8AZ2DHA0EZQoqOcfvHcAAa/wAU/wBlC1+MNl8K7Xxh8dPHPm+ENRttb024tJNAikn1S2d2t764/wCJYUkmQOUAVVj2jJjLMzMAaHxK/ZM+H/xT+IXgH4p694p8T2fjvQtM
+bRZdR0PWf7Nl16wYlmt71rZEJjLvK5EBg5lbBA2hbfwm/ZP+EvwU+Ifjj4i+AoNRt7rW5ppxpLXp/srR5J/I+1NY2aqqQNMbaDe53tiJUUqg20AN+Bv7KXwz/Z91vxLrfgjUNcnW+lujZWWq6q1zaeHoLqZbi5t9Oh2qtvFLLHE753uxhj3Odtb/AMffhhrHj7Q/C3iTwS8MfxT8I6tH4j8NSXDlIrm4jR45rKdwCUguoJJrZ2GdvmLJgmMCgDgv
+H/gPwn+2b8PdP0O6+IPi3wzp1neo2uaFpUmn2l7b38EkM8dvqCXNtcOrQSRLJGI2WOQMsoMqGJ69H+JvwT/4Wx8Irz4P+J/if4kTTb23Nnq2rWiaNHqGsW7I6SRTE2LW8avvBJgghYGNdrKCwYA8V8RfsQeG/FXwC0j9mrW/jf48m+FloIoBB52gC4ntYDbPaWsk/wDZm4xW72wePG1yZGV3dFjWP6l+H3hC68B+E9J8KXXjLVte+xxiGLUNb+xf
+a2iUBURzaW8Eb7VAAYx7z1ZmOTQB4b8Mf2W4Phj8VfFPxeh+OfjvWvEWupDHrdtrl3o0tpqawJMlsrRwafE0Kw+e7RrA8QBOCCpZTz4/Y00FP2g7r9peD41eOoviLMBbTJFc6IllLp4kVxYPCNOy9vhET5mMuEVvM3gPQBR0T9i+Dw18R/iH8WtB/aR+I1t4+8VRQwa7fLJ4Yf7ZHCixwgRSaQ0cXloqqjRqrKBgHk167+z1+z74U/Zv8F6t4K8J
++Itc1aC/1i61291DxDeRXV7dXdyIxK8kscUQbPlg5K7iSxJJNAHntl+xz4K0bWPiZN4Y+I3jHSPBvjHU59X8SeF9O1O0j07ULi4z9pKSNbNe2fnZw/2a6hO0BQVVQB6r8TfgF8Kvi38LP+FNeL/C0R8BxwwQ2NtafuG0o26hbd7V05geIAKpXjblSCrMpAOJ8Afsw6R8PNN8Q/YPi3451Pxvf2A0qLxX4g1uHVNW0q0DB/JtDc2720KllVm/cMXZ
+UZyxRCtT4OfstWPwK+EmpfBr4f8Axm8Zw+F2z/Zlxcvoc134f3zSTz/Y3OnbP3zyPu89Jtucx+WxLEAPhp+yL8M/h38BtV/ZqvtT1bxL8IbmO4gXTvET2TtaxTyvPIkUtnb27j99I0yyMWkjfBR12qBa+FH7LXhf4T3EF9a/ETxhruo2Wny6VoE/ibWI7/8A4Re1kChksIzCsSHCRr5kqSvsjWPdsLKQCh8Lv2V7b4Q6d8V7Hwl8bvGvn+MNVudf
+1K7uToDzW2q3TI1zeWwXTFjjkkCKhVkeIDlY1YBhzfhf9ivwz4P/AGfNa/Zm0L4y+N4vhlepPbFTNoZure0uTO13axzf2bxFO1w7PuDOOiOillYAj1j9h34e694F+C/grU/iN4zN98PpgfCniG21Oys9X0y1EUUP2NZ7W0jQwmOGJSTH5pCD97XT+F/2Pvgr4B+L0nxw8PjVbTWRZwpcWLavKdNubmCGWBNRuony1zeCGedTcTSOcyySY8x2kIBX
+sNPP7Qfxf8G/ElUJ+C/gp7m48Oyup2eKNbmRrd7+IH71pawtLHBLjE0lzLKhMcUTyfWdABRQAUUAFFABRQAUUAFFABRQAUUAeW6J8Ffhf4d+KnjL426P4Shh+KfiC0gsNW1gzTvJdW8CRJHGEdzHEu2CEN5apv8AKQtuKg16lQAUUAFFABRQAUUAFFABRQAUUAFFABRQAUUAFFABRQAUUAFFAEawwpLJOsSiZwA7hRuYDOAT1OMnH1NSUAFFABRQ
+AUUAFFABRQAUUAFFABTJYo5o5IZo1eF1KsrAEMDwQQeoPpQA5VCgKoAUDAA7UtAH/9k=
+      </data>
+      <mime>image/jpeg</mime>
+      <width>521</width>
+      <height>35</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+570baa10-f9a6-4b4c-963a-86feaa5a5b07+9836f7e8d08c5218a9debb19f6eec639+https://www.evernote.com/shard/s160/res/f0afac0b-7398-42c7-9b6c-f3d9cd564ce6</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+R0lGODlhLAEHALMAAAAAAP////b29u/v797e3s7OzsfHx7+/v7e3t6SkpJ+fn////wAAAAAAAAAAAAAAACH5BAEAAAsALAAAAAAsAQcAAASaMEgpijk46827/2AojmRpnmiqruxqGMIkz3RgIISg73zv/8CgcEgsGo/IpHLJbDqfBIShRpVgqtisdsvter/gsHhMLpu/Uy4CMREMnvC4fE6v2+/4WICtHSj0A2+Bg4SFhoeIiYqLjI2Oj5CRkpOU
+lZaTbpkSCgNaCQWCboKXpKWmp6ipqqupmQMFCVkCnKy1tre4ubq7fnpUEQA7
+      </data>
+      <mime>image/gif</mime>
+      <width>300</width>
+      <height>7</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+570baa10-f9a6-4b4c-963a-86feaa5a5b07+a39b54e73e12d56aed3e7b995ef09341+https://www.evernote.com/shard/s160/res/878d8a11-9beb-448e-93a0-19fc02276125</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+R0lGODlhLAEQAMQAAAAAAP////f39+7u7ufn59/f39bW1s/Pz8fHx729vbe3t6+vr6enp56enpeXl46Ojn9/f3d3d29vb2dnZ1xcXP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABUALAAAAAAsARAAAAX/YAEVBDGcaKqubOu+cCzPdG3feK7vfFqKhYBwSDSMSr2kcslsOp9Q5g9iIFoDwJIpyu16v+Cwchq8Do0GknjN
+brvfvR/aPCxE0qQtfM/v+7sEBQVzdFgRB3h6f4uMjY4tgYMHEWV0BhEICAeCSI+en6BrWgYHmVSFhg0JCZqJWq+wsbKztLW2t7i5uru8vb6/wMG+gqSZCQ0SlWYFDxMKz6yapQfU1dbX2Nna29zd3t/g4eLj5OXm5+jfmpkICc8LEw/KVwPwEgwL+c/7/P3+/wADChxIsKDBgwgTKlzIsKFDh/kYMJAwYQEBVAIOQJhwT6LHjyBDihxJsqTJkyhT
+yKpcybKly5cwY8r8SBHCAQGoAhBYAIHCBAgzgwodSrSo0aNIZz6gQAGCxZwBBBRosNEn06tYs2rdyrWr169gw4odS7as2bNo06pVO8En0CpQoxrgGYHihLt48+rdy7ev37+AAwseTLiw4cOIEytenFhCBKcGcMaNSuAAAwcPMmvezLmz58+gQ4seTbq06dOoU6tezbo1awcLDlycTERApDS4B+k2kLv37t++gwMfLrw48ePGkyNHrrz5cufQn0uP
+Tn24dBKS44YAADs=
+      </data>
+      <mime>image/gif</mime>
+      <width>300</width>
+      <height>16</height>
+      <resource-attributes>
+        <file-name></file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+570baa10-f9a6-4b4c-963a-86feaa5a5b07+b31a52a1037b86d7fd5fc4c7cf31ebbc+https://www.evernote.com/shard/s160/res/d5457ec4-0f16-46ef-94b4-ca8a9f17774f</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+  <note>
+    <title>https://developer.apple.com/appleapplications/keynote-apxl.html</title>
+    <created>20130128T231529Z</created>
+    <updated>20130128T231614Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">As with any XML file, an APXL file consists of a series of <i>elements</i>, each of which may or may not include text inside it. For example, in the XML snippet below, the line marked &quot;&lt;! -- 2 -- &gt;&quot; is an image element. This element has two attributes, <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">image-data</code> and <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">transformation</code>, but no text contents.</p>
+<pre style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px; border: 1px solid rgb(199, 207, 213); background-color: rgb(241, 245, 249); margin: 20px 0px; padding: 8px; text-align: left; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">
+&lt;slide-list&gt;
+        &lt;slide master-slide-id=&quot;master-slide-1&quot;&gt;  &lt;!-- 1 --&gt;
+            &lt;drawables&gt;
+                &lt;title location=&quot;10 500&quot; size=&quot;780 90&quot; vertical-alignment
+                =&quot;tracks-master&quot; visibility=&quot;visible&quot;/&gt;
+                &lt;body vertical-alignment=&quot;tracks-master&quot; visibility=&quot;hidden&quot;/&gt;
+                &lt;image image-data=&quot;test.jpg&quot; transformation=&quot;1.0 0 0 1.0 245 77&quot;/
+              &gt;  &lt;!-- 2 --&gt;
+            &lt;/drawables&gt;
+            &lt;transition-style type=&quot;inherited&quot;/&gt;
+            &lt;bullets&gt;  &lt;!-- 3 --&gt;
+                &lt;bullet level=&quot;0&quot; marker-type=&quot;inherited&quot;&gt;  &lt;!-- 4 --&gt;
+                    &lt;content font-color=&quot;g1&quot; font-name=&quot;Helvetica&quot; font-size
+                    =&quot;48&quot; paragraph-alignment=&quot;center&quot;&gt;&lt;![CDATA[test.jpg]]
+                    &gt;&lt;/content&gt;  &lt;!-- 5 --&gt;
+                &lt;/bullet&gt;
+            &lt;/bullets&gt;
+        &lt;/slide&gt;
+    &lt;/slide-list&gt;
+</pre>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">The structure of an APXL file is too complicated to examine here, but Apple Technical Note TN2067 lists the XML Schema file that defines the syntax of an APXL file. In addition, Apple Technical Note TN2073 describes how to create the slide-list element (as shown in the listing above), which is the main task in creating an APXL file.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Once you understand how the elements in an APXL file combine to create a Keynote presentation with the desired appearance and behavior, the process of creating a <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">presentation.apxl</code>file is simply that of printing a series of text strings to a file — something that you can do in virtually any programming language, although the process is much easier when you use an appropriate XML library.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">The XML snippet shown above is a very small section of the <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">presentation.apxl</code>file created by a Java sample program named PictureShow. This program uses the Xerxes library from the Apache Project to simplify the process of creating, element-by-element, the desired XML file (in this case, the file named <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">presentation.apxl</code>).</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">The Java snippet below, taken from PictureShow.java but simplified somewhat for clarity and brevity, shows one way that a computer program can generate an APXL file. Note the tags, labeled 1 through 5, in both the XML and Java snippets, that help you keep track of which lines of Java code produces which lines of XML content.</p>
+<pre style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px; border: 1px solid rgb(199, 207, 213); background-color: rgb(241, 245, 249); margin: 20px 0px; padding: 8px; text-align: left; color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;">
+private void createImageSlide(ImageInfo sourceImage) {
+        Element slide = createBlankSlide();  //1
+        
+        // createBlankSlide creates the drawables group for us.
+        Element drawables = getFirstChildElementNamed(slide, &quot;drawables&quot;);
+        
+        Element image = document.createElement(&quot;image&quot;);
+        
+        String name = sourceImage.getFile().getName();
+        image.setAttribute(&quot;image-data&quot;, name);
+        
+        drawables.appendChild(image);  //2
+        
+        //
+        // Code for positioning the slide's title goes here;
+        // omitted to preserve clarity.
+        //
+        
+
+        // Add a bullet point of level zero (the title) with the name of the
+        // image file in it.
+        //
+        Element bulletGroup = document.createElement(&quot;bullets&quot;);
+        slide.appendChild(bulletGroup);  //3
+        
+        Element titleBullet = document.createElement(&quot;bullet&quot;);
+        titleBullet.setAttribute(&quot;level&quot;, &quot;0&quot;);
+        titleBullet.setAttribute(&quot;marker-type&quot;, &quot;inherited&quot;);
+        bulletGroup.appendChild(titleBullet);  //4
+
+        Element titleContent = document.createElement(&quot;content&quot;);
+        
+        //
+        // Code for setting the title's text attributes goes here;
+        // omitted to preserve clarity.
+        //
+        titleContent.appendChild(
+                document.createCDATASection(sourceImage.getFile().getName()));
+        titleBullet.appendChild(titleContent);  //5
+    }
+</pre>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">This code creates a blank slide (1), inserts an image element representing the file <code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">test.jpg</code> into the drawables subelement of the slide (2), creates an empty bullets element that will contain all of the bulleted content in the slide (3), creates a bullet element and adds it to the bullets element (4), and finally adds as content to the bullet element the name of the file being displayed in the current slide (<code style="font-family: monaco, 'Courier New', courier, monospace; font-size: 10px;">test.jpg</code>). This snippet of XML code, when displayed as a Keynote presentation slide, instructs the Keynote application to display the slide showing the test.jpg image and, below it, the string &quot;test.jpg&quot;.</p>
+<h2 style="margin: 20px 0px 5px; padding: 0px; font-size: 16px; color: rgb(0, 0, 0); font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Keynote Advantages</h2>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Keynote is a powerful application with many features that its customers enjoy. In the context of this article, however, the following capabilities are of particular interest:</p>
+<ul style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; list-style: square outside; margin: 0px 0px 0px 30px; padding: 0px 0px 1em; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">importing and exporting PowerPoint presentations</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">importing content from QuickTime, PDF, Flash, and Adobe Photoshop and Illustrator, as well as content from any file format handled by QuickTime</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">exporting presentations as PDF documents or QuickTime movies, both of which are viewable on virtually any computer and over the Internet</li>
+</ul>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Why are these capabilities of interest to you as a developer? The answer is this: Because Keynote uses an open, easily accessible file format, you can tap into the world of Keynote from within your own programs. By making Keynote part of software solutions that you create, you can offer your customers new, powerful solutions that would otherwise be impossible. This is especially true if you provide custom software solutions for vertical markets. If you develop commercial software, you may be able to find ways to use Keynote to enhance existing products or create new ones. For example, the Omni Group has enhanced its OmniOutliner outlining application by enabling it to import and export Keynote presentations, a move that makes its product more attractive to Macintosh users who also own Keynote.</p>
+<h2 style="margin: 20px 0px 5px; padding: 0px; font-size: 16px; color: rgb(0, 0, 0); font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Making Keynote Work for You</h2>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Before you decide what developer opportunities exist for you, it is instructive to consider the most effective uses of a Keynote presentation. Once you know that, you can better gauge the usefulness of any proposed Keynote-related software you might create.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Consider what a presentation is and why it exists. It presents a series of slides, each containing such items as text (usually as a list of bulleted items), tables of information, and graphics. Because each slide can contain only a limited amount of information, you must choose the contents of each slide carefully. Some slides contain the entirety of a body of information that would be difficult to convey verbally, while others summarize the main points of a more detailed verbal presentation. A presentation exists to convey key information, usually simultaneously, to multiple people—that is, you usually don’t create a presentation unless you have information that you need to show to others. Finally, more often than not, the purpose of a presentation is to persuade more than it is to inform.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Given these observations (plus any others you may care to add), you should ask yourself, &quot;What kinds of data do my products handle, and can any of them benefit from being delivered as a presentation?&quot; In most cases, your products will not exclusively deliver its data as presentations, but for some data and for some situations, your product’s end user will greatly value your its ability to automatically deliver data as a presentation.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Here are some questions that may help you see how you can use Keynote to make your product more effective:</p>
+<ul style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; list-style: square outside; margin: 0px 0px 0px 30px; padding: 0px 0px 1em; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">What are the high-level data that the customer is working with? Could the customer benefit from having a presentation that uses such data?</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">Would the customer find it useful to view a subset of all the data based on given criteria?</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">Is the customer’s key data in multiple locations, and would it be useful to have such data automatically collected into a presentation?</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">Is the customer’s data used to persuade or to prove a point?</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">Does the customer have information that changes periodically and that must be communicated to others?</li>
+<li style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; margin-top: 3px;">Would customers find it useful to deliver data to others through e-mail or CDs?</li>
+</ul>
+<h2 style="margin: 20px 0px 5px; padding: 0px; font-size: 16px; color: rgb(0, 0, 0); font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Developer Opportunities</h2>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Now that you have Keynote’s strengths in mind, you can begin to look for opportunities that makes sense for you and your company. Depending on your situation, one or more of the sections immediately below may apply.</p>
+<h3 style="margin: 0px; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Vertical Solutions</h3>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">If your company creates custom software solutions to solve a particular customer’s problem, you may find several ways to use Keynote. You may use scripting language—the main contenders, Perl and Python, are conveniently shipped as part of Mac OS X—to gather data from several sources, or you may do all of your work within a &quot;traditional&quot; compiled programming language. In either case, your solution can package the appropriate data as a Keynote presentation. Because of Keynote’s extensive exporting options, you can deliver the required data to interested parties in one of several platform-independent formats.</p>
+<h3 style="margin: 0px; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Database Integration</h3>
+<p style="margin: 0px 0px 10px; padding: 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); letter-spacing: normal; orphans: 2; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">If your product stores key data in a database, you may find that you can use Keynote to display high-level, overview, or otherwise key data to its intended audience. When done properly, the data in a Keynote presentation is persuasive, professional, and easily accessible. The main factor in using Keynote to its best advantage is to use it only where it will display the right data to the right customer in the right format under the right circumstances.</p>
+<span style="font-family: 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif; font-size: 12px;">4D, Inc. shows the potential of Keynote in its 4D Keynote Builder sample program. This program is a custom solution, built entirely in the 4D database language, that helps a hypothetical real estate agent to sell houses. The agent fills out a form that asks for certain characteristics of the desired house (maximum price, number of bedrooms, etc.). This program then simulates querying a &quot;live&quot; database of available houses and builds a Keynote presentation based on the desired criteria. The presentation, personalized with the client’s name, displays a series of slides, each one showing a photograph of and information about a house that meets the client’s criteria. When you realize that the real estate agent can create such custom presentations within a minute or two of typing in a few key numbers, you begin to see how Keynote, when properly used, can deliver impressive results.</span>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
