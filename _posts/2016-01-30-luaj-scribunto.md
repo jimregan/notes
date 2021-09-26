@@ -72,9 +72,9 @@ function setTTL ($ttl) {
 }
 ```
 
-Scribunto
+## Scribunto
 
-Module: Bananas
+### Module: Bananas
 
 ```lua
 local p = {}
@@ -87,5 +87,5 @@ return p
 other page:
 
 ```
-{{#invoke:Bananas|hello}}
+{{\#invoke:Bananas\|hello}}
 ```
