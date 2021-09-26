@@ -13,8 +13,6 @@ categories: [evernote, web clip]
 
 [Deeplearning4j - Open-source, distributed deep learning for the JVM](https://web.archive.org/web/20140821100025/http://deeplearning4j.org/word2vec.html)
 
-[UniML | DistributedRepresentation](http://www.uniml.com/pmwiki/pmwiki.php?n=DistributedRepresentation.DistributedRepresentation)
-
 [Hac - A Java class library for hierarchical agglomerative clustering](http://sape.inf.usi.ch/hac)
 
 [Tangle: API Reference](http://worrydream.com/Tangle/reference.html)
