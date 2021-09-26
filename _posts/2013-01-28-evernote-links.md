@@ -24,5 +24,4 @@ AND p2s.store_id = '0' AND (p2c.category_id = '2101');
 
 [Keynote DTD](http://web.archive.org/web/20040203003742/http://developer.apple.com/technotes/tn2002/tn2067.html)
 
-[keynote-apxl.html](https://developer.apple.com/appleapplications/keynote-apxl.html)
-
+[keynote-apxl.html](http://web.archive.org/web/20140715191015/https://developer.apple.com/appleapplications/keynote-apxl.html)
