@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T095908Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>phash.cc</title>
+    <created>20141221T141738Z</created>
+    <updated>20141221T141751Z</updated>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+#include &lt;iostream&gt;
+<div>#include &lt;string&gt;</div>
+<div>#include &lt;pHash.h&gt;</div>
+<div><br/></div>
+<div>int main (int argc, char** argv)</div>
+<div>{</div>
+<div>     ulong64 hash = 0;</div>
+<div>     string name;</div>
+<div>     while(std::getline(std::cin, name))</div>
+<div>     {</div>
+<div>          ph_dct_imagehash(name.c_str(), hash);</div>
+<div>          std::cout &lt;&lt; &quot;&lt;http://&quot; &lt;&lt; name &lt;&lt; &quot;&gt; &quot;;</div>
+<div>          std::cout &lt;&lt; &quot;&lt;<a href="http://imgmeta.sourceforge.net/0.1/props#pHash">http://imgmeta.sourceforge.net/0.1/props#pHash</a>&gt;&quot;;</div>
+<div>          std::cout &lt;&lt; &quot; \&quot;&quot; &lt;&lt; hash &lt;&lt; &quot;\&quot; .&quot; &lt;&lt; endl;</div>
+<div>          hash = 0;</div>
+<div>     }</div>
+<div>     return 0;</div>
+<div>}</div>
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
