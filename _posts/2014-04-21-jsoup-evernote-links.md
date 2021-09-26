@@ -3,8 +3,8 @@ toc: false
 layout: post
 hidden: true
 description: Old links
-title: Evernote web clips, 2014-04-21-jsoup
-categories: [evernote, web clip]
+title: jsoup Evernote web clips, 21/4/2014
+categories: [evernote, web clip, jsoup]
 ---
 
 [Use selector-syntax to find elements: jsoup Java HTML parser](http://jsoup.org/cookbook/extracting-data/selector-syntax)
