@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T144715Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>ImageTerrier command</title>
+    <created>20120612T102814Z</created>
+    <updated>20120612T102902Z</updated>
+    <tag>imageterrier</tag>
+    <note-attributes>
+    </note-attributes>
+    <content>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note style="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+/usr/bin/java -Xshare:off -Xmx6G -Djava.awt.headless=true -XX:-UseGCOverheadLimit -Dbundle.size=1000 -Dmemory.reserved=400000000 -cp /Users/jim/Downloads/ImageTerrierTools-3.0.1-jar-with-dependencies.jar org.imageterrier.basictools.BasicIndexer -o idx -qt RANDOM -p BYTE -k 100000 -t POSITION -pm SPATIAL_SCALE_ORI -nb 8,8,8,8 -mins 0.0,0.0,0.0,-3.14157 -maxs 1000.0,1000.0,150.0,3.14157 .
+</en-note>      ]]>
+    </content>
+  </note>
+</en-export>
