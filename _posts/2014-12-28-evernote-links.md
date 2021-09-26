@@ -17,3 +17,4 @@ categories: [evernote, web clip]
 
 [Nikita Zhiltsov / Никита Жильцов: My Visiting Project at Emory University: Entity Search over Linked Data](http://nzhiltsov.blogspot.com/2013/07/my-visiting-project-at-emory-university.html)
 
+[Chapter 10. Code case study: parsing a binary data format](http://book.realworldhaskell.org/read/code-case-study-parsing-a-binary-data-format.html)
