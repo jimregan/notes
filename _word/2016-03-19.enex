@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export4.dtd">
+<en-export export-date="20211026T011306Z" application="Evernote" version="10.22.3">
+  <note>
+    <title>Untitled note</title>
+    <created>20160319T074850Z</created>
+    <updated>20160319T074850Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://pages.jh.edu/~echodro1/tutorial/kaldi/kaldi-training9.html</source-url>
+    </note-attributes>
+    <content>
+    </content>
+  </note>
+  <note>
+    <title>Train your own image classifier with Inception in TensorFlow</title>
+    <created>20160317T001811Z</created>
+    <updated>20160317T001811Z</updated>
+    <note-attributes>
+      <source>web.clip</source>
+      <source-url>http://googleresearch.blogspot.com/2016/03/train-your-own-image-classifier-with.html</source-url>
+    </note-attributes>
+    <content>
+    </content>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+0673da2b03566afdf5945ecdbd1cb6bb+https://www.evernote.com/shard/s160/res/6aa70ca2-fd9b-4bba-855d-0a6470d11135</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+0cd05f8fe008df0f692817ad204f18d5+https://www.evernote.com/shard/s160/res/9827760a-5c28-489e-85e0-75fd534a6fe3</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+0f327ac3d4202d6ee8949766883925b3+https://www.evernote.com/shard/s160/res/68cd4ea7-145c-4b88-832a-917bd84f439d</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+1005053955a35fe45c8eb23d75c9b5af+https://www.evernote.com/shard/s160/res/69f3be1b-65c3-44ae-9dd1-ada56bd43d39</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>uFp_tsTJboUY7kue5XAsGA=s28.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+22e8b2212e0d40588f9fb7c56d33086e+https://www.evernote.com/shard/s160/res/a1c54234-86a0-4f97-9c6e-ffbb2d1c040a</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+23e6b8c4d091ef3ea2761987bea41609+https://www.evernote.com/shard/s160/res/36127f2a-1957-4ac7-84d1-75d7079eab57</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+32a1153b59be679328df6b01911d182f+https://www.evernote.com/shard/s160/res/ce1062e2-9769-451d-a3f7-c2082f3a6628</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+4087961c03bd1275ad2f4c9464588601+https://www.evernote.com/shard/s160/res/326d78e3-0419-4b7b-a20c-dbbbf9978ad0</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+47a1cc68f2a5daa4af50ecc00947cf37+https://www.evernote.com/shard/s160/res/f18e7c5a-bf45-48ff-8ea3-ee21f42bf21f</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+491ba869b826a245474fd03f389c3710+https://www.evernote.com/shard/s160/res/4f240b1f-c1c8-49f7-a17e-3a8b4f43fd1b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+4aaf4485411fb5f6ba3a6e447be65b72+https://www.evernote.com/shard/s160/res/144c5cfc-6f7c-45cb-9bf1-636e43491f01</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>post_twitter_black_24dp.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+4e2633eb72f2026ba8464540a445a45f+https://www.evernote.com/shard/s160/res/e7e1e7f0-00fa-4eef-8ef8-62c1179cfc7a</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+62914dac5e51746ae4cefdafbec95e8b+https://www.evernote.com/shard/s160/res/612b7400-9880-4d28-bd40-c7a7585197d9</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>1600</width>
+      <height>597</height>
+      <resource-attributes>
+        <file-name>image03.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+6425eacb973e330473265a3bad83f245+https://www.evernote.com/shard/s160/res/eb746eed-cf04-491b-8af9-04198bb1df0b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+783e73a9a18100830da01eb3d7602e82+https://www.evernote.com/shard/s160/res/6a6f679e-2297-44cf-bc32-1b6f51fe5464</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+7933ba53c36ec7ccc6c9ed3d63a34c15+https://www.evernote.com/shard/s160/res/ce0756f5-9e7b-4407-9c92-a1681279c9ef</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+810471b04e2516c5ddc94bc0e8fbd2da+https://www.evernote.com/shard/s160/res/d64de366-7809-4aec-a7dc-8f83d718541e</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+838bf502a40ca062777ff4938b2d0388+https://www.evernote.com/shard/s160/res/b2ba679e-5bb1-4a3f-9d55-56b06c842520</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+9b262deadf979fffd93f3cd892d19cb7+https://www.evernote.com/shard/s160/res/9ecda5a8-6fe7-43a3-a3d6-0403623f3912</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>331</width>
+      <height>400</height>
+      <resource-attributes>
+        <file-name>image02.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+a2b4a699418a2f6871374bddf1423540+https://www.evernote.com/shard/s160/res/471992af-188d-4ae7-bafa-12cbfff64fe0</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>post_facebook_black_24dp.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+a4a815e062b3a04ad2cb425115438650+https://www.evernote.com/shard/s160/res/456f5895-af7f-421d-a185-9516fe1ed604</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+a4f7e8a0c9af384737802ee690e0fd3b+https://www.evernote.com/shard/s160/res/4f0c399c-18ab-42c1-96c4-9886ed92ed03</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>640</width>
+      <height>200</height>
+      <resource-attributes>
+        <file-name>salamander.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+b0766555a96bcc3a4cd5b16eceef9d97+https://www.evernote.com/shard/s160/res/0253c2e8-2574-47cf-85ec-04d55f22a92c</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+b7dd25cb157f029b6c186276b29f9b80+https://www.evernote.com/shard/s160/res/cf365195-c7ed-4437-94f3-42ba0602d645</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>48</width>
+      <height>48</height>
+      <resource-attributes>
+        <file-name>ic_w_post_gplus_black_24dp.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+c620b1a7b369ad2749d0baf881d4ccbb+https://www.evernote.com/shard/s160/res/f8c2a738-36b6-4646-9083-d96af0e5bb0b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/png</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg.png</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+c701f9d91fe0ca380b1176e9818e2cbc+https://www.evernote.com/shard/s160/res/0674fb40-de43-4269-811e-d9e71c5b3902</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>28</width>
+      <height>28</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+cd99e626f4f73351e65c74fa834aef2a+https://www.evernote.com/shard/s160/res/5e601a97-7012-4e94-badb-ca6c1d40771b</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+d063cd65136c0e83af7884cafc704d0e+https://www.evernote.com/shard/s160/res/f776a317-2942-4f21-a08c-3154125a6287</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+da5386bed0ca99c453d62854932d30b5+https://www.evernote.com/shard/s160/res/b32256b1-2001-4e05-aca4-f94ad464eacc</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+ddf5a35e0cbc8a75b514c8e32569cb5e+https://www.evernote.com/shard/s160/res/8b696a09-a553-4dc7-95af-d25f2edefe0a</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+e37ee219135f321d774cad9ed887d0eb+https://www.evernote.com/shard/s160/res/0ccaa6db-856a-4587-a074-75ef98ee91e0</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+ead155e91574337617cebe34076c05ef+https://www.evernote.com/shard/s160/res/6e508ec7-9e9a-4a8d-a772-85fc91a1b909</source-url>
+      </resource-attributes>
+    </resource>
+    <resource>
+      <data encoding="base64">
+      </data>
+      <mime>image/jpeg</mime>
+      <width>46</width>
+      <height>46</height>
+      <resource-attributes>
+        <file-name>photo.jpg</file-name>
+        <source-url>en-cache://tokenKey%3D%22AuthToken%3AUser%3A17633267%22+d2ff859c-37e6-4c9d-8ba3-2adc396c084f+f3df869bf0d9e372104a38911a402a3f+https://www.evernote.com/shard/s160/res/d11fddbf-38bb-4763-ac7a-8712d060e103</source-url>
+      </resource-attributes>
+    </resource>
+  </note>
+</en-export>
