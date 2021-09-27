@@ -53,7 +53,8 @@ categories: [journal club]
 [Classification](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=open%20source%20cross%20platform%20CGP%20library) used [cgplibrary](http://www.cgplibrary.co.uk/files2/About-txt.html)
 
 
-
+> our exploratory analyses showed moderate accuracy rates for the speech-based classifiers in the pairwise contrasts
+[link](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=our%20exploratory%20analyses%20showed%20moderate%20accuracy%20rates%20for%20the%20speech-based%20classifiers%20in%20the%20pairwise%20contrasts)
 
 [Limitations](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=A%20number%20of%20limitations%20need%20to%20be%20highlighted.)
 
