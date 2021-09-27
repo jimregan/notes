@@ -7,7 +7,7 @@ title: Teanglann compound pronunciations
 categories: [irish, teanglann]
 ---
 
-| Word                                                                               | Compound           | Ulster               | Connacht             | Munster              | Ulster (Abair IPA)    | Connact (Abair IPA)  | Munster (Abair IPA)   | Speaker Ulster | Speaker Connacht | Speaker Munster |
+| Word                                                                               | Compound           | Ulster               | Connacht             | Munster              | Ulster (Abair IPA)    | Connacht (Abair IPA) | Munster (Abair IPA)   | Speaker Ulster | Speaker Connacht | Speaker Munster |
 | -----------------------------------------------------------------------------------| ------------------ | -------------------- | -------------------- | -------------------- | --------------------- | -------------------- | --------------------- | -------------- | ---------------- | --------------- |
 | [tuathghríosóir](https://www.teanglann.ie/en/fuaim/tuathghr%c3%ados%c3%b3ir)       | tuath+ghríosóir    | ˈtˠuahəˈɾʲiːsˠəɾʲ    | ˈtˠuˈʝiːsˠoːɾʲ       | ˈtˠuəʝɾʲiːˈsˠoːɾʲ    | ˈtˠuajɾʲisˠoɾʲ        | ˈtˠuəˈjɾʲiːsˠoːɾʲ    | ˈtˠuəjɾʲiːˈsˠoːɾʲ     |                |                  |                 |
 | [leathréal](https://www.teanglann.ie/en/fuaim/leathr%c3%a9al)                      | leath+réal         | ˈʟʲaɾ̥ˠeːʟˠ          |                      |                      | ˈʟʲaˈɾˠeːʟˠ           | ˈʟʲaˈɾˠeːʟˠ          | ˈlʲaˈɾˠeːlˠ           |                |                  |                 |
