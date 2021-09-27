@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Swedish youtube scrape 1 | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Swedish youtube scrape 1" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Partial scraping of one youtube channel" />
+<meta property="og:description" content="Partial scraping of one youtube channel" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/swedish/2021/09/21/scrape-swedish-youtube-take1.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/swedish/2021/09/21/scrape-swedish-youtube-take1.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/swedish/2021/09/21/scrape-swedish-youtube-take1.html","@type":"BlogPosting","headline":"Swedish youtube scrape 1","dateModified":"2021-09-21T00:00:00-05:00","datePublished":"2021-09-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/swedish/2021/09/21/scrape-swedish-youtube-take1.html"},"description":"Partial scraping of one youtube channel","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Swedish youtube scrape 1</h1><p class="page-description">Partial scraping of one youtube channel</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-21T00:00:00-05:00" itemprop="datePublished">
+        Sep 21, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      20 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#swedish">swedish</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-09-21-scrape-swedish-youtube-take1.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-09-21-scrape-swedish-youtube-take1.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-09-21-scrape-swedish-youtube-take1.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-09-21-scrape-swedish-youtube-take1.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Original on <a href="https://www.kaggle.com/jimregan/notebook0a4b3ece2c">Kaggle</a></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install youtube-dl
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>youtube-dl -o <span class="s1">&#39;%(id)s.%(ext)s&#39;</span> --match-filter <span class="s2">&quot;license=&#39;Creative Commons Attribution license (reuse allowed)&#39;&quot;</span> https://www.youtube.com/channel/UCagnPy0JPimGTqTzv1YQBpQ
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[youtube:tab] UCagnPy0JPimGTqTzv1YQBpQ: Downloading webpage
+[download] Downloading playlist: Riksantikvarieämbetet - Home
+[youtube:tab] playlist Riksantikvarieämbetet - Home: Downloading 2 videos
+[download] Downloading video 1 of 2
+[youtube:tab] heritageboard: Downloading webpage
+[download] Downloading playlist: Riksantikvarieämbetet - Videos
+[youtube:tab] Downloading page 1
+[youtube:tab] Downloading page 2
+[youtube:tab] Downloading page 3
+[youtube:tab] Downloading page 4
+[youtube:tab] Downloading page 5
+[youtube:tab] Downloading page 6
+[youtube:tab] Downloading page 7
+[youtube:tab] Downloading page 8
+[youtube:tab] Downloading page 9
+[youtube:tab] Downloading page 10
+[youtube:tab] Downloading page 11
+[youtube:tab] Downloading page 12
+[youtube:tab] Downloading page 13
+[youtube:tab] Downloading page 14
+[youtube:tab] Downloading page 15
+[youtube:tab] Downloading page 16
+[youtube:tab] playlist Riksantikvarieämbetet - Videos: Downloading 481 videos
+[download] Downloading video 1 of 481
+[youtube] uU4M5-ajGt4: Downloading webpage
+[youtube] uU4M5-ajGt4: Downloading MPD manifest
+[download] Omvärld och insikt - Museipanelen does not pass filter license=&#39;Creative Commons Attribution license (reuse allowed)&#39;, skipping ..
+[download] Downloading video 2 of 481
+[youtube] Kvz2xeTHN50: Downloading webpage
+[download] Destination: Kvz2xeTHN50.f137.mp4
+[download] 100% of 412.77MiB in 00:30
+[download] Destination: Kvz2xeTHN50.f140.m4a
+[download] 100% of 20.05MiB in 00:01
+[ffmpeg] Merging formats into &#34;Kvz2xeTHN50.mp4&#34;
+Deleting original file Kvz2xeTHN50.f137.mp4 (pass -k to keep)
+Deleting original file Kvz2xeTHN50.f140.m4a (pass -k to keep)
+[download] Downloading video 3 of 481
+[youtube] RafIRgJ-qPw: Downloading webpage
+[youtube] RafIRgJ-qPw: Downloading MPD manifest
+[download] Omvärld och insikt - Museipanelen does not pass filter license=&#39;Creative Commons Attribution license (reuse allowed)&#39;, skipping ..
+[download] Downloading video 4 of 481
+[youtube] lnw92d5msqQ: Downloading webpage
+[youtube] lnw92d5msqQ: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 342
+[download] Destination: lnw92d5msqQ.f247.webm
+[download] 100% of 178.10MiB in 02:07
+[download] Destination: lnw92d5msqQ.f140.m4a
+[download] 100% of 28.11MiB in 00:01
+[ffmpeg] Merging formats into &#34;lnw92d5msqQ.mkv&#34;
+Deleting original file lnw92d5msqQ.f247.webm (pass -k to keep)
+Deleting original file lnw92d5msqQ.f140.m4a (pass -k to keep)
+[download] Downloading video 5 of 481
+[youtube] iJol2hdgYdw: Downloading webpage
+[youtube] iJol2hdgYdw: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 140
+[download] Destination: iJol2hdgYdw.f248.webm
+[download] 100% of 82.07MiB in 00:50
+[download] Destination: iJol2hdgYdw.f140.m4a
+[download] 100% of 10.96MiB in 00:00
+[ffmpeg] Merging formats into &#34;iJol2hdgYdw.mkv&#34;
+Deleting original file iJol2hdgYdw.f248.webm (pass -k to keep)
+Deleting original file iJol2hdgYdw.f140.m4a (pass -k to keep)
+[download] Downloading video 6 of 481
+[youtube] BoJ1-urZ5b4: Downloading webpage
+[youtube] BoJ1-urZ5b4: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 267
+[download] Destination: BoJ1-urZ5b4.f248.webm
+[download] 100% of 130.54MiB in 01:36
+[download] Destination: BoJ1-urZ5b4.f140.m4a
+[download] 100% of 20.99MiB in 00:01
+[ffmpeg] Merging formats into &#34;BoJ1-urZ5b4.mkv&#34;
+Deleting original file BoJ1-urZ5b4.f248.webm (pass -k to keep)
+Deleting original file BoJ1-urZ5b4.f140.m4a (pass -k to keep)
+[download] Downloading video 7 of 481
+[youtube] qDVkZW7BTQs: Downloading webpage
+[youtube] qDVkZW7BTQs: Downloading MPD manifest
+[download] Dag 3 - 03: Nonesthic – en plattform för virtuella besök i kulturarvsbyggnader &amp; ”Pop In &amp; Play” does not pass filter license=&#39;Creative Commons Attribution license (reuse allowed)&#39;, skipping ..
+[download] Downloading video 8 of 481
+[youtube] kfz1WOs30LE: Downloading webpage
+[youtube] kfz1WOs30LE: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 217
+[download] Destination: kfz1WOs30LE.f248.webm
+[download] 100% of 36.33MiB in 01:17
+[download] Destination: kfz1WOs30LE.f140.m4a
+[download] 100% of 17.08MiB in 00:01
+[ffmpeg] Merging formats into &#34;kfz1WOs30LE.mkv&#34;
+Deleting original file kfz1WOs30LE.f248.webm (pass -k to keep)
+Deleting original file kfz1WOs30LE.f140.m4a (pass -k to keep)
+[download] Downloading video 9 of 481
+[youtube] MPHHH_bN7ic: Downloading webpage
+[youtube] MPHHH_bN7ic: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 288
+[download] Destination: MPHHH_bN7ic.f248.webm
+[download] 100% of 177.75MiB in 01:38
+[download] Destination: MPHHH_bN7ic.f140.m4a
+[download] 100% of 22.62MiB in 00:03
+[ffmpeg] Merging formats into &#34;MPHHH_bN7ic.mkv&#34;
+Deleting original file MPHHH_bN7ic.f248.webm (pass -k to keep)
+Deleting original file MPHHH_bN7ic.f140.m4a (pass -k to keep)
+[download] Downloading video 10 of 481
+[youtube] 1Wbzean_07g: Downloading webpage
+[youtube] 1Wbzean_07g: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 240
+[download] Destination: 1Wbzean_07g.f248.webm
+[download] 100% of 201.56MiB in 01:32
+[download] Destination: 1Wbzean_07g.f140.m4a
+[download] 100% of 18.83MiB in 00:01
+[ffmpeg] Merging formats into &#34;1Wbzean_07g.mkv&#34;
+Deleting original file 1Wbzean_07g.f248.webm (pass -k to keep)
+Deleting original file 1Wbzean_07g.f140.m4a (pass -k to keep)
+[download] Downloading video 11 of 481
+[youtube] CnfKrwDxGag: Downloading webpage
+[youtube] CnfKrwDxGag: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 211
+[download] Destination: CnfKrwDxGag.f248.webm
+[download] 100% of 128.89MiB in 01:14
+[download] Destination: CnfKrwDxGag.f140.m4a
+[download] 100% of 17.25MiB in 00:01
+[ffmpeg] Merging formats into &#34;CnfKrwDxGag.mkv&#34;
+Deleting original file CnfKrwDxGag.f248.webm (pass -k to keep)
+Deleting original file CnfKrwDxGag.f140.m4a (pass -k to keep)
+[download] Downloading video 12 of 481
+[youtube] j8_pzb0Zj0c: Downloading webpage
+[youtube] j8_pzb0Zj0c: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 217
+[download] Destination: j8_pzb0Zj0c.f248.webm
+[download] 100% of 69.01MiB in 01:19
+[download] Destination: j8_pzb0Zj0c.f140.m4a
+[download] 100% of 17.75MiB in 00:01
+[ffmpeg] Merging formats into &#34;j8_pzb0Zj0c.mkv&#34;
+Deleting original file j8_pzb0Zj0c.f248.webm (pass -k to keep)
+Deleting original file j8_pzb0Zj0c.f140.m4a (pass -k to keep)
+[download] Downloading video 13 of 481
+[youtube] 5pJdR7pXEKA: Downloading webpage
+[youtube] 5pJdR7pXEKA: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 227
+[download] Destination: 5pJdR7pXEKA.f248.webm
+[download] 100% of 129.12MiB in 01:25
+[download] Destination: 5pJdR7pXEKA.f140.m4a
+[download] 100% of 18.58MiB in 06:54
+[ffmpeg] Merging formats into &#34;5pJdR7pXEKA.mkv&#34;
+Deleting original file 5pJdR7pXEKA.f248.webm (pass -k to keep)
+Deleting original file 5pJdR7pXEKA.f140.m4a (pass -k to keep)
+[download] Downloading video 14 of 481
+[youtube] k4dQAQ4grow: Downloading webpage
+[youtube] k4dQAQ4grow: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 212
+[download] Destination: k4dQAQ4grow.f248.webm
+[download] 100% of 54.52MiB in 01:14
+[download] Destination: k4dQAQ4grow.f140.m4a
+[download] 100% of 17.36MiB in 00:02
+[ffmpeg] Merging formats into &#34;k4dQAQ4grow.mkv&#34;
+Deleting original file k4dQAQ4grow.f248.webm (pass -k to keep)
+Deleting original file k4dQAQ4grow.f140.m4a (pass -k to keep)
+[download] Downloading video 15 of 481
+[youtube] kHX0PvydWQQ: Downloading webpage
+[youtube] kHX0PvydWQQ: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 207
+[download] Destination: kHX0PvydWQQ.f248.webm
+[download] 100% of 120.15MiB in 01:15
+[download] Destination: kHX0PvydWQQ.f140.m4a
+[download] 100% of 16.96MiB in 00:01
+[ffmpeg] Merging formats into &#34;kHX0PvydWQQ.mkv&#34;
+Deleting original file kHX0PvydWQQ.f248.webm (pass -k to keep)
+Deleting original file kHX0PvydWQQ.f140.m4a (pass -k to keep)
+[download] Downloading video 16 of 481
+[youtube] 2dmtx_ytJBc: Downloading webpage
+[youtube] 2dmtx_ytJBc: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 235
+[download] Destination: 2dmtx_ytJBc.f248.webm
+[download] 100% of 169.85MiB in 01:28
+[download] Destination: 2dmtx_ytJBc.f140.m4a
+[download] 100% of 19.24MiB in 05:52
+[ffmpeg] Merging formats into &#34;2dmtx_ytJBc.mkv&#34;
+Deleting original file 2dmtx_ytJBc.f248.webm (pass -k to keep)
+Deleting original file 2dmtx_ytJBc.f140.m4a (pass -k to keep)
+[download] Downloading video 17 of 481
+[youtube] mdsyDk4oG2I: Downloading webpage
+[youtube] mdsyDk4oG2I: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 183
+[download] Destination: mdsyDk4oG2I.f248.webm
+[download] 100% of 68.80MiB in 01:04
+[download] Destination: mdsyDk4oG2I.f140.m4a
+[download] 100% of 14.34MiB in 00:01
+[ffmpeg] Merging formats into &#34;mdsyDk4oG2I.mkv&#34;
+Deleting original file mdsyDk4oG2I.f248.webm (pass -k to keep)
+Deleting original file mdsyDk4oG2I.f140.m4a (pass -k to keep)
+[download] Downloading video 18 of 481
+[youtube] 3ydSZ9Uk-3A: Downloading webpage
+[youtube] 3ydSZ9Uk-3A: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 280
+[download] Destination: 3ydSZ9Uk-3A.f248.webm
+[download] 100% of 41.92MiB in 01:37
+[download] Destination: 3ydSZ9Uk-3A.f140.m4a
+[download] 100% of 22.00MiB in 00:02
+[ffmpeg] Merging formats into &#34;3ydSZ9Uk-3A.mkv&#34;
+Deleting original file 3ydSZ9Uk-3A.f248.webm (pass -k to keep)
+Deleting original file 3ydSZ9Uk-3A.f140.m4a (pass -k to keep)
+[download] Downloading video 19 of 481
+[youtube] tiM2l9rYrVw: Downloading webpage
+[youtube] tiM2l9rYrVw: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 252
+[download] Destination: tiM2l9rYrVw.f248.webm
+[download] 100% of 95.93MiB in 01:34
+[download] Destination: tiM2l9rYrVw.f140.m4a
+[download] 100% of 19.82MiB in 00:01
+[ffmpeg] Merging formats into &#34;tiM2l9rYrVw.mkv&#34;
+Deleting original file tiM2l9rYrVw.f248.webm (pass -k to keep)
+Deleting original file tiM2l9rYrVw.f140.m4a (pass -k to keep)
+[download] Downloading video 20 of 481
+[youtube] FPdgF5zRPcc: Downloading webpage
+[youtube] FPdgF5zRPcc: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 248
+[download] Destination: FPdgF5zRPcc.f248.webm
+[download] 100% of 30.54MiB in 01:25
+[download] Destination: FPdgF5zRPcc.f140.m4a
+[download] 100% of 19.52MiB in 00:03
+[ffmpeg] Merging formats into &#34;FPdgF5zRPcc.mkv&#34;
+Deleting original file FPdgF5zRPcc.f248.webm (pass -k to keep)
+Deleting original file FPdgF5zRPcc.f140.m4a (pass -k to keep)
+[download] Downloading video 21 of 481
+[youtube] XhoTQzu4VAE: Downloading webpage
+[youtube] XhoTQzu4VAE: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 157
+[download] Destination: XhoTQzu4VAE.f248.webm
+[download] 100% of 100.06MiB in 00:58
+[download] Destination: XhoTQzu4VAE.f140.m4a
+[download] 100% of 12.28MiB in 00:01
+[ffmpeg] Merging formats into &#34;XhoTQzu4VAE.mkv&#34;
+Deleting original file XhoTQzu4VAE.f248.webm (pass -k to keep)
+Deleting original file XhoTQzu4VAE.f140.m4a (pass -k to keep)
+[download] Downloading video 22 of 481
+[youtube] -5DwojwgLe0: Downloading webpage
+[youtube] -5DwojwgLe0: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 310
+[download] Destination: -5DwojwgLe0.f248.webm
+[download] 100% of 52.16MiB in 01:47
+[download] Destination: -5DwojwgLe0.f140.m4a
+[download] 100% of 24.42MiB in 00:01
+[ffmpeg] Merging formats into &#34;-5DwojwgLe0.mkv&#34;
+Deleting original file -5DwojwgLe0.f248.webm (pass -k to keep)
+Deleting original file -5DwojwgLe0.f140.m4a (pass -k to keep)
+[download] Downloading video 23 of 481
+[youtube] Lfz3yDI2rdY: Downloading webpage
+[youtube] Lfz3yDI2rdY: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 15
+[download] Destination: Lfz3yDI2rdY.f248.webm
+[download] 100% of 10.16MiB in 00:05
+[download] Destination: Lfz3yDI2rdY.f140.m4a
+[download] 100% of 1.12MiB in 00:01
+[ffmpeg] Merging formats into &#34;Lfz3yDI2rdY.mkv&#34;
+Deleting original file Lfz3yDI2rdY.f248.webm (pass -k to keep)
+Deleting original file Lfz3yDI2rdY.f140.m4a (pass -k to keep)
+[download] Downloading video 24 of 481
+[youtube] vOu-MuP4mLA: Downloading webpage
+[youtube] vOu-MuP4mLA: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 39
+[download] Destination: vOu-MuP4mLA.f303.webm
+[download] 100% of 36.90MiB in 00:15
+[download] Destination: vOu-MuP4mLA.f140.m4a
+[download] 100% of 2.99MiB in 00:00
+[ffmpeg] Merging formats into &#34;vOu-MuP4mLA.mkv&#34;
+Deleting original file vOu-MuP4mLA.f303.webm (pass -k to keep)
+Deleting original file vOu-MuP4mLA.f140.m4a (pass -k to keep)
+[download] Downloading video 25 of 481
+[youtube] QtFRPmTRyWw: Downloading webpage
+[youtube] QtFRPmTRyWw: Downloading MPD manifest
+[download] Destination: QtFRPmTRyWw.f137.mp4
+[download] 100% of 148.39MiB in 00:05
+[download] Destination: QtFRPmTRyWw.f140.m4a
+[download] 100% of 7.13MiB in 00:00
+[ffmpeg] Merging formats into &#34;QtFRPmTRyWw.mp4&#34;
+Deleting original file QtFRPmTRyWw.f137.mp4 (pass -k to keep)
+Deleting original file QtFRPmTRyWw.f140.m4a (pass -k to keep)
+[download] Downloading video 26 of 481
+[youtube] Gci-BbB0i5g: Downloading webpage
+[youtube] Gci-BbB0i5g: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 206
+[download] Destination: Gci-BbB0i5g.f248.webm
+[download] 100% of 34.73MiB in 01:12
+[download] Destination: Gci-BbB0i5g.f140.m4a
+[download] 100% of 16.87MiB in 00:01
+[ffmpeg] Merging formats into &#34;Gci-BbB0i5g.mkv&#34;
+Deleting original file Gci-BbB0i5g.f248.webm (pass -k to keep)
+Deleting original file Gci-BbB0i5g.f140.m4a (pass -k to keep)
+[download] Downloading video 27 of 481
+[youtube] 8jSE5bzQVbk: Downloading webpage
+[youtube] 8jSE5bzQVbk: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 504
+[download] Destination: 8jSE5bzQVbk.f248.webm
+[download] 100% of 388.26MiB in 03:09
+[download] Destination: 8jSE5bzQVbk.f140.m4a
+[download] 100% of 41.41MiB in 00:03
+[ffmpeg] Merging formats into &#34;8jSE5bzQVbk.mkv&#34;
+Deleting original file 8jSE5bzQVbk.f248.webm (pass -k to keep)
+Deleting original file 8jSE5bzQVbk.f140.m4a (pass -k to keep)
+[download] Downloading video 28 of 481
+[youtube] hm7RZHfFKeA: Downloading webpage
+[youtube] hm7RZHfFKeA: Downloading MPD manifest
+[download] Omvärld och insikt - Museipanelen does not pass filter license=&#39;Creative Commons Attribution license (reuse allowed)&#39;, skipping ..
+[download] Downloading video 29 of 481
+[youtube] xMZu6MR5BrM: Downloading webpage
+[youtube] xMZu6MR5BrM: Downloading MPD manifest
+[dashsegments] Total fragments: 206
+[download] Destination: xMZu6MR5BrM.f137.mp4
+[download] 100% of 136.54MiB in 01:18
+[download] Destination: xMZu6MR5BrM.f140.m4a
+[download] 100% of 16.81MiB in 00:01
+[ffmpeg] Merging formats into &#34;xMZu6MR5BrM.mp4&#34;
+Deleting original file xMZu6MR5BrM.f137.mp4 (pass -k to keep)
+Deleting original file xMZu6MR5BrM.f140.m4a (pass -k to keep)
+[download] Downloading video 30 of 481
+[youtube] YeNcvCrF_V4: Downloading webpage
+[youtube] YeNcvCrF_V4: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 295
+[download] Destination: YeNcvCrF_V4.f244.webm
+[download] 100% of 12.36MiB in 01:38
+[download] Destination: YeNcvCrF_V4.f140.m4a
+[download] 100% of 23.24MiB in 00:04
+[ffmpeg] Merging formats into &#34;YeNcvCrF_V4.mkv&#34;
+Deleting original file YeNcvCrF_V4.f244.webm (pass -k to keep)
+Deleting original file YeNcvCrF_V4.f140.m4a (pass -k to keep)
+[download] Downloading video 31 of 481
+[youtube] HQiNjDVARxI: Downloading webpage
+[youtube] HQiNjDVARxI: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 273
+[download] Destination: HQiNjDVARxI.f248.webm
+[download] 100% of 65.31MiB in 01:36
+[download] Destination: HQiNjDVARxI.f140.m4a
+[download] 100% of 22.34MiB in 00:02
+[ffmpeg] Merging formats into &#34;HQiNjDVARxI.mkv&#34;
+Deleting original file HQiNjDVARxI.f248.webm (pass -k to keep)
+Deleting original file HQiNjDVARxI.f140.m4a (pass -k to keep)
+[download] Downloading video 32 of 481
+[youtube] A_pmPIyDfXw: Downloading webpage
+[youtube] A_pmPIyDfXw: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 403
+[download] Destination: A_pmPIyDfXw.f248.webm
+[download] 100% of 262.74MiB in 02:36
+[download] Destination: A_pmPIyDfXw.f140.m4a
+[download] 100% of 33.03MiB in 00:01
+[ffmpeg] Merging formats into &#34;A_pmPIyDfXw.mkv&#34;
+Deleting original file A_pmPIyDfXw.f248.webm (pass -k to keep)
+Deleting original file A_pmPIyDfXw.f140.m4a (pass -k to keep)
+[download] Downloading video 33 of 481
+[youtube] sQyC8woJwR8: Downloading webpage
+[youtube] sQyC8woJwR8: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 158
+[download] Destination: sQyC8woJwR8.f248.webm
+[download] 100% of 38.34MiB in 00:55
+[download] Destination: sQyC8woJwR8.f140.m4a
+[download] 100% of 12.88MiB in 04:21
+[ffmpeg] Merging formats into &#34;sQyC8woJwR8.mkv&#34;
+Deleting original file sQyC8woJwR8.f248.webm (pass -k to keep)
+Deleting original file sQyC8woJwR8.f140.m4a (pass -k to keep)
+[download] Downloading video 34 of 481
+[youtube] mwNFSiKza00: Downloading webpage
+[youtube] mwNFSiKza00: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 30
+[download] Destination: mwNFSiKza00.f248.webm
+[download] 100% of 15.28MiB in 00:11
+[download] Destination: mwNFSiKza00.f140.m4a
+[download] 100% of 2.38MiB in 00:00
+[ffmpeg] Merging formats into &#34;mwNFSiKza00.mkv&#34;
+Deleting original file mwNFSiKza00.f248.webm (pass -k to keep)
+Deleting original file mwNFSiKza00.f140.m4a (pass -k to keep)
+[download] Downloading video 35 of 481
+[youtube] GKpnihA9Am0: Downloading webpage
+[youtube] GKpnihA9Am0: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 283
+[download] Destination: GKpnihA9Am0.f248.webm
+[download] 100% of 70.30MiB in 01:39
+[download] Destination: GKpnihA9Am0.f140.m4a
+[download] 100% of 23.21MiB in 00:02
+[ffmpeg] Merging formats into &#34;GKpnihA9Am0.mkv&#34;
+Deleting original file GKpnihA9Am0.f248.webm (pass -k to keep)
+Deleting original file GKpnihA9Am0.f140.m4a (pass -k to keep)
+[download] Downloading video 36 of 481
+[youtube] ELz_eDr2Jxg: Downloading webpage
+[youtube] ELz_eDr2Jxg: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 180
+[download] Destination: ELz_eDr2Jxg.f248.webm
+[download] 100% of 34.08MiB in 01:03
+[download] Destination: ELz_eDr2Jxg.f140.m4a
+[download] 100% of 14.72MiB in 00:02
+[ffmpeg] Merging formats into &#34;ELz_eDr2Jxg.mkv&#34;
+Deleting original file ELz_eDr2Jxg.f248.webm (pass -k to keep)
+Deleting original file ELz_eDr2Jxg.f140.m4a (pass -k to keep)
+[download] Downloading video 37 of 481
+[youtube] eS3vz6en90Q: Downloading webpage
+[youtube] eS3vz6en90Q: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 252
+[download] Destination: eS3vz6en90Q.f248.webm
+[download] 100% of 41.49MiB in 01:29
+[download] Destination: eS3vz6en90Q.f140.m4a
+[download] 100% of 20.60MiB in 00:02
+[ffmpeg] Merging formats into &#34;eS3vz6en90Q.mkv&#34;
+Deleting original file eS3vz6en90Q.f248.webm (pass -k to keep)
+Deleting original file eS3vz6en90Q.f140.m4a (pass -k to keep)
+[download] Downloading video 38 of 481
+[youtube] Gpr7RETcS6A: Downloading webpage
+[youtube] Gpr7RETcS6A: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 229
+[download] Destination: Gpr7RETcS6A.f248.webm
+[download] 100% of 50.44MiB in 01:21
+[download] Destination: Gpr7RETcS6A.f140.m4a
+[download] 100% of 18.73MiB in 00:02
+[ffmpeg] Merging formats into &#34;Gpr7RETcS6A.mkv&#34;
+Deleting original file Gpr7RETcS6A.f248.webm (pass -k to keep)
+Deleting original file Gpr7RETcS6A.f140.m4a (pass -k to keep)
+[download] Downloading video 39 of 481
+[youtube] P0GRef2Nn0g: Downloading webpage
+[youtube] P0GRef2Nn0g: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 55
+[download] Destination: P0GRef2Nn0g.f136.mp4
+[download] 100% of 80.24MiB in 00:21
+[download] Destination: P0GRef2Nn0g.f251.webm
+[download] 100% of 4.52MiB in 00:00
+[ffmpeg] Merging formats into &#34;P0GRef2Nn0g.mkv&#34;
+Deleting original file P0GRef2Nn0g.f136.mp4 (pass -k to keep)
+Deleting original file P0GRef2Nn0g.f251.webm (pass -k to keep)
+[download] Downloading video 40 of 481
+[youtube] BJpmB6tpKKY: Downloading webpage
+[youtube] BJpmB6tpKKY: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 445
+[download] Destination: BJpmB6tpKKY.f137.mp4
+[download] 100% of 1.48GiB in 03:52
+[download] Destination: BJpmB6tpKKY.f251.webm
+[download] 100% of 39.22MiB in 00:03
+[ffmpeg] Merging formats into &#34;BJpmB6tpKKY.mkv&#34;
+Deleting original file BJpmB6tpKKY.f137.mp4 (pass -k to keep)
+Deleting original file BJpmB6tpKKY.f251.webm (pass -k to keep)
+[download] Downloading video 41 of 481
+[youtube] wIwi4JxORsQ: Downloading webpage
+[youtube] wIwi4JxORsQ: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 560
+[download] Destination: wIwi4JxORsQ.f247.webm
+[download] 100% of 103.88MiB in 03:58
+[download] Destination: wIwi4JxORsQ.f140.m4a
+[download] 100% of 46.02MiB in 00:07
+[ffmpeg] Merging formats into &#34;wIwi4JxORsQ.mkv&#34;
+Deleting original file wIwi4JxORsQ.f247.webm (pass -k to keep)
+Deleting original file wIwi4JxORsQ.f140.m4a (pass -k to keep)
+[download] Downloading video 42 of 481
+[youtube] 1M9i1bhqG4k: Downloading webpage
+[youtube] 1M9i1bhqG4k: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 425
+[download] Destination: 1M9i1bhqG4k.f248.webm
+[download] 100% of 322.71MiB in 02:43
+[download] Destination: 1M9i1bhqG4k.f140.m4a
+[download] 100% of 34.91MiB in 00:03
+[ffmpeg] Merging formats into &#34;1M9i1bhqG4k.mkv&#34;
+Deleting original file 1M9i1bhqG4k.f248.webm (pass -k to keep)
+Deleting original file 1M9i1bhqG4k.f140.m4a (pass -k to keep)
+[download] Downloading video 43 of 481
+[youtube] 4lSp2mN9c0c: Downloading webpage
+[youtube] 4lSp2mN9c0c: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 290
+[download] Destination: 4lSp2mN9c0c.f247.webm
+[download] 100% of 183.10MiB in 02:24
+[download] Destination: 4lSp2mN9c0c.f140.m4a
+[download] 100% of 23.76MiB in 00:02
+[ffmpeg] Merging formats into &#34;4lSp2mN9c0c.mkv&#34;
+Deleting original file 4lSp2mN9c0c.f247.webm (pass -k to keep)
+Deleting original file 4lSp2mN9c0c.f140.m4a (pass -k to keep)
+[download] Downloading video 44 of 481
+[youtube] S8JHEfd6UYo: Downloading webpage
+[youtube] S8JHEfd6UYo: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 260
+[download] Destination: S8JHEfd6UYo.f248.webm
+[download] 100% of 32.58MiB in 01:30
+[download] Destination: S8JHEfd6UYo.f140.m4a
+[download] 100% of 21.28MiB in 00:03
+[ffmpeg] Merging formats into &#34;S8JHEfd6UYo.mkv&#34;
+Deleting original file S8JHEfd6UYo.f248.webm (pass -k to keep)
+Deleting original file S8JHEfd6UYo.f140.m4a (pass -k to keep)
+[download] Downloading video 45 of 481
+[youtube] wJjAaArYzJs: Downloading webpage
+[youtube] wJjAaArYzJs: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 217
+[download] Destination: wJjAaArYzJs.f248.webm
+[download] 100% of 93.03MiB in 01:18
+[download] Destination: wJjAaArYzJs.f140.m4a
+[download] 100% of 17.75MiB in 00:02
+[ffmpeg] Merging formats into &#34;wJjAaArYzJs.mkv&#34;
+Deleting original file wJjAaArYzJs.f248.webm (pass -k to keep)
+Deleting original file wJjAaArYzJs.f140.m4a (pass -k to keep)
+[download] Downloading video 46 of 481
+[youtube] HjUJKVFLfGc: Downloading webpage
+[youtube] HjUJKVFLfGc: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 335
+[download] Destination: HjUJKVFLfGc.f248.webm
+[download] 100% of 62.32MiB in 01:56
+[download] Destination: HjUJKVFLfGc.f140.m4a
+[download] 100% of 27.44MiB in 00:01
+[ffmpeg] Merging formats into &#34;HjUJKVFLfGc.mkv&#34;
+Deleting original file HjUJKVFLfGc.f248.webm (pass -k to keep)
+Deleting original file HjUJKVFLfGc.f140.m4a (pass -k to keep)
+[download] Downloading video 47 of 481
+[youtube] 5-WvzW6Goq0: Downloading webpage
+[youtube] 5-WvzW6Goq0: Downloading MPD manifest
+[download] Museipanelen does not pass filter license=&#39;Creative Commons Attribution license (reuse allowed)&#39;, skipping ..
+[download] Downloading video 48 of 481
+[youtube] -O8QKVL4IWY: Downloading webpage
+[youtube] -O8QKVL4IWY: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 223
+[download] Destination: -O8QKVL4IWY.f248.webm
+[download] 100% of 41.78MiB in 01:21
+[download] Destination: -O8QKVL4IWY.f140.m4a
+[download] 100% of 18.24MiB in 00:02
+[ffmpeg] Merging formats into &#34;-O8QKVL4IWY.mkv&#34;
+Deleting original file -O8QKVL4IWY.f248.webm (pass -k to keep)
+Deleting original file -O8QKVL4IWY.f140.m4a (pass -k to keep)
+[download] Downloading video 49 of 481
+[youtube] _aPZ9kc7pSE: Downloading webpage
+[youtube] _aPZ9kc7pSE: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 313
+[download] Destination: _aPZ9kc7pSE.f247.webm
+[download]  58.1% of ~170.35MiB at 28.65MiB/s ETA 01:30[download] Got server HTTP error: HTTP Error 404: Not Found. Retrying fragment 183 (attempt 1 of 10)...
+[download]  83.4% of ~170.80MiB at 24.78MiB/s ETA 00:36[download] Got server HTTP error: HTTP Error 404: Not Found. Retrying fragment 262 (attempt 1 of 10)...
+[download] Got server HTTP error: HTTP Error 404: Not Found. Retrying fragment 262 (attempt 2 of 10)...
+[download] 100% of 169.40MiB in 03:39
+[download] Destination: _aPZ9kc7pSE.f140.m4a
+[download] 100% of 24.60MiB in 00:01
+[ffmpeg] Merging formats into &#34;_aPZ9kc7pSE.mkv&#34;
+Deleting original file _aPZ9kc7pSE.f247.webm (pass -k to keep)
+Deleting original file _aPZ9kc7pSE.f140.m4a (pass -k to keep)
+[download] Downloading video 50 of 481
+[youtube] c_wqdJMJbhc: Downloading webpage
+[youtube] c_wqdJMJbhc: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 203
+[download] Destination: c_wqdJMJbhc.f248.webm
+[download] 100% of 34.47MiB in 01:23
+[download] Destination: c_wqdJMJbhc.f140.m4a
+[download] 100% of 16.64MiB in 00:03
+[ffmpeg] Merging formats into &#34;c_wqdJMJbhc.mkv&#34;
+Deleting original file c_wqdJMJbhc.f248.webm (pass -k to keep)
+Deleting original file c_wqdJMJbhc.f140.m4a (pass -k to keep)
+[download] Downloading video 51 of 481
+[youtube] pigyLnE0DmA: Downloading webpage
+[youtube] pigyLnE0DmA: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 425
+[download] Destination: pigyLnE0DmA.f248.webm
+[download] 100% of 107.17MiB in 02:34
+[download] Destination: pigyLnE0DmA.f140.m4a
+[download] 100% of 34.87MiB in 08:25
+[ffmpeg] Merging formats into &#34;pigyLnE0DmA.mkv&#34;
+Deleting original file pigyLnE0DmA.f248.webm (pass -k to keep)
+Deleting original file pigyLnE0DmA.f140.m4a (pass -k to keep)
+[download] Downloading video 52 of 481
+[youtube] ngxK_PvUSIo: Downloading webpage
+[youtube] ngxK_PvUSIo: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 357
+[download] Destination: ngxK_PvUSIo.f248.webm
+[download] 100% of 70.31MiB in 02:05
+[download] Destination: ngxK_PvUSIo.f140.m4a
+[download] 100% of 29.26MiB in 00:01
+[ffmpeg] Merging formats into &#34;ngxK_PvUSIo.mkv&#34;
+Deleting original file ngxK_PvUSIo.f248.webm (pass -k to keep)
+Deleting original file ngxK_PvUSIo.f140.m4a (pass -k to keep)
+[download] Downloading video 53 of 481
+[youtube] c_0BcUmqM50: Downloading webpage
+[youtube] c_0BcUmqM50: Downloading MPD manifest
+<span class="ansi-yellow-fg">WARNING:</span> Requested formats are incompatible for merge and will be merged into mkv.
+[dashsegments] Total fragments: 11
+[download] Destination: c_0BcUmqM50.f248.webm
+[download] 100% of 5.73MiB in 00:04
+<span class="ansi-red-fg">ERROR:</span> unable to download video data: HTTP Error 403: Forbidden
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/kaggle/swedish/2021/09/21/scrape-swedish-youtube-take1.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
