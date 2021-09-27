@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-hidden: true
+hidden: false
 description: Compared with Abair's IPA
 title: Teanglann pronunciations
 categories: [irish, teanglann]
