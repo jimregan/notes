@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Modernised chapter 1 of Séadna
+title: Séadna, Caibidil a hAon
+categories: [irish, seadna]
+---
+
 SÉADNA.
 
 CAIBIDIL A hAON.
