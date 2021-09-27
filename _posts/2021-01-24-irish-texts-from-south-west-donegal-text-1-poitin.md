@@ -365,7 +365,7 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | Agus            | ɔgəs          | ˈagˠəsˠ       | L            |                              |                |                            |
 | nuair           | Nuər′         | ˈɴˠuːɾʲ       | L            |                              |                |                            |
 | a               | ə             | ə             | L            |                              |                |                            |
-| théigheadh      | ˈhe:wəd′      | ˈheːjuː       |              | théadh                       | ˈhjeːh         |                            |
+| théigheadh      | ˈhe:wəd′      | ˈheːjuː       |              | théadh                       | ˈhjeːh         | `<eadh>` → ədʲ / _ # PRONOUN |
 | sí              | ʃi:           | ˈʃiː          | L            |                              |                |                            |
 | a               |               | ə             | L            |                              |                | ə → ∅ / V # _              |
 | chur            | xo̤r          | ˈxuɾˠ         | L            |                              |                |                            |
