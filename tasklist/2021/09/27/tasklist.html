@@ -109,28 +109,37 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#personal">Personal</a></li>
-<li class="toc-entry toc-h2"><a href="#longer-term">Longer term</a></li>
-</ul><p>-[ ] separation script: <a href="https://github.com/deezer/spleeter">spleeter</a>: see <a href="https://github.com/Appen/UHV-OTS-Speech/blob/main/source_separation/run_spleeter.py">run_spleeter.py</a></p>
+    <h2 id="today">Today</h2>
 
-<p>-[ ] Extend <a href="/notes/irish/abair/2021/08/22/utterance_xml_to_json.html">abair xml</a> to return list of timestamps; segment long recordings:
+<ul class="task-list">
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />separation script: <a href="https://github.com/deezer/spleeter">spleeter</a>: see <a href="https://github.com/Appen/UHV-OTS-Speech/blob/main/source_separation/run_spleeter.py">run_spleeter.py</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Extend <a href="/notes/irish/abair/2021/08/22/utterance_xml_to_json.html">abair xml</a> to return list of timestamps; segment long recordings:
 <a href="/notes/irish/abair/mfa/2021/09/23/utterance-xml-to-mfa.html">notebook</a></p>
-
-<p>-[ ] Rebase w2v notebook on <a href="https://github.com/huggingface/transformers/blob/master/examples/research_projects/wav2vec2/run_common_voice.py">this</a> or <a href="https://github.com/maxidl/wav2vec2/blob/main/run_finetuning.py">this</a></p>
-
-<p>-[ ] Add LM and timings: see <a href="https://discuss.huggingface.co/t/language-model-for-wav2vec2-0-decoding/4434/14">here</a>,
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Rebase w2v notebook on <a href="https://github.com/huggingface/transformers/blob/master/examples/research_projects/wav2vec2/run_common_voice.py">this</a> or <a href="https://github.com/maxidl/wav2vec2/blob/main/run_finetuning.py">this</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Add LM and timings: see <a href="https://discuss.huggingface.co/t/language-model-for-wav2vec2-0-decoding/4434/14">here</a>,
 <a href="https://github.com/techiaith/docker-wav2vec2-xlsr-ft-cy">repo</a>,
 <a href="https://github.com/techiaith/docker-wav2vec2-xlsr-ft-cy/blob/main/inference/python/speech_to_text.py">file</a>,
 <a href="https://github.com/huggingface/transformers/issues/11307">this issue</a>,
 <a href="https://github.com/parlance/ctcdecode">parlance/ctcdecode</a>,
 <a href="https://github.com/farisalasmary/wav2vec2-kenlm/blob/master/wav2vec2_kenlm.py">wav2vec2_kenlm.py</a></p>
-
-<p>-[ ] Fingerprint for known audio: <a href="https://github.com/worldveil/dejavu">dejavu</a></p>
-
-<p>-[ ] Pass over input data, with <a href="https://github.com/jimregan/wav2vec2-sprint/blob/main/using_a_wav2vec2_model_with_dsalign.ipynb">this</a> or something similar</p>
-
-<p>-[ ] MFA, based on <a href="https://www.kaggle.com/jimregan/train-irish-mfa-model-fuaimeanna/">this</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Fingerprint for known audio: <a href="https://github.com/worldveil/dejavu">dejavu</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Pass over input data, with <a href="https://github.com/jimregan/wav2vec2-sprint/blob/main/using_a_wav2vec2_model_with_dsalign.ipynb">this</a> or something similar</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />MFA, based on <a href="https://www.kaggle.com/jimregan/train-irish-mfa-model-fuaimeanna/">this</a></p>
+  </li>
+</ul>
 
 <p>Look into:</p>
 <ul>
@@ -142,33 +151,43 @@ window.onload = wrap_img;
   <li><a href="https://github.com/speech-clarin-pl/SpeechToolsWorkers">SpeechToolsWorkers</a></li>
 </ul>
 
-<h2 id="personal">
-<a class="anchor" href="#personal" aria-hidden="true"><span class="octicon octicon-link"></span></a>Personal</h2>
+<h2 id="personal">Personal</h2>
 
-<p>-[ ] Run <a href="https://www.kaggle.com/jimregan/check-riksantikvarie-mbetet-youtube-for-licence/edit/run/75283544">this</a>
-See <a href="https://github.com/ytdl-org/youtube-dl/issues/13924">this</a>:</p>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Run <a href="https://www.kaggle.com/jimregan/check-riksantikvarie-mbetet-youtube-for-licence/edit/run/75283544">this</a>
+See <a href="https://github.com/ytdl-org/youtube-dl/issues/13924">this</a>:</li>
+</ul>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--match-filter "license='Creative Commons Attribution license (reuse allowed)'"
 </code></pre></div></div>
 
 <p><a href="https://github.com/jimregan/wav2vec2-sprint/blob/main/irish/living-audio.ipynb">Living audio</a></p>
 
-<h2 id="longer-term">
-<a class="anchor" href="#longer-term" aria-hidden="true"><span class="octicon octicon-link"></span></a>Longer term</h2>
+<h2 id="longer-term">Longer term</h2>
 
-<p>-[ ] <a href="/notes/irish/scraper/tg4/incomplete/2021/09/07/tg4-foghlaim-scraper.html">TG4 Foghlaim scraper</a>
+<ul class="task-list">
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="/notes/irish/scraper/tg4/incomplete/2021/09/07/tg4-foghlaim-scraper.html">TG4 Foghlaim scraper</a>
 <a href="https://www.tg4.ie/ga/brandai-eile/foghlaim/ceachtanna/">Lessons</a></p>
-
-<p>-[ ] Scrape more <a href="https://www.youtube.com/user/rosnarun96/playlists">Ros na Rún</a></p>
-
-<p>-[ ] Compare <a href="https://github.com/phonlab-tcd/abair-python/blob/main/languages/ga/normalisation/">this</a> with stuff from last year</p>
-
-<p>-[ ] Segmentation: <a href="https://github.com/kaldi-asr/kaldi/blob/master/egs/malach/s5/local/run_cleanup_segmentation.sh">run_cleanup_segmentation.sh</a>,
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Scrape more <a href="https://www.youtube.com/user/rosnarun96/playlists">Ros na Rún</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Compare <a href="https://github.com/phonlab-tcd/abair-python/blob/main/languages/ga/normalisation/">this</a> with stuff from last year</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Segmentation: <a href="https://github.com/kaldi-asr/kaldi/blob/master/egs/malach/s5/local/run_cleanup_segmentation.sh">run_cleanup_segmentation.sh</a>,
 <a href="https://github.com/kaldi-asr/kaldi/blob/master/egs/tedlium/s5_r2/local/run_segmentation_long_utts.sh">tedlium</a>,
 <a href="https://github.com/kaldi-asr/kaldi/blob/master/egs/ami/s5b/local/run_cleanup_segmentation.sh">AMI</a></p>
-
-<p>-[ ] <a href="https://alphacephei.com/vosk/lm">VOSK LM</a></p>
-
-<p>-[ ] <a href="https://8777-134-226-98-116.ngrok.io/notebooks/_drafts/Training_Example.ipynb">CUNY-CL</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="https://alphacephei.com/vosk/lm">VOSK LM</a></p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="https://8777-134-226-98-116.ngrok.io/notebooks/_drafts/Training_Example.ipynb">CUNY-CL</a></p>
+  </li>
+</ul>
 
 <p>Look at:</p>
 <ul>
@@ -180,9 +199,7 @@ See <a href="https://github.com/ytdl-org/youtube-dl/issues/13924">this</a>:</p>
   <li><a href="https://github.com/jina-ai/jina">jina-ai/jina</a></li>
   <li>Continue <a href="https://github.com/phonlab-tcd/caint-ros-muc-im2-scans/blob/main/dict.tsv">this</a> — p. 18</li>
   <li><a href="https://github.com/scrapinghub/portia">scrapinghub/portia</a></li>
-  <li>
-<a href="https://huggingface.co/KBLab/wav2vec2-large-voxrex">wav2vec2-large-voxrex</a>, <a href="https://github.com/Kungbib/swedish-bert-models">Kungbib/swedish-bert-models</a>
-</li>
+  <li><a href="https://huggingface.co/KBLab/wav2vec2-large-voxrex">wav2vec2-large-voxrex</a>, <a href="https://github.com/Kungbib/swedish-bert-models">Kungbib/swedish-bert-models</a></li>
 </ul>
 
   </div><a class="u-url" href="/notes/tasklist/2021/09/27/tasklist.html" hidden></a>
