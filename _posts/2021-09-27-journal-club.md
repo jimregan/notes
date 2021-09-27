@@ -34,7 +34,8 @@ categories: [journal club]
 
 > AD speech is characterized by slower speech rate (global speed of speech
 > including pauses), a higher number of silent pauses, longer pauses and
-> shorter interpausal units (or chunks of speech bounded by silent pauses [link](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=AD%20speech%20is%20characterized%20by%20slower%20speech%20rate%20(global%20speed%20of%20speech%20including%20pauses)%2C%20a%20higher%20number%20of%20silent%20pauses%2C%20longer%20pauses%20and%20shorter%20interpausal%20units%20(or%20chunks%20of%20speech%20bounded%20by%20silent%20pauses)
+> shorter interpausal units (or chunks of speech bounded by silent pauses
+[link](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=AD%20speech%20is%20characterized%20by%20slower%20speech%20rate%20\(global%20speed%20of%20speech%20including%20pauses\)%2C%20a%20higher%20number%20of%20silent%20pauses%2C%20longer%20pauses%20and%20shorter%20interpausal%20units%20\(or%20chunks%20of%20speech%20bounded%20by%20silent%20pauses\))
 
 - [Expectations](https://www.frontiersin.org/articles/10.3389/fnagi.2021.637404/full#:~:text=We%20expected%20shorter%20interpausal%20units%2C%20shorter%20turns%2C%20longer%20pauses%2C%20longer%20gaps%2C%20shorter%20transition%20overlaps%2C%20a%20higher%20number%20of%20pauses%20and%20gaps%20and%20slower%20speech%20rate%20to%20be%20associated%20with%20lower%20cognitive%20function%20and%20reduced%20regional%20brain%20volumes.)
 
