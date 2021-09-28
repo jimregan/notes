@@ -27,7 +27,7 @@ categories: [irish, ogrowney]
 | 21      | cos     |         | kŭs           | kɔsˠ          | ˈkˠosˠ          | ˈkˠosˠ          | ˈkˠosˠ          |
 | 21      | glas    |         | glos          | ɡlˠasˠ        | ˈgˠʟˠasˠ        | ˈgˠʟˠasˠ        | ˈgˠlˠasˠ        |
 | 21      | srón    |         | srōn          | sˠɾˠoːnˠ      | ˈsˠɾˠoːɴˠ       | ˈsˠɾˠoːɴˠ       | ˈsˠɾˠoːnˠ       |
-| 21      | glún    | glúin   | gloon         | \_ɡl̪ˠuːnʲ\_  | ˈgˠʟˠuːɴˠ       | ˈgˠʟˠuːɴˠ       | ˈgˠlˠuːnˠ       |
+| 21      | glún    | glúin   | gloon         | _ɡl̪ˠuːnʲ_    | ˈgˠʟˠuːɴˠ       | ˈgˠʟˠuːɴˠ       | ˈgˠlˠuːnˠ       |
 | 21      | tú      |         | thoo          | t̪ˠuː         | ˈtˠuː           | ˈtˠuː           | ˈtˠuː           |
 | 21      | úr      |         | oor           | uːɾˠ          | ˈuːɾˠ           | ˈuːɾˠ           | ˈuːɾˠ           |
 | 21      | Art     |         | orth          |               | ˈaɾˠtˠ          | ˈaɾˠtˠ          | ˈaɾˠtˠ          |
