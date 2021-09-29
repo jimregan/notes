@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Convert LASID | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Convert LASID" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Extract data from LASID" />
+<meta property="og:description" content="Extract data from LASID" />
+<link rel="canonical" href="https://jimregan.github.io/notes/irish/lasid/2021/09/28/lasid.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/irish/lasid/2021/09/28/lasid.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-28T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/irish/lasid/2021/09/28/lasid.html","@type":"BlogPosting","headline":"Convert LASID","dateModified":"2021-09-28T00:00:00-05:00","datePublished":"2021-09-28T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/irish/lasid/2021/09/28/lasid.html"},"description":"Extract data from LASID","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Convert LASID</h1><p class="page-description">Extract data from LASID</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-28T00:00:00-05:00" itemprop="datePublished">
+        Sep 28, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#lasid">lasid</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-09-28-lasid.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-09-28-lasid.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-09-28-lasid.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-09-28-lasid.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Set-up-ICU">Set up ICU<a class="anchor-link" href="#Set-up-ICU"> </a></h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pyicu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">icu</span>
+<span class="k">def</span> <span class="nf">transliterator_from_rules</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">rules</span><span class="p">):</span>
+    <span class="n">fromrules</span> <span class="o">=</span> <span class="n">icu</span><span class="o">.</span><span class="n">Transliterator</span><span class="o">.</span><span class="n">createFromRules</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">rules</span><span class="p">)</span>
+    <span class="n">icu</span><span class="o">.</span><span class="n">Transliterator</span><span class="o">.</span><span class="n">registerInstance</span><span class="p">(</span><span class="n">fromrules</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">icu</span><span class="o">.</span><span class="n">Transliterator</span><span class="o">.</span><span class="n">createInstance</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Download-data">Download data<a class="anchor-link" href="#Download-data"> </a></h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">_URL</span> <span class="o">=</span> <span class="s2">&quot;https://www3.smo.uhi.ac.uk/oduibhin/oideasra/lasid/lasid.zip&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">wget</span> <span class="p">{</span><span class="n">_URL</span><span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">unzip</span> <span class="n">lasid</span><span class="o">.</span><span class="n">zip</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="LASID-transliterators">LASID transliterators<a class="anchor-link" href="#LASID-transliterators"> </a></h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lasid_icu</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="se">\x07</span><span class="s2"> → ᵏ ;</span>
+<span class="se">\\\t</span><span class="s2"> → ᵉ ; # </span><span class="se">\x09</span><span class="s2"></span>
+<span class="se">\x0e</span><span class="s2"> → ᴵ ;</span>
+<span class="se">\x11</span><span class="s2"> → ʰ ;</span>
+<span class="se">\x12</span><span class="s2"> → ⁱ ;</span>
+<span class="se">\x13</span><span class="s2"> → ᵒ ;</span>
+<span class="se">\x14</span><span class="s2"> → ᵒ̤ ;</span>
+<span class="se">\x15</span><span class="s2"> → ʳ ;</span>
+<span class="se">\x16</span><span class="s2"> → ˢ ;</span>
+<span class="se">\x17</span><span class="s2"> → ᶴ ;</span>
+<span class="se">\x18</span><span class="s2"> → ᵗ ;</span>
+<span class="se">\x19</span><span class="s2"> → ᵘ ;</span>
+<span class="se">\x1a</span><span class="s2"> → ᵘ̯ ;</span>
+<span class="se">\x1c</span><span class="s2"> → ᵛ ;</span>
+<span class="se">\x1d</span><span class="s2"> → ʷ ;</span>
+<span class="se">\x1e</span><span class="s2"> → ᶾ ;</span>
+<span class="se">\x1f</span><span class="s2"> → ᵊ ;</span>
+<span class="s2">\# → ᶠ ; # </span><span class="se">\x23</span><span class="s2"></span>
+<span class="s2">\$ → ᵠ ; # </span><span class="se">\x24</span><span class="s2"></span>
+<span class="s2">\% → ᵍ ; # </span><span class="se">\x25</span><span class="s2"></span>
+<span class="s2">\&amp; → ᵞ ; # </span><span class="se">\x26</span><span class="s2"> ˠ for IPA</span>
+<span class="se">\&#39;</span><span class="s2"> → ’ ; # </span><span class="se">\x27</span><span class="s2"></span>
+<span class="s2">\: → ː ; # </span><span class="se">\x3a</span><span class="s2"></span>
+<span class="s2">\&lt; → ⁱ̈ ; # </span><span class="se">\x3c</span><span class="s2"></span>
+<span class="s2">\= → ⁱ̯ ; # </span><span class="se">\x3d</span><span class="s2"></span>
+<span class="s2">\? → ʔ ; # </span><span class="se">\x3f</span><span class="s2"></span>
+<span class="s2">\@ → ʲ ; # </span><span class="se">\x40</span><span class="s2"></span>
+<span class="s2">E → ᴇ ; # </span><span class="se">\x45</span><span class="s2"></span>
+<span class="s2">I → ɪ ; # </span><span class="se">\x49</span><span class="s2"></span>
+<span class="s2">L → ʟ ;</span>
+<span class="s2">N → ɴ ;</span>
+<span class="s2">R → ʀ ;</span>
+<span class="s2">\^ → ᵐ ; # </span><span class="se">\x5e</span><span class="s2"></span>
+<span class="s2">\_ → ǰ ; # crane, 021 # </span><span class="se">\x5f</span><span class="s2"></span>
+<span class="s2">\` → ɛ̀̃ ; # limekiln, 078: </span><span class="se">\x60</span><span class="s2"></span>
+<span class="s2">\| → ⁿ ; # lamb, 055: </span><span class="se">\x7c</span><span class="s2"></span>
+<span class="s2">\~ → ᵑ ; # dreaming, 078; maybe ⁿ̠ ? # </span><span class="se">\x7e</span><span class="s2"></span>
+<span class="se">\x7f</span><span class="s2"> → ᴇ̃ ;</span>
+<span class="se">\x80</span><span class="s2"> → φ ; # ɸ</span>
+<span class="se">\x81</span><span class="s2"> → ü ;</span>
+<span class="se">\x83</span><span class="s2"> → ɛ </span><span class="se">\u0300</span><span class="s2"> ;</span>
+<span class="se">\x84</span><span class="s2"> → è </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\\\x85</span><span class="s2"> → è̃ ; # this is �, so it needs to be escaped</span>
+<span class="se">\x86</span><span class="s2"> → ũ̜ ; # lamb, 038</span>
+<span class="se">\x87</span><span class="s2"> → u̜ ; # finger-nails, 043</span>
+<span class="se">\x88</span><span class="s2"> → ʈ ; # looks like t̜ : toothache, 033</span>
+<span class="se">\x89</span><span class="s2"> → ᵃ ; # eggs, 066</span>
+<span class="se">\x8a</span><span class="s2"> → è ;</span>
+<span class="se">\x8b</span><span class="s2"> → ï ;</span>
+<span class="se">\x8c</span><span class="s2"> → ɔ̜̃ ; # grandmother, 007</span>
+<span class="se">\x8d</span><span class="s2"> → ɔ̜ ;</span>
+<span class="se">\x8e</span><span class="s2"> → ɔ̆ ; # before i go, 078</span>
+<span class="se">\x8f</span><span class="s2"> → õ̜ ; # as cute, 062</span>
+<span class="se">\x91</span><span class="s2"> → æ ;</span>
+<span class="se">\x92</span><span class="s2"> → o̜ ;</span>
+<span class="se">\x93</span><span class="s2"> → ɖ ;</span>
+<span class="se">\x94</span><span class="s2"> → ö ;</span>
+<span class="se">\x95</span><span class="s2"> → ɑ̜̃ ;</span>
+<span class="se">\x96</span><span class="s2"> → û ; # milking, 067</span>
+<span class="se">\x97</span><span class="s2"> → ɑ </span><span class="se">\u0323</span><span class="s2"> ; # FIXME (maybe α̩  or ɑ̜ ?)</span>
+<span class="se">\x98</span><span class="s2"> → v̠ ;</span>
+<span class="se">\x99</span><span class="s2"> → t̠ ; # toothache, 021</span>
+<span class="se">\x9a</span><span class="s2"> → r̠ ;</span>
+<span class="se">\x9b</span><span class="s2"> → ø ;</span>
+<span class="se">\x9c</span><span class="s2"> → ɴ̠ ; # sick, 034</span>
+<span class="se">\x9d</span><span class="s2"> → ŋ̠ ; # grazing, 002</span>
+<span class="se">\x9e</span><span class="s2"> → n̠ ;</span>
+<span class="se">\x9f</span><span class="s2"> → l̠ ; # plumage, 068</span>
+<span class="se">\xa4</span><span class="s2"> → k̠ ; # plumage, 068</span>
+<span class="se">\xa5</span><span class="s2"> → g̠ ;</span>
+<span class="se">\xa6</span><span class="s2"> → d̠ ; # wedge, 021</span>
+<span class="se">\xa7</span><span class="s2"> → ŭ ;</span>
+<span class="se">\xa8</span><span class="s2"> → ö̆ ;</span>
+<span class="se">\xa9</span><span class="s2"> → ŏ ;</span>
+<span class="se">\xaa</span><span class="s2"> → ĭ ;</span>
+<span class="se">\xab</span><span class="s2"> → ɛ̆ ;</span>
+<span class="se">\xac</span><span class="s2"> → ĕ ;</span>
+<span class="se">\xad</span><span class="s2"> → o̤ ;</span>
+<span class="se">\xae</span><span class="s2"> → λ ;</span>
+<span class="se">\xaf</span><span class="s2"> → ɑ ; # α in the software</span>
+<span class="se">\xb0</span><span class="s2"> → ɔ ;</span>
+<span class="se">\xb1</span><span class="s2"> → ɑ̆ </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\xb2</span><span class="s2"> → ə ;</span>
+<span class="se">\xb4</span><span class="s2"> → ᵈ ; # tail, 007</span>
+<span class="se">\xb6</span><span class="s2"> → ɑ̆ ; # ᾰ in the software</span>
+<span class="se">\xb7</span><span class="s2"> → ă ;</span>
+<span class="se">\xb8</span><span class="s2"> → λ </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\xb9</span><span class="s2"> → ɛ ;</span>
+<span class="se">\xba</span><span class="s2"> → ʃ </span><span class="se">\u030c</span><span class="s2"> ; # calling, 067</span>
+<span class="se">\xbb</span><span class="s2"> → š ;</span>
+<span class="se">\xbc</span><span class="s2"> → ř ;</span>
+<span class="se">\xbd</span><span class="s2"> → ɑ̃ ;</span>
+<span class="se">\xbe</span><span class="s2"> → ẽ ; # tied, 88N</span>
+<span class="se">\xc1</span><span class="s2"> → ′ ; # superscript prime</span>
+<span class="se">\xc5</span><span class="s2"> → ᴍ̠ ; # fart, 071</span>
+<span class="se">\xc6</span><span class="s2"> → ã ; # calf, 046</span>
+<span class="se">\xc7</span><span class="s2"> → t </span><span class="se">\u0323</span><span class="s2"> ; # probably t̞</span>
+<span class="se">\xc8</span><span class="s2"> → λ̯ ; # mane, 067</span>
+<span class="se">\xc9</span><span class="s2"> → o̯ ; # hare, 088</span>
+<span class="se">\xca</span><span class="s2"> → Ɫ ; # loaf, 001</span>
+<span class="se">\xcb</span><span class="s2"> → ɫ ; # loaf, 003</span>
+<span class="se">\xcc</span><span class="s2"> → m̥ ; # awake, 001</span>
+<span class="se">\xcd</span><span class="s2"> → ʀ̥ ; # thieving, 003</span>
+<span class="se">\xce</span><span class="s2"> → ˈ ;</span>
+<span class="se">\xcf</span><span class="s2"> → ˌ ; # cattle, 040</span>
+<span class="se">\xd0</span><span class="s2"> → ð ; # boar, 88N</span>
+<span class="se">\xd1</span><span class="s2"> → s </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # slime 008</span>
+<span class="se">\xd2</span><span class="s2"> → r </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # bulls 067</span>
+<span class="se">\xd3</span><span class="s2"> → ɪ̆ ; # suit of clothes 039</span>
+<span class="se">\xd4</span><span class="s2"> → ᴇ̀ ;</span>
+<span class="se">\xd5</span><span class="s2"> → p </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # castrating 053</span>
+<span class="se">\xd7</span><span class="s2"> → ɪ̃ ; # slime, 007</span>
+<span class="se">\xd8</span><span class="s2"> → ɪ̈ ; # calf 027</span>
+<span class="se">\xdb</span><span class="s2"> → o </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # cow 028</span>
+<span class="se">\xdc</span><span class="s2"> → ŋ </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # tied 078</span>
+<span class="se">\xdd</span><span class="s2"> → ö̤ ;</span>
+<span class="se">\xde</span><span class="s2"> → k </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\xdf</span><span class="s2"> → i </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # sick 069</span>
+<span class="se">\xe1</span><span class="s2"> → g </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\xe2</span><span class="s2"> → e </span><span class="se">\u0323</span><span class="s2"> ; # FIXME</span>
+<span class="se">\xe3</span><span class="s2"> → d </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # agut 052</span>
+<span class="se">\xe4</span><span class="s2"> → õ ; # I shall tie 062</span>
+<span class="se">\xe5</span><span class="s2"> → b </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # castrating 071</span>
+<span class="se">\xe6</span><span class="s2"> → ɑ̃ </span><span class="se">\u0323</span><span class="s2"> ; #FIXME # barking 049</span>
+<span class="se">\xe7</span><span class="s2"> → ɑ </span><span class="se">\u0323</span><span class="s2"> ; # FIXME # slime 008</span>
+<span class="se">\xe8</span><span class="s2"> → ỹ ;</span>
+<span class="se">\xea</span><span class="s2"> → λ̃ ;</span>
+<span class="se">\xeb</span><span class="s2"> → ü̃ ; # churn-dash, 011</span>
+<span class="se">\xec</span><span class="s2"> → ũ ;</span>
+<span class="se">\xed</span><span class="s2"> → ɔ̃ ; # cow 074</span>
+<span class="se">\xee</span><span class="s2"> → õ̤ ; # barking 055</span>
+<span class="se">\xef</span><span class="s2"> → ′ ;</span>
+<span class="se">\xf0</span><span class="s2"> → ″ ;</span>
+<span class="se">\xf1</span><span class="s2"> → ö̤̃ ; # dreaming, 078</span>
+<span class="se">\xf2</span><span class="s2"> → ö̃ ; # sheep shears 074</span>
+<span class="se">\xf3</span><span class="s2"> → ï̃ ; # churn-dash, 034</span>
+<span class="se">\xf4</span><span class="s2"> → ĩ ; # sick 001</span>
+<span class="se">\xf5</span><span class="s2"> → ɣ̃ ; # tied 075</span>
+<span class="se">\xf6</span><span class="s2"> → ɛ̃ ; # tied 067</span>
+<span class="se">\xf7</span><span class="s2"> → n̥ ; # awake, 059</span>
+<span class="se">\xf8</span><span class="s2"> → r̥ ; # slime 002</span>
+<span class="se">\xf9</span><span class="s2"> → ʃ ;</span>
+<span class="se">\xfb</span><span class="s2"> → · ; # slime 058</span>
+<span class="se">\xfa</span><span class="s2"> → ɣ ;</span>
+<span class="se">\xfc</span><span class="s2"> → χ ; # limekiln, 080</span>
+<span class="se">\xfd</span><span class="s2"> → ʒ ; # sheep shears 054</span>
+<span class="se">\xfe</span><span class="s2"> → ŋ ;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lasid_titles_icu</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="se">\xb5</span><span class="s2"> → Á ;</span>
+<span class="se">\xd6</span><span class="s2"> → Í ;</span>
+<span class="se">\x90</span><span class="s2"> → É ;</span>
+<span class="se">\xe0</span><span class="s2"> → Ó ;</span>
+<span class="se">\xe9</span><span class="s2"> → Ú ;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I'm not sure if there's something wrong with this, or if it's that there are just no spaces in a lot of the transcriptions, but this is best avoided.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lasid_spacing</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">$sp = &#39;</span><span class="se">\u0020</span><span class="s2">&#39;;</span>
+<span class="s2">$sp $sp $sp $sp $sp → \_;</span>
+<span class="s2">[^[0-9]] { $sp → ;</span>
+<span class="s2">::null;</span>
+<span class="s2">\_  → $sp ;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lasid</span> <span class="o">=</span> <span class="n">transliterator_from_rules</span><span class="p">(</span><span class="s1">&#39;lasid_icu&#39;</span><span class="p">,</span> <span class="n">lasid_icu</span><span class="p">)</span>
+<span class="n">titles</span> <span class="o">=</span> <span class="n">transliterator_from_rules</span><span class="p">(</span><span class="s1">&#39;lasid_titles&#39;</span><span class="p">,</span> <span class="n">lasid_titles_icu</span><span class="p">)</span>
+<span class="n">spacing</span> <span class="o">=</span> <span class="n">transliterator_from_rules</span><span class="p">(</span><span class="s1">&#39;lasid_spacing&#39;</span><span class="p">,</span> <span class="n">lasid_spacing</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">translit_phon</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">spaces</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+  <span class="c1"># could have been any 8-bit encoding</span>
+  <span class="n">line</span> <span class="o">=</span> <span class="n">lasid</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ISO-8859-1&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+  <span class="k">if</span> <span class="n">spaces</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">spacing</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">line</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">translit_irish</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">spaces</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+  <span class="n">line</span> <span class="o">=</span> <span class="n">titles</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">text</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ISO-8859-1&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+  <span class="k">if</span> <span class="n">spaces</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">spacing</span><span class="o">.</span><span class="n">transliterate</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">line</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Process">Process<a class="anchor-link" href="#Process"> </a></h1>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;mapdata.dat&quot;</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">cur</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">ga</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="nb">id</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">en</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+  <span class="k">if</span> <span class="sa">b</span><span class="s1">&#39;{M&#39;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+    <span class="n">prev_en</span> <span class="o">=</span> <span class="n">en</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ISO-8859-1&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">7</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">en</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">7</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">tmp</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">tmp</span><span class="p">[</span><span class="s1">&#39;en&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">prev_en</span>
+    <span class="n">tmp</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">id</span>
+    <span class="n">tmp</span><span class="p">[</span><span class="s1">&#39;ga&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ga</span>
+    <span class="n">tmp</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">cur</span>
+    <span class="n">data</span><span class="p">[</span><span class="nb">id</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmp</span>
+    <span class="n">cur</span> <span class="o">=</span> <span class="p">{}</span>
+  <span class="k">elif</span> <span class="sa">b</span><span class="s1">&#39;{F&#39;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+    <span class="n">raw</span> <span class="o">=</span> <span class="n">translit_irish</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="n">ga</span> <span class="o">=</span> <span class="n">raw</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+  <span class="k">elif</span> <span class="n">line</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ISO-8859-1&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">():</span>
+    <span class="n">pid</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;ISO-8859-1&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">ptext</span> <span class="o">=</span> <span class="n">translit_phon</span><span class="p">(</span><span class="n">line</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="kc">False</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ptext</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;*&#39;</span><span class="p">:</span>
+      <span class="n">ptext</span> <span class="o">=</span> <span class="n">ptext</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">cur</span><span class="p">[</span><span class="n">pid</span><span class="p">]</span> <span class="o">=</span> <span class="n">ptext</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;lasid.json&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outfile</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/irish/lasid/2021/09/28/lasid.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
