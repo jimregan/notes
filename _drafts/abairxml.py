@@ -157,34 +157,34 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
 
 
 class Utterance:
-  def __init__(self, input, sentences, spoken_as=None):
-    self.input = input
-    self.sentences = sentences
-    if spoken_as is None:
-        self.spoken_as = []
-    else:
-        self.spoken_as = spoken_as
+    def __init__(self, input, sentences, spoken_as=None):
+        self.input = input
+        self.sentences = sentences
+        if spoken_as is None:
+            self.spoken_as = []
+        else:
+            self.spoken_as = spoken_as
 
-def maybe_xml(self):
-    return "&lt;" in self.input
+    def maybe_xml(self):
+        return "&lt;" in self.input
 
-def get_xml_or_text(self):
-    if self.maybe_xml():
-        return "<utt>" + saxutils.unescape(self.input) + "</utt>"
-    else:
-        return self.input
+    def get_xml_or_text(self):
+        if self.maybe_xml():
+            return "<utt>" + saxutils.unescape(self.input) + "</utt>"
+        else:
+            return self.input
 
 
 class Sentence:
-  def __init__(self, input, tokens):
-    self.input = input
-    self.tokens = tokens
+    def __init__(self, input, tokens):
+        self.input = input
+        self.tokens = tokens
 
 
 class Token:
-  def __init__(self, input, words):
-    self.input = input
-    self.words = words
+    def __init__(self, input, words):
+        self.input = input
+        self.words = words
 
 
 class Word:
