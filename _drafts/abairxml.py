@@ -22,6 +22,7 @@ import re
 import datasets
 
 import xml.etree.ElementTree as ET
+import xml.sax.saxutils as saxutils
 
 _DESCRIPTION = """\
 Builds a dataset from a directory containing utterance XML files.
@@ -156,12 +157,22 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
 
 
 class Utterance:
-  def __init__(self, input, sentences):
+  def __init__(self, input, sentences, spoken_as=None):
     self.input = input
     self.sentences = sentences
+    if spoken_as is None:
+        self.spoken_as = []
+    else:
+        self.spoken_as = spoken_as
 
 def maybe_xml(self):
     return "&lt;" in self.input
+
+def get_xml_or_text(self):
+    if self.maybe_xml():
+        return "<utt>" + saxutils.unescape(self.input) + "</utt>"
+    else:
+        return self.input
 
 
 class Sentence:
