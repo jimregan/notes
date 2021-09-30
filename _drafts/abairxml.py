@@ -160,6 +160,9 @@ class Utterance:
     self.input = input
     self.sentences = sentences
 
+def maybe_xml(self):
+    return "&lt;" in self.input
+
 
 class Sentence:
   def __init__(self, input, tokens):
