@@ -197,7 +197,7 @@ class Word:
     
     def skippable(self):
         toks = ["SILENCE_TOKEN", "GLOTTAL_STOP"]
-        if self.input == in toks:
+        if self.input in toks:
             return True
         if len(self.syllables) == 1 \
            and len(self.syllables[0].phonemes) == 1 \
