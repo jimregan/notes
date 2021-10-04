@@ -169,7 +169,7 @@ class Utterance:
     def maybe_xml(self):
         return "&lt;" in self.input
 
-    def get_xml_or_text(self):
+    def get_xml(self):
         if self.maybe_xml():
             return "<utt>" + saxutils.unescape(self.input) + "</utt>"
         else:
@@ -211,8 +211,7 @@ class Word:
             self.syllables = []
     
     def skippable(self):
-        toks = ["SILENCE_TOKEN", "GLOTTAL_STOP"]
-        if self.input == in toks:
+        if self.input in ["SILENCE_TOKEN", "GLOTTAL_STOP"]:
             return True
         if len(self.syllables) == 1 \
            and len(self.syllables[0].phonemes) == 1 \
