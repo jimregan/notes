@@ -195,6 +195,24 @@ Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, Samart
 
 Uses text in a second language transliterated to target language to augment training data for ASR.
 
+> We observe that for languages like
+> Hindi and Telugu where the KL distance in phone distribution
+> is small *and* the transliteration PER is low, we get consistent
+> gains across different architectures and training data sizes.
+
+- G2P: epitran, [g2ps](https://github.com/uiuc-sst/g2ps)
+- Tools: ESPnet, wav2vec2
+- Datasets
+  - Microsoft Speech Corpus (Indian Languages): Gujarati and Telugu
+  - Hindi ASR Challenge dataset
+  - OpenSLR Large Bengali dataset
+  - Zeroth Korean
+  - ALFFA Amharic
+
+> there’s a significant improvement in performance across both training settings with using
+> Hindi instead of English during pretraining. Using both transliterated English and Hindi data during pretraining for the 10-hour
+> Gujarati task further reduces WERs from 55.8% to 32.4%
+
 ---
 
 [Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning](https://www.isca-speech.org/archive/interspeech_2021/deng21b_interspeech.html)
@@ -209,3 +227,9 @@ Uses text in a second language transliterated to target language to augment trai
   doi={10.21437/Interspeech.2021-1186}
 }
 ```
+
+Fine tuning wav2vec2 for accented speech recognition/accent ID
+
+Dataset:
+  - LibriSpeech (pretrain)
+  - AESRC2020 (finetune)
