@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Interspeech papers | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Interspeech papers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Interesting papers from Interspeech" />
+<meta property="og:description" content="Interesting papers from Interspeech" />
+<link rel="canonical" href="https://jimregan.github.io/notes/links/2021/10/04/interspeech-papers.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/links/2021/10/04/interspeech-papers.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-04T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/links/2021/10/04/interspeech-papers.html","@type":"BlogPosting","headline":"Interspeech papers","dateModified":"2021-10-04T00:00:00-05:00","datePublished":"2021-10-04T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/links/2021/10/04/interspeech-papers.html"},"description":"Interesting papers from Interspeech","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Interspeech papers</h1><p class="page-description">Interesting papers from Interspeech</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-04T00:00:00-05:00" itemprop="datePublished">
+        Oct 4, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#links">links</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#todo">TODO</a></li>
+</ul><p><a href="https://www.isca-speech.org/archive/interspeech_2021/zhang21d_interspeech.html">End-to-End Spelling Correction Conditioned on Acoustic Feature for Code-Switching Speech Recognition</a></p>
+
+<p>Shuai Zhang, Jiangyan Yi, Zhengkun Tian, Ye Bai, Jianhua Tao, Xuefei Liu, Zhengqi Wen</p>
+
+<p><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/zhang21d_interspeech.pdf">PDF</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">zhang21d_interspeech</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Shuai Zhang and Jiangyan Yi and Zhengkun Tian and Ye Bai and Jianhua Tao and Xuefei Liu and Zhengqi Wen}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{{End-to-End Spelling Correction Conditioned on Acoustic Feature for Code-Switching Speech Recognition}}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="m">2021</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Proc. Interspeech 2021}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{266--270}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.21437/Interspeech.2021-1242}</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Spell checking as conditioned language model for code-switching in ASR.</p>
+
+<p>Dataset:</p>
+<ul>
+  <li>ASRU 2019 Mandarin-English code-switching Challenge dataset
+    <ul>
+      <li>500 hours Mandarin</li>
+      <li>200 hours code-switching</li>
+      <li>only used code-switching</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Augmentation:</p>
+<ul>
+  <li>ASR text:
+    <ul>
+      <li>10-fold cross validation</li>
+      <li>beam size 10</li>
+    </ul>
+  </li>
+  <li>audio:
+    <ul>
+      <li>SpecAugment</li>
+      <li>dropout</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Metric:</p>
+<ul>
+  <li>Mix error rate (MER): WER for English, CER for Mandarin</li>
+</ul>
+
+<p>Experimental setup:</p>
+<ul>
+  <li>ASR
+    <ul>
+      <li>Kaldi</li>
+      <li>40-dim Mel filter-bank</li>
+      <li>25ms windowing</li>
+      <li>10ms frame shift</li>
+      <li>3 * 2D CNN downsampling layers w/ stride 2 for acoustic features</li>
+      <li>attention dimensions 256 for both encode and decoder</li>
+      <li>4 heards</li>
+      <li>position-wise feed-forward networks dim 1024</li>
+      <li>12 encoder blocks, 6 decoder blocks</li>
+    </ul>
+  </li>
+  <li>LM
+    <ul>
+      <li>6-gram, KenLM</li>
+      <li>unidirectional LSTM</li>
+    </ul>
+  </li>
+  <li>Spelling correction
+    <ul>
+      <li>Encoder/decoder dims 256, num. heads: 4</li>
+      <li>position-wise feed-forward networks dim 512</li>
+      <li>dimension conversion layer to unify text &amp; acoustic features</li>
+      <li>uniform label smoothing, 0.1</li>
+      <li>residual dropout: 0.1 applied to each sub-block</li>
+      <li>learning rate set by warm up</li>
+      <li>average last 5 checkpoints</li>
+      <li>wordpiece vocab: 1k for English, Chinese characters appearing more than 5 times in training set</li>
+    </ul>
+  </li>
+</ul>
+
+<hr>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/siminyu21_interspeech.html">Phoneme Recognition Through Fine Tuning of Phonetic Representations: A Case Study on Luhya Language Varieties</a></p>
+
+<p>Kathleen Siminyu, Xinjian Li, Antonios Anastasopoulos, David R. Mortensen, Michael R. Marlo, Graham Neubig</p>
+
+<p><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/siminyu21_interspeech.pdf">PDF</a>,
+<a href="https://arxiv.org/abs/2104.01624">arXiv</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">siminyu21_interspeech</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Kathleen Siminyu and Xinjian Li and Antonios Anastasopoulos and David R. Mortensen and Michael R. Marlo and Graham Neubig}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{{Phoneme Recognition Through Fine Tuning of Phonetic Representations: A Case Study on Luhya Language Varieties}}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="m">2021</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Proc. Interspeech 2021}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{271--275}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.21437/Interspeech.2021-1434}</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Fine tuning of <a href="https://github.com/xinjli/allosaurus">allosaurus</a> (“universal phone recognizer”) for three varieties of Luhya.</p>
+
+<p>Data:</p>
+<ul>
+  <li>Saamia
+    <ul>
+      <li>bible.is via <a href="https://github.com/festvox/datasets-CMU_Wilderness">CMU Wilderness</a>
+</li>
+      <li>18.2 hours</li>
+    </ul>
+  </li>
+  <li>Bukusu
+    <ul>
+      <li>Dictionary pronunciations</li>
+      <li>3.7 hours</li>
+    </ul>
+  </li>
+  <li>East Tusom
+    <ul>
+      <li><a href="https://github.com/dmort27/tusom2021">Tusom2021</a></li>
+      <li>55.3 minutes</li>
+    </ul>
+  </li>
+  <li>G2P with epitran</li>
+  <li>Splits:
+    <ul>
+      <li>Bukusu: 6442 (train), 1001 (dev), 2458 (test)</li>
+      <li>Saamia: 7254 (train), 1000 (dev), 1500 (test)</li>
+      <li>East Tusom: 1600 (train), 400 (dev), 392 (test)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Experiment:</p>
+<ul>
+  <li>sizes: 10, 25, 50, 100, 250, 500 and 1000 (approx. doubling progression)</li>
+  <li>fine-tuning is done on one model: same encoder
+    <ul>
+      <li>6 layer bilstm</li>
+      <li>hidden size 1024 per layer</li>
+    </ul>
+  </li>
+  <li>250 epochs of fine tuning</li>
+</ul>
+
+<p>Results: PER (relative improvement)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Bukusu</th>
+      <th>Saamia</th>
+      <th>East Tusom</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Allosaurus</td>
+      <td>72.8</td>
+      <td>63.7</td>
+      <td>67.5</td>
+    </tr>
+    <tr>
+      <td>&amp; constraint</td>
+      <td>52.5</td>
+      <td>37.4</td>
+      <td>56.7</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>&amp; fine-tuning (100)</td>
+      <td>41.2 (21.5%)</td>
+      <td>15.5 (58.5%)</td>
+      <td>44.8 (20.9%)</td>
+    </tr>
+    <tr>
+      <td>&amp; fine-tuning (1000)</td>
+      <td>17.3 (67.0%)</td>
+      <td>11.7 (65.7%)</td>
+      <td>34.6 (38.9%)</td>
+    </tr>
+    <tr>
+      <td>&amp; fine-tuning (all)</td>
+      <td>5.2 (90.1%)</td>
+      <td>9.2 (75.4%)</td>
+      <td>33.1 (41.6%)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/fan21_interspeech.html">Exploring wav2vec 2.0 on Speaker Verification and Language Identification</a></p>
+
+<p>Zhiyun Fan, Meng Li, Shiyu Zhou, Bo Xu</p>
+
+<p><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/fan21_interspeech.pdf">PDF</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">fan21_interspeech</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Zhiyun Fan and Meng Li and Shiyu Zhou and Bo Xu}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{{Exploring wav2vec 2.0 on Speaker Verification and Language Identification}}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="m">2021</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Proc. Interspeech 2021}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{1509--1513}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.21437/Interspeech.2021-1280}</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Finetunes <strong>monolingual English</strong> wav2vec model for speaker verification and/or language ID.</p>
+
+<ul>
+  <li>Fine tuning
+    <ul>
+      <li>average pooling layer and fully connected layer</li>
+      <li>Loss: cross-entropy (AM-softmax for speaker classification)</li>
+    </ul>
+  </li>
+  <li>Fine tuning, multi-task (speaker + language)
+    <ul>
+      <li>average pooling, two parallel fully connected layers</li>
+      <li>loss is weighted sum of individual losses</li>
+    </ul>
+  </li>
+  <li>Datasets
+    <ul>
+      <li>VoxCeleb1 (speaker verification)</li>
+      <li>AP17-OLR (language ID)</li>
+    </ul>
+  </li>
+  <li>Metric
+    <ul>
+      <li>Equal error rate (EER)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Results (single):</p>
+<ul>
+  <li>SV: 3.61</li>
+  <li>LID: 3.47</li>
+</ul>
+
+<p>Results (multitask):</p>
+<ul>
+  <li>SV: 4.18</li>
+  <li>LID: 4.88</li>
+</ul>
+
+<hr>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/khare21_interspeech.html">Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration</a></p>
+
+<p>Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, Samarth Bharadwaj</p>
+
+<p><a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/khare21_interspeech.pdf">pdf</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">khare21_interspeech</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Shreya Khare and Ashish Mittal and Anuj Diwan and Sunita Sarawagi and Preethi Jyothi and Samarth Bharadwaj}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{{Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration}}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="m">2021</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Proc. Interspeech 2021}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{1529--1533}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.21437/Interspeech.2021-2062}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Uses text in a second language transliterated to target language to augment training data for ASR.</p>
+
+<blockquote>
+  <p>We observe that for languages like
+Hindi and Telugu where the KL distance in phone distribution
+is small <em>and</em> the transliteration PER is low, we get consistent
+gains across different architectures and training data sizes.</p>
+</blockquote>
+
+<ul>
+  <li>G2P: epitran, <a href="https://github.com/uiuc-sst/g2ps">g2ps</a>
+</li>
+  <li>Tools: ESPnet, wav2vec2</li>
+  <li>Datasets
+    <ul>
+      <li>Microsoft Speech Corpus (Indian Languages): Gujarati and Telugu</li>
+      <li>Hindi ASR Challenge dataset</li>
+      <li>OpenSLR Large Bengali dataset</li>
+      <li>Zeroth Korean</li>
+      <li>ALFFA Amharic</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>there’s a significant improvement in performance across both training settings with using
+Hindi instead of English during pretraining. Using both transliterated English and Hindi data during pretraining for the 10-hour
+Gujarati task further reduces WERs from 55.8% to 32.4%</p>
+</blockquote>
+
+<hr>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/deng21b_interspeech.html">Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning</a>
+<a href="https://www.isca-speech.org/archive/pdfs/interspeech_2021/deng21b_interspeech.pdf">pdf</a></p>
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">deng21b_interspeech</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Keqi Deng and Songjun Cao and Long Ma}</span><span class="p">,</span>
+  <span class="na">title</span><span class="p">=</span><span class="s">{{Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning}}</span><span class="p">,</span>
+  <span class="na">year</span><span class="p">=</span><span class="m">2021</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{Proc. Interspeech 2021}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{1504--1508}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.21437/Interspeech.2021-1186}</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<p>Fine tuning wav2vec2 for accented speech recognition/accent ID</p>
+
+<p>Dataset:</p>
+<ul>
+  <li>LibriSpeech (pretrain)</li>
+  <li>AESRC2020 (finetune)</li>
+</ul>
+
+<hr>
+
+<h2 id="todo">
+<a class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODO</h2>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html">Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/gong21b_interspeech.html">AST: Audio Spectrogram Transformer</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/lam21_interspeech.html">Raw Waveform Encoder with Multi-Scale Globally Attentive Locally Recurrent Networks for End-to-End Speech Recognition</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/zhu21b_interspeech.html">Y-Vector: Multiscale Waveform Encoder for Speaker Embedding</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/loweimi21_interspeech.html">Speech Acoustic Modelling Using Raw Source and Filter Components</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/ma21_interspeech.html">Leveraging Phone Mask Training for Phonetic-Reduction-Robust E2E Uyghur Speech Recognition</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/likhomanenko21_interspeech.html">Rethinking Evaluation in ASR: Are Our Models Robust Enough?</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/sadhu21_interspeech.html">wav2vec-C: A Self-Supervised Model for Speech Representation Learning</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/palaskar21_interspeech.html">Multimodal Speech Summarization Through Semantic Concept Learning</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/lin21_interspeech.html">A Noise Robust Method for Word-Level Pronunciation Assessment</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/deng21_interspeech.html">Improving RNN-T for Domain Scaling Using Semi-Supervised Training with Neural TTS</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/yue21_interspeech.html">Phonetically Motivated Self-Supervised Speech Representation Learning</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/likhomanenko21b_interspeech.html">slimIPL: Language-Model-Free Iterative Pseudo-Labeling</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/chen21c_interspeech.html">Semi-Supervision in ASR: Sequential MixMatch and Factorized TTS-Based Augmentation</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/misra21_interspeech.html">A Comparison of Supervised and Unsupervised Pre-Training of End-to-End Models</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/higuchi21_interspeech.html">Momentum Pseudo-Labeling for Semi-Supervised Speech Recognition</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/wallington21_interspeech.html">On the Learning Dynamics of Semi-Supervised Training for ASR</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/cao21b_interspeech.html">Improving Streaming Transformer Based ASR Under a Framework of Self-Supervised Learning</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/tsunoo21_interspeech.html">Data Augmentation Methods for End-to-End Speech Recognition on Distant-Talk Scenarios</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/chang21_interspeech.html">Multi-Channel Transformer Transducer for Speech Recognition</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/chen21b_interspeech.html">Scaling Sparsemax Based Channel Selection for Speech Recognition with ad-hoc Microphone Arrays</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/ratnarajah21_interspeech.html">IR-GAN: Room Impulse Response Generator for Far-Field Speech Recognition</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/fujimoto21_interspeech.html">Noise Robust Acoustic Modeling for Single-Channel Speech Recognition Based on a Stream-Wise Transformer Architecture</a></p>
+
+<p><a href="https://www.isca-speech.org/archive/interspeech_2021/liu21_interspeech.html">Phoneme-Aware and Channel-Wise Attentive Learning for Text Dependent Speaker Verification</a></p>
+
+
+  </div><a class="u-url" href="/notes/links/2021/10/04/interspeech-papers.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
