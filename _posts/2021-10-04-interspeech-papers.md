@@ -190,6 +190,7 @@ Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, Samart
   booktitle={Proc. Interspeech 2021},
   pages={1529--1533},
   doi={10.21437/Interspeech.2021-2062}
+{% endraw %}
 }
 ```
 
@@ -218,6 +219,7 @@ Uses text in a second language transliterated to target language to augment trai
 [Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning](https://www.isca-speech.org/archive/interspeech_2021/deng21b_interspeech.html)
 [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/deng21b_interspeech.pdf)
 ```bibtex
+{% raw %}
 @inproceedings{deng21b_interspeech,
   author={Keqi Deng and Songjun Cao and Long Ma},
   title={{Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning}},
@@ -226,6 +228,7 @@ Uses text in a second language transliterated to target language to augment trai
   pages={1504--1508},
   doi={10.21437/Interspeech.2021-1186}
 }
+{% endraw %}
 ```
 
 Fine tuning wav2vec2 for accented speech recognition/accent ID
