@@ -13,3 +13,5 @@ categories: [links]
 
 [Best Python based AutoML frameworks in 2021](https://medium.com/technexthere/best-opensource-automl-frameworks-in-2021-c2cb58895bbe)
 
+[jonmagic/copy-excel-paste-markdown](https://github.com/jonmagic/copy-excel-paste-markdown)
+

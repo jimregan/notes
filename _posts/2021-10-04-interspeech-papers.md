@@ -91,6 +91,41 @@ Kathleen Siminyu, Xinjian Li, Antonios Anastasopoulos, David R. Mortensen, Micha
 {% endraw %}
 ```
 
+Fine tuning of [allosaurus](https://github.com/xinjli/allosaurus) ("universal phone recognizer") for three varieties of Luhya.
+
+Data:
+- Saamia
+  - bible.is via [CMU Wilderness](https://github.com/festvox/datasets-CMU_Wilderness)
+  - 18.2 hours
+- Bukusu
+  - Dictionary pronunciations
+  - 3.7 hours
+- East Tusom
+  - [Tusom2021](https://github.com/dmort27/tusom2021)
+  - 55.3 minutes
+- G2P with epitran
+- Splits:
+  - Bukusu: 6442 (train), 1001 (dev), 2458 (test)
+  - Saamia: 7254 (train), 1000 (dev), 1500 (test)
+  - East Tusom: 1600 (train), 400 (dev), 392 (test)
+
+Experiment:
+  - sizes: 10, 25, 50, 100, 250, 500 and 1000 (approx. doubling progression)
+  - fine-tuning is done on one model: same encoder
+    - 6 layer bilstm
+    - hidden size 1024 per layer
+  - 250 epochs of fine tuning
+
+Results: PER (relative improvement)
+
+|                      | Bukusu       | Saamia       | East Tusom   |
+| -------------------- | ------------ | ------------ | ------------ |
+| Allosaurus           | 72.8         | 63.7         | 67.5         |
+| & constraint         | 52.5         | 37.4         | 56.7         |
+| -------------------- | ------------ | ------------ | ------------ |
+| & fine-tuning (100)  | 41.2 (21.5%) | 15.5 (58.5%) | 44.8 (20.9%) |
+| & fine-tuning (1000) | 17.3 (67.0%) | 11.7 (65.7%) | 34.6 (38.9%) |
+| & fine-tuning (all)  | 5.2 (90.1%)  | 9.2 (75.4%)  | 33.1 (41.6%) |
 
 ---
 
