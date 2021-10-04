@@ -90,3 +90,85 @@ Kathleen Siminyu, Xinjian Li, Antonios Anastasopoulos, David R. Mortensen, Micha
 }
 {% endraw %}
 ```
+
+
+---
+
+[Exploring wav2vec 2.0 on Speaker Verification and Language Identification](https://www.isca-speech.org/archive/interspeech_2021/fan21_interspeech.html)
+
+Zhiyun Fan, Meng Li, Shiyu Zhou, Bo Xu
+
+[PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/fan21_interspeech.pdf)
+
+```bibtex
+{% raw %}
+@inproceedings{fan21_interspeech,
+  author={Zhiyun Fan and Meng Li and Shiyu Zhou and Bo Xu},
+  title={{Exploring wav2vec 2.0 on Speaker Verification and Language Identification}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1509--1513},
+  doi={10.21437/Interspeech.2021-1280}
+}
+{% endraw %}
+```
+
+Finetunes **monolingual English** wav2vec model for speaker verification and/or language ID.
+
+- Fine tuning
+  - average pooling layer and fully connected layer
+  - Loss: cross-entropy (AM-softmax for speaker classification)
+
+- Fine tuning, multi-task (speaker + language)
+  - average pooling, two parallel fully connected layers
+  - loss is weighted sum of individual losses
+
+- Datasets
+  - VoxCeleb1 (speaker verification)
+  - AP17-OLR (language ID)
+
+- Metric
+  - Equal error rate (EER)
+
+Results (single):
+- SV: 3.61
+- LID: 3.47
+
+Results (multitask):
+- SV: 4.18
+- LID: 4.88
+
+---
+
+[Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration](https://www.isca-speech.org/archive/interspeech_2021/khare21_interspeech.html)
+
+Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, Samarth Bharadwaj
+
+[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/khare21_interspeech.pdf)
+
+```bibtex
+{% raw %}
+@inproceedings{khare21_interspeech,
+  author={Shreya Khare and Ashish Mittal and Anuj Diwan and Sunita Sarawagi and Preethi Jyothi and Samarth Bharadwaj},
+  title={{Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1529--1533},
+  doi={10.21437/Interspeech.2021-2062}
+}
+```
+
+---
+
+[Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning](https://www.isca-speech.org/archive/interspeech_2021/deng21b_interspeech.html)
+[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/deng21b_interspeech.pdf)
+```bibtex
+@inproceedings{deng21b_interspeech,
+  author={Keqi Deng and Songjun Cao and Long Ma},
+  title={{Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1504--1508},
+  doi={10.21437/Interspeech.2021-1186}
+}
+```
