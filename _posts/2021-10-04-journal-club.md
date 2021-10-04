@@ -11,6 +11,8 @@ categories: [journal club]
 
 Joshua Penney, Andy Gibson, Felicity Cox, Michael Proctor, Anita Szakay
 
+[PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/penney21_interspeech.pdf)
+
 ```bibtex
 {% raw %}
 @inproceedings{penney21_interspeech,
@@ -106,6 +108,50 @@ Chunyu Ge, Yixuan Xiong, Peggy Mok
   booktitle={Proc. Interspeech 2021},
   pages={3984--3988},
   doi={10.21437/Interspeech.2021-1122}
+}
+{% endraw %}
+```
+
+---
+
+[Sound Change in Spontaneous Bilingual Speech: A Corpus Study on the Cantonese n-l Merger in Cantonese-English Bilinguals](https://www.isca-speech.org/archive/interspeech_2021/soo21_interspeech.html)
+
+Rachel Soo, Khia A. Johnson, Molly Babel
+
+[PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/soo21_interspeech.pdf)
+
+```bibtex
+{% raw %}
+@inproceedings{soo21_interspeech,
+  author={Rachel Soo and Khia A. Johnson and Molly Babel},
+  title={{Sound Change in Spontaneous Bilingual Speech: A Corpus Study on the Cantonese n-l Merger in Cantonese-English Bilinguals}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={421--425},
+  doi={10.21437/Interspeech.2021-1754}
+}
+{% endraw %}
+```
+
+---
+
+(Not read)
+
+[Parsing Speech for Grouping and Prominence, and the Typology of Rhythm](https://www.isca-speech.org/archive/interspeech_2021/wagner21_interspeech.html)
+
+Michael Wagner, Alvaro Iturralde Zurita, Sijia Zhang
+
+[PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/wagner21_interspeech.pdf)
+
+```bibtex
+{% raw %}
+@inproceedings{wagner21_interspeech,
+  author={Michael Wagner and Alvaro Iturralde Zurita and Sijia Zhang},
+  title={{Parsing Speech for Grouping and Prominence, and the Typology of Rhythm}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={2656--2660},
+  doi={10.21437/Interspeech.2021-1684}
 }
 {% endraw %}
 ```
