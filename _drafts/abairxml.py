@@ -168,11 +168,16 @@ class Utterance:
     def maybe_xml(self):
         return "&lt;" in self.input
 
-    def get_xml_or_text(self):
+    def get_xml(self):
         if self.maybe_xml():
             return "<utt>" + saxutils.unescape(self.input) + "</utt>"
         else:
-            return self.input
+            return None
+
+    def get_spoken_as(self):
+        if not self.maybe_xml():
+            return
+        
 
 
 class Sentence:

@@ -14,6 +14,7 @@ Shuai Zhang, Jiangyan Yi, Zhengkun Tian, Ye Bai, Jianhua Tao, Xuefei Liu, Zhengq
 [PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/zhang21d_interspeech.pdf)
 
 ```bibtex
+{% raw %}
 @inproceedings{zhang21d_interspeech,
   author={Shuai Zhang and Jiangyan Yi and Zhengkun Tian and Ye Bai and Jianhua Tao and Xuefei Liu and Zhengqi Wen},
   title={{End-to-End Spelling Correction Conditioned on Acoustic Feature for Code-Switching Speech Recognition}},
@@ -22,6 +23,7 @@ Shuai Zhang, Jiangyan Yi, Zhengkun Tian, Ye Bai, Jianhua Tao, Xuefei Liu, Zhengq
   pages={266--270},
   doi={10.21437/Interspeech.2021-1242}
 }
+{% endraw %}
 ```
 
 Spell checking as conditioned language model
@@ -67,6 +69,7 @@ Experimental setup:
   - average last 5 checkpoints
   - wordpiece vocab: 1k for English, Chinese characters appearing more than 5 times in training set
 
+---
 
 [Phoneme Recognition Through Fine Tuning of Phonetic Representations: A Case Study on Luhya Language Varieties](https://www.isca-speech.org/archive/interspeech_2021/siminyu21_interspeech.html)
 
@@ -76,6 +79,7 @@ Kathleen Siminyu, Xinjian Li, Antonios Anastasopoulos, David R. Mortensen, Micha
 [arXiv](https://arxiv.org/abs/2104.01624)
 
 ```bibtex
+{% raw %}
 @inproceedings{siminyu21_interspeech,
   author={Kathleen Siminyu and Xinjian Li and Antonios Anastasopoulos and David R. Mortensen and Michael R. Marlo and Graham Neubig},
   title={{Phoneme Recognition Through Fine Tuning of Phonetic Representations: A Case Study on Luhya Language Varieties}},
@@ -84,4 +88,5 @@ Kathleen Siminyu, Xinjian Li, Antonios Anastasopoulos, David R. Mortensen, Micha
   pages={271--275},
   doi={10.21437/Interspeech.2021-1434}
 }
+{% raw %}
 ```
