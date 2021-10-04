@@ -18,6 +18,7 @@
 import os
 from pathlib import Path
 import re
+import io
 
 import datasets
 
@@ -174,10 +175,19 @@ class Utterance:
         else:
             return None
 
-    def get_spoken_as(self):
+    def get_spoken_like(self):
         if not self.maybe_xml():
             return
-        
+        source = io.StringIO(self.get_xml())
+        tree = ET.parse(source)
+        root = tree.getroot()
+        slikes = set()
+        for sl in root.findall('./spoken-like'):
+            if 'orth' in sl.attrib:
+                orth = sl.attrib['orth'].strip()
+                text = sl.text.strip()
+                slikes.add((text, orth))
+        return list(slikes)
 
 
 class Sentence:
