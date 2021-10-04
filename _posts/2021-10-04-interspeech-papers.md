@@ -233,3 +233,27 @@ Fine tuning wav2vec2 for accented speech recognition/accent ID
 Dataset:
   - LibriSpeech (pretrain)
   - AESRC2020 (finetune)
+
+---
+
+## TODO
+
+[Multimodal Speech Summarization Through Semantic Concept Learning](https://www.isca-speech.org/archive/interspeech_2021/palaskar21_interspeech.html)
+
+[A Noise Robust Method for Word-Level Pronunciation Assessment](https://www.isca-speech.org/archive/interspeech_2021/lin21_interspeech.html)
+
+[Improving RNN-T for Domain Scaling Using Semi-Supervised Training with Neural TTS](https://www.isca-speech.org/archive/interspeech_2021/deng21_interspeech.html)
+
+[Phonetically Motivated Self-Supervised Speech Representation Learning](https://www.isca-speech.org/archive/interspeech_2021/yue21_interspeech.html)
+
+[slimIPL: Language-Model-Free Iterative Pseudo-Labeling](https://www.isca-speech.org/archive/interspeech_2021/likhomanenko21b_interspeech.html)
+
+[Semi-Supervision in ASR: Sequential MixMatch and Factorized TTS-Based Augmentation](https://www.isca-speech.org/archive/interspeech_2021/chen21c_interspeech.html)
+
+[A Comparison of Supervised and Unsupervised Pre-Training of End-to-End Models](https://www.isca-speech.org/archive/interspeech_2021/misra21_interspeech.html)
+
+[Momentum Pseudo-Labeling for Semi-Supervised Speech Recognition](https://www.isca-speech.org/archive/interspeech_2021/higuchi21_interspeech.html)
+
+[Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training](https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html)
+
+[On the Learning Dynamics of Semi-Supervised Training for ASR](https://www.isca-speech.org/archive/interspeech_2021/wallington21_interspeech.html)
