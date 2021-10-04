@@ -2,8 +2,8 @@
 toc: true
 layout: post
 hidden: true
-description: Misc. interesting things.
-title: Interesting links, 4/10/2021
+description: Interesting papers from Interspeech
+title: Interspeech papers
 categories: [links]
 ---
 
@@ -26,7 +26,7 @@ Shuai Zhang, Jiangyan Yi, Zhengkun Tian, Ye Bai, Jianhua Tao, Xuefei Liu, Zhengq
 {% endraw %}
 ```
 
-Spell checking as conditioned language model
+Spell checking as conditioned language model for code-switching in ASR.
 
 Dataset:
 - ASRU 2019 Mandarin-English code-switching Challenge dataset
@@ -157,6 +157,8 @@ Shreya Khare, Ashish Mittal, Anuj Diwan, Sunita Sarawagi, Preethi Jyothi, Samart
   doi={10.21437/Interspeech.2021-2062}
 }
 ```
+
+Uses text in a second language transliterated to target language to augment training data for ASR.
 
 ---
 
