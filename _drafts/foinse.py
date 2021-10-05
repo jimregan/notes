@@ -29,7 +29,7 @@ This script uses a list of articles retrieved from the
 Wayback Machine to build a corpus
 """
 
-_DATA_URL = ""
+_DATA_URL = "https://huggingface.co/datasets/jimregan/foinse/raw/main/urls.txt"
 
 
 class FoinseDataset(datasets.GeneratorBasedBuilder):
