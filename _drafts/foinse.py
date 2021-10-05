@@ -29,7 +29,7 @@ This script uses a list of articles retrieved from the
 Wayback Machine to build a corpus
 """
 
-_DATA_URL = ""
+_DATA_URL = "https://huggingface.co/datasets/jimregan/foinse/raw/main/urls.txt"
 
 
 class FoinseDataset(datasets.GeneratorBasedBuilder):
@@ -46,14 +46,13 @@ class FoinseDataset(datasets.GeneratorBasedBuilder):
         features = datasets.Features(
             {
                 "title": datasets.Value("string"),
-                "subtitle": datasets.Value("string"),
                 "url": datasets.Value("string"),
                 "author": datasets.Value("string"),
                 "date_text": datasets.Value("string"),
                 "text": datasets.Value("string"),
                 "category": datasets.Value("string"),
-                "summary": datasets.Value("string"),
                 "subcategory": datasets.Value("string"),
+                "summary": datasets.Value("string"),
             }
         )
 
@@ -86,7 +85,7 @@ class FoinseDataset(datasets.GeneratorBasedBuilder):
         for url in links:
             content = get_content(url)
 
-            paras = config.get("text", [])
+            paras = content.get("text", [])
             if self.config.name == "documents":
                 paras = ['\n'.join(paras)]
             for para in paras:
