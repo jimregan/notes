@@ -86,7 +86,7 @@ class FoinseDataset(datasets.GeneratorBasedBuilder):
         for url in links:
             content = get_content(url)
 
-            paras = config.get("text", [])
+            paras = content.get("text", [])
             if self.config.name == "documents":
                 paras = ['\n'.join(paras)]
             for para in paras:
