@@ -46,14 +46,13 @@ class FoinseDataset(datasets.GeneratorBasedBuilder):
         features = datasets.Features(
             {
                 "title": datasets.Value("string"),
-                "subtitle": datasets.Value("string"),
                 "url": datasets.Value("string"),
                 "author": datasets.Value("string"),
                 "date_text": datasets.Value("string"),
                 "text": datasets.Value("string"),
                 "category": datasets.Value("string"),
-                "summary": datasets.Value("string"),
                 "subcategory": datasets.Value("string"),
+                "summary": datasets.Value("string"),
             }
         )
 
