@@ -227,7 +227,7 @@ def translit_phon(text):
   # could have been any 8-bit encoding
   return LASID.transliterate(text.decode('ISO-8859-1').rstrip())
 
-def translit_irish(text, spaces=True):
+def translit_irish(text):
   return TITLES.transliterate(text.decode('ISO-8859-1').rstrip())
 
 
@@ -315,11 +315,11 @@ def process_lasid(filename):
                 data[id] = tmp
                 cur = {}
             elif b'{F' in line:
-                raw = translit_irish(line, False)
+                raw = translit_irish(line)
                 ga = raw[3:-1].strip()
             elif line.decode('ISO-8859-1')[0:1].isnumeric():
                 pid = line.decode('ISO-8859-1')[0:3]
-                ptext = translit_phon(line[3:-1], False)
+                ptext = translit_phon(line[3:-1])
                 if ptext[-1] == '*':
                     ptext = ptext[0:-1]
                 cur[pid] = ptext.strip()
