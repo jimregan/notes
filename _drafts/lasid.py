@@ -297,9 +297,6 @@ class LasidDataset(datasets.GeneratorBasedBuilder):
 def process_lasid(filename):
     data = {}
     cur = {}
-    en = ''
-    ga = ''
-    id = ''
     with open(filename, "rb") as file:
         for line in file.readlines():
             if b'{M' in line:
