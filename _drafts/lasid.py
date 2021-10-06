@@ -303,7 +303,7 @@ def process_lasid(filename):
     with open(filename, "rb") as file:
         for line in file.readlines():
             if b'{M' in line:
-                if en and id and ga and data:
+                if en and id and data:
                     tmp = {}
                     tmp['en'] = en
                     tmp['id'] = id
