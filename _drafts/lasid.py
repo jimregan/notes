@@ -303,17 +303,16 @@ def process_lasid(filename):
     with open(filename, "rb") as file:
         for line in file.readlines():
             if b'{M' in line:
-                prev_en = en
-                prev_id = id
+                if en and id and ga and data:
+                    tmp = {}
+                    tmp['en'] = en
+                    tmp['id'] = id
+                    tmp['ga'] = ga
+                    tmp['data'] = cur
+                    data[id] = tmp
                 text = line.decode('ISO-8859-1').rstrip()
                 id = text[3:7].strip()
                 en = text[7:-1].strip()
-                tmp = {}
-                tmp['en'] = prev_en
-                tmp['id'] = prev_id
-                tmp['ga'] = ga
-                tmp['data'] = cur
-                data[id] = tmp
                 cur = {}
             elif b'{F' in line:
                 raw = translit_irish(line)
