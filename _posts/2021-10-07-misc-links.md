@@ -66,3 +66,7 @@ ds.prepare_for_task(task)
 
 [nuacht24](https://www.youtube.com/channel/UCsQv0m-VbJGW3RFugpGKwMA)
 
+[Ar Chanúintí na Gaeilge](https://antuairisceoir.wordpress.com/2013/12/04/ar-chanuinti-na-gaeilge/) (audio)
+
+[rspeer/python-ftfy](https://github.com/rspeer/python-ftfy) --- Fixes mojibake and other glitches in Unicode text, after the fact.
+
