@@ -36,3 +36,16 @@ categories: [links]
 
 [_parse_tmx()](https://github.com/huggingface/datasets/blob/ed8b06750224a534de5773590b0a491318f3ae6a/datasets/wmt16/wmt_utils.py#L926)
 
+[spaCy : en : test_noun_chunks.py](https://github.com/explosion/spaCy/blob/master/spacy/tests/lang/en/test_noun_chunks.py)
+
+[spacy/lang/en/syntax_iterators.py](https://github.com/explosion/spaCy/blob/master/spacy/lang/en/syntax_iterators.py)
+
+[Add task template for automatic speech recognition](https://github.com/huggingface/datasets/pull/2533)
+
+```python
+task = AutomaticSpeechRecognition(audio_file_column="file", transcription_column="text")
+ds.prepare_for_task(task)
+```
+
+[Create Audio feature #2324](https://github.com/huggingface/datasets/pull/2324)
+
