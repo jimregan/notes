@@ -62,3 +62,7 @@ ds.prepare_for_task(task)
 
 [Wav2vec2 pretraining 2 #13520](https://github.com/huggingface/transformers/pull/13520)
 
+[Seoladh Gaelscéal - nuacht24](https://www.youtube.com/watch?v=3BIdtsKnXtM)
+
+[nuacht24](https://www.youtube.com/channel/UCsQv0m-VbJGW3RFugpGKwMA)
+
