@@ -76,11 +76,50 @@ https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm/unit2spe
 add finetuned robust w2v models and update readme (#2196) · pytorch/fairseq@2513524
 https://github.com/pytorch/fairseq/commit/2513524a1604dbafcc4ea9cc5a99ae0aa4f19694
 
-hubert training fairseq - Google Search
-https://www.google.com/search?q=hubert+training+fairseq&sxsrf=AOaemvK1RE7CKBZuSk4-LSNxroecWVmxaQ:1633439063764&ei=V01cYYKSLtKAgQbM4ovgBA&start=10&sa=N&ved=2ahUKEwjCmaHZqrPzAhVSQMAKHUzxAkwQ8NMDegQIARBO&biw=1366&bih=695&dpr=1
+pytorch/fairseq: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+https://github.com/pytorch/fairseq
 
-facebook/hubert-large-ll60k · Hugging Face
-https://huggingface.co/facebook/hubert-large-ll60k
+fairseq/README.md at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md
+
+2109.11680.pdf
+https://arxiv.org/pdf/2109.11680.pdf
+
+Grapheme-to-phoneme transduction for cross-language ASR — University of Illinois Urbana-Champaign
+https://experts.illinois.edu/en/publications/grapheme-to-phoneme-transduction-for-cross-language-asr
+
+Grapheme-to-Phoneme Transduction for Cross-Language ASR | SpringerLink
+https://link.springer.com/chapter/10.1007%2F978-3-030-59430-5_1
+
+uiuc-sst/g2ps: Data and code for grapheme-to-phoneme transducers in lots of languages
+https://github.com/uiuc-sst/g2ps
+
+www.isle.illinois.edu/speech_web_lg/data/g2ps/
+http://www.isle.illinois.edu/speech_web_lg/data/g2ps/
+
+www.isle.illinois.edu/speech_web_lg/data/g2ps/Swedish/Swedish_wikipedia_symboltable.html
+http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Swedish/Swedish_wikipedia_symboltable.html
+
+www.isle.illinois.edu/speech_web_lg/data/g2ps/Ukrainian/Ukrainian_wikipedia_symboltable.html
+http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Ukrainian/Ukrainian_wikipedia_symboltable.html
+
+www.isle.illinois.edu/speech_web_lg/data/g2ps/Polish/Polish_wikipedia_symboltable.html
+http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Polish/Polish_wikipedia_symboltable.html
+
+SST Publications
+http://www.isle.illinois.edu/sst/pubs/
+
+gao2021zero.pdf
+http://www.isle.illinois.edu/speech_web_lg/pubs/2021/gao2021zero.pdf
+
+tkipf/gcn: Implementation of Graph Convolutional Networks in TensorFlow
+https://github.com/tkipf/gcn
+
+slsp20.pdf
+http://camille-g.com/slsp20.pdf
+
+facebook (Facebook AI)
+https://huggingface.co/facebook
 
 [N] Facebook AI Releases ‘HuBERT’: A New Approach For Learning Self-Supervised Speech Representations : MachineLearning
 https://www.reddit.com/r/MachineLearning/comments/o6txxi/n_facebook_ai_releases_hubert_a_new_approach_for/
@@ -147,4 +186,7 @@ https://github.com/amsehili/auditok
 
 voxpopuli/run_pyannote_sd.py at main · facebookresearch/voxpopuli
 https://github.com/facebookresearch/voxpopuli/blob/main/voxpopuli/segmentation/run_pyannote_sd.py
+
+WhatsApp
+https://web.whatsapp.com/
 
