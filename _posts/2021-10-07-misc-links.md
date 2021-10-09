@@ -66,3 +66,29 @@ ds.prepare_for_task(task)
 
 [nuacht24](https://www.youtube.com/channel/UCsQv0m-VbJGW3RFugpGKwMA)
 
+[Ar Chanúintí na Gaeilge](https://antuairisceoir.wordpress.com/2013/12/04/ar-chanuinti-na-gaeilge/) (audio)
+
+[rspeer/python-ftfy](https://github.com/rspeer/python-ftfy) --- Fixes mojibake and other glitches in Unicode text, after the fact.
+
+[tkipf/gcn](https://github.com/tkipf/gcn) --- Implementation of Graph Convolutional Networks in TensorFlow
+
+```bibtex
+@InProceedings{10.1007/978-3-030-59430-5_1,
+author="Hasegawa-Johnson, Mark
+and Rolston, Leanne
+and Goudeseune, Camille
+and Levow, Gina-Anne
+and Kirchhoff, Katrin",
+editor="Espinosa-Anke, Luis
+and Mart{\'i}n-Vide, Carlos
+and Spasi{\'{c}}, Irena",
+title="Grapheme-to-Phoneme Transduction for Cross-Language ASR",
+booktitle="Statistical Language and Speech Processing",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="3--19",
+abstract="Automatic speech recognition (ASR) can be deployed in a previously unknown language, in less than 24 h, given just three resources: an acoustic model trained on other languages, a set of language-model training data, and a grapheme-to-phoneme (G2P) transducer to connect them. The LanguageNet G2Ps were created with the goal of being small, fast, and easy to port to a previously unseen language. Data come from pronunciation lexicons if available, but if there are no pronunciation lexicons in the target language, then data are generated from minimal resources: from a Wikipedia description of the target language, or from a one-hour interview with a native speaker of the language. Using such methods, the LanguageNet G2Ps now include simple models in nearly 150 languages, with trained finite state transducers in 122 languages, 59 of which are sufficiently well-resourced to permit measurement of their phone error rates. This paper proposes a measure of the distance between the G2Ps in different languages, and demonstrates that agglomerative clustering of the LanguageNet languages bears some resemblance to a phylogeographic language family tree. The LanguageNet G2Ps proposed in this paper have already been applied in three cross-language ASRs, using both hybrid and end-to-end neural architectures, and further experiments are ongoing.",
+isbn="978-3-030-59430-5"
+}
+```
