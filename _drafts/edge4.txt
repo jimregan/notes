@@ -85,35 +85,17 @@ https://github.com/pytorch/fairseq/blob/main/examples/wav2vec/README.md
 2109.11680.pdf
 https://arxiv.org/pdf/2109.11680.pdf
 
-Grapheme-to-phoneme transduction for cross-language ASR — University of Illinois Urbana-Champaign
-https://experts.illinois.edu/en/publications/grapheme-to-phoneme-transduction-for-cross-language-asr
-
 Grapheme-to-Phoneme Transduction for Cross-Language ASR | SpringerLink
 https://link.springer.com/chapter/10.1007%2F978-3-030-59430-5_1
 
 uiuc-sst/g2ps: Data and code for grapheme-to-phoneme transducers in lots of languages
 https://github.com/uiuc-sst/g2ps
 
-www.isle.illinois.edu/speech_web_lg/data/g2ps/
-http://www.isle.illinois.edu/speech_web_lg/data/g2ps/
-
-www.isle.illinois.edu/speech_web_lg/data/g2ps/Swedish/Swedish_wikipedia_symboltable.html
-http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Swedish/Swedish_wikipedia_symboltable.html
-
-www.isle.illinois.edu/speech_web_lg/data/g2ps/Ukrainian/Ukrainian_wikipedia_symboltable.html
-http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Ukrainian/Ukrainian_wikipedia_symboltable.html
-
-www.isle.illinois.edu/speech_web_lg/data/g2ps/Polish/Polish_wikipedia_symboltable.html
-http://www.isle.illinois.edu/speech_web_lg/data/g2ps/Polish/Polish_wikipedia_symboltable.html
-
 SST Publications
 http://www.isle.illinois.edu/sst/pubs/
 
 gao2021zero.pdf
 http://www.isle.illinois.edu/speech_web_lg/pubs/2021/gao2021zero.pdf
-
-tkipf/gcn: Implementation of Graph Convolutional Networks in TensorFlow
-https://github.com/tkipf/gcn
 
 slsp20.pdf
 http://camille-g.com/slsp20.pdf
@@ -148,23 +130,11 @@ https://github.com/pytorch/fairseq/tree/main/examples/hubert#pre-train-a-hubert-
 2106.07447.pdf
 https://arxiv.org/pdf/2106.07447.pdf
 
-Failed extracting features for HUBERT ? · Issue #3663 · pytorch/fairseq
-https://github.com/pytorch/fairseq/issues/3663
-
-Sample code for fine-tuning HuBERT with Persian Dataset · Issue #3632 · pytorch/fairseq
-https://github.com/pytorch/fairseq/issues/3632
-
-Inference of unsupervised wav2vec model · Issue #3677 · pytorch/fairseq
-https://github.com/pytorch/fairseq/issues/3677
-
 2006.11477.pdf
 https://arxiv.org/pdf/2006.11477.pdf
 
 Speech segmentation - Wikipedia
 https://en.wikipedia.org/wiki/Speech_segmentation
-
-VoxCeleb
-https://www.robots.ox.ac.uk/~vgg/data/voxceleb/
 
 mgaido91/FBK-fairseq-ST: A repository containing the code for speech translation papers.
 https://github.com/mgaido91/FBK-fairseq-ST
