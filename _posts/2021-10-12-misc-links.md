@@ -353,3 +353,24 @@ categories: [links]
     pages = "175--181",
 }
 ```
+
+[Higher-order Derivatives of Weighted Finite-state Machines](https://aclanthology.org/2021.acl-short.32/),
+[pdf](https://aclanthology.org/2021.acl-short.32.pdf),
+[code](https://github.com/rycolab/wfsm)
+
+```bibtex
+@inproceedings{zmigrod-etal-2021-higher,
+    title = "Higher-order Derivatives of Weighted Finite-state Machines",
+    author = "Zmigrod, Ran  and
+      Vieira, Tim  and
+      Cotterell, Ryan",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-short.32",
+    doi = "10.18653/v1/2021.acl-short.32",
+    pages = "240--248",
+}
+```
