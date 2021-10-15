@@ -158,13 +158,13 @@ class UtteranceXMLDataset(datasets.GeneratorBasedBuilder):
 
 
 class Utterance:
-    def __init__(self, input, sentences, spoken_as=None):
+    def __init__(self, input, sentences, spoken_like=None):
         self.input = input
         self.sentences = sentences
-        if spoken_as is None:
+        if spoken_like is None:
             self.spoken_as = []
         else:
-            self.spoken_as = spoken_as
+            self.spoken_as = spoken_like
 
     def maybe_xml(self):
         return "&lt;" in self.input

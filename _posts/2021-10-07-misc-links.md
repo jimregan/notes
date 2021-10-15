@@ -66,3 +66,34 @@ ds.prepare_for_task(task)
 
 [nuacht24](https://www.youtube.com/channel/UCsQv0m-VbJGW3RFugpGKwMA)
 
+[Ar Chanúintí na Gaeilge](https://antuairisceoir.wordpress.com/2013/12/04/ar-chanuinti-na-gaeilge/) (audio)
+
+[rspeer/python-ftfy](https://github.com/rspeer/python-ftfy) --- Fixes mojibake and other glitches in Unicode text, after the fact.
+
+[tkipf/gcn](https://github.com/tkipf/gcn) --- Implementation of Graph Convolutional Networks in TensorFlow
+
+[Grapheme-to-Phoneme Transduction for Cross-Language ASR](https://link.springer.com/chapter/10.1007%2F978-3-030-59430-5_1),
+[preprint](http://camille-g.com/slsp20.pdf)
+
+```bibtex
+{% raw %}
+@InProceedings{hasegawa20g2p,
+author="Hasegawa-Johnson, Mark
+and Rolston, Leanne
+and Goudeseune, Camille
+and Levow, Gina-Anne
+and Kirchhoff, Katrin",
+editor="Espinosa-Anke, Luis
+and Mart{\'i}n-Vide, Carlos
+and Spasi{\'{c}}, Irena",
+title="Grapheme-to-Phoneme Transduction for Cross-Language ASR",
+booktitle="Statistical Language and Speech Processing",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="3--19",
+doi="10.1007/978-3-030-59430-5_1",
+isbn="978-3-030-59430-5"
+}
+{% endraw %}
+```
