@@ -19,3 +19,5 @@ categories: [links]
 - [MatrixNet](https://yandex.com/company/technologies/matrixnet/)
 - [Neural Vector Spaces for Unsupervised Information Retrieval](https://arxiv.org/abs/1708.02702)
 
+[Focus - Free edition](http://focusmanifesto.s3.amazonaws.com/FocusFree.pdf)
+
