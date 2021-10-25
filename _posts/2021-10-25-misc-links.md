@@ -41,3 +41,6 @@ categories: [links]
 
 [pdf](https://aclanthology.org/2020.ldl-1.9.pdf), [code](https://github.com/yalemisewAbgaz/TEI-XML_Mapping) (not open source)
 
+[ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) --- An implementation of Microsoft's "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"
+
+[bigscience-workshop/promptsource](https://github.com/bigscience-workshop/promptsource)
