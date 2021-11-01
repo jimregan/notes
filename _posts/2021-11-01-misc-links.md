@@ -24,5 +24,18 @@ categories: [links]
 
 [lumaku/ctc-segmentation](https://github.com/lumaku/ctc-segmentation) --- Segment an audio file and obtain utterance alignments
 
+[microsoft/unilm](https://github.com/microsoft/unilm)
+
+[microsoft/layoutxlm-base](https://huggingface.co/microsoft/layoutxlm-base)
+
+[microsoft/icecaps](https://github.com/microsoft/icecaps) --- Intelligent Conversation Engine: Code and Pre-trained Systems. Version 0.2.0.
+
+[chenzhuo1011/libri_css](https://github.com/chenzhuo1011/libri_css) --- Continuous speech separation
+
+[microsoft/UniSpeech](https://github.com/microsoft/UniSpeech) --- UniSpeech - Large Scale Self-Supervised Learning for Speech,
+[transformers](https://github.com/huggingface/transformers/pull/13963)
+
+
+
 
 
