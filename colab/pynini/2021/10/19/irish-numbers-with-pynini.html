@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Irish number normalisation with Pynini | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Irish number normalisation with Pynini" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Is it worth doing?" />
+<meta property="og:description" content="Is it worth doing?" />
+<link rel="canonical" href="https://jimregan.github.io/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-19T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html","@type":"BlogPosting","headline":"Irish number normalisation with Pynini","dateModified":"2021-10-19T00:00:00-05:00","datePublished":"2021-10-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html"},"description":"Is it worth doing?","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Irish number normalisation with Pynini</h1><p class="page-description">Is it worth doing?</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-19T00:00:00-05:00" itemprop="datePublished">
+        Oct 19, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#colab">colab</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#pynini">pynini</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2021-10-19-irish-numbers-with-pynini.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2021-10-19-irish-numbers-with-pynini.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2021-10-19-irish-numbers-with-pynini.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-10-19-irish-numbers-with-pynini.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">condacolab</span>
+<span class="kn">import</span> <span class="nn">condacolab</span>
+<span class="n">condacolab</span><span class="o">.</span><span class="n">install</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>⏬ Downloading https://github.com/jaimergp/miniforge/releases/latest/download/Mambaforge-colab-Linux-x86_64.sh...
+📦 Installing...
+📌 Adjusting configuration...
+🩹 Patching environment...
+⏲ Done in 0:00:39
+🔁 Restarting kernel...
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="n">pynini</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pyicu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">pynini</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">icu</span>
+<span class="n">formatter</span> <span class="o">=</span> <span class="n">icu</span><span class="o">.</span><span class="n">RuleBasedNumberFormat</span><span class="p">(</span><span class="n">icu</span><span class="o">.</span><span class="n">URBNFRuleSetTag</span><span class="o">.</span><span class="n">SPELLOUT</span><span class="p">,</span> <span class="n">icu</span><span class="o">.</span><span class="n">Locale</span><span class="p">(</span><span class="s1">&#39;ga&#39;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>a náid
+a haon
+a dó
+a trí
+a ceathair
+a cúig
+a sé
+a seacht
+a hocht
+a naoi
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;a náid&quot;</span><span class="p">)</span> <span class="o">|</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;1&quot;</span><span class="p">,</span> <span class="s2">&quot;a haon&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_svg output_subarea output_execute_result">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+<!-- Generated by graphviz version 2.49.1 (20211004.0028)
+ -->
+<!-- Title: FST Pages: 1 -->
+<svg width="612pt" height="82pt" viewBox="0.00 0.00 612.00 82.46" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.73 0.73) rotate(0) translate(4 108.5)">
+<title>FST</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-108.5 830.98,-108.5 830.98,4 -4,4" />
+<!-- 15 -->
+<g id="node1" class="node">
+<title>15</title>
+<ellipse fill="none" stroke="black" stroke-width="2" cx="19.5" cy="-52.5" rx="19.5" ry="19.5" />
+<text text-anchor="middle" x="19.5" y="-48.8" font-family="Times,serif" font-size="14.00">15</text>
+</g>
+<!-- 0 -->
+<g id="node2" class="node">
+<title>0</title>
+<ellipse fill="none" stroke="black" cx="105" cy="-79.5" rx="18" ry="18" />
+<text text-anchor="middle" x="105" y="-75.8" font-family="Times,serif" font-size="14.00">0</text>
+</g>
+<!-- 15&#45;&gt;0 -->
+<g id="edge1" class="edge">
+<title>15&#45;&gt;0</title>
+<path fill="none" stroke="black" d="M38.21,-58.22C49.76,-61.96 65.05,-66.91 77.98,-71.09" />
+<polygon fill="black" stroke="black" points="77.14,-74.49 87.73,-74.24 79.29,-67.83 77.14,-74.49" />
+<text text-anchor="middle" x="63" y="-72.3" font-family="Times,serif" font-size="14.00">0:0</text>
+</g>
+<!-- 8 -->
+<g id="node3" class="node">
+<title>8</title>
+<ellipse fill="none" stroke="black" cx="105" cy="-25.5" rx="18" ry="18" />
+<text text-anchor="middle" x="105" y="-21.8" font-family="Times,serif" font-size="14.00">8</text>
+</g>
+<!-- 15&#45;&gt;8 -->
+<g id="edge2" class="edge">
+<title>15&#45;&gt;8</title>
+<path fill="none" stroke="black" d="M38.21,-46.77C49.76,-43.03 65.05,-38.09 77.98,-33.91" />
+<polygon fill="black" stroke="black" points="79.29,-37.17 87.73,-30.76 77.14,-30.5 79.29,-37.17" />
+<text text-anchor="middle" x="63" y="-45.3" font-family="Times,serif" font-size="14.00">0:0</text>
+</g>
+<!-- 1 -->
+<g id="node4" class="node">
+<title>1</title>
+<ellipse fill="none" stroke="black" cx="202" cy="-79.5" rx="18" ry="18" />
+<text text-anchor="middle" x="202" y="-75.8" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- 0&#45;&gt;1 -->
+<g id="edge3" class="edge">
+<title>0&#45;&gt;1</title>
+<path fill="none" stroke="black" d="M123.42,-79.5C137.35,-79.5 157.14,-79.5 173.24,-79.5" />
+<polygon fill="black" stroke="black" points="173.68,-83 183.68,-79.5 173.68,-76 173.68,-83" />
+<text text-anchor="middle" x="153.5" y="-83.3" font-family="Times,serif" font-size="14.00">48:97</text>
+</g>
+<!-- 9 -->
+<g id="node11" class="node">
+<title>9</title>
+<ellipse fill="none" stroke="black" cx="202" cy="-25.5" rx="18" ry="18" />
+<text text-anchor="middle" x="202" y="-21.8" font-family="Times,serif" font-size="14.00">9</text>
+</g>
+<!-- 8&#45;&gt;9 -->
+<g id="edge10" class="edge">
+<title>8&#45;&gt;9</title>
+<path fill="none" stroke="black" d="M123.42,-25.5C137.35,-25.5 157.14,-25.5 173.24,-25.5" />
+<polygon fill="black" stroke="black" points="173.68,-29 183.68,-25.5 173.68,-22 173.68,-29" />
+<text text-anchor="middle" x="153.5" y="-29.3" font-family="Times,serif" font-size="14.00">49:97</text>
+</g>
+<!-- 2 -->
+<g id="node5" class="node">
+<title>2</title>
+<ellipse fill="none" stroke="black" cx="294.49" cy="-80.5" rx="18" ry="18" />
+<text text-anchor="middle" x="294.49" y="-76.8" font-family="Times,serif" font-size="14.00">2</text>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge4" class="edge">
+<title>1&#45;&gt;2</title>
+<path fill="none" stroke="black" d="M220.02,-79.69C232.96,-79.83 251.02,-80.03 266,-80.19" />
+<polygon fill="black" stroke="black" points="266.2,-83.7 276.24,-80.31 266.28,-76.7 266.2,-83.7" />
+<text text-anchor="middle" x="247.5" y="-84.3" font-family="Times,serif" font-size="14.00">0:32</text>
+</g>
+<!-- 3 -->
+<g id="node6" class="node">
+<title>3</title>
+<ellipse fill="none" stroke="black" cx="394.49" cy="-80.5" rx="18" ry="18" />
+<text text-anchor="middle" x="394.49" y="-76.8" font-family="Times,serif" font-size="14.00">3</text>
+</g>
+<!-- 2&#45;&gt;3 -->
+<g id="edge5" class="edge">
+<title>2&#45;&gt;3</title>
+<path fill="none" stroke="black" d="M312.56,-80.5C327.37,-80.5 349.06,-80.5 366.26,-80.5" />
+<polygon fill="black" stroke="black" points="366.29,-84 376.29,-80.5 366.29,-77 366.29,-84" />
+<text text-anchor="middle" x="344.49" y="-84.3" font-family="Times,serif" font-size="14.00">0:110</text>
+</g>
+<!-- 4 -->
+<g id="node7" class="node">
+<title>4</title>
+<ellipse fill="none" stroke="black" cx="494.49" cy="-80.5" rx="18" ry="18" />
+<text text-anchor="middle" x="494.49" y="-76.8" font-family="Times,serif" font-size="14.00">4</text>
+</g>
+<!-- 3&#45;&gt;4 -->
+<g id="edge6" class="edge">
+<title>3&#45;&gt;4</title>
+<path fill="none" stroke="black" d="M412.56,-80.5C427.37,-80.5 449.06,-80.5 466.26,-80.5" />
+<polygon fill="black" stroke="black" points="466.29,-84 476.29,-80.5 466.28,-77 466.29,-84" />
+<text text-anchor="middle" x="444.49" y="-84.3" font-family="Times,serif" font-size="14.00">0:195</text>
+</g>
+<!-- 5 -->
+<g id="node8" class="node">
+<title>5</title>
+<ellipse fill="none" stroke="black" cx="594.48" cy="-81.5" rx="18" ry="18" />
+<text text-anchor="middle" x="594.48" y="-77.8" font-family="Times,serif" font-size="14.00">5</text>
+</g>
+<!-- 4&#45;&gt;5 -->
+<g id="edge7" class="edge">
+<title>4&#45;&gt;5</title>
+<path fill="none" stroke="black" d="M512.56,-80.67C527.36,-80.82 549.05,-81.04 566.25,-81.22" />
+<polygon fill="black" stroke="black" points="566.25,-84.72 576.28,-81.32 566.32,-77.72 566.25,-84.72" />
+<text text-anchor="middle" x="544.49" y="-85.3" font-family="Times,serif" font-size="14.00">0:161</text>
+</g>
+<!-- 6 -->
+<g id="node9" class="node">
+<title>6</title>
+<ellipse fill="none" stroke="black" cx="698.48" cy="-82.5" rx="18" ry="18" />
+<text text-anchor="middle" x="698.48" y="-78.8" font-family="Times,serif" font-size="14.00">6</text>
+</g>
+<!-- 5&#45;&gt;6 -->
+<g id="edge8" class="edge">
+<title>5&#45;&gt;6</title>
+<path fill="none" stroke="black" d="M612.79,-81.67C628.56,-81.82 652.12,-82.05 670.39,-82.23" />
+<polygon fill="black" stroke="black" points="670.4,-85.73 680.43,-82.33 670.47,-78.73 670.4,-85.73" />
+<text text-anchor="middle" x="644.48" y="-86.3" font-family="Times,serif" font-size="14.00">0:105</text>
+</g>
+<!-- 7 -->
+<g id="node10" class="node">
+<title>7</title>
+<ellipse fill="none" stroke="black" cx="804.98" cy="-82.5" rx="18" ry="18" />
+<ellipse fill="none" stroke="black" cx="804.98" cy="-82.5" rx="22" ry="22" />
+<text text-anchor="middle" x="804.98" y="-78.8" font-family="Times,serif" font-size="14.00">7</text>
+</g>
+<!-- 6&#45;&gt;7 -->
+<g id="edge9" class="edge">
+<title>6&#45;&gt;7</title>
+<path fill="none" stroke="black" d="M716.74,-82.5C731.86,-82.5 754.21,-82.5 772.5,-82.5" />
+<polygon fill="black" stroke="black" points="772.72,-86 782.72,-82.5 772.72,-79 772.72,-86" />
+<text text-anchor="middle" x="752.48" y="-86.3" font-family="Times,serif" font-size="14.00">0:100</text>
+</g>
+<!-- 10 -->
+<g id="node12" class="node">
+<title>10</title>
+<ellipse fill="none" stroke="black" cx="294.49" cy="-25.5" rx="19.5" ry="19.5" />
+<text text-anchor="middle" x="294.49" y="-21.8" font-family="Times,serif" font-size="14.00">10</text>
+</g>
+<!-- 9&#45;&gt;10 -->
+<g id="edge11" class="edge">
+<title>9&#45;&gt;10</title>
+<path fill="none" stroke="black" d="M220.02,-25.5C232.63,-25.5 250.1,-25.5 264.85,-25.5" />
+<polygon fill="black" stroke="black" points="264.99,-29 274.99,-25.5 264.99,-22 264.99,-29" />
+<text text-anchor="middle" x="247.5" y="-29.3" font-family="Times,serif" font-size="14.00">0:32</text>
+</g>
+<!-- 11 -->
+<g id="node13" class="node">
+<title>11</title>
+<ellipse fill="none" stroke="black" cx="394.49" cy="-25.5" rx="19.5" ry="19.5" />
+<text text-anchor="middle" x="394.49" y="-21.8" font-family="Times,serif" font-size="14.00">11</text>
+</g>
+<!-- 10&#45;&gt;11 -->
+<g id="edge12" class="edge">
+<title>10&#45;&gt;11</title>
+<path fill="none" stroke="black" d="M314.39,-25.5C328.72,-25.5 348.65,-25.5 364.92,-25.5" />
+<polygon fill="black" stroke="black" points="364.99,-29 374.99,-25.5 364.99,-22 364.99,-29" />
+<text text-anchor="middle" x="344.49" y="-29.3" font-family="Times,serif" font-size="14.00">0:104</text>
+</g>
+<!-- 12 -->
+<g id="node14" class="node">
+<title>12</title>
+<ellipse fill="none" stroke="black" cx="494.49" cy="-25.5" rx="19.5" ry="19.5" />
+<text text-anchor="middle" x="494.49" y="-21.8" font-family="Times,serif" font-size="14.00">12</text>
+</g>
+<!-- 11&#45;&gt;12 -->
+<g id="edge13" class="edge">
+<title>11&#45;&gt;12</title>
+<path fill="none" stroke="black" d="M414.39,-25.5C428.71,-25.5 448.64,-25.5 464.92,-25.5" />
+<polygon fill="black" stroke="black" points="464.98,-29 474.98,-25.5 464.98,-22 464.98,-29" />
+<text text-anchor="middle" x="444.49" y="-29.3" font-family="Times,serif" font-size="14.00">0:97</text>
+</g>
+<!-- 13 -->
+<g id="node15" class="node">
+<title>13</title>
+<ellipse fill="none" stroke="black" cx="594.48" cy="-25.5" rx="19.5" ry="19.5" />
+<text text-anchor="middle" x="594.48" y="-21.8" font-family="Times,serif" font-size="14.00">13</text>
+</g>
+<!-- 12&#45;&gt;13 -->
+<g id="edge14" class="edge">
+<title>12&#45;&gt;13</title>
+<path fill="none" stroke="black" d="M514.38,-25.5C528.71,-25.5 548.64,-25.5 564.91,-25.5" />
+<polygon fill="black" stroke="black" points="564.98,-29 574.98,-25.5 564.98,-22 564.98,-29" />
+<text text-anchor="middle" x="544.49" y="-29.3" font-family="Times,serif" font-size="14.00">0:111</text>
+</g>
+<!-- 14 -->
+<g id="node16" class="node">
+<title>14</title>
+<ellipse fill="none" stroke="black" cx="698.48" cy="-23.5" rx="19.5" ry="19.5" />
+<ellipse fill="none" stroke="black" cx="698.48" cy="-23.5" rx="23.5" ry="23.5" />
+<text text-anchor="middle" x="698.48" y="-19.8" font-family="Times,serif" font-size="14.00">14</text>
+</g>
+<!-- 13&#45;&gt;14 -->
+<g id="edge15" class="edge">
+<title>13&#45;&gt;14</title>
+<path fill="none" stroke="black" d="M614.19,-25.13C628.25,-24.86 647.87,-24.47 664.54,-24.14" />
+<polygon fill="black" stroke="black" points="665.05,-27.64 674.98,-23.94 664.91,-20.64 665.05,-27.64" />
+<text text-anchor="middle" x="644.48" y="-29.3" font-family="Times,serif" font-size="14.00">0:110</text>
+</g>
+</g>
+</svg>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>001
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">count_1_999</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">count_1_999_x1000</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="s2">&quot;999&quot;</span> <span class="o">@</span> <span class="n">count_1_999_x1000</span><span class="p">)</span><span class="o">.</span><span class="n">string</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;naoi gcéad nócha is naoi míle&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">count_1_999_x1000000</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="mi">1000000</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">drop_000</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;000&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">ins_space</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">ins_space_or_is</span> <span class="o">=</span> <span class="p">(</span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span> <span class="o">|</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot; is &quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="s2">&quot;999&quot;</span> <span class="o">@</span> <span class="n">count_1_999_x1000000</span><span class="p">)</span><span class="o">.</span><span class="n">string</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;naoi gcéad nócha is naoi milliún&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">count_1_999999</span> <span class="o">=</span> <span class="p">(</span><span class="n">count_1_999_x1000</span> <span class="o">+</span> <span class="n">drop_000</span> <span class="o">|</span> <span class="n">count_1_999_x1000</span> <span class="o">+</span> <span class="n">ins_space</span> <span class="o">+</span> <span class="n">count_1_999</span> <span class="o">|</span> <span class="n">drop_000</span> <span class="o">+</span> <span class="n">count_1_999</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="p">(</span><span class="s2">&quot;000001&quot;</span> <span class="o">@</span> <span class="n">count_1_999999</span><span class="p">)</span><span class="o">.</span><span class="n">string</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;a haon&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We want a fairly large number for this to be worth it; unfortunately, memory limits get in the way, so building up in sections is the only way forward.</p>
+<p>IOW, pynini gives no advantage over thrax.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#count_0_1000000000000 = pynini.union(*[pynini.cross(f&quot;{i:03d}&quot;, formatter.format(i)) for i in range(0, 1000000000000)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I can still generate list parts, though</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;count-1-999.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+    <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;count-1-999-thousands.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+    <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;count-1-999-billions.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+    <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">03d</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">formatter</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span> <span class="o">*</span> <span class="mi">1000000000</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
