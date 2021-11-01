@@ -10,7 +10,7 @@ categories: [links]
 [Phrase Retrieval and Beyond](https://princeton-nlp.github.io/phrase-retrieval-and-beyond/), 
 [princeton-nlp/DensePhrases](https://github.com/princeton-nlp/DensePhrases)
 
-[gong-io/gecko](https://github.com/gong-io/gecko)
+[gong-io/gecko](https://github.com/gong-io/gecko) --- Gecko - A Tool for Effective Annotation of Human Conversations
 
 [camelot-dev/camelot](https://github.com/camelot-dev/camelot) --- A Python library to extract tabular data from PDFs
 
@@ -28,3 +28,4 @@ categories: [links]
 
 [aimhubio/aim](https://github.com/aimhubio/aim) --- an easy-to-use and performant open-source experiment tracker.
 
+[jina-ai/finetuner](https://github.com/jina-ai/finetuner) --- Finetuning any DNN for better embedding on neural search tasks

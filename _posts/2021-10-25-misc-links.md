@@ -44,3 +44,26 @@ categories: [links]
 [ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) --- An implementation of Microsoft's "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"
 
 [bigscience-workshop/promptsource](https://github.com/bigscience-workshop/promptsource)
+
+[aimhubio/aim](https://github.com/aimhubio/aim)
+
+```python
+from aim.hugging_face import AimCallback
+
+# ...
+aim_callback = AimCallback(repo='/path/to/logs/dir', experiment='mnli')
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset if training_args.do_train else None,
+    eval_dataset=eval_dataset if training_args.do_eval else None,
+    callbacks=[aim_callback],
+    # ...
+)
+```
+
+[d99kris/spacy-cpp](https://github.com/d99kris/spacy-cpp)
+
+[r9y9/nnmnkwii](https://github.com/r9y9/nnmnkwii)
+
+[R2R](http://wifo5-03.informatik.uni-mannheim.de/bizer/r2r/)
