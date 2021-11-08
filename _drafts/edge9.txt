@@ -1,0 +1,19 @@
+lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
+https://github.com/lumaku/ctc-segmentation
+
+kaldi-long-audio-alignment/build-trigram.sh at master · srinivr/kaldi-long-audio-alignment
+https://github.com/srinivr/kaldi-long-audio-alignment/blob/master/scripts/build-trigram.sh
+
+voxpopuli/voxpopuli/segmentation at main · facebookresearch/voxpopuli
+https://github.com/facebookresearch/voxpopuli/tree/main/voxpopuli/segmentation
+
+voxpopuli/get_segment_pyannote_speaker.py at main · facebookresearch/voxpopuli
+https://github.com/facebookresearch/voxpopuli/blob/main/voxpopuli/segmentation/get_segment_pyannote_speaker.py
+
+amsehili/auditok: An audio/acoustic activity detection and audio segmentation tool
+https://github.com/amsehili/auditok
+
+voxpopuli/run_pyannote_sd.py at main · facebookresearch/voxpopuli
+https://github.com/facebookresearch/voxpopuli/blob/main/voxpopuli/segmentation/run_pyannote_sd.py
+
+

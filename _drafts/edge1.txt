@@ -1,0 +1,184 @@
+Welcome to Montreal Forced Aligner’s documentation! — Montreal Forced Aligner 2.0.0b3 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/
+
+Data preparation — Montreal Forced Aligner 2.0.0b3 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/data_prep.html
+
+Dictionary format — Montreal Forced Aligner 2.0.0b3 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/dictionary.html#per-speaker-dictionaries
+
+Dictionary format — Montreal Forced Aligner 2.0.0b3 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/dictionary.html#multilingual-ipa-mode
+
+Pretrained models — Montreal Forced Aligner 2.0.0b3 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/pretrained_models.html
+
+MontrealCorpusTools/mfa-models: Collection of pretrained models for the Montreal Forced Aligner
+https://github.com/MontrealCorpusTools/mfa-models/
+
+PyTorch Implementation of Daft-Exprt: Robust Prosody Transfer Across Speakers for Expressive Speech Synthesis
+https://reposhub.com/python/deep-learning/keonlee9420-Daft-Exprt.html
+
+dhuit - Wiktionary
+https://en.wiktionary.org/wiki/dhuit#Irish
+
+adrad - Wiktionary
+https://en.wiktionary.org/wiki/adrad#Old_Irish
+
+de - Wiktionary
+https://en.wiktionary.org/wiki/de#Irish
+
+desna - Wiktionary
+https://en.wiktionary.org/wiki/desna#Irish
+
+wikipron - Google Search
+https://www.google.com/search?q=wikipron&oq=wikipron&aqs=edge..69i57j0i10i433j0i10l6j5.1529j0j1&sourceid=chrome&ie=UTF-8
+
+wikipron/data at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/tree/master/data
+
+[ger] Split into Swiss German and Germany German. [nep] removes a duplicate from `languages.json` by yeonju123 · Pull Request #286 · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/pull/286
+
+Commits · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/commits/master?after=e00ed6312c4f20cbd11f8fe5552fa1a67bdb24b5+34&branch=master
+
+ICE CG updated (#426) · CUNY-CL/wikipron@55aec4d
+https://github.com/CUNY-CL/wikipron/commit/55aec4d41700d8a4f50a781ce8c008c1b5533b61
+
+kylebgorman (Kyle Gorman) / Repositories
+https://github.com/kylebgorman?tab=repositories
+
+kylebgorman/SOTA-taggers: Code for Gorman & Bedrick's "We need to talk about standard splits" (ACL '19)
+https://github.com/kylebgorman/SOTA-taggers
+
+latin_scansion/grammars at master · kylebgorman/latin_scansion
+https://github.com/kylebgorman/latin_scansion/tree/master/grammars
+
+kylebgorman/latin_scansion
+https://github.com/kylebgorman/latin_scansion
+
+latin_scansion/textproto.py at master · kylebgorman/latin_scansion
+https://github.com/kylebgorman/latin_scansion/blob/master/latin_scansion/lib/textproto.py
+
+kylebgorman (Kyle Gorman) / October 2021
+https://github.com/kylebgorman?tab=overview&from=2021-10-01&to=2021-10-31
+
+CUNY-CL/wikipron: Massively multilingual pronunciation mining
+https://github.com/CUNY-CL/wikipron
+
+ElementAI/build-pynini-wheels: Build `manylinux2014_x86_64` Python wheels for `pynini`, wrapping all its dependencies.
+https://github.com/ElementAI/build-pynini-wheels
+
+WikipediaHomographData/wordids.tsv at master · google/WikipediaHomographData
+https://github.com/google/WikipediaHomographData/blob/master/data/wordids.tsv
+
+latin_scansion/scansion_test.py at e261617c12d914deee4c01f9a72c0733813c952f · kylebgorman/latin_scansion
+https://github.com/kylebgorman/latin_scansion/blob/e261617c12d914deee4c01f9a72c0733813c952f/tests/scansion_test.py
+
+latin_scansion/__init__.py at master · kylebgorman/latin_scansion
+https://github.com/kylebgorman/latin_scansion/blob/master/latin_scansion/__init__.py
+
+kylebgorman/swipe: A pitch tracker using Camacho's SWIPE' algorithm, written in C
+https://github.com/kylebgorman/swipe
+
+perceptronix/model.py at master · kylebgorman/perceptronix
+https://github.com/kylebgorman/perceptronix/blob/master/apps/pos_tagger/model.py
+
+unimorph/gle
+https://github.com/unimorph/gle
+
+unimorph/pol: Polish
+https://github.com/unimorph/pol
+
+CUNY-CL/wikipron: Massively multilingual pronunciation mining
+https://github.com/CUNY-CL/wikipron#models
+
+wikipron-modeling/align.py at master · CUNY-CL/wikipron-modeling
+https://github.com/CUNY-CL/wikipron-modeling/blob/master/fst/align.py
+
+wikipron/HOWTO.md at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/phones/HOWTO.md
+
+wikipron/data/scrape/tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/tree/master/data/scrape/tsv
+
+wikipron/gle_latn_broad.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/gle_latn_broad.tsv
+
+wikipron/README.md at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/morphology/README.md
+
+wikipron/data/scrape at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/tree/master/data/scrape
+
+wikipron/dsb_latn_broad.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/dsb_latn_broad.tsv
+
+wikipron/gle_latn_broad.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/gle_latn_broad.tsv
+
+wikipron/gle_latn_narrow.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/gle_latn_narrow.tsv
+
+wikipron/glv_latn_broad.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/glv_latn_broad.tsv
+
+wikipron/glv_latn_narrow.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/glv_latn_narrow.tsv
+
+wikipron/gla_latn_broad.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/gla_latn_broad.tsv
+
+aithin - Wiktionary
+https://en.wiktionary.org/wiki/aithin#Irish
+
+carraig - Wiktionary
+https://en.wiktionary.org/wiki/carraig
+
+bonnach - Wiktionary
+https://en.wiktionary.org/wiki/bonnach
+
+PythonEggs - The PEAK Developers' Center
+http://peak.telecommunity.com/DevCenter/PythonEggs#accessing-package-resources
+
+Help:IPA/Irish - Wikipedia
+https://en.wikipedia.org/wiki/Help:IPA/Irish
+
+csvw · PyPI
+https://pypi.org/project/csvw/
+
+Cross-Linguistic Data Formats
+https://github.com/cldf
+
+cldf/cookbook: Recipes for cooking with CLDF data
+https://github.com/cldf/cookbook
+
+cookbook/recipes/excel at master · cldf/cookbook
+https://github.com/cldf/cookbook/tree/master/recipes/excel
+
+cldf/components/forms at master · cldf/cldf
+https://github.com/cldf/cldf/tree/master/components/forms
+
+cookbook/README.md at master · cldf/cookbook
+https://github.com/cldf/cookbook/blob/master/recipes/datasette/README.md
+
+cookbook/recipes/cldf_lingpy at master · cldf/cookbook
+https://github.com/cldf/cookbook/tree/master/recipes/cldf_lingpy
+
+Whats New in Version 2.6.8? — LingPy
+http://lingpy.org/news.html#adding-support-to-read-cldf
+
+Workflow Example — LingPy
+http://lingpy.org/tutorial/workflow.html
+
+Foclóir Gaeilge–Béarla (Ó Dónaill): abhainn
+https://www.teanglann.ie/en/fgb/abhainn
+
+briocáin | Focail Fholaithe
+http://focailfholaithe.fng.ie/content/brioc%C3%A1in-0
+
+áibhéil - Wiktionary
+https://en.wiktionary.org/wiki/%C3%A1ibh%C3%A9il
+
+
