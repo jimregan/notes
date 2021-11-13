@@ -17,7 +17,10 @@ categories: [links]
 
 [erikrose/parsimonious](https://github.com/erikrose/parsimonious)
 
-[Irish lemmatiser for SpaCy](https://github.com/explosion/spaCy/pull/9102)
+[Irish lemmatiser for SpaCy](https://github.com/explosion/spaCy/pull/9102),
+[commit](https://github.com/explosion/spaCy/commit/8fe525beb5b9d0948e52de0f0aeb87df01287e65) +
+[data](https://github.com/explosion/spacy-lookups-data/pull/29),
+[commit](https://github.com/explosion/spacy-lookups-data/commit/eddebae271a7d4a6543c02ff632f4c13d46ab156)
 
 [PyTorch Implementation of Daft-Exprt Robust Prosody Transfer Across Speakers for Expressive Speech Synthesis](https://reposhub.com/python/deep-learning/keonlee9420-Daft-Exprt.html)
 
