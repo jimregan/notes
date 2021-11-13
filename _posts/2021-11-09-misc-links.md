@@ -7,13 +7,14 @@ title: Interesting links, 9/11/2021
 categories: [links]
 ---
 
-[https://en-word.net/](Open English WordNet), [https://github.com/globalwordnet/english-wordnet](github)
+[Open English WordNet](https://en-word.net/), [github](https://github.com/globalwordnet/english-wordnet)
 
 [babysor/MockingBird](https://github.com/babysor/MockingBird) --- Chinese voice cloning
 
-[https://euangoddard.github.io/clipboard2markdown/](Paste to Markdown)
+[Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/)
 
-[https://gist.github.com/jimregan/3700a3f23c052a8bdd16aa06c39b4ac4](Middle Irish for Festus)
+[Middle Irish for Festus](https://gist.github.com/jimregan/3700a3f23c052a8bdd16aa06c39b4ac4)
 
 [erikrose/parsimonious](https://github.com/erikrose/parsimonious)
 
+[Irish lemmatiser for SpaCy](https://github.com/explosion/spaCy/pull/9102)
