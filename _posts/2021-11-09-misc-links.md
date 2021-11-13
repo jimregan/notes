@@ -36,3 +36,10 @@ categories: [links]
 
 [microsoft/UniSpeech](https://github.com/microsoft/UniSpeech) --- UniSpeech - Large Scale Self-Supervised Learning for Speech
 
+[facebookresearch/speech-resynthesis](https://github.com/facebookresearch/speech-resynthesis) --- An official reimplementation of the method described in the INTERSPEECH 2021 paper - Speech Resynthesis from Discrete Disentangled Self-Supervised Representations.
+[arXiv](https://arxiv.org/abs/2104.00355) --- not open source
+
+[flashlight/InferenceAndAlignmentCTC.ipynb](https://github.com/flashlight/flashlight/blob/main/flashlight/app/asr/tutorial/notebooks/InferenceAndAlignmentCTC.ipynb)
+
+[facebookresearch/libri-light](https://github.com/facebookresearch/libri-light)
+
