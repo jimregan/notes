@@ -13,3 +13,7 @@ categories: [links]
 
 [https://euangoddard.github.io/clipboard2markdown/](Paste to Markdown)
 
+[https://gist.github.com/jimregan/3700a3f23c052a8bdd16aa06c39b4ac4](Middle Irish for Festus)
+
+[erikrose/parsimonious](https://github.com/erikrose/parsimonious)
+
