@@ -91,3 +91,4 @@ categories: [links]
 
 [Description d’un parler irlandais de Kerry](https://fr.wikisource.org/wiki/Description_d%E2%80%99un_parler_irlandais_de_Kerry)
 
+[Getting to Know the Mel Spectrogram](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0)
