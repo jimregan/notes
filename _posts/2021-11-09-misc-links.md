@@ -31,3 +31,5 @@ categories: [links]
 
 [kylebgorman/perceptronix](https://github.com/kylebgorman/perceptronix)
 
+[microsoft/UniSpeech](https://github.com/microsoft/UniSpeech) --- UniSpeech - Large Scale Self-Supervised Learning for Speech
+
