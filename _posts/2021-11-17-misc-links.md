@@ -68,6 +68,11 @@ data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 
 [National-AI-Strategy.pdf](https://enterprise.gov.ie/en/Publications/Publication-files/National-AI-Strategy.pdf)
 
+[neulab/awesome-align](https://github.com/neulab/awesome-align) --- A neural word aligner based on multilingual BERT
+
+[xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
+
+
 ## Re-open
 
 [kaldi-long-audio-alignment/build-trigram.sh](https://github.com/srinivr/kaldi-long-audio-alignment/blob/master/scripts/build-trigram.sh)
