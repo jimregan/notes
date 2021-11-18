@@ -74,3 +74,27 @@ categories: [links]
 
 [silero-vad.ipynb](https://colab.research.google.com/github/snakers4/silero-vad/blob/master/silero-vad.ipynb)
 
+## Wymysorys
+
+[Wymysorys pronunciation](https://commons.wikimedia.org/wiki/Category:Wymysorys_pronunciation_\(J%C3%B3zef_Gara%27s_version\))
+
+[Wp/wym/Adam Mickiewicz](https://incubator.wikimedia.org/wiki/Wp/wym/Adam_Mickiewicz)
+
+[A Andrason and T Krol WYMYSORYS GRAMMAR](https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/media_items_files/wymysorys-grammar.original.pdf)
+
+[Language attitudes in Wilamowice part 2 wym](https://www.youtube.com/watch?v=0v0W3Rn9I-4)
+
+[Józef Gara - Słownik języka wilamowskiego](https://wikisource.org/wiki/Page:J%C3%B3zef_Gara_-_S%C5%82ownik_j%C4%99zyka_wilamowskiego.pdf)
+
+[Józef Gara - Zbiór wierszy o wilamowskich obrzędach i obyczajach.pdf](https://wikisource.org/wiki/Page:J%C3%B3zef_Gara_-_Zbi%C3%B3r_wierszy_o_wilamowskich_obrz%C4%99dach_i_obyczajach.pdf)
+
+[Vilamovian terms with IPA pronunciation - Wiktionary](https://en.wiktionary.org/wiki/Category:Vilamovian_terms_with_IPA_pronunciation)
+
+[Slownik jezyka wilamowskiego](https://upload.wikimedia.org/wikipedia/commons/d/d0/J%C3%B3zef_Gara_-_S%C5%82ownik_j%C4%99zyka_wilamowskiego.pdf)
+
+
+## Aragonese
+
+[Arredol](http://www.arredol.com/encuestas/)
+
+[Academia de l'Aragon](http://www.academiadelaragones.org/)
