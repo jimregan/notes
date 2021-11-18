@@ -1,9 +1,6 @@
 CMU Advanced NLP 2021 (10): Prompting + Sequence-to-sequence Pre-training - YouTube
 https://www.youtube.com/watch?v=TE6urdkTR4I
 
-Gmail
-https://accounts.google.com/ServiceLogin/webreauth?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&emr=1&authuser=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin#inbox
-
 ming024/FastSpeech2: An implementation of Microsoft's "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"
 https://github.com/ming024/FastSpeech2
 
@@ -22,56 +19,11 @@ https://docusaurus.io/docs
 camelot-dev/camelot: A Python library to extract tabular data from PDFs
 https://github.com/camelot-dev/camelot
 
-Trending Python repositories on GitHub today
-https://github.com/trending/python
-
-google/jax: Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
-https://github.com/google/jax#quickstart-colab-in-the-cloud
-
 neural-network-and-data-loading.ipynb - Colaboratory
 https://colab.research.google.com/github/google/jax/blob/main/docs/notebooks/neural_network_with_tfds_data.ipynb
 
-google/flax: Flax is a neural network library for JAX that is designed for flexibility.
-https://github.com/google/flax
-
-Examples — Flax documentation
-https://flax.readthedocs.io/en/latest/examples.html
-
-google/flax: Flax is a neural network library for JAX that is designed for flexibility.
-https://github.com/google/flax
-
-Speech Recognition with Torchaudio — PyTorch Tutorials 1.10.0+cu102 documentation
-https://pytorch.org/tutorials/intermediate/speech_recognition_pipeline_tutorial.html
-
-torchaudio.pipelines — Torchaudio 0.10.0 documentation
-https://pytorch.org/audio/stable/pipelines.html
-
-jax/docs/notebooks at main · google/jax
-https://github.com/google/jax/tree/main/docs/notebooks
-
-jax/thinking_in_jax.ipynb at main · google/jax
-https://github.com/google/jax/blob/main/docs/notebooks/thinking_in_jax.ipynb
-
 jina-ai/finetuner: Finetuning any DNN for better embedding on neural search tasks
 https://github.com/jina-ai/finetuner
-
-kaldi/make_biased_lm_graphs.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/make_biased_lm_graphs.sh
-
-kaldi/learn_lexicon_greedy.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/dict/learn_lexicon_greedy.sh
-
-kaldi/egs/wsj/s5/steps/segmentation at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation
-
-javascript-algorithms/src/algorithms/graph/prim at master · trekhleb/javascript-algorithms
-https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/graph/prim
-
-javascript-algorithms/src/algorithms/ml/k-means at master · trekhleb/javascript-algorithms
-https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/ml/k-means
-
-javascript-algorithms/kNN.js at master · trekhleb/javascript-algorithms
-https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/ml/knn/kNN.js
 
 google/docsy: A set of Hugo doc templates for launching open source content.
 https://github.com/google/docsy
@@ -81,9 +33,6 @@ https://github.com/ddbourgin/numpy-ml/blob/1e10697258952865e497a797e16558c40087d
 
 jina-ai/jina: Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data
 https://github.com/jina-ai/jina
-
-google/starlark-go: Starlark in Go: the Starlark configuration language, implemented in Go
-https://github.com/google/starlark-go
 
 kaldialign/setup.py at main · pzelasko/kaldialign
 https://github.com/pzelasko/kaldialign/blob/main/setup.py

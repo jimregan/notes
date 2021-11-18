@@ -74,6 +74,12 @@ categories: [links]
 
 [silero-vad.ipynb](https://colab.research.google.com/github/snakers4/silero-vad/blob/master/silero-vad.ipynb)
 
+[kaldi/make_biased_lm_graphs.sh at master](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/make_biased_lm_graphs.sh)
+
+[kaldi/learn_lexicon_greedy.sh at master](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/dict/learn_lexicon_greedy.sh)
+
+[kaldi/egs/wsj/s5/steps/segmentation at master](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation)
+
 ## Wymysorys
 
 [Wymysorys pronunciation](https://commons.wikimedia.org/wiki/Category:Wymysorys_pronunciation_\(J%C3%B3zef_Gara%27s_version\))
