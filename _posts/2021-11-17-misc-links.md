@@ -61,6 +61,8 @@ categories: [links]
 
 [xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 
+[cldf/cldf](https://github.com/cldf/cldf)[https://github.com/cldf/cldf] CLDF --- Cross-Linguistic Data Formats
+
 ## Re-open
 
 [kaldi-long-audio-alignment/build-trigram.sh](https://github.com/srinivr/kaldi-long-audio-alignment/blob/master/scripts/build-trigram.sh)
