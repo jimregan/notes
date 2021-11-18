@@ -59,6 +59,7 @@ categories: [links]
 
 [Corpora, Kielipankki](https://www.kielipankki.fi/corpora/)
 
+[xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 
 ## Re-open
 
