@@ -74,6 +74,9 @@ data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 
 [neuspell/neuspell](https://github.com/neuspell/neuspell) --- A Neural Spelling Correction Toolkit
 
+[Gender in Irish between continuity and change](http://www.tara.tcd.ie/bitstream/handle/2262/63710/Gender_in_Irish.pdf;jsessionid=87DCFFB5EDA2C18E839227DBE0B43BBD?sequence=1)
+
+
 ## Re-open
 
 [kaldi-long-audio-alignment/build-trigram.sh](https://github.com/srinivr/kaldi-long-audio-alignment/blob/master/scripts/build-trigram.sh)
