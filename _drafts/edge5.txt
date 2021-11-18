@@ -16,77 +16,14 @@ https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/clean_an
 kaldi/decode_segmentation.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/decode_segmentation.sh
 
-ICU RBNF format in Python | notes
-https://jimregan.github.io/notes/irish/icu/rbnf/2021/07/22/icu-rbnf-format.html
-
-Quiggin to IPA | notes
-https://jimregan.github.io/notes/irish/quiggin/icu/ipa/phonetic/2021/05/21/quiggin-to-ipa.html
-
-lab1.pdf
-http://www.inf.ed.ac.uk/teaching/courses/asr/2019-20/lab1.pdf
-
-PyniniDocs < GRM < TWiki
-https://www.openfst.org/twiki/bin/view/GRM/PyniniDocs
-
-cldr/ga.xml at main · unicode-org/cldr
-https://github.com/unicode-org/cldr/blob/main/common/rbnf/ga.xml
-
-Phonetics & Speech Lab, TCD
-https://github.com/phonlab-tcd/
-
-jimregan/effective-eureka
-https://github.com/jimregan/effective-eureka/tree/master
-
-congenial-rotary-phone/numbers.grm at master · jimregan/congenial-rotary-phone
-https://github.com/jimregan/congenial-rotary-phone/blob/master/grammar/verbalize/numbers.grm
-
-Commits · jimregan/tmh
-https://github.com/jimregan/tmh/commits/master
-
-tmh/setup.py at master · BirgerMoell/tmh
-https://github.com/BirgerMoell/tmh/blob/master/setup.py
-
-as-ideas/DeepPhonemizer: Grapheme to phoneme conversion with deep learning.
-https://github.com/as-ideas/DeepPhonemizer/
-
-Training_Example.ipynb - Colaboratory
-https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb
-
 menelik3/cmudict-ipa: The CMU Pronouncing Dictionary converted to IPA
 https://github.com/menelik3/cmudict-ipa
 
 Hfkml/swedish_g2p: This repository contians a pretrained Swedish g2p model using DeepPhonemizer
 https://github.com/Hfkml/swedish_g2p
 
-jimregan/irish-g2p
-https://github.com/jimregan/irish-g2p
-
-clear · jimregan/psychic-memory@5b0ba10
-https://github.com/jimregan/psychic-memory/commit/5b0ba10a4f501acb8d37066395000157f38fde65
-
-antoine77340/S3D_HowTo100M: S3D Text-Video model trained on HowTo100M using MIL-NCE
-https://github.com/antoine77340/S3D_HowTo100M
-
-fairseq/README.md at main · pytorch/fairseq
-https://github.com/pytorch/fairseq/blob/main/examples/adaptive_span/README.md
-
-fairseq/discriminative_reranking_model.py at main · pytorch/fairseq
-https://github.com/pytorch/fairseq/blob/main/examples/discriminative_reranking_nmt/models/discriminative_reranking_model.py
-
-libri-light/README.md at 2a181b2482e0e3a539bf4d8b387b1838fdbfacac · facebookresearch/libri-light
-https://github.com/facebookresearch/libri-light/blob/2a181b2482e0e3a539bf4d8b387b1838fdbfacac/data_preparation/split_librilight/README.md
-
-libri-light/data_preparation at 2a181b2482e0e3a539bf4d8b387b1838fdbfacac · facebookresearch/libri-light
-https://github.com/facebookresearch/libri-light/tree/2a181b2482e0e3a539bf4d8b387b1838fdbfacac/data_preparation
-
-Commits · flashlight/wav2letter
-https://github.com/flashlight/wav2letter/commits/main
-
 slimIPL paper release (#983) · flashlight/wav2letter@a1b3031
 https://github.com/flashlight/wav2letter/commit/a1b3031dd91bc208d7c67f5064ac7d27e0feb859
-
-Switch license to MIT (#982) · flashlight/wav2letter@da389ca
-https://github.com/flashlight/wav2letter/commit/da389ca10383c270c638b2084e46925005489fc9
 
 Cpc vox populi (#965) · flashlight/wav2letter@04b0305
 https://github.com/flashlight/wav2letter/commit/04b0305599008b7f4498ef39c1c9e684f856ec1c
