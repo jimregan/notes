@@ -1,6 +1,3 @@
-21.09.22_pr_beathai_nua.docx
-https://www.ainm.ie/pdf/21.09.22-pr-beathai-nua.pdf
-
 UHV-OTS-Speech/run_spleeter.py at main · Appen/UHV-OTS-Speech
 https://github.com/Appen/UHV-OTS-Speech/blob/main/source_separation/run_spleeter.py
 
@@ -10,65 +7,14 @@ https://github.com/jimregan/wav2vec2-sprint/blob/main/using_a_wav2vec2_model_wit
 Utterance XML to json | notes
 https://jimregan.github.io/notes/irish/abair/mfa/2021/09/23/utterance-xml-to-mfa.html
 
-worldveil/dejavu: Audio fingerprinting and recognition in Python
-https://github.com/worldveil/dejavu
-
-scrape-swedish-youtube-take1 | Kaggle
-https://www.kaggle.com/jimregan/scrape-swedish-youtube-take1/edit
-
-Improving Accent Identification and Accented Speech Recognition Under a Framework of Self-Supervised Learning
-https://www.isca-speech.org/archive/pdfs/interspeech_2021/deng21b_interspeech.pdf
-
-Low Resource ASR: The Surprising Effectiveness of High Resource Transliteration
-https://www.isca-speech.org/archive/pdfs/interspeech_2021/khare21_interspeech.pdf
-
 uiuc-sst/g2ps: Data and code for grapheme-to-phoneme transducers in lots of languages
 https://github.com/uiuc-sst/g2ps
-
-ISCA Archive
-https://www.isca-speech.org/archive/interspeech_2021/jacobs21_interspeech.html
-
-Towards Unsupervised Phone and Word Segmentation Using Self-Supervised Vector-Quantized Neural Networks
-https://www.isca-speech.org/archive/pdfs/interspeech_2021/kamper21_interspeech.pdf
-
-bshall/VectorQuantizedCPC: Vector-Quantized Contrastive Predictive Coding for Acoustic Unit Discovery and Voice Conversion
-https://github.com/bshall/VectorQuantizedCPC
-
-VQ-CPC for Acoustic Unit Discovery and Voice Conversion
-https://bshall.github.io/VectorQuantizedCPC/
-
-Self-Supervised End-to-End ASR for Low Resource L2 Swedish
-https://www.isca-speech.org/archive/pdfs/interspeech_2021/alghezi21_interspeech.pdf
-
-Corpora | Kielipankki
-https://www.kielipankki.fi/corpora/
-
-The Helsinki Korp Version of the ELFA Corpus – META-SHARE
-https://metashare.csc.fi/repository/browse/the-helsinki-korp-version-of-the-elfa-corpus/4f60c4b2313311e69766005056be118ee4881836d3224e48a7afe67cc9806455/
-
-FinEst BERT – META-SHARE
-https://metashare.csc.fi/repository/browse/finest-bert/15dcf81cac7411ea9370005056be118ec964c678f15a4b868dcb1860d000a5fe/
-
-Aalto Finnish Parliament ASR Corpus 2008-2020 – META-SHARE
-https://metashare.csc.fi/repository/browse/aalto-finnish-parliament-asr-corpus-2008-2020/da99e872b88511eb9cdefa163ec5ae3ed97d37d535fb4ab0a83b82a805704243/
 
 finnish-parliament-scripts/extract at master · aalto-speech/finnish-parliament-scripts
 https://github.com/aalto-speech/finnish-parliament-scripts/tree/master/extract
 
-Aalto University Automatic Speech Recognition System 1.0 – META-SHARE
-https://metashare.csc.fi/repository/browse/aalto-university-automatic-speech-recognition-system-10/b7b38522d8ad11e2842c005056be118e4777d67ed15043ebab847619eb60d890/
-
 aalto-speech/AaltoASR: Aalto Automatic Speech Recognition tools
 https://github.com/aalto-speech/AaltoASR
-
-Aalto Speech Research
-https://github.com/aalto-speech
-
-aalto-asr-preprocessor/parl_to_kaldi_text.py at main · aalto-speech/aalto-asr-preprocessor
-https://github.com/aalto-speech/aalto-asr-preprocessor/blob/main/src/aalto_asr_preprocessor/fi/parl_to_kaldi_text.py
-
-cjolowicz/cookiecutter-hypermodern-python: Hypermodern Python Cookiecutter
-https://github.com/cjolowicz/cookiecutter-hypermodern-python
 
 ISCA Archive
 https://www.isca-speech.org/archive/interspeech_2021/karpov21_interspeech.html
@@ -79,143 +25,14 @@ https://www.isca-speech.org/archive/interspeech_2021/evain21_interspeech.html
 fairseq/examples/textless_nlp/gslm/speech2unit at main · pytorch/fairseq
 https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm/speech2unit
 
-Using hyperparameter-search in Trainer - 🤗Transformers - Hugging Face Forums
-https://discuss.huggingface.co/t/using-hyperparameter-search-in-trainer/785/24
-
 Twitter
 https://twitter.com/GuggerSylvain/status/1318215507242291202
 
 Text Classification on GLUE - Colaboratory
 https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/text_classification.ipynb#scrollTo=NboJ7kDOIrJq
 
-jimregan/notes
-https://github.com/jimregan/notes
-
-Teanglann pronunciations | notes
-https://jimregan.github.io/notes/irish/teanglann/2020/11/25/teanglann-pronunciations.html
-
-notes/2021-09-27-simple-lessons-in-irish-pronunciation1.md at master · jimregan/notes
-https://github.com/jimregan/notes/blob/master/_posts/2021-09-27-simple-lessons-in-irish-pronunciation1.md
-
 FULLTEXT01.pdf
 https://liu.diva-portal.org/smash/get/diva2:1567188/FULLTEXT01.pdf
-
-_notebooks/
-https://8777-134-226-98-116.ngrok.io/tree/_notebooks
-
-2020-11-14-senat-thing
-https://8777-134-226-98-116.ngrok.io/notebooks/_notebooks/2020-11-14-senat-thing.ipynb
-
-2021-09-27-misc-links.md
-https://8777-134-226-98-116.ngrok.io/edit/_posts/2021-09-27-misc-links.md
-
-2021-09-21-scrape-swedish-youtube-take1
-https://8777-134-226-98-116.ngrok.io/notebooks/_notebooks/2021-09-21-scrape-swedish-youtube-take1.ipynb
-
-The Library of Trinity College Dublin: Stella Search -- Foghraidheacht Ghaedhilge an Tuaiscirt / Séamus Ó Searcaigh.
-https://stella.catalogue.tcd.ie/iii/encore/record/C__Rb10172452__SFoghraidheacht%20Ghaedhilge%20an%20Tuaiscirt__Orightresult__U__X7?lang=eng&suite=cobalt
-
-Links by jimregan · Pull Request #100 · jimregan/notes
-https://github.com/jimregan/notes/pull/100
-
-The Library of Trinity College Dublin: Stella Search -- The Irish of West Muskerry, Co. Cork : a phonetic study / by Brian Ó Cuív.
-https://stella.catalogue.tcd.ie/iii/encore/record/C__Rb10639218__Sthe%20irish%20of%20muskerry__Orightresult__U__X2?lang=eng&suite=cobalt
-
-The Library of Trinity College Dublin: Stella Search -- The Irish of Erris, Co. Mayo : a phonemic study / by Éamonn Mhac an Fhailigh.
-https://stella.catalogue.tcd.ie/iii/encore/record/C__Rb10639199__Sthe%20irish%20of%20erris__Orightresult__U__X6?lang=eng&suite=cobalt
-
-FAQs for Trinity Development & Alumni - Trinity Development & Alumni - Trinity College Dublin
-https://www.tcd.ie/alumni/about-us/faqs/
-
-Admissions - The Library of Trinity College Dublin - Trinity College Dublin
-https://www.tcd.ie/library/using-library/admissions.php
-
-Tipperary Library Service – Something for everyone
-https://www.tipperarylibraries.ie/
-
-Encore -- Foghraidheacht Ghaedhilge an Tuaiscirt
-https://librariesireland.iii.com/iii/encore/record/C__Rb3609541?lang=eng&suite=def
-
-Foghraidheacht Ghaedhilge an Tuaiscirt - Google Search
-https://www.google.com/search?q=Foghraidheacht+Ghaedhilge+an+Tuaiscirt&sxsrf=AOaemvKCT0ZVyyBWCCalAaIObk0-mjXN_Q:1632762015974&ei=n_hRYavGOtCMhbIPrNyS2Ak&start=30&sa=N&ved=2ahUKEwjrkdu_0J_zAhVQRkEAHSyuBJs4FBDw0wN6BAgBEEg&biw=1366&bih=606&dpr=1
-
-no:67378451 | Search | Utrecht University Library
-https://utrechtuniversity.on.worldcat.org/v2/search?queryString=no%3A67378451&databaseList=2474%2C3441%2C2198%2C2274%2C2273%2C2194%2C2229%2C1931%2C3959%2C3557%2C2269%2C3313%2C2267%2C2662%2C3036%2C4126%2C3950%2C638%2C2507%2C1978%2C3879%2C4062%2C4065%2C4023%2C3374%2C3572%2C3450%2C3250%2C283%2C2281%2C3969%2C3448%2C1941%2C3205%2C2237%2C1862%2C2038%2C2236%2C2433%2C1982%2C2796%2C2795%2C2233%2C3967%2C2056%2C2375%2C2175%2C3583%2C3384%2C3582%2C2051%2C3261%2C2328%2C3218%2C1953%2C1875%2C3018%2C2369%2C2006%2C2401%2C2005%2C1674%2C3410%2C1672%2C3652%2C4026%2C3654%2C4028%2C2409%2C3976%2C2407%2C3539%2C1834%2C2221%2C3155%2C2462%2C3551%2C2264%2C3275%2C2262%2C3195%2C2260%2C1920%2C2217%2C2897%2C2259%2C3589%2C2895%2C3225%2C2178%2C3909%2C3986%2C1847%2C3988
-
-Cartlann Téacsanna
-http://corpas.ria.ie/index.php?fsg_function=3&fsg_id=4062
-
-Sabhal Mòr Ostaig UHI
-https://www.smo.uhi.ac.uk/
-
-The Daltaí Boards: My Munster Irish Library: Continued...
-https://www.daltai.com/discus/messages/20/55440.html?1319406263
-
-My Munster Irish Library
-http://deghebh.blogspot.com/
-
-Aids to the Pronunciation of Irish - Wikisource, the free online library
-https://en.wikisource.org/wiki/Aids_to_the_Pronunciation_of_Irish
-
-User contributions for Jimregan - Wikisource, the free online library
-https://en.wikisource.org/wiki/Special:Contributions/Jimregan
-
-Page:Sean-Chaint na nDéise - Sheehan.pdf/28 - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:Sean-Chaint_na_nD%C3%A9ise_-_Sheehan.pdf/28
-
-Page:In Desert and Wilderness (Sienkiewicz, tr. Drezmal).djvu/391 - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:In_Desert_and_Wilderness_(Sienkiewicz,_tr._Drezmal).djvu/391
-
-Page:Simple Lessons in Irish, Part 1 - O'Growney.pdf/26 - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:Simple_Lessons_in_Irish,_Part_1_-_O%27Growney.pdf/26
-
-Page:Simple Lessons in Irish, Part 1 - O'Growney.pdf/42 - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:Simple_Lessons_in_Irish,_Part_1_-_O%27Growney.pdf/42
-
-Index:Simple Lessons in Irish, Part 1 - O'Growney.pdf - Wikisource, the free online library
-https://en.wikisource.org/wiki/Index:Simple_Lessons_in_Irish,_Part_1_-_O%27Growney.pdf
-
-The Daltaí Boards: 1808 Grammar of Ulster Irish
-https://www.daltai.com/discus/messages/13510/21518.html?1165448904
-
-The dialect of Torr, Co. Donegal - Google Search
-https://www.google.com/search?q=The+dialect+of+Torr%2C+Co.+Donega&oq=The+dialect+of+Torr%2C+Co.+Donega&aqs=chrome..69i57j69i64l3&sourceid=chrome&ie=UTF-8
-
-The Dialect of Torr, Co. Donegal - Alf Sommerfelt - Google Books
-https://books.google.ie/books/about/The_Dialect_of_Torr_Co_Donegal.html?id=AsZBAQAAMAAJ&redir_esc=y
-
-Foghraidheacht Ghaedhilge an Tuaiscirt. · SKSK Omeka System
-http://212.79.185.160/items/show/2367
-
-easóg - English Wiktionary
-https://wd-en.wikideck.com/eas%C3%B3g
-
-Guide to Irish Pronunciation | Coisín Shiúlach
-https://www.xn--sorchanghuairim-bpb.ie/faoi%20shorcha/m%C3%A1ire-n%C3%AD-ghuairim/linguaphone-conversational-course-irish/guide-to-irish-pronunciation
-
-Page:Phonétique d'un parler irlandais de Kerry.pdf/17 - Wikisource
-https://fr.wikisource.org/wiki/Page:Phon%C3%A9tique_d%27un_parler_irlandais_de_Kerry.pdf/17
-
-L’Accent dans le gaëlique du Munster - Wikisource
-https://fr.wikisource.org/wiki/L%E2%80%99Accent_dans_le_ga%C3%ABlique_du_Munster
-
-Speech Corpus Tools by MontrealCorpusTools
-https://montrealcorpustools.github.io/speechcorpustools/
-
-MontrealCorpusTools/speechcorpustools: Easier analysis of large speech corpora
-https://github.com/MontrealCorpusTools/speechcorpustools
-
-snakers4 (Alexander Veysov) / Repositories
-https://github.com/snakers4?after=Y3Vyc29yOnYyOpK5MjAxOC0wNy0wN1QxMjozMToyNyswMTowMM4IWU_S&tab=repositories
-
-snakers4/silero-vad: Silero VAD: pre-trained enterprise-grade Voice Activity and Number Detector
-https://github.com/snakers4/silero-vad
-
-snakers4/NPTEL2020-Indian-English-Speech-Dataset: NPTEL2020: Speech2Text dataset for Indian-English Accent
-https://github.com/snakers4/NPTEL2020-Indian-English-Speech-Dataset
-
-2021-2022 | KTH Intranet
-https://intra.kth.se/en/utbildning/tentamen-och-schema/lasarsindelning/2021-2022-1.988583
 
 Understanding acceptability of disordered speech through Audience Response Systems-based evaluation
 http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1580338&dswid=2877
