@@ -72,6 +72,7 @@ data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 
 [xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 
+[neuspell/neuspell](https://github.com/neuspell/neuspell) --- A Neural Spelling Correction Toolkit
 
 ## Re-open
 
