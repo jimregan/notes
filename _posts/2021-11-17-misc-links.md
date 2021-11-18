@@ -25,6 +25,41 @@ categories: [links]
 }
 ```
 
+[Towards Unsupervised Phone and Word Segmentation Using Self-Supervised Vector-Quantized Neural Networks](https://www.isca-speech.org/archive/interspeech_2021/kamper21_interspeech.html),
+[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/kamper21_interspeech.pdf)
+
+```bibtex
+@inproceedings{kamper21_interspeech,
+  author={Herman Kamper and Benjamin van Niekerk},
+  title={{Towards Unsupervised Phone and Word Segmentation Using Self-Supervised Vector-Quantized Neural Networks}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1539--1543},
+  doi={10.21437/Interspeech.2021-50}
+}
+```
+
+[bshall/VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC) --- Vector-Quantized Contrastive Predictive Coding for Acoustic Unit Discovery and Voice Conversion
+
+[worldveil/dejavu](https://github.com/worldveil/dejavu) --- Audio fingerprinting and recognition in Python
+
+[Self-Supervised End-to-End ASR for Low Resource L2 Swedish](https://www.isca-speech.org/archive/interspeech_2021/alghezi21_interspeech.html),
+[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/alghezi21_interspeech.pdf)
+
+```bibtex
+@inproceedings{alghezi21_interspeech,
+  author={Ragheb Al-Ghezi and Yaroslav Getman and Aku Rouhe and Raili Hildén and Mikko Kurimo},
+  title={{Self-Supervised End-to-End ASR for Low Resource L2 Swedish}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1429--1433},
+  doi={10.21437/Interspeech.2021-1710}
+}
+```
+
+[Corpora, Kielipankki](https://www.kielipankki.fi/corpora/)
+
+
 ## Re-open
 
 [kaldi-long-audio-alignment/build-trigram.sh](https://github.com/srinivr/kaldi-long-audio-alignment/blob/master/scripts/build-trigram.sh)
