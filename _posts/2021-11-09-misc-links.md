@@ -94,3 +94,17 @@ categories: [links]
 [Die araner mundart](https://de.wikisource.org/wiki/Die_araner_mundart)
 
 [Getting to Know the Mel Spectrogram](https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0)
+
+[The Most Important Music Theory And How It Helps You Play Better](https://www.youtube.com/watch?v=GJ9BmH9BkP0)
+
+
+| Diatonic Triads | Diatonic 7th Chords |
+|-----------------|---------------------|
+| C: C E G **B**  | Cmaj7               |
+| Dm: D F A **C** | Dm7                 |
+| Em: E G B **D** | Em7                 |
+| F: F A C **E**  | Fmaj7               |
+| G: G B D **F**  | G7                  |
+| Am: A C E **G** | Am7                 |
+| Bo: B D F **A** | Bm7b5 (Bø)          |
+
