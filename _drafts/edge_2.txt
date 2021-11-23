@@ -1,44 +1,11 @@
 abair-software/ltsserver-rest - ltsserver-rest - Gitea: Git with a cup of tea
 https://phoneticsrv3.lcs.tcd.ie/gitea/abair-software/ltsserver-rest
 
-[2107.12930] gaBERT -- an Irish Language Model
-https://arxiv.org/abs/2107.12930
+fairseq/examples/wav2vec at c6360917ff93acebecfe09b28461166006b0c653 · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/c6360917ff93acebecfe09b28461166006b0c653/examples/wav2vec
 
-fairseq/README.md at c6360917ff93acebecfe09b28461166006b0c653 · pytorch/fairseq
-https://github.com/pytorch/fairseq/blob/c6360917ff93acebecfe09b28461166006b0c653/examples/textless_nlp/speech-resynth/README.md
-
-[2104.00355] Speech Resynthesis from Discrete Disentangled Self-Supervised Representations
-https://arxiv.org/abs/2104.00355
-
-facebookresearch/speech-resynthesis: An official reimplementation of the method described in the INTERSPEECH 2021 paper - Speech Resynthesis from Discrete Disentangled Self-Supervised Representations.
-https://github.com/facebookresearch/speech-resynthesis
-
-fairseq/examples/textless_nlp/gslm/speech2unit/clustering at main · pytorch/fairseq
-https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm/speech2unit/clustering
-
-fairseq/cpc_feature_reader.py at fcca32258c8e8bcc9f9890bf4714fa2f96b6b3e1 · pytorch/fairseq
-https://github.com/pytorch/fairseq/blob/fcca32258c8e8bcc9f9890bf4714fa2f96b6b3e1/examples/textless_nlp/gslm/speech2unit/pretrained/cpc_feature_reader.py#L119
-
-fairseq/examples/textless_nlp/gslm at main · pytorch/fairseq
-https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm
-
-fairseq/resynthesize_speech.py at main · pytorch/fairseq
-https://github.com/pytorch/fairseq/blob/main/examples/textless_nlp/gslm/tools/resynthesize_speech.py
-
-Fixes for GSLM TTS Checkpoints (#2519) · pytorch/fairseq@bba000d
-https://github.com/pytorch/fairseq/commit/bba000d8bac8a1678bd00f2ba4ffce5a0c982eae
-
-wav2letter speech activity detection - Google Search
-https://www.google.com/search?q=wav2letter+speech+activity+detection&sxsrf=AOaemvJpFWkVHIzjCU2TP8f8RmR2CKwxzg%3A1636746757539&ei=BcaOYbiLIMb6gAb99pjgAQ&oq=wav2letter+speech+activity+detection&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELADECc6BwgAEEcQsANKBAhBGABQgBBYwxVg7RdoAXACeACAAVyIAdIDkgEBNpgBAKABAcgBCcABAQ&sclient=gws-wiz&ved=0ahUKEwj4ocfozJP0AhVGPcAKHX07BhwQ4dUDCA8&uact=5
-
-flashlight/InferenceAndAlignmentCTC.ipynb at main · flashlight/flashlight
-https://github.com/flashlight/flashlight/blob/main/flashlight/app/asr/tutorial/notebooks/InferenceAndAlignmentCTC.ipynb
-
-Libri-light
-https://ai.facebook.com/tools/libri-light/
-
-Search · wav2letter
-https://github.com/facebookresearch/libri-light/search?q=wav2letter
+pytorch/fairseq: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+https://github.com/pytorch/fairseq
 
 libri-light/README.md at fbec51650408d3db3da5fcaf04c57af59f583e12 · facebookresearch/libri-light
 https://github.com/facebookresearch/libri-light/blob/fbec51650408d3db3da5fcaf04c57af59f583e12/data_preparation/README.md
