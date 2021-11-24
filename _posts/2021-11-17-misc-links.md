@@ -44,7 +44,8 @@ categories: [links]
 [worldveil/dejavu](https://github.com/worldveil/dejavu) --- Audio fingerprinting and recognition in Python
 
 [Self-Supervised End-to-End ASR for Low Resource L2 Swedish](https://www.isca-speech.org/archive/interspeech_2021/alghezi21_interspeech.html),
-[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/alghezi21_interspeech.pdf)
+[pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/alghezi21_interspeech.pdf),
+data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 
 ```bibtex
 @inproceedings{alghezi21_interspeech,
@@ -57,11 +58,24 @@ categories: [links]
 }
 ```
 
-[Corpora, Kielipankki](https://www.kielipankki.fi/corpora/)
-
 [xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 
 [cldf/cldf](https://github.com/cldf/cldf)[https://github.com/cldf/cldf] CLDF --- Cross-Linguistic Data Formats
+
+[kylebgorman/perceptronix](https://github.com/kylebgorman/perceptronix) --- Sparse and dense linear models, for C++ and Python, with funny optimizations
+
+[AI - Here for Good](https://enterprise.gov.ie/en/Publications/National-AI-Strategy.html) --- National Artificial Intelligence Strategy for Ireland
+
+[National-AI-Strategy.pdf](https://enterprise.gov.ie/en/Publications/Publication-files/National-AI-Strategy.pdf)
+
+[neulab/awesome-align](https://github.com/neulab/awesome-align) --- A neural word aligner based on multilingual BERT
+
+[xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
+
+[neuspell/neuspell](https://github.com/neuspell/neuspell) --- A Neural Spelling Correction Toolkit
+
+[Gender in Irish between continuity and change](http://www.tara.tcd.ie/bitstream/handle/2262/63710/Gender_in_Irish.pdf;jsessionid=87DCFFB5EDA2C18E839227DBE0B43BBD?sequence=1)
+
 
 ## Re-open
 
