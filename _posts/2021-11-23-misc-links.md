@@ -13,3 +13,5 @@ categories: [links]
 
 [Speech Resynthesis from Discrete Disentangled Self-Supervised Representations](https://arxiv.org/abs/2104.00355)
 
+[Libri-light Data Preparation and Download](https://github.com/facebookresearch/libri-light/blob/fbec51650408d3db3da5fcaf04c57af59f583e12/data_preparation/README.md)
+
