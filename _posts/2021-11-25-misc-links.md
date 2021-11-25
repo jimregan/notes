@@ -48,6 +48,34 @@ categories: [links]
 
 [wav2letter/recipes/lexicon_free](https://github.com/flashlight/wav2letter/tree/main/recipes/lexicon_free)
 
+[CMU Advanced NLP 2021 Prompting + Sequence-to-sequence Pre-training](https://www.youtube.com/watch?v=TE6urdkTR4I)
+
+[ming024/FastSpeech2](https://github.com/ming024/FastSpeech2) --- An implementation of Microsoft's "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"
+
+[Phrase Retrieval and Beyond | Princeton NLP Group](https://princeton-nlp.github.io/phrase-retrieval-and-beyond/)
+
+[princeton-nlp/PURE](https://github.com/princeton-nlp/PURE) A Frustratingly Easy Approach for Entity and Relation Extraction
+
+[princeton-nlp/LM-BFF](https://github.com/princeton-nlp/LM-BFF) LM-BFF. Better Few-shot Fine-tuning of Language Models
+
+[Docusaurus](https://docusaurus.io)
+
+[camelot-dev/camelot](https://github.com/camelot-dev/camelot) --- A Python library to extract tabular data from PDFs
+
+[neural-network-and-data-loading.ipynb](https://colab.research.google.com/github/google/jax/blob/main/docs/notebooks/neural_network_with_tfds_data.ipynb)
+
+[jina-ai/finetuner](https://github.com/jina-ai/finetuner) --- Finetuning any DNN for better embedding on neural search tasks
+
+[ddbourgin/numpy-ml](https://github.com/ddbourgin/numpy-ml)
+
+[jina-ai/jina](https://github.com/jina-ai/jina) --- Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data
+
+[kaldialign/setup.py](https://github.com/pzelasko/kaldialign/blob/main/setup.py)
+
+[nnmnkwii_gallery/01-DNN-based statistical speech synthesis \(en\).ipynb](https://github.com/r9y9/nnmnkwii_gallery/blob/master/notebooks/tts/01-DNN-based%20statistical%20speech%20synthesis%20\(en\).ipynb)
+
+[Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626)
+
 ## Todo
 
 [Die araner mundart/Lautlehre](https://de.wikisource.org/wiki/Die_araner_mundart/Lautlehre)
