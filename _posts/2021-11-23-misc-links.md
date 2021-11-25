@@ -36,4 +36,7 @@ categories: [links]
 
 [libri-light/wl_decoder.py](https://github.com/facebookresearch/libri-light/blob/2a181b2482e0e3a539bf4d8b387b1838fdbfacac/eval/WER_src/wl_decoder.py)
 
+[format-corpus/pdfCabinetOfHorrors](https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors)
+
+[Text and tables Extraction from docx in Python | by Mukesh Kumar | Medium](https://medium.com/@Mukesh_Kumar/text-extraction-from-docx-readable-pdf-and-scanned-pdf-formats-in-python-b6c5712271ee)
 
