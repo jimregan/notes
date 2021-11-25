@@ -40,3 +40,5 @@ categories: [links]
 
 [Text and tables Extraction from docx in Python | by Mukesh Kumar | Medium](https://medium.com/@Mukesh_Kumar/text-extraction-from-docx-readable-pdf-and-scanned-pdf-formats-in-python-b6c5712271ee)
 
+[language-resources/make-alignable-symbols.cc](https://github.com/google/language-resources/blob/master/festus/make-alignable-symbols.cc)
+
