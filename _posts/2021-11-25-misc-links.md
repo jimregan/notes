@@ -70,3 +70,10 @@ categories: [links]
 
 [kaldi/decode_segmentation.sh](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/decode_segmentation.sh)
 
+[Paracrawl](https://paracrawl.eu/)
+
+[OSCAR 21.09 | OSCAR](https://oscar-corpus.com/post/oscar-v21-09/)
+
+[kaldialign/calign.pxd](https://github.com/pzelasko/kaldialign/blob/main/extensions/calign.pxd)
+
+[ga-conj-1a](https://en.wiktionary.org/wiki/Template\:ga-conj-1a)
