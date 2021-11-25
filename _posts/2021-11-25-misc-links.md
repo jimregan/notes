@@ -21,3 +21,9 @@ categories: [links]
 
 [Pygments lexer](https://pygments.org/docs/lexerdevelopment/)
 
+## Todo
+
+[Die araner mundart/Lautlehre](https://de.wikisource.org/wiki/Die_araner_mundart/Lautlehre)
+
+[Die araner mundart/Wörterbuch/æ ȧ – Wikisource](https://de.wikisource.org/wiki/Die_araner_mundart/W%C3%B6rterbuch/%C3%A6_%C8%A7#cite_ref-36)
+
