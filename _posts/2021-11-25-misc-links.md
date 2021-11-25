@@ -41,3 +41,9 @@ categories: [links]
 
 [Die araner mundart/Wörterbuch/æ ȧ – Wikisource](https://de.wikisource.org/wiki/Die_araner_mundart/W%C3%B6rterbuch/%C3%A6_%C8%A7#cite_ref-36)
 
+[patrickvonplaten/Wav2Vec2_PyCTCDecode](https://github.com/patrickvonplaten/Wav2Vec2_PyCTCDecode)
+
+[kensho-technologies/pyctcdecode](https://github.com/kensho-technologies/pyctcdecode)
+
+[What’s New in v3.2](https://spacy.io/usage/v3-2)
+
