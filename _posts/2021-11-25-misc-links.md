@@ -21,6 +21,20 @@ categories: [links]
 
 [Pygments lexer](https://pygments.org/docs/lexerdevelopment/)
 
+[jusText 3](http://corpus.tools/wiki/Justext) --- jusText is a tool for removing boilerplate content
+
+[Onion](http://corpus.tools/wiki/Onion) --- onion (ONe Instance ONly) is a tool for removing duplicate parts from large collections of texts.
+
+[rsling/texrex](https://github.com/rsling/texrex) --- texrex web page cleaning & ClaraX random walk crawler
+
+[Common Crawled web corpora](https://www.duo.uio.no/bitstream/handle/10852/57836/Kristoffersen_MSc2.pdf)
+
+[Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748),
+[facebookresearch/CPC_audio](https://github.com/facebookresearch/CPC_audio)
+
+[bshall/VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC)
+
+
 ## Todo
 
 [Die araner mundart/Lautlehre](https://de.wikisource.org/wiki/Die_araner_mundart/Lautlehre)
