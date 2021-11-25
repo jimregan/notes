@@ -34,6 +34,19 @@ categories: [links]
 
 [bshall/VectorQuantizedCPC](https://github.com/bshall/VectorQuantizedCPC)
 
+[menelik3/cmudict-ipa](https://github.com/menelik3/cmudict-ipa) --- The CMU Pronouncing Dictionary converted to IPA
+
+[A cross-linguistic database of phonetic transcription systems](https://sciendo.com/pdf/10.2478/yplm-2018-0002)
+
+[glottobank/potential-of-cognate-detection](https://github.com/glottobank/potential-of-cognate-detection) --- Source code and data accompanying the paper "The Potential of Automatic Word Comparison for Historical Linguistics"
+
+[glottobank/tukano](https://github.com/glottobank/tukano) --- Repository for computer-guided reconstruction with Jena wordlist standard for Tukano language data
+
+[Cpc vox populi #965](https://github.com/flashlight/wav2letter/commit/04b0305599008b7f4498ef39c1c9e684f856ec1c)
+
+[flashlight/flashlight/app/asr/tools/alignment](https://github.com/flashlight/flashlight/tree/e9628da572288ee1d5177033eec090b6aee91680/flashlight/app/asr/tools/alignment)
+
+[wav2letter/recipes/lexicon_free](https://github.com/flashlight/wav2letter/tree/main/recipes/lexicon_free)
 
 ## Todo
 
@@ -41,9 +54,19 @@ categories: [links]
 
 [Die araner mundart/Wörterbuch/æ ȧ – Wikisource](https://de.wikisource.org/wiki/Die_araner_mundart/W%C3%B6rterbuch/%C3%A6_%C8%A7#cite_ref-36)
 
+[L’Accent dans le gaëlique du Munster - Wikisource](https://fr.wikisource.org/wiki/L%E2%80%99Accent_dans_le_ga%C3%ABlique_du_Munster)
+
 [patrickvonplaten/Wav2Vec2_PyCTCDecode](https://github.com/patrickvonplaten/Wav2Vec2_PyCTCDecode)
 
 [kensho-technologies/pyctcdecode](https://github.com/kensho-technologies/pyctcdecode)
 
 [What’s New in v3.2](https://spacy.io/usage/v3-2)
+
+[kaldi/run_segmentation_long_utts.sh](https://github.com/kaldi-asr/kaldi/blob/master/egs/tedlium/s5_r2/local/run_segmentation_long_utts.sh)
+
+[kaldi/egs/wsj/s5/steps/cleanup](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/cleanup)
+
+[kaldi/clean_and_segment_data.sh](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/clean_and_segment_data.sh)
+
+[kaldi/decode_segmentation.sh](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/decode_segmentation.sh)
 
