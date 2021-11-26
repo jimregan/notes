@@ -65,6 +65,10 @@ def ga_lc(text):
 def remove_special_characters(batch):
     batch["sentence"] = re.sub(chars_to_remove_regex, '', batch["sentence"])
     batch["sentence"] = batch["sentence"].replace("’", "'")
+    batch["sentence"] = re.sub("^'", "", batch["sentence"])
+    batch["sentence"] = re.sub("'$", "", batch["sentence"])
+    batch["sentence"] = re.sub("' ", " ", batch["sentence"])
+    batch["sentence"] = re.sub(" '", " ", batch["sentence"])
     batch["sentence"] = ga_lc(batch["sentence"])
     return batch
 
@@ -319,7 +323,7 @@ training_args = TrainingArguments(
   per_device_train_batch_size=16,
   gradient_accumulation_steps=2,
   evaluation_strategy="steps",
-  num_train_epochs=200,
+  num_train_epochs=210,
   gradient_checkpointing=True,
   fp16=True,
   save_steps=400,
