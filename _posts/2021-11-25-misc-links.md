@@ -3,7 +3,7 @@ toc: true
 layout: post
 hidden: true
 description: Misc. interesting things.
-title: Interesting links, 17/11/2021
+title: Interesting links, 25/11/2021
 categories: [links]
 ---
 
@@ -75,6 +75,8 @@ categories: [links]
 [nnmnkwii_gallery/01-DNN-based statistical speech synthesis \(en\).ipynb](https://github.com/r9y9/nnmnkwii_gallery/blob/master/notebooks/tts/01-DNN-based%20statistical%20speech%20synthesis%20\(en\).ipynb)
 
 [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626)
+
+[toganlabs/seanchlo_keyboard/](https://github.com/toganlabs/seanchlo_keyboard/)
 
 ## Todo
 
