@@ -19,3 +19,5 @@ categories: [links]
 
 [Open-Speech-EkStep/vakyansh-tts](https://github.com/Open-Speech-EkStep/vakyansh-tts)
 
+[mjansche/ctc_sampling](https://github.com/mjansche/ctc_sampling)
+
