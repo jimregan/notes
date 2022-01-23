@@ -23,3 +23,16 @@ categories: [links]
 
 [X-SAMPA to IPA converter](https://www.vulgarlang.com/ipa-x-sampa-cxs-converter/)
 
+[Lexin multilingual dictionary](https://snd.gu.se/sv/catalogue/resource/ext0286),
+[data](http://liljeholmen.sprakochfolkminnen.se/sprakresurser/lexin/svenska/)
+
+[Sprakbanken_Swe lexicon](http://www.openslr.org/29/)
+
+[clean_and_segment_data.sh](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/clean_and_segment_data.sh)
+
+[DT2112](https://www.kth.se/student/kurser/kurs/DT2112?l=en)
+
+[Bostadsförmedlingen i Stockholm AB](https://bostad.stockholm.se/)
+
+[Continual learning using lattice-free MMI for speech recognition](https://arxiv.org/abs/2110.07055)
+
