@@ -21,3 +21,5 @@ categories: [links]
 
 [mjansche/ctc_sampling](https://github.com/mjansche/ctc_sampling)
 
+[X-SAMPA to IPA converter](https://www.vulgarlang.com/ipa-x-sampa-cxs-converter/)
+
