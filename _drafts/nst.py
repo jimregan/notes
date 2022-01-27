@@ -31,6 +31,13 @@ In the original version of the material, the files were organized in a specific 
 
 _URL = "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/"
 
+__DATA_URLS = [
+    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/ADB_SWE_0467.tar.gz",
+    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_1.tar.gz",
+    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_2.tar.gz",
+    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_begge.tar.gz"
+]
+
 _REGIONS = [
     "Dalarna med omnejd",
     "Göteborg med omnejd",
@@ -87,3 +94,10 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             ],
         )
 
+    def _split_generators(self, dl_manager):
+        data_dir = dl_manager.download_and_extract(_DATA_URLS)
+        return [
+            datasets.SplitGenerator(
+                name=datasets.Split.TRAIN,
+            ),
+        ]
