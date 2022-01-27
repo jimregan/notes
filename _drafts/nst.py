@@ -131,7 +131,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                         for adir in audio_dirs:
                             fpath = Path(adir) / tar_path
                             if fpath.exists():
-                                with open(fpath, "r") as audiofile:
+                                with open(fpath, "rb") as audiofile:
                                     yield str(fpath), {
                                         "speaker_info": speaker_data,
                                         "text": text,
