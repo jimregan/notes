@@ -75,9 +75,9 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                     {
                         "id": datasets.Value("string"),
                         "age": datasets.Value("string"),
-                        "gender": datasets.ClassLabel(_SEX),
-                        "region_of_birth": datasets.ClassLabel(_REGIONS),
-                        "region_of_youth": datasets.ClassLabel(_REGIONS),
+                        "gender": datasets.ClassLabel(names=_SEX),
+                        "region_of_birth": datasets.ClassLabel(names=_REGIONS),
+                        "region_of_youth": datasets.ClassLabel(names=_REGIONS),
                     }
                 ),
                 "text": datasets.Value("string"),
