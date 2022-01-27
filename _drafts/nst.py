@@ -96,6 +96,8 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             ],
         )
 
+    # split is hardcoded to 'train' for now; there is a test set, but
+    # it has not been modernised
     def _split_generators(self, dl_manager):
         json_dir = dl_manager.download_and_extract(_JSON_URL)
         audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
@@ -103,6 +105,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 gen_kwargs={
+                    "split": "train",
                     "json_dir": json_dir,
                     "audio_dirs": audio_dirs,
                 },
