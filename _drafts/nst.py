@@ -14,10 +14,8 @@
 # limitations under the License.
 # Lint as: python3
 
-import os
 from pathlib import Path
-import glob
-import re
+import json
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
@@ -31,12 +29,15 @@ In the original version of the material, the files were organized in a specific 
 
 _URL = "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/"
 
-__DATA_URLS = [
-    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/ADB_SWE_0467.tar.gz",
+
+_JSON_URL = "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/ADB_SWE_0467.tar.gz"
+
+
+_AUDIO_URLS = [
     "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_1.tar.gz",
-    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_2.tar.gz",
-    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_begge.tar.gz"
+    "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/lydfiler_16_2.tar.gz"
 ]
+
 
 _REGIONS = [
     "Dalarna med omnejd",
@@ -81,6 +82,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 ),
                 "text": datasets.Value("string"),
                 "path": datasets.Value("string"),
+                "audio": datasets.Audio(sampling_rate=16_000)
             }
         )
 
@@ -95,9 +97,64 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         )
 
     def _split_generators(self, dl_manager):
-        data_dir = dl_manager.download_and_extract(_DATA_URLS)
+        json_dir = dl_manager.download_and_extract(_JSON_URL)
+        audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
+                gen_kwargs={
+                    "json_dir": json_dir,
+                    "audio_dirs": audio_dirs,
+                },
             ),
         ]
+
+    def _generate_examples(
+        self, split, json_dir, audio_dirs
+    ):
+        """Yields examples as (key, example) tuples. """
+        json_path = Path(json_dir)
+        for json_filename in json_path.glob('*.json'):
+            with open(json_filename) as json_file:
+                data = json.load(json_file)
+                speaker_data = _get_speaker_data(data)
+                pid = data['pid']
+                for recording in data['val_recordings']:
+                    bare_path = recording['file'].replace('.wav', '')
+                    text = recording['text']
+                    lang_part = pid[0:2]
+                    for num in ['1', '2']:
+                        tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
+                        for adir in audio_dirs:
+                            fpath = Path(adir) / tar_path
+                            if fpath.exists():
+                                with open(fpath, "r") as audiofile:
+                                    yield str(fpath), {
+                                        "speaker_info": speaker_data,
+                                        "text": text,
+                                        "path": str(fpath),
+                                        "audio": {
+                                            "path": str(fpath),
+                                            "bytes": audiofile.read()
+                                        }
+                                    }
+
+
+def _get_speaker_data(data):
+    out = {}
+    if 'Age' in data:
+        out['age'] = data['Age']
+    if 'Region_of_Birth' in data:
+        out['region_of_birth'] = data['Region_of_Birth']
+    if 'Region_of_Youth' in data:
+        out['region_of_youth'] = data['Region_of_Youth']
+    if 'Speaker_ID' in data:
+        out['id'] = data['Speaker_ID']
+    if 'Sex' in data:
+        if data['Sex'] == "":
+            out['gender'] = 'Unspecified'
+        else:
+            out['gender'] = data['Sex']
+    else:
+        out['gender'] = 'Unspecified'
+    return out
