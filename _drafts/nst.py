@@ -73,7 +73,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             {
                 "speaker_info": datasets.features.Sequence(
                     {
-                        "id": datasets.Value("string"),
+                        "speaker_id": datasets.Value("string"),
                         "age": datasets.Value("string"),
                         "gender": datasets.ClassLabel(names=_SEX),
                         "region_of_birth": datasets.ClassLabel(names=_REGIONS),
@@ -147,12 +147,16 @@ def _get_speaker_data(data):
     out = {}
     if 'Age' in data:
         out['age'] = data['Age']
+    else:
+        out['age'] = 'Unspecified'
     if 'Region_of_Birth' in data:
         out['region_of_birth'] = data['Region_of_Birth']
     if 'Region_of_Youth' in data:
         out['region_of_youth'] = data['Region_of_Youth']
     if 'Speaker_ID' in data:
-        out['id'] = data['Speaker_ID']
+        out['speaker_id'] = data['Speaker_ID']
+    else:
+        out['speaker_id'] = "Unspecified"
     if 'Sex' in data:
         if data['Sex'] == "":
             out['gender'] = 'Unspecified'
