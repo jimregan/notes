@@ -147,22 +147,34 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 def _get_speaker_data(data):
     out = {}
     if 'Age' in data:
-        out['age'] = data['Age']
+        if data['Age'] == "":
+            out['age'] = 'Unspecified'
+        else:
+            out['age'] = data['Age']
     else:
         out['age'] = 'Unspecified'
 
     if 'Region_of_Birth' in data:
-        out['region_of_birth'] = data['Region_of_Birth']
+        if data['Region_of_Birth'] == "":
+            out['region_of_birth'] = 'Unspecified'
+        else:
+            out['region_of_birth'] = data['Region_of_Birth']
     else:
         out['region_of_birth'] = "Unspecified"
 
     if 'Region_of_Youth' in data:
-        out['region_of_youth'] = data['Region_of_Youth']
+        if data['Region_of_Youth'] == "":
+            out['region_of_youth'] = 'Unspecified'
+        else:
+            out['region_of_youth'] = data['Region_of_Youth']
     else:
         out['region_of_youth'] = "Unspecified"
 
     if 'Speaker_ID' in data:
-        out['speaker_id'] = data['Speaker_ID']
+        if data['Speaker_ID'] == "":
+            out['speaker_id'] = 'Unspecified'
+        else:
+            out['speaker_id'] = data['Speaker_ID']
     else:
         out['speaker_id'] = "Unspecified"
 
