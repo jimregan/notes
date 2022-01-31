@@ -49,7 +49,8 @@ _REGIONS = [
     "Stockholm med omnejd",
     "Västergötland",
     "Västra sydsverige",
-    "Västsverige"
+    "Västsverige",
+    "Unspecified"
 ]
 
 _SEX = [
@@ -149,14 +150,22 @@ def _get_speaker_data(data):
         out['age'] = data['Age']
     else:
         out['age'] = 'Unspecified'
+
     if 'Region_of_Birth' in data:
         out['region_of_birth'] = data['Region_of_Birth']
+    else:
+        out['region_of_birth'] = "Unspecified"
+
     if 'Region_of_Youth' in data:
         out['region_of_youth'] = data['Region_of_Youth']
+    else:
+        out['region_of_youth'] = "Unspecified"
+
     if 'Speaker_ID' in data:
         out['speaker_id'] = data['Speaker_ID']
     else:
         out['speaker_id'] = "Unspecified"
+
     if 'Sex' in data:
         if data['Sex'] == "":
             out['gender'] = 'Unspecified'
@@ -164,4 +173,6 @@ def _get_speaker_data(data):
             out['gender'] = data['Sex']
     else:
         out['gender'] = 'Unspecified'
+
     return out
+
