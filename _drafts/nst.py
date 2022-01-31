@@ -72,15 +72,11 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     def _info(self):
         features = datasets.Features(
             {
-                "speaker_info": datasets.features.Sequence(
-                    {
-                        "speaker_id": datasets.Value("string"),
-                        "age": datasets.Value("string"),
-                        "gender": datasets.ClassLabel(names=_SEX),
-                        "region_of_birth": datasets.ClassLabel(names=_REGIONS),
-                        "region_of_youth": datasets.ClassLabel(names=_REGIONS),
-                    }
-                ),
+                "speaker_id": datasets.Value("string"),
+                "age": datasets.Value("string"),
+                "gender": datasets.ClassLabel(names=_SEX),
+                "region_of_birth": datasets.ClassLabel(names=_REGIONS),
+                "region_of_youth": datasets.ClassLabel(names=_REGIONS),
                 "text": datasets.Value("string"),
                 "path": datasets.Value("string"),
                 "audio": datasets.Audio(sampling_rate=16_000)
@@ -118,23 +114,28 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     ):
         """Yields examples as (key, example) tuples. """
         json_path = Path(json_dir)
-        for json_filename in json_path.glob('*.json'):
+        for json_filename in json_path.glob("*.json"):
             with open(json_filename) as json_file:
                 data = json.load(json_file)
                 speaker_data = _get_speaker_data(data["info"])
-                pid = data['pid']
-                for recording in data['val_recordings']:
-                    bare_path = recording['file'].replace('.wav', '')
-                    text = recording['text']
+                pid = data["pid"]
+                print(pid)
+                for recording in data["val_recordings"]:
+                    bare_path = recording['file'].replace(".wav", "")
+                    text = recording["text"]
                     lang_part = pid[0:2]
-                    for num in ['1', '2']:
+                    for num in ["1", "2"]:
                         tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
                         for adir in audio_dirs:
                             fpath = Path(adir) / tar_path
                             if fpath.exists():
                                 with open(fpath, "rb") as audiofile:
                                     yield str(fpath), {
-                                        "speaker_info": speaker_data,
+                                        "speaker_id": speaker_data["speaker_id"],
+                                        "age": speaker_data["age"],
+                                        "gender": speaker_data["gender"],
+                                        "region_of_birth": speaker_data["region_of_birth"],
+                                        "region_of_youth": speaker_data["region_of_youth"],
                                         "text": text,
                                         "path": str(fpath),
                                         "audio": {
@@ -146,54 +147,54 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 
 def _get_speaker_data(data):
     out = {}
-    if 'Age' in data:
-        if data['Age'] == "":
-            out['age'] = 'Unspecified'
+    if "Age" in data:
+        if data["Age"] == "":
+            out["age"] = "Unspecified"
         else:
-            out['age'] = data['Age']
+            out["age"] = data["Age"]
     else:
-        out['age'] = 'Unspecified'
+        out["age"] = "Unspecified"
 
-    if 'Region_of_Birth' in data:
-        if data['Region_of_Birth'] == "":
-            out['region_of_birth'] = 'Unspecified'
-        elif data['Region_of_Birth'] not in _REGIONS:
-            print("Unknown option for Region_of_Birth: " + data['Region_of_Birth'])
-            out['region_of_birth'] = 'Unspecified'
+    if "Region_of_Birth" in data:
+        if data["Region_of_Birth"] == "":
+            out["region_of_birth"] = "Unspecified"
+        elif data["Region_of_Birth"] not in _REGIONS:
+            print("Unknown option for Region_of_Birth: " + data["Region_of_Birth"])
+            out["region_of_birth"] = "Unspecified"
         else:
-            out['region_of_birth'] = data['Region_of_Birth']
+            out["region_of_birth"] = data["Region_of_Birth"]
     else:
-        out['region_of_birth'] = "Unspecified"
+        out["region_of_birth"] = "Unspecified"
 
-    if 'Region_of_Youth' in data:
-        if data['Region_of_Youth'] == "":
-            out['region_of_youth'] = 'Unspecified'
-        elif data['Region_of_Youth'] not in _REGIONS:
-            print("Unknown option for Region_of_Youth: " + data['Region_of_Youth'])
-            out['region_of_youth'] = 'Unspecified'
+    if "Region_of_Youth" in data:
+        if data["Region_of_Youth"] == "":
+            out["region_of_youth"] = "Unspecified"
+        elif data["Region_of_Youth"] not in _REGIONS:
+            print("Unknown option for Region_of_Youth: " + data["Region_of_Youth"])
+            out["region_of_youth"] = "Unspecified"
         else:
-            out['region_of_youth'] = data['Region_of_Youth']
+            out["region_of_youth"] = data["Region_of_Youth"]
     else:
-        out['region_of_youth'] = "Unspecified"
+        out["region_of_youth"] = "Unspecified"
 
-    if 'Speaker_ID' in data:
-        if data['Speaker_ID'] == "":
-            out['speaker_id'] = 'Unspecified'
+    if "Speaker_ID" in data:
+        if data["Speaker_ID"] == "":
+            out["speaker_id"] = "Unspecified"
         else:
-            out['speaker_id'] = data['Speaker_ID']
+            out["speaker_id"] = data["Speaker_ID"]
     else:
-        out['speaker_id'] = "Unspecified"
+        out["speaker_id"] = "Unspecified"
 
     if 'Sex' in data:
-        if data['Sex'] == "":
-            out['gender'] = 'Unspecified'
-        elif data['Sex'] not in _SEX:
-            print("Unknown option for Sex: " + data['Sex'])
-            out['gender'] = 'Unspecified'
+        if data["Sex"] == "":
+            out["gender"] = "Unspecified"
+        elif data["Sex"] not in _SEX:
+            print("Unknown option for Sex: " + data["Sex"])
+            out["gender"] = "Unspecified"
         else:
-            out['gender'] = data['Sex']
+            out["gender"] = data["Sex"]
     else:
-        out['gender'] = 'Unspecified'
+        out["gender"] = "Unspecified"
 
     return out
 
