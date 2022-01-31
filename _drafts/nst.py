@@ -159,6 +159,7 @@ def _get_speaker_data(data):
             out['region_of_birth'] = 'Unspecified'
         elif data['Region_of_Birth'] not in _REGIONS:
             print("Unknown option for Region_of_Birth: " + data['Region_of_Birth'])
+            out['region_of_birth'] = 'Unspecified'
         else:
             out['region_of_birth'] = data['Region_of_Birth']
     else:
@@ -169,6 +170,7 @@ def _get_speaker_data(data):
             out['region_of_youth'] = 'Unspecified'
         elif data['Region_of_Youth'] not in _REGIONS:
             print("Unknown option for Region_of_Youth: " + data['Region_of_Youth'])
+            out['region_of_youth'] = 'Unspecified'
         else:
             out['region_of_youth'] = data['Region_of_Youth']
     else:
