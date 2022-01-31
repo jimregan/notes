@@ -121,7 +121,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         for json_filename in json_path.glob('*.json'):
             with open(json_filename) as json_file:
                 data = json.load(json_file)
-                speaker_data = _get_speaker_data(data)
+                speaker_data = _get_speaker_data(data["info"])
                 pid = data['pid']
                 for recording in data['val_recordings']:
                     bare_path = recording['file'].replace('.wav', '')
