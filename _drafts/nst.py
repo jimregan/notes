@@ -157,6 +157,8 @@ def _get_speaker_data(data):
     if 'Region_of_Birth' in data:
         if data['Region_of_Birth'] == "":
             out['region_of_birth'] = 'Unspecified'
+        elif data['Region_of_Birth'] not in _REGIONS:
+            print("Unknown option for Region_of_Birth: " + data['Region_of_Birth'])
         else:
             out['region_of_birth'] = data['Region_of_Birth']
     else:
@@ -165,6 +167,8 @@ def _get_speaker_data(data):
     if 'Region_of_Youth' in data:
         if data['Region_of_Youth'] == "":
             out['region_of_youth'] = 'Unspecified'
+        elif data['Region_of_Youth'] not in _REGIONS:
+            print("Unknown option for Region_of_Youth: " + data['Region_of_Youth'])
         else:
             out['region_of_youth'] = data['Region_of_Youth']
     else:
@@ -180,6 +184,9 @@ def _get_speaker_data(data):
 
     if 'Sex' in data:
         if data['Sex'] == "":
+            out['gender'] = 'Unspecified'
+        elif data['Sex'] not in _SEX:
+            print("Unknown option for Sex: " + data['Sex'])
             out['gender'] = 'Unspecified'
         else:
             out['gender'] = data['Sex']
