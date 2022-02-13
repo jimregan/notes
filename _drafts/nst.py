@@ -16,6 +16,7 @@
 
 from pathlib import Path
 import json
+import os
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
@@ -96,8 +97,17 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     # split is hardcoded to 'train' for now; there is a test set, but
     # it has not been modernised
     def _split_generators(self, dl_manager):
-        json_dir = dl_manager.download_and_extract(_JSON_URL)
-        audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
+        if hasattr(dl_manager, 'data_dir'):
+            data_dir = os.path.abspath(os.path.expanduser(dl_manager.data_dir))
+            JSON_FILE = _JSON_URL.split("/")[-1]
+            json_dir = dl_manager.extract(os.path.join(data_dir, JSON_FILE))
+            AUDIO_FILES = [
+                os.path.join(data_dir, a.split("/")[-1]) for a in _AUDIO_URLS
+            ]
+            audio_dirs = dl_manager.extract(AUDIO_FILES)
+        else:
+            json_dir = dl_manager.download_and_extract(_JSON_URL)
+            audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
