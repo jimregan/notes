@@ -97,13 +97,13 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     # split is hardcoded to 'train' for now; there is a test set, but
     # it has not been modernised
     def _split_generators(self, dl_manager):
-        if hasattr(dl_manager, 'data_dir'):
-            data_dir = os.path.abspath(os.path.expanduser(dl_manager.data_dir))
+        if hasattr(dl_manager, 'manual_dir'):
+            data_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
             JSON_FILE = _JSON_URL.split("/")[-1]
-            json_dir = dl_manager.extract(os.path.join(data_dir, JSON_FILE))
             AUDIO_FILES = [
                 os.path.join(data_dir, a.split("/")[-1]) for a in _AUDIO_URLS
             ]
+            json_dir = dl_manager.extract(os.path.join(data_dir, JSON_FILE))
             audio_dirs = dl_manager.extract(AUDIO_FILES)
         else:
             json_dir = dl_manager.download_and_extract(_JSON_URL)
@@ -129,7 +129,8 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 data = json.load(json_file)
                 speaker_data = _get_speaker_data(data["info"])
                 pid = data["pid"]
-                print(pid)
+                if "val_recordings" not in data:
+                    continue
                 for recording in data["val_recordings"]:
                     bare_path = recording['file'].replace(".wav", "")
                     text = recording["text"]
