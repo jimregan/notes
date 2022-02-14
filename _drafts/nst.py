@@ -97,7 +97,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     # split is hardcoded to 'train' for now; there is a test set, but
     # it has not been modernised
     def _split_generators(self, dl_manager):
-        if hasattr(dl_manager, 'manual_dir'):
+        if hasattr(dl_manager, 'manual_dir') and dl_manager.manual_dir is not None:
             data_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
             JSON_FILE = _JSON_URL.split("/")[-1]
             AUDIO_FILES = [
