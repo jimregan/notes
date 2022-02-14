@@ -137,6 +137,8 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                     text = recording["text"]
                     if self.config.name != "speech_no_norm":
                         text = normalise(text)
+                        if text is None or text == "":
+                            continue
                     lang_part = pid[0:2]
                     for num in ["1", "2"]:
                         tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
