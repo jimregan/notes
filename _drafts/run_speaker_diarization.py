@@ -1,15 +1,23 @@
-import librosa
 import torch
 from pyannote.audio import Pipeline
+from pydub import AudioSegment
+from pydub.utils import mediainfo
 from pathlib import Path
 import argparse
+import numpy as np
 
 
 def get_diarization(audio_path: Path, pipeline):
     base = audio_path.stem
-    audio, sr = librosa.load(audio_path, mono=False)
-    audionp = torch.from_numpy(audio)
-    diarization = pipeline({"waveform": audionp, "sample_rate": sr})
+    seg = AudioSegment.from_file(audio_path)
+    #info = mediainfo(audio_path)
+    #sr = int(info["sample_rate"])
+    seg = seg.set_channels(1)
+    seg = seg.set_frame_rate(16000)
+    segarr = seg.get_array_of_samples()
+    waveform = torch.tensor(segarr, dtype=torch.float)
+    waveform = torch.reshape(waveform, (1, waveform.shape[0]))
+    diarization = pipeline({"waveform": waveform, "sample_rate": 16000})
     diarization.uri = base
     return diarization
 
