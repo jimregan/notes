@@ -67,6 +67,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 
     BUILDER_CONFIGS = [
         datasets.BuilderConfig(name="speech", version=VERSION, description="Data for speech recognition"),
+        datasets.BuilderConfig(name="speech_no_norm", version=VERSION, description="Data with original text (no normalisation)"),
 #        datasets.BuilderConfig(name="dialects", version=VERSION, description="Data for dialect classification"),
     ]
 
@@ -134,6 +135,8 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 for recording in data["val_recordings"]:
                     bare_path = recording['file'].replace(".wav", "")
                     text = recording["text"]
+                    if self.config.name != "speech_no_norm":
+                        text = normalise(text)
                     lang_part = pid[0:2]
                     for num in ["1", "2"]:
                         tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
@@ -209,3 +212,19 @@ def _get_speaker_data(data):
 
     return out
 
+
+def normalise(text: str) -> str:
+    MARKERS = ["[fil]", "[int]", "[spk]", "[sta]"]
+    text = text.lower()
+    for mark in MARKERS:
+        text = text.replace(mark, "")
+    outtext = ""
+    last_char = ""
+    for char in text:
+        if char in "abcdefghijklmnopqrstuvwxyzåäö: ":
+            if char == " " and last_char == " ":
+                continue
+            else:
+                outtext = outtext + char
+            last_char = char
+    return outtext
