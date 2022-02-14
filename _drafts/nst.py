@@ -16,6 +16,7 @@
 
 from pathlib import Path
 import json
+import os
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
@@ -66,6 +67,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 
     BUILDER_CONFIGS = [
         datasets.BuilderConfig(name="speech", version=VERSION, description="Data for speech recognition"),
+        datasets.BuilderConfig(name="speech_no_norm", version=VERSION, description="Data with original text (no normalisation)"),
 #        datasets.BuilderConfig(name="dialects", version=VERSION, description="Data for dialect classification"),
     ]
 
@@ -96,8 +98,17 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     # split is hardcoded to 'train' for now; there is a test set, but
     # it has not been modernised
     def _split_generators(self, dl_manager):
-        json_dir = dl_manager.download_and_extract(_JSON_URL)
-        audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
+        if hasattr(dl_manager, 'manual_dir') and dl_manager.manual_dir is not None:
+            data_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
+            JSON_FILE = _JSON_URL.split("/")[-1]
+            AUDIO_FILES = [
+                os.path.join(data_dir, a.split("/")[-1]) for a in _AUDIO_URLS
+            ]
+            json_dir = dl_manager.extract(os.path.join(data_dir, JSON_FILE))
+            audio_dirs = dl_manager.extract(AUDIO_FILES)
+        else:
+            json_dir = dl_manager.download_and_extract(_JSON_URL)
+            audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
@@ -119,10 +130,15 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 data = json.load(json_file)
                 speaker_data = _get_speaker_data(data["info"])
                 pid = data["pid"]
-                print(pid)
+                if "val_recordings" not in data:
+                    continue
                 for recording in data["val_recordings"]:
                     bare_path = recording['file'].replace(".wav", "")
                     text = recording["text"]
+                    if self.config.name != "speech_no_norm":
+                        text = normalise(text)
+                        if text is None or text == "":
+                            continue
                     lang_part = pid[0:2]
                     for num in ["1", "2"]:
                         tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
@@ -198,3 +214,19 @@ def _get_speaker_data(data):
 
     return out
 
+
+def normalise(text: str) -> str:
+    MARKERS = ["[fil]", "[int]", "[spk]", "[sta]"]
+    text = text.lower()
+    for mark in MARKERS:
+        text = text.replace(mark, "")
+    outtext = ""
+    last_char = ""
+    for char in text:
+        if char in "abcdefghijklmnopqrstuvwxyzåäö: ":
+            if char == " " and last_char == " ":
+                continue
+            else:
+                outtext = outtext + char
+            last_char = char
+    return outtext
