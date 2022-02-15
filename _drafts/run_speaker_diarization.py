@@ -10,6 +10,7 @@ import numpy as np
 def get_diarization(audio_path: Path, pipeline):
     base = audio_path.stem
     seg = AudioSegment.from_file(audio_path)
+    # We're setting sample rate first, but this is how to get it
     #info = mediainfo(audio_path)
     #sr = int(info["sample_rate"])
     seg = seg.set_channels(1)
@@ -27,10 +28,20 @@ def main():
     parser.add_argument('--model', dest='model', type=str, nargs='?',
                         default="pyannote/speaker-diarization",
                         help='model to use for diarization')
+    parser.add_argument('--outputdir', dest='dirname', type=str, nargs=1,
+                        help='output directory name')
+    parser.add_argument('--samedir', dest='samedir', action='store_true',
+                        help='write output in same directory as input')
+    parser.add_argument('--overwrite', dest='overwrite', action='store_true',
+                        help='overwrite previous output')
     parser.add_argument('files', metavar='files', type=str, nargs='+',
                         help='files to diarize')
     parser.add_argument('--verbose', '-v', action='count', default=0)
     args = parser.parse_args()
+
+    if args.samedir and args.outputdir:
+        print("--samedir and --outputdir conflict: choose one")
+        exit()
 
     pipeline = Pipeline.from_pretrained(args.model)
 
@@ -40,7 +51,17 @@ def main():
             print("Processing: " + file)
         diar = get_diarization(fpath, pipeline)
         base = fpath.stem
-        with open(f"{base}.rttm", "w") as outfile:
+        if args.dirname and args.dirname != "":
+            outname = Path(args.dirname) / f"{base}.rttm"
+        elif args.samedir:
+            outname = fpath.with_suffix(".rttm")
+        else:
+            outname = Path(f"{base}.rttm")
+        if not (args.overwrite and outname.exists()):
+            if args.verbose > 0:
+                print(f"{outname} exists, skipping")
+            continue
+        with open(outname, "w") as outfile:
             diar.write_rttm(outfile)
 
 
