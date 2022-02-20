@@ -1,16 +1,15 @@
 import torch
 from pyannote.audio import Pipeline
 from pydub import AudioSegment
-from pydub.utils import mediainfo
 from pathlib import Path
 import argparse
-import numpy as np
 
 
 def get_diarization(audio_path: Path, pipeline):
     base = audio_path.stem
     seg = AudioSegment.from_file(audio_path)
     # We're setting sample rate first, but this is how to get it
+    #from pydub.utils import mediainfo
     #info = mediainfo(audio_path)
     #sr = int(info["sample_rate"])
     seg = seg.set_channels(1)
