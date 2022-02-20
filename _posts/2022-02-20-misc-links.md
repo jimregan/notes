@@ -45,3 +45,7 @@ categories: [links]
 
 [AI Sweden Youtube](https://www.youtube.com/channel/UC9tI59qEGKS_v1PMfWyGY1Q)
 
+[LibriVox - An Sgéaluidhe Gaedhealach by Dúbhglas de h-Íde](https://forum.librivox.org/viewtopic.php?f=12&t=90457&sid=47d968a279b1aa28a22014bf8839e206),
+[scan](https://archive.org/details/ansgealuidhegae00hydegoog/)
+
+[Eclipse Mosquitto](https://mosquitto.org/)
