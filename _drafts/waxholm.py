@@ -100,8 +100,7 @@ def smp_headers(filename):
 
 # From python-audio: https://github.com/mgeier/python-audio/blob/master/audio-files/utility.py
 # CC-0: https://github.com/mgeier/python-audio/blob/master/LICENSE
-
-def pcm2float(sig, dtype='float64'):
+def pcm2float(sig, dtype='float32'):
     """Convert PCM signal to floating point with a range from -1 to 1.
     Use dtype='float32' for single precision.
     Parameters
@@ -137,6 +136,21 @@ def smp_read(filename):
         SPEC = "<H"
     else:
         SPEC = ">H"
+    
+    with open(filename, "rb") as f:
+        f.seek(1024)
+        buf = f.read()
+        tmp = [a for a in struct.iter_unpack(SPEC, buf)]
+        tmp = pcm2float(tmp)
+        return np.array(tmp).reshape(1, -1)
+
+
+def smp_read_np(filename):
+    headers = smp_headers(filename)
+    if headers["msb"] == "last":
+        SPEC = "<H"
+    else:
+        SPEC = ">H"
 
     arr = np.memmap(filename, dtype=np.dtype("<H"), mode="r", offset=1024)
     arr = pcm2float(arr)
@@ -153,12 +167,11 @@ def write_wav(filename, arr):
     import wave
 
     with wave.open(filename, "w") as f:
-        # 2 Channels.
         f.setnchannels(1)
-        # 2 bytes per sample.
         f.setsampwidth(2)
         f.setframerate(16000)
         f.writeframes(arr)
+
 
 arr = smp_read("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
 write_wav("out.wav", arr)
