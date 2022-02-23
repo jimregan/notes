@@ -138,7 +138,7 @@ def smp_read(filename):
     else:
         SPEC = ">H"
 
-    arr = np.memmap(filename, dtype=np.dtype(">H"), mode="r", offset=1024)
+    arr = np.memmap(filename, dtype=np.dtype("<H"), mode="r", offset=1024)
     arr = pcm2float(arr)
     if headers["nchans"] == "1":
         arr = np.reshape(arr, (1, -1))
@@ -148,4 +148,17 @@ def smp_read(filename):
         raise IOError("Only know how to handle 1 or 2 channels, got: " + headers["nchans"])
     return arr
 
-smp_read("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
+
+def write_wav(filename, arr):
+    import wave
+
+    with wave.open(filename, "w") as f:
+        # 2 Channels.
+        f.setnchannels(1)
+        # 2 bytes per sample.
+        f.setsampwidth(2)
+        f.setframerate(16000)
+        f.writeframes(arr)
+
+arr = smp_read("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
+write_wav("out.wav", arr)
