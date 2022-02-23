@@ -58,10 +58,11 @@
         "year": "2011",
         "author": "Blomberg, M.",
         "publication_full": "TMH-QPSR Vol. 51, Fonetik 2011",
-        "title": "Model space size scaling for speaker adaptation. In",
+        "title": "Model space size scaling for speaker adaptation.",
         "pdf": "http://www.speech.kth.se/prod/publications/files/3597.pdf",
-        "edition": "pp. 77-80",
-        "pages": "Music and Hearing and Centre for Speech Technology (CTT)"
+        "pages": "77-80",
+        "volume": "51",
+        "editiion": "1"
     },
     {
         "year": "2011",
@@ -1513,11 +1514,12 @@
         "year": "2002",
         "author": "Hincks, R.",
         "publication_full": "Proceedings of Fonetik, TMH-QPSR",
-        "title": "Speech synthesis for teaching lexical stress. In",
+        "title": "Speech synthesis for teaching lexical stress.",
         "abstract": "This paper reports on a study carried out on a group of KTH students studying Technical English.  Students used WaveSurfer audiovisual synthesis to experiment with differences in pitch and duration in Swedish-English cognates. The exercise helped students achieve long-term acquisition of correct lexical stress for the particular words.",
         "pdf": "http://www.speech.kth.se/prod/publications/files/qpsr/2002/2002_44_1_153-156.pdf",
-        "edition": "pp. 153-156",
-        "pages": "Music and Hearing"
+        "pages": "153-156",
+        "volume": "44",
+        "editiion": "1"
     },
     {
         "year": "2002",
