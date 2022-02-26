@@ -133,9 +133,9 @@ def pcm2float(sig, dtype='float32'):
 def smp_read(filename):
     headers = smp_headers(filename)
     if headers["msb"] == "last":
-        SPEC = "<H"
+        SPEC = "<h"
     else:
-        SPEC = ">H"
+        SPEC = ">h"
     
     with open(filename, "rb") as f:
         f.seek(1024)
@@ -148,12 +148,12 @@ def smp_read(filename):
 def smp_read_np(filename):
     headers = smp_headers(filename)
     if headers["msb"] == "last":
-        SPEC = "<H"
+        SPEC = "<h"
     else:
-        SPEC = ">H"
+        SPEC = ">h"
 
-    arr = np.memmap(filename, dtype=np.dtype("<H"), mode="r", offset=1024)
-    arr = pcm2float(arr)
+    arr = np.memmap(filename, dtype=np.int16, mode="r", offset=1024)
+#    arr = pcm2float(arr)
     if headers["nchans"] == "1":
         arr = np.reshape(arr, (1, -1))
     elif headers["nchans"] == "2":
