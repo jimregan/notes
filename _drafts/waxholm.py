@@ -152,7 +152,8 @@ def smp_read_np(filename):
     else:
         SPEC = ">h"
 
-    arr = np.memmap(filename, dtype=np.int16, mode="r", offset=1024)
+#    arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
+    arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
     arr = pcm2float(arr)
     if headers["nchans"] == "1":
         arr = np.reshape(arr, (1, -1))
