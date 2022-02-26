@@ -153,7 +153,7 @@ def smp_read_np(filename):
         SPEC = ">h"
 
     arr = np.memmap(filename, dtype=np.int16, mode="r", offset=1024)
-#    arr = pcm2float(arr)
+    arr = pcm2float(arr)
     if headers["nchans"] == "1":
         arr = np.reshape(arr, (1, -1))
     elif headers["nchans"] == "2":
@@ -173,5 +173,5 @@ def write_wav(filename, arr):
         f.writeframes(arr)
 
 
-arr = smp_read("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
+arr = smp_read_np("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
 write_wav("out.wav", arr)
