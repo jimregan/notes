@@ -154,7 +154,10 @@ def smp_read_np(filename):
 
 #    arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
     arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
-    arr = pcm2float(arr)
+    print(arr)
+#    arr = pcm2float(arr)
+    arr = arr.astype(np.float32)
+    print(arr)
     if headers["nchans"] == "1":
         arr = np.reshape(arr, (1, -1))
     elif headers["nchans"] == "2":
@@ -169,10 +172,10 @@ def write_wav(filename, arr):
 
     with wave.open(filename, "w") as f:
         f.setnchannels(1)
-        f.setsampwidth(2)
+        f.setsampwidth(1)
         f.setframerate(16000)
         f.writeframes(arr)
 
 
-arr = smp_read_np("/Users/joregan/Playing/waxholm/scenes_formatted/fp2060/fp2060.11.03.smp")
+arr = smp_read_np("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
 write_wav("out.wav", arr)
