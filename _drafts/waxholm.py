@@ -129,6 +129,11 @@ def pcm2float(sig, dtype='float32'):
     offset = i.min + abs_max
     return (sig.astype(dtype) - offset) / abs_max
 
+def do_mult(inp):
+    div = 1.0 / 32768.0
+    inp = inp.astype(np.float32)
+    inp = inp * div
+    return inp
 
 def smp_read(filename):
     headers = smp_headers(filename)
@@ -152,19 +157,19 @@ def smp_read_np(filename):
     else:
         SPEC = ">h"
 
-#    arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
-    arr = np.memmap(filename, dtype=np.dtype(">h"), mode="r", offset=1024)
-    print(arr)
-#    arr = pcm2float(arr)
-    arr = arr.astype(np.float32)
-    print(arr)
-    if headers["nchans"] == "1":
-        arr = np.reshape(arr, (1, -1))
-    elif headers["nchans"] == "2":
-        arr = np.array([arr[::2], arr[1::2]])
-    else:
-        raise IOError("Only know how to handle 1 or 2 channels, got: " + headers["nchans"])
+    arr = np.memmap(filename, dtype=np.dtype(SPEC), mode="r", offset=1024)
     return arr
+#    arr = pcm2float(arr)
+#    arr = do_mult(arr)
+#    arr = arr.astype(np.float32)
+#    print(arr)
+#    if headers["nchans"] == "1":
+#        arr = np.reshape(arr, (1, -1))
+#    elif headers["nchans"] == "2":
+#        arr = np.array([arr[::2], arr[1::2]])
+#    else:
+#        raise IOError("Only know how to handle 1 or 2 channels, got: " + headers["nchans"])
+#    return arr
 
 
 def write_wav(filename, arr):
@@ -172,7 +177,7 @@ def write_wav(filename, arr):
 
     with wave.open(filename, "w") as f:
         f.setnchannels(1)
-        f.setsampwidth(1)
+        f.setsampwidth(2)
         f.setframerate(16000)
         f.writeframes(arr)
 
