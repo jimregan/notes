@@ -33,3 +33,8 @@ categories: [links]
 
 [Neural Instrument Cloning from very few samples](https://erlj.notion.site/Neural-Instrument-Cloning-from-very-few-samples-2cf41d8b630842ee8c7eb55036a1bfd6)
 
+[AI-Nordics/the-nordic-pile](https://github.com/AI-Nordics/the-nordic-pile)
+
+[Berzelius](https://www.nsc.liu.se/systems/berzelius/)
+
+
