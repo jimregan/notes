@@ -37,4 +37,12 @@ categories: [links]
 
 [Berzelius](https://www.nsc.liu.se/systems/berzelius/)
 
+[chinedufn/swift-bridge](https://github.com/chinedufn/swift-bridge) --- swift-bridge facilitates Rust and Swift interop.
+
+[qarmin/czkawka](https://github.com/qarmin/czkawka) --- Multi functional app to find duplicates, empty folders, similar images etc.
+
+[PyO3/pyo3](https://github.com/PyO3/pyo3) --- Rust bindings for the Python interpreter
+
+[N-gram Language Model with NLTK](https://www.kaggle.com/alvations/n-gram-language-model-with-nltk)
+
 
