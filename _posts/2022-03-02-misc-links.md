@@ -54,6 +54,22 @@ categories: [links]
 
 [Bried intro to Linen](https://colab.research.google.com/github/google/flax/blob/main/docs/notebooks/linen_intro.ipynb)
 
+[NbAiLab/NPSC](https://huggingface.co/datasets/NbAiLab/NPSC) --- Norwegian Parliamentary Speech Corpus
+
+[XGLM: HuggingFace](https://github.com/huggingface/transformers/commit/d25e25ee2b63ebfcd099deb689a5a7272574a10f)
+
+[fsspec](https://filesystem-spec.readthedocs.io/en/latest/intro.html)
+
+[FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824),
+[code](https://github.com/google-research/google-research/tree/master/f_net),
+[HF](https://huggingface.co/docs/transformers/model_doc/fnet)
+
+[HF: wav2vec update for tiny audio](https://github.com/huggingface/transformers/commit/125a2882b4997f8ad37beadb8a025114f0f0e1a0)
+
+[Adding vs. concatenating positional embeddings & Learned positional encodings](https://www.youtube.com/watch?v=M2ToEXF6Olw)
+
+[Math - Differential Calculus](https://github.com/ageron/handson-ml2/blob/master/math_differential_calculus.ipynb)
+
 ## Audio augmentation
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy)
