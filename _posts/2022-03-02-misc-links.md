@@ -27,3 +27,5 @@ categories: [links]
 
 [Irish ASR demo](https://phoneticsrv3.lcs.tcd.ie/rec/irish_asr)
 
+[QPSR](https://www.speech.kth.se/qpsr/)
+
