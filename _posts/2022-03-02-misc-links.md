@@ -24,3 +24,6 @@ categories: [links]
 [birgermoell/lm-swedish](https://huggingface.co/birgermoell/lm-swedish)
 
 [Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
+
+[Irish ASR demo](https://phoneticsrv3.lcs.tcd.ie/rec/irish_asr)
+
