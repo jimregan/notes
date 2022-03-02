@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>QPSR scraper | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="QPSR scraper" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Scrape the TMH quarterly reports" />
+<meta property="og:description" content="Scrape the TMH quarterly reports" />
+<link rel="canonical" href="https://jimregan.github.io/notes/qpsr/tmh/2022/02/22/qpsr-scraper.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/qpsr/tmh/2022/02/22/qpsr-scraper.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-22T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/qpsr/tmh/2022/02/22/qpsr-scraper.html","@type":"BlogPosting","headline":"QPSR scraper","dateModified":"2022-02-22T00:00:00-06:00","datePublished":"2022-02-22T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/qpsr/tmh/2022/02/22/qpsr-scraper.html"},"description":"Scrape the TMH quarterly reports","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">QPSR scraper</h1><p class="page-description">Scrape the TMH quarterly reports</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-02-22T00:00:00-06:00" itemprop="datePublished">
+        Feb 22, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#qpsr">qpsr</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#tmh">tmh</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-02-22-qpsr-scraper.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_years</span><span class="p">():</span>
+    <span class="n">_TOP</span> <span class="o">=</span> <span class="s2">&quot;https://www.speech.kth.se/qpsr/&quot;</span>
+    <span class="n">_TOP_HTML</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">_TOP</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">_TOP_HTML</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span>
+
+    <span class="n">_TOP_SOUP</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">_TOP_HTML</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>
+    <span class="n">by_years</span> <span class="o">=</span> <span class="n">_TOP_SOUP</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;select&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;year&quot;</span><span class="p">})</span>
+    <span class="n">years</span> <span class="o">=</span> <span class="p">[</span><span class="n">opt</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">by_year</span> <span class="ow">in</span> <span class="n">by_years</span> <span class="k">for</span> <span class="n">opt</span> <span class="ow">in</span> <span class="n">by_year</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;option&quot;</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">years</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_TITLES</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/3605.pdf</span><span class="se">\t</span><span class="s2">Productive Vocabulary Size Development in Children Aged 18-24 Months – Gender Differences</span><span class="se">\t</span><span class="s2">Ida Andersson, Jenny Gauding, Anna Graca, Katarina Holm, Linda Öhlin, Ulrika Marklund, Anna Ericsson</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/3607.pdf</span><span class="se">\t</span><span class="s2">Children’s perception of their modified speech – preliminary findings</span><span class="se">\t</span><span class="s2">Sofia Strömbergsson</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/3579.pdf</span><span class="se">\t</span><span class="s2">Imitation of bird song in folklore – onomatopoeia or not?</span><span class="se">\t</span><span class="s2">Åsa Abelin</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/3586.pdf</span><span class="se">\t</span><span class="s2">Anticipatory lip rounding– a pilot study using The Wave Speech Research System</span><span class="se">\t</span><span class="s2">Gabrielsson, D., Kirchner, S., Nilsson, K., Norberg, A., Widlund, C.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_121-124.pdf</span><span class="se">\t</span><span class="s2">SIMULEKT – modelling Swedish regional intonation</span><span class="se">\t</span><span class="s2">Gösta Bruce, Susanne Schötz, Björn Granström</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_033-036.pdf</span><span class="se">\t</span><span class="s2">Filibuster – a new Swedish text-to-speech system</span><span class="se">\t</span><span class="s2">Christina Ericsson, Jesper Klein, Kåre Sjölander, Lars Sönnebo</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_049-052.pdf</span><span class="se">\t</span><span class="s2">Swedish word accents in a ‘confirmation’ context</span><span class="se">\t</span><span class="s2">Gilbert Ambrazaitis</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_053-056.pdf</span><span class="se">\t</span><span class="s2">Estimates of Infants’ Vocabulary Composition and the Role of Adult-instructions for Early Word-learning</span><span class="se">\t</span><span class="s2">Klintfors E., Lacerda F., Sundberg U.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_061-064.pdf</span><span class="se">\t</span><span class="s2">MushyPeek – an experiment framework for controlled investigation of human-human interaction control behaviour</span><span class="se">\t</span><span class="s2">Jens Edlund, Jonas Beskow, Mattias Heldner</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_077-080.pdf</span><span class="se">\t</span><span class="s2">What you Hear is what you See – a study of visual vs. auditive noise</span><span class="se">\t</span><span class="s2">Anna Berg, Annelie Brandt</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_093-096.pdf</span><span class="se">\t</span><span class="s2">Linguistic challenges for bilingual schoolchildren in Rosengård</span><span class="se">\t</span><span class="s2">Petra Bodén, Gudrun Svensson</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_097-100.pdf</span><span class="se">\t</span><span class="s2">Voxalys – a Pedagogical Praat Plugin for Voice Analysis</span><span class="se">\t</span><span class="s2">Jonas Lindh</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2006/2006_48_1_035-043.pdf</span><span class="se">\t</span><span class="s2">Musical structure: A translation of István Ipolyi: Innføring i Musikkspråkets Opprinnelse og Struktur</span><span class="se">\t</span><span class="s2">Falkenberg Hansen, K.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2002/2002_44_1_085-088.pdf</span><span class="se">\t</span><span class="s2">Stød and Vowel Length: Acoustic and Cognitive Reality?</span><span class="se">\t</span><span class="s2">Grønnum, N.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/2002/2002_44_1_145-148.pdf</span><span class="se">\t</span><span class="s2">Stress judgements by naïve listeners</span><span class="se">\t</span><span class="s2">Molin, J.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/1995/1995_36_2-3_063-070.pdf</span><span class="se">\t</span><span class="s2">Matching the rule parameters of PHRASE ARCH to performances of ”Träumerei”: a preliminary study</span><span class="se">\t</span><span class="s2">Friberg, A.</span>
+<span class="s2">http://www.speech.kth.se/prod/publications/files/qpsr/1975/1975_16_4_027-035.pdf</span><span class="se">\t</span><span class="s2">Lippenablesehilfe für Gehörlose: Visuelle oder taktile Darbietung von Ergänzungsinformation?</span><span class="se">\t</span><span class="s2">Traunmuller, H.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">MISSING</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">missed</span> <span class="ow">in</span> <span class="n">_TITLES</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span> <span class="ow">in</span> <span class="n">missed</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">missed</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">MISSING</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">read_page</span><span class="p">(</span><span class="n">page</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">page</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;http&quot;</span><span class="p">):</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="n">page</span>
+        <span class="n">year</span> <span class="o">=</span> <span class="n">page</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">-</span><span class="mi">4</span><span class="p">:]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://www.speech.kth.se/qpsr/show_by_year.php?year=</span><span class="si">{</span><span class="n">page</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="n">year</span> <span class="o">=</span> <span class="n">page</span>
+
+    <span class="n">req</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">req</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span>
+
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">req</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>
+    <span class="n">pubs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">pub</span> <span class="ow">in</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s2">&quot;publications_apa_entry&quot;</span><span class="p">):</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;year&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">year</span>
+        <span class="n">raw_text</span> <span class="o">=</span> <span class="n">pub</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">author</span> <span class="o">=</span> <span class="n">pub</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;span&quot;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s2">&quot;publications_apa_author&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">author</span><span class="o">.</span><span class="n">text</span> <span class="o">==</span> <span class="s2">&quot;, . (Ed.).&quot;</span><span class="p">:</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">author</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">raw_text</span> <span class="o">=</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">author</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lstrip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s2">).&quot;</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Expected year </span><span class="si">{</span><span class="n">year</span><span class="si">}</span><span class="s2">, but got </span><span class="si">{</span><span class="n">raw_text</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span><span class="si">}</span><span class="s2"> - &quot;</span> <span class="o">+</span> <span class="n">pub</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">raw_text</span> <span class="o">=</span> <span class="n">raw_text</span><span class="p">[</span><span class="mi">8</span><span class="p">:]</span>
+        <span class="n">pub_title</span> <span class="o">=</span> <span class="n">pub</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;span&quot;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s2">&quot;publications_apa_title&quot;</span><span class="p">)</span>
+        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;publication_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pub_title</span><span class="o">.</span><span class="n">text</span>
+        <span class="n">pub_pieces</span> <span class="o">=</span> <span class="n">pub_title</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">pub_pieces</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isdigit</span><span class="p">():</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;volume&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pub_pieces</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;publication&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;, &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pub_pieces</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">pub_title_start</span> <span class="o">=</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">pub_title</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">pub_title_end</span> <span class="o">=</span> <span class="n">pub_title_start</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">pub_title</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">raw_text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">pub_title_start</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;. In&quot;</span><span class="p">):</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">pdf_link</span> <span class="ow">in</span> <span class="n">pub</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">pdf_link</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">pdf_link</span><span class="o">.</span><span class="n">has_attr</span><span class="p">(</span><span class="s2">&quot;href&quot;</span><span class="p">):</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Missing link: &quot;</span> <span class="o">+</span> <span class="n">pub</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">pdf_link</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;pdf&quot;</span><span class="p">):</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pdf_link</span><span class="p">[</span><span class="s2">&quot;href&quot;</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">pdf_link</span><span class="o">.</span><span class="n">has_attr</span><span class="p">(</span><span class="s2">&quot;onclick&quot;</span><span class="p">):</span>
+                        <span class="n">abs_start</span> <span class="o">=</span> <span class="n">pdf_link</span><span class="p">[</span><span class="s2">&quot;onclick&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;abstract_&quot;</span><span class="p">)</span>
+                        <span class="n">abs_end</span> <span class="o">=</span> <span class="n">pdf_link</span><span class="p">[</span><span class="s2">&quot;onclick&quot;</span><span class="p">][</span><span class="n">abs_start</span><span class="p">:]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;&#39;&quot;</span><span class="p">)</span>
+                        <span class="n">abs_id</span> <span class="o">=</span> <span class="n">pdf_link</span><span class="p">[</span><span class="s2">&quot;onclick&quot;</span><span class="p">][</span><span class="n">abs_start</span><span class="p">:</span><span class="n">abs_start</span><span class="o">+</span><span class="n">abs_end</span><span class="p">]</span>
+                        <span class="n">abs_soup</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;p&quot;</span><span class="p">,</span> <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="n">abs_id</span><span class="p">})</span>
+                        <span class="n">abs_text</span> <span class="o">=</span> <span class="n">abs_soup</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+                        <span class="k">if</span> <span class="n">abs_text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Abstract:&quot;</span><span class="p">):</span>
+                            <span class="n">abs_text</span> <span class="o">=</span> <span class="n">abs_text</span><span class="p">[</span><span class="mi">9</span><span class="p">:]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+                        <span class="n">abs_text</span> <span class="o">=</span> <span class="n">abs_text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+                        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;abstract&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">abs_text</span>
+        <span class="k">if</span> <span class="s2">&quot;pdf&quot;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;/1937.pdf&quot;</span><span class="p">):</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1-6&quot;</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;volume&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;49&quot;</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Sopranos with a singer’s formant? Historical, Physiological, and Acoustical Aspects of Castrato Singing&quot;</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Johan Sundberg, Marianne Trovén, Bernhard Richter&quot;</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Sundberg, J., Trovén, M., Richter, B.&quot;</span>
+            <span class="n">pubs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">raw_text</span> <span class="o">=</span> <span class="n">raw_text</span><span class="p">[</span><span class="n">pub_title_end</span><span class="p">:]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot; [pdf]&quot;</span><span class="p">):</span>
+            <span class="n">raw_text</span> <span class="o">=</span> <span class="n">raw_text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">6</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">raw_text</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:]</span> <span class="o">==</span> <span class="s2">&quot;.&quot;</span><span class="p">:</span>
+            <span class="n">raw_text</span> <span class="o">=</span> <span class="n">raw_text</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="s2">&quot;, &quot;</span> <span class="ow">in</span> <span class="n">raw_text</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;(pp.&quot;</span><span class="p">):</span>
+                <span class="n">parts</span> <span class="o">=</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;). &quot;</span><span class="p">)</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">5</span><span class="p">:]</span>
+                <span class="c1"># manual fix</span>
+                <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;/3597.pdf&quot;</span><span class="p">):</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;volume&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;51&quot;</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+                <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;/2002_44_1_153-156.pdf&quot;</span><span class="p">):</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;volume&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;44&quot;</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">parts</span> <span class="o">=</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;, &quot;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;(&quot;</span><span class="p">):</span>
+                    <span class="n">to_mark</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;)&quot;</span><span class="p">)</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="n">to_mark</span><span class="p">]</span>
+                <span class="k">if</span> <span class="s2">&quot; [abstract]&quot;</span> <span class="ow">in</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot; [abstract]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">):</span>
+                        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="s2">&quot;pages&quot;</span> <span class="ow">in</span> <span class="n">data</span> <span class="ow">and</span> <span class="s2">&quot;. [html]&quot;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]:</span>
+            <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;. [html]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="s2">&quot;pdf&quot;</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;2007_50_1_065-068.pdf&quot;</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;The Parrot Effect – a study of the ability to imitate a foreign language&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Johanna Persson, Linda Westholm&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;065-068&quot;</span>
+            <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;2007_50_1_113-116.pdf&quot;</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Automatic classification of &#39;front&#39; and &#39;back&#39; pronunciation variants of /r/ in the Götaland dialects of Swedish&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Johan Frid&quot;</span>
+            <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;2007_50_1_073-076.pdf&quot;</span><span class="p">):</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Emotional McGurk effect in Swedish&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pages&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;073-076&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;volume&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;50&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;edition&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Åsa Abelin&quot;</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Abelin, Å.&quot;</span>
+            <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">MISSING</span><span class="p">:</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">MISSING</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">data</span><span class="p">[</span><span class="s2">&quot;author_full&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">MISSING</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;pdf&quot;</span><span class="p">]][</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">pubs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">pubs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="nb">all</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="n">get_years</span><span class="p">():</span>
+    <span class="nb">all</span> <span class="o">+=</span> <span class="n">read_page</span><span class="p">(</span><span class="n">year</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;qpsr.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+    <span class="n">out</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="nb">all</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/qpsr/tmh/2022/02/22/qpsr-scraper.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/jimregan" target="_blank" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/jimregan" target="_blank" title="jimregan"><svg class="svg-icon grey"><use xlink:href="/notes/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
