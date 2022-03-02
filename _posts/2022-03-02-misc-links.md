@@ -72,6 +72,14 @@ categories: [links]
 
 [BirgerMoell/ToMaHawk](https://github.com/BirgerMoell/ToMaHawk)
 
+[Making automatic speech recognition work on large files with Wav2Vec2 in 🤗 Transformers](https://huggingface.co/blog/asr-chunking)
+
+[Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation](https://arxiv.org/abs/2108.12409),
+[OpenReview](https://openreview.net/forum?id=R8sQPpGCv0),
+[code](https://github.com/ofirpress/attention_with_linear_biases)
+
+[02 – Neural nets: rotation and squashing](https://www.youtube.com/watch?v=0TdAmZUMj2k)
+
 ## Audio augmentation
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy)
