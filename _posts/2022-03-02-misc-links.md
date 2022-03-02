@@ -21,4 +21,6 @@ categories: [links]
 [Differentiable Allophone Graphs for Language-Universal Speech Recognition](https://arxiv.org/abs/2107.11628),
 [tweet](https://twitter.com/brianyan918/status/1420860185632022531)
 
+[birgermoell/lm-swedish](https://huggingface.co/birgermoell/lm-swedish)
 
+[Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
