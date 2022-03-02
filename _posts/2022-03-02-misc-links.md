@@ -49,6 +49,11 @@ categories: [links]
 
 [Google cloud ASR languages](https://cloud.google.com/speech-to-text/docs/languages)
 
+[FLAME](https://flame.is.tue.mpg.de/index.html),
+[pytorch](https://github.com/HavenFeng/photometric_optimization)
+
+[Bried intro to Linen](https://colab.research.google.com/github/google/flax/blob/main/docs/notebooks/linen_intro.ipynb)
+
 ## Audio augmentation
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy)
@@ -64,9 +69,4 @@ categories: [links]
 [facebookresearch/WavAugment](https://github.com/facebookresearch/WavAugment)
 
 [VOiCES Corpus](https://iqtlabs.github.io/voices/)
-
-[FLAME](https://flame.is.tue.mpg.de/index.html),
-[pytorch](https://github.com/HavenFeng/photometric_optimization)
-
-
 
