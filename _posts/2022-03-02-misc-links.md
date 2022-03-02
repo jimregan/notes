@@ -96,3 +96,22 @@ categories: [links]
 
 [VOiCES Corpus](https://iqtlabs.github.io/voices/)
 
+## Fonetik
+
+[FM-modulation unit for tape-recording](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_2_019-019.pdf)
+
+[Voice fundamental frequency tracking](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_1_003-005.pdf)
+
+[Formant frequency tracking](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_1_006-009.pdf)
+
+[Detection of voicing and Automatic segmentation schemes](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_1_010-010.pdf)
+
+[Evaluation of spectrographic data sampling techniques](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_1_011-013.pdf)
+
+[Structural classification of Swedish phonemes](https://www.speech.kth.se/prod/publications/files/qpsr/1960/1960_1_2_010-015.pdf)
+
+[In search of the conversational homunculus](https://www.speech.kth.se/prod/publications/files/3547.pdf)
+
+[Automatic classification of 'front' and 'back' pronunciation variants of /r/ in the Götaland dialects of Swedish](https://www.speech.kth.se/prod/publications/files/qpsr/2007/2007_50_1_113-116.pdf)
+
+
