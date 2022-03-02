@@ -29,3 +29,7 @@ categories: [links]
 
 [QPSR](https://www.speech.kth.se/qpsr/)
 
+[Gunnar Fant publications](https://www.speech.kth.se/gunnarfant/publications.html)
+
+[Neural Instrument Cloning from very few samples](https://erlj.notion.site/Neural-Instrument-Cloning-from-very-few-samples-2cf41d8b630842ee8c7eb55036a1bfd6)
+
