@@ -45,4 +45,28 @@ categories: [links]
 
 [N-gram Language Model with NLTK](https://www.kaggle.com/alvations/n-gram-language-model-with-nltk)
 
+[speechbrain.lm.counting module](https://speechbrain.readthedocs.io/en/latest/API/speechbrain.lm.counting.html)
+
+[Google cloud ASR languages](https://cloud.google.com/speech-to-text/docs/languages)
+
+## Audio augmentation
+
+[facebookresearch/AugLy](https://github.com/facebookresearch/AugLy)
+
+[iver56/audiomentations](https://github.com/iver56/audiomentations)
+
+[asteroid-team/torch-audiomentations](https://github.com/asteroid-team/torch-audiomentations)
+
+[Spijkervet/torchaudio-augmentations](https://github.com/Spijkervet/torchaudio-augmentations)
+
+[spotify/pedalboard](https://github.com/spotify/pedalboard)
+
+[facebookresearch/WavAugment](https://github.com/facebookresearch/WavAugment)
+
+[VOiCES Corpus](https://iqtlabs.github.io/voices/)
+
+[FLAME](https://flame.is.tue.mpg.de/index.html),
+[pytorch](https://github.com/HavenFeng/photometric_optimization)
+
+
 
