@@ -1,5 +1,4 @@
-import struct
-import numpy as np
+import soundfile as sf
 
 
 def fix_text(text):
@@ -98,79 +97,17 @@ def smp_headers(filename):
         return dict(a.split("=") for a in tmp)
 
 
-# From python-audio: https://github.com/mgeier/python-audio/blob/master/audio-files/utility.py
-# CC-0: https://github.com/mgeier/python-audio/blob/master/LICENSE
-def pcm2float(sig, dtype='float32'):
-    """Convert PCM signal to floating point with a range from -1 to 1.
-    Use dtype='float32' for single precision.
-    Parameters
-    ----------
-    sig : array_like
-        Input array, must have integral type.
-    dtype : data type, optional
-        Desired (floating point) data type.
-    Returns
-    -------
-    numpy.ndarray
-        Normalized floating point data.
-    See Also
-    --------
-    float2pcm, dtype
-    """
-    sig = np.asarray(sig)
-    if sig.dtype.kind not in 'iu':
-        raise TypeError("'sig' must be an array of integers")
-    dtype = np.dtype(dtype)
-    if dtype.kind != 'f':
-        raise TypeError("'dtype' must be a floating point type")
-
-    i = np.iinfo(sig.dtype)
-    abs_max = 2 ** (i.bits - 1)
-    offset = i.min + abs_max
-    return (sig.astype(dtype) - offset) / abs_max
-
-def do_mult(inp):
-    div = 1.0 / 32768.0
-    inp = inp.astype(np.float32)
-    inp = inp * div
-    return inp
-
-def smp_read(filename):
+def smp_read_sf(filename):
     headers = smp_headers(filename)
     if headers["msb"] == "last":
-        SPEC = "<h"
+        ENDIAN = "LITTLE"
     else:
-        SPEC = ">h"
-    
-    with open(filename, "rb") as f:
-        f.seek(1024)
-        buf = f.read()
-        tmp = [a for a in struct.iter_unpack(SPEC, buf)]
-        tmp = pcm2float(tmp)
-        return np.array(tmp).reshape(1, -1)
+        ENDIAN = "BIG"
 
-
-def smp_read_np(filename):
-    headers = smp_headers(filename)
-    if headers["msb"] == "last":
-        SPEC = "<h"
-    else:
-        SPEC = ">h"
-
-    arr = np.memmap(filename, dtype=np.dtype(SPEC), mode="r", offset=1024)
-    return arr
-#    arr = pcm2float(arr)
-#    arr = do_mult(arr)
-#    arr = arr.astype(np.float32)
-#    print(arr)
-#    if headers["nchans"] == "1":
-#        arr = np.reshape(arr, (1, -1))
-#    elif headers["nchans"] == "2":
-#        arr = np.array([arr[::2], arr[1::2]])
-#    else:
-#        raise IOError("Only know how to handle 1 or 2 channels, got: " + headers["nchans"])
-#    return arr
-
+    data, sr = sf.read(filename, channels=int(headers["nchans"]),
+                       samplerate=16000, endian=ENDIAN, start=512,
+                       dtype="int16", format="RAW", subtype="PCM_16")
+    return (data, sr)
 
 def write_wav(filename, arr):
     import wave
@@ -182,5 +119,5 @@ def write_wav(filename, arr):
         f.writeframes(arr)
 
 
-arr = smp_read_np("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
+arr, sr = smp_read_sf("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
 write_wav("out.wav", arr)
