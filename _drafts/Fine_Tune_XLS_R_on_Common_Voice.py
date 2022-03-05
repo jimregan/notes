@@ -7,6 +7,12 @@
 import numpy as np
 
 
+# In[ ]:
+
+
+from_start = False
+
+
 # In[6]:
 
 
@@ -92,36 +98,41 @@ def extract_all_chars(batch):
 # In[10]:
 
 
-vocab_train = common_voice_train.map(extract_all_chars, batched=True, batch_size=-1, keep_in_memory=True, remove_columns=common_voice_train.column_names)
-vocab_test = common_voice_test.map(extract_all_chars, batched=True, batch_size=-1, keep_in_memory=True, remove_columns=common_voice_test.column_names)
+if from_start:
+    vocab_train = common_voice_train.map(extract_all_chars, batched=True, batch_size=-1, keep_in_memory=True, remove_columns=common_voice_train.column_names)
+    vocab_test = common_voice_test.map(extract_all_chars, batched=True, batch_size=-1, keep_in_memory=True, remove_columns=common_voice_test.column_names)
 
 
 # In[11]:
 
 
-vocab_list = list(set(vocab_train["vocab"][0]) | set(vocab_test["vocab"][0]))
+if from_start:
+    vocab_list = list(set(vocab_train["vocab"][0]) | set(vocab_test["vocab"][0]))
 
 
 # In[12]:
 
 
-vocab_dict = {v: k for k, v in enumerate(sorted(vocab_list))}
-vocab_dict
+if from_start:
+    vocab_dict = {v: k for k, v in enumerate(sorted(vocab_list))}
+    vocab_dict
 
 
 # In[13]:
 
 
-vocab_dict["|"] = vocab_dict[" "]
-del vocab_dict[" "]
+if from_start:
+    vocab_dict["|"] = vocab_dict[" "]
+    del vocab_dict[" "]
 
 
 # In[14]:
 
 
-vocab_dict["[UNK]"] = len(vocab_dict)
-vocab_dict["[PAD]"] = len(vocab_dict)
-len(vocab_dict)
+if from_start:
+    vocab_dict["[UNK]"] = len(vocab_dict)
+    vocab_dict["[PAD]"] = len(vocab_dict)
+    len(vocab_dict)
 
 
 # Let's now save the vocabulary as a json file.
@@ -130,8 +141,9 @@ len(vocab_dict)
 
 
 import json
-with open('vocab.json', 'w') as vocab_file:
-    json.dump(vocab_dict, vocab_file)
+if from_start:
+    with open('vocab.json', 'w') as vocab_file:
+        json.dump(vocab_dict, vocab_file)
 
 
 # In[16]:
@@ -139,13 +151,23 @@ with open('vocab.json', 'w') as vocab_file:
 
 from transformers import Wav2Vec2CTCTokenizer
 
-tokenizer = Wav2Vec2CTCTokenizer.from_pretrained("./", unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
+if from_start:
+    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained("./", unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
 
 
 # In[17]:
 
 
 repo_name = "wav2vec2-large-xls-r-300m-irish-colab"
+
+
+# In[16]:
+
+
+from transformers import Wav2Vec2CTCTokenizer
+
+if not from_start:
+    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(repo_name, unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
 
 
 # In[19]:
@@ -323,7 +345,7 @@ training_args = TrainingArguments(
   per_device_train_batch_size=16,
   gradient_accumulation_steps=2,
   evaluation_strategy="steps",
-  num_train_epochs=210,
+  num_train_epochs=1400,
   gradient_checkpointing=True,
   fp16=True,
   save_steps=400,
@@ -355,7 +377,7 @@ trainer = Trainer(
 # In[ ]:
 
 
-trainer.train()
+trainer.train(f"{repo_name}/checkpoint-16000")
 
 
 # In[ ]:
@@ -391,7 +413,7 @@ pred_ids = torch.argmax(logits, dim=-1)[0]
 # In[ ]:
 
 
-common_voice_test_transcription = load_dataset("common_voice", "tr", data_dir="./cv-corpus-6.1-2020-12-11", split="test")
+common_voice_test_transcription = load_dataset("common_voice", "ga-IE", split="test")
 
 
 # In[ ]:
