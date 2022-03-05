@@ -13,5 +13,32 @@ categories: [links]
 
 [Speech Resynthesis from Discrete Disentangled Self-Supervised Representations](https://arxiv.org/abs/2104.00355)
 
+[facebookresearch/libri-light](https://github.com/facebookresearch/libri-light),
+[blog](https://ai.facebook.com/tools/libri-light/)
+
 [Libri-light Data Preparation and Download](https://github.com/facebookresearch/libri-light/blob/fbec51650408d3db3da5fcaf04c57af59f583e12/data_preparation/README.md)
+
+[fairseq/examples/textless_nlp/gslm/speech2unit/clustering](https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm/speech2unit/clustering)
+
+[fairseq/cpc_feature_reader.py](https://github.com/pytorch/fairseq/blob/fcca32258c8e8bcc9f9890bf4714fa2f96b6b3e1/examples/textless_nlp/gslm/speech2unit/pretrained/cpc_feature_reader.py#L119)
+
+[fairseq/examples/textless_nlp/gslm](https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm)
+
+[fairseq/resynthesize_speech.py](https://github.com/pytorch/fairseq/blob/main/examples/textless_nlp/gslm/tools/resynthesize_speech.py)
+
+[flashlight/InferenceAndAlignmentCTC.ipynb](https://github.com/flashlight/flashlight/blob/main/flashlight/app/asr/tutorial/notebooks/InferenceAndAlignmentCTC.ipynb)
+
+[libri-light/make_vad_inputs.py](https://github.com/facebookresearch/libri-light/blob/fbec51650408d3db3da5fcaf04c57af59f583e12/data_preparation/make_vad_inputs.py)
+
+[libri-light/data_preparation](https://github.com/facebookresearch/libri-light/tree/fbec51650408d3db3da5fcaf04c57af59f583e12/data_preparation)
+
+[Data Preparation · flashlight/wav2letter Wiki](https://github.com/flashlight/wav2letter/wiki/Data-Preparation#audio-and-transcriptions-data)
+
+[libri-light/wl_decoder.py](https://github.com/facebookresearch/libri-light/blob/2a181b2482e0e3a539bf4d8b387b1838fdbfacac/eval/WER_src/wl_decoder.py)
+
+[format-corpus/pdfCabinetOfHorrors](https://github.com/openpreserve/format-corpus/tree/master/pdfCabinetOfHorrors)
+
+[Text and tables Extraction from docx in Python | by Mukesh Kumar | Medium](https://medium.com/@Mukesh_Kumar/text-extraction-from-docx-readable-pdf-and-scanned-pdf-formats-in-python-b6c5712271ee)
+
+[language-resources/make-alignable-symbols.cc](https://github.com/google/language-resources/blob/master/festus/make-alignable-symbols.cc)
 
