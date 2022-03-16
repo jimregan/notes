@@ -56,6 +56,8 @@ exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| t
 
 [Do End-to-End Speech Recognition Models Care About Context?](https://arxiv.org/abs/2102.09928)
 
+[A study on effects of implicit and explicit language model information for DBLSTM-CTC based handwriting recognition](https://ieeexplore.ieee.org/document/7333804)
+
 [microsoft/mutransformers](https://github.com/microsoft/mutransformers)
 
 [How to Train a Joint Embedding using Pytorch](https://www.linkedin.com/pulse/deep-learning-how-train-joint-embedding-using-pytorch-josh-arnold)
