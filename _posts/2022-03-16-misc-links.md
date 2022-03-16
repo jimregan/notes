@@ -42,4 +42,22 @@ exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| t
 
 [Yann LeCun: "Energy-Based Self-Supervised Learning](https://www.youtube.com/watch?v=A7AnCvYDQrU)
 
+[Pseudo-Labeling for Massively Multilingual Speech Recognition](https://arxiv.org/abs/2111.00161)
+
+[Implicit Language Model in LSTM for OCR](https://ieeexplore.ieee.org/abstract/document/8270312)
+
+[Exploring neural transducers for end-to-end speech recognition](https://ieeexplore.ieee.org/abstract/document/8268937)
+
+[Advancing Connectionist Temporal Classification with Attention Modeling](https://ieeexplore.ieee.org/abstract/document/8461558)
+
+[Advancing Acoustic-to-Word CTC Model](https://ieeexplore.ieee.org/abstract/document/8462017)
+
+[Direct Acoustics-to-Word Models for English Conversational Speech Recognition](https://arxiv.org/abs/1703.07754)
+
+[Do End-to-End Speech Recognition Models Care About Context?](https://arxiv.org/abs/2102.09928)
+
+[microsoft/mutransformers](https://github.com/microsoft/mutransformers)
+
+[How to Train a Joint Embedding using Pytorch](https://www.linkedin.com/pulse/deep-learning-how-train-joint-embedding-using-pytorch-josh-arnold)
+
 
