@@ -1,0 +1,97 @@
+transformers/modeling_flax_wav2vec2.py at master · huggingface/transformers
+https://github.com/huggingface/transformers/blob/master/src/transformers/models/wav2vec2/modeling_flax_wav2vec2.py
+
+transformers/examples/research_projects/wav2vec2 at master · huggingface/transformers
+https://github.com/huggingface/transformers/tree/master/examples/research_projects/wav2vec2
+
+transformers/run_pretrain.py at master · huggingface/transformers
+https://github.com/huggingface/transformers/blob/master/examples/research_projects/wav2vec2/run_pretrain.py
+
+flax-community/wav2vec2-spanish at main
+https://huggingface.co/flax-community/wav2vec2-spanish/tree/main
+
+train.sh · flax-community/wav2vec2-spanish at main
+https://huggingface.co/flax-community/wav2vec2-spanish/blob/main/train.sh
+
+run_wav2vec2_pretrain_flax.py · flax-community/wav2vec2-spanish at main
+https://huggingface.co/flax-community/wav2vec2-spanish/blob/main/run_wav2vec2_pretrain_flax.py
+
+flax_to_pytorch.py · flax-community/wav2vec2-spanish at main
+https://huggingface.co/flax-community/wav2vec2-spanish/blob/main/flax_to_pytorch.py
+
+Swedish ASR: Fine Tuning Wav2Vec2 - Models - Hugging Face Forums
+https://discuss.huggingface.co/t/swedish-asr-fine-tuning-wav2vec2/4560
+
+run_wav2vec2_pretrain_flax.py · flax-community/wav2vec2-spanish at main
+https://huggingface.co/flax-community/wav2vec2-spanish/blob/main/run_wav2vec2_pretrain_flax.py
+
+fairseq/examples at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples
+
+Commits · pytorch/fairseq
+https://github.com/pytorch/fairseq/commits/main
+
+Pull requests · pytorch/fairseq
+https://github.com/pytorch/fairseq/pulls
+
+update s2st vocoder training instructions (#3156) · pytorch/fairseq@1479d31
+https://github.com/pytorch/fairseq/commit/1479d311d54a4abb4db6fa7bfd14150789dbc7a6
+
+Add s2s_conformer model to support conformer encoder in S2UT model (#… · pytorch/fairseq@d421749
+https://github.com/pytorch/fairseq/commit/d421749323f466209d656536bb1f8963371ff29b
+
+update readme for conformer based models (#3104) · pytorch/fairseq@5175fd5
+https://github.com/pytorch/fairseq/commit/5175fd5c267adceec9445bf067597686e159e7e7
+
+Prosody-aware Generative Spoken Language Modelling (#3063) · pytorch/fairseq@0c0ef06
+https://github.com/pytorch/fairseq/commit/0c0ef06780b121b2b50b271852bde88fc998936e
+
+fairseq/examples/textless_nlp/gslm at 0c0ef06780b121b2b50b271852bde88fc998936e · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/0c0ef06780b121b2b50b271852bde88fc998936e/examples/textless_nlp/gslm
+
+fairseq/examples/textless_nlp/gslm at 0c0ef06780b121b2b50b271852bde88fc998936e · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/0c0ef06780b121b2b50b271852bde88fc998936e/examples/textless_nlp/gslm
+
+2102.01192.pdf
+https://arxiv.org/pdf/2102.01192.pdf
+
+fairseq/cpc_feature_reader.py at 0c0ef06780b121b2b50b271852bde88fc998936e · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/0c0ef06780b121b2b50b271852bde88fc998936e/examples/textless_nlp/gslm/speech2unit/pretrained/cpc_feature_reader.py
+
+fairseq/tts_transformer.py at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/main/fairseq/models/text_to_speech/tts_transformer.py
+
+fairseq/fairseq/models/speech_to_speech at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/fairseq/models/speech_to_speech
+
+vqvae - Google Search
+https://www.google.com/search?q=vqvae&rlz=1C5GCEM_enSE990SE991&oq=vqvae&aqs=chrome..69i57j0i10i512l4j69i60l3.2833j0j7&sourceid=chrome&ie=UTF-8
+
+vqvae vocoder - Google Search
+https://www.google.com/search?q=vqvae+vocoder&rlz=1C5GCEM_enSE990SE991&oq=vqvae+vocoder&aqs=chrome..69i57.4605j0j9&sourceid=chrome&ie=UTF-8
+
+NVIDIA/waveglow: A Flow-based Generative Network for Speech Synthesis
+https://github.com/NVIDIA/waveglow
+
+espnet/espnet: End-to-End Speech Processing Toolkit
+https://github.com/espnet/espnet
+
+[2004.05150] Longformer: The Long-Document Transformer
+https://arxiv.org/abs/2004.05150
+
+add causal option for HiFiGAN · kan-bayashi/ParallelWaveGAN@eafdfea
+https://github.com/kan-bayashi/ParallelWaveGAN/commit/eafdfea2a08b0f1c217d733344d572b63a97d4ae
+
+NVIDIA/tacotron2: Tacotron 2 - PyTorch implementation with faster-than-realtime inference
+https://github.com/NVIDIA/tacotron2
+
+Winter's Heart: Chapter 10 - Tar Valon Library
+https://library.tarvalon.net/index.php?title=Winter%27s_Heart:_Chapter_10
+
+Daved Hanlon - Tar Valon Library
+https://library.tarvalon.net/index.php?title=Daved_Hanlon
+
+facebookresearch/voxpopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation
+https://github.com/facebookresearch/voxpopuli
+
+
