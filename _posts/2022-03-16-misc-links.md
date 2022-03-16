@@ -30,3 +30,10 @@ categories: [links]
 
 [11L – Speech recognition and Graph Transformer Networks](https://www.youtube.com/watch?v=Of9s8epjflU)
 
+[How can I get duration of all video files in a folder containing multiple subfolders?](https://askubuntu.com/questions/959520/how-can-i-get-duration-of-all-video-files-in-a-folder-containing-multiple-subfol)
+
+```sh
+exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| tail -n1
+```
+
+
