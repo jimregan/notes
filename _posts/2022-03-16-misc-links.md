@@ -62,4 +62,18 @@ exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| t
 
 [How to Train a Joint Embedding using Pytorch](https://www.linkedin.com/pulse/deep-learning-how-train-joint-embedding-using-pytorch-josh-arnold)
 
+[adefossez/julius](https://github.com/adefossez/julius) --- Fast PyTorch based DSP for audio and 1D signals
+
+[Julius Orion Smith III Home Page](https://ccrma.stanford.edu/~jos/)
+
+[ageron/handson-ml2](https://github.com/ageron/handson-ml2)
+
+[asteroid-team/Libri_VAD](https://github.com/asteroid-team/Libri_VAD)
+
+[microsoft/DNS-Challenge](https://github.com/microsoft/DNS-Challenge) --- This repo contains the scripts, models, and required files for the Deep Noise Suppression (DNS) Challenge.
+
+[The Norwegian Parliamentary Speech Corpus](https://arxiv.org/abs/2201.10881)
+
+[Who Takes the Parliamentary Floor? The Role of Gender in Speech-making in the Swedish Riksdag](https://journals.sagepub.com/doi/10.1177/1065912914525861)
+
 
