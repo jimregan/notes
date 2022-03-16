@@ -36,4 +36,10 @@ categories: [links]
 exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| tail -n1
 ```
 
+[Breathing and Speech Planning in Spontaneous Speech Synthesis](https://www.researchgate.net/publication/341084143_Breathing_and_Speech_Planning_in_Spontaneous_Speech_Synthesis)
+
+[mchaput/whoosh](https://github.com/mchaput/whoosh)
+
+[Yann LeCun: "Energy-Based Self-Supervised Learning](https://www.youtube.com/watch?v=A7AnCvYDQrU)
+
 
