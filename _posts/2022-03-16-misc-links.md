@@ -75,5 +75,3 @@ exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)}' ./*.mp4| t
 [The Norwegian Parliamentary Speech Corpus](https://arxiv.org/abs/2201.10881)
 
 [Who Takes the Parliamentary Floor? The Role of Gender in Speech-making in the Swedish Riksdag](https://journals.sagepub.com/doi/10.1177/1065912914525861)
-
-
