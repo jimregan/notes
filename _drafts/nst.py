@@ -16,6 +16,7 @@
 
 from pathlib import Path
 import json
+import os
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
@@ -49,7 +50,8 @@ _REGIONS = [
     "Stockholm med omnejd",
     "Västergötland",
     "Västra sydsverige",
-    "Västsverige"
+    "Västsverige",
+    "Unspecified"
 ]
 
 _SEX = [
@@ -65,21 +67,18 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 
     BUILDER_CONFIGS = [
         datasets.BuilderConfig(name="speech", version=VERSION, description="Data for speech recognition"),
+        datasets.BuilderConfig(name="speech_no_norm", version=VERSION, description="Data with original text (no normalisation)"),
 #        datasets.BuilderConfig(name="dialects", version=VERSION, description="Data for dialect classification"),
     ]
 
     def _info(self):
         features = datasets.Features(
             {
-                "speaker_info": datasets.features.Sequence(
-                    {
-                        "speaker_id": datasets.Value("string"),
-                        "age": datasets.Value("string"),
-                        "gender": datasets.ClassLabel(names=_SEX),
-                        "region_of_birth": datasets.ClassLabel(names=_REGIONS),
-                        "region_of_youth": datasets.ClassLabel(names=_REGIONS),
-                    }
-                ),
+                "speaker_id": datasets.Value("string"),
+                "age": datasets.Value("string"),
+                "gender": datasets.ClassLabel(names=_SEX),
+                "region_of_birth": datasets.ClassLabel(names=_REGIONS),
+                "region_of_youth": datasets.ClassLabel(names=_REGIONS),
                 "text": datasets.Value("string"),
                 "path": datasets.Value("string"),
                 "audio": datasets.Audio(sampling_rate=16_000)
@@ -99,8 +98,17 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     # split is hardcoded to 'train' for now; there is a test set, but
     # it has not been modernised
     def _split_generators(self, dl_manager):
-        json_dir = dl_manager.download_and_extract(_JSON_URL)
-        audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
+        if hasattr(dl_manager, 'manual_dir') and dl_manager.manual_dir is not None:
+            data_dir = os.path.abspath(os.path.expanduser(dl_manager.manual_dir))
+            JSON_FILE = _JSON_URL.split("/")[-1]
+            AUDIO_FILES = [
+                os.path.join(data_dir, a.split("/")[-1]) for a in _AUDIO_URLS
+            ]
+            json_dir = dl_manager.extract(os.path.join(data_dir, JSON_FILE))
+            audio_dirs = dl_manager.extract(AUDIO_FILES)
+        else:
+            json_dir = dl_manager.download_and_extract(_JSON_URL)
+            audio_dirs = dl_manager.download_and_extract(_AUDIO_URLS)
         return [
             datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
@@ -117,23 +125,33 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
     ):
         """Yields examples as (key, example) tuples. """
         json_path = Path(json_dir)
-        for json_filename in json_path.glob('*.json'):
+        for json_filename in json_path.glob("*.json"):
             with open(json_filename) as json_file:
                 data = json.load(json_file)
-                speaker_data = _get_speaker_data(data)
-                pid = data['pid']
-                for recording in data['val_recordings']:
-                    bare_path = recording['file'].replace('.wav', '')
-                    text = recording['text']
+                speaker_data = _get_speaker_data(data["info"])
+                pid = data["pid"]
+                if "val_recordings" not in data:
+                    continue
+                for recording in data["val_recordings"]:
+                    bare_path = recording['file'].replace(".wav", "")
+                    text = recording["text"]
+                    if self.config.name != "speech_no_norm":
+                        text = normalise(text)
+                        if text is None or text == "":
+                            continue
                     lang_part = pid[0:2]
-                    for num in ['1', '2']:
+                    for num in ["1", "2"]:
                         tar_path = f"{lang_part}/{pid}/{pid}_{bare_path}-{num}.wav"
                         for adir in audio_dirs:
                             fpath = Path(adir) / tar_path
                             if fpath.exists():
                                 with open(fpath, "rb") as audiofile:
                                     yield str(fpath), {
-                                        "speaker_info": speaker_data,
+                                        "speaker_id": speaker_data["speaker_id"],
+                                        "age": speaker_data["age"],
+                                        "gender": speaker_data["gender"],
+                                        "region_of_birth": speaker_data["region_of_birth"],
+                                        "region_of_youth": speaker_data["region_of_youth"],
                                         "text": text,
                                         "path": str(fpath),
                                         "audio": {
@@ -145,23 +163,70 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
 
 def _get_speaker_data(data):
     out = {}
-    if 'Age' in data:
-        out['age'] = data['Age']
-    else:
-        out['age'] = 'Unspecified'
-    if 'Region_of_Birth' in data:
-        out['region_of_birth'] = data['Region_of_Birth']
-    if 'Region_of_Youth' in data:
-        out['region_of_youth'] = data['Region_of_Youth']
-    if 'Speaker_ID' in data:
-        out['speaker_id'] = data['Speaker_ID']
-    else:
-        out['speaker_id'] = "Unspecified"
-    if 'Sex' in data:
-        if data['Sex'] == "":
-            out['gender'] = 'Unspecified'
+    if "Age" in data:
+        if data["Age"] == "":
+            out["age"] = "Unspecified"
         else:
-            out['gender'] = data['Sex']
+            out["age"] = data["Age"]
     else:
-        out['gender'] = 'Unspecified'
+        out["age"] = "Unspecified"
+
+    if "Region_of_Birth" in data:
+        if data["Region_of_Birth"] == "":
+            out["region_of_birth"] = "Unspecified"
+        elif data["Region_of_Birth"] not in _REGIONS:
+            print("Unknown option for Region_of_Birth: " + data["Region_of_Birth"])
+            out["region_of_birth"] = "Unspecified"
+        else:
+            out["region_of_birth"] = data["Region_of_Birth"]
+    else:
+        out["region_of_birth"] = "Unspecified"
+
+    if "Region_of_Youth" in data:
+        if data["Region_of_Youth"] == "":
+            out["region_of_youth"] = "Unspecified"
+        elif data["Region_of_Youth"] not in _REGIONS:
+            print("Unknown option for Region_of_Youth: " + data["Region_of_Youth"])
+            out["region_of_youth"] = "Unspecified"
+        else:
+            out["region_of_youth"] = data["Region_of_Youth"]
+    else:
+        out["region_of_youth"] = "Unspecified"
+
+    if "Speaker_ID" in data:
+        if data["Speaker_ID"] == "":
+            out["speaker_id"] = "Unspecified"
+        else:
+            out["speaker_id"] = data["Speaker_ID"]
+    else:
+        out["speaker_id"] = "Unspecified"
+
+    if 'Sex' in data:
+        if data["Sex"] == "":
+            out["gender"] = "Unspecified"
+        elif data["Sex"] not in _SEX:
+            print("Unknown option for Sex: " + data["Sex"])
+            out["gender"] = "Unspecified"
+        else:
+            out["gender"] = data["Sex"]
+    else:
+        out["gender"] = "Unspecified"
+
     return out
+
+
+def normalise(text: str) -> str:
+    MARKERS = ["[fil]", "[int]", "[spk]", "[sta]"]
+    text = text.lower()
+    for mark in MARKERS:
+        text = text.replace(mark, "")
+    outtext = ""
+    last_char = ""
+    for char in text:
+        if char in "abcdefghijklmnopqrstuvwxyzåäö: ":
+            if char == " " and last_char == " ":
+                continue
+            else:
+                outtext = outtext + char
+            last_char = char
+    return outtext
