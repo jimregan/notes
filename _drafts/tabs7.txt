@@ -1,15 +1,4 @@
-Speech Synthesis (TTS) — NVIDIA NeMo 1.5.0 documentation
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/tts/intro.html
-
-TTS Datasets — NVIDIA NeMo 1.5.0 documentation
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/tts/datasets.html
-
-Datasets — NVIDIA NeMo 1.5.0 documentation
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/asr/datasets.html#preparing-custom-asr-data
-
 webdataset/webdataset: A high-performance Python-based I/O system for large (and small) deep learning problems, with strong support for PyTorch.
 https://github.com/webdataset/webdataset
 
-webdataset-examples/makeshards.py at master · tmbdev-archive/webdataset-examples
-https://github.com/tmbdev-archive/webdataset-examples/blob/master/makeshards.py
 
