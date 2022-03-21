@@ -2,7 +2,7 @@ import soundfile as sf
 
 
 def fix_text(text):
-    return text.replace("{", "ä").replace("}", "å").replace("|", "ö")
+    return text.replace("{", "ä").replace("}", "å").replace("|", "ö").replace("\\", "Ö")
 
 
 class FR:
