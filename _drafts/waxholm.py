@@ -1,12 +1,47 @@
+# coding=utf-8
+# Copyright 2021 The TensorFlow Datasets Authors and the HuggingFace Datasets Authors.
+# Copyright 2022 Jim O'Regan
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Lint as: python3
+"""Datasets loader for Waxholm speech corpus"""
+
 import soundfile as sf
 
+_CITATION = """
+@article{bertenstam1995spoken,
+  title={Spoken dialogue data collected in the {W}axholm project},
+  author={Bertenstam, Johan and Blomberg, Mats and Carlson, Rolf and Elenius, Kjell and Granstr{\"o}m, Bj{\"o}rn and Gustafson, Joakim and Hunnicutt, Sheri and H{\"o}gberg, Jesper and Lindell, Roger and Neovius, Lennart and Nord, Lennart and de~Serpa-Leitao, Antonio and Str{\"o}m, Nikko},
+  journal={STH-QPSR, KTH},
+  volume={1},
+  pages={49--74},
+  year={1995}
+}
+@inproceedings{bertenstam1995waxholm,
+  title={The {W}axholm application database.},
+  author={Bertenstam, J and Blomberg, Mats and Carlson, Rolf and Elenius, Kjell and Granstr{\"o}m, Bj{\"o}rn and Gustafson, Joakim and Hunnicutt, Sheri and H{\"o}gberg, Jesper and Lindell, Roger and Neovius, Lennart and Nord, Lennart and de~Serpa-Leitao, Antonio and Str{\"o}m, Nikko},
+  booktitle={EUROSPEECH},
+  year={1995}
+}"""
 
-def fix_text(text):
+
+def fix_text(text: str) -> str:
     return text.replace("{", "ä").replace("}", "å").replace("|", "ö").replace("\\", "Ö")
 
 
 class FR:
-    def __init__(self, text):
+    def __init__(self, text: str):
         if not text.startswith("FR"):
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
         parts = text.split("\t")
@@ -50,7 +85,7 @@ class FR:
 
 
 class Mix():
-    def __init__(self, filepath):
+    def __init__(self, filepath: str):
         self.fr = []
         with open(filepath) as inpf:
             saw_text = False
@@ -75,12 +110,12 @@ class Mix():
                     self.labels += line.strip()
 
 
-def smp_probe(filename):
+def smp_probe(filename: str) -> bool:
     with open(filename, "rb") as f:
         return f.read(9) == b"file=samp"
 
 
-def smp_headers(filename):
+def smp_headers(filename: str):
     with open(filename, "rb") as f:
         f.seek(0)
         raw_headers = f.read(1024)
@@ -97,7 +132,7 @@ def smp_headers(filename):
         return dict(a.split("=") for a in tmp)
 
 
-def smp_read_sf(filename):
+def smp_read_sf(filename: str):
     headers = smp_headers(filename)
     if headers["msb"] == "last":
         ENDIAN = "LITTLE"
