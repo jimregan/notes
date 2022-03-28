@@ -104,7 +104,7 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
         if not utterances.exists():
             raise Exception(f"utterances.tsv not found in {split} directory ({split_path})")
         with open(utterances) as tsvfile:
-            data = csv.reader(tsvfile, delimiter='\t')
+            data = csv.DictReader(tsvfile, delimiter='\t')
             for row in data:
                 audiopath = split_path / row["filename"]
                 if audiopath.exists():
