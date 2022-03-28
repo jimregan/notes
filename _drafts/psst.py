@@ -50,6 +50,7 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
                 "test": datasets.Value("string"),
                 "prompt": datasets.Value("string"),
                 "transcript": datasets.Value("string"),
+                "phonemes": datasets.Sequence(datasets.Value("string")),
                 "correctness": datasets.Value("bool"),
                 "aq_index": datasets.Value("float"),
                 "duration_frames": datasets.Value("uint64"),
@@ -115,11 +116,12 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
                             "test": row["test"],
                             "prompt": row["prompt"],
                             "transcript": row["transcript"],
+                            "phonemes": row["transcript"].strip().split(" "),
                             "correctness": (row["correctness"] == "True"),
                             "aq_index": float(row["aq_index"]),
                             "duration_frames": int(row["duration_frames"]),
                             "audio": {
                                 "path": str(audiopath),
                                 "bytes": audiofile.read()
-                            }                            
+                            }
                         }
