@@ -50,9 +50,9 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
                 "test": datasets.Value("string"),
                 "prompt": datasets.Value("string"),
                 "transcript": datasets.Value("string"),
-                "correctness": datasets.Value("string"),
-                "aq_index": datasets.Value("string"),
-                "duration_frames": datasets.Value("string"),
+                "correctness": datasets.Value("bool"),
+                "aq_index": datasets.Value("float"),
+                "duration_frames": datasets.Value("uint64"),
                 "audio": datasets.Audio(sampling_rate=16_000)
             }
         )
@@ -98,7 +98,11 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
         """Yields examples as (key, example) tuples. """
         data_path = Path(data_dir)
         split_path = data_path / split
+        if not split_path.exists():
+            raise Exception(f"{split} directory not found ({split_path})")
         utterances = split_path / "utterances.tsv"
+        if not utterances.exists():
+            raise Exception(f"utterances.tsv not found in {split} directory ({split_path})")
         with open(utterances) as tsvfile:
             data = csv.reader(tsvfile, delimiter='\t')
             for row in data:
@@ -111,15 +115,11 @@ class PSSTDataset(datasets.GeneratorBasedBuilder):
                             "test": row["test"],
                             "prompt": row["prompt"],
                             "transcript": row["transcript"],
-                            "correctness": row["correctness"],
-                            "aq_index": row["aq_index"],
-                            "duration_frames": row["duration_frames"],
+                            "correctness": (row["correctness"] == "True"),
+                            "aq_index": float(row["aq_index"]),
+                            "duration_frames": int(row["duration_frames"]),
                             "audio": {
                                 "path": str(audiopath),
                                 "bytes": audiofile.read()
                             }                            
                         }
-
-
-if __name__ == "__main__":
-    print("Foo")
