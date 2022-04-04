@@ -126,10 +126,14 @@ timit_filt2 = timit["test"].filter(lambda eg: is_discardable(eg))
 timit = concatenate_datasets([timit_filt, timit_filt2])
 
 
+BASE = timit[0]["file"].split("/data/")[0] + "/data/"
+
+
 with open(manifest_path, "w") as manifest, open(transcript_path, "w") as transcript:
+    manifest.write(BASE + "\n")
     for item in timit:
         frames, sr = sf.read(item["file"])
-        manifest.write(f"{item['file']}\t{len(frames)}\n")
+        manifest.write(f"{item['file'].replace(BASE, '')}\t{len(frames)}\n")
         utt = item['phonetic_detail']['utterance']
         mapped = map_timit_to_cmudict(utt)
         transcript.write(f"{' '.join(mapped)}\n")
