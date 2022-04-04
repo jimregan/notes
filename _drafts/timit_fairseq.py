@@ -114,8 +114,8 @@ def is_discardable(batch):
     return True
 
 
-manifest_path = "manifest.tsv"
-transcript_path = "transcript"
+manifest_path = "train.tsv"
+transcript_path = "train.ltr"
 
 timit = load_dataset('timit_asr')
 
