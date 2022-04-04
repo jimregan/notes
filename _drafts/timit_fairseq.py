@@ -1,3 +1,5 @@
+# Copyright 2022 Jim O'Regan
+# License: Apache 2.0
 from datasets import load_dataset, concatenate_datasets
 import soundfile as sf
 
