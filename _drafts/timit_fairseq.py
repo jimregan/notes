@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-
 # Copyright 2022 Jim O'Regan
-# License: Apache 2.0
+# Licence: Apache 2.0
+
+# This was originally generated from a Jupyter notebook,
+# so it could be much, much neater.
+
 from datasets import load_dataset, concatenate_datasets
 import soundfile as sf
 
@@ -57,7 +62,7 @@ WH
 Y
 Z
 ZH
-
+ 
 .
 ,
 ?
@@ -108,6 +113,7 @@ def map_timit_to_cmudict(timit):
             output.append(phone.upper())
     return output
 
+timit = load_dataset('timit_asr')
 
 def is_discardable(batch):
     for phoneme in batch["phonetic_detail"]["utterance"]:
@@ -115,21 +121,17 @@ def is_discardable(batch):
             return False
     return True
 
-
-manifest_path = "train.tsv"
-transcript_path = "train.ltr"
-
-timit = load_dataset('timit_asr')
-
 timit_filt = timit["train"].filter(lambda eg: is_discardable(eg))
+
 timit_filt2 = timit["test"].filter(lambda eg: is_discardable(eg))
+
 timit = concatenate_datasets([timit_filt, timit_filt2])
 
+MAX_TOKENS = 1120000
 
 BASE = timit[0]["file"].split("/data/")[0] + "/data/"
 
-
-with open(manifest_path, "w") as manifest, open(transcript_path, "w") as transcript:
+with open("train_timit.tsv", "w") as manifest, open("train_timit.ltr", "w") as transcript:
     manifest.write(BASE + "\n")
     for item in timit:
         frames, sr = sf.read(item["file"])
@@ -137,4 +139,3 @@ with open(manifest_path, "w") as manifest, open(transcript_path, "w") as transcr
         utt = item['phonetic_detail']['utterance']
         mapped = map_timit_to_cmudict(utt)
         transcript.write(f"{' '.join(mapped)}\n")
-
