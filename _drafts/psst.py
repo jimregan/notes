@@ -15,7 +15,6 @@
 # limitations under the License.
 # Lint as: python3
 
-from email.mime import audio
 from pathlib import Path
 import os
 import csv
