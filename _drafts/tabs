@@ -1,9 +1,6 @@
 Week 5 · Deep Learning
 https://atcold.github.io/pytorch-Deep-Learning/en/week05/05/
 
-Reddit - Dive into anything
-https://www.reddit.com/r/TheLastLeg/
-
 Commits · flashlight/flashlight
 https://github.com/flashlight/flashlight/commits/main?after=24199f5f7138eaebd2d5f17f83f79b3bb6fc486f+34&branch=main
 
@@ -1588,38 +1585,8 @@ https://github.com/huggingface/tokenizers/blob/71ae5421ebe0e7038c71f8fc4f4b54510
 tokenizers/char_level_bpe.py at 71ae5421ebe0e7038c71f8fc4f4b54510d819142 · huggingface/tokenizers
 https://github.com/huggingface/tokenizers/blob/71ae5421ebe0e7038c71f8fc4f4b54510d819142/bindings/python/py_src/tokenizers/implementations/char_level_bpe.py
 
-Python - add initial_alphabet to spm unigram trainer by dctelus · Pull Request #942 · huggingface/tokenizers
-https://github.com/huggingface/tokenizers/pull/942
-
-tokenizers/sentencepiece_bpe.py at 71ae5421ebe0e7038c71f8fc4f4b54510d819142 · huggingface/tokenizers
-https://github.com/huggingface/tokenizers/blob/71ae5421ebe0e7038c71f8fc4f4b54510d819142/bindings/python/py_src/tokenizers/implementations/sentencepiece_bpe.py
-
-Fixing the trainer: · huggingface/tokenizers@091ac14
-https://github.com/huggingface/tokenizers/commit/091ac14d19a903fa14daea059d45c0acab5a952e
-
-Quicktour — tokenizers documentation
-https://huggingface.co/docs/tokenizers/python/latest/quicktour.html
-
-Input sequences — tokenizers documentation
-https://huggingface.co/docs/tokenizers/python/latest/api/reference.html#tokenizers.trainers.BpeTrainer
-
-Group_6_Project_Report (3).pdf
-file:///Users/joregan/Downloads/Group_6_Project_Report%20(3).pdf
-
-Librispeech: an ASR corpus based on public domain... - Google Scholar
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Librispeech%3A+an+ASR+corpus+based+on+public+domain+audio+books&btnG=
-
-De Vandrande Djaknarne - Google Search
-https://www.google.com/search?q=De+Vandrande+Djaknarne&rlz=1C5GCEM_enSE990SE991&sxsrf=APq-WBuJzGSavyrDi9PBXrrya2z7_Zg1QQ:1647886516919&ei=tMA4YvLON5KExc8PiL6lgAo&start=10&sa=N&ved=2ahUKEwjy-OHT59f2AhUSQvEDHQhfCaAQ8NMDegQIARBG&biw=1440&bih=732&dpr=2
-
 I. - Full text of De Vandrande Djäknarne in Swedish
 https://interlinearbooks.com/literature/swedish/de-vandrande-djaknarne/chapter1/
-
-PolEval 2022 :: Home
-http://poleval.pl/
-
-PolEval 2021 :: Task 1
-http://2021.poleval.pl/tasks/task1
 
 poleval/2021-punctuation-restoration: PolEval 2021 Task 1
 https://github.com/poleval/2021-punctuation-restoration
@@ -1633,15 +1600,6 @@ https://www.youtube.com/watch?v=yEh-RiFGN94
 text formatting - How to prettyprint json using jq standalone? - Unix & Linux Stack Exchange
 https://unix.stackexchange.com/questions/244946/how-to-prettyprint-json-using-jq-standalone
 
-python - How to make a flat list out of a list of lists? - Stack Overflow
-https://stackoverflow.com/questions/952914/how-to-make-a-flat-list-out-of-a-list-of-lists
-
-Fine-Tune XLSR-Wav2Vec2 for low-resource ASR with 🤗 Transformers
-https://huggingface.co/blog/fine-tune-xlsr-wav2vec2
-
-Wav2Vec2
-https://huggingface.co/docs/transformers/model_doc/wav2vec2
-
 transformers/modeling_wav2vec2.py at master · huggingface/transformers
 https://github.com/huggingface/transformers/blob/master/src/transformers/models/wav2vec2/modeling_wav2vec2.py
 
@@ -1650,9 +1608,6 @@ https://github.com/huggingface/transformers/tree/master/examples
 
 transformers/scripts at master · huggingface/transformers
 https://github.com/huggingface/transformers/tree/master/scripts
-
-More draft-y todo-y stuff by jimregan · Pull Request #205 · jimregan/notes
-https://github.com/jimregan/notes/pull/205
 
 Public and media
 https://www.lrs.lt/sip/portal.show?p_r=35397&p_k=2
@@ -1693,46 +1648,6 @@ https://semantika.lt/
 Lietuvių kalbos fonogramų automatinės transkripcijos tekstu paslauga - SEMANTIKA.LT
 https://semantika.lt/Analysis/Transcriber
 
-facebookresearch/voxpopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation
-https://github.com/facebookresearch/voxpopuli
-
-huggingface wav2vec lithuanian - Google Search
-https://www.google.com/search?q=huggingface+wav2vec+lithuanian&rlz=1C5GCEM_enSE990SE991&oq=huggingface+wav&aqs=chrome.3.69i59j35i39j69i57j35i39j69i59j69i60l3.8062j0j7&sourceid=chrome&ie=UTF-8
-
-DeividasM/wav2vec2-large-xlsr-53-lithuanian · Hugging Face
-https://huggingface.co/DeividasM/wav2vec2-large-xlsr-53-lithuanian
-
-Models - Hugging Face
-https://huggingface.co/models?language=lt&pipeline_tag=automatic-speech-recognition&sort=modified
-
-infinitejoy/wav2vec2-large-xls-r-300m-lithuanian · Hugging Face
-https://huggingface.co/infinitejoy/wav2vec2-large-xls-r-300m-lithuanian
-
-sammy786/wav2vec2-xlsr-lithuanian · Hugging Face
-https://huggingface.co/sammy786/wav2vec2-xlsr-lithuanian
-
-facebook/wav2vec2-base-10k-voxpopuli-ft-lt · Hugging Face
-https://huggingface.co/facebook/wav2vec2-base-10k-voxpopuli-ft-lt
-
-facebook/wav2vec2-base-lt-voxpopuli-v2 · Hugging Face
-https://huggingface.co/facebook/wav2vec2-base-lt-voxpopuli-v2
-
-dundar/wav2vec2-large-xlsr-53-lithuanian · Hugging Face
-https://huggingface.co/dundar/wav2vec2-large-xlsr-53-lithuanian
-
-jimregan/notes
-https://github.com/jimregan/notes
-
-jimregan/notes
-https://github.com/jimregan/notes
-
-Flashlight docker, 20/10/2021 | notes
-https://jimregan.github.io/notes/flashlight/docker/2021/10/20/flashlight-docker.html
-
-Formant - Wikipedia
-https://en.wikipedia.org/wiki/Formant
-
 1904.02882.pdf
 https://arxiv.org/pdf/1904.02882.pdf
-
 
