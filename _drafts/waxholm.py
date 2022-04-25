@@ -37,8 +37,9 @@ _CITATION = """
 
 
 def fix_text(text: str) -> str:
-    return text.replace("{", "ä").replace("}", "å").replace("|", "ö").replace("\\", "Ö")
-
+    #replacements = {"{": "ä", "}": "å", "|": "ö", "\\": "Ö"}
+    replacements = text.maketrans("{}|\\", "äåöÖ")
+    return text.translate(replacements)
 
 class FR:
     def __init__(self, text: str):
