@@ -37,9 +37,9 @@ _CITATION = """
 
 
 def fix_text(text: str) -> str:
-    #replacements = {"{": "ä", "}": "å", "|": "ö", "\\": "Ö"}
     replacements = text.maketrans("{}|\\", "äåöÖ")
     return text.translate(replacements)
+
 
 class FR:
     def __init__(self, text: str):
@@ -144,6 +144,7 @@ def smp_read_sf(filename: str):
                        samplerate=16000, endian=ENDIAN, start=512,
                        dtype="int16", format="RAW", subtype="PCM_16")
     return (data, sr)
+
 
 def write_wav(filename, arr):
     import wave
