@@ -89,6 +89,8 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                     "split": "train",
                     "files": TRAIN_LIST
                 },
+            ),
+            datasets.SplitGenerator(
                 name=datasets.Split.TEST,
                 gen_kwargs={
                     "split": "test",
