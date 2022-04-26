@@ -100,11 +100,12 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
         ]
 
     def _generate_examples(self, split, files):
-        with open(f"./dataset/waxholm/{files}") as input_file:
+        with open(f"./waxholm/{files}") as input_file:
             for line in input_file.readlines():
+                line = line.strip()
                 parts = line.split(".")
                 subdir = parts[0]
-                audio_file = f"./dataset/waxholm/scenes_formatted/{subdir}/{line}"
+                audio_file = f"./waxholm/scenes_formatted/{subdir}/{line}"
                 text_file = f"{audio_file}.mix"
                 mix = Mix(text_file)
                 samples, sr = smp_read_sf(audio_file)
