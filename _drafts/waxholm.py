@@ -135,6 +135,8 @@ class FR:
     def __init__(self, text: str):
         if not text.startswith("FR"):
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
+        if text.startswith("FR      "):
+            text.replace("FR      ", "FR\t")
         parts = text.split("\t")
         if len(parts) == 5:
             self.type = 'B'
@@ -147,7 +149,7 @@ class FR:
                     self.phone_type = parts[1].strip()[0:1]
                     self.phone = parts[1].strip()[1:]
                 else:
-                    raise Exception("Unexpected line 3E: " + text)
+                    raise Exception("Unexpected line 3E: " + text, parts)
         self.frame = parts[0][2:].strip()
         if len(parts) > 3:
             self.phone_type = parts[1].strip()[0:1]
