@@ -17,6 +17,7 @@
 # Lint as: python3
 """Datasets loader for Waxholm speech corpus"""
 
+import os
 import soundfile as sf
 
 import datasets
@@ -106,7 +107,13 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                 parts = line.split(".")
                 subdir = parts[0]
                 audio_file = f"./waxholm/scenes_formatted/{subdir}/{line}"
+                if not os.path.exists(audio_file):
+                    print(f"{audio_file} does not exist: skipping")
+                    continue
                 text_file = f"{audio_file}.mix"
+                if not os.path.exists(text_file):
+                    print(f"{text_file} does not exist: skipping")
+                    continue
                 mix = Mix(text_file)
                 samples, sr = smp_read_sf(audio_file)
                 yield line, {
@@ -114,7 +121,7 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                     "text": mix.text,
                     "audio": {
                         "path": audio_file,
-                        "bytes": samples
+                        "bytes": samples.tobytes()
                     }
                 }
 
