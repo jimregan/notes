@@ -19,6 +19,19 @@
 
 import soundfile as sf
 
+import datasets
+from datasets.tasks import AutomaticSpeechRecognition
+
+
+TRAIN_LIST = "alloktrainfiles"
+TEST_LIST = "testfiles"
+
+
+_DESCRIPTION = """\
+The Waxholm corpus was collected in 1993 - 1994 at the department of Speech, Hearing and Music (TMH), KTH.
+"""
+
+
 _CITATION = """
 @article{bertenstam1995spoken,
   title={Spoken dialogue data collected in the {W}axholm project},
@@ -34,6 +47,73 @@ _CITATION = """
   booktitle={EUROSPEECH},
   year={1995}
 }"""
+
+
+_URL = "http://www.speech.kth.se/waxholm/waxholm2.html"
+
+
+class WaxholmDataset(datasets.GeneratorBasedBuilder):
+    """Dataset script for Waxholm."""
+
+    VERSION = datasets.Version("1.1.0")
+
+    BUILDER_CONFIGS = [
+        datasets.BuilderConfig(name="waxholm"),
+    ]
+
+    def _info(self):
+        features = datasets.Features(
+            {
+                "id": datasets.Value("string"),
+                "text": datasets.Value("string"),
+                "audio": datasets.Audio(sampling_rate=16_000)
+            }
+        )
+
+        return datasets.DatasetInfo(
+            description=_DESCRIPTION,
+            features=features,
+            supervised_keys=None,
+            homepage=_URL,
+            citation=_CITATION,
+            task_templates=[
+                AutomaticSpeechRecognition(audio_file_path_column="path", transcription_column="text")
+            ],
+        )
+
+    def _split_generators(self, dl_manager):
+        return [
+            datasets.SplitGenerator(
+                name=datasets.Split.TRAIN,
+                gen_kwargs={
+                    "split": "train",
+                    "files": TRAIN_LIST
+                },
+                name=datasets.Split.TEST,
+                gen_kwargs={
+                    "split": "test",
+                    "files": TEST_LIST
+                },
+            ),
+        ]
+
+    def _generate_examples(self, split, files):
+        with open(f"./dataset/waxholm/{files}") as input_file:
+            for line in input_file.readlines():
+                parts = line.split(".")
+                subdir = parts[0]
+                audio_file = f"./dataset/waxholm/scenes_formatted/{subdir}/{line}"
+                text_file = f"{audio_file}.mix"
+                mix = Mix(text_file)
+                samples, sr = smp_read_sf(audio_file)
+                yield line, {
+                    "id": line,
+                    "text": mix.text,
+                    "audio": {
+                        "path": audio_file,
+                        "bytes": samples
+                    }
+                }
 
 
 def fix_text(text: str) -> str:
@@ -146,7 +226,7 @@ def smp_read_sf(filename: str):
     return (data, sr)
 
 
-def write_wav(filename, arr):
+def _write_wav(filename, arr):
     import wave
 
     with wave.open(filename, "w") as f:
@@ -156,5 +236,5 @@ def write_wav(filename, arr):
         f.writeframes(arr)
 
 
-arr, sr = smp_read_sf("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
-write_wav("out.wav", arr)
+#arr, sr = smp_read_sf("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
+#write_wav("out.wav", arr)
