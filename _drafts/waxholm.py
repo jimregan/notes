@@ -135,8 +135,8 @@ class FR:
     def __init__(self, text: str):
         if not text.startswith("FR"):
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
-        if text.startswith("FR      "):
-            text.replace("FR      ", "FR\t")
+#        if text.startswith("FR      "):
+#            text = text.replace("FR      ", "FR\t")
         parts = text.split("\t")
         if len(parts) == 5:
             self.type = 'B'
@@ -145,22 +145,22 @@ class FR:
         if len(parts) == 3:
             self.type = 'E'
             if parts[1].strip() != "OK":
-                if parts[2].startswith("$"):
+                if parts[1].startswith("$"):
                     self.phone_type = parts[1].strip()[0:1]
                     self.phone = parts[1].strip()[1:]
                 else:
-                    raise Exception("Unexpected line 3E: " + text, parts)
+                    raise Exception("Unexpected line: " + text, parts)
         self.frame = parts[0][2:].strip()
         if len(parts) > 3:
             self.phone_type = parts[1].strip()[0:1]
             self.phone = parts[1].strip()[1:]
             if not parts[2].strip().startswith(">pm "):
-                raise Exception("Unexpected line: " + text)
+                raise Exception("Unexpected line: " + text, parts)
             self.pm_type = parts[2].strip()[4:5]
             self.pm = parts[2].strip()[5:]
         if len(parts) == 5:
             if not parts[3].strip().startswith(">w "):
-                raise Exception("Unexpected line: " + text)
+                raise Exception("Unexpected line: " + text, parts)
             self.word = fix_text(parts[3].strip()[3:])
         if parts[-1].strip().endswith(" sec"):
             self.seconds = parts[-1].strip()[0:-4]
