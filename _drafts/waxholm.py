@@ -164,10 +164,14 @@ class FR:
         if len(parts) > 3:
             self.phone_type = parts[1].strip()[0:1]
             self.phone = parts[1].strip()[1:]
-            if not parts[2].strip().startswith(">pm "):
+            if parts[2].strip().startswith(">pm "):
+                self.pm_type = parts[2].strip()[4:5]
+                self.pm = parts[2].strip()[5:]
+            elif parts[1].strip().startswith(">pm "):
+                self.pm_type = parts[1].strip()[4:5]
+                self.pm = parts[1].strip()[5:]
+            else:
                 raise Exception("Unexpected line (>3): " + text, parts)
-            self.pm_type = parts[2].strip()[4:5]
-            self.pm = parts[2].strip()[5:]
         if len(parts) == 5:
             if parts[3].strip().startswith(">w "):
                 self.word = fix_text(parts[3].strip()[3:])
