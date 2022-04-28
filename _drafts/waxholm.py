@@ -171,6 +171,10 @@ class FR:
         if len(parts) == 5:
             if parts[3].strip().startswith(">w "):
                 self.word = fix_text(parts[3].strip()[3:])
+                self.pseudoword = False
+            elif parts[3].strip().startswith("> "):
+                self.word = fix_text(parts[3].strip()[2:])
+                self.pseudoword = True
             elif parts[3].strip() == "":
                 pass
             else:
