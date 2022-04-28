@@ -137,7 +137,7 @@ class FR:
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
         parts = text.split("\t")
         if len(parts) == 5:
-            if parts[3].strip() == "" and parts[1].strip().startswith("$"):
+            if parts[3].strip() == "":
                 self.type = 'I'
                 self.phone_type = parts[1].strip()[0:1]
                 self.phone = parts[1].strip()[1:]
@@ -150,6 +150,12 @@ class FR:
                 self.type = "I"
                 self.phone_type = parts[1].strip()[0:1]
                 self.phone = parts[1].strip()[1:]
+            elif parts[1].strip().startswith(">pm "):
+                self.type = "I"
+                self.pm_type = parts[1].strip()[4:5]
+                self.pm = parts[1].strip()[5:]
+                self.phone_type = self.pm_type
+                self.phone = self.pm
             elif parts[1].strip() == "OK":
                 self.type = 'E'
             else:
@@ -163,9 +169,12 @@ class FR:
             self.pm_type = parts[2].strip()[4:5]
             self.pm = parts[2].strip()[5:]
         if len(parts) == 5:
-            if not parts[3].strip().startswith(">w "):
+            if parts[3].strip().startswith(">w "):
+                self.word = fix_text(parts[3].strip()[3:])
+            elif parts[3].strip() == "":
+                pass
+            else:
                 raise Exception("Unexpected line (5): " + text, parts)
-            self.word = fix_text(parts[3].strip()[3:])
         if parts[-1].strip().endswith(" sec"):
             self.seconds = parts[-1].strip()[0:-4]
 
