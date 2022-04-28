@@ -145,7 +145,7 @@ class FR:
                 self.type = "I"
                 self.phone_type = parts[1].strip()[0:1]
                 self.phone = parts[1].strip()[1:]
-            elif parts[1].strip() != "OK":
+            elif parts[1].strip() == "OK":
                 self.type = 'E'
             else:
                 raise Exception("Unexpected line: " + text, parts)
