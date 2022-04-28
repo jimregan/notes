@@ -176,6 +176,9 @@ class FR:
             if parts[3].strip().startswith(">w "):
                 self.word = fix_text(parts[3].strip()[3:])
                 self.pseudoword = False
+            if parts[3].strip().startswith(">w. "):
+                self.word = fix_text(parts[4].strip()[4:])
+                self.pseudoword = False
             elif parts[3].strip().startswith("> "):
                 self.word = fix_text(parts[3].strip()[2:])
                 self.pseudoword = True
