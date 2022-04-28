@@ -146,7 +146,7 @@ class FR:
         if len(parts) == 4:
             self.type = 'I'
         if len(parts) == 3:
-            if parts[1].strip().startswith("$"):
+            if parts[1].strip().startswith("$") or parts[1].strip().startswith("#"):
                 self.type = "I"
                 self.phone_type = parts[1].strip()[0:1]
                 self.phone = parts[1].strip()[1:]
