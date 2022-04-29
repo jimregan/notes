@@ -116,8 +116,8 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                     continue
                 mix = Mix(text_file)
                 samples, sr = smp_read_sf(audio_file)
-                audio_feat = Audio({"path": None, "array": samples, "sampling_rate": sr})
-                audio_to_pass = audio_feat.encode_example({"array": samples})
+                audio_feat = Audio({"path": None, "array": samples, "sampling_rate": sr, "format": "wav"})
+                audio_to_pass = audio_feat.encode_example({"array": samples, "sampling_rate": sr, "format": "wav"})
                 yield line, {
                     "id": line,
                     "text": mix.text,
