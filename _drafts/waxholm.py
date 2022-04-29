@@ -17,6 +17,7 @@
 # Lint as: python3
 """Datasets loader for Waxholm speech corpus"""
 
+from io import BytesIO
 import os
 import soundfile as sf
 
@@ -116,8 +117,10 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                     continue
                 mix = Mix(text_file)
                 samples, sr = smp_read_sf(audio_file)
+                buffer = BytesIO()
+                sf.write(buffer, samples, sr, format="wav")
                 blank = Audio()
-                audio_to_pass = blank.encode_example(None, value = {"array": samples, "sampling_rate": sr})
+                audio_to_pass = blank.encode_example(value = {"bytes": buffer.getvalue(), "sampling_rate": sr, })
                 yield line, {
                     "id": line,
                     "text": mix.text,
@@ -203,6 +206,7 @@ class Mix():
                     self.filepath = line[15:].strip()
                 if line.startswith("TEXT:"):
                     saw_text = True
+                    continue
                 if saw_text:
                     self.text = fix_text(line.strip())
                     saw_text = False
