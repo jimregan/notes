@@ -135,59 +135,46 @@ class FR:
     def __init__(self, text: str):
         if not text.startswith("FR"):
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
-        parts = text.split("\t")
-        if len(parts) == 5:
-            if parts[3].strip() == "":
-                self.type = 'I'
-                self.phone_type = parts[1].strip()[0:1]
-                self.phone = parts[1].strip()[1:]
-            else:
-                self.type = 'B'
-        if len(parts) == 4:
-            self.type = 'I'
-        if len(parts) == 3:
-            if parts[1].strip().startswith("$") or parts[1].strip().startswith("#"):
-                self.type = "I"
-                self.phone_type = parts[1].strip()[0:1]
-                self.phone = parts[1].strip()[1:]
-            elif parts[1].strip().startswith(">pm "):
-                self.type = "I"
-                self.pm_type = parts[1].strip()[4:5]
-                self.pm = parts[1].strip()[5:]
-                self.phone_type = self.pm_type
-                self.phone = self.pm
-            elif parts[1].strip() == "OK":
-                self.type = 'E'
-            else:
-                raise Exception("Unexpected line (3): " + text, parts)
+        parts = [a.strip() for a in text.split("\t")]
         self.frame = parts[0][2:].strip()
-        if len(parts) > 3:
-            self.phone_type = parts[1].strip()[0:1]
-            self.phone = parts[1].strip()[1:]
-            if parts[2].strip().startswith(">pm "):
-                self.pm_type = parts[2].strip()[4:5]
-                self.pm = parts[2].strip()[5:]
-            elif parts[1].strip().startswith(">pm "):
-                self.pm_type = parts[1].strip()[4:5]
-                self.pm = parts[1].strip()[5:]
-            else:
-                raise Exception("Unexpected line (>3): " + text, parts)
-        if len(parts) == 5:
-            if parts[3].strip().startswith(">w "):
-                self.word = fix_text(parts[3].strip()[3:])
-                self.pseudoword = False
-            if parts[3].strip().startswith(">w. "):
-                self.word = fix_text(parts[4].strip()[4:])
-                self.pseudoword = False
-            elif parts[3].strip().startswith("> "):
-                self.word = fix_text(parts[3].strip()[2:])
-                self.pseudoword = True
-            elif parts[3].strip() == "":
-                pass
-            else:
-                raise Exception("Unexpected line (5): " + text, parts)
         if parts[-1].strip().endswith(" sec"):
             self.seconds = parts[-1].strip()[0:-4]
+        for subpart in parts[1:-1]:
+            if subpart.startswith("$#"):
+                self.type = 'I'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith("$"):
+                self.type = 'I'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith("#"):
+                self.type = 'B'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith(">pm "):
+                self.pm_type = fix_text(subpart[4:5])
+                self.pm = fix_text(subpart[5:])
+            elif subpart.startswith(">pm. "):
+                self.pm_type = fix_text(subpart[4:5])
+                self.pm = fix_text(subpart[5:])
+            elif subpart.startswith(">w "):
+                self.type = 'B'
+                self.word = fix_text(subpart[3:])
+                self.pseudoword = False
+            elif subpart.startswith(">w. "):
+                self.type = 'B'
+                self.word = fix_text(subpart[4:])
+                self.pseudoword = False
+            elif subpart.startswith("X"):
+                if hasattr(self, 'type'):
+                    print(self.type, self.type == 'B')
+                self.type = getattr(self, 'type', 'B')
+                self.word = fix_text(subpart)
+                self.pseudoword = True
+            elif subpart == "OK":
+                self.type = 'E'
+
 
     def __repr__(self):
         parts = []
