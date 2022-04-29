@@ -22,7 +22,7 @@ import soundfile as sf
 
 import datasets
 from datasets.tasks import AutomaticSpeechRecognition
-
+from datasets.features import Audio
 
 TRAIN_LIST = "alloktrainfiles"
 TEST_LIST = "testfiles"
@@ -116,13 +116,12 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
                     continue
                 mix = Mix(text_file)
                 samples, sr = smp_read_sf(audio_file)
+                audio_feat = Audio({"path": None, "array": samples, "sampling_rate": sr})
+                audio_to_pass = audio_feat.encode_example({"array": samples})
                 yield line, {
                     "id": line,
                     "text": mix.text,
-                    "audio": {
-                        "path": audio_file,
-                        "bytes": samples.tobytes()
-                    }
+                    "audio": audio_to_pass
                 }
 
 
