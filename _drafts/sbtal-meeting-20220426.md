@@ -1,16 +1,18 @@
 # Datasets
-- November (ASR)
+- Builders' holidays a factor
+- Internal pre-release November (ASR)
 - Release next year
 
 # Fonetik
-- Deadline now, no LaTeX
+- Deadline now
+- no LaTeX
 
 # QPSR
 
 # SLTC
 - Axel taking the lead
 
-Processing data
+# Processing data
 - Train general models on parliamentary speech
 - Acooutic embeddings (HuBERT)
 
@@ -21,7 +23,7 @@ Processing data
 
 # Next week
 
-- Trello it up!
+- Trello!
 
 # Reading group
 
