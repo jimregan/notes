@@ -17,7 +17,22 @@
 # Lint as: python3
 """Datasets loader for Waxholm speech corpus"""
 
+from io import BytesIO
+import os
 import soundfile as sf
+
+import datasets
+from datasets.tasks import AutomaticSpeechRecognition
+from datasets.features import Audio
+
+TRAIN_LIST = "alloktrainfiles"
+TEST_LIST = "testfiles"
+
+
+_DESCRIPTION = """\
+The Waxholm corpus was collected in 1993 - 1994 at the department of Speech, Hearing and Music (TMH), KTH.
+"""
+
 
 _CITATION = """
 @article{bertenstam1995spoken,
@@ -36,6 +51,83 @@ _CITATION = """
 }"""
 
 
+_URL = "http://www.speech.kth.se/waxholm/waxholm2.html"
+
+
+class WaxholmDataset(datasets.GeneratorBasedBuilder):
+    """Dataset script for Waxholm."""
+
+    VERSION = datasets.Version("1.1.0")
+
+    BUILDER_CONFIGS = [
+        datasets.BuilderConfig(name="waxholm"),
+    ]
+
+    def _info(self):
+        features = datasets.Features(
+            {
+                "id": datasets.Value("string"),
+                "text": datasets.Value("string"),
+                "audio": datasets.Audio(sampling_rate=16_000)
+            }
+        )
+
+        return datasets.DatasetInfo(
+            description=_DESCRIPTION,
+            features=features,
+            supervised_keys=None,
+            homepage=_URL,
+            citation=_CITATION,
+            task_templates=[
+                AutomaticSpeechRecognition(audio_file_path_column="path", transcription_column="text")
+            ],
+        )
+
+    def _split_generators(self, dl_manager):
+        return [
+            datasets.SplitGenerator(
+                name=datasets.Split.TRAIN,
+                gen_kwargs={
+                    "split": "train",
+                    "files": TRAIN_LIST
+                },
+            ),
+            datasets.SplitGenerator(
+                name=datasets.Split.TEST,
+                gen_kwargs={
+                    "split": "test",
+                    "files": TEST_LIST
+                },
+            ),
+        ]
+
+    def _generate_examples(self, split, files):
+        with open(f"./waxholm/{files}") as input_file:
+            for line in input_file.readlines():
+                line = line.strip()
+                parts = line.split(".")
+                subdir = parts[0]
+                audio_file = f"./waxholm/scenes_formatted/{subdir}/{line}"
+                if not os.path.exists(audio_file):
+                    print(f"{audio_file} does not exist: skipping")
+                    continue
+                text_file = f"{audio_file}.mix"
+                if not os.path.exists(text_file):
+                    print(f"{text_file} does not exist: skipping")
+                    continue
+                mix = Mix(text_file)
+                samples, sr = smp_read_sf(audio_file)
+                buffer = BytesIO()
+                sf.write(buffer, samples, sr, format="wav")
+                blank = Audio()
+                audio_to_pass = blank.encode_example(value = {"bytes": buffer.getvalue(), "sampling_rate": sr, })
+                yield line, {
+                    "id": line,
+                    "text": mix.text,
+                    "audio": audio_to_pass
+                }
+
+
 def fix_text(text: str) -> str:
     replacements = text.maketrans("{}|\\", "äåöÖ")
     return text.translate(replacements)
@@ -45,29 +137,46 @@ class FR:
     def __init__(self, text: str):
         if not text.startswith("FR"):
             raise IOError("Unknown line type (does not begin with 'FR'): " + text)
-        parts = text.split("\t")
-        if len(parts) == 5:
-            self.type = 'B'
-        if len(parts) == 4:
-            self.type = 'I'
-        if len(parts) == 3:
-            self.type = 'E'
-            if parts[1].strip() != "OK":
-                raise IOError("Unexpected line: " + text)
+        parts = [a.strip() for a in text.split("\t")]
         self.frame = parts[0][2:].strip()
-        if len(parts) > 3:
-            self.phone_type = parts[1].strip()[0:1]
-            self.phone = parts[1].strip()[1:]
-            if not parts[2].strip().startswith(">pm "):
-                raise IOError("Unexpected line: " + text)
-            self.pm_type = parts[2].strip()[4:5]
-            self.pm = parts[2].strip()[5:]
-        if len(parts) == 5:
-            if not parts[3].strip().startswith(">w "):
-                raise IOError("Unexpected line: " + text)
-            self.word = fix_text(parts[3].strip()[3:])
         if parts[-1].strip().endswith(" sec"):
             self.seconds = parts[-1].strip()[0:-4]
+        for subpart in parts[1:-1]:
+            if subpart.startswith("$#"):
+                self.type = 'I'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith("$"):
+                self.type = 'I'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith("#"):
+                self.type = 'B'
+                self.phone_type = fix_text(subpart[0:2])
+                self.phone = fix_text(subpart[2:])
+            elif subpart.startswith(">pm "):
+                self.pm_type = fix_text(subpart[4:5])
+                self.pm = fix_text(subpart[5:])
+            elif subpart.startswith(">pm. "):
+                self.pm_type = fix_text(subpart[4:5])
+                self.pm = fix_text(subpart[5:])
+            elif subpart.startswith(">w "):
+                self.type = 'B'
+                self.word = fix_text(subpart[3:])
+                self.pseudoword = False
+            elif subpart.startswith(">w. "):
+                self.type = 'B'
+                self.word = fix_text(subpart[4:])
+                self.pseudoword = False
+            elif subpart.startswith("X"):
+                if hasattr(self, 'type'):
+                    print(self.type, self.type == 'B')
+                self.type = getattr(self, 'type', 'B')
+                self.word = fix_text(subpart)
+                self.pseudoword = True
+            elif subpart == "OK":
+                self.type = 'E'
+
 
     def __repr__(self):
         parts = []
@@ -97,6 +206,7 @@ class Mix():
                     self.filepath = line[15:].strip()
                 if line.startswith("TEXT:"):
                     saw_text = True
+                    continue
                 if saw_text:
                     self.text = fix_text(line.strip())
                     saw_text = False
@@ -146,7 +256,7 @@ def smp_read_sf(filename: str):
     return (data, sr)
 
 
-def write_wav(filename, arr):
+def _write_wav(filename, arr):
     import wave
 
     with wave.open(filename, "w") as f:
@@ -156,5 +266,5 @@ def write_wav(filename, arr):
         f.writeframes(arr)
 
 
-arr, sr = smp_read_sf("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
-write_wav("out.wav", arr)
+#arr, sr = smp_read_sf("/Users/joregan/Playing/waxholm/scenes_formatted//fp2060/fp2060.pr.09.smp")
+#write_wav("out.wav", arr)
