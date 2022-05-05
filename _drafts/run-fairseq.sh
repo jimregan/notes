@@ -7,46 +7,48 @@ CUDA_VISIBLE_DEVICES=$cpunum fairseq-train \
     /home/joregan/.ljs/data/$split \
     --save-dir /home/joregan/.ljs/runs/$split \
     --fp16 \
+    --post-process letter \
+    --valid-subset valid \
+    --no-epoch-checkpoints \
+    --best-checkpoint-metric wer \
     --num-workers 1 \
+    --max-update 80000 \
+    --sentence-avg \
     --task audio_pretraining \
+    --arch wav2vec_ctc \
+    --w2v-path /home/joregan/.ljs/model/wav2vec_small_960h.pt \
     --restore-file /home/joregan/.ljs/model/wav2vec_small_960h.pt \
-    --criterion wav2vec \
-    --arch wav2vec2 \
-    --log-keys '["prob_perplexity","code_perplexity","temp"]' \
-    --quantize-targets \
-    --extractor-mode default \
-    --conv-feature-layers '[(512, 10, 5)] + [(512, 3, 2)] * 4 + [(512,2,2)] * 2' \
-    --final-dim 256 \
-    --latent-vars 320 \
-    --latent-groups 2 \
-    --latent-temp '(2,0.5,0.999995)' \
-    --infonce \
-    --optimizer adam \
-    --adam-betas '(0.9,0.98)' \
-    --adam-eps 1e-06 \
-    --lr-scheduler polynomial_decay \
-    --total-num-update 400000 \
-    --lr 0.0005 \
-    --warmup-updates 32000 \
-    --mask-length 10 \
-    --mask-prob 0.65 \
+    --labels ltr \
+    --apply-mask \
     --mask-selection static \
     --mask-other 0 \
-    --encoder-layerdrop 0.05 \
-    --dropout-input 0.1 \
-    --dropout-features 0.1 \
-    --feature-grad-mult 0.1 \
-    --loss-weights '[0.1, 10]' \
-    --conv-pos 128 \
-    --conv-pos-groups 16 \
-    --num-negatives 100 \
-    --cross-sample-negatives 0 \
-    --max-sample-size 250000 \
-    --min-sample-size 32000 \
-    --dropout 0.1 \
-    --attention-dropout 0.1 \
-    --weight-decay 0.01 \
-    --max-tokens 1400000 \
-    --max-update 360000 \
-    --skip-invalid-size-inputs-valid-test \
+    --mask-length 10 \
+    --mask-prob 0.5 \
+    --layerdrop 0.1 \
+    --mask-channel-selection static \
+    --mask-channel-other 0 \
+    --mask-channel-length 64 \
+    --mask-channel-prob 0.5 \
+    --zero-infinity \
+    --feature-grad-mult 0.0 \
+    --freeze-finetune-updates 10000 \
+    --validate-after-updates 10000 \
+    --optimizer adam \
+    --adam-betas '(0.9, 0.98)' \
+    --adam-eps 1e-08 \
+    --lr 2e-05 \
+    --lr-scheduler tri_stage \
+    --warmup-steps 8000 \
+    --hold-steps 32000 \
+    --decay-steps 40000 \
+    --final-lr-scale 0.05 \
+    --final-dropout 0.0 \
+    --dropout 0.0 \
+    --activation-dropout 0.1 \
+    --criterion ctc \
+    --attention-dropout 0.0 \
+    --max-tokens 1280000 \
+    --seed 2337 \
+    --log-format json \
+    --log-interval 500 \
     --ddp-backend no_c10d
