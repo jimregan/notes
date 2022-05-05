@@ -6,18 +6,20 @@ CUDA_VISIBLE_DEVICES=$cpunum fairseq-train \
     --distributed-world-size 1 \
     /home/joregan/.ljs/data/$split \
     --save-dir /home/joregan/.ljs/runs/$split \
+    --tensorboard-logdir /home/joregan/.ljs/runs/$split/runs \
     --fp16 \
     --post-process letter \
     --valid-subset valid \
     --no-epoch-checkpoints \
     --best-checkpoint-metric wer \
+    --patience 100 \
     --num-workers 1 \
     --max-update 80000 \
     --sentence-avg \
     --task audio_pretraining \
     --arch wav2vec_ctc \
-    --w2v-path /home/joregan/.ljs/model/wav2vec_small_960h.pt \
-    --restore-file /home/joregan/.ljs/model/wav2vec_small_960h.pt \
+    --finetune-from-model /home/joregan/.ljs/model/wav2vec_small_960h.pt \
+    --w2v-path /home/joregan/.ljs/model/wav2vec_small.pt \
     --labels ltr \
     --apply-mask \
     --mask-selection static \
