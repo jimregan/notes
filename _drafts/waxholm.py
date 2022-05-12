@@ -129,7 +129,7 @@ class WaxholmDataset(datasets.GeneratorBasedBuilder):
 
 
 def fix_text(text: str) -> str:
-    replacements = text.maketrans("{}|\\", "äåöÖ")
+    replacements = text.maketrans("{}|\\[]", "äåöÖÄÅ")
     return text.translate(replacements)
 
 
