@@ -301,3 +301,601 @@ https://ai.googleblog.com/2019/08/project-euphonias-personalized-speech.html
 2203.00236.pdf
 https://arxiv.org/pdf/2203.00236.pdf
 
+ASR Language Modeling — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/asr_language_modeling.html
+
+NeMo/transformer_lm.py at stable · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/stable/examples/nlp/language_modeling/transformer_lm.py
+
+ASR_CTC_Language_Finetuning.ipynb - Colaboratory
+https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/ASR_CTC_Language_Finetuning.ipynb
+
+EveryonePrint - My Print Jobs
+https://kth-print.ug.kth.se/index.cfm
+
+Reducing over-smoothness in HMM-based speech synthesis using exemplar-based voice conversion | EURASIP Journal on Audio, Speech, and Music Processing | Full Text
+https://asmp-eurasipjournals.springeropen.com/articles/10.1186/s13636-017-0113-5
+
+Neural HMMs are all you need (for high-quality attention-free TTS)
+https://people.kth.se/~ghe/pubs/pdf/mehta2021neural.pdf
+
+Parallel Hidden Markov Model
+https://firebb.github.io/parahmm/
+
+chuan/chmm: CUDA implementation of hidden Markov model training and classification
+https://github.com/chuan/chmm
+
+www.pnas.org
+https://www.pnas.org/doi/10.1073/pnas.1907373117
+
+Debian -- Detaljer för paketet hunspell-sv-se i sid
+https://packages.debian.org/sv/sid/hunspell-sv-se
+
+2022-04-26-pyphen-sv.ipynb - Colaboratory
+https://colab.research.google.com/drive/1TCqhZ4eppRSTHLWJ8iPGlx8s1iMQD_0Q#scrollTo=97II0HSI0QBS
+
+Pyphen - Hyphenation in pure Python
+https://pyphen.org/
+
+Wiktionary:Välkommen - Wiktionary
+https://sv.wiktionary.org/wiki/Wiktionary:V%C3%A4lkommen
+
+jimregan/notes
+https://github.com/jimregan/notes
+
+notes | Things I know I’ll forget
+https://jimregan.github.io/notes/
+
+Hyphenisation with pyphen | notes
+https://jimregan.github.io/notes/pyphen/hyphenisation/snippet/2022/04/26/pyphen-sv.html
+
+latextemplates/generator-latex-template: Generates latextemplates (e.g., for thesis, workshops, conferences, IEEEtran, LNCS, ...)
+https://github.com/latextemplates/generator-latex-template
+
+ACM Primary Article Template
+https://www.acm.org/publications/proceedings-template
+
+Insert Your Title Here
+https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout.pdf
+
+KTH/waxholm · Datasets at Hugging Face
+https://huggingface.co/datasets/KTH/waxholm
+
+nst.py · KTH/nst at main
+https://huggingface.co/datasets/KTH/nst/blob/main/nst.py
+
+pipeline.py · templates/automatic-speech-recognition at main
+https://huggingface.co/templates/automatic-speech-recognition/blob/main/pipeline.py
+
+datasets/automatic_speech_recognition.py at master · huggingface/datasets
+https://github.com/huggingface/datasets/blob/master/src/datasets/tasks/automatic_speech_recognition.py
+
+datasets/audio.py at 7a1638970c826b98d75a2c5f4f605d3342ee44cb · huggingface/datasets
+https://github.com/huggingface/datasets/blob/7a1638970c826b98d75a2c5f4f605d3342ee44cb/src/datasets/features/audio.py#L19
+
+Process audio data
+https://huggingface.co/docs/datasets/audio_process
+
+Create Audio feature by albertvillanova · Pull Request #2324 · huggingface/datasets
+https://github.com/huggingface/datasets/pull/2324
+
+Create Audio feature by albertvillanova · Pull Request #2324 · huggingface/datasets
+https://github.com/huggingface/datasets/pull/2324#pullrequestreview-768864998
+
+huggingface datasets read file from git repository - Google Search
+https://www.google.com/search?q=huggingface+datasets+read+file+from+git+repository&rlz=1C5GCEM_enSE990SE991&oq=huggingface+datasets+read+file+from+git+repository&aqs=chrome..69i57j69i60.12641j0j4&sourceid=chrome&ie=UTF-8
+
+Loading a Dataset — datasets 1.2.1 documentation
+https://huggingface.co/docs/datasets/v1.2.1/loading_datasets.html#loading-from-local-files
+
+Create a dataset loading script
+https://huggingface.co/docs/datasets/dataset_script
+
+[Audio datasets] Adapting all audio datasets by patrickvonplaten · Pull Request #3081 · huggingface/datasets
+https://github.com/huggingface/datasets/pull/3081/files#diff-69df7e1171f1a9dba2959a09a6a60f8eb93eb22640d9d4f40145c1d5208d216a
+
+huggingface datasets load file from repo - Google Search
+https://www.google.com/search?q=huggingface+datasets+load+file+from+repo&rlz=1C5GCEM_enSE990SE991&oq=huggingface+datasets+load+file+from+repo&aqs=chrome..69i57j33i160l3.6690j0j7&sourceid=chrome&ie=UTF-8
+
+Loading methods
+https://huggingface.co/docs/datasets/package_reference/loading_methods
+
+datasets.utils.download_manager — datasets 1.1.1 documentation
+https://huggingface.co/docs/datasets/v1.1.1/_modules/datasets/utils/download_manager.html
+
+Writing a dataset loading script — datasets 1.4.0 documentation
+https://huggingface.co/docs/datasets/v1.4.0/add_dataset.html
+
+huggingface datasets "local path" - Google Search
+https://www.google.com/search?q=huggingface+datasets+%22local+path%22&rlz=1C5GCEM_enSE990SE991&sxsrf=APq-WBuwT7np5zUUDiMs6MR1gi-iEW9vXg%3A1650979314860&ei=8vFnYp2JNOPJrgTWibC4DA&ved=0ahUKEwidyt-c6bH3AhXjpIsKHdYEDMcQ4dUDCA4&uact=5&oq=huggingface+datasets+%22local+path%22&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAE6BwgAEEcQsAM6BAgjECc6BQgAEIAEOgQIIRAVOggIIRAWEB0QHjoHCCEQChCgAUoECEEYAEoECEYYAEoECEcYA0oECEcYA1DgAli0JGCQJmgGcAF4AIABggGIAeAKkgEEMTUuMpgBAKABAcgBCMABAQ&sclient=gws-wiz-serp
+
+Writing a dataset loading script — datasets 1.0.0 documentation
+https://huggingface.co/docs/datasets/v1.0.0/add_dataset.html
+
+Writing a dataset loading script — nlp 0.4.0 documentation
+https://huggingface.co/docs/datasets/v0.3.0/add_dataset.html
+
+Python | os.path.exists() method - GeeksforGeeks
+https://www.geeksforgeeks.org/python-os-path-exists-method/#:~:text=exists()%20method%20in%20Python,open%20file%20descriptor%20or%20not.
+
+python soundfile to bytes array - Google Search
+https://www.google.com/search?q=python+soundfile+to+bytes+array&rlz=1C5GCEM_enSE990SE991&sxsrf=APq-WBuwjv7KCNFyd4ZBz3vXKjmzMyhR_A%3A1650981274712&ei=mvlnYtaTK4T1rgT84rnwCA&oq=python+soundfile+to+bytes+a&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgUIIRCgATIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAEyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeMggIIRAWEB0QHjoHCAAQRxCwA0oECEEYAEoECEYYAFCQB1ieDGDwFGgBcAF4AIABdYgBzAGSAQMxLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp
+
+HuBERT: Speech representations for recognition & generation
+https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/
+
+HuBERT: How to Apply BERT to Speech, Visually Explained | Jonathan Bgn
+https://jonathanbgn.com/2021/10/30/hubert-visually-explained.html
+
+textless NLP project
+https://speechbot.github.io/?fbclid=IwAR053s1Spqjn6UdKRO9g5qxjVHZRLn_R3Dt2iVXr8-8qKiBqyprizer_YMI
+
+2202.07359.pdf
+https://arxiv.org/pdf/2202.07359.pdf
+
+facebookresearch/textlesslib: Library for Textless Spoken Language Processing
+https://github.com/facebookresearch/textlesslib/
+
+textlesslib/train.py at main · facebookresearch/textlesslib
+https://github.com/facebookresearch/textlesslib/blob/main/examples/speaker_probing/train.py
+
+textlesslib/examples/gslm at main · facebookresearch/textlesslib
+https://github.com/facebookresearch/textlesslib/tree/main/examples/gslm
+
+fairseq/examples/textless_nlp/gslm/ulm at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp/gslm/ulm
+
+textlesslib/resynth.py at main · facebookresearch/textlesslib
+https://github.com/facebookresearch/textlesslib/blob/main/examples/resynthesis/resynth.py
+
+The LJ Speech Dataset
+https://keithito.com/LJ-Speech-Dataset/
+
+Dialogue speech modeling and generation
+https://speechbot.github.io/dgslm/index.html
+
+New Tab
+chrome://newtab/
+
+Dutch East India Company - Wikipedia
+https://en.wikipedia.org/wiki/Dutch_East_India_Company
+
+docker jupyter notebook - Google Search
+https://www.google.com/search?q=docker+jupyter+notebook&rlz=1C5GCEM_enSE990SE991&sxsrf=APq-WBtk9zwcAEbpBcZFbtMsHHxS8YWxDQ:1651072436861&ei=tF1pYvCeNOOMrgSCn7vQBQ&start=10&sa=N&ved=2ahUKEwjwyOOQxLT3AhVjhosKHYLPDloQ8NMDegQIARBK&biw=1440&bih=732&dpr=2
+
+Running a notebook server — Jupyter Notebook 6.4.11 documentation
+https://jupyter-notebook.readthedocs.io/en/stable/public_server.html
+
+Project Jupyter | Home
+https://jupyter.org/
+
+Project Jupyter | Installing Jupyter
+https://jupyter.org/install
+
+nbviewer
+https://nbviewer.org/
+
+Table of contents — voila 0.3.5 documentation
+https://voila.readthedocs.io/en/stable/
+
+Project Jupyter | The Binder Project
+https://jupyter.org/binder
+
+jupyterhub/binderhub: Run your code in the cloud, with technology so advanced, it feels like magic!
+https://github.com/jupyterhub/binderhub
+
+BinderHub — BinderHub 0.1.0 documentation
+https://binderhub.readthedocs.io/en/latest/
+
+gustavo-beck (Gustavo Teodoro Döhler Beck) / Repositories
+https://github.com/gustavo-beck?tab=repositories
+
+gustavo-beck/FixMatch-Exploration: Final project of the KTH DD2412 - Deep Learning, Advanced course.
+https://github.com/gustavo-beck/FixMatch-Exploration
+
+Join SJ Prio for free and receive 1 000 free welcome points – SJ
+https://www.sj.se/en/create-account.html
+
+Swedish personal identity number: easy as pie - Study in Sweden
+https://studyinsweden.se/blogs/2021/06/17/swedish-personal-identity-number-easy-as-pie/
+
+Personal identity numbers and coordination numbers | Skatteverket
+https://www.skatteverket.se/servicelankar/otherlanguages/inenglish/individualsandemployees/livinginsweden/personalidentitynumberandcoordinationnumber.4.2cf1b5cd163796a5c8b4295.html
+
+Swedish History - Hans Högman
+http://www.hhogman.se/personal-identity-numbers.htm
+
+Swedish personal identification number | KTH
+https://www.kth.se/en/student/stodkontakt/stod/new-in-sweden/swedish-personal-identification-number-1.443883
+
+Köp resa och se tågtider på sj.se
+https://www.sj.se/#/
+
+accounts.google.com
+https://accounts.google.com/_/back?backstep=1
+
+Common Voice
+https://commonvoice.mozilla.org/en/datasets?utm_source=email&utm_medium=email&utm_campaign=2022commonvoice-en&utm_content=CommonVoice9Release
+
+Train tickets in Sweden, to Oslo and Copenhagen - SJ
+https://www.sj.se/en/home.html#/
+
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2022-04-29
+
+ffn-values/wikilm-earlyexit-baselines.ipynb at main · aviclu/ffn-values
+https://github.com/aviclu/ffn-values/blob/main/early_exit/wikilm-earlyexit-baselines.ipynb
+
+Launch Meeting - Zoom
+https://kth-se.zoom.us/j/61723025399#success
+
+zabir-nabil/eeg-rsenet: Motor Imagery EEG Signal Classification Using Random Subspace Ensemble Network
+https://github.com/zabir-nabil/eeg-rsenet
+
+(PDF) Classification of Motor Imagery EEG Signals with multi-input Convolutional Neural Network by augmenting STFT
+https://www.researchgate.net/publication/335241301_Classification_of_Motor_Imagery_EEG_Signals_with_multi-input_Convolutional_Neural_Network_by_augmenting_STFT
+
+Python getattr()
+https://www.programiz.com/python-programming/methods/built-in/getattr
+
+datasets/audio.py at master · huggingface/datasets
+https://github.com/huggingface/datasets/blob/master/src/datasets/features/audio.py
+
+SoundFile — PySoundFile 0.10.3post1-1-g0394588 documentation
+https://pysoundfile.readthedocs.io/en/latest/
+
+4. More Control Flow Tools — Python 3.10.4 documentation
+https://docs.python.org/3/tutorial/controlflow.html
+
+Panel Shows
+https://www.reddit.com/r/panelshows/
+
+Have I Got a Bit More News for You S63E05 | Jo Brand, Susie McCabe and Camilla Long : panelshows
+https://www.reddit.com/r/panelshows/comments/ufpvco/have_i_got_a_bit_more_news_for_you_s63e05_jo/
+
+(945) Have I Got a Bit More News for You S63 E5. Jo Brand - YouTube
+https://www.youtube.com/watch?v=U5mf7GkIvkU
+
+Taskmaster S13E3 - I Think I've Got This : panelshows
+https://www.reddit.com/r/panelshows/comments/ue5b7k/taskmaster_s13e3_i_think_ive_got_this/
+
+The Unbelievable Truth S28E04 - Lucy Porter, Holly Walsh, Tony Hawks, Alan Davies : panelshows
+https://www.reddit.com/r/panelshows/comments/ubx4ab/the_unbelievable_truth_s28e04_lucy_porter_holly/
+
+Kongen Befaler S05 E09 (Taskmaster Norway w/ English subs) : panelshows
+https://www.reddit.com/r/panelshows/comments/ufkb1a/kongen_befaler_s05_e09_taskmaster_norway_w/
+
+taskmaster - panelshow
+https://www.reddit.com/r/panelshow/wiki/taskmaster#wiki_series_05
+
+PSST-challenge - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/623af0dfcc31eca993e4b56d
+
+results.pdf
+file:///Users/joregan/Downloads/results.pdf
+
+www.office.com
+https://www.office.com/mycontent?auth=2
+
+Fonetik 2022 paper template.dotx
+https://kth-my.sharepoint.com/:w:/r/personal/joregan_ug_kth_se/_layouts/15/Doc.aspx?sourcedoc=%7B80C3D4D9-2116-48FD-8D72-4429B314C4D5%7D&file=Fonetik%202022%20paper%20template.dotx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1651437604618&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=edbe33dc-c4c7-4f4e-95a2-15d41b7dd2dd
+
+2112.05253.pdf
+https://arxiv.org/pdf/2112.05253.pdf
+
+APA - Line Spacing Fix? - Zotero Forums
+https://forums.zotero.org/discussion/14377/apa-line-spacing-fix
+
+(970) Have I Got a Bit More News for You S63 E5. Jo Brand - YouTube
+https://www.youtube.com/watch?v=U5mf7GkIvkU
+
+Launch Meeting - Zoom
+https://tcd-ie.zoom.us/j/93187986783?pwd=WWh1TXZxbjdxcWgrTjlUdVlSdk5kUT09#success
+
+(941) Master Wong - YouTube
+https://www.youtube.com/c/masterwongsystem/videos
+
+(960) How to counter the hook | Self defence - YouTube
+https://www.youtube.com/watch?v=x5b9bnwHefY
+
+New Tab
+chrome://newtab/
+
+(941) How modern search engines work – Vector databases explained! | Weaviate open-source - YouTube
+https://www.youtube.com/watch?v=YkK5IKgxp-c
+
+(946) Alex Horne Interviews Judi Love with a Task | Taskmaster - YouTube
+https://www.youtube.com/watch?v=WEDwD550vQk
+
+(946) Most Famous Violin Pieces Ranked from Easiest to Hardest - YouTube
+https://www.youtube.com/watch?v=ASujZrWqhbY
+
+How to find all solutions to the SUBSET-SUM problem | by Trevor Phillips | Towards Data Science
+https://towardsdatascience.com/how-to-find-all-solutions-to-the-subset-sum-problem-597f77677e45
+
+subsetsum · PyPI
+https://pypi.org/project/subsetsum/
+
+subsetsum/subsetsum.cpp at main · trevphil/subsetsum
+https://github.com/trevphil/subsetsum/blob/main/src/subsetsum.cpp
+
+audiowaves/subsetsum: JavaScript solution for subset sum problem
+https://github.com/audiowaves/subsetsum
+
+Approximate Subset Sum
+https://gist.github.com/jperras/64c210b6db8a4806506c
+
+86117 seconds in hours - Google Search
+https://www.google.com/search?q=86117+seconds+in+hours&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsbwTI_nU5TlDxIituEmfnAWBgobgA%3A1651531081716&ei=SV1wYuqkK6_3qwG7gaywDg&ved=0ahUKEwiq7dfb8MH3AhWv-yoKHbsAC-YQ4dUDCA4&uact=5&oq=86117+seconds+in+hours&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzoKCCMQrgIQsAMQJzoECCMQJzoECCEQCkoECEEYAUoECEYYAFDOAlj2DmCYEGgCcAB4AIABlgGIAaMGkgEDNi4zmAEAoAEByAEBwAEB&sclient=gws-wiz-serp
+
+fairseq/examples/wav2vec at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples/wav2vec
+
+fairseq/README.md at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/main/examples/speech_to_speech/README.md
+
+fairseq/README.md at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/main/examples/discriminative_reranking_nmt/README.md
+
+emerging-trends-a-gentle-introduction-to-fine-tuning.pdf
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C31D429D0928351D6A6692F8ECD1E7ED/S1351324921000322a.pdf/emerging-trends-a-gentle-introduction-to-fine-tuning.pdf
+
+(1) No decrease of wer when fine tuning wav2vec 2.0 · Issue #2685 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2685
+
+How to save w2v_args during Wav2Vec 2.0 finetuning to model checkpoints? · Issue #3784 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/3784
+
+Thomas_Kolb___1027332___Fine-tuning_Wav2vec2.0_on_caption_data.pdf
+https://www.cs.ru.nl/bachelors-theses/2022/Thomas_Kolb___1027332___Fine-tuning_Wav2vec2.0_on_caption_data.pdf
+
+fine-tuning-w2v2/code/bash at main · Thomaskolb/fine-tuning-w2v2
+https://github.com/Thomaskolb/fine-tuning-w2v2/tree/main/code/bash
+
+deepnet_examples/fine-tuning/examples/HuggingFaceHub at main · kwchurch/deepnet_examples
+https://github.com/kwchurch/deepnet_examples/tree/main/fine-tuning/examples/HuggingFaceHub
+
+Thomaskolb/fine-tuning-w2v2: Code + results of bsc thesis made during the first semester of academic year 2021-2022
+https://github.com/Thomaskolb/fine-tuning-w2v2
+
+jimregan/notes
+https://github.com/jimregan/notes
+
+notes | Things I know I’ll forget
+https://jimregan.github.io/notes/
+
+Fix LJSpeech text | notes
+https://jimregan.github.io/notes/ljspeech/2022/05/02/fix-ljspeech.html
+
+jimregan/notes
+https://github.com/jimregan/notes
+
+psstbaseline/step_1b_train_fairseq_model.py at main · PSST-Challenge/psstbaseline
+https://github.com/PSST-Challenge/psstbaseline/blob/main/step_1b_train_fairseq_model.py
+
+Search · restore_file
+https://github.com/pytorch/fairseq/search?l=Python&q=restore_file
+
+fairseq/checkpoint_utils.py at 355ffbe4e2d0a8169287eb63a8218d2dea8be086 · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/355ffbe4e2d0a8169287eb63a8218d2dea8be086/fairseq/checkpoint_utils.py
+
+fairseq/configs.py at ab98e94046b451f0da0d3ee2dc4ad9f661018a24 · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/ab98e94046b451f0da0d3ee2dc4ad9f661018a24/fairseq/dataclass/configs.py
+
+fairseq/examples/wav2vec at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples/wav2vec
+
+wav2vec2.0 issue with decoding finetuned checkpoint · Issue #2803 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2803
+
+Using Pretrained Model to Finetune Librispeech gives an error. · Issue #2887 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2887
+
+train.py checkpoint args are None · Issue #2799 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2799
+
+Cannot load model parameters from checkpoint, please ensure that the architectures match · Issue #307 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/307
+
+fairseq/examples/wav2vec at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples/wav2vec
+
+VOA - Voice of America English News
+https://www.voanews.com/
+
+VOA Pronunciation Guide
+https://pronounce.voanews.com/
+
+Privacy Notice - Voice of America (VOA News)
+https://www.voanews.com/p/5338.html
+
+White House Celebrates Eid al-Fitr
+https://www.voanews.com/a/white-house-to-celebrate-eid-al-fitr/6553355.html
+
+Sites by region
+https://www.voanews.com/navigation/allsites
+
+Voice of America - Learn American English with VOA Learning English
+https://learningenglish.voanews.com/
+
+Press Freedom - Voice of America (VOA News)
+https://www.voanews.com/p/7061.html
+
+Wikisource, the free library
+https://en.wikisource.org/wiki/Main_Page
+
+Category:21st century works - Wikisource, the free online library
+https://en.wikisource.org/wiki/Category:21st_century_works
+
+Category:2001 works - Wikisource, the free online library
+https://en.wikisource.org/wiki/Category:2001_works
+
+Category:Author-CC-Zero - Wikisource, the free online library
+https://en.wikisource.org/wiki/Category:Author-CC-Zero
+
+Katherine Maher - Wikisource, the free online library
+https://en.wikisource.org/wiki/Author:Katherine_Maher
+
+Peter John Bolton - Wikisource, the free online library
+https://en.wikisource.org/wiki/Author:Peter_John_Bolton
+
+The Wikipedia Library
+https://wikipedialibrary.wmflabs.org/?markasread=2806279&markasreadwiki=enwikisource
+
+Category:PD-US-no-renewal - Wikisource, the free online library
+https://en.wikisource.org/wiki/Category:PD-US-no-renewal
+
+Analog Science Fiction and Fact - Wikisource, the free online library
+https://en.wikisource.org/wiki/Analog_Science_Fiction_and_Fact
+
+2111.10003.pdf
+https://arxiv.org/pdf/2111.10003.pdf
+
+ddsp/Train_VST.ipynb at main · magenta/ddsp
+https://github.com/magenta/ddsp/blob/main/ddsp/colab/demos/Train_VST.ipynb
+
+Leveraging Pre-trained Language Model Checkpoints for Encoder-Decoder Models
+https://huggingface.co/blog/warm-starting-encoder-decoder
+
+pympi/example2.py at master · dopefishh/pympi
+https://github.com/dopefishh/pympi/blob/master/examples/example2.py
+
+dopefishh/pympi: A python module for processing ELAN and Praat annotation files
+https://github.com/dopefishh/pympi
+
+jiaaro/pydub: Manipulate audio with a simple and easy high level interface
+https://github.com/jiaaro/pydub
+
+audiosegment module — AudioSegment documentation
+https://audiosegment.readthedocs.io/en/latest/audiosegment.html
+
+facebookresearch/voxpopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation
+https://github.com/facebookresearch/voxpopuli
+
+LREC 2022 - Registration
+https://lrec2022.lrec-conf.org/en/registration/
+
+LREC 2022 - Registration Fees (in person)
+https://lrec2022.lrec-conf.org/en/registration/registration-fees-in-person/
+
+Convert Waxholm to wav | Kaggle
+https://www.kaggle.com/code/jimregan/convert-waxholm-to-wav
+
+Create ljspeech splits | Kaggle
+https://www.kaggle.com/code/jimregan/create-ljspeech-splits/data
+
+pytorch/fairseq: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+https://github.com/pytorch/fairseq
+
+Search · restore_file
+https://github.com/pytorch/fairseq/search?q=restore_file
+
+run fairseq | Kaggle
+https://www.kaggle.com/jimregan/run-fairseq/edit
+
+run fairseq | Kaggle
+https://www.kaggle.com/code/jimregan/run-fairseq/edit/run/94783585
+
+run fairseq | Kaggle
+https://www.kaggle.com/code/jimregan/run-fairseq/notebook?scriptVersionId=94784226
+
+run fairseq | Kaggle
+https://www.kaggle.com/code/jimregan/run-fairseq/edit/run/94783764
+
+jimregan/notes
+https://github.com/jimregan/notes
+
+Interesting links, 02/05/2022 | notes
+https://jimregan.github.io/notes/links/2022/05/02/misc-links.html
+
+convert wav2vec2 asr to hydra (#1444) · pytorch/fairseq@6d2cf0d
+https://github.com/pytorch/fairseq/commit/6d2cf0ddf64040543c346b3866eb636d14522dde
+
+fairseq/README.md at 6d2cf0ddf64040543c346b3866eb636d14522dde · pytorch/fairseq
+https://github.com/pytorch/fairseq/blob/6d2cf0ddf64040543c346b3866eb636d14522dde/examples/wav2vec/README.md
+
+History for examples/wav2vec - pytorch/fairseq
+https://github.com/pytorch/fairseq/commits/main?after=51478ad3a19feed51d4bc4df5416870b7cee5347+34&branch=main&path%5B%5D=examples&path%5B%5D=wav2vec&qualified_name=refs%2Fheads%2Fmain
+
+Add fairseq-hydra-train and update docs (#1449) · pytorch/fairseq@3b77a61
+https://github.com/pytorch/fairseq/commit/3b77a6160097408e01883c69e6f8fed017266311
+
+Error when try to run distributed training · Issue #1209 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/1209
+
+vakyansh-wav2vec2-experimentation/start_finetuning.sh at main · Open-Speech-EkStep/vakyansh-wav2vec2-experimentation
+https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/blob/main/scripts/finetuning/start_finetuning.sh
+
+size mismatch for w2v_encoder while loading pretrained model(wav2vec2.0) · Issue #2539 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2539
+
+How to Finetune fairser M2M 100 Model for a Language ? · Issue #3233 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/3233
+
+size mismatch for w2v_encoder.proj.bias - Google Search
+https://www.google.com/search?q=size+mismatch+for+w2v_encoder.proj.bias&rlz=1C5GCEM_enSE990SE991&oq=size+mismatch+for+w2v_encoder.proj.bias&aqs=chrome..69i57.424j0j7&sourceid=chrome&ie=UTF-8
+
+size mismatch for w2v_encoder while loading pretrained model(wav2vec2.0) · Issue #2539 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2539
+
+Error(s) in loading state_dict for Wav2VecModel: · Issue #2725 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/2725
+
+Wav2Vec2ForCTC.from_pretrained for already trained Models? - Beginners - Hugging Face Forums
+https://discuss.huggingface.co/t/wav2vec2forctc-from-pretrained-for-already-trained-models/5716
+
+sampa_latex_se.pdf
+https://huggingface.co/datasets/KTH/waxholm/resolve/main/sampa_latex_se.pdf
+
+Spoken dialogue data collected in the Waxholm project
+https://huggingface.co/datasets/KTH/waxholm/resolve/main/waxqpsr5.pdf
+
+qpsr231993waxholm.pdf
+https://www.speech.kth.se/ctt/publications/papers/qpsr231993waxholm.pdf
+
+etrwsys.pdf
+https://www.speech.kth.se/ctt/publications/papers/etrwsys.pdf
+
+Training Hidden Markov Models. The Baum-Welch and Forward-Backward… | by Field Cady | Towards Data Science
+https://towardsdatascience.com/training-hidden-markov-models-831c1bdec27d
+
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2022-05-05
+
+TIMIT Acoustic-Phonetic Continuous Speech Corpus - Linguistic Data Consortium
+https://catalog.ldc.upenn.edu/LDC93s1
+
+wav2vec_small_960h - Google Search
+https://www.google.com/search?q=wav2vec_small_960h&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsZxOnzinIuf5CHOvXhosRo47DVHaA%3A1651756161083&ei=gMxzYp_jO_WQxc8Pkayq2AY&ved=0ahUKEwifo-yZt8j3AhV1SPEDHRGWCmsQ4dUDCA4&uact=5&oq=wav2vec_small_960h&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIECCMQJzoHCCMQsAMQJzoHCAAQRxCwA0oECEEYAEoECEYYAFDECFjECGD1CmgBcAF4AIABQogBQpIBATGYAQCgAQHIAQnAAQE&sclient=gws-wiz-serp
+
+tommy19970714/wav2vec2-base-960h · Hugging Face
+https://huggingface.co/tommy19970714/wav2vec2-base-960h
+
+[Wav2Vec2] Community: How to run Wav2Vec2 for inference · Issue #3155 · pytorch/fairseq
+https://github.com/pytorch/fairseq/issues/3155
+
+WER for wav2vec2 small 960 on ljspeech | Kaggle
+https://www.kaggle.com/jimregan/wer-for-wav2vec2-small-960-on-ljspeech/edit
+
+WER for wav2vec2 small 960 on ljspeech | Kaggle
+https://www.kaggle.com/code/jimregan/wer-for-wav2vec2-small-960-on-ljspeech?scriptVersionId=94836139
+
+Load
+https://huggingface.co/docs/datasets/loading
+
+Convert Waxholm to wav | notes
+https://jimregan.github.io/notes/kaggle/waxholm/2022/05/04/convert-waxholm-to-wav.html
+
+fairseq/examples/translation at main · pytorch/fairseq
+https://github.com/pytorch/fairseq/tree/main/examples/translation#iwslt14-german-to-english-transformer
+
+aubmindlab/bert-base-arabertv02 · Training metrics
+https://huggingface.co/aubmindlab/bert-base-arabertv02/tensorboard
+
+Command-line Tools — fairseq 1.0.0a0+0b54d9f documentation
+https://fairseq.readthedocs.io/en/latest/command_line_tools.html
+
+command - ZIP files with size limit - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/198982/zip-files-with-size-limit#:~:text=zip%20etc.%2C%20all%20independent%20of,package%20in%20all%20Linux%20distributions.
+
+
