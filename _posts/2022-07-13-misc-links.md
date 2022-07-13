@@ -11,6 +11,8 @@ categories: [links]
 
 [patrick-kidger/diffrax](https://github.com/patrick-kidger/diffrax) --- Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable.
 
+---
+
 [M-Adapter: Modality Adaptation for End-to-End Speech-to-Text Translation](https://arxiv.org/abs/2207.00952)
 
 ```bibtex
@@ -25,11 +27,16 @@ categories: [links]
 }
 ```
 
+---
+
 {% twitter https://twitter.com/MetaAI/status/1544670269469507585 %}
 [Code](https://github.com/facebookresearch/fairseq/tree/nllb) is open source, model [is not](https://github.com/facebookresearch/fairseq/blob/nllb/LICENSE.model.md)
 
+---
 
 [Trillson in transformers](https://github.com/huggingface/transformers/pull/17387)
+
+---
 
 [Emformer: Efficient Memory Transformer Based Acoustic Model for Low Latency Streaming Speech Recognition](https://ieeexplore.ieee.org/document/9414560)
 
@@ -45,8 +52,14 @@ categories: [links]
   doi={10.1109/ICASSP39728.2021.9414560}}
 ```
 
+---
+
 [lumaku/ctc-segmentation](https://github.com/lumaku/ctc-segmentation) --- Segment an audio file and obtain utterance alignments.
 
+---
+
 {% twitter https://mobile.twitter.com/NimaBoscarino/status/1535331680805801984 %}
+
+---
 
 
