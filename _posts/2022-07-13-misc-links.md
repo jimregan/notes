@@ -82,4 +82,34 @@ categories: [links]
 
 ---
 
+[Towards End-to-end Unsupervised Speech Recognition](https://arxiv.org/abs/2204.02492)
+
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2204.02492,
+  doi = {10.48550/ARXIV.2204.02492},
+  url = {https://arxiv.org/abs/2204.02492},
+  author = {Liu, Alexander H. and Hsu, Wei-Ning and Auli, Michael and Baevski, Alexei},
+  title = {Towards End-to-end Unsupervised Speech Recognition},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
+
+---
+
+[Unified Speech-Text Pre-training for Speech Translation and Recognition](https://arxiv.org/abs/2204.05409)
+
+```bibtex
+@misc{tang2022unified,
+      title={Unified Speech-Text Pre-training for Speech Translation and Recognition},
+      author={Yun Tang and Hongyu Gong and Ning Dong and Changhan Wang and Wei-Ning Hsu and Jiatao Gu and Alexei Baevski and Xian Li and Abdelrahman Mohamed and Michael Auli and Juan Pino},
+      year={2022},
+      eprint={2204.05409},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+---
 
