@@ -62,4 +62,24 @@ categories: [links]
 
 ---
 
+[How much data do you need for a good MFA alignment?](https://memcauliffe.com/how-much-data-do-you-need-for-a-good-mfa-alignment.html)
+
+> If you care only about alignments of the training data, 3-5 hours should be enough.
+> > Caveat: increasing the number of speakers/varieties in the training data will likely need more training data
+> > If you care about generating models for more widespread use, 8-10 should be enough for generalizing to the same variety
+> The more speakers the better, but also more speakers should need more data
+> > I usually recommend about 20 hours for a decently performant model
+
+---
+
+[google-research/t5x](https://github.com/google-research/t5x) --- essentially a new and improved implementation of the T5 codebase (based on Mesh TensorFlow) in JAX and Flax.
+
+[google/seqio](https://github.com/google/seqio) --- Task-based datasets, preprocessing, and evaluation for sequence models.
+
+---
+
+[r/weirddalle](https://www.reddit.com/r/weirddalle/)
+
+---
+
 
