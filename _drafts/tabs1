@@ -55,42 +55,6 @@ https://huggingface.co/docs/transformers/model_doc/speech_to_text_2
 Making automatic speech recognition work on large files with Wav2Vec2 in 🤗 Transformers
 https://huggingface.co/blog/asr-chunking
 
-jusato (jusato) · GitHub
-https://github.com/jusato
-
-323_Paper.pdf
-https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/323/323_Paper.pdf
-
-tatianapassali (Passali Tatiana) · GitHub
-https://github.com/tatianapassali
-
-Hi, I’m Dr. Yanjun Gao (高艳珺). - Yanjun Gao
-https://serenayj.github.io/
-
-1041_Paper.pdf
-https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/1041/1041_Paper.pdf
-
-687_Paper.pdf
-https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/687/687_Paper.pdf
-
-dppsi.pdf
-https://cs.slu.edu/~scannell/pub/dppsi.pdf
-
-UD_Irish-Cadhan/ga_cadhan-ud-test.conllu at dev · UniversalDependencies/UD_Irish-Cadhan · GitHub
-https://github.com/UniversalDependencies/UD_Irish-Cadhan/blob/dev/ga_cadhan-ud-test.conllu
-
-GitHub - kscanne/gbb: Sonraí traenála/tástála NLP
-https://github.com/kscanne/gbb
-
-gesticulator/features2bvh.py at master · Svito-zar/gesticulator · GitHub
-https://github.com/Svito-zar/gesticulator/blob/master/gesticulator/data_processing/features2bvh.py
-
-GitHub - probabilisticai/probai-2022: Materials of the Nordic Probabilistic AI School 2022.
-https://github.com/probabilisticai/probai-2022
-
-(1268) Probabilistic AI - YouTube
-https://www.youtube.com/channel/UCcMwNzhpePJE3xzOP_3pqsw/videos
-
 GitHub - adapter-hub/adapter-transformers: Huggingface Transformers + Adapters = ❤️
 https://github.com/adapter-hub/adapter-transformers
 
@@ -105,12 +69,6 @@ https://github.com/guillefix/transflower-lightning
 
 [2106.13871] Transflower: probabilistic autoregressive dance generation with multimodal attention
 https://arxiv.org/abs/2106.13871
-
-(1266) Transflower: Probabilistic autoregressive dance generation with multimodal attention - YouTube
-https://www.youtube.com/watch?v=uBnCePehA-Y
-
-GitHub - MetaGenAI/multimodal-transflower: multimodal probabilistic autoregressive models
-https://github.com/MetaGenAI/multimodal-transflower
 
 GitHub - guillefix/transflower-lightning: multimodal transformer
 https://github.com/guillefix/transflower-lightning
@@ -142,10 +100,7 @@ https://ivory-tiger-5be.notion.site/Model-training-T5-Speech-af1553dd18814396864
 Speech T5 Swedish - Colaboratory
 https://colab.research.google.com/drive/1vqg91NDM4397rPzydYDLlFdugfNjfJLF?usp=sharing#scrollTo=2FsqEMt5j69L
 
-importerror cannot import name 'metrics' from 'fairseq' (unknown location) - Google Search
-https://www.google.com/search?q=importerror+cannot+import+name+%27metrics%27+from+%27fairseq%27+(unknown+location)&rlz=1C5GCEM_enSE990SE991&oq=cannot+import+metrics+from+fairseq&aqs=chrome.1.69i57j0i22i30.6726j0j4&sourceid=chrome&ie=UTF-8
-
-Installing Fairseq from source on Colab fails ( ImportError: cannot import name <> from 'fairseq' (unknown location) · Issue #4121 · facebookresearch/fairseq
+Installing Fairseq from source on Colab fails ( ImportError: cannot import name <> from 'fairseq' (unknown location) · Issue #4121 · facebookresearch/fairseq · GitHub
 https://github.com/facebookresearch/fairseq/issues/4121
 
 Home / Twitter
@@ -268,25 +223,7 @@ https://github.com/huggingface/transformers/commit/fe785730dcbf3390aa07f667e8d3c
 audio/emformer.py at main · pytorch/audio
 https://github.com/pytorch/audio/blob/main/torchaudio/models/emformer.py
 
-Nic śmiesznego – Wikipedia, wolna encyklopedia
-https://pl.wikipedia.org/wiki/Nic_%C5%9Bmiesznego
-
-Małgorzata Werner - FDB
-https://fdb.pl/osoba/26723-malgorzata-werner
-
-Małgorzata Werner nic smiesznego - Google Search
-https://www.google.com/imgres?imgurl=https%3A%2F%2Focdn.eu%2Fpulscms-transforms%2F1%2F6T6k9kpTURBXy9jOTYwNzEwZGFjZTRmNzY1MTljODFkNTg0ZjU3YTMxOS5qcGeTlQMAAM0CwM0BjJMFzQEEzICTBc0BBMyAgqEwAaExAQ&imgrefurl=https%3A%2F%2Fwww.fakt.pl%2Fmalgorzata-werner&tbnid=MknYzIYMmAr1gM&vet=12ahUKEwjHvaCgrsT5AhVTHMAKHbg6AhIQMygcegUIARCXAQ..i&docid=pc6R8PZp1VIWBM&w=260&h=128&q=Ma%C5%82gorzata%20Werner%20nic%20smiesznego&ved=2ahUKEwjHvaCgrsT5AhVTHMAKHbg6AhIQMygcegUIARCXAQ
-
-Agnieszka Wagner – Wikipedia, wolna encyklopedia
-https://pl.wikipedia.org/wiki/Agnieszka_Wagner
-
-shivammehta007/Neural-HMM: Neural HMMs are all you need (for high-quality attention-free TTS)
-https://github.com/shivammehta007/Neural-HMM
-
-VILORUM - Translation in English - bab.la
-https://en.bab.la/dictionary/swedish-english/vilorum
-
-AlphaCephei on Twitter: "We published Tuda german model from https://t.co/4xPzWgW6fw https://t.co/7mdkimirTj it is big (4.4G) and slightly more accurate than Vosk on audiobooks and well covers CV test 9.48 (Tuda-de test), 25.82 (podcast) 4.97 (cv-test) 11.01 (mls) 35.20 (mtedx)" / Twitter
+(1) AlphaCephei on Twitter: "We published Tuda german model from https://t.co/4xPzWgW6fw https://t.co/7mdkimirTj it is big (4.4G) and slightly more accurate than Vosk on audiobooks and well covers CV test 9.48 (Tuda-de test), 25.82 (podcast) 4.97 (cv-test) 11.01 (mls) 35.20 (mtedx)" / Twitter
 https://twitter.com/alphacep/status/1557445857762578434?cxt=HBwWhMC8zbCwlJ0rAAAA&cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email
 
 https://alphacephei.com/vosk/models/vosk-model-de-tuda-0.6-900k.zip
@@ -304,32 +241,8 @@ https://www.faithcomesbyhearing.com/audio-bible-resources/recordings-database
 Mark 1 | Bible.is
 https://live.bible.is/bible/ABIWBT/MRK/1?audio_type=audio
 
-Speaker Diarization — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/asr/speaker_diarization/intro.html
-
 Models — NVIDIA NeMo
 https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/asr/speech_classification/models.html#marblenet-model
-
-Ponte da Arrábida w Porto - wspinaczka na most i jedyna taka panorama
-https://www.facetikuchnia.com.pl/ponte-da-arrabida-porto/
-
-Ticket-Voucher
-https://www.livrarialello.pt/en/store/ticket-voucher#ticketvoucher
-
-Spiritus Porto - Spiritus Tickets and Dates 2022
-https://spiritusporto.seetickets.com/tour/spiritus/list/1?startDate=27-08-2022&endDate=27-08-2022
-
-About | Spiritus
-https://www.spiritusporto.com/en/sobre
-
-GitHub - perfall/Edyson: Flask-based web framework for visualisation and explorative listening of audio.
-https://github.com/perfall/Edyson
-
-International Phonetic Alphabet - Wikipedia
-https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
-
-Graph Visualization Tools - Developer Guides
-https://neo4j.com/developer/tools-graph-visualization/
 
 TillTal – Making spoken cultural heritage accessible for research | KTH
 https://www.kth.se/is/tmh/speech-communication/tilltal-making-spoken-cultural-heritage-accessible-for-research-1.694166
@@ -385,6 +298,9 @@ https://arxiv.org/pdf/2203.15614.pdf
 python/k2-fsa/snowfall/egs/gigaspeech/asr/simple_v1/mmi_att_transformer_decode.py Example
 https://programtalk.com/vs4/python/k2-fsa/snowfall/egs/gigaspeech/asr/simple_v1/mmi_att_transformer_decode.py/
 
+TMH PhD monthly meeting - Google Docs
+https://docs.google.com/document/d/1xidX3k8pZT3r5ZWE7Syo5dVDxlQfht4F0e9RHFuru14/edit#heading=h.htl1rshgtjm6
+
 LITHME
 https://lithme.eu/
 
@@ -410,7 +326,7 @@ Emotional Abuse: What It Is and Signs to Watch For
 https://www.healthline.com/health/signs-of-mental-abuse
 
 TMH Monday lunch meeting protocols Apr 2019– - Google Docs
-https://docs.google.com/document/d/1R53CwfrIrSiXrgLc0s7m-DZHrz9OPYp-V_c-ve97l0w/edit#
+https://docs.google.com/document/d/1R53CwfrIrSiXrgLc0s7m-DZHrz9OPYp-V_c-ve97l0w/edit#heading=h.evjd735v07i8
 
 CLARIN Annual Conference 2022 | CLARIN ERIC
 https://www.clarin.eu/event/2022/clarin-annual-conference-2022#registration
@@ -433,13 +349,202 @@ https://docs.google.com/document/d/1ueG2cFWSKaeP7QayN4T8nz9d-mK2vUG1vCX9pwTJlRw/
 riksdagen · GitHub Topics · GitHub
 https://github.com/topics/riksdagen
 
-parlaclarin xml - Google Search
-https://www.google.com/search?q=parlaclarin+xml&rlz=1C5GCEM_enSE990SE991&oq=parlaclarin+xml&aqs=chrome..69i57j33i160l4.3650j0j7&sourceid=chrome&ie=UTF-8
+parla-clarin/Examples at master · clarin-eric/parla-clarin · GitHub
+https://github.com/clarin-eric/parla-clarin/tree/master/Examples
+
+GitHub - clarin-eric/ParlaMint: ParlaMint: Comparable Parliamentary Corpora
+https://github.com/clarin-eric/ParlaMint
 
 CLARIN Annual Conference 2022 Registration
 https://docs.google.com/forms/u/0/d/e/1FAIpQLScDbIi4CEpOMnLGE4XccanyfXTjRM3_r4S5bYMMTZ5EufzInQ/formResponse
 
 OSF | MASC-MEG
 https://osf.io/ag3kj/
+
+Korean phonology - Wikipedia
+https://en.wikipedia.org/wiki/Korean_phonology#Tense
+
+The 14 Best Foods to Increase Blood Flow and Circulation
+https://www.healthline.com/nutrition/foods-that-increase-blood-flow#TOC_TITLE_HDR_2
+
+Split Command in Linux with Examples - GeeksforGeeks
+https://www.geeksforgeeks.org/split-command-in-linux-with-examples/
+
+Create a Python Web Server - Python Tutorial
+https://pythonbasics.org/webserver/
+
+Facebook Watch
+https://m.facebook.com/watch/?v=251114646412800&_rdr
+
+normal people text analysis - Google Search
+https://www.google.com/search?q=normal+people+text+analysis&rlz=1C5GCEM_enSE990SE991&oq=normal+people+text+analysis&aqs=chrome..69i57.5460j0j7&sourceid=chrome&ie=UTF-8
+
+Normal People Quotes and Analysis | GradeSaver
+https://www.gradesaver.com/normal-people/study-guide/quotes
+
+Normal People | Analysis
+https://www.studienet.dk/normal-people/analysis
+
+Sally Rooney’s 'Normal People' Review: Small Rebellions - The Atlantic
+https://www.theatlantic.com/entertainment/archive/2019/04/sally-rooneys-normal-people-review/586801/
+
+Normal People Analysis - eNotes.com
+https://www.enotes.com/topics/normal-people/analysis
+
+Summary and Review: Normal People by Sally Rooney - The Bibliofile
+https://the-bibliofile.com/normal-people/
+
+The Scholarship Symbol in Normal People | LitCharts
+https://www.litcharts.com/lit/normal-people/symbols/the-scholarship
+
+(1302) But what is the Fourier Transform? A visual introduction. - YouTube
+https://www.youtube.com/watch?v=spUNpyF58BY
+
+Instagram
+https://www.instagram.com/
+
+President of Ireland (@PresidentIRL) / Twitter
+https://twitter.com/PresidentIRL?ref_src=twsrc%5Etfw
+
+How to get an absolute file path in Python - Stack Overflow
+https://stackoverflow.com/questions/51520/how-to-get-an-absolute-file-path-in-python
+
+2209.03143.pdf
+https://arxiv.org/pdf/2209.03143.pdf
+
+2108.06209.pdf
+https://arxiv.org/pdf/2108.06209.pdf
+
+Google AI Blog: SoundStream: An End-to-End Neural Audio Codec
+https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html
+
+SoundStream codec github - Google Search
+https://www.google.com/search?q=SoundStream+codec+github&rlz=1C5GCEM_enSE990SE991&biw=1440&bih=707&sxsrf=ALiCzsaoC-yqD1XBCi5gren-Vr_azAsSHw%3A1662737781635&ei=dV0bY4i4JuP6qwGJuojABA&ved=0ahUKEwjIxtD2hIj6AhVj_SoKHQkdAkgQ4dUDCA4&uact=5&oq=SoundStream+codec+github&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIFCAAQhgMyBQgAEIYDOgoIABBHENYEELADSgQIQRgASgQIRhgAUH1Y_AhgyAtoAXABeACAAU2IAeIDkgEBN5gBAKABAcgBCMABAQ&sclient=gws-wiz
+
+GitHub - lucidrains/vector-quantize-pytorch: Vector Quantization, in Pytorch
+https://github.com/lucidrains/vector-quantize-pytorch
+
+GitHub - wesbz/SoundStream: This repository is an implementation of this article: https://arxiv.org/pdf/2107.03312.pdf
+https://github.com/wesbz/SoundStream
+
+Google AI Blog: Lyra: A New Very Low-Bitrate Codec for Speech Compression
+https://ai.googleblog.com/2021/02/lyra-new-very-low-bitrate-codec-for.html
+
+GitHub - google/lyra: A Very Low-Bitrate Codec for Speech Compression
+https://github.com/google/lyra
+
+Video player | Disney+
+https://www.disneyplus.com/en-gb/video/ead36877-9b64-4660-91b3-d415a0157eb2
+
+7 Proven Health Benefits of Ginseng
+https://www.healthline.com/nutrition/ginseng-benefits#TOC_TITLE_HDR_6
+
+(1) New Message!
+https://gowatchseries.nocensor.world/search.html?keyword=the%20graham%20norton%20show
+
+graham norton show youtube s30e01 - Google Search
+https://www.google.com/search?q=graham+norton+show+youtube+s30e01&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsYzemwRYnI6BeMtVmL7_ugEnwHucA%3A1662846815839&ei=XwcdY7fxMsuJrwTtprTYCg&ved=0ahUKEwj3nJiOm4v6AhXLxIsKHW0TDasQ4dUDCA4&uact=5&oq=graham+norton+show+youtube+s30e01&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgATIFCCEQoAE6CggAEEcQ1gQQsAM6DQgAEOQCENYEELADGAE6DAguEMgDELADEEMYAjoFCAAQgAQ6BggAEB4QFjoICCEQHhAWEB06BQgAEKIEOgcIABAeEKIESgQIQRgASgQIRhgBUIMCWPEUYNQWaAFwAXgAgAFiiAGsBJIBATeYAQCgAQHIAQ3AAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz
+
+(1302) Vocal ANALYSIS of Till Lindemann in "Mein Herz Brennt" piano version featuring Sven Helbig - YouTube
+https://www.youtube.com/watch?v=ZiQ6KfRWOJg&t=115s
+
+superscript tennis scores - Google Search
+https://www.google.com/search?q=superscript+tennis+scores&rlz=1C5GCEM_enSE990SE991&oq=superscript+in+tennis&aqs=chrome.1.69i57j0i22i30j0i15i22i30j0i390l3.4695j0j7&sourceid=chrome&ie=UTF-8
+
+Library Genesis
+https://libgen.is/search.php?req=english+grammar+in+use+upper&open=0&res=25&view=simple&phrase=1&column=def
+
+Library Genesis: Raymond Murphy - English Grammar in Use (With Answers)
+https://libgen.is/book/index.php?md5=D07E36774111C6B34D8DD10C2EC57B88
+
+english grammar in use upper intermediate 3rd скачать - Google Search
+https://www.google.com/search?q=english+grammar+in+use+upper+intermediate+3rd+%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsYm7eVWACDGaUJ4k3nT4Dcl_XzQMg:1662854544706&ei=kCUdY4jeKqubwPAPuJe96As&start=20&sa=N&ved=2ahUKEwiI5szzt4v6AhWrDRAIHbhLD704ChDw0wN6BAgBEFI&biw=1440&bih=707&dpr=2
+
+Download English Grammar In Use 3 Intermediate Upper Intermediate Book (PDF) PDF
+https://pdfdrive.to/pdfs/english-grammar-in-use-3-intermediate-upper-intermediate-book-pdf
+
+English Grammar In Use 3 Intermediate Upper Intermediate Book - PDF Drive
+https://www.pdfdrive.com/english-grammar-in-use-3-intermediate-upper-intermediate-book-e12197748.html
+
+English 4all | VK
+https://vk.com/public201782648
+
+advanced grammar in use 3rd edition
+https://www.mediafire.com/file/9qlpnajf5gfdw6j/advanced_grammar_in_use_3rd_edition.pdf/file
+
+English Grammar In Use - Supplementary Exercises (5th Edition).pdf - usafiles
+http://usafiles.net/Zhk/English_Grammar_In_Use_-_Supplementary_Exercises_(5th_Edition).pdf
+
+English Grammar In Use Raymond Murphy - PDF Free Download
+https://docplayer.net/21391875-English-grammar-in-use-raymond-murphy.html
+
+skachat - Google Search
+https://www.google.com/search?q=skachat&rlz=1C5GCEM_enSE990SE991&oq=skachat&aqs=chrome..69i57j0i512l6j0i10i512j0i512l2.3672j0j7&sourceid=chrome&ie=UTF-8
+
+pearson repetytorium maturalne poziom rozszerzony - Google Search
+https://www.google.com/search?q=pearson+repetytorium+maturalne+poziom+rozszerzony&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsb3ayJTXPgduWkSahjphSer-Gf2Pw:1662854728006&ei=RyYdY4_yPISnrgTrhKOYDA&start=20&sa=N&ved=2ahUKEwjPsYDLuIv6AhWEk4sKHWvCCMM4ChDw0wN6BAgBEEo&biw=1440&bih=707&dpr=2
+
+Repetytorium z języka angielskiego dla liceów i techników. Poziom rozszerzony
+https://www.pearson.pl/jezyk-angielski/katalog/dla-szkol/szkoly-srednie/repetytorium-z-jezyka-angielskiego-dla-liceow-i-technikow-poziom-rozszerzony-z-materialem-podstawowym
+
+eDesk
+https://www.pearson.pl/jezyk-angielski/katalog/rozwiazania-cyfrowe/edesk
+
+eDesk - kursy
+https://edesk.pearson.pl/courses
+
+Repetytorium z języka angielskiego dla liceów i techników. Poziom rozszerzony
+https://www.pearson.pl/jezyk-angielski/katalog/dla-szkol/szkoly-srednie/repetytorium-z-jezyka-angielskiego-dla-liceow-i-technikow-poziom-rozszerzony-z-materialem-podstawowym#tabs%3DtabMain3
+
+Repetytorium z języka angielskiego dla liceów i techników. Poziom rozszerzony + eBook - Bookland
+https://bookland.com.pl/repetytorium-z-jezyka-angielskiego-dla-liceow-i-technikow-poziom-rozsz-z-materialem-podst
+
+АНГЛИЙСКИЙ ФРАНЦУЗСКИЙ ЯЗЫК СКАЧАТЬ учебники книги аудио видео курсы фильмы pdf
+http://www.frenglish.ru/
+
+Frenglish.ru - Поиск по сайту - френглиш ру сайт для изучающих иностранные языки pdf
+http://frenglish.ru/poisk.html?searchid=1431998&text=english%20file&web=0
+
+ENGLISH FILE Third 3rd Edition Download for free elementary pre upper intermediate plus СКАЧАТЬ БЕСПЛАТНО учебник ответы решебник тетрадь аудио диски pdf
+http://frenglish.ru/english_file_third_edition.html
+
+Download file English_File_Upper_Intermediate_3e_SB_Audio_www.frenglish.ru.rar (361,69 Mb) | Hitfile.net
+https://hitfile.net/17Uv
+
+Library Genesis: Christina Latham-Koenig, Clive Oxenden - English File Elementary. Student's Book
+https://libgen.is/book/index.php?md5=4339EE188B2388BCB89060CC9ECB2DC5
+
+english file elementary: free download. Ebooks library. On-line books store on Z-Library
+https://3lib.net/s/english%20file%20elementary/?e=1
+
+New English File: Elementary: Workbook | Clive Oxenden, Paul Seligson , Jane Hudson , Christina Latham-Koenig | download
+https://3lib.net/book/5335720/f6c60b
+
+english file upper intermediate: free download. Ebooks library. On-line books store on Z-Library
+https://3lib.net/s/english%20file%20upper%20intermediate
+
+English File : Upper-Intermediate: Workbook with Key | Clive Oxenden | download
+https://3lib.net/book/2583055/83337f
+
+English Grammar in Use - Supplementary Exercises With Answers (3rd edition) | Louise Hashemi, Raymond Murphy | download
+https://3lib.net/book/614877/a8f8cd
+
+English Grammar in Use, 5th Edition | Raymond Murphy | download
+https://3lib.net/book/4996845/94dec5?dsource=recommend
+
+English Grammar in Use, Fifth Edition | Raymond Murphy | download
+https://3lib.net/book/3701050/56a23a?dsource=recommend
+
+UPPER-INTERMEDIATE описание уровня английского скачать учебники, курсы Upper-Intermediate english бесплатно pdf
+http://www.frenglish.ru/english-levels-upper-intermediate.html
+
+Ой!
+https://yandex.ru/showcaptcha?mt=D51FAAD44D0E4F86B4F310EF832BC2EB79599470278D111DE780E74FC0B6255B&retpath=aHR0cHM6Ly95YW5kZXgucnUvc2l0ZXNlYXJjaD9wPTEmbHI9MTA1MTkmc2VhcmNoaWQ9OTQ1NzImd2ViPTAmdGV4dD1lbmdsaXNoK2dyYW1tYXIraW4rdXNl_7b95f8b1123d5217835b969116acbdd3&t=3/1662857402/94803251b7c6919b8ccfb4c41902e566&u=ce34ab00-c1cab2cd-9beec669-eef1a&s=a3847b2e4dbd4fc539889865aa3c353c
+
+eDesk
+https://www.pearson.pl/jezyk-angielski/katalog/rozwiazania-cyfrowe/edesk
+
+eDesk - lesson view
+https://edesk.pearson.pl/lesson/view/6232490112974848/next/~courses
 
 
