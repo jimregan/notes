@@ -96,6 +96,46 @@ categories: [links]
 
 [google/lyra](https://github.com/google/lyra) --- A Very Low-Bitrate Codec for Speech Compression
 
+[salesforce/awd-lstm-lm](https://github.com/salesforce/awd-lstm-lm)
+
+[MKD: a Multi-Task Knowledge Distillation Approach for Pretrained Language Models](https://arxiv.org/abs/1911.03588)
+
+[Transflower: probabilistic autoregressive dance generation with multimodal attention](https://arxiv.org/abs/2106.13871),
+[code](https://github.com/guillefix/transflower-lightning)
+
+[Pre-Training Transformer Decoder for End-to-End ASR Model with Unpaired Speech Data](https://arxiv.org/abs/2203.17113)
+
+[An investigation of phone-based subword units for end-to-end speech recognition](https://arxiv.org/abs/2004.04290)
+
+[Sequence-to-sequence learning with Transducers](https://lorenlugosch.github.io/posts/2020/11/transducer/)
+
+[Pushing the Limits of Semi-Supervised Learning for Automatic Speech Recognition](https://arxiv.org/abs/2010.10504)
+
+[ONLINE ASR WITH EMFORMER RNN-T](https://pytorch.org/audio/main/tutorials/online_asr_tutorial.html)
+
+{% twitter https://twitter.com/alphacep/status/1557445857762578434 %}
+[code](https://github.com/uhh-lt/kaldi-tuda-de)
+
+[Recordings Database](https://www.faithcomesbyhearing.com/audio-bible-resources/recordings-database)
+
+[spaces/k2-fsa/automatic-speech-recognition](https://huggingface.co/spaces/k2-fsa/automatic-speech-recognition)
+
+[csukuangfj/optimized_transducer](https://github.com/csukuangfj/optimized_transducer)
+
+[Recurrent Neural Aligner: An Encoder-Decoder Neural Network Model for Sequence to Sequence Mapping](https://www.isca-speech.org/archive_v0/Interspeech_2017/pdfs/1705.PDF)
+
+[Integrating Lattice-Free MMI into End-to-End Speech Recognition](https://arxiv.org/abs/2203.15614)
+
+[clarin-eric/parla-clarin](https://github.com/clarin-eric/parla-clarin)
+
+[clarin-eric/ParlaMint](https://github.com/clarin-eric/ParlaMint)
+
+[MASC-MEG](https://osf.io/ag3kj/)
+
+[But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY)
+
+[AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/abs/2209.03143)
+
 ---
 
 [Pre-Training Transformer Decoder for End-to-End ASR Model with Unpaired Speech Data](https://arxiv.org/abs/2203.17113)
