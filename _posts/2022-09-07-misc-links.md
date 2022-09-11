@@ -74,4 +74,32 @@ categories: [links]
 
 [data2vec-vision Onnx ready-made configuration](https://github.com/huggingface/transformers/commit/fe785730dcbf3390aa07f667e8d3c4b02d6638e0)
 
+[Add a TF in-graph tokenizer for BERT](https://github.com/huggingface/transformers/commit/ee0d001de71f0da892f86caa3cf2387020ec9696)
+
+[add MobileNetV2 model](https://github.com/huggingface/transformers/pull/17845)
+
+[Adding Omnivore Model to HF](https://github.com/huggingface/transformers/pull/17772)
+
+[Layoutlmv2 tesseractconfig](https://github.com/huggingface/transformers/pull/17733)
+
+[pyannote/embedding](https://huggingface.co/pyannote/embedding)
+
+[ASR chunking](https://huggingface.co/blog/asr-chunking)
+
+---
+
+[LITHME](https://lithme.eu/)
+
+[CLARIN Annual Conference 2022](https://www.clarin.eu/event/2022/clarin-annual-conference-2022)
+
+---
+
+[google/lyra](https://github.com/google/lyra) --- A Very Low-Bitrate Codec for Speech Compression
+
+---
+
+[Pre-Training Transformer Decoder for End-to-End ASR Model with Unpaired Speech Data](https://arxiv.org/abs/2203.17113)
+
+[Layer-wise analysis of a self-supervised speech representation](https://homepages.inf.ed.ac.uk/htang2/sigml/mlslp2021/MLSLP2021_paper_15.pdf)
+
 
