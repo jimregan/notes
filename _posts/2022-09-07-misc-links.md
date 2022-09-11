@@ -47,3 +47,15 @@ categories: [links]
 ```
 
 [How to load the pretrained models in pytorch](https://github.com/microsoft/SpeechT5/issues/3)
+
+[Multilingual and Multimodal Learning for Brazilian Portuguese](https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/323/323_Paper.pdf)
+
+[RoomReader: A Multimodal Corpus of Online Multiparty Conversational Interactions](https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/1041/1041_Paper.pdf)
+
+[Investigating Independence vs. Control: Agenda-Setting in Russian News Coverage on Social Media](https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/687/687_Paper.pdf)
+
+[Diachronic Parsing of Pre-Standard Irish](https://cs.slu.edu/~scannell/pub/dppsi.pdf)
+
+[probabilisticai/probai-2022](https://github.com/probabilisticai/probai-2022), [videos](https://www.youtube.com/channel/UCcMwNzhpePJE3xzOP_3pqsw/videos)
+
+
