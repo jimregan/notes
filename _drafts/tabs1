@@ -85,113 +85,14 @@ https://arxiv.org/pdf/2110.07205.pdf
 [2202.03218] Efficient Adapter Transfer of Self-Supervised Speech Models for Automatic Speech Recognition
 https://arxiv.org/abs/2202.03218
 
-Model Downloader and other automation tools — OpenVINO™ documentation — Version(latest)
-https://docs.openvino.ai/latest/omz_tools_downloader.html#doxid-omz-tools-downloader
-
-Microsoft's SpeechT5 for Spoken Language Processing (ASR, TTS, ST...) · Issue #17569 · huggingface/transformers
-https://github.com/huggingface/transformers/issues/17569
-
-Getting Started on Mobile
-https://www.notion.so/Getting-Started-on-Mobile-b0d26442a36a4ab191cfc35a1e66c5c3
-
-Model training T5 Speech
-https://ivory-tiger-5be.notion.site/Model-training-T5-Speech-af1553dd188143968648cc8fb6305cf2
-
-Speech T5 Swedish - Colaboratory
+Speech T5 - Colaboratory
 https://colab.research.google.com/drive/1vqg91NDM4397rPzydYDLlFdugfNjfJLF?usp=sharing#scrollTo=2FsqEMt5j69L
-
-Installing Fairseq from source on Colab fails ( ImportError: cannot import name <> from 'fairseq' (unknown location) · Issue #4121 · facebookresearch/fairseq · GitHub
-https://github.com/facebookresearch/fairseq/issues/4121
-
-Home / Twitter
-https://twitter.com/home
-
-Adapting Speech Recognition to Your Domain | Cobalt
-https://www.cobaltspeech.com/blog/2019/11/18/adapting-models-to-your-domain
-
-Publications — Richard Socher
-https://www.socher.org/publications
-
-(99+) A Primer in BERTology: What we know about how BERT works | Ra S - Academia.edu
-https://www.academia.edu/42343971/A_Primer_in_BERTology_What_we_know_about_how_BERT_works
-
-google-research/adapter-bert
-https://github.com/google-research/adapter-bert
 
 2004.04290.pdf
 https://arxiv.org/pdf/2004.04290.pdf
 
 sv-SE - Google Drive
 https://drive.google.com/drive/folders/1iBfsj3Wr8H_qHfkuEgTBa9FikHQvmG7h
-
-SpeechT5/SpeechT5/speecht5/criterions at main · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5/speecht5/criterions
-
-SpeechT5/SpeechT5/speecht5/data at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5/speecht5/data
-
-SpeechT5/SpeechT5/speecht5/models at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5/speecht5/models
-
-SpeechT5/SpeechT5/speecht5/tasks at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5/speecht5/tasks
-
-microsoft/SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing
-https://github.com/microsoft/SpeechT5
-
-SpeechT5/multihead_attention.py at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/blob/main/YiTrans/yitrans_iwslt22/modules/multihead_attention.py
-
-SpeechT5/SpeechT5 at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
-
-SpeechT5/Speech2C at main · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/tree/main/Speech2C
-
-add reading from zip audio to hubert dataset and scripts (#3403) · facebookresearch/fairseq@5528b6a · GitHub
-https://github.com/facebookresearch/fairseq/commit/5528b6a38224404d80b900609463fd6864fd115a
-
-include wav2vec-u 2.0 (#2826) · facebookresearch/fairseq@a0ceabc · GitHub
-https://github.com/facebookresearch/fairseq/commit/a0ceabc287e26f64517fadb13a54c83b71e8e469
-
-SpeechT5/speecht5.py at main · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/blob/main/SpeechT5/speecht5/tasks/speecht5.py#L289
-
-SpeechT5/speecht5.py at main · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/blob/main/SpeechT5/speecht5/tasks/speecht5.py#L289
-
-Difficulties loading pre-trained weights! · Issue #5 · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/issues/5
-
-SpeechT5/SpeechT5 at main · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5#load-pre-trained-models
-
-how to pre-train on a custom dataset ? · Issue #1 · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/issues/1
-
-SpeechT5/speaker_decoder_postnet.py at 1ad69dfc7f8e8ff89aee28de80fb607f1d4cbf22 · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/blob/1ad69dfc7f8e8ff89aee28de80fb607f1d4cbf22/SpeechT5/speecht5/models/modules/speaker_decoder_postnet.py
-
-SpeechT5/decoder.py at 1ad69dfc7f8e8ff89aee28de80fb607f1d4cbf22 · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/blob/1ad69dfc7f8e8ff89aee28de80fb607f1d4cbf22/SpeechT5/speecht5/models/modules/decoder.py
-
-Does the quantizer is used when fine-tune the pretrained backbone for the downstream task ? · Issue #6 · microsoft/SpeechT5 · GitHub
-https://github.com/microsoft/SpeechT5/issues/6
-
-transformers/src/transformers/models/data2vec at 264128cb9dbd83b666666945fd2fea0662135911 · huggingface/transformers · GitHub
-https://github.com/huggingface/transformers/tree/264128cb9dbd83b666666945fd2fea0662135911/src/transformers/models/data2vec
-
-[SegFormer] TensorFlow port by sayakpaul · Pull Request #17910 · huggingface/transformers · GitHub
-https://github.com/huggingface/transformers/pull/17910
-
-[WIP] Adding LID (Language Identification) Head for M-CTC-T Model by cwkeam · Pull Request #17671 · huggingface/transformers · GitHub
-https://github.com/huggingface/transformers/pull/17671
-
-Add Google's Trillson Audio Classification Model by vumichien · Pull Request #17387 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/17387/commits/53c5b70b57b9ec96b2c1dee6d6933c7b2991fda6
-
-[Speech Model] Add Emformer by anton-l · Pull Request #17302 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/17302/files
 
 Sequence-to-sequence learning with Transducers - Loren Lugosch
 https://lorenlugosch.github.io/posts/2020/11/transducer/
@@ -201,27 +102,6 @@ https://arxiv.org/pdf/2010.10504.pdf
 
 Online ASR with Emformer RNN-T — Torchaudio nightly documentation
 https://pytorch.org/audio/main/tutorials/online_asr_tutorial.html
-
-add wav2vec2_alignment by arijitx · Pull Request #16782 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/16782
-
-Add fairseq FastSpeech2 by jaketae · Pull Request #15773 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/15773
-
-Commits · huggingface/transformers
-https://github.com/huggingface/transformers/commits/main?after=051311ff66e7b23bfcfc42bc514c969517323ce9+34&branch=main&qualified_name=refs%2Fheads%2Fmain
-
-Pull requests · huggingface/transformers
-https://github.com/huggingface/transformers/pulls?page=4&q=is%3Apr+is%3Aopen
-
-[Speech Model] Add Emformer by anton-l · Pull Request #17302 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/17302
-
-fix: data2vec-vision Onnx ready-made configuration. (#18427) · huggingface/transformers@fe78573
-https://github.com/huggingface/transformers/commit/fe785730dcbf3390aa07f667e8d3c4b02d6638e0
-
-audio/emformer.py at main · pytorch/audio
-https://github.com/pytorch/audio/blob/main/torchaudio/models/emformer.py
 
 (1) AlphaCephei on Twitter: "We published Tuda german model from https://t.co/4xPzWgW6fw https://t.co/7mdkimirTj it is big (4.4G) and slightly more accurate than Vosk on audiobooks and well covers CV test 9.48 (Tuda-de test), 25.82 (podcast) 4.97 (cv-test) 11.01 (mls) 35.20 (mtedx)" / Twitter
 https://twitter.com/alphacep/status/1557445857762578434?cxt=HBwWhMC8zbCwlJ0rAAAA&cn=ZmxleGlibGVfcmVjcw%3D%3D&refsrc=email
@@ -243,12 +123,6 @@ https://live.bible.is/bible/ABIWBT/MRK/1?audio_type=audio
 
 Models — NVIDIA NeMo
 https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/asr/speech_classification/models.html#marblenet-model
-
-TillTal – Making spoken cultural heritage accessible for research | KTH
-https://www.kth.se/is/tmh/speech-communication/tilltal-making-spoken-cultural-heritage-accessible-for-research-1.694166
-
-Using AI to decode speech from brain activity
-https://ai.facebook.com/blog/ai-speech-brain-activity/
 
 icefall/beam_search.py at master · k2-fsa/icefall · GitHub
 https://github.com/k2-fsa/icefall/blob/master/egs/librispeech/ASR/pruned_transducer_stateless/beam_search.py
@@ -397,7 +271,7 @@ https://the-bibliofile.com/normal-people/
 The Scholarship Symbol in Normal People | LitCharts
 https://www.litcharts.com/lit/normal-people/symbols/the-scholarship
 
-(1302) But what is the Fourier Transform? A visual introduction. - YouTube
+(1303) But what is the Fourier Transform? A visual introduction. - YouTube
 https://www.youtube.com/watch?v=spUNpyF58BY
 
 Instagram
@@ -445,7 +319,7 @@ https://gowatchseries.nocensor.world/search.html?keyword=the%20graham%20norton%2
 graham norton show youtube s30e01 - Google Search
 https://www.google.com/search?q=graham+norton+show+youtube+s30e01&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsYzemwRYnI6BeMtVmL7_ugEnwHucA%3A1662846815839&ei=XwcdY7fxMsuJrwTtprTYCg&ved=0ahUKEwj3nJiOm4v6AhXLxIsKHW0TDasQ4dUDCA4&uact=5&oq=graham+norton+show+youtube+s30e01&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgUIIRCgATIFCCEQoAE6CggAEEcQ1gQQsAM6DQgAEOQCENYEELADGAE6DAguEMgDELADEEMYAjoFCAAQgAQ6BggAEB4QFjoICCEQHhAWEB06BQgAEKIEOgcIABAeEKIESgQIQRgASgQIRhgBUIMCWPEUYNQWaAFwAXgAgAFiiAGsBJIBATeYAQCgAQHIAQ3AAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz
 
-(1302) Vocal ANALYSIS of Till Lindemann in "Mein Herz Brennt" piano version featuring Sven Helbig - YouTube
+(1303) Vocal ANALYSIS of Till Lindemann in "Mein Herz Brennt" piano version featuring Sven Helbig - YouTube
 https://www.youtube.com/watch?v=ZiQ6KfRWOJg&t=115s
 
 superscript tennis scores - Google Search

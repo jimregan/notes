@@ -46,6 +46,8 @@ categories: [links]
 }
 ```
 
+---
+
 [How to load the pretrained models in pytorch](https://github.com/microsoft/SpeechT5/issues/3)
 
 [Multilingual and Multimodal Learning for Brazilian Portuguese](https://confcats-event-sessions.s3.amazonaws.com/lrec22/papers/final/323/323_Paper.pdf)
@@ -57,5 +59,19 @@ categories: [links]
 [Diachronic Parsing of Pre-Standard Irish](https://cs.slu.edu/~scannell/pub/dppsi.pdf)
 
 [probabilisticai/probai-2022](https://github.com/probabilisticai/probai-2022), [videos](https://www.youtube.com/channel/UCcMwNzhpePJE3xzOP_3pqsw/videos)
+
+---
+
+[Using AI to decode speech from brain activity](https://ai.facebook.com/blog/ai-speech-brain-activity/)
+
+---
+
+[add wav2vec2_alignment](https://github.com/huggingface/transformers/pull/16782)
+
+[Add fairseq FastSpeech2](https://github.com/huggingface/transformers/pull/15773)
+
+[Add Emformer](https://github.com/huggingface/transformers/pull/17302)
+
+[data2vec-vision Onnx ready-made configuration](https://github.com/huggingface/transformers/commit/fe785730dcbf3390aa07f667e8d3c4b02d6638e0)
 
 
