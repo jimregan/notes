@@ -142,4 +142,8 @@ categories: [links]
 
 [Layer-wise analysis of a self-supervised speech representation](https://homepages.inf.ed.ac.uk/htang2/sigml/mlslp2021/MLSLP2021_paper_15.pdf)
 
+---
+
+[L2-ARCTIC](https://psi.engr.tamu.edu/l2-arctic-corpus/)
+
 
