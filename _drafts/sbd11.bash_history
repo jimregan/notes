@@ -973,3 +973,5 @@ ls|grep -v '^H'
 ls
 tmux attach
 history -a
+nvidia-smi
+history -a
