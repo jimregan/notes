@@ -975,3 +975,23 @@ tmux attach
 history -a
 nvidia-smi
 history -a
+less 2017-2018-videos.txt 
+cat 2017-2018-videos.txt |awk -F'\t' '{print $2}'
+ls
+ls riksdag-api-out/
+less riksdag-api-out/video_urls.txt 
+grep http riksdag-api-out/video_urls.txt |wc
+cat 2017-2018-videos.txt |awk -F'\t' '{print $2}'|grep http|wc
+sudo mkdir /sbtal/riksdag-video
+sudo chown joregan.joregan /sbtal/riksdag-video
+cp riksdag-api-out/video_urls.txt /sbtal/riksdag-video/
+cd /sbtal/riksdag-video/
+vi video_urls.txt 
+cat video_urls.txt 
+cat video_urls.txt |awk -F/ '{print $NF}'|sort|uniq -c |grep -v ' 1'
+grep 824855 video_urls.txt 
+cat video_urls.txt |sort|uniq > tmp
+mv tmp video_urls.txt 
+cat video_urls.txt |awk -F/ '{print $NF}'|sort|uniq -c |grep -v ' 1'
+wget -i video_urls.txt -o wget.log
+history -a
