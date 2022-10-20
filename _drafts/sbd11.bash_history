@@ -995,3 +995,14 @@ mv tmp video_urls.txt
 cat video_urls.txt |awk -F/ '{print $NF}'|sort|uniq -c |grep -v ' 1'
 wget -i video_urls.txt -o wget.log
 history -a
+ls
+cd /sbtal/riksdag-video/
+ls
+tail -f wget.log 
+wget https://mhdownload.riksdagen.se/riksdagen4/unrestricted/2018/06/13/827680.mp4
+ls
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442207160019939321_480p.mp4
+ls
+rm video_urls.txt 
+wget -i video-urls.txt -o wget1.log
+history -a
