@@ -1006,3 +1006,33 @@ ls
 rm video_urls.txt 
 wget -i video-urls.txt -o wget1.log
 history -a
+cd /sbtal/riksdag-video/
+ls
+tail -f wget1.log 
+ls|wc
+ls
+ls ~/youtube/
+ls ~/youtube/|grep -v json
+ls ~/youtube/|grep -v json|grep -v vtt
+ls ~/youtube/|grep -v json|grep -v vtt|grep -v mp4
+tail -f wget1.log 
+ls
+ls *mp4|wc
+tail -f wget1.log 
+ls
+wc -l video-urls.txt 
+tail wget1.log 
+ls
+cat video-urls.txt 
+cat video-urls.txt |awk -F/ '{print $NF}'
+cat video-urls.txt |awk -F/ '{print $NF}'|sort|uniq|wc
+cat video-urls.txt |awk -F/ '{print $NF}'|sort|uniq|while read i;do if [ ! -e $i ];then echo $i >> missed;fi;done
+cat missed 
+grep 2442105060000578721_480p.mp4 video-urls.txt 
+wget $(grep 2442105060000578721_480p.mp4 video-urls.txt )
+grep 2442205180012533121 video-urls.txt 
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442205180012533121_480p.mp4
+ls
+vi run.sh
+chmod a+x run.sh 
+history -a
