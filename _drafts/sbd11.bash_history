@@ -1036,3 +1036,7 @@ ls
 vi run.sh
 chmod a+x run.sh 
 history -a
+cd /sbtal/riksdag-video/
+mkdir api_output
+ls
+history -a
