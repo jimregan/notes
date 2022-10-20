@@ -896,3 +896,80 @@ rm video_urls.txt
 ls|grep -v '^H'
 ls
 tmux attach
+git commit -m 'metadata'
+git config --global user.email jaoregan@tcd.ie
+git config --global user.name "Jim O'Regan"
+git commit -m 'metadata'
+ls
+vi .gitattributes 
+ls
+ls
+mkdir youtube
+cd youtube/
+conda activate whisper
+pip install youtube-dl
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f "license=cc-by"
+ls
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f "license=Creative Commons Attribution licence (reuse allowed)"
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f 'license=Creative Commons Attribution licence (reuse allowed)'
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f 'license=Creative Commons Attribution licence'
+ls
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f license='Creative Commons Attribution license (reuse allowed)'
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f license='Creative Commons Attribution license \(reuse allowed\)'
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' --print-json
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' --print-json > json
+grep license json
+less json
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f license='Creative Commons Attribution license (reuse allowed)'
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' -f license='Creative Commons'
+ls
+rm pfleyFhCGtQ.f136.mp4.part json 
+youtube-dl 'https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0' -o '%(id)s.%(ext)s' 
+ls
+rm pfleyFhCGtQ.f136.mp4.part 
+youtube-dl -j --flat-playlist "https://www.youtube.com/c/heritageboard/playlists?view=1&sort=dd&shelf_id=0" > pl.json
+less pl.json 
+cat pl.json | awk -F'"url": "' '{print $2}'|awk -F'"' '{print $1}' | while read i;do youtube-dl -j --flat-playlist $i >> pl_videos.json || echo $i >> retry;done
+cat ret
+ls
+youtube-dl -j --flat-playlist "https://www.youtube.com/c/heritageboard/videos?view=0&sort=dd&shelf_id=0" > uploads.json
+python
+which python
+which python3
+python3
+ls
+grep license *json
+grep license ./*json
+grep license ./*json|head -n 1
+for i in ./*.json;do grep license -- $i;done
+for i in ./*.json;do grep license -- $ && echo "$i" >> has-licencei;done
+for i in ./*.json;do grep license -- $i && echo "$i" >> has-licencei;done
+rm has-licencei 
+for i in ./*.json;do grep license -- $i && echo "$i" >> has-licencei;done
+less has-licencei 
+less ./-5DwojwgLe0.info.json
+tmux attach
+cd youtube/
+ls *vtt
+ls ./*vtt
+less ./YVjsv1KfPFc.sv.vtt 
+ls
+cd riksdag-api-out/
+ls
+ls|less
+ls
+less H9C320220119SoU9
+curl https://www.riksdagen.se/api/videostream/get/H210308
+wget https://mhdownload.riksdagen.se/VOD/176288_3000_889175.mp4
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442204240010027521_480p.mp4
+rm 2442204240010027521_480p.mp4 
+ls
+less H9C420210916se1
+less H9C320220119SoU9
+ls
+ls|wc
+rm video_urls.txt 
+ls|grep -v '^H'
+ls
+tmux attach
+history -a
