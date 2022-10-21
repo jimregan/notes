@@ -1040,3 +1040,64 @@ cd /sbtal/riksdag-video/
 mkdir api_output
 ls
 history -a
+docker container ls
+docker container ls|grep bash|awk '{print $1}'|while read i;do docker container stop $i; docker container rm $i;done
+tmux attach
+ls
+ls /sbtal/riksdag-video/
+nvidia-smi 
+docker container ls
+vi /sbtal/riksdag-video/run.sh 
+docker container ls
+nvidia-smi 
+vi /sbtal/riksdag-video/run.sh 
+nvidia-smi 
+cd /sbtal/riksdag-video/
+ls
+ls *lock
+# find . -type f -name "*.mp3" -print0 | parallel -0 ffprobe -hide_banner -v error -of default=noprint_wrappers=1:nokey=1 -show_entries stream=duration | paste - -sd+ - | bc
+find . -type f -name "*.mp4" -print0 | parallel -0 ffprobe -hide_banner -v error -of default=noprint_wrappers=1:nokey=1 -show_entries stream=duration | paste - -sd+ - | bc
+sudo apt install parallel
+find . -type f -name "*.mp4" -print0 | parallel -0 ffprobe -hide_banner -v error -of default=noprint_wrappers=1:nokey=1 -show_entries stream=duration | paste - -sd+ - | bc
+sudo apt install ffmpeg
+find . -type f -name "*.mp4" -print0 | parallel -0 ffprobe -hide_banner -v error -of default=noprint_wrappers=1:nokey=1 -show_entries stream=duration | paste - -sd+ - | bc
+nvidia-smi 
+ls
+cd youtube/
+ls
+cd /sbtal/riksdag-video/
+ls
+ls *lock
+ls *vtt
+less 2442101120000147521_480p.mp4.vtt 
+nvidia-smi 
+ls
+rm *lock
+sudo rm *lock
+ls
+less run.sh 
+docker container ls
+docker container ls|grep bash|awk '{print $1}'|while read i;do docker container stop $i; docker container rm $i;donbe
+docker container ls|grep bash|awk '{print $1}'|while read i;do docker container stop $i; docker container rm $i;done
+docker image ls
+#docker run --gpus $a -t -d --name whisper$a -v "/sbtal/riksdag-video:/workspace" 960660159d4d; docker exec -d whisper$a /workspace/run.sh;done
+ls
+for i in *vtt; do echo $i;done
+for i in *vtt;do o=$(echo $i|sed -e 's/vtt$/lock/');touch $o;done
+ls *lock
+for a in 0 1 2 3 4 5 6 7;do docker run --gpus $a -t -d --name whisper$a -v "/sbtal/riksdag-video:/workspace" 960660159d4d; docker exec -d whisper$a /workspace/run.sh;done
+history -a
+nvidia-smi 
+ls *lock
+nvidia-smi 
+ls -al*vtt
+ls -al ./*vtt
+nvidia-smi 
+docker stop 8f305f4cf993
+docker container ls|grep bash|awk '{print $1}'|while read i;do docker container stop $i; docker container rm $i;done
+rm *lock
+sudo rm *lock
+for i in *vtt;do o=$(echo $i|sed -e 's/vtt$/lock/');touch $o;done
+ls -al *lock
+for a in 0 1 2 3 4 5 6 7;do docker run --gpus device=$a -t -d --name whisper$a -v "/sbtal/riksdag-video:/workspace" 960660159d4d; docker exec -d whisper$a /workspace/run.sh;done
+history -a
