@@ -89,8 +89,8 @@ def get_args():
     parser.add_argument('file_a', type=argparse.FileType('r'), help='first file to compare; left side in the alignments')
     parser.add_argument('file_b', type=argparse.FileType('r'), help='second file to compare; right side in the alignments')
     parser.add_argument('alignment', type=argparse.FileType('w'), help='output file containing aligned pairs')
-    parser.add_argument('--special-symbol', help='Special symbol to represent insertions or deletions', action='store_true', default=True)
-    parser.add_argument('--separator', help='Special symbol to represent insertions or deletions', action='store_true', default=True)
+    parser.add_argument('--special-symbol', help='Special symbol to represent insertions or deletions', type=str, default="<eps>")
+    parser.add_argument('--separator', help='Special symbol to represent insertions or deletions', type=str, default=";")
     args = parser.parse_args()
 
     return args
@@ -119,11 +119,11 @@ def _check_keys(a, b):
         if key not in a:
             missing_b.append(key)
     
-    if not missing_a:
-        print("Keys present in a but not in b", " ".join(missing_a))
+    if missing_a:
+        print("Keys present in a but not in b:", " ".join(missing_a))
 
-    if not missing_b:
-        print("Keys present in b but not in a", " ".join(missing_b))
+    if missing_b:
+        print("Keys present in b but not in a:", " ".join(missing_b))
 
 
 def run(args):
