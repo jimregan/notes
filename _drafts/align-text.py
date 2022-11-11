@@ -31,7 +31,7 @@ def pad_replacements(a_in: List[str], b_in: List[str], padding: str = "<eps>") -
     return [x for x in zip(a, b)]
 
 
-def get_aligned_pairs(a: List[str], b: List[str]) -> List[str]:
+def get_aligned_pairs(a: List[str], b: List[str], padding: str = "<eps>") -> List[str]:
     """
     Aligns the elements of lists a and b, returning a list of
     strings containing the aligned pairs in the format
@@ -54,12 +54,12 @@ def get_aligned_pairs(a: List[str], b: List[str]) -> List[str]:
                 outputs.append(f"{x} {x}")
         elif tag == "insert":
             for x in b[j1:j2]:
-                outputs.append(f"<eps> {x}")
+                outputs.append(f"{padding} {x}")
         elif tag == "delete":
             for x in a[i1:i2]:
-                outputs.append(f"{x} <eps>")
+                outputs.append(f"{x} {padding}")
         elif tag == "replace":
-            for x, y in pad_replacements(a[i1:i2], b[j1:j2]):
+            for x, y in pad_replacements(a[i1:i2], b[j1:j2], padding):
                 outputs.append(f"{x} {y}")
     return outputs
 
@@ -67,12 +67,63 @@ def get_aligned_pairs(a: List[str], b: List[str]) -> List[str]:
 def get_args():
     parser = argparse.ArgumentParser(description="""
     Simple replacement for Kaldi's align-text
+
+    Computes alignment between two sentences with the same key in the
+    two given input text files. This implementation uses Python's
+    difflib.
+
+    The input text file 'a' looks as follows:
+        key1 a b c
+        key2 d e
+
+    The input text file 'b' looks as follows:
+        key1 a c
+        key2 f e
+
+    The alignment produced will look as follows:
+        key1 a a ; b <eps> ; c c
+        key2 d f ; e e
+    
+    where the aligned pairs are separated by ";"
     """)
-    parser.add_argument('files', type=str, nargs='+', help='files to process')
-    parser.add_argument('--lower', help='lowercase words', action='store_true', default=True)
+    parser.add_argument('file_a', type=argparse.FileType('r'), help='first file to compare; left side in the alignments')
+    parser.add_argument('file_b', type=argparse.FileType('r'), help='second file to compare; right side in the alignments')
+    parser.add_argument('alignment', type=argparse.FileType('w'), help='output file containing aligned pairs')
+    parser.add_argument('--special-symbol', help='Special symbol to represent insertions or deletions', action='store_true', default=True)
+    parser.add_argument('--separator', help='Special symbol to represent insertions or deletions', action='store_true', default=True)
     args = parser.parse_args()
 
     return args
+
+
+def read_map(file_handle):
+    mapping = {}
+    for line in file_handle:
+        clean = line.strip()
+        if clean == "":
+            continue
+        parts = clean.split()
+        key = parts[0]
+        mapping[key] = parts[1:]
+    return mapping
+
+
+def _check_keys(a, b):
+    missing_a = []
+    missing_b = []
+    for key in a:
+        if key not in b:
+            missing_a.append(key)
+
+    for key in b:
+        if key not in a:
+            missing_b.append(key)
+    
+    if not missing_a:
+        print("Keys present in a but not in b", " ".join(missing_a))
+
+    if not missing_b:
+        print("Keys present in b but not in a", " ".join(missing_b))
 
 
 def main():
