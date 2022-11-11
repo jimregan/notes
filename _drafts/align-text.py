@@ -126,8 +126,24 @@ def _check_keys(a, b):
         print("Keys present in b but not in a", " ".join(missing_b))
 
 
+def run(args):
+    a = read_map(args.file_a)
+    b = read_map(args.file_b)
+    _check_keys(a, b)
+    separator = f" {args.separator} "
+
+    for key in a:
+        alignment = get_aligned_pairs(a[key], b[key], args.special_symbol)
+        print(f"{key} {separator.join(alignment)}", file=args.alignment)
+
+
 def main():
     args = get_args()
+    try:
+        run(args)
+    finally:
+        for f in [args.file_a, args.file_b, args.alignment]:
+            f.close()
 
 
 if __name__ == '__main__':
