@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "Convert WebVTT to Elan . &quot;For Whisper&#39;s output&quot; . toc:false- badges: true | tags: [webvtt, elan, whisper] | . !pip install pympi-ling webvtt-py . from pympi import Eaf import webvtt . from pathlib import Path . def convert_vtt_to_elan(filename, tiername=&quot;whisper&quot;): outfile = filename.replace(&quot;.vtt&quot;, &quot;.eaf&quot;) eaf = Eaf() eaf.add_tier(tiername) count = 1 for caption in webvtt.read(filename): start = int(caption.start_in_seconds * 1000) end = int(caption.end_in_seconds * 1000) text = caption.text.replace(&quot; n&quot;, &quot; &quot;).replace(&quot; r&quot;, &quot;&quot;) eaf.add_annotation(tiername, start, end, text) eaf.to_file(outfile) . for file in Path(&quot;.&quot;).glob(&quot;*vtt&quot;): convert_vtt_to_elan(str(file)) .",
+            "title": "Convert WebVTT to Elan",
+            "content": "!pip install pympi-ling webvtt-py . from pympi import Eaf import webvtt . from pathlib import Path . def convert_vtt_to_elan(filename, tiername=&quot;whisper&quot;): outfile = filename.replace(&quot;.vtt&quot;, &quot;.eaf&quot;) eaf = Eaf() eaf.add_tier(tiername) count = 1 for caption in webvtt.read(filename): start = int(caption.start_in_seconds * 1000) end = int(caption.end_in_seconds * 1000) text = caption.text.replace(&quot; n&quot;, &quot; &quot;).replace(&quot; r&quot;, &quot;&quot;) eaf.add_annotation(tiername, start, end, text) eaf.to_file(outfile) . for file in Path(&quot;.&quot;).glob(&quot;*vtt&quot;): convert_vtt_to_elan(str(file)) .",
             "url": "https://jimregan.github.io/notes/2022/11/11/convert-webvtt-to-elan.html",
             "relUrl": "/2022/11/11/convert-webvtt-to-elan.html",
             "date": " • Nov 11, 2022"
