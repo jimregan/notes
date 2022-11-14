@@ -8,6 +8,7 @@ binmode(STDIN, ":utf8");
 binmode(STDOUT, ":utf8");
 
 my $prev = '';
+my $counter = 0;
 
 while(<>) {
     chomp;
@@ -19,7 +20,13 @@ while(<>) {
             close FH;
         }
         open(FH, ">", $file);
+        binmode(FH, ":utf8");
         $prev = $p[0];
+        $counter = 0;
     }
-    print FH "$_\n";
+    my @parts = split/ /;
+    shift(@parts);
+
+    print FH $prev . "_" . $counter . " " . join(" ", @parts) . "\n";
+    $counter++;
 }
