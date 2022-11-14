@@ -13,7 +13,6 @@ my $counter = 0;
 while(<>) {
     chomp;
     my @p = split/_/;
-    #my $fh;
     if ($prev eq '' || $prev ne $p[0])  {
         my $file = "outdir/" . $p[0] . ".txt";
         if ($prev ne '') {
