@@ -1785,3 +1785,15 @@ less maybe-u2t
 cat maybe-u2t 
 for i in tmpctmdoc-refmt/*.doc;do id=$(basename $i _480p.doc);echo "$id $i" >> actual-u2t;done
 history -a
+for i in query-tfidf/*;do base=$(basename $i _480p.doc.src_tf_idf); python sync-asr/sync_asr/kaldi/retrieve_similar_docs.py --query-tfidf=$i --source-text-id2tfidf=source2tf_idf.scp --source-text-id2doc-ids=tmpctmdoc-refmt/${base}_480p.text2doc --query-id2source-text-id=actual-u2t --num-neighbors-to-search=1 --neighbor-tfidf-threshold=0.5 --relevant-docs=reldocs/reldoc-$base;done
+cat actual-u2t 
+cat query-tfidf/2442*
+ls
+cat actual-u2t 
+cat actual-u2t |less
+less maybe-u2t 
+cat maybe-u2t |awk '{print $1}'
+cat maybe-u2t |awk '{print $1}'|awk -F'-' '{print $0 " " $1}'
+cat maybe-u2t |awk '{print $1}'|awk -F'-' '{print $0 " " $1}' > subid-to-id
+for i in query-tfidf/*;do base=$(basename $i _480p.doc.src_tf_idf); python sync-asr/sync_asr/kaldi/retrieve_similar_docs.py --query-tfidf=$i --source-text-id2tfidf=source2tf_idf.scp --source-text-id2doc-ids=tmpctmdoc-refmt/${base}_480p.text2doc --query-id2source-text-id=subid-to-id --num-neighbors-to-search=1 --neighbor-tfidf-threshold=0.5 --relevant-docs=reldocs/reldoc-$base;done
+history -a
