@@ -1781,3 +1781,7 @@ for i in tmpctmdoc-refmt/2*.doc;do awk -v"f=$i" '{print $1 " " f}' $i; done
 for i in tmpctmdoc-refmt/2*.doc;do awk -v"f=$i" '{print $1 " " f}' $i; done > maybe-u2t
 for i in query-tfidf/*;do base=$(basename $i _480p.doc.src_tf_idf); python sync-asr/sync_asr/kaldi/retrieve_similar_docs.py --query-tfidf=$i --source-text-id2tfidf=source2tf_idf.scp --source-text-id2doc-ids=tmpctmdoc-refmt/${base}_480p.text2doc --query-id2source-text-id=maybe-u2t --num-neighbors-to-search=1 --neighbor-tfidf-threshold=0.5 --relevant-docs=reldocs/reldoc-$base;done
 history -a
+less maybe-u2t 
+cat maybe-u2t 
+for i in tmpctmdoc-refmt/*.doc;do id=$(basename $i _480p.doc);echo "$id $i" >> actual-u2t;done
+history -a
