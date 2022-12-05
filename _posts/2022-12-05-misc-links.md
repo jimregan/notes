@@ -13,3 +13,9 @@ categories: [links]
 
 [AudioCLIP: Extending CLIP to Image, Text and Audio](https://arxiv.org/abs/2106.13043)
 [AndreyGuzhov/AudioCLIP](https://github.com/AndreyGuzhov/AudioCLIP)
+
+[Linear model and neural net from scratch](https://www.kaggle.com/code/jhoward/linear-model-and-neural-net-from-scratch)
+
+[Trigonometry Concepts - Don't Memorize! Visualize!](https://www.youtube.com/watch?v=mhd9FXYdf4s)
+
+
