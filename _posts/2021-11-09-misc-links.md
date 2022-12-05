@@ -59,6 +59,7 @@ categories: [links]
 
 [https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html](Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training),
 [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/hsu21_interspeech.pdf)
+
 ```bibtex
 @inproceedings{hsu21_interspeech,
   author={Wei-Ning Hsu and Anuroop Sriram and Alexei Baevski and Tatiana Likhomanenko and Qiantong Xu and Vineel Pratap and Jacob Kahn and Ann Lee and Ronan Collobert and Gabriel Synnaeve and Michael Auli},
