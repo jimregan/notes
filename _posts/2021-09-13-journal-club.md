@@ -7,7 +7,7 @@ title: T5G2P -- Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme 
 categories: [journal club]
 ---
 
-[T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion](https://www.isca-speech.org/archive/interspeech_2021/rezackova21_interspeech.html)
+[T5G2P&#58; Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion](https://www.isca-speech.org/archive/interspeech_2021/rezackova21_interspeech.html)
 
 ```bibtex
 @inproceedings{rezackova21_interspeech,
