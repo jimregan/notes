@@ -17,7 +17,7 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
 
 [deezer/spleeter](https://github.com/deezer/spleeter) -- Deezer source separation library including pretrained models.
 
-[VoxLingua107: a Dataset for Spoken Language Recognition](https://arxiv.org/abs/2011.12998) -- no Irish
+[VoxLingua107&#58; a Dataset for Spoken Language Recognition](https://arxiv.org/abs/2011.12998) -- no Irish
 
 [Appen/UHV-OTS-Speech](https://github.com/Appen/UHV-OTS-Speech) -- A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
 [Paper](https://openreview.net/forum?id=-OFOwaDriw7)
