@@ -57,7 +57,7 @@ categories: [links]
 }
 ```
 
-[https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html](Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training),
+[Robust wav2vec 2.0&#58; Analyzing Domain Shift in Self-Supervised Pre-Training](https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html),
 [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/hsu21_interspeech.pdf)
 
 ```bibtex
