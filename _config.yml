@@ -37,10 +37,10 @@ url: "https://jimregan.github.io" # the base hostname & protocol for your site, 
 baseurl: "/notes" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
-minima:
-  social_links:
-    twitter: jimregan
-    github: jimregan
+#minima:
+#  social_links:
+#    twitter: jimregan
+#    github: jimregan
 
 # Set this to true to get LaTeX math equation support
 use_math: true
