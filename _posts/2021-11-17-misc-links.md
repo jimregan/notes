@@ -50,7 +50,7 @@ data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 ```bibtex
 @inproceedings{alghezi21_interspeech,
   author={Ragheb Al-Ghezi and Yaroslav Getman and Aku Rouhe and Raili Hildén and Mikko Kurimo},
-  title={{Self-Supervised End-to-End ASR for Low Resource L2 Swedish}},
+  title={Self-{S}upervised {E}nd-to-{E}nd {ASR} for {L}ow {R}esource {L2} {S}wedish},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={1429--1433},
