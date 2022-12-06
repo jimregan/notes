@@ -13,11 +13,11 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
 [Add the AudioClassificationPipeline](https://github.com/huggingface/transformers/commit/b9c6a976949681113c8686215ebdef4de53b3d2f),
 [Add Wav2Vec2 & Hubert ForSequenceClassification](https://github.com/huggingface/transformers/commit/b6f332ecaf18054109294dd2efa1a5e6aa274a03) (based on converting s3rpl checkpoints)
 
-[monologg/JointBERT](https://github.com/monologg/JointBERT) -- (Unofficial) Pytorch implementation of [JointBERT: BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)
+[monologg/JointBERT](https://github.com/monologg/JointBERT) -- (Unofficial) Pytorch implementation of [JointBERT&#58; BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)
 
 [deezer/spleeter](https://github.com/deezer/spleeter) -- Deezer source separation library including pretrained models.
 
-[VoxLingua107: a Dataset for Spoken Language Recognition](https://arxiv.org/abs/2011.12998) -- no Irish
+[VoxLingua107&#58; a Dataset for Spoken Language Recognition](https://arxiv.org/abs/2011.12998) -- no Irish
 
 [Appen/UHV-OTS-Speech](https://github.com/Appen/UHV-OTS-Speech) -- A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
 [Paper](https://openreview.net/forum?id=-OFOwaDriw7)
@@ -32,10 +32,10 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
                Jeffrey P. Bigham},
   editor    = {Gregory R. Gay and
                Tiago Jo{\~{a}}o Guerreiro},
-  title     = {{The Effects of Automatic Speech Recognition Quality on Human Transcription Latency}},
+  title     = {The {E}ffects of {A}utomatic {S}peech {R}ecognition {Q}uality on {H}uman {T}ranscription {L}atency},
   booktitle = {Proceedings of the 13th Web for All Conference, {W4A} '16, Montreal,
                Canada, April 11-13, 2016},
-  pages     = {23:1--23:8},
+  pages     = {23&#58;1--23&#58;8},
   publisher = {{ACM}},
   year      = {2016},
   doi       = {10.1145/2899475.2899478},
@@ -52,7 +52,7 @@ See: [Transformer based Grapheme-to-Phoneme Conversion](https://arxiv.org/abs/20
 [Locals create CD-ROM celebrating Gaeltacht area of Dun Chaochain](https://www.irishtimes.com/news/locals-create-cd-rom-celebrating-gaeltacht-area-of-dun-chaochain-1.210322)
 
 Facebook's latest:
-[Textless NLP: Generating expressive speech from raw audio](https://ai.facebook.com/blog/textless-nlp-generating-expressive-speech-from-raw-audio)
+[Textless NLP&#58; Generating expressive speech from raw audio](https://ai.facebook.com/blog/textless-nlp-generating-expressive-speech-from-raw-audio)
 [Demo](https://speechbot.github.io/pgslm/)
 [Code](https://github.com/pytorch/fairseq/tree/main/examples/textless_nlp),
 [Generative Spoken Language Modeling from Raw Audio](https://arxiv.org/abs/2102.01192),

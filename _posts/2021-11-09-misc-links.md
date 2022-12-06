@@ -49,7 +49,7 @@ categories: [links]
 ```bibtex
 @inproceedings{ma21_interspeech,
   author={Guodong Ma and Pengfei Hu and Jian Kang and Shen Huang and Hao Huang},
-  title={{Leveraging Phone Mask Training for Phonetic-Reduction-Robust E2E Uyghur Speech Recognition}},
+  title={Leveraging {P}hone {M}ask {T}raining for {P}honetic-{R}eduction-{R}obust {E2E} {U}yghur {S}peech {R}ecognition},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={306--310},
@@ -57,12 +57,13 @@ categories: [links]
 }
 ```
 
-[https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html](Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training),
+[Robust wav2vec 2.0&#58; Analyzing Domain Shift in Self-Supervised Pre-Training](https://www.isca-speech.org/archive/interspeech_2021/hsu21_interspeech.html),
 [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/hsu21_interspeech.pdf)
+
 ```bibtex
 @inproceedings{hsu21_interspeech,
   author={Wei-Ning Hsu and Anuroop Sriram and Alexei Baevski and Tatiana Likhomanenko and Qiantong Xu and Vineel Pratap and Jacob Kahn and Ann Lee and Ronan Collobert and Gabriel Synnaeve and Michael Auli},
-  title={{Robust wav2vec 2.0: Analyzing Domain Shift in Self-Supervised Pre-Training}},
+  title={Robust wav2vec 2.0&: {A}nalyzing {D}omain {S}hift in {S}elf-{S}upervised {P}re-{T}raining},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={721--725},
@@ -70,13 +71,13 @@ categories: [links]
 }
 ```
 
-[wav2vec-C A Self-Supervised Model for Speech Representation Learning](https://www.isca-speech.org/archive/interspeech_2021/sadhu21_interspeech.html),
+[wav2vec-C&#58; A Self-Supervised Model for Speech Representation Learning](https://www.isca-speech.org/archive/interspeech_2021/sadhu21_interspeech.html),
 [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2021/sadhu21_interspeech.pdf)
 
 ```bibtex
 @inproceedings{sadhu21_interspeech,
   author={Samik Sadhu and Di He and Che-Wei Huang and Sri Harish Mallidi and Minhua Wu and Ariya Rastrow and Andreas Stolcke and Jasha Droppo and Roland Maas},
-  title={{wav2vec-C: A Self-Supervised Model for Speech Representation Learning}},
+  title={wav2vec-{C}: {A} {S}elf-{S}upervised {M}odel for {S}peech {R}epresentation {L}earning},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={711--715},

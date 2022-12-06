@@ -17,7 +17,7 @@ categories: [links]
 ```bibtex
 @inproceedings{jacobs21_interspeech,
   author={Christiaan Jacobs and Herman Kamper},
-  title={{Multilingual Transfer of Acoustic Word Embeddings Improves When Training on Languages Related to the Target Zero-Resource Language}},
+  title={Multilingual {T}ransfer of {A}coustic {W}ord {E}mbeddings {I}mproves when {T}raining on {L}anguages {R}elated to the {T}arget {Z}ero-{R}esource {L}anguage},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={1549--1553},
@@ -31,7 +31,7 @@ categories: [links]
 ```bibtex
 @inproceedings{kamper21_interspeech,
   author={Herman Kamper and Benjamin van Niekerk},
-  title={{Towards Unsupervised Phone and Word Segmentation Using Self-Supervised Vector-Quantized Neural Networks}},
+  title={Towards {U}nsupervised {P}hone and {W}ord {S}egmentation Using {S}elf-{S}upervised {V}ector-{Q}uantized {N}eural {N}etworks},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={1539--1543},
@@ -50,7 +50,7 @@ data to appear in [Kielipankki](https://www.kielipankki.fi/corpora/)
 ```bibtex
 @inproceedings{alghezi21_interspeech,
   author={Ragheb Al-Ghezi and Yaroslav Getman and Aku Rouhe and Raili Hildén and Mikko Kurimo},
-  title={{Self-Supervised End-to-End ASR for Low Resource L2 Swedish}},
+  title={Self-{S}upervised {E}nd-to-{E}nd {ASR} for {L}ow {R}esource {L2} {S}wedish},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={1429--1433},
