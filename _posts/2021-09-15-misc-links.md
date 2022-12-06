@@ -32,7 +32,7 @@ Commits on transformers: [Add SpeechEncoderDecoder & Speech2Text2](https://githu
                Jeffrey P. Bigham},
   editor    = {Gregory R. Gay and
                Tiago Jo{\~{a}}o Guerreiro},
-  title     = {{The Effects of Automatic Speech Recognition Quality on Human Transcription Latency}},
+  title     = {The {E}ffects of {A}utomatic {S}peech {R}ecognition {Q}uality on {H}uman {T}ranscription {L}atency},
   booktitle = {Proceedings of the 13th Web for All Conference, {W4A} '16, Montreal,
                Canada, April 11-13, 2016},
   pages     = {23&#58;1--23&#58;8},
