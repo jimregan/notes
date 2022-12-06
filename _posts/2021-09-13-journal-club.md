@@ -12,7 +12,7 @@ categories: [journal club]
 ```bibtex
 @inproceedings{rezackova21_interspeech,
   author={Markéta Řezáčková and Jan Švec and Daniel Tihelka},
-  title={{T5G2P&#58; Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion}},
+  title={T5{G2P}: {U}sing {T}ext-to-{T}ext {T}ransfer {T}ransformer for {G}rapheme-to-{P}honeme {C}onversion},
   year=2021,
   booktitle={Proc. Interspeech 2021},
   pages={6--10},
