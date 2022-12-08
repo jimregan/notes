@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Convert WebVTT to Elan | notes</title>
+<title>Playing with SimpleLanguageModel from pynlpl | notes</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Convert WebVTT to Elan" />
+<meta property="og:title" content="Playing with SimpleLanguageModel from pynlpl" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="For Whisper’s output" />
-<meta property="og:description" content="For Whisper’s output" />
-<link rel="canonical" href="https://jimregan.github.io/notes/2022/11/11/convert-webvtt-to-elan.html" />
-<meta property="og:url" content="https://jimregan.github.io/notes/2022/11/11/convert-webvtt-to-elan.html" />
+<meta name="description" content="I wanted to know if it could be used to write an ARPA LM. It cannot" />
+<meta property="og:description" content="I wanted to know if it could be used to write an ARPA LM. It cannot" />
+<link rel="canonical" href="https://jimregan.github.io/notes/pynlpl/lm/arpa/2022/12/06/pynlpl-simplelanguagemodel.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/pynlpl/lm/arpa/2022/12/06/pynlpl-simplelanguagemodel.html" />
 <meta property="og:site_name" content="notes" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-11-11T00:00:00-06:00" />
+<meta property="article:published_time" content="2022-12-06T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"https://jimregan.github.io/notes/2022/11/11/convert-webvtt-to-elan.html","@type":"BlogPosting","headline":"Convert WebVTT to Elan","dateModified":"2022-11-11T00:00:00-06:00","datePublished":"2022-11-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/2022/11/11/convert-webvtt-to-elan.html"},"description":"For Whisper’s output","@context":"https://schema.org"}</script>
+{"url":"https://jimregan.github.io/notes/pynlpl/lm/arpa/2022/12/06/pynlpl-simplelanguagemodel.html","@type":"BlogPosting","headline":"Playing with SimpleLanguageModel from pynlpl","dateModified":"2022-12-06T00:00:00-06:00","datePublished":"2022-12-06T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/pynlpl/lm/arpa/2022/12/06/pynlpl-simplelanguagemodel.html"},"description":"I wanted to know if it could be used to write an ARPA LM. It cannot","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,8 +87,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Convert WebVTT to Elan</h1><p class="page-description">For Whisper's output</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-11-11T00:00:00-06:00" itemprop="datePublished">
-        Nov 11, 2022
+    <h1 class="post-title p-name" itemprop="name headline">Playing with SimpleLanguageModel from pynlpl</h1><p class="page-description">I wanted to know if it could be used to write an ARPA LM. It cannot</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-12-06T00:00:00-06:00" itemprop="datePublished">
+        Dec 6, 2022
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -98,25 +98,38 @@ window.onload = wrap_img;
 </span></p>
 
     
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#pynlpl">pynlpl</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#lm">lm</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#arpa">arpa</a>
+        
+      
+      </p>
+    
 
     
       
         <div class="pb-5 d-flex flex-wrap flex-justify-end">
           <div class="px-2">
 
-    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2022-11-11-convert-webvtt-to-elan.ipynb" role="button" target="_blank">
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2022-12-06-pynlpl-simplelanguagemodel.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2022-11-11-convert-webvtt-to-elan.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2022-12-06-pynlpl-simplelanguagemodel.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2022-11-11-convert-webvtt-to-elan.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2022-12-06-pynlpl-simplelanguagemodel.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
@@ -128,7 +141,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2022-11-11-convert-webvtt-to-elan.ipynb
+# file to edit: _notebooks/2022-12-06-pynlpl-simplelanguagemodel.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -140,7 +153,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pympi</span><span class="o">-</span><span class="n">ling</span> <span class="n">webvtt</span><span class="o">-</span><span class="n">py</span>
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pynlpl</span>
 </pre></div>
 
     </div>
@@ -157,8 +170,38 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pympi</span> <span class="kn">import</span> <span class="n">Eaf</span>
-<span class="kn">import</span> <span class="nn">webvtt</span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pynlpl.lm.lm</span> <span class="kn">import</span> <span class="n">SimpleLanguageModel</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING: The FoLiA library pynlpl.formats.folia is being used but this version is now deprecated and is replaced by FoLiAPy (pip install folia), see https://github.com/proycon/foliapy. Please update your software if you are a developer, if you are an end-user you can safely ignore this message.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lm</span> <span class="o">=</span> <span class="n">SimpleLanguageModel</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -175,7 +218,8 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;test sentence one&quot;</span><span class="p">)</span>
+<span class="n">lm</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;also a test sentence&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -192,17 +236,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">convert_vtt_to_elan</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">tiername</span><span class="o">=</span><span class="s2">&quot;whisper&quot;</span><span class="p">):</span>
-    <span class="n">outfile</span> <span class="o">=</span> <span class="n">filename</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.vtt&quot;</span><span class="p">,</span> <span class="s2">&quot;.eaf&quot;</span><span class="p">)</span>
-    <span class="n">eaf</span> <span class="o">=</span> <span class="n">Eaf</span><span class="p">()</span>
-    <span class="n">eaf</span><span class="o">.</span><span class="n">add_tier</span><span class="p">(</span><span class="n">tiername</span><span class="p">)</span>
-    <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">caption</span> <span class="ow">in</span> <span class="n">webvtt</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
-        <span class="n">start</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">caption</span><span class="o">.</span><span class="n">start_in_seconds</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span>
-        <span class="n">end</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">caption</span><span class="o">.</span><span class="n">end_in_seconds</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span>
-        <span class="n">text</span> <span class="o">=</span> <span class="n">caption</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\r</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
-        <span class="n">eaf</span><span class="o">.</span><span class="n">add_annotation</span><span class="p">(</span><span class="n">tiername</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-    <span class="n">eaf</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="n">outfile</span><span class="p">)</span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">lm</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;simple.lm&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -219,11 +253,51 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*vtt&quot;</span><span class="p">):</span>
-    <span class="n">convert_vtt_to_elan</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">file</span><span class="p">))</span>
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">simple</span><span class="o">.</span><span class="n">lm</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[simplelanguagemodel]
+n=3
+sentences=2
+beginmarker=&lt;begin&gt;
+endmarker=&lt;end&gt;
+casesensitive=1
+
+[freqlistN]
+&lt;begin&gt; &lt;begin&gt; test	1
+&lt;begin&gt; test sentence	1
+test sentence one	1
+sentence one &lt;end&gt;	1
+one &lt;end&gt; &lt;end&gt;	1
+&lt;begin&gt; &lt;begin&gt; also	1
+&lt;begin&gt; also a	1
+also a test	1
+a test sentence	1
+test sentence &lt;end&gt;	1
+sentence &lt;end&gt; &lt;end&gt;	1
+[freqlistNm1]
+test sentence	2
+&lt;begin&gt; test	1
+sentence one	1
+one &lt;end&gt;	1
+&lt;begin&gt; also	1
+also a	1
+a test	1
+sentence &lt;end&gt;	1
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -234,7 +308,7 @@ window.onload = wrap_img;
 
 
 
-  </div><a class="u-url" href="/notes/2022/11/11/convert-webvtt-to-elan.html" hidden></a>
+  </div><a class="u-url" href="/notes/pynlpl/lm/arpa/2022/12/06/pynlpl-simplelanguagemodel.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
