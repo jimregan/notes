@@ -304,119 +304,8 @@ https://github.com/jimregan/NeMo/tree/main/tutorials/asr
 AIStore for ASR datasets (#5462) · jimregan/NeMo@dd4a041
 https://github.com/jimregan/NeMo/commit/dd4a041d919dae918244e3ecb0fae15b7c29d5f5
 
-NVIDIA/NeMo: NeMo: a toolkit for conversational AI
-https://github.com/NVIDIA/NeMo
-
-NeMo - Automatic Speech Recognition | NVIDIA NGC
-https://catalog.ngc.nvidia.com/orgs/nvidia/collections/nemo_asr
-
-Speech Intent Classification and Slot Filling — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/speech_intent_slot/intro.html
-
-Dataset Creation Tool Based on CTC-Segmentation — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/tools/ctc_segmentation.html
-
-CTC_Segmentation_Tutorial_update.ipynb - Colaboratory
-https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/tools/CTC_Segmentation_Tutorial.ipynb
-
-NeMo/ASR_with_Transducers.ipynb at main · jimregan/NeMo
-https://github.com/jimregan/NeMo/blob/main/tutorials/asr/ASR_with_Transducers.ipynb
-
-NeMo/nemo_text_processing at swedish · jimregan/NeMo
-https://github.com/jimregan/NeMo/tree/swedish/nemo_text_processing
-
-Text (Inverse) Normalization — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/text_normalization/wfst/wfst_text_normalization.html
-
-NeMo/Text_(Inverse)_Normalization.ipynb at stable · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/stable/tutorials/text_processing/Text_(Inverse)_Normalization.ipynb
-
-NeMo/WFST_Tutorial.ipynb at stable · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/stable/tutorials/text_processing/WFST_Tutorial.ipynb
-
-Commits · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/commits/main
-
-NVIDIA/NeMo: NeMo: a toolkit for conversational AI
-https://github.com/NVIDIA/NeMo
-
-Commits · jimregan/NeMo
-https://github.com/jimregan/NeMo/commits/swedish
-
-Comparing NVIDIA:main...jimregan:swedish · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/compare/main...jimregan:NeMo:swedish?expand=1
-
-music_megatron port to NeMo by Zenodia · Pull Request #5603 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/5603
-
-NeMo Forced Aligner by erastorgueva-nv · Pull Request #5571 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/5571
-
-(1638) The Graham Norton Show S30E10 Kate Winslet, Lenny Henry, Nadiya Hussain, Jack Whitehall, Olly Murs - YouTube
-https://www.youtube.com/watch?v=7H_2g4gIW7o
-
-num2words/test_sv.py at master · savoirfairelinux/num2words
-https://github.com/savoirfairelinux/num2words/blob/master/tests/test_sv.py
-
-shivammehta25/Neural-HMM: Neural HMMs are all you need (for high-quality attention-free TTS)
-https://github.com/shivammehta25/Neural-HMM
-
-visual studio - How to add signed off for git commit? - Stack Overflow
-https://stackoverflow.com/questions/45971997/how-to-add-signed-off-for-git-commit
-
-https://www.google.com/search?q=git+sign+off+commit&rlz=1C5GCEM_enSE990SE991&oq=git+sign+off+&aqs=chrome.1.69i57j0i512l4j0i390j69i64j69i60.3381j0j9&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=git+sign+off+commit&rlz=1C5GCEM_enSE990SE991&oq=git+sign+off+&aqs=chrome.1.69i57j0i512l4j0i390j69i64j69i60.3381j0j9&sourceid=chrome&ie=UTF-8
-
-python - Is there a way to specify which pytest tests to run from a file? - Stack Overflow
-https://stackoverflow.com/questions/36456920/is-there-a-way-to-specify-which-pytest-tests-to-run-from-a-file
-
-python - Run tests with a set of marks, which selected based on command line parameter's value - Stack Overflow
-https://stackoverflow.com/questions/66949165/run-tests-with-a-set-of-marks-which-selected-based-on-command-line-parameters
-
-How to use git pull. How to use git pull function? Let me… | by Linh Nguyen My | Medium
-https://medium.com/@pinglinh/how-to-use-git-pull-80ad77a8afc6
-
-Python | gRPC
-https://grpc.io/docs/languages/python/
-
-Protocol Buffers Version 3 Language Specification  |  Google Developers
-https://developers.google.com/protocol-buffers/docs/reference/proto3-spec
-
-Basics tutorial | Python | gRPC
-https://grpc.io/docs/languages/python/basics/
-
-Quick start | Python | gRPC
-https://grpc.io/docs/languages/python/quickstart/
-
-Lacanianism - Wikipedia
-https://en.wikipedia.org/wiki/Lacanianism
-
-Protocol Buffer Basics: Python  |  Protocol Buffers  |  Google Developers
-https://developers.google.com/protocol-buffers/docs/pythontutorial
-
-java - Inheritance in protocol buffers - Stack Overflow
-https://stackoverflow.com/questions/41243168/inheritance-in-protocol-buffers
-
-gRPC AsyncIO API — gRPC Python 1.46.2 documentation
-https://grpc.github.io/grpc/python/grpc_asyncio.html#overview
-
-python-grpc-asyncio/grpc_asyncio.py at master · sandtable/python-grpc-asyncio
-https://github.com/sandtable/python-grpc-asyncio/blob/master/grpc_asyncio.py
-
 Swedish/Numerals - Wikibooks, open books for an open world
 https://en.wikibooks.org/wiki/Swedish/Numerals
-
-Commits · jimregan/NeMo
-https://github.com/jimregan/NeMo/commits/swedish
-
-Riva itn 2.0 by anand-nv · Pull Request #4831 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/4831/files#diff-0942c6ecce9e4ee765984b9d21a9153a1bb5f463103c4cb5c71d2179086b3126
-
-NeMo/cardinal.py at 50f86a943c70aefb63623279b23f5da55ddcc48c · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/50f86a943c70aefb63623279b23f5da55ddcc48c/nemo_text_processing/text_normalization/es/es/taggers/cardinal.py
-
-https://raw.githubusercontent.com/NVIDIA/NeMo/50f86a943c70aefb63623279b23f5da55ddcc48c/nemo_text_processing/inverse_text_normalization/es/taggers/cardinal.py
-https://raw.githubusercontent.com/NVIDIA/NeMo/50f86a943c70aefb63623279b23f5da55ddcc48c/nemo_text_processing/inverse_text_normalization/es/taggers/cardinal.py
 
 Learn the Hungarian Numbers in 9 Easy Steps (with Pronunciation) • Catch Budapest
 https://www.catchbudapest.com/hungarian-numbers/#:~:text=Hungarian%20Numbers%20are%20pretty%20straightforward,%2Dhundred%20%E2%80%93%20thirty%20%E2%80%93%20four.
@@ -433,9 +322,6 @@ https://en.wiktionary.org/wiki/volt#Hungarian
 Swedish Months of the Year with Pronunciation - ielanguages.com
 https://ielanguages.com/swedish-months.html
 
-https://www.google.com/search?q=writing+dates+in+swedish&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsaUV8qXwD4HW-Rz5wrRlSsCnzlc9A%3A1671009354970&ei=SpSZY_7pOrqHxc8P_5KkoAk&ved=0ahUKEwj-tpP44vj7AhW6Q_EDHX8JCZQQ4dUDCA8&uact=5&oq=writing+dates+in+swedish&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQgAQQDTIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoHCAAQsAMQQzoMCCMQsAIQJxBGEP8BOggIABAFEB4QDToKCAAQBRAeEA8QDToICAAQCBAeEA06BggAEAcQHkoECEEYAEoECEYYAFDtB1isDWC2D2gBcAF4AIABaIgBrQWSAQM2LjKYAQCgAQHIAQnAAQE&sclient=gws-wiz-serp
-https://www.google.com/search?q=writing+dates+in+swedish&rlz=1C5GCEM_enSE990SE991&sxsrf=ALiCzsaUV8qXwD4HW-Rz5wrRlSsCnzlc9A%3A1671009354970&ei=SpSZY_7pOrqHxc8P_5KkoAk&ved=0ahUKEwj-tpP44vj7AhW6Q_EDHX8JCZQQ4dUDCA8&uact=5&oq=writing+dates+in+swedish&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQgAQQDTIFCAAQhgMyBQgAEIYDMgUIABCGAzoKCAAQRxDWBBCwAzoHCAAQsAMQQzoMCCMQsAIQJxBGEP8BOggIABAFEB4QDToKCAAQBRAeEA8QDToICAAQCBAeEA06BggAEAcQHkoECEEYAEoECEYYAFDtB1isDWC2D2gBcAF4AIABaIgBrQWSAQM2LjKYAQCgAQHIAQnAAQE&sclient=gws-wiz-serp
-
 Date and time notation in Sweden - Wikipedia
 https://en.wikipedia.org/wiki/Date_and_time_notation_in_Sweden
 
@@ -448,56 +334,8 @@ https://www.swedishpod101.com/blog/2019/12/20/dates-in-swedish/
 dates | Something Swedish
 https://somethingswedish.wordpress.com/tag/dates/
 
-mtmpreproc/lib/MTM/Expansion at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/tree/develop/lib/MTM/Expansion
-
-mtmpreproc/Time.pm at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/lib/MTM/Analysis/Time.pm
-
-mtmpreproc/Date.pm at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/lib/MTM/Analysis/Date.pm
-
-mtmpreproc/t/classtests/Test/MTM/Expansion at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/tree/develop/t/classtests/Test/MTM/Expansion
-
-mtmpreproc/AbbreviationExpansion.pm at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/t/classtests/Test/MTM/Expansion/AbbreviationExpansion.pm
-
-mtmpreproc/Date.pm at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/lib/MTM/Analysis/Date.pm
-
-mtmpreproc/Dockerfile.vac.mqtt at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/docker.mqtt/Dockerfile.vac.mqtt
-
-mtmpreproc/stts/chunker at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/tree/develop/stts/chunker
-
-mtmpreproc/DTB34710-006-chapter.xhtml at develop · sprakbankental/mtmpreproc
-https://github.com/sprakbankental/mtmpreproc/blob/develop/data/xhtml/DTB34710-006-chapter.xhtml
-
 Swedish/Numerals - Wikibooks, open books for an open world
 https://en.wikibooks.org/wiki/Swedish/Numerals
-
-åttondedel - Wiktionary
-https://en.wiktionary.org/wiki/%C3%A5ttondedel#Swedish
-
-sjättedel - Wiktionary
-https://en.wiktionary.org/wiki/sj%C3%A4ttedel#Swedish
-
-sankt - Wiktionary
-https://sv.wiktionary.org/wiki/sankt
-
-NeMo/nemo_text_processing/text_normalization/sv/data at swedish · jimregan/NeMo
-https://github.com/jimregan/NeMo/tree/swedish/nemo_text_processing/text_normalization/sv/data
-
-NeMo/nemo_text_processing/g2p at swedish · jimregan/NeMo
-https://github.com/jimregan/NeMo/tree/swedish/nemo_text_processing/g2p
-
-NeMo/nemo_text_processing/text_normalization/sv at swedish · jimregan/NeMo
-https://github.com/jimregan/NeMo/tree/swedish/nemo_text_processing/text_normalization/sv
-
-https://www.google.com/search?q=north+sami+dates&rlz=1C5GCEM_enSE990SE991&oq=north+sami+dates&aqs=chrome..69i57j0i546l3.4474j0j7&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=north+sami+dates&rlz=1C5GCEM_enSE990SE991&oq=north+sami+dates&aqs=chrome..69i57j0i546l3.4474j0j7&sourceid=chrome&ie=UTF-8
 
 The Sami Concept of Time
 https://www.laits.utexas.edu/sami/dieda/anthro/concept-time.htm
