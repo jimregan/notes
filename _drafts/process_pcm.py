@@ -93,16 +93,16 @@ def convert_raw(infile, outfile):
         outfile: the name of the .wav file to write
     """
     with open(infile, "rb") as inf, wave.open(outfile, "w") as outf:
-        frames = []
+        bs = b''
         inf.seek(16)
         short = inf.read(2)
         while short:
-            frames.append(struct.unpack(">h", short))
+            bs += short[::-1]
             short = inf.read(2)
         outf.setframerate(44100)
         outf.setsampwidth(2)
         outf.setnchannels(2)
-        ba = bytearray(b''.join([struct.pack("<h", x[0]) for x in frames]))
+        ba = bytearray(bs)
         outf.writeframes(ba)
 
 
