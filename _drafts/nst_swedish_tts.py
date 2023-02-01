@@ -66,7 +66,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             supervised_keys=None,
             homepage=_URL,
             task_templates=[
-                AutomaticSpeechRecognition(audio_column="path", transcription_column="text")
+                AutomaticSpeechRecognition(audio_column="audio", transcription_column="text")
             ],
         )
 
@@ -88,7 +88,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         ]
 
     def _generate_examples(
-        self, audio_dir
+        self, split, audio_dir
     ):
         filepath = Path(audio_dir) / "sw_pcms" / "mf"
         for file in filepath.glob("*.pcm"):
@@ -98,7 +98,9 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 yield stem, {
                     "audio": {
                         "array": data[:, 1],
+                        "sampling_rate": 44_100,
                         "path": str(file),
                     },
+                    "text": "",
                 }
                 
