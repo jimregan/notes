@@ -57,6 +57,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         features = datasets.Features(
             {
                 "audio": datasets.Audio(sampling_rate=44_100),
+                "text": datasets.Value("string"),
             }
         )
 
