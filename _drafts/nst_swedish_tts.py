@@ -101,6 +101,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                         "array": data[:, 1],
                         "sampling_rate": 44_100,
                         "path": str(file),
+                        "id": stem,
                     },
                     "text": "",
                 }
