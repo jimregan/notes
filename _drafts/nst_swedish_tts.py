@@ -60,10 +60,10 @@ IGNORE_SENT = [
     "det gläder oss självklart"
 ]
 IGNORE_ID = [
-    "4912",
+    "4913",
 ]
 # MAYBE_FIX = {
-#     "4912": "en annan gång tar vi ett annat grepp"
+#     "4913": "en annan gång tar vi ett annat grepp"
 # }
 
 def read_with_soundfile(filename):
@@ -126,7 +126,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             for line in text.readlines():
                 line = line.strip()
                 if line in IGNORE_SENT:
-                    if str(counter) in IGNORE_ID:
+                    if f"{counter:04d}" in IGNORE_ID:
                         counter += 1
                     continue
                 else:
@@ -135,7 +135,8 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                     counter += 1
         for file in filepath.glob("*.pcm"):
             stem = file.stem
-            if is_pcm(str(file)):
+            id = stem.split("_")[-1]
+            if is_pcm(str(file)) and not id in IGNORE_ID:
                 data, _ = read_with_soundfile(str(file))
                 yield stem, {
                     "audio": {
