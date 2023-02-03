@@ -126,11 +126,12 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             for line in text.readlines():
                 line = line.strip()
                 if line in IGNORE_SENT:
+                    if str(id) in IGNORE_ID:
+                        counter += 1
                     continue
                 else:
                     id = f"sw_all_mf_01_{counter:04d}"
-                    if str(id) not in IGNORE_ID:
-                        transcripts[id] = line
+                    transcripts[id] = line
                     counter += 1
         for file in filepath.glob("*.pcm"):
             stem = file.stem
