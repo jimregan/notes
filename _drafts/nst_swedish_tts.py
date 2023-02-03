@@ -40,6 +40,18 @@ def is_pcm(filename) -> bool:
         return cond
 
 
+IGNORE_SENT = [
+    "stod man på torget kunde man se huset och det var ingen tvekan om att det dominerade sin omgivning och det rådde knappast heller något tvivel om att det förr i tiden hade väckt en hel del avund känslor som någon enstaka gång fortfarande kunde framkallas hos de äldre",
+    "viktor hade skickat ut det innan novell sålde unixware till sco",
+    "det gläder oss självklart"
+]
+IGNORE_ID = [
+    "4913",
+]
+# MAYBE_FIX = {
+#     "4913": "en annan gång tar vi ett annat grepp"
+# }
+
 def read_with_soundfile(filename):
     return sf.read(filename, channels=2, samplerate=44100, endian="BIG",
                    dtype="int16", format="RAW", subtype="PCM_16", start=16)
@@ -92,6 +104,19 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         self, split, audio_dir
     ):
         filepath = Path(audio_dir) / "sw_pcms" / "mf"
+        textpath = Path(audio_dir) / "sw_pcms" / "scripts" / "mf" / "sw_all"
+        transcripts = {}
+        counter = 1
+        with open(str(textpath), encoding="latin1") as text:
+            for line in text.readlines():
+                line = line.strip()
+                if line in IGNORE_SENT:
+                    continue
+                else:
+                    id = f"sw_all_mf_01_{counter:04d}"
+                    if str(id) not in IGNORE_ID:
+                        transcripts[id] = line
+                    counter += 1
         for file in filepath.glob("*.pcm"):
             stem = file.stem
             if is_pcm(str(file)):
@@ -103,6 +128,6 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                         "path": str(file),
                         "id": stem,
                     },
-                    "text": "",
+                    "text": transcripts[stem],
                 }
                 
