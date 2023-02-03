@@ -60,10 +60,10 @@ IGNORE_SENT = [
     "det gläder oss självklart"
 ]
 IGNORE_ID = [
-    "4913",
+    "4912",
 ]
 # MAYBE_FIX = {
-#     "4913": "en annan gång tar vi ett annat grepp"
+#     "4912": "en annan gång tar vi ett annat grepp"
 # }
 
 def read_with_soundfile(filename):
@@ -126,7 +126,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
             for line in text.readlines():
                 line = line.strip()
                 if line in IGNORE_SENT:
-                    if str(id) in IGNORE_ID:
+                    if str(counter) in IGNORE_ID:
                         counter += 1
                     continue
                 else:
