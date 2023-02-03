@@ -1,8 +1,22 @@
-#!/usr/bin/env python
+# coding=utf-8
+# Copyright 2021 The TensorFlow Datasets Authors and the HuggingFace Datasets Authors.
+# Copyright 2023 Jim O'Regan for Språkbanken Tal
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
-"""
-Converts a directory of .pcm files (for NST Swedish TTS data) into wav
-"""
+# Lint as: python3
+"""Datasets loader for NST Swedish TTS data"""
+
 import soundfile as sf
 import os
 from pathlib import Path
@@ -69,6 +83,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
         features = datasets.Features(
             {
                 "audio": datasets.Audio(sampling_rate=44_100),
+                "pitch_tracker": datasets.Audio(sampling_rate=44_100),
                 "text": datasets.Value("string"),
             }
         )
@@ -124,6 +139,12 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 yield stem, {
                     "audio": {
                         "array": data[:, 1],
+                        "sampling_rate": 44_100,
+                        "path": str(file),
+                        "id": stem,
+                    },
+                    "pitch_tracker": {
+                        "array": data[:, 0],
                         "sampling_rate": 44_100,
                         "path": str(file),
                         "id": stem,
