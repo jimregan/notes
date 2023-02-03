@@ -85,6 +85,7 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                 "audio": datasets.Audio(sampling_rate=44_100),
                 "pitch_tracker": datasets.Audio(sampling_rate=44_100),
                 "text": datasets.Value("string"),
+                "file_stem": datasets.Value("string"),
             }
         )
 
@@ -152,5 +153,6 @@ class NSTDataset(datasets.GeneratorBasedBuilder):
                         "id": stem,
                     },
                     "text": transcripts[stem],
+                    "file_stem": stem,
                 }
                 
