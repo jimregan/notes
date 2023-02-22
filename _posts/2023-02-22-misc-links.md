@@ -449,4 +449,21 @@ gian} parliament, 1998–2016},
 
 [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
+[Sami parliament TV](https://sametinget.kommunetv.no/)
+
+[Telling the time in Hungarian](http://www.hungarianreference.com/telling-the-time.aspx)
+
+[NbAiLab/whisper-sami-demo](https://huggingface.co/spaces/NbAiLab/whisper-sami-demo), [model](https://huggingface.co/NbAiLab/whisper-large-sme)
+
+[Damage Control During Domain Adaptation for Transducer Based Automatic Speech Recognition](https://arxiv.org/abs/2210.03255)
+
+```bibtex
+@misc{majumdar2022damagecontrol,
+  doi = {10.48550/ARXIV.2210.03255},
+  author = {Majumdar, Somshubra and Acharya, Shantanu and Lavrukhin, Vitaly and Ginsburg, Boris},
+  title = {Damage Control During Domain Adaptation for Transducer Based Automatic Speech Recognition},
+  year = {2022},
+}
+```
+
 
