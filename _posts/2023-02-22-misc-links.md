@@ -262,7 +262,7 @@ gian} parliament, 1998–2016},
 
 [New Year Concert 2017 Wiener Philarmoniker Part 1](https://www.dailymotion.com/video/x5727ds)
 
-[LiroyvH/signal-export](https://github.com/LiroyvH/signal-export)
+[LiroyvH/signal-export](https://github.com/LiroyvH/signal-export) -- PDF friendly; [carderne/signal-export](https://github.com/carderne/signal-export) -- HTML
 
 [erwincoumans/motion_imitation](https://github.com/erwincoumans/motion_imitation)
 
@@ -411,5 +411,24 @@ gian} parliament, 1998–2016},
 [Fine-tune FLAN-T5 for chat & dialogue summarization](https://github.com/philschmid/deep-learning-pytorch-huggingface/blob/main/training/flan-t5-samsum-summarization.ipynb)
 
 [Getting Started with DeepSpeed for Inferencing Transformer based Models](https://www.deepspeed.ai/tutorials/inference-tutorial/)
+
+[facebookresearch/metaseq](https://github.com/facebookresearch/metaseq) -- Repo for external large-scale work
+
+[NeMo Intro to transducers](https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/Intro_to_Transducers.ipynb)
+
+[NeMo FastPitch](https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_MixerTTS_Training.ipynb)
+
+[Learning Audio-Video Modalities from Image Captions](https://arxiv.org/abs/2204.00679), [github](https://github.com/google-research-datasets/videoCC-data)
+
+```bibtex
+@inproceedings{nagrani2022learning,
+  title = {Learning Audio Video Modalities from Image Captions},
+  author = {Nagrani, Arsha and Hongsuck Seo, Paul and Seybold, Bryan, and Hauth Anja, and Santiago, Manen, and Chen, Sun and Schmid, Cordelia},
+  booktitle = {ECCV},
+  year = {2022},
+}
+```
+
+[Serving OPT-175B, BLOOM-176B and CodeGen-16B using Alpa](https://alpa.ai/tutorials/opt_serving.html)
 
 
