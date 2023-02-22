@@ -470,8 +470,6 @@ gian} parliament, 1998–2016},
 
 [vitouphy/wav2vec2-xls-r-300m-phoneme](https://huggingface.co/vitouphy/wav2vec2-xls-r-300m-phoneme), [training](https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2)
 
-
-
 [lucidrains/audiolm-pytorch](https://github.com/lucidrains/audiolm-pytorch) -- Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
 
 [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) -- Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
@@ -485,5 +483,19 @@ gian} parliament, 1998–2016},
 [stts-se/wikispeech-annotator](https://github.com/stts-se/wikispeech-annotator)
 
 [Castles and palaces of Greater Budapest](https://visithungary.com/category/castles-and-palaces-of-greater-budapest)
+
+[OpenAI’s Whisper: 7 must-know libraries and add-ons built on top of it](https://ramsrigoutham.medium.com/openais-whisper-7-must-know-libraries-and-add-ons-built-on-top-of-it-10825bd08f76)
+
+[Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper)
+
+[jumon/zac](https://github.com/jumon/zac) -- Zero-shot Audio Classification using Whisper
+
+[linto-ai/whisper-timestamped](https://github.com/linto-ai/whisper-timestamped) -- Multilingual Automatic Speech Recognition with word-level timestamps and confidence
+
+[Guiding Frozen Language Models with Learned Soft Prompts](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html)
+
+[google-research/prompt-tuning](https://github.com/google-research/prompt-tuning) -- Original Implementation of Prompt Tuning from Lester, et al, 2021
+
+[The Flan Collection: Advancing open source methods for instruction tuning](https://ai.googleblog.com/2023/02/the-flan-collection-advancing-open.html)
 
 
