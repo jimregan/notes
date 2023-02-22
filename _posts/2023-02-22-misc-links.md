@@ -466,4 +466,8 @@ gian} parliament, 1998–2016},
 }
 ```
 
+[jonatasgrosman/wav2vec2-large-xlsr-53-hungarian](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-hungarian)
+
+[vitouphy/wav2vec2-xls-r-300m-phoneme](https://huggingface.co/vitouphy/wav2vec2-xls-r-300m-phoneme), [training](https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2)
+
 
