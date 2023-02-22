@@ -498,4 +498,13 @@ gian} parliament, 1998–2016},
 
 [The Flan Collection: Advancing open source methods for instruction tuning](https://ai.googleblog.com/2023/02/the-flan-collection-advancing-open.html)
 
+[Active and Semi-Supervised Learning in ASR: Benefits on the Acoustic and Language Models](https://arxiv.org/abs/1903.02852)
 
+```bibtex
+@article{drugman2019active,
+  doi = {10.48550/ARXIV.1903.02852},
+  author = {Drugman, Thomas and Pylkkonen, Janne and Kneser, Reinhard},
+  title = {Active and Semi-Supervised Learning in ASR: Benefits on the Acoustic and Language Models},
+  year = {2019},
+}
+```
