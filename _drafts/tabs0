@@ -61,27 +61,6 @@ https://sites.google.com/view/icml-2022-big-model?pli=1
 OPT 175B inference using accelerate · Issue #162 · facebookresearch/metaseq
 https://github.com/facebookresearch/metaseq/issues/162
 
-alpa/examples/opt_finetune at main · alpa-projects/alpa
-https://github.com/alpa-projects/alpa/tree/main/examples/opt_finetune
-
-alpa-projects/alpa: Training and serving large-scale neural networks
-https://github.com/alpa-projects/alpa
-
-Install Alpa — Alpa 0.2.2.dev31 documentation
-https://alpa.ai/install.html
-
-Serving OPT-175B using Alpa — Alpa 0.2.2.dev31 documentation
-https://alpa.ai/tutorials/opt_serving.html
-
-OPT-175B finetune huggingface - Google Search
-https://www.google.com/search?q=OPT-175B+finetune+huggingface&rlz=1C5GCEM_enSE990SE991&oq=OPT-175B+finetune+huggingface&aqs=chrome..69i57j33i10i160.6484j0j7&sourceid=chrome&ie=UTF-8
-
-facebook/opt-350m · Hugging Face
-https://huggingface.co/facebook/opt-350m
-
-transformers/examples/pytorch/language-modeling at main · huggingface/transformers
-https://github.com/huggingface/transformers/tree/main/examples/pytorch/language-modeling
-
 KoboldAI/OPT-2.7B-Nerys-v2 · Hugging Face
 https://huggingface.co/KoboldAI/OPT-2.7B-Nerys-v2
 
@@ -97,21 +76,6 @@ https://huggingface.co/datasets/KTH/waxholm
 jimregan/riksantikvarieambetet-video-raw at raw-data
 https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw/tree/raw-data
 
-Maze Found - Read the Docs for Business
-https://docs.ray.io/en/releases-2.0.0rc0/ray-overview/installation.html
-
-NVIDIA/NeMo: NeMo: a toolkit for conversational AI
-https://github.com/NVIDIA/NeMo
-
-Models - Hugging Face
-https://huggingface.co/models?library=nemo&sort=downloads&search=nvidia
-
-nvidia/stt_fr_conformer_transducer_large · Hugging Face
-https://huggingface.co/nvidia/stt_fr_conformer_transducer_large
-
-Models — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html
-
 Intro-to-Transducers.ipynb - Colaboratory
 https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/Intro_to_Transducers.ipynb
 
@@ -124,56 +88,14 @@ https://huggingface.co/nvidia/stt_ru_conformer_transducer_large
 NeMo/FastPitch_MixerTTS_Training.ipynb at main · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_MixerTTS_Training.ipynb
 
-2211.03541.pdf
-https://arxiv.org/pdf/2211.03541.pdf
-
-NST Swedish Speech Synthesis (44 kHz) - Språkbanken
-https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-18/#corpus-info
-
 nst.py · KTH/nst at main
 https://huggingface.co/datasets/KTH/nst/blob/main/nst.py
-
-Pull requests · huggingface/datasets
-https://github.com/huggingface/datasets/pulls
-
-Pull requests · huggingface/datasets
-https://github.com/huggingface/datasets/pulls
-
-psst.py · jimregan/psst at main
-https://huggingface.co/datasets/jimregan/psst/blob/main/psst.py
-
-alpa-projects/alpa: Training and serving large-scale neural networks
-https://github.com/alpa-projects/alpa
-
-Alpa: Automated Model-Parallel Deep Learning – Google AI Blog
-https://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html
-
-alpa/conformer.py at main · alpa-projects/alpa
-https://github.com/alpa-projects/alpa/blob/main/alpa/model/conformer.py
 
 Commits · jimregan/riksantikvarieambetet-video-raw
 https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw/commits/raw-data
 
-Northern Sámi TN by jimregan · Pull Request #11 · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pull/11
-
-Pull requests · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pulls
-
-Log in to Overleaf - Overleaf, Online LaTeX Editor
-https://www.overleaf.com/login?redir=/project/63cffba501dfe2b5eee9d0a9
-
-Panel Shows
-https://www.reddit.com/r/panelshows/
-
-jimregan/NeMo-text-processing: NeMo text processing for ASR and TTS
-https://github.com/jimregan/NeMo-text-processing/tree/main
-
-(47) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
+(63) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
 https://www.youtube.com/watch?v=qyKA3FPcPAM
-
-[2205.03026] Hearing voices at the National Library -- a speech corpus and acoustic model for the Swedish language
-https://arxiv.org/abs/2205.03026
 
 CE-2022-2118-CLARIN2022_ConferenceProceedings.pdf
 https://office.clarin.eu/v/CE-2022-2118-CLARIN2022_ConferenceProceedings.pdf#page=75
@@ -186,12 +108,6 @@ https://www.isca-speech.org/archive_v0/Interspeech_2017/pdfs/0903.PDF
 
 Parsing Icelandic Alþingi Transcripts: Parliamentary Speeches as a Genre
 https://aclanthology.org/2020.parlaclarin-1.9.pdf
-
-[2301.08810] Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions
-https://arxiv.org/abs/2301.08810
-
-fairseq/trainer.py at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/fairseq/trainer.py
 
 fairseq/pre-training.md at fea865c079251cb383f1a2e6778f14e22d19e5cc · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/blob/fea865c079251cb383f1a2e6778f14e22d19e5cc/examples/speech_text_joint_to_text/docs/pre-training.md
@@ -241,8 +157,8 @@ https://huggingface.co/docs/transformers/main/model_doc/beit
 unilm/PRETRAINING.md at master · microsoft/unilm
 https://github.com/microsoft/unilm/blob/master/beit2/PRETRAINING.md
 
-Search · install
-https://github.com/microsoft/unilm/search?q=install&type=issues
+Update README.md by shihanmax · Pull Request #994 · microsoft/unilm
+https://github.com/microsoft/unilm/pull/994/files
 
 microsoft/torchscale: Transformers at any scale
 https://github.com/microsoft/torchscale
@@ -262,21 +178,6 @@ https://github.com/microsoft/unilm/issues/972
 LayoutLM on google Colab · Issue #234 · microsoft/unilm
 https://github.com/microsoft/unilm/issues/234
 
-Jim O'Regan | Contributor | Kaggle
-https://www.kaggle.com/jimregan/datasets
-
-PELCRA_PARL | Kaggle
-https://www.kaggle.com/datasets/jimregan/pelcraparl
-
-PELCRA_EMO | Kaggle
-https://www.kaggle.com/datasets/jimregan/pelcraemo
-
-DaLAJ v.1.0 | Kaggle
-https://www.kaggle.com/datasets/jimregan/dalaj-v10
-
-PELCRA_EMI | Kaggle
-https://www.kaggle.com/datasets/jimregan/pelcraemi
-
 microsoft/beit-large-patch16-224 · Hugging Face
 https://huggingface.co/microsoft/beit-large-patch16-224
 
@@ -289,38 +190,14 @@ https://www.sciencedirect.com/science/article/pii/S0095447010000628
 Jimín Mháire Thaidhg - Leathanach 1 | Leigh Leat
 https://www.leighleat.com/pages/181
 
-NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
-https://github.com/NVIDIA/NeMo-text-processing
-
 Telling Time in Hungarian - Everything You Need to Know
 https://www.hungarianpod101.com/blog/2020/07/31/telling-time-in-hungarian/
 
-Booking.com : Hotels in Budapest . Book your hotel now!
-https://www.booking.com/searchresults.en-gb.html?ss=Budapest&ssne=Budapest&ssne_untouched=Budapest&label=gen173nr-1FCAEoggI46AdIM1gEaMgBiAEBmAEJuAEHyAEM2AEB6AEB-AEDiAIBqAIDuAKXnYWfBsACAdICJGJkNmZhZjdmLTNiMmItNGJjMi1iMTlmLTYwZmYxOTY4NTY3N9gCBeACAQ&sid=376059cfb5549e22ce45c2280a75e0de&aid=304142&lang=en-gb&sb=1&src_elem=sb&src=searchresults&dest_id=-850553&dest_type=city&checkin=2023-03-31&checkout=2023-04-03&group_adults=3&no_rooms=3&group_children=0&sb_travel_purpose=leisure
-
-radisson budapest - Google Search
-https://www.google.com/search?q=radisson+budapest&hotel_occupancy=2#ahotel_dates=2023-03-31,3
-
-Chords for soan-belleville
+soan-belleville Chords - ChordU
 https://chordu.com/chords-tabs-soan-belleville-id_fdd-IUFaEqs
-
-(47) Polyphia - "Playing God" (Tutorial/Slow Playthrough with onscreen Tabs) - YouTube
-https://www.youtube.com/watch?v=N0QXy_2eybU
-
-Playing God Main Riff - Guitar Tabs - Acousterr
-https://www.acousterr.com/tab/playing-god-main-riff
-
-Using IrishNLP’s chunker with NLTK | notes
-https://jimregan.github.io/notes/nltk/irish/parse%20trees/2022/10/03/irishnlp-chunker-with-nltk.html
-
-language-resources/ngramfinalize.cc at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/ngramfinalize.cc
 
 language-resources/ngram_model_with_final_backoff.fst at master · google/language-resources
 https://github.com/google/language-resources/blob/master/festus/runtime/ngram_model_with_final_backoff.fst
-
-pynini register fst - Google Search
-https://www.google.com/search?q=pynini+register+fst&rlz=1C5GCEM_enSE990SE991&oq=pynini+register+fst&aqs=chrome..69i57j33i160l3.5731j0j7&sourceid=chrome&ie=UTF-8
 
 morphotactics/morphotactics.py at main · dmort27/morphotactics
 https://github.com/dmort27/morphotactics/blob/main/src/morphotactics/morphotactics.py

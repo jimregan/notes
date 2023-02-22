@@ -144,4 +144,40 @@ gian} parliament, 1998–2016},
 }
 ```
 
+[Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions](https://arxiv.org/abs/2301.08810)
 
+```bibtex
+@misc{li2023phoneme_bert
+  doi = {10.48550/ARXIV.2301.08810},
+  author = {Li, Yinghao Aaron and Han, Cong and Jiang, Xilin and Mesgarani, Nima},
+  title = {Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions},
+  publisher = {arXiv},
+  year = {2023},
+}
+```
+
+[Multi-blank Transducers for Speech Recognition](https://arxiv.org/abs/2211.03541)
+
+```bibtex
+@misc{xu2022multiblank,
+  doi = {10.48550/ARXIV.2211.03541},
+  author = {Xu, Hainan and Jia, Fei and Majumdar, Somshubra and Watanabe, Shinji and Ginsburg, Boris},
+  title = {Multi-blank Transducers for Speech Recognition},
+  publisher = {arXiv},
+  year = {2022},
+}
+```
+
+[Alpa: Automated Model-Parallel Deep Learning](https://ai.googleblog.com/2022/05/alpa-automated-model-parallel-deep.html)
+
+[Hearing voices at the National Library -- a speech corpus and acoustic model for the Swedish language](https://arxiv.org/abs/2205.03026)
+
+```bibtex
+@misc{malmsten2022kblabb_w2v,
+  url = {https://arxiv.org/abs/2205.03026},
+  author = {Malmsten, Martin and Haffenden, Chris and Börjeson, Love},
+  title = {Hearing voices at the National Library -- a speech corpus and acoustic model for the Swedish language},
+  publisher = {arXiv},
+  year = {2022},
+}
+```
