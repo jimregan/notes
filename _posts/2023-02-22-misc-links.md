@@ -213,3 +213,53 @@ gian} parliament, 1998–2016},
 }
 ```
 
+[There is more to Hungarian than goulash!](https://hunlang.files.wordpress.com/2009/09/tmthtgfinal.pdf)
+
+[Noise2Music](https://google-research.github.io/noise2music/)
+
+[Augmenting Librispeech with French Translations: A Multimodal Corpus for Direct Speech Translation Evaluation](https://aclanthology.org/L18-1001/)
+
+```bibtex
+@inproceedings{kocabiyikoglu-etal-2018-augmenting,
+    title = "Augmenting Librispeech with {F}rench Translations: A Multimodal Corpus for Direct Speech Translation Evaluation",
+    author = "Kocabiyikoglu, Ali Can  and
+      Besacier, Laurent  and
+      Kraif, Olivier",
+    booktitle = "Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)",
+    month = may,
+    year = "2018",
+    address = "Miyazaki, Japan",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "https://aclanthology.org/L18-1001",
+}
+```
+
+[End-to-End Automatic Speech Translation of Audiobooks](https://arxiv.org/abs/1802.04200), [code](https://github.com/alex-berard/seq2seq)
+
+```bibtex
+@misc{berard2018speechtranslation,
+  doi = {10.48550/ARXIV.1802.04200},
+  url = {https://arxiv.org/abs/1802.04200},
+  author = {Bérard, Alexandre and Besacier, Laurent and Kocabiyikoglu, Ali Can and Pietquin, Olivier},
+  title = {End-to-End Automatic Speech Translation of Audiobooks},
+  publisher = {arXiv},
+  year = {2018},
+}
+
+```
+
+[Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543), [code](https://github.com/lllyasviel/ControlNet)
+
+```bibtex
+@misc{zhang2023controlnet,
+  doi = {10.48550/ARXIV.2302.05543},
+  author = {Zhang, Lvmin and Agrawala, Maneesh},
+  title = {Adding Conditional Control to Text-to-Image Diffusion Models},
+  publisher = {arXiv},
+  year = {2023},
+}
+```
+
+[New Year Concert 2017 Wiener Philarmoniker Part 1](https://www.dailymotion.com/video/x5727ds)
+
+
