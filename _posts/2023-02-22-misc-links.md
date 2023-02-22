@@ -262,4 +262,26 @@ gian} parliament, 1998–2016},
 
 [New Year Concert 2017 Wiener Philarmoniker Part 1](https://www.dailymotion.com/video/x5727ds)
 
+[LiroyvH/signal-export](https://github.com/LiroyvH/signal-export)
+
+[erwincoumans/motion_imitation](https://github.com/erwincoumans/motion_imitation)
+
+[MILVLG/openvqa](https://github.com/MILVLG/openvqa)
+
+[patilli/vqa_benchmarking](https://github.com/patilli/vqa_benchmarking)
+
+[Fine-tune FLAN-T5 for chat & dialogue summarization](https://www.philschmid.de/fine-tune-flan-t5)
+
+[BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning](https://arxiv.org/abs/1906.08158), [BlackHC/batchbald_redux](https://github.com/BlackHC/batchbald_redux)
+
+```bibtex
+@misc{kirsch2019batchbald,
+  doi = {10.48550/ARXIV.1906.08158},
+  author = {Kirsch, Andreas and van Amersfoort, Joost and Gal, Yarin},
+  title = {BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning},
+  publisher = {arXiv},
+  year = {2019},
+}
+```
+
 
