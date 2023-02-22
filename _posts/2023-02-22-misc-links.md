@@ -71,4 +71,45 @@ gian} parliament, 1998–2016},
 }
 ```
 
+[Counting in Northern Sami](https://www.languagesandnumbers.com/how-to-count-in-northern-sami/en/sme/) -- [French wiktionary](https://fr.wiktionary.org/wiki/guokte) seems to have good inflection information.
 
+[Egri Csillagok](https://librivox.org/egri-csillagok-by-geza-gardonyi/)
+
+[Weighted finite-state transducers: the later years](https://www.wellformedness.com/courses/fstp/later-years.pdf)
+
+[Minimally Supervised Number Normalization](https://aclanthology.org/Q16-1036/)
+```bibtex
+@article{gorman-sproat-2016-minimally,
+    title = "Minimally Supervised Number Normalization",
+    author = "Gorman, Kyle  and
+      Sproat, Richard",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "4",
+    year = "2016",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/Q16-1036",
+    doi = "10.1162/tacl_a_00114",
+    pages = "507--519",
+}
+```
+
+[Structured abbreviation expansion in context](https://aclanthology.org/2021.findings-emnlp.85/)
+
+```bibtex
+@inproceedings{gorman-etal-2021-structured-abbreviation,
+    title = "Structured abbreviation expansion in context",
+    author = "Gorman, Kyle  and
+      Kirov, Christo  and
+      Roark, Brian  and
+      Sproat, Richard",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.85",
+    doi = "10.18653/v1/2021.findings-emnlp.85",
+    pages = "995--1005",
+}
+```
