@@ -64,17 +64,8 @@ https://github.com/facebookresearch/metaseq/issues/162
 KoboldAI/OPT-2.7B-Nerys-v2 · Hugging Face
 https://huggingface.co/KoboldAI/OPT-2.7B-Nerys-v2
 
-metaseq/projects/OPT at main · facebookresearch/metaseq
-https://github.com/facebookresearch/metaseq/tree/main/projects/OPT
-
-clarinpl_studio.py · jimregan/clarinpl_studio at main
-https://huggingface.co/datasets/jimregan/clarinpl_studio/blob/main/clarinpl_studio.py
-
-KTH/waxholm · Datasets at Hugging Face
-https://huggingface.co/datasets/KTH/waxholm
-
-jimregan/riksantikvarieambetet-video-raw at raw-data
-https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw/tree/raw-data
+facebookresearch/metaseq: Repo for external large-scale work
+https://github.com/facebookresearch/metaseq
 
 Intro-to-Transducers.ipynb - Colaboratory
 https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/Intro_to_Transducers.ipynb
@@ -94,7 +85,7 @@ https://huggingface.co/datasets/KTH/nst/blob/main/nst.py
 Commits · jimregan/riksantikvarieambetet-video-raw
 https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw/commits/raw-data
 
-(63) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
+(64) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
 https://www.youtube.com/watch?v=qyKA3FPcPAM
 
 CE-2022-2118-CLARIN2022_ConferenceProceedings.pdf
@@ -181,9 +172,6 @@ https://github.com/microsoft/unilm/issues/234
 microsoft/beit-large-patch16-224 · Hugging Face
 https://huggingface.co/microsoft/beit-large-patch16-224
 
-pympi/test_elan.py at master · dopefishh/pympi
-https://github.com/dopefishh/pympi/blob/master/test/test_elan.py
-
 Pauses, gaps and overlaps in conversations - ScienceDirect
 https://www.sciencedirect.com/science/article/pii/S0095447010000628
 
@@ -210,9 +198,6 @@ https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDJLLs82TsoyYPTiKsnPq1RISk0tKQY
 
 AdolfVonKleist/Phonetisaurus: Phonetisaurus G2P
 https://github.com/AdolfVonKleist/Phonetisaurus
-
-phonetisaurus · PyPI
-https://pypi.org/project/phonetisaurus/
 
 AdolfVonKleist/Phonetisaurus: Phonetisaurus G2P
 https://github.com/AdolfVonKleist/Phonetisaurus
@@ -244,158 +229,17 @@ https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/tts/models.h
 NeMo/NeMo_TTS_Primer.ipynb at stable · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/stable/tutorials/tts/NeMo_TTS_Primer.ipynb
 
-New Tab
-chrome://newtab/
-
 FstContrib < Contrib < TWiki
 https://www.openfst.org/twiki/bin/view/Contrib/FstContrib
 
-specializer/specializer.pyx at master · shiranD/specializer
-https://github.com/shiranD/specializer/blob/master/specializer.pyx
-
-coli_a_00198.pdf
-https://watermark.silverchair.com/coli_a_00198.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAr0wggK5BgkqhkiG9w0BBwagggKqMIICpgIBADCCAp8GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMkqNB9bHIQJe6R2qgAgEQgIICcDkLLfwMkjlWBfREhNaBTOAz0a1udJ1BC7hY6DOrphnyMFmi1v-6uVzvG4pt-4AvVpYWI4QRNf9AorvCLRxVvDVPy_ZMSBUqEmVv0UcQR02DHuK7gbosOeFg9X4O5L192SeSvoVDVLG_jw6yNG_iKHL_WAplxC1fgk5JpI0cL10XPro4kJfdVoKr7wm6uOM7IEDK5WVXEuFy2-eA36HniRysRLDjmEmWZaazFzXpNCeLo3rEXmCLAyfL3BQKAiG__FaKECPWrpUdB3zTjtCwrSeRIq3u6SGLAJuufTH_M6tv5LA_71X-dp4qmFUrDxcIfKtiOxIWWimSLHnahQQko4s_83wzVK_jdXFgv22ZHkmc8KLOpKNheOvINUCSIy7k9BMAyKoTFYtkp-LGKqlAPCoZUol9c7yzeHfS-URRcNdpEenvBYmZ8Pf-peqhjN1-hU3gvQQX17ixPcDiRC2ZObjdWnPMlRcOxAsbYDugwQF9zDO-GVQeQkKSmL8F607dR3B4T_bEltv_MRa8wkSjTcMW77R6WkzSBlVvDISVX4PLyUnL8o9OktFBxTeMRK70Ac5ZUZcHbaO7cGw1eCE_fi0PgGDb2JFCC_S5BebqaAUmZi5sZF8ngG0dfSegytKMAXXiV8BUI3lltN16dqmWZqErOOTJsyPK5LYuAOxTRSICqt8yCOYZpIEF4JzOo_dgyG6KNWSEEQgMIj65O1PgJb60SCrndgAXFUI4UEVlLCGSDi1fbOgNsH-h8z78a9q8EK-7KOls1NjoF6WBsorUKRXm46v843GoTLEdtt7kPoi9gM7TMjVdLRVOIw5JBzoGUw
+shiranD/specializer: Python Library to convert vector fsts ro special fsts
+https://github.com/shiranD/specializer
 
 Jimín Mháire Thaidhg - Leathanach 23 | Leigh Leat
 https://www.leighleat.com/pages/207
 
-Search results for "leotha" - Wiktionary
-https://en.wiktionary.org/w/index.php?fulltext=1&search=leotha&title=Special:Search&ns0=1&searchToken=bueuaawkoj9gj9q2zos1q1741
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): ris
-https://www.teanglann.ie/en/fgb/ris
-
-pzelasko/Pynini: Read-only mirror of Pynini
-https://github.com/pzelasko/Pynini
-
-pynini/pynini/lib at master · kylebgorman/pynini
-https://github.com/kylebgorman/pynini/tree/master/pynini/lib
-
-pynini/paradigms.py at master · kylebgorman/pynini
-https://github.com/kylebgorman/pynini/blob/master/pynini/lib/paradigms.py
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): leothu
-https://www.teanglann.ie/en/fgb/leothu
-
-jimregan’s gists
-https://gist.github.com/jimregan?page=2
-
-wav-to-tlog.py
-https://gist.github.com/jimregan/e2b7666c5c6397d7939b0ca97354f314
-
-README.txt
-https://gist.github.com/jimregan/197d539804e187d27f07a116b6e5325f
-
-Cois Fharraige
-https://gist.github.com/jimregan/00a458a338f83314c8c95fa253e0f89e
-
-README
-https://gist.github.com/jimregan/2c68a47482656b7af86a71c439dc9a19
-
-README.txt
-https://gist.github.com/jimregan/d8ffb4d8d0874af51114318469a3ed19
-
-make-alignables.pl
-https://gist.github.com/jimregan/c4a80da0203b04257397c56932d4c838
-
-Legal notice
-https://www.europarl.europa.eu/legal-notice/en/home
-
-README.txt
-https://gist.github.com/jimregan/7e6031ac60260903be011adf9b3e5539
-
-ccga.py
-https://gist.github.com/jimregan/66612f4ecb88ed96d41d43266e6d0872
-
-Phonetics & Speech Lab, TCD
-https://github.com/orgs/phonlab-tcd/repositories
-
-phonlab-tcd/cula4-ar-scoil-subtitles
-https://github.com/phonlab-tcd/cula4-ar-scoil-subtitles
-
-phonlab-tcd/cula4-cruinniu-na-nog-2021
-https://github.com/phonlab-tcd/cula4-cruinniu-na-nog-2021
-
-phonlab-tcd/mfa_alignments
-https://github.com/phonlab-tcd/mfa_alignments
-
-Re: [NVIDIA/NeMo-text-processing] Northern Sámi TN (PR #11) - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
-https://mail.google.com/mail/u/1/#search/is%3Aunread/FMfcgzGrbvBnmSvwRBfZnKWflxMlztst
-
-Northern Sámi TN by jimregan · Pull Request #11 · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pull/11
-
-social skills for aspergers adults - Google Search
-https://www.google.com/search?q=social+skills+for+aspergers+adults&rlz=1C5GCEM_enSE990SE991&oq=social+behavior+for+asper&aqs=chrome.2.69i57j0i22i30i625l2j0i22i30j0i22i30i625j0i22i30l3j0i22i30i625l2.15733j0j7&sourceid=chrome&ie=UTF-8
-
-Ways Adults With Less-Severe Autism Spectrum Disorder / Asperger's Syndrome Can Improve Their Social Skills | www.succeedsocially.com
-https://www.succeedsocially.com/helpaspergers
-
-Free training | SocialSelf
-https://socialself.com/free/?aff=k5hy6
-
-There's No Single List Of Social Rules And Norms | www.succeedsocially.com
-https://www.succeedsocially.com/whynolistofsocialrules
-
-Succeed Socially.com | Free Social Skills Guide For Adults
-https://www.succeedsocially.com/
-
-The Site's Articles | www.succeedsocially.com
-https://www.succeedsocially.com/articlecategories
-
-Articles On Developmental Differences | www.succeedsocially.com
-https://www.succeedsocially.com/articlesdevelopmental
-
-How Mild Autism Spectrum Disorder / High-Functioning Autism / Asperger's Syndrome Affects Adults Socially | www.succeedsocially.com
-https://www.succeedsocially.com/aspergers
-
-Is It Worthwhile To Seek A Formal Autism Spectrum Disorder Diagnosis If You Think You Have It? | www.succeedsocially.com
-https://www.succeedsocially.com/aspergersdiagnosis
-
-Articles On Meeting People And Making Friends
-https://www.succeedsocially.com/articlesmakingfriends
-
-Articles On Shyness, Anxiety, Insecurities, And Other Distressing Emotions | www.succeedsocially.com
-https://www.succeedsocially.com/articlesmoods
-
-Some Basic Concepts About Maladaptive Thoughts | www.succeedsocially.com
-https://www.succeedsocially.com/thoughtconcepts
-
-Challenging Maladaptive Thoughts | www.succeedsocially.com
-https://www.succeedsocially.com/challengethoughts
-
-Some Points To Be Aware Of Before You Try To Build Your Self-Confidence | www.succeedsocially.com
-https://www.succeedsocially.com/confidencedisclaimers
-
-How To Increase Your Overall Self-Esteem Or Self-Confidence | www.succeedsocially.com
-https://www.succeedsocially.com/selfesteem
-
-A Way To Handle Uncomfortable Cringey Memories Of Your Social Mistakes | www.succeedsocially.com
-https://www.succeedsocially.com/cringememory
-
-(20) YouTube
-https://www.youtube.com/
-
 (47) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
 https://www.youtube.com/watch?v=qyKA3FPcPAM&t=340s
-
-Google Translate
-https://translate.google.com/?sl=en&tl=hu&text=from%2012%3A30%3A30%20CET&op=translate
-
-Dublin – Wikipédia
-https://hu.wikipedia.org/wiki/Dublin
-
-Dublin – Wikipedia
-https://sv.wikipedia.org/wiki/Dublin
-
-Dublin - Wikipedia
-https://en.wikipedia.org/wiki/Dublin
-
-Father Mathew Bridge - Wikipedia
-https://en.wikipedia.org/wiki/Father_Mathew_Bridge#/map/0
-
-New Tab
-chrome://newtab/
 
 INTERSPEECH 2022
 https://www.interspeech2022.org/
@@ -832,7 +676,7 @@ https://arxiv.org/pdf/2205.01068.pdf
 2203.16502.pdf
 https://arxiv.org/pdf/2203.16502.pdf
 
-(63) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
+(65) FULL Graham Norton Show 3/2/2023 Michelle Yeoh, Austin Butler, Jack Lowden, Ashley Banjo, Mimi Webb - YouTube
 https://www.youtube.com/watch?v=qyKA3FPcPAM
 
 Reddit - Dive into anything
@@ -877,7 +721,7 @@ https://github.com/linto-ai/whisper-timestamped/blob/master/whisper_timestamped/
 Fine-tune FLAN-T5 XL/XXL using DeepSpeed & Hugging Face Transformers
 https://www.philschmid.de/fine-tune-flan-t5-deepspeed
 
-(63) Would I Lie To You S16E07, Would I Lie To You full episode - YouTube
+(65) Would I Lie To You S16E07, Would I Lie To You full episode - YouTube
 https://www.youtube.com/watch?v=YSn0-JQT7fg
 
 pyannote/pyannote-audio: Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding
@@ -885,24 +729,6 @@ https://github.com/pyannote/pyannote-audio
 
 pyannote-audio/add_your_own_model.ipynb at develop · pyannote/pyannote-audio
 https://github.com/pyannote/pyannote-audio/blob/develop/tutorials/add_your_own_model.ipynb
-
-fairseq/examples/wav2vec/README.md · OFA-Sys/OFA-Generic_Interface at main
-https://huggingface.co/spaces/OFA-Sys/OFA-Generic_Interface/blob/main/fairseq/examples/wav2vec/README.md
-
-Getting timestamps on long audio | notes
-https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
-
-openslr.org
-http://www.openslr.org/resources.php
-
-openslr.org
-http://www.openslr.org/129/
-
-openslr.org
-http://www.openslr.org/117/
-
-openslr.org
-http://www.openslr.org/83/
 
 [1610.02424] Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models
 https://arxiv.org/abs/1610.02424
@@ -970,32 +796,11 @@ https://www.isca-speech.org/archive/pdfs/eurospeech_2003/riccardi03_eurospeech.p
 active-learning-asr - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/63f483090d05594f355b1df7
 
-FDD3001 VT23 Research: Theory, Method, Practice (60974)
-https://canvas.kth.se/courses/42454
-
-Lecture Slides: FDD3001 VT23 Research: Theory, Method, Practice (60974)
-https://canvas.kth.se/courses/42454/pages/lecture-slides
-
-(60) Andrej Karpathy - YouTube
-https://www.youtube.com/@AndrejKarpathy/videos
-
-Andrej Karpathy Launches Free ML Course ‘Neural Networks: Zero to Hero’
-https://analyticsindiamag.com/andrej-karpathy-launches-neural-networks-zero-to-hero-on-github/
-
 karpathy/nn-zero-to-hero: Neural Networks: Zero to Hero
 https://github.com/karpathy/nn-zero-to-hero
 
-(63) 1. Introduction to Human Behavioral Biology - YouTube
+(65) 1. Introduction to Human Behavioral Biology - YouTube
 https://www.youtube.com/watch?v=NNnIGh9g6fA&list=PL848F2368C90DDC3D&index=1
-
-karpathy/nn-zero-to-hero: Neural Networks: Zero to Hero
-https://github.com/karpathy/nn-zero-to-hero
-
-How to download only subtitles of videos using youtube-dl - Super User
-https://superuser.com/questions/927523/how-to-download-only-subtitles-of-videos-using-youtube-dl
-
-arithmetic mean pytorch - Google Search
-https://www.google.com/search?q=arithmetic+mean+pytorch&rlz=1C5GCEM_enSE990SE991&oq=arithmetic+mean+pytor&aqs=chrome.1.69i57j33i160.7617j0j7&sourceid=chrome&ie=UTF-8
 
 Project Proposal - Google Docs
 https://docs.google.com/document/d/18R7k6zEZTz8FPGRwxXW0j6wiqIwjcrFEMGwAnsX2nBg/edit#
@@ -1009,7 +814,10 @@ https://jacobgil.github.io/deeplearning/activelearning
 [1906.08158] BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning
 https://arxiv.org/abs/1906.08158
 
-BlackHC/batchbald_redux: Reusable BatchBALD implementation
-https://github.com/BlackHC/batchbald_redux
+batchbald_redux/batchbald_redux at master · BlackHC/batchbald_redux
+https://github.com/BlackHC/batchbald_redux/tree/master/batchbald_redux
+
+whisper finetuning huggingface - Google Search
+https://www.google.com/search?q=whisper+finetuning+huggingface&rlz=1C5GCEM_enSE990SE991&oq=whisper+finetuning+huggingface+&aqs=chrome..69i57j33i10i160l2.7102j0j7&sourceid=chrome&ie=UTF-8
 
 
