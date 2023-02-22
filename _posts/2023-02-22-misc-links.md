@@ -471,3 +471,19 @@ gian} parliament, 1998–2016},
 [vitouphy/wav2vec2-xls-r-300m-phoneme](https://huggingface.co/vitouphy/wav2vec2-xls-r-300m-phoneme), [training](https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2)
 
 
+
+[lucidrains/audiolm-pytorch](https://github.com/lucidrains/audiolm-pytorch) -- Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
+
+[lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) -- Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
+[google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) -- A playbook for systematically maximizing the performance of deep learning models.
+
+[AN CAIGHDEÁN OIFIGIÚIL](https://data.oireachtas.ie/ie/oireachtas/caighdeanOifigiul/2017/2017-08-03_an-caighdean-oifigiuil-2017_en.pdf)
+
+[CLDR Irish](https://github.com/unicode-org/cldr/blob/main/common/rbnf/ga.xml)
+
+[stts-se/wikispeech-annotator](https://github.com/stts-se/wikispeech-annotator)
+
+[Castles and palaces of Greater Budapest](https://visithungary.com/category/castles-and-palaces-of-greater-budapest)
+
+
