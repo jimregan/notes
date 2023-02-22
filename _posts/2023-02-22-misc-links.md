@@ -181,3 +181,35 @@ gian} parliament, 1998–2016},
   year = {2022},
 }
 ```
+
+[Applications of Lexicographic Semirings to Problems in Speech and Language Processing](https://direct.mit.edu/coli/article/40/4/733/1496/Applications-of-Lexicographic-Semirings-to), [pdf](https://aclanthology.org/J14-4002.pdf)
+
+```bibtex
+@article{10.1162/COLI_a_00198,
+    author = {Sproat, Richard and Yarmohammadi, Mahsa and Shafran, Izhak and Roark, Brian},
+    title = "{Applications of Lexicographic Semirings to Problems in Speech and Language Processing}",
+    journal = {Computational Linguistics},
+    volume = {40},
+    number = {4},
+    pages = {733-761},
+    year = {2014},
+    month = {12},
+    issn = {0891-2017},
+    doi = {10.1162/COLI_a_00198},
+    url = {https://doi.org/10.1162/COLI\_a\_00198},
+}
+```
+
+[Shallow Fusion of Weighted Finite-State Transducer and Language Model for Text Normalization](https://www.isca-speech.org/archive/interspeech_2022/bakhturina22_interspeech.html)
+
+```bibtex
+@inproceedings{bakhturina22_interspeech,
+  author={Evelina Bakhturina and Yang Zhang and Boris Ginsburg},
+  title={{Shallow Fusion of Weighted Finite-State Transducer and Language Model for Text Normalization}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={491--495},
+  doi={10.21437/Interspeech.2022-11074}
+}
+```
+
