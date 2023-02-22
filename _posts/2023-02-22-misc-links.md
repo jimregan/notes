@@ -431,4 +431,22 @@ gian} parliament, 1998–2016},
 
 [Serving OPT-175B, BLOOM-176B and CodeGen-16B using Alpa](https://alpa.ai/tutorials/opt_serving.html)
 
+[k2-fsa/sherpa](https://github.com/k2-fsa/sherpa) -- Speech-to-text server framework with next-gen Kaldi
+
+[k2-fsa/kaldifst](https://github.com/k2-fsa/kaldifst) -- Python wrapper for OpenFST and its extensions from Kaldi. Also support reading/writing ark/scp files
+
+[NeMo Joint Intent and Slot Classification](https://github.com/NVIDIA/NeMo/blob/stable/tutorials/nlp/Joint_Intent_and_Slot_Classification.ipynb)
+
+[jonatasgrosman/wav2vec2-large-xlsr-53-hungarian](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-hungarian)
+
+[huspacy/huspacy](https://github.com/huspacy/huspacy)
+
+[Sami Manual](https://divvun.no/en/tale/Manual_Sami.pdf)
+
+[giellalt/lang-sme](https://github.com/giellalt/lang-sme)
+
+[Kvensk grammatikk](https://library.oapen.org/handle/20.500.12657/30995)
+
+[JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR)
+
 
