@@ -284,4 +284,77 @@ gian} parliament, 1998–2016},
 }
 ```
 
+[Dysarthric Speech Recognition From Raw Waveform with Parametric CNNs](https://www.isca-speech.org/archive/interspeech_2022/yue22_interspeech.html)
+
+```bibtex
+@inproceedings{yue22_interspeech,
+  author={Zhengjun Yue and Erfan Loweimi and Heidi Christensen and Jon Barker and Zoran Cvetkovic},
+  title={{Dysarthric Speech Recognition From Raw Waveform with Parametric CNNs}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={31--35},
+  doi={10.21437/Interspeech.2022-163}
+}
+```
+
+[Regularizing Transformer-based Acoustic Models by Penalizing Attention Weights](https://www.isca-speech.org/archive/interspeech_2022/lee22b_interspeech.html)
+
+```bibtex
+@inproceedings{lee22b_interspeech,
+  author={Munhak Lee and Joon-Hyuk Chang and Sang-Eon Lee and Ju-Seok Seong and Chanhee Park and Haeyoung Kwon},
+  title={{Regularizing Transformer-based Acoustic Models by Penalizing Attention Weights}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={56--60},
+  doi={10.21437/Interspeech.2022-362}
+}
+```
+
+[Use of prosodic and lexical cues for disambiguating wh-words in Korean](https://www.isca-speech.org/archive/interspeech_2022/song22b_interspeech.html)
+
+```bibtex
+@inproceedings{song22b_interspeech,
+  author={Jieun Song and Hae-Sung Jeon and Jieun Kiaer},
+  title={{Use of prosodic and lexical cues for disambiguating wh-words in Korean}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={81--85},
+  doi={10.21437/Interspeech.2022-561}
+}
+```
+
+[Generalized Keyword Spotting using ASR embeddings](https://www.isca-speech.org/archive/interspeech_2022/r22_interspeech.html)
+
+```bibtex
+@inproceedings{r22_interspeech,
+  author={Kirandevraj R and Vinod Kumar Kurmi and Vinay Namboodiri and C V Jawahar},
+  title={{Generalized Keyword Spotting using ASR embeddings}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={126--130},
+  doi={10.21437/Interspeech.2022-10450}
+}
+```
+
+[VoiceLab: Software for Fully Reproducible Automated Voice Analysis](https://www.isca-speech.org/archive/interspeech_2022/feinberg22_interspeech.html)
+
+```bibtex
+@inproceedings{feinberg22_interspeech,
+  author={David Feinberg},
+  title={{VoiceLab: Software for Fully Reproducible Automated Voice Analysis}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={351--355},
+  doi={10.21437/Interspeech.2022-113}
+}
+```
+
+[Hungarian word order](https://www.hungarianpod101.com/blog/2020/08/07/hungarian-word-order/)
+
+[Hangsúly a magyar nyelvben](http://epa.oszk.hu/04100/04182/00062/pdf/EPA04182_nyelvtudomanyi_kozlemenyek_1890_21_6_401-434.pdf)
+
+[A magyar nyelv könyve](https://mandadb.hu/dokumentum/494756/ozdvk004_000033_OCR.pdf)
+
+[neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) -- A multi-voice TTS system trained with an emphasis on quality
+
 
