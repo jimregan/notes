@@ -113,3 +113,35 @@ gian} parliament, 1998–2016},
     pages = "995--1005",
 }
 ```
+
+[FT Speech: Danish Parliament Speech Corpus](https://arxiv.org/abs/2005.12368)
+
+```bibtex
+@inproceedings{Kirkedal_2020,
+	doi = {10.21437/interspeech.2020-3164},
+	year = 2020,
+	month = {oct},
+	publisher = {{ISCA}
+},
+	author = {Andreas Kirkedal and Marija Stepanovi{\'{c}} and Barbara Plank},
+	title = {{FT} Speech: Danish Parliament Speech Corpus},
+	booktitle = {Interspeech 2020}
+}
+```
+
+[Committee-Based Active Learning for Speech Recognition](https://www.jstage.jst.go.jp/article/transinf/E94.D/10/E94.D_10_2015/_article)
+
+```bibtex
+@article{2011,
+  title={Committee-Based Active Learning for Speech Recognition},
+  author={Yuzo HAMANAKA and Koichi SHINODA and Takuya TSUTAOKA and Sadaoki FURUI and Tadashi EMORI and Takafumi KOSHINAKA},
+  journal={IEICE Transactions on Information and Systems},
+  volume={E94.D},
+  number={10},
+  pages={2015-2023},
+  year={2011},
+  doi={10.1587/transinf.E94.D.2015}
+}
+```
+
+
