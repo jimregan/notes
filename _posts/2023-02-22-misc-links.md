@@ -357,4 +357,59 @@ gian} parliament, 1998–2016},
 
 [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) -- A multi-voice TTS system trained with an emphasis on quality
 
+[Parsing Icelandic Alþingi Transcripts: Parliamentary Speeches as a Genre](https://aclanthology.org/2020.parlaclarin-1.9/)
+
+```bibtex
+@inproceedings{runarsson-sigurdsson-2020-parsing,
+    title = "Parsing {I}celandic Al{\th}ingi Transcripts: Parliamentary Speeches as a Genre",
+    author = "R{\'u}narsson, Kristj{\'a}n  and
+      Sigur{\dh}sson, Einar Freyr",
+    booktitle = "Proceedings of the Second ParlaCLARIN Workshop",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.parlaclarin-1.9",
+    pages = "44--50",
+    language = "English",
+    ISBN = "979-10-95546-47-4",
+}
+```
+
+[Unified Speech-Text Pre-training for Speech Translation and Recognition](https://arxiv.org/abs/2204.05409)
+
+```bibtex
+@misc{tang2022unified,
+  doi = {10.48550/ARXIV.2204.05409},
+  author = {Tang, Yun and Gong, Hongyu and Dong, Ning and Wang, Changhan and Hsu, Wei-Ning and Gu, Jiatao and Baevski, Alexei and Li, Xian and Mohamed, Abdelrahman and Auli, Michael and Pino, Juan},
+  title = {Unified Speech-Text Pre-training for Speech Translation and Recognition},
+  year = {2022},
+}
+```
+
+[s2s-ft: Sequence-to-Sequence Fine-Tuning](https://github.com/microsoft/unilm/tree/master/s2s-ft)
+
+[SpeechLM: Enhanced Speech Pre-Training with Unpaired Textual Data](https://arxiv.org/abs/2209.15329)
+
+```bibtex
+@misc{zhang2022speechlm,
+  doi = {10.48550/ARXIV.2209.15329},
+  author = {Zhang, Ziqiang and Chen, Sanyuan and Zhou, Long and Wu, Yu and Ren, Shuo and Liu, Shujie and Yao, Zhuoyuan and Gong, Xun and Dai, Lirong and Li, Jinyu and Wei, Furu},
+  title = {SpeechLM: Enhanced Speech Pre-Training with Unpaired Textual Data},
+  year = {2022},
+}
+```
+
+[Active learning in speech recognition](https://alphacephei.com/nsh/2021/07/13/active-learning.html)
+
+[open-mmlab/mmhuman3d](https://github.com/open-mmlab/mmhuman3d) -- OpenMMLab 3D Human Parametric Model Toolbox and Benchmark
+
+[zapis liczb wielocyfrowych](https://sjp.pwn.pl/poradnia/haslo/zapis-liczb-wielocyfrowych;9842.html) -- spacjami
+
+[r9y9/pyreaper](https://github.com/r9y9/pyreaper) -- A python wrapper for REAPER
+
+[Fine-tune FLAN-T5 for chat & dialogue summarization](https://github.com/philschmid/deep-learning-pytorch-huggingface/blob/main/training/flan-t5-samsum-summarization.ipynb)
+
+[Getting Started with DeepSpeed for Inferencing Transformer based Models](https://www.deepspeed.ai/tutorials/inference-tutorial/)
+
 
