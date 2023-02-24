@@ -669,4 +669,170 @@ networks](https://www.isca-speech.org/archive/interspeech_2022/udupa22_interspee
 
 [Aditya3107/wav2vec2-Irish-common-voice-Fleurs-living-audio-300m](https://huggingface.co/Aditya3107/wav2vec2-Irish-common-voice-Fleurs-living-audio-300m)
 
+[microsoft/trocr-large-handwritten](https://huggingface.co/microsoft/trocr-large-handwritten)
+
+[BEiT v2 Pretraining](https://github.com/microsoft/unilm/blob/master/beit2/PRETRAINING.md)
+
+[TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models](https://arxiv.org/abs/2109.10282)
+
+```bibtex
+@misc{li2021trocr,
+  doi = {10.48550/ARXIV.2109.10282},
+  author = {Li, Minghao and Lv, Tengchao and Chen, Jingye and Cui, Lei and Lu, Yijuan and Florencio, Dinei and Zhang, Cha and Li, Zhoujun and Wei, Furu},
+  title = {TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models},
+  year = {2021},
+}
+```
+
+[Pauses, gaps and overlaps in conversations](https://www.sciencedirect.com/science/article/pii/S0095447010000628)
+
+[dmort27/morphotactics](https://github.com/dmort27/morphotactics) -- Library for implementing morphotactic FSTs using Pynini and OpenFST
+
+[25 Hungarian Words that every foreigner should learn](https://www.swedishnomad.com/hungarian-words/)
+
+[LMC-SMCA: A New Active Learning Method in ASR](https://ieeexplore.ieee.org/document/9363163)
+
+```bibtex
+@ARTICLE{9363163,
+  author={Sun, Xiusong and Wang, Bo and Liu, Shaohan and Lu, Tingxiang and Shan, Xin and Yang, Qun},
+  journal={IEEE Access}, 
+  title={LMC-SMCA: A New Active Learning Method in ASR}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={37011-37021},
+  doi={10.1109/ACCESS.2021.3062157}}
+```
+
+[Active Learning For Automatic Speech Recognition](https://www.researchgate.net/publication/2935348_Active_Learning_For_Automatic_Speech_Recognition)
+
+```bibtex
+@article{hakkanitur2002active,
+author = {Hakkani-Tur, Dilek and Gorin, Allen},
+year = {2002},
+month = {09},
+pages = {},
+title = {Active Learning For Automatic Speech Recognition},
+journal = {Acoustics, Speech, and Signal Processing, 1988. ICASSP-88., 1988 International Conference on},
+doi = {10.1109/ICASSP.2002.5745510}
+}
+```
+
+[Maximizing global entropy reduction for active learning in speech recognition](https://ieeexplore.ieee.org/document/4960685)
+
+```bibtex
+@INPROCEEDINGS{4960685,
+  author={Varadarajan, Balakrishnan and Yu, Dong and Li Deng and Acero, Alex},
+  booktitle={2009 IEEE International Conference on Acoustics, Speech and Signal Processing}, 
+  title={Maximizing global entropy reduction for active learning in speech recognition}, 
+  year={2009},
+  volume={},
+  number={},
+  pages={4721-4724},
+  doi={10.1109/ICASSP.2009.4960685}}
+```
+
+[Active learning for accent adaptation in Automatic Speech Recognition](https://ieeexplore.ieee.org/document/6424250)
+
+```bibtex
+@INPROCEEDINGS{6424250,
+  author={Nallasamy, Udhyakumar and Metze, Florian and Schultz, Tanja},
+  booktitle={2012 IEEE Spoken Language Technology Workshop (SLT)}, 
+  title={Active learning for accent adaptation in Automatic Speech Recognition}, 
+  year={2012},
+  volume={},
+  number={},
+  pages={360-365},
+  doi={10.1109/SLT.2012.6424250}}
+```
+
+[Active learning: theory and applications to automatic speech recognition](https://ieeexplore.ieee.org/document/1453593)
+
+```bibtex
+@ARTICLE{1453593,
+  author={Riccardi, G. and Hakkani-Tur, D.},
+  journal={IEEE Transactions on Speech and Audio Processing}, 
+  title={Active learning: theory and applications to automatic speech recognition}, 
+  year={2005},
+  volume={13},
+  number={4},
+  pages={504-511},
+  doi={10.1109/TSA.2005.848882}}
+```
+
+[A confusion network based confidence measure for active learning in speech recognition](https://ieeexplore.ieee.org/document/4906813)
+
+```bibtex
+@INPROCEEDINGS{4906813,
+  author={Chen, Wei and Liu, Gang and Guo, Jun},
+  booktitle={2008 International Conference on Natural Language Processing and Knowledge Engineering}, 
+  title={A confusion network based confidence measure for active learning in speech recognition}, 
+  year={2008},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/NLPKE.2008.4906813}}
+```
+
+[Active learning for automatic speech recognition](https://ieeexplore.ieee.org/document/5745510)
+
+```bibtex
+@INPROCEEDINGS{5745510,
+  author={Hakkani-Tür, Dilek and Riccardi, Giuseppe and Gorin, Allen},
+  booktitle={2002 IEEE International Conference on Acoustics, Speech, and Signal Processing}, 
+  title={Active learning for automatic speech recognition}, 
+  year={2002},
+  volume={4},
+  number={},
+  pages={IV-3904-IV-3907},
+  doi={10.1109/ICASSP.2002.5745510}}
+```
+
+[karpathy/nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero)
+
+[ej0cl6/deep-active-learning](https://github.com/ej0cl6/deep-active-learning)
+
+[Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning)
+
+[SpeechPainter: Text-conditioned Speech Inpainting](https://www.isca-speech.org/archive/interspeech_2022/borsos22_interspeech.html)
+
+```bibtex
+@inproceedings{borsos22_interspeech,
+  author={Zalan Borsos and Matthew Sharifi and Marco Tagliasacchi},
+  title={{SpeechPainter: Text-conditioned Speech Inpainting}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={431--435},
+  doi={10.21437/Interspeech.2022-194}
+}
+```
+
+[Active and unsupervised learning for automatic speech recognition](https://www.isca-speech.org/archive/eurospeech_2003/riccardi03_eurospeech.html), [pdf](https://www.isca-speech.org/archive/pdfs/eurospeech_2003/riccardi03_eurospeech.pdf)
+
+```bibtex
+@inproceedings{riccardi03_eurospeech,
+  author={Giuseppe Riccardi and Dilek Z. Hakkani-Tur},
+  title={{Active and unsupervised learning for automatic speech recognition}},
+  year=2003,
+  booktitle={Proc. 8th European Conference on Speech Communication and Technology (Eurospeech 2003)},
+  pages={1825--1828},
+  doi={10.21437/Eurospeech.2003-552}
+}
+```
+
+[Committee-Based Active Learning for Speech Recognition](https://www.jstage.jst.go.jp/article/transinf/E94.D/10/E94.D_10_2015/_article), [pdf](https://www.jstage.jst.go.jp/article/transinf/E94.D/10/E94.D_10_2015/_pdf)
+
+```bibtex
+@article{hamanaka2011committee,
+  title={Committee-Based Active Learning for Speech Recognition},
+  author={Yuzo HAMANAKA and Koichi SHINODA and Takuya TSUTAOKA and Sadaoki FURUI and Tadashi EMORI and Takafumi KOSHINAKA},
+  journal={IEICE Transactions on Information and Systems},
+  volume={E94.D},
+  number={10},
+  pages={2015-2023},
+  year={2011},
+  doi={10.1587/transinf.E94.D.2015}
+}
+```
+
 
