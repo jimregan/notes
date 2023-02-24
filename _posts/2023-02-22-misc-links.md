@@ -357,6 +357,8 @@ gian} parliament, 1998–2016},
 
 [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) -- A multi-voice TTS system trained with an emphasis on quality
 
+[TorToiSe - Spending Compute for High Quality TTS](https://docs.google.com/document/d/13O_eyY65i6AkNrN_LdPhpUjGhyTNKYHvDrIvHnHe1GA/edit)
+
 [Parsing Icelandic Alþingi Transcripts: Parliamentary Speeches as a Genre](https://aclanthology.org/2020.parlaclarin-1.9/)
 
 ```bibtex
@@ -512,7 +514,7 @@ gian} parliament, 1998–2016},
 [Domain-Adversarial Training of Neural Networks](https://arxiv.org/abs/1505.07818)
 
 ```bibtex
-@article{https://doi.org/10.48550/arxiv.1505.07818,
+@article{ganin2015domainadversarial,
   doi = {10.48550/ARXIV.1505.07818},
   author = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, François and Marchand, Mario and Lempitsky, Victor},
   title = {Domain-Adversarial Training of Neural Networks},
@@ -523,7 +525,7 @@ gian} parliament, 1998–2016},
 [CLSE: Corpus of Linguistically Significant Entities](https://arxiv.org/abs/2211.02423), [corpus](https://github.com/google-research-datasets/clse)
 
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.2211.02423,
+@misc{chuklin2022clse,
   doi = {10.48550/ARXIV.2211.02423},
   author = {Chuklin, Aleksandr and Zhao, Justin and Kale, Mihir},
   title = {CLSE: Corpus of Linguistically Significant Entities},
@@ -533,7 +535,7 @@ gian} parliament, 1998–2016},
 
 [Linguistic Framing of Political Terror: Distant and Close Readings of the Discourse on Terrorism in the Swedish Parliament 1993–2018](https://office.clarin.eu/v/CE-2022-2118-CLARIN2022_ConferenceProceedings.pdf#page=75)
 ```bibtex
-@inProceedings{Ängsal-MagnusPettersson2022-318676,
+@inProceedings{angsal2022framing,
 	title        = {Linguistic Framing of Political Terror: Distant and Close Readings of the Discourse on Terrorism in the Swedish Parliament 1993–2018},
 	booktitle    = {CLARIN Annual Conference Proceedings, 10–12 October 2022, Prague, Czechia. Eds. Tomaž Erjavec & Maria Eskevich},
 	author       = {Ängsal, Magnus Pettersson and Brodén, Daniel and Fridlund, Mats and Olsson, Leif-Jöran and Öhberg, Patrik},
@@ -545,7 +547,7 @@ gian} parliament, 1998–2016},
 [Finland Swedish Automatic Speech Recognition](https://aaltodoc.aalto.fi/handle/123456789/113719), [pdf](https://aaltodoc.aalto.fi/bitstream/handle/123456789/113719/master_Raitolahti_Otto-Ville_2022.pdf?sequence=1)
 
 ```bibtex
-@mastersthesis{Raitolahti2022,
+@mastersthesis{raitolahti2022,
 title={{Finland Swedish Automatic Speech Recognition}},
 author={Raitolahti, Otto-Ville},
 year={2022},
@@ -560,7 +562,7 @@ url={http://urn.fi/URN:NBN:fi:aalto-202203272601}
 [Building an ASR Corpus Using Althingi’s Parliamentary Speeches](https://www.isca-speech.org/archive_v0/Interspeech_2017/abstracts/0903.html)
 
 ```bibtex
-@inproceedings{Helgadóttir2017,
+@inproceedings{helgadottir2017,
   author={Inga Rún Helgadóttir and Róbert Kjaran and Anna Björk Nikulásdóttir and Jón Guðnason},
   title={Building an ASR Corpus Using Althingi’s Parliamentary Speeches},
   year=2017,
@@ -624,4 +626,18 @@ networks](https://www.isca-speech.org/archive/interspeech_2022/udupa22_interspee
 }
 ```
 
+[SIGUL 2023](https://sigul-2023.ilc.cnr.it/)
+
+[Active learning in speech recognition](https://alphacephei.com/nsh/2021/07/13/active-learning.html)
+
+[Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models](https://arxiv.org/abs/1610.02424)
+
+```bibtex
+@misc{vijayakumar2016diversebeamsearch,
+  doi = {10.48550/ARXIV.1610.02424},
+  author = {Vijayakumar, Ashwin K and Cogswell, Michael and Selvaraju, Ramprasath R. and Sun, Qing and Lee, Stefan and Crandall, David and Batra, Dhruv},
+  title = {Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models},
+  year = {2016},
+}
+```
 
