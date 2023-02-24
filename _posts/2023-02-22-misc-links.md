@@ -28,7 +28,7 @@ categories: [links]
 
 ```bibtex
 @inproceedings{jia2022cvss,
-    title={{CVSS} Corpus and Massively Multilingual Speech-to-Speech Translation},
+    title={ {CVSS} Corpus and Massively Multilingual Speech-to-Speech Translation},
     author={Jia, Ye and Tadmor Ramanovich, Michelle and Wang, Quan and Zen, Heiga},
     booktitle={Proceedings of Language Resources and Evaluation Conference (LREC)},
     pages={6691--6703},
