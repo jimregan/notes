@@ -641,3 +641,32 @@ networks](https://www.isca-speech.org/archive/interspeech_2022/udupa22_interspee
 }
 ```
 
+[Towards Multimodal Sarcasm Detection (An _Obviously_ Perfect Paper)](https://aclanthology.org/P19-1455/)
+
+```bibtex
+@inproceedings{castro-etal-2019-towards,
+    title = "Towards Multimodal Sarcasm Detection (An {\_}{O}bviously{\_} Perfect Paper)",
+    author = "Castro, Santiago  and
+      Hazarika, Devamanyu  and
+      P{\'e}rez-Rosas, Ver{\'o}nica  and
+      Zimmermann, Roger  and
+      Mihalcea, Rada  and
+      Poria, Soujanya",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1455",
+    doi = "10.18653/v1/P19-1455",
+    pages = "4619--4629",
+}
+```
+
+[jbetker/wav2vec2-large-robust-ft-libritts-voxpopuli](https://huggingface.co/jbetker/wav2vec2-large-robust-ft-libritts-voxpopuli)
+
+[facebook/wav2vec2-xlsr-53-phon-cv-babel-ft](https://huggingface.co/facebook/wav2vec2-xlsr-53-phon-cv-babel-ft)
+
+[Aditya3107/wav2vec2-Irish-common-voice-Fleurs-living-audio-300m](https://huggingface.co/Aditya3107/wav2vec2-Irish-common-voice-Fleurs-living-audio-300m)
+
+
