@@ -835,4 +835,14 @@ doi = {10.1109/ICASSP.2002.5745510}
 }
 ```
 
+[Adaptable End-to-End ASR Models using Replaceable Internal LMs and Residual Softmax](https://arxiv.org/abs/2302.08579)
+
+```bibtex
+@misc{deng2023adaptableasr,
+  doi = {10.48550/ARXIV.2302.08579},
+  author = {Deng, Keqi and Woodland, Philip C.},
+  title = {Adaptable End-to-End ASR Models using Replaceable Internal LMs and Residual Softmax},
+  year = {2023},
+}
+```
 
