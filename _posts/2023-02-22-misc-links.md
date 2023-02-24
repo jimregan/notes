@@ -508,3 +508,120 @@ gian} parliament, 1998–2016},
   year = {2019},
 }
 ```
+
+[Domain-Adversarial Training of Neural Networks](https://arxiv.org/abs/1505.07818)
+
+```bibtex
+@article{https://doi.org/10.48550/arxiv.1505.07818,
+  doi = {10.48550/ARXIV.1505.07818},
+  author = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, François and Marchand, Mario and Lempitsky, Victor},
+  title = {Domain-Adversarial Training of Neural Networks},
+  year = {2015},
+}
+```
+
+[CLSE: Corpus of Linguistically Significant Entities](https://arxiv.org/abs/2211.02423), [corpus](https://github.com/google-research-datasets/clse)
+
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2211.02423,
+  doi = {10.48550/ARXIV.2211.02423},
+  author = {Chuklin, Aleksandr and Zhao, Justin and Kale, Mihir},
+  title = {CLSE: Corpus of Linguistically Significant Entities},
+  year = {2022},
+}
+```
+
+[Linguistic Framing of Political Terror: Distant and Close Readings of the Discourse on Terrorism in the Swedish Parliament 1993–2018](https://office.clarin.eu/v/CE-2022-2118-CLARIN2022_ConferenceProceedings.pdf#page=75)
+```bibtex
+@inProceedings{Ängsal-MagnusPettersson2022-318676,
+	title        = {Linguistic Framing of Political Terror: Distant and Close Readings of the Discourse on Terrorism in the Swedish Parliament 1993–2018},
+	booktitle    = {CLARIN Annual Conference Proceedings, 10–12 October 2022, Prague, Czechia. Eds. Tomaž Erjavec & Maria Eskevich},
+	author       = {Ängsal, Magnus Pettersson and Brodén, Daniel and Fridlund, Mats and Olsson, Leif-Jöran and Öhberg, Patrik},
+	year         = {2022},
+	address      = {Prag},
+}
+```
+
+[Finland Swedish Automatic Speech Recognition](https://aaltodoc.aalto.fi/handle/123456789/113719), [pdf](https://aaltodoc.aalto.fi/bitstream/handle/123456789/113719/master_Raitolahti_Otto-Ville_2022.pdf?sequence=1)
+
+```bibtex
+@mastersthesis{Raitolahti2022,
+title={{Finland Swedish Automatic Speech Recognition}},
+author={Raitolahti, Otto-Ville},
+year={2022},
+language={English},
+pages={53},
+school={Aalto University. School of Science},
+type={Master's thesis},
+url={http://urn.fi/URN:NBN:fi:aalto-202203272601}
+}
+```
+
+[Building an ASR Corpus Using Althingi’s Parliamentary Speeches](https://www.isca-speech.org/archive_v0/Interspeech_2017/abstracts/0903.html)
+
+```bibtex
+@inproceedings{Helgadóttir2017,
+  author={Inga Rún Helgadóttir and Róbert Kjaran and Anna Björk Nikulásdóttir and Jón Guðnason},
+  title={Building an ASR Corpus Using Althingi’s Parliamentary Speeches},
+  year=2017,
+  booktitle={Proc. Interspeech 2017},
+  pages={2163--2167},
+  doi={10.21437/Interspeech.2017-903},
+  url={http://dx.doi.org/10.21437/Interspeech.2017-903}
+}
+```
+
+[Streaming model for Acoustic to Articulatory Inversion with transformer
+networks](https://www.isca-speech.org/archive/interspeech_2022/udupa22_interspeech.html), [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/udupa22_interspeech.pdf)
+
+```bibtex
+@inproceedings{udupa22_interspeech,
+  author={Sathvik Udupa and Aravind Illa and Prasanta Ghosh},
+  title={{Streaming model for Acoustic to Articulatory Inversion with transformer networks}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={625--629},
+  doi={10.21437/Interspeech.2022-10159}
+}
+```
+
+[Acquisition of allophonic variation in second language speech: An acoustic and articulatory study of English laterals by Japanese speakers](https://www.isca-speech.org/archive/interspeech_2022/nagamine22_interspeech.html), [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/nagamine22_interspeech.pdf)
+
+```bibtex
+@inproceedings{nagamine22_interspeech,
+  author={Takayuki Nagamine},
+  title={{Acquisition of allophonic variation in second language speech: An acoustic and articulatory study of English laterals by Japanese speakers}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={644--648},
+  doi={10.21437/Interspeech.2022-11020}
+}
+```
+
+[Unsupervised Text-to-Speech Synthesis by Unsupervised Automatic Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/ni22_interspeech.html), [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/ni22_interspeech.pdf)
+
+```bibtex
+@inproceedings{ni22_interspeech,
+  author={Junrui Ni and Liming Wang and Heting Gao and Kaizhi Qian and Yang Zhang and Shiyu Chang and Mark Hasegawa-Johnson},
+  title={{Unsupervised Text-to-Speech Synthesis by Unsupervised Automatic Speech Recognition}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={461--465},
+  doi={10.21437/Interspeech.2022-816}
+}
+```
+
+[Mixed-Phoneme BERT: Improving BERT with Mixed Phoneme and Sup-Phoneme Representations for Text to Speech](https://www.isca-speech.org/archive/interspeech_2022/zhang22i_interspeech.html), [pdf](https://www.isca-speech.org/archive/pdfs/interspeech_2022/zhang22i_interspeech.pdf)
+
+```bibtex
+@inproceedings{zhang22i_interspeech,
+  author={Guangyan Zhang and Kaitao Song and Xu Tan and Daxin Tan and Yuzi Yan and Yanqing Liu and Gang Wang and Wei Zhou and Tao Qin and Tan Lee and Sheng Zhao},
+  title={{Mixed-Phoneme BERT: Improving BERT with Mixed Phoneme and Sup-Phoneme Representations for Text to Speech}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={456--460},
+  doi={10.21437/Interspeech.2022-621}
+}
+```
+
+
