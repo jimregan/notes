@@ -498,3 +498,139 @@ git commit -m more
 git add stats5.ipynb 
 git commit -m more
 git diff
+cd ~/Playing/rd_ctm_edit/
+ls
+less GPC320160906CK1 
+less H001
+less H001AU
+less H001AU11 
+less H001AU12 
+ls
+ls
+find . -size 0
+less ./H001AU10 
+ls
+ls|wc
+ls -al
+ls
+ls |wc
+ls
+less GPC320160906CK1 
+grep None *
+ls |wc
+ls
+ls |wc
+LS
+ls
+ls ~/Playing/
+ls ~/Playing/rdapi/api_output/
+echo $HOME/Playing/rdapi/api_output/
+ls |wc
+ls |wc
+ls |wc
+ls
+find . -size 0
+less ./H0C320130418KU22
+ls -al
+less H301CU23
+ls -al
+less H301FiU5
+grep 'Failed to align' H*
+ls -al
+ls |wc
+ls |wc
+ls -al
+less H2C320150506CU15 
+ls |wc
+ls |wc
+ls -al
+ls |wc
+ls
+ls -al
+less H301KrU1
+ls|wc
+ls
+ls -al
+pwd
+ls
+ls -al
+less H501NU16 
+ls |wc
+ls ~/Playing/rdapi/api_output/*|wc
+less H501NU12 
+ls |wc
+ls
+ls ~/Playing/rdapi/api_output/*|wc
+find . -size 0
+ls|wc
+ls
+ls -al
+cat H501TU13
+ls|wc
+ls|wc
+ls|wc
+lsa
+ls
+ls
+ls|wc
+ls|wc
+ls|wc
+ls|wc
+ls|wc
+ls -al
+ls -al
+ls|wc
+less H810724
+ls|wc
+ls -al
+less H91038
+ls
+ls -al
+less H9C320211202TU4 
+find . -size 130
+cat ./H310485
+find . -size 0
+ls
+git add .
+git init .
+git branch -m main
+git add .
+git commit -m 'wav2vec2/Riksdag API alignments'
+ls -al 
+find . -name 'H*' -size 0
+find . -name 'H*' -size 0 |while read i;do git rm $i;done
+git remote add origin git@github.com:jimregan/wav2vec2-riksdag-api-alignments.git
+git branch -M main
+git commit -m 'remove empty files'
+git push -u origin main
+for i in *;do grep 'Failed to align ref and hypotheses' $i && git rm $i;done
+git commit -m 'remove files where alignment failed'
+git push -u origin main
+ls -al
+less H9C120211122bp
+for i in *;do cat $i |tail -n 1;done
+grep 2442207180020045221 *
+less H001FiU23 
+for i in *;do cat $i |tail -n 1;done | awk 'BEGIN{c=0}{c+=$3; if (c > (100 * 60 * 60)){print }}
+for i in *;do cat $i |tail -n 1;done | awk 'BEGIN{c=0}{c+=$3; if (c > (100 * 60 * 60)){print }}'
+for i in *;do cat $i |tail -n 1;done | awk 'BEGIN{c=0}{c+=$3; if (c < (150 * 60 * 60)){print}}'
+for i in *;do cat $i |tail -n 1;done | awk -v"file=$i" 'BEGIN{c=0}{c+=$3; if (c < (150 * 60 * 60)){print file"\t" $0}}'
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" 'BEGIN{c=0}{c+=$3; if (c < (150 * 60 * 60)){print file"\t" $0}}';done
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" '{print file "\t" $0}'; done
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" '{print file "\t" $0}'; done | awk 'BEGIN{c=0}{c+=$4; if (c < (150 * 60 * 60)){print file"\t" $0}}'
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" '{print file "\t" $0}'; done | awk 'BEGIN{c=0}{c+=$4; if (c < (150 * 60 * 60)){print }}'
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" '{print file "\t" $0}'; done | awk 'BEGIN{c=0}{c+=$4; if (c < (150 * 60 * 60)){print }}' > ~/Playing/rdapi_subset
+for i in *;do cat $i |tail -n 1| awk -v"file=$i" '{print file "\t" $0}'; done | awk 'BEGIN{c=0}{c+=$4; if (c < (250 * 60 * 60)){print }}' > ~/Playing/rdapi_subset
+less ~/Playing/rdapi_subset
+conda activate sync_asr
+conda activate syncasr
+pip install mosestokenizer
+echo $HOME/Playing/rdapi_subset
+ls ~/Playing/rdapi/api_output/
+echo $HOME/Playing/rdapi/api_output/
+pip install ipykernel
+which pip
+conda install pip
+conda install ipykernel
+ls
+history -a
