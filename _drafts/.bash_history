@@ -1,31 +1,3 @@
-git add ../M5/*mp4
-git status
-git add ../M5/*webm
-git status
-git status
-git add ../M5/*mkv
-git status
-git status
-git add ../M5/*webm
-git status
-git add ../M5/*mkv
-git status
-git status
-git add ../M5/*mkv
-git status
-git add ../M5/*webm
-git status
-git commit -m videos
-git push origin raw-videos 
-git status
-git add ../M5/*mkv
-git add ../M5/*mm4
-git add ../M5/*mp4
-git status
-git status
-git add ../M5/*webm
-git status
-git add ../M5/3g7j-UTRgcA.webm 
 git commit -m videos
 git status
 git push origin raw-videos 
@@ -500,3 +472,31 @@ ls
 ls|wc
 pwd
 less H9C320220119NU13
+python
+python
+python sync_asr/riksdag/extract_chunks.py 
+python sync_asr/riksdag/extract_chunks.py 
+python sync_asr/riksdag/extract_chunks.py  as
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+tail  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+tail  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6 
+python sync_asr/riksdag/extract_chunks.py  /Users/joregan/Playing/rd_ctm_edit/H301MJU6 > /tmp/output-sample.tsv
+git add sync_asr/riksdag/extract_chunks.py
+git commit -m 'now that I know what the output was to be, write the script'
+git add sync_asr/kaldi/segment_ctm_edits_mild.py
+git commit -m 'commit to revert
+git commit -m 'commit to revert'
+git log
+git revert f2a0fc4e21dd1af575944559e7247bebc5bbcfe8
+git branch
+git push origin data-extraction
+git remote show origin 
