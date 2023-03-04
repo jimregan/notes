@@ -1,7 +1,3 @@
-git status
-git add ./*.webm
-git add ./*.mkv
-git status
 ls
 git status
 git add ./*.mp4
@@ -498,3 +494,10 @@ git diff
 git add sync_asr/riksdag/corrections.py
 git branch
 git commit -m 'changes from Friday'
+ls
+python
+python
+python
+python
+python
+python
