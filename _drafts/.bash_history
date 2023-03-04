@@ -1,29 +1,3 @@
-git mv stats-week2.ipynb 2023-02-09-stats-week-2.ipynb
-git commit -m mv
-git mv 2023-02-09-stats-week-2.ipynb ../_notebooks/
-git commit -m mv
-git branch
-git push origin next-thing 
-git checkout master 
-git diff
-git status
-git add get_speakers.ipynb
-git commit -m change
-git checkout master 
-git pull origin master 
-git checkout next-thing 
-vi ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git add  ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m tweak
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m 'random crap'
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m 'more'
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m 'more'
-git diff
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m 'more'
 git diff
 git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
 git commit -m 'more'
@@ -498,3 +472,29 @@ ls
 ./bin/lmplz -h
 pwd
 echo $PWD/bin/lmplz 
+cd ~/Playing/
+cd rdapi/api_output/
+ls
+grep 2019 *
+grep 2019 *|less
+less H101SoU13
+grep '"debatedate"' *
+grep '"debatedate"' *|grep 2022
+grep '"debatedate"' *|grep 2011
+grep '"debatedate"' *|grep 2012
+ls
+cd ..
+ls
+ls sbtal/riksdag-video/
+cd ../
+vi /tmp/thing
+cat /tmp/thing |sed -e 's/\\n//'
+cat /tmp/thing |sed -e 's/\\n//'|awk -F'"' '{print $2}'
+cat /tmp/thing |sed -e 's/\\n//'|awk -F'"' '{print $2}'|awk -F'\\t' '{print $1 " & " $2 " & " $3}'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test & /'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& '
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\"}'
+cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\\\"}'
