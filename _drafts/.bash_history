@@ -1,46 +1,3 @@
-git add A-iEM6DV9oc.mp4 
-git status
-git commit -m videos
-git push origin raw-videos 
-git status
-git status
-git add ./*.mp4
-git add ./*.mkv
-git add ./*.webm
-git push origin raw-videos 
-git status
-git commit -m videos
-git push origin raw-videos 
-git status
-git add A0*webm
-git status
-git add Aa*webm
-git add A_*webm
-df
-ls
-git remote show origin 
-git status
-git status|grep webm
-git status|grep webm|awk '{print $NF}'
-git status|grep webm|awk '{print $NF}'|while read i;do scp $i sbtaldeep22:hungarian-youtube-speech/M5/ ; done
-df
-df -m
-df -m
-ls
-git add A*webm
-df
-git status
-du -sh ..
-cd ..
-cd ..
-scp -r youtube-hu/ sbtaldeep22:
-rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
-rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
-rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
-rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
-rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
-du -m .
-du -m youtube-hu
 rm -rf youtube-hu/
 ls
 cd M5/
@@ -501,3 +458,46 @@ ls ../../waxholm/scenes_formatted/
 cd ../../waxholm/scenes_formatted/
 pwd
 cd -
+pytest
+pytest
+git status
+git add waxholm/mix.py
+git branch
+git checkout -b phoneme-list
+git commit -m 'do not iterate over todel if empty'
+find . -name __pycache__
+rm -rf waxholm/__pycache__/
+rm -rf waxholm/tests/__pycache__/
+pytest
+find . -name '*.pyc'
+find . -name '*.pyc' -delete
+rm -rf waxholm/tests/__pycache__/
+pytest
+git branch
+git push origin phoneme-list 
+git diff
+git add waxholm/mix.py
+git commit -m 'get_phoneme_string()'
+git add waxholm/mix.py
+git commit -m 'get_phoneme_list()'
+git push origin phoneme-list 
+git diff
+git checkout main
+git branch
+git add waxholm/mix.py
+git checkout main
+git commit -m 'fix phone processing'
+git push origin phoneme-list 
+git checkout ma
+git branch -D master
+git checkout main
+git pull origin main
+git checkout phoneme-list 
+git add waxholm/mix.py
+git commit -m 'fix variable'
+git add waxholm/mix.py
+git commit -m 'fix another variable'
+git diff
+git push origin phoneme-list 
+git checkout main
+git pull origin main
