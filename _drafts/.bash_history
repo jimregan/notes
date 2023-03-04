@@ -1,15 +1,3 @@
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2
-python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2 >> to-use 
-less to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2 >> to-use 
-less to-use 
-wc -l to-use 
-tail to-use 
 vi rdfilt-edit 
 python -m sync_asr.riksdag.process_filtered|less
 ls
@@ -498,3 +486,15 @@ less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt
 ls
 less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt 
 less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt 
+cd ../M5/
+ls|grep webm|wc
+ls|grep mp4|wc
+ls|grep mkv|wc
+wc -l notdone 
+less notdone 
+less /Users/joregan/Downloads/S0095447010000628.txt 
+rm /Users/joregan/Downloads/S0095447010000628.txt 
+less /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(2\).bib 
+rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(2\).bib 
+rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en.bib 
+rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(1\).bib 
