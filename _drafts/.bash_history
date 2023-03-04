@@ -1,19 +1,3 @@
-git commit -m rm
-git add nst_swedish_tts.py 
-git commit -m 'add stem, this seems to get randomly shuffled'
-git log
-pwd
-git status
-git status|grep stats
-ls st*
-ls ../st*
-ls ../_notebooks/st*
-mv tok1/stats-week2.ipynb .
-git add stats-week2.ipynb 
-git commit -m 'add'
-less ../_notebooks/2023-01-21-create-hungarian-tts-dataset.ipynb 
-git add stats-week2.ipynb 
-git commit -m meta
 git mv stats-week2.ipynb 2023-02-09-stats-week-2.ipynb
 git commit -m mv
 git mv 2023-02-09-stats-week-2.ipynb ../_notebooks/
@@ -498,3 +482,19 @@ less train-valid-deliverable
 ls
 ls /tmp
 less /tmp/name-set 
+cd /tmp
+scp sbtaldeep22:/sbtal/riksdag-video/2442210140028289021_480p.mp4 .
+scp sbtaldeep22:/sbtal/riksdag-video/2442207180020045221_480p.mp4 .
+brew install kenlm
+git clone https://github.com/kpu/kenlm
+cd kenlm/
+ls
+mkdir build
+cd build/
+cmake ..
+make -j 4
+pwd
+ls
+./bin/lmplz -h
+pwd
+echo $PWD/bin/lmplz 
