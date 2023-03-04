@@ -1,30 +1,3 @@
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep '^Oskar Öholm'|less
-less to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep '^Oskar Öholm'|less
-python -m sync_asr.riksdag.process_filtered|grep '^Oskar Öholm'|head -n 2 >> to-use 
-less to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep '^Oskar Öholm'|less
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 'Eva Lohman'
-python -m sync_asr.riksdag.process_filtered|grep 'Eva Lohman'|grep 156920
-python -m sync_asr.riksdag.process_filtered|grep 'Eva Lohman'|grep 156920 >> to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad|grep 392000|wc
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad|grep 392000
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad|less
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad|grep 3848400|wc
-python -m sync_asr.riksdag.process_filtered|grep Jilmstad|grep 3848400 >> to-use 
-less to-use 
-wc -l to-use 
-vi rdfilt-edit 
 python -m sync_asr.riksdag.process_filtered|less
 python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2
 python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2 >> to-use 
@@ -498,3 +471,30 @@ git commit -m prune/cvt
 vi ../_posts/2023-02-22-misc-links.md 
 git add ../_posts/2023-02-22-misc-links.md 
 git commit -m cvt
+mkdir listening-group
+cd listening-group/
+youtube-dl -o '%(id)s.%(ext)s' --write-subs --sub-lang en NNnIGh9g6fA
+man youtube-dl 
+youtube-dl -o '%(id)s.%(ext)s' --write-sub --sub-lang en NNnIGh9g6fA
+youtube-dl -U
+pip uninstall youtube-dl
+conda create --name ytdl
+conda activate ytdl
+conda install pip
+which pip
+pip install youtube-dl
+youtube-dl -o '%(id)s.%(ext)s' --write-sub --sub-lang en NNnIGh9g6fA
+pip install yt-dlc
+pip install yt-dlp
+yt-dlp -o '%(id)s.%(ext)s' --write-sub --sub-lang en NNnIGh9g6fA
+ls
+yt-dlp -o '%(id)s.%(ext)s' --write-sub --write-all-subs NNnIGh9g6fA
+man yt-dlp
+yt-dlp -o '%(id)s.%(ext)s' --list-subs NNnIGh9g6fA
+yt-dlp -o '%(id)s.%(ext)s' --write-sub --sub-lang=en NNnIGh9g6fA
+yt-dlp -o '%(id)s.%(ext)s' --all-subs NNnIGh9g6fA
+ls
+less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt 
+ls
+less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt 
+less NNnIGh9g6fA.en-qlPKC2UN_YU.vtt 
