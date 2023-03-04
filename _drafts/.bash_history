@@ -1,28 +1,3 @@
-find . -size 0
-find . -size 0 -delete
-ls
-mkdir ../lm_arpa
-mv *.arpa ../lm_arpa/
-ls
-#for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then 
-for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then /tmp/kenlm/build/bin/lmplz -o 3 < $i > $i.3gram.arpa;fi;done
-cd ~/Playing/notes/_drafts/
-git diff
-vi ../_posts/2023-02-22-misc-links.md 
-rm tabs0 
-vi tabs0 
-git add tabs0 
-git add tabs0 
-git commit -m prune/cvt
-vi ../_posts/2023-02-22-misc-links.md 
-git diff
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m more
-vi ../_posts/2023-02-22-misc-links.md 
-git status
-git diff
-rm tabs0 
 vi tabs0 
 git diff tabs0
 vi tabs0 
@@ -498,3 +473,28 @@ wc -l tabs0
 df -m
 df -m
 ssh sbtaldeep24
+less ~/Downloads/citations-20230222T144559.bibtex 
+cd ..
+ls
+ls youtube-hu/
+ls mfa_alignments/
+ls misc-notes/
+ls
+ls faced/
+ls
+ls hu-tts/
+rm hu-tts/hungarian-single-speaker-speech-dataset.zip 
+git commit -m mr
+df -m
+df
+rm /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.48.18.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.01.21.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.00.23.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.49.47.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.49.54.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.53.01.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.59.55.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.00.05.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.00.13.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.48.47.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.48.38.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 14.48.27.png 
+rm /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.03.23.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.03.45.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.03.53.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.04.56.png 
+rm /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.07.30.png 
+rm /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.19.47.png /Users/joregan/Desktop/Screenshot\ 2023-02-24\ at\ 15.11.41.png 
+ vi thing
+rm /Users/joregan/Desktop/Screenshot\ 2023-02-27\ at\ 09.47.54.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.52.51.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.51.35.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.51.45.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.51.51.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.52.00.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.52.05.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.52.17.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.51.14.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.51.04.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.50.56.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.50.29.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.50.25.png /Users/joregan/Desktop/Screenshot\ 2023-02-26\ at\ 18.50.00.png 
+ssh sbtaldeep21
+ssh sbtaldeep22
+ssh sbtaldeep24
+cat ~/.huggingface/token 
+scp ~/.huggingface/token sbtaldeep22:.huggingface/
