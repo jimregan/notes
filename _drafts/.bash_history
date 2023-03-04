@@ -1,5 +1,3 @@
-ls
-ls
 for i in *;do /tmp/kenlm/build/bin/lmplz -o 5 < $i > $i.5gram.arpa;done
 find . -size 0
 find . -size 0 -delete
@@ -498,3 +496,5 @@ git diff
 git add tabs0 
 git commit -m prune
 wc -l tabs0 
+df -m
+df -m
