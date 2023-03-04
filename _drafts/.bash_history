@@ -1,12 +1,3 @@
-cd ed3aa8cabebda98e8252fecc0c6eed99/
-less README.txt 
-less index.json 
-less README.txt 
-less index.json 
-cd ..
-git clone https://gist.github.com/jimregan/00a458a338f83314c8c95fa253e0f89e
-cd 00a458a338f83314c8c95fa253e0f89e/
-ls
 less learning-irish-expand.txt 
 ls
 less tiocf-rules.tsv 
@@ -498,3 +489,12 @@ git checkout segment sync_asr/kaldi/segment_ctm_edits.py
 git commit -m 'reinstate kaldi scripts'
 python -m sync_asr.kaldi.segment_ctm_edits_mild --min-segment-length 3
 python
+cd ~/Playing/ctmedit_whisper/
+ls
+less 2442206010014474921.ctm_edit 
+less ../rdapi/api_output/H4C320170316AU16
+less ../rdapi/api_output/H4C320170316AU16 
+less ../rdapi/api_output/H4C320170316AU16
+less ../rdapi/api_output/H001CU21
+grep § ../rdapi/api_output/*
+less ../rdapi/api_output/H310609
