@@ -1,6 +1,3 @@
-git commit -m WER
-mv ~/Downloads/Untitled29.ipynb .
-git add Untitled29.ipynb 
 git commit -m WER2
 mv ~/Downloads/Untitled29.ipynb .
 git add Untitled29.ipynb 
@@ -498,3 +495,6 @@ for i in ./*.info.json;do echo $i|sed -e 's/\.\///;s/\.info.json//';done | while
 wc -l notdone 
 cat notdone |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
 echo AawwRvlXGD4 |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
+cd ~/Playing/sync_asr/
+ls
+less rdfilt-edit 
