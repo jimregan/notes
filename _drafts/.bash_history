@@ -1,22 +1,3 @@
-git diff
-git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m 'more'
-git rm ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m rm
-git push origin next-thing 
-git merge master
-vi get_speakers.ipynb 
-git merge --abort
-git merge -X theirs master 
-git rm ../_notebooks/2023-02-09-stats-week-2.ipynb 
-git commit -m redelete
-git push origin next-thing 
-git checkout master 
-git pull origin master 
-git branch -D next-thing 
-git checkout -b new-thing
-python
-git add stats3.ipynb 
 git branch
 git commit -m start
 git add stats3.ipynb 
@@ -498,3 +479,22 @@ cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{
 cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'
 cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\"}'
 cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\\\"}'
+cd ~/Desktop/
+ls
+ls Screenshot\ 2023-02-2* |zip /tmp/ss3m.zip -@
+rm Screenshot\ 2023-02-2*
+scp /tmp/ss3m.zip sbtaldeep22:.srv/
+rm /tmp/ss3m.zip 
+less ~/.huggingface/token 
+cd /Users/joregan/Playing/rdapi/lm_text/
+ls
+ls
+for i in *;do /tmp/kenlm/build/bin/lmplz -o 5 < $i > $i.5gram.arpa;done
+find . -size 0
+find . -size 0 -delete
+ls
+mkdir ../lm_arpa
+mv *.arpa ../lm_arpa/
+ls
+#for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then 
+for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then /tmp/kenlm/build/bin/lmplz -o 3 < $i > $i.3gram.arpa;fi;done
