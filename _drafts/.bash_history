@@ -1,10 +1,3 @@
-less learning-irish-expand.txt 
-ls
-less tiocf-rules.tsv 
-git clone git@github.com:phonlab-tcd/sgeilini_na_finne.git
-ls sgeilini_na_finne/
-ls sgeilini_na_finne/mp3/
-ls -al sgeilini_na_finne/mp3/
 cd ..
 cd 00a458a338f83314c8c95fa253e0f89e/
 ls
@@ -498,3 +491,10 @@ less ../rdapi/api_output/H4C320170316AU16
 less ../rdapi/api_output/H001CU21
 grep § ../rdapi/api_output/*
 less ../rdapi/api_output/H310609
+cd /tmp
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442
+207160019927321_480p.mp4
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442207160019927321_480p.mp4
+ffplay 2442207160019927321_480p.mp4 
+wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442206040014757721_480p.mp4
+ffplay 2442206040014757721_480p.mp4
