@@ -1,35 +1,3 @@
-git add tabs0 
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m prune/cvt
-vi ../_posts/2023-02-22-misc-links.md 
-git diff
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m more
-vi ../_posts/2023-02-22-misc-links.md 
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m more
-vi ../_posts/2023-02-22-misc-links.md 
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m more
-rm tabs0 
-vi tabs0 
-git diff
-git add tabs0 
-git commit -m prune
-wc -l tabs0 
-wc -l tabs
-wc -l tabs*
-vi ../_posts/2023-02-22-misc-links.md 
-git diff
-git add ../_posts/2023-02-22-misc-links.md 
-git commit -m more
-grep sherpa tabs*
-vi tabs
-vi ../_posts/2023-02-22-misc-links.md 
-git add ../_posts/2023-02-22-misc-links.md 
-rm tabs
-vi tabs
-git diff
 git add tabs 
 git commit -m prune/cvt
 grep sametinget tabs*
@@ -498,3 +466,35 @@ ls
 less 2442205210012937421_480p.mp4.vtt 
 less 2442205210012937421_480p.mp4.vtt 
 ssh sbtaldeep11 
+conda activate nst-tts
+conda install ipykernel
+git add stats5.ipynb 
+git commit -m start
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git diff
+git add stats5.ipynb 
+git commit -m more
+git add stats5.ipynb 
+git commit -m more
+git diff
