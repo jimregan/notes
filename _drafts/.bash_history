@@ -1,38 +1,3 @@
-git add *webm
-git add ./*webm
-git add ./*mkv
-git add ./*mp4
-git add ./*webm
-git status
-git commit -m videos
-ls *vtt
-git status
-less Nc8_yClgLQY.hu.vtt 
-git status
-git add ./*mkv
-git add ./*mp4
-git status
-git add ./*webm
-git commit -m videos
-git push origin raw-videos 
-git status
-git add ./*.webm
-git status
-git add ./*.mkv
-git add ./*.mp4
-git status
-git add ./*.webm
-git status
-git add ./*.mkv
-git status
-git add ./*.webm
-git commit -m videos
-git status
-git add ./*.webm
-git add ./*.mkv
-git status
-git commit -m videos
-vi notdone 
 git status
 git add ./*.webm
 git add ./*.mkv
@@ -498,3 +463,38 @@ cat video_list |sort|uniq|wc
 git add sync_asr/riksdag/select_files_without_split_speakers.py
 git commit -m 'simple thing to exclude audio with test/valid set speakers'
 scp video_list sbtaldeep22:
+git difff
+git diff
+git status
+git branch
+git push origin filter-whisper 
+git add sync_asr/riksdag/filter_vtt_to_speaker_list.py
+git add sync_asr/riksdag/process_filtered.py 
+git commit -m 'to revert'
+git log
+git format-patch -1 3225fa2fabd4572dc6d8dc59bfef07371e2dcc04
+less 0001-to-revert.patch 
+git revert 3225fa2fabd4572dc6d8dc59bfef07371e2dcc04
+git push origin filter-whisper 
+git add sync_asr/riksdag/write_audio.py 
+git add sync_asr/riksdag/process_filtered.py 
+git commit -m copyright
+git push origin filter-whisper 
+git checkout main 
+git pull origin main 
+git branch -D filter-whisper 
+git branch
+git checkout -b data-extraction
+ls
+echo __pycache__ >> .gitignore 
+less .gitignore 
+git status
+vi .git
+vi .gitignore 
+git status
+git add .gitignore 
+git commit -m update
+git diff
+git add sync_asr/riksdag/corrections.py
+git branch
+git commit -m 'changes from Friday'
