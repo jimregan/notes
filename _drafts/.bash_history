@@ -1,35 +1,3 @@
-ls
-cd ..
-ls
-ls round2/
-ls round2/C1A2/sweterror-01-1-a.tsv 
-less round2/C1A2/sweterror-01-1-a.tsv 
-ls
-ls C1_audio/
-conda activate hg
-conda activate hf
-ls
-less guidelines.txt 
-ls
-scp -r C1_audio/ sbtaldeep11:
-ffplay C1_audio/sweterror-01-1-a.wav 
-ffplay C1_audio/sweterror-01-1-a.wav 
-scp -r C1_audio/ sbtaldeep22:
-scp -r C1_audio/ sbtaldeep24:
-cd ..
-scp -r train-valid-deliverable sbtaldeep24:
-cd notes/
-cd _drafts/
-scp sbtaldeep24:sbtal_riksdag_asr/process_data.ipynb .
-git add process_data.ipynb 
-git commit -m 'extract test/valid data'
-scp sbtaldeep24:process_data.ipynb .
-git diff
-git add process_data.ipynb 
-git commit -m 'update'
-ls -al ~/Downloads/checkpoint_last.pt.gz 
-mv ~/Downloads/Untitled29.ipynb .
-git add Untitled29.ipynb 
 git commit -m WER
 mv ~/Downloads/Untitled29.ipynb .
 git add Untitled29.ipynb 
@@ -498,3 +466,35 @@ rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
 du -m .
 du -m youtube-hu
 rm -rf youtube-hu/
+ls
+cd M5/
+ls
+ls *mkv
+ls ./*mkv
+ls ./*mkv | sed -e 's/\.\///;s/\.mkv//'
+ls ./*mkv | sed -e 's/\.\///;s/\.mkv//' >> done
+ls ./*webm | sed -e 's/\.\///;s/\.webm//' >> done
+ls ./*mp4 | sed -e 's/\.\///;s/\.mp4//' >> done
+less done 
+for i in ./*.info.json;do echo $i|sed -e 's/\.\///;s/\.info.json//'
+for i in ./*.info.json;do echo $i|sed -e 's/\.\///;s/\.info.json//';done
+for i in ./*.info.json;do echo $i|sed -e 's/\.\///;s/\.info.json//';done | while read j;do grep -- $j done || echo $j >> notdone;done
+conda activate ytdl
+cat notdone |while read i;do yt-dlp  -o '%(id)s.%(ext)s' -- $i;done
+cat notdone |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --write-sub --sub-lang hu -- $i;done
+cat notdone |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
+vi notdone 
+echo ZP5GDfGgo6k |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
+#git add ZP5GDfGgo6k.webm 
+ls ./*mp4 | sed -e 's/\.\///;s/\.mp4//' >> done
+ls ./*webm | sed -e 's/\.\///;s/\.mp4//' >> done
+ls ./*mkv | sed -e 's/\.\///;s/\.mp4//' >> done
+rm done 
+ls ./*mkv | sed -e 's/\.\///;s/\.mp4//' >> done
+ls ./*webm | sed -e 's/\.\///;s/\.mp4//' >> done
+ls ./*mp4 | sed -e 's/\.\///;s/\.mp4//' >> done
+rm notdone 
+for i in ./*.info.json;do echo $i|sed -e 's/\.\///;s/\.info.json//';done | while read j;do grep -- $j done || echo $j >> notdone;done
+wc -l notdone 
+cat notdone |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
+echo AawwRvlXGD4 |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;done
