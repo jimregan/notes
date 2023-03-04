@@ -1,12 +1,3 @@
-git status
-git add ./*.mkv
-git add ./*.mp4
-git status
-git add ./*.webm
-git status
-git status
-git add FkOOtdd_gUw.mkv Fkcm8PPK_1M.webm
-git status
 git add FlYF2_W-Xno.webm 
 git status
 git commit -m videos
@@ -499,3 +490,14 @@ pip install kenlm
 which lmplz
 which pip
 conda install pip
+python -m sync_asr.riksdag.riksdag_align
+python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/
+python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ ~/Playing/rdapi/api_output/H710143
+python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ ~/Playing/rdapi/api_output/H710143
+python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ ~/Playing/rdapi/api_output/H710143 | less
+less ~/Playing/rdapi/api_output/H710143
+mkdir ~/Playing/rd_ctm_edit
+#for i in ~/Playing/rdapi/api_output/*; do
+#for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$i;done
+for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$i;done
+for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$filename;done
