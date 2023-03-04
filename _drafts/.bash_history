@@ -1,9 +1,3 @@
-git add ../M5/*mkv
-git status
-git commit -m videos
-ls ../M5/
-git status
-git add ../M5/*mkv
 git add ../M5/*mp4
 git status
 git add ../M5/*webm
@@ -500,3 +494,9 @@ ls
 history -a
 less ~/Playing/rdapi_subset 
 scp /Users/joregan/Playing/rdapi_subset sbtaldeep22:
+cd ~/Playing/rdapi/api_output/
+less H2C320150506CU15 
+ls
+ls|wc
+pwd
+less H9C320220119NU13
