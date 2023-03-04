@@ -1,56 +1,3 @@
-cd ..
-cd 00a458a338f83314c8c95fa253e0f89e/
-ls
-mv sgeilini_na_finne/ ..
-cd ..
-ls
-git clone git@github.com:phonlab-tcd/logainm-sounds.git
-git clone git@github.com:phonlab-tcd/corpas-naisiunta-na-gaeilge-v1.git
-ssh deepvoice 
-ssh deepvoice 
-ls /tmp
-git commit -m oops
-ssh sbtaldeep11
-ssh sbtaldeep22
-vi /Users/joregan/Playing/sync_asr/rdfilt2 
-ssh sbtaldeep22
-ssh sbtaldeep11
-ssh sbtaldeep11
-ssh sbtaldeep11
-ssh sbtaldeep11
-ssh sbtaldeep11
-ssh sbtaldeep11
-python
-ssh sbtaldeep11
-cd /tmp/thing/
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_7-9-2022_10-52-55.zip 
-rm *
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_12-7-3.zip 
-rm *
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_12-7-3.zip  sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_12-7-3.zip 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_4-8-2022_17-23-0.zip 
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_4-8-2022_17-23-0.zip  sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_4-8-2022_17-23-0.zip 
-rm *
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_25-8-2022_18-41-57.zip 
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_25-8-2022_18-41-57.zip   sbtaldeep22:.srv/
-rm *
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_25-8-2022_18-41-57.zip 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_3-8-2022_16-42-37.zip 
-rm *
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_3-8-2022_16-42-37.zip   sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_3-8-2022_16-42-37.zip 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_20-8-2022_3-24-52.zip 
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_20-8-2022_3-24-52.zip sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_20-8-2022_3-24-52.zip 
-rm *
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_14-8-2022_21-54-36.zip 
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_14-8-2022_21-54-36.zip  sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_14-8-2022_21-54-36.zip  *
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_10-7-2022_19-8-44.zip 
-rm *
-rm -rf __MACOSX/
 rm -rf WFT_Downloaded_Files_10-7-2022_19-8-44/
 rm .DS_Store 
 unzip /Users/joregan/Downloads/WFT_Downloaded_Files_9-8-2022_14-51-1.zip 
@@ -498,3 +445,56 @@ wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442207160019927321_480p.mp4
 ffplay 2442207160019927321_480p.mp4 
 wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442206040014757721_480p.mp4
 ffplay 2442206040014757721_480p.mp4
+lynx https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html?fbclid=IwAR1y1yDYUTIDSOcY2kHphDM8MoFdG5V7ImLPX31NV9J_rYueQwfV7W7b_hg
+lynx -dump https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html?fbclid=IwAR1y1yDYUTIDSOcY2kHphDM8MoFdG5V7ImLPX31NV9J_rYueQwfV7W7b_hg
+lynx -dump https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html
+ls ~/Downloads/978-3-031-16270-1.pdf 
+cd /tmp
+scp sbtaldeep22:rd_wav/2442206110015658321.wav .
+ffplay -ss 148.56 2442206110015658321.wav 
+ffplay -ss 148.56 2442206110015658321.wav 
+ffplay -ss 148.56 2442206110015658321.wav 
+ffplay -ss 148.56 2442206110015658321.wav 
+ffplay -ss 149.12 2442206110015658321.wav 
+ffplay -ss 149.12 2442206110015658321.wav 
+ffplay -ss 160.16 2442206110015658321.wav 
+ffplay -ss 160.16 2442206110015658321.wav 
+ffplay -ss 160.16 2442206110015658321.wav 
+ffplay -ss 168.3 2442206110015658321.wav 
+ffplay -ss 582.58 2442206110015658321.wav 
+ffplay -ss 582.58 2442206110015658321.wav 
+ffplay -ss 589.12 2442206110015658321.wav 
+ffplay -ss 589.12 2442206110015658321.wav 
+ffplay -ss 594.38 2442206110015658321.wav 
+ffplay -ss 594.38 2442206110015658321.wav 
+ffplay -ss 594.38 2442206110015658321.wav 
+touch /tmp/nsw
+ls
+less segments-out 
+less text-out 
+grep pcm_s16le ~/Playing/notes/_drafts/*
+grep pcm_s16le ~/Playing/notes/_notebooks/*
+find /Users/joregan/Playing/sync_asr/ -name '*py'|xargs grep AudioS
+less /Users/joregan/Playing/sync_asr//sync_asr/riksdag/write_audio.py
+scp /Users/joregan/Downloads/deliv_20230224.zip  sbtaldeep24:
+tar ztvf ~/Downloads/sweterror.tar.gz 
+pwd
+tar zxvf ~/Downloads/sweterror.tar.gz 
+cd sweterror-test-valid/
+ls
+less sweterror-10-2-w.csv 
+find /Users/joregan/Playing/sync_asr/ -name '*tsv'
+less ~/Playing/sync_asr/segments.tsv 
+cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'
+cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'|uniq
+vi /tmp/ids
+cat /tmp/ids |uniq
+cat /tmp/ids |uniq > /tmp/uniqids
+cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}' > /tmp/name-set
+paste /tmp/uniqids /tmp/name-set 
+cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'|uniq > /tmp/name-set
+paste /tmp/uniqids /tmp/name-set 
+paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'
+paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'|wc
+paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print $1 "\t" $2 "\t" $4}'
+scp /Users/joregan/Downloads/checkpoint_last.pt.gz sbtaldeep24:
