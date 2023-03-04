@@ -1,97 +1,3 @@
-git branch
-git commit -m start
-git add stats3.ipynb 
-git commit -m break
-git add stats3.ipynb 
-git commit -m end
-python
-git branch
-git checkout -b filter-whisper
-git add /Users/joregan/Playing/sync_asr/sync_asr/riksdag/filter_vtt_to_speaker_list.py
-git commit -m 'basic copy of riksdag_align, in progress'
-python sync_asr.riksdag.filter_vtt_to_speaker_list
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-less /Users/joregan/Playing/rdapi/api_output/H2C120140929up
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-conda activate syncasr
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list asd /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-pip install beautifulsoup4
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-pip install beautifulsoup
-pip install bs4
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-conda install beautifulsoup4
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-git add /Users/joregan/Playing/sync_asr/sync_asr/riksdag/filter_vtt_to_speaker_list.py
-git commit -m 'filtering done(?)'
-git diff sync_asr/riksdag/riksdag_api.py
-git add sync_asr/riksdag/riksdag_api.py
-git commit -m 'check key'
-git add /Users/joregan/Playing/sync_asr/sync_asr/riksdag/filter_vtt_to_speaker_list.py
-git commit -m 'add a note that this file is not really part of the thing'
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > rdfilt
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > rdfilt2
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > rdfilt2
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > rdfilt2
-less rdfilt
-less rdfilt2
-wc -l  rdfilt2
-grep -v '^$' rdfilt2 |wc
-vi scripts/check_subset.pl
-ls scripts/check_subset.pl
-echo $((1480100 - 868600))
-echo $((611500 / 1000))
-cp rdfilt2 rdfilt-edit
-vi rdfilt-edit 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > to-edit-output
-less to-edit-output 
-python -m sync_asr.riksdag.process_filtered
-python -m sync_asr.riksdag.process_filtered|less
-less to-edit-output 
-less rdfilt2
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep '^Ingemar Nilsson'|head -n 2
-python -m sync_asr.riksdag.process_filtered|grep '^Ingemar Nilsson'|head -n 2 >> also-add
-less also-add 
-vi rdfilt-edit 
-less also-add 
-rm also-add 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt2 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered
-python -m sync_asr.riksdag.process_filtered | grep 'Björn Wiechel' | tail -n 2
-python -m sync_asr.riksdag.process_filtered | grep 'Björn Wiechel' | tail -n 2 >> to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep '^Sedat Dogru'
-python -m sync_asr.riksdag.process_filtered|grep '^Sedat Dogru'|head -n 3|tail -n 2
-python -m sync_asr.riksdag.process_filtered|grep '^Sedat Dogru'|head -n 3|tail -n 2 >> to-use 
 vi rdfilt-edit 
 python -m sync_asr.riksdag.process_filtered|less
 python -m sync_asr.riksdag.process_filtered|grep '^Oskar Öholm'|less
@@ -498,3 +404,97 @@ mv *.arpa ../lm_arpa/
 ls
 #for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then 
 for i in *;do bn=$(basename $i); if [ ! -e ../lm_arpa/$bn ]; then /tmp/kenlm/build/bin/lmplz -o 3 < $i > $i.3gram.arpa;fi;done
+cd ~/Playing/notes/_drafts/
+git diff
+vi ../_posts/2023-02-22-misc-links.md 
+rm tabs0 
+vi tabs0 
+git add tabs0 
+git add tabs0 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+git diff
+git add ../_notebooks/2023-02-09-stats-week-2.ipynb 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m more
+vi ../_posts/2023-02-22-misc-links.md 
+git status
+git diff
+rm tabs0 
+vi tabs0 
+git diff tabs0
+vi tabs0 
+git diff
+git add tabs0 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+git diff
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m more
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m more
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m more
+rm tabs0 
+vi tabs0 
+git diff
+git add tabs0 
+git commit -m prune
+wc -l tabs0 
+wc -l tabs
+wc -l tabs*
+vi ../_posts/2023-02-22-misc-links.md 
+git diff
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m more
+grep sherpa tabs*
+vi tabs
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+rm tabs
+vi tabs
+git diff
+git add tabs 
+git commit -m prune/cvt
+grep sametinget tabs*
+vi tabs2
+git add tabs2 
+git commit -m next
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git rm tabs2 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+grep 1455 tabs*
+vi tabs
+git diff
+git add tabs 
+git status
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m prune/cvt
+vi tabs1 
+git add ../_posts/2023-02-22-misc-links.md 
+vi tabs1 
+git diff
+git diff
+tail -n 16 tabs1 
+tail -n 16 tabs1 >> ../_posts/2023-02-22-misc-links.md 
+git diff
+git rm tabs1 
+git rm -f tabs1 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+vi tabs0 
+rm tabs0 
+vi tabs0 
+git diff
+git add ../_posts/2023-02-22-misc-links.md 
+git add tabs0 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m cvt
