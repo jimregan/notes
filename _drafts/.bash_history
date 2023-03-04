@@ -1,20 +1,3 @@
-rm -rf WFT_Downloaded_Files_10-7-2022_19-8-44/
-rm .DS_Store 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_9-8-2022_14-51-1.zip 
-rm *
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_9-8-2022_14-51-1.zip  sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_9-8-2022_14-51-1.zip 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_19-52-27.zip 
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_19-52-27.zip   sbtaldeep22:.srv/
-rm * /Users/joregan/Downloads/WFT_Downloaded_Files_31-7-2022_19-52-27.zip 
-unzip /Users/joregan/Downloads/WFT_Downloaded_Files_2-8-2022_20-24-28.zip 
-rm *
-scp /Users/joregan/Downloads/WFT_Downloaded_Files_2-8-2022_20-24-28.zip  sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/WFT_Downloaded_Files_2-8-2022_20-24-28.zip 
-unzip ~/Downloads/WFT_Downloaded_Files_6-10-2022_18-14-6.zip
-rm *
-scp ~/Downloads/WFT_Downloaded_Files_6-10-2022_18-14-6.zip  sbtaldeep22:.srv/
-rm ~/Downloads/WFT_Downloaded_Files_6-10-2022_18-14-6.zip
 rm -rf ~/Downloads/WFT_Downloaded_Files_6-10-2022_18-14-6/
 ls ~/Downloads/*zip
 unzip /Users/joregan/Downloads/Tmp\ wa-20220611T133359Z-001.zip 
@@ -498,3 +481,20 @@ paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'
 paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'|wc
 paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print $1 "\t" $2 "\t" $4}'
 scp /Users/joregan/Downloads/checkpoint_last.pt.gz sbtaldeep24:
+cd Playing/ctmedit_whisper/
+ls
+scp sbtaldeep11:ctmedit_whisper/* .
+scp sbtaldeep11:/tmp/alignments.zip  /Users/joregan/Downloads/
+less 2442206050014909121.ctm_edit 
+rm ~/Downloads/alignments.zip 
+scp sbtaldeep11:/tmp/alignments.zip  /Users/joregan/Downloads/
+scp /Users/joregan/Downloads/alignments.zip sbtaldeep22:
+less ~/Playing/notes/_drafts/waxholm.py 
+less ~/Playing/notes/_drafts/waxholm.py 
+grep AudioS ~/Playing/notes/_drafts/*
+grep AudioS ~/Playing/notes/_notebooks/*
+less ~/Playing/notes/_drafts/waxholm.py 
+ls ~/Playing/notes/_drafts/*py
+less ~/Playing/notes/_drafts/nst_swedish_tts.py 
+python
+unzip -l /Users/joregan/Downloads/deliv_20230224.zip 
