@@ -1,11 +1,3 @@
-ls
-git status
-git add ./*.mp4
-git status
-git status
-git add 9zyEzfgL3yw.webm 
-git status
-git status
 git add A-iEM6DV9oc.mp4 
 git status
 git commit -m videos
@@ -501,3 +493,11 @@ python
 python
 python
 python
+ls
+pwd
+ls 
+ls ../..
+ls ../../waxholm/scenes_formatted/
+cd ../../waxholm/scenes_formatted/
+pwd
+cd -
