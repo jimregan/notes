@@ -1,38 +1,3 @@
-git commit -m videos
-git status
-git push origin raw-videos 
-git status
-git status
-git add ../M5/*webm
-git status
-git status|grep '\.f'
-conda activate ytdl
-yt-dlp  -o '%(id)s.%(ext)s' --all-subs --  6wNUyNDU0gU
-# 6x6cTRk75X0
-git status
-git status|grep '\.f'
-mv 6wNUyNDU0gU.mkv ../M5/
-git rm ../M5/6wNUyNDU0gU.f247.webm
-git rm -f ../M5/6wNUyNDU0gU.f247.webm
-git add ../M5/6wNUyNDU0gU.mkv 
-git status|grep '\.f'
-cd ../M5/
-yt-dlp  -o '%(id)s.%(ext)s' --all-subs --  6x6cTRk75X0
-git rm 6x6cTRk75X0.f247.webm 
-git add 6x6cTRk75X0.mkv 
-git status
-git add *.mkv
-git add ./*.mkv
-git status
-git status|grep '\.f'
-git add ./*.mp4
-git status
-git add *.webm
-git add ./*.webm
-git status
-git lfs install
-git commit -m videos
-git push origin raw-videos 
 git status
 git add ./*.mkv
 git add ./*.mp4
@@ -500,3 +465,37 @@ git revert f2a0fc4e21dd1af575944559e7247bebc5bbcfe8
 git branch
 git push origin data-extraction
 git remote show origin 
+pwd
+ls
+ pip install .
+ls
+conda activate syncasr
+ pip install .
+ls
+less sync_asr/__init__.py 
+pip install .
+ls
+git branch
+git add notebooks/make_lm_text.ipynb
+git commit -m add
+git mv notebooks/make_lm_text.ipynb .
+git add make_lm_text.ipynb
+git commit -m playing
+git branch
+git push origin data-extraction 
+git pull origin data-extraction 
+pip install mosestokenizer
+git add make_lm_text.ipynb
+git commit -m more
+mkdir /Users/joregan/Playing/rdapi/lm_text/
+ls /Users/joregan/Playing/rdapi/lm_text/
+less /Users/joregan/Playing/rdapi/lm_text/H110394 
+less /Users/joregan/Playing/rdapi/lm_text/H110394 
+less /Users/joregan/Playing/rdapi/lm_text/H110394 
+git add make_lm_text.ipynb
+git commit -m more
+conda install kenlm
+pip install kenlm
+which lmplz
+which pip
+conda install pip
