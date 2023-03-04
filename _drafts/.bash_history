@@ -1,245 +1,3 @@
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-ls
-wc -l to-use 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|head -n 3|tail -n 2 >> to-use 
-vi to-use 
-wc -l to-use 
-ls
-less to-use 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 'Yilmaz Kerimo'|head -n 2
-python -m sync_asr.riksdag.process_filtered|grep 'Yilmaz Kerimo'|head -n 2 >> to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 'Aphram Melki' |head -n 2
-python -m sync_asr.riksdag.process_filtered|grep 'Aphram Melki' |head -n 2 >> to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 'Yasmine Bladelius' |head -n 2 >> to-use 
-less to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 15220080
-python -m sync_asr.riksdag.process_filtered|grep 15220080|wc
-python -m sync_asr.riksdag.process_filtered|grep 15220080 >> to-use 
-tail to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep Slot
-python -m sync_asr.riksdag.process_filtered|grep Slot|grep 2850000
-python -m sync_asr.riksdag.process_filtered|grep Slot|grep 2850000|wc
-python -m sync_asr.riksdag.process_filtered|grep Slot|grep 2850000 >> to-use 
-less to-use 
-wc -l to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|grep 1342000
-python -m sync_asr.riksdag.process_filtered|grep 1342000 >> to-use 
-vi rdfilt-edit 
-wc -l to-use 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 912700
-python -m sync_asr.riksdag.process_filtered|grep 912700 >> to-use 
-wc -l to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 4440000
-python -m sync_asr.riksdag.process_filtered|grep 4440000|wc
-python -m sync_asr.riksdag.process_filtered|grep 4440000 >> to-use 
-wc -l to-use 
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-vi rdfilt-edit 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 480000 
-python -m sync_asr.riksdag.process_filtered|grep 480000 |wc
-python -m sync_asr.riksdag.process_filtered|grep 480000 >> to-use 
-less to-use 
-python -m sync_asr.riksdag.filter_vtt_to_speaker_list /Users/joregan/Playing/rdwhisper /Users/joregan/Playing/rdapi/api_output > to-edit-output-new
-less to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered
-python -m sync_asr.riksdag.process_filtered|wc
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-scp sbtaldeep22:segments.tsv .
-python -m sync_asr.riksdag.process_filtered|grep Arin|grep 140000
-python -m sync_asr.riksdag.process_filtered|grep Arin|grep 140000|wc
-python -m sync_asr.riksdag.process_filtered|grep Arin|grep 140000|tail -n 2
-python -m sync_asr.riksdag.process_filtered|grep Arin|grep 140000|tail -n 2 >> segments.tsv 
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep Daniel|grep 162020
-python -m sync_asr.riksdag.process_filtered|grep Daniel|grep 162020|wc
-python -m sync_asr.riksdag.process_filtered|grep Daniel|grep 162020 >> segments.tsv 
-vi to-edit-output-new 
-less segments.tsv 
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-vi to-edit-output-new 
-vi to-edit-output-new 
-python -m sync_asr.riksdag.process_filtered|less
-python -m sync_asr.riksdag.process_filtered|grep 2442203140005861021
-python -m sync_asr.riksdag.process_filtered|grep 2442203140005861021|wc
-python -m sync_asr.riksdag.process_filtered|grep 2442203140005861021 >> segments.tsv 
-scp segments.tsv sbtaldeep22:
-ls
-vi to-use 
-wc -l to-use 
-tail -f to-edit-output 
-git diff
-git add tests/test_get_speaker_table.py sync_asr/riksdag/write_audio.py 
-git commit -m 'add script for writing audio'
-git add sync_asr/riksdag/write_audio.py 
-git status
-git diff
-git add sync_asr/riksdag/write_audio.py 
-git commit -m 'remove, not sure what that even was'
-less rdfilt
-python
-git diff
-git checkout -b segment https://github.com/jimregan/sync-asr/pull/16/commits/b37dec6be171a0de0fad9cc9aa4317a79a0863b6
-git checkout -b segment b37dec6be171a0de0fad9cc9aa4317a79a0863b6
-git branch
-git checkout data-extraction 
-git log
-git checkout segment sync_asr/kaldi/segment_ctm_edits_mild.py
-git checkout segment sync_asr/kaldi/segment_ctm_edits.py
-git commit -m 'reinstate kaldi scripts'
-python -m sync_asr.kaldi.segment_ctm_edits_mild --min-segment-length 3
-python
-cd ~/Playing/ctmedit_whisper/
-ls
-less 2442206010014474921.ctm_edit 
-less ../rdapi/api_output/H4C320170316AU16
-less ../rdapi/api_output/H4C320170316AU16 
-less ../rdapi/api_output/H4C320170316AU16
-less ../rdapi/api_output/H001CU21
-grep § ../rdapi/api_output/*
-less ../rdapi/api_output/H310609
-cd /tmp
-wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442
-207160019927321_480p.mp4
-wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442207160019927321_480p.mp4
-ffplay 2442207160019927321_480p.mp4 
-wget https://mhdownload.riksdagen.se/VOD1/PAL169/2442206040014757721_480p.mp4
-ffplay 2442206040014757721_480p.mp4
-lynx https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html?fbclid=IwAR1y1yDYUTIDSOcY2kHphDM8MoFdG5V7ImLPX31NV9J_rYueQwfV7W7b_hg
-lynx -dump https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html?fbclid=IwAR1y1yDYUTIDSOcY2kHphDM8MoFdG5V7ImLPX31NV9J_rYueQwfV7W7b_hg
-lynx -dump https://www.ultimate-guitar.com/news/general_music_news/guitarist_kim_thayil_on_soundgardens_commercial_success_we_brought_music_that_was_no_fun_at_parties_to_your_party.html
-ls ~/Downloads/978-3-031-16270-1.pdf 
-cd /tmp
-scp sbtaldeep22:rd_wav/2442206110015658321.wav .
-ffplay -ss 148.56 2442206110015658321.wav 
-ffplay -ss 148.56 2442206110015658321.wav 
-ffplay -ss 148.56 2442206110015658321.wav 
-ffplay -ss 148.56 2442206110015658321.wav 
-ffplay -ss 149.12 2442206110015658321.wav 
-ffplay -ss 149.12 2442206110015658321.wav 
-ffplay -ss 160.16 2442206110015658321.wav 
-ffplay -ss 160.16 2442206110015658321.wav 
-ffplay -ss 160.16 2442206110015658321.wav 
-ffplay -ss 168.3 2442206110015658321.wav 
-ffplay -ss 582.58 2442206110015658321.wav 
-ffplay -ss 582.58 2442206110015658321.wav 
-ffplay -ss 589.12 2442206110015658321.wav 
-ffplay -ss 589.12 2442206110015658321.wav 
-ffplay -ss 594.38 2442206110015658321.wav 
-ffplay -ss 594.38 2442206110015658321.wav 
-ffplay -ss 594.38 2442206110015658321.wav 
-touch /tmp/nsw
-ls
-less segments-out 
-less text-out 
-grep pcm_s16le ~/Playing/notes/_drafts/*
-grep pcm_s16le ~/Playing/notes/_notebooks/*
-find /Users/joregan/Playing/sync_asr/ -name '*py'|xargs grep AudioS
-less /Users/joregan/Playing/sync_asr//sync_asr/riksdag/write_audio.py
-scp /Users/joregan/Downloads/deliv_20230224.zip  sbtaldeep24:
-tar ztvf ~/Downloads/sweterror.tar.gz 
-pwd
-tar zxvf ~/Downloads/sweterror.tar.gz 
-cd sweterror-test-valid/
-ls
-less sweterror-10-2-w.csv 
-find /Users/joregan/Playing/sync_asr/ -name '*tsv'
-less ~/Playing/sync_asr/segments.tsv 
-cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'
-cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'|uniq
-vi /tmp/ids
-cat /tmp/ids |uniq
-cat /tmp/ids |uniq > /tmp/uniqids
-cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}' > /tmp/name-set
-paste /tmp/uniqids /tmp/name-set 
-cat ~/Playing/sync_asr/segments.tsv |awk -F'\t' '{print $1 "\t" $2}'|uniq > /tmp/name-set
-paste /tmp/uniqids /tmp/name-set 
-paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'
-paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print}'|wc
-paste /tmp/uniqids /tmp/name-set |awk -F'\t' '($2 == $3){print $1 "\t" $2 "\t" $4}'
-scp /Users/joregan/Downloads/checkpoint_last.pt.gz sbtaldeep24:
-cd Playing/ctmedit_whisper/
-ls
-scp sbtaldeep11:ctmedit_whisper/* .
-scp sbtaldeep11:/tmp/alignments.zip  /Users/joregan/Downloads/
-less 2442206050014909121.ctm_edit 
-rm ~/Downloads/alignments.zip 
-scp sbtaldeep11:/tmp/alignments.zip  /Users/joregan/Downloads/
-scp /Users/joregan/Downloads/alignments.zip sbtaldeep22:
-less ~/Playing/notes/_drafts/waxholm.py 
-less ~/Playing/notes/_drafts/waxholm.py 
-grep AudioS ~/Playing/notes/_drafts/*
-grep AudioS ~/Playing/notes/_notebooks/*
-less ~/Playing/notes/_drafts/waxholm.py 
-ls ~/Playing/notes/_drafts/*py
-less ~/Playing/notes/_drafts/nst_swedish_tts.py 
-python
-unzip -l /Users/joregan/Downloads/deliv_20230224.zip 
-cd ../
-unzip -l /Users/joregan/Downloads/deliv_20230224.zip
-mkdir train-valid-deliverable
-cd train-valid-deliverable/
-unzip /Users/joregan/Downloads/deliv_20230224.zip
-ls
-less leveransrapport.txt 
-less guidelines.txt 
-less C1_audio/
-ls
-cd round1/
-ls
-less C1A1/sweterror-01-1-a.tsv 
-less C1A2/condition1_transcriber2/sweterror-01-1-a.tsv 
-less C1A3/sweterror-01-1-a.tsv 
-less C1A3/sweterror-01-1-a.json 
-less C1A3/sweterror-09-1-a.tsv 
-find . -name '*tsv'
-find . -name '*tsv'|xargs cat {} \;
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'|sort|uniq
-find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'|sort|uniq|grep '#'
 ls
 cd ..
 ls
@@ -498,3 +256,245 @@ less /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(2\).bib
 rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(2\).bib 
 rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en.bib 
 rm /Users/joregan/Downloads/transinf_E94.D_10_2015_en\ \(1\).bib 
+git status
+git add ../M5/*.mp4
+git add ../M5/*.webm
+git lfs activate
+git lfs install
+git commit -m videos
+git status
+git status
+git status
+git add ../M5/*.webm
+git add ../M5/*.mp4
+git add ../M5/*.mkv
+git status
+git rm ../M5/00Npee-_NZo.f247.webm
+git add ../M5/00Npee-_NZo.webm
+git add ../M5/01ASJb36Pf0.webm 
+git status
+git add ../M5/01cmKEaP9Gc.mp4
+git commit -m videos
+git status
+git add ../M5/*.mkv
+git add ../M5/*.mp4
+git add ../M5/*.webm
+git status
+git status
+git add ../M5/0AXUQcCu8sM.webm
+git rm ../M5/0AXUQcCu8sM.f247.webm 
+git status
+git status
+git add ../M5/*mkv
+git statsu
+git status
+git status
+git status
+git status
+git status
+git add ../M5/*webm
+git status
+git status
+git status
+git status
+git add ../M5/*mkv
+git status
+git add ../M5/*webm
+git status
+git commit -m videos
+git push origin raw-videos 
+git status
+git status
+git status
+git add ../M5/*mkv
+git status
+git add ../M5/*mp4
+git status
+git add ../M5/*webm
+git status
+git add ../M5/*mkv
+git status
+git commit -m videos
+ls ../M5/
+git status
+git add ../M5/*mkv
+git add ../M5/*mp4
+git status
+git add ../M5/*webm
+git status
+git status
+git add ../M5/*mkv
+git status
+git status
+git add ../M5/*webm
+git status
+git add ../M5/*mkv
+git status
+git status
+git add ../M5/*mkv
+git status
+git add ../M5/*webm
+git status
+git commit -m videos
+git push origin raw-videos 
+git status
+git add ../M5/*mkv
+git add ../M5/*mm4
+git add ../M5/*mp4
+git status
+git status
+git add ../M5/*webm
+git status
+git add ../M5/3g7j-UTRgcA.webm 
+git commit -m videos
+git status
+git push origin raw-videos 
+git status
+git status
+git add ../M5/*webm
+git status
+git status|grep '\.f'
+conda activate ytdl
+yt-dlp  -o '%(id)s.%(ext)s' --all-subs --  6wNUyNDU0gU
+# 6x6cTRk75X0
+git status
+git status|grep '\.f'
+mv 6wNUyNDU0gU.mkv ../M5/
+git rm ../M5/6wNUyNDU0gU.f247.webm
+git rm -f ../M5/6wNUyNDU0gU.f247.webm
+git add ../M5/6wNUyNDU0gU.mkv 
+git status|grep '\.f'
+cd ../M5/
+yt-dlp  -o '%(id)s.%(ext)s' --all-subs --  6x6cTRk75X0
+git rm 6x6cTRk75X0.f247.webm 
+git add 6x6cTRk75X0.mkv 
+git status
+git add *.mkv
+git add ./*.mkv
+git status
+git status|grep '\.f'
+git add ./*.mp4
+git status
+git add *.webm
+git add ./*.webm
+git status
+git lfs install
+git commit -m videos
+git push origin raw-videos 
+git status
+git add ./*.mkv
+git add ./*.mp4
+git status
+git add ./*.webm
+git status
+git status
+git add FkOOtdd_gUw.mkv Fkcm8PPK_1M.webm
+git status
+git add FlYF2_W-Xno.webm 
+git status
+git commit -m videos
+git push origin raw-videos 
+git status
+git status
+git status
+git add ./*mkv
+git add ./*mp4
+git status
+git add ./*webm
+git status
+git status
+git add MwhYETim1nw.webm
+git commit -m videos
+git push origin raw-videos 
+git status
+git add *webm
+git add ./*webm
+git add ./*mkv
+git add ./*mp4
+git add ./*webm
+git status
+git commit -m videos
+ls *vtt
+git status
+less Nc8_yClgLQY.hu.vtt 
+git status
+git add ./*mkv
+git add ./*mp4
+git status
+git add ./*webm
+git commit -m videos
+git push origin raw-videos 
+git status
+git add ./*.webm
+git status
+git add ./*.mkv
+git add ./*.mp4
+git status
+git add ./*.webm
+git status
+git add ./*.mkv
+git status
+git add ./*.webm
+git commit -m videos
+git status
+git add ./*.webm
+git add ./*.mkv
+git status
+git commit -m videos
+vi notdone 
+git status
+git add ./*.webm
+git add ./*.mkv
+git status
+ls
+git status
+git add ./*.mp4
+git status
+git status
+git add 9zyEzfgL3yw.webm 
+git status
+git status
+git add A-iEM6DV9oc.mp4 
+git status
+git commit -m videos
+git push origin raw-videos 
+git status
+git status
+git add ./*.mp4
+git add ./*.mkv
+git add ./*.webm
+git push origin raw-videos 
+git status
+git commit -m videos
+git push origin raw-videos 
+git status
+git add A0*webm
+git status
+git add Aa*webm
+git add A_*webm
+df
+ls
+git remote show origin 
+git status
+git status|grep webm
+git status|grep webm|awk '{print $NF}'
+git status|grep webm|awk '{print $NF}'|while read i;do scp $i sbtaldeep22:hungarian-youtube-speech/M5/ ; done
+df
+df -m
+df -m
+ls
+git add A*webm
+df
+git status
+du -sh ..
+cd ..
+cd ..
+scp -r youtube-hu/ sbtaldeep22:
+rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
+rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
+rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
+rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
+rsync -avh youtube-hu/ sbtaldeep22:youtube-hu/
+du -m .
+du -m youtube-hu
+rm -rf youtube-hu/
