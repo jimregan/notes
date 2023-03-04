@@ -1,82 +1,3 @@
-git commit -m WER2
-mv ~/Downloads/Untitled29.ipynb .
-git add Untitled29.ipynb 
-git commit -m WER3
-cd /Users/joregan/Playing/rdapi/lm_text/
-ls
-ls -al *arpa
-ls
-find . -size 0
-less H010446
-less H0C120130502fs
-/tmp/kenlm/build/bin/lmplz -o 3 < H0C120130502fs
-ls
-find . -size 0
-find . -size 0 -delete
-ls
-ls | grep -v arpa
-ls | grep -v arpa|while read i;do if [ ! -e $i.3gram.arpa ]; then /tmp/kenlm/build/bin/lmplz -o 3 < $i > $i.3gram.arpa;fi;done
-rm *arpa
-ls
-ls | grep -v arpa|while read i;do if [ ! -e $i.3gram.arpa ]; then /tmp/kenlm/build/bin/lmplz --discount_fallback -o 3 < $i > $i.3gram.arpa;fi;done
-ls
-rm *arpa
-cd ..
-scp -r lm_text/ sbtaldeep22:
-less train-valid-deliverable 
-ls
-ls /tmp
-less /tmp/name-set 
-cd /tmp
-scp sbtaldeep22:/sbtal/riksdag-video/2442210140028289021_480p.mp4 .
-scp sbtaldeep22:/sbtal/riksdag-video/2442207180020045221_480p.mp4 .
-brew install kenlm
-git clone https://github.com/kpu/kenlm
-cd kenlm/
-ls
-mkdir build
-cd build/
-cmake ..
-make -j 4
-pwd
-ls
-./bin/lmplz -h
-pwd
-echo $PWD/bin/lmplz 
-cd ~/Playing/
-cd rdapi/api_output/
-ls
-grep 2019 *
-grep 2019 *|less
-less H101SoU13
-grep '"debatedate"' *
-grep '"debatedate"' *|grep 2022
-grep '"debatedate"' *|grep 2011
-grep '"debatedate"' *|grep 2012
-ls
-cd ..
-ls
-ls sbtal/riksdag-video/
-cd ../
-vi /tmp/thing
-cat /tmp/thing |sed -e 's/\\n//'
-cat /tmp/thing |sed -e 's/\\n//'|awk -F'"' '{print $2}'
-cat /tmp/thing |sed -e 's/\\n//'|awk -F'"' '{print $2}'|awk -F'\\t' '{print $1 " & " $2 " & " $3}'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test & /'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& '
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\"}'
-cat /tmp/thing |sed -e 's/\\n//;s/\\t/\t/g'|awk -F'"' '{print $2}'|awk -F'\t' '{print $1 " & " $2 " & " $3}'|sed -e 's/TEST_/Test \& /;s/VAL_/Validation \& /'|awk '{print $0 " \\\\"}'
-cd ~/Desktop/
-ls
-ls Screenshot\ 2023-02-2* |zip /tmp/ss3m.zip -@
-rm Screenshot\ 2023-02-2*
-scp /tmp/ss3m.zip sbtaldeep22:.srv/
-rm /tmp/ss3m.zip 
-less ~/.huggingface/token 
-cd /Users/joregan/Playing/rdapi/lm_text/
 ls
 ls
 for i in *;do /tmp/kenlm/build/bin/lmplz -o 5 < $i > $i.5gram.arpa;done
@@ -498,3 +419,82 @@ echo AawwRvlXGD4 |while read i;do yt-dlp  -o '%(id)s.%(ext)s' --all-subs -- $i;d
 cd ~/Playing/sync_asr/
 ls
 less rdfilt-edit 
+cd Playing/notes/_drafts/
+vi tabs
+git add tabs 
+git commit -m pt1
+cp ../_posts/2022-12-05-misc-links.md ../_posts/2023-02-22-misc-links.md 
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m 'add'
+git status
+vi tabs 
+git diff
+git add tabs 
+git commit -m prune
+vi tabs0
+git add tabs0 
+git commit -m next
+rm tabs0
+vi tabs0
+git diff
+git add tabs0 
+git commit -m prune
+vi tabs1
+git add tabs1 
+git commit -m next
+rm tabs1
+vi tabs1
+git diff
+git add tabs1 
+git commit -m prune
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+git commit -m cvy
+vi ../_posts/2023-02-22-misc-links.md 
+grep vga_be tab*
+grep openv tab*
+rm tabs0 
+vi tabs0 
+git diff
+git add tabs0 
+git commit -m prune
+wc -l tabs0 
+grep 2205.03026 tabs*
+vi ../_posts/2023-02-22-misc-links.md 
+git add ../_posts/2023-02-22-misc-links.md 
+grep sherpa tabs*
+rm tabs
+vi tabs
+git diff
+git add tabs 
+git commit -m prune/cvt
+vi ../_posts/2023-02-22-misc-links.md 
+rm /Users/joregan/Downloads/10.1007_s10579-018-9411-5-citation.ris 
+less /Users/joregan/Downloads/transinf_E94.D_10_2015_en.bib 
+vi ../_posts/2023-02-22-misc-links.md 
+vi tabs0 
+rm tabs0 
+vi tabs0 
+git diff
+git add tabs0 
+git statuws
+git status
+git add  ../_posts/2023-02-22-misc-links.md
+git commit -m prune/cvt
+vi tabs0 
+vi ../_posts/2023-02-22-misc-links.md 
+vi ../_posts/2023-02-22-misc-links.md 
+vi ../_posts/2023-02-22-misc-links.md 
+vi tabs0 
+rm tabs0 
+vi tabs0 
+git add  ../_posts/2023-02-22-misc-links.md
+git add tabs0 
+git commit -m prune/cvt
+rm tabs0 
+vi tabs0 
+git diff
+git add tabs0 
+git commit -m prune
+wc -l tabs0 
