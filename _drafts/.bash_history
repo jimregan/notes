@@ -1,20 +1,3 @@
-git add FlYF2_W-Xno.webm 
-git status
-git commit -m videos
-git push origin raw-videos 
-git status
-git status
-git status
-git add ./*mkv
-git add ./*mp4
-git status
-git add ./*webm
-git status
-git status
-git add MwhYETim1nw.webm
-git commit -m videos
-git push origin raw-videos 
-git status
 git add *webm
 git add ./*webm
 git add ./*mkv
@@ -501,3 +484,17 @@ mkdir ~/Playing/rd_ctm_edit
 #for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$i;done
 for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$i;done
 for i in ~/Playing/rdapi/api_output/*; do filename=$(echo $i|awk -F/ '{print $NF}'); python -m sync_asr.riksdag.riksdag_align ~/Playing/rdctm/ $i > ~/Playing/rd_ctm_edit/$filename;done
+git add sync_asr/riksdag/riksdag_align.py
+git commit -m 'change to read the video ID from the API output'
+python sync_asr/riksdag/select_files_without_split_speakers.py 
+cd sync_asr/riksdag/
+python select_files_without_split_speakers.py 
+cd ..
+cd ..
+python -m sync_asr.riksdag.select_files_without_split_speakers
+python -m sync_asr.riksdag.select_files_without_split_speakers > video_list
+wc -l video_list 
+cat video_list |sort|uniq|wc
+git add sync_asr/riksdag/select_files_without_split_speakers.py
+git commit -m 'simple thing to exclude audio with test/valid set speakers'
+scp video_list sbtaldeep22:
