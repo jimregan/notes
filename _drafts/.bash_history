@@ -1,7 +1,3 @@
-vi tabs0 
-git diff tabs0
-vi tabs0 
-git diff
 git add tabs0 
 git add ../_posts/2023-02-22-misc-links.md 
 git commit -m prune/cvt
@@ -498,3 +494,7 @@ ssh sbtaldeep22
 ssh sbtaldeep24
 cat ~/.huggingface/token 
 scp ~/.huggingface/token sbtaldeep22:.huggingface/
+ls
+less 2442205210012937421_480p.mp4.vtt 
+less 2442205210012937421_480p.mp4.vtt 
+ssh sbtaldeep11 
