@@ -1,92 +1,3 @@
-rm -rf ~/Downloads/WFT_Downloaded_Files_6-10-2022_18-14-6/
-ls ~/Downloads/*zip
-unzip /Users/joregan/Downloads/Tmp\ wa-20220611T133359Z-001.zip 
-ls Tmp\ wa/
-ls
-rm -rf Tmp\ wa/
-unzip /Users/joregan/Downloads/Photos-001.zip
-scp /Users/joregan/Downloads/Photos-001.zip sbtaldeep22:.srv/
-rm /Users/joregan/Downloads/Photos-001.zip
-rm *
-rm /Users/joregan/Downloads/e81b1da3fe9cddd902b27f08151c78c6-720p.mp4 
-vi /Users/joregan/.ssh/config
-ssh deepmusic 
-ssh deepmusic 
-ls ~/Playing/
-ls ~/Playing/hu-tts/
-less ~/Playing/cmudict/cmudict.dict 
-vi tabs
-git diff
-git add tabs 
-git commit -m trim
-git add get_speakers.ipynb 
-git branch
-git commit -m 'speakers'
-mv /tmp/process_pcm2.py .
-git add process_pcm2.py 
-git commit -m 'version for Jens'
-conda create --name nst-tts
-conda activate nts-tts
-conda activate nst-tts
-conda install pip pysoundfile
-which pip
-conda install pip 
-pip install datasets
-pip install pysoundfile
-conda install libsndfile
-conda install sndfile
-conda install -c conda-forge pysoundfile
-pip uninstall pysoundfile
-conda install -c conda-forge pysoundfile
-which pip
-conda install pip 
-which pip
-conda update -n base -c defaults conda
-which pip
-conda install pip 
-conda update -n base -c defaults conda
-pip install datasets
-ls ../_notebooks/
-git branch
-git add nst_swedish_tts.py 
-git commit -m 'start'
-scp nst_swedish_tts.py sbtaldeep22:
-scp nst_swedish_tts.py sbtaldeep22:
-scp nst_swedish_tts.py sbtaldeep22:
-git add nst_swedish_tts.py 
-git commit -m fixes
-git add nst_swedish_tts.py 
-git commit -m fixes
-scp nst_swedish_tts.py sbtaldeep22:
-scp nst_swedish_tts.py sbtaldeep22:
-scp nst_swedish_tts.py sbtaldeep22:
-git diff
-git diff nst_swedish_tts.py
-git add nst_swedish_tts.py 
-git commit -m 'keep stem as id'
-scp nst_swedish_tts.py sbtaldeep22:
-scp nst_swedish_tts.py sbtaldeep22:
-git add nst_swedish_tts.py 
-git commit -m 'now with transcripts'
-git add nst_swedish_tts.py 
-git commit -m 'header, pitch tracker'
-git add sn
-git add nst_swedish_tts.py 
-git commit -m 'fix logic'
-git log
-git revert a3895609bf5e28395fa83afcd18a10034876e92e
-git add nst_swedish_tts.py 
-git diff
-git add nst_swedish_tts.py 
-git commit -m 'do that better'
-git diff
-git add nst_swedish_tts.py 
-git commit -m 'off by one here; wrong variable'
-git add read_nst_text.ipynb 
-git commit -m 'just play with it'
-git add nst_swedish_tts.py 
-git commit -m fix
-git rm read_nst_text.ipynb 
 git commit -m rm
 git add nst_swedish_tts.py 
 git commit -m 'add stem, this seems to get randomly shuffled'
@@ -498,3 +409,92 @@ ls ~/Playing/notes/_drafts/*py
 less ~/Playing/notes/_drafts/nst_swedish_tts.py 
 python
 unzip -l /Users/joregan/Downloads/deliv_20230224.zip 
+cd ../
+unzip -l /Users/joregan/Downloads/deliv_20230224.zip
+mkdir train-valid-deliverable
+cd train-valid-deliverable/
+unzip /Users/joregan/Downloads/deliv_20230224.zip
+ls
+less leveransrapport.txt 
+less guidelines.txt 
+less C1_audio/
+ls
+cd round1/
+ls
+less C1A1/sweterror-01-1-a.tsv 
+less C1A2/condition1_transcriber2/sweterror-01-1-a.tsv 
+less C1A3/sweterror-01-1-a.tsv 
+less C1A3/sweterror-01-1-a.json 
+less C1A3/sweterror-09-1-a.tsv 
+find . -name '*tsv'
+find . -name '*tsv'|xargs cat {} \;
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'|sort|uniq
+find . -name '*tsv'|xargs cat {} \;|awk -F'\t' '{print $3}'|grep -v Transcription|tr ' ' '\n'|sort|uniq|grep '#'
+ls
+cd ..
+ls
+ls round2/
+ls round2/C1A2/sweterror-01-1-a.tsv 
+less round2/C1A2/sweterror-01-1-a.tsv 
+ls
+ls C1_audio/
+conda activate hg
+conda activate hf
+ls
+less guidelines.txt 
+ls
+scp -r C1_audio/ sbtaldeep11:
+ffplay C1_audio/sweterror-01-1-a.wav 
+ffplay C1_audio/sweterror-01-1-a.wav 
+scp -r C1_audio/ sbtaldeep22:
+scp -r C1_audio/ sbtaldeep24:
+cd ..
+scp -r train-valid-deliverable sbtaldeep24:
+cd notes/
+cd _drafts/
+scp sbtaldeep24:sbtal_riksdag_asr/process_data.ipynb .
+git add process_data.ipynb 
+git commit -m 'extract test/valid data'
+scp sbtaldeep24:process_data.ipynb .
+git diff
+git add process_data.ipynb 
+git commit -m 'update'
+ls -al ~/Downloads/checkpoint_last.pt.gz 
+mv ~/Downloads/Untitled29.ipynb .
+git add Untitled29.ipynb 
+git commit -m WER
+mv ~/Downloads/Untitled29.ipynb .
+git add Untitled29.ipynb 
+git commit -m WER2
+mv ~/Downloads/Untitled29.ipynb .
+git add Untitled29.ipynb 
+git commit -m WER3
+cd /Users/joregan/Playing/rdapi/lm_text/
+ls
+ls -al *arpa
+ls
+find . -size 0
+less H010446
+less H0C120130502fs
+/tmp/kenlm/build/bin/lmplz -o 3 < H0C120130502fs
+ls
+find . -size 0
+find . -size 0 -delete
+ls
+ls | grep -v arpa
+ls | grep -v arpa|while read i;do if [ ! -e $i.3gram.arpa ]; then /tmp/kenlm/build/bin/lmplz -o 3 < $i > $i.3gram.arpa;fi;done
+rm *arpa
+ls
+ls | grep -v arpa|while read i;do if [ ! -e $i.3gram.arpa ]; then /tmp/kenlm/build/bin/lmplz --discount_fallback -o 3 < $i > $i.3gram.arpa;fi;done
+ls
+rm *arpa
+cd ..
+scp -r lm_text/ sbtaldeep22:
+less train-valid-deliverable 
+ls
+ls /tmp
+less /tmp/name-set 
