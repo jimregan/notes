@@ -100,12 +100,6 @@ https://www.google.com/search?q=python+list+partition&rlz=1C5GCEM_enSE990SE991&o
 Here is how to sort a list of dictionaries by a value of the dictionary in Python
 https://pythonhow.com/how/sort-a-list-of-dictionaries-by-a-value-of-the-dictionary/
 
-Explanation - Wikipedia
-https://en.wikipedia.org/wiki/Explanation#:~:text=Types%20of%20explanation%20involve%20appropriate,Reductive%2C%20Teleological%2C%20Methodological%20explanations.
-
-SIGUL 2023 – Baile Átha Cliath, 18-20 Lúnasa 2023
-https://sigul-2023.ilc.cnr.it/
-
 Online RIS to BibTeX converter
 https://www.bruot.org/ris2bib/
 
@@ -163,21 +157,6 @@ https://www.mllp.upv.es/git-pub/ggarces/Europarl-ASR
 openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision
 https://github.com/openai/whisper
 
-fairseq/README.md at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md
-
-fairseq/libri_labels.py at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/libri_labels.py
-
-fairseq/README.md at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/examples/speech_recognition/README.md
-
-Search · ltr
-https://github.com/facebookresearch/fairseq/search?p=2&q=ltr&type=issues
-
-Unable to load Wav2Vec 2.0 models - wav2vec2_vox_960h_new.pt · Issue #4691 · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/issues/4691
-
 016-many-eng-v2/mtdata.recipes.yml at 2bf3e75ce031233a53df30c2fd57e02b29bc20cd · thammegowda/016-many-eng-v2
 https://github.com/thammegowda/016-many-eng-v2/blob/2bf3e75ce/data/mtdata.recipes.yml
 
@@ -193,59 +172,20 @@ https://github.com/thammegowda/mtdata/blob/master/recipes/mtdata.recipes.wmt22al
 kpu/elrc-scrape at 51cb57e768fa85ea8a5e59e46318bec1d1471cc5
 https://github.com/kpu/elrc-scrape/tree/51cb57e768fa85ea8a5e59e46318bec1d1471cc5
 
-sanchit-gandhi (Sanchit Gandhi)
-https://huggingface.co/sanchit-gandhi
-
 notebooks/multi_dataset_evaluation.ipynb at main · sanchit-gandhi/notebooks
 https://github.com/sanchit-gandhi/notebooks/blob/main/multi_dataset_evaluation.ipynb
 
 Transformer-Based Automatic Speech Recognition of Formal and Colloquial Czech in MALACH Project | SpringerLink
 https://link.springer.com/chapter/10.1007/978-3-031-16270-1_25#Fn1
 
-Share a dataset to the Hub
-https://huggingface.co/docs/datasets/upload_dataset
-
-revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
-https://github.com/revdotcom/fstalign
-
-transformers/run_speech_recognition_seq2seq.py at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/examples/pytorch/speech-recognition/run_speech_recognition_seq2seq.py
-
 What I Learned from Whisper Fine-Tuning Event | by bofeng huang | Jan, 2023 | Medium
 https://medium.com/@bofenghuang7/what-i-learned-from-whisper-fine-tuning-event-2a68dab1862
-
-jimregan/wav2vec2-swedish-riksdag-100h at main
-https://huggingface.co/jimregan/wav2vec2-swedish-riksdag-100h/tree/main
-
-Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers
-https://huggingface.co/blog/fine-tune-whisper
 
 INTERSPEECH 2023 Paper Kit - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/63f3926043b07cc3ab8f73a0
 
 Untitled29.ipynb - Colaboratory
 https://colab.research.google.com/drive/1JuWRjAMy6BL39hy-eLstqGYKb7g8q2Kh#scrollTo=zILsgEEdke2S
-
-Paper Submission – Interspeech 2023
-https://www.interspeech2023.org/paper-submission/
-
-Conference Management Toolkit - Welcome
-https://cmt3.research.microsoft.com/User/Welcome
-
-kaldi aspire run recognition - Google Search
-https://www.google.com/search?q=kaldi+aspire+run+recognition&rlz=1C5GCEM_enSE990SE991&oq=kaldi+aspire+run+recog&aqs=chrome.1.69i57j33i160l2.5555j0j4&sourceid=chrome&ie=UTF-8
-
-kaldi/RESULTS at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/aspire/s5/RESULTS#enroll-beta
-
-Kaldi: Examples included with Kaldi
-https://kaldi-asr.org/doc/examples.html
-
-kaldi/lattice_to_ctm.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/aspire/s5/local/lattice_to_ctm.sh
-
-whisper create mel spectrogram python huggingface - Google Search
-https://www.google.com/search?q=whisper+create+mel+spectrogram+python+huggingface&rlz=1C5GCEM_enSE990SE991&sxsrf=AJOqlzXttQPP7JMWxepdrN_EOTgFuxFWFA%3A1677847113199&ei=SeoBZIDmC5zZxc8PmIqBmA0&oq=whisper+create+mel+spectrogram+python+hugging&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMgUIIRCgAToKCAAQRxDWBBCwA0oECEEYAFDkB1jpFWCmImgBcAF4AIABdogB_gSSAQM3LjGYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp
 
 Audio Spectrogram Transformer
 https://huggingface.co/docs/transformers/model_doc/audio-spectrogram-transformer
@@ -279,9 +219,6 @@ https://github.com/microsoft/unilm/tree/6f60612e7cc86a2a1ae85c47231507a587ab4e01
 
 config.json · MIT/ast-finetuned-audioset-10-10-0.4593 at main
 https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593/blob/main/config.json
-
-text line segmentation python github - Google Search
-https://www.google.com/search?q=text+line+segmentation+python+github&rlz=1C5GCEM_enSE990SE991&sxsrf=AJOqlzXRTuluzJzkuV2kglYYafPDkOnCfw%3A1677851157805&ei=FfoBZO7lMMiDqgHW0a_ICQ&ved=0ahUKEwiuxPzR8r_9AhXIgSoKHdboC5kQ4dUDCA8&uact=5&oq=text+line+segmentation+python+github&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQA0oECEEYAFAAWABgAGgAcAB4AIABAIgBAJIBAJgBAA&sclient=gws-wiz-serp
 
 personwhofloat/Line-Segmentation-Model: LSM is short for Line Segmentation Model. It is a model for text line segmentation in document images. The model is robust to color, brightness, page warping.
 https://github.com/personwhofloat/Line-Segmentation-Model
@@ -325,145 +262,12 @@ https://en.wiktionary.org/w/index.php?title=Template:ga-conj-1c&action=edit
 Template:ga-conj-2 - Wiktionary
 https://en.wiktionary.org/wiki/Template:ga-conj-2
 
-fine tune whisper - Google Search
-https://www.google.com/search?q=fine+tune+whisper&rlz=1C5GCEM_enSE990SE991&oq=fine+tune+whis&aqs=chrome.0.0i512l2j69i57j0i390l2j69i60l3.2310j0j7&sourceid=chrome&ie=UTF-8
-
-Fine-tuning Whisper ASR models | whisper_finetuning – Weights & Biases
-https://wandb.ai/parambharat/whisper_finetuning/reports/Fine-tuning-Whisper-ASR-models---VmlldzozMTEzNDE5
-
-Hugging Face x Lambda: Whisper Fine-Tuning Event
-https://lambdalabs.com/blog/hugging-face-lambda-whisper-fine-tuning-event
-
-community-events/fine-tune-whisper-non-streaming.ipynb at main · huggingface/community-events · GitHub
-https://github.com/huggingface/community-events/blob/main/whisper-fine-tuning-event/fine-tune-whisper-non-streaming.ipynb
-
-community-events/huggan at main · huggingface/community-events
-https://github.com/huggingface/community-events/tree/main/huggan
-
-community-events/whisper-fine-tuning-event at main · huggingface/community-events
-https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event#data-and-pre-processing
-
-community-events/whisper-fine-tuning-event at main · huggingface/community-events
-https://github.com/huggingface/community-events/tree/main/whisper-fine-tuning-event#communication-and-problems
-
-Hugging Face x Lambda: Whisper Fine-Tuning Event
-https://lambdalabs.com/blog/hugging-face-lambda-whisper-fine-tuning-event#fine-tune-whisper
-
 Whisper Fine-Tuning | Speech Recognition With Vosk
 https://alphacephei.com/nsh/2023/01/15/whisper-finetuning.html
-
-Batch mapping
-https://huggingface.co/docs/datasets/about_map_batch
-
-New Tab
-chrome://newtab/
-
-jimregan/wav2vec2-swedish-riksdag-200h · Training metrics
-https://huggingface.co/jimregan/wav2vec2-swedish-riksdag-200h/tensorboard
-
-Why is use_cache incompatible with gradient checkpointing? - 🤗Transformers - Hugging Face Forums
-https://discuss.huggingface.co/t/why-is-use-cache-incompatible-with-gradient-checkpointing/18811
-
-Efficient Training on Multiple GPUs
-https://huggingface.co/docs/transformers/perf_train_gpu_many
-
-Cuda out of memory error - Intermediate - Hugging Face Forums
-https://discuss.huggingface.co/t/cuda-out-of-memory-error/17959/4
-
-Performance and Scalability
-https://huggingface.co/docs/transformers/main/en/performance#gradient-checkpointing
-
-Efficient Training on Multiple GPUs
-https://huggingface.co/docs/transformers/main/en/perf_train_gpu_many
-
-help ! RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB (GPU 0; 10.92 GiB total capacity; 8.62 GiB already allocated; 1.39 GiB free; 8.81 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation. See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF · Issue #86 · CompVis/stable-diffusion
-https://github.com/CompVis/stable-diffusion/issues/86
-
-Efficient Training on Multiple GPUs
-https://huggingface.co/docs/transformers/perf_train_gpu_many
-
-jimregan/whisper-small-sv-riksdag at main
-https://huggingface.co/jimregan/whisper-small-sv-riksdag/tree/main/runs
-
-jimregan/wav2vec2-swedish-riksdag-200h · Training metrics
-https://huggingface.co/jimregan/wav2vec2-swedish-riksdag-200h/tensorboard
-
-A Visitor’s Guide to Dante’s Nine Circles of Hell | Penguin Random House
-https://www.penguinrandomhouse.com/articles/a-visitors-guide-to-dantes-nine-circles-of-hell/
-
-fairseq/vox_100h_2.yaml at main · facebookresearch/fairseq · GitHub
-https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/config/finetuning/vox_100h_2.yaml
-
-2303.00510.pdf
-https://arxiv.org/pdf/2303.00510.pdf
 
 View article
 https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p1oNwqQAAAAJ&citation_for_view=p1oNwqQAAAAJ:roLk4NBRz8UC
 
 jimregan/wav2vec2-riksdag-api-alignments
 https://github.com/jimregan/wav2vec2-riksdag-api-alignments
-
-wav2vec2-riksdag-api-alignments/H001AU12 at main · jimregan/wav2vec2-riksdag-api-alignments · GitHub
-https://github.com/jimregan/wav2vec2-riksdag-api-alignments/blob/main/H001AU12
-
-Add a license to jimregan/wav2vec2-riksdag-api-alignments
-https://github.com/jimregan/wav2vec2-riksdag-api-alignments/community/license/new?branch=main
-
-remove empty files · jimregan/wav2vec2-riksdag-api-alignments@8aed233
-https://github.com/jimregan/wav2vec2-riksdag-api-alignments/commit/8aed233115c75004180262e8e1e112f45013780b
-
-Om riksdagens öppna data - Riksdagens öppna data
-https://data.riksdagen.se/hjalp-och-stod/om-riksdagens-oppna-data/
-
-Dokumentation - Riksdagens öppna data
-https://data.riksdagen.se/dokumentation/
-
-Om dataset - Riksdagens öppna data
-https://data.riksdagen.se/dokumentation/om-dataset/
-
-Boosting Wav2Vec2 with n-grams in 🤗 Transformers
-https://huggingface.co/blog/wav2vec2-with-ngram
-
-jimregan/whisper-small-sv-riksdag · Training metrics
-https://huggingface.co/jimregan/whisper-small-sv-riksdag/tensorboard
-
-Panel Shows
-https://www.reddit.com/r/panelshows/
-
-huggingface whisper fine tuning multiple gpus - Google Search
-https://www.google.com/search?q=huggingface+whisper+fine+tuning+multiple+gpus&rlz=1C5GCEM_enSE990SE991&oq=huggingface+whisper+fine+tuning+multiple+gpus&aqs=chrome..69i57.9358j0j7&sourceid=chrome&ie=UTF-8
-
-Efficient Training on Multiple GPUs
-https://huggingface.co/docs/transformers/perf_train_gpu_many
-
-Data extraction by jimregan · Pull Request #31 · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/pull/31/files
-
-jimregan/wav2vec2-riksdag-api-alignments
-https://github.com/jimregan/wav2vec2-riksdag-api-alignments
-
-(106) YouTube
-https://www.youtube.com/
-
-Ubuntu Manpage: git-lfs-prune - Delete old LFS files from local storage
-https://manpages.ubuntu.com/manpages/bionic/man1/git-lfs-prune.1.html
-
-Branches · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/branches
-
-git lfs purge commit - Google Search
-https://www.google.com/search?q=git+lfs+purge+commit&rlz=1C5GCEM_enSE990SE991&oq=git+lfs+purge+commit&aqs=chrome..69i57j69i64.4893j0j4&sourceid=chrome&ie=UTF-8
-
-jimregan/whisper-small-sv-riksdag · Training metrics
-https://huggingface.co/jimregan/whisper-small-sv-riksdag/tensorboard
-
-jimregan/whisper-small-sv-riksdag at main
-https://huggingface.co/jimregan/whisper-small-sv-riksdag/tree/main
-
-New Tab
-chrome://newtab/
-
-Slackmojis - The Best Custom Slack Emojis
-https://slackmojis.com/
-
 
