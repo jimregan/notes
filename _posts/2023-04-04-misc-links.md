@@ -69,6 +69,8 @@ categories: [links]
 
 [snakers4/silero-vad](https://github.com/snakers4/silero-vad)
 
+[Many-to-English: Data v2 and Statistics](http://rtg.isi.edu/many-eng/data-v2.html)
+
 {% twitter https://twitter.com/0xDesigner/status/1642554817590566915 %}
 
 
