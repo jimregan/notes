@@ -45,3 +45,20 @@ categories: [links]
 }
 ```
 
+[TransFusion: Transcribing Speech with Multinomial Diffusion](https://arxiv.org/abs/2210.07677), [code](https://github.com/RF5/transfusion-asr/) -- not open source.
+
+```bibtex
+@misc{baas2022transfusion,
+      title={TransFusion: Transcribing Speech with Multinomial Diffusion}, 
+      author={Matthew Baas and Kevin Eloff and Herman Kamper},
+      year={2022},
+      eprint={2210.07677},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+```
+
+
+[There is more to Hungarian than goulash! Grammar Course for Beginners](https://hunlang.files.wordpress.com/2009/09/tmthtgfinal.pdf)
+
+
