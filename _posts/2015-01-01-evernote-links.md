@@ -7,7 +7,7 @@ title: Evernote web clips, 1/1/2015
 categories: [evernote, web clip]
 ---
 
-[Word Embeddings For Fashion | Technology on Heels with Lyst Engineering](https://making.lyst.com/2014/11/11/word-embeddings-for-fashion/)
+[Word Embeddings For Fashion --- Technology on Heels with Lyst Engineering](https://making.lyst.com/2014/11/11/word-embeddings-for-fashion/)
 
 [Neat Algorithms - Paxos - Will You Harry Me](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)
 
