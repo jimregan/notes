@@ -58,6 +58,21 @@ categories: [links]
 }
 ```
 
+[The Norwegian Parliamentary Speech Corpus](https://aclanthology.org/2022.lrec-1.106/)
+
+```bibtex
+@inproceedings{solberg-ortiz-2022-norwegian,
+    title = "The {N}orwegian Parliamentary Speech Corpus",
+    author = "Solberg, Per Erik  and
+      Ortiz, Pablo",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    pages = "1003--1008",
+}
+```
 
 [There is more to Hungarian than goulash! Grammar Course for Beginners](https://hunlang.files.wordpress.com/2009/09/tmthtgfinal.pdf)
 
@@ -72,5 +87,37 @@ categories: [links]
 [Many-to-English: Data v2 and Statistics](http://rtg.isi.edu/many-eng/data-v2.html)
 
 {% twitter https://twitter.com/0xDesigner/status/1642554817590566915 %}
+
+[neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) --- A multi-voice TTS system trained with an emphasis on quality
+
+[urschrei/pyzotero](https://github.com/urschrei/pyzotero) --- Pyzotero: a Python client for the Zotero API
+
+[NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality](https://arxiv.org/abs/2205.04421)
+
+```bibtex
+@misc{tan2022naturalspeech,
+      title={NaturalSpeech: End-to-End Text to Speech Synthesis with Human-Level Quality}, 
+      author={Xu Tan and Jiawei Chen and Haohe Liu and Jian Cong and Chen Zhang and Yanqing Liu and Xi Wang and Yichong Leng and Yuanhao Yi and Lei He and Frank Soong and Tao Qin and Sheng Zhao and Tie-Yan Liu},
+      year={2022},
+      eprint={2205.04421},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+```
+
+[Uimhreacha](https://www.lexiconista.com/pdf/Uimhreacha.pdf)
+
+[Self-Instruct: Aligning Language Model with Self Generated Instructions](https://arxiv.org/abs/2212.10560), [code](https://github.com/yizhongw/self-instruct)
+
+```bibtex
+@misc{wang2022selfinstruct,
+      title={Self-Instruct: Aligning Language Model with Self Generated Instructions}, 
+      author={Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi},
+      year={2022},
+      eprint={2212.10560},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 
