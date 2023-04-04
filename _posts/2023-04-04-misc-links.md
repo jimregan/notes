@@ -61,4 +61,14 @@ categories: [links]
 
 [There is more to Hungarian than goulash! Grammar Course for Beginners](https://hunlang.files.wordpress.com/2009/09/tmthtgfinal.pdf)
 
+[sp-nitech/diffsptk](https://github.com/sp-nitech/diffsptk) --- A differential version of SPTK
+
+[soobinseo/Transformer-TTS](https://github.com/soobinseo/Transformer-TTS) --- A Pytorch Implementation of "Neural Speech Synthesis with Transformer Network"
+
+[jxzhanggg/nonparaSeq2seqVC_code](https://github.com/jxzhanggg/nonparaSeq2seqVC_code) --- Implementation code of non-parallel sequence-to-sequence VC
+
+[snakers4/silero-vad](https://github.com/snakers4/silero-vad)
+
+{% twitter https://twitter.com/0xDesigner/status/1642554817590566915 %}
+
 
