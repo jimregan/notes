@@ -31,3 +31,17 @@ categories: [links]
   year = {2022},
 }
 ```
+
+[A real-time filled pause detection system for spontaneous speech recognition](https://www.isca-speech.org/archive/eurospeech_1999/goto99_eurospeech.html)
+
+```bibtex
+@inproceedings{goto99_eurospeech,
+  author={Masataka Goto and Katunobu Itou and Satoru Hayamizu},
+  title={A real-time filled pause detection system for spontaneous speech recognition},
+  year=1999,
+  booktitle={Proc. 6th European Conference on Speech Communication and Technology (Eurospeech 1999)},
+  pages={227--230},
+  doi={10.21437/Eurospeech.1999-60}
+}
+```
+
