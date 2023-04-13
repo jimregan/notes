@@ -103,6 +103,14 @@ categories: [links]
 
 [auspicious3000/SpeechSplit](https://github.com/auspicious3000/SpeechSplit) --- Unsupervised Speech Decomposition Via Triple Information Bottleneck
 
+[bjelkenhed/whisper-large-sv](https://huggingface.co/bjelkenhed/whisper-large-sv), [train](https://huggingface.co/bjelkenhed/whisper-train)
+
+[KBLab/rixvox](https://huggingface.co/datasets/KBLab/rixvox)
+
+[Ultra fast ControlNet with Diffusers](https://huggingface.co/blog/controlnet)
+
+[Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim](https://huggingface.co/Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim)
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
@@ -114,3 +122,6 @@ categories: [links]
 [Gramadach na Gaeilge](http://www.nualeargais.ie/gnag/gram.htm)
 
 [Bedell, James 3](https://www.bible.com/bible/883/JAS.3.BEDELL)
+
+[An Ultrasound Investigation of Irish Palatalization](https://irishpalatals.sites.ucsc.edu/)
+
