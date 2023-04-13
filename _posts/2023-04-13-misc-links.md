@@ -123,6 +123,32 @@ categories: [links]
 
 [IEMOCAP](https://sail.usc.edu/iemocap/)
 
+[lucidrains/lion-pytorch](https://github.com/lucidrains/lion-pytorch) --- Lion, new optimizer discovered by Google Brain using genetic algorithms that is purportedly better than Adam(w), in Pytorch
+
+[lucidrains/denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch) --- Implementation of Denoising Diffusion Probabilistic Model in Pytorch
+
+[lucidrains/audiolm-pytorch](https://github.com/lucidrains/audiolm-pytorch) --- Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
+
+[lucidrains/robotic-transformer-pytorch](https://github.com/lucidrains/robotic-transformer-pytorch) --- Implementation of RT1 (Robotic Transformer) in Pytorch
+
+[lucidrains/recurrent-interface-network-pytorch](https://github.com/lucidrains/recurrent-interface-network-pytorch) --- Implementation of Recurrent Interface Network (RIN), for highly efficient generation of images and video without cascading networks, in Pytorch
+
+[lucidrains/memory-efficient-attention-pytorch](https://github.com/lucidrains/memory-efficient-attention-pytorch) --- Implementation of a memory efficient multi-head attention as proposed in the paper, "Self-attention Does Not Need O(n²) Memory"
+
+[lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) --- Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
+[hazyResearch/flash-attention](https://github.com/hazyResearch/flash-attention) --- Fast and memory-efficient exact attention
+
+[lucidrains/make-a-video-pytorch](https://github.com/lucidrains/make-a-video-pytorch) --- Implementation of Make-A-Video, new SOTA text to video generator from Meta AI, in Pytorch
+
+[lucidrains/rvq-vae-gpt](https://github.com/lucidrains/rvq-vae-gpt) --- My attempts at applying Soundstream design on learned tokenization of text and then applying hierarchical attention to text generation
+
+[lucidrains/imagen-pytorch](https://github.com/lucidrains/imagen-pytorch) --- Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
+
+[crowsonkb/v-diffusion-jax](https://github.com/crowsonkb/v-diffusion-jax) --- v objective diffusion inference code for JAX.
+
+[Datasheet for the Pile](https://arxiv.org/abs/2201.07311)
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)

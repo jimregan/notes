@@ -4,60 +4,6 @@ https://cse.google.com/cse?cx=006749373785748478810:sr-nljxzthy&cof=FORID:0&q=th
 Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages | Request PDF
 https://www.researchgate.net/publication/368934810_Google_USM_Scaling_Automatic_Speech_Recognition_Beyond_100_Languages
 
-There’s now an open source alternative to ChatGPT, but good luck running it | TechCrunch
-https://techcrunch.com/2022/12/30/theres-now-an-open-source-alternative-to-chatgpt-but-good-luck-running-it/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAKdsJDvq0LvIoI0-8QZtV9L5noy89VMqypDMsmb0RpVTUcU03VeOd1xvOeqX6ZM8__vR-8emKivAxzTxN-A7dNlOrrTRD3MeGwcp-e4rRDSS1g-ruuSjDwHg_GZQk_jj3Jv02mO-Id_Zw0SmgOLH4jRbNsE-hdzWm8a7V2z9autj
-
-rvq-vae-gpt/rvq_vae_gpt.py at main · lucidrains/rvq-vae-gpt · GitHub
-https://github.com/lucidrains/rvq-vae-gpt/blob/main/rvq_vae_gpt/rvq_vae_gpt.py
-
-lion-pytorch/lion_pytorch.py at main · lucidrains/lion-pytorch · GitHub
-https://github.com/lucidrains/lion-pytorch/blob/main/lion_pytorch/lion_pytorch.py
-
-lucidrains/denoising-diffusion-pytorch: Implementation of Denoising Diffusion Probabilistic Model in Pytorch
-https://github.com/lucidrains/denoising-diffusion-pytorch
-
-lucidrains/audiolm-pytorch: Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
-https://github.com/lucidrains/audiolm-pytorch
-
-lucidrains/robotic-transformer-pytorch: Implementation of RT1 (Robotic Transformer) in Pytorch
-https://github.com/lucidrains/robotic-transformer-pytorch
-
-lucidrains/imagen-pytorch: Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
-https://github.com/lucidrains/imagen-pytorch
-
-v-diffusion-jax/wikiart_256.py at master · crowsonkb/v-diffusion-jax · GitHub
-https://github.com/crowsonkb/v-diffusion-jax/blob/master/diffusion/models/wikiart_256.py
-
-lucidrains/recurrent-interface-network-pytorch: Implementation of Recurrent Interface Network (RIN), for highly efficient generation of images and video without cascading networks, in Pytorch
-https://github.com/lucidrains/recurrent-interface-network-pytorch
-
-recurrent-interface-network-pytorch/rin.png at main · lucidrains/recurrent-interface-network-pytorch · GitHub
-https://github.com/lucidrains/recurrent-interface-network-pytorch/blob/main/images/rin.png
-
-memory-efficient-attention-pytorch/cosine_sim_flash_attention.py at main · lucidrains/memory-efficient-attention-pytorch · GitHub
-https://github.com/lucidrains/memory-efficient-attention-pytorch/blob/main/memory_efficient_attention_pytorch/cosine_sim_flash_attention.py
-
-PaLM-rlhf-pytorch/reward.py at main · lucidrains/PaLM-rlhf-pytorch · GitHub
-https://github.com/lucidrains/PaLM-rlhf-pytorch/blob/main/palm_rlhf_pytorch/reward.py
-
-HazyResearch/flash-attention: Fast and memory-efficient exact attention
-https://github.com/hazyResearch/flash-attention
-
-flash-attention/usage.md at main · HazyResearch/flash-attention · GitHub
-https://github.com/HazyResearch/flash-attention/blob/main/usage.md
-
-lucidrains/attention: This repository will house a visualization that will attempt to convey instant enlightenment of how Attention works to someone not working in artificial intelligence, with 3Blue1Brown as inspiration
-https://github.com/lucidrains/attention
-
-I combined your code with diffusers stable diffusion and trained a model · Issue #10 · lucidrains/make-a-video-pytorch
-https://github.com/lucidrains/make-a-video-pytorch/issues/10
-
-lucidrains/imagen-pytorch: Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
-https://github.com/lucidrains/imagen-pytorch#text-to-video
-
-Video temporal upsampling · Issue #305 · lucidrains/imagen-pytorch
-https://github.com/lucidrains/imagen-pytorch/issues/305#issuecomment-1407015141
-
 my own messy training code for make-a-stable-diffusion-video
 https://gist.github.com/lxj616/5134368f44aca837304530695ee100ea
 
@@ -75,9 +21,6 @@ https://www.together.xyz/blog/openchatkit
 
 togethercomputer/OpenChatKit
 https://github.com/togethercomputer/OpenChatKit
-
-2201.07311.pdf
-https://arxiv.org/pdf/2201.07311.pdf
 
 kpriyanshu256/whisper-large-v2-ga-IE-800-32-1e-05-pretrain-br · Hugging Face
 https://huggingface.co/kpriyanshu256/whisper-large-v2-ga-IE-800-32-1e-05-pretrain-br
