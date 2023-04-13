@@ -79,6 +79,8 @@ categories: [links]
 }
 ```
 
+[databricks/dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
