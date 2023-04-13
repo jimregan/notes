@@ -1,7 +1,3 @@
-@@ -1,15 +1,18 @@
-+python-poppler · PyPI
-+https://pypi.org/project/python-poppler/
-+
  Untitled30.ipynb - Colaboratory
  https://colab.research.google.com/drive/1ikJu1txF9T8Oa5QyNz8p9dutHc5gvQ7n#scrollTo=_8CaHYDMmG_R
  
@@ -26,7 +22,6 @@
  Modèle:se-décl-impari-sans-alt — Wiktionnaire
  https://fr.wiktionary.org/wiki/Mod%C3%A8le:se-d%C3%A9cl-impari-sans-alt
  
-@@ -193,21 +226,6 @@
  Báddejumit dievasčoahkkimiin Sámedikkis/Opptak av plenumsmøter i Sametinget 9.-10.10.1989 (1:3) - Dievasčoahkkin / Plenumsmøte 9.-10.10.1989 - Skanna arkiver - Arkivverket
  https://media.digitalarkivet.no/play/105554
  
@@ -91,30 +86,16 @@
  
 -KBLab/rixvox · Datasets at Hugging Face
 -https://huggingface.co/datasets/KBLab/rixvox
-+NVIDIA/cutlass: CUDA Templates for Linear Algebra Subroutines
-+https://github.com/NVIDIA/cutlass
  
 -The KBLab Blog: RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates
 -https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/
-+Sheamuis 3 | Bedell Bible | YouVersion
-+https://www.bible.com/bible/883/JAS.3.BEDELL
  
 -The KBLab Blog: Finding Speeches in the Riksdag's Debates
 -https://kb-labb.github.io/posts/2023-02-15-finding-speeches-in-the-riksdags-debates/
-+Meänkieli – Wikipedia
-+https://fi.wikipedia.org/wiki/Me%C3%A4nkieli
  
 -riksdagen_anforanden/data.py at main · kb-labb/riksdagen_anforanden · GitHub
 -https://github.com/kb-labb/riksdagen_anforanden/blob/main/src/data.py
-+Finnish numerals - Wikipedia
-+https://en.wikipedia.org/wiki/Finnish_numerals
  
--The KBLab Blog: RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates
--https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/
- 
-+Update wfst_text_normalization.rst by jimregan · Pull Request #6374 · NVIDIA/NeMo
-+https://github.com/NVIDIA/NeMo/pull/6374
-+
 +Restore Thutmose Tagger tutorial, move it to nlp (#6325) · NVIDIA/NeMo@697c3f3
 +https://github.com/NVIDIA/NeMo/commit/697c3f36351a9a1c10a4ec6fae5f825c318037c2
 +
@@ -129,54 +110,6 @@
 +
 +IEMOCAP- Information
 +https://sail.usc.edu/iemocap/iemocap_info.htm
-+
-+Trending repositories on GitHub today
-+https://github.com/trending
-+
-+reworkd/AgentGPT: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
-+https://github.com/reworkd/AgentGPT
-+
-+sdatkinson/neural-amp-modeler: Neural network emulator for guitar amplifiers.
-+https://github.com/sdatkinson/neural-amp-modeler
-+
-+Instruction-Tuning-with-GPT-4/GPT-4-LLM
-+https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM
-+
-+Winfredy/SadTalker: （CVPR 2023）SadTalker：Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation
-+https://github.com/Winfredy/SadTalker
-+
-+SadTalker - a Hugging Face Space by vinthony
-+https://huggingface.co/spaces/vinthony/SadTalker
-+
-+chroma/local_persistence.ipynb at main · chroma-core/chroma · GitHub
-+https://github.com/chroma-core/chroma/blob/main/examples/local_persistence.ipynb
-+
-+facebookresearch/detectron2: Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.
-+https://github.com/facebookresearch/detectron2
-+
-+myosuite/5_Move_Hand_Fingers.ipynb at main · facebookresearch/myosuite · GitHub
-+https://github.com/facebookresearch/myosuite/blob/main/docs/source/tutorials/5_Move_Hand_Fingers.ipynb
-+
-+facebookresearch/habitat-lab: A modular high-level library to train embodied AI agents across a variety of tasks and environments.
-+https://github.com/facebookresearch/habitat-lab
-+
-+Segment Anything | Meta AI
-+https://segment-anything.com/
-+
-+Project Aria Pilot Dataset | Meta
-+https://about.meta.com/realitylabs/projectaria/datasets/
-+
-+facebookresearch/Aria_data_tools: Aria data tools provide the open-source toolkit in C++ and Python to interact with data from Project Aria
-+https://github.com/facebookresearch/Aria_data_tools
-+
-+facebookresearch/segment-anything: The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.
-+https://github.com/facebookresearch/segment-anything/tree/main
-+
-+Seeing Speech: IPA Charts
-+https://www.seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=1&speaker=1#location=625
-+
-+bootphon/articulatory_inversion
-+https://github.com/bootphon/articulatory_inversion
 +
 +Index of /mocha
 +https://data.cstr.ed.ac.uk/mocha/
@@ -204,9 +137,6 @@
 +
 +slackapi/python-slack-sdk: Slack Developer Kit for Python
 +https://github.com/slackapi/python-slack-sdk
-+
-+slackapi/bolt-python: A framework to build Slack apps using Python
-+https://github.com/slackapi/bolt-python
 +
 +jerryjliu/llama_index: LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 +https://github.com/jerryjliu/llama_index
