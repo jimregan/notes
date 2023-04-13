@@ -106,10 +106,22 @@ categories: [links]
 [bjelkenhed/whisper-large-sv](https://huggingface.co/bjelkenhed/whisper-large-sv), [train](https://huggingface.co/bjelkenhed/whisper-train)
 
 [KBLab/rixvox](https://huggingface.co/datasets/KBLab/rixvox)
+[Finding Speeches in the Riksdag’s Debates](https://kb-labb.github.io/posts/2023-02-15-finding-speeches-in-the-riksdags-debates/)
+[RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates](https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/)
 
 [Ultra fast ControlNet with Diffusers](https://huggingface.co/blog/controlnet)
 
 [Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim](https://huggingface.co/Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim)
+
+[USC-TIMIT: a database of multimodal speech production data](https://sail.usc.edu/span/usc-timit/)
+
+[Haskins_IEEE_Rate_Comparison_DB](https://yale.app.box.com/s/cfn8hj2puveo65fq54rp1ml2mk7moj3h/folder/30415804819)
+
+[mgnu0](https://www.mngu0.org/)
+
+[mocha](https://data.cstr.ed.ac.uk/mocha/)
+
+[IEMOCAP](https://sail.usc.edu/iemocap/)
 
 -----
 
