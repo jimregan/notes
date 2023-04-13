@@ -1,23 +1,8 @@
-app.py · Finnish-NLP/Finnish-Automatic-Speech-Recognition at main
-https://huggingface.co/spaces/Finnish-NLP/Finnish-Automatic-Speech-Recognition/blob/main/app.py
-
-Manual_Sami.pdf
-https://divvun.no/tale/Manual_Sami.pdf
-
 Add cuctc decoder by yuekaizhang · Pull Request #3096 · pytorch/audio
 https://github.com/pytorch/audio/pull/3096
 
-bjelkenhed/whisper-large-sv · Hugging Face
-https://huggingface.co/bjelkenhed/whisper-large-sv
-
-deep_run.sh · bjelkenhed/whisper-train at main
-https://huggingface.co/bjelkenhed/whisper-train/blob/main/deep_run.sh
-
 Sequence Modeling with CTC
 https://distill.pub/2017/ctc/
-
-ds_config.json · bjelkenhed/whisper-train at main
-https://huggingface.co/bjelkenhed/whisper-train/blob/main/ds_config.json
 
 Example CTC Decoder in Python
 https://gist.github.com/awni/56369a90d03953e370f3964c826ed4b0
@@ -60,21 +45,3 @@ https://sweet.ua.pt/sss/articles/2013/2013_ICIAR13_SSSilva_VTSegmentation_I.PDF
 
 Samuel Silva — PhD — IEETA, University of Aveiro
 https://sweet.ua.pt/sss/
-
-qt9n51f436_noSplash_3fe7c7206d341c513990e632ffe92e67.pdf
-https://escholarship.org/content/qt9n51f436/qt9n51f436_noSplash_3fe7c7206d341c513990e632ffe92e67.pdf?t=pn696e
-
-Interpreting Figures – An Ultrasound Investigation of Irish Palatalization
-https://irishpalatals.sites.ucsc.edu/getting-started/interpret/
-
-From Deep to Long Learning? · Hazy Research
-https://hazyresearch.stanford.edu/blog/2023-03-27-long-learning#alternate-explanations
-
-2304.02916.pdf
-https://arxiv.org/pdf/2304.02916.pdf
-
-Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim · Hugging Face
-https://huggingface.co/Jzuluaga/wav2vec2-xls-r-300m-en-atc-uwb-atcc-and-atcosim
-
-ControlNet in 🧨 Diffusers
-https://huggingface.co/blog/controlnet
