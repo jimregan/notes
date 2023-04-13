@@ -33,6 +33,52 @@ categories: [links]
 
 [Customer Case Study: Building an end-to-end Speech Recognition model in PyTorch with AssemblyAI](https://towardsdatascience.com/customer-case-study-building-an-end-to-end-speech-recognition-model-in-pytorch-with-assemblyai-473030e47c7c)
 
+[alibaba-damo-academy/FunASR](https://github.com/alibaba-damo-academy/FunASR)
+
+[Paraformer: Fast and Accurate Parallel Transformer for Non-autoregressive End-to-End Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/gao22b_interspeech.html)
+
+```bibtex
+@inproceedings{gao22b_interspeech,
+  author={Zhifu Gao and ShiLiang Zhang and Ian McLoughlin and Zhijie Yan},
+  title={Paraformer: Fast and Accurate Parallel Transformer for Non-autoregressive End-to-End Speech Recognition},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={2063--2067},
+  doi={10.21437/Interspeech.2022-9996}
+}
+```
+
+[Segment Anything](https://segment-anything.com/), [code](https://github.com/facebookresearch/segment-anything)
+
+[facebookresearch/habitat-lab](https://github.com/facebookresearch/habitat-lab)
+
+[facebookresearch/myosuite](https://github.com/facebookresearch/myosuite)
+
+[chroma-core/chroma](https://github.com/chroma-core/chroma) --- the AI-native open-source embedding database
+
+[Winfredy/SadTalker](https://github.com/Winfredy/SadTalker) --- Learning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation, [demo](https://huggingface.co/spaces/vinthony/SadTalker)
+
+[sdatkinson/neural-amp-modeler](https://github.com/sdatkinson/neural-amp-modeler) --- Neural network emulator for guitar amplifiers.
+
+[facebookresearch/Aria_data_tools](https://github.com/facebookresearch/Aria_data_tools) --- Aria data tools provide the open-source toolkit in C++ and Python to interact with data from Project Aria
+
+[bootphon/articulatory_inversion](https://github.com/bootphon/articulatory_inversion) --- Inversion-articulatoire is a Python library for training/testing neural network models for the acoustic to articulatory reconstruction.
+
+[Acoustic-to-Articulatory Mapping With Joint Optimization of Deep Speech Enhancement and Articulatory Inversion Models](https://ieeexplore.ieee.org/document/9640504)
+
+```bibtex
+@ARTICLE{9640504,
+  author={Shahrebabaki, Abdolreza Sabzi and Salvi, Giampiero and Svendsen, Torbjørn and Siniscalchi, Sabato Marco},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
+  title={Acoustic-to-Articulatory Mapping With Joint Optimization of Deep Speech Enhancement and Articulatory Inversion Models}, 
+  year={2022},
+  volume={30},
+  number={},
+  pages={135-147},
+  doi={10.1109/TASLP.2021.3133218}
+}
+```
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
@@ -43,4 +89,4 @@ categories: [links]
 
 [Gramadach na Gaeilge](http://www.nualeargais.ie/gnag/gram.htm)
 
-
+[Bedell, James 3](https://www.bible.com/bible/883/JAS.3.BEDELL)
