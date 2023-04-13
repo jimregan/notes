@@ -1,5 +1,3 @@
---- tabs1	2023-04-13 11:48:10.000000000 +0200
-+++ tabs3	2023-04-13 11:49:09.000000000 +0200
 @@ -1,15 +1,18 @@
 +python-poppler · PyPI
 +https://pypi.org/project/python-poppler/
@@ -16,75 +14,6 @@
  Uimhreacha.doc
  https://www.lexiconista.com/pdf/Uimhreacha.pdf
  
--welcome_notebook_on_the_hub.ipynb · davanstrien/notebooks-on-the-hub at main
--https://huggingface.co/spaces/davanstrien/notebooks-on-the-hub/blob/main/welcome_notebook_on_the_hub.ipynb
--
- DiSS workshop 2023 - Bielefeld University
- https://www.uni-bielefeld.de/fakultaeten/linguistik-literaturwissenschaft/forschung/fachbereich/phonetik/diss-workshop23/
- 
-@@ -22,12 +25,30 @@
- NeMo/nemo/collections/common/tokenizers at main · NVIDIA/NeMo · GitHub
- https://github.com/NVIDIA/NeMo/tree/main/nemo/collections/common/tokenizers
- 
--NeMo/tts_tokenizers.py at main · NVIDIA/NeMo · GitHub
--https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/common/tokenizers/text_to_speech/tts_tokenizers.py
-+NeMo/tokenizer_utils.py at main · NVIDIA/NeMo · GitHub
-+https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/common/tokenizers/text_to_speech/tokenizer_utils.py#L51
-+
-+[WIP] add buffered chunked streaming for nemo force aligner (#6185) · NVIDIA/NeMo@0285bee
-+https://github.com/NVIDIA/NeMo
-+
-+NeMo/examples/asr/asr_vad at stable · NVIDIA/NeMo · GitHub
-+https://github.com/NVIDIA/NeMo/tree/stable/examples/asr/asr_vad
-+
-+nvidia (NVIDIA)
-+https://huggingface.co/nvidia
-+
-+Models — NVIDIA NeMo
-+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html#conformer-ctc
- 
- Hungarian orthography - Wikipedia
- https://en.wikipedia.org/wiki/Hungarian_orthography#Punctuation
- 
-+KTH/hungarian-single-speaker-tts at original
-+https://huggingface.co/datasets/KTH/hungarian-single-speaker-tts/tree/original
-+
-+Extract audio from .pcm from NST Swedish Speech Synthesis | notes
-+https://jimregan.github.io/notes/nst/soundfile/2023/01/03/extract-audio-from-nst-swedish-speech-synthesis.html
-+
- [TTS] remove phonemizer.py by XuesongYang · Pull Request #5090 · NVIDIA/NeMo
- https://github.com/NVIDIA/NeMo/pull/5090
- 
-@@ -49,8 +70,20 @@
- Hungarian phonology - Wikipedia
- https://en.wikipedia.org/wiki/Hungarian_phonology
- 
--(224) Nadira Povey - YouTube
--https://www.youtube.com/@nadirapovey4919/featured
-+Panel Shows
-+https://www.reddit.com/r/panelshows/
-+
-+Filmstaden Scandinavia Cinema | Westfield Mall of Scandinavia
-+https://www.westfield.com/en/sweden/mallofscandinavia/cinema
-+
-+library.lol/main/0be2085bc57c268d7619f6f62fa757a7
-+http://library.lol/main/0be2085bc57c268d7619f6f62fa757a7
-+
-+spraakbanken/multiged-2023
-+https://github.com/spraakbanken/multiged-2023
-+
-+Home / Twitter
-+https://twitter.com/home
- 
- NeMo/CTC_Segmentation_Tutorial.ipynb at main · NVIDIA/NeMo · GitHub
- https://github.com/NVIDIA/NeMo/blob/main/tutorials/tools/CTC_Segmentation_Tutorial.ipynb
-@@ -85,15 +118,15 @@
- NeMo/02_NLP_Tokenizers.ipynb at main · NVIDIA/NeMo · GitHub
- https://github.com/NVIDIA/NeMo/blob/main/tutorials/nlp/02_NLP_Tokenizers.ipynb
- 
-+Use tokenizers from 🤗 Tokenizers
-+https://huggingface.co/docs/transformers/fast_tokenizers
-+
  lihtter — Wiktionnaire
  https://fr.wiktionary.org/wiki/lihtter#se
  
@@ -101,71 +30,26 @@
  Báddejumit dievasčoahkkimiin Sámedikkis/Opptak av plenumsmøter i Sametinget 9.-10.10.1989 (1:3) - Dievasčoahkkin / Plenumsmøte 9.-10.10.1989 - Skanna arkiver - Arkivverket
  https://media.digitalarkivet.no/play/105554
  
--Northern Sámi TN by jimregan · Pull Request #11 · NVIDIA/NeMo-text-processing
--https://github.com/NVIDIA/NeMo-text-processing/pull/11
--
--NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
--https://github.com/NVIDIA/NeMo-text-processing
--
--NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
--https://github.com/NVIDIA/NeMo-text-processing
--
--OpenAI Whisper tutorial: Creating OpenAI Whisper API in a Docker Container
--https://lablab.ai/t/whisper-api-flask-docker
--
--lablab-ai/whisper-api-flask
--https://github.com/lablab-ai/whisper-api-flask
--
  app.py · Finnish-NLP/Finnish-Automatic-Speech-Recognition at main
  https://huggingface.co/spaces/Finnish-NLP/Finnish-Automatic-Speech-Recognition/blob/main/app.py
  
-@@ -217,9 +235,6 @@
  Manual_Sami.pdf
  https://divvun.no/tale/Manual_Sami.pdf
  
--partager — Wiktionnaire
--https://fr.wiktionary.org/wiki/partager
--
  hávvi — Wiktionnaire
  https://fr.wiktionary.org/wiki/h%C3%A1vvi#se
  
-@@ -361,11 +376,14 @@
  sådan - Wiktionary
  https://en.wiktionary.org/wiki/s%C3%A5dan#Swedish
  
--Northern Sámi TN by jimregan · Pull Request #11 · NVIDIA/NeMo-text-processing
--https://github.com/NVIDIA/NeMo-text-processing/pull/11
-+NeMo-text-processing/telephone.py at main · jimregan/NeMo-text-processing · GitHub
-+https://github.com/jimregan/NeMo-text-processing/blob/main/nemo_text_processing/text_normalization/sv/taggers/telephone.py
- 
--NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
--https://github.com/NVIDIA/NeMo-text-processing
-+Swedish ITN by jimregan · Pull Request #40 · NVIDIA/NeMo-text-processing
-+https://github.com/NVIDIA/NeMo-text-processing/pull/40
-+
-+Northern Sámi TN by jimregan · Pull Request #11 · NVIDIA/NeMo-text-processing
-+https://github.com/NVIDIA/NeMo-text-processing/pull/11/files#diff-00360657e60bcc4ee5c5574e8abcb2972cd7675cb3f5d1144e22e65846d2b17a
- 
  Numbers in Polish
  https://omniglot.com/language/numbers/polish.htm
-@@ -388,61 +406,173 @@
- dwa - Wiktionary
- https://en.wiktionary.org/wiki/dwa#Polish
  
 -dwójka - Wiktionary
 -https://en.wiktionary.org/wiki/dw%C3%B3jka#Polish
-+Swedish orthography - Wikipedia
-+https://en.wikipedia.org/wiki/Swedish_orthography
  
 -dziewiętnaście - Wiktionary
 -https://en.wiktionary.org/wiki/dziewi%C4%99tna%C5%9Bcie#Polish
-+Panel Shows
-+https://www.reddit.com/r/panelshows/
- 
--Google Translate
--https://translate.google.com/?sl=en&tl=pl&text=in%20six%20thousand%20and%20three%20places&op=translate
-+List of Would I Lie to You? episodes - Wikipedia
-+https://en.wikipedia.org/wiki/List_of_Would_I_Lie_to_You%3F_episodes
  
 -deklinacja-liczebnikc3b3w-gc582c3b3wnych1.pdf
 -https://www.polskinawynos.com/wp-content/uploads/2015/04/deklinacja-liczebnikc3b3w-gc582c3b3wnych1.pdf
@@ -174,8 +58,6 @@
  
 -dwójka - Słownik SJP
 -https://sjp.pl/dw%C3%B3jka
-+GitHub
-+https://github.com/
  
 --ka – Wikisłownik, wolny słownik wielojęzyczny
 -https://pl.wiktionary.org/wiki/-ka
@@ -229,19 +111,7 @@
  
 -The KBLab Blog: RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates
 -https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/
-+Breakdown by year - Google Docs
-+https://docs.google.com/document/d/1KQq5A2pZbd2aPq1mxEmn55_o4vTJlRr9Io4F0lMt2CU/edit
  
--KBLab/whisper-large-rixvox · Hugging Face
--https://huggingface.co/KBLab/whisper-large-rixvox
-+riksdag totals - Google Sheets
-+https://docs.google.com/spreadsheets/d/1Wr7JkGwn1i_tIz2nHPRYmxiA_7VvZXhDZn94dQKuDrY/edit#gid=0
- 
--Swedish orthography - Wikipedia
--https://en.wikipedia.org/wiki/Swedish_orthography
-+Steven Weber - Wikipedia
-+https://en.wikipedia.org/wiki/Steven_Weber
-+
 +Update wfst_text_normalization.rst by jimregan · Pull Request #6374 · NVIDIA/NeMo
 +https://github.com/NVIDIA/NeMo/pull/6374
 +
@@ -305,9 +175,6 @@
 +Seeing Speech: IPA Charts
 +https://www.seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=1&speaker=1#location=625
 +
-+New Tab
-+chrome://newtab/
-+
 +bootphon/articulatory_inversion
 +https://github.com/bootphon/articulatory_inversion
 +
@@ -340,9 +207,6 @@
 +
 +slackapi/bolt-python: A framework to build Slack apps using Python
 +https://github.com/slackapi/bolt-python
-+
-+Home / Twitter
-+https://twitter.com/home
 +
 +jerryjliu/llama_index: LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 +https://github.com/jerryjliu/llama_index
