@@ -95,6 +95,14 @@ categories: [links]
 }
 ```
 
+{% twitter https://twitter.com/karpathy/status/1645115622517542913 %}
+
+[Differentiable Finite State Machines](https://google-research.github.io/self-organising-systems/2022/diff-fsm/)
+
+[jerryjliu/llama_index](https://github.com/jerryjliu/llama_index) --- a project that provides a central interface to connect your LLM's with external data
+
+[auspicious3000/SpeechSplit](https://github.com/auspicious3000/SpeechSplit) --- Unsupervised Speech Decomposition Via Triple Information Bottleneck
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
