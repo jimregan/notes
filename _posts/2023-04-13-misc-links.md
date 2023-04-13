@@ -81,6 +81,20 @@ categories: [links]
 
 [databricks/dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)
 
+{% twitter https://twitter.com/heyBarsee/status/1629497442868551681 %}
+
+[SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization](https://arxiv.org/abs/2212.10465), [code](https://github.com/skywalker023/sodaverse)
+
+```bibtex
+@misc{kim2022soda,
+      title={SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization}, 
+      author={Hyunwoo Kim and Jack Hessel and Liwei Jiang and Ximing Lu and Youngjae Yu and Pei Zhou and Ronan Le Bras and Malihe Alikhani and Gunhee Kim and Maarten Sap and Yejin Choi},
+      year={2022},
+      eprint={2212.10465},
+      primaryClass={cs.CL}
+}
+```
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
