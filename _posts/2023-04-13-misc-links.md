@@ -234,6 +234,85 @@ categories: [links]
 }
 ```
 
+[DEFORMER: Coupling Deformed Localized Patterns with Global Context for Robust End-to-end Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/xie22b_interspeech.html)
+
+```bibtex
+@inproceedings{xie22b_interspeech,
+  author={Jiamin Xie and John H.L. Hansen},
+  title={DEFORMER: Coupling Deformed Localized Patterns with Global Context for Robust End-to-end Speech Recognition},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1392--1396},
+  doi={10.21437/Interspeech.2022-11172}
+}
+```
+
+[Knowledge of accent differences can be used to predict speech recognition](https://www.isca-speech.org/archive/interspeech_2022/szalay22_interspeech.html)
+
+```bibtex
+@inproceedings{szalay22_interspeech,
+  author={Tuende Szalay and Mostafa Shahin and Beena Ahmed and Kirrie Ballard},
+  title={Knowledge of accent differences can be used to predict speech recognition},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1372--1376},
+  doi={10.21437/Interspeech.2022-10162}
+}
+```
+
+[Improving Phonetic Transcriptions of Children’s Speech by Pronunciation Modelling with Constrained CTC-Decoding](https://www.isca-speech.org/archive/interspeech_2022/rumberg22b_interspeech.html)
+
+```bibtex
+@inproceedings{rumberg22b_interspeech,
+  author={Lars Rumberg and Christopher Gebauer and Hanna Ehlert and Ulrike Lüdtke and Jörn Ostermann},
+  title={Improving Phonetic Transcriptions of Children’s Speech by Pronunciation Modelling with Constrained CTC-Decoding},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1357--1361},
+  doi={10.21437/Interspeech.2022-332}
+}
+```
+
+[Automatic Pronunciation Assessment using Self-Supervised Speech Representation Learning](https://www.isca-speech.org/archive/interspeech_2022/kim22k_interspeech.html)
+
+```bibtex
+@inproceedings{kim22k_interspeech,
+  author={Eesung Kim and Jae-Jin Jeon and Hyeji Seo and Hoon Kim},
+  title={Automatic Pronunciation Assessment using Self-Supervised Speech Representation Learning},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1411--1415},
+  doi={10.21437/Interspeech.2022-10245}
+}
+```
+
+[Probing phoneme, language and speaker information in unsupervised speech representations](https://www.isca-speech.org/archive/interspeech_2022/deseyssel22_interspeech.html)
+
+```bibtex
+@inproceedings{deseyssel22_interspeech,
+  author={Maureen {de Seyssel} and Marvin Lavechin and Yossi Adi and Emmanuel Dupoux and Guillaume Wisniewski},
+  title={Probing phoneme, language and speaker information in unsupervised speech representations},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1402--1406},
+  doi={10.21437/Interspeech.2022-373}
+}
+```
+
+[VQ-T: RNN Transducers using Vector-Quantized Prediction Network States](https://www.isca-speech.org/archive/interspeech_2022/shi22b_interspeech.html)
+
+```bibtex
+@inproceedings{shi22b_interspeech,
+  author={Jiatong Shi and George Saon and David Haws and Shinji Watanabe and Brian Kingsbury},
+  title={VQ-T: RNN Transducers using Vector-Quantized Prediction Network States},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1656--1660},
+  doi={10.21437/Interspeech.2022-414}
+}
+```
+
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
