@@ -312,6 +312,59 @@ categories: [links]
 }
 ```
 
+[Source-Filter HiFi-GAN: Fast and Pitch Controllable High-Fidelity Neural Vocoder](https://arxiv.org/abs/2210.15533),
+[chomeyama/SiFiGAN](https://github.com/chomeyama/SiFiGAN)
+
+```bibtex
+@misc{yoneyama2023sourcefilter,
+      title={Source-Filter HiFi-GAN: Fast and Pitch Controllable High-Fidelity Neural Vocoder}, 
+      author={Reo Yoneyama and Yi-Chiao Wu and Tomoki Toda},
+      year={2023},
+      eprint={2210.15533},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+```
+
+[Textless Speech-to-Music Retrieval Using Emotion Similarity](https://arxiv.org/abs/2303.10539)
+
+[UL2 20B: An Open Source Unified Language Learner](https://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html), [checkpoints](https://github.com/google-research/google-research/tree/master/ul2)
+
+[DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654), [code](https://github.com/microsoft/DeBERTa)
+
+```bibtex
+@misc{he2021deberta,
+      title={DeBERTa: Decoding-enhanced BERT with Disentangled Attention}, 
+      author={Pengcheng He and Xiaodong Liu and Jianfeng Gao and Weizhu Chen},
+      year={2021},
+      eprint={2006.03654},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+[Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation](https://arxiv.org/abs/2106.04399)
+
+```bibtex
+@misc{bengio2021flow,
+      title={Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation}, 
+      author={Emmanuel Bengio and Moksh Jain and Maksym Korablyov and Doina Precup and Yoshua Bengio},
+      year={2021},
+      eprint={2106.04399},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+[thammegowda/016-many-eng-v2](https://github.com/thammegowda/016-many-eng-v2/) --- Many-English v2
+
+[Sequence Modeling
+With CTC](https://distill.pub/2017/ctc/),
+[Example CTC Decoder in Python](https://gist.github.com/awni/56369a90d03953e370f3964c826ed4b0)
+
+[Announcing OpenChatKit](https://www.together.xyz/blog/openchatkit),
+[togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit),
+[spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)
 
 -----
 
@@ -326,4 +379,19 @@ categories: [links]
 [Bedell, James 3](https://www.bible.com/bible/883/JAS.3.BEDELL)
 
 [An Ultrasound Investigation of Irish Palatalization](https://irishpalatals.sites.ucsc.edu/)
+
+-----
+
+[lohku](https://fr.wiktionary.org/wiki/lohku),
+[Modèle:se-décl-pari](https://fr.wiktionary.org/w/index.php?title=Mod%C3%A8le:se-d%C3%A9cl-pari&action=edit),
+[Modèle:se-décl-contract](https://fr.wiktionary.org/wiki/Mod%C3%A8le:se-d%C3%A9cl-contract),
+[Buddhisma](https://se.wikipedia.org/wiki/Buddhisma),
+[1700-lohku](https://se.wikipedia.org/wiki/1700-lohku_\(jahke%C4%8Duohti\)),
+[okr](https://fr.wiktionary.org/wiki/okr),
+[Modèle:se-décl-impari-sans-alt](https://fr.wiktionary.org/wiki/Mod%C3%A8le:se-d%C3%A9cl-impari-sans-alt),
+[ceahkki](https://fr.wiktionary.org/wiki/ceahkki),
+[lihtter](https://fr.wiktionary.org/wiki/lihtter),
+[hávvi](https://fr.wiktionary.org/wiki/h%C3%A1vvi),
+[Fága 6a ja 6á](https://www.minskole.no/DynamicContent/%5CDocuments%5C272-1ada5e26-dbff-423e-8065-f3f95ff0d735.pdf),
+[Conjugaison:same_du_Nord/háddjet](https://fr.wiktionary.org/wiki/Conjugaison:same_du_Nord/h%C3%A1ddjet),
 
