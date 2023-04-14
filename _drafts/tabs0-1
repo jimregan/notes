@@ -19,9 +19,6 @@ https://huggingface.co/kpriyanshu256/whisper-large-v2-ga-IE-800-32-1e-05-pretrai
 tez4/metatables: This is a repository that enables easy data wrangling on files read with the pyreadstat package.
 https://github.com/tez4/metatables
 
-adapter_config.json · tloen/alpaca-lora-7b at main
-https://huggingface.co/tloen/alpaca-lora-7b/blob/main/adapter_config.json
-
 2106.09685.pdf
 https://arxiv.org/pdf/2106.09685.pdf
 
@@ -37,12 +34,6 @@ https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis
 jayantapaul888/twitter-data-microsoft-deberta-base-mnli-sentiment-finetuned-memes · Hugging Face
 https://huggingface.co/jayantapaul888/twitter-data-microsoft-deberta-base-mnli-sentiment-finetuned-memes
 
-microsoft/computervision-recipes: Best Practices, code samples, and documentation for Computer Vision.
-https://github.com/microsoft/computervision-recipes
-
-welcome_notebook_on_the_hub.ipynb · davanstrien/notebooks-on-the-hub at main
-https://huggingface.co/spaces/davanstrien/notebooks-on-the-hub/blob/main/welcome_notebook_on_the_hub.ipynb
-
 xlsr-wav2vec2-phoneme-recognition/Fine_tuning_XLSR_Wav2Vec2_for_Phoneme_Recognition.ipynb at main · kosuke-kitahara/xlsr-wav2vec2-phoneme-recognition
 https://github.com/kosuke-kitahara/xlsr-wav2vec2-phoneme-recognition/blob/main/Fine_tuning_XLSR_Wav2Vec2_for_Phoneme_Recognition.ipynb
 
@@ -55,14 +46,8 @@ https://paperswithcode.com/dataset/europarl-asr
 ggarces/Europarl-ASR: A 1300-hour English speech and text corpus of parliamentary debates for (streaming) ASR training and benchmarking, speech data filtering and speech data verbatimization. - MLLP Git Repository
 https://www.mllp.upv.es/git-pub/ggarces/Europarl-ASR
 
-openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision
-https://github.com/openai/whisper
-
 tlr19-1-2.dvi
 https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=25e0747ca315ad3c6ceb60b3df12d3686c0864f6
-
-thammegowda/016-many-eng-v2: Many-English v2
-https://github.com/thammegowda/016-many-eng-v2
 
 mtdata/crawler at master · thammegowda/mtdata
 https://github.com/thammegowda/mtdata/tree/master/crawler
