@@ -107,7 +107,8 @@ categories: [links]
 
 [KBLab/rixvox](https://huggingface.co/datasets/KBLab/rixvox)
 [Finding Speeches in the Riksdag’s Debates](https://kb-labb.github.io/posts/2023-02-15-finding-speeches-in-the-riksdags-debates/)
-[RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates](https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/)
+[RixVox: A Swedish Speech Corpus with 5500 Hours of Speech from Parliamentary Debates](https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/),
+[code](https://github.com/kb-labb/riksdagen_anforanden/)
 
 [Ultra fast ControlNet with Diffusers](https://huggingface.co/blog/controlnet)
 
@@ -379,6 +380,10 @@ With CTC](https://distill.pub/2017/ctc/),
 [Bedell, James 3](https://www.bible.com/bible/883/JAS.3.BEDELL)
 
 [An Ultrasound Investigation of Irish Palatalization](https://irishpalatals.sites.ucsc.edu/)
+
+[microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)
+
+[asuni/wavelet_prosody_toolkit](https://github.com/asuni/wavelet_prosody_toolkit)
 
 -----
 
