@@ -149,6 +149,26 @@ categories: [links]
 
 [Datasheet for the Pile](https://arxiv.org/abs/2201.07311)
 
+[Cocktail HuBERT: Generalized Self-Supervised Pre-training for Mixture and Single-Source Speech](https://arxiv.org/abs/2303.11131)
+
+```bibtex
+@misc{fazelzarandi2023cocktail,
+      title={Cocktail HuBERT: Generalized Self-Supervised Pre-training for Mixture and Single-Source Speech}, 
+      author={Maryam Fazel-Zarandi and Wei-Ning Hsu},
+      year={2023},
+      eprint={2303.11131},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+[BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) --- RWKV is an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
+
+[cohogain/whisper-large-v2-ga-IE](https://huggingface.co/cohogain/whisper-large-v2-ga-IE),
+[cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud](https://huggingface.co/cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud)
+
+[HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](https://arxiv.org/abs/2303.17580), [code](https://github.com/microsoft/JARVIS)
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)

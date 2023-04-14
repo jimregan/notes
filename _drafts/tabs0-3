@@ -186,9 +186,6 @@ https://www.ling.upenn.edu/~jlegate/tlr_legateyang.pdf
 2303.10539.pdf
 https://arxiv.org/pdf/2303.10539.pdf
 
-[2303.11131] Cocktail HuBERT: Generalized Self-Supervised Pre-training for Mixture and Single-Source Speech
-https://arxiv.org/abs/2303.11131
-
 PhD Student Session at CLARIN2023 | CLARIN ERIC
 https://www.clarin.eu/content/phd-student-session-clarin2023
 
@@ -200,13 +197,9 @@ https://aclanthology.org/2022.lrec-1.106.pdf
 Zero-1-to-3: Zero-shot One Image to 3D Object
 https://zero123.cs.columbia.edu/
 
-kaldi-asr/kaldi: kaldi-asr/kaldi is the official location of the Kaldi project.
-https://github.com/kaldi-asr/kaldi
 zero123/classifier.py at main · cvlab-columbia/zero123 · GitHub
 https://github.com/cvlab-columbia/zero123/blob/main/zero123/ldm/models/diffusion/classifier.py
 
-kaldiasr/kaldi - Docker Image | Docker Hub
-https://hub.docker.com/r/kaldiasr/kaldi
 A New Open Source Flan 20B with UL2 — Yi Tay
 https://www.yitay.net/blog/flan-ul2-20b
 
@@ -225,13 +218,9 @@ https://arxiv.org/abs/2212.10465
 google/flan-ul2 · Hugging Face
 https://huggingface.co/google/flan-ul2
 
-2212.10465.pdf
-https://arxiv.org/pdf/2212.10465.pdf
 PaLM-E: An Embodied Multimodal Language Model
 https://palm-e.github.io/#demo
 
-Input and notes for IS paper - Google Docs
-https://docs.google.com/document/d/1cQhYMqdYLpM-kQUHgzBAO1U0aesQnpmzm-hVW_X9a2A/edit
 prismer/LICENSE at main · NVlabs/prismer · GitHub
 https://github.com/NVlabs/prismer/blob/main/LICENSE
 
@@ -242,16 +231,7 @@ https://www.promptingguide.ai/techniques/cot
 
 facebook/wav2vec2-lv-60-espeak-cv-ft · Hugging Face
 https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft
-So, um… Are you ready to learn Swedish filler words?
-https://www.swedishpod101.com/blog/2021/09/09/swedish-filler-words/
 
-waxholm.py · KTH/waxholm at main
-https://huggingface.co/datasets/KTH/waxholm/blob/main/waxholm.py
-SSP #60 – Utfyllnadsord
-https://www.swedishlinguist.com/ssp-60/
-
-Europarl-ASR Dataset | Papers With Code
-https://paperswithcode.com/dataset/europarl-asr
 A Real-time Filled Pause Detection System for Spontaneous Speech Recognition
 https://staff.aist.go.jp/m.goto/PAPER/EUROSPEECH99.pdf
 
@@ -270,8 +250,6 @@ https://github.com/thammegowda/016-many-eng-v2/blob/2bf3e75ce/data/mtdata.recipe
 
 thammegowda/016-many-eng-v2: Many-English v2
 https://github.com/thammegowda/016-many-eng-v2
-chroma/duckdb.py at main · chroma-core/chroma · GitHub
-https://github.com/chroma-core/chroma/blob/main/chromadb/db/duckdb.py
 
 mtdata/crawler at master · thammegowda/mtdata
 https://github.com/thammegowda/mtdata/tree/master/crawler
@@ -307,23 +285,8 @@ https://github.com/liamca/vector-search
 Audio-Classification-on-Keyword-Spotting.ipynb - Colaboratory
 https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/audio_classification.ipynb
 
-UPerNet
-https://huggingface.co/docs/transformers/main/model_doc/upernet
-
-Donut
-https://huggingface.co/docs/transformers/model_doc/donut
 allenai/tk-instruct-11b-def · Hugging Face
 https://huggingface.co/allenai/tk-instruct-11b-def
-
-DPT
-https://huggingface.co/docs/transformers/model_doc/dpt
-BlinkDL/RWKV-LM: RWKV is an RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding.
-https://github.com/BlinkDL/RWKV-LM
-
-Perceiver
-https://huggingface.co/docs/transformers/model_doc/perceiver
-RWKV-CUDA/wkv_cuda_v0.cu at main · BlinkDL/RWKV-CUDA · GitHub
-https://github.com/BlinkDL/RWKV-CUDA/blob/main/wkv/cuda/wkv_cuda_v0.cu
 
 View article
 https://scholar.google.com/citations?view_op=view_citation&hl=en&user=p1oNwqQAAAAJ&citation_for_view=p1oNwqQAAAAJ:roLk4NBRz8UC
