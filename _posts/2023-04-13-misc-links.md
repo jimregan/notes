@@ -169,6 +169,71 @@ categories: [links]
 
 [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](https://arxiv.org/abs/2303.17580), [code](https://github.com/microsoft/JARVIS)
 
+[Efficient Audio Captioning Transformer with Patchout and Text Guidance](https://arxiv.org/abs/2304.02916)
+
+```bibtex
+@misc{kouzelis2023efficient,
+      title={Efficient Audio Captioning Transformer with Patchout and Text Guidance}, 
+      author={Thodoris Kouzelis and Grigoris Bastas and Athanasios Katsamanis and Alexandros Potamianos},
+      year={2023},
+      eprint={2304.02916},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+```
+
+[Continuous Speech Separation with Conformer](https://arxiv.org/abs/2008.05773)
+
+```bibtex
+@misc{chen2020continuous,
+      title={Continuous Speech Separation with Conformer}, 
+      author={Sanyuan Chen and Yu Wu and Zhuo Chen and Jian Wu and Jinyu Li and Takuya Yoshioka and Chengyi Wang and Shujie Liu and Ming Zhou},
+      year={2020},
+      eprint={2008.05773},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+```
+
+[From Undercomplete to Sparse Overcomplete Autoencoders to Improve LF-MMI based Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/handekabil22_interspeech.html)
+
+```bibtex
+@inproceedings{handekabil22_interspeech,
+  author={Selen {Hande Kabil} and Herve Bourlard},
+  title={From Undercomplete to Sparse Overcomplete Autoencoders to Improve LF-MMI based Speech Recognition},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1061--1065},
+  doi={10.21437/Interspeech.2022-11390}
+}
+```
+
+[Dealing with Unknowns in Continual Learning for End-to-end Automatic Speech Recognition](https://www.isca-speech.org/archive/interspeech_2022/sustek22_interspeech.html)
+
+```bibtex
+@inproceedings{sustek22_interspeech,
+  author={Martin Sustek and Samik Sadhu and Hynek Hermansky},
+  title={Dealing with Unknowns in Continual Learning for End-to-end Automatic Speech Recognition},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1046--1050},
+  doi={10.21437/Interspeech.2022-11139}
+}
+```
+
+[A Temporal Extension of Latent Dirichlet Allocation for Unsupervised Acoustic Unit Discovery](https://www.isca-speech.org/archive/interspeech_2022/vandermerwe22_interspeech.html)
+
+```bibtex
+@inproceedings{vandermerwe22_interspeech,
+  author={Werner {van der Merwe} and Herman Kamper and Johan {Adam du Preez}},
+  title={A Temporal Extension of Latent Dirichlet Allocation for Unsupervised Acoustic Unit Discovery},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={1426--1430},
+  doi={10.21437/Interspeech.2022-11369}
+}
+```
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
