@@ -367,6 +367,10 @@ With CTC](https://distill.pub/2017/ctc/),
 [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit),
 [spaces](https://huggingface.co/spaces/togethercomputer/OpenChatKit)
 
+[microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)
+
+[asuni/wavelet_prosody_toolkit](https://github.com/asuni/wavelet_prosody_toolkit)
+
 -----
 
 [VIFAX](https://vifax.maynoothuniversity.ie/)
@@ -381,17 +385,13 @@ With CTC](https://distill.pub/2017/ctc/),
 
 [An Ultrasound Investigation of Irish Palatalization](https://irishpalatals.sites.ucsc.edu/)
 
-[microsoft/computervision-recipes](https://github.com/microsoft/computervision-recipes)
-
-[asuni/wavelet_prosody_toolkit](https://github.com/asuni/wavelet_prosody_toolkit)
-
 -----
 
 [lohku](https://fr.wiktionary.org/wiki/lohku),
 [Modèle:se-décl-pari](https://fr.wiktionary.org/w/index.php?title=Mod%C3%A8le:se-d%C3%A9cl-pari&action=edit),
 [Modèle:se-décl-contract](https://fr.wiktionary.org/wiki/Mod%C3%A8le:se-d%C3%A9cl-contract),
 [Buddhisma](https://se.wikipedia.org/wiki/Buddhisma),
-[1700-lohku](https://se.wikipedia.org/wiki/1700-lohku_\(jahke%C4%8Duohti\)),
+[1700-lohku](https://se.wikipedia.org/wiki/1700-lohku_(jahke%C4%8Duohti)),
 [okr](https://fr.wiktionary.org/wiki/okr),
 [Modèle:se-décl-impari-sans-alt](https://fr.wiktionary.org/wiki/Mod%C3%A8le:se-d%C3%A9cl-impari-sans-alt),
 [ceahkki](https://fr.wiktionary.org/wiki/ceahkki),
