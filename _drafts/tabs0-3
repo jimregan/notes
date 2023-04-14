@@ -22,9 +22,6 @@ https://github.com/k2-fsa/icefall/blob/master/egs/librispeech/ASR/pruned_transdu
 Decoding - webdataset
 https://webdataset.github.io/webdataset/decoding/
 
-OpenChatKit - a Hugging Face Space by togethercomputer
-https://huggingface.co/spaces/togethercomputer/OpenChatKit
-
 DeepForcedAligner/duration_extraction.py at main · as-ideas/DeepForcedAligner · GitHub
 https://github.com/as-ideas/DeepForcedAligner/blob/main/dfa/duration_extraction.py
 
@@ -37,56 +34,11 @@ https://huggingface.co/datasets/google/fleurs
 Whisper Northern Sámi Demo - a Hugging Face Space by NbAiLab
 https://huggingface.co/spaces/NbAiLab/whisper-sami-demo
 
-Lexicon-based vs. Lexicon-free ASR for Norwegian Parliament Speech Transcription | SpringerLink
-https://link.springer.com/chapter/10.1007/978-3-031-16270-1_33#citeas
-
-Parliament Archives Used for Automatic Training of Multi-lingual Automatic Speech Recognition Systems | SpringerLink
-https://link.springer.com/chapter/10.1007/978-3-319-64206-2_20
-
-adapter_config.json · tloen/alpaca-lora-7b at main
-https://huggingface.co/tloen/alpaca-lora-7b/blob/main/adapter_config.json
-
-2106.09685.pdf
-https://arxiv.org/pdf/2106.09685.pdf
-
 huggingface/peft: 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.
 https://github.com/huggingface/peft
 
-alpaca-lora.ipynb - Colaboratory
-https://colab.research.google.com/drive/1eWAmesrW99p7e1nah5bipn0zikMb8XYC#scrollTo=VucO3HSMoJkz
-
-microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps
-https://github.com/microsoft/semantic-kernel
-
-ttslearn/ch09_Tacotron.ipynb at master · r9y9/ttslearn · GitHub
-https://github.com/r9y9/ttslearn/blob/master/notebooks/ch09_Tacotron.ipynb
-
-Source-Filter HiFi-GAN
-https://chomeyama.github.io/SiFiGAN-Demo/
-
-Pull requests · chomeyama/SiFiGAN
-https://github.com/chomeyama/SiFiGAN/pulls
-
-decapoda-research/llama-7b-hf at main
-https://huggingface.co/decapoda-research/llama-7b-hf/tree/main
-
-perezpoz/perezpoz.github.io
-https://github.com/perezpoz/perezpoz.github.io
-
-Avidnote - Organized Notes for Research
-https://avidnote.com/
-
-damo-vilab/modelscope-damo-text-to-video-synthesis · Hugging Face
-https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis
-
-microsoft/DeBERTa: The implementation of DeBERTa
-https://github.com/microsoft/DeBERTa
-
 jayantapaul888/twitter-data-microsoft-deberta-base-mnli-sentiment-finetuned-memes · Hugging Face
 https://huggingface.co/jayantapaul888/twitter-data-microsoft-deberta-base-mnli-sentiment-finetuned-memes
-
-microsoft/deberta-v3-large · Hugging Face
-https://huggingface.co/microsoft/deberta-v3-large
 
 welcome_notebook_on_the_hub.ipynb · davanstrien/notebooks-on-the-hub at main
 https://huggingface.co/spaces/davanstrien/notebooks-on-the-hub/blob/main/welcome_notebook_on_the_hub.ipynb
@@ -94,17 +46,11 @@ https://huggingface.co/spaces/davanstrien/notebooks-on-the-hub/blob/main/welcome
 tlr19-1-2.dvi
 https://www.ling.upenn.edu/~jlegate/tlr_legateyang.pdf
 
-2303.10539.pdf
-https://arxiv.org/pdf/2303.10539.pdf
-
 PhD Student Session at CLARIN2023 | CLARIN ERIC
 https://www.clarin.eu/content/phd-student-session-clarin2023
 
 Zero-1-to-3 Live Demo - a Hugging Face Space by cvlab
 https://huggingface.co/spaces/cvlab/zero123-live
-
-The Norwegian Parliamentary Speech Corpus
-https://aclanthology.org/2022.lrec-1.106.pdf
 
 Zero-1-to-3: Zero-shot One Image to 3D Object
 https://zero123.cs.columbia.edu/
@@ -117,18 +63,12 @@ https://www.yitay.net/blog/flan-ul2-20b
 
 microsoft/computervision-recipes: Best Practices, code samples, and documentation for Computer Vision.
 https://github.com/microsoft/computervision-recipes
-UL2 20B: An Open Source Unified Language Learner – Google AI Blog
-https://ai.googleblog.com/2022/10/ul2-20b-open-source-unified-language.html
 
 skywalker023/sodaverse: 🥤🧑🏻‍🚀Code and dataset for our paper - "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization"
 https://github.com/skywalker023/sodaverse
-google-research/ul2 at master · google-research/google-research · GitHub
-https://github.com/google-research/google-research/tree/master/ul2
 
 [2212.10465] SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization
 https://arxiv.org/abs/2212.10465
-google/flan-ul2 · Hugging Face
-https://huggingface.co/google/flan-ul2
 
 PaLM-E: An Embodied Multimodal Language Model
 https://palm-e.github.io/#demo
@@ -177,6 +117,7 @@ https://milvus.io/docs/audio_similarity_search.md
 
 Audio Spectrogram Transformer
 https://huggingface.co/docs/transformers/model_doc/audio-spectrogram-transformer
+
 liamca/vector-search: Image, Text, Video and Audio Search Using Azure Cognitive Search (Vector Search)
 https://github.com/liamca/vector-search
 
