@@ -1,9 +1,3 @@
-(66) 1. Introduction to Human Behavioral Biology - YouTube
-https://www.youtube.com/watch?v=NNnIGh9g6fA&list=PL848F2368C90DDC3D&index=1
-
-k2-fsa/k2: FSA/FST algorithms, differentiable, with PyTorch compatibility.
-https://github.com/k2-fsa/k2
-
 k2.ipynb - Colaboratory
 https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing#scrollTo=66lv6QkW7Zue
 
@@ -43,21 +37,11 @@ https://huggingface.co/datasets/google/fleurs
 Whisper Northern Sámi Demo - a Hugging Face Space by NbAiLab
 https://huggingface.co/spaces/NbAiLab/whisper-sami-demo
 
-(1) Barsee 🐶 on Twitter: "AI is becoming powerful in 2023. But most people feel left out with million things happening around AI. Here's a MEGA THREAD🧵 (with resources) to keep you up-to-date:" / Twitter
-https://twitter.com/heyBarsee/status/1629497442868551681
-
 Lexicon-based vs. Lexicon-free ASR for Norwegian Parliament Speech Transcription | SpringerLink
 https://link.springer.com/chapter/10.1007/978-3-031-16270-1_33#citeas
-Untitled30.ipynb - Colaboratory
-https://colab.research.google.com/drive/1ikJu1txF9T8Oa5QyNz8p9dutHc5gvQ7n#scrollTo=_8CaHYDMmG_R
 
 Parliament Archives Used for Automatic Training of Multi-lingual Automatic Speech Recognition Systems | SpringerLink
 https://link.springer.com/chapter/10.1007/978-3-319-64206-2_20
-2106.04399.pdf
-https://arxiv.org/pdf/2106.04399.pdf
-
-Safarik, R., Nouza, J. Unified approach to development... - Google Scholar
-https://scholar.google.com/scholar?&q=Safarik%2C%20R.%2C%20Nouza%2C%20J.%20Unified%20approach%20to%20development%20of%20ASR%20systems%20for%20East%20Slavic%20languages.%20In%3A%20Proceedings%20of%20International%20Conference%20on%20Statistical%20Language%20and%20Speech%20Processing%2C%20pp.%20193%E2%80%93203%20%282017%29
 
 SolidGoldMagikarp (plus, prompt generation) - LessWrong
 https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation
@@ -76,9 +60,6 @@ https://github.com/huggingface/peft
 
 alpaca-lora.ipynb - Colaboratory
 https://colab.research.google.com/drive/1eWAmesrW99p7e1nah5bipn0zikMb8XYC#scrollTo=VucO3HSMoJkz
-
-tatsu-lab/stanford_alpaca: Code and documentation to train Stanford's Alpaca models, and generate the data.
-https://github.com/tatsu-lab/stanford_alpaca
 
 microsoft/semantic-kernel: Integrate cutting-edge LLM technology quickly and easily into your apps
 https://github.com/microsoft/semantic-kernel
@@ -101,14 +82,8 @@ https://github.com/perezpoz/perezpoz.github.io
 Avidnote - Organized Notes for Research
 https://avidnote.com/
 
-Cory Doctorow (@pluralistic@mamot.fr) on Twitter: "My new hobby: finding public domain images that Getty sells for $500, locating hi-rez scans of their original publications, cropping and cleaning them up, adding metadata, and uploading them to Wikimedia Commons. First one: https://t.co/GUpgJs6ea0 https://t.co/rIS1B1PH53" / Twitter
-https://twitter.com/doctorow/status/1637443442921066497
-
 damo-vilab/modelscope-damo-text-to-video-synthesis · Hugging Face
 https://huggingface.co/damo-vilab/modelscope-damo-text-to-video-synthesis
-
-jimregan/whisper-small-sv-riksdag · Training metrics
-https://huggingface.co/jimregan/whisper-small-sv-riksdag/tensorboard
 
 microsoft/DeBERTa: The implementation of DeBERTa
 https://github.com/microsoft/DeBERTa
@@ -118,15 +93,6 @@ https://huggingface.co/jayantapaul888/twitter-data-microsoft-deberta-base-mnli-s
 
 microsoft/deberta-v3-large · Hugging Face
 https://huggingface.co/microsoft/deberta-v3-large
-
-Brian Roemmele on Twitter: "I am very excited to announce I have been successful in installing and operating a full ChatGPT knowledge set and interface fully trained on my local computer and it needs no Internet once installed. There are no editors and there is no https://t.co/G3FjlqCj05… https://t.co/MOKYLzkTcc" / Twitter
-https://twitter.com/BrianRoemmele/status/1637871062246649856
-
-2212.10560.pdf
-https://arxiv.org/pdf/2212.10560.pdf
-
-self-instruct/seed_tasks.jsonl at main · yizhongw/self-instruct · GitHub
-https://github.com/yizhongw/self-instruct/blob/main/data/seed_tasks.jsonl
 
 welcome_notebook_on_the_hub.ipynb · davanstrien/notebooks-on-the-hub at main
 https://huggingface.co/spaces/davanstrien/notebooks-on-the-hub/blob/main/welcome_notebook_on_the_hub.ipynb
@@ -145,6 +111,7 @@ https://huggingface.co/spaces/cvlab/zero123-live
 
 The Norwegian Parliamentary Speech Corpus
 https://aclanthology.org/2022.lrec-1.106.pdf
+
 Zero-1-to-3: Zero-shot One Image to 3D Object
 https://zero123.cs.columbia.edu/
 
