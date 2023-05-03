@@ -27,11 +27,10 @@
 %% Last Modified: 2020-06-29
 %% Version: 1.0
 %%
-\documentclass[12pt]{journalrebuttal}
-\title{A LaTeX class to create rebuttal documents for journal reviews}
-\author{Pranav Hosangadi}
-\journal{Journal Name}
-\manuscriptid{0000-0000-0000}
+\documentclass[11pt]{journalrebuttal}
+\title{Towards quality transcriptions of large limited domain archive data}
+\journal{Interspeech}
+\manuscriptid{1705}
 
 \usepackage{verbatim}
 
@@ -44,86 +43,218 @@
 %\pagenumbering{arabic}
 \maketitle
 
-The JournalRebuttal class extends the \LaTeX~\verb|article| class to include environments and commands that assist in preparing rebuttal documents to reviews received for journal submissions. 
+% \vspace{0.5cm}
+% \makerule
+% \section*{Overview}
+% The class provides the following commands and environments:
 
-\vspace{0.5cm}
-\makerule
-\section*{Overview}
-The class provides the following commands and environments:
+% \begin{enumerate}
+%     \item \verb|\journal{name}| Sets the name of the journal to print in the title
+%     \item \verb|\printjournal| Prints the name of thr journal
+%     \item \verb|\manuscriptid{id}| Sets the manuscript ID provided for the submission
+%     \item \verb|\printmanuscriptid| Prints the manuscript ID
+%     \item \verb|\nextreviewer| Increments the reviewer counter by one. 
+%     \item \verb|\begin{revcomment}...\end{revcomment}| Increments the comment counter by one and prints the contents of the environment with formatting. Automatically assigns a label for cross-referencing using the reviewer number and comment number. See \cref{resp:1.1}
+%     \item \verb|\begin{response}...\end{response}| Prints the contents of the environment formatted as a response to the previous \verb|revcomment| item.
+%     \item \verb|\ColorNote{color}{initials}{note}| Creates a colored note prefixed with the given initials. 
+%     \item \verb|\makerule| Creates a horizontal rule.
+% \end{enumerate}
 
-\begin{enumerate}
-    \item \verb|\journal{name}| Sets the name of the journal to print in the title
-    \item \verb|\printjournal| Prints the name of thr journal
-    \item \verb|\manuscriptid{id}| Sets the manuscript ID provided for the submission
-    \item \verb|\printmanuscriptid| Prints the manuscript ID
-    \item \verb|\nextreviewer| Increments the reviewer counter by one. 
-    \item \verb|\begin{revcomment}...\end{revcomment}| Increments the comment counter by one and prints the contents of the environment with formatting. Automatically assigns a label for cross-referencing using the reviewer number and comment number. See \cref{resp:1.1}
-    \item \verb|\begin{response}...\end{response}| Prints the contents of the environment formatted as a response to the previous \verb|revcomment| item.
-    \item \verb|\ColorNote{color}{initials}{note}| Creates a colored note prefixed with the given initials. 
-    \item \verb|\makerule| Creates a horizontal rule.
-\end{enumerate}
+% Nam sit amet molestie odio. Praesent odio dui, elementum nec eleifend a, vehicula non quam. Nulla blandit aliquam augue et molestie. In interdum nulla non urna posuere, non placerat diam porta. Aliquam nec purus et nibh tempus ullamcorper sit amet ac eros. Integer convallis, ex eu tincidunt blandit, libero quam maximus risus, a consequat urna dolor eu augue. Fusce quam enim, iaculis fringilla libero eget, ullamcorper accumsan risus. Quisque ullamcorper libero nec nulla feugiat, ut eleifend diam imperdiet. Sed auctor tempor vehicula. Sed fringilla lacus libero, a commodo arcu efficitur vitae.
 
-Nam sit amet molestie odio. Praesent odio dui, elementum nec eleifend a, vehicula non quam. Nulla blandit aliquam augue et molestie. In interdum nulla non urna posuere, non placerat diam porta. Aliquam nec purus et nibh tempus ullamcorper sit amet ac eros. Integer convallis, ex eu tincidunt blandit, libero quam maximus risus, a consequat urna dolor eu augue. Fusce quam enim, iaculis fringilla libero eget, ullamcorper accumsan risus. Quisque ullamcorper libero nec nulla feugiat, ut eleifend diam imperdiet. Sed auctor tempor vehicula. Sed fringilla lacus libero, a commodo arcu efficitur vitae.
+We knew that it was a long shot, to submit a digital humanities paper that involved ASR, without it being treated as an ASR paper--as an ASR paper, it is quite weak, and we are aware of this, and appreciate the reviewers' comments (and patience) all the more for it.
 
-\nextreviewer
-\begin{revcomment}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae enim dui. 
-\end{revcomment}
-\begin{response}
-\PHNote{Here is an example of an author note.} 
+\textit{The authors try to emphasize that this method will also work for other minority languges of Sweden. However, I am not quire sure whether such generalization can be made. For Swedish, there are enough resources to train good ASR models, which can be used to create high quality transcripts for sources such as the parlimentary data. For minority languages, it seems hard to replicate that.}
 
-Comments created using the \verb|revcomment| environment are automatically given the label with the format \verb|\label[response]{resp:x.y}|, where x is the reviewer number and y is the comment number. You can refer to these labels using the \verb|\ref| or  \verb|\cref| commands. 
-This class definition pre-configures the \verb|cleveref| package with names for the \verb|response| label type.
-For example, \verb|\cref{resp:3.2}| will output ``\cref{resp:3.2}''. To change the format of this output, use the commands provided in \verb|cleveref| to format labels with \verb|<type> = response|.
+The traditional method in lexicon-based ASR is to use phoneme mapping; in a CTC-based system that output characters, we can (and do) achieve the same result by post-processing the result to map graphemes instead. The method is largely the same, albeit with an extra layer of text processing, but it does work.
+
+% \nextreviewer
+% \begin{revcomment}
+%  The authors try to emphasize that this method will also work for other minority languges of Sweden. However, I am not quire sure whether such generalization can be made. For Swedish, there are enough resources to train good ASR models, which can be used to create high quality transcripts for sources such as the parlimentary data. For minority languages, it seems hard to replicate that.
+% \end{revcomment}
+% \begin{response}
+% We are approximating the traditional method of phoneme mapping in a lexicon-based system by mapping graphemes from the output of wav2vec2 systems trained on languages with a similar phonetic inventory, which, with some text processing of the output, gives us a similar starting point to the parliamentary data: the news data for the minority languages is recorded in studio conditions, and is of read speech. We cannot hope to replicate the kinds of performance we can get for Swedish, but we can quite easily automatically extract enough data to get a reasonable quality ASR system.
+% \end{response}
+
+% \nextreviewer
+% \nextreviewer
+
+% \nextreviewer
+% \begin{revcomment}
+% The quality assurance measure is not defined
+% \end{revcomment}
+% \begin{response}
+% %By quality assurance in terms of the test/validation sets, we are referring to the transcription service's second proof-listening pass.
+% This refers to the transcription service's second proof-listening pass.
+% \end{response}
+
+\textit{The quality assurance measure is not defined}
+
+We apologise for this oversight: by this, we mean the QA process used by the transcription service (a second pass of proof-listening by a second annotator).
+
+% \begin{revcomment}
+% What are the breakdowns by speaker and demographic in performance? Since these labels exist for the eval data it seems worth reporting potential demographic biases
+% \end{revcomment}
+% \begin{response}
+% ..
+% \end{response}
+
+\textit{What data was used for wav2vec2 CTC finetuning?}
+
+Again, this was an oversight on our part: the links to the datasets on Huggingface are present in the de-anonymised version, we simply forgot to add a placeholder in the anonymised version.
+
+\textit{You may wish to try Whisper-timestamped in the future for word-level alignments with the Whisper models}
+
+We thank the reviewer for the suggestion; however, we were aware of this. Even with timestamps (which in Whisper-timestamped are provided by using a wav2vec2 models for a kind of forced alignment), the output of Whisper is unsuitable for our task, but does serve well as a standin for reference text.
+
+% \begin{revcomment}
+% What data was used for wav2vec2 CTC finetuning?
+% \end{revcomment}
+% \begin{response}
+% That was an oversight in the anonymised version: setting the variable for the final version includes the links to the data.
+% \end{response}
+
+% \begin{revcomment}
+% You may wish to try Whisper-timestamped in the future for word-level alignments with the Whisper models (https://github.com/linto-ai/whisper-timestamped)
+% \end{revcomment}
+% \begin{response}
+% We're aware of that; we're only using Whisper's output as an approximation of transcribed data, because it's simply not reliable enough for our purposes, but thank you for the link.
+% \end{response}
+
+\textit{Are all WER scores case-sensitive with punctuation?}
+
+No: the opposite. We post-processed Whisper's output to remove punctuation and to lowercase the text. We were a little too concerned with describing how we processed the data to remove fillers, and forgot to mention this.
+
+% \begin{revcomment}
+% Are all WER scores case-sensitive with punctuation?
+% \end{revcomment}
+% \begin{response}
+% No; we post-processed Whisper's output to remove this, we simply forgot to mention this while trying to emphasise that we removed fillers, etc.
+% \end{response}
+
+% \begin{revcomment}
+% How exactly where the intersection model outputs decided when the two systems did not agree? Did you consider alternative system combination methods such as ROVER?
+% \end{revcomment}
+% \begin{response}
+% We do not try to find the intersection where they do not agree: for further work, we are investigating the underlying causes, such as mispronunciation, dialectal versions, filled pauses, false starts, etc. We deliberately did not consider treating this as noise, as this is exactly what we are interested in finding.
+% \end{response}
+
+\textit{How exactly where the intersection model outputs decided when the two systems did not agree?}
+
+We did not try to force an intersection where there was disagreement, intentionally, as these mismatches were often indicative of exactly the kind of data we wish to find: false starts, fillers, alternate pronunciations, mispronunciations, etc. Ongoing work aims at automatically recovering these to the greatest extent possible.
+
+\textit{The validation and test sets are quite small: with up to 2 min per speaker across both, there are ~30 minutes for each.}
+
+Quite true; the transcriptions were quite expensive, requiring more attention to detail than is usually expected. We fully intend to extend these sets, once we have a larger model that is capable of reliably providing the kind of output we expect.
+
+% \nextreviewer
+% \begin{revcomment}
+% Cras vel velit ut diam iaculis dignissim et eget ligula. Vestibulum sollicitudin consequat justo vel lobortis. Etiam ut sodales sapien. Nulla nec tellus aliquam, auctor tortor nec, maximus dolor. Suspendisse augue nunc, ultricies ut convallis nec, fermentum viverra ipsum. Pellentesque id elit pellentesque, suscipit tellus eu, convallis risus. Quisque gravida ante egestas, tincidunt elit sit amet, semper eros. Cras tristique dolor vel lectus dictum, ultrices viverra velit egestas. Integer cursus lorem vitae magna gravida, in semper nibh porta. In pharetra aliquam euismod. Nullam efficitur, ante sit amet pulvinar posuere, urna arcu varius eros, sit amet congue nulla libero nec velit.
+
+% Donec eu sem sit amet lectus tincidunt posuere. Suspendisse pulvinar, neque vel pellentesque consectetur, turpis ipsum gravida enim, lacinia ultrices est augue vitae turpis. Nullam ex turpis, venenatis egestas urna a, dignissim aliquet nibh. Phasellus bibendum lectus in mattis lacinia. Curabitur rhoncus arcu sit amet erat gravida, id dignissim neque consectetur. Quisque tincidunt at nisi id volutpat. Vestibulum condimentum ex sem. Ut massa turpis, porta sit amet dolor sed, semper commodo tortor. Vivamus et tortor dictum risus tempus sagittis non ut orci. Sed facilisis viverra tempor. Donec iaculis pharetra pharetra. Quisque quam ex, tincidunt ut felis sed, scelerisque feugiat magna. Maecenas ipsum nisl, volutpat et suscipit in, egestas a lorem. Praesent pellentesque vitae dui dignissim lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+% \end{revcomment}
+% \begin{response}
+% Vivamus tincidunt enim malesuada, vestibulum massa quis, vehicula orci. Suspendisse ac nunc dui. Integer lobortis cursus nisl eu placerat. Vivamus dapibus vitae purus quis maximus. Sed eu mauris in nulla hendrerit volutpat. Aliquam enim nisi, placerat et justo in, pulvinar sagittis sem
+% \end{response}
+
+% \begin{revcomment}
+% Sed blandit, felis eget sodales viverra, nisl enim aliquet nunc, ac convallis ex neque eget augue.
+% \end{revcomment}
+% \begin{response}
+% Proin lacinia gravida malesuada. Fusce laoreet interdum felis placerat accumsan. Mauris fringilla tristique massa quis molestie. Pellentesque ipsum orci, congue vitae lacus nec, congue vehicula quam. Maecenas non viverra nisl. Nullam ut fringilla nunc. Quisque feugiat condimentum odio eu aliquam. Integer gravida, purus et tincidunt fringilla, ante turpis aliquam lectus, ut volutpat tellus tellus quis lorem. Fusce fermentum justo sed bibendum pulvinar. Donec vel aliquam nibh. Etiam vel pretium massa. Aliquam malesuada hendrerit urna, et rhoncus quam facilisis eget.
+% \end{response}
+
+% \makerule
+
+% \section*{Postscript}
+% Aliquam elementum rutrum velit, a interdum dui rutrum nec. Phasellus id libero ac arcu viverra vulputate at in tortor. Sed non ex sed ante semper viverra. Etiam congue malesuada massa, id dignissim tellus iaculis vitae. Curabitur ultrices mollis mauris, eu lobortis libero consectetur non. Sed eleifend volutpat odio, et elementum est tristique non. Etiam eu sodales elit. Cras quis est nulla.
+
+% Vestibulum eget aliquet nisi. Suspendisse massa est, maximus in interdum ac, tempus vel eros. In in ligula in lorem malesuada faucibus et a lacus. Nullam maximus dignissim euismod. Morbi iaculis sem leo, eu interdum erat euismod a. Integer in lorem sed nisl maximus tristique. Aliquam eu malesuada magna, at consectetur justo. Mauris pretium, erat ut mattis tempus, ex sapien fermentum tellus, eu sagittis mauris felis et elit. Morbi pretium pulvinar dui, ut tincidunt magna gravida et.
+
+% Nunc facilisis orci vel urna ultrices porttitor quis at ligula. Mauris at ultrices nunc. In eu mi quis augue ultricies suscipit vitae ut lorem. Donec faucibus lectus id quam cursus efficitur. Nam consectetur turpis eget nibh volutpat suscipit et sit amet odio. Donec faucibus odio non turpis auctor, et convallis ligula dictum. Nunc facilisis mauris luctus, aliquam quam ac, facilisis arcu. Sed rhoncus rhoncus auctor. Duis enim mi, finibus a scelerisque id, maximus vitae nisl. Donec ut neque sit amet libero vehicula iaculis. Nunc magna est, ornare at orci sed, blandit dapibus massa. Maecenas convallis ultrices consequat. In tincidunt lacus ex, ac ullamcorper metus accumsan tincidunt.
+
+%%%%%%
+
+% Questions
+% 1. Reviewer confidence (1-3) By selecting a value, you confirm that you are competent to evaluate this paper. If you have doubts about your ability to assess it, do not complete this form but instead use "Contact Meta-Reviewer". 
+% 2: Confident
+% 2. Technical correctness of the work (1-4) Please evaluate the scientific and/or technical correctness of the work. If experiments are presented please consider if enough details are provided on the datasets, baseline and experimental design to allow the experiments to be reproduced or equivalent experiments run. If you give a score of 1 or 2, please provide further explanation in your Detailed Comments.
+% 3: Minor issues but credible results
+% 3. Clarity of presentation Please evaluate the clarity of the presentation of the work. Take into account the writing and quality of figures, tables etc. If you give a score of 1 or 2 please provide further explanation in your Detailed Comments.
+% 2. Difficult to read, requires major revision
+% 4. Overall recommendation (1-6)
+% 3: Weak Reject: I am leaning to reject this paper
+% 5. Detailed Comments for Authors Please supply detailed comments to back up your rankings. These comments will be forwarded to the authors of the paper. The comments will help the committee decide the outcome of the paper, and will help justify this decision for the authors. If the paper is accepted, the comments should guide the authors in making revisions for a final manuscript. Hence, the more detailed you make your comments, the more useful your review will be - both for the committee and for the authors. (min. 120 words). Particularly, provide feedback on the following topics: * Key Strength of the paper * Main Weakness of the paper * Novelty/Originality, taking into account the relevance of the work for the Interspeech audience * Technical Correctness, is the work technically and/or scientifically solid? Are sufficient details provided to allow any experiments to be reproduced or equivalent experiments run? * Quality of References, is it a good mix of older and newer papers? Do the authors show a good grasp of the current state of the literature? Do they also cite other papers apart from their own work? * Clarity of Presentation, the English does not need to be flawless, but the text should be understandable
+% This paper describes the authors' effort to create a high quality speech dataset for Swedish and compares how data selection could affect ASR models performance for Swedish.
+
+% Strength
+% 1. The paper demonstrates that it is possible to create a high-quality ASR dataset using existing state-of-the-art ASR models. The dataset can be used to train ASR models that can achieve relatively good performance.
+
+% Weakness
+% 1. The authors try to emphasize that this method will also work for other minority languges of Sweden. However, I am not quire sure whether such generalization can be made. For Swedish, there are enough resources to train good ASR models, which can be used to create high quality transcripts for sources such as the parlimentary data. For minority languages, it seems hard to replicate that.
+% 2. I think the presentation of this paper can be improved signicantly with more revisions. First, the authors use several paragraphs to describe planned projects. Yet I think mentioning those planned projects makes this paper seem incomplete, as this paper only focuses on Swedish. If the central research questions are not about the minority languages of Sweden, there is no need to use describe them in detail. Second, the whole article seems to be loosely fitted together without a clear focus. I would strongly adivse the authors to summary the main idea at the beginning of each section.
 
 
 
-Since the \texttt{hyperref} package is also included, the references to the other responses will automatically be hyperlinked in the pdf.
+% Novelty
+% This paper is a dataset paper and the methodological innovation is only incremental. However, the contribution of a high quality Swedish ASR dataset is original.
 
-\end{response}
+% Technical correctness
+% The article appears to be technically correct.
 
-\begin{revcomment}
-Quisque mattis dolor mi, a tristique arcu porttitor ut. Donec id vehicula neque, id bibendum orci. Vivamus id lobortis libero. Aenean in arcu ac nisl ornare tempor. Pellentesque hendrerit luctus nisi, imperdiet pharetra lorem. Curabitur eu nisl sit amet nulla pulvinar condimentum sodales sed nunc. Ut euismod sem vel ipsum mollis, id viverra nisi rhoncus. Donec consectetur, urna nec viverra fermentum, lorem turpis tempor libero, eu blandit erat orci sed elit. Curabitur ac dolor eu mauris pellentesque tempor. Etiam non pulvinar enim, at rhoncus justo. Suspendisse quis efficitur eros.
-\end{revcomment}
-\begin{response}
-Proin venenatis, dolor nec ultrices blandit, tortor eros semper urna, in vulputate sem mi in felis. Etiam vitae mollis lacus. Phasellus vehicula dui velit, sit amet mollis mauris semper accumsan. Pellentesque at vestibulum tortor, eget cursus erat.
-\end{response}
+% References
+% The references are sufficient.
 
-\nextreviewer
-\begin{revcomment}
-Nulla facilisi. Duis id sapien luctus, ornare lectus in, tristique augue. Praesent ullamcorper posuere rutrum. Maecenas cursus metus id ultricies cursus. In volutpat eleifend posuere. 
-\end{revcomment}
-\begin{response}
-Praesent elit tortor, porttitor vehicula libero nec, pharetra facilisis velit. Morbi accumsan ut enim ut ornare. Integer pharetra magna in urna aliquam sagittis. Aenean mollis leo a lorem aliquam posuere. Suspendisse massa justo, pretium quis dui mattis, sagittis volutpat dolor. Pellentesque et porttitor libero. Sed volutpat felis sed tellus accumsan pretium.
+% Clarity
+% I think the paper can benefit a lot from improving the paper presentation. The paper is unclear in presenting their findings. See the weakness section for details.
+% Reviewer #3
+% Questions
+% 1. Reviewer confidence (1-3) By selecting a value, you confirm that you are competent to evaluate this paper. If you have doubts about your ability to assess it, do not complete this form but instead use "Contact Meta-Reviewer". 
+% 3. Very Confident
+% 2. Technical correctness of the work (1-4) Please evaluate the scientific and/or technical correctness of the work. If experiments are presented please consider if enough details are provided on the datasets, baseline and experimental design to allow the experiments to be reproduced or equivalent experiments run. If you give a score of 1 or 2, please provide further explanation in your Detailed Comments.
+% 3: Minor issues but credible results
+% 3. Clarity of presentation Please evaluate the clarity of the presentation of the work. Take into account the writing and quality of figures, tables etc. If you give a score of 1 or 2 please provide further explanation in your Detailed Comments.
+% 3. Clear enough, could benefit from some revision
+% 4. Overall recommendation (1-6)
+% 4: Weak Accept: I am leaning to accept this paper
+% 5. Detailed Comments for Authors Please supply detailed comments to back up your rankings. These comments will be forwarded to the authors of the paper. The comments will help the committee decide the outcome of the paper, and will help justify this decision for the authors. If the paper is accepted, the comments should guide the authors in making revisions for a final manuscript. Hence, the more detailed you make your comments, the more useful your review will be - both for the committee and for the authors. (min. 120 words). Particularly, provide feedback on the following topics: * Key Strength of the paper * Main Weakness of the paper * Novelty/Originality, taking into account the relevance of the work for the Interspeech audience * Technical Correctness, is the work technically and/or scientifically solid? Are sufficient details provided to allow any experiments to be reproduced or equivalent experiments run? * Quality of References, is it a good mix of older and newer papers? Do the authors show a good grasp of the current state of the literature? Do they also cite other papers apart from their own work? * Clarity of Presentation, the English does not need to be flawless, but the text should be understandable
+% This paper investigated the development of custom ASR systems for the transcription of archival data as an input to other research in the realms of digital humanities. I have some comments for improvement:
 
-Fusce lorem est, luctus nec tempus sed, tempor porta erat. Quisque et velit commodo, lacinia ante in, luctus neque. Curabitur ut consequat tortor. Aliquam ultrices enim tincidunt vehicula accumsan. Nunc nisi ante, porttitor scelerisque diam et, maximus facilisis mi. Etiam id mollis nibh, tristique mollis dui. Integer sit amet lobortis est. Aliquam consectetur in est vel mattis. Duis tristique in turpis et eleifend. Fusce et eros ut purus rhoncus euismod ac ac augue. Curabitur pharetra mi elit. Aliquam in malesuada dolor.
-\end{response}
+% 1. Table 3 is meaningless and can be removed.
+% 2. As a survey study/paper, more references should be extensively researched and cited.
+% Reviewer #4
+% Questions
+% 1. Reviewer confidence (1-3) By selecting a value, you confirm that you are competent to evaluate this paper. If you have doubts about your ability to assess it, do not complete this form but instead use "Contact Meta-Reviewer". 
+% 2: Confident
+% 2. Technical correctness of the work (1-4) Please evaluate the scientific and/or technical correctness of the work. If experiments are presented please consider if enough details are provided on the datasets, baseline and experimental design to allow the experiments to be reproduced or equivalent experiments run. If you give a score of 1 or 2, please provide further explanation in your Detailed Comments.
+% 3: Minor issues but credible results
+% 3. Clarity of presentation Please evaluate the clarity of the presentation of the work. Take into account the writing and quality of figures, tables etc. If you give a score of 1 or 2 please provide further explanation in your Detailed Comments.
+% 4. Very well written
+% 4. Overall recommendation (1-6)
+% 3: Weak Reject: I am leaning to reject this paper
+% 5. Detailed Comments for Authors Please supply detailed comments to back up your rankings. These comments will be forwarded to the authors of the paper. The comments will help the committee decide the outcome of the paper, and will help justify this decision for the authors. If the paper is accepted, the comments should guide the authors in making revisions for a final manuscript. Hence, the more detailed you make your comments, the more useful your review will be - both for the committee and for the authors. (min. 120 words). Particularly, provide feedback on the following topics: * Key Strength of the paper * Main Weakness of the paper * Novelty/Originality, taking into account the relevance of the work for the Interspeech audience * Technical Correctness, is the work technically and/or scientifically solid? Are sufficient details provided to allow any experiments to be reproduced or equivalent experiments run? * Quality of References, is it a good mix of older and newer papers? Do the authors show a good grasp of the current state of the literature? Do they also cite other papers apart from their own work? * Clarity of Presentation, the English does not need to be flawless, but the text should be understandable
+% Summary:
+% This paper addresses the potential benefits of current pretrained models and transcribing a limited amount of in-domain text to make potentially thousands of hours of archival data accessible. The experiments do not touch on search, but rather WER on held out test set with coverage of a variety of speakers, with phone-level language coverage.
+% The scope of the paper is relatively limited but likely to be useful to others looking to make existing video/speech data more accessible in the future.
+% Limitations are given. Writing is clear and easy to follow.
 
-\nextreviewer
-\begin{revcomment}
-Cras vel velit ut diam iaculis dignissim et eget ligula. Vestibulum sollicitudin consequat justo vel lobortis. Etiam ut sodales sapien. Nulla nec tellus aliquam, auctor tortor nec, maximus dolor. Suspendisse augue nunc, ultricies ut convallis nec, fermentum viverra ipsum. Pellentesque id elit pellentesque, suscipit tellus eu, convallis risus. Quisque gravida ante egestas, tincidunt elit sit amet, semper eros. Cras tristique dolor vel lectus dictum, ultrices viverra velit egestas. Integer cursus lorem vitae magna gravida, in semper nibh porta. In pharetra aliquam euismod. Nullam efficitur, ante sit amet pulvinar posuere, urna arcu varius eros, sit amet congue nulla libero nec velit.
+% Models used are Whisper (multilingual model, small and large v2) and a Swedish wav2vec2 model finetuned with CTC.
+% Two main research questions are asked:
+% - whether two ASR systems can be used to benefit each other (results say no, though, there are likely better methods than combining alignments for system combination)
+% - whether there are sufficient potential improvements from human-aligning news that the time and effort is likely to be worthwhile? (seems yes, the 49 hour model does best, though there are several confounds like text normalization and an in-domain LM are also used and not fully ablated from other models)
 
-Donec eu sem sit amet lectus tincidunt posuere. Suspendisse pulvinar, neque vel pellentesque consectetur, turpis ipsum gravida enim, lacinia ultrices est augue vitae turpis. Nullam ex turpis, venenatis egestas urna a, dignissim aliquet nibh. Phasellus bibendum lectus in mattis lacinia. Curabitur rhoncus arcu sit amet erat gravida, id dignissim neque consectetur. Quisque tincidunt at nisi id volutpat. Vestibulum condimentum ex sem. Ut massa turpis, porta sit amet dolor sed, semper commodo tortor. Vivamus et tortor dictum risus tempus sagittis non ut orci. Sed facilisis viverra tempor. Donec iaculis pharetra pharetra. Quisque quam ex, tincidunt ut felis sed, scelerisque feugiat magna. Maecenas ipsum nisl, volutpat et suscipit in, egestas a lorem. Praesent pellentesque vitae dui dignissim lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-\end{revcomment}
-\begin{response}
-Vivamus tincidunt enim malesuada, vestibulum massa quis, vehicula orci. Suspendisse ac nunc dui. Integer lobortis cursus nisl eu placerat. Vivamus dapibus vitae purus quis maximus. Sed eu mauris in nulla hendrerit volutpat. Aliquam enim nisi, placerat et justo in, pulvinar sagittis sem
-\end{response}
+% Questions/weaknesses:
+% - The quality assurance measure is not defined
+% - What are the breakdowns by speaker and demographic in performance? Since these labels exist for the eval data it seems worth reporting potential demographic biases
+% - What data was used for wav2vec2 CTC finetuning?
+% - You may wish to try Whisper-timestamped in the future for word-level alignments with the Whisper models (https://github.com/linto-ai/whisper-timestamped)
+% - Are all WER scores case-sensitive with punctuation?
+% - How exactly where the intersection model outputs decided when the two systems did not agree? Did you consider alternative system combination methods such as ROVER?
+% - The validation and test sets are quite small: with up to 2 min per speaker across both, there are ~30 minutes for each.
 
-\begin{revcomment}
-Sed blandit, felis eget sodales viverra, nisl enim aliquet nunc, ac convallis ex neque eget augue.
-\end{revcomment}
-\begin{response}
-Proin lacinia gravida malesuada. Fusce laoreet interdum felis placerat accumsan. Mauris fringilla tristique massa quis molestie. Pellentesque ipsum orci, congue vitae lacus nec, congue vehicula quam. Maecenas non viverra nisl. Nullam ut fringilla nunc. Quisque feugiat condimentum odio eu aliquam. Integer gravida, purus et tincidunt fringilla, ante turpis aliquam lectus, ut volutpat tellus tellus quis lorem. Fusce fermentum justo sed bibendum pulvinar. Donec vel aliquam nibh. Etiam vel pretium massa. Aliquam malesuada hendrerit urna, et rhoncus quam facilisis eget.
-\end{response}
+% Technical correctness:
+% - The work seems generally credible though there are some questions which are not clear, but it appears that links to exact recipes and models on HuggingFace will be able to fill in most gaps once de-anonymized.
 
-\makerule
-
-\section*{Postscript}
-Aliquam elementum rutrum velit, a interdum dui rutrum nec. Phasellus id libero ac arcu viverra vulputate at in tortor. Sed non ex sed ante semper viverra. Etiam congue malesuada massa, id dignissim tellus iaculis vitae. Curabitur ultrices mollis mauris, eu lobortis libero consectetur non. Sed eleifend volutpat odio, et elementum est tristique non. Etiam eu sodales elit. Cras quis est nulla.
-
-Vestibulum eget aliquet nisi. Suspendisse massa est, maximus in interdum ac, tempus vel eros. In in ligula in lorem malesuada faucibus et a lacus. Nullam maximus dignissim euismod. Morbi iaculis sem leo, eu interdum erat euismod a. Integer in lorem sed nisl maximus tristique. Aliquam eu malesuada magna, at consectetur justo. Mauris pretium, erat ut mattis tempus, ex sapien fermentum tellus, eu sagittis mauris felis et elit. Morbi pretium pulvinar dui, ut tincidunt magna gravida et.
-
-Nunc facilisis orci vel urna ultrices porttitor quis at ligula. Mauris at ultrices nunc. In eu mi quis augue ultricies suscipit vitae ut lorem. Donec faucibus lectus id quam cursus efficitur. Nam consectetur turpis eget nibh volutpat suscipit et sit amet odio. Donec faucibus odio non turpis auctor, et convallis ligula dictum. Nunc facilisis mauris luctus, aliquam quam ac, facilisis arcu. Sed rhoncus rhoncus auctor. Duis enim mi, finibus a scelerisque id, maximus vitae nisl. Donec ut neque sit amet libero vehicula iaculis. Nunc magna est, ornare at orci sed, blandit dapibus massa. Maecenas convallis ultrices consequat. In tincidunt lacus ex, ac ullamcorper metus accumsan tincidunt.
 
 \end{document}
 

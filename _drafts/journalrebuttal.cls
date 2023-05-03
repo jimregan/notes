@@ -77,7 +77,8 @@
 \newcommand{\makerule}{ \noindent \rule{6.5in}{0.02in} \vspace{-0.05in}}
 
 \newcounter{reviewer}
-\newcommand{\nextreviewer}{ \makerule \newpage \refstepcounter{reviewer}}
+\newcommand{\nextreviewer}{ %\makerule \newpage 
+\refstepcounter{reviewer}}
 
 
 \makeatletter
@@ -96,7 +97,9 @@
 
 
 \newenvironment{response}
-{\par\medskip\noindent\textbf{Our response \#\therevcomment} \rmfamily \\ \indent}
+%{\par\medskip\noindent\textbf{Our response \#\therevcomment} 
+{\\
+\rmfamily \indent}
 {\medskip}
 
 \makeatletter
