@@ -67,4 +67,6 @@ categories: [links]
 
 [jbeskow/tuben](https://github.com/jbeskow/tuben) -- Tube model of vocal tract - resonance frequency estimation
 
+[Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors](https://arxiv.org/abs//2306.17843), [project page](https://guochengqian.github.io/project/magic123/), [code](https://github.com/guochengqian/Magic123) (currently empty)
+
 
