@@ -41,4 +41,17 @@ categories: [links]
 }
 ```
 
+[Wavelet Diffusion Models are fast and scalable Image Generators](https://arxiv.org/abs/2211.16152), [code](https://github.com/VinAIResearch/WaveDiff)
+
+```bibtex
+@misc{phung2023wavelet,
+      title={Wavelet Diffusion Models are fast and scalable Image Generators}, 
+      author={Hao Phung and Quan Dao and Anh Tran},
+      year={2023},
+      eprint={2211.16152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 
