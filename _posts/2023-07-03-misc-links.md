@@ -69,4 +69,6 @@ categories: [links]
 
 [Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors](https://arxiv.org/abs//2306.17843), [project page](https://guochengqian.github.io/project/magic123/), [code](https://github.com/guochengqian/Magic123) (currently empty)
 
+{% twitter https://twitter.com/bax1337/status/1669081379139645440 %}
 
+[facebookresearch/dino](https://github.com/facebookresearch/dino)
