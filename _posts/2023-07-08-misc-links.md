@@ -26,4 +26,19 @@ categories: [links]
 
 [GenSim: Generative Models for Supersizing Robotic Simulation Tasks](https://github.com/liruiw/GenSim)
 
+[JoseLlarena/Britfone](https://github.com/JoseLlarena/Britfone) --- British English pronunciation dictionary
+
+[XPhoneBERT: A Pre-trained Multilingual Model for Phoneme Representations for Text-to-Speech](https://arxiv.org/abs/2305.19709), [code](https://github.com/VinAIResearch/XPhoneBERT)
+
+```bibtex
+@misc{nguyen2023xphonebert,
+      title={XPhoneBERT: A Pre-trained Multilingual Model for Phoneme Representations for Text-to-Speech}, 
+      author={Linh The Nguyen and Thinh Pham and Dat Quoc Nguyen},
+      year={2023},
+      eprint={2305.19709},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 
