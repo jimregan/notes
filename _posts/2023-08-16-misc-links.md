@@ -96,3 +96,26 @@ categories: [links]
       eprint={2005.03191},
 }
 ```
+
+[JOIST: A Joint Speech and Text Streaming Model For ASR](https://arxiv.org/abs/2210.07353)
+
+```bibtex
+@misc{sainath2022joist,
+      title={JOIST: A Joint Speech and Text Streaming Model For ASR}, 
+      author={Tara N. Sainath and Rohit Prabhavalkar and Ankur Bapna and Yu Zhang and Zhouyuan Huo and Zhehuai Chen and Bo Li and Weiran Wang and Trevor Strohman},
+      year={2022},
+      eprint={2210.07353},
+}
+```
+
+[Improving Joint Speech-Text Representations Without Alignment](https://arxiv.org/abs/2308.06125)
+
+```bibtex
+@misc{peyser2023improving,
+      title={Improving Joint Speech-Text Representations Without Alignment}, 
+      author={Cal Peyser and Zhong Meng and Ke Hu and Rohit Prabhavalkar and Andrew Rosenberg and Tara N. Sainath and Michael Picheny and Kyunghyun Cho},
+      year={2023},
+      eprint={2308.06125},
+}
+```
+
