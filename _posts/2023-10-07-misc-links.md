@@ -22,6 +22,18 @@ categories: [links]
 
 {% twitter https://twitter.com/ch402/status/1709998674087227859 %}
 
+[It's MBR All the Way Down: Modern Generation Techniques Through the Lens of Minimum Bayes Risk](https://arxiv.org/abs/2310.01387)
+
+```bibtex
+@misc{bertsch2023its,
+      title={It's MBR All the Way Down: Modern Generation Techniques Through the Lens of Minimum Bayes Risk}, 
+      author={Amanda Bertsch and Alex Xie and Graham Neubig and Matthew R. Gormley},
+      year={2023},
+      eprint={2310.01387},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 
 ---
