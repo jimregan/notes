@@ -35,6 +35,44 @@ categories: [links]
 }
 ```
 
+[Fast-HuBERT: An Efficient Training Framework for Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2309.13860), [code](https://github.com/yanghaha0908/FastHuBERT)
+
+```bibtex
+@misc{yang2023fasthubert,
+      title={Fast-HuBERT: An Efficient Training Framework for Self-Supervised Speech Representation Learning}, 
+      author={Guanrou Yang and Ziyang Ma and Zhisheng Zheng and Yakun Song and Zhikang Niu and Xie Chen},
+      year={2023},
+      eprint={2309.13860},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+[SLM: Bridge the thin gap between speech and text foundation models](https://arxiv.org/abs/2310.00230)
+
+```bibtex
+@misc{wang2023slm,
+      title={SLM: Bridge the thin gap between speech and text foundation models}, 
+      author={Mingqiu Wang and Wei Han and Izhak Shafran and Zelin Wu and Chung-Cheng Chiu and Yuan Cao and Yongqiang Wang and Nanxin Chen and Yu Zhang and Hagen Soltau and Paul Rubenstein and Lukas Zilka and Dian Yu and Zhong Meng and Golan Pundak and Nikhil Siddhartha and Johan Schalkwyk and Yonghui Wu},
+      year={2023},
+      eprint={2310.00230},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+[Joint Audio and Speech Understanding](https://arxiv.org/abs/2309.14405)
+
+```bibtex
+@misc{gong2023joint,
+      title={Joint Audio and Speech Understanding}, 
+      author={Yuan Gong and Alexander H. Liu and Hongyin Luo and Leonid Karlinsky and James Glass},
+      year={2023},
+      eprint={2309.14405},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+```
 
 ---
 
