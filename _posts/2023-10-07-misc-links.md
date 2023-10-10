@@ -74,6 +74,47 @@ categories: [links]
 }
 ```
 
+[EFFUSE: Efficient Self-Supervised Feature Fusion for E2E ASR in Multilingual and Low Resource Scenarios](https://arxiv.org/abs/2310.03938)
+
+```bibtex
+@misc{srivastava2023effuse,
+      title={EFFUSE: Efficient Self-Supervised Feature Fusion for E2E ASR in Multilingual and Low Resource Scenarios}, 
+      author={Tejes Srivastava and Jiatong Shi and William Chen and Shinji Watanabe},
+      year={2023},
+      eprint={2310.03938},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+```
+
+[A Token-Wise Beam Search Algorithm for RNN-T](https://arxiv.org/abs/2302.14357)
+
+```bibtex
+@misc{keren2023tokenwise,
+      title={A Token-Wise Beam Search Algorithm for RNN-T}, 
+      author={Gil Keren},
+      year={2023},
+      eprint={2302.14357},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+[Zero-shot Domain-sensitive Speech Recognition with Prompt-conditioning Fine-tuning](https://arxiv.org/abs/2307.10274)
+
+```bibtex
+@misc{liao2023zeroshot,
+      title={Zero-shot Domain-sensitive Speech Recognition with Prompt-conditioning Fine-tuning}, 
+      author={Feng-Ting Liao and Yung-Chieh Chan and Yi-Chang Chen and Chan-Jan Hsu and Da-shan Shiu},
+      year={2023},
+      eprint={2307.10274},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+```
+
+
+
 ---
 
 [faramuci](https://nagyszotar.nytud.hu/dictsearch.html?entryid=21332),
