@@ -1521,3 +1521,576 @@ git push origin --tags
 git push origin 
 ls
 ls|grep lib
+mkdir /home/joregan/sbtal_riksdag_subset4
+ls
+date; cat sbtal_subset4.tsv | awk 'BEGIN{c=0.0}{c+=$2}END{print c / (1000 * 60 * 60)}'
+cd -
+ls
+less ../fairseq-config/riksdag_transcripts_nolm.yaml 
+ls
+cd ../waxholm_fairseq/
+ls
+vi test.tsv 
+vi train.tsv 
+vi valid.tsv 
+conda env list
+cd ../wav2vec2-swedish-phonetic-waxholm/
+cp ../wav2vec2-swedish-riksdag-100h-transcripts-nolm/config.json .
+less config.json 
+git add config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+conda activate fairseq
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+ls
+git status
+git add preprocessor_config.json pytorch_model.bin runs/ special_tokens_map.json tokenizer_config.json vocab.json 
+git commit -m 'current cp'
+git push
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git add config.json runs/
+git add pytorch_model.bin
+git commit -m 'cp 16 (?)'
+git push
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add pytorch_model.bin runs config.json
+git commit -m update
+git push
+git add pytorch_model.bin runs config.json
+git status
+git commit -m 'update'
+git push
+git status
+git add runs/
+ls
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add pytorch_model.bin runs config.json
+git push
+git status
+git add runs/
+git commit -m update
+git push
+git status
+less config.json 
+ls
+less vocab.json 
+mkdir fairseq_data
+ls ..
+ls ../waxholm_fairseq/*.ltr
+cp ../waxholm_fairseq/*.ltr fairseq_data/
+cp ../waxholm_fairseq/*.tsv fairseq_data/
+cp ../waxholm_fairseq/dict.ltr.txt fairseq_data/
+cp ../waxholm_fairseq/waxholm_phonetic.yaml fairseq_data/
+less fairseq_data/waxholm_phonetic.yaml 
+git add fairseq_data/
+git status
+git add runs/
+git commit -m 'add data for this run'
+git status
+git push
+mv 2023-08-10-waxholm-phoneme-fairseq.ipynb waxholm-phoneme-fairseq.ipynb 
+git add waxholm-phoneme-fairseq.ipynb 
+git commit -m 'add processing notebook'
+less waxholm-phoneme-fairseq.ipynb 
+ls
+grep 'S J' fairseq_data/*ltr
+grep 'T J' fairseq_data/*ltr
+git status
+git add runs/
+git commit -m 'update runs; abandoning attempt, error in ltr conversion'
+ls
+git log
+git checkout -b fixed-sj-tj
+git checkout main 
+git push origin main 
+git checkout -b first-attempt
+ls
+git log
+git branch -a
+git branch -D fixed-sj-tj 
+git checkout -b fixed-sj-tj ac880aeece32ab73bb8bca87269eee75f22deb43
+git branch -D fixed-sj-tj 
+git branch -D base-attempts
+git branch -b base-attempts ac880aeece32ab73bb8bca87269eee75f22deb43
+git checkout -b base-attempts ac880aeece32ab73bb8bca87269eee75f22deb43
+git status
+ls
+git checkout first-attempt 
+ls
+git checkout base-attempts 
+git checkout first-attempt config.json
+git checkout first-attempt README.md
+git checkout first-attempt fairseq_data
+git commit -m 'copy base material'
+ls
+git checkout first-attempt waxholm-phoneme-fairseq.ipynb
+git commit -m notebook
+git log
+less README.md 
+git branch -D fixed-sj-tj
+git checkout -b fixed-sj-tj
+git log
+git push origin first-attempt 
+git push origin base-attempts 
+cd fairseq_data/
+git branch
+vi train.ltr 
+wc -l valid.ltr 
+git status
+cd ..
+mv 2023-08-10-waxholm-phoneme-fairseq.ipynb waxholm-phoneme-fairseq.ipynb 
+git add waxholm-phoneme-fairseq.ipynb 
+git commit -m 'fix segmentation, tsv writing, and automate validation set'
+ls
+git status
+cd fairseq_data/
+git diff
+ls
+vi valid.tsv 
+vi train.tsv 
+vi test.tsv 
+git status
+git add *.ltr
+git commit -m redone
+cd ..
+cp fairseq_data/*ltr ~/waxholm_fairseq/
+cp fairseq_data/*tsv ~/waxholm_fairseq/
+cat *.ltr|tr ' ' '\n'
+cd fairseq_data/
+cat *.ltr|tr ' ' '\n'
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|less
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ '
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ '|wc
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+cd ..
+mv 2023-08-10-waxholm-phoneme-fairseq.ipynb waxholm-phoneme-fairseq.ipynb 
+git diff
+git add waxholm-phoneme-fairseq.ipynb 
+git commit -m fix
+git diff
+cd fairseq_data/
+git add *.lit
+git add *.ltr
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+grep TJ dict.ltr.txt 
+git add dict.ltr.txt 
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+git stash
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+git add dict.ltr.txt 
+grep 'T J' *ltr
+git diff
+git add ../waxholm-phoneme-fairseq.ipynb 
+git commit -m 'missing comma'
+git diff
+git add *.ltr
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+git add dict.ltr.txt 
+git commit
+git log
+git stash
+git status
+git log
+git branch
+git push origin fixed-sj-tj 
+cp fairseq_data/*tsv ~/waxholm_fairseq/
+cd ..
+cp fairseq_data/*.tsv fairseq_data/*.ltr fairseq_data/dict.ltr.txt ../waxholm_fairseq/
+git status
+git branch -a
+git checkout base-attempts 
+git merge --squash fixed-sj-tj
+git commit -m fixes
+git push origin base-attempts 
+git checkout fixed-sj-tj 
+ls
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/waxholm_fairseq/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+pwd
+ls
+git status
+git diff
+git add config.json runs/
+wc -l fairseq_data/dict.ltr.txt 
+ls
+git add runs/
+git status
+git add *json
+git commit -m first\ files
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+diff -u ../waxholm_fairseq/dict.ltr.txt fairseq_data/dict.ltr.txt 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git diff
+rm config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+cp ../wav2vec2-swedish-riksdag-100h-transcripts-nolm/config.json .
+git diff
+ls
+less vocab.json 
+wc -l vocab.json 
+vi config.json 
+git diff
+vi config.json 
+git diff
+wc -l fairseq_data/dict.ltr.txt 
+git status
+git add config.json runs/
+git commit -m restart
+git rm -f runs/
+git rm -rf runs/
+git commit -m rm
+vi fairseq_data/waxholm_phonetic.yaml 
+ls
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+ls
+git status
+git add config.json pytorch_model.bin 
+git commit -m 'model from previous run'
+ls -al $(find $HOME/outputs/ -name '*_best.pt')
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+it add pytorch_model.bin 
+git add pytorch_model.bin 
+git add runs/
+git commit -m 'new run'
+git branch
+git push origin fixed-sj-tj 
+ls
+git status
+git add runs/
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add pytorch_model.bin runs config.json
+git commit -m update
+git push
+git branch
+git push origin fixed-sj-tj 
+git status
+git add runs/
+git commit -m 'update'
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add pytorch_model.bin runs config.json
+git commit -m 'update'
+git push origin fixed-sj-tj 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add pytorch_model.bin runs config.json
+git status
+git push origin fixed-sj-tj 
+git commit -m end
+git push origin fixed-sj-tj 
+git branch
+git checkout main 
+git rm -rf runs/ 
+git checkout  fixed-sj-tj runs
+git checkout  fixed-sj-tj pytorch_model.bin
+git checkout  fixed-sj-tj config.json
+ls
+git status
+ls
+for i in *.json;do git checkout  fixed-sj-tj $i; done
+git push origin main 
+git commit -m new\ run
+git push origin main 
+git checkout base-attempts 
+ls
+git checkout  -b merge-closures
+ls
+vi fairseq_data/
+cd fairseq_data/
+ls
+vi test.ltr 
+vi train.ltr 
+vi valid.
+vi valid.ltr 
+git diff
+git add *.ltr
+git commit -m 'merge closures'
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+vi train.ltr 
+grep g *.ltr
+less train.ltr 
+less train.tsv 
+less train.ltr 
+git status
+git add dict.ltr.txt 
+git commit -m regen
+ls
+git branch
+git checkout -b merge-closures-more
+vi train.ltr 
+vi test.ltr 
+vi valid.ltr 
+git diff
+git add *.ltr
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+vi train.tsv 
+vi train.ltr 
+vi test.ltr 
+vi valid.
+vi valid.ltr 
+git diff
+git add *ltr
+git checkout -b 'also at start'
+git commit -m 'also at start'
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+git add dict.ltr.txt 
+git commit -m 'merge closures without burst into single glottal closure'
+git branch
+git checkout merge-closures
+ls
+cd ..
+git status
+ls
+rm config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git add runs/
+git commit -m update
+git status
+#git stash
+git diff
+git status
+git add runs/
+git commit -m update
+git stash
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+find ../outputs/ -type f
+wc -l fairseq_data/dict.ltr.txt 
+vi config.json 
+less special_tokens_map.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+less config.json 
+less fairseq_data/dict.ltr.txt 
+wc -l fairseq_data/dict.ltr.txt 
+git status
+git add preprocessor_config.json special_tokens_map.json tokenizer_config.json vocab.json 
+git add runs/
+git commit -m 'partial conversion'
+less vocab.json 
+wc -l vocab.json 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git add runs/
+git commit -m failed
+ls
+git rm -rf runs/
+git commit -m rm
+git rm preprocessor_config.json tokenizer_config.json vocab.json special_tokens_map.json 
+git commit -m rm
+ls
+less fairseq_data/
+less fairseq_data/dict.ltr.txt 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+find ../outputs/ -type f
+less ../outputs/2023-08-12/11-28-17/hydra_train.log
+ls
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git add *.json runs/
+git commit -m 'hmph'
+git branch
+git push origin merge-closures
+ls
+less config.json 
+ls
+diff -u fairseq_data/train.ltr ../waxholm_fairseq/train.ltr 
+cp fairseq_data/*.ltr ../waxholm_fairseq/
+#cp fairseq_data/dict.ltr.txt ../waxholm_fairseq/
+diff -u fairseq_data/dict.ltr.txt ../waxholm_fairseq/dict.ltr.txt 
+cp fairseq_data/dict.ltr.txt ../waxholm_fairseq/
+ls
+less fairseq_data/waxholm_phonetic.yaml 
+git commit -m upd
+git add runs/
+git commit -m upd
+git rm runs/train/events.out.tfevents.1691934470.sbtaldeep24
+git rm runs/train_inner/events.out.tfevents.1691934820.sbtaldeep24    runs/valid/events.out.tfevents.1691934461.sbtaldeep24
+ls
+git rm tokenizer_config.json preprocessor_config.json special_tokens_map.json vocab.json 
+git commit -m clear
+ls
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+ls
+git status
+git add *.jsn runs pytorch_model.bin 
+git add *.json runs pytorch_model.bin 
+git commit -m 'finally with the right data'
+git push origin merge-closures
+git branch -D first-attempt 
+du -sh .
+git lfs prune
+du -sh .
+git branch -D fixed-sj-tj 
+git lfs prune
+du -sh .
+git add runs/
+git commit -m upd
+git push origin merge-closures
+less ~/.huggingface/token 
+cat ~/.ssh/id_ed25519.pub 
+git status
+git add runs/
+git commit -m upd
+git push origin merge-closures
+ssh -T git@hf.co
+git status
+git add runs/
+git commit -m upd
+git push origin merge-closures
+ssh-add ~/.ssh/id_ed25519
+eval $(ssh-agent)
+ssh-add ~/.ssh/id_ed25519
+git status
+git add runs/
+git commit -m upd
+git push origin merge-closures
+git remote set-url origin git@hf.co:jimregan/wav2vec2-swedish-phonetic-waxholm
+git status
+git add runs/
+git commit -m upd
+git push origin merge-closures
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+git add pytorch_model.bin 
+git add runs/
+git commit -m upd
+git push origin merge-closures
+git branch
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+ls
+git add runs/ pytorch_model.bin 
+git status
+git add runs
+git commit -m upd
+git push origin merge-closures
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add runs/ pytorch_model.bin 
+git status
+git commit -m 'end (?)'
+git status
+git push origin merge-closures
+git add runs/
+git commit -m oops
+git status
+git push origin merge-closures
+git checkout merge-closures-more 
+ls
+dir -u ~/waxholm_fairseq/train.ltr fairseq_data/train.ltr 
+diff -u ~/waxholm_fairseq/train.ltr fairseq_data/train.ltr 
+diff -u ~/waxholm_fairseq/dict.ltr.txt fairseq_data/dict.ltr.txt 
+cp fairseq_data/*.lit ~/waxholm_fairseq/
+cp fairseq_data/*.ltr ~/waxholm_fairseq/
+cp fairseq_data/dict.ltr.txt ~/waxholm_fairseq/
+python
+ls
+wc -l fairseq_data/dict.ltr.txt 
+vi config.json 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+ls ../outputs/
+rm -rf ../outputs/2023-08-14/
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add *.json pytorch_model.bin runs/
+git branch
+git commit -m 'first conversion pass'
+git status
+ls
+git push origin merge-closures-more 
+ls
+less vocab.json 
+cp vocab.json  ..
+vi ../vocab.json 
+git branch -a
+git checkout fixed-sj-tj 
+git diff
+git status
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git add *.json pytorch_model.bin runs/
+git commit 'done (?)'
+git commit -m 'done (?)'
+git push origin merge-closures-more 
+git diff
+git status
+git branch
+git add runs/
+git commit -m run
+git push origin merge-closures-more 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+git status
+ls
+grep '~' fairseq_data/*ltr
+less fairseq_data/train.ltr 
+less fairseq_data/train.tsv 
+less fairseq_data/train.ltr 
+less fairseq_data/train.tsv 
+less fairseq_data/train.ltr 
+less fairseq_data/train.tsv 
+less fairseq_data/train.ltr 
+git status
+git log
+ls
+ls ..
+ls
+cd fairseq_data/
+ls
+less train.tsv 
+less train.ltr 
+git log 
+ls
+git log train.ltr
+git format-patch -1 dda8b589ec0813503daa7149b5dc4af5c2eb4e7d
+less 0001-merge-closures.patch 
+git log
+git format-patch -1 a5e7794aa7c08ce8bf53ac36fc9f641fe4408850
+less 0001-run.patch 
+git log
+git format-patch -1 c993051eb8a82bf03508f96ddd1dd3335030b6b1
+less 0001-first-conversion-pass.patch 
+git branch
+git log
+git format-patch -1 fe8040c29f2a9fc53cae254dd18b377730ad5fea
+less 0001-done.patch 
+rm 0001-*
+git log train.ltr
+git format-patch -1 549625cdfc04c3b7e1499c1780d61f86e66cc73a
+less 0001-also-at-start.patch 
+git log train.ltr
+pwd
+git log train.ltr
+git diff
+git add *.ltr
+git commit -m 'redo merges'
+ls
+cat *.ltr|tr ' ' '\n'|sort|uniq -c|sort -nr|awk '{print $2 " " $1}'|sort|grep -v '^ ' > dict.ltr.txt 
+git diff
+git add dict.ltr.txt 
+git commit -m regenerate
+wc -l dict.ltr.txt 
+less dict.ltr.txt 
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+cd ..
+python ../transformers/src/transformers/models/wav2vec2/convert_wav2vec2_original_pytorch_checkpoint_to_pytorch.py --pytorch_dump_folder /home/joregan/wav2vec2-swedish-phonetic-waxholm/ --checkpoint_path $(find $HOME/outputs/ -name '*_best.pt'|tail -n 1) --dict_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/fairseq_data/dict.ltr.txt --config_path /home/joregan/wav2vec2-swedish-phonetic-waxholm/config.json 
+wc -l fairseq_data/dict.ltr.txt 
+vi vocab.json 
+grep ':' vocab.json 
+grep ':' vocab.json |wc
+git status
+history -a
