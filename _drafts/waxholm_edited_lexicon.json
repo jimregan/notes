@@ -7,9 +7,9 @@
   },
   {
     "smp": "fp2024/fp2024.1.02.smp",
-    "text": "lördag",
+    "text": "XinandX lördag",
     "phoneme": "L'Ö32DA",
-    "labels": "pa p: L'Ö32DdA:Gg"
+    "labels": "pa_p: L'Ö32DdA:Gg"
   },
   {
     "smp": "fp2007/fp2007.pr.10.smp",
@@ -21,7 +21,7 @@
     "smp": "fp2007/fp2007.pr.09.smp",
     "text": "XinandX Sprakande fyrverkeripjäser exploderade över oss",
     "phoneme": "SPR\"A:K'ANDE F\"Y:RhyVÄ4RKÄ4RIhyPJ'Ä:SÄ4R EKSPLÅD'E:RADE 'Ö:VÄ4R 'ÅS+",
-    "labels": "pa p: SPpR\"A:KkANDdE0 FY:VÄ4RKkÄ4R\"I:#PpJ`Ä:SE0R EKkSPpLÅDd'E:RADdE0 'Ö:VR 'ÅS"
+    "labels": "pa_p: SPpR\"A:KkANDdE0 FY:VÄ4RKkÄ4R\"I:#PpJ`Ä:SE0R EKkSPpLÅDd'E:RADdE0 'Ö:VR 'ÅS"
   },
   {
     "smp": "fp2024/fp2024.1.00.smp",
@@ -387,7 +387,7 @@
     "smp": "fp2015/fp2015.6.03.smp",
     "text": "XsmackX XinandX finns det hotell på möja",
     "phoneme": "F'INS D'E:T+ HOT'EL P'Å:+ M\"ÖJ'A",
-    "labels": "sm pa p: F'INS Dd'E: HOTt'EL Pp'Å: M\"ÖJA"
+    "labels": "sm pa_p: F'INS Dd'E: HOTt'EL Pp'Å: M\"ÖJA"
   },
   {
     "smp": "fp2007/fp2007.pr.07.smp",
@@ -447,7 +447,7 @@
     "smp": "fp2015/fp2015.1.06.smp",
     "text": "och båtarna går inte någon annan XinandX dag i veckan eller helst på kvällen då",
     "phoneme": "'Å:+ B\"Å:TA2N'A G'Å:R \"INT'E N'ÅN+ \"AN'AN+ D'A:G 'I:+ V\"EK'AN 'ELER+ H'ELST P'Å:+ KV'ÄLEN D'Å:+",
-    "labels": "'Å: Bb\"Å:TtA2NA Gg'Å: \"INTtE0 N\"Å:GgÅN \"ANAN pa p: Dd'A:Gg 'I: V\"EKkAN 'ELE0R H'ELS Pp'Å: KkV'ÄLE0N Dd'Å:"
+    "labels": "'Å: Bb\"Å:TtA2NA Gg'Å: \"INTtE0 N\"Å:GgÅN \"ANAN pa_p: Dd'A:Gg 'I: V\"EKkAN 'ELE0R H'ELS Pp'Å: KkV'ÄLE0N Dd'Å:"
   },
   {
     "smp": "fp2007/fp2007.pr.10.smp",
@@ -681,7 +681,7 @@
     "smp": "fp2046/fp2046.1.01.smp",
     "text": "från stockholm",
     "phoneme": "FR'Å:N+ ST\"ÅKhy'ÅLM",
-    "labels": "pa p: F'Å: STt\"ÅKk#`ÅLM"
+    "labels": "pa_p: F'Å: STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2046/fp2046.13.00.smp",
@@ -813,7 +813,7 @@
     "smp": "fp2041/fp2041.14.03.smp",
     "text": "XinandX finns det någon båt som går i morgon",
     "phoneme": "pa F'INS D'E:T+ N\"Å:G'ÅN+ B'Å:T S'ÅM+ G'Å:R 'I:+ M\"ÅR'ÅN",
-    "labels": "pa p: F'INS Dd'E N\"Å:GÅM Bb'Å:Tt S'ÅM Gg'Å:R 'I: M\"ÅRÅN"
+    "labels": "pa_p: F'INS Dd'E N\"Å:GÅM Bb'Å:Tt S'ÅM Gg'Å:R 'I: M\"ÅRÅN"
   },
   {
     "smp": "fp2041/fp2041.1.01.smp",
@@ -855,7 +855,7 @@
     "smp": "fp2041/fp2041.15.04.smp",
     "text": "XinandX jag vill åka härifrån",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A H'Ä3RIFRÅN",
-    "labels": "pa p: J'A: V'IL \"Å:KkA H'Ä3RIFRÅN"
+    "labels": "pa_p: J'A: V'IL \"Å:KkA H'Ä3RIFRÅN"
   },
   {
     "smp": "fp2041/fp2041.15.01.smp",
@@ -951,7 +951,7 @@
     "smp": "fp2041/fp2041.14.04.smp",
     "text": "XsmackX XinandX finns det någon båt som går från ramsöberg till någon annan plats i stockholm",
     "phoneme": "pa F'INS D'E:T+ N\"Å:G'ÅN+ B'Å:T S'ÅM+ G'Å:R FR'Å:N+ RAMSÖ:B'Ä4RJ T'IL+ N\"Å:G'ÅN+ \"AN'AN PL'ATS' 'I:+ ST\"ÅKhy'ÅLM",
-    "labels": "sm pa p: F'IS d'E N'ÅM Bb'Å:Tt S'ÅM Gg'Å:Rv FR'Å:N öh p: RAMSÖ:Bb'Ä4R Tt'I N\"Å:GgÅN \"ANAM PpL'ATtS 'I: STt\"ÅKk#`ÅLM"
+    "labels": "sm pa_p: F'IS d'E N'ÅM Bb'Å:Tt S'ÅM Gg'Å:Rv FR'Å:N öh p: RAMSÖ:Bb'Ä4R Tt'I N\"Å:GgÅN \"ANAM PpL'ATtS 'I: STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2041/fp2041.15.03.smp",
@@ -969,7 +969,7 @@
     "smp": "fp2041/fp2041.1.07.smp",
     "text": "XsmackX XinandX när kan jag återvända från vaxholm idag",
     "phoneme": "pa N'Ä3R+ K'AN+ J'A:G+ \"Å:TÄ4RhyV'ÄNDA FR'Å:N+ V\"AKShyH'ÅLM ID'A:G",
-    "labels": "sm pa p: N'Ä3 Kk'A J'A: \"Å:TtE0#V`ÄNDdA FR'Å:N V\"AKkS`ÅLM IDd'A:"
+    "labels": "sm pa_p: N'Ä3 Kk'A J'A: \"Å:TtE0#V`ÄNDdA FR'Å:N V\"AKkS`ÅLM IDd'A:"
   },
   {
     "smp": "fp2048/fp2048.15.05.smp",
@@ -1767,7 +1767,7 @@
     "smp": "fp2025/fp2025.3.05.smp",
     "text": "XinandX kan man boka tältningsplats XavbrordX ifrån stockholm",
     "phoneme": "K'AN+ M'AN+ B\"O:K'A T\"ÄLTNINGShyPL'ATS av IFR'Å:N ST\"ÅKhy'ÅLM",
-    "labels": "p: pa p: Kk'AN M'AM B\"O:KkA p: Tt\"ÄLTtINGS#PpL`ATtS p: F IFR'Å:N STt\"ÅKk#`ÅLM"
+    "labels": "p: pa_p: Kk'AN M'AM B\"O:KkA p: Tt\"ÄLTtINGS#PpL`ATtS p: F IFR'Å:N STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2025/fp2025.3.04.smp",
@@ -1869,7 +1869,7 @@
     "smp": "fp2049/fp2049.1.02.smp",
     "text": "XsmackX XinandX jag vill åka från stan",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ ST'A:N",
-    "labels": "sm pa p: J'A: V'IL \"Å:KkA FR'Å:N STt'A:N"
+    "labels": "sm pa_p: J'A: V'IL \"Å:KkA FR'Å:N STt'A:N"
   },
   {
     "smp": "fp2049/fp2049.16.03.smp",
@@ -2415,7 +2415,7 @@
     "smp": "fp2007/fp2007.pr.05.smp",
     "text": "XsmackX XinandX Lila stolar bärs in i salen",
     "phoneme": "L\"I:L'A ST\"O:L'AR B'Ä32S 'IN 'I:+ S'A:LEN",
-    "labels": "sm pa p: L'I:LA STt\"O:LAR Bb'Ä32S 'IN 'I: S'A:LE0N"
+    "labels": "sm pa_p: L'I:LA STt\"O:LAR Bb'Ä32S 'IN 'I: S'A:LE0N"
   },
   {
     "smp": "fp2047/fp2047.1.15.smp",
@@ -2499,7 +2499,7 @@
     "smp": "fp2065/fp2065.11.03.smp",
     "text": "XinandX jag vill åka på fredag",
     "phoneme": "pa J'A:G+ V'IL+ \"Å:K'A P'Å:+ FR'E:DA",
-    "labels": "pa p: J'A: V'IL \"Å:KkA Pp'Å: FR'E:DdA:g"
+    "labels": "pa_p: J'A: V'IL \"Å:KkA Pp'Å: FR'E:DdA:g"
   },
   {
     "smp": "fp2065/fp2065.pr.05.smp",
@@ -2511,7 +2511,7 @@
     "smp": "fp2065/fp2065.1.02.smp",
     "text": "XharklingX klockan är nu XinandX ungefär halv 4 när går nästa båt till vaxholm",
     "phoneme": "ha KL\"ÅK'AN+ 'Ä3R+ N'U: UNJEF'Ä3R H'ALV F\"Y:R'A N'Ä3R+ G'Å:R N\"ÄST'A B'Å:T T'IL+ V\"AKShyH'ÅLM",
-    "labels": "ha p:pap: KkL\"ÅKkAN 'Ä3 2N'U: pa p: UNGEF'Ä3R H'AL F\"Y:RA p: N'Ä3R Gg'Å:R p: N\"ÄSTtA Bb'Å: Tt'IL V\"AKkS#H`ÅLM"
+    "labels": "ha p:pap: KkL\"ÅKkAN 'Ä3 2N'U: pa_p: UNGEF'Ä3R H'AL F\"Y:RA p: N'Ä3R Gg'Å:R p: N\"ÄSTtA Bb'Å: Tt'IL V\"AKkS#H`ÅLM"
   },
   {
     "smp": "fp2065/fp2065.1.03.smp",
@@ -2523,7 +2523,7 @@
     "smp": "fp2065/fp2065.15.05.smp",
     "text": "XinandX slut",
     "phoneme": "SL'U:T",
-    "labels": "pa p: SL'U:Tt"
+    "labels": "pa_p: SL'U:Tt"
   },
   {
     "smp": "fp2065/fp2065.11.02.smp",
@@ -2541,13 +2541,13 @@
     "smp": "fp2065/fp2065.1.01.smp",
     "text": "jag vill åka från XutandX stockholm",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A FR'Å:N+pa ST\"ÅKhy'ÅLM",
-    "labels": "J'A: V'IL \"Å:KkA FR'Å:N pap: pa p: STt\"ÅKk#H`ÅM"
+    "labels": "J'A: V'IL \"Å:KkA FR'Å:N pap: pa_p: STt\"ÅKk#H`ÅM"
   },
   {
     "smp": "fp2065/fp2065.1.08.smp",
     "text": "XinandX hur många båtar går till vaxholm mellan 15 och 17",
     "phoneme": "pa,H'U:R+ M\"ÅNG'A B\"Å:T'AR G'Å:R T'IL+ V\"AKShyH'ÅLM M\"EL'AN F\"EMT'ÅN 'Å:+ SJ\"UT'ÅN",
-    "labels": "pa p: H'U:R M\"ÅNGA Bb\"Å:TtAR Gg'Å: Tt'IL p: V\"AKkS#H`ÅLM M\"ELAN F\"EMTtÅN 'Å p: SJ\"UTtÅN"
+    "labels": "pa_p: H'U:R M\"ÅNGA Bb\"Å:TtAR Gg'Å: Tt'IL p: V\"AKkS#H`ÅLM M\"ELAN F\"EMTtÅN 'Å p: SJ\"UTtÅN"
   },
   {
     "smp": "fp2065/fp2065.pr.06.smp",
@@ -2559,7 +2559,7 @@
     "smp": "fp2065/fp2065.11.00.smp",
     "text": "XinandX var finns camping",
     "phoneme": "pa V'A:R+ F'INS K'AMPING",
-    "labels": "pa p: V'A:R F'INS Kk'AMPpING"
+    "labels": "pa_p: V'A:R F'INS Kk'AMPpING"
   },
   {
     "smp": "fp2065/fp2065.1.09.smp",
@@ -2583,7 +2583,7 @@
     "smp": "fp2065/fp2065.1.00.smp",
     "text": "XinandX när går båtarna till vaxholm ikväll",
     "phoneme": "pa N'Ä3R+ G'Å:R B\"Å:TA2N'A T'IL+ V\"AKShyH'ÅLM IKV'ÄL",
-    "labels": "pa p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA Tt'IL V\"AKkS#H`ÅLM IKkV'ÄL"
+    "labels": "pa_p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA Tt'IL V\"AKkS#H`ÅLM IKkV'ÄL"
   },
   {
     "smp": "fp2065/fp2065.1.10.smp",
@@ -2607,7 +2607,7 @@
     "smp": "fp2065/fp2065.15.02.smp",
     "text": "XsmackX XinandX jag vill åka från värmdö",
     "phoneme": "sm J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ V\"Ä4RMDhy'Ö:",
-    "labels": "sm pa p: J'A: V'IL \"Å:KkA FR'Å:N V\"Ä4RMDd#`Ö:"
+    "labels": "sm pa_p: J'A: V'IL \"Å:KkA FR'Å:N V\"Ä4RMDd#`Ö:"
   },
   {
     "smp": "fp2065/fp2065.1.04.smp",
@@ -2625,7 +2625,7 @@
     "smp": "fp2065/fp2065.15.00.smp",
     "text": "XinandX var ligger XklickX lådna någonstans",
     "phoneme": "pa V'A:R+ L'IGÄ4R L\"ÅDN'A NÅNST'ANS",
-    "labels": "pa p: V'A:R 2L'IGgE0R p: kl p: L\"Å:DdNA p: NÅNSTt'ANS"
+    "labels": "pa_p: V'A:R 2L'IGgE0R p: kl p: L\"Å:DdNA p: NÅNSTt'ANS"
   },
   {
     "smp": "fp2065/fp2065.pr.08.smp",
@@ -2679,7 +2679,7 @@
     "smp": "fp2062/fp2062.13.01.smp",
     "text": "XinandX ifrån lillsved",
     "phoneme": "pa IFR'Å:N L'ILSVE:D",
-    "labels": "pa p: IFR'Å:N L'ILSVE:Dd"
+    "labels": "pa_p: IFR'Å:N L'ILSVE:Dd"
   },
   {
     "smp": "fp2062/fp2062.1.03.smp",
@@ -2697,7 +2697,7 @@
     "smp": "fp2062/fp2062.14.02.smp",
     "text": "XinandX idag",
     "phoneme": "pa ID'A:G",
-    "labels": "pa p: IDd'A:Gg"
+    "labels": "pa_p: IDd'A:Gg"
   },
   {
     "smp": "fp2062/fp2062.pr.05.smp",
@@ -2709,7 +2709,7 @@
     "smp": "fp2062/fp2062.1.11.smp",
     "text": "XinandX tack",
     "phoneme": "pa T'AK",
-    "labels": "pa p: Tt'AKk"
+    "labels": "pa_p: Tt'AKk"
   },
   {
     "smp": "fp2062/fp2062.1.01.smp",
@@ -2721,7 +2721,7 @@
     "smp": "fp2062/fp2062.13.02.smp",
     "text": "XinandX en lördag",
     "phoneme": "pa 'EN+ L'Ö32DA",
-    "labels": "pa p: 'EN L'Ö32DdAGg"
+    "labels": "pa_p: 'EN L'Ö32DdAGg"
   },
   {
     "smp": "fp2062/fp2062.pr.07.smp",
@@ -2733,7 +2733,7 @@
     "smp": "fp2062/fp2062.1.08.smp",
     "text": "XinandX idag",
     "phoneme": "pa ID'A:G",
-    "labels": "pa p: IDd'A:Gg"
+    "labels": "pa_p: IDd'A:Gg"
   },
   {
     "smp": "fp2062/fp2062.14.00.smp",
@@ -2745,7 +2745,7 @@
     "smp": "fp2062/fp2062.1.09.smp",
     "text": "XinandX 18 och 30",
     "phoneme": "pa \"A:2T'ÅN 'Å:+ TR\"ET'I",
-    "labels": "pa p: \"A:2TtÅN 'Å: TtR\"ETtI"
+    "labels": "pa_p: \"A:2TtÅN 'Å: TtR\"ETtI"
   },
   {
     "smp": "fp2062/fp2062.pr.06.smp",
@@ -2757,7 +2757,7 @@
     "smp": "fp2062/fp2062.14.01.smp",
     "text": "XsmackX XinandX när går båtarna från ramsöberg till stockholm",
     "phoneme": "sm N'Ä3R+ G'Å:R B\"Å:TA2N'A FR'Å:N+ RAMSÖ:B'Ä4RJ T'IL+ ST\"ÅKhy'ÅLM",
-    "labels": "sm pa p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:Nv RAMSÖ:Bb'Ä4J Tt'IL STt\"ÅKk#H`ÅLM"
+    "labels": "sm pa_p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:Nv RAMSÖ:Bb'Ä4J Tt'IL STt\"ÅKk#H`ÅLM"
   },
   {
     "smp": "fp2062/fp2062.1.00.smp",
@@ -2775,7 +2775,7 @@
     "smp": "fp2062/fp2062.13.03.smp",
     "text": "XinandX en fredag",
     "phoneme": "pa 'EN+ FR'E:DA",
-    "labels": "pa p: 'EN FR'E:DdA:g"
+    "labels": "pa_p: 'EN FR'E:DdA:g"
   },
   {
     "smp": "fp2062/fp2062.13.06.smp",
@@ -2787,13 +2787,13 @@
     "smp": "fp2062/fp2062.1.05.smp",
     "text": "XinandX jag vill åka 18 och 30",
     "phoneme": "pa J'A:G+ V'IL+ \"Å:K'A \"A:2T'ÅN 'Å:+ TR\"ET'I",
-    "labels": "pa p: J'A: V'IL \"Å:KkA \"A:2TtÅN 'Å: TtR\"ETtI"
+    "labels": "pa_p: J'A: V'IL \"Å:KkA \"A:2TtÅN 'Å: TtR\"ETtI"
   },
   {
     "smp": "fp2062/fp2062.13.07.smp",
     "text": "XinandX tack",
     "phoneme": "pa T'AK",
-    "labels": "pa p: Tt'AKk"
+    "labels": "pa_p: Tt'AKk"
   },
   {
     "smp": "fp2062/fp2062.1.04.smp",
@@ -2811,7 +2811,7 @@
     "smp": "fp2062/fp2062.13.05.smp",
     "text": "XinandX när går båtarna från lillsved till finnhamn",
     "phoneme": "pa N'Ä3R+ G'Å:R B\"Å:TA2N'A FR'Å:N+ L'ILSVE:D T'IL+ F\"INhyH'AMN",
-    "labels": "pa p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:N L'ILSVE:D Tt'IL F\"IN#H`AMN"
+    "labels": "pa_p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:N L'ILSVE:D Tt'IL F\"IN#H`AMN"
   },
   {
     "smp": "fp2062/fp2062.pr.09.smp",
@@ -2823,19 +2823,19 @@
     "smp": "fp2062/fp2062.1.06.smp",
     "text": "XsmackX XinandX från stockholm",
     "phoneme": "sm pa FR'Å:N+ ST\"ÅKhy'ÅLM",
-    "labels": "sm pa p: FR'Å:N STt\"ÅKk#`ÅLM"
+    "labels": "sm pa_p: FR'Å:N STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2062/fp2062.13.04.smp",
     "text": "XinandX var ligger finnhamn",
     "phoneme": "pa V'A:R+ L'IGÄ4R F\"INhyH'AMN",
-    "labels": "pa p: V'A:R 2L'IGgE0R F\"IN#H`AMN"
+    "labels": "pa_p: V'A:R 2L'IGgE0R F\"IN#H`AMN"
   },
   {
     "smp": "fp2062/fp2062.1.07.smp",
     "text": "XinandX till vaxholm",
     "phoneme": "pa T'IL+ V\"AKShyH'ÅLM",
-    "labels": "pa p: Tt'I V\"AKkS#H`ÅLM"
+    "labels": "pa_p: Tt'I V\"AKkS#H`ÅLM"
   },
   {
     "smp": "fp2062/fp2062.pr.08.smp",
@@ -2931,7 +2931,7 @@
     "smp": "fp2054/fp2054.15.04.smp",
     "text": "XinandX tack",
     "phoneme": "pa T'AK",
-    "labels": "pa p: Tt'AKk"
+    "labels": "pa_p: Tt'AKk"
   },
   {
     "smp": "fp2054/fp2054.1.04.smp",
@@ -2961,13 +2961,13 @@
     "smp": "fp2054/fp2054.16.03.smp",
     "text": "XinandX kan du ge mig ett förslag på hur jag kommer från stockholm till finnhamn via staveström idag",
     "phoneme": "pa K'AN+ D'U:+ J'E: M'EJ+ 'ET+ FÖ42S2L'A:G P'Å:+,H'U:R+ J'A:G+ K'ÅMÄ4R+ FR'Å:N+ ST\"ÅKhy'ÅLM T'IL+ F\"INhyH'AMN V\"I:'A STA:VESTR'ÖM ID'A:G",
-    "labels": "pa p: Kk'AN Dd'U: J'E: M'EJ 'ETt FÖ42S2L'A:G Pp'Å: H'U:R J'A: Kk'ÅME0 FR'Å:N STt\"ÅKk#`ÅLM Tt'IL F\"IN#H`AMN V\"I:A STtA:VESTtR'ÖM IDd'A:Gg"
+    "labels": "pa_p: Kk'AN Dd'U: J'E: M'EJ 'ETt FÖ42S2L'A:G Pp'Å: H'U:R J'A: Kk'ÅME0 FR'Å:N STt\"ÅKk#`ÅLM Tt'IL F\"IN#H`AMN V\"I:A STtA:VESTtR'ÖM IDd'A:Gg"
   },
   {
     "smp": "fp2054/fp2054.16.02.smp",
     "text": "XinandX när går det en båt från staveström till finnhamn idag då",
     "phoneme": "pa N'Ä3R+ G'Å:R D'E:T+ 'EN+ B'Å:T FR'Å:N+ STA:VESTR'ÖM T'IL+ F\"INhyH'AMN ID'A:G D'Å:+",
-    "labels": "pa p: N'Ä3R Gg'Å:R 'E 'EM Bb'Å:Tt FR'Å:N STt\"A:VE0#STtR`ÖM Tt'IL F\"IN#H`AM IDd'A: Dd'Å:"
+    "labels": "pa_p: N'Ä3R Gg'Å:R 'E 'EM Bb'Å:Tt FR'Å:N STt\"A:VE0#STtR`ÖM Tt'IL F\"IN#H`AM IDd'A: Dd'Å:"
   },
   {
     "smp": "fp2054/fp2054.pr.06.smp",
@@ -2991,7 +2991,7 @@
     "smp": "fp2053/fp2053.1.12.smp",
     "text": "XinandX när går sista båten",
     "phoneme": "pa N'Ä3R+ G'Å:R S\"IST'A B'Å:TEN",
-    "labels": "pa p: N'Ä3 Gg'Å:R 2S\"ISTtA Bb'Å:TtE0N"
+    "labels": "pa_p: N'Ä3 Gg'Å:R 2S\"ISTtA Bb'Å:TtE0N"
   },
   {
     "smp": "fp2053/fp2053.14.05.smp",
@@ -3015,13 +3015,13 @@
     "smp": "fp2053/fp2053.1.03.smp",
     "text": "XinandX XtvekX vid 5 tiden ungefär",
     "phoneme": "pa öh V'I:D+ F'EM T'I:DEN UNJEF'Ä3R",
-    "labels": "pa p: öh V'I: F'EM Tt'I:DdE0N UNGEF'Ä3R"
+    "labels": "pa_p: öh V'I: F'EM Tt'I:DdE0N UNGEF'Ä3R"
   },
   {
     "smp": "fp2053/fp2053.14.04.smp",
     "text": "XinandX på morgonen",
     "phoneme": "pa P'Å:+ M\"ÅR'ÅNEN",
-    "labels": "pa p: Pp'Å: M\"ÅRÅNE0N"
+    "labels": "pa_p: Pp'Å: M\"ÅRÅNE0N"
   },
   {
     "smp": "fp2053/fp2053.pr.08.smp",
@@ -3039,7 +3039,7 @@
     "smp": "fp2053/fp2053.15.00.smp",
     "text": "XinandX var ligger lådna",
     "phoneme": "pa V'A:R+ L'IGÄ4R L\"ÅDN'A",
-    "labels": "pa p: V'A:R 2L'IGgE0R L\"Å:DdNA"
+    "labels": "pa_p: V'A:R 2L'IGgE0R L\"Å:DdNA"
   },
   {
     "smp": "fp2053/fp2053.14.06.smp",
@@ -3057,7 +3057,7 @@
     "smp": "fp2053/fp2053.1.01.smp",
     "text": "XinandX från stockholms innerstad",
     "phoneme": "pa FR'Å:N+ ST\"ÅKhy'ÅLMS \"INE0hy2S2T`A:D",
-    "labels": "pa p: FR'Å:N STt\"ÅKk#`ÅLMS \"INE0#2S2Tt`A:Dd"
+    "labels": "pa_p: FR'Å:N STt\"ÅKk#`ÅLMS \"INE0#2S2Tt`A:Dd"
   },
   {
     "smp": "fp2053/fp2053.1.11.smp",
@@ -3087,7 +3087,7 @@
     "smp": "fp2053/fp2053.1.00.smp",
     "text": "XinandX jag skulle vilja åka till vaxholm ikväll",
     "phoneme": "pa J'A:G+ SK\"UL'E+ V\"ILJ'A+ \"Å:K'A T'IL+ V\"AKShyH'ÅLM IKV'ÄL",
-    "labels": "pa p: J'A: SKk\"ULE0 V\"ILJA \"Å:KkA Tt'I V\"AKkS#H`ÅLM IKkV'ÄL"
+    "labels": "pa_p: J'A: SKk\"ULE0 V\"ILJA \"Å:KkA Tt'I V\"AKkS#H`ÅLM IKkV'ÄL"
   },
   {
     "smp": "fp2053/fp2053.pr.10.smp",
@@ -3129,7 +3129,7 @@
     "smp": "fp2053/fp2053.1.15.smp",
     "text": "XinandX går det någon båt efter klockan 19",
     "phoneme": "pa G'Å:R D'E:T+ N\"Å:G'ÅN+ B'Å:T 'EFTÄ4R+ KL\"ÅK'AN+ N\"IT'ÅN",
-    "labels": "pa p: Gg'Å: 2Dd'E N'ÅM Bb'Å:Tt p: 'EFTtE0R KkL\"ÅKkAN N\"ITtÅN"
+    "labels": "pa_p: Gg'Å: 2Dd'E N'ÅM Bb'Å:Tt p: 'EFTtE0R KkL\"ÅKkAN N\"ITtÅN"
   },
   {
     "smp": "fp2053/fp2053.pr.05.smp",
@@ -3165,7 +3165,7 @@
     "smp": "fp2053/fp2053.1.04.smp",
     "text": "XinandX efter klockan 17",
     "phoneme": "pa 'EFTÄ4R+ KL\"ÅK'AN+ SJ\"UT'ÅN",
-    "labels": "pa p: 'EFTtE0 KkL\"ÅKkAN SJ\"UTtÅN"
+    "labels": "pa_p: 'EFTtE0 KkL\"ÅKkAN SJ\"UTtÅN"
   },
   {
     "smp": "fp2053/fp2053.15.05.smp",
@@ -3189,13 +3189,13 @@
     "smp": "fp2053/fp2053.1.16.smp",
     "text": "XinandX tack så mycket",
     "phoneme": "pa T'AK S'Å:+ M\"YK'E0T",
-    "labels": "pa p: Tt'AKk S'Å: M\"YKkE0"
+    "labels": "pa_p: Tt'AKk S'Å: M\"YKkE0"
   },
   {
     "smp": "fp2053/fp2053.14.01.smp",
     "text": "XinandX från strömkajen",
     "phoneme": "pa FR'Å:N+ STR\"ÖMhyK'AJEN",
-    "labels": "pa p: FR'Å:N STtR\"ÖM#Kk`AJE0N"
+    "labels": "pa_p: FR'Å:N STtR\"ÖM#Kk`AJE0N"
   },
   {
     "smp": "fp2053/fp2053.15.07.smp",
@@ -3207,7 +3207,7 @@
     "smp": "fp2053/fp2053.14.08.smp",
     "text": "XinandX när går båtarna från ramsöberg till stockholm på en tisdag",
     "phoneme": "pa N'Ä3R+ G'Å:R B\"Å:TA2N'A FR'Å:N+ RAMSÖ:B'Ä4RJ T'IL+ ST\"ÅKhy'ÅLM P'Å:+ 'EN+ T'I:SDA",
-    "labels": "pa p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:N RAMSÖ:Bb'Ä4RJ p: Tt'IL p: STt\"ÅKk#`ÅLM p: Pp'Å: 'EN Tt'I:SDdA"
+    "labels": "pa_p: N'Ä3R Gg'Å:R Bb\"Å:TtA2NA FR'Å:N RAMSÖ:Bb'Ä4RJ p: Tt'IL p: STt\"ÅKk#`ÅLM p: Pp'Å: 'EN Tt'I:SDdA"
   },
   {
     "smp": "fp2053/fp2053.14.09.smp",
@@ -3237,7 +3237,7 @@
     "smp": "fp2053/fp2053.15.06.smp",
     "text": "XinandX går det båtar från sollenkroka till lådna",
     "phoneme": "pa G'Å:R D'E:T+ B\"Å:T'AR FR'Å:N+ S\"ÅLENhyKR'O:KA T'IL+ L\"ÅDN'A",
-    "labels": "pa p: Gg'Å: 2Dd'E: Bb\"Å:TtAR FR'Å:N S\"ÅLE0N#KkR`O:KkA Tt'I L\"Å:DdNA"
+    "labels": "pa_p: Gg'Å: 2Dd'E: Bb\"Å:TtAR FR'Å:N S\"ÅLE0N#KkR`O:KkA Tt'I L\"Å:DdNA"
   },
   {
     "smp": "fp2038/fp2038.pr.04.smp",
@@ -3789,13 +3789,13 @@
     "smp": "fp2036/fp2036.pr.06.smp",
     "text": "XsmackX XinandX Fortkörning är värre än mord, sa konstapel Thörnhjort",
     "phoneme": "F\"O:2ThyTJ'Ö32NING 'Ä3R+ V'Ä4RE 'ÄN+ M'O:2D,S'A: KÅNST'A:PEL T\"Ö32NhyJ'O:2T",
-    "labels": "sm pa p: F\"O:2Tt#TJ`Ö32NING 'Ä3R V'Ä4RE0 'ÄN M'O:2Dd p: S'A: KkÅNSTt'A:PpE0L p: Tt\"Ö32Nvp:#J`O2Tt"
+    "labels": "sm pa_p: F\"O:2Tt#TJ`Ö32NING 'Ä3R V'Ä4RE0 'ÄN M'O:2Dd p: S'A: KkÅNSTt'A:PpE0L p: Tt\"Ö32Nvp:#J`O2Tt"
   },
   {
     "smp": "fp2036/fp2036.3.00.smp",
     "text": "XsmackX XinandX ja hejsan jag undrar var i stockholms skärgård som gällnö ligger",
     "phoneme": "J'A: H\"EJS'AN J'A:G+ \"UNDR'AR V'A:R+ 'I:+ ST\"ÅKhy'ÅLMS SJ\"Ä3RhyG'Å:2D S'ÅM+ J\"ÄLhyN'Ö: L'IGÄ4R",
-    "labels": "sm pa p: J'A: H'EJSAN J'A: \"UNDdRAR p:pap: V'A:R p: 'I: STt\"ÅKk#`ÅMS SJ'Ä3GgÅ:R 2S'ÅM J\"ÄL#N`Ö: L'IGgE0R"
+    "labels": "sm pa_p: J'A: H'EJSAN J'A: \"UNDdRAR p:pap: V'A:R p: 'I: STt\"ÅKk#`ÅMS SJ'Ä3GgÅ:R 2S'ÅM J\"ÄL#N`Ö: L'IGgE0R"
   },
   {
     "smp": "fp2036/fp2036.7.07.smp level: -21",
@@ -3825,7 +3825,7 @@
     "smp": "fp2036/fp2036.1.02.smp",
     "text": "XinandX XtvekX jag vill åka ifrån kajen utanför grand_hotell i stockholm",
     "phoneme": "pa öh J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ K'AJEN \"U:TANhyF'Ö3R GR'AND~H'O:TEL 'I:+ ST\"ÅKhy'ÅLM",
-    "labels": "pa p: öh p: J'A: V'IL \"Å:KkA IFR'Å:NG Kk'AJE0N p: \"U:TtAN#F`Ö3 GgR'ANDd~H'O:TtELv p: 'I: STt\"ÅKk#`ÅLM"
+    "labels": "pa_p: öh p: J'A: V'IL \"Å:KkA IFR'Å:NG Kk'AJE0N p: \"U:TtAN#F`Ö3 GgR'ANDd~H'O:TtELv p: 'I: STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2036/fp2036.pr.07.smp",
@@ -3903,7 +3903,7 @@
     "smp": "fp2036/fp2036.7.00.smp",
     "text": "XinandX hej XtvekX jag skulle vilja åka ut i skärgården och bo på vandrarhem XsmackX jag undrar var",
     "phoneme": "H'EJ öh J'A:G+ SK\"UL'E+ V\"ILJ'A+ \"Å:K'A 'U:T 'I:+ SJ'Ä3RGÅ:2N 'Å:+ B'O: P'Å:+ V\"ANDRARhyH'EM sm J'A:G+ \"UNDR'AR V'A:R+",
-    "labels": "pa p: H'EJ p: öh J'A:Gg p: SKk\"ULE0 V\"ILJA \"Å:KkA 'U:Tt 'I: SJ'Ä3GgÅ:2N p: 'ÅKk p: B'O: Pp'Å: V\"ANDdRAR#H`EMv p: sm p: J'A: \"UNDdRAR V'A:"
+    "labels": "pa_p: H'EJ p: öh J'A:Gg p: SKk\"ULE0 V\"ILJA \"Å:KkA 'U:Tt 'I: SJ'Ä3GgÅ:2N p: 'ÅKk p: B'O: Pp'Å: V\"ANDdRAR#H`EMv p: sm p: J'A: \"UNDdRAR V'A:"
   },
   {
     "smp": "fp2036/fp2036.pr.11.smp",
@@ -3957,7 +3957,7 @@
     "smp": "fp2036/fp2036.pr.09.smp",
     "text": "Sprakande fyrverkeripjäser exploderade över oss",
     "phoneme": "SPR\"A:K'ANDE F\"Y:RhyVÄ4RKÄ4RIhyPJ'Ä:SÄ4R EKSPLÅD'E:RADE 'Ö:VÄ4R 'ÅS+",
-    "labels": "pa p: SPpR\"A:KkANDdE0 F'YRKk p: FY:RVÄ4RKkÄ4R\"I:#PpJ`Ä:SE0R EKkSPpLÅDd'E:RADdE0 p: 'Ö:VE0R 'ÅS"
+    "labels": "pa_p: SPpR\"A:KkANDdE0 F'YRKk p: FY:RVÄ4RKkÄ4R\"I:#PpJ`Ä:SE0R EKkSPpLÅDd'E:RADdE0 p: 'Ö:VE0R 'ÅS"
   },
   {
     "smp": "fp2036/fp2036.1.07.smp",
@@ -4011,7 +4011,7 @@
     "smp": "fp2031/fp2031.1.03.smp",
     "text": "från nybrokajen",
     "phoneme": "FR'Å:N+ N\"Y:hyBROK'AJEN",
-    "labels": "FR'Å:N pa p: N\"Y:BbRO#Kk`AJE0N"
+    "labels": "FR'Å:N pa_p: N\"Y:BbRO#Kk`AJE0N"
   },
   {
     "smp": "fp2031/fp2031.1.24.smp",
@@ -4071,7 +4071,7 @@
     "smp": "fp2031/fp2031.1.01.smp",
     "text": "XsmackX XinandX när går båtarna till vaxholm ikväll",
     "phoneme": "N'Ä3R+ G'Å:R B\"Å:TA2N'A T'IL+ V\"AKShyH'ÅLM IKV'ÄL",
-    "labels": "sm pa p: N'Ä3R p: Gg'Å:R Bb\"Å:TtA2NA Tt'I V\"AKkS`ÅLM p: IKkV'ÄL"
+    "labels": "sm pa_p: N'Ä3R p: Gg'Å:R Bb\"Å:TtA2NA Tt'I V\"AKkS`ÅLM p: IKkV'ÄL"
   },
   {
     "smp": "fp2031/fp2031.1.11.smp",
@@ -4203,7 +4203,7 @@
     "smp": "fp2031/fp2031.5.00.smp",
     "text": "när går XutandX en båt till vegabryggan",
     "phoneme": "N'Ä3R+ G'Å:R 'EN+ B'Å:T T'IL+ V\"E:GAhyBR'YGAN",
-    "labels": "N'Ä3R pap: Gg'Å:R pa p: 'EN Bb'Å:Tt p: Tt'ILv V\"E:GgA#BbR`YGgAN"
+    "labels": "N'Ä3R pap: Gg'Å:R pa_p: 'EN Bb'Å:Tt p: Tt'ILv V\"E:GgA#BbR`YGgAN"
   },
   {
     "smp": "fp2031/fp2031.2.02.smp",
@@ -5487,7 +5487,7 @@
     "smp": "fp2001/fp2001.6.00.smp",
     "text": "XinandX XtvekX visa hotelltabellen igen tack",
     "phoneme": "V\"I:S'A HOT\"ELhyTAB'ELEN IJ'EN,T'AK",
-    "labels": "pa p: öh V\"I:SA OTt\"EL#TtAB`ELE0N J'EN Tt'AKk"
+    "labels": "pa_p: öh V\"I:SA OTt\"EL#TtAB`ELE0N J'EN Tt'AKk"
   },
   {
     "smp": "fp2007/fp2007.pr.04.smp",
@@ -5499,7 +5499,7 @@
     "smp": "fp2001/fp2001.2.17.smp",
     "text": "XsmackX XinandX när går de åt andra hållet på söndag",
     "phoneme": "N'Ä3R+ G'Å:R D'OM 'Å:T+ \"ANDR'A H'ÅLET P'Å:+ S'ÖNDA",
-    "labels": "sm pa p: N'Ä3R G'Å:R 'ÅM 'Å:Tt \"ANDdRA H'ÅLE0Tt Pp'Å: S'ÖNDA"
+    "labels": "sm pa_p: N'Ä3R G'Å:R 'ÅM 'Å:Tt \"ANDdRA H'ÅLE0Tt Pp'Å: S'ÖNDA"
   },
   {
     "smp": "fp2001/fp2001.2.07.smp",
@@ -5619,7 +5619,7 @@
     "smp": "fp2001/fp2001.1.05.smp",
     "text": "XsmackX XinandX vilka båtar går från slussen till vaxholm idag",
     "phoneme": "V\"ILK'A B\"Å:T'AR G'Å:R FR'Å:N+ SL'USEN T'IL+ V\"AKShyH'ÅLM ID'A:G",
-    "labels": "sm p: pa p: V\"ILKkA Bb\"Å:TtAR G'Å:R FR'Å: SL'USE0N Tt'I V\"AKkS#H`ÅLM IDd'A:G"
+    "labels": "sm p: pa_p: V\"ILKkA Bb\"Å:TtAR G'Å:R FR'Å: SL'USE0N Tt'I V\"AKkS#H`ÅLM IDd'A:G"
   },
   {
     "smp": "fp2001/fp2001.2.18.smp",
@@ -5631,7 +5631,7 @@
     "smp": "fp2001/fp2001.2.08.smp",
     "text": "XinandX på fredag kväll",
     "phoneme": "P'Å:+ FR'E:DA KV'ÄL",
-    "labels": "pa p: Pp'Å: FR'E:DA KkV'ÄL"
+    "labels": "pa_p: Pp'Å: FR'E:DA KkV'ÄL"
   },
   {
     "smp": "fp2001/fp2001.1.04.smp",
@@ -5721,7 +5721,7 @@
     "smp": "fp2039/fp2039.1.04.smp",
     "text": "XsmackX XinandX jag skulle vilja åka från fjäderholmarna",
     "phoneme": "J'A:G+ SK\"UL'E+ V\"ILJ'A+ \"Å:K'A FR'Å:N+ FJ\"Ä:DÄ4RhyH'ÅLMA2NA",
-    "labels": "sm pa p: J'A: SKk\"ULE0 V\"ILJA \"Å:KkA p: FR'Å:N FJ\"Ä:DdE0R#H`ÅLMA2NA"
+    "labels": "sm pa_p: J'A: SKk\"ULE0 V\"ILJA \"Å:KkA p: FR'Å:N FJ\"Ä:DdE0R#H`ÅLMA2NA"
   },
   {
     "smp": "fp2039/fp2039.1.14.smp",
@@ -5865,7 +5865,7 @@
     "smp": "fp2039/fp2039.12.26.smp",
     "text": "XinandX går det att bo på dalarö",
     "phoneme": "G'Å:R D'E:T+ 'AT+ B'O: P'Å:+ D\"A:LARhy'Ö:",
-    "labels": "pa p: Gg'Å:R 2D'E:Tt 'ATt Bb'O: Pp'Å: Dd\"A:LAR#`Ö:"
+    "labels": "pa_p: Gg'Å:R 2D'E:Tt 'ATt Bb'O: Pp'Å: Dd\"A:LAR#`Ö:"
   },
   {
     "smp": "fp2039/fp2039.12.19.smp",
@@ -5991,7 +5991,7 @@
     "smp": "fp2039/fp2039.13.02.smp",
     "text": "XinandX bullerö",
     "phoneme": "B\"ULERhy'Ö:",
-    "labels": "pa p: Bb\"ULER#`Ö:"
+    "labels": "pa_p: Bb\"ULER#`Ö:"
   },
   {
     "smp": "fp2039/fp2039.1.00.smp",
@@ -6099,7 +6099,7 @@
     "smp": "fp2039/fp2039.12.21.smp",
     "text": "XsmackX XinandX jag skulle vilja övernatta i brevik",
     "phoneme": "J'A:G+ SK\"UL'E+ V\"ILJ'A+ \"Ö:VÄ4RhyN'ATA 'I:+ BREV'I:K",
-    "labels": "sm pa p: J'A: SKk\"ULE0 V\"ILJA \"Ö:VE0#2N`ATtA 'I: BbR'E:VI:Kk"
+    "labels": "sm pa_p: J'A: SKk\"ULE0 V\"ILJA \"Ö:VE0#2N`ATtA 'I: BbR'E:VI:Kk"
   },
   {
     "smp": "fp2039/fp2039.12.31.smp",
@@ -6483,7 +6483,7 @@
     "smp": "fp2045/fp2045.pr.07.smp",
     "text": "XinandX Det var kyligt i luften och stjärnorna skimrade",
     "phoneme": "D'E:T+ V'A:R+ TJ\"Y:L'IGT 'I:+ L'UFTEN 'Å:+ SJ\"Ä32N'O2NA SJ\"IMR'ADE",
-    "labels": "pa p: Dd'E:Tt V'A: TJ\"Y:LITt 'I: L'UFTtE0N pa p: 'Å: 2S\"Ä32NO2NA 2S\"IMRADdE0"
+    "labels": "pa_p: Dd'E:Tt V'A: TJ\"Y:LITt 'I: L'UFTtE0N pa_p: 'Å: 2S\"Ä32NO2NA 2S\"IMRADdE0"
   },
   {
     "smp": "fp2045/fp2045.pr.06.smp",
@@ -6501,7 +6501,7 @@
     "smp": "fp2045/fp2045.1.07.smp",
     "text": "XinandX jag vill åka ifrån nybrokajen",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A IFR'Å:N N\"Y:hyBROK'AJEN",
-    "labels": "pa p: J'A:Gg V'IL \"Å:KkA IFR'Å:N N\"Y:BbRO#Kk`AJE0N"
+    "labels": "pa_p: J'A:Gg V'IL \"Å:KkA IFR'Å:N N\"Y:BbRO#Kk`AJE0N"
   },
   {
     "smp": "fp2045/fp2045.12.05.smp",
@@ -6519,7 +6519,7 @@
     "smp": "fp2045/fp2045.13.08.smp",
     "text": "XinandX jag vill åka på onsdag",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A P'Å:+ 'ONSDA",
-    "labels": "pa p: J'A:Gg V'IL \"Å:KkA Pp'Å: p: 'ONSDdA:Gg"
+    "labels": "pa_p: J'A:Gg V'IL \"Å:KkA Pp'Å: p: 'ONSDdA:Gg"
   },
   {
     "smp": "fp2045/fp2045.pr.04.smp",
@@ -6543,7 +6543,7 @@
     "smp": "fp2045/fp2045.13.11.smp",
     "text": "onsdag vill jag åka",
     "phoneme": "'ONSDA V'IL+ J'A:G+ \"Å:K'A",
-    "labels": "sm p: 'ONSDdA:Gg pa p: V'IL J'A: \"Å:KkA"
+    "labels": "sm p: 'ONSDdA:Gg pa_p: V'IL J'A: \"Å:KkA"
   },
   {
     "smp": "fp2045/fp2045.12.07.smp",
@@ -6645,7 +6645,7 @@
     "smp": "fp2045/fp2045.12.02.smp",
     "text": "XsmackX XinandX kan man bo på ornöboda XutandX",
     "phoneme": "K'AN+ M'AN+ B'O: P'Å:+ \"O:2NÖ:hyB'O:DA",
-    "labels": "sm pa p: Kk'A M'AM Bb'O: Pp'Å: p: \"O:2NÖ:#Bb`O:DdA pa"
+    "labels": "sm pa_p: Kk'A M'AM Bb'O: Pp'Å: p: \"O:2NÖ:#Bb`O:DdA pa"
   },
   {
     "smp": "fp2045/fp2045.1.00.smp",
@@ -6663,7 +6663,7 @@
     "smp": "fp2045/fp2045.13.04.smp",
     "text": "XinandX jag vill åka ifrån stockholm",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A IFR'Å:N ST\"ÅKhy'ÅLM",
-    "labels": "pa p: J'A:Gg V'IL \"Å:KkA IFR'Å:N STt\"ÅKk#`ÅLM"
+    "labels": "pa_p: J'A:Gg V'IL \"Å:KkA IFR'Å:N STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2045/fp2045.13.22.smp",
@@ -6687,13 +6687,13 @@
     "smp": "fp2045/fp2045.12.00.smp",
     "text": "XsmackX XinandX var ligger XutandX kymmendö",
     "phoneme": "V'A:R+ L'IGÄ4R K\"YMENDhy'Ö:",
-    "labels": "sm pa p: V'A:R 2L'IGgE0R pa TJ\"YMENDd#`Ö:"
+    "labels": "sm pa_p: V'A:R 2L'IGgE0R pa TJ\"YMENDd#`Ö:"
   },
   {
     "smp": "fp2045/fp2045.13.06.smp",
     "text": "XinandX var ligger nybrokajen",
     "phoneme": "V'A:R+ L'IGÄ4R N\"Y:hyBROK'AJEN",
-    "labels": "pa p: V'A:Rv 2L'IGgE0 N\"Y:BbRO#Kk`AJE0N"
+    "labels": "pa_p: V'A:Rv 2L'IGgE0 N\"Y:BbRO#Kk`AJE0N"
   },
   {
     "smp": "fp2045/fp2045.13.16.smp",
@@ -6705,7 +6705,7 @@
     "smp": "fp2045/fp2045.1.02.smp",
     "text": "XinandX jag vill åka ifrån tekniska högskolan",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A IFR'Å:N T'EKNISKA H\"Ö:GhySK'O:LAN",
-    "labels": "pa p: J'A:G V'IL \"Å:KkA p: IFR'Å:N Tt'EKkNISKkA H\"Ö:Gg#SKk`O:LAN"
+    "labels": "pa_p: J'A:G V'IL \"Å:KkA p: IFR'Å:N Tt'EKkNISKkA H\"Ö:Gg#SKk`O:LAN"
   },
   {
     "smp": "fp2045/fp2045.13.20.smp",
@@ -6735,13 +6735,13 @@
     "smp": "fp2045/fp2045.13.07.smp",
     "text": "XinandX hur mycket kostar det att åka båt från nybrokajen till söderöra",
     "phoneme": ",H'U:R+ M\"YK'ET K\"ÅST'AR D'E:T+ 'AT+ \"Å:K'A B'Å:T",
-    "labels": "pa p: H'U: M\"YKkE0 Kk\"ÅSTtAR 'E: 'ATt p: \"Å:KkA p: Bb'Å:Tt p: FR'Å:N N\"Y:BbRO#Kk`AJE0N p: Tt'IL p: S\"Ö:DdER#`Ö3RA"
+    "labels": "pa_p: H'U: M\"YKkE0 Kk\"ÅSTtAR 'E: 'ATt p: \"Å:KkA p: Bb'Å:Tt p: FR'Å:N N\"Y:BbRO#Kk`AJE0N p: Tt'IL p: S\"Ö:DdER#`Ö3RA"
   },
   {
     "smp": "fp2045/fp2045.1.03.smp",
     "text": "XinandX jag vill åka ifrån nybrokajen",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A IFR'Å:N N\"Y:hyBROK'AJEN",
-    "labels": "pa p: J'A:Gg p: V'IL \"Å:KkA p: IFR'Å:N N\"Y:BbRO#Kk`AJE0N"
+    "labels": "pa_p: J'A:Gg p: V'IL \"Å:KkA p: IFR'Å:N N\"Y:BbRO#Kk`AJE0N"
   },
   {
     "smp": "fp2020/fp2020.3.04.smp",
@@ -6933,13 +6933,13 @@
     "smp": "fp2027/fp2027.3.05.smp",
     "text": "XsmackX XinandX finns det en campingplats på gällnö XutandX",
     "phoneme": "F'INS D'E:T+ 'EN+ K\"AMPINGhyPL'ATS P'Å:+ J\"ÄLhyN'Ö:",
-    "labels": "sm pa p: F'INS Dd'E 'EN Kk\"AMPpING#PpL`ATtS Pp'Å: J\"ÄL#N`Ö: pa"
+    "labels": "sm pa_p: F'INS Dd'E 'EN Kk\"AMPpING#PpL`ATtS Pp'Å: J\"ÄL#N`Ö: pa"
   },
   {
     "smp": "fp2027/fp2027.1.16.smp",
     "text": "XinandX går det några båtar till vaxholm idag XutandX",
     "phoneme": "G'Å:R D'E:T+ N\"Å:GR'A B\"Å:T'AR T'IL+ V\"AKShyH'ÅLM ID'A:G",
-    "labels": "pa p: Gg'Å:R Dd'E: N\"Å:RA Bb\"Å:TtAR Tt'IL V\"AKkS#H`ÅLM p: IDd'A:Gg pa"
+    "labels": "pa_p: Gg'Å:R Dd'E: N\"Å:RA Bb\"Å:TtAR Tt'IL V\"AKkS#H`ÅLM p: IDd'A:Gg pa"
   },
   {
     "smp": "fp2027/fp2027.1.06.smp",
@@ -7041,7 +7041,7 @@
     "smp": "fp2027/fp2027.3.03.smp",
     "text": "XsmackX XinandX var ligger gällnö",
     "phoneme": "V'A:R+ L'IGÄ4R J\"ÄLhyN'Ö:",
-    "labels": "sm pa p: V'A:R 2L'IGgE0R J\"ÄL#N`Ö:"
+    "labels": "sm pa_p: V'A:R 2L'IGgE0R J\"ÄL#N`Ö:"
   },
   {
     "smp": "fp2027/fp2027.7.04.smp",
@@ -7059,7 +7059,7 @@
     "smp": "fp2027/fp2027.1.09.smp",
     "text": "finns det någon bio i XavbrordX XtvekX XutandX förlåt finns det någon bio i vaxholm",
     "phoneme": "F'INS D'E:T+ N\"Å:G'ÅN+ B\"I:'O 'I:+ ST\"ÅK'ÅLM FÖ42L'Å:T F'INS D'E:T+ N\"Å:G'ÅN+ B\"I:'O 'I:+ V\"AKShyH'ÅLM",
-    "labels": "F'INS Dd'E: N'ÅN Bb'I:O 'I: STt\"ÅKkÅ p: öh pa p: FÖ42L'Å:Tt p: F'INS Dd'E N'ÅM Bb'I:O p: 'I: V\"AKkS`ÅLM"
+    "labels": "F'INS Dd'E: N'ÅN Bb'I:O 'I: STt\"ÅKkÅ p: öh pa_p: FÖ42L'Å:Tt p: F'INS Dd'E N'ÅM Bb'I:O p: 'I: V\"AKkS`ÅLM"
   },
   {
     "smp": "fp2007/fp2007.pr.05.smp",
@@ -7119,7 +7119,7 @@
     "smp": "fp2027/fp2027.1.13.smp",
     "text": "XinandX går det båtar till vaxholm före klockan 17",
     "phoneme": "G'Å:R D'E:T+ B\"Å:T'AR T'IL+ V\"AKShyH'ÅLM F\"Ö3R'E KL\"ÅK'AN+ SJ\"UT'ÅN",
-    "labels": "pa p: Gg'Å:R 2Dd'E: Bb\"Å:TtAR Tt'IL V\"AKkS#H`ÅLM p: F\"Ö3RE KkL\"ÅKkAN SJ\"UTtÅN"
+    "labels": "pa_p: Gg'Å:R 2Dd'E: Bb\"Å:TtAR Tt'IL V\"AKkS#H`ÅLM p: F\"Ö3RE KkL\"ÅKkAN SJ\"UTtÅN"
   },
   {
     "smp": "fp2027/fp2027.3.00.smp",
@@ -7143,7 +7143,7 @@
     "smp": "fp2027/fp2027.3.01.smp",
     "text": "XsmackX XinandX jag vill åka från XutandX strömkajen XutandX",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ STR\"ÖMhyK'AJEN",
-    "labels": "sm pa p: J'A: V'IL \"Å:KkA FR'Å:N pa STtR\"ÖM#Kk`AJE0N pa"
+    "labels": "sm pa_p: J'A: V'IL \"Å:KkA FR'Å:N pa STtR\"ÖM#Kk`AJE0N pa"
   },
   {
     "smp": "fp2007/fp2007.pr.07.smp",
@@ -7155,7 +7155,7 @@
     "smp": "fp2027/fp2027.7.06.smp",
     "text": "XinandX då åker jag från stockholm XutandX",
     "phoneme": "D'Å:+ 'Å:KÄ4R J'A:G+ FR'Å:N+ ST\"ÅKhy'ÅLM",
-    "labels": "pa p: Dd'Å: 'Å:KkE0R J'A: FR'Å:N STt\"ÅKk#H`ÅLM pa"
+    "labels": "pa_p: Dd'Å: 'Å:KkE0R J'A: FR'Å:N STt\"ÅKk#H`ÅLM pa"
   },
   {
     "smp": "fp2027/fp2027.1.02.smp",
@@ -7473,13 +7473,13 @@
     "smp": "fp2007/fp2007.pr.07.smp",
     "text": "XinandX Det var kyligt i luften och stjärnorna skimrade",
     "phoneme": "D'E:T+ V'A:R+ TJ\"Y:L'IGT 'I:+ L'UFTEN 'Å:+ SJ\"Ä32N'O2NA SJ\"IMR'ADE",
-    "labels": "pa p: d'E: V'A: TJ\"Y:LITt 'I: L'UFTtE0N 'Å: SJ\"Ä32NO2NA SJ\"IMRADE0"
+    "labels": "pa_p: d'E: V'A: TJ\"Y:LITt 'I: L'UFTtE0N 'Å: SJ\"Ä32NO2NA SJ\"IMRADE0"
   },
   {
     "smp": "fp2011/fp2011.1.05.smp",
     "text": "XsmackX XinandX varifrån kan jag åka till vaxholm",
     "phoneme": "VARIFR'Å:N K'AN+ J'A:+ \"Å:K'A T'IL+ V\"AKShyH'ÅLM",
-    "labels": "sm pa p: VARIFR'Å:NG Kk'A J'A: \"Å:KkA Tt'IL V\"AKkS#H`ÅLM"
+    "labels": "sm pa_p: VARIFR'Å:NG Kk'A J'A: \"Å:KkA Tt'IL V\"AKkS#H`ÅLM"
   },
   {
     "smp": "fp2011/fp2011.1.00.smp",
@@ -7575,7 +7575,7 @@
     "smp": "fp2011/fp2011.3.01.smp",
     "text": "XinandX var ligger granholmen",
     "phoneme": "V'A:R+ L'IGÄ4R GR\"A:NhyH'ÅLMEN",
-    "labels": "pa p: V'A:R 2L'IGgE0R p: GgR\"A:N#H`ÅLME0N"
+    "labels": "pa_p: V'A:R 2L'IGgE0R p: GgR\"A:N#H`ÅLME0N"
   },
   {
     "smp": "fp2011/fp2011.6.00.smp",
@@ -7881,7 +7881,7 @@
     "smp": "fp2044/fp2044.11.05.smp",
     "text": "XinandX vilka båtar går till nåttarö",
     "phoneme": "V\"ILK'A B\"Å:T'AR G'Å:R T'IL+ N\"ÅTAhyR'Ö:",
-    "labels": "pa p: V\"ILKkA Bb\"Å:TtAR Gg'Å:R 2Tt'IL N\"ÅTtAR#`Ö:"
+    "labels": "pa_p: V\"ILKkA Bb\"Å:TtAR Gg'Å:R 2Tt'IL N\"ÅTtAR#`Ö:"
   },
   {
     "smp": "fp2044/fp2044.12.02.smp",
@@ -7947,7 +7947,7 @@
     "smp": "fp2044/fp2044.11.13.smp",
     "text": "XsmackX XinandX går det någon båt från nåttarö till nynäshamn på söndag kväll",
     "phoneme": "G'Å:R D'E:T+ N\"Å:G'ÅN+ B'Å:T FR'Å:N+ N\"ÅTAhyR'Ö: T'IL+ NY:NÄ:SH'AMN P'Å:+ S'ÖNDA KV'ÄL",
-    "labels": "sm pa p: Gg'Å:R 'E: N\"Å:GgÅM Bb'Å:Tt FR'Å: N\"ÅTtAR#`Ö: Tt'IL NY:NÄ:SH'AMM Pp'Å: S'ÖNDdAG KkV'ÄL"
+    "labels": "sm pa_p: Gg'Å:R 'E: N\"Å:GgÅM Bb'Å:Tt FR'Å: N\"ÅTtAR#`Ö: Tt'IL NY:NÄ:SH'AMM Pp'Å: S'ÖNDdAG KkV'ÄL"
   },
   {
     "smp": "fp2044/fp2044.11.12.smp",
@@ -8055,7 +8055,7 @@
     "smp": "fp2043/fp2043.1.06.smp",
     "text": "XinandX jag menar tack",
     "phoneme": "J'A:G+ M\"E:N'AR T'AK",
-    "labels": "pa p: J'A: M\"E:NA Tt'AKk"
+    "labels": "pa_p: J'A: M\"E:NA Tt'AKk"
   },
   {
     "smp": "fp2043/fp2043.11.04.smp",
@@ -8097,7 +8097,7 @@
     "smp": "fp2043/fp2043.11.06.smp",
     "text": "XinandX vill du visa en karta runt eller med ön finnhamn",
     "phoneme": "V'IL+ D'U:+ V\"I:S'A 'EN+ K\"A:2T'A R'UNT 'ELER+ M'E:+ 'Ö:N F\"INhyH'AMN",
-    "labels": "pa p: V'IL Dd'U: V\"I:SA 'ENG Kk\"A:2TtA p: R'UNTt p: 'ELE0 M'E:Dd 'Ö: p: F\"IN#H`AMN"
+    "labels": "pa_p: V'IL Dd'U: V\"I:SA 'ENG Kk\"A:2TtA p: R'UNTt p: 'ELE0 M'E:Dd 'Ö: p: F\"IN#H`AMN"
   },
   {
     "smp": "fp2043/fp2043.pr.10.smp",
@@ -8139,7 +8139,7 @@
     "smp": "fp2043/fp2043.16.00.smp",
     "text": "XtvekX idag torsdag vill jag åka till XsmackX staveström XinandX XtvekX och jag undrar hur tar jag mig dit",
     "phoneme": "öh ID'A:G T'O:2SDA V'IL+ J'A:G+ \"Å:K'A T'IL+ STA:VESTR'ÖM pa 'Å:+ J'A:G+ \"UNDR'AR,H'U:R+ T'A:R J'A:G+ M'EJ+ D'I:T",
-    "labels": "öh p: IDd'A:Gg Tt'O:2SDdA p: V'IL J'A: \"Å:KkA Tt'ILv p: sm p: STt\"A:VE0#STtR`ÖM p: pa p: öh p: 'Å: J'A: \"UNDdRAR H'U: 2Tt'A: J'A: M'EJ Dd'I:Tt"
+    "labels": "öh p: IDd'A:Gg Tt'O:2SDdA p: V'IL J'A: \"Å:KkA Tt'ILv p: sm p: STt\"A:VE0#STtR`ÖM p: pa_p: öh p: 'Å: J'A: \"UNDdRAR H'U: 2Tt'A: J'A: M'EJ Dd'I:Tt"
   },
   {
     "smp": "fp2043/fp2043.pr.04.smp",
@@ -8187,7 +8187,7 @@
     "smp": "fp2043/fp2043.1.01.smp",
     "text": "XinandX jag vill åka från stockholm",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ ST\"ÅKhy'ÅLM",
-    "labels": "pa p: J'A: V'IL \"Å:KkA p: FR'Å:N STt\"ÅKk#`ÅLM"
+    "labels": "pa_p: J'A: V'IL \"Å:KkA p: FR'Å:N STt\"ÅKk#`ÅLM"
   },
   {
     "smp": "fp2043/fp2043.16.01.smp",
@@ -8211,7 +8211,7 @@
     "smp": "fp2043/fp2043.16.03.smp",
     "text": "jaha XutandX XtvekX jag vill XsmackX se hur den båten går till staveström och om jag kan fortsätta till finnhamn",
     "phoneme": "JA:H'A: J'A:G+ V'IL+ S'E:,H'U:R+ D'EN+ B'Å:TEN G'Å:R T'IL+ STA:VESTR'ÖM 'Å:+ 'ÅM+ J'A:G+ K'AN+ F\"O2Thy2S'ÄTA T'IL+ F\"INhyH'AMN",
-    "labels": "A:H'A: pa p: öh J'A:Ggv V'ILv pap: sm p:v S'E: pa H'U:R 2Dd'EM Bb'Å:TtE0NG Gg'Å:R 2Tt'I STt\"A:VE0#STtR`ÖM p: 'Å: p: 'ÅM J'A: Kk'AN F\"O#2S`ÄTtA Tt'I F\"IN#H`AM"
+    "labels": "A:H'A: pa_p: öh J'A:Ggv V'ILv pap: sm p:v S'E: pa H'U:R 2Dd'EM Bb'Å:TtE0NG Gg'Å:R 2Tt'I STt\"A:VE0#STtR`ÖM p: 'Å: p: 'ÅM J'A: Kk'AN F\"O#2S`ÄTtA Tt'I F\"IN#H`AM"
   },
   {
     "smp": "fp2043/fp2043.1.03.smp",
@@ -8373,7 +8373,7 @@
     "smp": "fp2007/fp2007.pr.07.smp",
     "text": "Det var kyligt i luften och stjärnorna skimrade",
     "phoneme": "D'E:T+ V'A:R+ TJ\"Y:L'IGT 'I:+ L'UFTEN 'Å:+ SJ\"Ä32N'O2NA SJ\"IMR'ADE",
-    "labels": "pa p: Dd'E: V'A: TJ\"Y:LITt 'I: L'UFTtE0N 'Å: SJ\"Ä32NO2NA SJ\"IMRADdE0"
+    "labels": "pa_p: Dd'E: V'A: TJ\"Y:LITt 'I: L'UFTtE0N 'Å: SJ\"Ä32NO2NA SJ\"IMRADdE0"
   },
   {
     "smp": "fp2017/fp2017.1.00.smp",
@@ -8463,7 +8463,7 @@
     "smp": "fp2028/fp2028.2.41.smp",
     "text": "vilka XavbrordX båtar XinandX går från vaxholm till nybrokajen på en söndag efter klockan",
     "phoneme": "V\"ILK'A av B\"Å:T'AR G'Å:R FR'Å:N+ V\"AKShyH'ÅLM T'IL+ N\"Y:hyBROK'AJEN P'Å:+ 'EN+ S'ÖNDA 'EFTÄ4R+ KL\"ÅK'AN+",
-    "labels": "V\"ILKkA BbÅ: p: Bb\"Å:TtAR p: pa p: Gg'Å:R p: FR'Å:N V\"AKkS#H`ÅLM Tt'IL N\"Y:BbRO#Kk`AJE0N p: Pp'Å: 'EN p: S'ÖNDdA:Gg 'EFTtE0R KkL\"ÅKkAN"
+    "labels": "V\"ILKkA BbÅ: p: Bb\"Å:TtAR p: pa_p: Gg'Å:R p: FR'Å:N V\"AKkS#H`ÅLM Tt'IL N\"Y:BbRO#Kk`AJE0N p: Pp'Å: 'EN p: S'ÖNDdA:Gg 'EFTtE0R KkL\"ÅKkAN"
   },
   {
     "smp": "fp2028/fp2028.2.51.smp",
@@ -9075,7 +9075,7 @@
     "smp": "fp2010/fp2010.8.07.smp",
     "text": "XsmackX XinandX när är de öppna",
     "phoneme": "N'Ä3R+ 'Ö3R D'OM \"ÖPN'A",
-    "labels": "sm pa p: N'Ä3R 'Ä3 Dd'ÅM \"ÖPpNA"
+    "labels": "sm pa_p: N'Ä3R 'Ä3 Dd'ÅM \"ÖPpNA"
   },
   {
     "smp": "fp2010/fp2010.6.02.smp",
@@ -9765,7 +9765,7 @@
     "smp": "fp2007/fp2007.pr.10.smp",
     "text": "XsmackX XinandX Där kommer nya röda hus att skjuta i höjden",
     "phoneme": "D'Ä3R+ K'ÅMÄ4R+ N\"Y:'A R\"Ö:D'A H'U:S 'AT+ SJ\"U:T'A 'I:+ H'ÖJDEN",
-    "labels": "sm pa p: Dd'Ä3R Kk'ÅME0 N\"Y:A R\"Ö:DdA H'U:S 'ATt SJ\"U:TtA 'I: H'ÖJDdE0N"
+    "labels": "sm pa_p: Dd'Ä3R Kk'ÅME0 N\"Y:A R\"Ö:DdA H'U:S 'ATt SJ\"U:TtA 'I: H'ÖJDdE0N"
   },
   {
     "smp": "fp2004/fp2004.6.04.smp",
@@ -9777,7 +9777,7 @@
     "smp": "fp2004/fp2004.7.00.smp",
     "text": "XinandX var finns det vandrarhem",
     "phoneme": "V'A:R+ F'INS D'E+ V\"ANDRARhyH'EM",
-    "labels": "pa p: V'A:R F'INS Dd'E: p: V\"ANDRAR#H`EM"
+    "labels": "pa_p: V'A:R F'INS Dd'E: p: V\"ANDRAR#H`EM"
   },
   {
     "smp": "fp2004/fp2004.6.06.smp",
@@ -9807,7 +9807,7 @@
     "smp": "fp2004/fp2004.6.02.smp",
     "text": "XsmackX XinandX jag vill veta var det finns hotell",
     "phoneme": "J'A:+ V'IL+ V\"E:T'A V'A:R+ D'E+ F'INS HOT'EL",
-    "labels": "sm pa p: J'A: V'IL V\"E:TtA V'A:R Dd'E: F'INS HOTt'EL"
+    "labels": "sm pa_p: J'A: V'IL V\"E:TtA V'A:R Dd'E: F'INS HOTt'EL"
   },
   {
     "smp": "fp2007/fp2007.pr.06.smp",
@@ -9831,7 +9831,7 @@
     "smp": "fp2004/fp2004.6.01.smp",
     "text": "XinandX XtvekX var någonstans kan jag bo uti denna skärgård",
     "phoneme": "V'A:R+ NÅNST'ANS K'AN+ J'A:+ B'O: UT'I: D\"EN'A SJ\"Ä3RhyG'Å:2D",
-    "labels": "pa p: öh p: V'A:R NÅSTt'ANS Kk'A J'A: B'O: p: UTt'I: \"ENA p: SJ'Ä3RGÅ:2D"
+    "labels": "pa_p: öh p: V'A:R NÅSTt'ANS Kk'A J'A: B'O: p: UTt'I: \"ENA p: SJ'Ä3RGÅ:2D"
   },
   {
     "smp": "fp2007/fp2007.pr.05.smp",
@@ -9903,7 +9903,7 @@
     "smp": "fp2032/fp2032.7.09.smp",
     "text": "XinandX hotell",
     "phoneme": "pa HOT'EL",
-    "labels": "pa p: HOTt'EL"
+    "labels": "pa_p: HOTt'EL"
   },
   {
     "smp": "fp2007/fp2007.pr.04.smp",
@@ -9921,7 +9921,7 @@
     "smp": "fp2032/fp2032.7.11.smp",
     "text": "XinandX turistinformation",
     "phoneme": "pa T\"U:RISThyINFÅRMASJ'O:N",
-    "labels": "pa p: Tt\"U:RISTt#INFÅRMASJ`O:N"
+    "labels": "pa_p: Tt\"U:RISTt#INFÅRMASJ`O:N"
   },
   {
     "smp": "fp2032/fp2032.7.04.smp",
@@ -9969,13 +9969,13 @@
     "smp": "fp2032/fp2032.1.03.smp",
     "text": "XinandX idag vilket är en onsdag",
     "phoneme": "ID'A:G V\"ILK'ET 'Ä3R+ 'EN+ 'ONSDA",
-    "labels": "pa p: IDd'A:G V\"IKkE0Tt 'E: 'EN 'ONSDdAGg"
+    "labels": "pa_p: IDd'A:G V\"IKkE0Tt 'E: 'EN 'ONSDdAGg"
   },
   {
     "smp": "fp2032/fp2032.7.07.smp",
     "text": "XinandX övernattning i skärgården",
     "phoneme": "pa \"Ö:VÄ4RhyN'ATNING 'I:+ SJ'Ä3RGÅ:2N",
-    "labels": "pa p: \"Ö:VE0Rv#N`ATNING p: 'I: SJ'Ä3RGgÅ:N"
+    "labels": "pa_p: \"Ö:VE0Rv#N`ATNING p: 'I: SJ'Ä3RGgÅ:N"
   },
   {
     "smp": "fp2032/fp2032.3.00.smp",
@@ -10275,7 +10275,7 @@
     "smp": "fp2061/fp2061.13.04.smp",
     "text": "XinandX då vill jag åka till furusund en söndag",
     "phoneme": "pa D'Å:+ V'IL+ J'A:G+ \"Å:K'A T'IL+ FU:RUS'UND 'EN+ S'ÖNDA",
-    "labels": "pa p: Dd'Å: V'I 'A: \"Å:KkA Tt'I FU:RUS'UNDd p: 'EN S'ÖNDdA"
+    "labels": "pa_p: Dd'Å: V'I 'A: \"Å:KkA Tt'I FU:RUS'UNDd p: 'EN S'ÖNDdA"
   },
   {
     "smp": "fp2061/fp2061.pr.08.smp",
@@ -10533,7 +10533,7 @@
     "smp": "fp2066/fp2066.1.09.smp",
     "text": "då måste jag välja en annan dag XtvekX XutandX när går det XutandX båtar från vaxholm till XavbrordX",
     "phoneme": "D'Å:+ M\"ÅST'E+ J'A:G+ V\"ÄLJ'A 'EN+ \"AN'AN D'A:G N'Ä3R+ G'Å:R D'E:T+ B\"Å:T'AR FR'Å:N+ V\"AKShyH'ÅLM T'IL+ SL'USEN",
-    "labels": "Dd'Å: M\"ÅSTtE J'A: V\"ÄLJA N \"ANAN Dd'A:Gg öh pa p: N'Ä3R Gg'Å:R 2Dd'E: pa Bb\"Å:TtAR FR'Å:N V\"AKkS#H`ÅLvM p: Tt'ILv p: SL'US"
+    "labels": "Dd'Å: M\"ÅSTtE J'A: V\"ÄLJA N \"ANAN Dd'A:Gg öh pa_p: N'Ä3R Gg'Å:R 2Dd'E: pa Bb\"Å:TtAR FR'Å:N V\"AKkS#H`ÅLvM p: Tt'ILv p: SL'US"
   },
   {
     "smp": "fp2066/fp2066.15.03.smp",
@@ -11073,7 +11073,7 @@
     "smp": "fp2050/fp2050.1.01.smp",
     "text": "XinandX från stockholm",
     "phoneme": "FR'Å:N+ ST\"ÅKhy'ÅLM",
-    "labels": "pa p: FR'Å: STt\"ÅKkH#`ÅLM"
+    "labels": "pa_p: FR'Å: STt\"ÅKkH#`ÅLM"
   },
   {
     "smp": "fp2007/fp2007.pr.04.smp",
@@ -11469,7 +11469,7 @@
     "smp": "fp2068/fp2068.1.09.smp",
     "text": "när går båten XutandX ikväll",
     "phoneme": "N'Ä3R+ G'Å:R B'Å:TEN IKV'ÄL",
-    "labels": "N'Ä3R Gg'Å:R p: Bb'Å:TtE0N pa p: IKkV'ÄL"
+    "labels": "N'Ä3R Gg'Å:R p: Bb'Å:TtE0N pa_p: IKkV'ÄL"
   },
   {
     "smp": "fp2068/fp2068.14.01.smp",
@@ -11547,7 +11547,7 @@
     "smp": "fp2068/fp2068.1.03.smp",
     "text": "XinandX varifrån går vaxholmsbåten",
     "phoneme": "VARIFR'Å:N G'Å:R V\"AKShyHÅLMShyB'Å:TEN",
-    "labels": "pa p: VARIFR'Å:Nv p: Gg'Å:Rv V\"AKkS#HÅLMS#Bb`Å:TtE0N"
+    "labels": "pa_p: VARIFR'Å:Nv p: Gg'Å:Rv V\"AKkS#HÅLMS#Bb`Å:TtE0N"
   },
   {
     "smp": "fp2068/fp2068.13.01.smp",
@@ -11667,7 +11667,7 @@
     "smp": "fp2068/fp2068.13.07.smp",
     "text": "XinandX går det att ta sig till norrskär",
     "phoneme": "G'Å:R D'E:T+ 'AT+ T'A: S'EJ+ T'IL+ N'ÅRSJÄ3R",
-    "labels": "pa p: Gg'Å:R 2Dd'E: p: 'ATt Tt'A: S'EJ Tt'IL N'ÅRp:2SÄ3R"
+    "labels": "pa_p: Gg'Å:R 2Dd'E: p: 'ATt Tt'A: S'EJ Tt'IL N'ÅRp:2SÄ3R"
   },
   {
     "smp": "fp2068/fp2068.13.21.smp",
@@ -12609,7 +12609,7 @@
     "smp": "fp2002/fp2002.5.01.smp",
     "text": "XsmackX XinandX jag vill åka på tisdag",
     "phoneme": "sm pa J'A:G+ V'IL+ \"Å:K'A P'Å:+ T'I:SDA",
-    "labels": "sm p: pa p: J'A: V'IL \"Å:KkA p: Pp'Å: p: Tt'I:SDdA"
+    "labels": "sm p: pa_p: J'A: V'IL \"Å:KkA p: Pp'Å: p: Tt'I:SDdA"
   },
   {
     "smp": "fp2002/fp2002.1.06.smp",
@@ -12639,7 +12639,7 @@
     "smp": "fp2002/fp2002.5.00.smp",
     "text": "XinandX hur kommer man från vaxholm till vegabryggan idag",
     "phoneme": "pa H'U:R+ K'ÅMÄ4R+ M'AN+ FR'Å:N+ V\"AKShyH'ÅLM T'IL+ V\"E:GAhyBR'YGAN ID'A:G",
-    "labels": "pa p: H'U:R Kk'ÅME0R M'AN p: FR'Å:N V\"AKkS#H`ÅLM p:pap: T'ILv V\"E:GgA#BR`YgAN p: IDd'A:"
+    "labels": "pa_p: H'U:R Kk'ÅME0R M'AN p: FR'Å:N V\"AKkS#H`ÅLM p:pap: T'ILv V\"E:GgA#BR`YgAN p: IDd'A:"
   },
   {
     "smp": "fp2007/fp2007.pr.06.smp",
@@ -12837,7 +12837,7 @@
     "smp": "fp2056/fp2056.11.03.smp",
     "text": "jag vill åka från vaxholm",
     "phoneme": "J'A:G+ V'IL+ \"Å:K'A FR'Å:N+ V\"AKShyH'ÅLM",
-    "labels": "pa p: J'A: V'IL \"Å:KkA FR'Å:N V\"AKkS`ÅLM"
+    "labels": "pa_p: J'A: V'IL \"Å:KkA FR'Å:N V\"AKkS`ÅLM"
   },
   {
     "smp": "fp2056/fp2056.1.00.smp",
@@ -13239,7 +13239,7 @@
     "smp": "fp2067/fp2067.11.05.smp",
     "text": "XsmackX XinandX jag letar efter grinda XutandX",
     "phoneme": "J'A:G+ L\"E:T'AR 'EFTÄ4R+ GR\"IND'A",
-    "labels": "sm pa p: J'A: L\"E:TtAR 'EFTtE0 GgR\"INDdA pa"
+    "labels": "sm pa_p: J'A: L\"E:TtAR 'EFTtE0 GgR\"INDdA pa"
   },
   {
     "smp": "fp2067/fp2067.11.10.smp",
@@ -13395,7 +13395,7 @@
     "smp": "fp2058/fp2058.15.04.smp",
     "text": "XsmackX XinandX vilka båtar går på onsdag eftermiddag",
     "phoneme": "pa V\"ILK'A B\"Å:T'AR G'Å:R P'Å:+ 'ONSDA \"EFTÄ4RhyM'IDA",
-    "labels": "sm pa p: V\"ILKkA Bb\"Å:TtAR Gg'Å:R p: Pp'Å: 'ONSDdA p: \"EFTtE0R#M`IDdA"
+    "labels": "sm pa_p: V\"ILKkA Bb\"Å:TtAR Gg'Å:R p: Pp'Å: 'ONSDdA p: \"EFTtE0R#M`IDdA"
   },
   {
     "smp": "fp2058/fp2058.pr.04.smp",
