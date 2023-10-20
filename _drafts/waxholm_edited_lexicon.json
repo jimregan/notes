@@ -1185,7 +1185,7 @@
     "smp": "fp2048/fp2048.15.00.smp",
     "text": "XtvekX jag har en fråga",
     "phoneme": "öh J'A:G+ H'A:R+ 'EN+ FR\"Å:G'A",
-    "labels": "p: J'A: H'A:R 'EN FR\"Å:GA"
+    "labels": "öh p: J'A: H'A:R 'EN FR\"Å:GA"
   },
   {
     "smp": "fp2048/fp2048.15.10.smp",
@@ -3739,8 +3739,10 @@
   },
   {
     "smp": "fp2009/fp2009.2.04.smp",
-    "text": "jag vill åka hem på söndag kväll",
-    "phoneme": "J'A:+ V'IL+ \"Å:K'A H'EM P'Å:+ S'ÖNDA KV'ÄL",
+    "text_prompt": "jag vill åka hem på söndag kväll",
+    "text": "åka hem på söndag kväll",
+    "phoneme_prompt": "J'A:+ V'IL+ \"Å:K'A H'EM P'Å:+ S'ÖNDA KV'ÄL",
+    "phoneme": "\"Å:K'A H'EM P'Å:+ S'ÖNDA KV'ÄL",
     "labels": "\"Å:KkA H'EM p: Pp'Å: p: S'ÖNDdA KkV'ÄL"
   },
   {
