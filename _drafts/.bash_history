@@ -1,8 +1,3 @@
-ssh sbtaldeep22
-ssh sbtaldeep21
-ssh sbtaldeep24
-ssh sbtaldeep23
-scp sbtaldeep22:.srv/wg/inp.log .
 cat inp.log |perl wget-http.pl >> ../6fbb1e6aa0389a4d2db5c7a8989e45ec/wget-http-20230808-1.nt 
 cd -
 cd ../6fbb1e6aa0389a4d2db5c7a8989e45ec/
@@ -498,3 +493,8 @@ ffmpeg -i ~/Downloads/Royal\ Institute\ of\ Technology.m4a /tmp/fones.wav
 rm /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 13.23.53.png /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 19.59.50.png /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 20.00.30.png /Users/joregan/Desktop/Screenshot\ 2023-10-31\ at\ 11.28.40.png 
 scp /Users/joregan/Downloads/Sc-20231031T134824Z-001.zip /Users/joregan/Downloads/Ss-20231031T134836Z-001.zip sbtaldeep22:.srv/m16oct23/
 rm /Users/joregan/Downloads/Sc-20231031T134824Z-001.zip /Users/joregan/Downloads/Ss-20231031T134836Z-001.zip 
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
