@@ -1,5 +1,3 @@
-rm -rf cfimg/
-ssh sbtaldeep24
 ssh sbtaldeep23
 ssh sbtaldeep23
 ssh sbtaldeep22
@@ -498,3 +496,5 @@ git add swe-align.ipynb
 git commit -m 'working(?)'
 git add waxholm-kludge.ipynb 
 git commit -m 'add'
+ffmpeg -i ~/Downloads/Royal\ Institute\ of\ Technology.m4a /tmp/fones.wav
+rm /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 13.23.53.png /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 19.59.50.png /Users/joregan/Desktop/Screenshot\ 2023-10-30\ at\ 20.00.30.png /Users/joregan/Desktop/Screenshot\ 2023-10-31\ at\ 11.28.40.png 
