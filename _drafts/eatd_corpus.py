@@ -44,7 +44,7 @@ class EATDDataset(datasets.GeneratorBasedBuilder):
                 "audio": datasets.Audio(sampling_rate=16_000),
                 "id": datasets.Value("string"),
                 "text": datasets.Value("string"),
-                "raw_sds": datasets.Value("int"),
+                "raw_sds": datasets.Value("uint8"),
                 "sds_score": datasets.Value("float"),
                 "label": datasets.ClassLabel(names=["neutral", "negative", "positive"])
             }
@@ -88,7 +88,7 @@ class EATDDataset(datasets.GeneratorBasedBuilder):
         basepath = Path(data_dir)
         prefix = "v" if split == "valid" else "t"
         for dir in basepath.glob(f"{prefix}_*"):
-            id = dir.name
+            base_id = dir.name
             with open(str(dir / "label.txt")) as labelf:
                 label = labelf.read().strip()
                 if label.endswith(".0"):
@@ -104,7 +104,8 @@ class EATDDataset(datasets.GeneratorBasedBuilder):
                 text_file = dir / f"{polarity}.txt"
                 with open(raw_audio, "rb") as rawf, open(proc_audio, "rb") as procf, open(text_file, "r") as textf:
                     text = textf.read().strip()
-                    yield id, {
+                    sid = f"{base_id}_{polarity}"
+                    yield sid, {
                         "audio_raw": {
                             "bytes": rawf.read(),
                             "path": str(raw_audio),
@@ -114,6 +115,7 @@ class EATDDataset(datasets.GeneratorBasedBuilder):
                             "path": str(proc_audio),
                         },
                         "text": textf.read().strip(),
+                        "id": sid,
                         "raw_sds": raw_sds,
                         "sds_score": sds_score,
                         "label": polarity
