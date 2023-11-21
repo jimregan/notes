@@ -114,7 +114,7 @@ class EATDDataset(datasets.GeneratorBasedBuilder):
                             "bytes": procf.read(),
                             "path": str(proc_audio),
                         },
-                        "text": textf.read().strip(),
+                        "text": text,
                         "id": sid,
                         "raw_sds": raw_sds,
                         "sds_score": sds_score,
