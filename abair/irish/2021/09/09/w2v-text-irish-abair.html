@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Abair wav2vec text | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Abair wav2vec text" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="wav2vec2 finetuning attempt on Abair data" />
+<meta property="og:description" content="wav2vec2 finetuning attempt on Abair data" />
+<link rel="canonical" href="https://jimregan.github.io/notes/abair/irish/2021/09/09/w2v-text-irish-abair.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/abair/irish/2021/09/09/w2v-text-irish-abair.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/abair/irish/2021/09/09/w2v-text-irish-abair.html","@type":"BlogPosting","headline":"Abair wav2vec text","dateModified":"2021-09-09T00:00:00-05:00","datePublished":"2021-09-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/abair/irish/2021/09/09/w2v-text-irish-abair.html"},"description":"wav2vec2 finetuning attempt on Abair data","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Abair wav2vec text</h1><p class="page-description">wav2vec2 finetuning attempt on Abair data</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-09T00:00:00-05:00" itemprop="datePublished">
+        Sep 9, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#abair">abair</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-09-09-w2v-text-irish-abair.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dir</span> <span class="o">=</span> <span class="s2">&quot;/home/jim/abair-corpora/&quot;</span>
+<span class="n">col_names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;set&quot;</span><span class="p">,</span> <span class="s2">&quot;gender&quot;</span><span class="p">,</span> <span class="s2">&quot;url&quot;</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="p">,</span> <span class="s2">&quot;phonemes&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">inputs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">dirs</span><span class="p">,</span> <span class="n">files</span><span class="p">)</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="nb">dir</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s2">&quot;/comhra&quot;</span> <span class="ow">in</span> <span class="n">path</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="k">if</span> <span class="s2">&quot;corpusfile.txt&quot;</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+        <span class="n">inputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;corpusfile.txt&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datasets</span> <span class="kn">import</span> <span class="n">load_dataset</span>
+<span class="n">dset</span> <span class="o">=</span> <span class="n">load_dataset</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">,</span> <span class="n">data_files</span><span class="o">=</span><span class="n">inputs</span><span class="p">,</span> <span class="n">column_names</span><span class="o">=</span><span class="n">col_names</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">split</span><span class="o">=</span><span class="s2">&quot;train&quot;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">irish_lc</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">lcword</span><span class="p">(</span><span class="n">word</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="s2">&quot;nt&quot;</span> <span class="ow">and</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span> <span class="ow">in</span> <span class="s2">&quot;AÁEÉIÍOÓUÚ&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;-&quot;</span> <span class="o">+</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">word</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">lcword</span><span class="p">,</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">))))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">assert</span> <span class="n">irish_lc</span><span class="p">(</span><span class="s2">&quot;bhúr nAthair&quot;</span><span class="p">)</span> <span class="o">==</span> <span class="s2">&quot;bhúr n-athair&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+<span class="n">chars_to_ignore_regex</span> <span class="o">=</span> <span class="s1">&#39;[\,\?\.\!\-\;\:</span><span class="se">\&quot;</span><span class="s1">\“\%\‘\”…—–\(\)]&#39;</span>
+
+<span class="k">def</span> <span class="nf">remove_special_characters</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;’&quot;</span><span class="p">,</span> <span class="s2">&quot;&#39;&quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;(Tor@m)&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">chars_to_ignore_regex</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">irish_lc</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]))</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39; +$&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">])</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\xa0</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\ufeff</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;1983&quot;</span><span class="p">,</span> <span class="s2">&quot;naoi déag ochtó a trí&quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;tg4&quot;</span><span class="p">,</span> <span class="s2">&quot;t g ceathair&quot;</span><span class="p">)</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;  +&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="n">irish_lc</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]))</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">remove_special_characters</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_all_alphabetic</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">sentence</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">char</span> <span class="ow">not</span> <span class="ow">in</span> <span class="s2">&quot;aábcdeéfghiíjklmnoópqrstuúvwxyz&#39; &quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+    <span class="k">return</span> <span class="kc">True</span>
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">is_all_alphabetic</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">extract_all_chars</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+  <span class="n">all_text</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">])</span>
+  <span class="n">vocab</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">all_text</span><span class="p">))</span>
+  <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;vocab&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">vocab</span><span class="p">],</span> <span class="s2">&quot;all_text&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">all_text</span><span class="p">]}</span>
+
+<span class="n">vocab_train</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">extract_all_chars</span><span class="p">,</span> <span class="n">batched</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">keep_in_memory</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">remove_columns</span><span class="o">=</span><span class="n">dset</span><span class="o">.</span><span class="n">column_names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vocab_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">vocab_train</span><span class="p">[</span><span class="s2">&quot;vocab&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]))</span>
+
+<span class="n">vocab_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">v</span><span class="p">:</span> <span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab_list</span><span class="p">)}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">vocab_dict</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fix_path</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;url&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;https://www.abair.tcd.ie/asr_data_irish_audio/&quot;</span><span class="p">,</span> <span class="s2">&quot;/media/phonetics/asr_data_irish/audio/&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">fix_path</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="k">def</span> <span class="nf">check_paths</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">audio_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">audio_path</span><span class="o">.</span><span class="n">is_file</span><span class="p">()</span>
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">check_paths</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vocab_dict</span><span class="p">[</span><span class="s2">&quot;|&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">vocab_dict</span><span class="p">[</span><span class="s2">&quot; &quot;</span><span class="p">]</span>
+<span class="k">del</span> <span class="n">vocab_dict</span><span class="p">[</span><span class="s2">&quot; &quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vocab_dict</span><span class="p">[</span><span class="s2">&quot;[UNK]&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">vocab_dict</span><span class="p">)</span>
+<span class="n">vocab_dict</span><span class="p">[</span><span class="s2">&quot;[PAD]&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">vocab_dict</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">vocab_dict</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/jim/w2v-out/vocab.json&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">vocab_file</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">vocab_dict</span><span class="p">,</span> <span class="n">vocab_file</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Wav2Vec2CTCTokenizer</span>
+
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="n">Wav2Vec2CTCTokenizer</span><span class="p">(</span><span class="s2">&quot;/home/jim/w2v-out/vocab.json&quot;</span><span class="p">,</span> <span class="n">unk_token</span><span class="o">=</span><span class="s2">&quot;[UNK]&quot;</span><span class="p">,</span> <span class="n">pad_token</span><span class="o">=</span><span class="s2">&quot;[PAD]&quot;</span><span class="p">,</span> <span class="n">word_delimiter_token</span><span class="o">=</span><span class="s2">&quot;|&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Wav2Vec2FeatureExtractor</span>
+
+<span class="n">feature_extractor</span> <span class="o">=</span> <span class="n">Wav2Vec2FeatureExtractor</span><span class="p">(</span><span class="n">feature_size</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">sampling_rate</span><span class="o">=</span><span class="mi">16000</span><span class="p">,</span> <span class="n">padding_value</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">do_normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">return_attention_mask</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Wav2Vec2Processor</span>
+
+<span class="n">processor</span> <span class="o">=</span> <span class="n">Wav2Vec2Processor</span><span class="p">(</span><span class="n">feature_extractor</span><span class="o">=</span><span class="n">feature_extractor</span><span class="p">,</span> <span class="n">tokenizer</span><span class="o">=</span><span class="n">tokenizer</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torchaudio</span>
+
+<span class="k">def</span> <span class="nf">speech_file_to_array_fn</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">speech_array</span><span class="p">,</span> <span class="n">sampling_rate</span> <span class="o">=</span> <span class="n">torchaudio</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;audio&quot;</span><span class="p">])</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">speech_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sampling_rate</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;target_text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">speech_file_to_array_fn</span><span class="p">,</span> <span class="n">remove_columns</span><span class="o">=</span><span class="n">dset</span><span class="o">.</span><span class="n">column_names</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">librosa</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="k">def</span> <span class="nf">resample</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;duration&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">get_duration</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">],</span> <span class="n">sr</span><span class="o">=</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">16_000</span><span class="p">:</span>
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">]),</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">],</span> <span class="mi">16_000</span><span class="p">)</span>
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">16_000</span>
+
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">resample</span><span class="p">,</span> <span class="n">num_proc</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">filter_length</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="n">length</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;duration&quot;</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">length</span> <span class="o">&gt;</span> <span class="mf">1.0</span> <span class="ow">and</span> <span class="n">length</span> <span class="o">&lt;</span> <span class="mf">9.0</span>
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">filter_length</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">prepare_dataset</span><span class="p">(</span><span class="n">batch</span><span class="p">):</span>
+    <span class="c1"># check that all files have the correct sampling rate</span>
+    <span class="k">assert</span> <span class="p">(</span>
+        <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">]))</span> <span class="o">==</span> <span class="mi">1</span>
+    <span class="p">),</span> <span class="sa">f</span><span class="s2">&quot;Make sure all inputs have the same sampling rate of </span><span class="si">{</span><span class="n">processor</span><span class="o">.</span><span class="n">feature_extractor</span><span class="o">.</span><span class="n">sampling_rate</span><span class="si">}</span><span class="s2">.&quot;</span>
+
+    <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;input_values&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">processor</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;speech&quot;</span><span class="p">],</span> <span class="n">sampling_rate</span><span class="o">=</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;sampling_rate&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">input_values</span>
+
+    <span class="k">with</span> <span class="n">processor</span><span class="o">.</span><span class="n">as_target_processor</span><span class="p">():</span>
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;labels&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">processor</span><span class="p">(</span><span class="n">batch</span><span class="p">[</span><span class="s2">&quot;target_text&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">input_ids</span>
+    <span class="k">return</span> <span class="n">batch</span>
+
+<span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">prepare_dataset</span><span class="p">,</span> <span class="n">remove_columns</span><span class="o">=</span><span class="n">dset</span><span class="o">.</span><span class="n">column_names</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">num_proc</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">batched</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span>
+
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span><span class="p">,</span> <span class="n">field</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Union</span>
+
+<span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">DataCollatorCTCWithPadding</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Data collator that will dynamically pad the inputs received.</span>
+<span class="sd">    Args:</span>
+<span class="sd">        processor (:class:`~transformers.Wav2Vec2Processor`)</span>
+<span class="sd">            The processor used for proccessing the data.</span>
+<span class="sd">        padding (:obj:`bool`, :obj:`str` or :class:`~transformers.tokenization_utils_base.PaddingStrategy`, `optional`, defaults to :obj:`True`):</span>
+<span class="sd">            Select a strategy to pad the returned sequences (according to the model&#39;s padding side and padding index)</span>
+<span class="sd">            among:</span>
+<span class="sd">            * :obj:`True` or :obj:`&#39;longest&#39;`: Pad to the longest sequence in the batch (or no padding if only a single</span>
+<span class="sd">              sequence if provided).</span>
+<span class="sd">            * :obj:`&#39;max_length&#39;`: Pad to a maximum length specified with the argument :obj:`max_length` or to the</span>
+<span class="sd">              maximum acceptable input length for the model if that argument is not provided.</span>
+<span class="sd">            * :obj:`False` or :obj:`&#39;do_not_pad&#39;` (default): No padding (i.e., can output a batch with sequences of</span>
+<span class="sd">              different lengths).</span>
+<span class="sd">        max_length (:obj:`int`, `optional`):</span>
+<span class="sd">            Maximum length of the ``input_values`` of the returned list and optionally padding length (see above).</span>
+<span class="sd">        max_length_labels (:obj:`int`, `optional`):</span>
+<span class="sd">            Maximum length of the ``labels`` returned list and optionally padding length (see above).</span>
+<span class="sd">        pad_to_multiple_of (:obj:`int`, `optional`):</span>
+<span class="sd">            If set will pad the sequence to a multiple of the provided value.</span>
+<span class="sd">            This is especially useful to enable the use of Tensor Cores on NVIDIA hardware with compute capability &gt;=</span>
+<span class="sd">            7.5 (Volta).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">processor</span><span class="p">:</span> <span class="n">Wav2Vec2Processor</span>
+    <span class="n">padding</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="n">max_length</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">max_length_labels</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pad_to_multiple_of</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pad_to_multiple_of_labels</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+    <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">features</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Union</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span><span class="p">]]])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">Tensor</span><span class="p">]:</span>
+        <span class="c1"># split inputs and labels since they have to be of different lenghts and need</span>
+        <span class="c1"># different padding methods</span>
+        <span class="n">input_features</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;input_values&quot;</span><span class="p">:</span> <span class="n">feature</span><span class="p">[</span><span class="s2">&quot;input_values&quot;</span><span class="p">]}</span> <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">features</span><span class="p">]</span>
+        <span class="n">label_features</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;input_ids&quot;</span><span class="p">:</span> <span class="n">feature</span><span class="p">[</span><span class="s2">&quot;labels&quot;</span><span class="p">]}</span> <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">features</span><span class="p">]</span>
+
+        <span class="n">batch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">processor</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span>
+            <span class="n">input_features</span><span class="p">,</span>
+            <span class="n">padding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">padding</span><span class="p">,</span>
+            <span class="n">max_length</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">max_length</span><span class="p">,</span>
+            <span class="n">pad_to_multiple_of</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">pad_to_multiple_of</span><span class="p">,</span>
+            <span class="n">return_tensors</span><span class="o">=</span><span class="s2">&quot;pt&quot;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">processor</span><span class="o">.</span><span class="n">as_target_processor</span><span class="p">():</span>
+            <span class="n">labels_batch</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">processor</span><span class="o">.</span><span class="n">pad</span><span class="p">(</span>
+                <span class="n">label_features</span><span class="p">,</span>
+                <span class="n">padding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">padding</span><span class="p">,</span>
+                <span class="n">max_length</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">max_length_labels</span><span class="p">,</span>
+                <span class="n">pad_to_multiple_of</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">pad_to_multiple_of_labels</span><span class="p">,</span>
+                <span class="n">return_tensors</span><span class="o">=</span><span class="s2">&quot;pt&quot;</span><span class="p">,</span>
+            <span class="p">)</span>
+
+        <span class="c1"># replace padding with -100 to ignore loss correctly</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="n">labels_batch</span><span class="p">[</span><span class="s2">&quot;input_ids&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">masked_fill</span><span class="p">(</span><span class="n">labels_batch</span><span class="o">.</span><span class="n">attention_mask</span><span class="o">.</span><span class="n">ne</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="o">-</span><span class="mi">100</span><span class="p">)</span>
+
+        <span class="n">batch</span><span class="p">[</span><span class="s2">&quot;labels&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">labels</span>
+
+        <span class="k">return</span> <span class="n">batch</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_collator</span> <span class="o">=</span> <span class="n">DataCollatorCTCWithPadding</span><span class="p">(</span><span class="n">processor</span><span class="o">=</span><span class="n">processor</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">datasets</span> <span class="kn">import</span> <span class="n">load_metric</span>
+<span class="n">wer_metric</span> <span class="o">=</span> <span class="n">load_metric</span><span class="p">(</span><span class="s2">&quot;wer&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">compute_metrics</span><span class="p">(</span><span class="n">pred</span><span class="p">):</span>
+    <span class="n">pred_logits</span> <span class="o">=</span> <span class="n">pred</span><span class="o">.</span><span class="n">predictions</span>
+    <span class="n">pred_ids</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pred_logits</span><span class="p">,</span> <span class="n">axis</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">pred</span><span class="o">.</span><span class="n">label_ids</span><span class="p">[</span><span class="n">pred</span><span class="o">.</span><span class="n">label_ids</span> <span class="o">==</span> <span class="o">-</span><span class="mi">100</span><span class="p">]</span> <span class="o">=</span> <span class="n">processor</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">pad_token_id</span>
+
+    <span class="n">pred_str</span> <span class="o">=</span> <span class="n">processor</span><span class="o">.</span><span class="n">batch_decode</span><span class="p">(</span><span class="n">pred_ids</span><span class="p">)</span>
+    <span class="c1"># we do not want to group tokens when computing the metrics</span>
+    <span class="n">label_str</span> <span class="o">=</span> <span class="n">processor</span><span class="o">.</span><span class="n">batch_decode</span><span class="p">(</span><span class="n">pred</span><span class="o">.</span><span class="n">label_ids</span><span class="p">,</span> <span class="n">group_tokens</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">wer</span> <span class="o">=</span> <span class="n">wer_metric</span><span class="o">.</span><span class="n">compute</span><span class="p">(</span><span class="n">predictions</span><span class="o">=</span><span class="n">pred_str</span><span class="p">,</span> <span class="n">references</span><span class="o">=</span><span class="n">label_str</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;wer&quot;</span><span class="p">:</span> <span class="n">wer</span><span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Wav2Vec2ForCTC</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">Wav2Vec2ForCTC</span><span class="o">.</span><span class="n">from_pretrained</span><span class="p">(</span>
+    <span class="s2">&quot;facebook/wav2vec2-large-xlsr-53&quot;</span><span class="p">,</span>
+    <span class="n">attention_dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+    <span class="n">hidden_dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+    <span class="n">feat_proj_dropout</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>
+    <span class="n">mask_time_prob</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span>
+    <span class="n">layerdrop</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+    <span class="n">gradient_checkpointing</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+    <span class="n">ctc_loss_reduction</span><span class="o">=</span><span class="s2">&quot;mean&quot;</span><span class="p">,</span>
+    <span class="n">pad_token_id</span><span class="o">=</span><span class="n">processor</span><span class="o">.</span><span class="n">tokenizer</span><span class="o">.</span><span class="n">pad_token_id</span><span class="p">,</span>
+    <span class="n">vocab_size</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">processor</span><span class="o">.</span><span class="n">tokenizer</span><span class="p">)</span>
+<span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">freeze_feature_extractor</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">TrainingArguments</span>
+
+<span class="n">training_args</span> <span class="o">=</span> <span class="n">TrainingArguments</span><span class="p">(</span>
+  <span class="n">output_dir</span><span class="o">=</span><span class="s2">&quot;/home/jim/w2v-out&quot;</span><span class="p">,</span>
+  <span class="n">group_by_length</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+  <span class="n">per_device_train_batch_size</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span>
+  <span class="n">gradient_accumulation_steps</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+  <span class="n">evaluation_strategy</span><span class="o">=</span><span class="s2">&quot;steps&quot;</span><span class="p">,</span>
+  <span class="n">num_train_epochs</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span>
+  <span class="n">fp16</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+  <span class="n">save_steps</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
+  <span class="n">eval_steps</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
+  <span class="n">logging_steps</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
+  <span class="n">learning_rate</span><span class="o">=</span><span class="mf">5e-4</span><span class="p">,</span>
+  <span class="n">warmup_steps</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span>
+  <span class="n">save_total_limit</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dset</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_testvalid</span> <span class="o">=</span> <span class="n">dset</span><span class="o">.</span><span class="n">train_test_split</span><span class="p">(</span><span class="n">test_size</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="s1">&#39;train&#39;</span> <span class="ow">in</span> <span class="n">train_testvalid</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;train_test_split() is broken: no &#39;train&#39;&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="s1">&#39;test&#39;</span> <span class="ow">in</span> <span class="n">train_testvalid</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;train_test_split() is broken: no &#39;test&#39;&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">Trainer</span>
+
+<span class="n">trainer</span> <span class="o">=</span> <span class="n">Trainer</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+    <span class="n">data_collator</span><span class="o">=</span><span class="n">data_collator</span><span class="p">,</span>
+    <span class="n">args</span><span class="o">=</span><span class="n">training_args</span><span class="p">,</span>
+    <span class="n">compute_metrics</span><span class="o">=</span><span class="n">compute_metrics</span><span class="p">,</span>
+    <span class="n">train_dataset</span><span class="o">=</span><span class="n">train_testvalid</span><span class="p">[</span><span class="s2">&quot;train&quot;</span><span class="p">],</span>
+    <span class="n">eval_dataset</span><span class="o">=</span><span class="n">train_testvalid</span><span class="p">[</span><span class="s2">&quot;test&quot;</span><span class="p">],</span>
+    <span class="n">tokenizer</span><span class="o">=</span><span class="n">processor</span><span class="o">.</span><span class="n">feature_extractor</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainer</span><span class="o">.</span><span class="n">train</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainer</span><span class="o">.</span><span class="n">save_model</span><span class="p">(</span><span class="s2">&quot;/home/jim/w2v-test-run&quot;</span><span class="p">)</span>
+<span class="n">tokenizer</span><span class="o">.</span><span class="n">save_pretrained</span><span class="p">(</span><span class="s2">&quot;/home/jim/w2v-test-run&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="jimregan/notes"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/notes/abair/irish/2021/09/09/w2v-text-irish-abair.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
