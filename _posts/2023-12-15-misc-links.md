@@ -57,4 +57,11 @@ categories: [links]
 
 [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts)
 
+[NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+
+[facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate) --- AITemplate is a Python framework which renders neural network into high performance CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD GPU) inference.
+
+[SpeechMatrix: A Large-Scale Mined Corpus of Multilingual Speech-to-Speech Translations](https://arxiv.org/abs/2211.04508)
+Horrible licence.
+
 
