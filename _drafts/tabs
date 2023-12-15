@@ -184,47 +184,11 @@ https://github.com/openai/whisper/blob/main/whisper/tokenizer.py
 Language detection with Whisper - Models - Hugging Face Forums
 https://discuss.huggingface.co/t/language-detection-with-whisper/26003
 
-whisper/whisper/decoding.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/decoding.py
-
-whisper/whisper/tokenizer.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/tokenizer.py
-
-whisper/whisper/timing.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/timing.py
-
-openai/whisper Show And Tell · Discussions · GitHub
-https://github.com/openai/whisper/discussions/categories/show-and-tell
-
-whisper/whisper/transcribe.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/transcribe.py#L134
-
-whisper/whisper/decoding.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/decoding.py
-
-DDP training never starts · Lightning-AI/pytorch-lightning · Discussion #11865
-https://github.com/Lightning-AI/pytorch-lightning/discussions/11865
-
 karkirowle/relative_phoneme_analysis: Repository for phoneme analysis on word-level Kaldi/ESPNet ASR transcripts
 https://github.com/karkirowle/relative_phoneme_analysis/tree/master
 
-How 🤗 Accelerate runs very large models thanks to PyTorch
-https://huggingface.co/blog/accelerate-large-models
-
-Proceedings links - Google Sheets
-https://docs.google.com/spreadsheets/d/1kTZXP1VfAs8pbOvUhUdF4QhNYkTnxCIY4fKoEwUjmDo/edit#gid=1558919037
-
-Cló Gaelach agus Transkribus – Aistriúcháin
-https://aistriuchain.wordpress.com/2023/11/11/clo-gaelach-agus-transkribus/?fbclid=IwAR39Qzlw8wG9iMX4tjyM6CIbY2Uco22kPLV9muUPjPHjQdjzox9xBFDligY
-
-Digitising Cló Gaelach – Aistriúcháin
-https://aistriuchain.wordpress.com/2023/11/09/digitising-clo-gaelach/
-
 Irish Gaelic/seanchló print - Public Transkribus AI Model
 https://readcoop.eu/model/irish-gaelic-seanchlo-print/
-
-google-deepmind/graphcast
-https://github.com/google-deepmind/graphcast
 
 QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
 https://github.com/QwenLM/Qwen-Audio
@@ -235,35 +199,8 @@ https://huggingface.co/papers/2311.08403
 Instant3D: Instant Text-to-3D Generation
 https://ming1993li.github.io/Instant3DProj/
 
-vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention | vLLM Blog
-https://blog.vllm.ai/2023/06/20/vllm.html
-
-FasterDecoding/REST: REST: Retrieval-Based Speculative Decoding
-https://github.com/FasterDecoding/REST
-
-HyenaDNA Models - a LongSafari Collection
-https://huggingface.co/collections/LongSafari/hyenadna-models-654d0cbbe113b04ba5a0f638
-
-HazyResearch/hyena-dna: Official implementation for HyenaDNA, a long-range genomic foundation model built with Hyena
-https://github.com/HazyResearch/hyena-dna
-
 🐺🐦‍⬛ LLM Comparison/Test: 2x 34B Yi (Dolphin, Nous Capybara) vs. 12x 70B, 120B, ChatGPT/GPT-4 : r/LocalLLaMA
 https://www.reddit.com/r/LocalLLaMA/comments/17vcr9d/llm_comparisontest_2x_34b_yi_dolphin_nous/
-
-[2311.07093] On the Effectiveness of ASR Representations in Real-world Noisy Speech Emotion Recognition
-https://arxiv.org/abs/2311.07093
-
-Vaibhavs10/insanely-fast-whisper
-https://github.com/Vaibhavs10/insanely-fast-whisper
-
-🧑‍🏫 Instruction Tuning Vol. 1 - by Sebastian Ruder
-https://nlpnewsletter.substack.com/p/instruction-tuning-vol-1?utm_source=substack&utm_medium=email
-
-Proceedings, series, etc - Google Docs
-https://docs.google.com/document/d/12IGUg4oZCdt_taHTfh9MjI7tSIDOvZ5wFHVW2zV2_Hw/edit#heading=h.rvy6a0frcldi
-
-Proceedings links - Google Sheets
-https://docs.google.com/spreadsheets/d/1kTZXP1VfAs8pbOvUhUdF4QhNYkTnxCIY4fKoEwUjmDo/edit#gid=2073718871
 
 Folia Phoniatrica et Logopaedica | Karger Publishers
 https://karger.com/fpl/
@@ -277,18 +214,6 @@ https://docs.google.com/document/d/12CzHhuq_iYYNzixgk57fiRD8t_rbeVlLPKu4sXUtaQI/
 D3GA - Drivable 3D Gaussian Avatars - Wojciech Zielonka
 https://zielon.github.io/d3ga/
 
-2311.08581.pdf
-https://arxiv.org/pdf/2311.08581.pdf
-
-Italian Parkinson's Voice and Speech | IEEE DataPort
-https://ieee-dataport.org/open-access/italian-parkinsons-voice-and-speech
-
-VoxTester, software for digital evaluation of speech changes in Parkinson disease | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/7533761
-
-Assessment of Speech Intelligibility in Parkinson’s Disease Using a Speech-To-Text System | IEEE Journals & Magazine | IEEE Xplore
-https://ieeexplore.ieee.org/abstract/document/8070308
-
 speechandlanguageprocessing/ICASSP2022-Depression: Automatic Depression Detection: a GRU/ BiLSTM-based Model and An Emotional Audio-Textual Corpus
 https://github.com/speechandlanguageprocessing/ICASSP2022-Depression
 
@@ -297,18 +222,6 @@ https://arxiv.org/pdf/2202.08210.pdf
 
 Ed Newton-Rex on X: "I’ve resigned from my role leading the Audio team at Stability AI, because I don’t agree with the company’s opinion that training generative AI models on copyrighted works is ‘fair use’. First off, I want to say that there are lots of people at Stability who are deeply…" / X
 https://twitter.com/ednewtonrex/status/1724902327151452486
-
-lasid.py · jimregan/lasid at main
-https://huggingface.co/datasets/jimregan/lasid/blob/main/lasid.py
-
-clarinpl_studio.py · jimregan/clarinpl_studio at main
-https://huggingface.co/datasets/jimregan/clarinpl_studio/blob/main/clarinpl_studio.py
-
-neonbjb/tortoise-tts: A multi-voice TTS system trained with an emphasis on quality
-https://github.com/neonbjb/tortoise-tts
-
-neonbjb (neonbjb) / Repositories
-https://github.com/neonbjb?tab=repositories
 
 ocotillo/ocotillo/dataset.py at main · neonbjb/ocotillo
 https://github.com/neonbjb/ocotillo/blob/main/ocotillo/dataset.py
@@ -978,8 +891,5 @@ https://github.com/bigscience-workshop/petals/wiki/Launch-your-own-swarm
 
 Run a custom model with Petals · bigscience-workshop/petals Wiki
 https://github.com/bigscience-workshop/petals/wiki/Run-a-custom-model-with-Petals
-
-Tomas Hernando Kofman on X: "1/9 https://t.co/e2c5R6BnZu We’re open-sourcing a lightweight preview of our router that sends queries to either GPT-3.5 or GPT-4, maximizing accuracy while drastically reducing costs and latency. Routing to Gemini, Mistral, Claude, and Llama coming soon. A few quick points:" / X
-https://twitter.com/tomas_hk/status/1734664304924721245
 
 
