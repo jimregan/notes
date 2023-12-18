@@ -108,4 +108,6 @@ Horrible licence.
 
 [eth-sri/astarix](https://github.com/eth-sri/astarix) --- AStarix: Fast and Optimal Sequence-to-Graph Aligner
 
+[OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654), [demo](https://pengsongyou.github.io/openscene), [code](https://github.com/pengsongyou/openscene)
+
 

@@ -130,14 +130,11 @@ https://github.com/karkirowle/relative_phoneme_analysis/tree/master
 Irish Gaelic/seanchló print - Public Transkribus AI Model
 https://readcoop.eu/model/irish-gaelic-seanchlo-print/
 
-QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
-https://github.com/QwenLM/Qwen-Audio
-
 Paper page - Instant3D: Instant Text-to-3D Generation
 https://huggingface.co/papers/2311.08403
 
-Instant3D: Instant Text-to-3D Generation
-https://ming1993li.github.io/Instant3DProj/
+ming1993li/Instant3DCodes
+https://github.com/ming1993li/Instant3DCodes
 
 🐺🐦‍⬛ LLM Comparison/Test: 2x 34B Yi (Dolphin, Nous Capybara) vs. 12x 70B, 120B, ChatGPT/GPT-4 : r/LocalLLaMA
 https://www.reddit.com/r/LocalLLaMA/comments/17vcr9d/llm_comparisontest_2x_34b_yi_dolphin_nous/
@@ -817,9 +814,6 @@ https://huggingface.co/datasets/ShuhongZheng/3D-LLM/tree/main
 facebookresearch/Mask2Former: Code release for "Masked-attention Mask Transformer for Universal Image Segmentation"
 https://github.com/facebookresearch/Mask2Former?tab=readme-ov-file
 
-2211.15654.pdf
-https://arxiv.org/pdf/2211.15654.pdf
-
 2303.09553.pdf
 https://arxiv.org/pdf/2303.09553.pdf
 
@@ -831,4 +825,7 @@ https://vladimiryugay.github.io/gaussian_slam/
 
 2312.08553.pdf
 https://arxiv.org/pdf/2312.08553.pdf
+
+Stream video through network - Unity Forum
+https://forum.unity.com/threads/stream-video-through-network.464693/
 
