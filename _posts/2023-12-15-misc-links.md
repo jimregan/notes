@@ -64,4 +64,16 @@ categories: [links]
 [SpeechMatrix: A Large-Scale Mined Corpus of Multilingual Speech-to-Speech Translations](https://arxiv.org/abs/2211.04508)
 Horrible licence.
 
+[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+
+[USM-Lite: Quantization and Sparsity Aware Fine-tuning for Speech Recognition with Universal Speech Models](https://arxiv.org/abs/2312.08553)
+
+{% twitter https://twitter.com/bindureddy/status/1736445563099570180 %}
+
+[dylanebert/gsplat.js](https://github.com/dylanebert/gsplat.js)
+
+[migtissera/Tess-Coder-v1.0](https://huggingface.co/datasets/migtissera/Tess-Coder-v1.0)
+
+[google-research/robotics_transformer](https://github.com/google-research/robotics_transformer)
+
 
