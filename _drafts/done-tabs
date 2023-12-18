@@ -1,15 +1,3 @@
-python-poppler · PyPI
-https://pypi.org/project/python-poppler/
-
-Untitled30.ipynb - Colaboratory
-https://colab.research.google.com/drive/1ikJu1txF9T8Oa5QyNz8p9dutHc5gvQ7n#scrollTo=_8CaHYDMmG_R
-
-Numbers from 100-1 Million
-http://www.nualeargais.ie/gnag/zahl2.htm
-
-Uimhreacha.doc
-https://www.lexiconista.com/pdf/Uimhreacha.pdf
-
 ASR-with-Transducers.ipynb - Colaboratory
 https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/ASR_with_Transducers.ipynb#scrollTo=eAqCcJ-T6C6k
 
@@ -25,26 +13,11 @@ https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/common/tokenizers/text
 [WIP] add buffered chunked streaming for nemo force aligner (#6185) · NVIDIA/NeMo@0285bee
 https://github.com/NVIDIA/NeMo
 
-NeMo/README.md at stable · NVIDIA/NeMo · GitHub
-https://github.com/NVIDIA/NeMo/blob/stable/examples/asr/asr_vad/README.md
-
-nvidia (NVIDIA)
-https://huggingface.co/nvidia
-
-Models — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html#conformer-ctc
-
 Hungarian orthography - Wikipedia
 https://en.wikipedia.org/wiki/Hungarian_orthography#Punctuation
 
 KTH/hungarian-single-speaker-tts at original
 https://huggingface.co/datasets/KTH/hungarian-single-speaker-tts/tree/original
-
-[TTS] remove phonemizer.py by XuesongYang · Pull Request #5090 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/5090
-
-NeMo/tutorials/tts at main · NVIDIA/NeMo · GitHub
-https://github.com/NVIDIA/NeMo/tree/main/tutorials/tts
 
 NeMo/FastPitch_GermanTTS_Training.ipynb at main · NVIDIA/NeMo · GitHub
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_GermanTTS_Training.ipynb
@@ -55,14 +28,8 @@ https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/tts/g2p.html
 Grapheme-to-Phoneme Models — NVIDIA NeMo
 https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/tts/g2p.html#sentence-level-dataset-pipeline
 
-Pull requests · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pulls
-
 Adding features to a devcontainer.json file - GitHub Docs
 https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-dev-containers/adding-features-to-a-devcontainer-file
-
-Wikipedia
-https://se.wikipedia.org/wiki/Port%C3%A1la:Ovdasiidu
 
 Sameradion & SVT Sápmi | Sveriges Radio
 https://sverigesradio.se/tabla.aspx?programid=224
@@ -84,9 +51,6 @@ https://github.com/NVIDIA/NeMo/blob/main/scripts/dataset_processing/tts/thorsten
 
 NeMo/ipa_lexicon.py at c8e6ea86d4e43f383d843c272333cb61a4ff740d · NVIDIA/NeMo · GitHub
 https://github.com/NVIDIA/NeMo/blob/c8e6ea86d4e43f383d843c272333cb61a4ff740d/nemo/collections/common/tokenizers/text_to_speech/ipa_lexicon.py#L86
-
-NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
-https://github.com/NVIDIA/NeMo-text-processing
 
 asuni/wavelet_prosody_toolkit
 https://github.com/asuni/wavelet_prosody_toolkit
@@ -139,26 +103,8 @@ https://divvun.no/tale/Manual_Sami.pdf
 giellalt/lang-sme: Finite state and Constraint Grammar based analysers and proofing tools, and language resources for the Northern Sami language
 https://github.com/giellalt/lang-sme
 
-lang-sme/configure.ac at main · giellalt/lang-sme · GitHub
-https://github.com/giellalt/lang-sme/blob/main/configure.ac
-
-lang-sme/giella-macros.m4 at main · giellalt/lang-sme · GitHub
-https://github.com/giellalt/lang-sme/blob/main/m4/giella-macros.m4
-
-ubuntu - Official Image | Docker Hub
-https://hub.docker.com/_/ubuntu
-
 lang-sme/transcriptor-numbers-digit2text.lexc at main · giellalt/lang-sme · GitHub
 https://github.com/giellalt/lang-sme/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc
-
-Acoustic-to-Articulatory Mapping With Joint Optimization of Deep Speech Enhancement and Articulatory Inversion Models | IEEE Journals & Magazine | IEEE Xplore
-https://ieeexplore.ieee.org/document/9640504
-
-Models - Hugging Face
-https://huggingface.co/models?other=audio-classification
-
-Audio Spectrogram Transformer
-https://huggingface.co/docs/transformers/main/en/model_doc/audio-spectrogram-transformer#transformers.ASTForAudioClassification.forward.example
 
 harshit345/xlsr-wav2vec-speech-emotion-recognition · Hugging Face
 https://huggingface.co/harshit345/xlsr-wav2vec-speech-emotion-recognition
@@ -169,53 +115,11 @@ https://huggingface.co/TalTechNLP/voxlingua107-epaca-tdnn
 The PyTorch training loop. Learn everything PyTorch does for you… | by Dipam Vasani | Towards Data Science
 https://towardsdatascience.com/the-pytorch-training-loop-3c645c56665a
 
-sådan - Wiktionary
-https://en.wiktionary.org/wiki/s%C3%A5dan#Swedish
-
-Numbers in Polish
-https://omniglot.com/language/numbers/polish.htm
-
-dziewięćsetny - Wiktionary
-https://en.wiktionary.org/wiki/dziewi%C4%99%C4%87setny#Polish
-
-Polish morphology - Wikipedia
-https://en.wikipedia.org/wiki/Polish_morphology#Numbers_and_quantifiers
-
-dwa - Wiktionary
-https://en.wiktionary.org/wiki/dwa#Polish
-
-jeden - Wiktionary
-https://en.wiktionary.org/wiki/jeden#Polish
-
-dwa - Wiktionary
-https://en.wiktionary.org/wiki/dwa#Polish
-
-Swedish orthography - Wikipedia
-https://en.wikipedia.org/wiki/Swedish_orthography
-
-Submission – SIGUL 2023
-https://sigul-2023.ilc.cnr.it/call-for-papers/submission/
-
-(2) Andrej Karpathy on Twitter: "This is a baby GPT with two tokens 0/1 and context length of 3, viewing it as a finite state markov chain. It was trained on the sequence "111101111011110" for 50 iterations. The parameters and the architecture of the Transformer modifies the probabilities on the arrows. E.g. we… https://t.co/vj10nZEXlH" / Twitter
-https://twitter.com/karpathy/status/1645115622517542913
-
-Finnish numerals - Wikipedia
-https://en.wikipedia.org/wiki/Finnish_numerals
-
-Update wfst_text_normalization.rst by jimregan · Pull Request #6374 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/6374
-
 Restore Thutmose Tagger tutorial, move it to nlp (#6325) · NVIDIA/NeMo@697c3f3
 https://github.com/NVIDIA/NeMo/commit/697c3f36351a9a1c10a4ec6fae5f825c318037c2
 
 From Deep to Long Learning? · Hazy Research
 https://hazyresearch.stanford.edu/blog/2023-03-27-long-learning#alternate-explanations
-
-mediapipe/audio_classification.ipynb at main · googlesamples/mediapipe · GitHub
-https://github.com/googlesamples/mediapipe/blob/main/examples/audio_classifier/python/audio_classification.ipynb
-
-diss_paper (1).pdf
-file:///Users/joregan/Downloads/diss_paper%20(1).pdf
 
 app.py · Finnish-NLP/Finnish-Automatic-Speech-Recognition at main
 https://huggingface.co/spaces/Finnish-NLP/Finnish-Automatic-Speech-Recognition/blob/main/app.py
@@ -238,50 +142,17 @@ https://colab.research.google.com/drive/1WJ98KHgZxFGrHiMm4TyWZllSew_Af_ff?usp=sh
 app.py · sanchit-gandhi/whisper-large-v2 at main
 https://huggingface.co/spaces/sanchit-gandhi/whisper-large-v2/blob/main/app.py
 
-Whisper
-https://huggingface.co/docs/transformers/model_doc/whisper
-
-Whisper
-https://huggingface.co/docs/transformers/v4.28.1/en/model_doc/whisper#transformers.WhisperProcessor
-
-Irish Pronunciation Database: A
-https://www.teanglann.ie/en/fuaim/_a
-
-Untitled32.ipynb - Colaboratory
-https://colab.research.google.com/drive/1cfWJEi2L6Yd720NMB69mAQsAWLjXqJuy#scrollTo=fuI3SfRwqDkq
-
 Personal Qualities/Types of People – Daltaí na Gaeilge
 https://daltai.com/proverbs/personal-qualities-types-of-people/
-
-Swedish telephone fix by jimregan · Pull Request #60 · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pull/60
 
 Add Frame-VAD by stevehuang52 · Pull Request #6425 · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/pull/6425
 
-[ASR] Conformer global tokens in local attention (#6253) · NVIDIA/NeMo@65ae83d
-https://github.com/NVIDIA/NeMo/commit/65ae83d186220ead97743ad650c365351839d66e
-
-DiSS workshop 2023 - Bielefeld University
-https://www.uni-bielefeld.de/fakultaeten/linguistik-literaturwissenschaft/forschung/fachbereich/phonetik/diss-workshop23/
-
-Home / Twitter
-https://twitter.com/home
-
 LMQL: Programming Large Language Models
 https://lmql.ai/
 
-lmql/compiler.py at main · eth-sri/lmql · GitHub
-https://github.com/eth-sri/lmql/blob/main/src/lmql/language/compiler.py
-
 Deep RL at Scale: Sorting Waste in Office Buildings with a Fleet of Mobile Manipulators
 https://rl-at-scale.github.io/
-
-GitHub
-https://github.com/
-
-yang-song (yang-song) / Repositories
-https://github.com/yang-song?tab=repositories
 
 yang-song/lucid: A collection of infrastructure and tools for research in neural network interpretability.
 https://github.com/yang-song/lucid
@@ -297,12 +168,6 @@ https://github.com/openai/guided-diffusion
 
 Converting and Quantizing The Models · ravenscroftj/turbopilot Wiki
 https://github.com/ravenscroftj/turbopilot/wiki/Converting-and-Quantizing-The-Models
-
-HMM-based speech recognition
-https://chat.openai.com/
-
-A time delay neural network architecture for efficient modeling of long temporal contexts | Språkbanken Tal | Zotero
-https://www.zotero.org/groups/2516652/sprkbanken_tal/collections/P343NU6U/items/4UNGVMQ4/item-list
 
 9474.pdf
 https://www.journalijdr.com/sites/default/files/issue-pdf/9474.pdf
@@ -322,32 +187,11 @@ https://www.clsp.jhu.edu/people/graduate-students/guoguo-chen/
 IEEE Xplore - Conference Table of Contents
 https://ieeexplore.ieee.org/xpl/conhome/6156582/proceeding?isnumber=6163885&sortType=vol-only-seq&pageNumber=2
 
-Home / Twitter
-https://twitter.com/home
-
 randomfun/knn_vs_svm.ipynb at master · karpathy/randomfun · GitHub
 https://github.com/karpathy/randomfun/blob/master/knn_vs_svm.ipynb
 
 Speech Recognition — GMM, HMM. Before the Deep Learning (DL) era for… | by Jonathan Hui | Medium
 https://jonathan-hui.medium.com/speech-recognition-gmm-hmm-8bb5eff8b196
-
-DiSS workshop 2023 - Bielefeld University
-https://www.uni-bielefeld.de/fakultaeten/linguistik-literaturwissenschaft/forschung/fachbereich/phonetik/diss-workshop23/
-
-NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
-https://github.com/NVIDIA/NeMo-text-processing
-
-NeMo-text-processing/tokenize_and_classify_with_audio.py at main · NVIDIA/NeMo-text-processing · GitHub
-https://github.com/NVIDIA/NeMo-text-processing/blob/main/nemo_text_processing/text_normalization/en/taggers/tokenize_and_classify_with_audio.py
-
-Sandhi - Wikipedia
-https://en.wikipedia.org/wiki/Sandhi
-
-KBLab/rixvox · Datasets at Hugging Face
-https://huggingface.co/datasets/KBLab/rixvox
-
-DiSS workshop 2023 - Bielefeld University
-https://www.uni-bielefeld.de/fakultaeten/linguistik-literaturwissenschaft/forschung/fachbereich/phonetik/diss-workshop23/
 
 jrgillick/laughter-detection
 https://github.com/jrgillick/laughter-detection
@@ -360,39 +204,6 @@ https://multistream.co/p/EkPzIhIQYSv/_Starship_and_Super_Heavy_Starship_and_Supe
 
 espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.ipynb - Colaboratory
 https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.ipynb#scrollTo=41alrKGO4d3v
-
-espnet/download_and_untar.sh at master · espnet/espnet · GitHub
-https://github.com/espnet/espnet/blob/master/egs/yoloxochitl_mixtec/asr1/local/download_and_untar.sh
-
-[WIP] Support Whisper-style training as a new task S2T by pyf98 · Pull Request #5120 · espnet/espnet
-https://github.com/espnet/espnet/pull/5120/files
-
-Libri100 recipe for standalone Transducer by b-flo · Pull Request #4698 · espnet/espnet
-https://github.com/espnet/espnet/pull/4698/files
-
-Hubert/Wav2vec2 deep feature loss and STOI loss for SE by neillu23 · Pull Request #3896 · espnet/espnet
-https://github.com/espnet/espnet/pull/3896
-
-k2-fsa/k2: FSA/FST algorithms, differentiable, with PyTorch compatibility.
-https://github.com/k2-fsa/k2
-
-lhotse/lhotse/dataset at master · glynpu/lhotse · GitHub
-https://github.com/glynpu/lhotse/tree/master/lhotse/dataset
-
-glynpu/icefall
-https://github.com/glynpu/icefall
-
-[WIP] support k2 ctc by yaguanghu · Pull Request #2941 · espnet/espnet
-https://github.com/espnet/espnet/pull/2941
-
-espnet/README.md at master · espnet/espnet · GitHub
-https://github.com/espnet/espnet/blob/master/egs2/README.md
-
-2304.06706.pdf
-https://arxiv.org/pdf/2304.06706.pdf
-
-unilm/trocr at master · microsoft/unilm
-https://github.com/microsoft/unilm/tree/master/trocr
 
 Transformers-Tutorials/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb at master · NielsRogge/Transformers-Tutorials · GitHub
 https://github.com/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb
@@ -421,17 +232,8 @@ https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/spee
 libri-light/README.md at main · facebookresearch/libri-light · GitHub
 https://github.com/facebookresearch/libri-light/blob/main/data_preparation/README.md
 
-libri-light/make_vad_inputs.py at main · facebookresearch/libri-light · GitHub
-https://github.com/facebookresearch/libri-light/blob/main/data_preparation/make_vad_inputs.py
-
-fairseq/examples/textless_nlp/gslm at main · facebookresearch/fairseq · GitHub
-https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/gslm
-
 fairseq/byte_bpe.py at main · facebookresearch/fairseq · GitHub
 https://github.com/facebookresearch/fairseq/blob/main/fairseq/data/encoders/byte_bpe.py#L28
-
-fairseq/README.md at main · facebookresearch/fairseq · GitHub
-https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/unsupervised/README.md
 
 facebookresearch/xformers: Hackable and optimized Transformers building blocks, supporting a composable construction.
 https://github.com/facebookresearch/xformers
@@ -441,12 +243,6 @@ https://github.com/facebookresearch/fairseq/blob/ust/examples/speech_to_speech/d
 
 NaturalSpeech 2
 https://speechresearch.github.io/naturalspeech2/
-
-DINOv2: State-of-the-art computer vision models with self-supervised learning
-https://ai.facebook.com/blog/dino-v2-computer-vision-self-supervised-learning/?utm_source=twitter&utm_medium=organic_social&utm_campaign=dinov2&utm_content=video
-
-dinov2/LICENSE at main · facebookresearch/dinov2 · GitHub
-https://github.com/facebookresearch/dinov2/blob/main/LICENSE
 
 Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
 https://research.nvidia.com/labs/toronto-ai/VideoLDM/
@@ -475,9 +271,6 @@ https://github.com/qarmin/czkawka
 guillaumekln/faster-whisper: Faster Whisper transcription with CTranslate2
 https://github.com/guillaumekln/faster-whisper
 
-OpenNMT/CTranslate2: Fast inference engine for Transformer models
-https://github.com/OpenNMT/CTranslate2/tree/master
-
 The PhotoBook Task and Dataset - Datasets
 https://dmg-photobook.github.io/datasets.html
 
@@ -492,12 +285,6 @@ https://github.com/dmg-photobook/photobook_dataset/blob/master/segmentation/READ
 
 photobook_dataset/ACL_Analysis.ipynb at master · dmg-photobook/photobook_dataset · GitHub
 https://github.com/dmg-photobook/photobook_dataset/blob/master/ACL_Analysis.ipynb
-
-KTH - Sveriges största tekniska universitet | KTH
-https://www.kth.se/
-
-Bird City — Bird
-https://www.birdsthlm.com/bird-city
 
 Rage Room Stockholm - Breaking point AB
 https://breakingpoint.se/
@@ -622,9 +409,6 @@ https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/Buffered_Transducer_Infer
 NeMo/ASR_with_Transducers.ipynb at main · NVIDIA/NeMo · GitHub
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/ASR_with_Transducers.ipynb
 
-lvwerra/trl: Train transformer language models with reinforcement learning.
-https://github.com/lvwerra/trl
-
 notebooks/multi_lingual_speech_recognition.ipynb at main · huggingface/notebooks · GitHub
 https://github.com/huggingface/notebooks/blob/main/examples/multi_lingual_speech_recognition.ipynb
 
@@ -633,9 +417,6 @@ https://cs.slu.edu/~scannell/pub/dppsi.pdf
 
 kscanne/gbb: Sonraí traenála/tástála NLP
 https://github.com/kscanne/gbb
-
-UniversalDependencies/UD_Swedish_Sign_Language-SSLC: Swedish Sign Language
-https://github.com/UniversalDependencies/UD_Swedish_Sign_Language-SSLC
 
 UniversalDependencies/UD_Swedish-PUD: Parallel Universal Dependencies.
 https://github.com/UniversalDependencies/UD_Swedish-PUD
@@ -646,74 +427,8 @@ https://github.com/Idlak/idlak/blob/master/idlak-data/ga/normrules-default/tele.
 A Dialect of Donegal/The Vowel System - Wikisource, the free online library
 https://en.wikisource.org/wiki/A_Dialect_of_Donegal/The_Vowel_System
 
-Aesop a tháinig go h-Éirinn/An Coileach agus an Mada Rua - Wikisource
-https://wikisource.org/wiki/Aesop_a_th%C3%A1inig_go_h-%C3%89irinn/An_Coileach_agus_an_Mada_Rua
-
-Category:Irish language - Wikisource, the free online library
-https://en.wikisource.org/wiki/Category:Irish_language
-
-A Dialect of Donegal/Texts/Notes - Wikisource, the free online library
-https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Notes
-
-A Dialect of Donegal/The Vowel System - Wikisource, the free online library
-https://en.wikisource.org/wiki/A_Dialect_of_Donegal/The_Vowel_System
-
-A Dialect of Donegal - Wikisource, the free online library
-https://en.wikisource.org/wiki/A_Dialect_of_Donegal
-
-Index:A Dialect of Donegal - Wikisource, the free online library
-https://en.wikisource.org/wiki/Index:A_Dialect_of_Donegal
-
-Page:Quiggin Dialect of Donegal 0226.png - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:Quiggin_Dialect_of_Donegal_0226.png
-
-Page:Quiggin Dialect of Donegal 0234.png - Wikisource, the free online library
-https://en.wikisource.org/wiki/Page:Quiggin_Dialect_of_Donegal_0234.png
-
-Correcting a Book Distortion | ScanSnap Help
-https://www.pfu.ricoh.com/imaging/downloads/manual/ss_webhelp/en/help/webhelp/topic/ope_corrects_book.html
-
-Call for Papers – SIGUL 2023
-https://sigul-2023.ilc.cnr.it/call-for-papers/
-
-Pota Focal | Caighdeánaitheoir Gaeilge · Irish Language Standardizer
-http://www.potafocal.com/cai/
-
-cruinnigh - Wiktionary
-https://en.wiktionary.org/wiki/cruinnigh
-
-Irish Grammar Database: bí
-https://www.teanglann.ie/en/gram/b%C3%AD
-
-Ulster Irish - Wikipedia
-https://en.wikipedia.org/wiki/Ulster_Irish
-
-Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin
-http://proceedings.mlr.press/v48/amodei16.pdf
-
-dt2119/labs/lab4 at main · tmh/dt2119
-https://gits-15.sys.kth.se/tmh/dt2119/tree/main/labs/lab4
-
-dt2119/lab4.tex at main · tmh/dt2119
-https://gits-15.sys.kth.se/tmh/dt2119/blob/main/labs/lab4/instructions/lab4.tex
-
 RLracer/RACER
 https://github.com/RLracer/RACER
-
-guokte — Wiktionnaire
-https://fr.wiktionary.org/wiki/guokte
-
-guoktelogičieža — Wiktionnaire
-https://fr.wiktionary.org/wiki/guoktelogi%C4%8Die%C5%BEa
-
-Davvisámegiella - nordsamiska - Sveriges riksdags EU-information
-https://eu.riksdagen.se/global/other-languages/davvisamegiella/#EO-historj%C3%A1-oaneha%C4%8D%C4%8Dat
-
-Northern Sámi - Wikipedia
-https://en.wikipedia.org/wiki/Northern_S%C3%A1mi
-
-Manual_Sami.pdf
-https://divvun.no/tale/Manual_Sami.pdf
 
 nsbm.pdf
 https://giellaoahppa.se/fiillat/nsbm.pdf
@@ -724,50 +439,17 @@ https://fr.wiktionary.org/wiki/miljovdna#se
 Unmasking the Myth of Effortless Big Data - Making an Open Source Multi-lingual Infrastructure and Building Language Resources from Scratch
 https://aclanthology.org/2022.lrec-1.125.pdf
 
-Korp
-https://gtweb.uit.no/korp/#?page=0&search=word%7Cduh%C3%A1tguokte%C4%8Duo%C4%91i
-
-Stair leasaithe do Dara Ó Briain - Vicipéid
-https://ga.wikipedia.org/w/index.php?title=Dara_%C3%93_Briain&action=history
-
-An difríocht idir athruithe ar: "Dara Ó Briain" - Vicipéid
-https://ga.wikipedia.org/w/index.php?title=Dara_%C3%93_Briain&diff=prev&oldid=753850
-
-An difríocht idir athruithe ar: "Dara Ó Briain" - Vicipéid
-https://ga.wikipedia.org/w/index.php?title=Dara_%C3%93_Briain&diff=prev&oldid=652028
-
-An difríocht idir athruithe ar: "Dara Ó Briain" - Vicipéid
-https://ga.wikipedia.org/w/index.php?title=Dara_%C3%93_Briain&diff=prev&oldid=605467
-
-An difríocht idir athruithe ar: "Dara Ó Briain" - Vicipéid
-https://ga.wikipedia.org/w/index.php?title=Dara_%C3%93_Briain&diff=prev&oldid=547671
-
 Nuachtlitir Deireadh Fómhair 2019
 https://www.pilibbarun.com/res/newsletters/Nuachtlitir%202019-10.pdf
 
 Téacsanna atá glactha - Dé hAoine, 10 Iúil 2020
 https://www.europarl.europa.eu/doceo/document/TA-9-2020-07-10_GA.html
 
-Vaccination | Östermalm | VaccinDirekt
-https://vaccindirekt.se/mottagningar/ostermalm/?_gl=1*1xhxs98*_up*MQ..&gclid=CjwKCAjwvJyjBhApEiwAWz2nLUbQA7dOqiJNdEU1iU-8l70E-mm6eR_j3O-meEX8ULfs8YYeuXetVRoCajUQAvD_BwE#boka
-
-sixteenth - Translation to Irish Gaelic with audio pronunciation of translations for sixteenth by New English-Irish Dictionary
-https://www.focloir.ie/en/dictionary/ei/sixteenth
-
 "sédéagú nóta" | téarma.ie
 https://www.tearma.ie/q/s%C3%A9d%C3%A9ag%C3%BA%20n%C3%B3ta/ga/
 
-Grúpa taighde Gaois | Fiontar & Scoil na Gaeilge, DCU
-https://www.gaois.ie/ga/corpora/monolingual/
-
 'sixteenth' — Corpas Comhthreomhar Béarla‑Gaeilge de Théacsanna Reachtúla | Grúpa taighde Gaois
 https://www.gaois.ie/ga/corpora/parallel/?Query=sixteenth&Language=en&SearchMode=exact&PerPage=50
-
-Corpas Foclóireachta na Gaeilge | Grúpa taighde Gaois
-https://www.gaois.ie/ga/corpora/lexicography/login/
-
-Educational material - New English-Irish Dictionary from Foras na Gaeilge
-https://www.focloir.ie/en/page/education.html
 
 points-of-grammar.pdf
 https://www.focloir.ie/external/images/en/points-of-grammar.pdf
@@ -802,32 +484,8 @@ https://github.blog/changelog/2020-02-26-multi-line-code-suggestions-beta/
 stanfordnlp/string2string: String-to-String Algorithms for Natural Language Processing
 https://github.com/stanfordnlp/string2string
 
-stanfordnlp/string2string: String-to-String Algorithms for Natural Language Processing
-https://github.com/stanfordnlp/string2string#example-usage
-
 Numerals
 https://oahpa.no/sme/gramm/logut.eng.html
-
-Pull requests · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pulls?q=is%3Apr+is%3Aclosed
-
-Irish TN by jimregan · Pull Request #71 · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pull/71
-
-NeMo-text-processing/__init__.py at main · NVIDIA/NeMo-text-processing · GitHub
-https://github.com/NVIDIA/NeMo-text-processing/blob/main/nemo_text_processing/text_normalization/es/__init__.py
-
-centimetre - Translation to Irish Gaelic with audio pronunciation of translations for centimetre by New English-Irish Dictionary
-https://www.focloir.ie/en/dictionary/ei/centimetre
-
-Gramadach na Gaeilge
-https://braesicke.de/gram.htm?zahl3.htm
-
-capital - Translation to Irish Gaelic with audio pronunciation of translations for capital by New English-Irish Dictionary
-https://www.focloir.ie/en/dictionary/ei/capital
-
-en.wiktionary.org
-https://en.wiktionary.org/wiki/Appendix:Irish_mutations
 
 Introducing speech-to-text, text-to-speech, and more for 1,100+ languages
 https://ai.facebook.com/blog/multilingual-model-speech-recognition/?utm_source=twitter&utm_medium=organic_social&utm_campaign=blog&utm_content=card
