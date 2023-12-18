@@ -76,4 +76,20 @@ Horrible licence.
 
 [google-research/robotics_transformer](https://github.com/google-research/robotics_transformer)
 
+[huggingface/trl](https://github.com/huggingface/trl)
+
+[UniversalDependencies/UD_Swedish_Sign_Language-SSLC](https://github.com/UniversalDependencies/UD_Swedish_Sign_Language-SSLC)
+
+[Numbers from 100-1 Million](http://www.nualeargais.ie/gnag/zahl2.htm)
+
+[Uimhreacha](https://www.lexiconista.com/pdf/Uimhreacha.pdf)
+
+[Acoustic-to-Articulatory Mapping With Joint Optimization of Deep Speech Enhancement and Articulatory Inversion Models](https://ieeexplore.ieee.org/document/9640504)
+
+{% twitter https://twitter.com/karpathy/status/1645115622517542913 %}
+
+[Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields](https://arxiv.org/abs/2304.06706)
+
+[OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2)
+
 
