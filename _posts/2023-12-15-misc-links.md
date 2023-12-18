@@ -92,4 +92,20 @@ Horrible licence.
 
 [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2)
 
+[Nile Making Things That Gods Detest Documentary](https://www.youtube.com/watch?v=qZsNsPtinMQ)
+
+[GestureDiffuCLIP demo](https://pku-mocca.github.io/GestureDiffuCLIP-Page/)
+
+[FLAP: Fast Language-Audio Pre-training](https://arxiv.org/abs/2311.01615)
+
+[Add Bayes Risk CTC](https://github.com/espnet/espnet/pull/5519)
+
+[pnnl/HyperNetX](https://github.com/pnnl/HyperNetX) --- Python package for hypergraph analysis and visualization.
+
+[Finite state transducers and Pynini](http://m.mr-pc.org/t/ling83800/2020sp/lecture05b.pdf)
+
+[cobcom/wlalign](https://gitlab.inria.fr/cobcom/wlalign) --- An implementation of the WL-align algorithm, a graph-alignment routine based on the generalization of the Weisfeiler-Lehman algorithm.
+
+[eth-sri/astarix](https://github.com/eth-sri/astarix) --- AStarix: Fast and Optimal Sequence-to-Graph Aligner
+
 
