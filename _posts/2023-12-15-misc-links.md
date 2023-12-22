@@ -110,4 +110,6 @@ Horrible licence.
 
 [OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654), [demo](https://pengsongyou.github.io/openscene), [code](https://github.com/pengsongyou/openscene)
 
+{% twitter https://twitter.com/ednewtonrex/status/1724902327151452486 %}
+
 
