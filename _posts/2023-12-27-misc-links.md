@@ -119,3 +119,22 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 [Protecting Voice-Controlled Devices against LASER Injection Attacks](https://arxiv.org/abs/2310.09404)
 
 [Accelerating over 130,000 Hugging Face models with ONNX Runtime](https://huggingface.co/blog/ort-accelerating-hf-models)
+
+[The N Implementation Details of RLHF with PPO](https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo)
+
+[8 Hungarian Novels You Should Read Before You Die](https://theculturetrip.com/europe/hungary/articles/8-hungarian-novels-you-should-read-before-you-die)
+
+[apple/ml-ferret](https://github.com/apple/ml-ferret)
+
+[Deploy Embedding Models with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints-embeddings)
+
+[Personal Copilot: Train Your Own Coding Assistant](https://huggingface.co/blog/personal-copilot)
+
+[Calculus Made Easy](https://en.wikisource.org/wiki/Calculus_Made_Easy)
+
+[Language Model Beats Diffusion -- Tokenizer is Key to Visual Generation](https://arxiv.org/abs/2310.05737)
+
+[Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://robotics-transformer-x.github.io/),
+[code](https://github.com/google-deepmind/open_x_embodiment)
+
+
