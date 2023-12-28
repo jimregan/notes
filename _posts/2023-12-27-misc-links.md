@@ -22,3 +22,8 @@ categories: [links]
 [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752),
 [state-spaces/mamba](https://github.com/state-spaces/mamba)
 
+[airbnb/visx](https://github.com/airbnb/visx)
+
+[nnnoiseless: porting audio code from C to rust](https://jneem.github.io/nnnoiseless/), [code](https://github.com/jneem/nnnoiseless)
+
+
