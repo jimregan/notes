@@ -87,4 +87,5 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Spectrogram Inversion for Audio Source Separation via Consistency, Mixing, and Magnitude Constraints](https://arxiv.org/abs/2303.01864)
 
+[Táin Bó Cúalnge](https://www.gutenberg.org/files/16464/16464-h/16464-h.htm)
 
