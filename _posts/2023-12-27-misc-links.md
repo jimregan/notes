@@ -34,4 +34,57 @@ categories: [links]
 
 [castorini/howl](https://github.com/castorini/howl/) --- Wake word detection modeling toolkit for Firefox Voice, supporting open datasets like Speech Commands and Common Voice.
 
+[stanford-oval/genie-toolkit](https://github.com/stanford-oval/genie-toolkit) --- The Genie open source kit for voice assistant (formerly known as Almond)
+
+[stanford-oval/thingtalk](https://github.com/stanford-oval/thingtalk) --- The Programming Language of Virtual Assistants
+
+[salesforce/morpheus](https://github.com/salesforce/morpheus) --- Code for ACL'20 paper "It's Morphin' Time! Combating Linguistic Discrimination with Inflectional Perturbations"
+
+[Instructions for estimating the location of beats in a soundfile](https://cspeech.ucd.ie/Fred/beatExtraction.php)
+
+[LSTMs Explained: A Complete, Technically Accurate, Conceptual Guide with Keras](https://medium.com/analytics-vidhya/lstms-explained-a-complete-technically-accurate-conceptual-guide-with-keras-2a650327e8f2)
+
+[Looking under the tinfoil hat: Clarifying the personological and psychopathological correlates of conspiracy beliefs](https://onlinelibrary.wiley.com/doi/abs/10.1111/jopy.12588?af=R)
+
+[Different languages, similar encoding efficiency: Comparable information rates across the human communicative niche](https://www.science.org/doi/10.1126/sciadv.aaw2594)
+
+[OpenNMT-py BERT Tutorial](https://forum.opennmt.net/t/opennmt-py-bert-tutorial/3015/1)
+
+[In his spare time, an engineer found flaws in the classic book "A Million Random Digits"](https://boingboing.net/2020/09/29/in-his-spare-time-an-engineer-found-flaws-in-the-classic-book-a-million-random-digits.html)
+
+[QData/TextAttack](https://github.com/QData/TextAttack) --- About
+TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP
+
+[Hear Slayer guitarist Jeff Hanneman’s ferocious unreleased demos for Reign In Blood](https://www.loudersound.com/news/hear-slayer-guitarist-jeff-hannemans-ferocious-unreleased-demos-for-reign-in-blood)
+
+[gtn-org/gtn](https://github.com/gtn-org/gtn) --- Automatic differentiation with weighted finite-state transducers.
+
+[Deformable DETR: Deformable Transformers for End-to-End Object Detection](https://arxiv.org/abs/2010.04159)
+
+[Latent linguistic embedding for cross-lingual text-to-speech and voice conversion](https://arxiv.org/abs/2010.03717)
+
+[Domain Adversarial Neural Networks for Dysarthric Speech Recognition](https://arxiv.org/abs/2010.03623)
+
+[facebookincubator/CG-SQL](https://github.com/facebookincubator/CG-SQL) --- CG/SQL is a compiler that converts a SQL Stored Procedure like language into C for SQLite. SQLite has no stored procedures of its own. CG/CQL can also generate other useful artifacts for testing and schema maintenance.
+
+[Knowledge Transfer in Self Supervised Learning](https://amitness.com/knowledge-transfer/)
+
+[Transformer Transducer: One Model Unifying Streaming and Non-streaming Speech Recognition](https://arxiv.org/abs/2010.03192)
+
+[google/monster-mash](https://github.com/google/monster-mash) --- Sketch-Based Modeling and Animation Tool
+
+[DEEP LEARNING](https://atcold.github.io/NYU-DLSP21/)
+
+[Transformer-based Encoder-Decoder Models](https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Encoder_Decoder_Model.ipynb#scrollTo=myjTH2wFeWTU)
+
+[RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs](https://arxiv.org/abs/2010.04029)
+
+[Overview: State-of-the-Art Machine Learning Algorithms per Discipline & per Task](https://towardsdatascience.com/overview-state-of-the-art-machine-learning-algorithms-per-discipline-per-task-c1a16a66b8bb)
+
+[kmkurn/pytorch-crf](https://github.com/kmkurn/pytorch-crf)
+
+[Composition-based on-the-fly rescoring for salient n-gram biasing](https://research.google/pubs/composition-based-on-the-fly-rescoring-for-salient-n-gram-biasing/)
+
+[Spectrogram Inversion for Audio Source Separation via Consistency, Mixing, and Magnitude Constraints](https://arxiv.org/abs/2303.01864)
+
 
