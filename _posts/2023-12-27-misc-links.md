@@ -91,4 +91,16 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [johnma2006/mamba-minimal](https://github.com/johnma2006/mamba-minimal) --- Simple, minimal implementation of the Mamba SSM in one file of PyTorch.
 
+[getkeops/keops](https://github.com/getkeops/keops) --- KErnel OPerationS, on CPUs and GPUs, with autodiff and without memory overflows
+
+[The Annotated S4](https://srush.github.io/annotated-s4/), [code](https://github.com/srush/annotated-s4)
+
+[What is Mamba?](https://medium.com/@jelkhoury880/what-is-mamba-845987734ffc)
+
+[A Comprehensive Overview of Gaussian Splatting](https://towardsdatascience.com/a-comprehensive-overview-of-gaussian-splatting-e7d570081362)
+
+[stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) --- Stanford DSPy: The framework for programming with foundation models
+
+[stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) --- ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22)
+
 
