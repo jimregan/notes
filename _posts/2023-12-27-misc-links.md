@@ -15,4 +15,10 @@ categories: [links]
 
 [Learning Sparse Prototypes for Text Generation](https://arxiv.org/abs/2006.16336)
 
+[Hungarian name days](http://www.hungarianreference.com/Hungarian-name-day-nevnap-magyar-n%C3%A9vnapok-nevnapok.aspx)
+
+[siddk/voltron-robotics](https://github.com/siddk/voltron-robotics) --- Voltron: Language-Driven Representation Learning for Robotics
+
+[Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752),
+[state-spaces/mamba](https://github.com/state-spaces/mamba)
 
