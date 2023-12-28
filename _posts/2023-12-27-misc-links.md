@@ -103,4 +103,8 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [stanford-futuredata/ColBERT](https://github.com/stanford-futuredata/ColBERT) --- ColBERT: state-of-the-art neural search (SIGIR'20, TACL'21, NeurIPS'21, NAACL'22, CIKM'22)
 
+[allenai/Holodeck](https://github.com/allenai/Holodeck) --- Language Guided Generation of 3D Embodied AI Environments.
 
+[dolphin-2.5-mixtral-8x7b](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)
+
+[LLM360/Amber](https://huggingface.co/LLM360/Amber)
