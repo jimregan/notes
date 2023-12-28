@@ -108,3 +108,14 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 [dolphin-2.5-mixtral-8x7b](https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b)
 
 [LLM360/Amber](https://huggingface.co/LLM360/Amber)
+
+[Improving Whispered Speech Recognition Performance using Pseudo-whispered based Data Augmentation](https://arxiv.org/abs/2311.05179)
+
+[More Hungarian](https://dalle.party/?party=vfwXBfYt),
+[Kafka crow](https://dalle.party/?party=VMVWw4d2)
+
+[MalcolmSlaney/python_auditory_toolbox](https://github.com/MalcolmSlaney/python_auditory_toolbox)
+
+[Protecting Voice-Controlled Devices against LASER Injection Attacks](https://arxiv.org/abs/2310.09404)
+
+[Accelerating over 130,000 Hugging Face models with ONNX Runtime](https://huggingface.co/blog/ort-accelerating-hf-models)
