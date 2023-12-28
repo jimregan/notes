@@ -26,4 +26,12 @@ categories: [links]
 
 [nnnoiseless: porting audio code from C to rust](https://jneem.github.io/nnnoiseless/), [code](https://github.com/jneem/nnnoiseless)
 
+[CSTR VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)
+
+[ZDisket/TensorVox](https://github.com/ZDisket/TensorVox) --- Desktop application for neural speech synthesis written in C++
+
+[avaneev/r8brain-free-src](https://github.com/avaneev/r8brain-free-src) --- High-quality pro audio resampler / sample rate converter C++ library. Very fast, for both audio resampling and time-series interpolation.
+
+[castorini/howl](https://github.com/castorini/howl/) --- Wake word detection modeling toolkit for Firefox Voice, supporting open datasets like Speech Commands and Common Voice.
+
 
