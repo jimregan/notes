@@ -89,3 +89,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Táin Bó Cúalnge](https://www.gutenberg.org/files/16464/16464-h/16464-h.htm)
 
+[johnma2006/mamba-minimal](https://github.com/johnma2006/mamba-minimal) --- Simple, minimal implementation of the Mamba SSM in one file of PyTorch.
+
+
