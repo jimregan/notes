@@ -483,4 +483,30 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)
 
+[MSP: Multi-Stage Prompting for Making Pre-trained Language Models Better Translators](https://arxiv.org/abs/2110.06609)
+
+[Hero-Tales of Ireland by Jeremiah Curtin](https://www.gutenberg.org/ebooks/63866)
+
+[MycroftAI/lingua-franca](https://github.com/MycroftAI/lingua-franca) --- Mycroft's multilingual text parsing and formatting library
+
+[Acoustic event recognition using cochleagram image and convolutional neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0003682X18308144)
+
+[CBMM/cochleagram](https://github.com/CBMM/cochleagram) --- Cochlear sound spectrum
+
+[Speaker-independent vowel recognition: spectrograms versus cochleagrams](https://ieeexplore.ieee.org/document/115767)
+
+[A joint training framework for robust automatic speech recognition](https://dl.acm.org/doi/abs/10.1109/TASLP.2016.2528171)
+
+[Auditory features based on Gammatone filters for robust speech recognition](https://ieeexplore.ieee.org/document/6571843)
+
+[NN-512](https://nn-512.com/) --- NN-512 is a compiler that generates C99 code for neural net inference
+
+[vakila/de-stress](https://github.com/vakila/de-stress) --- Prototype German Computer-Assisted Pronunciation Training tool for lexical stress errors
+
+[guanpengchn/awesome-pronunciation](https://github.com/guanpengchn/awesome-pronunciation)
+
+[Automatic Prosodic Event Detection Using Acoustic, Lexical, and Syntactic Evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2600436/)
+
+[10 Ways to Optimize Text for Machine Translation](https://blog.inten.to/10-ways-to-optimize-text-for-machine-translation-6f2ab3f63789)
+
 
