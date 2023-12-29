@@ -143,3 +143,11 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) --- An open source implementation of Microsoft's VALL-E X zero-shot TTS model.
 
+[suno-ai/bark](https://github.com/suno-ai/bark) --- Text-Prompted Generative Audio Model
+
+[The Project Gutenberg Open Audiobook Collection](https://marhamilresearch4.blob.core.windows.net/gutenberg-public/Website/index.html),
+[code](https://github.com/microsoft/SynapseML)
+
+[Ressources for End-to-End French Text-to-Speech Blizzard challenge](https://zenodo.org/records/7560290)
+
+
