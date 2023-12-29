@@ -216,4 +216,12 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [adrianbg/kaldi.js](https://github.com/adrianbg/kaldi.js) --- This is a version of Kaldi tweaked to build to WebAssembly.
 
+[LSTMs Compose (and Learn) Bottom-Up](https://arxiv.org/abs/2010.04650)
+
+[Modern Practical Natural Language Processing](https://github.com/jmugan/modern_practical_nlp)
+
+[Understanding Transformers, the Programming Way](https://towardsdatascience.com/understanding-transformers-the-programming-way-f8ed22d112b2)
+
+[Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling](https://arxiv.org/abs/2010.06030)
+
 
