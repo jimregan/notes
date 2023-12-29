@@ -243,4 +243,23 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [kermitt2/grobid](https://github.com/kermitt2/grobid) --- A machine learning software for extracting information from scholarly documents
 
+[microsoft/nni](https://github.com/microsoft/nni) --- An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.
+
+[microsoft/LabanotationSuite](https://github.com/microsoft/LabanotationSuite) --- Microsoft Applied Robotics Research Library: LabanotationSuite - open source software tools to give service robots the ability to perform human-like gestures
+
+[lucidrains/mixture-of-experts](https://github.com/lucidrains/mixture-of-experts)
+
+[TezRomacH/layer-to-layer-pytorch](https://github.com/TezRomacH/layer-to-layer-pytorch)
+
+[Cross-lingual Retrieval for Iterative Self-Supervised Training](https://arxiv.org/abs/2006.09526)
+
+[Pre-training via Paraphrasing](https://arxiv.org/abs/2006.15020)
+
+[Augmenting Transformers with KNN-Based Composite Memory for Dialogue](https://arxiv.org/abs/2004.12744)
+
+[REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/abs/2002.08909),
+[code](https://github.com/google-research/language/tree/master/language/realm)
+
+[Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794)
+
 
