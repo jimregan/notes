@@ -321,4 +321,18 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Recreating Historical Streetscapes Using Deep Learning and Crowdsourcing](https://blog.research.google/2020/10/recreating-historical-streetscapes.html)
 
+[Advanced libtorch](https://g-airborne.com/bringing-your-deep-learning-model-to-production-with-libtorch-part-3-advanced-libtorch/)
+
+[Deep Transformers with Latent Depth](https://arxiv.org/abs/2009.13102)
+
+[alexa/ramen](https://github.com/alexa/ramen) --- A software for transferring pre-trained English models to foreign languages
+
+[alexa/Topical-Chat](https://github.com/alexa/Topical-Chat) --- A dataset containing human-human knowledge-grounded open-domain conversations.
+
+[Causal Reasoning in Probability Trees](https://github.com/google-deepmind/deepmind-research/blob/master/causal_reasoning/Causal_Reasoning_in_Probability_Trees.ipynb)
+
+[cdk8s-team/cdk8s](https://github.com/cdk8s-team/cdk8s) --- Define Kubernetes native apps and abstractions using object-oriented programming
+
+[aware-ai/byt5-german-grammar](https://huggingface.co/aware-ai/byt5-german-grammar)
+
 
