@@ -1,23 +1,13 @@
-
-bbc/simorgh: The BBC's Open Source Web Application. Contributions welcome! Used on some of our biggest websites, e.g.
-https://github.com/bbc/simorgh
-
-[2104.08691v1] The Power of Scale for Parameter-Efficient Prompt Tuning
-https://arxiv.org/abs/2104.08691v1
-
-GitHub - huggingface/speechbox
-https://github.com/huggingface/speechbox/
-
-GitHub - bbc/grid: BBC's implementation of The Guardian’s image management system - https://github.com/bbc/grid-infrastructure
+bbc/grid: BBC's implementation of The Guardian’s image management system - https://github.com/bbc/grid-infrastructure
 https://github.com/bbc/grid
 
-GitHub - bbc/dash.js: A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.
+bbc/dash.js: A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.
 https://github.com/bbc/dash.js
 
-GitHub - bbc/rd-apmm-python-lib-mediatimestamp: A simple timestamp implementation used by various other libraries
+bbc/rd-apmm-python-lib-mediatimestamp: A simple timestamp implementation used by various other libraries
 https://github.com/bbc/rd-apmm-python-lib-mediatimestamp
 
-GitHub - bbc/lrud: Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
+bbc/lrud: Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
 https://github.com/bbc/lrud
 
 GitHub - bbc/digital-paper-edit-client: Work in progress - BBC News Labs digital paper edit project - React Client
@@ -59,8 +49,11 @@ https://github.com/bbc/clever-thumbnailer
 GitHub - bbc/digital-paper-edit-storybook: Work in progress - BBC News Labs digital paper edit project - React storybook
 https://github.com/bbc/digital-paper-edit-storybook
 
-GitHub - shashikg/WhisperS2T: An Optimized Speech-to-Text Pipeline for the Whisper Model
+GitHub - shashikg/WhisperS2T: An Optimized Speech-to-Text Pipeline for the Whisper Model Supporting Multiple Inference Enginer
 https://github.com/shashikg/WhisperS2T
+
+Storybook
+https://bbc.github.io/digital-paper-edit-storybook/?path=/story/annotationoverlaytrigger--default
 
 The Winds of Winter - A Wiki of Ice and Fire
 https://awoiaf.westeros.org/index.php/The_Winds_of_Winter
@@ -71,20 +64,269 @@ https://huggingface.co/papers/2307.01197
 SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds
 https://silent-chen.github.io/Shap-Editor/
 
+GitHub - bbc/bbcrd-brirs: An impulse response dataset for dynamic data-based auralisation of advanced sound systems
+https://github.com/bbc/bbcrd-brirs
+
+GitHub - sofacoustics/SOFAtoolbox: SOFA Toolbox (API for Matlab, Octave)
+https://github.com/sofacoustics/SOFAtoolbox
+
+GitHub - bbc/subtitles-generator: A node module to generate subtitles by segmenting a list of time-coded text - BBC News Labs
+https://github.com/bbc/subtitles-generator
+
+BBC Open Source
+https://www.bbc.co.uk/opensource/
+
+BBC Open Source
+https://www.bbc.co.uk/opensource/projects/bbc-a11y
+
+BBC Open Source
+https://www.bbc.co.uk/opensource/projects/gel
+
+BBC Open Source
+https://www.bbc.co.uk/opensource/projects/simorgh
+
+Example layout and basic style
+https://bbc.github.io/tal/getting-started/tutorial/layout.html
+
+BBC Blogs - Technology + Creativity at the BBC
+https://www.bbc.co.uk/blogs/internet
+
+Home page - BBC R&D
+https://www.bbc.co.uk/rd
+
+The EAR Production Suite: Next-Generation Audio Software Tools - BBC R&D
+https://www.bbc.co.uk/rd/blog/2020-10-ear-next-generation-audio-software-tools
+
+Main functions — libbw64 0.10.0 documentation
+https://libbw64.readthedocs.io/en/latest/reference.html
+
+EAR Production Suite
+https://ear-production-suite.ebu.io/
+
+Publications - BBC R&D
+https://www.bbc.co.uk/rd/publications
+
+IRFS Weeknotes #312 - BBC R&D
+https://www.bbc.co.uk/rd/blog/2020-09-irfs-weeknotes-number-312
+
+aes31-adl-composer/sample-data/sample-output at master · bbc/aes31-adl-composer · GitHub
+https://github.com/bbc/aes31-adl-composer/tree/master/sample-data/sample-output
+
+GitHub - bbc/audiowaveform: C++ program to generate waveform data and render waveform images from audio files
+https://github.com/bbc/audiowaveform
+
+adobe cef - Google Search
+https://www.google.com/search?q=adobe+cef&oq=adobe+cef&aqs=chrome..69i57j0i457j0l3.9529j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+The Ardour Manual - Copying Versus Linking
+https://manual.ardour.org/adding-pre-existing-material/copying-versus-linking/
+
+Game of Thrones Winds of Winter: Furious backlash after George RR Martin's NEW post | Books | Entertainment | Express.co.uk
+https://www.express.co.uk/entertainment/books/1355321/Game-of-Thrones-Winds-of-Winter-George-RR-Martin-book-release-date-fan-HBO-backlash/amp
+
+BBC MakerBox
+https://www.bbc.co.uk/makerbox/tools/kaldi
+
+BBC News Labs | BBC News Labs
+https://bbcnewslabs.co.uk/
+
+Speech-to-Text - BBC R&D
+https://www.bbc.co.uk/rd/projects/speech-to-text
+
+BBC News Labs | BBC News Labs
+https://bbcnewslabs.co.uk/
+
+BBC Kaldi Converter [to export content back into Kaldi format] · Issue #31 · bbc/react-transcript-editor · GitHub
+https://github.com/bbc/react-transcript-editor/issues/31
+
+How can i make transcript for my custom video in json format( bbc kaldi) · Issue #162 · bbc/react-transcript-editor · GitHub
+https://github.com/bbc/react-transcript-editor/issues/162
+
+Trump claims Democrats trying to 'steal' election
+https://www.rte.ie/news/us-election-2020/2020/1105/1176052-us-election/
+
+Popular snack food sold in Aldi stores across Ireland recalled over pesticide fears - Irish Mirror Online
+https://www.irishmirror.ie/news/irish-news/popular-snack-food-sold-aldi-22955189.amp
+
+HMM-based non-native accent asses... preview & related info | Mendeley
+https://www.mendeley.com/catalogue/2bb81bfa-f269-35d1-b2ea-25cfff01c5aa/?articleTrace=AAABoGbMwNVelRzHubEwSDkvdpuahQFf0ckpAvSd5BgUgdQ-yUAEQHPgOQEEY6v3W07v-Lf2aRfkeMZHyYWUb5jPxDKok7sj3bvm2VecXHQN7Sh7SGujBlyB7ng-NCTx1Jqpr7HXEwLuRPYKBb-fupvhH-S0ZLPIjvXZ4hbGkO2HxKeXLDOD0dYkip37pSbxf-JerQuoWPLnFo512Zp537x6TjpDI9UGe_1jyaAg8ZMaYjBlGBmJLlfPAFtzvfUwipAcwsHgFxD9cgv3a-UcIM2DpN8uBi0zFFb-nKX-YztqB3J3_8qq9VsgdTpFYAGHeWFOEciQ3MZO6gWHbsdJXuuDsqEpmudwP-bm4ITN0hTDyXgA88hZwaTiinGJX4YBAilFTNo7uGryKTSkrSe9oAU4EgMvU6OlF8yymsTAQa69XRC4BBuDUU5WmXiyg1QUld5nOfZ_ce3WsPAiwrgXe_1cmSP8MLX4hHpZJKpFiJqjH8Ow2oHV_oo4teV42dgfyEHzO2wYhsqUEEGYPuZoFUHEKHBpJYxVjI2hylkbqXELz_BSjzsEw5e8MDGizmbpu4SEzeIMQPw
+
+How to check read receipts | WhatsApp Help Center
+https://faq.whatsapp.com/665923838265756/?locale=en_US&cms_platform=android&refsrc=deprecated&_rdr
+
+torch-metrics/torch_metrics at main · enochkan/torch-metrics · GitHub
+https://github.com/enochkan/torch-metrics/tree/main/torch_metrics
+
+Game of Thrones Star’s Worst Day of His Career Was While Filming the Show
+https://screenrant.com/game-thrones-ramsay-sansa-assault-scene-iwan-rheon/
+
+The reason Ryan Tubridy isn't on RTE radio this week as fans express fears over Late Late Toy Show 2020 - Irish Mirror Online
+https://www.irishmirror.ie/tv/reason-ryan-tubridy-isnt-rte-22961372
+
+Burger King wins hearts online after asking customers to order from rival McDonald’s and others | Trending News - The Indian Express
+https://indianexpress.com/article/trending/trending-globally/burger-king-is-asking-its-customers-to-order-from-rival-mcdonalds-and-others-6918961/
+
+Which US states are still counting?
+https://www.rte.ie/news/2020/1105/1176194-us-election-states-still-counting/
+
+kaldi/src/decoder/grammar-fst.h at master · kaldi-asr/kaldi · GitHub
+https://github.com/kaldi-asr/kaldi/blob/master/src/decoder/grammar-fst.h
+
+kaldi/src/decoder/grammar-fst.cc at master · kaldi-asr/kaldi · GitHub
+https://github.com/kaldi-asr/kaldi/blob/master/src/decoder/grammar-fst.cc
+
+idp.nature.com
+https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42256-020-00237-3
+
+[2009.08449] 'Less Than One'-Shot Learning: Learning N Classes From M<N Samples
+https://arxiv.org/abs/2009.08449
+
+My tumble dryer is showing fault te3, what does this mean, Siemens and it is about 5 years old, if something simple then
+https://www.justanswer.co.uk/appliance/cjuig-tumble-dryer-showing-fault-te3-does-mean.html
+
+Dutch Brewery Burns Iron as a Clean, Recyclable Fuel - Slashdot
+https://m.slashdot.org/story/377912
+
+lion - Translation to Irish Gaelic with audio pronunciation of translations for lion by New English-Irish Dictionary
+https://www.focloir.ie/en/dictionary/ei/lion
+
+Star Wars: The Mandalorian Season 2 Includes Awesome Return of the Jedi Easter Egg
+https://comicbook.com/starwars/news/star-wars-the-mandalorian-season-2-return-of-the-jedi-easter-egg/
+
+ESWC 2021 Conference Research Track | OpenReview
+https://openreview.net/group?id=eswc-conferences.org/ESWC/2021/Conference/Research_Track
+
+Call for Papers ESWC 2021 Resources Track – 2021 ESWC-Conferences
+https://2021.eswc-conferences.org/call-for-papers-resources-track/
+
+INTERSPEECH 2021 | Brno, Czech Republic
+https://www.interspeech2021.org/
+
+Computer Speech & Language | Journal | ScienceDirect.com by Elsevier
+https://www.sciencedirect.com/journal/computer-speech-and-language
+
+Computer Speech & Language | Journal | ScienceDirect.com by Elsevier
+https://www.sciencedirect.com/journal/computer-speech-and-language
+
+Call for Proposals - ASRU 2021 | IEEE Signal Processing Society
+https://signalprocessingsociety.org/community-involvement/speech-and-language-processing/newsletter/call-proposals-asru-2021
+
+The Challenges of using Transformers in ASR
+https://desh2608.github.io/2020-01-08-transformer-asr/
+
 How RTÉ wants taxpayers to fund €9m in pay rises it can’t afford | Independent.ie
 https://m.independent.ie/opinion/analysis/how-rte-wants-taxpayers-to-fund-9m-in-pay-rises-it-cant-afford/a2031138666.html
 
 migtissera/HelixNet · Hugging Face
 https://huggingface.co/migtissera/HelixNet
 
-SkyView -
-https://skyview.ebiljett.nu/TimeBooking/ChoosenEvent?eventId=292678&amount=2
+SLT 2021
+http://2021.ieeeslt.org/
 
-IrishRail
-https://journeyplanner.irishrail.ie/webapp/?start=1&REQ0JourneyStopsS0G=Dublin+Heuston&HWAI%3DJS%21js=yes&HWAI%3DJS%21ajax=yes&REQ0JourneyStopsZ0G=Thurles&journey_mode=single&REQ0JourneyDate=24%2F08%2F2023&REQ0JourneyTime=now&Number_children=0&Number_students=0&Number_adults=1&language=en_IE#!P|TP!histId|1!histKey|H83185
+(ASRU 2019) 2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU) | IEEE Signal Processing Society
+https://signalprocessingsociety.org/blog/asru-2019-2019-ieee-automatic-speech-recognition-and-understanding-workshop-asru
+
+GitHub - formiel/speech-translation: Multilingual speech translation
+https://github.com/formiel/speech-translation
+
+GitHub - synesthesiam/sv_kaldi-montreal: Swedish voice2json profile based on Kaldi
+https://github.com/synesthesiam/sv_kaldi-montreal
+
+GitHub - synesthesiam/voice2json: Command-line tools for speech and intent recognition on Linux
+https://github.com/synesthesiam/voice2json
+
+voice2json | Command-line tools for speech and intent recognition on Linux
+https://voice2json.org/recipes.html#train-a-rasa-nlu-bot
+
+voice2json | Command-line tools for speech and intent recognition on Linux
+https://voice2json.org/formats.html#intents
+
+speaker-embedding-with-phonetic-information/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh at master · mycrazycracy/speaker-embedding-with-phonetic-information · GitHub
+https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information/blob/master/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh
+
+SkyView -
+https://skyview.ebiljett.nu/TimeBooking
+
+Products
+https://catchbox.com/products
+
+100 Best Romantic Dates - Creative Date Night Ideas for Couples
+https://www.goodhousekeeping.com/life/relationships/a31405192/cute-romantic-date-ideas/
+
+[2303.13453] Better Together: Dialogue Separation and Voice Activity Detection for Audio Personalization in TV
+https://arxiv.org/abs/2303.13453
+
+GitHub - mycrazycracy/speaker-embedding-with-phonetic-information: The code for the Interspeech paper "Speaker Embedding Extraction with Phonetic Information"
+https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information
+
+create_pictures/create_pictures.praat at master · wendyelviragarcia/create_pictures · GitHub
+https://github.com/wendyelviragarcia/create_pictures/blob/master/create_pictures.praat
+
+Trip Planner - IrishRail
+https://journeyplanner.irishrail.ie/webapp/?start=1&REQ0JourneyStopsS0G=Dublin+Heuston&HWAI%3DJS%21js=yes&HWAI%3DJS%21ajax=yes&REQ0JourneyStopsZ0G=Thurles&journey_mode=single&REQ0JourneyDate=24%2F08%2F2023&REQ0JourneyTime=now&Number_children=0&Number_students=0&Number_adults=1&language=en_IE#!P|TP!histId|1!histKey|H955662
+
+GitHub - Yashish92/TCN-SI-tool-Nasality
+https://github.com/Yashish92/TCN-SI-tool-Nasality
 
 Get your card - ISIC
 https://www.isic.org/get-your-card/
+
+[1804.04862] Speaker Embedding Extraction with Phonetic Information
+https://arxiv.org/abs/1804.04862
+
+[2010.05103] On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks
+https://arxiv.org/abs/2010.05103
+
+1 new message
+https://www.tipperarylibraries.ie/
+
+1 new message
+https://www.tipperarylibraries.ie/online-newspapers/
+
+The Perfect Record Cleaner For LP Archive
+https://chisto.com/too-much-noise-and-crackle-when-playing-a-vinyl-record-dont-worry-chisto-provides-a-perfect-record-cleaning-solution-for-your-lp-archive/
+
+Classroomscreen | The #1 online whiteboard for teachers
+https://classroomscreen.com/
+
+putlocker2 - Google Search
+https://www.google.com/search?q=putlocker2&oq=putl&aqs=chrome.1.69i57j0l2j0i10i433j5.2820j0j9&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+404: This page could not be found
+https://unbound.com/books/dont-do-that-donald
+
+ohmeow | A full-stack web application and ML development company.
+https://ohmeow.com/posts/2020/11/06/_11_06_ajtfb_chapter_1.html
+
+Shaolin Kung Fu Ireland
+https://www.shaolinkungfu.ie/
+
+LSTMs Explained: A Complete, Technically Accurate, Conceptual Guide with Keras | by Ryan T. J. J. | Analytics Vidhya | Medium
+https://medium.com/analytics-vidhya/lstms-explained-a-complete-technically-accurate-conceptual-guide-with-keras-2a650327e8f2
+
+Irish Pronunciation Database: tírdhreach
+https://www.teanglann.ie/en/fuaim/t%c3%adrdhreach
+
+Page not found – d-real
+https://d-real.ie/d-real-2020-phd-topics/
+
+idp.springer.com
+https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=https%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-3-030-58323-1
+
+Aktuality « Úvod
+https://www.olomouc.eu/
+
+tds2019 - Google Search
+https://www.google.com/search?client=ms-android-motorola-rev2&sxsrf=ALeKk01pSxMf1QHwCEf3CSptqzjAjI2a6A%3A1604867925582&ei=VVeoX-GAI5yj1fAPguWZyAQ&q=tds2019&oq=tds2019&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBwgAEMkDEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA0yBAgAEA06BAgAEEc6BAgjECc6BwgAEMkDEAo6AggAOgUIABDJA1CnN1jkRWCMTGgAcAF4AIAB5AGIAfwFkgEFMS4wLjOYAQCgAQHIAQjAAQE&sclient=mobile-gws-wiz-serp
+
+INTERSPEECH 2021 | Brno, Czech Republic
+https://www.interspeech2021.org/
+
+GitHub - openXBOW/openXBOW: openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
+https://github.com/openXBOW/openXBOW
+
+openSMILE 3.0 - audEERING
+https://www.audeering.com/research/opensmile/
 
 WordPress › Error
 https://syncedreview.com/2020/11/09/amazon-alexa-ais-language-model-is-all-you-need-explores-nlu-as-qa/
