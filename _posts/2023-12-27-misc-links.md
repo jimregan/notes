@@ -515,4 +515,20 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Learning from Language Explanations](https://ai.stanford.edu/blog/learning-from-language/)
 
+[Talisman: a JavaScript archive of fuzzy matching, information retrieval and record linkage building blocks](https://joss.theoj.org/papers/10.21105/joss.02405)
+
+[Computing Receptive Fields of Convolutional Neural Networks](https://distill.pub/2019/computing-receptive-fields/)
+
+[Sequence Modeling With CTC](https://distill.pub/2017/ctc/)
+
+[xinjli/allosaurus](https://github.com/xinjli/allosaurus) --- Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
+
+[Feature Learning in Infinite-Width Neural Networks](https://arxiv.org/abs/2011.14522)
+
+[Uncertainty Estimation in Autoregressive Structured Prediction](https://arxiv.org/abs/2002.07650)
+
+[RNNs can generate bounded hierarchical languages with optimal memory](https://arxiv.org/abs/2010.07515)
+
+[persephone-tools/persephone](https://github.com/persephone-tools/persephone) --- A tool for automatic phoneme transcription
+
 
