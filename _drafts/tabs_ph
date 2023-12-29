@@ -1,120 +1,3 @@
-shashikg/WhisperS2T: An Optimized Speech-to-Text Pipeline for the Whisper Model Supporting Multiple Inference Enginer
-https://github.com/shashikg/WhisperS2T
-
-Paper page - Segment Anything Meets Point Tracking
-https://huggingface.co/papers/2307.01197
-
-SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds
-https://silent-chen.github.io/Shap-Editor/
-
-GitHub - bbc/bbcrd-brirs: An impulse response dataset for dynamic data-based auralisation of advanced sound systems
-https://github.com/bbc/bbcrd-brirs
-
-GitHub - sofacoustics/SOFAtoolbox: SOFA Toolbox (API for Matlab, Octave)
-https://github.com/sofacoustics/SOFAtoolbox
-
-GitHub - bbc/subtitles-generator: A node module to generate subtitles by segmenting a list of time-coded text - BBC News Labs
-https://github.com/bbc/subtitles-generator
-
-BBC Open Source
-https://www.bbc.co.uk/opensource/projects/gel
-
-Main functions — libbw64 0.10.0 documentation
-https://libbw64.readthedocs.io/en/latest/reference.html
-
-Publications - BBC R&D
-https://www.bbc.co.uk/rd/publications
-
-IRFS Weeknotes #312 - BBC R&D
-https://www.bbc.co.uk/rd/blog/2020-09-irfs-weeknotes-number-312
-
-aes31-adl-composer/sample-data/sample-output at master · bbc/aes31-adl-composer · GitHub
-https://github.com/bbc/aes31-adl-composer/tree/master/sample-data/sample-output
-
-GitHub - bbc/audiowaveform: C++ program to generate waveform data and render waveform images from audio files
-https://github.com/bbc/audiowaveform
-
-BBC MakerBox
-https://www.bbc.co.uk/makerbox/tools/kaldi
-
-BBC News Labs | BBC News Labs
-https://bbcnewslabs.co.uk/
-
-Speech-to-Text - BBC R&D
-https://www.bbc.co.uk/rd/projects/speech-to-text
-
-BBC Kaldi Converter [to export content back into Kaldi format] · Issue #31 · bbc/react-transcript-editor · GitHub
-https://github.com/bbc/react-transcript-editor/issues/31
-
-How can i make transcript for my custom video in json format( bbc kaldi) · Issue #162 · bbc/react-transcript-editor · GitHub
-https://github.com/bbc/react-transcript-editor/issues/162
-
-torch-metrics/torch_metrics at main · enochkan/torch-metrics · GitHub
-https://github.com/enochkan/torch-metrics/tree/main/torch_metrics
-
-Neural circuit policies enabling auditable autonomy | Nature Machine Intelligence
-https://www.nature.com/articles/s42256-020-00237-3
-
-[2009.08449] 'Less Than One'-Shot Learning: Learning N Classes From M<N Samples
-https://arxiv.org/abs/2009.08449
-
-Dutch Brewery Burns Iron as a Clean, Recyclable Fuel - Slashdot
-https://m.slashdot.org/story/377912
-
-The Challenges of using Transformers in ASR
-https://desh2608.github.io/2020-01-08-transformer-asr/
-
-migtissera/HelixNet · Hugging Face
-https://huggingface.co/migtissera/HelixNet
-
-GitHub - formiel/speech-translation: Multilingual speech translation
-https://github.com/formiel/speech-translation
-
-GitHub - synesthesiam/sv_kaldi-montreal: Swedish voice2json profile based on Kaldi
-https://github.com/synesthesiam/sv_kaldi-montreal
-
-GitHub - synesthesiam/voice2json: Command-line tools for speech and intent recognition on Linux
-https://github.com/synesthesiam/voice2json
-
-voice2json | Command-line tools for speech and intent recognition on Linux
-https://voice2json.org/recipes.html#train-a-rasa-nlu-bot
-
-voice2json | Command-line tools for speech and intent recognition on Linux
-https://voice2json.org/formats.html#intents
-
-speaker-embedding-with-phonetic-information/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh at master · mycrazycracy/speaker-embedding-with-phonetic-information · GitHub
-https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information/blob/master/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh
-
-[2303.13453] Better Together: Dialogue Separation and Voice Activity Detection for Audio Personalization in TV
-https://arxiv.org/abs/2303.13453
-
-GitHub - mycrazycracy/speaker-embedding-with-phonetic-information: The code for the Interspeech paper "Speaker Embedding Extraction with Phonetic Information"
-https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information
-
-create_pictures/create_pictures.praat at master · wendyelviragarcia/create_pictures · GitHub
-https://github.com/wendyelviragarcia/create_pictures/blob/master/create_pictures.praat
-
-GitHub - Yashish92/TCN-SI-tool-Nasality
-https://github.com/Yashish92/TCN-SI-tool-Nasality
-
-[1804.04862] Speaker Embedding Extraction with Phonetic Information
-https://arxiv.org/abs/1804.04862
-
-[2010.05103] On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks
-https://arxiv.org/abs/2010.05103
-
-The Perfect Record Cleaner For LP Archive
-https://chisto.com/too-much-noise-and-crackle-when-playing-a-vinyl-record-dont-worry-chisto-provides-a-perfect-record-cleaning-solution-for-your-lp-archive/
-
-LSTMs Explained: A Complete, Technically Accurate, Conceptual Guide with Keras | by Ryan T. J. J. | Analytics Vidhya | Medium
-https://medium.com/analytics-vidhya/lstms-explained-a-complete-technically-accurate-conceptual-guide-with-keras-2a650327e8f2
-
-GitHub - openXBOW/openXBOW: openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
-https://github.com/openXBOW/openXBOW
-
-GitHub - simonalexanderson/StyleGestures
-https://github.com/simonalexanderson/StyleGestures
-
 Announcing the Objectron Dataset – Google Research Blog
 https://blog.research.google/2020/11/announcing-objectron-dataset.html?m=1
 
@@ -205,11 +88,50 @@ https://www.reddit.com/r/linuxaudio/comments/8nwrxw/is_guitarix_really_the_best_
 (PDF) Towards an Arctic-style Database for Irish: Corpus Design Techniques | Amelia Kelly - Academia.edu
 https://www.academia.edu/179106/Towards_an_Arctic_style_Database_for_Irish_Corpus_Design_Techniques
 
+GitHub - ZorinOS/zorin-connect-android: Connect your Zorin OS computer with your Android device
+https://github.com/ZorinOS/zorin-connect-android
+
+Poussinou · GitHub
+https://github.com/Poussinou
+
+ArtyomZorin (ArtyomZorin) / Repositories · GitHub
+https://github.com/ArtyomZorin?tab=repositories
+
+Fleets: Twitter launches disappearing tweets tool worldwide | X | The Guardian
+https://www.theguardian.com/technology/2020/nov/18/fleets-twitter-launches-disappearing-tweets-tool-worldwide
+
+Here's how we're using AI to help detect misinformation
+https://ai.meta.com/blog/heres-how-were-using-ai-to-help-detect-misinformation/?utm_source=hootsuite&utm_medium&utm_term&utm_content&utm_campaign
+
+GitHub - ruffle-rs/ruffle: A Flash Player emulator written in Rust
+https://github.com/ruffle-rs/ruffle
+
 IPA Student Awards 2020-2021 | International Phonetic Association
 https://www.internationalphoneticassociation.org/news/202009/ipa-student-awards-2020-2021
 
 [2006.16336] Learning Sparse Prototypes for Text Generation
 https://arxiv.org/abs/2006.16336
+
+The new M1 Macs make cutting-edge, machine-learning workstations | ZDNET
+https://www.zdnet.com/google-amp/article/the-new-m1-macs-make-cutting-edge-machine-learning-workstations/
+
+GitHub - apple/tensorflow_macos: TensorFlow for macOS 11.0+ accelerated using Apple's ML Compute framework.
+https://github.com/apple/tensorflow_macos
+
+404 - Page not found
+https://www.lewuathe.com/custome-webgl-operation-in-tensorflow.js.html
+
+Get started with TensorFlow.js
+https://www.tensorflow.org/js/tutorials
+
+GitHub - tensorflow/tfjs-examples: Examples built with TensorFlow.js
+https://github.com/tensorflow/tfjs-examples
+
+GitHub - chaosmail/tfjs-onnx: Run and finetune pretrained Onnx models in the browser with GPU support via the wonderful Tensorflow.js library
+https://github.com/chaosmail/tfjs-onnx
+
+GitHub - elliotwaite/pytorch-to-javascript-with-onnx-js: Run PyTorch models in the browser using ONNX.js
+https://github.com/elliotwaite/pytorch-to-javascript-with-onnx-js
 
 About Cognizant | Cognizant
 https://www.cognizant.com/us/en/about-cognizant
