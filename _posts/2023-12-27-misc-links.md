@@ -262,4 +262,14 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Rethinking Attention with Performers](https://arxiv.org/abs/2009.14794)
 
+[CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+
+[Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition](https://medium.com/machine-learning-in-practice/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc)
+
+[KinWaiCheuk/nnAudio](https://github.com/KinWaiCheuk/nnAudio) --- Audio processing by using pytorch 1D convolution network
+
+[Bootstrapping Relation Extractors using Syntactic Search by Examples](https://arxiv.org/abs/2102.05007)
+
+[OpenMonkeyStudio](https://github.com/OpenMonkeyStudio)
+
 
