@@ -621,4 +621,24 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Mel Frequency Cepstral Coefficient (MFCC) tutorial](https://web.archive.org/web/20230826033115/http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/)
 
+[Claare Ny Gael](https://www.manxradio.com/podcasts/claare-ny-gael/episode/claare-ny-gael-27th-december-2020/)
+
+[Description d’un parler irlandais de Kerry/Texte](https://fr.m.wikisource.org/wiki/Description_d%E2%80%99un_parler_irlandais_de_Kerry/Texte)
+
+[Audio samples of Ulster-Scots speakers](http://www.ulsterscotsacademy.com/audio/index.php)
+
+[Ulster-Scots Education Resources](http://www.ulsterscotsacademy.com/education/index.php)
+
+[Lowland Scots](https://en.m.wikibooks.org/wiki/Lowland_Scots)
+
+[An focal don ainmhí seo → 🐶 i nGaeilge](https://twitter.com/duilinn/status/1056610448173424641)
+
+[emedvedev/attention-ocr](https://github.com/emedvedev/attention-ocr) --- A Tensorflow model for text recognition (CNN + seq2seq with visual attention) available as a Python package and compatible with Google Cloud ML Engine.
+
+[Character Recognition and Segmentation For Custom Data Using Detectron2](https://towardsdatascience.com/character-recognition-and-segmentation-for-custom-data-using-detectron2-599de82b393c)
+
+[da03/Attention-OCR](https://github.com/da03/Attention-OCR) --- Visual Attention based OCR
+
+[Comhar](https://comhar.ie/iris/)
+
 
