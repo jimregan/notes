@@ -335,4 +335,10 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [aware-ai/byt5-german-grammar](https://huggingface.co/aware-ai/byt5-german-grammar)
 
+[ali-vilab/videocomposer](https://github.com/ali-vilab/videocomposer) --- Official repo for VideoComposer: Compositional Video Synthesis with Motion Controllability
+
+[microsoft/MS-SNSD](https://github.com/microsoft/MS-SNSD) --- The Microsoft Scalable Noisy Speech Dataset (MS-SNSD) is a noisy speech dataset that can scale to arbitrary sizes depending on the number of speakers, noise types, and Speech to Noise Ratio (SNR) levels desired.
+
+[MarvinLvn/BabySLM](https://github.com/MarvinLvn/BabySLM) --- Behavioral probing of language acquisition models at the lexical and syntactic level
+
 
