@@ -194,4 +194,26 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [ddlBoJack/MT4SSL](https://github.com/ddlBoJack/MT4SSL) --- Official implementation for MT4SSL: Boosting Self-Supervised Speech Representation Learning by Integrating Multiple Targets
 
+[amogh3892/Audio-classification-using-Bag-of-Frames-approach](https://github.com/amogh3892/Audio-classification-using-Bag-of-Frames-approach) --- Classification of different categories of audio clips, especially non speech sounds using Bag-of-Frames approach.
+
+[JournalismAI-2021-Quotes/quote-extraction](https://github.com/JournalismAI-2021-Quotes/quote-extraction) --- Quote extraction for modular journalism (JournalismAI collab 2021)
+
+[Nearest Neighbor Machine Translation](https://arxiv.org/abs/2010.00710)
+
+[Atticus Open Contract Dataset](https://zenodo.org/records/4064880)
+
+[Clarifying exceptions and visualizing tensor operations in deep learning code](https://explained.ai/tensor-sensor/index.html)
+
+[Translation Artifacts in Cross-lingual Transfer Learning](https://arxiv.org/abs/2004.04721)
+
+[AI Explorables](https://pair.withgoogle.com/explorables/)
+
+[Improving Target-side Lexical Transfer in Multilingual Neural Machine Translation](https://arxiv.org/abs/2010.01667)
+
+[Leap-Of-Thought: Teaching Pre-Trained Models to Systematically Reason Over Implicit Knowledge](https://arxiv.org/abs/2006.06609)
+
+[meyda/meyda](https://github.com/meyda/meyda) --- Audio feature extraction for JavaScript.
+
+[adrianbg/kaldi.js](https://github.com/adrianbg/kaldi.js) --- This is a version of Kaldi tweaked to build to WebAssembly.
+
 
