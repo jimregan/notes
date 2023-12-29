@@ -509,4 +509,10 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [10 Ways to Optimize Text for Machine Translation](https://blog.inten.to/10-ways-to-optimize-text-for-machine-translation-6f2ab3f63789)
 
+[Text2Image: A new way to NLP?](https://towardsdatascience.com/text2image-a-new-way-to-nlp-cbf63376aa0d)
+
+[The Nand Game](https://nandgame.com/)
+
+[Learning from Language Explanations](https://ai.stanford.edu/blog/learning-from-language/)
+
 
