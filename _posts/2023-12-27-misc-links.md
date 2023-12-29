@@ -278,4 +278,33 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [An Introduction to Hungarian Literature in 8 books](https://theculturetrip.com/europe/hungary/articles/an-introduction-to-hungarian-literature-in-8-books)
 
+[NLP-progress Dialogue](https://nlpprogress.com/english/dialogue.html)
+
+[mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) --- Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
+
+[The JavaScript library for bespoke data visualization](https://d3js.org/)
+
+[opal/opal](https://github.com/opal/opal) --- Opal is a Ruby to JavaScript source-to-source compiler.
+
+[linebender/druid](https://github.com/linebender/druid) --- A data-first Rust-native UI design toolkit.
+
+[alphacep/vosk-api](https://github.com/alphacep/vosk-api) --- Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node
+
+[ossrs/srs](https://github.com/ossrs/srs) --- SRS is a simple, high-efficiency, real-time video server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT, MPEG-DASH, and GB28181.
+
+[Dobiasd/frugally-deep](https://github.com/Dobiasd/frugally-deep) --- Header-only library for using Keras (TensorFlow) models in C++.
+
+[HazyResearch/bootleg](https://github.com/HazyResearch/bootleg) --- Self-Supervision for Named Entity Disambiguation at the Tail
+
+[Composition-based on-the-fly rescoring for salient n-gram biasing](https://research.google/pubs/composition-based-on-the-fly-rescoring-for-salient-n-gram-biasing/)
+
+[Spectrogram Inversion for Audio Source Separation via Consistency, Mixing, and Magnitude Constraints](https://arxiv.org/abs/2303.01864)
+
+[google-research-datasets/RxR](https://github.com/google-research-datasets/RxR) --- Room-across-Room (RxR) is a large-scale, multilingual dataset for Vision-and-Language Navigation (VLN) in Matterport3D environments. It contains 126k navigation instructions in English, Hindi and Telugu, and 126k navigation following demonstrations. Both annotation types include dense spatiotemporal alignments between the text and the visual per…
+
+[Localized Narratives](https://google.github.io/localized-narratives/),
+[code](https://github.com/google/localized-narratives)
+
+[automerge/automerge](https://github.com/automerge/automerge) --- A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
+
 
