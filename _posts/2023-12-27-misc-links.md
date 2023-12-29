@@ -224,4 +224,8 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling](https://arxiv.org/abs/2010.06030)
 
+[Length-Adaptive Transformer: Train Once with Length Drop, Use Anytime with Search](https://arxiv.org/abs/2010.07003),
+[code](https://github.com/clovaai/length-adaptive-transformer)
+
+[Does my multimodal model learn cross-modal interactions? It's harder to tell than you might think!](https://arxiv.org/abs/2010.06572)
 
