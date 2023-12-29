@@ -545,4 +545,14 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Affordances from Human Videos as a Versatile Representation for Robotics](https://arxiv.org/abs/2304.08488)
 
+[ReadAlongs/Studio](https://github.com/ReadAlongs/Studio) --- Audiobook alignment for Indigenous languages
+
+[ReadAlongs/Web-Component](https://github.com/ReadAlongs/Web-Component) --- Suite of web packages for creating interactive ReadAlongs
+
+[roedoejet/convertextract](https://github.com/roedoejet/convertextract) --- Extract and find/replace text based on arbitrary correspondences while preserving original file formatting. This library is a fork from the Textract library by Dean Malmgren.
+
+[Gⁱ-to-Pⁱ Studio](https://g2p-studio.herokuapp.com/)
+
+[markovka17/dla](https://github.com/markovka17/dla) --- Deep learning for audio processing
+
 
