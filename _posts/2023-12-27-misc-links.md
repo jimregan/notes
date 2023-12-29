@@ -395,4 +395,4 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Supervised Pretraining Can Learn In-Context Reinforcement Learning](https://arxiv.org/abs/2306.14892)
 
-
+[The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691)
