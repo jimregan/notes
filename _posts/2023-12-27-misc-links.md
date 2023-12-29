@@ -454,4 +454,19 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [ANNOYingly Simple Sentence Clustering](https://medium.com/bobble-engineering/annoyingly-simple-sentence-clustering-12de1316abf4)
 
+[Guitarix](https://guitarix.org/)
+
+[How JavaScript Libraries Are Training Neural Networks on Web Browsers](https://blog.paperspace.com/javascript-deep-learning-on-web-browsers/)
+
+[andrenatal/phonetisaurus-emscripten](https://github.com/andrenatal/phonetisaurus-emscripten)
+
+[U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://arxiv.org/abs/2005.09007),
+[code](https://github.com/xuebinqin/U-2-Net)
+
+[A table detection, cell recognition and text extraction algorithm to convert tables in images to excel files](https://towardsdatascience.com/a-table-detection-cell-recognition-and-text-extraction-algorithm-to-convert-tables-to-excel-files-902edcf289ec)
+
+[Finding Syntax with Structural Probes](https://nlp.stanford.edu//~johnhew//structural-probe.html)
+
+[adefossez/julius](https://github.com/adefossez/julius) --- Fast PyTorch based DSP for audio and 1D signals
+
 
