@@ -589,4 +589,34 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Building Custom Deep Learning Based Optical Character Recognition (OCR) models](https://nanonets.com/blog/attention-ocr-for-text-recogntion/amp/)
 
+[emedvedev/attention-ocr](https://github.com/emedvedev/attention-ocr) --- A Tensorflow model for text recognition (CNN + seq2seq with visual attention) available as a Python package and compatible with Google Cloud ML Engine.
+
+[Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/abs/2307.08621)
+
+[courao/ocr.pytorch](https://github.com/courao/ocr.pytorch) --- A pure pytorch implemented ocr project including text detection and recognition
+
+[Xilinx/pytorch-ocr](https://github.com/Xilinx/pytorch-ocr) --- Quantized LSTMs for OCR
+
+[DTolm/VkFFT](https://github.com/DTolm/VkFFT) --- Vulkan/CUDA/HIP/OpenCL/Level Zero/Metal Fast Fourier Transform library
+
+[DTolm/VkResample](https://github.com/DTolm/VkResample) --- Vulkan real-time FFT upscaling
+
+[Historical Copyright Records and Transparency](https://www.nypl.org/blog/2019/09/01/historical-copyright-records-transparency)
+
+[Speech-Lab-IITM/English_ASR_Challenge](https://github.com/Speech-Lab-IITM/English_ASR_Challenge) --- English ASR Challenge organized by Speech Lab, IIT Madras
+
+[Unsupervised Cross-lingual Representation Learning for Speech Recognition](https://arxiv.org/abs/2006.13979)
+
+[Example for Clustered Transformers](https://colab.research.google.com/drive/1E8BYQf3Puxb643LOyIjT-0m3yXGO28ev?usp=sharing)
+
+[Speech Recognition with Python](https://colab.research.google.com/github/scgupta/yearn2learn/blob/master/speech/asr/python_speech_recognition_notebook.ipynb)
+
+[TAPAS base model fine-tuned on WikiTable Questions](https://huggingface.co/google/tapas-base-finetuned-wtq)
+
+[What is Similarity Between Sentences?](https://txt.cohere.com/what-is-similarity-between-sentences/)
+
+[catalyst-team/dl-course](https://github.com/catalyst-team/dl-course) --- Deep Learning with Catalyst
+
+[facebookresearch/ClassyVision](https://github.com/facebookresearch/ClassyVision) --- An end-to-end PyTorch framework for image and video classification
+
 
