@@ -442,4 +442,16 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Learning Sparse Prototypes for Text Generation](https://arxiv.org/abs/2006.16336)
 
+[A Speech-To-Text Practitioner’s Criticisms of Industry and Academia](https://thegradient.pub/a-speech-to-text-practitioners-criticisms-of-industry-and-academia/)
+
+[ml5js](https://ml5js.org/)
+
+[BrainJS/brain.js](https://github.com/BrainJS/brain.js)
+
+[edobashira/fst.js](https://github.com/edobashira/fst.js)
+
+[Deconstructing BERT](https://towardsdatascience.com/deconstructing-bert-reveals-clues-to-its-state-of-art-performance-in-nlp-tasks-76a7e828c0f1)
+
+[ANNOYingly Simple Sentence Clustering](https://medium.com/bobble-engineering/annoyingly-simple-sentence-clustering-12de1316abf4)
+
 
