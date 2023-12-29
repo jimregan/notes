@@ -619,4 +619,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [facebookresearch/ClassyVision](https://github.com/facebookresearch/ClassyVision) --- An end-to-end PyTorch framework for image and video classification
 
+[Mel Frequency Cepstral Coefficient (MFCC) tutorial](https://web.archive.org/web/20230826033115/http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/)
+
 
