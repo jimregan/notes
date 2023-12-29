@@ -141,4 +141,5 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [chronhib-MU/Chronhib-Website](https://github.com/chronhib-MU/Chronhib-Website) --- This is the ChronHib website repository.
 
+[Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X) --- An open source implementation of Microsoft's VALL-E X zero-shot TTS model.
 
