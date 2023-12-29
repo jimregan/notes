@@ -407,3 +407,39 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks](https://arxiv.org/abs/2010.05103)
 
+[TensorSpeech/TensorflowTTS](https://github.com/TensorSpeech/TensorFlowTTS) --- 😝 TensorFlowTTS: Real-Time State-of-the-art Speech Synthesis for Tensorflow 2 (supported including English, French, Korean, Chinese, German and Easy to adapt for other languages)
+
+[Language Model is All You Need: Natural Language Understanding as Question Answering](https://arxiv.org/abs/2011.03023)
+
+[Building RNNs is Fun with PyTorch and Google Colab](https://medium.com/dair-ai/building-rnns-is-fun-with-pytorch-and-google-colab-3903ea9a3a79)
+
+[20 free Irish language audiobooks for children](https://weareirish.ie/gaeilge/irish-language-audiobooks-for-children/)
+
+[emijrp/internet-archive](https://github.com/emijrp/internet-archive)
+
+[drtoast/flickr-backup](https://github.com/drtoast/flickr-backup)
+
+[Generalized End-to-End Loss for Speaker Verification](https://arxiv.org/abs/1710.10467)
+
+[Layout-Parser/layout-parser](https://github.com/Layout-Parser/layout-parser) --- A Unified Toolkit for Deep Learning Based Document Image Analysis
+
+[OCR for Endangered Language Texts](https://shrutirij.github.io/ocr-el/),
+[code](https://github.com/shrutirij/ocr-post-correction)
+
+[Google Cardboard open sourced as active development on Google VR SDK stops](https://9to5google.com/2019/11/06/google-cardboard-open-source/)
+
+[googlevr/cardboard](https://github.com/googlevr/cardboard)
+
+[KomputeProject/kompute](https://github.com/KomputeProject/kompute) --- General purpose GPU compute framework built on Vulkan to support 1000s of cross vendor graphics cards (AMD, Qualcomm, NVIDIA & friends). Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases. Backed by the Linux Foundation.
+
+[m3hrdadfi/wiki-summary](https://github.com/m3hrdadfi/wiki-summary) --- A Bert2Bert model which able to summarize articles!
+
+[CAMeL-Lab/camel_tools](https://github.com/CAMeL-Lab/camel_tools) --- A suite of Arabic natural language processing tools developed by the CAMeL Lab at New York University Abu Dhabi.
+
+[Traditional Versus ASR-Based Pronunciation Instruction, An Empirical Study](https://journal.equinoxpub.com/CALICO/article/view/18589)
+
+[ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) --- A Flash Player emulator written in Rust
+
+[Learning Sparse Prototypes for Text Generation](https://arxiv.org/abs/2006.16336)
+
+
