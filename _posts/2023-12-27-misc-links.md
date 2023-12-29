@@ -239,4 +239,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [vivjay30/Cone-of-Silence](https://github.com/vivjay30/Cone-of-Silence) --- Speech Separation by Localization
 
+[ssnl/dataset-distillation](https://github.com/ssnl/dataset-distillation)
+
 
