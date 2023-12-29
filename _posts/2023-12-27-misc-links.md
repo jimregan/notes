@@ -361,3 +361,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Supervised Pretraining Can Learn In-Context Reinforcement Learning](https://arxiv.org/abs/2306.14892)
 
+[robodhruv/visualnav-transformer](https://github.com/robodhruv/visualnav-transformer) --- Official code and checkpoint release for "ViNT: A Foundation Model for Visual Navigation".
+
+
