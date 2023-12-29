@@ -555,4 +555,38 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [markovka17/dla](https://github.com/markovka17/dla) --- Deep learning for audio processing
 
+[What is a signal](https://docs.google.com/presentation/d/1n9E5w7KbKMwuWjFt4-aHLwVhXCURJPaxeSRybLFvPRU/mobilepresent?slide=id.g953abfa21f_0_0)
+
+[facebookresearch/CPC_audio](https://github.com/facebookresearch/CPC_audio) --- An implementation of the Contrast Predictive Coding (CPC) method to train audio features in an unsupervised fashion.
+
+[ZuCo, a simultaneous EEG and eye-tracking resource for natural sentence reading](https://www.nature.com/articles/sdata2018291)
+
+[iamjanvijay/rnnt_decoder_cuda](https://github.com/iamjanvijay/rnnt_decoder_cuda) --- An efficient implementation of RNN-T Prefix Beam Search in C++/CUDA.
+
+[awni/transducer](https://github.com/awni/transducer) --- A Fast Sequence Transducer Implementation with PyTorch Bindings
+
+[iceychris/LibreASR](https://github.com/iceychris/LibreASR) --- An On-Premises, Streaming Speech Recognition System
+
+[How to convert a pre-trained model for Kaldi to Vosk](https://www.reddit.com/r/speechrecognition/comments/iv1wtr/how_to_convert_a_pretrained_model_for_kaldi_to/)
+
+[MediaPipe Holistic — Simultaneous Face, Hand and Pose Prediction, on Device](https://blog.research.google/2020/12/mediapipe-holistic-simultaneous-face.html)
+
+[English Dialects From the Eighth Century to the Present Day by Walter W. Skeat](https://www.gutenberg.org/ebooks/15755)
+
+[Ireland, Historic and Picturesque by Charles Johnston](https://www.gutenberg.org/ebooks/12078)
+
+[What's the Matter with Ireland? by Ruth Russell](https://www.gutenberg.org/ebooks/12033)
+
+[A Visit From Saint Nicholas by Clement Clarke Moore](https://www.gutenberg.org/ebooks/17382)
+
+[The Most Ancient Lives of Saint Patrick by James O'Leary](https://www.gutenberg.org/ebooks/18482)
+
+[Anglo-Saxon Literature by John Earle](https://www.gutenberg.org/ebooks/17101)
+
+[The Reminiscences of an Irish Land Agent by Samuel Murray Hussey](https://www.gutenberg.org/ebooks/16450)
+
+[Digital ink recognition](https://developers.google.com/ml-kit/vision/digital-ink-recognition)
+
+[Building Custom Deep Learning Based Optical Character Recognition (OCR) models](https://nanonets.com/blog/attention-ocr-for-text-recogntion/amp/)
+
 
