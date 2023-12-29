@@ -535,4 +535,14 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Deploying Part-of-Speech Patterns to Enhance Statistical Phrase-Based Machine Translation Resources](https://aclanthology.org/W05-0830/)
 
+[A Comparison of Techniques for Language Model Integration in Encoder-Decoder Speech Recognition](https://arxiv.org/abs/1807.10857)
+
+[The Scientist and Engineer's Guide to Digital Signal Processing](https://www.dspguide.com/)
+
+[When regular is not easy: Cracking the code of Irish orthography](https://researchrepository.ucd.ie/server/api/core/bitstreams/a4fd0d57-289f-4091-9b65-7c0bd8d6fbd6/content)
+
+[giakou4/pyfeats](https://github.com/giakou4/pyfeats) --- Open source software for image feature extraction.
+
+[Affordances from Human Videos as a Versatile Representation for Robotics](https://arxiv.org/abs/2304.08488)
+
 
