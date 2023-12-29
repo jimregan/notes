@@ -313,3 +313,12 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Parrots learn to make video calls to chat with other parrots, then develop friendships, Northeastern University researchers say](https://news.northeastern.edu/2023/04/21/parrots-talking-video-calls/)
 
+[alexa/visitron](https://github.com/alexa/visitron) --- VISITRON: A multi-modal Transformer-based model for Cooperative Vision-and-Dialog Navigation (CVDN)
+
+[Deep Transformers with Latent Depth](https://arxiv.org/abs/2009.13102)
+
+[Project Euphonia](https://sites.research.google/euphonia/about/)
+
+[Recreating Historical Streetscapes Using Deep Learning and Crowdsourcing](https://blog.research.google/2020/10/recreating-historical-streetscapes.html)
+
+
