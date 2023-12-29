@@ -307,4 +307,9 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [automerge/automerge](https://github.com/automerge/automerge) --- A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
 
+[cyrildiagne/ar-cutpaste](https://github.com/cyrildiagne/ar-cutpaste)
+
+[Embeddings from the Ground Up](https://www.singlelunch.com/2020/02/16/embeddings-from-the-ground-up/)
+
+[Parrots learn to make video calls to chat with other parrots, then develop friendships, Northeastern University researchers say](https://news.northeastern.edu/2023/04/21/parrots-talking-video-calls/)
 
