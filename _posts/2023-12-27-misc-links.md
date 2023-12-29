@@ -150,4 +150,48 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Ressources for End-to-End French Text-to-Speech Blizzard challenge](https://zenodo.org/records/7560290)
 
+[Using speech synthesis to explain automatic speaker recognition: a new application of synthetic speech](https://www.isca-speech.org/archive/interspeech_2023/brown23_interspeech.html)
+
+[Speaker-independent Speech Inversion for Estimation of Nasalance](https://www.isca-speech.org/archive/interspeech_2023/siriwardena23b_interspeech.html),
+[code](https://github.com/Yashish92/TCN-SI-tool-Nasality)
+
+[A System for Generating Voice Source Signals that Implements the Transformed LF-model Parameter Control](https://www.isca-speech.org/archive/interspeech_2023/wang23ra_interspeech.html)
+
+[Implementing Contextual Biasing in GPU Decoder for Online ASR](https://www.isca-speech.org/archive/interspeech_2023/nigmatulina23_interspeech.html),
+[idiap/contextual-biasing-on-gpus](https://github.com/idiap/contextual-biasing-on-gpus)
+
+[Learning Cross-lingual Mappings for Data Augmentation to Improve Low-Resource Speech Recognition](https://www.isca-speech.org/archive/interspeech_2023/farooq23_interspeech.html)
+
+[BAT: Boundary aware transducer for memory-efficient and low-latency ASR](https://www.isca-speech.org/archive/interspeech_2023/an23_interspeech.html)
+
+[4D ASR: Joint modeling of CTC, Attention, Transducer, and Mask-Predict decoders](https://www.isca-speech.org/archive/interspeech_2023/sudo23_interspeech.html)
+
+[idiap/bob](https://github.com/idiap/bob) --- Bob is a free signal-processing and machine learning toolbox originally developed by the Biometrics group at Idiap Research Institute, in Switzerland.
+
+[A Neural TTS System with Parallel Prosody Transfer from Unseen Speakers](https://www.isca-speech.org/archive/interspeech_2023/shechtman23_interspeech.html)
+
+[Vowel reduction by Greek-speaking children: The effect of stress and word length](https://www.isca-speech.org/archive/interspeech_2023/christodoulidou23_interspeech.html)
+
+[Mapping Phonemes to Acoustic Symbols and Codes Using Synchrony in Speech Modulation Vectors Estimated by the Travellingwave Filter Bank](https://www.isca-speech.org/archive/interspeech_2023/rao23_interspeech.html)
+
+[NeMo Forced Aligner and its application to word alignment for subtitle generation](https://www.isca-speech.org/archive/interspeech_2023/rastorgueva23_interspeech.html)
+
+[A stimulus-organism-response model of willingness to buy from advertising speech using voice quality](https://www.isca-speech.org/archive/interspeech_2023/nagano23_interspeech.html)
+
+[MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for speech recognition](https://www.isca-speech.org/archive/interspeech_2023/zhou23d_interspeech.html)
+
+[Competitive and Resource Efficient Factored Hybrid HMM Systems are Simpler Than You Think](https://www.isca-speech.org/archive/interspeech_2023/raissi23_interspeech.html)
+
+[Regarding Topology and Variant Frame Rates for Differentiable WFST-based End-to-End ASR](https://www.isca-speech.org/archive/interspeech_2023/zhao23f_interspeech.html)
+
+[Cross-lingual Prosody Transfer for Expressive Machine Dubbing](https://www.isca-speech.org/archive/interspeech_2023/swiatkowski23_interspeech.html)
+
+[An Analysis of Goodness of Pronunciation for Child Speech](https://www.isca-speech.org/archive/interspeech_2023/cao23_interspeech.html)
+
+[Data augmentation for children ASR and child-adult speaker classification using voice conversion methods](https://www.isca-speech.org/archive/interspeech_2023/zhao23c_interspeech.html)
+
+[Prefix Search Decoding for RNN Transducers](https://www.isca-speech.org/archive/interspeech_2023/praveen23b_interspeech.html)
+
+[ddlBoJack/MT4SSL](https://github.com/ddlBoJack/MT4SSL) --- Official implementation for MT4SSL: Boosting Self-Supervised Speech Representation Learning by Integrating Multiple Targets
+
 
