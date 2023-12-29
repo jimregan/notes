@@ -272,4 +272,10 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [OpenMonkeyStudio](https://github.com/OpenMonkeyStudio)
 
+[The Fairy Tales of the Brothers Grimm](https://en.m.wikisource.org/wiki/The_Fairy_Tales_of_the_Brothers_Grimm_\(Rackham\))
+
+[Winnie-the-Pooh](https://en.m.wikisource.org/wiki/Winnie-the-Pooh_\(1961\))
+
+[An Introduction to Hungarian Literature in 8 books](https://theculturetrip.com/europe/hungary/articles/an-introduction-to-hungarian-literature-in-8-books)
+
 
