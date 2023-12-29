@@ -137,4 +137,8 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 [Open X-Embodiment: Robotic Learning Datasets and RT-X Models](https://robotics-transformer-x.github.io/),
 [code](https://github.com/google-deepmind/open_x_embodiment)
 
+[marella/ctransformers](https://github.com/marella/ctransformers) --- Python bindings for the Transformer models implemented in C/C++ using GGML library.
+
+[chronhib-MU/Chronhib-Website](https://github.com/chronhib-MU/Chronhib-Website) --- This is the ChronHib website repository.
+
 
