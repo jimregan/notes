@@ -469,4 +469,11 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [adefossez/julius](https://github.com/adefossez/julius) --- Fast PyTorch based DSP for audio and 1D signals
 
+[M2KD: Multi-model and Multi-level Knowledge Distillation for Incremental Learning](https://arxiv.org/abs/1904.01769)
+
+[evcxr/evcxr](https://github.com/evcxr/evcxr) --- An evaluation context for Rust.
+
+[Rust and WebScraping](https://joydeep31415.medium.com/rust-and-webscraping-ebecc9ae536c)
+
+[Attention is Not Only a Weight: Analyzing Transformers with Vector Norms](https://aclanthology.org/2020.emnlp-main.574/)
 
