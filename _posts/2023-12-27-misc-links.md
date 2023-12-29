@@ -399,4 +399,11 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [shashikg/WhisperS2T](https://github.com/shashikg/WhisperS2T) --- An Optimized Speech-to-Text Pipeline for the Whisper Model Supporting Multiple Inference Enginer
 
+['Less Than One'-Shot Learning: Learning N Classes From M<N Samples](https://arxiv.org/abs/2009.08449)
+
+[Better Together: Dialogue Separation and Voice Activity Detection for Audio Personalization in TV](https://arxiv.org/abs/2303.13453)
+
+[Speaker Embedding Extraction with Phonetic Information](https://arxiv.org/abs/1804.04862)
+
+[On the Importance of Adaptive Data Collection for Extremely Imbalanced Pairwise Tasks](https://arxiv.org/abs/2010.05103)
 
