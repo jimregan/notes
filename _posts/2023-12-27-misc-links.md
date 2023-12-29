@@ -341,4 +341,23 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [MarvinLvn/BabySLM](https://github.com/MarvinLvn/BabySLM) --- Behavioral probing of language acquisition models at the lexical and syntactic level
 
+[A Complete Logistic Regression Algorithm From Scratch in Python: Step by Step](https://towardsdatascience.com/a-complete-logistic-regression-algorithm-from-scratch-in-python-step-by-step-ce33eae7d703)
+
+[convert_lm_to_fst.py](https://github.com/hartmannw/BlogCode/blob/master/2014/FSMConversion/convert_lm_to_fst.py)
+
+[microsoft/hummingbird](https://github.com/microsoft/hummingbird) --- Hummingbird compiles trained ML models into tensor computation for faster inference.
+
+[Noisy speech database for training speech enhancement algorithms and TTS models](https://datashare.ed.ac.uk/handle/10283/2791)
+
+[From Senones to Chenones: Tied Context-Dependent Graphemes for Hybrid Speech Recognition](https://arxiv.org/abs/1910.01493)
+
+[Converting Jupyter Notebooks into blog posts with Gatsby](https://blog.logrocket.com/converting-jupyter-notebooks-blog-posts-gatsby/)
+
+[YannickJadoul/Parselmouth](https://github.com/YannickJadoul/Parselmouth)
+
+[kkroening/ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
+
+[Interactive spreadsheets in Jupyter](https://towardsdatascience.com/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff)
+
+[Supervised Pretraining Can Learn In-Context Reinforcement Learning](https://arxiv.org/abs/2306.14892)
 
