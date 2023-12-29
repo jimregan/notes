@@ -478,3 +478,9 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 [Attention is Not Only a Weight: Analyzing Transformers with Vector Norms](https://aclanthology.org/2020.emnlp-main.574/)
 
 [Pronunciation Variation Modeling for Dutch Automatic Speech Recognition](https://www.cstr.ed.ac.uk/downloads/publications/2002/thesis.pdf)
+
+[Booting from a vinyl record](http://boginjr.com/it/sw/dev/vinyl-boot/)
+
+[Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)
+
+
