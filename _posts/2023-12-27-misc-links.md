@@ -241,4 +241,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [ssnl/dataset-distillation](https://github.com/ssnl/dataset-distillation)
 
+[kermitt2/grobid](https://github.com/kermitt2/grobid) --- A machine learning software for extracting information from scholarly documents
+
 
