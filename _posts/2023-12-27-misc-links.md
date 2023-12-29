@@ -229,3 +229,14 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Does my multimodal model learn cross-modal interactions? It's harder to tell than you might think!](https://arxiv.org/abs/2010.06572)
 
+[X-FACTR: Multilingual Factual Knowledge Retrieval from Pretrained Language Models](https://arxiv.org/abs/2010.06189)
+
+[antonisa/unimorph_inflect](https://github.com/antonisa/unimorph_inflect) --- A python library for easily querying morphological inflection models trained on Unimorph
+
+[A Neural Network Playground](https://playground.tensorflow.org/)
+
+[ConvnetJS demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html)
+
+[vivjay30/Cone-of-Silence](https://github.com/vivjay30/Cone-of-Silence) --- Speech Separation by Localization
+
+
