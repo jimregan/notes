@@ -363,4 +363,36 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [robodhruv/visualnav-transformer](https://github.com/robodhruv/visualnav-transformer) --- Official code and checkpoint release for "ViNT: A Foundation Model for Visual Navigation".
 
+[mfaruqui/retrofitting](https://github.com/mfaruqui/retrofitting) --- Retrofitting Word Vectors to Semantic Lexicons
+
+[jart/sectorlisp](https://github.com/jart/sectorlisp) --- Bootstrapping LISP in a Boot Sector
+
+[blink1073/oct2py](https://github.com/blink1073/oct2py) --- Run M Files from Python - GNU Octave to Python bridge
+
+[R language for programmers](https://www.johndcook.com/blog/r_language_for_programmers/)
+
+[scoder/lupa](https://github.com/scoder/lupa) --- Lua in Python
+
+[Lua for Python Programmers](https://the4thwiki.com/lua/)
+
+[deepinsight/insightface](https://github.com/deepinsight/insightface) --- State-of-the-art 2D and 3D Face Analysis Project
+
+[The importance of fillers for text representations of speech transcripts](https://arxiv.org/abs/2009.11340)
+
+[Learning Robust and Multilingual Speech Representations](https://arxiv.org/abs/2001.11128)
+
+[End-to-End Speech Recognition and Disfluency Removal](https://arxiv.org/abs/2009.10298)
+
+[The role of context in neural pitch accent detection in English](https://arxiv.org/abs/2004.14846)
+
+[Reconstructing the brain of fruit flies](https://elifesciences.org/digests/57443/reconstructing-the-brain-of-fruit-flies)
+
+[Sharing Project Amber with the mental health community](https://blog.x.company/sharing-project-amber-with-the-mental-health-community-7b6d8814a862)
+
+[mfaruqui/morph-trans](https://github.com/mfaruqui/morph-trans) --- Code for morphological transformations
+
+[higgood/incremental-word2vec](https://github.com/higgood/incremental-word2vec) --- Modify word2vec such that it's possible to "condition" on existing embeddings for some words, and induce embeddings for new words.
+
+[Supervised Pretraining Can Learn In-Context Reinforcement Learning](https://arxiv.org/abs/2306.14892)
+
 
