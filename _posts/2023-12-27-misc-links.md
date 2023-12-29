@@ -531,4 +531,8 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [persephone-tools/persephone](https://github.com/persephone-tools/persephone) --- A tool for automatic phoneme transcription
 
+[dmort27/allovera](https://github.com/dmort27/allovera) --- A phoneme-allophone database for many languages
+
+[Deploying Part-of-Speech Patterns to Enhance Statistical Phrase-Based Machine Translation Resources](https://aclanthology.org/W05-0830/)
+
 
