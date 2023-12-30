@@ -734,4 +734,24 @@ and geometry engine
 
 [Continuous Active Learning Using Pretrained Transformers](https://arxiv.org/abs/2208.06955)
 
+[Cainteoirí Dúchais a éisteacht](https://www.reddit.com/r/gaeilge/comments/ko9u41/cainteoir%C3%AD_d%C3%BAchais_a_%C3%A9isteacht/)
+
+[stanfordnlp/string2string](https://github.com/stanfordnlp/string2string) --- String-to-String Algorithms for Natural Language Processing
+
+[REVIEW OF 1984 By Isaac Asimov](https://www.newworker.org/ncptrory/1984.htm)
+
+[MLCommons People’s Speech Dataset](https://mlcommons.org/datasets/peoples-speech/)
+
+[Wasmer](https://wasmer.io/)
+
+[COBE: Contextualized Object Embeddings from Narrated Instructional Video](https://arxiv.org/abs/2007.07306)
+
+[Russian Text Normalization for STT and TTS](https://towardsdatascience.com/russian-text-normalization-for-stt-and-tts-a6d8f03aaeb9)
+
+[k-Nearest Neighbor Language Models](https://nn.labml.ai/transformers/knn/)
+
+[PyTorch internals](http://blog.ezyang.com/2019/05/pytorch-internals/)
+
+[MiniTorch](https://minitorch.github.io/)
+
 
