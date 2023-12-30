@@ -1113,4 +1113,7 @@ and geometry engine
 
 [LEAF: A Learnable Frontend for Audio Classification](https://arxiv.org/abs/2101.08596)
 
-[Spectrogram & Oscillator](https://borismus.github.io/spectrogram/)
+[Spectrogram & Oscillator](https://borismus.github.io/spectrogram/),
+[code](https://github.com/borismus/spectrogram/)
+
+
