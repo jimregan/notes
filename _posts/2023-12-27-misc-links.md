@@ -980,4 +980,8 @@ and geometry engine
 
 [viktor-enzell/wav2vec2-large-voxrex-swedish-4gram](https://huggingface.co/viktor-enzell/wav2vec2-large-voxrex-swedish-4gram)
 
+[Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+
+[UL2: Unifying Language Learning Paradigms](https://github.com/google-research/google-research/tree/master/ul2)
+
 
