@@ -926,4 +926,43 @@ and geometry engine
 
 [mkuchnik/relm](https://github.com/mkuchnik/relm) --- ReLM is a Regular Expression engine for Language Models
 
+[A Fast Algorithm for Computing Prefix Probabilities](https://arxiv.org/abs/2306.02303)
+
+[Implementation of the Branchformer](https://github.com/speechbrain/speechbrain/pull/1992)
+
+[Transducer Beam Search](https://github.com/speechbrain/speechbrain/pull/1978)
+
+[HyperMixer: An MLP-based Low Cost Alternative to Transformers](https://arxiv.org/abs/2203.03691)
+
+[CTC Beam Search](https://github.com/speechbrain/speechbrain/pull/2011)
+
+[FlexFormer](https://github.com/speechbrain/speechbrain/pull/1816)
+
+[HyperConformer](https://github.com/speechbrain/speechbrain/pull/1905)
+
+[SpeechX: Neural Codec Language Model as a Versatile Speech Transformer](https://arxiv.org/abs/2308.06873)
+
+[Brainformers: Trading Simplicity for Efficiency](https://arxiv.org/abs/2306.00008)
+
+[ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+
+[unilight/seq2seq-vc](https://github.com/unilight/seq2seq-vc) --- A sequence-to-sequence voice conversion toolkit.
+
+[shivangi-aneja/COSMOS](https://github.com/shivangi-aneja/COSMOS) --- [AAAI 2023] COSMOS: Catching Out-of-Context Misinformation using Self Supervised Learning
+
+[DeepFilterNet: Perceptually Motivated Real-Time Speech Enhancement](https://arxiv.org/abs/2305.08227)
+
+{% twitter https://twitter.com/i/web/status/1661714548594823174 %}
+
+[Announcing AI2 OLMo, an Open Language Model Made by Scientists, for Scientists](https://blog.allenai.org/announcing-ai2-olmo-an-open-language-model-made-by-scientists-for-scientists-ab761e4e9b76)
+
+[Byte Pair Encoding is Suboptimal for Language Model Pretraining](https://arxiv.org/abs/2004.03720)
+
+[The PhotoBook Dataset: Building Common Ground through Visually-Grounded Dialogue](https://aclanthology.org/P19-1184/)
+
+[MuJoCo](https://mujoco.org/),
+[code](https://github.com/google-deepmind/mujoco) --- Multi-Joint dynamics with Contact. A general purpose physics simulator.
+
+[google-research/robopianist](https://github.com/google-research/robopianist) --- [CoRL '23] Dexterous piano playing with deep reinforcement learning.
+
 
