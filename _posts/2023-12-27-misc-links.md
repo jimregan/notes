@@ -997,5 +997,17 @@ and geometry engine
 [HotpotQA](https://hotpotqa.github.io/),
 [huggingface](https://huggingface.co/datasets/hotpot_qa)
 
+[GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+
+[FelixOpolka/Single-Player-MCTS](https://github.com/FelixOpolka/Single-Player-MCTS) --- Python implementation of single-player Monte-Carlo Tree Search.
+
+[google-deepmind/mctx](https://github.com/google-deepmind/mctx) --- Monte Carlo tree search in JAX
+
+[Speech Synthesis, Recognition, and More With SpeechT5](https://huggingface.co/blog/speecht5)
+
+[Teaching OPT to Paraphrase through Soft Prompt Tuning](https://medium.com/ai-singapore/teaching-opt-to-paraphrase-through-soft-prompt-tuning-4c1a1e852cb8)
+
+[Use transfer learning for ASR in ESPnet2](https://github.com/espnet/notebook/blob/master/espnet2_asr_transfer_learning_demo.ipynb)
+
 
 
