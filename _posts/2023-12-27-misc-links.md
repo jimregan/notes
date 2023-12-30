@@ -1048,4 +1048,20 @@ and geometry engine
 
 [Hungarian pronouns](https://en.m.wiktionary.org/wiki/Appendix:Hungarian_pronouns)
 
+[Hungarian Core 100 Word List](https://www.hungarianpod101.com/hungarian-word-lists/)
+
+[A Distributed Systems Reading List](https://dancres.github.io/Pages/)
+
+[facebookresearch/LASER](https://github.com/facebookresearch/LASER)
+
+[RDF Mapping Language](https://rml.io/specs/rml/)
+
+[ImageDescriptionRdfExamples](https://www.w3.org/wiki/ImageDescriptionRdfExamples)
+
+[Lexicon Model for Ontologies: Community Report, 10 May 2016](https://www.w3.org/2016/05/ontolex/)
+
+[Leabhair do Pháistí](https://padlet.com/maire8/leabhair-do-ph-ist-iv5c9jic9h6i)
+
+['Tá an aisling seo agam'](https://web.archive.org/web/20200618075854/https://www.leabharbreac.com/ga/news/News/t-an-aisling-seo-agam.html)
+
 
