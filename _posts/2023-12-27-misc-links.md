@@ -711,4 +711,27 @@ and geometry engine
 
 [apple/ml-mkqa](https://github.com/apple/ml-mkqa) --- We introduce MKQA, an open-domain question answering evaluation set comprising 10k question-answer pairs aligned across 26 typologically diverse languages (260k question-answer pairs in total). The goal of this dataset is to provide a challenging benchmark for question answering quality across a wide set of languages. Please refer to our paper f…
 
+[Spoken Wikipedia - Swedish](https://commons.m.wikimedia.org/wiki/Category:Spoken_Wikipedia_-_Swedish)
+
+[From Historical Sources to Datasets: A Preview of DataScribe](https://rrchnm.org/news/from-historical-sources-to-datasets-a-preview-of-datascribe/),
+[code](https://github.com/chnm/Datascribe-module)
+
+[Understanding the effects of word-level linguistic annotations in under-resourced neural machine translation](https://aclanthology.org/2020.coling-main.349/)
+
+[Reading and Writing RDF in Apache Jena](https://jena.apache.org/documentation/io/)
+
+[kba/jsonld-rapper](https://github.com/kba/jsonld-rapper) --- Create RDF from JSON-LD with rapper
+
+[JSON-LD Syntax 1.0](https://json-ld.org/spec/ED/json-ld-syntax/20111016/)
+
+{% twitter https://twitter.com/murchadhmor/status/1346830162164408326 %}
+
+[Study: Folklore structure reveals how conspiracy theories emerge, fall apart](https://arstechnica.com/science/2021/01/study-folklore-structure-reveals-how-conspiracy-theories-emerge-fall-apart/)
+
+[Word-level text generation with Keras in <50 lines of code](https://colab.research.google.com/drive/1B9yLXcJ7Q76EUoim-2Xy7Dk1gC1pFdU1)
+
+[TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958)
+
+[Continuous Active Learning Using Pretrained Transformers](https://arxiv.org/abs/2208.06955)
+
 
