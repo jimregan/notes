@@ -884,4 +884,26 @@ and geometry engine
 
 [click](https://click.palletsprojects.com/en/8.1.x/)
 
+[Prompting Large Language Models for Zero-Shot Domain Adaptation in Speech Recognition](https://arxiv.org/abs/2306.16007)
+
+[UD Swedish Talbanken](https://universaldependencies.org/treebanks/sv_talbanken/index.html)
+
+[google-research/tensor2robot](https://github.com/google-research/tensor2robot) --- Distributed machine learning infrastructure for large-scale robotics research
+
+[google-research/pix2seq](https://github.com/google-research/pix2seq) --- Pix2Seq codebase: multi-tasks with generative modeling (autoregressive and diffusion)
+
+[google-research/language-table](https://github.com/google-research/language-table) --- Suite of human-collected datasets and a multi-task continuous control benchmark for open vocabulary visuolinguomotor learning.
+
+[google-research/jax3d](https://github.com/google-research/jax3d)
+
+[Doktor Bubó](https://www.semiovox.com/articles/2021/07/22/doktor-bubo/)
+
+[Unit 3. Transformer architectures for audio](https://huggingface.co/learn/audio-course/chapter3/introduction)
+
+[HomeRobot: Open Vocabulary Mobile Manipulation](https://ovmm.github.io/),
+[code](https://github.com/facebookresearch/home-robot)
+
+[SURT 2.0: Advances in Transducer-based Multi-talker Speech Recognition](https://sites.google.com/view/surt2)
+
+
 
