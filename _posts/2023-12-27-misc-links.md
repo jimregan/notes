@@ -905,5 +905,22 @@ and geometry engine
 
 [SURT 2.0: Advances in Transducer-based Multi-talker Speech Recognition](https://sites.google.com/view/surt2)
 
+[google-deepmind/dm_robotics](https://github.com/google-deepmind/dm_robotics) --- Libraries, tools and tasks created and used at DeepMind Robotics.
+
+[facebookresearch/LaViLa](https://github.com/facebookresearch/LaViLa) --- Code release for "Learning Video Representations from Large Language Models"
+
+[facebookresearch/paco](https://github.com/facebookresearch/paco) --- This repo contains documentation and code needed to use PACO dataset: data loaders and training and evaluation scripts for objects, parts, and attributes prediction models, query evaluation scripts, and visualization notebooks.
+
+[Introduction to Haliax](https://colab.research.google.com/drive/1TiTcQQ4V5mopbgCu1SVl-oqJtXn7rFnC)
+
+[lyuchenyang/Macaw-LLM](https://github.com/lyuchenyang/Macaw-LLM) --- Macaw-LLM: Multi-Modal Language Modeling with Image, Video, Audio, and Text Integration
+
+[YuanGongND/cav-mae](https://github.com/YuanGongND/cav-mae) --- Code and Pretrained Models for ICLR 2023 Paper "Contrastive Audio-Visual Masked Autoencoder".
+
+[Tracking Everything Everywhere All at Once](https://omnimotion.github.io/),
+[code](https://github.com/qianqianwang68/omnimotion)
+
+[facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) --- Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.
+
 
 
