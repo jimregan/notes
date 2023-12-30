@@ -878,4 +878,10 @@ and geometry engine
 
 [cvg/LightGlue](https://github.com/cvg/LightGlue) --- LightGlue: Local Feature Matching at Light Speed (ICCV 2023)
 
+[kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra) --- Graphic notes on Gilbert Strang's "Linear Algebra for Everyone"
+
+[Forced Alignment with Wav2Vec2](https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/160356f33d521341c47ec6b1406a3c2e/forced_alignment_tutorial.ipynb)
+
+[click](https://click.palletsprojects.com/en/8.1.x/)
+
 
