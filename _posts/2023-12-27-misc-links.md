@@ -985,4 +985,17 @@ and geometry engine
 [UL2 20B: An Open Source Unified Language Learner](https://blog.research.google/2022/10/ul2-20b-open-source-unified-language.html),
 [code](https://github.com/google-research/google-research/tree/master/ul2)
 
+[Kaldi ASR: Extending the ASpIRE model](https://chrisearch.wordpress.com/2017/03/11/speech-recognition-using-kaldi-extending-and-using-the-aspire-model/)
+
+[openai/CLIP](https://github.com/openai/CLIP) --- CLIP (Contrastive Language-Image Pretraining), Predict the most relevant text snippet given an image
+
+[Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923),
+[code](https://github.com/amazon-science/mm-cot)
+
+[lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) --- Let us control diffusion models!
+
+[HotpotQA](https://hotpotqa.github.io/),
+[huggingface](https://huggingface.co/datasets/hotpot_qa)
+
+
 
