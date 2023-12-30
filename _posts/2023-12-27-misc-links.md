@@ -847,4 +847,4 @@ and geometry engine
 
 [Anki decks Hungarian](https://ankiweb.net/shared/decks?search=Hungarian)
 
-
+[How to adapt a multilingual T5 model for a single language](https://towardsdatascience.com/how-to-adapt-a-multilingual-t5-model-for-a-single-language-b9f94f3d9c90)
