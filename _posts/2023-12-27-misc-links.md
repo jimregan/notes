@@ -1064,4 +1064,10 @@ and geometry engine
 
 ['Tá an aisling seo agam'](https://web.archive.org/web/20200618075854/https://www.leabharbreac.com/ga/news/News/t-an-aisling-seo-agam.html)
 
+[Dive into Deep Learning](https://d2l.ai/)
+
+[Working with sequences](https://mimno.github.io/Mallet/sequences)
+
+[Jekub/Wapiti](https://github.com/Jekub/Wapiti) --- A simple and fast discriminative sequence labeling toolkit
+
 
