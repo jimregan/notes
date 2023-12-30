@@ -978,4 +978,6 @@ and geometry engine
 
 [togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
 
+[viktor-enzell/wav2vec2-large-voxrex-swedish-4gram](https://huggingface.co/viktor-enzell/wav2vec2-large-voxrex-swedish-4gram)
+
 
