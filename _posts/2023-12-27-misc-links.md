@@ -1107,4 +1107,8 @@ and geometry engine
 
 [nassosoassos/sail_align](https://github.com/nassosoassos/sail_align) --- SailAlign is an open-source software toolkit for robust long speech-text alignment implementing an adaptive, iterative speech recognition and text alignment scheme that allows for the processing of very long (and possibly noisy) audio and is robust to transcription errors.
 
+[Darby O'Gill and the Good People](https://en.wikisource.org/wiki/Darby_O%27Gill_and_the_Good_People)
+
+[The Sleeping beauty of the wood](https://en.wikisource.org/wiki/The_Sleeping_beauty_of_the_wood_\(3\))
+
 
