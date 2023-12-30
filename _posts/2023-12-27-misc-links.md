@@ -1009,5 +1009,18 @@ and geometry engine
 
 [Use transfer learning for ASR in ESPnet2](https://github.com/espnet/notebook/blob/master/espnet2_asr_transfer_learning_demo.ipynb)
 
+[AudioLDM: Text-to-Audio Generation with Latent Diffusion Models](https://audioldm.github.io/)
+
+[v-iashin/SpecVQGAN](https://github.com/v-iashin/SpecVQGAN) --- Source code for "Taming Visually Guided Sound Generation" (Oral at the BMVC 2021)
+
+[Bayes risk CTC: Controllable CTC alignment in Sequence-to-Sequence tasks](https://arxiv.org/abs/2210.07499)
+
+[Compiling](https://xkcd.com/303/)
+
+[OverFlow: Putting flows on top of neural transducers for better TTS](https://arxiv.org/abs/2211.06892)
+
+[Introducing anywidget](https://anywidget.dev/blog/introducing-anywidget/)
+
+[dair-ai/Mathematics-for-ML](https://github.com/dair-ai/Mathematics-for-ML) --- A collection of resources to learn mathematics for machine learning
 
 
