@@ -1111,4 +1111,6 @@ and geometry engine
 
 [The Sleeping beauty of the wood](https://en.wikisource.org/wiki/The_Sleeping_beauty_of_the_wood_\(3\))
 
+[LEAF: A Learnable Frontend for Audio Classification](https://arxiv.org/abs/2101.08596)
 
+[Spectrogram & Oscillator](https://borismus.github.io/spectrogram/)
