@@ -808,4 +808,22 @@ and geometry engine
 
 [usc-sail/barista](https://github.com/usc-sail/barista) --- Barista is an open-source framework for concurrent speech processing.
 
+[Pronouns and Definite vs Indefinite Conjugation](https://betterhungarian.com/2020/03/02/hungarian-pronouns-and-definite-vs-indefinite-conjugation/)
+
+[labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
+
+[k-Nearest Neighbor Language Models](https://nn.labml.ai/transformers/knn/)
+
+[Evaluate k-nearest neighbor language model](https://nn.labml.ai/transformers/knn/eval_knn.html)
+
+[Weight Standardization](https://nn.labml.ai/normalization/weight_standardization/index.html)
+
+[Nucleus Sampling](https://nn.labml.ai/sampling/nucleus.html)
+
+[Denoising Diffusion Probabilistic Models (DDPM)](https://nn.labml.ai/diffusion/ddpm/index.html)
+
+[A Course in Machine Learning](http://ciml.info/)
+
+[CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+
 
