@@ -1068,6 +1068,43 @@ and geometry engine
 
 [Working with sequences](https://mimno.github.io/Mallet/sequences)
 
-[Jekub/Wapiti](https://github.com/Jekub/Wapiti) --- A simple and fast discriminative sequence labeling toolkit
+[Wapiti - A simple and fast discriminative sequence labelling toolkit](https://wapiti.limsi.fr/),
+[code](https://github.com/Jekub/Wapiti)
+
+[Towards Augmenting Lexical Resources for Slang and African American English](https://aclanthology.org/2020.vardial-1.15/)
+
+[jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling)
+
+[Notebook to run Ruby on Google Colaboratory](https://gist.github.com/ngoto/61459a11652826416d8f3ff9360f27c2)
+
+[Finding the Words to Say: Hidden State Visualizations for Language Models](https://jalammar.github.io/hidden-states/)
+
+[MixConv: Mixed Depthwise Convolutional Kernels](https://sh-tsang.medium.com/mixconv-mixed-depthwise-convolutional-kernels-image-classification-9d0ca8bf4093)
+
+[Extracting Features from an Intermediate Layer of a Pretrained ResNet Model in PyTorch](https://medium.com/the-owl/extracting-features-from-an-intermediate-layer-of-a-pretrained-model-in-pytorch-c00589bda32b)
+
+[Basics of Self-Attention](https://towardsdatascience.com/self-attention-5b95ea164f61)
+
+[PatchBERT: Just-in-Time, Out-of-Vocabulary Patching](https://aclanthology.org/2020.emnlp-main.631/)
+
+[Fine-tuning Mozilla DeepSpeech for the Indian Accent](https://towardsdatascience.com/automatic-speech-recognition-for-the-indian-accent-91bb011ad169)
+
+[Indian Accent Speech Recognition](https://medium.com/nerd-for-tech/indian-accent-speech-recognition-2d433eb7edac)
+
+[wilpert/RusPhonetizer](https://github.com/wilpert/RusPhonetizer)
+
+[trainc](https://code.google.com/archive/p/trainc/) --- TrainC builds compact context dependency transducers for WFST-based speech recognition from acoustic training data.
+
+[VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation](https://arxiv.org/abs/2101.00390)
+
+[A curated list of speech and natural language processing resources](https://joshdotai.medium.com/a-curated-list-of-speech-and-natural-language-processing-resources-4d89f94c032a)
+
+[benob/openlat](https://github.com/benob/openlat) --- Toolkit for manipulating word lattices built on top of openfst
+
+[usc-sail/barista](https://github.com/usc-sail/barista) --- Barista is an open-source framework for concurrent speech processing.
+
+[amir-zeldes/gum](https://github.com/amir-zeldes/gum) --- Repository for the Georgetown University Multilayer Corpus (GUM)
+
+[nassosoassos/sail_align](https://github.com/nassosoassos/sail_align) --- SailAlign is an open-source software toolkit for robust long speech-text alignment implementing an adaptive, iterative speech recognition and text alignment scheme that allows for the processing of very long (and possibly noisy) audio and is robust to transcription errors.
 
 
