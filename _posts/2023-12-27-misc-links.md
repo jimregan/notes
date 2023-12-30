@@ -982,6 +982,7 @@ and geometry engine
 
 [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
 
-[UL2: Unifying Language Learning Paradigms](https://github.com/google-research/google-research/tree/master/ul2)
+[UL2 20B: An Open Source Unified Language Learner](https://blog.research.google/2022/10/ul2-20b-open-source-unified-language.html),
+[code](https://github.com/google-research/google-research/tree/master/ul2)
 
 
