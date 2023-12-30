@@ -848,3 +848,34 @@ and geometry engine
 [Anki decks Hungarian](https://ankiweb.net/shared/decks?search=Hungarian)
 
 [How to adapt a multilingual T5 model for a single language](https://towardsdatascience.com/how-to-adapt-a-multilingual-t5-model-for-a-single-language-b9f94f3d9c90)
+
+[salesforce/LAVIS](https://github.com/salesforce/LAVIS) --- LAVIS - A One-stop Library for Language-Vision Intelligence
+
+[kscanne/gbb](https://github.com/kscanne/gbb) --- Sonraí traenála/tástála NLP
+
+[Transformer Taxonomy](https://kipp.ly/transformer-taxonomy/)
+
+[ML Olympiad - Multilingual Spell Correction](https://www.kaggle.com/competitions/ml-olympiad-multilingual-spell-correction)
+
+[Fine-tuning the multilingual T5 model from Huggingface with Keras](https://medium.com/@radicho/fine-tuning-the-multilingual-t5-model-from-huggingface-with-keras-f7f619ec5cfe)
+
+[How to adapt a multilingual T5 model for a single language](https://towardsdatascience.com/how-to-adapt-a-multilingual-t5-model-for-a-single-language-b9f94f3d9c90)
+
+[Irish Language Sayings](https://www.irish-sayings.com/)
+
+[Zjh-819/LLMDataHub](https://github.com/Zjh-819/LLMDataHub) --- A quick guide (especially) for trending instruction finetuning datasets
+
+[Exploring Transfer Learning with T5: the Text-To-Text Transfer Transformer](https://blog.research.google/2020/02/exploring-transfer-learning-with-t5.html),
+[code](https://github.com/google-research/t5x)
+
+[T5 Fine Tuning Tutorial](https://www.kaggle.com/code/parthplc/t5-fine-tuning-tutorial/notebook)
+
+[Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model](https://aclanthology.org/W19-4330/)
+
+[Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) --- Awesome-LLM: a curated list of Large Language Model
+
+[Miipher: A Robust Speech Restoration Model Integrating Self-Supervised Speech and Text Representations](https://google.github.io/df-conformer/miipher/)
+
+[cvg/LightGlue](https://github.com/cvg/LightGlue) --- LightGlue: Local Feature Matching at Light Speed (ICCV 2023)
+
+
