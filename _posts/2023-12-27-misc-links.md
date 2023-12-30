@@ -1023,4 +1023,22 @@ and geometry engine
 
 [dair-ai/Mathematics-for-ML](https://github.com/dair-ai/Mathematics-for-ML) --- A collection of resources to learn mathematics for machine learning
 
+[dair-ai/ML-Notebooks](https://github.com/dair-ai/ML-Notebooks) --- Machine Learning Notebooks
+
+[SentenceBERT — Semantically meaningful sentence embeddings the right way](https://dair.ai/posts/TLDR_SentenceBERT/)
+
+[krrish94/nerf-pytorch](https://github.com/krrish94/nerf-pytorch) --- A PyTorch re-implementation of Neural Radiance Fields
+
+[nv-tlabs/nglod](https://github.com/nv-tlabs/nglod) --- Neural Geometric Level of Detail: Real-time Rendering with Implicit 3D Shapes (CVPR 2021 Oral)
+
+[NVIDIAGameWorks/PhysX](https://github.com/NVIDIAGameWorks/PhysX) --- NVIDIA PhysX SDK
+
+[NVIDIA-Omniverse/IsaacGymEnvs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs) --- Isaac Gym Reinforcement Learning Environments
+
+[NVIDIAGameWorks/kaolin](https://github.com/NVIDIAGameWorks/kaolin) --- A PyTorch Library for Accelerating 3D Deep Learning Research
+
+[Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer](https://research.nvidia.com/labs/toronto-ai/DIB-R/),
+[code](https://github.com/nv-tlabs/DIB-R-Single-Image-3D-Reconstruction)
+
+
 
