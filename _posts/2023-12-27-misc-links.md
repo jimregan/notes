@@ -754,4 +754,8 @@ and geometry engine
 
 [MiniTorch](https://minitorch.github.io/)
 
+[thu-spmi/CAT](https://github.com/thu-spmi/CAT) --- A CRF-based ASR Toolkit
+
+[Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
+
 
