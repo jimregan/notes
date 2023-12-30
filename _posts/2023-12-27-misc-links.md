@@ -641,4 +641,57 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Comhar](https://comhar.ie/iris/)
 
+[How to train Tesseract 4](https://guiem.medium.com/how-to-train-tesseract-4-ebe5881ff3b7)
+
+[Recent Advances in Google Translate](https://blog.research.google/2020/06/recent-advances-in-google-translate.html)
+
+[Narrative framing of consumer sentiment in online restaurant reviews](https://firstmonday.org/ojs/index.php/fm/article/view/4944/3863)
+
+[VFsync](https://vfsync.org/)
+
+[TinyEMU](https://bellard.org/tinyemu/)
+
+[Model Zoo](https://modelzoo.co/)
+
+[Training optical character recognition technology Tesseract on a new character font on MacOS](https://christopher5106.github.io/optical/character/recognition/2015/09/01/training-optical-character-recognition-technology-tesseract.html)
+
+[Fine-tuning Tesseract OCR for German Invoices](https://www.statworx.com/en/content-hub/blog/fine-tuning-tesseract-ocr-for-german-invoices/)
+
+[Training Tesseract on your custom dataset using Qt Box Editor](https://medium.com/quantrium-tech/training-tesseract-using-qt-box-editor-1c089ae3029)
+
+[Simple OCR with Tesseract](https://towardsdatascience.com/simple-ocr-with-tesseract-a4341e4564b6)
+
+[Add four additional special unicode characters to tesseract](https://stackoverflow.com/questions/57031798/add-four-additional-special-unicode-characters-to-tesseract)
+
+[zdenop/qt-box-editor](https://github.com/zdenop/qt-box-editor) --- QT4 editor of tesseract-ocr box files
+
+[IfcOpenShell](https://ifcopenshell.org/) --- The open source IFC toolkit
+and geometry engine
+
+[IFCjs/web-ifc-viewer](https://github.com/IFCjs/web-ifc-viewer) --- Graphics engine and toolkit for client applications.
+
+[SketchUp-STL](https://sketchup.github.io/sketchup-stl/)
+
+[Self-training and pre-training, understanding the wav2vec series](https://maelfabien.github.io/machinelearning/wav2vec/)
+
+[clovaai/deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark) --- Text recognition (optical character recognition) with deep learning methods.
+
+[apple/ml-equivariant-neural-rendering](https://github.com/apple/ml-equivariant-neural-rendering) --- This repo contains code to reproduce all experiments in Equivariant Neural Rendering by E. Dupont, M. A. Bautista, A. Colburn, A. Sankar, C. Guestrin, J. Susskind, Q. Shan, ICML 2020.
+
+[PrefectHQ/prefect](https://github.com/PrefectHQ/prefect) --- Prefect is a workflow orchestration tool empowering developers to build, observe, and react to data pipelines
+
+[kaituoxu/Conv-TasNet](https://github.com/kaituoxu/Conv-TasNet) --- A PyTorch implementation of Conv-TasNet described in "TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation" with Permutation Invariant Training (PIT).
+
+[Månadens profil: Jim O´Regan | Språkbanken](https://sprakbanken.se/5.72b6d529184b917b26316a68.html)
+
+[The historical short vowel phonology of Gaelic](https://www.semanticscholar.org/paper/The-historical-short-vowel-phonology-of-Gaelic-Maolalaigh/78c6a7ca518fcfa6c35a8e2c1a6bee430069707e?p2df)
+
+[Lexicon of Old Irish](https://web.archive.org/web/20130906151445/http://research.ucc.ie/lexicon/sample)
+
+[The Structure of the Consonant System of the Gaelic of Torr, Co. Donegal](https://www.jstor.org/stable/30007400?seq=1)
+
+[Collins gem Irish dictionary : English-Irish, Irish-English](https://archive.org/details/collinsgemirishd0000unse/mode/2up)
+
+[Sindhu-Hegde/pseudo-visual-speech-denoising](https://github.com/Sindhu-Hegde/pseudo-visual-speech-denoising) --- Official code for the paper "Visual Speech Enhancement Without A Real Visual Stream" published at WACV 2021
+
 
