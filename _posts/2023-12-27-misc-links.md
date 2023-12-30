@@ -922,5 +922,8 @@ and geometry engine
 
 [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) --- Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.
 
+[Whar city every country is most ashamed of in europe](https://www.reddit.com/r/MapPorn/comments/py24u8/whar_city_every_country_is_most_ashamed_of_in/)
+
+[mkuchnik/relm](https://github.com/mkuchnik/relm) --- ReLM is a Regular Expression engine for Language Models
 
 
