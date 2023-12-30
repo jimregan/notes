@@ -758,4 +758,28 @@ and geometry engine
 
 [Linformer: Self-Attention with Linear Complexity](https://arxiv.org/abs/2006.04768)
 
+[Joint Speech Recognition and Speaker Diarization via Sequence Transduction](https://blog.research.google/2019/08/joint-speech-recognition-and-speaker.html)
+
+[galv/galvASR](https://github.com/galv/galvASR)
+
+[awslabs/sockeye](https://github.com/awslabs/sockeye) --- Sequence-to-sequence framework with a focus on Neural Machine Translation based on PyTorch
+
+[Cross-lingual Retrieval for Iterative Self-Supervised Training](https://github.com/facebookresearch/fairseq/blob/main/examples/criss/README.md)
+
+[How to publish a txt corpora with NIF as Linked Data](https://github.com/NLP2RDF/software/wiki/How-to-publish-a-txt-corpora-with-NIF-as-Linked-Data)
+
+[RDF Mapping Language](https://rml.io/specs/rml/)
+
+[ImageDescriptionRdfExamples](https://www.w3.org/wiki/ImageDescriptionRdfExamples)
+
+[openai/CLIP](https://github.com/openai/CLIP) --- CLIP (Contrastive Language-Image Pretraining), Predict the most relevant text snippet given an image
+
+[Recognizing Pose Similarity in Images and Videos](https://blog.research.google/2021/01/recognizing-pose-similarity-in-images.html)
+
+[opensheetmusicdisplay/opensheetmusicdisplay](https://github.com/opensheetmusicdisplay/opensheetmusicdisplay) --- OpenSheetMusicDisplay renders sheet music in MusicXML format in your web browser based on VexFlow. OSMD is brought to you by PhonicScore.com.
+
+[katspaugh/wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
+
+[Spectrograms and speech processing](https://www.web3.lu/tag/speech/)
+
 
