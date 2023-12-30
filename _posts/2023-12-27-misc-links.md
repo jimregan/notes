@@ -965,4 +965,17 @@ and geometry engine
 
 [google-research/robopianist](https://github.com/google-research/robopianist) --- [CoRL '23] Dexterous piano playing with deep reinforcement learning.
 
+[Perlence/PyGuitarPro](https://github.com/Perlence/PyGuitarPro) --- Read, write and manipulate GP3, GP4 and GP5 files.
+
+[Towards Healthy AI: Large Language Models Need Therapists Too](https://arxiv.org/abs/2304.00416)
+
+[https://openuni.ai/](openuni.ai),
+[code](https://github.com/nattvara/kthGPT)
+
+[psst-challenge/psstbaseline](https://github.com/psst-challenge/psstbaseline) --- Baseline models for the Post-Stroke Speech Transcription (PSST) challengt
+
+[OIG Dataset](https://laion.ai/blog/oig-dataset/)
+
+[togethercomputer/OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
+
 
