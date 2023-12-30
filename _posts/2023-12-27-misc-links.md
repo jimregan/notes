@@ -1040,5 +1040,12 @@ and geometry engine
 [Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer](https://research.nvidia.com/labs/toronto-ai/DIB-R/),
 [code](https://github.com/nv-tlabs/DIB-R-Single-Image-3D-Reconstruction)
 
+[Denys88/rl_games](https://github.com/Denys88/rl_games) --- RL implementations
+
+[sail-sg/envpool](https://github.com/sail-sg/envpool) --- C++-based high-performance parallel environment execution engine (vectorized env) for general RL environments.
+
+[Evidence of a predictive coding hierarchy in the human brain listening to speech](https://www.nature.com/articles/s41562-022-01516-2)
+
+[Hungarian pronouns](https://en.m.wiktionary.org/wiki/Appendix:Hungarian_pronouns)
 
 
