@@ -692,6 +692,23 @@ and geometry engine
 
 [Collins gem Irish dictionary : English-Irish, Irish-English](https://archive.org/details/collinsgemirishd0000unse/mode/2up)
 
-[Sindhu-Hegde/pseudo-visual-speech-denoising](https://github.com/Sindhu-Hegde/pseudo-visual-speech-denoising) --- Official code for the paper "Visual Speech Enhancement Without A Real Visual Stream" published at WACV 2021
+[Visual Speech Enhancement Without A Real Visual Stream](https://arxiv.org/abs/2012.10852),
+[code](https://github.com/Sindhu-Hegde/pseudo-visual-speech-denoising)
+
+[joonson/syncnet_python](https://github.com/joonson/syncnet_python) --- Out of time: automated lip sync in the wild
+
+[High-Fidelity Audio Generation and Representation Learning With Guided Adversarial Autoencoder](https://ieeexplore.ieee.org/document/9272282)
+
+[The Grammar of English Grammars](https://www.gutenberg.org/cache/epub/11615/pg11615.html)
+
+[karthiTox/deepnet.js](https://github.com/karthiTox/deepnet.js) --- Auto-differentiation library for javascript
+
+[Familiar feud in Poland after game show calls regional language a dialect](https://notesfrompoland.com/2020/12/28/familiar-feud-in-poland-after-game-show-calls-regional-language-a-dialect/)
+
+[Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning](https://arxiv.org/abs/2012.13255)
+
+[Google’s REALM — A Knowledge-base Augmented Language Model](https://levelup.gitconnected.com/googles-realm-a-knowledge-base-augmented-language-model-bc1a9c9b3d09)
+
+[apple/ml-mkqa](https://github.com/apple/ml-mkqa) --- We introduce MKQA, an open-domain question answering evaluation set comprising 10k question-answer pairs aligned across 26 typologically diverse languages (260k question-answer pairs in total). The goal of this dataset is to provide a challenging benchmark for question answering quality across a wide set of languages. Please refer to our paper f…
 
 
