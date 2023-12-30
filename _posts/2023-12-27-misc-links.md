@@ -780,6 +780,32 @@ and geometry engine
 
 [katspaugh/wavesurfer.js](https://github.com/katspaugh/wavesurfer.js)
 
-[Spectrograms and speech processing](https://www.web3.lu/tag/speech/)
+[Spectrograms and speech processing](https://www.web3.lu/spectrogram-speech-processing/)
+
+[Why You Should Do NLP Beyond English](https://www.ruder.io/nlp-beyond-english/)
+
+[Leabhair do Pháistí](https://padlet.com/maire8/leabhair-do-ph-ist-iv5c9jic9h6i)
+
+[DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG) --- RepVGG: Making VGG-style ConvNets Great Again
+
+[adamjankaczmarek/poleval2020](https://github.com/adamjankaczmarek/poleval2020)
+
+[kwrobel-nlp/kftt](https://github.com/kwrobel-nlp/kftt) --- Polish morphosyntactic tagger.
+
+[First Steps in Irish](https://fsii.gaeilge.org/)
+
+[Foghraidheacht Ghaedhilge an Tuaiscirt](http://corpas.ria.ie/index.php?fsg_function=3&fsg_id=4062)
+
+[Guide to Irish Pronunciation](https://www.xn--sorchanghuairim-bpb.ie/faoi%20shorcha/m%C3%A1ire-n%C3%AD-ghuairim/linguaphone-conversational-course-irish/guide-to-irish-pronunciation)
+
+[An Ghaeilge](https://web.archive.org/web/20080203095514/http://www.nuacht.com/colm/recordings.html)
+
+[AOIDHMÍN MAC GRÉAGÓIR](https://www3.smo.uhi.ac.uk/oduibhin/daoine/aoidhmin2.htm)
+
+[izuzak/noam](https://github.com/izuzak/noam) --- JavaScript library for working with automata and grammars for regular and context-free languages
+
+[google/refr](https://github.com/google/refr) --- A framework for building reranking models.
+
+[usc-sail/barista](https://github.com/usc-sail/barista) --- Barista is an open-source framework for concurrent speech processing.
 
 
