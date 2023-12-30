@@ -826,4 +826,25 @@ and geometry engine
 
 [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
 
+[OpenNLPLab/cosFormer](https://github.com/OpenNLPLab/cosFormer) --- [ICLR 2022] Official implementation of cosformer-attention in cosFormer: Rethinking Softmax in Attention
+
+[MarianMT Know, Train & Infer](https://www.kaggle.com/code/suraj520/marianmt-know-train-infer)
+
+[web-arena-x/webarena](https://github.com/web-arena-x/webarena) --- Code repo for "WebArena: A Realistic Web Environment for Building Autonomous Agents"
+
+[POSSESSIVE AFFIXES](https://hungaryforyou.wordpress.com/2013/04/06/possessive-affixes/)
+
+[nltk.tag.brill module](https://www.nltk.org/api/nltk.tag.brill.html)
+
+[LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition](https://arxiv.org/abs/2307.13269),
+[code](https://github.com/sail-sg/lorahub)
+
+[Guidance: a cheat code for diffusion models](https://sander.ai/2022/05/26/guidance.html)
+
+[Diffusion language models](https://sander.ai/2023/01/09/diffusion-language.html)
+
+[Perspectives on diffusion](https://sander.ai/2023/07/20/perspectives.html)
+
+[Anki decks Hungarian](https://ankiweb.net/shared/decks?search=Hungarian)
+
 
