@@ -1381,3 +1381,9 @@ and geometry engine
 [Facebook & Google’s LazyTensor Enables Expressive Domain-Specific Compilers](https://syncedreview.com/2021/03/04/facebook-googles-lazytensor-enables-expressive-domain-specific-compilers/)
 
 [The Dialects of Co. Clare, Part 1](https://archive.org/details/toddlectureserie191royauoft/page/5/mode/1up)
+
+[facebookresearch/vissl](https://github.com/facebookresearch/vissl) --- VISSL is FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images.
+
+[SEER: The start of a more powerful, flexible, and accessible era for computer vision](https://ai.meta.com/blog/seer-the-start-of-a-more-powerful-flexible-and-accessible-era-for-computer-vision/)
+
+
