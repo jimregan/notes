@@ -1223,4 +1223,73 @@ and geometry engine
 
 [OmniPage](http://justsolve.archiveteam.org/wiki/OmniPage)
 
+[Python Concurrency: The Tricky Bits](https://python.hamel.dev/concurrency/)
+
+[hocr-tools](https://cusat.github.io/hocr-tools/),
+[CUSAT/hocr-tools](https://github.com/CUSAT/hocr-tools) --- Tools for manipulating and evaluating the hOCR format for representing multi-lingual OCR results by embedding them into HTML.
+
+[mbartoli/tAlign](https://github.com/mbartoli/tAlign) --- Text alignment for OCR using FFTs
+
+[DDMAL/text_alignment](https://github.com/DDMAL/text_alignment) --- Aligns correct transcripts to text images using a "messy" OCR and Needleman-Wunsch sequence alignment
+
+[Early-Modern-OCR/RETAS](https://github.com/Early-Modern-OCR/RETAS) --- Part of eMOP: the Recursive Text Alignment Tool compares OCR text results to groundtruth by character and computes a score.
+
+[cisocrgroup/ocrd_cis](https://github.com/cisocrgroup/ocrd_cis) --- OCR-D python tools
+
+[ofirpress/shortformer](https://github.com/ofirpress/shortformer) --- Code for the Shortformer model, from the ACL 2021 paper by Ofir Press, Noah A. Smith and Mike Lewis.
+
+[PAQ: 65 Million Probably-Asked Questions and What You Can Do With Them](https://arxiv.org/abs/2102.07033)
+
+[Irish Script on Screen](https://www.isos.dias.ie/)
+
+[Gaeilge Laighean by Colm Ó Broin](https://public.tableau.com/app/profile/colm.broin/viz/GaeilgeLaighean/GaeilgeLaighean)
+
+[XLSR.ipynb](https://colab.research.google.com/drive/1ljU1AfzMQkcMsS2VdR3AIMMHD5NwFhHV?usp=sharing)
+
+[TomHarte/dsk2woz](https://github.com/TomHarte/dsk2woz) --- A command-line tool to convert Apple II DSK images to WOZ format.
+
+[bzotto/picturedsk](https://github.com/bzotto/picturedsk) --- Imprint an "image" in the magnetic flux of an Apple 5.25" floppy disk
+
+[Learn About Transformers: A Recipe](https://elvissaravia.substack.com/p/learn-about-transformers-a-recipe)
+
+[ILF... audio recordings](https://www.irishlanguageforum.com/viewtopic.php?f=28&t=1968&start=50)
+
+[Beaṫa Aoḋa Ruaiḋ Ui Doṁnaill](https://catalog.hathitrust.org/Record/006798635)
+
+[Fiche bliadhain ag fás](https://openlibrary.org/books/OL18203534M/Fiche_bliadhain_ag_f%C3%A1s.)
+
+[Training an Ocropus OCR model](https://www.danvk.org/2015/01/11/training-an-ocropus-ocr-model.html)
+
+[Finding blocks of text in an image using Python, OpenCV and numpy](https://www.danvk.org/2015/01/07/finding-blocks-of-text-in-an-image-using-python-opencv-and-numpy.html)
+
+[ocropus-archive/DUP-ocropy](https://github.com/ocropus-archive/DUP-ocropy) --- Python-based tools for document analysis and OCR
+
+[Joint ASR and language identification using RNN-T: An efficent approach to dynamic language switching](https://www.amazon.science/publications/joint-asr-and-language-identification-using-rnn-t-an-efficent-approach-to-dynamic-language-switching)
+
+[NVIDIA/speechsquad](https://github.com/NVIDIA/speechsquad) --- Conversational AI Benchmark.
+
+[Urlabhraidheacht agus graimear na gaedhilge, cuid I.](https://catalog.hathitrust.org/Record/008445670)
+
+[Illustrating the Reformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0)
+
+[digiah/oldOCR](https://github.com/digiah/oldOCR) --- Optical Character Recognition of old and noisy print sources
+
+[Neural Inverse Text Normalization](https://arxiv.org/abs/2102.06380)
+
+[JFLAP](https://www.jflap.org/) --- JFLAP is software for experimenting with formal languages topics including nondeterministic finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types of grammars, parsing, and L-systems.
+
+[Self-training and pre-training, understanding the wav2vec series](https://maelfabien.github.io/machinelearning/wav2vec/)
+
+[tokenwiser](https://koaning.github.io/tokenwiser/)
+
+[Chris Lattner: Revolutionizing the C++ World](https://cppdepend.com/blog/chris-lattner-revolutionizing-cpp-world/)
+
+[Irish folklore archive inscribed into UNESCO register](https://amp.rte.ie/amp/925267/)
+
+[GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) --- 2D raster & vector editor that melds traditional layers & tools with a modern node-based, fully non-destructive procedural workflow.
+
+[apple/turicreate](https://github.com/apple/turicreate) --- Turi Create simplifies the development of custom machine learning models.
+
+[Comparing signals in the time domain](https://makeabilitylab.github.io/physcomp/signals/ComparingSignals/index.html)
+
 
