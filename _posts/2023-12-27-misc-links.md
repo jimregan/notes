@@ -1122,4 +1122,12 @@ and geometry engine
 
 [matthew-brett/transforms3d](https://github.com/matthew-brett/transforms3d) --- 3 dimensional spatial transformations
 
+[Moof-A-Day: Early Macintosh Software](https://archive.org/details/moofaday)
+
+[arogozhnikov/einops](https://github.com/arogozhnikov/einops) --- Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others)
+
+[Introducing Lamini, the LLM Platform for Rapidly Customizing Models](https://www.lamini.ai/blog/introducing-lamini)
+
+[The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/)
+
 
