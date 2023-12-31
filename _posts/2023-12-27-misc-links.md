@@ -1178,4 +1178,16 @@ and geometry engine
 
 [karpathy/deep-vector-quantization](https://github.com/karpathy/deep-vector-quantization) --- VQVAEs, GumbelSoftmaxes and friends
 
+[Nuclear accents in four Irish (Gaelic) dialects](http://www.tara.tcd.ie/handle/2262/39402)
+
+[Modelling intonation in three Irish dialects](http://www.tara.tcd.ie/handle/2262/39408)
+
+[Development of an automatic attitude recognition system: a multimodal analysis of video blogs](http://www.tara.tcd.ie/handle/2262/81914)
+
+[Animating Stereograms with Optical Flow Morphing](https://ryanfb.xyz/etc/2016/08/17/animating_stereograms_with_optical_flow_morphing.html)
+
+[Transformers in Pytorch from scratch for NLP Beginners](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
+
+[Calendar of documents, relating to Ireland, preserved in Her Majesty's Public Record Office, London, 1171-1307](https://archive.org/details/cu31924091754816/page/n194/mode/1up)
+
 
