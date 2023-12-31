@@ -1366,4 +1366,14 @@ and geometry engine
 
 [Helsinki-NLP/Tatoeba-Challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge)
 
+[Fisher Information Matrix](https://agustinus.kristia.de/techblog/2018/03/11/fisher-information/)
+
+[zhao-shuyang/childrenize](https://github.com/zhao-shuyang/childrenize) --- Signal processing method to convert adult speech into child-like
+
+[Learnable latent embeddings for joint behavioural and neural analysis](https://www.nature.com/articles/s41586-023-06031-6)
+
+[Teic na nGael](http://teicnangael.com/)
+
+[ABAIR-CabairE](https://www.bbc.co.uk/sounds/play/p04zc1mp)
+
 
