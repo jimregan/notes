@@ -1421,4 +1421,8 @@ and geometry engine
 [D2Go brings Detectron2 to mobile](https://ai.meta.com/blog/d2go-brings-detectron2-to-mobile/),
 [facebookresearch/d2go](https://github.com/facebookresearch/d2go) --- D2Go is a toolkit for efficient deep learning
 
+Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wikiźródła](https://pl.m.wikisource.org/wiki/Ropucha_\(Andersen\))
+
+[Apes, psychos, alcos: How British cartoonists depict the Irish](https://www.irishtimes.com/culture/art-and-design/apes-psychos-alcos-how-british-cartoonists-depict-the-irish-1.3149409)
+
 
