@@ -1546,4 +1546,6 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [asteroid-team/asteroid](https://github.com/asteroid-team/asteroid) --- The PyTorch-based audio source separation toolkit for researchers
 
+[astanin/python-tabulate](https://github.com/astanin/python-tabulate) --- Pretty-print tabular data in Python, a library and a command-line utility. Repository migrated from bitbucket.org/astanin/python-tabulate.
+
 
