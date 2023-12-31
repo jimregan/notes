@@ -1532,3 +1532,12 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [snapthat/TF-T5-text-to-text](https://github.com/snapthat/TF-T5-text-to-text) --- This repository demonstrate training T5 transformers using tensorflow 2
 
 [PiotrDabkowski/Js2Py](https://github.com/PiotrDabkowski/Js2Py) --- JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python
+
+[Wav2Vec2-T5 v2.ipynb](https://colab.research.google.com/drive/1IR-R_RnUCXkGuXcpv655aun-TbvKql7g?usp=sharing)
+
+[Core concepts in k2](https://k2.readthedocs.io/en/latest/core_concepts/index.html)
+
+[Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition](https://arxiv.org/abs/2101.06699),
+[code](https://github.com/aispeech-lab/w2v-cif-bert)
+
+
