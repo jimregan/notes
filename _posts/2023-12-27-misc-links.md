@@ -1116,4 +1116,10 @@ and geometry engine
 [Spectrogram & Oscillator](https://borismus.github.io/spectrogram/),
 [code](https://github.com/borismus/spectrogram/)
 
+[lucidrains/axial-positional-embedding](https://github.com/lucidrains/axial-positional-embedding) --- Axial Positional Embedding for Pytorch
+
+[CPJKU/madmom](https://github.com/CPJKU/madmom) --- Python audio and music signal processing library
+
+[matthew-brett/transforms3d](https://github.com/matthew-brett/transforms3d) --- 3 dimensional spatial transformations
+
 
