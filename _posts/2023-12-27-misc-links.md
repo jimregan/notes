@@ -1138,4 +1138,24 @@ and geometry engine
 
 [Naoi Ghabh an Ghiolla Dubh](https://www.daltai.com/discus/messages/21/33425.html?1208617218)
 
+[lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) --- Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Basically ChatGPT but with PaLM
+
+[How Virtual Reality Can Help Those With Autism](https://www.forbes.com/sites/solrogers/2019/04/03/how-virtual-reality-can-help-those-with-autism/?sh=2cf3b281198e)
+
+[Giskard is coming to your notebook: Python meets Java via gRPC tunnel](https://www.giskard.ai/knowledge/giskard-is-coming-to-your-notebook-python-java-via-grpc-proxy)
+
+[Illustrating Reinforcement Learning from Human Feedback](https://huggingface.co/blog/rlhf)
+
+[Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/abs/2212.08751)
+
+[microsoft/BlingFire](https://github.com/microsoft/BlingFire) --- A lightning fast Finite State machine and REgular expression manipulation library.
+
+[rom1504/cc2dataset](https://github.com/rom1504/cc2dataset) --- Easily convert common crawl to a dataset of caption and document. Image/text Audio/text Video/text,
+
+[facebookresearch/barlowtwins](https://github.com/facebookresearch/barlowtwins) --- PyTorch implementation of Barlow Twins.
+
+[facebookresearch/vicreg](https://github.com/facebookresearch/vicreg) --- VICReg official code base
+
+[sileod/tasknet](https://github.com/sileod/tasknet) --- Easy multi-task learning with HuggingFace Datasets and Trainer
+
 
