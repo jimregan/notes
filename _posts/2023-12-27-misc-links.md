@@ -1320,6 +1320,34 @@ and geometry engine
 
 [‘Déanaim iarracht ‘rothar’ a rá in áit ‘badhsacal’ – tuairim chonspóideach do Chois Fhairrgeach…’](https://nos.ie/saol/deanaim-iarracht-rothar-a-ra-in-ait-badhsacal-tuairim-conspoideach-do-chois-fhairrgeach/)
 
-[ocropus-archive/DUP-ocropy](https://github.com/ocropus-archive/DUP-ocropy) --- Python-based tools for document analysis and OCR
+[Interface Between Phonology and Phonetics](https://www.oxfordbibliographies.com/display/document/obo-9780199772810/obo-9780199772810-0168.xml)
+
+[Unsupervised Question Answering](https://medium.com/illuin/unsupervised-question-answering-4758e5f2be9b)
+
+[Extending a Parser to Distant Domains Using a Few Dozen Partially Annotated Examples](https://arxiv.org/abs/1805.06556)
+
+[NLTK Sample usage for parse](https://www.nltk.org/howto/parse.html)
+
+[allenai/allennlp](https://github.com/allenai/allennlp) --- An open-source NLP research library, built on PyTorch.
+
+[allenai/allennlp-semparse](https://github.com/allenai/allennlp-semparse) --- A framework for building semantic parsers (including neural module networks) with AllenNLP, built by the authors of AllenNLP
+
+[DaCy: New Fast and Efficient State-of-the-Art in Danish NLP!](https://www.kennethenevoldsen.com/post/new-fast-and-efficient-state-of-the-art-in-danish-nlp/)
+
+[triantac/punkbuddy](https://github.com/triantac/punkbuddy)
+
+[The phonetics and phonology of the intonation of Irish dialects](http://www.tara.tcd.ie/handle/2262/77940)
+
+[Controlling the voice quality dimension of prosody in synthetic speech using an acoustic glottal model](http://www.tara.tcd.ie/handle/2262/94214)
+
+[MASSIVE translations](https://github.com/google-research/language/tree/master/language/massive_translations)
+
+[google-research/nisaba](https://github.com/google-research/nisaba) --- Finite-state script normalization and processing utilities
+
+[OSM: Townlands](https://www.openstreetmap.ie/missions/townlands/)
+
+[Using alignments from Montreal Forced Aligner to train](https://github.com/ZDisket/TensorflowTTS/tree/master/examples/fastspeech2/mfa)
+
+[alberto-poncelas/tesseract_postprocess](https://github.com/alberto-poncelas/tesseract_postprocess)
 
 
