@@ -1376,4 +1376,8 @@ and geometry engine
 
 [ABAIR-CabairE](https://www.bbc.co.uk/sounds/play/p04zc1mp)
 
+[in progress list for Project Gutenberg](https://www.pglaf.org/~ccx074/gutip.html)
 
+[Facebook & Google’s LazyTensor Enables Expressive Domain-Specific Compilers](https://syncedreview.com/2021/03/04/facebook-googles-lazytensor-enables-expressive-domain-specific-compilers/)
+
+[The Dialects of Co. Clare, Part 1](https://archive.org/details/toddlectureserie191royauoft/page/5/mode/1up)
