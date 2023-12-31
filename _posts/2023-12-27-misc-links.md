@@ -1162,4 +1162,20 @@ and geometry engine
 
 [Reward is not Necessary: How to Create a Modular & Compositional Self-Preserving Agent for Life-Long Learning](https://arxiv.org/abs/2211.10851)
 
+[The Standardization of Irish](https://www.jstor.org/stable/30060638?seq=1)
+
+[Reviewed Work: Linguistic Atlas and Survey of Irish Dialects. Vol. IV, the Dialects of Ulster and the Isle of Man. Specimens of Scottish Gaelic Dialects. Phonetic Texts of East Ulster Irish by Heinrich Wagner, Colm Ó Baoill](https://www.jstor.org/stable/20495871?seq=1)
+
+[Vol. 16, 1952, Contributions in Memory of Osborn Bergin](https://www.jstor.org/stable/i30007377)
+
+[Vol. 13, 1942 Ériu](https://www.jstor.org/stable/i30006798)
+
+[Why libtorch?](https://g-airborne.com/bringing-your-deep-learning-model-to-production-with-libtorch-part-1-why-libtorch/)
+
+[orktes/go-torch](https://github.com/orktes/go-torch) --- LibTorch (PyTorch) bindings for Golang
+
+[The Gaelic dialect of Urris, Inishowen, Co. Donegal](https://pure.qub.ac.uk/en/studentTheses/the-gaelic-dialect-of-urris-inishowen-co-donegal)
+
+[karpathy/deep-vector-quantization](https://github.com/karpathy/deep-vector-quantization) --- VQVAEs, GumbelSoftmaxes and friends
+
 
