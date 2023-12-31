@@ -1460,3 +1460,13 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [apple/ml-qrecc](https://github.com/apple/ml-qrecc) --- Open-Domain Question Answering Goes Conversational via Question Rewriting
 
+[bbc/bbcrd-brirs](https://github.com/bbc/bbcrd-brirs) --- An impulse response dataset for dynamic data-based auralisation of advanced sound systems
+
+[sofacoustics/SOFAtoolbox](https://github.com/sofacoustics/SOFAtoolbox) --- SOFA Toolbox (API for Matlab, Octave)
+
+[aligner 0.1.6](https://docs.rs/crate/aligner/0.1.6) --- Automatically corrects subtitle timings given a second correct subtitle,
+[github](https://github.com/Rassyan/aligner)
+
+[Cochleagram Representation of Sound](https://staffwww.dcs.shef.ac.uk/people/N.Ma/resources/ratemap/)
+
+
