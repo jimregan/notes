@@ -1392,4 +1392,14 @@ and geometry engine
 
 [salesforce/WikiSQL](https://github.com/salesforce/WikiSQL) --- A large annotated semantic parsing corpus for developing natural language interfaces.
 
+[bentrevett/pytorch-seq2seq](https://github.com/bentrevett/pytorch-seq2seq) --- Tutorials on implementing a few sequence-to-sequence (seq2seq) models with PyTorch and TorchText.
+
+[Essential sources for Irish dialect study II: Doegen](https://dublingaelic.blogspot.com/2015/02/essential-sources-for-irish-dialect.html)
+
+[The Irish Language in Rathlin Island](https://rathlingaelic.blogspot.com/2011/12/irish-language-in-rathlin-island.html)
+
+[Ráidhteachas an Fheadha](https://irishofthefews.blogspot.com/2016/08/raidheachtas-fheadha-241.html)
+
+[salesforce/apollo](https://github.com/salesforce/apollo) --- An experimental multi-tenant distributed system platform
+
 
