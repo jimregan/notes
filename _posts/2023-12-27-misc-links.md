@@ -1292,4 +1292,34 @@ and geometry engine
 
 [Comparing signals in the time domain](https://makeabilitylab.github.io/physcomp/signals/ComparingSignals/index.html)
 
+[google-research/sofima](https://github.com/google-research/sofima) --- Scalable Optical Flow-based Image Montaging and Alignment
+
+[google-research/noise2music](https://github.com/google-research/noise2music)
+
+[google-research/lingvo-lab](https://github.com/google-research/lingvo-lab) --- Demos, samples, and experimental code for Lingvo.
+
+[google-research/last](https://github.com/google-research/last) --- A JAX library for building lattice-based speech transducer models
+
+[ZipIt! Merging Models from Different Tasks without Training](https://arxiv.org/abs/2305.03053)
+
+[hyunwoongko/kochat](https://github.com/hyunwoongko/kochat) --- Opensource Korean chatbot framework
+
+[Asteroid getting started](https://github.com/asteroid-team/asteroid/blob/master/notebooks/00_GettingStarted.ipynb)
+
+[Irish UPSID 342](https://phoible.org/inventories/view/342)
+
+[Lyra: A New Very Low-Bitrate Codec for Speech Compression](https://blog.research.google/2021/02/lyra-new-very-low-bitrate-codec-for.html)
+
+[neulab/nn4nlp-concepts](https://github.com/neulab/nn4nlp-concepts) --- A repository of concepts related to neural networks for NLP
+
+[neubig/nn4nlp-code](https://github.com/neubig/nn4nlp-code) --- Code Samples from Neural Networks for NLP
+
+[Modern Irish grammar](https://archive.org/details/modernirishgram00craigoog/page/n50/mode/2up)
+
+[seungwonpark/melgan](https://github.com/seungwonpark/melgan) --- MelGAN vocoder (compatible with NVIDIA/tacotron2)
+
+[‘Déanaim iarracht ‘rothar’ a rá in áit ‘badhsacal’ – tuairim chonspóideach do Chois Fhairrgeach…’](https://nos.ie/saol/deanaim-iarracht-rothar-a-ra-in-ait-badhsacal-tuairim-conspoideach-do-chois-fhairrgeach/)
+
+[ocropus-archive/DUP-ocropy](https://github.com/ocropus-archive/DUP-ocropy) --- Python-based tools for document analysis and OCR
+
 
