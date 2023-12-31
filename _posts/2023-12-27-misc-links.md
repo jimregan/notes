@@ -1540,4 +1540,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition](https://arxiv.org/abs/2101.06699),
 [code](https://github.com/aispeech-lab/w2v-cif-bert)
 
+[Distilling Zero Shot Classification.ipynb](https://colab.research.google.com/drive/1mjBjd0cR8G57ZpsnFCS3ngGyo5nCa9ya?usp=sharing)
+
+[amzn/xfer](https://github.com/amzn/xfer) --- Transfer Learning library for Deep Neural Networks.
+
+[asteroid-team/asteroid](https://github.com/asteroid-team/asteroid) --- The PyTorch-based audio source separation toolkit for researchers
+
 
