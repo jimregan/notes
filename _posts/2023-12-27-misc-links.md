@@ -1425,4 +1425,38 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Apes, psychos, alcos: How British cartoonists depict the Irish](https://www.irishtimes.com/culture/art-and-design/apes-psychos-alcos-how-british-cartoonists-depict-the-irish-1.3149409)
 
+[Keating's general history of Ireland](https://catalog.hathitrust.org/Record/008645828)
+
+[Irish Language, 1700-1999](https://bc-primo.hosted.exlibrisgroup.com/primo-explore/collectionDiscovery?vid=bclib_new&inst=BCL&collectionId=81517036840001021) --- Selection of books and manuscripts written in Irish.
+
+[Spanish](https://www.forgottenbooks.com/en/Foreign_Language/Spanish)
+
+[Irish prose and poetry](https://www.digitalcommonwealth.org/search/commonwealth-oai:qn59vf942)
+
+[Dánta aṁráin, is caointe Ṡeaṫrúin Céitinn](https://catalog.hathitrust.org/Record/006540596)
+
+[Imtheachta Æniasa.](https://catalog.hathitrust.org/Record/001657506)
+
+[Cuchulain of Muirthemne](https://catalog.hathitrust.org/Record/008956896)
+[sacred texts](https://sacred-texts.com/neu/celt/cuch/index.htm)
+
+[PyTorch for TensorFlow Users - A Minimal Diff](https://www.kilians.net/post/from-tensorflow-to-pytorch/)
+
+[Transformers in Pytorch from scratch for NLP Beginners](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
+
+[Parliamentary Papers, Proceedings and Departmental Papers : UK: Ireland](https://libguides.bodleian.ox.ac.uk/c.php?g=423095&p=2889011)
+
+[Calendar of documents, relating to Ireland, preserved in Her Majesty's Public Record Office, London, 1171-1307](https://archive.org/details/cu31924091754816/page/n194/mode/1up)
+
+[Bealoideasbeo.com](https://www.bealoideasbeo.ie/index.php/tras-scribhini?page=1)
+
+[syegulalp/Akilang](https://github.com/syegulalp/Akilang) --- A compiler for a simple language, built with Python and LLVM
+
+[lark-parser/lark](https://github.com/lark-parser/lark) --- Lark is a parsing toolkit for Python, built with a focus on ergonomics, performance and modularity.
+
+[numba/llvmlite](https://github.com/numba/llvmlite) --- A lightweight LLVM python binding for writing JIT compilers
+
+[libcpu/libcpu](https://github.com/libcpu/libcpu) --- "libcpu" is an open source library that emulates several CPU architectures
+
+[apple/ml-qrecc](https://github.com/apple/ml-qrecc) --- Open-Domain Question Answering Goes Conversational via Question Rewriting
 
