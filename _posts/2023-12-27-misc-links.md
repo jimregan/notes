@@ -1204,3 +1204,15 @@ and geometry engine
 
 [Generate distance matrix from features](https://colab.research.google.com/drive/1_QfbOd1UyQ4d358G54DF53p36vsuJiRp)
 
+[Calamari-OCR/calamari](https://github.com/Calamari-OCR/calamari) --- Line based ATR Engine based on OCRopy
+
+[kraken](https://kraken.re/main/index.html),
+[mittagessen/kraken](https://github.com/mittagessen/kraken) --- OCR engine for all the languages
+
+[GT4HistOCR: Ground Truth for training OCR engines on historical documents in German Fraktur and Early Modern Latin](https://zenodo.org/records/1344132)
+
+[not-implemented/hocr-proofreader](https://github.com/not-implemented/hocr-proofreader) --- Web based JavaScript GUI library for proofreading/editing hOCR
+
+[GeReV/hocr-editor-ts](https://github.com/GeReV/hocr-editor-ts) --- A visual hOCR file editor
+
+
