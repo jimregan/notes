@@ -1402,4 +1402,23 @@ and geometry engine
 
 [salesforce/apollo](https://github.com/salesforce/apollo) --- An experimental multi-tenant distributed system platform
 
+[salesforce/TransmogrifAI](https://github.com/salesforce/TransmogrifAI) --- TransmogrifAI (pronounced trăns-mŏgˈrə-fī) is an AutoML library for building modular, reusable, strongly typed machine learning workflows on Apache Spark with minimal hand-tuning
+
+[salesforce/decaNLP](https://github.com/salesforce/decaNLP) --- The Natural Language Decathlon: A Multitask Challenge for NLP
+
+[salesforce/TabularSemanticParsing](https://github.com/salesforce/TabularSemanticParsing) --- Translating natural language questions to a structured query language
+
+[salesforce/ai-economist](https://github.com/salesforce/ai-economist) --- Foundation is a flexible, modular, and composable framework to model socio-economic behaviors and dynamics with both agents and governments. This framework can be used in conjunction with reinforcement learning to learn optimal economic policies, as done by the AI Economist (https://www.einstein.ai/the-ai-economist).
+
+[Books in Seanchló / Cló Gaelach](https://www.irishlanguageforum.com/viewtopic.php?f=28&t=6344&view=previous)
+
+[Cnuasach Focal as Oirialla](https://oirialla.blogspot.com/)
+
+[aistear](https://aistear.ie/) --- Suíomh áiseanna d’aistritheoirí, d’eagarthóirí agus do gach duine a bhíonn ag scríobh i nGaeilge.
+
+[Ba mhaith liom ‘a thuiscint’ cén fáth a bhfuil an ghramadach chomh deacair sin](https://tuairisc.ie/ba-mhaith-liom-a-thuiscint-cen-fath-a-bhfuil-an-ghramadach-chomh-deacair-sin/)
+
+[D2Go brings Detectron2 to mobile](https://ai.meta.com/blog/d2go-brings-detectron2-to-mobile/),
+[facebookresearch/d2go](https://github.com/facebookresearch/d2go) --- D2Go is a toolkit for efficient deep learning
+
 
