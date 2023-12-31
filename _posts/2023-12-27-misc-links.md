@@ -1509,4 +1509,18 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [AIdeaLab/wav2vec2_docker](https://github.com/AIdeaLab/wav2vec2_docker) --- pretraining wav2vec docker for sagemaker.
 
+[Compressing Wav2vec 2.0](https://medium.com/georgian-impact-blog/compressing-wav2vec-2-0-f41166e82dc2)
+
+[cpierse/wav2vec2-large-xlsr-53-irish](https://huggingface.co/cpierse/wav2vec2-large-xlsr-53-irish)
+
+[eval.py](https://gist.github.com/anton-l/e927041c45f97e2e4700af66bc2ca7e1)
+
+[ashubham/CPT](https://github.com/ashubham/CPT) --- Compact prediction trees for fast sequence prediction using Machine Learning
+
+[Residual Energy-Based Models for End-to-End Speech Recognition](https://arxiv.org/abs/2103.14152)
+
+[julien-c/DPRNNTasNet-ks16_WHAM_sepclean](https://huggingface.co/julien-c/DPRNNTasNet-ks16_WHAM_sepclean)
+
+[Fine-tuning a model on a translation task](https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/translation.ipynb)
+
 
