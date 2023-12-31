@@ -1523,4 +1523,12 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Fine-tuning a model on a translation task](https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/translation.ipynb)
 
+[Leveraging Pre-trained Language Model Checkpoints for Encoder-Decoder Models](https://huggingface.co/blog/warm-starting-encoder-decoder)
 
+[Fine-tune a pretrained model](https://huggingface.co/docs/transformers/training)
+
+[OCR with Keras, TensorFlow, and Deep Learning](https://pyimagesearch.com/2020/08/17/ocr-with-keras-tensorflow-and-deep-learning/)
+
+[snapthat/TF-T5-text-to-text](https://github.com/snapthat/TF-T5-text-to-text) --- This repository demonstrate training T5 transformers using tensorflow 2
+
+[PiotrDabkowski/Js2Py](https://github.com/PiotrDabkowski/Js2Py) --- JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python
