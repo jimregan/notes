@@ -1215,4 +1215,12 @@ and geometry engine
 
 [GeReV/hocr-editor-ts](https://github.com/GeReV/hocr-editor-ts) --- A visual hOCR file editor
 
+[What the BookCorpus?](https://gist.github.com/alvations/4d2278e5a5fbcf2e07f49315c4ec1110)
+
+[Introduction to Simple Neural Networks](https://phontron.com/class/nn4nlp2021/schedule/class-introduction.html)
+
+[PaperPort](http://justsolve.archiveteam.org/wiki/PaperPort_\(MAX\))
+
+[OmniPage](http://justsolve.archiveteam.org/wiki/OmniPage)
+
 
