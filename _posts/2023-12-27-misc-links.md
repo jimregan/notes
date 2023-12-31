@@ -1350,4 +1350,20 @@ and geometry engine
 
 [alberto-poncelas/tesseract_postprocess](https://github.com/alberto-poncelas/tesseract_postprocess)
 
-[Development of an automatic attitude recognition system: a multimodal analysis of video blogs](http://www.tara.tcd.ie/handle/2262/81914)
+[Tonal alignment in three varieties of Hiberno-English](http://www.tara.tcd.ie/handle/2262/39386)
+
+[Modelling intonation in three Irish dialects](http://www.tara.tcd.ie/handle/2262/39408)
+
+[Peak timing in two dialects of Connaught Irish](http://www.tara.tcd.ie/handle/2262/39403)
+
+[Dialect alignment signatures](http://www.tara.tcd.ie/handle/2262/39396)
+
+[A Linguistically Motivated Computational Framework for Irish Sign Language](http://www.tara.tcd.ie/handle/2262/89131)
+
+[Maidir le Croidhe Cainnte Chiarraighe](http://www.focla.ie/maidirleis.html)
+
+[SingFónaic](https://www.singfonaic.ie/index.php)
+
+[Helsinki-NLP/Tatoeba-Challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge)
+
+
