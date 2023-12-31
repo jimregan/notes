@@ -1,69 +1,3 @@
-Leveraging Pre-trained Language Model Checkpoints for Encoder-Decoder Models
-https://huggingface.co/blog/warm-starting-encoder-decoder
-
-Fine-tune a pretrained model
-https://huggingface.co/docs/transformers/training
-
-javascript - Google Colabs eval_js in Jupyter Notebook? - Stack Overflow
-https://stackoverflow.com/questions/63561206/google-colabs-eval-js-in-jupyter-notebook
-
-OCR with Keras, TensorFlow, and Deep Learning - PyImageSearch
-https://pyimagesearch.com/2020/08/17/ocr-with-keras-tensorflow-and-deep-learning/
-
-GitHub - snapthat/TF-T5-text-to-text: This repository demonstrate training T5 transformers using tensorflow 2
-https://github.com/snapthat/TF-T5-text-to-text
-
-Google Colab
-https://colab.research.google.com/github/vasudevgupta7/huggingface-tutorials/blob/main/translation_training.ipynb#scrollTo=fK1-NBpZT-y-
-
-huggingface_notebook/xlsr_gpt.ipynb at main · voidful/huggingface_notebook · GitHub
-https://github.com/voidful/huggingface_notebook/blob/main/xlsr_gpt.ipynb
-
-Menu - Sub of the Day | SUBWAY.com - Sverige (Svenska)
-https://www.subway.com/sv-se/menunutrition/menu/sub-of-the-day
-
-GitHub - PiotrDabkowski/Js2Py: JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python🚀 Try it online:
-https://github.com/PiotrDabkowski/Js2Py
-
-library.lol/fiction/ac96c73f38e9b2d51c466345643dce75
-https://library.lol/fiction/ac96c73f38e9b2d51c466345643dce75
-
-Amazon.com : religious balloons
-https://www.amazon.com/religious-balloons/s?k=religious+balloons
-
-Wav2Vec2-T5 v2.ipynb - Colaboratory
-https://colab.research.google.com/drive/1IR-R_RnUCXkGuXcpv655aun-TbvKql7g?usp=sharing
-
-GitHub - ashubham/CPT: Compact prediction trees for fast sequence prediction using Machine Learning
-https://github.com/ashubham/CPT
-
-[2103.14152] Residual Energy-Based Models for End-to-End Speech Recognition
-https://arxiv.org/abs/2103.14152
-
-Ireland restriction updates as Taoiseach Micheal Martin set to address the nation - Dublin Live
-https://www.dublinlive.ie/news/dublin-news/lockdownireland-level5updates-restrictionchanges-nphet-meeting-20283361
-
-GitHub - k2-fsa/k2: FSA/FST algorithms, differentiable, with PyTorch compatibility.
-https://github.com/k2-fsa/k2
-
-Core concepts in k2 — k2 1.7 documentation
-https://k2.readthedocs.io/en/latest/core_concepts/index.html#a-simple-fsa-example
-
-Issue search results · GitHub
-https://github.com/search?q=repo%3Ak2-fsa%2Fk2+wav2vec&type=issues
-
-w2v-cif-bert - Google Search
-https://www.google.com/search?q=w2v-cif-bert&oq=w2v-cif-bert&aqs=chrome..69i57.10286j1j4&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
-
-Paper tables with annotated results for Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition | Papers With Code
-https://paperswithcode.com/paper/fusing-wav2vec2-0-and-bert-into-end-to-end/review/
-
-[2103.14152] Residual Energy-Based Models for End-to-End Speech Recognition
-https://arxiv.org/abs/2103.14152
-
-Legislation to regulate use of e-scooters and e-bikes to be introduced – The Irish Times
-https://www.irishtimes.com/news/consumer/legislation-to-regulate-use-of-e-scooters-and-e-bikes-to-be-introduced-1.4473435
-
 Distilling Zero Shot Classification.ipynb - Colaboratory
 https://colab.research.google.com/drive/1mjBjd0cR8G57ZpsnFCS3ngGyo5nCa9ya?usp=sharing&utm_campaign=Hugging%2BFace&utm_medium=email&utm_source=Hugging_Face_8#scrollTo=wMrUSGMI5MXZ
 
@@ -136,23 +70,95 @@ https://stackoverflow.com/questions/2890703/how-to-join-two-wav-files-using-pyth
 The Strangest Month in the Strange Career of Rube Waddell – Society for American Baseball Research
 https://sabr.org/journal/article/the-strangest-month-in-the-strange-career-of-rube-waddell/
 
-INTERSPEECH 2021 | Brno, Czech Republic
-https://www.interspeech2021.org/
-
-TTS/notebooks/dataset_analysis/CheckSpectrograms.ipynb at main · coqui-ai/TTS · GitHub
-https://github.com/coqui-ai/TTS/blob/main/notebooks/dataset_analysis/CheckSpectrograms.ipynb
-
-How do I train a multiple-speaker model (speech synthesis) based on Tacotron 2 and espnet? · Issue #1561 · espnet/espnet · GitHub
-https://github.com/espnet/espnet/issues/1561
-
 GitHub - coqui-ai/STT: 🐸STT - The deep learning toolkit for Speech-to-Text. Training and deploying STT models has never been so easy.
 https://github.com/coqui-ai/STT
+
+Double Decoder Consistency / Blog / Coqui
+https://coqui.ai/blog/tts/solving-attention-problems-of-tts-models-with-double-decoder-consistency
+
+ParallelWaveGAN/egs/jsut/voc1/conf at master · kan-bayashi/ParallelWaveGAN · GitHub
+https://github.com/kan-bayashi/ParallelWaveGAN/tree/master/egs/jsut/voc1/conf
+
+Noisy speech samples of (Multi-band) MelGAN on (small) multispeaker dataset · Issue #167 · kan-bayashi/ParallelWaveGAN · GitHub
+https://github.com/kan-bayashi/ParallelWaveGAN/issues/167
+
+GitHub - kan-bayashi/ParallelWaveGAN: Unofficial Parallel WaveGAN (+ MelGAN & Multi-band MelGAN & HiFi-GAN & StyleMelGAN) with Pytorch
+https://github.com/kan-bayashi/ParallelWaveGAN
+
+espnet tacotron2 - Google Search
+https://www.google.com/search?q=espnet+tacotron2&client=ms-android-motorola-rev2&sxsrf=ALeKk02Spl8p5C33T5SKFM43PoegEH_iAQ%3A1617386127576&ei=j1pnYJ3bIqnGxgOLiqbABA&oq=espnet+tacotron2&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgAEAo6BAgAEEc6BAgjECc6AggAOgYIABAWEB46BQghEKABOgUIABCRAjoICC4QxwEQrwFQ6CtY-1Fgs1hoAHABeAGAAZkBiAHOD5IBBDkuMTCYAQCgAQHIAQjAAQE&sclient=mobile-gws-wiz-serp
+
+mellotron/README.md at master · NVIDIA/mellotron · GitHub
+https://github.com/NVIDIA/mellotron/blob/master/README.md
+
+Commits · MycroftAI/mimic2 · GitHub
+https://github.com/MycroftAI/mimic2/commits/master
+
+Mycroft · GitHub
+https://github.com/MycroftAI
+
+GitHub - MycroftAI/mycroft-core: Mycroft Core, the Mycroft Artificial Intelligence platform.
+https://github.com/MycroftAI/mycroft-core
+
+lingua-franca/lingua_franca/lang at master · MycroftAI/lingua-franca · GitHub
+https://github.com/MycroftAI/lingua-franca/tree/master/lingua_franca/lang
+
+lingua-franca/lingua_franca/lang/format_pl.py at master · MycroftAI/lingua-franca · GitHub
+https://github.com/MycroftAI/lingua-franca/blob/master/lingua_franca/lang/format_pl.py
+
+GitHub - MycroftAI/skill-date-time: Mycroft AI official Date and Time Skill, providing the current time, date and day of week for cities around the world.
+https://github.com/MycroftAI/skill-date-time
+
+Commits · keithito/tacotron · GitHub
+https://github.com/keithito/tacotron/commits/master
+
+TTS/notebooks/dataset_analysis at main · coqui-ai/TTS · GitHub
+https://github.com/coqui-ai/TTS/tree/main/notebooks/dataset_analysis
+
+PyniniDocs < GRM < TWiki
+https://www.openfst.org/twiki/bin/view/GRM/PyniniDocs#IntroDoc
+
+Facebook fst pytorch - Google Search
+https://www.google.com/search?q=Facebook+fst+pytorch&oq=Facebook+fst+pytorch&aqs=chrome..69i57.9963j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+gtn_applications/scripts/make_wordpieces.py at main · facebookresearch/gtn_applications · GitHub
+https://github.com/facebookresearch/gtn_applications/blob/main/scripts/make_wordpieces.py
+
+Open-sourcing mvfst-rl, a research platform for managing network congestion with reinforcement learning
+https://ai.meta.com/blog/open-sourcing-mvfst-rl-a-research-platform-for-managing-network-congestion-with-reinforcement-learning/
+
+Site not found · GitHub Pages
+https://mindslab-ai.github.io/assem-vc/
 
 Self-training and pre-training, understanding the wav2vec series -
 https://maelfabien.github.io/machinelearning/wav2vec/#b-the-model
 
 Jaco-Assistant / Scribosermo · GitLab
 https://gitlab.com/Jaco-Assistant/Scribosermo/
+
+GitHub - grammarly/ua-gec: UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language
+https://github.com/grammarly/ua-gec
+
+Grammarly · GitHub
+https://github.com/grammarly
+
+GitHub - grammarly/gector: Official implementation of the papers "GECToR – Grammatical Error Correction: Tag, Not Rewrite" (BEA-20) and "Text Simplification by Tagging" (BEA-21)
+https://github.com/grammarly/gector
+
+GitHub - grammarly/gaqcorpus
+https://github.com/grammarly/gaqcorpus
+
+grammarly-wiktionary/dictionary.txt at master · grammarly/grammarly-wiktionary · GitHub
+https://github.com/grammarly/grammarly-wiktionary/blob/master/dictionary.txt
+
+SEMANTiCS 2021 EU |
+https://2021-eu.semantics.cc/
+
+[2104.01604] Timers and Such: A Practical Benchmark for Spoken Language Understanding with Numbers
+https://arxiv.org/abs/2104.01604
+
+speechbrain/recipes/timers-and-such at develop · speechbrain/speechbrain · GitHub
+https://github.com/speechbrain/speechbrain/tree/develop/recipes/timers-and-such
 
 Labels :: Anaconda.org
 https://anaconda.org/conda-forge/openfst/labels
