@@ -1,15 +1,3 @@
-Translation - Colaboratory
-https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/translation.ipynb
-
-Compressing Wav2vec 2.0. By Zilun Peng and Akshay Budhkar | by Georgian | Georgian Impact Blog | Medium
-https://medium.com/georgian-impact-blog/compressing-wav2vec-2-0-f41166e82dc2
-
-cpierse/wav2vec2-large-xlsr-53-irish · Hugging Face
-https://huggingface.co/cpierse/wav2vec2-large-xlsr-53-irish
-
-Evaluation script for wav2vec · GitHub
-https://gist.github.com/anton-l/e927041c45f97e2e4700af66bc2ca7e1
-
 Leveraging Pre-trained Language Model Checkpoints for Encoder-Decoder Models
 https://huggingface.co/blog/warm-starting-encoder-decoder
 
@@ -70,17 +58,95 @@ https://www.google.com/search?q=w2v-cif-bert&oq=w2v-cif-bert&aqs=chrome..69i57.1
 Paper tables with annotated results for Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition | Papers With Code
 https://paperswithcode.com/paper/fusing-wav2vec2-0-and-bert-into-end-to-end/review/
 
+[2103.14152] Residual Energy-Based Models for End-to-End Speech Recognition
+https://arxiv.org/abs/2103.14152
+
+Legislation to regulate use of e-scooters and e-bikes to be introduced – The Irish Times
+https://www.irishtimes.com/news/consumer/legislation-to-regulate-use-of-e-scooters-and-e-bikes-to-be-introduced-1.4473435
+
+Distilling Zero Shot Classification.ipynb - Colaboratory
+https://colab.research.google.com/drive/1mjBjd0cR8G57ZpsnFCS3ngGyo5nCa9ya?usp=sharing&utm_campaign=Hugging%2BFace&utm_medium=email&utm_source=Hugging_Face_8#scrollTo=wMrUSGMI5MXZ
+
+GENRE/examples_genre at main · facebookresearch/GENRE · GitHub
+https://github.com/facebookresearch/GENRE/tree/main/examples_genre
+
+xfer/finite_ntk/README.md at master · amzn/xfer · GitHub
+https://github.com/amzn/xfer/blob/master/finite_ntk/README.md
+
+AppendWithOffsets() interface by danpovey · Pull Request #674 · k2-fsa/k2 · GitHub
+https://github.com/k2-fsa/k2/pull/674
+
+Add SeparateSpeech API in espnet2/bin/enh_inference.py by Emrys365 · Pull Request #2878 · espnet/espnet · GitHub
+https://github.com/espnet/espnet/pull/2878
+
+First steps - pybind11 documentation
+https://pybind11.readthedocs.io/en/latest/basics.html
+
+[WIP] support k2 ctc by yaguanghu · Pull Request #2941 · espnet/espnet · GitHub
+https://github.com/espnet/espnet/pull/2941
+
+Espnet-SE, Speech enhancement recipes by LiChenda · Pull Request #2888 · espnet/espnet · GitHub
+https://github.com/espnet/espnet/pull/2888
+
 julien-c/DPRNNTasNet-ks16_WHAM_sepclean · Hugging Face
 https://huggingface.co/julien-c/DPRNNTasNet-ks16_WHAM_sepclean
 
 GitHub - asteroid-team/asteroid: The PyTorch-based audio source separation toolkit for researchers
 https://github.com/asteroid-team/asteroid#running-a-recipe
 
+GitHub - facebookresearch/GENRE: Autoregressive Entity Retrieval
+https://github.com/facebookresearch/GENRE
+
+Typer
+https://typer.tiangolo.com/
+
+tabulate · PyPI
+https://pypi.org/project/tabulate/
+
+click-contrib · GitHub
+https://github.com/click-contrib
+
+Trending Rust repositories on GitHub today · GitHub
+https://github.com/trending/rust
+
+GitHub - huggingface/tokenizers: 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
+https://github.com/huggingface/tokenizers
+
+tokenizers/bindings/python/examples/custom_components.py at b24a2fc1781d5da4e6ebcd3ecb5b91edffc0a05f · huggingface/tokenizers · GitHub
+https://github.com/huggingface/tokenizers/blob/b24a2fc1781d5da4e6ebcd3ecb5b91edffc0a05f/bindings/python/examples/custom_components.py
+
+dnieć – Wikisłownik, wolny słownik wielojęzyczny
+https://pl.m.wiktionary.org/wiki/dnie%C4%87#cite_ref-1
+
 Alchemik – Paulo Coelho | AleKlasa
 https://aleklasa.pl/gimnazjum/c267-lektury-do-egzaminu/alchemik-coelho
 
 alchemik coelho wikipedia - Google Search
 https://www.google.com/search?client=ms-android-motorola-rev2&sxsrf=ALeKk00tqYy-NlWuHsfxtXWHc67q7uw3Yg:1617240966057&q=alchemik+coelho+wikipedia&nirf=alchemist+coelho+wikipedia&sa=X&ved=2ahUKEwi0wrCK9NvvAhVOhv0HHY_vBZEQ8BYoAXoECAEQAw&biw=360&bih=582&dpr=2
+
+Alchemik – Wikicytaty
+https://pl.m.wikiquote.org/wiki/Alchemik
+
+Trankit's Demo Website
+http://nlp.uoregon.edu/trankit
+
+audio - How to join two wav files using python? - Stack Overflow
+https://stackoverflow.com/questions/2890703/how-to-join-two-wav-files-using-python
+
+The Strangest Month in the Strange Career of Rube Waddell – Society for American Baseball Research
+https://sabr.org/journal/article/the-strangest-month-in-the-strange-career-of-rube-waddell/
+
+INTERSPEECH 2021 | Brno, Czech Republic
+https://www.interspeech2021.org/
+
+TTS/notebooks/dataset_analysis/CheckSpectrograms.ipynb at main · coqui-ai/TTS · GitHub
+https://github.com/coqui-ai/TTS/blob/main/notebooks/dataset_analysis/CheckSpectrograms.ipynb
+
+How do I train a multiple-speaker model (speech synthesis) based on Tacotron 2 and espnet? · Issue #1561 · espnet/espnet · GitHub
+https://github.com/espnet/espnet/issues/1561
+
+GitHub - coqui-ai/STT: 🐸STT - The deep learning toolkit for Speech-to-Text. Training and deploying STT models has never been so easy.
+https://github.com/coqui-ai/STT
 
 Self-training and pre-training, understanding the wav2vec series -
 https://maelfabien.github.io/machinelearning/wav2vec/#b-the-model
