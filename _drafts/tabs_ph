@@ -1,13 +1,13 @@
-Google Colab
+Distilling Zero Shot Classification.ipynb - Colaboratory
 https://colab.research.google.com/drive/1mjBjd0cR8G57ZpsnFCS3ngGyo5nCa9ya?usp=sharing&utm_campaign=Hugging%2BFace&utm_medium=email&utm_source=Hugging_Face_8#scrollTo=wMrUSGMI5MXZ
 
-GENRE/examples_genre at main · facebookresearch/GENRE · GitHub
+GENRE/examples_genre at main · facebookresearch/GENRE
 https://github.com/facebookresearch/GENRE/tree/main/examples_genre
 
-xfer/finite_ntk/README.md at master · amzn/xfer · GitHub
+xfer/finite_ntk/README.md at master · amzn/xfer
 https://github.com/amzn/xfer/blob/master/finite_ntk/README.md
 
-AppendWithOffsets() interface by danpovey · Pull Request #674 · k2-fsa/k2 · GitHub
+AppendWithOffsets() interface by danpovey · Pull Request #674 · k2-fsa/k2
 https://github.com/k2-fsa/k2/pull/674
 
 Add SeparateSpeech API in espnet2/bin/enh_inference.py by Emrys365 · Pull Request #2878 · espnet/espnet · GitHub
@@ -15,15 +15,6 @@ https://github.com/espnet/espnet/pull/2878
 
 First steps - pybind11 documentation
 https://pybind11.readthedocs.io/en/latest/basics.html
-
-[WIP] support k2 ctc by yaguanghu · Pull Request #2941 · espnet/espnet · GitHub
-https://github.com/espnet/espnet/pull/2941
-
-Espnet-SE, Speech enhancement recipes by LiChenda · Pull Request #2888 · espnet/espnet · GitHub
-https://github.com/espnet/espnet/pull/2888
-
-julien-c/DPRNNTasNet-ks16_WHAM_sepclean · Hugging Face
-https://huggingface.co/julien-c/DPRNNTasNet-ks16_WHAM_sepclean
 
 GitHub - asteroid-team/asteroid: The PyTorch-based audio source separation toolkit for researchers
 https://github.com/asteroid-team/asteroid#running-a-recipe
@@ -43,29 +34,14 @@ https://github.com/click-contrib
 Trending Rust repositories on GitHub today · GitHub
 https://github.com/trending/rust
 
-GitHub - huggingface/tokenizers: 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
-https://github.com/huggingface/tokenizers
-
-tokenizers/bindings/python/examples/custom_components.py at b24a2fc1781d5da4e6ebcd3ecb5b91edffc0a05f · huggingface/tokenizers · GitHub
-https://github.com/huggingface/tokenizers/blob/b24a2fc1781d5da4e6ebcd3ecb5b91edffc0a05f/bindings/python/examples/custom_components.py
-
-dnieć – Wikisłownik, wolny słownik wielojęzyczny
-https://pl.m.wiktionary.org/wiki/dnie%C4%87#cite_ref-1
-
 Alchemik – Paulo Coelho | AleKlasa
 https://aleklasa.pl/gimnazjum/c267-lektury-do-egzaminu/alchemik-coelho
-
-alchemik coelho wikipedia - Google Search
-https://www.google.com/search?client=ms-android-motorola-rev2&sxsrf=ALeKk00tqYy-NlWuHsfxtXWHc67q7uw3Yg:1617240966057&q=alchemik+coelho+wikipedia&nirf=alchemist+coelho+wikipedia&sa=X&ved=2ahUKEwi0wrCK9NvvAhVOhv0HHY_vBZEQ8BYoAXoECAEQAw&biw=360&bih=582&dpr=2
 
 Alchemik – Wikicytaty
 https://pl.m.wikiquote.org/wiki/Alchemik
 
 Trankit's Demo Website
 http://nlp.uoregon.edu/trankit
-
-audio - How to join two wav files using python? - Stack Overflow
-https://stackoverflow.com/questions/2890703/how-to-join-two-wav-files-using-python
 
 The Strangest Month in the Strange Career of Rube Waddell – Society for American Baseball Research
 https://sabr.org/journal/article/the-strangest-month-in-the-strange-career-of-rube-waddell/
@@ -85,17 +61,11 @@ https://github.com/kan-bayashi/ParallelWaveGAN/issues/167
 GitHub - kan-bayashi/ParallelWaveGAN: Unofficial Parallel WaveGAN (+ MelGAN & Multi-band MelGAN & HiFi-GAN & StyleMelGAN) with Pytorch
 https://github.com/kan-bayashi/ParallelWaveGAN
 
-espnet tacotron2 - Google Search
-https://www.google.com/search?q=espnet+tacotron2&client=ms-android-motorola-rev2&sxsrf=ALeKk02Spl8p5C33T5SKFM43PoegEH_iAQ%3A1617386127576&ei=j1pnYJ3bIqnGxgOLiqbABA&oq=espnet+tacotron2&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBAgAEAo6BAgAEEc6BAgjECc6AggAOgYIABAWEB46BQghEKABOgUIABCRAjoICC4QxwEQrwFQ6CtY-1Fgs1hoAHABeAGAAZkBiAHOD5IBBDkuMTCYAQCgAQHIAQjAAQE&sclient=mobile-gws-wiz-serp
-
 mellotron/README.md at master · NVIDIA/mellotron · GitHub
 https://github.com/NVIDIA/mellotron/blob/master/README.md
 
 Commits · MycroftAI/mimic2 · GitHub
 https://github.com/MycroftAI/mimic2/commits/master
-
-Mycroft · GitHub
-https://github.com/MycroftAI
 
 GitHub - MycroftAI/mycroft-core: Mycroft Core, the Mycroft Artificial Intelligence platform.
 https://github.com/MycroftAI/mycroft-core
@@ -109,26 +79,8 @@ https://github.com/MycroftAI/lingua-franca/blob/master/lingua_franca/lang/format
 GitHub - MycroftAI/skill-date-time: Mycroft AI official Date and Time Skill, providing the current time, date and day of week for cities around the world.
 https://github.com/MycroftAI/skill-date-time
 
-Commits · keithito/tacotron · GitHub
-https://github.com/keithito/tacotron/commits/master
-
-TTS/notebooks/dataset_analysis at main · coqui-ai/TTS · GitHub
-https://github.com/coqui-ai/TTS/tree/main/notebooks/dataset_analysis
-
-PyniniDocs < GRM < TWiki
-https://www.openfst.org/twiki/bin/view/GRM/PyniniDocs#IntroDoc
-
-Facebook fst pytorch - Google Search
-https://www.google.com/search?q=Facebook+fst+pytorch&oq=Facebook+fst+pytorch&aqs=chrome..69i57.9963j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
-
-gtn_applications/scripts/make_wordpieces.py at main · facebookresearch/gtn_applications · GitHub
-https://github.com/facebookresearch/gtn_applications/blob/main/scripts/make_wordpieces.py
-
 Open-sourcing mvfst-rl, a research platform for managing network congestion with reinforcement learning
 https://ai.meta.com/blog/open-sourcing-mvfst-rl-a-research-platform-for-managing-network-congestion-with-reinforcement-learning/
-
-Site not found · GitHub Pages
-https://mindslab-ai.github.io/assem-vc/
 
 Self-training and pre-training, understanding the wav2vec series -
 https://maelfabien.github.io/machinelearning/wav2vec/#b-the-model
@@ -151,14 +103,8 @@ https://github.com/grammarly/gaqcorpus
 grammarly-wiktionary/dictionary.txt at master · grammarly/grammarly-wiktionary · GitHub
 https://github.com/grammarly/grammarly-wiktionary/blob/master/dictionary.txt
 
-SEMANTiCS 2021 EU |
-https://2021-eu.semantics.cc/
-
 [2104.01604] Timers and Such: A Practical Benchmark for Spoken Language Understanding with Numbers
 https://arxiv.org/abs/2104.01604
-
-speechbrain/recipes/timers-and-such at develop · speechbrain/speechbrain · GitHub
-https://github.com/speechbrain/speechbrain/tree/develop/recipes/timers-and-such
 
 [2104.02526] LT-LM: a novel non-autoregressive language model for single-shot lattice rescoring
 https://arxiv.org/abs/2104.02526
@@ -211,8 +157,65 @@ https://awesomeopensource.com/project/smacke/ffsubsync
 GitHub - kaegi/alass: "Automatic Language-Agnostic Subtitle Synchronization"
 https://github.com/kaegi/alass
 
+GitHub - pums974/srtsync: Automatic synchronizer of subtitles based on voice activity in the video
+https://github.com/pums974/srtsync
+
 GitHub - oseiskar/autosubsync: Automatically synchronize subtitles with audio using machine learning
 https://github.com/oseiskar/autosubsync
+
+GitHub - tympanix/subsync: Synchronize your subtitles using machine learning
+https://github.com/tympanix/subsync
+
+GitHub - sc0ty/subsync: Subtitle Speech Synchronizer
+https://github.com/sc0ty/subsync
+
+yalta conference - Google Search
+https://www.google.com/search?q=yalta+conference&oq=yalta&aqs=chrome.2.69i57j46j0l3.2814j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8#wptab=s:H4sIAAAAAAAAAONgVuLQz9U3yDPMqXzE6Mgt8PLHPWEpi0lrTl5jNOLiCs7IL3fNK8ksqRRS4WKDsqS4eKTgmjQYpLi44DyeXUwc-WWpRWWZqeWLWAUqE3NKEhWS8_PSUotS85JTAfcCfRluAAAA
+
+aeneas Built-in Command Line Tools Tutorial — aeneas 1.7.3 documentation
+https://www.readbeyond.it/aeneas/docs/clitutorial.html
+
+GEM Tasks
+https://gem-benchmark.com/data_cards
+
+GitHub - CCExtractor/Subtitle-Resync: A tool to automatically generate in-sync subtitles of different versions of the same base media (such as with edits)
+https://github.com/CCExtractor/Subtitle-Resync
+
+GitHub - CCExtractor/Subtitle-Resync: A tool to automatically generate in-sync subtitles of different versions of the same base media (such as with edits)
+https://github.com/CCExtractor/Subtitle-Resync
+
+Kite
+https://www.adamsmith.haus/python/docs/nltk.textcat
+
+BBC One - The Graham Norton Show, Series 28, Episode 24
+https://www.bbc.co.uk/programmes/m000tyrx
+
+The Hitman's Wife's Bodyguard Trailer Released
+https://www.ladbible.com/entertainment/tv-and-film-the-hitmans-wifes-bodyguard-trailer-has-dropped-20210413
+
+192.168.0.100
+http://192.168.0.100:1234/storage/emulated/0/Pictures/SneakyCamera/
+
+[2104.04552] Lookup-Table Recurrent Language Models for Long Tail Speech Recognition
+https://arxiv.org/abs/2104.04552
+
+huggingface.co/docs/datasets/share_dataset.html
+https://huggingface.co/docs/datasets/share_dataset.html
+
+[2010.07972] Explicit Alignment Objectives for Multilingual Bidirectional Encoders
+https://arxiv.org/abs/2010.07972
+
+Homoseksualizm obowiązkowy
+https://dorzeczy.pl/tygodnik/112216/homoseksualizm-obowiazkowy.html
+
+GitHub - frictionlessdata/frictionless-py: Data management framework for Python that provides functionality to describe, extract, validate, and transform tabular data
+https://github.com/frictionlessdata/frictionless-py
+
+404: Page not found | Ehab A. AlBadawy
+https://ebadawy.github.io/post/speech_style_transfer/
+
+Main classes
+https://huggingface.co/docs/datasets/package_reference/main_classes#datasets.Translation
 
 Pull requests · espnet/espnet · GitHub
 https://github.com/espnet/espnet/pulls
@@ -223,8 +226,86 @@ https://github.com/espnet/espnet/pull/3153
 [WIP] support k2 ctc by yaguanghu · Pull Request #2941 · espnet/espnet · GitHub
 https://github.com/espnet/espnet/pull/2941
 
+Changed UPOS to NOUN for 2nd token in Compound Prepositions · UniversalDependencies/UD_Irish-IDT@5c09c11 · GitHub
+https://github.com/UniversalDependencies/UD_Irish-IDT/commit/5c09c1138c2b556458d5eb4dbae5b50e1a5ba8f3
+
+OCR-transformer/OCR_transformer.ipynb at main · vlomme/OCR-transformer · GitHub
+https://github.com/vlomme/OCR-transformer/blob/main/OCR_transformer.ipynb
+
+BBC · GitHub
+https://github.com/bbc?page=2
+
+GitHub - bbc/peaks.js: JavaScript UI component for interacting with audio waveforms
+https://github.com/bbc/peaks.js
+
+GitHub - bbc/morty-docs: Generate a static website from markdown files
+https://github.com/bbc/morty-docs
+
+Everpolate – JavaScript numerical interpolation and extrapolation
+https://borischumichev.github.io/everpolate/#linear
+
+STT comparison
+https://bbc.github.io/stt-align-node/
+
+aspell phonetic - Google Search
+https://www.google.com/search?q=aspell+phonetic&oq=&aqs=chrome.0.35i39i362l5...5.-1j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+NetSpell - Spell Checker for .NET - CodeProject
+https://www.codeproject.com/Articles/5277/NetSpell-Spell-Checker-for-NET
+
+Search for "Text::Aspell" - metacpan.org
+https://metacpan.org/search?q=Text%3A%3AAspell
+
+Text::Aspell - Perl interface to the GNU Aspell library - metacpan.org
+https://metacpan.org/pod/Text::Aspell
+
+Algorithm::Diff - Compute `intelligent' differences between two files / lists - metacpan.org
+https://metacpan.org/pod/Algorithm::Diff
+
+GitHub - pettarin/forced-alignment-tools: A collection of links and notes on forced alignment tools
+https://github.com/pettarin/forced-alignment-tools
+
+3 Montreal Forced Aligner | Corpus Phonetics Tutorial
+https://eleanorchodroff.com/tutorial/montreal-forced-aligner.html
+
+GitHub - bbc/waveform-data.js: Audio Waveform Data Manipulation API – resample, offset and segment waveform data in JavaScript.
+https://github.com/bbc/waveform-data.js
+
+GitHub - bbc/vc2hqencode: Optimised VC-2 HQ Profile Encoder Library
+https://github.com/bbc/vc2hqencode
+
+GitHub - bbc/storyplayer: BBC Research & Development's Object Based Media Player
+https://github.com/bbc/storyplayer
+
 GitHub - bbc/vc2_conformance: Software tools for checking the conformance of SMPTE ST 2042-1 (VC-2) professional video codec implementations.
 https://github.com/bbc/vc2_conformance
+
+GitHub - bbc/react-transcript-editor: A React component to make correcting automated transcriptions of audio and video easier and faster. By BBC News Labs. - Work in progress
+https://github.com/bbc/react-transcript-editor
+
+GitHub - bbc/stt-align-node: node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
+https://github.com/bbc/stt-align-node
+
+Chris Baume
+https://bau.me/
+
+webaligner/webaligner.js at master · chrisbaume/webaligner · GitHub
+https://github.com/chrisbaume/webaligner/blob/master/webaligner.js
+
+chrisbaume (Chris Baume) · GitHub
+https://github.com/chrisbaume
+
+GitHub - bbc/dialogger: Text-based media editing interface
+https://github.com/bbc/dialogger
+
+GitHub - chrisbaume/overtyper: Experiment in automatic insertion of timed transcript corrections using fuzzy phonetic matching
+https://github.com/chrisbaume/overtyper
+
+GNU Aspell 0.60.8.1: Phonetic Code
+http://aspell.net/man-html/Phonetic-Code.html
+
+GitHub - bbc/digital-paper-edit-api: Work in progress - BBC News Labs digital paper edit project - Express server API
+https://github.com/bbc/digital-paper-edit-api
 
 Your location to Ringvägen 6 - Google Maps
 https://www.google.com/maps/dir//Ringv%C3%A4gen+6,+133+35+Saltsj%C3%B6baden/@59.3168362,18.154111,10z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x465f7f82a7da4017:0x1c7e20dee1f9336b!3e0
