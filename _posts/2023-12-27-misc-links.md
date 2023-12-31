@@ -1548,4 +1548,33 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [astanin/python-tabulate](https://github.com/astanin/python-tabulate) --- Pretty-print tabular data in Python, a library and a command-line utility. Repository migrated from bitbucket.org/astanin/python-tabulate.
 
+[Trankit](http://nlp.uoregon.edu/trankit),
+[nlp-uoregon/trankit](https://github.com/nlp-uoregon/trankit) --- Trankit is a Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
+
+[coqui-ai/STT](https://github.com/coqui-ai/STT) --- STT - The deep learning toolkit for Speech-to-Text. Training and deploying STT models has never been so easy.
+
+[Double Decoder Consistency](https://coqui.ai/blog/tts/solving-attention-problems-of-tts-models-with-double-decoder-consistency)
+
+[kan-bayashi/ParallelWaveGAN](https://github.com/kan-bayashi/ParallelWaveGAN)
+
+[NVIDIA/mellotron](https://github.com/NVIDIA/mellotron) --- Mellotron: a multispeaker voice synthesis model based on Tacotron 2 GST that can make a voice emote and sing without emotive or singing training data
+
+[MycroftAI/mimic2](https://github.com/MycroftAI/mimic2) --- Text to Speech engine based on the Tacotron architecture, initially implemented by Keith Ito.
+
+[MycroftAI/lingua-franca](https://github.com/MycroftAI/lingua-franca) --- Mycroft's multilingual text parsing and formatting library
+
+[MycroftAI/skill-date-time](https://github.com/MycroftAI/skill-date-time) --- Mycroft AI official Date and Time Skill, providing the current time, date and day of week for cities around the world.
+
+[Jaco-Assistant/Scribosermo](https://gitlab.com/Jaco-Assistant/Scribosermo) Train fast Speech-to-Text networks in different languages
+
+[grammarly/ua-gec](https://github.com/grammarly/ua-gec) --- UA-GEC: Grammatical Error Correction and Fluency Corpus for the Ukrainian Language
+
+[grammarly/gector](https://github.com/grammarly/gector) --- Official implementation of the papers "GECToR – Grammatical Error Correction: Tag, Not Rewrite" (BEA-20) and "Text Simplification by Tagging" (BEA-21)
+
+[Timers and Such: A Practical Benchmark for Spoken Language Understanding with Numbers](https://arxiv.org/abs/2104.01604)
+
+[LT-LM: a novel non-autoregressive language model for single-shot lattice rescoring](https://arxiv.org/abs/2104.02526)
+
+[Digital-Umuganda/Deepspeech-Kinyarwanda](https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda) --- The kinyarwanda model for deepspeech
+
 
