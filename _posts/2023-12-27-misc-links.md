@@ -1350,4 +1350,4 @@ and geometry engine
 
 [alberto-poncelas/tesseract_postprocess](https://github.com/alberto-poncelas/tesseract_postprocess)
 
-
+[Development of an automatic attitude recognition system: a multimodal analysis of video blogs](http://www.tara.tcd.ie/handle/2262/81914)
