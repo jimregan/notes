@@ -1158,4 +1158,8 @@ and geometry engine
 
 [sileod/tasknet](https://github.com/sileod/tasknet) --- Easy multi-task learning with HuggingFace Datasets and Trainer
 
+[Irish English Resource Centre](http://www.raymondhickey.com/index_\(IERC\).html)
+
+[Reward is not Necessary: How to Create a Modular & Compositional Self-Preserving Agent for Life-Long Learning](https://arxiv.org/abs/2211.10851)
+
 
