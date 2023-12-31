@@ -1130,4 +1130,12 @@ and geometry engine
 
 [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/)
 
+[Leaḃar ar áireaṁ](https://catalog.hathitrust.org/Record/102748023)
+
+[Auraicept na n-éces](https://catalog.hathitrust.org/Record/006219569)
+
+[Naoi ngábhadh an Ghiolla Dhuibh.](https://catalog.hathitrust.org/Record/102751871)
+
+[Naoi Ghabh an Ghiolla Dubh](https://www.daltai.com/discus/messages/21/33425.html?1208617218)
+
 
