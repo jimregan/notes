@@ -1577,4 +1577,22 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Digital-Umuganda/Deepspeech-Kinyarwanda](https://github.com/Digital-Umuganda/Deepspeech-Kinyarwanda) --- The kinyarwanda model for deepspeech
 
+[End-to-End Speaker-Attributed ASR with Transformer](https://arxiv.org/abs/2104.02128)
+
+[Differentiable Weighted Finite-State Transducers](https://arxiv.org/abs/2010.01003)
+
+[facebookresearch/mmf](https://github.com/facebookresearch/mmf) --- A modular framework for vision & language multimodal research from Facebook AI Research (FAIR)
+
+[kaegi/alass](https://github.com/kaegi/alass) --- "Automatic Language-Agnostic Subtitle Synchronization"
+
+[pums974/srtsync](https://github.com/pums974/srtsync) --- Automatic synchronizer of subtitles based on voice activity in the video
+
+[oseiskar/autosubsync](https://github.com/oseiskar/autosubsync) --- Automatically synchronize subtitles with audio using machine learning
+
+[tympanix/subsync](https://github.com/tympanix/subsync) --- Synchronize your subtitles using machine learning
+
+[sc0ty/subsync](https://github.com/sc0ty/subsync) --- Subtitle Speech Synchronizer
+
+[GEM Benchmark Tasks](https://gem-benchmark.com/data_cards)
+
 
