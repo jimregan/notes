@@ -1469,4 +1469,44 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Cochleagram Representation of Sound](https://staffwww.dcs.shef.ac.uk/people/N.Ma/resources/ratemap/)
 
+[SpeechColab/GigaSpeech](https://github.com/SpeechColab/GigaSpeech) --- Large, modern dataset for speech recognition
+
+[iver56/audiomentations](https://github.com/iver56/audiomentations) --- A Python library for audio data augmentation. Inspired by albumentations. Useful for machine learning.
+
+[SpeechBrain Tutorials](https://speechbrain.github.io/tutorial_basics.html)
+
+[The Learning Rate Finder Technique: How Reliable Is It?](https://blog.dataiku.com/the-learning-rate-finder-technique-how-reliable-is-it)
+
+[Faster than training from scratch — Fine-tuning the English GPT-2 in any language with Hugging Face and fastai v2](https://medium.com/@pierre_guillou/faster-than-training-from-scratch-fine-tuning-the-english-gpt-2-in-any-language-with-hugging-f2ec05c98787)
+
+[Fastai with 🤗 Transformers](https://www.kaggle.com/code/maroberti/fastai-with-transformers-bert-roberta/notebook)
+
+[Unsupervised pretraining transfers well across languages](https://arxiv.org/abs/2002.02848)
+
+[Podchraoltaí Gaeilge](https://peig.ie/en/2019/06/podchraoltai-gaeilge/)
+
+[A full statement of the trial and acquittal of Aaron Burr, esq](https://archive.org/details/fullstatementoft00burr/page/36/mode/2up)
+
+[The Irish landed gentry when Cromwell came to Ireland](https://archive.org/details/irishlandedgentr00ohar)
+
+[Litriú na Gaeilge](https://archive.org/details/litriunagaeilge/mode/1up)
+
+[Jimín Ṁáire Ṫaiḋg](https://archive.org/details/jimin-mhaire-thaidhg/page/11/mode/1up)
+
+[An foclóir beag](https://archive.org/details/focloirbeaggaeil0000unse/mode/1up)
+
+[Jócleabhar beag bídeach na Gaeilge](https://archive.org/details/jocleabharbeagbi0000ulta/mode/2up)
+
+[Ceannóga agus Coinlíní](https://archive.org/details/CeanngaAgusCoinlln/mode/1up)
+
+[Fuaimeanna na Gaeilge](https://archive.org/details/fuaimeannanagaei0000orag/mode/1up)
+
+[teddykoker/torchsort](https://github.com/teddykoker/torchsort)
+
+[Countering the claims about Australia’s Aboriginal number systems](https://theconversation.com/countering-the-claims-about-australias-aboriginal-number-systems-65042)
+
+[Gryf : pismo dla spraw kaszubskich](https://www.bibliotekacyfrowa.eu/dlibra/publication/61930/edition/56773?language=pl)
+
+[AIdeaLab/wav2vec2_docker](https://github.com/AIdeaLab/wav2vec2_docker) --- pretraining wav2vec docker for sagemaker.
+
 
