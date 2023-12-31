@@ -1384,6 +1384,12 @@ and geometry engine
 
 [facebookresearch/vissl](https://github.com/facebookresearch/vissl) --- VISSL is FAIR's library of extensible, modular and scalable components for SOTA Self-Supervised Learning with images.
 
-[SEER: The start of a more powerful, flexible, and accessible era for computer vision](https://ai.meta.com/blog/seer-the-start-of-a-more-powerful-flexible-and-accessible-era-for-computer-vision/)
+[google-research/simclr](https://github.com/google-research/simclr) --- SimCLRv2 - Big Self-Supervised Models are Strong Semi-Supervised Learners
+
+[Leveraging the Exact Likelihood of Deep Latent Variable Models](https://arxiv.org/abs/1802.04826)
+
+[Transformers Explained Visually part 2](https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34)
+
+[salesforce/WikiSQL](https://github.com/salesforce/WikiSQL) --- A large annotated semantic parsing corpus for developing natural language interfaces.
 
 
