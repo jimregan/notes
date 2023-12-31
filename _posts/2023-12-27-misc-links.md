@@ -1190,4 +1190,17 @@ and geometry engine
 
 [Calendar of documents, relating to Ireland, preserved in Her Majesty's Public Record Office, London, 1171-1307](https://archive.org/details/cu31924091754816/page/n194/mode/1up)
 
+[Brain, Time, CTC blank states and streaming](https://alphacephei.com/nsh/2023/09/22/time-brain-ctc-blank.html)
+
+[Testing Facebook MMS and SeamlessMT4 Word Error Rate](https://alphacephei.com/nsh/2023/08/24/mms-seamless.html)
+
+[N-gram language model toolkits in 2020](https://alphacephei.com/nsh/2020/12/13/lm-toolkits.html)
+
+[jermp/tongrams](https://github.com/jermp/tongrams) --- A C++ library providing fast language model queries in compressed space.
+
+[On latency of speech recognition](https://alphacephei.com/nsh/2020/11/27/latency.html)
+
+[Wav2vec 2.0: Learning the structure of speech from raw audio](https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/)
+
+[Generate distance matrix from features](https://colab.research.google.com/drive/1_QfbOd1UyQ4d358G54DF53p36vsuJiRp)
 
