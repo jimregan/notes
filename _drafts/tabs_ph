@@ -7,8 +7,8 @@ https://www.jstor.org/stable/30060638?seq=1
 Review: [Untitled] on JSTOR
 https://www.jstor.org/stable/20495871?seq=1
 
-google.com/url?sa=t&source=web&rct=j&url=https://www.tcd.ie/slscs/assets/documents/research/clcs_phonetics_prosody_saltmil_2004.pdf&ved=2ahUKEwi4sbm19-TuAhXQVBUIHV8-C7M4ChAWMAd6BAgHEAE&usg=AOvVaw3lZGKfdD33OydB4igE3yYO
-https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.tcd.ie/slscs/assets/documents/research/clcs_phonetics_prosody_saltmil_2004.pdf&ved=2ahUKEwi4sbm19-TuAhXQVBUIHV8-C7M4ChAWMAd6BAgHEAE&usg=AOvVaw3lZGKfdD33OydB4igE3yYO
+Paper Title
+https://www.tcd.ie/slscs/assets/documents/research/clcs_phonetics_prosody_saltmil_2004.pdf
 
 Comparison of Irish, Manx, and Scottish Gaelic - Wikipedia
 https://en.m.wikipedia.org/wiki/Comparison_of_Irish,_Manx,_and_Scottish_Gaelic
@@ -57,6 +57,90 @@ https://alphacephei.com/nsh/2021/01/30/wav2letter-rasr.html
 
 NeMo Speech Models | NVIDIA NGC
 https://catalog.ngc.nvidia.com/orgs/nvidia/models/nemospeechmodels/files
+
+Speech Recognition With Vosk | Blog about speech technologies - recognition, synthesis, identification. Mostly it’s about scientific part of it, the core design of the engines, the new methods, machine learning and about about technical part like architecture of the recognizer and design decisions behind it.
+https://alphacephei.com/nsh/
+
+N-gram language model toolkits in 2020 | Speech Recognition With Vosk
+https://alphacephei.com/nsh/2020/12/13/lm-toolkits.html
+
+GitHub - jermp/tongrams: A C++ library providing fast language model queries in compressed space.
+https://github.com/jermp/tongrams
+
+On latency of speech recognition | Speech Recognition With Vosk
+https://alphacephei.com/nsh/2020/11/27/latency.html
+
+Software | Gaois research group
+https://www.gaois.ie/en/technology/software/
+
+Writing architecture files · flashlight/wav2letter Wiki · GitHub
+https://github.com/flashlight/wav2letter/wiki/Writing-architecture-files
+
+fairseq/examples/wav2vec at main · facebookresearch/fairseq · GitHub
+https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec
+
+wav2vec2 xlsr - Google Search
+https://www.google.com/search?q=wav2vec2+xlsr&oq=wav2vec2+xlsr&aqs=chrome..69i57j33i10i160.7388j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+Wav2vec 2.0: Learning the structure of speech from raw audio
+https://ai.meta.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/
+
+fairseq/examples/wav2vec/README.md at main · facebookresearch/fairseq · GitHub
+https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md
+
+ipa-recognizer · PyPI
+https://pypi.org/project/ipa-recognizer/#data
+
+Gitmemory.com
+http://ww25.gitmemory.com/issue/pytorch/fairseq/2548/754918767?subid1=20240101-0112-298a-b7e7-f9c8cdf62a8c
+
+www.groundai.com
+https://www.groundai.com/project/unispeech-unified-speech-representation-learning-with-labeled-and-unlabeled-data/1
+
+dist-matrix.ipynb - Colaboratory
+https://colab.research.google.com/drive/1_QfbOd1UyQ4d358G54DF53p36vsuJiRp
+
+GitHub - xinjli/allosaurus: Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
+https://github.com/xinjli/allosaurus
+
+GitHub - phoible/dev: PHOIBLE data and development.
+https://github.com/phoible/dev
+
+allovera/data/json at master · dmort27/allovera · GitHub
+https://github.com/dmort27/allovera/tree/master/data/json
+
+Python Concurrency: The Tricky Bits -
+https://python.hamel.dev/concurrency/
+
+ProxyBay
+https://www.proxybay.uk/?m=1
+
+adelaide kane - Google Search
+https://www.google.com/search?gs_ssp=eJzj4tTP1TdIN7YoyzZg9OJNTEnNScxMSVXITsxLBQBm7ggy&q=adelaide+kane&oq=adela&aqs=chrome.1.69i57j46i67i131i433j46i67i433j0i67.2574j0j9&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+Common Crawl - Terms of Use
+https://commoncrawl.org/terms-of-use
+
+what-the-bookcorpus.md · GitHub
+https://gist.github.com/alvations/4d2278e5a5fbcf2e07f49315c4ec1110
+
+CS 11-747: Neural Networks for NLP
+https://phontron.com/class/nn4nlp2021/schedule/class-introduction.html
+
+23rd International Conference on Speech and Computer (SPECOM-2021)
+https://specom.nw.ru/2021/
+
+Add Arabic Speech Corpus by zaidalyafeai · Pull Request #1852 · huggingface/datasets · GitHub
+https://github.com/huggingface/datasets/pull/1852
+
+Refactoring - modularizing K2 ASR dataset by pzelasko · Pull Request #194 · lhotse-speech/lhotse · GitHub
+https://github.com/lhotse-speech/lhotse/pull/194
+
+Upload generated wheels to k2-fsa.org (#662) · k2-fsa/k2@e76df48 · GitHub
+https://github.com/k2-fsa/k2/commit/e76df4846a4343c9e09c0df859163d79423a4fac
+
+Support build with Tensorflow by stweil · Pull Request #2461 · tesseract-ocr/tesseract · GitHub
+https://github.com/tesseract-ocr/tesseract/pull/2461
 
 GitHub - karpathy/deep-vector-quantization: VQVAEs, GumbelSoftmaxes and friends
 https://github.com/karpathy/deep-vector-quantization
