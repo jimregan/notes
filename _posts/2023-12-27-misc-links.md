@@ -1974,4 +1974,40 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [coady/lupyne](https://github.com/coady/lupyne) --- Pythonic search engine based on PyLucene.
 
+[apache/pdfbox](https://github.com/apache/pdfbox)
+
+[Nine Polish books you must read before you die](https://notesfrompoland.com/2022/02/07/nine-polish-novels-you-must-read-before-you-die/)
+
+[pytorch/audio](https://github.com/pytorch/audio)
+
+[ml-tooling/opyrator](https://github.com/ml-tooling/opyrator) --- Turns your machine learning code into microservices with web API, interactive GUI, and more.
+
+[tomstitt/lupyter](https://github.com/tomstitt/lupyter) --- A Lua Kernel for Jupyter built on ipykernel.
+
+[Automated Guitar Transcription with Deep Learning](https://towardsdatascience.com/audio-to-guitar-tab-with-deep-learning-d76e12717f81)
+
+[GuitarsAI/ADSP_Tutorials](https://github.com/GuitarsAI/ADSP_Tutorials) --- Advanced Signal Processing Notebooks and Tutorials
+
+[GuitarML/GuitarLSTM](https://github.com/GuitarML/GuitarLSTM) --- Deep learning models for guitar amp/pedal emulation using LSTM with Keras.
+
+[GuitarML/SmartAmpPro](https://github.com/GuitarML/SmartAmpPro) --- Guitar plugin using neural networks to capture real amps and pedals
+
+[voila-dashboards/voila](https://github.com/voila-dashboards/voila) --- Voilà turns Jupyter notebooks into standalone web applications
+
+[jupyter-xeus/xeus-cling](https://github.com/jupyter-xeus/xeus-cling) --- Jupyter kernel for the C++ programming language
+
+[PyO3/pyo3](https://github.com/PyO3/pyo3) --- Rust bindings for the Python interpreter
+
+[Interactive Rust in a REPL and Jupyter Notebook with EVCXR](https://depth-first.com/articles/2020/09/21/interactive-rust-in-a-repl-and-jupyter-notebook-with-evcxr/)
+
+[AK391/spleeter](https://github.com/AK391/spleeter) --- Deezer source separation library including pretrained models.
+
+[CoderLine/alphaTab](https://github.com/CoderLine/alphaTab) --- alphaTab is a cross platform music notation and guitar tablature rendering library.
+
+[dpilger26/NumCpp](https://github.com/dpilger26/NumCpp) --- C++ implementation of the Python Numpy library
+
+[faridrashidi/kaggle-solutions](https://github.com/faridrashidi/kaggle-solutions) --- Collection of Kaggle Solutions and Ideas
+
+[Introduction to Sound Event Detection](https://www.kaggle.com/code/hidehisaarai1213/introduction-to-sound-event-detection/notebook)
+
 
