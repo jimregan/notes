@@ -1884,4 +1884,22 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [llvmpy/llvmpy](https://github.com/llvmpy/llvmpy)
 
+[ucb-bar/riscv-sodor](https://github.com/ucb-bar/riscv-sodor) --- educational microarchitectures for risc-v isa
+
+[boriel/zxbasic](https://github.com/boriel/zxbasic) --- The Sinclair ZX Spectrum BASIC compiler!
+
+[erikrose/blessings](https://github.com/erikrose/blessings) --- A thin, practical wrapper around terminal capabilities in Python
+
+[tartley/colorama](https://github.com/tartley/colorama) --- Simple cross-platform colored terminal text in Python
+
+[jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) --- The TinyLlama project is an open endeavor to pretrain a 1.1B Llama model on 3 trillion tokens.
+
+[PrefectHQ/marvin](https://github.com/PrefectHQ/marvin) --- Build AI interfaces that spark joy
+
+[alibaba/animate-anything](https://github.com/alibaba/animate-anything) --- Fine-Grained Open Domain Image Animation with Motion Guidance
+
+[Kanaries/pygwalker](https://github.com/Kanaries/pygwalker) --- PyGWalker: Turn your pandas dataframe into an interactive UI for visual analysis
+
+[commaai/openpilot](https://github.com/commaai/openpilot) --- openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for 250+ supported car makes and models.
+
 
