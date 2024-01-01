@@ -1880,4 +1880,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [photonstorm/phaser](https://github.com/photonstorm/phaser) --- Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
 
+[Suyash458/WiktionaryParser](https://github.com/Suyash458/WiktionaryParser) --- A Python Wiktionary Parser
+
+[llvmpy/llvmpy](https://github.com/llvmpy/llvmpy)
+
 
