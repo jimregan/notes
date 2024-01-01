@@ -2073,4 +2073,9 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [1SPU: 1-step Speech Processing Unit](https://arxiv.org/abs/2311.04753)
 
+[Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243),
+[code](https://github.com/gaasher/I-JEPA)
+
+[sscardapane/reprodl2021](https://github.com/sscardapane/reprodl2021) --- Host repository for the "Reproducible Deep Learning" PhD course
+
 
