@@ -1617,4 +1617,21 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [NodLabs/mlir-examples](https://github.com/NodLabs/mlir-examples) --- a simple end to end example of taking a ML graph (TF2 / PyTorch) and running it on a device [cpu, gpu]
 
+[Machine Learning Simplified: A gentle introduction to supervised learning](https://themlsbook.com/read)
+
+[XTREME-S benchmark examples](https://github.com/huggingface/transformers/tree/main/examples/research_projects/xtreme-s)
+
+[De vandrande djäknarne](https://www.gutenberg.org/ebooks/9827),
+[De vandrande djäknarne / 3](https://runeberg.org/djaknar/0005.html)
+
+[Beyond Graph Neural Networks with PyNeuraLogic](https://towardsdatascience.com/beyond-graph-neural-networks-with-pyneuralogic-c1e6502c46f7)
+
+[AMI Corpus Overview](https://groups.inf.ed.ac.uk/ami/corpus/overview.shtml)
+
+[TorchStudio/torchstudio](https://github.com/TorchStudio/torchstudio) --- IDE for PyTorch and its ecosystem
+
+[TorchStudio](https://www.torchstudio.ai/)
+
+[OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) --- Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework
+
 
