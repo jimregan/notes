@@ -2094,4 +2094,15 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Deep Implicit Attention: A Mean-Field Theory Perspective on Attention Mechanisms](https://mcbal.github.io/post/deep-implicit-attention-a-mean-field-theory-perspective-on-attention-mechanisms/)
 
+[Bootstrap your own latent: A new approach to self-supervised Learning](https://arxiv.org/abs/2006.07733)
+
+[SBert quickstart](https://sbert.net/docs/quickstart.html)
+
+[jmccrae/irish_saffron](https://github.com/jmccrae/irish_saffron) --- Code related to adapting Saffron to Irish
+
+[A new open data set for multilingual speech research](https://ai.meta.com/blog/a-new-open-data-set-for-multilingual-speech-research/),
+[OpenSLR](https://openslr.org/94/)
+
+[tugstugi/dl-colab-notebooks](https://github.com/tugstugi/dl-colab-notebooks) --- Try out deep learning models online on Google Colab
+
 
