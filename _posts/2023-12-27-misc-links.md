@@ -1597,3 +1597,24 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Getting Started With Embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
 
+{% twitter https://twitter.com/NimaBoscarino/status/1535331680805801984 %}
+
+[Spectrum and Prosody Conversion for Cross-lingual Voice Conversion with CycleGAN](https://kunzhou9646.github.io/cross-vc2020/)
+
+[A Modern Self-Referential Weight Matrix That Learns to Modify Itself](https://arxiv.org/abs/2202.05780)
+
+[High-Quality, Robust and Responsible Direct Speech-to-Speech Translation](https://blog.research.google/2021/09/high-quality-robust-and-responsible.html)
+
+[Introducing CVSS: A Massively Multilingual Speech-to-Speech Translation Corpus](https://blog.research.google/2022/04/introducing-cvss-massively-multilingual.html)
+
+[milvus-io/milvus](https://github.com/milvus-io/milvus) --- A cloud-native vector database, storage for next generation AI applications
+
+[Siri can't speak Irish: Tackling the digital gaps for the Irish language](https://www.thejournal.ie/minority-languages-digital-equality-5725794-Mar2022/)
+
+[lucidrains/reformer-pytorch](https://github.com/lucidrains/reformer-pytorch) --- Reformer, the efficient Transformer, in Pytorch
+
+[BBC reporter Phil McCann triggers 'fill my can' memes as he covers fuel shortage in UK](https://www.firstpost.com/world/bbc-reporter-phil-mccann-triggers-fill-my-can-memes-as-he-covers-fuel-shortage-in-uk-10003401.html)
+
+[NodLabs/mlir-examples](https://github.com/NodLabs/mlir-examples) --- a simple end to end example of taking a ML graph (TF2 / PyTorch) and running it on a device [cpu, gpu]
+
+
