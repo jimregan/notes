@@ -2010,11 +2010,11 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Introduction to Sound Event Detection](https://www.kaggle.com/code/hidehisaarai1213/introduction-to-sound-event-detection/notebook)
 
-[RADIO KASZËBË](https://radiokaszebe.pl/)
+[Radio Kaszëbë](https://radiokaszebe.pl/)
 
-[PODÒDZÉL JISTNIKÓW NA DEKLINACJE. I DEKLINACJÔ](http://skarbnicakaszubska.pl/deklinacja-i/)
+[Podòdzél jistników na deklinacje. I deklinacjô](http://skarbnicakaszubska.pl/deklinacja-i/)
 
-[NAJÔ ÙCZBA](http://skarbnicakaszubska.pl/najo-uczba/)
+[Najô Ùczba](http://skarbnicakaszubska.pl/najo-uczba/)
 
 [Open-Speech-EkStep/vakyansh-wav2vec2-experimentation](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)
 
