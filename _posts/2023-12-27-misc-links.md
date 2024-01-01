@@ -2154,4 +2154,11 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [qdrant/qdrant](https://github.com/qdrant/qdrant) --- Qdrant - High-performance, massive-scale Vector Database for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
 
+[Learning rule-based morpho-phonology](https://ling.auf.net/lingbuzz/003665),
+[code](https://github.com/taucompling/morphophonology_spe)
 
+[AakashKumarNain/annotated_research_papers](https://github.com/AakashKumarNain/annotated_research_papers)
+
+[TextOCR](https://textvqa.org/textocr/)
+
+[argilla-io/argilla](https://github.com/argilla-io/argilla) --- Argilla: the open-source feedback platform for LLMs
