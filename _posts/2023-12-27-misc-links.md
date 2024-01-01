@@ -2162,3 +2162,26 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [TextOCR](https://textvqa.org/textocr/)
 
 [argilla-io/argilla](https://github.com/argilla-io/argilla) --- Argilla: the open-source feedback platform for LLMs
+
+[Beyond Offline Mapping: Learning Cross Lingual Word Embeddings through Context Anchoring](https://arxiv.org/abs/2012.15715)
+
+[Feasta | Bealtaine 2013](https://issuu.com/cnag/docs/feasta_bealtaine_2013/46)
+
+[CCExtractor/ccextractor](https://github.com/CCExtractor/ccextractor) --- CCExtractor is a tool used to produce subtitles for TV recordings from almost anywhere in the world. We intend to keep up with all sources and formats.
+
+[JabRef/jabref](https://github.com/JabRef/jabref) --- Graphical Java application for managing BibTeX and biblatex (.bib) databases
+
+[rizinorg/rizin](https://github.com/rizinorg/rizin) --- UNIX-like reverse engineering framework and command-line toolset.
+
+[Synfig](https://www.synfig.org/),
+[code](https://github.com/synfig/synfig/) --- Synfig Studio is a free and open-source 2D animation software, designed as powerful industrial-strength solution for creating film-quality animation using a vector and bitmap artwork
+
+[hamelsmu/Seq2Seq_Tutorial](https://github.com/hamelsmu/Seq2Seq_Tutorial) --- Code For Medium Article "How To Create Data Products That Are Magical Using Sequence-to-Sequence Models"
+
+[hamelsmu/Docker_Tutorial](https://github.com/hamelsmu/Docker_Tutorial) --- Code and helper scripts for article on Medium "How Docker Can Help You Become A More Effective Data Scientist"
+
+[How to write academic papers in Markdown](https://brainbaking.com/post/2021/02/writing-academic-papers-in-markdown/)
+
+[Writing academic papers in plain text with Markdown and Jupyter notebook](https://sylvaindeville.net/2015/07/17/writing-academic-papers-in-plain-text-with-markdown-and-jupyter-notebook/)
+
+
