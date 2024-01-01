@@ -2078,4 +2078,20 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [sscardapane/reprodl2021](https://github.com/sscardapane/reprodl2021) --- Host repository for the "Reproducible Deep Learning" PhD course
 
+[Aligning Ground Truth Text with OCR Degraded Text](https://link.springer.com/chapter/10.1007/978-3-030-22871-2_58)
+
+[Are you GPU poor?](https://rahulschand.github.io/gpu_poor/)
+
+[openaudible/openaudible](https://github.com/openaudible/openaudible) --- Audiobook Manager for Audible Users
+
+[A complete guide to transfer learning from English to other Languages using Sentence Embeddings BERT Models](https://towardsdatascience.com/a-complete-guide-to-transfer-learning-from-english-to-other-languages-using-sentence-embeddings-8c427f8804a9)
+
+[Ki6an/fastT5](https://github.com/Ki6an/fastT5) --- boost inference speed of T5 models by 5x & reduce the model size by 3x.
+
+[FieldDB/Praat-Scripts](https://github.com/FieldDB/Praat-Scripts)
+
+[FieldDB/AndroidLanguageLessons](https://github.com/FieldDB/AndroidLanguageLessons)
+
+[Deep Implicit Attention: A Mean-Field Theory Perspective on Attention Mechanisms](https://mcbal.github.io/post/deep-implicit-attention-a-mean-field-theory-perspective-on-attention-mechanisms/)
+
 
