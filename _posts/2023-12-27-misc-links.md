@@ -1803,6 +1803,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [bbc/vc2_conformance](https://github.com/bbc/vc2_conformance) --- Software tools for checking the conformance of SMPTE ST 2042-1 (VC-2) professional video codec implementations.
 
+[bbc/dash.js](https://github.com/bbc/dash.js) --- A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.
+
 [bbc/storyplayer](https://github.com/bbc/storyplayer) --- BBC Research & Development's Object Based Media Player
 
 [bbc/digital-paper-edit-api](https://github.com/bbc/digital-paper-edit-api) --- Work in progress - BBC News Labs digital paper edit project - Express server API
