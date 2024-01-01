@@ -1750,4 +1750,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [smacke/ffsubsync](https://github.com/smacke/ffsubsync) --- Automagically synchronize subtitles with video.
 
+[bbc/morty-docs](https://github.com/bbc/morty-docs) --- Generate a static website from markdown files
+
+[BorisChumichev/everpolate](https://github.com/BorisChumichev/everpolate) --- Numerical interpolation and extrapolation lib
+
+[bbc/stt-align-node](https://github.com/bbc/stt-align-node) --- node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
+
 
