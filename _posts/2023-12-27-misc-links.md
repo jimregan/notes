@@ -1656,4 +1656,73 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Patches Are All You Need?](https://openreview.net/forum?id=TVHS5Y4dNvM),
 [locuslab/convmixer](https://github.com/locuslab/convmixer) --- Implementation of ConvMixer for "Patches Are All You Need?"
 
+[Direct multimodal few-shot learning of speech and images](https://arxiv.org/abs/2012.05680)
+
+[yoav-lavi/melody](https://github.com/yoav-lavi/melody) --- Melody is a language that compiles to regular expressions and aims to be more readable and maintainable
+
+[Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram)
+
+[En Nyckfull kvinna del 1](https://librivox.org/en-nyckfull-kvinna-del-1-den-obundna-flickan-by-emilie-flygare-carlen/)
+
+[Weakly Supervised Construction of ASR Systems with Massive Video Data](https://arxiv.org/abs/2008.01300)
+
+[Data Augmentation library for text](https://towardsdatascience.com/data-augmentation-library-for-text-9661736b13ff)
+
+[Wav2vec could be more efficient, so we created our own pre-trained ASR Model for better Conversational AI.](https://www.asapp.com/blog/wav2vec-could-be-more-efficient-so-we-created-our-own-pre-trained-asr-model-for-better-conversational-ai)
+
+[SEW-D](https://huggingface.co/docs/transformers/model_doc/sew-d)
+
+[Efficiently Fusing Pretrained Acoustic and Linguistic Encoders for Low-resource Speech Recognition](https://arxiv.org/abs/2101.06699)
+
+[JAX Vs TensorFlow Vs PyTorch: A Comparative Analysis](https://analyticsindiamag.com/jax-vs-tensorflow-vs-pytorch-a-comparative-analysis/)
+
+[FAST-RIR: FAST NEURAL DIFFUSE ROOM IMPULSE RESPONSE GENERATOR](https://anton-jeran.github.io/FRIR/)
+
+[google-deepmind/dm-haiku](https://github.com/google-deepmind/dm-haiku) --- JAX-based neural network library
+
+[Getting started with JAX](https://roberttlange.com/posts/2020/03/blog-post-10/)
+
+[W2v-BERT: Combining Contrastive Learning and Masked Language Modeling for Self-Supervised Speech Pre-Training](https://arxiv.org/abs/2108.06209)
+
+[SLAM: A Unified Encoder for Speech and Language Modeling via Speech-Text Joint Pre-Training](https://arxiv.org/abs/2110.10329)
+
+[Joint Speech Recognition and Audio Captioning](https://arxiv.org/abs/2202.01405),
+[code](https://github.com/chintu619/Joint-ASR-AAC)
+
+[Turning a Google Colab Notebook into a Web App](https://anvil.works/learn/tutorials/google-colab-to-web-app)
+
+[Training Acoustic Models](https://www.eleanorchodroff.com/tutorial/kaldi/training-acoustic-models.html)
+
+[Forced Alignment](https://www.eleanorchodroff.com/tutorial/kaldi/forced-alignment.html)
+
+[Common Mistakes in Hyper-Parameters Tuning](https://towardsdatascience.com/common-mistakes-in-hyper-parameters-tuning-ff5951e6c2d)
+
+[A Large-Scale Study on Regularization and Normalization in GANs](https://arxiv.org/abs/1807.04720)
+
+[Psychophysical and behavioral peripheral and central auditory tests](https://pubmed.ncbi.nlm.nih.gov/25726277/)
+
+[shivammehta007/Neural-HMM](https://github.com/shivammehta007/Neural-HMM)
+
+[Data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://ai.meta.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language/)
+
+[One model for the learning of language](https://www.pnas.org/doi/10.1073/pnas.2021865119)
+
+[unfs3/unfs3](https://github.com/unfs3/unfs3) --- UNFS3 is a user-space implementation of the NFSv3 server specification.
+
+[Sinkformers: Transformers with Doubly Stochastic Attention](https://arxiv.org/abs/2110.11773)
+
+[descriptinc/lyrebird-wav2clip](https://github.com/descriptinc/lyrebird-wav2clip) --- Official implementation of the paper WAV2CLIP: LEARNING ROBUST AUDIO REPRESENTATIONS FROM CLIP
+
+[Understanding Q,K,V In Transformer](https://medium.com/analytics-vidhya/understanding-q-k-v-in-transformer-self-attention-9a5eddaa5960)
+
+[Billion-scale vector search with Vespa - part one](https://blog.vespa.ai/billion-scale-knn/)
+
+[Scaling Vision with Sparse Mixture of Experts](https://blog.research.google/2022/01/scaling-vision-with-sparse-mixture-of.html),
+[google-research/vmoe](https://github.com/google-research/vmoe)
+
+[Improving Prosody Modelling with Cross-Utterance BERT Embeddings for End-to-end Speech Synthesis](https://arxiv.org/abs/2011.05161)
+
+[Logainmneacha Mhagh Loirg agus Uachtar Thíre, Contae Ros Comáin: Anailís ar ainmneacha bhailte fearainn na seandúichí sin](https://aran.library.nuigalway.ie/handle/10379/3576)
+
+[Neural edit-tree lemmatization for spaCy](https://explosion.ai/blog/edit-tree-lemmatizer)
 
