@@ -2140,4 +2140,18 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [A dictionary of the Manks language](https://en.wikisource.org/wiki/Index:A_dictionary_of_the_Manks_language_\(Cregeen\).djvu)
 
+[Adapting BERT for Word Sense Disambiguation with Gloss Selection Objective and Example Sentences](https://arxiv.org/abs/2009.11795),
+[code](https://github.com/BPYap/BERT-WSD)
+
+[ikekonglp/PAD](https://github.com/ikekonglp/PAD) --- The PAD parser produces phrases-after-dependencies. Give it the output of a dependency parser and it will produce the optimal constrained phrase-structure parse.
+
+[Prompting the Hidden Talent of Web-Scale Speech Models for Zero-Shot Task Generalization](https://www.isca-speech.org/archive/interspeech_2023/peng23d_interspeech.html)
+
+[Neural HMMs are all you need (for high-quality attention-free TTS)](https://arxiv.org/abs/2108.13320)
+
+[Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300),
+[code](https://github.com/hendrycks/test)
+
+[qdrant/qdrant](https://github.com/qdrant/qdrant) --- Qdrant - High-performance, massive-scale Vector Database for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/
+
 
