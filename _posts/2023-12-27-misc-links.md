@@ -1902,4 +1902,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [commaai/openpilot](https://github.com/commaai/openpilot) --- openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for 250+ supported car makes and models.
 
+[dvmazur/mixtral-offloading](https://github.com/dvmazur/mixtral-offloading) --- Run Mixtral-8x7B models in Colab or consumer desktops
+
+[Textualize/rich](https://github.com/Textualize/rich) --- Rich is a Python library for rich text and beautiful formatting in the terminal.
+
+[DLYuanGod/TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) --- TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones
+
 
