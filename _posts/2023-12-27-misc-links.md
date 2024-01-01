@@ -2010,4 +2010,18 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Introduction to Sound Event Detection](https://www.kaggle.com/code/hidehisaarai1213/introduction-to-sound-event-detection/notebook)
 
+[RADIO KASZËBË](https://radiokaszebe.pl/)
+
+[PODÒDZÉL JISTNIKÓW NA DEKLINACJE. I DEKLINACJÔ](http://skarbnicakaszubska.pl/deklinacja-i/)
+
+[NAJÔ ÙCZBA](http://skarbnicakaszubska.pl/najo-uczba/)
+
+[Open-Speech-EkStep/vakyansh-wav2vec2-experimentation](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)
+
+[Machine Learning | Google for Developers](https://developers.google.com/machine-learning)
+
+[10 Jupyter Notebook Extensions Making My Lyfe Easier](https://medium.com/@maxtingle/10-jupyter-notebook-extensions-making-my-lyfe-easier-f40139a334ce)
+
+[org-arl/jupyter-ieee-paper](https://github.com/org-arl/jupyter-ieee-paper) --- Jupyter notebook to generate fully formatted IEEE papers
+
 
