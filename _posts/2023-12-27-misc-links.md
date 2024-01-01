@@ -2061,4 +2061,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [rook/rook](https://github.com/rook/rook) --- Storage Orchestration for Kubernetes
 
+[TigerBot: An Open Multilingual Multitask LLM](https://arxiv.org/abs/2312.08688)
+
+[RLIF: Interactive Imitation Learning as Reinforcement Learning](https://rlif-page.github.io/)
+
 
