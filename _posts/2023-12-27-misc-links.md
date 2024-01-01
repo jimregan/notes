@@ -2105,4 +2105,35 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [tugstugi/dl-colab-notebooks](https://github.com/tugstugi/dl-colab-notebooks) --- Try out deep learning models online on Google Colab
 
+[FELIX: Flexible Text Editing Through Tagging and Insertion](https://aclanthology.org/2020.findings-emnlp.111/),
+[code](https://github.com/google-research/google-research/tree/master/felix)
+
+[openmainframeproject/cobol-programming-course](https://github.com/openmainframeproject/cobol-programming-course) --- Training materials and labs for a "Getting Started" level course on COBOL
+
+[IBM/cobol-is-fun](https://github.com/IBM/cobol-is-fun)
+
+[Martinfx/Cobol](https://github.com/Martinfx/Cobol)
+
+[RiveScript](https://www.rivescript.com/)
+
+[mohaEs/Train-Predict-Landmarks-by-dlib](https://github.com/mohaEs/Train-Predict-Landmarks-by-dlib)
+
+[ELITR/automin-2021](https://github.com/ELITR/automin-2021)
+
+[Involution: Inverting the Inherence of Convolution for Visual Recognition](https://arxiv.org/abs/2103.06255),
+[code](https://github.com/d-li14/involution),
+[involution_pytorch](https://github.com/rish-16/involution_pytorch)
+
+[open-mmlab/mmocr](https://github.com/open-mmlab/mmocr) --- OpenMMLab Text Detection, Recognition and Understanding Toolbox
+
+[Nuacht Mhall](https://podcasters.spotify.com/pod/show/cnag-ldn/episodes/RamhbhlaiseadhTrailer-ehbujf)
+
+[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) --- Python Data Science Handbook: full text in Jupyter Notebooks
+
+[An ultrasound study of Connemara Irish palatalization and velarization](https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/an-ultrasound-study-of-connemara-irish-palatalization-and-velarization/D4EC2163B11AF44B8698659DBFA68966)
+
+[An Ultrasound Investigation of Irish Palatalization](https://irishpalatals.sites.ucsc.edu/dialect/munster/munster-labial-consonants/)
+
+[wmcnally/evopose2d](https://github.com/wmcnally/evopose2d) --- EvoPose2D is a two-stage human pose estimation model that was designed using neuroevolution. It achieves state-of-the-art accuracy on COCO.
+
 
