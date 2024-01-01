@@ -1,104 +1,5 @@
-hf_wav2vec2_deepspeed.ipynb - Colaboratory
-https://colab.research.google.com/drive/1VRCGcnhBlrMFYQ5aaNebucZuja-WB2I2?usp=sharing#scrollTo=JP5gbbEMMRyH
-
-Part 2 - Extracting Audio Features | Kaggle
-https://www.kaggle.com/code/ejlok1/part-2-extracting-audio-features/input
-
-Yoda Speech Corpus
-https://www.kaggle.com/datasets/stefanocoretta/yoda-speech-corpus
-
-YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research
-https://research.google.com/youtube8m/download.html
-
-GitHub - rishabhindoria/GPU-to-TPU: Switching from GPU to the future of Machine learning the TPU. Over 1 million images trained Resnet50 in under 20 mins compared to days or weeks on GPU and all for 0$ free on Google Colab Notebooks in Google Drive, clone repo and jump right in!!
-https://github.com/rishabhindoria/GPU-to-TPU
-
-CNNDigitReco-speakerindependent | Kaggle
-https://www.kaggle.com/code/saztorralba/cnndigitreco-speakerindependent/notebook
-
-Spanish Automatic Speech Recognition pytorch | Kaggle
-https://www.kaggle.com/code/shwetanani/spanish-automatic-speech-recognition-pytorch/notebook
-
-Mr Donald Trump Speeches
-https://www.kaggle.com/datasets/binksbiz/mrtrump/code
-
-Joe Biden 2020 DNC Speech
-https://www.kaggle.com/datasets/christianlillelund/joe-biden-2020-dnc-speech
-
-Grid Search to find best tuning parameters | Kaggle
-https://www.kaggle.com/code/jinilcs/grid-search-to-find-best-tuning-parameters/notebook?select=data.csv
-
-CycleGAN Submission | Kaggle
-https://www.kaggle.com/code/linshokaku/cyclegan-submission/notebook
-
-Digit Recognizer | Kaggle
-https://www.kaggle.com/c/digit-recognizer
-
-tner/MODEL_CARD.md at master · asahi417/tner · GitHub
-https://github.com/asahi417/tner/blob/master/MODEL_CARD.md
-
-Cassava Leaf Disease Classification | Kaggle
-https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion/211920
-
-Jane Street Market Prediction | Kaggle
-https://www.kaggle.com/c/jane-street-market-prediction/code
-
-Train BERT from scratch | Kaggle
-https://www.kaggle.com/code/naveenk903/train-bert-from-scratch/notebook
-
-Titanic - Machine Learning from Disaster | Kaggle
-https://www.kaggle.com/c/titanic/discussion/6240
-
-CommonVoice_processing | Kaggle
-https://www.kaggle.com/code/erelin6613/commonvoice-processing/notebook
-
-Kaggle Learn Course Certificates
-https://www.kaggle.com/learn-course-certificates
-
-Free Spoken Digit Dataset (FSDD)
-https://www.kaggle.com/datasets/joserzapata/free-spoken-digit-dataset-fsdd
-
-Classification on FSDD using Spectograms | Kaggle
-https://www.kaggle.com/code/iinaam/classification-on-fsdd-using-spectograms/notebook
-
-OCR Using Tesseract | Kaggle
-https://www.kaggle.com/code/suyogdahal/ocr-using-tesseract/notebook
-
-How to activate a conda environment at kaggle | Kaggle
-https://www.kaggle.com/discussions/questions-and-answers/130480
-
-Jaided AI: EasyOCR demo
-https://www.jaided.ai/easyocr/
-
-Polish Christmas Carols
-https://www.kaggle.com/datasets/wojciech1103/polish-christmas-carols/code
-
-RTÉ Podcast -An Saol ó Dheas
-https://www.rte.ie/radio1/podcast/podcast_ansaolodheas.xml
-
-Nuacht1.com
-https://nuacht1.com/?lch=3
-
-FÍSEÁN: ‘Níl na comharthaí iontach maith’  – amhras léirithe ag stiúrthóir an Oireachtais faoi fhéile na bliana seo – Tuairisc.ie
-https://tuairisc.ie/fisean-nil-na-comharthai-iontach-maith-amhras-leirithe-ag-stiurthoir-an-oireachtais-faoi-fheile-na-bliana-seo/
-
-kaldi/egs/wsj/s5/utils/lang/make_kn_lm.py at e7455085430411a2749e81751cc93a4932302390 · kaldi-asr/kaldi · GitHub
-https://github.com/kaldi-asr/kaldi/blob/e7455085430411a2749e81751cc93a4932302390/egs/wsj/s5/utils/lang/make_kn_lm.py
-
-A Speech-To-Text Practitioner’s Criticisms of Industry and Academia
-https://thegradient.pub/a-speech-to-text-practitioners-criticisms-of-industry-and-academia/
-
-Adding New Languages · snakers4/silero-models Wiki · GitHub
-https://github.com/snakers4/silero-models/wiki/Adding-New-Languages
-
-Model Adaptation · snakers4/silero-models Wiki · GitHub
-https://github.com/snakers4/silero-models/wiki/Model-Adaptation
-
-russian_stt_text_normalization/normalizer.py at master · snakers4/russian_stt_text_normalization · GitHub
+russian_stt_text_normalization/normalizer.py at master · snakers4/russian_stt_text_normalization
 https://github.com/snakers4/russian_stt_text_normalization/blob/master/normalizer.py
-
-Add IWSLT21 ST recipe · espnet/espnet@97c032f · GitHub
-https://github.com/espnet/espnet/commit/97c032fd190a492def860776ea285e02801a267e
 
 Enable w2v2 tpu (#3328) · facebookresearch/fairseq@1bba712 · GitHub
 https://github.com/facebookresearch/fairseq/commit/1bba712622b8ae4efb3eb793a8a40da386fe11d0
@@ -106,26 +7,11 @@ https://github.com/facebookresearch/fairseq/commit/1bba712622b8ae4efb3eb793a8a40
 Using TPU with fairseq-hydra-train · Issue #3271 · facebookresearch/fairseq · GitHub
 https://github.com/facebookresearch/fairseq/issues/3271
 
-fairseq/fairseq/dataclass/configs.py at main · facebookresearch/fairseq · GitHub
-https://github.com/facebookresearch/fairseq/blob/main/fairseq/dataclass/configs.py
-
-open_stt/utils at master · snakers4/open_stt · GitHub
-https://github.com/snakers4/open_stt/tree/master/utils
-
-GitHub - snakers4/silero-models: Silero Models: pre-trained speech-to-text, text-to-speech and text-enhancement models made embarrassingly simple
-https://github.com/snakers4/silero-models
-
 Quality Benchmarks · snakers4/silero-models Wiki · GitHub
 https://github.com/snakers4/silero-models/wiki/Quality-Benchmarks#en-v2
 
 data/es · master · Jaco-Assistant / Scribosermo · GitLab
 https://gitlab.com/Jaco-Assistant/Scribosermo/-/tree/master/data/es
-
-GitHub - TensorSpeech/TensorFlowASR: :zap: TensorFlowASR: Almost State-of-the-art Automatic Speech Recognition in Tensorflow 2. Supported languages that can use characters or subwords
-https://github.com/TensorSpeech/TensorFlowASR
-
-training FastSpeech2 on different language · Issue #121 · TensorSpeech/TensorFlowTTS · GitHub
-https://github.com/TensorSpeech/TensorFlowTTS/issues/121
 
 GitHub - eric-mitchell/direct-preference-optimization: Reference implementation for DPO (Direct Preference Optimization)
 https://github.com/eric-mitchell/direct-preference-optimization
