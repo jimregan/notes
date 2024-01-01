@@ -166,18 +166,6 @@ https://blog.streamlit.io/introducing-streamlit-components/
 First Align, then Predict: Understanding the Cross-Lingual Ability of Multilingual BERT - ACL Anthology
 https://aclanthology.org/2021.eacl-main.189/
 
-GitHub - benjamin-mlr/mbert-unseen-languages
-https://github.com/benjamin-mlr/mbert-unseen-languages
-
-[2010.12858] When Being Unseen from mBERT is just the Beginning: Handling New Languages With Multilingual Language Models
-https://arxiv.org/abs/2010.12858
-
-Streamlit vs. Dash vs. Shiny vs. Voila vs. Flask vs. Jupyter | by Markus Schmitt | Towards Data Science
-https://towardsdatascience.com/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter-24739ab5d569
-
-Xeus is now a Jupyter subproject. The Xeus project has been incorporated… | by Johan Mabille | Jupyter Blog
-https://blog.jupyter.org/xeus-is-now-a-jupyter-subproject-c4ec5a1bf30b
-
 GitHub - wasmerio/wasmer-python: 🐍🕸 WebAssembly runtime for Python
 https://github.com/wasmerio/wasmer-python
 
@@ -400,20 +388,11 @@ https://github.com/amperser/proselint
 Semi-Supervised Training of Deep Neural Networks for Speech Recognition
 https://www.fit.vut.cz/study/phd-thesis/568/.en
 
-h-index - Google Search
-https://www.google.com/search?q=h-index&oq=h-inde&aqs=chrome.0.0j69i57j0l3.4399j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
-
-Zero-Resource Neural Machine Translation with Monolingual Pivot Data
-https://www.researchgate.net/publication/336996990_Zero-Resource_Neural_Machine_Translation_with_Monolingual_Pivot_Data
-
 Zero-Resource Neural Machine Translation with Monolingual Pivot Data - ACL Anthology
 https://aclanthology.org/D19-5610/
 
 Training Transformers at Scale With PyTorch Lightning | by PyTorch Lightning team | PyTorch Lightning Developer Blog
 https://devblog.pytorchlightning.ai/training-transformers-at-scale-with-pytorch-lightning-e1cb25f6db29
-
-Amazon Two-Step Verification
-https://www.amazon.co.uk/a/c/r/6Oqg9Fv4rotqZVVDQEU3qtc9P?language=en_US
 
 PyTorch Lightning team – Medium
 https://pytorch-lightning.medium.com/
@@ -484,14 +463,17 @@ https://github.com/fastai/fastai/blob/master/dev_nbs/course/lesson4-tabular.ipyn
 Anki decks — Svenska med Henrik
 https://www.svenskamedhenrik.com/materials-for-learning
 
-[Open-to-the-community] Robust Speech Recognition Challenge - Languages at Hugging Face - Hugging Face Forums
-https://discuss.huggingface.co/t/open-to-the-community-robust-speech-recognition-challenge/13614
-
-superb · Datasets at Hugging Face
-https://huggingface.co/datasets/superb
-
 arg min | Ben Recht | Substack
 https://www.argmin.net/2021/10/20/highleyman
+
+GitHub - fastai/nbdev: Create delightful software with Jupyter Notebooks
+https://github.com/fastai/nbdev
+
+GitHub - fastai/numerical-linear-algebra: Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course
+https://github.com/fastai/numerical-linear-algebra
+
+GitHub - fastai/fastcore: Python supercharged for the fastai library
+https://github.com/fastai/fastcore
 
 LLM check
 https://rahulschand.github.io/gpu_poor/
