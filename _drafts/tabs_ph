@@ -1,26 +1,5 @@
-mozilla/DSAlign: DeepSpeech based forced alignment tool
-https://github.com/mozilla/DSAlign
-
-Trials and Tribulations: Using Keras on Colab and TPU | by Umashankar Malapaka | Towards Data Science
-https://towardsdatascience.com/trials-and-tribulations-using-keras-on-colab-and-tpu-69378762468d
-
-Hugging Face on PyTorch / XLA TPUs
-https://huggingface.co/blog/pytorch-xla
-
-Some Kaldi Notes
-https://jrmeyer.github.io/asr/2016/02/01/Kaldi-notes.html
-
-File not found · GitHub
-https://github.com/TensorSpeech/TensorFlowASR/blob/main/examples/conformer/train_tpu_keras_subword_conformer.py
-
-OSF Preprints | Open Science in phonetics and phonology
-https://osf.io/preprints/osf/4dz5t
-
 hf_wav2vec2_deepspeed.ipynb - Colaboratory
 https://colab.research.google.com/drive/1VRCGcnhBlrMFYQ5aaNebucZuja-WB2I2?usp=sharing#scrollTo=JP5gbbEMMRyH
-
-GitHub - huggingface/swift-coreml-transformers: Swift Core ML 3 implementations of GPT-2, DistilGPT-2, BERT, and DistilBERT for Question answering. Other Transformers coming soon!
-https://github.com/huggingface/swift-coreml-transformers
 
 Part 2 - Extracting Audio Features | Kaggle
 https://www.kaggle.com/code/ejlok1/part-2-extracting-audio-features/input
@@ -28,23 +7,11 @@ https://www.kaggle.com/code/ejlok1/part-2-extracting-audio-features/input
 Yoda Speech Corpus
 https://www.kaggle.com/datasets/stefanocoretta/yoda-speech-corpus
 
-FastSpeech2 training with MFA and Phoneme-based · Issue #107 · TensorSpeech/TensorFlowTTS · GitHub
-https://github.com/TensorSpeech/TensorflowTTS/issues/107
-
 YouTube-8M: A Large and Diverse Labeled Video Dataset for Video Understanding Research
 https://research.google.com/youtube8m/download.html
 
 GitHub - rishabhindoria/GPU-to-TPU: Switching from GPU to the future of Machine learning the TPU. Over 1 million images trained Resnet50 in under 20 mins compared to days or weeks on GPU and all for 0$ free on Google Colab Notebooks in Google Drive, clone repo and jump right in!!
 https://github.com/rishabhindoria/GPU-to-TPU
-
-Getting Started on Kaggle | Kaggle
-https://www.kaggle.com/docs/tpu
-
-Download the dataset directly to the cloud | Kaggle
-https://www.kaggle.com/code/smerllo/download-the-dataset-directly-to-the-cloud/notebook
-
-Find Open Datasets and Machine Learning Projects | Kaggle
-https://www.kaggle.com/datasets?search=Speech&fileType=csv
 
 CNNDigitReco-speakerindependent | Kaggle
 https://www.kaggle.com/code/saztorralba/cnndigitreco-speakerindependent/notebook
