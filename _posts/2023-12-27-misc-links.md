@@ -1726,3 +1726,14 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Neural edit-tree lemmatization for spaCy](https://explosion.ai/blog/edit-tree-lemmatizer)
 
+[KristiyanVachev/Leaf-Question-Generation](https://github.com/KristiyanVachev/Leaf-Question-Generation) --- Easy to use and understand multiple-choice question generation algorithm using T5 Transformers.
+
+[On visualizing phonetic data from repeated measures experiments with multiple random effects](https://osf.io/pm82v/?view_only=)
+
+[Sohcahtoa: Sine, Cosine, Tangent](https://www.mathsisfun.com/algebra/sohcahtoa.html)
+
+[Áiseanna bunscoile ar líne](https://peig.ie/2021/01/aiseanna-bunscoile-ar-line/)
+
+[Strange and forgotten consoles](https://emulation.gametechwiki.com/index.php/Strange_and_forgotten_consoles)
+
+
