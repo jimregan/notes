@@ -1756,8 +1756,6 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [BorisChumichev/everpolate](https://github.com/BorisChumichev/everpolate) --- Numerical interpolation and extrapolation lib
 
-[bbc/stt-align-node](https://github.com/bbc/stt-align-node) --- node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
-
 [19 entities for 104 languages: A new era of NER with the DeepPavlov multilingual BERT](https://towardsdatascience.com/19-entities-for-104-languages-a-new-era-of-ner-with-the-deeppavlov-multilingual-bert-1bfa6d413ea6)
 
 [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
@@ -1789,6 +1787,16 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [lutzroeder/netron](https://github.com/lutzroeder/netron) --- Visualizer for neural network, deep learning and machine learning models
 
 [pettarin/forced-alignment-tools](https://github.com/pettarin/forced-alignment-tools) --- A collection of links and notes on forced alignment tools
+
+[chrisbaume/overtyper](https://github.com/chrisbaume/overtyper) --- Experiment in automatic insertion of timed transcript corrections using fuzzy phonetic matching
+
+[bbc/dialogger](https://github.com/bbc/dialogger) --- Text-based media editing interface
+
+[chrisbaume/webaligner](https://github.com/chrisbaume/webaligner) --- A client-side forced aligner for speech
+
+[bbc/stt-align-node](https://github.com/bbc/stt-align-node) --- node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
+
+[bbc/react-transcript-editor](https://github.com/bbc/react-transcript-editor) --- A React component to make correcting automated transcriptions of audio and video easier and faster. By BBC News Labs. - Work in progress
 
 [bbc/vc2hqencode](https://github.com/bbc/vc2hqencode) --- Optimised VC-2 HQ Profile Encoder Library
 
