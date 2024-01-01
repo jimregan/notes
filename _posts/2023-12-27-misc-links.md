@@ -1595,4 +1595,5 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [GEM Benchmark Tasks](https://gem-benchmark.com/data_cards)
 
+[Getting Started With Embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
 
