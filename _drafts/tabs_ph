@@ -1,50 +1,5 @@
-pettarin/forced-alignment-tools: A collection of links and notes on forced alignment tools
-https://github.com/pettarin/forced-alignment-tools
-
-3 Montreal Forced Aligner | Corpus Phonetics Tutorial
-https://eleanorchodroff.com/tutorial/montreal-forced-aligner.html
-
-GitHub - bbc/waveform-data.js: Audio Waveform Data Manipulation API – resample, offset and segment waveform data in JavaScript.
-https://github.com/bbc/waveform-data.js
-
-GitHub - bbc/vc2hqencode: Optimised VC-2 HQ Profile Encoder Library
-https://github.com/bbc/vc2hqencode
-
-GitHub - bbc/storyplayer: BBC Research & Development's Object Based Media Player
-https://github.com/bbc/storyplayer
-
-GitHub - bbc/vc2_conformance: Software tools for checking the conformance of SMPTE ST 2042-1 (VC-2) professional video codec implementations.
-https://github.com/bbc/vc2_conformance
-
-GitHub - bbc/react-transcript-editor: A React component to make correcting automated transcriptions of audio and video easier and faster. By BBC News Labs. - Work in progress
-https://github.com/bbc/react-transcript-editor
-
-GitHub - bbc/stt-align-node: node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
-https://github.com/bbc/stt-align-node
-
-Chris Baume
-https://bau.me/
-
-webaligner/webaligner.js at master · chrisbaume/webaligner · GitHub
-https://github.com/chrisbaume/webaligner/blob/master/webaligner.js
-
-chrisbaume (Chris Baume) · GitHub
-https://github.com/chrisbaume
-
-GitHub - bbc/dialogger: Text-based media editing interface
-https://github.com/bbc/dialogger
-
-GitHub - chrisbaume/overtyper: Experiment in automatic insertion of timed transcript corrections using fuzzy phonetic matching
-https://github.com/chrisbaume/overtyper
-
-GNU Aspell 0.60.8.1: Phonetic Code
-http://aspell.net/man-html/Phonetic-Code.html
-
-GitHub - bbc/digital-paper-edit-api: Work in progress - BBC News Labs digital paper edit project - Express server API
-https://github.com/bbc/digital-paper-edit-api
-
-DSAlign/align/align.py at master · mozilla/DSAlign · GitHub
-https://github.com/mozilla/DSAlign/blob/master/align/align.py
+mozilla/DSAlign: DeepSpeech based forced alignment tool
+https://github.com/mozilla/DSAlign
 
 Trials and Tribulations: Using Keras on Colab and TPU | by Umashankar Malapaka | Towards Data Science
 https://towardsdatascience.com/trials-and-tribulations-using-keras-on-colab-and-tpu-69378762468d
