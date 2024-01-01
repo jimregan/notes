@@ -1632,6 +1632,11 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [TorchStudio](https://www.torchstudio.ai/)
 
-[OFA-Sys/OFA](https://github.com/OFA-Sys/OFA) --- Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework
+[OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052),
+[code](https://github.com/OFA-Sys/OFA)
+
+[clam004/intro_continual_learning](https://github.com/clam004/intro_continual_learning) --- This is a tutorial to connect the fundamental mathematics to a practical implementation addressing the continual learning problem of artificial intelligence
+
+[gustavo-beck/wavebender-gan](https://github.com/gustavo-beck/wavebender-gan)
 
 
