@@ -190,6 +190,21 @@ https://github.com/fastai/numerical-linear-algebra
 GitHub - fastai/fastcore: Python supercharged for the fastai library
 https://github.com/fastai/fastcore
 
+espnet/egs2/librispeech/asr1/conf/tuning/train_asr_transformer3_w2v_large_lv60_960h_finetuning_last_1layer.yaml at 6e2cff2c3f27afb944ccbfec34a833abb28b4f37 · espnet/espnet · GitHub
+https://github.com/espnet/espnet/blob/6e2cff2c3f27afb944ccbfec34a833abb28b4f37/egs2/librispeech/asr1/conf/tuning/train_asr_transformer3_w2v_large_lv60_960h_finetuning_last_1layer.yaml#L1
+
+WIP: huggingface tokenizer and Neural LM training pipeline. by glynpu · Pull Request #139 · k2-fsa/snowfall · GitHub
+https://github.com/k2-fsa/snowfall/pull/139
+
+snowfall/snowfall/models/tdnnf.py at master · k2-fsa/snowfall · GitHub
+https://github.com/k2-fsa/snowfall/blob/master/snowfall/models/tdnnf.py
+
+GitHub - facebookresearch/fairseq: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+https://github.com/facebookresearch/fairseq
+
+fairseq/examples/laser/README.md at main · facebookresearch/fairseq · GitHub
+https://github.com/facebookresearch/fairseq/blob/main/examples/laser/README.md
+
 LLM check
 https://rahulschand.github.io/gpu_poor/
 
