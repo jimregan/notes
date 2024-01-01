@@ -1954,4 +1954,24 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [First Align, then Predict: Understanding the Cross-Lingual Ability of Multilingual BERT](https://aclanthology.org/2021.eacl-main.189/)
 
+[Mallard BASIC: Introduction and Reference](https://archive.org/details/Mallard-BASIC)
+
+[Joyce Computer Club Public Domain - BASIC](https://www.fvempel.nl/basic.html)
+
+[Mallard BASIC to CPC BASIC](https://cpcrulez.fr/coding_basic-mallard_BASIC_to_CPC_BASIC__TAU.htm)
+
+[m-wiesner/nnet_pytorch](https://github.com/m-wiesner/nnet_pytorch) --- Kaldi style neural network training in pytorch for use in place of nnet3 in Kaldi.
+
+[PCWsBAS.WS4](https://www.fvempel.nl/Pcwsbas.htm)
+
+[32-bit Apps in a 64-bit Docker Container](https://capstonec.com/2019/05/24/32bit-apps-in-a-64bit-docker-container/)
+
+[marytts/gradle-marytts-voicebuilding-plugin](https://github.com/marytts/gradle-marytts-voicebuilding-plugin)
+
+[pyparsing/pyparsing](https://github.com/pyparsing/pyparsing) --- Python library for creating PEG parsers
+
+[IS2AI/Kazakh_TTS](https://github.com/IS2AI/Kazakh_TTS) --- An expanded version of the previously released Kazakh text-to-speech (KazakhTTS) synthesis corpus. In KazakhTTS2, the overall size has increased from 93 hours to 271 hours, the number of speakers has risen from two to five (three females and two males), and the topic coverage has been diversified.
+
+[coady/lupyne](https://github.com/coady/lupyne) --- Pythonic search engine based on PyLucene.
+
 
