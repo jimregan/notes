@@ -1746,6 +1746,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [bbc/peaks.js](https://github.com/bbc/peaks.js) --- JavaScript UI component for interacting with audio waveforms
 
+[bbc/waveform-data.js](https://github.com/bbc/waveform-data.js) --- Audio Waveform Data Manipulation API – resample, offset and segment waveform data in JavaScript.
+
 [frictionlessdata/frictionless-py](https://github.com/frictionlessdata/frictionless-py) --- Data management framework for Python that provides functionality to describe, extract, validate, and transform tabular data
 
 [smacke/ffsubsync](https://github.com/smacke/ffsubsync) --- Automagically synchronize subtitles with video.
@@ -1755,5 +1757,37 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [BorisChumichev/everpolate](https://github.com/BorisChumichev/everpolate) --- Numerical interpolation and extrapolation lib
 
 [bbc/stt-align-node](https://github.com/bbc/stt-align-node) --- node version of stt-align https://github.com/bbc/stt-align by Chris Baume - R&D.
+
+[19 entities for 104 languages: A new era of NER with the DeepPavlov multilingual BERT](https://towardsdatascience.com/19-entities-for-104-languages-a-new-era-of-ner-with-the-deeppavlov-multilingual-bert-1bfa6d413ea6)
+
+[EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
+
+[LEAF: A Learnable Frontend for Audio Classification](https://blog.research.google/2021/03/leaf-learnable-frontend-for-audio.html)
+
+[“Chain-linking” NLP tasks With Wav2Vec2 & Transformers](https://towardsdatascience.com/chain-linking-nlp-tasks-with-wav2vec2-transformers-7297181db3a7)
+
+[guanlongzhao/kaldi-gop](https://github.com/guanlongzhao/kaldi-gop) --- Computes the Goodness of Pronunciation (GOP). Bases on Kaldi.
+
+[L2-ARCTIC](https://psi.engr.tamu.edu/l2-arctic-corpus/)
+
+[An Asynchronous WFST-Based Decoder For Automatic Speech Recognition](https://arxiv.org/abs/2103.09063)
+
+[Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+
+[AdapterHub: A Framework for Adapting Transformers](https://towardsdatascience.com/adapterhub-a-framework-for-adapting-transformers-a21d0ab202a0)
+
+[Neighbours across the sea: A brief history of Anglo-Irish relations](https://www.bbc.com/news/uk-politics-26883211)
+
+[make_lexicon_fst.py](https://github.com/k2-fsa/snowfall/blob/master/egs/librispeech/asr/simple_v1/local/make_lexicon_fst.py)
+
+[Named Entity Recognition](https://labelstud.io/templates/named_entity.html)
+
+[NN-SVG](https://alexlenail.me/NN-SVG/) --- Publication-ready NN-architecture schematics
+
+[HarisIqbal88/PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) --- Latex code for making neural networks diagrams
+
+[lutzroeder/netron](https://github.com/lutzroeder/netron) --- Visualizer for neural network, deep learning and machine learning models
+
+[pettarin/forced-alignment-tools](https://github.com/pettarin/forced-alignment-tools) --- A collection of links and notes on forced alignment tools
 
 
