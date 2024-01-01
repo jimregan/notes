@@ -1591,6 +1591,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [tympanix/subsync](https://github.com/tympanix/subsync) --- Synchronize your subtitles using machine learning
 
+[CCExtractor/Subtitle-Resync](https://github.com/CCExtractor/Subtitle-Resync) --- A tool to automatically generate in-sync subtitles of different versions of the same base media (such as with edits)
+
 [sc0ty/subsync](https://github.com/sc0ty/subsync) --- Subtitle Speech Synchronizer
 
 [GEM Benchmark Tasks](https://gem-benchmark.com/data_cards)
@@ -1735,5 +1737,17 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Áiseanna bunscoile ar líne](https://peig.ie/2021/01/aiseanna-bunscoile-ar-line/)
 
 [Strange and forgotten consoles](https://emulation.gametechwiki.com/index.php/Strange_and_forgotten_consoles)
+
+[Lookup-Table Recurrent Language Models for Long Tail Speech Recognition](https://arxiv.org/abs/2104.04552)
+
+[Explicit Alignment Objectives for Multilingual Bidirectional Encoders](https://arxiv.org/abs/2010.07972)
+
+[UniversalDependencies/UD_Irish-IDT](https://github.com/UniversalDependencies/UD_Irish-IDT)
+
+[bbc/peaks.js](https://github.com/bbc/peaks.js) --- JavaScript UI component for interacting with audio waveforms
+
+[frictionlessdata/frictionless-py](https://github.com/frictionlessdata/frictionless-py) --- Data management framework for Python that provides functionality to describe, extract, validate, and transform tabular data
+
+[smacke/ffsubsync](https://github.com/smacke/ffsubsync) --- Automagically synchronize subtitles with video.
 
 
