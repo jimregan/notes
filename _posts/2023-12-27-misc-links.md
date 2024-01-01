@@ -1918,4 +1918,30 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) --- The Magic Mask for Android
 
+[gzc/CLRS](https://github.com/gzc/CLRS) --- olutions to Introduction to Algorithms
+
+[libcpr/cpr](https://github.com/libcpr/cpr) --- C++ Requests: Curl for People, a spiritual port of Python Requests.
+
+[fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp) --- A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+
+[martinmoene/ring-span-lite](https://github.com/martinmoene/ring-span-lite) --- ring-span lite - A C++yy-like ring_span type for C++98, C++11 and later in a single-file header-only library
+
+[davisking/dlib](https://github.com/davisking/dlib)
+
+[autodiff/autodiff](https://github.com/autodiff/autodiff) --- automatic differentiation made easier for C++
+
+[linebender/druid](https://github.com/linebender/druid) --- A data-first Rust-native UI design toolkit.
+
+[linebender/runebender](https://github.com/linebender/runebender) --- A font editor written in Rust.
+
+[pemistahl/grex](https://github.com/pemistahl/grex) --- A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases
+
+[emilk/egui](https://github.com/emilk/egui) --- egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native
+
+[actix/actix-web](https://github.com/actix/actix-web) --- Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust.
+
+[RDFLib/rdflib](https://github.com/RDFLib/rdflib)
+
+[chipsalliance/chisel](https://github.com/chipsalliance/chisel) --- Chisel: A Modern Hardware Design Language
+
 
