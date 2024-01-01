@@ -13,32 +13,23 @@ https://github.com/RasaHQ/paraphraser/blob/main/src/nmt_paraphraser/nmt_paraphra
 MITIE/mitielib/src at master · mit-nlp/MITIE · GitHub
 https://github.com/mit-nlp/MITIE/tree/master/mitielib/src
 
-An bhean phósta - Mícheál Turraoin | The Doegen Records Web Project
-https://doegen.ie/LA_1051d3
-
 [2105.05233] Diffusion Models Beat GANs on Image Synthesis
 https://arxiv.org/abs/2105.05233
 
-GitHub - AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset: NPTEL2020: Speech2Text dataset for Indian-English Accent
-https://github.com/AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset
-
-Plotly Python Graphing Library
-https://plotly.com/python/
-
-lingtran.net | 522: Connection timed out
-https://lingtran.net/Creating-a-vowel-chart
-
-plotting vowels in r - Google Search
-https://www.google.com/search?q=plotting+vowels+in+r&oq=plotting+vowels&aqs=chrome.0.0j69i57.5371j0j9&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
-
-phonology - How do linguists place the vowels of a language precisely on the vowel trapezoid? - Linguistics Stack Exchange
-https://linguistics.stackexchange.com/questions/137/how-do-linguists-place-the-vowels-of-a-language-precisely-on-the-vowel-trapezoid
-
-fave.ling.upenn.edu
-http://fave.ling.upenn.edu/
-
 GitHub - JoFrhwld/FAVE: A repository for maintaing the fave-align and fave-extract toolkits
 https://github.com/JoFrhwld/FAVE
+
+Klatt Synthesis Interface
+http://www.asel.udel.edu/speech/tutorials/synthesis/expert.html
+
+CTAN: Package vowel
+https://ctan.org/pkg/vowel?lang=en
+
+John Wells’s phonetic blog: creating a vowel diagram
+http://phonetic-blog.blogspot.com/2010/04/creating-vowel-diagram.html?m=1
+
+Vowel Theories
+https://sail.usc.edu/~lgoldste/General_Phonetics/Vowels/Vowel_Theories.html
 
 englishspeechservices.com/blog/the-vowel-space/
 https://www.englishspeechservices.com/blog/the-vowel-space/
@@ -49,15 +40,6 @@ https://plotly.com/python/scattermapbox/
 Introduction to GeoPandas — GeoPandas 0+untagged.50.g9a9f097.dirty documentation
 https://geopandas.org/en/stable/getting_started/introduction.html
 
-Examples Gallery — GeoPandas 0+untagged.50.g9a9f097.dirty documentation
-https://geopandas.org/en/stable/gallery/index.html
-
-Clip Vector Data with GeoPandas — GeoPandas 0+untagged.50.g9a9f097.dirty documentation
-https://geopandas.org/en/stable/gallery/plot_clip.html
-
-Adding a background map to plots — GeoPandas 0+untagged.50.g9a9f097.dirty documentation
-https://geopandas.org/en/stable/gallery/plotting_basemap_background.html
-
 Cad a dhéanfaidh mé le mo fhleiscín-se? Comhairle ghramadaí… – Tuairisc.ie
 https://tuairisc.ie/cad-a-dheanfaidh-me-le-mo-fhleiscin-se-comhairle-ghramadai/
 
@@ -66,6 +48,81 @@ https://huggingface.co/docs/transformers/model_doc/mixtral
 
 kaggle jupyter docker - Google Search
 https://www.google.com/search?q=kaggle+jupyter+docker&oq=kaggle+jupyter+docker+&aqs=chrome..69i57.15537j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+GitHub - Kaggle/docker-python: Kaggle Python docker image
+https://github.com/Kaggle/docker-python
+
+Docker
+https://hub.docker.com/r/kaggle/python
+
+kubernetes jupyter execute - Google Search
+https://www.google.com/search?q=kubernetes+jupyter+execute&oq=kubernetes+jupyter+execute&aqs=chrome..69i57j33i160.19662j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+kaggle style docker run notebook - Google Search
+https://www.google.com/search?q=kaggle+style+docker+run+notebook&oq=kaggle+style+docker+run+notebook&aqs=chrome..69i57.14872j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+GitHub - Kaggle/jupyterlab: Kaggle extension for JupyterLab
+https://github.com/Kaggle/jupyterlab
+
+Up and Running With Fast.ai and Docker - scrapbook
+https://stephanosterburg.gitbook.io/scrapbook/data-science/fast.ai/up-and-running-with-fast.ai-and-docker
+
+GitHub - Cloud-CV/EvalAI: :cloud: :bar_chart: Evaluating state of the art in AI
+https://github.com/Cloud-CV/EvalAI
+
+OpenML
+https://www.openml.org/
+
+Welcome - EvalAI
+https://eval.ai/
+
+kaggle jupyter docker - Google Search
+https://www.google.com/search?q=kaggle+jupyter+docker&oq=kaggle+jupyter+&aqs=chrome.0.69i59j69i57j69i60l3.5498j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+Kubeflow
+https://v0-2.kubeflow.org/docs/about/kubeflow/
+
+Kubeflow
+https://v0-2.kubeflow.org/docs/about/kubeflow/
+
+Setup Own Kubernetes Cluster via Virtualbox | by Mehmet Ali Baykara | The Startup | Medium
+https://medium.com/swlh/setup-own-kubernetes-cluster-via-virtualbox-99a82605bfcc
+
+Persistent Volumes | Kubernetes
+https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+
+From Notebook to Kubeflow Pipelines with MiniKF and Kale
+https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale#0
+
+GitHub - kubeflow/examples: A repository to host extended examples and tutorials
+https://github.com/kubeflow/examples
+
+Automating Jupyter Notebook Deployments to Kubeflow Pipelines with Kale | by Stefano Fioravanzo | kubeflow | Medium
+https://medium.com/kubeflow/automating-jupyter-notebook-deployments-to-kubeflow-pipelines-with-kale-a4ede38bea1f
+
+Containerized Data Science Tools Similar to Kaggle Kernels | Kaggle
+https://www.kaggle.com/discussions/general/39311
+
+Kaggle Blog – Medium
+https://medium.com/kaggle-blog
+
+File not found · GitHub
+https://github.com/pachyderm/pachyderm/blob/master/examples/word_count/pipelines/scraper.json
+
+neptune.ai | The MLOps stack component for experiment tracking
+https://neptune.ai/
+
+Install Tools | Kubernetes
+https://kubernetes.io/docs/tasks/tools/
+
+airflow - Google Search
+https://www.google.com/search?q=airflow&oq=airflow&aqs=chrome..69i57j0i273l4.2505j0j9&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
+
+Page not found - neptune.ai
+https://neptune.ai/blog/the-best-mlflow-alternatives/amp
+
+Be more efficient to produce ML models with mlflow | by Jean-Michel D | Towards Data Science
+https://towardsdatascience.com/be-more-efficient-to-produce-ml-models-with-mlflow-c104362f377d
 
 Mil, Margret, and Offspring's Christmas Card
 http://thingsmygirlfriendandihavearguedabout.com/xmas_2023/
