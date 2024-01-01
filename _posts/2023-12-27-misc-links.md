@@ -2136,4 +2136,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [wmcnally/evopose2d](https://github.com/wmcnally/evopose2d) --- EvoPose2D is a two-stage human pose estimation model that was designed using neuroevolution. It achieves state-of-the-art accuracy on COCO.
 
+[cdpierse/transformers-interpret](https://github.com/cdpierse/transformers-interpret) --- Model explainability that works seamlessly with 🤗 transformers. Explain your transformers model in just 2 lines of code.
+
+[A dictionary of the Manks language](https://en.wikisource.org/wiki/Index:A_dictionary_of_the_Manks_language_\(Cregeen\).djvu)
+
 
