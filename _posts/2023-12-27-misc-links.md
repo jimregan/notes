@@ -1908,4 +1908,14 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [DLYuanGod/TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) --- TinyGPT-V: Efficient Multimodal Large Language Model via Small Backbones
 
+[PaddlePaddle/PaddleGAN](https://github.com/PaddlePaddle/PaddleGAN) --- PaddlePaddle GAN library, including lots of interesting applications like First-Order motion transfer, Wav2Lip, picture repair, image editing, photo2cartoon, image style transfer, GPEN, and so on.
+
+[koaning/drawdata](https://github.com/koaning/drawdata) --- Draw datasets from within Jupyter.
+
+[jindrapetrik/jpexs-decompiler](https://github.com/jindrapetrik/jpexs-decompiler) --- JPEXS Free Flash Decompiler
+
+[SerenityOS/serenity](https://github.com/SerenityOS/serenity)
+
+[topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) --- The Magic Mask for Android
+
 
