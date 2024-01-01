@@ -1790,4 +1790,6 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [pettarin/forced-alignment-tools](https://github.com/pettarin/forced-alignment-tools) --- A collection of links and notes on forced alignment tools
 
+[bbc/vc2hqencode](https://github.com/bbc/vc2hqencode) --- Optimised VC-2 HQ Profile Encoder Library
+
 
