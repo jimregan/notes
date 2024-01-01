@@ -1860,5 +1860,24 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [tiangolo/fastapi](https://github.com/tiangolo/fastapi) --- FastAPI framework, high performance, easy to learn, fast to code, ready for production
 
+[explosion/wasabi](https://github.com/explosion/wasabi) --- A lightweight console printing and formatting toolkit
+
+[lucidrains/DALLE-pytorch](https://github.com/lucidrains/DALLE-pytorch) --- Implementation / replication of DALL-E, OpenAI's Text to Image Transformer, in Pytorch
+
+[facebookresearch/pytorchvideo](https://github.com/facebookresearch/pytorchvideo) --- A deep learning library for video understanding research.
+
+[microg/GmsCore](https://github.com/microg/GmsCore) --- Free implementation of Play Services
+
+[mortennobel/cpp-cheatsheet](https://github.com/mortennobel/cpp-cheatsheet) --- Modern C++ Cheatsheet
+
+[micknoise/Maximilian](https://github.com/micknoise/Maximilian) --- C++ Audio and Music DSP Library
+
+[taywee/args](https://github.com/taywee/args) --- A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API).
+
+[antirez/linenoise](https://github.com/antirez/linenoise) --- A small self-contained alternative to readline and libedit
+
+[p-ranav/tabulate](https://github.com/p-ranav/tabulate) --- Table Maker for Modern C++
+
+[photonstorm/phaser](https://github.com/photonstorm/phaser) --- Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
 
 
