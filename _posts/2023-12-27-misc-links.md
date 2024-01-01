@@ -1640,3 +1640,19 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [gustavo-beck/wavebender-gan](https://github.com/gustavo-beck/wavebender-gan)
 
 [Accent-VITS:accent transfer for end-to-end TTS](https://arxiv.org/abs/2312.16850)
+
+[Why Are Rich People So Mean?](https://web.archive.org/web/20210228223038/https://www.wired.com/story/why-are-rich-people-so-mean/)
+
+[Structured Log Linear Models for Noise Robust Speech Recognition](https://ieeexplore.ieee.org/document/5580010)
+
+[Let the Script Find Out the ML Model that Outperforms Yours](https://towardsdatascience.com/python-automl-sklearn-fd85d3b3c5e)
+
+[Neural music instrument cloning from very few samples](https://erlj.notion.site/Neural-music-instrument-cloning-from-very-few-samples-2cf41d8b630842ee8c7eb55036a1bfd6)
+
+[microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) --- This is an official implementation for "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows".
+
+[facebookresearch/xcit](https://github.com/facebookresearch/xcit) --- Official code Cross-Covariance Image Transformer (XCiT)
+
+[locuslab/convmixer](https://github.com/locuslab/convmixer) --- Implementation of ConvMixer for "Patches Are All You Need?"
+
+
