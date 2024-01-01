@@ -2071,4 +2071,6 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) --- Implementation of MEGABYTE, Predicting Million-byte Sequences with Multiscale Transformers, in Pytorch
 
+[1SPU: 1-step Speech Processing Unit](https://arxiv.org/abs/2311.04753)
+
 
