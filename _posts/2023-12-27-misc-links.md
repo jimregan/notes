@@ -742,7 +742,8 @@ and geometry engine
 
 [MLCommons People’s Speech Dataset](https://mlcommons.org/datasets/peoples-speech/)
 
-[Wasmer](https://wasmer.io/)
+[Wasmer](https://wasmer.io/),
+[code](https://github.com/wasmerio/wasmer-python)
 
 [COBE: Contextualized Object Embeddings from Narrated Instructional Video](https://arxiv.org/abs/2007.07306)
 
@@ -1943,5 +1944,14 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [RDFLib/rdflib](https://github.com/RDFLib/rdflib)
 
 [chipsalliance/chisel](https://github.com/chipsalliance/chisel) --- Chisel: A Modern Hardware Design Language
+
+[ucb-bar/dsptools](https://github.com/ucb-bar/dsptools) --- A Library of Chisel3 Tools for Digital Signal Processing
+
+[When Being Unseen from mBERT is just the Beginning: Handling New Languages With Multilingual Language Models](https://arxiv.org/abs/2010.12858),
+[code](https://github.com/benjamin-mlr/mbert-unseen-languages)
+
+[Streamlit vs. Dash vs. Shiny vs. Voila vs. Flask vs. Jupyter](https://towardsdatascience.com/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter-24739ab5d569)
+
+[First Align, then Predict: Understanding the Cross-Lingual Ability of Multilingual BERT](https://aclanthology.org/2021.eacl-main.189/)
 
 
