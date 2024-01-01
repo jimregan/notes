@@ -2063,6 +2063,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [TigerBot: An Open Multilingual Multitask LLM](https://arxiv.org/abs/2312.08688)
 
-[RLIF: Interactive Imitation Learning as Reinforcement Learning](https://rlif-page.github.io/)
+[RLIF: Interactive Imitation Learning as Reinforcement Learning](https://arxiv.org/abs/2311.12996)
+
+[TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
+
+[lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) --- Implementation of MEGABYTE, Predicting Million-byte Sequences with Multiscale Transformers, in Pytorch
 
 
