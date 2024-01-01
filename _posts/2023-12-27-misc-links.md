@@ -1800,4 +1800,65 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [bbc/vc2hqencode](https://github.com/bbc/vc2hqencode) --- Optimised VC-2 HQ Profile Encoder Library
 
+[bbc/vc2_conformance](https://github.com/bbc/vc2_conformance) --- Software tools for checking the conformance of SMPTE ST 2042-1 (VC-2) professional video codec implementations.
+
+[bbc/storyplayer](https://github.com/bbc/storyplayer) --- BBC Research & Development's Object Based Media Player
+
+[bbc/digital-paper-edit-api](https://github.com/bbc/digital-paper-edit-api) --- Work in progress - BBC News Labs digital paper edit project - Express server API
+
+[mozilla/DSAlign](https://github.com/mozilla/DSAlign) --- DeepSpeech based forced alignment tool
+
+[Trials and Tribulations: Using Keras on Colab and TPU](https://towardsdatascience.com/trials-and-tribulations-using-keras-on-colab-and-tpu-69378762468d)
+
+[Hugging Face on PyTorch / XLA TPUs: Faster and cheaper training](https://huggingface.co/blog/pytorch-xla)
+
+[Some Kaldi Notes](https://jrmeyer.github.io/asr/2016/02/01/Kaldi-notes.html)
+
+[TensorSpeech/TensorFlowASR](https://github.com/TensorSpeech/TensorFlowASR)
+
+[Open Science in phonetics and phonology](https://osf.io/preprints/osf/4dz5t)
+
+[hf_wav2vec2_deepspeed.ipynb](https://colab.research.google.com/drive/1VRCGcnhBlrMFYQ5aaNebucZuja-WB2I2)
+
+[Part 2 - Extracting Audio Features](https://www.kaggle.com/code/ejlok1/part-2-extracting-audio-features/input)
+
+[Yoda Speech Corpus](https://www.kaggle.com/datasets/stefanocoretta/yoda-speech-corpus)
+
+[youtube8m](https://research.google.com/youtube8m/download.html)
+
+[CNNDigitReco-speakerindependent](https://www.kaggle.com/code/saztorralba/cnndigitreco-speakerindependent/notebook)
+
+[Spanish Automatic Speech Recognition pytorch](https://www.kaggle.com/code/shwetanani/spanish-automatic-speech-recognition-pytorch/notebook)
+
+[Mr Donald Trump Speeches](https://www.kaggle.com/datasets/binksbiz/mrtrump/code)
+
+[Joe Biden 2020 DNC Speech](https://www.kaggle.com/datasets/christianlillelund/joe-biden-2020-dnc-speech)
+
+[Grid Search to find best tuning parameters](https://www.kaggle.com/code/jinilcs/grid-search-to-find-best-tuning-parameters/notebook)
+
+[asahi417/tner](https://github.com/asahi417/tner) --- Language model fine-tuning on NER with an easy interface and cross-domain evaluation. "T-NER: An All-Round Python Library for Transformer-based Named Entity Recognition, EACL 2021"
+
+[Train BERT from scratch](https://www.kaggle.com/code/naveenk903/train-bert-from-scratch/notebook)
+
+[Classification on FSDD using Spectograms](https://www.kaggle.com/code/iinaam/classification-on-fsdd-using-spectograms/notebook)
+
+[JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) --- Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+
+[Polish Christmas Carols](https://www.kaggle.com/datasets/wojciech1103/polish-christmas-carols/code)
+
+[An Saol ó Dheas](https://www.rte.ie/radio1/podcast/podcast_ansaolodheas.xml)
+
+[Nuacht1.com](https://nuacht1.com/)
+
+[FÍSEÁN: ‘Níl na comharthaí iontach maith’  – amhras léirithe ag stiúrthóir an Oireachtais faoi fhéile na bliana seo](https://tuairisc.ie/fisean-nil-na-comharthai-iontach-maith-amhras-leirithe-ag-stiurthoir-an-oireachtais-faoi-fheile-na-bliana-seo/)
+
+[make_kn_lm.py](https://github.com/kaldi-asr/kaldi/blob/e7455085430411a2749e81751cc93a4932302390/egs/wsj/s5/utils/lang/make_kn_lm.py)
+
+[A Speech-To-Text Practitioner’s Criticisms of Industry and Academia](https://thegradient.pub/a-speech-to-text-practitioners-criticisms-of-industry-and-academia/)
+
+[eric-mitchell/direct-preference-optimization](https://github.com/eric-mitchell/direct-preference-optimization) --- Reference implementation for DPO (Direct Preference Optimization)
+
+[tiangolo/fastapi](https://github.com/tiangolo/fastapi) --- FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+
 
