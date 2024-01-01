@@ -1653,6 +1653,7 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [facebookresearch/xcit](https://github.com/facebookresearch/xcit) --- Official code Cross-Covariance Image Transformer (XCiT)
 
+[Patches Are All You Need?](https://openreview.net/forum?id=TVHS5Y4dNvM),
 [locuslab/convmixer](https://github.com/locuslab/convmixer) --- Implementation of ConvMixer for "Patches Are All You Need?"
 
 
