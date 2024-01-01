@@ -2024,4 +2024,41 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [org-arl/jupyter-ieee-paper](https://github.com/org-arl/jupyter-ieee-paper) --- Jupyter notebook to generate fully formatted IEEE papers
 
+[jupyterlab/jupyterlab-latex](https://github.com/jupyterlab/jupyterlab-latex) --- JupyterLab extension for live editing of LaTeX documents
+
+[Fission](https://fission.io/),
+[fission/fission](https://github.com/fission/fission) --- Fast and Simple Serverless Functions for Kubernetes
+
+[Typography.js](https://kyleamathews.github.io/typography.js/)
+
+[jik876/hifi-gan](https://github.com/jik876/hifi-gan) --- HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis
+
+[andabi/deep-voice-conversion](https://github.com/andabi/deep-voice-conversion) --- Deep neural networks for voice conversion (voice style transfer) in Tensorflow
+
+[chriskiehl/Gooey](https://github.com/chriskiehl/Gooey) --- Turn (almost) any Python command line program into a full GUI application with one line
+
+[googlecreativelab/quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset) --- Documentation on how to access and use the Quick, Draw! Dataset.
+
+[ARBML/klaam](https://github.com/ARBML/klaam) --- Arabic speech recognition, classification and text-to-speech.
+
+[Semi-supervised Learning and Frame Rate](https://alphacephei.com/nsh/2021/04/19/frame-rate.html)
+
+[Using nbconvert as a library](https://nbconvert.readthedocs.io/en/latest/nbconvert_library.html)
+
+[amperser/proselint](https://github.com/amperser/proselint) --- A linter for prose.
+
+[openstack/swift](https://github.com/openstack/swift) --- OpenStack Storage (Swift). Mirror of code maintained at opendev.org.
+
+[Setup docker for Kaggle](https://zhang-yang.medium.com/setup-docker-for-kaggle-b34d04705756)
+
+[Semi-Supervised Training of Deep Neural Networks for Speech Recognition](https://www.fit.vut.cz/study/phd-thesis/568/.en)
+
+[Zero-Resource Neural Machine Translation with Monolingual Pivot Data](https://aclanthology.org/D19-5610/)
+
+[google/python-fire](https://github.com/google/python-fire) --- Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+
+[ceph/ceph](https://github.com/ceph/ceph) --- Ceph is a distributed object, block, and file storage platform
+
+[rook/rook](https://github.com/rook/rook) --- Storage Orchestration for Kubernetes
+
 
