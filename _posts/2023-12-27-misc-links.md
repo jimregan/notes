@@ -1639,4 +1639,4 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [gustavo-beck/wavebender-gan](https://github.com/gustavo-beck/wavebender-gan)
 
-
+[Accent-VITS:accent transfer for end-to-end TTS](https://arxiv.org/abs/2312.16850)
