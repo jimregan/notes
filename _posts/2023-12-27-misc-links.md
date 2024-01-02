@@ -2652,4 +2652,20 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition](https://arxiv.org/abs/2109.13226)
 
+[Appen/UHV-OTS-Speech](https://github.com/Appen/UHV-OTS-Speech) --- A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
+
+[EgorLakomkin/KTSpeechCrawler](https://github.com/EgorLakomkin/KTSpeechCrawler) --- Automatically constructing corpus for automatic speech recognition from YouTube videos
+
+[gong-io/gecko](https://github.com/gong-io/gecko) --- Gecko - A Tool for Effective Annotation of Human Conversations
+
+[A Recipe For Arbitrary Text Style Transfer with Large Language Models](https://arxiv.org/abs/2109.03910)
+
+[DOLG: Single-Stage Image Retrieval with Deep Orthogonal Fusion of Local and Global Features](https://arxiv.org/abs/2108.02927)
+
+[All Top Python Libraries for Data Science Explained](https://towardsdatascience.com/all-top-python-libraries-for-data-science-explained-with-code-40f64b363663)
+
+[I trained Noam Chomsky TTS](https://www.reddit.com/r/MachineLearning/comments/q01inv/p_i_trained_noam_chomsky_tts/)
+
+[FedJAX: Federated Learning Simulation with JAX](https://blog.research.google/2021/10/fedjax-federated-learning-simulation.html)
+
 
