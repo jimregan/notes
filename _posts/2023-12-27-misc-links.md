@@ -2271,4 +2271,55 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [How to Easily Draw Neural Network Architecture Diagrams](https://towardsdatascience.com/how-to-easily-draw-neural-network-architecture-diagrams-a6b6138ed875)
 
+[mlflow/mlflow](https://github.com/mlflow/mlflow) --- Open source platform for the machine learning lifecycle
+
+[Why use Docker containers for machine learning development?](https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
+
+[Nine Tools I Wish I Mastered before My PhD in Machine Learning](https://towardsdatascience.com/nine-tools-i-wish-i-mastered-before-my-phd-in-machine-learning-708c6dcb2fb0)
+
+[Entering raw mode](https://viewsourcecode.org/snaptoken/kilo/02.enteringRawMode.html)
+
+[Common Rust Lifetime Misconceptions](https://github.com/pretzelhammer/rust-blog/blob/master/posts/common-rust-lifetime-misconceptions.md)
+
+[rhasspy/gruut](https://github.com/rhasspy/gruut) --- A tokenizer, text cleaner, and phonemizer for many human languages.
+
+[rhasspy/ipa2kaldi](https://github.com/rhasspy/ipa2kaldi) --- Tool for creating Kaldi nnet3 recipes using the International Phonetic Alphabet (IPA)
+
+[rhasspy/wiktionary2dict](https://github.com/rhasspy/wiktionary2dict) --- Tool for extracting IPA pronunciations from Wiktionary XML dump
+
+[Babel](https://babel.pocoo.org/en/latest/),
+[code](https://github.com/python-babel/babel)
+
+[How to use SVGs in React](https://blog.logrocket.com/how-to-use-svgs-react/)
+
+[nodejs/nan](https://github.com/nodejs/nan) --- Native Abstractions for Node.js
+
+[Hubert: How Much Can a Bad Teacher Benefit ASR Pre-Training?](https://ieeexplore.ieee.org/abstract/document/9414460)
+
+[hubert simple_kmeans](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert/simple_kmeans)
+
+[mamedev](https://www.mamedev.org/index.php)
+
+[The Gumbel trick](https://francisbach.com/the-gumbel-trick/)
+
+[Modifying Custom Matmul CUDA Kernels](https://demoriarty.github.io/BMM-1/)
+
+[DeMoriarty/TorchPQ](https://github.com/DeMoriarty/TorchPQ) --- Approximate nearest neighbor search with product quantization on GPU in pytorch and cuda
+
+[Alexander-H-Liu/NPC](https://github.com/Alexander-H-Liu/NPC) --- Non-Autoregressive Predictive Coding
+
+[s3prl/s3prl](https://github.com/s3prl/s3prl)
+
+[facebookresearch/CPC_audio](https://github.com/facebookresearch/CPC_audio) --- An implementation of the Contrast Predictive Coding (CPC) method to train audio features in an unsupervised fashion.
+
+[as-ideas/TransformerTTS](https://github.com/as-ideas/TransformerTTS) --- Transformer TTS: Implementation of a non-autoregressive Transformer based neural network for text to speech.
+
+[8-Core Training on Colab TPUs](https://rishtech.substack.com/p/xla-tpu)
+
+[DistilBertTPUTraining.ipynb](https://colab.research.google.com/drive/1rwpba_4uEWv3bc9LVRuUAdywsWuIyEyX?usp=sharing)
+
+[T5 on TPU](https://colab.research.google.com/github/patil-suraj/exploring-T5/blob/master/T5_on_TPU.ipynb)
+
+[dfm/extending-jax](https://github.com/dfm/extending-jax) --- Extending JAX with custom C++ and CUDA code
+
 
