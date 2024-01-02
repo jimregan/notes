@@ -2434,4 +2434,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Calling Go Functions from Other Languages](https://medium.com/learning-the-go-programming-language/calling-go-functions-from-other-languages-4c7d8bcc69bf)
 
+[Introduction To Golang For Python developers](https://analyticsindiamag.com/introduction-to-golang-for-python-developers/)
+
+[Go by Example](https://gobyexample.com/)
+
 [jwieting/paraphrastic-representations-at-scale](https://github.com/jwieting/paraphrastic-representations-at-scale)
