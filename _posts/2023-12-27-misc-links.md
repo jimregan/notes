@@ -2744,4 +2744,8 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [code](https://github.com/facebookresearch/hsd3),
 [paper](https://arxiv.org/abs/2110.10809)
 
+[facebookresearch/ppuda](https://github.com/facebookresearch/ppuda) --- Code for Parameter Prediction for Unseen Deep Architectures (NeurIPS 2021)
+
+[hankcs/HanLP](https://github.com/hankcs/HanLP) --- Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification
+
 
