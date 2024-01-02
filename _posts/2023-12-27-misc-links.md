@@ -2253,4 +2253,4 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [synesthesiam/voice2json](https://github.com/synesthesiam/voice2json) --- Command-line tools for speech and intent recognition on Linux
 
-
+[LARP: Language-Agent Role Play for Open-World Games](https://arxiv.org/abs/2312.17653)
