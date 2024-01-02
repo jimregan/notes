@@ -2360,4 +2360,11 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Python and Go : Part II - Extending Python With Go](https://www.ardanlabs.com/blog/2020/07/extending-python-with-go.html)
 
+[LANDrop](https://landrop.app/),
+[code](https://github.com/LANDrop/LANDrop) --- Drop any files to any devices on your LAN.
+
+[jpalardy/vim-slime](https://github.com/jpalardy/vim-slime) --- A vim plugin to give you some slime. (Emacs)
+
+[jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) --- Master the command line, in one page
+
 
