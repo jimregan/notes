@@ -2184,4 +2184,26 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Writing academic papers in plain text with Markdown and Jupyter notebook](https://sylvaindeville.net/2015/07/17/writing-academic-papers-in-plain-text-with-markdown-and-jupyter-notebook/)
 
+[RasaHQ/paraphraser](https://github.com/RasaHQ/paraphraser) --- Tool to generate paraphrases of sentences in many languages.
+
+[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233)
+
+[JoFrhwld/FAVE](https://github.com/JoFrhwld/FAVE) --- A repository for maintaing the fave-align and fave-extract toolkits
+
+[Klatt](https://www.asel.udel.edu/speech/tutorials/synthesis/expert.html)
+
+[creating a vowel diagram](https://phonetic-blog.blogspot.com/2010/04/creating-vowel-diagram.html)
+
+[Vowels](https://sail.usc.edu/~lgoldste/General_Phonetics/Vowels/Vowel_Theories.html)
+
+[vowel – Draw vowel charts for phonetic research](https://ctan.org/pkg/vowel?lang=en)
+
+[The vowel space](https://www.englishspeechservices.com/blog/the-vowel-space/)
+
+[Cad a dhéanfaidh mé le mo fhleiscín-se? Comhairle ghramadaí…](https://tuairisc.ie/cad-a-dheanfaidh-me-le-mo-fhleiscin-se-comhairle-ghramadai/)
+
+[From Notebook to Kubeflow Pipelines with MiniKF and Kale](https://codelabs.developers.google.com/codelabs/cloud-kubeflow-minikf-kale)
+
+[pachyderm/pachyderm](https://github.com/pachyderm/pachyderm) --- Data-Centric Pipelines and Data Versioning
+
 
