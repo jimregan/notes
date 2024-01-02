@@ -2668,4 +2668,24 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [FedJAX: Federated Learning Simulation with JAX](https://blog.research.google/2021/10/fedjax-federated-learning-simulation.html)
 
+[Appen/UHV-OTS-Speech](https://github.com/Appen/UHV-OTS-Speech) --- A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
+
+[striveiccv2021/STRIVE-ICCV2021/](https://github.com/striveiccv2021/STRIVE-ICCV2021/) --- STRIVE: Scene Text Replacement In Videos
+
+[doxas/twigl](https://github.com/doxas/twigl) --- twigl.app is an online editor for One tweet shader, with gif generator and sound shader, and broadcast live coding.
+
+[giannisdaras/multilingual_robustness](https://github.com/giannisdaras/multilingual_robustness) --- [NeurIPS 2022] Multitasking Models are Robust to Structural Failure: A Neural Model for Bilingual Cognitive Reserve
+
+[The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+[DistilHuBERT: Speech Representation Learning by Layer-wise Distillation of Hidden-unit BERT](https://arxiv.org/abs/2110.01900)
+
+[s3prl/LibriMix](https://github.com/s3prl/LibriMix) --- An open source dataset for source separation
+
+[awslabs/speech-representations](https://github.com/awslabs/speech-representations) --- Code for DeCoAR (ICASSP 2020) and BERTphone (Odyssey 2020)
+
+[BERTphone: Phonetically-aware Encoder Representations for Utterance-level Speaker and Language Recognition](https://www.isca-speech.org/archive/odyssey_2020/ling20_odyssey.html)
+
+[FlowVocoder: A small Footprint Neural Vocoder based Normalizing flow for Speech Synthesis](https://arxiv.org/abs/2109.13675)
+
 
