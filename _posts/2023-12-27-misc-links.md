@@ -2206,4 +2206,19 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [pachyderm/pachyderm](https://github.com/pachyderm/pachyderm) --- Data-Centric Pipelines and Data Versioning
 
+[GeoPandas](https://geopandas.org/),
+[code](https://github.com/geopandas/geopandas)
+
+[KELM: Integrating Knowledge Graphs with Language Model Pre-training Corpora](https://blog.research.google/2021/05/kelm-integrating-knowledge-graphs-with.html)
+
+[sberdevices/golos](https://github.com/sberdevices/golos)
+
+[Neargye/magic_enum](https://github.com/Neargye/magic_enum) --- Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code
+
+[FNet: Mixing Tokens with Fourier Transforms](https://arxiv.org/abs/2105.03824),
+[tensorflow](https://github.com/Selozhd/FNet-tensorflow),
+[pytorch](https://github.com/rishikksh20/FNet-pytorch)
+
+[Distributed Training of a Bengali ALBERT model](https://sujitpal.blogspot.com/2021/05/distributed-training-of-bengali-albert.html)
+
 
