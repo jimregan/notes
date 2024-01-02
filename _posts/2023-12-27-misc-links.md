@@ -2694,4 +2694,36 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [paper](https://arxiv.org/abs/2311.12996),
 [code](https://github.com/pd-perry/RLIF)
 
+[snorkel-team/snorkel](https://github.com/snorkel-team/snorkel) --- A system for quickly generating training data with weak supervision
+
+[Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901)
+
+[kedro-org/kedro](https://github.com/kedro-org/kedro) --- Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.
+
+[How to Train Bert For Q&A in Any Language](https://towardsdatascience.com/how-to-train-bert-for-q-a-in-any-language-63b62c780014)
+
+[Unsupervised Speech Segmentation and Variable Rate Representation Learning using Segmental Contrastive Predictive Coding](https://arxiv.org/abs/2110.02345)
+
+[Gentle Dive into Math Behind Convolutional Neural Networks](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
+
+[t-ubukata/cudnnxx](https://github.com/t-ubukata/cudnnxx) --- cuDNN C++ wrapper.
+
+[To RAII or Not to RAII?](https://www.fluentcpp.com/2018/02/13/to-raii-or-not-to-raii/)
+
+[Smart developers use smart pointers (1/7) – Smart pointers basics](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
+
+[CTC Variations Through New WFST Topologies](https://arxiv.org/abs/2110.03098)
+
+{% twitter https://twitter.com/haltakov/status/1448353270641086471 %}
+
+[BaguaSys/bagua](https://github.com/BaguaSys/bagua) --- Bagua Speeds up PyTorch
+
+[visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) --- A curated list of references for MLOps
+
+[Towards Robust Waveform-Based Acoustic Models](https://arxiv.org/abs/2110.08634)
+
+[A Variational Bayesian Approach to Learning Latent Variables for Acoustic Knowledge Transfer](https://arxiv.org/abs/2110.08598)
+
+[Simple and Effective Zero-shot Cross-lingual Phoneme Recognition](https://arxiv.org/abs/2109.11680)
+
 
