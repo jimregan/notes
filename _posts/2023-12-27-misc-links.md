@@ -2375,4 +2375,47 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Bunfrasaí Ghaeilge Reachlann](https://rathlingaelic.blogspot.com/2012/08/bunfrasai-ghaeilge-reachlann.html)
 
+---
+
+[Standard Lexical Sets](https://archive.ph/20121211181925/http://www.ic.arizona.edu/~anth383/lexicalsets.html)
+
+[Online Units](https://web.archive.org/web/20130309011732/http://www.ic.arizona.edu/~anth383/unitsindex.html)
+
+---
+
+[Quechua Collection of Patricia Dreidemie](https://ailla.utexas.org/islandora/object/ailla%3A124417)
+
+---
+
+[mvcisback/lstar](https://github.com/mvcisback/lstar) --- Python implementation of lstar automata learning algorithm.
+
+[gbossert/pylstar](https://github.com/gbossert/pylstar) --- An implementation of the LSTAR Grammatical Inference Algorithm
+
+[Symbolic Automata](https://pages.cs.wisc.edu/~loris/symbolicautomata.html)
+
+[lorisdanto/symbolicautomata](https://github.com/lorisdanto/symbolicautomata) --- Library for symbolic automata and symbolic visibly pushdown automata
+
+[awni/transducer](https://github.com/awni/transducer) --- A Fast Sequence Transducer Implementation with PyTorch Bindings
+
+[Sequence Transduction with Recurrent Neural Networks](https://arxiv.org/abs/1211.3711)
+
+[Sequence-to-sequence learning with Transducers](https://lorenlugosch.github.io/posts/2020/11/transducer/)
+
+[linear_crf.ipynb](https://github.com/gtn-org/gtn/blob/master/examples/notebooks/linear_crf.ipynb)
+
+[tech-srl/RNN_to_PRS_CFG](https://github.com/tech-srl/RNN_to_PRS_CFG) --- Implementation of TACAS 2021 paper, "Extrapolating CFGs from RNNs"
+
+---
+
+[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626)
+
+[facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) --- A data augmentations library for audio, image, text, and video.
+
+[PrithivirajDamodaran/Styleformer](https://github.com/PrithivirajDamodaran/Styleformer) --- A Neural Language Style Transfer framework to transfer natural language text smoothly between fine-grained language styles like formal/casual, active/passive, and many more. Created by Prithiviraj Damodaran. Open to pull requests and other forms of collaboration.
+
+[Contrastive Semi-supervised Learning for ASR](https://arxiv.org/abs/2103.05149)
+
+[Contrastive Learning of General-Purpose Audio Representations](https://arxiv.org/abs/2010.10915),
+[code](https://github.com/google-research/google-research/tree/master/cola)
+
 
