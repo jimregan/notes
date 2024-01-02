@@ -2489,6 +2489,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [o3de/o3de](https://github.com/o3de/o3de) --- Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine that enables developers and content creators to build AAA games, cinema-quality 3D worlds, and high-fidelity simulations without any fees or commercial obligations.
 
+[GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10,000 Hours of Transcribed Audio](https://arxiv.org/abs/2106.06909),
 [SpeechColab/GigaSpeech](https://github.com/SpeechColab/GigaSpeech) --- Large, modern dataset for speech recognition
 
 [LLM Training: RLHF and Its Alternatives](https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives)
@@ -2614,5 +2615,41 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [respeecher/librispeech-cutter](https://github.com/respeecher/librispeech-cutter) --- Scripts for generating librispeech cuts from the original mp3 archive without 16kHz restrictions
 
 [stanford-crfm/mistral](https://github.com/stanford-crfm/mistral) --- Mistral: A strong, northwesterly wind: Framework for transparent and accessible large-scale language model training, built with Hugging Face 🤗 Transformers.
+
+[Language model training examples](https://github.com/huggingface/transformers/blob/main/examples/flax/language-modeling/README.md#t5-like-span-masked-language-modeling)
+
+[A flexible, open-source platform for democratised access to digital resources](https://www.golem.network/platform)
+
+[Tencent/TNN](https://github.com/Tencent/TNN) --- deep learning inference framework for mobile、desktop and server.
+
+[Zero Redundancy Optimizer](https://www.deepspeed.ai/tutorials/zero/)
+
+[rawpython/remi](https://github.com/rawpython/remi) --- Python REMote Interface library. Platform independent. In about 100 Kbytes, perfect for your diet.
+
+[microsoft/Focal-Transformer](https://github.com/microsoft/Focal-Transformer) --- [NeurIPS 2021 Spotlight] Official code for "Focal Self-attention for Local-Global Interactions in Vision Transformers"
+
+[microsoft/Swin-Transformer](https://github.com/microsoft/Swin-Transformer) --- This is an official implementation for "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows".
+
+[Cartlann na gCanúintí](https://www.ucd.ie/specialcollections/archives/irishdialect/)
+
+[ahrm/sioyek](https://github.com/ahrm/sioyek) --- Sioyek is a PDF viewer with a focus on textbooks and research papers
+
+[How lies about Irish 'barbarism' in 1641 paved way for Cromwell's atrocities](https://www.theguardian.com/world/2011/feb/18/1641-irish-rebellion-anti-catholic-propaganda)
+
+[microsoft/UniSpeech](https://github.com/microsoft/UniSpeech) --- UniSpeech - Large Scale Self-Supervised Learning for Speech
+
+[UniSpeech: Unified Speech Representation Learning with Labeled and Unlabeled Data](https://arxiv.org/abs/2101.07597)
+
+[Generative Spoken Language Modeling from Raw Audio](https://arxiv.org/abs/2102.01192)
+
+[NVIDIA/radtts](https://github.com/NVIDIA/radtts) --- Provides training, inference and voice conversion recipes for RADTTS and RADTTS++: Flow-based TTS models with Robust Alignment Learning, Diverse Synthesis, and Generative Modeling and Fine-Grained Control over of Low Dimensional (F0 and Energy) Speech Attributes.
+
+[AI Choreographer. Music Conditioned 3D Dance Generation with AIST++](https://google.github.io/aichoreographer/),
+[paper](https://arxiv.org/abs/2101.08779),
+[dataset](https://google.github.io/aistplusplus_dataset/),
+[api](https://github.com/google/aistplusplus_api),
+[model](https://github.com/google-research/mint)
+
+[BigSSL: Exploring the Frontier of Large-Scale Semi-Supervised Learning for Automatic Speech Recognition](https://arxiv.org/abs/2109.13226)
 
 
