@@ -2688,4 +2688,10 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [FlowVocoder: A small Footprint Neural Vocoder based Normalizing flow for Speech Synthesis](https://arxiv.org/abs/2109.13675)
 
+[The Turing Way](https://the-turing-way.netlify.app/index.html)
+
+[RLIF: Interactive Imitation Learning as Reinforcement Learning](https://rlif-page.github.io/),
+[paper](https://arxiv.org/abs/2311.12996),
+[code](https://github.com/pd-perry/RLIF)
+
 
