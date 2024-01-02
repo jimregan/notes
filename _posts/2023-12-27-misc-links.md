@@ -2221,4 +2221,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Distributed Training of a Bengali ALBERT model](https://sujitpal.blogspot.com/2021/05/distributed-training-of-bengali-albert.html)
 
+[jgraph/drawio](https://github.com/jgraph/drawio) --- draw.io is a JavaScript, client-side editor for general diagramming.
+
+[Barlow-Twins-TF](https://github.com/sayakpaul/Barlow-Twins-TF)
+
 
