@@ -2496,3 +2496,31 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [Sean-Chainnt na gCruach, Co. Dhún na nGall](https://www.degruyter.com/document/doi/10.1515/zcph.1964.29.1.1/html)
 
 [Can Fully Connected Layers be Replaced by Convolutional Layers?](https://sebastianraschka.com/faq/docs/fc-to-conv.html)
+
+[tencent-ailab/pika](https://github.com/tencent-ailab/pika) --- a lightweight speech processing toolkit based on Pytorch and (Py)Kaldi
+
+[athena-team/athena](https://github.com/athena-team/athena) --- an open-source implementation of sequence-to-sequence based speech processing engine
+
+[Causal Language modeling](https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/language_modeling_from_scratch.ipynb#scrollTo=JEA1ju653l-p)
+
+[Unitnet Speech Demos | Unit Selection TTS strikes back](https://www.reddit.com/r/speechtech/comments/ogbmvz/unitnet_speech_demos_unit_selection_tts_strikes/)
+
+[Automated Audio Captioning](https://dcase.community/challenge2021/task-automatic-audio-captioning)
+
+[chapter09_part01_image-segmentation.ipynb](https://colab.research.google.com/github/fchollet/deep-learning-with-python-notebooks/blob/master/chapter09_part01_image-segmentation.ipynb#scrollTo=Gx_ui8Mejdr1)
+
+[Google DeepMind’s new AI tool helped create more than 700 new materials](https://www.technologyreview.com/2023/11/29/1084061/deepmind-ai-tool-for-new-materials-discovery/)
+
+[UI researchers working to make speech-recognition technology more accessible](https://www.news-gazette.com/news/local/university-illinois/ui-researchers-working-to-make-speech-recognition-technology-more-accessible/article_f334c713-0d8b-5ecf-a2fd-4e3d3b077888.html)
+
+[feast-dev/feast](https://github.com/feast-dev/feast) --- Feature Store for Machine Learning
+
+[eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) --- Papers & tech blogs by companies sharing their work on data science & machine learning in production.
+
+[ucam-smt/ucam-smt](https://github.com/ucam-smt/ucam-smt) --- Cambridge SMT System
+
+[Welcome to the Zero to Mastery TensorFlow for Deep Learning Book](https://dev.mrdbourke.com/tensorflow-deep-learning/)
+
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+
+
