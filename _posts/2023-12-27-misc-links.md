@@ -2422,6 +2422,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [parlance/ctcdecode](https://github.com/parlance/ctcdecode) --- PyTorch CTC Decoder bindings
 
+[kensho-technologies/pyctcdecode](https://github.com/kensho-technologies/pyctcdecode) --- A fast and lightweight python-based CTC beam search decoder for speech recognition.
+
 [pariajm/awesome-disfluency-detection](https://github.com/pariajm/awesome-disfluency-detection) --- A curated list of awesome disfluency detection publications along with the released code and bibliographical information
 
 [How to use the pre-trained Librispeech model in Kaldi](https://desh2608.github.io/2020-05-18-using-librispeech/)
@@ -2439,3 +2441,33 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Go by Example](https://gobyexample.com/)
 
 [jwieting/paraphrastic-representations-at-scale](https://github.com/jwieting/paraphrastic-representations-at-scale)
+
+[python-trio/trio](https://github.com/python-trio/trio) --- Trio – a friendly Python library for async concurrency and I/O
+
+[Making Web Crawlers Using Scrapy for Python](https://www.datacamp.com/tutorial/making-web-crawlers-scrapy-python)
+
+[scrapy/scrapy](https://github.com/scrapy/scrapy)
+
+[google-research/deeplab2](https://github.com/google-research/deeplab2) --- DeepLab2 is a TensorFlow library for deep labeling, aiming to provide a unified and state-of-the-art TensorFlow codebase for dense pixel labeling tasks.
+
+[hugapi/hug](https://github.com/hugapi/hug) --- Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler.
+
+[Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models](https://arxiv.org/abs/2106.13353)
+
+[Statistics of diphones and triphones presence on the word boundaries in the Polish language. Applications to ASR](https://ieeexplore.ieee.org/document/6845418)
+
+[Using Syllables as Acoustic Units for Spontaneous Speech Recognition](https://link.springer.com/chapter/10.1007/978-3-642-15760-8_38)
+
+[akreal/diphones](https://github.com/akreal/diphones) --- PocketSphinx diphone alignment
+
+[Diphone-based speech recognition using neural networks](https://calhoun.nps.edu/handle/10945/32063)
+
+[Speech recognition method and system using triphones, diphones, and phonemes](https://patents.google.com/patent/US5502790A/en)
+
+[Face recognition with OpenCV, Python, and deep learning](https://pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
+
+[Alignments in Kaldi](https://kaldi-asr.org/doc/hmm.html#hmm_alignment)
+
+[Improving Generalization of Transformer for Speech Recognition with Parallel Schedule Sampling and Relative Positional Embedding](https://arxiv.org/abs/1911.00203)
+
+
