@@ -2334,3 +2334,24 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 ---
 
+[rish-16/aft-pytorch](https://github.com/rish-16/aft-pytorch) --- Unofficial PyTorch implementation of Attention Free Transformer (AFT) layers by Apple Inc.
+
+[yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill) --- A coding-free framework built on PyTorch for reproducible deep learning studies. 🏆20 knowledge distillation methods presented at CVPR, ICLR, ECCV, NeurIPS, ICCV, etc are implemented so far. 🎁 Trained models, training logs and configurations are available for ensuring the reproducibiliy and benchmark.
+
+[Declassified Cold War code-breaking manual has lessons for solving 'impossible' puzzles](https://phys.org/news/2021-05-declassified-cold-war-code-breaking-manual.html)
+
+[epfml/sent2vec](https://github.com/epfml/sent2vec)
+
+[epfml/Bi-sent2vec](https://github.com/epfml/Bi-sent2vec) --- Robust Cross-lingual Embeddings from Parallel Sentences
+
+[MERLOT: Multimodal Neural Script Knowledge Models](https://arxiv.org/abs/2106.02636)
+
+[Inference with Wav2vec 2.0](https://medium.com/georgian-impact-blog/inference-with-wav2vec-2-0-2c49b3fb7e04)
+
+[AnthonyCalandra/modern-cpp-features](https://github.com/AnthonyCalandra/modern-cpp-features) --- A cheatsheet of modern C++ language and library features.
+
+[MayaPosch/NymphCast](https://github.com/MayaPosch/NymphCast) --- Audio and video casting system with support for custom applications.
+
+[How Fighter Jets Lock On (and How the Targets Know)](https://gizmodo.com/how-fighter-jets-lock-on-and-how-the-targets-know-1644871272)
+
+
