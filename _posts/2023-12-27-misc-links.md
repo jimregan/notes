@@ -2407,7 +2407,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 ---
 
-[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626)
+[ByT5: Towards a token-free future with pre-trained byte-to-byte models](https://arxiv.org/abs/2105.13626),
+[code](https://github.com/google-research/byt5)
 
 [facebookresearch/AugLy](https://github.com/facebookresearch/AugLy) --- A data augmentations library for audio, image, text, and video.
 
@@ -2469,5 +2470,25 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Alignments in Kaldi](https://kaldi-asr.org/doc/hmm.html#hmm_alignment)
 
 [Improving Generalization of Transformer for Speech Recognition with Parallel Schedule Sampling and Relative Positional Embedding](https://arxiv.org/abs/1911.00203)
+
+Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile/),
+[Image similarity estimation using a Siamese Network with a triplet loss](https://keras.io/examples/vision/siamese_network/),
+[Self-supervised contrastive learning with SimSiam](https://keras.io/examples/vision/simsiam/),
+[Automatic Speech Recognition with Transformer](https://keras.io/examples/audio/transformer_asr/),
+[Code examples](https://keras.io/examples/)
+
+[tuplex/tuplex](https://github.com/tuplex/tuplex) --- Tuplex is a parallel big data processing framework that runs data science pipelines written in Python at the speed of compiled code. Tuplex has similar Python APIs to Apache Spark or Dask, but rather than invoking the Python interpreter, Tuplex generates optimized LLVM bytecode for the given pipeline and input data set.
+
+[Semi-Supervised Speech Recognition via Graph-based Temporal Classification](https://arxiv.org/abs/2010.15653)
+
+[How Kurt Cobain’s Favorite Novel Made Its Way Onto Nirvana’s Final Album](https://lithub.com/how-kurt-cobains-favorite-novel-made-its-way-onto-nirvanas-final-album/)
+
+[DIOM3DES](https://villadiomede.huma-num.fr/3D/app.html)
+
+[aws/graph-notebook](https://github.com/aws/graph-notebook) --- Library extending Jupyter notebooks to integrate with Apache TinkerPop, openCypher, and RDF SPARQL.
+
+[o3de/o3de](https://github.com/o3de/o3de) --- Open 3D Engine (O3DE) is an Apache 2.0-licensed multi-platform 3D engine that enables developers and content creators to build AAA games, cinema-quality 3D worlds, and high-fidelity simulations without any fees or commercial obligations.
+
+[SpeechColab/GigaSpeech](https://github.com/SpeechColab/GigaSpeech) --- Large, modern dataset for speech recognition
 
 
