@@ -2730,4 +2730,18 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [WenetSpeech: A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition](https://arxiv.org/abs/2110.03370)
 
+[Have best of both worlds: two-pass hybrid and E2E cascading framework for speech recognition](https://arxiv.org/abs/2110.04891)
+
+[Fine-tuning for Audio Classification with 🤗 Transformers](https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/audio_classification.ipynb)
+
+[Control Strategies for Physically Simulated Characters Performing Two-player Competitive Sports](https://ai.meta.com/research/publications/control-strategies-for-physically-simulated-characters-performing-two-player-competitive-sports/)
+
+[47: Neural Body](https://www.casualganpapers.com/implicit-neural-representation-full-body-avatar-novel-view-synthesis/Neural-Body-explained.html)
+
+[Phrase Retrieval and Beyond](https://princeton-nlp.github.io/phrase-retrieval-and-beyond/)
+
+[Hierarchical Skills for Efficient Exploration](https://facebookresearch.github.io/hsd3/),
+[code](https://github.com/facebookresearch/hsd3),
+[paper](https://arxiv.org/abs/2110.10809)
+
 
