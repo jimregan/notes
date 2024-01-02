@@ -2354,4 +2354,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [How Fighter Jets Lock On (and How the Targets Know)](https://gizmodo.com/how-fighter-jets-lock-on-and-how-the-targets-know-1644871272)
 
+[‘Operation Legacy’: Britain’s Destruction and Concealment of Colonial Records Worldwide](https://www.tandfonline.com/doi/full/10.1080/03086534.2017.1294256)
+
+[gopherdata/gophernotes](https://github.com/gopherdata/gophernotes) --- The Go kernel for Jupyter notebooks and nteract.
+
+[Python and Go : Part II - Extending Python With Go](https://www.ardanlabs.com/blog/2020/07/extending-python-with-go.html)
+
 
