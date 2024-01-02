@@ -2267,4 +2267,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [textext/textext](https://github.com/textext/textext) --- Re-editable LaTeX/ typst graphics for Inkscape
 
+[Searching, fast and slow, through product catalogs](https://arxiv.org/abs/2401.00737)
+
+[How to Easily Draw Neural Network Architecture Diagrams](https://towardsdatascience.com/how-to-easily-draw-neural-network-architecture-diagrams-a6b6138ed875)
+
 
