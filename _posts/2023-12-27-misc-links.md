@@ -2418,4 +2418,20 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Contrastive Learning of General-Purpose Audio Representations](https://arxiv.org/abs/2010.10915),
 [code](https://github.com/google-research/google-research/tree/master/cola)
 
+[FRILL: On-Device Speech Representations using TensorFlow-Lite](https://blog.research.google/2021/06/frill-on-device-speech-representations.html)
+
+[parlance/ctcdecode](https://github.com/parlance/ctcdecode) --- PyTorch CTC Decoder bindings
+
+[pariajm/awesome-disfluency-detection](https://github.com/pariajm/awesome-disfluency-detection) --- A curated list of awesome disfluency detection publications along with the released code and bibliographical information
+
+[How to use the pre-trained Librispeech model in Kaldi](https://desh2608.github.io/2020-05-18-using-librispeech/)
+
+[yandex-research/DeDLOC](https://github.com/yandex-research/DeDLOC) --- Official code for "Distributed Deep Learning in Open Collaborations" (NeurIPS 2021)
+
+[Distributed Deep Learning in Open Collaborations](https://arxiv.org/abs/2106.10207)
+
+[cross-language-cpp/djinni-generator](https://github.com/cross-language-cpp/djinni-generator) --- Command-line tool that generates gluecode from a djinni-IDL file
+
+[Calling Go Functions from Other Languages](https://medium.com/learning-the-go-programming-language/calling-go-functions-from-other-languages-4c7d8bcc69bf)
+
 
