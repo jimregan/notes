@@ -2254,3 +2254,17 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [synesthesiam/voice2json](https://github.com/synesthesiam/voice2json) --- Command-line tools for speech and intent recognition on Linux
 
 [LARP: Language-Agent Role Play for Open-World Games](https://arxiv.org/abs/2312.17653)
+
+[Continvvm/continuum](https://github.com/Continvvm/continuum) --- A clean and simple data loading library for Continual Learning
+
+[CC-100: Monolingual Datasets from Web Crawl Data](https://data.statmt.org/cc-100/)
+
+[deepset-ai/haystack](https://github.com/deepset-ai/haystack) --- LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots
+
+[janusgraph/janusgraph](https://github.com/janusgraph/janusgraph) --- JanusGraph: an open-source, distributed graph database
+
+[Streamlit Tutorial: A Beginner’s Guide to Building Machine Learning-Based Web Applications in Python](https://builtin.com/machine-learning/streamlit-tutorial)
+
+[textext/textext](https://github.com/textext/textext) --- Re-editable LaTeX/ typst graphics for Inkscape
+
+
