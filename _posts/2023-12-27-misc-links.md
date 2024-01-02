@@ -2322,4 +2322,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [dfm/extending-jax](https://github.com/dfm/extending-jax) --- Extending JAX with custom C++ and CUDA code
 
+[mmi_mbr_graph.py](https://github.com/k2-fsa/snowfall/blob/master/snowfall/training/mmi_mbr_graph.py)
+
+[SE and ASR joint training #3226](https://github.com/espnet/espnet/pull/3226/files)
+
 
