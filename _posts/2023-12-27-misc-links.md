@@ -2233,4 +2233,16 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [A Journey Through Fastbook](https://ohmeow.com/posts/2021/05/23/ajtfb-chapter-4.html)
 
+[trekhleb/homemade-machine-learning](https://github.com/trekhleb/homemade-machine-learning) --- Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained
+
+[launchbadge/sqlx](https://github.com/launchbadge/sqlx) --- The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, SQLite, and MSSQL.
+
+[gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) --- Cross-platform, safe, pure-rust graphics api.
+
+[seanmonstar/warp](https://github.com/seanmonstar/warp) --- A super-easy, composable, web server framework for warp speeds.
+
+[Nukesor/pueue](https://github.com/Nukesor/pueue) --- Manage your shell commands.
+
+[pytorch/captum](https://github.com/pytorch/captum) --- Model interpretability and understanding for PyTorch
+
 
