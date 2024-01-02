@@ -2537,4 +2537,34 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [microsoft/STL](https://github.com/microsoft/STL)
 
+[uwol/proleap-vb6-parser](https://github.com/uwol/proleap-vb6-parser) --- ProLeap ANTLR4-based parser for Visual Basic 6.0
+
+[Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/abs/2103.03230)
+
+[Multistream TDNN and new Vosk model](https://alphacephei.com/nsh/2021/07/16/multstream-tdnn.html)
+
+[Duanaire na Miḋe](https://archive.org/details/duanairenamie00laoi/page/25/mode/1up)
+
+[tunib-ai/parallelformers](https://github.com/tunib-ai/parallelformers) --- Parallelformers: An Efficient Model Parallelization Toolkit for Deployment
+
+[CPrAN](https://cpran.net/) --- The plugin manager for Praat
+
+[‘Our sound man had Kurt Cobain against the wall’: iconic Leeds gig pub ‘reopens’](https://www.theguardian.com/music/2021/jul/14/our-sound-man-had-kurt-cobain-against-the-wall-iconic-leeds-gig-pub-reopens)
+
+[UniSpeech at scale: An Empirical Study of Pre-training Method on Large-Scale Speech Recognition Dataset](https://arxiv.org/abs/2107.05233)
+
+[viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode)
+
+[Deep Learning over the Internet: Training Language Models Collaboratively](https://huggingface.co/blog/collaborative-training)
+
+[liuliu/ccv](https://github.com/liuliu/ccv) --- C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library
+
+[Official Secrets Act reform could target journalists exposing state failings in Troubles’ killings](https://thedetail.tv/articles/official-secrets-act-reform-could-target-journalists-exposing-state-failings-in-troubles-killings)
+
+[SUPERB: Speech processing Universal PERformance Benchmark](https://arxiv.org/abs/2105.01051)
+
+[CS224S, Assignment 3: Deep Learning for End-to-End Speech Recognition](https://web.stanford.edu/class/cs224s/assignments/a3/)
+
+[Scary Phonetics? Learning Cardinal Vowels, Part 1](https://blogs.city.ac.uk/phoned/2021/07/28/scary-phonetics-learning-cardinal-vowels-part-1/)
+
 
