@@ -2326,4 +2326,11 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [SE and ASR joint training #3226](https://github.com/espnet/espnet/pull/3226/files)
 
+---
+
+[google/REAPER](https://github.com/google/REAPER)
+
+[voicesauce/opensauce-python](https://github.com/voicesauce/opensauce-python) --- Voice analysis software (Python port of VoiceSauce)
+
+---
 
