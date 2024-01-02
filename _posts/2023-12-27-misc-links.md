@@ -2523,4 +2523,18 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
+[a2-4am/a2rchery](https://github.com/a2-4am/a2rchery) --- A multi-purpose tool for manipulating .a2r disk images
+
+[Neural Waveshaping Synthesis](https://arxiv.org/abs/2107.05050)
+
+[microsoft/flow2dts](https://github.com/microsoft/flow2dts) --- Flow declarations to TypeScript declarations transpiler
+
+[shivammehta25/Matcha-TTS](https://github.com/shivammehta25/Matcha-TTS) --- [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+
+[Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl)
+
+[microsoft/terminal](https://github.com/microsoft/terminal) --- The new Windows Terminal and the original Windows console host, all in the same place!
+
+[microsoft/STL](https://github.com/microsoft/STL)
+
 
