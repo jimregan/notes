@@ -2593,4 +2593,26 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [sarulab-speech/jtubespeech](https://github.com/sarulab-speech/jtubespeech) --- JTubeSpeech: Corpus of Japanese speech collected from YouTube
 
+[anishathalye/neural-hash-collider](https://github.com/anishathalye/neural-hash-collider) --- Preimage attack against NeuralHash 💣
+
+[AsuharietYgvar/AppleNeuralHash2ONNX](https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX) --- Convert Apple NeuralHash model for CSAM Detection to ONNX.
+
+[KhaosT/nhcalc](https://github.com/KhaosT/nhcalc) --- Compute NeuralHash for the given image
+
+[The Formula For An Episode Of Murder, She Wrote](https://web.archive.org/web/20230720034617/https://www.pentadact.com/2014-08-08-the-formula-for-an-episode-of-murder-she-wrote/)
+
+[artyom-beilis/dlprimitives](https://github.com/artyom-beilis/dlprimitives) --- Deep Learning Primitives and Mini-Framework for OpenCL
+
+[labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
+
+[Enhancing audio quality for expressive Neural Text-to-Speech](https://arxiv.org/abs/2108.06270)
+
+[One TTS Alignment to Rule Them All](https://nv-adlr.github.io/one-tts-alignment)
+
+[turtle — Turtle graphics](https://docs.python.org/3/library/turtle.html)
+
+[respeecher/librispeech-cutter](https://github.com/respeecher/librispeech-cutter) --- Scripts for generating librispeech cuts from the original mp3 archive without 16kHz restrictions
+
+[stanford-crfm/mistral](https://github.com/stanford-crfm/mistral) --- Mistral: A strong, northwesterly wind: Framework for transparent and accessible large-scale language model training, built with Hugging Face 🤗 Transformers.
+
 
