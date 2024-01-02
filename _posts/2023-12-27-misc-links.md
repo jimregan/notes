@@ -2245,4 +2245,12 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [pytorch/captum](https://github.com/pytorch/captum) --- Model interpretability and understanding for PyTorch
 
+[Emotion Recognition in Greek Speech Using Wav2Vec 2.0](https://colab.research.google.com/github/m3hrdadfi/soxan/blob/main/notebooks/Emotion_recognition_in_Greek_speech_using_Wav2Vec2.ipynb)
+
+[synesthesiam/mycroft-precise-trainer](https://github.com/synesthesiam/mycroft-precise-trainer) --- Text to speech wake word training scripts for Mycroft Precise
+
+[rhasspy/rhasspy-asr](https://github.com/rhasspy/rhasspy-asr) --- Shared Python classes for speech to text
+
+[synesthesiam/voice2json](https://github.com/synesthesiam/voice2json) --- Command-line tools for speech and intent recognition on Linux
+
 
