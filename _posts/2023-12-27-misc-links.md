@@ -2369,4 +2369,10 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
+[Neural Machine Translation Using Sequence to Sequence Model](https://medium.com/geekculture/neural-machine-translation-using-sequence-to-sequence-model-164a5905bcd7)
+
+[Generative Spoken Language Modeling from Raw Audio](https://arxiv.org/abs/2102.01192)
+
+[Bunfrasaí Ghaeilge Reachlann](https://rathlingaelic.blogspot.com/2012/08/bunfrasai-ghaeilge-reachlann.html)
+
 
