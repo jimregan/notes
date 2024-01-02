@@ -2225,4 +2225,12 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Barlow-Twins-TF](https://github.com/sayakpaul/Barlow-Twins-TF)
 
+[evolus/pencil](https://github.com/evolus/pencil) --- The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.
+
+[linkedin/greykite](https://github.com/linkedin/greykite) --- A flexible, intuitive and fast forecasting library
+
+[staltz/matrixmultiplication.xyz](https://github.com/staltz/matrixmultiplication.xyz) --- An interactive matrix multiplication calculator for educational purposes
+
+[A Journey Through Fastbook](https://ohmeow.com/posts/2021/05/23/ajtfb-chapter-4.html)
+
 
