@@ -2573,4 +2573,24 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [An Adapter Based Pre-Training for Efficient and Scalable Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2107.13530)
 
+[Biblia Tysiąclecia](https://biblia.deon.pl/rozdzial.php?id=357)
+
+[yl4579/StarGANv2-VC](https://github.com/yl4579/StarGANv2-VC) --- StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion
+
+[Active learning in speech recognition](https://alphacephei.com/nsh/2021/07/13/active-learning.html)
+
+[facebookresearch/fairo](https://github.com/facebookresearch/fairo) --- A modular embodied agent architecture and platform for building embodied agents
+
+[apache/tvm](https://github.com/apache/tvm) --- Open deep learning compiler stack for cpu, gpu and specialized accelerators
+
+[hora-search/hora](https://github.com/hora-search/hora) --- efficient approximate nearest neighbor search algorithm collections library written in Rust
+
+[An Introduction to Weighted Automata in Machine Learning](https://awnihannun.com/writing/automata_ml.html)
+
+[facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) --- PySlowFast: video understanding codebase from FAIR for reproducing state-of-the-art video models.
+
+[TigerBot: An Open Multilingual Multitask LLM](https://arxiv.org/abs/2312.08688)
+
+[sarulab-speech/jtubespeech](https://github.com/sarulab-speech/jtubespeech) --- JTubeSpeech: Corpus of Japanese speech collected from YouTube
+
 
