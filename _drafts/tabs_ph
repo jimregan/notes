@@ -1,15 +1,6 @@
 pika/trainer/model/modules/multi_headed_attn.py at main · tencent-ailab/pika
 https://github.com/tencent-ailab/pika/blob/main/trainer/model/modules/multi_headed_attn.py
 
-LLM Training: RLHF and Its Alternatives
-https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives
-
-GitHub - wenet-e2e/wenet: Production First and Production Ready End-to-End Speech Recognition Toolkit
-https://github.com/wenet-e2e/wenet
-
-GitHub - SpeechColab/kaldi: kaldi-asr/kaldi is the official location of the Kaldi project.
-https://github.com/SpeechColab/kaldi
-
 GitHub - athena-team/athena-transform
 https://github.com/athena-team/athena-transform
 
@@ -19,62 +10,17 @@ https://github.com/athena-team/athena
 Speech Recognition — Athena 0.1 documentation
 https://athena-team.readthedocs.io/en/latest/tutorials/speech_recognition.html
 
-[egs] GigaSpeech recipe (#4586) · kaldi-asr/kaldi@170a1fc · GitHub
-https://github.com/kaldi-asr/kaldi/commit/170a1fcc16be3e27b2f87b2ea6a444702f6a9425
-
-Facebook & UC Berkeley Substitute a Convolutional Stem to Dramatically Boost Vision Transformers’ Optimization Stability | Synced
-https://syncedreview.com/2021/07/06/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-55/
-
-wav2vec-u: CV Swedish - gan | Kaggle
-https://www.kaggle.com/code/jimregan/wav2vec-u-cv-swedish-gan/comments
-
 Train a language model - Colaboratory
 https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/language_modeling_from_scratch.ipynb#scrollTo=JEA1ju653l-p
 
 AdapterHub - Explore
 https://adapterhub.ml/explore/
 
-Ressurser fra ressursbanken Archive - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/?_type=tale
-
-Transkribus | AI powered Handwritten Text Recognition
-https://readcoop.eu/transkribus/?sc=Transkribus
-
-NST svensk ATG-database (16 kHz) - reorganisert - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-56/
-
-datasets/ADD_NEW_DATASET.md at main · huggingface/datasets · GitHub
-https://github.com/huggingface/datasets/blob/main/ADD_NEW_DATASET.md
-
-Commits · huggingface/datasets · GitHub
-https://github.com/huggingface/datasets/commits/master?after=15de78071fa95d8871cdfacdfc22877595ef519b+34&branch=master
-
-datasets(RWTH-PHOENIX-Weather 2014 T): add initial loading script by AmitMY · Pull Request #722 · huggingface/datasets · GitHub
-https://github.com/huggingface/datasets/pull/722/files
-
-Add ASR task for SUPERB by lewtun · Pull Request #2619 · huggingface/datasets · GitHub
-https://github.com/huggingface/datasets/pull/2619
-
-Add ASR task and new languages to resources (#2567) · huggingface/datasets@6155e9c · GitHub
-https://github.com/huggingface/datasets/commit/6155e9c0f85be9a7d02556ea623afc02c4d22879
-
-Language Learning with Netflix, TV Shows, Movies and Music
-https://lingopie.com/
-
-Export to ONNX
-https://huggingface.co/docs/transformers/serialization
-
 Unitnet Speech Demos | Unit Selection TTS strikes back : r/speechtech
 https://www.reddit.com/r/speechtech/comments/ogbmvz/unitnet_speech_demos_unit_selection_tts_strikes/?utm_medium=android_app&utm_source=share
 
 Automated Audio Captioning - DCASE
 https://dcase.community/challenge2021/task-automatic-audio-captioning
-
-gradient.paperspace.com | 526: Invalid SSL certificate
-https://gradient.paperspace.com/free-gpu
-
-Hubert
-https://huggingface.co/docs/transformers/main/model_doc/hubert#tfhubertmodel
 
 chapter09_part01_image-segmentation.i - Colaboratory
 https://colab.research.google.com/github/fchollet/deep-learning-with-python-notebooks/blob/master/chapter09_part01_image-segmentation.ipynb#scrollTo=Gx_ui8Mejdr1
@@ -85,29 +31,8 @@ https://www.technologyreview.com/2023/11/29/1084061/deepmind-ai-tool-for-new-mat
 UI researchers working to make speech-recognition technology more accessible | University-illinois | news-gazette.com
 https://www.news-gazette.com/news/local/university-illinois/ui-researchers-working-to-make-speech-recognition-technology-more-accessible/article_f334c713-0d8b-5ecf-a2fd-4e3d3b077888.html
 
-Book 5* Radisson Blu Edwardian Hampshire Hotel, London in Leicester Square
-https://www.radissonhotels.com/en-us/hotels/radisson-blu-edwardian-london-hampshire
-
-Google Search
-https://www.google.com/search?hl=en-IE&si=AHBsk9vXZOUi9Qy-V6IJcZPjHoqx-88hKzds558XcgzALW93gcFOC2RGiNFuwBGFFq4RSU2B8lVcNL-8NGDBBTRpQw4TkULG1A%3D%3D&kgs=7ee59867aaab04da&shndl=18&source=sh/x/kp/ee/3&entrypoint=sh/x/kp/ee
-
-ultach.org
-http://ww38.ultach.org/
-
 facegan_pytorch/facegan_pytorch.ipynb at main · ShivamShrirao/facegan_pytorch · GitHub
 https://github.com/ShivamShrirao/facegan_pytorch/blob/main/facegan_pytorch.ipynb
-
-Can Fully Connected Layers be Replaced by Convolutional Layers?
-https://sebastianraschka.com/faq/docs/fc-to-conv.html
-
-How to fix black screen problems on Windows 10 | Windows Central
-https://www.windowscentral.com/how-fix-black-screen-problems-windows-10
-
-Níor aimsíodh an leathanach | COGG
-https://www.cogg.ie/acmhainni-tacaiochta---gaeilge-na-sraithe-soisearai/
-
-Sean-Chainnt na gCruach, Co. Dhún na nGall
-https://www.degruyter.com/document/doi/10.1515/zcph.1964.29.1.1/html
 
 GitHub - feast-dev/feast: Feature Store for Machine Learning
 https://github.com/feast-dev/feast
