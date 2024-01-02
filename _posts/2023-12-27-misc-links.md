@@ -2367,4 +2367,6 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line) --- Master the command line, in one page
 
+[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+
 
