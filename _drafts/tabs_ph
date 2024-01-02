@@ -16,50 +16,8 @@ https://www.marktechpost.com/2021/09/11/ai-researchers-from-amazon-nec-stanford-
 Physics Human Motion
 https://research.nvidia.com/labs/toronto-ai/physics-pose-estimation-project-page/
 
-GitHub - EgorLakomkin/KTSpeechCrawler: Automatically constructing corpus for automatic speech recognition from YouTube videos
-https://github.com/EgorLakomkin/KTSpeechCrawler
-
-GitHub - gong-io/gecko: Gecko - A Tool for Effective Annotation of Human Conversations
-https://github.com/gong-io/gecko
-
-[2109.03910] A Recipe For Arbitrary Text Style Transfer with Large Language Models
-https://arxiv.org/abs/2109.03910
-
-[2108.02927] DOLG: Single-Stage Image Retrieval with Deep Orthogonal Fusion of Local and Global Features
-https://arxiv.org/abs/2108.02927
-
-github.com
-https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/swin_transformer.py
-
-towardsdatascience.com
-https://towardsdatascience.com/all-top-python-libraries-for-data-science-explained-with-code-40f64b363663
-
-[P] I trained Noam Chomsky TTS : r/MachineLearning
-https://www.reddit.com/r/MachineLearning/comments/q01inv/p_i_trained_noam_chomsky_tts/?utm_medium=android_app&utm_source=share
-
-github.com
-https://github.com/rwightman/pytorch-image-models
-
 twigl.app
 https://twigl.app/
-
-towardsdatascience.com
-https://towardsdatascience.com/jupyterlab-is-now-available-as-a-desktop-app-should-you-care-f29e214924f1
-
-FedJAX: Federated Learning Simulation with JAX – Google Research Blog
-https://blog.research.google/2021/10/fedjax-federated-learning-simulation.html?m=1
-
-FedJAX documentation — FedJAX documentation
-https://fedjax.readthedocs.io/en/latest/
-
-github.com
-https://github.com/google/jax
-
-Working with models in FedJAX — FedJAX documentation
-https://fedjax.readthedocs.io/en/latest/notebooks/model_tutorial.html
-
-Pytrees — JAX documentation
-https://jax.readthedocs.io/en/latest/pytrees.html
 
 sluggerotoole.com
 https://sluggerotoole.com/2013/02/05/farewell-to-gaelsceal/
@@ -172,9 +130,6 @@ https://www.fluentcpp.com/2018/02/13/to-raii-or-not-to-raii/
 Smart developers use smart pointers (1/7) - Smart pointers basics - Fluent C++
 https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/
 
-GitHub - Appen/UHV-OTS-Speech: A data annotation pipeline to generate high-quality, large-scale speech datasets with machine pre-labeling and fully manual auditing.
-https://github.com/Appen/UHV-OTS-Speech
-
 HeadGAN: One-shot Neural Head Synthesis and Editing
 https://michaildoukas.github.io/HeadGAN/
 
@@ -202,9 +157,6 @@ https://github.com/visenger/awesome-mlops
 [2110.08634] Towards Robust Waveform-Based Acoustic Models
 https://arxiv.org/abs/2110.08634
 
-Search | arXiv e-print repository
-https://arxiv.org/search/cs?searchtype=author&query=Oglic%2C+D
-
 [2110.08598] A Variational Bayesian Approach to Learning Latent Variables for Acoustic Knowledge Transfer
 https://arxiv.org/abs/2110.08598
 
@@ -219,9 +171,6 @@ https://arxiv.org/abs/2109.11680
 
 [2109.11680] Simple and Effective Zero-shot Cross-lingual Phoneme Recognition
 https://arxiv.org/abs/2109.11680
-
-superb/superb-submission · Hugging Face
-https://huggingface.co/superb/superb-submission
 
 Fine-Tune Speech Recognition Model with 🤗 Transformers using CTC.ipynb - Colaboratory
 https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/speech_recognition.ipynb#scrollTo=jwfaptH5RJwA
