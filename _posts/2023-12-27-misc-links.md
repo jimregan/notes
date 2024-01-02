@@ -2491,4 +2491,8 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [SpeechColab/GigaSpeech](https://github.com/SpeechColab/GigaSpeech) --- Large, modern dataset for speech recognition
 
+[LLM Training: RLHF and Its Alternatives](https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives)
 
+[Sean-Chainnt na gCruach, Co. Dhún na nGall](https://www.degruyter.com/document/doi/10.1515/zcph.1964.29.1.1/html)
+
+[Can Fully Connected Layers be Replaced by Convolutional Layers?](https://sebastianraschka.com/faq/docs/fc-to-conv.html)
