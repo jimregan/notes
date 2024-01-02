@@ -2567,4 +2567,10 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Scary Phonetics? Learning Cardinal Vowels, Part 1](https://blogs.city.ac.uk/phoned/2021/07/28/scary-phonetics-learning-cardinal-vowels-part-1/)
 
+[https://blogs.city.ac.uk/phoned/posts/](PhonEd: Phonetics Education)
+
+[How to combine multiple criterions to a loss function? - PyTorch Forums](https://discuss.pytorch.org/t/how-to-combine-multiple-criterions-to-a-loss-function/348/2)
+
+[An Adapter Based Pre-Training for Efficient and Scalable Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2107.13530)
+
 
