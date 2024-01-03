@@ -2861,5 +2861,9 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Introducing IDEFICS: An Open Reproduction of State-of-the-Art Visual Language Model](https://huggingface.co/blog/idefics)
 
+[thu-spmi/CAT](https://github.com/thu-spmi/CAT) --- A CRF-based ASR Toolkit
+
+[CLARIN: Spoken Corpora](https://www.clarin.eu/resource-families/spoken-corpora)
+
 
 
