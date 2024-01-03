@@ -2974,4 +2974,8 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [EdinburghNLP/nematus](https://github.com/EdinburghNLP/nematus) --- Open-Source Neural Machine Translation in Tensorflow
 
+[bbc/rd-apmm-python-lib-mediatimestamp](https://github.com/bbc/rd-apmm-python-lib-mediatimestamp) --- A simple timestamp implementation used by various other libraries
+
+[bbc/lrud](https://github.com/bbc/lrud) --- Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
+
 
