@@ -3107,3 +3107,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [ys10/Grapheme-PhonemeAlignment](https://github.com/ys10/Grapheme-PhonemeAlignment) --- This project aims to implement a algorithm to do a grapheme-phoneme alignment task.
 
+[kfirgoldberg/FUN](https://github.com/kfirgoldberg/FUN) --- Official implementation of the FUN models
+
+[jailuthra/asr](https://github.com/jailuthra/asr) --- Kaldi ASR wrapper scripts
+
