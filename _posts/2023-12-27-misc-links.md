@@ -22,6 +22,10 @@ categories: [links]
 [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752),
 [state-spaces/mamba](https://github.com/state-spaces/mamba)
 
+[What is Mamba?](https://medium.com/@jelkhoury880/what-is-mamba-845987734ffc)
+
+[johnma2006/mamba-minimal](https://github.com/johnma2006/mamba-minimal) --- Simple, minimal implementation of the Mamba SSM in one file of PyTorch.
+
 [airbnb/visx](https://github.com/airbnb/visx)
 
 [nnnoiseless: porting audio code from C to rust](https://jneem.github.io/nnnoiseless/), [code](https://github.com/jneem/nnnoiseless)
@@ -89,13 +93,9 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [Táin Bó Cúalnge](https://www.gutenberg.org/files/16464/16464-h/16464-h.htm)
 
-[johnma2006/mamba-minimal](https://github.com/johnma2006/mamba-minimal) --- Simple, minimal implementation of the Mamba SSM in one file of PyTorch.
-
 [getkeops/keops](https://github.com/getkeops/keops) --- KErnel OPerationS, on CPUs and GPUs, with autodiff and without memory overflows
 
 [The Annotated S4](https://srush.github.io/annotated-s4/), [code](https://github.com/srush/annotated-s4)
-
-[What is Mamba?](https://medium.com/@jelkhoury880/what-is-mamba-845987734ffc)
 
 [A Comprehensive Overview of Gaussian Splatting](https://towardsdatascience.com/a-comprehensive-overview-of-gaussian-splatting-e7d570081362)
 
