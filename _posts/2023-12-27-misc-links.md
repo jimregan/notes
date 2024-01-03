@@ -3133,3 +3133,25 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [cohere-ai/natural-instructions](https://github.com/cohere-ai/natural-instructions) --- Expanding natural instructions
 
+[Bat banter is surprisingly nuanced](https://www.nature.com/articles/nature.2016.21215)
+
+[Yes you should understand backprop](https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b)
+
+[The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+[Chrome Extension Programming: Illustrating a Basic Survival Skill with a Twitter Case Study](https://karpathy.github.io/2013/11/23/chrome-extension-programming/)
+
+[Feature Learning Escapades](https://karpathy.github.io/2014/07/03/feature-learning-escapades/)
+
+[A Survival Guide to a PhD](https://karpathy.github.io/2016/09/07/phd/)
+
+[A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
+
+[Language Through a Prism: A Spectral Approach for Multiscale Language Representations](https://arxiv.org/abs/2011.04823)
+
+[Sentence Embedding](https://towardsdatascience.com/sentence-embedding-3053db22ea77)
+
+[How to Use Image Embeddings for Object Localization](https://agilethought.com/blogs/use-image-embeddings-object-localization/)
+
+[Learning deep features to recognise speech emotion using merged deep CNN](https://drive.google.com/file/d/1Mt6QjSweEV2Eo6y4YIBW_s-VeX-cAU18/view)
+
