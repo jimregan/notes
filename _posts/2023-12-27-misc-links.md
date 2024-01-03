@@ -2794,4 +2794,59 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Language Modelling via Learning to Rank](https://arxiv.org/abs/2110.06961)
 
-[Teaching robots to perceive, understand, and interact through touch](https://ai.meta.com/blog/teaching-robots-to-perceive-understand-and-interact-through-touch/)
+[Teaching robots to perceive, understand, and interact through touch](https://ai.meta.com/blog/teaching-robots-to-perceive-understand-and-interact-through-touch/),
+[tacto](https://github.com/facebookresearch/tacto),
+[PyTouch](https://github.com/facebookresearch/PyTouch)
+
+{% twitter https://twitter.com/karpathy/status/1697318534555336961 %}
+
+[jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama) --- The TinyLlama project is an open endeavor to pretrain a 1.1B Llama model on 3 trillion tokens.
+
+[TinyLlama/TinyLlama-1.1B-Chat-v0.4](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v0.4)
+
+[TS-SEP: Joint Diarization and Separation Conditioned on Estimated Speaker Embeddings](https://arxiv.org/abs/2303.03849)
+
+[w2v-SELD: A Sound Event Localization and Detection Framework for Self-Supervised Spatial Audio Pre-Training](https://arxiv.org/abs/2312.06907),
+[code](https://github.com/Orlllem/seld_wav2vec2)
+
+[Recent Advances in End-to-End Automatic Speech Recognition](https://arxiv.org/abs/2111.01690)
+
+[bhky/opennsfw2](https://github.com/bhky/opennsfw2) --- Keras implementation of the Yahoo Open-NSFW model
+
+[The Rise of Self-Supervised Learning](https://jonathanbgn.com/2020/12/31/self-supervised-learning.html)
+
+[TF_JAX_Tutorials - Part 9 (Autodiff in JAX)](https://www.kaggle.com/code/aakashnain/tf-jax-tutorials-part-9-autodiff-in-jax/notebook)
+
+[Irisleabhar na Gaedhilge](https://archive.org/details/irisleabharnag0304dubluoft/page/86/mode/1up)
+
+[Conformer-based Hybrid ASR System for Switchboard Dataset](https://arxiv.org/abs/2111.03442)
+
+[Hacktoberfest 21' - Unlocking 40 open-source audio datasets for ML](https://dagshub.com/blog/hacktoberfest-2021-open-source-audio-datasets/)
+
+[Full scan of a booklet on Leinster Irish (32 pages): "Dialect in East and Mid-Leinster", Donn Piatt, 1933.](https://imgur.com/B2em9IB)
+
+[facebookresearch/demucs](https://github.com/facebookresearch/demucs/) --- Code for the paper Hybrid Spectrogram and Waveform Source Separation
+
+[Scaling ASR Improves Zero and Few Shot Learning](https://arxiv.org/abs/2111.05948)
+
+[SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing](https://arxiv.org/abs/2110.07205)
+
+[UniSpeech: Unified Speech Representation Learning with Labeled and Unlabeled Data](https://arxiv.org/abs/2101.07597)
+
+[InfoXLM](https://github.com/microsoft/unilm/tree/master/infoxlm)
+
+[CZWin32768/XLM-Align](https://github.com/CZWin32768/XLM-Align) --- Improving Pretrained Cross-Lingual Language Models via Self-Labeled Word Alignment
+
+[LiT: Zero-Shot Transfer with Locked-image text Tuning](https://arxiv.org/abs/2111.07991)
+
+[Wormhole (1994 Session part 2)](https://fanningsessions.wordpress.com/2018/03/06/wormhole-1994-session-part-2/)
+
+[XLS-R: Self-supervised Cross-lingual Speech Representation Learning at Scale](https://arxiv.org/abs/2111.09296)
+
+[Joint Unsupervised and Supervised Training for Multilingual ASR](https://arxiv.org/abs/2111.08137)
+
+[Cousin chart](https://fh.familysearch.org/system/files/team/ait/images/blog/cousin-chart.jpg)
+
+[Towards Measuring Fairness in Speech Recognition: Casual Conversations Dataset Transcriptions](https://arxiv.org/abs/2111.09983)
+
+
