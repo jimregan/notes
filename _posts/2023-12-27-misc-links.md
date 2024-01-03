@@ -2775,4 +2775,23 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718),
 [code](https://github.com/jmhessel/clipscore)
 
+[This Word Does Not Exist](https://www.thisworddoesnotexist.com/),
+[turtlesoupy/this-word-does-not-exist](https://github.com/turtlesoupy/this-word-does-not-exist)
 
+[Aim 3.0.0 — The foundations for open-source & open-metadata ML platform](https://medium.com/aimstack/aim-3-0-0-the-foundations-for-open-source-open-metadata-ml-platform-f3969755d55)
+
+[Large Language Models: A New Moore's Law?](https://huggingface.co/blog/large-language-models)
+
+[babelfish-for-postgresql/babelfish_extensions](https://github.com/babelfish-for-postgresql/babelfish_extensions) --- Babelfish for PostgreSQL provides the capability for PostgreSQL to work with applications written for Microsoft SQL Server.
+
+[When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute](https://arxiv.org/abs/2102.12459)
+
+[uclnlp/torch-imle](https://github.com/uclnlp/torch-imle) --- Implicit MLE: Backpropagating Through Discrete Exponential Family Distributions
+
+[Stochastic Attention Head Removal: A simple and effective method for improving Transformer Based ASR Models](https://arxiv.org/abs/2011.04004)
+
+[Hierarchical Transformers Are More Efficient Language Models](https://arxiv.org/abs/2110.13711)
+
+[Language Modelling via Learning to Rank](https://arxiv.org/abs/2110.06961)
+
+[Teaching robots to perceive, understand, and interact through touch](https://ai.meta.com/blog/teaching-robots-to-perceive-understand-and-interact-through-touch/)
