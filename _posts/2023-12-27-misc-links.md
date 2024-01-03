@@ -3066,3 +3066,21 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Irish Language Forum - Study Group: Séadna](https://www.irishlanguageforum.com/viewtopic.php?f=28&t=1464)
 
+[Exemplar VAE: Linking Generative Models, Nearest Neighbor Retrieval, and Data Augmentation](https://arxiv.org/abs/2004.04795)
+
+[Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models](https://arxiv.org/abs/1610.02424)
+
+[The Irish of Iorras Aithneach, County Galway](https://www.dias.ie/celt/celt-publications-2/celt-the-irish-of-iorras-aithneach-county-galway/)
+
+[Multilingual BERT has an accent: Evaluating English influences on fluency in multilingual models](https://arxiv.org/abs/2210.05619)
+
+[My Man Jeeves](https://en.wikisource.org/wiki/My_Man_Jeeves)
+
+[nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation](https://www.nature.com/articles/s41592-020-01008-z)
+
+[Siamese networks with Keras, TensorFlow, and Deep Learning](https://pyimagesearch.com/2020/11/30/siamese-networks-with-keras-tensorflow-and-deep-learning/)
+
+[Comparing images for similarity using siamese networks, Keras, and TensorFlow](https://pyimagesearch.com/2020/12/07/comparing-images-for-similarity-using-siamese-networks-keras-and-tensorflow/)
+
+[Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)
+
