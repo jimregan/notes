@@ -2748,4 +2748,31 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [hankcs/HanLP](https://github.com/hankcs/HanLP) --- Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification
 
+[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html),
+[code](https://github.com/jupyterhub/binderhub)
+
+[jupyterhub/repo2docker](https://github.com/jupyterhub/repo2docker)
+
+[How to write a DSL (in Python with Lark)](http://blog.erezsh.com/how-to-write-a-dsl-in-python-with-lark/)
+
+[rpgleparser/rpgleparser](https://github.com/rpgleparser/rpgleparser) --- ANTLR parser for RPGLE
+
+[smeup/jariko](https://github.com/smeup/jariko) --- a JAva virtual machine Rpg Interpreter written in KOtlin
+
+[sallbach/arpgtool](https://github.com/sallbach/arpgtool) --- IBM i RPG developer tools (AS/400 iSeries)
+
+[worksofliam/5250ttt](https://github.com/worksofliam/5250ttt) --- Tic-Tac-Toe for 5250 (2 player)
+
+[lppedd/RPG](https://github.com/lppedd/RPG) --- IBM RPG projects
+
+[martinezga/ibm-rpg-programs](https://github.com/martinezga/ibm-rpg-programs) --- IBM RPG programs exercises.
+
+[How to write a transpiler](https://tomassetti.me/how-to-write-a-transpiler/),
+[code](https://github.com/Strumenta/article-llvm-rpg)
+
+[Strumenta/FormatsDSL](https://github.com/Strumenta/FormatsDSL) --- A DSL to describe formats and generate loaders
+
+[CLIPScore: A Reference-free Evaluation Metric for Image Captioning](https://arxiv.org/abs/2104.08718),
+[code](https://github.com/jmhessel/clipscore)
+
 
