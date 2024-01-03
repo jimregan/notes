@@ -2065,6 +2065,8 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [RLIF: Interactive Imitation Learning as Reinforcement Learning](https://arxiv.org/abs/2311.12996)
 
+[Training tiny specialized language models](https://softlandia.fi/en/blog/training-tiny-specialized-language-models)
+
 [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
 
 [lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) --- Implementation of [MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers](https://arxiv.org/abs/2305.07185), in Pytorch
@@ -2588,8 +2590,6 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) --- PySlowFast: video understanding codebase from FAIR for reproducing state-of-the-art video models.
 
-[TigerBot: An Open Multilingual Multitask LLM](https://arxiv.org/abs/2312.08688)
-
 [sarulab-speech/jtubespeech](https://github.com/sarulab-speech/jtubespeech) --- JTubeSpeech: Corpus of Japanese speech collected from YouTube
 
 [anishathalye/neural-hash-collider](https://github.com/anishathalye/neural-hash-collider) --- Preimage attack against NeuralHash 💣
@@ -2940,10 +2940,6 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [The 3 Deep Learning Frameworks For End-to-End Speech Recognition That Power Your Devices](https://heartbeat.comet.ml/the-3-deep-learning-frameworks-for-end-to-end-speech-recognition-that-power-your-devices-37b891ddc380)
 
 [Perceiver IO: a scalable, fully-attentional model that works on any modality](https://huggingface.co/blog/perceiver)
-
-[Training tiny specialized language models](https://softlandia.fi/en/blog/training-tiny-specialized-language-models)
-
-[TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
 
 [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/),
 [Facebook AI and the Index Factory](https://www.pinecone.io/learn/series/faiss/composite-indexes/)
