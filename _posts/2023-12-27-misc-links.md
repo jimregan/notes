@@ -3050,3 +3050,29 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Natooz/MidiTok](https://github.com/Natooz/MidiTok) --- MIDI / symbolic music tokenizers for Deep Learning models 🎶
 
+[Books in Irish | Royal Irish Academy](https://www.ria.ie/books-irish)
+
+[Bibliography of Irish philology and of printed Irish literature .. : National Library of Ireland : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/bibliographyofir00nati/page/n11/mode/2up)
+
+[Bibliography of Irish philology and of printed Irish literature : National Library of Ireland : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/bibliographyofir00natiuoft/page/264/mode/2up)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-15)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-16)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-19)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-25)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG02-10049)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG02-60)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG02-11771)
+
+[Royal Irish Academy | Projects | Foclóir na Nua-Ghaeilge](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG02-66)
+
+[ILF - Irish Language Forum • View topic - Study Group: Séadna (GM)](https://www.irishlanguageforum.com/viewtopic.php?f=28&t=1464)
+
+[]()
+
