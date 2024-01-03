@@ -2958,3 +2958,20 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Multi-turn RNN-T for streaming recognition of multi-party speech](https://arxiv.org/abs/2112.10200)
 
+[1ytic/warp-rna](https://github.com/1ytic/warp-rna) --- Recurrent Neural Aligner
+
+[theblackcat102/edgedict](https://github.com/theblackcat102/edgedict) --- Working online speech recognition based on RNN Transducer. ( Trained model release available in release )
+
+[1ytic/warp-rnnt](https://github.com/1ytic/warp-rnnt) --- CUDA-Warp RNN-Transducer
+
+[awni/automata_ml](https://github.com/awni/automata_ml) --- An Introduction to Weighted Automata in Machine Learning
+
+[awni/speech](https://github.com/awni/speech) --- A PyTorch Implementation of End-to-End Models for Speech-to-Text
+
+[sooftware/kospeech](https://github.com/sooftware/kospeech) --- Open-Source Toolkit for End-to-End Korean Automatic Speech Recognition leveraging PyTorch and Hydra.
+
+[sooftware/RNN-Transducer](https://github.com/sooftware/RNN-Transducer) --- PyTorch implementation of RNN-Transducer(RNN-T).
+
+[EdinburghNLP/nematus](https://github.com/EdinburghNLP/nematus) --- Open-Source Neural Machine Translation in Tensorflow
+
+
