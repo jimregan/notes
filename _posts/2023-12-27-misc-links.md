@@ -3111,3 +3111,11 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [jailuthra/asr](https://github.com/jailuthra/asr) --- Kaldi ASR wrapper scripts
 
+[CLDF for dummies](https://humans-who-read-grammars.blogspot.com/2023/09/cldf-for-dummies-v10.html)
+
+[My ELAN workflow for segmenting and transcription](https://humans-who-read-grammars.blogspot.com/2019/07/my-elan-workflow-for-segmenting-and.html)
+
+[Sylli - The SSP Syllabifier](https://sylli.sourceforge.net/)
+
+[Sequitur G2P](https://www-i6.informatik.rwth-aachen.de/web/Software/g2p.html)
+
