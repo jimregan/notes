@@ -3101,3 +3101,9 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 ---
 
+[Praat on the Web: An Upgrade of Praat for Semi-Automatic Speech Annotation](https://aclanthology.org/C16-2046/)
+
+[monikaUPF/PraatontheWeb](https://github.com/monikaUPF/PraatontheWeb) --- Web implementation of Praat. Source code, running demo scripts on web, samples and documentation
+
+[ys10/Grapheme-PhonemeAlignment](https://github.com/ys10/Grapheme-PhonemeAlignment) --- This project aims to implement a algorithm to do a grapheme-phoneme alignment task.
+
