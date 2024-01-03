@@ -1,49 +1,55 @@
-[2307.01197] Segment Anything Meets Point Tracking
-https://arxiv.org/abs/2307.01197
+fastai/course-nlp: A Code-First Introduction to NLP course
+https://github.com/fastai/course-nlp
 
-SysCV/sam-pt: SAM-PT: Extending SAM to zero-shot video segmentation with point-based tracking.
-https://github.com/SysCV/sam-pt
+fastai/timmdocs: Documentation for Ross Wightman's timm image model library
+https://github.com/fastai/timmdocs
 
-SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds
-https://silent-chen.github.io/Shap-Editor/
+fastai/jb-nbdev: Exploring how nbdev may integrate with JupyterBook
+https://github.com/fastai/jb-nbdev
 
-bbc/subtitles-generator: A node module to generate subtitles by segmenting a list of time-coded text - BBC News Labs
-https://github.com/bbc/subtitles-generator
+fastai/fastwebhook: A simple GitHub webhook server
+https://github.com/fastai/fastwebhook
 
-BBC Open Source
-https://www.bbc.co.uk/opensource/projects/gel
+GitHub · Where software is built
+https://github.com/fastai/fastmac
 
-Main functions — libbw64 0.10.0 documentation
-https://libbw64.readthedocs.io/en/latest/reference.html
+fastai/fastai2: Temporary home for fastai v2 while it's being developed
+https://github.com/fastai/fastai2
 
-bbc/aes31-adl-composer: Work in progress - A node module to convert a json sequence into an AES31 ADL (audio decision list) compatible with SADiE audio editing software. For BBC News Labs digital paper edit project
-https://github.com/bbc/aes31-adl-composer
+36 Ways Pytorch Lightning Can Supercharge Your AI Research | by William Falcon | Towards Data Science
+https://towardsdatascience.com/supercharge-your-ai-research-with-pytorch-lightning-337948a99eec
 
-bbc/audiowaveform: C++ program to generate waveform data and render waveform images from audio files
-https://github.com/bbc/audiowaveform
+Overview of Docker Desktop | Docker Docs
+https://docs.docker.com/desktop/
 
-enochkan/torch-metrics: Metrics for model evaluation in pytorch
-https://github.com/enochkan/torch-metrics
+Introducing GitHub Package Registry - The GitHub Blog
+https://github.blog/2019-05-10-introducing-github-package-registry/
 
-Neural circuit policies enabling auditable autonomy | Nature Machine Intelligence
-https://www.nature.com/articles/s42256-020-00237-3
+learntools/notebooks/deep_learning/raw/ex1_convolutions.ipynb at master · Kaggle/learntools
+https://github.com/Kaggle/learntools/blob/master/notebooks/deep_learning/raw/ex1_convolutions.ipynb
 
-The Challenges of using Transformers in ASR
-https://desh2608.github.io/2020-01-08-transformer-asr/
+Kaggle/kaggle-api: Official Kaggle API
+https://github.com/Kaggle/kaggle-api
 
-formiel/speech-translation: Multilingual speech translation
-https://github.com/formiel/speech-translation
+Kaggle/jupyterlab: Kaggle extension for JupyterLab
+https://github.com/Kaggle/jupyterlab
 
-synesthesiam/sv_kaldi-montreal: Swedish voice2json profile based on Kaldi
-https://github.com/synesthesiam/sv_kaldi-montreal
+Voice_Analysis_Toolkit/creak_fcns/get_short_pow.m at master · jckane/Voice_Analysis_Toolkit
+https://github.com/jckane/Voice_Analysis_Toolkit/blob/master/creak_fcns/get_short_pow.m
 
-mycrazycracy/speaker-embedding-with-phonetic-information: The code for the Interspeech paper "Speaker Embedding Extraction with Phonetic Information"
-https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information
+Android | PyTorch
+https://pytorch.org/mobile/android/#quickstart-with-a-helloworld-example
 
-wendyelviragarcia/create_pictures: A Praat script for creation of pictures (waveform, spectrogram, pitch contour, aligned with a textgrid). It creates figures in PNG PDF wmf eps, PraatPic, of all the Sound and TextGrid files it finds in a folder. The pictures contain a waveform (optional), a spectrogram(optional), the F0 track optional and a the content of the tiers of the TextGrid associated with the sound file optional
-https://github.com/wendyelviragarcia/create_pictures
+fastai/dev_nbs/course/lesson4-tabular.ipynb at master · fastai/fastai
+https://github.com/fastai/fastai/blob/master/dev_nbs/course/lesson4-tabular.ipynb
 
-openXBOW/openXBOW: openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
-https://github.com/openXBOW/openXBOW
+Anki decks — Svenska med Henrik
+https://www.svenskamedhenrik.com/materials-for-learning
+
+fastai/numerical-linear-algebra: Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course
+https://github.com/fastai/numerical-linear-algebra
+
+fastai/fastcore: Python supercharged for the fastai library
+https://github.com/fastai/fastcore
 
 
