@@ -2978,4 +2978,32 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [bbc/lrud](https://github.com/bbc/lrud) --- Left, Right, Up, Down. A spatial navigation library for devices with input via directional controls.
 
+[bbc/grid](https://github.com/bbc/grid) --- BBC's implementation of The Guardian’s image management system
+
+
+[bbc/digital-paper-edit-client](https://github.com/bbc/digital-paper-edit-client) --- Work in progress - BBC News Labs digital paper edit project - React Client
+
+[](https://github.com/bbc/digital-paper-edit-cep/blob/master/lib/jsx/Premiere.jsx) --- 
+
+[bbc/webMUSHRA](https://github.com/bbc/webMUSHRA) --- a MUSHRA compliant web audio API based experiment software
+
+[bbc/programmes-pages-service](https://github.com/bbc/programmes-pages-service) --- A library for accessing ProgrammesDB
+
+[](https://github.com/bbc/react-transcript-editor/blob/master/packages/stt-adapters/bbc-kaldi/sample/bbcKaldiToDraft.sample.js) --- 
+
+[](https://bbc.github.io/react-transcript-editor/iframe.html?id=demo--default) --- 
+
+[xkcd](https://m.xkcd.com/2482/) --- Indoor Socializing
+
+[bbc/peaks.js](https://github.com/bbc/peaks.js) --- JavaScript UI component for interacting with audio waveforms
+
+[bbc/waveform-data.js](https://github.com/bbc/waveform-data.js) --- Audio Waveform Data Manipulation API – resample, offset and segment waveform data in JavaScript.
+
+[bbc/vc2-reference](https://github.com/bbc/vc2-reference) --- A reference encoder and decoder for SMPTE ST 2042-1 "VC-2 Video Compression"
+
+[bbc/codext](https://github.com/bbc/codext) --- VS Code's editor shipped as a browser extension.
+
+[bbc/clever-thumbnailer](https://github.com/bbc/clever-thumbnailer) --- Audio thumbnail generator
+
+[bbc/digital-paper-edit-storybook](https://github.com/bbc/digital-paper-edit-storybook) --- Work in progress - BBC News Labs digital paper edit project - React storybook
 
