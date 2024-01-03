@@ -3026,3 +3026,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [PanLex](https://panlex.org/)
 
+[This Non-Profit is Building the World’s Largest Lexical Translation Database](https://medium.com/the-long-now-foundation/this-non-profit-startup-is-overcoming-language-barriers-to-human-rights-a895598672d2)
+
+[Text Classification Using DeepPavlov Library With PyTorch And Transformers](https://medium.com/deeppavlov/text-classification-using-deeppavlov-library-with-pytorch-and-transformers-f14db5528821)
+
