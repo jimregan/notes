@@ -1,5 +1,8 @@
-Paper page - Segment Anything Meets Point Tracking
-https://huggingface.co/papers/2307.01197
+[2307.01197] Segment Anything Meets Point Tracking
+https://arxiv.org/abs/2307.01197
+
+SysCV/sam-pt: SAM-PT: Extending SAM to zero-shot video segmentation with point-based tracking.
+https://github.com/SysCV/sam-pt
 
 SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds
 https://silent-chen.github.io/Shap-Editor/
@@ -19,14 +22,8 @@ https://github.com/bbc/aes31-adl-composer
 bbc/audiowaveform: C++ program to generate waveform data and render waveform images from audio files
 https://github.com/bbc/audiowaveform
 
-BBC Kaldi Converter [to export content back into Kaldi format] · Issue #31 · bbc/react-transcript-editor
-https://github.com/bbc/react-transcript-editor/issues/31
-
-How can i make transcript for my custom video in json format( bbc kaldi) · Issue #162 · bbc/react-transcript-editor
-https://github.com/bbc/react-transcript-editor/issues/162
-
-torch-metrics/torch_metrics at main · enochkan/torch-metrics
-https://github.com/enochkan/torch-metrics/tree/main/torch_metrics
+enochkan/torch-metrics: Metrics for model evaluation in pytorch
+https://github.com/enochkan/torch-metrics
 
 Neural circuit policies enabling auditable autonomy | Nature Machine Intelligence
 https://www.nature.com/articles/s42256-020-00237-3
@@ -34,38 +31,17 @@ https://www.nature.com/articles/s42256-020-00237-3
 The Challenges of using Transformers in ASR
 https://desh2608.github.io/2020-01-08-transformer-asr/
 
-migtissera/HelixNet · Hugging Face
-https://huggingface.co/migtissera/HelixNet
-
 formiel/speech-translation: Multilingual speech translation
 https://github.com/formiel/speech-translation
 
 synesthesiam/sv_kaldi-montreal: Swedish voice2json profile based on Kaldi
 https://github.com/synesthesiam/sv_kaldi-montreal
 
-synesthesiam/voice2json: Command-line tools for speech and intent recognition on Linux
-https://github.com/synesthesiam/voice2json
-
-voice2json | Command-line tools for speech and intent recognition on Linux
-https://voice2json.org/recipes.html#train-a-rasa-nlu-bot
-
-voice2json | Command-line tools for speech and intent recognition on Linux
-https://voice2json.org/formats.html#intents
-
-speaker-embedding-with-phonetic-information/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh at master · mycrazycracy/speaker-embedding-with-phonetic-information
-https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information/blob/master/egs/sre/v5/local/nnet3_cvector/cvector/train_cvector_with_am.sh
-
 mycrazycracy/speaker-embedding-with-phonetic-information: The code for the Interspeech paper "Speaker Embedding Extraction with Phonetic Information"
 https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information
 
-create_pictures/create_pictures.praat at master · wendyelviragarcia/create_pictures
-https://github.com/wendyelviragarcia/create_pictures/blob/master/create_pictures.praat
-
-Yashish92/TCN-SI-tool-Nasality
-https://github.com/Yashish92/TCN-SI-tool-Nasality
-
-LSTMs Explained: A Complete, Technically Accurate, Conceptual Guide with Keras | by Ryan T. J. J. | Analytics Vidhya | Medium
-https://medium.com/analytics-vidhya/lstms-explained-a-complete-technically-accurate-conceptual-guide-with-keras-2a650327e8f2
+wendyelviragarcia/create_pictures: A Praat script for creation of pictures (waveform, spectrogram, pitch contour, aligned with a textgrid). It creates figures in PNG PDF wmf eps, PraatPic, of all the Sound and TextGrid files it finds in a folder. The pictures contain a waveform (optional), a spectrogram(optional), the F0 track optional and a the content of the tiers of the TextGrid associated with the sound file optional
+https://github.com/wendyelviragarcia/create_pictures
 
 openXBOW/openXBOW: openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
 https://github.com/openXBOW/openXBOW
