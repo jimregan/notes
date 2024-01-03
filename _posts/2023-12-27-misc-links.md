@@ -2929,4 +2929,12 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
 
+{% twitter https://twitter.com/mayfer/status/1742492054847140335 %}
+
+[Room impulse response reconstruction with physics-informed deep learning](https://arxiv.org/abs/2401.01206)
+
+{% twitter https://twitter.com/clarifai/status/1742077032333558208 %}
+
+[DocLLM: A layout-aware generative language model for multimodal document understanding](https://arxiv.org/abs/2401.00908)
+
 
