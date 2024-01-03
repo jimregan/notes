@@ -3155,3 +3155,5 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Learning deep features to recognise speech emotion using merged deep CNN](https://drive.google.com/file/d/1Mt6QjSweEV2Eo6y4YIBW_s-VeX-cAU18/view)
 
+[How to Break GPU Memory Boundaries Even with Large Batch Sizes](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)
+
