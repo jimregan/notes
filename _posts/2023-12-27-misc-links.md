@@ -2998,3 +2998,11 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 ---
 
+[Once a Week (magazine)/Series 1/Volume 11/From Canada to Liverpool, with "skedaddlers" from the Northern army](https://en.wikisource.org/wiki/Once_a_Week_(magazine)/Series_1/Volume_11/From_Canada_to_Liverpool,_with_%22skedaddlers%22_from_the_Northern_army)
+
+[Rhymes of a Rolling Stone/The Cow-Juice Cure](https://en.wikisource.org/wiki/Rhymes_of_a_Rolling_Stone/The_Cow-Juice_Cure)
+
+[Rhymes of a Red-Cross Man/Missis Moriarty's Boy](https://en.wikisource.org/wiki/Rhymes_of_a_Red-Cross_Man/Missis_Moriarty%27s_Boy)
+
+[The Shebeeners](https://en.wikisource.org/wiki/The_Shebeeners)
+
