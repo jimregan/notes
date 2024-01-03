@@ -3201,3 +3201,31 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [CoEDL/elpis](https://github.com/CoEDL/elpis) --- 🙊 software for creating speech recognition models.
 
+[Neural circuit policies enabling auditable autonomy](https://www.nature.com/articles/s42256-020-00237-3)
+
+[The Challenges of using Transformers in ASR](https://desh2608.github.io/2020-01-08-transformer-asr/)
+
+[Segment Anything Meets Point Tracking](https://arxiv.org/abs/2307.01197)
+
+[SysCV/sam-pt](https://github.com/SysCV/sam-pt) --- SAM-PT: Extending SAM to zero-shot video segmentation with point-based tracking.
+
+[SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds](https://silent-chen.github.io/Shap-Editor/)
+
+[bbc/subtitles-generator](https://github.com/bbc/subtitles-generator) --- A node module to generate subtitles by segmenting a list of time-coded text - BBC News Labs
+
+[ebu/libbw64](https://github.com/ebu/libbw64) --- Broadcast Wave 64 (ITU-R BS.2088) library
+
+[bbc/aes31-adl-composer](https://github.com/bbc/aes31-adl-composer) --- Work in progress - A node module to convert a json sequence into an AES31 ADL (audio decision list) compatible with SADiE audio editing software. For BBC News Labs digital paper edit project
+
+[bbc/audiowaveform](https://github.com/bbc/audiowaveform) --- C++ program to generate waveform data and render waveform images from audio files
+
+[enochkan/torch-metrics](https://github.com/enochkan/torch-metrics) --- Metrics for model evaluation in pytorch
+
+[formiel/speech-translation](https://github.com/formiel/speech-translation) --- Multilingual speech translation
+
+[synesthesiam/sv_kaldi-montreal](https://github.com/synesthesiam/sv_kaldi-montreal) --- Swedish voice2json profile based on Kaldi
+
+[mycrazycracy/speaker-embedding-with-phonetic-information](https://github.com/mycrazycracy/speaker-embedding-with-phonetic-information) --- The code for the Interspeech paper "Speaker Embedding Extraction with Phonetic Information"
+
+[openXBOW/openXBOW](https://github.com/openXBOW/openXBOW) --- openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
+
