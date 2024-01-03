@@ -2865,5 +2865,46 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [CLARIN: Spoken Corpora](https://www.clarin.eu/resource-families/spoken-corpora)
 
+[Historic Language Models](https://github.com/dbmdz/clef-hipe/blob/main/hlms.md)
+
+[Mask-Predict: Parallel Decoding of Conditional Masked Language Models](https://arxiv.org/abs/1904.09324)
+
+[Span Pointer Networks for Non-Autoregressive Task-Oriented Semantic Parsing](https://arxiv.org/abs/2104.07275)
+
+[Non-Autoregressive Semantic Parsing for Compositional Task-Oriented Dialog](https://arxiv.org/abs/2104.04923),
+[code](https://github.com/facebookresearch/pytext)
+
+[Sources for Connemara Irish](https://gaeilgechonamara.com/sources-for-connemara-irish/)
+
+[Performance-Efficiency Trade-offs in Unsupervised Pre-training for Speech Recognition](https://arxiv.org/abs/2109.06870),
+[asappresearch/sew](https://github.com/asappresearch/sew)
+
+[Towards Learning Universal Audio Representations](https://arxiv.org/abs/2111.12124)
+
+[Transformer-S2A: Robust and Efficient Speech-to-Animation](https://thuhcsi.github.io/icassp2022-Transformer-S2A/)
+
+[Multimodal and Multilingual Embeddings for Large-Scale Speech Mining](https://papers.nips.cc/paper/2021/hash/8466f9ace6a9acbe71f75762ffc890f1-Abstract.html)
+
+[Hash Layers For Large Sparse Models](https://arxiv.org/abs/2106.04426)
+
+[FST: the FAIR Speech Translation System for the IWSLT21 Multilingual Shared Task](https://arxiv.org/abs/2107.06959),
+[code](https://github.com/facebookresearch/fairseq/blob/main/examples/speech_text_joint_to_text/docs/iwslt2021.md)
+
+[g2p_encode.py](https://github.com/facebookresearch/fairseq/blob/main/examples/speech_text_joint_to_text/scripts/g2p_encode.py),
+[fairseq_simul_st_agent.py](https://github.com/facebookresearch/fairseq/blob/main/examples/speech_to_text/simultaneous_translation/agents/fairseq_simul_st_agent.py)
+
+[facebook/wmt21-dense-24-wide-x-en](https://huggingface.co/facebook/wmt21-dense-24-wide-x-en) --- WMT 21 X-En is a 4.7B multilingual encoder-decoder (seq-to-seq) model trained for one-to-many multilingual translation. It was introduced in this paper and first released in this repository.
+
+[facebook/wav2vec2-large-robust-ft-swbd-300h](https://huggingface.co/facebook/wav2vec2-large-robust-ft-swbd-300h)
+
+[facebook/s2t-small-mustc-en-nl-st](https://huggingface.co/facebook/s2t-small-mustc-en-nl-st)
+
+[facebook/wav2vec2-lv-60-espeak-cv-ft](https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft)
+
+[Simultaneous Speech Translation (SimulST) on MuST-C](https://github.com/facebookresearch/fairseq/blob/main/examples/speech_to_text/docs/simulst_mustc_example.md)
+
+[MuST-C: a Multilingual Speech Translation Corpus](https://aclanthology.org/N19-1202/)
+
+[Simplified Grammar of the Hungarian Language](https://en.wikisource.org/wiki/Simplified_Grammar_of_the_Hungarian_Language)
 
 
