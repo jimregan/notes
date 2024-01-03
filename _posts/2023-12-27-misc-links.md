@@ -3030,3 +3030,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Text Classification Using DeepPavlov Library With PyTorch And Transformers](https://medium.com/deeppavlov/text-classification-using-deeppavlov-library-with-pytorch-and-transformers-f14db5528821)
 
+[Spoken Corpus Linguistics in Romance: thoughts, design and results](https://ojs.uv.es/index.php/caplletra/article/view/17266)
+
+[Named Tensor Notation](https://namedtensor.github.io/)
+
