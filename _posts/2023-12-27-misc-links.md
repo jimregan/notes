@@ -2907,4 +2907,14 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Simplified Grammar of the Hungarian Language](https://en.wikisource.org/wiki/Simplified_Grammar_of_the_Hungarian_Language)
 
+[A Green Approach for an Irish App (Refactor, reuse and keeping it real)](https://aclanthology.org/W19-6911/)
+
+[HuBERT: How to Apply BERT to Speech, Visually Explained](https://jonathanbgn.com/2021/10/30/hubert-visually-explained.html)
+
+[Automatic Speech Recognition for Supporting Endangered Language Documentation](https://scholarspace.manoa.hawaii.edu/items/48fdc572-e27a-4452-bc66-9f04c3f3b70d)
+
+["Attention is all you need" implementation from scratch in PyTorch. A Twitter thread](https://threadreaderapp.com/thread/1470406419786698761.html)
+
+[googleforgames/open-match-docs](https://github.com/googleforgames/open-match-docs)
+
 
