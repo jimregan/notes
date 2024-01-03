@@ -3177,3 +3177,23 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [vesis84/kaldi-io-for-python](https://github.com/vesis84/kaldi-io-for-python) --- Python functions for reading kaldi data formats. Useful for rapid prototyping with python.
 
+[Peer Review: Implementing a "publish, then review" model of publishing](https://elifesciences.org/articles/64910)
+
+[The Entropy of Words—Learnability and Expressivity across More Than 1000 Languages](https://www.preprints.org/manuscript/201704.0180/v1)
+
+[The Entropy of Words—Learnability and Expressivity across More than 1000 Languages](https://www.mdpi.com/1099-4300/19/6/275)
+
+[Exploiting Weak Ties in Incomplete Network Datasets Using Simplified Graph Convolutional Neural Networks](https://www.mdpi.com/2504-4990/2/2/8)
+
+[Why scientists are turning to Rust](https://www.nature.com/articles/d41586-020-03382-2)
+
+[Cookin' with Rust](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
+
+[The Rust Programming Language](https://doc.rust-lang.org/book/)
+
+[Phone set selection for HMM-based dialect speech synthesis](https://www.academia.edu/40127587/Phone_set_selection_for_HMM_based_dialect_speech_synthesis)
+
+[The On-Device Machine Learning Behind Recorder](https://blog.research.google/2019/12/the-on-device-machine-learning-behind.html)
+
+[Navigating Recorder Transcripts Easily, with Smart Scrolling](https://blog.research.google/2020/11/navigating-recorder-transcripts-easily.html)
+
