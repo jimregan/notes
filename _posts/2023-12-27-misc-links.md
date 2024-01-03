@@ -2921,4 +2921,12 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [CANINE: Pre-training an Efficient Tokenization-Free Encoder for Language Representation](https://arxiv.org/abs/2103.06874)
 
+[mlcommons/peoples-speech](https://github.com/mlcommons/peoples-speech) --- The People’s Speech Dataset
+
+["Demokratifabriken" även som ljudbok?](https://demokratifabriken.blogspot.com/2015/05/nasta-mal-demokratifabriken-aven-som.html)
+
+[srush/GPU-Puzzles](https://github.com/srush/GPU-Puzzles) --- Solve puzzles. Learn CUDA.
+
+[Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/abs/2005.08100)
+
 
