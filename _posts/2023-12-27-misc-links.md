@@ -2849,4 +2849,17 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Towards Measuring Fairness in Speech Recognition: Casual Conversations Dataset Transcriptions](https://arxiv.org/abs/2111.09983)
 
+[British and American English Pronunciation Differences](https://www.webpgomez.com/english/404-british-and-american-english-pronunciation-differences)
+
+[Studying the History of English](http://www.raymondhickey.com/index_\(SHE\).html)
+
+[The sounds of English](https://linguapress.com/grammar/phonetics.htm)
+
+[LucidDreamer: Domain-free Generation of 3D Gaussian Splatting Scenes](https://arxiv.org/abs/2311.13384)
+
+[Directly Fine-Tuning Diffusion Models on Differentiable Rewards](https://arxiv.org/abs/2309.17400)
+
+[Introducing IDEFICS: An Open Reproduction of State-of-the-Art Visual Language Model](https://huggingface.co/blog/idefics)
+
+
 
