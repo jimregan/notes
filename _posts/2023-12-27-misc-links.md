@@ -3034,3 +3034,19 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Named Tensor Notation](https://namedtensor.github.io/)
 
+[namedtensor/notation](https://github.com/namedtensor/notation) --- 
+
+[kakaobrain/pororo](https://github.com/kakaobrain/pororo) --- PORORO: Platform Of neuRal mOdels for natuRal language prOcessing
+
+[modernmt/modernmt](https://github.com/modernmt/modernmt) --- Neural Adaptive Machine Translation that adapts to context and learns from corrections.
+
+[quic/sense](https://github.com/quic/sense) --- Enhance your application with the ability to see and interact with humans using any RGB camera.
+
+[wenet-e2e/wenet](https://github.com/wenet-e2e/wenet) --- Production First and Production Ready End-to-End Speech Recognition Toolkit
+
+[mlpen/Nystromformer](https://github.com/mlpen/Nystromformer) --- 
+
+[ray-project/ray](https://github.com/ray-project/ray) --- Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
+
+[Natooz/MidiTok](https://github.com/Natooz/MidiTok) --- MIDI / symbolic music tokenizers for Deep Learning models 🎶
+
