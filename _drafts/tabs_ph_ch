@@ -31,35 +31,11 @@ https://towardsdatascience.com/this-is-hogwild-7cc80cd9b944
 Deep Speech : Train Native Languages with Transfer Learning Part #0b01 | by Loghi | Analytics Vidhya | Medium
 https://medium.com/analytics-vidhya/deep-speech-train-native-languages-with-transfer-learning-part-0b01-13d24f1337c7
 
-full-lattice-search/src/main/java/com/eigendomain/eslatticeindex/index/query/LatticePayloadScoreQuery.java at master · messiaen/full-lattice-search · GitHub
-https://github.com/messiaen/full-lattice-search/blob/master/src/main/java/com/eigendomain/eslatticeindex/index/query/LatticePayloadScoreQuery.java
-
-Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models
-https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/
+messiaen/full-lattice-search: Full Text Search Over Probabilistic Lattices with Elasticsearch!
+https://github.com/messiaen/full-lattice-search
 
 [2004.04906] Dense Passage Retrieval for Open-Domain Question Answering
 https://arxiv.org/abs/2004.04906?fbclid=IwAR0PBFjSQ9Mk9v0ruOQoTwztJvCv2qpjWrG21Lup2f8gyQtNyF-fP0smte8
-
-RAG
-https://huggingface.co/docs/transformers/main/model_doc/rag
-
-DPR
-https://huggingface.co/docs/transformers/main/model_doc/dpr#transformers.DPRQuestionEncoder
-
-GitHub - facebookresearch/DPR: Dense Passage Retriever - is a set of tools and models for open domain Q&A task.
-https://github.com/facebookresearch/DPR
-
-DPR
-https://huggingface.co/docs/transformers/model_doc/dpr
-
-File not found · GitHub
-https://github.com/huggingface/datasets/tree/main/datasets
-
-GitHub - deepset-ai/haystack: :mag: LLM orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.
-https://github.com/deepset-ai/haystack
-
-Here Are the Top 10 Most Influential Research Papers on Neural Machine Translation - Slator
-https://slator.com/here-are-the-top-10-most-influential-research-papers-on-neural-machine-translation/
 
 Comparing images for similarity using siamese networks, Keras, and TensorFlow - PyImageSearch
 https://pyimagesearch.com/2020/12/07/comparing-images-for-similarity-using-siamese-networks-keras-and-tensorflow/
@@ -106,16 +82,13 @@ https://github.com/steveash/jopenfst/pull/11/commits/55c08282720ff8ca1d84435b71f
 [2004.04795] Exemplar VAE: Linking Generative Models, Nearest Neighbor Retrieval, and Data Augmentation
 https://arxiv.org/abs/2004.04795
 
-Advanced NLP with spaCy · A free online course
-https://course.spacy.io/en/
-
 [1610.02424] Diverse Beam Search: Decoding Diverse Solutions from Neural Sequence Models
 https://arxiv.org/abs/1610.02424
 
 The Irish of Iorras Aithneach, County Galway – DIAS
 https://www.dias.ie/celt/celt-publications-2/celt-the-irish-of-iorras-aithneach-county-galway/
 
-GitHub - kfirgoldberg/FUN: Official implementation of the FUN models
+kfirgoldberg/FUN: Official implementation of the FUN models
 https://github.com/kfirgoldberg/FUN
 
 Page not found – Fanning Family History
@@ -226,37 +199,25 @@ https://github.com/praaline/Praaline/blob/master/praaline-asr/include/PraalineAS
 Prosogram
 https://sites.google.com/site/prosogram/home
 
-Export Tabs
-https://chrome.google.com/webstore/detail/export-tabs/odafagokkafdbbeojliiojjmimakacil
-
-asr/ctm2tg.py at master · jailuthra/asr · GitHub
+asr/ctm2tg.py at master · jailuthra/asr
 https://github.com/jailuthra/asr/blob/master/ctm2tg.py
-
-(PDF) Automatic Acoustic Speech segmentation in Praat using cloud based ASR
-https://www.researchgate.net/publication/283556439_Automatic_Acoustic_Speech_segmentation_in_Praat_using_cloud_based_ASR
 
 Elan/Praat Machine Segmenting – Yammering On
 https://yammeringon.wordpress.com/2017/05/01/elanpraat-machine-segmenting/
 
 Humans Who Read Grammars
-http://humans-who-read-grammars.blogspot.com/?m=1
+https://humans-who-read-grammars.blogspot.com/?m=1
 
 Documentation | The Language Archive
 https://archive.mpi.nl/tla/elan/documentation
 
-ELAN - Linguistic Annotator
-https://www.mpi.nl/corpus/html/elan/index.html
-
-Kaldi / Discussion / Help: What is in final.occs
-https://sourceforge.net/p/kaldi/discussion/1355348/thread/a94b0a1e/?limit=25
-
 My ELAN workflow for segmenting and transcription
-http://humans-who-read-grammars.blogspot.com/2019/07/my-elan-workflow-for-segmenting-and.html?m=1
+https://humans-who-read-grammars.blogspot.com/2019/07/my-elan-workflow-for-segmenting-and.html?m=1
 
 legacy.dynamicsoflanguage.edu.au/?id=transcription-acceleration-project-tap-update
 https://legacy.dynamicsoflanguage.edu.au/?id=transcription-acceleration-project-tap-update
 
-GitHub - CoEDL/elpis: 🙊 software for creating speech recognition models.
+CoEDL/elpis: 🙊 software for creating speech recognition models.
 https://github.com/coedl/elpis
 
 Sylli - The SSP syllabifier with a silly name
@@ -265,7 +226,7 @@ https://sylli.sourceforge.net/
 rule based grapheme to phoneme github - Google Search
 https://www.google.com/search?q=rule+based+grapheme+to+phoneme+github&oq=rule+based+graphe&aqs=chrome.1.69i57j69i59l2.7623j0j7&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
 
-GitHub - ys10/Grapheme-PhonemeAlignment: This project aims to implement a algorithm to do a grapheme-phoneme alignment task.
+ys10/Grapheme-PhonemeAlignment: This project aims to implement a algorithm to do a grapheme-phoneme alignment task.
 https://github.com/ys10/Grapheme-PhonemeAlignment
 
 lifefeel/Grapheme-to-Phoneme: Grapheme-to-Phoneme(G2P) 관련자료 모음
