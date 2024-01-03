@@ -3197,3 +3197,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Navigating Recorder Transcripts Easily, with Smart Scrolling](https://blog.research.google/2020/11/navigating-recorder-transcripts-easily.html)
 
+[How to objectively measure phonetic distance?](https://www.reddit.com/r/linguistics/comments/b0wywn/how_to_objectively_measure_phonetic_distance/)
+
+[CoEDL/elpis](https://github.com/CoEDL/elpis) --- 🙊 software for creating speech recognition models.
+
