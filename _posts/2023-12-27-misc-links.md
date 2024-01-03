@@ -3125,3 +3125,9 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [CoEDL/elpis](https://github.com/coedl/elpis) --- 🙊 software for creating speech recognition models.
 
+[This is Hogwild!](https://towardsdatascience.com/this-is-hogwild-7cc80cd9b944)
+
+[Deep Speech : Train Native Languages with Transfer Learning Part #0b01](https://medium.com/analytics-vidhya/deep-speech-train-native-languages-with-transfer-learning-part-0b01-13d24f1337c7)
+
+[Prosogram](https://sites.google.com/site/prosogram/home)
+
