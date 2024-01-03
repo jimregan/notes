@@ -3018,3 +3018,11 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [POSH: A Data-Aware Shell for Faster Distributed Text Processing](https://thenewstack.io/posh-a-data-aware-shell-for-faster-distributed-text-processing/)
 
+[Físeáin | Mar a Déarfá!](https://www.maradearfa.ie/aosoideachas/uladh-aosoideachas/fiseain-aosoideachas-uladh)
+
+[Retrieval Augmented Generation with Huggingface Transformers and Ray](https://medium.com/distributed-computing-with-ray/retrieval-augmented-generation-with-huggingface-transformers-and-ray-b09b56161b1e)
+
+[Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
+
+[PanLex](https://panlex.org/)
+
