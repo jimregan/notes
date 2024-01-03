@@ -3084,3 +3084,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Dense Passage Retrieval for Open-Domain Question Answering](https://arxiv.org/abs/2004.04906)
 
+[messiaen/full-lattice-search](https://github.com/messiaen/full-lattice-search) --- Full Text Search Over Probabilistic Lattices with Elasticsearch!
+
+[steveash/jopenfst](https://github.com/steveash/jopenfst) --- Partial Java port of the C++ OpenFST library
+
