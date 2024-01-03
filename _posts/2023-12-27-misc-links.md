@@ -1179,17 +1179,11 @@ and geometry engine
 
 [karpathy/deep-vector-quantization](https://github.com/karpathy/deep-vector-quantization) --- VQVAEs, GumbelSoftmaxes and friends
 
-[Nuclear accents in four Irish (Gaelic) dialects](http://www.tara.tcd.ie/handle/2262/39402)
-
-[Modelling intonation in three Irish dialects](http://www.tara.tcd.ie/handle/2262/39408)
-
-[Development of an automatic attitude recognition system: a multimodal analysis of video blogs](http://www.tara.tcd.ie/handle/2262/81914)
-
 [Animating Stereograms with Optical Flow Morphing](https://ryanfb.xyz/etc/2016/08/17/animating_stereograms_with_optical_flow_morphing.html)
 
 [Transformers in Pytorch from scratch for NLP Beginners](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
 
-[Calendar of documents, relating to Ireland, preserved in Her Majesty's Public Record Office, London, 1171-1307](https://archive.org/details/cu31924091754816/page/n194/mode/1up)
+[PyTorch for TensorFlow Users - A Minimal Diff](https://www.kilians.net/post/from-tensorflow-to-pytorch/)
 
 [Brain, Time, CTC blank states and streaming](https://alphacephei.com/nsh/2023/09/22/time-brain-ctc-blank.html)
 
@@ -1335,6 +1329,10 @@ and geometry engine
 
 [triantac/punkbuddy](https://github.com/triantac/punkbuddy)
 
+[Nuclear accents in four Irish (Gaelic) dialects](http://www.tara.tcd.ie/handle/2262/39402)
+
+[Development of an automatic attitude recognition system: a multimodal analysis of video blogs](http://www.tara.tcd.ie/handle/2262/81914)
+
 [The phonetics and phonology of the intonation of Irish dialects](http://www.tara.tcd.ie/handle/2262/77940)
 
 [Controlling the voice quality dimension of prosody in synthetic speech using an acoustic glottal model](http://www.tara.tcd.ie/handle/2262/94214)
@@ -1422,13 +1420,15 @@ and geometry engine
 
 Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wikiźródła](https://pl.m.wikisource.org/wiki/Ropucha_\(Andersen\))
 
+[Spanish](https://www.forgottenbooks.com/en/Foreign_Language/Spanish)
+
+---
+
 [Apes, psychos, alcos: How British cartoonists depict the Irish](https://www.irishtimes.com/culture/art-and-design/apes-psychos-alcos-how-british-cartoonists-depict-the-irish-1.3149409)
 
 [Keating's general history of Ireland](https://catalog.hathitrust.org/Record/008645828)
 
 [Irish Language, 1700-1999](https://bc-primo.hosted.exlibrisgroup.com/primo-explore/collectionDiscovery?vid=bclib_new&inst=BCL&collectionId=81517036840001021) --- Selection of books and manuscripts written in Irish.
-
-[Spanish](https://www.forgottenbooks.com/en/Foreign_Language/Spanish)
 
 [Irish prose and poetry](https://www.digitalcommonwealth.org/search/commonwealth-oai:qn59vf942)
 
@@ -1439,15 +1439,13 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 [Cuchulain of Muirthemne](https://catalog.hathitrust.org/Record/008956896)
 [sacred texts](https://sacred-texts.com/neu/celt/cuch/index.htm)
 
-[PyTorch for TensorFlow Users - A Minimal Diff](https://www.kilians.net/post/from-tensorflow-to-pytorch/)
-
-[Transformers in Pytorch from scratch for NLP Beginners](https://hyugen-ai.medium.com/transformers-in-pytorch-from-scratch-for-nlp-beginners-ff3b3d922ef7)
-
 [Parliamentary Papers, Proceedings and Departmental Papers : UK: Ireland](https://libguides.bodleian.ox.ac.uk/c.php?g=423095&p=2889011)
 
 [Calendar of documents, relating to Ireland, preserved in Her Majesty's Public Record Office, London, 1171-1307](https://archive.org/details/cu31924091754816/page/n194/mode/1up)
 
 [Bealoideasbeo.com](https://www.bealoideasbeo.ie/index.php/tras-scribhini?page=1)
+
+---
 
 [syegulalp/Akilang](https://github.com/syegulalp/Akilang) --- A compiler for a simple language, built with Python and LLVM
 
@@ -3087,4 +3085,6 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [messiaen/full-lattice-search](https://github.com/messiaen/full-lattice-search) --- Full Text Search Over Probabilistic Lattices with Elasticsearch!
 
 [steveash/jopenfst](https://github.com/steveash/jopenfst) --- Partial Java port of the C++ OpenFST library
+
+[OlliSaarikivi/Automata](https://github.com/OlliSaarikivi/Automata) --- Automata and transducer library for .NET
 
