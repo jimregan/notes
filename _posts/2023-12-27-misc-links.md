@@ -3157,3 +3157,23 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [How to Break GPU Memory Boundaries Even with Large Batch Sizes](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)
 
+[zh217/torch-dct](https://github.com/zh217/torch-dct) --- DCT (discrete cosine transform) functions for pytorch
+
+[inejc/paragraph-vectors](https://github.com/inejc/paragraph-vectors) --- :page_facing_up: A PyTorch implementation of Paragraph Vectors (doc2vec).
+
+[pperle/gaze-tracking](https://github.com/pperle/gaze-tracking) --- state-of-the-art gaze tracking model
+
+[tjysdsg/capt-public](https://github.com/tjysdsg/capt-public) --- Public version of my Computer-Aided Pronunciation Training (CAPT) system (server)
+
+[JawadAr/Pronunciation-verification-using-anomaly-detection-Thesis](https://github.com/JawadAr/Pronunciation-verification-using-anomaly-detection-Thesis) --- This repository contains all the codes used in a thesis at Information Technology University (ITU). The topic of the thesis is pronunciation verification using anomaly detection.
+
+[googlefonts/gftools](https://github.com/googlefonts/gftools) --- Misc tools for working with the Google Fonts library
+
+[fonttools/fonttools](https://github.com/fonttools/fonttools) --- A library to manipulate font files from Python.
+
+[openjournals/joss](https://github.com/openjournals/joss) --- The Journal of Open Source Software
+
+[LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) --- Rust bindings for the C++ api of PyTorch.
+
+[vesis84/kaldi-io-for-python](https://github.com/vesis84/kaldi-io-for-python) --- Python functions for reading kaldi data formats. Useful for rapid prototyping with python.
+
