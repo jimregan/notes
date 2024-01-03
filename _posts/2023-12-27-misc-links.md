@@ -1279,8 +1279,6 @@ and geometry engine
 
 [JFLAP](https://www.jflap.org/) --- JFLAP is software for experimenting with formal languages topics including nondeterministic finite automata, nondeterministic pushdown automata, multi-tape Turing machines, several types of grammars, parsing, and L-systems.
 
-[Self-training and pre-training, understanding the wav2vec series](https://maelfabien.github.io/machinelearning/wav2vec/)
-
 [tokenwiser](https://koaning.github.io/tokenwiser/)
 
 [Chris Lattner: Revolutionizing the C++ World](https://cppdepend.com/blog/chris-lattner-revolutionizing-cpp-world/)
@@ -3007,4 +3005,16 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [The Shebeeners](https://en.wikisource.org/wiki/The_Shebeeners)
 
 ---
+
+[Neural Data Augmentation via Example Extrapolation](https://arxiv.org/abs/2102.01335)
+
+[Train GPT-2 in your own language](https://towardsdatascience.com/train-gpt-2-in-your-own-language-fc6ad4d60171)
+
+[Archivist Quill Guide](http://tenrec.builders/quill/guide/)
+
+[Fit More and Train Faster With ZeRO via DeepSpeed and FairScale](https://huggingface.co/blog/zero-deepspeed-fairscale)
+
+[Sample teaching materials, teg.ie](https://www.teg.ie/links-resources/teaching-materials.290.html)
+
+[POSH: A Data-Aware Shell for Faster Distributed Text Processing](https://thenewstack.io/posh-a-data-aware-shell-for-faster-distributed-text-processing/)
 
