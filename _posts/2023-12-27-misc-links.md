@@ -2069,7 +2069,7 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
 
-[lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) --- Implementation of MEGABYTE, Predicting Million-byte Sequences with Multiscale Transformers, in Pytorch
+[lucidrains/MEGABYTE-pytorch](https://github.com/lucidrains/MEGABYTE-pytorch) --- Implementation of [MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers](https://arxiv.org/abs/2305.07185), in Pytorch
 
 [1SPU: 1-step Speech Processing Unit](https://arxiv.org/abs/2311.04753)
 
@@ -2937,4 +2937,24 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [DocLLM: A layout-aware generative language model for multimodal document understanding](https://arxiv.org/abs/2401.00908)
 
+[godotengine/godot](https://github.com/godotengine/godot) --- Godot Engine – Multi-platform 2D and 3D game engine
+
+[The 3 Deep Learning Frameworks For End-to-End Speech Recognition That Power Your Devices](https://heartbeat.comet.ml/the-3-deep-learning-frameworks-for-end-to-end-speech-recognition-that-power-your-devices-37b891ddc380)
+
+[Perceiver IO: a scalable, fully-attentional model that works on any modality](https://huggingface.co/blog/perceiver)
+
+[Training tiny specialized language models](https://softlandia.fi/en/blog/training-tiny-specialized-language-models)
+
+[TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://arxiv.org/abs/2305.07759)
+
+[Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/),
+[Facebook AI and the Index Factory](https://www.pinecone.io/learn/series/faiss/composite-indexes/)
+
+[RichiH/vcsh](https://github.com/RichiH/vcsh) --- vcsh - Version Control System for $HOME - multiple Git repositories in $HOME
+
+[Few-shot Learning with Multilingual Language Models](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)
+
+[UniSpeech: Unified Speech Representation Learning with Labeled and Unlabeled Data](https://www.microsoft.com/en-us/research/publication/unispeech-unified-speech-representation-learning-with-labeled-and-unlabeled-data/)
+
+[Multi-turn RNN-T for streaming recognition of multi-party speech](https://arxiv.org/abs/2112.10200)
 
