@@ -3084,3 +3084,20 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [OlliSaarikivi/Automata](https://github.com/OlliSaarikivi/Automata) --- Automata and transducer library for .NET
 
+---
+
+[Recreating Historical Streetscapes Using Deep Learning and Crowdsourcing](https://blog.research.google/2020/10/recreating-historical-streetscapes.html)
+
+[Ordnance Survey Index to the Map of the Town of Thurles](https://digital.ucd.ie/view/ucdlib:41525)
+
+[Thurles maps](https://digital.ucd.ie/?q=%22Thurles%20\(Ireland\)--Maps%22)
+
+[Thurles map](https://tipperarystudies.ie/wp-content/uploads/2016/02/DSCF5571.jpg),
+[2](https://tipperarystudies.ie/wp-content/uploads/2016/02/DSCF5572.jpg)
+
+[Thurles Town Square 1957](https://www.flickr.com/photos/88051129@N00/3321306318/)
+
+[Old Photos of Thurles Co Tipperary Ireland](https://web.archive.org/web/20230322091845/https://fanningfamilyhistory.com/index.php/2011/09/01/old-photos-of-thurles-co-tipperary-ireland/)
+
+---
+
