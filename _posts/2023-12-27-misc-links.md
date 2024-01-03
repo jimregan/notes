@@ -3052,9 +3052,8 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Books in Irish | Royal Irish Academy](https://www.ria.ie/books-irish)
 
-[Bibliography of Irish philology and of printed Irish literature](https://archive.org/details/bibliographyofir00nati/page/n11/mode/2up)
-
-[Bibliography of Irish philology and of printed Irish literature](https://archive.org/details/bibliographyofir00natiuoft/page/264/mode/2up)
+[Bibliography of Irish philology and of printed Irish literature](https://archive.org/details/bibliographyofir00nati/page/n11/mode/2up),
+[scan 2](https://archive.org/details/bibliographyofir00natiuoft/page/264/mode/2up)
 
 [IG01-15](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-15),
 [IG01-16](http://irisleabharnagaedhilge.fng.ie/index.php?irisleabhair_function=1&irisleabhair_file=IG01-16),
