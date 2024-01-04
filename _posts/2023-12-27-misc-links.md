@@ -3117,7 +3117,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Sequitur G2P](https://www-i6.informatik.rwth-aachen.de/web/Software/g2p.html)
 
-[lennes/spect](https://github.com/lennes/spect) --- SpeCT - Speech Corpus Toolkit for Praat. Documentation: https://lennes.github.io/spect/
+[lennes/spect](https://github.com/lennes/spect) --- SpeCT - Speech Corpus Toolkit for Praat. [Documentation](https://lennes.github.io/spect/)
 
 [praaline/Praaline](https://github.com/praaline/Praaline) --- Praaline is an open-source system to manage, annotate, visualise and analyse spoken language corpora
 
