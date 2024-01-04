@@ -3265,3 +3265,15 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [pswietojanski/ojsp_adaptation_review_2020](https://github.com/pswietojanski/ojsp_adaptation_review_2020) --- Auxiliary data and scripts for our OJSP review on speaker adaptation for speech recognition
 
+[Zeitschrift für celtische Philologie](http://celtologica.eu/zcp/inhalt.html)
+
+[Review: Oral Literature from Dunquin, County Kerry](https://www.jstor.org/stable/20522268)
+
+[A Gentle Introduction to the Huggingface Pipeline](https://www.kaggle.com/code/truthr/a-gentle-introduction-to-the-huggingface-pipeline)
+
+[Training with Marian](https://marian-nmt.github.io/examples/training-overview)
+
+[MarianNMT Examples](https://marian-nmt.github.io/examples/)
+
+[Séamus Ó Duilearga’s Co. Antrim notebooks](https://bill.celt.dias.ie/vol4/displayObject.php?TreeID=1800)
+
