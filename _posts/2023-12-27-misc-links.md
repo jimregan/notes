@@ -633,8 +633,6 @@ TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation
 
 [An focal don ainmhí seo → 🐶 i nGaeilge](https://twitter.com/duilinn/status/1056610448173424641)
 
-[emedvedev/attention-ocr](https://github.com/emedvedev/attention-ocr) --- A Tensorflow model for text recognition (CNN + seq2seq with visual attention) available as a Python package and compatible with Google Cloud ML Engine.
-
 [Character Recognition and Segmentation For Custom Data Using Detectron2](https://towardsdatascience.com/character-recognition-and-segmentation-for-custom-data-using-detectron2-599de82b393c)
 
 [da03/Attention-OCR](https://github.com/da03/Attention-OCR) --- Visual Attention based OCR
