@@ -130,68 +130,20 @@ https://discuss.huggingface.co/t/train-t5-from-scratch/1781
 lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
 https://github.com/lingjzhu/CharsiuG2P
 
-speechbrain/m-ctc-t-large · Hugging Face
-https://huggingface.co/speechbrain/m-ctc-t-large
-
-speechbrain/m-ctc-t-large · Hugging Face
-https://huggingface.co/speechbrain/m-ctc-t-large
-
-speechbrain/m-ctc-t-large · Hugging Face
-https://huggingface.co/speechbrain/m-ctc-t-large
-
-speechbrain/m-ctc-t-large · Hugging Face
-https://huggingface.co/speechbrain/m-ctc-t-large
-
-speechbrain (SpeechBrain)
-https://huggingface.co/speechbrain
-
-speechbrain/lang-id-voxlingua107-ecapa · Hugging Face
-https://huggingface.co/speechbrain/lang-id-voxlingua107-ecapa
-
-speechbrain/lang-id-commonlanguage_ecapa · Hugging Face
-https://huggingface.co/speechbrain/lang-id-commonlanguage_ecapa
+speechbrain/speechbrain: A PyTorch-based Speech Toolkit
+https://github.com/speechbrain/speechbrain
 
 speechbrain/soundchoice-g2p · Hugging Face
 https://huggingface.co/speechbrain/soundchoice-g2p
 
 The spelled-out intro to neural networks and backpropagation: building micrograd - YouTube
-https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3
+https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4
 
 NeMo/tutorials/tts/FastPitch_MixerTTS_Training.ipynb at main · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_MixerTTS_Training.ipynb
 
-Speedup RNN-T greedy decoding by artbataev · Pull Request #7926 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/7926/files
-
-Add All Multimodal Source Code by yaoyu-33 · Pull Request #7791 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/7791
-
-[ASR] Online Speaker Diarization with ASR: Part-1 by tango4j · Pull Request #7896 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/7896/files
-
-NeMo + Lhotse integration by pzelasko · Pull Request #7880 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/7880/files
-
 Adapter Methods — AdapterHub documentation
 https://docs.adapterhub.ml/methods.html#prefix-tuning
-
-haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning: LLaVA (Large Language-and-Vision Assistant) built towards GPT-4V level capabilities.
-https://github.com/haotian-liu/LLaVA
-
-haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning: LLaVA (Large Language-and-Vision Assistant) built towards GPT-4V level capabilities.
-https://github.com/haotian-liu/LLaVA
-
-Flip - YouTube
-https://www.youtube.com/watch?v=7R6SITSeiRo&list=PLAc-aH8DmsBGuEgdKbPuBxzeUwP_kdN9r
-
-Glass Animals - Pools (Official Video) - YouTube
-https://www.youtube.com/watch?v=HQYC2EfzZZw
-
-Reign In Blood - The Slayer Story ┃ Documentary - YouTube
-https://www.youtube.com/watch?v=k6-fBVrVIUs
-
-2311.01906.pdf
-https://arxiv.org/pdf/2311.01906.pdf
 
 slack-anti-delete/slack_patch_delete.py at main · SharonBrizinov/slack-anti-delete
 https://github.com/SharonBrizinov/slack-anti-delete/blob/main/slack_patch_delete.py
@@ -1072,17 +1024,14 @@ https://arxiv.org/pdf/2401.00737.pdf
 Legend of the Seeker (2008)
 https://www.imdb.com/title/tt0844653/mediaviewer/rm1095116032/
 
-Do You Think You Can Play This? (30-Day Drummer | Season 3) - YouTube
-https://www.youtube.com/watch?v=ZLoK5FFmnWg
-
 Musashi Did NOT Invent the Two-Katana Style | Dual Wielding of Asayama Ichiden Ryu - YouTube
 https://www.youtube.com/watch?v=DOu645PsbAY
 
 AnkiWeb
 https://ankiweb.net/shared/decks?search=Hungarian
 
-Meet OpenMetricLearning (OML): A PyTorch-based Python Framework to Train and Validate the Deep Learning Models Producing High-Quality Embeddings - MarkTechPost
-https://www.marktechpost.com/2023/12/26/meet-openmetriclearning-oml-a-pytorch-based-python-framework-to-train-and-validate-the-deep-learning-models-producing-high-quality-embeddings/
+OML-Team/open-metric-learning: Library for metric learning pipelines and models.
+https://github.com/OML-Team/open-metric-learning
 
 argilla-io/notus: Notus is a collection of fine-tuned LLMs using SFT, DPO, SFT+DPO, and/or any other RLHF techniques, while always keeping a data-first approach
 https://github.com/argilla-io/notus

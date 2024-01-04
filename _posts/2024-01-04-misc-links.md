@@ -110,4 +110,12 @@ categories: [links]
 
 [LibriSpeech Alignments](https://zenodo.org/records/2619474)
 
+[OML-Team/open-metric-learning](https://github.com/OML-Team/open-metric-learning) --- Library for metric learning pipelines and models.
+
+[haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) --- [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
+
+{% youtube https://www.youtube.com/watch?v=7R6SITSeiRo %}
+
+[Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906)
+
 
