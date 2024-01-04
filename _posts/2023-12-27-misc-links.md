@@ -3305,3 +3305,10 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 ---
 
+[Tunable Q-factor Wavelet Transform](https://se.mathworks.com/help/wavelet/ug/tunable-q-factor-wavelet-transform.html)
+
+[PyWavelets/pywt](https://github.com/PyWavelets/pywt) --- PyWavelets - Wavelet Transforms in Python
+
+[jollyjonson/tqwt_tools](https://github.com/jollyjonson/tqwt_tools) --- Tunable-Q Wavelet Transform and Resonance-based Signal Decomposition Toolkit
+
+
