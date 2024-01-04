@@ -33,3 +33,14 @@ categories: [links]
 
 [VioLA: Unified Codec Language Models for Speech Recognition, Synthesis, and Translation](https://arxiv.org/abs/2305.16107)
 
+[thuhcsi/VAENAR-TTS](https://github.com/thuhcsi/VAENAR-TTS) --- The official implementation of VAENAR-TTS, a VAE based non-autoregressive TTS model.
+
+[Automatic Generation of Subtitles for Videos of the Government of La Rioja](https://link.springer.com/chapter/10.1007/978-3-031-34020-8_30)
+
+[The Properly Illustrated Transformer](https://aniruddhadeb.com/articles/2023/properly-illustrated-transformer.html)
+
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+[The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
+
+
