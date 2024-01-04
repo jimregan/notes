@@ -43,4 +43,5 @@ categories: [links]
 
 [The Annotated Transformer](http://nlp.seas.harvard.edu/annotated-transformer/)
 
+[Efficient Sequence Transduction by Jointly Predicting Tokens and Durations](https://arxiv.org/abs/2304.06795)
 

@@ -196,9 +196,6 @@ https://jonathan-hui.medium.com/speech-recognition-gmm-hmm-8bb5eff8b196
 jrgillick/laughter-detection
 https://github.com/jrgillick/laughter-detection
 
-Efficient Sequence Transduction by Jointly Predicting Tokens and Durations
-https://arxiv.org/pdf/2304.06795v1.pdf
-
 Multistream.co
 https://multistream.co/p/EkPzIhIQYSv/_Starship_and_Super_Heavy_Starship_and_Super_Heavy_Integrated_Test_Flight
 
@@ -235,9 +232,6 @@ https://github.com/facebookresearch/libri-light/blob/main/data_preparation/READM
 fairseq/byte_bpe.py at main · facebookresearch/fairseq · GitHub
 https://github.com/facebookresearch/fairseq/blob/main/fairseq/data/encoders/byte_bpe.py#L28
 
-facebookresearch/xformers: Hackable and optimized Transformers building blocks, supporting a composable construction.
-https://github.com/facebookresearch/xformers
-
 fairseq/textless_s2st_real_data.md at ust · facebookresearch/fairseq · GitHub
 https://github.com/facebookresearch/fairseq/blob/ust/examples/speech_to_speech/docs/textless_s2st_real_data.md
 
@@ -256,9 +250,6 @@ https://github.com/NVIDIA/NeMo/commit/a365879110646801bbcd8166b890f986d7d7793d
 A Gentle Introduction to Cross-Entropy for Machine Learning - MachineLearningMastery.com
 https://machinelearningmastery.com/cross-entropy-for-machine-learning/
 
-ruffle-rs/ruffle: A Flash Player emulator written in Rust
-https://github.com/ruffle-rs/ruffle
-
 leptos-rs/leptos: Build fast web applications with Rust.
 https://github.com/leptos-rs/leptos
 
@@ -273,9 +264,6 @@ https://github.com/guillaumekln/faster-whisper
 
 The PhotoBook Task and Dataset - Datasets
 https://dmg-photobook.github.io/datasets.html
-
-The PhotoBook Dataset: Building Common Ground through Visually-Grounded Dialogue - ACL Anthology
-https://aclanthology.org/P19-1184/
 
 The PhotoBook Task and Dataset - Models
 https://dmg-photobook.github.io/code_models.html
@@ -494,27 +482,6 @@ https://ai.facebook.com/blog/multilingual-model-speech-recognition/?utm_source=t
 https://ai.facebook.com/blog/nllb-200-high-quality-machine-translation/
 
 github.com
-https://github.com/facebookresearch/fairseq/tree/main/examples/mms/asr
-
-github.com
-https://github.com/facebookresearch/fairseq/blob/main/examples/mms/asr/infer/mms_infer.py
-
-fairseq/examples/mms/data_prep at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/tree/main/examples/mms/data_prep
-
-github.com
-https://github.com/facebookresearch/fairseq/commits/main
-
-github.com
-https://github.com/facebookresearch/fairseq/commit/728b947019fd186753197add48c39cbb24ea43e2
-
-github.com
-https://github.com/facebookresearch/fairseq/commit/728b947019fd186753197add48c39cbb24ea43e2
-
-MMS
-https://dl.fbaipublicfiles.com/mms/misc/language_coverage_mms.html
-
-github.com
 https://github.com/jaywalnut310/vits
 
 SoundStorm
@@ -702,27 +669,6 @@ https://sillylinguistics.com/northernsami-part1.pdf
 
 Index:The poem-book of the Gael - Hull.djvu - Wikisource, the free online library
 https://en.wikisource.org/wiki/Index:The_poem-book_of_the_Gael_-_Hull.djvu
-
-Self-Supervised Accent Learning for Under-Resourced Accents Using Native Language Data | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/abstract/document/10096854
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.13629.pdf
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.14546.pdf
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.12459.pdf
-
-2305.10763.pdf
-https://arxiv.org/pdf/2305.10763.pdf
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.05084.pdf
-
-A grammar of Pite Saami
-file:///Users/joregan/Downloads/17-Book%20Manuscript-110-2-10-20140722.pdf
 
 North Saami Grammar at Internet
 https://oahpa.no/sme/gramm/grammatihkka.eng.html
