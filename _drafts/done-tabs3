@@ -4,21 +4,6 @@ https://aclanthology.org/2023.sigtyp-1.20/
 Self-Supervised Accent Learning for Under-Resourced Accents Using Native Language Data
 https://ieeexplore.ieee.org/abstract/document/10096854
 
-TranUSR: Phoneme-to-word Transcoder Based Unified Speech Representation Learning for Cross-lingual Speech Recognition
-https://arxiv.org/abs/2305.13629
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.14546.pdf
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.12459.pdf
-
-2305.10763.pdf
-https://arxiv.org/pdf/2305.10763.pdf
-
-Submitted to INTERSPEECH
-https://arxiv.org/pdf/2305.05084.pdf
-
 THE HARPY SPEECH RECOGNITION SYSTEM
 https://stacks.stanford.edu/file/druid:rq916rn6924/rq916rn6924.pdf
 
@@ -46,17 +31,8 @@ https://github.com/sooftware/conformer/blob/main/README.md
 openspeech-team/openspeech: Open-Source Toolkit for End-to-End Speech Recognition leveraging PyTorch-Lightning and Hydra.
 https://github.com/openspeech-team/openspeech
 
-parlance/ctcdecode: PyTorch CTC Decoder bindings
-https://github.com/parlance/ctcdecode
-
-1ytic/warp-rnnt: CUDA-Warp RNN-Transducer
-https://github.com/1ytic/warp-rnnt
-
 Commits · awni/transducer
 https://github.com/awni/transducer/commits/master?after=e90c6f45f10ccb404befddb0a99463fa6cb2e753+34&branch=master&qualified_name=refs%2Fheads%2Fmaster
-
-[1211.3711] Sequence Transduction with Recurrent Neural Networks
-https://arxiv.org/abs/1211.3711
 
 use gemm for logsumexp · awni/transducer@fba5f8d
 https://github.com/awni/transducer/commit/fba5f8d17cece5bde651f40858bba3ca041da7cd
@@ -73,32 +49,17 @@ https://github.com/awni/awni.github.io
 Awni Hannun
 https://awnihannun.com/
 
-awni/speech: A PyTorch Implementation of End-to-End Models for Speech-to-Text
-https://github.com/awni/speech
-
-awni/transducer: A Fast Sequence Transducer Implementation with PyTorch Bindings
-https://github.com/awni/transducer
-
-awni/automata_ml: An Introduction to Weighted Automata in Machine Learning
-https://github.com/awni/automata_ml
-
 differentiation_with_automata.pdf
 https://awnihannun.com/writing/automata_ml/differentiation_with_automata.pdf
 
 2206.00888.pdf
 https://arxiv.org/pdf/2206.00888.pdf
 
-2005.03191.pdf
-https://arxiv.org/pdf/2005.03191.pdf
-
 ContextNet — Openspeech v0.3.0 documentation
 https://openspeech-team.github.io/openspeech/architectures/ContextNet.html
 
 openspeech/model.py at main · openspeech-team/openspeech · GitHub
 https://github.com/openspeech-team/openspeech/blob/main/openspeech/models/squeezeformer/model.py
-
-2005.08100.pdf
-https://arxiv.org/pdf/2005.08100.pdf
 
 Sequence-to-Sequence Speech Recognition with Time-Depth Separable Convolutions
 https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/2460.pdf
@@ -181,12 +142,6 @@ http://nlp.seas.harvard.edu/annotated-transformer/
 enhuiz/vall-e: An unofficial PyTorch implementation of the audio LM VALL-E
 https://github.com/enhuiz/vall-e
 
-facebookresearch/encodec: State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio.
-https://github.com/facebookresearch/encodec
-
-neonbjb/tortoise-tts: A multi-voice TTS system trained with an emphasis on quality
-https://github.com/neonbjb/tortoise-tts
-
 CoDi: Generate Anything from Anything All At Once through Composable Diffusion
 https://codi-gen.github.io/
 
@@ -226,7 +181,7 @@ https://github.com/thuhcsi/VAENAR-TTS
 keonlee9420/Expressive-FastSpeech2: PyTorch Implementation of Non-autoregressive Expressive (emotional, conversational) TTS based on FastSpeech2, supporting English, Korean, and your own languages.
 https://github.com/keonlee9420/Expressive-FastSpeech2
 
-[2305.17732] StyleS2ST: Zero-shot Style Transfer for Direct Speech-to-speech Translation
+StyleS2ST: Zero-shot Style Transfer for Direct Speech-to-speech Translation
 https://arxiv.org/abs/2305.17732
 
 CoDi: Generate Anything from Anything All At Once through Composable Diffusion
