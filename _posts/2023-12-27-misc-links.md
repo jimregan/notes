@@ -680,7 +680,7 @@ and geometry engine
 
 [kaituoxu/Conv-TasNet](https://github.com/kaituoxu/Conv-TasNet) --- A PyTorch implementation of Conv-TasNet described in "TasNet: Surpassing Ideal Time-Frequency Masking for Speech Separation" with Permutation Invariant Training (PIT).
 
-[Månadens profil: Jim O´Regan | Språkbanken](https://sprakbanken.se/5.72b6d529184b917b26316a68.html)
+[Månadens profil: Jim O´Regan - Språkbanken](https://sprakbanken.se/5.72b6d529184b917b26316a68.html)
 
 [The historical short vowel phonology of Gaelic](https://www.semanticscholar.org/paper/The-historical-short-vowel-phonology-of-Gaelic-Maolalaigh/78c6a7ca518fcfa6c35a8e2c1a6bee430069707e?p2df)
 
@@ -2016,7 +2016,7 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Open-Speech-EkStep/vakyansh-wav2vec2-experimentation](https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation)
 
-[Machine Learning | Google for Developers](https://developers.google.com/machine-learning)
+[Machine Learning - Google for Developers](https://developers.google.com/machine-learning)
 
 [10 Jupyter Notebook Extensions Making My Lyfe Easier](https://medium.com/@maxtingle/10-jupyter-notebook-extensions-making-my-lyfe-easier-f40139a334ce)
 
@@ -2163,7 +2163,7 @@ Ropucha: [fadedpage](https://www.fadedpage.com/showbook.php?pid=20160807), [Wiki
 
 [Beyond Offline Mapping: Learning Cross Lingual Word Embeddings through Context Anchoring](https://arxiv.org/abs/2012.15715)
 
-[Feasta | Bealtaine 2013](https://issuu.com/cnag/docs/feasta_bealtaine_2013/46)
+[Feasta - Bealtaine 2013](https://issuu.com/cnag/docs/feasta_bealtaine_2013/46)
 
 [CCExtractor/ccextractor](https://github.com/CCExtractor/ccextractor) --- CCExtractor is a tool used to produce subtitles for TV recordings from almost anywhere in the world. We intend to keep up with all sources and formats.
 
@@ -2502,7 +2502,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Causal Language modeling](https://colab.research.google.com/github/huggingface/notebooks/blob/master/examples/language_modeling_from_scratch.ipynb#scrollTo=JEA1ju653l-p)
 
-[Unitnet Speech Demos | Unit Selection TTS strikes back](https://www.reddit.com/r/speechtech/comments/ogbmvz/unitnet_speech_demos_unit_selection_tts_strikes/)
+[Unitnet Speech Demos: Unit Selection TTS strikes back](https://www.reddit.com/r/speechtech/comments/ogbmvz/unitnet_speech_demos_unit_selection_tts_strikes/)
 
 [Automated Audio Captioning](https://dcase.community/challenge2021/task-automatic-audio-captioning)
 
@@ -2566,7 +2566,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Scary Phonetics? Learning Cardinal Vowels, Part 1](https://blogs.city.ac.uk/phoned/2021/07/28/scary-phonetics-learning-cardinal-vowels-part-1/)
 
-[https://blogs.city.ac.uk/phoned/posts/](PhonEd: Phonetics Education)
+[PhonEd: Phonetics Education](https://blogs.city.ac.uk/phoned/posts/)
 
 [How to combine multiple criterions to a loss function? - PyTorch Forums](https://discuss.pytorch.org/t/how-to-combine-multiple-criterions-to-a-loss-function/348/2)
 
@@ -2942,7 +2942,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/),
 [Facebook AI and the Index Factory](https://www.pinecone.io/learn/series/faiss/composite-indexes/)
 
-[RichiH/vcsh](https://github.com/RichiH/vcsh) --- vcsh - Version Control System for $HOME - multiple Git repositories in $HOME
+[RichiH/vcsh](https://github.com/RichiH/vcsh) --- vcsh - Version Control System for `$HOME` - multiple Git repositories in `$HOME`
 
 [Few-shot Learning with Multilingual Language Models](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm)
 
@@ -3010,7 +3010,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [POSH: A Data-Aware Shell for Faster Distributed Text Processing](https://thenewstack.io/posh-a-data-aware-shell-for-faster-distributed-text-processing/)
 
-[Físeáin | Mar a Déarfá!](https://www.maradearfa.ie/aosoideachas/uladh-aosoideachas/fiseain-aosoideachas-uladh)
+[Físeáin - Mar a Déarfá!](https://www.maradearfa.ie/aosoideachas/uladh-aosoideachas/fiseain-aosoideachas-uladh)
 
 [Retrieval Augmented Generation with Huggingface Transformers and Ray](https://medium.com/distributed-computing-with-ray/retrieval-augmented-generation-with-huggingface-transformers-and-ray-b09b56161b1e)
 
@@ -3042,7 +3042,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Natooz/MidiTok](https://github.com/Natooz/MidiTok) --- MIDI / symbolic music tokenizers for Deep Learning models 🎶
 
-[Books in Irish | Royal Irish Academy](https://www.ria.ie/books-irish)
+[Books in Irish - Royal Irish Academy](https://www.ria.ie/books-irish)
 
 [Bibliography of Irish philology and of printed Irish literature](https://archive.org/details/bibliographyofir00nati/page/n11/mode/2up),
 [scan 2](https://archive.org/details/bibliographyofir00natiuoft/page/264/mode/2up)
