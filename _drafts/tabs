@@ -154,15 +154,6 @@ https://huggingface.co/speechbrain/lang-id-commonlanguage_ecapa
 speechbrain/soundchoice-g2p · Hugging Face
 https://huggingface.co/speechbrain/soundchoice-g2p
 
-LibriSpeech Alignments
-https://zenodo.org/records/2619474#.YuCdaC8r1ZF
-
-M-CTC-T
-https://huggingface.co/docs/transformers/main/model_doc/mctct
-
-(1) Extremely weird DDP issue for train_second.py · Issue #7 · yl4579/StyleTTS2
-https://github.com/yl4579/StyleTTS2/issues/7
-
 The spelled-out intro to neural networks and backpropagation: building micrograd - YouTube
 https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=3
 
@@ -190,15 +181,6 @@ https://github.com/haotian-liu/LLaVA
 haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning: LLaVA (Large Language-and-Vision Assistant) built towards GPT-4V level capabilities.
 https://github.com/haotian-liu/LLaVA
 
-(1) Yasufumi Moriya on X: "So happy to have found this Aalto Wikipedia on speech processing. This should be the most comprehensive and up-to-date information about the whole field" / X
-https://twitter.com/yasufumi_moriya/status/1728107452502274178
-
-8.3. Speech Recognition — Introduction to Speech Processing
-https://speechprocessingbook.aalto.fi/Recognition/Speech_Recognition.html
-
-(1) DUPLeader.bsky.social on X: "Taking no shit tonight https://t.co/jKtJs9ljLS" / X
-https://twitter.com/DUPleader/status/1728126178375135565
-
 Flip - YouTube
 https://www.youtube.com/watch?v=7R6SITSeiRo&list=PLAc-aH8DmsBGuEgdKbPuBxzeUwP_kdN9r
 
@@ -210,9 +192,6 @@ https://www.youtube.com/watch?v=k6-fBVrVIUs
 
 2311.01906.pdf
 https://arxiv.org/pdf/2311.01906.pdf
-
-TMH Retreat presentations 2023 - Google Slides
-https://docs.google.com/presentation/d/1H93vr0UgG5sFsBq3oAXyfDUTMZ2zJMfyM9rZY-nEXP4/edit#slide=id.g29f4317e026_73_0
 
 slack-anti-delete/slack_patch_delete.py at main · SharonBrizinov/slack-anti-delete
 https://github.com/SharonBrizinov/slack-anti-delete/blob/main/slack_patch_delete.py
@@ -276,9 +255,6 @@ https://numpy.org/devdocs/user/quickstart.html
 
 Linear algebra on n-dimensional arrays — NumPy Tutorials
 https://numpy.org/numpy-tutorials/content/tutorial-svd.html
-
-whisper/whisper/audio.py at main · openai/whisper
-https://github.com/openai/whisper/blob/main/whisper/audio.py
 
 Fine-tuning Whisper for Dutch Language: The Crucial Role of Size | by Sharon Grundmann | ML6team
 https://blog.ml6.eu/fine-tuning-whisper-for-dutch-language-the-crucial-role-of-size-dd5a7012d45f

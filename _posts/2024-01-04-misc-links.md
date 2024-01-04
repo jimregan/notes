@@ -104,3 +104,10 @@ categories: [links]
 
 [SpeechAct: Towards Generating Whole-body Motion from Speech](https://arxiv.org/abs/2311.17425)
 
+[Fine-tuning Whisper for Dutch Language: The Crucial Role of Size](https://blog.ml6.eu/fine-tuning-whisper-for-dutch-language-the-crucial-role-of-size-dd5a7012d45f)
+
+[Introduction to Speech Processing](https://speechprocessingbook.aalto.fi/index.html)
+
+[LibriSpeech Alignments](https://zenodo.org/records/2619474)
+
+
