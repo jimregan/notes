@@ -45,3 +45,27 @@ categories: [links]
 
 [Efficient Sequence Transduction by Jointly Predicting Tokens and Durations](https://arxiv.org/abs/2304.06795)
 
+[Instant3D: Instant Text-to-3D Generation](https://arxiv.org/abs/2311.08403)
+
+[LRM: Large Reconstruction Model for Single Image to 3D](https://arxiv.org/abs/2311.04400)
+
+{% twitter https://twitter.com/begusgasper/status/1655981693516517378 %}
+
+[Basic syntax from speech: Spontaneous concatenation in unsupervised deep neural networks](https://arxiv.org/abs/2305.01626)
+
+['Dair' (Live @ Urban Assault 2018)](https://irishmetalarchive.com/videos/corr-mhona-dair-live-urban-assault-2018/)
+
+[Train T5 Model From Scratch](https://www.kaggle.com/code/fadyelkbeer/train-t5-model-from-scratch)
+
+[lingjzhu/CharsiuG2P](https://github.com/lingjzhu/CharsiuG2P) --- Multilingual G2P in 100 languages
+
+[kNN-CTC: Enhancing ASR via Retrieval of CTC Pseudo Labels](https://arxiv.org/abs/2312.13560),
+["code"](https://github.com/NKU-HLT/KNN-CTC)
+
+{% twitter https://twitter.com/lateinteraction/status/1737578879454425202 %}
+
+[Speculative Decoding for 2x Faster Whisper Inference](https://huggingface.co/blog/whisper-speculative-decoding)
+
+[SHI-Labs/VCoder](https://github.com/SHI-Labs/VCoder) --- VCoder: Versatile Vision Encoders for Multimodal Large Language Models, arXiv 2023
+
+
