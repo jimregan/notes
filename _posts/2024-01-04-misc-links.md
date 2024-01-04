@@ -31,3 +31,5 @@ categories: [links]
 
 {% twitter https://twitter.com/din0s_/status/1742235150530851120 %}
 
+[VioLA: Unified Codec Language Models for Speech Recognition, Synthesis, and Translation](https://arxiv.org/abs/2305.16107)
+
