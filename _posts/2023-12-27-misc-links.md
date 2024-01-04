@@ -3277,3 +3277,31 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Séamus Ó Duilearga’s Co. Antrim notebooks](https://bill.celt.dias.ie/vol4/displayObject.php?TreeID=1800)
 
+---
+
+[Hungarian Speecon database](http://metashare.tilde.com/repository/browse/hungarian-speecon-database/9c3954cede7611e2b1e400259011f6ea39dfd520967642e8bd0830d8e08c72f5/)
+
+[BUSZI-2 guided conversations - downloadable transcripts](http://buszi.nytud.hu/buszi-2-iranyitott-beszelgetesek)
+
+[Nordic Dialect Corpus](https://tekstlab.uio.no/nota/scandiasyn/nsd.html)
+
+[The Swedish subproject of ScanDiaSyn](http://websim.arkivert.uit.no/scandiasyn/lund/2)
+
+[Skolt Saami Documentation Corpus](https://metashare.csc.fi/repository/browse/skolt-saami-documentation-corpus-2016/3bb9c396987411e3b2eb005056be118efb344a7e95cc4628a7635540c213a0f4/)
+
+[Gothenburg Dialogue Corpus](https://spraakbanken.gu.se/resurser/gdc#tabs=information)
+
+[Hungarian BABEL](http://metashare.ilsp.gr:8080/repository/browse/hungarian-babel/9c27b9d481b611e2892a000c29bfc0d46a94c6ce19b843b3a452b382e2e64832/)
+
+[Hungarian Broadcast News Database](http://metashare.elda.org/repository/browse/hungarian-broadcast-news-database/99bc21d081b611e2892a000c29bfc0d4d3d173ede2e64475b596aa1857a64541/)
+
+[Hungarian National Corpus](https://hnc.nytud.hu/index_eng.html)
+
+[Hungarian Kindergarten Language Corpus](https://metashare.nytud.hu/repository/download/b572a8106ba711e2aa7c68b599c26a06a4db2e695cf94a1cad6bf6793d747d2a/)
+
+[Hungarian MRBA](http://metashare.ilsp.gr:8080/repository/browse/hungarian-mrba/92067ce281b611e2892a000c29bfc0d48e6c8e9c745d446a9a64e48ba4c6462d/)
+
+[Hungarian Medical Speech Database](http://metashare.elda.org/repository/browse/hungarian-medical-speech-database/76a0c9f881b611e2892a000c29bfc0d4ed0651f675914bb2805e26819a60167d/)
+
+---
+
