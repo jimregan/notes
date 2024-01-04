@@ -29,4 +29,5 @@ categories: [links]
 
 [Minimum Word Error Rate Training with Language Model Fusion for End-to-End Speech Recognition](https://arxiv.org/abs/2106.02302)
 
+{% twitter https://twitter.com/din0s_/status/1742235150530851120 %}
 
