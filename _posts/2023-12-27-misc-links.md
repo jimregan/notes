@@ -3249,3 +3249,7 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 ---
 
+[Adaptation Algorithms for Neural Network-Based Speech Recognition: An Overview](https://arxiv.org/abs/2008.06580)
+
+[Train LLMs using QLoRA on Amazon SageMaker](https://www.philschmid.de/sagemaker-falcon-qlora)
+
