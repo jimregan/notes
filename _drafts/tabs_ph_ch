@@ -22,11 +22,8 @@ https://github.com/apple/swift-algorithms
 apple/sourcekit-lsp: Language Server Protocol implementation for Swift and C-based languages
 https://github.com/apple/sourcekit-lsp
 
-darwin-libplatform/src/string/generic at main · apple/darwin-libplatform
-https://github.com/apple/darwin-libplatform/tree/main/src/string/generic
-
-GraphiteEditor/Graphite at news.itsfoss.com
-https://github.com/GraphiteEditor/Graphite?ref=news.itsfoss.com
+apple/darwin-libplatform: Legacy mirror of Darwin Platform Library. Replaced by https://github.com/apple-oss-distributions/libplatform
+https://github.com/apple/darwin-libplatform
 
 apple/foundationdb: FoundationDB - the open source, distributed, transactional key-value store
 https://github.com/apple/foundationdb
@@ -36,9 +33,6 @@ https://github.com/marian-nmt/marian-examples/tree/master/transformer/scripts
 
 notebooks/sagemaker/28_train_llms_with_qlora/scripts/run_clm.py at main · huggingface/notebooks
 https://github.com/huggingface/notebooks/blob/main/sagemaker/28_train_llms_with_qlora/scripts/run_clm.py
-
-huggingface/notebooks: Notebooks using the Hugging Face libraries 🤗
-https://github.com/huggingface/notebooks/tree/main
 
 A Gentle Introduction to the Huggingface Pipeline | Kaggle
 https://www.kaggle.com/code/truthr/a-gentle-introduction-to-the-huggingface-pipeline
