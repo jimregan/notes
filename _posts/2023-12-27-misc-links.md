@@ -3229,3 +3229,5 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [fastai/numerical-linear-algebra](https://github.com/fastai/numerical-linear-algebra) --- Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course
 
+[Irish](http://phouka.com/index_learn.html)
+
