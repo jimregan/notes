@@ -3263,3 +3263,5 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [marian-nmt/marian-examples](https://github.com/marian-nmt/marian-examples) --- Examples, tutorials and use cases for Marian, including our WMT-2017/18 baselines.
 
+[pswietojanski/ojsp_adaptation_review_2020](https://github.com/pswietojanski/ojsp_adaptation_review_2020) --- Auxiliary data and scripts for our OJSP review on speaker adaptation for speech recognition
+
