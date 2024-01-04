@@ -3177,9 +3177,8 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Peer Review: Implementing a "publish, then review" model of publishing](https://elifesciences.org/articles/64910)
 
-[The Entropy of Words—Learnability and Expressivity across More Than 1000 Languages](https://www.preprints.org/manuscript/201704.0180/v1)
-
-[The Entropy of Words—Learnability and Expressivity across More than 1000 Languages](https://www.mdpi.com/1099-4300/19/6/275)
+[The Entropy of Words—Learnability and Expressivity across More than 1000 Languages](https://www.mdpi.com/1099-4300/19/6/275),
+[preprint](https://www.preprints.org/manuscript/201704.0180/v1)
 
 [Exploiting Weak Ties in Incomplete Network Datasets Using Simplified Graph Convolutional Neural Networks](https://www.mdpi.com/2504-4990/2/2/8)
 
