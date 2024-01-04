@@ -3229,3 +3229,5 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [openXBOW/openXBOW](https://github.com/openXBOW/openXBOW) --- openXBOW - the Passau Open-Source Crossmodal Bag-of-Words Toolkit
 
+[fastai/numerical-linear-algebra](https://github.com/fastai/numerical-linear-algebra) --- Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course
+
