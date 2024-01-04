@@ -3253,3 +3253,13 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [Train LLMs using QLoRA on Amazon SageMaker](https://www.philschmid.de/sagemaker-falcon-qlora)
 
+[apple/swift-algorithms](https://github.com/apple/swift-algorithms) --- Commonly used sequence and collection algorithms for Swift
+
+[apple/sourcekit-lsp](https://github.com/apple/sourcekit-lsp) --- Language Server Protocol implementation for Swift and C-based languages
+
+[apple/darwin-libplatform](https://github.com/apple/darwin-libplatform) --- Legacy mirror of Darwin Platform Library. Replaced by https://github.com/apple-oss-distributions/libplatform
+
+[apple/foundationdb](https://github.com/apple/foundationdb) --- FoundationDB - the open source, distributed, transactional key-value store
+
+[marian-nmt/marian-examples](https://github.com/marian-nmt/marian-examples) --- Examples, tutorials and use cases for Marian, including our WMT-2017/18 baselines.
+
