@@ -68,4 +68,39 @@ categories: [links]
 
 [SHI-Labs/VCoder](https://github.com/SHI-Labs/VCoder) --- VCoder: Versatile Vision Encoders for Multimodal Large Language Models, arXiv 2023
 
+[ConvNets Match Vision Transformers at Scale](https://arxiv.org/abs/2310.16764)
+
+[SD-HuBERT: Self-Distillation Induces Syllabic Organization in HuBERT](https://arxiv.org/abs/2310.10803)
+
+[An Introduction to Transformers](https://arxiv.org/abs/2304.10557)
+
+[MobileASR: A resource-aware on-device learning framework for user voice personalization applications on mobile phones](https://arxiv.org/abs/2306.09384)
+
+{% twitter https://twitter.com/MattNiessner/status/1724795600456310844 %}
+
+[Improving Large-scale Deep Biasing with Phoneme Features and Text-only Data in Streaming Transducer](https://arxiv.org/abs/2311.08966)
+
+[Training Distil-Whisper](https://github.com/huggingface/distil-whisper/tree/main/training?s=09#training-distil-whisper)
+
+{% twitter https://twitter.com/reach_vb/status/1726699176698732929 %}
+
+{% twitter https://twitter.com/reach_vb/status/1727065880918409674 %}
+
+{% twitter https://twitter.com/sophiamyang/status/1733505991600148892 %}
+
+[wellecks/ntptutorial](https://github.com/wellecks/ntptutorial) --- Tutorial on neural theorem proving
+
+{% twitter https://twitter.com/rasbt/status/1734234160154185730 %}
+
+[THE LITTLE BOOK OF DEEP LEARNING](https://fleuret.org/francois/lbdl.html)
+
+{% twitter https://twitter.com/_philschmid/status/1734992933764411788 %}
+
+{% twitter https://twitter.com/jxmnop/status/1734961947227897983 %}
+
+[open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) --- Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
+
+[yangdongchao/AcademiCodec](https://github.com/yangdongchao/AcademiCodec)
+
+[SpeechAct: Towards Generating Whole-body Motion from Speech](https://arxiv.org/abs/2311.17425)
 
