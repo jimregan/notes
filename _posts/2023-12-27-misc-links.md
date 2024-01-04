@@ -3229,5 +3229,23 @@ Keras: [Few-Shot learning with Reptile](https://keras.io/examples/vision/reptile
 
 [fastai/numerical-linear-algebra](https://github.com/fastai/numerical-linear-algebra) --- Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course
 
+---
+
 [Irish](http://phouka.com/index_learn.html)
+
+[The Journey of Viscount Ramon de Perellós to Saint Patrick's Purgatory](https://celt.ucc.ie/published/T100079A/)
+
+[Mion-ċaint : an easy Irish phrase book](https://archive.org/details/mionainteasyiris00olea/page/28/mode/2up)
+
+[The Book of Kells](https://archive.org/details/TheBookOfKells/page/n133/mode/2up)
+
+[Researches in the South of Ireland](https://books.google.ie/books?id=E2yq1mrZgDkC)
+
+[A little bit of Culture...  Poetry from soc.culture.irish](https://web.archive.org/web/20160309020935/http://web.newsguy.com/a-little-bit-of-Irish-culture/gael-index.html)
+
+[Caoineadh Airt UÍ Laoghaire](https://web.archive.org/web/20160303192344/http://web.newsguy.com/a-little-bit-of-Irish-culture/gael/caoineadh.html#trans)
+
+[An Caoineadh Airt Uí Laoghaire](http://www.millstreet.ie/blog/archives/17787)
+
+---
 
