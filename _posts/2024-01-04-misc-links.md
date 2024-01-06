@@ -118,4 +118,37 @@ categories: [links]
 
 [Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906)
 
+{% twitter https://twitter.com/din0s_/status/1742235150530851120 %}
+
+[Advanced RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
+
+{% twitter https://twitter.com/_akhaliq/status/1742757369895960950 %}
+
+{% twitter https://twitter.com/DuaneJRich/status/1742777245821989224 %}
+
+{% twitter https://twitter.com/reach_vb/status/1742261240141918684 %}
+
+[nvidia/parakeet-rnnt-1.1b](https://huggingface.co/nvidia/parakeet-rnnt-1.1b)
+
+{% twitter https://twitter.com/bclavie/status/1742950315278672040 %}
+
+[bclavie/RAGatouille](https://github.com/bclavie/RAGatouille)
+
+[colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0)
+
+{% twitter https://twitter.com/lateinteraction/status/1736804963760976092 %}
+
+[Hallucinations in Neural Automatic Speech Recognition: Identifying Errors and Hallucinatory Models](https://arxiv.org/abs/2401.01572)
+
+[LLM Augmented LLMs: Expanding Capabilities through Composition](https://arxiv.org/abs/2401.02412)
+
+{% twitter https://twitter.com/jerryjliu0/status/1743077679258320925 %}
+
+[Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory](https://arxiv.org/abs/2310.20360)
+
+{% twitter https://twitter.com/_philschmid/status/1742888388401811795 %}
+
+[This AI Paper from Meta Introduces Hyper-VolTran: A Novel Neural Network for Transformative 3D Reconstruction and Rendering](https://www.marktechpost.com/2024/01/03/this-ai-paper-from-mete-introduces-hyper-voltran-a-novel-neural-network-for-transformative-3d-reconstruction-and-rendering/)
+
+[Phi-2: The surprising power of small language models](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
 
