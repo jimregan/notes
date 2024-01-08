@@ -152,3 +152,10 @@ categories: [links]
 
 [Phi-2: The surprising power of small language models](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
 
+[From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations](https://arxiv.org/abs/2401.01885)
+
+[MotionScript: Natural Language Descriptions for Expressive 3D Human Motions](https://arxiv.org/abs/2312.12634)
+
+[pjyazdian/Gesture2Vec](https://github.com/pjyazdian/Gesture2Vec) --- This is an official PyTorch implementation of "Gesture2Vec: Clustering Gestures using Representation Learning Methods for Co-speech Gesture Generation" (IROS 2022).
+
+
