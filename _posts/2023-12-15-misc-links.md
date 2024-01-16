@@ -118,4 +118,10 @@ Horrible licence.
 
 [MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)
 
+[drlukeparry/pyslm](https://github.com/drlukeparry/pyslm) --- PySLM: A Python Library for 3D Printing and Additive Manufacturing
+
+[3D Printing for Vocal-Tract Models](https://splab.net/apd/v100/)
+
+[open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
+
 
