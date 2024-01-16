@@ -112,4 +112,10 @@ Horrible licence.
 
 {% twitter https://twitter.com/ednewtonrex/status/1724902327151452486 %}
 
+[Mixtral of Experts](https://arxiv.org/abs/2401.04088)
+
+[ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model](https://arxiv.org/abs/2304.01116)
+
+[MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)
+
 
