@@ -118,8 +118,6 @@ categories: [links]
 
 [Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906)
 
-{% twitter https://twitter.com/din0s_/status/1742235150530851120 %}
-
 [Advanced RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
 
 {% twitter https://twitter.com/_akhaliq/status/1742757369895960950 %}
