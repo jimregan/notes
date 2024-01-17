@@ -126,4 +126,6 @@ Horrible licence.
 
 [ochen1/insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) --- The fastest Whisper optimization for automatic speech recognition as a command-line interface
 
+[geekodour/wscribe](https://github.com/geekodour/wscribe) --- ez audio transcription tool with flexible processing and post-processing options
+
 
