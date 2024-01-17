@@ -124,4 +124,6 @@ Horrible licence.
 
 [open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
 
+[ochen1/insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) --- The fastest Whisper optimization for automatic speech recognition as a command-line interface
+
 
