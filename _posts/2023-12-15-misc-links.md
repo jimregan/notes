@@ -128,4 +128,8 @@ Horrible licence.
 
 [geekodour/wscribe](https://github.com/geekodour/wscribe) --- ez audio transcription tool with flexible processing and post-processing options
 
+[SYSTRAN/fuzzy-match](https://github.com/SYSTRAN/fuzzy-match) --- Library and command line utility to do approximate string matching of a source against a bitext index and get matched source and target.
+
+[SYSTRAN/similarity](https://github.com/SYSTRAN/similarity) --- Bilingual sentence similarity classifier using Tensorflow
+
 
