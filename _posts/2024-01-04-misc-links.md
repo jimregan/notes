@@ -158,4 +158,10 @@ categories: [links]
 
 [neuromorphs/NIR](https://github.com/neuromorphs/NIR) --- Neuromorphic Intermediate Representation reference implementation
 
+[Better Explained](https://betterexplained.com/)
+
+[PEFT for Speech: Unveiling Optimal Placement, Merging Strategies, and Ensemble Techniques](https://arxiv.org/abs/2401.02122)
+
+[What You See is What You GAN: Rendering Every Pixel for High-Fidelity Geometry in 3D GANs](https://arxiv.org/abs/2401.02411)
+
 
