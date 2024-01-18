@@ -186,4 +186,5 @@ categories: [links]
 
 [My AI Timelines Have Sped Up (Again)](https://www.alexirpan.com/2024/01/10/ai-timelines-2024.html)
 
+[NeMo - ASR with Transducers](https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/ASR_with_Transducers.ipynb)
 
