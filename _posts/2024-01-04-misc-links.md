@@ -156,4 +156,6 @@ categories: [links]
 
 [pjyazdian/Gesture2Vec](https://github.com/pjyazdian/Gesture2Vec) --- This is an official PyTorch implementation of "Gesture2Vec: Clustering Gestures using Representation Learning Methods for Co-speech Gesture Generation" (IROS 2022).
 
+[neuromorphs/NIR](https://github.com/neuromorphs/NIR) --- Neuromorphic Intermediate Representation reference implementation
+
 
