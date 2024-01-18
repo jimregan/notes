@@ -192,3 +192,13 @@ categories: [links]
 
 [Foundations of Vector Retrieval](https://arxiv.org/abs/2401.09350)
 
+[GARField: Group Anything with Radiance Fields](https://arxiv.org/abs/2401.09419)
+
+[AlphaGeometry: An Olympiad-level AI system for geometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/),
+[code](https://github.com/google-deepmind/alphageometry)
+
+{% twitter https://twitter.com/francoisfleuret/status/1748011011590799462 %}
+
+[SceneVerse: Scaling 3D Vision-Language Learning for Grounded Scene Understanding](https://arxiv.org/abs/2401.09340)
+
+[Tuning Language Models by Proxy](https://arxiv.org/abs/2401.08565)
