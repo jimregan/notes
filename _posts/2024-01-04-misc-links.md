@@ -188,3 +188,6 @@ categories: [links]
 
 [NeMo - ASR with Transducers](https://colab.research.google.com/github/NVIDIA/NeMo/blob/stable/tutorials/asr/ASR_with_Transducers.ipynb)
 
+[Mixtral 8x7B is currently the best open-source LLM, surpassing GPT-3.5](https://the-decoder.com/mixtral-8x7b-is-currently-the-best-open-source-llm-surpassing-gpt-3-5/)
+
+
