@@ -164,4 +164,26 @@ categories: [links]
 
 [What You See is What You GAN: Rendering Every Pixel for High-Fidelity Geometry in 3D GANs](https://arxiv.org/abs/2401.02411)
 
+{% twitter https://twitter.com/lateinteraction/status/1743009556521975893 %}
+
+[100 tiny changes to transform your life: from the one-minute rule to pyjama yoga](https://www.theguardian.com/lifeandstyle/2024/jan/01/100-tiny-changes-to-transform-your-life-from-the-one-minute-rule-to-pyjama-yoga)
+
+[This Paper from MIT and Microsoft Introduces ‘LASER’: A Novel Machine Learning Approach that can Simultaneously Enhance an LLM’s Task Performance and Reduce its Size with no Additional Training](https://www.marktechpost.com/2024/01/02/this-paper-from-mit-and-microsoft-introduces-laser-a-novel-machine-learning-approach-that-can-simultaneously-enhance-an-llms-task-performance-and-reduce-its-size-with-no-additional-training/)
+
+[The Truth is in There: Improving Reasoning in Language Models with Layer-Selective Rank Reduction](https://arxiv.org/abs/2312.13558)
+
+[Decoder-only Architecture for Speech Recognition with CTC Prompts and Text Data Augmentation](https://arxiv.org/abs/2309.08876)
+
+[LiteLlama: Reduced-Scale Llama](https://huggingface.co/ahxt/LiteLlama-460M-1T) --- We present an open-source reproduction of Meta AI's LLaMa 2. However, with significantly reduced model sizes, LiteLlama-460M-1T has 460M parameters trained with 1T tokens.
+
+[Token 1.3: What is Retrieval-Augmented Generation (RAG)?](https://www.turingpost.com/p/rag)
+
+[VikParuchuri/surya](https://github.com/VikParuchuri/surya) --- Accurate line-level text detection and recognition (OCR) in any language
+
+[gchrupala/neurospoken](https://github.com/gchrupala/neurospoken) --- Neural models of spoken language - LOT Winter school 2024
+
+{% twitter https://twitter.com/ChristophMolnar/status/1745731602682982675 %}
+
+[My AI Timelines Have Sped Up (Again)](https://www.alexirpan.com/2024/01/10/ai-timelines-2024.html)
+
 
