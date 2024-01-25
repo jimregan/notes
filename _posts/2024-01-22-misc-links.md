@@ -54,4 +54,10 @@ categories: [links]
 
 [alibaba-damo-academy/3D-Speaker](https://github.com/alibaba-damo-academy/3D-Speaker) --- A repository for single- and multi-modal speaker verification, speaker recognition and speaker diarization.
 
+[vjeronymo2/mColBERT](https://huggingface.co/vjeronymo2/mColBERT)
+
+[Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-w2v2-bert)
+
+[lucidrains/voicebox-pytorch](https://github.com/lucidrains/voicebox-pytorch) --- Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
+
 
