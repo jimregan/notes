@@ -50,4 +50,8 @@ categories: [links]
 
 [DmitryRyumin/INTERSPEECH-2023-Papers](https://github.com/DmitryRyumin/INTERSPEECH-2023-Papers)
 
+[wenet-e2e/wespeaker](https://github.com/wenet-e2e/wespeaker) --- Research and Production Oriented Speaker Recognition Toolkit
+
+[alibaba-damo-academy/3D-Speaker](https://github.com/alibaba-damo-academy/3D-Speaker) --- A repository for single- and multi-modal speaker verification, speaker recognition and speaker diarization.
+
 
