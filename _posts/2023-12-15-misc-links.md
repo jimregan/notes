@@ -112,4 +112,24 @@ Horrible licence.
 
 {% twitter https://twitter.com/ednewtonrex/status/1724902327151452486 %}
 
+[Mixtral of Experts](https://arxiv.org/abs/2401.04088)
+
+[ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model](https://arxiv.org/abs/2304.01116)
+
+[MahmoudAshraf97/whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)
+
+[drlukeparry/pyslm](https://github.com/drlukeparry/pyslm) --- PySLM: A Python Library for 3D Printing and Additive Manufacturing
+
+[3D Printing for Vocal-Tract Models](https://splab.net/apd/v100/)
+
+[open-mmlab/mmpose](https://github.com/open-mmlab/mmpose)
+
+[ochen1/insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli) --- The fastest Whisper optimization for automatic speech recognition as a command-line interface
+
+[geekodour/wscribe](https://github.com/geekodour/wscribe) --- ez audio transcription tool with flexible processing and post-processing options
+
+[SYSTRAN/fuzzy-match](https://github.com/SYSTRAN/fuzzy-match) --- Library and command line utility to do approximate string matching of a source against a bitext index and get matched source and target.
+
+[SYSTRAN/similarity](https://github.com/SYSTRAN/similarity) --- Bilingual sentence similarity classifier using Tensorflow
+
 
