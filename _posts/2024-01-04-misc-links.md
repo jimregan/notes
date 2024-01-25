@@ -114,7 +114,7 @@ categories: [links]
 
 [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) --- [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
 
-{% youtube https://www.youtube.com/watch?v=7R6SITSeiRo %}
+[Flip - Glass Animals](https://www.youtube.com/watch?v=7R6SITSeiRo)
 
 [Simplifying Transformer Blocks](https://arxiv.org/abs/2311.01906)
 
