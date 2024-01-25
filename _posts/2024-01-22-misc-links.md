@@ -45,3 +45,9 @@ categories: [links]
 [no code yet](https://github.com/thu-ml/Bridge-TTS)
 
 [GAIA: Zero-shot Talking Avatar Generation](https://arxiv.org/abs/2311.15230)
+
+[Speaker and Language Change Detection using Wav2vec2 and Whisper](https://arxiv.org/abs/2302.09381)
+
+[DmitryRyumin/INTERSPEECH-2023-Papers](https://github.com/DmitryRyumin/INTERSPEECH-2023-Papers)
+
+
