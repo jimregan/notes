@@ -1,6 +1,12 @@
 TDNN-LSTM-CTC — icefall 0.1 documentation
 https://icefall.readthedocs.io/en/latest/recipes/Non-streaming-ASR/timit/tdnn_lstm_ctc.html
 
+cobcom / WL-align · GitLab
+https://gitlab.inria.fr/cobcom/wlalign
+
+Alignment module — WL-align 1.0.0.post2 documentation
+https://wl-align.readthedocs.io/en/latest/api.html#module-wlalign.utils
+
 Tutorial — NetworkX 3.2.1 documentation
 https://networkx.org/documentation/stable/tutorial.html#multigraphs
 
@@ -67,9 +73,6 @@ https://huggingface.co/datasets/z-uo/female-LJSpeech-italian/blob/main/metadata_
 Parkinsons - UCI Machine Learning Repository
 https://archive.ics.uci.edu/dataset/174/parkinsons
 
-That's What She Said Quote Essential T-Shirt T-shirt sold by ChristinWesley | SKU 4598901 | Printerval
-https://printerval.com/thats-what-she-said-quote-essential-t-shirt-t-shirt-p4598901?tr=&adgroupid=&campaignid=20419836695&gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5p9Tn8YNOkhkcM7zOynNfUPxw7uuWRRsOmdhenGGI0VIUgCb2_RuZ8RoCGe0QAvD_BwE
-
 Series 16 Outtakes - Part 2 | Taskmaster - YouTube
 https://www.youtube.com/watch?v=F2dqiPKAZSA
 
@@ -123,9 +126,6 @@ https://discuss.huggingface.co/t/train-t5-from-scratch/1781
 
 lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
 https://github.com/lingjzhu/CharsiuG2P
-
-speechbrain/speechbrain: A PyTorch-based Speech Toolkit
-https://github.com/speechbrain/speechbrain
 
 speechbrain/soundchoice-g2p · Hugging Face
 https://huggingface.co/speechbrain/soundchoice-g2p
@@ -217,26 +217,11 @@ https://github.com/ml-explore/
 ml-explore/mlx: MLX: An array framework for Apple silicon
 https://github.com/ml-explore/mlx
 
-Build and Install — MLX 0.0.3 documentation
+Build and Install — MLX 0.0.7 documentation
 https://ml-explore.github.io/mlx/build/html/install.html
-
-ml-explore/mlx: MLX: An array framework for Apple silicon
-https://github.com/ml-explore/mlx/tree/main
-
-mlx-examples/transformer_lm at main · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/tree/main/transformer_lm
-
-mlx-examples/stable_diffusion/stable_diffusion/clip.py at main · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/blob/main/stable_diffusion/stable_diffusion/clip.py
 
 mlx-examples/whisper/whisper/decoding.py at main · ml-explore/mlx-examples
 https://github.com/ml-explore/mlx-examples/blob/main/whisper/whisper/decoding.py
-
-mlx-examples/mnist/main.py at main · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/blob/main/mnist/main.py
-
-lucidrains (lucidrains) / Repositories
-https://github.com/lucidrains?tab=repositories
 
 lucidrains/meshgpt-pytorch: Implementation of MeshGPT, SOTA Mesh generation using Attention, in Pytorch
 https://github.com/lucidrains/meshgpt-pytorch
@@ -982,14 +967,8 @@ https://varldensbibliotek.se/
 Om LB | Litteraturbanken
 https://litteraturbanken.se/om/english.html
 
-Astrid Lindgren – Kati i Paris. Om boken | Litteraturbanken
-https://litteraturbanken.se/f%C3%B6rfattare/LindgrenA/titlar/KatiIParis/etext?om-boken
-
 LIBRIS - Kati i Paris
 https://libris.kb.se/bib/22272189
-
-Astrid Lindgren – Kati i Paris. Om boken | Litteraturbanken
-https://litteraturbanken.se/f%C3%B6rfattare/LindgrenA/titlar/KatiIParis/sida/3/etext?om-boken
 
 Biblioteket – Titlar och författare | Litteraturbanken
 https://litteraturbanken.se/bibliotek
@@ -1012,12 +991,6 @@ https://github.com/roedoejet/g2p
 PyTorch for TensorFlow Users - A Minimal Diff
 https://www.kilians.net/post/from-tensorflow-to-pytorch/
 
-2401.00737.pdf
-https://arxiv.org/pdf/2401.00737.pdf
-
-Legend of the Seeker (2008)
-https://www.imdb.com/title/tt0844653/mediaviewer/rm1095116032/
-
 Musashi Did NOT Invent the Two-Katana Style | Dual Wielding of Asayama Ichiden Ryu - YouTube
 https://www.youtube.com/watch?v=DOu645PsbAY
 
@@ -1029,9 +1002,6 @@ https://github.com/OML-Team/open-metric-learning
 
 argilla-io/notus: Notus is a collection of fine-tuned LLMs using SFT, DPO, SFT+DPO, and/or any other RLHF techniques, while always keeping a data-first approach
 https://github.com/argilla-io/notus
-
-SHI-Labs/VCoder: VCoder: Versatile Vision Encoders for Multimodal Large Language Models, arXiv 2023
-https://github.com/SHI-Labs/VCoder
 
 dreamoving/dreamoving-project: Official implementation of DreaMoving
 https://github.com/dreamoving/dreamoving-project?s=09
@@ -1047,4 +1017,5 @@ https://smerf-3d.github.io/?s=09
 
 Dataflowr - Deep Learning DIY
 https://dataflowr.github.io/website/modules/12-attention/?s=09
+
 
