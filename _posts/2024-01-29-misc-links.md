@@ -7,7 +7,8 @@ title: Interesting links, 29/01/2024
 categories: [links]
 ---
 
-[Gaussian Adaptive Attention is All You Need: Robust Contextual Representations Across Multiple Modalities](https://arxiv.org/abs/2401.11143)
+[Gaussian Adaptive Attention is All You Need: Robust Contextual Representations Across Multiple Modalities](https://arxiv.org/abs/2401.11143),
+[code](https://github.com/gioannides/Gaussian-Adaptive-Attention)
 
 [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)
 
