@@ -20,3 +20,8 @@ categories: [links]
 
 [makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch](https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch)
 
+[VALL-T: Decoder-Only Generative Transducer for Robust and Decoding-Controllable Text-to-Speech](https://arxiv.org/abs/2401.14321)
+
+[resemble-ai/Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
+
+
