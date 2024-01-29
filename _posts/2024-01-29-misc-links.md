@@ -12,4 +12,11 @@ categories: [links]
 
 [EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)
 
+{% twitter https://twitter.com/rasbt/status/1750180720964690218 %}
+
+[The Brain Processes Speech in Parallel With Other Sounds](https://www.quantamagazine.org/the-brain-processes-speech-in-parallel-with-other-sounds-20211021/)
+
+[SonicVisionLM](https://yusiissy.github.io/SonicVisionLM.github.io/) --- no paper, no code
+
+[makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch](https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch)
 
