@@ -10,7 +10,8 @@ categories: [links]
 [Gaussian Adaptive Attention is All You Need: Robust Contextual Representations Across Multiple Modalities](https://arxiv.org/abs/2401.11143),
 [code](https://github.com/gioannides/Gaussian-Adaptive-Attention)
 
-[EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077)
+[EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/abs/2401.15077),
+[code](https://github.com/SafeAILab/EAGLE)
 
 {% twitter https://twitter.com/rasbt/status/1750180720964690218 %}
 
