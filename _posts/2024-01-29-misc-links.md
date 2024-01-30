@@ -25,4 +25,16 @@ categories: [links]
 
 [resemble-ai/Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
 
+[ml-explore/mlx](https://github.com/ml-explore/mlx)
+
+[lucidrains/meshgpt-pytorch](https://github.com/lucidrains/meshgpt-pytorch) --- Implementation of MeshGPT, SOTA Mesh generation using Attention, in Pytorch
+
+[Real-time speech MRI datasets with corresponding articulator ground-truth segmentations](https://www.nature.com/articles/s41597-023-02766-z),
+[code](https://github.com/BartsMRIPhysics/Speech_MRI_2D_UNet),
+[data](https://zenodo.org/records/7595164),
+[weights](https://drive.google.com/drive/folders/1f9OLQkovyrQJv1TCNO5k2peT2HJYt5Nb?usp=sharing)
+
+[A multispeaker dataset of raw and reconstructed speech production real-time MRI video and 3D volumetric images](https://www.nature.com/articles/s41597-021-00976-x),
+[data](https://figshare.com/articles/dataset/A_multispeaker_dataset_of_raw_and_reconstructed_speech_production_real-time_MRI_video_and_3D_volumetric_images/13725546/1)
+
 
