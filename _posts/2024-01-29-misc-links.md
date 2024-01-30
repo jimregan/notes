@@ -37,5 +37,3 @@ categories: [links]
 [A multispeaker dataset of raw and reconstructed speech production real-time MRI video and 3D volumetric images](https://www.nature.com/articles/s41597-021-00976-x),
 [data](https://figshare.com/articles/dataset/A_multispeaker_dataset_of_raw_and_reconstructed_speech_production_real-time_MRI_video_and_3D_volumetric_images/13725546/1)
 
-[ReMoS: Reactive 3D Motion Synthesis for Two-Person Interactions](https://arxiv.org/abs/2311.17057)
-
