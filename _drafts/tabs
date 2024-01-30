@@ -241,11 +241,17 @@ https://huyenchip.com/2023/04/11/llm-engineering.html
 apptainer/singularity: Singularity has been renamed to Apptainer as part of us moving the project to the Linux Foundation. This repo has been persisted as a snapshot right before the changes.
 https://github.com/apptainer/singularity
 
-apptainer/apptainer: Apptainer: Application containers for Linux
-https://github.com/apptainer/apptainer?tab=readme-ov-file
+apptainer/internal/pkg/fakeroot/fakeroot.go at main · apptainer/apptainer
+https://github.com/apptainer/apptainer/blob/main/internal/pkg/fakeroot/fakeroot.go
 
-apptainer/apptainer-userdocs
-https://github.com/apptainer/apptainer-userdocs
+Linux Foundation | Browse Projects
+https://www.linuxfoundation.org/projects
+
+Introducing kepler.gl 3.0 | OpenJS Foundation
+https://openjsf.org/blog/whats-new-in-the-keplergl-30-application
+
+Projects – Open 3D Foundation
+https://o3d.foundation/all-projects/
 
 Phone groups — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phone_groups.html
@@ -1051,16 +1057,31 @@ https://github.com/mohaEs/Train-Predict-Landmarks-by-MCAM?tab=readme-ov-file
 Automatic vocal tract landmark localization from midsagittal MRI data | Scientific Reports
 https://www.nature.com/articles/s41598-020-58103-6
 
-clip machine learning joint vectors -image - Google Search
-https://www.google.com/search?q=clip+machine+learning+joint+vectors+-image&sca_esv=7e89cde5b44aebc3&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_SgA3SeCpI-pSNK18_tRwHSGNZwA%3A1706608537105&ei=mce4ZevmBeuF1fIPwKq8wAY&ved=0ahUKEwirl_-c7ISEAxXrQlUIHUAVD2gQ4dUDCBA&uact=5&oq=clip+machine+learning+joint+vectors+-image&gs_lp=Egxnd3Mtd2l6LXNlcnAiKmNsaXAgbWFjaGluZSBsZWFybmluZyBqb2ludCB2ZWN0b3JzIC1pbWFnZUjeDFDWAVjaC3ABeAGQAQCYAW2gAbADqgEDNi4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBRAhGKAB4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp#ip=1
+Multimodal dataset of real-time 2D and static 3D MRI of healthy French speakers | Scientific Data
+https://www.nature.com/articles/s41597-021-01041-3
 
-pdf
-https://openreview.net/pdf?id=SJZAb5cel
+Patient 2
+https://springernature.figshare.com/articles/dataset/Patient_2/14822667?backTo=/collections/Multimodal_dataset_of_real-time_2D_and_static_3D_MRI_of_healthy_French_speakers/5270387
 
-Towards in silico CLIP-seq: predicting protein-RNA interaction via sequence-to-signal learning - PMC
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10403857/
+Table 2 Speech experiment stimuli for 2D RT-MRI.
+https://www.nature.com/articles/s41597-021-00976-x/tables/3
 
-mccree_jhu_hltcoe.dvi
-https://hltcoe.jhu.edu/wp-content/uploads/2016/10/McCree_Sell_Garcia-Romero_2016A.pdf
+A multispeaker dataset of raw and reconstructed speech production real-time MRI video and 3D volumetric images
+https://figshare.com/articles/dataset/A_multispeaker_dataset_of_raw_and_reconstructed_speech_production_real-time_MRI_video_and_3D_volumetric_images/13725546/1
+
+Real-time speech MRI datasets with corresponding articulator ground-truth segmentations | Scientific Data
+https://www.nature.com/articles/s41597-023-02766-z
+
+BartsMRIPhysics/Speech_MRI_2D_UNet: Deep-learning-based segmentation of 2D real-time magnetic resonance images of the vocal tract during speech
+https://github.com/BartsMRIPhysics/Speech_MRI_2D_UNet?tab=readme-ov-file
+
+A multi-speaker dataset of real-time two-dimensional speech magnetic resonance images with articulator ground-truth segmentations
+https://zenodo.org/records/7595164
+
+Network Weights - Google Drive
+https://drive.google.com/drive/folders/1f9OLQkovyrQJv1TCNO5k2peT2HJYt5Nb
+
+A multi-speaker dataset of real-time two-dimensional speech magnetic resonance images with articulator ground-truth segmentations
+https://zenodo.org/records/7595164
 
 
