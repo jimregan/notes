@@ -88,15 +88,6 @@ http://stutspeech.adaptcentre.ie/eval_saami_tts//stage/direct_auth/login/
 ValueError: You can't train a model that has been loaded in 8-bit precision on multiple devices. · Issue #1515 · huggingface/accelerate
 https://github.com/huggingface/accelerate/issues/1515
 
-How to disable model parallelism and enable data parallelism when using Accelerate and `device_map='auto'`? · Issue #21736 · huggingface/transformers
-https://github.com/huggingface/transformers/issues/21736
-
-Getting Started - DeepSpeed
-https://www.deepspeed.ai/getting-started/
-
-Suggestion to add the "Detect language" option to the Whisper language options · Issue #6972 · SubtitleEdit/subtitleedit
-https://github.com/SubtitleEdit/subtitleedit/issues/6972
-
 Train T5 from scratch - 🤗Transformers - Hugging Face Forums
 https://discuss.huggingface.co/t/train-t5-from-scratch/1781
 
@@ -107,7 +98,7 @@ speechbrain/soundchoice-g2p · Hugging Face
 https://huggingface.co/speechbrain/soundchoice-g2p
 
 The spelled-out intro to neural networks and backpropagation: building micrograd - YouTube
-https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=4
+https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=5
 
 NeMo/tutorials/tts/FastPitch_MixerTTS_Training.ipynb at main · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_MixerTTS_Training.ipynb
@@ -1077,23 +1068,5 @@ https://drive.google.com/drive/folders/1f9OLQkovyrQJv1TCNO5k2peT2HJYt5Nb
 
 A multi-speaker dataset of real-time two-dimensional speech magnetic resonance images with articulator ground-truth segmentations
 https://zenodo.org/records/7595164
-
-can't accept drum and bass we need jungle - Google Search
-https://www.google.com/search?sca_esv=8add31af34f47e86&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_ly2dpUj_DhpN5byrzYj66DQHuDQ:1706620200220&q=can%27t+accept+drum+and+bass+we+need+jungle&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjqrLPWl4WEAxXCKhAIHfwTCJIQ0pQJegQIDRAB&biw=1440&bih=698&dpr=2
-
-can't accept drum and bass we need jungle - Google Search
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fedmidentity.com%2Fwp-content%2Fuploads%2F2024%2F01%2FAmol-Rajan-University-of-Aberdeen-Girl-1.jpg&tbnid=xGkb0M0hCKEbOM&vet=12ahUKEwjBgazAmIWEAxWsHBAIHSE7As8QMygIegQIARBl..i&imgrefurl=https%3A%2F%2Fedmidentity.com%2F2024%2F01%2F09%2Famol-rajan-jungle-drum-and-bass%2F&docid=jVrjJ7erAjXa4M&w=2000&h=1500&q=can%27t%20accept%20drum%20and%20bass%20we%20need%20jungle&ved=2ahUKEwjBgazAmIWEAxWsHBAIHSE7As8QMygIegQIARBl
-
-Junglists are Sampling Amol Rajan's Viral "I Can't Accept Drum and Bass" Quote | EDM Identity
-https://edmidentity.com/2024/01/09/amol-rajan-jungle-drum-and-bass/
-
-‘I can’t accept drum and bass’: Fans remix Amol Rajan’s University Challenge response | The Independent
-https://www.independent.co.uk/arts-entertainment/tv/news/university-challenge-drum-bass-jungle-remix-b2475549.html
-
-Emily Osborne🇻🇳 (@emilyxosborne) • Instagram photos and videos
-https://www.instagram.com/emilyxosborne/?hl=en
-
-TikTok - Make Your Day
-https://www.tiktok.com/discover/university-challenge-jungle-emily-osborne
 
 
