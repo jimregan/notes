@@ -29,4 +29,10 @@ categories: [links]
 
 [arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) --- Tools for merging pretrained large language models.
 
+[OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer](https://arxiv.org/abs/2401.16658)
+
+[E-Branchformer: Branchformer with Enhanced merging for speech recognition](https://arxiv.org/abs/2210.00077)
+
+[PAM: Prompting Audio-Language Models for Audio Quality Assessment](https://arxiv.org/abs/2402.00282),
+[no code yet](https://github.com/soham97/PAM)
 
