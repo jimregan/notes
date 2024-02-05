@@ -27,4 +27,6 @@ categories: [links]
 
 [RAIVNLab/MatFormer-OLMo](https://github.com/RAIVNLab/MatFormer-OLMo) --- Code repository for the public reproduction of the language modelling experiments on "MatFormer: Nested Transformer for Elastic Inference"
 
+[arcee-ai/mergekit](https://github.com/arcee-ai/mergekit) --- Tools for merging pretrained large language models.
+
 
