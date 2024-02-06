@@ -127,47 +127,20 @@ https://app.mondly.com/home/5/lessons/505
 OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
 https://arxiv.org/pdf/2401.16658.pdf
 
-WAVLab | Open Whisper-style Speech Models (OWSM)
-https://www.wavlab.org/activities/2024/owsm/
-
 espnet/owsm_v3.1_ebf · Hugging Face
 https://huggingface.co/espnet/owsm_v3.1_ebf
 
+OWSM Demo - a Hugging Face Space by pyf98
+https://huggingface.co/spaces/pyf98/OWSM_v3_demo
+
 Pull requests · espnet/espnet
 https://github.com/espnet/espnet/pulls
-
-init owsm v3.1 recipe · espnet/espnet@a735790
-https://github.com/espnet/espnet/commit/a735790f5138c8a898067c71a2f7344e6e6052a4
 
 SSL w/o torchaudio dependency by wanchichen · Pull Request #5537 · espnet/espnet
 https://github.com/espnet/espnet/pull/5537
 
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls
-
 espnet/espnet2/asr_transducer/beam_search_transducer.py at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/espnet2/asr_transducer/beam_search_transducer.py
-
-Alignment-Length Synchronous Decoding for RNN Transducer | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/9053040
-
-Pull request search results
-https://github.com/search?q=repo%3Aespnet%2Fespnet+state+spaces&type=pullrequests
-
-[WIP] Add S4 decoder in ESPnet2 by m-koichi · Pull Request #4845 · espnet/espnet
-https://github.com/espnet/espnet/pull/4845/files#diff-d42e616b6aa4a81f1c284e32223506e87feb05f8fc16ef162a705c121aaf0cf0
-
-state-spaces/mamba
-https://github.com/state-spaces/mamba?tab=readme-ov-file
-
-state-spaces/mamba
-https://github.com/state-spaces/mamba
-
-2111.00396.pdf
-https://arxiv.org/pdf/2111.00396.pdf
-
-Update README.md related to ASR architecture by m-koichi · Pull Request #4865 · espnet/espnet
-https://github.com/espnet/espnet/pull/4865
 
 CTC Segmentation for ESPnet 2 by lumaku · Pull Request #3087 · espnet/espnet
 https://github.com/espnet/espnet/pull/3087
@@ -232,125 +205,11 @@ https://en.wikipedia.org/wiki/Nasreddin
 CRDO/COCOON: metadata: Histoire de l'âne de Nasreddin Hodja en suédois
 https://cocoon.huma-num.fr/exist/crdo/meta/cocoon-6052edb5-9a20-4380-82f3-8274ca723b25
 
-[Herr Arnes Penningar] / [Selma Lagerlöf], aut. ; [Melle Krantz], voix | CLARIN VLO
-https://vlo.clarin.eu/record/oai_58_crdo.vjf.cnrs.fr_58_cocoon-48dad082-e4d8-4ce8-9ad0-82e4d8bce8f1?5&q=swedish&fqType=resourceClass:or&fq=resourceClass:audio&index=3&count=16
-
-ELG - NST Swedish Speech Synthesis (44 kHz)
-https://live.european-language-grid.eu/catalogue/corpus/12330
-
-nst_swedish_tts.py · jimregan/nst_swedish_tts at main
-https://huggingface.co/datasets/jimregan/nst_swedish_tts/blob/main/nst_swedish_tts.py
-
-speechdat.py · KTH/speechdat at main
-https://huggingface.co/datasets/KTH/speechdat/blob/main/speechdat.py
-
-speechdat.json · KTH/speechdat at main
-https://huggingface.co/datasets/KTH/speechdat/blob/main/speechdat.json
-
-Ressurser fra ressursbanken Archive - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/?_type=tale&_paged=3
-
-Stortinget Speech Corpus version 1.0 - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-91/
-
-Lingit uttaleleksikon for nynorsk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-65/
-
-LIA sápmi - LIA-korpuset for samiske dialekter - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-tekstlab-uio-no-lia-sapmi/
-
-NLB uttaleleksikon for bokmål - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-52/
+LIA-korpuset
+https://tekstlab.uio.no/LIA/samisk/index.html
 
 Målfrid 2021 - Fritt tilgjengelege tekster frå norske statlege nettsider - Språkbanken
 https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-69/
-
-Summary of the terms of the Norwegian license for public data (NLOD)
-https://data.norge.no/nlod/no
-
-NB_Uttale_Work_on_Dialects.pdf
-https://www.nb.no/sbfil/uttaleleksikon/NB_Uttale_Work_on_Dialects.pdf
-
-Tuva Speech Database - The Language Bank
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-44/
-
-NB Tale - taledatabase for norsk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-31/
-
-NST uttaleleksikon for bokmål - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-23/
-
-NST uttaleleksikon for svensk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-22/
-
-N-gram - svensk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-11/#corpus-info
-
-Kobling mellom norske kommuner og dialektregioner - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-92/
-
-dialect_mapping.pdf
-https://www.nb.no/sbfil/talegjenkjenning/dialektmapping/dialect_mapping.pdf
-
-merge-crew (Merge Crew)
-https://huggingface.co/merge-crew
-
-merge-crew/MOE-SWE-DAN-NO-CODE · Hugging Face
-https://huggingface.co/merge-crew/MOE-SWE-DAN-NO-CODE
-
-merge-crew/munin-neuralbeagle-7b-density-low · Hugging Face
-https://huggingface.co/merge-crew/munin-neuralbeagle-7b-density-low
-
-merge-crew/Scandi3 · Hugging Face
-https://huggingface.co/merge-crew/Scandi3
-
-Mainland Scandinavian NLG
-https://scandeval.com/mainland-scandinavian-nlg/
-
-danish-foundation-models/munin-7b-alpha · Hugging Face
-https://huggingface.co/danish-foundation-models/munin-7b-alpha
-
-Danish Gigaword
-https://gigaword.dk/
-
-baphomet - Google Search
-https://www.google.com/search?sca_esv=1e69a4e84dfc1d5f&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn09lqhfQQd-9aqhAbRdoc3zAIxzxfQ:1707149991987&q=baphomet&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiCzOamzZSEAxVAR1UIHYlJALQQ0pQJegQIDhAB&biw=1440&bih=732&dpr=2#imgrc=Es7PjZGqJTho0M
-
-Decoding the symbols on Satan's statue - BBC News
-https://www.bbc.com/news/magazine-33682878
-
-Instagram
-https://www.instagram.com/
-
-Asian Jim | Dunderpedia: The Office Wiki | Fandom
-https://theoffice.fandom.com/wiki/Asian_Jim
-
-create tar from directory - Google Search
-https://www.google.com/search?q=create+tar+from+directory&rlz=1C5GCEM_enSE990SE991&oq=create+tar+&gs_lcrp=EgZjaHJvbWUqBwgDEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM4NzdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-TMH Monday lunch meeting protocols Apr 2019– - Google Docs
-https://docs.google.com/document/d/1R53CwfrIrSiXrgLc0s7m-DZHrz9OPYp-V_c-ve97l0w/edit
-
-Monday Meeting and Kitchen/Fika Schedule - Google Sheets
-https://docs.google.com/spreadsheets/d/1urxiIj-NeSHR82lr9f1XPP2uC6KBjldBaaJNe-trKng/edit#gid=693630240
-
-log softmax - Google Search
-https://www.google.com/search?q=log+softmax&rlz=1C5GCEM_enSE990SE991&oq=log+so&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRhBMgYIBxBFGEHSAQgxODU1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Softmax vs LogSoftmax. softmax is a mathematical function… | by Abhirami V S | Medium
-https://medium.com/@AbhiramiVS/softmax-vs-logsoftmax-eb94254445a2
-
-LogSoftmax — PyTorch 2.2 documentation
-https://pytorch.org/docs/stable/generated/torch.nn.LogSoftmax.html
-
-Instagram
-https://www.instagram.com/
-
-Code search results
-https://github.com/search?q=repo%3Ahuggingface%2Ftransformers%20beam%20search&type=code
-
-History for src/transformers/generation/beam_search.py - huggingface/transformers
-https://github.com/huggingface/transformers/commits/ba3264b4e8125a798d61eb6f663b5c423be1b957/src/transformers/generation/beam_search.py
 
 Fix remaining issues in beam score calculation (#27808) · huggingface/transformers@b31905d
 https://github.com/huggingface/transformers/commit/b31905d1f61034bb147466ba7fd281ab668e8333
@@ -375,9 +234,6 @@ https://aclanthology.org/N18-1119/
 
 2023.findings-emnlp.789.pdf
 https://aclanthology.org/2023.findings-emnlp.789.pdf
-
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
 
 Diff-HierVC Demo
 https://diff-hiervc.github.io/audio_demo/
