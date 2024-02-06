@@ -37,10 +37,7 @@ https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&sec
 Book-Catalogue/src/com/eleybourn/bookcatalogue/amazon/AmazonUtils.java at master · eleybourn/Book-Catalogue · GitHub
 https://github.com/eleybourn/Book-Catalogue/blob/master/src/com/eleybourn/bookcatalogue/amazon/AmazonUtils.java
 
-Home - Axema
-https://axema.se/en/hem-english/
-
-text_search/examples/libriheavy at master · k2-fsa/text_search · GitHub
+text_search/examples/libriheavy at master · k2-fsa/text_search
 https://github.com/k2-fsa/text_search/tree/master/examples/libriheavy
 
 200 languages within a single AI model: A breakthrough in high-quality machine translation
@@ -48,9 +45,6 @@ https://ai.meta.com/blog/nllb-200-high-quality-machine-translation/
 
 Content translation - MediaWiki
 https://m.mediawiki.org/wiki/Content_translation
-
-Zed Code Editor Now Open-Source - Phoronix
-https://www.phoronix.com/news/Zed-Editor-Open-Source
 
 Paper page - MM-LLMs: Recent Advances in MultiModal Large Language Models
 https://huggingface.co/papers/2401.13601
@@ -61,13 +55,13 @@ https://arxiv.org/abs/2401.13660
 [2401.09417] Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
 https://arxiv.org/abs/2401.09417
 
-Vim/vim at main · hustvl/Vim · GitHub
-https://github.com/hustvl/Vim/tree/main/vim
+hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
+https://github.com/hustvl/Vim
 
 hustvl/Vim-tiny · Hugging Face
 https://huggingface.co/hustvl/Vim-tiny
 
-HUST Vision Lab · GitHub
+HUST Vision Lab
 https://github.com/hustvl
 
 makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
@@ -93,12 +87,6 @@ https://arxiv.org/abs/2305.19435
 
 [2211.09949] Compressing Transformer-based self-supervised models for speech processing
 https://arxiv.org/abs/2211.09949
-
-AI poisoning tool Nightshade received 250,000 downloads in 5 days | VentureBeat
-https://venturebeat.com/ai/ai-poisoning-tool-nightshade-received-250000-downloads-in-5-days-beyond-anything-we-imagined/
-
-[2401.16658] OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
-https://arxiv.org/abs/2401.16658
 
 Nyelvtan - Tananyagok
 https://wordwall.net/hu-hu/community/nyelvtan
@@ -133,6 +121,9 @@ https://huggingface.co/espnet/owsm_v3.1_ebf
 OWSM Demo - a Hugging Face Space by pyf98
 https://huggingface.co/spaces/pyf98/OWSM_v3_demo
 
+OWSM_demo_gradio.ipynb - Colaboratory
+https://colab.research.google.com/drive/1zKI3ZY_OtZd6YmVeED6Cxy1QwT1mqv9O?usp=sharing#scrollTo=NkWM0foilnv-
+
 Pull requests · espnet/espnet
 https://github.com/espnet/espnet/pulls
 
@@ -162,15 +153,6 @@ https://colab.research.google.com/drive/1zKI3ZY_OtZd6YmVeED6Cxy1QwT1mqv9O?usp=sh
 
 2210.00077.pdf
 https://arxiv.org/pdf/2210.00077.pdf
-
-espnet/egs2/librispeech/asr1 at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/librispeech/asr1
-
-asapp/e_branchformer_librispeech · Hugging Face
-https://huggingface.co/asapp/e_branchformer_librispeech
-
-collabora/WhisperSpeech: An Open Source text-to-speech system built by inverting Whisper.
-https://github.com/collabora/WhisperSpeech?tab=readme-ov-file
 
 gemelo-ai/vocos: Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
 https://github.com/gemelo-ai/vocos?tab=readme-ov-file
@@ -226,23 +208,11 @@ https://github.com/huggingface/transformers/issues/27894
 Support for context-free-grammars (CFG) to constrain model output · Issue #25778 · huggingface/transformers
 https://github.com/huggingface/transformers/issues/25778
 
-dynamic beam search - Google Search
-https://www.google.com/search?q=dynamic+beam+search&rlz=1C5GCEM_enSE990SE991&oq=dynamic+beam+search&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigXSAQg1MjM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation - ACL Anthology
-https://aclanthology.org/N18-1119/
-
 2023.findings-emnlp.789.pdf
 https://aclanthology.org/2023.findings-emnlp.789.pdf
 
 Diff-HierVC Demo
 https://diff-hiervc.github.io/audio_demo/
-
-WhisperSpeech - a Hugging Face Space by collabora
-https://huggingface.co/spaces/collabora/WhisperSpeech
-
-voice conversion models - Google Search
-https://www.google.com/search?q=voice+conversion+models&sca_esv=763518fcaa3e3101&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn092BWnzIBpUsnU3hC2YdZLNxrp2cg%3A1707154296752&ei=eBvBZf61LfHZwPAP07mB4Ag&ved=0ahUKEwj-0byr3ZSEAxXxLBAIHdNcAIwQ4dUDCBA&uact=5&oq=voice+conversion+models&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3ZvaWNlIGNvbnZlcnNpb24gbW9kZWxzMgUQABiABDILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0jwJVDIBVjyH3AFeAGQAQCYAZ8BoAG-CqoBBDE1LjK4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIGEAAYBxgewgIMEC4YBxgeGMcBGNEDwgIKEAAYgAQYigUYQ8ICCBAAGAgYBxgewgIHEAAYgAQYDeIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp
 
 Voice Conversion | Papers With Code
 https://paperswithcode.com/task/voice-conversion
@@ -268,17 +238,11 @@ http://www.vc-challenge.org/
 SVCC23 Official Samples
 http://www.vc-challenge.org/samples/index.html
 
-ASRU2023
-http://www.asru2023.org/motion.asp?siteid=1007526&menuid=49656&postid=697225&lgid=1
-
 espnet (ESPnet)
 https://huggingface.co/espnet
 
 Models - Hugging Face
 https://huggingface.co/models?other=rvc
-
-sail-rvc/billie-eilish · Hugging Face
-https://huggingface.co/sail-rvc/billie-eilish
 
 juuxn/RVCModels · Hugging Face
 https://huggingface.co/juuxn/RVCModels
@@ -291,9 +255,6 @@ https://huggingface.co/spaces/juuxn/SimpleRVC
 
 0x3e9/0x3e9_RVC_models · Hugging Face
 https://huggingface.co/0x3e9/0x3e9_RVC_models
-
-espnet/s3prl_adapter_model · Hugging Face
-https://huggingface.co/espnet/s3prl_adapter_model
 
 espnet/interspeech2024_dsuchallenge_wavlm_large_21_baseline · Hugging Face
 https://huggingface.co/espnet/interspeech2024_dsuchallenge_wavlm_large_21_baseline
@@ -312,14 +273,5 @@ https://www.google.com/search?q=keith+hampshire+consider+yourself+lyrics&rlz=1C5
 
 Retrieval-based-Voice-Conversion-WebUI/docs/en/README.en.md at main · RVC-Project/Retrieval-based-Voice-Conversion-WebUI
 https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/README.en.md
-
-RAADS–R | Embrace Autism
-https://embrace-autism.com/raads-r/#test
-
-Autism Spectrum Quotient | Embrace Autism
-https://embrace-autism.com/autism-spectrum-quotient/#test
-
-raads-r.pdf
-file:///Users/joregan/Downloads/raads-r.pdf
 
 
