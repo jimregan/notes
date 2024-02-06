@@ -61,9 +61,10 @@ categories: [links]
 
 [N-gram – svensk](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-11/)
 
-[Kobling mellom norske kommuner og dialektregioner](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-92/)
-
-
 [LIA sápmi – LIA-korpuset for samiske dialekter](https://www.nb.no/sprakbanken/ressurskatalog/oai-tekstlab-uio-no-lia-sapmi/)
+
+[collabora/WhisperSpeech](https://github.com/collabora/WhisperSpeech) --- An Open Source text-to-speech system built by inverting Whisper.
+
+[Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation](https://aclanthology.org/N18-1119/)
 
 
