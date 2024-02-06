@@ -67,4 +67,28 @@ categories: [links]
 
 [Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation](https://aclanthology.org/N18-1119/)
 
+[SentenceTransformer: A Model For Computing Sentence Embedding](https://towardsdatascience.com/sentencetransformer-a-model-for-computing-sentence-embedding-e8d31d9e6a8f)
+
+[CLAP Learning Audio Concepts from Natural Language Supervision](https://ieeexplore.ieee.org/abstract/document/10095889),
+[code](https://github.com/microsoft/CLAP)
+
+[MambaByte: Token-free Selective State Space Model](https://arxiv.org/abs/2401.13660)
+
+[kyegomez/MambaByte](https://github.com/kyegomez/MambaByte) --- Implementation of MambaByte in "MambaByte: Token-free Selective State Space Model" in Pytorch and Zeta
+
+[Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model](https://arxiv.org/abs/2401.09417),
+[code - no licence](https://github.com/hustvl/Vim)
+
+[Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147),
+[code](https://github.com/RAIVNLab/MRL)
+
+{% twitter https://twitter.com/liujc1998/status/1753080219735629992 %}
+
+[BlackMamba: Mixture of Experts for State-Space Models](https://arxiv.org/abs/2402.01771),
+[code](https://github.com/Zyphra/BlackMamba)
+
+[V-IRL: Grounding Virtual Intelligence in Real Life](https://arxiv.org/abs/2402.03310)
+
+[Layer-Wise Analysis of Self-Supervised Acoustic Word Embeddings: A Study on Speech Emotion Recognition](https://arxiv.org/abs/2402.02617)
+
 
