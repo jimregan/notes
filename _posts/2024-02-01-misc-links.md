@@ -36,3 +36,8 @@ categories: [links]
 [PAM: Prompting Audio-Language Models for Audio Quality Assessment](https://arxiv.org/abs/2402.00282),
 [no code yet](https://github.com/soham97/PAM)
 
+[ChatQA: Building GPT-4 Level Conversational QA Models](https://arxiv.org/abs/2401.10225)
+
+[3 Advanced Document Retrieval Techniques To Improve RAG Systems](https://towardsdatascience.com/3-advanced-document-retrieval-techniques-to-improve-rag-systems-0703a2375e1c)
+
+
