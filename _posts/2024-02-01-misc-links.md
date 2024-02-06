@@ -40,4 +40,30 @@ categories: [links]
 
 [3 Advanced Document Retrieval Techniques To Improve RAG Systems](https://towardsdatascience.com/3-advanced-document-retrieval-techniques-to-improve-rag-systems-0703a2375e1c)
 
+[Efficiently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2111.00396),
+[code](https://github.com/state-spaces/s4)
+
+[Add S4 decoder in ESPnet2](https://github.com/espnet/espnet/pull/4845/files#diff-d42e616b6aa4a81f1c284e32223506e87feb05f8fc16ef162a705c121aaf0cf0)
+
+[Alignment-Length Synchronous Decoding for RNN Transducer](https://ieeexplore.ieee.org/document/9053040)
+
+[init owsm v3.1 recipe](https://github.com/espnet/espnet/commit/a735790f5138c8a898067c71a2f7344e6e6052a4)
+
+[Lingit uttaleleksikon for nynorsk](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-65/)
+
+[NLB uttaleleksikon for bokmål](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-52/)
+
+[Tuva Taledatabase](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-44/)
+
+[NST uttaleleksikon for bokmål](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-23/)
+
+[NST uttaleleksikon for svensk](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-22/)
+
+[N-gram – svensk](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-11/)
+
+[Kobling mellom norske kommuner og dialektregioner](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-92/)
+
+
+[LIA sápmi – LIA-korpuset for samiske dialekter](https://www.nb.no/sprakbanken/ressurskatalog/oai-tekstlab-uio-no-lia-sapmi/)
+
 
