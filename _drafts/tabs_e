@@ -1,38 +1,23 @@
 (1) Christoph Molnar on X: "I just found a great introduction to embedding. The book is comprehensive yet short. Historical encoding tools, neural nets, and production - all covered. Fantastic job by @vboykis. Thanks for making it free to read! Looking forward to diving in. https://t.co/uFwaSjaysn https://t.co/SKl2ExOJaw" / X
 https://twitter.com/ChristophMolnar/status/1745731602682982675?t=LHKlCc79AHUE94jlWGyfHw&s=09
 
-3 Advanced Document Retrieval Techniques To Improve RAG Systems | by Ahmed Besbes | Jan, 2024 | Towards Data Science
-https://towardsdatascience.com/3-advanced-document-retrieval-techniques-to-improve-rag-systems-0703a2375e1c
+What are embeddings?
+https://vickiboykis.com/what_are_embeddings/
+
+what_are_embeddings/notebooks/fig_4_bert.ipynb at main · veekaybee/what_are_embeddings
+https://github.com/veekaybee/what_are_embeddings/blob/main/notebooks/fig_4_bert.ipynb
 
 BetterExplained – Math lessons that click
 https://betterexplained.com/
 
-[2401.10225] ChatQA: Building GPT-4 Level Conversational QA Models
-https://arxiv.org/abs/2401.10225
-
 ChatQA: Building GPT-4 Level Conversational QA Models
-https://arxiv.org/html/2401.10225v1
+https://arxiv.org/pdf/2401.10225.pdf
 
-Pinecone: New vector database architecture a 'breakthrough' to curb AI hallucinations | VentureBeat
-https://venturebeat.com/ai/pinecone-new-vector-database-architecture-a-breakthrough-to-curb-ai-hallucinations/
-
-SentenceTransformer: A Model For Computing Sentence Embedding | by Mina Ghashami | Jan, 2024 | Towards Data Science
-https://towardsdatascience.com/sentencetransformer-a-model-for-computing-sentence-embedding-e8d31d9e6a8f
-
-GitHub-hosted runners: Double the power for open source - The GitHub Blog
-https://github.blog/2024-01-17-github-hosted-runners-double-the-power-for-open-source/
-
-Life as an American as seen by the rest of the world : r/SipsTea
-https://www.reddit.com/r/SipsTea/comments/19avkha/life_as_an_american_as_seen_by_the_rest_of_the/?utm_medium=android_app&utm_source=share
-
-GitHub - roboflow/supervision: We write your reusable computer vision tools. 💜
+roboflow/supervision: We write your reusable computer vision tools. 💜
 https://github.com/roboflow/supervision
 
 Researchers from the University of Washington and Allen Institute for AI Present Proxy-Tuning: An Efficient Alternative to Finetuning Large Language Models - MarkTechPost
 https://www.marktechpost.com/2024/01/21/researchers-from-the-university-of-washington-and-allen-institute-for-ai-present-proxy-tuning-an-efficient-alternative-to-finetuning-large-language-models/
-
-Oriental Theater / Denver, CO October 24, 2023 📷 @devilman.138 | Instagram
-https://www.instagram.com/hoaxedband/p/C2KmaJxLwTX/
 
 Code LoRA from Scratch
 https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
@@ -52,43 +37,31 @@ https://ai.meta.com/blog/nllb-200-high-quality-machine-translation/
 Content translation - MediaWiki
 https://m.mediawiki.org/wiki/Content_translation
 
-Zed Code Editor Now Open-Source - Phoronix
-https://www.phoronix.com/news/Zed-Editor-Open-Source
-
 Paper page - MM-LLMs: Recent Advances in MultiModal Large Language Models
 https://huggingface.co/papers/2401.13601
 
-[2401.13660] MambaByte: Token-free Selective State Space Model
-https://arxiv.org/abs/2401.13660
+[2401.13601] MM-LLMs: Recent Advances in MultiModal Large Language Models
+https://arxiv.org/abs/2401.13601
 
-[2401.09417] Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
-https://arxiv.org/abs/2401.09417
+MambaByte/mambabyte/model.py at main · kyegomez/MambaByte
+https://github.com/kyegomez/MambaByte/blob/main/mambabyte/model.py
 
-Vim/vim at main · hustvl/Vim · GitHub
-https://github.com/hustvl/Vim/tree/main/vim
+hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
+https://github.com/hustvl/Vim
 
-hustvl/Vim-tiny · Hugging Face
-https://huggingface.co/hustvl/Vim-tiny
-
-HUST Vision Lab · GitHub
-https://github.com/hustvl
+hustvl (HUST Vision Lab)
+https://huggingface.co/hustvl
 
 makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
 https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
 
-No neural “missing link” for verbal control in chimpanzees : r/linguistics
-https://www.reddit.com/r/linguistics/comments/19dtu4o/no_neural_missing_link_for_verbal_control_in/
-
-[2310.07707] MatFormer: Nested Transformer for Elastic Inference
-https://arxiv.org/abs/2310.07707
-
 [2205.13147] Matryoshka Representation Learning
 https://arxiv.org/abs/2205.13147
 
-GitHub - RAIVNLab/MRL: Code repository for the paper - "Matryoshka Representation Learning"
-https://github.com/RAIVNLab/MRL
+MRL/train/train_imagenet.py at main · RAIVNLab/MRL
+https://github.com/RAIVNLab/MRL/blob/main/train/train_imagenet.py
 
-GitHub - libffcv/ffcv-imagenet: Train ImageNet *fast* in 500 lines of code with FFCV
+libffcv/ffcv-imagenet: Train ImageNet *fast* in 500 lines of code with FFCV
 https://github.com/libffcv/ffcv-imagenet
 
 GitHub - libffcv/ffcv: FFCV: Fast Forward Computer Vision (and other ML workloads!)
@@ -136,10 +109,88 @@ https://app.mondly.com/home/5/lessons/505
 OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
 https://arxiv.org/html/2401.16658v1
 
-[2402.01831] Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
-https://arxiv.org/abs/2402.01831
+Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
+https://arxiv.org/pdf/2402.01831.pdf
 
-Audio Flamingo
-https://audioflamingo.github.io/
+CLAP/msclap/models/mapper.py at main · microsoft/CLAP
+https://github.com/microsoft/CLAP/blob/main/msclap/models/mapper.py
+
+Commits · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/commits/main/?after=9940ec60058f644662809a6787ba1b7c464567ad+34
+
+Replace CLIP Image Encoder with LanguageBind Image Encoder [Video-NeVA] by PannuMuthu · Pull Request #8300 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/8300/commits/a3d9cc7198962780cb7922fd733802a3507e3ad9#diff-07b087ee21d99449fa5be968321007e0bfe109f0a97f5420d0b34b430dcc88fb
+
+enable nmt to use beam search by mengruwNv · Pull Request #8287 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/8287
+
+Attention encoder-decoder models for multiple speech-to-text tasks … · NVIDIA/NeMo@d10726d
+https://github.com/NVIDIA/NeMo/commit/d10726da72f74eb5a95056843d1f9e2562a5051c
+
+Pin lhotse version to 1.19.2 (#8291) · NVIDIA/NeMo@f6e6485
+https://github.com/NVIDIA/NeMo/commit/f6e64859174920e6a7fb26c4308cbe4c1d44206e
+
+Mixtral to NeMo conversion script. (#8155) · NVIDIA/NeMo@13c1db4
+https://github.com/NVIDIA/NeMo/commit/13c1db4ffdaa3b2125ce6e66c93509a39d55b2cf
+
+switch to mcore dataset [with FIM support] (#8149) · NVIDIA/NeMo@a93589d
+https://github.com/NVIDIA/NeMo/commit/a93589d80472bfbf949b0e65758b106eeaa7ac80
+
+NeMo/nemo/collections/common/data/dataset.py at 2c2c3ccde2f1269a0e30f9b54dac0b0d569bae51 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/2c2c3ccde2f1269a0e30f9b54dac0b0d569bae51/nemo/collections/common/data/dataset.py
+
+lhotse/lhotse/recipes/switchboard.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/switchboard.py
+
+lhotse/lhotse/recipes/timit.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/timit.py
+
+lhotse/lhotse/recipes/nsc.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/nsc.py
+
+lhotse/lhotse/recipes/mls.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/mls.py
+
+lhotse/lhotse/recipes/dipco.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/dipco.py
+
+Course information for doctoral students | EECS internal pages
+https://intra.kth.se/en/eecs/forskarutbildning/courses
+
+NY FO-TRAK
+https://intra.kth.se/polopoly_fs/1.1298221.1700743075!/FO-TRAK%20EECS.pdf
+
+NVIDIA GPU Compute Test Suite Collection - OpenBenchmarking.org
+https://openbenchmarking.org/suite/pts/nvidia-gpu-compute
+
+Interspeech thing for ParlaCLARIN - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65b12a434befd9098dbef6a9
+
+ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
+https://www.clarin.eu/ParlaCLARIN-IV
+
+SIGUL 2024 - SIGUL
+https://www.sigul.eu/event/sigul-2024/
+
+SIGUL-2024_Call-for-Papers.pdf
+https://sigul-2024.ilc.cnr.it/wp-content/uploads/2023/12/SIGUL-2024_Call-for-Papers.pdf
+
+Call For Papers – Interspeech 2024
+https://interspeech2024.org/call-for-papers/
+
+Phonological rules — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phonological_rules.html
+
+IEEE Xplore Full-Text PDF:
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10095969
+
+CLAP/src/laion_clap/clap_module/pann_model.py at main · LAION-AI/CLAP
+https://github.com/LAION-AI/CLAP/blob/main/src/laion_clap/clap_module/pann_model.py
+
+Large-scale Contrastive Language-Audio Petraining
+https://retrocirce.github.io/appendix/
+
+audioset_tagging_cnn/scripts/0_inference.sh at master · qiuqiangkong/audioset_tagging_cnn
+https://github.com/qiuqiangkong/audioset_tagging_cnn/blob/master/scripts/0_inference.sh
 
 
