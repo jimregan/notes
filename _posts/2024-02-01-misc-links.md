@@ -64,6 +64,7 @@ categories: [links]
 [LIA sápmi – LIA-korpuset for samiske dialekter](https://www.nb.no/sprakbanken/ressurskatalog/oai-tekstlab-uio-no-lia-sapmi/)
 
 [collabora/WhisperSpeech](https://github.com/collabora/WhisperSpeech) --- An Open Source text-to-speech system built by inverting Whisper.
+[Space](https://huggingface.co/spaces/collabora/WhisperSpeech)
 
 [Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation](https://aclanthology.org/N18-1119/)
 
@@ -91,4 +92,19 @@ categories: [links]
 
 [Layer-Wise Analysis of Self-Supervised Acoustic Word Embeddings: A Study on Speech Emotion Recognition](https://arxiv.org/abs/2402.02617)
 
+[MM-LLMs: Recent Advances in MultiModal Large Language Models](https://arxiv.org/abs/2401.13601)
+
+[Training-Free Consistent Text-to-Image Generation](https://arxiv.org/abs/2402.03286)
+
+[RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval](https://arxiv.org/abs/2401.18059),
+[no code yet](https://github.com/parthsarthi03/raptor)
+
+[Open Language Model: OLMo](https://allenai.org/olmo)
+
+[Magyar nyelvtan](https://wordwall.net/hu-hu/community/nyelvtan)
+
+[Compressing Transformer-based self-supervised models for speech processing](https://arxiv.org/abs/2211.09949)
+
+[AdANNS: A Framework for Adaptive Semantic Search](https://arxiv.org/abs/2305.19435),
+[code](https://github.com/RAIVNLab/AdANNS)
 
