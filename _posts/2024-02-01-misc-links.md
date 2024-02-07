@@ -108,3 +108,14 @@ categories: [links]
 [AdANNS: A Framework for Adaptive Semantic Search](https://arxiv.org/abs/2305.19435),
 [code](https://github.com/RAIVNLab/AdANNS)
 
+{% twitter https://twitter.com/RetroTechDreams/status/1754868642968216037 %}
+
+[Enhancing the Stability of LLM-based Speech Generation Systems through Self-Supervised Representations](https://arxiv.org/abs/2402.03407)
+
+[Listen, Chat, and Edit: Text-Guided Soundscape Modification for Enhanced Auditory Experience](https://arxiv.org/abs/2402.03710)
+
+[Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620)
+
+{% twitter https://twitter.com/LangChainAI/status/1754915914796216654 %}
+
+
