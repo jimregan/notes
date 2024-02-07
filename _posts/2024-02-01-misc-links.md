@@ -122,3 +122,8 @@ categories: [links]
 
 [REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR](https://arxiv.org/abs/2402.03988)
 
+[Background Removal w/ 🤗 Transformers.js](https://huggingface.co/spaces/Xenova/remove-background-web)
+
+[Scaling Laws for Downstream Task Performance of Large Language Models](https://arxiv.org/abs/2402.04177)
+
+
