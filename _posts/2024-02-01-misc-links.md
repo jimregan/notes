@@ -118,4 +118,7 @@ categories: [links]
 
 {% twitter https://twitter.com/LangChainAI/status/1754915914796216654 %}
 
+{% twitter https://twitter.com/c_valenzuelab/status/1754970403309605371 %}
+
+[REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR](https://arxiv.org/abs/2402.03988)
 
