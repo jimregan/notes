@@ -126,4 +126,17 @@ categories: [links]
 
 [Scaling Laws for Downstream Task Performance of Large Language Models](https://arxiv.org/abs/2402.04177)
 
+[Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks](https://arxiv.org/abs/2402.04248)
+
+[Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://ieeexplore.ieee.org/document/10095969)
+
+{% twitter https://twitter.com/tonyzzhao/status/1755380475118719407 %}
+
+[tonyzhaozh/aloha](https://github.com/tonyzhaozh/aloha)
+
+[Fast Timing-Conditioned Latent Audio Diffusion](https://arxiv.org/abs/2402.04825),
+[code](https://github.com/Stability-AI/stable-audio-tools)
+
+[StreamVoice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion](https://arxiv.org/abs/2401.11053)
+
 
