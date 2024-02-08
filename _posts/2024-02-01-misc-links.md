@@ -139,4 +139,8 @@ categories: [links]
 
 [StreamVoice: Streamable Context-Aware Language Modeling for Real-time Zero-Shot Voice Conversion](https://arxiv.org/abs/2401.11053)
 
+[LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054),
+[code](https://github.com/3DTopia/LGM),
+[weights](https://huggingface.co/ashawkey/LGM)
+
 
