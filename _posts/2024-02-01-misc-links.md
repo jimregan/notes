@@ -151,5 +151,6 @@ categories: [links]
 
 [Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861)
 
-[Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language Models](https://arxiv.org/abs/2312.04533)
+[AV2Wav: Diffusion-Based Re-synthesis from Continuous Self-supervised Features for Audio-Visual Speech Enhancement](https://arxiv.org/abs/2309.08030)
+
 
