@@ -144,3 +144,12 @@ categories: [links]
 [weights](https://huggingface.co/ashawkey/LGM),
 [space](https://huggingface.co/spaces/ashawkey/LGM)
 
+[segmind/segmoe](https://github.com/segmind/segmoe) --- Segmind Mixture of Diffusion Experts,
+[blog](https://huggingface.co/blog/segmoe)
+
+[Unified Speech-Text Pretraining for Spoken Dialog Modeling](https://arxiv.org/abs/2402.05706)
+
+[Memory Consolidation Enables Long-Context Video Understanding](https://arxiv.org/abs/2402.05861)
+
+[Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language Models](https://arxiv.org/abs/2312.04533)
+
