@@ -1,4 +1,4 @@
-(2) Christoph Molnar on X: "I just found a great introduction to embedding. The book is comprehensive yet short. Historical encoding tools, neural nets, and production - all covered. Fantastic job by @vboykis. Thanks for making it free to read! Looking forward to diving in. https://t.co/uFwaSjaysn https://t.co/SKl2ExOJaw" / X
+Christoph Molnar on X: "I just found a great introduction to embedding. The book is comprehensive yet short. Historical encoding tools, neural nets, and production - all covered. Fantastic job by @vboykis. Thanks for making it free to read! Looking forward to diving in. https://t.co/uFwaSjaysn https://t.co/SKl2ExOJaw" / X
 https://twitter.com/ChristophMolnar/status/1745731602682982675?t=LHKlCc79AHUE94jlWGyfHw&s=09
 
 what_are_embeddings/notebooks/fig_4_bert.ipynb at main · veekaybee/what_are_embeddings
@@ -232,6 +232,30 @@ https://www.robot-learning.uk/dream2real
 nvidia/canary-1b · Hugging Face
 https://huggingface.co/nvidia/canary-1b
 
+Pull requests · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pulls
+
+Attention encoder-decoder models for multiple speech-to-text tasks … · NVIDIA/NeMo@d10726d
+https://github.com/NVIDIA/NeMo/commit/d10726da72f74eb5a95056843d1f9e2562a5051c#diff-17e7ee0546f6ee8af2cee82466fcb96a72f5a80c24939d2c008e0d82ef7fad4c
+
+Mixtral to NeMo conversion script. (#8155) · NVIDIA/NeMo@13c1db4
+https://github.com/NVIDIA/NeMo/commit/13c1db4ffdaa3b2125ce6e66c93509a39d55b2cf
+
+Pull requests · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pulls
+
+Update MM Dataprep Tutorial by cuichenx · Pull Request #8373 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/8373/files
+
+TTS SpeechLLM models by blisc · Pull Request #8364 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/8364
+
+TTS SpeechLLM models by blisc · Pull Request #8364 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/8364/files#diff-18b3a37d06f50d34d9fed38c1b7235ee17b124fe098f9fe55119a9b8e1eb3d4d
+
+Irish TN by jimregan · Pull Request #71 · NVIDIA/NeMo-text-processing
+https://github.com/NVIDIA/NeMo-text-processing/pull/71#issuecomment-1920340902
+
 Meta Research
 https://github.com/orgs/facebookresearch/repositories
 
@@ -288,5 +312,113 @@ https://huggingface.co/docs/transformers/model_doc/mms
 
 Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language Models
 https://www.robot-learning.uk/dream2real
+
+Automatic Speech Recognition (ASR) — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/intro.html#asr-tutorial-notebooks
+
+NeMo/tutorials/asr/ASR_with_NeMo.ipynb at main · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/ASR_with_NeMo.ipynb
+
+Datasets — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/datasets.html#preparing-custom-asr-data
+
+Models — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html#hybrid-asr-tts-model
+
+2003.07705.pdf
+https://arxiv.org/pdf/2003.07705.pdf
+
+NeMo/nemo/collections/asr/modules/rnnt.py at main · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/asr/modules/rnnt.py
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+[WIP] Support external dataset library by Masao-Someki · Pull Request #5584 · espnet/espnet
+https://github.com/espnet/espnet/pull/5584/files#diff-d73b19c9038190fcca9e673c1523b18eb579c3b5ed08a802ddf26c347db48edd
+
+Add causal LM for ASR2 by akreal · Pull Request #5514 · espnet/espnet
+https://github.com/espnet/espnet/pull/5514
+
+[WIP] Implement wav2gloss by juice500ml · Pull Request #5449 · espnet/espnet
+https://github.com/espnet/espnet/pull/5449/files#diff-12ce31487cc7e7842d534c8f04eb1fdb34187ffc9a4cc4fa36a0f98549aae5ad
+
+espnet/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst+xvector_tacotron2.yaml at c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16 · espnet/espnet
+https://github.com/espnet/espnet/blob/c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst%2Bxvector_tacotron2.yaml
+
+croissant/python/mlcroissant at main · mlcommons/croissant
+https://github.com/mlcommons/croissant/tree/main/python/mlcroissant
+
+r-three/phatgoose: Code for PHATGOOSE introduced in "Learning to Route Among Specialized Experts for Zero-Shot Generalization"
+https://github.com/r-three/phatgoose
+
+X
+https://twitter.com/_akhaliq/status/1755987838707855433
+
+YouTube
+https://www.youtube.com/
+
+THE GENTLEMEN Trailer (2024) Guy Ritchie Series - YouTube
+https://www.youtube.com/watch?v=RROBF2xbxZg
+
+Top 10 FAKE Polyglot Tricks EXPOSED!!! You won't believe number 3 - YouTube
+https://www.youtube.com/watch?v=w76CdytaL9w
+
+Puzsér Thug Life Compilation Volume 2 - YouTube
+https://www.youtube.com/watch?v=ZVwBY-w9uMY
+
+Is the Wing Chun guard effective? Some hints on how to hold Wing Chun's guard in close combat. - YouTube
+https://www.youtube.com/watch?v=9_Kz5UyjIlM
+
+A besúgó | 1. rész | SkyShowtime Magyarország - YouTube
+https://www.youtube.com/watch?v=Nip8K47UvdE&t=2263s
+
+YouTube
+https://www.youtube.com/
+
+Rachel Riley on Beat the Chasers 2024 - YouTube
+https://www.youtube.com/watch?v=BzoyoFHiMF4
+
+paraszt - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/paraszt
+
+New Tab
+chrome://newtab/
+
+Panelshow
+https://www.reddit.com/r/panelshow/
+
+8 Out of 10 Cats Does Countdown unknown S26+ episode : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1amj7y6/8_out_of_10_cats_does_countdown_unknown_s26/
+
+8 Out of 10 Cats Does Countdown unknown S26+ episode (S15EP6) - YouTube
+https://www.youtube.com/watch?v=unElsSyCWOw
+
+8 Out of 10 Cats Does Countdown - Series 25 Episode 5 : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1an0vx4/8_out_of_10_cats_does_countdown_series_25_episode/
+
+8 Out of 10 Cats Does Countdown - S25E05 - 9 February 2024 - YouTube
+https://www.youtube.com/watch?v=bdTATdgMHkA
+
+YouTube
+https://www.youtube.com/
+
+This MARTIAL ART was born in the American PRISON SYSTEM - it is DEADLY! - YouTube
+https://www.youtube.com/watch?v=pVsMt-7uMOs
+
+Top 20 Unexpected Plot Twists That Redeemed Bad Movies - YouTube
+https://www.youtube.com/watch?v=9TLrQ0AGD3s
+
+Brit Reacts to Grotesco - Tingeliin (Swedish Comedy) - YouTube
+https://www.youtube.com/watch?v=T-5sNqrGNC4
+
+THE CONTRACTOR | Official Trailer | Paramount Movies - YouTube
+https://www.youtube.com/watch?v=e7glvM8Xh0w
+
+BB King on Meeting Jimi Hendrix - YouTube
+https://www.youtube.com/shorts/ZX0SPZmiChg
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
 
 
