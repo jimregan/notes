@@ -153,4 +153,8 @@ categories: [links]
 
 [AV2Wav: Diffusion-Based Re-synthesis from Continuous Self-supervised Features for Audio-Visual Speech Enhancement](https://arxiv.org/abs/2309.08030)
 
+{% twitter https://twitter.com/DynamicWebPaige/status/1755836630840279351 %}
+
+[CNChTu/FCPE](https://github.com/CNChTu/FCPE) --- fast pitch
+estimator using Transformer
 
