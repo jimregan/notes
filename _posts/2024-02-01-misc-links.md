@@ -158,3 +158,14 @@ categories: [links]
 [CNChTu/FCPE](https://github.com/CNChTu/FCPE) --- fast pitch
 estimator using Transformer
 
+[SpiRit-LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
+
+[Multilingual E5 Text Embeddings: A Technical Report](https://arxiv.org/abs/2402.05672),
+[code](https://github.com/microsoft/unilm/tree/master/e5)
+
+[Learning to Route Among Specialized Experts for Zero-Shot Generalization](https://arxiv.org/abs/2402.05859),
+[code](https://github.com/r-three/phatgoose)
+
+{% twitter https://twitter.com/rasbt/status/1756316089393270853 %}
+
+
