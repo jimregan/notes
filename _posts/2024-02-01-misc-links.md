@@ -191,6 +191,17 @@ estimator using Transformer
 
 [Texts - Easy Hungarian](https://www.easyhungarian.com/texts.html)
 
+[Wordwall - Hungarian grammar](https://wordwall.net/hu-hu/community/nyelvtan)
+
+[Resource List for Learning Hungarian](https://www.reddit.com/r/Miskolc/comments/ypol9g/resource_list_for_learning_hungarian/),
+[doc](https://docs.google.com/document/d/1ZiIPCM62YbzXd01xkBPYhXtfw9ddQvwIUX_GwHjxjD4/edit?usp=sharing)
+
 [Code LoRA from Scratch](https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public)
 
+[Accelerating RNN Transducer Inference via Adaptive Expansion Search](https://ieeexplore.ieee.org/document/9250505)
 
+# ESPnet pull requests
+
+[CTC Segmentation for ESPnet 2](https://github.com/espnet/espnet/pull/3087)
+
+[Implement wav2gloss](https://github.com/espnet/espnet/pull/5449)
