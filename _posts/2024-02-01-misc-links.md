@@ -214,4 +214,6 @@ estimator using Transformer
 
 [veeresht/CommPy](https://github.com/veeresht/CommPy) --- Digital Communication with Python
 
+[RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
 
+[Diff-HierVC demo](https://diff-hiervc.github.io/audio_demo/)
