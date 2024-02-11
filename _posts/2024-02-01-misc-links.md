@@ -189,3 +189,5 @@ estimator using Transformer
 
 [Hungarian - Geography](https://magyarbagoly.blogspot.com/2022/08/geography.html)
 
+[Texts - Easy Hungarian](https://www.easyhungarian.com/texts.html)
+
