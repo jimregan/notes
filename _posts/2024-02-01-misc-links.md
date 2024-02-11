@@ -200,8 +200,10 @@ estimator using Transformer
 
 [Accelerating RNN Transducer Inference via Adaptive Expansion Search](https://ieeexplore.ieee.org/document/9250505)
 
-# ESPnet pull requests
-
 [CTC Segmentation for ESPnet 2](https://github.com/espnet/espnet/pull/3087)
 
 [Implement wav2gloss](https://github.com/espnet/espnet/pull/5449)
+
+[gemelo-ai/vocos](https://github.com/gemelo-ai/vocos) --- Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
+
+
