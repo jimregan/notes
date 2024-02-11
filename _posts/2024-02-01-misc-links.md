@@ -231,4 +231,10 @@ estimator using Transformer
 
 [google-research/multinerf](https://github.com/google-research/multinerf) --- A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF
 
+[vasistalodagala/whisper-finetune](https://github.com/vasistalodagala/whisper-finetune) --- Fine-tune and evaluate Whisper models for Automatic Speech Recognition (ASR) on custom datasets or datasets from huggingface.
+
+[lucidrains/CALM-pytorch](https://github.com/lucidrains/CALM-pytorch) --- Implementation of CALM from the paper "LLM Augmented LLMs: Expanding Capabilities through Composition", out of Google Deepmind
+
+[lucidrains/llama-qrlhf](https://github.com/lucidrains/llama-qrlhf) --- Implementation of the Llama architecture with RLHF + Q-learning
+
 
