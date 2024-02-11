@@ -206,4 +206,6 @@ estimator using Transformer
 
 [gemelo-ai/vocos](https://github.com/gemelo-ai/vocos) --- Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
 
+[CPJKU/onset_detection](https://github.com/CPJKU/onset_detection) --- Python implementation of the most common spectral based onset detection algorithms.
+
 
