@@ -394,8 +394,23 @@ https://www.youtube.com/watch?v=Nip8K47UvdE&t=2263s
 paraszt - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/paraszt
 
-Panelshow
-https://www.reddit.com/r/panelshow/
+flamingo-pytorch/README.md at main · lucidrains/flamingo-pytorch
+https://github.com/lucidrains/flamingo-pytorch/blob/main/README.md
+
+lucidrains/RETRO-pytorch: Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch
+https://github.com/lucidrains/retro-pytorch?tab=readme-ov-file
+
+The Illustrated Retrieval Transformer – Jay Alammar – Visualizing machine learning one concept at a time.
+https://jalammar.github.io/illustrated-retrieval-transformer/
+
+transformers/src/transformers/models/idefics/perceiver.py at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/src/transformers/models/idefics/perceiver.py
+
+HuggingFaceM4 (HuggingFaceM4)
+https://huggingface.co/HuggingFaceM4
+
+Multimodal IDEFICS: Unveiling the Transparency & Power of Open Visual Language Models
+https://huggingface.co/blog/Andyrasika/idefics-multimodal
 
 Reddit - Dive into anything
 https://www.reddit.com/r/panelshow/wiki/taskmaster/#wiki_kongen_befaler_.28taskmaster_norway.29
@@ -462,5 +477,14 @@ https://wortschatz.uni-leipzig.de/en/download
 
 cisnlp/simalign: Obtain Word Alignments using Pretrained Language Models (e.g., mBERT)
 https://github.com/cisnlp/simalign
+
+Multimodal Language Models Explained: Visual Instruction Tuning – Towards AI
+https://towardsai.net/p/machine-learning/multimodal-language-models-explained-visual-instruction-tuning
+
+Review — Flamingo: A Visual Language Model for Few-Shot Learning | by Sik-Ho Tsang | Medium
+https://sh-tsang.medium.com/review-flamingo-a-visual-language-model-for-few-shot-learning-ec477d47e7bf
+
+DeepMind Flamingo Explained — 32 Images are Enough To Learn! | by Boris Meinardus | Towards AI
+https://pub.towardsai.net/deepmind-flamingo-explained-32-images-are-enough-to-learn-8badb73d1efc#:~:text=So%2C%20how%20does%20the%20Flamingo,at%20the%20Flamingo%20architecture%20overview.&text=The%20model%20leverages%20two%20completely,and%20outputs%20the%20text%20tokens.
 
 
