@@ -218,3 +218,17 @@ estimator using Transformer
 
 [Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation](https://arxiv.org/abs/2311.04693),
 [demo](https://diff-hiervc.github.io/audio_demo/)
+
+[Affective and Dynamic Beam Search for Story Generation](https://aclanthology.org/2023.findings-emnlp.789/)
+
+[Automatic vocal tract landmark localization from midsagittal MRI data](https://www.nature.com/articles/s41598-020-58103-6),
+[code](https://github.com/christianpayer/MedicalDataAugmentationTool)
+
+[lucidrains/phenaki-pytorch](https://github.com/lucidrains/phenaki-pytorch) --- Implementation of Phenaki Video, which uses Mask GIT to produce text guided videos of up to 2 minutes in length, in Pytorch
+
+[Describing Differences in Image Sets with Natural Language](https://arxiv.org/abs/2312.02974),
+[code](https://github.com/Understanding-Visual-Datasets/VisDiff)
+
+[google-research/multinerf](https://github.com/google-research/multinerf) --- A Code Release for Mip-NeRF 360, Ref-NeRF, and RawNeRF
+
+
