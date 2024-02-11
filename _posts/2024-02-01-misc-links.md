@@ -208,4 +208,10 @@ estimator using Transformer
 
 [CPJKU/onset_detection](https://github.com/CPJKU/onset_detection) --- Python implementation of the most common spectral based onset detection algorithms.
 
+[Taskmaster wiki](https://www.reddit.com/r/panelshow/wiki/taskmaster/)
+
+[A Hackers' Guide to Language Models](https://www.youtube.com/watch?v=jkrNMKz9pWU)
+
+[veeresht/CommPy](https://github.com/veeresht/CommPy) --- Digital Communication with Python
+
 
