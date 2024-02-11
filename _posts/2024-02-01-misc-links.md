@@ -168,4 +168,24 @@ estimator using Transformer
 
 {% twitter https://twitter.com/rasbt/status/1756316089393270853 %}
 
+[idT5: Indonesian Version of Multilingual T5 Transformer](https://arxiv.org/abs/2302.00856)
+
+[mT6: Multilingual Pretrained Text-to-Text Transformer with Translation Pairs](https://aclanthology.org/2021.emnlp-main.125/)
+
+[Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620)
+
+[Efficient Exploration for LLMs](https://arxiv.org/abs/2402.00396)
+
+[Can Large Language Models Understand Context?](https://arxiv.org/abs/2402.00858)
+
+{% twitter https://twitter.com/Yampeleg/status/1756306614116597934 %}
+
+[Spectral State Space Models](https://arxiv.org/abs/2312.06837)
+
+[K-Adapter: Infusing Knowledge into Pre-Trained Models with Adapters](https://arxiv.org/abs/2002.01808),
+[code](https://github.com/microsoft/K-Adapter)
+
+[CodeIt: Self-Improving Language Models with Prioritized Hindsight Replay](https://arxiv.org/abs/2402.04858)
+
+[Hungarian - Geography](https://magyarbagoly.blogspot.com/2022/08/geography.html)
 
