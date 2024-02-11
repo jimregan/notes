@@ -7,12 +7,6 @@ https://github.com/veekaybee/what_are_embeddings/blob/main/notebooks/fig_4_bert.
 BetterExplained – Math lessons that click
 https://betterexplained.com/
 
-roboflow/supervision: We write your reusable computer vision tools. 💜
-https://github.com/roboflow/supervision
-
-Code LoRA from Scratch
-https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
-
 text_search/examples/libriheavy at master · k2-fsa/text_search
 https://github.com/k2-fsa/text_search/tree/master/examples/libriheavy
 
@@ -37,9 +31,6 @@ https://arxiv.org/abs/2401.16658
 A complete practical grammar of the Hungarian language; with exercises, selections from the best authors, and vocabularies, to which is added a Historical sketch of Hungarian literature by J Csink - PDF Drive
 https://www.pdfdrive.com/a-complete-practical-grammar-of-the-hungarian-language-with-exercises-selections-from-the-best-authors-and-vocabularies-to-which-is-added-a-historical-sketch-of-hungarian-literature-d157292500.html
 
-[2402.00282] PAM: Prompting Audio-Language Models for Audio Quality Assessment
-https://arxiv.org/abs/2402.00282
-
 [2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval
 https://arxiv.org/abs/2401.18059
 
@@ -52,17 +43,14 @@ https://arxiv.org/html/2401.16658v1
 Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
 https://arxiv.org/pdf/2402.01831.pdf
 
+Audio Flamingo
+https://audioflamingo.github.io/
+
 CLAP/msclap/models/mapper.py at main · microsoft/CLAP
 https://github.com/microsoft/CLAP/blob/main/msclap/models/mapper.py
 
-Commits · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/commits/main/?after=9940ec60058f644662809a6787ba1b7c464567ad+34
-
 Replace CLIP Image Encoder with LanguageBind Image Encoder [Video-NeVA] by PannuMuthu · Pull Request #8300 · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/pull/8300/commits/a3d9cc7198962780cb7922fd733802a3507e3ad9#diff-07b087ee21d99449fa5be968321007e0bfe109f0a97f5420d0b34b430dcc88fb
-
-enable nmt to use beam search by mengruwNv · Pull Request #8287 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/8287
 
 Attention encoder-decoder models for multiple speech-to-text tasks … · NVIDIA/NeMo@d10726d
 https://github.com/NVIDIA/NeMo/commit/d10726da72f74eb5a95056843d1f9e2562a5051c
@@ -145,12 +133,6 @@ https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Larg
 OpenBMB/MiniCPM: MiniCPM-2B: An end-side LLM outperforms Llama2-13B.
 https://github.com/OpenBMB/MiniCPM
 
-General-Model-License/通用模型许可协议-来源说明-宣传限制-商业授权.md at main · OpenBMB/General-Model-License
-https://github.com/OpenBMB/General-Model-License/blob/main/%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9E%8B%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE-%E6%9D%A5%E6%BA%90%E8%AF%B4%E6%98%8E-%E5%AE%A3%E4%BC%A0%E9%99%90%E5%88%B6-%E5%95%86%E4%B8%9A%E6%8E%88%E6%9D%83.md
-
-[2402.03944] IMUSIC: IMU-based Facial Expression Capture
-https://arxiv.org/abs/2402.03944
-
 state-spaces/mamba
 https://github.com/state-spaces/mamba?tab=readme-ov-file
 
@@ -201,12 +183,6 @@ https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
 
 whisper/data at main · openai/whisper
 https://github.com/openai/whisper/tree/main/data
-
-whisper v3 - Google Search
-https://www.google.com/search?q=whisper+v3&rlz=1C5GCEM_enSE990SE991&oq=whisper+v3&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg9MgYIBxBFGD3SAQgzNzQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-openai/whisper-large-v3 · Hugging Face
-https://huggingface.co/openai/whisper-large-v3
 
 Ego-Exo4D
 https://ego-exo4d-data.org/?utm_source=twitter&utm_medium=organic_social&utm_campaign=fair10&utm_content=video
@@ -484,7 +460,13 @@ https://towardsai.net/p/machine-learning/multimodal-language-models-explained-vi
 Review — Flamingo: A Visual Language Model for Few-Shot Learning | by Sik-Ho Tsang | Medium
 https://sh-tsang.medium.com/review-flamingo-a-visual-language-model-for-few-shot-learning-ec477d47e7bf
 
-DeepMind Flamingo Explained — 32 Images are Enough To Learn! | by Boris Meinardus | Towards AI
-https://pub.towardsai.net/deepmind-flamingo-explained-32-images-are-enough-to-learn-8badb73d1efc#:~:text=So%2C%20how%20does%20the%20Flamingo,at%20the%20Flamingo%20architecture%20overview.&text=The%20model%20leverages%20two%20completely,and%20outputs%20the%20text%20tokens.
+Code LoRA from Scratch
+https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
+
+makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
+https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+
+Audio Flamingo
+https://audioflamingo.github.io/
 
 
