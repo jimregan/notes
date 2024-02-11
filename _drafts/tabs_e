@@ -1,17 +1,5 @@
-Christoph Molnar on X: "I just found a great introduction to embedding. The book is comprehensive yet short. Historical encoding tools, neural nets, and production - all covered. Fantastic job by @vboykis. Thanks for making it free to read! Looking forward to diving in. https://t.co/uFwaSjaysn https://t.co/SKl2ExOJaw" / X
-https://twitter.com/ChristophMolnar/status/1745731602682982675?t=LHKlCc79AHUE94jlWGyfHw&s=09
-
-what_are_embeddings/notebooks/fig_4_bert.ipynb at main · veekaybee/what_are_embeddings
-https://github.com/veekaybee/what_are_embeddings/blob/main/notebooks/fig_4_bert.ipynb
-
-BetterExplained – Math lessons that click
-https://betterexplained.com/
-
-text_search/examples/libriheavy at master · k2-fsa/text_search
-https://github.com/k2-fsa/text_search/tree/master/examples/libriheavy
-
-MambaByte/mambabyte/model.py at main · kyegomez/MambaByte
-https://github.com/kyegomez/MambaByte/blob/main/mambabyte/model.py
+kyegomez/MambaByte: Implementation of MambaByte in "MambaByte: Token-free Selective State Space Model" in Pytorch and Zeta
+https://github.com/kyegomez/MambaByte
 
 hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
 https://github.com/hustvl/Vim
@@ -19,26 +7,11 @@ https://github.com/hustvl/Vim
 makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
 https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
 
-[2305.19435] AdANNS: A Framework for Adaptive Semantic Search
-https://arxiv.org/abs/2305.19435
-
-2211.09949.pdf
-https://arxiv.org/pdf/2211.09949.pdf
-
-[2401.16658] OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
-https://arxiv.org/abs/2401.16658
-
-A complete practical grammar of the Hungarian language; with exercises, selections from the best authors, and vocabularies, to which is added a Historical sketch of Hungarian literature by J Csink - PDF Drive
-https://www.pdfdrive.com/a-complete-practical-grammar-of-the-hungarian-language-with-exercises-selections-from-the-best-authors-and-vocabularies-to-which-is-added-a-historical-sketch-of-hungarian-literature-d157292500.html
-
 [2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval
 https://arxiv.org/abs/2401.18059
 
 Lesson - Mondly
 https://app.mondly.com/home/5/lessons/505
-
-OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
-https://arxiv.org/html/2401.16658v1
 
 Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
 https://arxiv.org/pdf/2402.01831.pdf
@@ -49,50 +22,8 @@ https://audioflamingo.github.io/
 CLAP/msclap/models/mapper.py at main · microsoft/CLAP
 https://github.com/microsoft/CLAP/blob/main/msclap/models/mapper.py
 
-Replace CLIP Image Encoder with LanguageBind Image Encoder [Video-NeVA] by PannuMuthu · Pull Request #8300 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/pull/8300/commits/a3d9cc7198962780cb7922fd733802a3507e3ad9#diff-07b087ee21d99449fa5be968321007e0bfe109f0a97f5420d0b34b430dcc88fb
-
-Attention encoder-decoder models for multiple speech-to-text tasks … · NVIDIA/NeMo@d10726d
-https://github.com/NVIDIA/NeMo/commit/d10726da72f74eb5a95056843d1f9e2562a5051c
-
-Pin lhotse version to 1.19.2 (#8291) · NVIDIA/NeMo@f6e6485
-https://github.com/NVIDIA/NeMo/commit/f6e64859174920e6a7fb26c4308cbe4c1d44206e
-
-Mixtral to NeMo conversion script. (#8155) · NVIDIA/NeMo@13c1db4
-https://github.com/NVIDIA/NeMo/commit/13c1db4ffdaa3b2125ce6e66c93509a39d55b2cf
-
-switch to mcore dataset [with FIM support] (#8149) · NVIDIA/NeMo@a93589d
-https://github.com/NVIDIA/NeMo/commit/a93589d80472bfbf949b0e65758b106eeaa7ac80
-
-NeMo/nemo/collections/common/data/dataset.py at 2c2c3ccde2f1269a0e30f9b54dac0b0d569bae51 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/2c2c3ccde2f1269a0e30f9b54dac0b0d569bae51/nemo/collections/common/data/dataset.py
-
-lhotse/lhotse/recipes/switchboard.py at master · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/switchboard.py
-
 lhotse/lhotse/recipes/timit.py at master · lhotse-speech/lhotse
 https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/timit.py
-
-lhotse/lhotse/recipes/nsc.py at master · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/nsc.py
-
-lhotse/lhotse/recipes/mls.py at master · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/mls.py
-
-lhotse/lhotse/recipes/dipco.py at master · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/dipco.py
-
-Course information for doctoral students | EECS internal pages
-https://intra.kth.se/en/eecs/forskarutbildning/courses
-
-NY FO-TRAK
-https://intra.kth.se/polopoly_fs/1.1298221.1700743075!/FO-TRAK%20EECS.pdf
-
-NVIDIA GPU Compute Test Suite Collection - OpenBenchmarking.org
-https://openbenchmarking.org/suite/pts/nvidia-gpu-compute
-
-Interspeech thing for ParlaCLARIN - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/65b12a434befd9098dbef6a9
 
 ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
 https://www.clarin.eu/ParlaCLARIN-IV
