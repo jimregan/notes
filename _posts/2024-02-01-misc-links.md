@@ -216,4 +216,5 @@ estimator using Transformer
 
 [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
 
-[Diff-HierVC demo](https://diff-hiervc.github.io/audio_demo/)
+[Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation](https://arxiv.org/abs/2311.04693),
+[demo](https://diff-hiervc.github.io/audio_demo/)
