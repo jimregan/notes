@@ -191,3 +191,6 @@ estimator using Transformer
 
 [Texts - Easy Hungarian](https://www.easyhungarian.com/texts.html)
 
+[Code LoRA from Scratch](https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public)
+
+
