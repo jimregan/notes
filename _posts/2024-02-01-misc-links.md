@@ -245,4 +245,13 @@ estimator using Transformer
 
 [facebookresearch/Pearl](https://github.com/facebookresearch/Pearl) --- A Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta.
 
+[metavoiceio/metavoice-src](https://github.com/metavoiceio/metavoice-src) --- Foundational model for human-like, expressive TTS
+
+[lucidrains/retro-pytorch](https://github.com/lucidrains/retro-pytorch) --- Implementation of RETRO, Deepmind's Retrieval based Attention net, in Pytorch
+
+[The Illustrated Retrieval Transformer](https://jalammar.github.io/illustrated-retrieval-transformer/)
+
+[lifeiteng/vall-e](https://github.com/lifeiteng/vall-e) --- PyTorch implementation of VALL-E(Zero-Shot Text-To-Speech), Reproduced Demo
+
+[Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning](https://arxiv.org/abs/2402.06619)
 
