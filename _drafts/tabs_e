@@ -40,14 +40,8 @@ https://interspeech2024.org/call-for-papers/
 Phonological rules — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phonological_rules.html
 
-Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/10095969
-
-Text-to-audio retrieval via large-scale contrastive learning - Google Search
-https://www.google.com/search?q=Text-to-audio+retrieval+via+large-scale+contrastive+learning&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8
-
-CLAP/src/laion_clap/clap_module/pann_model.py at main · LAION-AI/CLAP
-https://github.com/LAION-AI/CLAP/blob/main/src/laion_clap/clap_module/pann_model.py
+LAION-AI/CLAP: Contrastive Language-Audio Pretraining
+https://github.com/LAION-AI/CLAP/tree/main
 
 Large-scale Contrastive Language-Audio Petraining
 https://retrocirce.github.io/appendix/
@@ -55,7 +49,7 @@ https://retrocirce.github.io/appendix/
 audioset_tagging_cnn/scripts/0_inference.sh at master · qiuqiangkong/audioset_tagging_cnn
 https://github.com/qiuqiangkong/audioset_tagging_cnn/blob/master/scripts/0_inference.sh
 
-(1) Philipp Schmid on X: "Can a 2B LLM outperform Mistral 7B or Llama 13B? Creators of the popular Ultrafeedback dataset released MiniCPM, a 2.4B parameter model claiming performance close to Mistral 7B, Llama 2 13B, or Falcon 40B. 🤯🤔 As part of the release, the researchers released a detailed…" / X
+Philipp Schmid on X: "Can a 2B LLM outperform Mistral 7B or Llama 13B? Creators of the popular Ultrafeedback dataset released MiniCPM, a 2.4B parameter model claiming performance close to Mistral 7B, Llama 2 13B, or Falcon 40B. 🤯🤔 As part of the release, the researchers released a detailed…" / X
 https://twitter.com/_philschmid/status/1755268463457657263
 
 MiniCPM: Unveiling the Potential of End-side Large Language Models
@@ -316,12 +310,6 @@ https://github.com/huggingface/transformers/blob/main/src/transformers/models/id
 HuggingFaceM4 (HuggingFaceM4)
 https://huggingface.co/HuggingFaceM4
 
-Multimodal IDEFICS: Unveiling the Transparency & Power of Open Visual Language Models
-https://huggingface.co/blog/Andyrasika/idefics-multimodal
-
-Reddit - Dive into anything
-https://www.reddit.com/r/panelshow/wiki/taskmaster/#wiki_kongen_befaler_.28taskmaster_norway.29
-
 Kongen_Befaler_S09_E02.mkv - Google Drive
 https://drive.google.com/file/d/1kFiwxgAhEzn2msRoclVzpfI6BK0afWp5/view
 
@@ -399,5 +387,119 @@ https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
 
 Audio Flamingo
 https://audioflamingo.github.io/
+
+Home / X
+https://twitter.com/home
+
+OLMo: Open Language Model. A State-Of-The-Art, Truly Open LLM and… | by AI2 | Feb, 2024 | AI2 Blog
+https://blog.allenai.org/olmo-open-language-model-87ccfc95f580
+
+allenai/catwalk: This project studies the performance and robustness of language models and task-adaptation methods.
+https://github.com/allenai/catwalk
+
+OLMo-Eval/paloma/README.md at main · allenai/OLMo-Eval
+https://github.com/allenai/OLMo-Eval/blob/main/paloma/README.md
+
+allenai/open-instruct
+https://github.com/allenai/open-instruct
+
+adapt mistral to a new language - Google Search
+https://www.google.com/search?q=adapt+mistral+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapt+mistral+to+a+new+language&gs_lcrp=EgZjaHJvbWUyCwgAEEUYChg5GKAB0gEIOTE1NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
+
+Raining
+https://clibrain.com/en/blog/lince-mistral
+
+Models - Hugging Face
+https://huggingface.co/models?language=sv&other=mistral&sort=trending
+
+neph1/bellman-7b-mistral-instruct-v0.2 · Hugging Face
+https://huggingface.co/neph1/bellman-7b-mistral-instruct-v0.2
+
+norallm/normistral-7b-warm · Hugging Face
+https://huggingface.co/norallm/normistral-7b-warm
+
+NbAiLab/nb-sau-7b-4k-step100k · Hugging Face
+https://huggingface.co/NbAiLab/nb-sau-7b-4k-step100k
+
+norallm/normistral-7b-scratch · Hugging Face
+https://huggingface.co/norallm/normistral-7b-scratch
+
+ltgoslo
+https://github.com/ltgoslo
+
+Danielbrdz/Barcenas-Mistral-7b · Hugging Face
+https://huggingface.co/Danielbrdz/Barcenas-Mistral-7b
+
+Danielbrdz/Barcenas-lmsys-Dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/Danielbrdz/Barcenas-lmsys-Dataset?row=4
+
+marianbasti/lince-mistral-7b-it-es-gguf · Hugging Face
+https://huggingface.co/marianbasti/lince-mistral-7b-it-es-gguf
+
+piotr-ai/polanka-7b-v0.1 · Hugging Face
+https://huggingface.co/piotr-ai/polanka-7b-v0.1
+
+I tried to teach Mistral 7B a new language (Sundanese) and it worked! (sort of) : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/18oc1yc/i_tried_to_teach_mistral_7b_a_new_language/
+
+[2312.12740] Fine-tuning Large Language Models for Adaptive Machine Translation
+https://arxiv.org/abs/2312.12740
+
+A Step-by-Step Guide to Fine-Tuning the Mistral 7B LLM
+https://www.e2enetworks.com/blog/a-step-by-step-guide-to-fine-tuning-the-mistral-7b-llm
+
+ymoslem/Adaptive-MT-LLM-Fine-tuning: Fine-tuning Mistral LLM for Adaptive Machine Translation
+https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning
+
+Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Dec, 2023 | Medium
+https://medium.com/@lucamassaron/fine-tuning-a-large-language-model-on-kaggle-notebooks-for-solving-real-world-tasks-part-3-f15228f1c2a2
+
+Fine-tune Phi-2 for sentiment analysis | Kaggle
+https://www.kaggle.com/code/lucamassaron/fine-tune-phi-2-for-sentiment-analysis
+
+OpenAccess-AI-Collective/axolotl: Go ahead and axolotl questions
+https://github.com/OpenAccess-AI-Collective/axolotl
+
+Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+
+Tutorial 3: Activation Functions — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html
+
+phlippe/uvadlc_notebooks: Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam (MSc AI), Fall 2023
+https://github.com/phlippe/uvadlc_notebooks
+
+Tutorial 17: Self-Supervised Contrastive Learning with SimCLR — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html
+
+Tutorial 4: Optimization and Initialization — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html
+
+microsoft/phi-2 · Hugging Face
+https://huggingface.co/microsoft/phi-2
+
+adapt mistral to a new language - Google Search
+https://www.google.com/search?q=adapt+mistral+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapt+&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgYIAhBFGDwyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEEUYQTIGCAcQRRhB0gEINjE5OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
+
+Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md
+
+Chinese-LLaMA-Alpaca/scripts at main · ymcui/Chinese-LLaMA-Alpaca
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/tree/main/scripts
+
+Pretraining Script · ymcui/Chinese-LLaMA-Alpaca Wiki
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Pretraining-Script
+
+Chinese-LLaMA-Alpaca/scripts/training/run_clm_pt_with_peft.py at main · ymcui/Chinese-LLaMA-Alpaca
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/scripts/training/run_clm_pt_with_peft.py
+
+SFT script · ymcui/Chinese-LLaMA-Alpaca Wiki
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/SFT-Script
+
+Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md#Model-Reconstruction
+
+Fine-tune a pretrained model
+https://huggingface.co/docs/transformers/en/training
 
 
