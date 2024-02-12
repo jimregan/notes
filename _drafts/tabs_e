@@ -538,6 +538,15 @@ https://arxiv.org/pdf/2402.01831v1.pdf
 QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
 https://github.com/QwenLM/Qwen-Audio?tab=readme-ov-file
 
+Qwen-Audio/modeling_qwen.py at main · QwenLM/Qwen-Audio
+https://github.com/QwenLM/Qwen-Audio/blob/main/modeling_qwen.py
+
+Qwen-Audio/configuration_qwen.py at main · QwenLM/Qwen-Audio
+https://github.com/QwenLM/Qwen-Audio/blob/main/configuration_qwen.py
+
+QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen-Audio/tree/main
+
 SpeechT5/SpeechT5 at main · microsoft/SpeechT5
 https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
 
@@ -549,5 +558,8 @@ https://github.com/YuanGongND/ltu/blob/main/src/ltu_as/extract_whisper_feature.p
 
 pdf
 https://openreview.net/pdf?id=nBZBPXdJlC
+
+What is the difference between `register_buffer` and `register_parameter` of `nn.Module` - PyTorch Forums
+https://discuss.pytorch.org/t/what-is-the-difference-between-register-buffer-and-register-parameter-of-nn-module/32723/8
 
 
