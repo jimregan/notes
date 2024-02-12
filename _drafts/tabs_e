@@ -157,36 +157,6 @@ https://github.com/NVIDIA/NeMo-text-processing/pull/71#issuecomment-1920340902
 Meta Research
 https://github.com/orgs/facebookresearch/repositories
 
-facebookresearch/Pearl: A Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta.
-https://github.com/facebookresearch/Pearl?tab=readme-ov-file
-
-Pearl/pearl/policy_learners/sequential_decision_making/deep_q_learning.py at main · facebookresearch/Pearl
-https://github.com/facebookresearch/Pearl/blob/main/pearl/policy_learners/sequential_decision_making/deep_q_learning.py
-
-Pearl/pearl at main · facebookresearch/Pearl
-https://github.com/facebookresearch/Pearl/tree/main/pearl
-
-facebookresearch/ConvNeXt-V2: Code release for ConvNeXt V2 model
-https://github.com/facebookresearch/ConvNeXt-V2
-
-facebookresearch/projectaria_tools: projectaria_tools is an C++/Python open-source toolkit to interact with Project Aria data
-https://github.com/facebookresearch/projectaria_tools
-
-facebookresearch/ConvNeXt-V2: Code release for ConvNeXt V2 model
-https://github.com/facebookresearch/ConvNeXt-V2
-
-facebookresearch/d2go: D2Go is a toolkit for efficient deep learning
-https://github.com/facebookresearch/d2go
-
-xformers/xformers/components/positional_embedding/sine.py at main · facebookresearch/xformers
-https://github.com/facebookresearch/xformers/blob/main/xformers/components/positional_embedding/sine.py
-
-Commits · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/commits/main/
-
-fairseq/examples/mms at 3f0f20f2d12403629224347664b3e75c13b2c8e0 · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/tree/3f0f20f2d12403629224347664b3e75c13b2c8e0/examples/mms
-
 Fine-Tune MMS Adapter Models for low-resource ASR
 https://huggingface.co/blog/mms_adapters
 
@@ -195,21 +165,6 @@ https://github.com/facebookresearch/fairseq/commit/91c364b7ceef8032099363cb10ba1
 
 MMS TTS Colab Notebook (#5165) · facebookresearch/fairseq@ae59bd6
 https://github.com/facebookresearch/fairseq/commit/ae59bd6d04871f6174351ad46c90992e1dca7ac7
-
-[MMS] Add a tutorial on CC LM decoding for ASR model (#5160) · facebookresearch/fairseq@35641fb
-https://github.com/facebookresearch/fairseq/commit/35641fb41e5e7bd49e48df37e8aab2fbac673012
-
-vumichien/AV-HuBERT · Hugging Face
-https://huggingface.co/vumichien/AV-HuBERT
-
-facebook/mms-1b-fl102 · Hugging Face
-https://huggingface.co/facebook/mms-1b-fl102#supported-languages
-
-MMS
-https://huggingface.co/docs/transformers/model_doc/mms
-
-Dream2Real: Zero-Shot 3D Object Rearrangement with Vision-Language Models
-https://www.robot-learning.uk/dream2real
 
 Automatic Speech Recognition (ASR) — NVIDIA NeMo
 https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/intro.html#asr-tutorial-notebooks
@@ -490,9 +445,6 @@ https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/
 Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
 
-comparison - What is the difference between the triplet loss and the contrastive loss? - Artificial Intelligence Stack Exchange
-https://ai.stackexchange.com/questions/35977/what-is-the-difference-between-the-triplet-loss-and-the-contrastive-loss
-
 microsoft/phi-2 · Hugging Face
 https://huggingface.co/microsoft/phi-2
 
@@ -502,32 +454,17 @@ https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Pretraining-Script
 Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
 https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md#Model-Reconstruction
 
-ai as gaeilge - Google Search
-https://www.google.com/search?q=ai+as+gaeilge&rlz=1C5GCEM_enSE990SE991&oq=ai+as+gaeilge&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgYIBxBFGEDSAQgyOTg5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1
-
-jbrry/Irish-BERT: Repository to store helper scripts for creating an Irish BERT model.
-https://github.com/jbrry/Irish-BERT
-
-Models - Hugging Face
-https://huggingface.co/models?language=gd
-
 FacebookAI/xlm-roberta-base · Hugging Face
 https://huggingface.co/FacebookAI/xlm-roberta-base
 
-facebook/nllb-200-3.3B · Hugging Face
-https://huggingface.co/facebook/nllb-200-3.3B
+facebook (AI at Meta)
+https://huggingface.co/facebook
 
-DCU-NLP/electra-base-irish-cased-discriminator-v1 · Hugging Face
-https://huggingface.co/DCU-NLP/electra-base-irish-cased-discriminator-v1
+facebook/audio-magnet-medium · Hugging Face
+https://huggingface.co/facebook/audio-magnet-medium
 
-jimregan (Jim O'Regan)
-https://huggingface.co/jimregan
-
-jimregan/electra-base-irish-cased-discriminator-v1-finetuned-ner · Hugging Face
-https://huggingface.co/jimregan/electra-base-irish-cased-discriminator-v1-finetuned-ner
-
-jimregan/ga_idt_sm at main
-https://huggingface.co/jimregan/ga_idt_sm/tree/main
+facebook/w2v-bert-2.0 · Hugging Face
+https://huggingface.co/facebook/w2v-bert-2.0
 
 flamingo-pytorch/flamingo_pytorch/flamingo_palm.py at main · lucidrains/flamingo-pytorch
 https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_palm.py
