@@ -243,4 +243,6 @@ estimator using Transformer
 
 [Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004)
 
+[facebookresearch/Pearl](https://github.com/facebookresearch/Pearl) --- A Production-ready Reinforcement Learning AI Agent Library brought by the Applied Reinforcement Learning team at Meta.
+
 
