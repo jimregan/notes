@@ -237,4 +237,10 @@ estimator using Transformer
 
 [lucidrains/llama-qrlhf](https://github.com/lucidrains/llama-qrlhf) --- Implementation of the Llama architecture with RLHF + Q-learning
 
+[Robust Speech Recognition via Large-Scale Weak Supervision](https://arxiv.org/abs/2212.04356)
+
+[ActiveVisionLab/Awesome-LLM-3D](https://github.com/ActiveVisionLab/Awesome-LLM-3D) --- Awesome-LLM-3D: a curated list of Multi-modal Large Language Model in 3D world Resources
+
+[Are Emergent Abilities of Large Language Models a Mirage?](https://arxiv.org/abs/2304.15004)
+
 
