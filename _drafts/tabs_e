@@ -1,6 +1,3 @@
-kyegomez/MambaByte: Implementation of MambaByte in "MambaByte: Token-free Selective State Space Model" in Pytorch and Zeta
-https://github.com/kyegomez/MambaByte
-
 hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
 https://github.com/hustvl/Vim
 
@@ -436,6 +433,24 @@ https://huggingface.co/datasets/Danielbrdz/Barcenas-lmsys-Dataset?row=4
 marianbasti/lince-mistral-7b-it-es-gguf · Hugging Face
 https://huggingface.co/marianbasti/lince-mistral-7b-it-es-gguf
 
+piotr-ai (Piotr)
+https://huggingface.co/piotr-ai
+
+Paper page - A Paradigm Shift in Machine Translation: Boosting Translation Performance of Large Language Models
+https://huggingface.co/papers/2309.11674
+
+haoranxu/ALMA-7B · Hugging Face
+https://huggingface.co/haoranxu/ALMA-7B
+
+piotr-ai/polanka-3b-pretrain-full-v0.3 · Hugging Face
+https://huggingface.co/piotr-ai/polanka-3b-pretrain-full-v0.3
+
+openlm-research/open_llama_3b_v2 · Hugging Face
+https://huggingface.co/openlm-research/open_llama_3b_v2
+
+EasyLM/docs/checkpointing.md at main · young-geng/EasyLM
+https://github.com/young-geng/EasyLM/blob/main/docs/checkpointing.md
+
 piotr-ai/polanka-7b-v0.1 · Hugging Face
 https://huggingface.co/piotr-ai/polanka-7b-v0.1
 
@@ -472,34 +487,67 @@ https://github.com/phlippe/uvadlc_notebooks
 Tutorial 17: Self-Supervised Contrastive Learning with SimCLR — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html
 
-Tutorial 4: Optimization and Initialization — UvA DL Notebooks v1.2 documentation
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial4/Optimization_and_Initialization.html
+Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+
+comparison - What is the difference between the triplet loss and the contrastive loss? - Artificial Intelligence Stack Exchange
+https://ai.stackexchange.com/questions/35977/what-is-the-difference-between-the-triplet-loss-and-the-contrastive-loss
 
 microsoft/phi-2 · Hugging Face
 https://huggingface.co/microsoft/phi-2
 
-adapt mistral to a new language - Google Search
-https://www.google.com/search?q=adapt+mistral+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapt+&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgYIAhBFGDwyBggDEEUYPDIGCAQQRRg8MgYIBRBFGEEyBggGEEUYQTIGCAcQRRhB0gEINjE5OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
-
-Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md
-
-Chinese-LLaMA-Alpaca/scripts at main · ymcui/Chinese-LLaMA-Alpaca
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/tree/main/scripts
-
 Pretraining Script · ymcui/Chinese-LLaMA-Alpaca Wiki
 https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Pretraining-Script
-
-Chinese-LLaMA-Alpaca/scripts/training/run_clm_pt_with_peft.py at main · ymcui/Chinese-LLaMA-Alpaca
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/scripts/training/run_clm_pt_with_peft.py
-
-SFT script · ymcui/Chinese-LLaMA-Alpaca Wiki
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/SFT-Script
 
 Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
 https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md#Model-Reconstruction
 
-Fine-tune a pretrained model
-https://huggingface.co/docs/transformers/en/training
+ai as gaeilge - Google Search
+https://www.google.com/search?q=ai+as+gaeilge&rlz=1C5GCEM_enSE990SE991&oq=ai+as+gaeilge&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgYIBxBFGEDSAQgyOTg5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1
+
+jbrry/Irish-BERT: Repository to store helper scripts for creating an Irish BERT model.
+https://github.com/jbrry/Irish-BERT
+
+Models - Hugging Face
+https://huggingface.co/models?language=gd
+
+FacebookAI/xlm-roberta-base · Hugging Face
+https://huggingface.co/FacebookAI/xlm-roberta-base
+
+facebook/nllb-200-3.3B · Hugging Face
+https://huggingface.co/facebook/nllb-200-3.3B
+
+DCU-NLP/electra-base-irish-cased-discriminator-v1 · Hugging Face
+https://huggingface.co/DCU-NLP/electra-base-irish-cased-discriminator-v1
+
+jimregan (Jim O'Regan)
+https://huggingface.co/jimregan
+
+jimregan/electra-base-irish-cased-discriminator-v1-finetuned-ner · Hugging Face
+https://huggingface.co/jimregan/electra-base-irish-cased-discriminator-v1-finetuned-ner
+
+jimregan/ga_idt_sm at main
+https://huggingface.co/jimregan/ga_idt_sm/tree/main
+
+flamingo-pytorch/flamingo_pytorch/flamingo_palm.py at main · lucidrains/flamingo-pytorch
+https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_palm.py
+
+Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
+https://arxiv.org/pdf/2402.01831v1.pdf
+
+QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen-Audio?tab=readme-ov-file
+
+SpeechT5/SpeechT5 at main · microsoft/SpeechT5
+https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
+
+2110.07205.pdf
+https://arxiv.org/pdf/2110.07205.pdf
+
+ltu/src/ltu_as/extract_whisper_feature.py at main · YuanGongND/ltu
+https://github.com/YuanGongND/ltu/blob/main/src/ltu_as/extract_whisper_feature.py
+
+pdf
+https://openreview.net/pdf?id=nBZBPXdJlC
 
 
