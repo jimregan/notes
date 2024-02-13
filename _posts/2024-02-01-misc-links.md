@@ -255,3 +255,9 @@ estimator using Transformer
 
 [Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning](https://arxiv.org/abs/2402.06619)
 
+[cisnlp/simalign](https://github.com/cisnlp/simalign) --- Obtain Word Alignments using Pretrained Language Models (e.g., mBERT)
+
+[Speech Recognition for Minority Languages Using
+HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116827/)
+
+
