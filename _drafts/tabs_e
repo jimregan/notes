@@ -232,8 +232,8 @@ https://dataverse.no/dataset.xhtml;jsessionid=4655f41072c706e121d2598ad1cc?persi
 Northern Sámi - Wikipedia
 https://en.wikipedia.org/wiki/Northern_S%C3%A1mi
 
-UniversalDependencies/UD_North_Sami-Giella: North Sámi data.
-https://github.com/UniversalDependencies/UD_North_Sami-Giella
+UD_North_Sami-Giella/sme_giella-ud-test.conllu at master · UniversalDependencies/UD_North_Sami-Giella
+https://github.com/UniversalDependencies/UD_North_Sami-Giella/blob/master/sme_giella-ud-test.conllu
 
 Northern Saami interactive text corpus
 https://giellatekno.uit.no/text.en.html
@@ -481,11 +481,20 @@ https://github.com/for-ai/aya-annotations-ui?tab=readme-ov-file
 CohereForAI (Cohere For AI)
 https://huggingface.co/CohereForAI
 
+Vaibhav (VB) Srivastav on X: "Welcome Aya-101 🚀 &gt; Follows instructions in 101 languages! &gt; 12.9 B parameters &gt; Outperforms mT0 &amp; Bloomz &gt; Released under Apache 2.0 &gt; Training + Evaluation data released too! &gt; mt5-xxl architecture! GG @CohereForAI ♥️ Model ckpt: https://t.co/FSK4E89YbV https://t.co/1ykAHWOP8A" / X
+https://twitter.com/reach_vb/status/1757391945813405827
+
+CohereForAI/aya-101 · Hugging Face
+https://huggingface.co/CohereForAI/aya-101
+
+CohereForAI/aya_dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/CohereForAI/aya_dataset
+
+CohereForAI/aya_collection · Datasets at Hugging Face
+https://huggingface.co/datasets/CohereForAI/aya_collection
+
 2402.05755.pdf
 https://arxiv.org/pdf/2402.05755.pdf
-
-[2305.13009] Textually Pretrained Speech Language Models
-https://arxiv.org/abs/2305.13009
 
 Textually Pretrained Speech Language Models
 https://pages.cs.huji.ac.il/adiyoss-lab/twist/
@@ -525,5 +534,8 @@ https://www.mmsp.ece.mcgill.ca/Documents/Data/
 
 speaker_recognition_GMM_UBM/visualizing_speech_features.ipynb at master · scelesticsiva/speaker_recognition_GMM_UBM
 https://github.com/scelesticsiva/speaker_recognition_GMM_UBM/blob/master/visualizing_speech_features.ipynb
+
+vitouphy/wav2vec2-xls-r-300m-timit-phoneme · Hugging Face
+https://huggingface.co/vitouphy/wav2vec2-xls-r-300m-timit-phoneme
 
 
