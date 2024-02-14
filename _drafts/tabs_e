@@ -553,4 +553,61 @@ https://maps-sweden.com/maps-sweden-regions/sweden-map-counties
 Svenska_dialektgrupper.png (1900×2950)
 https://upload.wikimedia.org/wikipedia/commons/a/ab/Svenska_dialektgrupper.png
 
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Ers%C3%A4ttare&op=translate
+
+Börje Vestlund - Wikidata
+https://www.wikidata.org/wiki/Q512590
+
+Ledamotslista
+https://data.riksdagen.se/personlista/?iid=0720249554818&utformat=html
+
+Entity not found - OpenSanctions
+https://www.opensanctions.org/entities/Q512590/
+
+Riksdagen person-ID - Wikidata
+https://www.wikidata.org/wiki/Property:P1214
+
+Wikidata Query Service
+https://query.wikidata.org/#SELECT%20%3Fperson%20%3Friksdagid%20%3Fpob%20%3FpobLabel%20WHERE%20%7B%20%20%20%0A%20%20%20%20%3Fperson%20wdt%3AP1214%20%3Friksdagid.%0A%20%20%20%20OPTIONAL%7B%20%3Fperson%20wdt%3AP19%20%3Fpob.%20%7D%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%22.%20%7D%0A%7D
+
+Järfälla församling - Wikidata
+https://www.wikidata.org/wiki/Q11055815
+
+How to query Wikidata using SPARQL for a specific property? - Stack Overflow
+https://stackoverflow.com/questions/65661604/how-to-query-wikidata-using-sparql-for-a-specific-property
+
+Constructing SPARQL Queries. From simple queries to federated… | by Angus Addlesee | Wallscope | Medium
+https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02
+
+SPARQL/OPTIONAL - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/SPARQL/OPTIONAL
+
+Iraq - Wikidata
+https://www.wikidata.org/wiki/Q796
+
+Wikidata:SPARQL tutorial - Wikidata
+https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial/en
+
+How to get property labels from Wikidata using SPARQL - Stack Overflow
+https://stackoverflow.com/questions/56486888/how-to-get-property-labels-from-wikidata-using-sparql
+
+Marta Obminska - Wikidata
+https://www.wikidata.org/wiki/Q4970743
+
+Marta Obminska - Wikipedia
+https://en.wikipedia.org/wiki/Marta_Obminska
+
+Sala Municipality - Wikidata
+https://www.wikidata.org/wiki/Q37399#/map/0
+
+map of swedish dialects - Google Search
+https://www.google.com/search?q=map+of+swedish+dialects&rlz=1C5GCEM_enSE990SE991&oq=map+of+swedish+dialects&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEAyBggDEEUYQNIBCDQxODNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+Swedish dialects - Wikipedia
+https://en.wikipedia.org/wiki/Swedish_dialects
+
+Counties of Sweden - Wikipedia
+https://en.wikipedia.org/wiki/Counties_of_Sweden
+
 
