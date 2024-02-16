@@ -34,35 +34,8 @@ https://interspeech2024.org/call-for-papers/
 Phonological rules — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phonological_rules.html
 
-LAION-AI/CLAP: Contrastive Language-Audio Pretraining
-https://github.com/LAION-AI/CLAP/tree/main
-
-Large-scale Contrastive Language-Audio Petraining
-https://retrocirce.github.io/appendix/
-
-audioset_tagging_cnn/scripts/0_inference.sh at master · qiuqiangkong/audioset_tagging_cnn
-https://github.com/qiuqiangkong/audioset_tagging_cnn/blob/master/scripts/0_inference.sh
-
-Philipp Schmid on X: "Can a 2B LLM outperform Mistral 7B or Llama 13B? Creators of the popular Ultrafeedback dataset released MiniCPM, a 2.4B parameter model claiming performance close to Mistral 7B, Llama 2 13B, or Falcon 40B. 🤯🤔 As part of the release, the researchers released a detailed…" / X
-https://twitter.com/_philschmid/status/1755268463457657263
-
-MiniCPM: Unveiling the Potential of End-side Large Language Models
-https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20
-
-OpenBMB/MiniCPM: MiniCPM-2B: An end-side LLM outperforms Llama2-13B.
-https://github.com/OpenBMB/MiniCPM
-
-state-spaces/mamba
-https://github.com/state-spaces/mamba?tab=readme-ov-file
-
-state-spaces/s4: Structured state space sequence models
-https://github.com/state-spaces/s4?tab=readme-ov-file
-
-s4/src/dataloaders at main · state-spaces/s4
-https://github.com/state-spaces/s4/tree/main/src/dataloaders
-
-(1) Cory Doctorow @pluralistic@mamot.fr on X: "There's a strain of anti-anti-monopolist that insists that they're not *pro*-monopoly - they're just *realists* who understand that global gigacorporations are too big to fail, too big to jail, and that governments can't hope to rein them in. 1/ https://t.co/nx0lM4lKWu" / X
-https://twitter.com/doctorow/status/1754999901073903739
+qiuqiangkong/audioset_tagging_cnn
+https://github.com/qiuqiangkong/audioset_tagging_cnn
 
 metavoiceio/metavoice-1B-v0.1 · Hugging Face
 https://huggingface.co/metavoiceio/metavoice-1B-v0.1
@@ -252,15 +225,6 @@ https://gtsvn.uit.no/biggies/trunk/mt/omegat/sma-nob/glossary/
 
 Downloads
 https://wortschatz.uni-leipzig.de/en/download
-
-simalign/README.md at master · cisnlp/simalign
-https://github.com/cisnlp/simalign/blob/master/README.md
-
-Multimodal Language Models Explained: Visual Instruction Tuning – Towards AI
-https://towardsai.net/p/machine-learning/multimodal-language-models-explained-visual-instruction-tuning
-
-Review — Flamingo: A Visual Language Model for Few-Shot Learning | by Sik-Ho Tsang | Medium
-https://sh-tsang.medium.com/review-flamingo-a-visual-language-model-for-few-shot-learning-ec477d47e7bf
 
 Code LoRA from Scratch
 https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
