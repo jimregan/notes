@@ -260,4 +260,7 @@ estimator using Transformer
 [Speech Recognition for Minority Languages Using
 HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116827/)
 
+[Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009)
+
+[An Embarrassingly Simple Approach for LLM with Strong ASR Capacity](https://arxiv.org/abs/2402.08846)
 
