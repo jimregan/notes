@@ -269,3 +269,11 @@ HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116
 [Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687),
 [code](https://github.com/LAION-AI/CLAP)
 
+{% twitter https://twitter.com/_philschmid/status/1755268463457657263 %}
+
+[MiniCPM: Unveiling the Potential of End-side Large Language Models](https://shengdinghu.notion.site/MiniCPM-Unveiling-the-Potential-of-End-side-Large-Language-Models-d4d3a8c426424654a4e80e42a711cb20),
+[code](https://github.com/OpenBMB/MiniCPM)
+
+{% twitter https://twitter.com/doctorow/status/1754999901073903739 %}
+
+
