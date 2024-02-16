@@ -264,3 +264,8 @@ HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116
 
 [An Embarrassingly Simple Approach for LLM with Strong ASR Capacity](https://arxiv.org/abs/2402.08846)
 
+[Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection](https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-6-23)
+
+[Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687),
+[code](https://github.com/LAION-AI/CLAP)
+
