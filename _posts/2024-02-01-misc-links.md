@@ -280,4 +280,20 @@ HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116
 
 [Multimodal Language Models Explained: Visual Instruction Tuning](https://towardsai.net/p/machine-learning/multimodal-language-models-explained-visual-instruction-tuning)
 
+{% twitter https://twitter.com/pcastr/status/1757728769383526844 %}
 
+[Mixtures of Experts Unlock Parameter Scaling for Deep RL](https://arxiv.org/abs/2402.08609)
+
+{% twitter https://twitter.com/mundt_martin/status/1757128614829502521 %}
+
+[Cohere for AI launches open source LLM for 101 languages](https://venturebeat.com/ai/cohere-for-ai-launches-open-source-llm-for-101-languages/)
+
+[100x less compute with GPT-level LLM performance: How a little known open source project could help solve the GPU power conundrum — RWKV looks promising but challenges remain](https://www.techradar.com/pro/100x-less-compute-with-gpt-level-llm-performance-how-a-little-known-open-source-project-could-help-solve-the-gpu-power-conundrum-rwkv-looks-promising-but-challenges-remain)
+
+[BAAI-DCAI/Bunny](https://github.com/BAAI-DCAI/Bunny) --- A family of lightweight multimodal models.
+
+theodorblackbird/lina-speech seems interesting, but it's not open source, so I don't care.
+
+[Large Language Models, GPT-2 — Language Models Are Unsupervised Multitask Learners](https://towardsdatascience.com/large-language-models-gpt-2-language-models-are-unsupervised-multitask-learners-33440081f808)
+
+[vosen/ZLUDA](https://github.com/vosen/ZLUDA) --- CUDA on AMD GPUs
