@@ -146,7 +146,8 @@ categories: [links]
 
 {% twitter https://twitter.com/_philschmid/status/1742888388401811795 %}
 
-[This AI Paper from Meta Introduces Hyper-VolTran: A Novel Neural Network for Transformative 3D Reconstruction and Rendering](https://www.marktechpost.com/2024/01/03/this-ai-paper-from-mete-introduces-hyper-voltran-a-novel-neural-network-for-transformative-3d-reconstruction-and-rendering/)
+[This AI Paper from Meta Introduces Hyper-VolTran: A Novel Neural Network for Transformative 3D Reconstruction and Rendering](https://www.marktechpost.com/2024/01/03/this-ai-paper-from-mete-introduces-hyper-voltran-a-novel-neural-network-for-transformative-3d-reconstruction-and-rendering/),
+[paper](https://arxiv.org/abs/2312.16218)
 
 [Phi-2: The surprising power of small language models](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)
 
