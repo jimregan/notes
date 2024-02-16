@@ -276,4 +276,8 @@ HuBERT and Model Adaptation](https://www.scitepress.org/PublishedPapers/2023/116
 
 {% twitter https://twitter.com/doctorow/status/1754999901073903739 %}
 
+[Review — Flamingo: A Visual Language Model for Few-Shot Learning](https://sh-tsang.medium.com/review-flamingo-a-visual-language-model-for-few-shot-learning-ec477d47e7bf)
+
+[Multimodal Language Models Explained: Visual Instruction Tuning](https://towardsai.net/p/machine-learning/multimodal-language-models-explained-visual-instruction-tuning)
+
 
