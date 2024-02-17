@@ -1,0 +1,601 @@
+makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
+https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+
+[2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval
+https://arxiv.org/abs/2401.18059
+
+Lesson - Mondly
+https://app.mondly.com/home/5/lessons/505
+
+Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
+https://arxiv.org/pdf/2402.01831.pdf
+
+Audio Flamingo
+https://audioflamingo.github.io/
+
+CLAP/msclap/models/mapper.py at main · microsoft/CLAP
+https://github.com/microsoft/CLAP/blob/main/msclap/models/mapper.py
+
+lhotse/lhotse/recipes/timit.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/timit.py
+
+ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
+https://www.clarin.eu/ParlaCLARIN-IV
+
+SIGUL 2024 - SIGUL
+https://www.sigul.eu/event/sigul-2024/
+
+SIGUL-2024_Call-for-Papers.pdf
+https://sigul-2024.ilc.cnr.it/wp-content/uploads/2023/12/SIGUL-2024_Call-for-Papers.pdf
+
+Call For Papers – Interspeech 2024
+https://interspeech2024.org/call-for-papers/
+
+Phonological rules — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phonological_rules.html
+
+qiuqiangkong/audioset_tagging_cnn
+https://github.com/qiuqiangkong/audioset_tagging_cnn
+
+metavoiceio/metavoice-1B-v0.1 · Hugging Face
+https://huggingface.co/metavoiceio/metavoice-1B-v0.1
+
+metavoiceio/metavoice-src: Foundational model for human-like, expressive TTS
+https://github.com/metavoiceio/metavoice-src
+
+huggingface.co
+https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1/blob/main/app.py
+
+metavoiceio/metavoice-src: AI for human-level speech intelligence
+https://github.com/metavoiceio/metavoice-src
+
+metavoice-src/fam/llm/model.py at main · metavoiceio/metavoice-src
+https://github.com/metavoiceio/metavoice-src/blob/main/fam/llm/model.py
+
+neonbjb/tortoise-tts: A multi-voice TTS system trained with an emphasis on quality
+https://github.com/neonbjb/tortoise-tts
+
+LangChain on X: "RAG From Scratch: Video series focused on understanding the RAG landscape RAG is central for LLM application development, connecting LLMs to external data sources. But, the pace of innovation and new approaches makes it challenging to keep up. We're launching a new video… https://t.co/963lOnVLcP" / X
+https://twitter.com/LangChainAI/status/1754915914796216654
+
+RAG From Scratch: Part 1 (Overview) - YouTube
+https://www.youtube.com/watch?v=wd7TZ4w1mSw
+
+rag-from-scratch/rag_from_scratch_1_to_4.ipynb at main · langchain-ai/rag-from-scratch
+https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb
+
+whisperX/whisperx/alignment.py at main · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
+
+whisper/data at main · openai/whisper
+https://github.com/openai/whisper/tree/main/data
+
+Ego-Exo4D
+https://ego-exo4d-data.org/?utm_source=twitter&utm_medium=organic_social&utm_campaign=fair10&utm_content=video
+
+Efficient Linear Model Merging for LLMs
+https://lightning.ai/lightning-ai/studios/efficient-linear-model-merging-for-llms
+
+2312.04533.pdf
+https://arxiv.org/pdf/2312.04533.pdf
+
+Automatic Speech Recognition (ASR) — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/intro.html#asr-tutorial-notebooks
+
+NeMo/tutorials/asr/ASR_with_NeMo.ipynb at main · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/ASR_with_NeMo.ipynb
+
+Datasets — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/datasets.html#preparing-custom-asr-data
+
+Models — NVIDIA NeMo
+https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html#hybrid-asr-tts-model
+
+2003.07705.pdf
+https://arxiv.org/pdf/2003.07705.pdf
+
+NeMo/nemo/collections/asr/modules/rnnt.py at main · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/asr/modules/rnnt.py
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+[WIP] Support external dataset library by Masao-Someki · Pull Request #5584 · espnet/espnet
+https://github.com/espnet/espnet/pull/5584/files#diff-d73b19c9038190fcca9e673c1523b18eb579c3b5ed08a802ddf26c347db48edd
+
+Add causal LM for ASR2 by akreal · Pull Request #5514 · espnet/espnet
+https://github.com/espnet/espnet/pull/5514
+
+[WIP] Implement wav2gloss by juice500ml · Pull Request #5449 · espnet/espnet
+https://github.com/espnet/espnet/pull/5449/files#diff-12ce31487cc7e7842d534c8f04eb1fdb34187ffc9a4cc4fa36a0f98549aae5ad
+
+espnet/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst+xvector_tacotron2.yaml at c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16 · espnet/espnet
+https://github.com/espnet/espnet/blob/c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst%2Bxvector_tacotron2.yaml
+
+croissant/python/mlcroissant at main · mlcommons/croissant
+https://github.com/mlcommons/croissant/tree/main/python/mlcroissant
+
+r-three/phatgoose: Code for PHATGOOSE introduced in "Learning to Route Among Specialized Experts for Zero-Shot Generalization"
+https://github.com/r-three/phatgoose
+
+unilm/e5 at master · microsoft/unilm
+https://github.com/microsoft/unilm/tree/master/e5
+
+microsoft/unilm: Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
+https://github.com/microsoft/unilm?tab=readme-ov-file
+
+unilm/infoxlm/src-infoxlm/infoxlm/criterions/xlco.py at master · microsoft/unilm
+https://github.com/microsoft/unilm/blob/master/infoxlm/src-infoxlm/infoxlm/criterions/xlco.py
+
+microsoft/unilm: Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
+https://github.com/microsoft/unilm?tab=readme-ov-file
+
+microsoft/torchscale: Foundation Architecture for (M)LLMs
+https://github.com/microsoft/torchscale
+
+unilm/textdiffuser-2/train_textdiffuser2_inpainting_full.py at master · microsoft/unilm
+https://github.com/microsoft/unilm/blob/master/textdiffuser-2/train_textdiffuser2_inpainting_full.py
+
+[2402.05755] SpiRit-LM: Interleaved Spoken and Written Language Model
+https://arxiv.org/abs/2402.05755
+
+CTC forced alignment API tutorial — Torchaudio 2.2.0.dev20240210 documentation
+https://pytorch.org/audio/main/tutorials/ctc_forced_alignment_api_tutorial.html
+
+BAAI-DCAI/Bunny: A family of lightweight multimodal models.
+https://github.com/BAAI-DCAI/Bunny
+
+Top 5 linguist hacks for language learners - YouTube
+https://www.youtube.com/watch?v=KbMSc5btyuA
+
+A besúgó | 1. rész | SkyShowtime Magyarország - YouTube
+https://www.youtube.com/watch?v=Nip8K47UvdE&t=2263s
+
+paraszt - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/paraszt
+
+flamingo-pytorch/README.md at main · lucidrains/flamingo-pytorch
+https://github.com/lucidrains/flamingo-pytorch/blob/main/README.md
+
+RETRO-pytorch/retro_pytorch/retrieval.py at main · lucidrains/RETRO-pytorch
+https://github.com/lucidrains/RETRO-pytorch/blob/main/retro_pytorch/retrieval.py
+
+transformers/src/transformers/models/idefics/perceiver.py at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/src/transformers/models/idefics/perceiver.py
+
+HuggingFaceM4 (HuggingFaceM4)
+https://huggingface.co/HuggingFaceM4
+
+Kongen_Befaler_S09_E02.mkv - Google Drive
+https://drive.google.com/file/d/1kFiwxgAhEzn2msRoclVzpfI6BK0afWp5/view
+
+Category:Hungarian-language dubs | The Dubbing Database | Fandom
+https://dubdb.fandom.com/wiki/Category:Hungarian-language_dubs
+
+Peppa Malac | A Nagy Beteg | Rajzfilmek - YouTube
+https://www.youtube.com/watch?v=a68sy55RBe4
+
+Peppa Malac | Az álruha | Rajzfilmek - YouTube
+https://www.youtube.com/watch?v=Em5Vj_ar8xY
+
+Peppa Pig - Dressing Up (full episode) - YouTube
+https://www.youtube.com/watch?v=mqxNuaK2uZE
+
+multilingual-t5/multilingual_t5/tasks.py at master · google-research/multilingual-t5
+https://github.com/google-research/multilingual-t5/blob/master/multilingual_t5/tasks.py
+
+Going Global —How to Multi-Task in Multiple Languages with the mT5 Transformer | by Thilina Rajapakse | Towards Data Science
+https://towardsdatascience.com/going-global-how-to-multi-task-in-multiple-languages-with-the-mt5-transformer-892617cd890c
+
+mT6: Multilingual Pretrained Text-to-Text Transformer with Translation Pairs
+https://aclanthology.org/2021.emnlp-main.125.pdf
+
+FLAN-T5 Tutorial: Guide and Fine-Tuning | DataCamp
+https://www.datacamp.com/tutorial/flan-t5-tutorial
+
+north sami corpus - Google Search
+https://www.google.com/search?q=north+sami+corpus&rlz=1C5GCEM_enSE990SE991&oq=north+sami+corpus&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDQ5MzRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+SIKOR North Saami corpus - Arctic Language Technology
+https://dataverse.no/dataset.xhtml;jsessionid=4655f41072c706e121d2598ad1cc?persistentId=doi%3A10.18710%2F8AK7KZ&version=&q=&fileTypeGroupFacet=&fileAccess=Public&fileTag=&fileSortField=size&fileSortOrder=
+
+Northern Sámi - Wikipedia
+https://en.wikipedia.org/wiki/Northern_S%C3%A1mi
+
+UD_North_Sami-Giella/sme_giella-ud-test.conllu at master · UniversalDependencies/UD_North_Sami-Giella
+https://github.com/UniversalDependencies/UD_North_Sami-Giella/blob/master/sme_giella-ud-test.conllu
+
+Northern Saami interactive text corpus
+https://giellatekno.uit.no/text.en.html
+
+SIKOR North Saami free corpus
+https://repo.clarino.uib.no/xmlui/handle/11509/100
+
+Tools for Saami languages
+https://giellatekno.uit.no/smilang.eng.html
+
+freecorpus - Revision 10716: /orig/sme/Len/other_files
+https://gtsvn.uit.no/freecorpus/orig/sme/Len/other_files/
+
+Translation memories | GiellaLT Documentation
+https://giellalt.github.io/tm/TranslationMemories.html
+
+biggies - Revision 4825: /trunk/mt/omegat/sma-nob/glossary
+https://gtsvn.uit.no/biggies/trunk/mt/omegat/sma-nob/glossary/
+
+Downloads
+https://wortschatz.uni-leipzig.de/en/download
+
+Code LoRA from Scratch
+https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
+
+makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
+https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+
+Audio Flamingo
+https://audioflamingo.github.io/
+
+Home / X
+https://twitter.com/home
+
+OLMo: Open Language Model. A State-Of-The-Art, Truly Open LLM and… | by AI2 | Feb, 2024 | AI2 Blog
+https://blog.allenai.org/olmo-open-language-model-87ccfc95f580
+
+allenai/catwalk: This project studies the performance and robustness of language models and task-adaptation methods.
+https://github.com/allenai/catwalk
+
+OLMo-Eval/paloma/README.md at main · allenai/OLMo-Eval
+https://github.com/allenai/OLMo-Eval/blob/main/paloma/README.md
+
+allenai/open-instruct
+https://github.com/allenai/open-instruct
+
+adapt mistral to a new language - Google Search
+https://www.google.com/search?q=adapt+mistral+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapt+mistral+to+a+new+language&gs_lcrp=EgZjaHJvbWUyCwgAEEUYChg5GKAB0gEIOTE1NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
+
+Raining
+https://clibrain.com/en/blog/lince-mistral
+
+Models - Hugging Face
+https://huggingface.co/models?language=sv&other=mistral&sort=trending
+
+neph1/bellman-7b-mistral-instruct-v0.2 · Hugging Face
+https://huggingface.co/neph1/bellman-7b-mistral-instruct-v0.2
+
+norallm/normistral-7b-warm · Hugging Face
+https://huggingface.co/norallm/normistral-7b-warm
+
+NbAiLab/nb-sau-7b-4k-step100k · Hugging Face
+https://huggingface.co/NbAiLab/nb-sau-7b-4k-step100k
+
+norallm/normistral-7b-scratch · Hugging Face
+https://huggingface.co/norallm/normistral-7b-scratch
+
+ltgoslo
+https://github.com/ltgoslo
+
+Danielbrdz/Barcenas-Mistral-7b · Hugging Face
+https://huggingface.co/Danielbrdz/Barcenas-Mistral-7b
+
+Danielbrdz/Barcenas-lmsys-Dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/Danielbrdz/Barcenas-lmsys-Dataset?row=4
+
+marianbasti/lince-mistral-7b-it-es-gguf · Hugging Face
+https://huggingface.co/marianbasti/lince-mistral-7b-it-es-gguf
+
+piotr-ai (Piotr)
+https://huggingface.co/piotr-ai
+
+Paper page - A Paradigm Shift in Machine Translation: Boosting Translation Performance of Large Language Models
+https://huggingface.co/papers/2309.11674
+
+haoranxu/ALMA-7B · Hugging Face
+https://huggingface.co/haoranxu/ALMA-7B
+
+piotr-ai/polanka-3b-pretrain-full-v0.3 · Hugging Face
+https://huggingface.co/piotr-ai/polanka-3b-pretrain-full-v0.3
+
+openlm-research/open_llama_3b_v2 · Hugging Face
+https://huggingface.co/openlm-research/open_llama_3b_v2
+
+EasyLM/docs/checkpointing.md at main · young-geng/EasyLM
+https://github.com/young-geng/EasyLM/blob/main/docs/checkpointing.md
+
+piotr-ai/polanka-7b-v0.1 · Hugging Face
+https://huggingface.co/piotr-ai/polanka-7b-v0.1
+
+I tried to teach Mistral 7B a new language (Sundanese) and it worked! (sort of) : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/18oc1yc/i_tried_to_teach_mistral_7b_a_new_language/
+
+[2312.12740] Fine-tuning Large Language Models for Adaptive Machine Translation
+https://arxiv.org/abs/2312.12740
+
+A Step-by-Step Guide to Fine-Tuning the Mistral 7B LLM
+https://www.e2enetworks.com/blog/a-step-by-step-guide-to-fine-tuning-the-mistral-7b-llm
+
+ymoslem/Adaptive-MT-LLM-Fine-tuning: Fine-tuning Mistral LLM for Adaptive Machine Translation
+https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning
+
+Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Dec, 2023 | Medium
+https://medium.com/@lucamassaron/fine-tuning-a-large-language-model-on-kaggle-notebooks-for-solving-real-world-tasks-part-3-f15228f1c2a2
+
+Fine-tune Phi-2 for sentiment analysis | Kaggle
+https://www.kaggle.com/code/lucamassaron/fine-tune-phi-2-for-sentiment-analysis
+
+OpenAccess-AI-Collective/axolotl: Go ahead and axolotl questions
+https://github.com/OpenAccess-AI-Collective/axolotl
+
+Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+
+Tutorial 3: Activation Functions — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html
+
+phlippe/uvadlc_notebooks: Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam (MSc AI), Fall 2023
+https://github.com/phlippe/uvadlc_notebooks
+
+Tutorial 17: Self-Supervised Contrastive Learning with SimCLR — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html
+
+Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
+https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+
+microsoft/phi-2 · Hugging Face
+https://huggingface.co/microsoft/phi-2
+
+Pretraining Script · ymcui/Chinese-LLaMA-Alpaca Wiki
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Pretraining-Script
+
+Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
+https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md#Model-Reconstruction
+
+FacebookAI/xlm-roberta-base · Hugging Face
+https://huggingface.co/FacebookAI/xlm-roberta-base
+
+facebook (AI at Meta)
+https://huggingface.co/facebook
+
+facebook/audio-magnet-medium · Hugging Face
+https://huggingface.co/facebook/audio-magnet-medium
+
+facebook/w2v-bert-2.0 · Hugging Face
+https://huggingface.co/facebook/w2v-bert-2.0
+
+flamingo-pytorch/flamingo_pytorch/flamingo_palm.py at main · lucidrains/flamingo-pytorch
+https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_palm.py
+
+Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
+https://arxiv.org/pdf/2402.01831v1.pdf
+
+QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen-Audio?tab=readme-ov-file
+
+Qwen-Audio/modeling_qwen.py at main · QwenLM/Qwen-Audio
+https://github.com/QwenLM/Qwen-Audio/blob/main/modeling_qwen.py
+
+Qwen-Audio/configuration_qwen.py at main · QwenLM/Qwen-Audio
+https://github.com/QwenLM/Qwen-Audio/blob/main/configuration_qwen.py
+
+QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen-Audio/tree/main
+
+SpeechT5/SpeechT5 at main · microsoft/SpeechT5
+https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
+
+2110.07205.pdf
+https://arxiv.org/pdf/2110.07205.pdf
+
+ltu/src/ltu_as/extract_whisper_feature.py at main · YuanGongND/ltu
+https://github.com/YuanGongND/ltu/blob/main/src/ltu_as/extract_whisper_feature.py
+
+pdf
+https://openreview.net/pdf?id=nBZBPXdJlC
+
+What is the difference between `register_buffer` and `register_parameter` of `nn.Module` - PyTorch Forums
+https://discuss.pytorch.org/t/what-is-the-difference-between-register-buffer-and-register-parameter-of-nn-module/32723/8
+
+encodec extract tokens - Google Search
+https://www.google.com/search?q=encodec+extract+tokens&rlz=1C5GCEM_enSE990SE991&oq=encodec+extract+tokens&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDQ1NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+audiocraft/docs/MBD.md at main · facebookresearch/audiocraft
+https://github.com/facebookresearch/audiocraft/blob/main/docs/MBD.md
+
+facebookresearch/encodec: State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio.
+https://github.com/facebookresearch/encodec?tab=readme-ov-file
+
+CLAP
+https://huggingface.co/docs/transformers/main/en/model_doc/clap
+
+facebook/encodec_24khz · Hugging Face
+https://huggingface.co/facebook/encodec_24khz
+
+encodec/encodec/modules/seanet.py at main · facebookresearch/encodec
+https://github.com/facebookresearch/encodec/blob/main/encodec/modules/seanet.py
+
+encodec/encodec/balancer.py at main · facebookresearch/encodec
+https://github.com/facebookresearch/encodec/blob/main/encodec/balancer.py
+
+EnCodec
+https://huggingface.co/docs/transformers/en/model_doc/encodec
+
+William Falcon ⚡️ on X: "In this new 90 minute lecture, I show how to pretrain a 3B LLM from scratch. No edits. No detail skipped. Companies want you to believe pretraining models is super hard and costly. With the right tools, it's not. - We start by tuning the model on a cheap A10G. - Then we scale… https://t.co/01xmjDhq8t" / X
+https://twitter.com/_willfalcon/status/1757028556809355439
+
+Let's pretrain a 3B LLM from scratch: on 16+ H100 GPUs, no detail skipped. - YouTube
+https://www.youtube.com/watch?v=aPzbR1s1O_8
+
+Home / X
+https://twitter.com/home
+
+3DTopia - a Hugging Face Space by hongfz16
+https://huggingface.co/spaces/hongfz16/3DTopia
+
+3DTopia/3DTopia: Text-to-3D Generation within 5 Minutes
+https://github.com/3DTopia/3DTopia?tab=readme-ov-file
+
+hongfz16/3DTopia at main
+https://huggingface.co/hongfz16/3DTopia/tree/main
+
+Paper page - DeAL: Decoding-time Alignment for Large Language Models
+https://huggingface.co/papers/2402.06147
+
+for-ai/aya-annotations-ui: Web UI used for Data Annotations in Aya
+https://github.com/for-ai/aya-annotations-ui?tab=readme-ov-file
+
+CohereForAI (Cohere For AI)
+https://huggingface.co/CohereForAI
+
+Vaibhav (VB) Srivastav on X: "Welcome Aya-101 🚀 &gt; Follows instructions in 101 languages! &gt; 12.9 B parameters &gt; Outperforms mT0 &amp; Bloomz &gt; Released under Apache 2.0 &gt; Training + Evaluation data released too! &gt; mt5-xxl architecture! GG @CohereForAI ♥️ Model ckpt: https://t.co/FSK4E89YbV https://t.co/1ykAHWOP8A" / X
+https://twitter.com/reach_vb/status/1757391945813405827
+
+CohereForAI/aya-101 · Hugging Face
+https://huggingface.co/CohereForAI/aya-101
+
+CohereForAI/aya_dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/CohereForAI/aya_dataset
+
+CohereForAI/aya_collection · Datasets at Hugging Face
+https://huggingface.co/datasets/CohereForAI/aya_collection
+
+2402.05755.pdf
+https://arxiv.org/pdf/2402.05755.pdf
+
+Textually Pretrained Speech Language Models
+https://pages.cs.huji.ac.il/adiyoss-lab/twist/
+
+textlesslib/examples/twist/README.md at main · facebookresearch/textlesslib
+https://github.com/facebookresearch/textlesslib/blob/main/examples/twist/README.md
+
+textlesslib/textless/data/collater_utils.py at main · facebookresearch/textlesslib
+https://github.com/facebookresearch/textlesslib/blob/main/textless/data/collater_utils.py
+
+2305.13009.pdf
+https://arxiv.org/pdf/2305.13009.pdf
+
+facebookresearch/textlesslib: Library for Textless Spoken Language Processing
+https://github.com/facebookresearch/textlesslib
+
+adapting hubert to a new language - Google Search
+https://www.google.com/search?q=adapting+hubert+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapting+hubert+to+a+new+language&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDYwNTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Submitted to INTERSPEECH
+https://assets.amazon.science/5d/7a/43347a464718b174897dfbadeddc/dont-stop-self-supervision-accent-adaptation-of-speech-representations-via-residual-adapters.pdf
+
+116827.pdf
+https://www.scitepress.org/Papers/2023/116827/116827.pdf
+
+examples/language_model/README.md · osanseviero/HUBERT at fc67275d986c0d49bf35d125254ffc4568974089
+https://huggingface.co/spaces/osanseviero/HUBERT/blob/fc67275d986c0d49bf35d125254ffc4568974089/examples/language_model/README.md
+
+pdf
+https://openreview.net/pdf?id=zrAUoI2JA2
+
+vowel-detector/vowel-detector.praat at master · parantes/vowel-detector
+https://github.com/parantes/vowel-detector/blob/master/vowel-detector.praat
+
+TSP Lab - Data
+https://www.mmsp.ece.mcgill.ca/Documents/Data/
+
+speaker_recognition_GMM_UBM/src/speaker_recognition/UBM.py at master · scelesticsiva/speaker_recognition_GMM_UBM
+https://github.com/scelesticsiva/speaker_recognition_GMM_UBM/blob/master/src/speaker_recognition/UBM.py
+
+Interspeech thing for ParlaCLARIN - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65b12a434befd9098dbef6a9
+
+Götaland dialects - Wikipedia
+https://en.wikipedia.org/wiki/G%C3%B6taland_dialects
+
+map of swedish provinces - Google Search
+https://www.google.com/search?q=map+of+swedish+provinces&rlz=1C5GCEM_enSE990SE991&oq=map+of+swedish&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI4NDZqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=z_Xc214Ra_QnyM&vssid=l
+
+Sweden map counties - Map of Swedish counties (Northern Europe - Europe)
+https://maps-sweden.com/maps-sweden-regions/sweden-map-counties
+
+Svenska_dialektgrupper.png (1900×2950)
+https://upload.wikimedia.org/wikipedia/commons/a/ab/Svenska_dialektgrupper.png
+
+Counties of Sweden - Wikipedia
+https://en.wikipedia.org/wiki/Counties_of_Sweden#Proposed_regions
+
+Blekinge County - Wikipedia
+https://en.wikipedia.org/wiki/Blekinge_County
+
+These 5 habits will get you FLUENT in any language - YouTube
+https://www.youtube.com/watch?v=UUQJjpqgn-Q
+
+Russian lessons – Lesson 1 – Tips, goals and Russian alphabet | Russian language - YouTube
+https://www.youtube.com/watch?v=AYRZupz6rdw
+
+These Pronunciation Mistakes Reduce your French Level ! - YouTube
+https://www.youtube.com/watch?v=qfh2Lnu0EwM
+
+Julia Sanina (@the_hardkiss) • Instagram photos and videos
+https://www.instagram.com/the_hardkiss/
+
+Israel–Hamas war - Wikipedia
+https://en.wikipedia.org/wiki/Israel%E2%80%93Hamas_war
+
+(6) Israel-Hamas war live updates: Palestinians flee Rafah as U.N. warns of a 'slaughter'
+https://www.nbcnews.com/news/world/live-blog/israel-hamas-war-live-updates-rafah-gaza-offensive-rcna138759
+
+Video player | Disney+
+https://www.disneyplus.com/en-gb/video/28125dd1-5a40-4461-8dae-47deb5134a70
+
+gmm-ubm · GitHub Topics
+https://github.com/topics/gmm-ubm
+
+zhenghuatan/GMM-UBM_MAP_SV: Python code for training and testing of GMM-UBM and maximum a posterirori (MAP) adaptation based speaker verification
+https://github.com/zhenghuatan/GMM-UBM_MAP_SV
+
+Anwarvic/Speaker-Recognition: This repo contains my attempt to create a Speaker Recognition and Verification system using SideKit-1.3.1
+https://github.com/Anwarvic/Speaker-Recognition
+
+tobiasfshr/gmm-ubm-speaker-identification-verification: Implementation of a speaker identification and a speaker verification system based on Gaussian Mixture Models (GMM) in combination with and Universal Background Model (UBM) on the YOHO dataset in MATLAB.
+https://github.com/tobiasfshr/gmm-ubm-speaker-identification-verification
+
+parkinson's speech detector python - Google Search
+https://www.google.com/search?q=parkinson%27s+speech+detector+python&rlz=1C5GCEM_enSE990SE991&oq=parkinson%27s+speech+detec&gs_lcrp=EgZjaHJvbWUqCQgCECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIGCAMQIRgV0gEJMTAxOTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+vivraj17/Detection-Of-Parkinson-s-Disesase-Using-Voice-Impairments-With-ML-and-LSTM: Several studies have been carried out to analyse Parkinson’s disease using speech impairments. Various tools and techniques have been used on speech signals to accurately predict Parkinson’s in an individual. In this paper, we have proposed to use various Machine Learning techniques to compare results and predict PD. We have found that Deep Learning gives extremely accurate results over tremor data of individuals (both healthy and PD patients). So, we not only run various Machine Learning techniques that have been used for speech processing, we also run a Deep Learning model on speech data since it produced better results over tremor data that is analogically similar to speech data.
+https://github.com/vivraj17/Detection-Of-Parkinson-s-Disesase-Using-Voice-Impairments-With-ML-and-LSTM
+
+Python Machine Learning Project - Detecting Parkinson’s Disease with XGBoost - DataFlair
+https://data-flair.training/blogs/python-machine-learning-project-detecting-parkinson-disease/
+
+imadtoubal/Parkinson-s-Disease-Classification-from-Speech-Data: Parkinson’s Disease Classification from Speech Data using multiple Machine Learning approaches. This was implemented using scikit-learn Python package.
+https://github.com/imadtoubal/Parkinson-s-Disease-Classification-from-Speech-Data?tab=readme-ov-file
+
+UCI Machine Learning Repository
+https://archive.ics.uci.edu/ml/datasets/Parkinson%27s+Disease+Classification
+
+A comparative analysis of speech signal processing algorithms for Parkinson’s disease classification and the use of the tunable Q-factor wavelet transform - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S1568494618305799?via%3Dihub
+
+Parkinson's disease detection from vocal biomarker | Kaggle
+https://www.kaggle.com/code/nasrulhakim86/parkinson-s-disease-detection-from-vocal-biomarker/input
+
+Parkinson Disease Detection
+https://www.kaggle.com/datasets/debasisdotcom/parkinson-disease-detection/code
+
+Prediction with 89% accuracy | Kaggle
+https://www.kaggle.com/code/yashsharma1216/prediction-with-89-accuracy
+
+Counties of Sweden - Wikipedia
+https://en.wikipedia.org/wiki/Counties_of_Sweden
+
+Västerbotten - Wikidata
+https://www.wikidata.org/wiki/Q211652
+
+2402.08846.pdf
+https://arxiv.org/pdf/2402.08846.pdf
+
+Sara áhčči lea ollen Göteborgii - ”erenoamáš dilálašvuohta” - Sameradion | Sveriges Radio
+https://sverigesradio.se/artikel/sara-ahcci-lea-ollen-goteborgii-erenoamas-dilalasvuohta
+
+dubliners-download-and-asr | Kaggle
+https://www.kaggle.com/code/jimregan/dubliners-download-and-asr/edit/run/162997003
+
+The Project Gutenberg eBook of Dubliners, by James Joyce
+https://www.gutenberg.org/cache/epub/2814/pg2814-images.html#chap11
+
+
