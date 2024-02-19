@@ -865,43 +865,61 @@ https://paperswithcode.com/search?q=author%3ARonan+Collobert&order_by=date
 Continuous pseudo-labeling from the start | OpenReview
 https://openreview.net/forum?id=m3twGT2bAug
 
-ISCA Archive
-https://www.isca-archive.org/interspeech_2022/baby22_interspeech.html
+baby22_interspeech.pdf
+https://www.isca-archive.org/interspeech_2022/baby22_interspeech.pdf
 
-word timestamps of an each individual word in the inference · Issue #987 · flashlight/wav2letter
-https://github.com/flashlight/wav2letter/issues/987
-
-Ronan Collobert | SOTA！模型
-https://sota.jiqizhixin.com/researchers/6545225d-30de-4989-a324-c59b8b57036c
-
-Jacob Kahn
-https://jacobkahn.me/
-
-jacobkahn (jacobkahn) / Repositories
-https://github.com/jacobkahn?tab=repositories
-
-flashlight/flashlight: A C++ standalone library for machine learning
-https://github.com/flashlight/flashlight?tab=readme-ov-file
-
-flashlight/flashlight/app/asr at main · flashlight/flashlight
-https://github.com/flashlight/flashlight/tree/main/flashlight/app/asr
-
-arrayfire/arrayfire: ArrayFire: a general purpose GPU library.
-https://github.com/arrayfire/arrayfire
-
-jacobkahn/oneDNN: oneAPI Deep Neural Network Library (oneDNN)
-https://github.com/jacobkahn/oneDNN
+[2106.07759v1] Kaizen: Continuously improving teacher using Exponential Moving Average for semi-supervised speech recognition
+https://arxiv.org/abs/2106.07759v1
 
 ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++
-https://github.com/ggerganov/whisper.cpp
+https://github.com/ggerganov/whisper.cpp?tab=readme-ov-file
+
+whisper.cpp/models/README.md at master · ggerganov/whisper.cpp
+https://github.com/ggerganov/whisper.cpp/blob/master/models/README.md
+
+whisper.cpp/models/convert-pt-to-ggml.py at master · ggerganov/whisper.cpp
+https://github.com/ggerganov/whisper.cpp/blob/master/models/convert-pt-to-ggml.py
 
 ggerganov (Georgi Gerganov)
 https://github.com/ggerganov
 
 ggerganov/llama.cpp: Port of Facebook's LLaMA model in C/C++
-https://github.com/ggerganov/llama.cpp
+https://github.com/ggerganov/llama.cpp?tab=readme-ov-file
 
-jacobkahn (Jacob Kahn)
-https://github.com/jacobkahn
+feat: support StarCoder model architectures by wsxiaoys · Pull Request #3187 · ggerganov/llama.cpp
+https://github.com/ggerganov/llama.cpp/pull/3187
+
+Lin-Chen/ShareGPT4V-13B · Hugging Face
+https://huggingface.co/Lin-Chen/ShareGPT4V-13B
+
+results/ScienceQA.md · opencompass/open_vlm_leaderboard at main
+https://huggingface.co/spaces/opencompass/open_vlm_leaderboard/blob/main/results/ScienceQA.md
+
+maddes8cht/SkunkworksAI-BakLLaVA-1-gguf · Hugging Face
+https://huggingface.co/maddes8cht/SkunkworksAI-BakLLaVA-1-gguf
+
+SkunkworksAI (SkunkworksAI)
+https://huggingface.co/SkunkworksAI
+
+SkunkworksAI/BakLLaVA-1-FT · Datasets at Hugging Face
+https://huggingface.co/datasets/SkunkworksAI/BakLLaVA-1-FT
+
+SkunkworksAI/phi-2 · Hugging Face
+https://huggingface.co/SkunkworksAI/phi-2
+
+SkunkworksAI/BakLLaVA_v1_pretrained · Hugging Face
+https://huggingface.co/SkunkworksAI/BakLLaVA_v1_pretrained
+
+NousResearch/Obsidian-3B-V0.5 · Hugging Face
+https://huggingface.co/NousResearch/Obsidian-3B-V0.5
+
+LLaVA-1.5 - a liuhaotian Collection
+https://huggingface.co/collections/liuhaotian/llava-15-653aac15d994e992e2677a7e
+
+Models - Hugging Face
+https://huggingface.co/models?search=mobileVLM
+
+NbAiLab/whisper-large-sme · Hugging Face
+https://huggingface.co/NbAiLab/whisper-large-sme
 
 
