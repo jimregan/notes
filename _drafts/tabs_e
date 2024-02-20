@@ -181,29 +181,8 @@ https://www.youtube.com/watch?v=Em5Vj_ar8xY
 Peppa Pig - Dressing Up (full episode) - YouTube
 https://www.youtube.com/watch?v=mqxNuaK2uZE
 
-multilingual-t5/multilingual_t5/tasks.py at master · google-research/multilingual-t5
-https://github.com/google-research/multilingual-t5/blob/master/multilingual_t5/tasks.py
-
-Going Global —How to Multi-Task in Multiple Languages with the mT5 Transformer | by Thilina Rajapakse | Towards Data Science
-https://towardsdatascience.com/going-global-how-to-multi-task-in-multiple-languages-with-the-mt5-transformer-892617cd890c
-
-mT6: Multilingual Pretrained Text-to-Text Transformer with Translation Pairs
-https://aclanthology.org/2021.emnlp-main.125.pdf
-
-FLAN-T5 Tutorial: Guide and Fine-Tuning | DataCamp
-https://www.datacamp.com/tutorial/flan-t5-tutorial
-
-north sami corpus - Google Search
-https://www.google.com/search?q=north+sami+corpus&rlz=1C5GCEM_enSE990SE991&oq=north+sami+corpus&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDQ5MzRqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
-
 SIKOR North Saami corpus - Arctic Language Technology
 https://dataverse.no/dataset.xhtml;jsessionid=4655f41072c706e121d2598ad1cc?persistentId=doi%3A10.18710%2F8AK7KZ&version=&q=&fileTypeGroupFacet=&fileAccess=Public&fileTag=&fileSortField=size&fileSortOrder=
-
-Northern Sámi - Wikipedia
-https://en.wikipedia.org/wiki/Northern_S%C3%A1mi
-
-UD_North_Sami-Giella/sme_giella-ud-test.conllu at master · UniversalDependencies/UD_North_Sami-Giella
-https://github.com/UniversalDependencies/UD_North_Sami-Giella/blob/master/sme_giella-ud-test.conllu
 
 Northern Saami interactive text corpus
 https://giellatekno.uit.no/text.en.html
@@ -213,9 +192,6 @@ https://repo.clarino.uib.no/xmlui/handle/11509/100
 
 Tools for Saami languages
 https://giellatekno.uit.no/smilang.eng.html
-
-freecorpus - Revision 10716: /orig/sme/Len/other_files
-https://gtsvn.uit.no/freecorpus/orig/sme/Len/other_files/
 
 Translation memories | GiellaLT Documentation
 https://giellalt.github.io/tm/TranslationMemories.html
@@ -274,53 +250,11 @@ https://huggingface.co/norallm/normistral-7b-scratch
 ltgoslo
 https://github.com/ltgoslo
 
-Danielbrdz/Barcenas-Mistral-7b · Hugging Face
-https://huggingface.co/Danielbrdz/Barcenas-Mistral-7b
-
-Danielbrdz/Barcenas-lmsys-Dataset · Datasets at Hugging Face
-https://huggingface.co/datasets/Danielbrdz/Barcenas-lmsys-Dataset?row=4
-
-marianbasti/lince-mistral-7b-it-es-gguf · Hugging Face
-https://huggingface.co/marianbasti/lince-mistral-7b-it-es-gguf
-
-piotr-ai (Piotr)
-https://huggingface.co/piotr-ai
-
-Paper page - A Paradigm Shift in Machine Translation: Boosting Translation Performance of Large Language Models
-https://huggingface.co/papers/2309.11674
-
 haoranxu/ALMA-7B · Hugging Face
 https://huggingface.co/haoranxu/ALMA-7B
 
-piotr-ai/polanka-3b-pretrain-full-v0.3 · Hugging Face
-https://huggingface.co/piotr-ai/polanka-3b-pretrain-full-v0.3
-
-openlm-research/open_llama_3b_v2 · Hugging Face
-https://huggingface.co/openlm-research/open_llama_3b_v2
-
-EasyLM/docs/checkpointing.md at main · young-geng/EasyLM
-https://github.com/young-geng/EasyLM/blob/main/docs/checkpointing.md
-
-piotr-ai/polanka-7b-v0.1 · Hugging Face
-https://huggingface.co/piotr-ai/polanka-7b-v0.1
-
-I tried to teach Mistral 7B a new language (Sundanese) and it worked! (sort of) : r/LocalLLaMA
-https://www.reddit.com/r/LocalLLaMA/comments/18oc1yc/i_tried_to_teach_mistral_7b_a_new_language/
-
-[2312.12740] Fine-tuning Large Language Models for Adaptive Machine Translation
-https://arxiv.org/abs/2312.12740
-
-A Step-by-Step Guide to Fine-Tuning the Mistral 7B LLM
-https://www.e2enetworks.com/blog/a-step-by-step-guide-to-fine-tuning-the-mistral-7b-llm
-
-ymoslem/Adaptive-MT-LLM-Fine-tuning: Fine-tuning Mistral LLM for Adaptive Machine Translation
-https://github.com/ymoslem/Adaptive-MT-LLM-Fine-tuning
-
-Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Dec, 2023 | Medium
+Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Medium
 https://medium.com/@lucamassaron/fine-tuning-a-large-language-model-on-kaggle-notebooks-for-solving-real-world-tasks-part-3-f15228f1c2a2
-
-Fine-tune Phi-2 for sentiment analysis | Kaggle
-https://www.kaggle.com/code/lucamassaron/fine-tune-phi-2-for-sentiment-analysis
 
 OpenAccess-AI-Collective/axolotl: Go ahead and axolotl questions
 https://github.com/OpenAccess-AI-Collective/axolotl
@@ -339,21 +273,6 @@ https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/
 
 Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
-
-microsoft/phi-2 · Hugging Face
-https://huggingface.co/microsoft/phi-2
-
-Pretraining Script · ymcui/Chinese-LLaMA-Alpaca Wiki
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki/Pretraining-Script
-
-Chinese-LLaMA-Alpaca/README_EN.md at main · ymcui/Chinese-LLaMA-Alpaca
-https://github.com/ymcui/Chinese-LLaMA-Alpaca/blob/main/README_EN.md#Model-Reconstruction
-
-FacebookAI/xlm-roberta-base · Hugging Face
-https://huggingface.co/FacebookAI/xlm-roberta-base
-
-facebook (AI at Meta)
-https://huggingface.co/facebook
 
 facebook/audio-magnet-medium · Hugging Face
 https://huggingface.co/facebook/audio-magnet-medium
@@ -820,82 +739,79 @@ https://github.com/shivammehta25/Diff-TTSG/blob/main/diff_ttsg/models/diff_ttsg.
 shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
 https://github.com/shivammehta25/Matcha-TTS
 
-open-mmlab/Amphion: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
-https://github.com/open-mmlab/Amphion
-
-(1) Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
-
-Swedish orthography - Wikipedia
-https://en.wikipedia.org/wiki/Swedish_orthography
-
 pandas.DataFrame.hist — pandas 2.2.0 documentation
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.hist.html
-
-Åsa Hartzell - Google Search
-https://www.google.com/search?q=%C3%85sa+Hartzell&rlz=1C5GCEM_enSE990SE991&oq=%C3%85sa+Hartzell&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhge0gEHNDIyajBqNKgCALACAA&sourceid=chrome&ie=UTF-8#ip=1
-
-Karin Nilsson – Wikipedia
-https://sv.wikipedia.org/wiki/Karin_Nilsson
-
-Karin Nilsson - Wikidata
-https://www.wikidata.org/wiki/Q109501708
-
-Åsa Hartzell - Wikidata
-https://www.wikidata.org/wiki/Q104215963
-
-Norum Parish - Wikidata
-https://www.wikidata.org/wiki/Q10603089
 
 Mamba: The Hard Way
 https://srush.github.io/annotated-mamba/hard.html
 
-[2402.10877] Robust agents learn causal world models
-https://arxiv.org/abs/2402.10877
+G2P models — mfa model 3.0.0a4 documentation
+https://mfa-models.readthedocs.io/en/latest/g2p/index.html#g2p
 
-Daniel Färm - Wikidata
-https://www.wikidata.org/wiki/Q106785041
+English (India) MFA G2P model v2.2.1 — mfa model 3.0.0a4 documentation
+https://mfa-models.readthedocs.io/en/latest/g2p/English/English%20%28India%29%20MFA%20G2P%20model%20v2_2_1.html#English%20(India)%20MFA%20G2P%20model%20v2_2_1
 
-Ledamotslista
-https://data.riksdagen.se/personlista/?iid=0575584900819&utformat=html
+English (UK) MFA G2P model v2.2.1 — mfa model 3.0.0a4 documentation
+https://mfa-models.readthedocs.io/en/latest/g2p/English/English%20%28UK%29%20MFA%20G2P%20model%20v2_2_1.html#English%20(UK)%20MFA%20G2P%20model%20v2_2_1
 
-Daniel Färm – Wikipedia
-https://sv.wikipedia.org/wiki/Daniel_F%C3%A4rm
+slucita - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/slucita
 
-Nondestructive Evaluation Physics : Sound
-https://www.nde-ed.org/Physics/Sound/tempandspeed.xhtml
+difflib — Helpers for computing deltas — Python 3.12.2 documentation
+https://docs.python.org/3/library/difflib.html
 
-Does the speed of sound change with temperature? | CBC Radio
-https://www.cbc.ca/radio/quirks/feb-2-2019-rocking-good-sleep-music-and-body-language-the-first-feathers-for-flight-and-more-1.5000349/does-the-speed-of-sound-change-with-temperature-1.5000360#:~:text=Air%20molecules%20have%20more%20energy,by%20collisions%20between%20the%20molecules.
+ersättarna - Google Search
+https://www.google.com/search?q=ers%C3%A4ttarna&rlz=1C5GCEM_enSE990SE991&oq=ers%C3%A4ttarna&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMgwIAhAAGAUYChgPGB7SAQczMDNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Why is sound different in lower temperatures
-https://www.physicsforums.com/threads/why-is-sound-different-in-lower-temperatures.572787/
+börja - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/b%C3%B6rja#Swedish
 
-Speed of sound - Wikipedia
-https://en.wikipedia.org/wiki/Speed_of_sound
+Google Translate
+https://translate.google.com/?sl=sv&tl=en&text=vad%20jag%20avsker%20g%C3%B6ra&op=translate
 
-Percentage Calculator
-https://percentagecalculator.net/
+avskeda - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/avskeda#Swedish
 
-The Acoustics of Bells
-https://web.archive.org/web/20060412080603/https://www.msu.edu/~carillon/batmbook/chapter5.htm
+Lena Hallengren – Wikipedia
+https://sv.wikipedia.org/wiki/Lena_Hallengren
 
-Linear and quadratic coherence functions of Gaussian noise and... | Download Scientific Diagram
-https://www.researchgate.net/figure/Linear-and-quadratic-coherence-functions-of-Gaussian-noise-and-naturalistic-stimulated_fig5_325827293
+GeoHack - Kalmar domkyrkoförsamling
+https://geohack.toolforge.org/geohack.php?language=sv&pagename=Kalmar_domkyrkof%C3%B6rsamling&params=56.664722222222_N_16.365555555556_E_type:landmark_region:SE
 
-Vladimir Nabokov - Wikipedia
-https://en.wikipedia.org/wiki/Vladimir_Nabokov
+Swedish dialects - Wikipedia
+https://en.wikipedia.org/wiki/Swedish_dialects
 
-CLAP/msclap/models/clap.py at main · microsoft/CLAP
-https://github.com/microsoft/CLAP/blob/main/msclap/models/clap.py
+speech recognition usefulness word error rate - Google Scholar
+https://scholar.google.com/scholar?start=30&q=speech+recognition+usefulness+word+error+rate&hl=en&as_sdt=0,5
 
-CLAP Learning Audio Concepts from Natural Language Supervision | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/abstract/document/10095889
+Active learning: theory and applications to automatic speech recognition | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/abstract/document/1453593
 
-2211.06687.pdf
-https://arxiv.org/pdf/2211.06687.pdf
+Improving the Utility of Speech Recognition Through Error Detection | Journal of Imaging Informatics in Medicine
+https://link.springer.com/article/10.1007/s10278-007-9034-7
 
-CLAP/src/laion_clap/clap_module/loss.py at main · LAION-AI/CLAP
-https://github.com/LAION-AI/CLAP/blob/main/src/laion_clap/clap_module/loss.py
+chi2006final.dvi
+https://dl.acm.org/doi/pdf/10.1145/1124772.1124848
+
+The effects of automatic speech recognition quality on human transcription latency
+https://www.researchgate.net/publication/305649042_The_effects_of_automatic_speech_recognition_quality_on_human_transcription_latency
+
+The effects of automatic speech recognition quality on human transcription latency | Proceedings of the 13th International Web for All Conference
+https://dl.acm.org/doi/10.1145/2899475.2899478
+
+(25) Breaking Down Word Error Rate: An ASR Accuracy Optimization | LinkedIn
+https://www.linkedin.com/pulse/breaking-down-word-error-rate-asr-accuracy-optimization-futurebeeai/
+
+Using Audio Quality to Predict Word Error Rate in an Automatic Speech Recognition System
+https://www.mitre.org/sites/default/files/pdf/06_1154.pdf
+
+A Comparative Analysis of Automatic Speech Recognition Errors in Small Group Classroom Discourse
+https://dl.acm.org/doi/fullHtml/10.1145/3565472.3595606
+
+Measuring the Acceptable Word Error Rate of Machine-Generated Webcast Transcripts
+https://www.cs.toronto.edu/~gpenn/papers/mcosmin-interspeech06.pdf
+
+FULLTEXT01.pdf
+https://uu.diva-portal.org/smash/get/diva2:1704784/FULLTEXT01.pdf
 
 
