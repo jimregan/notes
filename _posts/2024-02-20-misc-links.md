@@ -20,3 +20,14 @@ categories: [links]
 
 [How to Train Data-Efficient LLMs](https://arxiv.org/abs/2402.09668)
 
+[Fine-tuning Large Language Models for Adaptive Machine Translation](https://arxiv.org/abs/2312.12740)
+
+[Robust agents learn causal world models](https://arxiv.org/abs/2402.10877)
+
+[Mamba: The Hard Way](https://srush.github.io/annotated-mamba/hard.html)
+
+[open-mmlab/Amphion](https://github.com/open-mmlab/Amphion) --- Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
+
+[The effects of automatic speech recognition quality on human transcription latency](https://dl.acm.org/doi/10.1145/2899475.2899478) --- "We present results from 2 studies which indicate that starting with the ASR output is worse unless it is sufficiently accurate (Word Error Rate of under 30%)."
+
+
