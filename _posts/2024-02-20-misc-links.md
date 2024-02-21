@@ -30,4 +30,9 @@ categories: [links]
 
 [The effects of automatic speech recognition quality on human transcription latency](https://dl.acm.org/doi/10.1145/2899475.2899478) --- "We present results from 2 studies which indicate that starting with the ASR output is worse unless it is sufficiently accurate (Word Error Rate of under 30%)."
 
+[Lexicographical data/Statistics/Counts of various things by language](https://www.wikidata.org/wiki/Wikidata:Lexicographical_data/Statistics/Counts_of_various_things_by_language)
+
+[OLMo - Open Language Model](https://blog.allenai.org/olmo-open-language-model-87ccfc95f580)
+
+
 
