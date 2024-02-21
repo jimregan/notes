@@ -36,5 +36,12 @@ categories: [links]
 
 [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) --- Go ahead and axolotl questions
 
+[Listen, Think, and Understand](https://arxiv.org/abs/2305.10790)
+
+[Neural Network Diffusion](https://arxiv.org/abs/2402.13144)
+
+[mistralai/cookbook](https://github.com/mistralai/cookbook)
+
+[OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification](https://arxiv.org/abs/2402.12654)
 
 
