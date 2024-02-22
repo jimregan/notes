@@ -226,12 +226,6 @@ https://huggingface.co/neph1/bellman-7b-mistral-instruct-v0.2
 norallm/normistral-7b-warm · Hugging Face
 https://huggingface.co/norallm/normistral-7b-warm
 
-NbAiLab/nb-sau-7b-4k-step100k · Hugging Face
-https://huggingface.co/NbAiLab/nb-sau-7b-4k-step100k
-
-norallm/normistral-7b-scratch · Hugging Face
-https://huggingface.co/norallm/normistral-7b-scratch
-
 ltgoslo
 https://github.com/ltgoslo
 
@@ -241,17 +235,14 @@ https://huggingface.co/haoranxu/ALMA-7B
 Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Medium
 https://medium.com/@lucamassaron/fine-tuning-a-large-language-model-on-kaggle-notebooks-for-solving-real-world-tasks-part-3-f15228f1c2a2
 
-OpenAccess-AI-Collective/axolotl: Go ahead and axolotl questions
-https://github.com/OpenAccess-AI-Collective/axolotl
-
 Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
 
 Tutorial 3: Activation Functions — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html
 
-phlippe/uvadlc_notebooks: Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam (MSc AI), Fall 2023
-https://github.com/phlippe/uvadlc_notebooks
+uvadlc_notebooks/docs/tutorial_notebooks/tutorial1/Lisa_Cluster.ipynb at master · phlippe/uvadlc_notebooks
+https://github.com/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial1/Lisa_Cluster.ipynb
 
 Tutorial 17: Self-Supervised Contrastive Learning with SimCLR — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html
@@ -259,32 +250,14 @@ https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/
 Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
 https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
 
-facebook/audio-magnet-medium · Hugging Face
-https://huggingface.co/facebook/audio-magnet-medium
-
-facebook/w2v-bert-2.0 · Hugging Face
-https://huggingface.co/facebook/w2v-bert-2.0
-
-flamingo-pytorch/flamingo_pytorch/flamingo_palm.py at main · lucidrains/flamingo-pytorch
-https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_palm.py
-
-Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities
-https://arxiv.org/pdf/2402.01831v1.pdf
-
-QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
-https://github.com/QwenLM/Qwen-Audio?tab=readme-ov-file
-
-Qwen-Audio/modeling_qwen.py at main · QwenLM/Qwen-Audio
-https://github.com/QwenLM/Qwen-Audio/blob/main/modeling_qwen.py
-
-Qwen-Audio/configuration_qwen.py at main · QwenLM/Qwen-Audio
-https://github.com/QwenLM/Qwen-Audio/blob/main/configuration_qwen.py
-
-QwenLM/Qwen-Audio: The official repo of Qwen-Audio (通义千问-Audio) chat & pretrained large audio language model proposed by Alibaba Cloud.
-https://github.com/QwenLM/Qwen-Audio/tree/main
+flamingo-pytorch/flamingo_pytorch/flamingo_pytorch.py at main · lucidrains/flamingo-pytorch
+https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_pytorch.py
 
 SpeechT5/SpeechT5 at main · microsoft/SpeechT5
 https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
+
+microsoft/speecht5_asr · Hugging Face
+https://huggingface.co/microsoft/speecht5_asr
 
 2110.07205.pdf
 https://arxiv.org/pdf/2110.07205.pdf
@@ -793,10 +766,52 @@ https://www.wikidata.org/wiki/Help:QuickStatements
 Reta Vortaro [*hund/o PV]
 https://www.reta-vortaro.de/revo/art/hund.html
 
-twitter.com/home
+(1) Home / X
 https://twitter.com/home
+
+Open Source Initiative
+https://opensource.org/delayed-open-source-publication/
+
+2402.12654.pdf
+https://arxiv.org/pdf/2402.12654.pdf
+
+2305.10790.pdf
+https://arxiv.org/pdf/2305.10790.pdf
 
 Magyar nyelv 5. (A) - II. HELYESÍRÁS, NYELVHELYESSÉG – JÁTÉKOSAN - 11. A levél és a keltezés
 https://www.nkp.hu/tankonyv/magyar-nyelv-5-nat2020/lecke_02_011
+
+huggingface transformers owsm - Google Search
+https://www.google.com/search?q=huggingface+transformers+owsm&sca_esv=52c806ab62ec5c59&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_bkImMvm_PCA3cdqmjmEdvq_g8Sg%3A1708535634304&ei=Ui_WZYOJEsOGwPAPq_qh6Ac&ved=0ahUKEwiD-sWc97yEAxVDAxAIHSt9CH0Q4dUDCBA&uact=5&oq=huggingface+transformers+owsm&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWh1Z2dpbmdmYWNlIHRyYW5zZm9ybWVycyBvd3NtMggQABiABBiiBEjhE1DOA1jaEnABeAGQAQCYAZ4BoAHTCaoBBDEwLjO4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIEECMYJ4gGAZAGCA&sclient=gws-wiz-serp#ip=1
+
+app.py · pyf98/OWSM_v3_demo at main
+https://huggingface.co/spaces/pyf98/OWSM_v3_demo/blob/main/app.py
+
+Commits · espnet/espnet
+https://github.com/espnet/espnet/commits/master/?after=683444427afe9930549efe93711501cb2fd84341+34
+
+ESPnet-SPK: add branchformer by Jungjee · Pull Request #5665 · espnet/espnet
+https://github.com/espnet/espnet/pull/5665
+
+Add some documents for JTubeSpeech by sw005320 · Pull Request #5663 · espnet/espnet
+https://github.com/espnet/espnet/pull/5663
+
+[WIP] ASR model feature extraction for HuBERT SSL by wanchichen · Pull Request #5412 · espnet/espnet
+https://github.com/espnet/espnet/pull/5412
+
+[WIP] Text Injection ASR by freddy5566 · Pull Request #5404 · espnet/espnet
+https://github.com/espnet/espnet/pull/5404/files#diff-c5cdf4cc8b77f320b52708b6223b9e03a9034257d3b8bf2d90a9889c50f1d026
+
+Updates MFA scripts and pipeline by iamanigeeit · Pull Request #5670 · espnet/espnet
+https://github.com/espnet/espnet/pull/5670/files
+
+Best Practices for Robot Death | KTH
+https://www.kth.se/navet/calendar/best-practices-for-robot-death-1.1317985?date=2024-02-23&orgdate=2024-02-19&length=1&orglength=317
+
+Starship Robots - Google Search
+https://www.google.com/search?q=Starship+Robots&rlz=1C5GCEM_enSE990SE991&oq=Starship+Robots&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzE0NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Starship Technologies (@starshiprobots) • Instagram photos and videos
+https://www.instagram.com/starshiprobots/
 
 
