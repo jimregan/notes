@@ -44,4 +44,9 @@ categories: [links]
 
 [OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification](https://arxiv.org/abs/2402.12654)
 
+[Encoding of multi-modal emotional information via personalized skin-integrated wireless facial interface](https://www.nature.com/articles/s41467-023-44673-2)
+
+[alterebro/IPA-Keyboard](https://github.com/alterebro/IPA-Keyboard)
+
+[BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models](https://arxiv.org/abs/2402.13577)
 
