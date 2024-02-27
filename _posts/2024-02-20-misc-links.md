@@ -50,3 +50,12 @@ categories: [links]
 
 [BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models](https://arxiv.org/abs/2402.13577)
 
+[Exploring Speech Recognition, Translation, and Understanding with Discrete Speech Units: A Comparative Study](https://arxiv.org/abs/2309.15800)
+
+[microsoft/torchscale](https://github.com/microsoft/torchscale) --- Foundation Architecture for (M)LLMs
+
+[A Paradigm Shift in Machine Translation: Boosting Translation Performance of Large Language Models](https://arxiv.org/abs/2309.11674),
+[code](https://github.com/fe1ixxu/ALMA)
+
+[lucidrains/flamingo-pytorch](https://github.com/lucidrains/flamingo-pytorch)
+
