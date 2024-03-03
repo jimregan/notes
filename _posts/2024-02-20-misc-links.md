@@ -59,3 +59,5 @@ categories: [links]
 
 [lucidrains/flamingo-pytorch](https://github.com/lucidrains/flamingo-pytorch)
 
+[lucidrains/RETRO-pytorch](https://github.com/lucidrains/RETRO-pytorch)
+
