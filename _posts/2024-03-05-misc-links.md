@@ -35,6 +35,21 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 
 [Dysartria Classification](https://www.kaggle.com/code/kashishnaqvi/dysartria-classification)
 
+[SIKOR North Saami corpus](https://dataverse.no/dataset.xhtml;jsessionid=4655f41072c706e121d2598ad1cc?persistentId=doi%3A10.18710%2F8AK7KZ&version=&q=&fileTypeGroupFacet=&fileAccess=Public&fileTag=&fileSortField=size&fileSortOrder=),
+[DOI](https://doi.org/10.18710/8AK7KZ)
+
+[SIKOR North Saami free corpus](https://repo.clarino.uib.no/xmlui/handle/11509/100)
+
+[GiellaLT Translation Memories](https://giellalt.github.io/tm/TranslationMemories.html)
+
+[Code LoRA from Scratch](https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all)
+
+[kyegomez/AudioFlamingo](https://github.com/kyegomez/AudioFlamingo) --- Implementation of the model "AudioFlamingo" from the paper: "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities"
+
+[Map of Swedish counties](https://maps-sweden.com/maps-sweden-regions/sweden-map-counties)
+
+[Map of Swedish dialects](https://upload.wikimedia.org/wikipedia/commons/a/ab/Svenska_dialektgrupper.png)
+
 -----
 
 [Peppa Malac | A Nagy Beteg](https://www.youtube.com/watch?v=a68sy55RBe4)
@@ -73,5 +88,20 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 [MINISTRY - New Religion](https://www.youtube.com/watch?v=KfRDCnZ0oJk)
 
 {% twitter https://twitter.com/historyinmemes/status/1763676837367152727 %}
+
+[RTE 2FM Classic Irish Track Uncovered - Sally by Kerbdog with Cormac Battle](https://www.youtube.com/watch?v=5LbRUZoOfOU)
+
+[CNChTu/FCPE](https://github.com/CNChTu/FCPE) --- Fast Context-based Pitch Estimation
+
+[TSP Speech Database](https://www.mmsp.ece.mcgill.ca/Documents/Data/)
+
+[Scalable Diffusion Models with Transformers](https://openaccess.thecvf.com/content/ICCV2023/html/Peebles_Scalable_Diffusion_Models_with_Transformers_ICCV_2023_paper.html)
+Meta, github: `facebookresearch/DiT`, not open source.
+
+[Diffusion Models for Audio Restoration](https://arxiv.org/abs/2402.09821)
+
+[LibriSpeech Alignments](https://zenodo.org/records/2619474)
+
+[NST N-gram – Swedish](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-11/)
 
 
