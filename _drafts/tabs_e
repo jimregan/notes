@@ -82,15 +82,6 @@ https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.htm
 2003.07705.pdf
 https://arxiv.org/pdf/2003.07705.pdf
 
-NeMo/nemo/collections/asr/modules/rnnt.py at main · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/asr/modules/rnnt.py
-
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls
-
-[WIP] Support external dataset library by Masao-Someki · Pull Request #5584 · espnet/espnet
-https://github.com/espnet/espnet/pull/5584/files#diff-d73b19c9038190fcca9e673c1523b18eb579c3b5ed08a802ddf26c347db48edd
-
 Add causal LM for ASR2 by akreal · Pull Request #5514 · espnet/espnet
 https://github.com/espnet/espnet/pull/5514
 
@@ -124,8 +115,8 @@ https://arxiv.org/abs/2210.06423
 unilm/textdiffuser-2/train_textdiffuser2_inpainting_full.py at master · microsoft/unilm
 https://github.com/microsoft/unilm/blob/master/textdiffuser-2/train_textdiffuser2_inpainting_full.py
 
-[2402.05755] SpiRit-LM: Interleaved Spoken and Written Language Model
-https://arxiv.org/abs/2402.05755
+2402.05755.pdf
+https://arxiv.org/pdf/2402.05755.pdf
 
 CTC forced alignment API tutorial — Torchaudio 2.2.0.dev20240305 documentation
 https://pytorch.org/audio/main/tutorials/ctc_forced_alignment_api_tutorial.html
@@ -259,17 +250,8 @@ https://github.com/3DTopia/3DTopia?tab=readme-ov-file
 hongfz16/3DTopia at main
 https://huggingface.co/hongfz16/3DTopia/tree/main
 
-Paper page - DeAL: Decoding-time Alignment for Large Language Models
-https://huggingface.co/papers/2402.06147
-
-for-ai/aya-annotations-ui: Web UI used for Data Annotations in Aya
+for-ai/aya-annotations-ui: Web UI & Backend for Data Annotations in Aya
 https://github.com/for-ai/aya-annotations-ui?tab=readme-ov-file
-
-CohereForAI (Cohere For AI)
-https://huggingface.co/CohereForAI
-
-Vaibhav (VB) Srivastav on X: "Welcome Aya-101 🚀 &gt; Follows instructions in 101 languages! &gt; 12.9 B parameters &gt; Outperforms mT0 &amp; Bloomz &gt; Released under Apache 2.0 &gt; Training + Evaluation data released too! &gt; mt5-xxl architecture! GG @CohereForAI ♥️ Model ckpt: https://t.co/FSK4E89YbV https://t.co/1ykAHWOP8A" / X
-https://twitter.com/reach_vb/status/1757391945813405827
 
 CohereForAI/aya-101 · Hugging Face
 https://huggingface.co/CohereForAI/aya-101
@@ -279,24 +261,6 @@ https://huggingface.co/datasets/CohereForAI/aya_dataset
 
 CohereForAI/aya_collection · Datasets at Hugging Face
 https://huggingface.co/datasets/CohereForAI/aya_collection
-
-2402.05755.pdf
-https://arxiv.org/pdf/2402.05755.pdf
-
-Textually Pretrained Speech Language Models
-https://pages.cs.huji.ac.il/adiyoss-lab/twist/
-
-textlesslib/examples/twist/README.md at main · facebookresearch/textlesslib
-https://github.com/facebookresearch/textlesslib/blob/main/examples/twist/README.md
-
-textlesslib/textless/data/collater_utils.py at main · facebookresearch/textlesslib
-https://github.com/facebookresearch/textlesslib/blob/main/textless/data/collater_utils.py
-
-2305.13009.pdf
-https://arxiv.org/pdf/2305.13009.pdf
-
-facebookresearch/textlesslib: Library for Textless Spoken Language Processing
-https://github.com/facebookresearch/textlesslib
 
 adapting hubert to a new language - Google Search
 https://www.google.com/search?q=adapting+hubert+to+a+new+language&rlz=1C5GCEM_enSE990SE991&oq=adapting+hubert+to+a+new+language&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDYwNTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -712,20 +676,11 @@ https://github.com/k2-fsa/k2?tab=readme-ov-file
 k2.ipynb - Colaboratory
 https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing
 
-k2 — k2 1.24.4 documentation
-https://k2-fsa.github.io/k2/python_api/api.html#ctc-graph
-
-Bruscar - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
-https://mail.google.com/mail/u/1/#trash
-
 Dysartria Classification | Kaggle
 https://www.kaggle.com/code/kashishnaqvi/dysartria-classification
 
 Synthetic dysathria - Google Sheets
 https://docs.google.com/spreadsheets/d/1xV1I5fcx4jYjYiTzacZRhJ_-Rqk6iXlBybwfiLkfJJU/edit#gid=0
-
-TTS Arena: Benchmarking Text-to-Speech Models in the Wild
-https://huggingface.co/blog/arena-tts
 
 PolyAI-LDN/pheme
 https://github.com/PolyAI-LDN/pheme
@@ -733,26 +688,8 @@ https://github.com/PolyAI-LDN/pheme
 PolyAI/pheme · Hugging Face
 https://huggingface.co/PolyAI/pheme
 
-Instagram
-https://www.instagram.com/
-
-Star Trek: Picard (season 3) - Wikipedia
-https://en.wikipedia.org/wiki/Star_Trek:_Picard_(season_3)
-
 app.py · BilalSardar/Voice-Cloning at main
 https://huggingface.co/spaces/BilalSardar/Voice-Cloning/blob/main/app.py
-
-Q&A: copyright ownership and transfer in Sweden - Lexology
-https://www.lexology.com/library/detail.aspx?g=b1f4f96a-5b51-4bf8-ba25-9975e6171ede
-
-Call For Papers – Interspeech 2024
-https://interspeech2024.org/call-for-papers/
-
-Bruscar - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
-https://mail.google.com/mail/u/1/#trash
-
-CfP_IS2024.pdf
-https://interspeech2024.org/wp-content/uploads/CfP_IS2024.pdf
 
 Interspeech Paper Kit - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
@@ -760,35 +697,17 @@ https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
 9th Workshop on Linked Data in Linguistics
 https://ldl2024.linguistic-lod.org/
 
-Stockholms Musikquiz » 2024-03-07 » Konsert & Klubb » Debaser
-https://debaser.se/kalender/?EventId=26413
-
-Historic Vids on X: "Can’t stop watching this😂 https://t.co/jlALwxpPPH" / X
+(1) Historic Vids on X: "Can’t stop watching this😂 https://t.co/jlALwxpPPH" / X
 https://twitter.com/historyinmemes/status/1763676837367152727
-
-MINISTRY - New Religion (OFFICIAL MUSIC VIDEO) - YouTube
-https://www.youtube.com/watch?v=KfRDCnZ0oJk
-
-(1) Master 6 French Tenses In Just 10 Minutes! - YouTube
-https://www.youtube.com/watch?v=LeFR_joMdb4
-
-TTS by MetaVoice
-https://ttsdemo.themetavoice.xyz/
 
 Synthetic dysathria - Google Sheets
 https://docs.google.com/spreadsheets/d/1xV1I5fcx4jYjYiTzacZRhJ_-Rqk6iXlBybwfiLkfJJU/edit#gid=0
-
-TTS Arena: Benchmarking Text-to-Speech Models in the Wild
-https://huggingface.co/blog/arena-tts
 
 multi-class-classification – OneDrive
 https://kth-my.sharepoint.com/personal/bmoell_ug_kth_se/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fbmoell%5Fug%5Fkth%5Fse%2FDocuments%2Fmulti%2Dclass%2Dclassification
 
 Video player | Disney+
 https://www.disneyplus.com/en-gb/video/44ffebfa-83c7-439b-93f6-e2b6c1de93ae
-
-Star Trek: Picard (season 3) - Wikipedia
-https://en.wikipedia.org/wiki/Star_Trek:_Picard_(season_3)
 
 cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud · Hugging Face
 https://huggingface.co/cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud
@@ -798,9 +717,6 @@ https://huggingface.co/cohogain/whisper-large-v2-ga-IE
 
 cohogain/cogar-ga-IE · Hugging Face
 https://huggingface.co/cohogain/cogar-ga-IE
-
-The TORGO database
-https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html
 
 FAVE/fave/align/aligner.py at master · JoFrhwld/FAVE
 https://github.com/JoFrhwld/FAVE/blob/master/fave/align/aligner.py
