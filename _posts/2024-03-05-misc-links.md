@@ -25,6 +25,16 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 
 [FAVE-extract](https://github.com/GeVES/GeVES)
 
+[The TORGO Database: Acoustic and articulatory speech from speakers with dysarthria](https://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html)
+
+[TTS Arena](https://huggingface.co/blog/arena-tts)
+
+[Interspeech 2024 CfP](https://interspeech2024.org/wp-content/uploads/CfP_IS2024.pdf)
+
+[PolyAI-LDN/pheme](https://github.com/PolyAI-LDN/pheme)
+
+[Dysartria Classification](https://www.kaggle.com/code/kashishnaqvi/dysartria-classification)
+
 -----
 
 [Peppa Malac | A Nagy Beteg](https://www.youtube.com/watch?v=a68sy55RBe4)
@@ -57,4 +67,11 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 [Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009),
 [code](https://github.com/facebookresearch/textlesslib/tree/main/examples/twist),
 [project](https://pages.cs.huji.ac.il/adiyoss-lab/twist/)
+
+[Master 6 French Tenses In Just 10 Minutes](https://www.youtube.com/watch?v=LeFR_joMdb4)
+
+[MINISTRY - New Religion](https://www.youtube.com/watch?v=KfRDCnZ0oJk)
+
+{% twitter https://twitter.com/historyinmemes/status/1763676837367152727 %}
+
 
