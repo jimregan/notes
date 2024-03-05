@@ -54,4 +54,7 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 
 {% twitter https://twitter.com/reach_vb/status/1757391945813405827 %}
 
+[Textually Pretrained Speech Language Models](https://arxiv.org/abs/2305.13009),
+[code](https://github.com/facebookresearch/textlesslib/tree/main/examples/twist),
+[project](https://pages.cs.huji.ac.il/adiyoss-lab/twist/)
 
