@@ -46,3 +46,12 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 
 [SpiRit-LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
 
+[NeMo - rnnt](https://github.com/NVIDIA/NeMo/blob/main/nemo/collections/asr/modules/rnnt.py)
+
+[espnet - Support external dataset library](https://github.com/espnet/espnet/pull/5584)
+
+[DeAL: Decoding-time Alignment for Large Language Models](https://arxiv.org/abs/2402.06147)
+
+{% twitter https://twitter.com/reach_vb/status/1757391945813405827 %}
+
+
