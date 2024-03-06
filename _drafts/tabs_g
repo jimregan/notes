@@ -31,11 +31,8 @@ https://www.phon.ucl.ac.uk/home/wells/shitara.pdf
 Interspeech Paper Kit - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
 
-Launch Meeting - Zoom
-https://kth-se.zoom.us/j/7773376444#success
-
-(1) Rowan Cheung on X: "So, Elon is suing OpenAI partly because he believes OpenAI's Q* model has a strong claim to being AGI. Q* is OpenAI's secret breakthrough that was leaked during Sam Altman's ousting in November. It's mostly still unknown, but here’s everything we know about Q* so far:" / X
-https://twitter.com/rowancheung/status/1764324869263487237
+bain23_interspeech.pdf
+https://www.isca-archive.org/interspeech_2023/bain23_interspeech.pdf
 
 JoFrhwld/FAVE: A repository for maintaing the fave-align and fave-extract toolkits
 https://github.com/JoFrhwld/FAVE?tab=readme-ov-file
@@ -43,14 +40,11 @@ https://github.com/JoFrhwld/FAVE?tab=readme-ov-file
 Forced Alignment and Vowel Extraction (FAVE) — Forced Alignment and Vowel Extraction (FAVE) 2.0.2-dev documentation
 https://christianbrickhouse.com/FAVE/_build/html/index.html
 
-Forced alignment for Nordic languages : Rapidly constructing a high-quality prototype
-https://su.diva-portal.org/smash/record.jsf?faces-redirect=true&aq2=%5B%5B%5D%5D&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=&language=sv&pid=diva2%3A1643869&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=5195
+Forced alignment for Nordic languages: Rapidly constructing a high-quality prototype
+https://su.diva-portal.org/smash/record.jsf?faces-redirect=true&aq2=%5B%5B%5D%5D&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&language=sv&pid=diva2%3A1643869&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=7438
 
 Praat TextGrid with Bribri text force-aligned by FAVE-align 7 | Download Scientific Diagram
 https://www.researchgate.net/figure/Praat-TextGrid-with-Bribri-text-force-aligned-by-FAVE-align-7_fig1_316709042
-
-Home · JoFrhwld/FAVE Wiki
-https://github.com/JoFrhwld/FAVE/wiki
 
 Using FAVE extract · JoFrhwld/FAVE Wiki
 https://github.com/JoFrhwld/FAVE/wiki/Using-FAVE-extract
@@ -69,5 +63,125 @@ https://github.com/mpezeshki/pytorch_forward_forward/blob/main/main.py
 
 Multi Class Clinical Speech Classification - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/65e6de93c04d1fb310a4b986
+
+metavoice-vc - Google Drive
+https://drive.google.com/drive/u/3/folders/14ytLzT3x5C_wguxnitFQScDEwzO-cVPl
+
+whisper timing - Google Search
+https://www.google.com/search?q=whisper+timing&rlz=1C5GCEM_enSE990SE991&oq=whisper+timing&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoF0gEINDA4M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
+
+linto-ai/whisper-timestamped: Multilingual Automatic Speech Recognition with word-level timestamps and confidence
+https://github.com/linto-ai/whisper-timestamped
+
+m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
+https://github.com/m-bain/whisperX?tab=readme-ov-file
+
+[2303.00747] WhisperX: Time-Accurate Speech Transcription of Long-Form Audio
+https://arxiv.org/abs/2303.00747
+
+whisperX/whisperx/alignment.py at main · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
+
+fairseq/examples/wav2vec at ce6c9eeae163ac04b79539c78e74f292f29eaa18 · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/tree/ce6c9eeae163ac04b79539c78e74f292f29eaa18/examples/wav2vec#pre-trained-models
+
+facebook (AI at Meta)
+https://huggingface.co/facebook?search_models=wav2vec
+
+facebook/wav2vec2-lv-60-espeak-cv-ft · Hugging Face
+https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft
+
+facebook/wav2vec2-conformer-rope-large-100h-ft · Hugging Face
+https://huggingface.co/facebook/wav2vec2-conformer-rope-large-100h-ft
+
+facebook/wav2vec2-xlsr-53-phon-cv-ft at main
+https://huggingface.co/facebook/wav2vec2-xlsr-53-phon-cv-ft/tree/main
+
+facebook/wav2vec2-xlsr-53-espeak-cv-ft · Hugging Face
+https://huggingface.co/facebook/wav2vec2-xlsr-53-espeak-cv-ft
+
+Copy of Edit_distance.ipynb - Colaboratory
+https://colab.research.google.com/drive/1mdde1kkfvivOIVO8IZmGYyalPlstpr58?usp=sharing
+
+Swedish pronunciation comparison | notes
+https://jimregan.github.io/notes/swedish/phonemes/wiktionary/2023/10/10/swedish-comparison-wiktionary.html
+
+2024-02-29-recreate-g2p-dictionary-for-matcha.ipynb - Colaboratory
+https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-02-29-recreate-g2p-dictionary-for-matcha.ipynb#scrollTo=-eLq3IxB9PEi
+
+Eugène François Vidocq - Wikipedia
+https://en.wikipedia.org/wiki/Eug%C3%A8ne_Fran%C3%A7ois_Vidocq
+
+The Project Gutenberg eBook of Dubliners, by James Joyce
+https://www.gutenberg.org/cache/epub/2814/pg2814-images.html
+
+dubliners-download-and-asr | Kaggle
+https://www.kaggle.com/code/jimregan/dubliners-download-and-asr
+
+notebook135d7709bb | Kaggle
+https://www.kaggle.com/code/jimregan/notebook135d7709bb/edit
+
+dubliners-download-and-asr | Kaggle
+https://www.kaggle.com/code/jimregan/dubliners-download-and-asr/notebook
+
+Models - Hugging Face
+https://huggingface.co/models?dataset=dataset:timit_asr
+
+huggingface phoneme timit - Google Search
+https://www.google.com/search?q=huggingface+phoneme+timit&rlz=1C5GCEM_enSE990SE991&oq=huggingface+phoneme+timit&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEINTQ3NmowajSoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
+
+vollalasindhu/wav2vec2-base-timit-demo-google-colab · Hugging Face
+https://huggingface.co/vollalasindhu/wav2vec2-base-timit-demo-google-colab
+
+Phoneme Recognition with Wav2Vec2 | Kaggle
+https://www.kaggle.com/code/jimregan/phoneme-recognition-with-wav2vec2/edit
+
+cuda visible devices - Google Search
+https://www.google.com/search?q=cuda+visible+devices&rlz=1C5GCEM_enSE990SE991&oq=cuda&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIOCAEQRRg5GEMYgAQYigUyBggCEEUYOzIMCAMQABhDGIAEGIoFMgcIBBAAGIAEMgcIBRAAGIAEMgYIBhBFGDwyBggHEEUYPNIBCDIwOTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Model speech classification
+https://gist.github.com/BirgerMoell/c7c257645de609415c3e23c404f332a7
+
+Mahony - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Mahony
+
+catalog.ldc.upenn.edu/docs/LDC93S1/PHONCODE.TXT
+https://catalog.ldc.upenn.edu/docs/LDC93S1/PHONCODE.TXT
+
+bat/translations - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/bat/translations#Noun
+
+How David Lynch Completely Changed Dune With The First Scene | What’s the Difference? - YouTube
+https://www.youtube.com/watch?v=QSj5fSlL3Zg
+
+finetuning.ipynb - Colaboratory
+https://colab.research.google.com/drive/1ntOOldhQ6j8HrfR4AK5eiPU8U1HZ9KIE?usp=sharing#scrollTo=0c491a76-8af9-42db-8aa6-7c5b4eb58b8f
+
+python - Escaping regex string - Stack Overflow
+https://stackoverflow.com/questions/280435/escaping-regex-string
+
+karpathy learning rate - Google Search
+https://www.google.com/search?q=karpathy+learning+rate&rlz=1C5GCEM_enSE990SE991&oq=karpathy+learning+&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgoIABBFGBYYHhg5MggIARAAGBYYHjIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMg0IBxAAGIYDGIAEGIoF0gEINDEyNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+dt2112-vt24-sami-project (dt2112-vt24-sami-project)
+https://huggingface.co/dt2112-vt24-sami-project?message=You%20successfully%20joined%20organization%20dt2112-vt24-sami-project
+
+dt2112-vt24-sami-project (dt2112-vt24-sami-project)
+https://huggingface.co/dt2112-vt24-sami-project
+
+README.md · dt2112-vt24-sami-project/north-sami-data at main
+https://huggingface.co/datasets/dt2112-vt24-sami-project/north-sami-data/blob/main/README.md
+
+Hyperparameter Search using Trainer API
+https://huggingface.co/docs/transformers/en/hpo_train
+
+ssh - Meaning of “Connection closed by xxx [preauth]” in sshd logs - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/102502/meaning-of-connection-closed-by-xxx-preauth-in-sshd-logs
+
+How to Enable SSH Debug Mode to Troubleshoot SSH Connections
+https://www.tecmint.com/enable-debugging-mode-in-ssh/
+
+Wellesley College - Wikipedia
+https://en.wikipedia.org/wiki/Wellesley_College
 
 
