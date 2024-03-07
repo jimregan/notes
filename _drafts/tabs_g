@@ -157,6 +157,9 @@ https://huggingface.co/datasets/dt2112-vt24-sami-project/north-sami-data/blob/ma
 Hyperparameter Search using Trainer API
 https://huggingface.co/docs/transformers/en/hpo_train
 
+jimregan/w2v-bert-2.0-north-sami · Training metrics
+https://huggingface.co/jimregan/w2v-bert-2.0-north-sami/tensorboard
+
 Ray Tune: Hyperparameter Tuning — Ray 2.9.3
 https://docs.ray.io/en/latest/tune/index.html
 
@@ -172,8 +175,8 @@ https://www.reddit.com/r/linux_gaming/comments/17atub2/say_hello_to_nvidia_drive
 How to get the CUDA version? - Stack Overflow
 https://stackoverflow.com/questions/9727688/how-to-get-the-cuda-version
 
-10.210.240.12/cgi/url_redirect.cgi?url_name=mainmenu
-https://10.210.240.12/cgi/url_redirect.cgi?url_name=mainmenu
+10.210.240.12
+https://10.210.240.12/
 
 cuda driver 545.23.06 12.3 hangs - Google Search
 https://www.google.com/search?q=cuda+driver+545.23.06+12.3+hangs&rlz=1C5GCEM_enSE990SE991&oq=cuda+driver+545.23.06+12.3+hangs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDc2NzFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -186,24 +189,6 @@ https://www.google.com/search?q=nvidia-driver-546+ubuntu&sca_esv=dea8dac3f91dbfe
 
 jimregan/w2v-bert-2.0-north-sami at main
 https://huggingface.co/jimregan/w2v-bert-2.0-north-sami/tree/main
-
-"khugepaged" huggingface - Google Search
-https://www.google.com/search?sca_esv=65cf4aff65164a10&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_Id0c3mA7Z7gMy-lOc8yiglEjO6g:1709733935461&q=%22khugepaged%22+huggingface&sa=X&ved=2ahUKEwjOpIif59-EAxUyHRAIHYVQD4gQ5t4CegQILhAB&biw=1440&bih=732&dpr=2
-
-cuda driver 545 hangs - Google Search
-https://www.google.com/search?q=cuda+driver+545+hangs&rlz=1C5GCEM_enSE990SE991&oq=cuda+driver+545++hangs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTE1MjQ1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Nvidia drivers 545.29.02 broken --tensor-parallel-size · Issue #1801 · vllm-project/vllm
-https://github.com/vllm-project/vllm/issues/1801
-
-Environment Variables — NCCL 2.20.3 documentation
-https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html#nccl-p2p-disable
-
-Environment Variables — NCCL 2.20.3 documentation
-https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/env.html#nccl-p2p-disable
-
-NCCL Error on multi-gpu setup with Nvidia driver 545 · Issue #1559 · huggingface/text-generation-inference
-https://github.com/huggingface/text-generation-inference/issues/1559
 
 nvidia 545 driver hangs on boot : r/Ubuntu
 https://www.reddit.com/r/Ubuntu/comments/1az5alw/nvidia_545_driver_hangs_on_boot/
@@ -220,37 +205,22 @@ https://www.google.com/search?q=huggingface+wav2vec2+raytune&rlz=1C5GCEM_enSE990
 ray/python/ray/tune/examples at master · ray-project/ray
 https://github.com/ray-project/ray/tree/master/python/ray/tune/examples
 
-Hyperparameter Search with Transformers and Ray Tune
-https://huggingface.co/blog/ray-tune
+vitouphy/wav2vec2-xls-r-300m-timit-phoneme · Hugging Face
+https://huggingface.co/vitouphy/wav2vec2-xls-r-300m-timit-phoneme
 
-Using Tensorboard SummaryWriter with HuggingFace TrainerAPI - Intermediate - Hugging Face Forums
-https://discuss.huggingface.co/t/using-tensorboard-summarywriter-with-huggingface-trainerapi/23015/3
+Phoneme Recognition with Wav2Vec2 | Kaggle
+https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2
 
-ray tune "wav2vec2" huggingface - Google Search
-https://www.google.com/search?sca_esv=9fc63cc73e9e59b8&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0-9jArslCEd9-eZtwz3QSM-32olZQ:1709737817368&q=ray+tune+%22wav2vec2%22+huggingface&sa=X&ved=2ahUKEwjrnY3a9d-EAxWIIxAIHeN9BCYQ5t4CegQIERAB&biw=1440&bih=732&dpr=2
+Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
 
-Wav2vec fine-tuning with multiGPU - Models - Hugging Face Forums
-https://discuss.huggingface.co/t/wav2vec-fine-tuning-with-multigpu/4894/2
+Szellemváros Magyarországon 63. - A Lipótmezei Elmegyógyintézet 2. | Az O.P.N.I. titkai - YouTube
+https://www.youtube.com/watch?v=fBXjRmuIPPE
 
-Using hyperparameter-search in Trainer - 🤗Transformers - Hugging Face Forums
-https://discuss.huggingface.co/t/using-hyperparameter-search-in-trainer/785/84?page=5
+Google Translate
+https://translate.google.com/?sl=hu&tl=en&text=Szellemv%C3%A1ros%20Magyarorsz%C3%A1gon%2063.%20-%20A%20Lip%C3%B3tmezei%20Elmegy%C3%B3gyint%C3%A9zet%202.%20%7C%20Az%20O.P.N.I.%20titkai%0A&op=translate
 
-Trainer
-https://huggingface.co/docs/transformers/v4.21.1/en/main_classes/trainer
-
-Hyperparameter tuning with Conversational AI Models · Issue #16878 · ray-project/ray
-https://github.com/ray-project/ray/issues/16878
-
-huggingface wav2vec2 learning rate search - Google Search
-https://www.google.com/search?q=huggingface+wav2vec2+learning+rate+search&rlz=1C5GCEM_enSE990SE991&oq=huggingface+wav2vec2+learning+rate+search&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDgxMjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-machine learning - WER for wav2vec2-base model remains as 1 throughout the whole training process - Stack Overflow
-https://stackoverflow.com/questions/75270500/wer-for-wav2vec2-base-model-remains-as-1-throughout-the-whole-training-process
-
-Rk6ge.png (422×486)
-https://i.stack.imgur.com/Rk6ge.png
-
-linux - can high load cause server hang and error "blocked for more than 120 seconds"? - Server Fault
-https://serverfault.com/questions/405210/can-high-load-cause-server-hang-and-error-blocked-for-more-than-120-seconds
+psychiatric hospital dublin - Google Search
+https://www.google.com/search?q=psychiatric+hospital+dublin&rlz=1C5GCEM_enSE990SE991&oq=psychiatric+hospital+dublin&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMgoIBBAAGA8YFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMgoICBAAGA8YFhgeMggICRAAGBYYHtIBCDkxNjVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 
