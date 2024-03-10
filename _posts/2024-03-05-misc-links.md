@@ -52,12 +52,12 @@ ffmpeg -f concat -i mylist.txt -c copy output.mkv
 
 -----
 
-[Peppa Malac | A Nagy Beteg](https://www.youtube.com/watch?v=a68sy55RBe4)
+[Peppa Malac - A Nagy Beteg](https://www.youtube.com/watch?v=a68sy55RBe4)
 
-[Peppa Malac | Az álruha](https://www.youtube.com/watch?v=Em5Vj_ar8xY),
+[Peppa Malac - Az álruha](https://www.youtube.com/watch?v=Em5Vj_ar8xY),
 [Peppa Pig - Dressing Up](https://www.youtube.com/watch?v=mqxNuaK2uZE)
 
-[A besúgó | 1. rész](https://www.youtube.com/watch?v=Nip8K47UvdE)
+[A besúgó - 1. rész](https://www.youtube.com/watch?v=Nip8K47UvdE)
 
 [DubDB - Hungarian](https://dubdb.fandom.com/wiki/Category:Hungarian-language_dubs)
 
