@@ -21,6 +21,7 @@ import whisper
 from string import punctuation
 import librosa
 import soundfile as sf
+import re
 
 
 _HELP_MSG = """
@@ -49,13 +50,14 @@ def clean_sentence(text):
 
 def fix_nonwords(text):
     words = []
+    matcher = r'(\[[^\]]+\])'
+    for match in re.findall(matcher, text):
+        replacement = match.replace(" ", "_")
+        text = text.replace(match, replacement)
+    text = text.strip()
     for word in text.split(" "):
         if word.startswith("[") and word.endswith("]"):
             words.append("[bracketed]")
-        elif word.startswith("["):
-            words.append("[bracketed]")
-        elif word.endswith("]"):
-            continue
         else:
             words.append(word)
     return " ".join(words)
