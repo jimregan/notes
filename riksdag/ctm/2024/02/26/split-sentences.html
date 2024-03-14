@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Split sentences in CTM-edit files | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Split sentences in CTM-edit files" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Generating sentences from Riksdag: in progress" />
+<meta property="og:description" content="Generating sentences from Riksdag: in progress" />
+<link rel="canonical" href="https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-02-26T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html","@type":"BlogPosting","headline":"Split sentences in CTM-edit files","dateModified":"2024-02-26T00:00:00-06:00","datePublished":"2024-02-26T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html"},"description":"Generating sentences from Riksdag: in progress","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Split sentences in CTM-edit files</h1><p class="page-description">Generating sentences from Riksdag: in progress</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-02-26T00:00:00-06:00" itemprop="datePublished">
+        Feb 26, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#riksdag">riksdag</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#ctm">ctm</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-02-26-split-sentences.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-02-26-split-sentences.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-02-26-split-sentences.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-02-26-split-sentences.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">BASE</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/rd_ctm_edit&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/terror-files&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">terrorf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">ff</span> <span class="ow">in</span> <span class="n">terrorf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">files</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ff</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">tidy</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">lc</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&quot;&#39;</span><span class="p">:</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:]</span> <span class="o">==</span> <span class="s1">&#39;&quot;&#39;</span><span class="p">:</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:]</span> <span class="ow">in</span> <span class="s2">&quot;.!?,;-&quot;</span><span class="p">:</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">lc</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">word</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">word</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">difflib</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;afkanistan&quot;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">&quot;Afghanistan.&quot;</span>
+<span class="k">def</span> <span class="nf">ratio</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">difflib</span><span class="o">.</span><span class="n">SequenceMatcher</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">tidy</span><span class="p">(</span><span class="n">b</span><span class="p">))</span><span class="o">.</span><span class="n">ratio</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">ratio</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ratio</span><span class="p">(</span><span class="s2">&quot;male&quot;</span><span class="p">,</span> <span class="s2">&quot;Mali&quot;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ratio</span><span class="p">(</span><span class="s2">&quot;normader&quot;</span><span class="p">,</span> <span class="s2">&quot;Nomader&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0.8571428571428571
+0.75
+0.9333333333333333
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">slurp</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">infile</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">lines</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">testing</span> <span class="o">=</span> <span class="n">slurp</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/rd_ctm_edit/H001UFöU4&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">testing</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 43.44 0.02 k 1.0 Jag sub&#39;,
+ &#39;2442207150019781021 1 49.04 0.42 härtalman 1.0 yrkar sub&#39;,
+ &#39;2442207150019781021 1 50.2 0.059 jag 1.0 bifall sub&#39;,
+ &#39;2442207150019781021 1 50.34 0.379 bifaller 1.0 till sub&#39;,
+ &#39;2442207150019781021 1 50.78 0.659 reservationen. 1.0 reservationen. cor&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">CONJ</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;och&quot;</span><span class="p">,</span> <span class="s2">&quot;men&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_SUBS</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">afkanistan Afghanistan</span>
+<span class="s2">maly Mali</span>
+<span class="s2">male Mali</span>
+<span class="s2">övvik Ö-vik</span>
+<span class="s2">abebégymnasiet ABB-gymnasiet</span>
+<span class="s2">abeflygplan A/B-flygplan</span>
+<span class="s2">abefs ABF:s</span>
+<span class="s2">abfs ABF:s</span>
+<span class="s2">abies ABS</span>
+<span class="s2">abieffkurserna ABF-kurserna</span>
+<span class="s2">abief ABF</span>
+<span class="s2">aczen Axén</span>
+<span class="s2">adeärrkort ADR-kort</span>
+<span class="s2">adeärr ADR</span>
+<span class="s2">adiellbedömningen ADL-bedömningen</span>
+<span class="s2">adiesselstationer ADSL-stationer</span>
+<span class="s2">adihodepreparaten adhd-preparaten</span>
+<span class="s2">adihodemediciner adhd-mediciner</span>
+<span class="s2">adihodeläkemedel adhd-läkemedel</span>
+<span class="s2">adihodedroger adhd-droger</span>
+<span class="s2">aduptioner adoptioner</span>
+<span class="s2">aeff AF</span>
+<span class="s2">aelless ALS</span>
+<span class="s2">aenddeesstrategin ANDTS-strategin</span>
+<span class="s2">aettaffisch A1-affisch</span>
+<span class="s2">aendete ANDT</span>
+<span class="s2">aendeteanvändandet ANDT-användandet</span>
+<span class="s2">aendeteessfrågorna ANDTS-frågorna</span>
+<span class="s2">aendeteesspolitiken ANDTS-politiken</span>
+<span class="s2">aendeteessstrategin ANDTS-strategin</span>
+<span class="s2">aendetefrågan ANDT-frågan</span>
+<span class="s2">aendetefrågor ANDT-frågor</span>
+<span class="s2">aendeteområdet ANDT-området</span>
+<span class="s2">aendetessområdet ANDTS-området</span>
+<span class="s2">aendetesspolitiskt ANDTS-politiskt</span>
+<span class="s2">aendetesstrategi ANDTS-strategi</span>
+<span class="s2">aendetestrategi ANDT-strategi</span>
+<span class="s2">aendetestrategin ANDT-strategin</span>
+<span class="s2">rutavdraget RUT-avdraget</span>
+<span class="s2">sahäll Sahel</span>
+<span class="s2">akim Aqim</span>
+<span class="s2">alkaida_relaterade al-Qaida-relaterade</span>
+<span class="s2">libien Libyen</span>
+<span class="s2">malie Mali</span>
+<span class="s2">kunskapoc kunskap_och</span>
+<span class="s2">adisabeba Addis_Abeba</span>
+<span class="s2">eus EU:s</span>
+<span class="s2">gihadister jihadister</span>
+<span class="s2">peesertester PCR-tester</span>
+<span class="s2">beesiärtest PCR-test</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="k">def</span> <span class="nf">get_subs</span><span class="p">():</span>
+    <span class="n">subs</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">_SUBS</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">l</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">in</span> <span class="n">subs</span><span class="p">:</span>
+            <span class="n">subs</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="n">p</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+            <span class="n">subs</span><span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">part</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">subs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_subst</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">lc</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">SUBS</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">SUBS</span><span class="p">[</span><span class="n">a</span><span class="p">]:</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="n">lc</span> <span class="ow">and</span> <span class="n">b</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">SUBS</span><span class="p">[</span><span class="n">a</span><span class="p">]:</span>
+            <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="kc">False</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">modify_pairs</span><span class="p">(</span><span class="n">sent_a</span><span class="p">,</span> <span class="n">sent_b</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">get_start_dur</span><span class="p">(</span><span class="n">sent_a</span><span class="p">,</span> <span class="n">sent_b</span><span class="p">):</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">sent_a</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">a_start</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sent_a</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+        <span class="n">a_dur</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sent_a</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+        <span class="n">b_start</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sent_b</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+        <span class="n">b_dur</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">sent_b</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+        <span class="n">b_end</span> <span class="o">=</span> <span class="n">b_start</span> <span class="o">+</span> <span class="n">b_dur</span>
+        <span class="n">new_dur</span> <span class="o">=</span> <span class="n">b_end</span> <span class="o">-</span> <span class="n">a_start</span>
+        <span class="k">return</span> <span class="n">start</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">{:.3f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">new_dur</span><span class="p">)</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">sent_a</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">sent_b</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+
+    <span class="n">changed</span> <span class="o">=</span> <span class="kc">False</span>
+
+    <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="n">tidy</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span> <span class="ow">or</span> <span class="n">is_subst</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">tidy</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="kc">False</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+            <span class="n">changed</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+            <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span>
+            <span class="n">a</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;cor&quot;</span>
+            <span class="n">b</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ins&quot;</span>
+        <span class="k">if</span> <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="ow">in</span> <span class="n">CONJ</span><span class="p">:</span>
+            <span class="n">b</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ins-conj&quot;</span>
+    <span class="k">elif</span> <span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">+</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">==</span> <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]:</span>
+            <span class="n">changed</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">joined</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span>
+            <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">joined</span>
+            <span class="n">b</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;cor&quot;</span>
+            <span class="n">a</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">elif</span> <span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="n">tidy</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span> <span class="ow">and</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">)</span>
+        <span class="n">changed</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="n">get_start_dur</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;cor&quot;</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">start</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">end</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">elif</span> <span class="n">a</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="n">tidy</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;b&quot;</span><span class="p">)</span>
+        <span class="n">changed</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="n">get_start_dur</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">b</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;cor&quot;</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">start</span>
+        <span class="n">b</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">end</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">changed</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">b</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">modify_pairs</span><span class="p">(</span><span class="s2">&quot;2442207150019781021 1 58.4 0.78 invandringspolitiken 1.0 &lt;eps&gt; ins&quot;</span><span class="p">,</span>
+             <span class="s2">&quot;2442207150019781021 1 59.9 0.079 men 1.0 invandringspolitiken. sub&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(&#39;2442207150019781021 1 58.4 0.78 invandringspolitiken. 1.0 invandringspolitiken. cor&#39;,
+ &#39;2442207150019781021 1 59.9 0.079 men 1.0 &lt;eps&gt; ins-conj&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">modify_pairs</span><span class="p">(</span><span class="s2">&quot;2442207150019781021 1 97.12 0.0 &lt;eps&gt; 1.0 insats del&quot;</span><span class="p">,</span>
+             <span class="s2">&quot;2442207150019781021 1 97.18 0.739 insatsregeringen 1.0 regeringen sub&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(&#39;&#39;,
+ &#39;2442207150019781021 1 97.18 0.739 insats_regeringen 1.0 insats_regeringen cor&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">modify_pairs</span><span class="p">(</span><span class="s2">&quot;2442207150019781021 1 121.18 0.559 afkanistan 1.0 &lt;eps&gt; ins&quot;</span><span class="p">,</span>
+<span class="s2">&quot;2442207150019781021 1 122.62 0.079 och 1.0 Afghanistan. sub&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(&#39;2442207150019781021 1 121.18 0.559 Afghanistan. 1.0 Afghanistan. cor&#39;,
+ &#39;2442207150019781021 1 122.62 0.079 och 1.0 &lt;eps&gt; ins-conj&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">modify_pairs</span><span class="p">(</span><span class="s2">&quot;2442207150019781021 1 121.18 0.559 af 1.0 &lt;eps&gt; ins&quot;</span><span class="p">,</span>
+<span class="s2">&quot;2442207150019781021 1 122.62 0.079 ghanistan 1.0 Afghanistan. sub&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>b
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(&#39;&#39;, &#39;2442207150019781021 1 121.18 1.519 Afghanistan. 1.0 Afghanistan. cor&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">modify_single</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">sentence</span> <span class="o">==</span> <span class="s2">&quot;END&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">sentence</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">sentence</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">tidied</span> <span class="o">=</span> <span class="n">tidy</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">is_subst</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">tidied</span><span class="p">,</span> <span class="kc">True</span><span class="p">):</span>
+        <span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+        <span class="n">parts</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;cor&quot;</span>
+        <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">sentence</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">SUBS</span> <span class="o">=</span> <span class="n">get_subs</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">is_subst</span><span class="p">(</span><span class="s2">&quot;male&quot;</span><span class="p">,</span> <span class="s2">&quot;Mali&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>True</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install more-itertools
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting more-itertools
+  Downloading more_itertools-10.2.0-py3-none-any.whl.metadata (34 kB)
+Downloading more_itertools-10.2.0-py3-none-any.whl (57 kB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">57.0/57.0 kB</span> <span class="ansi-red-fg">3.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Installing collected packages: more-itertools
+Successfully installed more-itertools-10.2.0
+Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">more_itertools</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">more_itertools</span><span class="o">.</span><span class="n">windowed</span><span class="p">(</span><span class="n">testing</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">6</span><span class="p">],</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">pair</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(&#39;2442207150019781021 1 43.44 0.02 k 1.0 Jag sub&#39;, &#39;2442207150019781021 1 49.04 0.42 härtalman 1.0 yrkar sub&#39;)
+(&#39;2442207150019781021 1 49.04 0.42 härtalman 1.0 yrkar sub&#39;, &#39;2442207150019781021 1 50.2 0.059 jag 1.0 bifall sub&#39;)
+(&#39;2442207150019781021 1 50.2 0.059 jag 1.0 bifall sub&#39;, &#39;2442207150019781021 1 50.34 0.379 bifaller 1.0 till sub&#39;)
+(&#39;2442207150019781021 1 50.34 0.379 bifaller 1.0 till sub&#39;, &#39;2442207150019781021 1 50.78 0.659 reservationen. 1.0 reservationen. cor&#39;)
+(&#39;2442207150019781021 1 50.78 0.659 reservationen. 1.0 reservationen. cor&#39;, &#39;2442207150019781021 1 52.76 0.06 På 1.0 På cor&#39;)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">partition</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">has_final</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+        <span class="n">FINAL</span> <span class="o">=</span> <span class="s2">&quot;.!?&quot;</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">piece</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">piece</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">):</span>
+            <span class="n">piece</span> <span class="o">=</span> <span class="n">piece</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">piece</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:]</span> <span class="ow">in</span> <span class="n">FINAL</span>
+    
+    <span class="k">def</span> <span class="nf">is_capital</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">piece</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">piece</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isupper</span><span class="p">()</span>
+    
+    <span class="k">def</span> <span class="nf">splittable</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">has_final</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="ow">and</span> <span class="n">is_capital</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+
+    <span class="n">sentences</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">current</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">last_mod</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+    <span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">more_itertools</span><span class="o">.</span><span class="n">windowed</span><span class="p">(</span><span class="n">lines</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;END&quot;</span><span class="p">],</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">first</span> <span class="o">=</span> <span class="n">modify_single</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">second</span> <span class="o">=</span> <span class="n">modify_single</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">last_mod</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="n">second</span> <span class="o">=</span> <span class="n">last_mod</span>
+        <span class="n">last_mod</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        
+        <span class="k">if</span> <span class="n">second</span> <span class="o">==</span> <span class="s2">&quot;END&quot;</span><span class="p">:</span>
+            <span class="n">current</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">first</span><span class="p">)</span>
+            <span class="n">sentences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">[:])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">mod</span> <span class="o">=</span> <span class="n">modify_pairs</span><span class="p">(</span><span class="n">first</span><span class="p">,</span> <span class="n">second</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mod</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">first</span> <span class="o">=</span> <span class="n">mod</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">second</span> <span class="o">=</span> <span class="n">mod</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                <span class="n">last_mod</span> <span class="o">=</span> <span class="n">second</span>
+            <span class="k">elif</span> <span class="n">splittable</span><span class="p">(</span><span class="n">first</span><span class="p">,</span> <span class="n">second</span><span class="p">):</span>
+                <span class="n">current</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">first</span><span class="p">)</span>
+                <span class="n">sentences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">[:])</span>
+                <span class="n">current</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">current</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">first</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">sentences</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">parting</span> <span class="o">=</span> <span class="n">partition</span><span class="p">(</span><span class="n">testing</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ttt</span> <span class="o">=</span> <span class="n">parting</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">ttt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 43.44 0.02 k 1.0 Jag sub&#39;,
+ &#39;2442207150019781021 1 49.04 0.42 härtalman 1.0 yrkar sub&#39;,
+ &#39;2442207150019781021 1 50.2 0.059 jag 1.0 bifall sub&#39;,
+ &#39;2442207150019781021 1 50.34 0.379 bifaller 1.0 till sub&#39;,
+ &#39;2442207150019781021 1 50.78 0.659 reservationen. 1.0 reservationen. cor&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">sentence_correctness</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
+    <span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span>
+    <span class="n">score</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">word</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">parts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;cor&quot;</span><span class="p">):</span>
+            <span class="n">score</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">score</span> <span class="o">/</span> <span class="n">length</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sentence_correctness</span><span class="p">(</span><span class="n">parting</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1.0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">parting</span><span class="p">[</span><span class="mi">25</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 207.8 0.339 Mali 1.0 Mali cor&#39;,
+ &#39;2442207150019781021 1 208.54 0.08 har 1.0 har cor&#39;,
+ &#39;2442207150019781021 1 208.7 0.38 drabbats 1.0 drabbats cor&#39;,
+ &#39;2442207150019781021 1 209.079 0.0 &lt;eps&gt; 1.0 hårt. del&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">parting</span><span class="p">[</span><span class="mi">26</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 209.079 0.0 &lt;eps&gt; 1.0 Mali del&#39;,
+ &#39;2442207150019781021 1 209.12 0.259 hårt 1.0 är sub&#39;,
+ &#39;2442207150019781021 1 209.48 0.219 mali 1.0 också sub&#39;,
+ &#39;2442207150019781021 1 209.8 0.099 ett 1.0 ett cor&#39;,
+ &#39;2442207150019781021 1 209.96 0.199 land 1.0 land cor&#39;,
+ &#39;2442207150019781021 1 210.22 0.08 som 1.0 som cor&#39;,
+ &#39;2442207150019781021 1 210.38 0.14 också 1.0 &lt;eps&gt; ins&#39;,
+ &#39;2442207150019781021 1 210.6 0.64 utrikesutskottet 1.0 utrikesutskottet cor&#39;,
+ &#39;2442207150019781021 1 211.239 0.0 &lt;eps&gt; 1.0 har del&#39;,
+ &#39;2442207150019781021 1 211.32 0.12 haft 1.0 haft cor&#39;,
+ &#39;2442207150019781021 1 211.48 0.36 möjlighet 1.0 möjlighet cor&#39;,
+ &#39;2442207150019781021 1 211.92 0.1 att 1.0 att cor&#39;,
+ &#39;2442207150019781021 1 212.08 0.519 besöka 1.0 besöka cor&#39;,
+ &#39;2442207150019781021 1 212.92 0.16 under 1.0 under cor&#39;,
+ &#39;2442207150019781021 1 213.14 0.08 en 1.0 en cor&#39;,
+ &#39;2442207150019781021 1 213.26 0.06 av 1.0 av cor&#39;,
+ &#39;2442207150019781021 1 213.4 0.239 sina 1.0 sina cor&#39;,
+ &#39;2442207150019781021 1 214.44 0.36 formella 1.0 formella cor&#39;,
+ &#39;2442207150019781021 1 214.88 0.379 resor. 1.0 resor. cor&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">parting</span><span class="p">[</span><span class="mi">28</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 227.62 0.039 Vi 1.0 Vi cor&#39;,
+ &#39;2442207150019781021 1 227.8 0.639 socialdemokrater 1.0 socialdemokrater cor&#39;,
+ &#39;2442207150019781021 1 228.5 0.08 ser 1.0 ser cor&#39;,
+ &#39;2442207150019781021 1 228.62 0.06 det 1.0 det cor&#39;,
+ &#39;2442207150019781021 1 228.72 0.06 som 1.0 som cor&#39;,
+ &#39;2442207150019781021 1 228.82 0.06 en 1.0 en cor&#39;,
+ &#39;2442207150019781021 1 229.0 0.819 förutsättning 1.0 förutsättning cor&#39;,
+ &#39;2442207150019781021 1 229.86 0.099 att 1.0 att cor&#39;,
+ &#39;2442207150019781021 1 229.98 0.06 det 1.0 det cor&#39;,
+ &#39;2442207150019781021 1 230.08 0.159 finns 1.0 finns cor&#39;,
+ &#39;2442207150019781021 1 230.28 0.06 en 1.0 en cor&#39;,
+ &#39;2442207150019781021 1 230.44 0.36 bred 1.0 bred cor&#39;,
+ &#39;2442207150019781021 1 230.88 0.48 majoritet 1.0 majoritet cor&#39;,
+ &#39;2442207150019781021 1 231.42 0.02 i 1.0 när sub&#39;,
+ &#39;2442207150019781021 1 231.52 0.319 kammaren 1.0 kammaren cor&#39;,
+ &#39;2442207150019781021 1 231.88 0.08 för 1.0 &lt;eps&gt; ins&#39;,
+ &#39;2442207150019781021 1 231.98 0.12 att 1.0 &lt;eps&gt; ins&#39;,
+ &#39;2442207150019781021 1 232.12 0.06 ta 1.0 &lt;eps&gt; ins&#39;,
+ &#39;2442207150019781021 1 232.3 0.099 den 1.0 tar sub&#39;,
+ &#39;2442207150019781021 1 232.46 0.079 här 1.0 denna sub&#39;,
+ &#39;2442207150019781021 1 232.66 0.24 arten 1.0 art sub&#39;,
+ &#39;2442207150019781021 1 232.94 0.06 av 1.0 av cor&#39;,
+ &#39;2442207150019781021 1 233.0 0.0 &lt;eps&gt; 1.0 beslut, del&#39;,
+ &#39;2442207150019781021 1 233.04 0.4 beslut 1.0 och sub&#39;,
+ &#39;2442207150019781021 1 234.08 0.039 de 1.0 det sub&#39;,
+ &#39;2442207150019781021 1 234.26 0.26 finns 1.0 finns cor&#39;,
+ &#39;2442207150019781021 1 234.519 0.0 &lt;eps&gt; 1.0 det del&#39;,
+ &#39;2442207150019781021 1 234.58 0.239 också. 1.0 också. cor&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_terror_segs</span><span class="p">(</span><span class="n">segments</span><span class="p">):</span>
+    <span class="n">terror</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">def</span> <span class="nf">ismatch</span><span class="p">(</span><span class="n">word</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;terror&quot;</span> <span class="ow">in</span> <span class="n">word</span> <span class="ow">or</span> <span class="s2">&quot;teror&quot;</span> <span class="ow">in</span> <span class="n">word</span>
+
+    <span class="k">for</span> <span class="n">segment</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">segment</span><span class="p">:</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ismatch</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span> <span class="ow">or</span> <span class="n">ismatch</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()):</span>
+                <span class="n">terror</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">segment</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">terror</span>
+            
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tsegs</span> <span class="o">=</span> <span class="n">find_terror_segs</span><span class="p">(</span><span class="n">parting</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">tsegs</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>9</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tsegs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_readable_sentence</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
+    <span class="n">outwords</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">word</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">parts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;cor&quot;</span><span class="p">):</span>
+            <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+                <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;+(</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;&lt;eps&gt;&quot;</span><span class="p">:</span>
+                <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;-(</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">outwords</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outwords</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_readable_sentence</span><span class="p">(</span><span class="n">tsegs</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;(malisk/Malis) suveränitet, enhet och (terrortuella/territoriella) integritet var uppenbart hotad efter att (islamisterna/islamister) intagit stora delar av (maliskt/Malis) territorium.&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tsegs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;2442207150019781021 1 305.86 0.439 malisk 1.0 Malis sub&#39;,
+ &#39;2442207150019781021 1 306.48 0.74 suveränitet, 1.0 suveränitet, cor&#39;,
+ &#39;2442207150019781021 1 307.36 0.36 enhet 1.0 enhet cor&#39;,
+ &#39;2442207150019781021 1 307.76 0.079 och 1.0 och cor&#39;,
+ &#39;2442207150019781021 1 307.9 0.66 terrortuella 1.0 territoriella sub&#39;,
+ &#39;2442207150019781021 1 308.72 0.5 integritet 1.0 integritet cor&#39;,
+ &#39;2442207150019781021 1 309.6 0.259 var 1.0 var cor&#39;,
+ &#39;2442207150019781021 1 310.02 0.4 uppenbart 1.0 uppenbart cor&#39;,
+ &#39;2442207150019781021 1 310.48 0.339 hotad 1.0 hotad cor&#39;,
+ &#39;2442207150019781021 1 311.16 0.159 efter 1.0 efter cor&#39;,
+ &#39;2442207150019781021 1 311.34 0.1 att 1.0 att cor&#39;,
+ &#39;2442207150019781021 1 311.48 0.56 islamisterna 1.0 islamister sub&#39;,
+ &#39;2442207150019781021 1 312.1 0.319 intagit 1.0 intagit cor&#39;,
+ &#39;2442207150019781021 1 312.48 0.299 stora 1.0 stora cor&#39;,
+ &#39;2442207150019781021 1 312.88 0.259 delar 1.0 delar cor&#39;,
+ &#39;2442207150019781021 1 313.22 0.059 av 1.0 av cor&#39;,
+ &#39;2442207150019781021 1 313.38 0.439 maliskt 1.0 Malis sub&#39;,
+ &#39;2442207150019781021 1 313.88 0.62 territorium. 1.0 territorium. cor&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_readable_sentence</span><span class="p">(</span><span class="n">parting</span><span class="p">[</span><span class="mi">28</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Vi socialdemokrater ser det som en förutsättning att det finns en bred majoritet (i/när) kammaren -(för) -(att) -(ta) (den/tar) (här/denna) (arten/art) av +(beslut,) (beslut/och) (de/det) finns +(det) också.&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OUTPATH</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/tmp/outfiles&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+    <span class="n">filestem</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">file</span><span class="p">)</span><span class="o">.</span><span class="n">stem</span>
+    <span class="n">OUTFILE</span> <span class="o">=</span> <span class="n">OUTPATH</span> <span class="o">/</span> <span class="n">filestem</span>
+    <span class="n">TERRORFILE</span> <span class="o">=</span> <span class="n">OUTPATH</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;TERROR_</span><span class="si">{</span><span class="n">filestem</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">OUTFILE</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outputfile</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">TERRORFILE</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">terrorfile</span><span class="p">:</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="n">slurp</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lines</span> <span class="o">==</span> <span class="p">[]:</span>
+            <span class="k">continue</span>
+        <span class="n">partitions</span> <span class="o">=</span> <span class="n">partition</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">ptn</span> <span class="ow">in</span> <span class="n">partitions</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">ptn</span><span class="p">:</span>
+                <span class="n">outputfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">outputfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">terror_segs</span> <span class="o">=</span> <span class="n">find_terror_segs</span><span class="p">(</span><span class="n">partitions</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">tsg</span> <span class="ow">in</span> <span class="n">terror_segs</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">tsg</span><span class="p">:</span>
+                <span class="n">terrorfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">terrorfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /Users/joregan/Playing/sync_asr
+<span class="o">%</span><span class="k">pip</span> install -e .
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sync_asr.ctm_edit</span> <span class="kn">import</span> <span class="n">split_sentences</span><span class="p">,</span> <span class="n">ctm_from_file</span><span class="p">,</span> <span class="n">generate_filename</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">BASEOUT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/rd_ctm_edit/riksdag_spoken_sentences&quot;</span><span class="p">)</span>
+<span class="n">CLEANDIR</span> <span class="o">=</span> <span class="n">BASEOUT</span> <span class="o">/</span> <span class="s2">&quot;clean&quot;</span>
+<span class="n">INDIR</span> <span class="o">=</span> <span class="n">BASEOUT</span> <span class="o">/</span> <span class="s2">&quot;noisy&quot;</span>
+<span class="n">NOISYDIR</span> <span class="o">=</span> <span class="n">BASEOUT</span> <span class="o">/</span> <span class="s2">&quot;noisy2&quot;</span>
+<span class="c1">#INDIR = Path(&quot;/tmp/rdtmp/&quot;)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">check_correct</span><span class="p">(</span><span class="n">lines</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">edit</span> <span class="o">!=</span> <span class="s2">&quot;cor&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">noisy</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">INDIR</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;H*&quot;</span><span class="p">):</span>
+    <span class="n">noisy</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">&quot;H810255&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">ctm_from_file</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+    <span class="n">splits</span> <span class="o">=</span> <span class="n">split_sentences</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">write_noisy</span><span class="p">():</span>
+        <span class="n">outfile</span> <span class="o">=</span> <span class="n">NOISYDIR</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">file</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">counter</span><span class="si">:</span><span class="s2">04d</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">outfile</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">of</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">noisy</span><span class="p">:</span>
+                <span class="n">of</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">split</span> <span class="ow">in</span> <span class="n">splits</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">check_correct</span><span class="p">(</span><span class="n">split</span><span class="p">):</span>
+            <span class="n">fn</span> <span class="o">=</span> <span class="n">generate_filename</span><span class="p">(</span><span class="n">split</span><span class="p">)</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">CLEANDIR</span> <span class="o">/</span> <span class="n">fn</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">of</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">split</span><span class="p">:</span>
+                    <span class="n">of</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">noisy</span> <span class="o">!=</span> <span class="p">[]:</span>
+                <span class="n">write_noisy</span><span class="p">()</span>
+                <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>  
+                <span class="n">noisy</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">noisy</span> <span class="o">+=</span> <span class="n">split</span>
+    <span class="k">if</span> <span class="n">noisy</span> <span class="o">!=</span> <span class="p">[]:</span>
+        <span class="n">write_noisy</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/riksdag/ctm/2024/02/26/split-sentences.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
