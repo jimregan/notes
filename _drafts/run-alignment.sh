@@ -69,5 +69,26 @@ python transcribe-for-mfa.py "$1" $whisper_tmp
 # Run MFA
 mfa align --g2p_model_path $MFA_G2P $whisper_tmp $MFA_DICT $MFA_ACOUSTIC $mfa_tmp
 
+textgrid_tmp=$(mktemp -d -t textgrid.XXXXXX)
+find $mfa_tmp -name '*.TextGrid' -exec mv '{}' $textgrid_tmp ';'
+
 # convert MFA output
-python mfa-to-tsv.py $mfa_tmp "$2/tsv"
+python mfa-to-tsv.py $textgrid_tmp "$2/tsv"
+
+# resample the audio
+for subdir in "$1"/*
+do
+    if [ -d "$subdir" ]
+    then
+        for wavfile in $i/*wav
+        do
+            orig=$subdir/$(echo $wavfile|awk -F'_' '{print $NF}')
+            outwav=$(echo $wavfile|awk -F/ '{print $NF}')
+            echo ffmpeg -i ../outputs6/$orig -c:a pcm_s24le -ar 44100 "$2"/wav/$outwav
+        done
+    fi
+done
+
+# tidy up
+#rm -rf $whisper_tmp
+#rm -rf $mfa_tmp
