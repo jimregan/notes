@@ -80,11 +80,11 @@ for subdir in "$1"/*
 do
     if [ -d "$subdir" ]
     then
-        for wavfile in $i/*wav
+        for wavfile in $subdir/*wav
         do
-            orig=$subdir/$(echo $wavfile|awk -F'_' '{print $NF}')
+            spk=spk$(echo $wavfile|awk -F'/' '{print $(NF-1)}')
             outwav=$(echo $wavfile|awk -F/ '{print $NF}')
-            echo ffmpeg -i ../outputs6/$orig -c:a pcm_s24le -ar 44100 "$2"/wav/$outwav
+            echo ffmpeg -i $wavfile -c:a pcm_s24le -ar 44100 "$2"/wav/${spk}_$outwav
         done
     fi
 done
@@ -92,3 +92,4 @@ done
 # tidy up
 #rm -rf $whisper_tmp
 #rm -rf $mfa_tmp
+#rm -rf $textgrid_tmp
