@@ -518,7 +518,7 @@ MontrealCorpusTools/Montreal-Forced-Aligner: Command line utility for forced ali
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
 
 finetuning.ipynb - Colaboratory
-https://colab.research.google.com/drive/1ntOOldhQ6j8HrfR4AK5eiPU8U1HZ9KIE#scrollTo=d7d449ef-48ca-45bb-a695-a4ac444c4027
+https://colab.research.google.com/drive/1ntOOldhQ6j8HrfR4AK5eiPU8U1HZ9KIE#scrollTo=akAPMurUP4ht
 
 Using Tensorboard SummaryWriter with HuggingFace TrainerAPI - Intermediate - Hugging Face Forums
 https://discuss.huggingface.co/t/using-tensorboard-summarywriter-with-huggingface-trainerapi/23015/3
@@ -526,16 +526,184 @@ https://discuss.huggingface.co/t/using-tensorboard-summarywriter-with-huggingfac
 PodcastFillers Dataset
 https://podcastfillers.github.io/
 
-Watch Star Wars: The Bad Batch | Full episodes | Disney+
-https://www.disneyplus.com/en-gb/play/57824aac-a05c-4f2a-837f-c8bb662cd4d2
+jimregan/w2v-bert-2.0-north-sami · Hugging Face
+https://huggingface.co/jimregan/w2v-bert-2.0-north-sami
 
-McDonald's - Google Maps
-https://www.google.com/maps/place/McDonald's/@59.3455978,18.0615127,17z/data=!4m30!1m23!4m22!1m6!1m2!1s0x465f9d4013dc1941:0x7f16100282386d0c!2sKTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden!2m2!1d18.0748591!2d59.348301!1m6!1m2!1s0x465f9d6ee0d0c7e1:0xdc75321cdcd19388!2sMcDonald's,+Sveav%C3%A4gen+71,+113+50+Stockholm!2m2!1d18.0558542!2d59.3432615!1m6!1m2!1s0x465f9d66266ad211:0x7e5096173a99fd0e!2sSveav%C3%A4gen+45,+111+34+Stockholm!2m2!1d18.0595532!2d59.3391605!3e2!3m5!1s0x465f9d6ee0d0c7e1:0xdc75321cdcd19388!8m2!3d59.3432568!4d18.0558345!16s%2Fg%2F1tdfrrz7?hl=en&entry=ttu
+Align with an acoustic model (mfa align) — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/workflows/alignment.html#pretrained-alignment
 
-Division of Speech, Music and Hearing - KTH to Sveavägen 45, 111 34 Stockholm - Google Maps
-https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/Sveav%C3%A4gen+45,+111+34+Stockholm/@59.3417642,18.0584913,16z/data=!4m13!4m12!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f9d66266ad211:0x7e5096173a99fd0e!2m2!1d18.0595532!2d59.3391605?hl=en&entry=ttu
+First steps — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/first_steps/index.html#first-steps-align-pretrained
 
-Grand, Sveavägen 45, 111 34 Stockholm to Studentbacken 25 - Google Maps
-https://www.google.com/maps/dir/Grand,+Sveav%C3%A4gen+45,+111+34+Stockholm/Studentbacken+25,+115+57+Stockholm,+Sweden/@59.3434839,18.0695563,16.78z/data=!4m14!4m13!1m5!1m1!1s0x465f9d66266ad211:0x7e5096173a99fd0e!2m2!1d18.0595532!2d59.3391605!1m5!1m1!1s0x465f9d379eff696f:0x3d118d72ff7ebe42!2m2!1d18.0961743!2d59.3490568!3e2?entry=ttu
+mfa_alignments/notebooks/expand-connaught-lexicon.ipynb at main · phonlab-tcd/mfa_alignments
+https://github.com/phonlab-tcd/mfa_alignments/blob/main/notebooks/expand-connaught-lexicon.ipynb
+
+jiaaro/pydub: Manipulate audio with a simple and easy high level interface
+https://github.com/jiaaro/pydub
+
+Pretrained models — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/models/index.html
+
+Advanced usage of AudioSegment produces unexpected audio output · Issue #293 · jiaaro/pydub
+https://github.com/jiaaro/pydub/issues/293
+
+librosa.resample — librosa 0.10.1 documentation
+https://librosa.org/doc/main/generated/librosa.resample.html
+
+librosa.resample — librosa 0.10.1 documentation
+https://librosa.org/doc/main/generated/librosa.resample.html
+
+python 3.x - Librosa.resample() resamples to a lower rate than needed - Stack Overflow
+https://stackoverflow.com/questions/67870647/librosa-resample-resamples-to-a-lower-rate-than-needed
+
+use soundfile instead of librosa to write files · DigitalUmuganda/Kinyarwanda-asr at 9506ac8
+https://huggingface.co/spaces/DigitalUmuganda/Kinyarwanda-asr/commit/9506ac86e505db168de422c3a3119671f2b6cbae
+
+python-soundfile — python-soundfile 0.11.0 documentation
+https://python-soundfile.readthedocs.io/en/0.11.0/
+
+Validating pronunciation dictionaries — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/dictionary_validation.html
+
+mfa-models/config/acoustic/rules at main · MontrealCorpusTools/mfa-models
+https://github.com/MontrealCorpusTools/mfa-models/tree/main/config/acoustic/rules
+
+simonalexanderson/ListenDenoiseAction: Code to reproduce the results for our SIGGRAPH 2023 paper "Listen Denoise Action"
+https://github.com/simonalexanderson/ListenDenoiseAction?tab=License-1-ov-file#readme
+
+[GitHub] Subscribed to phonlab-tcd/fotheidil notifications - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
+https://mail.google.com/mail/u/1/#inbox/FMfcgzGxSHhtThmSFXnFsgbbQsQwPJWT
+
+fotheidil/app/transcribe/page.tsx at main · phonlab-tcd/fotheidil
+https://github.com/phonlab-tcd/fotheidil/blob/main/app/transcribe/page.tsx
+
+python read textgrid - Google Search
+https://www.google.com/search?q=python+read+textgrid&rlz=1C5GCEM_enSE990SE991&oq=python+read+textgrid&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM3OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+textgrid/textgrid/textgrid.py at master · kylebgorman/textgrid
+https://github.com/kylebgorman/textgrid/blob/master/textgrid/textgrid.py
+
+librosa.resample — librosa 0.10.1 documentation
+https://librosa.org/doc/main/generated/librosa.resample.html
+
+Python TypeError: unsupported operand type(s) for -: 'float' and 'NoneType' - Stack Overflow
+https://stackoverflow.com/questions/23037408/python-typeerror-unsupported-operand-types-for-float-and-nonetype
+
+python - Downsampling wav audio file - Stack Overflow
+https://stackoverflow.com/questions/30619740/downsampling-wav-audio-file
+
+python soundfile resample - Google Search
+https://www.google.com/search?q=python+soundfile+resample&rlz=1C5GCEM_enSE990SE991&oq=python+soundfile+resample&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBdIBCDQ5MTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+Audio Resampling — Torchaudio 2.2.0 documentation
+https://pytorch.org/audio/stable/tutorials/audio_resampling_tutorial.html
+
+audio-resampling-in-python/Audio Resampling in Python.ipynb at master · jonashaag/audio-resampling-in-python
+https://github.com/jonashaag/audio-resampling-in-python/blob/master/Audio%20Resampling%20in%20Python.ipynb
+
+Resampling to the same sample rate via Python - Signal Processing Stack Exchange
+https://dsp.stackexchange.com/questions/88452/resampling-to-the-same-sample-rate-via-python
+
+New Tab
+chrome://newtab/
+
+Monophonic resampling — resampy 0.4.2 documentation
+https://resampy.readthedocs.io/en/stable/example.html
+
+New Tab
+chrome://newtab/
+
+Synthetic_Sentences - Google Sheets
+https://docs.google.com/spreadsheets/d/1WvXJIiQ24PMQnfMQatNlg0F38ueHeY_7pF9Kg8h133w/edit#gid=0
+
+shivammehta25 (Shivam Mehta)
+https://github.com/shivammehta25
+
+CVPRHumogen/pipeline_audio/audio_synthesis.ipynb at main · shivammehta25/CVPRHumogen
+https://github.com/shivammehta25/CVPRHumogen/blob/main/pipeline_audio/audio_synthesis.ipynb
+
+Utils for getting durations from MFA by jimregan · Pull Request #1 · shivammehta25/CVPRHumogen
+https://github.com/shivammehta25/CVPRHumogen/pull/1/files
+
+Lapin Kulta | Systembolaget
+https://www.systembolaget.se/produkt/ol/lapin-kulta-159412/
+
+About ssh-agent and ssh-add in Unix
+https://kb.iu.edu/d/aeww
+
+python - Parsing boolean values with argparse - Stack Overflow
+https://stackoverflow.com/questions/15008758/parsing-boolean-values-with-argparse
+
+How do I get the parent directory in Python? - Stack Overflow
+https://stackoverflow.com/questions/2860153/how-do-i-get-the-parent-directory-in-python
+
+XTTS License After Shutdown · Issue #3490 · coqui-ai/TTS
+https://github.com/coqui-ai/TTS/issues/3490
+
+coqui-ai/TTS: 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+https://github.com/coqui-ai/TTS
+
+regex - How can I find all matches to a regular expression in Python? - Stack Overflow
+https://stackoverflow.com/questions/4697882/how-can-i-find-all-matches-to-a-regular-expression-in-python
+
+python - How can I constrain a value parsed with argparse (for example, restrict an integer to positive values)? - Stack Overflow
+https://stackoverflow.com/questions/14117415/how-can-i-constrain-a-value-parsed-with-argparse-for-example-restrict-an-integ
+
+python - Get .wav file length or duration - Stack Overflow
+https://stackoverflow.com/questions/7833807/get-wav-file-length-or-duration
+
+linux - How to extract duration time from ffmpeg output? - Stack Overflow
+https://stackoverflow.com/questions/6239350/how-to-extract-duration-time-from-ffmpeg-output
+
+New Tab
+chrome://newtab/
+
+music - Changing sample format and bit depth on audio files with ffmpeg - Ask Ubuntu
+https://askubuntu.com/questions/1306318/changing-sample-format-and-bit-depth-on-audio-files-with-ffmpeg
+
+New upload
+https://zenodo.org/uploads/new
+
+Free up storage space - Apple Support
+https://support.apple.com/en-us/102624
+
+In progress work notebooks by jimregan · Pull Request #292 · jimregan/notes
+https://github.com/jimregan/notes/pull/292
+
+git - How can I merge multiple commits onto another branch as a single squashed commit? - Stack Overflow
+https://stackoverflow.com/questions/5308816/how-can-i-merge-multiple-commits-onto-another-branch-as-a-single-squashed-commit
+
+jimregan/notes
+https://github.com/jimregan/notes
+
+notes | Things I know I’ll forget
+https://jimregan.github.io/notes/
+
+Split sentences in CTM-edit files | notes
+https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html
+
+TMUX — Sharing terminal between Users | by MicroPyramid | Medium
+https://micropyramid.medium.com/tmux-sharing-terminal-between-users-84f2e311c64f
+
+shell script - Fix or alternative for mktemp in OS X - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/30091/fix-or-alternative-for-mktemp-in-os-x
+
+scripting - In a Bash script, how can I exit the entire script if a certain condition occurs? - Stack Overflow
+https://stackoverflow.com/questions/1378274/in-a-bash-script-how-can-i-exit-the-entire-script-if-a-certain-condition-occurs
+
+Installation — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html
+
+Shell script by jimregan · Pull Request #2 · shivammehta25/CVPRHumogen
+https://github.com/shivammehta25/CVPRHumogen/pull/2/files
+
+Instagram
+https://www.instagram.com/
+
+Lady Rose Hanbury: Who is the Marchioness of Cholmondeley? | The Independent
+https://www.independent.co.uk/life-style/royal-family/sarah-rose-hanbury-duchess-cholmondeley-william-kate-b2510472.html
+
+Rose Hanbury - Wikipedia
+https://en.wikipedia.org/wiki/Rose_Hanbury
 
 
