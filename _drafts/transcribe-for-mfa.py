@@ -84,7 +84,8 @@ def main():
         wav = AudioSegment.from_wav(str(wav_file))
         out_wav_name = outdir / wav_file.name
         out_txt_name = outdir / f"{wav_file.stem}.txt"
-        wav.export(out_wav_name, format="wav", parameters=AD_PARAMS)
+        print(out_wav_name)
+        wav.export(str(out_wav_name), format="wav", parameters=AD_PARAMS)
 
         # use the same output wav file with whisper
         res = model.transcribe(out_wav_name, language="en")
