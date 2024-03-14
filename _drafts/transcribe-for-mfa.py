@@ -89,7 +89,7 @@ def main():
         out_txt_name = outdir / f"{wav_file.stem}.txt"
         print(out_wav_name)
         # wav.export(str(out_wav_name), format="wav", parameters=AD_PARAMS)
-        sf.write(str(out_wav_name), samples, sr=16000, norm=False)
+        sf.write(str(out_wav_name), samples, 16000)
 
         # use the same output wav file with whisper
         res = model.transcribe(out_wav_name, language="en")
