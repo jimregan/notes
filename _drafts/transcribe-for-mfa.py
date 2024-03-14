@@ -80,6 +80,7 @@ def main():
     for wav_file in indir.glob("*.wav"):
         # convert the wav so MFA can read it
         samples, sr = librosa.load(str(wav_file))
+        samples = librosa.resample(samples, sf, 16000)
         out_wav_name = outdir / wav_file.name
         out_txt_name = outdir / f"{wav_file.stem}.txt"
         print(out_wav_name)
