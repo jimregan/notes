@@ -62,6 +62,17 @@ then
     echo "mfa model download g2p english_us_arpa"
 fi
 
+# check if the scripts exist
+if [ ! -e transcribe-for-mfa.py ]
+then
+    echo "transcribe-for-mfa.py not in current directory"
+    exit 1
+fi
+if [ ! -e mfa-to-tsv.py ]
+then
+    echo "mfa-to-tsv.py not in current directory"
+    exit 1
+fi
 
 # transcribes with whisper and resamples audio for MFA
 python transcribe-for-mfa.py "$1" $whisper_tmp
