@@ -92,7 +92,7 @@ def main():
         sf.write(str(out_wav_name), samples, 16000)
 
         # use the same output wav file with whisper
-        res = model.transcribe(out_wav_name, language="en")
+        res = model.transcribe(str(out_wav_name), language="en")
         text = clean_sentence(res["text"])
         text = fix_nonwords(text)
 
