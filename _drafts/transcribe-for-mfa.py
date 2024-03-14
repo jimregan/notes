@@ -19,7 +19,6 @@ import argparse
 import torch
 import whisper
 from pydub import AudioSegment
-import tqdm
 from string import punctuation
 
 
@@ -80,11 +79,11 @@ def main():
 
     model = whisper.load_model("medium.en", device=device)
 
-    for wav_file in tqdm(indir.glob("*.wav")):
+    for wav_file in indir.glob("*.wav"):
         # convert the wav so MFA can read it
         wav = AudioSegment.from_wav(str(wav_file))
-        out_wav_name = outdir / wav.name
-        out_txt_name = outdir / f"{wav.stem}.txt"
+        out_wav_name = outdir / wav_file.name
+        out_txt_name = outdir / f"{wav_file.stem}.txt"
         out_wav = wav.export(out_wav_name, format="wav", parameters=AD_PARAMS)
 
         # use the same output wav file with whisper
