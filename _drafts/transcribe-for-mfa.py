@@ -89,6 +89,9 @@ def main():
         samples, sr = librosa.load(str(wav_file))
         samples = librosa.resample(samples, orig_sr=sr, target_sr=16000)
         if wav_file.parent != indir.name:
+            parent = str(wav_file.parent)
+            if indir.name + "/" in parent:
+                parent = parent.replace(indir.name + "/", "")
             speaker = wav_file.parent
             out_wav_name = outdir / speaker / f"spk{speaker}_{wav_file.name}"
         else:
