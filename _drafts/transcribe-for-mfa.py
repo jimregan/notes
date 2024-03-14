@@ -62,6 +62,7 @@ def get_args():
 
     parser.add_argument("wav_input", type=Path)
     parser.add_argument("wav_txt_output", type=Path)
+    parser.add_argument('--flat', dest='flat', default=False, action='store_true')
 
     args = parser.parse_args()
     return args
@@ -75,15 +76,24 @@ def main():
     indir = args.wav_input
     outdir = args.wav_txt_output
 
+    FLAT = False
+    glob = "*/*.wav"
+    if args.flat:
+        FLAT = True
+        glob = "*.wav"
+
     model = whisper.load_model("medium.en", device=device)
 
-    for wav_file in indir.glob("*.wav"):
+    for wav_file in indir.glob(glob):
         # convert the wav so MFA can read it
         samples, sr = librosa.load(str(wav_file))
         samples = librosa.resample(samples, orig_sr=sr, target_sr=16000)
-        out_wav_name = outdir / wav_file.name
-        out_txt_name = outdir / f"{wav_file.stem}.txt"
-        print(out_wav_name)
+        if wav_file.parent != indir.name:
+            speaker = wav_file.parent
+            out_wav_name = outdir / speaker / f"spk{speaker}_{wav_file.name}"
+        else:
+            out_wav_name = outdir / wav_file.name
+        out_txt_name = str(out_wav_name).replace(".wav", ".txt")
         sf.write(str(out_wav_name), samples, 16000)
 
         # use the same output wav file with whisper
