@@ -52,6 +52,10 @@ def fix_nonwords(text):
     for word in text.split(" "):
         if word.startswith("[") and word.endswith("]"):
             words.append("[bracketed]")
+        elif word.startswith("["):
+            words.append("[bracketed]")
+        elif word.endswith("]"):
+            continue
         else:
             words.append(word)
     return " ".join(words)
