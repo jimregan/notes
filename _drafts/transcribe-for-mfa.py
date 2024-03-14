@@ -18,7 +18,6 @@ from pathlib import Path
 import argparse
 import torch
 import whisper
-from pydub import AudioSegment
 from string import punctuation
 import librosa
 import soundfile as sf
@@ -34,9 +33,6 @@ audio in wav_txt_output for use with MFA.
 
 
 PUNCT = set(punctuation)
-
-
-AD_PARAMS=["-ac", "1", "-acodec", "pcm_s16le", "-ar", "16000"]
 
 
 def clean_sentence(text):
@@ -83,17 +79,15 @@ def main():
 
     for wav_file in indir.glob("*.wav"):
         # convert the wav so MFA can read it
-        # wav = AudioSegment.from_wav(str(wav_file))
         samples, sr = librosa.load(str(wav_file))
         out_wav_name = outdir / wav_file.name
         out_txt_name = outdir / f"{wav_file.stem}.txt"
         print(out_wav_name)
-        # wav.export(str(out_wav_name), format="wav", parameters=AD_PARAMS)
         sf.write(str(out_wav_name), samples, 16000)
 
         # use the same output wav file with whisper
         res = model.transcribe(str(out_wav_name), language="en")
-        text = clean_sentence(res["text"])
+        text = clean_sentence(res["text"].strip())
         text = fix_nonwords(text)
 
         with open(out_txt_name, "w") as of:
