@@ -16,14 +16,13 @@
 # Lint as: python3
 from pathlib import Path
 import argparse
-import whisperx
-import torch
+import textgrid
 
 
 def get_args():
-    parser = argparse.ArgumentParser("Transcribe a directory of wav files")
+    parser = argparse.ArgumentParser("Convert MFA TextGrids to TSV")
 
-    parser.add_argument("wav_directory", type=Path)
+    parser.add_argument("mfa_directory", type=Path)
     parser.add_argument("tsv_directory", nargs="?", type=Path)
 
     args = parser.parse_args()
@@ -33,26 +32,31 @@ def get_args():
 def main():
     args = get_args()
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-
-    indir = args.wav_directory
+    DIR = args.mfa_directory
     if args.tsv_directory:
-        outdir = args.tsv_directory
+        OUTDIR = args.tsv_directory
     else:
-        outdir = indir
+        OUTDIR = DIR
 
-    model = whisperx.load_model("medium.en", device=device)
+    for file in DIR.glob("*.TextGrid"):
+        outfile = OUTDIR / f"{file.stem}.tsv"
+        tg = textgrid.TextGrid.fromFile(str(file))
+        
+        tiers = None
+        if len(tg.tiers) == 2:
+            if tg.tiers[0].name == "words":
+                tiers = tg.tiers[0]
+            else:
+                tiers = tg.tiers[1]
+        if tiers is None:
+            continue
 
-    for wav in indir.glob("*.wav"):
-        audio = whisperx.load_audio(str(wav))
-        output = model.transcribe(audio, language="en")
-        model_a, metadata = whisperx.load_align_model(language_code="en", device=device)
-        result = whisperx.align(output["segments"], model_a, metadata, audio, device, return_char_alignments=False)
-        outfile = outdir / f"{wav.stem}.tsv"
-        with open(outfile, "w") as of:
-            if "word_segments" in result:
-                for res in result["word_segments"]:
-                    of.write(f'{res["start"]}\t{res["end"]}\t{res["word"]}\n')
+        with open(str(outfile), "w") as of:
+            for interval in tiers.intervals:
+                if interval.mark is None or interval.mark == "":
+                    continue
+                else:
+                    of.write(f'{interval.minTime}\t{interval.maxTime}\t{interval.mark}\n')
 
 
 if __name__ == '__main__':
