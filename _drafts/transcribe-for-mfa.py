@@ -93,8 +93,9 @@ def main():
 
     for wav_file in indir.glob(glob):
         # first, check duration
-        duration = librosa.get_duration(filename=str(wav_file))
+        duration = librosa.get_duration(path=str(wav_file))
         if duration > float(args.max_length):
+            print("Skipping", wav_file, f"(duration: {duration})")
             continue
         # convert the wav so MFA can read it
         samples, sr = librosa.load(str(wav_file))
