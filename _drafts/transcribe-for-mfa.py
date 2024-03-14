@@ -92,7 +92,7 @@ def main():
             parent = str(wav_file.parent)
             if indir.name + "/" in parent:
                 parent = parent.replace(indir.name + "/", "")
-            if not wav_file.parent.isdir():
+            if not wav_file.parent.is_dir():
                 wav_file.parent.mkdir()
             speaker = wav_file.parent
             out_wav_name = outdir / speaker / f"spk{speaker}_{wav_file.name}"
