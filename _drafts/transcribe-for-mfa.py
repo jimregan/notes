@@ -69,6 +69,7 @@ def get_args():
     parser.add_argument("wav_input", type=Path)
     parser.add_argument("wav_txt_output", type=Path)
     parser.add_argument('--flat', dest='flat', default=False, action='store_true')
+    parser.add_argument('--max-length', dest='max_length', type=int, default=25)
 
     args = parser.parse_args()
     return args
@@ -91,6 +92,10 @@ def main():
     model = whisper.load_model("medium.en", device=device)
 
     for wav_file in indir.glob(glob):
+        # first, check duration
+        duration = librosa.get_duration(filename=str(wav_file))
+        if duration > float(args.max_length):
+            continue
         # convert the wav so MFA can read it
         samples, sr = librosa.load(str(wav_file))
         samples = librosa.resample(samples, orig_sr=sr, target_sr=16000)
