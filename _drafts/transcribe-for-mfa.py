@@ -20,6 +20,8 @@ import torch
 import whisper
 from pydub import AudioSegment
 from string import punctuation
+import librosa
+import soundfile as sf
 
 
 _HELP_MSG = """
@@ -81,11 +83,13 @@ def main():
 
     for wav_file in indir.glob("*.wav"):
         # convert the wav so MFA can read it
-        wav = AudioSegment.from_wav(str(wav_file))
+        # wav = AudioSegment.from_wav(str(wav_file))
+        samples, sr = librosa.load(str(wav_file))
         out_wav_name = outdir / wav_file.name
         out_txt_name = outdir / f"{wav_file.stem}.txt"
         print(out_wav_name)
-        wav.export(str(out_wav_name), format="wav", parameters=AD_PARAMS)
+        # wav.export(str(out_wav_name), format="wav", parameters=AD_PARAMS)
+        sf.write(str(out_wav_name), samples, sr=16000, norm=False)
 
         # use the same output wav file with whisper
         res = model.transcribe(out_wav_name, language="en")
