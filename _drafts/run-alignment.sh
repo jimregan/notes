@@ -1,8 +1,6 @@
 #!/bin/sh
 # This assumes you have whisper, mfa, and ffmpeg
 # mfa: conda install -c conda-forge montreal-forced-aligner
-# you also need models for it:
-
 
 whisper_tmp=$(mktemp -d -t walign.XXXXXX)
 mfa_tmp=$(mktemp -d -t mfaalign.XXXXXX)
