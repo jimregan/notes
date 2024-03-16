@@ -86,7 +86,6 @@ find $mfa_tmp -name '*.TextGrid' -exec mv '{}' $textgrid_tmp ';'
 # convert MFA output
 python mfa-to-tsv.py $textgrid_tmp "$2/tsv"
 
-# for i in *.wav;do tsv=$(basename $i .wav).tsv; if [ ! -e ../tsv/$tsv ]; then echo rm $i;fi;done
 # resample the audio
 for subdir in "$1"/*
 do
@@ -96,7 +95,9 @@ do
         do
             spk=spk$(echo $wavfile|awk -F'/' '{print $(NF-1)}')
             outwav=$(echo $wavfile|awk -F/ '{print $NF}')
+            # get the name of the tsv file
             tsvfile=$(echo "$2/wav/${spk}_$outwav" | sed -e 's/wav/tsv/g')
+            # only convert if the tsv file exists
             if [ -e $tsvfile ]
             then
                 ffmpeg -i $wavfile -c:a pcm_s24le -ar 44100 "$2"/wav/${spk}_$outwav
