@@ -70,40 +70,13 @@ https://github.com/mpezeshki/pytorch_forward_forward/blob/main/main.py
 metavoice-vc - Google Drive
 https://drive.google.com/drive/u/3/folders/14ytLzT3x5C_wguxnitFQScDEwzO-cVPl
 
-whisper timing - Google Search
-https://www.google.com/search?q=whisper+timing&rlz=1C5GCEM_enSE990SE991&oq=whisper+timing&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoF0gEINDA4M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1
-
-linto-ai/whisper-timestamped: Multilingual Automatic Speech Recognition with word-level timestamps and confidence
-https://github.com/linto-ai/whisper-timestamped
-
-m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
-https://github.com/m-bain/whisperX?tab=readme-ov-file
-
 [2303.00747] WhisperX: Time-Accurate Speech Transcription of Long-Form Audio
 https://arxiv.org/abs/2303.00747
-
-whisperX/whisperx/alignment.py at main · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
-
-fairseq/examples/wav2vec at ce6c9eeae163ac04b79539c78e74f292f29eaa18 · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/tree/ce6c9eeae163ac04b79539c78e74f292f29eaa18/examples/wav2vec#pre-trained-models
-
-facebook (AI at Meta)
-https://huggingface.co/facebook?search_models=wav2vec
-
-facebook/wav2vec2-lv-60-espeak-cv-ft · Hugging Face
-https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft
 
 facebook/wav2vec2-conformer-rope-large-100h-ft · Hugging Face
 https://huggingface.co/facebook/wav2vec2-conformer-rope-large-100h-ft
 
-facebook/wav2vec2-xlsr-53-phon-cv-ft at main
-https://huggingface.co/facebook/wav2vec2-xlsr-53-phon-cv-ft/tree/main
-
-facebook/wav2vec2-xlsr-53-espeak-cv-ft · Hugging Face
-https://huggingface.co/facebook/wav2vec2-xlsr-53-espeak-cv-ft
-
-Copy of Edit_distance.ipynb - Colaboratory
+Distance_alignment_confusionmatrix.ipynb - Colaboratory
 https://colab.research.google.com/drive/1mdde1kkfvivOIVO8IZmGYyalPlstpr58?usp=sharing
 
 dubliners-download-and-asr | Kaggle
@@ -160,8 +133,17 @@ https://www.tahri.org/program
 FlowMDM: Seamless Human Motion Composition with<br>Blended Positional Encodings | German Barquero
 https://barquerogerman.github.io/FlowMDM/
 
-BarqueroGerman/FlowMDM: [CVPR 2024] Official PyTorch Implementation of "Seamless Human Motion Composition with Blended Positional Encodings".
+BarqueroGerman/FlowMDM: [CVPR 2024] Official Implementation of "Seamless Human Motion Composition with Blended Positional Encodings".
 https://github.com/BarqueroGerman/FlowMDM
+
+BarqueroGerman/BeLFusion: [ICCV2023] Official PyTorch Implementation of "BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction". ICCV 2023
+https://github.com/BarqueroGerman/BeLFusion?tab=readme-ov-file
+
+Related Datasets
+http://vision.imar.ro/human3.6m/related_datasets.php
+
+FlickrCI3D | Close Interactions 3D
+https://ci3d.imar.ro/flickrci3d
 
 normal near me - Google Search
 https://www.google.com/search?q=normal+near+me&sca_esv=ed313d50f24d50b8&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0911YVc9PpQO2UJANN97t0FAojqUw:1709834246331&udm=1&sa=X&ved=2ahUKEwjd94H33OKEAxVBPxAIHey_CLQQjGp6BAgWEAE&biw=1440&bih=732&dpr=2#ip=1
@@ -208,17 +190,8 @@ https://pieriantraining.com/viterbi-algorithm-implementation-in-python-a-practic
 Viterbi algorithm - Wikipedia
 https://en.wikipedia.org/wiki/Viterbi_algorithm
 
-levenshtein distance - Google Search
-https://www.google.com/search?q=levenshtein+distance&rlz=1C5GCEM_enSE990SE991&oq=levenshtein&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRhBMgYIBxBFGEHSAQgyOTIzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
 Utilizing NumPy to Measure Words Similarity: Levenshtein Distance | by Anna Chernysheva | Medium
 https://medium.com/@anna_che/utilizing-numpy-to-measure-word-similarity-levenshtein-distance-221eb51fc290
-
-Initializing a matrix to infinity in python - Stack Overflow
-https://stackoverflow.com/questions/46151461/initializing-a-matrix-to-infinity-in-python
-
-bosco magic door - Google Search
-https://www.google.com/search?q=bosco+magic+door&sca_esv=954b93ba754f5c0c&rlz=1C5GCEM_enSE990SE991&biw=1440&bih=731&sxsrf=ACQVn08duqiVjX4Qg0yPGv2AHiZDngBnHw%3A1709936025028&ei=mY3rZfqlAYG_wPAPzIe-sAs&ved=0ahUKEwi61vCK2OWEAxWBHxAIHcyDD7YQ4dUDCBE&uact=5&oq=bosco+magic+door&gs_lp=Egxnd3Mtd2l6LXNlcnAiEGJvc2NvIG1hZ2ljIGRvb3IyBRAAGIAEMgUQABiABEjeHFDAEVjSG3ABeAGQAQCYAW-gAfAFqgEDOS4xuAEDyAEA-AEBmAILoAKkBsICChAAGEcY1gQYsAPCAgsQLhiRAhiABBiKBcICBRAuGIAEwgILEAAYgAQYigUYkQLCAgoQABiABBgUGIcCwgILEC4YgAQYxwEYrwHCAiYQLhiRAhiABBiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2A9gBAcICEBAuGIAEGBQYhwIYxwEYrwHCAgcQABiABBgKwgIUEC4YgAQYlwUY3AQY3gQY4ATYAQHCAhEQLhiABBjHARivARiYBRiZBcICBhAAGBYYHsICCBAAGBYYHhgPmAMAiAYBkAYIugYGCAEQARgUkgcEMTAuMaAH_kQ&sclient=gws-wiz-serp#fpstate=ive&vld=cid:e2e5eb18,vid:EJ8XMmFQutQ,st:0
 
 Would I Lie To You Series 1-17 + Specials : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1bai1z1/would_i_lie_to_you_series_117_specials/
@@ -451,7 +424,7 @@ https://huggingface.co/facebook/wav2vec2-base-960h
 Dubliners - download audio and run ASR | notes
 https://jimregan.github.io/notes/kaggle/asr/dubliners/dt2112/2024/02/15/dubliners-download-and-asr.html
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/102052201197290/
 
 whisper/whisper/transcribe.py at ba3f3cd54b0e5b8ce1ab3de13e32122d0d5f98ab · openai/whisper
@@ -577,10 +550,43 @@ https://zenodo.org/uploads/new
 Split sentences in CTM-edit files | notes
 https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html
 
-Teeveeing
-https://app.teeveeing.com/play/70278/channel-package-317
+python - Display number with leading zeros - Stack Overflow
+https://stackoverflow.com/questions/134934/display-number-with-leading-zeros
+
+json.dump() in Python - GeeksforGeeks
+https://www.geeksforgeeks.org/json-dump-in-python/
+
+tväråfors - Google Search
+https://www.google.com/search?q=tv%C3%A4r%C3%A5fors&rlz=1C5GCEM_enSE990SE991&oq=tv%C3%A4r%C3%A5fors&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMgYIAhAuGB7SAQc0MjJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+talking with hands - Google Search
+https://www.google.com/search?q=talking+with+hands&rlz=1C5GCEM_enSE990SE991&oq=talking+with+hands+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDc3OTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/
+
+People’s common reaction when you start speaking their language : r/MapPorn
+https://www.reddit.com/r/MapPorn/comments/1bg1e0w/peoples_common_reaction_when_you_start_speaking/
+
+Instagram
+https://www.instagram.com/
+
+(1) YouTube
+https://www.youtube.com/
+
+Inbox • Direct
+https://www.instagram.com/direct/t/102052201197290/
+
+Watch Live - RTÉ Player
+https://www.rte.ie/player/onnow
 
 New Tab
 chrome://newtab/
+
+naw ruz - Google Search
+https://www.google.com/search?q=naw+ruz&rlz=1C5GCEM_enSE990SE991&oq=naw+ruz&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDE3MjBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+St Patrick's Day 2024: How to watch the parade on TV at home and abroad and what time it airs - RSVP Live
+https://www.rsvplive.ie/news/tv-film/st-patricks-day-2024-how-32367070
 
 
