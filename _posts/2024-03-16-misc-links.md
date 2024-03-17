@@ -16,3 +16,6 @@ chmod 777 /tmp/socket
 tmux -S /tmp/socket attach
 ```
 
+[Bosco visits the lions at Dublin zoo](https://www.youtube.com/watch?v=EJ8XMmFQutQ)
+
+
