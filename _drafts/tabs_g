@@ -424,7 +424,7 @@ https://huggingface.co/facebook/wav2vec2-base-960h
 Dubliners - download audio and run ASR | notes
 https://jimregan.github.io/notes/kaggle/asr/dubliners/dt2112/2024/02/15/dubliners-download-and-asr.html
 
-(1) Inbox • Direct
+Inbox • Direct
 https://www.instagram.com/direct/t/102052201197290/
 
 whisper/whisper/transcribe.py at ba3f3cd54b0e5b8ce1ab3de13e32122d0d5f98ab · openai/whisper
@@ -535,9 +535,6 @@ https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/dictionary_v
 mfa-models/config/acoustic/rules/english_mfa.yaml at main · MontrealCorpusTools/mfa-models
 https://github.com/MontrealCorpusTools/mfa-models/blob/main/config/acoustic/rules/english_mfa.yaml
 
-Only convert wav files if tsv exists by jimregan · Pull Request #3 · shivammehta25/CVPRHumogen
-https://github.com/shivammehta25/CVPRHumogen/pull/3
-
 fotheidil/app/transcribe/page.tsx at main · phonlab-tcd/fotheidil
 https://github.com/phonlab-tcd/fotheidil/blob/main/app/transcribe/page.tsx
 
@@ -550,43 +547,43 @@ https://zenodo.org/uploads/new
 Split sentences in CTM-edit files | notes
 https://jimregan.github.io/notes/riksdag/ctm/2024/02/26/split-sentences.html
 
-python - Display number with leading zeros - Stack Overflow
-https://stackoverflow.com/questions/134934/display-number-with-leading-zeros
+facebookresearch/TalkingWithHands32M: Talking with Hands
+https://github.com/facebookresearch/TalkingWithHands32M
 
-json.dump() in Python - GeeksforGeeks
-https://www.geeksforgeeks.org/json-dump-in-python/
+coqui-ai/TTS: 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+https://github.com/coqui-ai/TTS/tree/dev#installation
 
-tväråfors - Google Search
-https://www.google.com/search?q=tv%C3%A4r%C3%A5fors&rlz=1C5GCEM_enSE990SE991&oq=tv%C3%A4r%C3%A5fors&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMgYIAhAuGB7SAQc0MjJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+coqui/XTTS-v2 · Hugging Face
+https://huggingface.co/coqui/XTTS-v2
 
-talking with hands - Google Search
-https://www.google.com/search?q=talking+with+hands&rlz=1C5GCEM_enSE990SE991&oq=talking+with+hands+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDc3OTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+coqui-ai/TTS: 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+https://github.com/coqui-ai/TTS
 
-Instagram
-https://www.instagram.com/
+app.py · coqui/xtts at main
+https://huggingface.co/spaces/coqui/xtts/blob/main/app.py
 
-People’s common reaction when you start speaking their language : r/MapPorn
-https://www.reddit.com/r/MapPorn/comments/1bg1e0w/peoples_common_reaction_when_you_start_speaking/
+XTTS - a Hugging Face Space by coqui
+https://huggingface.co/spaces/coqui/xtts
 
-Instagram
-https://www.instagram.com/
+CVPRHumogen/pipeline_audio/audio_synthesis.ipynb at main · shivammehta25/CVPRHumogen
+https://github.com/shivammehta25/CVPRHumogen/blob/main/pipeline_audio/audio_synthesis.ipynb
 
-(1) YouTube
-https://www.youtube.com/
+Humble FAQ - TTS 0.22.0 documentation
+https://docs.coqui.ai/en/latest/faq.html
 
-Inbox • Direct
-https://www.instagram.com/direct/t/102052201197290/
+Humble FAQ - TTS 0.22.0 documentation
+https://docs.coqui.ai/en/latest/faq.html
 
-Watch Live - RTÉ Player
-https://www.rte.ie/player/onnow
+TTS/recipes/multilingual/vits_tts/train_vits_tts.py at dev · coqui-ai/TTS
+https://github.com/coqui-ai/TTS/blob/dev/recipes/multilingual/vits_tts/train_vits_tts.py
 
-New Tab
-chrome://newtab/
+coqui "voice conversion" - Google Search
+https://www.google.com/search?q=coqui+%22voice+conversion%22&rlz=1C5GCEM_enSE990SE991&oq=coqui+%22voice+conversion%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigXSAQg5MDU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-naw ruz - Google Search
-https://www.google.com/search?q=naw+ruz&rlz=1C5GCEM_enSE990SE991&oq=naw+ruz&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDE3MjBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+YourTTS voice conversion for mortals · coqui-ai/TTS · Discussion #1084
+https://github.com/coqui-ai/TTS/discussions/1084
 
-St Patrick's Day 2024: How to watch the parade on TV at home and abroad and what time it airs - RSVP Live
-https://www.rsvplive.ie/news/tv-film/st-patricks-day-2024-how-32367070
+infinisoft/tts · Hugging Face
+https://huggingface.co/infinisoft/tts
 
 
