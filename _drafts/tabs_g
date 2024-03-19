@@ -730,124 +730,88 @@ https://github.com/facebookresearch/fairmotion
 facebookresearch/habitat-sim: A flexible, high-performance 3D simulator for Embodied AI research.
 https://github.com/facebookresearch/habitat-sim?tab=readme-ov-file
 
-pytorch/translate: Translate - a PyTorch Language Library
-https://github.com/pytorch/translate
-
-Scanned Objects by Google Research: A Dataset of 3D-Scanned Common Household Items – Google Research Blog
-https://blog.research.google/2022/06/scanned-objects-by-google-research.html
-
-Bullet Real-Time Physics Simulation | Home of Bullet and PyBullet: physics simulation for games, visual effects, robotics and reinforcement learning.
-https://pybullet.org/wordpress/
-
-SDFormat Home
-http://sdformat.org/
-
-Open Robotics
-https://www.openrobotics.org/
-
-facebookresearch/habitat-lab: A modular high-level library to train embodied AI agents across a variety of tasks and environments.
-https://github.com/facebookresearch/habitat-lab
-
-JuanTheEngineer (JuanTheEngineer)
-https://github.com/JuanTheEngineer
-
-eric-heiden/mocap-roboschool-demo: Load motion capture data into Roboschool/MuJoCo
-https://github.com/eric-heiden/mocap-roboschool-demo
-
-Repositories
-https://github.com/orgs/pytorch/repositories?type=all
-
-Code search results
-https://github.com/search?q=repo%3Apytorch%2Frl%20motion&type=code
-
-data/examples at main · pytorch/data
-https://github.com/pytorch/data/tree/main/examples
-
-data/examples/audio/librispeech.py at main · pytorch/data
-https://github.com/pytorch/data/blob/main/examples/audio/librispeech.py
-
-data/examples/dataloader2 at main · pytorch/data
-https://github.com/pytorch/data/tree/main/examples/dataloader2
-
-mujoco animated objects - Google Search
-https://www.google.com/search?q=mujoco+animated+objects&rlz=1C5GCEM_enSE990SE991&oq=mujoco+anima&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDU1MzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Issue search results
-https://github.com/search?q=repo%3Agoogle-deepmind%2Fmujoco+bvh&type=issues
-
-Core functionality — resampy 0.4.2 documentation
-https://resampy.readthedocs.io/en/stable/api.html
-
-bvh biovision resampling python - Google Search
-https://www.google.com/search?q=bvh+biovision+resampling+python&sca_esv=d5df9f5ca7841720&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0-Xzxb82Ev5QqcljsbDlFiySyEnKA%3A1710757008931&ei=kBT4Zdi4OI68wPAP156MqAw&ved=0ahUKEwjYwMG-yv2EAxUOHhAIHVcPA8UQ4dUDCBA&uact=5&oq=bvh+biovision+resampling+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiH2J2aCBiaW92aXNpb24gcmVzYW1wbGluZyBweXRob24yBRAhGKABSLUKUA1Y-whwAXgAkAEAmAHHA6ABrA-qAQkwLjEuNC4xLjG4AQPIAQD4AQGYAgagArINwgIHECEYChigAZgDAIgGAZIHCTAuMS4zLjEuMaAHuxA&sclient=gws-wiz-serp#ip=1
-
-bvh-tools/bvh at master · matt-graham/bvh-tools
-https://github.com/matt-graham/bvh-tools/tree/master/bvh
-
-20tab/bvh-python: Python module for parsing BVH (Biovision hierarchical data) mocap files
-https://github.com/20tab/bvh-python
-
-mujoco bvh import - Google Search
-https://www.google.com/search?q=mujoco+bvh+import&rlz=1C5GCEM_enSE990SE991&oq=mujoco+bvh+import&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCDYyOTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-jeromepl/Locomotion: Research project on reinforcement learning models for physics-based character locomotion
-https://github.com/jeromepl/Locomotion?tab=readme-ov-file
-
-DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills
-https://xbpeng.github.io/projects/DeepMimic/index.html
+translate/pytorch_translate/word_prediction/word_prediction_criterion.py at master · pytorch/translate
+https://github.com/pytorch/translate/blob/master/pytorch_translate/word_prediction/word_prediction_criterion.py
 
 xbpeng/DeepMimic: Motion imitation with deep reinforcement learning.
 https://github.com/xbpeng/DeepMimic?tab=readme-ov-file
 
-bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
-https://github.com/bulletphysics/bullet3
+stephengold/Maud: An editor for jMonkeyEngine 3-D models (code has New BSD license)
+https://github.com/stephengold/Maud?tab=License-1-ov-file#readme
 
-PyMO/demos at master · omimo/PyMO
-https://github.com/omimo/PyMO/tree/master/demos
+TMH Monday lunch meeting protocols Apr 2019– - Google Docs
+https://docs.google.com/document/d/1R53CwfrIrSiXrgLc0s7m-DZHrz9OPYp-V_c-ve97l0w/edit
 
-bvh "resample" frames github - Google Search
-https://www.google.com/search?q=bvh+%22resample%22+frames+github&sca_esv=d5df9f5ca7841720&rlz=1C5GCEM_enSE990SE991&biw=1440&bih=731&sxsrf=ACQVn0-WACzrgikH3vrpqSKoH07wABm4TQ%3A1710757551625&ei=rxb4ZfvaJYTlwPAP0tKU-Ag&ved=0ahUKEwi77qTBzP2EAxWEMhAIHVIpBY8Q4dUDCBA&uact=5&oq=bvh+%22resample%22+frames+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGJ2aCAicmVzYW1wbGUiIGZyYW1lcyBnaXRodWIyBRAhGKABSOwPUOkGWO0KcAJ4AJABAZgBjQKgAeYIqgEFMC40LjK4AQPIAQD4AQGYAgWgAuYGmAMAiAYBkgcFMC4zLjKgB4wM&sclient=gws-wiz-serp
+Tölvera - Tölvera
+https://intelligent-instruments-lab.github.io/tolvera/
 
-bvhacker - tutorial 1
-https://bvhacker.com/tutorial_1.html
+Two teachers with fake syllabus are better than on - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65eed8ed88a8955d4b063c4c
 
-Script to change rest position of bvh files. - Coding / Python Support - Blender Artists Community
-https://blenderartists.org/t/script-to-change-rest-position-of-bvh-files/494533/5
+Multimodal Machine Learning: A Survey and Taxonomy
+https://people.ict.usc.edu/~gratch/CSCI534/Readings/Baltrusaitis-MMML-survey.pdf
 
-makehuman alternative - Google Search
-https://www.google.com/search?q=makehuman+alternative&sca_esv=d5df9f5ca7841720&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn09Yyf-8eThDC8Wqgr-qWwb6L2anQg%3A1710757904995&ei=EBj4ZbPcO7HUwPAPmfqr0AM&oq=makehuman+alt&gs_lp=Egxnd3Mtd2l6LXNlcnAiDW1ha2VodW1hbiBhbHQqAggAMgsQABiABBiKBRiRAjIFEAAYgAQyBhAAGBYYHkjgElATWIkMcAF4AZABAJgBYqABzgKqAQE0uAEDyAEA-AEBmAIFoALcAsICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIZEC4YgAQYigUYQxjHARjRAxjIAxiwA9gBAcICExAuGIAEGIoFGEMYyAMYsAPYAQHCAgoQABiABBgUGIcCmAMAiAYBkAYLugYECAEYCJIHAzQuMaAHnBA&sclient=gws-wiz-serp#ip=1
+How to parse boolean values with `argparse` in Python - GeeksforGeeks
+https://www.geeksforgeeks.org/how-to-parse-boolean-values-with-argparse-in-python/
 
-MakeHuman - Wikipedia
-https://en.wikipedia.org/wiki/MakeHuman
+Stockholms universitet - Welcome to the annual phonetics conference Fonetik 2024!
+https://su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2930
 
-Facial Action Coding System - Wikipedia
-https://en.wikipedia.org/wiki/Facial_Action_Coding_System
+Stockholms universitet - Preliminary registration for Fonetik 2024
+https://su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2937
 
-Daz Studio - Wikipedia
-https://en.wikipedia.org/wiki/Daz_Studio
+Stockholms universitet - Preliminary registration for Fonetik 2024
+https://su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2937
 
-makehumancommunity/makehuman: This is the main repository for the MakeHuman application as such.
-https://github.com/makehumancommunity/makehuman?tab=readme-ov-file
+su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2930
+https://su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2930
 
-FAQ:What changed regarding the license in 2020? - MakeHuman Community Wiki
-http://www.makehumancommunity.org/wiki/FAQ:What_changed_regarding_the_license_in_2020%3F
+Stockholms universitet - Welcome to the annual phonetics conference Fonetik 2024!
+https://su.powerinit.com/Data/Event/EventTemplates/2602/?EventId=2930
 
-Code search results
-https://github.com/search?q=repo%3Amakehumancommunity%2Fmakehuman+import&type=code
+Google Text Normalization Challenge
+https://www.kaggle.com/datasets/google-nlu/text-normalization/code
 
-makehumancommunity/makehuman: This is the main repository for the MakeHuman application as such.
-https://github.com/makehumancommunity/makehuman
+Simple EN baseline (LB: 0.9937)
+https://www.kaggle.com/code/opanichev/simple-en-baseline-lb-0-9937
 
-BVH framerate downsampling - Coding / Python Support - Blender Artists Community
-https://blenderartists.org/t/bvh-framerate-downsampling/436697
+Google Text Normalization Challenge
+https://www.kaggle.com/datasets/google-nlu/text-normalization
 
-bvh-python/README.md at master · 20tab/bvh-python
-https://github.com/20tab/bvh-python/blob/master/README.md
+Text Normalization for English, Russian and Polish
+https://www.kaggle.com/datasets/richardwilliamsproat/text-normalization-for-english-russian-and-polish/data?select=LICENSE
 
-Training data · Issue #1 · simonalexanderson/StyleGestures
-https://github.com/simonalexanderson/StyleGestures/issues/1
+Python: Validating Argparse Input with a List
+https://www.briancarr.org/post/python-validating-argparse-input
 
-Maud/README.md at master · stephengold/Maud
-https://github.com/stephengold/Maud/blob/master/README.md
+Python’s argparse and lists – Tuxevaras Blog
+https://www.tuxevara.de/2015/01/pythons-argparse-and-lists/
+
+num2words/num2words at master · savoirfairelinux/num2words
+https://github.com/savoirfairelinux/num2words/tree/master/num2words
+
+num2words/num2words/lang_SV.py at master · savoirfairelinux/num2words
+https://github.com/savoirfairelinux/num2words/blob/master/num2words/lang_SV.py
+
+exception - Catch python 'ImportError' if import from source directory - Stack Overflow
+https://stackoverflow.com/questions/14750711/catch-python-importerror-if-import-from-source-directory
+
+Python RegEx: re.match(), re.search(), re.findall() with Example
+https://www.guru99.com/python-regular-expressions-complete-tutorial.html
+
+pkgutil — Package extension utility — Python 3.12.2 documentation
+https://docs.python.org/3/library/pkgutil.html#pkgutil.get_data
+
+dancing exclamation mark gif - Google Search
+https://www.google.com/search?q=dancing+exclamation+mark+gif&sca_esv=8ce8be85696c52dc&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn09o4hHRenV0F4dw5HKgPeHOZxsPDg%3A1710844688737&ei=EGv5ZbfCLP3EwPAP24a1UA&ved=0ahUKEwi3isCPkYCFAxV9IhAIHVtDDQoQ4dUDCBA&uact=5&oq=dancing+exclamation+mark+gif&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGRhbmNpbmcgZXhjbGFtYXRpb24gbWFyayBnaWYyBhAAGBYYHki4K1CGIliXKHACeAGQAQCYAWKgAdACqgEBNLgBA8gBAPgBAZgCBqAC3QLCAgoQABhHGNYEGLADwgILEAAYgAQYigUYhgOYAwCIBgGQBgOSBwM1LjGgB8EI&sclient=gws-wiz-serp
+
+Exlamation Mark Dancing Sticker – Exlamation Mark Dancing Dance Move – discover and share GIFs
+https://tenor.com/en-IE/view/exlamation-mark-dancing-dance-move-gif-15166730
+
+exlamation-mark-dancing.gif (137×185)
+https://media.tenor.com/MdpAm0htX_4AAAAi/exlamation-mark-dancing.gif
+
+The Infinite Conversation
+https://www.infiniteconversation.com/
 
 
