@@ -133,11 +133,14 @@ https://www.tahri.org/program
 FlowMDM: Seamless Human Motion Composition with<br>Blended Positional Encodings | German Barquero
 https://barquerogerman.github.io/FlowMDM/
 
+EricGuo5513/text-to-motion: Official implementation for "Generating Diverse and Natural 3D Human Motions from Texts (CVPR2022)."
+https://github.com/EricGuo5513/text-to-motion/tree/main
+
 BarqueroGerman/FlowMDM: [CVPR 2024] Official Implementation of "Seamless Human Motion Composition with Blended Positional Encodings".
 https://github.com/BarqueroGerman/FlowMDM
 
-BarqueroGerman/BeLFusion: [ICCV2023] Official PyTorch Implementation of "BeLFusion: Latent Diffusion for Behavior-Driven Human Motion Prediction". ICCV 2023
-https://github.com/BarqueroGerman/BeLFusion?tab=readme-ov-file
+BeLFusion/models/diffusion/gaussian_diffusion.py at main · BarqueroGerman/BeLFusion
+https://github.com/BarqueroGerman/BeLFusion/blob/main/models/diffusion/gaussian_diffusion.py
 
 Related Datasets
 http://vision.imar.ro/human3.6m/related_datasets.php
@@ -177,9 +180,6 @@ https://cs.fit.edu/~pkc/papers/tdm04.pdf
 
 fastdtw/fastdtw at master · slaypni/fastdtw
 https://github.com/slaypni/fastdtw/tree/master/fastdtw
-
-fastdtw/fastdtw/fastdtw.py at master · slaypni/fastdtw
-https://github.com/slaypni/fastdtw/blob/master/fastdtw/fastdtw.py
 
 monotonic_align/src/core.pyx at master · moonsikpark/monotonic_align
 https://github.com/moonsikpark/monotonic_align/blob/master/src/core.pyx
@@ -229,83 +229,23 @@ https://github.com/yvvyee/Levenshtein/blob/master/levenshtein.py
 Levenshtein distance · Hyperskill
 https://hyperskill.org/learn/step/19415
 
-Wagner–Fischer algorithm - Wikipedia
-https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm#:~:text=The%20Wagner%E2%80%93Fischer%20algorithm%20computes,find%20the%20distance%20between%20the
-
-abs() in Python - GeeksforGeeks
-https://www.geeksforgeeks.org/abs-in-python/
-
-IBM alignment models - Wikipedia
-https://en.wikipedia.org/wiki/IBM_alignment_models
-
-Needleman–Wunsch algorithm - Wikipedia
-https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm
-
-Levenshtein distance - Wikipedia
-https://en.wikipedia.org/wiki/Levenshtein_distance
-
-Commits · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/commits/main/
-
 hybrid-TDT-CTC model inference fix (#8541) · NVIDIA/NeMo@cab5997
 https://github.com/NVIDIA/NeMo/commit/cab59972e169644159d123f3943bdd2df2d5ea35
-
-Commits · jimregan/notes
-https://github.com/jimregan/notes/commits/master/
 
 Phonetic rules, take 2 | notes
 https://jimregan.github.io/notes/swedish/nst/lexicon/phonetic/rules/2024/02/20/phonetic-rule-take-2.html
 
-Getting timestamps on long audio | notes
-https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
-
 First attempts at alignment (take 2) | notes
 https://jimregan.github.io/notes/riksdag/wav2vec/alignment/2024/03/09/alignment-stabs.html
 
-Waxholm lexicon processing | notes
-https://jimregan.github.io/notes/swedish/waxholm/lexicon/2023/12/15/waxholm-lexicon.html
-
-Phonetic rule processing, take 1 | notes
-https://jimregan.github.io/notes/swedish/nst/lexicon/phonetic/rules/2023/10/09/phonetic-rule-take-1.html
-
-How to check for punctuations in a string : r/learnpython
-https://www.reddit.com/r/learnpython/comments/rbqk4u/how_to_check_for_punctuations_in_a_string/
-
-python - Limiting floats to two decimal points - Stack Overflow
-https://stackoverflow.com/questions/455612/limiting-floats-to-two-decimal-points
-
-breath - Wiktionary
-https://sv.wiktionary.org/wiki/breath
-
 jimregan/riksdag_spoken_sentences · Datasets at Hugging Face
-https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences?clone=true
-
-jimregan/riksdag_spoken_sentences at main
-https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences/tree/main/paraphrases
+https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences
 
 jiaaro/pydub: Manipulate audio with a simple and easy high level interface
 https://github.com/jiaaro/pydub
 
-Inbox • Direct
-https://www.instagram.com/p/C4BDeeXNUFj/
-
-Text::Levenshtein::XS - Calculate edit distance based on insertion, deletion, and substitution - metacpan.org
-https://metacpan.org/pod/Text::Levenshtein::XS
-
-avse - Wiktionary
-https://sv.wiktionary.org/wiki/avse
-
-Can't add elements to set : r/learnpython
-https://www.reddit.com/r/learnpython/comments/dnhihp/cant_add_elements_to_set/
-
-Instagram
-https://www.instagram.com/
-
-What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs
-https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/
-
-langchain/cookbook at master · langchain-ai/langchain
-https://github.com/langchain-ai/langchain/tree/master/cookbook
+langchain/cookbook/deeplake_semantic_search_over_chat.ipynb at master · langchain-ai/langchain
+https://github.com/langchain-ai/langchain/blob/master/cookbook/deeplake_semantic_search_over_chat.ipynb
 
 langchain/cookbook/Semi_Structured_RAG.ipynb at master · langchain-ai/langchain
 https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
@@ -985,34 +925,13 @@ https://mfa-models.readthedocs.io/en/latest/g2p/Polish/Polish%20MFA%20G2P%20mode
 LingMethodsHub - Montreal Forced Aligner
 https://lingmethodshub.github.io/content/tools/mfa/mfa-tutorial/
 
-English mfa dictionary and corresponding G2P model · Issue #24 · MontrealCorpusTools/mfa-models
-https://github.com/MontrealCorpusTools/mfa-models/issues/24
-
-3 Montreal Forced Aligner | Corpus Phonetics Tutorial
-https://eleanorchodroff.com/tutorial/montreal-forced-aligner.html
-
-t̪ - Google Search
-https://www.google.com/search?q=t%CC%AA&rlz=1C5GCEM_enSE990SE991&oq=t%CC%AA&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQABgeMgYIBRAAGB4yCAgGEAAYDxge0gEIMTcxMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-curse witch gif - Google Search
-https://www.google.com/search?sca_esv=0ca6e4b78dce1108&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_aQyjmL6xKVu1ymGFl-3z9wcSIIA:1711017901922&q=curse+witch+gif&tbm=isch&source=lnms&prmd=ivnbz&sa=X&ved=2ahUKEwio-f2xloWFAxVkHRAIHXLHAOMQ0pQJegQICxAB&biw=1440&bih=731&dpr=2#imgrc=KJn1zhpNkgtUEM
-
-360 (360×360)
-https://static.wikia.nocookie.net/candies-n-curses/images/a/af/Necro-witch%40idle.gif/revision/latest/scale-to-width/360?cb=20181227001632
-
-dycha - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/dycha#Polish
-
-Praat-Users-List@groups.io | Audio problems
-https://groups.io/g/Praat-Users-List/topic/audio_problems/78301604?p=
-
-jimregan/wav2vec2-swedish-phonetic-waxholm · Hugging Face
-https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm
-
-aba - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/aba#Kashubian
-
 tmh/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py at master · BirgerMoell/tmh
 https://github.com/BirgerMoell/tmh/blob/master/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py
+
+Aalborg - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Aalborg#Polish
+
+diffusion/scripts at 1e0dceb3b3495bbe19116a5e1b3596cd0706c543 · hojonathanho/diffusion
+https://github.com/hojonathanho/diffusion/tree/1e0dceb3b3495bbe19116a5e1b3596cd0706c543/scripts
 
 
