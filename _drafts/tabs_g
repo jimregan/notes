@@ -256,6 +256,9 @@ https://github.com/jimregan/notes/commits/master/
 Phonetic rules, take 2 | notes
 https://jimregan.github.io/notes/swedish/nst/lexicon/phonetic/rules/2024/02/20/phonetic-rule-take-2.html
 
+Getting timestamps on long audio | notes
+https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
+
 First attempts at alignment (take 2) | notes
 https://jimregan.github.io/notes/riksdag/wav2vec/alignment/2024/03/09/alignment-stabs.html
 
@@ -943,19 +946,73 @@ https://github.com/snakers4/silero-vad/blob/master/silero-vad.ipynb
 silero vad command line - Google Search
 https://www.google.com/search?q=silero+vad+command+line&rlz=1C5GCEM_enSE990SE991&oq=silero+vad+command&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDUwMTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-SileroVAD : Machine Learning Model to Detect Speech Segments | by David Cochard | axinc-ai | Medium
-https://medium.com/axinc-ai/silerovad-machine-learning-model-to-detect-speech-segments-e99722c0dd41
-
-python - Downsampling wav audio file - Stack Overflow
-https://stackoverflow.com/questions/30619740/downsampling-wav-audio-file
-
 chapter3.pdf
 https://projector-video-pdf-converter.datacamp.com/17718/chapter3.pdf
 
-The Day Is My Enemy - Wikipedia
-https://en.wikipedia.org/wiki/The_Day_Is_My_Enemy
+2403.13788.pdf
+https://arxiv.org/pdf/2403.13788.pdf
 
-Who produced “Rok-Weiler” by The Prodigy?
-https://genius.com/The-prodigy-rok-weiler-lyrics/q/producer
+SakanaAI/evolutionary-model-merge: Official repository of Evolutionary Optimization of Model Merging Recipes
+https://github.com/SakanaAI/evolutionary-model-merge?tab=readme-ov-file
+
+SakanaAI/EvoVLM-JP-v1-7B · Hugging Face
+https://huggingface.co/SakanaAI/EvoVLM-JP-v1-7B
+
+Evolving New Foundation Models: Unleashing the Power of Automating Model Development
+https://sakana.ai/evolutionary-model-merge/
+
+liuhaotian/llava-v1.6-mistral-7b · Hugging Face
+https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b
+
+Issue with exporting mp3 files · Issue #16 · jiaaro/pydub
+https://github.com/jiaaro/pydub/issues/16
+
+Corpus formats and structure — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/corpus_structure.html
+
+Pronunciation dictionary format — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/dictionary.html
+
+Polish MFA dictionary v2.0.0a — mfa model 3.0.2 documentation
+https://mfa-models.readthedocs.io/en/latest/dictionary/Polish/Polish%20MFA%20dictionary%20v2_0_0a.html#Polish%20MFA%20dictionary%20v2_0_0a
+
+G2P models — mfa model 3.0.2 documentation
+https://mfa-models.readthedocs.io/en/latest/g2p/index.html
+
+Polish MFA G2P model v2.0.0a — mfa model 3.0.2 documentation
+https://mfa-models.readthedocs.io/en/latest/g2p/Polish/Polish%20MFA%20G2P%20model%20v2_0_0a.html#Polish%20MFA%20G2P%20model%20v2_0_0a
+
+LingMethodsHub - Montreal Forced Aligner
+https://lingmethodshub.github.io/content/tools/mfa/mfa-tutorial/
+
+English mfa dictionary and corresponding G2P model · Issue #24 · MontrealCorpusTools/mfa-models
+https://github.com/MontrealCorpusTools/mfa-models/issues/24
+
+3 Montreal Forced Aligner | Corpus Phonetics Tutorial
+https://eleanorchodroff.com/tutorial/montreal-forced-aligner.html
+
+t̪ - Google Search
+https://www.google.com/search?q=t%CC%AA&rlz=1C5GCEM_enSE990SE991&oq=t%CC%AA&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIGCAQQABgeMgYIBRAAGB4yCAgGEAAYDxge0gEIMTcxMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+curse witch gif - Google Search
+https://www.google.com/search?sca_esv=0ca6e4b78dce1108&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_aQyjmL6xKVu1ymGFl-3z9wcSIIA:1711017901922&q=curse+witch+gif&tbm=isch&source=lnms&prmd=ivnbz&sa=X&ved=2ahUKEwio-f2xloWFAxVkHRAIHXLHAOMQ0pQJegQICxAB&biw=1440&bih=731&dpr=2#imgrc=KJn1zhpNkgtUEM
+
+360 (360×360)
+https://static.wikia.nocookie.net/candies-n-curses/images/a/af/Necro-witch%40idle.gif/revision/latest/scale-to-width/360?cb=20181227001632
+
+dycha - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/dycha#Polish
+
+Praat-Users-List@groups.io | Audio problems
+https://groups.io/g/Praat-Users-List/topic/audio_problems/78301604?p=
+
+jimregan/wav2vec2-swedish-phonetic-waxholm · Hugging Face
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm
+
+aba - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/aba#Kashubian
+
+tmh/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py at master · BirgerMoell/tmh
+https://github.com/BirgerMoell/tmh/blob/master/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py
 
 
