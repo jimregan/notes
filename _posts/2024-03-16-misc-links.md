@@ -18,4 +18,8 @@ tmux -S /tmp/socket attach
 
 [Bosco visits the lions at Dublin zoo](https://www.youtube.com/watch?v=EJ8XMmFQutQ)
 
+[DepthFM: Fast Monocular Depth Estimation with Flow Matching](https://arxiv.org/abs/2403.13788)
+
+[SakanaAI/evolutionary-model-merge](https://github.com/SakanaAI/evolutionary-model-merge)
+
 
