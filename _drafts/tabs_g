@@ -1,6 +1,9 @@
 Past proceedings - ExLing Society
 https://exlingsociety.com/past-proceedings/
 
+ExLing 2022 Paris
+https://exlingsociety.com/wp-content/uploads/2023/03/13_0008_000550.pdf
+
 goose-fronting in Received Pronunciation across time: A trend study | Language Variation and Change | Cambridge Core
 https://www.cambridge.org/core/journals/language-variation-and-change/article/goosefronting-in-received-pronunciation-across-time-a-trend-study/345EE09F1EBB3EE27242A02C265A9FCC
 
@@ -85,7 +88,7 @@ https://www.kaggle.com/code/jimregan/dubliners-download-and-asr/edit/run/1630902
 notebook135d7709bb | Kaggle
 https://www.kaggle.com/code/jimregan/notebook135d7709bb/edit
 
-dubliners-download-and-asr | Kaggle
+dubliners-download-and-asr
 https://www.kaggle.com/code/jimregan/dubliners-download-and-asr/notebook
 
 Models - Hugging Face
@@ -94,8 +97,8 @@ https://huggingface.co/models?dataset=dataset:timit_asr
 vollalasindhu/wav2vec2-base-timit-demo-google-colab · Hugging Face
 https://huggingface.co/vollalasindhu/wav2vec2-base-timit-demo-google-colab
 
-Phoneme Recognition with Wav2Vec2 | Kaggle
-https://www.kaggle.com/code/jimregan/phoneme-recognition-with-wav2vec2/edit
+Phoneme Recognition with Wav2Vec2
+https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2
 
 Phoneme Recognition with Wav2Vec2 | Kaggle
 https://www.kaggle.com/code/jimregan/phoneme-recognition-with-wav2vec2?scriptVersionId=165873018
@@ -166,12 +169,6 @@ https://huggingface.co/spaces/OlaWod/FreeVC/tree/main/checkpoints
 Home - The DTW suite
 https://dynamictimewarping.github.io/#quickstart
 
-dtw python - Google Search
-https://www.google.com/search?q=dtw+python&rlz=1C5GCEM_enSE990SE991&oq=dtw+p&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIGCAAQRRg5MgwIARAAGEMYgAQYigUyDAgCEAAYQxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIGCAYQRRg8MgYIBxBFGDzSAQgzODIzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-5 Dynamic Time Warping (DTW) Libraries in Python With Examples | Forecastegy
-https://forecastegy.com/posts/dynamic-time-warping-dtw-libraries-python-examples/
-
 fastdtw · PyPI
 https://pypi.org/project/fastdtw/
 
@@ -211,24 +208,6 @@ https://norvig.com/spell-correct.html
 Ross O'Carroll-Kelly
 https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzhlMjJiMTAwLTA3ODktNWYyMy1iNDI1LTgxZjQ2ZGQxNWUzNg?sa=X&ved=2ahUKEwiY3ub09ueEAxU7VfEDHRYHB_kQ9sEGegQIARAI
 
-numpy levenshtein - Google Search
-https://www.google.com/search?q=numpy+levenshtein&rlz=1C5GCEM_enSE990SE991&oq=numpy+leven&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGDkyBwgCEAAYgAQyBggDEEUYPNIBCDQwMDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-compute levenshtein distance
-https://gist.github.com/tuxedocat/fb024dfa36648797084d
-
-weighted-levenshtein/weighted_levenshtein/clev.pyx at master · infoscout/weighted-levenshtein
-https://github.com/infoscout/weighted-levenshtein/blob/master/weighted_levenshtein/clev.pyx
-
-Damerau–Levenshtein distance - Wikipedia
-https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance#Distance_with_adjacent_transpositions
-
-Levenshtein/levenshtein.py at master · yvvyee/Levenshtein
-https://github.com/yvvyee/Levenshtein/blob/master/levenshtein.py
-
-Levenshtein distance · Hyperskill
-https://hyperskill.org/learn/step/19415
-
 hybrid-TDT-CTC model inference fix (#8541) · NVIDIA/NeMo@cab5997
 https://github.com/NVIDIA/NeMo/commit/cab59972e169644159d123f3943bdd2df2d5ea35
 
@@ -255,6 +234,9 @@ https://arxiv.org/pdf/2005.11401.pdf
 
 facebook/rag-token-nq · Hugging Face
 https://huggingface.co/facebook/rag-token-nq
+
+2005.11401.pdf
+https://arxiv.org/pdf/2005.11401.pdf
 
 honom - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/honom
@@ -933,5 +915,158 @@ https://en.wiktionary.org/wiki/Aalborg#Polish
 
 diffusion/scripts at 1e0dceb3b3495bbe19116a5e1b3596cd0706c543 · hojonathanho/diffusion
 https://github.com/hojonathanho/diffusion/tree/1e0dceb3b3495bbe19116a5e1b3596cd0706c543/scripts
+
+Load LoRAs for inference
+https://huggingface.co/docs/diffusers/en/index
+
+huggingface.co/docs/diffusers/en/api/models
+https://huggingface.co/docs/diffusers/en/api/models
+
+Overview
+https://huggingface.co/docs/diffusers/en/tutorials/tutorial_overview
+
+Load LoRAs for inference
+https://huggingface.co/docs/diffusers/en/tutorials/using_peft_for_inference
+
+Pull request search results
+https://github.com/search?q=repo%3Ahuggingface%2Fdiffusers+motion&type=pullrequests
+
+Instagram
+https://www.instagram.com/
+
+Home / X
+https://twitter.com/home
+
+yl4579/StyleTTS2: StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
+https://github.com/yl4579/StyleTTS2?tab=readme-ov-file
+
+StyleTTS 2 - a Hugging Face Space by styletts2
+https://huggingface.co/spaces/styletts2/styletts2
+
+Panelshow
+https://www.reddit.com/r/panelshow/
+
+pdf
+https://openreview.net/pdf?id=uCptvPwXpW
+
+actiongpt/actiongpt: Official pytorch implementation of Action-GPT
+https://github.com/actiongpt/actiongpt
+
+Git - git-tag Documentation
+https://git-scm.com/docs/git-tag
+
+kashubian recordings - Google Search
+https://www.google.com/search?q=kashubian+recordings&rlz=1C5GCEM_enSE990SE991&oq=kashubian+recordings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDUxNTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+Kashubian language - Wikipedia
+https://en.wikipedia.org/wiki/Kashubian_language
+
+Język kaszubski – Wikipedia, wolna encyklopedia
+https://pl.wikipedia.org/wiki/J%C4%99zyk_kaszubski
+
+File:Ojcze nasz po kaszebsku.ogg - Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Ojcze_nasz_po_kaszebsku.ogg
+
+Category:Kashubian pronunciation - Wikimedia Commons
+https://commons.wikimedia.org/wiki/Category:Kashubian_pronunciation
+
+yl4579/StyleTTS2: StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
+https://github.com/yl4579/StyleTTS2?tab=readme-ov-file
+
+NeuralVox/StyleTTS2
+https://github.com/NeuralVox/StyleTTS2?tab=readme-ov-file
+
+blabble-io/libritts · Datasets at Hugging Face
+https://huggingface.co/datasets/blabble-io/libritts
+
+yl4579/PL-BERT: Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions
+https://github.com/yl4579/PL-BERT
+
+VinAIResearch/XPhoneBERT: XPhoneBERT: A Pre-trained Multilingual Model for Phoneme Representations for Text-to-Speech (INTERSPEECH 2023)
+https://github.com/VinAIResearch/XPhoneBERT?tab=readme-ov-file
+
+thelinhbkhn2014/Text2PhonemeSequence
+https://github.com/thelinhbkhn2014/Text2PhonemeSequence?tab=readme-ov-file
+
+lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
+https://github.com/lingjzhu/CharsiuG2P/tree/main?tab=readme-ov-file
+
+CharsiuG2P/dicts at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/tree/main/dicts
+
+CharsiuG2P/dicts/gle.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/gle.tsv
+
+CharsiuG2P/dicts/sme.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/sme.tsv
+
+CharsiuG2P/sources at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/tree/main/sources
+
+styletts2 · PyPI
+https://pypi.org/project/styletts2/
+
+charsiu/g2p_multilingual_byT5_small_100 · Hugging Face
+https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
+
+Category:Irish terms with IPA pronunciation - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Category:Irish_terms_with_IPA_pronunciation
+
+Help:Export - MediaWiki
+https://www.mediawiki.org/wiki/Help:Export
+
+wikitextparser · PyPI
+https://pypi.org/project/wikitextparser/
+
+The lxml.etree Tutorial
+https://lxml.de/tutorial.html
+
+doom pregnancy test - Google Search
+https://www.google.com/search?q=doom+pregnancy+test&sca_esv=cde25c42fe00d5a3&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn08IT_RxznFLhyFahwg8NZULbVp_kw%3A1711367308488&ei=jGQBZp6vHYncwPAP57aY6AM&ved=0ahUKEwiepYKErI-FAxUJLhAIHWcbBj0Q4dUDCBA&uact=5&oq=doom+pregnancy+test&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2Rvb20gcHJlZ25hbmN5IHRlc3QyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBRAAGIAEMggQABgFGAcYHjIGEAAYBRgeMgsQABiABBiKBRiGA0j0GVCkBFiqGHAEeAGQAQGYAeIBoAHIBaoBBTMuMi4xuAEDyAEA-AEBmAIJoAKGBMICChAAGEcY1gQYsAPCAggQABgIGAcYHsICCBAAGIAEGKIEwgIHEAAYgAQYDZgDAIgGAZAGCJIHAzcuMqAH1iI&sclient=gws-wiz-serp
+
+foone🏳️‍⚧️ (@Foone) / X
+https://twitter.com/Foone
+
+foone/3DMMForever: A modernized version of the Microsoft 3D Movie Maker release
+https://github.com/foone/3DMMForever
+
+Repositories
+https://github.com/orgs/microsoft/repositories?type=all&page=13
+
+terminal/src/terminal/adapter/charsets.hpp at main · microsoft/terminal
+https://github.com/microsoft/terminal/blob/main/src/terminal/adapter/charsets.hpp
+
+microsoft/winfile: Original Windows File Manager (winfile) with enhancements
+https://github.com/microsoft/winfile
+
+microsoft/MIDI: Windows MIDI Services
+https://github.com/microsoft/MIDI
+
+microsoft/msagljs: A JavaScript graph layout engine: port of MSAGL
+https://github.com/microsoft/msagljs
+
+microsoft/mfcmapi: MFCMAPI
+https://github.com/microsoft/mfcmapi
+
+microsoft/MHA: Message Header Analyzer Add-in For Outlook
+https://github.com/microsoft/MHA
+
+microsoft/qsharp
+https://github.com/microsoft/qsharp
+
+microsoft/UFO: A UI-Focused Agent for Windows OS Interaction.
+https://github.com/microsoft/UFO
+
+microsoft/DirectXShaderCompiler: This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.
+https://github.com/microsoft/DirectXShaderCompiler?tab=License-1-ov-file#readme
+
+Yes, Doom Is Playable on a Pregnancy Test
+https://uk.pcmag.com/games/128528/yes-doom-is-playable-on-a-pregnancy-test
+
+Kelly | Språkbanken Text
+https://spraakbanken.gu.se/en/resources/kelly
+
+University of Leeds Kelly page
+https://ssharoff.github.io/kelly/
 
 
