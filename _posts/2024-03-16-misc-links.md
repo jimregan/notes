@@ -22,4 +22,14 @@ tmux -S /tmp/socket attach
 
 [SakanaAI/evolutionary-model-merge](https://github.com/SakanaAI/evolutionary-model-merge)
 
+{% twitter https://twitter.com/davepl1968/status/1772042158046146792 %}
+
+{% twitter https://twitter.com/Foone/status/1302820468819288066 %}
+
+[Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687)
+
+[yl4579/PL-BERT](https://github.com/yl4579/PL-BERT)
+
+[MagyarorszagON, BudapestEN, SzlovakiaBAN, PozsonyBAN](https://www.reddit.com/r/hungarian/comments/1bip87y/magyarorszagon_budapesten_szlovakiaban_pozsonyban/)
+
 
