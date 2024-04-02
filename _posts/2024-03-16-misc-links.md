@@ -32,4 +32,18 @@ tmux -S /tmp/socket attach
 
 [MagyarorszagON, BudapestEN, SzlovakiaBAN, PozsonyBAN](https://www.reddit.com/r/hungarian/comments/1bip87y/magyarorszagon_budapesten_szlovakiaban_pozsonyban/)
 
+[Why Tool's Danny Carey Is Your Drummer's Favorite Drummer](https://www.youtube.com/watch?v=0ErsWJw28XU)
+
+[A Corpus-based Pronunciation Teaching Model: A Conceptual Paper](https://awej.org/a-corpus-based-pronunciation-teaching-model-a-conceptual-paper/)
+
+[Nigerian English pronunciation preferences: A corpus-based survey of pronunciation variants](https://www.tandfonline.com/doi/full/10.1080/23311983.2022.2061104)
+
+[Survey of American pronunciation preferences – a preliminary report](https://www.phon.ucl.ac.uk/home/wells/shitara.pdf)
+
+[A corpus-based study of English pronunciation variations](https://www.isca-archive.org/interspeech_2011/kim11e_interspeech.html)
+
+[Voice Conversion With Just Nearest Neighbors](https://arxiv.org/abs/2305.18975),
+[code](https://github.com/bshall/knn-vc),
+[demo](https://bshall.github.io/knn-vc/) (Go to "Dog-person conversion"!)
+
 
