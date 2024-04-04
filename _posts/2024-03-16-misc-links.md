@@ -46,4 +46,11 @@ tmux -S /tmp/socket attach
 [code](https://github.com/bshall/knn-vc),
 [demo](https://bshall.github.io/knn-vc/) (Go to "Dog-person conversion"!)
 
+[DenseFormer: Enhancing Information Flow in Transformers via Depth Weighted Averaging](https://arxiv.org/abs/2402.02622),
+[code](https://github.com/epfml/DenseFormer)
+
+[L9: Cepstral analysis](https://people.engr.tamu.edu/rgutier/lectures/sp/l9.pdf)
+
+[Pre-emphasis](https://speechprocessingbook.aalto.fi/Preprocessing/Pre-emphasis.html)
+
 
