@@ -73,3 +73,6 @@ tmux -S /tmp/socket attach
 [huggingface/dataspeech](https://github.com/huggingface/dataspeech),
 [parler-tts/parler_tts_mini_v0.1](https://huggingface.co/parler-tts/parler_tts_mini_v0.1)
 
+[EgoPet: Egomotion and Interaction Data from an Animal's Perspective](https://arxiv.org/abs/2404.09991)
+
+
