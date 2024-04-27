@@ -75,4 +75,6 @@ tmux -S /tmp/socket attach
 
 [EgoPet: Egomotion and Interaction Data from an Animal's Perspective](https://arxiv.org/abs/2404.09991)
 
+[The CANDOR corpus: Insights from a large multimodal dataset of naturalistic conversation](https://www.science.org/doi/10.1126/sciadv.adf3197)
+
 
