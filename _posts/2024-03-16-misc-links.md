@@ -77,4 +77,10 @@ tmux -S /tmp/socket attach
 
 [The CANDOR corpus: Insights from a large multimodal dataset of naturalistic conversation](https://www.science.org/doi/10.1126/sciadv.adf3197)
 
+[The London–Lund corpus of spoken English: Description and research](https://portal.research.lu.se/sv/publications/the-londonlund-corpus-of-spoken-english-description-and-research)
+
+[loeweX/Forward-Forward](https://github.com/loeweX/Forward-Forward) --- Reimplementation of Geoffrey Hinton's Forward-Forward Algorithm
+
+[alphacep/whisper-prompts](https://github.com/alphacep/whisper-prompts)
+
 
