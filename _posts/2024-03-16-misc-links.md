@@ -83,4 +83,11 @@ tmux -S /tmp/socket attach
 
 [alphacep/whisper-prompts](https://github.com/alphacep/whisper-prompts)
 
+[fairseq S2T: Fast Speech-to-Text Modeling with fairseq](https://arxiv.org/abs/2010.05171)
+
+[Phoneme Recognition with Wav2Vec2](https://www.kaggle.com/code/vitouphy/phoneme-recognition-with-wav2vec2)
+
+[Generating Diverse and Natural 3D Human Motions from Text](https://ieeexplore.ieee.org/document/9880214),
+[code](https://github.com/EricGuo5513/text-to-motion)
+
 
