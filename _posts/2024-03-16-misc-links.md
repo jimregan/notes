@@ -90,4 +90,19 @@ tmux -S /tmp/socket attach
 [Generating Diverse and Natural 3D Human Motions from Text](https://ieeexplore.ieee.org/document/9880214),
 [code](https://github.com/EricGuo5513/text-to-motion)
 
+[gaELECTRA](https://huggingface.co/DCU-NLP/electra-base-irish-cased-generator-v1)
+
+[StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models](https://arxiv.org/abs/2306.07691),
+[code](https://github.com/yl4579/StyleTTS2)
+
+[Swedish Kelly-list](https://spraakbanken.gu.se/en/resources/kelly)
+
+[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+
+[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084)
+
+[Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation](https://arxiv.org/abs/2004.09813)
+
+[jbeskow/tuben](https://github.com/jbeskow/tuben) --- Tube model of vocal tract - resonance frequency estimation
+
 
