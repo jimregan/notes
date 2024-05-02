@@ -116,4 +116,32 @@ tmux -S /tmp/socket attach
 
 [Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930)
 
+[microsoft/MS-DOS](https://github.com/microsoft/MS-DOS)
+
+[Global Normalization for Streaming Speech Recognition in a Modular Framework](https://arxiv.org/abs/2205.13674)
+
+[google-research/skai](https://github.com/google-research/skai) --- SKAI is a machine learning based tool for performing automatic building damage assessments on aerial imagery of disaster sites.
+
+[bigscience-workshop/petals](https://github.com/bigscience-workshop/petals) --- Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+
+{% twitter https://twitter.com/_camiloruiz/status/1734972143199219791 %}
+
+[High dimensional, tabular deep learning with an auxiliary knowledge graph](https://proceedings.neurips.cc/paper_files/paper/2023/hash/53dd219b6b11abc8ce523921c18c7a3e-Abstract-Conference.html)
+
+[An Embodied Generalist Agent in 3D World](https://arxiv.org/abs/2311.12871),
+[code](https://github.com/embodied-generalist/embodied-generalist)
+
+[LERF: Language Embedded Radiance Fields](https://arxiv.org/abs/2303.09553),
+[code](https://github.com/kerrj/lerf)
+
+[facebookresearch/Mask2Former](https://github.com/facebookresearch/Mask2Former)
+
+{% twitter https://twitter.com/chenwanch1/status/1736568496891498552 %}
+
+[Jungjee/RawNet](https://github.com/Jungjee/RawNet) --- This repository includes implementations of speaker verification systems that input raw waveforms.
+
+[clovaai/voxceleb_trainer](https://github.com/clovaai/voxceleb_trainer) --- This repository contains the framework for training speaker recognition models described in the paper 'In defence of metric learning for speaker recognition' and 'Pushing the limits of raw waveform speaker recognition'.
+
+[CoinCheung/pytorch-loss](https://github.com/CoinCheung/pytorch-loss) --- label-smooth, amsoftmax, partial-fc, focal-loss, triplet-loss, lovasz-softmax. Maybe useful
+
 
