@@ -105,4 +105,15 @@ tmux -S /tmp/socket attach
 
 [jbeskow/tuben](https://github.com/jbeskow/tuben) --- Tube model of vocal tract - resonance frequency estimation
 
+{% twitter https://twitter.com/aidev_isaak/status/1785771093824839914 %}
+
+[KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756),
+[code](https://github.com/KindXiaoming/pykan)
+
+{% twitter https://twitter.com/sanchitgandhi99/status/1785723896567640356 %}
+
+{% twitter https://twitter.com/DuaneJRich/status/1785220190411821111 %}
+
+[Hallucination of Multimodal Large Language Models: A Survey](https://arxiv.org/abs/2404.18930)
+
 
