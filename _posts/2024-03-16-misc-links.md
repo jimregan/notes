@@ -147,4 +147,5 @@ tmux -S /tmp/socket attach
 [Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250),
 [code](https://github.com/md-mohaiminul/VideoRecap)
 
+[ar4/deepwave](https://github.com/ar4/deepwave) --- Wave propagation modules for PyTorch.
 
