@@ -144,4 +144,7 @@ tmux -S /tmp/socket attach
 
 [CoinCheung/pytorch-loss](https://github.com/CoinCheung/pytorch-loss) --- label-smooth, amsoftmax, partial-fc, focal-loss, triplet-loss, lovasz-softmax. Maybe useful
 
+[Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250),
+[code](https://github.com/md-mohaiminul/VideoRecap)
+
 
