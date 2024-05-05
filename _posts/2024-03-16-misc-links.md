@@ -154,3 +154,10 @@ tmux -S /tmp/socket attach
 {% twitter https://twitter.com/rohanpaul_ai/status/1785771512038928472 %}
 
 {% twitter https://twitter.com/thelorryist/status/1786850445119394261 %}
+
+[Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities](https://arxiv.org/abs/2402.01831)
+
+<!-- https://huggingface.co/dt2112-vt24-sami-project/w2v-bert-2.0-north-sami -->
+
+[From Coarse to Fine: Efficient Training for Audio Spectrogram Transformers](https://arxiv.org/abs/2401.08415)
+
