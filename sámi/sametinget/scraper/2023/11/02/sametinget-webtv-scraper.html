@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Github asset release from Colab | notes</title>
+<title>Sametinget API explorations | notes</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Github asset release from Colab" />
+<meta property="og:title" content="Sametinget API explorations" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Adding a file to a release" />
-<meta property="og:description" content="Adding a file to a release" />
-<link rel="canonical" href="https://jimregan.github.io/notes/github/colab/2021/07/30/github-release-from-colab.html" />
-<meta property="og:url" content="https://jimregan.github.io/notes/github/colab/2021/07/30/github-release-from-colab.html" />
+<meta name="description" content="Incomplete scraping attempt" />
+<meta property="og:description" content="Incomplete scraping attempt" />
+<link rel="canonical" href="https://jimregan.github.io/notes/s%C3%A1mi/sametinget/scraper/2023/11/02/sametinget-webtv-scraper.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/s%C3%A1mi/sametinget/scraper/2023/11/02/sametinget-webtv-scraper.html" />
 <meta property="og:site_name" content="notes" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-07-30T00:00:00-05:00" />
+<meta property="article:published_time" content="2023-11-02T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://jimregan.github.io/notes/github/colab/2021/07/30/github-release-from-colab.html","@type":"BlogPosting","headline":"Github asset release from Colab","dateModified":"2021-07-30T00:00:00-05:00","datePublished":"2021-07-30T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/github/colab/2021/07/30/github-release-from-colab.html"},"description":"Adding a file to a release","@context":"https://schema.org"}</script>
+{"url":"https://jimregan.github.io/notes/s%C3%A1mi/sametinget/scraper/2023/11/02/sametinget-webtv-scraper.html","@type":"BlogPosting","headline":"Sametinget API explorations","dateModified":"2023-11-02T00:00:00-05:00","datePublished":"2023-11-02T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/s%C3%A1mi/sametinget/scraper/2023/11/02/sametinget-webtv-scraper.html"},"description":"Incomplete scraping attempt","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,8 +87,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Github asset release from Colab</h1><p class="page-description">Adding a file to a release</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-07-30T00:00:00-05:00" itemprop="datePublished">
-        Jul 30, 2021
+    <h1 class="post-title p-name" itemprop="name headline">Sametinget API explorations</h1><p class="page-description">Incomplete scraping attempt</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-11-02T00:00:00-05:00" itemprop="datePublished">
+        Nov 2, 2023
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -100,16 +100,40 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/notes/categories/#github">github</a>
+        <a class="category-tags-link" href="/notes/categories/#sámi">sámi</a>
         &nbsp;
       
-        <a class="category-tags-link" href="/notes/categories/#colab">colab</a>
+        <a class="category-tags-link" href="/notes/categories/#sametinget">sametinget</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#scraper">scraper</a>
         
       
       </p>
     
 
     
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2023-11-02-sametinget-webtv-scraper.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2023-11-02-sametinget-webtv-scraper.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2023-11-02-sametinget-webtv-scraper.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
       </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -117,7 +141,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2021-07-30-github-release-from-colab.ipynb
+# file to edit: _notebooks/2023-11-02-sametinget-webtv-scraper.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -129,9 +153,144 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install -q condacolab
-<span class="kn">import</span> <span class="nn">condacolab</span>
-<span class="n">condacolab</span><span class="o">.</span><span class="n">install</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">LANDING</span> <span class="o">=</span> <span class="s2">&quot;https://sametinget.kommunetv.no/archive&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">SEARCH_PAGE</span> <span class="o">=</span> <span class="s2">&quot;https://sametinget.kommunetv.no/api/search?noRetry=false&amp;page=3&amp;pageSize=12&amp;type=Archive&amp;hideResultTypes=true&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">SAMPLE_API</span> <span class="o">=</span> <span class="s2">&quot;https://sametinget.kommunetv.no/api/streams?streamType=1&amp;id=168&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample_req</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">SAMPLE_API</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample_req</span><span class="o">.</span><span class="n">content</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample_data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">sample_req</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">sample_data</span><span class="o">.</span><span class="n">keys</span><span class="p">()]</span>
 </pre></div>
 
     </div>
@@ -143,34 +302,21 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>⏬ Downloading https://github.com/jaimergp/miniforge/releases/latest/download/Mambaforge-colab-Linux-x86_64.sh...
-📦 Installing...
-📌 Adjusting configuration...
-🩹 Patching environment...
-⏲ Done in 0:00:44
-🔁 Restarting kernel...
-</pre>
-</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;stream&#39;,
+ &#39;bookmarks&#39;,
+ &#39;speakerEntries&#39;,
+ &#39;messages&#39;,
+ &#39;comments&#39;,
+ &#39;playlist&#39;,
+ &#39;proposals&#39;,
+ &#39;references&#39;]</pre>
 </div>
 
 </div>
-</div>
 
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>conda install gh --channel conda-forge	
-</pre></div>
-
-    </div>
 </div>
 </div>
 
@@ -184,59 +330,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install youtube-dl
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>youtube-dl -i --write-sub --sub-lang ga -o <span class="s1">&#39;%(id)s.%(ext)s&#39;</span> PLbcLsUBW9b3BvuTbtMKBXmuyJq6Ygg3Rg
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls ./*.vtt<span class="p">|</span>zip subtitles.zip -@
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">files</span>
-<span class="n">files</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">&#39;subtitles.zip&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">sample_data</span><span class="p">[</span><span class="s1">&#39;stream&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()]</span>
 </pre></div>
 
     </div>
@@ -250,68 +344,28 @@ window.onload = wrap_img;
 
 
 
-
-<div id="6e9104d5-719e-4fdc-a5a7-ace1cf7f3f8a"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#6e9104d5-719e-4fdc-a5a7-ace1cf7f3f8a');
-
-    async function download(id, filename, size) {
-      if (!google.colab.kernel.accessAllowed) {
-        return;
-      }
-      const div = document.createElement('div');
-      const label = document.createElement('label');
-      label.textContent = `Downloading "${filename}": `;
-      div.appendChild(label);
-      const progress = document.createElement('progress');
-      progress.max = size;
-      div.appendChild(progress);
-      document.body.appendChild(div);
-
-      const buffers = [];
-      let downloaded = 0;
-
-      const channel = await google.colab.kernel.comms.open(id);
-      // Send a message to notify the kernel that we're ready.
-      channel.send({})
-
-      for await (const message of channel.messages) {
-        // Send a message to notify the kernel that we're ready.
-        channel.send({})
-        if (message.buffers) {
-          for (const buffer of message.buffers) {
-            buffers.push(buffer);
-            downloaded += buffer.byteLength;
-            progress.value = downloaded;
-          }
-        }
-      }
-      const blob = new Blob(buffers, {type: 'application/binary'});
-      const a = document.createElement('a');
-      a.href = window.URL.createObjectURL(blob);
-      a.download = filename;
-      div.appendChild(a);
-      a.click();
-      div.remove();
-    }
-  
-</script>
-</div>
-
-</div>
-
-<div class="output_area">
-
-
-
-
-<div id="e32546c8-f686-4b97-a000-d701facda9d5"></div>
-<div class="output_subarea output_javascript ">
-<script type="text/javascript">
-var element = $('#e32546c8-f686-4b97-a000-d701facda9d5');
-download("download_4077b8f7-403f-40a9-af46-91e44ae0da25", "subtitles.zip", 46020)
-</script>
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;allowNewComments&#39;,
+ &#39;assetId&#39;,
+ &#39;assetCopyrightText&#39;,
+ &#39;attachments&#39;,
+ &#39;availableFrom&#39;,
+ &#39;availableTo&#39;,
+ &#39;categoryId&#39;,
+ &#39;description&#39;,
+ &#39;hideComments&#39;,
+ &#39;id&#39;,
+ &#39;imageUrl&#39;,
+ &#39;publishDate&#39;,
+ &#39;streamType&#39;,
+ &#39;title&#39;,
+ &#39;tupleId&#39;,
+ &#39;views&#39;,
+ &#39;externalCode&#39;,
+ &#39;movieConfiguration&#39;,
+ &#39;hidden&#39;,
+ &#39;likes&#39;,
+ &#39;dislikes&#39;]</pre>
 </div>
 
 </div>
@@ -329,75 +383,7 @@ download("download_4077b8f7-403f-40a9-af46-91e44ae0da25", "subtitles.zip", 46020
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ls ./*.mp4 ./*.mkv <span class="p">|</span>zip videos.zip -@
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span><span class="nb">echo</span> <span class="nv">$KEY</span> <span class="p">|</span>gh auth login --with-token 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git clone <span class="nv">$REPO</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> $REPO
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>gh release upload v0.1 ../videos.zip
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample_data</span><span class="p">[</span><span class="s1">&#39;speakerEntries&#39;</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -409,10 +395,12 @@ download("download_4077b8f7-403f-40a9-af46-91e44ae0da25", "subtitles.zip", 46020
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Successfully uploaded 1 asset to <span class="ansi-bold">v0.1</span>
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[]</pre>
 </div>
+
 </div>
 
 </div>
@@ -425,15 +413,7 @@ download("download_4077b8f7-403f-40a9-af46-91e44ae0da25", "subtitles.zip", 46020
 
 
 
-  </div><!-- from https://github.com/utterance/utterances -->
-<script src="https://utteranc.es/client.js"
-        repo="jimregan/notes"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script><a class="u-url" href="/notes/github/colab/2021/07/30/github-release-from-colab.html" hidden></a>
+  </div><a class="u-url" href="/notes/s%C3%A1mi/sametinget/scraper/2023/11/02/sametinget-webtv-scraper.html" hidden></a>
 </article>
 
       </div>

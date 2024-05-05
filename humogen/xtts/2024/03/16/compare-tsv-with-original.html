@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Check X-TTS output against original sentences | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Check X-TTS output against original sentences" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="X-TTS is not exactly great at fidelity" />
+<meta property="og:description" content="X-TTS is not exactly great at fidelity" />
+<link rel="canonical" href="https://jimregan.github.io/notes/humogen/xtts/2024/03/16/compare-tsv-with-original.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/humogen/xtts/2024/03/16/compare-tsv-with-original.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-03-16T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/humogen/xtts/2024/03/16/compare-tsv-with-original.html","@type":"BlogPosting","headline":"Check X-TTS output against original sentences","dateModified":"2024-03-16T00:00:00-05:00","datePublished":"2024-03-16T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/humogen/xtts/2024/03/16/compare-tsv-with-original.html"},"description":"X-TTS is not exactly great at fidelity","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Check X-TTS output against original sentences</h1><p class="page-description">X-TTS is not exactly great at fidelity</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-03-16T00:00:00-05:00" itemprop="datePublished">
+        Mar 16, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      21 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#humogen">humogen</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#xtts">xtts</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-03-16-compare-tsv-with-original.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-03-16-compare-tsv-with-original.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-03-16-compare-tsv-with-original.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-03-16-compare-tsv-with-original.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /Users/joregan/Playing/cvpr-control
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/Users/joregan/Playing/cvpr-control
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sentences</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;input_sentences.txt&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">sentences</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">items</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">tsvfile</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;tsv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;**/*.tsv&quot;</span><span class="p">):</span>
+    <span class="n">ident</span> <span class="o">=</span> <span class="n">tsvfile</span><span class="o">.</span><span class="n">stem</span>
+    <span class="k">if</span> <span class="s2">&quot;.interloctr.&quot;</span> <span class="ow">in</span> <span class="nb">str</span><span class="p">(</span><span class="n">tsvfile</span><span class="p">):</span>
+           <span class="k">continue</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">tsvfile</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">inf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+                    <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">))</span>
+    <span class="n">items</span><span class="p">[</span><span class="n">ident</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">items</span><span class="p">[</span><span class="n">ident</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">parts</span><span class="p">])</span>
+    <span class="n">items</span><span class="p">[</span><span class="n">ident</span><span class="p">][</span><span class="s2">&quot;original&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">sentences</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">ident</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">string</span> <span class="kn">import</span> <span class="n">punctuation</span>
+
+<span class="n">PUNCT</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">punctuation</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">clean_sentence</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;—&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">word</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;[&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">word</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;]&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="k">while</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">PUNCT</span><span class="p">:</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="k">while</span> <span class="n">word</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:]</span> <span class="ow">in</span> <span class="n">PUNCT</span><span class="p">:</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">word</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">prune_fillers</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">FILLERS</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;uh&quot;</span><span class="p">,</span> <span class="s2">&quot;um&quot;</span><span class="p">]</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">FILLERS</span><span class="p">]</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rest</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+    <span class="n">cleaned</span> <span class="o">=</span> <span class="n">clean_sentence</span><span class="p">(</span><span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;original&quot;</span><span class="p">])</span>
+    <span class="k">if</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;original&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]:</span>
+        <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;match&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;exact&quot;</span>
+    <span class="k">elif</span> <span class="n">cleaned</span> <span class="o">==</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]:</span>
+        <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;match&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;clean&quot;</span>
+    <span class="k">elif</span> <span class="n">prune_fillers</span><span class="p">(</span><span class="n">cleaned</span><span class="p">)</span> <span class="o">==</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]:</span>
+        <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;match&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;clean,fillers&quot;</span>
+    <span class="k">elif</span> <span class="n">prune_fillers</span><span class="p">(</span><span class="n">cleaned</span><span class="p">)</span> <span class="o">==</span> <span class="n">prune_fillers</span><span class="p">(</span><span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]):</span>
+        <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;match&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;clean,fillers_both&quot;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">rest</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install jiwer
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">jiwer</span> <span class="kn">import</span> <span class="n">wer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;match&quot;</span> <span class="ow">in</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">]:</span>
+        <span class="n">s_wer</span> <span class="o">=</span> <span class="n">wer</span><span class="p">(</span><span class="n">clean_sentence</span><span class="p">(</span><span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;original&quot;</span><span class="p">]),</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">])</span>
+        <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;wer&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">s_wer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">difflib</span> <span class="kn">import</span> <span class="n">SequenceMatcher</span>
+
+<span class="n">insertions</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">deletions</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">replacements</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">trace_replace</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;match&quot;</span> <span class="ow">in</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">]:</span>
+        <span class="n">sent_id</span> <span class="o">=</span> <span class="n">item</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">clean_sentence</span><span class="p">(</span><span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;original&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="s2">&quot;rec&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">SequenceMatcher</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">tag</span><span class="p">,</span> <span class="n">i1</span><span class="p">,</span> <span class="n">i2</span><span class="p">,</span> <span class="n">j1</span><span class="p">,</span> <span class="n">j2</span> <span class="ow">in</span> <span class="n">s</span><span class="o">.</span><span class="n">get_opcodes</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">tag</span> <span class="o">==</span> <span class="s2">&quot;equal&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="n">tag</span> <span class="o">==</span> <span class="s2">&quot;replace&quot;</span><span class="p">:</span>
+                <span class="n">pair</span> <span class="o">=</span> <span class="p">(</span><span class="n">sent_id</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i1</span><span class="p">:</span><span class="n">i2</span><span class="p">]),</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">j1</span><span class="p">:</span><span class="n">j2</span><span class="p">]))</span>
+                <span class="n">trace_replace</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">item</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i1</span><span class="p">:</span><span class="n">i2</span><span class="p">]),</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">j1</span><span class="p">:</span><span class="n">j2</span><span class="p">])))</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">replacements</span><span class="p">:</span>
+                    <span class="n">replacements</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">replacements</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">tag</span> <span class="o">==</span> <span class="s2">&quot;delete&quot;</span><span class="p">:</span>
+                <span class="n">pair</span> <span class="o">=</span> <span class="p">(</span><span class="n">sent_id</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i1</span><span class="p">:</span><span class="n">i2</span><span class="p">]))</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">deletions</span><span class="p">:</span>
+                    <span class="n">deletions</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">deletions</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">if</span> <span class="n">tag</span> <span class="o">==</span> <span class="s2">&quot;insert&quot;</span><span class="p">:</span>
+                <span class="n">pair</span> <span class="o">=</span> <span class="p">(</span><span class="n">sent_id</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="n">j1</span><span class="p">:</span><span class="n">j2</span><span class="p">]))</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">insertions</span><span class="p">:</span>
+                    <span class="n">insertions</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">insertions</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">trace_replace</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[(&#39;spkp264_243&#39;, &#39;really&#39;, &#39;real&#39;),
+ (&#39;spkp237_605&#39;, &#39;“you’d&#39;, &#34;you&#39;d&#34;),
+ (&#39;spkp237_605&#39;, &#39;instrument,”&#39;, &#39;instrument&#39;),
+ (&#39;spkp271_306&#39;, &#39;i i&#39;, &#39;it&#39;),
+ (&#39;spkp271_306&#39;, &#39;feel&#39;, &#39;feels&#39;),
+ (&#39;spkp282_186&#39;, &#39;gotta&#39;, &#39;got to&#39;),
+ (&#39;spkp282_192&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp318_115&#39;, &#39;earbuds&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_156&#39;, &#39;unhear&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_156&#39;, &#39;unhear&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_129&#39;, &#39;gotta&#39;, &#39;got to&#39;),
+ (&#39;spkp317_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_535&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp317_225&#39;, &#39;patience&#39;, &#39;patients&#39;),
+ (&#39;spkp304_494&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp282_145&#39;, &#39;uh&#39;, &#39;err&#39;),
+ (&#39;spkp282_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp317_231&#39;, &#39;curveball&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_369&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp339_341&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_219&#39;, &#39;can not&#39;, &#39;cannot&#39;),
+ (&#39;spkp237_188&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp237_188&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp339_433&#39;, &#39;sibling&#39;, &#39;siblings&#39;),
+ (&#39;spkp339_355&#39;, &#34;it&#39;s&#34;, &#39;it&#39;),
+ (&#39;spkp237_361&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_556&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_57&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_127&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp318_465&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp226_166&#39;, &#39;scrunches&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_407&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_127&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp282_390&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp237_16&#39;, &#39;uh kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp364_432&#39;, &#39;shake&#39;, &#39;shape&#39;),
+ (&#39;spkp304_4&#39;, &#39;realize&#39;, &#39;realise&#39;),
+ (&#39;spkp271_138&#39;, &#39;yuck&#39;, &#34;&lt;unk&gt; i&#39;m sorry&#34;),
+ (&#39;spkp232_218&#39;, &#39;uh&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_218&#39;, &#39;uh&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_347&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spk4_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp232_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp282_353&#39;, &#39;health&#39;, &#39;hell&#39;),
+ (&#39;spkp364_397&#39;, &#39;and&#39;, &#39;on&#39;),
+ (&#39;spkp374_397&#39;, &#39;and&#39;, &#39;in&#39;),
+ (&#39;spkp374_208&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp318_511&#39;, &#39;videos&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_596&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_135&#39;, &#39;i am overthinking&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp264_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp264_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp264_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp264_121&#39;, &#39;i’d&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp318_505&#39;, &#39;bioluminescent&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_42&#39;, &#39;adrenaline&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_201&#39;, &#39;gotta&#39;, &#39;got to&#39;),
+ (&#39;spkp282_97&#39;, &#39;just heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_109&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp360_604&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp360_604&#39;, &#39;“this&#39;, &#39;this&#39;),
+ (&#39;spkp360_604&#39;, &#39;join,” i’m&#39;, &#34;join i&#39;m&#34;),
+ (&#39;spkp232_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_6&#39;, &#39;uh&#39;, &#39;er&#39;),
+ (&#39;spkp282_83&#39;, &#39;just heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_26&#39;, &#34;it&#39;s just mind-blowing&#34;, &#39;mind blowing&#39;),
+ (&#39;spkp228_125&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp228_125&#39;, &#39;world’s&#39;, &#34;world&#39;s&#34;),
+ (&#39;spk1_15&#39;, &#39;uh&#39;, &#39;err&#39;),
+ (&#39;spk1_15&#39;, &#39;uh&#39;, &#39;err&#39;),
+ (&#39;spkp317_153&#39;, &#39;they&#39;, &#39;i&#39;),
+ (&#39;spkp232_387&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp282_541&#39;, &#39;veggie&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_106&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp374_98&#39;, &#39;replay&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_98&#39;, &#39;resonates&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_98&#39;, &#39;soundtrack&#39;, &#39;sound&#39;),
+ (&#39;spkp228_119&#39;, &#39;vibe&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_288&#39;, &#39;mid-laugh&#39;, &#39;mid laugh&#39;),
+ (&#39;spkp232_146&#39;, &#39;ugh&#39;, &#39;uh&#39;),
+ (&#39;spkp225_16&#39;, &#39;uh kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp226_210&#39;, &#39;realize&#39;, &#39;realise&#39;),
+ (&#39;spkp226_210&#39;, &#34;i&#39;m&#34;, &#39;i am&#39;),
+ (&#39;spkp226_210&#39;, &#39;uh&#39;, &#39;er&#39;),
+ (&#39;spkp226_210&#39;, &#39;realization moving on&#39;, &#39;realisation&#39;),
+ (&#39;spkp304_523&#39;, &#39;scrolling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_523&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_523&#39;, &#39;skeptical&#39;, &#39;sceptical&#39;),
+ (&#39;spkp317_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_537&#39;, &#39;energized&#39;, &#39;energised&#39;),
+ (&#39;spkp226_562&#39;, &#39;cinematography&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_523&#39;, &#39;scrolling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_523&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_523&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp360_406&#39;, &#34;at the spinning wheel waiting hoping and it&#39;s&#34;, &#34;you&#39;re&#34;),
+ (&#39;spkp360_406&#39;, &#39;just so incredibly&#39;, &#39;staring credibly&#39;),
+ (&#39;spkp271_528&#39;, &#39;café&#39;, &#39;cafe&#39;),
+ (&#39;spkp232_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp232_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spk2_93&#39;, &#39;in&#39;, &#39;and&#39;),
+ (&#39;spkp228_441&#39;, &#39;realize&#39;, &#39;realise&#39;),
+ (&#39;spkp317_437&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp264_486&#39;, &#34;i&#39;ve&#34;, &#39;i&#39;),
+ (&#39;spkp228_333&#39;, &#39;onto&#39;, &#39;on to&#39;),
+ (&#39;spkp228_333&#39;, &#39;despair&#39;, &#39;to spare&#39;),
+ (&#39;spkp228_455&#39;, &#39;and&#39;, &#39;in&#39;),
+ (&#39;spkp317_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_423&#39;, &#39;the&#39;, &#39;a&#39;),
+ (&#39;spkp339_553&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_547&#39;, &#39;ambiance&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_26&#39;, &#34;it&#39;s just mind-blowing&#34;, &#39;mind blowing&#39;),
+ (&#39;spkp317_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_339&#39;, &#39;look&#39;, &#39;looked&#39;),
+ (&#39;spkp225_463&#39;, &#34;i&#39;m at&#34;, &#39;i met&#39;),
+ (&#39;spkp225_463&#39;, &#34;it&#39;s&#34;, &#39;its&#39;),
+ (&#39;spkp232_190&#39;, &#39;uh&#39;, &#39;er&#39;),
+ (&#39;spkp304_287&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp225_477&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp225_477&#39;, &#39;for getting&#39;, &#39;forgetting&#39;),
+ (&#39;spkp264_493&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp264_478&#39;, &#39;staying&#39;, &#39;stay&#39;),
+ (&#39;spk2_92&#39;, &#39;soundtrack&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_413&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_413&#39;, &#39;second-guess&#39;, &#39;second guess&#39;),
+ (&#39;spkp360_413&#39;, &#39;negativity&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_407&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spk2_86&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spk2_86&#39;, &#39;self-connection of introspection&#39;, &#39;self connection&#39;),
+ (&#39;spkp225_488&#39;, &#39;telemarketer&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_488&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp271_529&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp360_361&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_387&#39;, &#39;cause&#39;, &#39;cuz&#39;),
+ (&#39;spkp314_522&#39;, &#39;paths&#39;, &#39;path&#39;),
+ (&#39;spkp226_211&#39;, &#39;judgment&#39;, &#39;judgement&#39;),
+ (&#39;spkp226_211&#39;, &#39;judgment&#39;, &#39;judgement&#39;),
+ (&#39;spkp314_536&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp282_41&#39;, &#39;colors&#39;, &#39;colours&#39;),
+ (&#39;spkp282_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp282_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp317_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp317_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spkp232_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_107&#39;, &#34;um it&#39;s kinda&#34;, &#39;kind of&#39;),
+ (&#39;spkp282_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp282_226&#39;, &#39;notices&#39;, &#39;noticed&#39;),
+ (&#39;spkp228_80&#39;, &#39;awe-inspiring&#39;, &#39;awe inspiring&#39;),
+ (&#39;spkp228_80&#39;, &#39;chaos and&#39;, &#34;case isn&#39;t&#34;),
+ (&#39;spkp360_188&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp228_130&#39;, &#39;okay&#39;, &#39;ok&#39;),
+ (&#39;spkp282_69&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spk1_14&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp228_124&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp228_124&#39;, &#39;non-stop&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_124&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp228_124&#39;, &#39;– kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp282_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp282_554&#39;, &#39;favorite&#39;, &#39;favourite&#39;),
+ (&#39;spkp374_547&#39;, &#39;ambiance&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_553&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_235&#39;, &#39;just uh&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_553&#39;, &#39;so heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_605&#39;, &#39;“you’d&#39;, &#34;you&#39;d&#34;),
+ (&#39;spkp360_605&#39;, &#39;instrument,”&#39;, &#39;instrument&#39;),
+ (&#39;spkp364_221&#39;, &#39;uh a thousand&#39;, &#39;&lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp264_120&#39;, &#39;hadn’t&#39;, &#34;hadn&#39;t&#34;),
+ (&#39;spkp264_120&#39;, &#39;90s&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_120&#39;, &#39;‘why not?’&#39;, &#39;why not&#39;),
+ (&#39;spkp228_57&#39;, &#39;uh envelop&#39;, &#39;envelope&#39;),
+ (&#39;spkp228_57&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_191&#39;, &#39;the&#39;, &#39;this&#39;),
+ (&#39;spkp232_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_134&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_134&#39;, &#39;jewelry’s&#39;, &#34;jewelry&#39;s&#34;),
+ (&#39;spkp264_134&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp282_408&#39;, &#39;scrambling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_156&#39;, &#39;could unhear&#39;, &#34;couldn&#39;t hear&#34;),
+ (&#39;spk4_18&#39;, &#39;colorful&#39;, &#39;colourful&#39;),
+ (&#39;spk4_18&#39;, &#39;uhm&#39;, &#39;um&#39;),
+ (&#39;spkp282_346&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp364_341&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_433&#39;, &#39;sibling&#39;, &#39;siblings&#39;),
+ (&#39;spkp237_348&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp304_5&#39;, &#39;uh&#39;, &#39;a&#39;),
+ (&#39;spkp364_433&#39;, &#39;sibling&#39;, &#39;siblings&#39;),
+ (&#39;spkp374_341&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_458&#39;, &#39;armrest just&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_126&#39;, &#39;spent&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_111&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp226_173&#39;, &#39;uh&#39;, &#39;err&#39;),
+ (&#39;spkp232_225&#39;, &#39;patience&#39;, &#39;patients&#39;),
+ (&#39;spkp314_132&#39;, &#39;tutorials&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_132&#39;, &#39;‘how&#39;, &#39;how&#39;),
+ (&#39;spkp314_132&#39;, &#39;be?’&#39;, &#39;be&#39;),
+ (&#39;spkp232_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_464&#39;, &#39;break-ins&#39;, &#39;break ins&#39;),
+ (&#39;spkp318_464&#39;, &#39;double-checking&#39;, &#39;double checking&#39;),
+ (&#39;spkp364_369&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp232_231&#39;, &#39;curveball&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_105&#39;, &#39;decide&#39;, &#39;decided&#39;),
+ (&#39;spkp271_105&#39;, &#34;sky&#39;s&#34;, &#39;sky is&#39;),
+ (&#39;spkp304_132&#39;, &#39;tutorials&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_132&#39;, &#39;‘how&#39;, &#39;how&#39;),
+ (&#39;spkp304_132&#39;, &#39;be?’&#39;, &#39;be&#39;),
+ (&#39;spkp225_517&#39;, &#34;you&#39;ll make in&#34;, &#34;you&#39;re making&#34;),
+ (&#39;spkp225_517&#39;, &#39;impactful&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_481&#39;, &#34;it&#39;s just&#34;, &#39;it&#39;),
+ (&#39;spkp225_271&#39;, &#39;their&#39;, &#34;they&#39;re&#34;),
+ (&#39;spkp228_520&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_495&#39;, &#39;snorkeling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_556&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_481&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_495&#39;, &#39;snorkeling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_495&#39;, &#34;we&#39;re&#34;, &#34;you&#39;re&#34;),
+ (&#39;spkp228_252&#39;, &#39;anew&#39;, &#39;and you&#39;),
+ (&#39;spkp318_128&#39;, &#39;full-on&#39;, &#39;full on&#39;),
+ (&#39;spkp318_128&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp264_518&#39;, &#39;like-minded&#39;, &#39;like minded&#39;),
+ (&#39;spkp304_442&#39;, &#39;laundromat&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_330&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp317_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_371&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp304_324&#39;, &#39;timelines&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_313&#39;, &#39;onto&#39;, &#39;on to&#39;),
+ (&#39;spkp271_313&#39;, &#39;i&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp318_114&#39;, &#39;today’s&#39;, &#39;today is&#39;),
+ (&#39;spkp314_442&#39;, &#39;laundromat&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_604&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp237_604&#39;, &#39;“this&#39;, &#39;this&#39;),
+ (&#39;spkp237_604&#39;, &#39;join,” i’m just&#39;, &#34;join i&#39;m&#34;),
+ (&#39;spkp314_324&#39;, &#39;timelines&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_187&#39;, &#39;unsee unhear un-experience&#39;, &#39;&lt;unk&gt; &lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp226_403&#39;, &#39;checkout&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_116&#39;, &#39;wound&#39;, &#39;went&#39;),
+ (&#39;spkp226_373&#39;, &#39;i have&#39;, &#39;just had&#39;),
+ (&#39;spkp374_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_415&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_440&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp271_463&#39;, &#34;it&#39;s&#34;, &#39;its&#39;),
+ (&#39;spkp364_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_606&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp237_606&#39;, &#39;“come&#39;, &#39;come&#39;),
+ (&#39;spkp237_606&#39;, &#39;it’ll&#39;, &#34;it&#39;ll&#34;),
+ (&#39;spkp237_606&#39;, &#39;you’ll&#39;, &#34;you&#39;ll&#34;),
+ (&#39;spkp237_606&#39;, &#39;it,”&#39;, &#39;it&#39;),
+ (&#39;spkp237_606&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp318_102&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp364_141&#39;, &#39;ew&#39;, &#39;you&#39;),
+ (&#39;spkp360_565&#39;, &#39;theatre&#39;, &#39;theater&#39;),
+ (&#39;spkp360_565&#39;, &#39;impactful&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_395&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp339_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_141&#39;, &#39;ew&#39;, &#39;you&#39;),
+ (&#39;spkp271_339&#39;, &#39;look&#39;, &#39;looked&#39;),
+ (&#39;spkp339_381&#39;, &#39;just frozen&#39;, &#39;chosen&#39;),
+ (&#39;spkp225_298&#39;, &#39;favorite&#39;, &#39;favourite&#39;),
+ (&#39;spkp360_571&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_483&#39;, &#39;stop&#39;, &#39;stopped&#39;),
+ (&#39;spkp304_483&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp317_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp339_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp317_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp228_536&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp282_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp282_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spkp271_488&#39;, &#39;telemarketer&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_488&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp225_529&#39;, &#39;had&#39;, &#39;have&#39;),
+ (&#39;spkp364_196&#39;, &#39;times&#39;, &#39;time&#39;),
+ (&#39;spkp339_342&#39;, &#39;grab&#39;, &#39;grabbed&#39;),
+ (&#39;spkp339_342&#39;, &#39;armrests&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_541&#39;, &#39;veggie&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_130&#39;, &#39;clearer kinda&#39;, &#39;claire&#39;),
+ (&#39;spkp314_130&#39;, &#39;okay&#39;, &#39;ok&#39;),
+ (&#39;spkp314_130&#39;, &#34;they&#39;re&#34;, &#39;are&#39;),
+ (&#39;spkp226_171&#39;, &#39;too&#39;, &#39;to&#39;),
+ (&#39;spkp304_124&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp304_124&#39;, &#39;non-stop&#39;, &#39;non stop&#39;),
+ (&#39;spkp304_124&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp304_124&#39;, &#39;– kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp304_130&#39;, &#39;clearer kinda&#39;, &#39;&lt;unk&gt; kind of&#39;),
+ (&#39;spkp304_130&#39;, &#39;okay&#39;, &#39;ok&#39;),
+ (&#39;spkp318_300&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp314_124&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp314_124&#39;, &#39;non-stop&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_124&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp314_124&#39;, &#39;– kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp282_387&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp364_425&#39;, &#39;health&#39;, &#39;house&#39;),
+ (&#39;spkp364_357&#39;, &#39;uh roller coaster&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_159&#39;, &#34;must&#39;ve&#34;, &#39;must have&#39;),
+ (&#39;spkp232_569&#39;, &#39;recognized&#39;, &#39;recognised&#39;),
+ (&#39;spkp339_168&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp339_168&#39;, &#39;uh&#39;, &#39;so i&#39;),
+ (&#39;spkp318_35&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp282_422&#39;, &#39;as&#39;, &#39;is&#39;),
+ (&#39;spkp232_596&#39;, &#39;recognize&#39;, &#39;recognise&#39;),
+ (&#39;spkp232_596&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_499&#39;, &#39;paddleboarding&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_499&#39;, &#39;adrenaline&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp228_41&#39;, &#34;you&#39;re&#34;, &#39;here&#39;),
+ (&#39;spkp228_41&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp228_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp228_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp317_187&#39;, &#39;unsee unhear un-experience&#39;, &#39;&lt;unk&gt; &lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp264_122&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp282_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_136&#39;, &#39;the&#39;, &#39;a&#39;),
+ (&#39;spkp228_55&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp228_55&#39;, &#39;lostness&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp237_216&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp237_216&#39;, &#39;unsee unknow&#39;, &#39;&lt;unk&gt; oh no&#39;),
+ (&#39;spkp364_579&#39;, &#39;a maze&#39;, &#39;domains&#39;),
+ (&#39;spkp282_80&#39;, &#39;just awe-inspiring&#39;, &#39;awe inspiring&#39;),
+ (&#39;spkp282_80&#39;, &#39;chaos and calm&#39;, &#39;cases come&#39;),
+ (&#39;spkp374_545&#39;, &#39;impacting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_558&#39;, &#39;oh&#39;, &#39;owe&#39;),
+ (&#39;spkp360_607&#39;, &#39;“you’re&#39;, &#34;you&#39;re&#34;),
+ (&#39;spkp360_607&#39;, &#39;don’t&#39;, &#34;don&#39;t&#34;),
+ (&#39;spkp360_607&#39;, &#39;once,”&#39;, &#39;once&#39;),
+ (&#39;spkp360_607&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp228_69&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp228_69&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_545&#39;, &#39;impacting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_132&#39;, &#39;tutorials&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_132&#39;, &#39;‘how&#39;, &#39;how&#39;),
+ (&#39;spkp228_132&#39;, &#39;be?’&#39;, &#39;be&#39;),
+ (&#39;spkp282_224&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp225_105&#39;, &#34;there&#39;s&#34;, &#34;it&#39;s&#34;),
+ (&#39;spkp225_105&#39;, &#39;sunrise&#39;, &#39;sun rise&#39;),
+ (&#39;spkp225_105&#39;, &#34;sky&#39;s&#34;, &#39;sky is&#39;),
+ (&#39;spkp282_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_111&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spk1_16&#39;, &#39;uh kinda&#39;, &#39;a kind of&#39;),
+ (&#39;spkp364_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_592&#39;, &#34;a bundle of nerves and it&#39;s it&#39;s&#34;, &#34;just &lt;unk&gt; i&#39;m just&#34;),
+ (&#39;spkp314_21&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp314_21&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp282_57&#39;, &#39;uh envelop&#39;, &#39;envelope&#39;),
+ (&#39;spkp282_57&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_520&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp228_495&#39;, &#39;snorkeling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_534&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_534&#39;, &#39;reflective&#39;, &#39;reflected&#39;),
+ (&#39;spkp226_561&#39;, &#39;uh the&#39;, &#39;a&#39;),
+ (&#39;spkp271_517&#39;, &#39;impactful&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_520&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_575&#39;, &#39;exhilarating&#39;, &#39;ex so&#39;),
+ (&#39;spkp314_252&#39;, &#39;anew&#39;, &#39;and you&#39;),
+ (&#39;spkp304_508&#39;, &#34;i&#39;m just&#34;, &#39;i&#39;),
+ (&#39;spkp364_61&#39;, &#39;awe-inspiring&#39;, &#39;awe inspiring&#39;),
+ (&#39;spkp232_192&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp225_461&#39;, &#39;even&#39;, &#39;the&#39;),
+ (&#39;spkp317_346&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp360_388&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_388&#39;, &#39;rerouting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_388&#39;, &#39;stop-and-go&#39;, &#39;stop and go&#39;),
+ (&#39;spkp264_485&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp314_291&#39;, &#34;it&#39;ll&#34;, &#39;it will&#39;),
+ (&#39;spkp228_324&#39;, &#39;timelines&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_442&#39;, &#39;laundromat&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_448&#39;, &#39;glitch or&#39;, &#39;&lt;unk&gt; all&#39;),
+ (&#39;spkp225_448&#39;, &#34;machine&#39;s&#34;, &#39;machines&#39;),
+ (&#39;spkp339_545&#39;, &#39;impacting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_353&#39;, &#34;can&#39;t&#34;, &#39;just just&#39;),
+ (&#39;spkp232_187&#39;, &#39;unsee unhear un-experience&#39;, &#39;&lt;unk&gt; &lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp317_71&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp317_71&#39;, &#34;flame&#39;s&#34;, &#39;flames&#39;),
+ (&#39;spkp317_71&#39;, &#39;mesmerizing&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_421&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp317_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp304_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp317_347&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp317_347&#39;, &#39;leaves me alone&#39;, &#39;just leo lom&#39;),
+ (&#39;spkp339_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_60&#39;, &#34;there&#39;s&#34;, &#39;it was&#39;),
+ (&#39;spkp314_509&#39;, &#39;um and then&#39;, &#34;i&#39;m a nen&#34;),
+ (&#39;spk2_85&#39;, &#39;just reveling&#39;, &#39;revelling&#39;),
+ (&#39;spkp314_253&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp317_390&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp304_521&#39;, &#39;um so&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_212&#39;, &#39;uh&#39;, &#39;err&#39;),
+ (&#39;spkp225_14&#39;, &#39;kinda&#39;, &#39;kinder&#39;),
+ (&#39;spkp264_335&#39;, &#39;not-funny&#39;, &#39;not funny&#39;),
+ (&#39;spkp314_535&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp232_150&#39;, &#39;realizing&#39;, &#39;realising&#39;),
+ (&#39;spkp304_253&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp304_535&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp282_56&#39;, &#34;you&#39;re&#34;, &#39;you&#39;),
+ (&#39;spkp317_179&#39;, &#39;i mean&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_219&#39;, &#39;can not&#39;, &#39;cannot&#39;),
+ (&#39;spkp225_138&#39;, &#39;yuck&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_385&#39;, &#39;scared&#39;, &#39;dared&#39;),
+ (&#39;spkp317_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp228_97&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_127&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp282_231&#39;, &#39;curveball&#39;, &#39;curve ball&#39;),
+ (&#39;spkp317_145&#39;, &#39;looked&#39;, &#39;looks&#39;),
+ (&#39;spkp225_104&#39;, &#39;surreal&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_606&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp360_606&#39;, &#39;“come&#39;, &#39;come&#39;),
+ (&#39;spkp360_606&#39;, &#39;it’ll&#39;, &#34;it&#39;ll&#34;),
+ (&#39;spkp360_606&#39;, &#39;you’ll&#39;, &#34;you&#39;ll&#34;),
+ (&#39;spkp360_606&#39;, &#39;it,”&#39;, &#39;it&#39;),
+ (&#39;spkp360_606&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp228_68&#39;, &#39;just heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_95&#39;, &#34;you&#39;re&#34;, &#39;you are&#39;),
+ (&#39;spkp282_95&#39;, &#39;just savoring&#39;, &#39;savouring&#39;),
+ (&#39;spkp237_571&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_18&#39;, &#39;colorful&#39;, &#39;colourful&#39;),
+ (&#39;spkp237_565&#39;, &#39;theatre&#39;, &#39;theater&#39;),
+ (&#39;spkp237_565&#39;, &#39;so impactful&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_141&#39;, &#39;ew&#39;, &#39;you&#39;),
+ (&#39;spkp374_381&#39;, &#34;can&#39;t&#34;, &#39;just look down and i i&#39;),
+ (&#39;spkp237_388&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_388&#39;, &#39;rerouting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_388&#39;, &#39;stop-and-go&#39;, &#39;stop and go&#39;),
+ (&#39;spkp374_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_439&#39;, &#39;gonna&#39;, &#39;going to&#39;),
+ (&#39;spkp304_6&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp364_342&#39;, &#39;armrests&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_119&#39;, &#39;vibe&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_196&#39;, &#39;times&#39;, &#39;time&#39;),
+ (&#39;spkp374_430&#39;, &#39;scared of&#39;, &#39;dare to&#39;),
+ (&#39;spkp237_405&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp237_405&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp237_405&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp232_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp232_232&#39;, &#39;uh realizing&#39;, &#39;er realising&#39;),
+ (&#39;spkp374_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp339_39&#39;, &#39;mesmerizing&#39;, &#39;&lt;unk&gt; no &lt;unk&gt;&#39;),
+ (&#39;spkp226_602&#39;, &#39;diy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_125&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp314_125&#39;, &#39;world’s&#39;, &#34;world&#39;s&#34;),
+ (&#39;spkp232_554&#39;, &#39;and oh&#39;, &#39;i know&#39;),
+ (&#39;spkp271_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp271_41&#39;, &#39;peace&#39;, &#39;piece&#39;),
+ (&#39;spkp237_14&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp232_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp232_540&#39;, &#39;weight&#39;, &#39;white&#39;),
+ (&#39;spkp364_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp282_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_473&#39;, &#34;it&#39;s daunting just&#34;, &#39;jaunting&#39;),
+ (&#39;spkp304_125&#39;, &#39;pane&#39;, &#39;paine&#39;),
+ (&#39;spkp304_125&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp304_125&#39;, &#39;world’s&#39;, &#34;world&#39;s&#34;),
+ (&#39;spkp271_112&#39;, &#39;it makes&#39;, &#34;and it&#39;s&#34;),
+ (&#39;spkp226_170&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp339_357&#39;, &#39;roller coaster&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_528&#39;, &#39;café&#39;, &#39;cafe&#39;),
+ (&#39;spkp225_528&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp228_251&#39;, &#39;old&#39;, &#39;all&#39;),
+ (&#39;spkp317_541&#39;, &#39;veggie&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_523&#39;, &#39;scrolling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_523&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_555&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_469&#39;, &#34;there&#39;s&#34;, &#39;there is&#39;),
+ (&#39;spkp304_469&#39;, &#34;can&#39;t help&#34;, &#34;just it&#39;s not helped&#34;),
+ (&#39;spkp360_216&#39;, &#39;unsee unknow&#39;, &#39;&lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp339_380&#39;, &#39;relax&#39;, &#39;feel relaxed&#39;),
+ (&#39;spkp339_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_564&#39;, &#39;theatre&#39;, &#39;theater&#39;),
+ (&#39;spkp264_269&#39;, &#34;can&#39;t&#34;, &#39;count&#39;),
+ (&#39;spkp226_400&#39;, &#39;um to fantasize&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_333&#39;, &#39;onto&#39;, &#39;on to&#39;),
+ (&#39;spkp318_103&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp237_607&#39;, &#39;“you’re&#39;, &#34;you&#39;re&#34;),
+ (&#39;spkp237_607&#39;, &#39;don’t&#39;, &#34;don&#39;t&#34;),
+ (&#39;spkp237_607&#39;, &#39;once,”&#39;, &#39;once&#39;),
+ (&#39;spkp237_607&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp364_168&#39;, &#34;couldn&#39;t&#34;, &#39;couldn t&#39;),
+ (&#39;spkp271_310&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp318_117&#39;, &#39;texted&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_414&#39;, &#39;paralyzed&#39;, &#39;paralysed&#39;),
+ (&#39;spkp264_533&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp360_560&#39;, &#39;theatre&#39;, &#39;theater&#39;),
+ (&#39;spkp339_390&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp314_479&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp237_159&#39;, &#34;must&#39;ve&#34;, &#39;must have&#39;),
+ (&#39;spkp304_445&#39;, &#39;neighbor uh&#39;, &#39;neighbour&#39;),
+ (&#39;spkp317_592&#39;, &#39;a&#39;, &#39;the&#39;),
+ (&#39;spkp317_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_603&#39;, &#39;resonates&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_445&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp360_548&#39;, &#39;favorite&#39;, &#39;favourite&#39;),
+ (&#39;spkp360_548&#39;, &#39;flavor&#39;, &#39;flavour&#39;),
+ (&#39;spkp318_107&#39;, &#34;um it&#39;s kinda&#34;, &#39;kind of&#39;),
+ (&#39;spkp282_180&#39;, &#34;they&#39;re explaining&#34;, &#39;there explain&#39;),
+ (&#39;spkp264_523&#39;, &#39;scrolling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_523&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_389&#39;, &#39;service&#39;, &#39;serviced&#39;),
+ (&#39;spkp339_353&#39;, &#34;can&#39;t&#34;, &#34;didn&#39;t chant didn&#39;t work&#34;),
+ (&#39;spkp364_187&#39;, &#39;unsee unhear un-experience it&#39;, &#39;&lt;unk&gt; &lt;unk&gt; or &lt;unk&gt; at&#39;),
+ (&#39;spkp339_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp374_187&#39;, &#39;unsee unhear un-experience&#39;, &#39;&lt;unk&gt; &lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp304_486&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_486&#39;, &#34;i&#39;ve&#34;, &#39;i&#39;),
+ (&#39;spkp314_492&#39;, &#39;a bit mystified by the discovery&#39;, &#39;oh man&#39;),
+ (&#39;spkp225_262&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp314_486&#39;, &#34;i&#39;ve&#34;, &#39;i&#39;),
+ (&#39;spkp314_486&#39;, &#39;gasp&#39;, &#39;gasped&#39;),
+ (&#39;spkp314_486&#39;, &#39;caught&#39;, &#39;coat&#39;),
+ (&#39;spkp364_346&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp237_429&#39;, &#39;googling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_8&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp314_109&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp374_346&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp237_415&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_116&#39;, &#39;wound&#39;, &#39;went&#39;),
+ (&#39;spkp304_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp304_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp304_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp304_121&#39;, &#39;i’d forgotten&#39;, &#34;i&#39;d forgot&#34;),
+ (&#39;spkp237_373&#39;, &#34;can&#39;t watch my heart just just racing too much&#34;, &#39;be like&#39;),
+ (&#39;spkp314_135&#39;, &#39;i am overthinking&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp237_367&#39;, &#34;it&#39;s&#34;, &#39;it&#39;),
+ (&#39;spkp364_408&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp314_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp314_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp314_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp314_121&#39;, &#39;i’d&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp226_606&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp226_606&#39;, &#39;“come&#39;, &#39;come&#39;),
+ (&#39;spkp226_606&#39;, &#39;it’ll&#39;, &#34;it&#39;ll&#34;),
+ (&#39;spkp226_606&#39;, &#39;you’ll&#39;, &#34;you&#39;ll&#34;),
+ (&#39;spkp226_606&#39;, &#39;it,”&#39;, &#39;it&#39;),
+ (&#39;spkp226_606&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp304_135&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_102&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp339_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp282_369&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp318_488&#39;, &#39;telemarketer&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_488&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp237_398&#39;, &#39;uh&#39;, &#34;you&#39;re just&#34;),
+ (&#39;spkp282_355&#39;, &#34;it&#39;s&#34;, &#39;it&#39;),
+ (&#39;spkp282_341&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spk3_16&#39;, &#39;uh kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp339_179&#39;, &#39;try&#39;, &#39;tried&#39;),
+ (&#39;spkp374_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp364_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp226_55&#39;, &#34;same time and it&#39;s like&#34;, &#39;slight&#39;),
+ (&#39;spkp226_55&#39;, &#39;lostness&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp232_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp364_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp364_226&#39;, &#39;nope&#39;, &#39;no&#39;),
+ (&#39;spkp360_602&#39;, &#39;diy&#39;, &#39;di&#39;),
+ (&#39;spkp360_602&#39;, &#34;i&#39;m&#34;, &#39;and&#39;),
+ (&#39;spkp264_127&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp226_69&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp226_69&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_158&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp228_50&#39;, &#39;with&#39;, &#39;of&#39;),
+ (&#39;spkp228_50&#39;, &#39;just perfect&#39;, &#39;purse puffed&#39;),
+ (&#39;spkp232_342&#39;, &#39;armrests&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_52&#39;, &#39;freeing&#39;, &#39;free&#39;),
+ (&#39;spkp317_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_209&#39;, &#39;uh&#39;, &#39;are&#39;),
+ (&#39;spkp225_128&#39;, &#39;full-on&#39;, &#39;full on&#39;),
+ (&#39;spkp225_128&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp232_395&#39;, &#39;uh&#39;, &#39;er&#39;),
+ (&#39;spkp232_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_18&#39;, &#39;uhm&#39;, &#39;um&#39;),
+ (&#39;spkp225_114&#39;, &#39;today’s&#39;, &#34;today&#39;s&#34;),
+ (&#39;spkp225_114&#39;, &#39;made&#39;, &#39;make&#39;),
+ (&#39;spkp232_168&#39;, &#39;like&#39;, &#39;light&#39;),
+ (&#39;spkp237_8&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp360_400&#39;, &#39;fantasize&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_519&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp304_519&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp304_519&#39;, &#39;just&#39;, &#39;so so&#39;),
+ (&#39;spkp339_596&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_202&#39;, &#39;uh&#39;, &#39;er&#39;),
+ (&#39;spkp314_525&#39;, &#39;groundbreaking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_484&#39;, &#39;get-together&#39;, &#39;get together&#39;),
+ (&#39;spkp226_216&#39;, &#39;unsee unknow&#39;, &#39;&lt;unk&gt; i know&#39;),
+ (&#39;spkp317_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_394&#39;, &#39;rechecking&#39;, &#39;re checking&#39;),
+ (&#39;spkp304_21&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spk2_56&#39;, &#39;the sky is&#39;, &#39;this&#39;),
+ (&#39;spkp339_555&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp225_464&#39;, &#39;break-ins&#39;, &#39;break ins&#39;),
+ (&#39;spkp225_464&#39;, &#39;double-checking&#39;, &#39;double checking&#39;),
+ (&#39;spkp228_335&#39;, &#39;not-funny&#39;, &#39;not funny&#39;),
+ (&#39;spkp317_61&#39;, &#34;it&#39;s&#34;, &#39;is&#39;),
+ (&#39;spkp317_61&#39;, &#39;just awe-inspiring&#39;, &#39;awe inspiring&#39;),
+ (&#39;spkp314_294&#39;, &#39;want to&#39;, &#39;wanna&#39;),
+ (&#39;spkp317_357&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp317_342&#39;, &#39;armrests&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_303&#39;, &#39;into&#39;, &#39;to&#39;),
+ (&#39;spkp228_452&#39;, &#39;googling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_452&#39;, &#34;i can&#39;t calm&#34;, &#39;count&#39;),
+ (&#39;spkp339_232&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp339_540&#39;, &#39;game-changer&#39;, &#39;game changer&#39;),
+ (&#39;spkp225_459&#39;, &#39;just becomes&#39;, &#39;comes&#39;),
+ (&#39;spkp317_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spk2_57&#39;, &#39;envelop&#39;, &#39;envelope&#39;),
+ (&#39;spk2_57&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_275&#39;, &#39;uh&#39;, &#39;well&#39;),
+ (&#39;spkp228_485&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp317_395&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp317_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_395&#39;, &#34;there&#39;s&#34;, &#34;it&#39;s&#34;),
+ (&#39;spkp317_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_571&#39;, &#39;heartwarming seeing&#39;, &#39;&lt;unk&gt; seen&#39;),
+ (&#39;spkp226_571&#39;, &#39;realize&#39;, &#39;realise&#39;),
+ (&#39;spkp304_524&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp271_513&#39;, &#34;you&#39;ve um you&#39;ve fantasized&#34;, &#39;you &lt;unk&gt;&#39;),
+ (&#39;spkp271_513&#39;, &#34;happening and it&#39;s just just so surreal&#34;, &#39;all&#39;),
+ (&#39;spkp226_565&#39;, &#39;impactful&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_59&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp264_442&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp264_442&#39;, &#39;laundromat&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_491&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp264_324&#39;, &#39;timelines&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_524&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp314_524&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp271_261&#39;, &#39;do&#39;, &#39;did&#39;),
+ (&#39;spkp226_203&#39;, &#39;apologizing&#39;, &#39;apologising&#39;),
+ (&#39;spkp304_518&#39;, &#39;like-minded&#39;, &#39;like minded&#39;),
+ (&#39;spkp364_71&#39;, &#34;flame&#39;s&#34;, &#39;flames&#39;),
+ (&#39;spkp314_518&#39;, &#39;like-minded&#39;, &#39;like minded&#39;),
+ (&#39;spkp232_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_415&#39;, &#39;tv just&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp228_122&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp225_115&#39;, &#39;earbuds&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_546&#39;, &#34;it&#39;s&#34;, &#39;is&#39;),
+ (&#39;spkp364_596&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_596&#39;, &#39;just puzzled&#39;, &#39;tousled&#39;),
+ (&#39;spkp360_159&#39;, &#34;must&#39;ve&#34;, &#39;must have&#39;),
+ (&#39;spkp264_132&#39;, &#39;tutorials&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_132&#39;, &#39;‘how&#39;, &#39;how&#39;),
+ (&#39;spkp264_132&#39;, &#39;be?’&#39;, &#39;be&#39;),
+ (&#39;spkp374_569&#39;, &#39;it was just&#39;, &#39;is&#39;),
+ (&#39;spkp232_357&#39;, &#39;roller coaster&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_541&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp364_541&#39;, &#39;veggie&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_233&#39;, &#39;trying to&#39;, &#39;try and&#39;),
+ (&#39;spkp360_603&#39;, &#39;resonates&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_541&#39;, &#39;veggie&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_21&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp232_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_87&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spk4_22&#39;, &#39;how&#39;, &#39;her&#39;),
+ (&#39;spkp237_399&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp364_390&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp318_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp374_390&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp314_120&#39;, &#39;hadn’t&#39;, &#34;hadn&#39;t&#34;),
+ (&#39;spkp314_120&#39;, &#39;90s&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_120&#39;, &#39;‘why not?’&#39;, &#39;why not&#39;),
+ (&#39;spkp237_400&#39;, &#39;fantasize&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_103&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp304_134&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_134&#39;, &#39;jewelry’s&#39;, &#34;jewellery&#39;s&#34;),
+ (&#39;spkp304_134&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp304_120&#39;, &#39;hadn’t&#39;, &#34;hadn&#39;t&#34;),
+ (&#39;spkp304_120&#39;, &#39;90s&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_120&#39;, &#39;‘why not?’&#39;, &#39;why not&#39;),
+ (&#39;spkp271_117&#39;, &#39;texted&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_175&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp232_545&#39;, &#39;impacting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_134&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_134&#39;, &#39;jewelry’s&#39;, &#34;jewelry&#39;s&#34;),
+ (&#39;spkp314_134&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp237_372&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_3&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_3&#39;, &#39;like&#39;, &#39;that&#39;),
+ (&#39;spkp374_347&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp318_338&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp339_187&#39;, &#39;unsee unhear un-experience&#39;, &#39;&lt;unk&gt; &lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp374_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp364_347&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp314_108&#39;, &#39;cause uh&#39;, &#39;because&#39;),
+ (&#39;spkp314_108&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp364_421&#39;, &#39;worst-case&#39;, &#39;worst case&#39;),
+ (&#39;spkp264_287&#39;, &#39;just feel&#39;, &#39;still&#39;),
+ (&#39;spkp314_487&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp225_511&#39;, &#39;videos&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_156&#39;, &#39;unhear&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_434&#39;, &#39;about&#39;, &#39;that&#39;),
+ (&#39;spkp226_388&#39;, &#39;gps&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_388&#39;, &#39;rerouting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_388&#39;, &#39;stop-and-go&#39;, &#39;stop and go&#39;),
+ (&#39;spkp318_106&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp314_444&#39;, &#39;squishy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_244&#39;, &#39;out for&#39;, &#39;up from&#39;),
+ (&#39;spkp264_244&#39;, &#34;they&#39;re not there anymore and&#34;, &#39;then&#39;),
+ (&#39;spkp237_602&#39;, &#39;diy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_164&#39;, &#39;uh there&#39;, &#39;i&#39;),
+ (&#39;spkp304_450&#39;, &#39;uh&#39;, &#39;a&#39;),
+ (&#39;spkp226_405&#39;, &#39;um so&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_405&#39;,
+  &#39;drilling into your head making it impossible to uh to find any peace&#39;,
+  &#39;just&#39;),
+ (&#39;spkp374_179&#39;, &#39;try&#39;, &#39;tried&#39;),
+ (&#39;spkp374_179&#39;, &#39;uh&#39;, &#39;a&#39;),
+ (&#39;spkp304_444&#39;, &#39;squishy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_336&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp271_315&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp364_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp304_478&#39;, &#39;braving&#39;, &#39;breathing&#39;),
+ (&#39;spkp374_151&#39;, &#39;off-putting&#39;, &#39;off putting&#39;),
+ (&#39;spkp225_288&#39;, &#39;mid-laugh&#39;, &#39;mid laugh&#39;),
+ (&#39;spkp271_329&#39;, &#34;they&#39;re just&#34;, &#34;there&#39;s&#34;),
+ (&#39;spkp364_145&#39;, &#39;looked&#39;, &#39;looks&#39;),
+ (&#39;spkp318_138&#39;, &#39;yuck&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_153&#39;, &#39;they&#39;, &#39;i&#39;),
+ (&#39;spkp339_393&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_452&#39;, &#39;googling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_520&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp264_520&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_166&#39;, &#39;scrunches&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_600&#39;, &#39;salsa&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_104&#39;, &#39;surreal&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_361&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_320&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp374_609&#39;, &#39;forms&#39;, &#39;forums&#39;),
+ (&#39;spkp264_252&#39;, &#39;anew&#39;, &#39;and you&#39;),
+ (&#39;spkp314_452&#39;, &#39;googling&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_446&#39;, &#39;um&#39;, &#34;you&#39;re just&#34;),
+ (&#39;spkp339_422&#39;, &#39;as&#39;, &#39;is&#39;),
+ (&#39;spkp364_190&#39;, &#39;the&#39;, &#39;a&#39;),
+ (&#39;spkp304_491&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp225_507&#39;, &#39;travelers&#39;, &#39;travellers&#39;),
+ (&#39;spkp339_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_485&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp228_524&#39;, &#39;cause i&#39;, &#39;cuz&#39;),
+ (&#39;spkp225_275&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp304_485&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp228_242&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp374_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_358&#39;, &#39;tossing&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_1&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp364_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_448&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_16&#39;, &#39;uh kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp237_364&#39;, &#39;second-guess&#39;, &#39;second guess&#39;),
+ (&#39;spkp314_122&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp226_605&#39;, &#39;“you’d&#39;, &#34;you&#39;d&#34;),
+ (&#39;spkp226_605&#39;, &#39;instrument,”&#39;, &#39;instrument&#39;),
+ (&#39;spkp282_395&#39;, &#39;uh&#39;, &#39;are&#39;),
+ (&#39;spkp282_395&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp282_395&#39;, &#39;tv&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_395&#39;, &#39;glitch&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_370&#39;, &#39;but&#39;, &#39;it&#39;),
+ (&#39;spkp232_547&#39;, &#39;favorite&#39;, &#39;favourite&#39;),
+ (&#39;spkp232_547&#39;, &#39;ambiance&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_379&#39;, &#34;there&#39;s this&#34;, &#39;there is the&#39;),
+ (&#39;spkp237_416&#39;, &#39;right&#39;, &#39;write&#39;),
+ (&#39;spkp271_115&#39;, &#39;earbuds&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_122&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp282_418&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp364_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_188&#39;, &#39;open-minded&#39;, &#39;open minded&#39;),
+ (&#39;spkp282_342&#39;, &#39;armrests&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp339_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spkp364_225&#39;, &#39;patience&#39;, &#39;patients&#39;),
+ (&#39;spkp374_231&#39;, &#39;curveball&#39;, &#39;curve ball&#39;),
+ (&#39;spkp318_528&#39;, &#39;café&#39;, &#39;cafe&#39;),
+ (&#39;spkp318_528&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp364_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_225&#39;, &#39;patience&#39;, &#39;patients&#39;),
+ (&#39;spkp374_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_231&#39;, &#39;curveball&#39;, &#39;curve ball&#39;),
+ (&#39;spkp282_593&#39;, &#39;daunting&#39;, &#39;so&#39;),
+ (&#39;spkp232_341&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_427&#39;, &#39;i i&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp228_53&#39;, &#39;uh&#39;, &#39;oh&#39;),
+ (&#39;spkp374_219&#39;, &#39;can not&#39;, &#39;cannot&#39;),
+ (&#39;spkp237_562&#39;, &#39;cinematography&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_124&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp264_124&#39;, &#39;non-stop&#39;, &#39;non stop&#39;),
+ (&#39;spkp264_124&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp264_124&#39;, &#39;– kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp374_594&#39;, &#34;i&#39;m just&#34;, &#39;not&#39;),
+ (&#39;spkp364_580&#39;, &#34;it&#39;s&#34;, &#39;is&#39;),
+ (&#39;spkp228_108&#39;, &#39;danced&#39;, &#39;dance&#39;),
+ (&#39;spk6_19&#39;, &#34;should&#39;ve&#34;, &#39;should have&#39;),
+ (&#39;spkp225_117&#39;, &#39;texted&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_120&#39;, &#39;hadn’t&#39;, &#34;hadn&#39;t&#34;),
+ (&#39;spkp228_120&#39;, &#39;90s&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_120&#39;, &#39;‘why not?’&#39;, &#39;why not&#39;),
+ (&#39;spkp317_156&#39;, &#39;unhear&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_134&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_134&#39;, &#39;jewelry’s&#39;, &#34;jewelry&#39;s&#34;),
+ (&#39;spkp228_134&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp225_103&#39;, &#39;realize&#39;, &#39;realise&#39;),
+ (&#39;spkp314_268&#39;, &#39;and i&#39;, &#39;an eye&#39;),
+ (&#39;spkp339_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_89&#39;, &#39;self-care&#39;, &#39;self care&#39;),
+ (&#39;spkp360_417&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp339_581&#39;, &#34;there&#39;s&#34;, &#39;there is&#39;),
+ (&#39;spkp360_371&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp271_511&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp271_511&#39;, &#39;videos&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_526&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp228_487&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp304_240&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp271_505&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp271_505&#39;, &#39;bioluminescent&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_556&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_478&#39;, &#39;staying in&#39;, &#39;stay again&#39;),
+ (&#39;spkp271_288&#39;, &#39;mid-laugh&#39;, &#39;mid laugh&#39;),
+ (&#39;spkp339_224&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spk2_55&#39;, &#34;you&#39;re&#34;, &#39;you all&#39;),
+ (&#39;spk2_55&#39;, &#39;uh&#39;, &#39;are&#39;),
+ (&#39;spk2_55&#39;, &#39;lostness&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_98&#39;, &#39;replay&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_98&#39;, &#39;resonates&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_98&#39;, &#39;soundtrack&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_444&#39;, &#39;squishy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp232_180&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp317_62&#39;, &#34;you&#39;re&#34;, &#39;you are&#39;),
+ (&#39;spk2_69&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_336&#39;, &#39;lift&#39;, &#39;live&#39;),
+ (&#39;spkp339_219&#39;, &#39;i can&#39;, &#39;and&#39;),
+ (&#39;spkp304_296&#39;, &#39;sadder&#39;, &#39;sad&#39;),
+ (&#39;spkp317_63&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp225_466&#39;, &#34;just can&#39;t&#34;, &#34;don&#39;t&#34;),
+ (&#39;spkp264_496&#39;, &#34;um i&#39;m just&#34;, &#39;uh&#39;),
+ (&#39;spkp264_496&#39;, &#39;trek&#39;, &#39;trick&#39;),
+ (&#39;spkp264_496&#39;, &#39;just thinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_433&#39;, &#39;sibling&#39;, &#39;siblings&#39;),
+ (&#39;spkp364_99&#39;, &#39;colors&#39;, &#39;colours&#39;),
+ (&#39;spkp317_77&#39;, &#39;past&#39;, &#39;pass&#39;),
+ (&#39;spkp339_225&#39;, &#39;patience&#39;, &#39;patients&#39;),
+ (&#39;spkp339_543&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_543&#39;, &#39;workouts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_231&#39;, &#39;curveball&#39;, &#39;curve ball&#39;),
+ (&#39;spkp232_156&#39;, &#39;unhear&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_200&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp271_504&#39;, &#34;i&#39;m just&#34;, &#39;i&#39;),
+ (&#39;spkp317_382&#39;, &#39;jolts&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_382&#39;, &#39;but&#39;, &#39;i&#39;),
+ (&#39;spkp360_358&#39;, &#39;tossing&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_486&#39;, &#34;i&#39;ve&#34;, &#39;i&#39;),
+ (&#39;spkp314_533&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp304_269&#39;, &#39;realization&#39;, &#39;realisation&#39;),
+ (&#39;spkp225_499&#39;, &#39;paddleboarding&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_499&#39;, &#39;adrenaline&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_364&#39;, &#39;second-guess&#39;, &#39;second guess&#39;),
+ (&#39;spkp226_228&#39;, &#39;uh&#39;, &#39;a&#39;),
+ (&#39;spkp228_135&#39;, &#39;i am overthinking&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp282_545&#39;, &#39;impacting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp225_102&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp225_116&#39;, &#39;wound&#39;, &#39;went&#39;),
+ (&#39;spk6_18&#39;, &#39;colorful&#39;, &#39;colourful&#39;),
+ (&#39;spk6_18&#39;, &#39;uhm&#39;, &#39;erm&#39;),
+ (&#39;spkp228_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp228_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp228_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp228_121&#39;, &#39;i’d&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp228_109&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp364_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_26&#39;, &#34;it&#39;s just mind-blowing&#34;, &#39;mind blowing&#39;),
+ (&#39;spkp364_581&#39;, &#34;there&#39;s&#34;, &#39;there is&#39;),
+ (&#39;spkp364_218&#39;, &#39;this&#39;, &#39;a&#39;),
+ (&#39;spkp282_592&#39;, &#39;regroup&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_515&#39;, &#34;you&#39;re&#34;, &#39;you were&#39;),
+ (&#39;spkp317_194&#39;, &#39;uh&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp374_224&#39;, &#39;cause&#39;, &#39;cuz&#39;),
+ (&#39;spkp226_57&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp226_57&#39;, &#39;envelop&#39;, &#39;envelope&#39;),
+ (&#39;spkp226_57&#39;, &#39;crafting&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp226_57&#39;, &#39;act of creating of bringing joy through food&#39;, &#39;acts&#39;),
+ (&#39;spkp364_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_556&#39;, &#39;so heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_87&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp264_119&#39;, &#39;vibe&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_556&#39;, &#39;um&#39;, &#39;then&#39;),
+ (&#39;spkp374_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_556&#39;, &#34;brings a smile to your face it&#39;s like you&#39;re&#34;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp374_556&#39;,
+  &#34;so thankful for those moments for that perfect date and it&#39;s it&#39;s just so so heartwarming&#34;,
+  &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_224&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp360_166&#39;, &#39;scrunches&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_529&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp318_529&#39;, &#39;cause i&#39;, &#39;because&#39;),
+ (&#39;spkp282_357&#39;, &#39;uh roller coaster&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_357&#39;, &#34;i&#39;m&#34;, &#39;am&#39;),
+ (&#39;spkp282_431&#39;, &#39;just imagining&#39;, &#39;imagine&#39;),
+ (&#39;spkp318_32&#39;, &#39;um&#39;, &#39;and&#39;),
+ (&#39;spkp339_153&#39;, &#39;tune out&#39;, &#39;two now&#39;),
+ (&#39;spkp364_387&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp364_393&#39;, &#39;uh&#39;, &#39;us&#39;),
+ (&#39;spk4_21&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp374_387&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp237_371&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp282_394&#39;, &#39;emails&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_394&#39;, &#39;rechecking&#39;, &#34;we&#39;re checking&#34;),
+ (&#39;spkp271_114&#39;, &#39;today’s&#39;, &#34;today&#39;s&#34;),
+ (&#39;spkp364_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_403&#39;, &#39;checkout&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_403&#39;, &#39;dragging&#39;, &#39;jogging&#39;),
+ (&#39;spkp232_234&#39;, &#39;uh&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_307&#39;, &#39;this&#39;, &#39;the&#39;),
+ (&#39;spkp226_604&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp226_604&#39;, &#39;“this&#39;, &#39;this&#39;),
+ (&#39;spkp226_604&#39;, &#39;join,” i’m just&#39;, &#34;join i&#39;m&#34;),
+ (&#39;spkp374_378&#39;, &#39;panicking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_365&#39;, &#39;obsessively&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_422&#39;,
+  &#34;take a break because it&#39;s it&#39;s too much just just too real&#34;,
+  &#39;ugh&#39;),
+ (&#39;spkp271_128&#39;, &#39;full-on&#39;, &#39;full on&#39;),
+ (&#39;spkp232_208&#39;, &#39;uh&#39;, &#39;ah&#39;),
+ (&#39;spkp364_436&#39;, &#39;in the&#39;, &#39;a&#39;),
+ (&#39;spkp228_525&#39;, &#39;groundbreaking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp317_553&#39;, &#39;heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_490&#39;, &#39;cause i&#39;, &#39;because like&#39;),
+ (&#39;spkp282_155&#39;, &#39;the uh&#39;, &#39;that&#39;),
+ (&#39;spkp304_484&#39;, &#39;get-together&#39;, &#39;get together&#39;),
+ (&#39;spkp304_490&#39;, &#39;cause&#39;, &#39;because&#39;),
+ (&#39;spkp317_221&#39;, &#39;uh a thousand&#39;, &#39;&lt;unk&gt; &lt;unk&gt;&#39;),
+ (&#39;spkp314_484&#39;, &#39;get-together&#39;, &#39;get together&#39;),
+ (&#39;spkp314_484&#39;, &#39;just shocked&#39;, &#39;shock&#39;),
+ (&#39;spkp282_169&#39;, &#39;chalkboard&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_423&#39;, &#39;backlash&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp339_423&#39;, &#39;the&#39;, &#39;a&#39;),
+ (&#39;spkp374_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp374_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spkp318_111&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp304_447&#39;, &#39;update&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_535&#39;,
+  &#39;surprised and excited cause i i never meet anyone&#39;,
+  &#39;surprise sighted one&#39;),
+ (&#39;spkp314_335&#39;, &#39;not-funny&#39;, &#39;not funny&#39;),
+ (&#39;spkp228_294&#39;, &#39;letting go&#39;, &#39;lingo&#39;),
+ (&#39;spkp364_608&#39;, &#39;“expand&#39;, &#39;expand&#39;),
+ (&#39;spkp364_608&#39;, &#39;horizons”&#39;, &#39;horizons&#39;),
+ (&#39;spkp271_464&#39;, &#39;break-ins&#39;, &#39;break ins&#39;),
+ (&#39;spkp271_464&#39;, &#39;double-checking&#39;, &#39;double checking&#39;),
+ (&#39;spkp226_406&#39;,
+  &#34;staring at the spinning wheel waiting hoping and it&#39;s&#34;,
+  &#39;just just&#39;),
+ (&#39;spkp318_105&#39;, &#39;decide&#39;, &#39;decided&#39;),
+ (&#39;spkp304_335&#39;, &#39;not-funny&#39;, &#39;not funny&#39;),
+ (&#39;spkp339_392&#39;, &#39;20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_562&#39;, &#39;cinematography&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_458&#39;, &#39;armrest&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp271_458&#39;, &#39;praying&#39;, &#39;trying&#39;),
+ (&#39;spkp374_146&#39;, &#39;ugh&#39;, &#39;ah&#39;),
+ (&#39;spkp271_403&#39;, &#39;checkout&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp318_604&#39;, &#39;there’s&#39;, &#34;there&#39;s&#34;),
+ (&#39;spkp318_604&#39;, &#39;“this&#39;, &#39;this&#39;),
+ (&#39;spkp318_604&#39;, &#39;join,” i’m just&#39;, &#34;join i&#39;m&#34;),
+ (&#39;spkp271_365&#39;, &#39;obsessively&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp364_109&#39;, &#39;kinda&#39;, &#39;kind of&#39;),
+ (&#39;spkp228_595&#39;, &#39;20/20&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp304_346&#39;, &#39;brace&#39;, &#39;braced&#39;),
+ (&#39;spkp271_371&#39;, &#39;what-ifs&#39;, &#39;what ifs&#39;),
+ (&#39;spkp237_114&#39;, &#39;today’s&#39;, &#34;today&#39;s&#34;),
+ (&#39;spkp374_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp374_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp374_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp374_121&#39;, &#39;i’d&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp364_135&#39;, &#39;i am overthinking&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp360_511&#39;, &#39;um so&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_511&#39;, &#39;videos&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp264_208&#39;, &#39;this&#39;, &#39;a&#39;),
+ (&#39;spkp364_121&#39;, &#39;it’s&#39;, &#34;it&#39;s&#34;),
+ (&#39;spkp364_121&#39;, &#39;i’m&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp364_121&#39;, &#39;i’m 16&#39;, &#34;i&#39;m &lt;unk&gt;&#34;),
+ (&#39;spkp364_121&#39;, &#39;i’d&#39;, &#34;i&#39;d&#34;),
+ (&#39;spkp360_505&#39;, &#39;bioluminescent&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_128&#39;, &#39;full-on&#39;, &#39;full on&#39;),
+ (&#39;spkp237_128&#39;, &#39;but&#39;, &#39;that&#39;),
+ (&#39;spkp339_493&#39;, &#39;um&#39;, &#34;i&#39;m&#34;),
+ (&#39;spkp374_135&#39;, &#39;overthinking&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp360_288&#39;, &#39;mid-laugh&#39;, &#39;mid laugh&#39;),
+ (&#39;spkp228_556&#39;, &#39;replaying&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp228_556&#39;, &#39;so heartwarming&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp314_391&#39;, &#39;halt&#39;, &#39;hold&#39;),
+ (&#39;spkp282_132&#39;, &#39;tutorials&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp282_132&#39;, &#39;‘how&#39;, &#39;how&#39;),
+ (&#39;spkp282_132&#39;, &#39;be?’&#39;, &#39;be&#39;),
+ (&#39;spkp339_444&#39;, &#39;squishy&#39;, &#39;&lt;unk&gt;&#39;),
+ (&#39;spkp237_464&#39;, &#39;break-ins&#39;, &#39;break ins&#39;),
+ (&#39;spkp237_464&#39;, &#39;double-checking&#39;, &#39;double checking&#39;),
+ ...]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/humogen/xtts/2024/03/16/compare-tsv-with-original.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
