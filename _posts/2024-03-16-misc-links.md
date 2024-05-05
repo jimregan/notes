@@ -28,7 +28,7 @@ tmux -S /tmp/socket attach
 
 [Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation](https://arxiv.org/abs/2211.06687)
 
-[yl4579/PL-BERT](https://github.com/yl4579/PL-BERT)
+[yl4579/PL-BERT](https://github.com/yl4579/PL-BERT) --- Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions
 
 [MagyarorszagON, BudapestEN, SzlovakiaBAN, PozsonyBAN](https://www.reddit.com/r/hungarian/comments/1bip87y/magyarorszagon_budapesten_szlovakiaban_pozsonyban/)
 
