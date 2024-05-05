@@ -153,4 +153,4 @@ tmux -S /tmp/socket attach
 
 {% twitter https://twitter.com/rohanpaul_ai/status/1785771512038928472 %}
 
-
+{% twitter https://twitter.com/thelorryist/status/1786850445119394261 %}
