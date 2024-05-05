@@ -149,3 +149,8 @@ tmux -S /tmp/socket attach
 
 [ar4/deepwave](https://github.com/ar4/deepwave) --- Wave propagation modules for PyTorch.
 
+[google-deepmind/dm_control](https://github.com/google-deepmind/dm_control) --- Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo.
+
+{% twitter https://twitter.com/rohanpaul_ai/status/1785771512038928472 %}
+
+
