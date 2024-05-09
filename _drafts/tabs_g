@@ -1903,13 +1903,25 @@ https://github.com/futo-org/whisper-acft/blob/main/finetune.ipynb
 futo-org/whisper-acft
 https://github.com/futo-org/whisper-acft
 
-Zexuan Zhong on X: "Introducing Lory, a fully-differentiable MoE arch for decoder LM pre-training! Lory merges expert FFNs by computing a weighted average in the parameter space, and computes the output through the merged FFNs. But training naively is infeasible, how to make it work? Details in🧵 https://t.co/24TqLyiNy5" / X
-https://twitter.com/ZexuanZhong/status/1787868307066126689
+Zexuan Zhong on X: "Two key techniques 1) Causal segment routing ⚠️ Merging per token is too expensive ✅ We merge experts per segment &amp; keep the autoregressive property 2) Sim-based batching ⚠️ Training on concatenated rand docs leads to bad experts ✅ We concat sim docs to get training instances https://t.co/vTCrDQjvxV" / X
+https://twitter.com/ZexuanZhong/status/1787868309473644870
 
-Cajun BBQ | McDonald's
-https://www.mcdonalds.com/se/sv-se/just-nu/aktuellkampanj.html
+2405.03133
+https://arxiv.org/pdf/2405.03133
 
-Yogesh Kumar on X: "@gunsnrosesgirl3 Do you know what this fruit is called? https://t.co/0aI53m2Lzf" / X
-https://twitter.com/YKwolfpec/status/1788454585427980296
+YouTube
+https://www.youtube.com/
+
+ViVaHD - YouTube
+https://www.youtube.com/@vivahd2120
+
+Polina Parfenenko 🇷🇺 Полина Парфененко - YouTube
+https://www.youtube.com/shorts/iO2GoAUp7W4
+
+Holiday fits hit different 🌴🌊🥥🐠 - YouTube
+https://www.youtube.com/shorts/y-f1jkugjnw
+
+Amazing Dives by an Incredible Diver - Ana - YouTube
+https://www.youtube.com/shorts/cWi67iT1Mes
 
 
