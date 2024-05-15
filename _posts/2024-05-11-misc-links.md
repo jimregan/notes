@@ -58,4 +58,6 @@ categories: [links]
 
 [The evolution of Steve Albini: ‘If the dumbest person is on your side, you’re on the wrong side’](https://www.theguardian.com/music/2023/aug/15/the-evolution-of-steve-albini-if-the-dumbest-person-is-on-your-side-youre-on-the-wrong-side)
 
+[muditbhargava66/PyxLSTM](https://github.com/muditbhargava66/PyxLSTM) --- PyxLSTM is a Python library that provides an efficient and extensible implementation of the Extended Long Short-Term Memory (xLSTM) architecture. xLSTM enhances the traditional LSTM by introducing exponential gating, memory mixing, and a matrix memory structure, enabling improved performance and scalability for sequence modeling tasks.
+
 
