@@ -60,4 +60,22 @@ categories: [links]
 
 [muditbhargava66/PyxLSTM](https://github.com/muditbhargava66/PyxLSTM) --- PyxLSTM is a Python library that provides an efficient and extensible implementation of the Extended Long Short-Term Memory (xLSTM) architecture. xLSTM enhances the traditional LSTM by introducing exponential gating, memory mixing, and a matrix memory structure, enabling improved performance and scalability for sequence modeling tasks.
 
+[cepstrum, quefrency, rahmonic](https://sesquiotic.com/2011/08/16/cepstrum-quefrency-rahmonic/)
+
+[SpeechGuard: Exploring the Adversarial Robustness of Multimodal Large Language Models](https://arxiv.org/abs/2405.08317)
+
+[Simple and Efficient Quantization Techniques for Neural Speech Coding](https://arxiv.org/abs/2405.08417)
+
+[SpeechVerse: A Large-scale Generalizable Audio Language Model](https://arxiv.org/abs/2405.08295)
+
+[A predictive learning model can simulate temporal dynamics and context effects found in neural representations of continuous speech](https://arxiv.org/abs/2405.08237)
+
+[Learning the Meanings of Function Words From Grounded Language Using a Visual Question Answering Model](https://onlinelibrary.wiley.com/doi/10.1111/cogs.13448)
+
+[Coin3D: Controllable and Interactive 3D Assets Generation with Proxy-Guided Conditioning](https://arxiv.org/abs/2405.08054)
+
+[No Time to Waste: Squeeze Time into Channel for Mobile Video Understanding](https://arxiv.org/abs/2405.08344),
+[code](https://github.com/mindspore-lab/models/tree/master/research/huawei-noah/SqueezeTime)
+
+{% twitter https://twitter.com/lukas_m_ziegler/status/1790648380080722323 %}
 
