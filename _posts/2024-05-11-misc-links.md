@@ -54,3 +54,8 @@ categories: [links]
 
 {% twitter https://twitter.com/borisdayma/status/1786158626496758056 %}
 
+[Kerry King- Trophies of The Tyrant/ Chemical Warfare](https://www.youtube.com/watch?v=16ayjz7NoJQ)
+
+[The evolution of Steve Albini: ‘If the dumbest person is on your side, you’re on the wrong side’](https://www.theguardian.com/music/2023/aug/15/the-evolution-of-steve-albini-if-the-dumbest-person-is-on-your-side-youre-on-the-wrong-side)
+
+
