@@ -91,6 +91,7 @@ categories: [links]
 
 [polska-poezja.pl](https://polska-poezja.pl/)
 
-[SakanaAI/evolutionary-model-merge](https://github.com/SakanaAI/evolutionary-model-merge) --- Official repository of Evolutionary Optimization of Model Merging Recipes
+[Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/abs/2403.13187),
+[code](https://github.com/SakanaAI/evolutionary-model-merge)
 
 
