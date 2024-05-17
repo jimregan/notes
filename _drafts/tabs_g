@@ -1,565 +1,2005 @@
-makeMoE: Implement a Sparse Mixture of Experts Language Model from Scratch
-https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+Open-sourcing the code for "CLIP as RNN: Segment Countless Visual Con… · google-research/google-research@1d49f2c
+https://github.com/google-research/google-research/commit/1d49f2c0d5506a6e11115726164d42f6b7b7b95a#diff-e71dbe0a932fb921ffb2c4e775df37cba0b8e86cf56adb8d2c2d4dfb46386572
 
-[2401.18059] RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval
-https://arxiv.org/abs/2401.18059
+google-research/google-research at 1d49f2c0d5506a6e11115726164d42f6b7b7b95a
+https://github.com/google-research/google-research/tree/1d49f2c0d5506a6e11115726164d42f6b7b7b95a
 
-Lesson - Mondly
-https://app.mondly.com/home/5/lessons/505
+Pull requests · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/pulls
 
-CLAP/msclap/models/mapper.py at main · microsoft/CLAP
-https://github.com/microsoft/CLAP/blob/main/msclap/models/mapper.py
+Speed up humanoid's training in MJX notebook by goncalog · Pull Request #1465 · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/pull/1465/files
 
-qiuqiangkong/audioset_tagging_cnn
-https://github.com/qiuqiangkong/audioset_tagging_cnn
+mujoco humanoid - Google Search
+https://www.google.com/search?q=mujoco+humanoid&rlz=1C5GCEM_enSE990SE991&oq=mujoco+humanoid&gs_lcrp=EgZjaHJvbWUyDggAEEUYFBg5GIcCGIAEMgwIARAAGBQYhwIYgAQyBwgCEAAYgAQyBwgDEAAYgAQyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyBggGEEUYPDIGCAcQRRg80gEINDQzOWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#ip=1
 
-metavoiceio/metavoice-1B-v0.1 · Hugging Face
-https://huggingface.co/metavoiceio/metavoice-1B-v0.1
+e5dd4fbb6fb4cb805b982bfb41c20aad-Paper-Datasets_and_Benchmarks.pdf
+https://proceedings.neurips.cc/paper_files/paper/2022/file/e5dd4fbb6fb4cb805b982bfb41c20aad-Paper-Datasets_and_Benchmarks.pdf
 
-metavoiceio/metavoice-src: Foundational model for human-like, expressive TTS
-https://github.com/metavoiceio/metavoice-src
+hardmaru on X: "From Motor Control to Team Play in Simulated Humanoid Football New work from @DeepMind on 2vs2 ⚽ They use evolution to optimize for teams that play against each other via self-play, and imitation learning + RL to optimize behavior of individual agents. https://t.co/98nLsTERbH https://t.co/98urppPajz" / X
+https://twitter.com/hardmaru/status/1397909538863423490
 
-huggingface.co
-https://huggingface.co/spaces/mrfakename/MetaVoice-1B-v0.1/blob/main/app.py
+LQR.ipynb - Colab
+https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/LQR.ipynb
 
-(1) RAG From Scratch: Part 1 (Overview) - YouTube
-https://www.youtube.com/watch?v=wd7TZ4w1mSw
+Python Bindings - MuJoCo Documentation
+https://mujoco.readthedocs.io/en/stable/python.html
 
-rag-from-scratch/rag_from_scratch_1_to_4.ipynb at main · langchain-ai/rag-from-scratch
-https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb
+tutorial.ipynb - Colab
+https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb#scrollTo=ZkFSHeYGxlT5
 
-whisperX/whisperx/alignment.py at main · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
+google-research/cochlear_implant at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/cochlear_implant
 
-whisper/data at main · openai/whisper
-https://github.com/openai/whisper/tree/main/data
+google-research/google-research: Google Research
+https://github.com/google-research/google-research
 
-Ego-Exo4D
-https://ego-exo4d-data.org/?utm_source=twitter&utm_medium=organic_social&utm_campaign=fair10&utm_content=video
+Ross O'Carroll-Kelly
+https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzhlMjJiMTAwLTA3ODktNWYyMy1iNDI1LTgxZjQ2ZGQxNWUzNg?sa=X&ved=2ahUKEwiY3ub09ueEAxU7VfEDHRYHB_kQ9sEGegQIARAI
 
-Efficient Linear Model Merging for LLMs
-https://lightning.ai/lightning-ai/studios/efficient-linear-model-merging-for-llms
+langchain-ai/langchain: 🦜🔗 Build context-aware reasoning applications
+https://github.com/langchain-ai/langchain
 
-2312.04533.pdf
-https://arxiv.org/pdf/2312.04533.pdf
+langchain/cookbook/Semi_Structured_RAG.ipynb at master · langchain-ai/langchain
+https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_Structured_RAG.ipynb
 
-Automatic Speech Recognition (ASR) — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/intro.html#asr-tutorial-notebooks
+facebook/rag-token-nq · Hugging Face
+https://huggingface.co/facebook/rag-token-nq
 
-NeMo/tutorials/asr/ASR_with_NeMo.ipynb at main · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/ASR_with_NeMo.ipynb
+WhisperSpeech/nbs/0. Download models.ipynb at main · collabora/WhisperSpeech
+https://github.com/collabora/WhisperSpeech/blob/main/nbs/0.%20Download%20models.ipynb
 
-Datasets — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/datasets.html#preparing-custom-asr-data
+fastcore - Script - CLI
+https://fastcore.fast.ai/script.html
 
-Models — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/models.html#hybrid-asr-tts-model
+Corpus of New York City English: Audio-Aligned and Parsed
+https://conyce.commons.gc.cuny.edu/
 
-2003.07705.pdf
-https://arxiv.org/pdf/2003.07705.pdf
+Dubliners - download audio and run ASR | notes
+https://jimregan.github.io/notes/kaggle/asr/dubliners/dt2112/2024/02/15/dubliners-download-and-asr.html
 
-Add causal LM for ASR2 by akreal · Pull Request #5514 · espnet/espnet
-https://github.com/espnet/espnet/pull/5514
+finetuning.ipynb - Colab
+https://colab.research.google.com/drive/1ntOOldhQ6j8HrfR4AK5eiPU8U1HZ9KIE#scrollTo=akAPMurUP4ht
 
-[WIP] Implement wav2gloss by juice500ml · Pull Request #5449 · espnet/espnet
-https://github.com/espnet/espnet/pull/5449/files#diff-12ce31487cc7e7842d534c8f04eb1fdb34187ffc9a4cc4fa36a0f98549aae5ad
+PodcastFillers Dataset
+https://podcastfillers.github.io/
 
-espnet/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst+xvector_tacotron2.yaml at c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16 · espnet/espnet
-https://github.com/espnet/espnet/blob/c9bbf80aa8879dcfebf49304ac2ffb659fb9ca16/egs2/googlei18n_lowresource/tts1/conf/tuning/train_gst%2Bxvector_tacotron2.yaml
+jimregan/w2v-bert-2.0-north-sami · Hugging Face
+https://huggingface.co/jimregan/w2v-bert-2.0-north-sami
 
-croissant/python/mlcroissant at main · mlcommons/croissant
-https://github.com/mlcommons/croissant/tree/main/python/mlcroissant
+mfa_alignments/notebooks/expand-connaught-lexicon.ipynb at main · phonlab-tcd/mfa_alignments
+https://github.com/phonlab-tcd/mfa_alignments/blob/main/notebooks/expand-connaught-lexicon.ipynb
 
-r-three/phatgoose: Code for PHATGOOSE introduced in "Learning to Route Among Specialized Experts for Zero-Shot Generalization"
-https://github.com/r-three/phatgoose
+fotheidil/app/transcribe/page.tsx at main · phonlab-tcd/fotheidil
+https://github.com/phonlab-tcd/fotheidil/blob/main/app/transcribe/page.tsx
 
-unilm/e5 at master · microsoft/unilm
-https://github.com/microsoft/unilm/tree/master/e5
+Zenodo
+https://zenodo.org/login/?next=%2Fuploads%2Fnew
 
-microsoft/unilm: Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
-https://github.com/microsoft/unilm?tab=readme-ov-file
+dm_control - Colab
+https://colab.research.google.com/github/google-deepmind/dm_control/blob/main/tutorial.ipynb#scrollTo=HuuQLm8YopDe
 
-unilm/infoxlm/src-infoxlm/infoxlm/criterions/xlco.py at master · microsoft/unilm
-https://github.com/microsoft/unilm/blob/master/infoxlm/src-infoxlm/infoxlm/criterions/xlco.py
+google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.
+https://github.com/google-deepmind/mujoco?tab=readme-ov-file
 
-microsoft/unilm: Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
-https://github.com/microsoft/unilm?tab=readme-ov-file
+LQR.ipynb - Colab
+https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/LQR.ipynb
 
-[2210.06423] Foundation Transformers
-https://arxiv.org/abs/2210.06423
+LQR.ipynb - Colaboratory
+https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/LQR.ipynb
 
-unilm/textdiffuser-2/train_textdiffuser2_inpainting_full.py at master · microsoft/unilm
-https://github.com/microsoft/unilm/blob/master/textdiffuser-2/train_textdiffuser2_inpainting_full.py
+tutorial.ipynb - Colab
+https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb
 
-2402.05755.pdf
-https://arxiv.org/pdf/2402.05755.pdf
+MyoHub/myoconverter: A tool to convert opensim 4.0+ MSK models into MuJoCo format with optimized muscle kinematics and kinetics
+https://github.com/MyoHub/myoconverter
 
-CTC forced alignment API tutorial — Torchaudio 2.2.0.dev20240305 documentation
-https://pytorch.org/audio/main/tutorials/ctc_forced_alignment_api_tutorial.html
+mujoco/model/humanoid100 at main · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/tree/main/model/humanoid100
 
-SIKOR North Saami corpus - Arctic Language Technology
-https://dataverse.no/dataset.xhtml;jsessionid=4655f41072c706e121d2598ad1cc?persistentId=doi%3A10.18710%2F8AK7KZ&version=&q=&fileTypeGroupFacet=&fileAccess=Public&fileTag=&fileSortField=size&fileSortOrder=
+Pull requests · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/pulls
 
-Code LoRA from Scratch
-https://lightning.ai/lightning-ai/studios/code-lora-from-scratch?view=public&section=all
+Speed up humanoid's training in MJX notebook by goncalog · Pull Request #1465 · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/pull/1465
 
-Audio Flamingo
-https://audioflamingo.github.io/
+[Unity plugin] Support multielement springlength in tendons by Balint-H · Pull Request #1438 · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/pull/1438
 
-Models - Hugging Face
-https://huggingface.co/models?language=sv&other=mistral&sort=trending
+mujoco/mjx/tutorial.ipynb at main · google-deepmind/mujoco
+https://github.com/google-deepmind/mujoco/blob/main/mjx/tutorial.ipynb
 
-neph1/bellman-7b-mistral-instruct-v0.2 · Hugging Face
-https://huggingface.co/neph1/bellman-7b-mistral-instruct-v0.2
+LQR.ipynb - Colab
+https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/LQR.ipynb
 
-norallm/normistral-7b-warm · Hugging Face
-https://huggingface.co/norallm/normistral-7b-warm
+MuJoCo-Tutorial/tutorial/tutorial_4.ipynb at main · tayalmanan28/MuJoCo-Tutorial
+https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/tutorial/tutorial_4.ipynb
 
-ltgoslo
-https://github.com/ltgoslo
+MuJoCo Bootcamp
+https://pab47.github.io/mujoco.html
 
-haoranxu/ALMA-7B · Hugging Face
-https://huggingface.co/haoranxu/ALMA-7B
+Lec13_2D_biped
+https://pab47.github.io/mujoco/notes/Lec13_2D_biped.pdf
 
-Fine-tuning a large language model on Kaggle Notebooks for solving real-world tasks — part 3 | by Luca Massaron | Medium
-https://medium.com/@lucamassaron/fine-tuning-a-large-language-model-on-kaggle-notebooks-for-solving-real-world-tasks-part-3-f15228f1c2a2
+Repository search results
+https://github.com/search?q=org%3Afacebookresearch+motion&type=repositories&p=2
 
-Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+Hungarian Electronic Library - Advanced search
+https://mek.oszk.hu/hu/search/detailed/
 
-Tutorial 3: Activation Functions — UvA DL Notebooks v1.2 documentation
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial3/Activation_Functions.html
+EscucharUnSusurro: Using Whisper ASR to Build an Advanced Audio Transcription and Inference Analysis Toolkit | by Wambugu Muchemi | Medium
+https://medium.com/@wambugumuchemi2021/escucharunsusurro-using-whisper-asr-to-build-an-advanced-audio-transcription-and-inference-8ef78da108ed
 
-uvadlc_notebooks/docs/tutorial_notebooks/tutorial1/Lisa_Cluster.ipynb at master · phlippe/uvadlc_notebooks
-https://github.com/phlippe/uvadlc_notebooks/blob/master/docs/tutorial_notebooks/tutorial1/Lisa_Cluster.ipynb
+Seamless_Tutorial.ipynb - Colab
+https://colab.research.google.com/github/kauterry/seamless_communication/blob/main/Seamless_Tutorial.ipynb
 
-Tutorial 17: Self-Supervised Contrastive Learning with SimCLR — UvA DL Notebooks v1.2 documentation
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial17/SimCLR.html
+pydub/pydub/silence.py at master · jiaaro/pydub
+https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
 
-Tutorial 2: Introduction to PyTorch — UvA DL Notebooks v1.2 documentation
-https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial2/Introduction_to_PyTorch.html
+WolneLektury.pl
+https://wolnelektury.pl/katalog/lektura/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.html
 
-flamingo-pytorch/flamingo_pytorch/flamingo_pytorch.py at main · lucidrains/flamingo-pytorch
-https://github.com/lucidrains/flamingo-pytorch/blob/main/flamingo_pytorch/flamingo_pytorch.py
+Untitled37.ipynb - Colab
+https://colab.research.google.com/drive/1gY8xFPA-WxNWoQf9Kbx0Q4n_MrmQphmZ#scrollTo=dlaAsPcFb5gt
 
-SpeechT5/SpeechT5 at main · microsoft/SpeechT5
-https://github.com/microsoft/SpeechT5/tree/main/SpeechT5
+2403.13187
+https://arxiv.org/pdf/2403.13187
 
-microsoft/speecht5_asr · Hugging Face
-https://huggingface.co/microsoft/speecht5_asr
+Evolving New Foundation Models: Unleashing the Power of Automating Model Development
+https://sakana.ai/evolutionary-model-merge/
 
-2110.07205.pdf
-https://arxiv.org/pdf/2110.07205.pdf
+Montreal-Forced-Aligner/tests/test_commandline_align.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/tests/test_commandline_align.py
 
-ltu/src/ltu_as/extract_whisper_feature.py at main · YuanGongND/ltu
-https://github.com/YuanGongND/ltu/blob/main/src/ltu_as/extract_whisper_feature.py
+pyfoal/pyfoal/baselines/mfa.py at main · maxrmorrison/pyfoal
+https://github.com/maxrmorrison/pyfoal/blob/main/pyfoal/baselines/mfa.py
+
+tmh/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py at master · BirgerMoell/tmh
+https://github.com/BirgerMoell/tmh/blob/master/tmh/breath_detection/breath2corpus_step0_TrainBreathAnalysisModel.py
+
+yl4579/StyleTTS2: StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
+https://github.com/yl4579/StyleTTS2?tab=readme-ov-file
+
+kashubian recordings - Google Search
+https://www.google.com/search?q=kashubian+recordings&rlz=1C5GCEM_enSE990SE991&oq=kashubian+recordings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDUxNTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+yl4579/PL-BERT: Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions
+https://github.com/yl4579/PL-BERT?tab=readme-ov-file
+
+PL-BERT/preprocess.ipynb at main · yl4579/PL-BERT
+https://github.com/yl4579/PL-BERT/blob/main/preprocess.ipynb
+
+PL-BERT/train.ipynb at main · yl4579/PL-BERT
+https://github.com/yl4579/PL-BERT/blob/main/train.ipynb
+
+thelinhbkhn2014/Text2PhonemeSequence
+https://github.com/thelinhbkhn2014/Text2PhonemeSequence?tab=readme-ov-file
+
+lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
+https://github.com/lingjzhu/CharsiuG2P/tree/main?tab=readme-ov-file
+
+CharsiuG2P/dicts/swe.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/swe.tsv
+
+CharsiuG2P/dicts/gle.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/gle.tsv
+
+CharsiuG2P/dicts/sme.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/sme.tsv
+
+charsiu (charsiu)
+https://huggingface.co/charsiu
+
+wikitextparser · PyPI
+https://pypi.org/project/wikitextparser/
+
+earwig/mwparserfromhell: A Python parser for MediaWiki wikicode
+https://github.com/earwig/mwparserfromhell
+
+Kelly | Språkbanken Text
+https://spraakbanken.gu.se/en/resources/kelly
+
+sync-asr/notebooks/kelly.ipynb at sentence-extraction · jimregan/sync-asr
+https://github.com/jimregan/sync-asr/blob/sentence-extraction/notebooks/kelly.ipynb
+
+mrdbourke/rag-resources: A collection of curated RAG (Retrieval Augmented Generation) resources.
+https://github.com/mrdbourke/rag-resources?tab=readme-ov-file
+
+weaviate/Verba: Retrieval Augmented Generation (RAG) chatbot powered by Weaviate
+https://github.com/weaviate/Verba
+
+run-llama/rags: Build ChatGPT over your data, all with natural language
+https://github.com/run-llama/rags
+
+SentenceTransformers Documentation — Sentence-Transformers documentation
+https://www.sbert.net/
+
+Multilingual-Models — Sentence-Transformers documentation
+https://www.sbert.net/examples/training/multilingual/README.html
+
+Cross-Encoders — Sentence-Transformers documentation
+https://www.sbert.net/examples/training/cross-encoder/README.html
+
+SentenceTransformers Documentation — Sentence-Transformers documentation
+https://www.sbert.net/index.html
+
+Unsupervised Learning — Sentence-Transformers documentation
+https://www.sbert.net/examples/unsupervised_learning/README.html#masked-language-model-mlm
+
+Paraphrase Data — Sentence-Transformers documentation
+https://www.sbert.net/examples/training/paraphrases/README.html
+
+UKPLab/sentence-transformers: Multilingual Sentence & Image Embeddings with BERT
+https://github.com/UKPLab/sentence-transformers
+
+Why a New Programming Language | Taichi Docs
+https://docs.taichi-lang.org/docs/overview
+
+pixparse/idl-wds · Datasets at Hugging Face
+https://huggingface.co/datasets/pixparse/idl-wds?row=0
+
+MagicLens
+https://open-vision-language.github.io/MagicLens/
+
+MagicLens[width=1em]figures/magiclens.png: Self-Supervised Image Retrieval with Open-Ended Instructions
+https://arxiv.org/pdf/2403.19651
+
+Untitled37.ipynb - Colab
+https://colab.research.google.com/drive/1gY8xFPA-WxNWoQf9Kbx0Q4n_MrmQphmZ#scrollTo=HRIgxQoCbKc6
+
+Matcha-TTS/matcha/app.py at main · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/app.py
+
+multilingual-distilwhisper/DistilWhisper License.txt at main · naver/multilingual-distilwhisper
+https://github.com/naver/multilingual-distilwhisper/blob/main/DistilWhisper%20License.txt
+
+thomas-ferraz/Whisper-Robustness: Fine-tuning SOTA Speech Foundation Model (Whisper) for Speech Transcription
+https://github.com/thomas-ferraz/Whisper-Robustness
+
+naver/multilingual-distilwhisper: This repository contains all the code necessary for running the multilingual distilwhisper from Ferraz et al. 2024 IEEE ICASSP paper.
+https://github.com/naver/multilingual-distilwhisper?tab=readme-ov-file
+
+naver/multilingual-distilwhisper-28k · Hugging Face
+https://huggingface.co/naver/multilingual-distilwhisper-28k
+
+Wayback Machine
+https://web.archive.org/web/*/https://www.speech.kth.se/prod/publications/files/qpsr/1975/*
+
+Best Disk Usage Analyzers - Free Up Space on Mac | Nektony
+https://nektony.com/blog/clear-disk-space-on-mac
+
+difflib — Helpers for computing deltas — Python 3.12.3 documentation
+https://docs.python.org/3/library/difflib.html
+
+Your location to S:ta Clara Restaurant, Bierhaus & Live Musik Venue - Google Maps
+https://www.google.com/maps/dir/59.3483883,18.0748271/S:ta+Clara+Restaurant,+Bierhaus+%26+Live+Musik+Venue,+Lilla+Nygatan+17,+111+28+Stockholm/@59.3359979,18.0505272,14z/am=t/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x465f77e253afd469:0xb0a8fa4f5801e30e!2m2!1d18.0690807!2d59.323589?entry=ttu
+
+CVPR 2024 Workshop HuMoGen Authors | OpenReview
+https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/HuMoGen/Authors&referrer=%5BHomepage%5D(%2F)
+
+Fake it to make it: Using synthetic data to remedy the data shortage in joint multimodal speech-and-gesture synthesis | OpenReview
+https://openreview.net/forum?id=3IdxENWcVH&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2024%2FWorkshop%2FHuMoGen%2FAuthors%23your-submissions)
+
+GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing | OpenReview
+https://openreview.net/forum?id=kyaIeYj4zZ
 
 pdf
-https://openreview.net/pdf?id=nBZBPXdJlC
+https://openreview.net/pdf?id=kyaIeYj4zZ
 
-What is the difference between `register_buffer` and `register_parameter` of `nn.Module` - PyTorch Forums
-https://discuss.pytorch.org/t/what-is-the-difference-between-register-buffer-and-register-parameter-of-nn-module/32723/8
+camera-ready submission instructions - Google Drive
+https://drive.google.com/drive/folders/1tGdKTpFVU5z261SvVyz5IbB_blkZbhmU
 
-encodec extract tokens - Google Search
-https://www.google.com/search?q=encodec+extract+tokens&rlz=1C5GCEM_enSE990SE991&oq=encodec+extract+tokens&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDQ1NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+CVPR 2024 Workshop HuMoGen | OpenReview
+https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/HuMoGen&referrer=%5BHomepage%5D(%2F)#tab-your-consoles
 
-audiocraft/docs/MBD.md at main · facebookresearch/audiocraft
-https://github.com/facebookresearch/audiocraft/blob/main/docs/MBD.md
+HuMoGen Workshop@CVPR24
+https://humogen.github.io/
 
-facebookresearch/encodec: State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio.
-https://github.com/facebookresearch/encodec?tab=readme-ov-file
+CVPR 2024 Workshop HuMoGen | OpenReview
+https://openreview.net/group?id=thecvf.com/CVPR/2024/Workshop/HuMoGen#tab-your-consoles
 
-CLAP
-https://huggingface.co/docs/transformers/main/en/model_doc/clap
+CVPR 2024
+https://cvpr.thecvf.com/Conferences/2024/workshop-list
 
-facebook/encodec_24khz · Hugging Face
-https://huggingface.co/facebook/encodec_24khz
+HuMoGen Workshop@CVPR24
+https://humogen.github.io/
 
-encodec/encodec/modules/seanet.py at main · facebookresearch/encodec
-https://github.com/facebookresearch/encodec/blob/main/encodec/modules/seanet.py
+(1) Alex Clemmer 🔥🔥🔥😅🔥🔥🔥 on X: "95% of what we are doing in AI is stuff that's simple enough to explain to a child, made way over-complicated by mathematical-looking notation and unclear thinking. A short rant 🧵 using attention as an example." / X
+https://twitter.com/hausdorff_space/status/1778828850686046337
 
-encodec/encodec/balancer.py at main · facebookresearch/encodec
-https://github.com/facebookresearch/encodec/blob/main/encodec/balancer.py
+2309.15826.pdf
+https://arxiv.org/pdf/2309.15826.pdf
 
-EnCodec
-https://huggingface.co/docs/transformers/en/model_doc/encodec
+facebook/mbart-large-50-many-to-many-mmt · Hugging Face
+https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt
 
-William Falcon ⚡️ on X: "In this new 90 minute lecture, I show how to pretrain a 3B LLM from scratch. No edits. No detail skipped. Companies want you to believe pretraining models is super hard and costly. With the right tools, it's not. - We start by tuning the model on a cheap A10G. - Then we scale… https://t.co/01xmjDhq8t" / X
-https://twitter.com/_willfalcon/status/1757028556809355439
+facebook/mbart-large-50 · Hugging Face
+https://huggingface.co/facebook/mbart-large-50
 
-Let's pretrain a 3B LLM from scratch: on 16+ H100 GPUs, no detail skipped. - YouTube
-https://www.youtube.com/watch?v=aPzbR1s1O_8
+1803.10299.pdf
+https://arxiv.org/pdf/1803.10299.pdf
 
-3DTopia - a Hugging Face Space by hongfz16
-https://huggingface.co/spaces/hongfz16/3DTopia
+hf-hub-lightning/hf_hub_lightning/callback.py at main · nateraw/hf-hub-lightning
+https://github.com/nateraw/hf-hub-lightning/blob/main/hf_hub_lightning/callback.py
 
-3DTopia/3DTopia: Text-to-3D Generation within 5 Minutes
-https://github.com/3DTopia/3DTopia?tab=readme-ov-file
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2024-04-15
 
-hongfz16/3DTopia at main
-https://huggingface.co/hongfz16/3DTopia/tree/main
+3.pdf
+https://web.stanford.edu/~jurafsky/slp3/3.pdf
 
-for-ai/aya-annotations-ui: Web UI & Backend for Data Annotations in Aya
-https://github.com/for-ai/aya-annotations-ui?tab=readme-ov-file
+cumulative entropy python ngram - Google Search
+https://www.google.com/search?q=cumulative+entropy+python+ngram&sca_esv=df9114d5be7f4ca8&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0-BgjYYMNYYFRA-AHAqN0zIo3MKsw%3A1713174811346&ei=G_kcZr_QFKCxwPAPoJCriA8&ved=0ahUKEwj_ycXA-cOFAxWgGBAIHSDICvEQ4dUDCBA&uact=5&oq=cumulative+entropy+python+ngram&gs_lp=Egxnd3Mtd2l6LXNlcnAiH2N1bXVsYXRpdmUgZW50cm9weSBweXRob24gbmdyYW1IpAdQtAVYtAVwAXgBkAEAmAFaoAFaqgEBMbgBA8gBAPgBAZgCAaACA8ICChAAGEcY1gQYsAOYAwCIBgGQBgiSBwExoAdT&sclient=gws-wiz-serp#ip=1
 
-CohereForAI/aya-101 · Hugging Face
-https://huggingface.co/CohereForAI/aya-101
+nltk.lm.api entropy formula source? · Issue #2961 · nltk/nltk
+https://github.com/nltk/nltk/issues/2961
 
-CohereForAI/aya_dataset · Datasets at Hugging Face
-https://huggingface.co/datasets/CohereForAI/aya_dataset
+Entropy for N-Grams
+http://normal-extensions.com/2013/08/04/entropy-for-n-grams/
 
-CohereForAI/aya_collection · Datasets at Hugging Face
-https://huggingface.co/datasets/CohereForAI/aya_collection
+scipy.stats.entropy — SciPy v1.13.0 Manual
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html
 
-Submitted to INTERSPEECH
-https://assets.amazon.science/5d/7a/43347a464718b174897dfbadeddc/dont-stop-self-supervision-accent-adaptation-of-speech-representations-via-residual-adapters.pdf
+language_engr/Assignment2/a02/LanguageModels/BigramTester.py at master · MaxDauber/language_engr
+https://github.com/MaxDauber/language_engr/blob/master/Assignment2/a02/LanguageModels/BigramTester.py
 
-116827.pdf
-https://www.scitepress.org/Papers/2023/116827/116827.pdf
+language_engr/Assignment2/assignment02.pdf at master · MaxDauber/language_engr
+https://github.com/MaxDauber/language_engr/blob/master/Assignment2/assignment02.pdf
 
-examples/language_model/README.md · osanseviero/HUBERT at fc67275d986c0d49bf35d125254ffc4568974089
-https://huggingface.co/spaces/osanseviero/HUBERT/blob/fc67275d986c0d49bf35d125254ffc4568974089/examples/language_model/README.md
+Parler-TTS Mini - a Hugging Face Space by parler-tts
+https://huggingface.co/spaces/parler-tts/parler_tts_mini
 
-pdf
-https://openreview.net/pdf?id=zrAUoI2JA2
+1177
+https://www.1177.se/Stockholm/
 
-vowel-detector/vowel-detector.praat at master · parantes/vowel-detector
-https://github.com/parantes/vowel-detector/blob/master/vowel-detector.praat
+Dental care - 1177
+https://www.1177.se/Stockholm/undersokning-behandling/tandvard/
 
-speaker_recognition_GMM_UBM/src/speaker_recognition/UBM.py at master · scelesticsiva/speaker_recognition_GMM_UBM
-https://github.com/scelesticsiva/speaker_recognition_GMM_UBM/blob/master/src/speaker_recognition/UBM.py
+Inloggning - 1177
+https://arende.1177.se/public/logout
 
-Götaland dialects - Wikipedia
-https://en.wikipedia.org/wiki/G%C3%B6taland_dialects
+Inloggning - 1177
+https://arende.1177.se/public/logout
 
-zhenghuatan/GMM-UBM_MAP_SV: Python code for training and testing of GMM-UBM and maximum a posterirori (MAP) adaptation based speaker verification
-https://github.com/zhenghuatan/GMM-UBM_MAP_SV
+Online booking
+https://www.folktandvardenstockholm.se/webbokning/
 
-Anwarvic/Speaker-Recognition: This repo contains my attempt to create a Speaker Recognition and Verification system using SideKit-1.3.1
-https://github.com/Anwarvic/Speaker-Recognition
+Prepare your healthcare visit - 1177
+https://www.1177.se/Stockholm/undersokning-behandling/forbered-ditt-vardbesok/
 
-tobiasfshr/gmm-ubm-speaker-identification-verification: Implementation of a speaker identification and a speaker verification system based on Gaussian Mixture Models (GMM) in combination with and Universal Background Model (UBM) on the YOHO dataset in MATLAB.
-https://github.com/tobiasfshr/gmm-ubm-speaker-identification-verification
+2022.naacl-main.376.pdf
+https://aclanthology.org/2022.naacl-main.376.pdf
 
-vivraj17/Detection-Of-Parkinson-s-Disesase-Using-Voice-Impairments-With-ML-and-LSTM: Several studies have been carried out to analyse Parkinson’s disease using speech impairments. Various tools and techniques have been used on speech signals to accurately predict Parkinson’s in an individual. In this paper, we have proposed to use various Machine Learning techniques to compare results and predict PD. We have found that Deep Learning gives extremely accurate results over tremor data of individuals (both healthy and PD patients). So, we not only run various Machine Learning techniques that have been used for speech processing, we also run a Deep Learning model on speech data since it produced better results over tremor data that is analogically similar to speech data.
-https://github.com/vivraj17/Detection-Of-Parkinson-s-Disesase-Using-Voice-Impairments-With-ML-and-LSTM
+ReneeYe/ConST: code for paper "Cross-modal Contrastive Learning for Speech Translation" (NAACL 2022)
+https://github.com/ReneeYe/ConST
 
-Python Machine Learning Project - Detecting Parkinson’s Disease with XGBoost - DataFlair
-https://data-flair.training/blogs/python-machine-learning-project-detecting-parkinson-disease/
+shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://github.com/shivammehta25/Matcha-TTS
 
-imadtoubal/Parkinson-s-Disease-Classification-from-Speech-Data: Parkinson’s Disease Classification from Speech Data using multiple Machine Learning approaches. This was implemented using scikit-learn Python package.
-https://github.com/imadtoubal/Parkinson-s-Disease-Classification-from-Speech-Data?tab=readme-ov-file
+shivammehta25 (shivammehta25) / Repositories
+https://github.com/shivammehta25?tab=repositories
 
-A comparative analysis of speech signal processing algorithms for Parkinson’s disease classification and the use of the tunable Q-factor wavelet transform - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S1568494618305799?via%3Dihub
+shivammehta25/Machine-Learning-Lab: Writing Machine Learning Algorithms From Scratch
+https://github.com/shivammehta25/Machine-Learning-Lab
 
-Parkinson's disease detection from vocal biomarker
-https://www.kaggle.com/code/nasrulhakim86/parkinson-s-disease-detection-from-vocal-biomarker/input
+Diff-TTSG/diff_ttsg/train.py at main · shivammehta25/Diff-TTSG
+https://github.com/shivammehta25/Diff-TTSG/blob/main/diff_ttsg/train.py
 
-Parkinson Disease Detection
-https://www.kaggle.com/datasets/debasisdotcom/parkinson-disease-detection/code
+shivammehta25/Diff-TTSG: Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis
+https://github.com/shivammehta25/Diff-TTSG
 
-2402.08846
-https://arxiv.org/pdf/2402.08846
+Matcha-TTS/matcha/text/cleaners.py at main · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/text/cleaners.py
 
-Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
-https://umi-gripper.github.io/
+Matcha-TTS/matcha/models/matcha_tts.py at main · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/models/matcha_tts.py
 
-real-stanford/universal_manipulation_interface: Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
-https://github.com/real-stanford/universal_manipulation_interface
+OverFlow/src/model/HMMComponents at main · shivammehta25/OverFlow
+https://github.com/shivammehta25/OverFlow/tree/main/src/model/HMMComponents
 
-How do you say "What does it mean: megalszik a szájában a tej?" in Hungarian? | HiNative
-https://web.archive.org/web/20240217175923/https://hinative.com/questions/7339727
+OverFlow/src/model/HMMComponents/EmissionModel.py at main · shivammehta25/OverFlow
+https://github.com/shivammehta25/OverFlow/blob/main/src/model/HMMComponents/EmissionModel.py
 
-fairseq/fairseq/models/wav2vec/wav2vec2_laser.py at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/fairseq/models/wav2vec/wav2vec2_laser.py
+OverFlow/src/model/HMMComponents/TransitionModel.py at main · shivammehta25/OverFlow
+https://github.com/shivammehta25/OverFlow/blob/main/src/model/HMMComponents/TransitionModel.py
 
-fairseq/fairseq/models/wav2vec/wav2vec2_asr.py at main · facebookresearch/fairseq
-https://github.com/facebookresearch/fairseq/blob/main/fairseq/models/wav2vec/wav2vec2_asr.py
+OverFlow/src/model/HMMComponents/Decoder.py at main · shivammehta25/OverFlow
+https://github.com/shivammehta25/OverFlow/blob/main/src/model/HMMComponents/Decoder.py
 
-wav2vecasr/PhonemeASRModel.py · peproject/pronounciationevaluation at main
-https://huggingface.co/spaces/peproject/pronounciationevaluation/blob/main/wav2vecasr/PhonemeASRModel.py
+Speech-Backbones/Grad-TTS at main · huawei-noah/Speech-Backbones
+https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS
 
-google-research-datasets/WikipediaHomographData: Labeled data for homograph disambiguation
-https://github.com/google-research-datasets/WikipediaHomographData
+glow-tts/monotonic_align/core.pyx at master · jaywalnut310/glow-tts
+https://github.com/jaywalnut310/glow-tts/blob/master/monotonic_align/core.pyx
 
-Phonological rules — Montreal Forced Aligner 3.0.0 documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementations/phonological_rules.html
+HEALTH :: SICKO FT. GODFLESH :: MUSIC VIDEO - YouTube
+https://www.youtube.com/watch?v=rZ31xb1NVy8
 
-SPEECH / creapy · GitLab
-https://gitlab.tugraz.at/speech/creapy
+TSD Riksdag - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/661d3bf3db367b27461c5f38
 
-google-research/pair_ngram/train.py at a11608cbc079aab875f354ada5253f8ebd4a5764 · google-research/google-research
-https://github.com/google-research/google-research/blob/a11608cbc079aab875f354ada5253f8ebd4a5764/pair_ngram/train.py
+YouTube
+https://www.youtube.com/
 
-google-research/pair_ngram/predict_lexicon.py at a11608cbc079aab875f354ada5253f8ebd4a5764 · google-research/google-research
-https://github.com/google-research/google-research/blob/a11608cbc079aab875f354ada5253f8ebd4a5764/pair_ngram/predict_lexicon.py
+Instagram
+https://www.instagram.com/
 
-Named Entity Transcription with Pair n-Gram Models
-https://storage.googleapis.com/gweb-research2023-media/pubtools/pdf/35254.pdf
+Instagram
+https://www.instagram.com/
 
-BaumWelch < GRM < TWiki
-https://web.archive.org/web/20231128152216/https://www.opengrm.org/twiki/bin/view/GRM/BaumWelch
+Conan O'Brien Must Go - Conan O'brien Must Go | IMDb
+https://www.imdb.com/video/vi2387985433/?ref_=vp_rv_ap_0
 
-hmm/source/baum_welch.py at main · tuanio/hmm
-https://github.com/tuanio/hmm/blob/main/source/baum_welch.py
+events stockholm today - Google Search
+https://www.google.com/search?q=events+stockholm+today&rlz=1C5GCEM_enSE990SE991&oq=events+stockholm+today&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigXSAQgzNTM3ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
 
-nanohmm/nanohmm.py at master · sukhoy/nanohmm
-https://github.com/sukhoy/nanohmm/blob/master/nanohmm.py
+Accessories & Snacks - Crispy and crunchy favourites! | McDonald's
+https://www.mcdonalds.com/se/sv-se/var-meny/tillbehor-och-snacks.html
 
-Tutorial — hmmlearn 0.3.2.post4+g33b1a91 documentation
-https://hmmlearn.readthedocs.io/en/latest/tutorial.html
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2024-04-16
 
-8.11.3. sklearn.hmm.GMMHMM — scikit-learn 0.11-git documentation
-https://ogrisel.github.io/scikit-learn.org/sklearn-tutorial/modules/generated/sklearn.hmm.GMMHMM.html
+Call for Abstracts: CLARIN Annual Conference 2024 | CLARIN ERIC
+https://www.clarin.eu/content/call-abstracts-clarin-annual-conference-2024
 
-gmm-hmm-asr/src/gmm_hmm_asr/models/gmm.py at master · desh2608/gmm-hmm-asr
-https://github.com/desh2608/gmm-hmm-asr/blob/master/src/gmm_hmm_asr/models/gmm.py
+Conferences - LiU Electronic Press
+https://ep.liu.se/en/conferences.aspx
 
-w2v-BERT
-https://anwarvic.github.io/speech-recognition/w2v-BERT
+Instructions for CLARIN2024 Proceedings - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/655f25f904f207ed5aabbdfd
 
-Combined Semi-supervised Learning
-https://anwarvic.github.io/speech-recognition/Combined_SSL
+Selected papers from the CLARIN Annual Conference 2022 | CLARIN Annual Conference
+https://ecp.ep.liu.se/index.php/clarin/issue/view/79
 
-Anwarvic (✌️ Mohamed Anwar)
-https://github.com/anwarvic
+CLARIN Annual Conference 2024 | CLARIN ERIC
+https://www.clarin.eu/event/2024/clarin-annual-conference-2024
 
-Anwarvic/Mathematics-for-ML-Specialization: This is the solution of the "Mathematics for Machine Learning Specialization" made by Coursera
-https://github.com/Anwarvic/Mathematics-for-ML-Specialization
+CLARIN2020 Book of Abstracts | CLARIN ERIC
+https://www.clarin.eu/content/clarin2020-book-abstracts
 
-Anwarvic/Calculus-Two--Coursera: This repo contains my solution to the Coursera course "Calculus Two: Sequences and Series" created by Prof. Jim Fowler from The Ohio State University.
-https://github.com/Anwarvic/Calculus-Two--Coursera
+The CLARIN Bazaar 2020 | CLARIN ERIC
+https://www.clarin.eu/content/clarin-bazaar-2020
 
-Fusion
-https://anwarvic.github.io/machine-translation/Fusion
+Call for Submission of Extended Abstracts CLARIN Annual Conference 2024 - Research school for Media Studies (RMeS)
+https://www.rmes.nl/call-for-submission-of-extended-abstracts-clarin-annual-conference-2024/
 
-Speech Recognition
-https://anwarvic.github.io/speech-recognition/
+Call for Abstracts: CLARIN Annual Conference 2022 | CLARIN ERIC
+https://www.clarin.eu/content/call-abstracts-clarin-annual-conference-2022
 
-Auto-AVSR
-https://anwarvic.github.io/speech-recognition/Auto-AVSR
+CLARIN Annual Conference | CLARIN ERIC
+https://www.clarin.eu/content/clarin-annual-conference
 
-AVSpeech: Audio Visual Speech Dataset
-https://looking-to-listen.github.io/avspeech/
+CE-2021-1923-CLARIN2021_ConferenceProceedings.pdf
+https://office.clarin.eu/v/CE-2021-1923-CLARIN2021_ConferenceProceedings.pdf
 
-LP Conformer for VSR/AVSR
-https://anwarvic.github.io/speech-recognition/LP_Conformer
+Språkbanken Tal github - Google Search
+https://www.google.com/search?q=Spr%C3%A5kbanken+Tal+github&rlz=1C5GCEM_enSE990SE991&oq=Spr%C3%A5kbanken+Tal+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE1ODNqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
-2302.10915.pdf
-https://arxiv.org/pdf/2302.10915.pdf
+Språkbanken Tals hemsida
+https://www.sprakbanken.speech.kth.se/data/simulerror/
 
-Audio-Visual data2vec
-https://anwarvic.github.io/speech-recognition/AV-data2vec
+sprakbankental/data-simulerror: Python code for simulating speech error patterns on transcribed spoken data and measuring pattern effect
+https://github.com/sprakbankental/data-simulerror
 
-2302.06419.pdf
-https://arxiv.org/pdf/2302.06419.pdf
+Språkbanken Tal
+https://github.com/sprakbankental
 
-u-HuBERT: A Unified HuBERT
-https://anwarvic.github.io/speech-recognition/u-HuBERT
+data-swmc/SWMC/SpeechData/GIL2P_Data.txt at master · sprakbankental/data-swmc
+https://github.com/sprakbankental/data-swmc/blob/master/SWMC/SpeechData/GIL2P_Data.txt
 
-Whisper
-https://anwarvic.github.io/speech-recognition/Whisper
+Course groups: DT2119/FDT3119 VT24 Speech and Speaker Recognition
+https://canvas.kth.se/courses/46254/groups#tab-26436
 
-Lip Reading Sentences 3 Dataset
-https://mmai.io/datasets/lip_reading/
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2024-04-16
 
-AV-CPL: Continuous Pseudo-Labeling for Audio-Visual Speech Recognition | OpenReview
-https://openreview.net/forum?id=k542OjwsQK
+hf-hub-lightning/examples at main · nateraw/hf-hub-lightning
+https://github.com/nateraw/hf-hub-lightning/tree/main/examples
 
-pdf
-https://openreview.net/pdf?id=k542OjwsQK
+windows - How do you get a directory listing sorted by creation date in python? - Stack Overflow
+https://stackoverflow.com/questions/168409/how-do-you-get-a-directory-listing-sorted-by-creation-date-in-python
 
-Continuous pseudo-labeling from the start | OpenReview
-https://openreview.net/forum?id=m3twGT2bAug
+SLURM_training_session_TMH-11042024 - KTH Play
+https://play.kth.se/media/SLURM_training_session_TMH-11042024/0_o9pwhpwp
 
-baby22_interspeech.pdf
-https://www.isca-archive.org/interspeech_2022/baby22_interspeech.pdf
+Adding `safetensors` variant of this model (#1) · jimregan/bert-base-irish-cased-v1-finetuned-ner at 738b41d
+https://huggingface.co/jimregan/bert-base-irish-cased-v1-finetuned-ner/commit/738b41dab7c0b7a328ecbf2e824f85c85d575ad6
 
-[2106.07759v2] Kaizen: Continuously improving teacher using Exponential Moving Average for semi-supervised speech recognition
-https://arxiv.org/abs/2106.07759v2
+jimregan/wav2vec2-swedish-riksdag-200h · Training metrics
+https://huggingface.co/jimregan/wav2vec2-swedish-riksdag-200h/tensorboard
 
-ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++
-https://github.com/ggerganov/whisper.cpp?tab=readme-ov-file
+Visualize Model Training with TensorBoard — PyText documentation
+https://pytext.readthedocs.io/en/master/visualize_your_model.html
 
-whisper.cpp/models/README.md at master · ggerganov/whisper.cpp
-https://github.com/ggerganov/whisper.cpp/blob/master/models/README.md
+huggingface/huggingface_hub: The official Python client for the Huggingface Hub.
+https://github.com/huggingface/huggingface_hub
 
-hmmlearn/examples/plot_casino.py at main · hmmlearn/hmmlearn
-https://github.com/hmmlearn/hmmlearn/blob/main/examples/plot_casino.py
+Managing local and online repositories
+https://huggingface.co/docs/huggingface_hub/package_reference/repository
 
-larsmans/seqlearn: Sequence learning toolkit for Python
-https://github.com/larsmans/seqlearn
+Upload files to the Hub
+https://huggingface.co/docs/huggingface_hub/guides/upload
 
-Mamba: The Hard Way
-https://srush.github.io/annotated-mamba/hard.html
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/v0.22.2/en/package_reference/hf_api#huggingface_hub.HfApi.create_repo
 
-G2P models — mfa model 3.0.0a4 documentation
-https://mfa-models.readthedocs.io/en/latest/g2p/index.html#g2p
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/v0.22.2/en/package_reference/hf_api#huggingface_hub.HfApi
 
-Lena Hallengren – Wikipedia
-https://sv.wikipedia.org/wiki/Lena_Hallengren
+Instagram
+https://www.instagram.com/
 
-GeoHack - Kalmar domkyrkoförsamling
-https://geohack.toolforge.org/geohack.php?language=sv&pagename=Kalmar_domkyrkof%C3%B6rsamling&params=56.664722222222_N_16.365555555556_E_type:landmark_region:SE
+How to Release a Pinched Nerve in Shoulder | MGS Physio
+https://www.mgs.physio/how-to-release-a-pinched-nerve-in-your-shoulder/
 
-Star Trek Spinoff - SNL - YouTube
-https://www.youtube.com/watch?v=XZps0fR5TE4
+Calendar
+https://canvas.kth.se/calendar#view_name=month&view_start=2024-04-17
 
-Can american Guess People's Languages? (Tagalog, Catalan, Malay, Indonesian, Italian, Portuguese) - YouTube
-https://www.youtube.com/watch?v=tGckTCr-ymA
+Course groups: DT2119/FDT3119 VT24 Speech and Speaker Recognition
+https://canvas.kth.se/courses/46254/groups#tab-26436
 
-Breaking Down the Flirty LANA LANG Scenes in SMALLVILLE - YouTube
-https://www.youtube.com/watch?v=skLaEdNE_9w
+Gradebook - DT2119/FDT3119 VT24 Speech and Speaker Recognition
+https://canvas.kth.se/courses/46254/gradebook
+
+DT2119/lab2/lab2_proto.py at master · florakth/DT2119
+https://github.com/florakth/DT2119/blob/master/lab2/lab2_proto.py
+
+Instagram
+https://www.instagram.com/
+
+Pull request search results
+https://github.com/search?q=repo%3Am-bain%2FwhisperX+phoneme&type=pullrequests
+
+Can I get phonemes or syllable with whisperX? · Issue #424 · m-bain/whisperX
+https://github.com/m-bain/whisperX/issues/424
+
+Detecting Syllable / Phonetic Timestamps · Issue #762 · m-bain/whisperX
+https://github.com/m-bain/whisperX/issues/762
+
+my-voice-analysis/myspsolution.praat at master · Shahabks/my-voice-analysis
+https://github.com/Shahabks/my-voice-analysis/blob/master/myspsolution.praat
+
+Aligned timestamp for the last phoneme is too long for Dutch language · Issue #749 · m-bain/whisperX
+https://github.com/m-bain/whisperX/issues/749
+
+Instructions for CLARIN2024 Proceedings - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/655f25f904f207ed5aabbdfd
+
+Your Projects - Overleaf, Online LaTeX Editor
+https://www.overleaf.com/project
+
+Inbox • Direct
+https://www.instagram.com/direct/t/102052201197290/
+
+Instagram
+https://www.instagram.com/
+
+George Takei (@georgehtakei) • Instagram photos and videos
+https://www.instagram.com/georgehtakei/
+
+Lindsey Graham Calls Trump Criminal Trial 'Election Interference' - Second Nexus
+https://secondnexus.com/lindsey-graham-truth-trump-trial?utm_source=buffershopgrid&utm_medium=viral&utm_campaign=gtakinsta
+
+Events in Stockholm - What's on? - Visit Stockholm
+https://www.visitstockholm.com/events/?date_from=2024-04-17&date_to=2024-04-17&page=5
+
+Ryssgården - Google Maps
+https://www.google.com/maps/place/Ryssg%C3%A5rden,+Stockholm/@59.3197914,18.0716161,17z/data=!3m1!4b1!4m6!3m5!1s0x465f77e4aa54f8ad:0x491597c0f1550889!8m2!3d59.3197914!4d18.0716161!16s%2Fg%2F11dyj3lsq?entry=ttu
+
+Brickwrecks - Visit Stockholm
+https://www.visitstockholm.com/events/brickwrecks/next/
+
+OHTSEDIDH – Sami Cultural Expressions in Central Sweden - Visit Stockholm
+https://www.visitstockholm.com/events/ohtsedidh-sami-cultural-expressions-in-central-swe/next/
+
+Division of Speech, Music and Hearing - KTH to John Ericssonsgatan 15, 112 22 Stockholm - Google Maps
+https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/John+Ericssonsgatan+15,+112+22+Stockholm/@59.3288507,18.0364626,16.82z/am=t/data=!4m15!4m14!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f77d7f4f00527:0x94f0e2e83b535079!2m2!1d18.0377523!2d59.3294658!3e3!5i2?entry=ttu
+
+85 Kvadrat Tapas Stockholm Polish Tapas
+https://85kvadrattapas.se/polsk-tapas/
+
+Have I Got (A Bit More) News For You - S67E03 : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1c91mtt/have_i_got_a_bit_more_news_for_you_s67e03/
+
+Piratebay Proxy - A List of Pirate Bay Proxy sites and mirrors
+https://piratebayproxy.info/
+
+The Pirate Bay - The galaxy's most resilient bittorrent site
+https://thehiddenbay.com/search/jonathan%20ross/1/99/0
+
+OverFlow: Putting flows on top of neural transducers for better TTS | OverFlow
+https://shivammehta25.github.io/OverFlow/
+
+dt2119/labs/lab2/solution/lab2_solution.ipynb at main · tmh/dt2119
+https://gits-15.sys.kth.se/tmh/dt2119/blob/main/labs/lab2/solution/lab2_solution.ipynb
+
+Learning Hidden Markov Models with simple examples and Matlab [part 1] | by Aleksandar Hadzhiyski | Medium
+https://aleksandar-had.medium.com/learning-hidden-markov-models-with-simple-examples-and-matlab-part-1-856eb25e7576
+
+Markov Model | Introduction To Hidden Markov Models Using Python
+https://www.digitalvidya.com/blog/markov-models/
+
+gaussian mixture model - Google Search
+https://www.google.com/search?q=gaussian+mixture+model&rlz=1C5GCEM_enSE990SE991&oq=gaussi&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIGCAAQRRg5MgwIARAAGEMYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDIzMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+2.1. Gaussian mixture models — scikit-learn 1.4.2 documentation
+https://scikit-learn.org/stable/modules/mixture.html
+
+Mixture model - Wikipedia
+https://en.wikipedia.org/wiki/Mixture_model
+
+pytorch-crf — pytorch-crf 0.7.2 documentation
+https://pytorch-crf.readthedocs.io/en/stable/
+
+Conditional Random Field Tutorial in PyTorch 🔥 | by Freddy Boulton | Towards Data Science
+https://towardsdatascience.com/conditional-random-field-tutorial-in-pytorch-ca0d04499463
+
+mal-013.dvi
+https://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf
+
+allennlp/allennlp/models/simple_tagger.py at master · allenai/allennlp
+https://github.com/allenai/allennlp/blob/master/allennlp/models/simple_tagger.py
+
+Instagram
+https://www.instagram.com/
+
+Téacs Taistil - Stócólm, An tSualainn | Seinnteoir | Irish Television Channel, Súil Eile
+https://www.tg4.ie/ga/player/catagoir/siamsaiocht/seinn/?pid=6350526976112&title=St%C3%B3c%C3%B3lm,%20An%20tSualainn&series=T%C3%A9acs%20Taistil&genre=Siamsaiocht
+
+Jupyter Notebook Viewer
+https://nbviewer.org/gist/r9y9/e7d6604757403ec74557ccd93e1f0c8c
+
+Rabbit Show Jumping (@rabbitshowjumping) • Instagram photos and videos
+https://www.instagram.com/rabbitshowjumping/
+
+(1) Alexander Doria on X: "Big announcement: @pleiasfr releases a massive open corpus of 2 million Youtube videos in Creative Commons (CC-By) on @huggingface. Youtube-Commons features 30 billion words of audio transcriptions in multiple languages, and soon other modalities https://t.co/BevSENB7KZ https://t.co/31Ya7utO7D" / X
+https://twitter.com/Dorialexander/status/1780959636306481476?t=K-j1T-Y4AdcugtvJu505SQ&s=09
+
+PleIAs/YouTube-Commons · Datasets at Hugging Face
+https://huggingface.co/datasets/PleIAs/YouTube-Commons/viewer/default/train?f%5Boriginal_language%5D%5Bvalue%5D=%27pl%27&row=119282
+
+(1) Jak znaleźć lepszą pracę wg Teorii gier (jeszcze lepszą), cz. 1. @ekonomia_podatki_teoria_gier - YouTube
+https://www.youtube.com/watch?v=I3GElzhbf_U
+
+PleIAs/YouTube-Commons · Datasets at Hugging Face
+https://huggingface.co/datasets/PleIAs/YouTube-Commons/viewer/default/train?f%5Boriginal_language%5D%5Bvalue%5D=%27hu%27&row=282453
+
+(1) 516. Fejszés favágás kezdő falusiaknak - YouTube
+https://www.youtube.com/watch?v=iDuvkZFQelM
+
+PleIAs/YouTube-Commons · Datasets at Hugging Face
+https://huggingface.co/datasets/PleIAs/YouTube-Commons/viewer/default/train?f%5Boriginal_language%5D%5Bvalue%5D=%27ga%27
+
+RefFusion: Reference Adapted Diffusion Models for 3D Scene Inpainting
+https://reffusion.github.io/
+
+[2306.01128] Learning Transformer Programs
+https://arxiv.org/abs/2306.01128
+
+Blog – Page 2 – Open Source Initiative
+https://opensource.org/blog/page/2
+
+Managing local and online repositories
+https://huggingface.co/docs/huggingface_hub/main/en/package_reference/repository
+
+huggingface_hub/src/huggingface_hub/hf_api.py at main · huggingface/huggingface_hub
+https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/hf_api.py
+
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api
+
+(1) We're just normal men on X: "We're just innocent men https://t.co/fizGBoK8Ws" / X
+https://twitter.com/wejustnormalmen/status/1782333532548780059
+
+allophoible/all_missing.csv at main · Aariciah/allophoible
+https://github.com/Aariciah/allophoible/blob/main/all_missing.csv
+
+Publications – DIAS
+https://www.dias.ie/celt/celt-publications-2/
+
+texexec
+https://www.dias.ie/wp-content/uploads/2014/03/track01.pdf
+
+The Irish of Iorras Aithneach, County Galway, Volume 1
+https://www.dias.ie/wp-content/uploads/2010/08/Iorras_Aithneach_Volume_1.pdf
+
+West Perthshire Gaelic: phonology, morphology, texts, and lexicon – DIAS Shop
+https://shop.dias.ie/product/west-perthshire-gaelic-phonology-morphology-texts-and-lexicon/
+
+Caint Ros Muc – DIAS
+https://www.dias.ie/celt/celt-publications-2/caint-ros-muc/
+
+The Parsed Old and Middle Irish Corpus (POMIC) – DIAS
+https://www.dias.ie/celt/celt-publications-2/celt-the-parsed-old-and-middle-irish-corpus-pomic/
+
+Glór audio archive – DIAS
+https://www.dias.ie/celt/celt-publications-2/glor-audio-archive/
+
+Search Results for “Ó Sé” – Page 7 – DIAS Shop
+https://shop.dias.ie/page/7/?s=%C3%93+S%C3%A9&post_type=product
+
+NVIDIA/tacotron2: Tacotron 2 - PyTorch implementation with faster-than-realtime inference
+https://github.com/NVIDIA/tacotron2
+
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api
+
+Hugging Face – The AI community building the future.
+https://huggingface.co/new
+
+Gaeilge Chorca Dhuibhne – DIAS Shop
+https://shop.dias.ie/product/gaeilge-chorca-dhuibhne/
+
+libgen
+https://llhlf.com/adse8e469299bee2a9488c6b217e5157d6bUUIHGSK2
+
+libgen
+https://llhlf.com/
+
+PHOIBLE 2.0 -
+https://phoible.org/inventories/view/2521
+
+PHOIBLE 2.0 -
+https://phoible.org/download
+
+dev/raw-data/EA/README.md at master · phoible/dev
+https://github.com/phoible/dev/blob/master/raw-data/EA/README.md
+
+eurasian-phonologies/src/dbase/phono_dbase.json at master · macleginn/eurasian-phonologies
+https://github.com/macleginn/eurasian-phonologies/blob/master/src/dbase/phono_dbase.json
+
+Diarmuid Ó Sé - Gaeilge Chorca Dhuibhne (2000, Institúid Teangeolaíochta Éireann) - libgen.li.pdf
+file:///Users/joregan/Downloads/Diarmuid%20O%CC%81%20Se%CC%81%20-%20Gaeilge%20Chorca%20Dhuibhne%20(2000,%20Institu%CC%81id%20Teangeolai%CC%81ochta%20E%CC%81ireann)%20-%20libgen.li.pdf
+
+macleginn/eurasian-phonologies: The source code for http://eurasianphonology.info/
+https://github.com/macleginn/eurasian-phonologies
+
+PHOIBLE 2.0 -
+https://phoible.org/sources/1123
+
+Résultats de recherche pour « Peig » - Wikisource
+https://fr.wikisource.org/w/index.php?search=Peig&title=Sp%C3%A9cial:Recherche&ns0=1&ns102=1&ns112=1&searchToken=b6cjqrqp1vipqp6kw6zd648ie
+
+Description d’un parler irlandais de Kerry/6-4 - Wikisource
+https://fr.wikisource.org/wiki/Description_d%E2%80%99un_parler_irlandais_de_Kerry/6-4
+
+Phonétique d’un parler irlandais de Kerry/1-2 - Wikisource
+https://fr.wikisource.org/wiki/Phon%C3%A9tique_d%E2%80%99un_parler_irlandais_de_Kerry/1-2
+
+Mounting a directory using nfs version4
+https://www.unix.com/unix-for-advanced-and-expert-users/118634-mounting-directory-using-nfs-version4.html
+
+ubuntu - NFS access from multiple networks - Server Fault
+https://serverfault.com/questions/146768/nfs-access-from-multiple-networks
+
+exports(5): NFS server export table - Linux man page
+https://linux.die.net/man/5/exports
+
+jimregan/nst_swedish_tts at main
+https://huggingface.co/datasets/jimregan/nst_swedish_tts/tree/main
+
+NVIDIA/tacotron2: Tacotron 2 - PyTorch implementation with faster-than-realtime inference
+https://github.com/NVIDIA/tacotron2?tab=readme-ov-file
+
+tacotron2_statedict.pt - Google Drive
+https://drive.google.com/file/d/1c5ZTuT7J08wLUoVZ2KkUs_VdZuJ86ZqA/view
+
+waveglow_256channels_universal_v5.pt - Google Drive
+https://drive.google.com/file/d/1rpK8CzAAirq9sWZhe9nlfvxMF1dRgFbF/view
+
+hungarian tts dataset - Google Search
+https://www.google.com/search?q=hungarian+tts+dataset&rlz=1C5GCEM_enSE990SE991&oq=hungarian+tts+dataset&gs_lcrp=EgZjaHJvbWUyCwgAEEUYChg5GKABMgkIARAhGAoYoAHSAQgzNzU5ajBqOagCALACAQ&sourceid=chrome&ie=UTF-8
+
+legekka/diana-hungarian-tts-vits · Hugging Face
+https://huggingface.co/legekka/diana-hungarian-tts-vits
+
+jaywalnut310/vits: VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
+https://github.com/jaywalnut310/vits
+
+oroszgy/awesome-hungarian-nlp: A curated list of NLP resources for Hungarian
+https://github.com/oroszgy/awesome-hungarian-nlp?tab=readme-ov-file
+
+Git: checkout a single file from a specific commit (Example)
+https://coderwall.com/p/pgqlkq/git-checkout-a-single-file-from-a-specific-commit
+
+git push all branches - Google Search
+https://www.google.com/search?q=git+push+all+branches&rlz=1C5GCEM_enSE990SE991&oq=git+push+all&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIMCAQQABgUGIcCGIAEMgwIBRAAGBQYhwIYgAQyBwgGEAAYgAQyBggHEEUYPNIBCDI5ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+parameter passing - Check number of arguments passed to a Bash script - Stack Overflow
+https://stackoverflow.com/questions/18568706/check-number-of-arguments-passed-to-a-bash-script
+
+(1) YouTube
+https://www.youtube.com/
+
+Instagram
+https://www.instagram.com/
 
 (1) Home / X
 https://twitter.com/home
 
-2402.12654.pdf
-https://arxiv.org/pdf/2402.12654.pdf
+Inbox • Direct
+https://www.instagram.com/direct/t/102052201197290/
 
-2305.10790.pdf
-https://arxiv.org/pdf/2305.10790.pdf
+whisperX/whisperx/transcribe.py at main · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/main/whisperx/transcribe.py
 
-Magyar nyelv 5. (A) - II. HELYESÍRÁS, NYELVHELYESSÉG – JÁTÉKOSAN - 11. A levél és a keltezés
-https://www.nkp.hu/tankonyv/magyar-nyelv-5-nat2020/lecke_02_011
+CLARIN2024_needs_title - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/661fe5b1758af68ba42278e4
 
-huggingface transformers owsm - Google Search
-https://www.google.com/search?q=huggingface+transformers+owsm&sca_esv=52c806ab62ec5c59&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0_bkImMvm_PCA3cdqmjmEdvq_g8Sg%3A1708535634304&ei=Ui_WZYOJEsOGwPAPq_qh6Ac&ved=0ahUKEwiD-sWc97yEAxVDAxAIHSt9CH0Q4dUDCBA&uact=5&oq=huggingface+transformers+owsm&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWh1Z2dpbmdmYWNlIHRyYW5zZm9ybWVycyBvd3NtMggQABiABBiiBEjhE1DOA1jaEnABeAGQAQCYAZ4BoAHTCaoBBDEwLjO4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIEECMYJ4gGAZAGCA&sclient=gws-wiz-serp#ip=1
+Submitted to SSW
+https://www.speech.kth.se/tts-demos/SoToSpeak/SoToSpeak.pdf
 
-app.py · pyf98/OWSM_v3_demo at main
-https://huggingface.co/spaces/pyf98/OWSM_v3_demo/blob/main/app.py
+FULLTEXT03.pdf
+https://www.diva-portal.org/smash/get/diva2:1639119/FULLTEXT03.pdf
 
-[WIP] ASR model feature extraction for HuBERT SSL by wanchichen · Pull Request #5412 · espnet/espnet
-https://github.com/espnet/espnet/pull/5412
+So_To_Speak/tronduo at main · evaszekely/So_To_Speak
+https://github.com/evaszekely/So_To_Speak/tree/main/tronduo
 
-[WIP] Text Injection ASR by freddy5566 · Pull Request #5404 · espnet/espnet
-https://github.com/espnet/espnet/pull/5404/files#diff-c5cdf4cc8b77f320b52708b6223b9e03a9034257d3b8bf2d90a9889c50f1d026
+ambiguous/batch_mingle_nudge_sgr_eval.ipynb at main · evaszekely/ambiguous
+https://github.com/evaszekely/ambiguous/blob/main/batch_mingle_nudge_sgr_eval.ipynb
+
+nii-yamagishilab/mos-finetune-ssl
+https://github.com/nii-yamagishilab/mos-finetune-ssl
+
+mehta2024fakeit - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65eed8ed88a8955d4b063c4c
+
+mehta2024fakeit.pdf
+file:///Users/joregan/Downloads/mehta2024fakeit.pdf
+
+The Norwegian Parliamentary Speech Corpus
+https://aclanthology.org/2022.lrec-1.106.pdf
+
+Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction | ACM Conferences
+https://dl.acm.org/doi/proceedings/10.1145/3610977
+
+expressive tts - Google Search
+https://www.google.com/search?q=expressive+tts&rlz=1C5GCEM_enSE990SE991&oq=expressive+tts&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMg0IBBAAGIYDGIAEGIoFMgYIBRBFGD0yBggGEEUYPTIGCAcQRRg90gEIMzE4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+keonlee9420/Expressive-FastSpeech2: PyTorch Implementation of Non-autoregressive Expressive (emotional, conversational) TTS based on FastSpeech2, supporting English, Korean, and your own languages.
+https://github.com/keonlee9420/Expressive-FastSpeech2
+
+expressive-tts · GitHub Topics
+https://github.com/topics/expressive-tts
+
+keonlee9420/STYLER: Official repository of STYLER: Style Factor Modeling with Rapidity and Robustness via Speech Decomposition for Expressive and Controllable Neural Text to Speech, INTERSPEECH 2021
+https://github.com/keonlee9420/STYLER
+
+Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
+https://arxiv.org/pdf/2403.07183.pdf
+
+(1) Benjamin Warner on X: "I've written up my study group lectures on implementing Transformers in PyTorch into a blog series: Creating Transformers from Scratch: - Part 1: The Attention Mechanism https://t.co/ZCMiCMzQIp - Part 2: The Rest of the Transformer https://t.co/kWq9gWkvtp" / X
+https://twitter.com/benjamin_warner/status/1686075055027994640
+
+Creating a Transformer From Scratch - Part Two: The Rest of the Transformer | Mixed Precision
+https://benjaminwarner.dev/2023/07/28/rest-of-the-transformer
+
+Creating a Transformer From Scratch - Part One: The Attention Mechanism | Mixed Precision
+https://benjaminwarner.dev/2023/07/01/attention-mechanism
+
+commented-transformers/layers/attention.py at main · warner-benjamin/commented-transformers
+https://github.com/warner-benjamin/commented-transformers/blob/main/layers/attention.py
+
+[2404.13569] Musical Word Embedding for Music Tagging and Retrieval
+https://arxiv.org/abs/2404.13569
+
+Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent
+https://huggingface.co/blog/jat
+
+Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent
+https://arxiv.org/pdf/2402.09844.pdf
+
+(1) Home / X
+https://twitter.com/home
+
+10.210.240.9
+https://10.210.240.9/
+
+vfs cannot open root device mapper/ubuntu--vg-ubuntu--lv - Google Search
+https://www.google.com/search?q=vfs+cannot+open+root+device+mapper%2Fubuntu--vg-ubuntu--lv&rlz=1C5GCEM_enSE990SE991&oq=vfs+&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIHCAEQABiABDIQCAIQLhivARjHARiSAxiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGD0yBggHEEUYPNIBCTQ5NDM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+boot - Kernel Panic: VFS cannot open root device or unknown block error -6 - Ask Ubuntu
+https://askubuntu.com/questions/895492/kernel-panic-vfs-cannot-open-root-device-or-unknown-block-error-6
+
+boot - Kernel Panic - not syncing: VFS: Unable to mount root fs on unknown-block(0,0) - Ask Ubuntu
+https://askubuntu.com/questions/41930/kernel-panic-not-syncing-vfs-unable-to-mount-root-fs-on-unknown-block0-0
+
+boot - How can I reinstall GRUB to the EFI partition? - Ask Ubuntu
+https://askubuntu.com/questions/831216/how-can-i-reinstall-grub-to-the-efi-partition
+
+networking - Unable to reach network from chroot - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/280500/unable-to-reach-network-from-chroot
+
+Inbox • Direct
+https://www.instagram.com/direct/t/5060418777378294/
+
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running - Ask Ubuntu
+https://askubuntu.com/questions/927199/nvidia-smi-has-failed-because-it-couldnt-communicate-with-the-nvidia-driver-ma
+
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running - Graphics / Linux / Linux - NVIDIA Developer Forums
+https://forums.developer.nvidia.com/t/nvidia-smi-has-failed-because-it-couldnt-communicate-with-the-nvidia-driver-make-sure-that-the-latest-nvidia-driver-is-installed-and-running/197141
+
+dpkg - How to fix E: Internal Error, No file name for libc6 - Ask Ubuntu
+https://askubuntu.com/questions/266450/how-to-fix-e-internal-error-no-file-name-for-libc6
+
+Errors were encountered while processing DKMS - General Topics and Other SDKs / Drivers - Linux, Windows, MacOS - NVIDIA Developer Forums
+https://forums.developer.nvidia.com/t/errors-were-encountered-while-processing-dkms/236521/13
+
+apt - Unable to correct problems, you have held broken packages - Ask Ubuntu
+https://askubuntu.com/questions/223237/unable-to-correct-problems-you-have-held-broken-packages
+
+linux - How to change the default GCC compiler in Ubuntu? - Stack Overflow
+https://stackoverflow.com/questions/7832892/how-to-change-the-default-gcc-compiler-in-ubuntu
+
+[SOLVED] - Install NVIDIA Drivers | Proxmox Support Forum
+https://forum.proxmox.com/threads/install-nvidia-drivers.99597/
+
+installed nvidia-dkms-550 package post-installation script subprocess returned error exit status 10 dpkg: dependency problems prevent configuration of nvidia-driver-550: nvidia-driver-550 depends on nvidia-dkms-550 (<= 550.67-1); however: Package nvidia-dkms-550 is not configured yet. nvidia-driver-550 depends on nvidia-dkms-550 (>= 550.67); however: Package nvidia-dkms-550 is not configured yet. - Google Search
+https://www.google.com/search?q=installed+nvidia-dkms-550+package+post-installation+script+subprocess+returned+error+exit+status+10+dpkg%3A+dependency+problems+prevent+configuration+of+nvidia-driver-550%3A+nvidia-driver-550+depends+on+nvidia-dkms-550+(%3C%3D+550.67-1)%3B+however%3A+Package+nvidia-dkms-550+is+not+configured+yet.+nvidia-driver-550+depends+on+nvidia-dkms-550+(%3E%3D+550.67)%3B+however%3A+Package+nvidia-dkms-550+is+not+configured+yet.&rlz=1C5GCEM_enSE990SE991&oq=installed+nvidia-dkms-550+package+post-installation+script+subprocess+returned+error+exit+status+10+dpkg%3A+dependency+problems+prevent+configuration+of+nvidia-driver-550%3A+nvidia-driver-550+depends+on+nvidia-dkms-550+(%3C%3D+550.67-1)%3B+however%3A+Package+nvidia-dkms-550+is+not+configured+yet.+nvidia-driver-550+depends+on+nvidia-dkms-550+(%3E%3D+550.67)%3B+however%3A+Package+nvidia-dkms-550+is+not+configured+yet.&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzE4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+[SOLVED] Nvidia driver installation error exit status 10 - Linux Mint Forums
+https://forums.linuxmint.com/viewtopic.php?t=413195
+
+How to choose the default gcc and g++ version? - Ask Ubuntu
+https://askubuntu.com/questions/26498/how-to-choose-the-default-gcc-and-g-version
+
+Instagram
+https://www.instagram.com/
+
+2401.05314.pdf
+https://arxiv.org/pdf/2401.05314.pdf
+
+Pull requests · NVIDIA/NeMo-text-processing
+https://github.com/NVIDIA/NeMo-text-processing/pulls?page=2&q=is%3Apr+is%3Aclosed
+
+Commits · NVIDIA/NeMo-text-processing
+https://github.com/NVIDIA/NeMo-text-processing/commits/main/
+
+Armenian TN (#137) · NVIDIA/NeMo-text-processing@b49afa0
+https://github.com/NVIDIA/NeMo-text-processing/commit/b49afa0bedac9a78fc3b35b1d53ba85a807ab075#diff-5e20e8fa81ac323d6ad26bc74e4268d32fef457bc84c2e552ba5d7dc109f1b2d
+
+(PDF) Bilingual Prosodic Dataset Compilation for Spoken Language Translation
+https://www.researchgate.net/publication/329102408_Bilingual_Prosodic_Dataset_Compilation_for_Spoken_Language_Translation
+
+Poster template | KTH Intranet
+https://intra.kth.se/en/administration/kommunikation/mallar-kommunikationsverktyg/mallar/postermall-1.460843
+
+Project inspiration: DT2119/FDT3119 VT24 Speech and Speaker Recognition
+https://canvas.kth.se/courses/46254/pages/project-inspiration
+
+AVA: A Video Dataset of Atomic Visual Action
+https://research.google.com/ava/download.html#ava_active_speaker_download
+
+Lip Reading Image Dataset
+https://www.kaggle.com/datasets/apoorvwatsky/miraclvc1
+
+tuben/formantsynt.py at main · jbeskow/tuben
+https://github.com/jbeskow/tuben/blob/main/formantsynt.py
+
+git - How to get the last commit ID of a remote repo using curl-like command? - Stack Overflow
+https://stackoverflow.com/questions/19176359/how-to-get-the-last-commit-id-of-a-remote-repo-using-curl-like-command
+
+Instagram
+https://www.instagram.com/
+
+Restaurant Brödernas Stadion - Google Maps
+https://www.google.com/maps/place/Restaurant+Br%C3%B6dernas+Stadion/@59.3433964,18.082121,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d6b3c220e71:0x5c8645e8b5ae8ed0!8m2!3d59.3433964!4d18.082121!16s%2Fg%2F11qn87tm7b?hl=en&entry=ttu
+
+Östra Station Railway Restaurant Stockholm Dinner
+https://ostrastation.se/middag/
+
+(1) Matt Shumer on X: "Snowflake just launched the largest open-source model yet. A 482B parameter MoE. 17B active parameters and 128 experts, trained on 3.5T tokens. This model is more open than others — even the data recipe is open-source! https://t.co/dAHZ35JJPe" / X
+https://twitter.com/mattshumer_/status/1783144238034694270
+
+Snowflake/snowflake-arctic-instruct · Hugging Face
+https://huggingface.co/Snowflake/snowflake-arctic-instruct
+
+(1) Home / X
+https://twitter.com/home
+
+pyp1/VoiceCraft_830M_TTSEnhanced · Hugging Face
+https://huggingface.co/pyp1/VoiceCraft_830M_TTSEnhanced
+
+jasonppy/VoiceCraft: Zero-Shot Speech Editing and Text-to-Speech in the Wild
+https://github.com/jasonppy/VoiceCraft?tab=readme-ov-file
+
+VoiceCraft/gradio_app.py at master · jasonppy/VoiceCraft
+https://github.com/jasonppy/VoiceCraft/blob/master/gradio_app.py
+
+montreal forced aligner api - Google Search
+https://www.google.com/search?q=montreal+forced+aligner+api&rlz=1C5GCEM_enSE990SE991&oq=montreal+fo&gs_lcrp=EgZjaHJvbWUqBggCECMYJzIGCAAQRRg5MgYIARBFGDsyBggCECMYJzIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDMzMTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Workflows — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/reference/top_level_index.html
+
+A 4 Minute Neck Drill That Will Change Your Life—Follow Along With Mark - YouTube
+https://www.youtube.com/watch?v=9enAikPH_k8
+
+Have I Got News for You S67 E3. Alexander Armstrong. 19 Apr 24 - YouTube
+https://www.youtube.com/watch?v=Fz0RzrViwn4
+
+Have I Got a Bit More News for You S67 E3. Alexander Armstrong. 19 Apr 24 - YouTube
+https://www.youtube.com/watch?v=sqFlERhWU5I
+
+YouTube
+https://www.youtube.com/
+
+Instagram
+https://www.instagram.com/
+
+Kerry King - Residue (Official Music Video) - YouTube
+https://www.youtube.com/watch?v=2fALV3X9jB4
+
+The Simpsons producer 'sorry' after fans mourn the death of popular character after 35 years on the show
+https://www.ladbible.com/entertainment/tv/the-simpsons-larry-barfly-death-522881-20240425
+
+michael caine character dark knight rises - Google Search
+https://www.google.com/search?q=michael+caine+character+dark+knight+rises&sca_esv=779b01740ca52ec5&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn0-1XrTk8-zlAON8n4EaBJK9lzgE4A%3A1714046808006&ei=V0cqZpj5PLyzwPAPhcyykAo&oq=michael+caine+character+dark+knight&gs_lp=Egxnd3Mtd2l6LXNlcnAiI21pY2hhZWwgY2FpbmUgY2hhcmFjdGVyIGRhcmsga25pZ2h0KgIIADIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FSLmxAVC5BliGqwFwA3gBkAEAmAF6oAGNEKoBBDIxLjO4AQPIAQD4AQGYAhugAuMQwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQLCAg8QABiABBhDGIoFGEYY-wHCAgoQLhiABBhDGIoFwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIbEAAYgAQYQxiKBRhGGPsBGJcFGIwFGN0E2AEDwgILEAAYgAQYkQIYigXCAgsQLhiABBiRAhiKBcICBRAuGIAEwgIGEAAYFhgewgIEECEYFcICBxAhGKABGAqYAwCIBgGQBhG6BgYIARABGAm6BgYIAhABGAi6BgYIAxABGBOSBwQyMy40oAedyAE&sclient=gws-wiz-serp
+
+Your location to Kungliga biblioteket Audiovisuella medier - Google Maps
+https://www.google.com/maps/dir/59.348385,18.074839/Kungliga+biblioteket+Audiovisuella+medier,+Karlav%C3%A4gen+100,+115+26+Stockholm/@59.3413803,18.0754379,15z/data=!3m1!4b1!4m14!4m13!1m1!4e1!1m5!1m1!1s0x465f9d4333de430f:0xa3de2356a07d751f!2m2!1d18.0963685!2d59.3361619!2m3!6e1!7e2!8j1714056600!3e3?entry=ttu
+
+DT2119 projects 2024 - Google Sheets
+https://docs.google.com/spreadsheets/d/1XagJbMJ3_iSOFeCCJSd7MqdMoR7Bn-Q6YNUVKUnTsnk/edit#gid=1966729826
+
+speech2vec - Google Search
+https://www.google.com/search?q=speech2vec&rlz=1C5GCEM_enSE990SE991&oq=speech2vec&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABNIBCDI0NThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+CatalyzeX: machine intelligence to catalyze your projects
+https://www.catalyzex.com/paper/arxiv:1803.08976/code?utm_source=catalyzex.com
+
+iamyuanchung/speech2vec-pretrained-vectors: Speech2vec pre-trained word vectors
+https://github.com/iamyuanchung/speech2vec-pretrained-vectors
+
+image hash deep learning - Google Search
+https://www.google.com/search?q=image+hash+deep+learning&rlz=1C5GCEM_enSE990SE991&oq=image+hash+deep+learning&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIGCAQQRRhA0gEIODU4NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+A Survey on Deep Hashing Methods
+https://arxiv.org/pdf/2003.03369
+
+thulab/DeepHash: An Open-Source Package for Deep Learning to Hash (DeepHash)
+https://github.com/thulab/DeepHash
+
+lucene - How to find similar documents - Stack Overflow
+https://stackoverflow.com/questions/7657673/how-to-find-similar-documents
+
+python lucene - Google Search
+https://www.google.com/search?q=python+lucene&rlz=1C5GCEM_enSE990SE991&oq=python+lucene&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIKCAkQABgPGBYYHtIBCDM2MjZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+lupyne · PyPI
+https://pypi.org/project/lupyne/
+
+faton rekathati github - Google Search
+https://www.google.com/search?q=faton+rekathati+github&rlz=1C5GCEM_enSE990SE991&oq=faton+rekathati+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY3ODFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+Lauler (Faton)
+https://github.com/Lauler
+
+riksdagen-corpus/corpus/protocols/199091/prot-199091--078.xml at main · welfare-state-analytics/riksdagen-corpus
+https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main/corpus/protocols/199091/prot-199091--078.xml
+
+sprakpolisen/bot.py at main · Lauler/sprakpolisen
+https://github.com/Lauler/sprakpolisen/blob/main/bot.py
+
+transcription-aligner/data/headers.csv at main · Lauler/transcription-aligner
+https://github.com/Lauler/transcription-aligner/blob/main/data/headers.csv
+
+deformer/src/dataset.py at main · Lauler/deformer
+https://github.com/Lauler/deformer/blob/main/src/dataset.py
+
+The KBLab Blog: About KBLab
+https://kb-labb.github.io/about.html
+
+KBLab/sentence-bert-swedish-cased · Hugging Face
+https://huggingface.co/KBLab/sentence-bert-swedish-cased
+
+KBLab/rixvox · Datasets at Hugging Face
+https://huggingface.co/datasets/KBLab/rixvox
+
+The KBLab Blog: Finding Speeches in the Riksdag's Debates
+https://kb-labb.github.io/posts/2023-02-15-finding-speeches-in-the-riksdags-debates/
+
+Commits · welfare-state-analytics/riksdagen-corpus
+https://github.com/welfare-state-analytics/riksdagen-corpus/commits/main/?after=134f94b10eb75e443eeccf47d499f9eb580f8ed1+34
+
+Welfare State Analytics
+https://www.westac.se/en/
+
+kb-labb/riksdagen_anforanden
+https://github.com/kb-labb/riksdagen_anforanden
+
+National Library of Sweden / KBLab
+https://github.com/kb-labb
+
+kb-labb/kblabb-examples: Code examples and minitutorials
+https://github.com/kb-labb/kblabb-examples
+
+kb-labb/riksdagen_anforanden
+https://github.com/kb-labb/riksdagen_anforanden
+
+kb-labb/scandinavian-lm-leonardo: Training recipes for LM pretraining
+https://github.com/kb-labb/scandinavian-lm-leonardo
+
+rixvox/scripts/vad_pyannote.py at main · kb-labb/rixvox
+https://github.com/kb-labb/rixvox/blob/main/scripts/vad_pyannote.py
+
+Who is Watching • HBO Max
+https://play.hbomax.com/player/urn:hbo:episode:GZgvSgg471sJMRAEAAC6b/undefined?exitPageUrn=%2Fpage%2Furn:hbo:series:GZgvSjA06JZaQVgEAAC52
+
+Burger Bandits Östermalm (Dagtid)'s menu & prices | Food delivery in Stockholm | foodora
+https://www.foodora.se/en/restaurant/da53/burger-bandits-ostermalm-dagtid
+
+Sweets By Camilla Sturegallerian's menu & prices | Food delivery in Stockholm | foodora
+https://www.foodora.se/en/restaurant/l4o1/sweets-by-camilla-sturegallerian
+
+notebooks/examples/audio_classification.ipynb at main · huggingface/notebooks
+https://github.com/huggingface/notebooks/blob/main/examples/audio_classification.ipynb
+
+Jimín Mháire Thaidhg - Leathanach 1 | Leigh Leat
+https://www.leighleat.com/pages/181
+
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api
+
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api
+
+hfapi commit rate limit exceeded - Google Search
+https://www.google.com/search?q=hfapi+commit+rate+limit+exceeded&rlz=1C5GCEM_enSE990SE991&oq=hfapi+commit+rate+li&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDk3NTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Github API: Fetch issues with exceeds rate limit prematurely - Stack Overflow
+https://stackoverflow.com/questions/33655700/github-api-fetch-issues-with-exceeds-rate-limit-prematurely
+
+HfApi Client
+https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api
+
+Git vs HTTP paradigm
+https://huggingface.co/docs/huggingface_hub/en/concepts/git_vs_http
+
+Managing local and online repositories
+https://huggingface.co/docs/huggingface_hub/en/package_reference/repository
+
+KTH/martin · Datasets at Hugging Face
+https://huggingface.co/datasets/KTH/martin/viewer
+
+Have I Got News For You - S67E04 : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1cdvs2z/have_i_got_news_for_you_s67e04/
+
+How 8 Out Of 10 Cats Does Countdown started | The Rest Is Entertainment (Richard Osman Podcast) : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1ce5wxl/how_8_out_of_10_cats_does_countdown_started_the/
+
+Taskmaster S17E05 (Snooker Cue Umbrella Chin) CH4 : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1cd2pfa/taskmaster_s17e05_snooker_cue_umbrella_chin_ch4/
+
+CMU 11751/18781 Fall 2022: ESPnet Tutorial — ESPnet 202402 documentation
+https://espnet.github.io/espnet/notebook/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.html
+
+Installation — ESPnet 202402 documentation
+https://espnet.github.io/espnet/installation.html
+
+vim - How do I cycle through panes inside a window in tmux like in screen? - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/53154/how-do-i-cycle-through-panes-inside-a-window-in-tmux-like-in-screen
+
+keyboard shortcuts - How to quickly switch to n.10+ windows in tmux? - Super User
+https://superuser.com/questions/755634/how-to-quickly-switch-to-n-10-windows-in-tmux
+
+perezpoz (perezpoz) / Repositories
+https://github.com/perezpoz?tab=repositories
+
+perezpoz/CleanWhisperDetection
+https://github.com/perezpoz/CleanWhisperDetection?tab=readme-ov-file
+
+A processing framework to access large quantities of whispered speech found in ASMR | Pablo’s GitHub Pages
+https://perezpoz.github.io/cwad
+
+Provide multitaper and rasta-plp as input features · perezpoz/Edyson_whisper@704889b
+https://github.com/perezpoz/Edyson_whisper/commit/704889b5d6b34742a7d17e1f42fbfd8f570f53f0#diff-cd309897b5ae865b68dd2096074fd3b3c1e044dad9e96e2d4590f6be88570572
+
+perezpoz/PyOctaveBand: [Python3] Octave-Band and Fractional Octave-Band filter. For signal in time domain.
+https://github.com/perezpoz/PyOctaveBand
+
+jmrplens/PyOctaveBand: [Python3] Octave-Band and Fractional Octave-Band filter. For signal in time domain.
+https://github.com/jmrplens/PyOctaveBand
+
+jzi040941/PercepNet: Unofficial implementation of PercepNet: A Perceptually-Motivated Approach for Low-Complexity, Real-Time Enhancement of Fullband Speech
+https://github.com/jzi040941/PercepNet
+
+rasta_py/License at master · mystlee/rasta_py
+https://github.com/mystlee/rasta_py/blob/master/License
+
+Commits · espnet/espnet
+https://github.com/espnet/espnet/commits/master/?after=0d0428d3498a904fc5ee63e218fa392da7807a9b+34
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls?page=2&q=is%3Apr+is%3Aopen
+
+Add Encodec features for Codec toolkit by jctian98 · Pull Request #5758 · espnet/espnet
+https://github.com/espnet/espnet/pull/5758/files
+
+Add tacotron2 to TTS2 by jctian98 · Pull Request #5755 · espnet/espnet
+https://github.com/espnet/espnet/pull/5755
+
+ESPnet-Codec decoding and Scoring by ftshijt · Pull Request #5747 · espnet/espnet
+https://github.com/espnet/espnet/pull/5747
+
+ESPnet Recipe for ASR on the Makerere Radio Speech Corpus by satvik-dixit · Pull Request #5730 · espnet/espnet
+https://github.com/espnet/espnet/pull/5730
+
+The Makerere Radio Speech Corpus: A Luganda Radio Corpus for Automatic Speech Recognition
+https://zenodo.org/records/5855017
+
+PR SpeechComposer by wyh2000 · Pull Request #5694 · espnet/espnet
+https://github.com/espnet/espnet/pull/5694
 
 Updates MFA scripts and pipeline by iamanigeeit · Pull Request #5670 · espnet/espnet
-https://github.com/espnet/espnet/pull/5670/files
+https://github.com/espnet/espnet/pull/5670
 
-CLARIN ERIC (@CLARINERIC) / X
-https://twitter.com/CLARINERIC
+[WIP] Text Injection ASR by freddy5566 · Pull Request #5404 · espnet/espnet
+https://github.com/espnet/espnet/pull/5404
 
-WAVLab | Interspeech2024 Speech Processing Using Discrete Speech Unit Challenge
-https://www.wavlab.org/activities/2024/Interspeech2024-Discrete-Speech-Unit-Challenge/
+Support retention for ASR Transducer by b-flo · Pull Request #5384 · espnet/espnet
+https://github.com/espnet/espnet/pull/5384
 
-[2309.15800] Exploring Speech Recognition, Translation, and Understanding with Discrete Speech Units: A Comparative Study
-https://arxiv.org/abs/2309.15800
+Recipe for raining speechLM using Librilight dataset by soumimaiti · Pull Request #5388 · espnet/espnet
+https://github.com/espnet/espnet/pull/5388
 
-Viterbi algorithm - Wikipedia
-https://en.wikipedia.org/wiki/Viterbi_algorithm#:~:text=The%20Viterbi%20algorithm%20is%20a,a%20sequence%20of%20observed%20events.
+soumimaiti/speechlmscore_tool
+https://github.com/soumimaiti/speechlmscore_tool
 
-Polish
-https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8CDD2C699493A69A40A5E7D923629574/S0025100303001191a.pdf/polish.pdf
+Fix Whisper frontend · espnet/espnet@297ec9a
+https://github.com/espnet/espnet/commit/297ec9a9933cb69f508f88910a371d1f72a83149
 
-Hungarian phonology - Wikipedia
-https://en.wikipedia.org/wiki/Hungarian_phonology
+Fix Whisper frontend · espnet/espnet@66cdd1b
+https://github.com/espnet/espnet/commit/66cdd1bb8eb95ac7731705a053b96d3b0eecf590
 
-Swedish phonology - Wikipedia
-https://en.wikipedia.org/wiki/Swedish_phonology
+grammatek/ice-g2p: A module for phonetic transcription of Icelandic text
+https://github.com/grammatek/ice-g2p
 
-Hiberno-English - Wikipedia
-https://en.wikipedia.org/wiki/Hiberno-English
+speechlm - Google Search
+https://www.google.com/search?q=speechlm&rlz=1C5GCEM_enSE990SE991&oq=speechlm&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMg8IAhAuGAoYxwEY0QMYgAQyCQgDEAAYChiABDIJCAQQABgKGIAEMgkIBRAuGAoYgAQyBggGEEUYPDIGCAcQRRg90gEIMTM4MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-k2-fsa/k2: FSA/FST algorithms, differentiable, with PyTorch compatibility.
-https://github.com/k2-fsa/k2?tab=readme-ov-file
+2209.15329
+https://arxiv.org/pdf/2209.15329
 
-k2.ipynb - Colaboratory
-https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing
+unilm/speechlm/README.md at master · microsoft/unilm
+https://github.com/microsoft/unilm/blob/master/speechlm/README.md
 
-Dysartria Classification | Kaggle
-https://www.kaggle.com/code/kashishnaqvi/dysartria-classification
+unilm/speechlm/dataset/LibriLM at master · microsoft/unilm
+https://github.com/microsoft/unilm/tree/master/speechlm/dataset/LibriLM
 
-Synthetic dysathria - Google Sheets
-https://docs.google.com/spreadsheets/d/1xV1I5fcx4jYjYiTzacZRhJ_-Rqk6iXlBybwfiLkfJJU/edit#gid=0
+microsoft/SpeechT5: Unified-Modal Speech-Text Pre-Training for Spoken Language Processing
+https://github.com/microsoft/SpeechT5?tab=readme-ov-file
 
-PolyAI-LDN/pheme
-https://github.com/PolyAI-LDN/pheme
+[2303.03926] Speak Foreign Languages with Your Own Voice: Cross-Lingual Neural Codec Language Modeling
+https://arxiv.org/abs/2303.03926
 
-PolyAI/pheme · Hugging Face
-https://huggingface.co/PolyAI/pheme
+2404.00656
+https://arxiv.org/pdf/2404.00656
 
-app.py · BilalSardar/Voice-Cloning at main
-https://huggingface.co/spaces/BilalSardar/Voice-Cloning/blob/main/app.py
+New Tab
+chrome://newtab/
 
-Interspeech Paper Kit - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
+SpeechT5/WavLLM/wavllm/models/whisper_encoder.py at main · microsoft/SpeechT5
+https://github.com/microsoft/SpeechT5/blob/main/WavLLM/wavllm/models/whisper_encoder.py
 
-9th Workshop on Linked Data in Linguistics
-https://ldl2024.linguistic-lod.org/
+Pull requests · facebookresearch/av_hubert
+https://github.com/facebookresearch/av_hubert/pulls?q=is%3Apr+is%3Aclosed
 
-(1) Historic Vids on X: "Can’t stop watching this😂 https://t.co/jlALwxpPPH" / X
-https://twitter.com/historyinmemes/status/1763676837367152727
+Repositories
+https://github.com/orgs/facebookresearch/repositories
 
-Synthetic dysathria - Google Sheets
-https://docs.google.com/spreadsheets/d/1xV1I5fcx4jYjYiTzacZRhJ_-Rqk6iXlBybwfiLkfJJU/edit#gid=0
+facebookresearch/audiocraft: Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.
+https://github.com/facebookresearch/audiocraft
 
-cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud · Hugging Face
-https://huggingface.co/cohogain/whisper-medium-ga-IE-cv11-fleurs-livaud
+fairseq2/recipes at main · facebookresearch/fairseq2
+https://github.com/facebookresearch/fairseq2/tree/main/recipes
 
-cohogain/whisper-large-v2-ga-IE · Hugging Face
-https://huggingface.co/cohogain/whisper-large-v2-ga-IE
+facebookresearch/seamless_communication: Foundational Models for State-of-the-Art Speech and Text Translation
+https://github.com/facebookresearch/seamless_communication
 
-cohogain/cogar-ga-IE · Hugging Face
-https://huggingface.co/cohogain/cogar-ga-IE
+facebookresearch/metaseq: Repo for external large-scale work
+https://github.com/facebookresearch/metaseq?tab=readme-ov-file
 
-FAVE/fave/align/aligner.py at master · JoFrhwld/FAVE
-https://github.com/JoFrhwld/FAVE/blob/master/fave/align/aligner.py
+metaseq/projects/OPT at main · facebookresearch/metaseq
+https://github.com/facebookresearch/metaseq/tree/main/projects/OPT
 
-GeVES/GeVES: Generalized Vowel Extraction Suite
-https://github.com/GeVES/GeVES/tree/master
+speech-llm · GitHub Topics
+https://github.com/topics/speech-llm
 
-UniversalDependencies/UD_Irish-IDT: Irish data
-https://github.com/UniversalDependencies/UD_Irish-IDT
+FairseqWhisperEncoder(FairseqEncoder): - Google Search
+https://www.google.com/search?q=FairseqWhisperEncoder(FairseqEncoder)%3A&rlz=1C5GCEM_enSE990SE991&oq=FairseqWhisperEncoder(FairseqEncoder)%3A&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzM2M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-Hungarian Electronic Library
-https://mek.oszk.hu/00600/00656/
+Commits · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/commits/main/
 
-Hungarian Electronic Library
-https://mek.oszk.hu/09100/09129/index.phtml?oldstyle=1&index=26&indextomb=1998%3A5062%3A4546%3A5574%3A10896%3A4722%3A4743%3A6178%3A4506%3A16549%3A4725%3A4484%3A5712%3A9387%3A4917%3A5877%3A5360%3A5759%3A9405%3A4754%3A656%3A23355%3A13387%3A20300%3A11341%3A9129%3A7363%3A4435%3A657%3A15790%3A3082%3A5912%3A5997%3A8912%3A11459%3A685%3A10892%3A5344%3A9914%3A5711%3A9340%3A6629%3A19359%3A658%3A659%3A22519%3A6637%3A661%3A6666%3A7665%3A5438%3A4533%3A10871%3A5710%3A10570%3A5990%3A6268%3A5404%3A1820%3A6194%3A5397%3A6982%3A9081%3A7763%3A662%3A11242%3A4133%3A5408%3A14956%3A7031%3A10885%3A5614%3A2749%3A6346%3A10621%3A8035%3A9361%3A5963%3A6063%3A1749%3A4489%3A4600%3A7409%3A10454%3A5297%3A7048%3A3737%3A5766%3A10018%3A4905%3A8151%3A9475%3A11047%3A9113%3A4718%3A4851%3A11652&mod=keres
+Multires hubert (#5363) · facebookresearch/fairseq@34973a9
+https://github.com/facebookresearch/fairseq/commit/34973a94d09ecc12092a5ecc8afece5e536b7692
 
-MEK COPYRIGHT TEXT
-https://mek.oszk.hu/html/allando/copyright.htm
+MMS alignment README fixes (#5432) · facebookresearch/fairseq@3f0f20f
+https://github.com/facebookresearch/fairseq/commit/3f0f20f2d12403629224347664b3e75c13b2c8e0
 
-Magyar Elektronikus Könyvtár
-https://mek.oszk.hu/09100/09129/mp3/index.html
+Update align_and_segment.py (#5317) · facebookresearch/fairseq@b5d89cd
+https://github.com/facebookresearch/fairseq/commit/b5d89cddc9e4a0af831d2aafc1ba7dbf0f1b10d0
 
-mek.oszk.hu/09100/09129/mp3/egricsillagok_39.mp3
-https://mek.oszk.hu/09100/09129/mp3/egricsillagok_39.mp3
+hyperparams.yaml · speechbrain/asr-whisper-large-v2-commonvoice-hi at cb9ff49698625875b478c04770f22306370f42bc
+https://huggingface.co/speechbrain/asr-whisper-large-v2-commonvoice-hi/blame/cb9ff49698625875b478c04770f22306370f42bc/hyperparams.yaml
 
-mek.oszk.hu/09100/09129/mp3/egricsillagok_36.mp3
-https://mek.oszk.hu/09100/09129/mp3/egricsillagok_36.mp3
+breath detection github - Google Search
+https://www.google.com/search?q=breath+detection+github&sca_esv=544798f1b50553ec&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ACQVn08ijYkxYNzJHfui9sDyj2KWLtvrTg%3A1714398284526&ei=TKQvZt7hH424wPAP2NKfsAI&ved=0ahUKEwjet4Kmx-eFAxUNHBAIHVjpByYQ4dUDCBA&uact=5&oq=breath+detection+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2JyZWF0aCBkZXRlY3Rpb24gZ2l0aHViMgUQIRigAUjIElCtDFjEEHACeACQAQCYAWWgAYYEqgEDNS4xuAEDyAEA-AEBmAIGoAKZBMICBhAAGBYYHsICCBAAGBYYHhgPwgILEAAYgAQYhgMYigXCAgcQIRigARgKmAMAiAYBkgcDNS4xoAfUFA&sclient=gws-wiz-serp#ip=1
 
-mek.oszk.hu/09100/09129/mp3/egricsillagok_01.mp3
-https://mek.oszk.hu/09100/09129/mp3/egricsillagok_01.mp3
+Audio Based Breath Detection — Chris Smith
+https://www.christopherlsmith.com/audio-breath-detection
 
-MEK COPYRIGHT TEXT
-https://mek.oszk.hu/html/allando/copyright.htm
+Breeze
+https://dl.acm.org/doi/pdf/10.1145/3369835
 
-Gárdonyi Géza: Egri csillagok
-https://mek.oszk.hu/00600/00656/html/01.htm#1
+Frame-Wise Breath Detection with Self-Training: An Exploration of Enhancing Breath Naturalness in Text-to-Speech
+https://arxiv.org/html/2402.00288v1
 
-LibriVox
-https://librivox.org/search?primary_key=28&search_category=language&search_page=1&search_form=get_results
+anhtu1197/Breath-Detection
+https://github.com/anhtu1197/Breath-Detection
 
-ia803008.us.archive.org/16/items/multilingual_short_works_collection_010_1312_librivox/msw010_gizehipergamenlapok_gardonyi_dii_64kb.mp3
-https://ia803008.us.archive.org/16/items/multilingual_short_works_collection_010_1312_librivox/msw010_gizehipergamenlapok_gardonyi_dii_64kb.mp3
+InhaleSense/notebook/Model Zoo.ipynb at master · dioptx/InhaleSense
+https://github.com/dioptx/InhaleSense/blob/master/notebook/Model%20Zoo.ipynb
 
-gutenberg.org/cache/epub/41683/pg41683.txt
-https://www.gutenberg.org/cache/epub/41683/pg41683.txt
+unity (Unity Technologies)
+https://huggingface.co/unity
 
-LibriVox
-https://librivox.org/multilingual-poetry-collection-013/
+unity/sentis-hand-landmark · Hugging Face
+https://huggingface.co/unity/sentis-hand-landmark
 
-LibriVox
-https://librivox.org/christmas-short-works-collection-2009-by-various/
+Image classification guide for Python  |  MediaPipe  |  Google for Developers
+https://developers.google.com/mediapipe/solutions/vision/image_classifier/python
 
-LibriVox
-https://librivox.org/multilingual-poetry-collection-017/
+audio_classification.ipynb - Colab
+https://colab.research.google.com/github/googlesamples/mediapipe/blob/main/examples/audio_classifier/python/audio_classification.ipynb#scrollTo=TUfAcER1oUS6
 
-Release mfa-hu-wiktionary · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/releases/tag/mfa-hu-wiktionary
+aiy | Kaggle
+https://www.kaggle.com/models/google/aiy/tfLite/vision-classifier-birds-v1/3?tfhub-redirect=true
+
+Meet The Indonesian Martial Artist Who Fought Keanu Reeves In John Wick | EVERYDAY BOSSES #61 - YouTube
+https://www.youtube.com/watch?v=7iBQBJnyfi8
+
+Author: Wladimir László Orosz - Wikisource
+https://hu.wikisource.org/wiki/Szerz%C5%91:Orosz_L%C3%A1szl%C3%B3_Wladimir
+
+ocr · GitHub Topics
+https://github.com/topics/ocr
+
+PaddlePaddle/PaddleOCR: Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)
+https://github.com/PaddlePaddle/PaddleOCR
+
+JaidedAI/EasyOCR: Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+https://github.com/JaidedAI/EasyOCR?tab=readme-ov-file
+
+EasyOCR/custom_model.md at master · JaidedAI/EasyOCR
+https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md
+
+Jaided AI: EasyOCR model hub
+https://jaided.ai/easyocr/modelhub/
+
+hiroi-sora/Umi-OCR: OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
+https://github.com/hiroi-sora/Umi-OCR
+
+lukas-blecher/LaTeX-OCR: pix2tex: Using a ViT to convert images of equations into LaTeX code.
+https://github.com/lukas-blecher/LaTeX-OCR?tab=readme-ov-file
+
+the-paperless-project/paperless: Scan, index, and archive all of your paper documents
+https://github.com/the-paperless-project/paperless
+
+Unstructured-IO/unstructured: Open source libraries and APIs to build custom preprocessing pipelines for labeling, training, or production machine learning pipelines.
+https://github.com/Unstructured-IO/unstructured
+
+Repositories
+https://github.com/orgs/sprakbankental/repositories?
+
+sprakbankental/dev-ttsrefs
+https://github.com/sprakbankental/dev-ttsrefs
+
+gpus/sbtal-gpus/configs.csv at develop · sprakbankental/gpus
+https://github.com/sprakbankental/gpus/blob/develop/sbtal-gpus/configs.csv
+
+sprakbankental/dev-asr-ss: Initial dev repo for ASR for speech science work
+https://github.com/sprakbankental/dev-asr-ss
+
+dev-fonetikweb/2022/contributions/Lameris et al. - 2022 - Spontaneous neural HMM TTS with prosodic feature m.pdf at develop · sprakbankental/dev-fonetikweb
+https://github.com/sprakbankental/dev-fonetikweb/blob/develop/2022/contributions/Lameris%20et%20al.%20-%202022%20-%20Spontaneous%20neural%20HMM%20TTS%20with%20prosodic%20feature%20m.pdf
+
+docs-current-affairs/lists/VENUES.md at develop · sprakbankental/docs-current-affairs
+https://github.com/sprakbankental/docs-current-affairs/blob/develop/lists/VENUES.md
+
+sprakbankental/dev-g2p: Development repo in preparation for SBTal G2P training and distriution.
+https://github.com/sprakbankental/dev-g2p
+
+sprakbankental/docker-neural-hmm: Docker installation of Nueral HMM
+https://github.com/sprakbankental/docker-neural-hmm
+
+sprakbankental/mtmpreproc: Refactorization of the TTS pre-processing system developed by Swedish Agency for Accessible Media.
+https://github.com/sprakbankental/mtmpreproc
+
+dev-python/vector_field/vector_field.py at develop · sprakbankental/dev-python
+https://github.com/sprakbankental/dev-python/blob/develop/vector_field/vector_field.py
+
+audeering/opensmile: The Munich Open-Source Large-Scale Multimedia Feature Extractor
+https://github.com/audeering/opensmile?tab=License-1-ov-file#readme
+
+sprakbankental/oci-basic: Holds a number of basic Dockerfile builds, e.g. OS/Ubuntu and Web/Apache
+https://github.com/sprakbankental/oci-basic
+
+QPSR/qpsr.json at main · joregan/QPSR
+https://gits-15.sys.kth.se/joregan/QPSR/blob/main/qpsr.json
+
+QPSR/2000/41/1/2000_41_1_039-044.pdf at main · joregan/QPSR
+https://gits-15.sys.kth.se/joregan/QPSR/blob/main/2000/41/1/2000_41_1_039-044.pdf
+
+QPSR/1996/37/2/1996_37_2_041-044.pdf at main · joregan/QPSR
+https://gits-15.sys.kth.se/joregan/QPSR/blob/main/1996/37/2/1996_37_2_041-044.pdf
+
+QPSR/qpsr.json at main · joregan/QPSR
+https://gits-15.sys.kth.se/joregan/QPSR/blob/main/qpsr.json
+
+gunnar stromsted - Google Search
+https://www.google.com/search?q=gunnar+stromsted&rlz=1C5GCEM_enSE990SE991&oq=gunnar+stromsted&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDMzOTJqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8
+
+u umlaut - Google Search
+https://www.google.com/search?q=u+umlaut&rlz=1C5GCEM_enSE990SE991&oq=u+uml&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRhBMgYIBxBFGEHSAQgyMTM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+ë - Google Search
+https://www.google.com/search?q=%C3%AB&rlz=1C5GCEM_enSE990SE991&oq=%C3%AB&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDINCAUQLhivARjHARiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzQwM2owajmoAgCwAgE&sourceid=chrome&ie=UTF-8
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+HEALTH on Heavy-Music Roots, Exploring Aggressive New Direction on 'SLAVES OF FEAR' - YouTube
+https://www.youtube.com/watch?v=BM2SxsL9Clw
+
+HardLore: Jami Morgan (Code Orange) - YouTube
+https://www.youtube.com/watch?v=kvcrKkxSjTc
+
+Instagram
+https://www.instagram.com/
+
+Your location to Frihamnstorget - Google Maps
+https://www.google.com/maps/dir/59.3483964,18.0748328/Frihamnstorget,+S%C3%B6dra+Hamnv%C3%A4gen+5,+115+28+Stockholm/@59.3415216,18.0743337,14z/am=t/data=!4m14!4m13!1m1!4e1!1m5!1m1!1s0x465f8383045aec09:0x89485617ebc681cd!2m2!1d18.1175848!2d59.3425822!2m3!6e1!7e2!8j1714501200!3e3?entry=ttu
+
+Am I the Asshole?
+https://www.reddit.com/r/AmItheAsshole/
+
+AITA for telling my husband his gift for his son won't be received the way he wants it to be? : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cgsolq/aita_for_telling_my_husband_his_gift_for_his_son/
+
+WIBTA if I didn't show up at my own wedding because my fiance invited my abusive father? : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1ch0jaf/wibta_if_i_didnt_show_up_at_my_own_wedding/
+
+AITA for not getting upset or convince the bride after I was uninvited to my friend’s wedding? : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cgd5fj/aita_for_not_getting_upset_or_convince_the_bride/
+
+AITA for giving wrong information to my stepsister? : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cgvvbd/aita_for_giving_wrong_information_to_my_stepsister/
+
+AITA for choosing not to sleep in the room with my wife tonignt : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cfti9k/aita_for_choosing_not_to_sleep_in_the_room_with/
+
+WIBTA - For resigning as coach over a friend request : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cge10b/wibta_for_resigning_as_coach_over_a_friend_request/
+
+AITA for teaching my daughter at my wife's expense. : r/AmItheAsshole
+https://www.reddit.com/r/AmItheAsshole/comments/1cfmiyk/aita_for_teaching_my_daughter_at_my_wifes_expense/
+
+2024-språkbanken-personal - Google Drive
+https://drive.google.com/drive/u/1/folders/1MKmStej0CZskHPYuwV2OGhjJdIaRa2I-
+
+Offerter Skevik + Siggesta - Google Docs
+https://docs.google.com/document/d/128gBYpBVuoRThqPWBjunlt_5YhPZoUfooHXp2fV4iW4/edit
+
+Instagram
+https://www.instagram.com/
+
+(1) Home / X
+https://twitter.com/home
+
+(1) Sulaiman Ahmed on X: "James Cameron: "In Star Wars the good guys are the rebels, they're using asymmetric warfare against a highly organized empire, I think we call those guys terrorists today." George Lucas: "When I did it they were Vietcong. That was the whole point." https://t.co/o1y5xLAnZR" / X
+https://twitter.com/ShaykhSulaiman/status/1785315419479294119
+
+(1) Ziming Liu on X: "MLPs are so foundational, but are there alternatives? MLPs place activation functions on neurons, but can we instead place (learnable) activation functions on weights? Yes, we KAN! We propose Kolmogorov-Arnold Networks (KAN), which are more accurate and interpretable than MLPs.🧵 https://t.co/4Soe2M7NfG" / X
+https://twitter.com/ZimingLiu11/status/1785483967719981538
+
+(1) Vaibhav (VB) Srivastav on X: "MASSIVE UPDATE: Text to Speech arena adds OpenVoice v2, PlayHT 2.0 &amp; Voicecraft 2.0 🔥 *sound on 🔔* Why them? OpenVoice v2 is the latest release from myshell ai, trained with more data, better training strategy and more importantly released under MIT license Voicecraft 2.0 https://t.co/BNOqNsiFKv" / X
+https://twitter.com/reach_vb/status/1785406850361327667
+
+myshell-ai/OpenVoiceV2 · Hugging Face
+https://huggingface.co/myshell-ai/OpenVoiceV2
+
+OpenVoiceV2 - a Hugging Face Space by myshell-ai
+https://huggingface.co/spaces/myshell-ai/OpenVoiceV2
+
+MACH 1.67 - Shock DNA (Electric Dragon 80.000 V) - YouTube
+https://www.youtube.com/watch?v=3lrm45-CWwU
+
+Why AI is Doomed to Fail the Musical Turing Test - YouTube
+https://www.youtube.com/watch?v=N8NyEjB_XeA
+
+Michael Calandra "Single Whip" Yilu Details #5 - YouTube
+https://www.youtube.com/watch?v=Q_cE5GQOWiU
+
+This SHOCKED Me! SHOGUN EP. 1 In Depth Historical Review and Analysis - YouTube
+https://www.youtube.com/watch?v=y2ITlItPtsw
+
+HEALTH :: DON'T TRY :: MUSIC VIDEO - YouTube
+https://www.youtube.com/watch?v=DN1qM4f8_J0
+
+Defend Like a Pro: Advanced Wing Chun Techniques for Close Combat (Hand to Hand Self Defense) - YouTube
+https://www.youtube.com/watch?v=Dz_MB6-_czA
+
+Former KGB Spy Rates 9 Russian Spy Scenes In Movies | How Real Is It? | Insider - YouTube
+https://www.youtube.com/watch?v=TYo-ziwOAWQ
+
+Samurai Master with a Medieval Longsword! Matt Easton response to @letsasksekisensei - YouTube
+https://www.youtube.com/watch?v=V3P_6wrmzpE
+
+Let's ask Seki Sensei | Learn Katana Skills Online - YouTube
+https://www.youtube.com/@letsasksekisensei/videos
+
+5 MIN Everyday Katana Workout For Beginners (Tsume-Mokuroku) - YouTube
+https://www.youtube.com/watch?v=wMvXqb2Yrto
+
+8th Dan Iaido Master Explains the CORRECT Seichūtō (Musō Shinden Ryu Iai Kata) - YouTube
+https://www.youtube.com/watch?v=bhlVjJUa9wA
+
+4 MIN Everyday Iai (Katana Drawing) Workout For Beginners - YouTube
+https://www.youtube.com/watch?v=AdvJglr92qU
+
+Mamba-TasNet/modules/selective_scan_interface.py at main · xi-j/Mamba-TasNet
+https://github.com/xi-j/Mamba-TasNet/blob/main/modules/selective_scan_interface.py
+
+hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
+https://github.com/hustvl/Vim/?tab=readme-ov-file
+
+Dao-AILab/causal-conv1d: Causal depthwise conv1d in CUDA, with a PyTorch interface
+https://github.com/Dao-AILab/causal-conv1d
+
+kan package — Kolmogorov Arnold Network documentation
+https://kindxiaoming.github.io/pykan/kan.html#submodules
+
+Google AI on X: "Graph clustering merges similar items into groups to better understand relationships in data. Today, read about our recent works, including key techniques that enabled us to scale a high-quality algorithm that can cluster trillion-edge graphs. Read more → https://t.co/9pYF1xUEJ7 https://t.co/jSkPuOSXBL" / X
+https://twitter.com/GoogleAI/status/1785763979748601888
+
+mnist_pytorch_KAN/main.ipynb at main · CoderCowMoo/mnist_pytorch_KAN
+https://github.com/CoderCowMoo/mnist_pytorch_KAN/blob/main/main.ipynb
+
+LlamaIndex 🦙 on X: "Watch @_nerdai_ and friends walk you from the basics of RAG, through handling long-context RAG all the way to evaluating your RAG pipeline! YouTube: https://t.co/twvYz6JlTY Notebook: https://t.co/Nrz436gRbt https://t.co/VRJBmmmm42" / X
+https://twitter.com/llama_index/status/1785802821604127205
+
+talks/2024/mlops/mlops-rag-bootcamp.ipynb at main · nerdai/talks
+https://github.com/nerdai/talks/blob/main/2024/mlops/mlops-rag-bootcamp.ipynb
+
+The Stripper Index: An unorthodox recession measurement
+https://theamericangenius.com/tech-news/the-stripper-index-recession/#google_vignette
+
+Not all Graphs are Trees • Buttondown
+https://buttondown.email/jaffray/archive/not-all-graphs-are-trees/
+
+icefall/egs/timit/ASR/local/prepare_lexicon.py at master · k2-fsa/icefall
+https://github.com/k2-fsa/icefall/blob/master/egs/timit/ASR/local/prepare_lexicon.py
+
+espnet/espnet2/asr_transducer at master · espnet/espnet
+https://github.com/espnet/espnet/tree/master/espnet2/asr_transducer
+
+espnet/espnet2/asr at master · espnet/espnet
+https://github.com/espnet/espnet/tree/master/espnet2/asr
+
+espnet/espnet2/asr_transducer/beam_search_transducer.py at master · espnet/espnet
+https://github.com/espnet/espnet/blob/master/espnet2/asr_transducer/beam_search_transducer.py
+
+Series U - Google Drive
+https://drive.google.com/drive/u/1/folders/1c1roXNOLjgdxCsIcaXdf4eAKNPhKmSth
+
+Javier Ferrando on X: "[1/4] Introducing “A Primer on the Inner Workings of Transformer-based Language Models”, a comprehensive survey on interpretability methods and the findings into the functioning of language models they have led to. ArXiv: https://t.co/UBh2ZLmYkr https://t.co/wA8EjzW1dY" / X
+https://twitter.com/javifer_96/status/1786317169979970046
+
+A Hitchhiker’s Guide to Speculative Decoding | PyTorch
+https://pytorch.org/blog/hitchhikers-guide-speculative-decoding/
+
+EricGuo5513/HumanML3D: HumanML3D: A large and diverse 3d human motion-language dataset.
+https://github.com/EricGuo5513/HumanML3D?tab=readme-ov-file
+
+EricGuo5513/action-to-motion: Official implementations for "Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)"
+https://github.com/EricGuo5513/action-to-motion?tab=readme-ov-file
+
+HumanAct12 - Google Drive
+https://drive.google.com/drive/folders/1hGNkxI9jPbdFueUHfj8H8zC2f7DTb8NG
+
+CMU Mocap - Google Drive
+https://drive.google.com/drive/folders/1_2jbZK48Li6sm1duNJnR_eyQjVdJQDoU
+
+EricGuo5513/action-to-motion: Official implementations for "Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)"
+https://github.com/EricGuo5513/action-to-motion
+
+The Little Book of Deep Learning
+https://fleuret.org/francois/lbdl.html
+
+Vaibhav (VB) Srivastav on X: "BOOM! Whisper + Speaker Diarisation! 🔥 Blazingly fast meeting transcription all with a simple call to an API - powered by Inference Endpoints ⚡ - Whisper to transcribe speech to text (w/ Flash Attention) - Diarization to break down the transcription by speakers (w/ Pyannote)… https://t.co/ISNExpSdbc" / X
+https://twitter.com/reach_vb/status/1786365963102752908
+
+Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints
+https://huggingface.co/blog/asr-diarization
+
+diarization_utils.py · sergeipetrov/asrdiarization-handler at main
+https://huggingface.co/sergeipetrov/asrdiarization-handler/blob/main/diarization_utils.py
+
+pyannote/speaker-diarization-3.1 · Hugging Face
+https://huggingface.co/pyannote/speaker-diarization-3.1
+
+wjbmattingly/spacyex: SpaCyEx allows the creation of spaCy Matcher patterns with RegEx like syntax.
+https://github.com/wjbmattingly/spacyex
+
+YuanGongND/llm_speech_emotion_challenge
+https://github.com/YuanGongND/llm_speech_emotion_challenge
+
+Local_RAG_with_emails.ipynb - Colab
+https://colab.research.google.com/drive/1ieDJ4LoxARrHFqxXWif8Lv8e8aZTgmtH
+
+Machine Unlearning in 2024 - Ken Ziyu Liu - Stanford Computer Science
+https://ai.stanford.edu/~kzliu/blog/unlearning
+
+Fight Breakdown with Scott Adkins - Enter The Dragon - YouTube
+https://www.youtube.com/watch?v=sW_QFxjgxZQ
+
+How to play with the Eagle / RWKV model?
+https://wiki.rwkv.com/basic/play.html#rwkv-mobile-projects
+
+The Best Podcasts to Learn Hungarian in 2022
+https://www.hungarianpod101.com/blog/2022/02/17/hungarian-podcasts/
+
+esb (End-to-End Speech Benchmark)
+https://huggingface.co/esb
+
+leaderboard - a Hugging Face Space by esb
+https://huggingface.co/spaces/esb/leaderboard
+
+DeepMimic: Example-Guided Deep Reinforcement Learning of Physics-Based Character Skills
+https://xbpeng.github.io/projects/DeepMimic/index.html
+
+xbpeng/DeepMimic: Motion imitation with deep reinforcement learning.
+https://github.com/xbpeng/DeepMimic?tab=readme-ov-file
+
+EricVoll/amp_motion_conversion
+https://github.com/EricVoll/amp_motion_conversion
+
+pat-coady/trpo: Trust Region Policy Optimization with TensorFlow and OpenAI Gym
+https://github.com/pat-coady/trpo
+
+bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
+https://github.com/bulletphysics/bullet3
+
+Stanford CS25: V4 I Jason Wei & Hyung Won Chung of OpenAI - YouTube
+https://www.youtube.com/watch?v=3gb-ZkVRemQ
+
+Zexuan Zhong on X: "Two key techniques 1) Causal segment routing ⚠️ Merging per token is too expensive ✅ We merge experts per segment &amp; keep the autoregressive property 2) Sim-based batching ⚠️ Training on concatenated rand docs leads to bad experts ✅ We concat sim docs to get training instances https://t.co/vTCrDQjvxV" / X
+https://twitter.com/ZexuanZhong/status/1787868309473644870
+
+2405.03133
+https://arxiv.org/pdf/2405.03133
+
+Philipp Schmid on X: "Why are not more people talking about Multi-head Latent Attention? 🤔 MLA was introduced @deepseek_ai v2 paper and helped them reduce the memory of the KV-cache by 93.3% 🤯 https://t.co/u8CU5KgriU" / X
+https://twitter.com/_philschmid/status/1789227188467675327/photo/1
+
+Sebastian Raschka on X: "A suggestion for an effective 11-step LLM summer study plan: 1) Read* Chapters 1 and 2 on implementing the data loading pipeline (https://t.co/nFYwXHmg5i &amp; https://t.co/j3Knzj7TGW). 2) Watch Karpathy's video on training a BPE tokenizer from scratch (https://t.co/vz5Xz8AtXB). 3)…" / X
+https://twitter.com/rasbt/status/1790013057659183601
+
+LLMs-from-scratch/ch02/01_main-chapter-code/ch02.ipynb at main · rasbt/LLMs-from-scratch
+https://github.com/rasbt/LLMs-from-scratch/blob/main/ch02/01_main-chapter-code/ch02.ipynb
+
+Lightning-AI/litgpt: Pretrain, finetune, deploy 20+ LLMs on your own data. Uses state-of-the-art techniques: flash attention, FSDP, 4-bit, LoRA, and more.
+https://github.com/Lightning-AI/litgpt
+
+Instagram
+https://www.instagram.com/
+
+Dong Zhang on X: "GPT-4o makes me feel both sad for my current work has been scooped by OpenAI, and happy that we are on the right track. As shown, we have SpeechGPT series about building and application of speech language models. They're listed in https://t.co/WMIkZNj44M. I'll introduce them. https://t.co/P2kLmgRjbO" / X
+https://twitter.com/dongzha35524835/status/1790241799547806071
+
+Dong Zhang
+https://0nutation.github.io/
+
+2404.05600
+https://arxiv.org/pdf/2404.05600
+
+SpeechGPT/speechgpt/utils/speech2unit at main · 0nutation/SpeechGPT
+https://github.com/0nutation/SpeechGPT/tree/main/speechgpt/utils/speech2unit
+
+fairseq/examples/speech_to_speech/docs/textless_s2st_real_data.md at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/blob/main/examples/speech_to_speech/docs/textless_s2st_real_data.md
+
+Have I Got a Bit More News for You S67 E6. Bill Bailey. Non-UK viewers.10 May 24 - YouTube
+https://www.youtube.com/watch?v=CirVyuglick
+
+Customs documents and shipping | Business | PostNord
+https://www.postnord.se/en/business/preparations/customs-information/customs-documents-and-shipping-documents/
+
+Search mailbox, service point or parcel locker. | PostNord
+https://www.postnord.se/en/our-tools/search-letter-box-or-service-point/#14.28/59.34188/18.05419
+
+Interspeech thing for ParlaCLARIN - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65b12a434befd9098dbef6a9
+
+Commits · espnet/espnet
+https://github.com/espnet/espnet/commits/master/
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+Add implementations of USES2 speech enhancement models by Emrys365 · Pull Request #5761 · espnet/espnet
+https://github.com/espnet/espnet/pull/5761
+
+ESPnet-SPK: add support for multi-task learning by Alexgichamba · Pull Request #5780 · espnet/espnet
+https://github.com/espnet/espnet/pull/5780/files#diff-fa3996e89d8fb35aa916c3e0e480a49747fc6c5c1b2accdeab83a1a55c575bb5
+
+Add tacotron2 to TTS2 by jctian98 · Pull Request #5755 · espnet/espnet
+https://github.com/espnet/espnet/pull/5755/files#diff-6c0b6def178020156e5c62c1b58ce0815b255ec61973856509129d7cf3228ea9
+
+Add LoRA only options by Stanwang1210 · Pull Request #5726 · espnet/espnet
+https://github.com/espnet/espnet/pull/5726
+
+Updates MFA scripts and pipeline by iamanigeeit · Pull Request #5670 · espnet/espnet
+https://github.com/espnet/espnet/pull/5670
+
+ESPnet-SPK: add support of Branchformer and E-Branchformer by Jungjee · Pull Request #5665 · espnet/espnet
+https://github.com/espnet/espnet/pull/5665
+
+[WIP] Discrete unit-based `s2st1` recipe for SpeechMatrix Dataset by realzza · Pull Request #5574 · espnet/espnet
+https://github.com/espnet/espnet/pull/5574
+
+n2cholas/awesome-jax: JAX - A curated list of resources https://github.com/google/jax
+https://github.com/n2cholas/awesome-jax?tab=readme-ov-file
+
+google-deepmind/distrax
+https://github.com/google-deepmind/distrax
+
+ChrisWaites/jax-flows: Normalizing Flows in JAX 🌊
+https://github.com/ChrisWaites/jax-flows
+
+ExpectationMax/sklearn-jax-kernels: Composable kernels for scikit-learn implemented in JAX.
+https://github.com/ExpectationMax/sklearn-jax-kernels
+
+patrick-kidger/diffrax: Numerical differential equation solvers in JAX. Autodifferentiable and GPU-capable. https://docs.kidger.site/diffrax/
+https://github.com/patrick-kidger/diffrax
+
+tancik/fourier-feature-networks: Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains
+https://github.com/tancik/fourier-feature-networks
+
+AaltoML/kalman-jax: Approximate inference for Markov Gaussian processes using iterated Kalman smoothing, in JAX
+https://github.com/AaltoML/kalman-jax
+
+[2105.03824] FNet: Mixing Tokens with Fourier Transforms
+https://arxiv.org/abs/2105.03824
+
+[2007.04929] Learning Graph Structure With A Finite-State Automaton Layer
+https://arxiv.org/abs/2007.04929
+
+google-research/gfsa/model/automaton_layer.py at master · google-research/google-research
+https://github.com/google-research/google-research/blob/master/gfsa/model/automaton_layer.py
+
+google-research/f_net at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/f_net
+
+google-research/latent_programmer at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/latent_programmer
+
+SCS_MNIST_JAX/Flax.ipynb - Colab
+https://colab.research.google.com/drive/1KUKFEMneQMS3OzPYnWZGkEnry3PdzCfn?usp=sharing
+
+IvanIsCoding/GNN-for-Combinatorial-Optimization: JAX + Flax implementation of "Combinatorial Optimization with Physics-Inspired Graph Neural Networks" by Schuetz et al.
+https://github.com/IvanIsCoding/GNN-for-Combinatorial-Optimization
+
+transformers "multilayer perceptron" - Google Search
+https://www.google.com/search?q=transformers+%22multilayer+perceptron%22&sca_esv=9eeb101476a64b32&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIL1JEIs3PmAKALkzRsvfR3zK_nAcA%3A1715781641874&ei=CcBEZtH1NOXOwPAPis-cwAY&ved=0ahUKEwiRnpra6I-GAxVlJxAIHYonB2gQ4dUDCBA&uact=5&oq=transformers+%22multilayer+perceptron%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiJHRyYW5zZm9ybWVycyAibXVsdGlsYXllciBwZXJjZXB0cm9uIjIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAFIzTpQww5Y-jhwAngBkAEAmAF1oAGdDqoBBDIxLjK4AQPIAQD4AQGYAhmgAtoOwgIKEAAYsAMY1gQYR8ICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIFEAAYgATCAgUQLhiABMICCBAuGIAEGNQCwgIlEC4YgAQYQxiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2A9gBAcICBhAAGBYYHsICCxAAGIAEGIYDGIoFwgIIEAAYFhgKGB7CAggQABiABBiiBMICChAuGIAEGNQCGA3CAgYQABgNGB7CAggQABgFGA0YHsICCBAAGAgYDRgewgIZEC4YgAQY1AIYDRiXBRjcBBjeBBjgBNgBAcICBRAhGJ8FwgIHECEYoAEYCpgDAIgGAZAGCLoGBggBEAEYFJIHBDIzLjKgB8qnAQ&sclient=gws-wiz-serp
+
+Illustrated Differences between MLP and Transformers for Tensor Reshaping in Deep Learning | by Patrick Langechuan Liu | Towards Data Science
+https://towardsdatascience.com/illustrated-difference-between-mlp-and-transformers-for-tensor-reshaping-52569edaf89
+
+gMLP: Winning over Transformers?. Alright, we all know that transformers… | by Tim | Medium
+https://medium.com/@ishmuratov7timur7/gmlp-winning-over-transformers-23b7a4b18d0a
+
+Tensor2Tensor Intro - Colab
+https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb
+
+Transformer (deep learning architecture) - Wikipedia
+https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+
+SegFormer Explained | Papers With Code
+https://paperswithcode.com/method/segformer
+
+Vision Transformer: What It Is & How It Works [2023 Guide]
+https://www.v7labs.com/blog/vision-transformer-guide
+
+11.1. Queries, Keys, and Values — Dive into Deep Learning 1.0.3 documentation
+https://d2l.ai/chapter_attention-mechanisms-and-transformers/queries-keys-values.html
+
+www.kth.se
+https://www.kth.se/files/auth/silent/bounce?nextUrl=https%3A%2F%2Fwww.kth.se%2Fprofile%2Fghe
+
+MSc Machine Learning | KTH | Sweden
+https://www.kth.se/en/studies/master/machine-learning/msc-machine-learning-1.48533
+
+Courses for Machine Learning | KTH | Sweden
+https://www.kth.se/en/studies/master/machine-learning/courses-machine-learning-1.412669
+
+KTH | DD2421
+https://www.kth.se/student/kurser/kurs/DD2421?l=en
+
+Gustav Eje Henter's professional homepage
+https://people.kth.se/~ghe/
+
+ghenter_move_over_mse.pdf
+https://people.kth.se/~ghe/talks/ghenter_move_over_mse.pdf
+
+ghenter_intro_to_modern_speech_synthesis.pdf
+https://people.kth.se/~ghe/talks/ghenter_intro_to_modern_speech_synthesis.pdf
+
+Search GENEA workshop 2020
+https://zenodo.org/communities/genea2020/records?q=&l=list&p=1&s=10&sort=newest
+
+people.kth.se/~ghe/pubs/txt/kucherenko2020genea-readme.txt
+https://people.kth.se/~ghe/pubs/txt/kucherenko2020genea-readme.txt
+
+Repeated Harvard Sentence Prompts corpus version 0.5
+https://datashare.ed.ac.uk/handle/10283/561
+
+Pattern Recognition and Machine Learning (EQ2341) | KTH
+https://www.kth.se/social/course/EQ2341/
+
+Foundations of Machine Learning (DD1420) | KTH
+https://www.kth.se/social/course/DD1420/
+
+Program Integrating Course in Machine Learning (DD2301) | KTH
+https://www.kth.se/social/course/DD2301/
+
+Measuring the perceptual effects of modelling assumptions in speech synthesis using stimuli constructed from repeated natural speech - Google Search
+https://www.google.com/search?q=Measuring+the+perceptual+effects+of+modelling+assumptions+in+speech+synthesis+using+stimuli+constructed+from+repeated+natural+speech&rlz=1C5GCEM_enSE990SE991&oq=Measuring+the+perceptual+effects+of+modelling+assumptions+in+speech+synthesis+using+stimuli+constructed+from+repeated+natural+speech&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzUyN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
+
+chris on X: "🔊Excited to ship the latest iteration of Gazelle - we now process and reply to spoken commands, with &lt;150ms latency. This model shows strong reasoning capability and effectively generalizes to new tasks. Want to try the demo? Thread! https://t.co/7aGBEuNVza" / X
+https://twitter.com/hingeloss/status/1770157984745656743
+
+tincans-ai/gazelle-v0.2 · Hugging Face
+https://huggingface.co/tincans-ai/gazelle-v0.2
+
+Tincans - Gazelle v0.2
+https://tincans.ai/slm3
+
+Instagram
+https://www.instagram.com/
+
+Lukas Ziegler on X: "Robots with the help of neuroimplants helped a paralyzed man! 🦾 A 76-year-old paralyzed man has made history by using his thoughts to write 8 Chinese characters! This incredible feat marks the first successful use of Zhejiang University's brain implants to enable writing https://t.co/OvlBfl5lVy" / X
+https://twitter.com/lukas_m_ziegler/status/1790648380080722323
+
+Home / X
+https://twitter.com/home
+
+[2405.08344] No Time to Waste: Squeeze Time into Channel for Mobile Video Understanding
+https://arxiv.org/abs/2405.08344
+
+models/research at master · mindspore-lab/models
+https://github.com/mindspore-lab/models/tree/master/research
+
+models/research/huawei-gts/CRF/src/model/lstm_crf_model.py at master · mindspore-lab/models
+https://github.com/mindspore-lab/models/blob/master/research/huawei-gts/CRF/src/model/lstm_crf_model.py
+
+models/official at master · mindspore-lab/models
+https://github.com/mindspore-lab/models/tree/master/official
+
+[2006.07491] OrigamiNet: Weakly-Supervised, Segmentation-Free, One-Step, Full Page Text Recognition by learning to unfold
+https://arxiv.org/abs/2006.07491
+
+[1905.09263] FastSpeech: Fast, Robust and Controllable Text to Speech
+https://arxiv.org/abs/1905.09263
+
+[1904.03288] Jasper: An End-to-End Convolutional Neural Acoustic Model
+https://arxiv.org/abs/1904.03288
+
+The Speechtransformer for Large-scale Mandarin Chinese Speech Recognition | IEEE Conference Publication | IEEE Xplore
+https://ieeexplore.ieee.org/document/8682586
+
+models: Models of MindSpore - Gitee
+https://gitee.com/mindspore/models/tree/master/research/cv/cnnctc
+
+models: Models of MindSpore - Gitee
+https://gitee.com/mindspore/models/tree/master/research/cv/essay-recogination
+
+2405.08295
+https://arxiv.org/pdf/2405.08295
+
+2405.08417
+https://arxiv.org/pdf/2405.08417
+
+Simo Ryu on X: "Btw, this was done on int8 quantized dataset i shared couple weeks ago, which is 26x smaller than the original dataset!!! Imo clever dataset quantization has a lot to offer. https://t.co/OSHhNjzms2" / X
+https://twitter.com/cloneofsimo/status/1790680066877448469
+
+cloneofsimo/imagenet.int8
+https://github.com/cloneofsimo/imagenet.int8
+
+Home / X
+https://twitter.com/home
+
+Notes from Poland 🇵🇱 on X: "Warsaw's mayor has banned the display of religious symbols such as crosses from city hall. He has also ordered officials to respect the rights of same-sex couples and to use people’s preferred pronouns https://t.co/HekDYSIReu" / X
+https://twitter.com/notesfrompoland/status/1791038848039805339
+
+Little Green on X: "New York portal shut down after disturbing imagery from Dublin sparks mass nausea and vomiting https://t.co/7P8Eglz0Oi" / X
+https://twitter.com/thelittlegreen6/status/1790716244523429939
+
+Models - Hugging Face
+https://huggingface.co/models?other=wavlm&sort=trending
+
+hf-tiny-model-private/tiny-random-WavLMForCTC · Hugging Face
+https://huggingface.co/hf-tiny-model-private/tiny-random-WavLMForCTC
+
+anjulRajendraSharma/WavLm-base-en · Hugging Face
+https://huggingface.co/anjulRajendraSharma/WavLm-base-en
+
+microsoft/wavlm-base-plus · Hugging Face
+https://huggingface.co/microsoft/wavlm-base-plus
+
+microsoft/wavlm-large · Hugging Face
+https://huggingface.co/microsoft/wavlm-large
+
+unilm/wavlm/modules.py at master · microsoft/unilm
+https://github.com/microsoft/unilm/blob/master/wavlm/modules.py
+
+microsoft/UniSpeech: UniSpeech - Large Scale Self-Supervised Learning for Speech
+https://github.com/microsoft/UniSpeech
+
+BEST-RQ/example.py at main · HarunoriKawano/BEST-RQ
+https://github.com/HarunoriKawano/BEST-RQ/blob/main/example.py
+
+Man who vanished nearly 30 years ago found alive in neighbour's cellar
+https://www.ladbible.com/news/world-news/omar-bin-omran-algeria-missing-27-years-found-neighbours-cellar-138903-20240516
+
+praat cpp - Google Search
+https://www.google.com/search?q=praat+cpp&rlz=1C5GCEM_enSE990SE991&oq=praat+cpp&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDINCAEQABiGAxiABBiKBTIKCAIQABiABBiiBDIKCAMQABiABBiiBNIBCDMwMzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+CPP
+https://www.jamescurtisphd.me/tutorials/voice/cpp
+
+OSF Preprints | A Practical Guide to Calculating Cepstral Peak Prominence in Praat
+https://osf.io/preprints/osf/yvp4s
+
+PowerCepstrum: Get peak prominence...
+https://www.fon.hum.uva.nl/praat/manual/PowerCepstrum__Get_peak_prominence___.html
+
+CPPS in Praat : r/linguistics
+https://www.reddit.com/r/linguistics/comments/9dxirn/cpps_in_praat/
+
+praat/LPC/PowerCepstrogram.cpp at master · praat/praat
+https://github.com/praat/praat/blob/master/LPC/PowerCepstrogram.cpp#L170
+
+satvik-dixit/CPP: Python implementation of Cepstral Peak Prominence (CPP)
+https://github.com/satvik-dixit/CPP
+
+Reviewing first pass at CPP in python · Issue #1 · satvik-dixit/CPP
+https://github.com/satvik-dixit/CPP/issues/1
+
+python-acoustics/acoustics/cepstrum.py at master · python-acoustics/python-acoustics
+https://github.com/python-acoustics/python-acoustics/blob/master/acoustics/cepstrum.py
+
+power cepstrum python - Google Search
+https://www.google.com/search?q=power+cepstrum+python&sca_esv=c45ac3b78b26f176&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIJXvInR6ZcpSg9gMFvURoeTUVENww%3A1715868454762&ei=JhNGZrKaLufRwPAPyIOOyA4&oq=power+cepstrum+p&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHBvd2VyIGNlcHN0cnVtIHAqAggAMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUiJIlDIAliFGHABeAGQAQCYAXqgAZoFqgEDOC4xuAEDyAEA-AEBmAIKoAK7BcICChAAGLADGNYEGEfCAgcQABiABBgNwgIGEAAYDRgewgIIEAAYBRgNGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIFEAAYgATCAgYQABgWGB6YAwCIBgGQBgiSBwM5LjGgB8If&sclient=gws-wiz-serp
+
+PNCC/pncc.py at master · supikiti/PNCC
+https://github.com/supikiti/PNCC/blob/master/pncc.py
+
+Python Fourier Transform, FFT, Waterfall FFT, Cepstrum – Vibrationdata Python
+https://vibrationdatapython.wordpress.com/2015/10/09/fourier-transform-fft-waterfall-fft-cepstrum/comment-page-1/
+
+vibrationdata.com/python/invfft.py
+https://www.vibrationdata.com/python/invfft.py
+
+Common Sense Machines on X: "We are excited to release a new and improved Single Image-to-3D model, accessible to everyone at https://t.co/hYiBEpyS4X. Highlights: ⏱️ ~30-second latency 📏 Improved geometry perspective alignment 🌟 Higher quality meshes 🔌 API access: https://t.co/TBf0qlDbta https://t.co/vx8IPtIg5t" / X
+https://x.com/CSM_ai/status/1790808873164566848
+
+CSM 3D Viewer
+https://3d.csm.ai/
 
 
