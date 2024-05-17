@@ -79,3 +79,18 @@ categories: [links]
 
 {% twitter https://twitter.com/lukas_m_ziegler/status/1790648380080722323 %}
 
+[Naturalistic Music Decoding from EEG Data via Latent Diffusion Models](https://arxiv.org/abs/2405.09062)
+
+[A vector quantized masked autoencoder for audiovisual speech emotion recognition](https://arxiv.org/abs/2305.03568)
+
+{% twitter https://x.com/AkshGarg03/status/1790824537904554351 %}
+
+{% twitter https://x.com/getnormality/status/1790942454688145484 %}
+
+[Jan Kasprowicz - Krzak dzikiej róży w Ciemnych Smreczynach](https://www.youtube.com/watch?v=ozdDv1z1q24)
+
+[polska-poezja.pl](https://polska-poezja.pl/)
+
+[SakanaAI/evolutionary-model-merge](https://github.com/SakanaAI/evolutionary-model-merge) --- Official repository of Evolutionary Optimization of Model Merging Recipes
+
+
