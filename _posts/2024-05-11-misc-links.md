@@ -119,3 +119,15 @@ categories: [links]
 
 [OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification](https://arxiv.org/abs/2402.12654)
 
+[MINT: Boosting Audio-Language Model via Multi-Target Pre-Training and Instruction Tuning](https://arxiv.org/abs/2402.07485)
+
+[Understanding, Using, and Finetuning Gemma](https://lightning.ai/lightning-ai/studios/understanding-using-and-finetuning-gemma)
+
+[Blind estimation of audio effects using an auto-encoder approach and differentiable digital signal processing](https://arxiv.org/abs/2310.11781)
+
+[Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343),
+[code](https://github.com/google-research/big_vision)
+
+[ChatGPT suspends Scarlett Johansson-like voice as actor speaks out against OpenAI](https://www.theguardian.com/technology/article/2024/may/20/chatgpt-scarlett-johansson-voice)
+
+
