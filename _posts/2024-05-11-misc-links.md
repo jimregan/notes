@@ -94,4 +94,28 @@ categories: [links]
 [Evolutionary Optimization of Model Merging Recipes](https://arxiv.org/abs/2403.13187),
 [code](https://github.com/SakanaAI/evolutionary-model-merge)
 
+[Swedish Kelly list](https://spraakbanken.gu.se/en/resources/kelly)
+
+[A Large-Scale Evaluation of Speech Foundation Models](https://arxiv.org/abs/2404.09385)
+
+[Video ReCap: Recursive Captioning of Hour-Long Videos](https://arxiv.org/abs/2402.13250),
+[code](https://github.com/md-mohaiminul/VideoRecap)
+
+[Target Speech Extraction with Pre-trained Self-supervised Learning Models](https://arxiv.org/abs/2402.13199)
+
+[Semi-Autoregressive Streaming ASR With Label Context](https://arxiv.org/abs/2309.10926)
+
+[Towards audio language modeling -- an overview](https://arxiv.org/abs/2402.13236)
+
+[Probing Self-supervised Learning Models with Target Speech Extraction](https://arxiv.org/abs/2402.13200)
+
+[A multimodal dynamical variational autoencoder for audiovisual speech representation learning](https://arxiv.org/abs/2305.03582)
+
+[On the Semantic Latent Space of Diffusion-Based Text-to-Speech Models](https://arxiv.org/abs/2402.12423)
+
+[MINT: Boosting Audio-Language Model via Multi-Target Pre-Training and Instruction Tuning](https://arxiv.org/abs/2402.07485)
+
+[Best Practices for Robot Death](https://www.kth.se/navet/calendar/best-practices-for-robot-death-1.1317985?date=2024-02-23&orgdate=2024-02-19&length=1&orglength=317)
+
+[OWSM-CTC: An Open Encoder-Only Speech Foundation Model for Speech Recognition, Translation, and Language Identification](https://arxiv.org/abs/2402.12654)
 
