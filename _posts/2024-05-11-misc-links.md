@@ -130,4 +130,16 @@ categories: [links]
 
 [ChatGPT suspends Scarlett Johansson-like voice as actor speaks out against OpenAI](https://www.theguardian.com/technology/article/2024/may/20/chatgpt-scarlett-johansson-voice)
 
+[CLIP as RNN: Segment Countless Visual Concepts without Training Endeavor](https://arxiv.org/abs/2312.07661),
+[code](https://github.com/google-research/google-research/tree/master/clip_as_rnn)
 
+[From Motor Control to Team Play in Simulated Humanoid Football](https://arxiv.org/abs/2105.12196)
+
+[Cross-Modal Multi-Tasking for Speech-to-Text Translation via Hard Parameter Sharing](https://arxiv.org/abs/2309.15826)
+
+[Cross-modal Contrastive Learning for Speech Translation](https://aclanthology.org/2022.naacl-main.376/),
+[code](https://github.com/ReneeYe/ConST)
+
+[nateraw/hf-hub-lightning](https://github.com/nateraw/hf-hub-lightning) --- A PyTorch Lightning Callback for pushing models to the Hugging Face Hub
+
+[Learning Transformer Programs](https://arxiv.org/abs/2306.01128)
