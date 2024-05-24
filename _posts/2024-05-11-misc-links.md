@@ -143,3 +143,13 @@ categories: [links]
 [nateraw/hf-hub-lightning](https://github.com/nateraw/hf-hub-lightning) --- A PyTorch Lightning Callback for pushing models to the Hugging Face Hub
 
 [Learning Transformer Programs](https://arxiv.org/abs/2306.01128)
+
+[Images that Sound: Composing Images and Sounds on a Single Canvas](https://arxiv.org/abs/2405.12221),
+[code](https://github.com/IFICL/images-that-sound),
+(model is not open).
+
+{% twitter https://x.com/Dexerto/status/1793899911852798319 %)
+
+[ReVideo: Remake a Video with Motion and Content Control](https://arxiv.org/abs/2405.13865)
+
+
