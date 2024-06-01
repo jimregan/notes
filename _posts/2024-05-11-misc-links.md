@@ -152,4 +152,9 @@ categories: [links]
 
 [ReVideo: Remake a Video with Motion and Content Control](https://arxiv.org/abs/2405.13865)
 
+{% twitter https://x.com/jasonfried/status/1793780149231726670 %}
+
+{% twitter https://x.com/0xgaut/status/1794019623324590475 %}
+
+[2BP: 2-Stage Backpropagation](https://arxiv.org/abs/2405.18047)
 
