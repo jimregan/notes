@@ -158,3 +158,5 @@ categories: [links]
 
 [2BP: 2-Stage Backpropagation](https://arxiv.org/abs/2405.18047)
 
+[An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
+
