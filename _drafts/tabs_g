@@ -25,11 +25,8 @@ https://arxiv.org/abs/2105.12196
 LQR.ipynb - Colab
 https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/LQR.ipynb
 
-Python Bindings - MuJoCo Documentation
-https://mujoco.readthedocs.io/en/stable/python.html
-
 tutorial.ipynb - Colab
-https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb#scrollTo=ZkFSHeYGxlT5
+https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb#scrollTo=MpkYHwCqk7W-
 
 google-research/cochlear_implant at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/cochlear_implant
@@ -64,48 +61,6 @@ https://github.com/phonlab-tcd/fotheidil/blob/main/app/transcribe/page.tsx
 dm_control - Colab
 https://colab.research.google.com/github/google-deepmind/dm_control/blob/main/tutorial.ipynb#scrollTo=HuuQLm8YopDe
 
-google-deepmind/mujoco: Multi-Joint dynamics with Contact. A general purpose physics simulator.
-https://github.com/google-deepmind/mujoco?tab=readme-ov-file
-
-LQR.ipynb - Colab
-https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/LQR.ipynb
-
-LQR.ipynb - Colaboratory
-https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/LQR.ipynb
-
-tutorial.ipynb - Colab
-https://colab.research.google.com/github/google-deepmind/mujoco/blob/main/python/tutorial.ipynb
-
-MyoHub/myoconverter: A tool to convert opensim 4.0+ MSK models into MuJoCo format with optimized muscle kinematics and kinetics
-https://github.com/MyoHub/myoconverter
-
-mujoco/model/humanoid100 at main · google-deepmind/mujoco
-https://github.com/google-deepmind/mujoco/tree/main/model/humanoid100
-
-Pull requests · google-deepmind/mujoco
-https://github.com/google-deepmind/mujoco/pulls
-
-Speed up humanoid's training in MJX notebook by goncalog · Pull Request #1465 · google-deepmind/mujoco
-https://github.com/google-deepmind/mujoco/pull/1465
-
-[Unity plugin] Support multielement springlength in tendons by Balint-H · Pull Request #1438 · google-deepmind/mujoco
-https://github.com/google-deepmind/mujoco/pull/1438
-
-LQR.ipynb - Colab
-https://colab.research.google.com/github/deepmind/mujoco/blob/main/python/LQR.ipynb
-
-MuJoCo-Tutorial/tutorial/tutorial_4.ipynb at main · tayalmanan28/MuJoCo-Tutorial
-https://github.com/tayalmanan28/MuJoCo-Tutorial/blob/main/tutorial/tutorial_4.ipynb
-
-MuJoCo Bootcamp
-https://pab47.github.io/mujoco.html
-
-Lec13_2D_biped
-https://pab47.github.io/mujoco/notes/Lec13_2D_biped.pdf
-
-Repository search results
-https://github.com/search?q=org%3Afacebookresearch+motion&type=repositories&p=2
-
 Hungarian Electronic Library - Advanced search
 https://mek.oszk.hu/hu/search/detailed/
 
@@ -113,7 +68,19 @@ EscucharUnSusurro: Using Whisper ASR to Build an Advanced Audio Transcription an
 https://medium.com/@wambugumuchemi2021/escucharunsusurro-using-whisper-asr-to-build-an-advanced-audio-transcription-and-inference-8ef78da108ed
 
 Seamless_Tutorial.ipynb - Colab
-https://colab.research.google.com/github/kauterry/seamless_communication/blob/main/Seamless_Tutorial.ipynb
+https://colab.research.google.com/github/kauterry/seamless_communication/blob/main/Seamless_Tutorial.ipynb#scrollTo=nLlZgJvBpWxT
+
+facebookresearch/seamless_communication: Foundational Models for State-of-the-Art Speech and Text Translation
+https://github.com/facebookresearch/seamless_communication?tab=readme-ov-file
+
+seamless_communication/docs/expressive/seamless_align_expressive_README.md at main · facebookresearch/seamless_communication
+https://github.com/facebookresearch/seamless_communication/blob/main/docs/expressive/seamless_align_expressive_README.md
+
+seamless_communication/src/seamless_communication/cli/toxicity/mutox at main · facebookresearch/seamless_communication
+https://github.com/facebookresearch/seamless_communication/tree/main/src/seamless_communication/cli/toxicity/mutox
+
+seamless_communication/src/seamless_communication/cli/toxicity/mutox at main · facebookresearch/seamless_communication
+https://github.com/facebookresearch/seamless_communication/tree/main/src/seamless_communication/cli/toxicity/mutox
 
 pydub/pydub/silence.py at master · jiaaro/pydub
 https://github.com/jiaaro/pydub/blob/master/pydub/silence.py
@@ -274,21 +241,6 @@ https://huggingface.co/spaces/parler-tts/parler_tts_mini
 Cross-modal Contrastive Learning for Speech Translation - ACL Anthology
 https://aclanthology.org/2022.naacl-main.376/
 
-shivammehta25/Machine-Learning-Lab: Writing Machine Learning Algorithms From Scratch
-https://github.com/shivammehta25/Machine-Learning-Lab
-
-Machine-Learning-Lab/Task 7 | Decision Treees.ipynb at master · shivammehta25/Machine-Learning-Lab
-https://github.com/shivammehta25/Machine-Learning-Lab/blob/master/Task%207%20%7C%20Decision%20Treees.ipynb
-
-Machine-Learning-Lab/Task 8 | Neural Networks.ipynb at master · shivammehta25/Machine-Learning-Lab
-https://github.com/shivammehta25/Machine-Learning-Lab/blob/master/Task%208%20%7C%20Neural%20Networks.ipynb
-
-OverFlow/README.md at main · shivammehta25/OverFlow
-https://github.com/shivammehta25/OverFlow/blob/main/README.md
-
-Speech-Backbones/Grad-TTS at main · huawei-noah/Speech-Backbones
-https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS
-
 data-swmc/SWMC/SpeechData/GIL2P_Data.txt at master · sprakbankental/data-swmc
 https://github.com/sprakbankental/data-swmc/blob/master/SWMC/SpeechData/GIL2P_Data.txt
 
@@ -301,14 +253,17 @@ https://pytext.readthedocs.io/en/master/visualize_your_model.html
 Pull request search results
 https://github.com/search?q=repo%3Am-bain%2FwhisperX+phoneme&type=pullrequests
 
-Added Romanian phoneme-based ASR model by Majdoddin · Pull Request #791 · m-bain/whisperX
-https://github.com/m-bain/whisperX/pull/791
-
 m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
 https://github.com/m-bain/whisperX?tab=readme-ov-file
 
-facebook/wav2vec2-large-960h-lv60-self · Hugging Face
-https://huggingface.co/facebook/wav2vec2-large-960h-lv60-self
+facebook/mms-1b-all · Hugging Face
+https://huggingface.co/facebook/mms-1b-all
+
+facebook/mms-1b · Hugging Face
+https://huggingface.co/facebook/mms-1b
+
+fairseq/examples/mms at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/tree/main/examples/mms#asr
 
 Can I get phonemes or syllable with whisperX? · Issue #424 · m-bain/whisperX
 https://github.com/m-bain/whisperX/issues/424
@@ -2115,5 +2070,38 @@ https://www.youtube.com/watch?v=oZOXsO_LN7M
 
 2405.17247
 https://arxiv.org/pdf/2405.17247
+
+energy based models - Google Search
+https://www.google.com/search?q=energy+based+models&rlz=1C5GCEM_enSE990SE991&oq=energy+b&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQLhiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU5NTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Energy-based model - Wikipedia
+https://en.wikipedia.org/wiki/Energy-based_model#:~:text=An%20energy%2Dbased%20model%20(EBM,in%20generative%20models%20(GMs).
+
+Latent and observable variables - Wikipedia
+https://en.wikipedia.org/wiki/Latent_and_observable_variables
+
+Boltzmann machine - Wikipedia
+https://en.wikipedia.org/wiki/Boltzmann_machine
+
+Flow-based generative model - Wikipedia
+https://en.wikipedia.org/wiki/Flow-based_generative_model
+
+1912.03263
+https://arxiv.org/pdf/1912.03263
+
+JEM/attack_model.py at master · wgrathwohl/JEM
+https://github.com/wgrathwohl/JEM/blob/master/attack_model.py
+
+Instagram
+https://www.instagram.com/
+
+Your location to Äventyrsgruvan Tuna Hästberg - Google Maps
+https://www.google.com/maps/dir/59.3484014,18.0748198/%C3%84ventyrsgruvan+Tuna+H%C3%A4stberg/@59.8344265,15.1923613,8z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x465d789f0fb80c6d:0xf7afc01ea133cf91!2m2!1d15.1801752!2d60.3411775!3e3?entry=ttu
+
+Inbox • Direct
+https://www.instagram.com/direct/t/5060418777378294/
+
+aillwee cave how far underground - Google Search
+https://www.google.com/search?q=aillwee+cave+how+far+underground&rlz=1C5GCEM_enSE990SE991&oq=aillwee+cave+how+far+under&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDkxMzFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#vhid=ulfeV2M0ZgZgMM&vssid=l&ip=1
 
 
