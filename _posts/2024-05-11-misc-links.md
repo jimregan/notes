@@ -160,3 +160,15 @@ categories: [links]
 
 [An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
 
+[Your Classifier is Secretly an Energy Based Model and You Should Treat it Like One](https://arxiv.org/abs/1912.03263),
+[code](https://github.com/wgrathwohl/JEM)
+
+[MyoHub/myoconverter](https://github.com/MyoHub/myoconverter) --- A tool to convert opensim 4.0+ MSK models into MuJoCo format with optimized muscle kinematics and kinetics
+
+[MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control](https://arxiv.org/abs/2208.07363),
+[code](https://github.com/microsoft/MoCapAct)
+
+[From motor control to team play in simulated humanoid football](https://www.science.org/doi/10.1126/scirobotics.abo0235)
+
+[langchain-ai/langchain](https://github.com/langchain-ai/langchain)
+
