@@ -203,4 +203,11 @@ often original transcript is omitted in favour of a translation).
 
 [mcdermottLab/pycochleagram](https://github.com/mcdermottLab/pycochleagram) --- Generate cochleagrams natively in Python. Ported from Josh McDermott's MATLAB code.
 
+[Codifying the Debates of the Riksdag:
+Towards a Framework for Semi-automatic Annotation of
+Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
+[RefFusion: Reference Adapted Diffusion Models for 3D Scene Inpainting](https://reffusion.github.io/),
+[paper](https://arxiv.org/abs/2404.10765)
+
+[jaywalnut310/vits](https://github.com/jaywalnut310/vits)
