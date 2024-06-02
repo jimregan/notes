@@ -182,4 +182,20 @@ categories: [links]
 language in any way matches speech --- or if there even is speech --- and
 often original transcript is omitted in favour of a translation).
 
+[Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020)
+
+[Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval](https://arxiv.org/abs/2401.08096)
+
+[Revisiting Self-supervised Learning of Speech Representation from a Mutual Information Perspective](https://arxiv.org/abs/2401.08833)
+
+[Phonemes based detection of parkinson’s disease for telehealth applications](https://www.nature.com/articles/s41598-022-13865-z)
+
+[JaColBERT and Hard Negatives, Towards Better Japanese-First Embeddings for Retrieval: Early Technical Report](https://arxiv.org/abs/2312.16144),
+[model](https://huggingface.co/bclavie/JaColBERT)
+
+[colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0)
+
+> ColBERT relies on fine-grained contextual late interaction: it encodes each passage into a matrix of token-level embeddings (shown above in blue). Then at search time, it embeds every query into another matrix (shown in green) and efficiently finds passages that contextually match the query using scalable vector-similarity (MaxSim) operators.
+
+[From Coarse to Fine: Efficient Training for Audio Spectrogram Transformers](https://arxiv.org/abs/2401.08415)
 
