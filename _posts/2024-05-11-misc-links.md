@@ -199,3 +199,8 @@ often original transcript is omitted in favour of a translation).
 
 [From Coarse to Fine: Efficient Training for Audio Spectrogram Transformers](https://arxiv.org/abs/2401.08415)
 
+[The seven sins of memory: Insights from psychology and cognitive neuroscience](https://psycnet.apa.org/record/1999-10334-002)
+
+[mcdermottLab/pycochleagram](https://github.com/mcdermottLab/pycochleagram) --- Generate cochleagrams natively in Python. Ported from Josh McDermott's MATLAB code.
+
+
