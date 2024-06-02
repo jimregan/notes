@@ -172,3 +172,14 @@ categories: [links]
 
 [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
 
+[Multi-Modal Data Augmentation for End-to-End ASR](https://arxiv.org/abs/1803.10299)
+
+{% twitter https://x.com/Dorialexander/status/1780959636306481476 %}
+
+[PleIAs/YouTube-Commons](https://huggingface.co/datasets/PleIAs/YouTube-Commons)
+
+(Dataset is noisy, no attempt made to determine if transcript in original
+language in any way matches speech --- or if there even is speech --- and
+often original transcript is omitted in favour of a translation).
+
+
