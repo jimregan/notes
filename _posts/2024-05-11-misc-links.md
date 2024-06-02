@@ -211,3 +211,11 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [paper](https://arxiv.org/abs/2404.10765)
 
 [jaywalnut310/vits](https://github.com/jaywalnut310/vits)
+
+[Dutch people](https://flickr.com/photos/jimregan/52219137308/)
+
+[SummaryMixing: A Linear-Complexity Alternative to Self-Attention for Speech Recognition and Understanding](https://arxiv.org/abs/2307.07421)
+
+[General-purpose, long-context autoregressive modeling with Perceiver AR](https://arxiv.org/abs/2202.07765),
+[code](https://github.com/google-research/perceiver-ar)
+
