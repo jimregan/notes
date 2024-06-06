@@ -223,4 +223,9 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [Left Ear](https://www.youtube.com/watch?v=4SaHIYxpqc0),
 [Right Ear](https://www.youtube.com/watch?v=c59-6B37jho)
 
+{% twitter https://x.com/thomasahle/status/1798408687981297844 %}
 
+[4D ASR: Joint Beam Search Integrating CTC, Attention, Transducer, and Mask Predict Decoders](https://arxiv.org/abs/2406.02950)
+
+[Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344)
+<!-- [code](https://github.com/mhamzaerol/Audio-Mamba-AuM) -->
