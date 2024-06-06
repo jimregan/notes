@@ -219,3 +219,8 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [General-purpose, long-context autoregressive modeling with Perceiver AR](https://arxiv.org/abs/2202.07765),
 [code](https://github.com/google-research/perceiver-ar)
 
+[Uneasy on the Ear: An Interview with Lola De La Mata](https://thequietus.com/interviews/lola-de-la-mata-oceans-on-azimuth-tinnitus-interview/),
+[Left Ear](https://www.youtube.com/watch?v=4SaHIYxpqc0),
+[Right Ear](https://www.youtube.com/watch?v=c59-6B37jho)
+
+
