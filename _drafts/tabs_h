@@ -97,17 +97,11 @@ https://drive.google.com/file/d/1ADD8js8eMA88yMLMKwbNBr5OahnxFYZg/view
 Datasets - NVIDIA Docs
 https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/datasets.html
 
-Checkpoints — NVIDIA NeMo
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/main/asr/speaker_diarization/results.html
+Checkpoints - NVIDIA Docs
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/results.html
 
 VAD multilingual Marblenet | NVIDIA NGC
 https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/vad_multilingual_marblenet
-
-ochen1/insanely-fast-whisper-cli: The fastest Whisper optimization for automatic speech recognition as a command-line interface ⚡️
-https://github.com/ochen1/insanely-fast-whisper-cli
-
-Vaibhavs10/insanely-fast-whisper
-https://github.com/Vaibhavs10/insanely-fast-whisper
 
 SYSTRAN/similarity: Bilingual sentence similarity classifier using Tensorflow
 https://github.com/SYSTRAN/similarity
@@ -208,15 +202,6 @@ https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2022.83142
 Parkinson's Disease Detection Based on Running Speech Data From Phone Calls - PubMed
 https://pubmed.ncbi.nlm.nih.gov/34596531/
 
-Improving Parkinson’s disease recognition through voice analysis using deep learning - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S0167865523000764
-
-Improving Parkinson•s disease recognition through voice analysis using deep learning
-https://pdf.sciencedirectassets.com/271524/1-s2.0-S0167865523X00038/1-s2.0-S0167865523000764/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCUvskDzS2hfjl%2B2rCfH4hE2olemSrYX08Ya%2BEvcAPRpwIgVdvD%2BXwMnoHmAVQlJtVYBNlwZQT1CcWTRHYWcQDSmcIqswUIRBAFGgwwNTkwMDM1NDY4NjUiDJK62J8pf%2BgzlzOJRCqQBWr%2F9U7mV6PPtVFUgRcT9d3rcMWK1DExfPTB0CcdEM3BuNK7eouE98zwvEX5tmdSjhfV1A3j1%2B5%2F3m0iSb4eEtPW0IVSEpzd1K4EjkcRM%2BOvkREuCXO3C1M%2BAaWpl%2FQOvGez4VbSX6Zv7ah%2FoUAC0MhbA1w%2FJIofjdag3ObAD4jFhY%2Fi9ate6xytzKd0ksUt3dp6%2F3evC1Rsjj%2F0pWoBUaAudI9QJXXMIP4kMzDOJCWPoKsNnMFmEob02qNd7OcC21fsnjvnyvLyZhrVMA3oj%2B%2BNcK1J2K83GktDeJjsJw2RD%2BR7bxksWOPuF0O%2BA21XisnQNiPJ1LYFGG0fX6xlEH9W67su%2BHXDQo1uLmlG4U88wznxpPftFYW1kOAjGQL5pnaOwBRkdjBO8jGNegAFk9ZfGPCZiB6429DEBqBZH4UYW%2F16jbCo2s1i51uWKNew8PpX7l8Morcpx8B4IYJWL7XYrM8ksegmVFKIl8JomXXLP9f%2BYdIXYbxC0m9wcDo6dJcquc4QjvsiKVBliy7hhiHAmgYc%2Bo%2FbSttI%2F5dCQxKnv3KcIpKhK93lxfCOIR16CAFl4jSBgjkWCC7W4H5NGlgzx2v44J6sfBJnmQdK7yUKovUe%2FhzrbP74Ci%2FirzAXp3omBolveLXaDCSp%2B7G9reYOfkn3fLFSrxZVyX6qWTABqnSF%2FBmCGInxiiw8dArQu9AAySPzJ1IKUvmTm6%2F5F2AMBKEM11yujZVB5F15wuW9Yfk9hrCm8q557hLgXq226or5wuqtbr98fhLNVH3iNTo5QyMFcqq3eGkYchtU2tFkjpRR%2F7Ax3zReGKhIS%2Bj2bmwhfTmayHj6oHL9ncGi21ha1RJmlgNjbmeYJveeZ0pjMIGZua0GOrEBOn1wKBC9G68mAiEPTWZaSJbTeZluUzrxApoyFn4Bnqsnf54jcLpcynHuoRLweyXjRirT%2BXd3TMRVBUAby3fz47IxKyfatK%2Bfu2JLhG%2B4FF2mW7geP9q0asP4Z3smG4YMy56cp%2FlZA0Q0iy7KWMtfOTyMo%2Bu6S04pMsS28nbRnAtAW44DhIW8IX2Xf12HDUi0TjgXdrKaae6a8zPcS2Ne2Zb6MmrJVQ%2FmG6GvmG%2BsLWH1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240122T121448Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY33D5TY4E%2F20240122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d34751849e774b0bfd4c42bfc525552dd19d0bfab859ebbf55b91eb544e9697b&hash=45e5708034452c358f9147c2c29c1e3a3d361199c3db097f19b8e7d1937ebfe4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0167865523000764&tid=spdf-94b924e7-e35e-431c-ba4b-6011cfbc824a&sid=a7fae73139684647104b306-e491f4cf51dfgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=150a585b5853015005&rr=8497b7fe08cb9900&cc=se
-
-Sign in to your account
-https://login.microsoftonline.com/3db27ecc-1791-4dda-9b51-798adfa4a3ca/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=CCCF11B5FDAACD915388B37D93A554C179E326AE360F9211%2D3C192B521C40413127AA732189B690AB3610C114E468338A2D7C49D7743F185E&redirect%5Furi=https%3A%2F%2Fkth%2Dmy%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&state=OD0w&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=4cbf2ea1%2D2082%2D8000%2Df657%2D3ab04304e8ac
-
 mcdermottLab/pycochleagram: Generate cochleagrams natively in Python. Ported from Josh McDermott's MATLAB code.
 https://github.com/mcdermottLab/pycochleagram
 
@@ -259,26 +244,29 @@ https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session4_2_Lj
 Entity Linking in the ParlaMint Corpus - An exploration of linking actors in parliamentary debates
 https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session2_3_van-Heusden.pdf
 
-Instagram
-https://www.instagram.com/
-
 hokema/Pop2Talk: Pop2Talk foreign language prounnciation learning game. Code for the unity client app.
 https://github.com/hokema/Pop2Talk
 
 Analyzing Open AI's Whisper ASR Accuracy: Word Error Rates Across Languages and Model Sizes | Speechly
 https://www.speechly.com/blog/analyzing-open-ais-whisper-asr-models-word-error-rates-across-languages
 
-Series U - Google Drive
-https://drive.google.com/drive/u/1/folders/1c1roXNOLjgdxCsIcaXdf4eAKNPhKmSth
-
-Gradebook - DT2119/FDT3119 VT24 Speech and Speaker Recognition
-https://canvas.kth.se/courses/46254/gradebook
-
-Project report: Final version: Sida Sun
-https://canvas.kth.se/courses/46254/assignments/289227/submissions/89742
+Sign In
+https://login.ug.kth.se/adfs/ls/?SAMLRequest=fZJLT%2BswEEb%2FijX7xG5I28hqigoVupW4UJHAgg1ykmlj4dq9HofHvyd9oV4WrD1zvpkznlx%2BbAx7Q0%2Fa2RwGsQCGtnaNtuscHsubKIPL6YTUxiRbOetCax%2FwX4cUWN9oSR5ecui8lU6RJmnVBkmGWhazv7cyiYXcehdc7QywGRH60EddO0vdBn2B%2Fk3X%2BPhwm0MbwpYk5ztkNIzpk%2BLX0MaEXDdb3kNW2iDfz8B37IQv74uSF8U9sHk%2FkbYq7Lc4gYxbaxt36xNGNSvihjiwxTyHl%2FFQVCIbZqpJ0gaHKhtUKa7EeFyJUV1dZH0ZUYcLS0HZkEMikjQSo0hk5WAsRSbTUXyRpM%2FAlscFr7Q9iPvNRnUoIvmnLJfRbgVgT6cD9AVw1C336f7c8%2B9gdZIL03OVP0VSq6vKGQzthJ8HfV%2F5ricv5ktndP3JZsa492uPKmAOwXcIfHrs%2B%2F8%2FTL8A&RelayState=e1s2
 
 YouTube
 https://www.youtube.com/
+
+The REAL WAY to UNLOCK YOUR HAMSTRINGS (Follow Along Stretch) - YouTube
+https://www.youtube.com/watch?v=RCtMzDjL_Bo
+
+"Snek: A Python-Inspired Language for Tiny Embedded Computers" - Keith Packard (LCA 2020) - YouTube
+https://www.youtube.com/watch?v=EWMFNqkgt1o
+
+The Ultimate Shaolin Routine | SHAOLIN MASTER - YouTube
+https://www.youtube.com/watch?v=KZo24VBqzHI
+
+Flatten Your Stomach For All Ages | Dr. Mandell - YouTube
+https://www.youtube.com/watch?v=RjAoPjWGsto
 
 This Muscle Is Keeping You STIFF! (and most don't properly stretch it) - YouTube
 https://www.youtube.com/watch?v=VviHuZuNqpk
@@ -348,9 +336,6 @@ https://www.niu.edu/citl/resources/toolkits/crisis/fear.shtml#02
 
 Instagram
 https://www.instagram.com/
-
-YouTube
-https://www.youtube.com/
 
 Best Martial Arts Ranked by Undercover Police Officer - YouTube
 https://www.youtube.com/watch?v=Kot5rOcR8W4
@@ -457,22 +442,13 @@ https://www.apa.org/ptsd-guideline/treatments/cognitive-processing-therapist.pdf
 CPT Session Notes: Session 3 | Center for Deployment Psychology
 https://deploymentpsych.org/content/cpt-session-notes-session-3
 
-Five Stance Form 五步拳 (Wu Bu Quan) - Kung Fu Wushu Changquan - YouTube
-https://www.youtube.com/watch?v=HBCJyoCptKY
-
-Tai Chi Sucks For Fighting? WRONG you're just doing it wrong! - YouTube
-https://www.youtube.com/watch?v=-lnU9HeWsUY
-
 What Happens To Your Body When You Do The Horse Stance Every Day-Shocking Results - YouTube
 https://www.youtube.com/watch?v=dH7PxET7_fo
 
 Instagram
 https://www.instagram.com/
 
-close - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/close#English
-
-Series U - Google Drive
-https://drive.google.com/drive/u/1/folders/1c1roXNOLjgdxCsIcaXdf4eAKNPhKmSth
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
 
 
