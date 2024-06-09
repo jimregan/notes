@@ -229,3 +229,15 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344)
 <!-- [code](https://github.com/mhamzaerol/Audio-Mamba-AuM) -->
+
+[dgreenheck/tree-js](https://github.com/dgreenheck/tree-js) --- Procedural tree generator written with JavaScript and Three.js
+
+[xenova/transformers.js](https://github.com/xenova/transformers.js)
+
+[TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416)
+
+[Self-Imagine: Effective Unimodal Reasoning with Multimodal Models using Self-Imagination](https://arxiv.org/abs/2401.08025)
+
+[MarcusLoppe/meshgpt-pytorch](https://github.com/MarcusLoppe/meshgpt-pytorch),
+[model](https://huggingface.co/MarcusLoren/MeshGPT-preview) --- based on [lucidrains/meshgpt-pytorch](https://github.com/lucidrains/meshgpt-pytorch)
+
