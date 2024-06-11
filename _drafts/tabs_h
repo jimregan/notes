@@ -46,17 +46,11 @@ https://github.com/lucidrains/classifier-free-guidance-pytorch
 lucidrains/mogrifier: Usable implementation of Mogrifier, a circuit for enhancing LSTMs and potentially other networks, from Deepmind
 https://github.com/lucidrains/mogrifier
 
-lucidrains/gigagan-pytorch: Implementation of GigaGAN, new SOTA GAN out of Adobe. Culmination of nearly a decade of research into GANs
-https://github.com/lucidrains/gigagan-pytorch
+gigagan-pytorch/gigagan_pytorch/open_clip.py at main · lucidrains/gigagan-pytorch
+https://github.com/lucidrains/gigagan-pytorch/blob/main/gigagan_pytorch/open_clip.py
 
-lucidrains/BS-RoFormer: Implementation of Band Split Roformer, SOTA Attention network for music source separation out of ByteDance AI Labs
-https://github.com/lucidrains/BS-RoFormer
-
-lucidrains/nim-genetic-algorithm: a simple genetic algorithm written in Nim
-https://github.com/lucidrains/nim-genetic-algorithm
-
-lucidrains/rotary-embedding-torch: Implementation of Rotary Embeddings, from the Roformer paper, in Pytorch
-https://github.com/lucidrains/rotary-embedding-torch
+rotary-embedding-torch/rotary_embedding_torch/rotary_embedding_torch.py at main · lucidrains/rotary-embedding-torch
+https://github.com/lucidrains/rotary-embedding-torch/blob/main/rotary_embedding_torch/rotary_embedding_torch.py
 
 lucidrains/byol-pytorch: Usable Implementation of "Bootstrap Your Own Latent" self-supervised learning, from Deepmind, in Pytorch
 https://github.com/lucidrains/byol-pytorch
@@ -448,16 +442,109 @@ https://canvas.kth.se/courses/46254/gradebook/speed_grader?assignment_id=289227&
 annotated-Project_report2 (1).pdf
 file:///Users/joregan/Downloads/annotated-Project_report2%20(1).pdf
 
-chassis with large number of 5.25 drive bays - Google Search
-https://www.google.com/search?q=chassis+with+large+number+of+5.25+drive+bays&rlz=1C5GCEM_enSE990SE991&oq=chassis+with+&gs_lcrp=EgZjaHJvbWUqCAgBEEUYJxg7MgYIABBFGDkyCAgBEEUYJxg7MgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgYIBxBFGDzSAQg0Njk4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+wav2vec embeddings - Google Search
+https://www.google.com/search?q=wav2vec+embeddings&rlz=1C5GCEM_enSE990SE991&oq=wav2vec+emb&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBCDI2NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
 
-Best PC case with a whole ton of 5.25” bays? : r/buildapc
-https://www.reddit.com/r/buildapc/comments/f2zlbz/best_pc_case_with_a_whole_ton_of_525_bays/
+python - Getting embeddings from wav2vec2 models in HuggingFace - Stack Overflow
+https://stackoverflow.com/questions/69266293/getting-embeddings-from-wav2vec2-models-in-huggingface
+
+nlp - How to extract embeddings from an audio file using wav2vec along with context - Data Science Stack Exchange
+https://datascience.stackexchange.com/questions/118124/how-to-extract-embeddings-from-an-audio-file-using-wav2vec-along-with-context
+
+Domain-Informed Probing of wav2vec 2.0 Embeddings for Phonetic Features - ACL Anthology
+https://aclanthology.org/2022.sigmorphon-1.9/
+
+A Closer Look at Wav2Vec2 Embeddings for On-Device Single-Channel Speech Enhancement
+https://arxiv.org/html/2403.01369v1
+
+wav2vec2 embeddings from specific layer - Google Search
+https://www.google.com/search?q=wav2vec2+embeddings+from+specific+layer&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+embeddings+from+specific+layer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDkzNzBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#ip=1
+
+Wav2Vec2
+https://huggingface.co/docs/transformers/en/model_doc/wav2vec2
+
+Speech Recognition with Wav2Vec2 — Torchaudio 2.3.0 documentation
+https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html
+
+Need to extract feature from best_checkpoints of wav2vec2.0 model. · Issue #2495 · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/issues/2495
+
+Repositories
+https://github.com/orgs/facebookresearch/repositories
+
+facebookresearch/fairseq2: FAIR Sequence Modeling Toolkit 2
+https://github.com/facebookresearch/fairseq2?tab=readme-ov-file
+
+fairseq2/src/fairseq2/models/feature_extractor.py at main · facebookresearch/fairseq2
+https://github.com/facebookresearch/fairseq2/blob/main/src/fairseq2/models/feature_extractor.py
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal?tab=readme-ov-file
+
+multimodal/examples/mugen/retrieval/tutorial.ipynb at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/examples/mugen/retrieval/tutorial.ipynb
+
+multimodal/examples/mugen/retrieval at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/tree/main/examples/mugen/retrieval#mugen-retrieval
+
+habla-liaa/ser-with-w2v2: Official implementation of INTERSPEECH 2021 paper 'Emotion Recognition from Speech Using Wav2vec 2.0 Embeddings'
+https://github.com/habla-liaa/ser-with-w2v2
+
+SneakyCamera - moto g(7) power - WiFi File Transfer
+http://192.168.0.101:1234/storage/emulated/0/Pictures/SneakyCamera/
+
+Inbox • Direct
+https://www.instagram.com/direct/inbox/
+
+UN Security Council votes to back plan for Gaza ceasefire
+https://www.rte.ie/news/middle-east/2024/0610/1454040-un-security-council/
+
+Suburban Me Tab by In Flames - Guitar Solo - Distortion Guitar | Songsterr Tabs with Rhythm
+https://www.songsterr.com/a/wsa/in-flames-suburban-me-tab-s32783t2
+
+MAGI-Poster.pptx
+https://kth-my.sharepoint.com/:p:/g/personal/smehta_ug_kth_se/ES5UQMOLrQBIjyKf65Qg_igBQQoEqPgK0MvAtUyREP6ZAQ?e=noy8Tt
+
+pronunciation dictionary magi - Google Search
+https://www.google.com/search?q=pronunciation+dictionary+magi&rlz=1C5GCEM_enSE990SE991&oq=pronunciation+dictionary+magi&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIGCAMQIRgVMgcIBBAhGJ8FMgcIBRAhGJ8FMgcIBhAhGJ8FMgcIBxAhGJ8FMgcICBAhGJ8FMgcICRAhGJ8F0gEIODQ3NWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#ip=1
+
+Matcha TTS - a Hugging Face Space by shivammehta25
+https://huggingface.co/spaces/shivammehta25/Matcha-TTS
+
+Extended ATX Chassis for Business | Atea eShop
+https://www.atea.se/eshop/products/komponenter-och-tillbehor/chassin/utokade-atx-chassin/
+
+Atea eShop | IT solutions and IT products for companies
+https://www.atea.se/eshop/products/?filters=S_5.25%20tum
+
+Thermaltake The Tower 500 Snow - mid tower - extended ATX for business (CA-1X1-00M6WN-00) | Atea eShop
+https://www.atea.se/eshop/product/thermaltake-the-tower-500-snow-mid-utokad-atx/?prodid=2410058
+
+Fujitsu PRIMERGY TX1310 M5 - tower - Xeon E-2374G 3.7 GHz - 16 GB - HDD 2 x 1 TB for business (VFY:T1315SC060IN) | Atea eShop
+https://www.atea.se/eshop/product/fujitsu-primergy-tx1310-m5-tower-xeon-e-2374g-3-7-ghz-16-gb-hdd-2-x-1-tb/?prodid=2354244
+
+Thermaltake CTE C750 Air - FT - utökad ATX för företag (CA-1X6-00F6WN-00) | Atea eShop
+https://www.atea.se/eshop/product/thermaltake-cte-c750-air-ft-utokad-atx/?prodid=2410022
 
 Choose A Case - PCPartPicker
 https://pcpartpicker.com/products/case/#G=8,12&sort=-ext_525&page=1
 
-level up gif - Google Search
-https://www.google.com/search?q=level+up+gif&rlz=1C5GCEM_enSE990SE991&oq=level+up+gif&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI5MTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+meow - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/meow
+
+rhetorical device blathering - Google Search
+https://www.google.com/search?q=rhetorical+device+blathering&rlz=1C5GCEM_enSE990SE991&oq=rhetorical+device+blathering&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDY3NzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+length of life sentence in ireland - Google Search
+https://www.google.com/search?q=length+of+life+sentence+in+ireland&rlz=1C5GCEM_enSE990SE991&oq=length+of+a+life+sentence+in+ire&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoF0gEINzQ2MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Types of sentences
+https://www.citizensinformation.ie/en/justice/criminal-law/criminal-trial/types-of-sentences/#:~:text=A%20life%20sentence%20lasts%20for,granted%20temporary%20or%20early%20release.
+
+Life imprisonment in Ireland - Wikipedia
+https://en.wikipedia.org/wiki/Life_imprisonment_in_Ireland
+
+Life imprisonment in Sweden - Wikipedia
+https://en.wikipedia.org/wiki/Life_imprisonment_in_Sweden
 
 
