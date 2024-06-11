@@ -481,6 +481,12 @@ https://github.com/facebookresearch/fairseq2/blob/main/src/fairseq2/models/featu
 facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
 https://github.com/facebookresearch/multimodal?tab=readme-ov-file
 
+multimodal/torchmultimodal/diffusion_labs/schedules/discrete_gaussian_schedule.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/diffusion_labs/schedules/discrete_gaussian_schedule.py
+
+multimodal/torchmultimodal/models at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/tree/main/torchmultimodal/models
+
 multimodal/examples/mugen/retrieval/tutorial.ipynb at main · facebookresearch/multimodal
 https://github.com/facebookresearch/multimodal/blob/main/examples/mugen/retrieval/tutorial.ipynb
 
@@ -489,27 +495,6 @@ https://github.com/facebookresearch/multimodal/tree/main/examples/mugen/retrieva
 
 habla-liaa/ser-with-w2v2: Official implementation of INTERSPEECH 2021 paper 'Emotion Recognition from Speech Using Wav2vec 2.0 Embeddings'
 https://github.com/habla-liaa/ser-with-w2v2
-
-SneakyCamera - moto g(7) power - WiFi File Transfer
-http://192.168.0.101:1234/storage/emulated/0/Pictures/SneakyCamera/
-
-Inbox • Direct
-https://www.instagram.com/direct/inbox/
-
-UN Security Council votes to back plan for Gaza ceasefire
-https://www.rte.ie/news/middle-east/2024/0610/1454040-un-security-council/
-
-Suburban Me Tab by In Flames - Guitar Solo - Distortion Guitar | Songsterr Tabs with Rhythm
-https://www.songsterr.com/a/wsa/in-flames-suburban-me-tab-s32783t2
-
-MAGI-Poster.pptx
-https://kth-my.sharepoint.com/:p:/g/personal/smehta_ug_kth_se/ES5UQMOLrQBIjyKf65Qg_igBQQoEqPgK0MvAtUyREP6ZAQ?e=noy8Tt
-
-pronunciation dictionary magi - Google Search
-https://www.google.com/search?q=pronunciation+dictionary+magi&rlz=1C5GCEM_enSE990SE991&oq=pronunciation+dictionary+magi&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIGCAMQIRgVMgcIBBAhGJ8FMgcIBRAhGJ8FMgcIBhAhGJ8FMgcIBxAhGJ8FMgcICBAhGJ8FMgcICRAhGJ8F0gEIODQ3NWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8#ip=1
-
-Matcha TTS - a Hugging Face Space by shivammehta25
-https://huggingface.co/spaces/shivammehta25/Matcha-TTS
 
 Extended ATX Chassis for Business | Atea eShop
 https://www.atea.se/eshop/products/komponenter-och-tillbehor/chassin/utokade-atx-chassin/
@@ -523,28 +508,109 @@ https://www.atea.se/eshop/product/thermaltake-the-tower-500-snow-mid-utokad-atx/
 Fujitsu PRIMERGY TX1310 M5 - tower - Xeon E-2374G 3.7 GHz - 16 GB - HDD 2 x 1 TB for business (VFY:T1315SC060IN) | Atea eShop
 https://www.atea.se/eshop/product/fujitsu-primergy-tx1310-m5-tower-xeon-e-2374g-3-7-ghz-16-gb-hdd-2-x-1-tb/?prodid=2354244
 
-Thermaltake CTE C750 Air - FT - utökad ATX för företag (CA-1X6-00F6WN-00) | Atea eShop
-https://www.atea.se/eshop/product/thermaltake-cte-c750-air-ft-utokad-atx/?prodid=2410022
-
 Choose A Case - PCPartPicker
 https://pcpartpicker.com/products/case/#G=8,12&sort=-ext_525&page=1
+
+wrath - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/wrath
+
+analog - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/analog#English
+
+nst_swedish_tts.py · jimregan/nst_swedish_tts at main
+https://huggingface.co/datasets/jimregan/nst_swedish_tts/blob/main/nst_swedish_tts.py
+
+KB (National Library of Sweden / KBLab)
+https://huggingface.co/KB
+
+KBLab (National Library of Sweden / KBLab)
+https://huggingface.co/KBLab
+
+Swedish-South Saami dictionary - Språkbanken
+https://www.nb.no/sprakbanken/ressurskatalog/oai-repo-clarino-uib-no-11509-99/
+
+(2) Home / X
+https://x.com/home
+
+(2) Historic Vids on X: "One of the wildest plot twists in movie history https://t.co/Lj9Yi91WY9" / X
+https://x.com/historyinmemes/status/1799856485570118131
+
+(2) Haohe Liu on X: "Excited to introduce SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound 🎉 SemantiCodec (50 tokens/second or 0.71kbps) ≈ Previous methods (200 tokens/second or 2.0kbps). 🎉Our study also reveals that SemantiCodec tokens hold richer semantic information. https://t.co/le7KdNWvW2" / X
+https://x.com/LiuHaohe/status/1785961357633814661
+
+hubertsiuzdak/snac: Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
+https://github.com/hubertsiuzdak/snac?tab=readme-ov-file
+
+Audio samples from SNAC: Multi-Scale Neural Audio Codec | Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
+https://hubertsiuzdak.github.io/snac/
+
+hubertsiuzdak/snac_24khz · Hugging Face
+https://huggingface.co/hubertsiuzdak/snac_24khz
+
+(2) jack morris on X: "here is my meticulously curated (and highly biased) summer paper reading list 📚: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) ╰╴ https://t.co/UmRVv3YVua LoRA: Low-Rank Adaptation of Large Language Models (2021) ╰╴ https://t.co/A7VHVnjMPt Ring" / X
+https://x.com/jxmnop/status/1800292343343693934
+
+sherpa-onnx/python-api-examples/audio-tagging-from-a-file.py at master · k2-fsa/sherpa-onnx
+https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/audio-tagging-from-a-file.py
+
+text_search/textsearch/csrc/levenshtein.h at master · k2-fsa/text_search
+https://github.com/k2-fsa/text_search/blob/master/textsearch/csrc/levenshtein.h
+
+pkufool/librilight-text · Datasets at Hugging Face
+https://huggingface.co/datasets/pkufool/librilight-text/viewer
+
+Launch Meeting - Zoom
+https://kth-se.zoom.us/j/61584365270#success
+
+SigLIP
+https://huggingface.co/docs/transformers/en/model_doc/siglip
+
+open_clip/src/open_clip/loss.py at 73ad04ae7fb93ede1c02dc9040a828634cb1edf1 · mlfoundations/open_clip
+https://github.com/mlfoundations/open_clip/blob/73ad04ae7fb93ede1c02dc9040a828634cb1edf1/src/open_clip/loss.py#L307
+
+big_vision/big_vision/models/proj/clippo/one_tower.py at main · google-research/big_vision
+https://github.com/google-research/big_vision/blob/main/big_vision/models/proj/clippo/one_tower.py
+
+Podcasts Dataset
+https://podcastsdataset.byspotify.com/
+
+fairseq pretraining wav2vec - Google Search
+https://www.google.com/search?q=fairseq+pretraining+wav2vec&sca_esv=d254fc4124ffde86&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIL_22oYkx09lniAuurIDF1xPMr-Pg%3A1718118105067&ei=2WZoZq_iA-3XwPAP4YyTeA&ved=0ahUKEwjvstba6NOGAxXtKxAIHWHGBA8Q4dUDCBA&uact=5&oq=fairseq+pretraining+wav2vec&gs_lp=Egxnd3Mtd2l6LXNlcnAiG2ZhaXJzZXEgcHJldHJhaW5pbmcgd2F2MnZlYzIFECEYoAEyBRAhGKABMgUQIRifBUjAC1AYWPQHcAF4AZABAZgByAKgAd4OqgEHMC40LjIuMrgBA8gBAPgBAZgCCKACrQzCAgoQABiwAxjWBBhHwgIGEAAYFhgewgIIEAAYgAQYogSYAwCIBgGQBgiSBwcxLjQuMi4xoAffGQ&sclient=gws-wiz-serp#ip=1
+
+how to pretrain wav2vec2 on my own audio using an existing model as a base? · Issue #3300 · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/issues/3300
+
+fairseq/examples/wav2vec/README.md · master · Marco Dinarelli / TArC Multi-Task System · GitLab
+https://gricad-gitlab.univ-grenoble-alpes.fr/dinarelm/tarc-multi-task-system/-/blob/master/fairseq/examples/wav2vec/README.md
+
+wav2vec manifest - Google Search
+https://www.google.com/search?q=wav2vec+manufest&rlz=1C5GCEM_enSE990SE991&oq=wav2vec+manufest&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigAdIBCDQ1MjRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Preparing data for wav2vec model: Creating the manifest file (.tsv) from raw audio - YouTube
+https://www.youtube.com/watch?v=P-xBu7HGSDM
+
+SONNA💗 (@sonna.wasserman) • Instagram photos and videos
+https://www.instagram.com/sonna.wasserman
 
 meow - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/meow
 
-rhetorical device blathering - Google Search
-https://www.google.com/search?q=rhetorical+device+blathering&rlz=1C5GCEM_enSE990SE991&oq=rhetorical+device+blathering&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDY3NzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+castlemaine xxxx - Google Search
+https://www.google.com/search?sca_esv=ba8230b150562d15&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIJRhFU9rew-H_EslfX9mQyie2dxuw:1718122378328&q=castlemaine+xxxx&tbm=vid&source=lnms&prmd=ivnbz&sa=X&ved=2ahUKEwjZvqnQ-NOGAxVsGBAIHWU8AcgQ0pQJegQIDBAB&biw=1440&bih=731&dpr=2#fpstate=ive&vld=cid:1f2caeec,vid:NZ1a1jkGY5c,st:0
 
-length of life sentence in ireland - Google Search
-https://www.google.com/search?q=length+of+life+sentence+in+ireland&rlz=1C5GCEM_enSE990SE991&oq=length+of+a+life+sentence+in+ire&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoF0gEINzQ2MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+XXXX (beer) - Wikipedia
+https://en.wikipedia.org/wiki/XXXX_(beer)
 
-Types of sentences
-https://www.citizensinformation.ie/en/justice/criminal-law/criminal-trial/types-of-sentences/#:~:text=A%20life%20sentence%20lasts%20for,granted%20temporary%20or%20early%20release.
+dallas tv show - Google Search
+https://www.google.com/search?q=dallas+tv+show&rlz=1C5GCEM_enSE990SE991&oq=dallas+tv+&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyCggBEC4Y1AIYgAQyCggCEC4Y1AIYgAQyBggDEEUYOTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQ2MjZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Life imprisonment in Ireland - Wikipedia
-https://en.wikipedia.org/wiki/Life_imprisonment_in_Ireland
+american tv shows set in texas - Google Search
+https://www.google.com/search?q=american+tv+shows+set+in+texas&rlz=1C5GCEM_enSE990SE991&oq=american+tv+shows+set+in+texas&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINTA0NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-Life imprisonment in Sweden - Wikipedia
-https://en.wikipedia.org/wiki/Life_imprisonment_in_Sweden
+beverly hillbillies - Google Search
+https://www.google.com/search?q=beverly+hillbillies&rlz=1C5GCEM_enSE990SE991&oq=beverly+hillb&gs_lcrp=EgZjaHJvbWUqDAgAEAAYQxiABBiKBTIMCAAQABhDGIAEGIoFMgYIARBFGDkyBwgCEC4YgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQg1NzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=GHk0182eYeeB1M&vssid=l
+
+The Beverly Hillbillies - Wikipedia
+https://en.wikipedia.org/wiki/The_Beverly_Hillbillies
 
 
