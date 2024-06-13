@@ -241,3 +241,22 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [MarcusLoppe/meshgpt-pytorch](https://github.com/MarcusLoppe/meshgpt-pytorch),
 [model](https://huggingface.co/MarcusLoren/MeshGPT-preview) --- based on [lucidrains/meshgpt-pytorch](https://github.com/lucidrains/meshgpt-pytorch)
 
+[SemiVL: Semi-Supervised Semantic Segmentation with Vision-Language Guidance](https://arxiv.org/abs/2311.16241),
+[code](https://github.com/google-research/semivl)
+
+[Scaling Spherical CNNs](https://arxiv.org/abs/2306.05420),
+[code](https://github.com/google-research/spherical-cnn)
+
+[Language Table](https://github.com/google-research/language-table) --- Suite of human-collected datasets and a multi-task continuous control benchmark for open vocabulary visuolinguomotor learning.
+
+[Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers](https://arxiv.org/abs/2312.09147),
+[code](https://github.com/VAST-AI-Research/TriplaneGaussian)
+(depends on `diff-gaussian-rasterization` which is not open source)
+
+[Voice in Parkinson's Disease: A Machine Learning Study](https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2022.831428/full)
+
+[Parkinson's Disease Detection Based on Running Speech Data From Phone Calls](https://pubmed.ncbi.nlm.nih.gov/34596531/)
+
+[lucidrains/BS-RoFormer](https://github.com/lucidrains/BS-RoFormer) --- Implementation of Band Split Roformer, SOTA Attention network for music source separation out of ByteDance AI Labs
+
+
