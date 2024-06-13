@@ -259,4 +259,9 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [lucidrains/BS-RoFormer](https://github.com/lucidrains/BS-RoFormer) --- Implementation of Band Split Roformer, SOTA Attention network for music source separation out of ByteDance AI Labs
 
+[Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling](https://arxiv.org/abs/2406.07522),
+[code](https://github.com/microsoft/Samba)
+
+[LibriTTS-P: A Corpus with Speaking Style and Speaker Identity Prompts for Text-to-Speech and Style Captioning](https://arxiv.org/abs/2406.07969),
+[data](https://github.com/line/LibriTTS-P)
 
