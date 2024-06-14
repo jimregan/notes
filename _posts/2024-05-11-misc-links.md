@@ -265,3 +265,18 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [LibriTTS-P: A Corpus with Speaking Style and Speaker Identity Prompts for Text-to-Speech and Style Captioning](https://arxiv.org/abs/2406.07969),
 [data](https://github.com/line/LibriTTS-P)
 
+[ECAPA2: A Hybrid Neural Network Architecture and Training Strategy for Robust Speaker Embeddings](https://arxiv.org/abs/2401.08342)
+
+[Triplane Meets Gaussian Splatting: Fast and Generalizable Single-View 3D Reconstruction with Transformers](https://arxiv.org/abs/2312.09147),
+[code](https://github.com/VAST-AI-Research/TriplaneGaussian)
+
+[Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion](https://arxiv.org/abs/2406.03184),
+<!-- [code](https://github.com/Costwen/Ouroboros3D) -->
+
+[ReLU-KAN: New Kolmogorov-Arnold Networks that Only Need Matrix Addition, Dot Multiplication, and ReLU](https://arxiv.org/abs/2406.02075)
+
+[Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344)
+
+[hokema/Pop2Talk](https://github.com/hokema/Pop2Talk) --- Pop2Talk foreign language prounnciation learning game. Code for the unity client app.
+
+
