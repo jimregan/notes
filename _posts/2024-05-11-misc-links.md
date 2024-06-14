@@ -291,4 +291,9 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [lucidrains/mogrifier](https://github.com/lucidrains/mogrifier) --- Usable implementation of Mogrifier, a circuit for enhancing LSTMs and potentially other networks, from Deepmind
 
+[ina-foss/inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) --- CNN-based audio segmentation toolkit. Allows to detect speech, music, noise and speaker gender. Has been designed for large scale gender equality studies based on speech time per gender.
+
+[mHuBERT-147: A Compact Multilingual HuBERT Model](https://arxiv.org/abs/2406.06371),
+[fairseq fork](https://github.com/utter-project/fairseq),
+[pre-processing scripts](https://github.com/utter-project/mHuBERT-147-scripts/)
 
