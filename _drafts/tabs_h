@@ -31,20 +31,11 @@ file:///Users/joregan/Downloads/The-Art-of-Linear-Algebra.pdf
 PHEME: Efficient and Conversational Speech Generation. | pheme
 https://polyai-ldn.github.io/pheme/
 
-pheme/LICENSE at main · PolyAI-LDN/pheme
-https://github.com/PolyAI-LDN/pheme/blob/main/LICENSE
-
-lucidrains (lucidrains) / Repositories
-https://github.com/lucidrains?tab=repositories
-
 lucidrains (lucidrains) / Repositories
 https://github.com/lucidrains?tab=repositories
 
 lucidrains/classifier-free-guidance-pytorch: Implementation of Classifier Free Guidance in Pytorch, with emphasis on text conditioning, and flexibility to include multiple text embedding models
 https://github.com/lucidrains/classifier-free-guidance-pytorch
-
-lucidrains/mogrifier: Usable implementation of Mogrifier, a circuit for enhancing LSTMs and potentially other networks, from Deepmind
-https://github.com/lucidrains/mogrifier
 
 gigagan-pytorch/gigagan_pytorch/open_clip.py at main · lucidrains/gigagan-pytorch
 https://github.com/lucidrains/gigagan-pytorch/blob/main/gigagan_pytorch/open_clip.py
@@ -55,14 +46,8 @@ https://github.com/lucidrains/rotary-embedding-torch/blob/main/rotary_embedding_
 lucidrains/byol-pytorch: Usable Implementation of "Bootstrap Your Own Latent" self-supervised learning, from Deepmind, in Pytorch
 https://github.com/lucidrains/byol-pytorch
 
-soundstorm-pytorch/soundstorm_pytorch/soundstorm.py at main · lucidrains/soundstorm-pytorch
-https://github.com/lucidrains/soundstorm-pytorch/blob/main/soundstorm_pytorch/soundstorm.py
-
-audiolm-pytorch/audiolm_pytorch/soundstream.py at main · lucidrains/audiolm-pytorch
-https://github.com/lucidrains/audiolm-pytorch/blob/main/audiolm_pytorch/soundstream.py
-
-lucidrains/audiolm-pytorch: Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
-https://github.com/lucidrains/audiolm-pytorch/tree/main
+ali-vilab/UniAnimate: Code for Paper "UniAnimate: Taming Unified Video Diﬀusion Models for Consistent Human Image Animation".
+https://github.com/ali-vilab/UniAnimate
 
 TalkBank
 https://github.com/talkbank
@@ -121,8 +106,8 @@ https://huggingface.co/pyannote/speaker-diarization-3.1
 opus.py · Samin-Rob/FOREIGN-WHISPERS at main
 https://huggingface.co/spaces/Samin-Rob/FOREIGN-WHISPERS/blob/main/opus.py
 
-fast_align/src/alignment_io.cc at master · clab/fast_align
-https://github.com/clab/fast_align/blob/master/src/alignment_io.cc
+clab/fast_align: Simple, fast unsupervised word aligner
+https://github.com/clab/fast_align
 
 bclavie/RAGatouille
 https://github.com/bclavie/RAGatouille?tab=readme-ov-file
@@ -138,9 +123,6 @@ https://x.com/1littlecoder/status/1747976274537013606
 
 collabora/WhisperSpeech: An Open Source text-to-speech system built by inverting Whisper.
 https://github.com/collabora/WhisperSpeech
-
-The maze is in the mouse. What ails Google. And how it can turn… | by Praveen Seshadri | Medium
-https://pravse.medium.com/the-maze-is-in-the-mouse-980c57cfd61a
 
 What are embeddings?
 https://vickiboykis.com/what_are_embeddings/
@@ -171,9 +153,6 @@ https://github.com/google-research/perceiver-ar/blob/main/inference.ipynb
 
 perceiver-ar/perceiver_ar/perceiver_ar_model.py at main · google-research/perceiver-ar
 https://github.com/google-research/perceiver-ar/blob/main/perceiver_ar/perceiver_ar_model.py
-
-CatalyzeX: machine intelligence to catalyze your projects
-https://www.catalyzex.com/users/login?intent=get_code&paper_title=General-purpose%2C+long-context+autoregressive+modeling+with+Perceiver+AR
 
 flaxformer/flaxformer/architectures/moe/moe_architecture.py at main · google/flaxformer
 https://github.com/google/flaxformer/blob/main/flaxformer/architectures/moe/moe_architecture.py
@@ -208,9 +187,6 @@ https://www.youtube.com/watch?v=VviHuZuNqpk
 Lumbar Microdiscectomy Risks and Complications | Piedmont Healthcare
 https://www.piedmont.org/spine/services-treatments/surgical-treatments/spine-lumbarmicrodiscectomy
 
-x.com/home
-https://x.com/home
-
 (2) 青龍聖者 on X: "UniAnimate: Taming Unified Video Diffusion Models for Consistent Human Image Animation https://t.co/cC5l1ONTrb One more AnimeAnyone https://t.co/7J0QopZ71a" / X
 https://x.com/bdsqlsz/status/1798039019995185460
 
@@ -229,38 +205,17 @@ https://x.com/_philschmid/status/1798388387822317933
 (2) Tanishq Mathew Abraham, Ph.D. on X: "Guiding a Diffusion Model with a Bad Version of Itself abs: https://t.co/m8iLx8rvb1 New Karras et al. paper! Another banger! This paper studies classifier-free guidance and why it works. The authors demonstrate that score matching leads to outliers (over-emphasizing low https://t.co/S6jme1e46M" / X
 https://x.com/iScienceLuvr/status/1798177427493101899
 
-(2) AK on X: "Audio Mamba Bidirectional State Space Model for Audio Representation Learning Transformers have rapidly become the preferred choice for audio classification, surpassing methods based on CNNs. However, Audio Spectrogram Transformers (ASTs) exhibit quadratic scaling https://t.co/HBmlh6UrLd" / X
-https://x.com/_akhaliq/status/1798560098358526446
-
 (2) Tom Yeh | AI by Hand ✍️ on X: "llm.c by Hand✍️ C programming + matrix multiplication by hand This combination is perhaps as low as we can get to explain how the Transformer works. Special thanks to @karpathy for encouraging early feedback and @7etsuo for helping me understand the pragma magic. I hope https://t.co/jx1Ye0r0ei" / X
 https://x.com/ProfTomYeh/status/1798042265883156651
 
-(2) andrew gao on X: "We embedded 250,000 works of art 🎨 from The Met using @nomic_ai's new SOTA #multimodal embeddings model! It's the *first ever* semantic search tool of its kind 👩‍🎨 🔎 Search with smart queries like "oil painting with flowers &amp; dogs". How we did it &amp; how to use it👇 https://t.co/sWjW78zUtI" / X
-https://x.com/itsandrewgao/status/1798389860711166130
-
-(2) Michael Black on X: "There's a problem with 3D human pose &amp; shape (HPS) estimation methods. You either get good 3D accuracy or good alignment with the image, but not both. Why? The current top methods use the wrong camera model. TokenHMR at #CVPR2024 analyzes the issue and presents a solution. (1/8) https://t.co/xbPFXwEzYf" / X
-https://x.com/Michael_J_Black/status/1798602004610342928
-
-(2) Peter J. Liu on X: "We recently open-sourced a relatively minimal implementation example of Transformer language model training in JAX, called NanoDO. If you stick to vanilla JAX components, the code is relatively straightforward to read -- the model file is &lt;150 lines. We found it useful as a…" / X
-https://x.com/peterjliu/status/1798430625315295290
-
-nanodo/nanodo/fsdp.py at main · google-deepmind/nanodo
-https://github.com/google-deepmind/nanodo/blob/main/nanodo/fsdp.py
-
-grain/grain/_src/core/sharding.py at main · google/grain
-https://github.com/google/grain/blob/main/grain/_src/core/sharding.py
-
 Fear, Anxiety, and Guilt After A Traumatic Event | Center for Innovative Teaching and Learning | Northern Illinois University
 https://www.niu.edu/citl/resources/toolkits/crisis/fear.shtml#02
-
-Google Keep
-https://keep.google.com/u/0/
 
 You MUST do these 5 moves EVERYDAY (or never master your bodyweight). - YouTube
 https://www.youtube.com/watch?v=9DqW9R8Lfmw
 
 Google Keep
-https://keep.google.com/u/0/
+https://keep.google.com/u/0/#home
 
 Common Mistakes You Want to Avoid When Drinking Water! Dr. Mandell - YouTube
 https://www.youtube.com/watch?v=vp1erv53XnY
@@ -289,29 +244,8 @@ https://www.youtube.com/watch?v=m1AIMV0G8qw
 This Neck Technique Can Change Your Life...Neck Pain, Tinnitus, Headaches, Brain Fog! Dr. Mandell - YouTube
 https://www.youtube.com/watch?v=ZNMDGSGvf3o
 
-1 Mug Before Bed...Sleep Deeply & Burn Belly Fat | Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=QHoR6lDtgFE
-
-1 Shot...Widens Arteries & Reverses Inflammation on the Spot (Prevent Heart Attack) | Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=9zmN-ciZH70
-
-Detox, Cleanse & Repair Your Kidneys! Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=9zDOU0NKM7E
-
-Nature's Anti-Inflammatory! Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=UAKAJxuT6QU
-
-1 Drop...Clears Up Mucus and Phlegm, Opens Airways, and Natural Antihistamine | Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=VVub143kcvg
-
-STOP Your Snoring and Fix Sleep Apnea...Breathe Easy & Healthier! Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=5Z-OIbrTvTM
-
 Clear Stuffy Nose & Drain Sinus in 2 Moves | Dr. Mandell - YouTube
 https://www.youtube.com/watch?v=CGfo5k0oLpE
-
-Shaolin Kung Fu Combat Styles: 1. small Buddha's 18 hands (罗汉十八手: luohan shiba shou) - YouTube
-https://www.youtube.com/watch?v=r2YQcNxIeNo&list=PL8F75C68BF1246C2B
 
 Rejection Sensitive Dysphoria (RSD): Symptoms & Treatment
 https://my.clevelandclinic.org/health/diseases/24099-rejection-sensitive-dysphoria-rsd
