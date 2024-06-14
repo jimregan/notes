@@ -281,4 +281,14 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [kyegomez/VisionMamba](https://github.com/kyegomez/VisionMamba) --- Implementation of Vision Mamba from the paper: "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model" It's 2.8x faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on high-res images
 
+{% twitter https://x.com/itsandrewgao/status/1798389860711166130 %}
+
+{% twitter https://x.com/peterjliu/status/1798430625315295290 %}
+
+[The maze is in the mouse](https://pravse.medium.com/the-maze-is-in-the-mouse-980c57cfd61a)
+
+[lucidrains/soundstorm-pytorch](https://github.com/lucidrains/soundstorm-pytorch) --- Implementation of SoundStorm, Efficient Parallel Audio Generation from Google Deepmind, in Pytorch
+
+[lucidrains/mogrifier](https://github.com/lucidrains/mogrifier) --- Usable implementation of Mogrifier, a circuit for enhancing LSTMs and potentially other networks, from Deepmind
+
 
