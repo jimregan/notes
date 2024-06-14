@@ -310,6 +310,21 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [VISinger2+: End-to-End Singing Voice Synthesis Augmented by Self-Supervised Learning Representation](https://arxiv.org/abs/2406.08761)
 
-[ridgerchu/matmulfreellm](https://github.com/ridgerchu/matmulfreellm)
+[Scalable MatMul-free Language Modeling](https://arxiv.org/abs/2406.02528),
+[code](https://github.com/ridgerchu/matmulfreellm)
 
+[Contextual and combinatorial structure in sperm whale vocalisations](https://www.nature.com/articles/s41467-024-47221-8)
+
+[Towards Decoupling Frontend Enhancement and Backend Recognition in Monaural Robust ASR](https://arxiv.org/abs/2403.06387)
+
+[SpokeN-100: A Cross-Lingual Benchmarking Dataset for The Classification of Spoken Numbers in Different Languages](https://arxiv.org/abs/2403.09753)
+
+[juletx/BertaQA](https://github.com/juletx/BertaQA) --- BertaQA: How Much Do Language Models Know About Local Culture?
+
+[Scientists have transplanted memory from one snail to another. So, what does it mean for humans?](https://edition.cnn.com/2018/05/17/health/snail-memory-rna-science-study-trnd/index.html)
+
+{% twitter https://x.com/rohanpaul_ai/status/1800138420351562107 %}
+
+[Beyond Language Models: Byte Models are Digital World Simulators](https://arxiv.org/abs/2402.19155),
+[code](https://github.com/sanderwood/bgpt)
 
