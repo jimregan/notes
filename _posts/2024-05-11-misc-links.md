@@ -279,4 +279,6 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [hokema/Pop2Talk](https://github.com/hokema/Pop2Talk) --- Pop2Talk foreign language prounnciation learning game. Code for the unity client app.
 
+[kyegomez/VisionMamba](https://github.com/kyegomez/VisionMamba) --- Implementation of Vision Mamba from the paper: "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model" It's 2.8x faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on high-res images
+
 
