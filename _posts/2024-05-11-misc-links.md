@@ -297,3 +297,19 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [fairseq fork](https://github.com/utter-project/fairseq),
 [pre-processing scripts](https://github.com/utter-project/mHuBERT-147-scripts/)
 
+[A virtual rodent predicts the structure of neural activity across behaviors](https://www.nature.com/articles/s41586-024-07633-4)
+
+[openvla/openvla](https://github.com/openvla/openvla) --- OpenVLA: An Open-Source Vision-Language-Action Model
+(based on Llama, so model is not open)
+
+[TRI-ML/prismatic-vlms](https://github.com/TRI-ML/prismatic-vlms) --- A flexible and efficient codebase for training visually-conditioned language models (VLMs)
+
+{% twitter https://x.com/jeremyphoward/status/1801037736968913128 %}
+
+[ML-SUPERB 2.0: Benchmarking Multilingual Speech Models Across Modeling Constraints, Languages, and Datasets](https://arxiv.org/abs/2406.08641)
+
+[VISinger2+: End-to-End Singing Voice Synthesis Augmented by Self-Supervised Learning Representation](https://arxiv.org/abs/2406.08761)
+
+[ridgerchu/matmulfreellm](https://github.com/ridgerchu/matmulfreellm)
+
+
