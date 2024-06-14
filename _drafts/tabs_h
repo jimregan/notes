@@ -151,32 +151,8 @@ https://github.com/veekaybee/what_are_embeddings/blob/main/notebooks/fig_4_bert.
 embeddings.pdf
 file:///Users/joregan/Downloads/embeddings.pdf
 
-2401.09350
-https://arxiv.org/pdf/2401.09350
-
-hustvl/Vim: Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
-https://github.com/hustvl/Vim?tab=readme-ov-file
-
-hustvl/Vim-tiny · Hugging Face
-https://huggingface.co/hustvl/Vim-tiny
-
-kyegomez/VisionMamba: Implementation of Vision Mamba from the paper: "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model" It's 2.8x faster than DeiT and saves 86.8% GPU memory when performing batch inference to extract features on high-res images
-https://github.com/kyegomez/VisionMamba
-
 SummaryMixing/speechbrain/nnet/summary_mixing.py at main · SamsungLabs/SummaryMixing
 https://github.com/SamsungLabs/SummaryMixing/blob/main/speechbrain/nnet/summary_mixing.py
-
-[2401.08342] ECAPA2: A Hybrid Neural Network Architecture and Training Strategy for Robust Speaker Embeddings
-https://arxiv.org/abs/2401.08342
-
-MoEs papers reading list - a osanseviero Collection
-https://huggingface.co/collections/osanseviero/moes-papers-reading-list-65a83f8a9aec16459920ffe0
-
-apple/ml-aim: This repository provides the code and model checkpoints of the research paper: Scalable Pre-training of Large Autoregressive Image Models
-https://github.com/apple/ml-aim?tab=readme-ov-file
-
-VAST-AI/TriplaneGaussian · Hugging Face
-https://huggingface.co/VAST-AI/TriplaneGaussian
 
 togethercomputer/m2-bert-80M-32k-retrieval · Hugging Face
 https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval
@@ -186,9 +162,6 @@ https://drive.google.com/file/d/1ADD8js8eMA88yMLMKwbNBr5OahnxFYZg/view
 
 Bäst i Test (Taskmaster Sweden) S08E02 [w/ Eng subs] : r/panelshow
 https://www.reddit.com/r/panelshow/comments/19b0tuy/b%C3%A4st_i_test_taskmaster_sweden_s08e02_w_eng_subs/
-
-mcdermottLab/pycochleagram: Generate cochleagrams natively in Python. Ported from Josh McDermott's MATLAB code.
-https://github.com/mcdermottLab/pycochleagram
 
 google-research/language: Shared repository for open-sourced projects from the Google AI Language team.
 https://github.com/google-research/language
@@ -207,21 +180,6 @@ https://github.com/google/flaxformer/blob/main/flaxformer/architectures/moe/moe_
 
 ParlaCLARIN III at LREC2022 - Workshop on Creating, Enriching and Using Parliamentary Corpora | CLARIN ERIC
 https://www.clarin.eu/ParlaCLARIN-III
-
-ParlaMint_IT@ParlaClarinWS
-https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session4_3_Agnoloni.pdf
-
-ParlaCLARIN-III_LREC2022_Session4_4_Külebi.pdf
-https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session4_4_K%C3%BClebi.pdf
-
-ParlaSpeech-HR
-https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session4_2_Ljube%C5%A1i%C4%87.pdf
-
-Entity Linking in the ParlaMint Corpus - An exploration of linking actors in parliamentary debates
-https://www.clarin.eu/sites/default/files/ParlaCLARIN-III_LREC2022_Session2_3_van-Heusden.pdf
-
-hokema/Pop2Talk: Pop2Talk foreign language prounnciation learning game. Code for the unity client app.
-https://github.com/hokema/Pop2Talk
 
 Analyzing Open AI's Whisper ASR Accuracy: Word Error Rates Across Languages and Model Sizes | Speechly
 https://www.speechly.com/blog/analyzing-open-ais-whisper-asr-models-word-error-rates-across-languages
@@ -268,25 +226,16 @@ https://arxiv.org/pdf/2406.02328
 (2) Philipp Schmid on X: "Creating a Pipeline for Generating Synthetic Data for Fine-Tuning Custom Embedding Models. 👀 Step 1 Create a Knowledge Base: Start with preparing your domain specific knowledge base, such as PDFs or other documents containing information. Convert the content of these documents… https://t.co/0mYDJKMylY" / X
 https://x.com/_philschmid/status/1798388387822317933
 
-(2) AK on X: "Ouroboros3D Image-to-3D Generation via 3D-aware Recursive Diffusion Existing single image-to-3D creation methods typically involve a two-stage process, first generating multi-view images, and then using these images for 3D reconstruction. However, https://t.co/9a7UJ0pE5v" / X
-https://x.com/_akhaliq/status/1798536799737741361
-
-(2) Valeriy M., PhD, MBA, CQF on X: "'RELU-KAN: NEW KOLMOGOROV-ARNOLD NETWORKS THAT ONLY NEED MATRIX ADDITION, DOT MULTIPLICATION, AND RELU' 'The proposed ReLU-KAN architecture can be readily implemented on existing deep learning frameworks (e.g., PyTorch) for both inference and training. Experimental results… https://t.co/2Roy8kb7tB" / X
-https://x.com/predict_addict/status/1798645181207482725
-
-(2) Tanishq Mathew Abraham, Ph.D. on X: "Guiding a Diffusion Model with a Bad Version of Itself abs: https://t.co/m8iLx8rvb1 New Karras et al. paper! Another banger! This paper studies classifier-free guidance and why it works. The authors demonstrate that score matching leads to outliers (over-emphasizing low… https://t.co/S6jme1e46M" / X
+(2) Tanishq Mathew Abraham, Ph.D. on X: "Guiding a Diffusion Model with a Bad Version of Itself abs: https://t.co/m8iLx8rvb1 New Karras et al. paper! Another banger! This paper studies classifier-free guidance and why it works. The authors demonstrate that score matching leads to outliers (over-emphasizing low https://t.co/S6jme1e46M" / X
 https://x.com/iScienceLuvr/status/1798177427493101899
 
 (2) AK on X: "Audio Mamba Bidirectional State Space Model for Audio Representation Learning Transformers have rapidly become the preferred choice for audio classification, surpassing methods based on CNNs. However, Audio Spectrogram Transformers (ASTs) exhibit quadratic scaling https://t.co/HBmlh6UrLd" / X
 https://x.com/_akhaliq/status/1798560098358526446
 
-Paper page - Audio Mamba: Bidirectional State Space Model for Audio Representation Learning
-https://huggingface.co/papers/2406.03344
-
-(2) Tom Yeh | AI by Hand ✍️ on X: "llm.c by Hand✍️ C programming + matrix multiplication by hand This combination is perhaps as low as we can get to explain how the Transformer works. Special thanks to @karpathy for encouraging early feedback and @7etsuo for helping me understand the pragma magic. I hope… https://t.co/jx1Ye0r0ei" / X
+(2) Tom Yeh | AI by Hand ✍️ on X: "llm.c by Hand✍️ C programming + matrix multiplication by hand This combination is perhaps as low as we can get to explain how the Transformer works. Special thanks to @karpathy for encouraging early feedback and @7etsuo for helping me understand the pragma magic. I hope https://t.co/jx1Ye0r0ei" / X
 https://x.com/ProfTomYeh/status/1798042265883156651
 
-(2) Andrew Gao on X: "We embedded 250,000 works of art 🎨 from The Met using @nomic_ai's new SOTA #multimodal embeddings model! It's the *first ever* semantic search tool of its kind 👩‍🎨 🔎 Search with smart queries like "oil painting with flowers &amp; dogs". How we did it &amp; how to use it👇 https://t.co/sWjW78zUtI" / X
+(2) andrew gao on X: "We embedded 250,000 works of art 🎨 from The Met using @nomic_ai's new SOTA #multimodal embeddings model! It's the *first ever* semantic search tool of its kind 👩‍🎨 🔎 Search with smart queries like "oil painting with flowers &amp; dogs". How we did it &amp; how to use it👇 https://t.co/sWjW78zUtI" / X
 https://x.com/itsandrewgao/status/1798389860711166130
 
 (2) Michael Black on X: "There's a problem with 3D human pose &amp; shape (HPS) estimation methods. You either get good 3D accuracy or good alignment with the image, but not both. Why? The current top methods use the wrong camera model. TokenHMR at #CVPR2024 analyzes the issue and presents a solution. (1/8) https://t.co/xbPFXwEzYf" / X
@@ -301,38 +250,17 @@ https://github.com/google-deepmind/nanodo/blob/main/nanodo/fsdp.py
 grain/grain/_src/core/sharding.py at main · google/grain
 https://github.com/google/grain/blob/main/grain/_src/core/sharding.py
 
-Instagram
-https://www.instagram.com/
-
-Paolo Macchiarini - Wikipedia
-https://en.wikipedia.org/wiki/Paolo_Macchiarini
-
 Fear, Anxiety, and Guilt After A Traumatic Event | Center for Innovative Teaching and Learning | Northern Illinois University
 https://www.niu.edu/citl/resources/toolkits/crisis/fear.shtml#02
 
-Instagram
-https://www.instagram.com/
-
-Best Martial Arts Ranked by Undercover Police Officer - YouTube
-https://www.youtube.com/watch?v=Kot5rOcR8W4
-
-Shaolin 18 Luohan Tutorial (Segment 1) - YouTube
-https://www.youtube.com/watch?v=3W-uGyBzliI
+Google Keep
+https://keep.google.com/u/0/
 
 You MUST do these 5 moves EVERYDAY (or never master your bodyweight). - YouTube
 https://www.youtube.com/watch?v=9DqW9R8Lfmw
 
-You MUST Train Full-Body EVERYDAY - YouTube
-https://www.youtube.com/watch?v=caVPjNjMJ3Q
-
-Fix Your Axis and Expect Miracles! Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=HZztvctsotY
-
-motivationaldoc - YouTube
-https://www.youtube.com/@motivationaldoc/videos
-
-1 Cup Cleans Out Liver Fat | Dr. Mandell - YouTube
-https://www.youtube.com/watch?v=mTGY4ykYi1c
+Google Keep
+https://keep.google.com/u/0/
 
 Common Mistakes You Want to Avoid When Drinking Water! Dr. Mandell - YouTube
 https://www.youtube.com/watch?v=vp1erv53XnY
@@ -699,17 +627,5 @@ https://github.com/utter-project/mHuBERT-147-scripts/blob/main/LICENSE.txt
 
 ina-foss/inaSpeechSegmenter: CNN-based audio segmentation toolkit. Allows to detect speech, music, noise and speaker gender. Has been designed for large scale gender equality studies based on speech time per gender.
 https://github.com/ina-foss/inaSpeechSegmenter
-
-(2) Clint Murphy on X: "A “Razor” is a rule of thumb that simplifies decision making. Here are 16 Razors every person should know:" / X
-https://x.com/IAmClintMurphy/status/1801260497183895785
-
-(2) Home / X
-https://x.com/home
-
-(2) Rocke Fella - NAFO Raccoon Spec Ops on X: "Apparently russians are not liking this piece by a press correspondent 20 year old Ukrainian has eliminated hundreds of russian using his FPV VR skills https://t.co/EVHhzjNMT0" / X
-https://x.com/NAFORaccoon/status/1800889602682785977
-
-(2) Historic Vids on X: "In 2001, Coca-Cola announced that it sold 4 times more than Pepsi, and this was the company's response https://t.co/29te1TDSbX" / X
-https://x.com/historyinmemes/status/1801514912059167177
 
 
