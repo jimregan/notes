@@ -920,7 +920,7 @@ facebook/mms-1b-all · Hugging Face
 https://huggingface.co/facebook/mms-1b-all
 
 History
-chrome://history/syncedTabs
+chrome://history/
 
 Jupyter Notebook Viewer
 https://nbviewer.org/github/gpeyre/numerical-tours/blob/master/python/ml_3_classification.ipynb
@@ -1003,8 +1003,8 @@ https://github.com/JaidedAI/EasyOCR/blob/master/trainer/craft/README.md
 EasyOCR/custom_model.md at master · JaidedAI/EasyOCR
 https://github.com/JaidedAI/EasyOCR/blob/master/custom_model.md
 
-Belval/TextRecognitionDataGenerator: A synthetic data generator for text recognition
-https://github.com/Belval/TextRecognitionDataGenerator?tab=readme-ov-file
+TextRecognitionDataGenerator/trdg/generators/from_strings.py at master · Belval/TextRecognitionDataGenerator
+https://github.com/Belval/TextRecognitionDataGenerator/blob/master/trdg/generators/from_strings.py
 
 EasyOCR/trainer/trainer.ipynb at master · JaidedAI/EasyOCR
 https://github.com/JaidedAI/EasyOCR/blob/master/trainer/trainer.ipynb
@@ -1012,58 +1012,37 @@ https://github.com/JaidedAI/EasyOCR/blob/master/trainer/trainer.ipynb
 Jaided AI: EasyOCR model hub
 https://jaided.ai/easyocr/modelhub/
 
-langdata/gle_uncial at main · tesseract-ocr/langdata
-https://github.com/tesseract-ocr/langdata/tree/main/gle_uncial
-
-tesseract-gle-uncial/fonts.txt at master · jimregan/tesseract-gle-uncial
-https://github.com/jimregan/tesseract-gle-uncial/blob/master/fonts.txt
-
-jimregan/sjoestedt-jonval-description
-https://github.com/jimregan/sjoestedt-jonval-description
+sjoestedt-jonval-description/phonetique at sections · jimregan/sjoestedt-jonval-description
+https://github.com/jimregan/sjoestedt-jonval-description/tree/sections/phonetique
 
 jimregan/UD_Irish: Irish data
-https://github.com/jimregan/UD_Irish
+https://github.com/jimregan/UD_Irish/tree/master
 
-jimregan/wav2vec2-riksdag-api-alignments
-https://github.com/jimregan/wav2vec2-riksdag-api-alignments
-
-jimregan/sbtal_riksdag_asr
-https://github.com/jimregan/sbtal_riksdag_asr
-
-jimregan/uninum: A database of number names for 186 languages, locales, and scripts
-https://github.com/jimregan/uninum
-
-jimregan/irish-g2p
-https://github.com/jimregan/irish-g2p
+irish-g2p/wordlists/quiggin.yaml at main · jimregan/irish-g2p
+https://github.com/jimregan/irish-g2p/blob/main/wordlists/quiggin.yaml
 
 Untitled39.ipynb - Colab
 https://colab.research.google.com/drive/1GJt8o3Y3heSFe3X-XiOjOanMLAKV8Ctz#scrollTo=xF7_XIQc0nsG
 
-Clónna le dearthóirí eile
-https://www.gaelchlo.com/clonna2.html
+(1) Inbox • Direct
+https://www.instagram.com/direct/t/107940697271189/
 
-Seanchló GC
-https://www.gaelchlo.com/seangc.html
+Belval/TextRecognitionDataGenerator: A synthetic data generator for text recognition
+https://github.com/Belval/TextRecognitionDataGenerator?tab=readme-ov-file
 
-Inkwell Media : Freebies : Macalla Font
-https://inkwell.ie/font-macalla.html
+New Tab
+chrome://newtab/
 
-Seanchló na Nod
-https://www.gaelchlo.com/snod.html
+raw.githubusercontent.com/tesseract-ocr/langdata/main/gle_uncial/gle_uncial.training_text
+https://raw.githubusercontent.com/tesseract-ocr/langdata/main/gle_uncial/gle_uncial.training_text
 
-otf to ttf linux - Google Search
-https://www.google.com/search?q=otf+to+ttf+linux&sca_esv=cbb07cb897603c0c&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWILwnvGPXhrmsrozAQucNVjf3gRcgg%3A1718818699024&ei=ixdzZtuUAZ2ywPAPx7-kwAU&ved=0ahUKEwibhvTPmuiGAxUdGRAIHccfCVgQ4dUDCBA&uact=5&oq=otf+to+ttf+linux&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG90ZiB0byB0dGYgbGludXgyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMggQABiABBiiBDIIEAAYgAQYogRIwwtQ4QJYqglwAXgBkAEAmAHoAaABtgWqAQU0LjAuMrgBA8gBAPgBAZgCB6ACyAXCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHBTUuMC4yoAeXHw&sclient=gws-wiz-serp
+Spline Font Database version 3.2 - Google Search
+https://www.google.com/search?q=Spline+Font+Database+version+3.2&rlz=1C5GCEM_enSE990SE991&oq=Spline+Font+Database+version+3.2&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBBzI3OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-css - How can I convert TTF files to OTF format? - Stack Overflow
-https://stackoverflow.com/questions/5712047/how-can-i-convert-ttf-files-to-otf-format
+ttf-converter/ttf-converter at master · antlarr-suse/ttf-converter
+https://github.com/antlarr-suse/ttf-converter/blob/master/ttf-converter
 
-fontconvert/fontconvert.sh at main · bradsec/fontconvert
-https://github.com/bradsec/fontconvert/blob/main/fontconvert.sh
-
-ubuntu fontforge python - Google Search
-https://www.google.com/search?q=ubuntu+fontforge+python&rlz=1C5GCEM_enSE990SE991&oq=ubuntu+fontforge+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBdIBCDUxMzlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Instagram
-https://www.instagram.com/
+File Not Found
+https://stuff.mit.edu/afs/sipb.mit.edu/project/wine/src/fontforge-20070511/fontforge/f-generate
 
 
