@@ -328,3 +328,34 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [Beyond Language Models: Byte Models are Digital World Simulators](https://arxiv.org/abs/2402.19155),
 [code](https://github.com/sanderwood/bgpt)
 
+[How Should We Extract Discrete Audio Tokens from Self-Supervised Models?](https://arxiv.org/abs/2406.10735)
+
+[GAMA: A Large Audio-Language Model with Advanced Audio Understanding and Complex Reasoning Abilities](https://arxiv.org/abs/2406.11768)
+
+[Towards Lightweight Speaker Verification via Adaptive Neural Network Quantization](https://arxiv.org/abs/2406.05359)
+
+[Multilingual Prosody Transfer: Comparing Supervised & Transfer Learning](https://arxiv.org/abs/2406.00022)
+
+[CrossVoice: Crosslingual Prosody Preserving Cascade-S2ST using Transfer Learning](https://arxiv.org/abs/2406.00021)
+
+[RawBMamba: End-to-End Bidirectional State Space Model for Audio Deepfake Detection](https://arxiv.org/abs/2406.06086)
+
+[Performant ASR Models for Medical Entities in Accented Speech](https://arxiv.org/abs/2406.12387)
+
+[A dual task learning approach to fine-tune a multilingual semantic speech encoder for Spoken Language Understanding](https://arxiv.org/abs/2406.12141)
+
+[Rapid Language Adaptation for Multilingual E2E Speech Recognition Using Encoder Prompting](https://arxiv.org/abs/2406.12611)
+
+[A Mel Spectrogram Enhancement Paradigm Based on CWT in Speech Synthesis](https://arxiv.org/abs/2406.12164)
+
+[Interface Design for Self-Supervised Speech Models](https://arxiv.org/abs/2406.12209)
+
+[Towards Audio Codec-based Speech Separation](https://arxiv.org/abs/2406.12434)
+<!-- [code](https://github.com/Yip-Jia-Qi/codecformer) Nothing yet -->
+
+{% twitter https://x.com/gabrielpeyre/status/1802929231128596902 %}
+[Notebook](https://nbviewer.org/github/gpeyre/numerical-tours/blob/master/python/ml_3_classification.ipynb)
+
+[I Felt a Little Homosexual Today, So I Called in Sick: The Formation of “Reverse Discourse” by Swedish Gay Activists in the 1970s](https://www.tandfonline.com/doi/full/10.1080/13600826.2022.2052025)
+
+
