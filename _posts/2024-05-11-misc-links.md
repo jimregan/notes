@@ -358,4 +358,17 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [I Felt a Little Homosexual Today, So I Called in Sick: The Formation of “Reverse Discourse” by Swedish Gay Activists in the 1970s](https://www.tandfonline.com/doi/full/10.1080/13600826.2022.2052025)
 
+{% twitter https://x.com/historyinmemes/status/1803130558169620967 %}
+
+{% twitter https://x.com/neu_rips/status/1802863213760905540 %}
+
+[Bisimulation Metrics are Optimal Transport Distances, and Can be Computed Efficiently](https://arxiv.org/abs/2406.04056)
+
+{% twitter https://x.com/80Level/status/1803264785804324888 %}
+
+[This Madlad Programmer Managed to Run Blender on a Nokia Phone](https://80.lv/articles/this-madlad-programmer-managed-to-run-blender-on-a-nokia-phone/)
+
+{% twitter https://x.com/kvfrans/status/1802758750748774637 %}
+[kvfrans/jax-flow](https://github.com/kvfrans/jax-flow) --- Flow-matching algorithms in JAX
+
 
