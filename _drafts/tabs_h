@@ -232,29 +232,11 @@ file:///Users/joregan/Downloads/annotated-Group9_final_project.pdf
 annotated-DT2119_Semi_Supervised_Project.pdf
 file:///Users/joregan/Downloads/annotated-DT2119_Semi_Supervised_Project.pdf
 
-Project report: Final version, SpeedGrader, DT2119/FDT3119 VT24 Speech and Speaker Recognition
-https://canvas.kth.se/courses/46254/gradebook/speed_grader?assignment_id=289227&student_id=108228
-
-canvas.kth.se
-https://canvas.kth.se/courses/46254/gradebook/speed_grader?assignment_id=289227&student_id=107436
-
-Course groups: DT2119/FDT3119 VT24 Speech and Speaker Recognition
-https://canvas.kth.se/courses/46254/groups#tab-26435
-
-New Tab
-chrome://newtab/
-
-DT2119 projects 2024 - Google Sheets
-https://docs.google.com/spreadsheets/d/1XagJbMJ3_iSOFeCCJSd7MqdMoR7Bn-Q6YNUVKUnTsnk/edit#gid=1966729826
-
-Project report: Final version, SpeedGrader, DT2119/FDT3119 VT24 Speech and Speaker Recognition
-https://canvas.kth.se/courses/46254/gradebook/speed_grader?assignment_id=289227&student_id=136989
-
 annotated-Project_report2 (1).pdf
 file:///Users/joregan/Downloads/annotated-Project_report2%20(1).pdf
 
-wav2vec embeddings - Google Search
-https://www.google.com/search?q=wav2vec+embeddings&rlz=1C5GCEM_enSE990SE991&oq=wav2vec+emb&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBCDI2NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+fairseq/examples/wav2vec/wav2vec_featurize.py at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/wav2vec_featurize.py
 
 python - Getting embeddings from wav2vec2 models in HuggingFace - Stack Overflow
 https://stackoverflow.com/questions/69266293/getting-embeddings-from-wav2vec2-models-in-huggingface
@@ -262,17 +244,11 @@ https://stackoverflow.com/questions/69266293/getting-embeddings-from-wav2vec2-mo
 nlp - How to extract embeddings from an audio file using wav2vec along with context - Data Science Stack Exchange
 https://datascience.stackexchange.com/questions/118124/how-to-extract-embeddings-from-an-audio-file-using-wav2vec-along-with-context
 
-Domain-Informed Probing of wav2vec 2.0 Embeddings for Phonetic Features - ACL Anthology
-https://aclanthology.org/2022.sigmorphon-1.9/
-
 A Closer Look at Wav2Vec2 Embeddings for On-Device Single-Channel Speech Enhancement
 https://arxiv.org/html/2403.01369v1
 
 wav2vec2 embeddings from specific layer - Google Search
-https://www.google.com/search?q=wav2vec2+embeddings+from+specific+layer&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+embeddings+from+specific+layer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDkzNzBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#ip=1
-
-Wav2Vec2
-https://huggingface.co/docs/transformers/en/model_doc/wav2vec2
+https://www.google.com/search?q=wav2vec2+embeddings+from+specific+layer&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+embeddings+from+specific+layer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDkzNzBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
 Speech Recognition with Wav2Vec2 — Torchaudio 2.3.0 documentation
 https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.html
@@ -1098,5 +1074,107 @@ https://aya.for.ai/
 
 Gärdet - Search / X
 https://x.com/search?q=G%C3%A4rdet&src=trend_click&vertical=trends
+
+torchaudio.pipelines._wav2vec2 — Torchaudio 0.10.0 documentation
+https://pytorch.org/audio/0.10.0/_modules/torchaudio/pipelines/_wav2vec2.html#Wav2Vec2Bundle
+
+Automatic Speech Recognition (ASR) - NVIDIA Docs
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/intro.html
+
+Checkpoints - NVIDIA Docs
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/results.html#asr-checkpoint-list-by-language
+
+STT Pl Quartznet15x5 | NVIDIA NGC
+https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_pl_quartznet15x5
+
+STT Pl FastConformer Hybrid Transducer-CTC Large P&C | NVIDIA NGC
+https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_pl_fastconformer_hybrid_large_pc
+
+NeMo/examples/asr/asr_hybrid_transducer_ctc/speech_to_text_hybrid_rnnt_ctc_bpe.py at main · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/blob/main/examples/asr/asr_hybrid_transducer_ctc/speech_to_text_hybrid_rnnt_ctc_bpe.py
+
+Tutorial
+https://jqlang.github.io/jq/tutorial/
+
+euro 2024 today - Google Search
+https://www.google.com/search?q=euro+2024+today&rlz=1C5GCEM_enSE990SE991&oq=eur&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYQTIGCAcQRRhB0gEHNzA0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+python difflib word diff - Google Search
+https://www.google.com/search?q=python+difflib+word+diff&sca_esv=7848dc2536e4d400&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKjyTJ0LCgYxGdyHSNHrkxKkMn5vw%3A1718897222591&ei=Rkp0ZuXmI_6hwPAP1ZuXuAU&ved=0ahUKEwjloe6Sv-qGAxX-EBAIHdXNBVcQ4dUDCBA&uact=5&oq=python+difflib+word+diff&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHB5dGhvbiBkaWZmbGliIHdvcmQgZGlmZjIFECEYoAEyBRAhGKABMgUQIRifBUjfFFDiAljKEnABeAGQAQCYAXGgAfoGqgEEMTEuMbgBA8gBAPgBAZgCDaACkwfCAgoQABiwAxjWBBhHwgIEECMYJ8ICBxAAGIAEGA3CAgYQABgNGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIGEAAYFhgewgIIEAAYFhgKGB7CAgoQABgWGAoYHhgPmAMAiAYBkAYIkgcEMTIuMaAHvzg&sclient=gws-wiz-serp
+
+analysis - Python, compare two sentence by words using difflib - Stack Overflow
+https://stackoverflow.com/questions/63156252/python-compare-two-sentence-by-words-using-difflib
+
+c-blake/hldiff: A port of Python difflib to compute diffs and (re)highlight diff output intraline
+https://github.com/c-blake/hldiff
+
+python-aware wdiff?
+https://comp.lang.python.narkive.com/bHCjGRDU/python-aware-wdiff
+
+difflib — Helpers for computing deltas — Python 3.12.4 documentation
+https://docs.python.org/3/library/difflib.html
+
+simplediff/python at master · paulgb/simplediff
+https://github.com/paulgb/simplediff/tree/master/python
+
+ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2024.4.1/1712784998552/Microsoft.VisualStudio.Services.Content.License
+https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2024.4.1/1712784998552/Microsoft.VisualStudio.Services.Content.License
+
+Unable to install Jupyter extension within vscode · Issue #13495 · microsoft/vscode-jupyter
+https://github.com/microsoft/vscode-jupyter/issues/13495
+
+przemysłowo-handlowy - Google Search
+https://www.google.com/search?q=przemys%C5%82owo-handlowy&rlz=1C5GCEM_enSE990SE991&oq=przemys%C5%82owo-handlowy&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzg5N2owajSoAgCwAgE&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/
+
+Instagram
+https://www.instagram.com/
+
+Instagram
+https://www.instagram.com/
+
+re — Regular expression operations — Python 3.12.4 documentation
+https://docs.python.org/3/library/re.html
+
+Python Dictionary Comprehension - Stack Overflow
+https://stackoverflow.com/questions/14507591/python-dictionary-comprehension
+
+python - How to sort a list by length of string followed by reverse alphabetical order? - Stack Overflow
+https://stackoverflow.com/questions/4659524/how-to-sort-a-list-by-length-of-string-followed-by-reverse-alphabetical-order
+
+python - Replacing a character from a certain index - Stack Overflow
+https://stackoverflow.com/questions/41752946/replacing-a-character-from-a-certain-index
+
+Piratebay Proxy - A List of Pirate Bay Proxy sites and mirrors
+https://piratebayproxy.info/
+
+Home / X
+https://x.com/home
+
+x.com/unilightwf/status/1803732499664924689
+https://x.com/unilightwf/status/1803732499664924689
+
+Filecoin TL;DR on X: "4/ Zero-Knowledge Machine Learning (ZKML) – combining the power of ZKPs with ML Zero-Knowledge Machine Learning (ZKML) is like a game where one player (the prover) proves to another player (the verifier) that they know something, without actually telling them what it is. This… https://t.co/3BbcgsYZpl" / X
+https://x.com/FilecoinTLDR/status/1802972711804895632
+
+Abier on X: "Remember how Israeli hostages returned? Those that Israel didn’t kill? Now look at Badr…. Look and keep looking… The guy’s brain is cracked up. He is unable to string 2 words together. I can’t stop looking at his confused eyes… https://t.co/exlpSGKf1v" / X
+https://x.com/abierkhatib/status/1803790428799398102
+
+☀️👀 on X: "BREAKING: The "mass rape" hoax collapses even further. Chaim Otmazgin, a senior Zaka cult commander which is the main source of the "mass rape" and other genocidal propaganda hoaxes, and who is himself a star witness in the Sheryl Sandberg documentary, has just been further… https://t.co/2OsOBFZafm" / X
+https://x.com/zei_squirrel/status/1803819790718394428
+
+Andriy Burkov on X: "What surprises me about talented people in tech is their capacity to be brilliant in one area and entirely delusional in another, even within their domain. For instance, those who invented modern machine learning, fully aware of its mechanics and inherent weaknesses, might still…" / X
+https://x.com/burkov/status/1803607805225738669
+
+Inbox • Direct
+https://www.instagram.com/direct/t/5060418777378294/
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
+
+50+ Gen Z Slang Words You Need to Know
+https://www.geeksforgeeks.org/gen-z-slang-words/
 
 
