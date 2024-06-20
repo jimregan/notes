@@ -371,4 +371,6 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 {% twitter https://x.com/kvfrans/status/1802758750748774637 %}
 [kvfrans/jax-flow](https://github.com/kvfrans/jax-flow) --- Flow-matching algorithms in JAX
 
+[Audio Signal Processing for Machine Learning](https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0),
+[slides](https://github.com/musikalkemist/AudioSignalProcessingForML)
 
