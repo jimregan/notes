@@ -1,9 +1,6 @@
 Read Comics Online | Home
 https://readcomicsonline.ru/?
 
-Star Wars: The High Republic (2021-) Chapter 14 - Page 4
-https://readcomicsonline.ru/comic/star-wars-the-high-republic-2021/14/4
-
 Star Wars: The High Republic Adventures (2021-) by - Info Page
 https://readcomicsonline.ru/comic/star-wars-the-high-republic-adventures-2021
 
@@ -46,35 +43,20 @@ https://github.com/lucidrains/rotary-embedding-torch/blob/main/rotary_embedding_
 lucidrains/byol-pytorch: Usable Implementation of "Bootstrap Your Own Latent" self-supervised learning, from Deepmind, in Pytorch
 https://github.com/lucidrains/byol-pytorch
 
-ali-vilab/UniAnimate: Code for Paper "UniAnimate: Taming Unified Video Diﬀusion Models for Consistent Human Image Animation".
-https://github.com/ali-vilab/UniAnimate
-
-TalkBank
-https://github.com/talkbank
-
 MahmoudAshraf97/whisper-diarization: Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper
 https://github.com/MahmoudAshraf97/whisper-diarization
-
-m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
-https://github.com/m-bain/whisperX
 
 whisper/notebooks/Multilingual_ASR.ipynb at 28769fcfe50755a817ab922a7bc83483159600a9 · mu4farooqi/whisper
 https://github.com/mu4farooqi/whisper/blob/28769fcfe50755a817ab922a7bc83483159600a9/notebooks/Multilingual_ASR.ipynb
 
-align pair of ctm files - Google Search
-https://www.google.com/search?q=align+pair+of+ctm+files&rlz=1C5GCEM_enSE990SE991&oq=align+pair+of+ctm+files&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDUyMzFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+NeMo Forced Aligner (NFA) - NVIDIA Docs
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/tools/nemo_forced_aligner.html
 
-docs.nvidia.com
-https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/tools/nemo_forced_aligner.html
+Checkpoints - NVIDIA Docs
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/results.html#asr-checkpoint-list-by-language
 
 kaldi/egs/wsj/s5/steps/cleanup/make_segmentation_data_dir.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/make_segmentation_data_dir.sh
-
-Panelshow
-https://www.reddit.com/r/panelshow/
-
-Taskmaster UK, Series 1-16, CoCs, Specials & More : r/panelshow
-https://www.reddit.com/r/panelshow/comments/1979v30/taskmaster_uk_series_116_cocs_specials_more/
 
 Bäst i Test (Taskmaster Sweden) S08E01 [w/ Eng subs] : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1958m5r/b%C3%A4st_i_test_taskmaster_sweden_s08e01_w_eng_subs/
@@ -159,9 +141,6 @@ https://github.com/google/flaxformer/blob/main/flaxformer/architectures/moe/moe_
 
 Analyzing Open AI's Whisper ASR Accuracy: Word Error Rates Across Languages and Model Sizes | Speechly
 https://www.speechly.com/blog/analyzing-open-ais-whisper-asr-models-word-error-rates-across-languages
-
-Sign In
-https://login.ug.kth.se/adfs/ls/?SAMLRequest=fZJLT%2BswEEb%2FijX7xG5I28hqigoVupW4UJHAgg1ykmlj4dq9HofHvyd9oV4WrD1zvpkznlx%2BbAx7Q0%2Fa2RwGsQCGtnaNtuscHsubKIPL6YTUxiRbOetCax%2FwX4cUWN9oSR5ecui8lU6RJmnVBkmGWhazv7cyiYXcehdc7QywGRH60EddO0vdBn2B%2Fk3X%2BPhwm0MbwpYk5ztkNIzpk%2BLX0MaEXDdb3kNW2iDfz8B37IQv74uSF8U9sHk%2FkbYq7Lc4gYxbaxt36xNGNSvihjiwxTyHl%2FFQVCIbZqpJ0gaHKhtUKa7EeFyJUV1dZH0ZUYcLS0HZkEMikjQSo0hk5WAsRSbTUXyRpM%2FAlscFr7Q9iPvNRnUoIvmnLJfRbgVgT6cD9AVw1C336f7c8%2B9gdZIL03OVP0VSq6vKGQzthJ8HfV%2F5ricv5ktndP3JZsa492uPKmAOwXcIfHrs%2B%2F8%2FTL8A&RelayState=e1s2
 
 YouTube
 https://www.youtube.com/
@@ -1051,7 +1030,7 @@ https://x.com/lemire/status/1803598132334436415
 bws_book.pdf
 https://www.math.cmu.edu/~jmackey/151_128/bws_book.pdf
 
-x.com/SeaSpitfires/status/1803557459543400831
+Stephen Fisher on X: "This is not an attempt to justify what happened at Stonehenge today, or even to change anyone’s mind about it. I’d simply like to add some context that I feel has been missing from some reports, statements and tweets. https://t.co/yZFYWKxwh1" / X
 https://x.com/SeaSpitfires/status/1803557459543400831
 
 Justin Deschenaux on X: "In the last weeks, multiple works on diffusion-based language models were released. You might be wondering if you should consider them for your NLP tasks. In our latest preprint, we argue that text-based diffusion models have several properties that deserve your attention. 🧵1/8 https://t.co/RnrfVyV0Dh" / X
@@ -1075,25 +1054,49 @@ https://arxiv.org/pdf/2210.02747v2
 atong01/conditional-flow-matching: TorchCFM: a Conditional Flow Matching library
 https://github.com/atong01/conditional-flow-matching
 
-(28) Feed | LinkedIn
-https://www.linkedin.com/feed/
-
-Samuel L Smith on X: "RecurrentGemma-9B is out! https://t.co/rSTQn2SlhR https://t.co/Il5UudfpZk - Uses Griffin architecture, combining linear recurrence with local attention - Downstream evals comparable to Mistral and Gemma - Faster inference, especially for long sequences or large batch sizes 1/n https://t.co/l3MLNebAzq" / X
-https://x.com/SamuelMLSmith/status/1800918711588761827
-
 Mistral AI | Mistral | Kaggle
 https://www.kaggle.com/models/mistral-ai/mistral/code
 
 Types of Audio Features for Machine Learning - YouTube
 https://www.youtube.com/watch?v=ZZ9u1vUtcIA&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0&index=5
 
-DEADPOOL 3 "Wolverine Breaks The 4th Wall" Trailer (2024) Deadpool & Wolverine Movie 4K - YouTube
-https://www.youtube.com/watch?v=9gTMLwG0Y34
-
 Home / X
 https://x.com/home
 
+Grant Slatton on X: "Back when AWS did a phone screen before onsite interviews, the first technical question I would ask, regardless of level, was “tell me what you know about hash tables” You would be blown away by the number of allegedly-senior devs who don’t know a thing about them — around 50%" / X
+https://x.com/GrantSlatton/status/1803233673518727614
+
+Anand Bhattad on X: "Impressed by the dedication and effort! We narrowly avoided a poster mishap this morning and managed to get a reprint just in time. https://t.co/B40uYumCJa" / X
+https://x.com/anand_bhattad/status/1803665956889301299
+
+Remi Cadene on X: "I am mind blown by this new technology! AI is now embodied. And we are open-sourcing it all. Listen to @HaixuanT casually discussing with its cute robot at the @linuxfoundation: 🙂 What's your name? &gt; I am Reachy, a robot from @pollenrobotics, I have two arms. 😀 What do you… https://t.co/VgzhReFOTA" / X
+https://x.com/RemiCadene/status/1803711154218254754
+
 euro 2024 today - Google Search
 https://www.google.com/search?q=euro+2024+today&rlz=1C5GCEM_enSE990SE991&oq=euro&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIJCAEQRRg5GIAEMgYIAhBFGDsyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYQTIGCAcQRRhB0gEHOTQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Wav2Vec2Bundle — Torchaudio 2.4.0.dev20240620 documentation
+https://pytorch.org/audio/main/generated/torchaudio.pipelines.Wav2Vec2Bundle.html#torchaudio.pipelines.Wav2Vec2Bundle
+
+Forced Alignment with Wav2Vec2 — Torchaudio 2.3.0 documentation
+https://pytorch.org/audio/stable/tutorials/forced_alignment_tutorial.html
+
+CTC forced alignment API tutorial — Torchaudio 2.4.0.dev20240620 documentation
+https://pytorch.org/audio/main/tutorials/ctc_forced_alignment_api_tutorial.html
+
+torchaudio.functional.forced_align — Torchaudio 2.4.0.dev20240620 documentation
+https://pytorch.org/audio/main/generated/torchaudio.functional.forced_align.html#torchaudio.functional.forced_align
+
+torchaudio.transforms — Torchaudio 2.4.0.dev20240620 documentation
+https://pytorch.org/audio/main/transforms.html
+
+MMS_FA — Torchaudio 2.4.0.dev20240620 documentation
+https://pytorch.org/audio/main/generated/torchaudio.pipelines.MMS_FA.html#torchaudio.pipelines.MMS_FA
+
+Aya by C4AI
+https://aya.for.ai/
+
+Gärdet - Search / X
+https://x.com/search?q=G%C3%A4rdet&src=trend_click&vertical=trends
 
 
