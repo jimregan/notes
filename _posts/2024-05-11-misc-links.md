@@ -374,3 +374,14 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 [Audio Signal Processing for Machine Learning](https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0),
 [slides](https://github.com/musikalkemist/AudioSignalProcessingForML)
 
+[Domain-Informed Probing of wav2vec 2.0 Embeddings for Phonetic Features](https://aclanthology.org/2022.sigmorphon-1.9/)
+
+[neongeckocom/cv-tts-clean](https://huggingface.co/datasets/neongeckocom/cv-tts-clean) --- TTS dataset from Common Voice
+
+[neongeckocom](https://huggingface.co/neongeckocom) --- multilingual ViTS models
+
+[Not all ‘open source’ AI models are actually open: here’s a ranking](https://www.nature.com/articles/d41586-024-02012-5)
+
+[Branchformer: Parallel MLP-Attention Architectures to Capture Local and Global Context for Speech Recognition and Understanding](https://proceedings.mlr.press/v162/peng22a.html)
+
+
