@@ -85,9 +85,6 @@ https://huggingface.co/pyannote/segmentation-3.0
 pyannote/speaker-diarization-3.1 · Hugging Face
 https://huggingface.co/pyannote/speaker-diarization-3.1
 
-opus.py · Samin-Rob/FOREIGN-WHISPERS at main
-https://huggingface.co/spaces/Samin-Rob/FOREIGN-WHISPERS/blob/main/opus.py
-
 clab/fast_align: Simple, fast unsupervised word aligner
 https://github.com/clab/fast_align
 
@@ -256,9 +253,6 @@ https://pytorch.org/audio/stable/tutorials/speech_recognition_pipeline_tutorial.
 Need to extract feature from best_checkpoints of wav2vec2.0 model. · Issue #2495 · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/issues/2495
 
-Repositories
-https://github.com/orgs/facebookresearch/repositories
-
 facebookresearch/spot-sim2real: Spot Sim2Real Infrastructure
 https://github.com/facebookresearch/spot-sim2real
 
@@ -268,23 +262,68 @@ https://github.com/facebookresearch/detectron2
 facebookresearch/hgap: Code release for H-GAP Humanoid Control with a Generalist Planner
 https://github.com/facebookresearch/hgap?tab=readme-ov-file
 
+Humanoid Control with a Generalist Planner | Yingchen Xu
+https://yingchenxu.com/hgap/
+
 microsoft/MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control
 https://github.com/microsoft/MoCapAct?tab=readme-ov-file
 
-dm_control/dm_control/locomotion/walkers/assets/dog_v2/dog.xml at main · google-deepmind/dm_control
-https://github.com/google-deepmind/dm_control/blob/main/dm_control/locomotion/walkers/assets/dog_v2/dog.xml
+Commits · google-deepmind/dm_control
+https://github.com/google-deepmind/dm_control/commits/main/
 
-dm_control/README.md at main · google-deepmind/dm_control
-https://github.com/google-deepmind/dm_control/blob/main/README.md
+dm_control/dm_control/blender/mujoco_exporter at 3adfe8c3a1d1dff491956a290f7205f19dbb55f3 · google-deepmind/dm_control
+https://github.com/google-deepmind/dm_control/tree/3adfe8c3a1d1dff491956a290f7205f19dbb55f3/dm_control/blender/mujoco_exporter
 
-facebookresearch/fairseq2: FAIR Sequence Modeling Toolkit 2
-https://github.com/facebookresearch/fairseq2?tab=readme-ov-file
-
-fairseq2/src/fairseq2/models/feature_extractor.py at main · facebookresearch/fairseq2
-https://github.com/facebookresearch/fairseq2/blob/main/src/fairseq2/models/feature_extractor.py
+microsoft/MoCapAct: A Multi-Task Dataset for Simulated Humanoid Control
+https://github.com/microsoft/MoCapAct?tab=readme-ov-file
 
 facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
 https://github.com/facebookresearch/multimodal?tab=readme-ov-file
+
+multimodal/torchmultimodal/transforms/clip_transform.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/transforms/clip_transform.py#L349
+
+multimodal/torchmultimodal/transforms/flava_transform.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/transforms/flava_transform.py#L206
+
+multimodal/torchmultimodal/transforms/mae_transform.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/transforms/mae_transform.py#L84
+
+multimodal/torchmultimodal/modules/fusions at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/tree/main/torchmultimodal/modules/fusions
+
+multimodal/torchmultimodal/modules/encoders at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/tree/main/torchmultimodal/modules/encoders
+
+multimodal/torchmultimodal/modules/encoders/bert_text_encoder.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/modules/encoders/bert_text_encoder.py
+
+multimodal/torchmultimodal/modules/encoders/vision_transformer.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/modules/encoders/vision_transformer.py
+
+multimodal/torchmultimodal/modules/encoders/weighted_embedding_encoder.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/modules/encoders/weighted_embedding_encoder.py
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal/tree/main?tab=readme-ov-file
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal/tree/main?tab=readme-ov-file#code-overview
+
+multimodal/torchmultimodal/models/blip2 at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/tree/main/torchmultimodal/models/blip2
+
+multimodal/torchmultimodal/modules/losses/contrastive_loss_with_temperature.py at main · facebookresearch/multimodal
+https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/modules/losses/contrastive_loss_with_temperature.py#L121
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal/tree/main
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal/tree/main?tab=readme-ov-file#getting-started
+
+facebookresearch/multimodal: TorchMultimodal is a PyTorch library for training state-of-the-art multimodal multi-task models at scale.
+https://github.com/facebookresearch/multimodal/tree/main?tab=readme-ov-file#example-scripts
 
 multimodal/torchmultimodal/diffusion_labs/schedules/discrete_gaussian_schedule.py at main · facebookresearch/multimodal
 https://github.com/facebookresearch/multimodal/blob/main/torchmultimodal/diffusion_labs/schedules/discrete_gaussian_schedule.py
@@ -1351,22 +1390,121 @@ https://www.scientificamerican.com/article/is-it-true-that-hot-water/#:~:text=%2
 Shrutilipi – AI4BHĀRAT
 https://ai4bharat.iitm.ac.in/shrutilipi/
 
-Corbmacc on X: "A letter from Rosa (Ní Dhochartaigh) Uí Néill, wife of Eoghan Ruadh Ó Néill, 1642, Louvain, Belgium. Published in Gilbert's ‘Affairs of Ireland’ vol 1, part 2 (1879). Transcription and translation work done by @silmeth. https://t.co/jxSya2vdph" / X
-https://x.com/erisceres/status/1804919125543727348
+Home / X
+https://x.com/home
+
+Oli London on X: "Tourist gets headbutted and thrown to the floor after standing next to a Kings Guard horsemen. Tourists are warned not to get close to the horses or guards with a nearby sign reading ‘Beware. Horse may kick or bite. Don’t touch the reigns. Thank you.’ https://t.co/USdXsOGCHH" / X
+https://x.com/OliLondonTV/status/1804900861606232454
+
+High-Fidelity Facial Albedo Estimation via Texture Quantization
+https://hifialbedo.github.io/
+
+Yuchen Jin on X: "Training GPT-2 (124M) using @karpathy's llm.c with 32 H100 GPUs *GPUs go brrr on Sunday* 🔥 - Setup: 4 H100 nodes connected with 400Gb/s InfiniBand - Training speed: 15M tokens/s (MFU drops from 40.5% for a single node to 38.4%, not too bad) - mpirun works smoothly https://t.co/9gazICU1Wk" / X
+https://x.com/Yuchenj_UW/status/1805006766507426252
+
+Yuchen Jin on X: "Training GPT-2 (124M) using @karpathy's llm.c with 32 H100 GPUs *GPUs go brrr on Sunday* 🔥 - Setup: 4 H100 nodes connected with 400Gb/s InfiniBand - Training speed: 15M tokens/s (MFU drops from 40.5% for a single node to 38.4%, not too bad) - mpirun works smoothly https://t.co/9gazICU1Wk" / X
+https://x.com/Yuchenj_UW/status/1805006766507426252
+
+Figen on X: "A refrigerator from the 1960s was much more functional and cooler than today's. https://t.co/V7DQ7u4CgU" / X
+https://x.com/TheFigen_/status/1804855403693371623
 
 GQxcYO_W4AAy8P4 (1329×1894)
 https://pbs.twimg.com/media/GQxcYO_W4AAy8P4?format=png&name=large
 
-Roy van Rijn on X: "Fact: A lot of Dutch laptops have this special tray to warm up your stroopwafel. https://t.co/2eGO4HQxD1" / X
-https://x.com/royvanrijn/status/1804930674022867344
+YouTube
+https://www.youtube.com/
 
-Janey Godley on X: "I love this scene. It upsets so many and I can’t understand why https://t.co/zNLnAGRHH4" / X
-https://x.com/JaneyGodley/status/1804794939613585584
+'Beverly Hills Cop' stars reunite after 30 years for new film - YouTube
+https://www.youtube.com/watch?v=Y6w93zwfGlo
 
-internet hall of fame on X: "Bro pissed off every Italian he could ☠️ https://t.co/O8BUPQU2HN" / X
-https://x.com/InternetH0F/status/1804522277440008252
+Seth MacFarlane and the 'Family Guy' cast reflect on 25 years - YouTube
+https://www.youtube.com/watch?v=YAP4YgPCRRU
 
-Direct • Instagram
-https://www.instagram.com/direct/t/5060418777378294/
+Karl Urban tells HILARIOUS Viggo Mortensen prank story | The Chris Moyles Show | Radio X - YouTube
+https://www.youtube.com/watch?v=IzBjL-7zFtA
+
+Staff | KTH
+https://www.kth.se/is/rpl/about-rpl/staff-1.1067408
+
+KTH | Lena Wild
+https://www.kth.se/profile/lwild
+
+KTH | Josephine Sullivan
+https://www.kth.se/profile/sullivan
+
+Josephine Sullivan
+https://www.csc.kth.se/~sullivan/
+
+KTH | Shutong Jin
+https://www.kth.se/profile/shutong
+
+Shutong Jin - Google Search
+https://www.google.com/search?q=Shutong+Jin&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8#ip=1
+
+Shutong Jin (@shutong_jin) / X
+https://x.com/shutong_jin
+
+Shutong Jin - YouTube
+https://www.youtube.com/channel/UCfiNwuCWLY4cR6qbCdgv9fw
+
+KTH | Rebecka Winqvist
+https://www.kth.se/profile/rebwin
+
+Rebecka Winqvist - Google Search
+https://www.google.com/search?q=Rebecka+Winqvist&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8#ip=1
+
+(16) Rebecka Winqvist | Facebook
+https://www.facebook.com/winqvist.rebecka/photos
+
+Rebecka Winqvist (@rebeckawinquist) • Instagram photos and videos
+https://www.instagram.com/rebeckawinquist/?hl=en
+
+KTH | Anastasiia Varava
+https://www.kth.se/profile/varava
+
+Anastasiia Varava - Google Search
+https://www.google.com/search?q=Anastasiia+Varava&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8#ip=1
+
+KTH | Chelsea Rose Sidrane
+https://www.kth.se/profile/chelse
+
+404 Not found
+https://www.kth.se/profile/elenasi
+
+KTH | Ioanna Mitsioni
+https://www.kth.se/profile/mitsioni
+
+KTH | Hannah Kühn
+https://www.kth.se/profile/hkuhn
+
+KTH | Natalija Glisovic
+https://www.kth.se/profile/glisovic
+
+KTH | Sarah Gillet
+https://www.kth.se/profile/sgillet
+
+KTH Robotics, Perception and Learning Lab (@kth_rpl) / X
+https://x.com/kth_rpl
+
+Natalija Glisovic (@natalijaglisovic) • Instagram photos and videos
+https://www.instagram.com/natalijaglisovic/
+
+gizem bozdemir - Google Search
+https://www.google.com/search?q=gizem+bozdemir&rlz=1C5GCEM_enSE990SE991&oq=gizem+bozde&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCggDEAAYgAQYogQyCggEEAAYgAQYogTSAQg0ODM5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1
+
+Gizem Bozdemir | Project Manager at Pal Robotics | F6S Member Profile
+https://www.f6s.com/member/gizem-bozdemir
+
+Gizem Bozdemir (@Gizem48519380) / X
+https://x.com/gizem48519380?lang=en
+
+Chelsea Rose Sidrane - Google Search
+https://www.google.com/search?q=Chelsea+Rose+Sidrane&rlz=1C5GCEM_enSE990SE991&oq=Chelsea+Rose+Sidrane&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiiBBiJBTIGCAUQRRg90gEHMTYzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Elena Sibirtseva - Google Search
+https://www.google.com/search?q=Elena+Sibirtseva&rlz=1C5GCEM_enSE990SE991&oq=Elena+Sibirtseva&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBNIBCDU3NTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#ip=1
+
+Sibirtseva, Elena
+https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A70599&dswid=-4279
 
 
