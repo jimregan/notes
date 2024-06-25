@@ -386,4 +386,6 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 {% twitter https://x.com/erisceres/status/1804919125543727348 %}
 
+Wikipedia redirect for language code: `https://en.wikipedia.org/wiki/ISO_639:$CODE`
+e.g.: [gle - Irish](https://en.wikipedia.org/wiki/ISO_639:gle)
 
