@@ -103,19 +103,34 @@ https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhR
 NeMo/tutorials/tts/FastPitch_MixerTTS_Training.ipynb at main · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/main/tutorials/tts/FastPitch_MixerTTS_Training.ipynb
 
+Adapter Methods — AdapterHub documentation
+https://docs.adapterhub.ml/methods.html#prefix-tuning
+
 slack-anti-delete/slack_patch_delete.py at main · SharonBrizinov/slack-anti-delete
 https://github.com/SharonBrizinov/slack-anti-delete/blob/main/slack_patch_delete.py
 
 SharonBrizinov (SharonBrizinov) / Repositories
 https://github.com/SharonBrizinov?tab=repositories
 
+yangdongchao/UniAudio: The Open Source Code of UniAudio
+https://github.com/yangdongchao/UniAudio
+
+(1) dongchao (@dongchaodudu) / X
+https://twitter.com/dongchaodudu
+
 AIGC-Audio/AudioGPT: AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head
 https://github.com/AIGC-Audio/AudioGPT?tab=License-1-ov-file#readme
+
+UniAudio/UniAudio/tools/evaluation/compute_visqol.py at main · yangdongchao/UniAudio
+https://github.com/yangdongchao/UniAudio/blob/main/UniAudio/tools/evaluation/compute_visqol.py
+
+Have I Got a Bit More News for You S66 E8. Guz Khan. Non-UK viewers. 01 Dec 23 - YouTube
+https://www.youtube.com/watch?v=xZsYcmMKOFE
 
 Linear algebra on n-dimensional arrays — NumPy Tutorials
 https://numpy.org/numpy-tutorials/content/tutorial-svd.html
 
-NumPy quickstart — NumPy v2.1.dev0 Manual
+NumPy quickstart — NumPy v2.0.dev0 Manual
 https://numpy.org/devdocs/user/quickstart.html
 
 Linear algebra on n-dimensional arrays — NumPy Tutorials
@@ -151,6 +166,9 @@ https://github.com/MontrealCorpusTools/mfa-models/tree/main/g2p/swedish/mfa/v2.0
 Train a new acoustic model (mfa train) — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/workflows/train_acoustic_model.html#train-acoustic-model
 
+KeyError: 'EY0_E' running 'mfa train' · Issue #292 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues/292
+
 multilingual_kws/alignment/reorganize_luganda.py at main · harvard-edge/multilingual_kws
 https://github.com/harvard-edge/multilingual_kws/blob/main/alignment/reorganize_luganda.py#L66-L91
 
@@ -163,7 +181,13 @@ https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
 Belarusian CV acoustic model v2.0.0 — mfa model 3.0.0a4 documentation
 https://mfa-models.readthedocs.io/en/latest/acoustic/Belarusian/Belarusian%20CV%20acoustic%20model%20v2_0_0.html#Belarusian%20CV%20acoustic%20model%20v2_0_0
 
-Sebastian Raschka on X: "Since Mixture of Expert (MoE) LLMs are all the rage as of this weekend, thanks to the Mixtral-8x-7B release, here's a quick explainer. The figure below shows the architecture behind the Switch Transformer (https://t.co/g3Awj99h24), a great intro to MoEs. The model depicted in… https://t.co/2Wg5zjeFXU" / X
+2304.15004.pdf
+https://arxiv.org/pdf/2304.15004.pdf
+
+Choosing Colormaps — Matplotlib 3.8.2 documentation
+https://matplotlib.org/stable/users/explain/colors/colormaps.html#sequential
+
+(1) Sebastian Raschka on X: "Since Mixture of Expert (MoE) LLMs are all the rage as of this weekend, thanks to the Mixtral-8x-7B release, here's a quick explainer. The figure below shows the architecture behind the Switch Transformer (https://t.co/g3Awj99h24), a great intro to MoEs. The model depicted in… https://t.co/2Wg5zjeFXU" / X
 https://twitter.com/rasbt/status/1734234160154185730?t=3c1H3Ij77kCUJaC_s5lxaQ&s=09
 
 AI and Open Source in 2023 - by Sebastian Raschka, PhD
@@ -196,8 +220,26 @@ https://github.com/google-research/t5x
 google-research/last: A JAX library for building lattice-based speech transducer models
 https://github.com/google-research/last?tab=readme-ov-file
 
+2205.13674.pdf
+https://arxiv.org/pdf/2205.13674.pdf
+
 nisaba/nisaba/translit/fst/BUILD.bazel at main · google-research/nisaba
 https://github.com/google-research/nisaba/blob/main/nisaba/translit/fst/BUILD.bazel
+
+google-research/skai: SKAI is a machine learning based tool for performing automatic building damage assessments on aerial imagery of disaster sites.
+https://github.com/google-research/skai?tab=readme-ov-file
+
+bigscience-workshop/petals: 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+https://github.com/bigscience-workshop/petals?tab=readme-ov-file
+
+Petals - Getting started with Llama 2 and Stable Beluga 2 (GPU Colab) - Colaboratory
+https://colab.research.google.com/drive/1uCphNY7gfAUkdDrTx21dZZwCOUDCMPw8?usp=sharing
+
+Launch your own swarm · bigscience-workshop/petals Wiki
+https://github.com/bigscience-workshop/petals/wiki/Launch-your-own-swarm
+
+Run a custom model with Petals · bigscience-workshop/petals Wiki
+https://github.com/bigscience-workshop/petals/wiki/Run-a-custom-model-with-Petals
 
 fairseq/examples/speech_matrix at ust · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/tree/ust/examples/speech_matrix
@@ -208,8 +250,32 @@ https://github.com/apple/ml-sigma-reparam
 GLEE:General Object Foundation Model for Images and Videos at Scale
 https://glee-vision.github.io/
 
+(1) Camilo Ruiz on X: "Can deep learning work on small data with far more features than samples? We present PLATO: a method that achieves the state-of-the-art on such datasets by using prior domain information! https://t.co/GdsqIHRL8a 🧵 Published in #NeurIPS2023 with @ren_hongyu @kexinhuang5 @jure https://t.co/rsRya15gjO" / X
+https://twitter.com/_camiloruiz/status/1734972143199219791?t=0ejocSGoWHlKNE0PGzsXhA&s=09
+
+Have I Got a Bit More News for You S66 E10. Kirsty Young. 15 Dec 23 - YouTube
+https://www.youtube.com/watch?v=HnIO7m8dLEE
+
+[2212.04356] Robust Speech Recognition via Large-Scale Weak Supervision
+https://arxiv.org/abs/2212.04356
+
+shashikg/WhisperS2T: An Optimized Speech-to-Text Pipeline for the Whisper Model
+https://github.com/shashikg/WhisperS2T
+
 JeffreyYH/robotics-fm-survey: Survey Paper of foundation models for robotics
 https://github.com/JeffreyYH/robotics-fm-survey
+
+ActiveVisionLab/Awesome-LLM-3D: Awesome-LLM-3D: a curated list of Multi-modal Large Language Model in 3D world Resources
+https://github.com/ActiveVisionLab/Awesome-LLM-3D?tab=readme-ov-file
+
+ActiveVisionLab/Awesome-LLM-3D: Awesome-LLM-3D: a curated list of Multi-modal Large Language Model in 3D world Resources
+https://github.com/ActiveVisionLab/Awesome-LLM-3D/tree/avl-branch?tab=readme-ov-file
+
+ActiveVisionLab/Awesome-LLM-3D: Awesome-LLM-3D: a curated list of Multi-modal Large Language Model in 3D world Resources
+https://github.com/ActiveVisionLab/Awesome-LLM-3D/tree/avl-branch
+
+evelinehong/3D-CLR-Official: [CVPR 2023] Code for "3D Concept Learning and Reasoning from Multi-View Images"
+https://github.com/evelinehong/3D-CLR-Official
 
 isl-org/lang-seg: Language-Driven Semantic Segmentation
 https://github.com/isl-org/lang-seg?tab=readme-ov-file
@@ -217,11 +283,29 @@ https://github.com/isl-org/lang-seg?tab=readme-ov-file
 RT-1: Robotics Transformer
 https://robotics-transformer1.github.io/
 
+[2304.06706] Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields
+https://arxiv.org/abs/2304.06706
+
+embodied-generalist/embodied-generalist: Official code repository for 3D embodied generalist agent LEO
+https://github.com/embodied-generalist/embodied-generalist
+
+pengsongyou/openscene: [CVPR'23] OpenScene: 3D Scene Understanding with Open Vocabularies
+https://github.com/pengsongyou/openscene
+
+kerrj/lerf: Code for LERF: Language Embedded Radiance Fields
+https://github.com/kerrj/lerf
+
 UMass-Foundation-Model/3D-LLM: Code for 3D-LLM: Injecting the 3D World into Large Language Models
 https://github.com/UMass-Foundation-Model/3D-LLM?tab=readme-ov-file
 
 ShuhongZheng/3D-LLM at main
 https://huggingface.co/datasets/ShuhongZheng/3D-LLM/tree/main
+
+facebookresearch/Mask2Former: Code release for "Masked-attention Mask Transformer for Universal Image Segmentation"
+https://github.com/facebookresearch/Mask2Former?tab=readme-ov-file
+
+2303.09553.pdf
+https://arxiv.org/pdf/2303.09553.pdf
 
 [2308.04352] 3D-VisTA: Pre-trained Transformer for 3D Vision and Text Alignment
 https://arxiv.org/abs/2308.04352
@@ -231,6 +315,18 @@ https://vladimiryugay.github.io/gaussian_slam/
 
 praxis/praxis/layers/conformers.py at main · google/praxis
 https://github.com/google/praxis/blob/main/praxis/layers/conformers.py
+
+Google Docs: Síniú isteach
+https://accounts.google.com/v3/signin/confirmidentifier?authuser=1&continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F1%2Fd%2F1MY_tNZC3U8uFO6mDq71gqVzqnBVDtAkUyQ9QNUK1t38%2Fedit&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F1%2Fd%2F1MY_tNZC3U8uFO6mDq71gqVzqnBVDtAkUyQ9QNUK1t38%2Fedit&ifkv=ASKXGp0pnA97IK0vCVBEN3gF0hw8vONIRTLOoXGdGXmad6kQeJUTfU9nCi85Fur1U0Bsfu1otf0zNw&ltmpl=docs&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2012405514%3A1703801145446905&theme=glif
+
+ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
+https://www.clarin.eu/ParlaCLARIN-IV
+
+ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
+https://www.clarin.eu/ParlaCLARIN-IV
+
+(1) William Chen on X: "The details of OWSM’s budget was featured in @shinjiw_at_cmu’s keynote at @ASRU2023 . “It would have been a disaster if the paper was rejected” https://t.co/R5SK35JY77" / X
+https://twitter.com/chenwanch1/status/1736568496891498552
 
 (1) William Chen on X: "Check our blog post on building large-scale speech foundation models! It introduces: 1. YODAS: Dataset with over 420k hours of labeled speech 2. OWSM: Reproduction of Whisper 3. WavLabLM: WavLM for 136 languages 4. ML-SUPERB Challenge: Speech benchmarking for 154 languages" / X
 https://twitter.com/chenwanch1/status/1720196391870296452?s=20
@@ -247,11 +343,44 @@ https://huggingface.co/UniMus/OpenJMLA
 twitter.com/forthshinji/status/1734517853355905431?s=20
 https://twitter.com/forthshinji/status/1734517853355905431?s=20
 
-open-mmlab/Amphion: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
-https://github.com/open-mmlab/Amphion?tab=readme-ov-file
+Author’s Kit – LREC-Coling 2024
+https://lrec-coling-2024.org/authors-kit/
 
-project-NN-Pytorch-scripts/project/01-nsf/hn-nsf/config.py at master · nii-yamagishilab/project-NN-Pytorch-scripts
-https://github.com/nii-yamagishilab/project-NN-Pytorch-scripts/blob/master/project/01-nsf/hn-nsf/config.py
+Workshops – LREC-Coling 2024
+https://lrec-coling-2024.org/workshops/
+
+Word Error Rate Primer. Everything you need to know about WER… | by James Ross | Kensho Blog
+https://blog.kensho.com/word-error-rate-primer-a5808dcf4751
+
+Amphion/models/tts/naturalspeech2/ns2.py at main · open-mmlab/Amphion
+https://github.com/open-mmlab/Amphion/blob/main/models/tts/naturalspeech2/ns2.py
+
+Jungjee/RawNet: Official repository for RawNet, RawNet2, and RawNet3
+https://github.com/Jungjee/RawNet?tab=readme-ov-file
+
+clovaai/voxceleb_trainer: In defence of metric learning for speaker recognition
+https://github.com/clovaai/voxceleb_trainer
+
+Gmail
+https://accounts.google.com/v3/signin/confirmidentifier?authuser=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&ifkv=ASKXGp0uao0PlGoYNXxiyfCQ_F0hrnGC8rp5IaSmZdw3g1kSlY_NBv9YVdWuypFdkiAU0nNk3RKi&osid=1&service=mail&theme=glif&dsh=S771788018%3A1703798062249923
+
+Gmail
+https://accounts.google.com/v3/signin/confirmidentifier?authuser=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F1%2F&ifkv=ASKXGp2B2D_VN1pdv6TJ_5htBm1VQeACr6-Yth8VwCXZgiHEcYi9Zc1EOk9iT4QRaKkNWql_qMud&osid=1&service=mail&theme=glif&dsh=S1577948674%3A1703798062153065
+
+Launch Meeting - Zoom
+https://kth-se.zoom.us/j/5166351663#success
+
+Workshops – LREC-Coling 2024
+https://lrec-coling-2024.org/workshops/
+
+ParlaCLARIN IV Workshop on Creating, Analysing, and Increasing Accessibility of Parliamentary Corpora | CLARIN ERIC
+https://www.clarin.eu/ParlaCLARIN-IV
+
+sibeal singer - Google Search
+https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TM4zLqtINq40YPTiLc5MSk3MUSjOzEtPLQIAj8QJ4A&q=sibeal+singer&rlz=1C5GCEM_enSE990SE991&oq=sibeal+&gs_lcrp=EgZjaHJvbWUqBwgFEC4YgAQyBggAEEUYOTIPCAEQLhgKGMcBGNEDGIAEMgcIAhAuGIAEMgcIAxAAGIAEMgcIBBAuGIAEMgcIBRAuGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAE0gEINTYyOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Executive functions - Wikipedia
+https://en.wikipedia.org/wiki/Executive_functions
 
 (1) Anurag Ranjan on X: "Introducing 🫂HUGS: Human Gaussian Splats - capable of creating animatable (3DGS) avatars from a casual video (50-100 frames) in ~30 mins. Our avatars can easily be embedded into other (NeRF) scenes. (1/4) Project: https://t.co/ws69aCAUtG arXiv: https://t.co/yjsR9Vt8RY https://t.co/ADVWw56ats" / X
 https://twitter.com/anuragranj/status/1737173861756485875
@@ -268,8 +397,8 @@ https://twitter.com/shxf0072/status/1735291980727681311?t=-4627xggpnQ7a6eZ3EKHCw
 HUGS: Human Gaussian Splats - Apple Machine Learning Research
 https://machinelearning.apple.com/research/hugs
 
-apple/ml-hugs: Official repository of HUGS: Human Gaussian Splats (CVPR 2024)
-https://github.com/apple/ml-hugs?tab=License-1-ov-file#readme
+Page not found · GitHub
+https://github.com/apple/ml-hugs
 
 Equivariant Neural Rendering - Apple Machine Learning Research
 https://machinelearning.apple.com/research/equivariant-neural-rendering
@@ -810,5 +939,8 @@ https://figshare.com/articles/dataset/A_multispeaker_dataset_of_raw_and_reconstr
 
 A multi-speaker dataset of real-time two-dimensional speech magnetic resonance images with articulator ground-truth segmentations
 https://zenodo.org/records/7595164
+
+Stanford CS25: V2 I Introduction to Transformers w/ Andrej Karpathy - YouTube
+https://www.youtube.com/watch?v=XfpMkf4rD6E
 
 
