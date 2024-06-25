@@ -384,4 +384,6 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [Branchformer: Parallel MLP-Attention Architectures to Capture Local and Global Context for Speech Recognition and Understanding](https://proceedings.mlr.press/v162/peng22a.html)
 
+{% twitter https://x.com/erisceres/status/1804919125543727348 %}
+
 
