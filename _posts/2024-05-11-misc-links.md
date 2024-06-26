@@ -389,3 +389,7 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 Wikipedia redirect for language code: `https://en.wikipedia.org/wiki/ISO_639:$CODE`
 e.g.: [gle - Irish](https://en.wikipedia.org/wiki/ISO_639:gle)
 
+[OmniGlue: Generalizable Feature Matching with Foundation Model Guidance](https://arxiv.org/abs/2405.12979),
+[code](https://github.com/google-research/omniglue)
+
+
