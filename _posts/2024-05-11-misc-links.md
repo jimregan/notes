@@ -392,4 +392,6 @@ e.g.: [gle - Irish](https://en.wikipedia.org/wiki/ISO_639:gle)
 [OmniGlue: Generalizable Feature Matching with Foundation Model Guidance](https://arxiv.org/abs/2405.12979),
 [code](https://github.com/google-research/omniglue)
 
+[Exploring the Capability of Mamba in Speech Applications](https://arxiv.org/abs/2406.16808)
+
 
