@@ -394,4 +394,5 @@ e.g.: [gle - Irish](https://en.wikipedia.org/wiki/ISO_639:gle)
 
 [Exploring the Capability of Mamba in Speech Applications](https://arxiv.org/abs/2406.16808)
 
+[Researchers craft smiling robot face from living human skin cells](https://arstechnica.com/science/2024/06/researchers-craft-smiling-robot-face-from-living-human-skin-cells/)
 
