@@ -58,7 +58,7 @@ https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/results
 Datasets - NVIDIA Docs
 https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/datasets.html
 
-Checkpoints - NVIDIA Docs
+Checkpoints — NVIDIA NeMo Framework User Guide latest documentation
 https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/results.html
 
 VAD multilingual Marblenet | NVIDIA NGC
@@ -126,12 +126,6 @@ https://github.com/google-research/perceiver-ar/blob/main/perceiver_ar/perceiver
 
 flaxformer/flaxformer/architectures/moe/moe_architecture.py at main · google/flaxformer
 https://github.com/google/flaxformer/blob/main/flaxformer/architectures/moe/moe_architecture.py
-
-Analyzing Open AI's Whisper ASR Accuracy: Word Error Rates Across Languages and Model Sizes | Speechly
-https://www.speechly.com/blog/analyzing-open-ais-whisper-asr-models-word-error-rates-across-languages
-
-YouTube
-https://www.youtube.com/
 
 The REAL WAY to UNLOCK YOUR HAMSTRINGS (Follow Along Stretch) - YouTube
 https://www.youtube.com/watch?v=RCtMzDjL_Bo
@@ -232,12 +226,6 @@ https://hubertsiuzdak.github.io/snac/
 hubertsiuzdak/snac_24khz · Hugging Face
 https://huggingface.co/hubertsiuzdak/snac_24khz
 
-(2) jack morris on X: "here is my meticulously curated (and highly biased) summer paper reading list 📚: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) ╰╴ https://t.co/UmRVv3YVua LoRA: Low-Rank Adaptation of Large Language Models (2021) ╰╴ https://t.co/A7VHVnjMPt Ring" / X
-https://x.com/jxmnop/status/1800292343343693934
-
-sherpa-onnx/python-api-examples/audio-tagging-from-a-file.py at master · k2-fsa/sherpa-onnx
-https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/audio-tagging-from-a-file.py
-
 text_search/textsearch/csrc/levenshtein.h at master · k2-fsa/text_search
 https://github.com/k2-fsa/text_search/blob/master/textsearch/csrc/levenshtein.h
 
@@ -258,12 +246,6 @@ https://github.com/google-research/big_vision/blob/main/big_vision/models/proj/c
 
 Rohan Paul on X: "Very interesting Paper - "Mixture-of-Agents (MoA) Enhances Large Language Model Capabilities": - MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni. 🔥 📌 The paper introduces the https://t.co/P09kddjZMt" / X
 https://x.com/rohanpaul_ai/status/1800298331773567412
-
-Lauler/rixvox-alignments · Datasets at Hugging Face
-https://huggingface.co/datasets/Lauler/rixvox-alignments
-
-riksdagen-records/data/202122/prot-202122--001.xml at main · swerik-project/riksdagen-records
-https://github.com/swerik-project/riksdagen-records/blob/main/data/202122/prot-202122--001.xml
 
 Faiss: A library for efficient similarity search - Engineering at Meta
 https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/
@@ -1121,7 +1103,7 @@ add ctc segmentation using owsm-ctc · pyf98/espnet@8881a71
 https://github.com/pyf98/espnet/commit/8881a71d054a9415a539d4681ea1f3d0c7759b5a
 
 add files for owsm-ctc · pyf98/espnet@fdf0c32
-https://github.com/pyf98/espnet/commit/fdf0c325757015a7dd9c97a38c33dec3b66e4e44#diff-98a478f3bffe3baccc849339f713d0033522c53bd21da32877317ba136515cf1
+https://github.com/pyf98/espnet/commit/fdf0c325757015a7dd9c97a38c33dec3b66e4e44#diff-b5ddcf1e2244d7b6c4b31ef72530413effbbea77d34ba63e898655107eb436b3
 
 espnet/espnet: End-to-End Speech Processing Toolkit
 https://github.com/espnet/espnet?tab=readme-ov-file#ctc-segmentation-demo
@@ -1247,7 +1229,7 @@ Google Accounts
 https://accounts.google.com/b/1/AddMailService
 
 Gmail
-https://accounts.google.com/v3/signin/confirmidentifier?authuser=3&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ifkv=AS5LTARfTLPhc8Jtc_vvSaz2uN8RkXsDWqaq7i1o6iNWFtTOtmyUL9zO-smUi9OIskEFsdfrQHzwiQ&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-637413375%3A1719670230354139&ddm=0#inbox
+https://accounts.google.com/v3/signin/confirmidentifier?authuser=3&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ddm=0&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ifkv=AS5LTAR2Q_u3MZkn7t97dXzbamFacbEKOKT6MY8Rg_br3x-9j6lG-qWfvdkGRy0ilb1yVeaMYdMj&osid=1&service=mail&dsh=S-1509265619%3A1719684748137162
 
 expo-irish-synthesis/src at main · phonlab-tcd/expo-irish-synthesis
 https://github.com/phonlab-tcd/expo-irish-synthesis/tree/main/src
@@ -1588,26 +1570,14 @@ https://www.youtube.com/watch?v=3qH2OukBdTc
 Search results - Google Drive
 https://drive.google.com/drive/search?q=owner:me%20(type:application/vnd.google.colaboratory%20||%20type:application/vnd.google.colab)
 
-Untitled39.ipynb - Colab
-https://colab.research.google.com/drive/13R0vkfVfkUHvQvecBLqxcfRc7yf0OaoX#scrollTo=1bvk3BtURPub
-
 colab install git lfs - Google Search
 https://www.google.com/search?q=colab+install+git+lfs&rlz=1C5GCEM_enSE990SE991&oq=colab+install+git+lfs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBdIBCDcyNTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Instagram
-https://www.instagram.com/
 
 HOW TO GET YOUR FIRST PULL-UP | Most Common Weakpoints, Progression + Accessories - YouTube
 https://www.youtube.com/watch?v=x3NPAxiMRPw
 
 YouTube
 https://www.youtube.com/
-
-Instagram
-https://www.instagram.com/
-
-TV Guide | TVGuide.co.uk
-https://www.tvguide.co.uk/
 
 ImportError: libcudnn.so.8: cannot open shared object file: No such file or directory · Issue #104259 · pytorch/pytorch
 https://github.com/pytorch/pytorch/issues/104259
@@ -1617,9 +1587,6 @@ https://stackoverflow.com/questions/55256671/how-to-install-latest-cudnn-to-cond
 
 nvidia - Setting up tensorflow-GPU Conda environment with CUDA 11.2 and cuDNN 8.1-8.2 (CUDA 460 Driver - Ask Ubuntu
 https://askubuntu.com/questions/1338314/setting-up-tensorflow-gpu-conda-environment-with-cuda-11-2-and-cudnn-8-1-8-2-cu
-
-euro 2024 tomorrow - Google Search
-https://www.google.com/search?q=euro+2024+tomorrow&sca_esv=fc4f2234c09febda&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKC34LCnrGLom3kv7K-TtjY8S5aUw%3A1719601421972&ei=DQl_ZqaEO9-owPAP_uShMA&oq=euro+2024+tom&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWV1cm8gMjAyNCB0b20qAggAMgUQABiABDIKEAAYgAQYFBiHAjIFEAAYgAQyBRAAGIAEMgoQABiABBgUGIcCMgcQABiABBgKMgcQABiABBgKMgUQABiABDIHEAAYgAQYCjIFEAAYgARIiA5Q0wNYggdwAngBkAEAmAFHoAHPAaoBATO4AQPIAQD4AQGYAgWgAuABwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgoQIxiABBgnGIoFwgIKEAAYgAQYQxiKBZgDAIgGAZAGCpIHATWgB8gT&sclient=gws-wiz-serp#sie=lg;/m/0ynsg3h;2;/m/01l10v;bs;hd;;;;2024-06-29T16:00:00Z
 
 fine tune byt5 multitask - Google Search
 https://www.google.com/search?q=fine+tune+byt5+multitask&rlz=1C5GCEM_enSE990SE991&oq=fine+tune+byt5+multitask&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDgwNjBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -1637,12 +1604,42 @@ Finetuning T5 for a task - Intermediate - Hugging Face Forums
 https://discuss.huggingface.co/t/finetuning-t5-for-a-task/9558/11
 
 Summarization - Colab
-https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/summarization.ipynb#scrollTo=FBiW8UpKIrJW
+https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/summarization.ipynb#scrollTo=zS-6iXTkIrJT
 
-YouTube
-https://www.youtube.com/
+docker/fairseq/Dockerfile at master · loretoparisi/docker
+https://github.com/loretoparisi/docker/blob/master/fairseq/Dockerfile
 
-Dua Lipa fans shocked after spotting 'NSFW detail' in bathroom selfie
-https://www.unilad.com/celebrity/news/dua-lips-nsfw-instagram-picture-365291-20240628
+Inbox • Direct
+https://www.instagram.com/direct/t/107520840645715/
+
+Repositories
+https://github.com/orgs/sprakbankental/repositories
+
+gpus/sbtal-gpus/compute-storage.csv at develop · sprakbankental/gpus
+https://github.com/sprakbankental/gpus/blob/develop/sbtal-gpus/compute-storage.csv
+
+sprakbankental/webcomponents: Development repo for web sound widgets, tools, etc.
+https://github.com/sprakbankental/webcomponents
+
+oci-basic/containers/os/ubuntu/Dockerfile at develop · sprakbankental/oci-basic
+https://github.com/sprakbankental/oci-basic/blob/develop/containers/os/ubuntu/Dockerfile
+
+sprakbankental/dockerfile: These are the customized docker files used in Språkbanken Tal
+https://github.com/sprakbankental/dockerfile
+
+sprakbankental/dev-asr-ss: Initial dev repo for ASR for speech science work
+https://github.com/sprakbankental/dev-asr-ss
+
+Fairseq 코드리뷰 Wav2vec 2.0 (Pretrain)
+https://donghwa-kim.github.io/pretrain_wav2.html
+
+sherpa-onnx/python-api-examples/audio-tagging-from-a-file.py at master · k2-fsa/sherpa-onnx
+https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/audio-tagging-from-a-file.py
+
+denmark germany euro 2024 referee - Google Search
+https://www.google.com/search?q=denmark+germany+euro+2024+refere&rlz=1C5GCEM_enSE990SE991&oq=denmark+germany+euro+2024+refere&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigAdIBCDc2NzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+UEFA make official ruling on Anthony Taylor and Stuart Attwell after the Premier League referees controversially ruled out a would-be winner for the Netherlands against France | Daily Mail Online
+https://www.dailymail.co.uk/sport/football/article-13581111/UEFA-make-official-ruling-Anthony-Taylor-Stuart-Attwell-Premier-League-referees-controversially-ruled-winner-Netherlands-against-France.html
 
 
