@@ -78,7 +78,7 @@ categories: [links]
 [kyegomez/MambaByte](https://github.com/kyegomez/MambaByte) --- Implementation of MambaByte in "MambaByte: Token-free Selective State Space Model" in Pytorch and Zeta
 
 [Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model](https://arxiv.org/abs/2401.09417),
-[code - no licence](https://github.com/hustvl/Vim)
+[code](https://github.com/hustvl/Vim)
 
 [Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147),
 [code](https://github.com/RAIVNLab/MRL)
