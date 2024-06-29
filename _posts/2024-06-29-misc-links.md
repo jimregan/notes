@@ -17,3 +17,9 @@ categories: [links]
 
 [sherpa-onnx - audio-tagging-from-a-file](https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/audio-tagging-from-a-file.py)
 
+[A Closer Look at Wav2Vec2 Embeddings for On-Device Single-Channel Speech Enhancement](https://arxiv.org/abs/2403.01369)
+
+[Evaluating Gammatone Frequency Cepstral Coefficients with Neural Networks for Emotion Recognition from Speech](https://arxiv.org/abs/1806.09010)
+
+[Foundation Transformers](https://arxiv.org/abs/2210.06423)
+
