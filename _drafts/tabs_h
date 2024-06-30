@@ -208,14 +208,8 @@ https://stackoverflow.com/questions/69266293/getting-embeddings-from-wav2vec2-mo
 nlp - How to extract embeddings from an audio file using wav2vec along with context - Data Science Stack Exchange
 https://datascience.stackexchange.com/questions/118124/how-to-extract-embeddings-from-an-audio-file-using-wav2vec-along-with-context
 
-A Closer Look at Wav2Vec2 Embeddings for On-Device Single-Channel Speech Enhancement
-https://arxiv.org/html/2403.01369v1
-
 wav2vec2 embeddings from specific layer - Google Search
 https://www.google.com/search?q=wav2vec2+embeddings+from+specific+layer&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+embeddings+from+specific+layer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDkzNzBqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
-
-Haohe Liu on X: "Excited to introduce SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound 🎉 SemantiCodec (50 tokens/second or 0.71kbps) ≈ Previous methods (200 tokens/second or 2.0kbps). 🎉Our study also reveals that SemantiCodec tokens hold richer semantic information. https://t.co/le7KdNWvW2" / X
-https://x.com/LiuHaohe/status/1785961357633814661
 
 hubertsiuzdak/snac: Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
 https://github.com/hubertsiuzdak/snac?tab=readme-ov-file
@@ -1229,7 +1223,7 @@ Google Accounts
 https://accounts.google.com/b/1/AddMailService
 
 Gmail
-https://accounts.google.com/v3/signin/confirmidentifier?authuser=3&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ddm=0&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ifkv=AS5LTAR2Q_u3MZkn7t97dXzbamFacbEKOKT6MY8Rg_br3x-9j6lG-qWfvdkGRy0ilb1yVeaMYdMj&osid=1&service=mail&dsh=S-1509265619%3A1719684748137162
+https://accounts.google.com/v3/signin/confirmidentifier?authuser=3&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ddm=0&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ifkv=AS5LTAT9q3tqrxUfEpsHktkGmBuhHEaLoSDQnjpYBwToHqL5hKPwHGTjElCLq5BiatKKvsthkI6F&osid=1&service=mail&dsh=S1392574180%3A1719699801200268
 
 expo-irish-synthesis/src at main · phonlab-tcd/expo-irish-synthesis
 https://github.com/phonlab-tcd/expo-irish-synthesis/tree/main/src
@@ -1351,10 +1345,10 @@ https://www.google.com/search?q=euro+2024+tables&rlz=1C5GCEM_enSE990SE991&oq=eur
 praveen23b_interspeech.pdf
 https://www.isca-archive.org/interspeech_2023/praveen23b_interspeech.pdf
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/107520840645715/
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/102052201197290/
 
 Entertainment | Television Listings | RTÉ
@@ -1597,38 +1591,14 @@ https://huggingface.co/docs/transformers/v4.34.0/en/model_doc/byt5
 google-research/byt5
 https://github.com/google-research/byt5
 
-Test if notebook is running on Google Colab - Stack Overflow
-https://stackoverflow.com/questions/53581278/test-if-notebook-is-running-on-google-colab
-
 Finetuning T5 for a task - Intermediate - Hugging Face Forums
 https://discuss.huggingface.co/t/finetuning-t5-for-a-task/9558/11
 
 Summarization - Colab
-https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/summarization.ipynb#scrollTo=zS-6iXTkIrJT
+https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/summarization.ipynb#scrollTo=voWiw8C7IrJV
 
 docker/fairseq/Dockerfile at master · loretoparisi/docker
 https://github.com/loretoparisi/docker/blob/master/fairseq/Dockerfile
-
-Inbox • Direct
-https://www.instagram.com/direct/t/107520840645715/
-
-Repositories
-https://github.com/orgs/sprakbankental/repositories
-
-gpus/sbtal-gpus/compute-storage.csv at develop · sprakbankental/gpus
-https://github.com/sprakbankental/gpus/blob/develop/sbtal-gpus/compute-storage.csv
-
-sprakbankental/webcomponents: Development repo for web sound widgets, tools, etc.
-https://github.com/sprakbankental/webcomponents
-
-oci-basic/containers/os/ubuntu/Dockerfile at develop · sprakbankental/oci-basic
-https://github.com/sprakbankental/oci-basic/blob/develop/containers/os/ubuntu/Dockerfile
-
-sprakbankental/dockerfile: These are the customized docker files used in Språkbanken Tal
-https://github.com/sprakbankental/dockerfile
-
-sprakbankental/dev-asr-ss: Initial dev repo for ASR for speech science work
-https://github.com/sprakbankental/dev-asr-ss
 
 Fairseq 코드리뷰 Wav2vec 2.0 (Pretrain)
 https://donghwa-kim.github.io/pretrain_wav2.html
@@ -1636,10 +1606,88 @@ https://donghwa-kim.github.io/pretrain_wav2.html
 sherpa-onnx/python-api-examples/audio-tagging-from-a-file.py at master · k2-fsa/sherpa-onnx
 https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/audio-tagging-from-a-file.py
 
-denmark germany euro 2024 referee - Google Search
-https://www.google.com/search?q=denmark+germany+euro+2024+refere&rlz=1C5GCEM_enSE990SE991&oq=denmark+germany+euro+2024+refere&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigAdIBCDc2NzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+pytorch/audio: Data manipulation and transformation for audio signal processing, powered by PyTorch
+https://github.com/pytorch/audio?tab=readme-ov-file
 
-UEFA make official ruling on Anthony Taylor and Stuart Attwell after the Premier League referees controversially ruled out a would-be winner for the Netherlands against France | Daily Mail Online
-https://www.dailymail.co.uk/sport/football/article-13581111/UEFA-make-official-ruling-Anthony-Taylor-Stuart-Attwell-Premier-League-referees-controversially-ruled-winner-Netherlands-against-France.html
+Pull requests · pytorch/audio
+https://github.com/pytorch/audio/pulls?page=3&q=is%3Apr+is%3Aclosed
+
+Fix cuctc module by moto-meta · Pull Request #3670 · pytorch/audio
+https://github.com/pytorch/audio/pull/3670
+
+audio/src at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src
+
+audio/src/torchaudio at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src/torchaudio
+
+audio/src/torchaudio/datasets at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src/torchaudio/datasets
+
+audio/src/torchaudio/datasets/cmudict.py at main · pytorch/audio
+https://github.com/pytorch/audio/blob/main/src/torchaudio/datasets/cmudict.py
+
+audio/src/torchaudio/models at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src/torchaudio/models
+
+audio/src/torchaudio/models/rnnt.py at main · pytorch/audio
+https://github.com/pytorch/audio/blob/main/src/torchaudio/models/rnnt.py
+
+audio/src/torchaudio/models/wav2vec2/wavlm_attention.py at main · pytorch/audio
+https://github.com/pytorch/audio/blob/main/src/torchaudio/models/wav2vec2/wavlm_attention.py
+
+audio/src/torchaudio/models/conformer.py at main · pytorch/audio
+https://github.com/pytorch/audio/blob/main/src/torchaudio/models/conformer.py
+
+audio/src/torchaudio/pipelines/_wav2vec2/impl.py at main · pytorch/audio
+https://github.com/pytorch/audio/blob/main/src/torchaudio/pipelines/_wav2vec2/impl.py
+
+audio/src/torchaudio/transforms at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src/torchaudio/transforms
+
+audio/src/torio at main · pytorch/audio
+https://github.com/pytorch/audio/tree/main/src/torio
+
+torchaudio.functional.forced_align — Torchaudio 2.4.0.dev20240628 documentation
+https://pytorch.org/audio/main/generated/torchaudio.functional.forced_align.html
+
+torchaudio.kaldi_io — Torchaudio 2.4.0.dev20240628 documentation
+https://pytorch.org/audio/main/kaldi_io.html
+
+torchaudio.datasets — Torchaudio 2.4.0.dev20240628 documentation
+https://pytorch.org/audio/main/datasets.html
+
+DAPS (Device and Produced Speech) Dataset
+https://zenodo.org/records/4660670#.ZBtWPOxuerN
+
+Torchaudio Documentation — Torchaudio 2.4.0.dev20240628 documentation
+https://pytorch.org/audio/main/
+
+Commits · espnet/espnet
+https://github.com/espnet/espnet/commits/master/
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+espnet/espnet2/asr/layers/cgmlp.py at master · espnet/espnet
+https://github.com/espnet/espnet/blob/master/espnet2/asr/layers/cgmlp.py
+
+2309.14922
+https://arxiv.org/pdf/2309.14922
+
+Instagram
+https://www.instagram.com/
+
+2210.06423
+https://arxiv.org/pdf/2210.06423
+
+RaileyTV (@railey.tv) • Instagram photos and videos
+https://www.instagram.com/railey.tv
+
+Google Lens
+https://lens.google.com/search?ep=gsbubb&hl=en-SE&re=df&p=AbrfA8pZuAPrnhIMDCPc_DJHn3YENd5JXR4GIIkqeuQQrlUleSw4fAiX2WrpzJuialuvPvhEpaChlkPCe3v7Sm9AxCUxnHqUy2o_M0x_Ng1gQ85dkFWG9htRrl1dEnodrmadpxYj4vpjsbMOeNkceLwcxwDUJjjsibeRHyV1VkFdxmZeyDe70WRdEnlasarHMfufQeGK-KKRpJAeUTSINMkGowmSVJs0uQznR0nGo84Ma_Fk8anXqvT3nyG6q8RFBXR95UX9TSFlX-PpySdFhWqkp383eAMbUWi8nCjlJNYNORRLk8wkr1WRA53v#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKR1prTXpWaE56TmpMVEprTUdRdE5ESTRaQzFpWm1FM0xXRm1NbVV3TkdVNE0ySTFZUklmUVRaaWNscGhVR0ZLTURoak5FWXpjRVF5ZGpoaFkzUmxiRk5zYWtKb2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyIwNzdiYjM0NS04OTg1LTQ4ZDMtOTQ4NS05YWRjMGEzN2M3YmEiXV0=
+
+Google Lens
+https://lens.google.com/search?ep=gsbubb&hl=en-GB&re=df&p=AbrfA8pbMj8Kj5ZosclC82rML52oQ2re-WYtJGhykWZSrdH3YmKgbait5OzayT7hSyAiTx4CvS-w9iFmtxZuXSJNvZW9HmfqL5Pr1tdYyld5W9nEhAhlnYC0ndylQv9I9x2gNUJXbP6qOuKObFAyoQhSyTTM9MonuQTurV7sxBv_IJSS7ZLZLFIvR3YUdkzehAtpMIhA_gsctLpTEGsfGAxls4377PRQAquggTSNTI3oe3QCqjOcDMBwd3Nw8_l1b7T1Ztk1l-uExDtmwQnJ5kWt0hHXeAZ9rnOO9K4P9D4datTmTWwOpfe_Q_DQ#lns=W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsIkVrY0tKRFZtTlRjeVpqRTFMVGMwT0dZdE5HSmlaaTA0WXpWbUxURTBNVEJqTkRkaE9XTmxPUklmY3pWaU4wMWlOM001ZVZsWk5FWXpjRVF5ZGpoaFkzTlBSa053YWtKb2F3PT0iLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWyI1ODFhNjA1Yi1lYTRkLTQ0MWEtYmU1NS1mMDM3NWI3OWJlZmEiXV0=
 
 
