@@ -23,3 +23,17 @@ categories: [links]
 
 [Foundation Transformers](https://arxiv.org/abs/2210.06423)
 
+{% twitter https://x.com/Hamptonism/status/1803344932859502614 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1798042265883156651 %}
+
+{% twitter https://x.com/karpathy/status/1803963383018066272 %}
+
+[Everything You Always Wanted To Know About Mathematics But didn’t even know to ask](https://www.math.cmu.edu/~jmackey/151_128/bws_book.pdf)
+
+{% twitter https://x.com/jdeschena/status/1803096836460155144 %}
+
+{% twitter https://x.com/cgarciae88/status/1803004045084197186 %}
+
+[Conditional flow matching](https://bm371613.github.io/conditional-flow-matching/)
+
