@@ -37,3 +37,6 @@ categories: [links]
 
 [Conditional flow matching](https://bm371613.github.io/conditional-flow-matching/)
 
+[How Much Context Does My Attention-Based ASR System Need?](https://arxiv.org/abs/2310.15672),
+[code](github.com/robflynnyh/long-context-asr)
+
