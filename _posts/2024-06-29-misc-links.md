@@ -40,3 +40,11 @@ categories: [links]
 [How Much Context Does My Attention-Based ASR System Need?](https://arxiv.org/abs/2310.15672),
 [code](github.com/robflynnyh/long-context-asr)
 
+[SkalskiP/top-cvpr-2024-papers](https://github.com/SkalskiP/top-cvpr-2024-papers)
+
+[Evaluating Gesture Generation in a Large-scale Open Challenge: The GENEA Challenge 2022](https://dl.acm.org/doi/10.1145/3656374)
+
+[Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation](https://arxiv.org/abs/2403.17846),
+[code](https://github.com/hovsg/HOV-SG)
+
+
