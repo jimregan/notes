@@ -47,4 +47,12 @@ categories: [links]
 [Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation](https://arxiv.org/abs/2403.17846),
 [code](https://github.com/hovsg/HOV-SG)
 
+[Understanding FAISS](https://towardsdatascience.com/understanding-faiss-619bb6db2d1a)
+
+[An Empirical Study of Mamba-based Language Models](https://arxiv.org/abs/2406.07887),
+[model](https://huggingface.co/nvidia/mamba2-hybrid-8b-3t-4k),
+[code](https://github.com/NVIDIA/Megatron-LM/tree/ssm/examples/mamba)
+
+{% twitter https://x.com/HamelHusain/status/1802106197782438019 %}
+
 
