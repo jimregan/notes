@@ -1525,172 +1525,19 @@ https://huggingface.co/blog/train-sentence-transformers
 Pull requests · lhotse-speech/lhotse
 https://github.com/lhotse-speech/lhotse/pulls
 
-lhotse/lhotse/recipes/audio_mnist.py at master · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/audio_mnist.py
+lhotse/lhotse/recipes/this_american_life.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/this_american_life.py
 
-[WIP] spokewoz recipe by oplatek · Pull Request #1174 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1174
-
-Silero VAD for cleaning the dataset from silence by rilshok · Pull Request #1166 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1166
-
-[Not for merge] Diarization workflow with SpeechBrain by desh2608 · Pull Request #1031 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1031
+2005.08072
+https://arxiv.org/pdf/2005.08072
 
 Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/656
-
-Feature/unsup multichan waveform dataset by kkarrancsu · Pull Request #532 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/532
-
-WIP kaldi import/export refactoring proof of concept/design by jtrmal · Pull Request #693 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/693
-
-Add faster-whisper (ctranslate2) as option for Whisper annotation workflow by entn-at · Pull Request #1017 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1017
-
-ASR,ST and CS recipies by AmirHussein96 · Pull Request #1307 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1307
-
-augmentation/torchaudio: add Phone effect (mulaw, lpc10 codecs) by rouseabout · Pull Request #1348 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1348/files
+https://github.com/lhotse-speech/lhotse/pull/656/files
 
 Pull requests · espnet/espnet
 https://github.com/espnet/espnet/pulls
 
-Image Layer Details - pytorch/pytorch:2.3.1-cuda11.8-cudnn8-devel | Docker Hub
-https://hub.docker.com/layers/pytorch/pytorch/2.3.1-cuda11.8-cudnn8-devel/images/sha256-5c2e1d0bbe0f000b12aef0dfba9980790c1240d40498a9f67d01bd2bfc131461?context=explore
-
 pytorch/Dockerfile at main · pytorch/pytorch
 https://github.com/pytorch/pytorch/blob/main/Dockerfile
-
-New Tab
-chrome://newtab/
-
-shivammehta25 (shivammehta25) / Repositories
-https://github.com/shivammehta25?tab=repositories
-
-shivammehta25/BetterFastSpeech2
-https://github.com/shivammehta25/BetterFastSpeech2
-
-Alpha-VLLM/Lumina-T2X: Lumina-T2X is a unified framework for Text to Any Modality Generation
-https://github.com/Alpha-VLLM/Lumina-T2X?tab=readme-ov-file
-
-Alpha-VLLM/Lumina-T2Audio · Hugging Face
-https://huggingface.co/Alpha-VLLM/Lumina-T2Audio
-
-shivammehta25/vits: VITS: Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech
-https://github.com/shivammehta25/vits
-
-NVIDIA/DeepLearningExamples: State-of-the-Art Deep Learning scripts organized by models - easy to train and deploy with reproducible accuracy and performance on enterprise-grade infrastructure.
-https://github.com/NVIDIA/DeepLearningExamples
-
-Training FP2 fm dur pred · shivammehta25/Nvidia-DeepLearningExamples@e6d5a38
-https://github.com/shivammehta25/Nvidia-DeepLearningExamples/commit/e6d5a38b804809993c3dcf66c1e7cce255fb3d9f
-
-Fixing stoc synthesis · shivammehta25/Nvidia-DeepLearningExamples@402a759
-https://github.com/shivammehta25/Nvidia-DeepLearningExamples/commit/402a75918dbd59008336fdec29c9bb732b2de2c3
-
-DeepLearningExamples/Kaldi/SpeechRecognition at master · NVIDIA/DeepLearningExamples
-https://github.com/NVIDIA/DeepLearningExamples/tree/master/Kaldi/SpeechRecognition
-
-[1910.10032] GPU-Accelerated Viterbi Exact Lattice Decoder for Batched Online and Offline Speech Recognition
-https://arxiv.org/abs/1910.10032
-
-shivammehta25/WhisperFusion: WhisperFusion builds upon the capabilities of WhisperLive and WhisperSpeech to provide a seamless conversations with an AI.
-https://github.com/shivammehta25/WhisperFusion
-
-collabora/WhisperFusion: WhisperFusion builds upon the capabilities of WhisperLive and WhisperSpeech to provide a seamless conversations with an AI.
-https://github.com/collabora/WhisperFusion
-
-Collabora
-https://github.com/collabora
-
-collabora/WhisperLive: A nearly-live implementation of OpenAI's Whisper.
-https://github.com/collabora/WhisperLive
-
-collabora/WhisperSpeech: An Open Source text-to-speech system built by inverting Whisper.
-https://github.com/collabora/WhisperSpeech?tab=readme-ov-file
-
-SPEAR-TTS
-https://google-research.github.io/seanet/speartts/examples/
-
-AudioLM
-https://google-research.github.io/seanet/audiolm/examples/
-
-facebookresearch/encodec: State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio.
-https://github.com/facebookresearch/encodec
-
-gemelo-ai/vocos: Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
-https://github.com/gemelo-ai/vocos?tab=readme-ov-file
-
-suno-ai/bark: 🔊 Text-Prompted Generative Audio Model
-https://github.com/suno-ai/bark?tab=readme-ov-file
-
-7. Train the final models · Issue #12 · collabora/WhisperSpeech
-https://github.com/collabora/WhisperSpeech/issues/12
-
-6. Gather more multi-lingual data · Issue #11 · collabora/WhisperSpeech
-https://github.com/collabora/WhisperSpeech/issues/11
-
-Issues · collabora/WhisperSpeech
-https://github.com/collabora/WhisperSpeech/issues
-
-Issues · collabora/WhisperSpeech
-https://github.com/collabora/WhisperSpeech/issues
-
-Add (train) a new language · Issue #127 · collabora/WhisperSpeech
-https://github.com/collabora/WhisperSpeech/issues/127
-
-mlx-examples/whisper/whisper/whisper.py at 47dd6bd17f3cc7ef95672ea16e443e58ce5eb1bf · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/blob/47dd6bd17f3cc7ef95672ea16e443e58ce5eb1bf/whisper/whisper/whisper.py
-
-FFT operators are not supported on MPS device · Issue #78044 · pytorch/pytorch
-https://github.com/pytorch/pytorch/issues/78044
-
-neuraloperator/neuraloperator: Learning in infinite dimension with neural operators.
-https://github.com/neuraloperator/neuraloperator
-
-rishikksh20/SoundStorm-pytorch: Google's SoundStorm: Efficient Parallel Audio Generation
-https://github.com/rishikksh20/SoundStorm-pytorch?tab=readme-ov-file
-
-MaskGIT-pytorch/transformer.py at main · dome272/MaskGIT-pytorch
-https://github.com/dome272/MaskGIT-pytorch/blob/main/transformer.py
-
-shivammehta25/FastSpeech2: An implementation of Microsoft's "FastSpeech 2: Fast and High-Quality End-to-End Text to Speech"
-https://github.com/shivammehta25/FastSpeech2
-
-shivammehta25/CLIP at GestCLIP
-https://github.com/shivammehta25/CLIP/tree/GestCLIP
-
-openai/CLIP: CLIP (Contrastive Language-Image Pretraining), Predict the most relevant text snippet given an image
-https://github.com/openai/CLIP
-
-2010.08895
-https://arxiv.org/pdf/2010.08895
-
-Fast Training of Convolutional Networks through FFTs · Issue #143 · BVLC/caffe
-https://github.com/BVLC/caffe/issues/143
-
-Even faster convolutions in Theano using FFTs – Sander Dieleman
-https://sander.ai/2014/05/12/fft-convolutions-in-theano.html
-
-theano_fftconv/cufftop.py at master · benanne/theano_fftconv
-https://github.com/benanne/theano_fftconv/blob/master/cufftop.py
-
-fft convolution 1d - Google Search
-https://www.google.com/search?q=fft+convolution+1d&rlz=1C5GCEM_enSE990SE991&oq=fft+convolution+1d&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc2MDdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-fft-conv-pytorch/fft_conv_pytorch/utils.py at master · fkodom/fft-conv-pytorch
-https://github.com/fkodom/fft-conv-pytorch/blob/master/fft_conv_pytorch/utils.py
-
-mosco/fftw-convolution-example-1D: A simple example of performing a one-dimensional discrete convolution using the FFTW library.
-https://github.com/mosco/fftw-convolution-example-1D
-
-fftconvolve — SciPy v1.14.0 Manual
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.fftconvolve.html
-
-convfft vs. fftfilt (1D convolution) - MATLAB Answers - MATLAB Central
-https://se.mathworks.com/matlabcentral/answers/13718-convfft-vs-fftfilt-1d-convolution
 
 
