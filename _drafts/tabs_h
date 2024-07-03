@@ -1505,63 +1505,96 @@ Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models
 https://huggingface.co/blog/finetune-florence2
 
 Hugging Face – Blog
-https://huggingface.co/blog?p=2
+https://huggingface.co/blog?p=4
 
-Welcome Gemma 2 - Google’s new open LLM
-https://huggingface.co/blog/gemma2
+Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints
+https://huggingface.co/blog/asr-diarization
 
-From DeepSpeed to FSDP and Back Again with Hugging Face Accelerate
-https://huggingface.co/blog/deepspeed-to-fsdp-and-back
+Introducing Idefics2: A Powerful 8B Vision-Language Model for the community
+https://huggingface.co/blog/idefics2
 
-Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs
-https://huggingface.co/blog/npc-gigax-cubzh
+Vision Language Models Explained
+https://huggingface.co/blog/vlms
 
-cubzh.lua · cubzh/ai-npcs at main
-https://huggingface.co/spaces/cubzh/ai-npcs/blob/main/cubzh.lua
-
-cubzh/cubzh: Cubzh is a User Generated Social Universe, an online platform where all items, avatars, games, and experiences are made by users from the community.
-https://github.com/cubzh/cubzh
-
-Cubzh
-https://cu.bzh/
-
-GigaxGames/gigax: LLM-powered NPCs running on your hardware
-https://github.com/GigaxGames/gigax
+Text2SQL using Hugging Face Dataset Viewer API and Motherduck DuckDB-NSQL-7B
+https://huggingface.co/blog/duckdb-nsql-7b
 
 Training and Finetuning Embedding Models with Sentence Transformers v3
 https://huggingface.co/blog/train-sentence-transformers
 
-Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages
-https://huggingface.co/blog/falcon2-11b
+Pull requests · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pulls
 
-Falcon LLM
-https://falconllm.tii.ae/falcon-models.html
+lhotse/lhotse/recipes/audio_mnist.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/audio_mnist.py
 
-Falcon-180B Demo - a Hugging Face Space by tiiuae
-https://huggingface.co/spaces/tiiuae/falcon-180b-demo
+[WIP] spokewoz recipe by oplatek · Pull Request #1174 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1174
 
-tiiuae/falcon-7b-instruct · Hugging Face
-https://huggingface.co/tiiuae/falcon-7b-instruct?source=post_page-----ff1d4ffbabcc
+Silero VAD for cleaning the dataset from silence by rilshok · Pull Request #1166 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1166
 
-tiiuae/falcon-40b · Hugging Face
-https://huggingface.co/tiiuae/falcon-40b
+[Not for merge] Diarization workflow with SpeechBrain by desh2608 · Pull Request #1031 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1031
 
-Falcon LLM
-https://falconllm.tii.ae/falcon-2-terms-and-conditions.html
+Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/656
 
-PaliGemma – Google's Cutting-Edge Open Vision Language Model
-https://huggingface.co/blog/paligemma
+Feature/unsup multichan waveform dataset by kkarrancsu · Pull Request #532 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/532
 
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=T%C3%A1%20stair%20na%20hUng%C3%A1ire%20go%20h%C3%A1iritheach.%20&op=translate
+WIP kaldi import/export refactoring proof of concept/design by jtrmal · Pull Request #693 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/693
 
-(1) Jim O'Regan on X: "https://t.co/lOZuk67MwD" / X
-https://x.com/jimregan/status/1637822374748856324
+Add faster-whisper (ctranslate2) as option for Whisper annotation workflow by entn-at · Pull Request #1017 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1017
 
-(1) Home / X
-https://x.com/home
+ASR,ST and CS recipies by AmirHussein96 · Pull Request #1307 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1307
 
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/
+augmentation/torchaudio: add Phone effect (mulaw, lpc10 codecs) by rouseabout · Pull Request #1348 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1348/files
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+Image Layer Details - pytorch/pytorch:2.3.1-cuda11.8-cudnn8-devel | Docker Hub
+https://hub.docker.com/layers/pytorch/pytorch/2.3.1-cuda11.8-cudnn8-devel/images/sha256-5c2e1d0bbe0f000b12aef0dfba9980790c1240d40498a9f67d01bd2bfc131461?context=explore
+
+@bojana___12 • Instagram photos and videos
+https://www.instagram.com/bojana___12/
+
+pytorch/Dockerfile at main · pytorch/pytorch
+https://github.com/pytorch/pytorch/blob/main/Dockerfile
+
+Instagram
+https://www.instagram.com/reels/C8muen-IH9e/
+
+🔥Orlando🔥 (@orli.fans) • Instagram photos and videos
+https://www.instagram.com/orli.fans/reels/
+
+Instagram
+https://www.instagram.com/
+
+Facebook
+https://www.facebook.com/
+
+List of Black Flag band members - Wikipedia
+https://en.wikipedia.org/wiki/List_of_Black_Flag_band_members
+
+What The... - Wikipedia
+https://en.wikipedia.org/wiki/What_The...
+
+My War - Wikipedia
+https://en.wikipedia.org/wiki/My_War
+
+Kira Roessler - Wikipedia
+https://en.wikipedia.org/wiki/Kira_Roessler
+
+Damaged (Black Flag album) - Wikipedia
+https://en.wikipedia.org/wiki/Damaged_(Black_Flag_album)
+
+Slip It In - Wikipedia
+https://en.wikipedia.org/wiki/Slip_It_In
 
 
