@@ -55,4 +55,25 @@ categories: [links]
 
 {% twitter https://x.com/HamelHusain/status/1802106197782438019 %}
 
+[pkufool/librilight-text](https://huggingface.co/datasets/pkufool/librilight-text)
+
+[Open CLIP - SigLipLoss](https://github.com/mlfoundations/open_clip/blob/73ad04ae7fb93ede1c02dc9040a828634cb1edf1/src/open_clip/loss.py#L307)
+
+{% twitter https://x.com/rohanpaul_ai/status/1800298331773567412 %}
+
+[Faiss: A library for efficient similarity search](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/)
+
+[Faiss - Brute force search without an index](https://github.com/facebookresearch/faiss/wiki/Brute-force-search-without-an-index)
+
+[Robust solutions for audio fingerprinting](https://upcommons.upc.edu/bitstream/handle/2117/386744/Master_Thesis_Macia_Amoros_Cortiella.pdf?sequence=5&isAllowed=y)
+
+[Neural Audio Fingerprint for High-Specific Audio Retrieval Based on Contrastive Learning](https://ieeexplore.ieee.org/document/9414337),
+[code](https://github.com/mimbres/neural-audio-fp)
+
+[Audio Fingerprinting with Holographic Reduced Representations](https://arxiv.org/abs/2406.13139)
+
+[MahmudulAlam/Holographic-Reduced-Representations](https://github.com/MahmudulAlam/Holographic-Reduced-Representations)
+
+[Learning with Holographic Reduced Representations](https://arxiv.org/abs/2109.02157),
+[code](https://github.com/FutureComputing4AI/Learning-with-Holographic-Reduced-Representations)
 
