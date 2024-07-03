@@ -187,32 +187,11 @@ https://huggingface.co/hubertsiuzdak/snac_24khz
 text_search/textsearch/csrc/levenshtein.h at master · k2-fsa/text_search
 https://github.com/k2-fsa/text_search/blob/master/textsearch/csrc/levenshtein.h
 
-pkufool/librilight-text · Datasets at Hugging Face
-https://huggingface.co/datasets/pkufool/librilight-text/viewer
-
-Launch Meeting - Zoom
-https://kth-se.zoom.us/j/61584365270#success
-
 SigLIP
 https://huggingface.co/docs/transformers/en/model_doc/siglip
 
-open_clip/src/open_clip/loss.py at 73ad04ae7fb93ede1c02dc9040a828634cb1edf1 · mlfoundations/open_clip
-https://github.com/mlfoundations/open_clip/blob/73ad04ae7fb93ede1c02dc9040a828634cb1edf1/src/open_clip/loss.py#L307
-
 big_vision/big_vision/models/proj/clippo/one_tower.py at main · google-research/big_vision
 https://github.com/google-research/big_vision/blob/main/big_vision/models/proj/clippo/one_tower.py
-
-Rohan Paul on X: "Very interesting Paper - "Mixture-of-Agents (MoA) Enhances Large Language Model Capabilities": - MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni. 🔥 📌 The paper introduces the https://t.co/P09kddjZMt" / X
-https://x.com/rohanpaul_ai/status/1800298331773567412
-
-Faiss: A library for efficient similarity search - Engineering at Meta
-https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/
-
-Brute force search without an index · facebookresearch/faiss Wiki
-https://github.com/facebookresearch/faiss/wiki/Brute-force-search-without-an-index
-
-faiss/tests/test_contrib.py at main · facebookresearch/faiss
-https://github.com/facebookresearch/faiss/blob/main/tests/test_contrib.py#L66
 
 faiss/faiss/utils/distances.h at main · facebookresearch/faiss
 https://github.com/facebookresearch/faiss/blob/main/faiss/utils/distances.h#L200
@@ -262,11 +241,20 @@ https://parlance-labs.com/education/rag/ben.html
 Beyond the Basics of Retrieval for Augmenting Generation (w/ Ben Clavié) - YouTube
 https://www.youtube.com/watch?v=0nA5QG3087g&t=684s
 
-neural audio search - Google Search
-https://www.google.com/search?q=neural+audio+search&rlz=1C5GCEM_enSE990SE991&oq=neural+audio+search&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDM5NTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+audio fingerprinting pytorch - Google Search
+https://www.google.com/search?q=audio+fingerprinting+pytorch&sca_esv=bb6fb22019ea88f6&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIL3Wl8ldjIcZp9ewcR2LEwzl9_BVw%3A1719930245530&ei=hQ2EZv76H6qHwPAPltCV-Ag&oq=neural+audio+search&gs_lp=Egxnd3Mtd2l6LXNlcnAiE25ldXJhbCBhdWRpbyBzZWFyY2gqAggAMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHSIkfUABYAHACeAGQAQCYAQCgAQCqAQC4AQHIAQCYAgKgAgeYAwCIBgGQBgKSBwEyoAcA&sclient=gws-wiz-serp
 
-mimbres/neural-audio-fp
-https://github.com/mimbres/neural-audio-fp?tab=readme-ov-file
+audio-embedding/nnfp - nnfp - Towhee
+https://towhee.io/audio-embedding/nnfp
+
+Master_Thesis_Macia_Amoros_Cortiella.pdf
+https://upcommons.upc.edu/bitstream/handle/2117/386744/Master_Thesis_Macia_Amoros_Cortiella.pdf?sequence=5&isAllowed=y
+
+neural-audio-fp/model/generate.py at main · mimbres/neural-audio-fp
+https://github.com/mimbres/neural-audio-fp/blob/main/model/generate.py
+
+Audio Fingerprinting with Holographic Reduced Representations
+https://arxiv.org/pdf/2406.13139
 
 stdio2016/pfann: Neural Network Audio FingerPrint
 https://github.com/stdio2016/pfann
@@ -1501,13 +1489,25 @@ https://github.com/merveenoyan/example_notebooks/blob/main/RT_DETR_Notebook.ipyn
 [do-not-merge] SpeechLLM dev branch by pzelasko · Pull Request #9474 · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/pull/9474
 
-Enable encoder adapters for Canary and MultiTaskAED models (#9409) · NVIDIA/NeMo@328185d
-https://github.com/NVIDIA/NeMo/commit/328185dd6c197100239bb8cd578f887105ed76fa
+Enable encoder adapters for Canary and MultiTaskAED models by titu1994 · Pull Request #9409 · NVIDIA/NeMo
+https://github.com/NVIDIA/NeMo/pull/9409
 
 NeMo/tutorials/asr/README.md at 2bb5e4700dc8020534f62ec0959e384ba7ce5c9c · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/blob/2bb5e4700dc8020534f62ec0959e384ba7ce5c9c/tutorials/asr/README.md
 
 Adding support for mcore T5 PEFT by huvunvidia · Pull Request #9584 · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/pull/9584
+
+ChatGPT
+https://chatgpt.com/c/c04cee8a-56e6-4d1d-9e64-767a5bee0424
+
+YouTube
+https://www.youtube.com/
+
+Tighten & Flatten Your Stomach in 1 Move (No Sit-Ups or Gym) Dr. Mandell - YouTube
+https://www.youtube.com/watch?v=zt774lbgnpA
+
+20 IBRAHIMOVIC Goals That Shocked The World - YouTube
+https://www.youtube.com/watch?v=LD7J5jq15T0
 
 
