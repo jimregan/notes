@@ -99,16 +99,21 @@ categories: [links]
 
 [Vision Language Models Explained](https://huggingface.co/blog/vlms)
 
-| Model                  | **Actually** open | LLM
-!------------------------|-------------------|----
-| LLaVA 1.6 (Hermes 34B) | ? ("The usage of LLaVA checkpoints should comply with the base LLM's model license.")[https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md] | 
-| deepseek-vl-7b-base    | ❌
-| DeepSeek-VL-Chat       | ❌
-| moondream2             | 
+| Model                  | **Actually** open |
+!------------------------|-------------------|
+| LLaVA 1.6 (Hermes 34B) |                   |
+| deepseek-vl-7b-base    | ❌                |
+| DeepSeek-VL-Chat       | ❌                |
+| moondream2             |                   |
 | CogVLM-base            | (❌)[https://github.com/THUDM/CogVLM/raw/main/MODEL_LICENSE] |
 | CogVLM-Chat            | (❌)[https://github.com/THUDM/CogVLM/raw/main/MODEL_LICENSE] |
-| Fuyu-8B                | ❌
-| KOSMOS-2               | 
-| Qwen-VL                | 
-| Qwen-VL-Chat           | ❌
-| Yi-VL-34B              | 
+| Fuyu-8B                | ❌                |
+| KOSMOS-2               | ✅                |
+| Qwen-VL                | ❌                |
+| Qwen-VL-Chat           | ❌                |
+| Yi-VL-34B              | ✅                |
+
+
+[nmslib/nmslib](https://github.com/nmslib/nmslib) --- Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
+
+
