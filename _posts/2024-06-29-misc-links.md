@@ -88,3 +88,9 @@ categories: [links]
 [Time Series Diffusion in the Frequency Domain](https://arxiv.org/abs/2402.05933),
 [code](https://github.com/JonathanCrabbe/FourierDiffusion)
 
+[Data Augmentation in Time and Doppler Frequency Domain for Radar-based Gesture Recognition](https://ieeexplore.ieee.org/document/9784553)
+
+[Frequency Domain Audio Synthesis – With IFFT and Oscillators](https://blog.demofox.org/2015/04/19/frequency-domain-audio-synthesis-with-ifft-and-oscillators/)
+
+[Trajectories and revolutions in popular melody based on U.S. charts from 1950 to 2023](https://www.nature.com/articles/s41598-024-64571-x)
+
