@@ -160,6 +160,21 @@ https://www.apa.org/ptsd-guideline/treatments/cognitive-processing-therapist.pdf
 Search | Center for Deployment Psychology
 https://deploymentpsych.org/search/node/cpt%20session%20notes
 
+Staff Perspective: CPT Session Notes Are Here! | Center for Deployment Psychology
+https://deploymentpsych.org/blog/staff-perspective-cpt-session-notes-are-here
+
+CPT Session Notes | Center for Deployment Psychology
+https://deploymentpsych.org/content/cpt-session-notes
+
+CPT Session Notes Phase 6: Session 12 The Final Impact Statment | Center for Deployment Psychology
+https://deploymentpsych.org/content/cpt-session-notes-phase-6-session-12-final-impact-statment
+
+CPT Session Notes: Session 5 Using the Challenging Questions Worksheet | Center for Deployment Psychology
+https://deploymentpsych.org/cpt-session-notes-session-5
+
+CPT Session Notes Session 6: Patterns of Problematic Thinking | Center for Deployment Psychology
+https://deploymentpsych.org/content/cpt-session-notes-session-6-patterns-problematic-thinking
+
 Section II
 https://www.div12.org/wp-content/uploads/2015/07/CPT-Materials-Manual.pdf
 
@@ -208,14 +223,41 @@ https://towardsdatascience.com/understanding-faiss-619bb6db2d1a
 Embedding similarity search. Searching for something similar is a… | by Roman Kyslyi, PhD | Medium
 https://medium.com/@kvrware/embedding-similarity-search-25c6911240af
 
-nmslib/nmslib: Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
-https://github.com/nmslib/nmslib
-
-(2) Bad Baltic Takes on X: "14 June. It’s a date seared into our memories. The start of Moscow’s mass deportations in Baltic countries. Today flags fly are raised, candles &amp; black ribbons line railway platforms, victim names are read. Here’s Tallinn’s Freedom Square. 🧵 on what the world needs to know… https://t.co/tw9nw3HtvK" / X
-https://x.com/BadBalticTakes/status/1668880463543390208
-
 (1) Ethan (in SYD🇦🇺) on X: "UnCLIP showed us the power of decoding from representation spaces, and really the power of hiearchical modeling across different levels of abstraction. But really this approach (imho wrongfully) kinda fell out of style https://t.co/wiatkVMe60" / X
-https://x.com/Ethan_smith_20/status/1801466041660273033/photo/1
+https://x.com/Ethan_smith_20/status/1801466041660273033
+
+λ-ECLIPSE: Multi-Concept Personalized Text-to-Image Diffusion Models by Leveraging CLIP Latent Space
+https://eclipse-t2i.github.io/Lambda-ECLIPSE/
+
+diffusers/src/diffusers/models/unets at main · huggingface/diffusers
+https://github.com/huggingface/diffusers/tree/main/src/diffusers/models/unets
+
+Code search results
+https://github.com/search?q=repo%3Ahuggingface%2Fdiffusers+fourier&type=code
+
+Pull requests · huggingface/diffusers
+https://github.com/huggingface/diffusers/pulls?q=is%3Apr+is%3Aclosed
+
+diffusers/src/diffusers/pipelines/deprecated/audio_diffusion/mel.py at 7833ed957bcb4bd8c9ed0a9a8a172513bf896e51 · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/7833ed957bcb4bd8c9ed0a9a8a172513bf896e51/src/diffusers/pipelines/deprecated/audio_diffusion/mel.py#L121
+
+diffusers/docs/source/en/api/pipelines/audioldm.md at 7833ed957bcb4bd8c9ed0a9a8a172513bf896e51 · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/7833ed957bcb4bd8c9ed0a9a8a172513bf896e51/docs/source/en/api/pipelines/audioldm.md?plain=1#L13
+
+diffusers/docs/source/en/quicktour.md at 7833ed957bcb4bd8c9ed0a9a8a172513bf896e51 · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/7833ed957bcb4bd8c9ed0a9a8a172513bf896e51/docs/source/en/quicktour.md?plain=1#L17
+
+diffusers/tests/pipelines/dance_diffusion/test_dance_diffusion.py at 7833ed957bcb4bd8c9ed0a9a8a172513bf896e51 · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/7833ed957bcb4bd8c9ed0a9a8a172513bf896e51/tests/pipelines/dance_diffusion/test_dance_diffusion.py#L56
+
+Paper page - Hierarchical Text-Conditional Image Generation with CLIP Latents
+https://huggingface.co/papers/2204.06125
+
+Models - Hugging Face
+https://huggingface.co/models?other=unclip
+
+philippe-eecs/small-vision: A big_vision inspired repo that implements a generic Auto-Encoder class capable in representation learning and generative modeling.
+https://github.com/philippe-eecs/small-vision
 
 unCLIP
 https://huggingface.co/docs/diffusers/en/api/pipelines/unclip
@@ -1510,6 +1552,51 @@ https://huggingface.co/blog/idefics2
 Vision Language Models Explained
 https://huggingface.co/blog/vlms
 
+01-ai/Yi-VL-34B · Hugging Face
+https://huggingface.co/01-ai/Yi-VL-34B
+
+unilm/kosmos-2 at master · microsoft/unilm
+https://github.com/microsoft/unilm/tree/master/kosmos-2#training
+
+llava-hf/llava-v1.6-34b-hf · Hugging Face
+https://huggingface.co/llava-hf/llava-v1.6-34b-hf
+
+LLaVA
+https://llava-vl.github.io/
+
+NousResearch (NousResearch)
+https://huggingface.co/NousResearch
+
+Releases - NOUS RESEARCH
+https://nousresearch.com/releases/
+
+01-ai/Yi-34B · Hugging Face
+https://huggingface.co/01-ai/Yi-34B
+
+Systran/faster-whisper-large-v3 · Hugging Face
+https://huggingface.co/Systran/faster-whisper-large-v3
+
+deepseek-ai/deepseek-vl-7b-chat · Hugging Face
+https://huggingface.co/deepseek-ai/deepseek-vl-7b-chat
+
+facebook/sam-vit-base · Hugging Face
+https://huggingface.co/facebook/sam-vit-base
+
+microsoft/kosmos-2-patch14-224 · Hugging Face
+https://huggingface.co/microsoft/kosmos-2-patch14-224
+
+vikhyatk/moondream2 · Hugging Face
+https://huggingface.co/vikhyatk/moondream2
+
+vikhyat/moondream: tiny vision language model
+https://github.com/vikhyat/moondream
+
+raw.githubusercontent.com/THUDM/CogVLM/main/MODEL_LICENSE
+https://raw.githubusercontent.com/THUDM/CogVLM/main/MODEL_LICENSE
+
+THUDM/cogvlm-base-490-hf · Hugging Face
+https://huggingface.co/THUDM/cogvlm-base-490-hf
+
 Text2SQL using Hugging Face Dataset Viewer API and Motherduck DuckDB-NSQL-7B
 https://huggingface.co/blog/duckdb-nsql-7b
 
@@ -1517,28 +1604,22 @@ Training and Finetuning Embedding Models with Sentence Transformers v3
 https://huggingface.co/blog/train-sentence-transformers
 
 Pull requests · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pulls
+https://github.com/lhotse-speech/lhotse/pulls?q=is%3Apr+is%3Aclosed
+
+Add GigaSpeech 2 recipe by yfyeung · Pull Request #1365 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1365
+
+Add KsponSpeech recipe by whsqkaak · Pull Request #1353 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1353/files
+
+Add the ReazonSpeech recipe by Triplecq · Pull Request #1330 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1330
 
 lhotse/lhotse/recipes/this_american_life.py at master · lhotse-speech/lhotse
 https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/this_american_life.py
 
-2005.08072
-https://arxiv.org/pdf/2005.08072
-
-tal-asrd/tal/diarization/uisrnn/arguments.py at master · calclavia/tal-asrd
-https://github.com/calclavia/tal-asrd/blob/master/tal/diarization/uisrnn/arguments.py
-
-Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/656/files
-
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls
-
 pytorch/Dockerfile at main · pytorch/pytorch
 https://github.com/pytorch/pytorch/blob/main/Dockerfile
-
-icml 2024 - Google Search
-https://www.google.com/search?q=icml+2024&rlz=1C5GCEM_enSE990SE991&oq=icml&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0ODhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 ICML 2024 Papers
 https://icml.cc/virtual/2024/papers.html?filter=titles
@@ -1621,28 +1702,55 @@ https://arxiv.org/abs/2303.13285
 2303.13285
 https://arxiv.org/pdf/2303.13285
 
-Bizim Hikaye - Google Search
-https://www.google.com/search?q=Bizim+Hikaye&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8
-
-@modevityshop • Instagram photos and videos
-https://www.instagram.com/modevityshop/
-
-bóbr kurwa koszulka - Google Search
-https://www.google.com/search?sca_esv=2a40155a60627478&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWILFzOFBaDM0Jp6K9MU4FlUGpGC_sg:1720188748566&q=b%C3%B3br+kurwa+koszulka&spell=1&sa=X&ved=2ahUKEwi89re6ipCHAxX3R1UIHXpSCSoQBSgAegQICRAB&biw=1440&bih=721&dpr=2
-
-What is the deal with Bóbr/Bóbr kurwa? : r/OutOfTheLoop
-https://www.reddit.com/r/OutOfTheLoop/comments/1blyphm/what_is_the_deal_with_b%C3%B3brb%C3%B3br_kurwa/
-
-Bober Kurwa T-shirt Unisex, Bobr Meme Inspired Jurassic Park - Etsy.de
-https://www.etsy.com/de-en/listing/1710152737/bober-kurwa-t-shirt-unisex-bobr-meme?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_se_en_se_-clothing_megafeed&utm_custom1=_k_Cj0KCQjws560BhCuARIsAHMqE0HSLa7pZuwL57Gcup8zVcvum-BG5_Mld754N4JmPxyaPO_QTUUWe-kaAsEMEALw_wcB_k_&utm_content=go_20050906268_151556183034_656775411836_pla-360912201277_c__1710152737ende_704667981&utm_custom2=20050906268&gad_source=1&gclid=Cj0KCQjws560BhCuARIsAHMqE0HSLa7pZuwL57Gcup8zVcvum-BG5_Mld754N4JmPxyaPO_QTUUWe-kaAsEMEALw_wcB
-
-Pingwin Kurwa T-shirt, Austriacki Pingwin & Bobr Kurwa Tee, Funny Runner Duck Design, Unisex Meme Shirt Pedro - Etsy.de
-https://www.etsy.com/de-en/listing/1701068190/pingwin-kurwa-t-shirt-austriacki-pingwin?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_se_en_se_-clothing_megafeed&utm_custom1=_k_Cj0KCQjws560BhCuARIsAHMqE0HSI2-TBgwORQdiYnLMSd7BBFJXIXQEzQ69x4_5RtfwEoeDmqDZmMwaAoywEALw_wcB_k_&utm_content=go_20050906268_151556183034_656775411836_pla-360912201277_c__1701068190ende_704667981&utm_custom2=20050906268&gad_source=1&gclid=Cj0KCQjws560BhCuARIsAHMqE0HSI2-TBgwORQdiYnLMSd7BBFJXIXQEzQ69x4_5RtfwEoeDmqDZmMwaAoywEALw_wcB
-
-Bóbr T-shirt Coat of Arms - Bober Kurwa Shop
-https://ebober.com/product/bobr-t-shirt-coat-of-arms/
-
 Instagram
-https://www.instagram.com/p/C6b6ez5uzln/
+https://www.instagram.com/p/C8Hx3orJNxW/
+
+Noise power spectrum | Radiology Reference Article | Radiopaedia.org
+https://radiopaedia.org/articles/noise-power-spectrum
+
+shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://github.com/shivammehta25/Matcha-TTS?tab=readme-ov-file
+
+[2210.02747] Flow Matching for Generative Modeling
+https://arxiv.org/abs/2210.02747
+
+Neural Ordinary Differential Equations
+https://proceedings.neurips.cc/paper_files/paper/2018/file/69386f6bb1dfed68692a24c8686939b9-Paper.pdf
+
+rtqichen/torchdiffeq: Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation.
+https://github.com/rtqichen/torchdiffeq?tab=readme-ov-file
+
+[2009.09457] "Hey, that's not an ODE": Faster ODE Adjoints via Seminorms
+https://arxiv.org/abs/2009.09457
+
+Ordinary differential equation - Wikipedia
+https://en.wikipedia.org/wiki/Ordinary_differential_equation
+
+Human Motion Diffusion Model
+https://guytevet.github.io/mdm-page/
+
+motion-diffusion-model/model/smpl.py at main · GuyTevet/motion-diffusion-model
+https://github.com/GuyTevet/motion-diffusion-model/blob/main/model/smpl.py
+
+MotionCLIP/src/models/modeltype/motionclip.py at main · GuyTevet/MotionCLIP
+https://github.com/GuyTevet/MotionCLIP/blob/main/src/models/modeltype/motionclip.py
+
+ACTOR/src/generate/generate_sequences.py at master · Mathux/ACTOR
+https://github.com/Mathux/ACTOR/blob/master/src/generate/generate_sequences.py
+
+NTURGB-D/Python at master · shahroudy/NTURGB-D
+https://github.com/shahroudy/NTURGB-D/tree/master/Python
+
+openai/guided-diffusion
+https://github.com/openai/guided-diffusion
+
+wangsen1312/joints2smpl: fit smpl parameters model using 3D joints
+https://github.com/wangsen1312/joints2smpl
+
+U-M Weblogin
+https://weblogin.umich.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2
+
+A Gentle Introduction to Dance Diffusion | audio – Weights & Biases
+https://wandb.ai/wandb_gen/audio/reports/A-Gentle-Introduction-to-Dance-Diffusion--VmlldzoyNjg1Mzky
 
 
