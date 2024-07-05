@@ -77,3 +77,14 @@ categories: [links]
 [Learning with Holographic Reduced Representations](https://arxiv.org/abs/2109.02157),
 [code](https://github.com/FutureComputing4AI/Learning-with-Holographic-Reduced-Representations)
 
+{% twitter https://x.com/Ethan_smith_20/status/1801493585155526675 %}
+
+[spotify/basic-pitch](https://github.com/spotify/basic-pitch) --- A lightweight yet powerful audio-to-MIDI converter with pitch bend detection
+
+[Step-by-Step Diffusion: An Elementary Tutorial](https://arxiv.org/abs/2406.08929)
+
+[Fourier Diffusion Models: A Method to Control MTF and NPS in Score-Based Stochastic Image Generation](https://arxiv.org/abs/2303.13285)
+
+[Time Series Diffusion in the Frequency Domain](https://arxiv.org/abs/2402.05933),
+[code](https://github.com/JonathanCrabbe/FourierDiffusion)
+
