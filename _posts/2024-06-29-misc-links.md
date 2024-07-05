@@ -94,3 +94,21 @@ categories: [links]
 
 [Trajectories and revolutions in popular melody based on U.S. charts from 1950 to 2023](https://www.nature.com/articles/s41598-024-64571-x)
 
+[Speech Recognition and Multi-Speaker Diarization of Long Conversations](https://arxiv.org/abs/2005.08072),
+[data](https://www.kaggle.com/datasets/shuyangli94/this-american-life-podcast-transcriptsalignments)
+
+[Vision Language Models Explained](https://huggingface.co/blog/vlms)
+
+| Model                  | **Actually** open | LLM
+!------------------------|-------------------|----
+| LLaVA 1.6 (Hermes 34B) | ? ("The usage of LLaVA checkpoints should comply with the base LLM's model license.")[https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md] | 
+| deepseek-vl-7b-base    | ❌
+| DeepSeek-VL-Chat       | ❌
+| moondream2             | 
+| CogVLM-base            | (❌)[https://github.com/THUDM/CogVLM/raw/main/MODEL_LICENSE] |
+| CogVLM-Chat            | (❌)[https://github.com/THUDM/CogVLM/raw/main/MODEL_LICENSE] |
+| Fuyu-8B                | ❌
+| KOSMOS-2               | 
+| Qwen-VL                | 
+| Qwen-VL-Chat           | ❌
+| Yi-VL-34B              | 
