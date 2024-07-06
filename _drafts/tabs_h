@@ -169,12 +169,6 @@ https://deploymentpsych.org/content/cpt-session-notes
 CPT Session Notes Phase 6: Session 12 The Final Impact Statment | Center for Deployment Psychology
 https://deploymentpsych.org/content/cpt-session-notes-phase-6-session-12-final-impact-statment
 
-CPT Session Notes: Session 5 Using the Challenging Questions Worksheet | Center for Deployment Psychology
-https://deploymentpsych.org/cpt-session-notes-session-5
-
-CPT Session Notes Session 6: Patterns of Problematic Thinking | Center for Deployment Psychology
-https://deploymentpsych.org/content/cpt-session-notes-session-6-patterns-problematic-thinking
-
 Section II
 https://www.div12.org/wp-content/uploads/2015/07/CPT-Materials-Manual.pdf
 
@@ -253,14 +247,17 @@ https://github.com/huggingface/diffusers/blob/7833ed957bcb4bd8c9ed0a9a8a172513bf
 Paper page - Hierarchical Text-Conditional Image Generation with CLIP Latents
 https://huggingface.co/papers/2204.06125
 
-Models - Hugging Face
-https://huggingface.co/models?other=unclip
+UniDiffuser
+https://huggingface.co/docs/diffusers/en/api/pipelines/unidiffuser
 
-philippe-eecs/small-vision: A big_vision inspired repo that implements a generic Auto-Encoder class capable in representation learning and generative modeling.
-https://github.com/philippe-eecs/small-vision
+lucidrains/DALLE2-pytorch: Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network, in Pytorch
+https://github.com/lucidrains/DALLE2-pytorch?tab=readme-ov-file
 
-unCLIP
-https://huggingface.co/docs/diffusers/en/api/pipelines/unclip
+lucidrains/imagen-pytorch: Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
+https://github.com/lucidrains/imagen-pytorch
+
+v-diffusion-jax/diffusion/utils.py at master · crowsonkb/v-diffusion-jax
+https://github.com/crowsonkb/v-diffusion-jax/blob/master/diffusion/utils.py
 
 Step-by-Step Diffusion: An Elementary Tutorial
 https://arxiv.org/pdf/2406.08929
@@ -1742,15 +1739,81 @@ NTURGB-D/Python at master · shahroudy/NTURGB-D
 https://github.com/shahroudy/NTURGB-D/tree/master/Python
 
 openai/guided-diffusion
-https://github.com/openai/guided-diffusion
+https://github.com/openai/guided-diffusion?tab=readme-ov-file
 
-wangsen1312/joints2smpl: fit smpl parameters model using 3D joints
-https://github.com/wangsen1312/joints2smpl
+ga642381/speech-trident: Awesome speech/audio LLMs, representation learning, and codec models
+https://github.com/ga642381/speech-trident?tab=readme-ov-file
 
-U-M Weblogin
-https://weblogin.umich.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s2
+[2402.08846] An Embarrassingly Simple Approach for LLM with Strong ASR Capacity
+https://arxiv.org/abs/2402.08846
 
-A Gentle Introduction to Dance Diffusion | audio – Weights & Biases
-https://wandb.ai/wandb_gen/audio/reports/A-Gentle-Introduction-to-Dance-Diffusion--VmlldzoyNjg1Mzky
+[2404.00656] WavLLM: Towards Robust and Adaptive Speech Large Language Model
+https://arxiv.org/abs/2404.00656
+
+SpeechT5/WavLLM at main · microsoft/SpeechT5
+https://github.com/microsoft/SpeechT5/tree/main/WavLLM
+
+[2402.05755] SpiRit-LM: Interleaved Spoken and Written Language Model
+https://arxiv.org/abs/2402.05755
+
+[2402.01591] BAT: Learning to Reason about Spatial Sounds with Large Language Models
+https://arxiv.org/abs/2402.01591
+
+BAT
+https://zhishengzheng.com/BAT/
+
+audio-flamingo/foundation/configs/foundation_pretrain.yaml at main · NVIDIA/audio-flamingo
+https://github.com/NVIDIA/audio-flamingo/blob/main/foundation/configs/foundation_pretrain.yaml
+
+[2402.08093] BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data
+https://arxiv.org/abs/2402.08093
+
+Paper page - BASE TTS: Lessons from building a billion-parameter Text-to-Speech model on 100K hours of data
+https://huggingface.co/papers/2402.08093
+
+PeacefulData/UADFusionGER · Hugging Face
+https://huggingface.co/PeacefulData/UADFusionGER
+
+UADF/quantize/gptq.py at main · Hypotheses-Paradise/UADF
+https://github.com/Hypotheses-Paradise/UADF/blob/main/quantize/gptq.py
+
+IST-DASLab/gptq: Code for the ICLR 2023 paper "GPTQ: Accurate Post-training Quantization of Generative Pretrained Transformers".
+https://github.com/IST-DASLab/gptq/
+
+YUCHEN005/RobustGER: Code for paper "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition"
+https://github.com/YUCHEN005/RobustGER
+
+Kabin Crew | The Spark (feat. Lisdoonvarna Crew) on Instagram
+https://www.instagram.com/reels/audio/2031367140592992/
+
+Kabin Crew officially release viral hit 'The Spark' today | Hotpress
+https://www.hotpress.com/music/kabin-crew-officially-release-viral-hit-the-spark-today-23029913
+
+“The Spark” - Kabin Crew & Lisdoonvarna Crew - YouTube
+https://www.youtube.com/watch?v=njE3EknkkBY
+
+YouTube
+https://www.youtube.com/
+
+Interesting(/Biased?) Extracts from "Irish Dialects Past & Present";4th of"July an Chabáiste"Special - YouTube
+https://www.youtube.com/watch?v=9gzWFYRxV-w
+
+Irish People Try Classic Ice-Creams - YouTube
+https://www.youtube.com/watch?v=EVUV0UnPjtY
+
+Lucysea.Official (@lucysea.official) • Instagram photos and videos
+https://www.instagram.com/lucysea.official
+
+Screenshot_20240706-025636 | Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/53838583788/in/photostream/
+
+Hypnopompic Hallucinations
+https://www.sleepfoundation.org/how-sleep-works/hypnopompic-hallucinations
+
+What Is a False Awakening?
+https://www.sleepfoundation.org/dreams/false-awakening
+
+I Pranked America's Most Racist Man - YouTube
+https://www.youtube.com/watch?v=umNjlp2LObM
 
 
