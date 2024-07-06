@@ -116,4 +116,25 @@ categories: [links]
 
 [nmslib/nmslib](https://github.com/nmslib/nmslib) --- Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.
 
+[GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers](https://arxiv.org/abs/2210.17323),
+[code](https://github.com/IST-DASLab/gptq/)
+
+[Large Language Models are Efficient Learners of Noise-Robust Speech Recognition](https://openreview.net/pdf?id=ceATjGPTUD),
+[code](https://github.com/YUCHEN005/RobustGER)
+
+[It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition](https://openreview.net/pdf?id=QqjFHyQwtF),
+[code](https://github.com/Hypotheses-Paradise/UADF)
+
+[BAT: Learning to Reason about Spatial Sounds with Large Language Models](https://arxiv.org/abs/2402.01591)
+
+[SpiRit-LM: Interleaved Spoken and Written Language Model](https://arxiv.org/abs/2402.05755)
+
+[WavLLM: Towards Robust and Adaptive Speech Large Language Model](https://arxiv.org/abs/2404.00656),
+[code](https://github.com/microsoft/SpeechT5/tree/main/WavLLM)
+
+[An Embarrassingly Simple Approach for LLM with Strong ASR Capacity](https://arxiv.org/abs/2402.08846),
+[code](https://github.com/X-LANCE/SLAM-LLM)
+
+[Speech Trident - Awesome Speech LM](https://github.com/ga642381/speech-trident)
+
 
