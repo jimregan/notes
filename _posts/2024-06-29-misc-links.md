@@ -153,3 +153,10 @@ categories: [links]
 
 [Data curation via joint example selection further accelerates multimodal learning](https://arxiv.org/abs/2406.17711)
 
+[Depth Anything V2](https://arxiv.org/abs/2406.09414),
+[code](https://github.com/DepthAnything/Depth-Anything-V2),
+[demo](https://huggingface.co/spaces/depth-anything/Depth-Anything-V2),
+[coreml](https://huggingface.co/apple/coreml-depth-anything-v2-small),
+[model](https://huggingface.co/depth-anything/Depth-Anything-V2-Small)
+
+
