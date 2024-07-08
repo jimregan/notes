@@ -143,3 +143,13 @@ categories: [links]
 
 [Investigating the Effects of Large-Scale Pseudo-Stereo Data and Different Speech Foundation Model on Dialogue Generative Spoken Language Model](https://arxiv.org/abs/2407.01911)
 
+{% twitter https://x.com/tradingMaxiSL/status/1809857803177324992 %}
+
+[Memory3 : Language Modeling with Explicit Memory](https://arxiv.org/abs/2407.01178)
+
+{% twitter https://x.com/cooltechtipz/status/1809758725575737440 %}
+
+[Information Theory: A Tutorial Introduction](https://arxiv.org/abs/1802.05968)
+
+[Data curation via joint example selection further accelerates multimodal learning](https://arxiv.org/abs/2406.17711)
+
