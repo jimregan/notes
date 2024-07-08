@@ -137,4 +137,9 @@ categories: [links]
 
 [Speech Trident - Awesome Speech LM](https://github.com/ga642381/speech-trident)
 
+[SimpleSpeech: Towards Simple and Efficient Text-to-Speech with Scalar Latent Transformer Diffusion Models](https://arxiv.org/abs/2406.02328)
+
+{% twitter https://x.com/_philschmid/status/1798388387822317933 %}
+
+[Investigating the Effects of Large-Scale Pseudo-Stereo Data and Different Speech Foundation Model on Dialogue Generative Spoken Language Model](https://arxiv.org/abs/2407.01911)
 
