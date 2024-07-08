@@ -121,16 +121,7 @@ https://github.com/google-research/perceiver-ar/blob/main/README.md
 perceiver-ar/perceiver_ar/perceiver_ar_model.py at main · google-research/perceiver-ar
 https://github.com/google-research/perceiver-ar/blob/main/perceiver_ar/perceiver_ar_model.py
 
-flaxformer/flaxformer/architectures/moe/moe_architecture.py at main · google/flaxformer
-https://github.com/google/flaxformer/blob/main/flaxformer/architectures/moe/moe_architecture.py
-
-SimpleSpeech: Towards Simple and Efficient Text-to-Speech with Scalar Latent Transformer Diffusion Models
-https://arxiv.org/pdf/2406.02328
-
-(2) Philipp Schmid on X: "Creating a Pipeline for Generating Synthetic Data for Fine-Tuning Custom Embedding Models. 👀 Step 1 Create a Knowledge Base: Start with preparing your domain specific knowledge base, such as PDFs or other documents containing information. Convert the content of these documents… https://t.co/0mYDJKMylY" / X
-https://x.com/_philschmid/status/1798388387822317933
-
-Tanishq Mathew Abraham, Ph.D. on X: "Guiding a Diffusion Model with a Bad Version of Itself abs: https://t.co/m8iLx8rvb1 New Karras et al. paper! Another banger! This paper studies classifier-free guidance and why it works. The authors demonstrate that score matching leads to outliers (over-emphasizing low https://t.co/S6jme1e46M" / X
+(1) Tanishq Mathew Abraham, Ph.D. on X: "Guiding a Diffusion Model with a Bad Version of Itself abs: https://t.co/m8iLx8rvb1 New Karras et al. paper! Another banger! This paper studies classifier-free guidance and why it works. The authors demonstrate that score matching leads to outliers (over-emphasizing low https://t.co/S6jme1e46M" / X
 https://x.com/iScienceLuvr/status/1798177427493101899
 
 Fear, Anxiety, and Guilt After A Traumatic Event | Center for Innovative Teaching and Learning | Northern Illinois University
@@ -241,9 +232,6 @@ https://huggingface.co/papers/2204.06125
 UniDiffuser
 https://huggingface.co/docs/diffusers/en/api/pipelines/unidiffuser
 
-lucidrains/DALLE2-pytorch: Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network, in Pytorch
-https://github.com/lucidrains/DALLE2-pytorch?tab=readme-ov-file
-
 lucidrains/imagen-pytorch: Implementation of Imagen, Google's Text-to-Image Neural Network, in Pytorch
 https://github.com/lucidrains/imagen-pytorch
 
@@ -255,9 +243,6 @@ https://arxiv.org/pdf/2406.08929
 
 (1) Hamel Husain on X: "This talk by @bclavie is the highest value per second talk I have ever watched on RAG Chapter summaries and additional links in next tweet https://t.co/5uzmSbU6pa" / X
 https://x.com/HamelHusain/status/1802106197782438019
-
-(1) Hamel Husain on X: "More information (slides, YT link, etc) see this link: https://t.co/5iWWNQYR7t https://t.co/UXYk05E2IN" / X
-https://x.com/HamelHusain/status/1802106200793981135
 
 Beyond the Basics of RAG – Parlance
 https://parlance-labs.com/education/rag/ben.html
@@ -1693,13 +1678,64 @@ https://github.com/s3prl/s3prl/pull/517/files#diff-b9d553dce0a0be4ef949272f048c1
 fairseq/examples/mr_hubert at main · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/tree/main/examples/mr_hubert
 
-Nine Section Chain Whip- The Basics - Tutorial - YouTube
-https://www.youtube.com/watch?v=AeYMtEAab6c
+Investigating the Effects of Large-Scale Pseudo-Stereo Data and Different Speech Foundation Model on Dialogue Generative Spoken Language Model
+https://arxiv.org/pdf/2407.01911
 
-Microsoft's forgotten UNIX operating system - Whatever happened to Xenix? - YouTube
-https://www.youtube.com/watch?v=YUxaLP6bI00
+YuKuanFu/Podcast_Dialogue · Datasets at Hugging Face
+https://huggingface.co/datasets/YuKuanFu/Podcast_Dialogue
 
-Liven
-https://quiz.theliven.com/en/6581_m8gph/quiz?utm_source=google&utm_medium=display&utm_campaign=21449876392&utm_device=c&placement=&utm_creative=704992883032&campaign_name=0112_DemandGen_woTarg_w2w_Purch-GTM_Top61_TopCreo_pr_HI_0707_11h&adset_name=MC_woTarg_Top28_allG_25-65+_allL_TopCreo_pr_Top-3_2906&matchtype=&keyword=&utm_adset=167362036267&utm_ad=704992883032&ad_name=&gclid=Cj0KCQjw-ai0BhDPARIsAB6hmP4YnXoYxg0dn7ENaVXVn6Mf6scwE6X7PbDf6VUzzHMyQrua0GaC1S0aAm9qEALw_wcB&user_id=4378-1720386901052&gender=Female;female
+(1) Home / X
+https://x.com/home
+
+(1) Historic Vids on X: "Never forget when Ryan Gosling &amp; Rachel McAdams won 'best kiss' in 2004 for their scene in 'The Notebook' and did this when they accepted their award. https://t.co/FMfY3n3LLC" / X
+https://x.com/historyinmemes/status/1810072047596548394
+
+[1802.05968] Information Theory: A Tutorial Introduction
+https://arxiv.org/abs/1802.05968
+
+(1) Elliot Murphy on X: "Mel Andrews (@bayesianboy): “The general rule is that people in machine learning do not read”. 🔥 https://t.co/k4kvz7cEYC" / X
+https://x.com/ElliotMurphy91/status/1810026067207299580
+
+(1) Rowan Cheung on X: "🚨 Chinese AI company SenseTime just revealed SenseNova 5.5, an AI model that claims to beat GPT-4o across key metrics Plus, big developments from Apple, YouTube, KLING, Neuralink, and Google DeepMind. Here's everything going on in AI right now:" / X
+https://x.com/rowancheung/status/1810183283986067922
+
+(1) Neal Mohan on X: "Good news creators: our updated Erase Song tool helps you easily remove copyright-claimed music from your video (while leaving the rest of your audio intact). Learn more… https://t.co/KeWIw3RFeH" / X
+https://x.com/nealmohan/status/1808587459132825844
+
+x.com/rohanpaul_ai/status/1809782336021537094
+https://x.com/rohanpaul_ai/status/1809782336021537094
+
+2407.01178
+https://arxiv.org/pdf/2407.01178
+
+(1) Teslaconomics on X: "People laugh at me, till they find out what my Cybertruck can really do https://t.co/uL6IhuJ1ya" / X
+https://x.com/Teslaconomics/status/1809477589800751128
+
+(1) Learn Something on X: "These ties should be noted somewhere for everyone's benefit ✌️ https://t.co/jh5G9QoKoG" / X
+https://x.com/cooltechtipz/status/1809758725575737440
+
+(1) Yann LeCun on X: "MobileLLM: nice paper from @AIatMeta about running sub-billion LLMs on smartphones and other edge devices. TL;DR: more depth, not width; shared matrices for token-&gt;embedding and embedding-&gt;token; shared weights between multiple transformer blocks; Paper: https://t.co/TDWQWdZeIy https://t.co/3IBklvTiBI" / X
+https://x.com/ylecun/status/1810035281472491665
+
+[2402.14905] MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases
+https://arxiv.org/abs/2402.14905
+
+(1) Figen on X: "How dare you! 😂😂 https://t.co/0IaSWUJXD6" / X
+https://x.com/TheFigen_/status/1810030529464476003
+
+(1) Ah Ref! on X: "https://t.co/uvksGtWu69" / X
+https://x.com/RefComeOn/status/1810024526673068115
+
+(1) James Lucas on X: "The beauty of wildlife - a thread 🧵 1. Dick Van Duijn captured the exact moment a squirrel stopped to smell a flower https://t.co/RqoMBYV8wD" / X
+https://x.com/JamesLucasIT/status/1810013291151757738/photo/1
+
+(1) Min Choi on X: "Claude 3.5 Sonnet changed the AI game. People are coming up with wild use cases without GPT-4o. Major shift. 10 examples: https://t.co/jRLfLCReEG" / X
+https://x.com/minchoi/status/1809965932317475177
+
+(1) Muppet History on X: "When Gene Kelly agreed to do The Muppet Show he had one stipulation: He wouldn’t perform “Singin’ in the Rain” And the Muppets took that as a challenge 😂 https://t.co/88TJ4GV7GB" / X
+https://x.com/HistoryMuppet/status/1809678589308072183
+
+Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
 
 
