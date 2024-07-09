@@ -165,3 +165,11 @@ categories: [links]
 
 {% twitter https://x.com/Rainmaker1973/status/1810531826752168071 %}
 
+[HazyResearch/flash-fft-conv](https://github.com/HazyResearch/flash-fft-conv) --- FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores
+
+[Less is More: Accurate Speech Recognition & Translation without Web-Scale Data](https://arxiv.org/abs/2406.19674),
+code in NeMo, model closed but available.
+
+
+
+
