@@ -13,9 +13,6 @@ https://github.com/KnugiHK/WhatsApp-Chat-Exporter?tab=readme-ov-file
 EliteAndroidApps/WhatsApp-Key-DB-Extractor: Allows WhatsApp users to extract their cipher key and databases on non-rooted Android devices.
 https://github.com/EliteAndroidApps/WhatsApp-Key-DB-Extractor
 
-facebook/w2v-bert-2.0 · Hugging Face
-https://huggingface.co/facebook/w2v-bert-2.0
-
 Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers
 https://huggingface.co/blog/fine-tune-w2v2-bert
 
@@ -27,9 +24,6 @@ file:///Users/joregan/Downloads/The-Art-of-Linear-Algebra.pdf
 
 PHEME: Efficient and Conversational Speech Generation. | pheme
 https://polyai-ldn.github.io/pheme/
-
-lucidrains (lucidrains) / Repositories
-https://github.com/lucidrains?tab=repositories
 
 lucidrains/classifier-free-guidance-pytorch: Implementation of Classifier Free Guidance in Pytorch, with emphasis on text conditioning, and flexibility to include multiple text embedding models
 https://github.com/lucidrains/classifier-free-guidance-pytorch
@@ -289,23 +283,11 @@ https://github.com/bclavie/ragatouille
 Beyond the Basics of Retrieval for Augmenting Generation (w/ Ben Clavié) - YouTube
 https://www.youtube.com/watch?v=0nA5QG3087g&t=1574s
 
-2406.07887
-https://arxiv.org/pdf/2406.07887#page=1&zoom=100,0,0
-
 NVIDIA/Megatron-LM: Ongoing research training transformer models at scale
 https://github.com/NVIDIA/Megatron-LM?tab=readme-ov-file
 
-NVIDIA Corporation
-https://github.com/NVIDIA
-
-NVIDIA/open-gpu-kernel-modules: NVIDIA Linux open GPU kernel module source
-https://github.com/NVIDIA/open-gpu-kernel-modules
-
 NVIDIA/TransformerEngine: A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit floating point (FP8) precision on Hopper and Ada GPUs, to provide better performance with lower memory utilization in both training and inference.
 https://github.com/NVIDIA/TransformerEngine
-
-NVIDIA/NeMo: A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)
-https://github.com/NVIDIA/NeMo?tab=readme-ov-file
 
 Pushing the Boundaries of Speech Recognition with NVIDIA NeMo Parakeet ASR Models | NVIDIA Technical Blog
 https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/
@@ -315,9 +297,6 @@ https://huggingface.co/spaces/hf-audio/open_asr_leaderboard
 
 nvidia/parakeet-tdt-1.1b · Hugging Face
 https://huggingface.co/nvidia/parakeet-tdt-1.1b
-
-New Standard for Speech Recognition and Translation from the NVIDIA NeMo Canary Model | NVIDIA Technical Blog
-https://developer.nvidia.com/blog/new-standard-for-speech-recognition-and-translation-from-the-nvidia-nemo-canary-model/
 
 2023.calcs-1.7.pdf
 https://aclanthology.org/2023.calcs-1.7.pdf
@@ -1432,15 +1411,6 @@ https://github.com/microsoft/unilm/tree/master/beats
 [2308.11683] Learning to generate and corr- uh I mean repair language in real-time
 https://arxiv.org/abs/2308.11683
 
-(1) Home / X
-https://x.com/PiotrZelasko/status/1808115109841256728/photo/1
-
-Less is More: Accurate Speech Recognition & Translation without Web-Scale Data
-https://arxiv.org/pdf/2406.19674
-
-[2406.19674] Less is More: Accurate Speech Recognition & Translation without Web-Scale Data
-https://arxiv.org/abs/2406.19674
-
 example_notebooks/RT_DETR_Notebook.ipynb at main · merveenoyan/example_notebooks
 https://github.com/merveenoyan/example_notebooks/blob/main/RT_DETR_Notebook.ipynb
 
@@ -1456,14 +1426,8 @@ https://github.com/NVIDIA/NeMo/blob/2bb5e4700dc8020534f62ec0959e384ba7ce5c9c/tut
 Adding support for mcore T5 PEFT by huvunvidia · Pull Request #9584 · NVIDIA/NeMo
 https://github.com/NVIDIA/NeMo/pull/9584
 
-ChatGPT
-https://chatgpt.com/c/c04cee8a-56e6-4d1d-9e64-767a5bee0424
-
 Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models
 https://huggingface.co/blog/finetune-florence2
-
-Hugging Face – Blog
-https://huggingface.co/blog?p=4
 
 Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints
 https://huggingface.co/blog/asr-diarization
