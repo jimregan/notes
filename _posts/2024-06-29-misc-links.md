@@ -159,4 +159,9 @@ categories: [links]
 [coreml](https://huggingface.co/apple/coreml-depth-anything-v2-small),
 [model](https://huggingface.co/depth-anything/Depth-Anything-V2-Small)
 
+[Alice’s Adventures in a differentiable wonderland](https://www.sscardapane.it/alice-book)
+
+[supabase/supabase](https://github.com/supabase/supabase) --- The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+
+{% twitter https://x.com/Rainmaker1973/status/1810531826752168071 %}
 
