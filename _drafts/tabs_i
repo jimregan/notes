@@ -85,8 +85,8 @@ https://numpy.org/doc/stable/user/basics.broadcasting.html
 Einops
 https://einops.rocks/
 
-Andrej Karpathy on X: "Writing better code with PyTorch and einops https://t.co/GTIWdttOhu 👌" / X
-https://x.com/karpathy/status/1290826075916779520
+pdf
+https://openreview.net/pdf?id=oapKSVM2bcj
 
 Writing better code with pytorch+einops
 https://einops.rocks/pytorch-examples.html
@@ -103,8 +103,8 @@ https://rockt.github.io/2018/04/30/einsum
 Tensor Comprehensions in PyTorch | PyTorch
 https://pytorch.org/blog/tensor-comprehensions/
 
-Positioning of TC in ML Software stacks — Tensor Comprehensions v0.1.1 documentation
-https://facebookresearch.github.io/TensorComprehensions/ml_with_tc.html
+What is Tensor Comprehensions? — Tensor Comprehensions v0.1.1 documentation
+https://facebookresearch.github.io/TensorComprehensions/introduction.html
 
 TensorComprehensions/tc/core/cuda/cuda_libraries.h at master · facebookresearch/TensorComprehensions · GitHub
 https://github.com/facebookresearch/TensorComprehensions/blob/master/tc/core/cuda/cuda_libraries.h#L67
@@ -115,31 +115,46 @@ https://theaisummer.com/einsum-attention/
 einops/docs/2-einops-for-deep-learning.ipynb at master · arogozhnikov/einops · GitHub
 https://github.com/arogozhnikov/einops/blob/master/docs/2-einops-for-deep-learning.ipynb
 
-Writing better code with pytorch+einops
-https://einops.rocks/pytorch-examples.html
+tensor comprehension pytorch - Google Search
+https://www.google.com/search?q=tensor+comprehension+pytorch&sca_esv=2f3821052c9136cf&sca_upv=1&rlz=1C5GCEM_enSE990SE991&biw=1440&bih=721&sxsrf=ADLYWIIIY4CFWtcoSfPqkmpdPvDIqql8rg%3A1720537602473&ei=AlKNZpu9HICTwPAP2dS_KA&oq=tensor+comprehensions+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFnRlbnNvciBjb21wcmVoZW5zaW9ucyAqAggBMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIESMIRUCFYIXABeAGQAQCYAXSgAXSqAQMwLjG4AQPIAQD4AQGYAgKgAn3CAgoQABiwAxjWBBhHmAMAiAYBkAYFkgcDMS4xoAfrBg&sclient=gws-wiz-serp
 
-New Tab
-chrome://newtab/
+GitHub - facebookresearch/TensorComprehensions: A domain specific language to express machine learning workloads.
+https://github.com/facebookresearch/TensorComprehensions
 
-GitHub - halide/Halide: a language for fast, portable data-parallel computation
-https://github.com/halide/Halide
+What are tensor comprehensions? - Quora
+https://www.quora.com/What-are-tensor-comprehensions
 
-Halide
-https://halide-lang.org/
+[R] Tensor Comprehensions in PyTorch : r/MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/829jpa/r_tensor_comprehensions_in_pytorch/?rdt=48037
 
-GitHub - halide/Halide: a language for fast, portable data-parallel computation
-https://github.com/halide/Halide?tab=License-1-ov-file#readme
+Have you used Tensor Comprehensions in any interesting way? - PyTorch Forums
+https://discuss.pytorch.org/t/have-you-used-tensor-comprehensions-in-any-interesting-way/64931
 
-Halide/README_python.md at main · halide/Halide · GitHub
-https://github.com/halide/Halide/blob/main/README_python.md
+python generate cuda - Google Search
+https://www.google.com/search?q=python+generate+cuda&sca_esv=2f3821052c9136cf&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIJNeds6QEUSugAXz_FPRTJJBjW3IQ:1720537711868&ei=b1KNZv_PNJqC1fIPmsqW4A0&start=20&sa=N&sstk=AagrsuhvvDw0y-ouSvrCm2yY24NlpqB_6dcjK2H8V-pDiOS9FHjmqTnM8SBdB_PbhVnsk8oC7mMW1olVneSv6V66MujT0Wi6e4dVD9jDnXm79tjZWwxek-pHnK-h2CBUah1j&ved=2ahUKEwi_w425npqHAxUaQVUIHRqlBdw4ChDw0wN6BAgCEBc&biw=1440&bih=721&dpr=2
 
-Getting started with Funcs, Vars, and Exprs
-https://halide-lang.org/tutorials/tutorial_lesson_01_basics.html
+Writing CUDA-Python — numba 0.13.0 documentation
+https://numba.pydata.org/numba-doc/0.13/CUDAJit.html
 
-Untitled
-https://stellar.mit.edu/S/course/6/sp15/6.815/courseMaterial/topics/topic2/lectureNotes/14_Halide_print/14_Halide_print.pdf
+1-Introduction to CUDA Python with Numba🔥
+https://www.kaggle.com/code/harshwalia/1-introduction-to-cuda-python-with-numba
 
-Hello, Halide! — Learning Halide by Examples documentation
-https://people.csail.mit.edu/tzumao/tmp/learning_halide/hello_halide.html
+Introduction to Numba: CUDA Programming
+https://nyu-cds.github.io/python-numba/05-cuda/
+
+2- Custom CUDA Kernels in Python with Numba🔥
+https://www.kaggle.com/code/harshwalia/2-custom-cuda-kernels-in-python-with-numba
+
+CuPy: NumPy & SciPy for GPU
+https://cupy.dev/
+
+User-Defined Kernels — CuPy 13.2.0 documentation
+https://docs.cupy.dev/en/stable/user_guide/kernel.html
+
+CUDA kernels in python
+https://thedatafrog.com/en/articles/cuda-kernel-python/
+
+Going Further with CUDA for Python Programmers - YouTube
+https://www.youtube.com/watch?v=eUuGdh3nBGo
 
 
