@@ -170,6 +170,11 @@ categories: [links]
 [Less is More: Accurate Speech Recognition & Translation without Web-Scale Data](https://arxiv.org/abs/2406.19674),
 code in NeMo, model closed but available.
 
+[23606 Workshop on Human Motion Generation](https://www.youtube.com/watch?v=lkQ4sDK4u9U),
+key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 
+[microsoft/graphrag](https://github.com/microsoft/graphrag)
+
+[leaningtech/webvm](https://github.com/leaningtech/webvm) --- Virtual Machine for the Web
 
 
