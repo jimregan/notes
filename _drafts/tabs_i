@@ -43,8 +43,11 @@ https://huggingface.co/spaces/hpcai-tech/open-sora/blob/main/app.py
 Open-Sora: Revealing Complete Model Parameters, Training Details, and Everything for Sora-like Video Generation Models
 https://hpc-ai.com/blog/open-sora-v1.0
 
-Xiaolong Wang on X: "Cannot believe this finally happened! Over the last 1.5 years, we have been developing a new LLM architecture, with linear complexity and expressive hidden states, for long-context modeling. The following plots show our model trained from Books scale better (from 125M to 1.3B) https://t.co/Ku0oi8vqvX" / X
+(1) Xiaolong Wang on X: "Cannot believe this finally happened! Over the last 1.5 years, we have been developing a new LLM architecture, with linear complexity and expressive hidden states, for long-context modeling. The following plots show our model trained from Books scale better (from 125M to 1.3B) https://t.co/Ku0oi8vqvX" / X
 https://x.com/xiaolonw/status/1810387662060269668
+
+2407.04620
+https://arxiv.org/pdf/2407.04620
 
 Alice_book_volume_1.pdf
 https://www.sscardapane.it/assets/alice/Alice_book_volume_1.pdf
@@ -139,9 +142,6 @@ https://einops.rocks/
 pdf
 https://openreview.net/pdf?id=oapKSVM2bcj
 
-Writing better code with pytorch+einops
-https://einops.rocks/pytorch-examples.html
-
 einops/docs/1-einops-basics.ipynb at master · arogozhnikov/einops · GitHub
 https://github.com/arogozhnikov/einops/blob/master/docs/1-einops-basics.ipynb
 
@@ -187,18 +187,6 @@ https://www.google.com/search?q=python+generate+cuda&sca_esv=2f3821052c9136cf&sc
 Numba Module Reference — numba 0.13.0 documentation
 https://numba.pydata.org/numba-doc/0.13/modules/modules.html
 
-1-Introduction to CUDA Python with Numba🔥
-https://www.kaggle.com/code/harshwalia/1-introduction-to-cuda-python-with-numba
-
-Introduction to Numba: CUDA Programming
-https://nyu-cds.github.io/python-numba/05-cuda/
-
-triton pytorch fft - Google Search
-https://www.google.com/search?q=triton+pytorch+fft&rlz=1C5GCEM_enSE990SE991&oq=triton+pytorch+fft&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCDQ0NzBqMWo5qAIAsAIB&sourceid=chrome&ie=UTF-8
-
-Introduction to torch.compile — PyTorch Tutorials 2.3.0+cu121 documentation
-https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html
-
 GitHub - HazyResearch/flash-fft-conv: FlashFFTConv: Efficient Convolutions for Long Sequences with Tensor Cores
 https://github.com/HazyResearch/flash-fft-conv
 
@@ -235,26 +223,8 @@ https://x.com/ProfTomYeh/status/1811738267622223953
 I Tried Ancient Chinese Combat Technique - YouTube
 https://www.youtube.com/watch?v=-wZHi5hs-kY
 
-YouTube
-https://www.youtube.com/
-
-YouTube
-https://www.youtube.com/
-
-YouTube
-https://www.youtube.com/
-
 Penn Jillette (Penn & Teller) Reviews Magic Tricks from Movies & TV | Vanity Fair - YouTube
 https://www.youtube.com/watch?v=S3vTld5pNlI
-
-Instagram
-https://www.instagram.com/
-
-Instagram
-https://www.instagram.com/
-
-YouTube
-https://www.youtube.com/
 
 Instagram
 https://www.instagram.com/
@@ -265,7 +235,43 @@ chrome://downloads/
 (1) Home / X
 https://x.com/home
 
-(1) Bob Cesca on X: "1) Thread. 🧵 If you're planning your next op/ed and you intend to scold both sides for violent rhetoric, think again and watch the following seven videos. Republicans have been producing violent ads targeting both legislation and actual Democrats for years. Let's review. https://t.co/bTBMRhj31e" / X
-https://x.com/bobcesca_go/status/1812595780173099195
+ttt-lm-pytorch/ttt.py at main · test-time-training/ttt-lm-pytorch · GitHub
+https://github.com/test-time-training/ttt-lm-pytorch/blob/main/ttt.py
+
+ttt-lm-kernels/ttt/modeling_ttt.py at main · test-time-training/ttt-lm-kernels · GitHub
+https://github.com/test-time-training/ttt-lm-kernels/blob/main/ttt/modeling_ttt.py
+
+GitHub - test-time-training/ttt-lm-jax: Official JAX implementation of Learning to (Learn at Test Time): RNNs with Expressive Hidden States
+https://github.com/test-time-training/ttt-lm-jax
+
+Kanaler | Sveriges Radio
+https://sverigesradio.se/kanaler
+
+23 Synonyms & Antonyms for FRAME OF MIND | Thesaurus.com
+https://www.thesaurus.com/browse/frame-of-mind
+
+P2 Language and Music | Swedens radio
+https://sverigesradio.se/tabla.aspx?programid=163&date=2024-07-16
+
+python - How to schedule a task in asyncio so it runs at a certain date? - Stack Overflow
+https://stackoverflow.com/questions/51292027/how-to-schedule-a-task-in-asyncio-so-it-runs-at-a-certain-date
+
+Dance of the Dragons - A Wiki of Ice and Fire
+https://awoiaf.westeros.org/index.php/Dance_of_the_Dragons
+
+Viserys I Targaryen - A Wiki of Ice and Fire
+https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen
+
+Alyssa Targaryen - A Wiki of Ice and Fire
+https://awoiaf.westeros.org/index.php/Alyssa_Targaryen
+
+Emeline Lambert - IMDb
+https://www.imdb.com/name/nm10039766/
+
+Emeline Lambert | Wiki of Westeros | Fandom
+https://gameofthrones.fandom.com/wiki/Emeline_Lambert
+
+emeline lambert actress - Google Search
+https://www.google.com/search?sca_esv=183dc6637f0766c0&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWILQi9avHGkjYtkuO3VQk5adQ2_NUg:1721065261674&q=emeline+lambert+actress&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdNV1kobqvEwEVRYBCltlBtQd5-pPeakpVgpgEn2RgmgzeZo15rltNMrDtoZe63sl46hHJXZmfPBeZdqdwrtlSxkvce3I&sa=X&ved=2ahUKEwiSubrcy6mHAxWaFBAIHSPcArI4ChC0qAt6BAgQEAE&biw=1440&bih=721&dpr=2
 
 
