@@ -177,4 +177,7 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 
 [leaningtech/webvm](https://github.com/leaningtech/webvm) --- Virtual Machine for the Web
 
+{% twitter https://x.com/xiaolonw/status/1810387662060269668 %}
+
+[Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/abs/2407.04620)
 
