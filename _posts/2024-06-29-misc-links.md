@@ -227,3 +227,34 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 [Block Transformer: Global-to-Local Language Modeling for Fast Inference](https://arxiv.org/abs/2406.02657),
 [code](https://github.com/itsnamgyu/block-transformer)
 
+[AND: Audio Network Dissection for Interpreting Deep Acoustic Models](https://arxiv.org/abs/2406.16990)
+<!-- [code](https://github.com/Trustworthy-ML-Lab/Audio_Network_Dissection) -->
+
+[Sound Field Synthesis with Acoustic Waves](https://arxiv.org/abs/2406.17111)
+
+[SpecMaskGIT: Masked Generative Modeling of Audio Spectrograms for Efficient Audio Synthesis and Beyond](https://arxiv.org/abs/2406.17672)
+
+[Mapping the Past: Geographically Linking an Early 20th Century Swedish Encyclopedia with Wikidata](https://arxiv.org/abs/2406.17903)
+
+[A multi-speaker multi-lingual voice cloning system based on vits2 for limmits 2024 challenge](https://arxiv.org/abs/2406.17801)
+
+[Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs](https://arxiv.org/abs/2406.16860),
+[code](https://github.com/cambrian-mllm/cambrian),
+[model](https://huggingface.co/nyu-visionx/cambrian-34b)
+
+AI by Hand:
+
+{% twitter https://x.com/ProfTomYeh/status/1793623127643037891 %)
+
+{% twitter https://x.com/ProfTomYeh/status/1794070094898704456 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1794451228681712037 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1794848226383655284 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1795221120351715450 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1795076707386360227 %}
+
+{% twitter https://x.com/ProfTomYeh/status/1794144904395837638 %}
+
