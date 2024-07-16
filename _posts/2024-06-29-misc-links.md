@@ -314,4 +314,13 @@ AI by Hand:
 
 [Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719)
 
+[The Raven: Hungarian](The Raven; with literary and historical commentary/Hungarian)
+
+[IN LOVE WITH THE CZARINA](https://en.wikisource.org/wiki/Stories_by_Foreign_Authors_\(Polish-Greek-Belgian-Hungarian\)/In_Love_with_the_Czarina)
+
+[Simplified Grammar of the Hungarian Language](https://en.wikisource.org/wiki/Simplified_Grammar_of_the_Hungarian_Language)
+
+[In Love With the Czarina, and Other Stories](https://www.gutenberg.org/cache/epub/34574/pg34574-images.html),
+[A VAKMERŐ](https://mek.oszk.hu/16400/16475/16475.htm)
+
 
