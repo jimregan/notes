@@ -258,3 +258,8 @@ AI by Hand:
 
 {% twitter https://x.com/ProfTomYeh/status/1794144904395837638 %}
 
+[SoundCTM: Uniting Score-based and Consistency Models for Text-to-Sound Generation](https://arxiv.org/abs/2405.18503),
+[code](https://github.com/sony/soundctm),
+[model](https://huggingface.co/Sony/soundctm)
+
+
