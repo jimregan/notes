@@ -181,3 +181,19 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 
 [Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/abs/2407.04620)
 
+{% twitter https://x.com/omarsar0/status/1812247121560502426 %}
+
+[Audio Spotforming Using Nonnegative Tensor Factorization with Attractor-Based Regularization](https://arxiv.org/abs/2407.08951)
+
+[Beyond Euclid: An Illustrated Guide to Modern Machine Learning with Geometric, Topological, and Algebraic Structures](https://www.arxiv.org/abs/2407.09468)
+
+[Understanding Transformers via N-Gram Statistics](https://www.researchgate.net/publication/382204056_Understanding_Transformers_via_N-Gram_Statistics)
+
+[facebookincubator/submitit](https://github.com/facebookincubator/submitit) --- Python 3.8+ toolbox for submitting jobs to Slurm
+
+[Video Diffusion Alignment via Reward Gradients](https://arxiv.org/abs/2407.08737),
+[model](https://huggingface.co/zheyangqin/VADER)
+<!-- [code](https://github.com/mihirp1998/VADER) -->
+
+[Deep Dive into LSTMs and xLSTMs by Hand](https://towardsdatascience.com/deep-dive-into-lstms-xlstms-by-hand-%EF%B8%8F-c33e638bebb1)
+
