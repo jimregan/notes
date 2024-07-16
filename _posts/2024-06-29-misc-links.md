@@ -258,8 +258,60 @@ AI by Hand:
 
 {% twitter https://x.com/ProfTomYeh/status/1794144904395837638 %}
 
+{% twitter https://x.com/ProfTomYeh/status/1810849417576186076 %}
+
 [SoundCTM: Uniting Score-based and Consistency Models for Text-to-Sound Generation](https://arxiv.org/abs/2405.18503),
 [code](https://github.com/sony/soundctm),
 [model](https://huggingface.co/Sony/soundctm)
+
+[Zielon/PBRVulkan](https://github.com/Zielon/PBRVulkan) --- Vulkan Real-time Path Tracer Engine
+
+[UCxn: Typologically Informed Annotation of Constructions Atop Universal Dependencies](https://aclanthology.org/2024.lrec-main.1471/)
+
+[Generative AI Handbook: A Roadmap for Learning Resources](https://genai-handbook.github.io/)
+
+[Crossmodal ASR Error Correction with Discrete Speech Units](https://arxiv.org/abs/2405.16677)
+<!-- [code](https://github.com/yc-li20/Crossmodal_AEC) -->
+
+[CMU-MOSI Dataset](http://multicomp.cs.cmu.edu/resources/cmu-mosi-dataset/) --- The Multimodal Corpus of Sentiment Intensity (CMU-MOSI) dataset is a collection of 2199 opinion video clips.
+
+[The essence of calculus](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+
+[Imitation and Mechanisms of Joint Attention: A Developmental Structure for Building Social Skills on a Humanoid Robot](https://link.springer.com/chapter/10.1007/3-540-48834-0_11)
+
+[Polish Public Domain Works](https://archive.org/details/polishpublicdomain)
+
+[USER-LLM: Efficient LLM contextualization with user embeddings](https://research.google/blog/user-llm-efficient-llm-contextualization-with-user-embeddings/),
+[arXiv](https://arxiv.org/abs/2402.13598)
+
+[Perceiver: General Perception with Iterative Attention](https://arxiv.org/abs/2103.03206)
+
+[Reverse the auditory processing pathway: Coarse-to-fine audio reconstruction from fMRI](https://arxiv.org/abs/2405.18726)
+
+[Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis](https://arxiv.org/abs/2306.00814),
+[code](https://github.com/gemelo-ai/vocos),
+[vocos-mel-24khz](https://huggingface.co/charactr/vocos-mel-24khz),
+[vocos-encodec-24khz](https://huggingface.co/charactr/vocos-encodec-24khz)
+
+[Improving Speech Decoding from ECoG with Self-Supervised Pretraining](https://arxiv.org/abs/2405.18639)
+
+[BLSP-KD: Bootstrapping Language-Speech Pre-training via Knowledge Distillation](https://arxiv.org/abs/2405.19041)
+
+[TF-SepNet: An Efficient 1D Kernel Design in CNNs for Low-Complexity Acoustic Scene Classification](https://arxiv.org/abs/2309.08200)
+
+[Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion](https://arxiv.org/abs/2402.10009),
+[code](https://github.com/HilaManor/AudioEditingCode/)
+
+[Adapting Frechet Audio Distance for Generative Music Evaluation](https://ieeexplore.ieee.org/document/10446663),
+[arXiv](https://arxiv.org/abs/2311.01616),
+[code](https://github.com/microsoft/fadtk)
+
+[TRAMBA: A Hybrid Transformer and Mamba Architecture for Practical Audio and Bone Conduction Speech Super Resolution and Enhancement on Mobile and Wearable Platforms](https://arxiv.org/abs/2405.01242)
+
+[CoVoMix: Advancing Zero-Shot Speech Generation for Human-like Multi-talker Conversations](https://arxiv.org/abs/2404.06690)
+
+[Spiketrum: An FPGA-based Implementation of a Neuromorphic Cochlea](https://arxiv.org/abs/2405.15923)
+
+[Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719)
 
 
