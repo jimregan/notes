@@ -221,3 +221,9 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 [ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data](https://arxiv.org/abs/2406.19464),
 [code](https://github.com/real-stanford/maniwav)
 
+[ColPali: Efficient Document Retrieval with Vision Language Models](https://arxiv.org/abs/2407.01449),
+[code](https://github.com/illuin-tech/colpali)
+
+[Block Transformer: Global-to-Local Language Modeling for Fast Inference](https://arxiv.org/abs/2406.02657),
+[code](https://github.com/itsnamgyu/block-transformer)
+
