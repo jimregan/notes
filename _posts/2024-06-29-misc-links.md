@@ -197,3 +197,21 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 
 [Deep Dive into LSTMs and xLSTMs by Hand](https://towardsdatascience.com/deep-dive-into-lstms-xlstms-by-hand-%EF%B8%8F-c33e638bebb1)
 
+[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815),
+[code](https://github.com/amazon-science/chronos-forecasting)
+
+[lm-sys/FastChat](https://github.com/lm-sys/FastChat)
+
+[EnCLAP: Combining Neural Audio Codec and Audio-Text Joint Embedding for Automated Audio Captioning](https://arxiv.org/abs/2401.17690),
+[code](https://github.com/jaeyeonkim99/EnCLAP)
+
+[Introducing Triton: Open-source GPU programming for neural networks](https://openai.com/index/triton/)
+
+[CUDA kernels in PyTorch made easy with Numba](https://medium.com/@khalfaoui.ismail/cuda-kernels-in-pytorch-made-easy-with-numba-using-python-only-74012bab23ba),
+[notebook](https://colab.research.google.com/drive/1Ix8ENHB31eIsXGwnob9NUJgdHssfIzx7)
+
+[a-brassard/ACORN](https://github.com/a-brassard/ACORN) --- Home repository for the ACORN dataset: 3,500 explanations with aspect-wise human ratings of their quality.
+
+[Let's reproduce GPT-2](https://github.com/karpathy/llm.c/discussions/677)
+
+
