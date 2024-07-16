@@ -214,4 +214,10 @@ key moment [here](https://www.youtube.com/watch?v=lkQ4sDK4u9U&t=12278s)
 
 [Let's reproduce GPT-2](https://github.com/karpathy/llm.c/discussions/677)
 
+[facebookresearch/data2vec_vision](https://github.com/facebookresearch/data2vec_vision)
+
+[Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models](https://huggingface.co/blog/finetune-florence2)
+
+[ManiWAV: Learning Robot Manipulation from In-the-Wild Audio-Visual Data](https://arxiv.org/abs/2406.19464),
+[code](https://github.com/real-stanford/maniwav)
 
