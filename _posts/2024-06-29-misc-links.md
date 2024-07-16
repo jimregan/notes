@@ -323,4 +323,31 @@ AI by Hand:
 [In Love With the Czarina, and Other Stories](https://www.gutenberg.org/cache/epub/34574/pg34574-images.html),
 [A VAKMERŐ](https://mek.oszk.hu/16400/16475/16475.htm)
 
+[The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry](https://arxiv.org/abs/2402.04347)
+
+[netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice) --- a Multi-Voice and Prompt-Controlled TTS Engine
+
+[Voice Cloning with your personal data](https://github.com/netease-youdao/EmotiVoice/wiki/Voice-Cloning-with-your-personal-data)
+
+[ricosjp/truck](https://github.com/ricosjp/truck) --- Truck is a rust CAD kernel
+
+[Hungarian Body Parts Flashcards](https://flashcardo.com/hungarian-flashcards/body/1)
+
+[Hungarian Flashcards](https://flashcardo.com/hungarian-flashcards/)
+
+[OpenVoice: Versatile Instant Voice Cloning](https://arxiv.org/abs/2312.01479),
+[code](https://github.com/myshell-ai/OpenVoice)
+
+[LongRoPE: Extending LLM Context Window Beyond 2 Million Tokens](https://arxiv.org/abs/2402.13753)
+
+[A Complete Guide to Write your own Transformers](https://towardsdatascience.com/a-complete-guide-to-write-your-own-transformers-29e23f371ddd)
+
+[NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models](https://arxiv.org/abs/2403.03100),
+[FACodec model](https://huggingface.co/amphion/naturalspeech3_facodec),
+[code](https://github.com/open-mmlab/Amphion)
+
+[Decades-Old Beer Ads Stitched Straight Into Original Star Wars Movies Go Viral](https://nordic.ign.com/star-wars-episode-iv-a-new-hope-theater/79567/news/decades-old-beer-ads-stitched-straight-into-original-star-wars-movies-go-viral)
+
+[Towards Decoupling Frontend Enhancement and Backend Recognition in Monaural Robust ASR](https://arxiv.org/abs/2403.06387)
+
 
