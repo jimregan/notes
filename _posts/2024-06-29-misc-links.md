@@ -350,4 +350,9 @@ AI by Hand:
 
 [Towards Decoupling Frontend Enhancement and Backend Recognition in Monaural Robust ASR](https://arxiv.org/abs/2403.06387)
 
+[I Felt a Little Homosexual Today, So I Called in Sick: The Formation of “Reverse Discourse” by Swedish Gay Activists in the 1970s](https://www.tandfonline.com/doi/full/10.1080/13600826.2022.2052025)
+
+[SeamlessExpressiveLM: Speech Language Model for Expressive Speech-to-Speech Translation with Chain-of-Thought](https://arxiv.org/abs/2405.20410)
+
+[UTDUSS: UTokyo-SaruLab System for Interspeech2024 Speech Processing Using Discrete Speech Unit Challenge](https://arxiv.org/abs/2403.13720)
 
