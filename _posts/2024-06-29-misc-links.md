@@ -356,3 +356,31 @@ AI by Hand:
 
 [UTDUSS: UTokyo-SaruLab System for Interspeech2024 Speech Processing Using Discrete Speech Unit Challenge](https://arxiv.org/abs/2403.13720)
 
+[Robots Beyond Borders: The Role of Social Robots in Spoken Second Language Practice](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1840732&dswid=1475)
+
+[Once “too scary” to release, GPT-2 gets squeezed into an Excel spreadsheet](https://arstechnica.com/information-technology/2024/03/once-too-scary-to-release-gpt-2-gets-squeezed-into-an-excel-spreadsheet/)
+
+[ianand/spreadsheets-are-all-you-need](https://github.com/ianand/spreadsheets-are-all-you-need)
+
+{% twitter https://x.com/algo_diver/status/1784834127839240236 %}
+
+{% twitter https://x.com/ZainHasan6/status/1784693018554929432 %}
+
+[Open sourcing MS-DOS 4.0](https://opensource.microsoft.com/blog/2024/04/25/open-sourcing-ms-dos-4-0/)
+
+[microsoft/MS-DOS](https://github.com/microsoft/MS-DOS)
+
+[sarah-walker-pcem/pcem/](https://github.com/sarah-walker-pcem/pcem/) --- PC emulator
+
+[Infinite Mac](https://infinitemac.org/) --- Infinite Mac is a collection of classic Macintosh and NeXT system releases and software, all easily accessible from the comfort of a (modern) web browser.
+
+[previous - NeXT emulator](https://sourceforge.net/projects/previous/)
+
+[dingusdev/dingusppc](https://github.com/dingusdev/dingusppc) --- PowerPC Mac emulator
+
+[Basilisk II](https://basilisk.cebix.net/),
+[github](https://github.com/cebix/macemu)
+
+[autc04/executor](https://github.com/autc04/executor) --- A modern fork of the classic Mac emulator
+
+
