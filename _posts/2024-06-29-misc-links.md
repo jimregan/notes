@@ -383,4 +383,17 @@ AI by Hand:
 
 [autc04/executor](https://github.com/autc04/executor) --- A modern fork of the classic Mac emulator
 
+[Can Learned Optimization Make Reinforcement Learning Less Difficult?](https://arxiv.org/abs/2407.07082),
+[code](https://github.com/AlexGoldie/rl-learned-optimization)
+
+[google/learned_optimization](https://github.com/google/learned_optimization) --- Meta-learning optimizers and more with JAX
+
+[Click-Gaussian: Interactive Segmentation to Any 3D Gaussians](https://arxiv.org/abs/2407.11793)
+
+[Mistral NeMo](https://mistral.ai/news/mistral-nemo/)
+
+[E2GAN: Efficient Training of Efficient GANs for Image-to-Image Translation](https://arxiv.org/abs/2401.06127)
+
+[nerfstudio-project/nerfstudio](https://github.com/nerfstudio-project/nerfstudio) --- A collaboration friendly studio for NeRFs
+
 
