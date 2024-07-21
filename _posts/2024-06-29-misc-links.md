@@ -396,4 +396,7 @@ AI by Hand:
 
 [nerfstudio-project/nerfstudio](https://github.com/nerfstudio-project/nerfstudio) --- A collaboration friendly studio for NeRFs
 
+[Context Embeddings for Efficient Answer Generation in RAG](https://arxiv.org/abs/2407.09252)
+
+[SpreadsheetLLM: Encoding Spreadsheets for Large Language Models](https://arxiv.org/abs/2407.09025)
 
