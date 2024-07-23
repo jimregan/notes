@@ -508,7 +508,7 @@ https://stackoverflow.com/questions/49035403/using-asyncio-to-run-a-function-at-
 Async IO in Python: A Complete Walkthrough – Real Python
 https://realpython.com/async-io-python/
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/17843277545568319/
 
 SGS24_recordings - Google Sheets
@@ -529,7 +529,7 @@ https://gits-15.sys.kth.se/raw/tmh/dt2119/main/labs/lab4/lab4_main.py?token=GHSA
 Series 26 - Google Drive
 https://drive.google.com/drive/folders/1BkysYWOzvxeoQzoDvvxmpCXMdRL8Scf4
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/102052201197290/
 
 Zara (@mazoretki_zara) • Instagram photos and videos
@@ -649,7 +649,7 @@ https://www.youtube.com/
 Watch this to learn ANY Martial Arts Form - YouTube
 https://www.youtube.com/watch?v=XK2O-gCEN5A
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/17845647458552890/
 
 Screenshot_20240722-080527 | Jim O'Regan | Flickr
@@ -682,8 +682,11 @@ https://www.youtube.com/watch?v=3f78TWKiLlI
 whisperX/whisperx/asr.py at main · m-bain/whisperX
 https://github.com/m-bain/whisperX/blob/main/whisperx/asr.py#L173
 
-whisperX/whisperx/vad.py at main · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/main/whisperx/vad.py
+whisperX/whisperx/transcribe.py at main · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/main/whisperx/transcribe.py
+
+m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
+https://github.com/m-bain/whisperX
 
 Astronomers discover technique to spot AI fakes using galaxy-measurement tools | Ars Technica
 https://arstechnica.com/information-technology/2024/07/astronomers-discover-technique-to-spot-ai-fakes-using-galaxy-measurement-tools/?utm_source=instagram&utm_medium=social&utm_content=instagram-stories&utm_brand=ars&utm_social-type=owned
@@ -697,52 +700,19 @@ https://github.com/shivammehta25/Match-TTSG
 start making the readme about this codebase by jimregan · Pull Request #1 · shivammehta25/Match-TTSG
 https://github.com/shivammehta25/Match-TTSG/pull/1
 
-start making the readme about this codebase by jimregan · Pull Request #1 · shivammehta25/Match-TTSG
-https://github.com/shivammehta25/Match-TTSG/pull/1/files
+Aplappar i Python (dynamiskt beteende) - GeeksforGeeks
+https://www.geeksforgeeks.org/monkey-patching-in-python-dynamic-behavior/
 
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
+python monkey patch class method self required positional argument: 'self' - Google Search
+https://www.google.com/search?q=python+monkey+patch+class+method+self+required+positional+argument%3A+%27self%27&sca_esv=9aab8662baee94c4&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKc4TwmR0JIj0IDMc2iHpnPSI7SEQ%3A1721778278614&ei=ZkCgZvuSJYi_wPAPyYyygAc&ved=0ahUKEwj73bb1q76HAxWIHxAIHUmGDHAQ4dUDCA8&uact=5&oq=python+monkey+patch+class+method+self+required+positional+argument%3A+%27self%27&gs_lp=Egxnd3Mtd2l6LXNlcnAiSnB5dGhvbiBtb25rZXkgcGF0Y2ggY2xhc3MgbWV0aG9kIHNlbGYgcmVxdWlyZWQgcG9zaXRpb25hbCBhcmd1bWVudDogJ3NlbGYnSKIMUBdY_QdwAXgAkAEAmAGGAqABoAWqAQUwLjEuMrgBA8gBAPgBAfgBApgCAqAC-gHCAgoQABiwAxjWBBhHwgIGEAAYFhgewgIIEAAYgAQYogSYAwCIBgGQBgiSBwUxLjAuMaAHugg&sclient=gws-wiz-serp
 
-New Tab
-chrome://newtab/
+What is Monkey Patching in Python: A Complete Tutorial With Examples | LambdaTest
+https://www.lambdatest.com/blog/monkey-patching-in-python/
 
-Module: display — IPython 3.2.1 documentation
-https://ipython.org/ipython-doc/dev/api/generated/IPython.display.html
+python - Why don't monkey-patched methods get passed a reference to the instance? - Stack Overflow
+https://stackoverflow.com/questions/23073716/why-dont-monkey-patched-methods-get-passed-a-reference-to-the-instance
 
-torchaudio.save — Torchaudio 2.4.0.dev20240628 documentation
-https://pytorch.org/audio/main/generated/torchaudio.save.html
-
-torchaudio save wav - Google Search
-https://www.google.com/search?q=torchaudio+save+wav&rlz=1C5GCEM_enSE990SE991&oq=torchaudio+save+&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIKCAEQRRgWGB4YOTIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yBggHEEUYPNIBCDQzMzlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-python 3.x - Torchaudio.save() .wav file is twice bigger than the original .wav file - Stack Overflow
-https://stackoverflow.com/questions/75884460/torchaudio-save-wav-file-is-twice-bigger-than-the-original-wav-file
-
-Saving and loading the downsampled audio results in a tensor with zeros. · Issue #252 · pytorch/audio
-https://github.com/pytorch/audio/issues/252
-
-python - Convert a 1D array to a 2D array in numpy - Stack Overflow
-https://stackoverflow.com/questions/12575421/convert-a-1d-array-to-a-2d-array-in-numpy
-
-Pass PyDub AudioSegment into Whisper Transcribe() · openai/whisper · Discussion #2048
-https://github.com/openai/whisper/discussions/2048
-
-How to send audio to Whisper in a numpy array ? · openai/whisper · Discussion #450
-https://github.com/openai/whisper/discussions/450
-
-Python: write a wav file into numpy float array - Stack Overflow
-https://stackoverflow.com/questions/16778878/python-write-a-wav-file-into-numpy-float-array/62298670#62298670
-
-ChatGPT
-https://chatgpt.com/c/0b12ffa8-c2a0-4d7e-986c-90cb1df359f0
-
-torch.from_numpy — PyTorch 2.3 documentation
-https://pytorch.org/docs/stable/generated/torch.from_numpy.html
-
-Inbox • Direct
-https://www.instagram.com/direct/t/109051157156390/
-
-wave — Read and write WAV files — Python 3.12.4 documentation
-https://docs.python.org/3/library/wave.html
+How to monkey-patch with 2 arguments? : r/learnpython
+https://www.reddit.com/r/learnpython/comments/p868us/how_to_monkeypatch_with_2_arguments/
 
 
