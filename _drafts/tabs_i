@@ -1,4 +1,4 @@
-fairseq/examples/wav2vec/wav2vec_featurize.py at main · facebookresearch/fairseq · GitHub
+fairseq/examples/wav2vec/wav2vec_featurize.py at main · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/wav2vec_featurize.py
 
 tabs.html
@@ -508,7 +508,7 @@ https://stackoverflow.com/questions/49035403/using-asyncio-to-run-a-function-at-
 Async IO in Python: A Complete Walkthrough – Real Python
 https://realpython.com/async-io-python/
 
-(1) Inbox • Direct
+Inbox • Direct
 https://www.instagram.com/direct/t/17843277545568319/
 
 SGS24_recordings - Google Sheets
@@ -775,22 +775,97 @@ https://realpython.com/python-eval-function/
 fåtölj - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/f%C3%A5t%C3%B6lj#Swedish
 
-All commands — Montreal Forced Aligner 3.0.0 documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/commands.html
-
 Speaker diarization (mfa diarize_speakers) — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/corpus_creation/diarize_speakers.html
 
-Getting started — Montreal Forced Aligner 3.0.0 documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/getting_started.html
+Train an ivector extractor (mfa train_ivector) — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/corpus_creation/train_ivector.html
 
-SGS24_recordings - Google Sheets
-https://docs.google.com/spreadsheets/d/1dSsHOMkZn6zrh2KQZG-SOlttDll7Rjhv17J4Y_IM3v8/edit?gid=0#gid=0
+Glossary — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/glossary.html#term-Ivector-extractors
 
-Postgresql :: Anaconda.org
-https://anaconda.org/anaconda/postgresql
+Align with an acoustic model (mfa align) — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/workflows/alignment.html
 
-Managing packages — conda 24.7.1.dev5 documentation
-https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html
+All commands — Montreal Forced Aligner 3.0.0 documentation
+https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/commands.html
+
+MontrealCorpusTools/Montreal-Forced-Aligner: Command line utility for forced alignment using Kaldi
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner
+
+Issues · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues?page=2&q=is%3Aissue+is%3Aopen
+
+[BUG] mfa diarize will fail with error missing attribute · Issue #622 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues/622
+
+Recovering words that get turned into [bracketed] · Issue #754 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues/754
+
+Using pre-trained Ivector extractors to extract features for each Audio (one speaker) · Issue #725 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues/725
+
+Original word case (upper/lower) is not retained · Issue #675 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/issues/675
+
+Instagram
+https://www.instagram.com/
+
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/
+
+HSI dataset preparation - Google Docs
+https://docs.google.com/document/d/1iDIQA2Ee2RkCni0-Db2CWwTjf5i_c9_vUkk6F54wrGk/edit
+
+regex - Python extract pattern matches - Stack Overflow
+https://stackoverflow.com/questions/15340582/python-extract-pattern-matches
+
+Instagram
+https://www.instagram.com/
+
+Instagram
+https://www.instagram.com/
+
+Whisperx reverse by jimregan · Pull Request #54 · jimregan/sync-asr
+https://github.com/jimregan/sync-asr/pull/54
+
+Instagram
+https://www.instagram.com/
+
+Ryanair issues warning to anyone flying with a black suitcase on any airline
+https://www.ladbible.com/lifestyle/travel/ryanair-warning-suitcase-colour-tag-ribbon-169276-20240725
+
+Rule actor set himself as reason behind why he refuses to kiss anyone in movies or TV shows
+https://www.ladbible.com/entertainment/film/neal-mcdonough-refuses-kiss-scenes-co-stars-movie-tv-467105-20240725
+
+Commits · shivammehta25/Match-TTSG
+https://github.com/shivammehta25/Match-TTSG/commits/stoc_preds/
+
+Adding fine tuning experiment · shivammehta25/Match-TTSG@31eb8dc
+https://github.com/shivammehta25/Match-TTSG/commit/31eb8dcd56386188e722c6f19700d39535f6eecb#diff-b37ced516708c8583432eaa342748ad8c21285bf72a613450b18fb4cfc28578a
+
+Adding warmup start · shivammehta25/Match-TTSG@7c3e189
+https://github.com/shivammehta25/Match-TTSG/commit/7c3e18943b7e30ff3ba5cd1472fde800bdb24c09
+
+Adding possibility to load checkpoint with different speaker numbers · shivammehta25/Match-TTSG@c4b7170
+https://github.com/shivammehta25/Match-TTSG/commit/c4b7170c8bd9ee1daf00e2a3719e2806e574ba1c
+
+Adding fine tuning experiment · shivammehta25/Match-TTSG@31eb8dc
+https://github.com/shivammehta25/Match-TTSG/commit/31eb8dcd56386188e722c6f19700d39535f6eecb
+
+Commits · shivammehta25/Match-TTSG
+https://github.com/shivammehta25/Match-TTSG/commits/main/
+
+Fixing main branch for new checkpoint loading · shivammehta25/Match-TTSG@63da544
+https://github.com/shivammehta25/Match-TTSG/commit/63da5445dffb55feba3eff9a5d1a047017039016
+
+Council of Trent - Wikipedia
+https://en.wikipedia.org/wiki/Council_of_Trent
+
+𝐌𝐚𝐫𝐢𝐚𝐧𝐞𝐥𝐚 | We kept receipts. | Instagram
+https://www.instagram.com/
+
+Blondinka Angelina 💁🏼‍♀️ (@blondinka_drive) • Instagram photos and videos
+https://www.instagram.com/blondinka_drive/
 
 
