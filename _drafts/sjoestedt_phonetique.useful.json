@@ -4044,7 +4044,8 @@
       "id": "47_1",
       "transcription": "sɩ ŋʹi꞉rʹɩ",
       "irish": "insan ngeimhreadh",
-      "french": "durant l’hiver"
+      "french": "durant l’hiver",
+      "from": "geimhreadh"
     },
     {
       "section": 47,
@@ -4087,6 +4088,36 @@
       "transcription": "kʷɪ꞉ŋʹgʹ",
       "irish": "cuing",
       "french": "obligation"
+    },
+    {
+      "section": 47,
+      "id": "47_8",
+      "transcription": "lɪ꞉ŋʹgʹ",
+      "irish": "luing",
+      "dative_of": "long"
+    },
+    {
+      "section": 47,
+      "id": "47_9",
+      "irish": "long",
+      "transcription": "lɔŋg",
+      "french": "navire",
+      "dative": "luing"
+    },
+    {
+      "section": 47,
+      "id": "47_10",
+      "transcription": "lɪŋʹgʹɩ",
+      "irish": "luinge",
+      "genitive_of": "long"
+    },
+    {
+      "section": 47,
+      "id": "47_11",
+      "irish": "long",
+      "transcription": "lɔŋg",
+      "french": "navire",
+      "genitive": "luinge"
     }
   ]
 }
