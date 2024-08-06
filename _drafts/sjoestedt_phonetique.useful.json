@@ -2227,6 +2227,146 @@
   "30": [
     {
       "section": 30,
+      "id": "30_1",
+      "transcription": "tʹi꞉rʹ",
+      "irish": "tír",
+      "french": "terre"
+    },
+    {
+      "section": 30,
+      "id": "30_2",
+      "transcription": "tʹinʹɩ",
+      "irish": "teine",
+      "french": "feu"
+    },
+    {
+      "section": 30,
+      "id": "30_3",
+      "transcription": "tʹëinʹ",
+      "irish": "teinn",
+      "french": "douloureux"
+    },
+    {
+      "section": 30,
+      "id": "30_4",
+      "transcription": "tʹehə",
+      "irish": "teiche",
+      "french": "fuir"
+    },
+    {
+      "section": 30,
+      "id": "30_5",
+      "transcription": "tʹαs",
+      "irish": "teas",
+      "french": "chaleur"
+    },
+    {
+      "section": 30,
+      "id": "30_6",
+      "transcription": "tʲo꞉rə",
+      "irish": "teóra",
+      "french": "limite"
+    },
+    {
+      "section": 30,
+      "id": "30_7",
+      "transcription": "tʲλv",
+      "irish": "tiubh",
+      "french": "touffu"
+    },
+    {
+      "section": 30,
+      "id": "30_8",
+      "transcription": "ʃtʹiꞏəl",
+      "irish": "stiall",
+      "french": "coup"
+    },
+    {
+      "section": 30,
+      "id": "30_9",
+      "transcription": "ʃtʲᴜ꞉rᴜ꞉",
+      "irish": "stiúrughadh",
+      "french": "diriger"
+    },
+    {
+      "section": 30,
+      "id": "30_10",
+      "transcription": "tʹrʹiꞏəl",
+      "irish": "triall",
+      "french": "voyage"
+    },
+    {
+      "section": 30,
+      "id": "30_11",
+      "transcription": "tʹigʹ tʹαχ nɑ꞉ ɑ꞉ⁱtʹrʹəv",
+      "irish": "tigh, teach ná áitreabh",
+      "french": "aucune espèce d’habitation"
+    },
+    {
+      "section": 30,
+      "id": "30_12",
+      "transcription": "ɩnʹ tʹimʹɩnʹi꞉",
+      "irish": "an t‑imshníomh",
+      "french": "le souci"
+    },
+    {
+      "section": 30,
+      "id": "30_13",
+      "transcription": "ɩnʹ tʹαnəvʹαn",
+      "irish": "an tseanbhean",
+      "french": "la vieille femme"
+    },
+    {
+      "section": 30,
+      "id": "30_14",
+      "transcription": "bʹrʹi꞉ʃtʹɩ",
+      "irish": "bríste",
+      "french": "pantalon"
+    },
+    {
+      "section": 30,
+      "id": "30_15",
+      "transcription": "kəlɑ꞉ʃtʹɩ",
+      "irish": "coláiste",
+      "french": "collège"
+    },
+    {
+      "section": 30,
+      "id": "30_16",
+      "transcription": "lʹᴇtʹɩ",
+      "irish": "leite",
+      "french": "porridge"
+    },
+    {
+      "section": 30,
+      "id": "30_17",
+      "transcription": "kətʹi꞉ᵊntə",
+      "irish": "coitcheannta",
+      "french": "usuel"
+    },
+    {
+      "section": 30,
+      "id": "30_18",
+      "transcription": "lʹitʹɩrʹ",
+      "irish": "leitir",
+      "french": "lettre"
+    },
+    {
+      "section": 30,
+      "id": "30_19",
+      "transcription": "tɑ̃꞉ⁱnʹtʹɩ",
+      "irish": "táinte",
+      "french": "troupeaux"
+    },
+    {
+      "section": 30,
+      "id": "30_20",
+      "transcription": "is fʲɑ꞉r ən tlɑ̃꞉ⁱnʹtʹɩ nɑ꞉ nə tɑ̃꞉ⁱnʹtʹɩ ɛr χno̤k",
+      "irish": "is fearr an tsláinte ná na táinte ar chnoc",
+      "french": "mieux vaut la santé que des troupeaux sur la colline"
+    },
+    {
+      "section": 30,
       "id": "30_21",
       "transcription": "gʷɪtʹɩ ʃeꞏ",
       "irish": "goidfidh sé",
@@ -2575,7 +2715,7 @@
       "irish": "tríd",
       "french": "à travers"
     }
-  ]:
+  ],
   "33": [
     {
       "section": 33,
@@ -3168,6 +3308,13 @@
       "transcription": "klɔg",
       "irish": "clog",
       "french": "pendule"
+    },
+    {
+      "section": 38,
+      "id": "38_25",
+      "transcription": "o꞉g",
+      "irish": "óg",
+      "french": "jeune"
     }
   ]
 }
