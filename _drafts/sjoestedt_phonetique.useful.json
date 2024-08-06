@@ -3734,6 +3734,29 @@
       "transcription": "mɑk",
       "french": "fils",
       "genitive": "mic"
+    },
+    {
+      "section": 44,
+      "id": "44_19",
+      "transcription": "mʷɪkʹɩ",
+      "irish": "muice",
+      "genitive_of": "muc"
+    },
+    {
+      "section": 44,
+      "id": "44_20",
+      "irish": "muc",
+      "transcription": "mᴜk",
+      "french": "porc",
+      "genitive": "muice",
+      "dative": "muic"
+    },
+    {
+      "section": 44,
+      "id": "44_21",
+      "transcription": "mʷɪkʹ",
+      "irish": "muic",
+      "dative_of": "muc"
     }
   ]
 }
