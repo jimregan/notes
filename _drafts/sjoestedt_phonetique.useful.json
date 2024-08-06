@@ -89,7 +89,10 @@
       "id": "6_13",
       "transcription": "kʹαrt",
       "irish": "ceart",
-      "french": ["droit", "juste"]
+      "french": [
+        "droit",
+        "juste"
+      ]
     },
     {
       "section": 6,
@@ -124,7 +127,10 @@
       "id": "6_18",
       "transcription": "ə ŋᴀᴜl",
       "irish": "i ngabhal",
-      "french": ["entre", "mêlé à"],
+      "french": [
+        "entre",
+        "mêlé à"
+      ],
       "from": "gabhal"
     },
     {
@@ -224,7 +230,10 @@
       "id": "6_32",
       "transcription": "kɑ꞉l",
       "irish": "cál",
-      "french": ["droit", "réclamation"]
+      "french": [
+        "droit",
+        "réclamation"
+      ]
     },
     {
       "section": 6,
@@ -245,7 +254,10 @@
       "id": "6_35",
       "transcription": "ᴜ꞉ⁱrʹ",
       "irish": "úir",
-      "french": ["terre", "terreau"]
+      "french": [
+        "terre",
+        "terreau"
+      ]
     },
     {
       "section": 6,
@@ -3315,6 +3327,57 @@
       "transcription": "o꞉g",
       "irish": "óg",
       "french": "jeune"
+    }
+  ],
+  "39": [
+    {
+      "section": 39,
+      "id": "39_1",
+      "transcription": "gʺrʹaᴜn",
+      "irish": "greann",
+      "french": "affection"
+    },
+    {
+      "section": 39,
+      "id": "39_2",
+      "transcription": "gʺrʹëimʹ",
+      "irish": "greim",
+      "french": "prise"
+    },
+    {
+      "section": 39,
+      "id": "39_3",
+      "transcription": "gʺrʹαs",
+      "irish": "greas",
+      "french": "quantité, ce que l’on peut faire, prendre, etc., en une fois"
+    },
+    {
+      "section": 39,
+      "id": "39_4",
+      "transcription": "gʺlʹe꞉",
+      "irish": "glé",
+      "french": "beau, brillant"
+    },
+    {
+      "section": 39,
+      "id": "39_5",
+      "transcription": "gʺlʹïmaꞏχ",
+      "irish": "gliomach",
+      "french": "langouste"
+    },
+    {
+      "section": 39,
+      "id": "39_6",
+      "transcription": "gʺnʹe꞉",
+      "irish": "gné",
+      "french": "éclat"
+    },
+    {
+      "section": 39,
+      "id": "39_7",
+      "transcription": "gʺnʹĩ꞉ᵊv",
+      "irish": "gníomh",
+      "french": "action"
     }
   ]
 }
