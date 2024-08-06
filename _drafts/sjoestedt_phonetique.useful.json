@@ -3765,5 +3765,171 @@
       "irish": "stailc",
       "french": "chose, personne immobile et comme pétrifiée"
     }
+  ],
+  "45": [
+    {
+      "section": 45,
+      "id": "45_1",
+      "transcription": "gʹi꞉ᵊtɑ꞉ⁱlʹ",
+      "irish": "gíotáil",
+      "french": "travail léger"
+    },
+    {
+      "section": 45,
+      "id": "45_2",
+      "transcription": "gʹì꞉ag",
+      "irish": "géag",
+      "french": "bras"
+    },
+    {
+      "section": 45,
+      "id": "45_3",
+      "transcription": "gʹe꞉mʹ",
+      "irish": "géim",
+      "french": "rugissement"
+    },
+    {
+      "section": 45,
+      "id": "45_4",
+      "transcription": "gʹᴇtʹ",
+      "irish": "geit",
+      "french": "sursaut de frayeur"
+    },
+    {
+      "section": 45,
+      "id": "45_5",
+      "transcription": "gʹïrə",
+      "irish": "giorra",
+      "comparative_of": "gearr"
+    },
+    {
+      "section": 45,
+      "id": "45_6",
+      "irish": "gearr",
+      "transcription": "gʲɑ꞉r",
+      "french": "rapproché",
+      "comparative": "giorra"
+    },
+    {
+      "section": 45,
+      "id": "45_7",
+      "transcription": "gʹαl",
+      "irish": "geal",
+      "french": "brillant"
+    },
+    {
+      "section": 45,
+      "id": "45_8",
+      "transcription": "gʲo꞉kɑ̃꞉n",
+      "irish": "geócán",
+      "french": "flûte"
+    },
+    {
+      "section": 45,
+      "id": "45_9",
+      "transcription": "gʲo꞉ⁱnʹ",
+      "irish": "geóin",
+      "french": "tumulte, rumeur"
+    },
+    {
+      "section": 45,
+      "id": "45_10",
+      "transcription": "gʲλks",
+      "irish": "giucs",
+      "french": "mot, syllabe"
+    },
+    {
+      "section": 45,
+      "id": "45_11",
+      "transcription": "ɛr ɩ gʲaᴜn",
+      "irish": "ar an gceann",
+      "french": "sur la tête"
+    },
+    {
+      "section": 45,
+      "id": "45_12",
+      "transcription": "sɩ gʲaᴜntər so",
+      "irish": "insan gceanntar sô",
+      "french": "dans cette région"
+    },
+    {
+      "section": 45,
+      "id": "45_13",
+      "transcription": "ʃαχt gʹi꞉nʹ",
+      "irish": "seacht gcinn",
+      "french": "sept unités"
+    },
+    {
+      "section": 45,
+      "id": "45_14",
+      "transcription": "αrʹɩgʹəd",
+      "irish": "airgead",
+      "french": "argent"
+    },
+    {
+      "section": 45,
+      "id": "45_15",
+      "transcription": "e꞉gʹɩnʹtʹ",
+      "irish": "éigin",
+      "french": "quelque"
+    },
+    {
+      "section": 45,
+      "id": "45_16",
+      "transcription": "o꞉ⁱgʹɩ",
+      "irish": "óige",
+      "french": "jeunesse"
+    },
+    {
+      "section": 45,
+      "id": "45_17",
+      "transcription": "bɑ꞉ʃtʹɩgʹ",
+      "irish": "báistigh",
+      "dative_of": "báisteach"
+    },
+    {
+      "section": 45,
+      "id": "45_18",
+      "irish": "báisteach",
+      "transcription": "bɑ꞉ʃtʹəχ",
+      "french": "pluie",
+      "dative": "báistigh"
+    },
+    {
+      "section": 45,
+      "id": "45_19",
+      "transcription": "krᴜꞏɛgʹ",
+      "irish": "cruaidh",
+      "french": "dur"
+    },
+    {
+      "section": 45,
+      "id": "45_20",
+      "transcription": "mʹᴇrʹɩgʹ",
+      "irish": "meirg",
+      "french": "rouille"
+    },
+    {
+      "section": 45,
+      "id": "45_21",
+      "transcription": "sɪgʹ",
+      "irish": "suidh",
+      "french": "assieds-toi"
+    },
+    {
+      "section": 45,
+      "id": "45_22",
+      "transcription": "ᴜ꞉nʃɩgʹ",
+      "irish": "óinsigh",
+      "dative_of": "óinseach"
+    },
+    {
+      "section": 45,
+      "id": "45_23",
+      "irish": "óinseach",
+      "transcription": "ᴜ꞉nʃəχ",
+      "french": "folle",
+      "dative": "óinsigh"
+    }
   ]
 }
