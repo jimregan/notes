@@ -89,7 +89,7 @@
       "id": "6_13",
       "transcription": "kʹαrt",
       "irish": "ceart",
-      "french": "droit, juste"
+      "french": ["droit", "juste"]
     },
     {
       "section": 6,
@@ -124,7 +124,7 @@
       "id": "6_18",
       "transcription": "ə ŋᴀᴜl",
       "irish": "i ngabhal",
-      "french": "entre, mêlé à",
+      "french": ["entre", "mêlé à"],
       "from": "gabhal"
     },
     {
@@ -224,7 +224,7 @@
       "id": "6_32",
       "transcription": "kɑ꞉l",
       "irish": "cál",
-      "french": "droit, réclamation"
+      "french": ["droit", "réclamation"]
     },
     {
       "section": 6,
@@ -245,7 +245,7 @@
       "id": "6_35",
       "transcription": "ᴜ꞉ⁱrʹ",
       "irish": "úir",
-      "french": "terre, terreau"
+      "french": ["terre", "terreau"]
     },
     {
       "section": 6,
@@ -553,7 +553,7 @@
       "id": "12_6",
       "transcription": "nɑ꞉",
       "irish": "ná",
-      "french": "négation de l’impératif"
+      "french_note": "négation de l’impératif"
     },
     {
       "section": 11,
