@@ -3600,5 +3600,29 @@
       "irish": "i ngleann éigin",
       "french": "dans une certaine vallée"
     }
+  ],
+  "44": [
+    {
+      "section": 44,
+      "id": "44_1",
+      "transcription": "kʹigʹɩlʹɩʃ",
+      "irish": "cigilis",
+      "french": "chatouillement"
+    },
+    {
+      "section": 44,
+      "id": "44_2",
+      "transcription": "kʹi꞉nʹ",
+      "irish": "cinn",
+      "genitive_of": "ceann"
+    },
+    {
+      "section": 44,
+      "id": "44_3",
+      "irish": "ceann",
+      "transcription": "kʲaᴜn",
+      "french": "tête",
+      "genitive": "cinn"
+    }
   ]
 }
