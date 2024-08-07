@@ -9192,5 +9192,65 @@
       "irish": "tigh",
       "french": "maison"
     }
+  ],
+  "133": [
+    {
+      "section": 133,
+      "id": "133_1",
+      "transcription": [
+        "ilʹɩ",
+        "ɪlʹɩ"
+      ],
+      "irish": "uile",
+      "french": "tout"
+    },
+    {
+      "section": 133,
+      "id": "133_2",
+      "transcription": [
+        "iʃg̬ʹɩ",
+        "ɪʃg̬ʹɩ"
+      ],
+      "irish": "uisce",
+      "french": "eau"
+    },
+    {
+      "section": 133,
+      "id": "133_3",
+      "transcription": [
+        "ivʹɩrʹ",
+        "ɪvʹɩrʹ"
+      ],
+      "irish": "uimhir",
+      "french": "nombre, numéro"
+    },
+    {
+      "section": 133,
+      "id": "133_4",
+      "transcription": [
+        "iʃɩnʹ",
+        "ɪʃɩnʹ"
+      ],
+      "irish": "uisin",
+      "french": "tempe"
+    },
+    {
+      "section": 133,
+      "id": "133_5",
+      "transcription": [
+        "sɪmʹɩ",
+        "simʹɩ"
+      ],
+      "irish": "suime",
+      "genitive_of": "suim"
+    },
+    {
+      "section": 133,
+      "id": "133_6",
+      "irish": "suim",
+      "transcription": "sɪ꞉mʹ",
+      "french": "considération",
+      "genitive": "suime"
+    }
   ]
 }
