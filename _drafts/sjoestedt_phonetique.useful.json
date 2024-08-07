@@ -11334,5 +11334,53 @@
       ],
       "augments": "159_18"
     }
+  ],
+  "162": [
+    {
+      "section": 162,
+      "id": "162_1",
+      "transcription": "ɑgəs",
+      "irish": "agus",
+      "french": "et"
+    },
+    {
+      "section": 162,
+      "id": "162_2",
+      "transcription": "bᴜɛlʹən",
+      "irish": "buaileann",
+      "french": "(il) frappe"
+    },
+    {
+      "section": 162,
+      "id": "162_3",
+      "transcription": "bʷɩnʹən",
+      "irish": "baineann",
+      "french": "femelle"
+    },
+    {
+      "section": 162,
+      "id": "162_4",
+      "transcription": "dʹαrəfə",
+      "irish": "dearbhtha",
+      "french": "certain"
+    },
+    {
+      "section": 162,
+      "id": "162_5",
+      "transcription": "dɔχəs",
+      "irish": "dochas",
+      "french": "espoir"
+    },
+    {
+      "section": 162,
+      "id": "162_6",
+      "transcription": [
+        "fʷɪlʹɩkʹəχ",
+        "fʷɪlʹɩkʲəχ"
+      ],
+      "irish": "fuiliceach",
+      "french": "endurant",
+      "note": "ə devant χ ayant un timbre se rapprochant de ʌ"
+    }
   ]
 }
