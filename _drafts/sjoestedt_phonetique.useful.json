@@ -11095,5 +11095,36 @@
       "irish": "taos",
       "french": "pâte"
     }
+  ],
+  "156": [
+    {
+      "section": 156,
+      "id": "156_1",
+      "transcription": "sᴇ̈꞉lʹ",
+      "irish": "saoghail",
+      "genitive_of": "saoghal"
+    },
+    {
+      "section": 156,
+      "id": "156_2",
+      "irish": "saoghal",
+      "transcription": "sᴇ̈꞉ᵊl",
+      "french": "monde, vie",
+      "genitive": "saoghail"
+    },
+    {
+      "section": 156,
+      "id": "156_3",
+      "transcription": "rᴇ̈꞉gʹ",
+      "irish": "réidh",
+      "french": "uni, facile"
+    },
+    {
+      "section": 156,
+      "id": "156_4",
+      "transcription": "rᴇ̈꞉lʹhi꞉nʹ",
+      "irish": "réilthin",
+      "french": "étoile"
+    }
   ]
 }
