@@ -10603,5 +10603,117 @@
       "irish": "aire",
       "french": "soin, attention"
     }
+  ],
+  "149": [
+    {
+      "section": 149,
+      "id": "149_1",
+      "transcription": "ïməl",
+      "irish": "imeall",
+      "french": "bordure"
+    },
+    {
+      "section": 149,
+      "id": "149_2",
+      "transcription": "bʹïr",
+      "irish": "bior",
+      "french": "pointe"
+    },
+    {
+      "section": 149,
+      "id": "149_3",
+      "transcription": "kʹïrtʹɩ",
+      "irish": "cirte",
+      "comparative_of": "ceart"
+    },
+    {
+      "section": 149,
+      "id": "149_4",
+      "irish": "ceart",
+      "transcription": "kʹαrt",
+      "french": "juste",
+      "comparative": "cirte"
+    },
+    {
+      "section": 149,
+      "id": "149_5",
+      "transcription": "gʹïtə",
+      "irish": "giota",
+      "french": "une bonne quantité"
+    },
+    {
+      "section": 149,
+      "id": "149_6",
+      "transcription": "sg̬rʹïs",
+      "irish": "scrios",
+      "french": "ravage"
+    },
+    {
+      "section": 149,
+      "id": "149_7",
+      "transcription": "sg̬rʹïstə",
+      "irish": "scriosta",
+      "french": "dépouillé, sans un sou"
+    },
+    {
+      "section": 149,
+      "id": "149_8",
+      "transcription": "glʹïsg̬ərnəχ",
+      "irish": "glioscarnach",
+      "french": "scintillement"
+    },
+    {
+      "section": 149,
+      "id": "149_9",
+      "transcription": [
+        "pʹrʹïslɩrʹɩ",
+        "pʹrʹislɩrʹɩ"
+      ],
+      "irish": "prioslaire",
+      "french": "personne qui bave"
+    },
+    {
+      "section": 149,
+      "id": "149_10",
+      "transcription": "mʹïnfrɑ꞉ti꞉",
+      "irish": "mionphrátaí",
+      "french": "petites pommes de terre"
+    },
+    {
+      "section": 149,
+      "id": "149_11",
+      "transcription": "bʹrʹïtə",
+      "irish": "briota",
+      "french": "petite quantité"
+    },
+    {
+      "section": 149,
+      "id": "149_12",
+      "transcription": "krʹïh",
+      "irish": "crith",
+      "french": "trembler"
+    },
+    {
+      "section": 149,
+      "id": "149_13",
+      "transcription": "kʹïh",
+      "irish": "cith",
+      "french": "ondée"
+    },
+    {
+      "section": 149,
+      "id": "149_14",
+      "transcription": "dʹrʹïhⁱlʹɩ",
+      "irish": "drithle",
+      "french": "étincelle"
+    },
+    {
+      "section": 149,
+      "id": "149_14",
+      "transcription": [
+        "bʹrʹïsg̬",
+        "bʹrʹisg̬"
+      ]
+    }
   ]
 }
