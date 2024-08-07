@@ -10255,8 +10255,7 @@
       "section": 145,
       "id": "145_7",
       "transcription": "sɛvʹⁱrəs",
-      "irish": "saidhbhreas",
-      "french": "X"
+      "irish": "saidhbhreas"
     },
     {
       "section": 145,
@@ -10276,7 +10275,10 @@
     {
       "section": 145,
       "id": "145_10",
-      "transcription": "nʹiꞏ rɛvʹ ou nʹiꞏ rʹᴇvʹ",
+      "transcription": [
+        "nʹiꞏ rɛvʹ",
+        "nʹiꞏ rʹᴇvʹ"
+      ],
       "irish": "ní raibh",
       "french": "n’était pas"
     },
@@ -10307,7 +10309,7 @@
       "id": "145_14",
       "transcription": "kʹɛrtʹ",
       "irish": "ceirt",
-      "french": "X"
+      "in_phrase": "ceirt ar gach aon taobh"
     },
     {
       "section": 145,
