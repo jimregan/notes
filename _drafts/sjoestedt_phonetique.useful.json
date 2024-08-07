@@ -5159,17 +5159,36 @@
     {
       "section": 65,
       "id": "65_9",
-      "transcription": "gʷᴇ̈꞉h",
-      "irish": "gaoth",
-      "french": "vent"
+      "transcription": "dɪnʹi",
+      "irish": "duine",
+      "french": "personne"
     },
     {
       "section": 65,
       "id": "65_10",
-      "transcription": "foǥʷɩnʹɩ",
-      "irish": "fo-dhuine",
-      "french": "quelques personnes"
+      "transcription": "mə ǥrɑ꞉",
+      "irish": "mo ghrádh",
+      "french": "mon amour"
+    },
+    {
+      "section": 65,
+      "id": "65_11",
+      "transcription": "də ǥnɑ꞉h",
+      "irish": "de ghnáth",
+      "french": "d’habitude"
     }
   ],
-  "66": []
+  "66": [
+    {
+      "section": 66,
+      "id": "66_1",
+      "transcription": [
+        "əŋ ǥʺrʹiꞏən",
+        "əŋ ǥrʹiꞏən"
+      ],
+      "irish": "an ghrian",
+      "french": "le soleil",
+      "from": "grian"
+    }
+  ]
 }
