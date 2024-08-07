@@ -7401,5 +7401,66 @@
       "irish": "fearr",
       "french": "meilleur"
     }
+  ],
+  "98": [
+    {
+      "section": 98,
+      "id": "98_1",
+      "transcription": "gʲɑ꞉rkəχ",
+      "irish": "gearrcach",
+      "french": "oison"
+    },
+    {
+      "section": 98,
+      "id": "98_2",
+      "transcription": "bʲo꞉",
+      "irish": "beó",
+      "french": "vivant"
+    },
+    {
+      "section": 98,
+      "id": "98_3",
+      "transcription": "pʲᴜ꞉nt",
+      "irish": "pionnt",
+      "french": "pinte"
+    },
+    {
+      "section": 98,
+      "id": "98_4",
+      "transcription": "bʹi꞉nʹ",
+      "irish": "binn",
+      "french": "mélodieux"
+    },
+    {
+      "section": 98,
+      "id": "98_5",
+      "transcription": "kʹe꞉lʹɩ",
+      "irish": "céile",
+      "french": "compagnon, mari"
+    }
+  ],
+  "99": [
+    {
+      "section": 99,
+      "id": "99_1",
+      "transcription": "ə χɑ꞉ⁱtʹ",
+      "irish": "a Cháit",
+      "french": "Kate !"
+    },
+    {
+      "section": 99,
+      "id": "99_2",
+      "transcription": "bro꞉ⁱgʹ",
+      "irish": "bróig",
+      "dative_of": "bróg"
+    },
+    {
+      "section": 99,
+      "id": "99_3",
+      "irish": "bróg",
+      "transcription": "bro꞉g",
+      "french": "soulier",
+      "dative": "bróig"
+    }
   ]
 }
