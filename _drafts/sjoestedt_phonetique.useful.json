@@ -11295,5 +11295,35 @@
       "irish": "stotha",
       "genitive_of": "stoth"
     }
+  ],
+  "160": [
+    {
+      "section": 160,
+      "id": "160_1",
+      "transcription": [
+        "bröh",
+        "brλh"
+      ],
+      "irish": "bruth",
+      "french": "éruption"
+    },
+    {
+      "section": 160,
+      "id": "160_2",
+      "transcription": [
+        "sröh",
+        "srλh"
+      ],
+      "irish": "sruth",
+      "french": "courant",
+      "genitive": "srotha"
+    },
+    {
+      "section": 160,
+      "id": "160_3",
+      "transcription": "srɔhə",
+      "irish": "srotha",
+      "genitive_of": "sruth"
+    }
   ]
 }
