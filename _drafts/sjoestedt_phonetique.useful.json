@@ -5546,7 +5546,15 @@
       "id": "72_7",
       "transcription": "sᴇ̈ᵊl",
       "irish": "saoghal",
-      "french": "monde"
+      "french": "monde",
+      "genitive": "saoghail"
+    },
+    {
+      "section": 72,
+      "id": "72_8",
+      "transcription": "sᴇ̈꞉lʹ",
+      "irish": "saoghail",
+      "genitive_of": "saoghal"
     }
   ]
 }
