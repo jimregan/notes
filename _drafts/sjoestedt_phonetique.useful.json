@@ -7460,7 +7460,15 @@
       "irish": "bróg",
       "transcription": "bro꞉g",
       "french": "soulier",
-      "dative": "bróig"
+      "dative": "bróig",
+      "genitive": "bróige"
+    },
+    {
+      "section": 99,
+      "id": "99_4",
+      "transcription": "bro꞉ⁱgʹɩ",
+      "irish": "bróige",
+      "genitive_of": "bróg"
     }
   ]
 }
