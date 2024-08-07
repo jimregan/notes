@@ -8146,7 +8146,10 @@
     {
       "section": 110,
       "id": "110_2",
-      "transcription": "ɔkᵊrəs ou o̤kᵊrəs",
+      "transcription": [
+        "ɔkᵊrəs",
+        "o̤kᵊrəs"
+      ],
       "irish": "ocras",
       "french": "faim"
     },
@@ -8167,7 +8170,11 @@
     {
       "section": 110,
       "id": "110_5",
-      "transcription": "ïməl ou λməl ou ᴜməl",
+      "transcription": [
+        "ïməl",
+        "λməl",
+        "ᴜməl"
+      ],
       "irish": "imeall",
       "french": "bordure"
     },
@@ -8177,6 +8184,14 @@
       "transcription": "ɩnʲ λmərkə",
       "irish": "an iomarcadh",
       "french": "trop"
+    },
+    {
+      "section": 110,
+      "id": "110_7",
+      "transcription": "ᴜmərkə",
+      "irish": "iomarcadh",
+      "french": "trop",
+      "note": "mais plutôt ᴜmərkə (sans l’article) que λmərkə"
     }
   ]
 }
