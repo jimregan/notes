@@ -11188,6 +11188,24 @@
       "french": "école",
       "genitive": "scoile",
       "cf_section": 179
+    },
+    {
+      "section": 159,
+      "id": "159_9",
+      "transcription": "klöh",
+      "irish": "cloich",
+      "dative_of": "cloch"
+    },
+    {
+      "section": 159,
+      "id": "159_10",
+      "irish": "cloch",
+      "transcription": [
+        "klo̤χ",
+        "klɔχ"
+      ],
+      "french": "pierre",
+      "dative": "cloich"
     }
   ]
 }
