@@ -11126,5 +11126,29 @@
       "irish": "réilthin",
       "french": "étoile"
     }
+  ],
+  "159": [
+    {
+      "section": 159,
+      "id": "159_1",
+      "transcription": "trödʹ",
+      "irish": "troid",
+      "french": "lutte"
+    },
+    {
+      "section": 159,
+      "id": "159_2",
+      "transcription": "köʃɩ",
+      "irish": "coise",
+      "genitive_of": "cos"
+    },
+    {
+      "section": 159,
+      "id": "159_3",
+      "irish": "cos",
+      "transcription": "ko̤s",
+      "french": "pied",
+      "genitive": "coise"
+    }
   ]
 }
