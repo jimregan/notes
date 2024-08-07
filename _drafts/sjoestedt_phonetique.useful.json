@@ -8629,5 +8629,37 @@
       "irish": "beirt",
       "french": "deux personnes"
     }
+  ],
+  "123": [
+    {
+      "section": 123,
+      "id": "123_1",
+      "transcription": [
+        "ɛbʹⁱrʹi꞉mʹ",
+        "ɛbʹⁱrʹi꞉imʹ"
+      ],
+      "irish": "oibrighim",
+      "french": "je travaille"
+    },
+    {
+      "section": 123,
+      "id": "123_2",
+      "transcription": [
+        "lʲᴜ꞉",
+        "lʲᴜ꞉ᴜ"
+      ],
+      "irish": "liúgh",
+      "french": "hurlement"
+    },
+    {
+      "section": 123,
+      "id": "123_3",
+      "transcription": [
+        "gnɑ꞉χ",
+        "gnɑ꞉ɑχ"
+      ],
+      "irish": "gnáthach",
+      "french": "usuel"
+    }
   ]
 }
