@@ -7564,5 +7564,80 @@
       "irish": "taosc",
       "french": "jet"
     }
+  ],
+  "101": [
+    {
+      "section": 101,
+      "id": "101_1",
+      "transcription": "nɪ꞉ᵊntə",
+      "irish": "naoidheanta",
+      "french": "net, propre"
+    },
+    {
+      "section": 101,
+      "id": "101_2",
+      "transcription": "dʹi꞉ᵊl",
+      "irish": "díol",
+      "french": "vendre"
+    },
+    {
+      "section": 101,
+      "id": "101_3",
+      "transcription": [
+        "ʃi꞉əs",
+        "ʃi꞉s"
+      ],
+      "irish": "síos",
+      "french": "en bas"
+    },
+    {
+      "section": 101,
+      "id": "101_4",
+      "transcription": "tʹe꞉ᵊn",
+      "irish": "téigheann",
+      "french": "il vient"
+    },
+    {
+      "section": 101,
+      "id": "101_5",
+      "transcription": "kʷᴇ̈꞉ᵊχ",
+      "irish": "caoch",
+      "french": "aveugle"
+    },
+    {
+      "section": 101,
+      "id": "101_6",
+      "transcription": "gʷᴇ̈꞉ᵊl",
+      "irish": "gaol",
+      "french": "parenté"
+    },
+    {
+      "section": 101,
+      "id": "101_7",
+      "transcription": "kᴜ꞉",
+      "irish": "cú",
+      "french": "lévrier"
+    },
+    {
+      "section": 101,
+      "id": "101_8",
+      "transcription": "glo꞉r",
+      "irish": "glór",
+      "french": "bruit"
+    },
+    {
+      "section": 101,
+      "id": "101_9",
+      "transcription": "o꞉g",
+      "irish": "óg",
+      "french": "jeune"
+    },
+    {
+      "section": 101,
+      "id": "101_10",
+      "transcription": "bɑ꞉r",
+      "irish": "barr",
+      "french": "sommet"
+    }
   ]
 }
