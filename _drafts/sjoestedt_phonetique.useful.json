@@ -9675,5 +9675,150 @@
       "irish": "oiread",
       "french": "quantité"
     }
+  ],
+  "138": [
+    {
+      "section": 138,
+      "id": "138_1",
+      "transcription": "fʷi꞉ʃtʹɩnʹɩ",
+      "irish": "faoistine",
+      "french": "confession"
+    },
+    {
+      "section": 138,
+      "id": "138_2",
+      "transcription": "fʷɪ꞉ʃəv",
+      "irish": "faoiseamh",
+      "french": "soulagement, répit"
+    },
+    {
+      "section": 138,
+      "id": "138_3",
+      "transcription": "gʷɪ꞉hɩ",
+      "irish": "gaoithe",
+      "genitive_of": "gaoth"
+    },
+    {
+      "section": 138,
+      "id": "138_4",
+      "irish": "gaoth",
+      "transcription": "gʷᴇ̈꞉h",
+      "french": "vent",
+      "genitive": "gaoithe"
+    },
+    {
+      "section": 138,
+      "id": "138_5",
+      "transcription": "gədi꞉",
+      "irish": "gadaidhe",
+      "french": "voleur"
+    },
+    {
+      "section": 138,
+      "id": "138_6",
+      "transcription": "gʷɪ꞉ᵊχtɩnʹtʹ",
+      "irish": "guidheachtaint",
+      "french": "prier"
+    },
+    {
+      "section": 138,
+      "id": "138_7",
+      "transcription": "ko꞉tɪ꞉",
+      "irish": "cótaí",
+      "plural_of": "cóta"
+    },
+    {
+      "section": 138,
+      "id": "138_8",
+      "irish": "cóta",
+      "transcription": "ko꞉tə",
+      "french": "manteau",
+      "plural": "cótaí"
+    },
+    {
+      "section": 138,
+      "id": "138_9",
+      "transcription": "kʷɪ꞉ŋʹgʹ",
+      "irish": "cuing",
+      "french": "lien, obligation"
+    },
+    {
+      "section": 138,
+      "id": "138_10",
+      "transcription": "kʷɪ꞉lʹɩ",
+      "irish": "caoile",
+      "comparative_of": "caol"
+    },
+    {
+      "section": 138,
+      "id": "138_11",
+      "irish": "caol",
+      "transcription": "kʷᴇ̈꞉ᵊl",
+      "french": "mince, étroit",
+      "comparative": "caoile"
+    },
+    {
+      "section": 138,
+      "id": "138_12",
+      "transcription": "mʷɪ꞉lʹ",
+      "irish": "moill",
+      "french": "délai"
+    },
+    {
+      "section": 138,
+      "id": "138_13",
+      "transcription": "nɪ꞉ᵊnɑ̃꞉n",
+      "irish": "naoidheanán",
+      "french": "bébé"
+    },
+    {
+      "section": 138,
+      "id": "138_14",
+      "transcription": "pʷɪ꞉nʹ",
+      "irish": "puinn",
+      "french": "petite quantité"
+    },
+    {
+      "section": 138,
+      "id": "138_15",
+      "transcription": "rɪ꞉",
+      "irish": "rí",
+      "french": "roi"
+    },
+    {
+      "section": 138,
+      "id": "138_16",
+      "transcription": "rɪ꞉nʹ",
+      "irish": "righin",
+      "french": "coriace"
+    },
+    {
+      "section": 138,
+      "id": "138_17",
+      "transcription": "lɑ꞉ sɪ꞉rʹɩ",
+      "irish": "lá saoire",
+      "french": "jour férié"
+    },
+    {
+      "section": 138,
+      "id": "138_18",
+      "transcription": "sɪ꞉ᵊn",
+      "irish": "suidheann",
+      "french": "(il) s’assied"
+    },
+    {
+      "section": 138,
+      "id": "138_19",
+      "transcription": "ʃaᴜndrɪ꞉",
+      "irish": "seanndraoi",
+      "french": "magicien, sorcier"
+    },
+    {
+      "section": 138,
+      "id": "138_20",
+      "transcription": "tɪ꞉dʹɩ",
+      "irish": "taoide",
+      "french": "marée"
+    }
   ]
 }
