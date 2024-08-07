@@ -4782,6 +4782,78 @@
       ],
       "irish": "ainmhidhe",
       "french": "animal"
+    },
+    {
+      "section": 59,
+      "id": "59_13",
+      "transcription": "sɛvʹɩrʹ",
+      "irish": "saidhbhir",
+      "french": "riche"
+    },
+    {
+      "section": 59,
+      "id": "59_14",
+      "transcription": "ganʹɩvʹ",
+      "irish": "gainimh",
+      "dative_of": "gaineamh"
+    },
+    {
+      "section": 59,
+      "id": "59_15",
+      "irish": "gaineamh",
+      "transcription": "ganʲəv",
+      "french": "sable",
+      "dative": "gainimh"
+    },
+    {
+      "section": 59,
+      "id": "59_16",
+      "transcription": "nʹivʹ",
+      "irish": "nimh",
+      "french": "poison"
+    },
+    {
+      "section": 59,
+      "id": "59_17",
+      "transcription": "oꞏ çiꞏɛnʹivʹ",
+      "irish": "ó chiainibh",
+      "french": "depuis un moment"
+    },
+    {
+      "section": 59,
+      "id": "59_18",
+      "transcription": "nʹi꞉ rɛvʹ ʃeꞏ",
+      "irish": "ní raibh sé",
+      "french": "il n’était pas"
+    },
+    {
+      "section": 59,
+      "id": "59_19",
+      "transcription": "ʃlʹe꞉vʹ",
+      "irish": "sleibh",
+      "dative_of": "sliabh"
+    },
+    {
+      "section": 59,
+      "id": "59_20",
+      "irish": "sliabh",
+      "transcription": "ʃlʹiꞏəv",
+      "french": "montagne",
+      "dative": "sleibh"
+    },
+    {
+      "section": 59,
+      "id": "59_21",
+      "transcription": "əgʷɩvʹ",
+      "irish": "agaibh",
+      "french": "à vous"
+    },
+    {
+      "section": 59,
+      "id": "59_22",
+      "transcription": "lʹivʹ",
+      "irish": "libh",
+      "french": "avec vous"
     }
   ]
 }
