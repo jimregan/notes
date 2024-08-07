@@ -7979,7 +7979,10 @@
     {
       "section": 107,
       "id": "107_12",
-      "transcription": "αrʹɩgʲəd et αrʹigʹəd",
+      "transcription": [
+        "αrʹɩgʲəd",
+        "αrʹigʹəd"
+      ],
       "irish": "airgead",
       "french": "argent"
     },
@@ -8024,6 +8027,44 @@
       "transcription": "mʷɪ꞉nʹtʹərhə",
       "irish": "muinteardha",
       "french": "familier"
+    }
+  ],
+  "108": [
+    {
+      "section": 108,
+      "id": "108_1",
+      "transcription": "tʹᴇh",
+      "irish": "te",
+      "french": "chaud"
+    },
+    {
+      "section": 108,
+      "id": "108_2",
+      "transcription": "tɪlʹɩ",
+      "irish": "tuille",
+      "french": "supplément"
+    },
+    {
+      "section": 108,
+      "id": "108_3",
+      "transcription": "bɑh",
+      "irish": "ba",
+      "plural_of": "bó"
+    },
+    {
+      "section": 108,
+      "id": "108_4",
+      "irish": "bó",
+      "transcription": "bo꞉",
+      "french": "vache",
+      "plural": "ba"
+    },
+    {
+      "section": 108,
+      "id": "108_5",
+      "transcription": "bɔgə",
+      "irish": "bogadh",
+      "french": "courber, amollir"
     }
   ]
 }
