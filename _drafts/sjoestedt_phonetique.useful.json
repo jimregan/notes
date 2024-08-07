@@ -10083,5 +10083,129 @@
       "irish": "réilthín",
       "french": "étoile"
     }
+  ],
+  "144": [
+    {
+      "section": 144,
+      "id": "144_1",
+      "transcription": "bʹᴇrʹɩmʹ",
+      "irish": "beirim",
+      "french": "je porte"
+    },
+    {
+      "section": 144,
+      "id": "144_2",
+      "transcription": [
+        "klʹᴇh",
+        "klʹeh"
+      ],
+      "irish": "cleith",
+      "french": "dissimulation"
+    },
+    {
+      "section": 144,
+      "id": "144_3",
+      "transcription": "dʹᴇrʹɩ",
+      "irish": "deire",
+      "french": "fin"
+    },
+    {
+      "section": 144,
+      "id": "144_4",
+      "transcription": "nʹi꞉ᵊsɩ jᴇʃɩ",
+      "irish": "níosa dheise",
+      "comparative_of": "deas"
+    },
+    {
+      "section": 144,
+      "id": "144_5",
+      "irish": "deas",
+      "transcription": "dʹαs",
+      "french": "joli",
+      "comparative": "níosa dheise"
+    },
+    {
+      "section": 144,
+      "id": "144_6",
+      "transcription": "dʹᴇfʹɩr",
+      "irish": "deithbhir",
+      "french": "hâte"
+    },
+    {
+      "section": 144,
+      "id": "144_7",
+      "transcription": "ᴇtʹəl",
+      "irish": "eiteall",
+      "french": "voler"
+    },
+    {
+      "section": 144,
+      "id": "144_8",
+      "transcription": "ᴇtʹɩmʹ",
+      "irish": "eitim",
+      "french": "opportunité"
+    },
+    {
+      "section": 144,
+      "id": "144_9",
+      "transcription": [
+        "ᴇrʹəbəl",
+        "ɛrʹəbəl"
+      ],
+      "irish": "eirball",
+      "french": "queue"
+    },
+    {
+      "section": 144,
+      "id": "144_10",
+      "transcription": "kʹᴇlʹtʹ",
+      "irish": "ceilt",
+      "french": "cacher"
+    },
+    {
+      "section": 144,
+      "id": "144_11",
+      "transcription": "gʹᴇlʹtʹ",
+      "irish": "geilt",
+      "french": "fou"
+    },
+    {
+      "section": 144,
+      "id": "144_12",
+      "transcription": "lʹᴇrʹɩgʹ",
+      "irish": "leirg",
+      "french": "terrain plane"
+    },
+    {
+      "section": 144,
+      "id": "144_13",
+      "transcription": "mʹᴇʃgʹɩ",
+      "irish": "meisce",
+      "french": "ivresse"
+    },
+    {
+      "section": 144,
+      "id": "144_14",
+      "transcription": "ʃᴇfʹtʹ",
+      "irish": "seift",
+      "french": "expédient"
+    },
+    {
+      "section": 144,
+      "id": "144_15",
+      "transcription": "ʃᴇlʹɩgʹ",
+      "irish": "seilg",
+      "french": "chasse"
+    },
+    {
+      "section": 144,
+      "id": "144_16",
+      "transcription": [
+        "tʹᴇhɩmʹ",
+        "tʹehɩmʹ"
+      ],
+      "irish": "teichim",
+      "french": "je fuis"
+    }
   ]
 }
