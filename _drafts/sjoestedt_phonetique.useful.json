@@ -6341,7 +6341,10 @@
     {
       "section": 80,
       "id": "80_3",
-      "transcription": "lʹitʹɩrʹ ou lʹᴇtʹɩrʹ",
+      "transcription": [
+        "lʹitʹɩrʹ",
+        "lʹᴇtʹɩrʹ"
+      ],
       "irish": "leitir",
       "french": "lettre"
     },
@@ -6393,6 +6396,83 @@
       "transcription": "lʲλm",
       "irish": "liom",
       "french": "à moi"
+    },
+    {
+      "section": 80,
+      "id": "80_11",
+      "transcription": "ʃlʹiꞏəv",
+      "irish": "sliabh",
+      "french": "montagne"
+    },
+    {
+      "section": 80,
+      "id": "80_12",
+      "transcription": "dʹlʹi꞉",
+      "irish": "dlighe",
+      "french": "loi"
+    },
+    {
+      "section": 80,
+      "id": "80_13",
+      "transcription": "klʹe꞉",
+      "irish": "clé",
+      "french": "gauche"
+    },
+    {
+      "section": 80,
+      "id": "80_14",
+      "transcription": "kʹe꞉lʹɩ",
+      "irish": "céile",
+      "french": "compagnon"
+    },
+    {
+      "section": 80,
+      "id": "80_15",
+      "transcription": "kʹᴇlʹtʹ",
+      "irish": "ceilt",
+      "french": "cacher"
+    },
+    {
+      "section": 80,
+      "id": "80_16",
+      "transcription": "kõ꞉rlʹɩ",
+      "irish": "comhairle",
+      "french": "conseil"
+    },
+    {
+      "section": 80,
+      "id": "80_17",
+      "transcription": "kʹimʹɩlʲɑ꞉ⁱlʹ",
+      "irish": "cimileáil",
+      "french": "friction énergique"
+    },
+    {
+      "section": 80,
+      "id": "80_18",
+      "transcription": "fɑ꞉ⁱlʹtʹɩ",
+      "irish": "fáilte",
+      "french": "bienvenue"
+    },
+    {
+      "section": 80,
+      "id": "80_19",
+      "transcription": "mʹi꞉lʹɩ",
+      "irish": "míle",
+      "french": "mille"
+    },
+    {
+      "section": 80,
+      "id": "80_20",
+      "transcription": "ʃᴇlʹɩgʹ",
+      "irish": "seilg",
+      "french": "chasse"
+    },
+    {
+      "section": 80,
+      "id": "80_21",
+      "transcription": "tɪlʹi",
+      "irish": "tuile",
+      "french": "surplus"
     }
   ]
 }
