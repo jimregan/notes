@@ -8214,6 +8214,70 @@
       ],
       "irish": "greim",
       "french": "bouchée"
+    },
+    {
+      "section": 113,
+      "id": "113_2",
+      "transcription": "ʃlʹäλⁱnʹ",
+      "irish": "sleamhain",
+      "french": "glissant"
+    },
+    {
+      "section": 113,
+      "id": "113_3",
+      "transcription": "fʹiꞏɛnʹ",
+      "irish": "fiadhain",
+      "french": "sauvage"
+    }
+  ],
+  "114": [
+    {
+      "section": 114,
+      "id": "114_1",
+      "transcription": [
+        "pᴀᴜl",
+        "pɔᴜl"
+      ],
+      "irish": "poll",
+      "french": "trou"
+    },
+    {
+      "section": 114,
+      "id": "114_2",
+      "transcription": "rᴀɪᵊrk",
+      "irish": "radharc",
+      "french": "regard"
+    },
+    {
+      "section": 114,
+      "id": "114_3",
+      "transcription": "kᴜꞏən",
+      "irish": "cuan",
+      "french": "crique, port"
+    },
+    {
+      "section": 114,
+      "id": "114_4",
+      "transcription": "rɪꞏəv",
+      "irish": "riamh",
+      "french": "jamais"
+    }
+  ],
+  "115": [
+    {
+      "section": 115,
+      "id": "115_1",
+      "transcription": "rairʹkʲ",
+      "irish": "radhairc",
+      "genitive_of": "radharc"
+    },
+    {
+      "section": 115,
+      "id": "115_2",
+      "irish": "radharc",
+      "transcription": "rᴀɪᵊrk",
+      "french": "regard",
+      "genitive": "radhairc"
     }
   ]
 }
