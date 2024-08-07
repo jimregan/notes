@@ -7770,5 +7770,74 @@
       "irish": "salann",
       "french": "sel"
     }
+  ],
+  "106": [
+    {
+      "section": 106,
+      "id": "106_1",
+      "transcription": "tɪlʹɩ",
+      "irish": "tuile",
+      "french": "supplément, surplus"
+    },
+    {
+      "section": 106,
+      "id": "106_2",
+      "transcription": "bʷɪlʹɩ",
+      "irish": "buile",
+      "french": "rage"
+    },
+    {
+      "section": 106,
+      "id": "106_3",
+      "transcription": "kʷɪrʹɩ",
+      "irish": "cuire",
+      "french": "invitation"
+    },
+    {
+      "section": 106,
+      "id": "106_4",
+      "transcription": "sɛvʹɩrʹ",
+      "irish": "saidhbhir",
+      "french": "riche"
+    },
+    {
+      "section": 106,
+      "id": "106_5",
+      "transcription": "rɛvʹ",
+      "irish": "raibh",
+      "french": "était"
+    },
+    {
+      "section": 106,
+      "id": "106_6",
+      "transcription": "köʃɩ",
+      "irish": "coise",
+      "genitive_of": "cos"
+    },
+    {
+      "section": 106,
+      "id": "106_7",
+      "irish": "cos",
+      "transcription": [
+        "kɔs",
+        "ko̤s"
+      ],
+      "french": "pied",
+      "genitive": "coise"
+    },
+    {
+      "section": 106,
+      "id": "106_8",
+      "transcription": "löʃg̬ʹɩmʹ",
+      "irish": "loiscim",
+      "french": "je brûle"
+    },
+    {
+      "section": 106,
+      "id": "106_9",
+      "transcription": "sg̬o̤lʹ",
+      "irish": "scoil",
+      "french": "école"
+    }
   ]
 }
