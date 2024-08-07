@@ -7639,5 +7639,130 @@
       "irish": "barr",
       "french": "sommet"
     }
+  ],
+  "104": [
+    {
+      "section": 104,
+      "id": "104_1",
+      "transcription": "ʃinʹɩ",
+      "irish": "sine",
+      "comparative_of": "sean‑",
+      "french": "plus âgé"
+    },
+    {
+      "section": 104,
+      "id": "104_2",
+      "irish": "sean‑",
+      "transcription": "ʃαn",
+      "french": "vieux",
+      "comparative": "sine"
+    },
+    {
+      "section": 104,
+      "id": "104_3",
+      "transcription": "tʹinʹɩ",
+      "irish": "teine",
+      "french": "feu"
+    },
+    {
+      "section": 104,
+      "id": "104_4",
+      "transcription": "bʹrʹᴇʃ",
+      "irish": "breis",
+      "french": "davantage"
+    },
+    {
+      "section": 104,
+      "id": "104_5",
+      "transcription": "kʹᴇlʹtʹ",
+      "irish": "ceilt",
+      "french": "cacher"
+    },
+    {
+      "section": 104,
+      "id": "104_6",
+      "transcription": "mʹᴇrʹigʹ",
+      "irish": "meirg",
+      "french": "rouille"
+    },
+    {
+      "section": 104,
+      "id": "104_7",
+      "transcription": "gʹatʹɩrʹɩ",
+      "irish": "geaitiri",
+      "french": "petit bâton, margotin"
+    }
+  ],
+  "105": [
+    {
+      "section": 105,
+      "id": "105_8",
+      "transcription": "dᴜv",
+      "irish": "dubh",
+      "french": "noir"
+    },
+    {
+      "section": 105,
+      "id": "105_9",
+      "transcription": "mᴜk",
+      "irish": "muc",
+      "french": "cochon"
+    },
+    {
+      "section": 105,
+      "id": "105_10",
+      "transcription": "brλh",
+      "irish": "bruth",
+      "french": "éruption"
+    },
+    {
+      "section": 105,
+      "id": "105_11",
+      "transcription": "bɔg",
+      "irish": "bog",
+      "french": "mou, doux"
+    },
+    {
+      "section": 105,
+      "id": "105_12",
+      "transcription": "gɔb ou go̤b",
+      "irish": "gob",
+      "french": "bec"
+    },
+    {
+      "section": 105,
+      "id": "105_13",
+      "transcription": "rʌd",
+      "irish": "rud",
+      "french": "chose"
+    },
+    {
+      "section": 105,
+      "id": "105_14",
+      "transcription": "mɑk",
+      "irish": "mac",
+      "french": "fils"
+    },
+    {
+      "section": 105,
+      "id": "105_15",
+      "transcription": "səlaꞏχ ou səlaχ",
+      "irish": "salach",
+      "french": "sale"
+    },
+    {
+      "section": 105,
+      "id": "105_16",
+      "transcription": "mɑrəv",
+      "irish": "marbh",
+      "french": "mort"
+    },
+    {
+      "section": 105,
+      "id": "105_17",
+      "transcription": "sɑlən",
+      "irish": "salann",
+      "french": "sel"
+    }
   ]
 }
