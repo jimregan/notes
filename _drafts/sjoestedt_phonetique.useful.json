@@ -7838,6 +7838,87 @@
       "transcription": "sg̬o̤lʹ",
       "irish": "scoil",
       "french": "école"
+    },
+    {
+      "section": 106,
+      "id": "106_10",
+      "transcription": "maʃɩ",
+      "irish": "maise",
+      "french": "bénéfice"
+    },
+    {
+      "section": 106,
+      "id": "106_11",
+      "transcription": "banʹi",
+      "irish": "bainne",
+      "french": "lait"
+    },
+    {
+      "section": 106,
+      "id": "106_12",
+      "transcription": "fʹiꞏəkʷɩlʹ",
+      "irish": "fiacail",
+      "french": "dent"
+    },
+    {
+      "section": 106,
+      "id": "106_13",
+      "transcription": "dʹαkʷɩrʹ",
+      "irish": "deacair",
+      "french": "difficile"
+    },
+    {
+      "section": 106,
+      "id": "106_14",
+      "transcription": "χah",
+      "irish": "chaith",
+      "french": "jeta"
+    },
+    {
+      "section": 106,
+      "id": "106_15",
+      "transcription": "rah",
+      "irish": "rath",
+      "french": "chance"
+    },
+    {
+      "section": 106,
+      "id": "106_16",
+      "transcription": "röh",
+      "french": "roue",
+      "genitive": "rɔhə",
+      "irish": "roth"
+    },
+    {
+      "section": 106,
+      "id": "106_17",
+      "transcription": "rɔhə",
+      "genitive_of": "roth"
+    }
+  ],
+  "107": [
+    {
+      "section": 107,
+      "id": "107_1",
+      "transcription": "bʹïr",
+      "irish": "bior",
+      "french": "pointe"
+    },
+    {
+      "section": 107,
+      "id": "107_2",
+      "transcription": [
+        "krʹïs",
+        "krʹis"
+      ],
+      "irish": "crios"
+    },
+    {
+      "section": 107,
+      "id": "107_3",
+      "transcription": "krʹïh",
+      "irish": "crith",
+      "french": "tremblement"
     }
   ]
 }
