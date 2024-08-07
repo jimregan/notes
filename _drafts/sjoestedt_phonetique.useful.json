@@ -9045,5 +9045,29 @@
       "irish": "bainne",
       "french": "lait"
     }
+  ],
+  "129": [
+    {
+      "section": 129,
+      "id": "129_1",
+      "transcription": "lɑ꞉",
+      "irish": "lá",
+      "french": "jour"
+    },
+    {
+      "section": 129,
+      "id": "129_2",
+      "transcription": "lɑ̃",
+      "irish": "lámha",
+      "plural_of": "lámh"
+    },
+    {
+      "section": 129,
+      "id": "129_3",
+      "irish": "lámh",
+      "transcription": "lɑ̃꞉v",
+      "french": "main",
+      "plural": "lámha"
+    }
   ]
 }
