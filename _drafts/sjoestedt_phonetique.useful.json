@@ -11273,6 +11273,27 @@
       "irish": "truth",
       "french": "fantôme",
       "genitive": "trɔhə"
+    },
+    {
+      "section": 159,
+      "id": "159_20",
+      "transcription": "pröh",
+      "french": "exclamation pour appeler les veaux"
+    },
+    {
+      "section": 159,
+      "id": "159_21",
+      "transcription": "stöh",
+      "irish": "stoth",
+      "french": "tignasse",
+      "genitive": "stotha"
+    },
+    {
+      "section": 159,
+      "id": "159_22",
+      "transcription": "stɔhə",
+      "irish": "stotha",
+      "genitive_of": "stoth"
     }
   ]
 }
