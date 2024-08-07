@@ -5059,5 +5059,30 @@
       "french": "langue",
       "plural": "teangacha"
     }
+  ],
+  "64": [
+    {
+      "section": 64,
+      "id": "64_1",
+      "transcription": "də χʺrʹᴇtʹ ʃeꞏ",
+      "irish": "do chreid sé",
+      "french": "il crut",
+      "from": "creidim"
+    },
+    {
+      "section": 64,
+      "id": "64_2",
+      "transcription": "kʺrʹᴇdʹimʹ",
+      "irish": "creidim",
+      "french": "je crois"
+    },
+    {
+      "section": 64,
+      "id": "64_3",
+      "transcription": "lɑ̃꞉v χʺlʹe꞉",
+      "irish": "lámh chlé",
+      "french": "main gauche",
+      "from": "clé"
+    }
   ]
 }
