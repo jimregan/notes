@@ -9097,5 +9097,100 @@
       "irish": "deimhis",
       "french": "tondeuse à moutons"
     }
+  ],
+  "132": [
+    {
+      "section": 132,
+      "id": "132_1",
+      "transcription": "bʹrʹiʃɩmʹ",
+      "irish": "brisim",
+      "french": "je brise"
+    },
+    {
+      "section": 132,
+      "id": "132_2",
+      "transcription": "dʹilʹəsg",
+      "irish": "duileasc",
+      "french": "algue comestible"
+    },
+    {
+      "section": 132,
+      "id": "132_3",
+      "transcription": "fʹihɩ",
+      "irish": "fiche",
+      "french": "vingt"
+    },
+    {
+      "section": 132,
+      "id": "132_4",
+      "transcription": "fʹirʹən",
+      "irish": "fireann",
+      "french": "mâle"
+    },
+    {
+      "section": 132,
+      "id": "132_5",
+      "transcription": "ihɩ",
+      "irish": "ithe",
+      "french": "manger"
+    },
+    {
+      "section": 132,
+      "id": "132_6",
+      "transcription": "glʹikʹ",
+      "irish": "glic",
+      "french": "adroit"
+    },
+    {
+      "section": 132,
+      "id": "132_7",
+      "transcription": "kʹibʹəl",
+      "irish": "cibeal",
+      "french": "discussion"
+    },
+    {
+      "section": 132,
+      "id": "132_8",
+      "transcription": "mʹilʹɩmʹ",
+      "irish": "millim",
+      "french": "je détruis"
+    },
+    {
+      "section": 132,
+      "id": "132_9",
+      "transcription": "mʹiʃnʹɩgʹ",
+      "irish": "misnigh",
+      "genitive_of": "misneach"
+    },
+    {
+      "section": 132,
+      "id": "132_10",
+      "irish": "misneach",
+      "transcription": "mʹiʃnʹαꞏχ",
+      "french": "courage",
+      "genitive": "misnigh"
+    },
+    {
+      "section": 132,
+      "id": "132_11",
+      "transcription": "ʃinʹɩ",
+      "irish": "sine",
+      "comparative_of": "sean"
+    },
+    {
+      "section": 132,
+      "id": "132_12",
+      "irish": "sean",
+      "transcription": "ʃαn",
+      "french": "vieux",
+      "comparative": "sine"
+    },
+    {
+      "section": 132,
+      "id": "132_13",
+      "transcription": "tʹigʹ",
+      "irish": "tigh",
+      "french": "maison"
+    }
   ]
 }
