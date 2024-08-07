@@ -8728,6 +8728,28 @@
       ],
       "irish": "cuileach",
       "french": "coq"
+    },
+    {
+      "section": 125,
+      "id": "125_10",
+      "transcription": "bʹᵊnaχt",
+      "irish": "beannacht",
+      "french": "bénédiction"
+    },
+    {
+      "section": 125,
+      "id": "125_11",
+      "transcription": "ɛbʹⁱrʹɩ",
+      "irish": "oibre",
+      "genitive_of": "obair"
+    },
+    {
+      "section": 125,
+      "id": "125_12",
+      "irish": "obair",
+      "transcription": "ɔbʷɩrʹ",
+      "french": "travail",
+      "genitive": "oibre"
     }
   ]
 }
