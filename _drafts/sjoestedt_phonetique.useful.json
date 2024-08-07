@@ -11474,5 +11474,132 @@
       "irish": "tormas",
       "french": "bouderie"
     }
+  ],
+  "163": [
+    {
+      "section": 163,
+      "id": "163_1",
+      "transcription": "əgɑm",
+      "irish": "agam",
+      "french": "à moi"
+    },
+    {
+      "section": 163,
+      "id": "163_2",
+      "transcription": "ərɑ̃꞉n",
+      "irish": "arán",
+      "french": "pain"
+    },
+    {
+      "section": 163,
+      "id": "163_3",
+      "transcription": "bəkaꞏχ",
+      "irish": "bacach",
+      "french": "boiteux"
+    },
+    {
+      "section": 163,
+      "id": "163_4",
+      "transcription": "bʲəgɑ̃꞉n",
+      "irish": "beagán",
+      "french": "un peu"
+    },
+    {
+      "section": 163,
+      "id": "163_5",
+      "transcription": "bərlaꞏχ",
+      "irish": "brollach",
+      "french": "sein"
+    },
+    {
+      "section": 163,
+      "id": "163_6",
+      "transcription": "kəsɑ̃꞉n",
+      "irish": "casán",
+      "french": "sentier"
+    },
+    {
+      "section": 163,
+      "id": "163_7",
+      "transcription": "kʲətaꞏχ",
+      "irish": "ciotach",
+      "french": "gaucher"
+    },
+    {
+      "section": 163,
+      "id": "163_8",
+      "transcription": "ɑmədɑ̃꞉n",
+      "irish": "amadán",
+      "french": "idiot"
+    },
+    {
+      "section": 163,
+      "id": "163_9",
+      "transcription": "dərᴜ꞉",
+      "irish": "dorughadh",
+      "french": "hameçon"
+    },
+    {
+      "section": 163,
+      "id": "163_10",
+      "transcription": [
+        "fʹlʲəχɑ̃꞉n",
+        "fʹlʲλχɑ̃꞉n"
+      ],
+      "irish": "fliuchán",
+      "french": "pluie"
+    },
+    {
+      "section": 163,
+      "id": "163_11",
+      "transcription": [
+        "mərᴜ꞉",
+        "mɑrᴜ꞉"
+      ],
+      "irish": "marughadh",
+      "french": "tuer"
+    },
+    {
+      "section": 163,
+      "id": "163_12",
+      "transcription": "pərtɑ̃꞉n",
+      "irish": "portán",
+      "french": "crabe"
+    },
+    {
+      "section": 163,
+      "id": "163_13",
+      "transcription": [
+        "ʃlʲəgɑ̃꞉n",
+        "ʃlʲïgɑ̃꞉n"
+      ],
+      "irish": "sliogán",
+      "french": "coquillage"
+    },
+    {
+      "section": 163,
+      "id": "163_14",
+      "transcription": [
+        "tənɪ꞉",
+        "tɑnɪ꞉"
+      ],
+      "irish": "tanaidhe",
+      "french": "mince"
+    },
+    {
+      "section": 163,
+      "id": "163_15",
+      "transcription": "təlᴜ꞉n",
+      "irish": "talmhan",
+      "genitive_of": "talamh"
+    },
+    {
+      "section": 163,
+      "id": "163_16",
+      "irish": "talamh",
+      "transcription": "tɑləv",
+      "french": "terre",
+      "genitive": "talmhan"
+    }
   ]
 }
