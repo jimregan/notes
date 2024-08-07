@@ -5129,9 +5129,32 @@
     {
       "section": 65,
       "id": "65_5",
+      "transcription": "dötʹ",
+      "irish": "duit",
+      "french": "à toi"
+    },
+    {
+      "section": 65,
+      "id": "65_6",
       "transcription": "ɑnəǥʷᴇ̈꞉ᵊh",
       "irish": "anaghaoth",
-      "french": "vent violent"
+      "french": "vent violent",
+      "from": "gaoth"
+    },
+    {
+      "section": 65,
+      "id": "65_7",
+      "transcription": "gʷᴇ̈꞉h",
+      "irish": "gaoth",
+      "french": "vent"
+    },
+    {
+      "section": 65,
+      "id": "65_8",
+      "transcription": "foǥʷɩnʹɩ",
+      "irish": "fo-dhuine",
+      "french": "quelques personnes",
+      "from": "duine"
     }
   ]
 }
