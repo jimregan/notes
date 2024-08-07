@@ -10737,5 +10737,118 @@
       "irish": "liobarnach",
       "french": "mal soigné, mal tenu (en parlant d’une personne)"
     }
+  ],
+  "152": [
+    {
+      "section": 152,
+      "id": "152_1",
+      "transcription": "ɑlɩʃ",
+      "irish": "alluis",
+      "genitive_of": "allus"
+    },
+    {
+      "section": 152,
+      "id": "152_2",
+      "irish": "allus",
+      "transcription": "ɑləs",
+      "french": "sueur",
+      "genitive": "alluis"
+    },
+    {
+      "section": 152,
+      "id": "152_3",
+      "transcription": "kʹigʹɩlʹɩʃ",
+      "irish": "cigilis",
+      "french": "chatouillement"
+    },
+    {
+      "section": 152,
+      "id": "152_4",
+      "transcription": "dʲo̤kʷɩrʹ",
+      "irish": "deacair",
+      "french": "difficile"
+    },
+    {
+      "section": 152,
+      "id": "152_5",
+      "transcription": "dʹrʹe꞉mɩrʹɩ",
+      "irish": "dréimire",
+      "french": "échelle"
+    },
+    {
+      "section": 152,
+      "id": "152_6",
+      "transcription": "dʹirʹɩgʹɩ",
+      "irish": "deirge",
+      "comparative_of": "dearg"
+    },
+    {
+      "section": 152,
+      "id": "152_7",
+      "irish": "dearg",
+      "transcription": "dʹαrəg",
+      "french": "rouge",
+      "comparative": "deirge"
+    },
+    {
+      "section": 152,
+      "id": "152_8",
+      "transcription": "fʹiꞏəkʷɩlʹ",
+      "irish": "fiacail",
+      "french": "dent"
+    },
+    {
+      "section": 152,
+      "id": "152_9",
+      "transcription": "idʹɩrʹ",
+      "irish": "idir",
+      "french": "entre"
+    },
+    {
+      "section": 152,
+      "id": "152_10",
+      "transcription": "lʹαnɩmʹ",
+      "irish": "leanaim",
+      "french": "je suis"
+    },
+    {
+      "section": 152,
+      "id": "152_11",
+      "transcription": "mɑ꞉hɩrʹ",
+      "irish": "máthair",
+      "french": "mère"
+    },
+    {
+      "section": 152,
+      "id": "152_12",
+      "transcription": "sɔlɩʃ",
+      "irish": "solais",
+      "genitive_of": "solas"
+    },
+    {
+      "section": 152,
+      "id": "152_13",
+      "irish": "solas",
+      "transcription": "sɔləs",
+      "french": "lumière",
+      "genitive": "solais"
+    },
+    {
+      "section": 152,
+      "id": "152_14",
+      "transcription": "tᴜkʷɩgʹ",
+      "irish": "tiocfaidh",
+      "french": "(il) viendra"
+    },
+    {
+      "section": 152,
+      "id": "152_15",
+      "transcription": [
+        "ᴜɛgʹɩnʹəs",
+        "ᴜɛgʹⁱnʹəs"
+      ],
+      "irish": "uaigneas",
+      "french": "solitude"
+    }
   ]
 }
