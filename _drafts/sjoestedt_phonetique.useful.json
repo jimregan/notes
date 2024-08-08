@@ -18628,14 +18628,18 @@
       "id": "275_8",
       "transcription": "ˈdʹαrəgˌvadʹɩnʹ",
       "irish": "dearg-mhaidin",
-      "french": "le petit jour"
+      "french": "le petit jour",
+      "contrast": "dearg-náire",
+      "contrast_id": "275_9",
+      "french_note": "litt. « l’aube rouge »"
     },
     {
       "section": 275,
       "id": "275_9",
       "transcription": "ˌdʹαrəgˈnɑ:ⁱrʹɩ",
       "irish": "dearg-náire",
-      "french": "grand honte"
+      "french": "grand honte",
+      "french_note": "litt. « honte rouge »"
     }
   ]
 }
