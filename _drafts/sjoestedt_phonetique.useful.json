@@ -17450,6 +17450,37 @@
       "transcription": "gnʹi:ᵊv",
       "irish": "gníomh",
       "french": "action"
+    },
+    {
+      "section": 247,
+      "id": "247_3",
+      "transcription": "fʷɪhɩnʲəχ",
+      "irish": "foithineach",
+      "french": "abrité"
+    },
+    {
+      "section": 247,
+      "id": "247_4",
+      "transcription": "imʹɩnʹi:",
+      "irish": "imshníomh",
+      "french": "souci"
+    },
+    {
+      "section": 247,
+      "id": "247_5",
+      "transcription": "mnɪ:",
+      "irish": "mnaoi",
+      "dative_of": "bean",
+      "contrast": "bean",
+      "contrast_id": "247_6"
+    },
+    {
+      "section": 247,
+      "id": "247_6",
+      "irish": "bean",
+      "transcription": "bʹαn",
+      "french": "femme",
+      "dative": "mnaoi"
     }
   ]
 }
