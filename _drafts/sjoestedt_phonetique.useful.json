@@ -13928,6 +13928,52 @@
       "transcription": "nə hαinʹtʹɩ",
       "irish": "na haibhnte",
       "french": "les rivières"
+    },
+    {
+      "section": 195,
+      "id": "195_26",
+      "transcription_sic": [
+        "ə hαigʹ",
+        "häigʹ"
+      ],
+      "transcription": [
+        "ə hαigʹ",
+        "ə häigʹ"
+      ],
+      "irish": "a Thaidhg",
+      "vocative_of": "Tadhg"
+    },
+    {
+      "section": 195,
+      "id": "195_27",
+      "transcription": [
+        "hαigʹ",
+        "häigʹ"
+      ],
+      "irish": "Thaidhg",
+      "french_note": "génitif à l’initiale modifiée",
+      "genitive_of": "Tadhg"
+    },
+    {
+      "section": 195,
+      "id": "195_28",
+      "transcription": "tᴀɪᵊg",
+      "irish": "Tadhg",
+      "genitive": [
+        "Thaidhg",
+        "Taidhg"
+      ],
+      "vocative": "a Thaidhg",
+      "french_note": "nom d’homme"
+    },
+    {
+      "section": 195,
+      "id": "195_29",
+      "transcription_sic": "Taigʹ",
+      "transcription": "taigʹ",
+      "irish": "Taidhg",
+      "french_note": "génitif non modifié",
+      "genitive_of": "Tadhg"
     }
   ]
 }
