@@ -15104,5 +15104,114 @@
       "irish": "uatha",
       "french": "d’eux"
     }
+  ],
+  "211": [
+    {
+      "section": 211,
+      "id": "211_1",
+      "transcription": "bᴜꞏɛlʹɩmʹ",
+      "irish": "buailim",
+      "french": "je frappe"
+    },
+    {
+      "section": 211,
+      "id": "211_2",
+      "transcription": "krᴜꞏɛgʹ",
+      "irish": "cruaidh",
+      "french": "dur"
+    },
+    {
+      "section": 211,
+      "id": "211_3",
+      "transcription": "krᴜꞏɛmʹ",
+      "irish": "cruadhaim",
+      "french": "je durcis"
+    },
+    {
+      "section": 211,
+      "id": "211_4",
+      "transcription": "dᴜꞏɛgʹ",
+      "irish": "duaigh",
+      "genitive_of": "duagh"
+    },
+    {
+      "section": 211,
+      "id": "211_5",
+      "irish": "duagh",
+      "transcription": "dᴜꞏə",
+      "french": "chagrin",
+      "genitive": "duaigh"
+    },
+    {
+      "section": 211,
+      "id": "211_6",
+      "transcription": "dᴜꞏɛʃ",
+      "irish": "duais",
+      "french": "récompense"
+    },
+    {
+      "section": 211,
+      "id": "211_7",
+      "transcription": "fᴜꞏɛmʹ",
+      "irish": "fuaim",
+      "french": "son"
+    },
+    {
+      "section": 211,
+      "id": "211_8",
+      "transcription": "lᴜꞏɛmʹ",
+      "irish": "luadhaim",
+      "french": "j’agite"
+    },
+    {
+      "section": 211,
+      "id": "211_9",
+      "transcription": "sᴜꞏɛnʹəs",
+      "irish": "suaineas",
+      "french": "repos, tranquillité"
+    },
+    {
+      "section": 211,
+      "id": "211_10",
+      "transcription": "ᴜꞏɛʃlʹəχt",
+      "irish": "uaisleacht",
+      "french": "noblesse"
+    },
+    {
+      "section": 211,
+      "id": "211_11",
+      "transcription": "ᴜꞏɛrʹ",
+      "irish": "uair",
+      "french": "heure, fois"
+    },
+    {
+      "section": 211,
+      "id": "211_12",
+      "transcription": "ᴜɛnʹ",
+      "irish": "uain",
+      "genitive_of": "uan"
+    },
+    {
+      "section": 211,
+      "id": "211_13",
+      "irish": "uan",
+      "transcription": "ᴜꞏən",
+      "french": "agneau",
+      "genitive": "uain"
+    },
+    {
+      "section": 211,
+      "id": "211_14",
+      "transcription": "ᴜꞏɛmʹ",
+      "irish": "uaim",
+      "french": "de moi"
+    },
+    {
+      "section": 211,
+      "id": "211_15",
+      "transcription": "wɛnʹɩ",
+      "irish": "uaine",
+      "french": "vert"
+    }
   ]
 }
