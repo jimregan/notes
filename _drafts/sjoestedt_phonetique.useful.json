@@ -15461,5 +15461,36 @@
       "irish": "scarf",
       "french": "écharpe"
     }
+  ],
+  "218": [
+    {
+      "section": 218,
+      "id": "218_1",
+      "transcription": "kainʹtʹ",
+      "irish": "cainnt",
+      "french": "parler"
+    },
+    {
+      "section": 218,
+      "id": "218_2",
+      "transcription": "bᴀᴜŋk",
+      "irish": "bannc",
+      "french": "banc (de poisson)",
+      "genitive": "bainnc"
+    },
+    {
+      "section": 218,
+      "id": "218_3",
+      "transcription": "bʷi꞉ŋʹkʹ",
+      "irish": "bainnc",
+      "genitive_of": "bannc"
+    },
+    {
+      "section": 218,
+      "id": "218_4",
+      "transcription": "ʃrʹaᴜ̃ŋg",
+      "irish": "sreang",
+      "french": "corde"
+    }
   ]
 }
