@@ -13751,5 +13751,178 @@
       "irish": "coimeád",
       "french": "garder"
     }
+  ],
+  "195": [
+    {
+      "section": 195,
+      "id": "195_1",
+      "transcription": "bainʹtʹⁱrʹəχ",
+      "irish": "baintreach",
+      "french": "veuve"
+    },
+    {
+      "section": 195,
+      "id": "195_2",
+      "transcription": "kainʹtʹ",
+      "irish": "cainnt",
+      "french": "conversation"
+    },
+    {
+      "section": 195,
+      "id": "195_3",
+      "transcription": "kailʹtʹɩ",
+      "irish": "caillte",
+      "french": "perdu"
+    },
+    {
+      "section": 195,
+      "id": "195_4",
+      "transcription": "klairʹɩ",
+      "irish": "cladhaire",
+      "french": "coquin"
+    },
+    {
+      "section": 195,
+      "id": "195_5",
+      "transcription": "maidʹən",
+      "irish": "maighdean",
+      "french": "vierge"
+    },
+    {
+      "section": 195,
+      "id": "195_6",
+      "transcription": "dainʹ",
+      "irish": "doimhin",
+      "french": "profond"
+    },
+    {
+      "section": 195,
+      "id": "195_7",
+      "transcription": "failʹ",
+      "irish": "faill",
+      "french": "falaise"
+    },
+    {
+      "section": 195,
+      "id": "195_8",
+      "transcription": "faimʹ",
+      "irish": "faighim",
+      "french": "j’obtiens"
+    },
+    {
+      "section": 195,
+      "id": "195_9",
+      "transcription": "rainʹtʹ",
+      "irish": "rainnt",
+      "french": "partager"
+    },
+    {
+      "section": 195,
+      "id": "195_10",
+      "transcription": "rairʹkʹ",
+      "irish": "radhairc",
+      "genitive_of": "voir § suivant"
+    },
+    {
+      "section": 195,
+      "id": "195_11",
+      "irish": "voir § suivant",
+      "transcription": "rᴀɪᵊrk",
+      "french": "rivière",
+      "genitive": "radhairc"
+    },
+    {
+      "section": 195,
+      "id": "195_12",
+      "transcription": "stairʹɩ",
+      "irish": "staidhre",
+      "french": "escalier"
+    },
+    {
+      "section": 195,
+      "id": "195_13",
+      "transcription": "saidʲu꞉ⁱrʹ",
+      "irish": "saighdiúir",
+      "french": "soldat"
+    },
+    {
+      "section": 195,
+      "id": "195_14",
+      "transcription": "sainʹtʹ",
+      "irish": "sainnt",
+      "french": "avidité"
+    },
+    {
+      "section": 195,
+      "id": "195_15",
+      "transcription": "taiʃɩ",
+      "irish": "taidhse",
+      "french": "apparition"
+    },
+    {
+      "section": 195,
+      "id": "195_16",
+      "transcription": "sailʹʃu꞉",
+      "irish": "soillsiughadh",
+      "french": "resplendir"
+    },
+    {
+      "section": 195,
+      "id": "195_17",
+      "transcription": "aimʹʃɩrʹ",
+      "irish": "aimsir",
+      "french": "temps"
+    },
+    {
+      "section": 195,
+      "id": "195_18",
+      "transcription": "aigʹ",
+      "irish": "aghaidh",
+      "french": "visage"
+    },
+    {
+      "section": 195,
+      "id": "195_19",
+      "transcription": "ainʹtʹɩ",
+      "irish": "aibhnte",
+      "plural_of": "abhainn"
+    },
+    {
+      "section": 195,
+      "id": "195_20",
+      "irish": "abhainn",
+      "transcription": "aλⁱnʹ",
+      "french": "rivière",
+      "plural": "aibhnte"
+    },
+    {
+      "section": 195,
+      "id": "195_21",
+      "transcription": "ainʹlʲᴜ꞉",
+      "irish": "aidhnliughadh",
+      "french": "louvoyer sur place"
+    },
+    {
+      "section": 195,
+      "id": "195_22",
+      "transcription": "aimʹ",
+      "irish": "aidhm",
+      "french": "penchant, inclination"
+    },
+    {
+      "section": 195,
+      "id": "195_23",
+      "transcription": "airʹkʹɩ",
+      "irish": "adhairce",
+      "genitive_of": "foo"
+    },
+    {
+      "section": 195,
+      "id": "195_24",
+      "irish": "foo",
+      "transcription": "ᴀɪᵊrk",
+      "french": "rivière",
+      "genitive": "adhairce"
+    }
   ]
 }
