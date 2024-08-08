@@ -18640,6 +18640,31 @@
       "irish": "dearg-náire",
       "french": "grand honte",
       "french_note": "litt. « honte rouge »"
+    },
+    {
+      "section": 275,
+      "id": "275_10",
+      "transcription": "ˈʃαnˌdɪnʹɩ",
+      "irish": "seanduine",
+      "french": "vieillard",
+      "contrast": "seana-bhróg",
+      "contrast_id": "275_12"
+    },
+    {
+      "section": 275,
+      "id": "275_11",
+      "transcription": "ˈʃαnəˌvʹαn",
+      "irish": "seanabhean",
+      "french": "vieille femme",
+      "contrast": "seana-bhróg",
+      "contrast_id": "275_12"
+    },
+    {
+      "section": 275,
+      "id": "275_12",
+      "transcription": "ˌʃαnəˈvro:g",
+      "irish": "seana-bhróg",
+      "french": "vieux soulier"
     }
   ]
 }
