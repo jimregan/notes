@@ -17393,6 +17393,29 @@
       "transcription": "ə χrɑ:",
       "irish": "do chrádh",
       "french": "contrarier"
+    },
+    {
+      "section": 246,
+      "id": "246_9",
+      "transcription": "fʷɪ:hɩrʹəχ",
+      "irish": "faoithireach",
+      "french": "moquerie"
+    },
+    {
+      "section": 246,
+      "id": "246_10",
+      "transcription": "αhɩrʹɩʃ",
+      "irish": "aithris",
+      "french": "imitation",
+      "contrast": "do thriall",
+      "contrast_id": "246_11"
+    },
+    {
+      "section": 246,
+      "id": "246_11",
+      "transcription": "də hrʹi·əl",
+      "irish": "do thriall",
+      "french": "le but de ton voyage"
     }
   ]
 }
