@@ -17482,5 +17482,23 @@
       "french": "femme",
       "dative": "mnaoi"
     }
+  ],
+  "248": [
+    {
+      "section": 248,
+      "id": "248_1",
+      "transcription": "ɑdᵊvʷɪ:mʹ",
+      "irish": "admhuighim",
+      "french": "j’avoue",
+      "contrast": "gabháilt",
+      "contrast_id": "248_2"
+    },
+    {
+      "section": 248,
+      "id": "248_2",
+      "transcription": "gvɑ:ⁱlʹtʹ",
+      "irish": "gabháilt",
+      "french": "prendre"
+    }
   ]
 }
