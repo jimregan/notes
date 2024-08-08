@@ -17942,5 +17942,35 @@
       "irish": "shnáimh sé",
       "french": "il nagea"
     }
+  ],
+  "256": [
+    {
+      "section": 256,
+      "id": "256_1",
+      "transcription": "ɑ:rd",
+      "irish": "árd",
+      "french": "haut"
+    },
+    {
+      "section": 256,
+      "id": "256_2",
+      "transcription": "grɑ:",
+      "irish": "grádh",
+      "french": "amour"
+    },
+    {
+      "section": 256,
+      "id": "256_3",
+      "transcription": "kʹαrt",
+      "irish": "ceart",
+      "french": "droit"
+    },
+    {
+      "section": 256,
+      "id": "256_4",
+      "transcription": "e:",
+      "irish": "é",
+      "french": "lui"
+    }
   ]
 }
