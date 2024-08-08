@@ -17244,5 +17244,38 @@
       "irish": "neamhscrupall",
       "french": "manque de conscience"
     }
+  ],
+  "243": [
+    {
+      "section": 243,
+      "id": "243_1",
+      "transcription": "bʹì:alʲλχ",
+      "irish": "béalfhliuch",
+      "french": "humide, crachotant (en parlant du temps)",
+      "from": [
+        "béal",
+        "lʲλχ"
+      ]
+    },
+    {
+      "section": 243,
+      "id": "243_2",
+      "transcription": "bʹì:al",
+      "irish": "béal",
+      "french": "bouche"
+    },
+    {
+      "section": 243,
+      "id": "243_3",
+      "transcription": "lʲλχ",
+      "form_of": "fliuch"
+    },
+    {
+      "section": 243,
+      "id": "243_4",
+      "transcription": "fʹlʲλχ",
+      "irish": "fliuch",
+      "french": "humide"
+    }
   ]
 }
