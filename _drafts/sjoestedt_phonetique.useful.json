@@ -15428,14 +15428,15 @@
       "id": "217_4",
       "transcription": "kʹαrk",
       "irish": "cearc",
-      "french": "poule"
+      "french": "poule",
+      "dative": "circ"
     },
     {
       "section": 217,
       "id": "217_5",
       "transcription": "kʹirʹkʹ",
       "irish": "circ",
-      "french": "dat. du même mot"
+      "dative_of": "cearc"
     },
     {
       "section": 217,
