@@ -19984,14 +19984,16 @@
       "id": "300_2",
       "transcription": "ɪrʹə də frɪ:",
       "irish": "oiread do fruigh",
-      "french": "toute petite quantité"
+      "french": "toute petite quantité",
+      "for": "ɪrʹəd də frɪ:"
     },
     {
       "section": 300,
       "id": "300_3",
       "transcription": "kɑd də bɑ:ⁱlʹαt",
       "irish": "cad do b’áit leat",
-      "french": "quelle raison as-tu de… ?"
+      "french": "quelle raison as-tu de… ?",
+      "for": "kɑd də bɑ:ⁱlʹ lʹαt"
     },
     {
       "section": 300,
@@ -20012,28 +20014,32 @@
       "id": "300_6",
       "transcription": "gʲaᴜ lʹe:",
       "irish": "geall lé",
-      "french": "presque"
+      "french": "presque",
+      "for": "gʲaᴜl lʹe:"
     },
     {
       "section": 300,
       "id": "300_7",
       "transcription": "is mʹihə dötʹ",
       "irish": "is mithid duit",
-      "french": "il est temps que tu…"
+      "french": "il est temps que tu…",
+      "for": "is mʹihɩdʹ dötʹ"
     },
     {
       "section": 300,
       "id": "300_8",
       "transcription": "nʹi:lʹ ʃe ɛ dʌ lʲλm",
       "irish": "níl sé ag dul liom",
-      "french": "cela ne me convient pas"
+      "french": "cela ne me convient pas",
+      "for": "ɛ dʌl lʲλm"
     },
     {
       "section": 300,
       "id": "300_9",
       "transcription": "kɑ dʹᴇrʹən tᴜ:",
       "irish": "cad deireann tú ?",
-      "french": "qu’est-ce que tu dis ?"
+      "french": "qu’est-ce que tu dis ?",
+      "for": "kɑd dʹᴇrʹən tᴜ:"
     }
   ]
 }
