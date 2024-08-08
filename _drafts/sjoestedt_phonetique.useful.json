@@ -19385,14 +19385,20 @@
       "id": "291_1",
       "transcription": "mɑdərᴜ·ə",
       "irish": "madraruadh",
-      "french": "renard"
+      "french": "renard",
+      "from": [
+        "madra",
+        "ruadh"
+      ]
     },
     {
       "section": 291,
       "id": "291_2",
       "transcription": "mɑdᵊrə",
       "irish": "madra",
-      "french": "chien"
+      "french": "chien",
+      "contrast": "ruadh",
+      "contrast_id": "291_3"
     },
     {
       "section": 291,
