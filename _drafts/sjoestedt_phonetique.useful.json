@@ -12821,5 +12821,50 @@
       "irish": "tobar",
       "french": "puits"
     }
+  ],
+  "179": [
+    {
+      "section": 179,
+      "id": "179_1",
+      "transcription": "bʲo̤g",
+      "irish": "beag",
+      "french": "petit"
+    },
+    {
+      "section": 179,
+      "id": "179_2",
+      "transcription": "ɩnʲ o̤χʷɩrʹ",
+      "irish": "an eochair",
+      "french": "la clef"
+    },
+    {
+      "section": 179,
+      "id": "179_3",
+      "transcription": "dʲo̤kʷɩrʹ",
+      "irish": "deacair",
+      "french": "difficile"
+    },
+    {
+      "section": 179,
+      "id": "179_4",
+      "transcription": "sg̬o̤lʹ",
+      "irish": "scoil",
+      "french": "école",
+      "genitive": "scoile"
+    },
+    {
+      "section": 179,
+      "id": "179_5",
+      "transcription": "sg̬ölʹɩ",
+      "irish": "scoile",
+      "genitive_of": "scoil"
+    },
+    {
+      "section": 179,
+      "id": "179_6",
+      "transcription": "to̤lʹ",
+      "irish": "toil",
+      "french": "volonté"
+    }
   ]
 }
