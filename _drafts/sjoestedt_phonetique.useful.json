@@ -18518,5 +18518,50 @@
       "irish": "tráthnóintí",
       "french": "soirées"
     }
+  ],
+  "273": [
+    {
+      "section": 273,
+      "id": "273_1",
+      "transcription": "ˌstrɑpəˈdo:ⁱrʹəχt",
+      "irish": "strapadóireacht",
+      "french": "escalade"
+    },
+    {
+      "section": 273,
+      "id": "273_2",
+      "transcription": "kʷɩˌdʹαχtəˈnᴜ:ⁱlʹ",
+      "irish": "cuideachtanamhail",
+      "french": "sociable"
+    },
+    {
+      "section": 273,
+      "id": "273_3",
+      "transcription": "χəmʲɑ:dɩˌdʹi:ʃtʹ",
+      "irish": "choimeádaidís",
+      "french": "ils avaient coutume de garder"
+    },
+    {
+      "section": 273,
+      "id": "273_4",
+      "transcription": "ˈmɑ:hɩrʹᵊχə",
+      "irish": "máithreacha",
+      "plural_of": "máthair"
+    },
+    {
+      "section": 273,
+      "id": "273_5",
+      "irish": "máthair",
+      "transcription": "mɑ:hɩrʹ",
+      "french": "mère",
+      "plural": "máithreacha"
+    },
+    {
+      "section": 273,
+      "id": "273_6",
+      "transcription": "ˈfɔhərəgə",
+      "irish": "fothragadh",
+      "french": "hâte, affolement"
+    }
   ]
 }
