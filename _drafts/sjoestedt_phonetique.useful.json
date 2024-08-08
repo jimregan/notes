@@ -13670,5 +13670,86 @@
       "irish": "salach",
       "french": "sale"
     }
+  ],
+  "189": [
+    {
+      "section": 189,
+      "id": "189_1",
+      "transcription": [
+        "fʲa꞉r",
+        "fʲɑ꞉r"
+      ],
+      "irish": "fearr",
+      "french": "meilleur"
+    },
+    {
+      "section": 189,
+      "id": "189_2",
+      "transcription": [
+        "gʲa꞉r",
+        "gʲɑ꞉r"
+      ],
+      "irish": "gearr",
+      "french": "court, proche (dans le temps)"
+    },
+    {
+      "section": 189,
+      "id": "189_3",
+      "transcription": [
+        "bʲa꞉rhə",
+        "bʲɑ꞉rhə"
+      ],
+      "irish": "bearrtha",
+      "french": "rasé"
+    },
+    {
+      "section": 189,
+      "id": "189_4",
+      "transcription": [
+        "ɩ çã꞉ⁱn",
+        "ɩ çɑ̃꞉ⁱnʹ"
+      ],
+      "irish": "a Sheáin",
+      "french": "Jean !",
+      "vocative_of": "Seán"
+    },
+    {
+      "section": 189,
+      "id": "189_5",
+      "transcription": "ʃɑ̃꞉n",
+      "irish": "Seán",
+      "french": "Jean",
+      "vocative": "a Sheáin"
+    },
+    {
+      "section": 189,
+      "id": "189_6",
+      "transcription": [
+        "mʹⁱnʲa꞉l",
+        "mʹⁱnʲɑ꞉l"
+      ],
+      "irish": "muineál",
+      "french": "cou"
+    },
+    {
+      "section": 189,
+      "id": "189_7",
+      "transcription": [
+        "ɩnʲa꞉l",
+        "ɩnʲɑ꞉l"
+      ],
+      "irish": "anál",
+      "french": "haleine"
+    },
+    {
+      "section": 189,
+      "id": "189_8",
+      "transcription": [
+        "kʹɩmʲa꞉d",
+        "kʹɩmʲɑ꞉d"
+      ],
+      "irish": "coimeád",
+      "french": "garder"
+    }
   ]
 }
