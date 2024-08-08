@@ -17651,5 +17651,28 @@
       "irish": "ceathramha",
       "french": "quart"
     }
+  ],
+  "250": [
+    {
+      "section": 250,
+      "id": "250_1",
+      "transcription": "rəχo:ⁱdʹ",
+      "irish": "urchóid",
+      "french": "désastre"
+    },
+    {
+      "section": 250,
+      "id": "250_2",
+      "transcription": "rəχo:ⁱdʲəχ",
+      "irish": "urchóideach",
+      "french": "désastreux"
+    },
+    {
+      "section": 250,
+      "id": "250_3",
+      "transcription": "rʌχər",
+      "irish": "urchor",
+      "french": "jet"
+    }
   ]
 }
