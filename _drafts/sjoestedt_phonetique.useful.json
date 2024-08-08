@@ -11896,5 +11896,80 @@
       "irish": "indiu",
       "french": "aujourd’hui"
     }
+  ],
+  "167": [
+    {
+      "section": 167,
+      "id": "167_1",
+      "transcription": [
+        "ɩnʲλməd",
+        "ən ᴜməd"
+      ],
+      "irish": "an iomad",
+      "french": "une grande quantité",
+      "contrast": "ᴜmədu꞉ⁱlʹ",
+      "contrast_id": "167_2"
+    },
+    {
+      "section": 167,
+      "id": "167_2",
+      "transcription": "ᴜmədu꞉ⁱlʹ",
+      "irish": "iomadamhail",
+      "french": "abondant"
+    },
+    {
+      "section": 167,
+      "id": "167_3",
+      "transcription": [
+        "ɩnʲ λmərkə",
+        "ən ᴜmərkə"
+      ],
+      "irish": "an iomarcadh",
+      "french": "trop",
+      "contrast": "go hᴜmərkəχ",
+      "contrast_id": "167_4"
+    },
+    {
+      "section": 167,
+      "id": "167_4",
+      "transcription": "go hᴜmərkəχ",
+      "irish": "go hiomarcach",
+      "french": "de grand cœur"
+    },
+    {
+      "section": 167,
+      "id": "167_5",
+      "transcription": [
+        "λnəs",
+        "ᴜnəs"
+      ],
+      "irish": "ionas",
+      "french": "façon d’être"
+    },
+    {
+      "section": 167,
+      "id": "167_6",
+      "transcription": "ɩ nʲλnəs",
+      "irish": "i n‑ionas",
+      "french": "de façon…",
+      "french_note": "pris absolument : « de façon égale »"
+    },
+    {
+      "section": 167,
+      "id": "167_7",
+      "transcription": "ᴜməl",
+      "irish": "imeall",
+      "french": "bordure"
+    },
+    {
+      "section": 167,
+      "id": "167_8",
+      "transcription": [
+        "ə nᴜməl",
+        "ɩ nʲλməl"
+      ],
+      "irish": "i n‑imeall",
+      "french": "à côté de"
+    }
   ]
 }
