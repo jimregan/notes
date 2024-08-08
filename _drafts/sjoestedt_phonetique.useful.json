@@ -14177,5 +14177,44 @@
       "irish": "tinn",
       "french": "douloureux"
     }
+  ],
+  "198": [
+    {
+      "section": 198,
+      "id": "198_1",
+      "transcription": "ʹäɪᵊb",
+      "irish": "leadhb",
+      "french": "bout, langue"
+    },
+    {
+      "section": 198,
+      "id": "198_2",
+      "transcription": "lʹäɪᵊbo꞉g",
+      "irish": "leadhbóg",
+      "in": "lʹäɪᵊbo꞉g ᴜ꞉ⁱnʹʃi꞉ (leadhbóg óinsighe)"
+    },
+    {
+      "section": 198,
+      "id": "198_3",
+      "transcription": "lʹäɪᵊbo꞉g ᴜ꞉ⁱnʹʃi꞉ (leadhbóg óinsighe)",
+      "french": "sotte fainéante"
+    },
+    {
+      "section": 198,
+      "id": "198_4",
+      "transcription": [
+        "lʲäɪᵊs",
+        "lʲäɪs"
+      ],
+      "irish": "leigheas",
+      "french": "remède"
+    },
+    {
+      "section": 198,
+      "id": "198_5",
+      "transcription": "tʹrʹäɪᵊdɑ̃꞉n",
+      "irish": "treaghdán",
+      "french": "pou"
+    }
   ]
 }
