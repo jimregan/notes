@@ -14091,5 +14091,65 @@
       "irish": "naomhóg",
       "french": "barque"
     }
+  ],
+  "197": [
+    {
+      "section": 197,
+      "id": "197_1",
+      "transcription": "ëirʹi꞉",
+      "irish": "eirighe",
+      "french": "se lever"
+    },
+    {
+      "section": 197,
+      "id": "197_2",
+      "transcription": "grʹëinʹ",
+      "irish": "greidhin",
+      "french": "terme d’affection"
+    },
+    {
+      "section": 197,
+      "id": "197_3",
+      "transcription": "grʹëimʹ",
+      "irish": "greim",
+      "french": "prise"
+    },
+    {
+      "section": 197,
+      "id": "197_4",
+      "transcription": "lʹëiʃ",
+      "irish": "leighis",
+      "genitive_of": "leigheas"
+    },
+    {
+      "section": 197,
+      "id": "197_5",
+      "irish": "leigheas",
+      "transcription": "lʹaɪᵊs",
+      "french": "remède",
+      "genitive": "leighis"
+    },
+    {
+      "section": 197,
+      "id": "197_6",
+      "transcription": "lʹëikʹɩdʹɩ",
+      "irish": "leidhcide",
+      "french": "chose, personne, bonne à rien"
+    },
+    {
+      "section": 197,
+      "id": "197_7",
+      "transcription": "lʹëibʹɩ",
+      "irish": "leidhbe",
+      "genitive_of": "leadhb"
+    },
+    {
+      "section": 197,
+      "id": "197_8",
+      "irish": "leadhb",
+      "transcription": "lʹäɪᵊb",
+      "french": "bout, chiffon",
+      "genitive": "leidhbe"
+    }
   ]
 }
