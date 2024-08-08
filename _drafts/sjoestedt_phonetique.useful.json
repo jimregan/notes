@@ -20711,5 +20711,84 @@
       "irish": "cá bhfios duit ?",
       "french": "qu’est-ce que tu en sais ?"
     }
+  ],
+  "313": [
+    {
+      "section": 313,
+      "id": "313_1",
+      "transcription": "go",
+      "irish": "go",
+      "french": "que"
+    },
+    {
+      "section": 313,
+      "id": "313_2",
+      "transcription": "mo",
+      "irish": "mo",
+      "french": "mon"
+    },
+    {
+      "section": 313,
+      "id": "313_3",
+      "transcription": "do",
+      "irish": "do",
+      "french": "son"
+    },
+    {
+      "section": 313,
+      "id": "313_4",
+      "transcription": [
+        "də ˈvo:",
+        "do ˈvo:"
+      ],
+      "irish": "do bhó",
+      "french": "ta vache"
+    },
+    {
+      "section": 313,
+      "id": "313_5",
+      "transcription": [
+        "ɛg ˈo:l",
+        "əg ˈo:l"
+      ],
+      "irish": "ag ól",
+      "french": "buvant"
+    },
+    {
+      "section": 313,
+      "id": "313_6",
+      "transcription": "ɩs ˈfʹe:dʹɩrʹ",
+      "irish": "is féidir",
+      "french": "c’est possible"
+    },
+    {
+      "section": 313,
+      "id": "313_7",
+      "transcription": "ə ˈhᴇ̈:ᵊn, ə ˈdo:",
+      "irish": "a haon, a dó",
+      "french": "un, deux"
+    },
+    {
+      "section": 313,
+      "id": "313_8",
+      "transcription": "ˌkɑd ɩ ˈjinʹ ʃe·",
+      "irish": "cad do dhein sé",
+      "french": "que fit-il ?"
+    },
+    {
+      "section": 313,
+      "id": "313_9",
+      "transcription": "ə ˈǥʷɪnʹɩ",
+      "irish": "a dhuine",
+      "vocative_of": "duine"
+    },
+    {
+      "section": 313,
+      "id": "313_10",
+      "irish": "duine",
+      "transcription": "dɪnʹɩ",
+      "french": "personne",
+      "vocative": "a dhuine"
+    }
   ]
 }
