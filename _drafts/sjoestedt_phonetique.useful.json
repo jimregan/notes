@@ -14732,5 +14732,71 @@
       "irish": "sciathán",
       "french": "aile"
     }
+  ],
+  "204": [
+    {
+      "section": 204,
+      "id": "204_1",
+      "transcription": "bʹiꞏɛ",
+      "irish": "biadh",
+      "french": "nourriture"
+    },
+    {
+      "section": 204,
+      "id": "204_2",
+      "transcription": "dʹiꞏɛ",
+      "irish": "dia",
+      "french": "Dieu"
+    },
+    {
+      "section": 204,
+      "id": "204_3",
+      "transcription": "dʹiꞏɛlʹ",
+      "irish": "diabhail",
+      "genitive_of": "diabhal"
+    },
+    {
+      "section": 204,
+      "id": "204_4",
+      "irish": "diabhal",
+      "transcription": "dʹiꞏəl",
+      "french": "diable",
+      "genitive": "diabhail"
+    },
+    {
+      "section": 204,
+      "id": "204_5",
+      "transcription": "gə dʹiꞏɛlʹ",
+      "irish": "go diail",
+      "french": "excellent"
+    },
+    {
+      "section": 204,
+      "id": "204_6",
+      "transcription": "ɩ nʹiꞏɛgʹ",
+      "irish": "i ndiaidh",
+      "french": "après"
+    },
+    {
+      "section": 204,
+      "id": "204_7",
+      "transcription": "fʹiꞏɛnʹ",
+      "irish": "fiadhain",
+      "french": "sauvage"
+    },
+    {
+      "section": 204,
+      "id": "204_8",
+      "transcription": "iꞏɛmʹ",
+      "irish": "iadhaim",
+      "french": "je ferme"
+    },
+    {
+      "section": 204,
+      "id": "204_9",
+      "transcription": "lʹiꞏɛh",
+      "irish": "liath",
+      "french": "gris argent"
+    }
   ]
 }
