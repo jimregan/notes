@@ -13642,13 +13642,33 @@
       "id": "188_6",
       "transcription": "nah",
       "irish": "nath",
-      "in": "nʹiꞏ χʷɪrʹɩmʹ ᴇ̈꞉ᵊn nah ᴀᴜn (ní chuirim aon nath ann)"
+      "in": "ní chuirim aon nath ann",
+      "french": "attention",
+      "in_id": "188_7"
     },
     {
       "section": 188,
       "id": "188_7",
-      "transcription": "nʹiꞏ χʷɪrʹɩmʹ ᴇ̈꞉ᵊn nah ᴀᴜn (ní chuirim aon nath ann)",
-      "french": "je n’y prête aucune attention"
+      "transcription": "nʹiꞏ χʷɪrʹɩmʹ ᴇ̈꞉ᵊn nah ᴀᴜn",
+      "french": "je n’y prête aucune attention",
+      "irish": "ní chuirim aon nath ann"
+    },
+    {
+      "section": 188,
+      "id": "188_8",
+      "transcription": [
+        "bəkaꞏχ",
+        "bəkaχ"
+      ],
+      "irish": "bacach",
+      "french": "boiteux"
+    },
+    {
+      "section": 188,
+      "id": "188_9",
+      "transcription": "səlaꞏχ",
+      "irish": "salach",
+      "french": "sale"
     }
   ]
 }
