@@ -15802,5 +15802,38 @@
       "irish": "gealachán",
       "french": "blanc d’œuf"
     }
+  ],
+  "223": [
+    {
+      "section": 223,
+      "id": "223_1",
+      "transcription": "bʹì꞉arlə",
+      "irish": "béarla",
+      "french": "langue anglaise"
+    },
+    {
+      "section": 223,
+      "id": "223_2",
+      "transcription": "kʹi꞉ᵊrlɑ꞉ⁱlʹ",
+      "irish": "cíorláil",
+      "french": "bouleverser"
+    },
+    {
+      "section": 223,
+      "id": "223_3",
+      "transcription": "kõ꞉rlʹɩ",
+      "irish": "comhairle",
+      "french": "conseil"
+    },
+    {
+      "section": 223,
+      "id": "223_4",
+      "transcription": [
+        "ʃi꞉ᵊlrᴜ꞉",
+        "ʃi꞉ᵊlᵊrᴜ꞉"
+      ],
+      "irish": "síolrughadh",
+      "french": "planter"
+    }
   ]
 }
