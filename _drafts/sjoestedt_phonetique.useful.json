@@ -12865,6 +12865,30 @@
       "transcription": "to̤lʹ",
       "irish": "toil",
       "french": "volonté"
+    },
+    {
+      "section": 179,
+      "id": "179_7",
+      "transcription": "ko̤ʃ",
+      "irish": "cois",
+      "dative_of": "cos",
+      "contrast": "köʃɩ",
+      "contrast_id": "179_9"
+    },
+    {
+      "section": 179,
+      "id": "179_8",
+      "irish": "cos",
+      "transcription": "kɔs",
+      "dative": "cois",
+      "genitive": "coise"
+    },
+    {
+      "section": 179,
+      "id": "179_9",
+      "transcription": "köʃɩ",
+      "irish": "coise",
+      "genitive_of": "cos"
     }
   ]
 }
