@@ -14334,5 +14334,83 @@
       "irish": "trom",
       "french": "lourd"
     }
+  ],
+  "200": [
+    {
+      "section": 200,
+      "id": "200_1",
+      "transcription": [
+        "aλⁱʃ",
+        "awiʃ"
+      ],
+      "irish": "amhais",
+      "plural_of": "amhas"
+    },
+    {
+      "section": 200,
+      "id": "200_2",
+      "irish": "amhas",
+      "transcription": "ᴀᴜs",
+      "french": "jeune enfant (mais non bébé)",
+      "plural": "amhais"
+    },
+    {
+      "section": 200,
+      "id": "200_3",
+      "transcription": "kaλⁱrʹ",
+      "irish": "cabhair",
+      "french": "secours"
+    },
+    {
+      "section": 200,
+      "id": "200_4",
+      "transcription": "gaλⁱrʹ",
+      "irish": "gabhair",
+      "plural_of": "gabhar"
+    },
+    {
+      "section": 200,
+      "id": "200_5",
+      "irish": "gabhar",
+      "transcription": "gᴀᴜr",
+      "french": "chèvre",
+      "plural": "gabhair"
+    },
+    {
+      "section": 200,
+      "id": "200_6",
+      "transcription": "kaλⁱlʹ",
+      "irish": "cabhail",
+      "french": "buste",
+      "genitive": "cabhlach"
+    },
+    {
+      "section": 200,
+      "id": "200_7",
+      "transcription": "kᴀᴜləχ",
+      "irish": "cabhlach",
+      "genitive_of": "cabhail"
+    },
+    {
+      "section": 200,
+      "id": "200_8",
+      "transcription": "naᴜ̃ⁱdʹ",
+      "irish": "namhaid",
+      "french": "ennemi"
+    },
+    {
+      "section": 200,
+      "id": "200_9",
+      "transcription": "sãᴜ̃ⁱnʹ",
+      "irish": "samhain",
+      "french": "1er Novembre"
+    },
+    {
+      "section": 200,
+      "id": "200_10",
+      "transcription": "taλⁱmʹ",
+      "irish": "toghaim",
+      "french": "je choisis"
+    }
   ]
 }
