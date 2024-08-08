@@ -15561,5 +15561,118 @@
       "irish": "diucs",
       "french": "forme substituée au nom du diable dans les jurons"
     }
+  ],
+  "221": [
+    {
+      "section": 221,
+      "id": "221_1",
+      "transcription": "ɑlpə",
+      "irish": "alpadh",
+      "french": "avaler"
+    },
+    {
+      "section": 221,
+      "id": "221_2",
+      "transcription": "kʹαrtᴜ꞉",
+      "irish": "ceartughadh",
+      "french": "corriger"
+    },
+    {
+      "section": 221,
+      "id": "221_3",
+      "transcription": "kʹirʹkʹɩ",
+      "irish": "circe",
+      "genitive_of": "cearc"
+    },
+    {
+      "section": 221,
+      "id": "221_4",
+      "irish": "cearc",
+      "transcription": "kʹαrk",
+      "french": "poule",
+      "genitive": "circe"
+    },
+    {
+      "section": 221,
+      "id": "221_5",
+      "transcription": "gᴀᴜldə",
+      "irish": "gallda",
+      "french": "étranger"
+    },
+    {
+      "section": 221,
+      "id": "221_6",
+      "transcription": "pʹαrsəntə",
+      "irish": "pearsanta",
+      "french": "personnel"
+    },
+    {
+      "section": 221,
+      "id": "221_7",
+      "transcription": "dʹi꞉lʹʃɩ",
+      "irish": "dílse",
+      "comparative_of": "dílis"
+    },
+    {
+      "section": 221,
+      "id": "221_8",
+      "irish": "dílis",
+      "transcription": "dʹi꞉lʹɩʃ",
+      "french": "cher",
+      "comparative": "dílse"
+    },
+    {
+      "section": 221,
+      "id": "221_9",
+      "transcription": "tʹiꞏərnə",
+      "irish": "tighearna",
+      "french": "seigneur"
+    },
+    {
+      "section": 221,
+      "id": "221_10",
+      "transcription": "mì꞉arnɑ꞉ⁱlʹ",
+      "irish": "méarnáil",
+      "french": "tâtonner"
+    },
+    {
+      "section": 221,
+      "id": "221_11",
+      "transcription": "fʹi꞉lʹhɩ ʃeꞏ",
+      "irish": "fillfidh sé",
+      "french": "il rentrera"
+    },
+    {
+      "section": 221,
+      "id": "221_12",
+      "transcription": "dʹiꞏərhɩgʹ",
+      "irish": "d’fhiafruigh",
+      "french": "il demanda"
+    },
+    {
+      "section": 221,
+      "id": "221_13",
+      "transcription": "bo꞉ⁱrʹhɩ",
+      "irish": "bóirthe",
+      "plural_of": "bóthar"
+    },
+    {
+      "section": 221,
+      "id": "221_14",
+      "irish": "bóthar",
+      "transcription": "bo꞉hər",
+      "french": "chemin",
+      "plural": "bóirthe"
+    },
+    {
+      "section": 221,
+      "id": "221_15",
+      "transcription": [
+        "kʹαrhᴜ꞉",
+        "kʹαhərᴜ꞉"
+      ],
+      "irish": "ceathramhadh",
+      "french": "quatrième"
+    }
   ]
 }
