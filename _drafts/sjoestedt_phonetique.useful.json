@@ -17017,5 +17017,56 @@
       "irish": "tóirneach",
       "french": "tonnerre"
     }
+  ],
+  "241": [
+    {
+      "section": 241,
+      "id": "241_1",
+      "transcription": [
+        "nʹαv-",
+        "nʹα̃ṽ-"
+      ],
+      "irish": "neamh-"
+    },
+    {
+      "section": 241,
+      "id": "241_2",
+      "transcription": "nʹαvaʃtʹⁱrʹəχ",
+      "irish": "neamhaistireach",
+      "french": "insouciant, paresseux"
+    },
+    {
+      "section": 241,
+      "id": "241_3",
+      "transcription": [
+        "nʹαmʹrʹɑ:",
+        "nʹαvʹrʹɑ:"
+      ],
+      "irish": "neamhbhreágh",
+      "french": "laid"
+    },
+    {
+      "section": 241,
+      "id": "241_4",
+      "transcription": "nʹαmʷᴇ̈:ᵊχ",
+      "irish": "neamhbhuidheach",
+      "french": "ingrat",
+      "from": "bhuidheach"
+    },
+    {
+      "section": 241,
+      "id": "241_5",
+      "transcription": "vʷᴇ̈:ᵊχ",
+      "irish": "bhuidheach",
+      "french": "reconnaissant",
+      "form_of": "buidheach"
+    },
+    {
+      "section": 241,
+      "id": "241_6",
+      "transcription": "bʷᴇ̈:ᵊχ",
+      "irish": "buidheach",
+      "french": "reconnaissant"
+    }
   ]
 }
