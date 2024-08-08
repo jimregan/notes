@@ -14849,5 +14849,36 @@
       "irish": "riabhóg",
       "french": "petit oiseau de tourbière"
     }
+  ],
+  "206": [
+    {
+      "section": 206,
+      "id": "206_1",
+      "transcription": "rɪꞏɛlʹ",
+      "irish": "riaghail",
+      "french": "règle"
+    },
+    {
+      "section": 206,
+      "id": "206_2",
+      "transcription": "rɪꞏɛhɩ",
+      "irish": "riabhaiche",
+      "genitive_feminine_of": "riabhach"
+    },
+    {
+      "section": 206,
+      "id": "206_3",
+      "irish": "riabhach",
+      "transcription": "rɪꞏəχ",
+      "french": "ramé",
+      "genitive_feminine": "riabhaiche"
+    },
+    {
+      "section": 206,
+      "id": "206_4",
+      "transcription": "lᴇ̈꞉həntə nə bo꞉ rɪꞏɛhɩ",
+      "irish": "laetheannta na bó riabhaiche",
+      "french": "les derniers jours de Mars et les premiers jours d’Avril"
+    }
   ]
 }
