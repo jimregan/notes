@@ -19107,5 +19107,57 @@
       "irish": "cothrom",
       "french": "commodité"
     }
+  ],
+  "283": [
+    {
+      "section": 283,
+      "id": "283_1",
+      "transcription": "gnʹi:ᵊv",
+      "irish": "gníomh",
+      "french": "action"
+    },
+    {
+      "section": 283,
+      "id": "283_2",
+      "transcription": "agʹɩnʹɩ",
+      "irish": "aigne",
+      "french": "esprit"
+    },
+    {
+      "section": 283,
+      "id": "283_3",
+      "transcription": "hrɑ:ⁱgʹ",
+      "irish": "thráigh",
+      "french": "se retira (en parlant du flux)"
+    },
+    {
+      "section": 283,
+      "id": "283_4",
+      "transcription": "kɑhərəχ",
+      "irish": "cathrach",
+      "genitive_of": "cathair"
+    },
+    {
+      "section": 283,
+      "id": "283_5",
+      "irish": "cathair",
+      "transcription": "kahɩrʹ",
+      "french": "ville",
+      "genitive": "cathrach"
+    },
+    {
+      "section": 283,
+      "id": "283_6",
+      "transcription": "χrɑ:ⁱʃ",
+      "irish": "chrádhais",
+      "french": "tu contrarias"
+    },
+    {
+      "section": 283,
+      "id": "283_7",
+      "transcription": "ɑχərən",
+      "irish": "achrann",
+      "french": "confusion"
+    }
   ]
 }
