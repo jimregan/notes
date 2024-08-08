@@ -17367,7 +17367,9 @@
       "id": "246_5",
       "transcription": "lɑsᵊrəχ",
       "irish": "lasrach",
-      "french": "éclair"
+      "french": "éclair",
+      "contrast": "sráid",
+      "contrast_id": "246_6"
     },
     {
       "section": 246,
@@ -17375,6 +17377,22 @@
       "transcription": "srɑ:ⁱdʹ",
       "irish": "sráid",
       "french": "rue"
+    },
+    {
+      "section": 246,
+      "id": "246_7",
+      "transcription": "ɑχᵊrən",
+      "irish": "achrann",
+      "french": "difficulté",
+      "contrast": "do chrádh",
+      "contrast_id": "246_8"
+    },
+    {
+      "section": 246,
+      "id": "246_8",
+      "transcription": "ə χrɑ:",
+      "irish": "do chrádh",
+      "french": "contrarier"
     }
   ]
 }
