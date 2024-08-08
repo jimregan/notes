@@ -15978,5 +15978,36 @@
       "irish": "seanduine",
       "french": "vieillard"
     }
+  ],
+  "225": [
+    {
+      "section": 225,
+      "id": "225_1",
+      "transcription": "brᴜχtɪ꞉ᵊl",
+      "irish": "bruchtuíol",
+      "french": "vomir"
+    },
+    {
+      "section": 225,
+      "id": "225_2",
+      "transcription": "krʹαχtɩmʹ",
+      "irish": "creachtaim",
+      "french": "je blesse"
+    },
+    {
+      "section": 225,
+      "id": "225_3",
+      "transcription": "bɔχtʹɩ",
+      "irish": "boichte",
+      "superlative_of": "bocht"
+    },
+    {
+      "section": 225,
+      "id": "225_4",
+      "irish": "bocht",
+      "transcription": "bɔχt",
+      "french": "pauvre",
+      "superlative": "boichte"
+    }
   ]
 }
