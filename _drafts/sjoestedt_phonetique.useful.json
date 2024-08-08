@@ -18455,5 +18455,43 @@
       "irish": "bádóireacht",
       "french": "se promener en barque"
     }
+  ],
+  "270": [
+    {
+      "section": 270,
+      "id": "270_1",
+      "transcription": "αʃˌtʹrʹᴜ:ˈχɑ̃:n",
+      "irish": "aistriuchán",
+      "french": "traduction"
+    },
+    {
+      "section": 270,
+      "id": "270_2",
+      "transcription": "kaˈlʹi:ˌnʹi:",
+      "irish": "cailíní",
+      "plural_of": "cailín"
+    },
+    {
+      "section": 270,
+      "id": "270_3",
+      "irish": "cailín",
+      "transcription": "kaˈlʹi:nʹ",
+      "french": "jeune fille",
+      "plural": "cailíní"
+    },
+    {
+      "section": 270,
+      "id": "270_4",
+      "transcription": "dalʹˈtʹi:ˌnʹi:",
+      "irish": "dailtíní",
+      "from": "dailtín"
+    },
+    {
+      "section": 270,
+      "id": "270_5",
+      "transcription": "dalʹˈtʹi:nʹ",
+      "irish": "dailtín",
+      "french": "personne contrariante"
+    }
   ]
 }
