@@ -14531,5 +14531,79 @@
       "irish": "teannta",
       "french": "proximité"
     }
+  ],
+  "202": [
+    {
+      "section": 202,
+      "id": "202_1",
+      "transcription": "dʹäλⁱgʹ",
+      "irish": "deabhaidh",
+      "genitive_of": "deabhadh"
+    },
+    {
+      "section": 202,
+      "id": "202_2",
+      "irish": "deabhadh",
+      "transcription": "dʲaᴜ",
+      "french": "hâte",
+      "genitive": "deabhaidh"
+    },
+    {
+      "section": 202,
+      "id": "202_3",
+      "transcription": "lʹäλⁱrʹ",
+      "irish": "leabhair",
+      "genitive_of": "leabhar"
+    },
+    {
+      "section": 202,
+      "id": "202_4",
+      "irish": "leabhar",
+      "transcription": "lʲaᴜr",
+      "french": "livre",
+      "genitive": "leabhair"
+    },
+    {
+      "section": 202,
+      "id": "202_5",
+      "transcription": [
+        "ʃlʹäλⁱnʹ",
+        "ʃlʹäwɩnʹ"
+      ],
+      "irish": "sleamhain",
+      "french": "glissant"
+    },
+    {
+      "section": 202,
+      "id": "202_6",
+      "transcription": "ʃäλⁱkʹ",
+      "irish": "seabhaic",
+      "genitive_of": "seabhac"
+    },
+    {
+      "section": 202,
+      "id": "202_7",
+      "irish": "seabhac",
+      "transcription": "ʃaᴜk",
+      "french": "faucon",
+      "genitive": "seabhaic"
+    },
+    {
+      "section": 202,
+      "id": "202_8",
+      "transcription": "tʹräʹλⁱmʹ",
+      "irish": "treabhaim",
+      "french": "je laboure"
+    },
+    {
+      "section": 202,
+      "id": "202_9",
+      "transcription": [
+        "mʹäλⁱrʹ",
+        "mʹäwɩrʹ"
+      ],
+      "irish": "meabhair",
+      "french": "raison"
+    }
   ]
 }
