@@ -20511,5 +20511,32 @@
       "irish": "cad dhein balbh thú ?",
       "french": "qu’est-ce qui t’a rendu muet ?"
     }
+  ],
+  "308": [
+    {
+      "section": 308,
+      "id": "308_1",
+      "transcription": "ɩʃ tʲo̤kʷɩrʹ e:",
+      "irish": "is deocair é",
+      "french": "c’est difficile"
+    },
+    {
+      "section": 308,
+      "id": "308_2",
+      "transcription": "is g̬ʹαl",
+      "irish": "is geal",
+      "french": "est blanc"
+    },
+    {
+      "section": 308,
+      "id": "308_3",
+      "transcription": "ə hᴇ̈:nʹì:ag",
+      "irish": "a haondeug",
+      "french": "onze",
+      "from": [
+        "ᴇ̈ᵊn",
+        "dʹì:ag"
+      ]
+    }
   ]
 }
