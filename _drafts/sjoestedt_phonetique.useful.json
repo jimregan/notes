@@ -12890,5 +12890,40 @@
       "irish": "coise",
       "genitive_of": "cos"
     }
+  ],
+  "180": [
+    {
+      "section": 180,
+      "id": "180_1",
+      "irish": "lomaim",
+      "transcription": "lo̤mʷɩmʹ",
+      "french": "je me dépouille, je deviens chauve",
+      "future": "lomfad",
+      "compare_id": "17_23"
+    },
+    {
+      "section": 180,
+      "id": "180_2",
+      "transcription": "so̤nə",
+      "irish": "sona",
+      "french": "heureux",
+      "compare_id": "177_25"
+    },
+    {
+      "section": 180,
+      "id": "180_3",
+      "transcription": "kro̤mʷɩmʹ",
+      "irish": "cromaim",
+      "french": "je courbe",
+      "compare_id": "177_23"
+    },
+    {
+      "section": 180,
+      "id": "180_4",
+      "transcription": "fo̤nəvər",
+      "irish": "fonnmhar",
+      "french": "désireux",
+      "compare_id": "177_24"
+    }
   ]
 }
