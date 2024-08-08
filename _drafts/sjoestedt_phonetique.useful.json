@@ -19025,5 +19025,37 @@
       "irish": "inneósad",
       "french": "je dirai"
     }
+  ],
+  "281": [
+    {
+      "section": 281,
+      "id": "281_1",
+      "transcription": "pərˈʃα·χ",
+      "irish": "praiseach",
+      "french": "gruau d’avoine",
+      "dative": "praisigh"
+    },
+    {
+      "section": 281,
+      "id": "281_2",
+      "transcription": "ˈpraʃɩgʹ",
+      "irish": "praisigh",
+      "dative_of": "praiseach"
+    },
+    {
+      "section": 281,
+      "id": "281_3",
+      "transcription": "bərˈdaχ",
+      "irish": "bradach",
+      "french": "voleur, chipeur",
+      "genitive": "bradaigh"
+    },
+    {
+      "section": 281,
+      "id": "281_4",
+      "transcription": "ˈbrɑdɩgʹ",
+      "irish": "bradaigh",
+      "genitive_of": "bradach"
+    }
   ]
 }
