@@ -15499,14 +15499,15 @@
       "id": "219_1",
       "transcription": "bɔχt",
       "irish": "bocht",
-      "french": "pauvre"
+      "french": "pauvre",
+      "genitive": "boicht"
     },
     {
       "section": 219,
       "id": "219_2",
       "transcription": "bɔχtʹ",
       "irish": "boicht",
-      "french": "gén. du même"
+      "genitive_of": "bocht"
     },
     {
       "section": 219,
@@ -15518,16 +15519,17 @@
     {
       "section": 219,
       "id": "219_4",
-      "transcription": "iꞏəsg̬, gén. e꞉ʃg̬ʹ",
-      "irish": "iasc, éisc",
+      "transcription": "iꞏəsg̬",
+      "irish": "iasc",
       "french": "poisson"
     },
     {
       "section": 219,
       "id": "219_5",
-      "transcription": "ʃᴇfʹtʹ",
-      "irish": "seift",
-      "french": "expédient"
+      "transcription": "e꞉ʃg̬ʹ",
+      "irish": "éisc",
+      "genitive": "éisc",
+      "genitive_of": "iasc"
     }
   ]
 }
