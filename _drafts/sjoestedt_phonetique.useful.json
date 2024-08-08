@@ -13256,5 +13256,177 @@
       "irish": "tapaidh",
       "french": "rapide"
     }
+  ],
+  "185": [
+    {
+      "section": 185,
+      "id": "185_1",
+      "transcription": "ɑ꞉lʷɩnʹ",
+      "irish": "álainn",
+      "french": "beau"
+    },
+    {
+      "section": 185,
+      "id": "185_2",
+      "transcription": "ɑ꞉rɩʃtʹi꞉",
+      "irish": "áraistí",
+      "french": "ustensiles"
+    },
+    {
+      "section": 185,
+      "id": "185_3",
+      "transcription": "əbᵊlɑ꞉ⁱlʹ",
+      "irish": "abláil",
+      "french": "bricoler"
+    },
+    {
+      "section": 185,
+      "id": "185_4",
+      "transcription": "bɑ꞉s",
+      "irish": "bás",
+      "french": "mort",
+      "genitive": "báis"
+    },
+    {
+      "section": 185,
+      "id": "185_5",
+      "transcription": [
+        "bɑ꞉ʃ",
+        "bɑ꞉ⁱʃ"
+      ],
+      "irish": "báis",
+      "genitive_of": "bás"
+    },
+    {
+      "section": 185,
+      "id": "185_6",
+      "transcription": "bɑ꞉r",
+      "irish": "barr",
+      "french": "sommet"
+    },
+    {
+      "section": 185,
+      "id": "185_7",
+      "transcription": "blɑ꞉h",
+      "irish": "bláth",
+      "french": "fleur"
+    },
+    {
+      "section": 185,
+      "id": "185_8",
+      "transcription": "kɑ꞉rdʹɩ",
+      "irish": "cairde",
+      "plural_of": "cara"
+    },
+    {
+      "section": 185,
+      "id": "185_9",
+      "irish": "cara",
+      "transcription": "kɑrə",
+      "french": "ami",
+      "plural": "cairde"
+    },
+    {
+      "section": 185,
+      "id": "185_10",
+      "transcription": "dɑ꞉ⁱlʹ",
+      "irish": "dáil",
+      "french": "réunion"
+    },
+    {
+      "section": 185,
+      "id": "185_11",
+      "transcription": "fɑ꞉ⁱlʹtʹɩ",
+      "irish": "fáilte",
+      "french": "bienvenue"
+    },
+    {
+      "section": 185,
+      "id": "185_12",
+      "transcription": "gʲɑ꞉rkəχ",
+      "irish": "gearrcach",
+      "french": "oison"
+    },
+    {
+      "section": 185,
+      "id": "185_13",
+      "transcription": [
+        "kaʃlʲɑ̃꞉n",
+        "kaʃlʹɑ̃꞉n"
+      ],
+      "irish": "caisleán",
+      "french": "château"
+    },
+    {
+      "section": 185,
+      "id": "185_14",
+      "transcription": "mɑ꞉ⁱrʹɩ",
+      "irish": "Máire",
+      "french": "Marie"
+    },
+    {
+      "section": 185,
+      "id": "185_15",
+      "transcription": "mnɑ̃꞉",
+      "irish": "mná",
+      "plural_of": "bean"
+    },
+    {
+      "section": 185,
+      "id": "185_16",
+      "irish": "bean",
+      "transcription": "bʹαn",
+      "french": "femme",
+      "plural": "mná"
+    },
+    {
+      "section": 185,
+      "id": "185_17",
+      "transcription": "nɑ꞉ⁱrʹɩ",
+      "irish": "náire",
+      "french": "honte"
+    },
+    {
+      "section": 185,
+      "id": "185_18",
+      "transcription": "lɑ̃꞉v",
+      "irish": "lámh",
+      "french": "main"
+    },
+    {
+      "section": 185,
+      "id": "185_19",
+      "transcription": "lɑ꞉ⁱdʹɩrʹ",
+      "irish": "láidir",
+      "french": "robuste"
+    },
+    {
+      "section": 185,
+      "id": "185_20",
+      "transcription": "rɑ꞉",
+      "irish": "rádh",
+      "french": "dire"
+    },
+    {
+      "section": 185,
+      "id": "185_21",
+      "transcription": "sɑ꞉vɑ꞉ⁱltʹ",
+      "irish": "sábháil",
+      "french": "économiser"
+    },
+    {
+      "section": 185,
+      "id": "185_22",
+      "transcription": "tɑ꞉",
+      "irish": "tá",
+      "french": "(il) est"
+    },
+    {
+      "section": 185,
+      "id": "185_23",
+      "transcription": "trɑ꞉h",
+      "irish": "tráth",
+      "french": "une fois"
+    }
   ]
 }
