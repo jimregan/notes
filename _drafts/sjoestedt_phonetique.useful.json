@@ -17507,7 +17507,9 @@
       "id": "249_1",
       "transcription": "əbrɑ̃:n",
       "irish": "Abrán",
-      "french": "Avril"
+      "french": "Avril",
+      "contrast": "ɑbᵊrɩmʹ",
+      "contrast_id": "249_3"
     },
     {
       "section": 249,
@@ -17515,6 +17517,11 @@
       "transcription": "brɑt",
       "irish": "brat",
       "french": "châle"
+    },
+    {
+      "section": 249,
+      "id": "249_3",
+      "transcription": "ɑbᵊrɩmʹ"
     }
   ]
 }
