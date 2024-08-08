@@ -15211,7 +15211,35 @@
       "id": "211_15",
       "transcription": "wɛnʹɩ",
       "irish": "uaine",
-      "french": "vert"
+      "french": "vert",
+      "negative_transcription": "ᴜꞏɛnʹɩ"
+    },
+    {
+      "section": 211,
+      "id": "211_16",
+      "transcription": "kɑt tɑ꞉ wɛtʹ",
+      "irish": "cad tá uait",
+      "french": "qu’est-ce qu’il te faut ?"
+    },
+    {
+      "section": 211,
+      "id": "211_17",
+      "transcription": [
+        "vwɛlʹ ʃeꞏ",
+        "vᴜɛlʹ ʃeꞏ"
+      ],
+      "irish": "bhuail sé",
+      "french": "il frappa"
+    },
+    {
+      "section": 211,
+      "id": "211_18",
+      "transcription": [
+        "nə hwɛʃlʹɩ",
+        "nə hᴜꞏɛʃlʹɩ"
+      ],
+      "irish": "na huaisle",
+      "french": "les gens chics"
     }
   ]
 }
