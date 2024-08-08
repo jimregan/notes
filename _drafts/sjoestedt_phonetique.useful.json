@@ -17433,5 +17433,23 @@
       "irish": "mrachtaint",
       "french": "vivre"
     }
+  ],
+  "247": [
+    {
+      "section": 247,
+      "id": "247_1",
+      "transcription": "αgʹɩnʹɩ",
+      "irish": "aigne",
+      "french": "esprit",
+      "contrast": "gníomh",
+      "contrast_id": "247_2"
+    },
+    {
+      "section": 247,
+      "id": "247_2",
+      "transcription": "gnʹi:ᵊv",
+      "irish": "gníomh",
+      "french": "action"
+    }
   ]
 }
