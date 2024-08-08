@@ -19081,5 +19081,31 @@
       "irish": "brocach",
       "french": "sale"
     }
+  ],
+  "282": [
+    {
+      "section": 282,
+      "id": "282_1",
+      "transcription": "kʹαhərər",
+      "irish": "ceathrar",
+      "french": "quatre personnes"
+    },
+    {
+      "section": 282,
+      "id": "282_2",
+      "transcription": [
+        "kʹαrhᴜ:",
+        "kʹαhərᴜ:"
+      ],
+      "irish": "ceathramha",
+      "french": "quart"
+    },
+    {
+      "section": 282,
+      "id": "282_3",
+      "transcription": "kɔrhəm",
+      "irish": "cothrom",
+      "french": "commodité"
+    }
   ]
 }
