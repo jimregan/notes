@@ -14412,5 +14412,124 @@
       "irish": "toghaim",
       "french": "je choisis"
     }
+  ],
+  "201": [
+    {
+      "section": 201,
+      "id": "201_1",
+      "transcription": "kʲaᴜn",
+      "irish": "ceann",
+      "french": "tête"
+    },
+    {
+      "section": 201,
+      "id": "201_2",
+      "transcription": [
+        "klʹaᴜnəs",
+        "klʲaᴜnəs"
+      ],
+      "irish": "cleamhnas",
+      "french": "arrangement matrimonial"
+    },
+    {
+      "section": 201,
+      "id": "201_3",
+      "transcription": [
+        "dʲaᴜrəv",
+        "dʲɑ꞉rəv"
+      ],
+      "irish": "deallramh",
+      "french": "apparence"
+    },
+    {
+      "section": 201,
+      "id": "201_4",
+      "transcription": "gʲaᴜltə",
+      "irish": "geallta",
+      "french": "promis",
+      "from": "geallaim"
+    },
+    {
+      "section": 201,
+      "id": "201_5",
+      "transcription": "gʹαlɩmʹ",
+      "irish": "geallaim",
+      "french": "je promets"
+    },
+    {
+      "section": 201,
+      "id": "201_6",
+      "transcription": [
+        "glʲaᴜn",
+        "glʹaᴜn"
+      ],
+      "irish": "gleann",
+      "french": "vallée"
+    },
+    {
+      "section": 201,
+      "id": "201_7",
+      "transcription": "lʲãᴜ̃n",
+      "irish": "leamhan",
+      "french": "mite"
+    },
+    {
+      "section": 201,
+      "id": "201_8",
+      "transcription": "lʲäᴜ̃s",
+      "irish": "leamhas",
+      "french": "exultation"
+    },
+    {
+      "section": 201,
+      "id": "201_9",
+      "transcription": "mʲaᴜrəχ",
+      "irish": "meabhrach",
+      "genitive_of": "meabhair"
+    },
+    {
+      "section": 201,
+      "id": "201_10",
+      "irish": "meabhair",
+      "transcription": "maλⁱrʹ",
+      "french": "raison",
+      "genitive": "meabhrach"
+    },
+    {
+      "section": 201,
+      "id": "201_11",
+      "transcription": "ɑnərʹaᴜr",
+      "irish": "anareamhar",
+      "french": "très gras",
+      "from": "reamhar"
+    },
+    {
+      "section": 201,
+      "id": "201_12",
+      "transcription": "rᴀᴜr",
+      "irish": "reamhar",
+      "french": "gras"
+    },
+    {
+      "section": 201,
+      "id": "201_13",
+      "transcription": "ʃaᴜk",
+      "irish": "seabhac",
+      "french": "faucon"
+    },
+    {
+      "section": 201,
+      "id": "201_14",
+      "transcription": "tʹrʹaᴜ",
+      "irish": "treabhadh",
+      "french": "labourer"
+    },
+    {
+      "section": 201,
+      "id": "201_15",
+      "transcription": "tʲaᴜntə",
+      "irish": "teannta",
+      "french": "proximité"
+    }
   ]
 }
