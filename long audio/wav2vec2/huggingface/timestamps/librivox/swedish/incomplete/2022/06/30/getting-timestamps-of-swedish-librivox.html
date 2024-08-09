@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Getting timestamps of Swedish Librivox | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Getting timestamps of Swedish Librivox" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="With wav2vec2 and HuggingFace transformers" />
+<meta property="og:description" content="With wav2vec2 and HuggingFace transformers" />
+<link rel="canonical" href="https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-06-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html","@type":"BlogPosting","headline":"Getting timestamps of Swedish Librivox","dateModified":"2022-06-30T00:00:00-05:00","datePublished":"2022-06-30T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html"},"description":"With wav2vec2 and HuggingFace transformers","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Getting timestamps of Swedish Librivox</h1><p class="page-description">With wav2vec2 and HuggingFace transformers</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-06-30T00:00:00-05:00" itemprop="datePublished">
+        Jun 30, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      9 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#long audio">long audio</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#wav2vec2">wav2vec2</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#huggingface">huggingface</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#timestamps">timestamps</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#librivox">librivox</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#swedish">swedish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#incomplete">incomplete</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2022-06-30-getting-timestamps-of-swedish-librivox.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2022-06-30-getting-timestamps-of-swedish-librivox.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2022-06-30-getting-timestamps-of-swedish-librivox.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-06-30-getting-timestamps-of-swedish-librivox.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">DONE</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">ennyckfullkvinna2_12.wav</span>
+<span class="s2">djaeknarne_10.wav</span>
+<span class="s2">ennyckfullkvinna2_05.wav</span>
+<span class="s2">ennyckfullkvinna2_04.wav</span>
+<span class="s2">ennyckfullkvinna_09.wav</span>
+<span class="s2">jaochnej_04.wav</span>
+<span class="s2">goteborgsflickor_07.wav</span>
+<span class="s2">ennyckfullkvinna_01.wav</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">DATA</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">#avskedssang	https://www.archive.org/download/multilingual_poetry_018_1112_lv/swedish_avskedssang_andersson_e.mp3	http://runeberg.org/daefter/12.html	Elin	https://librivox.org/reader/6686	f</span>
+<span class="s2">efter_torgdagen	https://www.archive.org/download/mshortworks_001_1202_librivox/msw001_19_eftertorsdagen_benedictsson_at.mp3	https://litteraturbanken.se/f%C3%B6rfattare/BenedictssonV/titlar/Ber%C3%A4ttelserOchUtkast/sida/126/etext	owly	https://librivox.org/reader/2857	f</span>
+<span class="s2">en_saga_om_vreden	https://ia800801.us.archive.org/0/items/mshortworks_001_1202_librivox/msw001_12_en_saga_om_vreden_runeberg_jb.mp3	http://web.archive.org/web/20190814032041/http://freetexthost.com:80/bcp31m60i4	Johan Borg	https://librivox.org/reader/5958	m</span>
+<span class="s2">elin_i_hagen	https://www.archive.org/download/multilingual_poetry_014_1002/swedish_elinihagen_froding_ear.mp3	http://runeberg.org/dragharm/elinhage.html	Elina Riuttanen	https://librivox.org/reader/4498	f</span>
+<span class="s2">djaeknarne_01	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_01_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_02	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_02_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_03	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_03_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_04	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_04_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_05	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_05_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_06	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_06_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_07	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_07_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_08	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_08_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_09	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_09_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_10	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_10_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_11	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_11_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">djaeknarne_12	https://www.archive.org/download/vandrande_draeknarne_0907_librivox/djaeknarne_12_rydberg.mp3	https://www.gutenberg.org/cache/epub/9827/pg9827.txt	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">elddonet	https://ia903002.us.archive.org/29/items/skandinaviskaaventyr_1907_librivox/skandinaviskaeventyr_01_various_64kb.mp3	http://runeberg.org/hcasob/1/0003.html	Rikard Peterson	https://librivox.org/reader/10462	m</span>
+<span class="s2">for_morgonbris	https://www.archive.org/download/multilingual_poetry_collection_007_librivox/swedish_for_morgonbris_tavaststjerna_ck.mp3	https://web.archive.org/web/20100413161537/http://www.omnibus.se:80/cgi-bin/ebokinfo.pl?eB=395-1	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">goteborgsflickor_01	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_01_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_02	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_02_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_03	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_03_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_04	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_04_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_05	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_05_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_06	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_06_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_07	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_07_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_08	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_08_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_09	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_09_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_10	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_10_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_11	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_11_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_12	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_12_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_13	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_13_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_14	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_14_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_15	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_15_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_16	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_16_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_17	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_17_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_18	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_18_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">goteborgsflickor_19	https://www.archive.org/download/goteborgsflickor_1005_librivox/goteborgsflickor_19_stroemberg.mp3	https://www.gutenberg.org/files/18043/18043-0.txt	  Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_01	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_01_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_02	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_02_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_03	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_03_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_04	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_04_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_05	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_05_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_06	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_06_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_07	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_07_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jaochnej_08	https://www.archive.org/download/ja_och_nej_0903_librivox/jaochnej_08_nyblom.mp3	http://runeberg.org/download.pl?mode=txtzip&amp;work=jaochnej	https://www.gutenberg.org/files/18043/18043-0.txt    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_01	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_01_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_02	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_02_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_03	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_03_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_04	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_04_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_05	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_05_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_06	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_06_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_07	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_07_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_08	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_08_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_09	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_09_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_10	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_10_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_11	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_11_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_12	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_12_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna2_13	https://www.archive.org/download/nyckfull_kvinna_del2_lr_librivox/ennyckfullkvinna2_13_flygare-carlen.mp3	https://books.google.com/books?id=whQNAAAAYAAJ    Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">jenny	https://www.archive.org/download/multilingual_1204_librivox/swedish_jenny_runeberg_pa.mp3	https://www.gutenberg.org/cache/epub/13100/pg13100.txt	Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_01	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_01_witt.mp3	http://runeberg.org/jordinre/k1.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_02	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_02_witt.mp3	http://runeberg.org/jordinre/k2.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_03	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_03_witt.mp3	http://runeberg.org/jordinre/k3.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_04	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_04_witt.mp3	http://runeberg.org/jordinre/k4.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_05	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_05_witt.mp3	http://runeberg.org/jordinre/k5.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_06	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_06_witt.mp3	http://runeberg.org/jordinre/k6.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_07	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_07_witt.mp3	http://runeberg.org/jordinre/k7.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_08	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_08_witt.mp3	http://runeberg.org/jordinre/k8.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_09	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_09_witt.mp3	http://runeberg.org/jordinre/k9.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_10	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_10_witt.mp3	http://runeberg.org/jordinre/k10.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_11	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_11_witt.mp3	http://runeberg.org/jordinre/k11.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_12	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_12_witt.mp3	http://runeberg.org/jordinre/k12.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_13	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_13_witt.mp3	http://runeberg.org/jordinre/k13.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">jordensinre_14	https://www.archive.org/download/jordens_inre_p_librivox/jordensinre_14_witt.mp3	http://runeberg.org/jordinre/k14.html		Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">landshovdingen	https://www.archive.org/download/multilingual_poetry_017_1103/swedish_landshovdingen_runeberg_pirv.mp3	http://runeberg.org/fstal/2p.html	Pentti Hirvonen	https://librivox.org/reader/5979	m</span>
+<span class="s2">nocturne	https://www.archive.org/download/multilingual_poetry_017_1103/swedish_nocturne_sodergran_jb.mp3	http://web.archive.org/web/20180815020322/http://www.svensklyrik.se/poeter/edith-sodergran/nocturne-2	Johan Borg	https://librivox.org/reader/5958	m</span>
+<span class="s2">sockerpullor_01	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_01_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_02	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_02_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_03	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_03_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_04	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_04_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_05	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_05_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_06	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_06_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">sockerpullor_07	https://www.archive.org/download/sockerpullor_pepparkorn_petra_librivox/sockerpullor_07_wraner.mp3	https://www.gutenberg.org/ebooks/31533.txt.utf-8	Petra  https://librivox.org/reader/2909  f</span>
+<span class="s2">tomten	https://www.archive.org/download/christmasshortworks_2014_1412_librivox/csw14_08_tomten_128kb.mp3	https://www.gutenberg.org/cache/epub/15753/pg15753.txt	J Korth	https://librivox.org/reader/9337	m</span>
+<span class="s2">ennyckfullkvinna_01	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_01_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_02	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_02_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_03	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_03_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_04	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_04_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_05	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_05_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_06	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_06_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Cecilia	https://librivox.org/reader/919	f</span>
+<span class="s2">ennyckfullkvinna_07	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_07_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_07	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_07_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_08	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_08_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_09	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_09_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_10	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_10_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_11	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_11_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_12	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_12_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_13	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_13_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_14	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_14_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_15	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_15_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_16	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_16_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_17	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_17_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna_18	https://www.archive.org/download/nyckfull_kvinna_del1_1111_librivox/ennyckfullkvinna_18_flygare-carlen.mp3	http://runeberg.org/fcenyck/1/	Lars Rolander (1942-2016) https://librivox.org/reader/2234  m</span>
+<span class="s2">ennyckfullkvinna3_01	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_01_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_02	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_02_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_03	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_03_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_04	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_04_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_05	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_05_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_06	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_06_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_07	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_07_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_08	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_08_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_09	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_09_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_10	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_10_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_11	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_11_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_12	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_12_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_13	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_13_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_14	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_14_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_15	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_15_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_16	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_16_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_17	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_17_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_18	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_18_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_19	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_19_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_20	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_20_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_21	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_21_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_22	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_22_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_23	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_23_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna3_24	https://www.archive.org/download/nyckfull_kvinna_3_lr_librivox/ennyckfullkvinna3_24_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_01	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_01_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_02	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_02_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_03	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_03_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_04	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_04_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_05	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_05_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_06	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_06_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_07	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_07_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_08	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_08_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_09	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_09_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_10	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_10_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_11	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_11_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_12	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_12_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_13	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_13_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_14	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_14_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_15	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_15_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_16	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_16_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_17	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_17_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_18	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_18_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_19	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_19_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">ennyckfullkvinna4_20	https://www.archive.org/download/nyckfull_kvinna_4_lr_librivox/ennyckfullkvinna4_20_flygare-carlen.mp3	https://www.archive.org/details/ennyckfullkvinn00flyggoog	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">dagen_svalnar	https://www.archive.org/download/multilingual_short_works_013_1507_librivox/msw013_20dagen_svalnar_sodergran_jb_128kb.mp3	http://runeberg.org/sodrgran/01_02.html	Jonna B	https://librivox.org/reader/10144	f</span>
+<span class="s2">korpen	https://ia800705.us.archive.org/24/items/raven_multilingual_0903/raven_20_rydberg_lr_64kb.mp3	http://runeberg.org/rydbdikt/korpen.html	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">onskenatt	https://www.archive.org/download/multilingual_shortworks_002_librivox/msw002_14_onskenatt_boye_pa.mp3	http://runeberg.org/boyemoln/1_16.html	Petra	https://librivox.org/reader/2909	f</span>
+<span class="s2">ett_halvt_ark_papper	https://www.archive.org/download/msw031_2203_librivox/msw031_18_etthalvtarkpapper_strindberg_eam_128kb.mp3	https://archive.org/details/samladeskrifter38stri/page/50/mode/2up	eam2468	https://librivox.org/reader/17065	m</span>
+<span class="s2">pa_rakstugan	https://www.archive.org/download/msw031_2203_librivox/msw031_19_parakstugan_baath_eam_128kb.mp3	https://books.google.se/books?id=7UEMNUe7nugC&amp;pg=PA98	eam2468	https://librivox.org/reader/17065	m</span>
+<span class="s2">baron_olsen01	https://www.archive.org/download/baronolson_1309_librivox/baronolson_01_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen02	https://www.archive.org/download/baronolson_1309_librivox/baronolson_02_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen03	https://www.archive.org/download/baronolson_1309_librivox/baronolson_03_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen04	https://www.archive.org/download/baronolson_1309_librivox/baronolson_04_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen05	https://www.archive.org/download/baronolson_1309_librivox/baronolson_05_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen06	https://www.archive.org/download/baronolson_1309_librivox/baronolson_06_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen07	https://www.archive.org/download/baronolson_1309_librivox/baronolson_07_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen08	https://www.archive.org/download/baronolson_1309_librivox/baronolson_08_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen09	https://www.archive.org/download/baronolson_1309_librivox/baronolson_09_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen10	https://www.archive.org/download/baronolson_1309_librivox/baronolson_10_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen11	https://www.archive.org/download/baronolson_1309_librivox/baronolson_11_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen12	https://www.archive.org/download/baronolson_1309_librivox/baronolson_12_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen13	https://www.archive.org/download/baronolson_1309_librivox/baronolson_13_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen14	https://www.archive.org/download/baronolson_1309_librivox/baronolson_14_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen15	https://www.archive.org/download/baronolson_1309_librivox/baronolson_15_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen16	https://www.archive.org/download/baronolson_1309_librivox/baronolson_16_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen17	https://www.archive.org/download/baronolson_1309_librivox/baronolson_17_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">baron_olsen18	https://www.archive.org/download/baronolson_1309_librivox/baronolson_18_stroemberg_128kb.mp3	https://www.gutenberg.org/ebooks/15719	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">fran_barnaar01	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_01_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar02	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_02_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar03	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_03_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar04	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_04_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar05	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_05_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar06	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_06_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar07	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_07_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar08	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_08_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar09	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_09_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar10	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_10_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar11	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_11_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar12	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_12_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar13	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_13_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar14	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_14_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar15	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_15_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar16	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_16_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar17	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_17_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar18	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_18_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">fran_barnaar19	https://www.archive.org/download/fran_barnaar_mb_librivox/franbarnaar_19_ramsay.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">udhr1	https://www.archive.org/download/human_rights_02_0908_librivox/human_rights_un_swe_adam.mp3	https://www.ohchr.org/en/human-rights/universal-declaration/translations/swedish-svenska	Adam	https://librivox.org/reader/3103	m</span>
+<span class="s2">udhr2	https://www.archive.org/download/human_rights_02_0908_librivox/human_rights_un_swe_lr.mp3	https://www.ohchr.org/en/human-rights/universal-declaration/translations/swedish-svenska	Lars Rolander (1942-2016)	https://librivox.org/reader/2234	m</span>
+<span class="s2">#valda_berattelser00	https://librivox.org/uploads/kitty/valdaberattelser_00_lagerlof_128kb.mp3	https://www.gutenberg.org/ebooks/51440	AnnaSofia	https://librivox.org/reader/17026	f</span>
+<span class="s2">valda_berattelser01	https://librivox.org/uploads/kitty/valdaberattelser_01_lagerlof_128kb.mp3	https://www.gutenberg.org/ebooks/51440	AnnaSofia	https://librivox.org/reader/17026	f</span>
+<span class="s2">walther_safventyr01	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_1_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr02	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_2_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr03	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_3_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr04	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_4_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr05	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_5_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr06	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_6_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr07	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_7_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">walther_safventyr08	https://www.archive.org/download/walthers_aftventyr_librivox/walthersafventyr_8_topelius.mp3	NONE	Måns Broo	https://librivox.org/reader/1261	m</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> librivox
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/Users/joregan/Playing/notes/_drafts/librivox
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">items</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">DATA</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">):</span>
+        <span class="k">continue</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="c1">#    if f&quot;{parts[0]}.wav&quot; not in DONE:</span>
+    <span class="n">items</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="o">!</span>wget <span class="o">{</span>items<span class="o">[</span>item<span class="o">][</span><span class="m">0</span><span class="o">]}</span>
+    <span class="n">mp3name</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">item</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="o">!</span>ffmpeg -i <span class="o">{</span>mp3name<span class="o">}</span> -acodec pcm_s16le -ac <span class="m">1</span> -ar <span class="m">16000</span> <span class="o">{</span>item<span class="o">}</span>.wav
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here starts the actual ASR stuff.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install transformers
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install torch torchvision torchaudio
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_SWE_MODEL</span> <span class="o">=</span> <span class="s2">&quot;KBLab/wav2vec2-large-voxrex-swedish&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">pipeline</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pipe</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">(</span><span class="n">model</span><span class="o">=</span><span class="n">_SWE_MODEL</span><span class="p">,</span> <span class="n">framework</span><span class="o">=</span><span class="s2">&quot;pt&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.wav&quot;</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">DONE</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">jsonf</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.wav&quot;</span><span class="p">,</span> <span class="s2">&quot;.json&quot;</span><span class="p">)</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="n">pipe</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">chunk_length_s</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">return_timestamps</span><span class="o">=</span><span class="s2">&quot;word&quot;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">jsonf</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wrote&quot;</span><span class="p">,</span> <span class="n">jsonf</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
