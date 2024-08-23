@@ -1906,14 +1906,23 @@ https://translate.google.com/?sl=auto&tl=en&text=Gemensamma%20data(repositorier)
 The language bank Text | The Language Bank Text
 https://spraakbanken.gu.se/
 
-Home | Mink
-https://spraakbanken.gu.se/mink/
+spraakbanken repositories
+https://github.com/orgs/spraakbanken/repositories?type=all
+
+spraakbanken/swegram-v2: SWEGRAM: Annotation and Analysis of English and Swedish Texts
+https://github.com/spraakbanken/swegram-v2
+
+metadata/yaml/lexicon/poligraph.yaml at main · spraakbanken/metadata
+https://github.com/spraakbanken/metadata/blob/main/yaml/lexicon/poligraph.yaml
+
+Language resources | Språkbanken Text
+https://spraakbanken.gu.se/en/resources
+
+ASPAC | Språkbanken Text
+https://spraakbanken.gu.se/en/resources/aspac
 
 Stadsriksdagen: Riksdag decisions | The Language Bank Text
 https://spraakbanken.gu.se/resurser/standsriksdagen-riksdagsbeslut
-
-HUMINFRA | The Language Bank Text
-https://spraakbanken.gu.se/projekt/huminfra
 
 Bicameral Riksdag: Riksdag acts | The Language Bank Text
 https://spraakbanken.gu.se/resurser/standsriksdagen-riksdagsakter
@@ -1924,74 +1933,11 @@ https://spraakbanken.gu.se/resurser/standsriksdagen-bondestandet
 tarepan/vocos-official: Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis
 https://github.com/tarepan/vocos-official
 
-Erica Fett (@erica.fett) • Instagram photos and videos
-https://www.instagram.com/erica.fett
-
-Shared with me - Google Drive
-https://drive.google.com/drive/u/0/shared-with-me
-
-MM-conv dataset analysis - Google Docs
-https://docs.google.com/document/d/1PJGdc8GqXt2lkMCyXwWzPSn6W83NYqkwT6QqHlqKyE4/edit
-
-SGS24_recordings - Google Sheets
-https://docs.google.com/spreadsheets/d/1dSsHOMkZn6zrh2KQZG-SOlttDll7Rjhv17J4Y_IM3v8/edit?gid=0#gid=0
-
-weren't - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/weren't
-
-facebook noise reduction - Google Search
-https://www.google.com/search?q=facebook+noise+reduction&rlz=1C5GCEM_enSE990SE991&oq=facebook+noise+reduction&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINDg3NWoxajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Denoiser Example.ipynb - Colab
-https://colab.research.google.com/drive/1Too3cnMpyKaLQ0vPwDw7jUx0Y3eXm2IA?usp=sharing
-
-main() - Command Line Arguments
-https://cs.stanford.edu/people/nick/py/python-main.html
-
-python - How to generate audio from a numpy array? - Stack Overflow
-https://stackoverflow.com/questions/10357992/how-to-generate-audio-from-a-numpy-array
-
-kaggle-notebooks/cmu-us-awb-arctic-fairseq-files.ipynb · jimregan/wav2vec-awb at main
-https://huggingface.co/jimregan/wav2vec-awb/blob/main/kaggle-notebooks/cmu-us-awb-arctic-fairseq-files.ipynb
-
-WAV2VEC2_ASR_BASE_960H — Torchaudio 2.4.0 documentation
-https://pytorch.org/audio/stable/generated/torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H.html
+jimregan/wav2vec-awb · Hugging Face
+https://huggingface.co/jimregan/wav2vec-awb
 
 fairseq/examples/wav2vec at ce6c9eeae163ac04b79539c78e74f292f29eaa18 · facebookresearch/fairseq
 https://github.com/facebookresearch/fairseq/tree/ce6c9eeae163ac04b79539c78e74f292f29eaa18/examples/wav2vec#pre-trained-models
-
-denoiser/denoiser/executor.py at main · facebookresearch/denoiser
-https://github.com/facebookresearch/denoiser/blob/main/denoiser/executor.py
-
-python-soundfile — python-soundfile 0.11.0 documentation
-https://python-soundfile.readthedocs.io/en/0.11.0/
-
-"soundfile" "write" numpy array float32 as wav - Google Search
-https://www.google.com/search?q=%22soundfile%22+%22write%22+numpy+array+float32+as+wav&sca_esv=005de939f69ca760&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIJPC3r5lwHFCtnMPlJfekm9MbItTA%3A1724417767802&ei=54bIZt_XMKSSwPAP-LqJqAI&ved=0ahUKEwif5_njlIuIAxUkCRAIHXhdAiUQ4dUDCA8&uact=5&oq=%22soundfile%22+%22write%22+numpy+array+float32+as+wav&gs_lp=Egxnd3Mtd2l6LXNlcnAiLiJzb3VuZGZpbGUiICJ3cml0ZSIgbnVtcHkgYXJyYXkgZmxvYXQzMiBhcyB3YXYyBBAjGCcyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogRIgSFQ8g9Y7BtwAXgBkAEAmAFNoAGJAaoBATK4AQPIAQD4AQGYAgOgApkBwgIKEAAYsAMY1gQYR5gDAIgGAZAGCJIHATOgB6wJ&sclient=gws-wiz-serp
-
-Converting a .wav into numpy array · Issue #93 · spatialaudio/python-sounddevice
-https://github.com/spatialaudio/python-sounddevice/issues/93
-
-Writing integer values through the non-numpy interface results in a wav of all 0s · Issue #405 · bastibe/python-soundfile
-https://github.com/bastibe/python-soundfile/issues/405
-
-python-soundfile — python-soundfile 0.11.0 documentation
-https://python-soundfile.readthedocs.io/en/0.11.0/
-
-nvidia denoiser - Google Search
-https://www.google.com/search?q=nvidia+denoiser&rlz=1C5GCEM_enSE990SE991&oq=nvidia+denoiser&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCwgIEAAYFhgeGIsDMgsICRAAGBYYHhiLA9IBCDI5MzBqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-audio denoiser - Google Search
-https://www.google.com/search?q=audio+denoiser&rlz=1C5GCEM_enSE990SE991&oq=audio+denoiser&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQABgUGIcCGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgYIBxBFGDzSAQg0NDEyajFqNKgCALACAQ&sourceid=chrome&ie=UTF-8
-
-Audio-Denoiser/main.py at main · sa-if/Audio-Denoiser
-https://github.com/sa-if/Audio-Denoiser/blob/main/main.py
-
-noisereduce · PyPI
-https://pypi.org/project/noisereduce/
-
-neural audio denoise - Google Search
-https://www.google.com/search?q=neural+audio+denoise&rlz=1C5GCEM_enSE990SE991&oq=neural+audio+denoise&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBdIBCDQ4MzJqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 rdadlaney/Audio-Denoiser-CNN
 https://github.com/rdadlaney/Audio-Denoiser-CNN
@@ -2014,26 +1960,17 @@ https://www.analyticsvidhya.com/blog/2022/03/audio-denoiser-a-speech-enhancement
 EncoraDigital/SAB-cnn-audio-denoiser: Tensorflow 2.0 implementation of the paper: A Fully Convolutional Neural Network for Speech Enhancement
 https://github.com/EncoraDigital/SAB-cnn-audio-denoiser
 
-audio cleaner - Google Search
-https://www.google.com/search?q=audio+cleaner&rlz=1C5GCEM_enSE990SE991&oq=audio+cleaner&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIKCAYQABiLAxiABDIKCAcQABiLAxiABDIHCAgQABiABDIHCAkQABiABNIBCDU4NDJqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 AI Voice Cleaner & Background Noise Remover | LALAL.AI
 https://www.lalal.ai/voice-cleaner/
 
 Tools & API | LALAL.AI
 https://www.lalal.ai/tools-and-api/
 
-source separation speech noise - Google Search
-https://www.google.com/search?q=source+separation+speech+noise&sca_esv=2ca6f23d8cc3e1e1&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIIPAwip2oUy1dgdneIPJlr8CHX3Ag%3A1724420412210&ei=PJHIZq2-DOqzwPAP9Zam8Q4&ved=0ahUKEwitzPPQnouIAxXqGRAIHXWLKe4Q4dUDCA8&uact=5&oq=source+separation+speech+noise&gs_lp=Egxnd3Mtd2l6LXNlcnAiHnNvdXJjZSBzZXBhcmF0aW9uIHNwZWVjaCBub2lzZTIFECEYoAEyBRAhGKABMgUQIRigAUi0ClBjWJMJcAF4AZABAJgBdqAB-gOqAQM0LjK4AQPIAQD4AQGYAgegAogEwgIKEAAYsAMY1gQYR8ICBhAAGBYYHsICCxAAGIAEGIYDGIoFwgIIEAAYgAQYogTCAgcQIRigARgKwgIGECEYFRgNwgIFECEYnwWYAwCIBgGQBgiSBwM1LjKgB4wa&sclient=gws-wiz-serp
-
 AppleHolic/source_separation: Deep learning based speech source separation using Pytorch
 https://github.com/AppleHolic/source_separation?tab=readme-ov-file
 
 Source Separation first notebook.ipynb - Colab
 https://colab.research.google.com/github/Appleholic/source_separation/blob/master/assets/Source_Separation_first_notebook.ipynb#scrollTo=6B0qjk_i3HmD
-
-denoise remove cable clicks - Google Search
-https://www.google.com/search?q=denoise+remove+cable+clicks&rlz=1C5GCEM_enSE990SE991&oq=denoise+remove+cable+clicks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc0NDRqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 Removing Clicks/Pops/Bad Cable sounds from Audio? - Gearspace
 https://gearspace.com/board/low-end-theory/673757-removing-clicks-pops-bad-cable-sounds-audio.html
@@ -2044,10 +1981,76 @@ https://emastered.com/blog/remove-clicks-pops-from-audio
 Spectral Selection and Editing - Audacity Manual
 https://manual.audacityteam.org/man/spectral_selection.html
 
-PowerPoint presentations | KTH Intranet
-https://intra.kth.se/en/administration/kommunikation/mallar-kommunikationsverktyg/mallar/powerpoint/presentationer-i-powerpoint-1.458251
+Remove Clicks/Pops/Mouth Noises in Audacity [Step-by-Step Guide]
+https://multimedia.easeus.com/ai-article/click-removal-audacity.html
 
-KTH for me - Filmstaden movie tickets
-https://www.benify.com/fps/user/userApp/view?nav.id=1337&nav.lId=232#/benefitOrder/orderConfirmation/26668348
+Updated De-Clicker and new De-esser for speech - Programming and Development / New Plug-Ins - Audacity Forum
+https://forum.audacityteam.org/t/updated-de-clicker-and-new-de-esser-for-speech/34283/3
+
+set chrome to autoreject notifications - Google Search
+https://www.google.com/search?q=set+chrome+to+autoreject+notifications&rlz=1C5GCEM_enSE990SE991&oq=set+chrome+to+autoreject+notifications&gs_lcrp=EgZjaHJvbWUyCwgAEEUYChg5GKABMgYIARBFGEDSAQg2ODA1ajFqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+audacity mac add nyquist - Google Search
+https://www.google.com/search?q=audacity+mac+add+nyquist&rlz=1C5GCEM_enSE990SE991&oq=audacity+mac+add+nyq&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDgzNDlqMWo0qAIAsAIB&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:d93646a9,vid:BMZ5gwkn2uo,st:11
+
+Normalize - Audacity Manual
+https://manual.audacityteam.org/man/normalize.html#Remove_any_DC_offset
+
+fix clipping audio - Google Search
+https://www.google.com/search?q=fix+clipping+audio&rlz=1C5GCEM_enSE990SE991&oq=fix+clipping&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIMCAIQABgUGIcCGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMg0ICRAAGIYDGIAEGIoF0gEINTQyOGoxajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Is there a way to fix blown/clipped audio? : r/audioengineering
+https://www.reddit.com/r/audioengineering/comments/15hjcdy/is_there_a_way_to_fix_blownclipped_audio/
+
+open source audio fix clipping - Google Search
+https://www.google.com/search?q=open+source+audio+fix+clipping&rlz=1C5GCEM_enSE990SE991&oq=open+source+audio+fix+clipping&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEAyBggDEEUYQNIBCTEwMTg4ajFqNKgCALACAQ&sourceid=chrome&ie=UTF-8
+
+Is there a way to fix blown/clipped audio? : r/audioengineering
+https://www.reddit.com/r/audioengineering/comments/15hjcdy/is_there_a_way_to_fix_blownclipped_audio/
+
+Audio clipping / static / interference on rapid intervals of sound (fixed in `master`) · Issue #22016 · godotengine/godot
+https://github.com/godotengine/godot/issues/22016
+
+How to Fix Distorted Audio in Audacity [7 Newest Ways] 🛠️
+https://multimedia.easeus.com/ai-article/how-to-fix-distorted-audio-in-audacity.html
+
+RX 11 Background Noise Removal & Audio Cleanup Software | iZotope
+https://www.izotope.com/en/products/rx.html?srsltid=AfmBOopKcy3LhypEvko-RgWPOPIm6QnHEilfZmD9EM09ZdBra7j8qZi3
+
+Spectral Selection and Editing - Audacity Manual
+https://manual.audacityteam.org/man/spectral_selection.html
+
+kenders2000/distortionDetection: C++ Program to detect Clipping and other overload based nonlinear distortions in Wav Files
+https://github.com/kenders2000/distortionDetection
+
+linux wav fix clipping - Google Search
+https://www.google.com/search?q=linux+wav+fix+clipping&rlz=1C5GCEM_enSE990SE991&oq=linux+wav+fix+clipping&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDg5NzdqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+ISSE / code / [451aa4]
+https://sourceforge.net/p/isse/code/ci/master/tree/
+
+Looking for advice on repairing hard clipping / audio distortion in a .wav file? : r/audioengineering
+https://www.reddit.com/r/audioengineering/comments/qh1cyn/looking_for_advice_on_repairing_hard_clipping/
+
+Instagram
+https://www.instagram.com/reels/C-q7Jj3yylc/
+
+Emmy Steuer (@emmy.steuer) • Instagram photos and videos
+https://www.instagram.com/emmy.steuer/reels/
+
+Gracie Marie (@workwifegracie) • Instagram photos and videos
+https://www.instagram.com/workwifegracie/reels/
+
+Ana Sofía (@anasofiafehn) • Instagram photos and videos
+https://www.instagram.com/anasofiafehn/reels/
+
+Kris Goman (@krisgoman) • Instagram photos and videos
+https://www.instagram.com/krisgoman/reels/
+
+Илона Арсентьева (@ilonarsentieva) • Instagram photos and videos
+https://www.instagram.com/ilonarsentieva/reels/
+
+Софа Тарасенко 📍Новосибирск (@soffi_tar) • Instagram photos and videos
+https://www.instagram.com/soffi_tar/reels/
 
 
