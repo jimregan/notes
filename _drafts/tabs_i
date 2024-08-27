@@ -2230,7 +2230,7 @@ https://github.com/jiaaro/pydub/blob/master/API.markdown
 Cursor
 https://www.cursor.com/
 
-(3) Home / X
+x.com/home
 https://x.com/home
 
 g2p/g2p_en/g2p.py at master · Kyubyong/g2p
@@ -2248,40 +2248,103 @@ https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/implementati
 mfa-models/config/acoustic/rules at main · MontrealCorpusTools/mfa-models
 https://github.com/MontrealCorpusTools/mfa-models/tree/main/config/acoustic/rules
 
-MontrealCorpusTools
-https://github.com/MontrealCorpusTools
+Montreal-Forced-Aligner/tests/test_acoustic_modeling.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/tests/test_acoustic_modeling.py#L9
 
-MontrealCorpusTools/PolyglotDB: Language data store and linguistic query API
-https://github.com/MontrealCorpusTools/PolyglotDB
+Montreal-Forced-Aligner/montreal_forced_aligner/dictionary/multispeaker.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/dictionary/multispeaker.py#L1030
 
-MontrealCorpusTools/iscan-spade-server: Django server set up for the SPADE project
-https://github.com/MontrealCorpusTools/iscan-spade-server
+Montreal-Forced-Aligner/montreal_forced_aligner/db.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/db.py#L796
 
-MontrealCorpusTools/ISCAN: Development repository for Integrated Speech Corpus Analaysis (ISCAN)
-https://github.com/MontrealCorpusTools/ISCAN?tab=readme-ov-file
+Montreal-Forced-Aligner/montreal_forced_aligner/data.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/data.py#L114
 
-ISCAN Tutorials — ISCAN 0.0.1 documentation
-https://iscan.readthedocs.io/en/latest/tutorials_iscan.html
+Montreal-Forced-Aligner/montreal_forced_aligner/command_line/train_acoustic_model.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/command_line/train_acoustic_model.py#L80
 
-montreal-forced-aligner.readthedocs.io/en/latest/_sources/user_guide/implementations/phonological_rules.md.txt
-https://montreal-forced-aligner.readthedocs.io/en/latest/_sources/user_guide/implementations/phonological_rules.md.txt
+Montreal-Forced-Aligner/montreal_forced_aligner/corpus/acoustic_corpus.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
+https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/corpus/acoustic_corpus.py#L1114
 
-ABAIR
-https://abair.ie/ga
+g2p/g2p/constants.py at main · roedoejet/g2p
+https://github.com/roedoejet/g2p/blob/main/g2p/constants.py
 
-sibeal - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TM4zLqtINq40YPRiK85MSk3MAQBTQwcx&q=sibeal&rlz=1C5GCEM_enSE990SE991&oq=sibeal&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEC4YgAQyBwgDEC4YgAQyBwgEEAAYgAQyBwgFEAAYgAQyCQgGEAAYChiABDIHCAcQABiABDIMCAgQLhgKGNQCGIAE0gEIMzMzM2oxajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+g2p/g2p/mappings/langs/sal/sal_apa_to_ipa.csv at main · roedoejet/g2p
+https://github.com/roedoejet/g2p/blob/main/g2p/mappings/langs/sal/sal_apa_to_ipa.csv
 
-Theme from Harry's Game - Wikipedia
-https://en.wikipedia.org/wiki/Theme_from_Harry%27s_Game
+roedoejet/convertextract: Extract and find/replace text based on arbitrary correspondences while preserving original file formatting. This library is a fork from the Textract library by Dean Malmgren.
+https://github.com/roedoejet/convertextract
+
+G2P Part 6: Solve inconsistencies in your text with a g2p pre-processing mapping | Mother Tongues Blog
+https://blog.mothertongues.org/g2p-preprocess/
+
+G2P Part 3: Make a basic mapping with g2p | Mother Tongues Blog
+https://blog.mothertongues.org/g2p-basic-mappings-local/
+
+Speech to text alignment demo
+https://dhdaines.github.io/alignment-demo/
+
+Postgresql | Anaconda.org
+https://anaconda.org/anaconda/postgresql
 
 MM-Conv
 https://mm-conv.github.io/
 
-Direct • Instagram
-https://www.instagram.com/direct/t/17845647458552890/
+view-source:https://mm-conv.github.io
+view-source:https://mm-conv.github.io/
 
-Inside Out (2015 film) - Wikipedia
-https://en.wikipedia.org/wiki/Inside_Out_(2015_film)
+2006.11477
+https://arxiv.org/pdf/2006.11477
+
+facebook/Ax: Adaptive Experimentation Platform
+https://github.com/facebook/Ax
+
+[2006.11477] wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations
+https://arxiv.org/abs/2006.11477
+
+2499.pdf
+https://www.dropbox.com/scl/fi/251e947axxi3dhle7hi4y/2499.pdf?rlkey=ijsif0rdz9fgj65w3wfoqsuhc&e=1&dl=0
+
+adding salsa code · csalt-research/salsa@ef06f0d
+https://github.com/csalt-research/salsa/commit/ef06f0d9ff28e3e8f866af5810ca77f63c86ac58
+
+History for README.md - Lightning-AI/litgpt
+https://github.com/Lightning-AI/litgpt/commits/main/README.md?after=f655f01b19d32fcf7f7d3fd8b68b25b904c825e4+104
+
+Drop GPTQ support (#889) · Lightning-AI/litgpt@49c7e07
+https://github.com/Lightning-AI/litgpt/commit/49c7e079c1b547d7570d6b597580fb8c34c7eb28
+
+StableLM Zephyr 3B (#801) · Lightning-AI/litgpt@a6059b2
+https://github.com/Lightning-AI/litgpt/commit/a6059b2eb8eaf46985af7a0cc6348736a46aa818
+
+mistralai/Mathstral-7B-v0.1 · Hugging Face
+https://huggingface.co/mistralai/Mathstral-7B-v0.1
+
+2499.mp4
+https://www.dropbox.com/scl/fi/5xhmityps82xwaiq46s3o/2499.mp4?rlkey=k60qmg6n27au1spnpzt2d5t9g&e=1&dl=0
+
+seal - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/seal
+
+seolh - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/seolh#Old_English
+
+fóka - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/f%C3%B3ka#Hungarian
+
+foch - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/foch#Polish
+
+Whispering-LLaMA/lit_llama at main · Srijith-rkr/Whispering-LLaMA
+https://github.com/Srijith-rkr/Whispering-LLaMA/tree/main/lit_llama
+
+Lightning-AI/lit-llama: Implementation of the LLaMA language model based on nanoGPT. Supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed.
+https://github.com/Lightning-AI/lit-llama
+
+Instagram
+https://www.instagram.com/
+
+git - "refusing to merge unrelated histories" failure while pulling to recovered repository - Stack Overflow
+https://stackoverflow.com/questions/39761024/refusing-to-merge-unrelated-histories-failure-while-pulling-to-recovered-repos/39783462#39783462
 
 
