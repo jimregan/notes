@@ -3053,3 +3053,457 @@ grep § ~/rd_ctm_edit/*
 less /home/joregan/rd_ctm_edit/H910210
 less /tmp/run_ffmpeg1.sh 
 history -a
+cd hfsami/
+rm -rf jimregan/
+nvidia-smi 
+nvidia-smi |less
+nvidia-smi |head
+conda activate hf_new
+python
+cd ..
+conda create --name mfa python=3.10
+conda activate mfa
+conda install -c conda-forge montreal-forced-aligner
+ffmpeg -i /sbtal/riksdag-video/2442205080011597721_480p.mp4 -acodec pcm_s16le -ac 1 -ar 16000 /tmp/2442205080011597721.wav
+ffmpeg -i /tmp/2442205080011597721.wav -ss 130.22 -t 6.16 2442205080011597721_130.22_6.16.wav
+ffmpeg -i /tmp/2442205080011597721.wav -ss 130.20 -t 6.16 2442205080011597721_130.20_6.16.wav
+unzip -l ~/.srv/m13mar24/Ss_14Mar24_1.zip 
+ls
+conda install montreal-forced-aligner
+mfa model download acoustic english_us_arpa
+mfa model download dictionary english_us_arpa
+ls
+which mfa
+mfa model list acoustic
+find . -name 'english_us_arpa*'
+less ./Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict
+mfa validate shivam1mfa/
+mfa validate shivam1mfa ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+mfa model download g2p english_us_arpa
+rm -rf ~/Documents/MFA/shivam1mfa/
+mfa validate shivam1mfa/
+mfa validate --help
+mfa validate shivam1mfa ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+ls ~/Documents/MFA/shivam1mfa/
+ls ~/Documents/MFA/shivam1mfa/shivam1mfa
+ls shivam1mfa
+find ~/Documents/MFA/ -name "*rid"
+mkdir test-out
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip outputs/
+mfa align --g2p_model_path shivam1mfa/  ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip outputs/
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip shivam1mfa/  ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip outputs/
+ls outputs/
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip shivam1mfa/  ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip test-out/
+ls test-out/
+less ~/Documents/MFA/shivam1mfa/oov_counts_english_us_arpa.txt 
+grep jarash shivam1mfa/*txt
+cat ~/Documents/MFA/shivam1mfa/oov_counts_english_us_arpa.txt 
+grep pantene shivam1mfa/*txt
+rm shivam1mfa/4.*
+rm shivam1mfa/7.*
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip shivam1mfa/  ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip test-out/
+ls test-out/
+cat test-out/1.TextGrid 
+less test-out/1.TextGrid 
+pip install textgrid
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip shivam1mfa/  ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip test-out/
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip humogen/testing/ ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip humogen/mfaout/
+ls
+less mfa-to-tsv.py 
+ls humogen/mfaout/
+cd humogen/mfaout/
+ls
+ls 5
+for i in 1 2 3 4 5;do mv $i/* .; done
+ls
+cd ..
+mkdir tsv
+python ../mfa-to-tsv.py mfaout/ tsv
+ls tsv/
+scp tsv/* deepwave:/home/deichler/data/pointing/evaluations/humogen/control/tsv/
+scp tsv/* deepwave:control/tsv/
+ls
+ls testing/
+cd testing/
+ls
+ls 1
+for i in 1 2 3 4 5;do for w in $i/*wav;do echo $w;done; done
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); echo $orig;done;done
+#for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); echo ffmpeg -i $orig;done;done
+ls
+ls ../outputs/
+#for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); echo ffmpeg -i ../outputs/$orig -ar 44100 $w ;done;done
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); echo ffmpeg -i ../outputs/$orig -ar 44100 $w ;done;done
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); echo ffmpeg -i ../outputs/$orig -ar 44100 $outw ;done;done
+ls
+mkdir wav
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); echo ffmpeg -i ../outputs/$orig -ar 44100 wav/$outw ;done;done
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs/$orig -ar 44100 wav/$outw ;done;done
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs/$orig -c:a pcm_s24le -ar 44100 wav/$outw ;done;done
+ls
+rm -rf wav
+mkdir wav
+for i in 1 2 3 4 5;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs/$orig -c:a pcm_s24le -ar 44100 wav/$outw ;done;done
+ls wav
+scp -r wav/ deepwave:control/
+ls
+cd wav/
+ls
+ls|wc
+soxi -DT *.wav
+echo $((4660 / 60 / 60))
+perl -e 'print 4660 / 3600'
+ls
+cd ..
+ls
+rm -rf wav/
+cd ..
+rm -rf testing/
+ls
+mkdir mfaout6
+#mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip humogen/testing/ ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip humogen/mfaout6
+cd ..
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip humogen/testing/ ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip humogen/mfaout6
+cd humogen/
+ls
+ls outputs/
+mv outputs/ outputs6
+cd ..
+cd humogen/
+ls testing/
+ls testing/6/
+mv testing/ testing6
+cd ..
+mfa align --g2p_model_path ~/Documents/MFA/pretrained_models/g2p/english_us_arpa.zip humogen/testing6 ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict ~/Documents/MFA/pretrained_models/acoustic/english_us_arpa.zip humogen/mfaout6
+cd humogen/
+ls
+ls tsv/
+mv tsv/ tsv-old
+mkdir tsv
+python ../mfa-to-tsv.py mfaout6 tsv
+ls tsv
+ls tsv/
+ls mfaout6
+ls mfaout6/6/
+cd mfaout6
+mv 6/* .
+cd ..
+python ../mfa-to-tsv.py mfaout6 tsv
+ls tsv
+for i in 6;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs/$orig -c:a pcm_s24le -ar 44100 wav/$outw ;done;done
+ls
+cd testing/
+ls
+cd testing6/
+ls
+for i in 6;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs/$orig -c:a pcm_s24le -ar 44100 wav/$outw ;done;done
+mkdir wav
+for i in 6;do for w in $i/*wav;do orig=$i/$(echo $w|awk -F'_' '{print $NF}'); outw=$(echo $w|awk -F/ '{print $NF}'); ffmpeg -i ../outputs6/$orig -c:a pcm_s24le -ar 44100 wav/$outw ;done;done
+ls wav/
+scp -r wav/ deepwave:control/
+cd ..
+ls
+ls tsv
+scp -r tsv/ deepwave:control/
+ls
+for subdir in outputs6/*;do echo $subdir;done
+vi simple.sh
+bash simple.sh outputs6 foo
+ls outputs6/
+ls outputs6/6/
+vi simple.sh
+ls outputs6/6/
+bash simple.sh outputs6 foo
+vi simple.sh
+bash simple.sh outputs6 foo
+vi simple.sh
+bash simple.sh outputs6 foo
+vi simple.sh
+bash simple.sh outputs6 foo
+vi simple.sh
+bash simple.sh outputs6 foo
+vi simple.sh
+bash simple.sh outputs6 foo
+vi simple.sh
+ls
+cd ../CVPRHumogen/
+ls
+cp ../humogen/run_alignment.sh utils/
+git diff
+cp ../humogen/run_alignment.sh utils/
+git diff
+vi utils/run_alignment.sh 
+git diff
+git stash
+pwd
+git diff
+vi utils/run_alignment.sh 
+git status
+git stash
+git pull
+git checkout main 
+git pull
+git diff
+ls
+ls ../humogen/
+ls ../humogen/existing 
+scp -r deepwave:/home/beskow/data/genea2023/tst/main-agent/wav-mute2/ .
+conda create --name coqui
+conda create --name coqui python=3.10
+conda activate coqui
+git clone https://github.com/coqui-ai/TTS
+cd TTS/
+pip install -e .
+ls
+cd ..
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/reference_speakers .
+ls
+cd TTS/
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/coqui_TTS/recipes/ljspeech/xtts_v2 .
+less xtts_v2/train_gpt_xtts.py 
+ls
+python
+conda install cudnn
+CUDA_VISIBLE_DEVICES=7 python
+cd ..
+mkdir freevc
+cd freevc/
+conda create --name freevc python=3.10
+conda activate freevc]
+conda activate freevc
+git clone https://github.com/OlaWod/FreeVC.git
+cd FreeVC/
+pip install -r requirements.txt 
+vi requirements.txt 
+pip install -r requirements.txt 
+ls
+ls wavlm/
+less wavlm/WavLM-Large.pt.txt 
+pip install gdown
+cd wavlm/
+gdown https://drive.google.com/file/d/12-cB34qCTvByWT-QtOcZaqwwO21FLSqU/view
+gdown https://drive.google.com/file/d/12-cB34qCTvByWT-QtOcZaqwwO21FLSqU
+gdown --fuzzy https://drive.google.com/file/d/12-cB34qCTvByWT-QtOcZaqwwO21FLSqU
+ls
+cat 12-cB34qCTvByWT-QtOcZaqwwO21FLSqU q
+cat 12-cB34qCTvByWT-QtOcZaqwwO21FLSqU 
+rm 12-cB34qCTvByWT-QtOcZaqwwO21FLSqU 
+gdown --fuzzy https://drive.google.com/file/d/12-cB34qCTvByWT-QtOcZaqwwO21FLSqU/view?usp=share_link
+cd ..
+ls
+less convert.py 
+echo $((78 * 60))
+echo $((80 * 60))
+echo $((4808 - 4680))
+ls ../../../humogen/wav-mute2
+ls ../../../humogen/wav-mute2/tst/
+ls PWD/../../../humogen/wav-mute2/tst/
+ls $PWD/../../../humogen/wav-mute2/tst/
+echo $PWD/../../../humogen/wav-mute2/tst/
+echo $HOME/humogen/wav-mute2/tst/
+ls $HOME/humogen/
+#ls $HOME/humogen/
+for i in /home/joregan/humogen/wav-mute2/tst/*.wav; do for j in ~/humogen/reference_speakers/*.wav; chunk=$(basename $i .wav); spk=$(echo $j|awk -F/ '{print $NF}'|awk -F'_' '{print $1}');echo $spk $chunk;done;done
+for i in /home/joregan/humogen/wav-mute2/tst/*.wav; do for j in ~/humogen/reference_speakers/*.wav; do chunk=$(basename $i .wav); spk=$(echo $j|awk -F/ '{print $NF}'|awk -F'_' '{print $1}');echo $spk $chunk;done;done
+less convert.py 
+for i in /home/joregan/humogen/wav-mute2/tst/*.wav; do for j in ~/humogen/reference_speakers/*.wav; do chunk=$(basename $i .wav); spk=$(echo $j|awk -F/ '{print $NF}'|awk -F'_' '{print $1}');echo "${spk}_$chunk|$i|$j" ;done;done
+less convert.py 
+for i in /home/joregan/humogen/wav-mute2/tst/*.wav; do for j in ~/humogen/reference_speakers/*.wav; do chunk=$(basename $i .wav); spk=$(echo $j|awk -F/ '{print $NF}'|awk -F'_' '{print $1}');echo "${spk}_$chunk|$i|$j" ;done;done > convert.txt1
+less convert.txt
+# CUDA_VISIBLE_DEVICES=0 python convert.py --hpfile logs/freevc.json --ptfile checkpoints/freevc.pth --txtpath convert.txt --outdir outputs/freevc
+ls mkdir outputs
+CUDA_VISIBLE_DEVICES=0 python convert.py --hpfile logs/freevc.json --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+conda install cudnn
+CUDA_VISIBLE_DEVICES=0 python convert.py --hpfile logs/freevc.json --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+pip install --upgrade numpy==1.22
+CUDA_VISIBLE_DEVICES=0 python convert.py --hpfile logs/freevc.json --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+mkdir logs
+CUDA_VISIBLE_DEVICES=0 python convert.py --hpfile logs/freevc.json --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+CUDA_VISIBLE_DEVICES=0 python convert.py  --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+mkdir checkpoints
+pwd
+CUDA_VISIBLE_DEVICES=0 python convert.py  --ptfile checkpoints/freevc.pth --txtpath convert.txt2 --outdir outputs
+less convert.txt1 
+CUDA_VISIBLE_DEVICES=0 python convert.py  --ptfile checkpoints/freevc.pth --txtpath convert.txt1 --outdir outputs
+ls
+ls outputs/
+mv outputs/ freevc-outputs
+mv freevc-outputs/ ~/humogen/genea2023/
+cd
+scp -r humogen/outputs-18mar/wav/ deepwave:control-19mar/
+ls
+cd sync-asr/notebooks/
+ls
+bash grabber.sh 
+less grabber.sh 
+bash grabber.sh 
+cp grabber.sh  ..
+cd ..
+vi grabber.sh 
+bash grabber.sh 
+ls
+python
+ls
+mkdir plw
+cd plw/
+#python ../scripts/scrape_wiktionary_audio.py --language Python --output
+mkdir filedir
+#python ../scripts/scrape_wiktionary_audio.py --language Python --output filedir --links links.txt --save-json pl.json --write-dict pl.dict
+python ../scripts/scrape_wiktionary_audio.py --language Python --output filedir --links links.txt --save-json pl.json --write-dict pl.dict
+python ../scripts/scrape_wiktionary_audio.py --language Polish --output filedir --links links.txt --save-json pl.json --write-dict pl.dict
+ls
+ls filedir/
+less links.txt 
+wc -l links.txt 
+less links.txt 
+ls
+ls filedir/
+ls ~/first-pass/
+less ~/first-pass/clean/2442203110005762721_193920_11640.00.ctmedit 
+find ~/first-pass/clean/ -type f|xargs grep -i terror
+cat /home/joregan/first-pass/clean/2442205230013039521_3411740_6740.00.ctmedit
+#ffmpeg -i /sbtal/riksdag-video/2442205230013039521_480p.mp4 -ss 3411.740 -t 6.740 /tmp/
+ffmpeg -i /sbtal/riksdag-video/2442205230013039521_480p.mp4 -ss 3411.740 -t 6.740 /tmp/2442205230013039521_3411740_6740.mp4
+cat /home/joregan/first-pass/clean/2442205230013039521_3411740_6740.00.ctmedit
+cat /home/joregan/first-pass/clean/2442205230013039521_3411740_6740.00.ctmedit | awk '{print $(NF-1)}'
+cat /home/joregan/first-pass/clean/2442205230013039521_3411740_6740.00.ctmedit | awk '{print $(NF-1)}'|tr '\n' ' '
+ls ~/second-pass/clean/
+less 2442207130019562821_1760740_599.ctmedit
+ls ~/second-pass/clean/2442207130019562821_1760740_599.ctmedit 
+less ~/second-pass/clean/2442207130019562821_1760740_599.ctmedit 
+less ~/second-pass/clean/2442207180019971221_3012080_420.ctmedit 
+grep -i talman ~/second-pass/clean/*
+less ~/second-pass/clean/2442203140005899321_367580_9999.ctmedit 
+less ~/second-pass/clean/2442203180006278721_470480_9759.ctmedit 
+ffmpeg -i /sbtal/riksdag-video/2442203180006278721_480p.mp4 -ss 470.480 -t 9.759 /tmp/2442203180006278721_470480_9759.mp4
+cat ~/second-pass/clean/2442203180006278721_470480_9759.ctmedit 
+cat ~/second-pass/clean/2442203180006278721_470480_9759.ctmedit |awk '{print $(NF-1)}'|tr '\n' ' '
+cat ~/third-pass/clean/2442203250007008321_2452260_11399.ctmedit 
+ffmpeg -i /sbtal/riksdag-video/2442203250007008321_480p.mp4 -ss 2452.260 -t 11.399 /tmp/2442203250007008321_2452260_11399.mp4
+cat ~/third-pass/clean/2442203250007008321_2452260_11399.ctmedit |awk '{print $(NF-1)}'
+cat ~/third-pass/clean/2442203250007008321_2452260_11399.ctmedit |awk '{print $(NF-1)}'|tr '\n' ' '
+cat ~/third-pass/clean/2442203250007008321_2452260_11399.ctmedit |awk '{print $(NF-1)}'|tr '\n' ' '|less
+cat ~/fourth-pass/clean/2442203140005899321_1032660_11740.ctmedit 
+cat ~/fourth-pass/clean/2442203140005899321_1032660_11740.ctmedit |less
+ffmpeg -i /sbtal/riksdag-video/2442203140005899321_480p.mp4 -ss 1032.660 -t 11.740 2442203140005899321_1032660_11740.mp4
+mv 2442203140005899321_1032660_11740.mp4 /tmp/
+cat ~/fourth-pass/clean/2442203140005899321_1032660_11740.ctmedit |awk '{print $(NF-1)}'|tr '\n' ' '
+cat ~/fifth-pass/clean/2442203110005800921_1054920_9799.ctmedit 
+ffmpeg -i /sbtal/riksdag-video/2442203110005800921_480p.mp4 -ss 1054.920 -t 9.799 /tmp/2442203110005800921_1054920_9799.mp4
+cat ~/fifth-pass/clean/2442203110005800921_1054920_9799.ctmedit |awk '{print $(NF-1)}'
+cat ~/fifth-pass/clean/2442203110005800921_1054920_9799.ctmedit |awk '{print $(NF-1)}'|tr '\n' ' '
+ls
+ls ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+less ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+ls
+less links.txt 
+cd ..
+lss
+ls
+cd ..
+conda env list
+conda create --name hf_jun
+conda create --name hf_jun python=3.10
+conda activate hf_j
+conda activate hf_jun
+mkdir seanchlo_florence
+cd seanchlo_florence/
+cd ../sync-asr/
+git push origin sentence-extraction 
+. ~/.bashrc 
+git push origin sentence-extraction 
+git remote show origin
+git remote show origin|less
+git remote add ssh git@github.com:jimregan/sync-asr.git
+git push ssh sentence-extraction 
+vi sync_asr/specific/leighleat.py 
+git add sync_asr/specific/leighleat.py 
+git commit -m 'add earlier scraper pieces'
+vi sync_asr/specific/leighleat.py 
+git diff sync_asr/specific/leighleat.py 
+git add sync_asr/specific/leighleat.py 
+git commit -m 'newer normalisation pieces'
+git checkout main 
+git checkout -b genea-tsv
+git checkout sentence-extraction scripts/genea-extract.py
+git checkout sentence-extraction sync_asr/elements.py
+git checkout sentence-extraction sync_asr/genea_tsv.py
+git log
+git status
+git commit -m 'copy genea pieces from other branch'
+git push ssh genea-tsv 
+git checkout main 
+git pull
+git checkout sentence-extraction 
+git merge main 
+git checkout -b kelly
+git checkout main 
+git branch -D kelly 
+git checkout -b kelly
+git checkout sentence-extraction notebooks/kelly.ipynb
+git commit -m 'copy from other branch'
+git push ssh kelly 
+git checkout main 
+git pull
+git branch -D kelly 
+git checkout sentence-extraction 
+git merge main 
+git checkout main 
+git push ssh sentence-extraction 
+git checkout -b hungarian
+git checkout sentence-extraction notebooks/clean-up-thing.ipynb
+git commit -m 'add notebook from other branch'
+git branch
+git push ssh hungarian 
+git checkout sentence-extraction 
+git push ssh sentence-extraction 
+git rm notebooks/clean-up-thing.ipynb
+git commit -m moved
+git push ssh sentence-extraction 
+git checkout leighleat 
+git mv sync_asr/specific/leighleat.py sync_asr/specific/ga/leighleat.py
+mkdir sync_asr/specific/ga
+git mv sync_asr/specific/leighleat.py sync_asr/specific/ga/leighleat.py
+git commit -m mv
+git push origin leighleat 
+git push ssh leighleat 
+git checkout main 
+git branch -D leighleat 
+git pull
+git checkout hungarian 
+git merge main 
+mkdir sync_asr/specific/hu
+git push ssh hungarian 
+git checkout main 
+git pull
+git checkout -b wiktionary
+git checkout sentence-extraction notebooks/csb.dict
+git checkout sentence-extraction notebooks/from-wiktionary-export.ipynb
+git checkout sentence-extraction notebooks/scrape_wiktionary_audio.ipynb
+git checkout sentence-extraction scripts/scrape_wiktionary_audio.py
+git commit -m 'copy wiktionary things from sentence-extraction'
+git push ssh wiktionary 
+git checkout main 
+git pull
+git branch -D wiktionary 
+git checkout sentence-extraction 
+git merge main 
+git push setup.py
+git push ssh sentence-extraction 
+git checkout main 
+git branch -D sentence-extraction 
+git checkout -b sentence-extraction 
+git checkout main 
+pip install -e .
+git branch
+git branch -D genea-tsv 
+git branch -D sentence-extraction 
+git checkout hungarian 
+pip install -e .
+less ../NeMo-text-processing/nemo_text_processing/text_normalization/de/__init__.py 
+less ../NeMo-text-processing/nemo_text_processing/text_normalization/de/utils.py 
+ls ..
+find .. -name msw010_gizehipergamenlapok_gardonyi_dii_64kb.mp3
+ls ../lv-hu/
+less ../lv-hu/msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
+history -a
