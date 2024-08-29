@@ -4605,3 +4605,14 @@ ffprobe -i C3_1_0616
 ffprobe -i C3_1_0616.wav 
 ls
 history -a
+git clone https://github.com/Rikorose/DeepFilterNet
+conda create -n deepfilternet python=3.10
+conda activate deepfilternet
+ls
+pip install torch torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
+pip install deepfilternet
+pip install pyyaml
+pip install huggingface-hub
+pip install pandas safetensors transformers
+cat /etc/issue.net 
+history -a
