@@ -4683,3 +4683,30 @@ less data/TRAIN/DR3/MFMC0/SX322.WRD
 less data/TRAIN/DR3/MFMC0/SX322.PHN 
 less data/TRAIN/DR3/MFMC0/SX322.WRD 
 history -a
+conda env list
+conda activate whisper-v3
+mkdir vid
+mv WhatsApp\ Video\ 2024-07-31\ at\ 21.42.29.mp4 vid/
+cd vid/
+whisper --help
+whisper --help|less
+whisper --model large-v3 WhatsApp\ Video\ 2024-07-31\ at\ 21.42.29.mp4 
+whisper --model large-v3 --language hu  WhatsApp\ Video\ 2024-07-31\ at\ 21.42.29.mp4 
+less WhatsApp\ Video\ 2024-07-31\ at\ 21.42.29.json 
+ffmpeg -i WhatsApp\ Video\ 2024-07-31\ at\ 21.42.29.mp4 -ss 97 -t 82 clip.wav
+whisper --model large-v3 --language hu  clip.wav 
+whisper --model large-v2 --language hu  clip.wav 
+cat clip.txt 
+ls
+git clone git@gist.github.com:ba14b68a8a6853af8c474e73ed488846.git
+ls
+mv *json *srt *tsv *txt *vtt ba14b68a8a6853af8c474e73ed488846/
+ls
+cd ba14b68a8a6853af8c474e73ed488846/
+git add .
+git commit -m files
+git push
+cd ..
+rm -rf vid/
+ls
+history -a
