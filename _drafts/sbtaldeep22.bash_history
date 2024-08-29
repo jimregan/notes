@@ -3507,3 +3507,386 @@ find .. -name msw010_gizehipergamenlapok_gardonyi_dii_64kb.mp3
 ls ../lv-hu/
 less ../lv-hu/msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
 history -a
+cd paraphrases/
+ls
+vi create_wav_from_filename.sh
+bash create_wav_from_filename.sh 2442207080018759021_112.18_5.12.ctmedit
+vi create_wav_from_filename.sh
+bash create_wav_from_filename.sh 2442207080018759021_112.18_5.12.ctmedit
+vi create_wav_from_filename.sh 
+bash create_wav_from_filename.sh 2442207080018759021_112.18_5.12.ctmedit
+ls
+cat 2442207080018759021_112.18_5.12.txt 
+bash create_wav_from_filename.sh 2442203250006958021_39.58_8.44.ctmedit
+ls
+cat 2442203250006958021_39.58_8.44.txt 
+cd ..
+git clone https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences
+mkdir ~/.huggingface
+less .huggingface/token 
+cat .ssh/id_ed25519.pub 
+git lfs install
+conda activate hf_new
+git lfs install
+git clone git@hf.co:datasets/jimregan/riksdag_spoken_sentences
+git clone https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences
+git clone git@hf.co:datasets/jimregan/riksdag_spoken_sentences
+cd paraphrases/
+ls
+bash create_wav_from_filename.sh 2442205210012872721_30.0_8.30.ctmedit
+bash create_wav_from_filename.sh 2442205210012872721_28.72_0.96.ctmedit
+bash create_wav_from_filename.sh 2442205210012872721_27.86_0.62.ctmedit
+bash create_wav_from_filename.sh 2442205210012872721_29.8_8.30.ctmedit
+python
+cd ..
+conda env list
+conda activate whisper-v3
+python
+pip install git+https://github.com/openai/whisper.git 
+CUDA_VISIBLE_DEVICES=1
+CUDA_VISIBLE_DEVICES=1 python
+pip install jiwer
+CUDA_VISIBLE_DEVICES=1 python
+python transcribe-for-mfa.py 
+conda install torch
+pip install torch
+python transcribe-for-mfa.py 
+pip install cudnn
+conda install cudnn
+pip install cudnn
+python transcribe-for-mfa.py 
+mkdir shivam1mfa
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+vi transcribe-for-mfa.py 
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+ls shivam1mfa/
+rm shivam1mfa/*
+ffprobe shivam-sentences/*wav
+ffprobe shivam-sentences/1.wav
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+ls shivam1mfa/
+ls -al shivam1mfa/
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+pip install librosa
+ls shivam-sentences/5.wav 
+python
+conda install soundfile
+pip install soundfile
+python
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+ls shivam1mfa/
+cat shivam1mfa/1.txt 
+mfa validate shivam1mfa
+python
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+pip install resampy
+python transcribe-for-mfa.py shivam-sentences shivam1mfa
+ls shivam1mfa/
+rm shivam1mfa/4.*
+rm shivam1mfa/7.*
+python
+pip install textgrid
+python
+ls test-out/
+python mfa-to-tsv.py test-out/ 
+ls test-out/
+less test-out/1.tsv 
+ssh deepwave 
+vi .bashrc 
+eval `ssh-agent`
+ssh deepwave 
+#git clone git@hf.co:datasets/jimregan/riksdag_spoken_sentences
+git clone git@hf.co:datasets/jimregan/riksdag_spoken_sentences
+git lfs install
+conda install git-lfs
+git lfs install
+rm -rf riksdag_spoken_sentences/
+git clone git@hf.co:datasets/jimregan/riksdag_spoken_sentences
+cd riksdag_spoken_sentences/
+sl
+ls
+git log
+ls
+ls clean/
+less 2442205210012872721_30.16_8.30.ctmedit
+ls
+ls paraphrases/
+cd ../humogen/
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/outputs .
+ls
+less ../transcribe-for-mfa.py 
+#python ../transcribe-for-mfa.py outputs/
+mkdir testing
+python ../transcribe-for-mfa.py outputs/ testing/
+ls
+ls testing/
+ls
+python
+python ../transcribe-for-mfa.py outputs/ testing/
+python
+python ../transcribe-for-mfa.py outputs/ testing/
+ls
+ls testing/
+rm -rf testing/
+mkdir testing/
+python ../transcribe-for-mfa.py outputs/ testing/
+ls
+rm -rf testing/
+mkdir testing/
+python ../transcribe-for-mfa.py outputs/ testing/
+ls
+mkdir testing
+python ../transcribe-for-mfa.py outputs/ testing/
+ls
+ls testing/
+rm -rf testing/6
+ls
+rm -rf outputs/
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/outputs .
+ls
+ls outputs/
+rm -rf outputs/1
+rm -rf outputs/2
+rm -rf outputs/3
+rm -rf outputs/4
+rm -rf outputs/5
+ls
+mkdir testing
+python ../transcribe-for-mfa.py outputs/ testing/
+info exit
+conda install -c conda-forge montreal-forced-aligner
+ls
+bash run_alignment.sh outputs6 fooble
+cp ../mfa-to-tsv.py .
+less run_alignment.sh 
+cp ../transcribe-for-mfa.py .
+bash run_alignment.sh outputs6 fooble
+ls fooble/
+ls fooble/tsv/
+ls fooble/wav/
+cd ../CVPRHumogen/
+cp ../humogen/run_alignment.sh utils/
+git log
+git reset --hard 85c5afc699ad39bf0ec88632ab7f730c4bdd430c
+git branch
+git checkout main 
+git log
+git reset --hard 85c5afc699ad39bf0ec88632ab7f730c4bdd430c
+git pull
+git checkout -b shell-script
+cp ../humogen/run_alignment.sh utils/
+git add utils/run_alignment.sh 
+git commit -m 'add a shell script to combine everything'
+git branch
+git push mine shell-script 
+vi utils/run_alignment.sh 
+git add utils/run_alignment.sh 
+git commit -m 'remove comment, I added checks later'
+git push mine shell-script 
+ls
+cd -
+ls
+rm -rf tsv
+rm -rf testing6/
+rm -rf mfaout
+rm -rf mfaout6/
+rm -rf fooble/
+ls
+rm -rf outputs6/
+ls
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/outputs .
+ls
+bash run_alignment.sh outputs control
+ls
+ls control/
+ls control/tsv/
+ls control/wav/
+mv control/ control-new-batch
+scp -r control-new-batch/ deepwave:
+#bash run_alignment.sh outputs
+mkdir control-last-batch
+bash run_alignment.sh outputs control-last-batch/
+ls
+scp -r control-last-batch/ deepwave:
+python
+CUDA_VISIBLE_DEVICES=5 python
+cd ../tts/
+ls
+CUDA_VISIBLE_DEVICES=5 python
+ls
+cd ../humogen/
+ls
+ls outputs
+mkdir testset
+mkdir testset/p226
+cp outputs/p226/281.wav testset/p226/
+cp outputs/p226/282.wav testset/p226/
+less run_alignment.sh 
+rm run_alignment.sh 
+ls
+less run-alignment.sh 
+mv run-alignment.sh run_alignment.sh 
+mkdir testout
+bash run_alignment.sh testset/ testout/
+mkdir testset/p225
+find . -name 10.wav
+cp outputs-old/p225/10.wav testset/p225/
+bash run_alignment.sh testset/ testout/
+ls testout/
+ls testout/wav/
+ls testout/tsv/
+scp deepwave:/home/deichler/data/pointing/evaluations/humogen/control/tsv .
+scp -r deepwave:/home/deichler/data/pointing/evaluations/humogen/control/tsv .
+ls
+less Synthetic_Sentences\ -\ Train.tsv 
+cat Synthetic_Sentences\ -\ Train.tsv |awk -F'\t' '{print $1}'
+cat Synthetic_Sentences\ -\ Train.tsv |awk -F'\t' '{print $1}'|less
+cat Synthetic_Sentences\ -\ Train.tsv |awk -F'\t' '{print $1}' > input_sentences.txt
+CUDA_VISIBLE_DEVICES=5 python
+grep sf.read ~/.python_history*
+CUDA_VISIBLE_DEVICES=5 python
+ls
+mv ../CVPRHumogen/wav-mute2/ .
+#bash run_alignment.sh 
+mkdir wav-mute2-ali
+bash run_alignment.sh wav-mute2 wav-mute2-ali/
+ls
+ls -al /tmp/
+ls /tmp/walign.3jHZoM/
+ls -al /tmp/|grep 'Mar 17'
+ls -al /tmp/mfaalign.0NVMQc/
+ls -al /tmp/walign.3jHZoM/
+less run_alignment.sh 
+ls wav-mute2/
+mkdir mkdir wav-mute2/tst
+mv wav-mute2/tst_2023_v0_0* wav-mute2/tst/
+ls wav-mute2
+less run_alignment.sh 
+bash run_alignment.sh wav-mute2 wav-mute2-ali/
+less transcribe-for-mfa.py 
+vi run_alignment.sh 
+bash run_alignment.sh wav-mute2 wav-mute2-ali/
+ls wav-mute2-ali/
+ls wav-mute2-ali/tsv/
+mkdir genea2023
+cd genea2023/
+scp -r deepwave:/home/beskow/data/genea2023/tst/main-agent/tsv/ .
+less tst_2023_v0_055_main-agent.tsv
+less tsv/tst_2023_v0_055_main-agent.tsv 
+ls
+less tsv/tst_2023_v0_055_main-agent.tsv 
+pwd
+mkdir freevc-align
+ls
+ls ..
+mv freevc-* ..
+cd ..
+ls
+bash run_alignment.sh freevc-outputs/ freevc-align/
+ls
+ls -al /tmp/
+ls -al /tmp/walign.N74r5D/
+ls
+cd freevc-outputs/
+ls
+ls|awk -F'_' '{print $1}'
+ls|awk -F'_' '{print $1}'|sort|uniq
+ls|awk -F'_' '{print $1}'|sort|uniq|while read i;do mkdir $i; mv $i*wav $i/;done
+ls
+cd ..
+bash run_alignment.sh freevc-outputs/ freevc-align/
+vi run_alignment.sh 
+bash run_alignment.sh freevc-outputs/ freevc-align/
+ls
+ls freevc-align/
+ls freevc-align/tsv/
+scp -r freevc-align deepwave:
+scp -r deepflow:/home/smehta/Projects/CVPRHumogen/pipeline_audio/outputs  .
+mv outputs outputs-old1
+cd ..
+mkdir mek
+cd mek/
+mkdir 09129
+cd 09129/
+echo https://mek.oszk.hu/09100/09129/mp3/index.html > url
+lynx -dump https://mek.oszk.hu/09100/09129/mp3/index.html|grep mp3
+curl https://mek.oszk.hu/09100/09129/mp3/index.html
+ls
+cd ../
+cd lv-hu/
+ls
+whisper 
+whisper 
+whisper 2>1 |less
+whisper --help
+whisper --help|less
+whisper --model large-v3 --language hu msw010_gizehipergamenlapok_gardonyi_dii_64kb.mp3 
+ls
+less msw010_gizehipergamenlapok_gardonyi_dii_64kb.json 
+less msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
+ls
+less 1 
+rm 1 
+less msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
+vi text-orig.txt
+less msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
+sudo apt install wdiff
+wdiff text-orig.txt msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt 
+wdiff text-orig.txt msw010_gizehipergamenlapok_gardonyi_dii_64kb.txt |less
+ls
+conda activate mfa
+cd ../mfa-wl-1
+ls
+less ../sync-asr/notebooks/grabber.sh 
+cd ~/wiktionary_hu/
+ls
+ls *wav
+mkdir ../held-back
+for i in *.wav;do txt=$(basename $i .wav).txt;if [ ! -e $txt ];then mv $i ../held-back/;fi;done
+ls
+for i in *.ogg;do txt=$(basename $i .ogg).txt;if [ ! -e $txt ];then mv $i ../held-back/;fi;done
+for i in *.ogg;do txt=$(basename $i .ogg).txt;if [ ! -e ./$txt ];then mv ./$i ../held-back/;fi;done
+ls
+ls|less
+for i in ./*.ogg;do txt=$(basename $i .ogg).txt;if [ ! -e ./$txt ];then mv ./$i ../held-back/;fi;done
+ls|wc
+ls *txt|wc
+ls ./*txt|wc
+ls
+ls|less
+rm ./-*
+ls *txt|wc
+ls *wav|wc
+ls *ogg|wc
+ls ../held-back/
+ls
+ls |grep 'txt$'
+ls |grep 'txt$'|awk -F'.' '{print $1}'
+less ~/sync-asr/notebooks/grabber.sh 
+ls |grep 'txt$'|awk -F'.' '{print $1}'
+ls |grep 'txt$'|awk -F'.' '{print $1}'|while read i;do grep " $i.ogg" ~/sync-asr/notebooks/grabber.sh >> subgrab;done
+less subgrab 
+for i in *.txt;do if [ ! -e "$(basename $i .txt)".ogg -or ! -e $(basename $i .txt)".wav ];then echo $i >> mtomove;fi;done
+for i in *.txt;do if [ ! -e "$(basename $i .txt)".ogg -or ! -e "$(basename $i .txt)".wav ];then echo $i >> mtomove;fi;done
+ls *wav
+ls *wav|wc
+for i in *.txt;do if [ ! -e "$(basename $i .txt)".ogg -|| ! -e "$(basename $i .txt)".wav ];then echo $i >> mtomove;fi;done
+for i in *.txt;do if [ ! -e "$(basename $i .txt)".ogg ] || [ ! -e "$(basename $i .txt)".wav ];then echo $i >> mtomove;fi;done
+rm mtomove 
+for i in *.txt;do if [ ! -e "$(basename $i .txt)".ogg ] || [ ! -e "$(basename $i .txt)".wav ];then echo $i >> mtomove;fi;done
+less mtomove o
+less mtomove 
+cat mtomove |while read i;do mv $i ../held-back/;done
+rm mtomove 
+ls
+ls|wc
+ls *txt
+python
+cd ../hsi/
+ls
+cd audio/
+ls
+ls *main*wav|wc
+ls *inter*wav|wc
+ls *json|wc
+history -a
