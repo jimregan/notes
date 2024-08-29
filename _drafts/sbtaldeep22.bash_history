@@ -4466,3 +4466,41 @@ ls ../hsi_full_diar_3/
 ls ../hsi_full_diar_3/main/
 ls ../hsi/audio/
 history -a
+conda env list
+conda env list|grep esp
+conda create --name espnet python=3.10
+conda activate espnet
+which sox
+which cmake
+git clone https://github.com/espnet/espnet
+cd espnet/
+cd tools/
+make
+./setup_python.sh 
+cd ..
+ls
+pip install -e .
+conda activate base
+less ~/.bashrc 
+rm -rf ~/miniconda3/envs/espnet/
+cd tools/
+./setup_cuda_env.sh anaconda espnet 3.9
+./setup_cuda_env.sh miniconda espnet 3.9
+./setup_cuda_env.sh anaconda espnet 3.9
+./setup_anaconda.sh anaconda espnet 3.9
+rm -rf anaconda/
+rm Miniconda3-latest-Linux-x86_64.sh 
+less setup_anaconda.sh 
+./setup_anaconda.sh ~/miniconda3/ espnet 3.9
+conda update -n base -c defaults conda
+ls
+make
+./installers/install_whisper.sh 
+./installers/install_lora.sh 
+./installers/install_ice_g2p.sh 
+./installers/install_gtn.sh 
+./installers/install_k2.sh 
+./installers/install_kenlm.sh 
+ls ~/.srv/p15apr24/
+mkdir ~/.srv/p29apr24/
+history -a
