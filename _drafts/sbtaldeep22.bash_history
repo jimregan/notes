@@ -4393,3 +4393,25 @@ ls
 grep -i textgrid ~/sync-asr/notebooks/*
 grep -i whisperx ~/sync-asr/notebooks/*
 history -a
+conda activate stablets
+vi transcribe_dir.py 
+python transcribe_dir.py shivam-sentences/ tsvdir/
+mkdir dt2112_vt24_sami_finetuning
+ls
+mkdir nst-dictation
+cd nst-dictation/
+wget https://www.nb.no/sbfil/talegjenkjenning/22kHz/sv.22khz.modell.ds-female.tar.gz
+tar ztvf sv.22khz.modell.ds-female.tar.gz 
+ls
+mkdir f
+cd f
+tar zxvf ../sv.22khz.modell.ds-female.tar.gz 
+less dsf/123/sv/it11.cleaf.Label/0082
+file dsf/123/sv/it11.cleaf.Label/0082
+ls
+ls dsf/
+ls dsf/001/
+ls dsf/001/sv/scripts/Word/0001 
+less dsf/001/sv/scripts/Word/0001 
+ls
+history -a
