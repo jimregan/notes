@@ -4077,3 +4077,319 @@ ls ~/hsi_mfa/hsi_4_inter_01/
 ls ~/hsi_mfa/hsi_4_inter_01/|less
 ls
 history -a
+cat /tmp/1.json 
+cat /tmp/1.json |jq .
+cat /tmp/1.json |jq .|less
+CUDA_VISIBLE_DEVICES=4
+CUDA_VISIBLE_DEVICES=4 python
+conda activate stablets
+CUDA_VISIBLE_DEVICES=4 python
+conda activate whisperx
+CUDA_VISIBLE_DEVICES=4 python
+conda install torchvision
+CUDA_VISIBLE_DEVICES=4 python
+conda env list
+conda activate hfnew
+CUDA_VISIBLE_DEVICES=4 python
+pip install datasets
+pip install 'datasets[audio]'
+pip install --upgrade transformers
+pip install torchaudio
+pip install jiwer
+pip install accelerate -U
+CUDA_VISIBLE_DEVICES=4 python
+pip install --upgrade datasets
+cd dt2112_vt24_sami_finetuning
+CUDA_VISIBLE_DEVICES=4 python
+conda create --name bark python=3.10
+conda activate bark
+pip install git+https://github.com/suno-ai/bark
+python
+CUDA_VISIBLE_DEVICES=4 python
+conda install cudnn
+CUDA_VISIBLE_DEVICES=4 python
+cd ..
+less .ssh/config 
+mkdir hsi
+cd  hsi/
+#scp -r deepflow:/home/deichler/data/sgs_recordings/hsi/a
+tail -n 1 ~/.bashrc 
+eval `ssh-agent`
+scp -r deepflow:/home/deichler/data/sgs_recordings/hsi/audio/ .
+ls
+ls audio/
+conda env list
+conda activate whisper-v3
+cd audio/
+ls
+whisper --help
+whisper --help|less
+ls *wav
+ls *wav|grep -v timecode
+ls *wav|grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+ls
+rsync -aunv deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* .
+rsync -aunv deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* .|less
+rsync -aunv deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . > /tmp/slist
+vi /tmp//slist 
+cat /tmp/slist |while read i;do if [ -e $i ];then echo $i;fi;done
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+cat /tmp/slist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+for i in *mic1*;do rep=$(echo $i|sed -e 's/mic1/main/'); if [ -e $rep ];then echo rm $i; else echo mv $i $rep;fi;done
+for i in *mic1*;do rep=$(echo $i|sed -e 's/mic1/main/'); if [ -e $rep ];then echo rm $i; else echo mv $i $rep;fi;done|less
+ls *wav
+ls hsi_4_0716_222_002*
+for i in *mic1*;do rep=$(echo $i|sed -e 's/-mic1/_main/'); if [ -e $rep ];then echo rm $i; else echo mv $i $rep;fi;done|less
+for i in *mic1*;do rep=$(echo $i|sed -e 's/-mic1/_main/'); if [ -e $rep ];then rm $i; else mv $i $rep;fi;done|less
+ls
+for i in *mic1*;do rep=$(echo $i|sed -e 's/-mic2/_inter/'); if [ -e $rep ];then rm $i; else mv $i $rep;fi;done|less
+for i in *mic2*;do rep=$(echo $i|sed -e 's/-mic2/_inter/'); if [ -e $rep ];then rm $i; else mv $i $rep;fi;done
+ls
+#ls *wav|grep -v timecode; if [ ! -e $(echo $i|sed -e 's/wav/txt/') ];then 
+ls *wav|grep -v timecode; if [ ! -e $(echo $i|sed -e 's/wav/txt/') ];then echo $i >> /tmp/tlist; fi;done
+ls *wav|grep -v timecode|while read i;do  if [ ! -e $(echo $i|sed -e 's/wav/txt/') ];then echo $i >> /tmp/tlist; fi;done
+less /tmp/tlist 
+cat /tmp/tlist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+cat /tmp/tlist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+ls *wav|grep -v timecode|while read i;do  if [ ! -e $(echo $i|sed -e 's/wav/txt/') ];then echo $i > /tmp/tlist; fi;done
+cat /tmp/tlist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+ls *wav|grep -v timecode|while read i;do  if [ ! -e $(echo $i|sed -e 's/wav/txt/') ];then echo $i > /tmp/tlist; fi;done
+less /tmp/tlist 
+cat /tmp/tlist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+rm /tmp/tlist 
+echo hsi_3_0715_227_001-mic1-001.wav >> /tmp/tlist
+echo hsi_3_0715_227_001-mic1-002.wav >> /tmp/tlist
+cat /tmp/tlist |grep -v timecode|while read i;do whisper --model large-v3 --language en $i;done
+df
+ls -al ~
+ls -al ..|grep jore
+ls -al /home/|grep jore
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+less times.txt 
+less get_times.sh 
+ls hsi_3_0715_227_001*
+ls hsi_3_0715_227_001*wav
+fdupes -r .
+mkdir whisper1
+ls
+mv *json *srt *tsv *txt *vtt whisper1/
+ls
+conda activate whisperx
+pip install git+https://github.com/m-bain/whisperx.git --upgrade
+ls
+mkdir tc
+mv *timecode* tc
+ls
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 ;done
+ls
+ls|grep -v wa
+ls|grep -v wav
+ls
+pip install torchvision
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 ;done
+pip install git+https://github.com/m-bain/whisperx.git --upgrade
+conda install torchvision
+conda install pytorch==2.0.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 ;done
+conda activate hf
+rm -rf ~/miniconda3/envs/whisperx/
+conda create --name whisperx python=3.10
+conda activate whisperx
+conda install pytorch==2.0.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install git+https://github.com/m-bain/whisperx.git
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 ;done
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --hf_token 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 ;done
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --language en --hf_token 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 ;done
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --language en --hf_token ~/.huggingface/token ;done
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --language en --hf_token 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 ;done
+python
+for i in *.wav;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --language en --hf_token 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 ;done
+ls
+mkdir whisperx
+mv *vtt *json *srt *tsv *txt whisperx/
+ls
+conda activate hf
+python
+ls
+mkdir wav2vec
+mv *.w2v.json wav2vec/
+ls
+ls wav2vec/
+cat wav2vec/hsi_3_0715_227_001-mic2-002.w2v.json 
+cat wav2vec/hsi_3_0715_227_001-mic2-002.w2v.json |jq .
+cat wav2vec/hsi_3_0715_227_001-mic2-002.w2v.json |jq .|less
+ls
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+pwd
+ls
+rm -rf ~/hsi_mfa/
+conda activate whisperx
+python ~/sync-asr/notebooks/whisperx-reverse-diarisation.py 
+CUDA_VISIBLE_DEVICES=2 python ~/sync-asr/notebooks/whisperx-reverse-diarisation.py 
+ls 
+ls ~/hsi_segments/hsi_4_0716_227_003_inter_segments.tsv 
+less ~/hsi_segments/hsi_4_0716_227_003_inter_segments.tsv 
+CUDA_VISIBLE_DEVICES=2 python ~/sync-asr/notebooks/whisperx-reverse-diarisation.py 
+ls
+find ~/hsi_mfa/ -name '*.txt'
+find ~/hsi_mfa/ -name '*.txt' -exec cat {} \;
+find ~/hsi_mfa/ -name '*.txt' |while read i;do cat $i; echo;done
+find ~/hsi_mfa/ -name '*.txt' |while read i;do cat $i; echo;done|grep '[0-9]'
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . |less
+find ~/hsi_mfa/ -name '*.txt' |while read i;do cat $i; echo;done|grep '[0-9]'|less
+find ~/hsi_mfa/ -name '*.txt' |while read i;do cat $i; echo;done|grep '[0-9]'|grep %
+find ~/hsi_mfa/ -name '*.txt' |while read i;do cat $i; echo;done|grep '[0-9]'|grep '$'
+echo $HOME/hsi_mfa
+less /home/joregan/hsi_segments/hsi_1_0515_210_001_inter_segments.tsv
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+pwd
+ls
+ls whisperx/
+less ~/sync-asr/notebooks/whisperx-reverse-diarisation.py 
+cd ..
+mv audio audio-old
+mkdir audio
+cd audio
+rsync -auvz deepflow:/home/deichler/data/sgs_recordings/hsi/audio/* . 
+CUDA_VISIBLE_DEVICES=2 python ~/sync-asr/notebooks/whisperx-reverse-diarisation.py 
+ls
+for i in $(cat ~/missing-json) ;do whisperx $i --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --diarize --min_speakers 2 --max_speakers 2 --language en --hf_token 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 ;done
+ls
+pwd
+ls ~/Documents/MFA/hsi_mfa/oovs_found_english_us_arpa.txt 
+less ~/Documents/MFA/hsi_mfa/oovs_found_english_us_arpa.txt 
+wc  ~/Documents/MFA/hsi_mfa/oovs_found_english_us_arpa.txt 
+less ~/Documents/MFA/pretrained_models/
+less ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^phone' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^eye' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^maybe' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^tea' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^cycle' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^cycling' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^vibrate' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^eye' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^key' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^art' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^work' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^phone' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^cheery' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^cheer' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^owes' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^you' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^mack' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^muck' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^bang' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^uh' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^hip' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep 'ster' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^role' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^example' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^exc' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep 'exc' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^haha' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^computat' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep ional ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep video ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^oh' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^oh' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep 'psych' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^aw' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^thaw' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^dwar' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^mrs' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^misis' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep '^race' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ism ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep hitch ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep hike ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep hm ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep jesus  ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep thing ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep enhance ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep able ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep inter ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep intern ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ship ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep deflate ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep emai ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep bass ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep base ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ist ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep detailed ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ly ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep sellers ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep retail ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep remain ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep sellers ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep recline ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep able ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep barcode ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep code ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep bar ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep bar ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^bar' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^bar' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep code ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ing ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep dumps ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep dumps ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep ster ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep cher ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep noble ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep cart ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep ant ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep aspirati ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep art ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep art ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict | less
+grep way ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict | less
+grep '^h' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict | less
+grep 3 ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^3' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep three ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep bacter ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep bag ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep bag ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep ette ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep blank ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep king ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep blimp ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep block ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep shall ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep clue ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep less ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep cord ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep cord 
+grep cord ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep less ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep loo ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep crone ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep owners ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep curve ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep cyber ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep truck ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep '^eh' ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep trove ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep ext ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep extend ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep able ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep fan ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep fan ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |head
+grep fan ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |less
+grep boy ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |less
+grep fiction ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |less
+grep fix ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |less
+grep guideline ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict |less
+grep guide ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+grep lines ~/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict 
+find ~/hsi_mfa -name '*txt' |xargs grep 'all-'
+find ~/hsi_mfa -name '*txt' |xargs grep 3ds
+ls
+ls ../audio
+ls
+grep -i textgrid ~/sync-asr/notebooks/*
+grep -i whisperx ~/sync-asr/notebooks/*
+history -a
