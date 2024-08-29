@@ -4710,3 +4710,20 @@ cd ..
 rm -rf vid/
 ls
 history -a
+cd wolnelektury-speech-corpus/
+ls
+cd audio/
+ls
+conda activate whisperx
+whisperx --help
+#
+#whisperx --model large-v3 --language pl --hf_token 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 
+whisperx --help|less
+#whisperx --model large-v3 --language pl --hf_token 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 --output_format json 
+whisperx --help|less
+#whisperx --model large-v3 --language pl --hf_token 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 --output_format json $i
+ls *mp3 > ../mp3list
+vi ../mp3list 
+cat ../mp3list |while read i;do CUDA_VISIBLE_DEVICES=5 whisperx --model large-v3 --language pl --hf_token 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 --output_format json $i ;done
+ls ..
+history -a
