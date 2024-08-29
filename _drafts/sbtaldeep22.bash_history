@@ -3890,3 +3890,190 @@ ls *main*wav|wc
 ls *inter*wav|wc
 ls *json|wc
 history -a
+cd paraphrases/
+ls
+ls -al 2442205210012872721_27.86_0.62.wav 
+cd ../rd_ctm_edit
+perl check-lev.pl
+vi check-lev.pl
+ls
+cat H501UbU13 perl check-lev.pl 
+cat H501UbU13 |perl check-lev.pl 
+cpan Text::Levenshtein
+cat H501UbU13 |perl check-lev.pl 
+apt-cache search levens
+apt-cache search levens|grep perl
+sudo apt install libtext-levenshteinxs-perl
+vi check-lev.pl
+sudo apt install libtext-levenshteinxs-perl
+apt-cache search levens|grep perl
+cat H501UbU13 |perl check-lev.pl 
+sudo apt install libtext-levenshteinxs-perl
+cat H501UbU13 |perl check-lev.pl 
+which perl
+vi check-lev.pl
+sudo apt install libtext-levenshtein-perl
+vi check-lev.pl
+cat H501UbU13 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU13 |perl check-lev.pl 
+cat H501UbU13 |perl check-lev.pl |less
+ls
+cat H501UbU12 |perl check-lev.pl |less
+cat H501UbU12 |perl check-lev.pl 
+cat H501UbU12 |less
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+vi check-lev.pl
+cat H501UbU12 |perl check-lev.pl 
+cat H501UbU12 |perl check-lev.pl |less
+for i in H*;do cat $i | perl check-lev.pl >> /tmp/lev;done
+conda activate metavoice
+python
+cd ..
+conda create --name stablets python=3.10
+conda activate stablets
+pip install -U git+https://github.com/jianfch/stable-ts.git
+ls /tmp/*wav
+#CUDA_VISIBLE_DEVICES=3 python
+pip install jiwer
+CUDA_VISIBLE_DEVICES=3 python
+conda search cudnn
+conda install cudnn
+CUDA_VISIBLE_DEVICES=3 python
+vi transcribe_dir.py
+python transcribe_dir.py
+python transcribe_dir.py shivam-sentences/
+vi transcribe_dir.py
+python transcribe_dir.py shivam-sentences/
+python transcribe_dir.py 
+vi transcribe_dir.py
+mkdir tsvdir
+python transcribe_dir.py shivam-sentences/ tsvdir/
+vi transcribe_dir.py
+python transcribe_dir.py shivam-sentences/ tsvdir/
+ls tsvdir/
+cat tsvdir/1.tsv 
+cat tsvdir/3.tsv 
+cat transcribe_dir.py 
+head transcribe_dir.py 
+cat transcribe_dir.py 
+head -n 20 transcribe_dir.py 
+cat transcribe_dir.py 
+CUDA_VISIBLE_DEVICES=3 python
+vi transcribe_dir.py
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/ tsvdir/
+vi transcribe_dir.py
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/ tsvdir/
+less tsvdir/10.tsv 
+rm tsvdir/*
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/ tsvdir/
+less tsvdir/10.tsv 
+vi transcribe_dir.py 
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/ tsvdir/
+less tsvdir/10.tsv 
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/ 
+conda activate whisperx
+rm transcribe_dir.py 
+vi transcribe_dir.py 
+rm tsvdir/*
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/  tsvdir/
+vi transcribe_dir.py 
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/  tsvdir/
+rm tsvdir/*
+rm transcribe_dir.py 
+vi transcribe_dir.py 
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/  tsvdir/
+vi transcribe_dir.py 
+CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/  tsvdir/
+ls tsvdir/
+less tsvdir/10.tsv 
+time CUDA_VISIBLE_DEVICES=3 python transcribe_dir.py shivam-sentences/  tsvdir/
+conda env list
+conda activate hfnew
+pip install pydub
+python
+which ffmpeg
+scp -r redsofa4:wolnelektury-speech-corpus .
+ls
+conda create --name owsm-ctc
+conda create --name owsm-ctc python=3.10
+conda activate owsm-ctc
+pip install bs4
+pip install git+https://github.com/pyf98/espnet@owsm-ctc 
+pip install flash-attn espnet_model_zoo
+pip install torch
+nvidia-smi 
+nvidia-smi |less
+conda install cudnn
+pip install flash-attn espnet_model_zoo
+conda install torch
+find ~/miniconda3/envs/owsm-ctc/ -name 'cudnn*'
+find ~/miniconda3/envs/owsm-ctc/ -name 'cudnn*8*'
+find ~/miniconda3/envs/whisper-v3 -name 'cudnn*8*'
+find ~/miniconda3/envs/whisper-v3 -name 'cudnn8*'
+pip install espnet_model_zoo
+pip install espnet_model_zoo safetensors transformers
+pip install flash-attn 
+find ~/miniconda3/envs/whisper-v3 -name libcudnn.so.8
+
+conda install cudnn=8
+pip install flash-attn 
+mkdir owsm-ctc
+cd owsm-ctc/
+git lfs
+conda install git-lfs
+git lfs install
+git clone https://huggingface.co/pyf98/owsm_ctc_v3.1_1B
+ln -sd owsm_ctc_v3.1_1B/exp/ 
+ls
+ls ~/hsi/audio/hsi_*txt
+less /home/joregan/hsi/audio/hsi_1_0515_209_001-mic1.txt 
+less /home/joregan/hsi/audio/hsi_1_0515_209_001-mic2.txt 
+less /home/joregan/hsi/audio/hsi_1_0515_209_001-mic1.txt 
+less /home/joregan/hsi/audio/hsi_1_0515_209_001-mic2.txt 
+ls ~/hsi/audio/
+ls ~/hsi/audio/|less
+ls ~/hsi/audio/*.wav|wc
+ls ~/hsi/audio/*.txt|wc
+ls ~/hsi/audio/|wc
+ls ~/hsi/audio/*.txt|wc
+ls ~/hsi/audio/
+ls ~/hsi/audio/|wc
+ls ~/hsi/audio/*.txt|wc
+ls ~/hsi/audio/*.wav|wc
+pwd
+ls
+less /tmp/tlist 
+ls ~/hsi/audio/
+ls ~/hsi/audio/|grep -v wav
+ls ~/hsi/audio/|less
+less ~/hsi/audio/hsi_1_0515_209_001_inter.json 
+ls -al ~/hsi/audio/|less
+ls -al ~/hsi/audio/
+ls -al ~/hsi/audio/|less
+ls -al ~/hsi/audio/*.json
+less /home/joregan/hsi/audio/hsi_4_0716_227_003_inter.w2v.json
+ls -al ~/hsi/audio/*.json
+less /home/joregan/hsi/audio/hsi_7_0719_209_001_main.w2v.json 
+less ~/.huggingface/
+less ~/.huggingface/token 
+ls -al ~/hsi/audio/
+ls -al ~/hsi/audio/*json
+ffprobe ~/hsi/audio/hsi_3_0715_227_001_inter-002.wav 
+ls ~/hsi_mfa/hsi_4_inter_00/
+ls ~/hsi_mfa/hsi_4_inter_01/
+ls ~/hsi_mfa/hsi_4_inter_01/|less
+ls
+history -a
