@@ -4517,3 +4517,79 @@ mv hsi_segments/ hsi_segments1
 ls hsi_segments
 ls
 history -a
+git clone git@github.com:shivammehta25/Match-TTSG.git
+cd Match-TTSG/
+pip install -e .
+conda create -n matcha-tts python=3.10 -y
+conda activate match-ttsg
+pip install -e .
+match_ttsg-tts --help
+conda install espeak-ng
+conda install espeak
+sudo apt install espeak-ng
+match_ttsg-tts --help
+ls
+rm data
+scp -r deepflow:/home/smehta/data/ .
+cat scripts/schedule.sh 
+CUDA_VISIBLE_DEVICES=4 python src/train.py trainer.max_epochs=5 logger=csv
+ls match_ttsg
+find . -name train.py
+CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py trainer.max_epochs=5 logger=csv
+python match_ttsg/train.py experiment=synthetic_fm_dp_det_prosody ckpt_path=logs/train/synthetic_trimodal_light/runs/2024-04-02_10-05-40/checkpoints/last.ckpt trainer.devices=1
+python match_ttsg/train.py experiment=baseline_synthetic_data trainer.devices=4
+nvidia-smi |less
+CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data trainer.devices=4
+CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data trainer.devices=0
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data trainer.devices=0
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data 
+find . -type f|xargs grep smehta
+find . -type f|xargs grep /home/smehta/Projects/Match-TTSG/data/synthetic_trimodal/wavs/spkp314_577.wav
+find . -name 'spkp314_577.wav'
+find $PWD -name 'spkp314_577.wav'
+vi data/synthetic_trimodal/filepaths.txt 
+vi data/synthetic_trimodal/val.txt 
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data 
+find . -name '*baseline_synthetic_data*'
+vi ./configs/experiment/baseline_synthetic_data.yaml
+find . -type f|xargs grep /home/smehta/Projects/Match-TTSG/data/synthetic_trimodal/wavs/spkp314_577.wav
+less ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-30-06/train.log 
+find . -type f|xargs grep smehta/Projects
+find . -type f -name '*.py'|xargs grep smehta/Projects
+vi ./data/synthetic_trimodal/get_wavs_from_motion.py 
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data 
+find . -type f -name '*.py'|xargs grep smehta/Projects
+find . -type f -name '*.yaml'|xargs grep smehta/Projects
+find . -type f |xargs grep smehta/Projects
+vi ./data/synthetic_trimodal/train.txt
+find . -type f |xargs grep smehta/Projects
+vi ./data/synthetic_trimodal/val.txt 
+vi ./data/synthetic_trimodal/filepaths.txt 
+HYDRA_FULL_ERROR=1 CUDA_VISIBLE_DEVICES=4 python match_ttsg/train.py experiment=baseline_synthetic_data 
+ls
+git status
+ls ls data/
+ls ls data/tsgd2/
+ls data/tsgd2/processed_sm0_0_86.1328125fps/
+ls data/tsgd2/processed_sm0_0_86.1328125fps/pose_features.expmap.txt 
+less data/tsgd2/processed_sm0_0_86.1328125fps/pose_features.expmap.txt 
+less data/tsgd2/processed_sm0_0_86.1328125fps/data_pipe.expmap_86.1328125fps.sav 
+ls
+ls logs
+find logs -type f
+find logs -type f|less
+find . -name '*.pth'
+less logs/train/synthetic_data_baseline/runs/2024-07-26_18-33-25/train.log
+find . -name '*.pt'
+find . -name '*.pt'|grep -v RyanS
+ls
+less .gitignore 
+ls
+find . -name 'baseline_synthetic_data*'
+less ./configs/experiment/baseline_synthetic_data.yaml
+less ./configs/experiment/synthetic_fm_dp_det_prosody.yaml 
+find . -name 'check*'
+ls ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/
+ls ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/checkpoints/
+ls -al ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/checkpoints/
+history -a
