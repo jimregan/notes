@@ -4653,3 +4653,33 @@ ls
 cd ..
 cd ls
 history -a
+cd timit-thing/
+ls
+cd wav2vec2-xls-r-300m-phoneme-timit/
+ls
+conda activate hf_new
+python
+;s
+ls
+cd ..
+ls
+ls modelthing/
+ls working/
+rm -rf modelthing/
+ls
+less data/TEST/DR1/FJEM0/SI1264.PHN 
+less data/TEST/DR1/FJEM0/SI1264.TXT 
+less data/TEST/DR1/FJEM0/SI1264.WRD 
+cat data/TEST/DR1/FJEM0/SI1264.WRD 
+cat data/TEST/DR1/FJEM0/SI1264.PHN 
+cat data/TEST/DR1/FJEM0/SI1264.WRD 
+less data/TEST/DR1/FJEM0/SI1264.WRD 
+less data/TEST/DR1/FJEM0/SI1264.PHN 
+find data -name '*PHN'|xargs grep ' q$'
+ls
+less PHONCODE.DOC 
+less data/TRAIN/DR3/MFMC0/SX322.PHN 
+less data/TRAIN/DR3/MFMC0/SX322.WRD 
+less data/TRAIN/DR3/MFMC0/SX322.PHN 
+less data/TRAIN/DR3/MFMC0/SX322.WRD 
+history -a
