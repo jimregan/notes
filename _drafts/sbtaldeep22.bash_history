@@ -4616,3 +4616,40 @@ pip install huggingface-hub
 pip install pandas safetensors transformers
 cat /etc/issue.net 
 history -a
+conda create --name tmhpip
+conda create --name tmhpip python=3.10
+conda activate tmhpip
+pip install tmh
+pip install tensorflow
+python
+git clone git@github.com:BirgerMoell/tmh.git
+cd tmh/
+ls
+cd tmh/
+ls
+cd breath_detection/
+ls
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+vi 
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+
+pip install scikit-image
+
+pip install praatio
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+pip uninstall praatio
+pip install 'praatio<5'
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+pip install pandas
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+pip install cv2
+pip install opencv2
+pip install opencv-python
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+pip install tensorrt
+python breath2corpus_step0_TrainBreathAnalysisModel.py 
+vi breath2corpus_step0_TrainBreathAnalysisModel.py 
+ls
+cd ..
+cd ls
+history -a
