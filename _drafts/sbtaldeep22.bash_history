@@ -4727,3 +4727,9 @@ vi ../mp3list
 cat ../mp3list |while read i;do CUDA_VISIBLE_DEVICES=5 whisperx --model large-v3 --language pl --hf_token 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 --output_format json $i ;done
 ls ..
 history -a
+conda activate whisperx
+#whisperx --model large-v3 --language en arctic.wav 
+whisperx --model large-v3 --language en arctic.wav 
+CUDA_VISIBLE_DEVICES=5 whisperx --model large-v3 --language en arctic.wav 
+less arctic.json 
+history -a
