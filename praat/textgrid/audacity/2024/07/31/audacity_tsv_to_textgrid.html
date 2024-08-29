@@ -184,12 +184,31 @@ window.onload = wrap_img;
 
     
     
-<div class="cell border-box-sizing code_cell rendered">
+<div class="cell border-box-sizing code_cell rendered celltag_parameters">
 <div class="input">
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sample</span> <span class="o">=</span> <span class="s2">&quot;/tmp/hsi_5_0718_209_002_inter.tsv&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_file</span> <span class="o">=</span> <span class="s2">&quot;/tmp/hsi_5_0718_209_002_inter.tsv&quot;</span>
+<span class="n">output_file</span> <span class="o">=</span> <span class="s1">&#39;/tmp/out.TextGrid&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered celltag_injected-parameters">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_file</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/irish-asr-data/audacity/MSF_chapter_1.aud&quot;</span>
+<span class="n">output_file</span> <span class="o">=</span> <span class="s2">&quot;/tmp/out.textgrid&quot;</span>
 </pre></div>
 
     </div>
@@ -207,7 +226,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">inf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
         <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
@@ -223,7 +242,7 @@ window.onload = wrap_img;
 <span class="n">tg</span> <span class="o">=</span> <span class="n">textgrid</span><span class="o">.</span><span class="n">Textgrid</span><span class="p">()</span>
 <span class="n">word_tier</span> <span class="o">=</span> <span class="n">textgrid</span><span class="o">.</span><span class="n">IntervalTier</span><span class="p">(</span><span class="s1">&#39;words&#39;</span><span class="p">,</span> <span class="n">out</span><span class="p">,</span> <span class="n">tier_start</span><span class="p">,</span> <span class="n">tier_end</span><span class="p">)</span>
 <span class="n">tg</span><span class="o">.</span><span class="n">addTier</span><span class="p">(</span><span class="n">word_tier</span><span class="p">)</span>
-<span class="n">tg</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;/tmp/out.TextGrid&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;long_textgrid&quot;</span><span class="p">,</span> <span class="n">includeBlankSpaces</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">tg</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;long_textgrid&quot;</span><span class="p">,</span> <span class="n">includeBlankSpaces</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
     </div>
