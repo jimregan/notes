@@ -4415,3 +4415,54 @@ ls dsf/001/sv/scripts/Word/0001
 less dsf/001/sv/scripts/Word/0001 
 ls
 history -a
+cd sync-asr/
+conda activate syncasr
+cd notebooks/
+python -m sync_asr.riksdag.split_sentences --run-stage four ~/third-pass/noisy/ ~/fourth-pass/clean/ ~/fourth-pass/noisy/
+#python -m sync_asr.riksdag.split_sentences --run-stage five ~/fourth-pass/noisy/
+mkdir ~/fifth-pass
+mkdir ~/fifth-pass/clean
+mkdir ~/fifth-pass/noisy
+#python -m sync_asr.riksdag.split_sentences --run-stage five ~/fourth-pass/noisy/ ~/fifth-pass/clean/ ~/fifth-pass/noisy/
+cd ..
+git pull origin main 
+git branch
+git pull origin sentence-extraction
+pip install -e .
+python -m sync_asr.riksdag.split_sentences --run-stage five ~/fourth-pass/noisy/ ~/fifth-pass/clean/ ~/fifth-pass/noisy/
+ls
+git status
+git diff
+git add notebooks/run_recognition_with_phonetic_model.ipynb 
+git commit -m update
+git branch
+git push origin whisperx-reverse 
+git remote show
+git push ssh whisperx-reverse 
+git branch
+git push ssh hungarian 
+git diff
+git checkout main 
+git pull origin main 
+git checkout whisperx-reverse 
+git merge main 
+git push ssh whisperx-reverse 
+git branch
+git branch -D hungarian 
+git branch -D whisperx-reverse 
+git checkout main 
+git pull origin main 
+git branch -D whisperx-reverse 
+git push ssh phonetic 
+git checkout main notebooks/run_recognition_with_phonetic_model.ipynb
+git checkout phonetic
+git checkout main notebooks/run_recognition_with_phonetic_model.ipynb
+git add notebooks/run_recognition_with_phonetic_model.ipynb
+git commit -m from_main
+git push ssh phonetic 
+ls
+less hsi_3_0715_227_001_inter-002_segments.tsv 
+ls ../hsi_full_diar_3/
+ls ../hsi_full_diar_3/main/
+ls ../hsi/audio/
+history -a
