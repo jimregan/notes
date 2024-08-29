@@ -4605,27 +4605,3 @@ ffprobe -i C3_1_0616
 ffprobe -i C3_1_0616.wav 
 ls
 history -a
-cd .srv/ins/
-#for i in shanastock floanggreta haileygrice jesmartinfit ; do instaloader $i;done
-#for i in isarahvee ella.waifu daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1  ;do instaloader -F $i; echo $i >> ids;done
-#for i in eshanastock floanggreta haileygrice jesmartinfit ; do instaloader $i;done
-ls
-ls isarahvee/
-ls isarahvee/|wc
-#for i in eshanastock floanggreta haileygrice jesmartinfit isarahvee ; do instaloader $i;done
-#for i in ella.waifu daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1  ;do instaloader -F $i; echo $i >> ids;done
-ls
-ls ella.waifu/
-ls
-#for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1  ;do instaloader -F $i; echo $i >> ids;done
-#for i in eshanastock floanggreta haileygrice jesmartinfit isarahvee ella.waifu ;do instaloader $i;done
-#for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik   ;do instaloader -F $i; echo $i >> ids;done
-for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik   ;do instaloader -F $i; echo $i >> ids;done
-#for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik   ;do instaloader -F $i; echo $i >> ids;done
-#for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik daisyedgarjoness   ;do instaloader -F $i; echo $i >> ids;done
-for i in daniellailescu uliana_dovbnia annaelia1 mariammi gentianaaberishaa_ ale.nakarateeva kahlanirobinson zietusia meadowlandrey antoinettegiani _zaklinnaaanj_ elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik daisyedgarjoness daryamalevych  ;do instaloader -F $i; echo $i >> ids;done
-#for i in  elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik daisyedgarjoness daryamalevych  ;do instaloader -F $i; echo $i >> ids;done
-instaloader s.lioraa
-#for i in  elizavetta_ivanchenko s.lioraa liz_andreacaro tekogrdzelishvili mariakaiki kylee.smith17 lady_vikki_  valeria__cyranek daria_jagodzinska_ narjes.mhmdi gloriasophieee hannamimiimi lera_kondratiuk anastasiyaa_mua evalevel1 kira_gul bludetiger alviik daisyedgarjoness daryamalevych  ;do instaloader -F $i; echo $i >> ids;done
-ls
-history -a
