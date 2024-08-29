@@ -4593,3 +4593,15 @@ ls ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/
 ls ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/checkpoints/
 ls -al ./logs/train/synthetic_data_baseline/runs/2024-07-26_18-41-09/checkpoints/
 history -a
+cd Match-TTSG/data/
+ls
+cd tsgd2/
+ls
+cd wavs/
+ls
+ffprobe -i C2_4_0024.wav 
+ls
+ffprobe -i C3_1_0616
+ffprobe -i C3_1_0616.wav 
+ls
+history -a
