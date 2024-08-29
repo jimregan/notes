@@ -4504,3 +4504,16 @@ make
 ls ~/.srv/p15apr24/
 mkdir ~/.srv/p29apr24/
 history -a
+cd hsi/
+ls
+cd audio/
+mkdir diar
+conda activate whisperx
+python
+ls
+cd ..
+mv hsi_mfa/ hsi_mfa1
+mv hsi_segments/ hsi_segments1
+ls hsi_segments
+ls
+history -a
