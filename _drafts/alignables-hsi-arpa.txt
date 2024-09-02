@@ -1,0 +1,453 @@
+# Based on
+# https://www.dyslexia-reading-well.com/44-phonemes-in-english.html
+# adapted for US English, and with additions
+
+input_label_type: UNICODE
+output_label_type: SYMBOL
+
+output_symbol { key: "TH" value: 1 } 
+output_symbol { key: "ZH" value: 2 } 
+output_symbol { key: "ʍ" value: 3 } 
+output_symbol { key: "AH" value: 4 } 
+output_symbol { key: "UH" value: 5 } 
+output_symbol { key: "SH" value: 6 } 
+output_symbol { key: "R" value: 7 } 
+output_symbol { key: "IH" value: 8 } 
+output_symbol { key: "G" value: 9 } 
+output_symbol { key: "ER" value: 10 } 
+output_symbol { key: "EH" value: 11 } 
+output_symbol { key: "ER0" value: 12 } 
+output_symbol { key: "AH0" value: 13 } 
+output_symbol { key: "OY" value: 14 } 
+output_symbol { key: "AO" value: 15 } 
+output_symbol { key: "AA" value: 17 } 
+output_symbol { key: "NG" value: 18 } 
+output_symbol { key: "DH" value: 19 } 
+output_symbol { key: "AE" value: 20 } 
+output_symbol { key: "Z" value: 21 } 
+output_symbol { key: "W" value: 22 } 
+output_symbol { key: "V" value: 23 } 
+output_symbol { key: "u" value: 24 } 
+output_symbol { key: "CH" value: 26 } 
+output_symbol { key: "T" value: 27 } 
+output_symbol { key: "S" value: 28 } 
+output_symbol { key: "P" value: 29 } 
+output_symbol { key: "OW" value: 30 } 
+output_symbol { key: "N" value: 31 } 
+output_symbol { key: "M" value: 32 } 
+output_symbol { key: "M" value: 33 } 
+output_symbol { key: "K" value: 34 } 
+output_symbol { key: "Y" value: 35 } 
+output_symbol { key: "IY" value: 36 } 
+output_symbol { key: "HH" value: 37 } 
+output_symbol { key: "F" value: 38 } 
+output_symbol { key: "EY" value: 39 } 
+output_symbol { key: "JH" value: 40 } 
+output_symbol { key: "D" value: 41 } 
+output_symbol { key: "B" value: 42 } 
+output_symbol { key: "AW" value: 43 } 
+output_symbol { key: "AY" value: 44 } 
+output_symbol { key: "" value: 45 } 
+
+alignable { input: "b" output: "B" } # bug
+alignable { input: "bb" output: "B" } # bubble
+alignable { input: "d" output: "D" } # dad
+alignable { input: "dd" output: "D" } # add
+alignable { input: "ld" output: "D" } # would
+alignable { input: "ed" output: "D" } # milled
+alignable { input: "f" output: "F" } # fat
+alignable { input: "ff" output: "F" } # cliff
+alignable { input: "ph" output: "F" } # phone
+alignable { input: "gh" output: "F" } # enough
+alignable { input: "lf" output: "F" } # half
+alignable { input: "ft" output: "F" } # often
+alignable { input: "g" output: "G" } # gun
+alignable { input: "gg" output: "G" } # egg
+alignable { input: "gh" output: "G" } # ghost
+alignable { input: "gue" output: "G" } # prologue
+alignable { input: "h" output: "HH" } # hop
+alignable { input: "wh" output: "HH" } # who
+alignable { input: "j" output: "JH" } # jam
+alignable { input: "g" output: "JH" } # giraffe
+alignable { input: "dg" output: "JH" } # edge
+alignable { input: "di" output: "JH" } # soldier
+alignable { input: "gg" output: "JH" } # exaggerate
+alignable { input: "k" output: "K" } # kit
+alignable { input: "c" output: "K" } # cat
+alignable { input: "ch" output: "K" } # chris
+alignable { input: "cc" output: "K" } # accent
+alignable { input: "lk" output: "K" } # folk
+alignable { input: "qu" output: "K" } # bouquet
+alignable { input: "q" output: "K" } # queen
+alignable { input: "ck" output: "K" } # rack
+alignable { input: "x" output: "K S" } # box
+alignable { input: "x" output: "G Z" } # exam
+alignable { input: "l" output: "L" } # live
+alignable { input: "ll" output: "L" } # well
+alignable { input: "l" output: "L Y" } # lure
+alignable { input: "sl" output: "L" } # aisle
+alignable { input: "le" output: "AH0 L" } # bubble
+alignable { input: "m" output: "M" } # man
+alignable { input: "mm" output: "M" } # summer
+alignable { input: "mb" output: "M" } # comb
+alignable { input: "mn" output: "M" } # column
+alignable { input: "mn" output: "N" } # mnemonic
+alignable { input: "lm" output: "M" } # palm
+alignable { input: "n" output: "N" } # net
+alignable { input: "nn" output: "N" } # funny
+alignable { input: "kn" output: "N" } # know
+alignable { input: "gn" output: "N" } # gnat
+alignable { input: "pn" output: "N" } # pneumonic
+alignable { input: "p" output: "P" } # pin
+alignable { input: "pp" output: "P" } # dippy
+alignable { input: "r" output: "R" } # run
+alignable { input: "rr" output: "R" } # carrot
+alignable { input: "wr" output: "R" } # wrench
+alignable { input: "rh" output: "R" } # rhyme
+alignable { input: "s" output: "S" } # sit
+alignable { input: "ss" output: "S" } # less
+alignable { input: "c" output: "S" } # circle
+alignable { input: "sc" output: "S" } # scene
+alignable { input: "sc" output: "SH" } # conscience
+alignable { input: "ps" output: "S" } # psycho
+alignable { input: "st" output: "S" } # listen
+alignable { input: "ce" output: "S" } # pace
+alignable { input: "se" output: "S" } # course
+alignable { input: "t" output: "T" } # tip
+alignable { input: "tt" output: "T" } # matter
+alignable { input: "th" output: "T" } # thomas
+alignable { input: "ed" output: "T" } # ripped
+alignable { input: "v" output: "V" } # vine
+alignable { input: "f" output: "V" } # of
+alignable { input: "ph" output: "V" } # stephen
+alignable { input: "ve" output: "V" } # five
+alignable { input: "w" output: "W" } # wit
+alignable { input: "wh" output: "W" } # why
+alignable { input: "wh" output: "HH W" } # why
+alignable { input: "u" output: "W" } # quick
+alignable { input: "o" output: "W" } # choir
+alignable { input: "z" output: "Z" } # zed
+alignable { input: "zz" output: "Z" } # buzz
+alignable { input: "s" output: "Z" } # his
+alignable { input: "ss" output: "Z" } # scissors
+alignable { input: "x" output: "Z" } # xylophone
+alignable { input: "s" output: "ZH" } # treasure
+alignable { input: "si" output: "ZH" } # division
+alignable { input: "z" output: "ZH" } # azure
+alignable { input: "ch" output: "CH" } # chip
+alignable { input: "t" output: "CH" } # treasure
+alignable { input: "tch" output: "CH" } # watch
+alignable { input: "tu" output: "CH" } # future
+alignable { input: "ti" output: "CH" } # action
+alignable { input: "te" output: "CH" } # righteous
+alignable { input: "sh" output: "SH" } # sham
+alignable { input: "ce" output: "SH" } # ocean
+alignable { input: "s" output: "SH" } # sure
+alignable { input: "ci" output: "SH" } # special
+alignable { input: "si" output: "SH" } # pension
+alignable { input: "ch" output: "SH" } # machine
+alignable { input: "sch" output: "SH" } # schnoz
+alignable { input: "sci" output: "SH" } # conscience
+alignable { input: "ti" output: "SH" } # station
+alignable { input: "th" output: "TH" } # thongs
+alignable { input: "th" output: "DH" } # leather
+alignable { input: "ng" output: "NG" } # ring
+alignable { input: "n" output: "NG" } # pink
+alignable { input: "ngue" output: "NG" } # tongue
+alignable { input: "y" output: "Y" } # you
+alignable { input: "i" output: "Y" } # onion
+alignable { input: "j" output: "Y" } # hallelujah
+alignable { input: "a" output: "AE" } # cat
+alignable { input: "ai" output: "AE" } # plaid
+alignable { input: "au" output: "AE" } # laugh
+alignable { input: "a" output: "EY" } # bay
+alignable { input: "ai" output: "EY" } # maid
+alignable { input: "eigh" output: "EY" } # weigh
+alignable { input: "aigh" output: "EY" } # straight
+alignable { input: "ay" output: "EY" } # pay
+alignable { input: "er" output: "EY" } # foyer
+alignable { input: "et" output: "EY" } # filet
+alignable { input: "ei" output: "EY" } # eight
+alignable { input: "au" output: "EY" } # gauge
+alignable { input: "ea" output: "EY" } # break
+alignable { input: "ey" output: "EY" } # they
+alignable { input: "e" output: "EH" } # end
+alignable { input: "ea" output: "EH" } # bread
+alignable { input: "u" output: "EH" } # bury
+alignable { input: "ie" output: "EH" } # friend
+alignable { input: "ie" output: "AH0" } # conscience
+alignable { input: "e" output: "AH0" } # conscience
+alignable { input: "ai" output: "EH" } # said
+alignable { input: "a" output: "EH" } # many
+alignable { input: "eo" output: "EH" } # leopard
+alignable { input: "ei" output: "EH" } # heifer
+alignable { input: "ae" output: "EH" } # aesthetic
+alignable { input: "e" output: "IY" } # be
+alignable { input: "ee" output: "IY" } # bee
+alignable { input: "ea" output: "IY" } # meat
+alignable { input: "y" output: "IY" } # lady
+alignable { input: "ey" output: "IY" } # key
+alignable { input: "oe" output: "IY" } # phoenix
+alignable { input: "ie" output: "IY" } # grief
+alignable { input: "i" output: "IY" } # ski
+alignable { input: "ei" output: "IY" } # deceive
+alignable { input: "eo" output: "IY" } # people
+alignable { input: "ay" output: "IY" } # quay
+alignable { input: "i" output: "IH" } # it
+alignable { input: "e" output: "IH" } # england
+alignable { input: "o" output: "IH" } # women
+alignable { input: "u" output: "IH" } # busy
+alignable { input: "ui" output: "IH" } # guild
+alignable { input: "y" output: "IH" } # gym
+alignable { input: "ie" output: "IH" } # sieve
+alignable { input: "i" output: "AY" } # spider
+alignable { input: "y" output: "AY" } # sky
+alignable { input: "igh" output: "AY" } # night
+alignable { input: "ie" output: "AY" } # pie
+alignable { input: "uy" output: "AY" } # guy
+alignable { input: "ye" output: "AY" } # stye
+alignable { input: "ai" output: "AY" } # aisle
+alignable { input: "is" output: "AY" } # island
+alignable { input: "eigh" output: "AY" } # height
+alignable { input: "a" output: "AA" } # swan
+alignable { input: "ho" output: "AA" } # honest
+alignable { input: "au" output: "AO" } # maul
+alignable { input: "au" output: "AA" } # sauce
+alignable { input: "aw" output: "AO" } # slaw
+alignable { input: "ough" output: "AO" } # fought
+alignable { input: "o" output: "OW" } # open, bone
+alignable { input: "oa" output: "OW" } # moat
+alignable { input: "oe" output: "OW" } # toe
+alignable { input: "ow" output: "OW" } # sow
+alignable { input: "ough" output: "OW" } # dough
+alignable { input: "eau" output: "OW" } # beau
+alignable { input: "oo" output: "OW" } # brooch
+alignable { input: "ew" output: "OW" } # sew
+alignable { input: "o" output: "UH" } # wolf
+alignable { input: "oo" output: "UH" } # look
+alignable { input: "u" output: "UH" } # bush
+alignable { input: "ou" output: "UH" } # would
+alignable { input: "u" output: "AH" } # lug
+alignable { input: "o" output: "AH" } # monkey
+alignable { input: "o" output: "AA" } # on
+alignable { input: "oo" output: "AH1" } # blood
+alignable { input: "ou" output: "AH1" } # double
+alignable { input: "o" output: "UW" } # who
+alignable { input: "oo" output: "UW" } # loon
+alignable { input: "ew" output: "UW" } # dew
+alignable { input: "ue" output: "UW" } # blue
+alignable { input: "u" output: "UW" } # flute
+alignable { input: "u" output: "Y UW" } # use
+alignable { input: "oe" output: "UW" } # shoe
+alignable { input: "ough" output: "UW" } # through
+alignable { input: "ui" output: "UW" } # fruit
+alignable { input: "oeu" output: "UW" } # manoeuvre
+alignable { input: "eu" output: "UW" } # maneuver
+alignable { input: "eu" output: "Y UW" } # Europe
+alignable { input: "ou" output: "UW" } # group
+alignable { input: "oi" output: "OY" } # join
+alignable { input: "oy" output: "OY" } # boy
+alignable { input: "uoy" output: "OY" } # buoy
+alignable { input: "ow" output: "AW" } # now
+alignable { input: "ou" output: "AW" } # shout
+alignable { input: "ough" output: "AW" } # bough
+alignable { input: "a" output: "AH0" } # about
+alignable { input: "i" output: "AH0" } # pencil
+alignable { input: "er" output: "ER0" } # ladder
+alignable { input: "ar" output: "ER0" } # dollar
+alignable { input: "our" output: "ER0" } # honour
+alignable { input: "re" output: "ER0" } # future
+alignable { input: "ur" output: "ER0" } # augur
+alignable { input: "air" output: "EH ER0" } # chair
+alignable { input: "are" output: "EH ER0" } # dare
+alignable { input: "ear" output: "EH ER0" } # pear
+alignable { input: "ere" output: "EH ER0" } # where
+alignable { input: "eir" output: "EH ER0" } # their
+alignable { input: "ayer" output: "EH ER0" } # prayer
+alignable { input: "ir" output: "ER" } # bird
+alignable { input: "er" output: "ER" } # term
+alignable { input: "ur" output: "ER" } # burn
+alignable { input: "ear" output: "ER" } # pearl
+alignable { input: "or" output: "ER" } # word
+alignable { input: "ir" output: "AY ER0" } # choir
+alignable { input: "our" output: "ER" } # journey
+alignable { input: "yr" output: "ER" } # myrtle
+alignable { input: "a" output: "AO" } # ball
+alignable { input: "or" output: "AO R" } # fork
+alignable { input: "or" output: "ER0" } # scissors
+alignable { input: "oor" output: "UH R" } # poor
+alignable { input: "ore" output: "AO R" } # fore
+alignable { input: "oar" output: "AO R" } # board
+alignable { input: "our" output: "AO R" } # four
+alignable { input: "ou" output: "AO" } # four
+alignable { input: "augh" output: "AO" } # taught
+alignable { input: "ar" output: "AO R" } # war
+alignable { input: "ear" output: "IY R" } # ear
+alignable { input: "eer" output: "IY R" } # steer
+alignable { input: "ere" output: "IY R" } # here
+alignable { input: "ier" output: "IY ER0" } # tier
+alignable { input: "ure" output: "UH R" } # lure
+alignable { input: "ure" output: "ER0" } # lure
+alignable { input: "ure" output: "Y UH1 R" } # cure
+alignable { input: "ure" output: "Y ER" } # cure
+alignable { input: "e" output: "" } # save, give, etc.
+
+alignable { input: "ou" output: "AH0" } # would
+alignable { input: "wou" output: "AH0" } # would
+alignable { input: "of" output: "AH0" } # of
+alignable { input: "o" output: "AH0" } # carrot
+alignable { input: "o" output: "AO" } # often
+alignable { input: "oo" output: "AO" } # poor
+alignable { input: "u" output: "AO" } # 
+alignable { input: "eu" output: "AH0" } # pneumonic
+alignable { input: "ou" output: "OW" } # bouquet
+alignable { input: "oh" output: "OW" } # oh
+alignable { input: "uo" output: "UW" } # buoy
+alignable { input: "ah" output: "AH0" } # hallelujah
+alignable { input: "u" output: "AH0" } # column
+alignable { input: "n't" output: "AH0 N T" } # couldn't
+alignable { input: "n't" output: "N T" } # can't
+
+alignable { input: "k" output: "K EY" } # letter-k
+
+alignable { input: "ou're" output: "ER0" } # you're
+alignable { input: "eah" output: "EH" } # yeah
+alignable { input: "ere" output: "ER0" } # were
+alignable { input: "a" output: "AH" } # what, was
+alignable { input: "y" output: "AH0" } # my (unstressed)
+alignable { input: "ause" output: "AH z" } # because
+alignable { input: "o" output: "W AH1" } # one
+alignable { input: "o" output: "HH W AH1" } # one
+alignable { input: "ea" output: "IH" } # really
+alignable { input: "ee" output: "IH" } # been
+alignable { input: "i" output: "AE" } # I'll, reduced
+alignable { input: "i" output: "AA" } # I'll, reduced
+alignable { input: "i" output: "AH" } # I'll, reduced
+alignable { input: "her" output: "ER0" } # her, reduced
+
+alignable { input: "-" output: "" }
+alignable { input: "'" output: "" }
+
+# ee -> IH
+forbidden {
+    alignable { input: "e" output: "IH" }
+    alignable { input: "e" output: "" }
+}
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "e" output: "IH" }
+}
+# ee -> i
+forbidden {
+    alignable { input: "e" output: "IY" }
+    alignable { input: "e" output: "" }
+}
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "e" output: "IY" }
+}
+# ie -> i
+forbidden {
+    alignable { input: "i" output: "IY" }
+    alignable { input: "e" output: "" }
+}
+# ea -> EY
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "a" output: "EY" }
+}
+# ea -> EH
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "a" output: "EH" }
+}
+# ae -> EH
+forbidden {
+    alignable { input: "a" output: "EH" }
+    alignable { input: "e" output: "" }
+}
+# oe -> OW
+forbidden {
+    alignable { input: "o" output: "OW" }
+    alignable { input: "e" output: "" }
+}
+# oe -> u
+forbidden {
+    alignable { input: "o" output: "UW" }
+    alignable { input: "e" output: "" }
+}
+# t/t ho/AA :: 'Thomas' is more understandable as th -> t, not 'ho' as in 'honest'
+forbidden {
+    alignable { input: "t" output: "t" }
+    alignable { input: "ho" output: "AA" }
+}
+# same with 'shot'
+forbidden {
+    alignable { input: "s" output: "SH" }
+    alignable { input: "ho" output: "AA" }
+}
+# gue like prologue
+#forbidden {
+#    alignable { input: "gu" output: "ɡ" }
+#    alignable { input: "e" output: "" }
+#}
+# eu -> AH0
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "u" output: "AH0" }
+}
+# eu -> u
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "u" output: "UW" }
+}
+# ue -> u
+forbidden {
+    alignable { input: "u" output: "UW" }
+    alignable { input: "e" output: "" }
+}
+# ey -> i
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "y" output: "IY" }
+}
+# ed -> d
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "d" output: "D" }
+}
+# ie -> IH
+forbidden {
+    alignable { input: "i" output: "IH" }
+    alignable { input: "e" output: "" }
+}
+# ie -> AH0
+forbidden {
+    alignable { input: "i" output: "AH0" }
+    alignable { input: "e" output: "" }
+}
+# ie -> AY
+forbidden {
+    alignable { input: "i" output: "AY" }
+    alignable { input: "e" output: "" }
+}
+# ei -> i
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "i" output: "IY" }
+}
+# eigh -> AY
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "igh" output: "AY" }
+}
+# ere -> ER0
+forbidden {
+    alignable { input: "e" output: "" }
+    alignable { input: "re" output: "ER" }
+}
+forbidden {
+    alignable { input: "er" output: "ER" }
+    alignable { input: "e" output: "" }
+}
+
