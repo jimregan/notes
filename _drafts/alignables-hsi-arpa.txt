@@ -125,6 +125,7 @@ alignable { input: "n" output: "N" } # net
 alignable { input: "nn" output: "N" } # funny
 alignable { input: "kn" output: "N" } # know
 alignable { input: "gn" output: "N" } # gnat
+alignable { input: "nd" output: "N" } # and, reduced
 alignable { input: "pn" output: "N" } # pneumonic
 alignable { input: "p" output: "P" } # pin
 alignable { input: "pp" output: "P" } # dippy
