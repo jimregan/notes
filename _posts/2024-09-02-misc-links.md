@@ -9,4 +9,6 @@ categories: [links]
 
 [Panda ASCII art](https://ascii.co.uk/art/panda)
 
+[SpreadsheetLLM: Encoding Spreadsheets for Large Language Models](https://arxiv.org/abs/2407.09025)
+
 
