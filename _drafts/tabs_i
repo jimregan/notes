@@ -4,8 +4,17 @@ https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/wav2vec_f
 tabs.html
 file:///Users/joregan/Downloads/tabs.html
 
-NST Swedish Dictation (22 kHz) - Språkbanken
-https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-17/
+bytedance/SALMONN: SALMONN: Speech Audio Language Music Open Neural Network
+https://github.com/bytedance/SALMONN?tab=readme-ov-file
+
+Google Translate
+https://translate.google.com/?sl=no&tl=en&op=docs
+
+nst_taledat_se.pdf
+about:blank
+
+nst_taledat_se.pdf
+https://www.nb.no/sbfil/dok/nst_taledat_se.pdf
 
 JaidedAI/EasyOCR: Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
 https://github.com/JaidedAI/EasyOCR?tab=readme-ov-file
@@ -217,20 +226,8 @@ https://www.theguardian.com/business/article/2024/jul/10/big-beautiful-goals-but
 Tom Yeh on X: "[Vector Database] by Hand ✍️ Make Your Own 👉 https://t.co/hEF3ZBO3zO Previously I shared a Google Sheet to make custom AI by Hand ✍️ exercises for the Transformer. Thousands of people made copies of the spreadsheet. Thank you! 🙏 Encouraged, I am following up with a similar https://t.co/mTq4ihsNF1" / X
 https://x.com/ProfTomYeh/status/1811738267622223953
 
-(1) Home / X
-https://x.com/home
-
-(1) AK on X: "Microsoft presents SpreadsheetLLM Encoding Spreadsheets for Large Language Models Spreadsheets, with their extensive two-dimensional grids, various layouts, and diverse formatting options, present notable challenges for large language models (LLMs). In response, we introduce https://t.co/j8pk82oAur" / X
-https://x.com/_akhaliq/status/1812674543963578794
-
-Paper page - SpreadsheetLLM: Encoding Spreadsheets for Large Language Models
-https://huggingface.co/papers/2407.09025
-
-2407.09025
-https://arxiv.org/pdf/2407.09025
-
-GitHub - test-time-training/ttt-lm-pytorch: Official PyTorch implementation of Learning to (Learn at Test Time): RNNs with Expressive Hidden States
-https://github.com/test-time-training/ttt-lm-pytorch
+test-time-training/ttt-lm-pytorch: Official PyTorch implementation of Learning to (Learn at Test Time): RNNs with Expressive Hidden States
+https://github.com/test-time-training/ttt-lm-pytorch/tree/main
 
 GitHub - test-time-training/ttt-lm-jax: Official JAX implementation of Learning to (Learn at Test Time): RNNs with Expressive Hidden States
 https://github.com/test-time-training/ttt-lm-jax
@@ -2521,26 +2518,20 @@ https://huggingface.co/pyannote/overlapped-speech-detection
 pyannote/voice-activity-detection · Hugging Face
 https://huggingface.co/pyannote/voice-activity-detection
 
-lattice-rescore/examples/AMI_ES2011a_H00_FEE041_0003427_0003714.nbest at main · qiujiali/lattice-rescore
-https://github.com/qiujiali/lattice-rescore/blob/main/examples/AMI_ES2011a_H00_FEE041_0003427_0003714.nbest
+lattice-rescore/utils/kaldi2htk_lattice.sh at main · qiujiali/lattice-rescore
+https://github.com/qiujiali/lattice-rescore/blob/main/utils/kaldi2htk_lattice.sh
 
 Getting the top few transcription results · openai/whisper · Discussion #478
 https://github.com/openai/whisper/discussions/478
 
-Instagram
-https://www.instagram.com/
+novateur/WavTokenizer · Hugging Face
+https://huggingface.co/novateur/WavTokenizer
 
-How did wolves evolve into dogs? Ancient fossils provide intriguing clues
-https://www.nationalgeographic.com/animals/article/dogs-evolve-wolves-fossils-dna?cmpid=org=ngp::mc=social::src=instagram::cmp=editorial::add=igs20240830science-dogfossilcluedpremium&linkId=569499658
+jishengpeng/WavTokenizer: SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling
+https://github.com/jishengpeng/WavTokenizer
 
-Farrukh on X: "Carol Vorderman, "Still today I can't get over how deferential we are to certain politicians who are a disgrace" "Kwasi Kwarteng was on GMB this morning.. Chatting about the newspapers.. What?!?" "You crashed the economy mate.. You went off from the House of Commons to a https://t.co/QaO9vWvpTj" / X
-https://x.com/implausibleblog/status/1829105035357085741
-
-Robert Nairac - Wikipedia
-https://en.wikipedia.org/wiki/Robert_Nairac
-
-WavTokenizer/encoder/msstftd.py at main · jishengpeng/WavTokenizer
-https://github.com/jishengpeng/WavTokenizer/blob/main/encoder/msstftd.py
+2408.16532
+https://arxiv.org/pdf/2408.16532
 
 Byron and Le mal du siècle - the byron society
 https://www.thebyronsociety.com/byron-and-le-mal-du-siecle/
@@ -2560,38 +2551,11 @@ https://github.com/gtn-org/gtn/pull/30/files#diff-6dce77377da27d99ba79f2ec657e3e
 gtn/bindings/python/examples/pytorch_loss.py at master · gtn-org/gtn
 https://github.com/gtn-org/gtn/blob/master/bindings/python/examples/pytorch_loss.py
 
-Instagram
-https://www.instagram.com/
-
-New Tab
-chrome://newtab/
-
 fstalign/docs/NLP-Format.md at develop · revdotcom/fstalign
 https://github.com/revdotcom/fstalign/blob/develop/docs/NLP-Format.md
 
 Openfst | Anaconda.org
 https://anaconda.org/conda-forge/openfst
-
-git update all submodule - Google Search
-https://www.google.com/search?q=git+update+all+submodule&sca_esv=a924c72e3c0004d7&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKwQY1NVGZxAlxdlWWCZU8xBsM2EQ%3A1725119383191&ei=lzvTZqOuC8vSwPAPs56BgAU&ved=0ahUKEwjj1Z7Ayp-IAxVLKRAIHTNPAFAQ4dUDCBA&uact=5&oq=git+update+all+submodule&gs_lp=Egxnd3Mtd2l6LXNlcnAiGGdpdCB1cGRhdGUgYWxsIHN1Ym1vZHVsZTIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzINEAAYgAQYsAMYQxiKBTINEAAYgAQYsAMYQxiKBUjnBlCNA1itBXABeAGQAQCYAewBoAGcA6oBBTAuMS4xuAEDyAEA-AEBmAIBoAIHmAMAiAYBkAYKkgcBMaAHnw4&sclient=gws-wiz-serp
-
-c++ - How to enable C++17 in CMake - Stack Overflow
-https://stackoverflow.com/questions/45688522/how-to-enable-c17-in-cmake
-
-Instagram
-https://www.instagram.com/
-
-c++ - Compiler standards support (c++11, c++14, c++17) - Stack Overflow
-https://stackoverflow.com/questions/34836775/compiler-standards-support-c11-c14-c17
-
-Debian -- Details of source package openfst in sid
-https://packages.debian.org/source/sid/openfst
-
-Instagram
-https://www.instagram.com/
-
-YouTube
-https://www.youtube.com/
 
 Home / X
 https://x.com/home
@@ -2616,9 +2580,6 @@ https://github.com/google-research/google-research/commit/95d0f9aff38007fc9bceda
 
 Montreal-Forced-Aligner/montreal_forced_aligner/g2p/phonetisaurus_trainer.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/montreal_forced_aligner/g2p/phonetisaurus_trainer.py
-
-Home / X
-https://x.com/home
 
 What is the reason to do Euler_Angle to Expressional_Map conversion? · Issue #18 · Svito-zar/gesticulator
 https://github.com/Svito-zar/gesticulator/issues/18
@@ -2689,9 +2650,6 @@ https://github.com/facebookresearch/pytorch3d/pulls?q=is%3Apr+is%3Aclosed
 Delegating crop_bbox to FrameData by salaxieb · Pull Request #1478 · facebookresearch/pytorch3d
 https://github.com/facebookresearch/pytorch3d/pull/1478/files
 
-Hipify Pytorch3D (#133343) · pytorch/pytorch@19e8048
-https://github.com/pytorch/pytorch/commit/19e8048633b4b7c17c89335de121cb663b0e887e
-
 Allow indexing for classes inheriting Transform3d by ListIndexOutOfRange · Pull Request #1801 · facebookresearch/pytorch3d
 https://github.com/facebookresearch/pytorch3d/pull/1801
 
@@ -2700,18 +2658,6 @@ https://github.com/facebookresearch/pytorch3d/pull/1606
 
 vchoutas/torch-mesh-isect
 https://github.com/vchoutas/torch-mesh-isect?tab=readme-ov-file
-
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
-
-Instagram
-https://www.instagram.com/
-
-SneakyCamera - moto g(7) power - WiFi File Transfer
-http://192.168.0.100:1234/storage/emulated/0/Pictures/SneakyCamera/
-
-Instagram
-https://www.instagram.com/
 
 detectron2/MODEL_ZOO.md at main · facebookresearch/detectron2
 https://github.com/facebookresearch/detectron2/blob/main/MODEL_ZOO.md
@@ -2730,9 +2676,6 @@ https://github.com/topics/bvh-files
 
 Wasserwecken/bvhio: Read, write, edit and create .bvh files with hierarchical 3D transforms
 https://github.com/Wasserwecken/bvhio
-
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
 
 Forks · omimo/PyMO
 https://github.com/omimo/PyMO/forks?include=active&page=1&period=5y&sort_by=stargazer_counts
@@ -2821,47 +2764,11 @@ https://github.com/orgs/jupyterlab/repositories?type=all&page=2
 jupyterlab/jupyter-renderers: Renderers and renderer extensions for JupyterLab
 https://github.com/jupyterlab/jupyter-renderers
 
-jupyterlab/jupyterlab-latex: JupyterLab extension for live editing of LaTeX documents
-https://github.com/jupyterlab/jupyterlab-latex
-
-jupyterlab/frontends-team-compass: A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.
-https://github.com/jupyterlab/frontends-team-compass
-
 jupyterlab/jupyter-collaboration: A Jupyter Server Extension Providing Support for Y Documents
-https://github.com/jupyterlab/jupyter-collaboration
+https://github.com/jupyterlab/jupyter-collaboration?tab=readme-ov-file
 
 jupyterlab/lumino: Lumino is a library for building interactive web applications
 https://github.com/jupyterlab/lumino?tab=readme-ov-file
-
-WebAssembly/binaryen: Optimizer and compiler/toolchain library for WebAssembly
-https://github.com/WebAssembly/binaryen
-
-Honest Trailers | The Crow - YouTube
-https://www.youtube.com/watch?v=SJdV5felShI
-
-WordPerfect Document importer / Wiki / writerperfect
-https://sourceforge.net/p/libwpd/wiki/writerperfect/
-
-WordPerfect Document importer / Writerperfect / [c42512] /src/lib
-https://sourceforge.net/p/libwpd/writerperfect/ci/master/tree/src/lib/
-
-DLP/Libraries - The Document Foundation Wiki
-https://wiki.documentfoundation.org/DLP/Libraries
-
-mdbtools/mdbtools: MDB Tools - Read Access databases on *nix
-https://github.com/mdbtools/mdbtools
-
-src/lib/QXP1Header.cpp - libqxp - Gitiles
-https://git.libreoffice.org/libqxp/+/refs/heads/master/src/lib/QXP1Header.cpp
-
-libmwaw / Libmwaw / [083fe2] /HACKING
-https://sourceforge.net/p/libmwaw/libmwaw/ci/master/tree/HACKING
-
-re-lab/oletoy/wt602.py at master · renyxa/re-lab
-https://github.com/renyxa/re-lab/blob/master/oletoy/wt602.py
-
-New Tab
-chrome://newtab/
 
 jimregan/g2p_correction: Web-application for grapheme-to-phoneme correction using user feedback
 https://github.com/jimregan/g2p_correction/tree/main
@@ -2869,16 +2776,202 @@ https://github.com/jimregan/g2p_correction/tree/main
 pynini ubuntu - Google Search
 https://www.google.com/search?q=pynini+ubuntu&rlz=1C5GCEM_enSE990SE991&oq=pynini+ubuntu&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDQ1NzJqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Install python 3.11.9 on ubuntu - Python Help - Discussions on Python.org
-https://discuss.python.org/t/install-python-3-11-9-on-ubuntu/51093
-
 Installation issues · Issue #16 · kylebgorman/pynini
 https://github.com/kylebgorman/pynini/issues/16
 
-pynini-learn/ejf07/edit_transducer_orig.py at master · funderburkjim/pynini-learn
-https://github.com/funderburkjim/pynini-learn/blob/master/ejf07/edit_transducer_orig.py
+pynini-learn/ejf07/edit_transducer.py at master · funderburkjim/pynini-learn
+https://github.com/funderburkjim/pynini-learn/blob/master/ejf07/edit_transducer.py
 
-Wayback Machine
-https://web.archive.org/save/https://chatgpt.com/share/7d50bd7d-10a1-4ee7-b7b3-486f44b17a15
+Getting Started with Pynini
+https://chatgpt.com/c/b306b080-518c-40f3-82af-fe78b34316bf
+
+Curation Dashboard
+https://curation.clarin.eu/linkchecker/CLARINO_provider_National_Library_of_Norway
+
+NST Swedish ASR Database (16 kHz) - reorganized - Språkbanken
+https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/
+
+se-16khz_reorganized.pdf
+https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/se-16khz_reorganized.pdf
+
+NST Swedish tts - Google Search
+https://www.google.com/search?q=NST+Swedish+tts&rlz=1C5GCEM_enSE990SE991&oq=NST+Swedish+tts&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDI0ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+sve.ibm.talesyntese.tar.gz - Google Search
+https://www.google.com/search?q=sve.ibm.talesyntese.tar.gz&rlz=1C5GCEM_enSE990SE991&oq=sve.ibm.talesyntese.tar.gz&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzU3M2owajSoAgCwAgE&sourceid=chrome&ie=UTF-8
+
+nst_taledat_se.pdf
+https://www.nb.no/sbfil/dok/nst_taledat_se.pdf
+
+Page not found - Språkbanken
+https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-18/
+
+KBLab/piper-tts-nst-swedish · Hugging Face
+https://huggingface.co/KBLab/piper-tts-nst-swedish
+
+New Tab
+chrome://newtab/
+
+varsågod - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/vars%C3%A5god
+
+Inget resultat hittades för din sökning - Synonymer.se
+https://www.synonymer.se/sv-syn/tangomusikerna
+
+tangomusikerna - Google Search
+https://www.google.com/search?q=tangomusikerna&rlz=1C5GCEM_enSE990SE991&oq=tangomusikerna&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIGCAIQRRg80gEHNTU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+WASP Academia and Industry Days 2024 | WASP
+https://wasp-sweden.org/event/wasp-academia-and-industry-days-2024/
+
+keep the front meaning - Google Search
+https://www.google.com/search?q=keep+the+front+meaning&rlz=1C5GCEM_enSE990SE991&oq=keep+the+front&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCwgEEAAYFhgeGIsDMgsIBRAAGBYYHhiLAzILCAYQABgWGB4YiwMyCwgHEAAYFhgeGIsDMgsICBAAGBYYHhiLAzILCAkQABgWGB4YiwPSAQgzNTA5ajFqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+tartom a frontot angolul - Google Search
+https://www.google.com/search?q=tartom+a+frontot+angolul&rlz=1C5GCEM_enSE990SE991&oq=tartom+a+front&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIKCAcQABiABBiiBDIKCAgQABiABBiiBNIBCDMzODFqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Toto - Hold The Line (Official Video) - YouTube
+https://www.youtube.com/watch?v=htgr3pvBr-I
+
+TOTO - YouTube
+https://www.youtube.com/@TOTO-bi1fc/videos
+
+Toto - Only You - YouTube
+https://www.youtube.com/watch?v=30vMdxS1Xug
+
+Toto - Rosanna (Live) - YouTube
+https://www.youtube.com/watch?v=MbhE72l-rBY
+
+Toto - Melanie - YouTube
+https://www.youtube.com/watch?v=u8qvbMXZnd8
+
+Toto - Rosanna (Official HD Video) - YouTube
+https://www.youtube.com/watch?v=qmOLtTGvsbM
+
+Toto - Stop Loving You - YouTube
+https://www.youtube.com/watch?v=bYr3OJOXk60
+
+don quijote - Google Search
+https://www.google.com/search?sca_esv=e5d1dac6f789c472&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKYcjYQTunMwVhrfODVVeO14QlExg:1725290378323&q=don+quijote&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdNV1kobqvEwEVRYBCltlBtQd5-pPeakpVgpgEn2RgmgzeZo15rltNMrDtoZe63sl46hHJXZmfPBeZdqdwrtlSxkvce3I&sa=X&ved=2ahUKEwjTnonBx6SIAxUgDxAIHayPAAwQtKgLegQIDRAB&biw=1440&bih=737&dpr=2#vhid=gWZ1GJhniG7ldM&vssid=mosaic
+
+Hold The Line Tab by Toto | Songsterr Tabs with Rhythm
+https://www.songsterr.com/a/wsa/toto-hold-the-line-tab-s20390
+
+toto only you video - Google Search
+https://www.google.com/search?q=toto+only+you+video&rlz=1C5GCEM_enSE990SE991&oq=toto+only+you+video&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCTExMjc2ajFqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+toto "only you" video actress - Google Search
+https://www.google.com/search?q=toto+%22only+you%22+video+actress&sca_esv=e5d1dac6f789c472&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIK0qdrnqmMJkV_0qpUdFM81DxyR8A%3A1725291235831&ei=49rVZtCsMu7IwPAPjaKBEA&ved=0ahUKEwiQqvvZyqSIAxVuJBAIHQ1RAAIQ4dUDCBA&uact=5&oq=toto+%22only+you%22+video+actress&gs_lp=Egxnd3Mtd2l6LXNlcnAiHXRvdG8gIm9ubHkgeW91IiB2aWRlbyBhY3RyZXNzMgQQIxgnMggQABiABBiiBEiQGFDzBljDFnABeACQAQCYAV-gAdUBqgEBM7gBA8gBAPgBAZgCA6ACoQHCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcBM6AHvQo&sclient=gws-wiz-serp
+
+Cynthia Rhodes - Wikidata
+https://www.wikidata.org/wiki/Q250710
+
+Cynthia Rhodes - zdjęcia, dyskografia, muzyka na Tekstowo.pl
+https://www.tekstowo.pl/wykonawca,cynthia_rhodes.html
+
+Toto: Only You (Music Video 1992) - Full Cast & Crew - IMDb
+https://www.imdb.com/title/tt9330082/fullcredits
+
+Full credits of "Toto: Rosanna (Music Video)" - FilmAffinity
+https://www.filmaffinity.com/en/fullcredits.php?movie_id=943555
+
+Toto, "Only You" from 'Kingdom of Desire' (1991): Toto Tuesdays
+https://somethingelsereviews.com/2018/03/27/toto-only-you-kingdom-of-desire/
+
+Release group “Only You” by Toto - MusicBrainz
+https://musicbrainz.org/release-group/60347df6-c5f8-4fb2-b423-8fce9f913275
+
+pre-commit.ci
+https://results.pre-commit.ci/run/github/687727674/1723221287.KzkBBh6xSiOfieKD9Y5EkQ
+
+Instagram
+https://www.instagram.com/reels/C-69B1TveDb/
+
+Netanyahu not doing enough to secure hostage deal - Biden
+https://www.rte.ie/news/2024/0902/1467846-israel-gaza/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men (@datingwithgracie) • Instagram photos and videos
+https://www.instagram.com/datingwithgracie/reels/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men | Here’s how to know if she’s flirting, or just being friendly🤔 #datingadviceformen #datingcoachformen #datingtipsformen | Instagram
+https://www.instagram.com/reel/C-_eyo6MBYC/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men | 4 flirty texts that will give her butterflies📲 #datingadviceformen #datingcoachformen #datingtipsformen | Instagram
+https://www.instagram.com/reel/C-9ETKKR_jo/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men | 3 signs she wants you to kiss her😏 #datingadviceformen #datingcoachformen #datingtipsformen | Instagram
+https://www.instagram.com/reel/C-6iI2OMD5o/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men | Here are 4 signs that she’s flirting with you😏 #datingadviceformen #datingtipsformen #datingcoachformen | Instagram
+https://www.instagram.com/reel/C-gKZ8Fyw3R/
+
+⭒ Gracie Pleschourt ⭒ Dating Coach For Men | Here are 3 signs that she likes you but won’t admit it… #datingtipsformen #datingadviceformen #datingcoachformen | Instagram
+https://www.instagram.com/reel/C-RXxHAsctM/
+
+@caylalonestar • Instagram photos and videos
+https://www.instagram.com/caylalonestar/reels/
+
+@sophiexdt_crush • Instagram photos and videos
+https://www.instagram.com/sophiexdt_crush/reels/
+
+Dancing | Lip Syncing | Reels 🎞️ (@reels.in.rotation) • Instagram photos and videos
+https://www.instagram.com/reels.in.rotation/reels/
+
+Mary Amber (@mary_amber._) • Instagram photos and videos
+https://www.instagram.com/mary_amber._/reels/
+
+MarvinLvn/voice-type-classifier: A deep learning model for classifying audio frames into [SPEECH, KCHI, CHI, MAL, FEM] classes.
+https://github.com/MarvinLvn/voice-type-classifier?tab=readme-ov-file
+
+voice-type-classifier/vtc.yml at new_model · MarvinLvn/voice-type-classifier
+https://github.com/MarvinLvn/voice-type-classifier/blob/new_model/vtc.yml
+
+2005.12656
+https://arxiv.org/pdf/2005.12656
+
+BabyTrain corpus - Google Search
+https://www.google.com/search?q=BabyTrain+corpus&sca_esv=4f958c6067a3df62&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKzl2pq4WVEoyZTkKb2fxiefYqqlg%3A1725293884986&ei=POXVZq_vO9OswPAP8ZuBCA&ved=0ahUKEwiv_ZbJ1KSIAxVTFhAIHfFNAAEQ4dUDCBA&uact=5&oq=BabyTrain+corpus&gs_lp=Egxnd3Mtd2l6LXNlcnAiEEJhYnlUcmFpbiBjb3JwdXMyBRAhGKABMgUQIRigATIFECEYoAFIgghQD1jsBnABeAGQAQCYAeMBoAHlCKoBBTAuNC4yuAEDyAEA-AEBmAIHoAL0CMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIMEC4YxwEYChgeGK8BwgIGEAAYChgewgIEEAAYHsICCBAAGAoYHhgPwgIGEAAYHhgPwgIIEAAYgAQYogTCAggQABiiBBiJBcICGxAuGMcBGAoYHhivARiXBRjcBBjeBBjgBNgBAcICBhAAGBYYHsICChAAGBYYChgeGA_CAggQABgWGAoYHpgDAIgGAZAGCboGBggBEAEYFJIHBTEuNC4yoAf3Gw&sclient=gws-wiz-serp
+
+Dynamic Mask based Iterative Adapted Child Speech Separation under Multilingual Real Conditions
+https://cnrs.hal.science/hal-04353571v1/file/Dynamic_Mask_based_Iterative_Adapted_Child_Speech_Separation_under_Multilingual_Real_Conditions.pdf
+
+Getting Started with Bazel Docker Container
+https://bazel.build/install/docker-container
+
+google/language-resources: Datasets and tools for basic natural language processing.
+https://github.com/google/language-resources
+
+MODU-FTNC/google-language-resources: Datasets and tools for basic natural language processing.
+https://github.com/MODU-FTNC/google-language-resources
+
+jimregan/language-resources: Datasets and tools for basic natural language processing.
+https://github.com/jimregan/language-resources
+
+aviavgift - Google Search
+https://www.google.com/search?q=aviavgift&rlz=1C5GCEM_enSE990SE991&oq=aviavgift&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIGCAIQABgeMgYIAxAAGB4yBggEEAAYHjIGCAUQABgeMgYIBhAAGB4yBggHEAAYHjIGCAgQABgeMgYICRAAGB7SAQY4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+sandwichkonstruktionerna - Google Search
+https://www.google.com/search?q=sandwichkonstruktionerna&rlz=1C5GCEM_enSE990SE991&oq=sandwichkonstruktionerna&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBNIBBzE2OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Fuzzy String Matching in Python Tutorial | DataCamp
+https://www.datacamp.com/tutorial/fuzzy-string-python
+
+Proisraelisk - synonymer, betydelse, böjning och användning | Tyda
+https://tyda.se/index.php/search/proisraelisk
+
+Supercalifragilisticexpialidocious - Wikipedia
+https://en.wikipedia.org/wiki/Supercalifragilisticexpialidocious
+
+Gif2Slack
+https://www.gif2slack.com/
+
+Use shortcuts to take actions in Slack | Slack
+https://slack.com/intl/en-gb/help/articles/360057554553-Use-shortcuts-to-take-actions-in-Slack
+
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/
+
+Making a Math Conference Poster with Inkscape - Felix Breuer's Blog
+http://blog.felixbreuer.net/2010/10/24/poster.html
 
 
