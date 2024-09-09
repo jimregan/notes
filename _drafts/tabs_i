@@ -244,8 +244,8 @@ https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE
 Grew
 https://grew.fr/
 
-grew-match doc · Grew
-https://grew.fr/grew_match/help/
+What's new · Grew
+https://grew.fr/whats_new/
 
 05_confluence · Grew
 https://grew.fr/tutorial/05_confluence/
@@ -2032,7 +2032,7 @@ https://github.com/cmusphinx/pocketsphinx
 Phoneme Recognition (caveat emptor) – CMUSphinx Open Source Speech Recognition
 https://cmusphinx.github.io/wiki/phonemerecognition/
 
-(1) Inbox • Direct
+Inbox • Direct
 https://www.instagram.com/direct/t/110437113687820/
 
 ghenter_syndata4genai_talk.pptx
@@ -2475,9 +2475,6 @@ chrome://newtab/
 
 (4) Hall of Lore on X: "If the name of the masked people in Rhûn translates to ‘people of the device/machine’, they could work as an interesting parallel to what’s going on in Eregion in Season 2 (given that Sauron has already been active in the East). #TROPspoilers (from Letter 131) https://t.co/rZOSGfBSFM" / X
 https://x.com/e51dc715a5/status/1829154032516292819
-
-History
-chrome://history/syncedTabs
 
 Respiro-en/modules.py at main · ydqmkkx/Respiro-en
 https://github.com/ydqmkkx/Respiro-en/blob/main/modules.py
@@ -2941,12 +2938,6 @@ https://www.youtube.com/watch?v=nhSmXbQzAHY
 Montreal-Forced-Aligner/montreal_forced_aligner/transcription/multiprocessing.py at 78e481d2b3708957f3f6ac2b4d089bac798ad757 · MontrealCorpusTools/Montreal-Forced-Aligner
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/78e481d2b3708957f3f6ac2b4d089bac798ad757/montreal_forced_aligner/transcription/multiprocessing.py#L325
 
-WhisperX JSON segments to textgrid | notes
-https://jimregan.github.io/notes/praat/textgrid/whisperx/json/hsi/2024/08/12/whisperx-json-segments-to_textgrid.html
-
-timmahrt/praatIO: A python library for working with praat, textgrids, time aligned audio transcripts, and audio files. It is primarily used for extracting features from and making manipulations on audio files given hierarchical time-aligned transcriptions (utterance > word > syllable > phone, etc).
-https://github.com/timmahrt/praatIO
-
 facebookresearch/fairseq2: FAIR Sequence Modeling Toolkit 2
 https://github.com/facebookresearch/fairseq2
 
@@ -2959,35 +2950,50 @@ https://github.com/chaimleib/intervaltree/blob/master/HACKING.md
 daschablume/g2p_correction: Web-application for grapheme-to-phoneme correction using user feedback
 https://github.com/daschablume/g2p_correction
 
-KTH hours - Google Sheets
-https://docs.google.com/spreadsheets/d/1e0HCM2ipxDzy-8C5fhM5ggDtoPzSp26fUCOEpDu3QKE/edit?gid=0#gid=0
-
-CONVENDUM Coffee - Google Maps
-https://www.google.com/maps/place/CONVENDUM+Coffee/@59.3412331,18.061695,16.1z/data=!4m6!3m5!1s0x465f9d500be4abeb:0x6f4d5beb0f8608c7!8m2!3d59.3411504!4d18.0646022!16s%2Fg%2F11y66cn3lk?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D
-
 wav2vec2 huggingface pyannote - Google Search
 https://www.google.com/search?q=wav2vec2+huggingface+pyannote&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+huggingface+pyannote&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBCTExMjE2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
 Models - Hugging Face
-https://huggingface.co/models?other=automatic-speech-recognition
+https://huggingface.co/models?license=license:apache-2.0&other=automatic-speech-recognition&p=2&sort=trending
 
-Systran/faster-whisper-large-v3 · Hugging Face
-https://huggingface.co/Systran/faster-whisper-large-v3
+jonatasgrosman/wav2vec2-large-english · Hugging Face
+https://huggingface.co/jonatasgrosman/wav2vec2-large-english
 
-nvidia/canary-1b · Hugging Face
-https://huggingface.co/nvidia/canary-1b
+Models - Hugging Face
+https://huggingface.co/models?language=en&license=license:apache-2.0&other=whisper&p=4&sort=trending
 
-CrisperWhisper: Accurate Timestamps on Verbatim Speech Transcriptions
-https://arxiv.org/pdf/2408.16589
+NathanRoll/psst-medium-en · Hugging Face
+https://huggingface.co/NathanRoll/psst-medium-en
 
-CrisperWhisper/README.md at develop · nyrahealth/CrisperWhisper
-https://github.com/nyrahealth/CrisperWhisper/blob/develop/README.md
+Models - Hugging Face
+https://huggingface.co/models?search=phoneme
 
-FSDnoisy18k
-https://zenodo.org/records/2529934
+Cnam-LMSSC/vibravox-phonemes-tokenizer at main
+https://huggingface.co/Cnam-LMSSC/vibravox-phonemes-tokenizer/tree/main
 
-[1901.01189] Learning Sound Event Classifiers from Web Audio with Noisy Labels
-https://arxiv.org/abs/1901.01189
+ct-vikramanantha/phoneme-scorer-v2-wav2vec2 · Hugging Face
+https://huggingface.co/ct-vikramanantha/phoneme-scorer-v2-wav2vec2
+
+bookbot (Bookbot)
+https://huggingface.co/bookbot
+
+bookbot/OpenBible_Swahili · Datasets at Hugging Face
+https://huggingface.co/datasets/bookbot/OpenBible_Swahili
+
+bookbot/cmudict-0.7b · Datasets at Hugging Face
+https://huggingface.co/datasets/bookbot/cmudict-0.7b
+
+bookbot/wav2vec2-ljspeech-gruut · Hugging Face
+https://huggingface.co/bookbot/wav2vec2-ljspeech-gruut
+
+bookbot/ljspeech_phonemes · Datasets at Hugging Face
+https://huggingface.co/datasets/bookbot/ljspeech_phonemes
+
+Splend1dchan/phoneme-bart-base · Hugging Face
+https://huggingface.co/Splend1dchan/phoneme-bart-base
+
+huchenxu/timit_phoneme · Hugging Face
+https://huggingface.co/huchenxu/timit_phoneme
 
 AMI Corpus
 https://groups.inf.ed.ac.uk/ami/corpus/
@@ -2996,102 +3002,141 @@ AMI Corpus Download
 https://groups.inf.ed.ac.uk/ami/download/
 
 edinburghcstr/ami · Datasets at Hugging Face
-https://huggingface.co/datasets/edinburghcstr/ami
-
-esb/conformer-rnnt-ami · Hugging Face
-https://huggingface.co/esb/conformer-rnnt-ami
-
-NVIDIA/NeMo: A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)
-https://github.com/NVIDIA/NeMo?tab=readme-ov-file#installation
-
-nvidia/parakeet-rnnt-0.6b · Hugging Face
-https://huggingface.co/nvidia/parakeet-rnnt-0.6b
-
-Models — NVIDIA NeMo Framework User Guide latest documentation
-https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/models.html#fast-conformer
-
-futureProofGlitch/whisper-small · Hugging Face
-https://huggingface.co/futureProofGlitch/whisper-small
-
-kaldiio · PyPI
-https://pypi.org/project/kaldiio/
-
-funcwj/kaldi-python-io: A python IO interface for data accessing in kaldi
-https://github.com/funcwj/kaldi-python-io
-
-Tags · huggingface/huggingface_hub
-https://github.com/huggingface/huggingface_hub/tags?after=v0.19.0.rc0
-
-Removed GeneralTags, ModelTags and DatasetTags by vHugoObject · Pull Request #1761 · huggingface/huggingface_hub
-https://github.com/huggingface/huggingface_hub/pull/1761
-
-Question: Which decoder are we supposed to use on parakeet-tdt_ctc-1.1b model? · Issue #9695 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/issues/9695
-
-Parakeet-tdt_ctc-1.1b - a Hugging Face Space by nvidia
-https://huggingface.co/spaces/nvidia/parakeet-tdt_ctc-1.1b
+https://huggingface.co/datasets/edinburghcstr/ami?row=3
 
 Models - Hugging Face
-https://huggingface.co/models?library=nemo
+https://huggingface.co/models?dataset=dataset:esb/datasets
 
-nvidia/stt_en_fastconformer_ctc_large · Hugging Face
-https://huggingface.co/nvidia/stt_en_fastconformer_ctc_large
+huggingface whisper finetune ami - Google Search
+https://www.google.com/search?q=huggingface+whisper+finetune+ami&rlz=1C5GCEM_enSE990SE991&oq=huggingface+whisper+finetune+ami&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyBggDECEYFdIBCDg1NjVqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
-NVIDIA/NeMo: A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)
-https://github.com/NVIDIA/NeMo
+Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers
+https://huggingface.co/blog/fine-tune-whisper
 
-fix where the transcription is saved please · Issue #10277 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/issues/10277
+Crystalcareai/Whisper-Medicalv1 · Hugging Face
+https://huggingface.co/Crystalcareai/Whisper-Medicalv1
 
-ASR models with transcription steering prompt (canary, parakeet) · Issue #10247 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/issues/10247
+Models - Hugging Face
+https://huggingface.co/models?other=whisper&p=3&sort=trending
 
-ffmpeg -acodec -ar - Google Search
-https://www.google.com/search?q=ffmpeg+-acodec+-ar&sca_esv=cca1506e5bb311d6&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIIns0MJy9ZDNu8_THYtr8di2Z0hKA%3A1725880811638&ei=69neZq_JJrS4wPAP2O7_2AE&ved=0ahUKEwjv6s6F37WIAxU0HBAIHVj3HxsQ4dUDCA8&uact=5&oq=ffmpeg+-acodec+-ar&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmZmbXBlZyAtYWNvZGVjIC1hcki0FlD-BFjQFHABeAGQAQCYATSgAcMBqgEBNLgBA8gBAPgBAZgCAaACB8ICChAAGLADGNYEGEeYAwCIBgGQBgiSBwExoAe0AQ&sclient=gws-wiz-serp
+distil-whisper/distil-large-v2 · Hugging Face
+https://huggingface.co/distil-whisper/distil-large-v2
 
-Getting started | Hydra
-https://hydra.cc/docs/intro/
+marinone94/whisper-medium-nordic · Hugging Face
+https://huggingface.co/marinone94/whisper-medium-nordic
 
-Parakeet CTC Riva 0.6b — NVIDIA NIM for Automatic Speech Recognition (ASR) latest documentation
-https://docs.nvidia.com/ai-enterprise/nim-asr/latest/parakeet-ctc-riva.html
+NST.py · NbAiLab/NST at main
+https://huggingface.co/datasets/NbAiLab/NST/blob/main/NST.py
 
-Instagram
-https://www.instagram.com/
+babelbox_voice.py · babelbox/babelbox_voice at main
+https://huggingface.co/datasets/babelbox/babelbox_voice/blob/main/babelbox_voice.py
 
-python - How to run Tensorflow on CPU - Stack Overflow
-https://stackoverflow.com/questions/37660312/how-to-run-tensorflow-on-cpu
+NbAiLab/NPSC · Datasets at Hugging Face
+https://huggingface.co/datasets/NbAiLab/NPSC
 
-nemo compute timestamps - Google Search
-https://www.google.com/search?q=nemo+compute+timestamps&rlz=1C5GCEM_enSE990SE991&oq=nemo+compute+timestamps&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEINDYyNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+MU-NLPC/whisper-tiny-audio-captioning · Hugging Face
+https://huggingface.co/MU-NLPC/whisper-tiny-audio-captioning
 
-BPE timestamp extraction example · Issue #2857 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/issues/2857
+magnustragardh/whisper-tiny-en-minds14 · Hugging Face
+https://huggingface.co/magnustragardh/whisper-tiny-en-minds14
 
-Issue search results
-https://github.com/search?q=repo%3ANVIDIA%2FNeMo+compute_timestamps%3DTrue&type=issues
+aadel4/kid-whisper-medium-en-myst_cslu · Hugging Face
+https://huggingface.co/aadel4/kid-whisper-medium-en-myst_cslu
 
-Getting `TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.` · Issue #9416 · NVIDIA/NeMo
-https://github.com/NVIDIA/NeMo/issues/9416
+Aspik101/distil-whisper-large-v3-pl · Hugging Face
+https://huggingface.co/Aspik101/distil-whisper-large-v3-pl
 
-pyctcdecode/tutorials/01_pipeline_nemo.ipynb at main · kensho-technologies/pyctcdecode
-https://github.com/kensho-technologies/pyctcdecode/blob/main/tutorials/01_pipeline_nemo.ipynb
+NbAiLab (Nasjonalbiblioteket AI Lab)
+https://huggingface.co/NbAiLab
 
-parlance/ctcdecode: PyTorch CTC Decoder bindings
-https://github.com/parlance/ctcdecode
+NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk · Hugging Face
+https://huggingface.co/NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk
 
-Vika Falileeva Leonard (@vikafalileeva) • Instagram photos and videos
-https://www.instagram.com/stories/vikafalileeva/
+run_speech_recognition_ctc.py · NbAiLab/wav2vec2-xlsr-300M-NPSC-LM at main
+https://huggingface.co/NbAiLab/wav2vec2-xlsr-300M-NPSC-LM/blob/main/run_speech_recognition_ctc.py
 
-Beetlejuice fans left horrified after realizing disturbing reason the dad wasn't in new movie
-https://www.unilad.com/film-and-tv/beetlejuice-beetlejuice-jeffrey-jones-tim-burton-169432-20240908
+KBLab (National Library of Sweden / KBLab)
+https://huggingface.co/KBLab
 
-Wolfy | ‘You have a super solider’ - Captain Carter, MCU. . I promise this is the last one….for now 👀 . 📸: @s_eishiin 👗: @kirahmiya 🇬🇧:… | Instagram
-https://www.instagram.com/p/C--yeh4oe7Q/
+KBLab/rixvox · Datasets at Hugging Face
+https://huggingface.co/datasets/KBLab/rixvox
 
-David Love | Admit it, the dark side is cooler. #cosplay #sith | Instagram
-https://www.instagram.com/p/CdMmSvpOMBH/
+kb-labb/riksdagen_anforanden
+https://github.com/kb-labb/riksdagen_anforanden
 
-Anne Elisabeth | Cosplay & Streamer | Amber wishing you a lovely weekend 🥰♥️ #ambergenshinimpact #genshin #genshinimpact #genshincosplay #cosplaylove #cosplayworld | Instagram
-https://www.instagram.com/p/C_klI3Rov7M/
+Lauler (Faton) / August 2024
+https://github.com/Lauler?tab=overview&from=2024-08-01&to=2024-08-31
+
+rixvox/scripts/align_transcript_pytorch.py at main · kb-labb/rixvox
+https://github.com/kb-labb/rixvox/blob/main/scripts/align_transcript_pytorch.py
+
+kb-labb repositories
+https://github.com/orgs/kb-labb/repositories?type=all
+
+emotional-headlines/modelling/zero-shot-ekman-emotion-classification.ipynb at main · kb-labb/emotional-headlines
+https://github.com/kb-labb/emotional-headlines/blob/main/modelling/zero-shot-ekman-emotion-classification.ipynb
+
+config.json · KBLab/piper-tts-nst-swedish at main
+https://huggingface.co/KBLab/piper-tts-nst-swedish/blob/main/config.json
+
+KBLab/asr-voxrex-bart-base at main
+https://huggingface.co/KBLab/asr-voxrex-bart-base/tree/main
+
+NbAiLab/salmon-whisper-large-smj-lr7e-5 · Hugging Face
+https://huggingface.co/NbAiLab/salmon-whisper-large-smj-lr7e-5
+
+NbAiLab/salmon-whisper-medium-smj · Hugging Face
+https://huggingface.co/NbAiLab/salmon-whisper-medium-smj
+
+NbAiLab/whisper-small-smj-test · Hugging Face
+https://huggingface.co/NbAiLab/whisper-small-smj-test
+
+NbAiLab/whisper-large-sme at main
+https://huggingface.co/NbAiLab/whisper-large-sme/tree/main
+
+convert_to_openai.py · NbAiLab/whisper-large-sme at main
+https://huggingface.co/NbAiLab/whisper-large-sme/blob/main/convert_to_openai.py
+
+NbAiLab/nrk-sapmi-podcasts · Datasets at Hugging Face
+https://huggingface.co/datasets/NbAiLab/nrk-sapmi-podcasts
+
+NbAiLab/salmon-asr-smj at main
+https://huggingface.co/datasets/NbAiLab/salmon-asr-smj/tree/main
+
+app.py · NbAiLab/whisper-sami-demo at main
+https://huggingface.co/spaces/NbAiLab/whisper-sami-demo/blob/main/app.py
+
+SpeechT5 TTS Fine-tuning.ipynb - Colab
+https://colab.research.google.com/drive/1i7I5pzBcU3WDFarDnzweIj4-sVVoIUFJ#scrollTo=wm7B3zxrumfF
+
+Respair/Hibiki_ASR_Phonemizer_v0.2 · Hugging Face
+https://huggingface.co/Respair/Hibiki_ASR_Phonemizer_v0.2
+
+Ođđasat - Davvisámegillii – NRK Sápmi - samiske nyheter, kultur og underholdning
+https://www.nrk.no/sapmi/o__asat---davvisamegillii-1.13572949
+
+NRK Sápmi – Ođasguovddáš
+https://www.nrk.no/sapmi/nyheter/
+
+Veagalválddii 15-jahkásačča – dubmejuvvui badjel njeallje jagi giddagassii – NRK Sápmi - samiske nyheter, kultur og underholdning
+https://www.nrk.no/sapmi/veagalvalddii-15-jahkasa__a-_-dubmejuvvui-badjel_njeallje-jagi-giddagassii-1.17036648
+
+Fine-tuning SpeechT5 - Hugging Face Audio Course
+https://huggingface.co/learn/audio-course/en/chapter6/fine-tuning
+
+Text To Speech SpeechT5 Demo - a Hugging Face Space by Zhenhong
+https://huggingface.co/spaces/Zhenhong/text-to-speech-SpeechT5-demo
+
+app.py · Zhenhong/text-to-speech-SpeechT5-demo at main
+https://huggingface.co/spaces/Zhenhong/text-to-speech-SpeechT5-demo/blob/main/app.py
+
+nyrahealth/CrisperWhisper: Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection
+https://github.com/nyrahealth/CrisperWhisper
+
+YouTube
+https://www.youtube.com/
+
+6 Martial Artists Compete in Self Defense Challenges - YouTube
+https://www.youtube.com/watch?v=lCsR-zxwN1Y
 
 
