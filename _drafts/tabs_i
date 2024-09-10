@@ -3013,41 +3013,17 @@ https://www.google.com/search?q=huggingface+whisper+finetune+ami&rlz=1C5GCEM_enS
 Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers
 https://huggingface.co/blog/fine-tune-whisper
 
-Crystalcareai/Whisper-Medicalv1 · Hugging Face
-https://huggingface.co/Crystalcareai/Whisper-Medicalv1
-
-Models - Hugging Face
-https://huggingface.co/models?other=whisper&p=3&sort=trending
-
-distil-whisper/distil-large-v2 · Hugging Face
-https://huggingface.co/distil-whisper/distil-large-v2
-
-marinone94/whisper-medium-nordic · Hugging Face
-https://huggingface.co/marinone94/whisper-medium-nordic
-
-NST.py · NbAiLab/NST at main
-https://huggingface.co/datasets/NbAiLab/NST/blob/main/NST.py
-
 babelbox_voice.py · babelbox/babelbox_voice at main
 https://huggingface.co/datasets/babelbox/babelbox_voice/blob/main/babelbox_voice.py
 
 NbAiLab/NPSC · Datasets at Hugging Face
 https://huggingface.co/datasets/NbAiLab/NPSC
 
-MU-NLPC/whisper-tiny-audio-captioning · Hugging Face
-https://huggingface.co/MU-NLPC/whisper-tiny-audio-captioning
-
 magnustragardh/whisper-tiny-en-minds14 · Hugging Face
 https://huggingface.co/magnustragardh/whisper-tiny-en-minds14
 
 aadel4/kid-whisper-medium-en-myst_cslu · Hugging Face
 https://huggingface.co/aadel4/kid-whisper-medium-en-myst_cslu
-
-Aspik101/distil-whisper-large-v3-pl · Hugging Face
-https://huggingface.co/Aspik101/distil-whisper-large-v3-pl
-
-NbAiLab (Nasjonalbiblioteket AI Lab)
-https://huggingface.co/NbAiLab
 
 NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk · Hugging Face
 https://huggingface.co/NbAiLab/wav2vec2-large-voxrex-npsc-nynorsk
@@ -3061,26 +3037,14 @@ https://huggingface.co/KBLab
 KBLab/rixvox · Datasets at Hugging Face
 https://huggingface.co/datasets/KBLab/rixvox
 
-kb-labb/riksdagen_anforanden
-https://github.com/kb-labb/riksdagen_anforanden
-
-Lauler (Faton) / August 2024
-https://github.com/Lauler?tab=overview&from=2024-08-01&to=2024-08-31
-
 rixvox/scripts/align_transcript_pytorch.py at main · kb-labb/rixvox
 https://github.com/kb-labb/rixvox/blob/main/scripts/align_transcript_pytorch.py
-
-kb-labb repositories
-https://github.com/orgs/kb-labb/repositories?type=all
 
 emotional-headlines/modelling/zero-shot-ekman-emotion-classification.ipynb at main · kb-labb/emotional-headlines
 https://github.com/kb-labb/emotional-headlines/blob/main/modelling/zero-shot-ekman-emotion-classification.ipynb
 
 config.json · KBLab/piper-tts-nst-swedish at main
 https://huggingface.co/KBLab/piper-tts-nst-swedish/blob/main/config.json
-
-KBLab/asr-voxrex-bart-base at main
-https://huggingface.co/KBLab/asr-voxrex-bart-base/tree/main
 
 NbAiLab/salmon-whisper-large-smj-lr7e-5 · Hugging Face
 https://huggingface.co/NbAiLab/salmon-whisper-large-smj-lr7e-5
@@ -3103,40 +3067,61 @@ https://huggingface.co/datasets/NbAiLab/nrk-sapmi-podcasts
 NbAiLab/salmon-asr-smj at main
 https://huggingface.co/datasets/NbAiLab/salmon-asr-smj/tree/main
 
-app.py · NbAiLab/whisper-sami-demo at main
-https://huggingface.co/spaces/NbAiLab/whisper-sami-demo/blob/main/app.py
-
-SpeechT5 TTS Fine-tuning.ipynb - Colab
-https://colab.research.google.com/drive/1i7I5pzBcU3WDFarDnzweIj4-sVVoIUFJ#scrollTo=wm7B3zxrumfF
-
-Respair/Hibiki_ASR_Phonemizer_v0.2 · Hugging Face
-https://huggingface.co/Respair/Hibiki_ASR_Phonemizer_v0.2
-
-Ođđasat - Davvisámegillii – NRK Sápmi - samiske nyheter, kultur og underholdning
-https://www.nrk.no/sapmi/o__asat---davvisamegillii-1.13572949
-
-NRK Sápmi – Ođasguovddáš
-https://www.nrk.no/sapmi/nyheter/
-
-Veagalválddii 15-jahkásačča – dubmejuvvui badjel njeallje jagi giddagassii – NRK Sápmi - samiske nyheter, kultur og underholdning
-https://www.nrk.no/sapmi/veagalvalddii-15-jahkasa__a-_-dubmejuvvui-badjel_njeallje-jagi-giddagassii-1.17036648
+pariajm/joint-disfluency-detector-and-parser: Improving Disfluency Detection by Self-Training a Self-Attentive Model
+https://github.com/pariajm/joint-disfluency-detector-and-parser
 
 Fine-tuning SpeechT5 - Hugging Face Audio Course
 https://huggingface.co/learn/audio-course/en/chapter6/fine-tuning
 
-Text To Speech SpeechT5 Demo - a Hugging Face Space by Zhenhong
-https://huggingface.co/spaces/Zhenhong/text-to-speech-SpeechT5-demo
+THE BEST KARATE STYLE (EXPLANATION) — Jesse Enkamp - YouTube
+https://www.youtube.com/watch?v=UXM9d_SYPKQ
 
-app.py · Zhenhong/text-to-speech-SpeechT5-demo at main
-https://huggingface.co/spaces/Zhenhong/text-to-speech-SpeechT5-demo/blob/main/app.py
+HOW TO STRIKE WITH MAXIMUM POWER - Training with Michael J White - YouTube
+https://www.youtube.com/watch?v=P6by6LBfo6g
 
-nyrahealth/CrisperWhisper: Verbatim Automatic Speech Recognition with improved word-level timestamps and filler detection
-https://github.com/nyrahealth/CrisperWhisper
+Aab - Google Drive
+https://drive.google.com/drive/u/0/folders/1A87uy5EnuCovo2xInruefXuUGM8hH15s
+
+Download history
+chrome://downloads/
+
+Mia "Ani-Mia" McLaughlin | I'm so proud of my little abs I've been working on. 🩷💙 A preview of another themed month of my 2025 calendar. Don't miss your chance to… | Instagram
+https://www.instagram.com/p/C_TJ3soPDfa/
+
+Bilabial consonant - Wikipedia
+https://en.wikipedia.org/wiki/Bilabial_consonant#:~:text=The%20extensions%20to%20the%20IPA,would%20be%20%5B%CA%AC%E2%86%93%5D.
+
+montreal forced aligner align phonemes - Google Search
+https://www.google.com/search?q=montreal+forced+aligner+align+phonemes&rlz=1C5GCEM_enSE990SE991&oq=montreal+forced+aligner+align+phonemes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMDU3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Nadira Povey - YouTube
+https://www.youtube.com/@nadirapovey4919
+
+#67 K2fsa: Training Advice for Beginners - YouTube
+https://www.youtube.com/watch?v=_zBJVN5lxEg
+
+Type IPA phonetic symbols - online keyboard (all languages)
+https://ipa.typeit.org/full/
+
+valeria ☆ on X: "Sir Terry Pratchett’s author biography for Good Omens (Corgi) in 1990 mentioned banana daiquiris. That was his favorite, but the origin story on how he tried them is terrific too. 🧵 https://t.co/GsZr5krM6c" / X
+https://x.com/Bowtiedino/status/1833342931421278361/photo/1
+
+What will happen to Darth Vader character as James Earl Jones made agreement with Lucasfilm before he died
+https://www.ladbible.com/entertainment/film/darth-vader-voice-james-earl-jones-ai-lucasfilm-114312-20240910
 
 YouTube
 https://www.youtube.com/
 
-6 Martial Artists Compete in Self Defense Challenges - YouTube
-https://www.youtube.com/watch?v=lCsR-zxwN1Y
+BOUNCING IN FIGHTING | 3 Mistakes 1 Exercise — Jesse Enkamp - YouTube
+https://www.youtube.com/watch?v=vMtzoJ8Lii4
+
+How to ACTUALLY Defend Yourself (in Street Fights) - YouTube
+https://www.youtube.com/watch?v=A6hgWdbSEFM
+
+What Makes Mastodon’s “Leviathan” LEGENDARY - YouTube
+https://www.youtube.com/watch?v=qug1jk0b_RA
+
+Is this Japananes Kobudo Master getting Halberds right? - Responding to ‪@letsasksekisensei‬ - YouTube
+https://www.youtube.com/watch?v=-smKPI1rMj4
 
 
