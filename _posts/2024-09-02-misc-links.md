@@ -22,4 +22,19 @@ categories: [links]
 
 [aahung/BeeVeeH](https://github.com/aahung/BeeVeeH) --- BeeVeeH - another BVH Player + some BVH APIs
 
+[mkkellogg/GaussianSplats3D](https://github.com/mkkellogg/GaussianSplats3D) --- Three.js-based implementation of 3D Gaussian splatting
+
+[nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) --- CUDA accelerated rasterization of gaussian splatting
+
+[ianyh/Amethyst](https://github.com/ianyh/Amethyst) --- Automatic tiling window manager for macOS à la xmonad.
+
+[google/python-fire](https://github.com/google/python-fire) --- Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+
+[microsoft/graphrag](https://github.com/microsoft/graphrag) --- A modular graph-based Retrieval-Augmented Generation (RAG) system
+
+[UM-ARM-Lab/pytorch_kinematics](https://github.com/UM-ARM-Lab/pytorch_kinematics) --- Robot kinematics implemented in pytorch
+
+[BUT-FIT/whisper-ATC-czech-full](https://huggingface.co/BUT-FIT/whisper-ATC-czech-full) --- fine-tuned openai/whisper-medium on Czech and English air traffic
+
+[divakaivan/glaswegian_audio](https://huggingface.co/datasets/divakaivan/glaswegian_audio)
 
