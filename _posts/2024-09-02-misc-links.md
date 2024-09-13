@@ -38,3 +38,9 @@ categories: [links]
 
 [divakaivan/glaswegian_audio](https://huggingface.co/datasets/divakaivan/glaswegian_audio)
 
+[Libriheavy: A 50,000 Hours ASR Corpus with Punctuation Casing and Context](https://ieeexplore.ieee.org/document/10447120),
+[code](https://github.com/k2-fsa/libriheavy)
+
+[guestdaniel/tdklatt](https://github.com/guestdaniel/tdklatt) --- Implementation of the Klatt synthesizer in Python 3
+
+
