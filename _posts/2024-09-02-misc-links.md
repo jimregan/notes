@@ -43,4 +43,28 @@ categories: [links]
 
 [guestdaniel/tdklatt](https://github.com/guestdaniel/tdklatt) --- Implementation of the Klatt synthesizer in Python 3
 
+{% twitter https://x.com/AlexDGoldie/status/1813228088500576307 %}
+
+[Can Learned Optimization Make Reinforcement Learning Less Difficult?](https://arxiv.org/abs/2407.07082),
+[code](https://github.com/AlexGoldie/rl-learned-optimization)
+
+{% twitter https://x.com/ProfTomYeh/status/1811738267622223953 %}
+
+[Learning to (Learn at Test Time): RNNs with Expressive Hidden States](https://arxiv.org/abs/2407.04620),
+[code](https://github.com/test-time-training/ttt-lm-jax),
+[pytorch](https://github.com/test-time-training/ttt-lm-pytorch)
+
+[Big, beautiful goals – but can’t be bothered? 11 great productivity tips for lazy people](https://www.theguardian.com/business/article/2024/jul/10/big-beautiful-goals-but-cant-be-bothered-11-great-productivity-tips-for-lazy-people)
+
+{% twitter https://x.com/ProfTomYeh/status/1813497648164532676 %}
+
+[mistralai/Mathstral-7B-v0.1](https://huggingface.co/mistralai/Mathstral-7B-v0.1)
+
+[Mathstral: A 7B Parameter LLM for Math and Science](https://lightning.ai/lightning-ai/studios/mathstral-llm-for-math-problems)
+
+{% twitter https://x.com/ATRightMovies/status/1813863365158060471 %}
+
+[Zielon/CPURasterizer](https://github.com/Zielon/CPURasterizer) --- CPU Based Rasterizer Engine
+
+[MrNeRF/awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 
