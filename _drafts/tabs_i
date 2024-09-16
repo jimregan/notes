@@ -82,44 +82,8 @@ https://github.com/lucidrains/meshgpt-pytorch
 lucidrains/e2-tts-pytorch: Implementation of E2-TTS, "Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS", in Pytorch
 https://github.com/lucidrains/e2-tts-pytorch
 
-Ryan Reynolds on X: "Everyone seemed to like the Deadpool Bachelorette spot last night but can we talk about the episode? Thought Jenn made some strong choices, except for sending my countryman Brendan packing. Marcus is easy on the eyes, Grant was a little much and the day trading thing, but I get https://t.co/R2khY87Xlg" / X
-https://x.com/VancityReynolds/status/1810714739418492967
-
-Zielon/ParallelQSlim: Shape Aware Parallel Mesh Simplification Algorithm
-https://github.com/Zielon/ParallelQSlim
-
-MrNeRF/awesome-3D-gaussian-splatting: Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.
-https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file
-
-vits/data_utils.py at main · jaywalnut310/vits
-https://github.com/jaywalnut310/vits/blob/main/data_utils.py
-
 2312.02902
 https://arxiv.org/pdf/2312.02902
-
-Dynamic3DGaussians/train.py at main · JonathonLuiten/Dynamic3DGaussians
-https://github.com/JonathonLuiten/Dynamic3DGaussians/blob/main/train.py
-
-ingra14m/Deformable-3D-Gaussians: [CVPR 2024] Official implementation of "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction"
-https://github.com/ingra14m/Deformable-3D-Gaussians?tab=readme-ov-file
-
-gsgen3d/gsgen: [CVPR 2024] Text-to-3D using Gaussian Splatting
-https://github.com/gsgen3d/gsgen?tab=readme-ov-file
-
-threestudio-project/threestudio: A unified framework for 3D content generation.
-https://github.com/threestudio-project/threestudio
-
-openai/point-e: Point cloud diffusion for 3D model synthesis
-https://github.com/openai/point-e
-
-openai/shap-e: Generate 3D objects conditioned on text or images
-https://github.com/openai/shap-e
-
-Splatfacto - nerfstudio
-https://docs.nerf.studio/nerfology/methods/splat.html
-
-nerfacc/nerfacc/cuda/csrc/nerfacc.cpp at master · nerfstudio-project/nerfacc
-https://github.com/nerfstudio-project/nerfacc/blob/master/nerfacc/cuda/csrc/nerfacc.cpp
 
 The Feynman Lectures on Physics Vol. I Ch. 43: Diffusion
 https://www.feynmanlectures.caltech.edu/I_43.html
@@ -283,17 +247,14 @@ https://github.com/phonlab-tcd/text-normalization/blob/main/python_version/norma
 Chameleon: add model by zucchini-nlp · Pull Request #31534 · huggingface/transformers
 https://github.com/huggingface/transformers/pull/31534
 
-facebookresearch/chameleon: Repository for Meta Chameleon, a mixed-modal early-fusion foundation model from FAIR.
-https://github.com/facebookresearch/chameleon?tab=readme-ov-file
-
 Supported Models — vLLM
 https://docs.vllm.ai/en/latest/models/supported_models.html
 
-adept/fuyu-8b · Hugging Face
-https://huggingface.co/adept/fuyu-8b
+transformers/src/transformers at ac946aac257cadfa8264fa4a284cd0ea1061c5b5 · huggingface/transformers
+https://github.com/huggingface/transformers/tree/ac946aac257cadfa8264fa4a284cd0ea1061c5b5/src/transformers
 
-Fix the incorrect permutation of gguf (#31788) · huggingface/transformers@ac946aa
-https://github.com/huggingface/transformers/commit/ac946aac257cadfa8264fa4a284cd0ea1061c5b5
+transformers/src/transformers/modeling_tf_outputs.py at ac946aac257cadfa8264fa4a284cd0ea1061c5b5 · huggingface/transformers
+https://github.com/huggingface/transformers/blob/ac946aac257cadfa8264fa4a284cd0ea1061c5b5/src/transformers/modeling_tf_outputs.py
 
 [`WIP`] Add Mamba2 by vasqu · Pull Request #32027 · huggingface/transformers
 https://github.com/huggingface/transformers/pull/32027/files#diff-32b64a02a5bb6d6799c93252f7b8f8f6a82d3688d6e0c9b206eb1c20a2a73f56
@@ -2983,18 +2944,6 @@ https://www.youtube.com/watch?v=UXM9d_SYPKQ
 HOW TO STRIKE WITH MAXIMUM POWER - Training with Michael J White - YouTube
 https://www.youtube.com/watch?v=P6by6LBfo6g
 
-Aab - Google Drive
-https://drive.google.com/drive/u/0/folders/1A87uy5EnuCovo2xInruefXuUGM8hH15s
-
-Download history
-chrome://downloads/
-
-Mia "Ani-Mia" McLaughlin | I'm so proud of my little abs I've been working on. 🩷💙 A preview of another themed month of my 2025 calendar. Don't miss your chance to… | Instagram
-https://www.instagram.com/p/C_TJ3soPDfa/
-
-Bilabial consonant - Wikipedia
-https://en.wikipedia.org/wiki/Bilabial_consonant#:~:text=The%20extensions%20to%20the%20IPA,would%20be%20%5B%CA%AC%E2%86%93%5D.
-
 montreal forced aligner align phonemes - Google Search
 https://www.google.com/search?q=montreal+forced+aligner+align+phonemes&rlz=1C5GCEM_enSE990SE991&oq=montreal+forced+aligner+align+phonemes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMDU3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
@@ -3112,35 +3061,8 @@ https://github.com/k2-fsa/k2?tab=readme-ov-file
 libriheavy/scripts/extract_and_normalize_transcript.py at master · k2-fsa/libriheavy
 https://github.com/k2-fsa/libriheavy/blob/master/scripts/extract_and_normalize_transcript.py
 
-YouTube
-https://www.youtube.com/
-
-6 Martial Artists Try to Survive a Bar Fight - YouTube
-https://www.youtube.com/watch?v=T0UAhR_P-n4
-
-Deee-Lite's Lady Miss Kier - Interview (1995) - YouTube
-https://www.youtube.com/watch?v=P4GaEqZqrXc
-
-Deee-Lite - Wikipedia
-https://en.wikipedia.org/wiki/Deee-Lite
-
-Lady Miss Kier - Wikipedia
-https://en.wikipedia.org/wiki/Lady_Miss_Kier
-
-Lady Miss Kier
-https://www.ladykier.com/
-
-Ladymisskier Kirby (@theladymisskier) • Instagram photos and videos
-https://www.instagram.com/theladymisskier
-
-gradio wavesurfer - Google Search
-https://www.google.com/search?q=gradio+wavesurfer&rlz=1C5GCEM_enSE990SE991&oq=gradio+wavesurfer&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM4OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 Proposal: enhancements and redesign of `Audio` · Issue #5321 · gradio-app/gradio
 https://github.com/gradio-app/gradio/issues/5321
-
-gradio audio - Google Search
-https://www.google.com/search?q=gradio+audio&rlz=1C5GCEM_enSE990SE991&oq=gradio+audio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGDzSAQgyMjMzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
 Real Time Speech Recognition
 https://www.gradio.app/guides/real-time-speech-recognition
@@ -3159,20 +3081,5 @@ https://github.com/WGBH-MLA/AAPB2/blob/master/app/models/transcript_file.rb
 
 transcript-editor/scripts at master · WGBH-MLA/transcript-editor
 https://github.com/WGBH-MLA/transcript-editor/tree/master/scripts
-
-YouTube
-https://www.youtube.com/
-
-Michael Keaton's Bizarre Fan Encounter | Beetlejuice Beetlejuice | The Graham Norton Show - YouTube
-https://www.youtube.com/watch?v=1tEVIQP_n28
-
-KARATE vs BOXING Sparring Match | Sensei Seth VS - YouTube
-https://www.youtube.com/watch?v=I4vGZTbCLeA
-
-Susanna Hoffs - Feel Like Makin' Love (Live Video Cover) - YouTube
-https://www.youtube.com/watch?v=_rOEf9vF1kc
-
-Instagram
-https://www.instagram.com/
 
 
