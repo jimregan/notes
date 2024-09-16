@@ -68,3 +68,10 @@ categories: [links]
 
 [MrNeRF/awesome-3D-gaussian-splatting](https://github.com/MrNeRF/awesome-3D-gaussian-splatting)
 
+[Zielon/ParallelQSlim](https://github.com/Zielon/ParallelQSlim) --- Shape Aware Parallel Mesh Simplification Algorithm
+
+[ingra14m/Deformable-3D-Gaussians](https://github.com/ingra14m/Deformable-3D-Gaussians) --- [CVPR 2024] Official implementation of "Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction"
+
+[threestudio-project/threestudio](https://github.com/threestudio-project/threestudio) --- A unified framework for 3D content generation.
+
+
