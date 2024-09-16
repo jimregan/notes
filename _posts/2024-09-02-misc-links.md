@@ -74,4 +74,8 @@ categories: [links]
 
 [threestudio-project/threestudio](https://github.com/threestudio-project/threestudio) --- A unified framework for 3D content generation.
 
+[openai/point-e](https://github.com/openai/point-e) --- Point cloud diffusion for 3D model synthesis
+
+[openai/shap-e](https://github.com/openai/shap-e) --- Generate 3D objects conditioned on text or images
+
 
