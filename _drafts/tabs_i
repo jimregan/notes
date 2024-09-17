@@ -1,4 +1,4 @@
-fairseq/examples/wav2vec/wav2vec_featurize.py at main · facebookresearch/fairseq
+github.com
 https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/wav2vec_featurize.py
 
 tabs.html
@@ -88,7 +88,7 @@ https://arxiv.org/pdf/2312.02902
 The Feynman Lectures on Physics Vol. I Ch. 43: Diffusion
 https://www.feynmanlectures.caltech.edu/I_43.html
 
-Indexing on ndarrays — NumPy v2.0 Manual
+numpy.org
 https://numpy.org/doc/stable/user/basics.indexing.html
 
 Broadcasting — NumPy v2.0 Manual
@@ -202,10 +202,10 @@ https://www.youtube.com/watch?v=66Idka8IkZk
 Part1_Introduction.ipynb - Colab
 https://colab.research.google.com/github/google/learned_optimization/blob/main/docs/notebooks/Part1_Introduction.ipynb#scrollTo=6dab76c7
 
-Working with pytrees — JAX documentation
+jax.readthedocs.io
 https://jax.readthedocs.io/en/latest/working-with-pytrees.html
 
-How to Think in JAX — JAX documentation
+jax.readthedocs.io
 https://jax.readthedocs.io/en/latest/notebooks/thinking_in_jax.html
 
 W2. Matrix Multiplication - AI by Hand ✍️ with Mohsena - YouTube
@@ -235,7 +235,7 @@ https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
 EleutherAI/pythia-6.9b · Hugging Face
 https://huggingface.co/EleutherAI/pythia-6.9b
 
-mistralai/mistral-finetune
+github.com
 https://github.com/mistralai/mistral-finetune
 
 liuhaotian/llava-v1.6-mistral-7b · Hugging Face
@@ -247,49 +247,46 @@ https://github.com/phonlab-tcd/text-normalization/blob/main/python_version/norma
 Pull requests · huggingface/transformers
 https://github.com/huggingface/transformers/pulls?page=2&q=is%3Apr+is%3Aopen
 
-[Pixtral] Improve docs, rename model by NielsRogge · Pull Request #33491 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/33491
-
-Add T5 GGUF loading support by junejae · Pull Request #33389 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/33389
-
-llama.cpp/gguf-py/gguf/tensor_mapping.py at 4db04784f96757d74f74c8c110c2a00d55e33514 · ggerganov/llama.cpp
-https://github.com/ggerganov/llama.cpp/blob/4db04784f96757d74f74c8c110c2a00d55e33514/gguf-py/gguf/tensor_mapping.py#L568
-
 ggerganov/llama.cpp: LLM inference in C/C++
 https://github.com/ggerganov/llama.cpp/tree/master?tab=readme-ov-file
 
 ggerganov/ggml: Tensor library for machine learning
 https://github.com/ggerganov/ggml?tab=readme-ov-file
 
+github.com
+https://github.com/saharNooby/rwkv.cpp
+
+github.com
+https://github.com/monatis/clip.cpp
+
+github.com
+https://github.com/NouamaneTazi/bloomz.cpp
+
+github.com
+https://github.com/skeskinen/bert.cpp
+
 seamless_communication/ggml/examples/unity/unity.cpp at main · facebookresearch/seamless_communication
 https://github.com/facebookresearch/seamless_communication/blob/main/ggml/examples/unity/unity.cpp
 
-facebookresearch/seamless_communication: Foundational Models for State-of-the-Art Speech and Text Translation
-https://github.com/facebookresearch/seamless_communication/tree/main?tab=readme-ov-file
-
-seamless_communication/ggml/examples/common.cpp at main · facebookresearch/seamless_communication
-https://github.com/facebookresearch/seamless_communication/blob/main/ggml/examples/common.cpp
-
-v2_seamless_m4t_hugging_face.ipynb - Colab
-https://colab.research.google.com/github/ylacombe/scripts_and_notebooks/blob/main/v2_seamless_m4t_hugging_face.ipynb#scrollTo=JL1pWdIlV3dG
+seamless_communication/docs/m4t/unity2_aligner_README.md at main · facebookresearch/seamless_communication
+https://github.com/facebookresearch/seamless_communication/blob/main/docs/m4t/unity2_aligner_README.md
 
 seamless_communication/docs/expressive/README.md at main · facebookresearch/seamless_communication
 https://github.com/facebookresearch/seamless_communication/blob/main/docs/expressive/README.md
 
+stopes/stopes/pipelines/bitext/shard_and_shuffle.py at main · facebookresearch/stopes
+https://github.com/facebookresearch/stopes/blob/main/stopes/pipelines/bitext/shard_and_shuffle.py
+
 Supported Models — vLLM
 https://docs.vllm.ai/en/latest/models/supported_models.html
 
-transformers/src/transformers at ac946aac257cadfa8264fa4a284cd0ea1061c5b5 · huggingface/transformers
+github.com
 https://github.com/huggingface/transformers/tree/ac946aac257cadfa8264fa4a284cd0ea1061c5b5/src/transformers
 
-transformers/src/transformers/modeling_tf_outputs.py at ac946aac257cadfa8264fa4a284cd0ea1061c5b5 · huggingface/transformers
-https://github.com/huggingface/transformers/blob/ac946aac257cadfa8264fa4a284cd0ea1061c5b5/src/transformers/modeling_tf_outputs.py
-
-[`WIP`] Add Mamba2 by vasqu · Pull Request #32027 · huggingface/transformers
+github.com
 https://github.com/huggingface/transformers/pull/32027/files#diff-32b64a02a5bb6d6799c93252f7b8f8f6a82d3688d6e0c9b206eb1c20a2a73f56
 
-Add Mamba2 · Issue #31204 · huggingface/transformers
+github.com
 https://github.com/huggingface/transformers/issues/31204
 
 Codestral Mamba | Mistral AI | Frontier AI in your hands
@@ -3118,37 +3115,58 @@ https://github.com/vllm-project/vllm/issues/6017
 transformers/src/transformers/models/seamless_m4t_v2/modeling_seamless_m4t_v2.py at e65502951593a76844e872fee9c56b805598538a · huggingface/transformers
 https://github.com/huggingface/transformers/blob/e65502951593a76844e872fee9c56b805598538a/src/transformers/models/seamless_m4t_v2/modeling_seamless_m4t_v2.py#L4319
 
-seamless_communication/src/seamless_communication/models/conformer_shaw/builder.py at main · facebookresearch/seamless_communication
+github.com
 https://github.com/facebookresearch/seamless_communication/blob/main/ggml/examples/common-ggml.cpp
 
-SeamlessM4T-v2
-https://huggingface.co/docs/transformers/en/model_doc/seamless_m4t_v2
-
-transformers/docs/source/en/model_doc/seamless_m4t_v2.md at main · huggingface/transformers
+github.com
 https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/seamless_m4t_v2.md
 
-fstalign/docs/Usage.md at develop · revdotcom/fstalign
+github.com
 https://github.com/revdotcom/fstalign/blob/develop/docs/Usage.md
 
 fstalign/docs/NLP-Format.md at develop · revdotcom/fstalign
 https://github.com/revdotcom/fstalign/blob/develop/docs//NLP-Format.md#wer-tag-sidecar
 
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
-
-Conv2d — PyTorch 2.4 documentation
-https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html
-
-Conv2d — PyTorch 2.4 documentation
-https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html
-
-Error
+github.com
 https://github.com/ydqmkkx/Respiro-en/blob/main/demo.ipynb
 
-Instagram
+instagram.com
 https://www.instagram.com/
 
-Instagram
-https://www.instagram.com/
+fairseq-hydra-train - Google Search
+https://www.google.com/search?q=fairseq-hydra-train&rlz=1C5GCEM_enSE990SE991&oq=fairseq-hydra-train&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzE2NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+facebookresearch/fairseq: Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
+https://github.com/facebookresearch/fairseq?tab=readme-ov-file
+
+fairseq/examples/mms/README.md at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/blob/main/examples/mms/README.md
+
+fairseq/examples/audio_nlp/nlu at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/tree/main/examples/audio_nlp/nlu
+
+fairseq/docs/hydra_integration.md at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/blob/main/docs/hydra_integration.md
+
+Evgeniia Tokarchuk | Extending Fairseq: Incomplete Guide
+https://evgeniia.tokarch.uk/blog/extending-fairseq-incomplete-guide/
+
+YouTube
+https://www.youtube.com/
+
+An Corpán sa Trunc, Cathal Ó Sándair - YouTube
+https://www.youtube.com/watch?v=ryC47ZjCgu4
+
+YouTube
+https://www.youtube.com/
+
+YouTube
+https://www.youtube.com/
+
+I Tried Chinese Weapon Forms - YouTube
+https://www.youtube.com/watch?v=QmKz-wgwI0w
+
+Returning Israelis to northern areas a new 'war goal'
+https://www.rte.ie/news/middle-east/2024/0917/1470395-middle-east/
 
 
