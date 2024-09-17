@@ -78,4 +78,7 @@ categories: [links]
 
 [openai/shap-e](https://github.com/openai/shap-e) --- Generate 3D objects conditioned on text or images
 
+[Ig Nobel prize winners](https://improbable.com/ig/winners/#ig2024)
+including:
+[Factors Involved in the Ejection of Milk](https://www.sciencedirect.com/science/article/pii/S0022030241954061)
 
