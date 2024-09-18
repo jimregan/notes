@@ -3253,11 +3253,23 @@ https://labelstud.io/guide/quick_start
 Zero to One: Getting Started with Label Studio | Label Studio
 https://labelstud.io/blog/zero-to-one-getting-started-with-label-studio/
 
+s3.amazonaws.com/labelstud.io/datasets/IMDB_collect.py
+https://s3.amazonaws.com/labelstud.io/datasets/IMDB_collect.py
+
 Label Studio Documentation — Import Data into Label Studio
 https://labelstud.io/guide/tasks#Basic-Label-Studio-JSON-format
 
+Label Studio Documentation — Machine Learning Example Tutorials
+https://labelstud.io/guide/ml_tutorials
+
+Label Studio Documentation — Interactive substring matching for NER tasks
+https://labelstud.io/tutorials/interactive_substring_matching
+
+label-studio-ml-backend/label_studio_ml/examples/interactive_substring_matching/model.py at master · HumanSignal/label-studio-ml-backend
+https://github.com/HumanSignal/label-studio-ml-backend/blob/master/label_studio_ml/examples/interactive_substring_matching/model.py
+
 Label Studio
-http://localhost:8080/projects/1/data/import
+http://localhost:8080/projects/1/data
 
 Label Studio Documentation — Import pre-annotated data into Label Studio
 https://labelstud.io/guide/predictions.html
@@ -3406,29 +3418,14 @@ https://github.com/nefeliandreou/PoseRepresentation/blob/master/src/common/skele
 PoseRepresentation/src/eval.py at master · nefeliandreou/PoseRepresentation
 https://github.com/nefeliandreou/PoseRepresentation/blob/master/src/eval.py
 
-pyquaternion/demo/demo2.py at master · KieranWynn/pyquaternion
-https://github.com/KieranWynn/pyquaternion/blob/master/demo/demo2.py
-
-pyquaternion
-https://kieranwynn.github.io/pyquaternion/
-
-kornia/kornia: Geometric Computer Vision Library for Spatial AI
-https://github.com/kornia/kornia
-
-human_motion_manifold/result2bvh.py at master · DK-Jang/human_motion_manifold
-https://github.com/DK-Jang/human_motion_manifold/blob/master/result2bvh.py
+human_motion_manifold/skeleton.py at master · DK-Jang/human_motion_manifold
+https://github.com/DK-Jang/human_motion_manifold/blob/master/skeleton.py
 
 facebookresearch/QuaterNet: Proposes neural networks that can generate animation of virtual characters for different actions.
 https://github.com/facebookresearch/QuaterNet
 
 Having issues with fk operator and converting the results back for saving · Issue #6 · UPC-ViRVIG/pymotion
 https://github.com/UPC-ViRVIG/pymotion/issues/6
-
-SparsePoser Real-time Full-body Motion Reconstruction from Sparse Data
-https://upc-virvig.github.io/SparsePoser/
-
-On the Continuity of Rotation Representations in Neural Networks | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/8953486
 
 Pose Representations for Deep Skeletal Animation - Andreou - 2022 - Computer Graphics Forum - Wiley Online Library
 https://onlinelibrary.wiley.com/doi/10.1111/cgf.14632
@@ -3445,13 +3442,49 @@ https://www.youtube.com/watch?v=iVGeVgeMxhA
 A Beginners Guide to Dual-Quaternions
 https://cs.gmu.edu/~jmlien/teaching/cs451/uploads/Main/dual-quaternion.pdf
 
-Stories • Instagram
-https://www.instagram.com/stories/ladbible/3459134424315616217/
+Label Studio Documentation — Import pre-annotated data into Label Studio
+https://labelstud.io/guide/predictions
 
-Pear-flavoured gin that's 44% ABV makes the perfect cocktail for the summer
-https://www.ladbible.com/lifestyle/food-and-drink/what-to-buy-fathers-day-2024-booze-312818-20240526
+Label Studio Documentation — Import pre-annotated data into Label Studio
+https://labelstud.io/guide/predictions
 
-EuroMillions winner who had to rely on food banks after not being paid prize shares first thing he bought with money
-https://www.ladbible.com/news/uk-news/euromillions-pete-daly-food-banks-money-616027-20240917
+uuid.uuid4() - Google Search
+https://www.google.com/search?q=uuid.uuid4()&rlz=1C5GCEM_enSE990SE991&oq=uuid.uuid4&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMzNDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+torch.save — PyTorch 2.4 documentation
+https://pytorch.org/docs/stable/generated/torch.save.html
+
+python - What is the way data is stored in *.npy? - Stack Overflow
+https://stackoverflow.com/questions/4090080/what-is-the-way-data-is-stored-in-npy
+
+Instagram
+https://www.instagram.com/
+
+Expand MFA lexicon | notes
+https://jimregan.github.io/notes/mfa/lexicon/hsi/2024/08/27/expand-lexicon.html
+
+Tags | notes
+https://jimregan.github.io/notes/categories/#praat
+
+WhisperX JSON segments to textgrid | notes
+https://jimregan.github.io/notes/praat/textgrid/whisperx/json/hsi/2024/08/12/whisperx-json-segments-to_textgrid.html
+
+Get object timings | notes
+https://jimregan.github.io/notes/hsi/2024/09/05/get-object-timings.html
+
+YouTube
+https://www.youtube.com/
+
+Jerry Cantrell: Creating the Iconic Sound of Alice In Chains - YouTube
+https://www.youtube.com/watch?v=vBlfo0GVqqE
+
+Dafne Keen's Reaction To Finding Out Hugh Jackman Was Returning To Wolverine After 'Logan' - YouTube
+https://www.youtube.com/shorts/sqeY45ASKRc
+
+MIKE PORTNOY’S HARDEST SOLO - YouTube
+https://www.youtube.com/shorts/zKuC0KDETnA
+
+I Trained 24 Hours in a UFC Fight Camp - YouTube
+https://www.youtube.com/watch?v=I5j8WD-fkNU
 
 
