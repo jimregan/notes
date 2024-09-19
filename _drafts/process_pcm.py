@@ -5,7 +5,6 @@ Converts a directory of .pcm files (for NST Swedish TTS data) into wav
 """
 from pathlib import Path
 import argparse
-import struct
 import wave
 import sys
 try:
