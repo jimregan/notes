@@ -82,3 +82,5 @@ categories: [links]
 including:
 [Factors Involved in the Ejection of Milk](https://www.sciencedirect.com/science/article/pii/S0022030241954061)
 
+[On the Continuity of Rotation Representations in Neural Networks](https://ieeexplore.ieee.org/document/8953486)
+
