@@ -84,3 +84,11 @@ including:
 
 [On the Continuity of Rotation Representations in Neural Networks](https://ieeexplore.ieee.org/document/8953486)
 
+[Moshi: a speech-text foundation model for real time dialogue](https://kyutai.org/Moshi.pdf),
+[code](https://github.com/kyutai-labs/moshi),
+[models](https://huggingface.co/collections/kyutai/moshi-v01-release-66eaeaf3302bef6bd9ad7acd)
+
+[AudioSR: Versatile Audio Super-resolution at Scale](https://arxiv.org/abs/2309.07314),
+[code](https://github.com/haoheliu/versatile_audio_super_resolution)
+
+
