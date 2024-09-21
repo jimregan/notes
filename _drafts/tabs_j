@@ -1,118 +1,106 @@
-Label Studio
-http://localhost:8080/projects/6/data?tab=5&task=305
+localhost:8080/projects/1
+http://localhost:8080/projects/1/data?tab=1
 
-Can't connect to freshly installed LS server · Issue #3636 · HumanSignal/label-studio
-https://github.com/HumanSignal/label-studio/issues/3636
+Getting started — API Reference | Label Studio
+https://api.labelstud.io/api-reference/introduction/getting-started
 
-Label Studio Documentation — Cloud and External Storage Integration
-https://labelstud.io/guide/storage.html#Local-storage
+Getting started — API Reference | Label Studio
+https://api.labelstud.io/api-reference/introduction/getting-started#add-model-predictions
 
-(27) Post | LinkedIn
-https://www.linkedin.com/posts/julienchaumond_we-got-a-fully-open-source-end-to-end-conversational-ugcPost-7242509547142008832-Gpy2/?utm_source=share&utm_medium=member_ios
+kyutai-labs/moshi
+https://github.com/kyutai-labs/moshi?tab=readme-ov-file
 
-moshi/moshi/moshi/client.py at main · kyutai-labs/moshi
-https://github.com/kyutai-labs/moshi/blob/main/moshi/moshi/client.py
-
-facebookresearch/audiocraft: Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.
-https://github.com/facebookresearch/audiocraft
-
-kyutai/moshiko-pytorch-bf16 · Hugging Face
-https://huggingface.co/kyutai/moshiko-pytorch-bf16
-
-AudioSR: Versatile Audio Super-resolution at Scale
-https://audioldm.github.io/audiosr/
-
-haoheliu/versatile_audio_super_resolution: Versatile audio super resolution (any -> 48kHz) with AudioSR.
-https://github.com/haoheliu/versatile_audio_super_resolution
-
-Label Studio Documentation — Import pre-annotated data into Label Studio
-https://labelstud.io/guide/predictions
-
-Label Studio Enterprise Documentation — Import Data into Label Studio
-https://docs.humansignal.com/guide/tasks
-
-Label Studio Enterprise Documentation — Import Data into Label Studio
-https://docs.humansignal.com/guide/tasks#Basic-Label-Studio-JSON-format
-
-raw.githubusercontent.com/HumanSignal/label-studio/master/scripts/serve_local_files.sh
-https://raw.githubusercontent.com/HumanSignal/label-studio/master/scripts/serve_local_files.sh
-
-python - Exception happened during processing of request from - Stack Overflow
-https://stackoverflow.com/questions/46805092/exception-happened-during-processing-of-request-from
-
-Directory listing for /
-http://localhost:8081/
-
-New Tab
-chrome://newtab/
-
-Can't connect to freshly installed LS server · Issue #3636 · HumanSignal/label-studio
-https://github.com/HumanSignal/label-studio/issues/3636
-
-Python Error 104, connection reset by peer - Stack Overflow
-https://stackoverflow.com/questions/41832838/python-error-104-connection-reset-by-peer?rq=3
-
-Python HTTP(S) Server — Example · AnvilEight Blog
-https://anvileight.com/blog/posts/simple-python-http-server/#google_vignette
-
-Configuring and Using the Twisted Web Server — Twisted 15.0.0 documentation
-https://twisted.org/documents/15.0.0/web/howto/using-twistedweb.html
-
-Label Studio Documentation — Cloud and External Storage Integration
-https://labelstud.io/guide/storage.html#Troubleshoot-CORS-and-access-problems
-
-New Tab
-chrome://newtab/
-
-Launch Label Studio in a Docker Container | Label Studio
-https://labelstud.io/integrations/infrastructure/docker/
-
-heartexlabs/label-studio - Docker Image | Docker Hub
-https://hub.docker.com/r/heartexlabs/label-studio
-
-How to fix permission denied error when connecting to Docker? | Better Stack Community
-https://betterstack.com/community/questions/how-to-fix-permission-denied-error-when-connecting-to-docker/
-
-feat: LSDV-5496: Add Ruff linter (#4660) · HumanSignal/label-studio@0caeaf0
-https://github.com/HumanSignal/label-studio/commit/0caeaf01f4b0413332bd0bdcb8db9a4550ae80a8#diff-e0684bf477cfa7a4194f33a298f703291ab27c296fe27b2e7cf1b6f724e5117b
-
-label studio docke runable to open database file - Google Search
-https://www.google.com/search?q=label+studio+docke+runable+to+open+database+file&rlz=1C5GCEM_enSE990SE991&oq=label+studio+docke+runable+to+open+database+file+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIRgK0gEINTY1MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Label Studio Documentation — Database Storage Setup
-https://labelstud.io/guide/storedata
-
-Label Studio Documentation — Troubleshoot Label Studio installation issues
-https://labelstud.io/guide/install_troubleshoot
+Moshi.pdf
+https://kyutai.org/Moshi.pdf
 
 Label Studio
-http://130.237.3.107:8080/projects/1/data?tab=1&task=11
-
-Label Studio — Textarea Tag for Text areas
-https://labelstud.io/tags/textarea
-
-label studio audio - Google Search
-https://www.google.com/search?q=label+studio+audio&rlz=1C5GCEM_enSE990SE991&oq=label+studio+audio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTIKCAQQABiABBiiBNIBCDI3MzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-label-studio/label_studio/labels_manager at 95d040e71efbc92fb114c946981d56d089c62fb3 · HumanSignal/label-studio
-https://github.com/HumanSignal/label-studio/tree/95d040e71efbc92fb114c946981d56d089c62fb3/label_studio/labels_manager
-
-label-studio-ml-backend/label_studio_ml/examples/tesseract/requirements-base.txt at master · HumanSignal/label-studio-ml-backend
-https://github.com/HumanSignal/label-studio-ml-backend/blob/master/label_studio_ml/examples/tesseract/requirements-base.txt
-
-label-studio/label_studio/tasks/validation.py at 95d040e71efbc92fb114c946981d56d089c62fb3 · HumanSignal/label-studio
-https://github.com/HumanSignal/label-studio/blob/95d040e71efbc92fb114c946981d56d089c62fb3/label_studio/tasks/validation.py#L124
-
-open source transcription interface -"engine" - Google Search
-https://www.google.com/search?q=open+source+transcription+interface+-%22engine%22&sca_esv=301b91059aa118e3&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIISVMH0LqIhAMTUS5oxAvyBZJ1oiw%3A1726782715591&ei=-5zsZvniI_bKwPAPyov34AE&ved=0ahUKEwi5zPfy_s-IAxV2JRAIHcrFHRwQ4dUDCA8&uact=5&oq=open+source+transcription+interface+-%22engine%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiLW9wZW4gc291cmNlIHRyYW5zY3JpcHRpb24gaW50ZXJmYWNlIC0iZW5naW5lIkiuGFBfWNoVcAF4AZABAJgB1QGgAZYFqgEFOS4wLjG4AQPIAQD4AQGYAgOgArcCwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAgQQIxgnwgIIEAAYgAQYogTCAgUQIRigAZgDAIgGAZAGCZIHBTIuMC4xoAeSDQ&sclient=gws-wiz-serp
+http://130.237.3.107:8080/projects/4/data?tab=4&task=23
 
 Hyperaudio
-https://github.com/hyperaudio
+https://github.com/hyperaudio?tab=readme-ov-file
+
+Label Studio API
+https://labelstud.io/api
+
+Label Studio Documentation — Label Studio Task Format
+https://labelstud.io/guide/task_format
+
+How to POST JSON data with Python Requests? - Stack Overflow
+https://stackoverflow.com/questions/9733638/how-to-post-json-data-with-python-requests
+
+Get task list — API Reference | Label Studio
+https://api.labelstud.io/api-reference/api-reference/tasks/list
+
+label-studio-sdk/src/label_studio_sdk/core/http_client.py at master · HumanSignal/label-studio-sdk
+https://github.com/HumanSignal/label-studio-sdk/blob/master/src/label_studio_sdk/core/http_client.py
+
+rest - How do I POST JSON data with cURL? - Stack Overflow
+https://stackoverflow.com/questions/7172784/how-do-i-post-json-data-with-curl
+
+PATCH method - Python requests - GeeksforGeeks
+https://www.geeksforgeeks.org/patch-method-python-requests/
+
+MM-conv dataset analysis - Google Docs
+https://docs.google.com/document/d/1PJGdc8GqXt2lkMCyXwWzPSn6W83NYqkwT6QqHlqKyE4/edit
+
+descriptinc/descript-audio-codec: State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio.
+https://github.com/descriptinc/descript-audio-codec
+
+timmahrt/praatIO: A python library for working with praat, textgrids, time aligned audio transcripts, and audio files. It is primarily used for extracting features from and making manipulations on audio files given hierarchical time-aligned transcriptions (utterance > word > syllable > phone, etc).
+https://github.com/timmahrt/praatIO
+
+Jim O'Regan | OpenReview
+https://openreview.net/profile?id=~Jim_O%27Regan1
+
+NoDaLiDa/Baltic-HLT 2025 - Important dates
+https://www.nodalida-bhlt2025.eu/important-dates
+
+kavachi - Google Search
+https://www.google.com/search?q=kavachi&rlz=1C5GCEM_enSE990SE991&oq=kavachi&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyDQgDEC4YrwEYxwEYgAQyCQgEEAAYChiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIJCAgQABgKGIAEMgkICRAuGAoYgATSAQgxODUzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
 SneakyCamera - moto g(7) power - WiFi File Transfer
 http://192.168.0.101:1234/storage/emulated/0/Pictures/SneakyCamera/
 
 Download history
 chrome://downloads/
+
+Stories • Instagram
+https://www.instagram.com/stories/geeksaresexy/3461508117532390824/
+
+@arianna.sarocchi_ • Instagram photos and videos
+https://www.instagram.com/arianna.sarocchi_
+
+Screenshot_20240920-164835 | Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/54009752404/in/photostream/
+
+Proof You Can’t “Run Away” from Fights - YouTube
+https://www.youtube.com/watch?v=64pkxVZG2A8
+
+YouTube
+https://www.youtube.com/
+
+How to use Ancient Karate Kata for the low kick（with various language subtitles） - YouTube
+https://www.youtube.com/watch?v=yDP4owLW-Lw
+
+Thrash Metal - Tales From a Scene - YouTube
+https://www.youtube.com/watch?v=WOgtD8wSJHo
+
+Metal Monday 🤘🏼 Steel Panther - Death To All But Metal - YouTube
+https://www.youtube.com/shorts/8IAdXQVfaHI
+
+You know you gonna die here right #yellowstone #tvseries #tvshow - YouTube
+https://www.youtube.com/shorts/YEAvIrHu4LU
+
+Ranton Reacts to the Ultimate Self Defense Championship Season 2 With Creator Rokas! - YouTube
+https://www.youtube.com/watch?v=CHh3kaR24IM
+
+@pizniurka • Instagram photos and videos
+https://www.instagram.com/pizniurka
+
+(9+) @pizniurka • 🎀 • Threads
+https://www.threads.net/@pizniurka/post/DAGsX1Lsbyf
+
+Screenshot_20240920-164814 | Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/54009649928/in/photostream/
 
 
