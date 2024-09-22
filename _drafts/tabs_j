@@ -1,5 +1,5 @@
-localhost:8080/projects/1
-http://localhost:8080/projects/1/data?tab=1
+Label Studio
+http://localhost:8080/projects/6/data?tab=5
 
 Getting started — API Reference | Label Studio
 https://api.labelstud.io/api-reference/introduction/getting-started
@@ -14,7 +14,10 @@ Moshi.pdf
 https://kyutai.org/Moshi.pdf
 
 Label Studio
-http://130.237.3.107:8080/projects/4/data?tab=4&task=23
+http://130.237.3.107:8080/projects/3/data?tab=3&task=21
+
+Label Studio
+http://130.237.3.107:8080/projects/6/data?tab=6&task=93
 
 Hyperaudio
 https://github.com/hyperaudio?tab=readme-ov-file
@@ -43,6 +46,9 @@ https://www.geeksforgeeks.org/patch-method-python-requests/
 MM-conv dataset analysis - Google Docs
 https://docs.google.com/document/d/1PJGdc8GqXt2lkMCyXwWzPSn6W83NYqkwT6QqHlqKyE4/edit
 
+TAFFC2457417.pdf
+https://sail.usc.edu/publications/files/eyben-preprinttaffc-2015.pdf
+
 descriptinc/descript-audio-codec: State-of-the-art audio codec with 90x compression factor. Supports 44.1kHz, 24kHz, and 16kHz mono/stereo audio.
 https://github.com/descriptinc/descript-audio-codec
 
@@ -51,18 +57,6 @@ https://github.com/timmahrt/praatIO
 
 Jim O'Regan | OpenReview
 https://openreview.net/profile?id=~Jim_O%27Regan1
-
-NoDaLiDa/Baltic-HLT 2025 - Important dates
-https://www.nodalida-bhlt2025.eu/important-dates
-
-kavachi - Google Search
-https://www.google.com/search?q=kavachi&rlz=1C5GCEM_enSE990SE991&oq=kavachi&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyDQgDEC4YrwEYxwEYgAQyCQgEEAAYChiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIJCAgQABgKGIAEMgkICRAuGAoYgATSAQgxODUzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-SneakyCamera - moto g(7) power - WiFi File Transfer
-http://192.168.0.101:1234/storage/emulated/0/Pictures/SneakyCamera/
-
-Download history
-chrome://downloads/
 
 How to use Ancient Karate Kata for the low kick（with various language subtitles） - YouTube
 https://www.youtube.com/watch?v=yDP4owLW-Lw
@@ -73,19 +67,76 @@ https://www.youtube.com/watch?v=WOgtD8wSJHo
 YouTube
 https://www.youtube.com/
 
-Nuno Bettencourt Full Guitar Clinic 1991 (Improved Audio) - YouTube
-https://www.youtube.com/watch?v=XSwoxbRu2aY
+kaistmm/Audio-Mamba-AuM: Official Implementation of the work "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning"
+https://github.com/kaistmm/Audio-Mamba-AuM
 
-Proof not all weather presenters are the same - YouTube
-https://www.youtube.com/shorts/RJkl2qF27So
+Re: [phonlab-tcd/fotheidil] Update front end to match data structure from Recognition API (Issue #28) - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
+https://mail.google.com/mail/u/3/#search/github+is%3Aunread/FMfcgzQVzNzwMtZVCXPjNwNrDtnqRcXs
 
-Jayce and the Wheeled Warriors - YouTube
-https://www.youtube.com/watch?v=aMUlqsMhxsY
+Phonetics & Speech Lab, TCD
+https://github.com/phonlab-tcd
 
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
+phonlab-tcd/fotheidil-transcribe
+https://github.com/phonlab-tcd/fotheidil-transcribe?tab=readme-ov-file
 
-Keeley Donovan (@keeley.donovan) • Instagram photos and videos
-https://www.instagram.com/keeley.donovan/?hl=en
+pykaldi/clif: Wrapper generator foundation to wrap C++ for Python and other languages using LLVM.
+https://github.com/pykaldi/clif
+
+WendleC's access for phonlab-tcd
+https://github.com/orgs/phonlab-tcd/people/WendleC
+
+phonlab-tcd/cula4-cruinniu-na-nog-2021
+https://github.com/phonlab-tcd/cula4-cruinniu-na-nog-2021
+
+phonlab-tcd/caint-ros-muc-im2-scans
+https://github.com/phonlab-tcd/caint-ros-muc-im2-scans/
+
+sgeilini_na_finne/html at main · phonlab-tcd/sgeilini_na_finne
+https://github.com/phonlab-tcd/sgeilini_na_finne/tree/main/html
+
+Label Studio Documentation — Integrate Label Studio into your machine learning pipeline
+https://labelstud.io/guide/ml.html?utm_campaign=Lifecycle%20-%20OSS%20Onboarding&utm_medium=email&_hsenc=p2ANqtz-8Fc5bBgw-FLdxLYqO8b-7cfo3_D1OlAZ5qmA55A-WOd0s62joHhR6u5oXwPUqKfztFsfcsKD7bti76DfRa2BPehP7tLg&_hsmi=319392227&utm_content=319392227&utm_source=hs_automation#Model-training
+
+cjhutto/vaderSentiment: VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains.
+https://github.com/cjhutto/vaderSentiment
+
+Rust in English - Swedish-English lexicon and dictionary - Synonyms.se
+https://www.synonymer.se/sv-en/rost
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=I%20det%20h%C3%A4r%20experimentet%2C%20trodde%20du%20att%20n%C3%A5gon%20del%20av%20roboten%20kontrollerades%20av%20en%20person%3F%20Om%20ja%2C%20vilka%20delar%20trodde%20du%20kontrollerades%20av%20en%20person%3F&op=translate
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Ja%2C%20rosten%20och%20rorelserna%E2%80%99&op=translate
+
+Models - Hugging Face
+https://huggingface.co/models?other=speech-emotion-recognition
+
+500 – Hugging Face
+https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes
+
+dkounadis/wav2small · Hugging Face
+https://huggingface.co/dkounadis/wav2small
+
+3loi/SER-Odyssey-Baseline-WavLM-Valence · Hugging Face
+https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Valence
+
+CAiRE/SER-wav2vec2-large-xlsr-53-eng-zho-adults · Hugging Face
+https://huggingface.co/CAiRE/SER-wav2vec2-large-xlsr-53-eng-zho-adults
+
+thegenerativegeneration/emotion2vec_base_finetuned · Hugging Face
+https://huggingface.co/thegenerativegeneration/emotion2vec_base_finetuned
+
+FarhadMadadzade/wav2vec2-large-xlsr-53-english-ser-cosine · Hugging Face
+https://huggingface.co/FarhadMadadzade/wav2vec2-large-xlsr-53-english-ser-cosine
+
+m3hrdadfi/ser · Hugging Face
+https://huggingface.co/m3hrdadfi/ser
+
+project-3-at-2024-09-21-14-41-1f679e4a.json
+https://gist.github.com/jimregan/81127cb50a799d3226cf66860346aa75
+
+6 Martial Arts Experts Locked with a Knife Attacker - YouTube
+https://www.youtube.com/watch?v=ipf1mROm6rg
 
 
