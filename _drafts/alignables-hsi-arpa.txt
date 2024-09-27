@@ -596,6 +596,8 @@ alignable { input: "ea" output: "IY0" } # really
 alignable { input: "i" output: "AE1" } # I'll, reduced
 alignable { input: "i" output: "AA1" } # I'll, reduced
 alignable { input: "her" output: "ER0" } # her, reduced
+alignable { input: "'s" output: "IH0 Z" } # coach's
+alignable { input: "c" output: "CH" } # Luciano 
 
 alignable { input: "-" output: "" }
 alignable { input: "'" output: "" }
