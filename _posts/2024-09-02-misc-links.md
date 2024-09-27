@@ -91,4 +91,12 @@ including:
 [AudioSR: Versatile Audio Super-resolution at Scale](https://arxiv.org/abs/2309.07314),
 [code](https://github.com/haoheliu/versatile_audio_super_resolution)
 
+[A Beginners Guide to Dual-Quaternions](https://cs.gmu.edu/~jmlien/teaching/cs451/uploads/Main/dual-quaternion.pdf)
+
+[RWKV/rwkv.cpp](https://github.com/RWKV/rwkv.cpp) --- INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model
+
+[monatis/clip.cpp](https://github.com/monatis/clip.cpp) --- CLIP inference in plain C/C++ with no extra dependencies
+
+[skeskinen/bert.cpp](https://github.com/skeskinen/bert.cpp) --- ggml implementation of BERT
+
 
