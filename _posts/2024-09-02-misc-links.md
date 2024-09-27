@@ -99,4 +99,8 @@ including:
 
 [skeskinen/bert.cpp](https://github.com/skeskinen/bert.cpp) --- ggml implementation of BERT
 
+[hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) --- Democratizing Efficient Video Production for All
+
+[Phonetic potential in the extant apes and extinct hominins](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1886743&dswid=-1557)
+
 
