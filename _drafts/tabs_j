@@ -283,7 +283,7 @@ https://ia801702.us.archive.org/32/items/empireofbusiness_2010_librivox/empireof
 File:The empire of business (IA empireofbusiness00carn).pdf - Wikimedia Commons
 https://commons.wikimedia.org/wiki/File:The_empire_of_business_(IA_empireofbusiness00carn).pdf
 
-Inbox • Direct
+(1) Inbox • Direct
 https://www.instagram.com/direct/t/107520840645715/
 
 shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
@@ -604,15 +604,6 @@ https://www.google.com/search?q=piper+gosia.zip&rlz=1C5GCEM_enSE990SE991&oq=pipe
 MODEL_CARD · csukuangfj/vits-piper-pl_PL-gosia-medium at main
 https://huggingface.co/csukuangfj/vits-piper-pl_PL-gosia-medium/blob/main/MODEL_CARD
 
-Piper: Custom Voices? : r/homeassistant
-https://www.reddit.com/r/homeassistant/comments/1df3t1v/piper_custom_voices/
-
-voice-datasets/pt_PT/tugão at master · NabuCasa/voice-datasets
-https://github.com/NabuCasa/voice-datasets/tree/master/pt_PT/tug%C3%A3o
-
-Nabu Casa, Inc.
-https://github.com/nabucasa
-
 openslr.org
 https://www.openslr.org/resources.php
 
@@ -655,10 +646,85 @@ https://www.openslr.org/98/
 torchaudio.datasets — Torchaudio 2.4.0 documentation
 https://pytorch.org/audio/stable/datasets.html
 
-audio/src/torchaudio/datasets/utils.py at main · pytorch/audio
-https://github.com/pytorch/audio/blob/main/src/torchaudio/datasets/utils.py
+torch.hub — PyTorch 2.4 documentation
+https://pytorch.org/docs/stable/hub.html
 
-jimregan/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
-https://github.com/jimregan/Matcha-TTS/tree/main
+Matcha-TTS/matcha/utils/rich_utils.py at main · jimregan/Matcha-TTS
+https://github.com/jimregan/Matcha-TTS/blob/main/matcha/utils/rich_utils.py
+
+Code search results
+https://github.com/search?q=repo%3Ashivammehta25%2FMatcha-TTS%20tempfile&type=code
+
+hf-hub-lightning/examples/hf_hub_lightning_demo.ipynb at main · nateraw/hf-hub-lightning
+https://github.com/nateraw/hf-hub-lightning/blob/main/examples/hf_hub_lightning_demo.ipynb
+
+Python - writing and reading from a temporary file - Stack Overflow
+https://stackoverflow.com/questions/39983886/python-writing-and-reading-from-a-temporary-file
+
+torch.hub — PyTorch 2.4 documentation
+https://pytorch.org/docs/stable/hub.html
+
+tempfile — Generate temporary files and directories — Python 3.12.7 documentation
+https://docs.python.org/3/library/tempfile.html#tempfile-examples
+
+Working with ".webm" files · Issue #1723 · pytorch/audio
+https://github.com/pytorch/audio/issues/1723
+
+python - Error in librosa.load('path.webm') RuntimeError: File contains data in an unknown format - Stack Overflow
+https://stackoverflow.com/questions/73029952/error-in-librosa-loadpath-webm-runtimeerror-file-contains-data-in-an-unknow
+
+use soundfile instead of librosa to write files · DigitalUmuganda/Kinyarwanda-asr at 9506ac8
+https://huggingface.co/spaces/DigitalUmuganda/Kinyarwanda-asr/commit/9506ac86e505db168de422c3a3119671f2b6cbae
+
+torchaudio.save — Torchaudio 2.4.0 documentation
+https://pytorch.org/audio/stable/generated/torchaudio.save.html
+
+torchaudio.load — Torchaudio 2.5.0.dev20241001 documentation
+https://pytorch.org/audio/main/generated/torchaudio.load.html
+
+sox_utils — Torchaudio 2.5.0.dev20241001 documentation
+https://pytorch.org/audio/main/generated/torchaudio.utils.sox_utils.html#torchaudio.utils.sox_utils.list_read_formats
+
+ffmpeg_utils — Torchaudio 2.5.0.dev20241001 documentation
+https://pytorch.org/audio/main/generated/torchaudio.utils.ffmpeg_utils.html#torchaudio.utils.ffmpeg_utils.get_audio_decoders
+
+linux - How to install sox for PyTorch audio? - Super User
+https://superuser.com/questions/1819222/how-to-install-sox-for-pytorch-audio
+
+torchaudio.utils.sox_utils.list_read_formats() "webm" - Google Search
+https://www.google.com/search?sca_esv=f2ad83ee939cc1c8&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIIxwo0MlZXvlfQFsn4SagAVpKYUoQ:1727809001219&q=torchaudio.utils.sox_utils.list_read_formats()+%22webm%22&sa=X&ved=2ahUKEwiWooeO7u2IAxWCGhAIHZXwM2QQ5t4CegQIHRAB&biw=1440&bih=734&dpr=2
+
+sox_utils — Torchaudio 2.5.0.dev20241001 documentation
+https://pytorch.org/audio/main/generated/torchaudio.utils.sox_utils.html
+
+sox webm - Google Search
+https://www.google.com/search?q=sox+webm&rlz=1C5GCEM_enSE990SE991&oq=sox+webm&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBdIBCDE2MTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Working with ".webm" files · Issue #1723 · pytorch/audio
+https://github.com/pytorch/audio/issues/1723
+
+Audio Resampling — Torchaudio 2.4.0 documentation
+https://pytorch.org/audio/stable/tutorials/audio_resampling_tutorial.html
+
+python 3.x - torchaudio load audio with specific sampling rate - Stack Overflow
+https://stackoverflow.com/questions/71108331/torchaudio-load-audio-with-specific-sampling-rate
+
+Calmcode - rich: Trees
+https://calmcode.io/course/rich/trees
+
+rich/examples/tree.py at master · Textualize/rich
+https://github.com/textualize/rich/blob/master/examples/tree.py
+
+From Tqdm to Rich: My Quest for Better Progress Bars | by Tariq | The Pythoneers | Medium
+https://medium.com/pythoneers/from-tqdm-to-rich-my-quest-for-better-progress-bars-afff39985ffc
+
+Support for Rich? · tqdm/tqdm · Discussion #1375
+https://github.com/tqdm/tqdm/discussions/1375
+
+Progress Display — Rich 13.6.0 documentation
+https://rich.readthedocs.io/en/stable/progress.html
+
+tarfile — Read and write tar archive files — Python 3.12.7 documentation
+https://docs.python.org/3/library/tarfile.html
 
 
