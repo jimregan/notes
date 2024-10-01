@@ -14,16 +14,16 @@ Moshi.pdf
 https://kyutai.org/Moshi.pdf
 
 Label Studio
-http://130.237.3.107:8080/projects/5/data?tab=5&task=83
+http://130.237.3.107:8080/projects/5/data?tab=5&task=78
 
 Label Studio
-http://130.237.3.107:8080/projects/8/data?tab=8&task=107
+http://130.237.3.107:8080/projects/8/data?tab=8&task=117
 
 Label Studio
-http://130.237.3.107:8080/projects/8/data?tab=8
+http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
 Label Studio
-http://130.237.3.107:8080/projects?page=1
+http://130.237.3.107:8080/projects/4/data?tab=4
 
 Label Studio API
 https://labelstud.io/api
@@ -202,18 +202,6 @@ https://www.google.com/search?q=fine+tune+t5+multiple+new+tasks&rlz=1C5GCEM_enSE
 A Full Guide to Finetuning T5 for Text2Text and Building a Demo with Streamlit | by Fabio Chiusano | NLPlanet | Medium
 https://medium.com/nlplanet/a-full-guide-to-finetuning-t5-for-text2text-and-building-a-demo-with-streamlit-c72009631887
 
-YouTube
-https://www.youtube.com/
-
-Sparring Tips and Drills That You Must Know | ft. ‪@cswfullerton‬ - YouTube
-https://www.youtube.com/watch?v=Tjh0ofqBVXg
-
-From the World of John Wick: Ballerina (2025) Official Trailer - Ana de Armas - YouTube
-https://www.youtube.com/watch?v=0FSwsrFpkbw
-
-Van Halen - Poundcake (Live at the West End Marketplace, Dallas, TX, 12/4/1991) [Official Video] - YouTube
-https://www.youtube.com/watch?v=AMGUAZM-qb8
-
 Project Runeberg
 https://runeberg.org/
 
@@ -301,11 +289,11 @@ https://www.instagram.com/direct/t/107520840645715/
 shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
 https://github.com/shivammehta25/Matcha-TTS
 
-Matcha-TTS/configs/data/hi-fi_en-US_female.yaml at main · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/blob/main/configs/data/hi-fi_en-US_female.yaml
+Matcha-TTS/matcha/train.py at main · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/train.py
 
 ECCV2024 Muma WS - Google Slides
-https://docs.google.com/presentation/d/1zykj5S5FjJ8WvOvm4sO3TQ2NPfETdpjitHo5aXntbAs/edit#slide=id.g306788cee1a_0_113
+https://docs.google.com/presentation/d/1zykj5S5FjJ8WvOvm4sO3TQ2NPfETdpjitHo5aXntbAs/edit#slide=id.g306788cee1a_0_79
 
 I Got BLOWN AWAY by BajiQuan - YouTube
 https://www.youtube.com/watch?v=1eDDyXoUi_s
@@ -316,22 +304,307 @@ https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html
 New Tab
 chrome://newtab/
 
-ARKit 6 - Augmented Reality - Apple Developer
-https://developer.apple.com/augmented-reality/arkit/
+jimregan/hu-tron at main
+https://huggingface.co/jimregan/hu-tron/tree/main
 
-2024 Workshops
-https://eccv.ecva.net/Conferences/2024/Workshops
+KTH/hungarian-single-speaker-tts · Datasets at Hugging Face
+https://huggingface.co/datasets/KTH/hungarian-single-speaker-tts
 
-ECCV 2024 Workshop on Multimodal Agents
-https://multimodalagents.github.io/
+text/cleaners.py · legekka/diana-hungarian-tts-vits at main
+https://huggingface.co/legekka/diana-hungarian-tts-vits/blob/main/text/cleaners.py
 
-YouTube
-https://www.youtube.com/
+Downloading datasets
+https://huggingface.co/docs/hub/en/datasets-downloading
 
-Philip Anselmo on Songs Pantera Never Played Live - YouTube
-https://www.youtube.com/watch?v=4HATj2RhxP0
+do - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/do#Irish
 
-Steve Vai's Eddie Van Halen Thoughts #eddievanhalen #vanhalen #stevevai - YouTube
-https://www.youtube.com/shorts/lfauTK3DIFs
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/dashboard
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
+
+new zealand coffin club - Google Search
+https://www.google.com/search?q=new+zealand+coffin+club&rlz=1C5GCEM_enSE990SE991&oq=new+zealand+coffin&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgkIABBFGDkYgAQyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMgoIBhAAGIAEGKIEMgoIBxAAGIAEGKIEMgoICBAAGIAEGKIEMgoICRAAGIAEGKIE0gEJMTA0MTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/
+
+showlab/Show-o: Repository for Show-o, One Single Transformer to Unify Multimodal Understanding and Generation.
+https://github.com/showlab/Show-o?tab=readme-ov-file
+
+showlab/show-o · Hugging Face
+https://huggingface.co/showlab/show-o
+
+showlab/show-o-w-clip-vit · Hugging Face
+https://huggingface.co/showlab/show-o-w-clip-vit
+
+Mixins & serialization methods
+https://huggingface.co/docs/huggingface_hub/package_reference/mixins#huggingface_hub.PyTorchModelHubMixin
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=grymt!%20Jag%20%C3%A4r%20p%C3%A5%20tj%C3%A4nsteresa%20denna%20och%20n%C3%A4sta%20vecka%2C%20men%20s%C3%A5%20fort%20jag%20vet%20att%20den%20kan%20h%C3%A4mtas%20upp%20kan%20jag%20best%C3%A4lla%20en%20transport%20fr%C3%A5n%20KBs%20h%C3%A5ll.%0A%0AD%C3%A5%20har%20vi%20enbart%20detta%20med%20medel%20kvar.%20Ska%20n%C3%A5gon%20ekonomiperson%20hos%20oss%20kontakta%20en%20ekonomiperson%20hos%20er%3F%20Jag%20tror%20att%20det%20enda%20vi%20beh%C3%B6ver%20%C3%A4r%20en%20siffra%3F&op=translate
+
+Instagram
+https://www.instagram.com/
+
+the Democratic Party of Wisconsin — Donate via ActBlue
+https://secure.actblue.com/donate/veep24
+
+veep live reunion and table read - Google Search
+https://www.google.com/search?q=veep+live+reunion+and+table+read&sca_esv=2ca2b7159f1ded92&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWILbimZyafEUfRjnBV-AF6jNr4a-RA%3A1727689890782&ei=onT6ZqWrL7XDwPAPu6W-0Qk&ved=0ahUKEwilhOOxsuqIAxW1IRAIHbuSL5oQ4dUDCA8&uact=5&oq=veep+live+reunion+and+table+read&gs_lp=Egxnd3Mtd2l6LXNlcnAiIHZlZXAgbGl2ZSByZXVuaW9uIGFuZCB0YWJsZSByZWFkMgUQIRigATIFECEYoAEyBRAhGKABSK01UIMFWOAucAN4AZABAJgBa6ABwhKqAQQzMS4xuAEDyAEA-AEBmAIjoAKjE8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKECMYgAQYJxiKBcICBBAjGCfCAgsQABiABBiRAhiKBcICCxAuGIAEGNEDGMcBwgIFEAAYgATCAgoQABiABBhDGIoFwgIREC4YgAQYkQIY0QMYxwEYigXCAgUQLhiABMICChAuGIAEGEMYigXCAgcQABiABBgKwgIGEAAYFhgewgIKEAAYFhgKGB4YD8ICCBAAGIAEGKIEwgIFECEYnwXCAgcQIRigARgKwgIEECEYFZgDAIgGAZAGCpIHBDM0LjGgB9K4AQ&sclient=gws-wiz-serp
+
+Veep Cast Reunites for Glitch-Plagued Democratic Fundraiser
+https://www.thewrap.com/veep-live-table-read-reunion-julia-louis-dreyfuss-kumail-nanjiani/
+
+'Veep' Reunion Courts 'Seinfeld's' Larry David, Jason Alexander
+https://www.hollywoodreporter.com/tv/tv-news/veep-reunion-seinfeld-larry-david-election-2024-1236014265/
+
+Live Chat for the Reunion/Table Read!! : r/Veep
+https://www.reddit.com/r/Veep/comments/1fsi6cn/live_chat_for_the_reuniontable_read/
+
+the Democratic Party of Wisconsin — Donate via ActBlue
+https://secure.actblue.com/donate/veep24?refcode=digital-socialmedia-twitter
+
+xinjli/allosaurus: Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
+https://github.com/xinjli/allosaurus
+
+add interspeech2021 compositional_phonetics model by xinjli · Pull Request #46 · xinjli/allosaurus
+https://github.com/xinjli/allosaurus/pull/46/files
+
+Conda install causes ModuleNotFoundError: No module named '_swigfaiss' · Issue #708 · facebookresearch/faiss
+https://github.com/facebookresearch/faiss/issues/708
+
+conda export environment - Google Search
+https://www.google.com/search?q=conda+export+environment&rlz=1C5GCEM_enSE990SE991&oq=conda+export&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDE4MDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+scikit learn - ModuleNotFoundError: No module named 'numpy.random.bit_generator' - Stack Overflow
+https://stackoverflow.com/questions/71640929/modulenotfounderror-no-module-named-numpy-random-bit-generator
+
+panphon/panphon/segment.py at master · dmort27/panphon
+https://github.com/dmort27/panphon/blob/master/panphon/segment.py
+
+panphon · PyPI
+https://pypi.org/project/panphon/#history
+
+Install a specific version of a Python package using PIP | Sentry
+https://sentry.io/answers/install-a-specific-version-of-a-python-package-using-pip/
+
+Instagram
+https://www.instagram.com/
+
+ARPABET - Wikipedia
+https://en.wikipedia.org/wiki/ARPABET
+
+ABAIR
+https://abair.ie/ga/people
+
+sibeal - Google Search
+https://www.google.com/search?q=sibeal&rlz=1C5GCEM_enSE990SE991&oq=sibeal&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEC4YgAQyBwgDEAAYgAQyBwgEEC4YgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyCQgJEAAYChiABNIBCDE1NTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+perl -pi.bak - Google Search
+https://www.google.com/search?q=perl+-pi.bak&rlz=1C5GCEM_enSE990SE991&oq=perl+-pi.bak&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMxNDBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Perl
+https://www.reddit.com/r/perl/
+
+# where we turn Perl inside out: (dxiv) 14 great CPAN modules released last week
+https://niceperl.blogspot.com/2024/09/dxiv-14-great-cpan-modules-released.html
+
+SPVM - The SPVM Language - metacpan.org
+https://metacpan.org/release/KIMOTO/SPVM-0.990010/view/lib/SPVM.pm
+
+SPVM::Document::NativeClass - Native Classes - metacpan.org
+https://metacpan.org/release/KIMOTO/SPVM-0.990010/view/lib/SPVM/Document/NativeClass.pm
+
+Tutorial · yuki-kimoto/SPVM Wiki
+https://github.com/yuki-kimoto/SPVM/wiki/Tutorial
+
+Flavio Glock On Perl, Java, Compilers And Virtual Machines
+https://www.i-programmer.info/professional-programmer/103-i-programmer/17491-flavio-glock-on-perl-java-compilers-and-virtual-machines.html#google_vignette
+
+Oldest running perl code : r/perl
+https://www.reddit.com/r/perl/comments/1fksidq/oldest_running_perl_code/
+
+kaldiasr/kaldi - Docker Image | Docker Hub
+https://hub.docker.com/r/kaldiasr/kaldi
+
+kaldi decode phones - Google Search
+https://www.google.com/search?q=kaldi+decode+phones&rlz=1C5GCEM_enSE990SE991&oq=kaldi+decode+phones&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCDk0MzBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+cmusphinx/pocketsphinx: A small speech recognizer
+https://github.com/cmusphinx/pocketsphinx
+
+Long Audio Alignment Overview – CMUSphinx Open Source Speech Recognition
+https://cmusphinx.github.io/wiki/longaudioalignment/
+
+ReadAlongs/SoundSwallower: An even smaller speech recognizer / force aligner
+https://github.com/ReadAlongs/SoundSwallower?tab=readme-ov-file
+
+g2p/g2p/mappings/langs/crm at main · roedoejet/g2p
+https://github.com/roedoejet/g2p/tree/main/g2p/mappings/langs/crm
+
+dhdaines/playa: PLAYA is a LAYout Analyzer 🏖️
+https://github.com/dhdaines/playa
+
+cmusphinx/pocketsphinx: A small speech recognizer
+https://github.com/cmusphinx/pocketsphinx
+
+soundswallower package — SoundSwallower 0.3 documentation
+https://soundswallower.readthedocs.io/en/latest/soundswallower.html
+
+ReadAlongs/Studio: Audiobook alignment for Indigenous languages
+https://github.com/ReadAlongs/Studio
+
+The Web App - ReadAlong-Studio
+https://readalongs.github.io/Studio/latest/web-app/
+
+ReadAlong-Studio for Interactive Storytelling
+https://readalong-studio.mothertongues.org/#/editor
+
+ReadAlong-Studio for Interactive Storytelling
+https://readalong-studio.mothertongues.org/#/
+
+drmfinlay/pyjsgf: JSpeech Grammar Format (JSGF) compiler, matcher and parser package for Python.
+https://github.com/drmfinlay/pyjsgf/tree/master
+
+pyctcdecode/pyctcdecode/decoder.py at main · kensho-technologies/pyctcdecode
+https://github.com/kensho-technologies/pyctcdecode/blob/main/pyctcdecode/decoder.py
+
+whisper turbo - Google Search
+https://www.google.com/search?q=whisper+turbo&rlz=1C5GCEM_enSE990SE991&oq=whisper+turbo&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDI3MzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+owsm huggingface - Google Search
+https://www.google.com/search?q=owsm+huggingface&rlz=1C5GCEM_enSE990SE991&oq=owsm+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQRRg80gEIMzY4NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+espnet/owsm_v3 · Hugging Face
+https://huggingface.co/espnet/owsm_v3
+
+espnet (ESPnet)
+https://huggingface.co/espnet
+
+espnet/jesus_dramas · Datasets at Hugging Face
+https://huggingface.co/datasets/espnet/jesus_dramas
+
+WAVLab | XEUS - Towards Robust Speech Representation Learning for Thousands of Languages
+https://www.wavlab.org/activities/2024/xeus/
+
+espnet (ESPnet)
+https://huggingface.co/espnet
+
+espnet/speechlm_tts_ls_giga_mlsen_amuse_speech_delay · Hugging Face
+https://huggingface.co/espnet/speechlm_tts_ls_giga_mlsen_amuse_speech_delay
+
+espnet/owsm_v3.1_ebf · Hugging Face
+https://huggingface.co/espnet/owsm_v3.1_ebf
+
+WAVLab | Open Whisper-style Speech Models (OWSM)
+https://www.wavlab.org/activities/2024/owsm/
+
+pyf98/owsm_ctc_v3.1_1B · Hugging Face
+https://huggingface.co/pyf98/owsm_ctc_v3.1_1B
+
+cdn-lfs-us-1.hf.co/repos/b5/2e/b52e705d124d88d2372fc369dd1ea41196024ce5901541af6376a94973d029bf/5478f1a0454b62146ffc9370a2bb45c2473bfba087c5ebcc8ddb7819aafb6b1f?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27meta.yaml%3B+filename%3D"meta.yaml"%3B&response-content-type=text%2Fyaml&Expires=1728042128&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODA0MjEyOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2I1LzJlL2I1MmU3MDVkMTI0ZDg4ZDIzNzJmYzM2OWRkMWVhNDExOTYwMjRjZTU5MDE1NDFhZjYzNzZhOTQ5NzNkMDI5YmYvNTQ3OGYxYTA0NTRiNjIxNDZmZmM5MzcwYTJiYjQ1YzI0NzNiZmJhMDg3YzVlYmNjOGRkYjc4MTlhYWZiNmIxZj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=kR0Xl9RdFzZzi0NrItjxwvG3PaSnrfl2WzWStpx9-NnV4Uks5ugsbZ-e2zXeHCiVu4AnVp5AuUZscl-6hzOU1~GmBOc5JuoSVWRd-ZCWGVQTGZmpTuG5iHqRXQhsGsyiqnRF1KtTMLpBcgYmraEy73Xvd0lJEdbpG3mmYIA0dlvosFBmVbVFr9jZV2w6W8Lpg1PYciKS~eNOPUwYZ-OMHru8UAriMm9jqzNA6y9Oz-puUSf-QtbLiGWb8TP7zJYFocvrGF~ANVTmk65TV3Zx9-8iFMpmMlfWBOtPkxAgozJcOauZFMIbucHgEB7LeBPSRIZT1vsSh~CXU0Hyf1I61g__&Key-Pair-Id=K24J24Z295AEI9
+https://cdn-lfs-us-1.hf.co/repos/b5/2e/b52e705d124d88d2372fc369dd1ea41196024ce5901541af6376a94973d029bf/5478f1a0454b62146ffc9370a2bb45c2473bfba087c5ebcc8ddb7819aafb6b1f?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27meta.yaml%3B+filename%3D%22meta.yaml%22%3B&response-content-type=text%2Fyaml&Expires=1728042128&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODA0MjEyOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zL2I1LzJlL2I1MmU3MDVkMTI0ZDg4ZDIzNzJmYzM2OWRkMWVhNDExOTYwMjRjZTU5MDE1NDFhZjYzNzZhOTQ5NzNkMDI5YmYvNTQ3OGYxYTA0NTRiNjIxNDZmZmM5MzcwYTJiYjQ1YzI0NzNiZmJhMDg3YzVlYmNjOGRkYjc4MTlhYWZiNmIxZj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=kR0Xl9RdFzZzi0NrItjxwvG3PaSnrfl2WzWStpx9-NnV4Uks5ugsbZ-e2zXeHCiVu4AnVp5AuUZscl-6hzOU1%7EGmBOc5JuoSVWRd-ZCWGVQTGZmpTuG5iHqRXQhsGsyiqnRF1KtTMLpBcgYmraEy73Xvd0lJEdbpG3mmYIA0dlvosFBmVbVFr9jZV2w6W8Lpg1PYciKS%7EeNOPUwYZ-OMHru8UAriMm9jqzNA6y9Oz-puUSf-QtbLiGWb8TP7zJYFocvrGF%7EANVTmk65TV3Zx9-8iFMpmMlfWBOtPkxAgozJcOauZFMIbucHgEB7LeBPSRIZT1vsSh%7ECXU0Hyf1I61g__&Key-Pair-Id=K24J24Z295AEI9
+
+Pull requests · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pulls
+
+speechbrain/recipes/LJSpeech/ljspeech_prepare.py at develop · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/blob/develop/recipes/LJSpeech/ljspeech_prepare.py
+
+benchmarks/benchmarks/MOABB at main · speechbrain/benchmarks
+https://github.com/speechbrain/benchmarks/tree/main/benchmarks/MOABB
+
+Tokotron: Tokenized TTS by flexthink · Pull Request #2696 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2696/files
+
+WIP streaming ASR guide/tutorial by asumagic · Pull Request #2700 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2700
+
+Voice analysis functions by pplantinga · Pull Request #2689 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2689
+
+✨ Add SNAC by julien-blanchon · Pull Request #2568 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2568
+
+Add recipe for audio/speech LLM (ltu-as with llama3) by BenoitWang · Pull Request #2550 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2550
+
+Chaanks/speechbrain: A PyTorch-based Speech Toolkit
+https://github.com/Chaanks/speechbrain?tab=readme-ov-file
+
+speechbrain.k2_integration.lattice_decoder module — SpeechBrain 0.5.0 documentation
+https://speechbrain.readthedocs.io/en/latest/API/speechbrain.k2_integration.lattice_decoder.html
+
+1612.02695
+https://arxiv.org/pdf/1612.02695
+
+k2.ipynb - Colab
+https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing
+
+voice-activity-detection.ipynb - Colab
+https://colab.research.google.com/github/speechbrain/speechbrain/blob/develop/docs/tutorials/tasks/voice-activity-detection.ipynb#scrollTo=SSOeT58mQM1m
+
+showlab/Show-o: Repository for Show-o, One Single Transformer to Unify Multimodal Understanding and Generation.
+https://github.com/showlab/Show-o?tab=readme-ov-file
+
+speechbrain/vad-crdnn-libriparty · Hugging Face
+https://huggingface.co/speechbrain/vad-crdnn-libriparty
+
+Hidden traces of humanity: what AI images reveal about our world | Art | The Guardian
+https://www.theguardian.com/news/2024/oct/01/hidden-traces-of-humanity-what-ai-images-reveal-about-our-world?utm_source=instagramstories&utm_campaign=aiimages
+
+speechbrain "rescoring" - Google Search
+https://www.google.com/search?q=speechbrain+%22rescoring%22&sca_esv=2f8623b159e229b7&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKPa2ype23aJAb4qclSLgrVEVzmgA%3A1727787381464&ei=dfH7ZorzG5PWwPAPlN3h8QY&ved=0ahUKEwjKgfrIne2IAxUTKxAIHZRuOG4Q4dUDCA8&uact=5&oq=speechbrain+%22rescoring%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3NwZWVjaGJyYWluICJyZXNjb3JpbmciMgUQIRigAUiAFVCCDFiPEnABeAGQAQCYAVigAaIBqgEBMrgBA8gBAPgBAZgCA6ACrAHCAgoQABiwAxjWBBhHwgIEECMYJ8ICCBAAGIAEGKIEmAMAiAYBkAYIkgcBM6AH2gQ&sclient=gws-wiz-serp
+
+Releases · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/releases
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=japp%20jo%2C%20h%C3%B6r%20av%20sig%20(eller%20jag%2C%20men%20min%20gissning%20%C3%A4r%20jim)%0A%0Amedel%3A%20ni%20f%C3%A5r%20siffran%20av%20mig%20idag.%20it-st%C3%B6d%20fungerar%20f%C3%B6r%20tillf%C3%A4llet%20j%C3%A4ttebra%20p%C3%A5%20kth%20j%C3%A4mf%C3%B6rt%20med%20ekonomi-st%C3%B6d%2C%20och%20du%20kan%20gussa%20vad%20det%20betyder.%0A%0Akommer%20det%20jag%20vet%20under%20eftermiddagen%20eller%20i%20v%C3%A4rsta%20fall%20imorgon%2C%20jag%20%C3%A4r%20ute%20mesta%20delen%20av%20dagen%20idag.%20och%20%C3%A4r%20det%20n%C3%A5got%20jag%20beh%C3%B6ver%20fr%C3%A5n%20ekonomi-st%C3%B6d%20(%C3%A4r%20inte%20klar%20p%C3%A5%20vilka%20siffror%20jag%20har)%20s%C3%A5%20ber%C3%A4ttar%20jag%20iaf%20det.&op=translate
+
+huggingface/parler-tts: Inference and training library for high-quality TTS models.
+https://github.com/huggingface/parler-tts?tab=readme-ov-file#training
+
+scripts_and_notebooks/Finetuning_Parler_TTS_v1_on_a_single_speaker_dataset.ipynb at main · ylacombe/scripts_and_notebooks
+https://github.com/ylacombe/scripts_and_notebooks/blob/main/Finetuning_Parler_TTS_v1_on_a_single_speaker_dataset.ipynb
+
+@reach-vb on Hugging Face: "What an eventful day in Open Source LLMs today: Mistral released Codestral…"
+https://huggingface.co/posts/reach-vb/328638870427201
+
+mistralai/Mamba-Codestral-7B-v0.1 · Hugging Face
+https://huggingface.co/mistralai/Mamba-Codestral-7B-v0.1
+
+HuggingFaceTB/SmolLM-135M · Hugging Face
+https://huggingface.co/HuggingFaceTB/SmolLM-135M
+
+huggingface/dataspeech
+https://github.com/huggingface/dataspeech?tab=readme-ov-file#how-do-i-use-datasets-that-i-have-with-this-repository
+
+ylacombe/jenny-tts-tags-v1 · Datasets at Hugging Face
+https://huggingface.co/datasets/ylacombe/jenny-tts-tags-v1?row=3
+
+Kyubyong/g2p: g2p: English Grapheme To Phoneme Conversion
+https://github.com/Kyubyong/g2p
+
+Long live Zuck, Open source is the future : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1fpcgph/long_live_zuck_open_source_is_the_future/?seed=t3_15fpcrj
+
+Are there any truly "open source" LLMs? Both the licensed model, and the source dataset. : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1fg4v57/are_there_any_truly_open_source_llms_both_the/
+
+Ai2 OLMo - Open Language Model
+https://allenai.org/olmo
+
+Qwen2.5 - a Qwen Collection
+https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e
+
+Qwen/Qwen2.5-32B-Instruct · Hugging Face
+https://huggingface.co/Qwen/Qwen2.5-32B-Instruct
+
+LLM360/K2 · Hugging Face
+https://huggingface.co/LLM360/K2
 
 
