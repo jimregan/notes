@@ -676,10 +676,70 @@ https://pytorch.org/audio/main/generated/torchaudio.utils.sox_utils.html
 PEP 263 – Defining Python Source Code Encodings | peps.python.org
 https://peps.python.org/pep-0263/
 
-Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/99/files
+the motivation for inserting blank IDs between the input IPA-ids? · Issue #94 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/94
 
-Emma Watson explained 'tragic' thing all boys said to her after she became famous
-https://www.ladbible.com/entertainment/celebrity/emma-watson-tragic-chat-up-lines-harry-potter-fame-823809-20241001
+Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/pull/99
+
+AttributeError: module 'gradio' has no attribute 'Box' · Issue #6815 · gradio-app/gradio
+https://github.com/gradio-app/gradio/issues/6815
+
+Compare to VoiceFlow TTS · Issue #66 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/66
+
+Matcha-TTS app error: symbol_id = _symbol_to_id[symbol] KeyError: '(' · Issue #89 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/89
+
+Is there any experiment on Chinese data set. · Issue #91 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/91
+
+save changes · UlutSoftLLC/MamtilTTS@9c7460b
+https://github.com/UlutSoftLLC/MamtilTTS/commit/9c7460b8d98995e3c6544c68d8a512350da15700#diff-7648f5f4cce4bf01d02de43f8c5f6f2130b787baece0cf6338210496d8bdfcdc
+
+projecte-aina/matxa-tts-cat-multiaccent · Hugging Face
+https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent
+
+projecte-aina/matxa-alvocat-tts-ca at main
+https://huggingface.co/spaces/projecte-aina/matxa-alvocat-tts-ca/tree/main
+
+Commits · langtech-bsc/Matcha-TTS
+https://github.com/langtech-bsc/Matcha-TTS/commits/multilang/
+
+add config file for multilanguage experiment · langtech-bsc/Matcha-TTS@450b990
+https://github.com/langtech-bsc/Matcha-TTS/commit/450b99003619a6bde06b1f54d8a18c4a3d4537e0
+
+add config file for multilanguage experiment · langtech-bsc/Matcha-TTS@450b990
+https://github.com/langtech-bsc/Matcha-TTS/commit/450b99003619a6bde06b1f54d8a18c4a3d4537e0#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R27
+
+add inference script · langtech-bsc/Matcha-TTS@4d3558d
+https://github.com/langtech-bsc/Matcha-TTS/commit/4d3558d45bfd7e8207b6eca16dc53668e20d0b52
+
+Commits · langtech-bsc/Matcha-TTS
+https://github.com/langtech-bsc/Matcha-TTS/commits/vocos
+
+Commits · langtech-bsc/Matcha-TTS
+https://github.com/langtech-bsc/Matcha-TTS/commits/dev-cat-hf/
+
+class method functions added to initialize matcha from HF model and c… · langtech-bsc/Matcha-TTS@4885b89
+https://github.com/langtech-bsc/Matcha-TTS/commit/4885b8927a94afd692598dd868619c293b0ca0aa
+
+Language Technologies Unit - BSC
+https://github.com/langtech-bsc
+
+Update cleaners.py · langtech-bsc/Matcha-TTS@b2e6e1e
+https://github.com/langtech-bsc/Matcha-TTS/commit/b2e6e1e87e1522753fdb5994671b8d3f25a1f115#diff-6b63d39c98fd1bc31e7d1dddd182dd3e91cd9682fd577f9c97add5ceeb4336aaR109
+
+Update process_text on cli.py with catalan cleaners · langtech-bsc/Matcha-TTS@e4d15b6
+https://github.com/langtech-bsc/Matcha-TTS/commit/e4d15b681ea263462617e8c394b4bdb492ca8388
+
+projecte-aina/matxa-tts-cat-multispeaker · Hugging Face
+https://huggingface.co/projecte-aina/matxa-tts-cat-multispeaker
+
+Hi-Fi-CAPTAIN | Releases | Advanced Speech Translation Research and Development Promotion Center | ASTREC | UCRI | NICT
+https://ast-astrec.nict.go.jp/en/release/hi-fi-captain/
+
+Backporting Python 3 open(encoding="utf-8") to Python 2 - Stack Overflow
+https://stackoverflow.com/questions/10971033/backporting-python-3-openencoding-utf-8-to-python-2
 
 
