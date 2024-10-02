@@ -283,7 +283,7 @@ https://ia801702.us.archive.org/32/items/empireofbusiness_2010_librivox/empireof
 File:The empire of business (IA empireofbusiness00carn).pdf - Wikimedia Commons
 https://commons.wikimedia.org/wiki/File:The_empire_of_business_(IA_empireofbusiness00carn).pdf
 
-(1) Inbox • Direct
+Inbox • Direct
 https://www.instagram.com/direct/t/107520840645715/
 
 shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
@@ -757,9 +757,6 @@ https://www.google.com/search?q=%22Hindi_M.tar.gz%22&sca_esv=4997d9601951f80e&rl
 Downloading File /Hindi_tts_linux/hindi.tar.gz - Indian Language TTS - OSDN
 https://osdn.net/projects/sfnet_tts-indianlang/downloads/Hindi_tts_linux/hindi.tar.gz/
 
-Type hints cheat sheet - mypy 1.11.2 documentation
-https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
-
 VCTK
 https://datashare.ed.ac.uk/handle/10283/2950
 
@@ -774,9 +771,6 @@ https://datashare.ed.ac.uk/handle/10283/2791
 
 datashare.ed.ac.uk/bitstream/handle/10283/343/readme_acted_clear_speech.txt?sequence=1&isAllowed=y
 https://datashare.ed.ac.uk/bitstream/handle/10283/343/readme_acted_clear_speech.txt?sequence=1&isAllowed=y
-
-404 Not Found
-https://interspeech2012.org/accepted-abstract.html?id=661
 
 datashare.ed.ac.uk/bitstream/handle/10283/2791/license_text
 https://datashare.ed.ac.uk/bitstream/handle/10283/2791/license_text
@@ -793,40 +787,61 @@ https://github.com/shivammehta25/Matcha-TTS/pull/102
 Pull requests · shivammehta25/Matcha-TTS
 https://github.com/shivammehta25/Matcha-TTS/pulls
 
-merging stoc_dur branch, just looking by jimregan · Pull Request #102 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/102/files
+Pull requests · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/pulls
 
-Huggingface model loading (from Matxa) by jimregan · Pull Request #100 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/100
+text-normalization/txt_files/expand_Connemara.txt at main · phonlab-tcd/text-normalization
+https://github.com/phonlab-tcd/text-normalization/blob/main/txt_files/expand_Connemara.txt
 
-Adding saving phones while getting durations from matcha · shivammehta25/Matcha-TTS@294c6b1
-https://github.com/shivammehta25/Matcha-TTS/commit/294c6b1327432ecf7542d8458be8701d85fa35fe#diff-bb6bbb045eb80014a71918aa5c6a1bfc0f773a636b1022a231dcba9a24bb5ae7
-
-Raise use_a_generator for `sum()`, `max()`, `min()` by matusvalo · Pull Request #6595 · pylint-dev/pylint
-https://github.com/pylint-dev/pylint/pull/6595#issuecomment-1125704244
-
-Built-in Exceptions — Python 3.12.7 documentation
-https://docs.python.org/3/library/exceptions.html
-
-Proper way to declare custom exceptions in modern Python? - Stack Overflow
-https://stackoverflow.com/questions/1319615/proper-way-to-declare-custom-exceptions-in-modern-python
-
-Frequently Asked Questions — Pylint 2.12.2 documentation
-https://pylint.pycqa.org/en/v2.12.2/faq.html
-
-(1) Inbox • Direct
-https://www.instagram.com/direct/t/102052201197290/
+phonlab-tcd/expo-irish-synthesis
+https://github.com/phonlab-tcd/expo-irish-synthesis
 
 nateraw/hf-hub-lightning: A PyTorch Lightning Callback for pushing models to the Hugging Face Hub 🤗⚡️
 https://github.com/nateraw/hf-hub-lightning
 
-hf-hub-lightning/LICENSE at main · nateraw/hf-hub-lightning
-https://github.com/nateraw/hf-hub-lightning/blob/main/LICENSE
-
-ModelCheckpoint — PyTorch Lightning 2.4.0 documentation
-https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.callbacks.ModelCheckpoint.html
-
 python - How to reference other .yaml files of hydra conf folder? - Stack Overflow
 https://stackoverflow.com/questions/72477482/how-to-reference-other-yaml-files-of-hydra-conf-folder
+
+pytorch-lightning/src/lightning/pytorch/callbacks/model_checkpoint.py at master · Lightning-AI/pytorch-lightning
+https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/callbacks/model_checkpoint.py
+
+Pull requests · Lightning-AI/pytorch-lightning
+https://github.com/Lightning-AI/pytorch-lightning/pulls?page=2&q=is%3Apr+is%3Aopen
+
+Feat: support reusable instance of ModelCheckpoint by ScarWar · Pull Request #20202 · Lightning-AI/pytorch-lightning
+https://github.com/Lightning-AI/pytorch-lightning/pull/20202
+
+pytorch lightning checkpoint callback huggingface - Google Search
+https://www.google.com/search?q=pytorch+lightning+checkpoint+callback+huggingface&rlz=1C5GCEM_enSE990SE991&oq=pytorch+lightning+checkpoint+callback+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCTE1NjMyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+deep learning - How to upload the best models from lightning_logs checkpoint to huggingface during training after each epoch - Stack Overflow
+https://stackoverflow.com/questions/78527433/how-to-upload-the-best-models-from-lightning-logs-checkpoint-to-huggingface-duri
+
+Saving and loading checkpoints (basic) — PyTorch Lightning 2.4.0 documentation
+https://lightning.ai/docs/pytorch/stable/common/checkpointing_basic.html
+
+How to save model when using pytorch lightning and hugging face transformer - callbacks - Lightning AI
+https://lightning.ai/forums/t/how-to-save-model-when-using-pytorch-lightning-and-hugging-face-transformer/2353/2
+
+How to Train a Model with Pytorch Lightning with Huggingface - 🤗Datasets - Hugging Face Forums
+https://discuss.huggingface.co/t/how-to-train-a-model-with-pytorch-lightning-with-huggingface/80216/2
+
+ModelCheckpoint/Callback checkpointing issue with huggingface/tokenizers object · Issue #1677 · Lightning-AI/pytorch-lightning
+https://github.com/Lightning-AI/pytorch-lightning/issues/1677
+
+HuggingFace Hub Checkpoints — Lightning Transformers documentation
+https://lightning-transformers.readthedocs.io/en/latest/features/hf_save.html
+
+Lightning Transformers — Lightning Transformers documentation
+https://lightning-transformers.readthedocs.io/en/latest/
+
+Commit search results
+https://github.com/search?q=repo%3ALightning-AI%2Fpytorch-lightning+huggingface&type=commits
+
+lightning-transformers/lightning_transformers/plugins/checkpoint.py at master · Lightning-Universe/lightning-transformers
+https://github.com/Lightning-Universe/lightning-transformers/blob/master/lightning_transformers/plugins/checkpoint.py
+
+Page not found · GitHub Pages
+https://sachinruk.github.io/blog/deep-learning/2022/11/07/t5-for-grammar-correction.html
 
 
