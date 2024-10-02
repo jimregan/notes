@@ -23,7 +23,7 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
 Label Studio
-http://130.237.3.107:8080/projects/4/data?tab=4
+http://130.237.3.107:8080/projects?page=1
 
 Label Studio API
 https://labelstud.io/api
@@ -742,19 +742,55 @@ https://github.com/skirdey/voicerestore?tab=readme-ov-file
 jadechoghari/VoiceRestore at main
 https://huggingface.co/jadechoghari/VoiceRestore/tree/main
 
-Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/99
+training multi-gpu does not progress · Issue #57 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/57
 
-pre-commit ci makes bad formatting decisions, how do I disable it? - Google Search
-https://www.google.com/search?q=pre-commit+ci+makes+bad+formatting+decisions%2C+how+do+I+disable+it%3F&rlz=1C5GCEM_enSE990SE991&oq=pre-commit+ci+makes+bad+formatting+decisions%2C+how+do+I+disable+it%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEzNDg5ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
+Python | shutil.copyfile() method - GeeksforGeeks
+https://www.geeksforgeeks.org/python-shutil-copyfile-method/
 
-python multiple opens in one with - Google Search
-https://www.google.com/search?q=python+multiple+opens+in+one+with&rlz=1C5GCEM_enSE990SE991&oq=python+multiple+opens+in+one+with&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyCggDEAAYgAQYogQyCggEEAAYgAQYogTSAQg5NzQwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+python os directory joiner - Google Search
+https://www.google.com/search?q=python+os+directory+joiner&rlz=1C5GCEM_enSE990SE991&oq=python+os+directory+joiner&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCTE5MDU1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-How can I open multiple files using "with open" in Python? - Stack Overflow
-https://stackoverflow.com/questions/4617034/how-can-i-open-multiple-files-using-with-open-in-python
+"Hindi_M.tar.gz" - Google Search
+https://www.google.com/search?q=%22Hindi_M.tar.gz%22&sca_esv=4997d9601951f80e&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIK-2iNkR8PU671kKbnD5ybp1WytzA%3A1727866001251&ei=kST9Zvv8DqPEwPAPy7-PsAE&ved=0ahUKEwi7ieW5wu-IAxUjIhAIHcvfAxYQ4dUDCA8&uact=5&oq=%22Hindi_M.tar.gz%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiECJIaW5kaV9NLnRhci5neiJIwgpQvQJYhwhwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAiAYBkgcAoAcA&sclient=gws-wiz-serp
 
-Direct • Instagram
-https://www.instagram.com/direct/t/102052201197290/
+Downloading File /Hindi_tts_linux/hindi.tar.gz - Indian Language TTS - OSDN
+https://osdn.net/projects/sfnet_tts-indianlang/downloads/Hindi_tts_linux/hindi.tar.gz/
+
+Type hints cheat sheet - mypy 1.11.2 documentation
+https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
+
+VCTK
+https://datashare.ed.ac.uk/handle/10283/2950
+
+datashare.ed.ac.uk/bitstream/handle/10283/3443/README.txt?sequence=1&isAllowed=y
+https://datashare.ed.ac.uk/bitstream/handle/10283/3443/README.txt?sequence=1&isAllowed=y
+
+microsoft/MS-SNSD: The Microsoft Scalable Noisy Speech Dataset (MS-SNSD) is a noisy speech dataset that can scale to arbitrary sizes depending on the number of speakers, noise types, and Speech to Noise Ratio (SNR) levels desired.
+https://github.com/microsoft/MS-SNSD?tab=readme-ov-file
+
+Noisy speech database for training speech enhancement algorithms and TTS models
+https://datashare.ed.ac.uk/handle/10283/2791
+
+datashare.ed.ac.uk/bitstream/handle/10283/343/readme_acted_clear_speech.txt?sequence=1&isAllowed=y
+https://datashare.ed.ac.uk/bitstream/handle/10283/343/readme_acted_clear_speech.txt?sequence=1&isAllowed=y
+
+404 Not Found
+https://interspeech2012.org/accepted-abstract.html?id=661
+
+datashare.ed.ac.uk/bitstream/handle/10283/2791/license_text
+https://datashare.ed.ac.uk/bitstream/handle/10283/2791/license_text
+
+openslr.org
+https://openslr.magicdatatech.com/146/
+
+How to calculate the MD5 checksum of a file in Python? - Stack Overflow
+https://stackoverflow.com/questions/16874598/how-to-calculate-the-md5-checksum-of-a-file-in-python
+
+pre-commit.ci
+https://results.pre-commit.ci/run/github/687727674/1727872268.GxhgdoNAT_qJwTR2h8jZ4w
+
+python - "E721: do not compare types, use isinstance()" error - Stack Overflow
+https://stackoverflow.com/questions/52395064/e721-do-not-compare-types-use-isinstance-error
 
 
