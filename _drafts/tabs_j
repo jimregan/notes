@@ -121,38 +121,20 @@ https://github.com/phonlab-tcd/mfa_alignments
 phonlab-tcd/mfa_models
 https://github.com/phonlab-tcd/mfa_models
 
-phonlab-tcd/An-Scealai: An Scéalaí is an open-source online learning platform for teachers and students of the Irish language.
-https://github.com/phonlab-tcd/An-Scealai
-
-phonlab-tcd/aac_irish
-https://github.com/phonlab-tcd/aac_irish
-
-phonlab-tcd/abair.ie
-https://github.com/phonlab-tcd/abair.ie
-
-abairLTS/src/lts/lts.c at master · phonlab-tcd/abairLTS
-https://github.com/phonlab-tcd/abairLTS/blob/master/src/lts/lts.c
-
 Moshi.pdf
 https://kyutai.org/Moshi.pdf
-
-wav2vec2 vad huggingface - Google Search
-https://www.google.com/search?q=wav2vec2+vad+huggingface&rlz=1C5GCEM_enSE990SE991&oq=wav2vec2+vad+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDk4ODZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 xinjli/allosaurus: Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 https://github.com/xinjli/allosaurus
 
-allosaurus/requirements.txt at master · xinjli/allosaurus
-https://github.com/xinjli/allosaurus/blob/master/requirements.txt
-
 1.6. Nearest Neighbors — scikit-learn 1.5.2 documentation
 https://scikit-learn.org/stable/modules/neighbors.html
 
-python - Conda downgrade numpy version - Stack Overflow
-https://stackoverflow.com/questions/57609893/conda-downgrade-numpy-version
-
 ISCA Archive
 https://www.isca-archive.org/interspeech_2024/index.html
+
+kang24b_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/kang24b_interspeech.pdf
 
 StevenVdEeckt/unsupervised-ocl-for-asr: Supplementary material to the paper "Unsupervised Online Continual Learning for Automatic Speech Recognition", accepted for Interspeech 2024.
 https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr
@@ -742,17 +724,20 @@ https://github.com/skirdey/voicerestore?tab=readme-ov-file
 jadechoghari/VoiceRestore at main
 https://huggingface.co/jadechoghari/VoiceRestore/tree/main
 
-training multi-gpu does not progress · Issue #57 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/issues/57
+shivammehta25 (Shivam Mehta)
+https://github.com/shivammehta25
 
-Commits · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/commits/main/
+shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://github.com/shivammehta25/Matcha-TTS#train-with-your-own-dataset
 
-Adding configuration for training from durations · shivammehta25/Matcha-TTS@ac0b258
-https://github.com/shivammehta25/Matcha-TTS/commit/ac0b258f805d1f30d6ba758a8f631f3bdf7f9382
+shivammehta25/CVPRHumogen
+https://github.com/shivammehta25/CVPRHumogen
 
-Adding the possibility of get durations out of pretrained model · shivammehta25/Matcha-TTS@4b39f6c
-https://github.com/shivammehta25/Matcha-TTS/commit/4b39f6cad0353a0a2a38375d5eabf0ac9142bd9c#diff-6b63d39c98fd1bc31e7d1dddd182dd3e91cd9682fd577f9c97add5ceeb4336aaR17
+shivammehta25/Diff-TTSG: Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis
+https://github.com/shivammehta25/Diff-TTSG
+
+Matcha-TTS/matcha/utils/get_durations_from_trained_model.py at main · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/utils/get_durations_from_trained_model.py
 
 Indian Language TTS Japanese Information - OSDN
 https://osdn.net/projects/sfnet_tts-indianlang/
@@ -775,14 +760,8 @@ https://datashare.ed.ac.uk/bitstream/handle/10283/343/readme_acted_clear_speech.
 How to calculate the MD5 checksum of a file in Python? - Stack Overflow
 https://stackoverflow.com/questions/16874598/how-to-calculate-the-md5-checksum-of-a-file-in-python
 
-Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/99
-
-Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/99/commits/3d2d0fb0b23674b481aa52044b214995a40f0147
-
-Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pull/99/commits/52089ea67e1f3bb7939796c9f9b5bc9c22cb2c5a
+shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://github.com/shivammehta25/Matcha-TTS
 
 text-normalization/txt_files/expand_Connemara.txt at main · phonlab-tcd/text-normalization
 https://github.com/phonlab-tcd/text-normalization/blob/main/txt_files/expand_Connemara.txt
@@ -793,7 +772,19 @@ https://github.com/espeak-ng/espeak-ng/blob/master/dictsource/ga_rules
 Match-TTSG/match_ttsg/utils/audio.py at main · shivammehta25/Match-TTSG
 https://github.com/shivammehta25/Match-TTSG/blob/main/match_ttsg/utils/audio.py
 
-Python append to a file - GeeksforGeeks
-https://www.geeksforgeeks.org/python-append-to-a-file/
+An E2E-ASR-Based Iteratively-Trained Timestamp Estimator | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/9829287
+
+2306.11473
+https://arxiv.org/pdf/2306.11473
+
+Contextualization of ASR with LLM Using Phonetic Retrieval-Based Augmentation - Apple Machine Learning Research
+https://machinelearning.apple.com/research/asr-contextualization
+
+Personalization of CTC-based End-to-End Speech Recognition Using Pronunciation-Driven Subword Tokenization - Apple Machine Learning Research
+https://machinelearning.apple.com/research/ctc-based
+
+Culture Critic on X: "You haven't seen complexity in art until you've seen this 600-year-old painting. It's so detailed that modern medicine has been able to diagnose this man's exact type of blindness. And that's where things get mind-bendingly strange — this whole thing is an illusion... 🧵 https://t.co/fqFbotBTpV" / X
+https://x.com/Culture_Crit/status/1841469474416861548
 
 
