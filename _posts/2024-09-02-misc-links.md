@@ -103,4 +103,5 @@ including:
 
 [Phonetic potential in the extant apes and extinct hominins](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1886743&dswid=-1557)
 
+[hustvl/Vim](https://github.com/hustvl/Vim) --- Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
 
