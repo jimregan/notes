@@ -105,3 +105,9 @@ including:
 
 [hustvl/Vim](https://github.com/hustvl/Vim) --- Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model
 
+[High-Fidelity Audio Compression with Improved RVQGAN](https://arxiv.org/abs/2306.06546),
+[code](https://github.com/descriptinc/descript-audio-codec)
+
+[HPLT Datasets v2](https://hplt-project.org/datasets/v2.0)
+
+
