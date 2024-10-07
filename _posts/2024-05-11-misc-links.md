@@ -227,8 +227,8 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 
 [4D ASR: Joint Beam Search Integrating CTC, Attention, Transducer, and Mask Predict Decoders](https://arxiv.org/abs/2406.02950)
 
-[Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344)
-<!-- [code](https://github.com/mhamzaerol/Audio-Mamba-AuM) -->
+[Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344),
+[code](https://github.com/mhamzaerol/Audio-Mamba-AuM)
 
 [dgreenheck/tree-js](https://github.com/dgreenheck/tree-js) --- Procedural tree generator written with JavaScript and Three.js
 
@@ -274,8 +274,6 @@ Swedish Parliamentary Discourse](https://ceur-ws.org/Vol-3133/paper12.pdf)
 <!-- [code](https://github.com/Costwen/Ouroboros3D) -->
 
 [ReLU-KAN: New Kolmogorov-Arnold Networks that Only Need Matrix Addition, Dot Multiplication, and ReLU](https://arxiv.org/abs/2406.02075)
-
-[Audio Mamba: Bidirectional State Space Model for Audio Representation Learning](https://arxiv.org/abs/2406.03344)
 
 [hokema/Pop2Talk](https://github.com/hokema/Pop2Talk) --- Pop2Talk foreign language prounnciation learning game. Code for the unity client app.
 

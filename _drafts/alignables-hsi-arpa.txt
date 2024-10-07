@@ -259,7 +259,6 @@ alignable { input: "ei" output: "EH2" } # heifer
 alignable { input: "ae" output: "EH2" } # aesthetic
 alignable { input: "e" output: "IY0" } # be
 alignable { input: "ee" output: "IY0" } # bee
-alignable { input: "ea" output: "IY0" } # meat
 alignable { input: "y" output: "IY0" } # lady
 alignable { input: "ey" output: "IY0" } # key
 alignable { input: "oe" output: "IY0" } # phoenix
@@ -489,13 +488,10 @@ alignable { input: "er" output: "ER2" } # term
 alignable { input: "ur" output: "ER2" } # burn
 alignable { input: "ear" output: "ER2" } # pearl
 alignable { input: "ir" output: "ER0" } # bird
-alignable { input: "er" output: "ER0" } # term
-alignable { input: "ur" output: "ER0" } # burn
 alignable { input: "ear" output: "ER0" } # pearl
 
 alignable { input: "or" output: "ER2" } # word
 alignable { input: "or" output: "ER1" } # word
-alignable { input: "or" output: "ER0" } # word
 alignable { input: "ir" output: "AY1 ER0" } # choir
 alignable { input: "ir" output: "AY2 ER0" } # choir
 alignable { input: "our" output: "ER1" } # journey
@@ -597,15 +593,11 @@ alignable { input: "ause" output: "AH0 Z" } # because
 alignable { input: "o" output: "W AH1" } # one
 alignable { input: "o" output: "HH W AH1" } # one
 alignable { input: "ea" output: "IY0" } # really
-alignable { input: "ee" output: "IY0" } # been
-alignable { input: "ea" output: "IY1" } # really
-alignable { input: "ee" output: "IY1" } # been
-alignable { input: "ea" output: "IY2" } # really
-alignable { input: "ee" output: "IY2" } # been
 alignable { input: "i" output: "AE1" } # I'll, reduced
 alignable { input: "i" output: "AA1" } # I'll, reduced
-alignable { input: "i" output: "AH0" } # I'll, reduced
 alignable { input: "her" output: "ER0" } # her, reduced
+alignable { input: "'s" output: "IH0 Z" } # coach's
+alignable { input: "c" output: "CH" } # Luciano 
 
 alignable { input: "-" output: "" }
 alignable { input: "'" output: "" }
@@ -894,16 +886,8 @@ forbidden {
 
 # ere -> ER0
 forbidden {
-    alignable { input: "e" output: "" }
-    alignable { input: "re" output: "ER1" }
-}
-forbidden {
     alignable { input: "er" output: "ER1" }
     alignable { input: "e" output: "" }
-}
-forbidden {
-    alignable { input: "e" output: "" }
-    alignable { input: "re" output: "ER2" }
 }
 forbidden {
     alignable { input: "er" output: "ER2" }
