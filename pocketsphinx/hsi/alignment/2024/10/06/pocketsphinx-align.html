@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Trying to use pocketsphinx to word align | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Trying to use pocketsphinx to word align" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Because timing accuracy in ASR is getting progressively worse, look backwards" />
+<meta property="og:description" content="Because timing accuracy in ASR is getting progressively worse, look backwards" />
+<link rel="canonical" href="https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-06T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html","@type":"BlogPosting","headline":"Trying to use pocketsphinx to word align","dateModified":"2024-10-06T00:00:00-05:00","datePublished":"2024-10-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html"},"description":"Because timing accuracy in ASR is getting progressively worse, look backwards","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Trying to use pocketsphinx to word align</h1><p class="page-description">Because timing accuracy in ASR is getting progressively worse, look backwards</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-10-06T00:00:00-05:00" itemprop="datePublished">
+        Oct 6, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#pocketsphinx">pocketsphinx</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#hsi">hsi</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#alignment">alignment</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-10-06-pocketsphinx-align.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-10-06-pocketsphinx-align.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pydub</span> <span class="kn">import</span> <span class="n">AudioSegment</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+<span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pocketsphinx</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">MAPPING</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">ɑː AA</span>
+<span class="s2">æ AE</span>
+<span class="s2">ə AH</span>
+<span class="s2">ɐ AH</span>
+<span class="s2">ʌ AH</span>
+<span class="s2">ɔː AO</span>
+<span class="s2">aʊ AW</span>
+<span class="s2">aɪ AY</span>
+<span class="s2">b B</span>
+<span class="s2">tʃ CH</span>
+<span class="s2">d D</span>
+<span class="s2">ð DH</span>
+<span class="s2">ɛ EH</span>
+<span class="s2">ɚ ER</span>
+<span class="s2">ɜː ER</span>
+<span class="s2">eɪ EY</span>
+<span class="s2">f F</span>
+<span class="s2">ɡ G</span>
+<span class="s2">h HH</span>
+<span class="s2">ɪ IH</span>
+<span class="s2">i IY</span>
+<span class="s2">iː IY</span>
+<span class="s2">dʒ JH</span>
+<span class="s2">k K</span>
+<span class="s2">l L</span>
+<span class="s2">m M</span>
+<span class="s2">n N</span>
+<span class="s2">ŋ NG</span>
+<span class="s2">oʊ OW</span>
+<span class="s2">ɔɪ OY</span>
+<span class="s2">p P</span>
+<span class="s2">ɹ R</span>
+<span class="s2">s S</span>
+<span class="s2">ʃ SH</span>
+<span class="s2">t T</span>
+<span class="s2">θ TH</span>
+<span class="s2">ʊ UH</span>
+<span class="s2">uː UW</span>
+<span class="s2">v V</span>
+<span class="s2">w W</span>
+<span class="s2">j Y</span>
+<span class="s2">z Z</span>
+<span class="s2">ʒ ZH</span>
+<span class="s2">ɾ D</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">espeak_to_cmudict</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">MAPPING</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="k">continue</span>
+    <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">espeak_to_cmudict</span><span class="p">:</span>
+        <span class="n">espeak_to_cmudict</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">cmudict_keys</span> <span class="o">=</span> <span class="n">espeak_to_cmudict</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<span class="n">cmudict_keys</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">cmudict_keys</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">espeak_regex</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">rf</span><span class="s2">&quot;(</span><span class="si">{</span><span class="s1">&#39;|&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cmudict_keys</span><span class="p">)</span><span class="si">}</span><span class="s2">)&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">cmudictify</span><span class="p">(</span><span class="n">espeak</span><span class="p">):</span>
+    <span class="n">espeak</span> <span class="o">=</span> <span class="n">espeak</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;ˈ&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;ˌ&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">espeak_to_cmudict</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">espeak_regex</span><span class="p">,</span> <span class="n">espeak</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">EGTEXT</span> <span class="o">=</span> <span class="s2">&quot;Yeah, that&#39;s true. I mean, they are the same size and they are a little bit, but I think I I should go more for something that style.&quot;</span>
+<span class="n">EGPHON</span> <span class="o">=</span> <span class="s2">&quot;/jˈæ ðˈæs tɹˈuː ə mˈiːn ðˈeɪ ɚ ðə sˈeɪm sˈaɪz ən ðˈeɪ ˈɑːɹ ə lˈɪɾə bˈɪɾ bˈʌt ˈaɪ θˈɪŋk ˈaɪ ˈaɪ ʃˈʊ ɡˈoʊ mˈɔːɹ fɚ sˈʌmθɪŋ ðˈæt stˈaɪl./&quot;</span>
+<span class="n">EGFILE</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/hsi/audio/hsi_7_0719_210_001_main.wav&quot;</span>
+<span class="n">EGSTART</span> <span class="o">=</span> <span class="mf">70.028</span>
+<span class="n">EGEND</span> <span class="o">=</span> <span class="mf">75.441</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">normword</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;,.;:!?&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">normphon</span><span class="p">(</span><span class="n">phon</span><span class="p">):</span>
+    <span class="n">phon</span> <span class="o">=</span> <span class="n">phon</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;,.;:!?&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">phon</span>
+
+<span class="k">def</span> <span class="nf">make_lexicon</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">phon</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">phon</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">phon</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">):</span>
+        <span class="n">phon</span> <span class="o">=</span> <span class="n">phon</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">normword</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+    <span class="n">phonwords</span> <span class="o">=</span> <span class="p">[</span><span class="n">cmudictify</span><span class="p">(</span><span class="n">normphon</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">phon</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">phonwords</span><span class="p">)</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">phonwords</span><span class="p">)))</span>
+    <span class="k">return</span> <span class="n">output</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">lex</span> <span class="o">=</span> <span class="n">make_lexicon</span><span class="p">(</span><span class="n">EGTEXT</span><span class="p">,</span> <span class="n">EGPHON</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">audio</span> <span class="o">=</span> <span class="n">AudioSegment</span><span class="o">.</span><span class="n">from_file</span><span class="p">(</span><span class="n">EGFILE</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">audio</span> <span class="o">=</span> <span class="n">audio</span><span class="o">.</span><span class="n">set_frame_rate</span><span class="p">(</span><span class="mi">16000</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">seg</span> <span class="o">=</span> <span class="n">audio</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="n">EGSTART</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">):</span><span class="nb">int</span><span class="p">(</span><span class="n">EGEND</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">make_ps_dict</span><span class="p">(</span><span class="n">entries</span><span class="p">):</span>
+    <span class="n">counts</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">lex</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">entries</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">lex</span><span class="p">:</span>
+        <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">in</span> <span class="n">counts</span><span class="p">:</span>
+            <span class="n">counts</span><span class="p">[</span><span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">counts</span><span class="p">[</span><span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">count</span> <span class="o">=</span> <span class="n">counts</span><span class="p">[</span><span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+        <span class="k">if</span> <span class="n">count</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">subscript</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;(</span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2">)&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">subscript</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">output</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">entry</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}{</span><span class="n">subscript</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">entry</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">output</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">make_fsg_transitions_from_text</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">normword</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+    <span class="n">enum</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">words</span><span class="p">)]</span>
+    <span class="n">trans</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">enum</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">trans</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">fsgt</span> <span class="o">=</span> <span class="n">make_fsg_transitions_from_text</span><span class="p">(</span><span class="n">EGTEXT</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">start_state</span> <span class="o">=</span> <span class="n">fsgt</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">end_state</span> <span class="o">=</span> <span class="n">fsgt</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">pocketsphinx</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This was the first attempt. Adding <code>None</code> for the dictionary (as the docs suggested) didn't help: can't add words to a dictionary that doesn't exist.</p>
+<p>This may yet be a thing, because I can't be sure that it really failed to align using the grammar: audio handling sucks, and I should maybe have passed ffmpeg parameters before writing the audio.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="n">entries</span> <span class="o">=</span> <span class="n">make_ps_dict</span><span class="p">(</span><span class="n">lex</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="p">(</span>
+    <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span><span class="n">suffix</span><span class="o">=</span><span class="s2">&quot;.dict&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dictf</span><span class="p">,</span>
+    <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">(</span><span class="n">suffix</span><span class="o">=</span><span class="s2">&quot;.wav&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">wavf</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">dictf</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dictout</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">entries</span><span class="p">:</span>
+            <span class="n">dictout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">entry</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    
+    <span class="n">seg</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">wavf</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;wav&quot;</span><span class="p">)</span>
+
+    <span class="n">decoder</span> <span class="o">=</span> <span class="n">pocketsphinx</span><span class="o">.</span><span class="n">Decoder</span><span class="p">(</span><span class="n">lm</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="nb">dict</span><span class="o">=</span><span class="n">dictf</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+    <span class="n">fsg</span> <span class="o">=</span> <span class="n">decoder</span><span class="o">.</span><span class="n">create_fsg</span><span class="p">(</span><span class="s2">&quot;dummy&quot;</span><span class="p">,</span> <span class="n">start_state</span><span class="p">,</span> <span class="n">end_state</span><span class="p">,</span> <span class="n">fsgt</span><span class="p">)</span>
+    <span class="n">decoder</span><span class="o">.</span><span class="n">add_fsg</span><span class="p">(</span><span class="s2">&quot;dummy&quot;</span><span class="p">,</span> <span class="n">fsg</span><span class="p">)</span>
+    <span class="n">decoder</span><span class="o">.</span><span class="n">activate_search</span><span class="p">(</span><span class="s2">&quot;dummy&quot;</span><span class="p">)</span>
+    <span class="n">decoder</span><span class="o">.</span><span class="n">start_utt</span><span class="p">()</span>
+    <span class="c1"># decoder.process_raw(seg.get_array_of_samples(&#39;B&#39;))</span>
+    <span class="n">decoder</span><span class="o">.</span><span class="n">process_raw</span><span class="p">(</span><span class="n">wavf</span><span class="o">.</span><span class="n">read</span><span class="p">(),</span> <span class="n">full_utt</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">decoder</span><span class="o">.</span><span class="n">end_utt</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">decoder</span><span class="o">.</span><span class="n">seg</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>ERROR: &#34;fsg_search.c&#34;, line 944: Final result does not match the grammar in frame 1082
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">fsg</span><span class="o">.</span><span class="n">writefile</span><span class="p">(</span><span class="s2">&quot;/tmp/fsm&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">fsm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>FSG_BEGIN dummy
+NUM_STATES 29
+START_STATE 0
+FINAL_STATE 28
+TRANSITION 0 0 0.000000 [NOISE]
+TRANSITION 0 0 0.005001 &lt;sil&gt;
+TRANSITION 0 1 1.000000 yeah
+TRANSITION 1 1 0.000000 [NOISE]
+TRANSITION 1 1 0.005001 &lt;sil&gt;
+TRANSITION 1 2 1.000000 that&#39;s
+TRANSITION 2 2 0.000000 [NOISE]
+TRANSITION 2 2 0.005001 &lt;sil&gt;
+TRANSITION 2 3 1.000000 true
+TRANSITION 3 3 0.000000 [NOISE]
+TRANSITION 3 3 0.005001 &lt;sil&gt;
+TRANSITION 3 4 1.000000 i(2)
+TRANSITION 3 4 1.000000 i
+TRANSITION 4 4 0.000000 [NOISE]
+TRANSITION 4 4 0.005001 &lt;sil&gt;
+TRANSITION 4 5 1.000000 mean
+TRANSITION 5 5 0.000000 [NOISE]
+TRANSITION 5 5 0.005001 &lt;sil&gt;
+TRANSITION 5 6 1.000000 they
+TRANSITION 6 6 0.000000 [NOISE]
+TRANSITION 6 6 0.005001 &lt;sil&gt;
+TRANSITION 6 7 1.000000 are(2)
+TRANSITION 6 7 1.000000 are
+TRANSITION 7 7 0.000000 [NOISE]
+TRANSITION 7 7 0.005001 &lt;sil&gt;
+TRANSITION 7 8 1.000000 the
+TRANSITION 8 8 0.000000 [NOISE]
+TRANSITION 8 8 0.005001 &lt;sil&gt;
+TRANSITION 8 9 1.000000 same
+TRANSITION 9 9 0.000000 [NOISE]
+TRANSITION 9 9 0.005001 &lt;sil&gt;
+TRANSITION 9 10 1.000000 size
+TRANSITION 10 10 0.000000 [NOISE]
+TRANSITION 10 10 0.005001 &lt;sil&gt;
+TRANSITION 10 11 1.000000 and
+TRANSITION 11 11 0.000000 [NOISE]
+TRANSITION 11 11 0.005001 &lt;sil&gt;
+TRANSITION 11 12 1.000000 they
+TRANSITION 12 12 0.000000 [NOISE]
+TRANSITION 12 12 0.005001 &lt;sil&gt;
+TRANSITION 12 13 1.000000 are(2)
+TRANSITION 12 13 1.000000 are
+TRANSITION 13 13 0.000000 [NOISE]
+TRANSITION 13 13 0.005001 &lt;sil&gt;
+TRANSITION 13 14 1.000000 a
+TRANSITION 14 14 0.000000 [NOISE]
+TRANSITION 14 14 0.005001 &lt;sil&gt;
+TRANSITION 14 15 1.000000 little
+TRANSITION 15 15 0.000000 [NOISE]
+TRANSITION 15 15 0.005001 &lt;sil&gt;
+TRANSITION 15 16 1.000000 bit
+TRANSITION 16 16 0.000000 [NOISE]
+TRANSITION 16 16 0.005001 &lt;sil&gt;
+TRANSITION 16 17 1.000000 but
+TRANSITION 17 17 0.000000 [NOISE]
+TRANSITION 17 17 0.005001 &lt;sil&gt;
+TRANSITION 17 18 1.000000 i(2)
+TRANSITION 17 18 1.000000 i
+TRANSITION 18 18 0.000000 [NOISE]
+TRANSITION 18 18 0.005001 &lt;sil&gt;
+TRANSITION 18 19 1.000000 think
+TRANSITION 19 20 1.000000 i(2)
+TRANSITION 19 20 1.000000 i
+TRANSITION 19 19 0.000000 [NOISE]
+TRANSITION 19 19 0.005001 &lt;sil&gt;
+TRANSITION 20 20 0.000000 [NOISE]
+TRANSITION 20 20 0.005001 &lt;sil&gt;
+TRANSITION 20 21 1.000000 i(2)
+TRANSITION 20 21 1.000000 i
+TRANSITION 21 21 0.000000 [NOISE]
+TRANSITION 21 21 0.005001 &lt;sil&gt;
+TRANSITION 21 22 1.000000 should
+TRANSITION 22 22 0.000000 [NOISE]
+TRANSITION 22 22 0.005001 &lt;sil&gt;
+TRANSITION 22 23 1.000000 go
+TRANSITION 23 23 0.000000 [NOISE]
+TRANSITION 23 23 0.005001 &lt;sil&gt;
+TRANSITION 23 24 1.000000 more
+TRANSITION 24 24 0.000000 [NOISE]
+TRANSITION 24 24 0.005001 &lt;sil&gt;
+TRANSITION 24 25 1.000000 for
+TRANSITION 25 25 0.000000 [NOISE]
+TRANSITION 25 25 0.005001 &lt;sil&gt;
+TRANSITION 25 26 1.000000 something
+TRANSITION 26 26 0.000000 [NOISE]
+TRANSITION 26 26 0.005001 &lt;sil&gt;
+TRANSITION 26 27 1.000000 that
+TRANSITION 27 27 0.000000 [NOISE]
+TRANSITION 27 27 0.005001 &lt;sil&gt;
+TRANSITION 27 28 1.000000 style
+TRANSITION 28 28 0.000000 [NOISE]
+TRANSITION 28 28 0.005001 &lt;sil&gt;
+FSG_END
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/mytmp.dict&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dictout</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">entries</span><span class="p">:</span>
+        <span class="n">dictout</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">entry</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">seg</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="s2">&quot;/tmp/clip.wav&quot;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;wav&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;_io.BufferedRandom name=&#39;/tmp/clip.wav&#39;&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">sox</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">clip</span><span class="o">.</span><span class="n">wav</span> <span class="err">$</span><span class="p">(</span><span class="n">pocketsphinx</span> <span class="n">soxflags</span><span class="p">)</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ps</span><span class="o">.</span><span class="n">raw</span>
+<span class="n">psjson</span><span class="o">=</span><span class="err">!</span><span class="n">pocketsphinx</span> <span class="n">align</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ps</span><span class="o">.</span><span class="n">raw</span> <span class="s2">&quot;yeah that&#39;s true i mean they are the same size and they are a little bit but i think i i should go more for something that style&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">psjson</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;{&#34;b&#34;:0.000,&#34;d&#34;:5.410,&#34;p&#34;:1.000,&#34;t&#34;:&#34;yeah that\&#39;s true i mean they are the same size and they are a little bit but i think i i should go more for something that style&#34;,&#34;w&#34;:[{&#34;b&#34;:0.000,&#34;d&#34;:0.250,&#34;p&#34;:0.964,&#34;t&#34;:&#34;yeah&#34;},{&#34;b&#34;:0.250,&#34;d&#34;:0.150,&#34;p&#34;:0.937,&#34;t&#34;:&#34;that\&#39;s&#34;},{&#34;b&#34;:0.400,&#34;d&#34;:0.200,&#34;p&#34;:0.978,&#34;t&#34;:&#34;true&#34;},{&#34;b&#34;:0.600,&#34;d&#34;:0.060,&#34;p&#34;:0.974,&#34;t&#34;:&#34;i&#34;},{&#34;b&#34;:0.660,&#34;d&#34;:0.180,&#34;p&#34;:0.980,&#34;t&#34;:&#34;mean&#34;},{&#34;b&#34;:0.840,&#34;d&#34;:0.140,&#34;p&#34;:0.979,&#34;t&#34;:&#34;they&#34;},{&#34;b&#34;:0.980,&#34;d&#34;:0.070,&#34;p&#34;:0.983,&#34;t&#34;:&#34;are(2)&#34;},{&#34;b&#34;:1.050,&#34;d&#34;:0.110,&#34;p&#34;:0.987,&#34;t&#34;:&#34;the&#34;},{&#34;b&#34;:1.160,&#34;d&#34;:0.260,&#34;p&#34;:0.974,&#34;t&#34;:&#34;same&#34;},{&#34;b&#34;:1.420,&#34;d&#34;:0.380,&#34;p&#34;:0.956,&#34;t&#34;:&#34;size&#34;},{&#34;b&#34;:1.800,&#34;d&#34;:0.120,&#34;p&#34;:0.975,&#34;t&#34;:&#34;and&#34;},{&#34;b&#34;:1.920,&#34;d&#34;:0.110,&#34;p&#34;:0.986,&#34;t&#34;:&#34;they&#34;},{&#34;b&#34;:2.030,&#34;d&#34;:0.140,&#34;p&#34;:0.983,&#34;t&#34;:&#34;are(2)&#34;},{&#34;b&#34;:2.170,&#34;d&#34;:0.030,&#34;p&#34;:0.990,&#34;t&#34;:&#34;a&#34;},{&#34;b&#34;:2.200,&#34;d&#34;:0.180,&#34;p&#34;:0.914,&#34;t&#34;:&#34;little&#34;},{&#34;b&#34;:2.380,&#34;d&#34;:0.140,&#34;p&#34;:0.980,&#34;t&#34;:&#34;bit&#34;},{&#34;b&#34;:2.520,&#34;d&#34;:0.220,&#34;p&#34;:0.935,&#34;t&#34;:&#34;but&#34;},{&#34;b&#34;:2.740,&#34;d&#34;:0.110,&#34;p&#34;:0.983,&#34;t&#34;:&#34;i&#34;},{&#34;b&#34;:2.850,&#34;d&#34;:0.260,&#34;p&#34;:0.968,&#34;t&#34;:&#34;think&#34;},{&#34;b&#34;:3.110,&#34;d&#34;:0.190,&#34;p&#34;:0.975,&#34;t&#34;:&#34;i&#34;},{&#34;b&#34;:3.300,&#34;d&#34;:0.090,&#34;p&#34;:0.977,&#34;t&#34;:&#34;i&#34;},{&#34;b&#34;:3.390,&#34;d&#34;:0.200,&#34;p&#34;:0.976,&#34;t&#34;:&#34;should&#34;},{&#34;b&#34;:3.590,&#34;d&#34;:0.150,&#34;p&#34;:0.982,&#34;t&#34;:&#34;go&#34;},{&#34;b&#34;:3.740,&#34;d&#34;:0.220,&#34;p&#34;:0.979,&#34;t&#34;:&#34;more&#34;},{&#34;b&#34;:3.960,&#34;d&#34;:0.200,&#34;p&#34;:0.978,&#34;t&#34;:&#34;for(2)&#34;},{&#34;b&#34;:4.160,&#34;d&#34;:0.320,&#34;p&#34;:0.971,&#34;t&#34;:&#34;something&#34;},{&#34;b&#34;:4.480,&#34;d&#34;:0.300,&#34;p&#34;:0.961,&#34;t&#34;:&#34;that&#34;},{&#34;b&#34;:4.780,&#34;d&#34;:0.510,&#34;p&#34;:0.968,&#34;t&#34;:&#34;style&#34;},{&#34;b&#34;:5.290,&#34;d&#34;:0.110,&#34;p&#34;:0.955,&#34;t&#34;:&#34;&lt;sil&gt;&#34;}]}&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">psjson</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;b&#39;: 0.0,
+ &#39;d&#39;: 5.41,
+ &#39;p&#39;: 1.0,
+ &#39;t&#39;: &#34;yeah that&#39;s true i mean they are the same size and they are a little bit but i think i i should go more for something that style&#34;,
+ &#39;w&#39;: [{&#39;b&#39;: 0.0, &#39;d&#39;: 0.25, &#39;p&#39;: 0.964, &#39;t&#39;: &#39;yeah&#39;},
+  {&#39;b&#39;: 0.25, &#39;d&#39;: 0.15, &#39;p&#39;: 0.937, &#39;t&#39;: &#34;that&#39;s&#34;},
+  {&#39;b&#39;: 0.4, &#39;d&#39;: 0.2, &#39;p&#39;: 0.978, &#39;t&#39;: &#39;true&#39;},
+  {&#39;b&#39;: 0.6, &#39;d&#39;: 0.06, &#39;p&#39;: 0.974, &#39;t&#39;: &#39;i&#39;},
+  {&#39;b&#39;: 0.66, &#39;d&#39;: 0.18, &#39;p&#39;: 0.98, &#39;t&#39;: &#39;mean&#39;},
+  {&#39;b&#39;: 0.84, &#39;d&#39;: 0.14, &#39;p&#39;: 0.979, &#39;t&#39;: &#39;they&#39;},
+  {&#39;b&#39;: 0.98, &#39;d&#39;: 0.07, &#39;p&#39;: 0.983, &#39;t&#39;: &#39;are(2)&#39;},
+  {&#39;b&#39;: 1.05, &#39;d&#39;: 0.11, &#39;p&#39;: 0.987, &#39;t&#39;: &#39;the&#39;},
+  {&#39;b&#39;: 1.16, &#39;d&#39;: 0.26, &#39;p&#39;: 0.974, &#39;t&#39;: &#39;same&#39;},
+  {&#39;b&#39;: 1.42, &#39;d&#39;: 0.38, &#39;p&#39;: 0.956, &#39;t&#39;: &#39;size&#39;},
+  {&#39;b&#39;: 1.8, &#39;d&#39;: 0.12, &#39;p&#39;: 0.975, &#39;t&#39;: &#39;and&#39;},
+  {&#39;b&#39;: 1.92, &#39;d&#39;: 0.11, &#39;p&#39;: 0.986, &#39;t&#39;: &#39;they&#39;},
+  {&#39;b&#39;: 2.03, &#39;d&#39;: 0.14, &#39;p&#39;: 0.983, &#39;t&#39;: &#39;are(2)&#39;},
+  {&#39;b&#39;: 2.17, &#39;d&#39;: 0.03, &#39;p&#39;: 0.99, &#39;t&#39;: &#39;a&#39;},
+  {&#39;b&#39;: 2.2, &#39;d&#39;: 0.18, &#39;p&#39;: 0.914, &#39;t&#39;: &#39;little&#39;},
+  {&#39;b&#39;: 2.38, &#39;d&#39;: 0.14, &#39;p&#39;: 0.98, &#39;t&#39;: &#39;bit&#39;},
+  {&#39;b&#39;: 2.52, &#39;d&#39;: 0.22, &#39;p&#39;: 0.935, &#39;t&#39;: &#39;but&#39;},
+  {&#39;b&#39;: 2.74, &#39;d&#39;: 0.11, &#39;p&#39;: 0.983, &#39;t&#39;: &#39;i&#39;},
+  {&#39;b&#39;: 2.85, &#39;d&#39;: 0.26, &#39;p&#39;: 0.968, &#39;t&#39;: &#39;think&#39;},
+  {&#39;b&#39;: 3.11, &#39;d&#39;: 0.19, &#39;p&#39;: 0.975, &#39;t&#39;: &#39;i&#39;},
+  {&#39;b&#39;: 3.3, &#39;d&#39;: 0.09, &#39;p&#39;: 0.977, &#39;t&#39;: &#39;i&#39;},
+  {&#39;b&#39;: 3.39, &#39;d&#39;: 0.2, &#39;p&#39;: 0.976, &#39;t&#39;: &#39;should&#39;},
+  {&#39;b&#39;: 3.59, &#39;d&#39;: 0.15, &#39;p&#39;: 0.982, &#39;t&#39;: &#39;go&#39;},
+  {&#39;b&#39;: 3.74, &#39;d&#39;: 0.22, &#39;p&#39;: 0.979, &#39;t&#39;: &#39;more&#39;},
+  {&#39;b&#39;: 3.96, &#39;d&#39;: 0.2, &#39;p&#39;: 0.978, &#39;t&#39;: &#39;for(2)&#39;},
+  {&#39;b&#39;: 4.16, &#39;d&#39;: 0.32, &#39;p&#39;: 0.971, &#39;t&#39;: &#39;something&#39;},
+  {&#39;b&#39;: 4.48, &#39;d&#39;: 0.3, &#39;p&#39;: 0.961, &#39;t&#39;: &#39;that&#39;},
+  {&#39;b&#39;: 4.78, &#39;d&#39;: 0.51, &#39;p&#39;: 0.968, &#39;t&#39;: &#39;style&#39;},
+  {&#39;b&#39;: 5.29, &#39;d&#39;: 0.11, &#39;p&#39;: 0.955, &#39;t&#39;: &#39;&lt;sil&gt;&#39;}]}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/audacity.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">tsvf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;w&quot;</span><span class="p">]:</span>
+        <span class="n">tsvf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">word</span><span class="p">[</span><span class="s1">&#39;b&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">word</span><span class="p">[</span><span class="s1">&#39;b&#39;</span><span class="p">]</span><span class="o">+</span><span class="n">word</span><span class="p">[</span><span class="s1">&#39;d&#39;</span><span class="p">]</span><span class="si">:</span><span class="s2">.2</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">word</span><span class="p">[</span><span class="s1">&#39;t&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
