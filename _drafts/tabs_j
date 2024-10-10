@@ -13,8 +13,8 @@ https://kyutai.org/Moshi.pdf
 Label Studio
 http://130.237.3.107:8080/projects/1/data
 
-Label Studio
-http://130.237.3.107:8080/projects?page=1
+130.237.3.107
+http://130.237.3.107:8080/projects/5/data?tab=5&task=72
 
 Label Studio
 http://130.237.3.107:8080/projects/8/data?tab=8&task=117
@@ -23,7 +23,7 @@ Label Studio
 http://130.237.3.107:8080/projects/8/data?tab=8&task=110
 
 Label Studio
-http://130.237.3.107:8080/projects/1/data
+http://130.237.3.107:8080/projects/5/data
 
 Label Studio
 http://130.237.3.107:8080/projects/6/data?tab=6
@@ -163,11 +163,8 @@ https://huggingface.co/TencentGameMate/chinese-hubert-base
 chinese_speech_pretrain/hubert_kmeans at master · TencentGameMate/chinese_speech_pretrain
 https://github.com/TencentGameMate/chinese_speech_pretrain/tree/master/hubert_kmeans
 
-difflib — Helpers for computing deltas — Python 3.12.6 documentation
-https://docs.python.org/3/library/difflib.html
-
-StevenVdEeckt/unsupervised-ocl-for-asr: Supplementary material to the paper "Unsupervised Online Continual Learning for Automatic Speech Recognition", accepted for Interspeech 2024.
-https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr
+unsupervised-ocl-for-asr/models/conf/training at main · StevenVdEeckt/unsupervised-ocl-for-asr
+https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr/tree/main/models/conf/training
 
 fine tune t5 multiple new tasks - Google Search
 https://www.google.com/search?q=fine+tune+t5+multiple+new+tasks&rlz=1C5GCEM_enSE990SE991&oq=fine+tune+t5+multiple+new+tasks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBNIBCDYzNzBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -253,8 +250,8 @@ https://github.com/showlab/Show-o?tab=readme-ov-file
 hub.docker.com/r/kaldiasr/kaldi
 https://hub.docker.com/r/kaldiasr/kaldi
 
-cmusphinx/pocketsphinx: A small speech recognizer
-https://github.com/cmusphinx/pocketsphinx
+Added jsgf/fsg tags extraction by CarloBenussi · Pull Request #84 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/pull/84
 
 Long Audio Alignment Overview – CMUSphinx Open Source Speech Recognition
 https://cmusphinx.github.io/wiki/longaudioalignment/
@@ -754,14 +751,11 @@ https://clarin-pl.eu/dspace/handle/11321/821
 Blog – PINC Project
 https://pincproject2020.wordpress.com/blog/
 
-pocketsphinx/examples at master · cmusphinx/pocketsphinx
-https://github.com/cmusphinx/pocketsphinx/tree/master/examples
+sphinx4/sphinx4-core/src/main/java/edu/cmu/sphinx/jsgf at master · cmusphinx/sphinx4
+https://github.com/cmusphinx/sphinx4/tree/master/sphinx4-core/src/main/java/edu/cmu/sphinx/jsgf
 
-zipsplit - man pages section 1: User Commands
-https://docs.oracle.com/cd/E88353_01/html/E37839/zipsplit-1.html
-
-1g in bytes - Google Search
-https://www.google.com/search?q=1g+in+bytes&rlz=1C5GCEM_enSE990SE991&oq=1g+in+bytes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI0NTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+cmusphinx/sphinxbase
+https://github.com/cmusphinx/sphinxbase
 
 abus-aikorea/voice-pro: The best gradio web-ui for ai transcription, translation and TTS. Automatic subtitle creation using faster whisper. Easy one click installation. Fully portable.
 https://github.com/abus-aikorea/voice-pro?tab=readme-ov-file
@@ -775,124 +769,244 @@ https://github.com/facebookresearch/demucs/issues/334
 Anjok07/ultimatevocalremovergui: GUI for a Vocal Remover that uses Deep Neural Networks.
 https://github.com/Anjok07/ultimatevocalremovergui#installation
 
-jiaaro/pydub: Manipulate audio with a simple and easy high level interface
-https://github.com/jiaaro/pydub
-
 pocketsphinx · PyPI
 https://pypi.org/project/pocketsphinx/
 
 pocketsphinx/examples/simple.py at master · cmusphinx/pocketsphinx
 https://github.com/cmusphinx/pocketsphinx/blob/master/examples/simple.py
 
-Added jsgf/fsg tags extraction by CarloBenussi · Pull Request #84 · cmusphinx/pocketsphinx
-https://github.com/cmusphinx/pocketsphinx/pull/84
-
 Main pocketsphinx package — PocketSphinx 5.0.3 documentation
 https://pocketsphinx.readthedocs.io/en/latest/pocketsphinx.html#pocketsphinx.FsgModel
 
-Inbox • Direct
-https://www.instagram.com/direct/t/114833423247198/
+weather stockholm - Google Search
+https://www.google.com/search?q=weather+stockholm&rlz=1C5GCEM_enSE990SE991&oq=weather+stoc&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGDkyDAgCECMYJxiABBiKBTIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE3NzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-CMU Sphinx / Forums / Help: Final result does not match the grammar in frame
-https://sourceforge.net/p/cmusphinx/discussion/help/thread/0dcf09b5/
+pocketsphinx python fsg - Google Search
+https://www.google.com/search?q=pocketsphinx+python+fsg&rlz=1C5GCEM_enSE990SE991&oq=pocketsphinx&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxNTk1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
+Pocketsphinx for Pronunication Evaluation – CMUSphinx Open Source Speech Recognition
+https://cmusphinx.github.io/wiki/pocketsphinx_pronunciation_evaluation/
 
-Instagram
-https://www.instagram.com/
+JSpeech Grammar Format
+https://www.w3.org/TR/2000/NOTE-jsgf-20000605/
 
-Joker 2 is causing ‘mass walk outs’ after fans make realisation about sequel
-https://www.ladbible.com/entertainment/film/joker-2-reviews-walk-outs-musical-178388-20241007
+jsgf openfst - Google Search
+https://www.google.com/search?q=jsgf+openfst&rlz=1C5GCEM_enSE990SE991&oq=jsgf+openfst&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM2NTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Mineralblu (@mineralblu) • Instagram photos and videos
-https://www.instagram.com/mineralblu/
+jsgf2fst/jsgf2fst/jsgf2fst.py at master · synesthesiam/jsgf2fst
+https://github.com/synesthesiam/jsgf2fst/blob/master/jsgf2fst/jsgf2fst.py
 
-timmahrt/praatIO: A python library for working with praat, textgrids, time aligned audio transcripts, and audio files. It is primarily used for extracting features from and making manipulations on audio files given hierarchical time-aligned transcriptions (utterance > word > syllable > phone, etc).
-https://github.com/timmahrt/praatIO
+danesprite
+https://danesprite/pyjsgf
 
-jimregan/notes
-https://github.com/jimregan/notes?tab=readme-ov-file
+Can Kaldi decode in the JSGFGrammar way like sphinx?
+https://groups.google.com/g/kaldi-help/c/9r6mea7aJVc
 
-New notes6 by jimregan · Pull Request #305 · jimregan/notes
-https://github.com/jimregan/notes/pull/305/files#diff-958144147ac511c1484e620cf31ec42c8617d85c5418914b6f83c789c0e9da31
+Geeky Stuff: Decoding graph construction in Kaldi: A visual walkthrough
+https://vpanayotov.blogspot.com/2012/06/kaldi-decoding-graph-construction.html
 
-whisperX/whisperx/alignment.py at main · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
+huggingface transformers cache - Google Search
+https://www.google.com/search?q=huggingface+transformers+cache&rlz=1C5GCEM_enSE990SE991&oq=huggingface+transformers+cache&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIKCAcQABiABBiiBDIKCAgQABiABBiiBDIKCAkQABiABBiiBNIBCTEwNzkwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-Artist who was 'ready to die' after allowing spectators to do anything to her for six hours explains why she did it
-https://www.unilad.com/community/life/marina-abramovic-artist-spectators-do-anything-explained-999036-20241008
+Cache management
+https://huggingface.co/docs/datasets/en/cache
 
-No matter how hard he tries, my boyfriend can’t find my G-spot | Life and style | The Guardian
-https://www.theguardian.com/lifeandstyle/2024/oct/08/my-boyfriend-cant-find-my-g-spot?utm_source=instagramstories&utm_campaign=sexualhealing
+OscarVanL/LibriTTS-British-Accents: A subset of the popular LibriTTS dataset with subsets for English, Scottish, Welsh, and Irish accents.
+https://github.com/OscarVanL/LibriTTS-British-Accents?tab=readme-ov-file
 
-Creating Demos with Spaces and Gradio - Hugging Face Open-Source AI Cookbook
-https://huggingface.co/learn/cookbook/en/enterprise_cookbook_gradio
+LibriTTS-British-Accents/SPEAKERS_ENGLISH.txt at master · OscarVanL/LibriTTS-British-Accents
+https://github.com/OscarVanL/LibriTTS-British-Accents/blob/master/SPEAKERS_ENGLISH.txt
 
-Instagram
-https://www.instagram.com/
+Accents Table - Librivox wiki
+https://wiki.librivox.org/index.php/Accents_Table
 
-ydqmkkx/Respiro-en: Official implementation of paper: Frame-Wise Breath Detection with Self-Training: An Exploration of Enhancing Breath Naturalness in Text-to-Speech
-https://github.com/ydqmkkx/Respiro-en/
+Other British Readers on LibriVox | RuthieG's CataBlog
+https://golding.wordpress.com/home/other-british-readers-on-librivox/
 
-ydqmkkx (DongYANG)
-https://github.com/ydqmkkx
+Git LFS data quota exceeded · Issue #1 · OscarVanL/LibriTTS-British-Accents
+https://github.com/OscarVanL/LibriTTS-British-Accents/issues/1
 
-gradio vad - Google Search
-https://www.google.com/search?q=gradio+vad&sca_esv=4b629c57e28de7e7&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIIBrCrj2aTPxBOwnnG3YhcTTIstwg%3A1728414078706&ei=foEFZ8yMKYzYwPAP9ZbzyQ0&ved=0ahUKEwjMw7yZvP-IAxUMLBAIHXXLPNkQ4dUDCA8&uact=5&oq=gradio+vad&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmdyYWRpbyB2YWQyCxAuGNQCGBYYChgeMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyGhAuGNQCGBYYChgeGJcFGNwEGN4EGOAE2AEBSJwPUM0LWOoNcAF4AZABAJgBpAGgAYIDqgEDMC4zuAEDyAEA-AEBmAIEoAKQA8ICChAAGLADGNYEGEfCAgsQABiABBiRAhiKBcICBRAAGIAEwgIKEAAYgAQYFBiHAsICBhAAGBYYHpgDAOIDBRIBMSBAiAYBkAYIugYGCAEQARgUkgcDMS4zoAf-Ew&sclient=gws-wiz-serp
+LLaVa
+https://huggingface.co/docs/transformers/en/model_doc/llava
 
-ycyy/faster-whisper-webui: a gradio webui for faster whisper
-https://github.com/ycyy/faster-whisper-webui?tab=readme-ov-file
+haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
+https://github.com/haotian-liu/LLaVA?tab=readme-ov-file
 
-Whisper WebUI GPU.ipynb - Colab
-https://colab.research.google.com/drive/1qeTSvi7Bt_5RMm88ipW4fkcsMOKlDDss?usp=sharing#scrollTo=h85P7mbOVfby
+LLaVA/docs/MODEL_ZOO.md at main · haotian-liu/LLaVA
+https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md
 
-Whisper WebUI GPU.ipynb - Colab
-https://colab.research.google.com/drive/1qeTSvi7Bt_5RMm88ipW4fkcsMOKlDDss?usp=sharing
+liuhaotian/llava-v1.6-34b at main
+https://huggingface.co/liuhaotian/llava-v1.6-34b/tree/main
 
-annadeichler (Anna Deichler)
-https://huggingface.co/annadeichler
+README.md · liuhaotian/llava-v1.6-vicuna-7b at main
+https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b/blob/main/README.md
 
-shivammehta25 (Shivam Mehta)
-https://github.com/shivammehta25
+README.md · liuhaotian/llava-v1.6-mistral-7b at main
+https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/blob/main/README.md
 
-Shivam Mehta
-https://shivammehta25.github.io/
+facebookresearch/dino: PyTorch code for Vision Transformers training with the Self-Supervised learning method DINO
+https://github.com/facebookresearch/dino
 
-Shivam Mehta
-https://shivammehta25.github.io/
+Models - Hugging Face
+https://huggingface.co/models?other=dino
 
-app.py · shivammehta25/Matcha-TTS at main
-https://huggingface.co/spaces/shivammehta25/Matcha-TTS/blob/main/app.py
+llama.cpp/examples/llava/README.md at master · ggerganov/llama.cpp
+https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/README.md
 
-shivammehta25 (Shivam Mehta)
-https://huggingface.co/shivammehta25
+Best llava architecture models - a cmp-nct Collection
+https://huggingface.co/collections/cmp-nct/best-llava-architecture-models-656cc7273dbac3a83d241e79
 
-jimregan (Jim O'Regan)
-https://huggingface.co/jimregan
+xtuner/llava-llama-3-8b-v1_1-hf · Hugging Face
+https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-hf
 
-jimregan/hungarian-youtube-speech · Datasets at Hugging Face
-https://huggingface.co/datasets/jimregan/hungarian-youtube-speech
+white lie crossed fingers polish - Google Search
+https://www.google.com/search?q=white+lie+crossed+fingers+polish&rlz=1C5GCEM_enSE990SE991&oq=white+lie+crossed+fingers+polish&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyNDI0ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
 
-jimregan/riksantikvarieambetet-video-raw at raw-data
-https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw/tree/raw-data
+Crossed fingers - Wikipedia
+https://en.wikipedia.org/wiki/Crossed_fingers
 
-Riksantikvarieämbetet - YouTube
-https://www.youtube.com/@heritageboard/videos
+cross one's fingers - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/cross_one%27s_fingers
+
+cross one's fingers - Wiktionary
+https://sv.wiktionary.org/wiki/cross_one%27s_fingers
+
+pitää peukkua - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/pit%C3%A4%C3%A4_peukkua#Finnish
+
+shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://github.com/shivammehta25/Matcha-TTS
+
+Transformers.js
+https://huggingface.co/docs/transformers.js/en/index
+
+huggingface/optimum: 🚀 Accelerate training and inference of 🤗 Transformers and 🤗 Diffusers with easy to use hardware optimization tools
+https://github.com/huggingface/optimum#onnx--onnx-runtime
+
+ONNX Runtime | Home
+https://onnxruntime.ai/
+
+transformers.js/examples/text-to-speech-client/src/worker.js at main · xenova/transformers.js
+https://github.com/xenova/transformers.js/blob/main/examples/text-to-speech-client/src/worker.js
+
+transformers.js/src/models.js at main · xenova/transformers.js
+https://github.com/xenova/transformers.js/blob/main/src/models.js#L2185
+
+WavLMForAudioFrameClassification - Google Search
+https://www.google.com/search?q=WavLMForAudioFrameClassification&rlz=1C5GCEM_enSE990SE991&oq=WavLMForAudioFrameClassification&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBBzQxMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Finetuning AudioFrameClassification model · Issue #17509 · huggingface/transformers
+https://github.com/huggingface/transformers/issues/17509
+
+transformers/src/transformers/models/wavlm/modeling_wavlm.py at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/src/transformers/models/wavlm/modeling_wavlm.py
+
+microsoft/wavlm-base-plus-sd · Hugging Face
+https://huggingface.co/microsoft/wavlm-base-plus-sd
+
+Models - Hugging Face
+https://huggingface.co/models?other=wavlm&p=1&sort=trending
+
+lgris/WavLM-large-CORAA-pt · Hugging Face
+https://huggingface.co/lgris/WavLM-large-CORAA-pt
+
+microsoft/wavlm-base-sv · Hugging Face
+https://huggingface.co/microsoft/wavlm-base-sv
+
+wrice/wavlm-large-timit-punctuation · Hugging Face
+https://huggingface.co/wrice/wavlm-large-timit-punctuation
+
+jonatasgrosman/exp_w2v2t_sv-se_wavlm_s132 · Hugging Face
+https://huggingface.co/jonatasgrosman/exp_w2v2t_sv-se_wavlm_s132
+
+UniSpeech/LICENSE at main · microsoft/UniSpeech
+https://github.com/microsoft/UniSpeech/blob/main/LICENSE
+
+wavlm adapt languag - Google Search
+https://www.google.com/search?q=wavlm+adapt+languag&rlz=1C5GCEM_enSE990SE991&oq=wavlm+adapt+languag&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigAdIBCDU3MDNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+[2405.04485] Adapting WavLM for Speech Emotion Recognition
+https://arxiv.org/abs/2405.04485
+
+sinhat98/adapter-wavlm
+https://github.com/sinhat98/adapter-wavlm
+
+WavLm Complete Guide
+https://blog.unrealspeech.com/wavlm-complete-guide/
+
+504 Gateway Time-out
+https://fxis.ai/edu/how-to-implement-the-wavlm-model-a-beginners-guide/
+
+unilm/wavlm/README.md at master · microsoft/unilm
+https://github.com/microsoft/unilm/blob/master/wavlm/README.md
+
+tuben github - Google Search
+https://www.google.com/search?q=tuben+github&rlz=1C5GCEM_enSE990SE991&oq=tuben+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM5NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+shun60s/Vocal-Tube-Model: a very simple vocal tract model, few tube model. generate vowel sound by it
+https://github.com/shun60s/Vocal-Tube-Model?tab=readme-ov-file
+
+shun60s/vocal-tract-tube-model-list: repositories table related to vocal tract tube model.
+https://github.com/shun60s/vocal-tract-tube-model-list/?tab=readme-ov-file
+
+shun60s/Tube-Model-GUI: A GUI to control three tube resonance model via tkinter.
+https://github.com/shun60s/Tube-Model-GUI
+
+vase - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/vase#English
 
 YouTube
 https://www.youtube.com/
 
-yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader
-https://github.com/yt-dlp/yt-dlp
+The Biceps Training Revolution (MUCH Better Exercises Explained) - YouTube
+https://www.youtube.com/watch?v=hoAczB-xAYk
 
-Couple who were married for 10 years with three kids took DNA test that left wife 'sick to her stomach'
-https://www.ladbible.com/community/23andme-dna-test-married-couple-cousins-362809-20241008
+Brendan O'Brien Interview: The Unsung Hero Of Rock Music - YouTube
+https://www.youtube.com/watch?v=FfoOvO6Xguw&t=33s
 
-Mineralblu (@mineralblu) • Instagram photos and videos
-https://www.instagram.com/mineralblu/
+Phoneme Recognition (caveat emptor) – CMUSphinx Open Source Speech Recognition
+https://cmusphinx.github.io/wiki/phonemerecognition/
 
-Former 'high-functioning alcoholic' shared one sign she suffered from that she only realised after getting sober - LADbible
-https://www.ladbible.com/news/health/high-functioning-alcoholic-sign-sober-774754-20241008
+Pull requests · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/pulls?q=is%3Apr+is%3Aclosed
+
+pocketsphinx/src/ps_config.c at master · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/master/src/ps_config.c#L53
+
+how to train sentences inside model · Issue #225 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/issues/225
+
+Nobel Peace Prize - Wikipedia
+https://en.wikipedia.org/wiki/Nobel_Peace_Prize
+
+Configuration parameters — PocketSphinx 5.0.3 documentation
+https://pocketsphinx.readthedocs.io/en/latest/config_params.html
+
+Main pocketsphinx package — PocketSphinx 5.0.3 documentation
+https://pocketsphinx.readthedocs.io/en/latest/pocketsphinx.html
+
+Code search results
+https://github.com/search?q=repo%3Acmusphinx%2Fpocketsphinx%20allphone&type=code
+
+pocketsphinx/cython/_pocketsphinx.pyx at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/cython/_pocketsphinx.pyx#L1391
+
+pocketsphinx/docs/source/config_params.rst at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/docs/source/config_params.rst#L27
+
+pocketsphinx/doxygen/pocketsphinx.1 at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/doxygen/pocketsphinx.1#L121
+
+pocketsphinx/src/config_macro.h at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/src/config_macro.h#L242
+
+pocketsphinx/test/unit/test_allphone.c at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/test/unit/test_allphone.c#L19
+
+pocketsphinx/cython/test/phoneme_test.py at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/cython/test/phoneme_test.py#L13
+
+pocketsphinx/cython/test/pypocketsphinx_test.py at 7d375e136d2c6fa4f4c024f19526b3cbc056e8f6 · cmusphinx/pocketsphinx
+https://github.com/cmusphinx/pocketsphinx/blob/7d375e136d2c6fa4f4c024f19526b3cbc056e8f6/cython/test/pypocketsphinx_test.py#L169
 
 
