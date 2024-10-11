@@ -133,8 +133,8 @@ https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr
 prabhu24_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/prabhu24_interspeech.pdf
 
-ISCA Archive - Contextual Interactive Evaluation of TTS Models in Dialogue Systems
-https://www.isca-archive.org/interspeech_2024/wang24t_interspeech.html
+wang24t_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/wang24t_interspeech.pdf
 
 lameris24_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/lameris24_interspeech.pdf
@@ -826,63 +826,6 @@ https://golding.wordpress.com/home/other-british-readers-on-librivox/
 Git LFS data quota exceeded · Issue #1 · OscarVanL/LibriTTS-British-Accents
 https://github.com/OscarVanL/LibriTTS-British-Accents/issues/1
 
-LLaVa
-https://huggingface.co/docs/transformers/en/model_doc/llava
-
-haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
-https://github.com/haotian-liu/LLaVA?tab=readme-ov-file
-
-LLaVA/docs/MODEL_ZOO.md at main · haotian-liu/LLaVA
-https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md
-
-liuhaotian/llava-v1.6-34b · Hugging Face
-https://huggingface.co/liuhaotian/llava-v1.6-34b
-
-LLaVA
-https://llava-vl.github.io/
-
-haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
-https://github.com/haotian-liu/LLaVA/tree/main?tab=readme-ov-file
-
-LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT/?tab=readme-ov-file
-
-Video-MME
-https://video-mme.github.io/home_page.html#leaderboard
-
-lmms-lab/LLaVA-Video-72B-Qwen2 · Hugging Face
-https://huggingface.co/lmms-lab/LLaVA-Video-72B-Qwen2
-
-LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT?tab=readme-ov-file
-
-LLaVA-OneVision: Easy Visual Task Transfer
-https://llava-vl.github.io/blog/2024-08-05-llava-onevision/
-
-lmms-lab (LMMs-Lab)
-https://huggingface.co/lmms-lab
-
-lmms-lab/LLaVA-Video-178K · Datasets at Hugging Face
-https://huggingface.co/datasets/lmms-lab/LLaVA-Video-178K
-
-lmms-lab/llava-onevision-qwen2-7b-ov-chat · Hugging Face
-https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov-chat
-
-lmms-lab/LLaVA-Video-7B-Qwen2 · Hugging Face
-https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2
-
-Yi/Cookbook at main · Haijian06/Yi
-https://github.com/Haijian06/Yi/tree/main/Cookbook
-
-01-ai/Yi-1.5: Yi-1.5 is an upgraded version of Yi, delivering stronger performance in coding, math, reasoning, and instruction-following capability.
-https://github.com/01-ai/Yi-1.5
-
-README.md · liuhaotian/llava-v1.6-mistral-7b at main
-https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/blob/main/README.md
-
-facebookresearch/dino: PyTorch code for Vision Transformers training with the Self-Supervised learning method DINO
-https://github.com/facebookresearch/dino
-
 llama.cpp/examples/llava/README.md at master · ggerganov/llama.cpp
 https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/README.md
 
@@ -913,8 +856,8 @@ https://huggingface.co/wrice/wavlm-large-timit-punctuation
 jonatasgrosman/exp_w2v2t_sv-se_wavlm_s132 · Hugging Face
 https://huggingface.co/jonatasgrosman/exp_w2v2t_sv-se_wavlm_s132
 
-[2405.04485] Adapting WavLM for Speech Emotion Recognition
-https://arxiv.org/abs/2405.04485
+2405.04485
+https://arxiv.org/pdf/2405.04485
 
 sinhat98/adapter-wavlm
 https://github.com/sinhat98/adapter-wavlm
@@ -922,7 +865,73 @@ https://github.com/sinhat98/adapter-wavlm
 unilm/wavlm/README.md at master · microsoft/unilm
 https://github.com/microsoft/unilm/blob/master/wavlm/README.md
 
-gpu-admin/README.md at master · tmh/gpu-admin
-https://gits-15.sys.kth.se/tmh/gpu-admin/blob/master/README.md
+python - Extract email addresses from academic curly braces format - Stack Overflow
+https://stackoverflow.com/questions/55461749/extract-email-addresses-from-academic-curly-braces-format
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+Speechlm by lingranshanye2357 · Pull Request #5912 · espnet/espnet
+https://github.com/espnet/espnet/pull/5912/files
+
+[WIP] SpeechLM-based SE for CHiME-4 by YoshikiMas · Pull Request #5904 · espnet/espnet
+https://github.com/espnet/espnet/pull/5904
+
+Add Hugging Face Front End by taiqihe · Pull Request #5913 · espnet/espnet
+https://github.com/espnet/espnet/pull/5913/files
+
+Speechtokenizer Implementation by ftshijt · Pull Request #5891 · espnet/espnet
+https://github.com/espnet/espnet/pull/5891
+
+Init SpeechLM SVS by Tsukasane · Pull Request #5876 · espnet/espnet
+https://github.com/espnet/espnet/pull/5876
+
+Add tacotron2 to TTS2 by jctian98 · Pull Request #5755 · espnet/espnet
+https://github.com/espnet/espnet/pull/5755
+
+amazon-science/stac-speech-translation
+https://github.com/amazon-science/stac-speech-translation
+
+amazon-science repositories
+https://github.com/orgs/amazon-science/repositories?type=all&page=5
+
+amazon-science/siam-mot: SiamMOT: Siamese Multi-Object Tracking
+https://github.com/amazon-science/siam-mot
+
+amazon-science/supervised-intent-clustering: This is a package to fine-tune language models in order to create clustering-friendly embeddings.
+https://github.com/amazon-science/supervised-intent-clustering
+
+amazon-science/ViLA
+https://github.com/amazon-science/ViLA
+
+amazon-science/alexa-arena
+https://github.com/amazon-science/alexa-arena
+
+amazon-science/refinesumm: REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset. ACL 2024
+https://github.com/amazon-science/refinesumm
+
+amazon-science/FLIRT
+https://github.com/amazon-science/FLIRT
+
+amazon-science/tokenalign: Token Alignment via Character Matching for Subword Completion (ACL Findings 2024)
+https://github.com/amazon-science/tokenalign
+
+amazon-science/long-short-term-transformer: [NeurIPS 2021 Spotlight] Official implementation of Long Short-Term Transformer for Online Action Detection
+https://github.com/amazon-science/long-short-term-transformer
+
+amazon-science/MASSIVE-AMR: A dataset with more than 84,000 manually annotated AMR graphs for 1,685 information-seeking utterances mapped to 50+ typologically diverse languages.
+https://github.com/amazon-science/MASSIVE-AMR
+
+amazon-science/embert: Code for EmBERT, a transformer model for embodied, language-guided visual task completion.
+https://github.com/amazon-science/embert
+
+amazon-science/stac-speech-translation
+https://github.com/amazon-science/stac-speech-translation
+
+amazon-science/iwslt-autodub-task
+https://github.com/amazon-science/iwslt-autodub-task
+
+amazon-science/c2f-seg: Official Implementation for ICCV'23 paper Coarse-to-Fine Amodal Segmentation with Shape Prior (C2F-Seg).
+https://github.com/amazon-science/c2f-seg
 
 
