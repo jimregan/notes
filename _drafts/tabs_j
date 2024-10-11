@@ -26,7 +26,7 @@ Label Studio
 http://130.237.3.107:8080/projects/6/data?tab=6&task=87
 
 Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=101
+http://130.237.3.107:8080/projects/5/data?tab=5
 
 Label Studio API
 https://labelstud.io/api
@@ -835,11 +835,47 @@ https://github.com/haotian-liu/LLaVA?tab=readme-ov-file
 LLaVA/docs/MODEL_ZOO.md at main · haotian-liu/LLaVA
 https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md
 
-liuhaotian/llava-v1.6-34b at main
-https://huggingface.co/liuhaotian/llava-v1.6-34b/tree/main
+liuhaotian/llava-v1.6-34b · Hugging Face
+https://huggingface.co/liuhaotian/llava-v1.6-34b
 
-README.md · liuhaotian/llava-v1.6-vicuna-7b at main
-https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b/blob/main/README.md
+LLaVA
+https://llava-vl.github.io/
+
+haotian-liu/LLaVA: [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.
+https://github.com/haotian-liu/LLaVA/tree/main?tab=readme-ov-file
+
+LLaVA-VL/LLaVA-NeXT
+https://github.com/LLaVA-VL/LLaVA-NeXT/?tab=readme-ov-file
+
+Video-MME
+https://video-mme.github.io/home_page.html#leaderboard
+
+lmms-lab/LLaVA-Video-72B-Qwen2 · Hugging Face
+https://huggingface.co/lmms-lab/LLaVA-Video-72B-Qwen2
+
+LLaVA-VL/LLaVA-NeXT
+https://github.com/LLaVA-VL/LLaVA-NeXT?tab=readme-ov-file
+
+LLaVA-OneVision: Easy Visual Task Transfer
+https://llava-vl.github.io/blog/2024-08-05-llava-onevision/
+
+lmms-lab (LMMs-Lab)
+https://huggingface.co/lmms-lab
+
+lmms-lab/LLaVA-Video-178K · Datasets at Hugging Face
+https://huggingface.co/datasets/lmms-lab/LLaVA-Video-178K
+
+lmms-lab/llava-onevision-qwen2-7b-ov-chat · Hugging Face
+https://huggingface.co/lmms-lab/llava-onevision-qwen2-7b-ov-chat
+
+lmms-lab/LLaVA-Video-7B-Qwen2 · Hugging Face
+https://huggingface.co/lmms-lab/LLaVA-Video-7B-Qwen2
+
+Yi/Cookbook at main · Haijian06/Yi
+https://github.com/Haijian06/Yi/tree/main/Cookbook
+
+01-ai/Yi-1.5: Yi-1.5 is an upgraded version of Yi, delivering stronger performance in coding, math, reasoning, and instruction-following capability.
+https://github.com/01-ai/Yi-1.5
 
 README.md · liuhaotian/llava-v1.6-mistral-7b at main
 https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/blob/main/README.md
@@ -847,50 +883,11 @@ https://huggingface.co/liuhaotian/llava-v1.6-mistral-7b/blob/main/README.md
 facebookresearch/dino: PyTorch code for Vision Transformers training with the Self-Supervised learning method DINO
 https://github.com/facebookresearch/dino
 
-Models - Hugging Face
-https://huggingface.co/models?other=dino
-
 llama.cpp/examples/llava/README.md at master · ggerganov/llama.cpp
 https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/README.md
 
-Best llava architecture models - a cmp-nct Collection
-https://huggingface.co/collections/cmp-nct/best-llava-architecture-models-656cc7273dbac3a83d241e79
-
-xtuner/llava-llama-3-8b-v1_1-hf · Hugging Face
-https://huggingface.co/xtuner/llava-llama-3-8b-v1_1-hf
-
-white lie crossed fingers polish - Google Search
-https://www.google.com/search?q=white+lie+crossed+fingers+polish&rlz=1C5GCEM_enSE990SE991&oq=white+lie+crossed+fingers+polish&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyNDI0ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
-
-Crossed fingers - Wikipedia
-https://en.wikipedia.org/wiki/Crossed_fingers
-
-cross one's fingers - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/cross_one%27s_fingers
-
-cross one's fingers - Wiktionary
-https://sv.wiktionary.org/wiki/cross_one%27s_fingers
-
-pitää peukkua - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/pit%C3%A4%C3%A4_peukkua#Finnish
-
-shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
-https://github.com/shivammehta25/Matcha-TTS
-
-Transformers.js
-https://huggingface.co/docs/transformers.js/en/index
-
-huggingface/optimum: 🚀 Accelerate training and inference of 🤗 Transformers and 🤗 Diffusers with easy to use hardware optimization tools
-https://github.com/huggingface/optimum#onnx--onnx-runtime
-
-ONNX Runtime | Home
-https://onnxruntime.ai/
-
-transformers.js/examples/text-to-speech-client/src/worker.js at main · xenova/transformers.js
-https://github.com/xenova/transformers.js/blob/main/examples/text-to-speech-client/src/worker.js
-
-transformers.js/src/models.js at main · xenova/transformers.js
-https://github.com/xenova/transformers.js/blob/main/src/models.js#L2185
+Finetuning and Vocoder Training · Issue #104 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues/104
 
 WavLMForAudioFrameClassification - Google Search
 https://www.google.com/search?q=WavLMForAudioFrameClassification&rlz=1C5GCEM_enSE990SE991&oq=WavLMForAudioFrameClassification&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBBzQxMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -910,9 +907,6 @@ https://huggingface.co/models?other=wavlm&p=1&sort=trending
 lgris/WavLM-large-CORAA-pt · Hugging Face
 https://huggingface.co/lgris/WavLM-large-CORAA-pt
 
-microsoft/wavlm-base-sv · Hugging Face
-https://huggingface.co/microsoft/wavlm-base-sv
-
 wrice/wavlm-large-timit-punctuation · Hugging Face
 https://huggingface.co/wrice/wavlm-large-timit-punctuation
 
@@ -928,13 +922,7 @@ https://github.com/sinhat98/adapter-wavlm
 unilm/wavlm/README.md at master · microsoft/unilm
 https://github.com/microsoft/unilm/blob/master/wavlm/README.md
 
-Billy Sheehan - Bass Secrets [Full Video] - YouTube
-https://www.youtube.com/watch?v=6uzy43CU9iw
-
-Does Bruce Campbell Know Lines From His Most Famous Movies? - YouTube
-https://www.youtube.com/watch?v=m5d_brV744g
-
-new feature: emphatic suffixes/iarmhíreanna treise · michmech/BuNaMo@734e153
-https://github.com/michmech/BuNaMo/commit/734e1532cd1680a769f561eb528a3fba33da6962
+gpu-admin/README.md at master · tmh/gpu-admin
+https://gits-15.sys.kth.se/tmh/gpu-admin/blob/master/README.md
 
 
