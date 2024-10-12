@@ -28,6 +28,9 @@ http://130.237.3.107:8080/projects/6/data?tab=6&task=87
 Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5
 
+Label Studio
+http://130.237.3.107:8080/projects/7/data?tab=7&task=96
+
 Label Studio API
 https://labelstud.io/api
 
@@ -124,20 +127,11 @@ https://scikit-learn.org/stable/modules/neighbors.html
 ISCA Archive
 https://www.isca-archive.org/interspeech_2024/index.html
 
-kang24b_interspeech.pdf
-https://www.isca-archive.org/interspeech_2024/kang24b_interspeech.pdf
-
 StevenVdEeckt/unsupervised-ocl-for-asr: Supplementary material to the paper "Unsupervised Online Continual Learning for Automatic Speech Recognition", accepted for Interspeech 2024.
 https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr
 
 prabhu24_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/prabhu24_interspeech.pdf
-
-wang24t_interspeech.pdf
-https://www.isca-archive.org/interspeech_2024/wang24t_interspeech.pdf
-
-lameris24_interspeech.pdf
-https://www.isca-archive.org/interspeech_2024/lameris24_interspeech.pdf
 
 tannander24_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/tannander24_interspeech.pdf
@@ -148,20 +142,11 @@ https://www.isca-archive.org/interspeech_2024/yang24_interspeech.pdf
 iooops/G2PA
 https://github.com/iooops/G2PA
 
-G2PA/train_aligner.sh at main · iooops/G2PA
-https://github.com/iooops/G2PA/blob/main/train_aligner.sh
-
 G2PA/hubert_extractor.py at main · iooops/G2PA
 https://github.com/iooops/G2PA/blob/main/hubert_extractor.py
 
 kakaobrain/g2pm: A Neural Grapheme-to-Phoneme Conversion Package for Mandarin Chinese Based on a New Open Benchmark Dataset
 https://github.com/kakaobrain/g2pm
-
-TencentGameMate/chinese-hubert-base · Hugging Face
-https://huggingface.co/TencentGameMate/chinese-hubert-base
-
-chinese_speech_pretrain/hubert_kmeans at master · TencentGameMate/chinese_speech_pretrain
-https://github.com/TencentGameMate/chinese_speech_pretrain/tree/master/hubert_kmeans
 
 unsupervised-ocl-for-asr/models/conf/training at main · StevenVdEeckt/unsupervised-ocl-for-asr
 https://github.com/StevenVdEeckt/unsupervised-ocl-for-asr/tree/main/models/conf/training
@@ -250,32 +235,8 @@ https://github.com/showlab/Show-o?tab=readme-ov-file
 hub.docker.com/r/kaldiasr/kaldi
 https://hub.docker.com/r/kaldiasr/kaldi
 
-Added jsgf/fsg tags extraction by CarloBenussi · Pull Request #84 · cmusphinx/pocketsphinx
-https://github.com/cmusphinx/pocketsphinx/pull/84
-
-Long Audio Alignment Overview – CMUSphinx Open Source Speech Recognition
-https://cmusphinx.github.io/wiki/longaudioalignment/
-
-ReadAlongs/SoundSwallower: An even smaller speech recognizer / force aligner
-https://github.com/ReadAlongs/SoundSwallower?tab=readme-ov-file
-
-g2p/g2p/mappings/langs/crm at main · roedoejet/g2p
-https://github.com/roedoejet/g2p/tree/main/g2p/mappings/langs/crm
-
-dhdaines/playa: PLAYA is a LAYout Analyzer 🏖️
-https://github.com/dhdaines/playa
-
-cmusphinx/pocketsphinx: A small speech recognizer
-https://github.com/cmusphinx/pocketsphinx
-
-soundswallower package — SoundSwallower 0.3 documentation
-https://soundswallower.readthedocs.io/en/latest/soundswallower.html
-
-ReadAlongs/Studio: Audiobook alignment for Indigenous languages
-https://github.com/ReadAlongs/Studio
-
-The Web App - ReadAlong-Studio
-https://readalongs.github.io/Studio/latest/web-app/
+g2p/g2p/mappings/langs/eng/eng_ipa_to_arpabet.json at main · roedoejet/g2p
+https://github.com/roedoejet/g2p/blob/main/g2p/mappings/langs/eng/eng_ipa_to_arpabet.json
 
 ReadAlong-Studio for Interactive Storytelling
 https://readalong-studio.mothertongues.org/#/editor
@@ -283,14 +244,17 @@ https://readalong-studio.mothertongues.org/#/editor
 ReadAlong-Studio for Interactive Storytelling
 https://readalong-studio.mothertongues.org/#/
 
-drmfinlay/pyjsgf: JSpeech Grammar Format (JSGF) compiler, matcher and parser package for Python.
-https://github.com/drmfinlay/pyjsgf/tree/master
+ReadAlong-Studio for Interactive Storytelling
+https://readalong-studio.mothertongues.org/#/
+
+pyjsgf/examples/dictation grammar example.py at master · drmfinlay/pyjsgf
+https://github.com/drmfinlay/pyjsgf/blob/master/examples/dictation%20grammar%20example.py
 
 pyctcdecode/pyctcdecode/decoder.py at main · kensho-technologies/pyctcdecode
 https://github.com/kensho-technologies/pyctcdecode/blob/main/pyctcdecode/decoder.py
 
-whisper turbo - Google Search
-https://www.google.com/search?q=whisper+turbo&rlz=1C5GCEM_enSE990SE991&oq=whisper+turbo&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDI3MzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Speech Transcriber by Sieve — Run with an API
+https://www.sievedata.com/functions/sieve/speech_transcriber
 
 owsm huggingface - Google Search
 https://www.google.com/search?q=owsm+huggingface&rlz=1C5GCEM_enSE990SE991&oq=owsm+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQRRg80gEIMzY4NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -895,26 +859,20 @@ https://github.com/amazon-science/stac-speech-translation
 amazon-science repositories
 https://github.com/orgs/amazon-science/repositories?type=all&page=5
 
-amazon-science/siam-mot: SiamMOT: Siamese Multi-Object Tracking
-https://github.com/amazon-science/siam-mot
-
 amazon-science/supervised-intent-clustering: This is a package to fine-tune language models in order to create clustering-friendly embeddings.
 https://github.com/amazon-science/supervised-intent-clustering
 
 amazon-science/ViLA
 https://github.com/amazon-science/ViLA
 
-amazon-science/alexa-arena
-https://github.com/amazon-science/alexa-arena
-
 amazon-science/refinesumm: REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset. ACL 2024
 https://github.com/amazon-science/refinesumm
 
-amazon-science/FLIRT
-https://github.com/amazon-science/FLIRT
-
 amazon-science/tokenalign: Token Alignment via Character Matching for Subword Completion (ACL Findings 2024)
 https://github.com/amazon-science/tokenalign
+
+pygtrie · PyPI
+https://pypi.org/project/pygtrie/
 
 amazon-science/long-short-term-transformer: [NeurIPS 2021 Spotlight] Official implementation of Long Short-Term Transformer for Online Action Detection
 https://github.com/amazon-science/long-short-term-transformer
@@ -933,5 +891,110 @@ https://github.com/amazon-science/iwslt-autodub-task
 
 amazon-science/c2f-seg: Official Implementation for ICCV'23 paper Coarse-to-Fine Amodal Segmentation with Shape Prior (C2F-Seg).
 https://github.com/amazon-science/c2f-seg
+
+Open-Source Kahoot-clone : r/opensource
+https://www.reddit.com/r/opensource/comments/tb40ch/opensource_kahootclone/
+
+mawoka-myblock/ClassQuiz: ClassQuiz is a quiz-application like Kahoot!, but open-source.
+https://github.com/mawoka-myblock/ClassQuiz/tree/master?tab=readme-ov-file
+
+kahoot clone github - Google Search
+https://www.google.com/search?q=kahoot+clone+github&sca_esv=cc6d6b10f485ae1c&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKkdQRpOfy7XAWpNWSN-rmi-3wBiw:1728638349714&ei=je0IZ-uhK4mj1fIPuouO4Q0&start=20&sa=N&sstk=Aagrsuj8CrM6EPEk5itue8sQS1DUdnbmD8DDhgnPPKb3YojYrl1x_gCUH2IMWHTUHQWLhhm5d1w64TKLzVxOZgsf4gt_VnZU_ac_00bYEOZPE4msodeRtafMZGgDOelcEavU&ved=2ahUKEwirnJ7W_4WJAxWJUVUIHbqFI9w4ChDw0wN6BAgEEBc&biw=1440&bih=734&dpr=2
+
+kwkoo/go-quiz: A Kahoot clone with a UI based on Ethan Brimhall's kahoot-clone-nodejs
+https://github.com/kwkoo/go-quiz
+
+hackclub-workshops/showcase/Kuizzy/app.js at main · khrj/hackclub-workshops
+https://github.com/khrj/hackclub-workshops/blob/main/showcase/Kuizzy/app.js
+
+shablool/private at password-prod · BsmhDevTeam/shablool
+https://github.com/BsmhDevTeam/shablool/tree/password-prod/private
+
+Heroku | Application Error
+https://shablool.herokuapp.com/
+
+ChatGPT
+https://chatgpt.com/c/6708ee31-2c18-8011-bff8-995268a1642e
+
+kahoot clone video github python mit - Google Search
+https://www.google.com/search?q=kahoot+clone+video+github+python+mit&sca_esv=cc6d6b10f485ae1c&rlz=1C5GCEM_enSE990SE991&biw=1440&bih=734&sxsrf=ADLYWIJk2_XxVzym1UE_sKoE-oOe9G-Yxg%3A1728640232216&ei=6PQIZ6zpDL-_wPAPwIei8Q4&ved=0ahUKEwis_fDXhoaJAxW_HxAIHcCDKO44FBDh1QMIDw&uact=5&oq=kahoot+clone+video+github+python+mit&gs_lp=Egxnd3Mtd2l6LXNlcnAiJGthaG9vdCBjbG9uZSB2aWRlbyBnaXRodWIgcHl0aG9uIG1pdDIFECEYoAEyBRAhGKABSOEJUL4BWJUIcAF4AZABAJgBYaABsgKqAQE0uAEDyAEA-AEBmAIFoAK_AsICChAAGLADGNYEGEfCAgUQIRifBcICBBAhGBWYAwCIBgGQBgiSBwM0LjGgB_0R&sclient=gws-wiz-serp
+
+Rahoot/config.mjs at main · Ralex91/Rahoot
+https://github.com/Ralex91/Rahoot/blob/main/config.mjs
+
+lycaon7/Kahoot-Clone
+https://github.com/lycaon7/Kahoot-Clone
+
+The open source Kahoot alternative
+https://supabase.com/blog/meetup-kahoot-alternative
+
+supabase-community/kahoot-alternative: An open source Kahoot alternative made with Next.js and Supabase
+https://github.com/supabase-community/kahoot-alternative
+
+trimesh 4.4.9 documentation
+https://trimesh.org/
+
+NVIDIAGameWorks/kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research
+https://github.com/NVIDIAGameWorks/kaolin?tab=readme-ov-file
+
+GIT clone repo across local file system in windows - Stack Overflow
+https://stackoverflow.com/questions/2519933/git-clone-repo-across-local-file-system-in-windows
+
+diff-motion - Google Search
+https://www.google.com/search?q=diff-motion&rlz=1C5GCEM_enSE990SE991&oq=diff-motion&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgKGB4yCggCEAAYCBgKGB4yCggDEAAYCBgKGB4yCggEEAAYCBgKGB4yDAgFEAAYCBgKGA8YHjIMCAYQABgIGAoYDxgeMgwIBxAAGAgYChgPGB4yCggIEAAYCBgKGB4yDAgJEAAYCBgKGA8YHtIBBzI5NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+StandardScaler — scikit-learn 1.6.dev0 documentation
+https://scikit-learn.org/dev/modules/generated/sklearn.preprocessing.StandardScaler.html
+
+1-D interpolation — SciPy v1.14.1 Manual
+https://docs.scipy.org/doc/scipy/tutorial/interpolate/1D.html#tutorial-interpolate-1dsection
+
+Wikispeech/Background - Meta
+https://meta.wikimedia.org/wiki/Wikispeech/Background
+
+Wikispeech
+https://wikispeech.wmflabs.org/wiki/Main_Page
+
+JSpeech Grammar Format
+https://www.w3.org/TR/2000/NOTE-jsgf-20000605/
+
+navajo for china - Google Search
+https://www.google.com/search?q=navaho+for+china&rlz=1C5GCEM_enSE990SE991&oq=navaho+for+china&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEIMjg3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Category:Navajo proper nouns - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Category:Navajo_proper_nouns
+
+Bitsiighaʼ Łichííʼí Bikéyah - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Bitsiigha%CA%BC_%C5%81ich%C3%AD%C3%AD%CA%BC%C3%AD_Bik%C3%A9yah#Navajo
+
+Dahojiyáanii Bikéyah - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Dahojiy%C3%A1anii_Bik%C3%A9yah#Navajo
+
+Dahńdzílgaiʼnii Bikéyah - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Dah%C5%84dz%C3%ADlgai%CA%BCnii_Bik%C3%A9yah#Navajo
+
+YouTube
+https://www.youtube.com/
+
+Yngwie Malmsteen's Thoughts on Grunge Music - Fire & Ice Era - YouTube
+https://www.youtube.com/shorts/5ncVcVX9vgM
+
+How Dafne Keen's X-23 Claws Were Created For Logan - YouTube
+https://www.youtube.com/shorts/WiOpE5o6SNQ
+
+Keanu Reeves vs Ruby Rose training fight 'John Wick 2' Behind The Scenes - YouTube
+https://www.youtube.com/watch?v=4JHv_CHqt9w
+
+This is why men don’t understand “hints”…#shorts - YouTube
+https://www.youtube.com/shorts/H5G0aqiMZjY
+
+The 5 Richest Drummers In The World 🌎 #richest #drummer #drums #drumband #drum #shorts #facts #top5 - YouTube
+https://www.youtube.com/shorts/pMj1R__gkLM
+
+Nobody Warned Her 😱😂 #shorts - YouTube
+https://www.youtube.com/shorts/F57uvMC-y7M
+
+Yngwie SHREDS at Guitar Store! - YouTube
+https://www.youtube.com/shorts/yScBIxlX8V4
 
 
