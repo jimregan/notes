@@ -29,7 +29,10 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5
 
 Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=96
+http://130.237.3.107:8080/projects/6/data?tab=6&task=89
+
+Label Studio
+http://130.237.3.107:8080/projects/6/data?task=88
 
 Label Studio API
 https://labelstud.io/api
@@ -279,6 +282,9 @@ https://github.com/speechbrain/speechbrain/pull/2700
 
 Voice analysis functions by pplantinga · Pull Request #2689 · speechbrain/speechbrain
 https://github.com/speechbrain/speechbrain/pull/2689
+
+speechbrain/speechbrain/processing/voice_analysis.py at 1e0170926d8404f429af46197db4c903be453e1a · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/blob/1e0170926d8404f429af46197db4c903be453e1a/speechbrain/processing/voice_analysis.py
 
 ✨ Add SNAC by julien-blanchon · Pull Request #2568 · speechbrain/speechbrain
 https://github.com/speechbrain/speechbrain/pull/2568
@@ -921,5 +927,38 @@ https://www.youtube.com/watch?v=fFXKNoproGI
 
 Jupyter Notebook Viewer
 https://nbviewer.org/gist/r9y9/e7d6604757403ec74557ccd93e1f0c8c
+
+breath detection github - Google Search
+https://www.google.com/search?q=breath+detection+github&rlz=1C5GCEM_enSE990SE991&oq=breath+detection+&gs_lcrp=EgZjaHJvbWUqBggBECMYJzIGCAAQRRg5MgYIARAjGCcyBwgCEAAYgAQyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBggFEEUYPTIGCAYQRRg8MgYIBxBFGDzSAQg0MjQ5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+dioptx/InhaleSense: A deep learning approach for respiratory audio discovery and classification.
+https://github.com/dioptx/InhaleSense?tab=readme-ov-file
+
+snousias/Revisiting-Content-Based-Audio-Classification-for-Asthma-Medication-Adherence: Asthma is a common, usually long-term respiratory disease with negative impact on society and the economy worldwide. Treatment involves using medical devices (inhalers) that distribute medicationto the airways, and its efficiency depends on the precision of the inhalation technique. Health monitoring systems equipped with sensors and embedded with sound signal detection enable the recognition of drug actuation and could be powerful tools for reliable audio content analysis. This repository includes a set of tools for audio processing, feature extraction and classification and is provided along with a dataset consisting of respiratory and drug actuation sounds. The classification models are implemented based on machine learning and deep approaches. This study provides a comparative evaluation of the implemented approaches, examines potential improvements and discusses challenges and future tendencies.
+https://github.com/snousias/Revisiting-Content-Based-Audio-Classification-for-Asthma-Medication-Adherence/tree/master
+
+Breath-Detection/training_main_lstm.py at master · anhtu1197/Breath-Detection
+https://github.com/anhtu1197/Breath-Detection/blob/master/training_main_lstm.py
+
+(1) Home / X
+https://x.com/home
+
+"Weird Al" Yankovic - Wikipedia
+https://en.wikipedia.org/wiki/%22Weird_Al%22_Yankovic
+
+Screenshot_20241010-204900 | Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/54057636028/in/photostream/
+
+Instagram
+https://www.instagram.com/
+
+Personal Shopper / Надежный сервис персонального шопинга | Выкатываем вишлисты😁 Отправляй, тому самому, чтобы напомнить! | Instagram
+https://www.instagram.com/p/DA8JY6oic01/
+
+Brianna Torres | last of my Velma content (for now) 🔍🧡🤓 #velma #velmadinkley #scoobydoo #scoobydoocosplay | Instagram
+https://www.instagram.com/p/DBCxoCEyKya/
+
+Live: Israeli tanks 'forcibly entered' UN post, UNIFIL says
+https://www.rte.ie/news/2024/1013/1475194-middle-east-tracker/?fbclid=PAZXh0bgNhZW0CMTEAAaZvEvnRK9y9cpigTIy16O2l-r76Ykkow11MStjCfdcDax3WwTOyuk-5AQk_aem_UMU6rPScuq1cfs-P4ld_Xw
 
 
