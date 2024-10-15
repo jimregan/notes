@@ -17,10 +17,7 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=72
 
 Label Studio
-http://130.237.3.107:8080/projects/8/data?tab=8&task=117
-
-Label Studio
-http://130.237.3.107:8080/projects/8/data?tab=8&task=110
+http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
 Label Studio
 http://130.237.3.107:8080/projects/6/data?tab=6&task=87
@@ -29,10 +26,19 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5
 
 Label Studio
-http://130.237.3.107:8080/projects/6/data?tab=6&task=89
+http://130.237.3.107:8080/projects/6/data?tab=6&task=88
 
 Label Studio
-http://130.237.3.107:8080/projects/6/data?task=88
+http://130.237.3.107:8080/projects/7/data?tab=7&task=104
+
+Label Studio
+http://130.237.3.107:8080/projects/6/data?tab=6&task=88
+
+Label Studio
+http://130.237.3.107:8080/projects/7/data?tab=7&task=102
+
+Label Studio
+http://130.237.3.107:8080/projects/5/data?tab=5&task=82
 
 Label Studio API
 https://labelstud.io/api
@@ -940,19 +946,121 @@ https://github.com/snousias/Revisiting-Content-Based-Audio-Classification-for-As
 Breath-Detection/training_main_lstm.py at master · anhtu1197/Breath-Detection
 https://github.com/anhtu1197/Breath-Detection/blob/master/training_main_lstm.py
 
+Changes for mm-conv experiments by jimregan · Pull Request #58 · jimregan/sync-asr
+https://github.com/jimregan/sync-asr/pull/58/files#diff-a12ab605015c17649fd175d957dfd2f83135f954fa312c702d8b3ca9e3ef7131
+
+[Kaldi-Vosk] How to convert a static graph (HCLG.fst) into a dynamic graph (HCLr.fst, Gr.fst)? : r/speechrecognition
+https://www.reddit.com/r/speechrecognition/comments/nva1hw/kaldivosk_how_to_convert_a_static_graph_hclgfst/
+
+Kaldi ASR: Extending the ASpIRE model – Research Stories
+https://chrisearch.wordpress.com/2017/03/11/speech-recognition-using-kaldi-extending-and-using-the-aspire-model/
+
+python - What is a cross-platform way to get the home directory? - Stack Overflow
+https://stackoverflow.com/questions/4028904/what-is-a-cross-platform-way-to-get-the-home-directory
+
+Python FileNotFound - Stack Overflow
+https://stackoverflow.com/questions/22366282/python-filenotfound
+
+phonemizer/test/test_espeak.py at master · bootphon/phonemizer
+https://github.com/bootphon/phonemizer/blob/master/test/test_espeak.py
+
+New Tab
+chrome://newtab/
+
+Label Studio
+http://130.237.3.107:8080/projects/7/data?tab=7
+
+[Issue]: Could not load library libcudnn_cnn_infer.so.8. · vladmandic/automatic · Discussion #540
+https://github.com/vladmandic/automatic/discussions/540
+
+m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
+https://github.com/m-bain/whisperX
+
+undefined symbol when importing torchaudio with pytorch · Issue #62 · pytorch/audio
+https://github.com/pytorch/audio/issues/62
+
+Start Locally | PyTorch
+https://pytorch.org/get-started/locally/
+
 Instagram
 https://www.instagram.com/
 
-YouTube
-https://www.youtube.com/
+Could not load library libcudnn_ops_infer.so.8 · Issue #516 · SYSTRAN/faster-whisper
+https://github.com/SYSTRAN/faster-whisper/issues/516
 
-YouTube
-https://www.youtube.com/
+Cudnn | Anaconda.org
+https://anaconda.org/conda-forge/cudnn
 
-The WAKE UP CALL many great musicians will have to face! - YouTube
-https://www.youtube.com/watch?v=2DqPJ5yQwIc
+Server complains about float16 compute type. · Issue #195 · collabora/WhisperLive
+https://github.com/collabora/WhisperLive/issues/195
 
-SOME A$$HOLE STOLE MY MUSIC - YouTube
-https://www.youtube.com/watch?v=020dKoNzLAs
+Installing the NVIDIA Container Toolkit — NVIDIA Container Toolkit 1.16.2 documentation
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt
+
+whisperX/whisperx/diarize.py at 9e3a9e0e38fcec1304e1784381059a0e2c670be5 · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/9e3a9e0e38fcec1304e1784381059a0e2c670be5/whisperx/diarize.py
+
+faster-whisper/faster_whisper/vad.py at master · SYSTRAN/faster-whisper
+https://github.com/SYSTRAN/faster-whisper/blob/master/faster_whisper/vad.py
+
+Instagram
+https://www.instagram.com/
+
+lhotse-speech/lhotse: Tools for handling speech data in machine learning projects.
+https://github.com/lhotse-speech/lhotse
+
+Pull requests · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pulls
+
+Fleurs by m-wiesner · Pull Request #1402 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1402/files
+
+Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/656/files
+
+Add faster-whisper (ctranslate2) as option for Whisper annotation workflow by entn-at · Pull Request #1017 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1017
+
+API - Toolz
+https://toolz.readthedocs.io/en/latest/api.html#itertoolz
+
+TextGrid to Label Studio | notes
+https://jimregan.github.io/notes/textgrid/json/hsi/2024/09/20/textgrid-via-labelstudio-api.html
+
+Trying to use pocketsphinx to word align | notes
+https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
+
+Breath detector textgrid to Label Studio | notes
+https://jimregan.github.io/notes/labelstudio/breath-detector/textgrid/hsi/2024/09/24/breath-detector-textgrid-via-labelstudio-api.html
+
+python - Finding a key corresponding to an approximate user input value - Stack Overflow
+https://stackoverflow.com/questions/46895157/finding-a-key-corresponding-to-an-approximate-user-input-value
+
+Trie implementation using nested dictionaries — dict-trie latest documentation
+https://dict-trie.readthedocs.io/en/latest/index.html
+
+Get task — API Reference | Label Studio
+https://api.labelstud.io/api-reference/api-reference/tasks/get
+
+F5-TTS
+https://swivid.github.io/F5-TTS/
+
+F5-TTS/model/modules.py at main · SWivid/F5-TTS
+https://github.com/SWivid/F5-TTS/blob/main/model/modules.py
+
+MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
+https://github.com/MahmoudAshraf97/ctc-forced-aligner
+
+facebookresearch/ConvNeXt-V2: Code release for ConvNeXt V2 model
+https://github.com/facebookresearch/ConvNeXt-V2?tab=readme-ov-file
+
+Label Studio
+http://130.237.3.107:8080/projects/10/data?tab=9&task=119
+
+decline of arabic science in the middle ages - Google Search
+https://www.google.com/search?q=decline+of+arabic+science+in+the+middle+ages&rlz=1C5GCEM_enSE990SE991&oq=decline+of+arabic+science+in+the+mi&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIGCAMQIRgV0gEIODY1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Why the Arabic World Turned Away from Science — The New Atlantis
+https://www.thenewatlantis.com/publications/why-the-arabic-world-turned-away-from-science
 
 
