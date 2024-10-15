@@ -964,77 +964,14 @@ https://stackoverflow.com/questions/22366282/python-filenotfound
 phonemizer/test/test_espeak.py at master · bootphon/phonemizer
 https://github.com/bootphon/phonemizer/blob/master/test/test_espeak.py
 
-New Tab
-chrome://newtab/
-
 Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7
-
-[Issue]: Could not load library libcudnn_cnn_infer.so.8. · vladmandic/automatic · Discussion #540
-https://github.com/vladmandic/automatic/discussions/540
-
-m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
-https://github.com/m-bain/whisperX
-
-undefined symbol when importing torchaudio with pytorch · Issue #62 · pytorch/audio
-https://github.com/pytorch/audio/issues/62
-
-Start Locally | PyTorch
-https://pytorch.org/get-started/locally/
-
-Instagram
-https://www.instagram.com/
-
-Could not load library libcudnn_ops_infer.so.8 · Issue #516 · SYSTRAN/faster-whisper
-https://github.com/SYSTRAN/faster-whisper/issues/516
-
-Cudnn | Anaconda.org
-https://anaconda.org/conda-forge/cudnn
-
-Server complains about float16 compute type. · Issue #195 · collabora/WhisperLive
-https://github.com/collabora/WhisperLive/issues/195
-
-Installing the NVIDIA Container Toolkit — NVIDIA Container Toolkit 1.16.2 documentation
-https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#installing-with-apt
-
-whisperX/whisperx/diarize.py at 9e3a9e0e38fcec1304e1784381059a0e2c670be5 · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/9e3a9e0e38fcec1304e1784381059a0e2c670be5/whisperx/diarize.py
-
-faster-whisper/faster_whisper/vad.py at master · SYSTRAN/faster-whisper
-https://github.com/SYSTRAN/faster-whisper/blob/master/faster_whisper/vad.py
-
-Instagram
-https://www.instagram.com/
-
-lhotse-speech/lhotse: Tools for handling speech data in machine learning projects.
-https://github.com/lhotse-speech/lhotse
-
-Pull requests · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pulls
-
-Fleurs by m-wiesner · Pull Request #1402 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1402/files
-
-Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/656/files
-
-Add faster-whisper (ctranslate2) as option for Whisper annotation workflow by entn-at · Pull Request #1017 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1017
-
-API - Toolz
-https://toolz.readthedocs.io/en/latest/api.html#itertoolz
+http://130.237.3.107:8080/projects/7/data?tab=7&task=102
 
 TextGrid to Label Studio | notes
 https://jimregan.github.io/notes/textgrid/json/hsi/2024/09/20/textgrid-via-labelstudio-api.html
 
 Trying to use pocketsphinx to word align | notes
 https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
-
-Breath detector textgrid to Label Studio | notes
-https://jimregan.github.io/notes/labelstudio/breath-detector/textgrid/hsi/2024/09/24/breath-detector-textgrid-via-labelstudio-api.html
-
-python - Finding a key corresponding to an approximate user input value - Stack Overflow
-https://stackoverflow.com/questions/46895157/finding-a-key-corresponding-to-an-approximate-user-input-value
 
 Trie implementation using nested dictionaries — dict-trie latest documentation
 https://dict-trie.readthedocs.io/en/latest/index.html
@@ -1054,13 +991,166 @@ https://github.com/MahmoudAshraf97/ctc-forced-aligner
 facebookresearch/ConvNeXt-V2: Code release for ConvNeXt V2 model
 https://github.com/facebookresearch/ConvNeXt-V2?tab=readme-ov-file
 
-Label Studio
-http://130.237.3.107:8080/projects/10/data?tab=9&task=119
+What is Audio Ducking and How is it Used? | Boris FX
+https://borisfx.com/blog/what-is-audio-ducking-and-how-is-it-used/
 
-decline of arabic science in the middle ages - Google Search
-https://www.google.com/search?q=decline+of+arabic+science+in+the+middle+ages&rlz=1C5GCEM_enSE990SE991&oq=decline+of+arabic+science+in+the+mi&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIGCAMQIRgV0gEIODY1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+Tutorial on declipping WAV files. I introduce the problem of clipped… | by Team Papercup | Papercup AI | Medium
+https://medium.com/papercup-ai/tutorial-on-declipping-wav-files-58fa87a27d44
 
-Why the Arabic World Turned Away from Science — The New Atlantis
-https://www.thenewatlantis.com/publications/why-the-arabic-world-turned-away-from-science
+find clipping in a wave file python - Google Search
+https://www.google.com/search?q=find+clipping+in+a+wave+file+python&rlz=1C5GCEM_enSE990SE991&oq=find&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5Mg0IAhAAGJECGIAEGIoFMgYIAxBFGD0yBggEEEUYPTIGCAUQRRhBMgYIBhBFGD0yBggHEEUYQdIBBzg2MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+audio - Clipping Tops of Waveforms in Python - Stack Overflow
+https://stackoverflow.com/questions/23284531/clipping-tops-of-waveforms-in-python
+
+clipdetect · PyPI
+https://pypi.org/project/clipdetect/
+
+clipdetect github - Google Search
+https://www.google.com/search?q=clipdetect+github&sca_esv=d909a4843931226e&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIIQhUfZM6taau3opV3wUH58GVlvAA%3A1729005095953&ei=J4YOZ4vcOd6bwPAPjtrkiQI&ved=0ahUKEwjLi7z01ZCJAxXeDRAIHQ4tOSEQ4dUDCA8&uact=5&oq=clipdetect+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWNsaXBkZXRlY3QgZ2l0aHViMgcQIRigARgKSI4TUIEIWJQRcAJ4AZABAJgBZKABxQSqAQM2LjG4AQPIAQD4AQGYAgmgAuQEwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA3CAggQABgNGB4YD8ICBhAAGA0YHsICCBAAGAUYDRgewgIIEAAYgAQYogTCAgUQIRigAcICBhAAGBYYHpgDAIgGAZAGCJIHAzguMaAHjxg&sclient=gws-wiz-serp
+
+I wrote a clipping detection algorithm in C : r/audioengineering
+https://www.reddit.com/r/audioengineering/comments/q240g8/i_wrote_a_clipping_detection_algorithm_in_c/
+
+oriBetelgeuse/CLIPDetection
+https://github.com/oriBetelgeuse/CLIPDetection
+
+clipdetect · PyPI
+https://pypi.org/project/clipdetect/#files
+
+Nonlinear waveform distortion: Assessment and detection of clipping on speech data and systems - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0167639321000832
+
+roedoejet (roedoejet) / Repositories
+https://github.com/roedoejet?tab=repositories&q=clip&type=&language=&sort=
+
+nrc-cnrc repositories
+https://github.com/orgs/nrc-cnrc/repositories
+
+Comparing main...clipdetect · jimregan/mmconv-matcha-prep
+https://github.com/jimregan/mmconv-matcha-prep/compare/clipdetect?expand=1
+
+History of the International Phonetic Alphabet - Wikipedia
+https://en.wikipedia.org/wiki/History_of_the_International_Phonetic_Alphabet
+
+History of the International Phonetic Alphabet - Wikipedia
+https://en.wikipedia.org/wiki/History_of_the_International_Phonetic_Alphabet#CITEREFAssociation_phon%C3%A9tique_internationale1921
+
+Internet Archive: Service Availability
+https://archive.org/details/ecriturephonetiqueinternationale1921
+
+Internet Archive (@archive.org) — Bluesky
+https://bsky.app/profile/did:plc:73dpznbu4wqwtcyurwbiulov
+
+ƪ - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/%C6%AA
+
+Discover — Bluesky
+https://bsky.app/
+
+Terms of Service - Bluesky
+https://bsky.social/about/support/tos
+
+AT Protocol - AT Protocol
+https://atproto.com/specs/atp
+
+bluesky-social/atproto: Social networking technology created by Bluesky
+https://github.com/bluesky-social/atproto
+
+bluesky-social
+https://github.com/bluesky-social
+
+bluesky-social/indigo: Go source code for Bluesky's atproto services.
+https://github.com/bluesky-social/indigo
+
+bluesky-social/react-native-paste-input: React Native TextInput replacement to allow pasting files
+https://github.com/bluesky-social/react-native-paste-input
+
+Discover — Bluesky
+https://bsky.app/
+
+jbeskow/OverFlow-sardrag: Probabilistic speech syntheses by mixing neural HMM TTS with normalising flows
+https://github.com/jbeskow/OverFlow-sardrag
+
+Comparing shivammehta25:main...jimregan:OverFlow-sardrag · shivammehta25/OverFlow
+https://github.com/shivammehta25/OverFlow/compare/main...jimregan:OverFlow:OverFlow-sardrag?expand=1
+
+git - How to add a local repo and treat it as a remote repo - Stack Overflow
+https://stackoverflow.com/questions/10603671/how-to-add-a-local-repo-and-treat-it-as-a-remote-repo
+
+linux - Copying a large directory tree locally? cp or rsync? - Server Fault
+https://serverfault.com/questions/43014/copying-a-large-directory-tree-locally-cp-or-rsync
+
+Cannot get rsync to ignore my git folder and my todo file - Stack Overflow
+https://stackoverflow.com/questions/26380455/cannot-get-rsync-to-ignore-my-git-folder-and-my-todo-file
+
+Repository Settings
+https://huggingface.co/docs/hub/en/repositories-settings
+
+perezpoz (perezpoz) / Repositories
+https://github.com/perezpoz?tab=repositories
+
+perezpoz/KalmANF: A frequency tracker based on a Kalman filter update of a single parameter adaptive notch filter
+https://github.com/perezpoz/KalmANF
+
+perezpoz/wavebender-gan
+https://github.com/perezpoz/wavebender-gan
+
+perezpoz (perezpoz) / Repositories
+https://github.com/perezpoz?tab=repositories
+
+perezpoz/CleanWhisperDetection
+https://github.com/perezpoz/CleanWhisperDetection/tree/main
+
+A processing framework to access large quantities of whispered speech found in ASMR | Pablo’s GitHub Pages
+https://perezpoz.github.io/cwad
+
+perezpoz/Edyson_whisper: Flask-based web framework for visualisation and explorative listening of audio.
+https://github.com/perezpoz/Edyson_whisper
+
+jmrplens/PyOctaveBand: [Python3] Octave-Band and Fractional Octave-Band filter. For signal in time domain.
+https://github.com/jmrplens/PyOctaveBand
+
+perezpoz/PercepNet: Unofficial implementation of PercepNet: A Perceptually-Motivated Approach for Low-Complexity, Real-Time Enhancement of Fullband Speech
+https://github.com/perezpoz/PercepNet?tab=readme-ov-file
+
+github.com
+https://github.com/wil-j-wil/py_bank
+
+xiph/LPCNet: Efficient neural speech synthesis
+https://github.com/xiph/LPCNet
+
+Xiph.Org Foundation
+https://github.com/xiph
+
+xiph/rnnoise: Recurrent neural network for audio noise reduction
+https://github.com/xiph/rnnoise?tab=readme-ov-file
+
+RNNoise: Learning Noise Suppression
+https://jmvalin.ca/demo/rnnoise/
+
+Monty's Demo Pages
+https://people.xiph.org/~xiphmont/demo/index.html
+
+xiph/rnnoise: Recurrent neural network for audio noise reduction
+https://github.com/xiph/rnnoise
+
+Speaker-independent neural formant synthesis
+https://arxiv.org/pdf/2306.01957
+
+ljuvela (ljuvela) / Repositories
+https://github.com/ljuvela?tab=repositories
+
+SourceFilterNeuralFormants/checkpoints at master · ljuvela/SourceFilterNeuralFormants
+https://github.com/ljuvela/SourceFilterNeuralFormants/tree/master/checkpoints
+
+ljuvela/GELP
+https://github.com/ljuvela/GELP
+
+Pull requests · ljuvela/GlotNet
+https://github.com/ljuvela/GlotNet/pulls?q=is%3Apr+is%3Aclosed
+
+ljuvela/GlotNet
+https://github.com/ljuvela/GlotNet
 
 
