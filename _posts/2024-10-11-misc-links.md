@@ -20,4 +20,12 @@ categories: [links]
 
 [espnet/owsm_v3](https://huggingface.co/espnet/owsm_v3)
 
+[ljuvela/GlotNet](https://github.com/ljuvela/GlotNet)
+
+[DoDi's Visual Basic 4 Decompiler](http://web.archive.org/web/20090301170633/http://vbdis4.angelfire.com/)
+
+[brandjamie/midi2hydro_pattern](https://github.com/brandjamie/midi2hydro_pattern)
+
+[libyal](https://github.com/libyal) --- libraries for many obscure file formats
+
 
