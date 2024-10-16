@@ -1234,70 +1234,100 @@ https://formats.kaitai.io/rar/
 MS-DOS datetime format spec for Kaitai Struct
 https://formats.kaitai.io/dos_datetime/
 
-ZX Spectrum tape file format spec for Kaitai Struct
-https://formats.kaitai.io/zx_spectrum_tap/
+Electronic File Formats - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/Electronic_File_Formats
 
-Add parser for Windows Defender scan history files by fbausch · Pull Request #489 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/489/files
+Databases - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/Databases
 
-parencode/guitar: guitar resources
-https://github.com/parencode/guitar
+Ability Database - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/Ability_Database
 
-thiagoritcher/pt2view: Viewer for Power Tab Editor 2 files
-https://github.com/thiagoritcher/pt2view?tab=readme-ov-file
+libyal/libesedb: Library and tools to access the Extensible Storage Engine (ESE) Database File (EDB) format.
+https://github.com/libyal/libesedb
 
-powertab/powertabeditor: View and edit guitar tablature.
-https://github.com/powertab/powertabeditor
+libyal repositories
+https://github.com/orgs/libyal/repositories?type=all&page=4
 
-powertabeditor/source/formats/powertab/powertabexporter.cpp at master · powertab/powertabeditor
-https://github.com/powertab/powertabeditor/blob/master/source/formats/powertab/powertabexporter.cpp
+libyal/libbfoverlay: Library to provide basic file overlay support
+https://github.com/libyal/libbfoverlay?tab=readme-ov-file
 
-dtx2gp/src/main/java/de/lathspell/dtx2gp/dtx/DTXHeader.kt at master · lathspell/dtx2gp
-https://github.com/lathspell/dtx2gp/blob/master/src/main/java/de/lathspell/dtx2gp/dtx/DTXHeader.kt
+libyal/libpff: Library and tools to access the Personal Folder File (PFF) and the Offline Folder File (OFF) format
+https://github.com/libyal/libpff
 
-midi2hydro_pattern/midi2hydro_pattern.py at master · brandjamie/midi2hydro_pattern
-https://github.com/brandjamie/midi2hydro_pattern/blob/master/midi2hydro_pattern.py
+libyal/libvmdk: Library and tools to access the VMware Virtual Disk (VMDK) format
+https://github.com/libyal/libvmdk
 
-Song-and-pattern-repository/Patterns/milo drums V1/Demo 1.h2pattern at master · hydrogen-music/Song-and-pattern-repository
-https://github.com/hydrogen-music/Song-and-pattern-repository/blob/master/Patterns/milo%20drums%20V1/Demo%201.h2pattern
+libyal/libvhdi: Library and tools to access the Virtual Hard Disk (VHD) image format
+https://github.com/libyal/libvhdi
 
-hydrogen/src/core/Lilipond/Lilypond.cpp at master · hydrogen-music/hydrogen
-https://github.com/hydrogen-music/hydrogen/blob/master/src/core/Lilipond/Lilypond.cpp
+libyal/libphdi: Library and tools to access the Parallels Hard Disk image format
+https://github.com/libyal/libphdi
 
-visual basic opcodes - Google Search
-https://www.google.com/search?q=visual+basic+opcodes&rlz=1C5GCEM_enSE990SE991&oq=visual+basic+opcodes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINjYwNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+libyal/libesedb: Library and tools to access the Extensible Storage Engine (ESE) Database File (EDB) format.
+https://github.com/libyal/libesedb?tab=readme-ov-file
 
-bontchev/pcodedmp: A VBA p-code disassembler
-https://github.com/bontchev/pcodedmp?tab=readme-ov-file
+Building · libyal/libesedb Wiki
+https://github.com/libyal/libesedb/wiki/Building
 
-VB Decompiler - Forms Editing - The Art of Editing Visual Basic Forms and Controls
-https://www.vb-decompiler.org/forms_editing.htm
+libyal/libmodi: Library and tools to access the Mac OS disk image formats
+https://github.com/libyal/libmodi
 
-vb3 p-code - Google Search
-https://www.google.com/search?q=vb3+p-code&rlz=1C5GCEM_enSE990SE991&oq=vb3+p-code&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDM1MjNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+libyal/libhibr: Library and tools to access the Windows Hibernation File (hiberfil.sys) format
+https://github.com/libyal/libhibr?tab=readme-ov-file
 
-[RESOLVED] P-Code: What does it mean?-VBForums
-https://www.vbforums.com/showthread.php?673226-RESOLVED-P-Code-What-does-it-mean
+Home · libyal/libhibr Wiki
+https://github.com/libyal/libhibr/wiki
 
-windows 7 - VB3 decompiler? - Stack Overflow
-https://stackoverflow.com/questions/3983709/vb3-decompiler
+libyal/libfsxfs: Library and tools to access the SGI X File System (XFS)
+https://github.com/libyal/libfsxfs
 
-vb3dis - Google Search
-https://www.google.com/search?q=vb3dis&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8
+libyal/libfsrefs: Library and tools to access the Resilient File System (ReFS)
+https://github.com/libyal/libfsrefs
 
-DoDi's Visual Basic 4 Decompiler [Reloaded]
-http://web.archive.org/web/20090301170633/http://vbdis4.angelfire.com/
+libyal/libfsntfs: Library and tools to access the Windows New Technology File System (NTFS)
+https://github.com/libyal/libfsntfs
 
-VB3 decompiling - Exetools
-https://forum.exetools.com/showthread.php?t=6549
+libyal/libfshfs: Library and tools to access the Mac OS Hierarchical File System (HFS)
+https://github.com/libyal/libfshfs
 
-Decompile 16-bit VB code (DLL) ? : r/visualbasic
-https://www.reddit.com/r/visualbasic/comments/211oz0/decompile_16bit_vb_code_dll/
+libyal/libfsapfs: Library and tools to access the Apple File System (APFS)
+https://github.com/libyal/libfsapfs
 
-Z80 CPU User Manual
-https://www.zilog.com/docs/z80/um0080.pdf
+libevt/libevt/libevt_end_of_file_record.c at main · libyal/libevt
+https://github.com/libyal/libevt/blob/main/libevt/libevt_end_of_file_record.c
 
-cello robot - Google Search
-https://www.google.com/search?q=cello+robot&rlz=1C5GCEM_enSE990SE991&oq=cello+robot&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIGCAcQRRg80gEIMjU3NWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8
+libyal/libagdb: Library and tools to access the Windows SuperFetch database format
+https://github.com/libyal/libagdb
+
+libyal/libodraw: Library and tools to access to optical disc (split) RAW image files (bin/cue, iso/cue)
+https://github.com/libyal/libodraw
+
+pxlib
+https://pxlib.sourceforge.net/
+
+Document - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/Document
+
+DLP/Libraries - The Document Foundation Wiki
+https://wiki.documentfoundation.org/DLP/Libraries
+
+DLP/Libraries/librevenge - The Document Foundation Wiki
+https://wiki.documentfoundation.org/DLP/Libraries/librevenge
+
+libmspub - The Document Foundation Wiki
+https://wiki.documentfoundation.org/DLP/Libraries/libmspub
+
+libmwaw / Libmwaw / [083fe2]
+https://sourceforge.net/p/libmwaw/libmwaw/ci/master/tree/
+
+mdbtools/mdbtools: MDB Tools - Read Access databases on *nix
+https://github.com/mdbtools/mdbtools
+
+E-Mail, newsgroups, and forums - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/E-Mail,_newsgroups,_and_forums
+
+Hypermedia - Just Solve the File Format Problem
+http://fileformats.archiveteam.org/wiki/Hypermedia
 
 
