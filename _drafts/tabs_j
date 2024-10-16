@@ -1153,55 +1153,151 @@ https://stackoverflow.com/questions/53451286/python-reading-guitarpro-gp5-files
 guitar-pro · GitHub Topics
 https://github.com/topics/guitar-pro?o=desc&s=stars
 
-slundi/guitarpro: Parse and write Guitar pro files with this rust library
-https://github.com/slundi/guitarpro
+Perlence/gpdiff: Three-way compare and merge tool for GP3, GP4, and GP5 files
+https://github.com/Perlence/gpdiff
 
-gp7ts/lib/UIA.ahk at main · ntnvsl/gp7ts
-https://github.com/ntnvsl/gp7ts/blob/main/lib/UIA.ahk
+kaitai_format_gp5/guitar_pro_5.ksy at master · mauricek/kaitai_format_gp5
+https://github.com/mauricek/kaitai_format_gp5/blob/master/guitar_pro_5.ksy
 
-lathspell/dtx2gp: This program converts DTXMania .dtx files to GuitarPro .gp5 files.
-https://github.com/lathspell/dtx2gp?tab=readme-ov-file
+kaitai-io/awesome-kaitai: A curated list of Kaitai Struct tools and resources
+https://github.com/kaitai-io/awesome-kaitai?tab=readme-ov-file
+
+kaitaiStructCompile.py / kaitaiStructCompile.py · GitLab
+https://gitlab.com/kaitaiStructCompile.py/kaitaiStructCompile.py
+
+KOLANICH / synalysis2kaitai · GitLab
+https://gitlab.com/KOLANICH/synalysis2kaitai
+
+Pull requests · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pulls?page=4&q=is%3Apr+is%3Aopen
+
+Add Qualcomm QDB (Qshrink Database) format by tchebb · Pull Request #687 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/687
+
+Fixing the regf parser by davinci-tech · Pull Request #674 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/674
+
+add specification for Fullhan .FLS files by armijnhemel · Pull Request #671 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/671
+
+Added safetensors. by KOLANICH · Pull Request #636 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/636/files
+
+Implemented Fletcher and Adler32 checksums in KS. by KOLANICH · Pull Request #624 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/624/files
+
+add description of COFF by armijnhemel · Pull Request #594 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/594
+
+add .ksy for Adobe Flash video by armijnhemel · Pull Request #578 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/578
+
+Added datrie by KOLANICH · Pull Request #570 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/570/files
+
+Updated DEX format by tins2831 · Pull Request #536 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/536
+
+Add DTD support by N-Nagorny · Pull Request #509 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/509
+
+RAR: implement rar 5+ format by Mingun · Pull Request #493 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/493
+
+kaitai-io/kaitai_struct_formats: Kaitai Struct: library of binary file formats (.ksy)
+https://github.com/kaitai-io/kaitai_struct_formats
+
+File Format Gallery for Kaitai Struct
+https://formats.kaitai.io/
+
+code_6502 format spec for Kaitai Struct
+https://formats.kaitai.io/code_6502/
+
+Microsoft Compound File Binary (CFB), AKA OLE (Object Linking and Embedding) file format format spec for Kaitai Struct
+https://formats.kaitai.io/microsoft_cfb/
+
+Python pickle serialization format format spec for Kaitai Struct
+https://formats.kaitai.io/python_pickle/
+
+Microsoft PE (Portable Executable) file format format spec for Kaitai Struct
+https://formats.kaitai.io/microsoft_pe/
+
+macOS '.DS_Store' format format spec for Kaitai Struct
+https://formats.kaitai.io/ds_store/
+
+.dbf file format of dBASE format spec for Kaitai Struct
+https://formats.kaitai.io/dbf/
+
+RAR (Roshall ARchiver) archive files format spec for Kaitai Struct
+https://formats.kaitai.io/rar/
+
+MS-DOS datetime format spec for Kaitai Struct
+https://formats.kaitai.io/dos_datetime/
+
+ZX Spectrum tape file format spec for Kaitai Struct
+https://formats.kaitai.io/zx_spectrum_tap/
+
+Add parser for Windows Defender scan history files by fbausch · Pull Request #489 · kaitai-io/kaitai_struct_formats
+https://github.com/kaitai-io/kaitai_struct_formats/pull/489/files
+
+parencode/guitar: guitar resources
+https://github.com/parencode/guitar
+
+thiagoritcher/pt2view: Viewer for Power Tab Editor 2 files
+https://github.com/thiagoritcher/pt2view?tab=readme-ov-file
+
+powertab/powertabeditor: View and edit guitar tablature.
+https://github.com/powertab/powertabeditor
+
+powertabeditor/source/formats/powertab/powertabexporter.cpp at master · powertab/powertabeditor
+https://github.com/powertab/powertabeditor/blob/master/source/formats/powertab/powertabexporter.cpp
+
+dtx2gp/src/main/java/de/lathspell/dtx2gp/dtx/DTXHeader.kt at master · lathspell/dtx2gp
+https://github.com/lathspell/dtx2gp/blob/master/src/main/java/de/lathspell/dtx2gp/dtx/DTXHeader.kt
 
 midi2hydro_pattern/midi2hydro_pattern.py at master · brandjamie/midi2hydro_pattern
 https://github.com/brandjamie/midi2hydro_pattern/blob/master/midi2hydro_pattern.py
 
-ChatGPT
-https://chatgpt.com/c/670ee6b5-dea8-8011-8aea-7dba759efdc5
-
 Song-and-pattern-repository/Patterns/milo drums V1/Demo 1.h2pattern at master · hydrogen-music/Song-and-pattern-repository
 https://github.com/hydrogen-music/Song-and-pattern-repository/blob/master/Patterns/milo%20drums%20V1/Demo%201.h2pattern
 
-python hydrogen drum project - Google Search
-https://www.google.com/search?q=python+hydrogen+drum+project&rlz=1C5GCEM_enSE990SE991&oq=python+hydrogen+drum+project&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTExOTM1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+hydrogen/src/core/Lilipond/Lilypond.cpp at master · hydrogen-music/hydrogen
+https://github.com/hydrogen-music/hydrogen/blob/master/src/core/Lilipond/Lilypond.cpp
 
-hydrogen-music/hydrogen: The advanced drum machine for Linux, macOS, and Windows
-https://github.com/hydrogen-music/hydrogen
+visual basic opcodes - Google Search
+https://www.google.com/search?q=visual+basic+opcodes&rlz=1C5GCEM_enSE990SE991&oq=visual+basic+opcodes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINjYwNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-Hydrogen
-http://hydrogen-music.org/
+bontchev/pcodedmp: A VBA p-code disassembler
+https://github.com/bontchev/pcodedmp?tab=readme-ov-file
 
-Documentation
-http://hydrogen-music.org/doc/
+VB Decompiler - Forms Editing - The Art of Editing Visual Basic Forms and Controls
+https://www.vb-decompiler.org/forms_editing.htm
 
-FAQ
-http://hydrogen-music.org/faq/
+vb3 p-code - Google Search
+https://www.google.com/search?q=vb3+p-code&rlz=1C5GCEM_enSE990SE991&oq=vb3+p-code&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDM1MjNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Features
-http://hydrogen-music.org/features/
+[RESOLVED] P-Code: What does it mean?-VBForums
+https://www.vbforums.com/showthread.php?673226-RESOLVED-P-Code-What-does-it-mean
 
-hydrogen drum import - Google Search
-https://www.google.com/search?q=hydrogen+drum+import&rlz=1C5GCEM_enSE990SE991&oq=hydrogen+drum+import&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBdIBCDQ4NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+windows 7 - VB3 decompiler? - Stack Overflow
+https://stackoverflow.com/questions/3983709/vb3-decompiler
 
-Creating drum parts with Hydrogen : r/Reaper
-https://www.reddit.com/r/Reaper/comments/hltcgu/creating_drum_parts_with_hydrogen/
+vb3dis - Google Search
+https://www.google.com/search?q=vb3dis&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8
 
-Clockworks Tab by Meshuggah | Songsterr Tabs with Rhythm
-https://www.songsterr.com/a/wsa/meshuggah-clockworks-tab-s424358
+DoDi's Visual Basic 4 Decompiler [Reloaded]
+http://web.archive.org/web/20090301170633/http://vbdis4.angelfire.com/
 
-Untitled44.ipynb - Colab
-https://colab.research.google.com/drive/17RdM8YjpyPstRy_epG8Gb92tVExdXD99#scrollTo=fpoc7LErTu0N
+VB3 decompiling - Exetools
+https://forum.exetools.com/showthread.php?t=6549
 
-python - Using IPython.display.audio to play audio in jupyter notebook not working when used inside a function - Stack Overflow
-https://stackoverflow.com/questions/61573928/using-ipython-display-audio-to-play-audio-in-jupyter-notebook-not-working-when-u
+Decompile 16-bit VB code (DLL) ? : r/visualbasic
+https://www.reddit.com/r/visualbasic/comments/211oz0/decompile_16bit_vb_code_dll/
+
+Z80 CPU User Manual
+https://www.zilog.com/docs/z80/um0080.pdf
+
+cello robot - Google Search
+https://www.google.com/search?q=cello+robot&rlz=1C5GCEM_enSE990SE991&oq=cello+robot&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIGCAcQRRg80gEIMjU3NWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8
 
 
