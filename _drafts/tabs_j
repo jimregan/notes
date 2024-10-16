@@ -38,10 +38,7 @@ Label Studio
 http://130.237.3.107:8080/projects/7/data?tab=7&task=102
 
 Label Studio
-http://130.237.3.107:8080/projects/5/data?tab=5&task=82
-
-Label Studio API
-https://labelstud.io/api
+http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
 TAFFC2457417.pdf
 https://sail.usc.edu/publications/files/eyben-preprinttaffc-2015.pdf
@@ -117,9 +114,6 @@ https://github.com/phonlab-tcd/gramadoir-ts/tree/main/src
 
 snc_2023/hts_label_mono/SNC_Gearrscealta_an_Phiarsaigh_0001.lab at main · phonlab-tcd/snc_2023
 https://github.com/phonlab-tcd/snc_2023/blob/main/hts_label_mono/SNC_Gearrscealta_an_Phiarsaigh_0001.lab
-
-phonlab-tcd/mfa_alignments
-https://github.com/phonlab-tcd/mfa_alignments
 
 phonlab-tcd/mfa_models
 https://github.com/phonlab-tcd/mfa_models
@@ -258,9 +252,6 @@ https://github.com/drmfinlay/pyjsgf/blob/master/examples/dictation%20grammar%20e
 
 pyctcdecode/pyctcdecode/decoder.py at main · kensho-technologies/pyctcdecode
 https://github.com/kensho-technologies/pyctcdecode/blob/main/pyctcdecode/decoder.py
-
-owsm huggingface - Google Search
-https://www.google.com/search?q=owsm+huggingface&rlz=1C5GCEM_enSE990SE991&oq=owsm+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQRRg80gEIMzY4NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
 WAVLab | XEUS - Towards Robust Speech Representation Learning for Thousands of Languages
 https://www.wavlab.org/activities/2024/xeus/
@@ -1147,11 +1138,8 @@ https://www.alphatab.net/
 CoderLine/alphaTab: alphaTab is a cross platform music notation and guitar tablature rendering library.
 https://github.com/CoderLine/alphaTab
 
-guitar - Python: Reading GuitarPro (.gp5) files - Stack Overflow
-https://stackoverflow.com/questions/53451286/python-reading-guitarpro-gp5-files
-
-guitar-pro · GitHub Topics
-https://github.com/topics/guitar-pro?o=desc&s=stars
+PyGuitarPro/examples/dfh.py at master · Perlence/PyGuitarPro
+https://github.com/Perlence/PyGuitarPro/blob/master/examples/dfh.py
 
 Perlence/gpdiff: Three-way compare and merge tool for GP3, GP4, and GP5 files
 https://github.com/Perlence/gpdiff
@@ -1162,172 +1150,91 @@ https://github.com/mauricek/kaitai_format_gp5/blob/master/guitar_pro_5.ksy
 kaitai-io/awesome-kaitai: A curated list of Kaitai Struct tools and resources
 https://github.com/kaitai-io/awesome-kaitai?tab=readme-ov-file
 
-kaitaiStructCompile.py / kaitaiStructCompile.py · GitLab
-https://gitlab.com/kaitaiStructCompile.py/kaitaiStructCompile.py
+Authoring Custom Jupyter Widgets. A Hands-On Guide | by QuantStack | Jupyter Blog
+https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724
 
-KOLANICH / synalysis2kaitai · GitLab
-https://gitlab.com/KOLANICH/synalysis2kaitai
+ipywidgets/python/ipywidgets/ipywidgets/widgets/widget_date.py at main · jupyter-widgets/ipywidgets
+https://github.com/jupyter-widgets/ipywidgets/blob/main/python/ipywidgets/ipywidgets/widgets/widget_date.py
 
-Pull requests · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pulls?page=4&q=is%3Apr+is%3Aopen
+New Tab
+chrome://newtab/
 
-Add Qualcomm QDB (Qshrink Database) format by tchebb · Pull Request #687 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/687
+2210.00077
+https://arxiv.org/pdf/2210.00077
 
-Fixing the regf parser by davinci-tech · Pull Request #674 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/674
+MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
+https://github.com/MahmoudAshraf97/ctc-forced-aligner?tab=readme-ov-file
 
-add specification for Fullhan .FLS files by armijnhemel · Pull Request #671 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/671
+MahmoudAshraf (Mahmoud Ashraf)
+https://huggingface.co/MahmoudAshraf
 
-Added safetensors. by KOLANICH · Pull Request #636 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/636/files
+vs code develop in container over ssh - Google Search
+https://www.google.com/search?q=vs+code+develop+in+container+over+ssh&rlz=1C5GCEM_enSE990SE991&oq=vs+code+develop+in+container+over+ssh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAHSAQg2MTMxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-Implemented Fletcher and Adler32 checksums in KS. by KOLANICH · Pull Request #624 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/624/files
+VS Code: connect a docker container in a remote server - Stack Overflow
+https://stackoverflow.com/questions/60425053/vs-code-connect-a-docker-container-in-a-remote-server
 
-add description of COFF by armijnhemel · Pull Request #594 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/594
+transformers/docker/transformers-pytorch-gpu/Dockerfile at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/docker/transformers-pytorch-gpu/Dockerfile
 
-add .ksy for Adobe Flash video by armijnhemel · Pull Request #578 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/578
+jupyter docker - Google Search
+https://www.google.com/search?q=jupyter+docker&rlz=1C5GCEM_enSE990SE991&oq=jupyter+docker&gs_lcrp=EgZjaHJvbWUqDQgAEAAYkQIYgAQYigUyDQgAEAAYkQIYgAQYigUyDQgBEAAYkQIYgAQYigUyDAgCEAAYFBiHAhiABDINCAMQABiRAhiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDY5MTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Added datrie by KOLANICH · Pull Request #570 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/570/files
+Project Jupyter | Home
+https://jupyter.org/
 
-Updated DEX format by tins2831 · Pull Request #536 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/536
+Project Jupyter | Installing Jupyter
+https://jupyter.org/install
 
-Add DTD support by N-Nagorny · Pull Request #509 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/509
+voila-dashboards/voila: Voilà turns Jupyter notebooks into standalone web applications
+https://github.com/voila-dashboards/voila
 
-RAR: implement rar 5+ format by Mingun · Pull Request #493 · kaitai-io/kaitai_struct_formats
-https://github.com/kaitai-io/kaitai_struct_formats/pull/493
+Using Voilà — voila 0.5.1 documentation
+https://voila.readthedocs.io/en/stable/using.html#as-a-standalone-application
 
-kaitai-io/kaitai_struct_formats: Kaitai Struct: library of binary file formats (.ksy)
-https://github.com/kaitai-io/kaitai_struct_formats
+Voilà Gallery
+https://voila-gallery.org/
 
-File Format Gallery for Kaitai Struct
-https://formats.kaitai.io/
+deeplook/ipymaps: Implement an online/notebook maps application with customized features.
+https://github.com/deeplook/ipymaps?tab=readme-ov-file
 
-code_6502 format spec for Kaitai Struct
-https://formats.kaitai.io/code_6502/
+jupyter-widgets/ipyleaflet: A Jupyter - Leaflet.js bridge
+https://github.com/jupyter-widgets/ipyleaflet
 
-Microsoft Compound File Binary (CFB), AKA OLE (Object Linking and Embedding) file format format spec for Kaitai Struct
-https://formats.kaitai.io/microsoft_cfb/
+Start Locally | PyTorch
+https://pytorch.org/get-started/locally/
 
-Python pickle serialization format format spec for Kaitai Struct
-https://formats.kaitai.io/python_pickle/
+Instagram
+https://www.instagram.com/
 
-Microsoft PE (Portable Executable) file format format spec for Kaitai Struct
-https://formats.kaitai.io/microsoft_pe/
+soundfile · PyPI
+https://pypi.org/project/soundfile/
 
-macOS '.DS_Store' format format spec for Kaitai Struct
-https://formats.kaitai.io/ds_store/
+DeepMotionEditing/deep-motion-editing: An end-to-end library for editing and rendering motion of 3D characters with deep learning [SIGGRAPH 2020]
+https://github.com/DeepMotionEditing/deep-motion-editing
 
-.dbf file format of dBASE format spec for Kaitai Struct
-https://formats.kaitai.io/dbf/
+rpuntaie/syncstart: Calculate the cut needed at start to sync two media files
+https://github.com/rpuntaie/syncstart
 
-RAR (Roshall ARchiver) archive files format spec for Kaitai Struct
-https://formats.kaitai.io/rar/
+Pull requests · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/pulls
 
-MS-DOS datetime format spec for Kaitai Struct
-https://formats.kaitai.io/dos_datetime/
+Error
+https://github.com/simonalexanderson/ListenDenoiseAction/blob/main/utils/motion_dataset.py
 
-Electronic File Formats - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/Electronic_File_Formats
+python - Slicing audio given video frames - Stack Overflow
+https://stackoverflow.com/questions/73947518/slicing-audio-given-video-frames
 
-Databases - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/Databases
+python initialise class from yaml - Google Search
+https://www.google.com/search?q=python+initialise+class+from+yaml&rlz=1C5GCEM_enSE990SE991&oq=python+initialise+class+from+yaml&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc3NzdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
-Ability Database - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/Ability_Database
+Selecting default configs | Hydra
+https://hydra.cc/docs/tutorials/basic/your_first_app/defaults/
 
-libyal/libesedb: Library and tools to access the Extensible Storage Engine (ESE) Database File (EDB) format.
-https://github.com/libyal/libesedb
+A Powerful Python Trick: Custom YAML tags & PyYAML | Matthew Burruss
+https://matthewpburruss.com/post/yaml/
 
-libyal repositories
-https://github.com/orgs/libyal/repositories?type=all&page=4
-
-libyal/libbfoverlay: Library to provide basic file overlay support
-https://github.com/libyal/libbfoverlay?tab=readme-ov-file
-
-libyal/libpff: Library and tools to access the Personal Folder File (PFF) and the Offline Folder File (OFF) format
-https://github.com/libyal/libpff
-
-libyal/libvmdk: Library and tools to access the VMware Virtual Disk (VMDK) format
-https://github.com/libyal/libvmdk
-
-libyal/libvhdi: Library and tools to access the Virtual Hard Disk (VHD) image format
-https://github.com/libyal/libvhdi
-
-libyal/libphdi: Library and tools to access the Parallels Hard Disk image format
-https://github.com/libyal/libphdi
-
-libyal/libesedb: Library and tools to access the Extensible Storage Engine (ESE) Database File (EDB) format.
-https://github.com/libyal/libesedb?tab=readme-ov-file
-
-Building · libyal/libesedb Wiki
-https://github.com/libyal/libesedb/wiki/Building
-
-libyal/libmodi: Library and tools to access the Mac OS disk image formats
-https://github.com/libyal/libmodi
-
-libyal/libhibr: Library and tools to access the Windows Hibernation File (hiberfil.sys) format
-https://github.com/libyal/libhibr?tab=readme-ov-file
-
-Home · libyal/libhibr Wiki
-https://github.com/libyal/libhibr/wiki
-
-libyal/libfsxfs: Library and tools to access the SGI X File System (XFS)
-https://github.com/libyal/libfsxfs
-
-libyal/libfsrefs: Library and tools to access the Resilient File System (ReFS)
-https://github.com/libyal/libfsrefs
-
-libyal/libfsntfs: Library and tools to access the Windows New Technology File System (NTFS)
-https://github.com/libyal/libfsntfs
-
-libyal/libfshfs: Library and tools to access the Mac OS Hierarchical File System (HFS)
-https://github.com/libyal/libfshfs
-
-libyal/libfsapfs: Library and tools to access the Apple File System (APFS)
-https://github.com/libyal/libfsapfs
-
-libevt/libevt/libevt_end_of_file_record.c at main · libyal/libevt
-https://github.com/libyal/libevt/blob/main/libevt/libevt_end_of_file_record.c
-
-libyal/libagdb: Library and tools to access the Windows SuperFetch database format
-https://github.com/libyal/libagdb
-
-libyal/libodraw: Library and tools to access to optical disc (split) RAW image files (bin/cue, iso/cue)
-https://github.com/libyal/libodraw
-
-pxlib
-https://pxlib.sourceforge.net/
-
-Document - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/Document
-
-DLP/Libraries - The Document Foundation Wiki
-https://wiki.documentfoundation.org/DLP/Libraries
-
-DLP/Libraries/librevenge - The Document Foundation Wiki
-https://wiki.documentfoundation.org/DLP/Libraries/librevenge
-
-libmspub - The Document Foundation Wiki
-https://wiki.documentfoundation.org/DLP/Libraries/libmspub
-
-libmwaw / Libmwaw / [083fe2]
-https://sourceforge.net/p/libmwaw/libmwaw/ci/master/tree/
-
-mdbtools/mdbtools: MDB Tools - Read Access databases on *nix
-https://github.com/mdbtools/mdbtools
-
-E-Mail, newsgroups, and forums - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/E-Mail,_newsgroups,_and_forums
-
-Hypermedia - Just Solve the File Format Problem
-http://fileformats.archiveteam.org/wiki/Hypermedia
+Camila Cabello names the celebrity she lost her virginity to when she was 20 years old
+https://www.unilad.com/celebrity/camila-cabello-virginity-age-matthew-hussey-404618-20240521?fbclid=PAZXh0bgNhZW0CMTEAAabNHekdnt7h0uT-pF3RQhyJxE2fpcgPmkaVGxl_RYJIdOi9ayBVNRyQTOM_aem_udNoXEnPYW8_zHX-bsg7rA
 
 
