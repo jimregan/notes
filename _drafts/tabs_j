@@ -100,20 +100,8 @@ https://github.com/shivammehta25/Matcha-TTS
 Matcha-TTS: A fast TTS architecture with conditional flow matching | Matcha-TTS
 https://shivammehta25.github.io/Matcha-TTS/
 
-shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
-https://github.com/shivammehta25/Matcha-TTS
-
-phonlab-tcd repositories
-https://github.com/orgs/phonlab-tcd/repositories?page=2
-
 lara/Aesop/An_Bhean_agus_An_Madra_Rua/corpus/An_Bhean_agus_An_Madra_Rua.txt at master · phonlab-tcd/lara
 https://github.com/phonlab-tcd/lara/blob/master/Aesop/An_Bhean_agus_An_Madra_Rua/corpus/An_Bhean_agus_An_Madra_Rua.txt
-
-gramadoir-ts/src at main · phonlab-tcd/gramadoir-ts
-https://github.com/phonlab-tcd/gramadoir-ts/tree/main/src
-
-snc_2023/hts_label_mono/SNC_Gearrscealta_an_Phiarsaigh_0001.lab at main · phonlab-tcd/snc_2023
-https://github.com/phonlab-tcd/snc_2023/blob/main/hts_label_mono/SNC_Gearrscealta_an_Phiarsaigh_0001.lab
 
 phonlab-tcd/mfa_models
 https://github.com/phonlab-tcd/mfa_models
@@ -265,32 +253,20 @@ https://www.wavlab.org/activities/2024/owsm/
 pyf98/owsm_ctc_v3.1_1B · Hugging Face
 https://huggingface.co/pyf98/owsm_ctc_v3.1_1B
 
-Pull requests · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/pulls
-
-benchmarks/benchmarks/MOABB at main · speechbrain/benchmarks
-https://github.com/speechbrain/benchmarks/tree/main/benchmarks/MOABB
+Gammatone learnable filterbanks by naspert · Pull Request #2714 · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/pull/2714
 
 Tokotron: Tokenized TTS by flexthink · Pull Request #2696 · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/pull/2696/files
-
-Streaming ASR guide/tutorial by asumagic · Pull Request #2700 · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/pull/2700
+https://github.com/speechbrain/speechbrain/pull/2696/files#diff-08c60df427a66b8146ac2fedc01c1970f5bbebc50e0404019315d55f12c51c03
 
 Voice analysis functions by pplantinga · Pull Request #2689 · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/pull/2689
+https://github.com/speechbrain/speechbrain/pull/2689/commits/ba91d6f72475bba28b4feb072dc67a7acc143ad2
 
-speechbrain/speechbrain/processing/voice_analysis.py at 1e0170926d8404f429af46197db4c903be453e1a · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/blob/1e0170926d8404f429af46197db4c903be453e1a/speechbrain/processing/voice_analysis.py
-
-✨ Add SNAC by julien-blanchon · Pull Request #2568 · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/pull/2568
+hubertsiuzdak/snac: Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
+https://github.com/hubertsiuzdak/snac
 
 Add recipe for audio/speech LLM (ltu-as with llama3) by BenoitWang · Pull Request #2550 · speechbrain/speechbrain
 https://github.com/speechbrain/speechbrain/pull/2550
-
-Chaanks/speechbrain: A PyTorch-based Speech Toolkit
-https://github.com/Chaanks/speechbrain?tab=readme-ov-file
 
 speechbrain.k2_integration.lattice_decoder module — SpeechBrain 0.5.0 documentation
 https://speechbrain.readthedocs.io/en/latest/API/speechbrain.k2_integration.lattice_decoder.html
@@ -299,7 +275,7 @@ https://speechbrain.readthedocs.io/en/latest/API/speechbrain.k2_integration.latt
 https://arxiv.org/pdf/1612.02695
 
 k2.ipynb - Colab
-https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing
+https://colab.research.google.com/drive/1qbHUhNZUX7AYEpqnZyf29Lrz2IPHBGlX?usp=sharing#scrollTo=r9xffN-eMlUM
 
 voice-activity-detection.ipynb - Colab
 https://colab.research.google.com/github/speechbrain/speechbrain/blob/develop/docs/tutorials/tasks/voice-activity-detection.ipynb#scrollTo=SSOeT58mQM1m
@@ -310,23 +286,11 @@ https://github.com/showlab/Show-o?tab=readme-ov-file
 speechbrain/vad-crdnn-libriparty · Hugging Face
 https://huggingface.co/speechbrain/vad-crdnn-libriparty
 
-Hidden traces of humanity: what AI images reveal about our world | Art | The Guardian
-https://www.theguardian.com/news/2024/oct/01/hidden-traces-of-humanity-what-ai-images-reveal-about-our-world?utm_source=instagramstories&utm_campaign=aiimages
-
-speechbrain "rescoring" - Google Search
-https://www.google.com/search?q=speechbrain+%22rescoring%22&sca_esv=2f8623b159e229b7&sca_upv=1&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKPa2ype23aJAb4qclSLgrVEVzmgA%3A1727787381464&ei=dfH7ZorzG5PWwPAPlN3h8QY&ved=0ahUKEwjKgfrIne2IAxUTKxAIHZRuOG4Q4dUDCA8&uact=5&oq=speechbrain+%22rescoring%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3NwZWVjaGJyYWluICJyZXNjb3JpbmciMgUQIRigAUiAFVCCDFiPEnABeAGQAQCYAVigAaIBqgEBMrgBA8gBAPgBAZgCA6ACrAHCAgoQABiwAxjWBBhHwgIEECMYJ8ICCBAAGIAEGKIEmAMAiAYBkAYIkgcBM6AH2gQ&sclient=gws-wiz-serp
-
-Releases · speechbrain/speechbrain
-https://github.com/speechbrain/speechbrain/releases
-
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=japp%20jo%2C%20h%C3%B6r%20av%20sig%20(eller%20jag%2C%20men%20min%20gissning%20%C3%A4r%20jim)%0A%0Amedel%3A%20ni%20f%C3%A5r%20siffran%20av%20mig%20idag.%20it-st%C3%B6d%20fungerar%20f%C3%B6r%20tillf%C3%A4llet%20j%C3%A4ttebra%20p%C3%A5%20kth%20j%C3%A4mf%C3%B6rt%20med%20ekonomi-st%C3%B6d%2C%20och%20du%20kan%20gussa%20vad%20det%20betyder.%0A%0Akommer%20det%20jag%20vet%20under%20eftermiddagen%20eller%20i%20v%C3%A4rsta%20fall%20imorgon%2C%20jag%20%C3%A4r%20ute%20mesta%20delen%20av%20dagen%20idag.%20och%20%C3%A4r%20det%20n%C3%A5got%20jag%20beh%C3%B6ver%20fr%C3%A5n%20ekonomi-st%C3%B6d%20(%C3%A4r%20inte%20klar%20p%C3%A5%20vilka%20siffror%20jag%20har)%20s%C3%A5%20ber%C3%A4ttar%20jag%20iaf%20det.&op=translate
-
 huggingface/parler-tts: Inference and training library for high-quality TTS models.
 https://github.com/huggingface/parler-tts?tab=readme-ov-file#training
 
-scripts_and_notebooks/Finetuning_Parler_TTS_v1_on_a_single_speaker_dataset.ipynb at main · ylacombe/scripts_and_notebooks
-https://github.com/ylacombe/scripts_and_notebooks/blob/main/Finetuning_Parler_TTS_v1_on_a_single_speaker_dataset.ipynb
+scripts_and_notebooks/Fine_Tune_W2V2_BERT_on_CV16_Mongolian.ipynb at main · ylacombe/scripts_and_notebooks
+https://github.com/ylacombe/scripts_and_notebooks/blob/main/Fine_Tune_W2V2_BERT_on_CV16_Mongolian.ipynb
 
 @reach-vb on Hugging Face: "What an eventful day in Open Source LLMs today: Mistral released Codestral…"
 https://huggingface.co/posts/reach-vb/328638870427201
@@ -337,29 +301,44 @@ https://huggingface.co/mistralai/Mamba-Codestral-7B-v0.1
 HuggingFaceTB/SmolLM-135M · Hugging Face
 https://huggingface.co/HuggingFaceTB/SmolLM-135M
 
-huggingface/dataspeech
-https://github.com/huggingface/dataspeech?tab=readme-ov-file#how-do-i-use-datasets-that-i-have-with-this-repository
-
-rhasspy/piper-voices · Hugging Face
-https://huggingface.co/rhasspy/piper-voices
-
 rhasspy/piper: A fast, local neural text to speech system
 https://github.com/rhasspy/piper?tab=readme-ov-file
 
 piper/notebooks/pretrained_models.json at master · rhasspy/piper
 https://github.com/rhasspy/piper/blob/master/notebooks/pretrained_models.json
 
-rhasspy/voice-datasets at main
-https://huggingface.co/datasets/rhasspy/voice-datasets/tree/main
+rhasspy/voice-datasets · Datasets at Hugging Face
+https://huggingface.co/datasets/rhasspy/voice-datasets
 
 piper/TRAINING.md at master · rhasspy/piper
 https://github.com/rhasspy/piper/blob/master/TRAINING.md
 
-piper gosia.zip - Google Search
-https://www.google.com/search?q=piper+gosia.zip&rlz=1C5GCEM_enSE990SE991&oq=piper+gosia.zip&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDQ1MjBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+rhasspy/piper-checkpoints at main
+https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main
 
 MODEL_CARD · csukuangfj/vits-piper-pl_PL-gosia-medium at main
 https://huggingface.co/csukuangfj/vits-piper-pl_PL-gosia-medium/blob/main/MODEL_CARD
+
+CSTR Downloads
+https://www.cstr.ed.ac.uk/downloads/
+
+Repeated Harvard Sentence Prompts corpus version 0.5
+https://datashare.ed.ac.uk/handle/10283/561
+
+Design of the sentence materials
+https://www.cstr.ed.ac.uk/projects/eustace/design.html
+
+Data and tools related to the Blizzard Challenge
+https://www.cstr.ed.ac.uk/projects/blizzard/
+
+Ressources for End-to-End French Text-to-Speech Blizzard challenge
+https://zenodo.org/records/7560290
+
+Hurricane natural speech corpus
+https://datashare.ed.ac.uk/handle/10283/347
+
+AMI Corpus Download
+https://groups.inf.ed.ac.uk/ami/download/
 
 openslr.org
 https://www.openslr.org/resources.php
@@ -367,8 +346,8 @@ https://www.openslr.org/resources.php
 openslr.org
 https://www.openslr.org/83/
 
-github.com
-https://github.com/googlei18n/language-resources/issues
+Issues · google/language-resources
+https://github.com/google/language-resources/issues
 
 Santa Barbara Corpus of Spoken American English | Department of Linguistics - UC Santa Barbara
 https://www.linguistics.ucsb.edu/research/santa-barbara-corpus
@@ -1099,14 +1078,11 @@ https://perezpoz.github.io/cwad
 Provide multitaper and rasta-plp as input features · perezpoz/Edyson_whisper@704889b
 https://github.com/perezpoz/Edyson_whisper/commit/704889b5d6b34742a7d17e1f42fbfd8f570f53f0#diff-cd309897b5ae865b68dd2096074fd3b3c1e044dad9e96e2d4590f6be88570572R17
 
-jmrplens/PyOctaveBand: [Python3] Octave-Band and Fractional Octave-Band filter. For signal in time domain.
-https://github.com/jmrplens/PyOctaveBand
+wil-j-wil/py_bank: An audio filter bank implementation in Python, contains ERB and linear filter banks
+https://github.com/wil-j-wil/py_bank
 
-py_bank/filterbanks.py at master · wil-j-wil/py_bank
-https://github.com/wil-j-wil/py_bank/blob/master/filterbanks.py
-
-Repeated Harvard Sentence Prompts corpus version 0.5
-https://datashare.ed.ac.uk/handle/10283/561
+datashare.ed.ac.uk/bitstream/handle/10283/4836/README.txt?sequence=2&isAllowed=y
+https://datashare.ed.ac.uk/bitstream/handle/10283/4836/README.txt?sequence=2&isAllowed=y
 
 JeremyCCHsu/Python-Wrapper-for-World-Vocoder: A Python wrapper for the high-quality vocoder "World"
 https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder?tab=readme-ov-file
@@ -1114,26 +1090,8 @@ https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder?tab=readme-ov-fi
 rasta_py/rasta.py at master · mystlee/rasta_py
 https://github.com/mystlee/rasta_py/blob/master/rasta.py
 
-TransformersSpeechAligner/Alignment.ipynb at main · danijel3/TransformersSpeechAligner
-https://github.com/danijel3/TransformersSpeechAligner/blob/main/Alignment.ipynb
-
-dice coefficient - Google Search
-https://www.google.com/search?q=dice+coefficient&rlz=1C5GCEM_enSE990SE991&oq=dice+c&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIOCAEQRRgnGDsYgAQYigUyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEINDA2OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-ChatGPT
-https://chatgpt.com/c/670ee31c-1a24-8011-b1cc-80a78bd30b49
-
-Instagram
-https://www.instagram.com/
-
-python guitar pro - Google Search
-https://www.google.com/search?q=python+guitar+pro&rlz=1C5GCEM_enSE990SE991&oq=python+guitar+pro&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYgAQYogQyCggDEAAYgAQYogTSAQgzODk4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-API Reference — PyGuitarPro 0.9.3 documentation
-https://pyguitarpro.readthedocs.io/en/stable/pyguitarpro/api.html#general-functions
-
-Build modern music notation apps for web, desktop and mobile | alphaTab
-https://www.alphatab.net/
+TransformersSpeechAligner/src/recognize.py at main · danijel3/TransformersSpeechAligner
+https://github.com/danijel3/TransformersSpeechAligner/blob/main/src/recognize.py
 
 CoderLine/alphaTab: alphaTab is a cross platform music notation and guitar tablature rendering library.
 https://github.com/CoderLine/alphaTab
@@ -1153,73 +1111,37 @@ https://github.com/kaitai-io/awesome-kaitai?tab=readme-ov-file
 Authoring Custom Jupyter Widgets. A Hands-On Guide | by QuantStack | Jupyter Blog
 https://blog.jupyter.org/authoring-custom-jupyter-widgets-2884a462e724
 
-ipywidgets/python/ipywidgets/ipywidgets/widgets/widget_date.py at main · jupyter-widgets/ipywidgets
-https://github.com/jupyter-widgets/ipywidgets/blob/main/python/ipywidgets/ipywidgets/widgets/widget_date.py
-
 2210.00077
 https://arxiv.org/pdf/2210.00077
 
 MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
 https://github.com/MahmoudAshraf97/ctc-forced-aligner?tab=readme-ov-file
 
-vs code develop in container over ssh - Google Search
-https://www.google.com/search?q=vs+code+develop+in+container+over+ssh&rlz=1C5GCEM_enSE990SE991&oq=vs+code+develop+in+container+over+ssh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAHSAQg2MTMxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-VS Code: connect a docker container in a remote server - Stack Overflow
-https://stackoverflow.com/questions/60425053/vs-code-connect-a-docker-container-in-a-remote-server
-
-transformers/docker/transformers-pytorch-gpu/Dockerfile at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/docker/transformers-pytorch-gpu/Dockerfile
-
-jupyter docker - Google Search
-https://www.google.com/search?q=jupyter+docker&rlz=1C5GCEM_enSE990SE991&oq=jupyter+docker&gs_lcrp=EgZjaHJvbWUqDQgAEAAYkQIYgAQYigUyDQgAEAAYkQIYgAQYigUyDQgBEAAYkQIYgAQYigUyDAgCEAAYFBiHAhiABDINCAMQABiRAhiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDY5MTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Project Jupyter | Installing Jupyter
-https://jupyter.org/install
-
-Project Jupyter | Installing Jupyter
-https://jupyter.org/install
-
-voila-dashboards/voila: Voilà turns Jupyter notebooks into standalone web applications
-https://github.com/voila-dashboards/voila
-
-Using Voilà — voila 0.5.1 documentation
-https://voila.readthedocs.io/en/stable/using.html#as-a-standalone-application
-
-index
-https://hub.ovh2.mybinder.org/user/voila-gallery-render-stl-g2watdd0/voila/render/index.ipynb?token=OUFr5ccPTdCWj4LYNMNlug
-
-deeplook/ipymaps: Implement an online/notebook maps application with customized features.
-https://github.com/deeplook/ipymaps?tab=readme-ov-file
-
 deep-motion-editing/blender_rendering/render.py at master · DeepMotionEditing/deep-motion-editing
 https://github.com/DeepMotionEditing/deep-motion-editing/blob/master/blender_rendering/render.py
 
-rpuntaie/syncstart: Calculate the cut needed at start to sync two media files
-https://github.com/rpuntaie/syncstart
+syncstart/syncstart.py at main · rpuntaie/syncstart
+https://github.com/rpuntaie/syncstart/blob/main/syncstart.py
 
-Pull requests · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/pulls
+Issues · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/issues
 
 Error
 https://github.com/simonalexanderson/ListenDenoiseAction/blob/main/utils/motion_dataset.py
 
-python - Slicing audio given video frames - Stack Overflow
-https://stackoverflow.com/questions/73947518/slicing-audio-given-video-frames
-
 Selecting default configs | Hydra
 https://hydra.cc/docs/tutorials/basic/your_first_app/defaults/
 
-synonyms cosine similarity gpt embeddings - Google Search
-https://www.google.com/search?q=synonyms+cosine+similarity+gpt+embeddings&rlz=1C5GCEM_enSE990SE991&oq=synonyms+cosine+similarity+gpt+embeddings&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQRRhA0gEIOTkzNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+VOSK Models
+https://alphacephei.com/vosk/models
 
-Understanding Cosine Similarity and Word Embeddings | by Spencer Porter | Medium
-https://spencerporter2.medium.com/understanding-cosine-similarity-and-word-embeddings-dbf19362a3c
+kaldi/egs/babel/s5/local/score_combine.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/babel/s5/local/score_combine.sh
 
-Why Cosine Similarity for Transformer Text Embeddings? : r/learnmachinelearning
-https://www.reddit.com/r/learnmachinelearning/comments/12cp2cg/why_cosine_similarity_for_transformer_text/
+Lidl Sweden - More for you. That's Lidl.
+https://www.lidl.se/
 
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=Nu%20%C3%A5ter%20fr%C3%A5n%20tj%C3%A4nsteresa.%0A%0AFinns%20det%20namn%20p%C3%A5%20dessa%20IT-personer%3F%20%20Jag%20kan%20mejla%20argt%20h%C3%A4rifr%C3%A5n%2C%20efter%20det%20kan%20min%20chef%20mejla%20argt.%0A%0ATills%20dess%3A%20finns%20siffran%3F&op=translate
+Destination USA
+https://www.lidl.se/c/destination-usa/a10056699?channel=store&tabCode=Current_Sales_Week
 
 
