@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Reverb CTM to Label Studio | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Reverb CTM to Label Studio" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Because their import sucks" />
+<meta property="og:description" content="Because their import sucks" />
+<link rel="canonical" href="https://jimregan.github.io/notes/labelstudio/reverbasr/ctm/hsi/2024/10/16/reverb-ctm-to-labelstudio.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/labelstudio/reverbasr/ctm/hsi/2024/10/16/reverb-ctm-to-labelstudio.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-16T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/labelstudio/reverbasr/ctm/hsi/2024/10/16/reverb-ctm-to-labelstudio.html","@type":"BlogPosting","headline":"Reverb CTM to Label Studio","dateModified":"2024-10-16T00:00:00-05:00","datePublished":"2024-10-16T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/labelstudio/reverbasr/ctm/hsi/2024/10/16/reverb-ctm-to-labelstudio.html"},"description":"Because their import sucks","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Reverb CTM to Label Studio</h1><p class="page-description">Because their import sucks</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-10-16T00:00:00-05:00" itemprop="datePublished">
+        Oct 16, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      9 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#labelstudio">labelstudio</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#reverbasr">reverbasr</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#ctm">ctm</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#hsi">hsi</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-10-16-reverb-ctm-to-labelstudio.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-10-16-reverb-ctm-to-labelstudio.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-10-16-reverb-ctm-to-labelstudio.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-10-16-reverb-ctm-to-labelstudio.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>tl;dr---reverb is quite good at getting the starts of words, awful at end times (almost everything is 0.1s). It's good at picking up on filler, etc., but bad at context-based disambiguation (``waist'' basket)</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">slurpfile</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">inf</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered celltag_parameters">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">host</span> <span class="o">=</span> <span class="s2">&quot;http://130.237.3.107:8080/api/&quot;</span>
+<span class="n">api_token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">slurpfile</span><span class="p">(</span><span class="s2">&quot;label_studio_reverb&quot;</span><span class="p">)</span>
+<span class="n">input_dir</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/hsi/inter_output/attention_rescoring/&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Token </span><span class="si">{</span><span class="n">api_token</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_projects</span><span class="p">():</span>
+    <span class="n">req</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s2">projects&quot;</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">)</span>
+    <span class="k">assert</span> <span class="n">req</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">req</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_project_id_from_name</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">projects</span> <span class="o">=</span> <span class="n">get_projects</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">projects</span><span class="p">[</span><span class="s2">&quot;results&quot;</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="n">res</span><span class="p">[</span><span class="s2">&quot;title&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="n">name</span><span class="o">.</span><span class="n">strip</span><span class="p">():</span>
+            <span class="k">return</span> <span class="n">res</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_project_id_from_name</span><span class="p">(</span><span class="s2">&quot;Main 6&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>7</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tasks</span><span class="p">(</span><span class="n">projectid</span><span class="p">):</span>
+    <span class="n">req</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s2">tasks&quot;</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;project&quot;</span><span class="p">:</span> <span class="n">projectid</span><span class="p">})</span>
+    <span class="k">assert</span> <span class="n">req</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">req</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">index_task_filestem_to_id</span><span class="p">(</span><span class="n">tasks_data</span><span class="p">):</span>
+    <span class="n">tasks</span> <span class="o">=</span> <span class="n">tasks_data</span><span class="p">[</span><span class="s2">&quot;tasks&quot;</span><span class="p">]</span>
+    <span class="n">mapping</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">:</span>
+        <span class="n">task_id</span> <span class="o">=</span> <span class="n">task</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="s2">&quot;storage_filename&quot;</span> <span class="ow">in</span> <span class="n">task</span><span class="p">:</span>
+            <span class="n">task_raw_path</span> <span class="o">=</span> <span class="n">task</span><span class="p">[</span><span class="s2">&quot;storage_filename&quot;</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">task_raw_path</span> <span class="o">=</span> <span class="n">task</span><span class="p">[</span><span class="s2">&quot;data&quot;</span><span class="p">][</span><span class="s2">&quot;audio&quot;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">task_raw_path</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">task_stem</span> <span class="o">=</span> <span class="n">task_raw_path</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">mapping</span><span class="p">[</span><span class="n">task_stem</span><span class="p">]</span> <span class="o">=</span> <span class="n">task_id</span>
+    <span class="k">return</span> <span class="n">mapping</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">get_project_id_from_name</span><span class="p">(</span><span class="s2">&quot;Speaker 3&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tasks</span> <span class="o">=</span> <span class="n">get_tasks</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mapping</span> <span class="o">=</span> <span class="n">index_task_filestem_to_id</span><span class="p">(</span><span class="n">tasks</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mapping</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;hsi_7_0719_209_001_main.wav&#39;: 107,
+ &#39;hsi_7_0719_209_002_main.wav&#39;: 108,
+ &#39;hsi_7_0719_209_003_main.wav&#39;: 109,
+ &#39;hsi_7_0719_210_001_main.wav&#39;: 110,
+ &#39;hsi_7_0719_210_002_main.wav&#39;: 111,
+ &#39;hsi_7_0719_210_003_main.wav&#39;: 112,
+ &#39;hsi_7_0719_211_002_main.wav&#39;: 113,
+ &#39;hsi_7_0719_211_004_main.wav&#39;: 114,
+ &#39;hsi_7_0719_222_002_main.wav&#39;: 115,
+ &#39;hsi_7_0719_222_004_main.wav&#39;: 116,
+ &#39;hsi_7_0719_227_002_main.wav&#39;: 117,
+ &#39;hsi_7_0719_227_003_main.wav&#39;: 118}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ctmfile</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/hsi/inter_output/attention_rescoring/hsi_7_0719_209_002_inter.ctm&quot;</span>
+<span class="n">outputs</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">segments</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ctmfile</span><span class="p">)</span> <span class="k">as</span> <span class="n">ctmf</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">is_marker</span><span class="p">(</span><span class="n">item</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;&lt;&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span><span class="p">):</span>
+            <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;[</span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s1">]&#39;</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="n">last</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">this_seg</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">ctmf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+        <span class="n">cur</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">]),</span>
+            <span class="s2">&quot;dur&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>
+            <span class="s2">&quot;word&quot;</span><span class="p">:</span> <span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span>
+            <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">+</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">cur</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">-</span> <span class="n">last</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">1.0</span> <span class="ow">or</span> <span class="n">is_marker</span><span class="p">(</span><span class="n">cur</span><span class="p">):</span>
+            <span class="n">segments</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">this_seg</span><span class="p">)</span>
+            <span class="n">this_seg</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">this_seg</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cur</span><span class="p">)</span>
+        <span class="n">last</span> <span class="o">=</span> <span class="n">cur</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span>
+    <span class="n">segments</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">this_seg</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">segments</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">uuid</span>
+
+
+<span class="k">def</span> <span class="nf">ctm_to_result</span><span class="p">(</span><span class="n">ctmfile</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">is_marker</span><span class="p">(</span><span class="n">item</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;&lt;&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;&gt;&quot;</span><span class="p">):</span>
+            <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;[</span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">][</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s1">]&#39;</span>
+            <span class="k">return</span> <span class="kc">True</span>
+        <span class="k">return</span> <span class="kc">False</span>
+
+    <span class="n">outputs</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">segments</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">ctmfile</span><span class="p">)</span> <span class="k">as</span> <span class="n">ctmf</span><span class="p">:</span>
+        <span class="n">last</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="n">this_seg</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">ctmf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+            <span class="n">cur</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">]),</span>
+                <span class="s2">&quot;dur&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>
+                <span class="s2">&quot;word&quot;</span><span class="p">:</span> <span class="n">parts</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span>
+                <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span> <span class="o">+</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">3</span><span class="p">]),</span>
+            <span class="p">}</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">cur</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">-</span> <span class="n">last</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">1.0</span> <span class="ow">or</span> <span class="n">is_marker</span><span class="p">(</span><span class="n">cur</span><span class="p">):</span>
+                <span class="n">segments</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">this_seg</span><span class="p">)</span>
+                <span class="n">this_seg</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">this_seg</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cur</span><span class="p">)</span>
+            <span class="n">last</span> <span class="o">=</span> <span class="n">cur</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span>
+        <span class="n">segments</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">this_seg</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">segment</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">segment</span> <span class="o">==</span> <span class="p">[]:</span>
+            <span class="k">continue</span>
+
+        <span class="n">start</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;start&quot;</span><span class="p">]</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;end&quot;</span><span class="p">]</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">segment</span><span class="p">])</span>
+
+        <span class="n">add_label</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;Speech&quot;</span>
+        <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="s2">&quot;[laugh]&quot;</span><span class="p">:</span>
+            <span class="n">add_label</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;Laughter&quot;</span>
+        <span class="k">elif</span> <span class="n">text</span> <span class="o">==</span> <span class="s2">&quot;[inaudible]&quot;</span><span class="p">:</span>
+            <span class="n">add_label</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="s2">&quot;Noise&quot;</span>
+
+        <span class="n">gen_id</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">uuid</span><span class="o">.</span><span class="n">uuid4</span><span class="p">())[:</span><span class="mi">6</span><span class="p">]</span>
+        <span class="n">segment</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+                <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="n">end</span><span class="p">,</span>
+                <span class="s2">&quot;channel&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="s2">&quot;labels&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">label</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;from_name&quot;</span><span class="p">:</span> <span class="s2">&quot;labels&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;to_name&quot;</span><span class="p">:</span> <span class="s2">&quot;audio&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;labels&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="n">gen_id</span>
+        <span class="p">}</span>
+        <span class="n">rec</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+                <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="n">end</span><span class="p">,</span>
+                <span class="s2">&quot;channel&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+                <span class="s2">&quot;text&quot;</span><span class="p">:</span> <span class="p">[</span><span class="n">text</span><span class="p">]</span>
+            <span class="p">},</span>
+            <span class="s2">&quot;from_name&quot;</span><span class="p">:</span> <span class="s2">&quot;transcription&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;to_name&quot;</span><span class="p">:</span> <span class="s2">&quot;audio&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;textarea&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="n">gen_id</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="n">add_label</span><span class="p">:</span>
+            <span class="n">outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">segment</span><span class="p">)</span>
+        <span class="n">outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rec</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">outputs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">post_results</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">project</span><span class="p">,</span> <span class="n">results</span><span class="p">):</span>
+    <span class="n">ep</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">host</span><span class="si">}</span><span class="s2">annotations/</span><span class="si">{</span><span class="nb">id</span><span class="si">}</span><span class="s2">/?taskID=</span><span class="si">{</span><span class="n">task</span><span class="si">}</span><span class="s2">&amp;project=</span><span class="si">{</span><span class="n">project</span><span class="si">}</span><span class="s2">&quot;</span>
+
+    <span class="n">cur_headers</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="n">headers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">headers</span><span class="p">}</span>
+    <span class="n">cur_headers</span><span class="p">[</span><span class="s2">&quot;Content-type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;application/json&quot;</span>
+
+    <span class="n">content</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;was_cancelled&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="s2">&quot;ground_truth&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="s2">&quot;project&quot;</span><span class="p">:</span> <span class="n">project</span><span class="p">,</span>
+        <span class="s2">&quot;draft_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;parent_prediction&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="s2">&quot;parent_annotation&quot;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="s2">&quot;result&quot;</span><span class="p">:</span> <span class="n">results</span>
+    <span class="p">}</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="n">ep</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">content</span><span class="p">),</span> <span class="n">headers</span><span class="o">=</span><span class="n">cur_headers</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">r</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">input_dir</span><span class="si">}</span><span class="s2">hsi_7_0719_209_002_inter.ctm&quot;</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">ctm_to_result</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">r</span> <span class="o">=</span> <span class="n">post_results</span><span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="mi">55</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>{&#34;id&#34;:300,&#34;result&#34;:[{&#34;value&#34;:{&#34;start&#34;:1.95,&#34;end&#34;:4.6899999999999995,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah but just let me know because it is an easy fix to&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;35e926&#34;},{&#34;value&#34;:{&#34;start&#34;:6.15,&#34;end&#34;:6.25,&#34;channel&#34;:0,&#34;text&#34;:[&#34;um&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;537955&#34;},{&#34;value&#34;:{&#34;start&#34;:7.47,&#34;end&#34;:12.049999999999999,&#34;channel&#34;:0,&#34;text&#34;:[&#34;but yeah i think it looks good i started it now so do you need to uh point that&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;d363c0&#34;},{&#34;value&#34;:{&#34;start&#34;:12.47,&#34;end&#34;:17.85,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[inaudible] uh yeah i think that&#39;s good if you do that but maybe in this one because it&#39;s a landlord so maybe you can be very picky about stuff okay&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;5e6cdd&#34;},{&#34;value&#34;:{&#34;start&#34;:18.79,&#34;end&#34;:35.160000000000004,&#34;channel&#34;:0,&#34;text&#34;:[&#34;um but yeah was very nice living here for four months thanks yeah okay i hope you you have taken care of the things of course thoroughly so uh you you actually performed a clean yes okay that&#39;s great uh but you know i&#39;m just uh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;f1749b&#34;},{&#34;value&#34;:{&#34;start&#34;:36.34,&#34;end&#34;:36.440000000000005,&#34;channel&#34;:0,&#34;text&#34;:[&#34;but&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;3ca46d&#34;},{&#34;value&#34;:{&#34;start&#34;:37.94,&#34;end&#34;:39.0,&#34;channel&#34;:0,&#34;text&#34;:[&#34;there is a stain on&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;8b0b53&#34;},{&#34;value&#34;:{&#34;start&#34;:40.14,&#34;end&#34;:41.35,&#34;channel&#34;:0,&#34;text&#34;:[&#34;on the pillow oh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;ce74ad&#34;},{&#34;value&#34;:{&#34;start&#34;:42.49,&#34;end&#34;:46.75,&#34;channel&#34;:0,&#34;text&#34;:[&#34;but i mean that that&#39;s not supposed to be like that yeah i can i can actually see it&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;092ecb&#34;},{&#34;value&#34;:{&#34;start&#34;:48.17,&#34;end&#34;:53.15,&#34;channel&#34;:0,&#34;text&#34;:[&#34;oh yeah you are right you are right i still need to clean that phone uh-huh okay okay yeah that&#39;s good that&#39;s good&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;a7be6a&#34;},{&#34;value&#34;:{&#34;start&#34;:54.29,&#34;end&#34;:55.03,&#34;channel&#34;:0,&#34;text&#34;:[&#34;what happened here&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;def9a5&#34;},{&#34;value&#34;:{&#34;start&#34;:57.85,&#34;end&#34;:59.870000000000005,&#34;channel&#34;:0,&#34;text&#34;:[&#34;where&#39;s there&#39;s a mark on the wall oh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;38c491&#34;},{&#34;value&#34;:{&#34;start&#34;:60.85,&#34;end&#34;:63.22,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i think it was there but i think we took photos we can check later&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;1cc9d7&#34;},{&#34;value&#34;:{&#34;start&#34;:64.28,&#34;end&#34;:66.33999999999999,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah yeah let let- let&#39;s check that because&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;c14607&#34;},{&#34;value&#34;:{&#34;start&#34;:67.88,&#34;end&#34;:69.3,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah i i don&#39;t think that was there&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;04eaf9&#34;},{&#34;value&#34;:{&#34;start&#34;:74.84,&#34;end&#34;:83.72999999999999,&#34;channel&#34;:0,&#34;text&#34;:[&#34;that what happened with the statue which one the black one because uh it was doing this with the finger oh no it&#39;s it had a finger no it doesn&#39;t have a finger&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;cff3f7&#34;},{&#34;value&#34;:{&#34;start&#34;:84.83,&#34;end&#34;:88.49,&#34;channel&#34;:0,&#34;text&#34;:[&#34;it it it had ah now it doesn&#39;t it doesn&#39;t no ah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;a4cc6a&#34;},{&#34;value&#34;:{&#34;start&#34;:89.67,&#34;end&#34;:91.37,&#34;channel&#34;:0,&#34;text&#34;:[&#34;okay i think we should also- ares&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;a1c2ae&#34;},{&#34;value&#34;:{&#34;start&#34;:92.67,&#34;end&#34;:100.57,&#34;channel&#34;:0,&#34;text&#34;:[&#34;not really but i think we can check it later with the photos or two yeah yeah a hundred percent because yeah really it had a finger painted uh-huh yes yes&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;a65509&#34;},{&#34;value&#34;:{&#34;start&#34;:102.66,&#34;end&#34;:102.75999999999999,&#34;channel&#34;:0,&#34;text&#34;:[&#34;um&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;ebd182&#34;},{&#34;value&#34;:{&#34;start&#34;:104.14,&#34;end&#34;:105.0,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i think uh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;340e2a&#34;},{&#34;value&#34;:{&#34;start&#34;:107.02,&#34;end&#34;:115.96,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah you have a lot of things from yours here right because i mean that trash bin was not from the apartment blue one ah yeah that&#39;s right i need to take that it was only only this one&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;279075&#34;},{&#34;value&#34;:{&#34;start&#34;:117.06,&#34;end&#34;:133.43,&#34;channel&#34;:0,&#34;text&#34;:[&#34;okay yeah yeah because uh the the gray one was the one that was here yeah yeah right but this one is it was not yeah i just put it in for recycling okay okay good so uh and that&#39;s also your computer i guess you mean the laptop yes yes that&#39;s mine but the other one is not okay&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;9abdb3&#34;},{&#34;value&#34;:{&#34;start&#34;:134.65,&#34;end&#34;:141.87,&#34;channel&#34;:0,&#34;text&#34;:[&#34;have you have you changed the table well which what do you mean which one the the central table here uh no i maybe i moved it a bit&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;cee5f4&#34;},{&#34;value&#34;:{&#34;start&#34;:144.4,&#34;end&#34;:146.01999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah it could be yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;aad211&#34;},{&#34;value&#34;:{&#34;start&#34;:148.72,&#34;end&#34;:154.7,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah the problem is that you know whenever the weight goes on then move some mark oh on the on the carpet&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4f20ee&#34;},{&#34;value&#34;:{&#34;start&#34;:155.92,&#34;end&#34;:157.1,&#34;channel&#34;:0,&#34;text&#34;:[&#34;that that doesn&#39;t good&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;50b37d&#34;},{&#34;value&#34;:{&#34;start&#34;:160.84,&#34;end&#34;:160.94,&#34;channel&#34;:0,&#34;text&#34;:[&#34;so&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;242aad&#34;},{&#34;value&#34;:{&#34;start&#34;:162.24,&#34;end&#34;:162.7,&#34;channel&#34;:0,&#34;text&#34;:[&#34;you move the&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;1897cb&#34;},{&#34;value&#34;:{&#34;start&#34;:164.59,&#34;end&#34;:166.13,&#34;channel&#34;:0,&#34;text&#34;:[&#34;um yeah i cleaned under it&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;40e088&#34;},{&#34;value&#34;:{&#34;start&#34;:167.59,&#34;end&#34;:171.48999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i can see some dust in the back oh it could be maybe we do&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;d2407c&#34;},{&#34;value&#34;:{&#34;start&#34;:172.71,&#34;end&#34;:177.65,&#34;channel&#34;:0,&#34;text&#34;:[&#34;final cleaning due this afternoon yeah please please do that because i still see dirt mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;37c251&#34;},{&#34;value&#34;:{&#34;start&#34;:177.69,&#34;end&#34;:177.73,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative]&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;e5d2f6&#34;},{&#34;value&#34;:{&#34;start&#34;:178.67,&#34;end&#34;:178.76999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;87ea20&#34;},{&#34;value&#34;:{&#34;start&#34;:181.07,&#34;end&#34;:183.69,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i mean this this furniture look great i think you&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4e90de&#34;},{&#34;value&#34;:{&#34;start&#34;:184.66,&#34;end&#34;:189.6,&#34;channel&#34;:0,&#34;text&#34;:[&#34;take care of it is the tv uh working right it&#39;s functional yes okay great&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;373d5f&#34;},{&#34;value&#34;:{&#34;start&#34;:193.62,&#34;end&#34;:197.51999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah did you misplace this what do you mean the&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4a4d18&#34;},{&#34;value&#34;:{&#34;start&#34;:199.06,&#34;end&#34;:204.79999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;container for the plants for water in the plants yeah i think it was by the fireplace&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;bfb404&#34;},{&#34;value&#34;:{&#34;start&#34;:206.29,&#34;end&#34;:221.63,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah uh yeah if if you could just actually put it back to where it was i think it&#39;s important for for the next one so i-huh track of the changes so do you prefer it by where do you prefer it by the by the fireplace as it was okay that&#39;s good yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;2a16aa&#34;},{&#34;value&#34;:{&#34;start&#34;:223.01,&#34;end&#34;:225.07,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i think those little bit&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;60cc4e&#34;},{&#34;value&#34;:{&#34;start&#34;:227.12,&#34;end&#34;:241.26,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah i think- you coming from inside and outside or just inside just inside but you&#39;re right i should yeah i think we need to tocheck them on the outside because i can see some from the uh-huh but doesn&#39; look good yeah yeah it&#39;s not good&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;05feef&#34;},{&#34;value&#34;:{&#34;start&#34;:244.24,&#34;end&#34;:244.34,&#34;channel&#34;:0,&#34;text&#34;:[&#34;yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4ffa2b&#34;},{&#34;value&#34;:{&#34;start&#34;:252.67,&#34;end&#34;:252.76999999999998,&#34;channel&#34;:0,&#34;text&#34;:[&#34;here&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;bbd6e9&#34;},{&#34;value&#34;:{&#34;start&#34;:254.23,&#34;end&#34;:255.25,&#34;channel&#34;:0,&#34;text&#34;:[&#34;the door it&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;391ddf&#34;},{&#34;value&#34;:{&#34;start&#34;:258.39,&#34;end&#34;:258.49,&#34;channel&#34;:0,&#34;text&#34;:[&#34;mark&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;0715bc&#34;},{&#34;value&#34;:{&#34;start&#34;:260.43,&#34;end&#34;:268.44000000000005,&#34;channel&#34;:0,&#34;text&#34;:[&#34;uh i can actually see a mark yeah i think we should check it on the pictures also this one i can i i i don&#39;t if ca- uh recall anything&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4288a6&#34;},{&#34;value&#34;:{&#34;start&#34;:269.46,&#34;end&#34;:270.72,&#34;channel&#34;:0,&#34;text&#34;:[&#34;happening what&#39;s the-&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;e5d8c1&#34;},{&#34;value&#34;:{&#34;start&#34;:291.01,&#34;end&#34;:300.95000000000005,&#34;channel&#34;:0,&#34;text&#34;:[&#34;&lt;inaudible&gt; hmm the sculpture yeah it has a scratch on the on the palm no i think it was there it was very distinctive i thought it was on purpose it&#39;s part of the art piece&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;ede52d&#34;},{&#34;value&#34;:{&#34;start&#34;:301.77,&#34;end&#34;:312.42,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i&#39;m not so sure about that i think it&#39;s it not there before mmhmm i think that&#39;s we can so check on the pictures yeah yeah we should check it on the pictures &#39;cause it&#39;cause really it&#39;s not uh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;0a48ea&#34;},{&#34;value&#34;:{&#34;start&#34;:313.48,&#34;end&#34;:325.66,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i don&#39;t think it&#39; was there and of course of course i will move this like here you see my moving boxes here yeah please please uh so so move it because uh yeah not of the the newspaper there mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;60d724&#34;},{&#34;value&#34;:{&#34;start&#34;:325.7,&#34;end&#34;:327.78000000000003,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] i mean try to move all&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;dc0cb6&#34;},{&#34;value&#34;:{&#34;start&#34;:328.71,&#34;end&#34;:328.89,&#34;channel&#34;:0,&#34;text&#34;:[&#34;mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;d5a86c&#34;},{&#34;value&#34;:{&#34;start&#34;:328.93,&#34;end&#34;:333.05,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] otherwise it&#39;s not good for the rest yes yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;d5f624&#34;},{&#34;value&#34;:{&#34;start&#34;:334.91,&#34;end&#34;:335.49,&#34;channel&#34;:0,&#34;text&#34;:[&#34;so what else&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;fffa81&#34;},{&#34;value&#34;:{&#34;start&#34;:341.07,&#34;end&#34;:353.48,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i also misplace the paintings i hope you i can take it back if you yeah i was actually gonna comment about about that that can actually i mean how did you clean them no the paintings no okay&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;749b1a&#34;},{&#34;value&#34;:{&#34;start&#34;:354.58,&#34;end&#34;:359.96,&#34;channel&#34;:0,&#34;text&#34;:[&#34;i can see a little bit of dust maybe you can just uh- no i- put a little bit mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;559740&#34;},{&#34;value&#34;:{&#34;start&#34;:360.0,&#34;end&#34;:360.04,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative]&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;ef91c1&#34;},{&#34;value&#34;:{&#34;start&#34;:361.02,&#34;end&#34;:361.84000000000003,&#34;channel&#34;:0,&#34;text&#34;:[&#34;clean it mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;b306bb&#34;},{&#34;value&#34;:{&#34;start&#34;:361.88,&#34;end&#34;:363.32000000000005,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] yeah on the upper part especially&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;f3ad52&#34;},{&#34;value&#34;:{&#34;start&#34;:365.62,&#34;end&#34;:366.04,&#34;channel&#34;:0,&#34;text&#34;:[&#34;an actual&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;b0b1f6&#34;},{&#34;value&#34;:{&#34;start&#34;:367.46,&#34;end&#34;:368.24,&#34;channel&#34;:0,&#34;text&#34;:[&#34;you layer of&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;f144f6&#34;},{&#34;value&#34;:{&#34;start&#34;:369.25,&#34;end&#34;:386.31,&#34;channel&#34;:0,&#34;text&#34;:[&#34;of course i was just very careful with that one no of course of course but you you know when you have the frame so in the upper part and in the lower part there is a little bit of a line of uh-huh yeah and then it it&#39;s not good so uh if you could actually not wet flos uh-huh normal drycloth mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;6c924d&#34;},{&#34;value&#34;:{&#34;start&#34;:386.35,&#34;end&#34;:388.71,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] and then you put put it over uh-huh&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;b31bfc&#34;},{&#34;value&#34;:{&#34;start&#34;:388.75,&#34;end&#34;:391.42,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] like towards all the sites mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;c6ab6c&#34;},{&#34;value&#34;:{&#34;start&#34;:391.46,&#34;end&#34;:393.54,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] and i think that is uh that is good yes&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;9eb6b9&#34;},{&#34;value&#34;:{&#34;start&#34;:395.04,&#34;end&#34;:395.14000000000004,&#34;channel&#34;:0,&#34;text&#34;:[&#34;okay&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;e0b3d7&#34;},{&#34;value&#34;:{&#34;start&#34;:397.08,&#34;end&#34;:401.1,&#34;channel&#34;:0,&#34;text&#34;:[&#34;especially in the frame ones the ones that uh don&#39;t have a frame like those- mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;fcc036&#34;},{&#34;value&#34;:{&#34;start&#34;:401.14,&#34;end&#34;:404.14,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] and those ones are not that problematic mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;d38392&#34;},{&#34;value&#34;:{&#34;start&#34;:404.18,&#34;end&#34;:409.06,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] but these ones that have a frame are you don&#39;t have to take that much care mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;73dc78&#34;},{&#34;value&#34;:{&#34;start&#34;:409.1,&#34;end&#34;:415.41,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] in terms of uh damaging them &#39;cause they have like a glass so you can actually clean them normally mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;c4e8a1&#34;},{&#34;value&#34;:{&#34;start&#34;:415.45,&#34;end&#34;:419.05,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] the the the ones that you need to take more care about are those ones mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;f9412f&#34;},{&#34;value&#34;:{&#34;start&#34;:419.09,&#34;end&#34;:421.21000000000004,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] uh &#39;cause they don&#39;t have a frame mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;68ebaa&#34;},{&#34;value&#34;:{&#34;start&#34;:421.25,&#34;end&#34;:422.49,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative] that makes sense mm-hmm&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;a7941f&#34;},{&#34;value&#34;:{&#34;start&#34;:422.53,&#34;end&#34;:422.57,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[affirmative]&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;54100c&#34;},{&#34;value&#34;:{&#34;start&#34;:423.55,&#34;end&#34;:435.68,&#34;channel&#34;:0,&#34;text&#34;:[&#34;okay but then i think we are all if we finished almost no we can just do the afternoon cleaning and then we can do the inspection yeah let&#39;s check this those marks because otherwise i won&#39;t be able to give&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;b47070&#34;},{&#34;value&#34;:{&#34;start&#34;:436.62,&#34;end&#34;:437.92,&#34;channel&#34;:0,&#34;text&#34;:[&#34;back oh okay yeah&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;4abbae&#34;},{&#34;value&#34;:{&#34;start&#34;:438.32,&#34;end&#34;:438.36,&#34;channel&#34;:0,&#34;labels&#34;:[&#34;Laughter&#34;]},&#34;from_name&#34;:&#34;labels&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;labels&#34;,&#34;id&#34;:&#34;3c2447&#34;},{&#34;value&#34;:{&#34;start&#34;:438.32,&#34;end&#34;:438.36,&#34;channel&#34;:0,&#34;text&#34;:[&#34;[laugh]&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;3c2447&#34;},{&#34;value&#34;:{&#34;start&#34;:439.34,&#34;end&#34;:439.44,&#34;channel&#34;:0,&#34;text&#34;:[&#34;okay&#34;]},&#34;from_name&#34;:&#34;transcription&#34;,&#34;to_name&#34;:&#34;audio&#34;,&#34;type&#34;:&#34;textarea&#34;,&#34;id&#34;:&#34;b1b15b&#34;}],&#34;created_username&#34;:&#34; reverb@fake.com, 12&#34;,&#34;created_ago&#34;:&#34;21 minutes&#34;,&#34;completed_by&#34;:12,&#34;was_cancelled&#34;:false,&#34;ground_truth&#34;:false,&#34;created_at&#34;:&#34;2024-10-16T12:51:19.552432Z&#34;,&#34;updated_at&#34;:&#34;2024-10-16T13:12:23.081498Z&#34;,&#34;draft_created_at&#34;:null,&#34;lead_time&#34;:1.733,&#34;import_id&#34;:null,&#34;last_action&#34;:null,&#34;task&#34;:55,&#34;project&#34;:4,&#34;updated_by&#34;:12,&#34;parent_prediction&#34;:null,&#34;parent_annotation&#34;:null,&#34;last_created_by&#34;:null}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="k">for</span> <span class="n">fn</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+    <span class="n">ctmfile</span> <span class="o">=</span> <span class="n">fn</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.wav&quot;</span><span class="p">,</span> <span class="s2">&quot;.TextGrid&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">input_dir</span><span class="p">)</span> <span class="o">/</span> <span class="n">ctmfile</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">mapping</span><span class="p">[</span><span class="n">fn</span><span class="p">],</span> <span class="n">fn</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">count</span> <span class="o">=</span> <span class="mi">230</span>
+<span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+    <span class="n">jsonfile</span> <span class="o">=</span> <span class="n">task</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.wav&quot;</span><span class="p">,</span> <span class="s2">&quot;.TextGrid&quot;</span><span class="p">)</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">input_dir</span><span class="si">}{</span><span class="n">jsonfile</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">input_dir</span><span class="p">)</span> <span class="o">/</span> <span class="n">jsonfile</span><span class="p">)</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">continue</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">tg_to_result</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">post_results</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">mapping</span><span class="p">[</span><span class="n">task</span><span class="p">],</span> <span class="mi">8</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tmap</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">99</span>
+<span class="k">for</span> <span class="n">task</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+    <span class="n">tmap</span><span class="p">[</span><span class="n">task</span><span class="p">]</span> <span class="o">=</span> <span class="n">count</span>
+    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/hsi_ctmedit/textgrid&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.TextGrid&quot;</span><span class="p">):</span>
+    <span class="n">wavfile</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">stem</span> <span class="o">+</span> <span class="s2">&quot;.wav&quot;</span>
+    <span class="k">if</span> <span class="n">wavfile</span> <span class="ow">in</span> <span class="n">mapping</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">wavfile</span><span class="p">,</span> <span class="n">mapping</span><span class="p">[</span><span class="n">wavfile</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/labelstudio/reverbasr/ctm/hsi/2024/10/16/reverb-ctm-to-labelstudio.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
