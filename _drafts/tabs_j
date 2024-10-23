@@ -14,7 +14,7 @@ Label Studio
 http://130.237.3.107:8080/projects/1/data?tab=1&task=22
 
 Label Studio
-http://130.237.3.107:8080/projects/8/data?tab=8&task=110
+http://130.237.3.107:8080/projects/10/data?tab=9&task=119
 
 Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=71
@@ -27,6 +27,9 @@ http://130.237.3.107:8080/projects/5/data?tab=5
 
 Label Studio
 http://130.237.3.107:8080/projects/6/data?tab=6&task=88
+
+Label Studio
+http://130.237.3.107:8080/projects/7/data?tab=7&task=101
 
 Label Studio
 http://130.237.3.107:8080/projects/3/data?tab=3
@@ -232,38 +235,8 @@ https://github.com/rhasspy/piper?tab=readme-ov-file
 piper/notebooks/pretrained_models.json at master · rhasspy/piper
 https://github.com/rhasspy/piper/blob/master/notebooks/pretrained_models.json
 
-rhasspy/voice-datasets · Datasets at Hugging Face
-https://huggingface.co/datasets/rhasspy/voice-datasets
-
-piper/TRAINING.md at master · rhasspy/piper
-https://github.com/rhasspy/piper/blob/master/TRAINING.md
-
-rhasspy/piper-checkpoints at main
-https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main
-
-MODEL_CARD · csukuangfj/vits-piper-pl_PL-gosia-medium at main
-https://huggingface.co/csukuangfj/vits-piper-pl_PL-gosia-medium/blob/main/MODEL_CARD
-
 CSTR Downloads
 https://www.cstr.ed.ac.uk/downloads/
-
-Repeated Harvard Sentence Prompts corpus version 0.5
-https://datashare.ed.ac.uk/handle/10283/561
-
-Design of the sentence materials
-https://www.cstr.ed.ac.uk/projects/eustace/design.html
-
-Data and tools related to the Blizzard Challenge
-https://www.cstr.ed.ac.uk/projects/blizzard/
-
-Ressources for End-to-End French Text-to-Speech Blizzard challenge
-https://zenodo.org/records/7560290
-
-Hurricane natural speech corpus
-https://datashare.ed.ac.uk/handle/10283/347
-
-AMI Corpus Download
-https://groups.inf.ed.ac.uk/ami/download/
 
 openslr.org
 https://www.openslr.org/resources.php
@@ -1127,12 +1100,9 @@ Matcha-TTS/synthesis.ipynb at main · shivammehta25/Matcha-TTS
 https://github.com/shivammehta25/Matcha-TTS/blob/main/synthesis.ipynb
 
 Untitled44.ipynb - Colab
-https://colab.research.google.com/drive/1T6Gydg7OZ-wsorIBivkH4-GY8YaPZLNa#scrollTo=dekwGvlZeCZb
+https://colab.research.google.com/drive/1T6Gydg7OZ-wsorIBivkH4-GY8YaPZLNa#scrollTo=okGScIW1em3C
 
-shivammehta25/Matcha-TTS: [ICASSP 2024] 🍵 Matcha-TTS: A fast TTS architecture with conditional flow matching
-https://github.com/shivammehta25/Matcha-TTS?tab=readme-ov-file
-
-arxiv.org/abs/2209.03003
+[2209.03003] Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow
 https://arxiv.org/abs/2209.03003
 
 hydra.cc
@@ -1252,49 +1222,214 @@ https://huggingface.co/jimregan/matcha-mmconv-test1/blob/main/train.log
 jimregan/matcha-mmconv-test1 · Training metrics
 https://huggingface.co/jimregan/matcha-mmconv-test1/tensorboard
 
-How to fix “CUDA error: device-side assert triggered” error? - PyTorch Forums
-https://discuss.pytorch.org/t/how-to-fix-cuda-error-device-side-assert-triggered-error/137553
+NoDaLiDa/Baltic-HLT 2025 - Call for papers
+https://www.nodalida-bhlt2025.eu/call-for-papers#h.v2k63awq0fpe
 
-Cuda Indexing Error on GPU · Issue #121493 · pytorch/pytorch
-https://github.com/pytorch/pytorch/issues/121493
-
-How do I "fix" a missing lfs pattern, and rewrite history? · Issue #4376 · git-lfs/git-lfs
-https://github.com/git-lfs/git-lfs/issues/4376
-
-DHNB 2025 – DHNB
-https://dhnb.eu/conferences/dhnb2025/
+Instructions for NoDaLiDa-Baltic-HLT 2025 submissions - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/6718c4b46ad25341f07ddb42
 
 dhnb - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67182024aaf299f9d0b85621
 
-Eva Pettersson - Uppsala University
-https://www.uu.se/kontakt-och-organisation/personal?query=N3-992
+kth royal institute of technology - Google Search
+https://www.google.com/search?gs_ssp=eJzj4tDP1TcwSzGqMmD0UswuyVAoyq9MzFHIzCsuySwpLUlVyE9TKElNzsjLz8lPrwQATo4P2A&q=kth+royal+institute+of+technology&rlz=1C5GCEM_enSE990SE991&oq=KTH+Royal&gs_lcrp=EgZjaHJvbWUqDwgBEC4YQxjJAxiABBiKBTIGCAAQRRg5Mg8IARAuGEMYyQMYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDINCAQQABiSAxiABBiKBTIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEIMjg3N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-Low-Resource Techniques for Analysing the Rhetorical Structure of Swedish Historical Petitions
-https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1823255&dswid=9266
+jimregan/matcha-mmconv-test1 · Training metrics
+https://huggingface.co/jimregan/matcha-mmconv-test1/tensorboard
 
-Spelling Normalisation and Linguistic Analysis of Historical Text for Information Extraction
-https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A885117&dswid=7468
+Unified login/logout methods by Wauplin · Pull Request #1111 · huggingface/huggingface_hub
+https://github.com/huggingface/huggingface_hub/pull/1111
 
-Swedish phonology - Wikipedia
-https://en.wikipedia.org/wiki/Swedish_phonology
+Embodied reasoning in referential setting - manusript abstract - Google Docs
+https://docs.google.com/document/d/1ADDYku_B--WC0uelsVwS2ninRUPsVj2kKl3t_CHPePI/edit?tab=t.0
 
-Disable "resume browsing" - Google Chrome Community
-https://support.google.com/chrome/thread/283109775/disable-resume-browsing?hl=en
+Hello | Hello in Sign Languages
+https://youglish.com/pronounce/hello/signlanguage
 
-sen - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/sen#Swedish
+MN Commission - YouTube
+https://www.youtube.com/@MNCommission
 
-organic - Wiktionary
-https://sv.wiktionary.org/wiki/ekologisk
+Hearing People... STOP TEACHING SIGN LANGUAGE! - YouTube
+https://www.youtube.com/watch?v=Uo4C3DqN-Q8
 
-Svenska Akademiens ordlista (SAOL)
-https://www.svenskaakademien.se/svenska-spraket/svenska-akademiens-ordlista-saol
+Hur mår psykiatrin? Louise Kimby i Mind Studio - YouTube
+https://www.youtube.com/watch?v=RQIF-SJPRls
 
-ackumulator | svenska.se
-https://svenska.se/tre/?sok=ackumulator&pz=8
+YouTube
+https://www.youtube.com/
 
-The People's Dictionary
-https://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&ekologiskt
+Sweden Drum Camp Aug 24' !! - YouTube
+https://www.youtube.com/watch?v=lceQrUETy04
+
+Deaf Swedish woman explains country’s unique approach to COVID-19 - YouTube
+https://www.youtube.com/watch?v=2ybDcnPdFUk
+
+swedish sign language - YouTube
+https://www.youtube.com/results?search_query=swedish+sign+language
+
+How to Sign "Hello" in SWEDEN Sign Language (STS) - YouTube
+https://www.youtube.com/watch?v=kufYa2ifI4Q
+
+WIKITONGUES: Håkan speaking Finland-Swedish Sign Language - YouTube
+https://www.youtube.com/watch?v=r0FS2UF3qCo
+
+Dövas Dag 2024 in Sweden: Sign Language through life - YouTube
+https://www.youtube.com/watch?v=xEWQVIJdPZg
+
+ASL AND SSL(SWEDISH SIGN LANGUAGE) - YouTube
+https://www.youtube.com/watch?v=UoAgqDeATWI
+
+How to Sign "Father" in Swedish Sign Language (SWEDEN) - YouTube
+https://www.youtube.com/watch?v=Yx_eEZgWh3U
+
+Korean Teens meet beautiful Northern Europeans For the First Time! - YouTube
+https://www.youtube.com/watch?v=6vBEO4EM1ko
+
+Swedish Sign Language Interpreter Steals The Show! (FULL) Snubbe Teckentolkar I Melodifestivalen! - YouTube
+https://www.youtube.com/watch?v=B-sJXxIPakk
+
+Svenskt teckenspråk - ABC-sång - MegaVega (Swedish sign language) - YouTube
+https://www.youtube.com/watch?v=oa6T9VWSfxU
+
+Alexandra - Deaf Community and Swedish Sign Language - YouTube
+https://www.youtube.com/watch?v=Jg6yHuYX7bI
+
+Teckenspråk - Staffan Stalledräng - Vega & Em (Swedish sign language) - YouTube
+https://www.youtube.com/watch?v=-CosCZc61-E
+
+MegaVega - YouTube
+https://www.youtube.com/@MegaVega/videos
+
+Learn SWEDEN Sign Language with Josse! | SSL Online Course - YouTube
+https://www.youtube.com/watch?v=nE_IaJqi_iQ
+
+teckenspråk - Google Search
+https://www.google.com/search?q=teckenspr%C3%A5k&sca_esv=60483cdc6baef8bd&rlz=1C5GCEM_enSE990SE991&sxsrf=ADLYWIKrgUjlIj43vX7_EKY6WQ4LmvoTCw:1729682909379&ei=3d0YZ6reFuL6wPAPi7zikA0&start=10&sa=N&sstk=AagrsuhLpPl5MkSN1imhimxDihA87xoIZcGtoNSbOELom5fUjHZiXMFWE1o3rVVpjw3A5_ZK2SnlbLhWGW0_wXL41cbzKwiXlFPFnQ&ved=2ahUKEwjqwIz7sqSJAxViPRAIHQueGNIQ8NMDegQICBAW&biw=1440&bih=733&dpr=2
+
+Svenskt teckenspråkslexikon - Stockholms universitet
+https://teckensprakslexikon.su.se/
+
+Svenskt teckenspråkskorpus - STSKorpus
+https://teckensprakskorpus.su.se/
+
+Teckenspråk – Wikipedia
+https://sv.wikipedia.org/wiki/Teckenspr%C3%A5k
+
+Svenskt teckenspråk | Institutet för språk och folkminnen
+https://www.isof.se/svenskt-teckensprak/kontakt-svenskt-teckensprak/svenskt-teckensprak
+
+Teckenspråkstolkade program och program på teckenspråk | SVT Play
+https://www.svtplay.se/teckensprak
+
+Om svenskt teckenspråk | Institutet för språk och folkminnen
+https://www.isof.se/svenskt-teckensprak/laromedel-och-utbildningsmaterial/det-svenska-teckensprakets-grammatik/om-svenskt-teckensprak
+
+Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
+
+Airbnb | Vacation rentals, cabins, beach houses, & more
+https://www.airbnb.com/
+
+Barbie’s Malibu DreamHouse, Ken’s Way in Malibu, California, United States - Airbnb
+https://www.airbnb.com/rooms/857387972692815761?adults=1&category_tag=Tag%3A8851&children=0&enable_m3_private_room=true&infants=0&pets=0&search_mode=flex_destinations_search&source_impression_id=p3_1729685095_P3VlXOfCmoSxaeQg&previous_page_section_name=1000&federated_search_id=301100e5-bea1-48cb-a767-f0371626d91d
+
+Shrek’s Swamp in Highland Council, Scotland, United Kingdom - Airbnb
+https://www.airbnb.com/rooms/881808599061267756?adults=1&category_tag=Tag%3A8851&children=0&enable_m3_private_room=true&infants=0&pets=0&search_mode=flex_destinations_search&source_impression_id=p3_1729685240_P3yOSqbnTKMfcIdc&previous_page_section_name=1000&federated_search_id=301100e5-bea1-48cb-a767-f0371626d91d
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Hej%2C%20vi%20har%20inte%20gl%C3%B6mt%20dig!%0A%0A%0A%0AF%C3%B6r%20n%C3%A5gra%20dagar%20sedan%20skickade%20du%20ett%20mail%20till%20oss.%20Just%20nu%20har%20vi%20l%C3%A4ngre%20svarstid%20%C3%A4n%20normalt.%0A%0AVi%20jobbar%20p%C3%A5%20att%20ge%20dig%20ett%20svar%20s%C3%A5%20snart%20som%20m%C3%B6jligt%20och%20hanterar%20alltid%20%C3%A4rendet%20utifr%C3%A5n%20den%20dag%20du%20skickade%20in%20det.%0A%0ADu%20hittar%20svar%20p%C3%A5%20v%C3%A5ra%20vanligaste%20fr%C3%A5gor%20och%20administrerar%20ditt%20medlemskap%20h%C3%A4r%3A%20https%3A%2F%2Fwww.sats.se%2Fkundservice.%0A%0AKom%20ih%C3%A5g%20att%20i%20SATS-appen%20kan%20du%20f%C3%A5%20inspiration%20om%20v%C3%A5ra%20olika%20tr%C3%A4ningsprogram%20%E2%80%93%20testa%20ett%20redan%20idag!%20%F0%9F%92%AA&op=translate
+
+You Can Stay in a Re-Creation of Shrek's Swamp in Scotland | Smithsonian
+https://www.smithsonianmag.com/smart-news/you-can-stay-in-a-recreation-of-shreks-swamp-in-scotland-180983003/
+
+History - Ardverikie
+https://ardverikie.com/the-estate/history
+
+F5-TTS
+https://swivid.github.io/F5-TTS/
+
+2410.06885
+https://arxiv.org/pdf/2410.06885
+
+SWivid/F5-TTS: Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
+https://github.com/SWivid/F5-TTS
+
+amphion (Amphion)
+https://huggingface.co/amphion
+
+amphion/hifigan_ljspeech · Hugging Face
+https://huggingface.co/amphion/hifigan_ljspeech
+
+amphion/naturalspeech3_facodec · Hugging Face
+https://huggingface.co/amphion/naturalspeech3_facodec
+
+amphion/naturalspeech3_facodec · Hugging Face
+https://huggingface.co/amphion/naturalspeech3_facodec
+
+open-mmlab/Amphion: Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.
+https://github.com/open-mmlab/Amphion/tree/main
+
+Wenetspeech4TTS/WenetSpeech4TTS · Datasets at Hugging Face
+https://huggingface.co/datasets/Wenetspeech4TTS/WenetSpeech4TTS
+
+Amphion/preprocessors/Emilia at main · open-mmlab/Amphion
+https://github.com/open-mmlab/Amphion/tree/main/preprocessors/Emilia
+
+add a basic trainer and dataset by manmay-nakhashi · Pull Request #1 · lucidrains/e2-tts-pytorch
+https://github.com/lucidrains/e2-tts-pytorch/pull/1/files
+
+e2-tts-pytorch/e2_tts_pytorch/e2_tts.py at 282578225879ae77a2194e3fceafa5d56cf16671 · lucidrains/e2-tts-pytorch
+https://github.com/lucidrains/e2-tts-pytorch/blob/282578225879ae77a2194e3fceafa5d56cf16671/e2_tts_pytorch/e2_tts.py#L220
+
+torch.nn.functional.interpolate — PyTorch 2.5 documentation
+https://pytorch.org/docs/stable/generated/torch.nn.functional.interpolate.html
+
+F5-TTS
+https://swivid.github.io/F5-TTS/
+
+F5-TTS - a Hugging Face Space by mrfakename
+https://huggingface.co/spaces/mrfakename/E2-F5-TTS
+
+2410.06885
+https://arxiv.org/pdf/2410.06885
+
+2406.02430
+https://arxiv.org/pdf/2406.02430
+
+Squeezeformer - Google Search
+https://www.google.com/search?q=Squeezeformer&rlz=1C5GCEM_enSE990SE991&sourceid=chrome&ie=UTF-8
+
+BytedanceSpeech/seed-tts-eval
+https://github.com/BytedanceSpeech/seed-tts-eval/tree/main
+
+BytedanceSpeech
+https://github.com/BytedanceSpeech
+
+Höstworkshop | Språkbanken
+https://sprakbanken.se/hostworkshop
+
+PowerPoint presentations | KTH Intranet
+https://intra.kth.se/en/administration/kommunikation/mallar-kommunikationsverktyg/mallar/powerpoint/presentationer-i-powerpoint-1.458251
+
+MM-conv dataset analysis - Google Docs
+https://docs.google.com/document/d/1PJGdc8GqXt2lkMCyXwWzPSn6W83NYqkwT6QqHlqKyE4/edit?tab=t.0
+
+YouRefIt: Embodied Reference Understanding With Language and Gesture
+https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_YouRefIt_Embodied_Reference_Understanding_With_Language_and_Gesture_ICCV_2021_paper.pdf
+
+YouRefIt
+https://yixchen.github.io/YouRefIt/
+
+YouRefIt Dataset Request
+https://yixchen.github.io/YouRefIt/request.html
+
+YouRefIt_ERU/test at main · yixchen/YouRefIt_ERU
+https://github.com/yixchen/YouRefIt_ERU/tree/main/test
+
+sum - Bash - calculate length of all mp3 files in one folder - Stack Overflow
+https://stackoverflow.com/questions/45535938/bash-calculate-length-of-all-mp3-files-in-one-folder
+
+13272.804088 seconds in hours - Google Search
+https://www.google.com/search?q=13272.804088+seconds+in+hours&rlz=1C5GCEM_enSE990SE991&oq=13272.804088+seconds+in+hours&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQBhhA0gEIOTI4MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
 
