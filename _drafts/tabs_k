@@ -166,8 +166,8 @@ https://ml-explore.github.io/mlx/build/html/dev/custom_metal_kernels.html
 (1) Awni Hannun on X: "RFP: request for port @srush_nlp GPU puzzles to Metal with MLX custom_kernels: https://t.co/ji2YRKEYJ5 Would be a great way to learn Metal / Apple GPU programming." / X
 https://x.com/awnihannun/status/1833376670063202536
 
-srush/GPU-Puzzles: Solve puzzles. Learn CUDA.
-https://github.com/srush/GPU-Puzzles?tab=readme-ov-file
+Memory management — Numba 0+untagged.871.g53e976f.dirty documentation
+https://numba.readthedocs.io/en/stable/cuda/memory.html
 
 srush/Tensor-Puzzles: Solve puzzles. Improve your pytorch.
 https://github.com/srush/Tensor-Puzzles
@@ -238,76 +238,43 @@ https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/20
 jimregan/wav2vec2-xls-r-300m-phoneme-timit · Hugging Face
 https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit
 
-Ankur3107/transformers-on-macbook-m1-gpu
-https://github.com/Ankur3107/transformers-on-macbook-m1-gpu
-
-pictures of you lyrics - Google Search
-https://www.google.com/search?q=pictures+of+you+lyrics&rlz=1C5GCCM_en&oq=pictures+of+you+lyrics&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQLhiABDIHCAgQABiABDIHCAkQABiABNIBCDY5NjFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Password Manager
-https://passwords.google.com/
-
 2410.22179
 https://arxiv.org/pdf/2410.22179
 
-YouTube
-https://www.youtube.com/
-
-The Pirate Bay - The galaxy's most resilient bittorrent site
-https://thepiratebay10.info/search/the%20last%20leg/1/99/0
-
-μTorrent Web
-https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
-
 Panelshow
 https://www.reddit.com/r/panelshow/
-
-Panelshow
-https://www.reddit.com/r/panelshow/
-
-The Graham Norton Show S32E06 - video Dailymotion
-https://www.dailymotion.com/video/x98gdfu
-
-QI XL S22E01 - Voyaging - video Dailymotion
-https://www.dailymotion.com/video/x97w1c0
-
-Unspeakable - Unspeakable - Pilot - BBC Sounds
-https://www.bbc.co.uk/sounds/play/m001wgzv
 
 Have I Got News For You S68E05 - Jo Brand, Nabil Abdulrashid and Tom Peck : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1ghh5vl/have_i_got_news_for_you_s68e05_jo_brand_nabil/
 
-Trending C++ repositories on GitHub today
-https://github.com/trending/cpp
+Instagram
+https://www.instagram.com/
 
-stable-diffusion.cpp/upscaler.cpp at master · leejet/stable-diffusion.cpp
-https://github.com/leejet/stable-diffusion.cpp/blob/master/upscaler.cpp
+YouTube
+https://www.youtube.com/
 
-alibaba/MNN: MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba
-https://github.com/alibaba/MNN
+Why Pigua is the HIDDEN GEM of Chinese Martial Arts - YouTube
+https://www.youtube.com/watch?v=PzsEqXXxxLA
 
-facebookincubator/velox: A composable and fully extensible C++ execution engine library for data management systems.
-https://github.com/facebookincubator/velox
+The Video I’ve Been Afraid To Make - YouTube
+https://www.youtube.com/watch?v=xxR6Zi1euvc
 
-PCSX2/pcsx2: PCSX2 - The Playstation 2 Emulator
-https://github.com/PCSX2/pcsx2
+ANIMALS AS LEADERS - MONOMYTH - YouTube
+https://www.youtube.com/shorts/qZEd-r0hmY4
 
-ArthurSonzogni/FTXUI: :computer: C++ Functional Terminal User Interface. :heart:
-https://github.com/ArthurSonzogni/FTXUI
+Bruce Lee's Speed STUNS Karate Champion - YouTube
+https://www.youtube.com/shorts/Mu8fmh4Uwg4
 
-ssloy/tinyrenderer: A brief computer graphics / rendering course
-https://github.com/ssloy/tinyrenderer
+Yoshiko Kawashima - Wikipedia
+https://en.wikipedia.org/wiki/Yoshiko_Kawashima
 
-Trending Python repositories on GitHub today
-https://github.com/trending/python
+snow in russia today - Google Search
+https://www.google.com/search?q=snow+in+russia+today&sca_esv=44ceae893c66cd9e&rlz=1C5GCCM_en&sxsrf=ADLYWIIP7DiZw3niI1hTUS32cfqi9F1uIA%3A1730646244010&ei=5JAnZ7wboOLA8A-X6ZLpBQ&ved=0ahUKEwi8nezUt8CJAxUgMRAIHZe0JF0Q4dUDCA8&uact=5&oq=snow+in+russia+today&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHNub3cgaW4gcnVzc2lhIHRvZGF5MgUQABiABDILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMggQABiABBiiBEjdEVDJA1jXD3ABeAKQAQCYAVugAagEqgEBN7gBA8gBAPgBAZgCCaACywTCAgQQABhHwgIGEAAYFhgewgIIEAAYFhgKGB7CAggQABgWGB4YD5gDAOIDBRIBMSBAiAYBkAYHkgcBOaAH2x8&sclient=gws-wiz-serp
 
-3b1b/manim: Animation engine for explanatory math videos
-https://github.com/3b1b/manim?tab=readme-ov-file
+Weather in Russia
+https://www.timeanddate.com/weather/russia
 
-ManimCommunity/manim: A community-maintained Python framework for creating mathematical animations.
-https://github.com/ManimCommunity/manim/
-
-marimo-team/marimo: A reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.
-https://github.com/marimo-team/marimo
+weekly forecast stockholm - Google Search
+https://www.google.com/search?q=weekly+forecast+stockholm&rlz=1C5GCCM_en&oq=weekly+forecast+stockholm&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCDUxNDFqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8
 
 
