@@ -52,4 +52,5 @@ Even with a vast amound of data, the samples on their [demo page](https://swivid
 
 [lutzroeder/netron](https://github.com/lutzroeder/netron) --- Visualizer for neural network, deep learning and machine learning models
 
+[FSM card generator](https://www.spaghettimonster.org/2023/12/16/e-card-machine-updated/)
 
