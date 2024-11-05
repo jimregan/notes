@@ -11,7 +11,7 @@ Moshi.pdf
 https://kyutai.org/Moshi.pdf
 
 Label Studio
-http://130.237.3.107:8080/projects/1/data?tab=1&task=22
+http://130.237.3.107:8080/projects/1/data?tab=1&task=5
 
 Label Studio
 http://130.237.3.107:8080/projects/10/data?tab=9&task=119
@@ -20,7 +20,7 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
 Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7
+http://130.237.3.107:8080/projects/7/data?tab=7&task=97
 
 Label Studio
 http://130.237.3.107:8080/projects/6/data?tab=6&task=87
@@ -41,10 +41,13 @@ Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=73
 
 Label Studio
-http://130.237.3.107:8080/projects/6/data?tab=6&task=88
+http://130.237.3.107:8080/projects/8/data?tab=8&task=111
 
 Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=102
+http://130.237.3.107:8080/user/login/
+
+Label Studio
+http://130.237.3.107:8080/projects/?page=1
 
 TAFFC2457417.pdf
 https://sail.usc.edu/publications/files/eyben-preprinttaffc-2015.pdf
@@ -826,9 +829,6 @@ https://chrisearch.wordpress.com/2017/03/11/speech-recognition-using-kaldi-exten
 phonemizer/test/test_espeak.py at master · bootphon/phonemizer
 https://github.com/bootphon/phonemizer/blob/master/test/test_espeak.py
 
-2024-10-20-matcha-polish.ipynb - Colab
-https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-10-20-matcha-polish.ipynb#scrollTo=Y0kkmRATI5Mf
-
 Trying to use pocketsphinx to word align | notes
 https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
 
@@ -1426,40 +1426,271 @@ https://huggingface.co/espnet
 pyf98/owsm_ctc_v3.2_ft_1B · Hugging Face
 https://huggingface.co/pyf98/owsm_ctc_v3.2_ft_1B
 
-[2406.09282] On the Effects of Heterogeneous Data Sources on Speech-to-Text Foundation Models
-https://arxiv.org/abs/2406.09282
+espnet/espnet2/bin/asr_align.py at 7ba9035795df8de299fe3106889ae06fe285fa05 · espnet/espnet
+https://github.com/espnet/espnet/blob/7ba9035795df8de299fe3106889ae06fe285fa05/espnet2/bin/asr_align.py#L124
 
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
 
-[WIP] Add OWSM-CTC by pyf98 · Pull Request #5933 · espnet/espnet
-https://github.com/espnet/espnet/pull/5933/files#diff-413648235de1da75b16fe39c589985603d3ce385cadeb9440e4d51226f692069
+The Pirate Bay - The galaxy's most resilient bittorrent site
+https://thepiratebay.zone/search/the%20unbelievable%20truth%20s28/1/99/0
 
-Clotho Audio Captioning by Shikhar-S · Pull Request #5915 · espnet/espnet
-https://github.com/espnet/espnet/pull/5915
+Panelshow
+https://www.reddit.com/r/panelshow/
 
-Add Hugging Face Front End by taiqihe · Pull Request #5913 · espnet/espnet
-https://github.com/espnet/espnet/pull/5913
+Kongen Befaler S10 E05 (with English subs) : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1gcljj1/kongen_befaler_s10_e05_with_english_subs/
 
-Speechlm by lingranshanye2357 · Pull Request #5912 · espnet/espnet
-https://github.com/espnet/espnet/pull/5912/files#diff-f8c280111c47be55e6c05ff4f2a7ff0c1c83f874dbbcc4f25af83e73c5034da2
+Kongen Befaler S10 E01 (with English subs) : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1fq4c51/kongen_befaler_s10_e01_with_english_subs/
 
-Dockerfile reference | Docker Docs
-https://docs.docker.com/reference/dockerfile/#copy
+MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
+https://github.com/MahmoudAshraf97/ctc-forced-aligner
+
+Irish number normalisation with Pynini | notes
+https://jimregan.github.io/notes/colab/pynini/2021/10/19/irish-numbers-with-pynini.html
+
+Low-energy dockerfile for ctc-forced-aligner | notes
+https://jimregan.github.io/notes/docker/laziness/ctc-forced-aligner/2024/10/15/ctc-forced-aligner-lowenergy-docker.html
+
+Tags | notes
+https://jimregan.github.io/notes/categories/#inaSpeechSegmenter
+
+python - How to open file using argparse? - Stack Overflow
+https://stackoverflow.com/questions/18862836/how-to-open-file-using-argparse
+
+WhisperX in Google colab Unable to load any of {libcudnn_ops.so.9.1.0, libcudnn_ops.so.9.1, libcudnn_ops.so.9, libcudnn_ops.so} · Issue #901 · m-bain/whisperX
+https://github.com/m-bain/whisperX/issues/901
+
+LibriVox
+https://librivox.org/reader/4371?primary_key=4371&search_category=reader&search_page=1&search_form=get_results&search_order=alpha
+
+LibriVox
+https://librivox.org/reader/1618?primary_key=1618&search_category=reader&search_page=1&search_form=get_results&search_order=alpha
+
+LibriVox | free public domain audiobooks
+https://librivox.org/
+
+jimregan (Jim O'Regan)
+https://huggingface.co/jimregan
+
+jimregan/wav2vec2-fuaimeanna-phonetic at main
+https://huggingface.co/jimregan/wav2vec2-fuaimeanna-phonetic/tree/main/yaml
+
+jimregan/wav2vec-awb at 60mins-fs
+https://huggingface.co/jimregan/wav2vec-awb/tree/60mins-fs
+
+GreenpeaceHungary/16M1jfASYvM.info.json · jimregan/hungarian-youtube-speech at raw-videos
+https://huggingface.co/datasets/jimregan/hungarian-youtube-speech/blob/raw-videos/GreenpeaceHungary/16M1jfASYvM.info.json
+
+jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/tree/main
+
+ipa vocab · jimregan/wav2vec2-xls-r-300m-phoneme-timit at 538254b
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/commit/538254b2956b87b5092e9d0d892220886a7e53de
+
+SSSB
+https://sssb.se/
+
+Home / X
+https://x.com/home
+
+Call for Main Conference Papers - COLING 2025
+https://coling2025.org/calls/main_conference_papers/
+
+x.com/tsubokuraa9575
+https://x.com/tsubokuraa9575
+
+Audio and Speech Processing Papers on X: "Continuous Speech Synthesis using per-token Latent Diffusion. https://t.co/HjIvNbE08u" / X
+https://x.com/AudioAndSpeech/status/1848603124585377997
+
+[2410.16048] Continuous Speech Synthesis using per-token Latent Diffusion
+https://arxiv.org/abs/2410.16048
+
+jimregan/wav2vec2-xls-r-300m-phoneme-timit · Hugging Face
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit
+
+Type IPA phonetic symbols - online keyboard (all languages)
+https://ipa.typeit.org/full/
+
+tutorial_part3.pdf
+https://www.opengrm.org/twiki/pub/FST/FstHltTutorial/tutorial_part3.pdf
+
+Speech Recognition Grammar Specification Version 1.0
+https://www.w3.org/TR/speech-grammar/
+
+Pronunciation Lexicon Specification - Wikipedia
+https://en.wikipedia.org/wiki/Pronunciation_Lexicon_Specification#:~:text=The%20Pronunciation%20Lexicon%20Specification%20(PLS,engines%20within%20voice%20browsing%20applications.
+
+Pronunciation Lexicon Specification (PLS) Version 1.0
+https://www.w3.org/TR/pronunciation-lexicon/
+
+pls - Google Search
+https://www.google.com/search?q=pls&rlz=1C5GCCM_en&oq=pls+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg80gEIMTczOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+JSpeech Grammar Format
+https://www.w3.org/TR/jsgf/
+
+Home / X
+https://x.com/home
+
+Home / X
+https://x.com/home
+
+Home / X
+https://x.com/home
+
+Brett Adcock on X: "It was a huge week of AI and robotics news. So I summarized everything announced by Anthropic, Ideogram, Figure, Genmo, Runway, Microsoft, Google DeepMind, OpenAI, UCLA, Apple, Clone Robotics, and more. Here's everything you need to know and how to make sense out of it:" / X
+https://x.com/adcock_brett/status/1850568920526163971
+
+genmoai/models: The best OSS video generation models
+https://github.com/genmoai/models?tab=readme-ov-file
+
+genmo/mochi-1-preview · Hugging Face
+https://huggingface.co/genmo/mochi-1-preview
+
+google/flan-t5-xxl · Hugging Face
+https://huggingface.co/google/flan-t5-xxl
+
+2210.11416
+https://arxiv.org/pdf/2210.11416
+
+g2p t5 - Google Search
+https://www.google.com/search?q=g2p+t5&sca_esv=f9749d82eb8de094&rlz=1C5GCCM_en&sxsrf=ADLYWIJEmxwAYQFf12oCUEvgJw-4bsWfSA:1730138721042&ei=YdIfZ6yLAvDhwPAPioDh4Aw&start=10&sa=N&sstk=AagrsuiCBi9vzinV_Rqp3UF0basr6s5AHNVVln2kMgAhrMqYFryumBspniWPsrAa6elbHT9uEmbnPGhG2qVNA80kbl7-vM4SQTq99g&ved=2ahUKEwjsv4T_1LGJAxXwMBAIHQpAGMwQ8NMDegQIBBAW&biw=1440&bih=731&dpr=2
+
+bilguun/mn-g2p-t5-small · Hugging Face
+https://huggingface.co/bilguun/mn-g2p-t5-small
+
+ISCA Archive - T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion
+https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.html
+
+[2204.03067] ByT5 model for massively multilingual grapheme-to-phoneme conversion
+https://ar5iv.labs.arxiv.org/html/2204.03067
+
+byt5 g2p - Google Search
+https://www.google.com/search?q=byt5+g2p&sca_esv=f9749d82eb8de094&rlz=1C5GCCM_en&sxsrf=ADLYWIIAgzYG6eqY3ICYDPcBrBWC6FcBqg%3A1730138837531&ei=1dIfZ_aMINSm1fIPrK7oqQI&ved=0ahUKEwi2y8q21bGJAxVUU1UIHSwXOiUQ4dUDCA8&uact=5&oq=byt5+g2p&gs_lp=Egxnd3Mtd2l6LXNlcnAiCGJ5dDUgZzJwMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogRI3QxQLVi7CXACeAGQAQCYAY4CoAG8CKoBBTAuMi4zuAEDyAEA-AEBmAIHoALNCMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICBRAAGIAEwgILEAAYgAQYkQIYigXCAgYQABgWGB7CAgUQIRigAZgDAIgGAZAGCpIHBTIuMi4zoAesEQ&sclient=gws-wiz-serp
+
+[2105.13626] ByT5: Towards a token-free future with pre-trained byte-to-byte models
+https://arxiv.org/abs/2105.13626
+
+google-research/byt5
+https://github.com/google-research/byt5
+
+2204.03067
+https://arxiv.org/pdf/2204.03067
+
+lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
+https://github.com/lingjzhu/CharsiuG2P
+
+linuxkit/docs/platform-hyperkit.md at master · linuxkit/linuxkit
+https://github.com/linuxkit/linuxkit/blob/master/docs/platform-hyperkit.md
+
+DP.pdf
+https://globin.bx.psu.edu/courses/fall2001/DP.pdf
+
+deporte - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/deporte#Spanish
 
 Instagram
-https://www.instagram.com/
+https://www.instagram.com/annacliffcomedy/reels/
 
-Meanwhile In Ireland (@meanwhile.in.ireland) • Instagram photos and videos
-https://www.instagram.com/meanwhile.in.ireland/
+glenn frey - Google Search
+https://www.google.com/search?q=glenn+frey&rlz=1C5GCCM_en&oq=glenn+fre&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBggCEEUYOTIHCAMQABiABDIHCAQQLhiABDIHCAUQLhiABDIHCAYQABiABDIHCAcQLhiABDIHCAgQLhiABDIHCAkQLhiABNIBCDM0NTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-10 things you NEED TO KNOW before you date an IRISH person
-https://meanwhileinireland.com/top-ten-things-you-need-to-know-before-you-date-an-irish-person/?utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio
+fiona miami vice - Google Search
+https://www.google.com/search?q=fiona+miami+vice&sca_esv=ea2ca5d4e75b17f2&rlz=1C5GCCM_en&sxsrf=ADLYWIKFfAWUAWoOO8EteuW_EPvPm3IitQ%3A1730744482726&ei=ohApZ7P4K_rPwPAP9LLo4AQ&gs_ssp=eJzj4tLP1TcwLCgxzKoyYPQSSMvMz0tUyM1MzM1UKMtMTgUAjnAJxg&oq=fiona+miami&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2Zpb25hIG1pYW1pKgIIADILEC4YgAQYkQIYigUyCxAuGIAEGMcBGK8BMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMhoQLhiABBiRAhiKBRiXBRjcBBjeBBjfBNgBAUibFFBoWOEKcAF4AZABAJgBhQGgAYcFqgEDMi40uAEDyAEA-AEBmAIIoAKqDsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIFEC4YgATCAgUQABiABMICGhAuGIAEGJECGIoFGJcFGNwEGN4EGOAE2AEBwgILEAAYgAQYkQIYigXCAhQQLhiABBiXBRjcBBjeBBjgBNgBAcICBhAAGBYYHsICCBAAGBYYChgemAMAiAYBkAYTugYGCAEQARgJkgcHMy40LjctMaAHjI8B&sclient=gws-wiz-serp
 
-10 of the best IRISH COMPLIMENTS you need to know
-https://meanwhileinireland.com/best-irish-compliments/?utm_campaign=linkinbio&utm_medium=referral&utm_source=later-linkinbio
+Notifications | OpenReview
+https://openreview.net/notifications
 
-New Tab
-chrome://newtab/
+NoDaLiDa Baltic-HLT 2025 Conference Reviewers | OpenReview
+https://openreview.net/group?id=NoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers#assigned-submissions
+
+Assessed and Annotated Vowel Lengths in Spoken Icelandic Sentences for L1 and L2 Speakers: A Resource for Pronunciation Training | OpenReview
+https://openreview.net/forum?id=nYfa4bPDIX&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
+
+pdf
+https://openreview.net/pdf?id=nYfa4bPDIX
+
+Estonian isolated-word text-to-speech synthesiser | OpenReview
+https://openreview.net/forum?id=5ZKJU8rZCi&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
+
+pdf
+https://openreview.net/pdf?id=5ZKJU8rZCi
+
+Speech corpora
+https://koneveeb.ee/korpused/
+
+mrln_et_iw/README.md at main · ikiissel/mrln_et_iw
+https://github.com/ikiissel/mrln_et_iw/blob/main/README.md
+
+vabamorf/lib/etana/arvalyh2.cpp at master · Filosoft/vabamorf
+https://github.com/Filosoft/vabamorf/blob/master/lib/etana/arvalyh2.cpp
+
+Estonian isolated-word text-to-speech synthesiser. Audio files for evaluation and evaluation results.
+https://figshare.com/articles/dataset/_b_Estonian_isolated-word_text-to-speech_b_b_synthesiser_Audio_files_for_evaluation_and_evaluation_results_b_/27275964/7
+
+Does Preprocessing Matter? An Analysis of Acoustic Feature Importance in Deep Learning for Dialect Classification | OpenReview
+https://openreview.net/forum?id=0qvJmxBprH&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
+
+pdf
+https://openreview.net/pdf?id=0qvJmxBprH
+
+WoLFi22 (Lea Fischbach)
+https://github.com/WoLFi22
+
+Assessed and Annotated Vowel Lengths in Spoken Icelandic Sentences for L1 and L2 Speakers: A Resource for Pronunciation Training | OpenReview
+https://openreview.net/forum?id=nYfa4bPDIX&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
+
+pdf
+https://openreview.net/pdf?id=nYfa4bPDIX
+
+Estonian isolated-word text-to-speech synthesiser. Audio files for evaluation and evaluation results.
+https://figshare.com/articles/dataset/_b_Estonian_isolated-word_text-to-speech_b_b_synthesiser_Audio_files_for_evaluation_and_evaluation_results_b_/27275964/7?file=49961676
+
+Filosoft/vabamorf: Eesti keele morfanalüsaator
+https://github.com/Filosoft/vabamorf/tree/master
+
+Kõnekorpused
+https://koneveeb.ee/korpused/
+
+leppik18_speechprosody.pdf
+https://www.isca-archive.org/speechprosody_2018/leppik18_speechprosody.pdf
+
+jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/tree/main
+
+config.json · jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/blob/main/config.json
+
+tokenizer_config.json · jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/blob/main/tokenizer_config.json
+
+phonological quantity - Google Search
+https://www.google.com/search?q=phonological+quantity&rlz=1C5GCCM_en&oq=quantity+phonolog&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMgoIAhAAGIAEGKIEMgoIAxAAGIAEGKIE0gEINzk4M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Phonological quantity - Ida Toivonen
+https://carleton.ca/toivonen/phonological-quantity/
+
+Systems of phonological quantity
+https://carleton.ca/toivonen/wp-content/uploads/icngl-quantity2.pdf
+
+Corpas Náisiúnta na Gaeilge
+https://beta.corpas.ie/ga/cng/cql/kwic/?q=%5Bword%3D%22Leibheal%C3%A1ilfidh%22%5D
+
+Corpas Náisiúnta na Gaeilge
+https://beta.corpas.ie/ga/cng/cql/?q=%5Bword%3D%22Leibheal%C3%A1ilfidh%22%5D
+
+Connemara Road Rage - YouTube
+https://www.youtube.com/watch?v=kh8eQ6pcQuI
+
+palatalised consonants in estonian - Google Search
+https://www.google.com/search?q=palatalised+consonants+in+estonian&rlz=1C5GCCM_en&oq=palatalised+consonants+in+estonian&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDg1NTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Estonian phonology - Wikipedia
+https://en.wikipedia.org/wiki/Estonian_phonology
+
+NoDaLiDa/Baltic-HLT 2025 - Call for papers
+https://www.nodalida-bhlt2025.eu/call-for-papers#h.v2k63awq0fpe
 
 
