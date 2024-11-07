@@ -93,7 +93,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -194,7 +194,7 @@ window.onload = wrap_img;
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">timecode_dir</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/timecode_cut&quot;</span>
 <span class="n">output_dir</span> <span class="o">=</span> <span class="s2">&quot;/tmp/textgrid_cut&quot;</span>
 <span class="n">host</span> <span class="o">=</span> <span class="s2">&quot;http://130.237.3.107:8080/api/&quot;</span>
-<span class="n">api_token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">slurpfile</span><span class="p">(</span><span class="s2">&quot;label_studio_mine&quot;</span><span class="p">)</span>
+<span class="n">api_token</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="n">slurpfile</span><span class="p">(</span><span class="s2">&quot;../_drafts/label_studio_mine&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -326,6 +326,42 @@ window.onload = wrap_img;
     <span class="mi">240</span><span class="p">,</span>
     <span class="mi">241</span><span class="p">,</span>
     <span class="mi">264</span><span class="p">,</span>
+
+    <span class="mi">286</span><span class="p">,</span>
+    <span class="mi">297</span><span class="p">,</span>
+    <span class="mi">295</span><span class="p">,</span>
+    <span class="mi">298</span><span class="p">,</span>
+    <span class="mi">290</span><span class="p">,</span>
+    <span class="mi">287</span><span class="p">,</span>
+    <span class="mi">285</span><span class="p">,</span>
+    <span class="mi">282</span><span class="p">,</span>
+    <span class="mi">281</span><span class="p">,</span>
+    <span class="mi">280</span><span class="p">,</span>
+    <span class="mi">279</span><span class="p">,</span>
+    <span class="mi">278</span><span class="p">,</span>
+    <span class="mi">277</span><span class="p">,</span>
+    <span class="mi">276</span><span class="p">,</span>
+    <span class="mi">275</span><span class="p">,</span>
+    <span class="mi">273</span><span class="p">,</span>
+    <span class="mi">271</span><span class="p">,</span>
+    <span class="mi">272</span><span class="p">,</span>
+    <span class="mi">289</span><span class="p">,</span>
+    <span class="mi">291</span><span class="p">,</span>
+    <span class="mi">292</span><span class="p">,</span>
+    <span class="mi">265</span><span class="p">,</span>
+    <span class="mi">288</span><span class="p">,</span>
+    <span class="mi">293</span><span class="p">,</span>
+    <span class="mi">299</span><span class="p">,</span>
+    <span class="mi">303</span><span class="p">,</span>
+    <span class="mi">304</span><span class="p">,</span>
+    <span class="mi">302</span><span class="p">,</span>
+    <span class="mi">267</span><span class="p">,</span>
+    <span class="mi">270</span><span class="p">,</span>
+    <span class="mi">266</span><span class="p">,</span>
+    <span class="mi">284</span><span class="p">,</span>
+    <span class="mi">162</span><span class="p">,</span>
+    <span class="mi">161</span><span class="p">,</span>
+    <span class="mi">229</span>
 <span class="p">]</span>
 </pre></div>
 
@@ -434,6 +470,62 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OK_STARTS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;hsi_7_0719_210_003_inter&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_4_0717_211_001_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_211_004_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_210_002_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_211_002_main&quot;</span>
+<span class="p">]</span>
+<span class="n">OK_ENDS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;hsi_3_0715_209_006_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_3_0715_227_003_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_222_002_inter&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_227_002_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_211_002_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_6_0718_209_002_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_6_0718_209_001_main&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_6_0718_210_001_main&quot;</span>
+<span class="p">]</span>
+
+<span class="n">DELETE_ENDS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;hsi_7_0719_222_004_inter&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_6_0718_209_001_inter&quot;</span>
+<span class="p">]</span>
+
+<span class="n">DELETE_STARTS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;hsi_5_0718_209_001_main&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">FIXES_START</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;hsi_3_0715_210_010_main&quot;</span><span class="p">:</span> <span class="s2">&quot;o welcome&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_6_0718_209_001_inter&quot;</span><span class="p">:</span> <span class="s2">&quot;Hi. It&#39;s like it looks like a very nice place you have here.&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_227_002_inter&quot;</span><span class="p">:</span> <span class="s2">&quot;Yeah that&#39;s a very nice apartment you have here.&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_222_002_main&quot;</span><span class="p">:</span> <span class="s2">&quot;you know, it was really expensive property.&quot;</span>
+<span class="p">}</span>
+
+<span class="n">FIXES_END</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;hsi_7_0719_209_001_inter&quot;</span><span class="p">:</span> <span class="s2">&quot;Okay, but yeah, yeah&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_210_001_main&quot;</span><span class="p">:</span> <span class="s2">&quot;sometimes when I am reading and I feel that I don&#39;t have that much light [smack] I just turn that on. But uh otherwise I just keep this setup here with the small lamp and the chair and I just read something have a glass of wine or something that&#39;s real&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_7_0719_222_004_main&quot;</span><span class="p">:</span> <span class="s2">&quot;But maybe maybe if you if you put a small table, like two small tables next, I mean, i- on both sides of the fireplace&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;hsi_5_0718_222_003_main&quot;</span><span class="p">:</span> <span class="s2">&quot;so so and i was thinking of the bins there, uh, do you need one of the bins because you could take one if you want to yes of course take it it&#39;s you can have it because i was anyway trying to so so yeah okay&quot;</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">adjust_times_write_tsv</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
     <span class="n">task</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;task&quot;</span><span class="p">]</span>
     <span class="n">task_data</span> <span class="o">=</span> <span class="n">get_task</span><span class="p">(</span><span class="n">task</span><span class="p">)</span>
@@ -442,11 +534,13 @@ window.onload = wrap_img;
         <span class="n">parts</span> <span class="o">=</span> <span class="n">orig_file</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
         <span class="n">orig_file</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
     <span class="k">if</span> <span class="n">orig_file</span><span class="p">:</span>
-        <span class="n">out_part</span> <span class="o">=</span> <span class="n">orig_file</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.wav&quot;</span><span class="p">,</span> <span class="s2">&quot;.tsv&quot;</span><span class="p">)</span>
+        <span class="n">out_part</span> <span class="o">=</span> <span class="n">orig_file</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.wav&quot;</span><span class="p">,</span> <span class="s2">&quot;.csv&quot;</span><span class="p">)</span>
         <span class="n">orig_file</span> <span class="o">=</span> <span class="n">out_part</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_main&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_inter&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="k">return</span> <span class="p">[]</span>
     <span class="n">tsv_file</span> <span class="o">=</span> <span class="n">timecode_path</span> <span class="o">/</span> <span class="n">orig_file</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">output_path</span><span class="o">.</span><span class="n">is_dir</span><span class="p">():</span>
+        <span class="n">output_path</span><span class="o">.</span><span class="n">mkdir</span><span class="p">()</span>
     <span class="n">out_file</span> <span class="o">=</span> <span class="n">output_path</span> <span class="o">/</span> <span class="n">out_part</span>
 
     <span class="k">if</span> <span class="ow">not</span> <span class="n">tsv_file</span><span class="o">.</span><span class="n">exists</span><span class="p">():</span>
@@ -468,13 +562,22 @@ window.onload = wrap_img;
         <span class="n">text</span> <span class="o">=</span> <span class="n">val</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">text</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
             <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
+                <span class="n">t</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
                 <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)):</span>
                     <span class="n">text</span> <span class="o">=</span> <span class="n">t</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">):</span>
+                <span class="n">text</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 
         <span class="n">new_start</span> <span class="o">=</span> <span class="n">e_start</span> <span class="o">-</span> <span class="n">start</span>
         <span class="n">new_end</span> <span class="o">=</span> <span class="n">e_end</span> <span class="o">-</span> <span class="n">start</span>
+
+        <span class="k">if</span> <span class="n">text</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">continue</span>
+
+        <span class="n">out_stem</span> <span class="o">=</span> <span class="n">out_part</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
 
         <span class="k">if</span> <span class="n">new_end</span> <span class="o">&lt;</span> <span class="mf">0.0</span><span class="p">:</span>
             <span class="k">continue</span>
@@ -482,6 +585,11 @@ window.onload = wrap_img;
             <span class="k">continue</span>
         <span class="k">elif</span> <span class="n">new_start</span> <span class="o">&lt;</span> <span class="mf">0.0</span> <span class="ow">and</span> <span class="n">new_end</span> <span class="o">&gt;</span> <span class="mf">0.0</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">text</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">FIXES_START</span><span class="p">:</span>
+                    <span class="n">text</span> <span class="o">=</span> <span class="n">FIXES_START</span><span class="p">[</span><span class="n">out_stem</span><span class="p">]</span>
+                <span class="k">if</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">DELETE_STARTS</span><span class="p">:</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">out_stem</span> <span class="ow">in</span> <span class="n">OK_STARTS</span> <span class="ow">or</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">FIXES_START</span><span class="p">):</span>
                     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Warning&quot;</span><span class="p">,</span> <span class="n">out_part</span><span class="p">,</span> <span class="s2">&quot;truncating entry&quot;</span><span class="p">,</span> <span class="n">e_start</span><span class="p">,</span> <span class="n">e_end</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">results</span> <span class="o">==</span> <span class="p">[]:</span>
                 <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">new_end</span><span class="p">,</span> <span class="n">text</span><span class="p">))</span>
@@ -492,13 +600,20 @@ window.onload = wrap_img;
             <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">new_start</span><span class="p">,</span> <span class="n">new_end</span><span class="p">,</span> <span class="n">text</span><span class="p">))</span>
         <span class="k">elif</span> <span class="n">e_start</span> <span class="o">&lt;=</span> <span class="n">end</span> <span class="ow">and</span> <span class="n">e_end</span> <span class="o">&gt;</span> <span class="n">end</span><span class="p">:</span>
             <span class="k">if</span> <span class="n">text</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
-                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Warning&quot;</span><span class="p">,</span> <span class="n">out_part</span><span class="p">,</span> <span class="s2">&quot;truncating entry&quot;</span><span class="p">,</span> <span class="n">e_start</span><span class="p">,</span> <span class="n">e_end</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">DELETE_ENDS</span><span class="p">:</span>
+                    <span class="k">continue</span>
+                <span class="k">if</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">FIXES_END</span><span class="p">:</span>
+                    <span class="n">text</span> <span class="o">=</span> <span class="n">FIXES_END</span><span class="p">[</span><span class="n">out_stem</span><span class="p">]</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="n">out_stem</span> <span class="ow">in</span> <span class="n">OK_ENDS</span> <span class="ow">or</span> <span class="n">out_stem</span> <span class="ow">in</span> <span class="n">FIXES_END</span><span class="p">):</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Warning&quot;</span><span class="p">,</span> <span class="n">out_part</span><span class="p">,</span> <span class="s2">&quot;truncating entry&quot;</span><span class="p">,</span> <span class="n">e_start</span><span class="p">,</span> <span class="n">e_end</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
             <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">new_start</span><span class="p">,</span> <span class="n">new_end</span><span class="p">,</span> <span class="n">text</span><span class="p">))</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There should be no default case&quot;</span><span class="p">,</span> <span class="n">out_part</span><span class="p">,</span> <span class="n">e_start</span><span class="p">,</span> <span class="n">e_end</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
-        
+
+    <span class="n">sorted_results</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">results</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">out_file</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
-        <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">res</span> <span class="ow">in</span> <span class="n">sorted_results</span><span class="p">:</span>
             <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">(</span><span class="n">res</span><span class="p">)])</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
         
 </pre></div>

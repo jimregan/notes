@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Extract phones from TextGrid | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Extract phones from TextGrid" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Incomplete, needs work" />
+<meta property="og:description" content="Incomplete, needs work" />
+<link rel="canonical" href="https://jimregan.github.io/notes/hsi/textgrid/2024/10/08/extract-phones-from-textgrid.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/hsi/textgrid/2024/10/08/extract-phones-from-textgrid.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-08T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/hsi/textgrid/2024/10/08/extract-phones-from-textgrid.html","@type":"BlogPosting","headline":"Extract phones from TextGrid","dateModified":"2024-10-08T00:00:00-05:00","datePublished":"2024-10-08T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/hsi/textgrid/2024/10/08/extract-phones-from-textgrid.html"},"description":"Incomplete, needs work","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Extract phones from TextGrid</h1><p class="page-description">Incomplete, needs work</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-10-08T00:00:00-05:00" itemprop="datePublished">
+        Oct 8, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      18 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#hsi">hsi</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#textgrid">textgrid</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-10-08-extract-phones-from-textgrid.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The input is the output from MFA, so tiers have specific names.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">praatio</span> <span class="kn">import</span> <span class="n">textgrid</span>
+
+<span class="k">def</span> <span class="nf">get_phone_sequences</span><span class="p">(</span><span class="n">tgfile</span><span class="p">):</span>
+    <span class="n">tg</span> <span class="o">=</span> <span class="n">textgrid</span><span class="o">.</span><span class="n">openTextgrid</span><span class="p">(</span><span class="n">tgfile</span><span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">get_tier_list</span><span class="p">(</span><span class="n">tiername</span><span class="p">):</span>
+        <span class="n">utterances</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">tier</span> <span class="o">=</span> <span class="n">tg</span><span class="o">.</span><span class="n">getTier</span><span class="p">(</span><span class="n">tiername</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">tier</span><span class="o">.</span><span class="n">entries</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">label</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">text</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">utterance</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">start</span>
+            <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">end</span>
+            <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">text</span>
+            <span class="n">utterances</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">utterance</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">utterances</span>
+    
+    <span class="n">utterances</span> <span class="o">=</span> <span class="n">get_tier_list</span><span class="p">(</span><span class="s2">&quot;utterances&quot;</span><span class="p">)</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">get_tier_list</span><span class="p">(</span><span class="s2">&quot;words&quot;</span><span class="p">)</span>
+    <span class="n">phones</span> <span class="o">=</span> <span class="n">get_tier_list</span><span class="p">(</span><span class="s2">&quot;phones&quot;</span><span class="p">)</span>
+
+    <span class="n">i</span> <span class="o">=</span> <span class="n">j</span> <span class="o">=</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">utterances</span><span class="p">):</span>
+        <span class="n">utterance</span> <span class="o">=</span> <span class="n">utterances</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;words&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="ow">and</span> <span class="n">words</span><span class="p">[</span><span class="n">j</span><span class="p">][</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]:</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]:</span>
+                <span class="n">word</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+                <span class="k">while</span> <span class="n">k</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">phones</span><span class="p">)</span> <span class="ow">and</span> <span class="n">phones</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">word</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]:</span>
+                    <span class="n">phone</span> <span class="o">=</span> <span class="n">phones</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+                    <span class="k">if</span> <span class="n">phone</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">word</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]:</span>
+                        <span class="n">word</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phone</span><span class="p">)</span>
+                    <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
+
+                <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;words&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+            <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="n">utterances</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">get_dictionary</span><span class="p">(</span><span class="n">phone_sequence</span><span class="p">):</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">utterance</span> <span class="ow">in</span> <span class="n">phone_sequence</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;words&quot;</span><span class="p">]:</span>
+            <span class="n">phone_seq</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">word</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">]]</span>
+            <span class="n">lines</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">word</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">phone_seq</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">MAPPING</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">AA0 ɑː</span>
+<span class="s2">AA1 ˈɑː</span>
+<span class="s2">AA2 ˌɑː</span>
+<span class="s2">AE0 æ</span>
+<span class="s2">AE1 ˈæ</span>
+<span class="s2">AE2 ˌæ</span>
+<span class="s2">AH0 ə</span>
+<span class="s2">AH0 ɐ</span>
+<span class="s2">AH1 ˈʌ</span>
+<span class="s2">AH2 ˌʌ</span>
+<span class="s2">AO0 ɔː</span>
+<span class="s2">AO1 ˈɔː</span>
+<span class="s2">AO2 ˌɔː</span>
+<span class="s2">AW0 aʊ</span>
+<span class="s2">AW1 ˈaʊ</span>
+<span class="s2">AW2 ˌaʊ</span>
+<span class="s2">AY0 aɪ</span>
+<span class="s2">AY1 ˈaɪ</span>
+<span class="s2">AY2 ˌaɪ</span>
+<span class="s2">B b</span>
+<span class="s2">CH tʃ</span>
+<span class="s2">D d</span>
+<span class="s2">DH ð</span>
+<span class="s2">EH0 ɛ</span>
+<span class="s2">EH1 ˈɛ</span>
+<span class="s2">EH2 ˌɛ</span>
+<span class="s2">ER0 ɚ</span>
+<span class="s2">ER1 ˈɜː</span>
+<span class="s2">ER2 ˌɜː</span>
+<span class="s2">EY0 eɪ</span>
+<span class="s2">EY1 ˈeɪ</span>
+<span class="s2">EY2 ˌeɪ</span>
+<span class="s2">F f</span>
+<span class="s2">G ɡ</span>
+<span class="s2">HH h</span>
+<span class="s2">IH0 ɪ</span>
+<span class="s2">IH1 ˈɪ</span>
+<span class="s2">IH2 ˌɪ</span>
+<span class="s2">IY0 i</span>
+<span class="s2">IY1 ˈiː</span>
+<span class="s2">IY2 ˌiː</span>
+<span class="s2">JH dʒ</span>
+<span class="s2">K k</span>
+<span class="s2">L l</span>
+<span class="s2">M m</span>
+<span class="s2">N n</span>
+<span class="s2">NG ŋ</span>
+<span class="s2">OW0 oʊ</span>
+<span class="s2">OW1 ˈoʊ</span>
+<span class="s2">OW2 ˌoʊ</span>
+<span class="s2">OY0 ɔɪ</span>
+<span class="s2">OY1 ˈɔɪ</span>
+<span class="s2">OY2 ˌɔɪ</span>
+<span class="s2">P p</span>
+<span class="s2">R ɹ</span>
+<span class="s2">S s</span>
+<span class="s2">SH ʃ</span>
+<span class="s2">T t</span>
+<span class="s2">TH θ</span>
+<span class="s2">UH0 ʊ</span>
+<span class="s2">UH1 ˈʊ</span>
+<span class="s2">UH2 ˌʊ</span>
+<span class="s2">UW0 uː</span>
+<span class="s2">UW1 ˈuː</span>
+<span class="s2">UW2 ˌuː</span>
+<span class="s2">V v</span>
+<span class="s2">W w</span>
+<span class="s2">Y j</span>
+<span class="s2">Z z</span>
+<span class="s2">ZH ʒ</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">extended</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="k">if</span> <span class="n">extended</span><span class="p">:</span>
+    <span class="n">MAPPING</span> <span class="o">+=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">DX ɾ</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">cmudict_to_espeak</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">MAPPING</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="k">continue</span>
+    <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">cmudict_to_espeak</span><span class="p">:</span>
+        <span class="n">cmudict_to_espeak</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">espeakify</span><span class="p">(</span><span class="n">phlist</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">):</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">phlist</span> <span class="o">==</span> <span class="p">[</span><span class="s2">&quot;spn&quot;</span><span class="p">]</span> <span class="ow">or</span> <span class="n">phlist</span> <span class="o">==</span> <span class="p">[</span><span class="s2">&quot;sil&quot;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">phone</span> <span class="ow">in</span> <span class="n">phlist</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">phone</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="s2">&quot; &quot;</span> <span class="ow">in</span> <span class="n">phone</span><span class="p">:</span>
+            <span class="n">output</span> <span class="o">+=</span> <span class="p">[</span><span class="n">cmudict_to_espeak</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">phone</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">output</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cmudict_to_espeak</span><span class="p">[</span><span class="n">phone</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">sep</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="k">def</span> <span class="nf">get_utterances_like_espeak</span><span class="p">(</span><span class="n">phone_sequence</span><span class="p">):</span>
+    <span class="n">pairs</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">utterance</span> <span class="ow">in</span> <span class="n">phone_sequence</span><span class="p">:</span>
+        <span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;[&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">text</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;]&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">utterance</span><span class="p">[</span><span class="s2">&quot;words&quot;</span><span class="p">]:</span>
+            <span class="n">phones</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">word</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">]]</span>
+            <span class="n">phword</span> <span class="o">=</span> <span class="n">espeakify</span><span class="p">(</span><span class="n">phones</span><span class="p">)</span>
+            <span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phword</span><span class="p">)</span>
+        <span class="n">joined</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+        <span class="n">joined</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;  +&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">joined</span><span class="p">)</span>
+        <span class="n">pairs</span><span class="p">[</span><span class="n">text</span><span class="p">]</span> <span class="o">=</span> <span class="n">joined</span>
+    <span class="k">return</span> <span class="n">pairs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">ps</span> <span class="o">=</span> <span class="n">get_phone_sequences</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/textgrids_shared/hsi_7_0719_210_001_main.TextGrid&quot;</span><span class="p">)</span>
+<span class="c1"># ps = get_phone_sequences(&quot;/Users/joregan/Desktop/hsi_7_0719_227_003_inter.TextGrid&quot;)</span>
+<span class="n">utts</span> <span class="o">=</span> <span class="n">get_utterances_like_espeak</span><span class="p">(</span><span class="n">ps</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">run_espeak</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">phon</span> <span class="o">=</span> <span class="err">!</span><span class="n">echo</span> <span class="s2">&quot;</span><span class="si">{text}</span><span class="s2">&quot;</span><span class="o">|</span> <span class="n">espeak</span> <span class="o">-</span><span class="n">v</span> <span class="n">en</span><span class="o">-</span><span class="n">us</span> <span class="o">--</span><span class="n">ipa</span> <span class="o">-</span><span class="n">q</span>
+    <span class="k">return</span> <span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">phon</span><span class="p">))</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">FIXES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;kˈɑːlɚ&quot;</span><span class="p">:</span> <span class="s2">&quot;kˈʌlɚ&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;dʒɪs&quot;</span><span class="p">:</span> <span class="s2">&quot;dʒˈʌs&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;fɹɚ&quot;</span><span class="p">:</span> <span class="s2">&quot;fɚ&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;fɹə&quot;</span><span class="p">:</span> <span class="s2">&quot;fɚ&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">cmudict_fixes</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">FIXES</span><span class="p">:</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">FIXES</span><span class="p">[</span><span class="n">word</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">assimilations</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;ð ð&quot;</span><span class="p">,</span> <span class="s2">&quot; ð&quot;</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;d ð&quot;</span><span class="p">,</span> <span class="s2">&quot; ð&quot;</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;d d&quot;</span><span class="p">,</span> <span class="s2">&quot; d&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">text</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">utt</span> <span class="ow">in</span> <span class="n">utts</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">utt</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">assimilations</span><span class="p">(</span><span class="n">cmudict_fixes</span><span class="p">(</span><span class="n">utts</span><span class="p">[</span><span class="n">utt</span><span class="p">])))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">run_espeak</span><span class="p">(</span><span class="n">utt</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Okay, yeah, you&#39;re not uh in the middle of anything.
+əkˈeɪ jˈɛ jˈʊɹ nˈɑːt ˈʌ ɪn ðə mˈɪdəl əv hˈɛniθˌɪŋ
+oʊkˈeɪ  jˈɛh  jʊɹ nˌɑːt ˈʌ ɪnðə mˈɪdəl ʌv ˈɛnɪθˌɪŋ
+
+Yeah, I mean, I have my my you know thoughts about it, because I think I didn&#39;t really catch the... the essence of the place.
+jˈɛ hˈaɪ mˈiːn ˈaɪ hˈæv m mˈaɪ jˈuː nˈoʊ θˈɔːts əbˈaʊt ˈɑː vɪkəz hˈaɪ θˈɪŋk ˈaɪ dˈɪdənt ɹˈiːli kˈætʃ ðə ðə ˈɛsəns hˈʌv ðə plˈeɪs
+jˈɛh  aɪ mˈiːn  aɪ hæv maɪ maɪ juː nˈoʊ θˈɔːts ɐbˈaʊt ɪt  bɪkˈʌz aɪ θˈɪŋk aɪ dˈɪdnt ɹˈiəli kˈætʃ ðə  ðɪ ˈɛsəns ʌvðə plˈeɪs
+
+So I I was planning to do some changes, but um but do you have some uh suggestion that you think that I should uh change?
+sˈoʊ ˈaɪ ˈaɪ wˈʌz plˈænɪŋ tə dˈuː sˈʌm tʃˈeɪndʒɪz bˈʌt hˈæm bˈʌt d jˈuː hˈæb sˈʌm ˈɑː səɡdʒˈɛstʃən ðət jˈuː θˈɪŋk ðˈæt ˈaɪ ʃˈʊd ˈʌ tʃˈeɪndʒ
+sˌoʊ aɪ aɪ wʌz plˈænɪŋ tə dˈuː sˌʌm tʃˈeɪndʒᵻz  bˌʌt ˈʌm bˌʌt dˈuː juː hæv sˌʌm ˈʌ sədʒˈɛstʃən ðæt juː θˈɪŋk ðæt aɪ ʃˌʊd ˈʌ tʃˈeɪndʒ
+
+No, of course I am, I am, but uh but you know, I don&#39;t know, I am a little bit in doubt about that paint there, the flower ones.
+nˈoʊ hˈʌv kˈɔːɹs ˈaɪ ˈæm ˈaɪ ˈæm bˈʌt hˈɑː bˈʌt jˈuː nˈoʊ ˈaɪ dˈoʊn nˈoʊ ˈaɪ ˈæm ə lˈɪtə bˈɪt ɪn dˈaʊt əbˈaʊt ðˈæt pˈeɪnt ðˈɛɹ ðə flˈaʊɚ wˈʌnz
+nˈoʊ  ʌv kˈoːɹs aɪˈæm  aɪˈæm  bˌʌt ˈʌ bˌʌt juː nˈoʊ  aɪ dˈoʊnt nˈoʊ  aɪɐm ɐ lˈɪɾəl bˈɪt ɪn dˈaʊt ɐbˌaʊt ðæt pˈeɪnt ðˈɛɹ  ðə flˈaʊɚ wˌʌnz
+
+So I don&#39;t know, I am uh not fully, but that that&#39;s that&#39;s mainly the the only thing.
+sˈoʊ ˈaɪ dˈoʊn nˈoʊ ˈaɪ ˈæm ˈɑː nˈɑːt fˈʊli bˈʌt ðˈæt ðˈæts ðˈæts mˈeɪnli ðə ðə ˈoʊnli θˈɪŋ
+sˌoʊ aɪ dˈoʊnt nˈoʊ  aɪɐm ˈʌ nˌɑːt fˈʊli  bˌʌt ðæt ðæts ðæts mˈeɪnli ðə ðɪ ˈoʊnli θˈɪŋ
+
+Yeah, that&#39;s true. I mean, they are the same size and they are a little bit, but I think I I should go more for something that style.
+jˈæ ðˈæts tɹˈuː ˈaɪ mˈiːn ðˈeɪ ɚ ðə sˈeɪm sˈaɪz hən ðˈeɪ ˈɑːɹ ə lˈɪtə bˈɪt bˈʌt ˈaɪ θˈɪŋk ˈaɪ hˈaɪ ʃˈʊd ɡˈoʊ mˈɔːɹ fɚ sˈʌmθɪŋ ðˈæt stˈaɪl
+jˈɛh  ðæts tɹˈuː  aɪ mˈiːn  ðeɪ ɑːɹ ðə sˈeɪm sˈaɪz ænd ðeɪ ɑːɹ ɐ lˈɪɾəl bˈɪt  bˌʌt aɪ θˈɪŋk aɪ aɪ ʃˌʊd ɡˌoʊ mˈoːɹ fɔːɹ sˈʌmθɪŋ ðæt stˈaɪl
+
+The yeah the tree one like just go uh or or get one on that style on the outside. I think the the they are not uh matching styles and that l- that little bit bothers me. But I think I did a really great work with the plants there on the roof, hanging on the roof that I really like.
+ðə jˈæ ðə tɹˈiː wˈʌn lˈaɪk dʒˈʌs ɡˈoʊ ˈɑː ˈɔːɹ ˈɔːɹ ɡˈɪt wˈʌn ˈɑːn ðˈæt stˈaɪl ˈɑːn ði ˈaʊtsˈaɪd ˈaɪ θˈɪŋk ðə ðə ðˈeɪ ɚ nˈɑːt ˈʌ mˈætʃɪŋ stˈaɪlz ən ðˈæt l ðˈæt lˈɪ bˈɪt bˈɑːðɚz mˈiː bˈʌt ˈaɪ θˈɪŋk ˈaɪ dˈɪd ə ɹˈiːli ɡɹˈeɪt wˈɜːk wɪ ðə plˈæns ðˈɛɹ ˈɑːn ðə ɹˈuːf hˈæŋɪŋ ˈɑːn ðə ɹˈuːf ðˈæt ˈaɪ ɹˈiːli lˈaɪk
+ðə jˈɛh ðə tɹˈiː wˈʌn lˈaɪk dʒˈʌst ɡˌoʊ ˈʌ ɔːɹ ɔːɹ ɡɛt wˈʌn ˌɑːn ðæt stˈaɪl ɑːnðɪ aʊtsˈaɪd  aɪ θˈɪŋk ðə ðə ðeɪ ɑːɹ nˌɑːt ˈʌ mˈætʃɪŋ stˈaɪlz ænd ðæt ˈɛl ðæt lˈɪɾəl bˈɪt bˈɑːðɚz mˌiː  bˌʌt aɪ θˈɪŋk aɪ dˈɪd ɐ ɹˈiəli ɡɹˈeɪt wˈɜːk wɪððə plˈænts ðɛɹ ɑːnðə ɹˈuːf  hˈæŋɪŋ ɑːnðə ɹˈuːf ðæt aɪ ɹˈiəli lˈaɪk
+
+It&#39;s a little bit... hassle to water them, but [laughter] now I purchased a system that it does it by itself.
+ˈɪts ˈæ lˈɪtə bˈɪt hˈɑːsəl tˈuː wˈɔːtɚ ðˈɛm bˈʌt nˈaʊ ˈaɪ pˈɜːtʃəs ə sˈɪstəm ðˈæt ˈiː dˈʌz ˈɪt bˈaɪ ɪtsˈɛlf
+ɪts ɐ lˈɪɾəl bˈɪt  hˈæsəl tə wˈɔːɾɚ ðˌɛm  bˌʌt lˈæftɚ nˈaʊ aɪ pˈɜːtʃɪsd ɐ sˈɪstəm ðˌɐɾɪt dˈʌz ɪt baɪ ɪtsˈɛlf
+
+So it&#39;s great.
+sˈoʊ ɪts ɡɹˈeɪt
+sˌoʊ ɪts ɡɹˈeɪt
+
+You know, it costs a little bit of a fortune, but you know, it&#39;s, it&#39;s, it&#39;s okay.
+hˈuː nˈoʊ hˈɪt kˈɑːss ə lˈɪl bˈɪt ˈʌv hə fˈɔːɹtʃən bˈʌt jˈuː nˈoʊ ˈɪts ɪts ɪts əkˈeɪ
+juː nˈoʊ  ɪt kˈɔsts ɐ lˈɪɾəl bˈɪt əvə fˈɔːɹtʃən  bˌʌt juː nˈoʊ  ˈɪts  ˈɪts  ɪts oʊkˈeɪ
+
+[laughter] Yeah.
+ jˈæ
+lˈæftɚ jˈɛh
+
+Yeah, I mean, they all have my, you know, a little bit of a piece of my heart.
+jˈæ ˈaɪ mˈiːn ðˈeɪ ˈɑːl hˈɑːv mˈaɪ jˈuː nˈoʊ hə lˈɪ bˈɪt əv ə pˈiːs əv mˈaɪ hˈɑːɹt
+jˈɛh  aɪ mˈiːn  ðeɪ ˈɔːl hæv mˈaɪ  juː nˈoʊ  ɐ lˈɪɾəl bˈɪt əvə pˈiːs ʌv maɪ hˈɑːɹt
+
+But eh that one is my favorite.
+bˈʌt ˈɛ ðˈæt wˈʌn hɪz mˈaɪ fˈeɪbɚɪt
+bˌʌt ˈeɪ ðˈætwˌʌn ɪz maɪ fˈeɪvɚɹᵻt
+
+Like...
+lˈaɪk
+lˈaɪk
+
+I real-
+ˈaɪ ɹˈiːl
+aɪ ɹˈiːəl
+
+Ah yeah, and on the small table.
+hˈæ jˈɔː ˈɑːn ˈɑːn ðə smˈɑːl tˈeɪbəl
+ˈɑː jˈɛh  ænd ɑːnðə smˈɔːl tˈeɪbəl
+
+Yeah, ah I really like that one. It&#39;s, uh it&#39;s really nice.
+jˈæ hˈɑː ˈaɪ ɹˈiː lˈaɪk ðˈæt wˈʌn ˈɪts ˈɛ ɪts ɹˈɪli nˈaɪs
+jˈɛh  ˈɑː aɪ ɹˈiəli lˈaɪk ðˈætwˌʌn  ˈɪts  ˈʌ ɪts ɹˈiəli nˈaɪs
+
+I think I I should purchase a a nicer vase for the, like, nicer pot, because uh it&#39;s growing and I think I need to replant it soon.
+ˈaɪ θˈɪŋk ˈaɪ ˈaɪ ʃˈʊd pətʃˈeɪs ə ə nˈaɪsɚ vˈeɪs fɚ ðə lˈaɪk nˈaɪsɛ pˈɑːt vɪkəz ˈɛ hˈɪs ɡɹˈoʊɪŋ ə ˈaɪ θˈɪŋk ˈaɪ nˈiːd tɪ ɹiplˈæn ˈiː sˈuːn
+aɪ θˈɪŋk aɪ aɪ ʃˌʊd pˈɜːtʃɪs ɐ ɐ nˈaɪsɚ vˈeɪs fɚðə  lˈaɪk  nˈaɪsɚ pˈɑːt  bɪkˈʌz ˈʌ ɪts ɡɹˈoʊɪŋ ænd aɪ θˈɪŋk aɪ nˈiːd tə ɹɪplˈænt ɪt sˈuːn
+
+So but but yes, I think ah i- it&#39;s, that is the one that I like the most.
+sˈoʊ bˈʌt bˈʌt jˈɛs ˈaɪ θˈɪŋk ə ˈɪ ɪts ðˈæt ˈɪz ðə wˈʌn ðˈæt ˈaɪ lˈaɪk ðə mˈoʊst
+sˌoʊ bˌʌt bˌʌt jˈɛs  aɪ θˈɪŋk ˈɑː ˈaɪ ɪts  ðæt ɪz ðə wˈʌn ðæt aɪ lˈaɪk ðə mˈoʊst
+
+Yeah, it&#39;s but this one is especially... designed for that. So it&#39;s a really it&#39;s it&#39;s a plant that doesn&#39;t require that much light.
+jˈæ ˈɪts bˈʌt ðˈɪs wˈʌn hˈɪz əspˈɛʃəli dɪzˈaɪnd fɚ ðˈæt sˈoʊ ɪts ə ɹˈiːli ɪts ɪts ə plˈæn ðˈæt dˈʌzən ɹɪkwˈaɪɚ ðˈæt mˈʌtʃ lˈaɪt
+jˈɛh  ɪts bˌʌt ðˈɪswˌʌn ɪz ɪspˈɛʃəli  dɪzˈaɪnd fɔːɹ ðˈæt  sˌoʊ ɪts ɐ ɹˈiəli ɪts ɪts ɐ plˈænt ðæt dˈʌzənt ɹɪkwˈaɪɚ ðæt mˈʌtʃ lˈaɪt
+
+So uh it&#39;s it&#39;s good f- for that purpose.
+sˈoʊ ˈʌ hˈɪts hˈɪts ɡˈʊd f fɹɛ θ pˈɜːpəs
+sˌoʊ ˈʌ ɪts ɪts ɡˈʊd ˈɛf fɔːɹ ðæt pˈɜːpəs
+
+So that&#39;s why I k- I keep it here, because now in the summer, then you know a lot of light enters through the windows, and then it it&#39;s too much for for it.
+sˈoʊ ðˈæts wˈaɪ ˈaɪ k ˈaɪ kˈiːp ɪt hˈiːɹ vɪkəz nˈaʊ ɪn ðə sˈʌmɚ ðˈɛn jˈuː nˈoʊ ə lˈɑːt əv lˈaɪt ˈɛntɚz θɹˈuː ðˈʌ wˈɪndoʊz ˈæn ðˈɛn ˈɪt ˈɪts tˈuː mˈʌtʃ fɚ fɚ ɪt
+sˌoʊ ðæts wˌaɪ aɪ kˈeɪ aɪ kˈiːp ɪt hˈɪɹ  bɪkˈʌz nˈaʊ ɪnðə sˈʌmɚ  ðˈɛn juː nˈoʊ ɐ lˈɑːt ʌv lˈaɪt ˈɛntɚz θɹuː ðə wˈɪndoʊz  ænd ðˈɛn ɪt ɪts tˈuː mʌtʃ fɔːɹ fɔːɹ ɪt
+
+As you can see, the the upper part... of the leaves is a little bit uh you know not good.
+ˈæz jˈuː kən sˈiː ðə ðə ˈʌpɚ pˈɑːɹt ˈʌv ðə lˈiːvz hɪz hə lˈɪtə bˈɪt hˈʌ jˈuː nˈoʊ nˈɑːt ɡˈʊd
+æz juː kæn sˈiː  ðə ðɪ ˌʌpɚ pˈɑːɹt  ʌvðə lˈiːvz ɪz ɐ lˈɪɾəl bˈɪt ˈʌ juː nˈoʊ nˌɑːt ɡˈʊd
+
+It&#39;s because I moved it quite recently.
+ˈɪts bɪkəz ˈaɪ mˈuːvd ˈɪt kwˈaɪt ɹˈiːsəntli
+ɪts bɪkˈʌz aɪ mˈuːvd ɪt kwˈaɪt ɹˈiːsəntli
+
+So basically eh in winter my plan is to put it next to the window, but now as it doesn&#39;t require that much sun I moved it here.
+sˈoʊ bˈeɪsɪkli ˈɛ ˈɪn wˈɪntɚ mˈaɪ plˈæn hˈɪz tə pˈʊt hɪt nˈɛks tə ðə wˈɪndoʊ bˈʌt nˈaʊ ˈæz ˈiː dˈʌzən ɹɪkwˈaɪɚ ðˈæt mˈʌtʃ sˈʌn ˈaɪ mˈuːbd ɪt hˈiːɹ
+sˌoʊ bˈeɪsɪkli ˈeɪ ɪn wˈɪntɚ maɪ plˈæn ɪz tə pˌʊt ɪt nˈɛkst tə ðə wˈɪndoʊ  bˌʌt nˈaʊ æz ɪt dˈʌzənt ɹɪkwˈaɪɚ ðæt mˈʌtʃ sˈʌn aɪ mˈuːvd ɪt hˈɪɹ
+
+It&#39;s a l- little bit of a big plant so that&#39;s ah a little bit complicated to move.
+ˈɪts ə l lˈɪ vˈɪt əv ə bˈɪɡ plˈænt sˈoʊ ðˈæts ə ə lˈɪ bˈɪt kˈɑːmpləkˌeɪtəd tə mˈuːv
+ɪts ɐ ˈɛl lˈɪɾəl bˈɪt əvə bˈɪɡ plˈænt sˌoʊ ðæts ˈɑː ɐ lˈɪɾəl bˈɪt kˈɑːmplᵻkˌeɪɾᵻd tə mˈuːv
+
+Yeah yeah, I wanted to to l- give a little bit of a pop-up color ah to both of them.
+jˈæ jˈæ ˈaɪ wˈɑːnɪd tɪ tˈuː l ɡˈɪv ə lˈɪtə vˈɪt əv hə pˈɑːpˈʌp kˈʌlɚ ˈæ tˈuː bˈoʊθ əv ðˈɛm
+jˈɛh jˈɛh  aɪ wˈɑːntᵻd tʊtʊ ˈɛl ɡˈɪv ɐ lˈɪɾəl bˈɪt əvə pˈɑːpˌʌp kˈʌlɚɹ ˈɑː tə bˈoʊθ ʌv ðˌɛm
+
+So, you know, ah just to to cheer up th- the the room.
+sˈoʊ jˈuː nˈoʊ ˈæ dʒˈʌs tˈuː tə tʃˈɪɹ ˈʌp θ ðə ðə ɹˈuːm
+sˈoʊ  juː nˈoʊ  ˈɑː dʒˈʌst tʊtə tʃˈɪɹ ˌʌp tˌiːˈeɪtʃ ðə ðə ɹˈuːm
+
+So that that was my whole plan.
+sˈoʊ ðˈæt ðˈæt vəz mˈaɪ hˈoʊl plˈæn
+sˌoʊ ðæt ðæt wʌz maɪ hˈoʊl plˈæn
+
+Ah... So, yeah.
+ˈæ sˈoʊ jˈæ
+ˈɑː  sˈoʊ  jˈɛh
+
+From the walls, you mean, or the w- the the pillow?
+fɚm ðˈʌ wˈɔːlz jˈuː mˈiːn hˈɔːɹ ðə w ðə ðə pˈɪloʊ
+fɹʌmðə wˈɔːlz  juː mˈiːn  ɔːɹ ðə dˈʌbəljˌuː ðə ðə pˈɪloʊ
+
+Aha, yeah, but ah it&#39;s just, you know, to do while you watch TV or something and you want to... to put it like in your knees or like on your head. So it&#39;s not, I don&#39;t eat at all in the couch.
+ˌɑːhˈɑː jˈæ bˈʌt ˈæ ˈɪts dʒɪst jˈuː nˈoʊ tˈuː dˈuː wˈaɪ jˈuː wˈɑːtʃ tˈiːvˈiː ˈɔːɹ sˈʌmθɪŋ ˈæn jˈuː wˈɪn ə tə pˈʊt hɪ lˈaɪk ɪn jˈʊɹ nˈiːz hˈɔːɹ lˈaɪk hˈɔːn jˈʊɹ hˈɛd sˈoʊ ɪts nˈɑːt ˈaɪ dˈoʊn ˈiːt ˈæt hˈɔːl ɪn ðə kˈaʊtʃ
+ɑːhˈɑː  jˈɛh  bˌʌt ˈɑː ɪts dʒˈʌst  juː nˈoʊ  tə dˈuː wˌaɪl juː wˈɑːtʃ tˌiːvˈiː ɔːɹ sˈʌmθɪŋ ænd juː wˈɑːnt tuː  tə pˌʊt ɪt lˈaɪk ɪn jʊɹ nˈiːz ɔːɹ lˈaɪk ˌɑːn jʊɹ hˈɛd  sˌoʊ ɪts nˈɑːt  aɪ dˈoʊnt ˈiːt æt ˈɔːl ɪnðə kˈaʊtʃ
+
+So uh I don&#39;t think... maybe and I if I drink, I drink just water, things like that. So I don&#39;t, I don&#39;t, I&#39;m not afraid.
+sˈoʊ ˈɑː hˈaɪ dˈoʊn θˈɪŋk mˈeɪbi ˈænd ˈaɪ hˈɪf ˈaɪ dɹˈɪŋk ˈaɪ dɹˈɪŋk dʒˈʌs wˈɑːtɚ θˈɪŋz ˈaɪk ðˈæt sˈoʊ hˈaɪ dˈoʊnt ˈaɪ dˈoʊn hˈaɪm nˈɑːt əfɹˈeɪd
+sˌoʊ ˈʌ aɪ dˈoʊnt θˈɪŋk  mˈeɪbiː ænd aɪ ɪf aɪ dɹˈɪŋk  aɪ dɹˈɪŋk dʒˈʌst wˈɔːɾɚ  θˈɪŋz lˈaɪk ðˈæt  sˌoʊ aɪ dˈoʊnt  aɪ dˈoʊnt  aɪm nˌɑːt ɐfɹˈeɪd
+
+But anyways, they are both ah impermeable and the filling can be removed so I can actually wash them, on the washing machine.
+bˈʌt ˈɛniwˌeɪz ðˈeɪ ˈɑːɹ bˈoʊθ ˈɑː ɪmpˈɜːməbəl ˈæn ðə fˈɪlɪŋ kˈæn bi ɹimˈuːbd sˈoʊ ˈaɪ kən ˈækʃəli wˈɑːʃ ðˈɛm ˈɑːn ðə wˈɑːʃɪŋ məʃˈiːn
+bˌʌt ˈɛnɪwˌeɪz  ðeɪ ɑːɹ bˈoʊθ ˈɑː ɪmpˈɜːməbəl ænd ðə fˈɪlɪŋ kæn biː ɹɪmˈuːvd sˌoʊ aɪ kæn ˈæktʃuːəli wˈɑːʃ ðˌɛm  ɑːnðə wˈɑːʃɪŋ məʃˈiːn
+
+Yeah, yeah, yeah, yeah.
+jˈæ jˈɛ jˈɛ jˈæ
+jˈɛh  jˈɛh  jˈɛh  jˈɛh
+
+Yeah, sometimes I I I work.
+jˈæ sˈʌmtˌaɪmz ˈaɪ hˈaɪ ˈaɪ wˈɜːk
+jˈɛh  sˈʌmtaɪmz aɪ aɪ aɪ wˈɜːk
+
+I was just checking some some things from work.
+ˈaɪ wəz dʒˈʌs tʃˈɛkɪŋ sˈʌm sˈʌm θˈɪŋz fɚm wˈɜːk
+aɪ wʌz dʒˈʌst tʃˈɛkɪŋ sˌʌm sˌʌm θˈɪŋz fɹʌm wˈɜːk
+
+But um but yeah, normally I have uh a desk eh in another room.
+bˈʌt ˈæm vˈʌt jˈæ nˈɔːɹməli ˈaɪ hˈæv ˈʌ ə dˈɛsk hˈɛ hˈɪn ənˈʌðə ɹˈuːm
+bˌʌt ˈʌm bˌʌt jˈɛh  nˈoːɹməli aɪ hæv ˈʌ ɐ dˈɛsk ˈeɪ ɪn ɐnˈʌðɚ ɹˈuːm
+
+Well, that&#39;s a that&#39;s a really good uh observation, actually.
+wˈɛl ðˈæts ə ðˈæts ə ɹˈiː ɡˈʊd hˈɛ hˌɑːvzɚvˈeɪʃən ˈækʃəli
+wˈɛl  ðæts ɐ ðæts ɐ ɹˈiəli ɡˈʊd ˈʌ ɑːbzɚvˈeɪʃən  ˈæktʃuːəli
+
+Yeah, it has been there. I mean...
+jˈæ ɪt hˈæz bˈɪn ðˈɛɹ ˈaɪ mən
+jˈɛh  ɪt hɐzbɪn ðˈɛɹ  aɪ mˈiːn
+
+Ah, yeah, I should maybe purchase a auxiliary table for the laptop.
+ˈɑː jˈæ ˈaɪ ʃˈʊd mˈeɪbi pɚtʃˈeɪs ə ɑːɡzˈɪljɚi tˈeɪbəl fɚ ðə lˈæptˌɑːp
+ˈɑː  jˈɛh  aɪ ʃˌʊd mˈeɪbiː pˈɜːtʃɪs ɐ ɔːksˈɪliəɹi tˈeɪbəl fɚðə lˈæptɑːp
+
+Yeah, I was I was thinking more of one that can actually fit the height, because that one there that has the statue, first of all, it has the statue.
+jˈæ ˈaɪ wəz ˈaɪ wəz θˈɪŋkɪŋ mˈɔːɹ əv wˈʌn ðət kˈæn ˈækʃəli fˈɪt ðə hˈaɪt bɪkəz ðˈæt wˈʌn ðˈɛɹ ðˈæt hˈæz ðə stˈætʃˌuː fˈɜːs əv ˈɔːl ɪt hˈæz ðə stˈætʃˌuː
+jˈɛh  aɪ wʌz aɪ wʌz θˈɪŋkɪŋ mˈoːɹ ʌv wˈʌn ðæt kæn ˈæktʃuːəli fˈɪt ðə hˈaɪt  bɪkˈʌz ðˈætwˌʌn ðɛɹ ðæt hɐz ðə stˈætʃuː  fˈɜːst ʌv ˈɔːl  ɪt hɐz ðə stˈætʃuː
+
+And second of all, ah it&#39;s a little bit too low for me.
+ˈænd sˈɛkənd əv ˈɑːl ˈæ ˈɪts ə lˈɪ bˈɪt tˈuː lˈoʊ fɚ mˈiː
+ænd sˈɛkənd ʌv ˈɔːl  ˈɑː ɪts ɐ lˈɪɾəl bˈɪt tˈuː lˈoʊ fɔːɹ mˌiː
+
+So I was thinking of getting something a little bit uh higher.
+sˈoʊ ˈaɪ wəz θˈɪŋkɪŋ ˈʌv ɡˈɛtɪŋ sˈʌmθɪŋ ə lˈɪ bˈɪt hˈʌ hˈaɪɚ
+sˌoʊ aɪ wʌz θˈɪŋkɪŋ ʌv ɡˌɛɾɪŋ sˈʌmθɪŋ ɐ lˈɪɾəl bˈɪt ˈʌ hˈaɪɚ
+
+Yeah.
+jˈæ
+jˈɛh
+
+Yeah, I really enjoy reading.
+jˈæ ˈaɪ ɹˈiːli ɪndʒˈɔɪ ɹˈiːdɪŋ
+jˈɛh  aɪ ɹˈiəli ɛndʒˈɔɪ ɹˈiːdɪŋ
+
+So ah I I said, okay, I I deserve my space to actually do this.
+sˈoʊ ˈʌ hˈaɪ ˈaɪ sˈɛd əkˈeɪ ˈaɪ ˈaɪ dɪzˈɜːv mˈaɪ spˈeɪs tˈuː ˈækʃəli dˈuː ðɪs
+sˌoʊ ˈɑː aɪ aɪ sˈɛd  oʊkˈeɪ  aɪ aɪ dɪzˈɜːv maɪ spˈeɪs tʊ ˈæktʃuːəli dˈuː ðˈɪs
+
+So that&#39;s why I have this uh with the little lamp and you know, in the night, I just turn everything off and just keep a lamp and it&#39;s really cozy.
+sˈoʊ ðˈæts wˈaɪ hˈaɪ hˈæb ðˈɪs hˈɛ wɪ ðə lˈɪtə lˈæmp ən jˈuː nˈoʊ ɪn ðə nˈaɪt ˈaɪ dʒˈʌs tˈɜːn ˈɛvɹiθˌɪŋ ˈɑːf ən dʒˈʌs kˈiːp ˈæ lˈæmp ən ɪts ɹˈɪli kˈoʊzi
+sˌoʊ ðæts wˌaɪ aɪ hæv ðɪs ˈʌ wɪððə lˈɪɾəl lˈæmp ænd juː nˈoʊ  ɪnðə nˈaɪt  aɪ dʒˈʌst tˈɜːn ˈɛvɹɪθˌɪŋ ˈɔf ænd dʒˈʌst kˈiːp ɐ lˈæmp ænd ɪts ɹˈiəli kˈoʊzi
+
+Sorry?
+sˈɑːɹi
+sˈɔːɹi
+
+This one?
+ðˈɪs wˈʌn
+ðˈɪswˌʌn
+
+Yeah, it&#39;s because otherwise this ah area was a little bit dark.
+jˈæ ˈɪts bɪkˈʌz ˈʌðɚwˌaɪz ðˈɪs ˈæ hˈɛɹiə wəz hə lˈɪtə bˈɪt dˈɑːɹk
+jˈɛh  ɪts bɪkˈʌz ˈʌðɚwˌaɪz ðɪs ˈɑː ˈɛɹiə wʌzɐ lˈɪɾəl bˈɪt dˈɑːɹk
+
+Ah but uh so yeah, a- as you can see, you have one here, one there, one there. So it&#39;s crossing the room, and it keeps it uh the whole room illuminated.
+ˈæ bˈʌt hˈʌ sˈoʊ jˈæ ə ˈɛz jˈuː kən sˈiː jˈuː hˈæv wˈʌn hˈiːɹ wˈʌn ðˈɛɹ wˈʌn ðˈɛɹ sˈoʊ hɪts kɹˈɑːsɪŋ ðə ɹˈuːm ˈæn ˈɪt kˈiːps ˈɪt hˈʌ ðˈʌ hˈoʊl ɹˈuːm ɪlˈuːmənˌeɪtəd
+ˈɑː bˌʌt ˈʌ sˌoʊ jˈɛh  ˈeɪ æz juː kæn sˈiː  juː hæv wˈʌn hˈɪɹ  wˈʌn ðˈɛɹ  wˈʌn ðˈɛɹ  sˌoʊ ɪts kɹˈɔsɪŋ ðə ɹˈuːm  ænd ɪt kˈiːps ɪt ˈʌ ðə hˈoʊl ɹˈuːm ɪlˈuːmᵻnˌeɪɾᵻd
+
+But ah actually, you can turn them on separately, which is really nice. So you can have different areas illuminated in the room.
+bˈʌt ə ˈækʃəli ˈuː kən tˈɜːn ðəm ˈɑːn sˈɛpɚətli hwˈɪtʃ ˈɪz ɹˈiː nˈaɪs sˈoʊ jˈuː kən hˈæv dˈɪfɹən ˈɛɹiəz ɪlˈuːmənˌeɪtəd ɪn ðə ɹˈuːm
+bˌʌt ˈɑː ˈæktʃuːəli  juː kæn tˈɜːn ðˌɛm ˌɑːn sˈɛpɹətli  wˌɪtʃ ɪz ɹˈiəli nˈaɪs  sˌoʊ juː kæn hæv dˈɪfɹənt ˈɛɹiəz ɪlˈuːmᵻnˌeɪɾᵻd ɪnðə ɹˈuːm
+
+sometimes when I am reading and I feel that I don&#39;t have that much light [smack] I just turn that on. But uh otherwise I just keep this setup here with the small lamp and the chair and I just read something have a glass of wine or something that&#39;s really nice.
+sˈʌmtˌaɪmz hwˈɛn ˈaɪ ˈæm ɹˈiːdɪŋ ən ˈaɪ fˈiːl ðˈæt ˈaɪ dˈoʊn hˈæv ðˈæt mˈʌtʃ lˈaɪt ˈaɪ dʒˈʌs tˈɜːn ðˈæt ˈɑːn bˈʌt hˈɛ ˈʌðəwˌaɪz ˈaɪ dʒˈʌs kˈiːp ðˈɪs sˈɛtˌʌp hˈiːɹ wɪθ ðə smˈɑːl lˈæmp ˈæn ðə tʃˈɛɹ ˈæn ˈaɪ dʒˈʌs ɹˈiːd sˈʌmθɪŋ hˈæv ə ɡlˈɑːs əb wˈaɪn ˈɔːɹ sˈʌmθɪŋ ðˈæts ɹˈɪli nˈaɪs
+sˈʌmtaɪmz wɛn aɪɐm ɹˈiːdɪŋ ænd aɪ fˈiːl ðæt aɪ dˈoʊnt hæv ðæt mˈʌtʃ lˈaɪt smˈæk aɪ dʒˈʌst tˈɜːn ðæt ˈɑːn  bˌʌt ˈʌ ˈʌðɚwˌaɪz aɪ dʒˈʌst kˈiːp ðɪs sˈɛɾʌp hˈɪɹ wɪððə smˈɔːl lˈæmp ænd ðə tʃˈɛɹ ænd aɪ dʒˈʌst ɹˈiːd sˈʌmθɪŋ hæv ɐ ɡlˈæs ʌv wˈaɪn ɔːɹ sˈʌmθɪŋ ðæts ɹˈiəli nˈaɪs
+
+Thank you very mu-
+θˈæŋk jˈuː vˈɛɹi mˈʌ
+θˈæŋk juː vˈɛɹi mˈuː
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">filestem</span> <span class="o">=</span> <span class="s2">&quot;hsi_7_0719_209_003_main&quot;</span>
+<span class="n">audio_dir</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/hsi/audio/&quot;</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/run_ffmpeg.sh&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">ps</span><span class="p">:</span>
+        <span class="n">start</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span>
+        <span class="n">dur</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">-</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span>
+        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ffmpeg -i </span><span class="si">{</span><span class="n">audio_dir</span><span class="si">}{</span><span class="n">filestem</span><span class="si">}</span><span class="s2">.wav -acodec pcm_s16le -ac 1 -ar 16000 -ss </span><span class="si">{</span><span class="n">start</span><span class="si">}</span><span class="s2"> -t </span><span class="si">{</span><span class="n">dur</span><span class="si">}</span><span class="s2"> /tmp/phoninput/</span><span class="si">{</span><span class="n">filestem</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">start</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;end&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">.wav</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/hsi/textgrid/2024/10/08/extract-phones-from-textgrid.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

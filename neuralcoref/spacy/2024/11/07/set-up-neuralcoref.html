@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Set up neuralcoref | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Set up neuralcoref" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The package is outdated and unmaintained, so there are difficulties" />
+<meta property="og:description" content="The package is outdated and unmaintained, so there are difficulties" />
+<link rel="canonical" href="https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-07T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html","@type":"BlogPosting","headline":"Set up neuralcoref","dateModified":"2024-11-07T00:00:00-06:00","datePublished":"2024-11-07T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html"},"description":"The package is outdated and unmaintained, so there are difficulties","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/notes/">notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/notes/about/">About Me</a><a class="page-link" href="/notes/search/">Search</a><a class="page-link" href="/notes/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Set up neuralcoref</h1><p class="page-description">The package is outdated and unmaintained, so there are difficulties</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-11-07T00:00:00-06:00" itemprop="datePublished">
+        Nov 7, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#neuralcoref">neuralcoref</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#spacy">spacy</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-11-07-set-up-neuralcoref.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-11-07-set-up-neuralcoref.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-11-07-set-up-neuralcoref.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-11-07-set-up-neuralcoref.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">huggingface</span><span class="o">/</span><span class="n">neuralcoref</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cloning into &#39;neuralcoref&#39;...
+remote: Enumerating objects: 772, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 772 (delta 10), reused 16 (delta 7), pack-reused 748 (from 1)
+Receiving objects: 100% (772/772), 67.85 MiB | 9.70 MiB/s, done.
+Resolving deltas: 100% (407/407), done.
+Updating files: 100% (151/151), done.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%</span><span class="n">cd</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">neuralcoref</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/content/neuralcoref
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span><span class="o">|</span><span class="n">sed</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;s/, msvccompiler//&#39;</span> <span class="o">&gt;</span> <span class="n">tmp</span>
+<span class="err">!</span><span class="n">mv</span> <span class="n">tmp</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">Cython</span><span class="o">==</span><span class="mf">0.29</span><span class="o">.</span><span class="mi">36</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting Cython==0.29.36
+  Downloading Cython-0.29.36-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata (3.1 kB)
+Downloading Cython-0.29.36-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (1.9 MB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.9/1.9 MB</span> <span class="ansi-red-fg">16.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Installing collected packages: Cython
+  Attempting uninstall: Cython
+    Found existing installation: Cython 3.0.11
+    Uninstalling Cython-3.0.11:
+      Successfully uninstalled Cython-3.0.11
+Successfully installed Cython-0.29.36
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting spacy&lt;3.0.0,&gt;=2.1.0 (from -r requirements.txt (line 1))
+  Downloading spacy-2.3.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (15 kB)
+Requirement already satisfied: cython&gt;=0.25 in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 2)) (0.29.36)
+Requirement already satisfied: pytest in /usr/local/lib/python3.10/dist-packages (from -r requirements.txt (line 3)) (7.4.4)
+Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (1.0.10)
+Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (2.0.8)
+Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (3.0.9)
+Collecting thinc&lt;7.5.0,&gt;=7.4.1 (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1))
+  Downloading thinc-7.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (23 kB)
+Requirement already satisfied: blis&lt;0.8.0,&gt;=0.4.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (0.7.11)
+Collecting wasabi&lt;1.1.0,&gt;=0.4.0 (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1))
+  Downloading wasabi-0.10.1-py3-none-any.whl.metadata (28 kB)
+Collecting srsly&lt;1.1.0,&gt;=1.0.2 (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1))
+  Downloading srsly-1.0.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Collecting catalogue&lt;1.1.0,&gt;=0.0.7 (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1))
+  Downloading catalogue-1.0.2-py2.py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: tqdm&lt;5.0.0,&gt;=4.38.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (4.66.6)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (75.1.0)
+Requirement already satisfied: numpy&gt;=1.15.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (1.26.4)
+Collecting plac&lt;1.2.0,&gt;=0.9.6 (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1))
+  Downloading plac-1.1.3-py2.py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (2.32.3)
+Requirement already satisfied: iniconfig in /usr/local/lib/python3.10/dist-packages (from pytest-&gt;-r requirements.txt (line 3)) (2.0.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from pytest-&gt;-r requirements.txt (line 3)) (24.1)
+Requirement already satisfied: pluggy&lt;2.0,&gt;=0.12 in /usr/local/lib/python3.10/dist-packages (from pytest-&gt;-r requirements.txt (line 3)) (1.5.0)
+Requirement already satisfied: exceptiongroup&gt;=1.0.0rc8 in /usr/local/lib/python3.10/dist-packages (from pytest-&gt;-r requirements.txt (line 3)) (1.2.2)
+Requirement already satisfied: tomli&gt;=1.0.0 in /usr/local/lib/python3.10/dist-packages (from pytest-&gt;-r requirements.txt (line 3)) (2.0.2)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (3.4.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;3.0.0,&gt;=2.1.0-&gt;-r requirements.txt (line 1)) (2024.8.30)
+Downloading spacy-2.3.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4.9/4.9 MB</span> <span class="ansi-red-fg">36.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Downloading catalogue-1.0.2-py2.py3-none-any.whl (16 kB)
+Downloading plac-1.1.3-py2.py3-none-any.whl (20 kB)
+Downloading srsly-1.0.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (369 kB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">369.2/369.2 kB</span> <span class="ansi-red-fg">24.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Downloading thinc-7.4.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.0/1.0 MB</span> <span class="ansi-red-fg">26.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Downloading wasabi-0.10.1-py3-none-any.whl (26 kB)
+Installing collected packages: wasabi, plac, srsly, catalogue, thinc, spacy
+  Attempting uninstall: wasabi
+    Found existing installation: wasabi 1.1.3
+    Uninstalling wasabi-1.1.3:
+      Successfully uninstalled wasabi-1.1.3
+  Attempting uninstall: srsly
+    Found existing installation: srsly 2.4.8
+    Uninstalling srsly-2.4.8:
+      Successfully uninstalled srsly-2.4.8
+  Attempting uninstall: catalogue
+    Found existing installation: catalogue 2.0.10
+    Uninstalling catalogue-2.0.10:
+      Successfully uninstalled catalogue-2.0.10
+  Attempting uninstall: thinc
+    Found existing installation: thinc 8.2.5
+    Uninstalling thinc-8.2.5:
+      Successfully uninstalled thinc-8.2.5
+  Attempting uninstall: spacy
+    Found existing installation: spacy 3.7.5
+    Uninstalling spacy-3.7.5:
+      Successfully uninstalled spacy-3.7.5
+<span class="ansi-red-fg">ERROR: pip&#39;s dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+confection 0.1.5 requires srsly&lt;3.0.0,&gt;=2.4.0, but you have srsly 1.0.7 which is incompatible.
+en-core-web-sm 3.7.1 requires spacy&lt;3.8.0,&gt;=3.7.2, but you have spacy 2.3.9 which is incompatible.
+weasel 0.4.1 requires srsly&lt;3.0.0,&gt;=2.4.3, but you have srsly 1.0.7 which is incompatible.</span><span class="ansi-red-fg">
+</span>Successfully installed catalogue-1.0.2 plac-1.1.3 spacy-2.3.9 srsly-1.0.7 thinc-7.4.6 wasabi-0.10.1
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Obtaining file:///content/neuralcoref
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: numpy&gt;=1.15.0 in /usr/local/lib/python3.10/dist-packages (from neuralcoref==4.0) (1.26.4)
+Collecting boto3 (from neuralcoref==4.0)
+  Downloading boto3-1.35.55-py3-none-any.whl.metadata (6.7 kB)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.10/dist-packages (from neuralcoref==4.0) (2.32.3)
+Requirement already satisfied: spacy&lt;3.0.0,&gt;=2.1.0 in /usr/local/lib/python3.10/dist-packages (from neuralcoref==4.0) (2.3.9)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;neuralcoref==4.0) (3.4.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;neuralcoref==4.0) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;neuralcoref==4.0) (2.2.3)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;neuralcoref==4.0) (2024.8.30)
+Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (1.0.10)
+Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (2.0.8)
+Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (3.0.9)
+Requirement already satisfied: thinc&lt;7.5.0,&gt;=7.4.1 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (7.4.6)
+Requirement already satisfied: blis&lt;0.8.0,&gt;=0.4.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (0.7.11)
+Requirement already satisfied: wasabi&lt;1.1.0,&gt;=0.4.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (0.10.1)
+Requirement already satisfied: srsly&lt;1.1.0,&gt;=1.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (1.0.7)
+Requirement already satisfied: catalogue&lt;1.1.0,&gt;=0.0.7 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (1.0.2)
+Requirement already satisfied: tqdm&lt;5.0.0,&gt;=4.38.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (4.66.6)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (75.1.0)
+Requirement already satisfied: plac&lt;1.2.0,&gt;=0.9.6 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;3.0.0,&gt;=2.1.0-&gt;neuralcoref==4.0) (1.1.3)
+Collecting botocore&lt;1.36.0,&gt;=1.35.55 (from boto3-&gt;neuralcoref==4.0)
+  Downloading botocore-1.35.55-py3-none-any.whl.metadata (5.7 kB)
+Collecting jmespath&lt;2.0.0,&gt;=0.7.1 (from boto3-&gt;neuralcoref==4.0)
+  Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer&lt;0.11.0,&gt;=0.10.0 (from boto3-&gt;neuralcoref==4.0)
+  Downloading s3transfer-0.10.3-py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: python-dateutil&lt;3.0.0,&gt;=2.1 in /usr/local/lib/python3.10/dist-packages (from botocore&lt;1.36.0,&gt;=1.35.55-&gt;boto3-&gt;neuralcoref==4.0) (2.8.2)
+Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil&lt;3.0.0,&gt;=2.1-&gt;botocore&lt;1.36.0,&gt;=1.35.55-&gt;boto3-&gt;neuralcoref==4.0) (1.16.0)
+Downloading boto3-1.35.55-py3-none-any.whl (139 kB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">139.2/139.2 kB</span> <span class="ansi-red-fg">4.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Downloading botocore-1.35.55-py3-none-any.whl (12.7 MB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">12.7/12.7 MB</span> <span class="ansi-red-fg">48.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Downloading s3transfer-0.10.3-py3-none-any.whl (82 kB)
+   <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">82.6/82.6 kB</span> <span class="ansi-red-fg">6.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Installing collected packages: jmespath, botocore, s3transfer, boto3, neuralcoref
+  Running setup.py develop for neuralcoref
+Successfully installed boto3-1.35.55 botocore-1.35.55 jmespath-1.0.1 neuralcoref-4.0 s3transfer-0.10.3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">spacy</span> <span class="n">download</span> <span class="n">en_core_web_sm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre><span class="ansi-yellow-fg">DEPRECATION: https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz#egg=en_core_web_sm==2.3.1 contains an egg fragment with a non-PEP 508 name pip 25.0 will enforce this behaviour change. A possible replacement is to use the req @ url syntax, and remove the egg fragment. Discussion can be found at https://github.com/pypa/pip/issues/11617</span><span class="ansi-yellow-fg">
+</span>Collecting en_core_web_sm==2.3.1
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz (12.0 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">12.0/12.0 MB</span> <span class="ansi-red-fg">38.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: spacy&lt;2.4.0,&gt;=2.3.0 in /usr/local/lib/python3.10/dist-packages (from en_core_web_sm==2.3.1) (2.3.9)
+Requirement already satisfied: murmurhash&lt;1.1.0,&gt;=0.28.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (1.0.10)
+Requirement already satisfied: cymem&lt;2.1.0,&gt;=2.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (2.0.8)
+Requirement already satisfied: preshed&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (3.0.9)
+Requirement already satisfied: thinc&lt;7.5.0,&gt;=7.4.1 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (7.4.6)
+Requirement already satisfied: blis&lt;0.8.0,&gt;=0.4.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (0.7.11)
+Requirement already satisfied: wasabi&lt;1.1.0,&gt;=0.4.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (0.10.1)
+Requirement already satisfied: srsly&lt;1.1.0,&gt;=1.0.2 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (1.0.7)
+Requirement already satisfied: catalogue&lt;1.1.0,&gt;=0.0.7 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (1.0.2)
+Requirement already satisfied: tqdm&lt;5.0.0,&gt;=4.38.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (4.66.6)
+Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (75.1.0)
+Requirement already satisfied: numpy&gt;=1.15.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (1.26.4)
+Requirement already satisfied: plac&lt;1.2.0,&gt;=0.9.6 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (1.1.3)
+Requirement already satisfied: requests&lt;3.0.0,&gt;=2.13.0 in /usr/local/lib/python3.10/dist-packages (from spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (2.32.3)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (3.4.0)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (3.10)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (2.2.3)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests&lt;3.0.0,&gt;=2.13.0-&gt;spacy&lt;2.4.0,&gt;=2.3.0-&gt;en_core_web_sm==2.3.1) (2024.8.30)
+Building wheels for collected packages: en_core_web_sm
+  Building wheel for en_core_web_sm (setup.py) ... done
+  Created wheel for en_core_web_sm: filename=en_core_web_sm-2.3.1-py3-none-any.whl size=12047089 sha256=b1292e2d6515f75310cde14dd4377388d5dcc2747c07f157d8ad13240f4181eb
+  Stored in directory: /root/.cache/pip/wheels/4f/1f/0e/16fae4b01d2d87454e0f484e58c48793efcf237f0894c1c4bd
+Successfully built en_core_web_sm
+Installing collected packages: en_core_web_sm
+  Attempting uninstall: en_core_web_sm
+    Found existing installation: en-core-web-sm 3.7.1
+    Uninstalling en-core-web-sm-3.7.1:
+      Successfully uninstalled en-core-web-sm-3.7.1
+Successfully installed en_core_web_sm-2.3.1
+<span class="ansi-green-fg">✔ Download and installation successful</span>
+You can now load the model via spacy.load(&#39;en_core_web_sm&#39;)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">spacy</span>
+<span class="kn">import</span> <span class="nn">neuralcoref</span>
+
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;en_core_web_sm&#39;</span><span class="p">)</span>
+<span class="n">neuralcoref</span><span class="o">.</span><span class="n">add_to_pipe</span><span class="p">(</span><span class="n">nlp</span><span class="p">)</span>
+<span class="n">doc1</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="s1">&#39;My sister has a dog. She loves him.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">doc1</span><span class="o">.</span><span class="n">_</span><span class="o">.</span><span class="n">coref_clusters</span><span class="p">)</span>
+
+<span class="n">doc2</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="s1">&#39;Angela lives in Boston. She is quite happy in that city.&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">ent</span> <span class="ow">in</span> <span class="n">doc2</span><span class="o">.</span><span class="n">ents</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">ent</span><span class="o">.</span><span class="n">_</span><span class="o">.</span><span class="n">coref_cluster</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>100%|██████████| 40155833/40155833 [00:01&lt;00:00, 34990939.06B/s]
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[My sister: [My sister, She], a dog: [a dog, him]]
+Boston: [Boston, that city]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/notes/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
