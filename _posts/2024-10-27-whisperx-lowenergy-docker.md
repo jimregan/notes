@@ -5,7 +5,7 @@ description: WhisperX is unmaintained, use a fork that at least pays attention t
 title: Low-energy dockerfile for WhisperX
 categories: [docker, laziness, whisperx]
 ---
-Update of [this]({% 2024-10-14-whisperx-lowenergy-docker %})
+Update of [this]({% post_url 2024-10-14-whisperx-lowenergy-docker %})
 
 
 ```docker
