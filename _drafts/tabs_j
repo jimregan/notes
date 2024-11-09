@@ -35,7 +35,7 @@ Label Studio
 http://130.237.3.107:8080/projects/7/data?tab=7&task=101
 
 Label Studio
-http://130.237.3.107:8080/projects/3/data?tab=3
+http://130.237.3.107:8080/projects/5/data?tab=5&task=83
 
 Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=73
@@ -250,11 +250,14 @@ https://www.openslr.org/resources.php
 openslr.org
 https://www.openslr.org/83/
 
-Issues · google/language-resources
-https://github.com/google/language-resources/issues
+language-resources/zu/phonemes.txt at master · google/language-resources
+https://github.com/google/language-resources/blob/master/zu/phonemes.txt
+
+openslr.org
+https://www.openslr.org/32/
 
 Santa Barbara Corpus of Spoken American English | Department of Linguistics - UC Santa Barbara
-https://www.linguistics.ucsb.edu/research/santa-barbara-corpus
+https://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC001
 
 openslr.org
 https://www.openslr.org/152/
@@ -1585,50 +1588,11 @@ https://github.com/lingjzhu/CharsiuG2P
 linuxkit/docs/platform-hyperkit.md at master · linuxkit/linuxkit
 https://github.com/linuxkit/linuxkit/blob/master/docs/platform-hyperkit.md
 
-DP.pdf
-https://globin.bx.psu.edu/courses/fall2001/DP.pdf
-
-deporte - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/deporte#Spanish
-
-Instagram
-https://www.instagram.com/annacliffcomedy/reels/
-
-glenn frey - Google Search
-https://www.google.com/search?q=glenn+frey&rlz=1C5GCCM_en&oq=glenn+fre&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBggCEEUYOTIHCAMQABiABDIHCAQQLhiABDIHCAUQLhiABDIHCAYQABiABDIHCAcQLhiABDIHCAgQLhiABDIHCAkQLhiABNIBCDM0NTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-fiona miami vice - Google Search
-https://www.google.com/search?q=fiona+miami+vice&sca_esv=ea2ca5d4e75b17f2&rlz=1C5GCCM_en&sxsrf=ADLYWIKFfAWUAWoOO8EteuW_EPvPm3IitQ%3A1730744482726&ei=ohApZ7P4K_rPwPAP9LLo4AQ&gs_ssp=eJzj4tLP1TcwLCgxzKoyYPQSSMvMz0tUyM1MzM1UKMtMTgUAjnAJxg&oq=fiona+miami&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2Zpb25hIG1pYW1pKgIIADILEC4YgAQYkQIYigUyCxAuGIAEGMcBGK8BMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMhoQLhiABBiRAhiKBRiXBRjcBBjeBBjfBNgBAUibFFBoWOEKcAF4AZABAJgBhQGgAYcFqgEDMi40uAEDyAEA-AEBmAIIoAKqDsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIFEC4YgATCAgUQABiABMICGhAuGIAEGJECGIoFGJcFGNwEGN4EGOAE2AEBwgILEAAYgAQYkQIYigXCAhQQLhiABBiXBRjcBBjeBBjgBNgBAcICBhAAGBYYHsICCBAAGBYYChgemAMAiAYBkAYTugYGCAEQARgJkgcHMy40LjctMaAHjI8B&sclient=gws-wiz-serp
-
-Notifications | OpenReview
-https://openreview.net/notifications
-
-NoDaLiDa Baltic-HLT 2025 Conference Reviewers | OpenReview
-https://openreview.net/group?id=NoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers#assigned-submissions
-
-Assessed and Annotated Vowel Lengths in Spoken Icelandic Sentences for L1 and L2 Speakers: A Resource for Pronunciation Training | OpenReview
-https://openreview.net/forum?id=nYfa4bPDIX&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
-
-pdf
-https://openreview.net/pdf?id=nYfa4bPDIX
-
-NoDaLiDa Baltic-HLT 2025 Conference Reviewers | OpenReview
-https://openreview.net/group?id=NoDaLiDa/Baltic-HLT/2025/Conference/Reviewers#assigned-submissions
-
 Speech corpora
 https://koneveeb.ee/korpused/
 
 Does Preprocessing Matter? An Analysis of Acoustic Feature Importance in Deep Learning for Dialect Classification | OpenReview
 https://openreview.net/forum?id=0qvJmxBprH&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
-
-NoDaLiDa Baltic-HLT 2025 Conference Reviewers | OpenReview
-https://openreview.net/group?id=NoDaLiDa/Baltic-HLT/2025/Conference/Reviewers&referrer=%5BHomepage%5D(%2F)#assigned-submissions
-
-STLC 2024 Conference Authors | OpenReview
-https://openreview.net/group?id=STLC/2024/Conference/Authors&referrer=%5BHomepage%5D(%2F)
-
-Continuous features in neural TTS | OpenReview
-https://openreview.net/forum?id=DmxsbcOK5i&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DSTLC%2F2024%2FConference%2FAuthors%23your-submissions)
 
 pdf
 https://openreview.net/pdf?id=0qvJmxBprH
@@ -1642,35 +1606,11 @@ https://www.kaggle.com/models/google/trillsson
 WoLFi22 (Lea Fischbach)
 https://github.com/WoLFi22
 
-Lea Fischbach
-https://wolfi22.github.io/
-
 Kõnekorpused
 https://koneveeb.ee/korpused/
 
-jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
-https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/tree/main
-
 config.json · jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
 https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/blob/main/config.json
-
-tokenizer_config.json · jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
-https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/blob/main/tokenizer_config.json
-
-palatalised consonants in estonian - Google Search
-https://www.google.com/search?q=palatalised+consonants+in+estonian&rlz=1C5GCCM_en&oq=palatalised+consonants+in+estonian&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigAdIBCDg1NTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Estonian phonology - Wikipedia
-https://en.wikipedia.org/wiki/Estonian_phonology
-
-NoDaLiDa/Baltic-HLT 2025 - Call for papers
-https://www.nodalida-bhlt2025.eu/call-for-papers#h.v2k63awq0fpe
-
-ChatGPT
-https://chatgpt.com/c/672a2f09-02ac-8011-952e-3855b8e9a733
-
-johnson's dictionary - Google Search
-https://www.google.com/search?q=johnson%27s+dictionary&rlz=1C5GCCM_en&oq=johnson%27s+dictionary&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg80gEIMzY3NmowajSoAgCwAgE&sourceid=chrome&ie=UTF-8
 
 Untitled document - Google Docs
 https://docs.google.com/document/d/1I0aaLIQWOrT0Guja6oaIPw2dxkYEv8dItu4nhJcJGsI/edit?tab=t.0
@@ -1678,40 +1618,169 @@ https://docs.google.com/document/d/1I0aaLIQWOrT0Guja6oaIPw2dxkYEv8dItu4nhJcJGsI/
 The Last Leg 2024 Season 31 Episode 2 - YouTube
 https://www.youtube.com/watch?v=zigpcnGOOBc
 
-Ottoman cuisine - Wikipedia
-https://en.wikipedia.org/wiki/Ottoman_cuisine
+Gaston is Gay Magic Monday 06 - YouTube
+https://www.youtube.com/watch?app=desktop&v=5tARGTtzt9c
 
-Greek Food Is Actually… Turkish Food? : r/greekfood
-https://www.reddit.com/r/greekfood/comments/14gozq8/greek_food_is_actually_turkish_food/
+'The Little Mermaid': How Drag Culture Influenced Ursula
+https://collider.com/the-little-mermaid-ursula-drag-culture/
 
-Baklava - Wikipedia
-https://en.wikipedia.org/wiki/Baklava
+smiley with pompoms - Google Search
+https://www.google.com/search?q=smiley+with+pompoms&sca_esv=0726288006255048&rlz=1C5GCCM_en&udm=2&biw=1440&bih=728&sxsrf=ADLYWIJEVB1qIBiLVF0CXnpkoeWYFKWjqg%3A1731064582172&ei=BvMtZ-2aCp39wPAP4ryb4AM&ved=0ahUKEwjttYOMzsyJAxWdPhAIHWLeBjwQ4dUDCBA&uact=5&oq=smiley+with+pompoms&gs_lp=EgNpbWciE3NtaWxleSB3aXRoIHBvbXBvbXNIzzhQ9whYiDZwCXgAkAEAmAFFoAGOC6oBAjI1uAEDyAEA-AEBmAIZoAK1CKgCCsICCBAAGAcYChgewgIFEAAYgATCAgcQABiABBgKwgIIEAAYCBgKGB7CAgYQABgIGB7CAgQQIxgnwgIKEAAYgAQYQxiKBcICBxAjGCcY6gLCAgQQABgewgIGEAAYHhgPwgIIEAAYCBgeGA-YAwGIBgGSBwIyNaAHr1s&sclient=img#vhid=aU0r7iUijgHogM&vssid=mosaic
 
-Mesopotamia - Wikipedia
-https://en.wikipedia.org/wiki/Mesopotamia
+stock-vector-mascot-illustration-of-a-happy-smiley-cheers-while-handling-pompoms-370263713.jpg (1500×1179)
+https://www.shutterstock.com/shutterstock/photos/370263713/display_1500/stock-vector-mascot-illustration-of-a-happy-smiley-cheers-while-handling-pompoms-370263713.jpg
 
-(2) Inbox • Direct
-https://www.instagram.com/direct/t/107520840645715/
+Pom Pom – Wikipedia
+https://de.wikipedia.org/wiki/Pom_Pom
 
-period clothing joke - Google Search
-https://www.google.com/search?sca_esv=d07ccd02267955df&rlz=1C5GCCM_en&sxsrf=ADLYWIJHa7H2LSBXrrXVoplXtTT8YDVSjQ:1730847409097&q=period+clothing+joke&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_TJ4YMS4eRay1mUcjRHkZwkNnuzbvXdHSnZt8SI-ypebpRXuYkgug6DK-4Ut13H99ktA8Mqi1OEFqdR-eK48bJa__90OMgplgEoZnWValhUQ343gp_exU8Evdjtace2RF7oLL9h99qRkTgUJWLIWwzoXToL&sa=X&ved=2ahUKEwi54uqHpcaJAxX7BxAIHcYzM9MQtKgLegQIGBAB&biw=1440&bih=728&dpr=2#vhid=zWuG3RVXSVcWtM&vssid=mosaic
+rah-rah - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/rah-rah
 
-Season 6 Nbc GIF by The Office
-https://giphy.com/gifs/theoffice-the-office-tv-meeting-fiiUNTcLxIN9E0Yp0j
+New Tab
+chrome://newtab/
 
-cat gif - Google Search
-https://www.google.com/search?q=cat+gif&rlz=1C5GCCM_en&oq=cat+gif&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGEMYgAQYigUyDAgCEAAYQxiABBiKBTIMCAMQABgUGIcCGIAEMgwIBBAAGBQYhwIYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYjwLSAQgzNjQ1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=pB8YQLBkz6vCkM&vssid=_N6IqZ-yoJcqkwPAPtNSQoAU_37
+audacity patch audio - Google Search
+https://www.google.com/search?q=audacity+patch+audio&rlz=1C5GCCM_en&oq=audacity+patch+audio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc5MDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-libarch.nmu.org.ua
-https://libarch.nmu.org.ua/bitstream/handle/GenofondUA/19120/ec71e6271e1f8cead1b0ea48c0ec7db5.pdf?sequence=1
+Tutorial - Punch-in repair of recordings - Audacity Manual
+https://manual.audacityteam.org/man/tutorial_punch_in_repair_of_recordings.html
 
-Sir Isaac Newton | Westminster Abbey
-https://www.westminster-abbey.org/abbey-commemorations/commemorations/sir-isaac-newton/
+Patching into one track - Special Interest Groups / Recording Techniques - Audacity Forum
+https://forum.audacityteam.org/t/patching-into-one-track/24015/3
 
-I made a simple website to convert GIFs to Slack Emojis : r/Slack
-https://www.reddit.com/r/Slack/comments/nwkvrx/i_made_a_simple_website_to_convert_gifs_to_slack/
+Download history
+chrome://downloads/
 
-Gif2Slack
-https://www.gif2slack.com/
+el verdad - Google Search
+https://www.google.com/search?q=el+verdad&rlz=1C5GCCM_en&oq=el+verdad&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQLhiABDIHCAMQABiABDIHCAQQLhiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQLhiABDIHCAkQABiABNIBCDIzOTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/
+
+Copy and Paste a section of audio - Audacity Manual
+https://manual.audacityteam.org/man/copy_and_paste_a_section_of_audio.html#:~:text=Pasting%20into%20an%20existing%20TARGET%20track,-Apply%20the%20paste&text=To%20make%20the%20paste%20select,%E2%8C%98%20%2BV%20on%20Mac).&text=You%20can%20paste%20from%20a,replicated%20in%20both%20stereo%20channels.
+
+Find Clipping - Audacity Manual
+https://manual.audacityteam.org/man/find_clipping.html
+
+audio - Use ffmpeg to achieve uniform output volume levels across different video recordings - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/615078/use-ffmpeg-to-achieve-uniform-output-volume-levels-across-different-video-record
+
+it crowd have you tried turning it off and on again - Google Search
+https://www.google.com/search?q=it+crowd+have+you+tried+turning+it+off+and+on+again&rlz=1C5GCCM_en&oq=it+crowd+have+you+tr&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU2ODlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:cabc7e6c,vid:nn2FB1P_Mn8,st:0
+
+IT Crowd - Have You Tried Turning It Off And On Again? - YouTube
+https://www.youtube.com/watch?v=nn2FB1P_Mn8&t=36s
+
+Expanding Brain Meme Generator - Imgflip
+https://imgflip.com/memegenerator/Expanding-Brain
+
+Instagram
+https://www.instagram.com/kent_crawley/
+
+All the Hollywood stars who said they're leaving the US over Trump’s presidential win
+https://www.unilad.com/celebrity/news/which-celebs-anti-trump-648530-20241107?fbclid=PAZXh0bgNhZW0CMTEAAaYYOwbTYb9B7yZ5Ja0Aq-LKAlGMdUR0vX9Sxw92-X4ofAdDsY8O26Onpdc_aem_dx296qrqedsJSmTbOw7Yxg
+
+dawnn (@dawnnnmarie) • Instagram photos and videos
+https://www.instagram.com/dawnnnmarie
+
+'Most dangerous' PS2 game to own will get you arrested if you have a copy of it - News - UNILAD
+https://www.unilad.com/gaming/news/ps2-game-dangerous-risk-arrest-owning-copy-535736-20241108?fbclid=PAZXh0bgNhZW0CMTEAAabNR3bekvZ1YvBuUVK4FS9q8y5Q71yJ4W28p-80T2YaUEI3Z4ngV7-5qnY_aem_p9TiMtSU6TStdyNyc2PQSA
+
+uploadserver · PyPI
+https://pypi.org/project/uploadserver/
+
+Instagram
+https://www.instagram.com/
+
+Brandalynn Escobar (@brandalynnlei) • Instagram photos and videos
+https://www.instagram.com/brandalynnlei/
+
+man arrested in hull for body slamming a seagull - Google Search
+https://www.google.com/search?q=man+arrested+in+hull+for+body+slamming+a+seagull&rlz=1C5GCCM_en&oq=man+arrested+in+hull+for+body+slamming+a+seagull&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIGCAEQRRhA0gEIOTk4NmowajSoAgCwAgE&sourceid=chrome&ie=UTF-8
+
+The Latest News from the UK and Around the World | Sky News
+https://news.sky.com/
+
+Could Donald Trump run again in 2028? | US News | Sky News
+https://news.sky.com/story/could-donald-trump-run-again-in-2028-13250656
+
+US election 2024: How will Trump 2.0 be different to his first presidency? | US News | Sky News
+https://news.sky.com/story/us-election-2024-how-will-trump-2-0-be-different-to-his-first-presidency-13250347
+
+Vladimir Putin congratulates 'courageous' Donald Trump on US election win | World News | Sky News
+https://news.sky.com/story/vladimir-putin-congratulates-courageous-donald-trump-on-us-election-win-13250272
+
+British supermodel Georgina Cooper dies aged 46 | Ents & Arts News | Sky News
+https://news.sky.com/story/british-supermodel-georgina-cooper-dies-aged-46-13250767
+
+What we know about violence involving football fans in Amsterdam | World News | Sky News
+https://news.sky.com/story/what-we-know-about-violence-involving-football-fans-in-amsterdam-13250618
+
+Horrified tourists watch man grab seagull in chokehold after it swoops for his doughnut - Hull Live
+https://www.hulldailymail.co.uk/news/uk-world-news/horrified-tourists-watch-man-grab-5635718
+
+mixed discrete and continuous input to neural network github - Google Search
+https://www.google.com/search?q=mixed+discrete+and+continuous+input+to+neural+network+github&sca_esv=be1f357290bf559d&rlz=1C5GCCM_en&biw=1440&bih=728&sxsrf=ADLYWIJvzI1fpCkYCm75dZcG9GwYQWmt1Q%3A1731111323238&ei=m6kuZ-6aDvTJwPAP8ZLMiQ4&ved=0ahUKEwiu1POb_M2JAxX0JBAIHXEJM-E4ChDh1QMIDw&uact=5&oq=mixed+discrete+and+continuous+input+to+neural+network+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiPG1peGVkIGRpc2NyZXRlIGFuZCBjb250aW51b3VzIGlucHV0IHRvIG5ldXJhbCBuZXR3b3JrIGdpdGh1YjIFECEYoAFI7BdQ6QNYuhRwAXgAkAEAmAHJAaABrAaqAQU1LjIuMbgBA8gBAPgBAZgCCKAClgbCAgoQABiwAxjWBBhHwgIFECEYnwXCAgcQIRigARgKmAMAiAYBkAYEkgcFNC4zLjGgB-Qf&sclient=gws-wiz-serp
+
+willkoehrsen.github.io/_posts/2017-08-07-facial-recognition-using-googles-convolutional-neural-network.md at master · WillKoehrsen/willkoehrsen.github.io
+https://github.com/WillKoehrsen/willkoehrsen.github.io/blob/master/_posts/2017-08-07-facial-recognition-using-googles-convolutional-neural-network.md
+
+discrete and continuous input github - Google Search
+https://www.google.com/search?q=discrete+and+continuous+input+github&sca_esv=62ffb42049f4a414&rlz=1C5GCCM_en&sxsrf=ADLYWIJjMkb_L3j6bW5Hw_lBAMYnAPSsDg%3A1731111561793&ei=iaouZ9aQMLCpwPAP_8u2mAo&ved=0ahUKEwiW-dON_c2JAxWwFBAIHf-lDaMQ4dUDCA8&uact=5&oq=discrete+and+continuous+input+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiJGRpc2NyZXRlIGFuZCBjb250aW51b3VzIGlucHV0IGdpdGh1YjIFECEYoAFI71lQ_AlY3VdwBngAkAEAmAGaAaAB4xeqAQUyMC4xMrgBA8gBAPgBAZgCJqAC6RioAhDCAggQABiABBiwA8ICDhAAGIAEGLADGIYDGIoFwgILEAAYgAQYsAMYogTCAgQQIxgnwgIKECMYgAQYJxiKBcICCxAAGIAEGJECGIoFwgIFEAAYgATCAgsQLhiABBjRAxjHAcICCxAuGIAEGJECGIoFwgIKEAAYgAQYQxiKBcICBxAjGCcY6gLCAhQQABiABBiRAhi0AhiKBRjqAtgBAcICBRAuGIAEwgIQEC4YgAQY0QMYQxjHARiKBcICDhAuGIAEGNEDGNQCGMcBwgIKEAAYgAQYFBiHAsICBhAAGBYYHsICCBAAGBYYHhgPwgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIFECEYnwXCAgcQIRigARgKmAMFiAYBkAYIugYGCAEQARgBkgcFMjUuMTOgB5f6AQ&sclient=gws-wiz-serp
+
+YicongHong/Discrete-Continuous-VLN: Code and Data of the CVPR 2022 paper: Bridging the Gap Between Learning in Discrete and Continuous Environments for Vision-and-Language Navigation
+https://github.com/YicongHong/Discrete-Continuous-VLN
+
+Shengjiewang-Jason/EfficientZeroV2: [ICML 2024, Spotlight] EfficientZero V2: Mastering Discrete and Continuous Control with Limited Data
+https://github.com/Shengjiewang-Jason/EfficientZeroV2
+
+sadekova24_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/sadekova24_interspeech.pdf
+
+SWivid/F5-TTS: Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
+https://github.com/SWivid/F5-TTS?tab=readme-ov-file
+
+pitchflow/demo_pitchflow.m at master · dpwe/pitchflow
+https://github.com/dpwe/pitchflow/blob/master/demo_pitchflow.m
+
+KdaiP/StableTTS: Next-generation TTS model using flow-matching and DiT, inspired by Stable Diffusion 3
+https://github.com/KdaiP/StableTTS
+
+sadekova24_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/sadekova24_interspeech.pdf
+
+lucasnewman/f5-tts-mlx: Implementation of F5-TTS in MLX
+https://github.com/lucasnewman/f5-tts-mlx/tree/main
+
+2406.18009
+https://arxiv.org/pdf/2406.18009
+
+News | Latest Breaking News Stories & Headlines | RTÉ
+https://www.rte.ie/news/
+
+UNIFIL: Israel's destruction of its property breaches law
+https://www.rte.ie/news/middle-east/2024/1108/1479970-unifil-lebanon/
+
+US announces charges in Iranian plot to assassinate Trump
+https://www.rte.ie/news/us/2024/1108/1479993-trump-iran-assasination/
+
+What Trump's victory means for security in eastern Europe
+https://www.rte.ie/news/europe/2024/1106/1479421-what-trumps-victory-means-for-security-in-eastern-europe/
+
+European Perspective
+https://www.europeanperspective.net/home
+
+Nyheter från Ekot & lokala nyheter från P4 | Sveriges Radio
+https://sverigesradio.se/nyheter
+
+Explosion i centrala Göteborg – skador på fastighet - P4 Göteborg | Sveriges Radio
+https://sverigesradio.se/artikel/explosion-i-garda-skador-pa-fastighet
+
+Inflationen ökade mer än väntat i oktober - Nyheter (Ekot) | Sveriges Radio
+https://sverigesradio.se/artikel/inflationen-okade-i-oktober
+
+YouTube
+https://www.youtube.com/
 
 
