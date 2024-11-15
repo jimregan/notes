@@ -1,0 +1,193 @@
+Vision transformer - Wikipedia
+https://en.wikipedia.org/wiki/Vision_transformer
+
+Transformer (deep learning architecture) - Wikipedia
+https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)
+
+Character-level recurrent sequence-to-sequence model
+https://keras.io/examples/nlp/lstm_seq2seq/
+
+Attention (machine learning) - Wikipedia
+https://en.wikipedia.org/wiki/Attention_(machine_learning)
+
+A review on the attention mechanism of deep learning - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S092523122100477X
+
+Mamba (deep learning architecture) - Wikipedia
+https://en.wikipedia.org/wiki/Mamba_(deep_learning_architecture)
+
+Projects within Speech, Music and Hearing (TMH) | KTH
+https://web.archive.org/web/20240221035406/https://www.kth.se/is/tmh/projects
+
+Tutorial 1: Introduction to PyTorch — PyTorch Lightning 2.4.0 documentation
+https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/01-introduction-to-pytorch.html
+
+Tensors — PyTorch Tutorials 2.5.0+cu124 documentation
+https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html
+
+"minifat" | Systembolaget
+https://www.systembolaget.se/sortiment/?q=minifat
+
+"Minifat" | Systembolaget
+https://www.systembolaget.se/sortiment/?q=Minifat
+
+Motion Mamba
+https://steve-zeyu-zhang.github.io/MotionMamba/
+
+steve-zeyu-zhang/InfiniMotion: InfiniMotion: Mamba Boosts Memory in Transformer for Arbitrary Long Motion Generation
+https://github.com/steve-zeyu-zhang/InfiniMotion
+
+steve-zeyu-zhang/MotionMamba: 🔥 [ECCV 2024] Motion Mamba: Efficient and Long Sequence Motion Generation
+https://github.com/steve-zeyu-zhang/MotionMamba/
+
+Audio-Mamba-AuM/src at main · kaistmm/Audio-Mamba-AuM
+https://github.com/kaistmm/Audio-Mamba-AuM/tree/main/src
+
+lucidrains/spline-based-transformer: Implementation of the proposed Spline-Based Transformer from Disney Research
+https://github.com/lucidrains/spline-based-transformer/tree/main
+
+lucidrains (lucidrains) / Repositories
+https://github.com/lucidrains?tab=repositories
+
+lucidrains/streaming-deep-rl: Explorations into the proposed Streaming Deep Reinforcement Learning, from University of Alberta
+https://github.com/lucidrains/streaming-deep-rl
+
+lucidrains/phasic-policy-gradient: An implementation of Phasic Policy Gradient, a proposed improvement of Proximal Policy Gradients, in Pytorch
+https://github.com/lucidrains/phasic-policy-gradient
+
+lucidrains/SAC-pytorch: Implementation of Soft Actor Critic and some of its improvements in Pytorch
+https://github.com/lucidrains/SAC-pytorch
+
+lucidrains/minGRU-pytorch: Implementation of the proposed minGRU in Pytorch
+https://github.com/lucidrains/minGRU-pytorch?tab=readme-ov-file
+
+Were RNNs All We Needed? (Paper Explained) - YouTube
+https://www.youtube.com/watch?v=jE9jAZC42NE
+
+lucidrains/pi-zero-pytorch: Implementation of π₀, the robotic foundation model architecture proposed by Physical Intelligence
+https://github.com/lucidrains/pi-zero-pytorch?tab=readme-ov-file
+
+lucidrains/transfusion-pytorch: Pytorch implementation of Transfusion, "Predict the Next Token and Diffuse Images with One Multi-Modal Model", from MetaAI
+https://github.com/lucidrains/transfusion-pytorch
+
+lucidrains/lvsm-pytorch: Implementation of LVSM, SOTA Large View Synthesis with Minimal 3d Inductive Bias, from Adobe Research
+https://github.com/lucidrains/lvsm-pytorch
+
+Yannic Kilcher - YouTube
+https://www.youtube.com/@YannicKilcher/videos
+
+Scalable MatMul-free Language Modeling (Paper Explained) - YouTube
+https://www.youtube.com/watch?v=B45FlSQ8ITo
+
+xLSTM: Extended Long Short-Term Memory - YouTube
+https://www.youtube.com/watch?v=0OaEv1a5jUM
+
+TransformerFAM: Feedback attention is working memory - YouTube
+https://www.youtube.com/watch?v=3a0_hAiFKag
+
+Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping (Searchformer) - YouTube
+https://www.youtube.com/watch?v=PW4JiJ-WaY4
+
+ridgerchu/matmulfreellm: Implementation for MatMul-free LM.
+https://github.com/ridgerchu/matmulfreellm?tab=readme-ov-file
+
+Einops tutorial, part 1: basics - Einops
+https://einops.rocks/1-einops-basics/
+
+RWKV Language Model
+https://www.rwkv.com/
+
+RWKV/rwkv.cpp: INT4/INT5/INT8 and FP16 inference on CPU for RWKV language model
+https://github.com/RWKV/rwkv.cpp
+
+Repository search results
+https://github.com/search?o=desc&q=rwkv&s=updated&type=Repositories&p=5
+
+RWKV-ASR/src/speech_encoder.py at main · AGENDD/RWKV-ASR
+https://github.com/AGENDD/RWKV-ASR/blob/main/src/speech_encoder.py
+
+deepglint/RWKV-CLIP: [EMNLP 2024] RWKV-CLIP: A Robust Vision-Language Representation Learner
+https://github.com/deepglint/RWKV-CLIP?tab=readme-ov-file
+
+OpenGVLab/Vision-RWKV: Vision-RWKV: Efficient and Scalable Visual Perception with RWKV-Like Architectures
+https://github.com/OpenGVLab/Vision-RWKV
+
+OpenMOSE/RWKV-LM-RLHF: Reinforcement Learning Toolkit for RWKV. Distillation,SFT,RLHF(DPO,ORPO), infinite context training, Aligning Let's boost the model's intelligence! currently under construction:)
+https://github.com/OpenMOSE/RWKV-LM-RLHF
+
+X-LANCE/SLAM-LLM: Speech, Language, Audio, Music Processing with Large Language Model
+https://github.com/X-LANCE/SLAM-LLM?tab=readme-ov-file
+
+SLAM-LLM/examples/mala_asr_slidespeech/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/mala_asr_slidespeech/README.md
+
+SlideSpeech-Corpus
+https://slidespeech.github.io/
+
+SLAM-LLM/examples/asr_librispeech/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/asr_librispeech/README.md
+
+SLAM-LLM/examples/seld_spatialsoundqa/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/seld_spatialsoundqa/README.md
+
+SLAM-LLM/examples/aac_audiocaps/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/aac_audiocaps/README.md
+
+SLAM-LLM/examples/st_covost2 at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/tree/main/examples/st_covost2
+
+yxdu/cotst · Hugging Face
+https://huggingface.co/yxdu/cotst
+
+LibriVox
+https://librivox.org/search?primary_key=0&search_category=title&search_page=1&search_form=get_results&search_order=catalog_date
+
+LibriVox
+https://librivox.org/author/439?primary_key=439&search_category=author&search_page=3&search_form=get_results&search_order=alpha
+
+Encyclopedia Britannica - Volume 18 : Umair Mirza : Free Download, Borrow, and Streaming : Internet Archive
+https://archive.org/details/vol18/page/n402/mode/1up?view=theater
+
+Executive Orders - Arkansas Governor - Sarah Huckabee Sanders
+https://governor.arkansas.gov/our-office/executive-orders/
+
+The Columbia evening Missourian. [volume] (Columbia, Mo.) 1920-1923, March 05, 1921, Four Thirty O'Clock Edition, Page Page Four, Image 4 « Chronicling America « Library of Congress
+https://chroniclingamerica.loc.gov/lccn/sn89066316/1921-03-05/ed-1/seq-4/
+
+LibriVox
+https://librivox.org/crime-and-punishment-by-fyodor-dostoyevsky/
+
+LibriVox
+https://librivox.org/sections/readers/927
+
+LibriVox
+https://librivox.org/crimen-y-castigo-by-fyodor-dostoyevsky/
+
+LibriVox
+https://librivox.org/author/86?primary_key=86&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+
+LibriVox
+https://librivox.org/le-pere-goriot-by-honore-de-balzac/
+
+thyme.uchicago.edu
+https://thyme.uchicago.edu/cgi-bin/newphilo/balzac/navigate.pl?balzac.42
+
+Le Père Goriot (1855) - Wikisource
+https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)
+
+Father Goriot/Section 1 - Wikisource, the free online library
+https://en.wikisource.org/wiki/Father_Goriot/Section_1
+
+Ojciec Goriot (Balzac, 1881) - Wikiźródła, wolna biblioteka
+https://pl.wikisource.org/wiki/Ojciec_Goriot_(Balzac,_1881)
+
+ia904708.us.archive.org/10/items/le_pere_goriot_bnd_0808_librivox/leperegoriot_01_balzac.mp3
+https://ia904708.us.archive.org/10/items/le_pere_goriot_bnd_0808_librivox/leperegoriot_01_balzac.mp3
+
+YouTube
+https://www.youtube.com/
+
+Paul Mescal Plays 'Irish or Not Irish' - YouTube
+https://www.youtube.com/watch?v=FYbX3IwsS9U
+
+
