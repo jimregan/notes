@@ -25,11 +25,8 @@ https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/01-introduction
 Tensors — PyTorch Tutorials 2.5.0+cu124 documentation
 https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html
 
-"minifat" | Systembolaget
-https://www.systembolaget.se/sortiment/?q=minifat
-
-"Minifat" | Systembolaget
-https://www.systembolaget.se/sortiment/?q=Minifat
+Audio Feature Extractions — Torchaudio 2.5.0 documentation
+https://pytorch.org/audio/stable/tutorials/audio_feature_extractions_tutorial.html
 
 Motion Mamba
 https://steve-zeyu-zhang.github.io/MotionMamba/
@@ -72,9 +69,6 @@ https://github.com/lucidrains/transfusion-pytorch
 
 lucidrains/lvsm-pytorch: Implementation of LVSM, SOTA Large View Synthesis with Minimal 3d Inductive Bias, from Adobe Research
 https://github.com/lucidrains/lvsm-pytorch
-
-Yannic Kilcher - YouTube
-https://www.youtube.com/@YannicKilcher/videos
 
 Scalable MatMul-free Language Modeling (Paper Explained) - YouTube
 https://www.youtube.com/watch?v=B45FlSQ8ITo
@@ -169,9 +163,6 @@ https://librivox.org/author/86?primary_key=86&search_category=author&search_page
 LibriVox
 https://librivox.org/le-pere-goriot-by-honore-de-balzac/
 
-thyme.uchicago.edu
-https://thyme.uchicago.edu/cgi-bin/newphilo/balzac/navigate.pl?balzac.42
-
 Le Père Goriot (1855) - Wikisource
 https://fr.wikisource.org/wiki/Le_P%C3%A8re_Goriot_(1855)
 
@@ -181,13 +172,127 @@ https://en.wikisource.org/wiki/Father_Goriot/Section_1
 Ojciec Goriot (Balzac, 1881) - Wikiźródła, wolna biblioteka
 https://pl.wikisource.org/wiki/Ojciec_Goriot_(Balzac,_1881)
 
-ia904708.us.archive.org/10/items/le_pere_goriot_bnd_0808_librivox/leperegoriot_01_balzac.mp3
-https://ia904708.us.archive.org/10/items/le_pere_goriot_bnd_0808_librivox/leperegoriot_01_balzac.mp3
+WolneLektury.pl
+https://wolnelektury.pl/katalog/lektura/ojciec-goriot/
+
+NX-AI/xlstm: Official repository of the xLSTM.
+https://github.com/NX-AI/xlstm
+
+sprakbankental repositories
+https://github.com/orgs/sprakbankental/repositories
+
+sprakbankental/service-octra: Private fork of IPS-LMU/octra, used for internal, SBT specific code edits
+https://github.com/sprakbankental/service-octra
+
+sprakbankental/gpus
+https://github.com/sprakbankental/gpus
+
+sprakbankental/mtmpreproc: Refactorization of the TTS pre-processing system developed by Swedish Agency for Accessible Media.
+https://github.com/sprakbankental/mtmpreproc
+
+Code search results
+https://github.com/search?q=repo%3AIPS-LMU%2Foctra%20database&type=code
+
+octra/README.md at 33dcf05c79870a083af78b5409a52cedb4147b12 · IPS-LMU/octra
+https://github.com/IPS-LMU/octra/blob/33dcf05c79870a083af78b5409a52cedb4147b12/README.md?plain=1#L58
+
+octra/apps/web-components-demo/index.mjs at main · IPS-LMU/octra
+https://github.com/IPS-LMU/octra/blob/main/apps/web-components-demo/index.mjs
+
+Sameradion | Sveriges Radio
+https://sverigesradio.se/sameradion
+
+Guovssonásti ságadoalli láitá: ”Stivra ii leat vuoruhan Giellagáldu” - Sameradion | Sveriges Radio
+https://sverigesradio.se/artikel/guovssonasti-sagadoalli-laita-stivra-ii-leat-vuoruhan-giellagaldu
+
+xkcd: Sandwich Helix
+https://xkcd.com/3003/
+
+octra/apps/octra/src/app/core/shared/octra-database.ts at 33dcf05c79870a083af78b5409a52cedb4147b12 · IPS-LMU/octra
+https://github.com/IPS-LMU/octra/blob/33dcf05c79870a083af78b5409a52cedb4147b12/apps/octra/src/app/core/shared/octra-database.ts#L506
+
+Språkbanken Tal
+https://github.com/sprakbankental/
+
+NSoiffer/MathCAT: MathCAT: Math Capable Assistive Technology for generating speech, braille, and navigation.
+https://github.com/NSoiffer/MathCAT
+
+New notebooks by jimregan · Pull Request #306 · jimregan/notes
+https://github.com/jimregan/notes/pull/306/files#diff-d94aaa2fc123c1fed720c41d6ca5c6661c9e4cd6084845c1d30e70f0d054d28e
+
+README.md
+https://gist.github.com/jimregan/39b5958071804a33f4cd1780d029f602
+
+jimregan’s gists
+https://gist.github.com/jimregan
+
+README.md
+https://gist.github.com/jimregan/fa2f36e2bace54f8652cc1894fc63323
+
+README.md
+https://gist.github.com/jimregan/e8c36159a6463c68ef1c3e01471b60fb
+
+SWERIK
+https://swerik-project.github.io/
+
+Pull requests · jimregan/sync-asr
+https://github.com/jimregan/sync-asr/pulls?q=is%3Apr+is%3Aclosed
+
+[incomplete] Sentence extraction by jimregan · Pull Request #48 · jimregan/sync-asr
+https://github.com/jimregan/sync-asr/pull/48/files#diff-0a214582d10e2114167c26656b0344d40b6a2d7493a0aa64a8ccccbcde14b693
+
+Sign in – Google accounts
+https://accounts.google.com/signin/oauth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fwww.overleaf.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&scope=email%20profile&state=cYXLlubMTVzIFuK355g4BtGv&client_id=47304055603.apps.googleusercontent.com&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow
+
+Stockholmsjul-EN-2024-Karta-Lowres-440x340mm
+https://static1.squarespace.com/static/6033c3e44da2f359a6309862/t/6735b0d4069491431084c65e/1731571925578/Stockholmsjul-EN-2024-Karta-Lowres-440x340mm.pdf
+
+Christmas markets in Stockholm 2024 – Visit Stockholm
+https://www.visitstockholm.com/see-do/attractions/christmas-markets-in-stockholm/
+
+lucia sweden - Google Search
+https://www.google.com/search?q=lucia+sweden&rlz=1C5GCCM_en&oq=lucia+sweden&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiRAhiABBiKBTINCAEQABiRAhiABBiKBTIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg2NDExajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Stories • Instagram
+https://www.instagram.com/stories/guardian/3501866804209291675/
+
+As 4B takes the world by storm, South Korea is grappling with a backlash against feminism | South Korea | The Guardian
+https://www.theguardian.com/world/2024/nov/15/4b-south-korea-feminist-movement-donald-trump-election-backlash?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAabwBcLwBmdy_Q99-sWVSkpU7rQkKEcJBxjX4qr_GczleR0iokCWEplfi58_aem_ZpGr5SVplhGti-Bkhnmb_A
 
 YouTube
 https://www.youtube.com/
 
-Paul Mescal Plays 'Irish or Not Irish' - YouTube
-https://www.youtube.com/watch?v=FYbX3IwsS9U
+Okay, I Love Spinal Tap! "Big Bottoms" has me bouncing with joy! - YouTube
+https://www.youtube.com/watch?v=sikUM1B8VyE
+
+Icon Guitarist Would ONLY AGREE to Song Parody on 1 Condition…He Had To PLAY On it-Professor of Rock - YouTube
+https://www.youtube.com/watch?v=MPjt5tYX0w8
+
+hsi ctc-forced-align output
+https://gist.github.com/jimregan/aded02f0c81b97c5c5d130453c6bdbb5
+
+README.md
+https://gist.github.com/jimregan/e8c36159a6463c68ef1c3e01471b60fb
+
+TV Listings | TV Guide
+https://www.tvguide.co.uk/
+
+Instagram
+https://www.instagram.com/
+
+EVGENIIA STROBYKINA (@staywith.jane) • Instagram photos and videos
+https://www.instagram.com/staywith.jane/reels/
+
+Hakan Kibar (@rock.ajandasi) • Instagram photos and videos
+https://www.instagram.com/rock.ajandasi/reels/
+
+Саня На Даче | VK
+https://vk.com/sanyanadache?fbclid=PAZXh0bgNhZW0CMTEAAabqexhK-IcivGpx_cpk8zU9WBOaSYhGKEFr0VFlUAsdKDFt_qMBqjn1mT0_aem_vWD53EPeU4T-Dzuv2kncCw
+
+Pytanie na śniadanie – Wikipedia, wolna encyklopedia
+https://pl.wikipedia.org/wiki/Pytanie_na_%C5%9Bniadanie
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
 
 
