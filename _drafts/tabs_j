@@ -19,33 +19,6 @@ http://130.237.3.107:8080/projects/10/data?tab=9&task=119
 Label Studio
 http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
-Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=97
-
-Label Studio
-http://130.237.3.107:8080/projects/6/data?tab=6&task=87
-
-Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=104
-
-Label Studio
-http://130.237.3.107:8080/projects/1/data
-
-Label Studio
-http://130.237.3.107:8080/projects/6/data?tab=6&task=90
-
-Label Studio
-http://130.237.3.107:8080/projects/5/data?tab=5&task=73
-
-Label Studio
-http://130.237.3.107:8080/projects/5/data?tab=5&task=73
-
-Label Studio
-http://130.237.3.107:8080/projects/5/data?tab=5&task=78
-
-Label Studio
-http://130.237.3.107:8080/projects/7/data?tab=7&task=96
-
 TAFFC2457417.pdf
 https://sail.usc.edu/publications/files/eyben-preprinttaffc-2015.pdf
 
@@ -281,106 +254,16 @@ openslr.org
 https://www.openslr.org/146/
 
 openslr.org
-https://www.openslr.org/139/
-
-openslr.org
 https://www.openslr.org/136/
 
 openslr.org
 https://www.openslr.org/98/
-
-torchaudio.datasets — Torchaudio 2.4.0 documentation
-https://pytorch.org/audio/stable/datasets.html
-
-torch.hub — PyTorch 2.4 documentation
-https://pytorch.org/docs/stable/hub.html
-
-Matcha-TTS/matcha/utils/rich_utils.py at main · jimregan/Matcha-TTS
-https://github.com/jimregan/Matcha-TTS/blob/main/matcha/utils/rich_utils.py
-
-Matcha-TTS/matcha/utils/get_durations_from_trained_model.py at 77804265f877b0c42f13cfdece6541dde7838090 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/blob/77804265f877b0c42f13cfdece6541dde7838090/matcha/utils/get_durations_from_trained_model.py
-
-hf-hub-lightning/examples/hf_hub_lightning_demo.ipynb at main · nateraw/hf-hub-lightning
-https://github.com/nateraw/hf-hub-lightning/blob/main/examples/hf_hub_lightning_demo.ipynb
-
-Working with ".webm" files · Issue #1723 · pytorch/audio
-https://github.com/pytorch/audio/issues/1723
-
-python - Error in librosa.load('path.webm') RuntimeError: File contains data in an unknown format - Stack Overflow
-https://stackoverflow.com/questions/73029952/error-in-librosa-loadpath-webm-runtimeerror-file-contains-data-in-an-unknow
-
-sox_utils — Torchaudio 2.5.0.dev20241001 documentation
-https://pytorch.org/audio/main/generated/torchaudio.utils.sox_utils.html#torchaudio.utils.sox_utils.list_read_formats
-
-ffmpeg_utils — Torchaudio 2.5.0.dev20241001 documentation
-https://pytorch.org/audio/main/generated/torchaudio.utils.ffmpeg_utils.html#torchaudio.utils.ffmpeg_utils.get_audio_decoders
-
-sox_utils — Torchaudio 2.5.0.dev20241001 documentation
-https://pytorch.org/audio/main/generated/torchaudio.utils.sox_utils.html
-
-PEP 263 – Defining Python Source Code Encodings | peps.python.org
-https://peps.python.org/pep-0263/
 
 the motivation for inserting blank IDs between the input IPA-ids? · Issue #94 · shivammehta25/Matcha-TTS
 https://github.com/shivammehta25/Matcha-TTS/issues/94
 
 Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
 https://github.com/shivammehta25/Matcha-TTS/pull/99
-
-AttributeError: module 'gradio' has no attribute 'Box' · Issue #6815 · gradio-app/gradio
-https://github.com/gradio-app/gradio/issues/6815
-
-Compare to VoiceFlow TTS · Issue #66 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/issues/66
-
-Matcha-TTS app error: symbol_id = _symbol_to_id[symbol] KeyError: '(' · Issue #89 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/issues/89
-
-Is there any experiment on Chinese data set. · Issue #91 · shivammehta25/Matcha-TTS
-https://github.com/shivammehta25/Matcha-TTS/issues/91
-
-save changes · UlutSoftLLC/MamtilTTS@9c7460b
-https://github.com/UlutSoftLLC/MamtilTTS/commit/9c7460b8d98995e3c6544c68d8a512350da15700#diff-7648f5f4cce4bf01d02de43f8c5f6f2130b787baece0cf6338210496d8bdfcdc
-
-projecte-aina/matxa-tts-cat-multiaccent · Hugging Face
-https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent
-
-projecte-aina/matxa-alvocat-tts-ca at main
-https://huggingface.co/spaces/projecte-aina/matxa-alvocat-tts-ca/tree/main
-
-Commits · langtech-bsc/Matcha-TTS
-https://github.com/langtech-bsc/Matcha-TTS/commits/multilang/
-
-add config file for multilanguage experiment · langtech-bsc/Matcha-TTS@450b990
-https://github.com/langtech-bsc/Matcha-TTS/commit/450b99003619a6bde06b1f54d8a18c4a3d4537e0
-
-add config file for multilanguage experiment · langtech-bsc/Matcha-TTS@450b990
-https://github.com/langtech-bsc/Matcha-TTS/commit/450b99003619a6bde06b1f54d8a18c4a3d4537e0#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5R27
-
-add inference script · langtech-bsc/Matcha-TTS@4d3558d
-https://github.com/langtech-bsc/Matcha-TTS/commit/4d3558d45bfd7e8207b6eca16dc53668e20d0b52
-
-Commits · langtech-bsc/Matcha-TTS
-https://github.com/langtech-bsc/Matcha-TTS/commits/vocos
-
-Commits · langtech-bsc/Matcha-TTS
-https://github.com/langtech-bsc/Matcha-TTS/commits/dev-cat-hf/
-
-class method functions added to initialize matcha from HF model and c… · langtech-bsc/Matcha-TTS@4885b89
-https://github.com/langtech-bsc/Matcha-TTS/commit/4885b8927a94afd692598dd868619c293b0ca0aa
-
-Language Technologies Unit - BSC
-https://github.com/langtech-bsc
-
-Update cleaners.py · langtech-bsc/Matcha-TTS@b2e6e1e
-https://github.com/langtech-bsc/Matcha-TTS/commit/b2e6e1e87e1522753fdb5994671b8d3f25a1f115#diff-6b63d39c98fd1bc31e7d1dddd182dd3e91cd9682fd577f9c97add5ceeb4336aaR109
-
-Update process_text on cli.py with catalan cleaners · langtech-bsc/Matcha-TTS@e4d15b6
-https://github.com/langtech-bsc/Matcha-TTS/commit/e4d15b681ea263462617e8c394b4bdb492ca8388
-
-Hi-Fi-CAPTAIN | Releases | Advanced Speech Translation Research and Development Promotion Center | ASTREC | UCRI | NICT
-https://ast-astrec.nict.go.jp/en/release/hi-fi-captain/
 
 skirdey/voicerestore: VoiceRestore: Flow-Matching Transformers for Universal Speech Restoration
 https://github.com/skirdey/voicerestore?tab=readme-ov-file
