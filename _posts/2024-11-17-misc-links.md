@@ -22,3 +22,22 @@ categories: [links]
 
 [OpenSLR 139](https://www.openslr.org/139/) is built from Audiocite, but they made no attempt to distinguish between open and closed works.
 
+[ScanERU: Interactive 3D Visual Grounding based on Embodied Reference Understanding](https://arxiv.org/abs/2303.13186)
+
+[LERF: Language Embedded Radiance Fields](https://arxiv.org/abs/2303.09553),
+[code](https://github.com/kerrj/lerf)
+
+[NVIDIA/kvpress](https://github.com/NVIDIA/kvpress) --- LLM KV cache compression made easy
+
+[Move as You Say, Interact as You Can: Language-guided Human Motion Generation with Scene Affordance](https://arxiv.org/abs/2403.18036),
+[code](https://github.com/afford-motion/afford-motion)
+
+[facebookresearch/vrs](https://github.com/facebookresearch/vrs) --- VRS is a file format optimized to record & playback streams of sensor data, such as images, audio samples, and any other discrete sensors (IMU, temperature, etc), stored in per-device streams of timestamped records.
+
+[MEXMA: Token-level objectives improve sentence representations](https://arxiv.org/abs/2409.12737),
+[code](https://github.com/facebookresearch/mexma)
+
+[Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152),
+[code](https://github.com/facebookresearch/generative-recommenders)
+
+
