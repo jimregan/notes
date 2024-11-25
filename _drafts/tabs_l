@@ -97,8 +97,50 @@ https://github.com/RWKV/rwkv.cpp
 Repository search results
 https://github.com/search?o=desc&q=rwkv&s=updated&type=Repositories&p=5
 
-RWKV-ASR/src/speech_encoder.py at main · AGENDD/RWKV-ASR
-https://github.com/AGENDD/RWKV-ASR/blob/main/src/speech_encoder.py
+AGENDD/RWKV-ASR: This repo is an exploratory experiment to enable frozen pretrained RWKV language models to accept speech modality input. We followed the idea of SLAM_ASR and used the RWKV language model as the LLM, and instead of directly writing a prompt template we directly finetuned the initial state of the RWKV model.
+https://github.com/AGENDD/RWKV-ASR/tree/main?tab=readme-ov-file
+
+X-LANCE/SLAM-LLM: Speech, Language, Audio, Music Processing with Large Language Model
+https://github.com/X-LANCE/SLAM-LLM?tab=readme-ov-file
+
+SLAM-LLM/examples/contextual_asr/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/contextual_asr/README.md
+
+SLAM-LLM/examples/vallex/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/vallex/README.md
+
+Plachtaa/VALL-E-X: An open source implementation of Microsoft's VALL-E X zero-shot TTS model. Demo is available in https://plachtaa.github.io/vallex/
+https://github.com/Plachtaa/VALL-E-X
+
+SLAM-LLM/examples/vsr_LRS3/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/vsr_LRS3/README.md
+
+Meta Research
+https://github.com/facebookresearch
+
+fairseq/examples/mr_hubert at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/tree/main/examples/mr_hubert
+
+Add Multiresolution HuBERT as an additional upstream model by ftshijt · Pull Request #517 · s3prl/s3prl
+https://github.com/s3prl/s3prl/pull/517/files#diff-53462f3f2203d408e78a1408fb92c2b54a866e56231ef48e487f962e8149a7c4
+
+transformers/src/transformers/models/hubert/modeling_hubert.py at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/src/transformers/models/hubert/modeling_hubert.py
+
+fairseq/examples/speech_recognition/new/infer.py at main · facebookresearch/fairseq
+https://github.com/facebookresearch/fairseq/blob/main/examples/speech_recognition/new/infer.py
+
+Create README.md (#5529) · facebookresearch/fairseq@920a548
+https://github.com/facebookresearch/fairseq/commit/920a548ca770fb1a951f7f4289b4d3a0c1bc226f
+
+MMS alignment README fixes (#5432) · facebookresearch/fairseq@3f0f20f
+https://github.com/facebookresearch/fairseq/commit/3f0f20f2d12403629224347664b3e75c13b2c8e0
+
+Update align_and_segment.py (#5317) · facebookresearch/fairseq@b5d89cd
+https://github.com/facebookresearch/fairseq/commit/b5d89cddc9e4a0af831d2aafc1ba7dbf0f1b10d0
+
+SLAM-LLM/examples/asr_librispeech/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/asr_librispeech/README.md
 
 deepglint/RWKV-CLIP: [EMNLP 2024] RWKV-CLIP: A Robust Vision-Language Representation Learner
 https://github.com/deepglint/RWKV-CLIP?tab=readme-ov-file
@@ -124,8 +166,11 @@ https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/asr_librispeech/README.md
 SLAM-LLM/examples/seld_spatialsoundqa/README.md at main · X-LANCE/SLAM-LLM
 https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/seld_spatialsoundqa/README.md
 
-SLAM-LLM/examples/aac_audiocaps/README.md at main · X-LANCE/SLAM-LLM
-https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/aac_audiocaps/README.md
+SLAM-LLM/examples/mala_asr_slidespeech/README.md at main · X-LANCE/SLAM-LLM
+https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/mala_asr_slidespeech/README.md
+
+SlideSpeech-Corpus
+https://slidespeech.github.io/
 
 SLAM-LLM/examples/st_covost2 at main · X-LANCE/SLAM-LLM
 https://github.com/X-LANCE/SLAM-LLM/tree/main/examples/st_covost2
@@ -173,7 +218,10 @@ Ojciec Goriot (Balzac, 1881) - Wikiźródła, wolna biblioteka
 https://pl.wikisource.org/wiki/Ojciec_Goriot_(Balzac,_1881)
 
 WolneLektury.pl
-https://wolnelektury.pl/katalog/lektura/ojciec-goriot/
+https://wolnelektury.pl/katalog/lektura/arystoteles-poetyka/
+
+WolneLektury.pl
+https://wolnelektury.pl/katalog/lektura/arystoteles-poetyka.html
 
 NX-AI/xlstm: Official repository of the xLSTM.
 https://github.com/NX-AI/xlstm
@@ -241,88 +289,82 @@ https://github.com/jimregan/sync-asr/pulls?q=is%3Apr+is%3Aclosed
 [incomplete] Sentence extraction by jimregan · Pull Request #48 · jimregan/sync-asr
 https://github.com/jimregan/sync-asr/pull/48/files#diff-0a214582d10e2114167c26656b0344d40b6a2d7493a0aa64a8ccccbcde14b693
 
-Sign in – Google accounts
-https://accounts.google.com/signin/oauth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fwww.overleaf.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&scope=email%20profile&state=cYXLlubMTVzIFuK355g4BtGv&client_id=47304055603.apps.googleusercontent.com&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow
-
-Stockholmsjul-EN-2024-Karta-Lowres-440x340mm
-https://static1.squarespace.com/static/6033c3e44da2f359a6309862/t/6735b0d4069491431084c65e/1731571925578/Stockholmsjul-EN-2024-Karta-Lowres-440x340mm.pdf
-
 Christmas markets in Stockholm 2024 – Visit Stockholm
 https://www.visitstockholm.com/see-do/attractions/christmas-markets-in-stockholm/
-
-lucia sweden - Google Search
-https://www.google.com/search?q=lucia+sweden&rlz=1C5GCCM_en&oq=lucia+sweden&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiRAhiABBiKBTINCAEQABiRAhiABBiKBTIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg2NDExajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
 Okay, I Love Spinal Tap! "Big Bottoms" has me bouncing with joy! - YouTube
 https://www.youtube.com/watch?v=sikUM1B8VyE
 
-Instagram - moto g(7) power - WiFi File Transfer
-http://192.168.0.100:1234/storage/emulated/0/Movies/Instagram/?
-
-QI XL S22E04 - Vets - video Dailymotion
-https://www.dailymotion.com/video/x9929ec
-
 DependencyParser · spaCy API Documentation
 https://spacy.io/api/dependencyparser
-
-What Amateurs Don't Understand About Guitar Tone - YouTube
-https://www.youtube.com/watch?v=GjKpediv31w
-
-YouTube
-https://www.youtube.com/
-
-😮 Uncovering The Shocking Truth About Chuck Norris And Benny "the Jet" - You Won't Believe It! - YouTube
-https://www.youtube.com/watch?v=ONnLeSlsb9I
-
-Sepultura 6.4.90 Dynamo Open Air Eindhoven, NL. [ Extended ] - YouTube
-https://www.youtube.com/watch?v=LjAVMjfm8FM
-
-Can you LEARN a LANGUAGE while you SLEEP? - YouTube
-https://www.youtube.com/watch?v=J5xllOnhQWM
-
-How Swedish Sounds to NON- Swedish Speakers?? l Sweden Germany France Spain Finland Italy - YouTube
-https://www.youtube.com/watch?v=3Qq8C-QxxoM
-
-Eric Idle On His Disagreement With John Cleese | Conan O'Brien Needs A Friend - YouTube
-https://www.youtube.com/watch?v=XoPsxycEdNw
-
-Lawyer Reacts To AI COPYRIGHT CLAIMED MY LAST VIDEO | Venus Theory - YouTube
-https://www.youtube.com/watch?v=1VXLRTjk9Jk
-
-Six Gets Her Revenge | Battlestar Galactica - YouTube
-https://www.youtube.com/watch?v=KLjt706WFl4
 
 Universal Dependencies
 https://universaldependencies.org/
 
-UniversalDependencies/UD_Old_Irish-DipSGG
-https://github.com/UniversalDependencies/UD_Old_Irish-DipSGG/tree/master?tab=readme-ov-file
+UD_English-GUMReddit/get_text.py at master · UniversalDependencies/UD_English-GUMReddit
+https://github.com/UniversalDependencies/UD_English-GUMReddit/blob/master/get_text.py
 
-St Gall Priscian Glosses
-http://www.stgallpriscian.ie/resource
+Universal Dependencies
+https://universaldependencies.org/guidelines.html
 
-stgallpriscian/images/thesaurus/Thes_vol2_049.jpg at main · padraicmoran/stgallpriscian
-https://github.com/padraicmoran/stgallpriscian/blob/main/images/thesaurus/Thes_vol2_049.jpg
+Morphology
+https://universaldependencies.org/u/overview/morphology.html
 
-cisnlp/simalign: Obtain Word Alignments using Pretrained Language Models (e.g., mBERT)
-https://github.com/cisnlp/simalign?tab=readme-ov-file
+Typos and Other Errors in Underlying Text
+https://universaldependencies.org/u/overview/typos.html
+
+reparandum
+https://universaldependencies.org/u/dep/reparandum.html
+
+Enhanced Dependencies
+https://universaldependencies.org/u/overview/enhanced-syntax.html
+
+UniversalDependencies/UD_English-Atis
+https://github.com/UniversalDependencies/UD_English-Atis/tree/master?tab=readme-ov-file
 
 Panelshow
 https://www.reddit.com/r/panelshow/
 
-Junior Taskmaster - S01E02 - Would a Bird Fly? : r/panelshow
-https://www.reddit.com/r/panelshow/comments/1gs7j0w/junior_taskmaster_s01e02_would_a_bird_fly/
+Dependency Parsing and Visualization with spaCy | by ALSHARGI | Medium
+https://medium.com/@alshargi.usa/dependency-parsing-and-visualization-with-spacy-b419b9eda169
 
-Instagram
-https://www.instagram.com/
+Coreference Resolution - CoreNLP
+https://stanfordnlp.github.io/CoreNLP/coref.html
 
-(9+) Choć sportowe buty i legginsy to mój codzienny uniform, zdarzało się, że zakładałam coś bardziej eleganckiego. 👠✨ Szpilki zawsze kojarzyły mi się z siłą i kobiecością – nawet jeśli teraz to odległa wizja, wierzę, że wrócę do takich chwil. Na razie skupiam się na odzyskaniu sprawności, ale kto wie, może kiedyś znowu zobaczycie mnie w tej wersji. 😉 #elegancja #nietylkobieganie #powrótdozdrowia #biegaczka #biegaczkagórska
-https://www.threads.net/@gabi_running_girl/post/DCchV7SNSDz?deeplink_ig_tifu=1&tifu_login=True&xmt=AQGzGO3qRlboDCR6u7OF1N4aZ7ZcZljkI4K0IDm8LdFSDxA
+Untitled45.ipynb - Colab
+https://colab.research.google.com/drive/1rsswQjZKGwTumvj64SG2uaG73bOjUsJr#scrollTo=NOukaaiQBNEQ
 
-Inbox • Direct
-https://www.instagram.com/direct/t/5060418777378294/
+Training Pipelines & Models · spaCy Usage Documentation
+https://spacy.io/usage/training
 
-Instagram
-https://www.instagram.com/
+Command Line Interface · spaCy API Documentation
+https://spacy.io/api/cli#convert
+
+Wayback Machine
+https://web.archive.org/web/*/http://www.staff.amu.edu.pl/~romang/*
+
+404 Not Found
+https://nlp.cs.illinois.edu/HockenmaierGroup/8k-pictures.html
+
+Scéalta | Leigh Leat
+https://www.leighleat.com/sc%C3%A9alta
+
+Leabhairiní | Leigh Leat
+https://www.leighleat.com/leabhairin%C3%AD
+
+Clíona agus an Claíomh - Leathanach 2 | Leigh Leat
+https://www.leighleat.com/pages/2177
+
+Bríd na nAmhrán - Leathanach 1 | Leigh Leat
+https://www.leighleat.com/pages/328
+
+Foclóir Gaeilge–Béarla (Ó Dónaill): scríte
+https://www.teanglann.ie/en/fgb/scr%c3%adte
+
+Irish Morphology
+https://www.scss.tcd.ie/~uidhonne/gaeilgenfuni.cgi?mode=Analysis&text=seo+a+bh%C3%AD+scr%C3%ADte&submit=Go
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Och%20det%20tror%20jag%20inte%20det%20r%C3%A5der%20n%C3%A5gon%20oenighet%20om%20h%C3%A4r.%0AOch%20jag%20tror%20inte%20att%20det%20h%C3%A4r%20r%C3%A5der%20n%C3%A5gon%20oenighet%20om%20det.&op=translate
 
 
