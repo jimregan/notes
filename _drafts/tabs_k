@@ -259,12 +259,6 @@ https://www.kaggle.com/datasets/mfekadu/darpa-timit-acousticphonetic-continuous-
 philipperemy/timit: The DARPA TIMIT Acoustic-Phonetic Continuous Speech Corpus.
 https://github.com/philipperemy/timit
 
-TMH Monday lunch meeting protocols Apr 2019– - Google Docs
-https://docs.google.com/document/d/1R53CwfrIrSiXrgLc0s7m-DZHrz9OPYp-V_c-ve97l0w/edit?tab=t.0
-
-Tags | notes
-https://jimregan.github.io/notes/categories/#textgrid
-
 Extract a dictionary from MFA-aligned TextGrids | notes
 https://jimregan.github.io/notes/textgrid/mfa/2021/10/15/extract-dictionary-from-mfa-textgrids.html
 
@@ -283,7 +277,199 @@ https://spacy.io/universe/project/coreferee
 2024-11-07-set-up-neuralcoref.ipynb - Colab
 https://colab.research.google.com/drive/1MY5A-f3Nhj35ww4m_V-aXou6Dh6D7rkq#scrollTo=yKOYV_spC6PK
 
-New notebooks by jimregan · Pull Request #306 · jimregan/notes
-https://github.com/jimregan/notes/pull/306/files#diff-c0ae7fdf059719b0f60c9d2242630f7748dd2eeacc46f8747957c69451e934ba
+Set up neuralcoref | notes
+https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html
+
+resuscitative, adj. meanings, etymology and more | Oxford English Dictionary
+https://www.oed.com/dictionary/resuscitative_adj
+
+jimregan/notes
+https://github.com/jimregan/notes?tab=readme-ov-file
+
+Using Matcha with a private repo | notes
+https://jimregan.github.io/notes/matcha/english/private/hsi/2024/10/26/matcha-private-repo.html
+
+Get data from Folkets Swedish-English | notes
+https://jimregan.github.io/notes/folkets/swedish/pronunciation/2024/10/12/folkets.html
+
+jupyter notebook persistence - Google Search
+https://www.google.com/search?q=jupyter+notebook+persistence&rlz=1C5GCCM_en&oq=jupyter+persisten&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgoIBxAAGIAEGKIEMgoICBAAGIAEGKIE0gEINDg3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+discourse.jupyter.org
+https://discourse.jupyter.org/t/saving-state-or-sessions-in-jupyter-notebooks/3907
+
+Persist — A JupyterLab Extension for Persistent Interactions
+https://vdl.sci.utah.edu/blog/2024/05/29/persist/
+
+Quickstart Tutorial | Persist
+https://vdl.sci.utah.edu/persist/docs/getting-started/simple-tutorial
+
+Example Gallery — Vega-Altair 5.5.0dev documentation
+https://altair-viz.github.io/gallery/index.html#example-gallery
+
+A High-Level Grammar of Interactive Graphics | Vega-Lite
+https://vega.github.io/vega-lite/
+
+yifanwu/b2: Bridging Code and Interactive Visualization in Computational Notebooks
+https://github.com/yifanwu/b2?tab=readme-ov-file
+
+yifanwu/midas-exp-pub
+https://github.com/yifanwu/midas-exp-pub
+
+agenda.infn.it
+https://agenda.infn.it/event/31005/contributions/167438/attachments/96417/133850/Minio_jupyter_persistence.pdf
+
+Blog/Audio normalization with FFmpeg - Forza's ramblings
+https://wiki.tnonline.net/w/Blog/Audio_normalization_with_FFmpeg
+
+Encountered a 404 error
+https://sox.sourceforge.net/sox.html
+
+Any way to make the volume the same across all video files? : r/PleX
+https://www.reddit.com/r/PleX/comments/hg9een/any_way_to_make_the_volume_the_same_across_all/
+
+AudioVolume – FFmpeg
+https://trac.ffmpeg.org/wiki/AudioVolume
+
+slhck/ffmpeg-normalize: Audio Normalization for Python/ffmpeg
+https://github.com/slhck/ffmpeg-normalize?tab=readme-ov-file#should-i-use-this-to-normalize-my-music-collection
+
+audio - ffmpeg loudnorm 2pass in single line - Super User
+https://superuser.com/questions/1312811/ffmpeg-loudnorm-2pass-in-single-line
+
+slhck/ffmpeg-normalize: Audio Normalization for Python/ffmpeg
+https://github.com/slhck/ffmpeg-normalize?tab=readme-ov-file
+
+ffmpeg-normalize/ffmpeg_normalize/_ffmpeg_normalize.py at master · slhck/ffmpeg-normalize
+https://github.com/slhck/ffmpeg-normalize/blob/master/ffmpeg_normalize/_ffmpeg_normalize.py
+
+normalize audio of a directory ffmpeg - Google Search
+https://www.google.com/search?q=normalize+audio+of+a+directory+ffmpeg&rlz=1C5GCCM_en&oq=normalize+audio+of+a+direc&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKAB0gEINzU4NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Normalize a whole folder : r/audioengineering
+https://www.reddit.com/r/audioengineering/comments/gsyiz3/normalize_a_whole_folder/
+
+generate subtitles with word highlighting python - Google Search
+https://www.google.com/search?q=generate+subtitles+with+word+highlighting+python&rlz=1C5GCCM_en&oq=generate+subtitles+with+word+highlighting+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCTE3MTMwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Add subtitles permanently to a video using Python and Moviepy - YouTube
+https://www.youtube.com/watch?v=Zbze7zs8Kyk
+
+The Power of Single-Word Subtitles | by @dl4senses | Medium
+https://medium.com/@didierlacroix/the-power-of-single-word-subtitles-662f8c3891bd
+
+AngelFolio
+https://www.angel1254.com/blog/posts/word-by-word-captions
+
+nattofriends/python-ass: A library for parsing and manipulating Advanced SubStation Alpha subtitle files.
+https://github.com/nattofriends/python-ass
+
+swedish names hedda - Google Search
+https://www.google.com/search?q=swedish+names+hedda&rlz=1C5GCCM_en&oq=swedish+names+hedda&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCDM4MDBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Inbox • Direct
+https://www.instagram.com/direct/t/102052201197290/
+
+jimregan (Jim O’Regan)
+https://github.com/jimregan
+
+Scene gesture - Google Docs
+https://docs.google.com/document/d/1mjH0ib1AATU8PI3USTOyi0ZqnPk97FTJKSPnPOjG8ac/edit?tab=t.0#heading=h.dtslf9oeuul1
+
+Spatial Gesture - a Hugging Face Space by annadeichler
+https://huggingface.co/spaces/annadeichler/spatial-gesture
+
+annadeichler/spatial-gesture at main
+https://huggingface.co/spaces/annadeichler/spatial-gesture/tree/main/Build
+
+annadeichler (Anna Deichler)
+https://huggingface.co/annadeichler
+
+time in california - Google Search
+https://www.google.com/search?q=time+in+california&rlz=1C5GCCM_en&oq=time+in+cali&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGDkyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyCQgJEAAYChiABNIBCDE4MjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+GuyTevet/MotionCLIP: Official Pytorch implementation of the paper "MotionCLIP: Exposing Human Motion Generation to CLIP Space"
+https://github.com/GuyTevet/MotionCLIP
+
+Tags | notes
+https://jimregan.github.io/notes/categories/#ctc
+
+Download Cúla4 ar Scoil video | notes
+https://jimregan.github.io/notes/irish/dataset/cula4/2021/08/21/download-cula4-ar-scoil-video.html
+
+Cúla4 - YouTube
+https://www.youtube.com/@Cula4
+
+Cúla4 - YouTube
+https://www.youtube.com/@Cula4/videos
+
+An bhfaca tú mo Shéamuisín? | Rannta agus Amhráin le Niamh - YouTube
+https://www.youtube.com/watch?v=o4OBazWZ4Kk
+
+json.load() i Python - GeeksforGeeks
+https://www.geeksforgeeks.org/json-load-in-python/
+
+ERROR: Output extension mp4 does not support PCM audio. Please choose a suitable audio codec with the -c:a option - Google Search
+https://www.google.com/search?q=ERROR%3A+Output+extension+mp4+does+not+support+PCM+audio.+Please+choose+a+suitable+audio+codec+with+the+-c%3Aa+option&rlz=1C5GCCM_en&oq=ERROR%3A+Output+extension+mp4+does+not+support+PCM+audio.+Please+choose+a+suitable+audio+codec+with+the+-c%3Aa+option&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHMTMxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Aria Data Tools | Aria Data Tools
+https://facebookresearch.github.io/Aria_data_tools/
+
+Project Aria Open Tools | Project Aria
+https://www.projectaria.com/tools/
+
+facebookresearch/projectaria_tools: projectaria_tools is an C++/Python open-source toolkit to interact with Project Aria data
+https://github.com/facebookresearch/projectaria_tools
+
+Meta Research
+https://github.com/facebookresearch
+
+facebookresearch/spot-sim2real: Spot Sim2Real Infrastructure
+https://github.com/facebookresearch/spot-sim2real?tab=readme-ov-file
+
+spot-sim2real/ros_tcp/install_ros_bridge_server.sh at main · facebookresearch/spot-sim2real
+https://github.com/facebookresearch/spot-sim2real/blob/main/ros_tcp/install_ros_bridge_server.sh
+
+spot-sim2real/README.md at main · facebookresearch/spot-sim2real
+https://github.com/facebookresearch/spot-sim2real/blob/main/README.md#rotating_light-running-emergency-stop
+
+mambavision · PyPI
+https://pypi.org/project/mambavision/
+
+facebookresearch/generative-recommenders: Repository hosting code used to reproduce results in "Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations" (https://arxiv.org/abs/2402.17152).
+https://github.com/facebookresearch/generative-recommenders
+
+facebookresearch/mexma: MEXMA: Token-level objectives improve sentence representations
+https://github.com/facebookresearch/mexma?tab=readme-ov-file
+
+2409.12737
+https://arxiv.org/pdf/2409.12737
+
+vrs/vrs/ContentBlockReader.cpp at main · facebookresearch/vrs
+https://github.com/facebookresearch/vrs/blob/main/vrs/ContentBlockReader.cpp
+
+Spot | Boston Dynamics
+https://bostondynamics.com/products/spot/
+
+An bhfaca Tú Mo Shéamaisín - simply jacinta
+https://simplyjacinta.com/an-bhfaca-tu-mo-sheamaisin/
+
+(1) Home / X
+https://x.com/home
+
+Charlie Higson - Wikipedia
+https://en.wikipedia.org/wiki/Charlie_Higson
+
+Creating a Crossfade - Audacity Manual
+https://manual.audacityteam.org/man/creating_a_crossfade.html
+
+Increasing the volume of a selection - Audacity Help Forum / Windows - Audacity Forum
+https://forum.audacityteam.org/t/increasing-the-volume-of-a-selection/42561/4
+
+Så fungerar tandvården i Sverige - How dental care works in Sweden - 1177
+https://www.1177.se/en/Stockholm/other-languages/other-languages/tandvard-engelska/sa-fungerar-tandvarden-i-sverige--engelska/
+
+Tandvård i Sverige om du kommer från ett annat land-Dental care in Sweden if you come from another country - 1177
+https://www.1177.se/en/Stockholm/other-languages/other-languages/tandvard-engelska/tandvard-i-sverige-om-du-kommer-fran-ett-annat-land-engelska/
 
 
