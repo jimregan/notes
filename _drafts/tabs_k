@@ -100,29 +100,35 @@ https://arxiv.org/pdf/2409.09543
 BUTSpeechFIT/TS-ASR-Whisper
 https://github.com/BUTSpeechFIT/TS-ASR-Whisper
 
-2406.12998
-https://arxiv.org/pdf/2406.12998
+Berkeley-Speech-Group/Speech-Articulatory-Coding
+https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding
 
-SPARC
-https://berkeley-speech-group.github.io/sparc-demo/
+interactiveaudiolab/penn: Pitch Estimating Neural Networks (PENN)
+https://github.com/interactiveaudiolab/penn
+
+maxrmorrison/torchcrepe: Pytorch implementation of the CREPE pitch tracker
+https://github.com/maxrmorrison/torchcrepe?tab=readme-ov-file
+
+microsoft/MMdnn: MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
+https://github.com/microsoft/MMdnn?tab=readme-ov-file
+
+Pull requests · microsoft/MMdnn
+https://github.com/microsoft/MMdnn/pulls?page=2&q=is%3Apr+is%3Aclosed
+
+1. Add tf slim resnet_v1_101 model into examples. · microsoft/MMdnn@4e05f1c
+https://github.com/Microsoft/MMdnn/commit/4e05f1c669583d488c966526d56e956b8f71daf7
+
+coding speech through vocal tract kinematics - Google Search
+https://www.google.com/search?q=coding+speech+through+vocal+tract+kinematics&rlz=1C5GCCM_en&oq=Coding+Speech+through+Vocal+Tract+Kinematics&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogTSAQc0OTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
 Vocal Tract Visualization github - Google Search
 https://www.google.com/search?q=Vocal+Tract+Visualization+github&sca_esv=e936ada1b37f2909&rlz=1C5GCCM_en&sxsrf=ADLYWII1SVq2A9LsldLgrGGXvoWsXWXrFw%3A1730392828978&ei=_LIjZ5GoO-q9wPAPqsLi0AQ&ved=0ahUKEwiRlpLPh7mJAxXqHhAIHSqhGEoQ4dUDCBA&uact=5&oq=Vocal+Tract+Visualization+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiIFZvY2FsIFRyYWN0IFZpc3VhbGl6YXRpb24gZ2l0aHViMgUQIRigAUjODFBlWJ8KcAF4AZABAJgBa6ABwASqAQM2LjG4AQPIAQD4AQGYAgigAt0EwgIKEAAYsAMY1gQYR8ICCBAAGIAEGKIEwgIHECEYoAEYCpgDAIgGAZAGCJIHAzcuMaAHhg4&sclient=gws-wiz-serp
 
-megseekosh/vocal_tract_vowel: Triple vowel formant tracker, compute vocal tract length from formant measurements
-https://github.com/megseekosh/vocal_tract_vowel?tab=readme-ov-file#acoustic-measurements
-
 zakaton/Pink-Trombone: A programmable version of Neil Thapen's Pink Trombone
 https://github.com/zakaton/Pink-Trombone
 
-HidekiKawahara/SparkNG: MATLAB real-time/interactive speech tools. This series is obsolete. SP3ARK is the up-to-date series (will be).
-https://github.com/HidekiKawahara/SparkNG
-
-Voice-Lab/VoiceLab: Automated Reproducible Acoustical Analysis
-https://github.com/Voice-Lab/VoiceLab
-
-Web-based-vocoder/web-based-vocoder.github.io: This repository contains a simple vocoder that works with live input. The vocoder uses LPC coefficients to do voice transformations and/or visualization of the vocal tract in real-time. The output signal is synthesized with an overlap and add routine. The description of the project is organized in chapters. This demo works only with Chrome (the only browswer that supports Audio Worklets right now?)
-https://github.com/Web-based-vocoder/web-based-vocoder.github.io?tab=readme-ov-file
+SparkNG/LICENSE.txt at master · HidekiKawahara/SparkNG
+https://github.com/HidekiKawahara/SparkNG/blob/master/LICENSE.txt
 
 VocalTractLab
 https://www.vocaltractlab.de/index.php?page=vocaltractlab-download
@@ -433,13 +439,84 @@ https://github.com/facebookresearch/spot-sim2real/blob/main/README.md#rotating_l
 2409.12737
 https://arxiv.org/pdf/2409.12737
 
-game of thrones shame gif - Google Search
-https://www.google.com/search?q=game+of+thrones+shame+gif&rlz=1C5GCCM_en&oq=game+of+thrones+shame+gif&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCggJEAAYgAQYogTSAQg1MjExajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=8LRdqgfHsAEb2M&vssid=_AGlEZ9ueJLvQwPAP0_uxuAY_47
+NoDaLiDa Baltic-HLT 2025 Conference Reviewers | OpenReview
+https://openreview.net/group?id=NoDaLiDa/Baltic-HLT/2025/Conference/Reviewers#assigned-submissions
 
-shame-gameofthrones.gif (220×226)
-https://media.tenor.com/PLpe-LYpJUcAAAAM/shame-gameofthrones.gif
+Does Preprocessing Matter? An Analysis of Acoustic Feature Importance in Deep Learning for Dialect Classification | OpenReview
+https://openreview.net/forum?id=0qvJmxBprH&noteId=0qvJmxBprH&invitationId=NoDaLiDa/Baltic-HLT/2025/Conference/Submission5/-/Official_Review&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
 
-Gif2Slack
-https://www.gif2slack.com/
+Assessed and Annotated Vowel Lengths in Spoken Icelandic Sentences for L1 and L2 Speakers: A Resource for Pronunciation Training | OpenReview
+https://openreview.net/forum?id=nYfa4bPDIX&referrer=%5BReviewers%20Console%5D(%2Fgroup%3Fid%3DNoDaLiDa%2FBaltic-HLT%2F2025%2FConference%2FReviewers%23assigned-submissions)
 
+pdf
+https://openreview.net/pdf?id=0qvJmxBprH
+
+Dialect Identification of Spoken North Sámi Language Varieties Using Prosodic Features - University of Helsinki
+https://researchportal.helsinki.fi/en/publications/dialect-identification-of-spoken-north-s%C3%A1mi-language-varieties-us
+
+ISCA Archive - Dialect Identification of Spoken North Sámi Language Varieties Using Prosodic Features
+https://www.isca-archive.org/speechprosody_2020/kakouros20_speechprosody.html#
+
+Submitted to INTERSPEECH
+https://arxiv.org/pdf/2305.11864
+
+The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) - ACL Anthology
+https://aclanthology.org/events/lrec-2024/
+
+The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) - ACL Anthology
+https://aclanthology.org/events/lrec-2024/#2024lrec-main
+
+Corpus Creation and Automatic Alignment of Historical Dutch Dialect Speech
+https://aclanthology.org/2024.lrec-main.357.pdf
+
+NB Uttale: A Norwegian Pronunciation Lexicon with Dialect Variation
+https://aclanthology.org/2024.lrec-main.1056.pdf
+
+nb_uttale/data/input/rules_v1.py at v1 · Sprakbanken/nb_uttale
+https://github.com/Sprakbanken/nb_uttale/blob/v1/data/input/rules_v1.py
+
+Phonotactic Complexity across Dialects
+https://aclanthology.org/2024.lrec-main.1115.pdf
+
+Proceedings of the 5th RaPID Workshop
+https://demo.spraakbanken.gu.se/svedk/pbl/RAPID5-2024-Proceedings.pdf
+
+cmu-llab/phonotactic-complexity-across-dialects: "Phonotactic Complexity across Dialects" (LREC-Coling 2024)
+https://github.com/cmu-llab/phonotactic-complexity-across-dialects
+
+SSSB
+https://sssb.se/
+
+Sprakbanken/nb_uttale at v1
+https://github.com/Sprakbanken/nb_uttale/tree/v1
+
+jerry maguire gif help me help you - Google Search
+https://www.google.com/search?q=jerry+maguire+gif+help+me+help+you&rlz=1C5GCCM_en&oq=jerry+maguire+gif+help&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCggDEAAYgAQYogQyCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQg0NTcxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=wOqHIlxNY1h53M&vssid=_S41EZ7-4FKzVwPAPzdnb-Q0_55
+
+YARN | Help me Help you | Jerry Maguire (1996) | Video gifs by quotes | c5e62915 | 紗
+https://memes.yarn.co/yarn-clip/c5e62915-a837-4af3-a487-682c51a7b25d/gif
+
+annadeichler (Anna Deichler) / October 2024
+https://github.com/annadeichler?tab=overview&from=2024-10-01&to=2024-10-31
+
+mm-conv.github.io/media at main · mm-conv/mm-conv.github.io
+https://github.com/mm-conv/mm-conv.github.io/tree/main/media
+
+gif computer says no - Google Search
+https://www.google.com/search?q=gif+computer+says+no&rlz=1C5GCCM_en&oq=gif+computer+says&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMgoIBBAAGAoYFhgeMggIBRAAGBYYHjINCAYQABiGAxiABBiKBTINCAcQABiGAxiABBiKBTINCAgQABiGAxiABBiKBTINCAkQABiGAxiABBiKBdIBCDQ1NzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=K3VmcQmSTMoJXM&vssid=_rZNEZ_SzELSR1fIP-dyboQw_31
+
+Conjunctive/Imperative/Subjunctive mood in Hungarian [HungarianReference.com > Grammar > Verbs > Conjunctive/Imperative]
+http://www.hungarianreference.com/Verbs/Verbs-Conjunctive-Imperative-Subjunctive.aspx
+
+Berkeley-Speech-Group/Speech-Articulatory-Coding
+https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding
+
+VIII. Ergebnisse dialektologischer Beschreibungen: areale Bereiche deutscher Dialekte im Überblick
+https://www.degruyter.com/document/doi/10.1515/9783110203332-003/html
+
+Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
+
+Esthefane Valentin (@esthefanevalentin) • Instagram photos and videos
+https://www.instagram.com/esthefanevalentin
 
