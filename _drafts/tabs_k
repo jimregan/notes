@@ -154,38 +154,11 @@ https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding/blob/main/se
 ml-explore/mlx: MLX: An array framework for Apple silicon
 https://github.com/ml-explore/mlx?tab=readme-ov-file
 
-ml-explore/mlx-examples: Examples in the MLX framework
-https://github.com/ml-explore/mlx-examples
+[2306.06546] High-Fidelity Audio Compression with Improved RVQGAN
+https://arxiv.org/abs/2306.06546
 
-mlx · GitHub Topics
-https://github.com/topics/mlx
-
-abeleinin/Metal-Puzzles: Solve Puzzles. Learn Metal 🤘
-https://github.com/abeleinin/Metal-Puzzles?tab=readme-ov-file
-
-Custom Metal Kernels — MLX 0.19.2 documentation
-https://ml-explore.github.io/mlx/build/html/dev/custom_metal_kernels.html
-
-(1) Awni Hannun on X: "RFP: request for port @srush_nlp GPU puzzles to Metal with MLX custom_kernels: https://t.co/ji2YRKEYJ5 Would be a great way to learn Metal / Apple GPU programming." / X
-https://x.com/awnihannun/status/1833376670063202536
-
-Memory management — Numba 0+untagged.871.g53e976f.dirty documentation
-https://numba.readthedocs.io/en/stable/cuda/memory.html
-
-srush/Tensor-Puzzles: Solve puzzles. Improve your pytorch.
-https://github.com/srush/Tensor-Puzzles
-
-Use soundfile instead of torchaudio. · lucasnewman/f5-tts-mlx@ca45c85
-https://github.com/lucasnewman/f5-tts-mlx/commit/ca45c85ebbd3e503d291c2dade8e3fb2f03f2464
-
-lucasnewman (lucasnewman) / Repositories
-https://github.com/lucasnewman?tab=repositories
-
-lucasnewman/descript-mlx: Implementation of the Descript Audio Codec in MLX
-https://github.com/lucasnewman/descript-mlx
-
-lucidrains/voicebox-pytorch: Implementation of Voicebox, new SOTA Text-to-speech network from MetaAI, in Pytorch
-https://github.com/lucidrains/voicebox-pytorch?tab=readme-ov-file
+lucidrains/e2-tts-pytorch: Implementation of E2-TTS, "Embarrassingly Easy Fully Non-Autoregressive Zero-Shot TTS", in Pytorch
+https://github.com/lucidrains/e2-tts-pytorch
 
 e2-tts-pytorch/e2_tts_pytorch/e2_tts.py at main · lucidrains/e2-tts-pytorch
 https://github.com/lucidrains/e2-tts-pytorch/blob/main/e2_tts_pytorch/e2_tts.py
@@ -496,355 +469,85 @@ https://www.google.com/search?q=jerry+maguire+gif+help+me+help+you&rlz=1C5GCCM_e
 YARN | Help me Help you | Jerry Maguire (1996) | Video gifs by quotes | c5e62915 | 紗
 https://memes.yarn.co/yarn-clip/c5e62915-a837-4af3-a487-682c51a7b25d/gif
 
-annadeichler (Anna Deichler) / October 2024
-https://github.com/annadeichler?tab=overview&from=2024-10-01&to=2024-10-31
-
-mm-conv.github.io/media at main · mm-conv/mm-conv.github.io
-https://github.com/mm-conv/mm-conv.github.io/tree/main/media
-
-gif computer says no - Google Search
-https://www.google.com/search?q=gif+computer+says+no&rlz=1C5GCCM_en&oq=gif+computer+says&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMgoIBBAAGAoYFhgeMggIBRAAGBYYHjINCAYQABiGAxiABBiKBTINCAcQABiGAxiABBiKBTINCAgQABiGAxiABBiKBTINCAkQABiGAxiABBiKBdIBCDQ1NzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=K3VmcQmSTMoJXM&vssid=_rZNEZ_SzELSR1fIP-dyboQw_31
-
-Conjunctive/Imperative/Subjunctive mood in Hungarian [HungarianReference.com > Grammar > Verbs > Conjunctive/Imperative]
-http://www.hungarianreference.com/Verbs/Verbs-Conjunctive-Imperative-Subjunctive.aspx
+Comparative adjectives in Hungarian: -abb [HungarianReference.com > Grammar > Adjectives > Comparative: -abb]
+http://www.hungarianreference.com/Adjectives/Comparative-bb.aspx#google_vignette
 
 Berkeley-Speech-Group/Speech-Articulatory-Coding
 https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding
 
-VIII. Ergebnisse dialektologischer Beschreibungen: areale Bereiche deutscher Dialekte im Überblick
-https://www.degruyter.com/document/doi/10.1515/9783110203332-003/html
+Berkeley-Speech-Group
+https://github.com/Berkeley-Speech-Group
+
+Berkeley-Speech-Group/sylber: Sylber: Syllabic Embedding Representation of Speech from Raw Audio
+https://github.com/Berkeley-Speech-Group/sylber
+
+[2410.07168] Sylber: Syllabic Embedding Representation of Speech from Raw Audio
+https://arxiv.org/abs/2410.07168
+
+PWVD-Pitch-Tracker/ppt.py at main · Berkeley-Speech-Group/PWVD-Pitch-Tracker
+https://github.com/Berkeley-Speech-Group/PWVD-Pitch-Tracker/blob/main/ppt.py
+
+Berkeley-Speech-Group/audio_ml_workshop_2023: A tutorial for working with self-supervised representations and audio data
+https://github.com/Berkeley-Speech-Group/audio_ml_workshop_2023
+
+Berkeley-Speech-Group/SSDM
+https://github.com/Berkeley-Speech-Group/SSDM
+
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/
+
+Vaibhav (VB) Srivastav on X: "Smol TTS keeps getting better! Introducing OuteTTS v0.2 - 500M parameters, multilingual with voice cloning! 🔥 &gt; Multilingual - English, Chinese, Korean &amp; Japanese &gt; Cross platform inference w/ llama.cpp &gt; Zero-shot voice cloning &gt; Trained on 5 Billion audio tokens &gt; Qwen 2.5 https://t.co/N4c4Ukfrhz" / X
+https://x.com/reach_vb/status/1861160122325610900
+
+OuteAI (OuteAI)
+https://huggingface.co/OuteAI
+
+OuteAI/OuteTTS-0.1-350M · Hugging Face
+https://huggingface.co/OuteAI/OuteTTS-0.1-350M
+
+jishengpeng/WavTokenizer: SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling
+https://github.com/jishengpeng/WavTokenizer
+
+amphion/Emilia-Dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/amphion/Emilia-Dataset
+
+Home / X
+https://x.com/home
+
+cocktail peanut on X: "The Ultimate Video Editor This is so crazy, it's magic. You know how there are tons of FFMPEG wrapper apps that do only 1 thing? Now you can literally TALK to @FFmpeg to do ANY video editing task! You can now run this locally with @Alibaba_Qwen 2.5-coder:32b from @ollama https://t.co/cymvLhdoIm" / X
+https://x.com/cocktailpeanut/status/1861518841886511126
 
 Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
+https://www.instagram.com/direct/t/17845647458552890/
 
-Esthefane Valentin (@esthefanevalentin) • Instagram photos and videos
-https://www.instagram.com/esthefanevalentin
+Thank you for your purchase! - mentallyunstitched - Checkout
+https://mentallyunstitched.com/checkouts/cn/Z2NwLWV1cm9wZS13ZXN0NDowMUpEU0pLUURFWVFCSzE2RTFKQ0Q1TTNQTQ/thank-you
 
-Audiobooks in Swedish and where to find them : r/Svenska
-https://www.reddit.com/r/Svenska/comments/a42oih/audiobooks_in_swedish_and_where_to_find_them/
+Your Shopping Cart – mentallyunstitched
+https://mentallyunstitched.com/cart
 
-A Visit from St. Nicholas – Wikipedia
-https://sv.wikipedia.org/wiki/A_Visit_from_St._Nicholas
+FFmpeg - Wikipedia
+https://en.wikipedia.org/wiki/FFmpeg
 
-Antoine de Saint-Exupéry – Wikipedia
-https://sv.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry
+FreeVC/speaker_encoder/model.py at main · OlaWod/FreeVC
+https://github.com/OlaWod/FreeVC/blob/main/speaker_encoder/model.py
 
-A Visit from St. Nicholas - Wikisource, the free online library
-https://en.wikisource.org/wiki/A_Visit_from_St._Nicholas
+How to compute Equal Error Rate (EER) on ROC curve – Changjiang's blog – My notebook for programming and others.
+https://yangcha.github.io/EER-ROC/
 
-LibriVox
-https://librivox.org/search?primary_key=0&search_category=language&search_page=1&search_form=get_results&search_order=alpha
+Dataset download/conversion by jimregan · Pull Request #99 · shivammehta25/Matcha-TTS
+https://github.com/shivammehta25/Matcha-TTS/pull/99/files#diff-c480f39213fd4826a2af8e2464808efedacbab9a8545420114f45df6fb07dd61
 
-LibriVox
-https://librivox.org/an-sgealuidhe-gaedhealach-by-douglas-hyde/
+Shop All – Page 3 – mentallyunstitched
+https://mentallyunstitched.com/collections/shop-all?page=3
 
-An sgʹealuidhe gaedhealach : Hyde, Douglas, 1860-1949 : Free Download, Borrow, and Streaming : Internet Archive
-https://archive.org/details/ansgealuidhegae00hydegoog/page/12/mode/2up
+Peer reviewed sweatshirt – mentallyunstitched
+https://mentallyunstitched.com/products/peer-reviewed-sweatshirt
 
-An sgʹealuidhe gaedhealach - Google Search
-https://www.google.com/search?q=An+sg%CA%B9ealuidhe+gaedhealach&rlz=1C5GCCM_en&oq=An+sg%CA%B9ealuidhe+gaedhealach&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEAyBggDEEUYQDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPNIBBzU3N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+Studentbacken 25 - Google Maps
+https://www.google.com/maps/place/Studentbacken+25,+115+57+Stockholm/@59.3490682,18.0936593,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d379eff696f:0x3d118d72ff7ebe42!8m2!3d59.3490682!4d18.0962342!16s%2Fg%2F11c219ywl2?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D
 
-Catalog Record: An sgʹealuidhe gaedhealach | HathiTrust Digital Library
-https://catalog.hathitrust.org/Record/005776645
-
-Catalog Record: An sgʹealuidhe gaedhealach | HathiTrust Digital Library
-https://catalog.hathitrust.org/Record/005776645
-
-An sgʹealuidhe gaedhealach - Limited View | HathiTrust Digital Library
-https://babel.hathitrust.org/cgi/pt?id=wu.89087905691
-
-An sgʹealuidhe gaedhealach by Douglas Hyde | Open Library
-https://openlibrary.org/books/OL23424927M/An_sg%CA%B9ealuidhe_gaedhealach
-
-LibriVox
-https://librivox.org/search?primary_key=33&search_category=language&search_page=1&search_form=get_results&search_order=alpha
-
-Author:Dubhghlas de hÍde - Wikisource
-https://wikisource.org/wiki/Author:Dubhghlas_de_h%C3%8Dde
-
-An sgéaluidhe gaedhealach - Google Search
-https://www.google.com/search?q=An+sg%C3%A9aluidhe+gaedhealach&rlz=1C5GCCM_en&oq=An+sg%C3%A9aluidhe+gaedhealach&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEAyBggDEEUYQNIBCDM0MDJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Digital Repository of Ireland - Royal Irish Academy
-https://www.ria.ie/research-programmes/digital-repository-of-ireland/
-
-Foclóir Stairiúil na Gaeilge - Royal Irish Academy
-https://www.ria.ie/research-programmes/focloir-stairiuil-na-gaeilge/
-
-Máirtín Ó Cadhain's new dictionary launched - Royal Irish Academy
-https://www.ria.ie/2021/06/18/mairtin-o-cadhains-new-dictionary-launched/
-
-‘Níl éinní is fearr chuige ná braon don mháighistir’ - Royal Irish Academy
-https://www.ria.ie/blog/nil-einni-is-fearr-chuige-na-braon-don-mhaighistir/
-
-Cartlann Téacsanna
-http://corpas.ria.ie/index.php?fsg_function=1&fsg_page=S
-
-Cartlann Téacsanna
-http://corpas.ria.ie/index.php?fsg_function=3&fsg_id=2761
-
-Cartlann Téacsanna
-http://corpas.ria.ie/index.php?fsg_function=3&fsg_id=2899
-
-Sliabh na mBan bhFionn agus Cúán Fithise - Google Search
-https://www.google.com/search?q=Sliabh+na+mBan+bhFionn+agus+C%C3%BA%C3%A1n+Fithise&sca_esv=2017032e46ff82bb&rlz=1C5GCCM_en&sxsrf=ADLYWILRvjyz9XCz6IyefdKPiaKGMyKwIQ:1732633587213&ei=8-NFZ5bXDOmSwPAPiYz5oAQ&start=10&sa=N&sstk=ATObxK4PEdvSLCODfs9P-zKIoHx7ur6z7aqGbQ-3TwMgq8uOyMPdc4Mv9g1Neg18z7tlC0Io3-RrZpoFjoiZ2h3HNgh9DawOLuu2hA&ved=2ahUKEwjWnPeLo_qJAxVpCRAIHQlGHkQQ8NMDegQICxAW&biw=1440&bih=730&dpr=2
-
-CuanFithise.pdf
-https://www.irishlanguageforum.com/membrfaylz/anlondubh/CuanFithise.pdf
-
-bibliography.pdf
-https://corkirish.wordpress.com/wp-content/uploads/2012/11/bibliography.pdf
-
-Alt: "Cearbhall Buidhe na n-Abhrán." The Gaelic Journal V (Ua Laoghaire 1894) — Additional sources / Peadar Ó Laoghaire Idiom Collection | Gaois research group
-https://www.gaois.ie/en/idioms/sources/additional/4758982
-
-Corpas
-http://corpas.ria.ie/index.php?fsg_function=5&fsg_id=436
-
-Sliabh na mBan bhFionn | Cork Irish
-https://corkirish.wordpress.com/category/sliabh-na-mban-bhfionn/
-
-gleannghaibhle | Cork Irish
-https://corkirish.wordpress.com/author/gleannghaibhle/
-
-ILF - Irish Language Forum • View forum - Irish Gaelic Language Forum - An Fóram Mór (Gaeilge)
-https://www.irishlanguageforum.com/viewforum.php?f=28
-
-ILF - Irish Language Forum • View topic - Great YouTube channel for Munster Irish
-https://www.irishlanguageforum.com/viewtopic.php?f=28&t=8309&sid=ccfc5c8cdca16fe35c829f9a823609cf
-
-The LS of Sliabh na mBan bhFionn | Cork Irish
-https://corkirish.wordpress.com/2013/01/11/the-ls-of-sliabh-na-mban-bhfionn/
-
-Kerry Chainsmoker explains the practice of 'bothántaíocht' - Native Kerry Irish with Subtitles part2 - YouTube
-https://www.youtube.com/watch?v=6io3rt3lHoo
-
-Munster dialect – Daltaí na Gaeilge
-https://daltai.com/forums/topic/munster-dialect/
-
-Gaeltalk: The Language
-https://www.gaeltalk.net/the_language.html
-
-Can Karate beat a BJJ Guard Puller?? - YouTube
-https://www.youtube.com/watch?v=VslU9B7Cro0
-
-LibriVox
-https://librivox.org/search?primary_key=58&search_category=language&search_page=2&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/search?primary_key=28&search_category=language&search_page=1&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/christmas-short-works-collection-2014/
-
-The Project Gutenberg eBook of Svensk diktning II Selections from Swedish Poets with Brief Monographies, by Jules Mauritzson
-https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-
-view-source:https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-view-source:https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-
-YouTube
-https://www.youtube.com/
-
-Snoop Dogg Rates British And American Food | Snack Wars - YouTube
-https://www.youtube.com/watch?v=DmgyRju-Qfg
-
-Do the DUELS in DUNE change the RULES for Movie Fights? - YouTube
-https://www.youtube.com/watch?v=ztR5LVcVUB4
-
-Ed Sheeran Shows on His Guitar How He Won His Copyright Lawsuit - YouTube
-https://www.youtube.com/watch?v=NcCKlsTgjeM
-
-Audiobooks in Swedish and where to find them : r/Svenska
-https://www.reddit.com/r/Svenska/comments/a42oih/audiobooks_in_swedish_and_where_to_find_them/
-
-A Visit from St. Nicholas – Wikipedia
-https://sv.wikipedia.org/wiki/A_Visit_from_St._Nicholas
-
-LibriVox
-https://librivox.org/twas-the-night-before-christmas-by-clement-c-moore/
-
-A Visit from St. Nicholas - Wikisource, the free online library
-https://en.wikisource.org/wiki/A_Visit_from_St._Nicholas
-
-LibriVox
-https://librivox.org/search?primary_key=0&search_category=language&search_page=1&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/an-sgealuidhe-gaedhealach-by-douglas-hyde/
-
-LibriVox
-https://librivox.org/search?primary_key=33&search_category=language&search_page=1&search_form=get_results&search_order=alpha
-
-Corpas
-http://corpas.ria.ie/index.php?fsg_function=5&fsg_id=436
-
-LibriVox
-https://librivox.org/search?primary_key=58&search_category=language&search_page=2&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/search?primary_key=28&search_category=language&search_page=1&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/search?primary_key=71&search_category=genre&search_page=55&search_form=get_results&search_order=alpha
-
-view-source:https://librivox.org/search?primary_key=71&search_category=genre&search_page=55&search_form=get_results&search_order=alpha
-view-source:https://librivox.org/search?primary_key=71&search_category=genre&search_page=55&search_form=get_results&search_order=alpha
-
-LibriVox
-https://librivox.org/aedh-wishes-for-the-cloths-of-heaven-by-william-butler-yeats/
-
-view-source:https://librivox.org/aedh-wishes-for-the-cloths-of-heaven-by-william-butler-yeats/
-view-source:https://librivox.org/aedh-wishes-for-the-cloths-of-heaven-by-william-butler-yeats/
-
-LibriVox | free public domain audiobooks
-https://librivox.org/
-
-Translation: German Pages | LibriVox Translation: German Pages | free public domain audiobooks
-https://librivox.org/pages/translation-german-pages/
-
-LibriVox Forum - Index page
-https://forum.librivox.org/
-
-Readers Wanted: Languages other than English - LibriVox Forum
-https://forum.librivox.org/viewforum.php?f=60&sid=bc29d15827a6114d7e1db610e4e40ed9
-
-New Projects Launch Pad - LibriVox Forum
-https://forum.librivox.org/viewforum.php?f=28&sid=bc29d15827a6114d7e1db610e4e40ed9
-
-Aedh Wishes for the Cloths of Heaven - Wikipedia
-https://en.wikipedia.org/wiki/Aedh_Wishes_for_the_Cloths_of_Heaven
-
-LibriVox
-https://librivox.org/search?primary_key=71&search_category=genre&search_page=55&search_form=get_results&search_order=alpha
-
-The Project Gutenberg eBook of Svensk diktning II Selections from Swedish Poets with Brief Monographies, by Jules Mauritzson
-https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-
-view-source:https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-view-source:https://www.gutenberg.org/cache/epub/15753/pg15753-images.html
-
-Erbjudanden och poängshop
-https://www.sj.se/erbjudanden-och-poangshop/tutankhamon-the-immersive-exhibition-malmo
-
-SSSB
-https://sssb.se/
-
-librivox.org/api/info
-https://librivox.org/api/info
-
-librivox.org/api/info#dev_notes
-https://librivox.org/api/info#dev_notes
-
-librivox.org/api/feed/audiobooks/?id=692
-https://librivox.org/api/feed/audiobooks/?id=692
-
-librivox.org
-https://librivox.org/api/feed/audiobooks/genre/71
-
-librivox.org/api/feed/audiobooks?primary_key=71
-https://librivox.org/api/feed/audiobooks?primary_key=71
-
-librivox-catalog/application/views/public/temp_info/api.php at 8e81330f4d931d44ab14f85772ebb241ebefc6e4 · LibriVox/librivox-catalog
-https://github.com/LibriVox/librivox-catalog/blob/8e81330f4d931d44ab14f85772ebb241ebefc6e4/application/views/public/temp_info/api.php#L2
-
-librivox-catalog/application/libraries/Librivox_API.php at 8e81330f4d931d44ab14f85772ebb241ebefc6e4 · LibriVox/librivox-catalog
-https://github.com/LibriVox/librivox-catalog/blob/8e81330f4d931d44ab14f85772ebb241ebefc6e4/application/libraries/Librivox_API.php#L4
-
-librivox-catalog/application/libraries/Librivox_search.php at 8e81330f4d931d44ab14f85772ebb241ebefc6e4 · LibriVox/librivox-catalog
-https://github.com/LibriVox/librivox-catalog/blob/8e81330f4d931d44ab14f85772ebb241ebefc6e4/application/libraries/Librivox_search.php
-
-LibriVox
-https://librivox.org/frost-to-night-by-edith-m-thomas/
-
-“Frost To-Night” - Collection at Bartleby.com
-https://www.bartleby.com/lit-hub/jessie-b-rittenhouse-2/frost-to-night/
-
-The Bell Jar by Sylvia Plath, from Project Gutenberg Canada
-https://www.fadedpage.com/books/20160540/html.php
-
-IEMOCAP Dataset | Papers With Code
-https://paperswithcode.com/dataset/iemocap
-
-The Bell Jar - Wikipedia
-https://en.wikipedia.org/wiki/The_Bell_Jar
-
-Sylvia Plath - Wikipedia
-https://en.wikipedia.org/wiki/Sylvia_Plath
-
-Chartreuse (liqueur) - Wikipedia
-https://en.wikipedia.org/wiki/Chartreuse_(liqueur)
-
-Beer in Turkey - Wikipedia
-https://en.wikipedia.org/wiki/Beer_in_Turkey
-
-Beer in Ireland - Wikipedia
-https://en.wikipedia.org/wiki/Beer_in_Ireland
-
-Beer in Poland - Wikipedia
-https://en.wikipedia.org/wiki/Beer_in_Poland
-
-Beer in Sweden - Wikipedia
-https://en.wikipedia.org/wiki/Beer_in_Sweden
-
-Category:Alcohol monopolies - Wikipedia
-https://en.wikipedia.org/wiki/Category:Alcohol_monopolies
-
-Alko - Wikipedia
-https://en.wikipedia.org/wiki/Alko
-
-Christmas tradition in Finland | Alko
-https://www.alko.fi/en/food-and-drinks/christmas-tradition
-
-Vinmonopolet - Wikipedia
-https://en.wikipedia.org/wiki/Vinmonopolet
-
-Efes Pilsener | Systembolaget
-https://www.systembolaget.se/produkt/ol/efes-pilsener-152701/
-
-Instagram
-https://www.instagram.com/
-
-LADbible Entertainment - YouTube
-https://www.youtube.com/@ladbible/videos
-
-Tom Hardy & Kelly Marcel Rate American & British Food | Snack Wars - YouTube
-https://www.youtube.com/watch?v=D9hw8Q4-yUA
-
-Pedro Pascal & Paul Mescal Test Their Friendship | Do You Even Know Me? - YouTube
-https://www.youtube.com/watch?v=NJqgcrev-hk
-
-Nemzeti Krindzstár (@nemzeti_krindzstar) • Instagram photos and videos
-https://www.instagram.com/reel/DCrDd-8IMEd/
-
-lelkisegély szolgálat (@krindzs.elek) • Instagram photos and videos
-https://www.instagram.com/p/DCox5Odtb0u/
-
-Emmy Steuer (@emmyxtech) • Instagram photos and videos
-https://www.instagram.com/emmyxtech/
-
-Map 2024 – Nobel Week Lights
-https://nobelweeklights.se/map-2024/?lang=en
-
-Guided Tours – Nobel Week Lights
-https://nobelweeklights.se/guided-tours-2024/?lang=en&e-filter-4b44618-tour_language=english-tour
-
-Where to celebrate Thanksgiving in Stockholm | Thatsup
-https://thatsup.co.uk/stockholm/guide/where-to-celebrate-thanksgiving-in-stockholm/
-
-Sofia Common chow — Sofia Common Deli Cantina
-https://www.sofiacommon.se/thanksgiving
-
-Stockholms första riktiga bbq-restaurang - The Old Smokehouse
-https://theoldsmokehouse.se/?utm_source=thatsup&utm_medium=referral
-
-Julmeny2024-restaurangens-med-4-detaljer.pdf
-https://theoldsmokehouse.se/uploads/Julmeny2024-restaurangens-med-4-detaljer.pdf
-
-Julplate2024.pdf
-https://theoldsmokehouse.se/uploads/Julplate2024.pdf
-
-Calendar of Events – THANKSGIVING 11/28/2024 in Stockholm
-https://cafe.hardrock.com/stockholm/event-calendar.aspx?date=11/28/2024&display=event&eventid=2000199
+New Tab
+chrome://newtab/
 
 
