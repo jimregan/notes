@@ -52,3 +52,13 @@ categories: [links]
 
 [LibriVox Poetry weekly/fortnightly](https://librivox.org/search?primary_key=71&search_category=genre&search_page=1&search_form=get_results&search_order=alpha)
 
+{% twitter https://x.com/rabaath/status/1862609828016701784 %}
+
+[Vocal Remover and Isolation](https://vocalremover.org/)
+
+[Transformer in Excel](https://aibyhand.substack.com/p/full-stack-transformer)
+
+[Unsupervised speech intelligibility assessment with utterance level alignment distance between teacher and learner Wav2Vec-2.0 representations](https://arxiv.org/abs/2306.08845)
+
+[Unsupervised Uncertainty Measures of Automatic Speech Recognition for Non-intrusive Speech Intelligibility Prediction](https://www.isca-archive.org/interspeech_2022/tu22b_interspeech.html)
+
