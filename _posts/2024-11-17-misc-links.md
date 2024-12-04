@@ -62,3 +62,8 @@ categories: [links]
 
 [Unsupervised Uncertainty Measures of Automatic Speech Recognition for Non-intrusive Speech Intelligibility Prediction](https://www.isca-archive.org/interspeech_2022/tu22b_interspeech.html)
 
+[Słownik podstawowy szkocko-polski](https://dictionary.scot/scots-polish/dictionary-sp/)
+
+[Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifier](https://arxiv.org/abs/2312.08168),
+[code](https://github.com/ZzZZCHS/Chat-Scene)
+
