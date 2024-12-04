@@ -29,9 +29,6 @@ categories: [links]
 
 [NVIDIA/kvpress](https://github.com/NVIDIA/kvpress) --- LLM KV cache compression made easy
 
-[Move as You Say, Interact as You Can: Language-guided Human Motion Generation with Scene Affordance](https://arxiv.org/abs/2403.18036),
-[code](https://github.com/afford-motion/afford-motion)
-
 [facebookresearch/vrs](https://github.com/facebookresearch/vrs) --- VRS is a file format optimized to record & playback streams of sensor data, such as images, audio samples, and any other discrete sensors (IMU, temperature, etc), stored in per-device streams of timestamped records.
 
 [MEXMA: Token-level objectives improve sentence representations](https://arxiv.org/abs/2409.12737),
@@ -40,4 +37,18 @@ categories: [links]
 [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152),
 [code](https://github.com/facebookresearch/generative-recommenders)
 
+[An Open-Source Gloss-Based Baseline for Spoken to Signed Language Translation](https://arxiv.org/abs/2305.17714),
+[code](https://github.com/sign-language-processing/spoken-to-signed-translation)
+
+[rapidsai/cudf](https://github.com/rapidsai/cudf) --- GPU DataFrame Library
+
+[Corpas Náisiúnta na Gaeilge](https://www.corpas.ie/ga/cng/)
+
+[HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition](https://arxiv.org/abs/2305.18281)
+
+[Aedh Wishes for the Cloths of Heaven](https://librivox.org/aedh-wishes-for-the-cloths-of-heaven-by-william-butler-yeats/)
+
+[LibriVox API info](https://librivox.org/api/info)
+
+[LibriVox Poetry weekly/fortnightly](https://librivox.org/search?primary_key=71&search_category=genre&search_page=1&search_form=get_results&search_order=alpha)
 
