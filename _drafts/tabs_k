@@ -1,86 +1,11 @@
 Amphion/models/tts/jets/alignments.py at main · open-mmlab/Amphion
 https://github.com/open-mmlab/Amphion/blob/main/models/tts/jets/alignments.py
 
-jets/espnet2/gan_tts/jets/alignments.py at main · imdanboy/jets
-https://github.com/imdanboy/jets/blob/main/espnet2/gan_tts/jets/alignments.py
+IPS-LMU/octra: OCTRA is a web-application for the orthographic transcription of audio files.
+https://github.com/IPS-LMU/octra
 
-ggml/examples/yolo/yolov3-tiny.cpp at master · ggerganov/ggml
-https://github.com/ggerganov/ggml/blob/master/examples/yolo/yolov3-tiny.cpp
-
-Introduction to ggml
-https://huggingface.co/blog/introduction-to-ggml
-
-ggml : r/LocalLLaMA
-https://www.reddit.com/r/LocalLLaMA/comments/12vo2rn/ggml/
-
-Dataset release for EMNLP 2023 paper on reasoning with spatial prepos… · google-research/language@815bfe6
-https://github.com/google-research/language/commit/815bfe68235d740c8d152330b7f05409921d7f9d
-
-google-research/lasertagger
-https://github.com/google-research/lasertagger?tab=readme-ov-file
-
-1909.01187
-https://arxiv.org/pdf/1909.01187
-
-google-research-datasets/wiki-split: One million English sentences, each split into two sentences that together preserve the original meaning, extracted from Wikipedia edits.
-https://github.com/google-research-datasets/wiki-split
-
-google-research/structured-additive-IR
-https://github.com/google-research/structured-additive-IR
-
-Convert trained Keras models (.h5) to ONNX format. | by Ethan Sergy | Medium
-https://medium.com/@sergyoubi/convert-trained-keras-models-h5-to-onnx-format-e25819bbf5dd
-
-octra/libs/annotation/src/lib/annotjson.ts at 0449311377d6960e4cd23326acb7fbcefaded718 · IPS-LMU/octra
-https://github.com/IPS-LMU/octra/blob/0449311377d6960e4cd23326acb7fbcefaded718/libs/annotation/src/lib/annotjson.ts
-
-OCTRA app configuration · IPS-LMU/octra Wiki
-https://github.com/IPS-LMU/octra/wiki/OCTRA-app-configuration
-
-whisper.cpp/models at master · ggerganov/whisper.cpp
-https://github.com/ggerganov/whisper.cpp/tree/master/models
-
-whisper.cpp/models/convert-whisper-to-coreml.py at master · ggerganov/whisper.cpp
-https://github.com/ggerganov/whisper.cpp/blob/master/models/convert-whisper-to-coreml.py
-
-whisper.cpp/include/whisper.h at master · ggerganov/whisper.cpp
-https://github.com/ggerganov/whisper.cpp/blob/master/include/whisper.h
-
-huggingface/transformers: 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
-https://github.com/huggingface/transformers
-
-transformers/src/transformers/models/wav2vec2/modeling_wav2vec2.py at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/src/transformers/models/wav2vec2/modeling_wav2vec2.py
-
-transformers/src/transformers/models/audio_spectrogram_transformer/modeling_audio_spectrogram_transformer.py at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/src/transformers/models/audio_spectrogram_transformer/modeling_audio_spectrogram_transformer.py
-
-transformers/src/transformers/models/t5 at main · huggingface/transformers
-https://github.com/huggingface/transformers/tree/main/src/transformers/models/t5
-
-transformers/src/transformers/models/byt5 at main · huggingface/transformers
-https://github.com/huggingface/transformers/tree/main/src/transformers/models/byt5
-
-transformers/src/transformers/models/wav2vec2_phoneme at main · huggingface/transformers
-https://github.com/huggingface/transformers/tree/main/src/transformers/models/wav2vec2_phoneme
-
-transformers/src/transformers/models/wav2vec2_bert/modeling_wav2vec2_bert.py at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/src/transformers/models/wav2vec2_bert/modeling_wav2vec2_bert.py
-
-transformers/src/transformers/models/wav2vec2_bert/modeling_wav2vec2_bert.py at main · huggingface/transformers
-https://github.com/huggingface/transformers/blob/main/src/transformers/models/wav2vec2_bert/modeling_wav2vec2_bert.py
-
-Models - Hugging Face
-https://huggingface.co/models?other=base_model:finetune:facebook%2Fw2v-bert-2.0&p=3&sort=trending
-
-Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers
-https://huggingface.co/blog/fine-tune-w2v2-bert
-
-whisper.cpp/grammars/chess.gbnf at master · ggerganov/whisper.cpp
-https://github.com/ggerganov/whisper.cpp/blob/master/grammars/chess.gbnf
-
-pyf98/owsm_ctc_v3.1_1B · Hugging Face
-https://huggingface.co/pyf98/owsm_ctc_v3.1_1B
+espnet/owsm_ctc_v3.1_1B · Hugging Face
+https://huggingface.co/espnet/owsm_ctc_v3.1_1B
 
 ffmpeg subtitles and audio to video - Google Search
 https://www.google.com/search?q=ffmpeg+subtitles+and+audio+to+video&rlz=1C5GCCM_en&oq=ffmpeg+subtitles+and+audio+to+video&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDkyNDdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
