@@ -78,3 +78,9 @@ categories: [links]
 [MotionCLIP: Exposing Human Motion Generation to CLIP Space](https://arxiv.org/abs/2203.08063),
 [code](https://github.com/GuyTevet/MotionCLIP)
 
+[NB Uttale: A Norwegian Pronunciation Lexicon with Dialect Variation](https://aclanthology.org/2024.lrec-main.1056/)
+<!-- https://github.com/Sprakbanken/nb_uttale No license -->
+
+[WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2408.16532),
+[code]https://github.com/jishengpeng/WavTokenizer)
+
