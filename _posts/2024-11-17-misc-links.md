@@ -95,3 +95,37 @@ categories: [links]
 [MEXMA: Token-level objectives improve sentence representations](https://arxiv.org/abs/2409.12737),
 [code](https://github.com/facebookresearch/mexma),
 [model](https://huggingface.co/facebook/MEXMA)
+
+[edwko/OuteTTS](https://github.com/edwko/OuteTTS)
+
+[Sylber: Syllabic Embedding Representation of Speech from Raw Audio](https://arxiv.org/abs/2410.07168),
+[code](https://github.com/Berkeley-Speech-Group/sylber) (empty)
+
+[Very Attentive Tacotron: Robust and Unbounded Length Generalization in Autoregressive Transformer-Based Text-to-Speech](https://arxiv.org/abs/2410.22179),
+[code](https://github.com/google/sequence-layers/blob/main/examples/very_attentive_tacotron.py)
+
+[Coding Speech through Vocal Tract Kinematics](https://arxiv.org/abs/2406.12998),
+<!-- https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding no license -->
+[model](https://huggingface.co/cheoljun95/Speech-Articulatory-Coding)
+
+[Cross-domain Neural Pitch and Periodicity Estimation](https://arxiv.org/abs/2301.12258),
+[code](https://github.com/interactiveaudiolab/penn)
+
+[maxrmorrison/torchcrepe](https://github.com/maxrmorrison/torchcrepe) --- Pytorch implementation of the CREPE pitch tracker
+
+[A Novel Sampling Scheme for Text- and Image-Conditional Image Synthesis in Quantized Latent Spaces](https://arxiv.org/abs/2211.07292)
+
+[Human Motion Diffusion Model](https://arxiv.org/abs/2209.14916),
+[code](https://github.com/GuyTevet/motion-diffusion-model) --- Uses SMPL-X, so not usably open source.
+
+[HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes](https://arxiv.org/abs/2210.09729),
+[code](https://github.com/Silverster98/HUMANISE) --- Uses SMPL-X.
+
+[Uni3D: Exploring Unified 3D Representation at Scale](https://arxiv.org/abs/2310.06773),
+[code](https://github.com/baaivision/Uni3D)
+
+[allenai/objaverse](https://huggingface.co/datasets/allenai/objaverse) --- Partially open dataset of annotated 3D objects.
+
+[OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654),
+[code](https://github.com/pengsongyou/openscene)
+
