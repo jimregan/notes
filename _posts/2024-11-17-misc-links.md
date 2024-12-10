@@ -84,3 +84,14 @@ categories: [links]
 [WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2408.16532),
 [code]https://github.com/jishengpeng/WavTokenizer)
 
+[High-Fidelity Audio Compression with Improved RVQGAN](https://arxiv.org/abs/2306.06546),
+[code](https://github.com/descriptinc/descript-audio-codec)
+
+[Multi-Stream Transformers](https://arxiv.org/abs/2107.10342)
+
+[Project Aria tools](https://www.projectaria.com/tools/),
+[code](https://github.com/facebookresearch/projectaria_tools)
+
+[MEXMA: Token-level objectives improve sentence representations](https://arxiv.org/abs/2409.12737),
+[code](https://github.com/facebookresearch/mexma),
+[model](https://huggingface.co/facebook/MEXMA)
