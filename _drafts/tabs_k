@@ -109,18 +109,6 @@ https://github.com/lucidrains/x-transformers
 lucidrains/audiolm-pytorch: Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
 https://github.com/lucidrains/audiolm-pytorch
 
-WhenAvailable - Free Group Scheduling Tool
-https://whenavailable.com/reply?sid=T5cX0Vw8yXpblq875eCX&invite=JLyX8fZXobdADtSgFqew
-
-Phonetic transcription with HuggingFace | notes
-https://jimregan.github.io/notes/phonetic/espeak/wav2vec2/huggingface/timestamps/2022/10/18/wav2vec2-phonetic-transcription.html
-
-Getting timestamps on long audio | notes
-https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
-
-jimregan/wav2vec2-xls-r-300m-phoneme-timit · Hugging Face
-https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit
-
 2410.22179
 https://arxiv.org/pdf/2410.22179
 
@@ -129,66 +117,6 @@ https://www.reddit.com/r/panelshow/
 
 Have I Got News For You S68E05 - Jo Brand, Nabil Abdulrashid and Tom Peck : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1ghh5vl/have_i_got_news_for_you_s68e05_jo_brand_nabil/
-
-Getting timestamps on long audio | notes
-https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
-
-Phoneme Recognition with Wav2Vec2
-https://www.kaggle.com/code/jimregan/phoneme-recognition-with-wav2vec2/notebook
-
-DARPA TIMIT Acoustic-Phonetic Continuous Speech
-https://www.kaggle.com/datasets/mfekadu/darpa-timit-acousticphonetic-continuous-speech
-
-philipperemy/timit: The DARPA TIMIT Acoustic-Phonetic Continuous Speech Corpus.
-https://github.com/philipperemy/timit
-
-Extract a dictionary from MFA-aligned TextGrids | notes
-https://jimregan.github.io/notes/textgrid/mfa/2021/10/15/extract-dictionary-from-mfa-textgrids.html
-
-neuralcoref/neuralcoref/neuralcoref.pyx at master · huggingface/neuralcoref
-https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/neuralcoref.pyx
-
-llama.cpp/examples/llava/README.md at master · ggerganov/llama.cpp
-https://github.com/ggerganov/llama.cpp/blob/master/examples/llava/README.md
-
-Overview · spaCy Universe
-https://spacy.io/universe
-
-Coreferee · spaCy Universe
-https://spacy.io/universe/project/coreferee
-
-2024-11-07-set-up-neuralcoref.ipynb - Colab
-https://colab.research.google.com/drive/1MY5A-f3Nhj35ww4m_V-aXou6Dh6D7rkq#scrollTo=yKOYV_spC6PK
-
-Set up neuralcoref | notes
-https://jimregan.github.io/notes/neuralcoref/spacy/2024/11/07/set-up-neuralcoref.html
-
-resuscitative, adj. meanings, etymology and more | Oxford English Dictionary
-https://www.oed.com/dictionary/resuscitative_adj
-
-jimregan/notes
-https://github.com/jimregan/notes?tab=readme-ov-file
-
-Using Matcha with a private repo | notes
-https://jimregan.github.io/notes/matcha/english/private/hsi/2024/10/26/matcha-private-repo.html
-
-Get data from Folkets Swedish-English | notes
-https://jimregan.github.io/notes/folkets/swedish/pronunciation/2024/10/12/folkets.html
-
-jupyter notebook persistence - Google Search
-https://www.google.com/search?q=jupyter+notebook+persistence&rlz=1C5GCCM_en&oq=jupyter+persisten&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgoIBxAAGIAEGKIEMgoICBAAGIAEGKIE0gEINDg3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-discourse.jupyter.org
-https://discourse.jupyter.org/t/saving-state-or-sessions-in-jupyter-notebooks/3907
-
-Persist — A JupyterLab Extension for Persistent Interactions
-https://vdl.sci.utah.edu/blog/2024/05/29/persist/
-
-Quickstart Tutorial | Persist
-https://vdl.sci.utah.edu/persist/docs/getting-started/simple-tutorial
-
-Example Gallery — Vega-Altair 5.5.0dev documentation
-https://altair-viz.github.io/gallery/index.html#example-gallery
 
 A High-Level Grammar of Interactive Graphics | Vega-Lite
 https://vega.github.io/vega-lite/
@@ -222,36 +150,6 @@ https://superuser.com/questions/1312811/ffmpeg-loudnorm-2pass-in-single-line
 
 slhck/ffmpeg-normalize: Audio Normalization for Python/ffmpeg
 https://github.com/slhck/ffmpeg-normalize?tab=readme-ov-file
-
-ffmpeg-normalize/ffmpeg_normalize/_ffmpeg_normalize.py at master · slhck/ffmpeg-normalize
-https://github.com/slhck/ffmpeg-normalize/blob/master/ffmpeg_normalize/_ffmpeg_normalize.py
-
-normalize audio of a directory ffmpeg - Google Search
-https://www.google.com/search?q=normalize+audio+of+a+directory+ffmpeg&rlz=1C5GCCM_en&oq=normalize+audio+of+a+direc&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKAB0gEINzU4NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Normalize a whole folder : r/audioengineering
-https://www.reddit.com/r/audioengineering/comments/gsyiz3/normalize_a_whole_folder/
-
-generate subtitles with word highlighting python - Google Search
-https://www.google.com/search?q=generate+subtitles+with+word+highlighting+python&rlz=1C5GCCM_en&oq=generate+subtitles+with+word+highlighting+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCTE3MTMwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Add subtitles permanently to a video using Python and Moviepy - YouTube
-https://www.youtube.com/watch?v=Zbze7zs8Kyk
-
-The Power of Single-Word Subtitles | by @dl4senses | Medium
-https://medium.com/@didierlacroix/the-power-of-single-word-subtitles-662f8c3891bd
-
-AngelFolio
-https://www.angel1254.com/blog/posts/word-by-word-captions
-
-nattofriends/python-ass: A library for parsing and manipulating Advanced SubStation Alpha subtitle files.
-https://github.com/nattofriends/python-ass
-
-swedish names hedda - Google Search
-https://www.google.com/search?q=swedish+names+hedda&rlz=1C5GCCM_en&oq=swedish+names+hedda&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCDM4MDBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-GuyTevet/MotionCLIP: Official Pytorch implementation of the paper "MotionCLIP: Exposing Human Motion Generation to CLIP Space"
-https://github.com/GuyTevet/MotionCLIP
 
 Aria Data Tools | Aria Data Tools
 https://facebookresearch.github.io/Aria_data_tools/
@@ -328,12 +226,6 @@ https://sssb.se/
 Sprakbanken/nb_uttale at v1
 https://github.com/Sprakbanken/nb_uttale/tree/v1
 
-jerry maguire gif help me help you - Google Search
-https://www.google.com/search?q=jerry+maguire+gif+help+me+help+you&rlz=1C5GCCM_en&oq=jerry+maguire+gif+help&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCggDEAAYgAQYogQyCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQg0NTcxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=wOqHIlxNY1h53M&vssid=_S41EZ7-4FKzVwPAPzdnb-Q0_55
-
-YARN | Help me Help you | Jerry Maguire (1996) | Video gifs by quotes | c5e62915 | 紗
-https://memes.yarn.co/yarn-clip/c5e62915-a837-4af3-a487-682c51a7b25d/gif
-
 Comparative adjectives in Hungarian: -abb [HungarianReference.com > Grammar > Adjectives > Comparative: -abb]
 http://www.hungarianreference.com/Adjectives/Comparative-bb.aspx#google_vignette
 
@@ -357,9 +249,6 @@ https://github.com/Berkeley-Speech-Group/audio_ml_workshop_2023
 
 Berkeley-Speech-Group/SSDM
 https://github.com/Berkeley-Speech-Group/SSDM
-
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/
 
 Vaibhav (VB) Srivastav on X: "Smol TTS keeps getting better! Introducing OuteTTS v0.2 - 500M parameters, multilingual with voice cloning! 🔥 &gt; Multilingual - English, Chinese, Korean &amp; Japanese &gt; Cross platform inference w/ llama.cpp &gt; Zero-shot voice cloning &gt; Trained on 5 Billion audio tokens &gt; Qwen 2.5 https://t.co/N4c4Ukfrhz" / X
 https://x.com/reach_vb/status/1861160122325610900
