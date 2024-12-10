@@ -67,3 +67,8 @@ categories: [links]
 [Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifier](https://arxiv.org/abs/2312.08168),
 [code](https://github.com/ZzZZCHS/Chat-Scene)
 
+[Introduction to ggml](https://huggingface.co/blog/introduction-to-ggml)
+
+[Encode, Tag, Realize: High-Precision Text Editing](https://arxiv.org/abs/1909.01187),
+[code](https://github.com/google-research/lasertagger)
+
