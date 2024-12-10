@@ -72,3 +72,9 @@ categories: [links]
 [Encode, Tag, Realize: High-Precision Text Editing](https://arxiv.org/abs/1909.01187),
 [code](https://github.com/google-research/lasertagger)
 
+[Target Speaker ASR with Whisper](https://arxiv.org/abs/2409.09543)
+<!-- https://github.com/BUTSpeechFIT/TS-ASR-Whisper -->
+
+[MotionCLIP: Exposing Human Motion Generation to CLIP Space](https://arxiv.org/abs/2203.08063),
+[code](https://github.com/GuyTevet/MotionCLIP)
+
