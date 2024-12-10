@@ -79,7 +79,7 @@ categories: [links]
 [code](https://github.com/GuyTevet/MotionCLIP)
 
 [NB Uttale: A Norwegian Pronunciation Lexicon with Dialect Variation](https://aclanthology.org/2024.lrec-main.1056/)
-<!-- https://github.com/Sprakbanken/nb_uttale No license -->
+<!-- https://github.com/Sprakbanken/nb_uttale No licence -->
 
 [WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2408.16532),
 [code]https://github.com/jishengpeng/WavTokenizer)
@@ -105,7 +105,7 @@ categories: [links]
 [code](https://github.com/google/sequence-layers/blob/main/examples/very_attentive_tacotron.py)
 
 [Coding Speech through Vocal Tract Kinematics](https://arxiv.org/abs/2406.12998),
-<!-- https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding no license -->
+<!-- https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding no licence -->
 [model](https://huggingface.co/cheoljun95/Speech-Articulatory-Coding)
 
 [Cross-domain Neural Pitch and Periodicity Estimation](https://arxiv.org/abs/2301.12258),
@@ -128,4 +128,10 @@ categories: [links]
 
 [OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654),
 [code](https://github.com/pengsongyou/openscene)
+
+[Tkd-Alex/WhatsDump](https://github.com/Tkd-Alex/WhatsDump)
+
+[DigitalPhonetics/IMS-Toucan](https://github.com/DigitalPhonetics/IMS-Toucan) --- Controllable and fast Text-to-Speech for over 7000 languages!
+[demo](https://huggingface.co/spaces/Flux9665/MassivelyMultilingualTTS)
+
 
