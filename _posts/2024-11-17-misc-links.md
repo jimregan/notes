@@ -134,4 +134,5 @@ categories: [links]
 [DigitalPhonetics/IMS-Toucan](https://github.com/DigitalPhonetics/IMS-Toucan) --- Controllable and fast Text-to-Speech for over 7000 languages!
 [demo](https://huggingface.co/spaces/Flux9665/MassivelyMultilingualTTS)
 
+[Proceedings of the Second Workshop on Resources and Representations for Under-Resourced Languages and Domains](https://aclanthology.org/2023.resourceful-1.0/)
 
