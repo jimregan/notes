@@ -142,3 +142,5 @@ categories: [links]
 
 [Sprakbanken/g2p-nb](https://github.com/Sprakbanken/g2p-nb)
 
+[SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR](https://ieeexplore.ieee.org/abstract/document/10786377)
+
