@@ -136,3 +136,9 @@ categories: [links]
 
 [Proceedings of the Second Workshop on Resources and Representations for Under-Resourced Languages and Domains](https://aclanthology.org/2023.resourceful-1.0/)
 
+[Bilevel Joint Unsupervised and Supervised Training for Automatic Speech Recognition](https://arxiv.org/abs/2412.08548)
+
+[Sprakbanken/norwegian_orthographic_mapping](https://github.com/Sprakbanken/norwegian_orthographic_mapping) --- script is ASL 2.
+
+[Sprakbanken/g2p-nb](https://github.com/Sprakbanken/g2p-nb)
+
