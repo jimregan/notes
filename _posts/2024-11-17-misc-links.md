@@ -144,3 +144,7 @@ categories: [links]
 
 [SQ-Whisper: Speaker-Querying based Whisper Model for Target-Speaker ASR](https://ieeexplore.ieee.org/abstract/document/10786377)
 
+[Leipzig Glossing Rules](https://www.eva.mpg.de/lingua/pdf/Glossing-Rules.pdf)
+
+[Summary for Hungarian verbs](https://myhunlang.com/wp-content/uploads/2013/09/summary_for_hungarian_verbs1.pdf)
+
