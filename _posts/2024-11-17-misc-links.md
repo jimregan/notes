@@ -148,3 +148,12 @@ categories: [links]
 
 [Summary for Hungarian verbs](https://myhunlang.com/wp-content/uploads/2013/09/summary_for_hungarian_verbs1.pdf)
 
+[brucemiller/LaTeXML](https://github.com/brucemiller/LaTeXML)
+
+[SoCodec: A Semantic-Ordered Multi-Stream Speech Codec for Efficient Language Model Based Text-to-Speech Synthesis](https://arxiv.org/abs/2409.00933),
+[code](https://github.com/hhguo/SoCodec)
+
+[Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
+
+[Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/)
+
