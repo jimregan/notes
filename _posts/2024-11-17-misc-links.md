@@ -157,3 +157,5 @@ categories: [links]
 
 [Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/)
 
+[Lingua Libre language gallery](https://lingualibre.org/LanguagesGallery/)
+
