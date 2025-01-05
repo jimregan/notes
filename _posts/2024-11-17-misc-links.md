@@ -159,3 +159,7 @@ categories: [links]
 
 [Lingua Libre language gallery](https://lingualibre.org/LanguagesGallery/)
 
+[The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language](https://aclanthology.org/2024.naacl-long.43/),
+[code](https://github.com/lingjzhu/clap-ipa)
+
+
