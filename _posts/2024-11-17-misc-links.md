@@ -162,4 +162,17 @@ categories: [links]
 [The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language](https://aclanthology.org/2024.naacl-long.43/),
 [code](https://github.com/lingjzhu/clap-ipa)
 
+[World’s First MIDI Shellcode](https://psi3.ru/blog/swl01u/)
+
+[Einsum in Depth](https://einsum.joelburget.com/)
+
+[serengil/deepface](https://github.com/serengil/deepface)
+
+[Cassette Tape Plays MP3s](https://hackaday.com/2025/01/06/cassette-tape-plays-mp3s/)
+
+[TaoRuijie/ECAPA-TDNN](https://github.com/TaoRuijie/ECAPA-TDNN) --- Unofficial reimplementation of ECAPA-TDNN for speaker recognition
+
+[ARBML/klaam](https://github.com/ARBML/klaam) --- Arabic speech recognition, classification and text-to-speech.
+
+[hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) --- Kokoro 82M parameter model.
 
