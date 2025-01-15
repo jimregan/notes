@@ -176,3 +176,18 @@ categories: [links]
 
 [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) --- Kokoro 82M parameter model.
 
+[NVidia Sana](https://github.com/NVlabs/Sana) --- Now open source (code only, not models)
+
+[Emoji Kitchen](https://emojikitchen.dev/)
+
+[microsoft/phi-4](https://huggingface.co/microsoft/phi-4)
+
+[ByteDance/Sa2VA-8B](https://huggingface.co/ByteDance/Sa2VA-8B) --- Sa2VA is an MLLM capable of question answering, visual prompt understanding, and dense object segmentation at both image and video levels.
+
+[The GAN is dead; long live the GAN! A Modern GAN Baseline](https://arxiv.org/abs/2501.05441)
+<!-- https://github.com/brownvc/R3GAN -->
+
+[Why discrete units](https://alphacephei.com/nsh/2025/01/12/discrete-units.html)
+
+[Ancient Language Learning DESTROYS Modern Methods](https://www.youtube.com/watch?v=yc-JYUqIsI4) --- Clickbait title, but interesting video.
+
