@@ -1,5 +1,5 @@
-Inbox • Direct
-https://www.instagram.com/direct/t/17845647458552890/
+Stories • Instagram
+https://www.instagram.com/stories/universitytimes/
 
 Transcrib3D/finetune/trl_finetune.py at main · ripl/Transcrib3D
 https://github.com/ripl/Transcrib3D/blob/main/finetune/trl_finetune.py
@@ -274,35 +274,35 @@ https://www.instagram.com/
 (2) Home / X
 https://x.com/home
 
-(2) Dean Withers on X: "I WENT OFF on this crazed Trump Supporter😭 https://t.co/3Pgif4ewhE" / X
-https://x.com/itsdeaann/status/1879600377538220070
-
-(2) Senate Judiciary Democrats 🇺🇸 on X: "Pam Bondi: *promises to not politicize the Justice Department* Pam Bondi: *gives a campaign-style stump speech that ends with a MAGA rallying cry* https://t.co/7TlFQFsltn" / X
-https://x.com/JudiciaryDems/status/1879600933468074376
-
-(2) Ted Lieu on X: "TRUTH: The massive fire in Altadena was not a “forest fire.” The fire had nothing to do with forest management or water policy. 3 reasons the fire exploded: 1. Drought-like conditions 2. Very low relative humidity 3. Santa Ana winds reaching 100 mph (Video by Stuart Palley) https://t.co/eISiahSa7m" / X
-https://x.com/tedlieu/status/1879662675933942156
-
-(2) evan loves worf on X: "What a pathetic existence https://t.co/ecrSPb03rH" / X
-https://x.com/esjesjesj/status/1879666699538215199
-
-(2) Bing Bong Bubba on X: "@esjesjesj @CeeHawk I’m watching this right now and I just finished the second episode. To sum up the “Indians” as generally war like and ruthless after this second episode where they literally saved the white woman, man and child multiple times is hilarious. Also, the worst mother fuckers in this" / X
-https://x.com/UncleBubba_88/status/1879709518696730942
-
-(2) Republicans against Trump on X: "Rep. mike Turner says "it's absolutely true" that Russian propaganda has "infected" the GOP: "To the extent that this propaganda takes hold, it makes it more difficult for us to really see this as an authoritarian vs democracy battle,which is what it is” https://t.co/bCd8CTMkmB" / X
-https://x.com/RpsAgainstTrump/status/1879759839968231837
-
-(2) Oversight Committee Democrats on X: "Rep. Foxx: "It's an abomination that you would sign an agreement to let 98% of the people in the administration stay at home and work." Commissioner O'Malley corrects the record: "That's not what I did, Congresswoman." WATCH: https://t.co/BMBTappria" / X
-https://x.com/OversightDems/status/1879581540977365358
-
-(2) Caolan on X: "Some of the loudest explosions I have heard are happening in Kyiv within hours of the British Prime Minister arriving. This is proof that Russia is at war with all of Europe. They are happy to potentially kill the PM. They know he is here. Today needs to be the day Europe https://t.co/y4Cb0A8DbL" / X
-https://x.com/CaolanRob/status/1879839177946149265
-
 (2) Vaibhav (VB) Srivastav on X: "Introducing OuteTTS 0.3 1B &amp; 500M 🔥 &gt; Zero shot voice cloning &gt; Multilingual (en, jp, ko, zh, fr, de) &gt; Trained on 20,000 hours of audio &gt; Powered by OLMo-1B &amp; Qwen 2.5 0.5B &gt; Speed &amp; emotion control &gt; Powered by HF grants 🤗 Open science ftw! https://t.co/Tj3LswgQXC" / X
 https://x.com/reach_vb/status/1879647151145590905
 
 OuteAI/OuteTTS-0.3-1B · Hugging Face
 https://huggingface.co/OuteAI/OuteTTS-0.3-1B
+
+OuteAI (OuteAI)
+https://huggingface.co/OuteAI
+
+OuteAI/OuteTTS-0.3-500M · Hugging Face
+https://huggingface.co/OuteAI/OuteTTS-0.3-500M
+
+app.py · OuteAI/OuteTTS-0.3-1B-Demo at main
+https://huggingface.co/spaces/OuteAI/OuteTTS-0.3-1B-Demo/blob/main/app.py
+
+edwko/OuteTTS: Interface for OuteTTS models.
+https://github.com/edwko/OuteTTS?tab=readme-ov-file
+
+jishengpeng/WavTokenizer: SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling
+https://github.com/jishengpeng/WavTokenizer?tab=readme-ov-file
+
+novateur/WavTokenizer-large-speech-75token · Hugging Face
+https://huggingface.co/novateur/WavTokenizer-large-speech-75token
+
+novateur/WavTokenizer · Hugging Face
+https://huggingface.co/novateur/WavTokenizer
+
+OuteAI/OuteTTS-0.3-500M-GGUF · Hugging Face
+https://huggingface.co/OuteAI/OuteTTS-0.3-500M-GGUF
 
 OuteTTS/outetts/whisper/transcribe.py at main · edwko/OuteTTS
 https://github.com/edwko/OuteTTS/blob/main/outetts/whisper/transcribe.py
@@ -387,5 +387,38 @@ https://github.com/facebookresearch/CPC_audio
 
 New Tab
 chrome://newtab/
+
+Commits · espnet/espnet
+https://github.com/espnet/espnet/commits/master/
+
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls
+
+BEATs Tokenizer Inference by Shikhar-S · Pull Request #6008 · espnet/espnet
+https://github.com/espnet/espnet/pull/6008
+
+BEATs - Google Search
+https://www.google.com/search?q=BEATs&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+Support PyTorch Lightning Trainer in ESPnet2 by pyf98 · Pull Request #5954 · espnet/espnet
+https://github.com/espnet/espnet/pull/5954/files#diff-9eb571a716db3fa014839ef18d0c7d90090def1262f8331ff93c738ce266fb2c
+
+- Added WSJ result by sw005320 · Pull Request #3 · espnet/espnet
+https://github.com/espnet/espnet/pull/3
+
+Implement unified batch decode interface for OWSM-CTC by pyf98 · Pull Request #6007 · espnet/espnet
+https://github.com/espnet/espnet/pull/6007/files#diff-898752e6f0395007092a7640588078c9b6e33ae52ba77be3055b5142792295e5
+
+implemente batch decode for owsm-ctc · espnet/espnet@95dcc72
+https://github.com/espnet/espnet/commit/95dcc722b7c23dad2a7c980b9c3f8e7a453994bf
+
+espnet/owsm_ctc_v3.2_ft_1B · Hugging Face
+https://huggingface.co/espnet/owsm_ctc_v3.2_ft_1B
+
+On the Effects of Heterogeneous Data Sources on Speech-to-TextFoundation Models
+https://arxiv.org/pdf/2406.09282
+
+Fix: Proper error handling for segfaults and CTC alignment errors by esammahdi · Pull Request #39 · MahmoudAshraf97/ctc-forced-aligner
+https://github.com/MahmoudAshraf97/ctc-forced-aligner/pull/39
 
 
