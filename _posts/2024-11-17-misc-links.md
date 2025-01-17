@@ -191,3 +191,8 @@ categories: [links]
 
 [Ancient Language Learning DESTROYS Modern Methods](https://www.youtube.com/watch?v=yc-JYUqIsI4) --- Clickbait title, but interesting video.
 
+[microsoft/Microsoft-3D-Movie-Maker](https://github.com/microsoft/Microsoft-3D-Movie-Maker) --- This is the source code for the original Microsoft 3D Movie Maker released in 1995
+
+[foone/SierraDeathGenerator](https://github.com/foone/SierraDeathGenerator) --- [deathgenerator.com](https://deathgenerator.com/)
+
+
