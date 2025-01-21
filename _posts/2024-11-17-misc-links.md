@@ -195,4 +195,5 @@ categories: [links]
 
 [foone/SierraDeathGenerator](https://github.com/foone/SierraDeathGenerator) --- [deathgenerator.com](https://deathgenerator.com/)
 
+[Sex, Death, and Moral Outrage: remembering Bill Labov](https://www.youtube.com/watch?v=1hPpCD0orCU)
 
