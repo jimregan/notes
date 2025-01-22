@@ -52,3 +52,13 @@ Related:
 
 [What if English actually SOUNDED like this??](https://www.youtube.com/watch?v=4IfbPQgec2M)
 
+[rviz](https://github.com/ros-visualization/rviz) --- ROS 3D Robot Visualizer
+
+[parler-tts](https://huggingface.co/parler-tts),
+[code](https://github.com/huggingface/parler-tts),
+[parler_tts_mini_v0.1](https://huggingface.co/parler-tts/parler_tts_mini_v0.1),
+
+[HCI-LAB-UGSPEECHDATA/speech_data_ghana_ug](https://github.com/HCI-LAB-UGSPEECHDATA/speech_data_ghana_ug) --- The dataset comprises of 5000 hours speech corpus in Akan, Ewe, Dagbani, Daagare, and Ikposo. Each language includes 1000 hours of audio speech from indigenous speakers of the language and 100 hours of transcription.
+
+[001 - Hungarian short narrative A0](https://www.youtube.com/watch?app=desktop&v=G3jdyzSmNNA&list=PLlUFqz3WqFzr56S7ejSuUNfSyS08d2KSJ&index=1)
+
