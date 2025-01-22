@@ -200,3 +200,8 @@ categories: [links]
 [ReferIt3D: Neural Listeners for Fine-Grained 3D Object Identification in Real-World Scenes](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460409.pdf),
 [code](https://github.com/referit3d/referit3d)
 
+[3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981),
+[code](https://github.com/UMass-Foundation-Model/3D-LLM)
+
+[SIMS: Simulating Human-Scene Interactions with Real World Script Planning](https://arxiv.org/abs/2411.19921)
+
