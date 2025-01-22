@@ -96,4 +96,11 @@ Related:
 [FaceFormer: Speech-Driven 3D Facial Animation with Transformers](https://arxiv.org/abs/2112.05329),
 [code](https://github.com/EvelynFan/FaceFormer) --- Depends on Max Planck stuff, so probably not useable.
 
+[ACE: All-round Creator and Editor Following Instructions via Diffusion Transformer](https://arxiv.org/abs/2410.00086),
+[model](https://huggingface.co/scepter-studio/ACE-0.6B-512px),
+[code](https://github.com/ali-vilab/ACE)
+
+[modelscope/scepter](https://github.com/modelscope/scepter) --- SCEPTER is an open-source framework used for training, fine-tuning, and inference with generative models.
+
+[TTS-Transducer: End-to-End Speech Synthesis with Neural Transducer](https://arxiv.org/abs/2501.06320)
 
