@@ -104,3 +104,11 @@ Related:
 
 [TTS-Transducer: End-to-End Speech Synthesis with Neural Transducer](https://arxiv.org/abs/2501.06320)
 
+[rusq/slackdump](https://github.com/rusq/slackdump)
+
+[black-forest-labs/flux](https://github.com/black-forest-labs/flux) --- Official inference repo for FLUX.1 models.
+[open model](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
+
+[Investigation of Whisper ASR Hallucinations Induced by Non-Speech Audio](https://arxiv.org/abs/2501.11378),
+[code](https://github.com/DSP-AGH/ICASSP2025_Whisper_Hallucination)
+
