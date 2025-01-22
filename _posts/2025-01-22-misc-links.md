@@ -38,3 +38,17 @@ Hakarps kyrka: [audio](https://commons.wikimedia.org/wiki/File:Hakarps_kyrka.ogg
 
 [SEL-BALD: Deep Bayesian Active Learning for Selective Labeling with Instance Rejection](https://nips.cc/virtual/2024/poster/93351),
 [OpenReview](https://openreview.net/forum?id=tDMTwto6jv)
+
+[Theoretical Foundations of Deep Selective State-Space Models](https://nips.cc/virtual/2024/poster/96743),
+[OpenReview](https://openreview.net/forum?id=3SzrqwupUx)
+
+[Task-recency bias strikes back: Adapting covariances in Exemplar-Free Class Incremental Learning](https://nips.cc/virtual/2024/poster/96596),
+[OpenReview](https://openreview.net/forum?id=5H4l37IsZ8)
+<!-- not open source: https://github.com/grypesc/AdaGauss -->
+
+Related:
+[Class-Incremental Learning: Survey and Performance Evaluation on Image Classification](https://ieeexplore.ieee.org/abstract/document/9915459),
+[code](https://github.com/mmasana/FACIL)
+
+[What if English actually SOUNDED like this??](https://www.youtube.com/watch?v=4IfbPQgec2M)
+
