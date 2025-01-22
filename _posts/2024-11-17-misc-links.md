@@ -205,3 +205,33 @@ categories: [links]
 
 [SIMS: Simulating Human-Scene Interactions with Real World Script Planning](https://arxiv.org/abs/2411.19921)
 
+[Speak, Read and Prompt: High-Fidelity Text-to-Speech with Minimal Supervision](https://arxiv.org/abs/2302.03540),
+[pytorch implementation](https://github.com/lucasnewman/spear-tts-pytorch)
+
+[nGPT: Normalized Transformer with Representation Learning on the Hypersphere](https://arxiv.org/abs/2410.01131),
+[code](https://github.com/NVIDIA/ngpt),
+[lucidrains](https://github.com/lucidrains/nGPT-pytorch)
+
+[LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias](https://arxiv.org/abs/2410.17242),
+[lucidrains](https://github.com/lucidrains/lvsm-pytorch)
+
+[Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/abs/2310.01889),
+[lucidrains](https://github.com/lucidrains/ring-attention-pytorch)
+
+[Spline-based Transformers](https://la.disneyresearch.com/wp-content/uploads/SBT.pdf),
+[lucidrains](https://github.com/lucidrains/spline-based-transformer)
+
+[zakaton/Pink-Trombone](https://github.com/zakaton/Pink-Trombone) --- A programmable version of Neil Thapen's Pink Trombone
+
+[maxrmorrison/torchcrepe](https://github.com/maxrmorrison/torchcrepe) --- Pytorch implementation of the CREPE pitch tracker
+
+[Sylber: Syllabic Embedding Representation of Speech from Raw Audio](https://arxiv.org/abs/2410.07168),
+[code](https://github.com/Berkeley-Speech-Group/sylber)
+
+[IPS-LMU/octra](https://github.com/IPS-LMU/octra) --- OCTRA is a web-application for the orthographic transcription of audio files.
+
+[espnet/owsm_ctc_v3.1_1B](https://huggingface.co/espnet/owsm_ctc_v3.1_1B)
+
+[interactiveaudiolab/penn](https://github.com/interactiveaudiolab/penn) --- Pitch Estimating Neural Networks (PENN)
+
+<!-- https://github.com/cmu-llab/phonotactic-complexity-across-dialects -->
