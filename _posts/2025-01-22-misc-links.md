@@ -32,3 +32,9 @@ categories: [links]
 Hakarps kyrka: [audio](https://commons.wikimedia.org/wiki/File:Hakarps_kyrka.ogg),
 [revision](https://sv.wikipedia.org/w/index.php?title=Hakarps_kyrka&diff=prev&oldid=14712739) ?
 
+[RandNet-Parareal: a time-parallel PDE solver using Random Neural Networks](https://nips.cc/virtual/2024/poster/96326),
+[OpenReview](https://openreview.net/forum?id=974ojuN0jU),
+[code](https://github.com/Parallel-in-Time-Differential-Equations/RandNet-Parareal)
+
+[SEL-BALD: Deep Bayesian Active Learning for Selective Labeling with Instance Rejection](https://nips.cc/virtual/2024/poster/93351),
+[OpenReview](https://openreview.net/forum?id=tDMTwto6jv)
