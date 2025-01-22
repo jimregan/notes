@@ -17,5 +17,11 @@ categories: [links]
 [Combiner: full attention transformer with sparse computation cost](https://dl.acm.org/doi/10.5555/3540261.3541982),
 [pdf](https://proceedings.neurips.cc/paper/2021/file/bd4a6d0563e0604510989eb8f9ff71f5-Paper.pdf)
 
+[OuteAI/OuteTTS-0.3-500M](https://huggingface.co/OuteAI/OuteTTS-0.3-500M),
+[code](https://github.com/edwko/OuteTTS)
+(1B model is not open)
 
+[An Sgéaluidhe Gaedhealach](https://librivox.org/an-sgealuidhe-gaedhealach-by-douglas-hyde/)
+
+[Diffusion Models and Their Applications](https://mhsung.github.io/kaist-cs492d-fall-2024/)
 
