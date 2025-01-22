@@ -81,3 +81,19 @@ Related:
 [SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound](https://arxiv.org/abs/2405.00233),
 [inference code](https://github.com/haoheliu/SemantiCodec-inference)
 
+[How the RWKV language model works](https://johanwind.github.io/2023/03/23/rwkv_details.html),
+[RWKV_in_150_lines.py](https://github.com/BlinkDL/ChatRWKV/blob/main/RWKV_in_150_lines.py)
+
+[clee704/audiodiff](https://github.com/clee704/audiodiff) --- A commandline tool that compares two audio files and prints the difference
+
+[PyGyat](https://pygyat.vercel.app/docs),
+[code](https://github.com/shamith09/pygyat)
+
+[torch.compile, the missing manual](https://docs.google.com/document/u/0/d/1y5CRfMLdwEoF1nTk9q8qEu1mgMUuUtvhklPKJ2emLU8/mobilebasic)
+
+[Ways to use torch.compile](http://blog.ezyang.com/2024/11/ways-to-use-torch-compile/)
+
+[FaceFormer: Speech-Driven 3D Facial Animation with Transformers](https://arxiv.org/abs/2112.05329),
+[code](https://github.com/EvelynFan/FaceFormer) --- Depends on Max Planck stuff, so probably not useable.
+
+
