@@ -1,0 +1,225 @@
+# text = AN ĠRÁINNEÓG AGUS NA H-AIṪREAĊA NÍṀE.
+# text_standard = AN GHRÁINNEOG AGUS NA NATHRACHA NIMHE.
+# sent_id = 1
+1	AN	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	2	det	_	start_char=6|end_char=8
+2	ĠRÁINNEÓG	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=19
+3	AGUS	agus	CCONJ	Coord	_	5	cc	_	start_char=20|end_char=24
+4	NA	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=25|end_char=27
+5	H-AIṪREAĊA	nathracha	NOUN	Noun	Case=Nom|Definite=Def|Form=HPref|Gender=Fem|Number=Plur	2	conj	_	start_char=28|end_char=37
+6	NÍṀE	nimh	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=38|end_char=43
+87	.	.	PUNCT	.	_	2	punct	_	start_char=43|end_char=44
+
+# text = Ṫáinig an ġráinneóg go dorus pluaise na n-aiṫreaċ níṁe oíḋċe ṡeaca, agus d’ iar sí ḃeiṫ istiġ orṫa.
+# text_standard = Tháinig an ghráinneog go doras pluaise na nathrach nimhe oíche sheaca, agus d'iarr sí bheith istigh orthu.
+# sent_id = 2
+1	Ṫáinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	start_char=46|end_char=53
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	start_char=54|end_char=56
+3	ġráinneóg	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	start_char=57|end_char=67
+4	go	go	ADP	Simp	_	5	case	_	start_char=68|end_char=70
+5	dorus	doras	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=71|end_char=76
+6	pluaise	pluais	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=77|end_char=84
+7	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=85|end_char=87
+8	n-aiṫreaċ	nathair	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|ModernForm=nathrach|Number=Sing	5	nmod	_	start_char=88|end_char=96
+9	níṁe	nimh	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=97|end_char=102
+10	oíḋċe	oíche	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl:tmod	_	start_char=103|end_char=108
+11	ṡeaca	sioc	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	10	nmod	_	start_char=109|end_char=115
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=115|end_char=116
+13	agus	agus	CCONJ	Coord	_	15	cc	_	start_char=117|end_char=121
+14	d’	do	PART	Vb	PartType=Vb	15	mark:prt	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+15	iar	iarr	VERB	VT	Mood=Ind|Tense=Past	1	conj	_	start_char=124|end_char=128
+16	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	15	nsubj	_	start_char=129|end_char=131
+17	ḃeiṫ	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	15	xcomp	_	start_char=132|end_char=138
+18	istiġ	istigh	ADV	Dir	_	17	advmod	_	start_char=139|end_char=145
+19	orṫa	ar	ADP	Prep	Number=Plur|Person=3	17	obl:prep	_	start_char=146|end_char=151
+20	.	.	PUNCT	.	_	1	punct	_	start_char=151|end_char=152
+
+# text = Ligeadar isteach í ó bhí an oíche chomh fuar.
+# sent_id = 3
+1	Ligeadar	lig	VERB	VTI	Mood=Ind|Person=1|Tense=Past	0	root	_	start_char=153|end_char=161
+2	isteach	isteach	ADV	Dir	_	1	advmod	_	start_char=162|end_char=169
+3	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	1	obj	_	start_char=170|end_char=171
+4	ó	ó	SCONJ	Subord	_	5	mark	_	start_char=172|end_char=173
+5	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	advcl	_	start_char=174|end_char=177
+6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	start_char=178|end_char=180
+7	oíche	oíche	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	start_char=181|end_char=186
+8	chomh	chomh	ADV	Its	_	9	mark:prt	_	start_char=187|end_char=192
+9	fuar	fuar	ADJ	Adj	Degree=Pos	5	xcomp:pred	_	start_char=193|end_char=197
+10	.	.	PUNCT	.	_	1	punct	_	start_char=197|end_char=198
+
+# text = Shocraigh sí í féin ar lár an urláir agus rinne sí liarthóid di féin, agus shín sí na deilgne amach mórthimpeall uirthi féin, i dtreo nach bhféadfadh aon duine dul ina gaire.
+# sent_id = 4
+1	Shocraigh	socraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	start_char=199|end_char=208
+2	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	start_char=209|end_char=211
+3	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	1	obj	_	start_char=212|end_char=213
+4	féin	féin	PRON	Ref	Reflex=Yes	3	nmod	_	start_char=214|end_char=218
+5	ar	ar	ADP	Simp	_	6	case	_	start_char=219|end_char=221
+6	lár	lár	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=222|end_char=225
+7	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	start_char=226|end_char=228
+8	urláir	urlár	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	start_char=229|end_char=235
+9	agus	agus	CCONJ	Coord	_	10	cc	_	start_char=236|end_char=240
+10	rinne	déan	VERB	VTI	Mood=Ind|Tense=Past	1	conj	_	start_char=241|end_char=246
+11	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	10	nsubj	_	start_char=247|end_char=249
+12	liarthóid	liarthóid	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	start_char=250|end_char=259
+13	di	do	ADP	Prep	Gender=Fem|Number=Sing|Person=3	10	obl:prep	_	start_char=260|end_char=262
+14	féin	féin	PRON	Ref	Reflex=Yes	13	nmod	_	start_char=263|end_char=267
+15	,	,	PUNCT	Punct	_	17	punct	_	start_char=267|end_char=268
+16	agus	agus	CCONJ	Coord	_	17	cc	_	start_char=269|end_char=273
+17	shín	sín	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	start_char=274|end_char=278
+18	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	17	nsubj	_	start_char=279|end_char=281
+19	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	20	det	_	start_char=282|end_char=284
+20	deilgne	deilgeang	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	17	obj	_	start_char=285|end_char=292
+21	amach	amach	ADV	Dir	_	17	advmod	_	start_char=293|end_char=298
+22	mórthimpeall	mórthimpeall	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	start_char=299|end_char=311
+23	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	17	obl:prep	_	start_char=312|end_char=318
+24	féin	féin	PRON	Ref	Reflex=Yes	23	nmod	_	start_char=319|end_char=323
+25	,	,	PUNCT	Punct	_	27	punct	_	start_char=323|end_char=324
+26	i	i	ADP	Simp	_	27	case	_	start_char=325|end_char=326
+27	dtreo	treo	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	17	obl	_	start_char=327|end_char=332
+28	nach	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	29	mark:prt	_	start_char=333|end_char=337
+29	bhféadfadh	féad	VERB	VTI	Form=Ecl|Mood=Cnd|Polarity=Neg	27	ccomp	_	start_char=338|end_char=348
+30	aon	aon	DET	Det	PronType=Ind	31	det	_	start_char=349|end_char=352
+31	duine	duine	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	start_char=353|end_char=358
+32	dul	dul	NOUN	Noun	VerbForm=Inf	29	xcomp	_	start_char=359|end_char=362
+33	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	34	case	_	start_char=363|end_char=366
+34	gaire	gar	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	32	obl	_	start_char=367|end_char=372
+35	.	.	PUNCT	.	_	1	punct	_	start_char=372|end_char=373
+
+# text = Ní fhéadadh nathair nimhe gabháil thairsti, síos ná suas, ná prioctí é.
+# sent_id = 5
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	start_char=374|end_char=376
+2	fhéadadh	féad	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	start_char=377|end_char=385
+3	nathair	nathair	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=386|end_char=393
+4	nimhe	neamh	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=394|end_char=399
+5	gabháil	gabháil	NOUN	Noun	Gender=Fem	2	xcomp	_	start_char=400|end_char=407
+6	thairsti	thar	ADP	Prep	Form=Len|Number=Sing|Person=3	5	obl:prep	_	start_char=408|end_char=416
+7	,	,	PUNCT	Punct	_	8	punct	_	start_char=416|end_char=417
+8	síos	síos	ADV	Dir	_	2	advmod	_	start_char=418|end_char=422
+9	ná	ná	CCONJ	Coord	_	10	cc	_	start_char=423|end_char=425
+10	suas	suas	ADV	Dir	_	8	conj	_	start_char=426|end_char=430
+11	,	,	PUNCT	Punct	_	12	punct	_	start_char=430|end_char=431
+12	ná	ná	CCONJ	Coord	_	13	cc	_	start_char=432|end_char=434
+13	prioctí	priocadh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=435|end_char=442
+14	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	13	nmod	_	start_char=443|end_char=444
+15	.	.	PUNCT	.	_	2	punct	_	start_char=444|end_char=445
+
+# text = “Féach!” ar siad, “tá an phluais seo beag ár ndóthain againne féin.
+# sent_id = 6
+1	“	"	PUNCT	Punct	_	2	punct	_	start_char=447|end_char=448
+2	Féach	féach	VERB	VTI	Mood=Imp|Number=Sing|Person=2	5	ccomp	_	start_char=448|end_char=453
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=453|end_char=454
+4	”	"	PUNCT	Punct	_	2	punct	_	start_char=454|end_char=455
+5	ar	ar	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	start_char=456|end_char=458
+6	siad	siad	PRON	Pers	Number=Plur|Person=3	5	nsubj	_	start_char=459|end_char=463
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=463|end_char=464
+8	“	"	PUNCT	Punct	_	9	punct	_	start_char=465|end_char=466
+9	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	5	parataxis	_	start_char=466|end_char=468
+10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	start_char=469|end_char=471
+11	phluais	pluais	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	9	nsubj	_	start_char=472|end_char=479
+12	seo	seo	DET	Det	PronType=Dem	11	det	_	start_char=480|end_char=483
+13	beag	beag	ADJ	Adj	Degree=Pos	9	xcomp:pred	_	start_char=484|end_char=488
+14	ár	ár	DET	Det	Number=Plur|Person=1|Poss=Yes	15	nmod:poss	_	start_char=489|end_char=491
+15	ndóthain	dóthain	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	13	obl	_	start_char=492|end_char=500
+16	againne	ag	ADP	Prep	Number=Plur|Person=1|PronType=Emp	13	obl:prep	_	start_char=501|end_char=508
+17	féin	féin	PRON	Ref	Reflex=Yes	16	nmod	_	start_char=509|end_char=513
+18	.	.	PUNCT	.	_	5	punct	_	start_char=513|end_char=514
+
+# text = Ní foláir duitse bheith ag imeacht.”
+# sent_id = 7
+1	Ní	is	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	2	cop	_	start_char=515|end_char=517
+2	foláir	foláir	NOUN	Subst	Number=Sing	0	root	_	start_char=518|end_char=524
+3	duitse	do	ADP	Prep	Number=Sing|Person=2	2	obl:prep	_	start_char=525|end_char=531
+4	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	2	csubj:cop	_	start_char=532|end_char=538
+5	ag	ag	ADP	Simp	_	6	case	_	start_char=539|end_char=541
+6	imeacht	imeacht	NOUN	Noun	VerbForm=Vnoun	4	xcomp	_	start_char=542|end_char=549
+7	.”	.”	PUNCT	.	_	2	punct	_	start_char=549|end_char=551
+
+# text = “Ambaiste,” ar sise, “‘an té leis gur cúng fágadh!’
+# sent_id = 8
+1	“	"	PUNCT	Punct	_	2	punct	_	start_char=553|end_char=554
+2	Ambaiste	Ambaiste	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	5	parataxis	_	start_char=554|end_char=562
+3	,	,	PUNCT	Punct	_	2	punct	_	start_char=562|end_char=563
+4	”	”	PUNCT	Punct	_	2	punct	_	start_char=563|end_char=564
+5	ar	ar	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	start_char=565|end_char=567
+6	sise	sise	PRON	Pers	Gender=Fem|Number=Sing|Person=3|PronType=Emp	5	nsubj	_	start_char=568|end_char=572
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=572|end_char=573
+8	“	"	PUNCT	Punct	_	11	punct	_	start_char=574|end_char=575
+9	‘	‘	PUNCT	Punct	_	11	punct	_	start_char=575|end_char=576
+10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	start_char=576|end_char=578
+11	té	té	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	parataxis	_	start_char=579|end_char=581
+12	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	11	obl:prep	_	start_char=582|end_char=586
+13	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	14	cop	_	start_char=587|end_char=590
+14	cúng	cúng	ADJ	Adj	Degree=Pos	11	acl:relcl	_	start_char=591|end_char=595
+15	fágadh	fág	VERB	VTI	Mood=Ind|Person=0|Tense=Past	11	ccomp	_	start_char=596|end_char=602
+16	!	!	PUNCT	!	_	5	punct	_	start_char=602|end_char=603
+17	’	’	PUNCT	.	_	5	punct	_	start_char=603|end_char=604
+
+# text = Níl aon locht agamsa ar an áit seo.”
+# sent_id = 9
+1	Níl	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	start_char=605|end_char=608
+2	aon	aon	DET	Det	PronType=Ind	3	det	_	start_char=609|end_char=612
+3	locht	locht	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=613|end_char=618
+4	agamsa	ag	ADP	Prep	Number=Sing|Person=1|PronType=Emp	1	obl:prep	_	start_char=619|end_char=625
+5	ar	ar	ADP	Simp	_	7	case	_	start_char=626|end_char=628
+6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	start_char=629|end_char=631
+7	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	start_char=632|end_char=635
+8	seo	seo	DET	Det	PronType=Dem	7	det	_	start_char=636|end_char=639
+9	.	.	PUNCT	.	_	1	punct	_	start_char=639|end_char=640
+10	”	”	PUNCT	.	_	1	punct	_	start_char=640|end_char=641
+
+# text = An Múineadh.
+# sent_id = 10
+1	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	2	det	_	start_char=643|end_char=645
+2	Múineadh	múin	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	start_char=646|end_char=654
+3	.	.	PUNCT	.	_	2	punct	_	start_char=654|end_char=655
+
+# text = “Ní haitheantas go haontíos.”
+# sent_id = 11
+1	“	"	PUNCT	Punct	_	3	punct	_	start_char=657|end_char=658
+2	Ní	is	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	3	cop	_	start_char=658|end_char=660
+3	haitheantas	aitheantas	NOUN	Noun	Case=Nom|Form=HPref|Gender=Masc|Number=Sing	0	root	_	start_char=661|end_char=672
+4	go	go	PART	Ad	PartType=Ad	5	mark:prt	_	start_char=673|end_char=675
+5	haontíos	aontíos	ADJ	Adj	Degree=Pos|Form=HPref	3	advmod	_	start_char=676|end_char=684
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=684|end_char=685
+7	”	”	PUNCT	.	_	3	punct	_	start_char=685|end_char=686
+
+# text = Cheap na nathracha nimhe ná beadh aon bhac orthu an ghráinneog a chur amach pé uair ba mhaith leo é, nó fiacla nimhe a chur inti.
+# sent_id = 12
+1	Cheap	ceap	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	start_char=688|end_char=693
+2	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=694|end_char=696
+3	nathracha	nathair	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	nsubj	_	start_char=697|end_char=706
+4	nimhe	neamh	ADJ	Adj	Degree=Pos	1	xcomp:pred	_	start_char=707|end_char=712
+5	ná	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	6	mark:prt	_	start_char=713|end_char=715
+6	beadh	bí	VERB	VTI	Mood=Cnd|Polarity=Neg	1	ccomp	_	start_char=716|end_char=721
+7	aon	aon	DET	Det	PronType=Ind	8	det	_	start_char=722|end_char=725
+8	bhac	bac	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	6	nsubj	_	start_char=726|end_char=730
+9	orthu	ar	ADP	Prep	Number=Plur|Person=3	6	obl:prep	_	start_char=731|end_char=736
+10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	start_char=737|end_char=739
+11	ghráinneog	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	13	obj	_	start_char=740|end_char=750
+12	a	a	PART	Inf	PartType=Inf	13	mark	_	start_char=751|end_char=752
+13	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	6	xcomp	_	start_char=753|end_char=757
+14	amach	amach	ADV	Dir	_	13	advmod	_	start_char=758|end_char=763
+15	pé	pé	PRON	Idf	PronType=Ind	13	obl	_	start_char=764|end_char=766
+16	uair	uair	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	start_char=767|end_char=771
+17	ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	18	cop	_	start_char=772|end_char=774
+18	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	15	acl:relcl	_	start_char=775|end_char=781
+19	leo	le	ADP	Prep	Number=Plur|Person=3	18	obl:prep	_	start_char=782|end_char=785
+20	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	start_char=786|end_char=787
+21	,	,	PUNCT	Punct	_	26	punct	_	start_char=787|end_char=788
+22	nó	nó	CCONJ	Coord	_	26	cc	_	start_char=789|end_char=791
+23	fiacla	fiacail	NOUN	Noun	Case=Nom|Gender=Fem|Number=Plur	26	obj	_	start_char=792|end_char=798
+24	nimhe	neamh	ADJ	Adj	Case=Nom|Gender=Fem|NounType=NotSlender|Number=Plur	23	amod	_	start_char=799|end_char=804
+25	a	a	PART	Inf	PartType=Inf	26	mark	_	start_char=805|end_char=806
+26	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	13	conj	_	start_char=807|end_char=811
+27	inti	i	ADP	Prep	Gender=Fem|Number=Sing|Person=3	26	obl:prep	_	start_char=812|end_char=816
+28	.	.	PUNCT	.	_	1	punct	_	start_char=816|end_char=817
+
+# text = Níor chuimhníodar riamh ar na deilgní.
+# sent_id = 13
+1	Níor	níor	PART	Vb	PartType=Vb|Polarity=Neg|Tense=Past	2	advmod	_	start_char=818|end_char=822
+2	chuimhníodar	cuimhnigh	VERB	VTI	Form=Len|Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Past	0	root	_	start_char=823|end_char=835
+3	riamh	riamh	ADV	Gn	_	2	advmod	_	start_char=836|end_char=841
+4	ar	ar	ADP	Simp	_	6	case	_	start_char=842|end_char=844
+5	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=845|end_char=847
+6	deilgní	deilgeach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	start_char=848|end_char=855
+7	.	.	PUNCT	.	_	2	punct	_	start_char=855|end_char=856
+
