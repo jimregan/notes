@@ -62,3 +62,8 @@ Related:
 
 [001 - Hungarian short narrative A0](https://www.youtube.com/watch?app=desktop&v=G3jdyzSmNNA&list=PLlUFqz3WqFzr56S7ejSuUNfSyS08d2KSJ&index=1)
 
+[microsoft/GW-BASIC](https://github.com/microsoft/GW-BASIC) --- The original source code of Microsoft GW-BASIC from 1983
+
+[microsoft/MS-DOS](https://github.com/microsoft/MS-DOS) --- The original sources of MS-DOS 1.25, 2.0, and 4.0 for reference purposes
+
+
