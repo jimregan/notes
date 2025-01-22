@@ -229,6 +229,7 @@ categories: [links]
 [code](https://github.com/Berkeley-Speech-Group/sylber)
 
 [IPS-LMU/octra](https://github.com/IPS-LMU/octra) --- OCTRA is a web-application for the orthographic transcription of audio files.
+[Manual](https://clarin.phonetik.uni-muenchen.de/apps/octra/manuals/octra/)
 
 [espnet/owsm_ctc_v3.1_1B](https://huggingface.co/espnet/owsm_ctc_v3.1_1B)
 

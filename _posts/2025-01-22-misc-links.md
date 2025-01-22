@@ -112,3 +112,11 @@ Related:
 [Investigation of Whisper ASR Hallucinations Induced by Non-Speech Audio](https://arxiv.org/abs/2501.11378),
 [data](https://github.com/DSP-AGH/ICASSP2025_Whisper_Hallucination)
 
+[deepseek-r1-webgpu](https://huggingface.co/spaces/webml-community/deepseek-r1-webgpu)
+
+[allenai/OLMo](https://github.com/allenai/OLMo) --- Modeling, training, eval, and inference code for OLMo
+
+[m-a-p/Code-Feedback](https://huggingface.co/datasets/m-a-p/Code-Feedback) --- OpenCodeInterpreter is a family of open-source code generation systems designed to bridge the gap between large language models and advanced proprietary systems like the GPT-4 Code Interpreter. It significantly advances code generation capabilities by integrating execution and iterative refinement functionalities.
+
+[persian-tts-dataset-male](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male)
+
