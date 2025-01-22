@@ -1,33 +1,3 @@
-v5-EagleX-v2-7B-gradio - a Hugging Face Space by RWKV
-https://huggingface.co/spaces/RWKV/v5-EagleX-v2-7B-gradio
-
-🦅 EagleX v2 : Soaring past LLaMA2 7B in both English and Multi-lang evals (RWKV-v5)
-https://blog.rwkv.com/p/336f47bf-d8e9-4174-ac1d-02c6c8a99bc0
-
-Frequently Ask Questions
-https://wiki.rwkv.com/basic/FAQ.html#does-rwkv-support-training-parallelization-why-does-the-retnet-paper-claim-otherwise
-
-BlinkDL/rwkv-6-world · Hugging Face
-https://huggingface.co/BlinkDL/rwkv-6-world
-
-RWKV Architecture
-https://wiki.rwkv.com/advance/architecture.html#how-does-wkv-work-i-want-the-nitty-gritty-where-do-i-find-it
-
-ChatRWKV/RWKV_in_150_lines.py at main · BlinkDL/ChatRWKV · GitHub
-https://github.com/BlinkDL/ChatRWKV/blob/main/RWKV_in_150_lines.py
-
-How the RWKV language model works | The Good Minima
-https://johanwind.github.io/2023/03/23/rwkv_details.html
-
-GitHub - uasi/rwkv-in-150-lines-ex
-https://github.com/uasi/rwkv-in-150-lines-ex
-
-Cherry Blossom Day - Visit Stockholm
-https://www.visitstockholm.com/events/cherry-blossom-day/next/
-
-Cherry Blossom Day - Kungsträdgården
-https://kungstradgarden.stockholm/evenemang/korsbarsblommans-dag/
-
 What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs
 https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/
 
@@ -78,21 +48,6 @@ https://github.com/kamperh/VectorQuantizedCPC
 
 GitHub - kamperh/speech_dtw: Dynamic time warping (DTW) functions for specifically speech alignment.
 https://github.com/kamperh/speech_dtw
-
-[2405.00233] SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound
-https://arxiv.org/abs/2405.00233
-
-SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound
-https://haoheliu.github.io/SemantiCodec/
-
-[2405.00307] Active Learning with Task Adaptation Pre-training for Speech Emotion Recognition
-https://arxiv.org/abs/2405.00307
-
-GitHub - Clearloveyuan/AFTER
-https://github.com/Clearloveyuan/AFTER
-
-Cold-start Active Learning through Self-supervised Language Modeling - ACL Anthology
-https://aclanthology.org/2020.emnlp-main.637/
 
 GitHub - huggingface/lerobot: 🤗 LeRobot: State-of-the-art Machine Learning for Real-World Robotics in Pytorch
 https://github.com/huggingface/lerobot
@@ -763,63 +718,6 @@ https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/blob/main/sample_finetun
 Fine-tune Phi-3 for sentiment analysis
 https://www.kaggle.com/code/lucamassaron/fine-tune-phi-3-for-sentiment-analysis
 
-Fantasy — Author Ben Hale
-https://www.authorbenhale.com/books/fantasy
-
-The Age of Oracles — Author Ben Hale
-https://www.authorbenhale.com/the-age-of-oracles
-
-The Shattered Soul — Author Ben Hale
-https://www.authorbenhale.com/the-shattered-soul
-
-The Second Draeken War — Author Ben Hale
-https://www.authorbenhale.com/the-second-draeken-war
-
-The Master Thief — Author Ben Hale
-https://www.authorbenhale.com/the-master-thief
-
-The Warsworn — Author Ben Hale
-https://www.authorbenhale.com/the-warsworn
-
-The White Mage Saga — Author Ben Hale
-https://www.authorbenhale.com/the-white-mage-saga
-
-The Augment War — Author Ben Hale
-https://www.authorbenhale.com/the-augment-war
-
-The Augmented — Author Ben Hale
-https://www.authorbenhale.com/the-augmented
-
-Foo Fighters didn't approve Donald Trump's use of 'My Hero' at rally
-https://ew.com/foo-fighters-did-not-approve-donald-trump-using-my-hero-at-rally-8700960
-
-Donald Trump responds to fake Taylor Swift endorsement post
-https://ew.com/donald-trump-taylor-swift-fake-endorsement-post-8700472
-
-Open source Dracarys models ignite generative AI fired coding | VentureBeat
-https://venturebeat.com/ai/open-source-dracarys-models-ignite-generative-ai-fired-coding/
-
-abacusai/Dracarys-72B-Instruct · Hugging Face
-https://huggingface.co/abacusai/Dracarys-72B-Instruct
-
-GitHub - clee704/audiodiff: A commandline tool that compares two audio files and prints the difference
-https://github.com/clee704/audiodiff
-
-audiodiff — audiodiff 0.3.0 documentation
-https://audiodiff.readthedocs.io/en/latest/
-
-audio diff - Google Search
-https://www.google.com/search?q=audio+diff&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFEC4YJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyCQgIECMYJxjqAjIJCAkQIxgnGOoCMgkIChAjGCcY6gIyCQgLECMYJxjqAjIJCAwQIxgnGOoCMgkIDRAjGCcY6gIyCQgOECMYJxjqAtIBBi0xajBqN6gCD7ACAQ&client=ms-android-motorola-rev2&sourceid=chrome-mobile&ie=UTF-8
-
-comparison - Compare two audio files and find cut - Stack Overflow
-https://stackoverflow.com/questions/41676925/compare-two-audio-files-and-find-cut
-
-pattern matching - FFT to compare two audio Files - Stack Overflow
-https://stackoverflow.com/questions/29146198/fft-to-compare-two-audio-files
-
-Google Code Archive - Long-term storage for Google Code Project Hosting.
-https://code.google.com/archive/p/musicip-libofa/
-
 GitHub - clement-pages/gryannote: Provide Gradio custom components to make the diarization-based audio labeling process easier and faster.
 https://github.com/clement-pages/gryannote
 
@@ -924,12 +822,6 @@ https://azure.microsoft.com/en-us/products/cosmos-db
 
 BAAI/bge-m3 · Hugging Face
 https://huggingface.co/BAAI/bge-m3
-
-'The Rings of Power' Season 2 Release Schedule: When Do New Episodes Come Out?
-https://www.cosmopolitan.com/entertainment/tv/a61975969/the-rings-of-power-season-2-release-schedule/
-
-‘The Rings of Power’: Why Is Celeborn Not in the Series?
-https://www.cosmopolitan.com/entertainment/tv/a61996072/the-rings-of-power-why-is-celeborn-not-in-the-show/
 
 Supported NumPy features — Numba 0.52.0.dev0+274.g626b40e-py3.7-linux-x86_64.egg documentation
 https://numba.pydata.org/numba-doc/dev/reference/numpysupported.html
@@ -1209,12 +1101,6 @@ https://github.com/ml-explore/mlx-examples/tree/main/whisper/mlx_whisper
 
 mlx-examples/t5 at main · ml-explore/mlx-examples · GitHub
 https://github.com/ml-explore/mlx-examples/tree/main/t5
-
-My invoices | SSSB
-https://sssb.se/en/my-pages/my-invoices/
-
-Aptusportal 8.8.2
-https://sssb.aptustotal.se/AptusPortal/CustomerBooking/BookingCalendar?bookingGroupId=9&passDate=29/09/2024&overviewOffsetMonth=0
 
 GitHub - QwenLM/Qwen2-VL: Qwen2-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.
 https://github.com/QwenLM/Qwen2-VL
@@ -1636,12 +1522,6 @@ https://clarin.phonetik.uni-muenchen.de/apps/octra/manuals/octra/
 GitHub - IPS-LMU/octra: OCTRA is a web-application for the orthographic transcription of audio files.
 https://github.com/IPS-LMU/octra
 
-My invoices | SSSB
-https://sssb.se/en/my-pages/my-invoices/
-
-Aptusportal 8.8.2
-https://sssb.aptustotal.se/AptusPortal/CustomerBooking/BookingCalendar?bookingGroupId=8&passDate=03/11/2024&overviewOffsetMonth=0
-
 Introducing the First AMD 1B Language Models: AMD OLMo
 https://www.amd.com/en/developer/resources/technical-articles/introducing-the-first-amd-1b-language-model.html
 
@@ -1669,15 +1549,6 @@ https://arxiv.org/abs/2410.00086
 scepter-studio/ACE-0.6B-512px · Hugging Face
 https://huggingface.co/scepter-studio/ACE-0.6B-512px
 
-Intel Spots A 3888.9% Performance Improvement In The Linux Kernel From One Line Of Code - Phoronix
-https://www.phoronix.com/news/Intel-Linux-3888.9-Performance
-
-Aptusportal 8.8.2
-https://sssb.aptustotal.se/AptusPortal/CustomerBooking/BookingCalendar?bookingGroupId=9&passDate=10/11/2024&overviewOffsetMonth=0
-
-TV Listings | TV Guide
-https://www.tvguide.co.uk/?view=grid&hour=23
-
 Introducing hertz-dev - Standard Intelligence
 https://si.inc/hertz-dev/
 
@@ -1689,12 +1560,6 @@ https://github.com/juice500ml/finetune_owsm/blob/main/finetune.py
 
 wav2gloss/fieldwork · Datasets at Hugging Face
 https://huggingface.co/datasets/wav2gloss/fieldwork
-
-"Minifat" | Systembolaget
-https://www.systembolaget.se/sortiment/?q=Minifat
-
-Budejovicky Budvar N.P Original Czech Lager | Systembolaget
-https://www.systembolaget.se/produkt/ol/budejovicky-budvar-n-p-8887906/
 
 Nikita Hand: Conor McGregor lashes out in vile online rant after losing civil rape case - SundayWorld.com
 https://m.sundayworld.com/news/irish-news/conor-mcgregor-lashes-out-in-vile-online-rant-after-losing-civil-rape-case/a1541601493.html
@@ -1806,51 +1671,6 @@ https://docs.vllm.ai/en/latest/design/input_processing/input_processing_pipeline
 
 Adding a New Model — vLLM
 https://docs.vllm.ai/en/latest/models/adding_model.html#adding-a-new-model
-
-PyGyat - Python with rizz
-https://pygyat.vercel.app/docs
-
-GitHub - mathialo/bython: Python with braces. Because python is awesome, but whitespace is awful.
-https://github.com/mathialo/bython
-
-Ways to use torch.compile : ezyang’s blog
-http://blog.ezyang.com/2024/11/ways-to-use-torch-compile/
-
-torch.compile, the missing manual
-https://docs.google.com/document/u/0/d/1y5CRfMLdwEoF1nTk9q8qEu1mgMUuUtvhklPKJ2emLU8/mobilebasic#heading=h.ivdr7fmrbeab
-
-2024 End-of-Year Review: Open Source AI Definition v1.0 – Open Source Initiative
-https://opensource.org/blog/2024-end-of-year-review-open-source-ai-definition-v1-0
-
-The Open Source AI Definition – 1.0 – Open Source Initiative
-https://opensource.org/ai/open-source-ai-definition
-
-Answers to frequently asked questions - HackMD
-https://hackmd.io/@opensourceinitiative/osaid-faq
-
-Finally, a Replacement for BERT: Introducing ModernBERT
-https://huggingface.co/blog/modernbert
-
-answerdotai/ModernBERT-base · Hugging Face
-https://huggingface.co/answerdotai/ModernBERT-base
-
-Israeli minister lauds Sweden's announcement of end to funding of UNRWA | The Times of Israel
-https://www.timesofisrael.com/liveblog_entry/israeli-minister-lauds-swedens-announcement-of-end-to-funding-of-unrwa/
-
-Israeli security source reportedly says Jews behind torching of West Bank mosque | The Times of Israel
-https://www.timesofisrael.com/liveblog_entry/israeli-security-source-reportedly-says-jews-behind-torching-of-west-bank-mosque/
-
-US envoys arrive in Syria for talks with new Islamist rulers about country's future | The Times of Israel
-https://www.timesofisrael.com/liveblog-december-20-2024/
-
-RESOURCEFUL-2025 | resourceful-2025
-https://resourceful-workshop.github.io/resourceful-2025/dates.html
-
-UTC to Stockholm Converter - Convert Universal Time to Stockholm, Sweden Time - World Time Buddy
-https://www.worldtimebuddy.com/utc-to-sweden-stockholm
-
-ChatGPT
-https://chatgpt.com/
 
 Hungarian Electronic Library (MEK)
 https://mek.oszk.hu/keresesek/keresesf.phtml?formatum=MP3
