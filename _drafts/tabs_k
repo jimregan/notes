@@ -22,14 +22,20 @@ https://github.com/microsoft/MMdnn?tab=readme-ov-file
 Pull requests · microsoft/MMdnn
 https://github.com/microsoft/MMdnn/pulls?page=2&q=is%3Apr+is%3Aclosed
 
-1. Add tf slim resnet_v1_101 model into examples. · microsoft/MMdnn@4e05f1c
-https://github.com/Microsoft/MMdnn/commit/4e05f1c669583d488c966526d56e956b8f71daf7
+Speech-Articulatory-Coding/sparc at main · Berkeley-Speech-Group/Speech-Articulatory-Coding
+https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding/tree/main/sparc
 
-coding speech through vocal tract kinematics - Google Search
-https://www.google.com/search?q=coding+speech+through+vocal+tract+kinematics&rlz=1C5GCCM_en&oq=Coding+Speech+through+Vocal+Tract+Kinematics&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYhgMYgAQYigUyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogTSAQc0OTRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+interactiveaudiolab/penn: Pitch Estimating Neural Networks (PENN)
+https://github.com/interactiveaudiolab/penn
 
-Vocal Tract Visualization github - Google Search
-https://www.google.com/search?q=Vocal+Tract+Visualization+github&sca_esv=e936ada1b37f2909&rlz=1C5GCCM_en&sxsrf=ADLYWII1SVq2A9LsldLgrGGXvoWsXWXrFw%3A1730392828978&ei=_LIjZ5GoO-q9wPAPqsLi0AQ&ved=0ahUKEwiRlpLPh7mJAxXqHhAIHSqhGEoQ4dUDCBA&uact=5&oq=Vocal+Tract+Visualization+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiIFZvY2FsIFRyYWN0IFZpc3VhbGl6YXRpb24gZ2l0aHViMgUQIRigAUjODFBlWJ8KcAF4AZABAJgBa6ABwASqAQM2LjG4AQPIAQD4AQGYAgigAt0EwgIKEAAYsAMY1gQYR8ICCBAAGIAEGKIEwgIHECEYoAEYCpgDAIgGAZAGCJIHAzcuMaAHhg4&sclient=gws-wiz-serp
+maxrmorrison/torchcrepe: Pytorch implementation of the CREPE pitch tracker
+https://github.com/maxrmorrison/torchcrepe
+
+SPARC
+https://berkeley-speech-group.github.io/sparc-demo/
+
+paul-krug/visual-vocal-learning: Artificial Vocal Learning
+https://github.com/paul-krug/visual-vocal-learning
 
 zakaton/Pink-Trombone: A programmable version of Neil Thapen's Pink Trombone
 https://github.com/zakaton/Pink-Trombone
@@ -39,24 +45,6 @@ https://github.com/HidekiKawahara/SparkNG/blob/master/LICENSE.txt
 
 VocalTractLab
 https://www.vocaltractlab.de/index.php?page=vocaltractlab-download
-
-Web-based-vocoder
-https://github.com/Web-based-vocoder
-
-Speech-Articulatory-Coding/sparc/block.py at main · Berkeley-Speech-Group/Speech-Articulatory-Coding
-https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding/blob/main/sparc/block.py
-
-interactiveaudiolab/penn: Pitch Estimating Neural Networks (PENN)
-https://github.com/interactiveaudiolab/penn
-
-maxrmorrison/torchcrepe: Pytorch implementation of the CREPE pitch tracker
-https://github.com/maxrmorrison/torchcrepe?tab=readme-ov-file
-
-microsoft/MMdnn: MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
-https://github.com/microsoft/MMdnn?tab=readme-ov-file#conversion
-
-Berkeley-Speech-Group/Speech-Articulatory-Coding
-https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding
 
 2211.07292
 https://arxiv.org/pdf/2211.07292
@@ -91,8 +79,8 @@ https://github.com/lucidrains/x-transformers
 lucidrains/audiolm-pytorch: Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch
 https://github.com/lucidrains/audiolm-pytorch
 
-2410.22179
-https://arxiv.org/pdf/2410.22179
+sequence-layers/examples/very_attentive_tacotron.py at main · google/sequence-layers
+https://github.com/google/sequence-layers/blob/main/examples/very_attentive_tacotron.py
 
 A High-Level Grammar of Interactive Graphics | Vega-Lite
 https://vega.github.io/vega-lite/
@@ -118,28 +106,10 @@ https://github.com/Berkeley-Speech-Group
 Berkeley-Speech-Group/sylber: Sylber: Syllabic Embedding Representation of Speech from Raw Audio
 https://github.com/Berkeley-Speech-Group/sylber
 
-[2410.07168] Sylber: Syllabic Embedding Representation of Speech from Raw Audio
-https://arxiv.org/abs/2410.07168
-
-PWVD-Pitch-Tracker/ppt.py at main · Berkeley-Speech-Group/PWVD-Pitch-Tracker
-https://github.com/Berkeley-Speech-Group/PWVD-Pitch-Tracker/blob/main/ppt.py
+Berkeley-Speech-Group/PWVD-Pitch-Tracker: The implementation of PWVD Pitch Tracker (PPT)
+https://github.com/Berkeley-Speech-Group/PWVD-Pitch-Tracker
 
 Berkeley-Speech-Group/audio_ml_workshop_2023: A tutorial for working with self-supervised representations and audio data
 https://github.com/Berkeley-Speech-Group/audio_ml_workshop_2023
-
-Berkeley-Speech-Group/SSDM
-https://github.com/Berkeley-Speech-Group/SSDM
-
-Vaibhav (VB) Srivastav on X: "Smol TTS keeps getting better! Introducing OuteTTS v0.2 - 500M parameters, multilingual with voice cloning! 🔥 &gt; Multilingual - English, Chinese, Korean &amp; Japanese &gt; Cross platform inference w/ llama.cpp &gt; Zero-shot voice cloning &gt; Trained on 5 Billion audio tokens &gt; Qwen 2.5 https://t.co/N4c4Ukfrhz" / X
-https://x.com/reach_vb/status/1861160122325610900
-
-OuteAI (OuteAI)
-https://huggingface.co/OuteAI
-
-OuteAI/OuteTTS-0.1-350M · Hugging Face
-https://huggingface.co/OuteAI/OuteTTS-0.1-350M
-
-2408.16532
-https://arxiv.org/pdf/2408.16532
 
 
