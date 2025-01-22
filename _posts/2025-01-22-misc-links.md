@@ -12,4 +12,10 @@ categories: [links]
 [desktop app](https://github.com/bytedance/UI-TARS-desktop),
 [model](https://huggingface.co/bytedance-research/UI-TARS-72B-DPO)
 
+[Swedish terms with IPA pronunciation](https://en.wiktionary.org/wiki/Category:Swedish_terms_with_IPA_pronunciation)
+
+[Combiner: full attention transformer with sparse computation cost](https://dl.acm.org/doi/10.5555/3540261.3541982),
+[pdf](https://proceedings.neurips.cc/paper/2021/file/bd4a6d0563e0604510989eb8f9ff71f5-Paper.pdf)
+
+
 
