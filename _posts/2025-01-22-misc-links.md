@@ -25,3 +25,10 @@ categories: [links]
 
 [Diffusion Models and Their Applications](https://mhsung.github.io/kaist-cs492d-fall-2024/)
 
+[HidekiKawahara/SparkNG](https://github.com/HidekiKawahara/SparkNG) --- MATLAB real-time/interactive speech tools. This series is obsolete. SP3ARK is the up-to-date series (will be).
+
+[VocalTractLab](https://www.vocaltractlab.de/index.php?page=vocaltractlab-download)
+
+Hakarps kyrka: [audio](https://commons.wikimedia.org/wiki/File:Hakarps_kyrka.ogg),
+[revision](https://sv.wikipedia.org/w/index.php?title=Hakarps_kyrka&diff=prev&oldid=14712739) ?
+
