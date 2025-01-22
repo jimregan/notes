@@ -66,4 +66,18 @@ Related:
 
 [microsoft/MS-DOS](https://github.com/microsoft/MS-DOS) --- The original sources of MS-DOS 1.25, 2.0, and 4.0 for reference purposes
 
+[Standard-Intelligence/hertz-dev](https://github.com/Standard-Intelligence/hertz-dev) --- first base model for full-duplex conversational audio
+
+[wav2gloss/fieldwork](https://huggingface.co/datasets/wav2gloss/fieldwork) --- Mostly open, but includes closed data
+
+[juice500ml/finetune_owsm](https://github.com/juice500ml/finetune_owsm)
+
+[vllm-project/vllm](https://github.com/vllm-project/vllm) --- A high-throughput and memory-efficient inference and serving engine for LLMs
+
+[espnet - Phoneme Recognition with IPAPack](https://github.com/espnet/espnet/pull/5966)
+
+[Active Learning with Task Adaptation Pre-training for Speech Emotion Recognition](https://arxiv.org/abs/2405.00307)
+
+[SemantiCodec: An Ultra Low Bitrate Semantic Audio Codec for General Sound](https://arxiv.org/abs/2405.00233),
+[inference code](https://github.com/haoheliu/SemantiCodec-inference)
 
