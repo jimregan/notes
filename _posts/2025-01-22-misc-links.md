@@ -110,5 +110,5 @@ Related:
 [open model](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
 
 [Investigation of Whisper ASR Hallucinations Induced by Non-Speech Audio](https://arxiv.org/abs/2501.11378),
-[code](https://github.com/DSP-AGH/ICASSP2025_Whisper_Hallucination)
+[data](https://github.com/DSP-AGH/ICASSP2025_Whisper_Hallucination)
 
