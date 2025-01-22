@@ -197,3 +197,6 @@ categories: [links]
 
 [Sex, Death, and Moral Outrage: remembering Bill Labov](https://www.youtube.com/watch?v=1hPpCD0orCU)
 
+[ReferIt3D: Neural Listeners for Fine-Grained 3D Object Identification in Real-World Scenes](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460409.pdf),
+[code](https://github.com/referit3d/referit3d)
+
