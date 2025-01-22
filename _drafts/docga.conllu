@@ -1,40 +1,36 @@
-# text = 26.
-# sent_id = 0
-1	26	26	NUM	Num	_	0	root	_	start_char=0|end_char=2
-2	.	.	PUNCT	.	_	1	punct	_	start_char=2|end_char=3
-
-# text = — AN GHRÁINNEOG AGUS NA NATHRACHA NIMHE.
+# text = AN ĠRÁINNEÓG AGUS NA H-AIṪREAĊA NÍṀE.
+# text_standard = AN GHRÁINNEOG AGUS NA NATHRACHA NIMHE.
 # sent_id = 1
-1	—	—	PUNCT	Punct	_	3	punct	_	start_char=4|end_char=5
-2	AN	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	start_char=6|end_char=8
-3	GHRÁINNEOG	grbanneagh	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=19
-4	AGUS	agus	CCONJ	Coord	_	6	cc	_	start_char=20|end_char=24
-5	NA	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	6	det	_	start_char=25|end_char=27
-6	NATHRACHA	nathracha	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	3	conj	_	start_char=28|end_char=37
-7	NIMHE	nimhe	ADJ	Adj	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	start_char=38|end_char=43
-8	.	.	PUNCT	.	_	3	punct	_	start_char=43|end_char=44
+1	AN	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	2	det	_	start_char=6|end_char=8
+2	ĠRÁINNEÓG	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=19
+3	AGUS	agus	CCONJ	Coord	_	5	cc	_	start_char=20|end_char=24
+4	NA	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	start_char=25|end_char=27
+5	H-AIṪREAĊA	nathracha	NOUN	Noun	Case=Nom|Definite=Def|Form=HPref|Gender=Fem|Number=Plur	2	conj	_	start_char=28|end_char=37
+6	NÍṀE	nimh	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=38|end_char=43
+87	.	.	PUNCT	.	_	2	punct	_	start_char=43|end_char=44
 
-# text = Tháinig an ghráinneog go doras pluaise na nathrach nimhe oíche sheaca, agus d'iarr sí bheith istigh orthu.
+# text = Ṫáinig an ġráinneóg go dorus pluaise na n-aiṫreaċ níṁe oíḋċe ṡeaca, agus d’ iar sí ḃeiṫ istiġ orṫa.
+# text_standard = Tháinig an ghráinneog go doras pluaise na nathrach nimhe oíche sheaca, agus d'iarr sí bheith istigh orthu.
 # sent_id = 2
-1	Tháinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	start_char=46|end_char=53
+1	Ṫáinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	start_char=46|end_char=53
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	start_char=54|end_char=56
-3	ghráinneog	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	start_char=57|end_char=67
+3	ġráinneóg	gráinneog	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	start_char=57|end_char=67
 4	go	go	ADP	Simp	_	5	case	_	start_char=68|end_char=70
-5	doras	doras	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=71|end_char=76
-6	pluaise	pluas	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=77|end_char=84
+5	dorus	doras	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	start_char=71|end_char=76
+6	pluaise	pluais	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=77|end_char=84
 7	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	8	det	_	start_char=85|end_char=87
-8	nathrach	nathair	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|NounType=Weak|Number=Plur	5	nmod	_	start_char=88|end_char=96
-9	nimhe	neamh	ADJ	Adj	Degree=Pos	1	advmod	_	start_char=97|end_char=102
-10	oíche	oíche	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl:tmod	_	start_char=103|end_char=108
-11	sheaca	se	ADP	Prep	Form=Len|Number=Sing|Person=3	10	obl:prep	_	start_char=109|end_char=115
+8	n-aiṫreaċ	nathair	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|ModernForm=nathrach|Number=Sing	5	nmod	_	start_char=88|end_char=96
+9	níṁe	nimh	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=97|end_char=102
+10	oíḋċe	oíche	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl:tmod	_	start_char=103|end_char=108
+11	ṡeaca	sioc	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	10	nmod	_	start_char=109|end_char=115
 12	,	,	PUNCT	Punct	_	15	punct	_	start_char=115|end_char=116
 13	agus	agus	CCONJ	Coord	_	15	cc	_	start_char=117|end_char=121
-14	d'	do	PART	Vb	PartType=Vb	15	mark:prt	_	start_char=122|end_char=124
-15	iarr	iarr	VERB	VT	Mood=Ind|Tense=Past	1	conj	_	start_char=124|end_char=128
+14	d’	do	PART	Vb	PartType=Vb	15	mark:prt	_	SpaceAfter=Yes|CorrectSpaceAfter=No
+15	iar	iarr	VERB	VT	Mood=Ind|Tense=Past	1	conj	_	start_char=124|end_char=128
 16	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	15	nsubj	_	start_char=129|end_char=131
-17	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	15	xcomp	_	start_char=132|end_char=138
-18	istigh	istigh	ADV	Dir	_	17	advmod	_	start_char=139|end_char=145
-19	orthu	ar	ADP	Prep	Number=Plur|Person=3	17	obl:prep	_	start_char=146|end_char=151
+17	ḃeiṫ	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	15	xcomp	_	start_char=132|end_char=138
+18	istiġ	istigh	ADV	Dir	_	17	advmod	_	start_char=139|end_char=145
+19	orṫa	ar	ADP	Prep	Number=Plur|Person=3	17	obl:prep	_	start_char=146|end_char=151
 20	.	.	PUNCT	.	_	1	punct	_	start_char=151|end_char=152
 
 # text = Ligeadar isteach í ó bhí an oíche chomh fuar.
@@ -111,7 +107,7 @@
 1	“	"	PUNCT	Punct	_	2	punct	_	start_char=447|end_char=448
 2	Féach	féach	VERB	VTI	Mood=Imp|Number=Sing|Person=2	5	ccomp	_	start_char=448|end_char=453
 3	!	!	PUNCT	Punct	_	2	punct	_	start_char=453|end_char=454
-4	”	”	PUNCT	Punct	_	2	punct	_	start_char=454|end_char=455
+4	”	"	PUNCT	Punct	_	2	punct	_	start_char=454|end_char=455
 5	ar	ar	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	start_char=456|end_char=458
 6	siad	siad	PRON	Pers	Number=Plur|Person=3	5	nsubj	_	start_char=459|end_char=463
 7	,	,	PUNCT	Punct	_	9	punct	_	start_char=463|end_char=464
