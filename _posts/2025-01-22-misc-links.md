@@ -118,5 +118,28 @@ Related:
 
 [m-a-p/Code-Feedback](https://huggingface.co/datasets/m-a-p/Code-Feedback) --- OpenCodeInterpreter is a family of open-source code generation systems designed to bridge the gap between large language models and advanced proprietary systems like the GPT-4 Code Interpreter. It significantly advances code generation capabilities by integrating execution and iterative refinement functionalities.
 
-[persian-tts-dataset-male](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male)
+[persian-tts-dataset-male](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-male),
+[persian-tts-dataset-famale](https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset-famale)
+
+[DiM-Gesture: Co-Speech Gesture Generation with Adaptive Layer Normalization Mamba-2 framework](https://arxiv.org/abs/2408.00370)
+
+[Dynamic Time Warping Notebook](https://github.com/kamperh/lecture_dtw_notebook)
+
+[kamperh/speech_dtw](https://github.com/kamperh/speech_dtw)
+
+[You Only Cache Once: Decoder-Decoder Architectures for Language Models](https://arxiv.org/abs/2405.05254),
+[code](https://github.com/microsoft/unilm/tree/master/YOCO)
+
+[hitz-zentroa/latxa](https://github.com/hitz-zentroa/latxa) --- Latxa: An Open Language Model and Evaluation Suite for Basque
+
+[kamperh/VectorQuantizedCPC](https://github.com/kamperh/VectorQuantizedCPC)
+
+[Looking Backward: Streaming Video-to-Video Translation with Feature Banks](https://arxiv.org/abs/2405.15757)
+
+[A light-weight and efficient punctuation and word casing prediction model for on-device streaming ASR](https://arxiv.org/abs/2407.13142),
+[code](https://github.com/frankyoujian/Edge-Punct-Casing)
+
+[Büszkeség és balítélet](https://mek.oszk.hu/06000/06058/)
+
+[EvaByte/EvaByte](https://huggingface.co/EvaByte/EvaByte) --- EvaByte is a 6.5B byte-level language model built upon an improved architecture with multibyte prediction and EVA -- an efficient attention mechanism designed for scalability and performance.
 
