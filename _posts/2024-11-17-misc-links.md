@@ -155,7 +155,7 @@ categories: [links]
 
 [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
 
-[Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/)
+[Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/) --- Divides the images of a category from Wikimedia Commons into a desired number of lists and generates these in the form of text files with links to the respective images so that they can be downloaded using a download manager.
 
 [Lingua Libre language gallery](https://lingualibre.org/LanguagesGallery/)
 
