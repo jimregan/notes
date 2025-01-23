@@ -143,3 +143,6 @@ Related:
 
 [EvaByte/EvaByte](https://huggingface.co/EvaByte/EvaByte) --- EvaByte is a 6.5B byte-level language model built upon an improved architecture with multibyte prediction and EVA -- an efficient attention mechanism designed for scalability and performance.
 
+[HKUNLP/efficient-attention](https://github.com/HKUNLP/efficient-attention) --- [EVA ICLR'23; LARA ICML'22] Efficient attention mechanisms via control variates, random features, and importance sampling
+
+
