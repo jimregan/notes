@@ -145,4 +145,18 @@ Related:
 
 [HKUNLP/efficient-attention](https://github.com/HKUNLP/efficient-attention) --- [EVA ICLR'23; LARA ICML'22] Efficient attention mechanisms via control variates, random features, and importance sampling
 
+[Probing the 3D Awareness of Visual Foundation Models](https://arxiv.org/abs/2404.08636),
+[mbanani/probe3d](https://github.com/mbanani/probe3d)
 
+[OpenScene: 3D Scene Understanding with Open Vocabularies](https://arxiv.org/abs/2211.15654),
+[code](https://github.com/pengsongyou/openscene)
+
+[Lexicon3D: Probing Visual Foundation Models for Complex 3D Scene Understanding](https://nips.cc/virtual/2024/poster/96742),
+[OpenReview](https://openreview.net/forum?id=3TxyhBZHT2),
+[code](https://github.com/YunzeMan/Lexicon3D)
+
+[Gaussian Graph Network: Learning Efficient and Generalizable Gaussian Representations from Multi-view Images](https://nips.cc/virtual/2024/poster/96803),
+[OpenReview](https://openreview.net/forum?id=2dfBpyqh0A)
+
+[PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/abs/2103.14635),
+[code](https://github.com/CVMI-Lab/PAConv)
