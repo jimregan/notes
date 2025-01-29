@@ -938,7 +938,7 @@ Image Upload Assistance
 https://chatgpt.com/c/6797c4c3-8408-8011-ab08-b9ddcfa0bdd8
 
 Untitled47.ipynb - Colab
-https://colab.research.google.com/drive/1D-0nPhh_aZfftFYyMf0bUGP6mP3mQvzs#scrollTo=3sYrKYm44e9Z
+https://colab.research.google.com/drive/1D-0nPhh_aZfftFYyMf0bUGP6mP3mQvzs#scrollTo=GJe4MiLMEZOh
 
 audio - SoX resample and convert - Stack Overflow
 https://stackoverflow.com/questions/23980283/sox-resample-and-convert
@@ -1042,43 +1042,250 @@ https://huggingface.co/Qwen/Qwen2-Audio-7B
 2407.10759
 https://arxiv.org/pdf/2407.10759
 
-RESOURCEFUL-2025 | resourceful-2025
-https://resourceful-workshop.github.io/resourceful-2025/dates.html
+ctc-forced-aligner/ctc_forced_aligner/text_utils.py at main · MahmoudAshraf97/ctc-forced-aligner
+https://github.com/MahmoudAshraf97/ctc-forced-aligner/blob/main/ctc_forced_aligner/text_utils.py
 
-gaze track python - Google Search
-https://www.google.com/search?q=gaze+track+python&sca_esv=75d2da38486ca9c2&rlz=1C5GCCM_en&sxsrf=AHTn8zrp2vK9m5asKN7Scs96zdjufFvopw%3A1738057584913&ei=cKeYZ9StN9mSwPAPhIqCqAM&ved=0ahUKEwjUpcqHkZiLAxVZCRAIHQSFADUQ4dUDCBA&uact=5&oq=gaze+track+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWdhemUgdHJhY2sgcHl0aG9uMgcQABiABBgNMgcQABiABBgNMgYQABgWGB4yBhAAGBYYHjIIEAAYCBgNGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgUQABjvBUiADFCpBVilCnACeAGQAQCYAWOgAe4DqgEBNrgBA8gBAPgBAZgCCKAChwTCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcDNy4xoAfRMg&sclient=gws-wiz-serp
+Low-energy dockerfile for ctc-forced-aligner | notes
+https://jimregan.github.io/notes/docker/laziness/ctc-forced-aligner/2024/10/15/ctc-forced-aligner-lowenergy-docker.html
 
-antoinelame/GazeTracking: 👀 Eye Tracking library easily implementable to your projects
-https://github.com/antoinelame/GazeTracking
+Low-energy dockerfile for owsm-ctc forced alignment | notes
+https://jimregan.github.io/notes/docker/laziness/ctc-forced-aligner/owsm/2024/10/26/owsm-ctc-forced-alignment-low-energy-docker.html
 
-Downloads – PyGaze
-https://www.pygaze.org/downloads/
+MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
+https://github.com/MahmoudAshraf97/ctc-forced-aligner
 
-esdalmaijer/PyGaze: an open-source, cross-platform toolbox for minimal-effort programming of eye tracking experiments
-https://github.com/esdalmaijer/PyGaze
+docker - How to build dockerfile - Stack Overflow
+https://stackoverflow.com/questions/34012094/how-to-build-dockerfile
 
-david-wb/gaze-estimation: A deep learning based gaze estimation framework implemented with PyTorch
-https://github.com/david-wb/gaze-estimation
+MMSpeech-base - Google Search
+https://www.google.com/search?q=MMSpeech-base&rlz=1C5GCCM_en&oq=MMSpeech-base&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIHCAQQABjvBTIKCAUQABiABBiiBNIBCDEwNjRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-gaze tracking opencv - Google Search
-https://www.google.com/search?q=gaze+tracking+opencv&sca_esv=75d2da38486ca9c2&rlz=1C5GCCM_en&sxsrf=AHTn8zrJG97ys7mVCuqVx7G8GgKqnC12iQ%3A1738057669218&ei=xaeYZ6X1DJeDqgGbssCgAg&ved=0ahUKEwjl6-OvkZiLAxWXgSoKHRsZECQQ4dUDCBA&uact=5&oq=gaze+tracking+opencv&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGdhemUgdHJhY2tpbmcgb3BlbmN2MgUQABiABDIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIFEAAY7wUyBRAAGO8FSJ4KUNUEWKEJcAJ4AZABAJgBTKABiAOqAQE2uAEDyAEA-AEBmAIIoAKgA8ICChAAGLADGNYEGEfCAgQQIxgnwgIIEAAYgAQYogSYAwCIBgGQBgiSBwE4oAfPLQ&sclient=gws-wiz-serp
+MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for Speech Recognition | Papers With Code
+https://paperswithcode.com/paper/mmspeech-multi-modal-multi-task-encoder
 
-clarisli/Gaze-Estimation: Gaze estimation with OpenVINO
-https://github.com/clarisli/Gaze-Estimation
+OFA-Sys/OFA: Official repository of OFA (ICML 2022). Paper: OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework
+https://github.com/ofa-sys/ofa?tab=readme-ov-file
 
-Oktafsurya/Gaze-Estimation_openVINO: My work for Udacity Intel® Edge AI for IoT Developers Nanodegree Program. Project Name: Computer Pointer Controller
-https://github.com/Oktafsurya/Gaze-Estimation_openVINO
+OFA/datasets.md at main · OFA-Sys/OFA
+https://github.com/OFA-Sys/OFA/blob/main/datasets.md
 
-Gaze Tracking | LearnOpenCV #
-https://learnopencv.com/gaze-tracking/
+Label Studio
+http://130.237.3.107:8080/projects/5/data?tab=5&task=71
 
-Recommendation Letter Template
-https://chatgpt.com/c/6798c872-44ac-8011-98f9-6c238a21d023
+Onyx Storm - Wikipedia
+https://en.wikipedia.org/w/index.php?title=Onyx_Storm&oldid=1272104065
 
-Division of Speech, Music and Hearing - KTH to Krällingegränd 15, 163 62 Spånga - Google Maps
-https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/Kr%C3%A4llingegr%C3%A4nd+15,+163+62+Sp%C3%A5nga/@59.3918952,17.9054313,15z/am=t/data=!4m14!4m13!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f9e563460c587:0x33c01041cd11e92c!2m2!1d17.9160284!2d59.3945513!3e3?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D
+Fourth Wing - Wikipedia
+https://en.wikipedia.org/wiki/Fourth_Wing
 
-Decision templates and document templates | KTH Intranet
-https://intra.kth.se/administration/blanketter/overgripande-dokument
+Iron Flame - Wikipedia
+https://en.wikipedia.org/wiki/Iron_Flame
+
+New Tab
+chrome://newtab/
+
+raw.githubusercontent.com/zhenye234/LLaSA_training/refs/heads/main/train_tts.py
+https://raw.githubusercontent.com/zhenye234/LLaSA_training/refs/heads/main/train_tts.py
+
+llm fine tuning time estimate - Google Search
+https://www.google.com/search?q=llm+fine+tuning+time+estimate&rlz=1C5GCCM_en&oq=llm+fine+tuning+time+est&gs_lcrp=EgZjaHJvbWUqBwgCECEYjwIyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDcwOTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+[D] How can we estimate fine tuning time of a model? : r/MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/199fa01/d_how_can_we_estimate_fine_tuning_time_of_a_model/
+
+[2408.04693] Understanding the Performance and Estimating the Cost of LLM Fine-Tuning
+https://arxiv.org/abs/2408.04693
+
+demo-library/demos/llm-finetuning/README.md at main · valohai/demo-library
+https://github.com/valohai/demo-library/blob/main/demos/llm-finetuning/README.md
+
+Fine Tuning a LLM for a specific language : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1cv5k4o/fine_tuning_a_llm_for_a_specific_language/
+
+llama-cookbook/recipes/multilingual/README.md at 0efb8bd31e4359ba9e8f52e8d003d35ff038e081 · meta-llama/llama-cookbook
+https://github.com/meta-llama/llama-cookbook/blob/0efb8bd31e4359ba9e8f52e8d003d35ff038e081/recipes/multilingual/README.md
+
+yanolja/EEVE-Korean-Instruct-2.8B-v1.0 · Hugging Face
+https://huggingface.co/yanolja/EEVE-Korean-Instruct-2.8B-v1.0
+
+GreenpeaceHungary/Z3jwjS6mrgA.info.json · jimregan/hungarian-youtube-speech at raw-videos
+https://huggingface.co/datasets/jimregan/hungarian-youtube-speech/blob/raw-videos/GreenpeaceHungary/Z3jwjS6mrgA.info.json
+
+YouTube
+https://www.youtube.com/
+
+Trump Causes "Crisis" with Denmark and Colombia, Illegally Purges Watchdogs: A Closer Look - YouTube
+https://www.youtube.com/watch?v=w-r7iFctXVI
+
+We Thought We Knew YouTube…We Were Wrong - YouTube
+https://www.youtube.com/watch?v=JYl-U2NYjNw
+
+YouTube
+https://www.youtube.com/
+
+Jon Stewart On Whether Dems' "Trump Is a Fascist" Accusations Are Warranted | The Daily Show - YouTube
+https://www.youtube.com/watch?v=Byg8VZdKK88
+
+Wing Chun Genius: "Karate Is WRONG" - YouTube
+https://www.youtube.com/watch?v=EflKW-7JHmE
+
+Munster Irish to IPA
+https://chatgpt.com/c/67992c09-1f30-8011-a71e-36b332f1ee0d
+
+Inghean an Cheannaidhe - Wikisource
+https://wikisource.org/wiki/Inghean_an_Cheannaidhe
+
+Description d’un parler irlandais de Kerry/Texte - Wikisource
+https://fr.wikisource.org/wiki/Description_d%E2%80%99un_parler_irlandais_de_Kerry/Texte
+
+unicode-org/cldr: The home of the Unicode Common Locale Data Repository
+https://github.com/unicode-org/cldr
+
+scéal - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/sc%C3%A9al
+
+A Dialect of Donegal/The Vowel System - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/The_Vowel_System
+
+Aeneid - Wikipedia
+https://en.wikipedia.org/wiki/Aeneid
+
+The Iliad - Wikisource, the free online library
+https://en.wikisource.org/wiki/The_Iliad
+
+loingeas - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/loingeas
+
+My Library | Audible.co.uk
+https://www.audible.co.uk/library/titles?ref_pageloadid=not_applicable&plink=Rj3FnHUWdhkqyOmW&pageLoadId=2ImK8rAkzoUrVwK3&creativeId=4ccabbe5-542e-4040-953a-0eee9bc5bf2c&ref=a_hp_t1_navTop_pl0
+
+libgen
+https://www.uupee.com/
+
+Library Genesis
+https://libgen.li/ads4d13858e4d31594c1fb7014a2f2277d1NQJIT6WP
+
+Library Genesis
+https://libgen.li/ads1671203c7d637471e57646f6c76ddc9aPVCMTVTI
+
+Brindisi - Wikipedia
+https://en.wikipedia.org/wiki/Brindisi
+
+Diomedes - Wikipedia
+https://en.wikipedia.org/wiki/Diomedes
+
+Google Translate
+https://translate.google.com/?sl=hu&tl=en&text=gilisztadarabk%C3%A1kkal&op=translate
+
+"Élt egyszer" - Google Search
+https://www.google.com/search?q=%22%C3%89lt+egyszer%22&rlz=1C5GCCM_en&oq=%22%C3%89lt+egyszer%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQLhgTGIAEMgkIAhAAGBMYgAQyCQgDEAAYExiABDIJCAQQABgTGIAEMgkIBRAuGBMYgAQyCQgGEAAYExiABDIKCAcQABgTGBYYHjIKCAgQABgTGBYYHtIBCDEwMTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+homokos - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/homokos
+
+undorító - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/undor%C3%ADt%C3%B3
+
+darabokkal - Google Search
+https://www.google.com/search?q=darabokkal&rlz=1C5GCCM_en&oq=darabokkal&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgFGAoYHjIKCAIQABgFGAoYHjIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIHCAYQABjvBTIHCAcQABjvBdIBBzI0OGowajmoAgCwAgE&sourceid=chrome&ie=UTF-8
+
+Fuaimeanna na Gaeilge
+https://web.archive.org/web/20231130181124/http://fuaimeanna.ie/ga/Recordings.aspx?Page=2
+
+fix: clarify text vs text.ctc for speech translation (OWSM) · espnet/espnet@3ad8d0d
+https://github.com/espnet/espnet/commit/3ad8d0d4cc19f99fbc51723aaf6bf1ba21fa474a
+
+Update README.md · espnet/owsm_ctc_v3.1_1B at 24122a4
+https://huggingface.co/espnet/owsm_ctc_v3.1_1B/commit/24122a483435e62556d8ad9d9788bb9dc34a7b14
+
+Submitted to INTERSPEECH
+https://arxiv.org/pdf/2305.17651
+
+espnet/owsm_ctc_v3.2_ft_1B · Hugging Face
+https://huggingface.co/espnet/owsm_ctc_v3.2_ft_1B
+
+(1) Inbox • Direct
+https://www.instagram.com/direct/t/102052201197290/
+
+Phoneme Deletion Animation
+https://chatgpt.com/c/679a4cb1-6e20-8011-b00e-509eba301d3a
+
+Untitled48.ipynb - Colab
+https://colab.research.google.com/drive/1ACkww6lvcV8ObRTW5Vu6wAyx_0sSxPGR#scrollTo=is_foPfawEuR
+
+utter-project/fairseq: This is a fork of the original fairseq repository (version 0.12.2) with added classes for training mHuBERT-147.
+https://github.com/utter-project/fairseq?tab=License-1-ov-file#readme
+
+utter-project/mHuBERT-147 at main
+https://huggingface.co/utter-project/mHuBERT-147/tree/main/manifest
+
+utter-project/mHuBERT-147-scripts: Collection of scripts from mHuBERT-147.
+https://github.com/utter-project/mHuBERT-147-scripts
+
+New Tab
+chrome://newtab/
+
+Project Jupyter | Installing Jupyter
+https://jupyter.org/install
+
+original_asr… - JupyterLab
+http://localhost:8888/lab/tree/Playing/notes/_drafts/original_asr_presentations.ipynb
+
+original_asr_presentations slides
+file:///Users/joregan/Downloads/original_asr_presentations.slides.html#/1/1
+
+Turn your Jupyter Notebook into interactive Presentation Slides using Anaconda - HKUST Digital Humanities Initiative
+https://digitalhumanities.hkust.edu.hk/tutorials/turn-your-jupyter-notebook-into-interactive-presentation-slides-using-anaconda/
+
+Conda - Manim Community v0.19.0
+https://docs.manim.community/en/stable/installation/conda.html
+
+Installing Manim locally - Manim Community v0.19.0
+https://docs.manim.community/en/stable/installation/uv.html
+
+Introduction to presenting with Jupyter with Reveal.js | by The Data Reader | Medium
+https://medium.com/@Ben_Obe/introduction-to-presenting-with-juypter-with-reveal-js-8e34a07081b2
+
+python - JupyterLab + Reveal.JS → How to hide code cells? - Stack Overflow
+https://stackoverflow.com/questions/67685650/jupyterlab-reveal-js-%E2%86%92-how-to-hide-code-cells
+
+original_asr_presentations slides
+http://127.0.0.1:8000/original_asr_presentations.slides.html#/2/1
+
+original_asr_presentations slides
+http://127.0.0.1:8000/original_asr_presentations.slides.html#/1/2
+
+YouTube
+https://www.youtube.com/
+
+Can English Speakers Understand Dutch & German Dialogue?? l Does it sound similar to English?! - YouTube
+https://www.youtube.com/watch?v=lSBEAs6erU4&t=727s
+
+Death metal guitarist learns August Burns Red - YouTube
+https://www.youtube.com/watch?v=WMDYrHGmVBs
+
+James Acaster Got Heckled by the Same Person in Three Different Countries - YouTube
+https://www.youtube.com/watch?v=hXEJ0yJXkMg
+
+I Trained MUAY THAI for 4 Years (Sparring Before and After) - YouTube
+https://www.youtube.com/watch?v=MkaLvlFve_Y
+
+"Brad Pitt, can I say b******?!": Kids Ask Jim Carrey Difficult Questions - YouTube
+https://www.youtube.com/watch?v=FTkU-EmBV6k
+
+Instagram
+https://www.instagram.com/
+
+‘Headed for technofascism’: the rightwing roots of Silicon Valley | Silicon Valley | The Guardian
+https://www.theguardian.com/technology/ng-interactive/2025/jan/29/silicon-valley-rightwing-technofascism?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAaY4-irKC7ngYlK5wr9LZG4CSKURNt_cgKHlJwp_Ve2wU_UL7938JnCHjSs_aem_pY3VJ4T9jYBdCFIer4aSPQ
+
+My partner reaches orgasm long before I do – then she loses all interest | Life and style | The Guardian
+https://www.theguardian.com/lifeandstyle/2025/jan/29/my-partner-reaches-orgasm-long-before-i-do-then-she-loses-all-interest?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAaZrN0i_SMot9tsykQb6bgI7bPEOZ43Y2PFs-pxhhUWVtU3Tduvq-vDdgsM_aem_OCkTj5WtXv3cS-e7YeFPag
+
+International AI safety report
+https://assets.publishing.service.gov.uk/media/679a0c48a77d250007d313ee/International_AI_Safety_Report_2025_accessible_f.pdf
+
+openai/whisper-large-v3 · Hugging Face
+https://huggingface.co/openai/whisper-large-v3
 
 
