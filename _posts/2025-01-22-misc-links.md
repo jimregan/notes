@@ -160,3 +160,7 @@ Related:
 
 [PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds](https://arxiv.org/abs/2103.14635),
 [code](https://github.com/CVMI-Lab/PAConv)
+
+[OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052),
+[code](https://github.com/OFA-Sys/OFA)
+
