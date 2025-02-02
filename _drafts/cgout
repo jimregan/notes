@@ -1,0 +1,49 @@
+**Thesis Research Plan: Corpus-Based Phonetic Transcription in Speech Technology**
+
+### **Overview**
+The overarching goal of this research is to advance corpus-based phonetic transcription to bring phonetic pronunciation in lexicography in line with modern corpus-based lexicographic practices. Unlike existing approaches that rely on forced alignment with a reduced phoneset (e.g., VoxCommunitatis by Chodroff et al.), this research aims to maintain phonetic provenance by observing data-driven pronunciation patterns rather than enforcing predefined expectations.
+
+### **Main Research Areas**
+1. **Corpus (Data Processing & Lexicography):** The corpus serves a broader purpose beyond just speech technology, aiming to modernize phonetic lexicography by grounding it in corpus-based data.
+2. **Phonetic Speech Recognition (ASR):** A model has been trained with promising results, but its scope is limited to a single dialect.
+3. **Grapheme-to-Phoneme (G2P):** Plans include training a G2P system using corpus-derived data, which depends on improvements in the first two areas.
+4. **Text-to-Speech (TTS):** This builds on the G2P system, testing its effectiveness in a real-world scenario, likely focusing on maximizing performance in low-data settings.
+5. **Joint ASR/Phonetic ASR:** An exploratory idea involving using G2P for joint ASR and phonetic ASR training, potentially incorporating G2P within the loss function.
+
+### **Refined Research Questions**
+
+#### **Corpus-Based Pronunciation Lexicon & Lexicography**
+- How can corpus-based phonetic transcription improve the provenance and authenticity of phonetic lexicons compared to traditional lexicographic methods?
+- What are the risks of forced alignment and reduced phonesets in corpus-based phonetic transcription, and how can they be mitigated?
+- How does a provenance-sensitive phonetic corpus compare with existing corpus-based approaches such as VoxCommunitatis and Wiktionary citations?
+
+#### **Phonetic ASR & Dialect Generalization**
+- What are the implications of dialectal variation for corpus-based phonetic transcription, and how does phonetic ASR help or hinder capturing this variation?
+- How does a provenance-sensitive corpus affect the generalization of phonetic ASR across dialects?
+
+#### **Grapheme-to-Phoneme (G2P)**
+- Can corpus-derived phonetic transcriptions offer a more transparent and dialect-inclusive foundation for G2P modeling?
+- What are the trade-offs between phonetic transcriptions extracted from speech corpora and traditional pronunciation dictionaries for G2P training?
+
+#### **TTS & Low-Data Speech Technology**
+- What is the impact of provenance-sensitive phonetic transcriptions on TTS performance in low-data settings?
+
+#### **Joint ASR/Phonetic ASR**
+- Can a corpus-based G2P system be leveraged to jointly improve ASR and phonetic ASR, particularly in dialect-rich scenarios?
+
+### **BibTeX Citation for J.C. Wells' Paper**
+
+```bibtex
+@misc{wells_transcription,
+  author = {Wells, J. C.},
+  title = {Phonetic Transcription and Analysis},
+  howpublished = {University College London},
+  url = {https://www.phon.ucl.ac.uk/home/wells/transcription-ELL.pdf},
+  note = {Accessed: 2025-02-02}
+}
+```
+
+---
+This document serves as an initial plan to refine the research direction and establish key milestones for the thesis development.
+
+
