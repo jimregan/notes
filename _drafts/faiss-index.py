@@ -6,9 +6,10 @@ import soundfile as sf
 import pickle
 from transformers import AutoModel, AutoTokenizer
 
-# Load CLAP Model (LAION version, Hugging Face)
+# Load CLAP Model (on GPU)
 MODEL_NAME = "laion/clap"
-model = AutoModel.from_pretrained(MODEL_NAME)
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = AutoModel.from_pretrained(MODEL_NAME).to(device)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 # Parameters
@@ -17,6 +18,7 @@ STRIDE = 2       # seconds (overlap step)
 SAMPLE_RATE = 16000
 INDEX_FILE = "audio_index.faiss"
 METADATA_FILE = "audio_metadata.pkl"
+BATCH_SIZE = 16  # Process multiple chunks in parallel
 
 # Function to Load Audio
 def load_audio(file_path, target_sr=SAMPLE_RATE):
@@ -31,43 +33,52 @@ def chunk_audio(audio, sr, window_size, stride):
     window = int(window_size * sr)
     return [audio[i : i + window] for i in range(0, len(audio) - window, step)]
 
-# Function to Extract CLAP Audio Embeddings
-def get_audio_embedding(audio_segment):
-    audio_tensor = audio_segment.unsqueeze(0).unsqueeze(0)  # Add batch and channel dims
+# Function to Extract CLAP Audio Embeddings (Batched, GPU)
+def get_audio_embeddings(audio_segments):
+    tensors = [seg.unsqueeze(0).unsqueeze(0).to(device) for seg in audio_segments]  # Add batch & channel dims
+    tensor_batch = torch.cat(tensors, dim=0)  # Stack into a batch
     with torch.no_grad():
-        embedding = model.get_audio_features(audio_tensor)  # Extract embedding
-    return embedding.squeeze(0).numpy()
+        embeddings = model.get_audio_features(tensor_batch)  # GPU inference
+    return embeddings.cpu().numpy()  # Move to CPU for FAISS
 
 # Load and Process Audio
 audio_file = "example_audio.wav"
 audio_data = load_audio(audio_file)
 audio_segments = chunk_audio(audio_data, SAMPLE_RATE, WINDOW_SIZE, STRIDE)
 
-# Create FAISS Index
+# Create FAISS GPU Index
 D = 512  # CLAP embedding dimension
 index = faiss.IndexFlatL2(D)
+res = faiss.StandardGpuResources()  # Enable GPU
+index = faiss.index_cpu_to_gpu(res, 0, index)  # Move index to GPU
 
 # Store embeddings and metadata
 segment_embeddings = []
 metadata = []
 
-for i, segment in enumerate(audio_segments):
-    embedding = get_audio_embedding(segment)
-    segment_embeddings.append(embedding)
-    start_time = i * STRIDE  # Calculate start time for the segment
-    end_time = start_time + WINDOW_SIZE
-    metadata.append((start_time, end_time))
+# Process in Batches for Speed
+for i in range(0, len(audio_segments), BATCH_SIZE):
+    batch = audio_segments[i : i + BATCH_SIZE]
+    batch_embeddings = get_audio_embeddings(batch)
+    segment_embeddings.append(batch_embeddings)
+
+    # Store timestamps
+    for j, emb in enumerate(batch_embeddings):
+        start_time = (i + j) * STRIDE
+        end_time = start_time + WINDOW_SIZE
+        metadata.append((start_time, end_time))
 
 # Convert to NumPy array and add to FAISS
-segment_embeddings = np.array(segment_embeddings, dtype=np.float32)
+segment_embeddings = np.vstack(segment_embeddings).astype(np.float32)
 index.add(segment_embeddings)
 
-# Save FAISS Index
+# Save FAISS Index (Move to CPU before saving)
+index = faiss.index_gpu_to_cpu(index)
 faiss.write_index(index, INDEX_FILE)
 
 # Save Metadata
 with open(METADATA_FILE, "wb") as f:
     pickle.dump(metadata, f)
 
-print(f"✅ Indexing complete! Stored {len(metadata)} audio segments.")
+print(f"✅ GPU Indexing complete! Stored {len(metadata)} audio segments.")
 
