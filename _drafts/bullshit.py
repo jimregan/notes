@@ -2,10 +2,12 @@ import argparse
 import torchaudio
 import soundfile as sf
 import numpy as np
+import matplotlib.pyplot as plt
 from pathlib import Path
 from datasets import Dataset
-from transformers import AutoProcessor
+from transformers import AutoProcessor, AutoModelForCTC, Wav2Vec2Processor, Wav2Vec2ForCTC
 from tqdm import tqdm
+from jiwer import wer, cer, compute_confusion_matrix
 
 # Function to load an audio file
 def load_audio(file_path):
@@ -64,17 +66,44 @@ def concatenate_audio(audio_list, silence_duration, max_duration):
 
     return concatenated_data
 
-def main():
-    parser = argparse.ArgumentParser(description="Prepare audio dataset for Wav2Vec")
-    parser.add_argument("--data-dir", type=Path, required=True, help="Path to directory containing audio and transcription files")
-    parser.add_argument("--model", type=str, required=True, help="Wav2Vec model to determine batch size")
-    parser.add_argument("--concatenate", action="store_true", help="Concatenate short audio files to fit batch size")
-    parser.add_argument("--silence-duration", type=float, default=0.5, help="Silence duration (seconds) between concatenated clips")
-    
-    args = parser.parse_args()
+# Function to transcribe audio using a Wav2Vec2 model
+def transcribe_audio(processor, model, audio_data):
+    input_values = processor(audio_data, sampling_rate=16000, return_tensors="pt").input_values
+    with torch.no_grad():
+        logits = model(input_values).logits
+    predicted_ids = torch.argmax(logits, dim=-1)
+    return processor.batch_decode(predicted_ids)[0]
 
-    # Load Wav2Vec model processor to get max input length
+# Function to compute confusion matrix
+def compute_and_plot_confusion_matrix(ground_truths, predictions, silence_durations):
+    matrix = compute_confusion_matrix(ground_truths, predictions)
+
+    plt.figure(figsize=(10, 8))
+    plt.imshow(matrix, cmap="Blues", interpolation="nearest")
+    plt.xlabel("Predicted Labels")
+    plt.ylabel("True Labels")
+    plt.title(f"Confusion Matrix for Silence Durations: {silence_durations}")
+    plt.colorbar()
+    plt.show()
+
+def main():
+    parser = argparse.ArgumentParser(description="Prepare and evaluate audio dataset for Wav2Vec2 ASR")
+    parser.add_argument("--data-dir", type=Path, required=True, help="Path to directory containing audio and transcription files")
+    parser.add_argument("--model", type=str, required=True, help="Wav2Vec2 model to use")
+    parser.add_argument("--concatenate", action="store_true", help="Concatenate short audio files to fit batch size")
+    parser.add_argument("--silence-duration", type=str, default="0.5", help="Silence duration(s) in seconds (comma-separated for multiple values)")
+    parser.add_argument("--evaluate", action="store_true", help="Evaluate Wav2Vec2 ASR output against ground truth")
+
+    args = parser.parse_args()
+    
+    # Parse multiple silence durations
+    silence_durations = [float(x) for x in args.silence_duration.split(",")]
+
+    # Load Wav2Vec2 processor & model
     processor = AutoProcessor.from_pretrained(args.model)
+    model = AutoModelForCTC.from_pretrained(args.model)
+
+    # Determine max duration based on model
     max_duration = processor.feature_extractor.sampling_rate * processor.feature_extractor.max_length_in_seconds
 
     # Collect all audio and transcription files
@@ -87,21 +116,52 @@ def main():
             audio_info["transcription"] = load_transcription(transcript_file)
             audio_data.append(audio_info)
 
-    # Concatenation mode
-    if args.concatenate:
-        print(f"Concatenating short audio files (max duration: {processor.feature_extractor.max_length_in_seconds} sec)")
-        dataset_data = concatenate_audio(audio_data, args.silence_duration, max_duration)
-    else:
-        dataset_data = [{"audio": {"array": a["array"], "sampling_rate": a["sampling_rate"]}, "transcription": a["transcription"]} for a in audio_data]
+    all_results = {}
 
-    # Create Hugging Face Dataset
-    dataset = Dataset.from_list(dataset_data)
+    for silence_duration in silence_durations:
+        print(f"\nProcessing with silence duration: {silence_duration} seconds...")
 
-    # Save dataset to disk for later use
-    dataset.save_to_disk("wav2vec_dataset")
-    
-    print("Dataset saved to 'wav2vec_dataset'")
-    print("Sample:", dataset[0])
+        # Concatenation mode
+        if args.concatenate:
+            dataset_data = concatenate_audio(audio_data, silence_duration, max_duration)
+        else:
+            dataset_data = [{"audio": {"array": a["array"], "sampling_rate": a["sampling_rate"]}, "transcription": a["transcription"]} for a in audio_data]
+
+        # Create Hugging Face Dataset
+        dataset = Dataset.from_list(dataset_data)
+        dataset.save_to_disk(f"wav2vec_dataset_silence_{silence_duration}")
+
+        print(f"Dataset saved: wav2vec_dataset_silence_{silence_duration}")
+
+        # ASR Evaluation Mode
+        if args.evaluate:
+            predictions = []
+            ground_truths = []
+
+            for item in tqdm(dataset_data, desc="Transcribing"):
+                transcription = transcribe_audio(processor, model, item["audio"]["array"])
+                predictions.append(transcription)
+                ground_truths.append(item["transcription"])
+
+            wer_score = wer(ground_truths, predictions)
+            cer_score = cer(ground_truths, predictions)
+
+            print(f"WER (Silence {silence_duration}s): {wer_score:.4f}")
+            print(f"CER (Silence {silence_duration}s): {cer_score:.4f}")
+
+            all_results[silence_duration] = {
+                "WER": wer_score,
+                "CER": cer_score,
+                "Ground Truths": ground_truths,
+                "Predictions": predictions
+            }
+
+    # Generate confusion matrix if multiple silence durations are tested
+    if args.evaluate and len(silence_durations) > 1:
+        print("\nGenerating confusion matrix...")
+        all_ground_truths = [result["Ground Truths"] for result in all_results.values()]
+        all_predictions = [result["Predictions"] for result in all_results.values()]
+        compute_and_plot_confusion_matrix(all_ground_truths, all_predictions, silence_durations)
 
 if __name__ == "__main__":
     main()
