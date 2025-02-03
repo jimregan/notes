@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Speech recognition introduction}
+\author{Jim O'Regan}
+\date{May 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Artificial intelligence, and related fields, are almost as old as computing itself: the code-breaking machines at Bletchley Park in World War II were an inspiration for early attempts at machine translation, which was originally thought as breaking the ``code'' of one language into another. As more general purpose computers became available, the initial set of tasks that they were set to were inspired by the notion that they were ``thinking machines'', and, therefore, were put to the kinds of tasks that human brains regularly perform.
+
+The question of how to provide input to these ``thinking machines'' did not take long in settling on human-inspired input: automatic speech recognition (ASR), sometimes referred to as speech-to-text, has been an active research area for over 70 years.
+
+\subsection{Early history}
+
+Early systems recognised a small set of individual words, for specific purposes. In 1952, Bell Labs created a system named ``Audrey'' for voice-activated dialing, which could recognise individual numbers~\cite{davis52digits}, and only when spoken by specific speakers; however, as human operators were cheaper, it was not developed further.
+
+In 1959, a vowel detection system was developed which made use of formants~\cite{forgie59vowel}. In 1961, ``Shoebox'', a voice-activated calculator, was developed by IBM, and other systems were developed in Japan: vowel recognition from Radio Research Lab, Tokyo; phoneme recognition from Kyoto University; and individual spoken digits at NEC Laboratories.
+
+In the 1970s, speech recognition began to take a shape closer to its more recent form. The US Department of Defense's Advanced Research Program Agency (ARPA) launched a project to advance the understanding of spoken language~\cite{klatt77arpa}. Of the systems developed as part of the project, the CMU HARPY~\cite{lowerre1976harpy} system was the best performing, but the DRAGON system~\cite{baker1975stochastic} was to prove the more influential, establishing the use of hidden Markov models (HMM)~\cite{baum72} in speech recognition along with the use of the Viterbi algorithm~\cite{viterbi67error} for decoding. HMMs also served as the basis for an equivalent system being developed at IBM~\cite{jelinek76csr}.
+
+All of the systems in the challenge used phonemes as a means of modelling speech--a trend which was to continue until very recently. The HARPY system split the task of speech recognition into three phases:
+
+\begin{itemize}
+    \item Feature extraction
+    \item Graph construction
+    \item Decoding
+\end{itemize}
+
+These three phases are still in some way present today in modern speech recognition systems. Notably, the graph constructed by HARPY was a single graph of acceptable sentences, in terms of sequences of phonemes: the previous state-of-the-art, based on weighted finite-state transducers, would return to this concept of a single graph, though most systems in the intervening period would split this into three models--acoustic model, lexical model, and language model--without an explicit graph construction phase. The graph search method used by HARPY, later named beam search~\cite{reddy1977multi}, is still broadly used in many areas where language models are employed.
+
+The CMU Sphinx~\cite{lee90sphinx} system was the first large vocabulary, speaker-independent continuous speech recognition--that is, the precursor to modern speech recognition systems. Sphinx used features based on linear predictive coding (LPC)~\cite{markel2013linear}, using triphones~\cite{schwartz85triphone}, but clustered to create ``generalised triphones''.
+
+MFCC: \cite{mermelstein1976distance}
+
+\bibliographystyle{IEEEtran}
+\bibliography{mybib}
+
+\end{document}
+
