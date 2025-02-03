@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 
-\title{Speech recognition introduction}
+\title{Speech Recognition: Key Breakthroughs and Foundations}
 \author{Jim O'Regan}
 \date{May 2023}
 
@@ -11,31 +11,68 @@
 
 \section{Introduction}
 
-Artificial intelligence, and related fields, are almost as old as computing itself: the code-breaking machines at Bletchley Park in World War II were an inspiration for early attempts at machine translation, which was originally thought as breaking the ``code'' of one language into another. As more general purpose computers became available, the initial set of tasks that they were set to were inspired by the notion that they were ``thinking machines'', and, therefore, were put to the kinds of tasks that human brains regularly perform.
+Artificial intelligence and related fields are almost as old as computing itself. The idea of automatic speech recognition (ASR) has been a long-standing challenge in artificial intelligence, with early inspirations coming from the notion that computers could be "thinking machines." Early work in AI included code-breaking machines at Bletchley Park during World War II, which influenced early machine translation attempts, treating language as a type of code to be deciphered.
 
-The question of how to provide input to these ``thinking machines'' did not take long in settling on human-inspired input: automatic speech recognition (ASR), sometimes referred to as speech-to-text, has been an active research area for over 70 years.
+Speech is a natural mode of human communication, requiring no training, making ASR a key goal in AI. ASR allows for hands-free and efficient input, benefiting accessibility applications and enabling interaction in scenarios where typing is impractical. Despite its intuitive appeal, ASR has faced significant challenges, including variability in speech, noise, and computational complexity.
 
-\subsection{Early history}
+This chapter explores key breakthroughs in ASR, from early template-matching methods to modern deep learning-based approaches. Additionally, we discuss the foundational *source-filter model* of speech production, which underpins many feature extraction techniques used in ASR.
 
-Early systems recognised a small set of individual words, for specific purposes. In 1952, Bell Labs created a system named ``Audrey'' for voice-activated dialing, which could recognise individual numbers~\cite{davis52digits}, and only when spoken by specific speakers; however, as human operators were cheaper, it was not developed further.
+\section{The Source-Filter Model and Feature Extraction}
 
-In 1959, a vowel detection system was developed which made use of formants~\cite{forgie59vowel}. In 1961, ``Shoebox'', a voice-activated calculator, was developed by IBM, and other systems were developed in Japan: vowel recognition from Radio Research Lab, Tokyo; phoneme recognition from Kyoto University; and individual spoken digits at NEC Laboratories.
-
-In the 1970s, speech recognition began to take a shape closer to its more recent form. The US Department of Defense's Advanced Research Program Agency (ARPA) launched a project to advance the understanding of spoken language~\cite{klatt77arpa}. Of the systems developed as part of the project, the CMU HARPY~\cite{lowerre1976harpy} system was the best performing, but the DRAGON system~\cite{baker1975stochastic} was to prove the more influential, establishing the use of hidden Markov models (HMM)~\cite{baum72} in speech recognition along with the use of the Viterbi algorithm~\cite{viterbi67error} for decoding. HMMs also served as the basis for an equivalent system being developed at IBM~\cite{jelinek76csr}.
-
-All of the systems in the challenge used phonemes as a means of modelling speech--a trend which was to continue until very recently. The HARPY system split the task of speech recognition into three phases:
-
+One of the most influential models in speech processing is the *source-filter model*, formulated by Gunnar Fant in 1960 \cite{fant1960}. This model describes speech production as a two-stage process:
 \begin{itemize}
-    \item Feature extraction
-    \item Graph construction
-    \item Decoding
+    \item A sound source (e.g., vocal cord vibration for voiced sounds, turbulence for fricatives).
+    \item A vocal tract filter that shapes the raw source sound into phonemes.
 \end{itemize}
 
-These three phases are still in some way present today in modern speech recognition systems. Notably, the graph constructed by HARPY was a single graph of acceptable sentences, in terms of sequences of phonemes: the previous state-of-the-art, based on weighted finite-state transducers, would return to this concept of a single graph, though most systems in the intervening period would split this into three models--acoustic model, lexical model, and language model--without an explicit graph construction phase. The graph search method used by HARPY, later named beam search~\cite{reddy1977multi}, is still broadly used in many areas where language models are employed.
+\subsection{Influence on Formant Analysis and MFCCs}
 
-The CMU Sphinx~\cite{lee90sphinx} system was the first large vocabulary, speaker-independent continuous speech recognition--that is, the precursor to modern speech recognition systems. Sphinx used features based on linear predictive coding (LPC)~\cite{markel2013linear}, using triphones~\cite{schwartz85triphone}, but clustered to create ``generalised triphones''.
+The *source-filter model* has had a profound influence on **formant analysis** and **Mel-Frequency Cepstral Coefficients (MFCCs)**, two essential techniques in speech processing.
 
-MFCC: \cite{mermelstein1976distance}
+\subsubsection{Formant Analysis}
+Formants are resonant frequencies in the vocal tract that characterize different vowel sounds. The source-filter model explains how these frequencies arise due to the shape and length of the vocal tract, making **formant tracking** a crucial technique in phonetic analysis and speech recognition. 
+
+Formants are typically estimated using techniques such as **Linear Predictive Coding (LPC)** \cite{markel1976} and **Short-Time Fourier Transform (STFT)** \cite{oppenheim1999discrete}. Formant frequencies have been widely used in speech applications, including speaker identification, vowel classification, and forensic voice analysis \cite{titze1994principles}.
+
+\subsubsection{Mel-Frequency Cepstral Coefficients (MFCCs)}
+MFCCs are one of the most widely used feature extraction methods in ASR. Their design is inspired by the **source-filter model** in several ways:
+\begin{itemize}
+    \item The vocal tract acts as a filter, shaping speech sounds. MFCCs capture the spectral envelope, which corresponds to this filtering effect.
+    \item The Mel scale, used in MFCC computation, mimics the human ear’s sensitivity to different frequency ranges \cite{stevens1937scale}.
+    \item The **discrete cosine transform (DCT)** applied in MFCC extraction removes correlation between frequency components, similar to how the source-filter model separates the excitation source from vocal tract resonances \cite{mermelstein1976}.
+\end{itemize}
+
+MFCCs remain a standard in ASR despite deep learning models increasingly learning features directly from raw waveforms \cite{baevski2020wav2vec}.
+
+\section{Breakthroughs in Speech Recognition}
+
+\subsection{Early Template-Based Systems (1950s–1970s)}
+Early ASR systems were based on *template matching*, where stored examples of spoken words were compared against input speech. Notable early systems include:
+\begin{itemize}
+    \item Bell Labs' "Audrey" (1952) – recognized spoken digits but was speaker-dependent \cite{davis52digits}.
+    \item IBM's "Shoebox" (1961) – a calculator controlled by voice commands.
+    \item The CMU HARPY system (1976) – introduced beam search and phoneme-based modeling \cite{lowerre1976harpy}.
+\end{itemize}
+
+\subsection{Hidden Markov Models and Statistical ASR (1980s–2000s)}
+The adoption of *Hidden Markov Models (HMMs)* revolutionized ASR by introducing probabilistic modeling. Notable advances include:
+\begin{itemize}
+    \item The DRAGON system (1975) – introduced stochastic models for speech \cite{baker1975stochastic}.
+    \item IBM's HMM-based speech recognizer (1980s) \cite{jelinek76csr}.
+    \item The widespread use of triphone-based modeling \cite{schwartz85triphone}.
+    \item Introduction of **Gaussian Mixture Models (GMMs)** to improve acoustic modeling.
+    \item Advancements in **n-gram language models** for better contextual recognition.
+\end{itemize}
+
+\subsection{Deep Learning-Based ASR (2010s–Present)}
+In recent years, deep learning has driven major advances in ASR. Key developments include:
+\begin{itemize}
+    \item *Connectionist Temporal Classification (CTC)* \cite{graves2006} – enabled sequence-to-sequence training without explicit alignment.
+    \item *Attention-based models* – allowed for better context modeling but suffered from latency issues \cite{bahdanau2016}.
+    \item *Transducer models* – improved efficiency and real-time performance \cite{graves2012}.
+    \item *End-to-End ASR* (e.g., Whisper by OpenAI) – eliminated the need for explicit phoneme modeling and language models \cite{radford2022whisper}.
+    \item *Self-Supervised Learning* (e.g., wav2vec, HuBERT) – improved ASR performance with limited labeled data \cite{baevski2020wav2vec}.
+\end{itemize}
 
 \bibliographystyle{IEEEtran}
 \bibliography{mybib}
