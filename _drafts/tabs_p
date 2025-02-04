@@ -1339,22 +1339,37 @@ https://jimregan.github.io/notes/mt/m2m/2024/08/02/mt-on-google-translated-data-
 Waxholm lexicon processing | notes
 https://jimregan.github.io/notes/swedish/waxholm/lexicon/2023/12/15/waxholm-lexicon.html
 
-Create Huggingface dataset from Hungarian TTS data | notes
-https://jimregan.github.io/notes/datasets/hungarian/2023/01/21/create-hungarian-tts-dataset.html
-
 The People's Dictionary
 https://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&schabrak&1
 
-fuktig - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/fuktig
-
-vocab.json · jimregan/wav2vec2-swedish-phonetic-waxholm at main
-https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/blob/main/vocab.json
+huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/raw/main/vocab.json
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/raw/main/vocab.json
 
 Swedish phonology - Wikipedia
 https://en.wikipedia.org/wiki/Swedish_phonology
 
 New Tab
 chrome://newtab/
+
+Wav Meta Data - Audio - RobotPlanet
+https://www.robotplanet.dk/audio/wav_meta_data/
+
+Anybody have any experience with video/mp4 file metadata? : r/DataHoarder
+https://www.reddit.com/r/DataHoarder/comments/wf08pp/anybody_have_any_experience_with_videomp4_file/
+
+New Tab
+chrome://newtab/
+
+Huggingface Tokenizer Vocab Example
+https://chatgpt.com/c/67a1e390-8dd0-8011-b6e4-92285dce268f
+
+Tokenizer
+https://huggingface.co/docs/transformers/main_classes/tokenizer#transformers.PreTrainedTokenizer.add_tokens
+
+Welcome To Colab - Colab
+https://colab.research.google.com/
+
+Exception upon attempting to load a Tokenizer from file · Issue #566 · huggingface/tokenizers
+https://github.com/huggingface/tokenizers/issues/566
 
 
