@@ -167,3 +167,11 @@ Related:
 [Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound](https://ai.meta.com/research/publications/meta-audiobox-aesthetics-unified-automatic-quality-assessment-for-speech-music-and-sound/),
 [code](https://github.com/facebookresearch/audiobox-aesthetics) (CC-BY)
 
+[CTC Networks and Language Models: Prefix Beam Search Explained](https://medium.com/corti-ai/ctc-networks-and-language-models-prefix-beam-search-explained-c11d1ee23306)
+
+[A Study on Effects of Implicit and Explicit Language Model Information for DBLSTM-CTC Based Handwriting Recognition](https://arxiv.org/abs/2008.01532)
+
+[Pronunciation modeling for speech technology](https://ieeexplore.ieee.org/abstract/document/1458347)
+
+[A Study on Effects of Implicit and Explicit Language Model Information for DBLSTM-CTC Based Handwriting Recognition](https://arxiv.org/abs/2008.01532)
+
