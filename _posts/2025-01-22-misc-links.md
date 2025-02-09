@@ -164,3 +164,6 @@ Related:
 [OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052),
 [code](https://github.com/OFA-Sys/OFA)
 
+[Meta Audiobox Aesthetics: Unified Automatic Quality Assessment for Speech, Music, and Sound](https://ai.meta.com/research/publications/meta-audiobox-aesthetics-unified-automatic-quality-assessment-for-speech-music-and-sound/),
+[code](https://github.com/facebookresearch/audiobox-aesthetics) (CC-BY)
+
