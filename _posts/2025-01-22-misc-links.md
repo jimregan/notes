@@ -175,3 +175,26 @@ Related:
 
 [A Study on Effects of Implicit and Explicit Language Model Information for DBLSTM-CTC Based Handwriting Recognition](https://arxiv.org/abs/2008.01532)
 
+[D-LUCEA: Curation of the UCU Accent Project Data](https://www.ubiquitypress.com/site/chapters/e/10.5334/bbi.15/)
+```bibtex
+@inbook{orr2017dlucea,
+author = {Orr, Rosemary and Quené, Hugo},
+year = {2017},
+month = {12},
+pages = {181-193},
+booktitle = {CLARIN in the Low Countries},
+editor    = {Odijk, Jan and van~Hessen, Arjan},
+publisher = {Ubiquity Press},
+address   = {London},
+title = {D-LUCEA: Curation of the UCU Accent Project data},
+doi = {10.5334/bbi.15}
+}
+```
+
+[rhasspy/sv_kaldi-rhasspy](https://github.com/rhasspy/sv_kaldi-rhasspy)
+
+[Recent Advances in Discrete Speech Tokens: A Review](https://arxiv.org/abs/2502.06490)
+
+[AbrahamSanders/codec-bpe](https://github.com/AbrahamSanders/codec-bpe) --- Implementation of Acoustic BPE (Shen et al., 2024), extended for RVQ-based Neural Audio Codecs
+
+
