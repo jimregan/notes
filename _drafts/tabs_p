@@ -58,14 +58,11 @@ https://www.eleanorchodroff.com/publications.html
 Tradition or Innovation: A Comparison of Modern ASR Methods for Forced Alignment
 https://www.eleanorchodroff.com/articles/RoussoCohenKeshetChodroff_ForcedAlignmentComparisonMFAWhisper_Interspeech_2024.pdf
 
-voxcommunis/vxc_pipeline/hf_repo.ipynb at main · pacscilab/voxcommunis
-https://github.com/pacscilab/voxcommunis/blob/main/vxc_pipeline/hf_repo.ipynb
+voxcommunis/vxc_pipeline/vxc_processing.py at main · pacscilab/voxcommunis
+https://github.com/pacscilab/voxcommunis/blob/main/vxc_pipeline/vxc_processing.py
 
 pacscilab/VoxCommunis · Datasets at Hugging Face
 https://huggingface.co/datasets/pacscilab/VoxCommunis
-
-XPF/Data/sq_Albanian/sq.rules at master · CohenPr-XPF/XPF
-https://github.com/CohenPr-XPF/XPF/blob/master/Data/sq_Albanian/sq.rules
 
 OSF | VoxCommunis Corpus
 https://osf.io/t957v/
@@ -175,12 +172,6 @@ https://github.com/pacscilab/voxcommunis/blob/main/vxc_data_extraction/vxc_get_d
 sentence-transformers/all-MiniLM-L6-v2 · Hugging Face
 https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
-File:Hu.gepard.ogg - Wikimedia Commons
-https://commons.wikimedia.org/wiki/File:Hu.gepard.ogg
-
-Cheetah - Wikipedia
-https://hu.wikipedia.org/wiki/Gep%C3%A1rd
-
 File:Guellendar Ekkelsturtzo.ogg - Wikimedia Commons
 https://commons.wikimedia.org/wiki/File:Guellendar_Ekkelsturtzo.ogg
 
@@ -256,32 +247,17 @@ https://repository.clarin.is/repository/xmlui/handle/20.500.12537/308
 English-Hungarian Thematic Dictionary
 https://myhunlang.com/wp-content/uploads/2011/12/english-hungarian-thematic-dictionary.pdf
 
-ChatGPT
-https://chatgpt.com/
-
-Wiktionary:Frequency lists/Hungarian words by frequency based on ÉKsz.², group 1 - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Hungarian_words_by_frequency_based_on_%C3%89Ksz.%C2%B2,_group_1
-
 264_Paper.pdf
 http://www.lrec-conf.org/proceedings/lrec2012/pdf/264_Paper.pdf
 
-www.csc.kth.se
-https://www.csc.kth.se/include/transferpage/transfer.php?target=/utbildning/kth/kurser/DT2112/index.php
+ASR-project/Multilingual-PR: Phoneme Recognition using pre-trained models Wav2vec2, HuBERT and WavLM. Throughout this project, we compared specifically three different self-supervised models, Wav2vec (2019, 2020), HuBERT (2021) and WavLM (2022) pretrained on a corpus of English speech that we will use in various ways to perform phoneme recognition for different languages with a network trained with Connectionist Temporal Classification (CTC) algorithm.
+https://github.com/ASR-project/Multilingual-PR
 
-PowerPoint Presentation
-https://www.kth.se/social/files/56dace0ff276540bd785d7ca/DT2112-2016-intro-handout.pdf
+ASR-project/Multilingual-PR: Phoneme Recognition using pre-trained models Wav2vec2, HuBERT and WavLM. Throughout this project, we compared specifically three different self-supervised models, Wav2vec (2019, 2020), HuBERT (2021) and WavLM (2022) pretrained on a corpus of English speech that we will use in various ways to perform phoneme recognition for different languages with a network trained with Connectionist Temporal Classification (CTC) algorithm.
+https://github.com/ASR-project/Multilingual-PR
 
-Calendar: Lecture, Fantum TMH, 5th floor, 4 February 2016 10:00 | Speech Technology (DT2112) | KTH
-https://www.kth.se/social/course/DT2112/subgroup/vt-2016-taltek16/event/88967a8e76213ba02d4b35bbe663e374-1/
-
-DT2112 Speech Recognition by Computers
-https://www.kth.se/social/files/54ca5c99f276541a887b0f4d/lecture.pdf
-
-KTH | M2
-https://www.kth.se/places/room/id/6e3a06d5-43ed-41e3-8fc1-3f5744130e17
-
-Multilingual-PR/ASR_presentation_project_Apavou_Belkada_Tronchon_Zucker.pdf at main · ASR-project/Multilingual-PR
-https://github.com/ASR-project/Multilingual-PR/blob/main/ASR_presentation_project_Apavou_Belkada_Tronchon_Zucker.pdf
+Multilingual-PR/ASR_report_project_Apavou_Belkada_Tronchon_Zucker.pdf at main · ASR-project/Multilingual-PR
+https://github.com/ASR-project/Multilingual-PR/blob/main/ASR_report_project_Apavou_Belkada_Tronchon_Zucker.pdf
 
 CPC_audio/cpc/criterion/criterion.py at main · facebookresearch/CPC_audio
 https://github.com/facebookresearch/CPC_audio/blob/main/cpc/criterion/criterion.py
@@ -743,7 +719,7 @@ HanchaoLiu/Recover-and-Resample: Recovering Complete Actions for Cross-dataset S
 https://github.com/HanchaoLiu/Recover-and-Resample
 
 Label Studio
-http://130.237.3.107:8080/projects/3/data?tab=3&task=17
+http://130.237.3.107:8080/projects/3/data?tab=3&task=21
 
 WikiLovesDownloads
 https://wikilovesdownloads.toolforge.org/
@@ -1759,21 +1735,6 @@ https://www.instagram.com/guiazz/
 𝐡𝐨𝐧𝐞𝐲 𝐫𝐨𝐬𝐞 ♡ (@honeyroseloves) • Instagram photos and videos
 https://www.instagram.com/honeyroseloves
 
-the stranger book - Google Search
-https://www.google.com/search?q=the+stranger+book&rlz=1C5GCCM_en&oq=the+stranger+book&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQg2MzA2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-books.ms/main/8B936875C09CF0871D3D972E018C10D9
-https://books.ms/main/8B936875C09CF0871D3D972E018C10D9
-
-Zyphra on X: "Today, we're excited to announce a beta release of Zonos, a highly expressive TTS model with high fidelity voice cloning. We release both transformer and SSM-hybrid models under an Apache 2.0 license. Zonos performs well vs leading TTS providers in quality and expressiveness. https://t.co/jaliZNJecm" / X
-https://x.com/ZyphraAI/status/1888996367923888341
-
-Zyphra/Zonos-v0.1-hybrid · Hugging Face
-https://huggingface.co/Zyphra/Zonos-v0.1-hybrid
-
-Zyphra/Zonos-v0.1-transformer · Hugging Face
-https://huggingface.co/Zyphra/Zonos-v0.1-transformer
-
 Zyphra
 https://www.zyphra.com/post/beta-release-of-zonos-v0-1
 
@@ -1825,40 +1786,25 @@ https://github.com/microsoft/CLAP/blob/main/examples/esc50_dataset.py
 ChatGPT
 https://chatgpt.com/
 
-Conference Management Toolkit - Submission details
-https://cmt3.research.microsoft.com/Interspeech2025/Track/1/Submission/Create
+Conference Management Toolkit - Submission Summary
+https://cmt3.research.microsoft.com/Interspeech2025/Submission/Summary/2643
 
-view-source:https://cmt3.research.microsoft.com/Interspeech2025/Track/1/Submission/Create
-view-source:https://cmt3.research.microsoft.com/Interspeech2025/Track/1/Submission/Create
-
-Interspeech 2025 - Home
-https://www.interspeech2025.org/home
+Conference Management Toolkit - Submission Summary
+https://cmt3.research.microsoft.com/Interspeech2025/Submission/Summary/2643
 
 ChatGPT - Overall thesis
 https://chatgpt.com/g/g-p-67a0d4a805d48191ae478cd1cd672552-overall-thesis/c/67ace550-7d64-8011-8d24-b2c2aa4485de
 
-Towards an acoustically-validated phonetic corpus of spoken Swedish. - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/676579705fa8206875f93e38
+Interspeech Paper Kit (1) - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/67a9f52110616d9c616c2f3d
 
 Towards_an_acoustically_validated_phonetic_corpus_of_spoken_Swedish_ (1).pdf
 file:///Users/joregan/Downloads/Towards_an_acoustically_validated_phonetic_corpus_of_spoken_Swedish_%20(1).pdf
 
-Interspeech 2025 - Special Sessions
-https://www.interspeech2025.org/special-sessions
-
 speech Data CCA
 https://sites.google.com/view/speech-data-cca-is25/
 
-ChatGPT - Phonetic corpus paper
-https://chatgpt.com/g/g-p-67ada49d42f48191bfc915747a48a9af-phonetic-corpus-paper/c/67ada663-0954-8011-a9c8-86d81b7406a0
-
-First steps — Montreal Forced Aligner 3.0.0 documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/first_steps/index.html#first-steps
-
-First steps — Montreal Forced Aligner 3.0.0 documentation
-https://montreal-forced-aligner.readthedocs.io/en/latest/first_steps/index.html#first-steps-align-pretrained
-
-Swedish MFA dictionary v3.0.0 — mfa model 3.1.2 documentation
-https://mfa-models.readthedocs.io/en/latest/dictionary/Swedish/Swedish%20MFA%20dictionary%20v3_0_0.html
+Towards an acoustically-validated phonetic corpus of spoken Swedish. - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/676579705fa8206875f93e38
 
 
