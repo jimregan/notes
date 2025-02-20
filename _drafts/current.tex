@@ -1,0 +1,241 @@
+\documentclass{Interspeech}
+
+% 2023-10-21 modified by Simon King (Simon.King@ed.ac.uk)  
+% 2024-01 modified by TPC Chairs of Interspeech 2024  
+% 2024-10 modified by Antoine Serrurier for Interspeech 2025
+% 2024-12 modified by TPC Chairs of Interspeech 2025
+
+% **************************************
+% *    DOUBLE-BLIND REVIEW SETTINGS    *
+% **************************************
+% Comment out \interspeechcameraready when submitting the 
+% paper for review.
+% If your paper is accepted, uncomment this to produce the
+%  'camera ready' version to submit for publication.
+
+% \interspeechcameraready 
+
+
+% **************************************
+% *                                    *
+% *      STOP !   DO NOT DELETE !      *
+% *          READ THIS FIRST           *
+% *                                    *
+% * This template also includes        *
+% * important INSTRUCTIONS that you    *
+% * must follow when preparing your    *
+% * paper. Read it BEFORE replacing    *
+% * the content with your own work.    *
+% **************************************
+
+% title here must exactly match the title entered into the paper submission system
+\title{Challenges in creating a phonetic corpus of Swedish based on parliamentary speeches}
+
+% the order of authors here must exactly match the order entered into the paper submission system
+% note that the COMPLETE list of authors MUST be entered into the paper submission system at the outset, including when submitting your manuscript for double-blind review
+\author[affiliation={1}]{Jim}{O'Regan}
+\author[affiliation={1}]{Jens}{Edlund}
+
+%The maximum number of authors in the author list is 20. If the number of contributing authors is more than this, they should be listed in a footnote or the acknowledgement section.
+
+% if you have too many addresses to fit within the available space, try removing the "\\" newlines
+\affiliation{Division of Speech, Music and Hearing}{KTH Royal Institute of Technology}{Sweden}
+\email{joregan@kth.se, edlund@speech.kth.se}
+\keywords{speech recognition, human-computer interaction, computational paralinguistics}
+
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\usepackage{comment}
+
+\begin{document}
+
+\maketitle
+
+% the abstract here must exactly match the abstract entered into the paper submission system
+\begin{abstract}
+Parliamentary speeches are ...
+Challenging because...
+
+In this document, we describe ongoing work towards the creation of a phonetically transcribed corpus of spoken Swedish, with aims towards
+creating a pronunciation dictionary that takes into account dialectal
+variation. Using speeches from the Swedish Riksdag (Parliament), we use the output of a phonetic recognition system to validate pronunciations for a variety of Swedish dialects.
+\end{abstract}
+
+
+
+
+\section{Introduction}
+
+%Modern lexicography is heavily corpus-based. Amusing examples such as Johnson’s definition of ``oats''\footnote{``A grain, which in England is generally given to horses, but in Scotland supports the people.''} are typically provided to motivate the use of corpora, though definitions cannot be directly derived from a corpus; corpus data is rather used for ordering senses of words according to their importance based on real-world data, and as a source of examples (Johnson's full definition itself was, in a loose sense, corpus-based, as it included 5 example sentences).
+
+%Pronunciation dictionaries, on the other hand, tend to still be created primarily without reference to direct corpus evidence. 
+% There's too much hedging that needs to go into this; Wells' Longman dictionary uses corpus evidence, but in a quite limited way.
+%This is quite understandable, given how recently 
+
+Modern speech technology development is increasingly reliant on large-scale spoken corpora that capture the complexities of natural speech. These corpora serve as foundational resources for linguistic research, automatic speech recognition (ASR), text-to-speech (TTS) systems, and various applications in human-computer interaction. 
+
+Speech technology is increasingly shifting away from the explicit use of phonetic annotation; as larger amounts of data become available, the ability to learn directly from text increases, while too does the potential cost of phonetic annotation for such large speech datasets: the Multilingual LibriSpeech (MLS) dataset~\cite{pratap20_interspeech} includes over 32K hours of English and 4.5K hours for other languages under an open license, while the more recent Emilia dataset~\cite{he2024emilia} includes 101K hours across six languages, albeit not under an open license.
+%However, the creation of phonetically rich and accurate spoken corpora presents several challenges, particularly when dealing with speech of a more spontaneous nature.
+
+Large phonetically annotated corpora are also becoming available, by applying automatic phonetic transcription to existing large speech datasets. IPAPACK~\cite{zhu-etal-2024-taste} offers over 1000 hours across 115 languages, while VoxCommunis~\cite{ahn-chodroff-2022-voxcommunis} offers has around 800 hours across 36 languages, and has been used as the basis for the descriptive analysis of language-specific vowel systems.
+
+These efforts have concentrated on phonetic annotation of read speech, primarily from datasets created as training data for ASR, where the use of forced alignment is feasible.
+
+%While our ultimate aims 
+
+\subsection{Riksdag}
+
+This paper focuses on the development of an annotated corpus derived from speeches delivered in the Swedish Riksdag (Parliament).
+
+The official transcripts comprise the official record of debates in Riksdag, to which are supplemented recordings of the sessions.
+Parliamentary speech, at least in the Swedish case, exists on a continuum between read and spontaneous speech: the official transcripts are prepared from a version of the speech to be read that was filed in advance, but the speaker may diverge from this script in reaction to other events, or based on their own speaking style. Additionally, the transcribers have a style guide that they follow to ensure consistency in the official transcripts.
+
+Representatives to Riksdag come from all parts of Sweden, and tend overwhelmingly to speak using their own dialects. Riksdag recordings are therefore a valuable resource for Swedish dialects, with the notable exception of Finland Swedish.
+
+Although under Swedish law voice recordings are considered personal data, the considerations of public interest in matters of government supersede the usual protections. Similarly, the drive towards open government data means that the speeches and their transcripts are provided to the public under terms similar to, and compatible with the Creative Commons Attribution license, allowing for datasets created using them to be distributed as open data.
+
+In our initial phase, we concentrate on the speeches delivered in the period from 2012 to 2022, from which we located 5,925 hours of raw video via the Riksdag API. In addition to the videos provided since 2022, we have downloaded videos from the previous 10 years, which await processing. In addition to the 20+ years of video made available through Riksdag's website and API, we have been provided with archival material that was digitized from video and audio tapes with recordings dating back to 1966.
+
+% Here: 
+
+%In the context of Swedish parliamentary speech, the nature of the data introduces unique complexities. Parliamentary speeches, especially those from the Swedish Riksdag, typically fall somewhere between read speech and spontaneous speech. While speakers often prepare scripts that form the basis for official transcripts, real-world delivery frequently diverges from these texts due to hesitations, false starts, mid-sentence repairs, prosodic variations, and other spontaneous speech phenomena. These divergences are critical for linguistic analysis and for the development of robust speech technologies but are often overlooked in corpora based solely on official transcripts.
+
+This paper focuses on the development of a phonetically annotated corpus derived from Swedish parliamentary speeches. In the current phase, we concentrate on speeches recorded between 2012 and 2022.
+Our work began within the framework of the SweTerror project, which initially concentrated on analyzing the official transcripts of these speeches. However, as our research progressed, it became evident that the transcripts alone were insufficient for capturing the full range of speech behaviors present in the audio recordings. By employing ASR systems and forced alignment techniques, we aimed to explore the discrepancies between scripted and spoken language and to identify speech artifacts—such as false starts, hesitations, and spontaneous reductions—that are often critical for both linguistic research and speech technology applications.
+
+The primary objectives of this research are twofold. First, we seek to create a phonetically annotated corpus that can serve as a foundation for the development of an improved phonetic dictionary with clear provenance. Existing phonetic dictionaries often contain inconsistencies and inaccuracies, particularly in their treatment of dialectal variations and spontaneous speech features. By grounding our dictionary in real speech data, we aim to enhance its reliability and utility for both researchers and practitioners.
+
+Second, we aim to investigate the effects of speech rate on pronunciation. In many languages, including Swedish, faster speech is associated with systematic phonetic reductions that are not captured merely by speeding up the playback of pre-recorded or synthesized speech. Understanding these reductions is crucial for improving TTS systems and other speech technologies, which often fail to replicate the natural prosodic and articulatory patterns that occur in fast speech.
+
+This paper is structured as follows: Section 2 details the data sources and initial motivations for the project, including the role of the SweTerror project. Section 3 outlines the methodologies employed, including the ASR system setup, forced alignment techniques, and approaches to phonetic annotation. Section 4 discusses the challenges encountered in developing the spoken corpus, with a focus on the complexities introduced by spontaneous speech features. Section 5 presents a case study on the impact of speech rate on pronunciation, highlighting implications for both speech science and technology. Finally, Sections 6 and 7 outline future research directions and summarize the broader contributions of this work.
+
+
+\cite{tannander2025braxen}
+
+The Current British English (CUBE)\footnote{\href{http://seas.elte.hu/cube/}{http://seas.elte.hu/cube/}} includes a single example per word, via Youglish\footnote{\href{https://youglish.com/}{https://youglish.com/}}, a site which indexes transcribed videos (text only) to provide pronunciation examples for learners. CUBE provides a phonetic transcription that matches the pronunciation given in that particular example.
+
+``Ordbok över Finlands svenska folkmål'' \textit{(Dictionary of Finland Swedish Vernacular)}\footnote{\href{https://kaino.kotus.fi/fo/}{https://kaino.kotus.fi/fo/}} which includes pronunciations by dialect, where available, with a phonetic transcription of example sentences that have been transcribed from field recordings. In its current form, however, there is no reference to the source audio from which the transcription was made.
+
+%corpora
+
+
+
+%%prompt
+%The practical motivation here is a limitation I found in an existing lexicon.
+%I was attempting to use phonetic transcription of the audio as a secondary form of validation: in many places, for reasons that need to be mentioned elsewhere in the document, there is a mismatch between the official transcript and what was actually spoken.
+%I attempted to use the Wikipron dictionary for Swedish to validate the phonetic "words" that the phonetic recogniser produced, and it was noticed when looking at the top number of pairs (word, phonetic transcription) that the word "och" was missing, which is an extremely high frequency word in Swedish. On checking the word in Wiktionary, from which the Wikipron lexicon was extracted, it turned out that the only phonetic transcription for the word was a dialectal form that does not correspond with how the majority of Swedish speakers pronounce it.
+%%/prompt
+%%chatgpt
+%Practical Motivation: Limitations in Existing Lexicons
+%A limitation was found in the Wikipron dictionary for Swedish while attempting to use phonetic transcription as a secondary validation method.
+%Many instances showed a mismatch between the official transcript and what was actually spoken.
+%When validating the phonetic "words" recognized from speech, it was discovered that the high-frequency word "och" (and) was missing from the dictionary.
+%Investigation revealed that the English edition of Wiktionary, the source for the Wikipron lexicon, only provided a dialectal pronunciation of "och," which does not correspond to the pronunciation used by the majority of Swedish speakers.
+%%/chatgpt
+
+%Comes later, relevant?
+Wiktionary can have quite a high degree of variability when it comes to pronunciation. To take the case of Irish as an example, a number of entries in the English edition have entries that include pronunciation information with citations to phonetic descriptions, many of which are out of copyright, and have been digitised and transcribed by a single editor precisely for the purpose of providing these citations; this level of provenance is precisely what we wish to provide for Swedish. That said, many other entries lack such provenance, and the pronunciation information is quite dubious. 
+
+Wikipron
+- does not preserve provenance information
+- limited preservation of dialectal information (en-US vs en-GB, but otherwise?)
+- inherits limitations of wiktionary
+(How many of these are mentioned in the paper?)
+
+
+\subsection{Practical motivation}
+
+In more practical terms, our present efforts are the result of efforts to compensate for the divergences between the official transcript and the output of speech recognition.
+
+One [blah blah make the thing] was to use the output from WikiPron~\cite{lee-etal-2020-massively}
+
+\subsection{Data}
+
+\subsubsection{Waxholm}
+To train a phonetic recognition system, we used the data created in the Waxholm~\cite{bertenstam1995waxholm} project, a project to create a dialog system to provide information on boat traffic in the Stockholm archipelago.
+
+Speech recognition was not integrated into the original demonstrator application, which was replaced with Wizard-of-Oz techniques; participants were aware of the wizard~\cite{blomberg1993waxholm}. All utterances are accompanied by a first-pass phonetic transcription, produced by the same lexical components employed in the text-to-speech component of the system. A second-pass transcription was created by trained phoneticians, who refined the first pass to more exactly match the utterances. Although most of the sentences were the result of interactions with the system, as a means of collecting data for the speech recognition component, an additional number of phonetically rich sentences were read by the participants, to ensure coverage of the phoneset to be employed. Both the orthographic and phonetic transcriptions include annotations of non-speech sounds, such as filled pauses, breaths, coughs, and hesitation noises.
+
+The audio was recorded using Wavesurfer~\cite{sjolander2000wavesurfer} and saved in the ``\texttt{smp}'' format. We converted the audio to wav by replacing the header and swapping the bytes of each 16-bit sample. No further processing was applied to the audio. In total, there is slightly more than 2 hours of transcribed audio.
+
+\subsubsection{Folkets}
+
+``Folkets lexicon'' (\textit{The People's Dictionary})\footnote{\url{https://folkets-lexikon.csc.kth.se/folkets/folkets.html}} is an open-content crowd-sourced bilingual dictionary for both English-Swedish and Swedish-English, based on a pair of dictionaries originally published by Språkrådet (The Language Council of Sweden). The dictionaries were designed for use by learners, and include pronunciation information for a large number of the original items
+
+
+%``Today, every reputable dictionary makes at least some use of corpus evidence''~\cite{Hanks_2020}. This is true not only in the case of monolingual dictionaries, in the selection and ordering of word senses, but also in bilingual dictionaries (e.g., \cite{OMianainConvery2014}).
+%Where this is not true, however, is in the case of the pronunciation dictionary.
+
+%In addition to direct use by a human reader, pronunciation dictionaries are used in many areas of speech technology, for example, in text-to-speech (TTS) and computer-assisted pronunciation training (CAPT).
+
+Although dedicated pronunciation dictionaries intended for human readers are somewhat rare, they are available for use in several areas of speech technology, for example, in text-to-speech (TTS) and computer-assisted pronunciation training (CAPT).
+
+Like other types of dictionary, pronunciation dictionaries are difficult and expensive to create manually, and where they exist, they typically tend to be restricted to one or two standard dialects.
+%The orthographies of languages that use an alphabetic script typically follow a known set of rules, and computer programs for grapheme-to-phoneme (G2P) conversion can automate the creation of pronunciation dictionaries, though how effectively depends on the orthography of the language in question, and pronunciation dictionaries for technological purposes typically require pronunciations for words that do not follow the rules of the language proper, such as foreign names.
+
+Languages with an alphabetic script typically follow a known set of rules, and grapheme-to-phoneme (G2P) conversion can automate the creation of pronunciation dictionaries, though how effectively depends on the orthography of the language in question, and dictionaries for technological purposes typically require pronunciations for words that do not follow the rules of the language proper, such as foreign names.
+
+These rules can be augmented in stages to handle dialectal variation, assimilation to adjoining words, adjustments in speaking rate, etc., but the interactions between these rules can lead to a large number of possible candidate pronunciations, not all of them realistic.
+
+%Languages with a \textit{transparent} orthography, such as Italian or Spanish, require little effort, as there is a simple and regular mapping from the standard written form of the language to phonetic symbols that represent the pronunciation. Orthographically opaque languages, such as English and, to a lesser extent, Swedish, have a less obvious mapping, and often words need to be 
+%Swedish has an opaque orthography; 
+Although Swedish has relatively few truly exceptional pronunciations, it has a ``deep'' orthography: for example, with some loanwords it can be necessary to know the donor language to predict the pronunciation. Many words can have multiple valid pronunciations which depend on speaking rate or register; as with most other languages, the pronunciations of words in connected speech change depending on the adjoining words.
+
+Swedish is part of a dialect continuum with Danish and Norwegian, and there are Swedish dialects that share features with both of these languages. The Stockholm dialect is typically considered the standard dialect of Swedish, and existing pronunciation dictionaries tend to target it exclusively.
+
+Our aim in this work is to construct a corpus of phonetically annotated spoken Swedish, representing multiple dialects, and with provenance in the form of identifiers pointing to the source of each speech, with timestamps for each spoken word.
+
+Our initial aim is to create pronunciation dictionaries for use in text-to-speech, but the corpus itself is of general interest for the study of Swedish in particular, and we aim for it to be of interest for speech science more generally.
+
+%The work on this corpus came about somewhat accidentally, as a by-product of an effort to create bespoke speech recognition models for parliamentary speech for Swedish, and, as part of 
+
+
+
+\section{Method}
+
+Because the official transcripts are not always an exact representation of the speech that was delivered, we used speech recognition on the recordings of each speech to find matching sentences, using the model described by~\cite{malmstenHearingVoicesNational2022}, based on wav2vec 2~\cite{baevski2020wav2vec2}.
+
+In addition to simple matches, we ran a number of filters in a number of stages on the unmatched portions to account for a number of phenomena, such as pairs of sentences being joined, denormalisation (numbers, abbreviations, etc.), alternate spellings, predictable recognition errors, and so on.
+
+To create the phonetic transcriptions, we fine-tuned the same model on the phonetic transcriptions of the Waxholm dataset~\cite{bertenstamSpokenDialogueData1995}, which we aligned to the validated sentences using timestamps.
+
+The resulting pairs of word and transcription are then compared against a reference pronunciation, possibly generated and/or expanded using a variety of rule sets to account for assimilation, speaking rate, and dialect.
+
+\section{Ongoing work}
+
+Our work to date has concentrated on the recordings made from 2010 to 2020; almost 50 years of further recordings are available. The older recordings have been digitised, both from audio and video recordings.
+
+Much of our current focus is on extracting more sentences from the data we have, to maximise our use of the remaining data. A great number of sentences in the data differ only in the placement of a phrase: for example, what appears at the end of a sentence in the transcript might have been read at the start of the same sentence. We are investigating the use of dependency parsing to locate such cases, as they ought to appear as different serialisations of the same tree.
+
+A second phonetic recognition pass is being planned using Montreal Forced Aligner (MFA)~\cite{mcauliffe17_interspeech}. One limitation of the model we used is that the large size of the context window can sometimes cause short sounds to be discarded. Older methods, such as those used in MFA, use a shorter window and are less prone to discarding such sounds.
+MFA also provides phoneme-level timestamps. Swedish is a language with pitch accent, and while tools exist to extract pitch information, having the ability to align the pitch contour to the vowels of the word will greatly help in making determinations of which accent applies to a word.
+
+%We also plan to train a set of dialect-specific grapheme-to-phoneme models based on the data so far extracted, which
+
+%As the transcripts do not always follow exactly what was spoken, we use speech recognition to filter the input, using 
+%bertenstamSpokenDialogueData1995
+
+%Initially, our use of phonetic transcription was intended as a way
+%to get an extra layer of validation.
+
+%Thing~\cite{johnson2013speech}
+
+%We started to use phonetic transcription as a ``tie-breaker''
+
+%The paper describing the construction of the dataset used to train Whisper contains little detail on its sources, except that it is constructed ``from audio that is paired with transcripts on the Internet''~\cite{radford23whisper}. This potentially includes Riksdag speeches, either through Riksdag's own website or through its Youtube channels. For this reason, we prefer not to use Whisper's output when a 
+%transcript is available, as the output may have been memorised. Conversely, we observe that while the convention of the Riksdag transcribers is to start each speech with ``Talman!'' (``Speaker!''), in reality, all speeches tend to start with ``Herr/fru Talman!'' (''Mister/Madam speaker''); that Whisper tends to render both merely as ``Talman'' indicates that
+
+\section{Acknowledgements}
+%Acknowledgement should only be included in the camera-ready version, not in the version submitted for review. The 5th page is reserved exclusively for acknowledgements and  references. No other content must appear on the 5th page. Appendices, if any, must be within the first 4 pages. The acknowledgments and references may start on an earlier page, if there is space.
+
+% \ifinterspeechfinal
+%      The Interspeech 2025 organisers
+% \else
+%      The authors
+% \fi
+% would like to thank ISCA and the organising committees of past Interspeech conferences for their help and for kindly providing the previous version of this template.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{mybib}
+
+\end{document}
