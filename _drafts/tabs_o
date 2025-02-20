@@ -124,12 +124,6 @@ https://play.max.com/show/5756c2bf-36f8-4890-b1f9-ef168f1d8e9c
 microsoft/SpeechT5: Unified-Modal Speech-Text Pre-Training for Spoken Language Processing
 https://github.com/microsoft/SpeechT5?tab=readme-ov-file
 
-[2404.00656] WavLLM: Towards Robust and Adaptive Speech Large Language Model
-https://arxiv.org/abs/2404.00656
-
-[2110.07205] SpeechT5: Unified-Modal Encoder-Decoder Pre-Training for Spoken Language Processing
-https://arxiv.org/abs/2110.07205
-
 Fine-tuning SpeechT5 - Hugging Face Audio Course
 https://huggingface.co/learn/audio-course/en/chapter6/fine-tuning
 
@@ -193,8 +187,11 @@ https://github.com/Dao-AILab/causal-conv1d/blob/main/causal_conv1d/causal_conv1d
 Bríd na nAmhrán - Leathanach 1 | Leigh Leat
 https://www.leighleat.com/pages/328
 
-Irish Pronunciation Database: Taoch
-https://www.teanglann.ie/en/fuaim/Taoch
+Irish Pronunciation Database: taoide
+https://www.teanglann.ie/en/fuaim/taoide
+
+jimregan/wav2vec2-fuaimeanna-phonetic · Hugging Face
+https://huggingface.co/jimregan/wav2vec2-fuaimeanna-phonetic
 
 Leabhar mhí na Bealtaine 2018 | Extract from the book | ClubLeabhar.com
 https://www.clubleabhar.com/leabharPDF.aspx?id=88&pdf=sliocht
@@ -727,15 +724,6 @@ https://github.com/rahulunair/huggingface_wav2vec/blob/master/Dockerfile
 Phonetic transcription with HuggingFace | notes
 https://jimregan.github.io/notes/phonetic/espeak/wav2vec2/huggingface/timestamps/2022/10/18/wav2vec2-phonetic-transcription.html
 
-WhisperX using diarisation instead of VAD | notes
-https://jimregan.github.io/notes/whisperx/diarisation/hsi/2024/07/26/whisperx-reverse-diarisation.html
-
-MT trained on crawled data still sucks | notes
-https://jimregan.github.io/notes/mt/m2m/2024/08/02/mt-on-google-translated-data-still-sucks.html
-
-Waxholm lexicon processing | notes
-https://jimregan.github.io/notes/swedish/waxholm/lexicon/2023/12/15/waxholm-lexicon.html
-
 The People's Dictionary
 https://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&exemplifierar&1
 
@@ -1162,12 +1150,6 @@ https://github.com/microsoft/CLAP/blob/main/examples/esc50_dataset.py
 Interspeech Paper Kit (1) - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67a9f52110616d9c616c2f3d
 
-Under review
-file:///Users/joregan/Downloads/Interspeech_Paper_Kit__1_%20(2).pdf
-
-Under review
-file:///Users/joregan/Downloads/Interspeech_Paper_Kit__1_%20(1).pdf
-
 speech Data CCA
 https://sites.google.com/view/speech-data-cca-is25/
 
@@ -1283,10 +1265,10 @@ Department of Psychology
 https://buckeyecorpus.osu.edu/php/publications.php
 
 My uploads
-https://www.slideshare.net/jimregan/edit_my_uploads?page=3
+https://www.slideshare.net/jimregan/edit_my_uploads?page=1
 
 Preparations for the automatic transcription of 50 years of parliamentary speech recordings | PPT
-https://www.slideshare.net/slideshow/preparations-for-the-automatic-transcription-of-50-years-of-parliamentary-speech-recordings/272674236#8
+https://www.slideshare.net/slideshow/preparations-for-the-automatic-transcription-of-50-years-of-parliamentary-speech-recordings/272674236#14
 
 Towards quality transcriptions of large limited domain archive data | PPT
 https://www.slideshare.net/slideshow/towards-quality-transcriptions-of-large-limited-domain-archive-data/269501043#2
@@ -1434,5 +1416,41 @@ https://www.google.com/search?q=Liberman%2C+M.+(2009).+A+New+Golden+Age+of+Phone
 
 Phonetic corpus paper - Speech Data Challenges Summary
 https://chatgpt.com/g/g-p-67ada49d42f48191bfc915747a48a9af-phonetic-corpus-paper/c/67b38088-5434-8011-a873-3a6ae7681db2
+
+(gan ábhar) - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
+https://mail.google.com/mail/u/3/#sent/KtbxLthNTNfCFszjMnwVTMLxttpvZGqFGq
+
+OWSM v3.1: Better and Faster Open Whisper-Style Speech Models based on E-Branchformer
+https://arxiv.org/pdf/2401.16658
+
+Models - Hugging Face
+https://huggingface.co/models?pipeline_tag=text-to-speech
+
+Emilia Demo Page
+https://emilia-dataset.github.io/Emilia-Demo-Page/
+
+Cross-Dialect Text-to-Speech In Pitch-Accent Language Incorporating Multi-Dialect Phoneme-Level Bert | IEEE Conference Publication | IEEE Xplore
+https://ieeexplore.ieee.org/document/10832155
+
+(2) Home / X
+https://x.com/home
+
+x.com/P_Kallioniemi/status/1892206525533360277
+https://x.com/P_Kallioniemi/status/1892206525533360277
+
+x.com/Mylovanov/status/1892167978147324045
+https://x.com/Mylovanov/status/1892167978147324045
+
+x.com/atrupar/status/1892269593244422631
+https://x.com/atrupar/status/1892269593244422631
+
+x.com/yanisvaroufakis/status/1892126022901825915
+https://x.com/yanisvaroufakis/status/1892126022901825915
+
+x.com/PSAFLIVE/status/1892107870814011772
+https://x.com/PSAFLIVE/status/1892107870814011772
+
+Bara.bangers (@bara.bangers) • Instagram photos and videos
+https://www.instagram.com/bara.bangers/reels/
 
 
