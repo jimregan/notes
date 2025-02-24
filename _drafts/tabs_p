@@ -283,31 +283,46 @@ https://huggingface.co/datasets/KBLab/rixvox-v2
 Teeveeing
 https://app.teeveeing.com/cvr/5138567
 
-Maslenitsa - Wikipedia
-https://en.wikipedia.org/wiki/Maslenitsa
+raw.githubusercontent.com/jimregan/sync-asr/refs/heads/main/data/wikidata/person_riksdagid_placeofbirth.sparql
+https://raw.githubusercontent.com/jimregan/sync-asr/refs/heads/main/data/wikidata/person_riksdagid_placeofbirth.sparql
 
-maslenitsa effigy - Google Search
-https://www.google.com/search?sca_esv=6193782e9d54fa0a&rlz=1C5GCCM_en&sxsrf=AHTn8zpwnapkrBQauLsmiMAnrlDLmJRgHg:1740419533161&q=maslenitsa+effigy&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBjLjqIC1CYKD9D-DQAQS3Z5nkcztToAJskUTzgzygXUcb3CElXe95vYdAEhr7NsSuS_0-mM0H7dZuxHrvJEXdiaH6hr3_EZ678rbZXgKW95fE4mmWyhwHF8lyAxqqXxv9FEYvbTWNSdurDdrsKy0CK5qRZdL&sa=X&ved=2ahUKEwjf4KKA8NyLAxVyHBAIHSsAPHkQtKgLegQIHxAB&biw=1440&bih=728&dpr=2#vhid=1YYKXy7OXEqsXM&vssid=mosaic
+Wikidata Query Service
+https://query.wikidata.org/#SELECT%20%3Fperson%20%3Friksdagid%20%3Fpob%20%3FpobCoordinates%20%3FswedishWikipedia%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20wdt%3AP1214%20%3Friksdagid.%0A%20%20%20%20OPTIONAL%20%7B%20%0A%20%20%20%20%20%20%20%20%3Fperson%20wdt%3AP19%20%3Fpob.%0A%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Fpob%20wdt%3AP625%20%3FpobCoordinates.%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3FswedishWikipedia%20schema%3Aabout%20%3Fperson%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E.%0A%20%20%20%20%7D%0A%7D
 
-Maslenitsa (Pancake week) at the dacha
-https://bridgetomoscow.com/upcoming-group-tours/maslenitsapancake-week-at-the-dacha
+Redigerar Carina Hägg – Wikipedia
+https://sv.wikipedia.org/w/index.php?title=Carina_H%C3%A4gg&action=edit
 
-4118.jpg (520×360)
-https://bridgetomoscow.com/files/200/4118.jpg
+Enskede-Årsta parish - Wikidata
+https://www.wikidata.org/wiki/Q3438599
 
-pancake tuesday 2025 - Google Search
-https://www.google.com/search?q=pancake+tuesday+2025&rlz=1C5GCCM_en&oq=pancake+tuesday&gs_lcrp=EgZjaHJvbWUqDAgAEAAYRhj7ARiABDIMCAAQABhGGPsBGIAEMgkIARBFGDkYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQg0MDgxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+Wikidata uppdatering Python skript
+https://chatgpt.com/c/67bcbc8b-ce90-8011-99ad-d10b5ad9a860
 
-tłusty czwartek 2025 - Google Search
-https://www.google.com/search?q=t%C5%82usty+czwartek+2025&rlz=1C5GCCM_en&oq=tlusty+&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1MzVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Agne Hansson - Wikidata
+https://www.wikidata.org/w/index.php?title=Q4692974&oldid=2316373489
 
-slack reaction image crop - Google Search
-https://www.google.com/search?q=slack+rection+image+crop&sca_esv=6193782e9d54fa0a&rlz=1C5GCCM_en&sxsrf=AHTn8zrW7RsNJfjxqwFHGuShq6-PM9mpLw%3A1740419583898&ei=_7G8Z-S8NvKRwPAPu7PmkA8&ved=0ahUKEwikuLuY8NyLAxXyCBAIHbuZGfIQ4dUDCBA&uact=5&oq=slack+rection+image+crop&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHNsYWNrIHJlY3Rpb24gaW1hZ2UgY3JvcDIFEAAY7wUyCBAAGKIEGIkFMgUQABjvBTIIEAAYgAQYogQyCBAAGIAEGKIESJsTUMMGWJgRcAF4AZABAJgBX6AB8wSqAQE4uAEDyAEA-AEBmAIIoAK0BMICChAAGLADGNYEGEfCAggQABgIGA0YHsICCxAAGIAEGIYDGIoFwgIIECEYoAEYwwTCAgoQIRigARjDBBgKmAMAiAYBkAYIkgcBOKAH2iI&sclient=gws-wiz-serp
+Lönneberga - Wikidata
+https://www.wikidata.org/wiki/Q10572851
 
-Add customised emoji and aliases to your workspace | Slack
-https://slack.com/intl/en-gb/help/articles/206870177-Add-customised-emoji-and-aliases-to-your-workspace
+Wikidata:Dataset Imports - Wikidata
+https://www.wikidata.org/wiki/Wikidata:Dataset_Imports
 
-Square Crop Your Image Online for free
-https://imagy.app/square-crop/
+Wikidata Query Service
+https://query.wikidata.org/embed.html#SELECT%20%3Fperson%20%3Friksdagid%20%3Fpob%20%3FpobCoordinates%20%3FswedishWikipedia%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20wdt%3AP1214%20%3Friksdagid.%0A%20%20%20%20OPTIONAL%20%7B%20%0A%20%20%20%20%20%20%20%20%3Fperson%20wdt%3AP19%20%3Fpob.%0A%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Fpob%20wdt%3AP625%20%3FpobCoordinates.%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3FswedishWikipedia%20schema%3Aabout%20%3Fperson%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E.%0A%20%20%20%20%7D%0A%7D
+
+Google Cloud Text to Speech (TTS) - Can't Get Phonemes to Work - Stack Overflow
+https://stackoverflow.com/questions/62219880/google-cloud-text-to-speech-tts-cant-get-phonemes-to-work
+
+Speech Synthesis Markup Language (SSML)  |  Cloud Text-to-Speech API  |  Google Cloud
+https://cloud.google.com/text-to-speech/docs/ssml
+
+How to use Phonetic or Phoneme pronunciation in google text to speech? - Stack Overflow
+https://stackoverflow.com/questions/55709486/how-to-use-phonetic-or-phoneme-pronunciation-in-google-text-to-speech/69374316#69374316
+
+How to use Phonetic or Phoneme pronunciation in google text to speech? - Stack Overflow
+https://stackoverflow.com/questions/55709486/how-to-use-phonetic-or-phoneme-pronunciation-in-google-text-to-speech/78848752#78848752
+
+Speech phonetic alphabets - Speech service - Azure AI services | Microsoft Learn
+https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-ssml-phonetic-sets#en-gben-ieen-au
 
 
