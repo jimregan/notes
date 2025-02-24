@@ -283,33 +283,6 @@ https://huggingface.co/datasets/KBLab/rixvox-v2
 Teeveeing
 https://app.teeveeing.com/cvr/5138567
 
-raw.githubusercontent.com/jimregan/sync-asr/refs/heads/main/data/wikidata/person_riksdagid_placeofbirth.sparql
-https://raw.githubusercontent.com/jimregan/sync-asr/refs/heads/main/data/wikidata/person_riksdagid_placeofbirth.sparql
-
-Wikidata Query Service
-https://query.wikidata.org/#SELECT%20%3Fperson%20%3Friksdagid%20%3Fpob%20%3FpobCoordinates%20%3FswedishWikipedia%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20wdt%3AP1214%20%3Friksdagid.%0A%20%20%20%20OPTIONAL%20%7B%20%0A%20%20%20%20%20%20%20%20%3Fperson%20wdt%3AP19%20%3Fpob.%0A%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Fpob%20wdt%3AP625%20%3FpobCoordinates.%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3FswedishWikipedia%20schema%3Aabout%20%3Fperson%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E.%0A%20%20%20%20%7D%0A%7D
-
-Redigerar Carina Hägg – Wikipedia
-https://sv.wikipedia.org/w/index.php?title=Carina_H%C3%A4gg&action=edit
-
-Enskede-Årsta parish - Wikidata
-https://www.wikidata.org/wiki/Q3438599
-
-Wikidata uppdatering Python skript
-https://chatgpt.com/c/67bcbc8b-ce90-8011-99ad-d10b5ad9a860
-
-Agne Hansson - Wikidata
-https://www.wikidata.org/w/index.php?title=Q4692974&oldid=2316373489
-
-Lönneberga - Wikidata
-https://www.wikidata.org/wiki/Q10572851
-
-Wikidata:Dataset Imports - Wikidata
-https://www.wikidata.org/wiki/Wikidata:Dataset_Imports
-
-Wikidata Query Service
-https://query.wikidata.org/embed.html#SELECT%20%3Fperson%20%3Friksdagid%20%3Fpob%20%3FpobCoordinates%20%3FswedishWikipedia%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20wdt%3AP1214%20%3Friksdagid.%0A%20%20%20%20OPTIONAL%20%7B%20%0A%20%20%20%20%20%20%20%20%3Fperson%20wdt%3AP19%20%3Fpob.%0A%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Fpob%20wdt%3AP625%20%3FpobCoordinates.%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%20%20%3FswedishWikipedia%20schema%3Aabout%20%3Fperson%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20schema%3AisPartOf%20%3Chttps%3A%2F%2Fsv.wikipedia.org%2F%3E.%0A%20%20%20%20%7D%0A%7D
-
 Google Cloud Text to Speech (TTS) - Can't Get Phonemes to Work - Stack Overflow
 https://stackoverflow.com/questions/62219880/google-cloud-text-to-speech-tts-cant-get-phonemes-to-work
 
@@ -324,5 +297,77 @@ https://stackoverflow.com/questions/55709486/how-to-use-phonetic-or-phoneme-pron
 
 Speech phonetic alphabets - Speech service - Azure AI services | Microsoft Learn
 https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-ssml-phonetic-sets#en-gben-ieen-au
+
+geopy/geopy: Geocoding library for Python.
+https://github.com/geopy/geopy
+
+Swedish dialects - Wikipedia
+https://en.wikipedia.org/wiki/Swedish_dialects
+
+Swedish_dialects.PNG (393×559)
+https://upload.wikimedia.org/wikipedia/commons/3/3c/Swedish_dialects.PNG
+
+Svenska Dagbladet - Wikipedia
+https://en.wikipedia.org/wiki/Svenska_Dagbladet
+
+Svenska Dagbladet's dialect project. - Google Search
+https://www.google.com/search?q=Svenska+Dagbladet%27s+dialect+project.&rlz=1C5GCCM_en&oq=Svenska+Dagbladet%27s+dialect+project.&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEHMTc4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Intervju Svenska Dagbladet: Skaffa en låtsaskompis - ett tips för att lära dig nya språk snabbt - Lund University
+https://portal.research.lu.se/en/activities/intervju-svenska-dagbladet-skaffa-en-l%C3%A5tsaskompis-ett-tips-f%C3%B6r-at
+
+Intervju Svenska Dagbladet: Skaffa en låtsaskompis - ett tips för att lära dig nya språk snabbt - Lund University
+https://portal.research.lu.se/en/activities/intervju-svenska-dagbladet-skaffa-en-l%C3%A5tsaskompis-ett-tips-f%C3%B6r-at
+
+Språkforskning blir rentav roligt | SvD
+https://www.svd.se/a/d940cfbe-3f26-3a1e-8de5-4a4420a9127a/sprakforskning-blir-rentav-roligt
+
+SvD accent
+https://accent.svd.se/
+
+INMA: Svenska Dagbladet embraces audio to increase engagement
+https://www.inma.org/blogs/Generative-AI-Initiative/post.cfm/svenska-dagbladet-embraces-audio-to-increase-engagement
+
+Kartläggning av dialekter
+https://chatgpt.com/c/67bcc746-0640-8011-bea0-71cc92b10f37
+
+Web GIS Mapping Software | Create Web Maps with ArcGIS Online
+https://www.esri.com/en-us/arcgis/products/arcgis-online/overview
+
+Thank you for choosing QGIS! · QGIS Web Site
+https://qgis.org/download/thank-you/
+
+Open Source - GIS | University of Gothenburg
+https://www.gu.se/en/study-gothenburg/open-source-gis-ngn220
+
+Tracing Features in QGIS - YouTube
+https://www.youtube.com/watch?v=wPO8nc-LB2c
+
+Web AI Next.js segmentation example
+https://web-ai-demo.vercel.app/demos/segment-anything
+
+swedish dialect map - Google Search
+https://www.google.com/search?q=swedish+dialect+map&rlz=1C5GCCM_en&oq=swedish+dialect+&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyBggCEEUYQDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPNIBCDM1NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+File:Simplified map of dialects in Sweden.png - Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Simplified_map_of_dialects_in_Sweden.png
+
+Språkbanken CLARIN
+https://sprakbanken-clarin.lingfil.uu.se/
+
+swedish dialect map svg - Google Search
+https://www.google.com/search?q=swedish+dialect+map+svg&rlz=1C5GCCM_en&oq=swedish+dialect+map+svg&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBdIBCDQzNzRqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+
+File:Swedish language map.svg - Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Swedish_language_map.svg
+
+Category:Linguistic maps of the Swedish language - Wikimedia Commons
+https://commons.wikimedia.org/wiki/Category:Linguistic_maps_of_the_Swedish_language
+
+File:Sv-dialects.PNG - Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Sv-dialects.PNG
+
+Swedish dialects... : r/Svenska
+https://www.reddit.com/r/Svenska/comments/3r67eo/swedish_dialects/
 
 
