@@ -222,6 +222,5 @@ doi = {10.5334/bbi.15}
 [Digital Archive of Pictures](https://www.keptar.oszk.hu/indexeng.phtml)
 
 [FoQA: A Faroese Question-Answering Dataset](https://arxiv.org/abs/2502.07642),
-[code](https://github.com/alexandrainst/foqa),
-[dataset](https://huggingface.co/datasets/alexandrainst/foqa)
+[code](https://github.com/alexandrainst/foqa)
 
