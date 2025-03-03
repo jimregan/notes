@@ -197,4 +197,31 @@ doi = {10.5334/bbi.15}
 
 [AbrahamSanders/codec-bpe](https://github.com/AbrahamSanders/codec-bpe) --- Implementation of Acoustic BPE (Shen et al., 2024), extended for RVQ-based Neural Audio Codecs
 
+[Undergraduate Upends a 40-Year-Old Data Science Conjecture](https://www.quantamagazine.org/undergraduate-upends-a-40-year-old-data-science-conjecture-20250210/)
+
+[https://www.wikidata.org/w/index.php?title=Special:WhatLinksHere/Q56216056&limit=50&offset=120%7C110214728&dir=next](Pages that link to "Q56216056") --- Wikidata property to identify lexicographical entities (Q56216056)
+
+[implemente batch decode for owsm-ctc](https://github.com/espnet/espnet/commit/95dcc722b7c23dad2a7c980b9c3f8e7a453994bf)
+
+[Some of My Best Friends Are Linguists](https://www.jstor.org/stable/30200539?seq=1)
+
+[Generative AI and the Automating of Academia](https://link.springer.com/article/10.1007/s42438-023-00440-6)
+
+[VoxCommunis: A Corpus for Cross-linguistic Phonetic Analysis](https://aclanthology.org/2022.lrec-1.566/)
+
+[Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model](https://arxiv.org/abs/2502.10248),
+[model](https://huggingface.co/stepfun-ai/stepvideo-t2v)
+
+[Turn your Jupyter Notebook into interactive Presentation Slides using Anaconda](https://digitalhumanities.hkust.edu.hk/tutorials/turn-your-jupyter-notebook-into-interactive-presentation-slides-using-anaconda/)
+
+[Introduction to Linear Prediction](https://www.youtube.com/watch?v=InVbYsX7Qjk)
+
+[The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language](https://arxiv.org/abs/2311.08323),
+[code](https://github.com/lingjzhu/clap-ipa)
+
+[Digital Archive of Pictures](https://www.keptar.oszk.hu/indexeng.phtml)
+
+[FoQA: A Faroese Question-Answering Dataset](https://arxiv.org/abs/2502.07642),
+[code](https://github.com/alexandrainst/foqa),
+[dataset](https://huggingface.co/datasets/alexandrainst/foqa)
 
