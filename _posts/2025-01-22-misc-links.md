@@ -224,3 +224,9 @@ doi = {10.5334/bbi.15}
 [FoQA: A Faroese Question-Answering Dataset](https://arxiv.org/abs/2502.07642),
 [code](https://github.com/alexandrainst/foqa)
 
+[Self-Supervised Contrastive Learning for Unsupervised Phoneme Segmentation](https://arxiv.org/abs/2007.13465),
+[code](https://github.com/felixkreuk/UnsupSeg)
+
+[LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation](https://arxiv.org/abs/2502.20583),
+[code](https://github.com/efeslab/LiteASR)
+
