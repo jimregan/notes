@@ -230,3 +230,12 @@ doi = {10.5334/bbi.15}
 [LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation](https://arxiv.org/abs/2502.20583),
 [code](https://github.com/efeslab/LiteASR)
 
+[Grounded SAM: Assembling Open-World Models for Diverse Visual Tasks](https://arxiv.org/abs/2401.14159),
+[code](https://github.com/IDEA-Research/Grounded-Segment-Anything)
+
+[Prompt What You Need: Enhancing Segmentation in Rainy Scenes with Anchor-based Prompting](https://arxiv.org/abs/2305.03902)
+
+[SAMPolyBuild: Adapting the Segment Anything Model for polygonal building extraction](https://www.sciencedirect.com/science/article/abs/pii/S0924271624003563#b9)
+
+[The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms](https://zenodo.org/records/7024894)
+
