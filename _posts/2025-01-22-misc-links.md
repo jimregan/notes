@@ -239,3 +239,14 @@ doi = {10.5334/bbi.15}
 
 [The COUGHVID crowdsourcing dataset: A corpus for the study of large-scale cough analysis algorithms](https://zenodo.org/records/7024894)
 
+[Introduction to Flow Matching and Diffusion Models](https://diffusion.csail.mit.edu/)
+
+[Phi-4 Technical Report](https://arxiv.org/abs/2412.08905)
+
+[microsoft/PhiCookBook](https://github.com/microsoft/PhiCookBook)
+
+[microsoft/dstoolkit-phi2-finetune](https://github.com/microsoft/dstoolkit-phi2-finetune) --- This repository contains step by step instructions on how to finetune Microsoft's Phi-2 model with your own data.
+
+[microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)
+
+
