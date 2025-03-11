@@ -112,12 +112,6 @@ https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4
 Must-Watch Hungarian TV Shows to Improve Your Hungarian
 https://www.hungarianpod101.com/blog/2019/04/19/best-hungarian-tv-shows-to-improve-hungarian/
 
-DivorcVálótársak - Filmservice
-https://filmservice.hu/all-works/valotarsak
-
-RTL+ : RTL Kids root műsorok élőben, vagy későbbi visszanézésre
-https://www.rtlplusz.hu/
-
 r/hungarian Wiki: Learn Hungarian Online
 https://www.reddit.com/r/hungarian/wiki/resources/
 
@@ -133,8 +127,8 @@ https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/chars
 kakaobrain/g2pm: A Neural Grapheme-to-Phoneme Conversion Package for Mandarin Chinese Based on a New Open Benchmark Dataset
 https://github.com/kakaobrain/g2pm
 
-charsiu/charsiu_forced_alignment_demo.ipynb at main · lingjzhu/charsiu
-https://github.com/lingjzhu/charsiu/blob/main/charsiu_forced_alignment_demo.ipynb
+charsiu/misc/data.md at main · lingjzhu/charsiu
+https://github.com/lingjzhu/charsiu/blob/main/misc/data.md
 
 charsiu/misc/data.md at main · lingjzhu/charsiu
 https://github.com/lingjzhu/charsiu/blob/main/misc/data.md#alignments-for-english-datasets
@@ -151,8 +145,8 @@ https://github.com/lingjzhu/clap-ipa?tab=readme-ov-file
 anyspeech/fleurs_ipa at main
 https://huggingface.co/datasets/anyspeech/fleurs_ipa/tree/main
 
-anyspeech (AnySpeech)
-https://huggingface.co/anyspeech
+anyspeech/PhoneCorpus · Datasets at Hugging Face
+https://huggingface.co/datasets/anyspeech/PhoneCorpus
 
 anyspeech/PhoneBERT-tiny at main
 https://huggingface.co/anyspeech/PhoneBERT-tiny/tree/main
@@ -166,11 +160,8 @@ https://huggingface.co/anyspeech/PhoneBERT-tiny
 2024.naacl-long.43.pdf
 https://aclanthology.org/2024.naacl-long.43.pdf
 
-Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
-
-sardin/p5m/docker/Dockerfile at develop · sprakbankental/sardin
-https://github.com/sprakbankental/sardin/blob/develop/p5m/docker/Dockerfile
+sardin/p5m/lib/MTM/Analysis/Time.pm at develop · sprakbankental/sardin
+https://github.com/sprakbankental/sardin/blob/develop/p5m/lib/MTM/Analysis/Time.pm
 
 Språkbanken Tal
 https://github.com/sprakbankental
@@ -184,28 +175,109 @@ https://github.com/sprakbankental/dev-exam/blob/main/data/exam.xml
 Probabilistic Artificial Intelligence
 https://arxiv.org/pdf/2502.05244
 
-Launch Meeting - Zoom
-https://kth-se.zoom.us/j/5166351663#success
+Inbox • Direct
+https://www.instagram.com/direct/t/17845647458552890/
 
-dt2119/labs/lab1/solution/lab1_solution_colab.ipynb at main · tmh/dt2119
-https://gits-15.sys.kth.se/tmh/dt2119/blob/main/labs/lab1/solution/lab1_solution_colab.ipynb
+DDPMScheduler
+https://huggingface.co/docs/diffusers/en/quicktour
 
-Hugging Face – The AI community building the future.
-https://huggingface.co/
+Schedulers
+https://huggingface.co/docs/diffusers/v0.32.2/en/api/schedulers/overview
 
-annadeichler/KTH-ARIA-referential · Datasets at Hugging Face
-https://huggingface.co/datasets/annadeichler/KTH-ARIA-referential
+Create a dataset for training
+https://huggingface.co/docs/diffusers/en/training/create_dataset
 
-Hibiki Samples - a Hugging Face Space by kyutai
-https://huggingface.co/spaces/kyutai/hibiki-samples
+classifier-free diffusion guidance diffusers - Google Search
+https://www.google.com/search?q=classifier-free+diffusion+guidance+diffusers&sca_esv=d780aa9bd3cc6db3&rlz=1C5GCCM_en&sxsrf=AHTn8zporVaKUkEAjrC8lfQZis0gRTQyDw%3A1741708171534&ei=i1vQZ4mkIOCm1fIPvsqBiA4&ved=0ahUKEwjJlffGsIKMAxVgU1UIHT5lAOEQ4dUDCBA&uact=5&oq=classifier-free+diffusion+guidance+diffusers&gs_lp=Egxnd3Mtd2l6LXNlcnAiLGNsYXNzaWZpZXItZnJlZSBkaWZmdXNpb24gZ3VpZGFuY2UgZGlmZnVzZXJzMgUQIRigAUiKEVBWWIQQcAF4AZABAJgBd6AByQaqAQM5LjG4AQPIAQD4AQGYAgugAvkGwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIFEAAYgATCAgYQABgWGB7CAgcQIRigARgKmAMAiAYBkAYLugYECAEYCJIHBDEwLjGgB7kn&sclient=gws-wiz-serp
 
-Open X-Embodiment: Robotic Learning Datasets and RT-X Models
-https://robotics-transformer-x.github.io/
+coderpiaobozhe/classifier-free-diffusion-guidance-Pytorch: a simple unofficial implementation of classifier-free diffusion guidance
+https://github.com/coderpiaobozhe/classifier-free-diffusion-guidance-Pytorch
 
-csmp-gesture - a annadeichler Collection
-https://huggingface.co/collections/annadeichler/csmp-gesture-673f61a3b63f8dd148881039
+Pull requests · huggingface/diffusers
+https://github.com/huggingface/diffusers/pulls?q=is%3Apr+is%3Aclosed
 
-Paper page - EzAudio: Enhancing Text-to-Audio Generation with Efficient Diffusion Transformer
-https://huggingface.co/papers/2409.10819
+[WIP] [Alibaba Wan Team] Add Wan 2.1 support by anw90 · Pull Request #10921 · huggingface/diffusers
+https://github.com/huggingface/diffusers/pull/10921
+
+Repo Issues
+https://github.com/huggingface/diffusers/issues?page=16
+
+Feature request: Update the pipeline for AudioLDM 2 so that 'transcript' can be consumed and text to speech created · Issue #4923 · huggingface/diffusers
+https://github.com/huggingface/diffusers/issues/4923
+
+AudioLDM2/audioldm2/latent_diffusion/models/plms.py at main · haoheliu/AudioLDM2
+https://github.com/haoheliu/AudioLDM2/blob/main/audioldm2/latent_diffusion/models/plms.py
+
+Add Tortoise TTS as a pipeline · Issue #3891 · huggingface/diffusers
+https://github.com/huggingface/diffusers/issues/3891
+
+152334H/tortoise-tts-fast: Fast TorToiSe inference (5x or your money back!)
+https://github.com/152334H/tortoise-tts-fast
+
+diffusers/src/diffusers/pipelines/ddim/pipeline_ddim.py at main · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/ddim/pipeline_ddim.py
+
+diffusers/src/diffusers/models/unet_2d_blocks.py at 716286f19ddd9eb417113e064b538706884c8e73 · huggingface/diffusers
+https://github.com/huggingface/diffusers/blob/716286f19ddd9eb417113e064b538706884c8e73/src/diffusers/models/unet_2d_blocks.py#L644
+
+Add UnivNet Vocoder Model for Tortoise TTS Diffusers Integration by dg845 · Pull Request #24799 · huggingface/transformers
+https://github.com/huggingface/transformers/pull/24799
+
+Pull requests · huggingface/transformers
+https://github.com/huggingface/transformers/pulls?page=2&q=is%3Apr+is%3Aopen
+
+Attention mechanisms elaboration by vitormbesen · Pull Request #36597 · huggingface/transformers
+https://github.com/huggingface/transformers/pull/36597
+
+add-LongVITAModel by ltBai · Pull Request #36556 · huggingface/transformers
+https://github.com/huggingface/transformers/pull/36556
+
+[WIP] Add EVEv2 model by sbucaille · Pull Request #36498 · huggingface/transformers
+https://github.com/huggingface/transformers/pull/36498
+
+Export T5 (encoder-decoder) to ExecuTorch by guangy10 · Pull Request #36486 · huggingface/transformers
+https://github.com/huggingface/transformers/pull/36486
+
+T5 is ExecuTorch compatible · Issue #33834 · huggingface/transformers
+https://github.com/huggingface/transformers/issues/33834
+
+pytorch/executorch: On-device AI across mobile, embedded and edge for PyTorch
+https://github.com/pytorch/executorch?tab=readme-ov-file
+
+Welcome to the ExecuTorch Documentation — ExecuTorch main documentation
+https://pytorch.org/executorch/main/index.html
+
+DiffusionDet: Diffusion models for object detection · Issue #1350 · huggingface/diffusers
+https://github.com/huggingface/diffusers/issues/1350
+
+[WIP] Add FlashVideo Text-to-Video Pipeline by dg845 · Pull Request #10838 · huggingface/diffusers
+https://github.com/huggingface/diffusers/pull/10838
+
+Pull requests · huggingface/diffusers
+https://github.com/huggingface/diffusers/pulls?page=14&q=is%3Apr+is%3Aclosed+unet
+
+Pull requests · huggingface/diffusers
+https://github.com/huggingface/diffusers/pulls?page=22&q=is%3Apr+is%3Aclosed+unet
+
+Unicorn! · GitHub
+https://github.com/huggingface/diffusers/pull/3490
+
+Pull requests · huggingface/diffusers
+https://github.com/huggingface/diffusers/pulls?q=is%3Apr+shivammehta25+
+
+huggingface/diffusers: 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.
+https://github.com/huggingface/diffusers
+
+shivammehta25 (shivammehta25) / Repositories
+https://github.com/shivammehta25?tab=repositories
+
+shivammehta25/diffusers at myunet1dfixes
+https://github.com/shivammehta25/diffusers/tree/myunet1dfixes
+
+shivammehta25 (Shivam Mehta)
+https://github.com/shivammehta25
+
+Swedish-Irish Society - Home
+https://swedishirish.com/
 
 
