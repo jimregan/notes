@@ -249,4 +249,8 @@ doi = {10.5334/bbi.15}
 
 [microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)
 
+[Probabilistic Artificial Intelligence](https://arxiv.org/abs/2502.05244)
+
+[sprakbankental/braxen](https://github.com/sprakbankental/braxen)
+
 
