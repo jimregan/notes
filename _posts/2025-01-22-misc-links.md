@@ -253,4 +253,8 @@ doi = {10.5334/bbi.15}
 
 [sprakbankental/braxen](https://github.com/sprakbankental/braxen)
 
+[Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens](https://arxiv.org/abs/2503.01710),
+[code](https://github.com/SparkAudio/Spark-TTS)
+
+[March of the Penguins](https://existentialcomics.com/comic/521)
 
