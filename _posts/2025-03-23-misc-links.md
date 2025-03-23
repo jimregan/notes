@@ -71,3 +71,9 @@ ESPnet pull requests:
 [Gaussian Distributions are Soap Bubbles](https://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/)
 
 [Musings on Typicality](https://sander.ai/2020/09/01/typicality.html)
+
+[nebius/kvax](https://github.com/nebius/kvax) --- A FlashAttention implementation for JAX with support for efficient document mask computation and context parallelism.
+
+[DiffRhythm: Blazingly Fast and Embarrassingly Simple End-to-End Full-Length Song Generation with Latent Diffusion](https://aslp-lab.github.io/DiffRhythm.github.io/),
+[code](https://github.com/ASLP-lab/DiffRhythm),
+[arxiv](https://arxiv.org/abs/2503.01183)
