@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>More playing with spaCy | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="More playing with spaCy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Using Stanza, some steps towards Swedish, some Irish" />
+<meta property="og:description" content="Using Stanza, some steps towards Swedish, some Irish" />
+<link rel="canonical" href="https://jimregan.github.io/notes/spacy/stanza/dependencies/irish/swedish/2024/11/20/more-playing-with-spacy.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/spacy/stanza/dependencies/irish/swedish/2024/11/20/more-playing-with-spacy.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-11-20T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/spacy/stanza/dependencies/irish/swedish/2024/11/20/more-playing-with-spacy.html","@type":"BlogPosting","headline":"More playing with spaCy","dateModified":"2024-11-20T00:00:00-06:00","datePublished":"2024-11-20T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/spacy/stanza/dependencies/irish/swedish/2024/11/20/more-playing-with-spacy.html"},"description":"Using Stanza, some steps towards Swedish, some Irish","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon fas fa-bars fa-lg"></span>
+        </label>
+
+        <div class="drawer-container">
+          <div class="drawer">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+          </div>
+        </div>
+        <div class="slab">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+        </div>
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">More playing with spaCy</h1><p class="page-description">Using Stanza, some steps towards Swedish, some Irish</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-11-20T00:00:00-06:00" itemprop="datePublished">
+        Nov 20, 2024
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      33 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#spacy">spacy</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#stanza">stanza</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#dependencies">dependencies</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#swedish">swedish</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2024-11-20-more-playing-with-spacy.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2024-11-20-more-playing-with-spacy.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-11-20-more-playing-with-spacy.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2024-11-20-more-playing-with-spacy.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="o">%</span><span class="n">pip</span> <span class="n">install</span> <span class="n">spacy_stanza</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">stanza</span>
+<span class="kn">import</span> <span class="nn">spacy_stanza</span>
+
+<span class="n">stanza</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s2">&quot;en&quot;</span><span class="p">)</span>
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy_stanza</span><span class="o">.</span><span class="n">load_pipeline</span><span class="p">(</span><span class="s2">&quot;en&quot;</span><span class="p">)</span>
+
+<span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="s2">&quot;Barack Obama was born in Hawaii. He was elected president in 2008.&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">token</span> <span class="ow">in</span> <span class="n">doc</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">token</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="n">token</span><span class="o">.</span><span class="n">lemma_</span><span class="p">,</span> <span class="n">token</span><span class="o">.</span><span class="n">pos_</span><span class="p">,</span> <span class="n">token</span><span class="o">.</span><span class="n">dep_</span><span class="p">,</span> <span class="n">token</span><span class="o">.</span><span class="n">ent_type_</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">doc</span><span class="o">.</span><span class="n">ents</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">stanza</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s2">&quot;sv&quot;</span><span class="p">)</span>
+<span class="n">nlp_sv</span> <span class="o">=</span> <span class="n">spacy_stanza</span><span class="o">.</span><span class="n">load_pipeline</span><span class="p">(</span><span class="s2">&quot;sv&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">SENTS</span> <span class="o">=</span> <span class="p">[</span>
+<span class="s2">&quot;dem som går igenom en subventionerad anställning&quot;</span><span class="p">,</span>
+<span class="s2">&quot;dem som har haft en subventionerad anställning&quot;</span><span class="p">,</span>
+
+<span class="c1">#H101UbU5_0028</span>
+<span class="s2">&quot;tidsanvändning så framkommer&quot;</span><span class="p">,</span>
+<span class="s2">&quot;tidsanvändning framkommer&quot;</span><span class="p">,</span>
+
+<span class="s2">&quot;arbetsuppgifter har tats bort&quot;</span><span class="p">,</span>
+<span class="s2">&quot;arbetsuppgifter tagits bort&quot;</span><span class="p">,</span>
+
+<span class="s2">&quot;administrativa uppgifterna har eller har ökat&quot;</span><span class="p">,</span>
+<span class="s2">&quot;administrativa uppgifterna ökat&quot;</span><span class="p">,</span>
+
+<span class="c1"># more fun:</span>
+<span class="s2">&quot;Och det tror jag inte det råder någon oenighet om här.&quot;</span><span class="p">,</span>
+<span class="s2">&quot;Och jag tror inte att det här råder någon oenighet om det.&quot;</span>
+<span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">res</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">SENTS</span><span class="p">:</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="n">nlp_sv</span><span class="p">(</span><span class="n">sent</span><span class="p">)</span>
+    <span class="n">res</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">doc</span><span class="o">.</span><span class="n">to_json</span><span class="p">())</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">doc</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>dem som går igenom en subventionerad anställning
+dem som har haft en subventionerad anställning
+tidsanvändning så framkommer
+tidsanvändning framkommer
+arbetsuppgifter har tats bort
+arbetsuppgifter tagits bort
+administrativa uppgifterna har eller har ökat
+administrativa uppgifterna ökat
+Och det tror jag inte det råder någon oenighet om här.
+Och jag tror inte att det här råder någon oenighet om det.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">res</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[{&#39;text&#39;: &#39;dem som går igenom en subventionerad anställning&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 48}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 3,
+    &#39;tag&#39;: &#39;PN|UTR/NEU|PLU|DEF|OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Case=Acc|Definite=Def|Number=Plur|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;de&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 0},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 4,
+    &#39;end&#39;: 7,
+    &#39;tag&#39;: &#39;HP|-|-|-&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;PronType=Rel&#39;,
+    &#39;lemma&#39;: &#39;som&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 8,
+    &#39;end&#39;: 11,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;gå&#39;,
+    &#39;dep&#39;: &#39;acl:relcl&#39;,
+    &#39;head&#39;: 0},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 12,
+    &#39;end&#39;: 18,
+    &#39;tag&#39;: &#39;PL&#39;,
+    &#39;pos&#39;: &#39;ADP&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;igenom&#39;,
+    &#39;dep&#39;: &#39;compound:prt&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 4,
+    &#39;start&#39;: 19,
+    &#39;end&#39;: 21,
+    &#39;tag&#39;: &#39;DT|UTR|SIN|IND&#39;,
+    &#39;pos&#39;: &#39;DET&#39;,
+    &#39;morph&#39;: &#39;Definite=Ind|Gender=Com|Number=Sing|PronType=Art&#39;,
+    &#39;lemma&#39;: &#39;en&#39;,
+    &#39;dep&#39;: &#39;det&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 5,
+    &#39;start&#39;: 22,
+    &#39;end&#39;: 36,
+    &#39;tag&#39;: &#39;PC|PRF|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;ADJ&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part&#39;,
+    &#39;lemma&#39;: &#39;subventionerad&#39;,
+    &#39;dep&#39;: &#39;amod&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 6,
+    &#39;start&#39;: 37,
+    &#39;end&#39;: 48,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;anställning&#39;,
+    &#39;dep&#39;: &#39;obj&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;dem som har haft en subventionerad anställning&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 46}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 3,
+    &#39;tag&#39;: &#39;PN|UTR/NEU|PLU|DEF|OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Case=Acc|Definite=Def|Number=Plur|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;de&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 0},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 4,
+    &#39;end&#39;: 7,
+    &#39;tag&#39;: &#39;HP|-|-|-&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;PronType=Rel&#39;,
+    &#39;lemma&#39;: &#39;som&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 3},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 8,
+    &#39;end&#39;: 11,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;AUX&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;ha&#39;,
+    &#39;dep&#39;: &#39;aux&#39;,
+    &#39;head&#39;: 3},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 12,
+    &#39;end&#39;: 16,
+    &#39;tag&#39;: &#39;VB|SUP|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;VerbForm=Sup|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;ha&#39;,
+    &#39;dep&#39;: &#39;acl:relcl&#39;,
+    &#39;head&#39;: 0},
+   {&#39;id&#39;: 4,
+    &#39;start&#39;: 17,
+    &#39;end&#39;: 19,
+    &#39;tag&#39;: &#39;DT|UTR|SIN|IND&#39;,
+    &#39;pos&#39;: &#39;DET&#39;,
+    &#39;morph&#39;: &#39;Definite=Ind|Gender=Com|Number=Sing|PronType=Art&#39;,
+    &#39;lemma&#39;: &#39;en&#39;,
+    &#39;dep&#39;: &#39;det&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 5,
+    &#39;start&#39;: 20,
+    &#39;end&#39;: 34,
+    &#39;tag&#39;: &#39;PC|PRF|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;ADJ&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part&#39;,
+    &#39;lemma&#39;: &#39;subventionerad&#39;,
+    &#39;dep&#39;: &#39;amod&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 6,
+    &#39;start&#39;: 35,
+    &#39;end&#39;: 46,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;anställning&#39;,
+    &#39;dep&#39;: &#39;obj&#39;,
+    &#39;head&#39;: 3}]},
+ {&#39;text&#39;: &#39;tidsanvändning så framkommer&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 28}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 14,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;tidsanvändning&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 15,
+    &#39;end&#39;: 17,
+    &#39;tag&#39;: &#39;AB&#39;,
+    &#39;pos&#39;: &#39;ADV&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;så&#39;,
+    &#39;dep&#39;: &#39;advmod&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 18,
+    &#39;end&#39;: 28,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;framkomma&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;tidsanvändning framkommer&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 25}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 14,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;tidsanvändning&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 1},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 15,
+    &#39;end&#39;: 25,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;framkomma&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 1}]},
+ {&#39;text&#39;: &#39;arbetsuppgifter har tats bort&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 29}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 15,
+    &#39;tag&#39;: &#39;NN|UTR|PLU|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;arbetsuppgift&#39;,
+    &#39;dep&#39;: &#39;nsubj:pass&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 16,
+    &#39;end&#39;: 19,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;AUX&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;ha&#39;,
+    &#39;dep&#39;: &#39;aux&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 20,
+    &#39;end&#39;: 24,
+    &#39;tag&#39;: &#39;VB|SUP|SFO&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;VerbForm=Sup|Voice=Pass&#39;,
+    &#39;lemma&#39;: &#39;ta&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 25,
+    &#39;end&#39;: 29,
+    &#39;tag&#39;: &#39;PL&#39;,
+    &#39;pos&#39;: &#39;ADV&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;bort&#39;,
+    &#39;dep&#39;: &#39;compound:prt&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;arbetsuppgifter tagits bort&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 27}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 15,
+    &#39;tag&#39;: &#39;NN|UTR|PLU|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;arbetsuppgift&#39;,
+    &#39;dep&#39;: &#39;nsubj:pass&#39;,
+    &#39;head&#39;: 1},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 16,
+    &#39;end&#39;: 22,
+    &#39;tag&#39;: &#39;VB|SUP|SFO&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;VerbForm=Sup|Voice=Pass&#39;,
+    &#39;lemma&#39;: &#39;ta&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 1},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 23,
+    &#39;end&#39;: 27,
+    &#39;tag&#39;: &#39;PL&#39;,
+    &#39;pos&#39;: &#39;ADV&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;bort&#39;,
+    &#39;dep&#39;: &#39;compound:prt&#39;,
+    &#39;head&#39;: 1}]},
+ {&#39;text&#39;: &#39;administrativa uppgifterna har eller har ökat&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 45}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 14,
+    &#39;tag&#39;: &#39;JJ|POS|UTR/NEU|PLU|IND/DEF|NOM&#39;,
+    &#39;pos&#39;: &#39;ADJ&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Degree=Pos|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;administrativ&#39;,
+    &#39;dep&#39;: &#39;amod&#39;,
+    &#39;head&#39;: 1},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 15,
+    &#39;end&#39;: 26,
+    &#39;tag&#39;: &#39;NN|UTR|PLU|DEF|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Def|Gender=Com|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;uppgift&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 27,
+    &#39;end&#39;: 30,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;ha&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 31,
+    &#39;end&#39;: 36,
+    &#39;tag&#39;: &#39;KN&#39;,
+    &#39;pos&#39;: &#39;CCONJ&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;eller&#39;,
+    &#39;dep&#39;: &#39;cc&#39;,
+    &#39;head&#39;: 5},
+   {&#39;id&#39;: 4,
+    &#39;start&#39;: 37,
+    &#39;end&#39;: 40,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;AUX&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;ha&#39;,
+    &#39;dep&#39;: &#39;aux&#39;,
+    &#39;head&#39;: 5},
+   {&#39;id&#39;: 5,
+    &#39;start&#39;: 41,
+    &#39;end&#39;: 45,
+    &#39;tag&#39;: &#39;VB|SUP|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;VerbForm=Sup|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;öka&#39;,
+    &#39;dep&#39;: &#39;conj&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;administrativa uppgifterna ökat&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 31}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 14,
+    &#39;tag&#39;: &#39;JJ|POS|UTR/NEU|PLU|IND/DEF|NOM&#39;,
+    &#39;pos&#39;: &#39;ADJ&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Degree=Pos|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;administrativ&#39;,
+    &#39;dep&#39;: &#39;amod&#39;,
+    &#39;head&#39;: 1},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 15,
+    &#39;end&#39;: 26,
+    &#39;tag&#39;: &#39;NN|UTR|PLU|DEF|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Def|Gender=Com|Number=Plur&#39;,
+    &#39;lemma&#39;: &#39;uppgift&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 27,
+    &#39;end&#39;: 31,
+    &#39;tag&#39;: &#39;VB|SUP|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;VerbForm=Sup|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;öka&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;Och det tror jag inte det råder någon oenighet om här.&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 54}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 3,
+    &#39;tag&#39;: &#39;KN&#39;,
+    &#39;pos&#39;: &#39;CCONJ&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;och&#39;,
+    &#39;dep&#39;: &#39;cc&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 4,
+    &#39;end&#39;: 7,
+    &#39;tag&#39;: &#39;PN|NEU|SIN|DEF|SUB/OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Definite=Def|Gender=Neut|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;den&#39;,
+    &#39;dep&#39;: &#39;obj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 8,
+    &#39;end&#39;: 12,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;tro&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 13,
+    &#39;end&#39;: 16,
+    &#39;tag&#39;: &#39;PN|UTR|SIN|DEF|SUB&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;jag&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 4,
+    &#39;start&#39;: 17,
+    &#39;end&#39;: 21,
+    &#39;tag&#39;: &#39;AB&#39;,
+    &#39;pos&#39;: &#39;PART&#39;,
+    &#39;morph&#39;: &#39;Polarity=Neg&#39;,
+    &#39;lemma&#39;: &#39;inte&#39;,
+    &#39;dep&#39;: &#39;advmod&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 5,
+    &#39;start&#39;: 22,
+    &#39;end&#39;: 25,
+    &#39;tag&#39;: &#39;PN|NEU|SIN|DEF|SUB/OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Definite=Def|Gender=Neut|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;den&#39;,
+    &#39;dep&#39;: &#39;expl&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 6,
+    &#39;start&#39;: 26,
+    &#39;end&#39;: 31,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;råda&#39;,
+    &#39;dep&#39;: &#39;ccomp&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 7,
+    &#39;start&#39;: 32,
+    &#39;end&#39;: 37,
+    &#39;tag&#39;: &#39;DT|UTR|SIN|IND&#39;,
+    &#39;pos&#39;: &#39;DET&#39;,
+    &#39;morph&#39;: &#39;Definite=Ind|Gender=Com|Number=Sing|PronType=Ind&#39;,
+    &#39;lemma&#39;: &#39;någon&#39;,
+    &#39;dep&#39;: &#39;det&#39;,
+    &#39;head&#39;: 8},
+   {&#39;id&#39;: 8,
+    &#39;start&#39;: 38,
+    &#39;end&#39;: 46,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;oenighet&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 9,
+    &#39;start&#39;: 47,
+    &#39;end&#39;: 49,
+    &#39;tag&#39;: &#39;PP&#39;,
+    &#39;pos&#39;: &#39;ADP&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;om&#39;,
+    &#39;dep&#39;: &#39;advmod&#39;,
+    &#39;head&#39;: 6},
+   {&#39;id&#39;: 10,
+    &#39;start&#39;: 50,
+    &#39;end&#39;: 53,
+    &#39;tag&#39;: &#39;AB&#39;,
+    &#39;pos&#39;: &#39;ADV&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;här&#39;,
+    &#39;dep&#39;: &#39;fixed&#39;,
+    &#39;head&#39;: 9},
+   {&#39;id&#39;: 11,
+    &#39;start&#39;: 53,
+    &#39;end&#39;: 54,
+    &#39;tag&#39;: &#39;MAD&#39;,
+    &#39;pos&#39;: &#39;PUNCT&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;.&#39;,
+    &#39;dep&#39;: &#39;punct&#39;,
+    &#39;head&#39;: 2}]},
+ {&#39;text&#39;: &#39;Och jag tror inte att det här råder någon oenighet om det.&#39;,
+  &#39;ents&#39;: [],
+  &#39;sents&#39;: [{&#39;start&#39;: 0, &#39;end&#39;: 58}],
+  &#39;tokens&#39;: [{&#39;id&#39;: 0,
+    &#39;start&#39;: 0,
+    &#39;end&#39;: 3,
+    &#39;tag&#39;: &#39;KN&#39;,
+    &#39;pos&#39;: &#39;CCONJ&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;och&#39;,
+    &#39;dep&#39;: &#39;cc&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 1,
+    &#39;start&#39;: 4,
+    &#39;end&#39;: 7,
+    &#39;tag&#39;: &#39;PN|UTR|SIN|DEF|SUB&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;jag&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 2,
+    &#39;start&#39;: 8,
+    &#39;end&#39;: 12,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;tro&#39;,
+    &#39;dep&#39;: &#39;root&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 3,
+    &#39;start&#39;: 13,
+    &#39;end&#39;: 17,
+    &#39;tag&#39;: &#39;AB&#39;,
+    &#39;pos&#39;: &#39;PART&#39;,
+    &#39;morph&#39;: &#39;Polarity=Neg&#39;,
+    &#39;lemma&#39;: &#39;inte&#39;,
+    &#39;dep&#39;: &#39;advmod&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 4,
+    &#39;start&#39;: 18,
+    &#39;end&#39;: 21,
+    &#39;tag&#39;: &#39;SN&#39;,
+    &#39;pos&#39;: &#39;SCONJ&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;att&#39;,
+    &#39;dep&#39;: &#39;mark&#39;,
+    &#39;head&#39;: 7},
+   {&#39;id&#39;: 5,
+    &#39;start&#39;: 22,
+    &#39;end&#39;: 25,
+    &#39;tag&#39;: &#39;PN|NEU|SIN|DEF|SUB/OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Definite=Def|Gender=Neut|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;den&#39;,
+    &#39;dep&#39;: &#39;expl&#39;,
+    &#39;head&#39;: 7},
+   {&#39;id&#39;: 6,
+    &#39;start&#39;: 26,
+    &#39;end&#39;: 29,
+    &#39;tag&#39;: &#39;AB&#39;,
+    &#39;pos&#39;: &#39;ADV&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;här&#39;,
+    &#39;dep&#39;: &#39;fixed&#39;,
+    &#39;head&#39;: 5},
+   {&#39;id&#39;: 7,
+    &#39;start&#39;: 30,
+    &#39;end&#39;: 35,
+    &#39;tag&#39;: &#39;VB|PRS|AKT&#39;,
+    &#39;pos&#39;: &#39;VERB&#39;,
+    &#39;morph&#39;: &#39;Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act&#39;,
+    &#39;lemma&#39;: &#39;råda&#39;,
+    &#39;dep&#39;: &#39;ccomp&#39;,
+    &#39;head&#39;: 2},
+   {&#39;id&#39;: 8,
+    &#39;start&#39;: 36,
+    &#39;end&#39;: 41,
+    &#39;tag&#39;: &#39;DT|UTR|SIN|IND&#39;,
+    &#39;pos&#39;: &#39;DET&#39;,
+    &#39;morph&#39;: &#39;Definite=Ind|Gender=Com|Number=Sing|PronType=Ind&#39;,
+    &#39;lemma&#39;: &#39;någon&#39;,
+    &#39;dep&#39;: &#39;det&#39;,
+    &#39;head&#39;: 9},
+   {&#39;id&#39;: 9,
+    &#39;start&#39;: 42,
+    &#39;end&#39;: 50,
+    &#39;tag&#39;: &#39;NN|UTR|SIN|IND|NOM&#39;,
+    &#39;pos&#39;: &#39;NOUN&#39;,
+    &#39;morph&#39;: &#39;Case=Nom|Definite=Ind|Gender=Com|Number=Sing&#39;,
+    &#39;lemma&#39;: &#39;oenighet&#39;,
+    &#39;dep&#39;: &#39;nsubj&#39;,
+    &#39;head&#39;: 7},
+   {&#39;id&#39;: 10,
+    &#39;start&#39;: 51,
+    &#39;end&#39;: 53,
+    &#39;tag&#39;: &#39;PP&#39;,
+    &#39;pos&#39;: &#39;ADP&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;om&#39;,
+    &#39;dep&#39;: &#39;case&#39;,
+    &#39;head&#39;: 11},
+   {&#39;id&#39;: 11,
+    &#39;start&#39;: 54,
+    &#39;end&#39;: 57,
+    &#39;tag&#39;: &#39;PN|NEU|SIN|DEF|SUB/OBJ&#39;,
+    &#39;pos&#39;: &#39;PRON&#39;,
+    &#39;morph&#39;: &#39;Definite=Def|Gender=Neut|Number=Sing|PronType=Prs&#39;,
+    &#39;lemma&#39;: &#39;den&#39;,
+    &#39;dep&#39;: &#39;obl&#39;,
+    &#39;head&#39;: 7},
+   {&#39;id&#39;: 12,
+    &#39;start&#39;: 57,
+    &#39;end&#39;: 58,
+    &#39;tag&#39;: &#39;MAD&#39;,
+    &#39;pos&#39;: &#39;PUNCT&#39;,
+    &#39;morph&#39;: &#39;&#39;,
+    &#39;lemma&#39;: &#39;.&#39;,
+    &#39;dep&#39;: &#39;punct&#39;,
+    &#39;head&#39;: 2}]}]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">stanza</span>
+<span class="kn">from</span> <span class="nn">stanza.utils.conll</span> <span class="kn">import</span> <span class="n">CoNLL</span>
+
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">stanza</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">(</span><span class="s1">&#39;sv&#39;</span><span class="p">,</span> <span class="n">processors</span><span class="o">=</span><span class="s1">&#39;tokenize, pos, lemma, depparse&#39;</span><span class="p">)</span>
+<span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="s1">&#39;Du har mitt ord.&#39;</span><span class="p">)</span> <span class="c1"># doc is class Document</span>
+<span class="n">CoNLL</span><span class="o">.</span><span class="n">write_doc2conll</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span> <span class="s2">&quot;doc2.conllu&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>INFO:stanza:Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+INFO:stanza:Loading these models for language: sv (Swedish):
+==================================
+| Processor | Package            |
+----------------------------------
+| tokenize  | talbanken          |
+| pos       | talbanken_charlm   |
+| lemma     | talbanken_nocharlm |
+| depparse  | talbanken_charlm   |
+==================================
+
+INFO:stanza:Using device: cpu
+INFO:stanza:Loading: tokenize
+INFO:stanza:Loading: pos
+INFO:stanza:Loading: lemma
+/usr/local/lib/python3.10/dist-packages/stanza/models/lemma/trainer.py:227: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: depparse
+/usr/local/lib/python3.10/dist-packages/stanza/models/depparse/trainer.py:103: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Done loading processors!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">doc2</span><span class="o">.</span><span class="n">conllu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># text = Du har mitt ord.
+# sent_id = 0
+1	Du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=6
+3	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=7|end_char=11
+4	ord	ord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	start_char=12|end_char=15
+5	.	.	PUNCT	MAD	_	2	punct	_	start_char=15|end_char=16
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">stanza</span>
+<span class="kn">from</span> <span class="nn">stanza.utils.conll</span> <span class="kn">import</span> <span class="n">CoNLL</span>
+
+<span class="n">nlp_ga</span> <span class="o">=</span> <span class="n">stanza</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">(</span><span class="s1">&#39;ga&#39;</span><span class="p">,</span> <span class="n">processors</span><span class="o">=</span><span class="s1">&#39;tokenize, pos, lemma, depparse&#39;</span><span class="p">)</span>
+<span class="n">doc_ga</span> <span class="o">=</span> <span class="n">nlp_ga</span><span class="p">(</span><span class="s2">&quot;áthas a bheith air&quot;</span><span class="p">)</span>
+<span class="n">CoNLL</span><span class="o">.</span><span class="n">write_doc2conll</span><span class="p">(</span><span class="n">doc_ga</span><span class="p">,</span> <span class="s2">&quot;docga.conllu&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>INFO:stanza:Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+INFO:stanza:Loading these models for language: ga (Irish):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | idt          |
+| pos       | idt_nocharlm |
+| lemma     | idt_nocharlm |
+| depparse  | idt_nocharlm |
+============================
+
+INFO:stanza:Using device: cpu
+INFO:stanza:Loading: tokenize
+INFO:stanza:Loading: pos
+INFO:stanza:Loading: lemma
+INFO:stanza:Loading: depparse
+INFO:stanza:Done loading processors!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">docga</span><span class="o">.</span><span class="n">conllu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># text = áthas a bheith air
+# sent_id = 0
+1	áthas	áthas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	start_char=0|end_char=5
+2	a	a	PART	Inf	PartType=Inf	3	mark	_	start_char=6|end_char=7
+3	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	0	root	_	start_char=8|end_char=14
+4	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	3	obl:prep	_	start_char=15|end_char=18
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">SAMPLE</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;26.—AN GHRÁINNEÓG AGUS NA HAITHREACHA NIMHE.</span>
+
+<span class="s2">Tháinig an ghráinneóg go doras pluaise na n-aithreach nimhe oíche sheaca, agus d’ iar sí bheith istigh orthu. Do ligeadar isteach í ó bhí an oíche chomh fuar. Shocruig sí í fein ar lár an urláir agus dhein sí liarthóid di fein, agus shín sí na deilgne amach mórthimpeall uirthi féin, i dtreo ná féadfadh aon duine dul na goire. Ní fhéadadh athair nimhe gabháil tháirse, síos ná suas, ná prioctí é.</span>
+
+<span class="s2">“Féach!” ar siad, “tá an phluais seo beag ár ndóithin againne féin. Ní foláir duitse bheith ag imeacht.”</span>
+
+<span class="s2">“Ambasa,” ar sise, ”’an té leis gur cúmhang fágadh!’ Níl aon locht agamsa ar an áit seo.”</span>
+
+<span class="s2">An Múineadh.</span>
+
+<span class="s2">“Ní haitheantas go haontígheas.”</span>
+
+<span class="s2">Cheap na haithreacha nimhe ná bheadh aon bhac orthu an ghráinneóg do chur amach pé uair ba mhaith leo é, nó fiacal nimhe do chur inti. Níor chuímhnígheadar riamh ar na deilgníbh.&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">SAMPLE_ORIG</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;26.—AN ĠRÁINNEÓG AGUS NA H-AIṪREAĊA NÍṀE.</span>
+
+<span class="s2">Ṫáinig an ġráinneóg go dorus pluaise na n-aiṫreaċ níṁe oíḋċe ṡeaca, agus d’ iar sí ḃeiṫ istiġ orṫa. Do leigeadar isteaċ í ó ḃí an oíḋċe ċóṁ fuar. Ṡocruig sí í fein ar lár an úrláir agus ḋein sí liarṫóid dí fein, agus ṡín sí na deilgne amaċ mór-ṫímpal uirṫi féin, i dtreó ná féadfaḋ aoinne dul na goire. Ní ḟéadaḋ aṫair níṁe gaḃáil ṫáirse, síos ná suas, ná prioctí é.</span>
+
+<span class="s2">“Feuċ!” ar siad, “tá an ṗluais seo beag ár ndóiṫin againne féin. Ní foláir duitse ḃeiṫ ag imṫeaċt.”</span>
+
+<span class="s2">“Ambasa,” ar sise, “‘an t-é leis gur cúṁang fágaḋ!’ Ní’l aon loċt agamsa ar an áit seo.”</span>
+
+<span class="s2">An Múineaḋ.</span>
+
+<span class="s2">“Ní h-aiṫeantas go h-aontíġeas.”</span>
+
+<span class="s2">Ċeap na h-aiṫreaċa níṁe ná ḃéaḋ aon ḃac orṫa an ġráinneóg do ċur amaċ pé uair ba ṁaiṫ leo é, nó fiacal níṁe do ċur inti. Níor ċuíṁníġeadar riaṁ ar na deilgníḃ.&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">SAMPLE_CAI</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;26. — AN GHRÁINNEOG AGUS NA NATHRACHA NIMHE.</span>
+<span class="s2">Tháinig an ghráinneog go doras pluaise na nathrach nimhe oíche sheaca, agus d&#39;iarr sí bheith istigh orthu. Ligeadar isteach í ó bhí an oíche chomh fuar. Shocraigh sí í féin ar lár an urláir agus rinne sí liarthóid di féin, agus shín sí na deilgne amach mórthimpeall uirthi féin, i dtreo nach bhféadfadh aon duine dul ina gaire. Ní fhéadadh nathair nimhe gabháil thairsti, síos ná suas, ná prioctí é.</span>
+<span class="s2">“Féach!” ar siad, “tá an phluais seo beag ár ndóthain againne féin. Ní foláir duitse bheith ag imeacht.”</span>
+<span class="s2">“Ambaiste,” ar sise, “‘an té leis gur cúng fágadh!’ Níl aon locht agamsa ar an áit seo.”</span>
+<span class="s2">An Múineadh.</span>
+<span class="s2">“Ní haitheantas go haontíos.”</span>
+<span class="s2">Cheap na nathracha nimhe ná beadh aon bhac orthu an ghráinneog a chur amach pé uair ba mhaith leo é, nó fiacla nimhe a chur inti. Níor chuimhníodar riamh ar na deilgní.&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">stanza</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">stanza</span>
+<span class="kn">from</span> <span class="nn">stanza.utils.conll</span> <span class="kn">import</span> <span class="n">CoNLL</span>
+
+<span class="n">nlp_pl</span> <span class="o">=</span> <span class="n">stanza</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">(</span><span class="s1">&#39;pl&#39;</span><span class="p">,</span> <span class="n">processors</span><span class="o">=</span><span class="s1">&#39;tokenize, pos, lemma, depparse&#39;</span><span class="p">)</span>
+<span class="n">doc_pl</span> <span class="o">=</span> <span class="n">nlp_pl</span><span class="p">(</span><span class="s2">&quot;Wolne Miasto Gdańsk (niem. Freie Stadt Danzig) – istniejące w okresie międzywojennym autonomiczne miasto-państwo, pod ochroną Ligi Narodów.&quot;</span><span class="p">)</span>
+<span class="n">CoNLL</span><span class="o">.</span><span class="n">write_doc2conll</span><span class="p">(</span><span class="n">doc_pl</span><span class="p">,</span> <span class="s2">&quot;docpl.conllu&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>INFO:stanza:Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+INFO:stanza:Downloaded file to /root/stanza_resources/resources.json
+WARNING:stanza:Language pl package default expects mwt, which has been added
+INFO:stanza:Loading these models for language: pl (Polish):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | pdb          |
+| mwt       | pdb          |
+| pos       | pdb_charlm   |
+| lemma     | pdb_nocharlm |
+| depparse  | pdb_charlm   |
+============================
+
+INFO:stanza:Using device: cpu
+INFO:stanza:Loading: tokenize
+/usr/local/lib/python3.10/dist-packages/stanza/models/tokenization/trainer.py:82: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: mwt
+/usr/local/lib/python3.10/dist-packages/stanza/models/mwt/trainer.py:201: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: pos
+/usr/local/lib/python3.10/dist-packages/stanza/models/pos/trainer.py:139: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+/usr/local/lib/python3.10/dist-packages/stanza/models/common/pretrain.py:56: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.filename, lambda storage, loc: storage)
+/usr/local/lib/python3.10/dist-packages/stanza/models/common/char_model.py:271: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: lemma
+/usr/local/lib/python3.10/dist-packages/stanza/models/lemma/trainer.py:239: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: depparse
+/usr/local/lib/python3.10/dist-packages/stanza/models/depparse/trainer.py:194: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Done loading processors!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">docpl</span><span class="o">.</span><span class="n">conllu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># text = Wolne Miasto Gdańsk (niem. Freie Stadt Danzig) – istniejące w okresie międzywojennym autonomiczne miasto-państwo, pod ochroną Ligi Narodów.
+# sent_id = 0
+1	Wolne	wolny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod:flat	_	start_char=0|end_char=5
+2	Miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=6|end_char=12
+3	Gdańsk	Gdańsk	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=13|end_char=19|SpacesAfter=\u00A0
+4	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	5	punct	_	start_char=20|end_char=21|SpaceAfter=No
+5	niem	niem	X	brev:pun	Abbr=Yes|Pun=Yes	2	nmod	_	start_char=21|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	start_char=25|end_char=26|SpacesAfter=\u00A0
+7	Freie	Frea	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	flat	_	start_char=27|end_char=32
+8	Stadt	Stadt	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	7	flat	_	start_char=33|end_char=38
+9	Danzig	Danzig	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	8	flat	_	start_char=39|end_char=45|SpaceAfter=No
+10	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	5	punct	_	start_char=45|end_char=46
+11	–	–	PUNCT	interp	PunctType=Dash	17	punct	_	start_char=47|end_char=48
+12	istniejące	istnieć	ADJ	pact:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	17	acl	_	start_char=49|end_char=59
+13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	14	case	_	start_char=60|end_char=61|SpacesAfter=\u00A0
+14	okresie	okres	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=62|end_char=69
+15	międzywojennym	międzywojenny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=70|end_char=84|SpacesAfter=\u00A0
+16	autonomiczne	autonomiczny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=85|end_char=97|SpacesAfter=\u00A0
+17	miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=98|end_char=104|SpaceAfter=No
+18	-	-	PUNCT	interp	PunctType=Dash	19	punct	_	start_char=104|end_char=105|SpaceAfter=No
+19	państwo	państwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	17	appos	_	start_char=105|end_char=112|SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	start_char=112|end_char=113
+21	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	22	case	_	start_char=114|end_char=117
+22	ochroną	ochrona	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	start_char=118|end_char=125|SpacesAfter=\u00A0
+23	Ligi	liga	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	22	nmod:arg	_	start_char=126|end_char=130
+24	Narodów	naród	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod:flat	_	start_char=131|end_char=138|SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	start_char=138|end_char=139|SpaceAfter=No
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">doc_pl</span> <span class="o">=</span> <span class="n">nlp_pl</span><span class="p">(</span><span class="s2">&quot;Czy może to tak być? Albo biało, albo czarno. Czerwony jak krasnoludek. Lekki jak piórko. Jakim sposobem się tam znalazłeś? Czy byłeś w domu? Jest tata w domu? My jesteśmy Kaszubami. My jesteśmy Kaszubami.  język kaszubski. Wiem, że ona je teraz obiad. Ona jest Polką. On by nic nie robił, tylko jadł i spał. Chciałem do miasta jechać z rana, alem zaspał. Mam tylko wodę w tej butelce. Nie śpij teraz! Śpiący kot myszy nie łapie. Moniki kot rozbił dzbanek.&quot;</span><span class="p">)</span>
+<span class="n">CoNLL</span><span class="o">.</span><span class="n">write_doc2conll</span><span class="p">(</span><span class="n">doc_pl</span><span class="p">,</span> <span class="s2">&quot;docpl.conllu&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">docpl</span><span class="o">.</span><span class="n">conllu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># text = Czy może to tak być?
+# sent_id = 0
+1	Czy	czy	PART	part	PartType=Int	2	advmod	_	start_char=0|end_char=3|SpacesAfter=\u00A0
+2	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8|SpacesAfter=\u00A0
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=9|end_char=11|SpacesAfter=\u00A0
+4	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	5	advmod	_	start_char=12|end_char=15|SpacesAfter=\u00A0
+5	być	być	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=16|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	start_char=19|end_char=20
+
+# text = Albo biało, albo czarno.
+# sent_id = 1
+1	Albo	albo	CCONJ	conj	_	2	cc	_	start_char=21|end_char=25|SpacesAfter=\u00A0
+2	biało	biały	ADJ	adja	Hyph=Yes	0	root	_	start_char=26|end_char=31|SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	start_char=31|end_char=32|SpacesAfter=\u00A0
+4	albo	albo	CCONJ	conj	_	5	cc	_	start_char=33|end_char=37|SpacesAfter=\u00A0
+5	czarno	czarny	ADJ	adja	Hyph=Yes	2	conj	_	start_char=38|end_char=44|SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	start_char=44|end_char=45
+
+# text = Czerwony jak krasnoludek.
+# sent_id = 2
+1	Czerwony	czerwony	ADJ	adj:sg:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=46|end_char=54|SpacesAfter=\u00A0
+2	jak	jak	SCONJ	comp	ConjType=Comp	3	mark	_	start_char=55|end_char=58|SpacesAfter=\u00A0
+3	krasnoludek	krasnoludka	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	1	obl:cmpr	_	start_char=59|end_char=70|SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=70|end_char=71
+
+# text = Lekki jak piórko.
+# sent_id = 3
+1	Lekki	lekki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=72|end_char=77|SpacesAfter=\u00A0
+2	jak	jak	SCONJ	comp	ConjType=Comp	3	mark	_	start_char=78|end_char=81|SpacesAfter=\u00A0
+3	piórko	piórko	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	1	obl:cmpr	_	start_char=82|end_char=88|SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=88|end_char=89
+
+# text = Jakim sposobem się tam znalazłeś?
+# sent_id = 4
+1	Jakim	jaki	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Int	2	det	_	start_char=90|end_char=95|SpacesAfter=\u00A0
+2	sposobem	sposób	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=96|end_char=104|SpacesAfter=\u00A0
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	start_char=105|end_char=108|SpacesAfter=\u00A0
+4	tam	tam	ADV	adv	PronType=Dem	5	advmod	_	start_char=109|end_char=112|SpacesAfter=\u00A0
+5-6	znalazłeś	_	_	_	_	_	_	_	start_char=113|end_char=122|SpaceAfter=No
+5	znalazł	znaleźć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=113|end_char=120
+6	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=2|Variant=Long	5	aux:clitic	_	start_char=120|end_char=122
+7	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	start_char=122|end_char=123
+
+# text = Czy byłeś w domu?
+# sent_id = 5
+1	Czy	czy	PART	part	PartType=Int	2	advmod	_	start_char=124|end_char=127|SpacesAfter=\u00A0
+2-3	byłeś	_	_	_	_	_	_	_	start_char=128|end_char=133|SpacesAfter=\u00A0
+2	był	być	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=128|end_char=131
+3	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=2|Variant=Long	2	aux:clitic	_	start_char=131|end_char=133
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	start_char=134|end_char=135|SpacesAfter=\u00A0
+5	domu	dom	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=136|end_char=140|SpaceAfter=No
+6	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	start_char=140|end_char=141
+
+# text = Jest tata w domu?
+# sent_id = 6
+1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=142|end_char=146|SpacesAfter=\u00A0
+2	tata	tata	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=147|end_char=151|SpacesAfter=\u00A0
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	_	start_char=152|end_char=153|SpacesAfter=\u00A0
+4	domu	dom	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=154|end_char=158|SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	start_char=158|end_char=159
+
+# text = My jesteśmy Kaszubami.
+# sent_id = 7
+1	My	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=160|end_char=162|SpacesAfter=\u00A0
+2	jesteśmy	być	AUX	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=163|end_char=171|SpacesAfter=\u00A0
+3	Kaszubami	Kaszuby	PROPN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	0	root	_	start_char=172|end_char=181|SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	start_char=181|end_char=182
+
+# text = My jesteśmy Kaszubami.
+# sent_id = 8
+1	My	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=183|end_char=185|SpacesAfter=\u00A0
+2	jesteśmy	być	AUX	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=186|end_char=194|SpacesAfter=\u00A0
+3	Kaszubami	Kaszuby	PROPN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	0	root	_	start_char=195|end_char=204|SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	start_char=204|end_char=205|SpacesAfter=\s\u00A0
+
+# text = język kaszubski.
+# sent_id = 9
+1	język	język	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=207|end_char=212|SpacesAfter=\u00A0
+2	kaszubski	kaszubski	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=213|end_char=222|SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=222|end_char=223
+
+# text = Wiem, że ona je teraz obiad.
+# sent_id = 10
+1	Wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=224|end_char=228|SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	start_char=228|end_char=229|SpacesAfter=\u00A0
+3	że	że	SCONJ	comp	_	7	mark	_	start_char=230|end_char=232|SpacesAfter=\u00A0
+4	ona	on	PRON	ppron3:sg:nom:f:ter:akc:npraep	Case=Nom|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	nsubj	_	start_char=233|end_char=236|SpacesAfter=\u00A0
+5	je	on	PRON	ppron3:pl:acc:f:ter:akc:npraep	Case=Acc|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	obj	_	start_char=237|end_char=239|SpacesAfter=\u00A0
+6	teraz	teraz	ADV	adv	_	7	advmod	_	start_char=240|end_char=245|SpacesAfter=\u00A0
+7	obiad	obiad	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	ccomp	_	start_char=246|end_char=251|SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=251|end_char=252
+
+# text = Ona jest Polką.
+# sent_id = 11
+1	Ona	on	PRON	ppron3:sg:nom:f:ter:akc:npraep	Case=Nom|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	nsubj	_	start_char=253|end_char=256|SpacesAfter=\u00A0
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=257|end_char=261|SpacesAfter=\u00A0
+3	Polką	Polka	PROPN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	start_char=262|end_char=267|SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	start_char=267|end_char=268
+
+# text = On by nic nie robił, tylko jadł i spał.
+# sent_id = 12
+1	On	on	PRON	ppron3:sg:nom:m1:ter:akc:npraep	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	nsubj	_	start_char=269|end_char=271|SpacesAfter=\u00A0
+2	by	by	AUX	part	_	5	aux:cnd	_	start_char=272|end_char=274|SpacesAfter=\u00A0
+3	nic	nic	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	5	obj	_	start_char=275|end_char=278|SpacesAfter=\u00A0
+4	nie	nie	PART	part	Polarity=Neg	5	advmod:neg	_	start_char=279|end_char=282|SpacesAfter=\u00A0
+5	robił	robić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=283|end_char=288|SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	start_char=288|end_char=289|SpacesAfter=\u00A0
+7	tylko	tylko	CCONJ	conj	_	8	cc	_	start_char=290|end_char=295|SpacesAfter=\u00A0
+8	jadł	jeść	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=296|end_char=300|SpacesAfter=\u00A0
+9	i	i	CCONJ	conj	_	10	cc	_	start_char=301|end_char=302|SpacesAfter=\u00A0
+10	spał	spać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=303|end_char=307|SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	start_char=307|end_char=308
+
+# text = Chciałem do miasta jechać z rana, alem zaspał.
+# sent_id = 13
+1-2	Chciałem	_	_	_	_	_	_	_	start_char=309|end_char=317|SpacesAfter=\u00A0
+1	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=309|end_char=315
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	start_char=315|end_char=317
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	_	start_char=318|end_char=320|SpacesAfter=\u00A0
+4	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	start_char=321|end_char=327|SpacesAfter=\u00A0
+5	jechać	jechać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=328|end_char=334|SpacesAfter=\u00A0
+6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	7	case	_	start_char=335|end_char=336|SpacesAfter=\u00A0
+7	rana	rano	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	start_char=337|end_char=341|SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	start_char=341|end_char=342|SpacesAfter=\u00A0
+9	alem	alem	CCONJ	conj	_	10	cc	_	start_char=343|end_char=347|SpacesAfter=\u00A0
+10	zaspał	zaspać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=348|end_char=354|SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=354|end_char=355
+
+# text = Mam tylko wodę w tej butelce.
+# sent_id = 14
+1	Mam	mieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=356|end_char=359|SpacesAfter=\u00A0
+2	tylko	tylko	PART	part	_	3	advmod:emph	_	start_char=360|end_char=365|SpacesAfter=\u00A0
+3	wodę	woda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	start_char=366|end_char=370|SpacesAfter=\u00A0
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	start_char=371|end_char=372|SpacesAfter=\u00A0
+5	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=373|end_char=376|SpacesAfter=\u00A0
+6	butelce	butelka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	start_char=377|end_char=384|SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	start_char=384|end_char=385
+
+# text = Nie śpij teraz!
+# sent_id = 15
+1	Nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	start_char=386|end_char=389|SpacesAfter=\u00A0
+2	śpij	śpić	VERB	impt:sg:sec:imperf	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=390|end_char=394|SpacesAfter=\u00A0
+3	teraz	teraz	ADV	adv	_	2	advmod	_	start_char=395|end_char=400|SpaceAfter=No
+4	!	!	PUNCT	interp	PunctType=Excl	2	punct	_	start_char=400|end_char=401
+
+# text = Śpiący kot myszy nie łapie.
+# sent_id = 16
+1	Śpiący	śpiący	ADJ	adj:sg:nom:m2:pos:aff	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	acl	_	start_char=402|end_char=408|SpacesAfter=\u00A0
+2	kot	kot	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=409|end_char=412|SpacesAfter=\u00A0
+3	myszy	mysz	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:arg	_	start_char=413|end_char=418|SpacesAfter=\u00A0
+4	nie	nie	PART	part	Polarity=Neg	5	advmod:neg	_	start_char=419|end_char=422|SpacesAfter=\u00A0
+5	łapie	łapać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=423|end_char=428|SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	start_char=428|end_char=429
+
+# text = Moniki kot rozbił dzbanek.
+# sent_id = 17
+1	Moniki	Monika	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=430|end_char=436|SpacesAfter=\u00A0
+2	kot	kot	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=437|end_char=440|SpacesAfter=\u00A0
+3	rozbił	rozbić	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=441|end_char=447|SpacesAfter=\u00A0
+4	dzbanek	dzbanek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=448|end_char=455|SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	start_char=455|end_char=456|SpaceAfter=No
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">nlp_cs</span> <span class="o">=</span> <span class="n">stanza</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">(</span><span class="s1">&#39;cs&#39;</span><span class="p">,</span> <span class="n">processors</span><span class="o">=</span><span class="s1">&#39;tokenize, pos, lemma, depparse&#39;</span><span class="p">)</span>
+<span class="n">doc_cs</span> <span class="o">=</span> <span class="n">nlp_cs</span><span class="p">(</span><span class="s2">&quot;Moničina kočka rozbila džbán.&quot;</span><span class="p">)</span>
+
+<span class="n">CoNLL</span><span class="o">.</span><span class="n">write_doc2conll</span><span class="p">(</span><span class="n">doc_cs</span><span class="p">,</span> <span class="s2">&quot;docpl.conllu&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>INFO:stanza:Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+INFO:stanza:Downloaded file to /root/stanza_resources/resources.json
+WARNING:stanza:Language cs package default expects mwt, which has been added
+INFO:stanza:Loading these models for language: cs (Czech):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | pdt          |
+| mwt       | pdt          |
+| pos       | pdt_nocharlm |
+| lemma     | pdt_nocharlm |
+| depparse  | pdt_nocharlm |
+============================
+
+INFO:stanza:Using device: cpu
+INFO:stanza:Loading: tokenize
+/usr/local/lib/python3.10/dist-packages/stanza/models/tokenization/trainer.py:82: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: mwt
+/usr/local/lib/python3.10/dist-packages/stanza/models/mwt/trainer.py:201: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: pos
+/usr/local/lib/python3.10/dist-packages/stanza/models/pos/trainer.py:139: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+/usr/local/lib/python3.10/dist-packages/stanza/models/common/pretrain.py:56: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  data = torch.load(self.filename, lambda storage, loc: storage)
+INFO:stanza:Loading: lemma
+/usr/local/lib/python3.10/dist-packages/stanza/models/lemma/trainer.py:239: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Loading: depparse
+/usr/local/lib/python3.10/dist-packages/stanza/models/depparse/trainer.py:194: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don&#39;t have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(filename, lambda storage, loc: storage)
+INFO:stanza:Done loading processors!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">cat</span> <span class="n">docpl</span><span class="o">.</span><span class="n">conllu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># text = Monikin džbán.
+# sent_id = 0
+1	Monikin	Monikin	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Oth|Number=Sing|Polarity=Pos	0	root	_	start_char=0|end_char=7
+2	džbán	džbán	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	1	nmod	_	start_char=8|end_char=13|SpaceAfter=No
+3	.	.	PUNCT	Z:-------------	_	1	punct	_	start_char=13|end_char=14|SpaceAfter=No
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code># generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = czech-pdt-ud-2.15-241121
+# sent_id = 1
+# text = Moničina kočka rozbila džbán.
+1   Moničina    Moničin ADJ AUFS1M--------- Case=Nom|Gender=Fem|Gender[psor]=Masc|NameType=Giv|Number=Sing|Poss=Yes 2   amod    _   TokenRange=0:8
+2   kočka   kočka   NOUN    NNFS1-----A---- Case=Nom|Gender=Fem|Number=Sing 3   nsubj   _   TokenRange=9:14
+3   rozbila rozbít  VERB    VpQW----R-AAP-- Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act    0   root    _   TokenRange=15:22
+4   džbán   džbán   NOUN    NNIS4-----A---- Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing   3   obj _   SpaceAfter=No|TokenRange=23:28
+5   .   .   PUNCT   Z:------------- _   3   punct   _   SpaceAfter=No|TokenRange=28:29</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code># generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = slovak-snk-ud-2.15-241121
+# newdoc
+# newpar
+# sent_id = 1
+# text = Moničina mačka rozbila džbán.
+1   Moničina    moničin ADJ AFfs1x:r    Case=Nom|Degree=Pos|Gender=Fem|Number=Sing  2   amod    _   TokenRange=0:8
+2   mačka   mačka   NOUN    SSfs1   Case=Nom|Gender=Fem|Number=Sing 3   nsubj   _   TokenRange=9:14
+3   rozbila rozbiť  VERB    VLdscf+ Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part    0   root    _   TokenRange=15:22
+4   džbán   džbán   NOUN    SSis4   Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing   3   obj _   SpaceAfter=No|TokenRange=23:28
+5   .   .   PUNCT   Z   _   3   punct   _   SpaceAfter=No|TokenRange=28:29</code></pre>
+
+</div>
+</div>
+</div>
+</div>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"0035df9d2e824acbb6f7d1831238f143": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "0070fbf34ae849ce829e5f8fdbf1abda": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "039fd353c6ec45e4ac7dab70a4bab521": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "085fce46eaf84ffabec2845f5690e9a8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "0a24b4295e034eef9891cd3040265e30": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "0cd0cec0f59e4185abc0a2d78008de11": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "0e1a064b01d34a3fa1e41274d41cdfce": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_f06fda92569e4428b3379a201c486b74", "IPY_MODEL_73aa94b133d14005992841f52f0f0ca8", "IPY_MODEL_38775c3cfb9d44958fb99c1ab32f0132"], "layout": "IPY_MODEL_2fb4a071f78349c2bfea78ea573187d8"}}, "0e676c63095d47abb074074a74169151": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_adbcab40db1d45cdb1f8f5a982666687", "placeholder": "\u200b", "style": "IPY_MODEL_c9a15e6895a6474eb10648101b31ec25", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/forward_charlm/oscar.pt:\u2007100%"}}, "11a02ca9f0ba458299c4f8552dc710f9": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "1278b504fb2747a7a1ecbb7a331504c7": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "169f35677bd04c409034ef7494e6a952": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "1820384d40504077b2de15898c8b23ac": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_cd7cb870871f43d6a09ca0ae41257028", "max": 45744, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_b12eafd3324a401da9cfd01c3abe96fd", "value": 45744}}, "18701ad6c4444a888c508ec2a044fecf": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "19e8ef1ada024ae0a1a2bf695a8876d9": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "1b6987366592499faa894b1ad2b474c8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_da9717aa9c19472a9025f6abdd6eeec0", "placeholder": "\u200b", "style": "IPY_MODEL_d2e6308d6d25486980fb0f10e00a02a3", "value": "\u20075.91M/5.91M\u2007[00:00&lt;00:00,\u200719.8MB/s]"}}, "1b964d8e204d40c589a44445bc51a296": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "21f2b12335f9442e9fb17f2c8ed51f4a": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_6d5a3e2248bd4bbfa786718667a31b4d", "placeholder": "\u200b", "style": "IPY_MODEL_def7d807bdf240aa9eaf1e93b2171f3b", "value": "\u2007392k/?\u2007[00:00&lt;00:00,\u20076.01MB/s]"}}, "22cc4c9d05394e9599358f8fa6c50c3c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_dedaa060e9404ad181663303943d70a0", "IPY_MODEL_a87ef8e65aea4c0cb0b97568fb3045e2", "IPY_MODEL_b003585345224e9d8fbc1d82d899885c"], "layout": "IPY_MODEL_b02073bd59d840f5987285e31f4bb4f0"}}, "23ede044c3944d1faa6456a9934120c6": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "25285c5b23bd4c5f9c4360749ac7b0d5": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_23ede044c3944d1faa6456a9934120c6", "placeholder": "\u200b", "style": "IPY_MODEL_b5e9182c955f44629f7bd7d958c5efee", "value": "\u2007638k/638k\u2007[00:00&lt;00:00,\u20072.91MB/s]"}}, "2fb4a071f78349c2bfea78ea573187d8": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "31035a165fd547d0bf0dc405c93eefe5": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "31449573a0b94141a703be5aebce24de": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_0cd0cec0f59e4185abc0a2d78008de11", "placeholder": "\u200b", "style": "IPY_MODEL_60217c18fabc44d6b0fcbef883474b5f", "value": "Downloading\u2007https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.9.0.json:\u2007"}}, "3175b37b6bbc4720819a1c0d22bc147b": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "31f21e1720954edeb6f4e4f42ed1f0eb": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "321b3f5e6ac643358fdee872269b0bc0": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3261f85a66a2478396a67d11f1670d70": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "34d99e57fa0745f6882722a822e8902b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "35e5e989b195465894227e79df01cc5b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_0e676c63095d47abb074074a74169151", "IPY_MODEL_c1b25f1b89e7485cbec6cadd2813cacf", "IPY_MODEL_431d2748f268495eb03d1a88a5754553"], "layout": "IPY_MODEL_72f33545202c41e49c45ac699e3f1f28"}}, "38775c3cfb9d44958fb99c1ab32f0132": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_f4c0b89503364ec7aeef614733f5b102", "placeholder": "\u200b", "style": "IPY_MODEL_34d99e57fa0745f6882722a822e8902b", "value": "\u200728.5M/28.5M\u2007[00:00&lt;00:00,\u200772.8MB/s]"}}, "3924259d9b1a401895d40d64bb578b24": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_40c3d082d1a64ccf908c5087e3bcce99", "IPY_MODEL_1820384d40504077b2de15898c8b23ac", "IPY_MODEL_e7588b2c63964f8aaa676b7a7e7b9702"], "layout": "IPY_MODEL_777665e9802d4d8c9e75828802c2072f"}}, "3b8f5a9091934f9683ec5ee410dd169f": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3cac850a26484c2eaed751eff3be42ac": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3e499c6ac0ed4d51a252c20212787c4c": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "40c3d082d1a64ccf908c5087e3bcce99": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_ed0efc281a17402386d3a33765d6d11b", "placeholder": "\u200b", "style": "IPY_MODEL_e207db94d9db4f0298c263eaf698da2c", "value": "Downloading\u2007https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.6.0.json:\u2007"}}, "4280483cb858419aac8ec25cc44bd838": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "431d2748f268495eb03d1a88a5754553": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_3cac850a26484c2eaed751eff3be42ac", "placeholder": "\u200b", "style": "IPY_MODEL_ff26e5c91103432e824ada16d1c0f643", "value": "\u200728.5M/28.5M\u2007[00:00&lt;00:00,\u200751.5MB/s]"}}, "4a80cad2c70e4b2d8022d96ae3c82be2": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "4b09c6775b3b45a092a2a6163576118b": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "4fae012671be40379ebcba51c1bccb56": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_95f816dc4fbc4d398afcc1002814d339", "placeholder": "\u200b", "style": "IPY_MODEL_869b35ed733c453580192779de29ee31", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/pos/pdb_charlm.pt:\u2007100%"}}, "51b98ea5938e41dca7da980411854726": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "53b15a7c9e754f058716a84983a4712c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "554014085e3d468aaa091179dc98b84c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_bf96996e821a4c64b40375149f5e894e", "placeholder": "\u200b", "style": "IPY_MODEL_c2d412755b3f4e16b45ac26ac9091cdd", "value": "\u2007107M/107M\u2007[00:01&lt;00:00,\u2007152MB/s]"}}, "5606b82324904ae09489d6639ff5959f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_f0b73f5b3a634eda93cd4fa00e5e6954", "placeholder": "\u200b", "style": "IPY_MODEL_7c2c789cd21d468b920fcc939b01b2e8", "value": "\u200737.9M/37.9M\u2007[00:00&lt;00:00,\u200798.7MB/s]"}}, "58423aa954ed47d3bcad4b68e07d6ba1": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "5c9b8dbd541642b3a999ef3c86d522e3": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "5cd96aa8572849eda7447c7bf4bfab1f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "60217c18fabc44d6b0fcbef883474b5f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "67e42c3e7c7d4b899d0b9e391d2ead8d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_d5efc14ea2944ebe972e85ca2595584c", "IPY_MODEL_e5d8877ec0c24b64903df6ca8bb21fac", "IPY_MODEL_731fd2ee3e194a0f9a0bdd2e2cee562a"], "layout": "IPY_MODEL_be881abf02bc4b00b57eb9b76d6e292f"}}, "68dafbc8d7df4c31ab63fac199bc6d58": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_31f21e1720954edeb6f4e4f42ed1f0eb", "placeholder": "\u200b", "style": "IPY_MODEL_bb07544df0394774aefe9e62f85dfc07", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/depparse/pdb_charlm.pt:\u2007100%"}}, "69c806855dae491caaa909706018312d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_3e499c6ac0ed4d51a252c20212787c4c", "max": 637708, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_19e8ef1ada024ae0a1a2bf695a8876d9", "value": 637708}}, "6d5a3e2248bd4bbfa786718667a31b4d": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "72a253e5c01f4fe0b013b1a8987bf75f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_de09dd170ecb4cf396df1363431e9fa7", "placeholder": "\u200b", "style": "IPY_MODEL_8b890d8d9c5947f994182d165d1ee6ce", "value": "\u2007154M/154M\u2007[00:01&lt;00:00,\u2007176MB/s]"}}, "72f33545202c41e49c45ac699e3f1f28": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "731fd2ee3e194a0f9a0bdd2e2cee562a": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_e7ba342aea854982a0f19f236a368163", "placeholder": "\u200b", "style": "IPY_MODEL_ec56c14c779a480386c5e4d27d36b548", "value": "\u2007392k/?\u2007[00:00&lt;00:00,\u200712.8MB/s]"}}, "73aa94b133d14005992841f52f0f0ca8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_4b09c6775b3b45a092a2a6163576118b", "max": 28489571, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_924d5c142276493cb959da6fb49f068d", "value": 28489571}}, "7736e8eb1d1a4244a643a3f8eb41f6ee": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "777665e9802d4d8c9e75828802c2072f": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "7abac8d1fcbc4615a6523739cb6d5b02": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "7c2c789cd21d468b920fcc939b01b2e8": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "7dfedb0d68a34519bf3f3f2966b13487": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_4280483cb858419aac8ec25cc44bd838", "placeholder": "\u200b", "style": "IPY_MODEL_cf96e31203854c518bbb070963daecff", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/pretrain/conll17.pt:\u2007100%"}}, "81b21fa17e0e40e982244b529a79160e": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "826a56edbca64f47b1479a0146f83684": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "82a3a2a10b054b35bff9f4b7306388e8": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "85862e9dfbc34a5e82122b1b1a053ab5": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_3175b37b6bbc4720819a1c0d22bc147b", "max": 37921022, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_ab6ae51f22e34cc89eeddcdfeb21a10b", "value": 37921022}}, "869b35ed733c453580192779de29ee31": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "88bfcbc925594127a6191afe4e6b7660": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "8b890d8d9c5947f994182d165d1ee6ce": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "8e31c0821472420c97a44449c3428e33": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "8f5cf50f7bcd41969ccb63d796fefe1d": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "922c10073a4b4aabac0f7278b05bdff6": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_82a3a2a10b054b35bff9f4b7306388e8", "placeholder": "\u200b", "style": "IPY_MODEL_51b98ea5938e41dca7da980411854726", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/lemma/pdb_nocharlm.pt:\u2007100%"}}, "924d5c142276493cb959da6fb49f068d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "943e9f7da6ce4758b7211b7f944c844b": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "94d429d17f504ddfb7c758204598d4eb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_68dafbc8d7df4c31ab63fac199bc6d58", "IPY_MODEL_c2cfa9577a2e4c7d88a45d73e22ff397", "IPY_MODEL_72a253e5c01f4fe0b013b1a8987bf75f"], "layout": "IPY_MODEL_943e9f7da6ce4758b7211b7f944c844b"}}, "95f816dc4fbc4d398afcc1002814d339": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "9f4999c562974091b465409c36d2b2ef": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_7dfedb0d68a34519bf3f3f2966b13487", "IPY_MODEL_b3fce5dcaa59432a8cc4635e0b923d99", "IPY_MODEL_554014085e3d468aaa091179dc98b84c"], "layout": "IPY_MODEL_bd0cc02e096b4734a8b56889466bdca0"}}, "a75337fb780e4ec08a2ea2c7d15d61a9": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_31449573a0b94141a703be5aebce24de", "IPY_MODEL_ad133a4050b7433185e136f9c28f550c", "IPY_MODEL_21f2b12335f9442e9fb17f2c8ed51f4a"], "layout": "IPY_MODEL_b16438ba6f814d848eb59be5b1668214"}}, "a87ef8e65aea4c0cb0b97568fb3045e2": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_3b8f5a9091934f9683ec5ee410dd169f", "max": 45744, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_88bfcbc925594127a6191afe4e6b7660", "value": 45744}}, "aacbdadd0d854332a75c183c04060dab": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "ab6ae51f22e34cc89eeddcdfeb21a10b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "abc76f52944c49bfbe2c8b5d19c87e3c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "ad133a4050b7433185e136f9c28f550c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_81b21fa17e0e40e982244b529a79160e", "max": 48453, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_169f35677bd04c409034ef7494e6a952", "value": 48453}}, "adbcab40db1d45cdb1f8f5a982666687": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "b003585345224e9d8fbc1d82d899885c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_aacbdadd0d854332a75c183c04060dab", "placeholder": "\u200b", "style": "IPY_MODEL_0070fbf34ae849ce829e5f8fdbf1abda", "value": "\u2007367k/?\u2007[00:00&lt;00:00,\u200711.6MB/s]"}}, "b02073bd59d840f5987285e31f4bb4f0": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "b12eafd3324a401da9cfd01c3abe96fd": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "b16438ba6f814d848eb59be5b1668214": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "b3fce5dcaa59432a8cc4635e0b923d99": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_321b3f5e6ac643358fdee872269b0bc0", "max": 107049780, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_18701ad6c4444a888c508ec2a044fecf", "value": 107049780}}, "b5e9182c955f44629f7bd7d958c5efee": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "b6b91935a2df45f5af9d20b41d66e3b3": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "bb07544df0394774aefe9e62f85dfc07": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "bd0cc02e096b4734a8b56889466bdca0": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "be881abf02bc4b00b57eb9b76d6e292f": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "bf96996e821a4c64b40375149f5e894e": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "c1b25f1b89e7485cbec6cadd2813cacf": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_f5be9646d2404971814c9d0aa468454d", "max": 28489570, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_7abac8d1fcbc4615a6523739cb6d5b02", "value": 28489570}}, "c283a515db5e45b48064e570ff5297da": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "c2cfa9577a2e4c7d88a45d73e22ff397": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_58423aa954ed47d3bcad4b68e07d6ba1", "max": 153776230, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_3261f85a66a2478396a67d11f1670d70", "value": 153776230}}, "c2d412755b3f4e16b45ac26ac9091cdd": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "c4c1b3fed08d42b9be787d255fa6363c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_1b964d8e204d40c589a44445bc51a296", "placeholder": "\u200b", "style": "IPY_MODEL_b6b91935a2df45f5af9d20b41d66e3b3", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/mwt/pdb.pt:\u2007100%"}}, "c6a0f983c41a475a9f0e98e91ba9f6c3": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_0035df9d2e824acbb6f7d1831238f143", "placeholder": "\u200b", "style": "IPY_MODEL_53b15a7c9e754f058716a84983a4712c", "value": "\u2007622k/622k\u2007[00:00&lt;00:00,\u20077.51MB/s]"}}, "c6c8561cb9f944af977cbf5dc1b4a07f": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_cb11a95631af410e8e9c2fbd6f9e0f62", "IPY_MODEL_69c806855dae491caaa909706018312d", "IPY_MODEL_25285c5b23bd4c5f9c4360749ac7b0d5"], "layout": "IPY_MODEL_039fd353c6ec45e4ac7dab70a4bab521"}}, "c6dfa521033d49ff8218a5e1b22843cb": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_922c10073a4b4aabac0f7278b05bdff6", "IPY_MODEL_d6561d2d45804d779fbf70b4685e458e", "IPY_MODEL_1b6987366592499faa894b1ad2b474c8"], "layout": "IPY_MODEL_31035a165fd547d0bf0dc405c93eefe5"}}, "c9a15e6895a6474eb10648101b31ec25": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "cb11a95631af410e8e9c2fbd6f9e0f62": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_826a56edbca64f47b1479a0146f83684", "placeholder": "\u200b", "style": "IPY_MODEL_f879fd6025c44d68aa4c78931c6cf90d", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/tokenize/pdb.pt:\u2007100%"}}, "cb1c399850294bd09bb9ace302cd8f35": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "cd7cb870871f43d6a09ca0ae41257028": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "ce12cd765ebe46698035f6e138021a93": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_8f5cf50f7bcd41969ccb63d796fefe1d", "max": 621527, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_d92d22449af74f5e8f7773b8d8a673d7", "value": 621527}}, "cf96e31203854c518bbb070963daecff": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "d2e6308d6d25486980fb0f10e00a02a3": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "d5efc14ea2944ebe972e85ca2595584c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_5c9b8dbd541642b3a999ef3c86d522e3", "placeholder": "\u200b", "style": "IPY_MODEL_0a24b4295e034eef9891cd3040265e30", "value": "Downloading\u2007https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.9.0.json:\u2007"}}, "d6561d2d45804d779fbf70b4685e458e": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_d69a0cd20b3241a0b5516559df6a3aa1", "max": 5908039, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_abc76f52944c49bfbe2c8b5d19c87e3c", "value": 5908039}}, "d69a0cd20b3241a0b5516559df6a3aa1": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "d92d22449af74f5e8f7773b8d8a673d7": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "da9717aa9c19472a9025f6abdd6eeec0": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "de09dd170ecb4cf396df1363431e9fa7": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "dedaa060e9404ad181663303943d70a0": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_11a02ca9f0ba458299c4f8552dc710f9", "placeholder": "\u200b", "style": "IPY_MODEL_5cd96aa8572849eda7447c7bf4bfab1f", "value": "Downloading\u2007https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.6.0.json:\u2007"}}, "def7d807bdf240aa9eaf1e93b2171f3b": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "e207db94d9db4f0298c263eaf698da2c": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "e5d8877ec0c24b64903df6ca8bb21fac": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "FloatProgressModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "success", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_cb1c399850294bd09bb9ace302cd8f35", "max": 48453, "min": 0, "orientation": "horizontal", "style": "IPY_MODEL_f03bda30fdd2459eaacffc6f52c0a718", "value": 48453}}, "e7588b2c63964f8aaa676b7a7e7b9702": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_8e31c0821472420c97a44449c3428e33", "placeholder": "\u200b", "style": "IPY_MODEL_085fce46eaf84ffabec2845f5690e9a8", "value": "\u2007367k/?\u2007[00:00&lt;00:00,\u200717.1MB/s]"}}, "e7ba342aea854982a0f19f236a368163": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "ea3e9f8a87de403d92d23ce176b80e66": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_c4c1b3fed08d42b9be787d255fa6363c", "IPY_MODEL_ce12cd765ebe46698035f6e138021a93", "IPY_MODEL_c6a0f983c41a475a9f0e98e91ba9f6c3"], "layout": "IPY_MODEL_4a80cad2c70e4b2d8022d96ae3c82be2"}}, "ec56c14c779a480386c5e4d27d36b548": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "ed0efc281a17402386d3a33765d6d11b": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "efb11b603234480d8638989a7fc5c691": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HBoxModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_4fae012671be40379ebcba51c1bccb56", "IPY_MODEL_85862e9dfbc34a5e82122b1b1a053ab5", "IPY_MODEL_5606b82324904ae09489d6639ff5959f"], "layout": "IPY_MODEL_7736e8eb1d1a4244a643a3f8eb41f6ee"}}, "f03bda30fdd2459eaacffc6f52c0a718": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "ProgressStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "f06fda92569e4428b3379a201c486b74": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "HTMLModel", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_1278b504fb2747a7a1ecbb7a331504c7", "placeholder": "\u200b", "style": "IPY_MODEL_c283a515db5e45b48064e570ff5297da", "value": "Downloading\u2007https://huggingface.co/stanfordnlp/stanza-pl/resolve/v1.9.0/models/backward_charlm/oscar.pt:\u2007100%"}}, "f0b73f5b3a634eda93cd4fa00e5e6954": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "f4c0b89503364ec7aeef614733f5b102": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "f5be9646d2404971814c9d0aa468454d": {"model_module": "@jupyter-widgets/base", "model_module_version": "1.2.0", "model_name": "LayoutModel", "state": {"_model_module": "@jupyter-widgets/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "f879fd6025c44d68aa4c78931c6cf90d": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "ff26e5c91103432e824ada16d1c0f643": {"model_module": "@jupyter-widgets/controls", "model_module_version": "1.5.0", "model_name": "DescriptionStyleModel", "state": {"_model_module": "@jupyter-widgets/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}}
+</script>
+
+
+
+  </div><a class="u-url" href="/notes/spacy/stanza/dependencies/irish/swedish/2024/11/20/more-playing-with-spacy.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
