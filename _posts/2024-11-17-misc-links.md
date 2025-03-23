@@ -82,7 +82,7 @@ categories: [links]
 <!-- https://github.com/Sprakbanken/nb_uttale No licence -->
 
 [WavTokenizer: an Efficient Acoustic Discrete Codec Tokenizer for Audio Language Modeling](https://arxiv.org/abs/2408.16532),
-[code]https://github.com/jishengpeng/WavTokenizer)
+[code](https://github.com/jishengpeng/WavTokenizer)
 
 [High-Fidelity Audio Compression with Improved RVQGAN](https://arxiv.org/abs/2306.06546),
 [code](https://github.com/descriptinc/descript-audio-codec)
@@ -99,7 +99,7 @@ categories: [links]
 [edwko/OuteTTS](https://github.com/edwko/OuteTTS)
 
 [Sylber: Syllabic Embedding Representation of Speech from Raw Audio](https://arxiv.org/abs/2410.07168),
-[code](https://github.com/Berkeley-Speech-Group/sylber) (empty)
+[code](https://github.com/Berkeley-Speech-Group/sylber)
 
 [Very Attentive Tacotron: Robust and Unbounded Length Generalization in Autoregressive Transformer-Based Text-to-Speech](https://arxiv.org/abs/2410.22179),
 [code](https://github.com/google/sequence-layers/blob/main/examples/very_attentive_tacotron.py)
@@ -155,7 +155,7 @@ categories: [links]
 
 [Finally, a Replacement for BERT](https://huggingface.co/blog/modernbert)
 
-[Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/)
+[Wiki Loves Downloads](https://wikilovesdownloads.toolforge.org/) --- Divides the images of a category from Wikimedia Commons into a desired number of lists and generates these in the form of text files with links to the respective images so that they can be downloaded using a download manager.
 
 [Lingua Libre language gallery](https://lingualibre.org/LanguagesGallery/)
 
@@ -229,6 +229,7 @@ categories: [links]
 [code](https://github.com/Berkeley-Speech-Group/sylber)
 
 [IPS-LMU/octra](https://github.com/IPS-LMU/octra) --- OCTRA is a web-application for the orthographic transcription of audio files.
+[Manual](https://clarin.phonetik.uni-muenchen.de/apps/octra/manuals/octra/)
 
 [espnet/owsm_ctc_v3.1_1B](https://huggingface.co/espnet/owsm_ctc_v3.1_1B)
 
