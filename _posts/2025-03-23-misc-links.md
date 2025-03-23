@@ -54,3 +54,20 @@ ESPnet pull requests:
 [Render DensePose](https://github.com/facebookresearch/pytorch3d/blob/main/docs/tutorials/render_densepose.ipynb) --- Needs SMPL (which is not open source)
 
 [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) --- 1 min voice data can also be used to train a good TTS model! (few shot voice cloning)
+
+[acids-ircam/ddsp_pytorch](https://github.com/acids-ircam/ddsp_pytorch) --- Implementation of Differentiable Digital Signal Processing (DDSP) in Pytorch
+
+[DDSP-based Neural Waveform Synthesis of Polyphonic Guitar Performance from String-wise MIDI Input](https://arxiv.org/abs/2309.07658),
+[code](https://github.com/erl-j/ddsp-guitar)
+
+[jryban/frechet-music-distance](https://github.com/jryban/frechet-music-distance)
+
+[Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics](https://arxiv.org/abs/2503.01174)
+
+[huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
+
+[mixup: Data-Dependent Data Augmentation](https://www.inference.vc/mixup-data-dependent-data-augmentation/)
+
+[Gaussian Distributions are Soap Bubbles](https://www.inference.vc/high-dimensional-gaussian-distributions-are-soap-bubble/)
+
+[Musings on Typicality](https://sander.ai/2020/09/01/typicality.html)
