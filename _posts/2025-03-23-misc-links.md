@@ -77,3 +77,19 @@ ESPnet pull requests:
 [DiffRhythm: Blazingly Fast and Embarrassingly Simple End-to-End Full-Length Song Generation with Latent Diffusion](https://aslp-lab.github.io/DiffRhythm.github.io/),
 [code](https://github.com/ASLP-lab/DiffRhythm),
 [arxiv](https://arxiv.org/abs/2503.01183)
+
+[PeterGriffinJin/Search-R1](https://github.com/PeterGriffinJin/Search-R1) --- Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL
+
+[MatthewCYM/VoiceBench](https://github.com/MatthewCYM/VoiceBench) --- VoiceBench: Benchmarking LLM-Based Voice Assistants
+
+[IDEA-Research/Grounded-SAM-2](https://github.com/IDEA-Research/Grounded-SAM-2) --- Grounded SAM 2: Ground and Track Anything in Videos with Grounding DINO, Florence-2 and SAM 2
+
+{% twitter https://x.com/karpathy/status/1887211193099825254 %}
+
+[Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
+
+[Must-Watch Hungarian TV Series to Improve Your Hungarian](https://www.hungarianpod101.com/blog/2019/04/19/best-hungarian-tv-shows-to-improve-hungarian/)
+
+[r/hungarian resources](https://www.reddit.com/r/hungarian/wiki/resources/)
+
+[Speaking Hungarian S01](https://www.youtube.com/watch?v=IHeEi2Fj5Mw&list=PLU_vdD4vtCbs0587s3KpeJtISBZ-pMza_&index=1)
