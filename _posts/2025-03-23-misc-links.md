@@ -117,3 +117,10 @@ ESPnet pull requests:
 
 [Empowering innovation: The next generation of the Phi family](https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/),
 [microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)
+
+[Traveling Waves Integrate Spatial Information Through Time](https://kempnerinstitute.harvard.edu/research/deeper-learning/traveling-waves-integrate-spatial-information-through-time/)
+
+[CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval](https://arxiv.org/abs/2104.08860),
+[code](https://github.com/ArrowLuo/CLIP4Clip)
+
+[yzhuoning/Awesome-CLIP](https://github.com/yzhuoning/Awesome-CLIP)
