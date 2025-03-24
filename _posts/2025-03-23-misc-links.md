@@ -93,3 +93,12 @@ ESPnet pull requests:
 [r/hungarian resources](https://www.reddit.com/r/hungarian/wiki/resources/)
 
 [Speaking Hungarian S01](https://www.youtube.com/watch?v=IHeEi2Fj5Mw&list=PLU_vdD4vtCbs0587s3KpeJtISBZ-pMza_&index=1)
+
+[ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm) --- Run LLMs with MLX
+
+[MoshiVis — Teaching Moshi to Converse about Images](https://kyutai.org/moshivis)
+
+[Announcing Pixtral 12B](https://mistral.ai/news/pixtral-12b)
+
+[Moshi: a speech-text foundation model for real-time dialogue](https://arxiv.org/abs/2410.00037),
+[code](https://github.com/kyutai-labs/moshi/)
