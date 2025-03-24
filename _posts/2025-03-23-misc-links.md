@@ -102,3 +102,18 @@ ESPnet pull requests:
 
 [Moshi: a speech-text foundation model for real-time dialogue](https://arxiv.org/abs/2410.00037),
 [code](https://github.com/kyutai-labs/moshi/)
+
+[PyTorch internals](https://blog.ezyang.com/2019/05/pytorch-internals/)
+
+[Inductive Moment Matching](https://arxiv.org/abs/2503.07565)
+
+[mistralai/Mistral-Small-3.1-24B-Instruct-2503](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503)
+
+[Robust Audio-Visual Segmentation via Audio-Guided Visual Convergent Alignment](https://arxiv.org/abs/2503.12847)
+
+[fasttransform: Reversible Pipelines Made Simple](https://www.fast.ai/posts/2025-02-20-fasttransform)
+
+[nvidia/canary-1b-flash](https://huggingface.co/nvidia/canary-1b-flash) --- CC-BY
+
+[Empowering innovation: The next generation of the Phi family](https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/),
+[microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)
