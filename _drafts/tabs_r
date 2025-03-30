@@ -71,7 +71,7 @@ Prime Video: Fleabag Season 1
 https://www.primevideo.com/detail/0OB9NDUVQKFRSYRSCHT2A784TI/ref=atv_dp_season_select_s1
 
 Netflix
-https://www.netflix.com/watch/81397224?source=35&trackId=155573558
+https://www.netflix.com/watch/81397225?source=35&trackId=155573558
 
 RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0! - 🤗Transformers - Hugging Face Forums
 https://discuss.huggingface.co/t/runtimeerror-expected-all-tensors-to-be-on-the-same-device-but-found-at-least-two-devices-cuda-1-and-cuda-0/39548/9
@@ -118,8 +118,14 @@ https://github.com/espnet/espnet/commit/b4992657fd9e542f53e1a95d60299792f1806559
 espnet/egs2/owsm_v3/s2t1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3/s2t1/README.md?plain=1#L3
 
-espnet/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py#L4
+espnet/egs2/swbd_sentiment/asr1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
+https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/swbd_sentiment/asr1/README.md
+
+espnet/egs2/TEMPLATE/tts1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
+https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/TEMPLATE/tts1/README.md#how-to-run
+
+espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer_wav2vec2 · Hugging Face
+https://huggingface.co/espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer_wav2vec2
 
 espnet/espnet2/s2t/espnet_ctc_model.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/s2t/espnet_ctc_model.py#L20
@@ -172,10 +178,73 @@ https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps
 ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base · Hugging Face
 https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base
 
-(2) Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
+Using custom symbols in Pynini
+https://chatgpt.com/c/67e84ae2-b4bc-8011-95c8-9050fde22fdc
 
-Division of Speech, Music and Hearing - KTH to Mäster Samuelsgatan 28, 111 57 Stockholm - Google Maps
-https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/M%C3%A4ster+Samuelsgatan+28,+111+57+Stockholm/@59.3348659,18.0671938,16.99z/am=t/data=!4m14!4m13!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f9d5ddf2ede67:0x37567b6f62620032!2m2!1d18.0673394!2d59.3341352!3e3?hl=en&entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D
+language-resources/festus at master · google/language-resources
+https://github.com/google/language-resources/tree/master/festus
+
+language-resources/festus/runtime at master · google/language-resources
+https://github.com/google/language-resources/tree/master/festus/runtime
+
+language-resources/festus/alignables-util.cc at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/alignables-util.cc
+
+language-resources/festus/alignables-util.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/alignables-util.h
+
+language-resources/festus/alignables.proto at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/alignables.proto
+
+language-resources/festus/fst-util.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/fst-util.h
+
+language-resources/festus/label-maker.cc at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/label-maker.cc
+
+language-resources/festus/label-maker.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/label-maker.h
+
+language-resources/festus/string-util.cc at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/string-util.cc
+
+language-resources/festus/string-util.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/string-util.h
+
+language-resources/festus/runtime/fst-util.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/runtime/fst-util.h
+
+raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
+https://raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
+
+language-resources/festus/runtime/g2p.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/runtime/g2p.h
+
+raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
+https://raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
+
+language-resources/festus/runtime/compact.h at master · google/language-resources
+https://github.com/google/language-resources/blob/master/festus/runtime/compact.h
+
+Daredevil: Born Again season 1 - Wikipedia
+https://en.wikipedia.org/wiki/Daredevil:_Born_Again_season_1
+
+mother's day ireland 2025 - Google Search
+https://www.google.com/search?q=mother%27s+day+ireland+2025&rlz=1C5GCCM_en&oq=mother%27s+day+ireland&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyCQgBEEUYORiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgzNDgwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+List of Killing Eve episodes - Wikipedia
+https://en.wikipedia.org/wiki/List_of_Killing_Eve_episodes
+
+Villanelle (character) - Wikipedia
+https://en.wikipedia.org/wiki/Villanelle_(character)
+
+David Haig - Wikipedia
+https://en.wikipedia.org/wiki/David_Haig
+
+Stories • Instagram
+https://www.instagram.com/stories/unilad/3599799349291317388/?hl=en
+
+Tom Cruise has been permanently banned from ever buying a Bugatti for one reason
+https://www.unilad.com/celebrity/tom-cruise-bugatti-ban-car-blunder-897773-20250324?fbclid=PAZXh0bgNhZW0CMTEAAab6-Hg8Us-ocDRbWa36Df5JDL3WrX2Go5c3dMEftanPCWXjO1r-HPGHPoA_aem_KtKGHRXnYc0-zG8p7WD6Vg
 
 
