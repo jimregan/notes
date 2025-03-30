@@ -1,181 +1,223 @@
-Prompt-based Alignment of Headlines and Images Using OpenCLIP
-https://ceur-ws.org/Vol-3658/paper7.pdf
+mm-conv-code/mm_conv/utils/motion_utils.py at dev · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/blob/dev/mm_conv/utils/motion_utils.py
 
-Optimizing Visual Pairings: A CLIP Framework for Precision News Image Rematching
-https://ceur-ws.org/Vol-3658/paper20.pdf
+annadeichler/mm-conv-code at dev
+https://github.com/annadeichler/mm-conv-code/tree/dev
 
-yzhuoning/Awesome-CLIP: Awesome list for research on CLIP (Contrastive Language-Image Pre-Training).
-https://github.com/yzhuoning/Awesome-CLIP
+mm-conv-code/setup.py at dev · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/blob/dev/setup.py
 
-rom1504/clip-retrieval: Easily compute clip embeddings and build a clip retrieval system with them
-https://github.com/rom1504/clip-retrieval
+mm-conv-code/combined_visualization.py at dev · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/blob/dev/combined_visualization.py
 
-descriptinc/lyrebird-wav2clip: Official implementation of the paper WAV2CLIP: LEARNING ROBUST AUDIO REPRESENTATIONS FROM CLIP
-https://github.com/descriptinc/lyrebird-Wav2CLIP?tab=readme-ov-file
+2502.14786
+https://arxiv.org/pdf/2502.14786
 
-hohsiangwu/wav2clip – Run with an API on Replicate
-https://replicate.com/hohsiangwu/wav2clip
+big_vision/big_vision/configs/proj/image_text/README_siglip2.md at main · google-research/big_vision
+https://github.com/google-research/big_vision/blob/main/big_vision/configs/proj/image_text/README_siglip2.md
 
-lyrebird-wav2clip/wav2clip/pre_training/dataset.py at master · descriptinc/lyrebird-wav2clip
-https://github.com/descriptinc/lyrebird-wav2clip/blob/master/wav2clip/pre_training/dataset.py
+lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
+https://github.com/lingjzhu/charsiu?tab=readme-ov-file
 
-2212.03640
-https://arxiv.org/pdf/2212.03640
+charsiu_demo.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_forced_alignment_demo.ipynb#scrollTo=0zxKOeyTROc2
 
-muzairkhattak/ViFi-CLIP: [CVPR 2023] Official repository of paper titled "Fine-tuned CLIP models are efficient video learners".
-https://github.com/muzairkhattak/ViFi-CLIP?tab=readme-ov-file
+charsiu/misc/data.md at main · lingjzhu/charsiu
+https://github.com/lingjzhu/charsiu/blob/main/misc/data.md
 
-ViFi-CLIP/docs/DATASETS.md at main · muzairkhattak/ViFi-CLIP
-https://github.com/muzairkhattak/ViFi-CLIP/blob/main/docs/DATASETS.md
+charsiu/misc/data.md at main · lingjzhu/charsiu
+https://github.com/lingjzhu/charsiu/blob/main/misc/data.md#alignments-for-english-datasets
 
-Extract Spectrograms with Parselmouth
-https://chatgpt.com/c/67e1903e-3104-8011-bd7b-c9a12fbb6ded
+lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
+https://github.com/lingjzhu/charsiu?tab=readme-ov-file
 
-Utbildningsplan för kurs LIDF01
-https://sisu.it.su.se/pdf_creator/40255/60298
+charsiu_tutorial.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_tutorial.ipynb
+
+lingjzhu/clap-ipa: Keyword spotting and forced alignment in any language
+https://github.com/lingjzhu/clap-ipa?tab=readme-ov-file
+
+anyspeech/fleurs_ipa at main
+https://huggingface.co/datasets/anyspeech/fleurs_ipa/tree/main
+
+anyspeech/PhoneCorpus · Datasets at Hugging Face
+https://huggingface.co/datasets/anyspeech/PhoneCorpus
+
+anyspeech/PhoneBERT-tiny at main
+https://huggingface.co/anyspeech/PhoneBERT-tiny/tree/main
+
+config.json · anyspeech/s2t-small-phoneme-finetuned at main
+https://huggingface.co/anyspeech/s2t-small-phoneme-finetuned/blob/main/config.json
+
+anyspeech/PhoneBERT-tiny · Hugging Face
+https://huggingface.co/anyspeech/PhoneBERT-tiny
+
+sardin/p5m/lib/MTM/Analysis/Time.pm at develop · sprakbankental/sardin
+https://github.com/sprakbankental/sardin/blob/develop/p5m/lib/MTM/Analysis/Time.pm
+
+Probabilistic Artificial Intelligence
+https://arxiv.org/pdf/2502.05244
+
+(1) TuringPost on X: "6 notable AI models of the week: ▪️ Differentiable Logic Cellular Automata @GoogleAI ▪️ Phi-4-Mini @Microsoft ▪️ Babel, Open Multilingual LLMs @AlibabaGroup ▪️ Aya Vision @CohereForAI ▪️ LLMVoX ▪️ LanDiff by Moonshot AI 🧵 https://t.co/EKCm3t5HwM" / X
+https://x.com/TheTuringPost/status/1899237753851953248
+
+Paper page - LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM
+https://huggingface.co/papers/2503.04724
+
+Differentiable Logic CA: from Game of Life to Pattern Generation
+https://google-research.github.io/self-organising-systems/difflogic-ca/
+
+Paper page - Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs
+https://huggingface.co/papers/2503.01743
+
+Paper page - Babel: Open Multilingual Large Language Models Serving Over 90% of Global Speakers
+https://huggingface.co/papers/2503.00865
+
+Musings on typicality – Sander Dieleman
+https://sander.ai/2020/09/01/typicality.html
 
 Google Translate
-https://translate.google.com/?sl=sv&tl=en&text=https%3A%2F%2Fsisu.it.su.se%2Fpdf_creator%2F40255%2F60298&op=docs
+https://translate.google.com/?sl=auto&tl=en&text=Szenny%20%C3%A9s%20Fert%C5%91%0A%0ASzenny%20csorog%20az%20ujjak%20csonkjain%2C%0ARonggy%C3%A1%20m%C3%A1llott%20b%C5%91r%2C%20v%C3%A9rtelen%20h%C3%BAs.%0AA%20k%C3%B6rm%C3%B6k%20r%C3%A9g%20sz%C3%A9trothadtak%2C%0ACsak%20csontok%20vakarnak%20f%C3%B6ldet%20%C3%A9s%20m%C3%BAltat.%0A%0AFert%C5%91%20ny%C3%BAlik%20az%20%C3%ADz%C3%BCletek%20k%C3%B6z%C3%A9%2C%0AA%20porcokat%20lassan%20felfalja%20a%20csend.%0ANincs%20mozdulat%2C%20nincs%20%C3%A9rint%C3%A9s%2C%0ACsak%20a%20b%C5%91r%20alatti%20s%C3%B6t%C3%A9ts%C3%A9g%20zeng.%0A%0AAz%20ujjak%20egykor%20markoltak%2C%0AMost%20recsegve%20t%C3%B6rnek%20porr%C3%A1.%0ACsak%20pernye%20marad%2C%20mocskos%20hamu%2C%0AMely%20sz%C3%A9l%20n%C3%A9lk%C3%BCl%20is%20sz%C3%A9thull%20m%C3%A1r.%0A%0ANincs%20t%C3%B6bb%20k%C3%A9z%2C%20nincs%20t%C3%B6bb%20kapaszkod%C3%A1s%2C%0ACsak%20nyitott%20sebek%2C%20fekete%20roncsol%C3%A1s.%0A%C3%89s%20amikor%20az%20utols%C3%B3%20ujj%20is%20lehull%2C%0AM%C3%A1r%20nincs%20test.%20Nincs%20%C3%A9n.%20Csak%20a%20rothad%C3%A1s.%0A%0AF%C3%A9ny%20%C3%A9s%20Tisztas%C3%A1g%0A%0AF%C3%A9ny%20csorog%20az%20ujjak%20k%C3%B6z%C3%B6tt%2C%0AHarmatcseppek%20sim%C3%ADtj%C3%A1k%20a%20b%C5%91rt.%0AAz%20%C3%A9rint%C3%A9s%20nyom%C3%A1n%20%C3%A9let%20fakad%2C%0AMinden%20mozdulat%20%C3%BAj%20vil%C3%A1got%20sz%C5%91.%0A%0ATisztas%C3%A1g%20sz%C3%B6kik%20a%20reped%C3%A9sekb%C5%91l%2C%0ASelymes%20sugarak%20festik%20a%20csendet.%0ANincs%20t%C3%B6r%C3%A9s%2C%20nincs%20szakad%C3%A1s%2C%0ACsak%20az%20id%C5%91%2C%20amely%20l%C3%A1gyan%20%C3%B6lel.%0A%0AA%20kezek%20felemelkednek%2C%0AF%C3%A9nyben%20%C3%BAsz%C3%B3%20%C3%B6sv%C3%A9nyeket%20%C3%ADrva.%0AAz%20%C3%A9rint%C3%A9s%20k%C3%B6nny%C5%B1%2C%20mint%20a%20hajnal%2C%0AMint%20a%20sz%C3%A9l%2C%20amely%20sosem%20m%C3%BAlik%20el.%0A%0ANincs%20s%C3%BAly%2C%20nincs%20vesztes%C3%A9g%2C%0ACsak%20a%20ragyog%C3%A1s%2C%20amely%20nem%20halv%C3%A1nyul.%0A%C3%89s%20amikor%20az%20utols%C3%B3%20f%C3%A9nysug%C3%A1r%20el%C3%A9r%2C%0AM%C3%A1r%20nincs%20test%20%E2%80%93%20csak%20tiszta%20l%C3%A9tez%C3%A9s.&op=translate
 
-education_plan (2).pdf
-file:///Users/joregan/Downloads/education_plan%20(2).pdf
+Panelshow
+https://www.reddit.com/r/panelshow/
 
-Server för arbetsmaterial
-http://web.archive.org/web/20220301021728/http://www.ling.su.se/
+Bäst i test: Vinnarnas vinnare announced : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1jb0kys/b%C3%A4st_i_test_vinnarnas_vinnare_announced/
 
-OpenAI says its AI voice assistant is now better to chat with | TechCrunch
-https://techcrunch.com/2025/03/24/openai-says-its-ai-voice-assistant-is-now-better-to-chat-with/
+Kongen Befaler S11 E06 (with English subs) : r/panelshow
+https://www.reddit.com/r/panelshow/comments/1janer1/kongen_befaler_s11_e06_with_english_subs/
 
-Course groups: DT2119/FDT3119 VT25 Speech and Speaker Recognition
-https://canvas.kth.se/courses/53239/groups#tab-30822
+r/panelshow Wiki: International Taskmaster Collections
+https://www.reddit.com/r/panelshow/wiki/taskmaster/#wiki_kongen_befaler_.28taskmaster_norway.29
 
-Inbox
-https://canvas.kth.se/conversations#filter=type=inbox
+Kongen_Befaler_S11_E05.mp4 - Google Drive
+https://drive.google.com/file/d/1eW2nsDbzJhoon1bntzUc8kpS7pyLkz7C/view
 
-Syllabus for DT2119/FDT3119 VT25 Speech and Speaker Recognition
-https://canvas.kth.se/courses/53239/assignments/syllabus
+Call for Dataset Paper Submissions | 2025 ACM Multimedia
+https://acmmm2025.org/datasets/
 
-8.3. Speech Recognition — Introduction to Speech Processing
-https://speechprocessingbook.aalto.fi/Recognition/Speech_Recognition.html
+Important Dates | 2025 ACM Multimedia
+https://acmmm2025.org/important-dates/
 
-Qwen/Qwen2.5-Omni-7B · Hugging Face
-https://huggingface.co/Qwen/Qwen2.5-Omni-7B
+Information for Authors | 2025 ACM Multimedia
+https://acmmm2025.org/information-for-authors/
 
-dmlc/decord: An efficient video loader for deep learning with smart shuffling that's super easy to digest
-https://github.com/dmlc/decord?tab=readme-ov-file#install-from-source
+Sequential Colocated Events | 2025 ACM Multimedia
+https://acmmm2025.org/sequential-colocated-events/
 
-Tanya : r/TheWhiteLotusHBO
-https://www.reddit.com/r/TheWhiteLotusHBO/comments/zjl2aa/tanya/
+Calls for Submissions | 2025 ACM Multimedia
+https://acmmm2025.org/research-topics/
 
-Prime Video: Fleabag Season 1
-https://www.primevideo.com/detail/0OB9NDUVQKFRSYRSCHT2A784TI/ref=atv_dp_season_select_s1
+huggingface/speech-to-speech: Speech To Speech: an effort for an open-sourced and modular GPT4-o
+https://github.com/huggingface/speech-to-speech?tab=readme-ov-file
 
-Netflix
-https://www.netflix.com/watch/81397224?source=35&trackId=155573558
+modelscope/FunASR: A Fundamental End-to-End Speech Recognition Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Recognition, Voice Activity Detection, Text Post-processing etc.
+https://github.com/modelscope/FunASR
 
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0! - 🤗Transformers - Hugging Face Forums
-https://discuss.huggingface.co/t/runtimeerror-expected-all-tensors-to-be-on-the-same-device-but-found-at-least-two-devices-cuda-1-and-cuda-0/39548/9
+FunASR/MODEL_LICENSE at main · modelscope/FunASR
+https://github.com/modelscope/FunASR/blob/main/MODEL_LICENSE
 
-Studio Ghibli Photo Concept
-https://chatgpt.com/c/67e522e8-f2f4-8011-9c11-c5ad25327ba1
+snakers4/silero-vad: Silero VAD: pre-trained enterprise-grade Voice Activity Detector
+https://github.com/snakers4/silero-vad
 
-Add WhisperModel to transformers by ArthurZucker · Pull Request #19166 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/19166/files#diff-6ec07359a4b7f7c8c986c86549f01867ea071bef35cac64e0bd05302fef2e615
+MeloTTS/melo/text/es_phonemizer/gruut_wrapper.py at main · myshell-ai/MeloTTS
+https://github.com/myshell-ai/MeloTTS/blob/main/melo/text/es_phonemizer/gruut_wrapper.py
 
-Export Whisper to ExecuTorch by chmjkb · Pull Request #37009 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/37009/files
+rhasspy/gruut-ipa: Python library for manipulating pronunciations using the International Phonetic Alphabet (IPA)
+https://github.com/rhasspy/gruut-ipa
 
-Add Granite Speech Support by alex-jw-brooks · Pull Request #36801 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/36801
+ml-explore/mlx-lm: Run LLMs with MLX
+https://github.com/ml-explore/mlx-lm?tab=readme-ov-file
 
-Fixed 30s timestamp resets in Whisper long-form transcription by FaresBadrCA · Pull Request #36612 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/36612
+mlx-lm/mlx_lm/LORA.md at main · ml-explore/mlx-lm
+https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md
 
-[Whisper] Pipeline: handle long form generation by eustlb · Pull Request #35750 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/35750/files
+mlx-lm/mlx_lm/LORA.md at main · ml-explore/mlx-lm
+https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md#Data
 
-Fix M-CTC-T chunking by samwaterbury · Pull Request #18949 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/18949/files
+mlx-examples/lora/data/wikisql.py at main · ml-explore/mlx-examples
+https://github.com/ml-explore/mlx-examples/blob/main/lora/data/wikisql.py
 
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
+Official Transcript of Records 2025-03-24
+https://www.student.ladok.se/student/proxy/extintegration/internal/intyg/ae8b7466-08ab-11f0-845c-1561193b44b2/pdf
 
-Code search results
-https://github.com/search?q=repo%3Aespnet%2Fespnet+owsm&type=code&p=4
+Courses for doctoral students and phd – EECS | EECS internal pages
+https://intra.kth.se/en/eecs/forskarutbildning/courses/course-information-for-doctoral-students-1.813447
 
-Update version.txt by Fhrozen · Pull Request #6077 · espnet/espnet
-https://github.com/espnet/espnet/pull/6077
+NY FO-TRAK
+https://intra.kth.se/polopoly_fs/1.1298221.1700743075!/FO-TRAK%20EECS.pdf
 
-weight norm version checl · espnet/espnet@07f54ec
-https://github.com/espnet/espnet/commit/07f54ec1250834dfce160f02f4171db52836205e
+Key ASR Breakthroughs Outline
+https://chatgpt.com/c/67e158d3-9324-8011-a1d2-8915d926b055
 
-fix type check for multidecoder · espnet/espnet@d2f53d3
-https://github.com/espnet/espnet/commit/d2f53d383624e7231686a1089a576e13fa074d2d
+linear predictive coding - Google Search
+https://www.google.com/search?q=linear+predictive+coding&rlz=1C5GCCM_en&oq=linear+predictive+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM5OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-deepspeed ckpts · espnet/espnet@b499265
-https://github.com/espnet/espnet/commit/b4992657fd9e542f53e1a95d60299792f1806559
+Linear predictive coding - Wikipedia
+https://en.wikipedia.org/wiki/Linear_predictive_coding#:~:text=Linear%20predictive%20coding%20(LPC)%20is,speech%20coding%20and%20speech%20synthesis.
 
-espnet/egs2/owsm_v3/s2t1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3/s2t1/README.md?plain=1#L3
+Source–Filter Theory of Speech | Oxford Research Encyclopedia of Linguistics
+https://oxfordre.com/linguistics/display/10.1093/acrefore/9780199384655.001.0001/acrefore-9780199384655-e-894#acrefore-9780199384655-e-894-bibItem-0011
 
-espnet/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py#L4
+Source-filter Theory – Arai Laboratory
+https://splab.net/apd/g500/
 
-espnet/espnet2/s2t/espnet_ctc_model.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/s2t/espnet_ctc_model.py#L20
+Introducing 4o Image Generation | OpenAI
+https://openai.com/index/introducing-4o-image-generation/
 
-espnet/espnet2/bin/s2t_ctc_align.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/bin/s2t_ctc_align.py#L4
+project topics 2025 - Google Docs
+https://docs.google.com/document/d/1gE5HxkhbYjo9ueKm5pu-bRHGd5Ls2XqW_Q8FnK1rwsE/edit?tab=t.0
 
-espnet/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml
+Autoregressive-Predictive-Coding/apc_model.py at master · iamyuanchung/Autoregressive-Predictive-Coding
+https://github.com/iamyuanchung/Autoregressive-Predictive-Coding/blob/master/apc_model.py
 
-Code search results
-https://github.com/search?q=repo%3Aespnet%2Fespnet%20whisper&type=code
+copy files from android to mac - Google Search
+https://www.google.com/search?q=copy+files+from+android+to+mac&rlz=1C5GCCM_en&oq=copy+files+from+android&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDU2MDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-espnet/espnet2/asr/frontend/s3prl.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/frontend/s3prl.py
+MacDroid - Manager for Android on the Mac App Store
+https://apps.apple.com/us/app/macdroid-manager-for-android/id1476545828?mt=12
 
-espnet/espnet2/asr/encoder/e_branchformer_ctc_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_ctc_encoder.py
+ESB-AI-Lab/tesseract-languages: ESB AI Lab repo of released trained tesseract-ocr languages for language preservation
+https://github.com/ESB-AI-Lab/tesseract-languages
 
-espnet2.asr_transducer.decoder.blocks.rwkv.RWKV
-https://espnet.github.io/espnet/guide/espnet2/asr_transducer/RWKV.html
+Panelshow
+https://www.reddit.com/r/panelshow/
 
-AlphaCephei (@alphacep) / X
-https://x.com/alphacep
+Series V - Google Drive
+https://drive.google.com/drive/u/1/folders/1A88I9gMpMlfyV--5dtxIjWAFS1wxi2j3
 
-Martijn Bartelds on X: "🎙️ Speech recognition is great - if you speak the right language. Our new @stanfordnlp paper introduces CTC-DRO, a training method that reduces worst-language errors by up to 47.1%. Work w/ Ananjan, Moussa, @jurafsky, @tatsu_hashimoto and Karen Livescu. Here’s how it works! 🧵 https://t.co/63cWevoVjw" / X
-https://x.com/BarteldsMartijn/status/1899842613274185818
+OPUS/corpus/ELRC-4270-NTEU_TierA/v1 at hplt2023 · Helsinki-NLP/OPUS
+https://github.com/Helsinki-NLP/OPUS/tree/hplt2023/corpus/ELRC-4270-NTEU_TierA/v1
 
-Bartelds/ctc-dro: Code associated with the paper: CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition.
-https://github.com/Bartelds/ctc-dro?tab=readme-ov-file
+opus.nlpl.eu/results/en&hu/corpus-result-table
+https://opus.nlpl.eu/results/en&hu/corpus-result-table
 
-espnet/egs2/asr_dro/asr1 at master · Bartelds/espnet
-https://github.com/Bartelds/espnet/tree/master/egs2/asr_dro/asr1
+opus.nlpl.eu/ELRC-2715-EMEA/en&hu/v1/ELRC-2715-EMEA
+https://opus.nlpl.eu/ELRC-2715-EMEA/en&hu/v1/ELRC-2715-EMEA
 
-Dolphin/dolphin/model.py at main · DataoceanAI/Dolphin
-https://github.com/DataoceanAI/Dolphin/blob/main/dolphin/model.py
+opus.nlpl.eu/results/en&ga/corpus-result-table
+https://opus.nlpl.eu/results/en&ga/corpus-result-table
 
-[2503.04713] Scaling Rich Style-Prompted Text-to-Speech Datasets
-https://www.arxiv.org/abs/2503.04713
+opus.nlpl.eu/NLLB/en&ga/v1/NLLB
+https://opus.nlpl.eu/NLLB/en&ga/v1/NLLB
 
-2503.04713
-https://www.arxiv.org/pdf/2503.04713
+opus.nlpl.eu/NLLB/en&ga/v1/NLLB
+https://opus.nlpl.eu/NLLB/en&ga/v1/NLLB
 
-ajd12342/paraspeechcaps: Codebase for 'Scaling Rich Style-Prompted Text-to-Speech Datasets'
-https://github.com/ajd12342/paraspeechcaps?tab=readme-ov-file
+opus.nlpl.eu/CCMatrix/en&ga/v1/CCMatrix
+https://opus.nlpl.eu/CCMatrix/en&ga/v1/CCMatrix
 
-ajd12342/parler-tts-mini-v1-paraspeechcaps · Hugging Face
-https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps
+Kritik inifrån Mindler: ”Jag kan inte längre stå för det här” - Breakit
+https://www.breakit.se/artikel/38157/kritik-inifran-mindler-jag-kan-inte-langre-sta-for-det-har
 
-ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base · Hugging Face
-https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base
+Cognitive Bias Modification - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/B9780128034576000192
 
-(2) Inbox • Direct
-https://www.instagram.com/direct/t/110437113687820/
+YouTube
+https://www.youtube.com/
 
-Division of Speech, Music and Hearing - KTH to Mäster Samuelsgatan 28, 111 57 Stockholm - Google Maps
-https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/M%C3%A4ster+Samuelsgatan+28,+111+57+Stockholm/@59.3348659,18.0671938,16.99z/am=t/data=!4m14!4m13!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f9d5ddf2ede67:0x37567b6f62620032!2m2!1d18.0673394!2d59.3341352!3e3?hl=en&entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D
+Aimee Lou Wood Reacts To Comments About Her Teeth | The Jonathan Ross Show - YouTube
+https://www.youtube.com/watch?v=li9ScvQUcvc
 
 
