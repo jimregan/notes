@@ -46,15 +46,6 @@ http://web.archive.org/web/20220301021728/http://www.ling.su.se/
 OpenAI says its AI voice assistant is now better to chat with | TechCrunch
 https://techcrunch.com/2025/03/24/openai-says-its-ai-voice-assistant-is-now-better-to-chat-with/
 
-Course groups: DT2119/FDT3119 VT25 Speech and Speaker Recognition
-https://canvas.kth.se/courses/53239/groups#tab-30822
-
-Inbox
-https://canvas.kth.se/conversations#filter=type=inbox
-
-Syllabus for DT2119/FDT3119 VT25 Speech and Speaker Recognition
-https://canvas.kth.se/courses/53239/assignments/syllabus
-
 8.3. Speech Recognition — Introduction to Speech Processing
 https://speechprocessingbook.aalto.fi/Recognition/Speech_Recognition.html
 
@@ -67,17 +58,11 @@ https://github.com/dmlc/decord?tab=readme-ov-file#install-from-source
 Tanya : r/TheWhiteLotusHBO
 https://www.reddit.com/r/TheWhiteLotusHBO/comments/zjl2aa/tanya/
 
-Prime Video: Fleabag Season 1
-https://www.primevideo.com/detail/0OB9NDUVQKFRSYRSCHT2A784TI/ref=atv_dp_season_select_s1
-
 Netflix
-https://www.netflix.com/watch/81397226?source=35&trackId=200257858
+https://www.netflix.com/watch/81397227?source=35&trackId=200257858
 
 RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0! - 🤗Transformers - Hugging Face Forums
 https://discuss.huggingface.co/t/runtimeerror-expected-all-tensors-to-be-on-the-same-device-but-found-at-least-two-devices-cuda-1-and-cuda-0/39548/9
-
-Studio Ghibli Photo Concept
-https://chatgpt.com/c/67e522e8-f2f4-8011-9c11-c5ad25327ba1
 
 Add WhisperModel to transformers by ArthurZucker · Pull Request #19166 · huggingface/transformers
 https://github.com/huggingface/transformers/pull/19166/files#diff-6ec07359a4b7f7c8c986c86549f01867ea071bef35cac64e0bd05302fef2e615
@@ -100,20 +85,8 @@ https://github.com/espnet/espnet
 Code search results
 https://github.com/search?q=repo%3Aespnet%2Fespnet+owsm&type=code&p=4
 
-Update version.txt by Fhrozen · Pull Request #6077 · espnet/espnet
-https://github.com/espnet/espnet/pull/6077
-
-weight norm version checl · espnet/espnet@07f54ec
-https://github.com/espnet/espnet/commit/07f54ec1250834dfce160f02f4171db52836205e
-
-fix type check for multidecoder · espnet/espnet@d2f53d3
-https://github.com/espnet/espnet/commit/d2f53d383624e7231686a1089a576e13fa074d2d
-
-deepspeed ckpts · espnet/espnet@b499265
-https://github.com/espnet/espnet/commit/b4992657fd9e542f53e1a95d60299792f1806559
-
-espnet/egs2/owsm_v3/s2t1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3/s2t1/README.md?plain=1#L3
+espnet/egs2/owsm_ctc_v3.1/s2t1/local/convert_owsm_data.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
+https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_ctc_v3.1/s2t1/local/convert_owsm_data.py
 
 espnet/egs2/swbd_sentiment/asr1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/swbd_sentiment/asr1/README.md
@@ -142,13 +115,13 @@ https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/e
 espnet/espnet2/asr/encoder/e_branchformer_ctc_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_ctc_encoder.py
 
+espnet/espnet2/asr/encoder/e_branchformer_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
+https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_encoder.py
+
 espnet2.asr_transducer.decoder.blocks.rwkv.RWKV
 https://espnet.github.io/espnet/guide/espnet2/asr_transducer/RWKV.html
 
-AlphaCephei (@alphacep) / X
-https://x.com/alphacep
-
-Martijn Bartelds on X: "🎙️ Speech recognition is great - if you speak the right language. Our new @stanfordnlp paper introduces CTC-DRO, a training method that reduces worst-language errors by up to 47.1%. Work w/ Ananjan, Moussa, @jurafsky, @tatsu_hashimoto and Karen Livescu. Here’s how it works! 🧵 https://t.co/63cWevoVjw" / X
+(1) Martijn Bartelds on X: "🎙️ Speech recognition is great - if you speak the right language. Our new @stanfordnlp paper introduces CTC-DRO, a training method that reduces worst-language errors by up to 47.1%. Work w/ Ananjan, Moussa, @jurafsky, @tatsu_hashimoto and Karen Livescu. Here’s how it works! 🧵 https://t.co/63cWevoVjw" / X
 https://x.com/BarteldsMartijn/status/1899842613274185818
 
 Bartelds/ctc-dro: Code associated with the paper: CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition.
@@ -175,64 +148,28 @@ https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps
 ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base · Hugging Face
 https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base
 
-Using custom symbols in Pynini
-https://chatgpt.com/c/67e84ae2-b4bc-8011-95c8-9050fde22fdc
+Villanelle (character) - Wikipedia
+https://en.wikipedia.org/wiki/Villanelle_(character)
 
-language-resources/festus at master · google/language-resources
-https://github.com/google/language-resources/tree/master/festus
+Killing Eve - Wikipedia
+https://en.wikipedia.org/wiki/Killing_Eve
 
-language-resources/festus/runtime at master · google/language-resources
-https://github.com/google/language-resources/tree/master/festus/runtime
+Phoebe Waller-Bridge - Wikipedia
+https://en.wikipedia.org/wiki/Phoebe_Waller-Bridge
 
-language-resources/festus/alignables-util.cc at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/alignables-util.cc
+No Time to Die - Wikipedia
+https://en.wikipedia.org/wiki/No_Time_to_Die
 
-language-resources/festus/alignables-util.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/alignables-util.h
+Susan Lynch - Wikipedia
+https://en.wikipedia.org/wiki/Susan_Lynch
 
-language-resources/festus/alignables.proto at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/alignables.proto
+Eta ‘sexual Tigress’ Idoia López Riaño, who killed 23, is released early
+https://www.thetimes.com/world/article/eta-sexual-tigress-idoia-l-pez-ria-o-who-killed-23-is-released-early-6tc2cqmjd?region=global
 
-language-resources/festus/fst-util.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/fst-util.h
+Idoia López Riaño - Wikipedia
+https://en.wikipedia.org/wiki/Idoia_L%C3%B3pez_Ria%C3%B1o
 
-language-resources/festus/label-maker.cc at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/label-maker.cc
-
-language-resources/festus/label-maker.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/label-maker.h
-
-language-resources/festus/string-util.cc at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/string-util.cc
-
-language-resources/festus/string-util.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/string-util.h
-
-language-resources/festus/runtime/fst-util.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/runtime/fst-util.h
-
-raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
-https://raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
-
-language-resources/festus/runtime/g2p.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/runtime/g2p.h
-
-raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
-https://raw.githubusercontent.com/google/language-resources/refs/heads/master/festus/runtime/fst-util.h
-
-language-resources/festus/runtime/compact.h at master · google/language-resources
-https://github.com/google/language-resources/blob/master/festus/runtime/compact.h
-
-gif matrix whoa deja vu - Google Search
-https://www.google.com/search?q=gif+matrix+whoa+deja+vu&sca_esv=4222a1b969aeacfe&rlz=1C5GCCM_en&sxsrf=AHTn8zph-UKX2j4n0AO3oAdBkmkIQ04cjQ%3A1743356040784&ei=iIDpZ7_TL-6qwPAPysTMiAQ&oq=gif+matrix+whoa+deja&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGdpZiBtYXRyaXggd2hvYSBkZWphKgIIADIFECEYoAFI_RRQnANYgQ1wAngBkAEAmAFdoAHhA6oBATa4AQPIAQD4AQGYAgigAvADwgIKEAAYsAMY1gQYR8ICBhAAGBYYHsICCBAAGIAEGKIEwgIEECEYFZgDAIgGAZAGCJIHATigB5QP&sclient=gws-wiz-serp#vhid=I7fJ2dOwTnd2qM&vssid=_jYDpZ4ThI83HwPAP9uy2oQM_44
-
-816971eb-2659-4738-b851-9050a7de0e62_text.gif (400×166)
-https://y.yarn.co/816971eb-2659-4738-b851-9050a7de0e62_text.gif
-
-+signal messenger call remix - Google Search
-https://www.google.com/search?q=%2Bsignal+messenger+call+remix&sca_esv=4222a1b969aeacfe&rlz=1C5GCCM_en&udm=7&biw=1440&bih=728&sxsrf=AHTn8zqpOuboXgQBt2q6-NWYLBJHa3Q-Rg%3A1743356502517&ei=VoLpZ9mmH52wwPAPrNLL8AI&ved=0ahUKEwjZqbKIrbKMAxUdGBAIHSzpEi4Q4dUDCBA&uact=5&oq=%2Bsignal+messenger+call+remix&gs_lp=EhZnd3Mtd2l6LW1vZGVsZXNzLXZpZGVvIhwrc2lnbmFsIG1lc3NlbmdlciBjYWxsIHJlbWl4SOwLUMUKWMUKcAF4AJABAJgBNqABNqoBATG4AQPIAQD4AQGYAgGgAgLCAgUQABjvBZgDAIgGAZIHATGgB0s&sclient=gws-wiz-modeless-video
-
-Band Legal Structure LLC
-https://chatgpt.com/c/67e9895a-1f80-8011-845c-0706420faa4a
+The Wheel of Time (TV series) - Wikipedia
+https://en.wikipedia.org/wiki/The_Wheel_of_Time_(TV_series)
 
 
