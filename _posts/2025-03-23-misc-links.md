@@ -124,3 +124,7 @@ ESPnet pull requests:
 [code](https://github.com/ArrowLuo/CLIP4Clip)
 
 [yzhuoning/Awesome-CLIP](https://github.com/yzhuoning/Awesome-CLIP)
+
+[UniSep: Universal Target Audio Separation with Language Models at Scale](https://arxiv.org/abs/2503.23762)
+
+[Qieemo: Speech Is All You Need in the Emotion Recognition in Conversations](https://arxiv.org/abs/2503.22687)
