@@ -128,3 +128,12 @@ ESPnet pull requests:
 [UniSep: Universal Target Audio Separation with Language Models at Scale](https://arxiv.org/abs/2503.23762)
 
 [Qieemo: Speech Is All You Need in the Emotion Recognition in Conversations](https://arxiv.org/abs/2503.22687)
+
+[Scaling Rich Style-Prompted Text-to-Speech Datasets](https://arxiv.org/abs/2503.04713),
+[code](https://github.com/ajd12342/paraspeechcaps) --- models and data not open.
+
+[Dolphin: A Large-Scale Automatic Speech Recognition Model for Eastern Languages](https://arxiv.org/abs/2503.20212),
+[code](https://github.com/DataoceanAI/Dolphin),
+[small](https://huggingface.co/DataoceanAI/dolphin-small),
+[base](https://huggingface.co/DataoceanAI/dolphin-base)
+
