@@ -137,3 +137,9 @@ ESPnet pull requests:
 [small](https://huggingface.co/DataoceanAI/dolphin-small),
 [base](https://huggingface.co/DataoceanAI/dolphin-base)
 
+[NeMo - AED Decoding with N-Gram LM](https://github.com/NVIDIA/NeMo/commit/29be3b88ea708a87440204205dea71095ad68a15)
+
+[Audio Compression using Periodic Gabor with Biorthogonal Exchange: Implementation Using the Zak Transform](https://arxiv.org/abs/2503.22703)
+
+[AudioComposer: Towards Fine-grained Audio Generation with Natural Language Descriptions](https://arxiv.org/abs/2409.12560)
+
