@@ -146,3 +146,38 @@ ESPnet pull requests:
 [FireRedTTS-1S: An Upgraded Streamable Foundation Text-to-Speech System](https://arxiv.org/abs/2503.20499),
 [code](https://github.com/FireRedTeam/FireRedTTS)
 
+[Enhance Generation Quality of Flow Matching V2A Model via Multi-Step CoT-Like Guidance and Combined Preference Optimization](https://arxiv.org/abs/2503.22200)
+
+[RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics](https://arxiv.org/abs/2411.16537),
+[dataset](https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home),
+[eval code](https://github.com/chanhee-luke/RoboSpatial-Eval)
+
+[OSWM CTC](https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/s2t/espnet_ctc_model.py#L20),
+[OSWM CTC aligner](https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/bin/s2t_ctc_align.py#L4)
+
+[e-branchformer encoder](https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_encoder.py)
+
+[CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition](https://arxiv.org/abs/2502.01777),
+[code](https://github.com/Bartelds/ctc-dro),
+[espnet code](https://github.com/Bartelds/espnet/tree/master/egs2/asr_dro/asr1)
+
+[llava-hf/llava-v1.6-mistral-7b-hf](https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf)
+
+[01-ai/Yi-34B](https://huggingface.co/01-ai/Yi-34B)
+
+[Prompt-based Alignment of Headlines and Images Using OpenCLIP](https://ceur-ws.org/Vol-3658/paper7.pdf),
+[workshop](https://ceur-ws.org/Vol-3658/)
+
+[Optimizing Visual Pairings: A CLIP Framework for Precision News Image Rematching](https://ceur-ws.org/Vol-3658/paper20.pdf),
+[workshop](https://ceur-ws.org/Vol-3658/)
+
+[rom1504/clip-retrieval](https://github.com/rom1504/clip-retrieval) --- Easily compute clip embeddings and build a clip retrieval system with them
+
+[Wav2CLIP: Learning Robust Audio Representations From CLIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9747669),
+[arXiv](https://arxiv.org/abs/2110.11499),
+[code](https://github.com/descriptinc/lyrebird-Wav2CLIP),
+[demo](https://replicate.com/hohsiangwu/wav2clip)
+
+[Fine-tuned CLIP Models are Efficient Video Learners](https://arxiv.org/pdf/2212.03640),
+[code](https://github.com/muzairkhattak/ViFi-CLIP)
+
