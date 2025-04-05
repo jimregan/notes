@@ -143,3 +143,6 @@ ESPnet pull requests:
 
 [AudioComposer: Towards Fine-grained Audio Generation with Natural Language Descriptions](https://arxiv.org/abs/2409.12560)
 
+[FireRedTTS-1S: An Upgraded Streamable Foundation Text-to-Speech System](https://arxiv.org/abs/2503.20499),
+[code](https://github.com/FireRedTeam/FireRedTTS)
+
