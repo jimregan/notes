@@ -106,8 +106,8 @@ https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/e
 espnet/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml
 
-Code search results
-https://github.com/search?q=repo%3Aespnet%2Fespnet%20whisper&type=code
+espnet/espnet2/asr/decoder/whisper_decoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
+https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/decoder/whisper_decoder.py
 
 espnet/espnet2/asr/frontend/s3prl.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/frontend/s3prl.py
@@ -118,8 +118,8 @@ https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/e
 espnet/espnet2/asr/encoder/e_branchformer_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
 https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_encoder.py
 
-espnet2.asr_transducer.decoder.blocks.rwkv.RWKV
-https://espnet.github.io/espnet/guide/espnet2/asr_transducer/RWKV.html
+Weakly-supervised Learning (Speech-to-Text)
+https://espnet.github.io/espnet/recipe/s2t1.html
 
 (1) Martijn Bartelds on X: "🎙️ Speech recognition is great - if you speak the right language. Our new @stanfordnlp paper introduces CTC-DRO, a training method that reduces worst-language errors by up to 47.1%. Work w/ Ananjan, Moussa, @jurafsky, @tatsu_hashimoto and Karen Livescu. Here’s how it works! 🧵 https://t.co/63cWevoVjw" / X
 https://x.com/BarteldsMartijn/status/1899842613274185818
@@ -133,43 +133,103 @@ https://github.com/Bartelds/espnet/tree/master/egs2/asr_dro/asr1
 Dolphin/dolphin/model.py at main · DataoceanAI/Dolphin
 https://github.com/DataoceanAI/Dolphin/blob/main/dolphin/model.py
 
-[2503.04713] Scaling Rich Style-Prompted Text-to-Speech Datasets
-https://www.arxiv.org/abs/2503.04713
+Dolphin/dolphin/model.py at main · DataoceanAI/Dolphin
+https://github.com/DataoceanAI/Dolphin/blob/main/dolphin/model.py
 
-2503.04713
-https://www.arxiv.org/pdf/2503.04713
+Leabhairiní | Leigh Leat
+https://www.leighleat.com/leabhairin%C3%AD
 
-ajd12342/paraspeechcaps: Codebase for 'Scaling Rich Style-Prompted Text-to-Speech Datasets'
-https://github.com/ajd12342/paraspeechcaps?tab=readme-ov-file
+| Leigh Leat
+https://www.leighleat.com/m%C3%ADonna
 
-ajd12342/parler-tts-mini-v1-paraspeechcaps · Hugging Face
-https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps
+Ceacht 2 | Leigh Leat
+https://www.leighleat.com/focail_is_coitianta/2
 
-ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base · Hugging Face
-https://huggingface.co/ajd12342/parler-tts-mini-v1-paraspeechcaps-only-base
+Zú-Chairde | Leigh Leat
+https://www.leighleat.com/pages/2129
 
-Villanelle (character) - Wikipedia
-https://en.wikipedia.org/wiki/Villanelle_(character)
+view-source:https://www.leighleat.com/pages/2129
+view-source:https://www.leighleat.com/pages/2129
 
-Killing Eve - Wikipedia
-https://en.wikipedia.org/wiki/Killing_Eve
+an t-iriseoir - Google Search
+https://www.google.com/search?q=an+t-iriseoir&rlz=1C5GCCM_en&oq=an+t-iriseoir&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yBwgCEAAY7wUyBwgDEAAY7wXSAQg0MTEyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-Phoebe Waller-Bridge - Wikipedia
-https://en.wikipedia.org/wiki/Phoebe_Waller-Bridge
+Stream Caibidil 6 - An tIriseoir from Cois Life | Listen online for free on SoundCloud
+https://soundcloud.com/cois-life-teoranta/caibidil-6?in=%2Fcois-life-teoranta%2Fsets%2Fan-tiriseoir
 
-No Time to Die - Wikipedia
-https://en.wikipedia.org/wiki/No_Time_to_Die
+The 1% Club viewers slam 'mind-bending question' that saw contestant walk away from £94,000 jackpot
+https://www.ladbible.com/entertainment/tv/itv-the-one-percent-club-final-question-contestant-walked-away-jackpot-028330-20250401?fbclid=PAZXh0bgNhZW0CMTEAAaaU7v824-oMjFmT-mKdHrbaWTpYwICNYlmAaW27NtXbMOCLeI6mOUS8k44_aem_J0HWbJRdfopM40cvUsZKmg
 
-Susan Lynch - Wikipedia
-https://en.wikipedia.org/wiki/Susan_Lynch
+Pages that link to "amuigh" - Wiktionary, the free dictionary
+https://en.wiktionary.org/w/index.php?title=Special:WhatLinksHere/amuigh&limit=50&dir=next&offset=0%7C10505780
 
-Eta ‘sexual Tigress’ Idoia López Riaño, who killed 23, is released early
-https://www.thetimes.com/world/article/eta-sexual-tigress-idoia-l-pez-ria-o-who-killed-23-is-released-early-6tc2cqmjd?region=global
+Irish alignables for festus
+https://gist.github.com/jimregan/93a49f720447b94c53ded3f264dcbadf
 
-Idoia López Riaño - Wikipedia
-https://en.wikipedia.org/wiki/Idoia_L%C3%B3pez_Ria%C3%B1o
+Launch Meeting - Zoom
+https://kth-se.zoom.us/j/2934115552?omn=65756270893#success
 
-The Wheel of Time (TV series) - Wikipedia
-https://en.wikipedia.org/wiki/The_Wheel_of_Time_(TV_series)
+iver56/audiomentations: A Python library for audio data augmentation. Useful for making audio ML models work well in the real world, not just in the lab.
+https://github.com/iver56/audiomentations
+
+gobtha - Google Search
+https://www.google.com/search?q=gobtha&rlz=1C5GCCM_en&oq=gobtha&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQABgKGIAEMgkIBRAAGAoYgAQyCQgGEAAYChiABDIJCAcQABgKGIAEMgkICBAAGAoYgAQyCQgJEAAYChiABNIBCDEzNDNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+amuigh - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/amuigh
+
+"goibthe" - Google Search
+https://www.google.com/search?q=%22goibthe%22&sca_esv=543601c9a98119e8&rlz=1C5GCCM_en&sxsrf=AHTn8zrner4Wcjkbt6gfBPD9rj5_GsAvxA%3A1743599285722&ei=tTbtZ6bUK6KowPAP3Nip0Qg&ved=0ahUKEwjmgrnAtbmMAxUiFBAIHVxsKooQ4dUDCBA&uact=5&oq=%22goibthe%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiCSJnb2lidGhlIjIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDTIKEC4YgAQY1AIYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDUiND1D8BViRDHABeACQAQCYAakBoAHvAaoBAzEuMbgBA8gBAPgBAZgCA6AC_AHCAgoQABiABBiwAxgNwgITEC4YgAQYsAMY1AIYyAMYDdgBAcICEBAuGIAEGLADGMgDGA3YAQHCAhYQLhiABBiwAxjHARjIAxgNGK8B2AEBmAMAiAYBkAYUugYGCAEQARgIkgcDMi4xoAf2H7IHAzEuMbgH9gE&sclient=gws-wiz-serp
+
+Foclóir Gaeilge–Béarla (Ó Dónaill): amuigh
+https://www.teanglann.ie/en/fgb/amuigh
+
+Foclóir Gaeilge–Béarla (Ó Dónaill): culaith
+https://www.teanglann.ie/en/fgb/culaith
+
+RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics
+https://chanh.ee/RoboSpatial/
+
+chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
+https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home/viewer/default/context?views%5B%5D=context
+
+chanhee-luke/RoboSpatial-Eval: Evaluation script for RoboSpatial-Home, a benchmark for spatial reasoning in 2D and 3D vision-language models.
+https://github.com/chanhee-luke/RoboSpatial-Eval?tab=readme-ov-file
+
+chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
+https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home
+
+LLaVA-VL/LLaVA-NeXT
+https://github.com/LLaVA-VL/LLaVA-NeXT?tab=readme-ov-file
+
+lmms-lab/LLaVA-Video-72B-Qwen2 · Hugging Face
+https://huggingface.co/lmms-lab/LLaVA-Video-72B-Qwen2
+
+llama.cpp/examples/llava/README.md at master · ggml-org/llama.cpp
+https://github.com/ggml-org/llama.cpp/blob/master/examples/llava/README.md
+
+LLaVA-NeXT-Video-34B · Issue #7201 · ggml-org/llama.cpp
+https://github.com/ggml-org/llama.cpp/issues/7201
+
+llava-hf/llava-v1.6-mistral-7b-hf · Hugging Face
+https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf
+
+01-ai/Yi-34B · Hugging Face
+https://huggingface.co/01-ai/Yi-34B
+
+The Black Lotus - SNL - YouTube
+https://www.youtube.com/watch?v=kdDK7_M59os
+
+Foclóir Gaeilge–Béarla (Ó Dónaill): amu
+https://www.teanglann.ie/en/fgb/amu
+
+piúnt - Google Search
+https://www.google.com/search?q=pi%C3%BAnt&rlz=1C5GCCM_en&oq=pi%C3%BAnt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIKCAMQABiiBBiJBdIBCDIwODhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Index:Alexander Macbain - An Etymological Dictionary of the Gaelic Language.djvu - Wikisource, the free online library
+https://en.wikisource.org/wiki/Index:Alexander_Macbain_-_An_Etymological_Dictionary_of_the_Gaelic_Language.djvu
+
+An Etymological Dictionary of the Gaelic Language/Abbreviations - Wikisource, the free online library
+https://en.wikisource.org/wiki/An_Etymological_Dictionary_of_the_Gaelic_Language/Abbreviations
 
 
