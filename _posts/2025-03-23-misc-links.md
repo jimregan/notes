@@ -181,3 +181,11 @@ ESPnet pull requests:
 [Fine-tuned CLIP Models are Efficient Video Learners](https://arxiv.org/pdf/2212.03640),
 [code](https://github.com/muzairkhattak/ViFi-CLIP)
 
+[dmlc/decord](https://github.com/dmlc/decord) --- An efficient video loader for deep learning with smart shuffling that's super easy to digest
+
+[ibm-granite/granite-speech-3.2-8b](https://huggingface.co/ibm-granite/granite-speech-3.2-8b),
+based on [granite-3.1-8b-base](https://huggingface.co/ibm-granite/granite-3.1-8b-base)
+
+[Qwen/Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B),
+[code](https://github.com/QwenLM/Qwen2.5-Omni)
+
