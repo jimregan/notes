@@ -1,35 +1,8 @@
-Prompt-based Alignment of Headlines and Images Using OpenCLIP
-https://ceur-ws.org/Vol-3658/paper7.pdf
+ViFi-CLIP Video Learning
+https://chatgpt.com/c/67f13abc-8dcc-8011-abd6-b5833ad7c169
 
-Optimizing Visual Pairings: A CLIP Framework for Precision News Image Rematching
-https://ceur-ws.org/Vol-3658/paper20.pdf
-
-yzhuoning/Awesome-CLIP: Awesome list for research on CLIP (Contrastive Language-Image Pre-Training).
-https://github.com/yzhuoning/Awesome-CLIP
-
-rom1504/clip-retrieval: Easily compute clip embeddings and build a clip retrieval system with them
-https://github.com/rom1504/clip-retrieval
-
-descriptinc/lyrebird-wav2clip: Official implementation of the paper WAV2CLIP: LEARNING ROBUST AUDIO REPRESENTATIONS FROM CLIP
-https://github.com/descriptinc/lyrebird-Wav2CLIP?tab=readme-ov-file
-
-hohsiangwu/wav2clip – Run with an API on Replicate
-https://replicate.com/hohsiangwu/wav2clip
-
-lyrebird-wav2clip/wav2clip/pre_training/dataset.py at master · descriptinc/lyrebird-wav2clip
-https://github.com/descriptinc/lyrebird-wav2clip/blob/master/wav2clip/pre_training/dataset.py
-
-2212.03640
-https://arxiv.org/pdf/2212.03640
-
-muzairkhattak/ViFi-CLIP: [CVPR 2023] Official repository of paper titled "Fine-tuned CLIP models are efficient video learners".
-https://github.com/muzairkhattak/ViFi-CLIP?tab=readme-ov-file
-
-ViFi-CLIP/docs/DATASETS.md at main · muzairkhattak/ViFi-CLIP
-https://github.com/muzairkhattak/ViFi-CLIP/blob/main/docs/DATASETS.md
-
-Extract Spectrograms with Parselmouth
-https://chatgpt.com/c/67e1903e-3104-8011-bd7b-c9a12fbb6ded
+ChatGPT - Paper summaries
+https://chatgpt.com/g/g-p-67f13afbe3708191aeccc05266d5ec05-paper-summaries/c/67f13b10-4098-8011-8c7d-ccf8c492565e
 
 Utbildningsplan för kurs LIDF01
 https://sisu.it.su.se/pdf_creator/40255/60298
@@ -42,9 +15,6 @@ file:///Users/joregan/Downloads/education_plan%20(2).pdf
 
 Server för arbetsmaterial
 http://web.archive.org/web/20220301021728/http://www.ling.su.se/
-
-OpenAI says its AI voice assistant is now better to chat with | TechCrunch
-https://techcrunch.com/2025/03/24/openai-says-its-ai-voice-assistant-is-now-better-to-chat-with/
 
 8.3. Speech Recognition — Introduction to Speech Processing
 https://speechprocessingbook.aalto.fi/Recognition/Speech_Recognition.html
@@ -72,164 +42,5 @@ https://github.com/huggingface/transformers/pull/37009/files
 
 Add Granite Speech Support by alex-jw-brooks · Pull Request #36801 · huggingface/transformers
 https://github.com/huggingface/transformers/pull/36801
-
-[Whisper] Pipeline: handle long form generation by eustlb · Pull Request #35750 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/35750/files
-
-Fix M-CTC-T chunking by samwaterbury · Pull Request #18949 · huggingface/transformers
-https://github.com/huggingface/transformers/pull/18949/files
-
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
-
-Code search results
-https://github.com/search?q=repo%3Aespnet%2Fespnet+owsm&type=code&p=4
-
-espnet/egs2/owsm_ctc_v3.1/s2t1/local/convert_owsm_data.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_ctc_v3.1/s2t1/local/convert_owsm_data.py
-
-espnet/egs2/swbd_sentiment/asr1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/swbd_sentiment/asr1/README.md
-
-espnet/egs2/TEMPLATE/tts1/README.md at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/TEMPLATE/tts1/README.md#how-to-run
-
-espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer_wav2vec2 · Hugging Face
-https://huggingface.co/espnet/YushiUeda_swbd_sentiment_asr_train_asr_conformer_wav2vec2
-
-espnet/espnet2/s2t/espnet_ctc_model.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/s2t/espnet_ctc_model.py#L20
-
-espnet/espnet2/bin/s2t_ctc_align.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/bin/s2t_ctc_align.py#L4
-
-espnet/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/egs2/owsm_v3.1/s2t1/conf/train_s2t_ebf_conv2d_size1024_e18_d18_piecewise_lr2e-4_warmup60k_flashattn.yaml
-
-espnet/espnet2/asr/decoder/whisper_decoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/decoder/whisper_decoder.py
-
-espnet/espnet2/asr/frontend/s3prl.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/frontend/s3prl.py
-
-espnet/espnet2/asr/encoder/e_branchformer_ctc_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_ctc_encoder.py
-
-espnet/espnet2/asr/encoder/e_branchformer_encoder.py at 92f6cbce6167ba8c7591d323834a2342ed2cf2ce · espnet/espnet
-https://github.com/espnet/espnet/blob/92f6cbce6167ba8c7591d323834a2342ed2cf2ce/espnet2/asr/encoder/e_branchformer_encoder.py
-
-Weakly-supervised Learning (Speech-to-Text)
-https://espnet.github.io/espnet/recipe/s2t1.html
-
-(1) Martijn Bartelds on X: "🎙️ Speech recognition is great - if you speak the right language. Our new @stanfordnlp paper introduces CTC-DRO, a training method that reduces worst-language errors by up to 47.1%. Work w/ Ananjan, Moussa, @jurafsky, @tatsu_hashimoto and Karen Livescu. Here’s how it works! 🧵 https://t.co/63cWevoVjw" / X
-https://x.com/BarteldsMartijn/status/1899842613274185818
-
-Bartelds/ctc-dro: Code associated with the paper: CTC-DRO: Robust Optimization for Reducing Language Disparities in Speech Recognition.
-https://github.com/Bartelds/ctc-dro?tab=readme-ov-file
-
-espnet/egs2/asr_dro/asr1 at master · Bartelds/espnet
-https://github.com/Bartelds/espnet/tree/master/egs2/asr_dro/asr1
-
-Dolphin/dolphin/model.py at main · DataoceanAI/Dolphin
-https://github.com/DataoceanAI/Dolphin/blob/main/dolphin/model.py
-
-Dolphin/dolphin/model.py at main · DataoceanAI/Dolphin
-https://github.com/DataoceanAI/Dolphin/blob/main/dolphin/model.py
-
-Leabhairiní | Leigh Leat
-https://www.leighleat.com/leabhairin%C3%AD
-
-| Leigh Leat
-https://www.leighleat.com/m%C3%ADonna
-
-Ceacht 2 | Leigh Leat
-https://www.leighleat.com/focail_is_coitianta/2
-
-Zú-Chairde | Leigh Leat
-https://www.leighleat.com/pages/2129
-
-view-source:https://www.leighleat.com/pages/2129
-view-source:https://www.leighleat.com/pages/2129
-
-an t-iriseoir - Google Search
-https://www.google.com/search?q=an+t-iriseoir&rlz=1C5GCCM_en&oq=an+t-iriseoir&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yBwgCEAAY7wUyBwgDEAAY7wXSAQg0MTEyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Stream Caibidil 6 - An tIriseoir from Cois Life | Listen online for free on SoundCloud
-https://soundcloud.com/cois-life-teoranta/caibidil-6?in=%2Fcois-life-teoranta%2Fsets%2Fan-tiriseoir
-
-The 1% Club viewers slam 'mind-bending question' that saw contestant walk away from £94,000 jackpot
-https://www.ladbible.com/entertainment/tv/itv-the-one-percent-club-final-question-contestant-walked-away-jackpot-028330-20250401?fbclid=PAZXh0bgNhZW0CMTEAAaaU7v824-oMjFmT-mKdHrbaWTpYwICNYlmAaW27NtXbMOCLeI6mOUS8k44_aem_J0HWbJRdfopM40cvUsZKmg
-
-Pages that link to "amuigh" - Wiktionary, the free dictionary
-https://en.wiktionary.org/w/index.php?title=Special:WhatLinksHere/amuigh&limit=50&dir=next&offset=0%7C10505780
-
-Irish alignables for festus
-https://gist.github.com/jimregan/93a49f720447b94c53ded3f264dcbadf
-
-Launch Meeting - Zoom
-https://kth-se.zoom.us/j/2934115552?omn=65756270893#success
-
-iver56/audiomentations: A Python library for audio data augmentation. Useful for making audio ML models work well in the real world, not just in the lab.
-https://github.com/iver56/audiomentations
-
-gobtha - Google Search
-https://www.google.com/search?q=gobtha&rlz=1C5GCCM_en&oq=gobtha&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyCQgDEAAYChiABDIJCAQQABgKGIAEMgkIBRAAGAoYgAQyCQgGEAAYChiABDIJCAcQABgKGIAEMgkICBAAGAoYgAQyCQgJEAAYChiABNIBCDEzNDNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-amuigh - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/amuigh
-
-"goibthe" - Google Search
-https://www.google.com/search?q=%22goibthe%22&sca_esv=543601c9a98119e8&rlz=1C5GCCM_en&sxsrf=AHTn8zrner4Wcjkbt6gfBPD9rj5_GsAvxA%3A1743599285722&ei=tTbtZ6bUK6KowPAP3Nip0Qg&ved=0ahUKEwjmgrnAtbmMAxUiFBAIHVxsKooQ4dUDCBA&uact=5&oq=%22goibthe%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiCSJnb2lidGhlIjIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDTIKEC4YgAQY1AIYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDTIHEC4YgAQYDTIHEAAYgAQYDUiND1D8BViRDHABeACQAQCYAakBoAHvAaoBAzEuMbgBA8gBAPgBAZgCA6AC_AHCAgoQABiABBiwAxgNwgITEC4YgAQYsAMY1AIYyAMYDdgBAcICEBAuGIAEGLADGMgDGA3YAQHCAhYQLhiABBiwAxjHARjIAxgNGK8B2AEBmAMAiAYBkAYUugYGCAEQARgIkgcDMi4xoAf2H7IHAzEuMbgH9gE&sclient=gws-wiz-serp
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): amuigh
-https://www.teanglann.ie/en/fgb/amuigh
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): culaith
-https://www.teanglann.ie/en/fgb/culaith
-
-RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics
-https://chanh.ee/RoboSpatial/
-
-chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
-https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home/viewer/default/context?views%5B%5D=context
-
-chanhee-luke/RoboSpatial-Eval: Evaluation script for RoboSpatial-Home, a benchmark for spatial reasoning in 2D and 3D vision-language models.
-https://github.com/chanhee-luke/RoboSpatial-Eval?tab=readme-ov-file
-
-chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
-https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home
-
-LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT?tab=readme-ov-file
-
-lmms-lab/LLaVA-Video-72B-Qwen2 · Hugging Face
-https://huggingface.co/lmms-lab/LLaVA-Video-72B-Qwen2
-
-llama.cpp/examples/llava/README.md at master · ggml-org/llama.cpp
-https://github.com/ggml-org/llama.cpp/blob/master/examples/llava/README.md
-
-LLaVA-NeXT-Video-34B · Issue #7201 · ggml-org/llama.cpp
-https://github.com/ggml-org/llama.cpp/issues/7201
-
-llava-hf/llava-v1.6-mistral-7b-hf · Hugging Face
-https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf
-
-01-ai/Yi-34B · Hugging Face
-https://huggingface.co/01-ai/Yi-34B
-
-The Black Lotus - SNL - YouTube
-https://www.youtube.com/watch?v=kdDK7_M59os
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): amu
-https://www.teanglann.ie/en/fgb/amu
-
-piúnt - Google Search
-https://www.google.com/search?q=pi%C3%BAnt&rlz=1C5GCCM_en&oq=pi%C3%BAnt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBTIKCAMQABiiBBiJBdIBCDIwODhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Index:Alexander Macbain - An Etymological Dictionary of the Gaelic Language.djvu - Wikisource, the free online library
-https://en.wikisource.org/wiki/Index:Alexander_Macbain_-_An_Etymological_Dictionary_of_the_Gaelic_Language.djvu
-
-An Etymological Dictionary of the Gaelic Language/Abbreviations - Wikisource, the free online library
-https://en.wikisource.org/wiki/An_Etymological_Dictionary_of_the_Gaelic_Language/Abbreviations
 
 
