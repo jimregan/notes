@@ -189,3 +189,11 @@ based on [granite-3.1-8b-base](https://huggingface.co/ibm-granite/granite-3.1-8b
 [Qwen/Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B),
 [code](https://github.com/QwenLM/Qwen2.5-Omni)
 
+[KBLab/kb-whisper-large](https://huggingface.co/KBLab/kb-whisper-large)
+
+[KBLab/rixvox-v2](https://huggingface.co/datasets/KBLab/rixvox-v2)
+
+[ishine/PnG-BERT](https://github.com/ishine/PnG-BERT) -- unofficial implementation of [PnG BERT: Augmented BERT on Phonemes and Graphemes for Neural TTS](https://www.isca-archive.org/interspeech_2021/jia21_interspeech.html)
+
+[People are poorly equipped to detect AI-powered voice clones](https://www.nature.com/articles/s41598-025-94170-3)
+
