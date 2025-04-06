@@ -94,7 +94,7 @@
       "end": 22.71363672078263
     },
     "high_level": {
-      "topic_name": "reference_real",
+      "topic_name": "reference_unreal",
       "current_topic": "vase",
       "topic_change": false,
       "topic_duration_id": 2,
@@ -130,7 +130,10 @@
     },
     "low_level": {
       "resolved_references": {
-        "through": "vase"
+        "See-through": "vase",
+        "blue": "vase",
+        "green": "vase",
+        "black": "vase"
       },
       "spatial_relationships": [],
       "resolved_adverbs": []
@@ -224,7 +227,10 @@
       ]
     },
     "low_level": {
-      "resolved_references": {},
+      "resolved_references": {
+        "that weird waste bin over there": "garbage can",
+        "that": "garbage can"
+      },
       "spatial_relationships": []
     },
     "snippet": "And that weird waste bin over there, is that something you put there?"
@@ -1492,7 +1498,6 @@
     },
     "low_level": {
       "resolved_references": {
-        "care": "watering can",
         "plant": "plant"
       },
       "spatial_relationships": [],
@@ -1572,7 +1577,7 @@
       "end": 265.9893120998313
     },
     "high_level": {
-      "topic_name": "reference_real",
+      "topic_name": "reference_unreal",
       "current_topic": "vase",
       "topic_change": false,
       "topic_duration_id": 0,
