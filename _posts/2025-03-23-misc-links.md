@@ -197,3 +197,7 @@ based on [granite-3.1-8b-base](https://huggingface.co/ibm-granite/granite-3.1-8b
 
 [People are poorly equipped to detect AI-powered voice clones](https://www.nature.com/articles/s41598-025-94170-3)
 
+[r9y9/pysptk](https://github.com/r9y9/pysptk) --- A python wrapper for Speech Signal Processing Toolkit (SPTK).
+
+[jameslyons/python_speech_features](https://github.com/jameslyons/python_speech_features) --- provides common speech features for ASR including MFCCs and filterbank energies
+
