@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Process annotated JSON | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Process annotated JSON" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="To get times for GPT-generated references" />
+<meta property="og:description" content="To get times for GPT-generated references" />
+<link rel="canonical" href="https://jimregan.github.io/notes/json/hsi/incomplete/2025/04/03/read-annotated-json-try1.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/json/hsi/incomplete/2025/04/03/read-annotated-json-try1.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-03T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/json/hsi/incomplete/2025/04/03/read-annotated-json-try1.html","@type":"BlogPosting","headline":"Process annotated JSON","dateModified":"2025-04-03T00:00:00-05:00","datePublished":"2025-04-03T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/json/hsi/incomplete/2025/04/03/read-annotated-json-try1.html"},"description":"To get times for GPT-generated references","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Process annotated JSON</h1><p class="page-description">To get times for GPT-generated references</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-04-03T00:00:00-05:00" itemprop="datePublished">
+        Apr 3, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#json">json</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#hsi">hsi</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#incomplete">incomplete</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2025-04-03-read-annotated-json-try1.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2025-04-03-read-annotated-json-try1.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2025-04-03-read-annotated-json-try1.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2025-04-03-read-annotated-json-try1.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">EG</span> <span class="o">=</span> <span class="s2">&quot;/Users/joregan/Playing/merged_annotations/hsi_4_0717_209_002.json&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">EG</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">inf</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">SAMPLE</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">{</span>
+<span class="s2">  &quot;2&quot;: {</span>
+<span class="s2">    &quot;general&quot;: {</span>
+<span class="s2">      &quot;id&quot;: 2,</span>
+<span class="s2">      &quot;start&quot;: 5.970287890159987,</span>
+<span class="s2">      &quot;end&quot;: 9.551266621561616</span>
+<span class="s2">    },</span>
+<span class="s2">    &quot;high_level&quot;: {</span>
+<span class="s2">      &quot;topic_name&quot;: &quot;reference_real&quot;,</span>
+<span class="s2">      &quot;current_topic&quot;: &quot;vase&quot;,</span>
+<span class="s2">      &quot;topic_change&quot;: false,</span>
+<span class="s2">      &quot;topic_duration_id&quot;: 0,</span>
+<span class="s2">      &quot;spatial_reference&quot;: &quot;fourth vase&quot;,</span>
+<span class="s2">      &quot;referenced_object&quot;: [</span>
+<span class="s2">        &quot;vase&quot;</span>
+<span class="s2">      ]</span>
+<span class="s2">    },</span>
+<span class="s2">    &quot;low_level&quot;: {</span>
+<span class="s2">      &quot;resolved_references&quot;: {</span>
+<span class="s2">        &quot;the fourth vase&quot;: &quot;vase&quot;,</span>
+<span class="s2">        &quot;it&quot;: &quot;vase&quot;</span>
+<span class="s2">      },</span>
+<span class="s2">      &quot;spatial_relationships&quot;: [],</span>
+<span class="s2">      &quot;resolved_adverbs&quot;: []</span>
+<span class="s2">    },</span>
+<span class="s2">    &quot;snippet&quot;: &quot;But I&#39;m wondering about the fourth vase. Where is it? Did you break it?&quot;</span>
+<span class="s2">  }</span>
+<span class="s2">}</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<div class="highlight"><pre><span></span><span class="nt">&quot;resolved_references_indices&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&quot;it&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+      <span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">load_tsv</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">inf</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">inf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">data</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+                <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span>
+                <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span>
+                <span class="s2">&quot;word&quot;</span><span class="p">:</span> <span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+            <span class="p">})</span>
+    <span class="k">return</span> <span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">slice_tsv_data</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">datum</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">datum</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">])</span> <span class="ow">is</span> <span class="nb">str</span><span class="p">:</span>
+            <span class="n">datum</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">datum</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">])</span>
+        <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">datum</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">])</span> <span class="ow">is</span> <span class="nb">str</span><span class="p">:</span>
+            <span class="n">datum</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">datum</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">datum</span><span class="p">[</span><span class="s2">&quot;start&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">start</span> <span class="ow">and</span> <span class="n">datum</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">end</span><span class="p">:</span>
+            <span class="n">ret</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">datum</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">datum</span><span class="p">[</span><span class="s2">&quot;end&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">end</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">ret</span>
+    <span class="k">return</span> <span class="n">ret</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">clean_text</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;.,;?!&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">TSVS</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/hsi/word_annotations/&quot;</span><span class="p">)</span>
+<span class="n">JSON</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/merged_annotations/&quot;</span><span class="p">)</span>
+<span class="n">OUTP</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/timed_annotations/&quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">OUTP</span><span class="o">.</span><span class="n">is_dir</span><span class="p">():</span>
+    <span class="n">OUTP</span><span class="o">.</span><span class="n">mkdir</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_indices</span><span class="p">(</span><span class="n">needle</span><span class="p">,</span> <span class="n">haystack</span><span class="p">,</span> <span class="n">checkpos</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">nwords</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;,?.;:&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">needle</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+    <span class="n">hwords</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;,?.;:&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">haystack</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)]</span>
+    <span class="n">nwordspos</span> <span class="o">=</span> <span class="n">nwords</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">nwords</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">&#39;s&quot;</span><span class="p">]</span>
+    <span class="n">nlen</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">nwords</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">hwords</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">hwords</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">nlen</span><span class="p">]</span> <span class="o">==</span> <span class="n">nwords</span><span class="p">:</span>
+            <span class="n">ret</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="n">nlen</span><span class="p">))</span>
+        <span class="k">elif</span> <span class="n">checkpos</span> <span class="ow">and</span> <span class="n">hwords</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="n">nlen</span><span class="p">]</span> <span class="o">==</span> <span class="n">nwordspos</span><span class="p">:</span>
+            <span class="n">ret</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="n">nlen</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">ret</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tsv_for_segment</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">tsv_data</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="s2">&quot;general&quot;</span> <span class="ow">in</span> <span class="n">segment</span><span class="p">,</span> <span class="s2">&quot;Missing key &#39;general&#39;&quot;</span>
+    <span class="k">assert</span> <span class="s2">&quot;start&quot;</span> <span class="ow">in</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;general&quot;</span><span class="p">],</span> <span class="s2">&quot;Missing key &#39;start&#39;&quot;</span>
+    <span class="k">assert</span> <span class="s2">&quot;end&quot;</span> <span class="ow">in</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;general&quot;</span><span class="p">],</span> <span class="s2">&quot;Missing key &#39;end&#39;&quot;</span>
+
+    <span class="n">start</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;general&quot;</span><span class="p">][</span><span class="s2">&quot;start&quot;</span><span class="p">]</span>
+    <span class="n">end</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;general&quot;</span><span class="p">][</span><span class="s2">&quot;end&quot;</span><span class="p">]</span>
+
+    <span class="n">tsv</span> <span class="o">=</span> <span class="n">slice_tsv_data</span><span class="p">(</span><span class="n">tsv_data</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">)</span>
+    <span class="n">tsv_words</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tsv</span><span class="p">])</span>
+
+    <span class="k">if</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;snippet&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">tsv_words</span><span class="p">:</span>
+        <span class="n">cleaned_snippet</span> <span class="o">=</span> <span class="n">clean_text</span><span class="p">(</span><span class="n">segment</span><span class="p">[</span><span class="s2">&quot;snippet&quot;</span><span class="p">])</span>
+        <span class="n">cleaned_text</span> <span class="o">=</span> <span class="n">clean_text</span><span class="p">(</span><span class="n">tsv_words</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">cleaned_snippet</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cleaned_text</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;🙀 mismatch:&quot;</span><span class="p">,</span> <span class="s2">&quot;🖇️&quot;</span><span class="p">,</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;snippet&quot;</span><span class="p">],</span> <span class="s2">&quot;🎧&quot;</span><span class="p">,</span> <span class="n">tsv_words</span><span class="p">,</span> <span class="n">cleaned_text</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">cleaned_snippet</span><span class="p">))</span>
+            <span class="k">return</span> <span class="p">[]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">idxes</span> <span class="o">=</span> <span class="n">get_indices</span><span class="p">(</span><span class="n">cleaned_snippet</span><span class="p">,</span> <span class="n">cleaned_text</span><span class="p">)</span>
+            <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">idxes</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span>
+            <span class="n">tsv</span> <span class="o">=</span> <span class="n">tsv</span><span class="p">[</span><span class="n">idxes</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span><span class="n">idxes</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]]</span>
+            <span class="n">tsv_words</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">tsv</span><span class="p">])</span>
+            <span class="n">cleaned_text</span> <span class="o">=</span> <span class="n">clean_text</span><span class="p">(</span><span class="n">tsv_words</span><span class="p">)</span>
+            <span class="k">assert</span> <span class="n">cleaned_snippet</span> <span class="o">==</span> <span class="n">cleaned_text</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;🖇️ </span><span class="si">{</span><span class="n">cleaned_snippet</span><span class="si">}</span><span class="s2"> 🎧 </span><span class="si">{</span><span class="n">cleaned_text</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">return</span> <span class="n">tsv</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">is_skippable</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">strict</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">skippables</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;conversation_generic&quot;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">strict</span><span class="p">:</span>
+        <span class="n">skippables</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">&quot;reference_imaginary&quot;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;high_level&quot;</span><span class="p">][</span><span class="s2">&quot;topic_name&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;reference_unreal&quot;</span><span class="p">:</span>
+        <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;high_level&quot;</span><span class="p">][</span><span class="s2">&quot;topic_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;reference_imaginary&quot;</span>
+    <span class="k">if</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;high_level&quot;</span><span class="p">][</span><span class="s2">&quot;topic_name&quot;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">skippables</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">elif</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;low_level&quot;</span><span class="p">][</span><span class="s2">&quot;resolved_references&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="p">{}:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># that [(1, 2), (8, 9)]</span>
+<span class="k">def</span> <span class="nf">skip_overlapped_index</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">b</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">a</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">return</span> <span class="kc">False</span>
+
+<span class="k">assert</span> <span class="n">skip_overlapped_index</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="o">==</span> <span class="kc">True</span>
+<span class="k">assert</span> <span class="n">skip_overlapped_index</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="o">==</span> <span class="kc">False</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">prune_manual_index</span><span class="p">(</span><span class="n">indices</span><span class="p">,</span> <span class="n">manual</span><span class="p">):</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">in</span> <span class="n">manual</span><span class="p">:</span>
+            <span class="n">ret</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ret</span>
+
+<span class="k">assert</span> <span class="n">prune_manual_index</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)],</span> <span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)]</span>
+<span class="k">assert</span> <span class="n">prune_manual_index</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span> <span class="o">==</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">prune_dict_for_overlap</span><span class="p">(</span><span class="n">segments</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">segments</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">segments</span>
+    <span class="k">for</span> <span class="n">segment</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">:</span>
+        <span class="n">pruned</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">seg2</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">segment</span> <span class="o">!=</span> <span class="n">seg2</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">[</span><span class="n">segment</span><span class="p">]:</span>
+                    <span class="k">for</span> <span class="n">b</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">[</span><span class="n">seg2</span><span class="p">]:</span>
+                        <span class="k">if</span> <span class="n">skip_overlapped_index</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+                            <span class="k">if</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">pruned</span><span class="p">:</span>
+                                <span class="n">pruned</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="n">pruned</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+        <span class="n">segments</span><span class="p">[</span><span class="n">segment</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pruned</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">segments</span>
+
+<span class="n">test</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;1&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)],</span>
+    <span class="s2">&quot;2&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">)],</span>
+    <span class="s2">&quot;3&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">)]</span>
+<span class="p">}</span>
+<span class="n">exp</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;1&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)],</span>
+    <span class="s2">&quot;2&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">)],</span>
+    <span class="s2">&quot;3&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">)]</span>
+<span class="p">}</span>
+<span class="k">assert</span> <span class="n">prune_dict_for_overlap</span><span class="p">(</span><span class="n">test</span><span class="p">)</span> <span class="o">==</span> <span class="n">exp</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">process_segment</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">tsv_data</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">is_skippable</span><span class="p">(</span><span class="n">segment</span><span class="p">):</span>
+        <span class="k">return</span>
+    <span class="n">tsv</span> <span class="o">=</span> <span class="n">get_tsv_for_segment</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">tsv_data</span><span class="p">)</span>
+    <span class="n">references</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;low_level&quot;</span><span class="p">][</span><span class="s2">&quot;resolved_references&quot;</span><span class="p">]</span>
+    <span class="n">manual_idx</span> <span class="o">=</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;low_level&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;resolved_references_indices&quot;</span><span class="p">,</span> <span class="p">{})</span>
+
+    <span class="c1"># these are ordered. Kinda.</span>
+    <span class="n">indices</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">ref</span> <span class="ow">in</span> <span class="n">references</span><span class="p">:</span>
+        <span class="n">indices</span><span class="p">[</span><span class="n">ref</span><span class="p">]</span> <span class="o">=</span> <span class="n">get_indices</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;snippet&quot;</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">ref</span> <span class="ow">in</span> <span class="n">manual_idx</span><span class="p">:</span>
+            <span class="n">indices</span><span class="p">[</span><span class="n">ref</span><span class="p">]</span> <span class="o">=</span> <span class="n">prune_manual_index</span><span class="p">(</span><span class="n">indices</span><span class="p">[</span><span class="n">ref</span><span class="p">],</span> <span class="n">manual_idx</span><span class="p">[</span><span class="n">ref</span><span class="p">])</span>
+    <span class="n">indices</span> <span class="o">=</span> <span class="n">prune_dict_for_overlap</span><span class="p">(</span><span class="n">indices</span><span class="p">)</span>
+    <span class="n">reftimes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">ref</span> <span class="ow">in</span> <span class="n">references</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">[</span><span class="n">ref</span><span class="p">]:</span>
+            <span class="n">seq</span> <span class="o">=</span> <span class="n">tsv</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span><span class="n">index</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+            <span class="n">start</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;start&quot;</span><span class="p">]</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;end&quot;</span><span class="p">]</span>
+            <span class="n">reftimes</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+                <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+                <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="n">end</span><span class="p">,</span>
+                <span class="s2">&quot;text&quot;</span><span class="p">:</span> <span class="n">ref</span><span class="p">,</span>
+                <span class="s2">&quot;reference&quot;</span><span class="p">:</span> <span class="n">references</span><span class="p">[</span><span class="n">ref</span><span class="p">]</span>
+            <span class="p">})</span>
+    <span class="n">segment</span><span class="p">[</span><span class="s2">&quot;low_level&quot;</span><span class="p">][</span><span class="s2">&quot;reference_times&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">reftimes</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">jsonfile</span> <span class="ow">in</span> <span class="n">JSON</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.json&quot;</span><span class="p">):</span>
+    <span class="n">base</span> <span class="o">=</span> <span class="n">jsonfile</span><span class="o">.</span><span class="n">stem</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">jsonfile</span><span class="p">)</span> <span class="k">as</span> <span class="n">jsf</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">jsf</span><span class="p">)</span>
+    <span class="n">rawtsv</span> <span class="o">=</span> <span class="n">load_tsv</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">TSVS</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2">_main.tsv&quot;</span><span class="p">))</span>
+    <span class="n">outfile</span> <span class="o">=</span> <span class="n">OUTP</span> <span class="o">/</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2">.json&quot;</span>
+    <span class="k">for</span> <span class="n">seg</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="n">process_segment</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">seg</span><span class="p">],</span> <span class="n">rawtsv</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">outfile</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>🙀 mismatch: 🖇️ Yeah, the old one. {I} mean, this is a real classic and so is the... they&#39;re all classics. I like art as you&#39;ve noticed. 🎧 Yeah, the old one. mean, this is a real classic and so is the... they&#39;re all classics. I like art as you&#39;ve noticed. -1
+🙀 mismatch: 🖇️ Uh yeah they are from really really, um, renowned artists. And uh, I mean, [breath] not to brag but they are really expensive. 🎧 Uh yeah they are from really really, um, renowned artists. And uh, I mean, not to brag but they are really expensive. -1
+🙀 mismatch: 🖇️ It&#39;s a [click] unique piece ah that I ash- actually asked for me cause um this artist would do this, in, orange that&#39;s her color normally but I was like, this piece would look, so nice in red. 🎧 It&#39;s a unique piece ah that I ash- actually asked for me cause um this artist would do this, in, orange that&#39;s her color normally but I was like, this piece would look, so nice in red. -1
+🙀 mismatch: 🖇️ Like if someone wants to walk around your, your, your sofa,it&#39;s, it&#39;s going to be in their way, right? 🎧 Like if someone wants to walk around your, your, your sofa, it&#39;s, it&#39;s gonna be in their way, right? -1
+🙀 mismatch: 🖇️ put them in the box, and then put the box, just, just  throw it off, throw it off, off, off your balcony. 🎧 put them in the box, and then put the box, just, just throw it off, throw it off, off, off your balcony. -1
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In[201], line 8</span>
+<span class="ansi-green-intense-fg ansi-bold">      6</span> outfile <span style="color: rgb(98,98,98)">=</span> OUTP <span style="color: rgb(98,98,98)">/</span> <span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">&#34;</span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>base<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">.json</span><span style="color: rgb(175,0,0)">&#34;</span>
+<span class="ansi-green-intense-fg ansi-bold">      7</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> seg <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> data:
+<span class="ansi-green-fg">----&gt; 8</span>     <span class="ansi-yellow-bg">process_segment</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">data</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg">seg</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">rawtsv</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">      9</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> <span style="color: rgb(0,135,0)">open</span>(<span style="color: rgb(0,135,0)">str</span>(outfile), <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">w</span><span style="color: rgb(175,0,0)">&#39;</span>) <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> f:
+<span class="ansi-green-intense-fg ansi-bold">     10</span>     json<span style="color: rgb(98,98,98)">.</span>dump(data, f, indent<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">2</span>)
+
+Cell <span class="ansi-green-fg">In[192], line 19</span>, in <span class="ansi-cyan-fg">process_segment</span><span class="ansi-blue-fg">(segment, tsv_data)</span>
+<span class="ansi-green-intense-fg ansi-bold">     17</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> index <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> indices[ref]:
+<span class="ansi-green-intense-fg ansi-bold">     18</span>     seq <span style="color: rgb(98,98,98)">=</span> tsv[index[<span style="color: rgb(98,98,98)">0</span>]:index[<span style="color: rgb(98,98,98)">1</span>]]
+<span class="ansi-green-fg">---&gt; 19</span>     start <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">seq</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">0</span><span class="ansi-yellow-bg">]</span>[<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">start</span><span style="color: rgb(175,0,0)">&#34;</span>]
+<span class="ansi-green-intense-fg ansi-bold">     20</span>     end <span style="color: rgb(98,98,98)">=</span> seq[<span style="color: rgb(98,98,98)">-</span><span style="color: rgb(98,98,98)">1</span>][<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">end</span><span style="color: rgb(175,0,0)">&#34;</span>]
+<span class="ansi-green-intense-fg ansi-bold">     21</span>     reftimes<span style="color: rgb(98,98,98)">.</span>append({
+<span class="ansi-green-intense-fg ansi-bold">     22</span>         <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">start</span><span style="color: rgb(175,0,0)">&#34;</span>: start,
+<span class="ansi-green-intense-fg ansi-bold">     23</span>         <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">end</span><span style="color: rgb(175,0,0)">&#34;</span>: end,
+<span class="ansi-green-intense-fg ansi-bold">     24</span>         <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">text</span><span style="color: rgb(175,0,0)">&#34;</span>: ref,
+<span class="ansi-green-intense-fg ansi-bold">     25</span>         <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">reference</span><span style="color: rgb(175,0,0)">&#34;</span>: references[ref]
+<span class="ansi-green-intense-fg ansi-bold">     26</span>     })
+
+<span class="ansi-red-fg">IndexError</span>: list index out of range</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/json/hsi/incomplete/2025/04/03/read-annotated-json-try1.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

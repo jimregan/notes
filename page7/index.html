@@ -73,23 +73,17 @@ window.onload = wrap_img;
   <div class="wrapper">
     <a class="site-title" rel="author" href="/notes/">notes</a>
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input type="checkbox" id="nav-trigger" />
         <label for="nav-trigger">
-          <span class="menu-icon fas fa-bars fa-lg"></span>
+          <span class="menu-icon"></span>
         </label>
 
-        <div class="drawer-container">
-          <div class="drawer">
+        <div class="nav-items">
   <a class="nav-item" href="/notes/about/">About Me</a>
   <a class="nav-item" href="/notes/search/">Search</a>
   <a class="nav-item" href="/notes/categories/">Tags</a>
-          </div>
-        </div>
-        <div class="slab">
-  <a class="nav-item" href="/notes/about/">About Me</a>
-  <a class="nav-item" href="/notes/search/">Search</a>
-  <a class="nav-item" href="/notes/categories/">Tags</a>
-        </div>
+</div>
+
       </nav>
   </div>
 </header>
@@ -116,10 +110,25 @@ window.onload = wrap_img;
    <!-- Assemble final sorted posts array -->
   
   <ul class="post-list"><li><h3>
+    <a class="post-link" href="/notes/kaggle/g2p/mfa/2021/05/14/g2p-with-mfa.html">
+    G2P with MFA
+    </a>
+</h3><p class="post-meta-description">Grapheme-to-phoneme conversion with Montreal Forced Aligner (on Kaggle)</p><p class="post-meta">May 14, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/2021/05/13/train-irish-mfa-model-fuaimeanna.html">
+    Title
+    </a>
+</h3><p class="post-meta">May 13, 2021</p>
+</li><li><h3>
     <a class="post-link" href="/notes/azure/irish/asr/2021/05/04/azure-asr-with-irish.html">
     Azure speech recognition for Irish
     </a>
 </h3><p class="post-meta-description">Authentication is a bit of a pain; recognition is fantastic, but let down by number inverse normalisation</p><p class="post-meta">May 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/azure/irish/asr/2021/05/04/msf-azure-jsonl-to-json.html">
+    Azure ASR&#39;s JSONL output to JSON
+    </a>
+</h3><p class="post-meta-description">Just getting 1-best</p><p class="post-meta">May 4, 2021</p>
 </li><li><h3>
     <a class="post-link" href="/notes/azure/irish/asr/2021/05/04/azure-asr-with-irish-part2.html">
     Azure speech recognition for Irish, part 2
@@ -146,15 +155,15 @@ window.onload = wrap_img;
     </a>
 </h3><p class="post-meta-description">Just the scraper, processing later</p><p class="post-meta">Apr 29, 2021</p>
 </li><li><h3>
-    <a class="post-link" href="/notes/irish/bunamo/kaggle/2021/04/24/bunamo-raw-json.html">
-    BuNaMo to json
-    </a>
-</h3><p class="post-meta-description">Possibly incomplete; Kaggle version <a href='https://www.kaggle.com/jimregan/bunamo-raw-json'>here</a></p><p class="post-meta">Apr 24, 2021</p>
-</li><li><h3>
     <a class="post-link" href="/notes/praat/parselmouth/2021/04/24/parselmouth.html">
     Praat via parselmouth
     </a>
 </h3><p class="post-meta-description">Mostly playing with the examples</p><p class="post-meta">Apr 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/irish/bunamo/kaggle/2021/04/24/bunamo-raw-json.html">
+    BuNaMo to json
+    </a>
+</h3><p class="post-meta-description">Possibly incomplete; Kaggle version <a href='https://www.kaggle.com/jimregan/bunamo-raw-json'>here</a></p><p class="post-meta">Apr 24, 2021</p>
 </li><li><h3>
     <a class="post-link" href="/notes/kashubian/lazyscrape/2021/04/23/najo-uczba-pdfs.html">
     Kashubian PDF corpus 1
@@ -175,21 +184,6 @@ window.onload = wrap_img;
     Installing montreal-forced-aligner on kaggle
     </a>
 </h3><p class="post-meta-description">tl;dr - there's a missing symlink</p><p class="post-meta">Apr 20, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/notes/2021/04/19/ulster_g2p.html">
-    Title
-    </a>
-</h3><p class="post-meta">Apr 19, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/notes/icu/2021/04/18/irish-lower-with-icu.html">
-    Irish lowercase with ICU
-    </a>
-</h3><p class="post-meta-description">Case folding in Irish is odd; ICU can be used from most languages</p><p class="post-meta">Apr 18, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/notes/clarinpl/huggingface/2021/04/14/clarin-studio-dataset.html">
-    Clarin-Studio dataset
-    </a>
-</h3><p class="post-meta-description">Making/testing the dataset</p><p class="post-meta">Apr 14, 2021</p>
 </li></ul>
 
     
@@ -202,7 +196,9 @@ window.onload = wrap_img;
       </div></div>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
   <data class="u-url" href="/notes/"></data>
 
   <div class="wrapper">

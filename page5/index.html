@@ -73,23 +73,17 @@ window.onload = wrap_img;
   <div class="wrapper">
     <a class="site-title" rel="author" href="/notes/">notes</a>
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input type="checkbox" id="nav-trigger" />
         <label for="nav-trigger">
-          <span class="menu-icon fas fa-bars fa-lg"></span>
+          <span class="menu-icon"></span>
         </label>
 
-        <div class="drawer-container">
-          <div class="drawer">
+        <div class="nav-items">
   <a class="nav-item" href="/notes/about/">About Me</a>
   <a class="nav-item" href="/notes/search/">Search</a>
   <a class="nav-item" href="/notes/categories/">Tags</a>
-          </div>
-        </div>
-        <div class="slab">
-  <a class="nav-item" href="/notes/about/">About Me</a>
-  <a class="nav-item" href="/notes/search/">Search</a>
-  <a class="nav-item" href="/notes/categories/">Tags</a>
-        </div>
+</div>
+
       </nav>
   </div>
 </header>
@@ -116,10 +110,25 @@ window.onload = wrap_img;
    <!-- Assemble final sorted posts array -->
   
   <ul class="post-list"><li><h3>
+    <a class="post-link" href="/notes/2021/11/27/scrape-europarl-videos.html">
+    Title
+    </a>
+</h3><p class="post-meta">Nov 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/textgrid/lab/2021/10/27/textgrid-to-lab-merging.html">
+    Textgrid to .lab, take 2
+    </a>
+</h3><p class="post-meta-description">Second pass</p><p class="post-meta">Oct 27, 2021</p>
+</li><li><h3>
     <a class="post-link" href="/notes/textgrid/mfa/2021/10/15/extract-dictionary-from-mfa-textgrids.html">
     Extract a dictionary from MFA-aligned TextGrids
     </a>
 </h3><p class="post-meta-description">Need to re-align, don't have the dictionary</p><p class="post-meta">Oct 15, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/textgrid/spectrogram/librosa/2021/10/15/plotting-segmentation-from-textgrid-with-librosa.html">
+    Plotting segmentation from TextGrid with librosa
+    </a>
+</h3><p class="post-meta-description">Showing segmentation on a spectrogram</p><p class="post-meta">Oct 15, 2021</p>
 </li><li><h3>
     <a class="post-link" href="/notes/lab/merlin/2021/10/08/extract-phonemes-from-merlin-lab-files.html">
     Extract phonemes from merlin lab files
@@ -166,30 +175,15 @@ window.onload = wrap_img;
     </a>
 </h3><p class="post-meta-description">Dataset</p><p class="post-meta">Aug 30, 2021</p>
 </li><li><h3>
-    <a class="post-link" href="/notes/phonetisaurus/colab/2021/07/03/install-phonetisaurus.html">
-    Install phonetisaurus on Colab
-    </a>
-</h3><p class="post-meta-description">Installing phonetisaurus takes a few more steps than usual</p><p class="post-meta">Jul 3, 2021</p>
-</li><li><h3>
     <a class="post-link" href="/notes/colab/timit/phonetisaurus/2021/07/03/run-phonetisaurus-on-timit.html">
     Run phonetisaurus on TIMIT
     </a>
 </h3><p class="post-meta-description">You have to provide the TIMIT lexicon yourself</p><p class="post-meta">Jul 3, 2021</p>
 </li><li><h3>
-    <a class="post-link" href="/notes/asr/kaldi/kaggle/2021/06/22/run-kaldi-on-librispeech-test.html">
-    Scoring librispeech with Kaldi on Kaggle
+    <a class="post-link" href="/notes/phonetisaurus/colab/2021/07/03/install-phonetisaurus.html">
+    Install phonetisaurus on Colab
     </a>
-</h3><p class="post-meta-description">Results of test-clean and test-other</p><p class="post-meta">Jun 22, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/notes/colab/wav2vec-u/2021/06/19/wav2vec-u-cv-swedish-w2vu-generate.html">
-    wav2vec-u CV-sv - w2vu_generate
-    </a>
-</h3><p class="post-meta-description">w2vu_generate on Common Voice Swedish</p><p class="post-meta">Jun 19, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/notes/diarisation/pyannote/2021/06/17/diarisation-with-pyannote.html">
-    Diarisation with pyannote.audio
-    </a>
-</h3><p class="post-meta-description">Test run with audio containing overlapping speech</p><p class="post-meta">Jun 17, 2021</p>
+</h3><p class="post-meta-description">Installing phonetisaurus takes a few more steps than usual</p><p class="post-meta">Jul 3, 2021</p>
 </li></ul>
 
     
@@ -202,7 +196,9 @@ window.onload = wrap_img;
       </div></div>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
   <data class="u-url" href="/notes/"></data>
 
   <div class="wrapper">

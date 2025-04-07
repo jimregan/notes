@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Phonetic transformations demo | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Phonetic transformations demo" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For DT2112 ASR lecture; unused" />
+<meta property="og:description" content="For DT2112 ASR lecture; unused" />
+<link rel="canonical" href="https://jimregan.github.io/notes/dt2112/transformations/2025/01/29/phonetic-transformations.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/dt2112/transformations/2025/01/29/phonetic-transformations.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/dt2112/transformations/2025/01/29/phonetic-transformations.html","@type":"BlogPosting","headline":"Phonetic transformations demo","dateModified":"2025-01-29T00:00:00-06:00","datePublished":"2025-01-29T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/dt2112/transformations/2025/01/29/phonetic-transformations.html"},"description":"For DT2112 ASR lecture; unused","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Phonetic transformations demo</h1><p class="page-description">For DT2112 ASR lecture; unused</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-01-29T00:00:00-06:00" itemprop="datePublished">
+        Jan 29, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#dt2112">dt2112</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#transformations">transformations</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2025-01-29-phonetic-transformations.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2025-01-29-phonetic-transformations.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2025-01-29-phonetic-transformations.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2025-01-29-phonetic-transformations.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="kn">import</span> <span class="nn">json</span>
+
+<span class="c1"># Define the phonetic transformation steps</span>
+<span class="n">modifications</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[(</span><span class="s2">&quot;find him&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪnd hɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;around this&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊnd ðɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;let me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛt mi:/&quot;</span><span class="p">)],</span>
+    <span class="p">[(</span><span class="s2">&quot;fin&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;im&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪnd hɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;aroun&lt;span class=&#39;hl_red&#39;&gt;d th&lt;/span&gt;is&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊnd ðɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;le&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛt mi:/&quot;</span><span class="p">)],</span>
+    <span class="p">[(</span><span class="s2">&quot;fin&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;im&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪn&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;ɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;aroun&lt;span class=&#39;hl_red&#39;&gt;d th&lt;/span&gt;is&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊn&lt;span class=&#39;hl_red&#39;&gt;d ð&lt;/span&gt;ɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;le&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛ&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; mi:/&quot;</span><span class="p">)],</span>
+    <span class="p">[(</span><span class="s2">&quot;fin&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;im&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪn ɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;aroun&lt;span class=&#39;hl_red&#39;&gt;d th&lt;/span&gt;is&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊn ɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;le&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛ mi:/&quot;</span><span class="p">)],</span>
+    <span class="p">[(</span><span class="s2">&quot;fin&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;im&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪnɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;aroun&lt;span class=&#39;hl_red&#39;&gt;d th&lt;/span&gt;is&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊnɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;le&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛmi:/&quot;</span><span class="p">)],</span>
+    <span class="p">[(</span><span class="s2">&quot;fin&lt;span class=&#39;hl_red&#39;&gt;d h&lt;/span&gt;im&quot;</span><span class="p">,</span> <span class="s2">&quot;/faɪɾ̃ɪm/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;aroun&lt;span class=&#39;hl_red&#39;&gt;d th&lt;/span&gt;is&quot;</span><span class="p">,</span> <span class="s2">&quot;/əɹaʊɾ̃ɪs/&quot;</span><span class="p">),</span>
+     <span class="p">(</span><span class="s2">&quot;le&lt;span class=&#39;hl_red&#39;&gt;t&lt;/span&gt; me&quot;</span><span class="p">,</span> <span class="s2">&quot;/lɛmi:/&quot;</span><span class="p">)]</span>
+<span class="p">]</span>
+
+<span class="c1"># Function to render animation in Jupyter Notebook</span>
+<span class="k">def</span> <span class="nf">render_animation</span><span class="p">():</span>
+    <span class="n">steps_json</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">modifications</span><span class="p">)</span>
+    <span class="n">html_template</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    &lt;style&gt;</span>
+<span class="s2">        @keyframes fadeIn </span><span class="se">{{</span><span class="s2"></span>
+<span class="s2">            from </span><span class="se">{{</span><span class="s2"> opacity: 0; </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">            to </span><span class="se">{{</span><span class="s2"> opacity: 1; </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">        </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">        .phoneme-step </span><span class="se">{{</span><span class="s2"></span>
+<span class="s2">            font-size: 20px;</span>
+<span class="s2">            font-family: Arial, sans-serif;</span>
+<span class="s2">            margin-bottom: 10px;</span>
+<span class="s2">            animation: fadeIn 1s;</span>
+<span class="s2">        </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">        .hl_red </span><span class="se">{{</span><span class="s2"></span>
+<span class="s2">            color: red;</span>
+<span class="s2">            font-weight: bold;</span>
+<span class="s2">        </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">    &lt;/style&gt;</span>
+<span class="s2">    &lt;h1&gt;Deletion&lt;/h1&gt;</span>
+<span class="s2">    &lt;span&gt;&amp;nbsp;&lt;/span&gt;</span>
+<span class="s2">    &lt;div id=&#39;phoneme-display&#39;&gt;&lt;/div&gt;</span>
+<span class="s2">    &lt;script&gt;</span>
+<span class="s2">        let steps = </span><span class="si">{</span><span class="n">steps_json</span><span class="si">}</span><span class="s2">;</span>
+<span class="s2">        let index = 0;</span>
+<span class="s2">        function updateDisplay() </span><span class="se">{{</span><span class="s2"></span>
+<span class="s2">            let displayDiv = document.getElementById(&#39;phoneme-display&#39;);</span>
+<span class="s2">            displayDiv.innerHTML = steps[index].map(pair =&gt; `&lt;div class=&#39;phoneme-step&#39;&gt;&lt;strong&gt;$</span><span class="se">{{</span><span class="s2">pair[0]</span><span class="se">}}</span><span class="s2">&lt;/strong&gt;: $</span><span class="se">{{</span><span class="s2">pair[1]</span><span class="se">}}</span><span class="s2">&lt;/div&gt;`).join(&#39;&#39;);</span>
+<span class="s2">            if (index &lt; 5) </span><span class="se">{{</span><span class="s2"></span>
+<span class="s2">                index = (index + 1) % steps.length;</span>
+<span class="s2">                setTimeout(updateDisplay, 2000);</span>
+<span class="s2">            </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">        </span><span class="se">}}</span><span class="s2"></span>
+<span class="s2">        updateDisplay();</span>
+<span class="s2">    &lt;/script&gt;</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">html_template</span><span class="p">))</span>
+
+<span class="c1"># Call the function to display the animation in Jupyter Notebook</span>
+<span class="n">render_animation</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .phoneme-step {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px;
+            animation: fadeIn 1s;
+        }
+        .hl_red {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <h1>Deletion</h1>
+    <span>&nbsp;</span>
+    <div id="phoneme-display"></div>
+    <script>
+        let steps = [[["find him", "/fa\u026and h\u026am/"], ["around this", "/\u0259\u0279a\u028and \u00f0\u026as/"], ["let me", "/l\u025bt mi:/"]], [["fin<span class='hl_red'>d h</span>im", "/fa\u026and h\u026am/"], ["aroun<span class='hl_red'>d th</span>is", "/\u0259\u0279a\u028and \u00f0\u026as/"], ["le<span class='hl_red'>t</span> me", "/l\u025bt mi:/"]], [["fin<span class='hl_red'>d h</span>im", "/fa\u026an<span class='hl_red'>d h</span>\u026am/"], ["aroun<span class='hl_red'>d th</span>is", "/\u0259\u0279a\u028an<span class='hl_red'>d \u00f0</span>\u026as/"], ["le<span class='hl_red'>t</span> me", "/l\u025b<span class='hl_red'>t</span> mi:/"]], [["fin<span class='hl_red'>d h</span>im", "/fa\u026an \u026am/"], ["aroun<span class='hl_red'>d th</span>is", "/\u0259\u0279a\u028an \u026as/"], ["le<span class='hl_red'>t</span> me", "/l\u025b mi:/"]], [["fin<span class='hl_red'>d h</span>im", "/fa\u026an\u026am/"], ["aroun<span class='hl_red'>d th</span>is", "/\u0259\u0279a\u028an\u026as/"], ["le<span class='hl_red'>t</span> me", "/l\u025bmi:/"]], [["fin<span class='hl_red'>d h</span>im", "/fa\u026a\u027e\u0303\u026am/"], ["aroun<span class='hl_red'>d th</span>is", "/\u0259\u0279a\u028a\u027e\u0303\u026as/"], ["le<span class='hl_red'>t</span> me", "/l\u025bmi:/"]]];
+        let index = 0;
+        function updateDisplay() {
+            let displayDiv = document.getElementById('phoneme-display');
+            displayDiv.innerHTML = steps[index].map(pair => `<div class='phoneme-step'><strong>${pair[0]}</strong>: ${pair[1]}</div>`).join('');
+            if (index < 5) {
+                index = (index + 1) % steps.length;
+                setTimeout(updateDisplay, 2000);
+            }
+        }
+        updateDisplay();
+    </script>
+    
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/dt2112/transformations/2025/01/29/phonetic-transformations.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jimregan.github.io/notes/feed.xml">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

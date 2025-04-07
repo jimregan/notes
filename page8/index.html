@@ -72,23 +72,17 @@ window.onload = wrap_img;
   <div class="wrapper">
     <a class="site-title" rel="author" href="/notes/">notes</a>
       <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <input type="checkbox" id="nav-trigger" />
         <label for="nav-trigger">
-          <span class="menu-icon fas fa-bars fa-lg"></span>
+          <span class="menu-icon"></span>
         </label>
 
-        <div class="drawer-container">
-          <div class="drawer">
+        <div class="nav-items">
   <a class="nav-item" href="/notes/about/">About Me</a>
   <a class="nav-item" href="/notes/search/">Search</a>
   <a class="nav-item" href="/notes/categories/">Tags</a>
-          </div>
-        </div>
-        <div class="slab">
-  <a class="nav-item" href="/notes/about/">About Me</a>
-  <a class="nav-item" href="/notes/search/">Search</a>
-  <a class="nav-item" href="/notes/categories/">Tags</a>
-        </div>
+</div>
+
       </nav>
   </div>
 </header>
@@ -115,10 +109,25 @@ window.onload = wrap_img;
    <!-- Assemble final sorted posts array -->
   
   <ul class="post-list"><li><h3>
+    <a class="post-link" href="/notes/2021/04/19/ulster_g2p.html">
+    Title
+    </a>
+</h3><p class="post-meta">Apr 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/icu/2021/04/18/irish-lower-with-icu.html">
+    Irish lowercase with ICU
+    </a>
+</h3><p class="post-meta-description">Case folding in Irish is odd; ICU can be used from most languages</p><p class="post-meta">Apr 18, 2021</p>
+</li><li><h3>
     <a class="post-link" href="/notes/badmt/irish/2021/04/14/cc-aligned-irish.html">
     CC-Aligned Irish contains rubbish
     </a>
 </h3><p class="post-meta-description">M2M100 used CC-Aligned</p><p class="post-meta">Apr 14, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/notes/clarinpl/huggingface/2021/04/14/clarin-studio-dataset.html">
+    Clarin-Studio dataset
+    </a>
+</h3><p class="post-meta-description">Making/testing the dataset</p><p class="post-meta">Apr 14, 2021</p>
 </li><li><h3>
     <a class="post-link" href="/notes/m2m100/badmt/2021/04/13/m2m100-sucks-at-irish.html">
     M2M100 sucks at Irish
@@ -150,13 +159,13 @@ window.onload = wrap_img;
     </a>
 </h3><p class="post-meta-description">An attempt to use a word processor for Wikisource. Not a success.</p><p class="post-meta">Jan 9, 2021</p>
 </li><li><h3>
-    <a class="post-link" href="/notes/irish/teanglann/2020/11/25/teanglann-pronunciations.html">
-    Teanglann pronunciations
+    <a class="post-link" href="/notes/irish/teanglann/2020/11/25/teanglann-compound-pronunciations.html">
+    Teanglann compound pronunciations
     </a>
 </h3><p class="post-meta-description">Compared with Abair's IPA</p><p class="post-meta">Nov 25, 2020</p>
 </li><li><h3>
-    <a class="post-link" href="/notes/irish/teanglann/2020/11/25/teanglann-compound-pronunciations.html">
-    Teanglann compound pronunciations
+    <a class="post-link" href="/notes/irish/teanglann/2020/11/25/teanglann-pronunciations.html">
+    Teanglann pronunciations
     </a>
 </h3><p class="post-meta-description">Compared with Abair's IPA</p><p class="post-meta">Nov 25, 2020</p>
 </li><li><h3>
@@ -186,7 +195,9 @@ window.onload = wrap_img;
       </div></div>
 
       </div>
-    </main><footer class="site-footer h-card">
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
   <data class="u-url" href="/notes/"></data>
 
   <div class="wrapper">
