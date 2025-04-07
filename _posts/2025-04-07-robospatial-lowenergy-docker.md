@@ -1,11 +1,10 @@
 ---
 toc: true
 layout: post
-description: WhisperX is unmaintained, use a fork that at least pays attention to dependencies.
-title: Low-energy dockerfile for WhisperX
-categories: [docker, laziness, whisperx]
+description: RoboSpatial is low-energy on information required to run it
+title: Low-energy dockerfile for RoboSpatial
+categories: [docker, laziness, robospatial]
 ---
-Update of [this]({% post_url 2024-10-14-whisperx-lowenergy-docker %})
 
 
 ```docker
@@ -16,10 +15,15 @@ RUN git lfs install
 RUN git clone https://github.com/chanhee-luke/RoboSpatial-Eval
 RUN pip install numpy tqdm pyyaml datasets
 RUN python RoboSpatial-Eval/download_benchmark.py robospatial
-RUN pip install git+https://github.com/huggingface/transformers
-RUN pip install llava-torch
+RUN pip install einops
+RUN pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT
+RUN pip install accelerate
+RUN pip install -U huggingface-hub transformers
+#RUN pip install mantis-tsfm
 
 COPY config.yaml /workspace/RoboSpatial-Eval
+RUN mkdir -p /root/.cache/huggingface/hub/
+COPY models--meta-llama--Meta-Llama-3-8B-Instruct /root/.cache/huggingface/hub/
 
 WORKDIR /workspace/RoboSpatial-Eval
 ```
@@ -39,10 +43,15 @@ output:
   output_dir: "/results"  # Full path to where results will be stored
 ```
 
+Build with:
+
+```bash
+docker build -t robospatial .
+```
 
 Run with:
 
 ```bash
-docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus all robospatial
+docker run -it -e HF_TOKEN=$(cat ~/.huggingface/token) --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus all robospatial
 ```
 
