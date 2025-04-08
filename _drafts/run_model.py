@@ -51,7 +51,7 @@ for image in Path(IMG_PATH).glob("*.png"):
     for reference in references:
         item_code = references[reference]
         if type(item_code) is list:
-            item = ", ".join([x.split("_") for x in item_code])
+            item = ", ".join([x.split("_")[0] for x in item_code])
         else:
             item_parts = item_code.split("_")
             item = item_parts[0]
