@@ -6,6 +6,8 @@ title: Low-energy dockerfile for RoboSpatial
 categories: [docker, laziness, robospatial]
 ---
 
+[RoboSpatial](https://github.com/chanhee-luke/RoboSpatial-Eval) is lacking most of the key information needed to run it.
+
 
 ```docker
 FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
@@ -16,13 +18,14 @@ RUN git clone https://github.com/chanhee-luke/RoboSpatial-Eval
 RUN pip install numpy tqdm pyyaml datasets
 RUN python RoboSpatial-Eval/download_benchmark.py robospatial
 RUN pip install einops
-RUN pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT
 RUN pip install accelerate
 RUN pip install -U huggingface-hub transformers
+RUN pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT
 RUN pip install git+https://github.com/TIGER-AI-Lab/Mantis
 RUN pip install flash-attn==2.3.6
 RUN pip install git+https://github.com/wentaoyuan/RoboPoint
-RUN pip install -U transformers
+# Needed for Qwen2-VL, breaks everything else but Molmo (which is already broken)
+# RUN pip install -U transformers
 
 COPY config.yaml /workspace/RoboSpatial-Eval
 COPY models--meta-llama--Meta-Llama-3-8B-Instruct /root/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct
@@ -54,6 +57,6 @@ docker build -t robospatial .
 Run with:
 
 ```bash
-docker run -it -e HF_TOKEN=$(cat ~/.huggingface/token) --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus all robospatial
+docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus all robospatial
 ```
 
