@@ -8,7 +8,7 @@ categories: [docker, laziness, robospatial]
 
 
 ```docker
-FROM pytorch/pytorch
+FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
 RUN apt update
 RUN apt install -y git git-lfs g++
 RUN git lfs install
@@ -19,11 +19,13 @@ RUN pip install einops
 RUN pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT
 RUN pip install accelerate
 RUN pip install -U huggingface-hub transformers
-#RUN pip install mantis-tsfm
+RUN pip install git+https://github.com/TIGER-AI-Lab/Mantis
+RUN pip install flash-attn==2.3.6
+RUN pip install git+https://github.com/wentaoyuan/RoboPoint
+RUN pip install -U transformers
 
 COPY config.yaml /workspace/RoboSpatial-Eval
-RUN mkdir -p /root/.cache/huggingface/hub/
-COPY models--meta-llama--Meta-Llama-3-8B-Instruct /root/.cache/huggingface/hub/
+COPY models--meta-llama--Meta-Llama-3-8B-Instruct /root/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct
 
 WORKDIR /workspace/RoboSpatial-Eval
 ```
