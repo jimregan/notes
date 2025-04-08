@@ -28,6 +28,7 @@ POINTS_PROMPT = "Your answer should be formatted as a list of tuples, i.e. [(x1,
 BOX_PROMPT = "Your answer should be formatted as a list containing a pair of tuples, i.e. [(x1, y1), (x2, y2)], where each tuple contains the x and y coordinates of a point satisfying the conditions above. The coordinates should be between 0 and 1, indicating the normalized pixel locations of bounding box of the item in the image."
 
 for image in Path(IMG_PATH).glob("*.png"):
+    print("Current", image)
     stem = image.stem
     stem_parts = stem.split("_")
     if stem_parts[-1] == "color":
@@ -49,7 +50,8 @@ for image in Path(IMG_PATH).glob("*.png"):
 
     for reference in references:
         item_code = references[reference]
-        item = item_code.split("_")[0]
+        item_parts = item_code.split("_")
+        item = item_parts[0]
 
         prompt = """This image is being discussed in the snippet of conversation that follows; 
         in the snippet, the text {reference} refers to {item}.\n\n
