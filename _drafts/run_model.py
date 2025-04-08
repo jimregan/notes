@@ -50,8 +50,11 @@ for image in Path(IMG_PATH).glob("*.png"):
 
     for reference in references:
         item_code = references[reference]
-        item_parts = item_code.split("_")
-        item = item_parts[0]
+        if type(item_code) is list:
+            item = ", ".join([x.split("_") for x in item_code])
+        else:
+            item_parts = item_code.split("_")
+            item = item_parts[0]
 
         prompt = """This image is being discussed in the snippet of conversation that follows; 
         in the snippet, the text {reference} refers to {item}.\n\n
