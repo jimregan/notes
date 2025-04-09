@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: RoboSpatial is low-energy on information required to run it
 title: Low-energy dockerfile for RoboSpatial
-categories: [docker, laziness, robospatial]
+categories: [docker, laziness, robospatial, hsi]
 ---
 
 [RoboSpatial](https://github.com/chanhee-luke/RoboSpatial-Eval) is lacking most of the key information needed to run it.
