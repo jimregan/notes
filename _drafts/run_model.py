@@ -56,8 +56,12 @@ for image in Path(IMG_PATH).glob("*.png"):
             item_parts = item_code.split("_")
             item = item_parts[0]
 
-        prompt = """This image is being discussed in the snippet of conversation that follows; 
-        in the snippet, the text {reference} refers to {item}.\n\n
+        prompt = f"""This image is being discussed in the snippet of conversation that follows;
+        the image is computer generated, and contains a number of items that may be discussed,
+        which we consider "real" references; the speakers from time to time can also refer to
+        objects that could potentially be part of the scene which we consider "imaginary"
+        references, as the object is not part of the image, it merely could potentially be.
+        In the snippet, the text {reference} refers to {item}.\n\n
         The snippet is: {snippet}\n\n
         Is the reference to {item} real, or imaginary? Answer with the word "real" or "imaginary".
         """
