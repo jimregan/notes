@@ -9,7 +9,8 @@ processor = AutoProcessor.from_pretrained(
     'allenai/Molmo-7B-D-0924',
     trust_remote_code=True,
     torch_dtype='auto',
-    device_map='auto'
+    device_map='auto',
+    from_tf=False
 )
 
 # load the model
@@ -17,7 +18,8 @@ model = AutoModelForCausalLM.from_pretrained(
     'allenai/Molmo-7B-D-0924',
     trust_remote_code=True,
     torch_dtype='auto',
-    device_map='auto'
+    device_map='auto',
+    from_tf=False
 )
 
 IMG_PATH = "/results/images/color/"
