@@ -20,7 +20,7 @@ RUN pip install \
     numpy==1.26.4 \
     torch==2.1.0 \
     torchvision==0.16.0 \
-    transformers==4.37.2 \
+    transformers==4.42.0 \
     accelerate==0.25.0 \
     einops \
     sentencepiece \
@@ -52,19 +52,36 @@ Something was happening with this, so I had to try to find why the wrong
 version of transformers kept popping up:
 
 ```docker
-FROM python:3.10-slim
+FROM pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime                                                  
 
-# Avoid interactive prompts during install
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y \
-    git curl build-essential && \
-    pip install --upgrade pip
+# Upgrade pip and install clean
+RUN pip install --upgrade pip setuptools wheel
 
-# Install only transformers and dependencies
-RUN pip install transformers==4.37.2
+# Clean up any possible old versions
+RUN pip uninstall -y transformers || true
 
-# Check if TextKwargs is available
+# Install specific version of transformers
+RUN pip install transformers==4.42.0
+
+# Confirm that TextKwargs is present
 RUN python -c "from transformers.processing_utils import TextKwargs; print('✅ TextKwargs is present:', TextKwargs)"
 ```
+
+To get it to run, I needed to change this:
+
+```python
+mask = ~torch.all(images.view(B * T, N, D) == -1, dim=(1, 2), keepdim=True)
+```
+
+to:
+
+```python
+mask = ~torch.all(images.view(B * T, -1) == -1, dim=1, keepdim=True)  # (B*T, 1)
+mask = mask.unsqueeze(-1)
+```
+
+(courtesy of ChatGPT). This seems to be a Pytorch version issue, but it's low
+priority to fix it.
 
