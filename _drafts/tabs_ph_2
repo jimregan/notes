@@ -1,5 +1,8 @@
-mm-conv-code/mm_conv/utils/prompt_templates.py at dev · annadeichler/mm-conv-code
-https://github.com/annadeichler/mm-conv-code/blob/dev/mm_conv/utils/prompt_templates.py
+Create run_molmo.py by jimregan · Pull Request #1 · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/pull/1/files
+
+New File at / · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/new/main
 
 annadeichler/mm-conv-code at dev
 https://github.com/annadeichler/mm-conv-code/tree/dev
@@ -58,7 +61,7 @@ https://github.com/sprakbankental/sardin/blob/develop/p5m/lib/MTM/Analysis/Time.
 Probabilistic Artificial Intelligence
 https://arxiv.org/pdf/2502.05244
 
-(1) TuringPost on X: "6 notable AI models of the week: ▪️ Differentiable Logic Cellular Automata @GoogleAI ▪️ Phi-4-Mini @Microsoft ▪️ Babel, Open Multilingual LLMs @AlibabaGroup ▪️ Aya Vision @CohereForAI ▪️ LLMVoX ▪️ LanDiff by Moonshot AI 🧵 https://t.co/EKCm3t5HwM" / X
+(3) TuringPost on X: "6 notable AI models of the week: ▪️ Differentiable Logic Cellular Automata @GoogleAI ▪️ Phi-4-Mini @Microsoft ▪️ Babel, Open Multilingual LLMs @AlibabaGroup ▪️ Aya Vision @CohereForAI ▪️ LLMVoX ▪️ LanDiff by Moonshot AI 🧵 https://t.co/EKCm3t5HwM" / X
 https://x.com/TheTuringPost/status/1899237753851953248
 
 Paper page - LLMVoX: Autoregressive Streaming Text-to-Speech Model for Any LLM
@@ -169,17 +172,8 @@ https://github.com/bytedance/MegaTTS3/blob/main/tts/modules/aligner/whisper_smal
 Unconditional Priors Matter! Improving Conditional Generation of Fine-Tuned Diffusion Models
 https://unconditional-priors-matter.github.io/
 
-CBT Steps Overview
-https://chatgpt.com/c/67e93d80-421c-8011-8747-7294f0cf4cbb
-
-Trump Plots Unconstitutional Third Term, Signal Scandal Grows, Musk Whines About Walz: A Closer Look - YouTube
-https://www.youtube.com/watch?v=NzwHCNx8amM
-
 chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
 https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home
-
-ChatGPT
-https://chatgpt.com/
 
 Spaces Launch – Hugging Face
 https://huggingface.co/spaces/launch
@@ -217,17 +211,8 @@ https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/evaluation.py
 RoboSpatial-Eval/models.py at master · chanhee-luke/RoboSpatial-Eval
 https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/models.py
 
-chanhee-luke/RoboSpatial-Eval: Evaluation script for RoboSpatial-Home, a benchmark for spatial reasoning in 2D and 3D vision-language models.
-https://github.com/chanhee-luke/RoboSpatial-Eval/tree/master
-
-RoboSpatial-Eval/main.py at master · chanhee-luke/RoboSpatial-Eval
-https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/main.py
-
-RoboSpatial-Eval/models.py at master · chanhee-luke/RoboSpatial-Eval
-https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/models.py
-
-2411.16537
-https://arxiv.org/pdf/2411.16537
+ChatGPT - Paper summaries
+https://chatgpt.com/g/g-p-67f13afbe3708191aeccc05266d5ec05-paper-summaries/c/67f67518-c994-8011-b555-401247cdf331
 
 RoboSpatial-Eval/models.py at master · chanhee-luke/RoboSpatial-Eval
 https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/models.py
@@ -241,23 +226,8 @@ https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/download_benchmark.
 lmms-lab/llama3-llava-next-8b · Discussions
 https://huggingface.co/lmms-lab/llama3-llava-next-8b/discussions
 
-ValueError: Llama 3 tokenizer is not available. Make sure you have the necessary permissions. · Issue #356 · LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT/issues/356
-
-meta-llama/Llama-3.1-8B-Instruct · Hugging Face
-https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct
-
 paris-noah/Mantis-8M · Hugging Face
 https://huggingface.co/paris-noah/Mantis-8M
-
-Variables | Docker Docs
-https://docs.docker.com/build/building/variables/
-
-TMH APT - agenda and meeting minutes - Google Docs
-https://docs.google.com/document/d/1HWlKUcKCHR3KDWD5nlT1k_NMXkMFNovShCnDva9PoWY/edit?tab=t.5j59xakjrod3
-
-include huggingface token in docker image - Google Search
-https://www.google.com/search?q=include+huggingface+token+in+docker+image&rlz=1C5GCCM_en&oq=include+huggingface+token+in+docker+image&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBdIBCDY0OTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 Serving Private & Gated Models
 https://huggingface.co/docs/text-generation-inference/en/basic_tutorials/gated_model_access
@@ -265,20 +235,8 @@ https://huggingface.co/docs/text-generation-inference/en/basic_tutorials/gated_m
 Downloading models
 https://huggingface.co/docs/hub/en/models-downloading
 
-meta-llama/Meta-Llama-3-8B-Instruct · Hugging Face
-https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
-
-docker - Dockerfile copy keep subdirectory structure - Stack Overflow
-https://stackoverflow.com/questions/30215830/dockerfile-copy-keep-subdirectory-structure
-
-New Tab
-chrome://newtab/
-
 vfeofanov/mantis: Mantis: Lightweight Calibrated Foundation Model for User-Friendly Time Series Classification
 https://github.com/vfeofanov/mantis/tree/main
-
-Tags | notes
-https://jimregan.github.io/notes/categories/#donegal
 
 Irish Texts from South West Donegal. An mhóin. | notes
 https://jimregan.github.io/notes/irish/donegal/2021/01/25/irish-texts-from-south-west-donegal-text-2-an-mhoin.html
@@ -487,28 +445,16 @@ https://huggingface.co/tiiuae/falcon-40b/discussions/50
 Distributed inference
 https://huggingface.co/docs/diffusers/en/training/distributed_inference
 
-Fastest way to do inference on a large dataset in huggingface? - 🤗Datasets - Hugging Face Forums
-https://discuss.huggingface.co/t/fastest-way-to-do-inference-on-a-large-dataset-in-huggingface/12665/4
+docker container attach | Docker Docs
+https://docs.docker.com/reference/cli/docker/container/attach/
 
-Instagram
-https://www.instagram.com/
+modeling_molmo.py · allenai/Molmo-7B-D-0924 at main
+https://huggingface.co/allenai/Molmo-7B-D-0924/blob/main/modeling_molmo.py
 
-Experts dispute Colossal claim dire wolf back from extinction
-https://www.bbc.com/news/articles/c4g9ejy3gdvo?fbclid=PAZXh0bgNhZW0CMTEAAacTnUbWnd2vGojmpITxChOzTQQHYB5gitU9nkeu0m3R36WvfLTC5DS1gYoKLg_aem_no3AnbQn6-Rtz3C1rSjaVA
+Using Hugging Face Transformers with PyTorch and TensorFlow - KDnuggets
+https://www.kdnuggets.com/using-hugging-face-transformers-with-pytorch-and-tensorflow
 
-Instagram
-https://www.instagram.com/
-
-De-extinction company announces that the dire wolf is back - Ars Technica
-https://arstechnica.com/science/2025/04/de-extinction-company-announces-that-the-dire-wolf-is-back/?utm_source=instagram&utm_medium=social&utm_content=instagram-stories&utm_brand=ars&utm_social-type=owned
-
-bitter water germany - Google Search
-https://www.google.com/search?q=bitter+water+germany&sca_esv=fb769e0fcd5d8652&rlz=1C5GCCM_en&sxsrf=AHTn8zqwB8IWyXttvN89gyFHXqXh8iwFig%3A1744138037610&ei=NW_1Z6X7JOWmwPAP0vab8Q8&ved=0ahUKEwjl6a7BjMmMAxVlExAIHVL7Jv4Q4dUDCBA&uact=5&oq=bitter+water+germany&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGJpdHRlciB3YXRlciBnZXJtYW55MgUQABiABDILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMggQABiABBiiBEijGlDXBli0GHADeAGQAQCYAVqgAeoEqgEBOLgBA8gBAPgBAZgCC6AClAXCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAcICExAuGIAEGLADGEMYyAMYigXYAQHCAgoQABiABBhDGIoFwgIKEAAYgAQYFBiHAsICBhAAGBYYHpgDAIgGAZAGE7oGBggBEAEYCZIHAjExoAeiKrIHATi4B4YF&sclient=gws-wiz-serp
-
-Zaječická hořká - Wikipedia
-https://en.wikipedia.org/wiki/Zaje%C4%8Dick%C3%A1_ho%C5%99k%C3%A1
-
-Instagram • Direct
-https://www.instagram.com/direct/t/102052201197290/
+microsoft/Phi-4-mini-instruct · Hugging Face
+https://huggingface.co/microsoft/Phi-4-mini-instruct
 
 
