@@ -26,7 +26,13 @@ RUN pip install \
     sentencepiece \
     safetensors \
     tensorflow-cpu==2.15.0
+
 ENV TRANSFORMERS_DYNAMIC_MODULE_NAME="trusted"
+
+# Download model and processor at build time to avoid runtime fetch
+RUN python -c "from transformers import AutoModelForCausalLM, AutoProcessor; \
+AutoModelForCausalLM.from_pretrained('allenai/Molmo-7B-D-0924', trust_remote_code=True, torch_dtype='auto', cache_dir='/workspace/.hf_cache'); \
+AutoProcessor.from_pretrained('allenai/Molmo-7B-D-0924', trust_remote_code=True, cache_dir='/workspace/.hf_cache')"
 ```
 
 
