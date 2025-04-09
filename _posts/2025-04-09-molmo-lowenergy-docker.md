@@ -48,3 +48,23 @@ Run with:
 docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus all molmo
 ```
 
+Something was happening with this, so I had to try to find why the wrong
+version of transformers kept popping up:
+
+```docker
+FROM python:3.10-slim
+
+# Avoid interactive prompts during install
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y \
+    git curl build-essential && \
+    pip install --upgrade pip
+
+# Install only transformers and dependencies
+RUN pip install transformers==4.37.2
+
+# Check if TextKwargs is available
+RUN python -c "from transformers.processing_utils import TextKwargs; print('✅ TextKwargs is present:', TextKwargs)"
+```
+
