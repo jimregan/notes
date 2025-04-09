@@ -1,9 +1,6 @@
 The People's Dictionary
 https://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&torsdag&1
 
-file:///Users/joregan/Downloads/lsa_admin,+4535-7160-2-CE.pdf
-file:///Users/joregan/Downloads/lsa_admin,+4535-7160-2-CE.pdf
-
 On the Effects of Heterogeneous Data Sources on Speech-to-TextFoundation Models
 https://arxiv.org/pdf/2406.09282
 
@@ -1186,13 +1183,46 @@ https://ieeexplore.ieee.org/document/10832155
 2301.08810
 https://arxiv.org/pdf/2301.08810
 
-2103.15060
-https://arxiv.org/pdf/2103.15060
-
-PnG-BERT/bin/train.py at main · ishine/PnG-BERT
-https://github.com/ishine/PnG-BERT/blob/main/bin/train.py
+ishine/PnG-BERT: PnG BERT: Augmented BERT on Phonemes and Graphemes for Neural TTS
+https://github.com/ishine/PnG-BERT/tree/main
 
 felixkreuk/UnsupSeg: Self-Supervised Contrastive Learning for Unsupervised Phoneme Segmentation (INTERSPEECH 2020)
 https://github.com/felixkreuk/UnsupSeg?tab=readme-ov-file
+
+mmconv-clickie
+https://wrarawiera.cognition.run/
+
+Update modeling_molmo.py · allenai/Molmo-7B-D-0924 at 03214de
+https://huggingface.co/allenai/Molmo-7B-D-0924/commit/03214def8ce840adaf1f4f569b20e45245af8fab
+
+config_molmo.py · allenai/Molmo-7B-D-0924 at main
+https://huggingface.co/allenai/Molmo-7B-D-0924/blob/main/config_molmo.py
+
+transformers · PyPI
+https://pypi.org/project/transformers/
+
+Add support for Molmo · Issue #33710 · huggingface/transformers
+https://github.com/huggingface/transformers/issues/33710
+
+allenai/MolmoE-1B-0924 · Hugging Face
+https://huggingface.co/allenai/MolmoE-1B-0924
+
+git merge ours - Google Search
+https://www.google.com/search?q=git+merge+ours&rlz=1C5GCCM_en&oq=git+merge+ours&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRhAMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMggIBRAAGBYYHjIICAYQABgWGB4yBggHEEUYPNIBCDE5NzNqMGo3qAIIsAIB8QU6Fw4EJTp9Uw&sourceid=chrome&ie=UTF-8
+
+Disable "resume browsing" - Google Chrome Community
+https://support.google.com/chrome/thread/283109775/disable-resume-browsing?hl=en
+
+transformers TextKwargs - Google Search
+https://www.google.com/search?sca_esv=e45feeb30c95b33e&rlz=1C5GCCM_en&sxsrf=AHTn8zrIgY0gTQrlyAmO7ZYtVUyzi5H3bw:1744197289704&q=transformers+TextKwargs&nfpr=1&sa=X&ved=2ahUKEwjv1vue6cqMAxWbUlUIHQLqBFAQvgUoAXoECAkQAg&biw=1440&bih=728&dpr=2
+
+add initial design for uniform processors + align model (#31197) · huggingface/transformers@c624d5b
+https://github.com/huggingface/transformers/commit/c624d5ba0b41542eb3daa0e2fdc985231551d776
+
+Tags | notes
+https://jimregan.github.io/notes/categories/#hsi
+
+Process annotated JSON | notes
+https://jimregan.github.io/notes/json/hsi/2025/04/06/read-annotated-json-try2.html
 
 
