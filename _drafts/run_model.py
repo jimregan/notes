@@ -85,4 +85,4 @@ for image in Path(IMG_PATH).glob("*.png"):
         results[stem][reference] = generated_text
 
 with open("/results/trial_run.json", "w") as outf:
-    json.dump(data, outf)
+    json.dump(results, outf)
