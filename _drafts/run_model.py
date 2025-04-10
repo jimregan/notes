@@ -20,70 +20,63 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map='auto'
 )
 
-IMG_PATH = "/results/images/color/"
-JSON_PATH = Path("/results/json/")
+IMG_PATH = Path("/results/mm_conv_crowdsourcing_data/images/color")
+JSON_PATH = Path("/results/mm_conv_crowdsourcing_data/meta")
+OUTPATH = Path("/results/molmo_output")
 
-results = {}
-POINTS_PROMPT = "Your answer should be formatted as a list of tuples, i.e. [(x1, y1), (x2, y2), ...], where each tuple contains the x and y coordinates of a point satisfying the conditions above. The coordinates should be between 0 and 1, indicating the normalized pixel locations of the points in the image."
-BOX_PROMPT = "Your answer should be formatted as a list containing a pair of tuples, i.e. [(x1, y1), (x2, y2)], where each tuple contains the x and y coordinates of a point satisfying the conditions above. The coordinates should be between 0 and 1, indicating the normalized pixel locations of bounding box of the item in the image."
+if not OUTPATH.is_dir():
+    OUTPATH.mkdir()
 
-for image in Path(IMG_PATH).glob("*.png"):
+
+def build_prompt_orig(utterance):
+    return (
+        "Locate the object: '{0}' in the image.\n"
+        "Return only the coordinates as [[x1, y1, x2, y2]].\n"
+        "Example: [[100, 150, 300, 400]]"
+    ).format(utterance)
+
+
+def build_prompt_chatgpt(utterance):
+    return (
+        "An image is (X, Y)=(640, 400).\n"
+        "Locate the object commonly referred to as '{0}' in the image.\n"
+        "Focus on its visual appearance and spatial layout.\n"
+        "Return only the coordinates as [[x1, y1, x2, y2]].\n"
+        "Example: [[100, 150, 300, 400]]"
+    ).format(utterance)
+
+
+for image in IMG_PATH.glob("*.png"):
     print("Current", image)
     stem = image.stem
-    stem_parts = stem.split("_")
-    if stem_parts[-1] == "color":
-        sentid = stem_parts[-2]
-        fileid = "_".join(stem_parts[:-2])
-    else:
-        print("Error reading file", stem)
-        continue
-    with open(str(JSON_PATH / f"{fileid}.json")) as jsf:
+    with open(str(JSON_PATH / f"{stem.replace('_color', '_meta')}.json")) as jsf:
         data = json.load(jsf)
-    current = data[sentid]
-    if not stem in results:
-        results[stem] = {}
+    
+    utterance = data["utterance"]
+    reference = data["phrase"]
+    object_name = data["object_name"]
 
-    snippet = current["snippet"]
-    references = current.get("low_level", {}).get("resolved_references", {})
-    if references == {}:
-        print(f"Skipping {stem}: no low_level resolved_references")
+    # process the image and text
+    inputs = processor.process(
+        images=[Image.open(str(image))],
+        text=build_prompt_orig(utterance)
+    )
 
-    for reference in references:
-        item_code = references[reference]
-        if type(item_code) is list:
-            item = ", ".join([x.split("_")[0] for x in item_code])
-        else:
-            item_parts = item_code.split("_")
-            item = item_parts[0]
+    # move inputs to the correct device and make a batch of size 1
+    inputs = {k: v.to(model.device).unsqueeze(0) for k, v in inputs.items()}
 
-        prompt = (
-                "You are given an image and a sentence. "
-                "The sentence refers to an object visible in the image. "
-                "Please always return a list of points of the referred object in pixel coordinates "
-                "as [x_min, y_min, x_max, y_max].\n\n"
-                f"Sentence: '{reference}'"
-            )
-        # process the image and text
-        inputs = processor.process(
-            images=[Image.open(str(image))],
-            text=prompt
-        )
+    # generate output; maximum 200 new tokens; stop generation when <|endoftext|> is generated
+    output = model.generate_from_batch(
+        inputs,
+        GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
+        tokenizer=processor.tokenizer
+    )
 
-        # move inputs to the correct device and make a batch of size 1
-        inputs = {k: v.to(model.device).unsqueeze(0) for k, v in inputs.items()}
+    # only get generated tokens; decode them to text
+    generated_tokens = output[0,inputs['input_ids'].size(1):]
+    generated_text = processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
 
-        # generate output; maximum 200 new tokens; stop generation when <|endoftext|> is generated
-        output = model.generate_from_batch(
-            inputs,
-            GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
-            tokenizer=processor.tokenizer
-        )
+    data["generated_answer"] = generated_text
 
-        # only get generated tokens; decode them to text
-        generated_tokens = output[0,inputs['input_ids'].size(1):]
-        generated_text = processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
-
-        results[stem][reference] = generated_text
-
-with open("/results/trial_run.json", "w") as outf:
-    json.dump(results, outf)
+    with open(OUTPATH / f"{stem}.json", "w") as outf:
+        json.dump(data, outf)
