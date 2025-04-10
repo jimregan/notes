@@ -1,25 +1,34 @@
 ---
 toc: true
 layout: post
-description: WhisperX is unmaintained, use a fork that at least pays attention to dependencies.
-title: Low-energy dockerfile for WhisperX
-categories: [docker, laziness, whisperx]
+description: RoboSpatial is low-energy on information required to run it
+title: Low-energy dockerfile for RoboSpatial
+categories: [docker, laziness, robospatial, hsi]
 ---
-Update of [this]({% post_url 2024-10-14-whisperx-lowenergy-docker %})
+
+[RoboSpatial](https://github.com/chanhee-luke/RoboSpatial-Eval) is lacking most of the key information needed to run it.
 
 
 ```docker
-FROM pytorch/pytorch
+FROM pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel
 RUN apt update
 RUN apt install -y git git-lfs g++
 RUN git lfs install
 RUN git clone https://github.com/chanhee-luke/RoboSpatial-Eval
 RUN pip install numpy tqdm pyyaml datasets
 RUN python RoboSpatial-Eval/download_benchmark.py robospatial
-RUN pip install git+https://github.com/huggingface/transformers
-RUN pip install llava-torch
+RUN pip install einops
+RUN pip install accelerate
+RUN pip install -U huggingface-hub transformers
+RUN pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT
+RUN pip install git+https://github.com/TIGER-AI-Lab/Mantis
+RUN pip install flash-attn==2.3.6
+RUN pip install git+https://github.com/wentaoyuan/RoboPoint
+# Needed for Qwen2-VL, breaks everything else but Molmo (which is already broken)
+# RUN pip install -U transformers
 
 COPY config.yaml /workspace/RoboSpatial-Eval
+COPY models--meta-llama--Meta-Llama-3-8B-Instruct /root/.cache/huggingface/hub/models--meta-llama--Meta-Llama-3-8B-Instruct
 
 WORKDIR /workspace/RoboSpatial-Eval
 ```
@@ -39,6 +48,11 @@ output:
   output_dir: "/results"  # Full path to where results will be stored
 ```
 
+Build with:
+
+```bash
+docker build -t robospatial .
+```
 
 Run with:
 
