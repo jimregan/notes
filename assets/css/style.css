@@ -312,6 +312,8 @@ table td { border: 1px solid #e7e7e7; }
 
 .post-content h6 { font-size: 1.0625rem; }
 
+.comments-disabled-message { text-align: center; font-weight: 300; }
+
 .social-media-list, .pagination { display: table; margin: 0 auto; }
 
 .social-media-list li, .pagination li { float: left; min-width: 45px; min-height: 45px; text-align: center; margin: 5px 10px 5px 0; }

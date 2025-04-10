@@ -4,19 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Low-energy dockerfile for WhisperX | notes</title>
+<title>Interesting links, 09/04/2025 | notes</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Low-energy dockerfile for WhisperX" />
+<meta property="og:title" content="Interesting links, 09/04/2025" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="WhisperX is unmaintained, use a fork that at least pays attention to dependencies." />
-<meta property="og:description" content="WhisperX is unmaintained, use a fork that at least pays attention to dependencies." />
-<link rel="canonical" href="https://jimregan.github.io/notes/docker/laziness/whisperx/2025/04/07/robospatial-lowenergy-docker.html" />
-<meta property="og:url" content="https://jimregan.github.io/notes/docker/laziness/whisperx/2025/04/07/robospatial-lowenergy-docker.html" />
+<meta name="description" content="Misc. interesting things." />
+<meta property="og:description" content="Misc. interesting things." />
+<link rel="canonical" href="https://jimregan.github.io/notes/links/2025/04/09/misc-links.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/links/2025/04/09/misc-links.html" />
 <meta property="og:site_name" content="notes" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-04-07T00:00:00-05:00" />
+<meta property="article:published_time" content="2025-04-09T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://jimregan.github.io/notes/docker/laziness/whisperx/2025/04/07/robospatial-lowenergy-docker.html","@type":"BlogPosting","headline":"Low-energy dockerfile for WhisperX","dateModified":"2025-04-07T00:00:00-05:00","datePublished":"2025-04-07T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/docker/laziness/whisperx/2025/04/07/robospatial-lowenergy-docker.html"},"description":"WhisperX is unmaintained, use a fork that at least pays attention to dependencies.","@context":"https://schema.org"}</script>
+{"url":"https://jimregan.github.io/notes/links/2025/04/09/misc-links.html","@type":"BlogPosting","headline":"Interesting links, 09/04/2025","dateModified":"2025-04-09T00:00:00-05:00","datePublished":"2025-04-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/links/2025/04/09/misc-links.html"},"description":"Misc. interesting things.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -91,8 +91,8 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Low-energy dockerfile for WhisperX</h1><p class="page-description">WhisperX is unmaintained, use a fork that at least pays attention to dependencies.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-04-07T00:00:00-05:00" itemprop="datePublished">
-        Apr 7, 2025
+    <h1 class="post-title p-name" itemprop="name headline">Interesting links, 09/04/2025</h1><p class="page-description">Misc. interesting things.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-04-09T00:00:00-05:00" itemprop="datePublished">
+        Apr 9, 2025
       </time>
        • <span class="read-time" title="Estimated read time">
     
@@ -104,13 +104,7 @@ window.onload = wrap_img;
     
       <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
-        <a class="category-tags-link" href="/notes/categories/#docker">docker</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/notes/categories/#laziness">laziness</a>
-        &nbsp;
-      
-        <a class="category-tags-link" href="/notes/categories/#whisperx">whisperx</a>
+        <a class="category-tags-link" href="/notes/categories/#links">links</a>
         
       
       </p>
@@ -120,74 +114,43 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-</ul><p>Update of <a href="/notes/docker/laziness/whisperx/2024/10/14/whisperx-lowenergy-docker.html">this</a></p>
+</ul><p><a href="https://ieeexplore.ieee.org/document/675415">Transcribing broadcast news with the 1997 Abbot System</a></p>
 
-<div class="language-docker highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> pytorch/pytorch</span>
-<span class="k">RUN </span>apt update
-<span class="k">RUN </span>apt <span class="nb">install</span> <span class="nt">-y</span> git git-lfs g++
-<span class="k">RUN </span>git lfs <span class="nb">install</span>
-<span class="k">RUN </span>git clone https://github.com/chanhee-luke/RoboSpatial-Eval
-<span class="k">RUN </span>pip <span class="nb">install </span>numpy tqdm pyyaml datasets
-<span class="k">RUN </span>python RoboSpatial-Eval/download_benchmark.py robospatial
-<span class="k">RUN </span>pip <span class="nb">install </span>git+https://github.com/huggingface/transformers
-<span class="k">RUN </span>pip <span class="nb">install </span>llava-torch
-
-<span class="k">COPY</span><span class="s"> config.yaml /workspace/RoboSpatial-Eval</span>
-
-<span class="k">WORKDIR</span><span class="s"> /workspace/RoboSpatial-Eval</span>
-</code></pre></div></div>
-
-<p>With <code class="language-plaintext highlighter-rouge">config.yaml</code>:</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># RoboSpatial Evaluation Configuration</span>
-
-<span class="c1"># Dataset paths</span>
-<span class="na">datasets</span><span class="pi">:</span>
-  <span class="na">robospatial_home</span><span class="pi">:</span>
-    <span class="na">data_dir</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/workspace/robospatial"</span>  <span class="c1"># Root directory containing JSON files and images/ folder</span>
-
-<span class="c1"># Output configuration</span>
-<span class="na">output</span><span class="pi">:</span>
-  <span class="na">output_dir</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/results"</span>  <span class="c1"># Full path to where results will be stored</span>
-</code></pre></div></div>
-
-<p>Run with:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-it</span> <span class="nt">--entrypoint</span> /bin/bash <span class="nt">-v</span><span class="s1">'/home/joregan/rs_results:/results'</span> <span class="nt">--gpus</span> all robospatial
-</code></pre></div></div>
+<p><a href="https://ieeexplore.ieee.org/document/596007">Transcription of broadcast television and radio news: the 1996 ABBOT system</a></p>
 
 
-  </div><a class="u-url" href="/notes/docker/laziness/whisperx/2025/04/07/robospatial-lowenergy-docker.html" hidden></a>
+  </div><a class="u-url" href="/notes/links/2025/04/09/misc-links.html" hidden></a>
 </article>
 
       </div>
     </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 
 <footer class="site-footer h-card">
-  <data class="u-url" href="/notes/"></data>
+  <data class="u-url" value="/notes/"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="https://jimregan.github.io/notes/feed.xml">
-            <svg class="svg-icon orange">
-              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
-                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
-                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
-                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
-              />
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
       </div>
       <div class="footer-col">
         <p>Things I know I&#39;ll forget</p>
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"></ul>
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
 </div>
 
   </div>
