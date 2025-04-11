@@ -1,5 +1,5 @@
 Create run_molmo.py by jimregan · Pull Request #1 · annadeichler/mm-conv-code
-https://github.com/annadeichler/mm-conv-code/pull/1/files
+https://github.com/annadeichler/mm-conv-code/pull/1/files#diff-27f917e3c141ea66aa20dcc779f61143325a2e8425e1348876dde4cde95b2806
 
 sam_utils.py · annadeichler/mm-conv-code@eeebdf5
 https://github.com/annadeichler/mm-conv-code/commit/eeebdf513d3da5bea451ff503499035fce036da4
@@ -352,40 +352,43 @@ https://github.com/haotian-liu/LLaVA/blob/main/llava/conversation.py
 MultimodalReferencing - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67f4d6ce7935f83576542741
 
-jimregan/notes
-https://github.com/jimregan/notes
+HMM Speech Synthesis
+https://chatgpt.com/c/67f8dd3d-c040-8011-aacb-3598ba63d5bf
 
-notes | Things I know I’ll forget
-https://jimregan.github.io/notes/
+sample - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/67f8ddd1dcda651396414bfc
 
-Extract context | notes
-https://jimregan.github.io/notes/hsi/json/2025/04/09/extract_context.html
+Argparse Model Processor Paths
+https://chatgpt.com/c/67f8e173-c61c-8011-99b0-d2d60597fa4f
 
-Disney Style Summary
-https://chatgpt.com/c/67f7ef5a-a544-8011-aac9-f81eaf9e628a
+Object Detection Bounding Boxes
+https://chatgpt.com/c/67f8fba6-8180-8011-a5df-c2497ac0ae98
 
-Python List sort() Method
-https://www.w3schools.com/python/ref_list_sort.asp
+Annotate 2D or 3D bounding boxes on 2D or 3D images
+https://annotate.photo/
 
-OpenSMILE to Librosa
-https://chatgpt.com/c/67f80186-aba0-8011-b17b-e10214e9adaf
+Annotate 2D bounding boxes around objects on images online for free
+https://2d-on-2d.annotate.photo/
 
-Object Bounding Box Coordinates
-https://chatgpt.com/c/67f80656-db60-8011-bcbb-d5f6894ff072
+Low-energy dockerfile for Molmo | notes
+https://jimregan.github.io/notes/docker/laziness/molmo/hsi/2025/04/09/molmo-lowenergy-docker.html
 
-pdf
-https://openreview.net/pdf?id=F7mdgA7c2zD
+Specialized Configurations with Docker — NVIDIA Container Toolkit
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html
 
-ImageMagick or another approach: How to find the coordinates of the centre of an object in an image? - Stack Overflow
-https://stackoverflow.com/questions/67643402/imagemagick-or-another-approach-how-to-find-the-coordinates-of-the-centre-of-an
+gpt 4o object detection - Google Search
+https://www.google.com/search?q=gpt+4o+object+detection&rlz=1C5GCCM_en&oq=gpt+4o+object&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgcIBxAAGO8FMgoICBAAGKIEGIkFMgoICRAAGKIEGIkF0gEJMTA5OTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-ChatGPT
-https://chatgpt.com/
+Different Approaches to Object Detection Using GPT-4 Vision | by Kshitiz agarwal | Medium
+https://medium.com/@kshitiz2708agarwal/different-approaches-to-object-detection-using-gpt-4-vision-71169c9b97bb
 
-docker container attach | Docker Docs
-https://docs.docker.com/reference/cli/docker/container/attach/
+GPT-4o: The Comprehensive Guide and Explanation
+https://blog.roboflow.com/gpt-4o-vision-use-cases/
 
-Object Bounding Box Coordinates
-https://chatgpt.com/c/67f80656-db60-8011-bcbb-d5f6894ff072
+The image recognition capabilities of GPT-4o are really impressive : r/ChatGPT
+https://www.reddit.com/r/ChatGPT/comments/1d8o8jg/the_image_recognition_capabilities_of_gpt4o_are/
+
+john-carroll-sw/gpt-4o-object-detection-in-image-folder: OpenAI console app with logging per image processed, its response, and end-to-end request time
+https://github.com/john-carroll-sw/gpt-4o-object-detection-in-image-folder
 
 
