@@ -1,78 +1,86 @@
-import os
 import json
 import pandas as pd
 from pathlib import Path
+import re
 
+# === Config ===
 TSV_PATH = Path("/home/deichler/data/sgs_recordings/hsi/word_annotations/main/")
-INPUT_JSON = Path("/shared/mm_conv/meta_final_set/wutt/meta_pronomial_single_wutt.json")   # 👈 Replace this
-OUTPUT_JSON = Path("meta_pronomial_single_wutt.json")  # 👈 Replace this
+INPUT_JSON = Path("/path/to/input.json")     # <-- Change this
+OUTPUT_JSON = Path("/path/to/output.json")   # <-- Change this
 
-HIGHLIGHT_WRAP = '<span style="background-color: yellow;">{}</span>'
+HIGHLIGHT = '<span style="background-color: yellow;">{}</span>'
 
-# Load segments
+# === Normalize Helper ===
+def normalize(word):
+    return re.sub(r"[^\w']", "", word.lower())
+
+# === Load Input ===
 with open(INPUT_JSON, "r") as f:
     segments = json.load(f)
 
-# Cache for TSVs
+# === TSV Cache ===
 tsv_cache = {}
 
-# Normalization helper
-def normalize(text):
-    return text.strip().lower().strip(".,!?;:\"'`")
-
-# Apply highlighting to the correct span based on timing
 for seg_id, seg in segments.items():
     rec_id = seg["recording_id"]
-    phrase_start = seg["timing"]["phrase_start"]
-    phrase_end = seg["timing"]["phrase_end"]
+    start_time = seg["timing"]["phrase_start"]
+    end_time = seg["timing"]["phrase_end"]
     utterance = seg["utterance"]
 
-    # Load TSV if needed
+    # --- Load TSV ---
     if rec_id not in tsv_cache:
         tsv_file = TSV_PATH / f"{rec_id}_main.tsv"
         if not tsv_file.exists():
-            print(f"⚠️ Missing TSV file for {rec_id}")
+            print(f"[WARN] Missing TSV for {rec_id}")
             continue
-        tsv_cache[rec_id] = pd.read_csv(tsv_file, sep="\t", names=["start", "end", "word"])
+        df = pd.read_csv(tsv_file, sep="\t", names=["start", "end", "word"])
+        tsv_cache[rec_id] = df
+    else:
+        df = tsv_cache[rec_id]
 
-    df = tsv_cache[rec_id]
+    # --- Get tokens for this phrase based on time ---
+    phrase_df = df[(df["start"] >= start_time) & (df["end"] <= end_time)].reset_index(drop=True)
 
-    # Get word tokens that match the phrase timing
-    phrase_df = df[(df["start"] >= phrase_start) & (df["end"] <= phrase_end)].reset_index(drop=True)
-    phrase_tokens = phrase_df["word"].tolist()
-    if not phrase_tokens:
-        print(f"⚠️ No matched tokens for {seg_id} in {rec_id}")
+    if phrase_df.empty:
+        print(f"[WARN] No words found in timing range for seg {seg_id}")
         continue
 
-    norm_phrase = [normalize(w) for w in phrase_tokens]
+    phrase_tokens = phrase_df["word"].tolist()
+    norm_phrase = [normalize(w) for w in phrase_tokens if w.strip()]
 
-    # Tokenize and normalize the utterance
+    if not norm_phrase:
+        print(f"[WARN] Normalized phrase empty for seg {seg_id}")
+        continue
+
+    # --- Tokenize utterance and normalize ---
     orig_tokens = utterance.split()
-    norm_tokens = [normalize(w) for w in orig_tokens]
+    norm_tokens = [normalize(tok) for tok in orig_tokens]
 
-    # Try to find the exact match sequence in normalized tokens
-    match_idx = -1
+    # --- Try to locate exact sequence ---
+    found = False
     for i in range(len(norm_tokens) - len(norm_phrase) + 1):
         if norm_tokens[i:i+len(norm_phrase)] == norm_phrase:
-            match_idx = i
+            # Found match
+            span = orig_tokens[i:i+len(norm_phrase)]
+            highlighted = HIGHLIGHT.format(" ".join(span))
+            new_utterance = (
+                " ".join(orig_tokens[:i]) + " " +
+                highlighted + " " +
+                " ".join(orig_tokens[i+len(norm_phrase):])
+            ).strip()
+            seg["utterance"] = re.sub(r"\s+", " ", new_utterance)
+            found = True
             break
 
-    if match_idx == -1:
-        print(f"⚠️ Could not align phrase '{' '.join(phrase_tokens)}' with utterance in seg {seg_id}")
-        continue
+    if not found:
+        print(f"[WARN] No match found in utterance for seg {seg_id}")
+        print(f"    Phrase: {' '.join(phrase_tokens)}")
+        print(f"    Utterance: {utterance}")
+        print(f"    Normalized Phrase: {norm_phrase}")
 
-    # Wrap the matched range in the original token list
-    new_tokens = (
-        orig_tokens[:match_idx]
-        + [HIGHLIGHT_WRAP.format(" ".join(orig_tokens[match_idx:match_idx+len(norm_phrase)]))]
-        + orig_tokens[match_idx+len(norm_phrase):]
-    )
-
-    seg["utterance"] = " ".join(new_tokens)
-
-# Save updated JSON
+# === Write Output ===
 with open(OUTPUT_JSON, "w") as f:
     json.dump(segments, f, indent=2)
 
-print(f"✅ Updated utterances written to: {OUTPUT_JSON}")
+print(f"✅ Done. Output written to {OUTPUT_JSON}")
 
