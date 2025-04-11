@@ -1,9 +1,18 @@
+import logging
 from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
 import argparse
 from datetime import datetime
 from PIL import Image
 import json
 from pathlib import Path
+
+
+def setup_logger():
+    logging.basicConfig(
+        format="%(asctime)s %(levelname)s %(message)s",
+        level=logging.INFO,
+        datefmt="%Y-%m-%d %H:%M:%S"
+    )
 
 
 def build_prompt_orig(utterance):
@@ -24,44 +33,102 @@ def build_prompt_chatgpt(utterance):
     ).format(utterance)
 
 
-def build_prompt(type, utterance, ):
+def build_prompt(type, utterance):
     if type == "first":
         return build_prompt_orig(utterance)
 
 
+def slurp(filename):
+    with open(filename) as f:
+        segment = json.load(f)
+    return segment
+
+
+def get_topic_context(old_json, segment, JSON_PATH, size=None, keep_topic=True):
+    rec_id = segment["recording_id"]
+    orig_seg_id = segment["segment_id"]
+    if not rec_id in old_json:
+        with open(JSON_PATH / f"{rec_id}.json") as inf:
+            old_json[rec_id] = json.load(inf)
+    original = old_json[rec_id]
+    orig_keys = list(original.keys())
+    orig_keys.sort(key=lambda x: int(x))
+    orig_topic = original[orig_seg_id]["high_level"]["current_topic"]
+
+    index = orig_keys.index(orig_seg_id)
+    if size is None:
+        start = 0
+    else:
+        start = index - size
+    ctx_range = orig_keys[start:index]
+
+    if size is not None and len(ctx_range) < size:
+        if int(orig_seg_id) <= size:
+            pass
+        else:
+            print(f"Warning: size of {size} cannot be satisfied: {ctx_range}")
+    
+    topics = [original[x]["high_level"]["current_topic"] for x in ctx_range]
+
+    tmp = []
+    for p in zip(ctx_range, topics):
+        if not keep_topic:
+            tmp.append(original[p[0]]["snippet"])
+        elif keep_topic and p[1] == orig_topic:
+            tmp.append(original[p[0]]["snippet"])
+        else:
+            tmp.append(None)
+    return " ".join([x for x in tmp if x is not None])
+
+
+def get_time_context(tsv_cache, segment, ctx_time = 5.0):
+    rec_id = segment["recording_id"]
+    start = segment["timing"]["utterance_start"]
+
+    if not rec_id in tsv_cache:
+        with open(TSV_PATH / f"{rec_id}_main.tsv") as inf:
+            lines = []
+            for line in inf.readlines():
+                line = line.strip()
+                if "\t" in line:
+                    lines.append(line.split("\t"))
+            tsv_cache[rec_id] = lines
+
+    tsv_times = tsv_cache[rec_id]
+    extract = []
+    for time in tsv_times:
+        s = float(time[0])
+        e = float(time[1])
+        if s >= (start - ctx_time) and (e < start):
+            extract.append(time[2])
+    return " ".join(extract)
+
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Load model and processor with paths.")
-    
-    parser.add_argument('--model_name', type=str, required=True,
-                        help="Name or path of the model to load.")
-    parser.add_argument('--processor_name', type=str, default=None,
-                        help="Optional: Name or path of the processor. Defaults to model_name.")
-    parser.add_argument('--img_path', type=str, default="/results/mm_conv_crowdsourcing_data/images/color",
-                        help="Path to the image directory.")
-    parser.add_argument('--json_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta",
-                        help="Path to the JSON metadata directory.")
-    parser.add_argument('--outpath', type=str, default="/results/molmo_output",
-                        help="Path to the output directory.")
-
+    parser.add_argument('--model_name', type=str, required=True)
+    parser.add_argument('--processor_name', type=str, default=None)
+    parser.add_argument('--img_path', type=str, default="/results/mm_conv_crowdsourcing_data/images/color")
+    parser.add_argument('--json_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
+    parser.add_argument('--annotation_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
+    parser.add_argument('--tsv_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
+    parser.add_argument('--outpath', type=str, default="/results/molmo_output")
     return parser.parse_args()
 
 
 def main():
+    setup_logger()
     args = parse_args()
 
-    # Use model_name if processor_name not provided
     processor_name = args.processor_name or args.model_name
 
-    print(f"[INFO] Model loading started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    # Load processor
+    logging.info("🚀 Starting model load")
     processor = AutoProcessor.from_pretrained(
         processor_name,
         trust_remote_code=True,
         torch_dtype='auto',
         device_map='auto'
     )
-
-    # Load model
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name,
         trust_remote_code=True,
@@ -69,57 +136,54 @@ def main():
         device_map='auto'
     )
 
-    # Convert paths to Path objects
     IMG_PATH = Path(args.img_path)
     JSON_PATH = Path(args.json_path)
     OUTPATH = Path(args.outpath)
-    if not OUTPATH.is_dir():
-        OUTPATH.mkdir()
+    OUTPATH.mkdir(parents=True, exist_ok=True)
 
-    print(f"[INFO] Processor loaded from: {processor_name}")
-    print(f"[INFO] Model loaded from: {args.model_name}")
-    print(f"[INFO] Image path: {IMG_PATH}")
-    print(f"[INFO] JSON path: {JSON_PATH}")
-    print(f"[INFO] Output path: {OUTPATH}")
+    logging.info(f"📦 Processor loaded from: {processor_name}")
+    logging.info(f"🧠 Model loaded from: {args.model_name}")
+    logging.info(f"🖼️ Image path: {IMG_PATH}")
+    logging.info(f"🗂️ JSON path: {JSON_PATH}")
+    logging.info(f"💾 Output path: {OUTPATH}")
 
-    print(f"[INFO] Processing started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    logging.info("🕒 Processing started")
+
+    old_json = {}
+    tsv_cache = {}
+
     for image in IMG_PATH.glob("*.png"):
-        print(f"[INFO] Current image: {image}")
+        logging.info(f"📸 Processing image: {image.name}")
         stem = image.stem
-        with open(str(JSON_PATH / f"{stem.replace('_color', '_meta')}.json")) as jsf:
+        with open(JSON_PATH / f"{stem.replace('_color', '_meta')}.json") as jsf:
             data = json.load(jsf)
-        
+
         utterance = data["utterance"]
         reference = data["phrase"]
         object_name = data["object_name"]
 
-        # process the image and text
         inputs = processor.process(
             images=[Image.open(str(image))],
             text=build_prompt_orig(utterance)
         )
-
-        # move inputs to the correct device and make a batch of size 1
         inputs = {k: v.to(model.device).unsqueeze(0) for k, v in inputs.items()}
 
-        # generate output; maximum 200 new tokens; stop generation when <|endoftext|> is generated
         output = model.generate_from_batch(
             inputs,
             GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
             tokenizer=processor.tokenizer
         )
 
-        # only get generated tokens; decode them to text
-        generated_tokens = output[0,inputs['input_ids'].size(1):]
+        generated_tokens = output[0, inputs['input_ids'].size(1):]
         generated_text = processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
 
         data["generated_answer"] = generated_text
 
-        print(f"[INFO] Writing results")
         with open(OUTPATH / f"{stem}.json", "w") as outf:
             json.dump(data, outf)
+        logging.info("📝 Output written")
 
-    print(f"[INFO] Processing ended at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    logging.info("✅ Processing completed")
 
 
 if __name__ == "__main__":
