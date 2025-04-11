@@ -346,9 +346,6 @@ https://www.overleaf.com/project/67f4d6ce7935f83576542741
 Low-energy dockerfile for Molmo | notes
 https://jimregan.github.io/notes/docker/laziness/molmo/hsi/2025/04/09/molmo-lowenergy-docker.html
 
-gpt 4o object detection - Google Search
-https://www.google.com/search?q=gpt+4o+object+detection&rlz=1C5GCCM_en&oq=gpt+4o+object&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgcIBxAAGO8FMgoICBAAGKIEGIkFMgoICRAAGKIEGIkF0gEJMTA5OTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 Different Approaches to Object Detection Using GPT-4 Vision | by Kshitiz agarwal | Medium
 https://medium.com/@kshitiz2708agarwal/different-approaches-to-object-detection-using-gpt-4-vision-71169c9b97bb
 
@@ -388,26 +385,8 @@ https://arxiv.org/abs/2311.06242
 Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models
 https://huggingface.co/blog/finetune-florence2
 
-New Tab
-chrome://newtab/
-
 pdf
 https://openreview.net/pdf?id=F7mdgA7c2zD
-
-florence 2 prompting - Google Search
-https://www.google.com/search?q=florence+2+prompting&rlz=1C5GCCM_en&oq=florence+2+prompting&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBwgFEAAY7wUyCggGEAAYgAQYogQyBwgHEAAY7wUyBwgIEAAY7wXSAQg0NjAyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Florence-2
-https://florence-2.com/
-
-What is Florence-2 | Florence-2
-https://florence-2.com/posts/What-is-Florence-2/
-
-Florence-2: How it works and how to use it
-https://www.assemblyai.com/blog/florence-2-how-it-works-how-to-use
-
-Florence-2: How it works and how to use it
-https://www.assemblyai.com/blog/florence-2-how-it-works-how-to-use
 
 sample_inference.ipynb · microsoft/Florence-2-large at main
 https://huggingface.co/microsoft/Florence-2-large/blob/main/sample_inference.ipynb
@@ -417,5 +396,59 @@ https://www.google.com/search?q=florence+2+text+encoder&rlz=1C5GCCM_en&oq=floren
 
 Florence2 Inference — vLLM
 https://docs.vllm.ai/en/v0.7.0/getting_started/examples/florence2_inference.html
+
+Aria Everyday Activities Dataset | Project Aria Docs
+https://facebookresearch.github.io/projectaria_tools/docs/open_datasets/aria_everyday_activities_dataset
+
+facebookresearch/nymeria_dataset: Nymeria: a massive collection of multimodal egocentric daily motion in the wild
+https://github.com/facebookresearch/nymeria_dataset
+
+Python Pretty Print JSON | DigitalOcean
+https://www.digitalocean.com/community/tutorials/python-pretty-print-json
+
+UX-Decoder/LLaVA-Grounding
+https://github.com/UX-Decoder/LLaVA-Grounding?tab=readme-ov-file
+
+UX-Decoder/LLaVA-Grounding
+https://github.com/UX-Decoder/LLaVA-Grounding/tree/main?tab=readme-ov-file
+
+LLaVA-Grounding/docs/MODEL_ZOO.md at main · UX-Decoder/LLaVA-Grounding
+https://github.com/UX-Decoder/LLaVA-Grounding/blob/main/docs/MODEL_ZOO.md
+
+LLaVA-Grounding/README.md at main · UX-Decoder/LLaVA-Grounding
+https://github.com/UX-Decoder/LLaVA-Grounding/blob/main/README.md
+
+config.json · Haozhangcx/llava_grounding_gd_vp at main
+https://huggingface.co/Haozhangcx/llava_grounding_gd_vp/blob/main/config.json
+
+LLaVA-Grounding
+https://llava-vl.github.io/llava-grounding/
+
+Haozhangcx/llava_grounding_gd_vp · Hugging Face
+https://huggingface.co/Haozhangcx/llava_grounding_gd_vp
+
+Haozhangcx/llava_grounding_gd_vp at main
+https://huggingface.co/Haozhangcx/llava_grounding_gd_vp/tree/main
+
+llava-grounding.deepdataspace.com
+https://llava-grounding.deepdataspace.com/
+
+Downloading models
+https://huggingface.co/docs/hub/en/models-downloading
+
+Download files from the Hub
+https://huggingface.co/docs/huggingface_hub/en/guides/download
+
+Download files from the Hub
+https://huggingface.co/docs/huggingface_hub/en/guides/download
+
+ModuleNotFoundError: No module named 'cv2' - Google Search
+https://www.google.com/search?q=ModuleNotFoundError%3A+No+module+named+%27cv2%27&rlz=1C5GCCM_en&oq=ModuleNotFoundError%3A+No+module+named+%27cv2%27&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHMjIwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Aac - Google Drive
+https://drive.google.com/drive/u/0/folders/1tftUncHuhwTeRQugD90iSmEqoEqZKW26
+
+How do I install Python OpenCV through Conda? - Stack Overflow
+https://stackoverflow.com/questions/23119413/how-do-i-install-python-opencv-through-conda
 
 
