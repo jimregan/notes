@@ -3,7 +3,8 @@ from pathlib import Path
 
 TSV_PATH = Path("/home/joregan/updated_annotations/word_annotations")
 JSON_PATH = Path("/home/joregan/updated_annotations/final_resolved")
-INPUT_PATH = Path("/home/deichler/mm_conv_crowdsourcing_data/final_set")
+#INPUT_PATH = Path("/home/deichler/mm_conv_crowdsourcing_data/final_set")
+INPUT_PATH = Path("/shared/mm_conv/meta_final_set")
 OUTPUT_PATH = Path("/home/joregan/mm_conv_crowdsourcing_data_context")
 
 if not OUTPUT_PATH.is_dir():
@@ -82,7 +83,7 @@ for file in INPUT_PATH.glob("*.json"):
         if ctx.strip() == "":
             ctx = get_time_context(segments, seg, 20.0)
             ctx_type = "audio"
-        segments[seg]["context"] = ctx
-        segments[seg]["context_source"] = ctx_type
+        utt = segments[seg]["utterance"]
+        segments[seg]["utterance"] = " ".join([ctx, utt])
     with open(OUTPUT_PATH / file.name, "w") as outf:
         json.dump(segments, outf, indent=2)
