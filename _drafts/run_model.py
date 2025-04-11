@@ -44,11 +44,11 @@ def slurp(filename):
     return segment
 
 
-def get_topic_context(old_json, segment, JSON_PATH, size=None, keep_topic=True):
+def get_topic_context(segment, old_json, json_path, size=None, keep_topic=True):
     rec_id = segment["recording_id"]
     orig_seg_id = segment["segment_id"]
     if not rec_id in old_json:
-        with open(JSON_PATH / f"{rec_id}.json") as inf:
+        with open(json_path / f"{rec_id}.json") as inf:
             old_json[rec_id] = json.load(inf)
     original = old_json[rec_id]
     orig_keys = list(original.keys())
@@ -81,12 +81,12 @@ def get_topic_context(old_json, segment, JSON_PATH, size=None, keep_topic=True):
     return " ".join([x for x in tmp if x is not None])
 
 
-def get_time_context(tsv_cache, segment, ctx_time = 5.0):
+def get_time_context(segment, tsv_cache, tsv_path, ctx_time = 5.0):
     rec_id = segment["recording_id"]
     start = segment["timing"]["utterance_start"]
 
     if not rec_id in tsv_cache:
-        with open(TSV_PATH / f"{rec_id}_main.tsv") as inf:
+        with open(tsv_path / f"{rec_id}_main.tsv") as inf:
             lines = []
             for line in inf.readlines():
                 line = line.strip()
@@ -161,6 +161,12 @@ def main():
         utterance = data["utterance"]
         reference = data["phrase"]
         object_name = data["object_name"]
+        topic_context = get_topic_context(data, old_json, args.json_path, 5)
+        tsv_context = get_time_context(data, tsv_cache, args.tsv_path, 20.0)
+        if topic_context != "":
+            context = topic_context
+        else:
+            context = tsv_context
 
         inputs = processor.process(
             images=[Image.open(str(image))],
