@@ -1,123 +1,78 @@
+import os
 import json
+import pandas as pd
 from pathlib import Path
-import re
 
+TSV_PATH = Path("/home/deichler/data/sgs_recordings/hsi/word_annotations/main/")
+INPUT_JSON = Path("/shared/mm_conv/meta_final_set/wutt/meta_pronomial_single_wutt.json")   # 👈 Replace this
+OUTPUT_JSON = Path("meta_pronomial_single_wutt.json")  # 👈 Replace this
 
-def load_tsv(filename):
-    data = []
-    with open(filename) as inf:
-        for line in inf:
-            parts = line.strip().split("\t")
-            data.append({
-                "start": float(parts[0]),
-                "end": float(parts[1]),
-                "word": parts[2]
-            })
-    return data
+HIGHLIGHT_WRAP = '<span style="background-color: yellow;">{}</span>'
 
+# Load segments
+with open(INPUT_JSON, "r") as f:
+    segments = json.load(f)
 
-def slice_tsv_data(data, start, end):
-    ret = []
-    for datum in data:
-        datum["start"] = float(datum["start"])
-        datum["end"] = float(datum["end"])
-        if datum["start"] >= start and datum["end"] <= end:
-            ret.append(datum)
-        elif datum["end"] > end:
-            return ret
-    return ret
-
-
-def norm_spaces(text):
-    return re.sub("  +", " ", text.strip())
-
-
-def clean_text2(text):
-    nums = {
-        "60": "sixty",
-        "1": "one",
-        "20th": "twentieth",
-        "9th": "ninth",
-        "5": "five"
-    }
-    text = norm_spaces(text)
-    words = [x.lower().strip(".,;?!") for x in text.split(" ")]
-    ret = []
-    for word in words:
-        if word.startswith("[") and word.endswith("]"):
-            continue
-        elif word.startswith("{") and word.endswith("}"):
-            continue
-        word = nums.get(word, word)
-        word = word.replace(".", " ").replace(",", " ")
-        ret.append(word)
-    return " ".join(ret)
-
-
-def get_indices(needle, haystack, checkpos=True):
-    ret = []
-    nwords = [x.lower().strip(",?.;:()") for x in needle.split(" ")]
-    hwords = [x.lower().strip(",?.;:") for x in haystack.split(" ")]
-    nwordspos = nwords[:-1] + [f"{nwords[-1]}'s"]
-    nlen = len(nwords)
-
-    for i in range(len(hwords)):
-        if hwords[i:i+nlen] == nwords:
-            ret.append((i, i+nlen))
-        elif checkpos and hwords[i:i+nlen] == nwordspos:
-            ret.append((i, i+nlen))
-    return ret
-
-
-TSV_PATH = Path("/home/joregan/updated_annotations/word_annotations")
-INPUT_PATH = Path("/shared/mm_conv/meta_final_set")
-OUTPUT_PATH = Path("/home/joregan/mm_conv_crowdsourcing_data_context")
-
-if not OUTPUT_PATH.is_dir():
-    OUTPUT_PATH.mkdir()
-
-
+# Cache for TSVs
 tsv_cache = {}
 
+# Normalization helper
+def normalize(text):
+    return text.strip().lower().strip(".,!?;:\"'`")
 
-for file in INPUT_PATH.glob("*.json"):
-    with open(file) as f:
-        segments = json.load(f)
+# Apply highlighting to the correct span based on timing
+for seg_id, seg in segments.items():
+    rec_id = seg["recording_id"]
+    phrase_start = seg["timing"]["phrase_start"]
+    phrase_end = seg["timing"]["phrase_end"]
+    utterance = seg["utterance"]
 
-    for seg in segments:
-        rec_id = segments[seg]["recording_id"]
-
-        if rec_id not in tsv_cache:
-            tsv_path = TSV_PATH / f"{rec_id}_main.tsv"
-            tsv_cache[rec_id] = load_tsv(str(tsv_path))
-        
-        tsv_data = tsv_cache[rec_id]
-
-        start = segments[seg]["timing"]["phrase_start"]
-        end = segments[seg]["timing"]["phrase_end"]
-
-        sliced_tsv = slice_tsv_data(tsv_data, start, end)
-        tsv_text = " ".join([x["word"] for x in sliced_tsv])
-
-        refs = segments[seg]["phrase"]
-        if not refs:
+    # Load TSV if needed
+    if rec_id not in tsv_cache:
+        tsv_file = TSV_PATH / f"{rec_id}_main.tsv"
+        if not tsv_file.exists():
+            print(f"⚠️ Missing TSV file for {rec_id}")
             continue
+        tsv_cache[rec_id] = pd.read_csv(tsv_file, sep="\t", names=["start", "end", "word"])
 
-        indices = {}
-        for ref in refs:
-            indices[ref] = get_indices(ref, segments[seg]["utterance"])
+    df = tsv_cache[rec_id]
 
-        spans = []
-        for ref, idx_list in indices.items():
-            for start_i, end_i in idx_list:
-                spans.append((start_i, end_i))
-        spans = sorted(spans, key=lambda x: x[0])
+    # Get word tokens that match the phrase timing
+    phrase_df = df[(df["start"] >= phrase_start) & (df["end"] <= phrase_end)].reset_index(drop=True)
+    phrase_tokens = phrase_df["word"].tolist()
+    if not phrase_tokens:
+        print(f"⚠️ No matched tokens for {seg_id} in {rec_id}")
+        continue
 
-        words = segments[seg]["utterance"].split()
-        for start_i, end_i in reversed(spans):
-            words[start_i:end_i] = ["<b>" + " ".join(words[start_i:end_i]) + "</b>"]
+    norm_phrase = [normalize(w) for w in phrase_tokens]
 
-        segments[seg]["utterance"] = " ".join(words)
+    # Tokenize and normalize the utterance
+    orig_tokens = utterance.split()
+    norm_tokens = [normalize(w) for w in orig_tokens]
 
-    with open(OUTPUT_PATH / file.name, "w") as outf:
-        json.dump(segments, outf, indent=2)
+    # Try to find the exact match sequence in normalized tokens
+    match_idx = -1
+    for i in range(len(norm_tokens) - len(norm_phrase) + 1):
+        if norm_tokens[i:i+len(norm_phrase)] == norm_phrase:
+            match_idx = i
+            break
+
+    if match_idx == -1:
+        print(f"⚠️ Could not align phrase '{' '.join(phrase_tokens)}' with utterance in seg {seg_id}")
+        continue
+
+    # Wrap the matched range in the original token list
+    new_tokens = (
+        orig_tokens[:match_idx]
+        + [HIGHLIGHT_WRAP.format(" ".join(orig_tokens[match_idx:match_idx+len(norm_phrase)]))]
+        + orig_tokens[match_idx+len(norm_phrase):]
+    )
+
+    seg["utterance"] = " ".join(new_tokens)
+
+# Save updated JSON
+with open(OUTPUT_JSON, "w") as f:
+    json.dump(segments, f, indent=2)
+
+print(f"✅ Updated utterances written to: {OUTPUT_JSON}")
+
