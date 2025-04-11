@@ -84,8 +84,8 @@ for file in INPUT_PATH.glob("*.json"):
     with open(file) as f:
         segments = json.load(f)
 
-    for seg_id, seg in segments.items():
-        rec_id = seg["recording_id"]
+    for seg in segments:
+        rec_id = segments[seg]["recording_id"]
 
         if rec_id not in tsv_cache:
             tsv_path = TSV_PATH / f"{rec_id}_main.tsv"
@@ -93,19 +93,19 @@ for file in INPUT_PATH.glob("*.json"):
         
         tsv_data = tsv_cache[rec_id]
 
-        start = seg["timing"]["phrase_start"]
-        end = seg["timing"]["phrase_end"]
+        start = segments[seg]["timing"]["phrase_start"]
+        end = segments[seg]["timing"]["phrase_end"]
 
         sliced_tsv = slice_tsv_data(tsv_data, start, end)
         tsv_text = " ".join([x["word"] for x in sliced_tsv])
 
-        refs = seg["phrase"]
+        refs = segments[seg]["phrase"]
         if not refs:
             continue
 
         indices = {}
         for ref in refs:
-            indices[ref] = get_indices(ref, seg["utterance"])
+            indices[ref] = get_indices(ref, segments[seg]["utterance"])
 
         spans = []
         for ref, idx_list in indices.items():
@@ -113,11 +113,11 @@ for file in INPUT_PATH.glob("*.json"):
                 spans.append((start_i, end_i))
         spans = sorted(spans, key=lambda x: x[0])
 
-        words = seg["utterance"].split()
+        words = segments[seg]["utterance"].split()
         for start_i, end_i in reversed(spans):
             words[start_i:end_i] = ["<b>" + " ".join(words[start_i:end_i]) + "</b>"]
 
-        seg["utterance"] = " ".join(words)
+        segments[seg]["utterance"] = " ".join(words)
 
     with open(OUTPUT_PATH / file.name, "w") as outf:
         json.dump(segments, outf, indent=2)
