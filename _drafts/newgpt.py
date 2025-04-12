@@ -95,13 +95,6 @@ annotated_image_dir = "/results/annotated_images_ref"
 os.makedirs(annotated_image_dir, exist_ok=True)
 
 
-# JSON files to evaluate
-json_files = [
-    # "meta_exact_single.json",
-    # "meta_part_single.json"
-    "meta_pronomial_single.json",
-]
-
 import os
 import cv2
 from PIL import Image, ImageDraw, ImageFont
@@ -147,8 +140,8 @@ model, tokenizer, image_processor, _, _ = load_pretrained_model(model_path)
 # image_processor = None
 # JSON files to evaluate
 json_files = [
-    "meta_exact_single.json",
-    # # "meta_part_single.json"
+    # "meta_exact_single.json",
+    "meta_part_single.json"
     # "meta_pronomial_single.json",
 ]
 # for json_name in json_files:
@@ -159,7 +152,7 @@ with open(json_path, 'r') as f:
     json_data = json.load(f)
 
 base_name = json_name.replace(".json", "")
-annotated_image_dir = f"./annotated_images/{base_name}"
+annotated_image_dir = f"/results/annotated_images/{base_name}"
 os.makedirs(annotated_image_dir, exist_ok=True)
 
 out_csv = f"{results_dir}/{base_name}_eval.csv"
