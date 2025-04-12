@@ -48,10 +48,11 @@ For the provided image and its associated question, generate only a scene graph 
 3. Object relationships that are relevant to answering the question
 '''
 Use the image and scene graph as context and answer the following prompt:
-The final output should be coordinates of discussed object ("{object_name}") in pixel format [X, Y] from the excerpt as well as scen graph in JSON file.
-
-
-Pinpoint several points within the item ("{object_name}")
+Return up to three points of the object  ("{object_name}") in pixel coordinates.
+Your answer should be formatted as a list of tuples, i.e. [(x1, y1), ...],
+where each tuple contains the x and y coordinates of a point satisfying the
+conditions above. The coordinates should be between 0 and 1, indicating the
+normalized pixel locations of the points.
 Here is the excerpt: "{excerpt}"
 """
 
