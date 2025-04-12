@@ -106,154 +106,33 @@ import os
 import cv2
 from PIL import Image, ImageDraw, ImageFont
 
-def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box):
+def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None, iou=None):
     os.makedirs(output_dir, exist_ok=True)
-
-    # Load color image
-    img = cv2.imread(img_path)
-    if img is None:
-        raise FileNotFoundError(f"Image not found at {img_path}")
-
     image = Image.open(img_path).convert("RGB")
     width, height = image.size
-
-    # Convert normalized bbox to pixel coordinates
-    x1 = bbox_det[0] * width
-    y1 = bbox_det[1] * height
-    x2 = bbox_det[2] * width
-    y2 = bbox_det[3] * height
-    box_width = x2 - x1
-    box_height = y2 - y1
-    
-    
-    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    img_pil = Image.fromarray(img_rgb)
-    draw = ImageDraw.Draw(img_pil)
-
-    try:
-        font = ImageFont.truetype("arial.ttf", 16)
-    except:
-        font = ImageFont.load_default()
-
-    # Draw prompt
-    draw.text((10, 10), f"Prompt: {prompt}", fill="yellow", font=font)
-
-    # Draw detection box in red
-    rect = patches.Rectangle((x1, y1), box_width, box_height,
-                             linewidth=2, edgecolor='red', facecolor='none')
-    ax.add_patch(rect)
-    print(bbox_det)
-    x1 = bbox_det[0] * width
-    y1 = bbox_det[1] * height
-    x2 = bbox_det[2] * width
-    y2 = bbox_det[3] * height
-    box_width = x2 - x1
-    box_height = y2 - y1
-    fig, ax = plt.subplots(1)
-    rect = patches.Rectangle((x1, y1), box_width, box_height,
-                             linewidth=2, edgecolor='yellow', facecolor='none')
-    ax.add_patch(rect)
-    # ax.imshow(image)
-    # if bbox_det is not None:
-    #     x_min, y_min, x_max, y_max = bbox_det
-    #     draw.rectangle([x_min, y_min, x_max, y_max], outline="red", width=2)
-    #     draw.text((bbox_det[0], bbox_det[1] - 10), "Detection", fill="red", font=font)
-
-    # Draw ground truth box in yellow
-    print(gt_box + "Draw")
-    if gt_box is not None:
-        draw.rectangle(gt_box, outline="yellow", width=3)
-        draw.text((gt_box[0], gt_box[1] - 10), "GT", fill="yellow", font=font)
-
-    # Save output
-    # out_path = os.path.join(output_dir, f"{exp_id}_annotated.png")
-    # img_pil.save(out_path)
-    plt.savefig(out_path, bbox_inches='tight', pad_inches=0)
-
-    print(f"✅ Saved: {out_path}")
-    return out_path
-
-def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Load image
-    image = Image.open(img_path).convert("RGB")
-    width, height = image.size
-
-    # Convert normalized bbox to pixel coordinates
-    x1 = bbox_det[0] * width
-    y1 = bbox_det[1] * height
-    x2 = bbox_det[2] * width
-    y2 = bbox_det[3] * height
-
     draw = ImageDraw.Draw(image)
-
     try:
         font = ImageFont.truetype("arial.ttf", 16)
     except:
         font = ImageFont.load_default()
-
     # Draw prompt
     draw.text((10, 10), f"Prompt: {prompt}", fill="yellow", font=font)
-
-    # Draw detection box in red
-    draw.rectangle([x1, y1, x2, y2], outline="red", width=2)
-    draw.text((x1, y1 - 10), "Detection", fill="red", font=font)
-
-    # Draw ground truth box in yellow, if provided
-    if gt_box is not None:
-        gt_x1 = gt_box[0] * width
-        gt_y1 = gt_box[1] * height
-        gt_x2 = gt_box[2] * width
-        gt_y2 = gt_box[3] * height
-        draw.rectangle([gt_x1, gt_y1, gt_x2, gt_y2], outline="yellow", width=2)
-        draw.text((gt_x1, gt_y1 - 10), "GT", fill="yellow", font=font)
-
-    # Save output
-    out_path = os.path.join(output_dir, f"{exp_id}_annotated.png")
-    image.save(out_path)
-
-    print(f"✅ Saved: {out_path}")
-    return out_path
-
-from PIL import ImageDraw
-
-def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box):
-    os.makedirs(output_dir, exist_ok=True)
-
-    image = Image.open(img_path).convert("RGB")
-    width, height = image.size
-
-    # Convert normalized bbox to pixel coordinates
-    x1 = bbox_det[0] * width
-    y1 = bbox_det[1] * height
-    x2 = bbox_det[2] * width
-    y2 = bbox_det[3] * height
-
-    draw = ImageDraw.Draw(image)
-
-    # Draw prompt
-    try:
-        font = ImageFont.truetype("arial.ttf", 16)
-    except:
-        font = ImageFont.load_default()
-    draw.text((10, 10), f"Prompt: {prompt}", fill="yellow", font=font)
-
-    # Draw predicted box (in red)
+    # Draw predicted box (red)
+    x1, y1, x2, y2 = bbox_det
     draw.rectangle([x1, y1, x2, y2], outline="red", width=3)
-
-    # Draw GT box (optional, in green)
+    draw.text((x1, y1 - 15), "Detection", fill="red", font=font)
+    # Draw GT box (yellow)
     if gt_box:
-        x1_gt = gt_box[0]
-        y1_gt = gt_box[1]
-        x2_gt = gt_box[2]
-        y2_gt = gt_box[3]
-        draw.rectangle([x1_gt, y1_gt, x2_gt, y2_gt], outline="yellow", width=3)
-
-    # Save result
+        gx1, gy1, gx2, gy2 = gt_box
+        draw.rectangle([gx1, gy1, gx2, gy2], outline="yellow", width=3)
+        draw.text((gx1, gy1 - 15), "GT", fill="yellow", font=font)
+    # Draw IoU score (bottom left corner or elsewhere)
+    if iou is not None:
+        draw.text((10, height - 30), f"IoU: {iou:.3f}", fill="white", font=font)
     output_path = os.path.join(output_dir, f"{exp_id}.png")
     image.save(output_path)
-    print("Saved")
+    print(f":white_tick: Saved: {output_path}")
+    return output_path
 
 
 thresholds = [0.3, 0.5]
