@@ -147,7 +147,7 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
 thresholds = [0.3, 0.5]
 
 
-model_path = "/ckpt"
+model_path = "/ckpt/GroundingGPT"
 temperature = 0.2
 max_new_tokens = 512
 
