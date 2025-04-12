@@ -1,5 +1,5 @@
-mm-conv-code/mm_conv/utils/sam_utils.py at dev · annadeichler/mm-conv-code
-https://github.com/annadeichler/mm-conv-code/blob/dev/mm_conv/utils/sam_utils.py
+sam_utils.py · annadeichler/mm-conv-code@eeebdf5
+https://github.com/annadeichler/mm-conv-code/commit/eeebdf513d3da5bea451ff503499035fce036da4
 
 sam_utils.py · annadeichler/mm-conv-code@eeebdf5
 https://github.com/annadeichler/mm-conv-code/commit/eeebdf513d3da5bea451ff503499035fce036da4
@@ -250,9 +250,6 @@ https://wfgasxbbr5.cognition.run/
 The detected CUDA version (11.8) mismatches the version that was used to compile PyTorch (12.1). Please make sure to use the same CUDA versions · Issue #1453 · vllm-project/vllm
 https://github.com/vllm-project/vllm/issues/1453
 
-Google Drive - Apps on Google Play
-https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en&pli=1
-
 FPRC — Bibliography of Disfluency in Spontaneous Speech (DiSS) papers
 https://filledpause.org/diss/all/
 
@@ -344,189 +341,69 @@ MultimodalReferencing - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67f4d6ce7935f83576542741
 
 Multimodal Referencing: Grounding Generative Models in Situated Communication
-file:///Users/joregan/Downloads/MultimodalReferencing%20(6).pdf
-
-Multimodal Referencing: Grounding Generative Models in Situated Communication
-file:///Users/joregan/Downloads/MultimodalReferencing%20(4).pdf
-
-Multimodal Referencing: Grounding Generative Models in Situated Communication
-file:///Users/joregan/Downloads/MultimodalReferencing%20(2).pdf
-
-Low-energy dockerfile for Molmo | notes
-https://jimregan.github.io/notes/docker/laziness/molmo/hsi/2025/04/09/molmo-lowenergy-docker.html
-
-Different Approaches to Object Detection Using GPT-4 Vision | by Kshitiz agarwal | Medium
-https://medium.com/@kshitiz2708agarwal/different-approaches-to-object-detection-using-gpt-4-vision-71169c9b97bb
-
-GPT-4o: The Comprehensive Guide and Explanation
-https://blog.roboflow.com/gpt-4o-vision-use-cases/
-
-john-carroll-sw/gpt-4o-object-detection-in-image-folder: OpenAI console app with logging per image processed, its response, and end-to-end request time
-https://github.com/john-carroll-sw/gpt-4o-object-detection-in-image-folder
-
-gpt-4o-object-detection-in-image-folder/SamplePrompt.txt at main · john-carroll-sw/gpt-4o-object-detection-in-image-folder
-https://github.com/john-carroll-sw/gpt-4o-object-detection-in-image-folder/blob/main/SamplePrompt.txt
-
-Image Object Description
-https://chatgpt.com/c/67f8fef0-8768-8011-b16b-c08b27414aca
-
-RoboSpatial-Eval/models.py at master · chanhee-luke/RoboSpatial-Eval
-https://github.com/chanhee-luke/RoboSpatial-Eval/blob/master/models.py
-
-microsoft/Florence-2-large · Hugging Face
-https://huggingface.co/microsoft/Florence-2-large
-
-anyantudre/Florence-2-Vision-Language-Model: Florence-2 is a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks.
-https://github.com/anyantudre/Florence-2-Vision-Language-Model
-
-Florence-2-Vision-Language-Model/1. Florence-2 sample inference.ipynb at main · anyantudre/Florence-2-Vision-Language-Model
-https://github.com/anyantudre/Florence-2-Vision-Language-Model/blob/main/1.%20Florence-2%20sample%20inference.ipynb
-
-Florence-2-Vision-Language-Model/2. Data auto-labelling with Florence-2.ipynb at main · anyantudre/Florence-2-Vision-Language-Model
-https://github.com/anyantudre/Florence-2-Vision-Language-Model/blob/main/2.%20Data%20auto-labelling%20with%20Florence-2.ipynb
-
-[2311.06242] Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks
-https://arxiv.org/abs/2311.06242
-
-pdf
-https://openreview.net/pdf?id=F7mdgA7c2zD
-
-LLaVA-Grounding/README.md at main · UX-Decoder/LLaVA-Grounding
-https://github.com/UX-Decoder/LLaVA-Grounding/blob/main/README.md
-
-Update README.md · UX-Decoder/LLaVA-Grounding@668b7cc
-https://github.com/UX-Decoder/LLaVA-Grounding/commit/668b7cc3d536ee721d09d04eeff56f8221d72e62
-
-Issues · UX-Decoder/LLaVA-Grounding
-https://github.com/UX-Decoder/LLaVA-Grounding/issues
-
-Could you please release the checkpoints for stages 1 and 2? · Issue #13 · UX-Decoder/LLaVA-Grounding
-https://github.com/UX-Decoder/LLaVA-Grounding/issues/13
-
-fundamentalvision/Deformable-DETR: Deformable DETR: Deformable Transformers for End-to-End Object Detection.
-https://github.com/fundamentalvision/Deformable-DETR
-
-mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py · akhaliq/Mask2Former at 015a983f4c216a4335f27612a6990955f98f414b
-https://huggingface.co/spaces/akhaliq/Mask2Former/blob/015a983f4c216a4335f27612a6990955f98f414b/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py
-
-Bold Reference Phrases
-https://chatgpt.com/c/67f959c0-eb3c-8011-a203-7984d1f35a73
-
-Process annotated JSON | notes
-https://jimregan.github.io/notes/json/hsi/2025/04/06/read-annotated-json-try2.html
-
-python - Getting the index of the returned max or min item using max()/min() on a list - Stack Overflow
-https://stackoverflow.com/questions/2474015/getting-the-index-of-the-returned-max-or-min-item-using-max-min-on-a-list
-
-Gpt-4 vision few shot prompting with images - API - OpenAI Developer Community
-https://community.openai.com/t/gpt-4-vision-few-shot-prompting-with-images/698188/5
-
-LLaVA/llava/model/multimodal_encoder/clip_encoder.py at main · haotian-liu/LLaVA
-https://github.com/haotian-liu/LLaVA/blob/main/llava/model/multimodal_encoder/clip_encoder.py
-
-New Tab
-chrome://newtab/
-
-raw.githubusercontent.com/lzw-lzw/GroundingGPT/refs/heads/main/lego/serve/cli.py
-https://raw.githubusercontent.com/lzw-lzw/GroundingGPT/refs/heads/main/lego/serve/cli.py
-
-lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
-https://github.com/lzw-lzw/GroundingGPT/tree/main
-
-zwli/GroundingGPT · Hugging Face
-https://huggingface.co/zwli/GroundingGPT
-
-zwli/GroundingGPT · Hugging Face
-https://huggingface.co/zwli/GroundingGPT
-
-zwli/GroundingGPT · Hugging Face
-https://huggingface.co/zwli/GroundingGPT
-
-zwli/GroundingGPT · Hugging Face
-https://huggingface.co/zwli/GroundingGPT
-
-star wars death march - Google Search
-https://www.google.com/search?q=star+wars+death+march&rlz=1C5GCCM_en&oq=star+wars+death+march&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzk4MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:9520ca65,vid:vsMWVW4xtwI,st:0
-
-CLIPVisionTower Attribute Error
-https://chatgpt.com/c/67f9acf9-6b1c-8011-84e2-325a8b1086d5
-
-DAMO-NLP-SG/Video-LLaMA-2-7B-Pretrained · Hugging Face
-https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-7B-Pretrained
-
-DAMO-NLP-SG/VideoLLaMA3: Frontier Multimodal Foundation Models for Image and Video Understanding
-https://github.com/DAMO-NLP-SG/VideoLLaMA3
-
-How To Set Filesystem Quotas on Ubuntu 20.04 | DigitalOcean
-https://www.digitalocean.com/community/tutorials/how-to-set-filesystem-quotas-on-ubuntu-20-04
-
-Code search results
-https://github.com/search?q=repo%3Awentaoyuan%2FRoboPoint%20prompt&type=code
-
-chanhee-luke/RoboSpatial-Home · Datasets at Hugging Face
-https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home
-
-chipmunks cover songs - Google Search
-https://www.google.com/search?q=chipmunks+cover+songs&rlz=1C5GCCM_en&oq=chipmunks+cover+songs&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTIHCAQQABjvBTIKCAUQABiiBBiJBTIHCAYQABjvBdIBCDkzOTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-RoboPoint/robopoint/conversation.py at 0a218933c3f4b02b9c108b336f04602dbea38757 · wentaoyuan/RoboPoint
-https://github.com/wentaoyuan/RoboPoint/blob/0a218933c3f4b02b9c108b336f04602dbea38757/robopoint/conversation.py
-
-LLaVA-NeXT/llava at main · LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main/llava
-
-LLaVA-NeXT/llava/conversation.py at main · LLaVA-VL/LLaVA-NeXT
-https://github.com/LLaVA-VL/LLaVA-NeXT/blob/main/llava/conversation.py
-
-LLaVA/llava/eval/run_llava.py at main · haotian-liu/LLaVA
-https://github.com/haotian-liu/LLaVA/blob/main/llava/eval/run_llava.py
-
-pip install requirements.txt - Google Search
-https://www.google.com/search?q=pip+install+requirements.txt&rlz=1C5GCCM_en&oq=pip+install&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyCQgAEEUYORiABDIOCAEQRRgnGDsYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgzMTg2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-Python: Best way to add to sys.path relative to the current running script - Stack Overflow
-https://stackoverflow.com/questions/8663076/python-best-way-to-add-to-sys-path-relative-to-the-current-running-script
-
-Import Error Debugging
-https://chatgpt.com/c/67f9dee1-2324-8011-a243-80ff45d15259
-
-Call for Regular Papers | 2025 ACM Multimedia
-https://acmmm2025.org/call-for-papers/
-
-LEGO-7B huggingface - Google Search
-https://www.google.com/search?q=LEGO-7B+huggingface&sca_esv=a517701683df052c&rlz=1C5GCCM_en&sxsrf=AHTn8zoSevSEiktjIVGGGDqfySYu2P-xNA%3A1744430566323&ei=5uX5Z6i8E4GmwPAPn7Cv-QM&ved=0ahUKEwiox_ahztGMAxUBExAIHR_YKz8Q4dUDCBA&uact=5&oq=LEGO-7B+huggingface&gs_lp=Egxnd3Mtd2l6LXNlcnAiE0xFR08tN0IgaHVnZ2luZ2ZhY2UyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FSPwOUC1YoQ5wAXgBkAEAmAGbAaABjAiqAQQxMC4yuAEDyAEA-AEBmAINoAKpCMICChAAGLADGNYEGEfCAgQQABgewgIGEAAYCBgewgILEAAYgAQYhgMYigXCAgYQABgWGB7CAgUQIRigAcICBxAhGKABGAqYAwCIBgGQBgiSBwQxMS4yoAe7GrIHBDEwLjK4B6QI&sclient=gws-wiz-serp
-
-ViTAE-Transformer/QFormer: The official repo for [TPAMI'23] "Vision Transformer with Quadrangle Attention"
-https://github.com/ViTAE-Transformer/QFormer
-
-New Tab
-chrome://newtab/
-
-[Usage] AttributeError: 'NoneType' object has no attribute 'image_mean' · Issue #664 · haotian-liu/LLaVA
-https://github.com/haotian-liu/LLaVA/issues/664
-
-Object Detection Enhancements
-https://chatgpt.com/c/67fa1e99-96fc-8011-8a4c-1a6962e10a72
-
-cuda visible devices - Google Search
-https://www.google.com/search?q=cuda+visible+devices&rlz=1C5GCCM_en&oq=cuda+visib&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEIMjM0OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-The command to pass specific gpu ids to docker run command needs gpu ids in quotes · Issue #11010 · docker/docs
-https://github.com/docker/docs/issues/11010
-
-VLM results table creation
-https://chatgpt.com/c/67fa3354-ba70-8011-9280-23c001d10148
-
-lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
-https://github.com/lzw-lzw/GroundingGPT/tree/main
-
-VLM Results and Context
-https://chatgpt.com/c/67fa3696-4900-8011-b6c8-bff40395887d
-
-GroundingGPT/lego/conversation.py at main · lzw-lzw/GroundingGPT
-https://github.com/lzw-lzw/GroundingGPT/blob/main/lego/conversation.py
+file:///Users/joregan/Downloads/MultimodalReferencing%20(9).pdf
 
 Computing Classification System
 https://dl.acm.org/ccs
+
+ACM CCS XML Generation
+https://chatgpt.com/c/67fa4963-634c-8011-973e-86e80274f036
+
+Information for Authors | 2025 ACM Multimedia
+https://acmmm2025.org/information-for-authors/
+
+mm-conv - Google Search
+https://www.google.com/search?q=mm-conv&rlz=1C5GCCM_en&oq=mm-conv&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAAGIAEMgYIAhAAGB4yBggDEAAYHjIGCAQQABgeMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzc3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+2025 ACM Multimedia | Dublin | Ireland | 27-31 October 2025
+https://acmmm2025.org/
+
+Call for Brave New Ideas | 2025 ACM Multimedia
+https://acmmm2025.org/call-for-brave-new-ideas/
+
+Notifications | OpenReview
+https://openreview.net/notifications
+
+Multimodal Referencing: Grounding Generative Models in Situated Communication | OpenReview
+https://openreview.net/forum?id=Fu0BMPZA88&invitationId=acmmm.org/ACMMM/2025/Conference/Submission6737/-/Full_Submission&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dacmmm.org%2FACMMM%2F2025%2FConference%2FAuthors%23author-tasks)
+
+New Tab
+chrome://newtab/
+
+MultimodalReferencing - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/67f4d6ce7935f83576542741
+
+dblp login - Google Search
+https://www.google.com/search?q=dblp+login&rlz=1C5GCCM_en&oq=dblp+&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM1NjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+dblp: computer science bibliography
+https://dblp.org/
+
+dblp: computer science bibliography
+https://dblp.org/
+
+Venues | OpenReview
+https://openreview.net/
+
+Prime Video: The Wheel of Time - Season 3
+https://www.primevideo.com/region/eu/detail/0O0T3QWQ2OOTT8KCKC1PW233XW/ref=atv_hm_hom_c_vEe97o_brws_2_2?jic=8%7CEgRzdm9k
+
+YouTube
+https://www.youtube.com/
+
+Musk and Trump Lose Big in Wisconsin After Spending Millions to Buy Votes: A Closer Look - YouTube
+https://www.youtube.com/watch?v=0mqOSYMq87M
+
+Tones & Pronunciation Hacks from a Real Student! ft.‪@yimengxuezhongwen‬ #chinesetones #pinyin - YouTube
+https://www.youtube.com/watch?v=S5qIrSNw1FQ
+
+Can Spanish and Italian Speakers ACTUALLY Understand Each Other? - YouTube
+https://www.youtube.com/watch?v=2_3aoK_Cico
+
+I Had Songsterr A.I. TAB Out These Classic Riffs (okay, now I'm scared) - YouTube
+https://www.youtube.com/watch?v=rM4nAZOJoTQ
+
+【Chinese Kung-fu and Aikido】Does “Qin-na” work on the well-trained wrists of Aikido-ka? - YouTube
+https://www.youtube.com/watch?v=-4zmnPQbgac
 
 
