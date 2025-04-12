@@ -11,7 +11,7 @@ import time
 from PIL import Image
 
 # Local utility imports
-sys.path.append(str(Path(__file__).resolve().parents[1] / "mm_conv"))
+# sys.path.append(str(Path(__file__).resolve().parents[1] / "mm_conv"))
 # from mm_conv.utils.detection_utils import check_containment, draw_and_annotate_image,triplet_to_int, draw_and_annotate_image_all, compute_iou_boxes, get_gt_mask, get_bbox_from_mask
 # from mm_conv.utils.sam_utils import reference_detection_dino, phrase_grounding_dino
 
@@ -78,6 +78,73 @@ json_files = [
 import os
 import cv2
 from PIL import Image, ImageDraw, ImageFont
+
+def compute_iou_boxes(box1, box2):
+    """
+    Compute IoU between two bounding boxes.
+    Args:
+        box1: [x_min, y_min, x_max, y_max]
+        box2: [x_min, y_min, x_max, y_max]
+    Returns:
+        IoU (float): Intersection over Union score
+    """
+    x1_min, y1_min, x1_max, y1_max = map(int, box1)
+    x2_min, y2_min, x2_max, y2_max = map(int, box2)
+    # Calculate intersection coordinates
+    inter_x_min = max(x1_min, x2_min)
+    inter_y_min = max(y1_min, y2_min)
+    inter_x_max = min(x1_max, x2_max)
+    inter_y_max = min(y1_max, y2_max)
+    # Compute intersection area
+    inter_width = max(0, inter_x_max - inter_x_min)
+    inter_height = max(0, inter_y_max - inter_y_min)
+    intersection = inter_width * inter_height
+    # Compute areas
+    area1 = (x1_max - x1_min) * (y1_max - y1_min)
+    area2 = (x2_max - x2_min) * (y2_max - y2_min)
+    union = area1 + area2 - intersection
+    if union == 0:
+        return 0.0
+    return intersection / union
+
+def get_gt_mask(img_mask_path):
+    gt_mask = cv2.imread(img_mask_path, cv2.IMREAD_GRAYSCALE)
+    if gt_mask is None:
+        raise ValueError(f"GT mask not found at {img_mask_path}")
+    return (gt_mask > 0).astype(np.uint8)
+
+def get_bbox_from_mask(mask):
+    """
+    Get the tight bounding box [x_min, y_min, x_max, y_max] from a binary mask.
+    """
+    ys, xs = np.where(mask > 0)
+    if len(xs) == 0 or len(ys) == 0:
+        return None
+    x_min, x_max = xs.min(), xs.max()
+    y_min, y_max = ys.min(), ys.max()
+    return [x_min, y_min, x_max, y_max]
+
+def phrase_grounding_dino(img_path, text_prompt):
+    image = Image.open(img_path).convert("RGB")
+    img_width, img_height = image.size
+    task_prompt = "<CAPTION_TO_PHRASE_GROUNDING>"
+
+    results = run_florence2(task_prompt, text_prompt, florence2_model, florence2_processor, image)
+    results = results[task_prompt]
+    print(results)
+
+    if not results["bboxes"]:
+        raise ValueError(f"No bounding boxes found for phrase '{text_prompt}'.")
+
+    # Use the first detected box (assumes best match)
+    return results['bboxes']
+    # bbox = results["bboxes"][0]  # [x_min, y_min, x_max, y_max]
+    # x_min, y_min, x_max, y_max = bbox
+
+    # center_x = float((x_min + x_max) / 2)
+    # center_y = float((y_min + y_max) / 2)
+
+    # return center_x, center_y
 
 def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
     os.makedirs(output_dir, exist_ok=True)
