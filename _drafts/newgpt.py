@@ -263,9 +263,9 @@ temperature = 0.2
 max_new_tokens = 512
 
 model, tokenizer, image_processor, _, _ = load_pretrained_model(model_path)
-model = None
-tokenizer = None
-image_processor = None
+# model = None
+# tokenizer = None
+# image_processor = None
 # JSON files to evaluate
 json_files = [
     "meta_exact_single.json",
@@ -309,7 +309,11 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
             # recording_id = data["recording_id"]
             # ref_object_name = data["object_id"]
             img_color_path = os.path.join(img_base_path, data["image_paths"]["color"])
+            img_color_path = img_color_path.replace("/home/deichler/", "/results/")
+            print("img_color_path", img_color_path)
             img_mask_path = os.path.join(img_base_path, data["image_paths"]["mask"])
+            img_mask_path = img_mask_path.replace("/home/deichler/", "/results/")
+            print("img_mask_path", img_mask_path)
             phrase = data.get("phrase", "")
             utterance = data.get("utterance", "").replace("coach", "couch")
 
@@ -371,7 +375,7 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
             result_entry = {
                 "exp_id": exp_id,
                 "phrase": phrase,
-                "ref_object_id": ref_object_name,
+                "ref_object_id": "None",
                 "px_object_id": "None",
                 "utterance": utterance,
                 "img_color_path": img_color_path,
@@ -403,7 +407,7 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
                 "ref_object_id": data.get("object_id", ""),
                 "px_object_id": "None",
                 "utterance": data.get("utterance", "").replace("coach", "couch"),
-                "img_color_path": data["image_paths"]["color"],
+                "img_color_path": data["image_paths"]["color"].replace("/home/deichler/", "/results/"),
                 "img_mask_path": data["image_paths"]["mask"],
                 "meta_json_path": str(json_path),
                 "iou_matched": False,
