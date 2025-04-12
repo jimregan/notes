@@ -118,7 +118,7 @@ import os
 import cv2
 from PIL import Image, ImageDraw, ImageFont
 
-def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
+def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box):
     os.makedirs(output_dir, exist_ok=True)
 
     # Load color image
@@ -137,9 +137,13 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
     box_width = x2 - x1
     box_height = y2 - y1
     
+    
     img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img_pil = Image.fromarray(img_rgb)
     draw = ImageDraw.Draw(img_pil)
+
+
+    
 
     try:
         font = ImageFont.truetype("arial.ttf", 16)
@@ -153,17 +157,28 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
     rect = patches.Rectangle((x1, y1), box_width, box_height,
                              linewidth=2, edgecolor='red', facecolor='none')
     ax.add_patch(rect)
+    print(bbox_det)
+    x1 = bbox_det[0] * width
+    y1 = bbox_det[1] * height
+    x2 = bbox_det[2] * width
+    y2 = bbox_det[3] * height
+    box_width = x2 - x1
+    box_height = y2 - y1
     fig, ax = plt.subplots(1)
-    ax.imshow(image)
+    rect = patches.Rectangle((x1, y1), box_width, box_height,
+                             linewidth=2, edgecolor='yellow', facecolor='none')
+    ax.add_patch(rect)
+    # ax.imshow(image)
     # if bbox_det is not None:
     #     x_min, y_min, x_max, y_max = bbox_det
     #     draw.rectangle([x_min, y_min, x_max, y_max], outline="red", width=2)
     #     draw.text((bbox_det[0], bbox_det[1] - 10), "Detection", fill="red", font=font)
 
     # Draw ground truth box in yellow
-    # if gt_box is not None:
-    #     draw.rectangle(gt_box, outline="yellow", width=3)
-    #     draw.text((gt_box[0], gt_box[1] - 10), "GT", fill="yellow", font=font)
+    print(gt_box + "Draw")
+    if gt_box is not None:
+        draw.rectangle(gt_box, outline="yellow", width=3)
+        draw.text((gt_box[0], gt_box[1] - 10), "GT", fill="yellow", font=font)
 
     # Save output
     # out_path = os.path.join(output_dir, f"{exp_id}_annotated.png")
@@ -216,6 +231,46 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
     print(f"✅ Saved: {out_path}")
     return out_path
 
+from PIL import ImageDraw
+
+def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box):
+    os.makedirs(output_dir, exist_ok=True)
+
+    image = Image.open(img_path).convert("RGB")
+    width, height = image.size
+
+    # Convert normalized bbox to pixel coordinates
+    x1 = bbox_det[0] * width
+    y1 = bbox_det[1] * height
+    x2 = bbox_det[2] * width
+    y2 = bbox_det[3] * height
+
+    draw = ImageDraw.Draw(image)
+
+    # Draw prompt
+    try:
+        font = ImageFont.truetype("arial.ttf", 16)
+    except:
+        font = ImageFont.load_default()
+    draw.text((10, 10), f"Prompt: {prompt}", fill="yellow", font=font)
+
+    # Draw predicted box (in red)
+    draw.rectangle([x1, y1, x2, y2], outline="red", width=3)
+
+    # Draw GT box (optional, in green)
+    if gt_box:
+        x1_gt = gt_box[0]
+        y1_gt = gt_box[1]
+        x2_gt = gt_box[2]
+        y2_gt = gt_box[3]
+        draw.rectangle([x1_gt, y1_gt, x2_gt, y2_gt], outline="yellow", width=3)
+
+    # Save result
+    output_path = os.path.join(output_dir, f"{exp_id}.png")
+    image.save(output_path)
+    print("Saved")
+
+
 thresholds = [0.3, 0.5]
 
 
@@ -224,10 +279,9 @@ temperature = 0.2
 max_new_tokens = 512
 
 model, tokenizer, image_processor, _, _ = load_pretrained_model(model_path)
-# run_image_prompt(model,tokenizer,image_processor)
-# model = None
-# tokenizer = None
-# image_processor = None
+model = None
+tokenizer = None
+image_processor = None
 # JSON files to evaluate
 json_files = [
     "meta_exact_single.json",
@@ -268,8 +322,8 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
     for exp_id, data in tqdm(json_data.items()):
 
         try:
-            recording_id = data["recording_id"]
-            ref_object_name = data["object_id"]
+            # recording_id = data["recording_id"]
+            # ref_object_name = data["object_id"]
             img_color_path = os.path.join(img_base_path, data["image_paths"]["color"])
             img_mask_path = os.path.join(img_base_path, data["image_paths"]["mask"])
             phrase = data.get("phrase", "")
@@ -323,7 +377,7 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
 
             annotated_img_path = draw_two_boxes(
                 img_path=img_color_path,
-                bbox_det=bbox,
+                bbox_det=gt_box,
                 prompt=f"{phrase}/{utterance}",
                 exp_id=exp_id,
                 output_dir=annotated_image_dir,
@@ -356,7 +410,7 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
 
         except Exception as e:
             print(f"❌ Failed on {exp_id}: {e}")
-            traceback.print_exc()
+            # traceback.print_exc()
 
             # Save failure entry even when crashing
             fail_entry = {
