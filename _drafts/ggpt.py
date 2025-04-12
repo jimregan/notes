@@ -11,11 +11,6 @@ import numpy as np
 import time
 from PIL import Image
 
-# Local utility imports
-sys.path.append(str(Path(__file__).resolve().parents[1] / "mm_conv"))
-# from mm_conv.utils.detection_utils import check_containment, draw_and_annotate_image,triplet_to_int, draw_and_annotate_image_all, compute_iou_boxes, get_gt_mask, get_bbox_from_mask
-# from mm_conv.utils.sam_utils import reference_detection_dino, phrase_grounding_dino
-
 import argparse
 import torch
 from lego.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IMAGE_START_TOKEN, DEFAULT_IMAGE_END_TOKEN
@@ -25,19 +20,12 @@ from lego.mm_utils import tokenizer_image_token, KeywordsStoppingCriteria, load_
 from lego.model.builder import CONFIG, load_pretrained_model
 
 import numpy as np
-import ast  
+import ast
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
 import os
 
-# Local utility imports
-sys.path.append(str(Path(__file__).resolve().parents[1] / "mm_conv"))
-# from mm_conv.utils.detection_utils import (
-#     check_containment, draw_and_annotate_image_all, triplet_to_int,
-#     compute_iou_boxes, get_gt_mask, get_bbox_from_mask
-# )
-# from mm_conv.utils.sam_utils import phrase_grounding_dino
 def get_gt_mask(img_mask_path):
     gt_mask = cv2.imread(img_mask_path, cv2.IMREAD_GRAYSCALE)
     if gt_mask is None:
@@ -98,12 +86,12 @@ def get_bbox_from_mask(mask):
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Shared paths
-data_path = "/shared/mm_conv/analysis/vlm/meta_files/"
-img_base_path = "/home/deichler/mm_conv_crowdsourcing_data/"
-data_path_sc = "/shared/mm_conv/screenshots_1.6/"
-results_dir = "./eval_results"
+data_path = "/results/meta_files/"
+img_base_path = "/results/mm_conv_crowdsourcing_data/"
+data_path_sc = "/results/screenshots_1.6/"
+results_dir = "/results/eval_results"
 os.makedirs(results_dir, exist_ok=True)
-annotated_image_dir = "./annotated_images_ref"
+annotated_image_dir = "/results/annotated_images_ref"
 os.makedirs(annotated_image_dir, exist_ok=True)
 
 
@@ -159,7 +147,7 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None):
 thresholds = [0.3, 0.5]
 
 
-model_path = "./ckpt"
+model_path = "/ckpt"
 temperature = 0.2
 max_new_tokens = 512
 
@@ -182,7 +170,7 @@ with open(json_path, 'r') as f:
     json_data = json.load(f)
 
 base_name = json_name.replace(".json", "")
-annotated_image_dir = f"./annotated_images/{base_name}"
+annotated_image_dir = f"/results/annotated_images/{base_name}"
 os.makedirs(annotated_image_dir, exist_ok=True)
 
 out_csv = f"{results_dir}/{base_name}_eval.csv"
@@ -276,17 +264,14 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
                 iou_scores[i] = max(iou_scores[i], iou)
                 iou_matched_flags[i] = True
 
-
-
         annotated_img_path = draw_two_boxes(
             img_path=img_color_path,
             bbox_det=bbox,
             prompt=f"{phrase}/{utterance}",
             exp_id="",
-            output_dir="./annotated_imgs",
+            output_dir="/results/annotated_imgs",
             gt_box=gt_box
         )
-            
 
         result_entry = {
             "exp_id": exp_id,
@@ -312,7 +297,3 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
         if all(score == 0.0 for score in iou_scores):
             csv_fail_writer.writerow(result_entry)
             csv_fail_file.flush()
-
-
-
-
