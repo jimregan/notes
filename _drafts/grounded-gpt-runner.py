@@ -93,7 +93,7 @@ def plot_points(image_path, points, save_path, utterance=None, phrase=None):
     image.save(save_path)
 
 # Output folder
-output_folder = "./res_groundinggpt"
+output_folder = "/audio/res_groundinggpt"
 os.makedirs(output_folder, exist_ok=True)
 
 # Load your dataset
@@ -127,6 +127,6 @@ for meta_id, data in all_examples.items():
         }
 
 # Save results
-with open("groundinggpt_predictions.json", "w") as f:
+with open("/audio/groundinggpt_predictions.json", "w") as f:
     json.dump(results, f, indent=2)
 
