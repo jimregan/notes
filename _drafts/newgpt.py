@@ -110,14 +110,6 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None, 
     os.makedirs(output_dir, exist_ok=True)
     image = Image.open(img_path).convert("RGB")
     width, height = image.size
-
-    bbox = [
-        bbox[0] * width,
-        bbox[1] * height,
-        bbox[2] * width,
-        bbox[3] * height,
-    ]
-
     draw = ImageDraw.Draw(image)
     try:
         font = ImageFont.truetype("arial.ttf", 16)
@@ -240,8 +232,20 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
             if outputs.endswith(stop_str):
                 outputs = outputs[:-len(stop_str)]
 
-            bbox = np.array(ast.literal_eval(outputs))  # may raise
+            bbox = np.array(ast.literal_eval(outputs))  # may 
+            
 
+            image = Image.open(img_color_path).convert("RGB")
+            width, height = image.size
+            bbox_pi = [
+                bbox[0] * width,
+                bbox[1] * height,
+                bbox[2] * width,
+                bbox[3] * height,
+            ]
+
+            
+            bbox = bbox_pi
             gt_mask = get_gt_mask(img_mask_path)
             gt_box = get_bbox_from_mask(gt_mask)
 
@@ -252,7 +256,7 @@ with open(out_csv, 'w', newline='') as csv_file, open(out_fail, 'w', newline='')
 
             annotated_img_path = draw_two_boxes(
                 img_path=img_color_path,
-                bbox_det=gt_box,
+                bbox_det=bbox,
                 prompt=f"{phrase}/{utterance}",
                 exp_id=exp_id,
                 output_dir=annotated_image_dir,
