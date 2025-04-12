@@ -2,6 +2,7 @@ import os
 import json
 import base64
 import re
+import csv
 from PIL import Image, ImageDraw
 from openai import OpenAI
 
@@ -10,22 +11,28 @@ API_KEY = ""
 client = OpenAI(api_key=API_KEY)
 
 # ✅ Paths
-base_image_dir = "/Users/lubosm/Work/images"
+base_image_dir = "/home/joregan/rs_results/mm_conv_crowdsourcing_data/images/color/"
+csv_file = "success_rows_meta-exact-single-without-history-348.csv"
 output_img_dir = "output_annotated"
 output_json_dir = "scene_graphs"
 os.makedirs(output_img_dir, exist_ok=True)
 os.makedirs(output_json_dir, exist_ok=True)
 
-# ✅ Image metadata: (object_label, user_excerpt, filename)
-image_entries = [
-    ("the furniture", "But eve- but if you wish to actually change the color of the furniture, maybe the brown one, it would be a better choice.", "hsi_7_0719_209_003_39_000_color.png"),
-    ("that lamp", "Yeah, but that is a problem, of course, that lamp will have to be turned off when I watch TV.", "hsi_4_0717_211_001_75_001_color.png"),
-    ("the couch", "yeah, i can understand that because you don't want to sit like this and especially if you lie down on the couch you you want to have it lower so i can see that so thank you that's a great suggestion", "hsi_5_0718_210_002_28_000_color.png"),
-    ("balcony", "put them in the box, and then put the box, just, just throw it off, throw it off, off, off your balcony.", "hsi_6_0718_227_002_106_003_color.png"),
-    ("this lamp", "So I really like this lamp. It's a symbol because I have eh a daughter and I have two granddaughters.", "hsi_5_0718_222_002_66_000_color.png"),
-    ("the badminton rackets", "Also th- this book together with the badminton rackets. Eh, I, That's not placed there by accident. Eh It's actually one of the world's greatest eh badminton players, eh Sarah Nicholson.", "hsi_5_0718_222_002_54_001_color.png"),
-    ("fauteuil", "What {do} you call this one in Swedish eh or in English, fåtölj?", "hsi_5_0718_209_001_1_001_color.png")
-]
+
+def get_entries(csv_file):
+    entries = []
+    with open(csv_file) as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            img_url = row["image_url"]
+            img = img_url.split("/")[-1]
+            # prompt = row["prompt"]
+            utterance = row["utterance"]
+            phrase = row["phrase"]
+            entries.append((phrase, utterance, img))
+    return entries
+
+image_entries = get_entries(csv_file)
 
 # ✅ Utility functions
 def encode_image_base64(image_path):
