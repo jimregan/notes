@@ -10,7 +10,7 @@ from lego.model.builder import CONFIG, load_pretrained_model
 from lego.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IMAGE_START_TOKEN, DEFAULT_IMAGE_END_TOKEN
 
 # Load model once
-model_path = "/workspace/GroundingGPT/ckpt"
+model_path = "/ckpt"
 model, tokenizer, image_processor, _, _ = load_pretrained_model(model_path)
 
 # Prompt builder (same logic as original OpenAI)
