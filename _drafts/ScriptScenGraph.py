@@ -39,10 +39,9 @@ def encode_image_base64(image_path):
     with open(image_path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
-def build_prompt(object_name, excerpt):
+def build_prompt_old(object_name, excerpt):
     return f"""
 An image is (X, Y)=(640, 400).
-For the provided image and its associated question, generate only a scene graph in JSON format that includes the following:
 1. Objects that are relevant to answering the question
 2. Object attributes that are relevant to answering the question
 3. Object relationships that are relevant to answering the question
@@ -55,6 +54,19 @@ conditions above. The coordinates should be between 0 and 1, indicating the
 normalized pixel locations of the points.
 Here is the excerpt: "{excerpt}"
 """
+
+def build_prompt(phrase,utterance, image_width, image_height):
+    return (
+        "You are given an image, a phrase and a utterance. "
+        "The phrase refers to an object visible in the image. "
+        "The utterance provides context for the phrase. "
+        f"The image is {image_width} pixels wide and {image_height} pixels tall. "
+        "Return up to three points of the object in pixel coordinates "
+        "as a list of lists: [[x,y], ...]. "
+        "Only return a list of points, no text or explanation.\n\n"
+        f"Phrase: '{phrase}' in the context of '{utterance}'"
+    )
+
 
 robopoint_footer = (
     "Your answer should be formatted as a list of tuples, i.e. [(x1, y1), ...], "
@@ -84,7 +96,7 @@ def extract_json_from_text(text):
     return None
 
 def call_openai_vision(image_path, object_name, excerpt, max_retries=3):
-    prompt = build_prompt(object_name, excerpt)
+    prompt = build_prompt(object_name, excerpt, "640", "400")
     base64_image = encode_image_base64(image_path)
 
     for attempt in range(max_retries):
