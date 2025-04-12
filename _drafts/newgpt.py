@@ -110,6 +110,14 @@ def draw_two_boxes(img_path, bbox_det, prompt, exp_id, output_dir, gt_box=None, 
     os.makedirs(output_dir, exist_ok=True)
     image = Image.open(img_path).convert("RGB")
     width, height = image.size
+
+    bbox = [
+        bbox[0] * width,
+        bbox[1] * height,
+        bbox[2] * width,
+        bbox[3] * height,
+    ]
+
     draw = ImageDraw.Draw(image)
     try:
         font = ImageFont.truetype("arial.ttf", 16)
