@@ -41,6 +41,7 @@ def encode_image_base64(image_path):
 
 def build_prompt(object_name, excerpt):
     return f"""
+An image is (X, Y)=(640, 400).
 For the provided image and its associated question, generate only a scene graph in JSON format that includes the following:
 1. Objects that are relevant to answering the question
 2. Object attributes that are relevant to answering the question
@@ -48,8 +49,18 @@ For the provided image and its associated question, generate only a scene graph 
 '''
 Use the image and scene graph as context and answer the following prompt:
 The final output should be coordinates of discussed object ("{object_name}") in pixel format [X, Y] from the excerpt as well as scen graph in JSON file.
-He is the excerpt: "{excerpt}"
+
+
+Pinpoint several points within the item ("{object_name}")
+Here is the excerpt: "{excerpt}"
 """
+
+robopoint_footer = (
+    "Your answer should be formatted as a list of tuples, i.e. [(x1, y1), ...], "
+    "where each tuple contains the x and y coordinates of a point satisfying the "
+    "conditions above. The coordinates should be between 0 and 1, indicating the "
+    "normalized pixel locations of the points."
+)
 
 def extract_json_from_text(text):
     """Extracts the first valid JSON object found in a string."""
