@@ -1,5 +1,5 @@
-Create run_molmo.py by jimregan · Pull Request #1 · annadeichler/mm-conv-code
-https://github.com/annadeichler/mm-conv-code/pull/1/files#diff-27f917e3c141ea66aa20dcc779f61143325a2e8425e1348876dde4cde95b2806
+mm-conv-code/mm_conv/utils/sam_utils.py at dev · annadeichler/mm-conv-code
+https://github.com/annadeichler/mm-conv-code/blob/dev/mm_conv/utils/sam_utils.py
 
 sam_utils.py · annadeichler/mm-conv-code@eeebdf5
 https://github.com/annadeichler/mm-conv-code/commit/eeebdf513d3da5bea451ff503499035fce036da4
@@ -344,6 +344,12 @@ MultimodalReferencing - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67f4d6ce7935f83576542741
 
 Multimodal Referencing: Grounding Generative Models in Situated Communication
+file:///Users/joregan/Downloads/MultimodalReferencing%20(6).pdf
+
+Multimodal Referencing: Grounding Generative Models in Situated Communication
+file:///Users/joregan/Downloads/MultimodalReferencing%20(4).pdf
+
+Multimodal Referencing: Grounding Generative Models in Situated Communication
 file:///Users/joregan/Downloads/MultimodalReferencing%20(2).pdf
 
 Low-energy dockerfile for Molmo | notes
@@ -421,8 +427,17 @@ https://github.com/haotian-liu/LLaVA/blob/main/llava/model/multimodal_encoder/cl
 New Tab
 chrome://newtab/
 
-GroundingGPT/lego/model/builder.py at main · lzw-lzw/GroundingGPT
-https://github.com/lzw-lzw/GroundingGPT/blob/main/lego/model/builder.py
+raw.githubusercontent.com/lzw-lzw/GroundingGPT/refs/heads/main/lego/serve/cli.py
+https://raw.githubusercontent.com/lzw-lzw/GroundingGPT/refs/heads/main/lego/serve/cli.py
+
+lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
+https://github.com/lzw-lzw/GroundingGPT/tree/main
+
+zwli/GroundingGPT · Hugging Face
+https://huggingface.co/zwli/GroundingGPT
+
+zwli/GroundingGPT · Hugging Face
+https://huggingface.co/zwli/GroundingGPT
 
 zwli/GroundingGPT · Hugging Face
 https://huggingface.co/zwli/GroundingGPT
@@ -466,28 +481,52 @@ https://github.com/LLaVA-VL/LLaVA-NeXT/blob/main/llava/conversation.py
 LLaVA/llava/eval/run_llava.py at main · haotian-liu/LLaVA
 https://github.com/haotian-liu/LLaVA/blob/main/llava/eval/run_llava.py
 
-llava/conversation.py · LanguageBind/Video-LLaVA at main
-https://huggingface.co/spaces/LanguageBind/Video-LLaVA/blob/main/llava/conversation.py
+pip install requirements.txt - Google Search
+https://www.google.com/search?q=pip+install+requirements.txt&rlz=1C5GCCM_en&oq=pip+install&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyCQgAEEUYORiABDIOCAEQRRgnGDsYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgzMTg2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-pil pip - Google Search
-https://www.google.com/search?q=pil+pip&rlz=1C5GCCM_en&oq=pil+pip&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiRAhiABBiKBTIHCAEQABiABDIJCAIQABgKGIAEMgkIAxAAGAoYgAQyBwgEEAAYgAQyBwgFEAAYgAQyCQgGEAAYChiABDIJCAcQABgKGIAEMg0ICBAAGIYDGIAEGIoFMgcICRAAGO8F0gEJNzI5ODZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Python: Best way to add to sys.path relative to the current running script - Stack Overflow
+https://stackoverflow.com/questions/8663076/python-best-way-to-add-to-sys-path-relative-to-the-current-running-script
 
-rsync directory - Google Search
-https://www.google.com/search?q=rsync+directory&rlz=1C5GCCM_en&oq=rsync+di&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIMCAUQABgUGIcCGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEIMzIzN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+Import Error Debugging
+https://chatgpt.com/c/67f9dee1-2324-8011-a243-80ff45d15259
 
-List of countries and territories where English is an official language - Wikipedia
-https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language
+Call for Regular Papers | 2025 ACM Multimedia
+https://acmmm2025.org/call-for-papers/
 
-Suno | AI Music
-https://suno.com/me
+LEGO-7B huggingface - Google Search
+https://www.google.com/search?q=LEGO-7B+huggingface&sca_esv=a517701683df052c&rlz=1C5GCCM_en&sxsrf=AHTn8zoSevSEiktjIVGGGDqfySYu2P-xNA%3A1744430566323&ei=5uX5Z6i8E4GmwPAPn7Cv-QM&ved=0ahUKEwiox_ahztGMAxUBExAIHR_YKz8Q4dUDCBA&uact=5&oq=LEGO-7B+huggingface&gs_lp=Egxnd3Mtd2l6LXNlcnAiE0xFR08tN0IgaHVnZ2luZ2ZhY2UyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FSPwOUC1YoQ5wAXgBkAEAmAGbAaABjAiqAQQxMC4yuAEDyAEA-AEBmAINoAKpCMICChAAGLADGNYEGEfCAgQQABgewgIGEAAYCBgewgILEAAYgAQYhgMYigXCAgYQABgWGB7CAgUQIRigAcICBxAhGKABGAqYAwCIBgGQBgiSBwQxMS4yoAe7GrIHBDEwLjK4B6QI&sclient=gws-wiz-serp
 
-old scifi movie prison pairs of collars - Google Search
-https://www.google.com/search?sca_esv=b7153bb7f0eb1afc&rlz=1C5GCCM_en&sxsrf=AHTn8zr_N6j4CKRTAtX1UZ276TjqXXTHAw:1744425324819&q=old+scifi+movie+prison+pairs+of+collars&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBkzPWUS0OtApxR2914vrjk4ZqZZ4I2IkJifuoUeV0iQtITiOPPo9tDzmt9ZPGYJiIba3ipclDVbOjJlvTbgEP2s-bkOIhr5ELgbQI8I7zKhriYCgRXaYljMf-YpaNgLRzy2fJ38VbFwBTF_D5ZCA5_SutZQD&sa=X&ved=2ahUKEwiEwsreutGMAxXiLRAIHZf4DcMQtKgLegQIEhAB&biw=1440&bih=728&dpr=2#vhid=r58LEKR4W-taHM&vssid=mosaic
+ViTAE-Transformer/QFormer: The official repo for [TPAMI'23] "Vision Transformer with Quadrangle Attention"
+https://github.com/ViTAE-Transformer/QFormer
 
-User:Jimregan: Revision history - Wikipedia
-https://en.wikipedia.org/w/index.php?title=User:Jimregan&action=history&dir=prev
+New Tab
+chrome://newtab/
 
-lute - Google Search
-https://www.google.com/search?q=lute&rlz=1C5GCCM_en&oq=lute&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAuGEMYgAQYigUyDAgCEAAYQxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIMCAYQABhDGIAEGIoFMgwIBxAAGEMYgAQYigXSAQc2ODRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+[Usage] AttributeError: 'NoneType' object has no attribute 'image_mean' · Issue #664 · haotian-liu/LLaVA
+https://github.com/haotian-liu/LLaVA/issues/664
+
+Object Detection Enhancements
+https://chatgpt.com/c/67fa1e99-96fc-8011-8a4c-1a6962e10a72
+
+cuda visible devices - Google Search
+https://www.google.com/search?q=cuda+visible+devices&rlz=1C5GCCM_en&oq=cuda+visib&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg80gEIMjM0OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+The command to pass specific gpu ids to docker run command needs gpu ids in quotes · Issue #11010 · docker/docs
+https://github.com/docker/docs/issues/11010
+
+VLM results table creation
+https://chatgpt.com/c/67fa3354-ba70-8011-9280-23c001d10148
+
+lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
+https://github.com/lzw-lzw/GroundingGPT/tree/main
+
+VLM Results and Context
+https://chatgpt.com/c/67fa3696-4900-8011-b6c8-bff40395887d
+
+GroundingGPT/lego/conversation.py at main · lzw-lzw/GroundingGPT
+https://github.com/lzw-lzw/GroundingGPT/blob/main/lego/conversation.py
+
+Computing Classification System
+https://dl.acm.org/ccs
 
 
