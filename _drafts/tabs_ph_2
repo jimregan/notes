@@ -241,23 +241,29 @@ https://www.youtube.com/watch?v=IgXmb0LKN7M
 Midsagittal Animation Methods
 https://chatgpt.com/c/680cdee5-3c8c-8011-8e58-f2ebbb1085d5
 
-TADA: Task Dynamic model of inter-articulator speech coordination | Haskins Laboratories
-https://haskinslabs.org/about-us/features-and-demos/tada-task-dynamic-model-inter-articulator-speech-coordination
+Edinburgh Speech Tools Library
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/
 
-VisArtico
-http://visartico.loria.fr/user-guide.html
+viterbi Combine n-gram model and likelihoods to estimate posterior probabilities
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x3039.htm
 
-VisArtico
-http://visartico.loria.fr/download.html
+spectgen Make spectrograms
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x1717.htm
 
-arXiv.org e-Print archive
-https://arxiv.org/
+tilt_synthesis Generate F0 contours from Tilt descriptions
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x1374.htm
 
-arXiv.org e-Print archive
-https://arxiv.org/
+sig2fv Generate signal processing coefficients from waveforms
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x1440.htm
 
-vocal tract simulator - Google Search
-https://www.google.com/search?q=vocal+tract+simulator&rlz=1C5GCCM_en&oq=vocal+tract+sim&gs_lcrp=EgZjaHJvbWUqDQgAEAAYkQIYgAQYigUyDQgAEAAYkQIYgAQYigUyBggBEEUYOTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTIHCAQQABjvBTIHCAUQABjvBTIKCAYQABiiBBiJBdIBCDM3NzhqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8
+ch_wave Audio file manipulation
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x444.htm
+
+ch_track Track file manipulation
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x737.htm
+
+ngram_build Train n-gram language model
+https://www.cstr.ed.ac.uk/projects/speech_tools/manual-1.2.0/x2759.htm
 
 SPARC_demo.ipynb - Colab
 https://colab.research.google.com/drive/1TVGJJpOzPiesLPo46gZNCQLMl-y_QIKe#scrollTo=NCNkC9sk_Od3
