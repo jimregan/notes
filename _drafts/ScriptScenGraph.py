@@ -137,6 +137,9 @@ def visualize_and_save(image_path, label, coords, save_path):
     draw.text((x + 10, y - 10), label, fill="blue")
     img.save(save_path)
 
+def parse_points(output):
+    return [[int(x), int(y)] for x, y in re.findall(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]", output)]
+
 def process_all_images(entries):
     for object_label, excerpt, filename in entries:
         image_path = os.path.join(base_image_dir, filename)
@@ -148,12 +151,13 @@ def process_all_images(entries):
             response_text = call_openai_vision(image_path, object_label, excerpt)
             print(f"Raw response: {response_text}")  # Debug print
             
-            scene_graph = extract_json_from_text(response_text)
-            if not scene_graph:
-                raise ValueError("No valid JSON could be extracted from model output.")
+            # scene_graph = extract_json_from_text(response_text)
+            # if not scene_graph:
+            #     raise ValueError("No valid JSON could be extracted from model output.")
 
-            if "objects" not in scene_graph:
-                raise ValueError("No 'objects' key found in scene graph")
+            # if "objects" not in scene_graph:
+            #     raise ValueError("No 'objects' key found in scene graph")
+            points = parse_points(response_text)
 
             # Find the main object by looking for the object_label in the name or id
             main_obj = None
