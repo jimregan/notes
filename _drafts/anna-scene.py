@@ -4,13 +4,15 @@ import re
 import base64
 import openai
 import matplotlib.pyplot as plt
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 from openai import OpenAI
 API_KEY = ""
 client = OpenAI(api_key=API_KEY)
+
 def encode_image(image_path):
     with open(image_path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
+
 def build_prompt(utterance):
     return (
         "You are given an image and a sentence. "
@@ -20,8 +22,10 @@ def build_prompt(utterance):
         "Only return a list of points, no text or explanation.\n\n"
         f"Sentence: '{utterance}'"
     )
+
 def parse_points(output):
     return [[int(x), int(y)] for x, y in re.findall(r"\[\s*(\d+)\s*,\s*(\d+)\s*\]", output)]
+
 def build_prompt(phrase,utterance, image_width, image_height):
     return (
         "You are given an image, a phrase and a utterance. "
@@ -33,23 +37,7 @@ def build_prompt(phrase,utterance, image_width, image_height):
         "Only return a list of points, no text or explanation.\n\n"
         f"Phrase: '{phrase}' in the context of '{utterance}'"
     )
-# def call_gpt4o(utterance, image_path):
-#     base64_image = encode_image(image_path)
-#     prompt = build_prompt(utterance)
-#     response = client.chat.completions.create(
-#         model="gpt-4o",
-#         messages=[
-#             {
-#                 "role": "user",
-#                 "content": [
-#                     {"type": "text", "text": prompt},
-#                     {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{base64_image}"}}
-#                 ]
-#             }
-#         ],
-#         temperature=0.2
-#     )
-#     return response.choices[0].message.content
+
 def call_gpt4o(phrase,utterance, image_path):
     base64_image = encode_image(image_path)
     image = Image.open(image_path)
@@ -69,6 +57,7 @@ def call_gpt4o(phrase,utterance, image_path):
         temperature=0.2
     )
     return response.choices[0].message.content
+
 def plot_points(image_path, points, save_path):
     image = Image.open(image_path)
     plt.figure(figsize=(10, 10))
@@ -79,8 +68,7 @@ def plot_points(image_path, points, save_path):
     plt.tight_layout()
     plt.savefig(save_path)
     plt.close()
-from PIL import ImageDraw, ImageFont
-from PIL import ImageDraw, ImageFont
+
 def plot_points(image_path, points, save_path, utterance=None, phrase=None):
     image = Image.open(image_path).convert("RGB")
     width, height = image.size

@@ -32,6 +32,11 @@ def build_prompt_chatgpt(utterance):
         "Example: [[100, 150, 300, 400]]"
     ).format(utterance)
 
+def build_prompt_robospatial(utterance):
+    return(
+        "In the image, there is a {utterance}. Pinpoint several points within the vacant space situated to the left of the bowl. Your answer should be formatted as a list of tuples, i.e. [(x1, y1), ...], where each tuple contains the x and y coordinates of a point satisfying the conditions above. The coordinates should be between 0 and 1, indicating the normalized pixel locations of the points."
+    )
+
 
 def build_prompt(type, utterance):
     if type == "first":
@@ -110,15 +115,27 @@ def parse_args():
     parser.add_argument('--processor_name', type=str, default=None)
     parser.add_argument('--img_path', type=str, default="/results/mm_conv_crowdsourcing_data/images/color")
     parser.add_argument('--json_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
-    parser.add_argument('--annotation_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
-    parser.add_argument('--tsv_path', type=str, default="/results/mm_conv_crowdsourcing_data/meta")
+    parser.add_argument('--annotation_path', type=str, default="/results/updated_annotations/final_resolved/")
+    parser.add_argument('--tsv_path', type=str, default="/results/updated_annotations/word_annotations/")
     parser.add_argument('--outpath', type=str, default="/results/molmo_output")
+    parser.add_argument('--topic_ctx_size', type=int, default=5,
+                        help="Number of previous utterances to use for topic context.")
+    parser.add_argument('--time_ctx_window', type=float, default=20.0,
+                        help="Time window (in seconds) for collecting time context before utterance.")
+    parser.add_argument('--deepflow', action='store_true',
+                        help="Use predefined DeepFlow paths for img, json, annotation, and tsv.")
     return parser.parse_args()
 
 
 def main():
     setup_logger()
     args = parse_args()
+    if args.deepflow:
+        logging.info("🌀 DeepFlow mode enabled – overriding data paths")
+        args.img_path = "/shared/mm_conv/final_crowdsourcing_sets/mm_conv_crowdsourcing_data/images/color"
+        args.json_path = "/shared/mm_conv/annotation_crowdsourcing/meta/"
+        args.annotation_path = "/home/joregan/updated_annotations/final_resolved/"
+        args.tsv_path = "/home/joregan/updated_annotations/word_annotations/"
 
     processor_name = args.processor_name or args.model_name
 
@@ -161,8 +178,8 @@ def main():
         utterance = data["utterance"]
         reference = data["phrase"]
         object_name = data["object_name"]
-        topic_context = get_topic_context(data, old_json, args.json_path, 5)
-        tsv_context = get_time_context(data, tsv_cache, args.tsv_path, 20.0)
+        topic_context = get_topic_context(data, old_json, args.json_path, args.topic_ctx_size)
+        tsv_context = get_time_context(data, tsv_cache, args.tsv_path, args.time_ctx_window)
         if topic_context != "":
             context = topic_context
         else:
