@@ -23,7 +23,9 @@
         "topic": "Ceiling",
         "filename": "hsi_7_0719_211_002_main",
         "duration": 3.136,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -771,7 +773,9 @@
         "topic": "Ceiling",
         "filename": "hsi_6_0718_211_001_main",
         "duration": 6.922666666666666,
-        "wer": 0.25
+        "wer": 0.25,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -2033,7 +2037,9 @@
         "determiner_start": "5.213",
         "determiner_end": "5.434",
         "determiner_duration": 0.22100000000000009,
-        "wer": 0.1111111111111111
+        "wer": 0.1111111111111111,
+        "discarded": true,
+        "discard_reason": "start too late"
     },
     {
         "person": "3",
@@ -2106,7 +2112,9 @@
         "topic": "Rug",
         "filename": "hsi_4_0717_210_003_main",
         "duration": 4.064,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -2359,7 +2367,9 @@
         "topic": "Ceiling",
         "filename": "hsi_6_0718_211_001_main",
         "duration": 3.5946666666666665,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -2391,7 +2401,7 @@
         "determiner_duration": 0.18100000000000005,
         "wer": 0.9,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "7",
@@ -3169,7 +3179,9 @@
         "topic": "Ceiling",
         "filename": "hsi_7_0719_210_002_main",
         "duration": 3.2,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -3180,7 +3192,9 @@
         "topic": "Ceiling",
         "filename": "hsi_3_0715_227_004_main",
         "duration": 5.792,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -3281,7 +3295,9 @@
         "topic": "WallPainting3",
         "filename": "hsi_3_0715_209_008_main",
         "duration": 4.992,
-        "wer": 0.07142857142857142
+        "wer": 0.07142857142857142,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4151,7 +4167,9 @@
         "topic": "Floor",
         "filename": "hsi_4_0717_211_003_main",
         "duration": 2.986666666666667,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4342,7 +4360,9 @@
         "topic": "Ceiling",
         "filename": "hsi_4_0717_210_001_main",
         "duration": 4.224,
-        "wer": 0.23076923076923078
+        "wer": 0.23076923076923078,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -4758,7 +4778,9 @@
         "topic": "Vase_ba57ab3d",
         "filename": "hsi_3_0715_227_004_main",
         "duration": 2.6026666666666665,
-        "wer": 0.09090909090909091
+        "wer": 0.09090909090909091,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4769,7 +4791,9 @@
         "topic": "Ceiling",
         "filename": "hsi_7_0719_211_002_main",
         "duration": 2.4,
-        "wer": 0.14285714285714285
+        "wer": 0.14285714285714285,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4780,7 +4804,9 @@
         "topic": "Painting_0db0fb84",
         "filename": "hsi_7_0719_209_001_main",
         "duration": 4.213333333333333,
-        "wer": 0.08333333333333333
+        "wer": 0.08333333333333333,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -4806,7 +4832,9 @@
         "topic": "RedKeychain_2",
         "filename": "hsi_6_0718_211_002_main",
         "duration": 5.077333333333334,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4817,7 +4845,9 @@
         "topic": "Chair_db8dcb97",
         "filename": "hsi_7_0719_227_003_main",
         "duration": 5.706666666666667,
-        "wer": 0.125
+        "wer": 0.125,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -4828,7 +4858,9 @@
         "topic": "Plate_30",
         "filename": "hsi_5_0718_210_003_main",
         "duration": 5.546666666666667,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -4839,7 +4871,9 @@
         "topic": "Book_7e290dff",
         "filename": "hsi_3_0715_209_008_main",
         "duration": 3.9146666666666667,
-        "wer": 0.05555555555555555
+        "wer": 0.05555555555555555,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -4850,7 +4884,9 @@
         "topic": "Fertility_Statue_Shards_1",
         "filename": "hsi_7_0719_209_003_main",
         "duration": 4.778666666666667,
-        "wer": 0.07142857142857142
+        "wer": 0.07142857142857142,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -4876,7 +4912,9 @@
         "topic": "Teddy_Bear_2",
         "filename": "hsi_4_0717_211_002_main",
         "duration": 3.509333333333333,
-        "wer": 0.08333333333333333
+        "wer": 0.08333333333333333,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -4887,7 +4925,9 @@
         "topic": "WallCabinet_4",
         "filename": "hsi_6_0718_227_002_main",
         "duration": 5.738666666666667,
-        "wer": 0.05263157894736842
+        "wer": 0.05263157894736842,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -4915,7 +4955,9 @@
         "topic": "DiningTable_d80cf940",
         "filename": "hsi_7_0719_227_002_main",
         "duration": 4.693333333333333,
-        "wer": 0.0625
+        "wer": 0.0625,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -4939,7 +4981,9 @@
         "topic": "Wall",
         "filename": "hsi_5_0718_210_001_main",
         "duration": 5.557333333333333,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -4950,7 +4994,9 @@
         "topic": "CreditCard_5794fee0",
         "filename": "hsi_4_0717_209_001_main",
         "duration": 3.7866666666666666,
-        "wer": 0.09090909090909091
+        "wer": 0.09090909090909091,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -4976,7 +5022,9 @@
         "topic": "BlueGarbageCan_97c506a7",
         "filename": "hsi_6_0718_222_003_main",
         "duration": 3.968,
-        "wer": 0.26666666666666666
+        "wer": 0.26666666666666666,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -4987,7 +5035,9 @@
         "topic": "CoffeeTable_55f895de",
         "filename": "hsi_5_0718_222_002_main",
         "duration": 6.101333333333334,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5013,7 +5063,9 @@
         "topic": "pillow_20",
         "filename": "hsi_6_0718_227_001_main",
         "duration": 5.109333333333334,
-        "wer": 0.05555555555555555
+        "wer": 0.05555555555555555,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5024,7 +5076,9 @@
         "topic": "WallCabinet_2",
         "filename": "hsi_4_0717_227_003_main",
         "duration": 5.1946666666666665,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -5035,7 +5089,9 @@
         "topic": "Curtains1_99ab6029",
         "filename": "hsi_7_0719_210_003_main",
         "duration": 5.066666666666666,
-        "wer": 0.25
+        "wer": 0.25,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5076,7 +5132,9 @@
         "topic": "Ceiling",
         "filename": "hsi_4_0717_209_002_main",
         "duration": 2.72,
-        "wer": 0.1111111111111111
+        "wer": 0.1111111111111111,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5087,7 +5145,9 @@
         "topic": "Hand_Statue_2",
         "filename": "hsi_5_0718_209_003_main",
         "duration": 4.874666666666666,
-        "wer": 0.07142857142857142
+        "wer": 0.07142857142857142,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5098,7 +5158,9 @@
         "topic": "CoffeeTable_55f895de",
         "filename": "hsi_5_0718_222_003_main",
         "duration": 4.8,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -5109,7 +5171,9 @@
         "topic": "CeilingLights",
         "filename": "hsi_3_0715_209_006_main",
         "duration": 11.967333333333332,
-        "wer": 0.13333333333333333
+        "wer": 0.13333333333333333,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -5120,7 +5184,9 @@
         "topic": "Floor_c5023c6b",
         "filename": "hsi_3_0715_227_002_main",
         "duration": 3.541333333333333,
-        "wer": 0.07142857142857142
+        "wer": 0.07142857142857142,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5131,7 +5197,9 @@
         "topic": "Watch_2ea293fb",
         "filename": "hsi_5_0718_209_001_main",
         "duration": 4.2026666666666666,
-        "wer": 0.0625
+        "wer": 0.0625,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5157,7 +5225,9 @@
         "topic": "Houseplant_1",
         "filename": "hsi_3_0715_210_011_main",
         "duration": 5.354666666666667,
-        "wer": 0.2
+        "wer": 0.2,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5183,7 +5253,9 @@
         "topic": "CellPhone_673ecda8",
         "filename": "hsi_7_0719_211_004_main",
         "duration": 4.576,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5209,7 +5281,9 @@
         "topic": "Box_7d6b3e2c",
         "filename": "hsi_7_0719_222_004_main",
         "duration": 3.744,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5265,7 +5339,9 @@
         "topic": "Floor_661dfaaa",
         "filename": "hsi_5_0718_209_002_main",
         "duration": 6.197333333333333,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5276,7 +5352,9 @@
         "topic": "Painting1",
         "filename": "hsi_6_0718_209_003_main",
         "duration": 4.021333333333334,
-        "wer": 0.08333333333333333
+        "wer": 0.08333333333333333,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5287,7 +5365,9 @@
         "topic": "Laptop_d9d44fbe",
         "filename": "hsi_4_0717_227_002_main",
         "duration": 5.1306666666666665,
-        "wer": 0.23076923076923078
+        "wer": 0.23076923076923078,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5313,7 +5393,9 @@
         "topic": "Watering_Can_2",
         "filename": "hsi_3_0715_210_010_main",
         "duration": 9.589333333333334,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5324,7 +5406,9 @@
         "topic": "HousePlant1Large_2",
         "filename": "hsi_4_0717_211_001_main",
         "duration": 6.922666666666666,
-        "wer": 0.05263157894736842
+        "wer": 0.05263157894736842,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5350,7 +5434,9 @@
         "topic": "TVStand_fa93c053",
         "filename": "hsi_7_0719_222_002_main",
         "duration": 4.416,
-        "wer": 0.125
+        "wer": 0.125,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -5361,7 +5447,9 @@
         "topic": "SideTable_08f3eda2",
         "filename": "hsi_4_0717_209_003_main",
         "duration": 4.277333333333333,
-        "wer": 0.25
+        "wer": 0.25,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -5372,7 +5460,9 @@
         "topic": "TVStand_5591333a",
         "filename": "hsi_5_0718_211_002_main",
         "duration": 6.410666666666667,
-        "wer": 0.06666666666666667
+        "wer": 0.06666666666666667,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5383,7 +5473,9 @@
         "topic": "BlueKeychain_3",
         "filename": "hsi_6_0718_211_001_main",
         "duration": 5.44,
-        "wer": 0.058823529411764705
+        "wer": 0.058823529411764705,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -5394,7 +5486,9 @@
         "topic": "Watering_Can_2",
         "filename": "hsi_7_0719_210_002_main",
         "duration": 5.728,
-        "wer": 0.045454545454545456
+        "wer": 0.045454545454545456,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -5452,7 +5546,9 @@
         "topic": "Painting_0f25d3f4",
         "filename": "hsi_6_0718_210_001_main",
         "duration": 3.7653333333333334,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -5823,7 +5919,9 @@
         "topic": "Ceiling",
         "filename": "hsi_5_0718_222_003_main",
         "duration": 3.744,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -7938,7 +8036,9 @@
         "topic": "CellPhone_673ecda8",
         "filename": "hsi_4_0717_211_002_main",
         "duration": 3.8826666666666667,
-        "wer": 0.21428571428571427
+        "wer": 0.21428571428571427,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -8699,7 +8799,9 @@
         "topic": "CeilingLights",
         "filename": "hsi_7_0719_209_003_main",
         "duration": 3.509333333333333,
-        "wer": 0.23076923076923078
+        "wer": 0.23076923076923078,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -9085,7 +9187,9 @@
         "topic": "Curtains1_99ab6029",
         "filename": "hsi_4_0717_210_003_main",
         "duration": 4.938666666666666,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -10161,7 +10265,9 @@
         "topic": "Ceiling",
         "filename": "hsi_3_0715_227_004_main",
         "duration": 10.368,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -10202,7 +10308,9 @@
         "topic": "Painting_0f25d3f4",
         "filename": "hsi_6_0718_210_001_main",
         "duration": 4.213333333333333,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -10258,7 +10366,9 @@
         "topic": "SideTable_08f3eda2",
         "filename": "hsi_3_0715_209_008_main",
         "duration": 8.256,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -10592,7 +10702,7 @@
         "determiner_duration": 0.18100000000000005,
         "wer": 1.1,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "3",
@@ -11087,7 +11197,9 @@
         "topic": "HousePlant1Large",
         "filename": "hsi_5_0718_227_001_main",
         "duration": 4.842666666666666,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -11098,7 +11210,9 @@
         "topic": "RedVase_Tall_2",
         "filename": "hsi_4_0717_211_002_main",
         "duration": 3.5733333333333333,
-        "wer": 0.3
+        "wer": 0.3,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -11445,7 +11559,7 @@
         "determiner_duration": 0.2010000000000005,
         "wer": 0.7272727272727273,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "4",
@@ -11552,7 +11666,7 @@
         "determiner_duration": 0.26099999999999923,
         "wer": 0.46153846153846156,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "5",
@@ -12045,7 +12159,9 @@
         "topic": "Rug",
         "filename": "hsi_6_0718_210_002_main",
         "duration": 4.949333333333334,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -12386,7 +12502,9 @@
         "topic": "Ceiling",
         "filename": "hsi_4_0717_227_002_main",
         "duration": 4.1386666666666665,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -12913,7 +13031,9 @@
         "topic": "Ceiling",
         "filename": "hsi_4_0717_210_001_main",
         "duration": 4.672,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -12939,7 +13059,9 @@
         "topic": "Ceiling",
         "filename": "hsi_5_0718_209_003_main",
         "duration": 4.426666666666667,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -13031,7 +13153,7 @@
         "determiner_duration": 0.2810000000000006,
         "wer": 0.8571428571428571,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "4",
@@ -14010,7 +14132,9 @@
         "determiner_start": "5.872",
         "determiner_end": "6.053",
         "determiner_duration": 0.18100000000000005,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "start too late"
     },
     {
         "person": "4",
@@ -14051,7 +14175,9 @@
         "topic": "Painting_eda6d5e1",
         "filename": "hsi_7_0719_222_002_main",
         "duration": 3.3706666666666667,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -14272,7 +14398,9 @@
         "topic": "Ceiling",
         "filename": "hsi_4_0717_211_002_main",
         "duration": 3.7866666666666666,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -15234,7 +15362,9 @@
         "topic": "Vase_ba57ab3d",
         "filename": "hsi_6_0718_227_001_main",
         "duration": 3.264,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -15335,7 +15465,9 @@
         "topic": "BlueGarbageCan_97c506a7",
         "filename": "hsi_5_0718_222_003_main",
         "duration": 6.016,
-        "wer": 0.09090909090909091
+        "wer": 0.09090909090909091,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -15436,7 +15568,9 @@
         "topic": "Floor",
         "filename": "hsi_7_0719_211_004_main",
         "duration": 4.917333333333334,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -15794,7 +15928,9 @@
         "topic": "Plate_30",
         "filename": "hsi_5_0718_210_003_main",
         "duration": 4.501333333333333,
-        "wer": 0.15384615384615385
+        "wer": 0.15384615384615385,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "3",
@@ -16387,7 +16523,7 @@
         "determiner_duration": 0.16000000000000014,
         "wer": 0.4444444444444444,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "4",
@@ -16998,7 +17134,9 @@
         "topic": "SideTable_855fe095",
         "filename": "hsi_3_0715_210_011_main",
         "duration": 5.984,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -17189,7 +17327,9 @@
         "topic": "BookCase_a34d9887",
         "filename": "hsi_4_0717_211_001_main",
         "duration": 3.008,
-        "wer": 0.1111111111111111
+        "wer": 0.1111111111111111,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -18721,7 +18861,9 @@
         "topic": "Wall",
         "filename": "hsi_6_0718_209_003_main",
         "duration": 3.8506666666666667,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -18931,7 +19073,9 @@
         "topic": "Floor_9b56aa5a",
         "filename": "hsi_6_0718_210_001_main",
         "duration": 3.9466666666666668,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -18957,7 +19101,9 @@
         "topic": "WallCabinet_2",
         "filename": "hsi_7_0719_227_003_main",
         "duration": 3.3813333333333335,
-        "wer": 0.25
+        "wer": 0.25,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "5",
@@ -18987,7 +19133,9 @@
         "determiner_start": "6.046",
         "determiner_end": "6.207",
         "determiner_duration": 0.1609999999999996,
-        "wer": 0.23076923076923078
+        "wer": 0.23076923076923078,
+        "discarded": true,
+        "discard_reason": "start too late"
     },
     {
         "person": "7",
@@ -19420,7 +19568,9 @@
         "topic": "Window_0dfbe90f",
         "filename": "hsi_4_0717_222_003_main",
         "duration": 3.2213333333333334,
-        "wer": 0.07692307692307693
+        "wer": 0.07692307692307693,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "7",
@@ -19596,7 +19746,9 @@
         "topic": "Floor",
         "filename": "hsi_7_0719_222_002_main",
         "duration": 5.312,
-        "wer": 0.0
+        "wer": 0.0,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "4",
@@ -21019,7 +21171,9 @@
         "topic": "Floor",
         "filename": "hsi_7_0719_222_004_main",
         "duration": 4.554666666666667,
-        "wer": 0.07142857142857142
+        "wer": 0.07142857142857142,
+        "discarded": true,
+        "discard_reason": "no determiner start"
     },
     {
         "person": "6",
@@ -21368,7 +21522,7 @@
         "determiner_duration": 0.22100000000000009,
         "wer": 0.9333333333333333,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "7",
@@ -22555,7 +22709,7 @@
         "determiner_duration": 0.14100000000000001,
         "wer": 0.7,
         "discarded": true,
-        "discard_reason": "wer"
+        "discard_reason": "start too late"
     },
     {
         "person": "4",
