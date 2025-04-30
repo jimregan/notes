@@ -1,9 +1,6 @@
 CVPR 2022 Author Kit - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/680b5d858fd7186fb6b63068
 
-CVPR_2022_Author_Kit (1).pdf
-file:///Users/joregan/Downloads/CVPR_2022_Author_Kit%20(1).pdf
-
 hungarian-algorithm/hungarian_algorithm/algorithm.py at master · benchaplin/hungarian-algorithm
 https://github.com/benchaplin/hungarian-algorithm/blob/master/hungarian_algorithm/algorithm.py
 
@@ -22,80 +19,14 @@ https://github.com/SWivid/F5-TTS/blob/main/src/f5_tts/infer/utils_infer.py#L293
 whisperX/whisperx/transcribe.py at main · m-bain/whisperX
 https://github.com/m-bain/whisperX/blob/main/whisperx/transcribe.py#L141
 
-whisperX/pyproject.toml at main · m-bain/whisperX
-https://github.com/m-bain/whisperX/blob/main/pyproject.toml
-
-feat: add Tagalog (tl - Filipino) Phoneme-based ASR Model (#1067) · m-bain/whisperX@4db8390
-https://github.com/m-bain/whisperX/commit/4db839018c2df845176fd9a383987e9299137779
-
-History for utils/transcribe-for-mfa.py - shivammehta25/CVPRHumogen
-https://github.com/shivammehta25/CVPRHumogen/commits/main/utils/transcribe-for-mfa.py
-
-Computing WER on Bark output using wav2vec, whisper, whisperx and stable-ts | notes
-https://jimregan.github.io/notes/whisper/wav2vec/wer/2024/03/13/bark-wer.html
-
-2005.07404
-https://arxiv.org/pdf/2005.07404
-
-View article
-https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9FCgvvwAAAAJ&citation_for_view=9FCgvvwAAAAJ:0EnyYjriUFMC
-
 Incorporating Spatial Awareness in Data-Driven Gesture Generation for Virtual Agents
 https://dl.acm.org/doi/pdf/10.1145/3652988.3673936
-
-open-mmlab/mmhuman3d: OpenMMLab 3D Human Parametric Model Toolbox and Benchmark
-https://github.com/open-mmlab/mmhuman3d
 
 3_meta_files - Google Drive
 https://drive.google.com/drive/u/4/folders/1ZWfIIgy30asG5scrYMh6ny_T8ofEiOSb
 
 Torchvision NMS Error Fix
 https://chatgpt.com/c/680f7f6f-ca38-8011-910c-566daeebe01b
-
-whisperx Unable to load any of {libcudnn_cnn.so.9.1.0, libcudnn_cnn.so.9.1, libcudnn_cnn.so.9, libcudnn_cnn.so} Invalid handle. Cannot load symbol cudnnCreateConvolutionDescriptor - Google Search
-https://www.google.com/search?q=whisperx+Unable+to+load+any+of+%7Blibcudnn_cnn.so.9.1.0%2C+libcudnn_cnn.so.9.1%2C+libcudnn_cnn.so.9%2C+libcudnn_cnn.so%7D+Invalid+handle.+Cannot+load+symbol+cudnnCreateConvolutionDescriptor&rlz=1C5GCCM_en&oq=whisperx+Unable+to+load+any+of+%7Blibcudnn_cnn.so.9.1.0%2C+libcudnn_cnn.so.9.1%2C+libcudnn_cnn.so.9%2C+libcudnn_cnn.so%7D+Invalid+handle.+Cannot+load+symbol+cudnnCreateConvolutionDescriptor&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgkIBhAAGAoYgAQyBwgHEAAYgAQyCQgIEAAYChiABDIHCAkQABiABNIBCDI1OThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Unable to load any of {libcudnn_cnn.so.9.1.0, libcudnn_cnn.so.9.1, libcudnn_cnn.so.9, libcudnn_cnn.so} · Issue #902 · m-bain/whisperX
-https://github.com/m-bain/whisperX/issues/902
-
-Unable to load any of {libcudnn_cnn.so.9.1.0, libcudnn_cnn.so.9.1, libcudnn_cnn.so.9, libcudnn_cnn.so} Invalid handle. Cannot load symbol cudnnCreateConvolutionDescriptor · Issue #1100 · m-bain/whisperX
-https://github.com/m-bain/whisperX/issues/1100
-
-python - "Could not load dynamic library 'libcudnn.so.8'" when running tensorflow on ubuntu 20.04 - Stack Overflow
-https://stackoverflow.com/questions/66977227/could-not-load-dynamic-library-libcudnn-so-8-when-running-tensorflow-on-ubun
-
-News archive | KTH
-https://www.kth.se/en/om/nyheter/centrala-nyheter?page=2
-
-‘Monkey yodels’—frequency jumps in New World monkey vocalizations greatly surpass human vocal register transitions | Philosophical Transactions of the Royal Society B: Biological Sciences
-https://royalsocietypublishing.org/doi/10.1098/rstb.2024.0005
-
-KTH and Chalmers strengthen AI collaboration | KTH
-https://www.kth.se/en/om/nyheter/centrala-nyheter/kth-och-chalmers-starker-ai-samarbete-1.1396444
-
-AI helps decode horse body language for better veterinary care | KTH
-https://www.kth.se/en/om/nyheter/centrala-nyheter/ai-helps-decode-horse-body-language-for-better-veterinary-care-1.1394028
-
-A critical eye can make AI better | KTH
-https://www.kth.se/en/om/nyheter/centrala-nyheter/kritisk-syn-kan-gora-ai-battre-1.1393873
-
-Connect to remote Docker over SSH
-https://code.visualstudio.com/docs/containers/ssh
-
-New Tab
-chrome://newtab/
-
-SWivid/F5-TTS: Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"
-https://github.com/SWivid/F5-TTS
-
-dockerfile - How do I set environment variables during the "docker build" process? - Stack Overflow
-https://stackoverflow.com/questions/39597925/how-do-i-set-environment-variables-during-the-docker-build-process
-
-j3soon/arxiv-utils: Meaningful titles for tabs and PDF downloads! Also supports tab search.
-https://github.com/j3soon/arxiv-utils
-
-\u2019 - Google Search
-https://www.google.com/search?q=%5Cu2019&rlz=1C5GCCM_en&oq=%5Cu2019&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzE1NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
 inference-cli.py · mrfakename/E2-F5-TTS at main
 https://huggingface.co/spaces/mrfakename/E2-F5-TTS/blob/main/inference-cli.py
@@ -115,9 +46,6 @@ https://github.com/lzw-lzw/GroundingGPT/blob/main/lego/serve/cli.py
 lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
 https://github.com/lzw-lzw/GroundingGPT?tab=readme-ov-file
 
-GroundingGPT
-https://lzw-lzw.github.io/GroundingGPT.github.io/
-
 lzw-lzw/GroundingGPT: [ACL 2024] GroundingGPT: Language-Enhanced Multi-modal Grounding Model
 https://github.com/lzw-lzw/GroundingGPT
 
@@ -128,7 +56,7 @@ Grounding gpt by jimregan · Pull Request #3 · jimregan/dockerfiles
 https://github.com/jimregan/dockerfiles/pull/3
 
 Loop by jimregan · Pull Request #5 · jimregan/dockerfiles
-https://github.com/jimregan/dockerfiles/pull/5/commits
+https://github.com/jimregan/dockerfiles/pull/3
 
 Exophoric Reference Correction
 https://chatgpt.com/c/680fd19d-096c-8011-b01f-3a4a2f269dd8
@@ -142,17 +70,8 @@ https://www.google.com/search?q=tmux+list+sessions&rlz=1C5GCCM_en&oq=tmux+lis&gs
 m-bain/whisperX: WhisperX: Automatic Speech Recognition with Word-level Timestamps (& Diarization)
 https://github.com/m-bain/whisperX
 
-nvidia - Failed to initialize NVML: Unknown Error in Docker after Few hours - Stack Overflow
-https://stackoverflow.com/questions/72932940/failed-to-initialize-nvml-unknown-error-in-docker-after-few-hours
-
 munkres — Munkres implementation for Python
 https://software.clapper.org/munkres/
-
-How to git rebase a branch with the onto command? - Stack Overflow
-https://stackoverflow.com/questions/29914052/how-to-git-rebase-a-branch-with-the-onto-command
-
-List initialization error
-https://chatgpt.com/c/6810f0a9-41a8-8011-8e6f-bec5f72cdc9e
 
 yhw-yhw/TalkSHOW: This is the official repository for TalkSHOW: Generating Holistic 3D Human Motion from Speech [CVPR2023].
 https://github.com/yhw-yhw/TalkSHOW/tree/main
@@ -162,12 +81,6 @@ https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900a469/1POUpiEzI
 
 CrowdMoGen: Zero-Shot Text-Driven Collective Motion Generation
 https://arxiv.org/html/2407.06188v1#bib.bib45
-
-The KIT Motion-Language Dataset | Big Data
-https://www.liebertpub.com/doi/abs/10.1089/big.2016.0028
-
-KIT Motion-Language Dataset
-https://motion-annotation.humanoids.kit.edu/dataset/
 
 CVPR 2021 Open Access Repository
 https://openaccess.thecvf.com/content/CVPR2021/html/Punnakkal_BABEL_Bodies_Action_and_Behavior_With_English_Labels_CVPR_2021_paper.html
@@ -208,16 +121,13 @@ https://ericguo5513.github.io/text-to-motion/
 YouTube
 https://www.youtube.com/
 
-It turns out she was just bluffing.#shorts #tv #viralvideo #show - YouTube
-https://www.youtube.com/shorts/NhIPwk0XtcA
-
-Today’s Belfast word of the day is: FENIAN. #KneecapFilm starts Friday in theaters nationwide. - YouTube
-https://www.youtube.com/shorts/dy882iO2Qig
-
 KNEECAP on British colonialism, far-right riots and taking on the establishment - YouTube
 https://www.youtube.com/watch?v=_V-YS0DbEHQ
 
-Humanoid Agents Workshop - CVPR 2025
-https://humanoid-agents.github.io/
+Kneecap (film) - Wikipedia
+https://en.wikipedia.org/wiki/Kneecap_(film)
+
+'Kneecap' movie tracklist: every song in order of when it's played
+https://www.nme.com/news/film/kneecap-movie-tracklist-every-song-in-order-of-when-its-played-3785972
 
 
