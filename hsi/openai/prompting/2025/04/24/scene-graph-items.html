@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Scene graph items | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Scene graph items" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For prompting OpenAI" />
+<meta property="og:description" content="For prompting OpenAI" />
+<link rel="canonical" href="https://jimregan.github.io/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-24T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html","@type":"BlogPosting","headline":"Scene graph items","dateModified":"2025-04-24T00:00:00-05:00","datePublished":"2025-04-24T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html"},"description":"For prompting OpenAI","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Scene graph items</h1><p class="page-description">For prompting OpenAI</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-04-24T00:00:00-05:00" itemprop="datePublished">
+        Apr 24, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#hsi">hsi</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#openai">openai</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#prompting">prompting</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2025-04-24-scene-graph-items.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2025-04-24-scene-graph-items.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2025-04-24-scene-graph-items.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2025-04-24-scene-graph-items.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">items</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">sg</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/tmp&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;SceneGraph_*.json&quot;</span><span class="p">):</span>
+    <span class="n">room</span> <span class="o">=</span> <span class="n">sg</span><span class="o">.</span><span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">items</span><span class="p">[</span><span class="n">room</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">sg</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;origin&quot;</span><span class="p">][</span><span class="s2">&quot;children&quot;</span><span class="p">]:</span>
+            <span class="n">items</span><span class="p">[</span><span class="n">room</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/items.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;room</span><span class="se">\t</span><span class="s2">item</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">room</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">[</span><span class="n">room</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="n">item</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Window_&quot;</span><span class="p">):</span>
+                <span class="k">continue</span>
+            <span class="k">elif</span> <span class="n">item</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Door_&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">item</span> <span class="o">==</span> <span class="s2">&quot;Door&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="k">elif</span> <span class="n">item</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;Wall_&quot;</span><span class="p">)</span> <span class="ow">or</span> <span class="n">item</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;Wall1&quot;</span><span class="p">,</span> <span class="s2">&quot;Wall2&quot;</span><span class="p">,</span> <span class="s2">&quot;Wall3&quot;</span><span class="p">,</span> <span class="s2">&quot;Wall4&quot;</span><span class="p">,</span> <span class="s2">&quot;Wall5&quot;</span><span class="p">]:</span>
+                <span class="k">continue</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">room</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">item</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sampled_grounded_objects</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">grounded_object_data</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+
+<span class="c1"># Manually crafted utterances with full metadata attached</span>
+<span class="n">handwritten_utterances</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This coffee table’s seen more game nights than I can count. Honestly, I should give it a medal.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The tall floor lamp always makes this corner feel a little more like home. Even when it’s off.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;That couch over there? It’s been reupholstered twice, but it still sags in the same spot.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The dresser’s a bit scratched, but every mark tells a story. I like that.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;You see this remote? I’ve probably spent half my life trying to find it.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This velvet sofa? The cat’s claimed it as her throne, and I just pay rent.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The bookshelf isn’t full of books — it’s full of secrets. Look closer.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">7</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;That side table is crooked, sure, but it’s exactly where it needs to be.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">8</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The rug doesn’t match anything, and that’s why it works.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">9</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;I didn’t plan on the glass coffee table, but the light hits it just right at sunset.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">10</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This lamp? I bought it on impulse, but I’ve never regretted it.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">11</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;That TV’s older than some of the people who visit. Still works like a charm.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">12</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This chair creaks like it’s whispering old gossip. I kinda love it.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">13</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;You wouldn&#39;t guess it, but that armchair came from a movie set auction.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">14</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The painting’s crooked. It’s always been crooked. It wouldn’t be right any other way.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">15</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This newspaper? I keep it because of the headline. One hell of a day.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">16</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;That table in the center holds everything — keys, coffee, conversations.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">17</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;There’s a chip in the corner of this dresser. I put it there. Long story.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">18</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;The mirror makes the room feel bigger, but also makes me late every morning.&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;room_id&quot;</span><span class="p">:</span> <span class="s2">&quot;unknown&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;object_id&quot;</span><span class="p">:</span> <span class="n">sampled_grounded_objects</span><span class="p">[</span><span class="mi">19</span><span class="p">][</span><span class="s2">&quot;object_id&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;sentence&quot;</span><span class="p">:</span> <span class="s2">&quot;This little lamp was my grandmother’s. She always said it made the room feel safe.&quot;</span>
+    <span class="p">}</span>
+<span class="p">]</span>
+
+<span class="c1"># Show the sample</span>
+<span class="n">handwritten_utterances</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>cat /tmp/items.tsv <span class="p">|</span>awk -F<span class="s1">&#39;\t&#39;</span> <span class="s1">&#39;{print $2}&#39;</span><span class="p">|</span>sort<span class="p">|</span>awk <span class="s1">&#39;{print $0 &quot;\t&quot; $0}&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">items</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">ArmChair_3ba6dec5	armchair</span>
+<span class="s2">ArmChair_3e286e7a	armchair</span>
+<span class="s2">ArmChair_47a5dcf3	armchair</span>
+<span class="s2">ArmChair_64ade3d5	armchair</span>
+<span class="s2">ArmChair_66a02cd7	armchair</span>
+<span class="s2">ArmChair_c8c7fa1b	armchair</span>
+<span class="s2">BlackVase_61b7da0b	vase	black</span>
+<span class="s2">Blanket	blanket</span>
+<span class="s2">BlueGarbageCan_97c506a7	garbage can	blue</span>
+<span class="s2">BlueKeychain_3	keychain	blue</span>
+<span class="s2">BlueVase_1086f23d	vase	blue</span>
+<span class="s2">BlueVase_808818c5 (1)	vase	blue</span>
+<span class="s2">BookCase_a34d9887	bookcase</span>
+<span class="s2">Book_17	book</span>
+<span class="s2">Book_28	book</span>
+<span class="s2">Book_7e290dff	book</span>
+<span class="s2">Box_3	box</span>
+<span class="s2">Box_6875efd0	box</span>
+<span class="s2">Box_7d6b3e2c	box</span>
+<span class="s2">Box_acb44c64	box</span>
+<span class="s2">Box_c423d56d_2	box</span>
+<span class="s2">Box_f8dd3835	box</span>
+<span class="s2">Carpet	carpet</span>
+<span class="s2">CeilingLight	ceiling light</span>
+<span class="s2">CeilingLight1	ceiling light</span>
+<span class="s2">CeilingLight2	ceiling light</span>
+<span class="s2">CeilingPlant2	plant</span>
+<span class="s2">CeilingPlant4	plant</span>
+<span class="s2">CeilingPlant7	plant</span>
+<span class="s2">CellPhone_673ecda8	cellphone</span>
+<span class="s2">Chair_204_2	chair</span>
+<span class="s2">Chair_28dfa634	chair</span>
+<span class="s2">Chair_88b1f819	chair</span>
+<span class="s2">Chair_97b4ea04	chair</span>
+<span class="s2">Chair_9f65dae8	chair</span>
+<span class="s2">Chair_c6d435d0	chair</span>
+<span class="s2">Chair_db8dcb97	chair</span>
+<span class="s2">Chair_e504631e	chair</span>
+<span class="s2">Chandelier	chandelier</span>
+<span class="s2">CoffeeTable_0f0649ce	coffee table</span>
+<span class="s2">CoffeeTable_0fe3d662	coffee table</span>
+<span class="s2">CoffeeTable_55f895de	coffee table</span>
+<span class="s2">CoffeeTable_580fafde	coffee table</span>
+<span class="s2">CoffeeTable_dd16dc6e	coffee table</span>
+<span class="s2">CreditCard_1f5b07d9	credit card</span>
+<span class="s2">CreditCard_5794fee0	credit card</span>
+<span class="s2">CreditCard_6b898bfd	credit card</span>
+<span class="s2">CreditCard_c655b727	credit card</span>
+<span class="s2">Curtains1_99ab6029	curtains</span>
+<span class="s2">Curtains2_d0e1ef7e	curtains</span>
+<span class="s2">Curtains_9567b735	curtains</span>
+<span class="s2">DeskLamp_3d0b0fb7	desk lamp</span>
+<span class="s2">Desk_204_1	desk</span>
+<span class="s2">Desktop_316_Master	desktop</span>
+<span class="s2">DiningTable_2401ee04	dining table</span>
+<span class="s2">DiningTable_d80cf940	dining table</span>
+<span class="s2">DogBed_d4afafd0	dog bed</span>
+<span class="s2">Dog_Statue_1	statue</span>
+<span class="s2">Drawer_1c0cee5f	drawer</span>
+<span class="s2">Drawer_7cab76b7	drawer</span>
+<span class="s2">Drawer_ff4fd634	drawer</span>
+<span class="s2">Dresser_05cb66e0	dresser</span>
+<span class="s2">Dresser_29dd319f	dresser</span>
+<span class="s2">Dresser_ff109676	dresser</span>
+<span class="s2">FP222:Ceiling	ceiling</span>
+<span class="s2">FertilityStatue_dcd19fe9	fertility statue</span>
+<span class="s2">FirePlace	fireplace</span>
+<span class="s2">FloorLamp_014221fc	floor lamp</span>
+<span class="s2">FloorLamp_0211624d	floor lamp</span>
+<span class="s2">FloorLamp_4062327b	floor lamp</span>
+<span class="s2">FloorLamp_75348c2c	floor lamp</span>
+<span class="s2">FloorLamp_82e14abb	floor lamp</span>
+<span class="s2">Floor_Lamp_9	floor lamp</span>
+<span class="s2">GarbageCan_133fd689	garbage can</span>
+<span class="s2">GarbageCan_43439bc1	garbage can</span>
+<span class="s2">GarbageCan_767f2305	garbage can</span>
+<span class="s2">GarbageCan_cf0fc6b1	garbage can</span>
+<span class="s2">GoldStatue_e904d593	statue	gold</span>
+<span class="s2">Hand_Statue_2	hand statue</span>
+<span class="s2">HousePlant1Large	plant	large house</span>
+<span class="s2">HousePlant1Large_2	plant	large house</span>
+<span class="s2">HousePlant_0db093fe	plant</span>
+<span class="s2">HousePlant_2924821c	plant</span>
+<span class="s2">HousePlant_6feb1461	plant</span>
+<span class="s2">HousePlant_8110ba59	plant</span>
+<span class="s2">HousePlant_c50ca552	plant</span>
+<span class="s2">Houseplant_1	plant</span>
+<span class="s2">Kettle_2	kettle</span>
+<span class="s2">KeyChain_350e8f40	keychain</span>
+<span class="s2">KeyChain_3f31b1d1	keychain</span>
+<span class="s2">KeyChain_76c05fe6	keychain</span>
+<span class="s2">KeyChain_bcaeb4b5	keychain</span>
+<span class="s2">Lamp	lamp</span>
+<span class="s2">Laptop_4	laptop</span>
+<span class="s2">Laptop_a8426a01	laptop</span>
+<span class="s2">Laptop_b59db75f	laptop</span>
+<span class="s2">Laptop_c535f2bc	laptop</span>
+<span class="s2">Laptop_d9d44fbe	laptop</span>
+<span class="s2">Newspaper_28828880	newspaper</span>
+<span class="s2">Newspaper_30d403dd	newspaper</span>
+<span class="s2">Newspaper_4b7df6f2	newspaper</span>
+<span class="s2">Newspaper_990192bf	newspaper</span>
+<span class="s2">Newspaper_c2d5775f	newspaper</span>
+<span class="s2">Ottoman_ad8e5df5	ottoman</span>
+<span class="s2">Painting1	painting</span>
+<span class="s2">Painting2	painting</span>
+<span class="s2">Painting_0db0fb84	painting</span>
+<span class="s2">Painting_0f25d3f4	painting</span>
+<span class="s2">Painting_0f25d3f4_2	painting</span>
+<span class="s2">Painting_0f25d3f4_3	painting</span>
+<span class="s2">Painting_14c2df0d	painting</span>
+<span class="s2">Painting_5ebe949b	painting</span>
+<span class="s2">Painting_6fe2c2f8	painting</span>
+<span class="s2">Painting_b23dccb6	painting</span>
+<span class="s2">Painting_eda6d5e1	painting</span>
+<span class="s2">Painting_eda6d5e1 (1)	painting</span>
+<span class="s2">Pen_df9323c1	pen</span>
+<span class="s2">PillowPatterned_7512d345	pillow	patterned</span>
+<span class="s2">PillowPurpleRight_f0273d63_3	pillow	purple</span>
+<span class="s2">PillowPurple_f0273d63_2	pillow	purple</span>
+<span class="s2">PillowSmooth_7512d345_2	pillow	smooth</span>
+<span class="s2">Pillow_4f745fd7	pillow</span>
+<span class="s2">Pillow_4f745fd7_2	pillow</span>
+<span class="s2">Pillow_dc968b61	pillow</span>
+<span class="s2">Pillow_f916b120	pillow</span>
+<span class="s2">Plate_18ce2457	plate</span>
+<span class="s2">Plate_30	plate</span>
+<span class="s2">Plate_30_2	plate</span>
+<span class="s2">Plate_b4f8b5f3	plate</span>
+<span class="s2">Plate_b4f8b5f3_1	plate</span>
+<span class="s2">RedGarbageCan_97c506a7_2	garbage can	red</span>
+<span class="s2">RedKeychain_2	keychain	red</span>
+<span class="s2">RedVase_44bee60d	vase	red</span>
+<span class="s2">RedVase_Tall_2	vase	tall red</span>
+<span class="s2">RemoteControl_45eda945	remote control</span>
+<span class="s2">RemoteControl_5a0e7720	remote control</span>
+<span class="s2">RemoteControl_6b6acd0d	remote control</span>
+<span class="s2">RemoteControl_827d4f47	remote control</span>
+<span class="s2">RemoteControl_cf82446e	remote control</span>
+<span class="s2">Rug	rug</span>
+<span class="s2">Shelf_d0359321	shelf</span>
+<span class="s2">SideTable_08f3eda2	side table</span>
+<span class="s2">SideTable_5ff50fd6	side table</span>
+<span class="s2">SideTable_855fe095	side table</span>
+<span class="s2">SideTable_8701d005	side table</span>
+<span class="s2">SideTable_a41233be	side table</span>
+<span class="s2">SideTable_b5a954d1	side table</span>
+<span class="s2">SideTable_cb8929ce	side table</span>
+<span class="s2">SideTable_e3936eb3	side table</span>
+<span class="s2">SideTable_ecd457fe	side table</span>
+<span class="s2">SmallVase_Flat_Shards_4	vase	small</span>
+<span class="s2">Sofa_8bd689dc	sofa</span>
+<span class="s2">Sofa_b5c02446	sofa</span>
+<span class="s2">Sofa_b5cc7b35	sofa</span>
+<span class="s2">Sofa_dcb895fb	sofa</span>
+<span class="s2">Sofa_eeda20bc	sofa</span>
+<span class="s2">Sofa_f3c3f4ca	sofa</span>
+<span class="s2">Statue_044984c5	statue</span>
+<span class="s2">Statue_0ba19690	statue</span>
+<span class="s2">Statue_24d96a63	statue</span>
+<span class="s2">Statue_5f1e0f9c	statue</span>
+<span class="s2">Statue_7e71d98f	statue</span>
+<span class="s2">Statue_8801228e	statue</span>
+<span class="s2">Statue_b7418b43	statue</span>
+<span class="s2">Statue_bc9ffa92	statue</span>
+<span class="s2">Statue_f6df1c73	statue</span>
+<span class="s2">TVStand_5591333a	TV stand</span>
+<span class="s2">TVStand_fa93c053	TV stand</span>
+<span class="s2">Teddy_Bear_1	teddy bear</span>
+<span class="s2">Teddy_Bear_2	teddy bear</span>
+<span class="s2">Television_002818f8	television</span>
+<span class="s2">Television_01800a8c	television</span>
+<span class="s2">Television_905e84a9	television</span>
+<span class="s2">Television_f5fb6360	television</span>
+<span class="s2">Television_f9d000b1	television</span>
+<span class="s2">Tennis_Racquet_4	tennis racquet</span>
+<span class="s2">TropicalPlantLarge (2)	plant	large tropical</span>
+<span class="s2">VaseBlue_808818c5	vase	blue</span>
+<span class="s2">VaseWhite_c6940b75	vase	white</span>
+<span class="s2">Vase_0cfbfb7f	vase</span>
+<span class="s2">Vase_58f3a922	vase</span>
+<span class="s2">Vase_75ce7b48	vase</span>
+<span class="s2">Vase_99a3f189	vase</span>
+<span class="s2">Vase_9c13a758	vase</span>
+<span class="s2">Vase_ba57ab3d	vase</span>
+<span class="s2">WallCabinet (1)	cabinet</span>
+<span class="s2">WallCabinet (2)	cabinet</span>
+<span class="s2">WallCabinet (3)	cabinet</span>
+<span class="s2">WallCabinet (4)	cabinet</span>
+<span class="s2">WallPainting3	painting</span>
+<span class="s2">WallPainting9	painting</span>
+<span class="s2">Watch_2ea293fb	watch</span>
+<span class="s2">Watch_2ee0717d	watch</span>
+<span class="s2">Watch_4a5a427b	watch</span>
+<span class="s2">WateringCan2_49d703aa	watering can</span>
+<span class="s2">WateringCan_76259cb4	watering can</span>
+<span class="s2">Watering_Can_2	watering can</span>
+<span class="s2">WhitePillow_f0273d63	pillow	white</span>
+<span class="s2">WhiteVase_17ed6b6a	vase	white</span>
+<span class="s2">YellowVase_Medium_5	vase	medium yellow</span>
+<span class="s2">YellowVase_Tall_4	vase	tall yellow</span>
+<span class="s2">garbageCan1	garbage can</span>
+<span class="s2">pillow_20	pillow</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/items.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">of</span><span class="p">:</span>
+    <span class="n">of</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">items</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
