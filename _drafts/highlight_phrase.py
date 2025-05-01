@@ -5,7 +5,7 @@ import re
 
 # === Config ===
 TSV_PATH = Path("/home/deichler/data/sgs_recordings/hsi/word_annotations/main/")
-INPUT_JSON = Path("/shared/mm_conv/meta_final_set/wutt/meta_pronomial_single_wutt.json")   # 👈 Replace this
+INPUT_JSON = Path("/shared/mm_conv/meta_final_set/wutt/meta_pronomial_single_wutt.json")       # 👈 Replace this
 OUTPUT_JSON = Path("meta_pronomial_single_wutt.json")  # 👈 Replace this
 
 HIGHLIGHT = '<span style="background-color: yellow;">{}</span>'

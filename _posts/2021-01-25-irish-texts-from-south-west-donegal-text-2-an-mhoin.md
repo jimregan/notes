@@ -21,11 +21,11 @@ The phonetic rules were mostly to help with automatic comparison, though the pla
 | Original       | Transcript   | Abair G2P     | Abair source | Adjusted word (standardised) | Adjusted Abair | Rule          |
 |----------------|--------------|---------------|--------------|------------------------------|----------------|---------------|
 | An             | ə            | ˈəɴˠ          | L            |                              |                |               |
-| dtiocfadh      | d′{ʒ}o̤ku    | ˈdʲokˠuː      | L            |                              |                |               |
+| dtiocfadh      | d′ᶾo̤ku       | ˈdʲokˠuː      | L            |                              |                |               |
 | leat           | L′at         | ˈlʲatˠ        | L            |                              |                |               |
 | innse          | ïΝ′ʃə       | ˈiˈɴʲʃe       |              | insint                       | ˌinʲˈʃinʲtʲ    |               |
 | domh           | du           | ˈdˠuː         | L            |                              |                |               |
-| caidé          | gəˈd′{ʒ}e:   | kˠəˈdʲeː      | L            |                              |                |               |
+| caidé          | gəˈd′ᶾe:      | kˠəˈdʲeː      | L            |                              |                |               |
 | n              | n            | nˠ            | L            |                              |                |               |
 | dóigh          | ˈdɔ:i        | ˈdˠoːj        | L            |                              |                |               |
 | a              | ə            | ə             | L            |                              |                |               |
