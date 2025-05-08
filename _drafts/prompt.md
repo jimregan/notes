@@ -1,9 +1,3 @@
-Got it. The grammar must explicitly handle **`&lt;` and `&gt;` as standalone tokens**, treating them as literal characters within the grammar itself.
-
-Here’s a more precise prompt:
-
----
-
 ### ✅ **Precise Prompt for Parsing Wikitext with Specific HTML Entities:**
 
 **Objective:**
@@ -35,7 +29,7 @@ Develop a grammar to parse Wikitext that accurately handles structured templates
 **Expected Output Structure:**
 
 * Templates are treated as structured objects with `name` and `args`.
-* `&lt;` and `&gt;` are preserved as literal text tokens.
+* `&lt;` and `&gt;` are parsed as literals, but not preserved.
 
 **Output Example:**
 
@@ -64,18 +58,14 @@ Develop a grammar to parse Wikitext that accurately handles structured templates
     }
   ],
   "text": [
-    "&lt;ref&gt;",
     {
       "name": "R:ga:Quiggin",
       "args": ["43"]
     },
-    "&lt;/ref&gt;",
-    "&lt;ref&gt;",
     {
       "name": "R:ga:SjPh",
       "args": ["30"]
     },
-    "&lt;/ref&gt;"
   ]
 }
 ```
@@ -93,11 +83,7 @@ Develop a grammar to parse Wikitext that accurately handles structured templates
 
 **Deliverables:**
 
-* Full grammar definition using `Parsimonious`, `Lark`, or another context-sensitive parser.
+* Full grammar definition using `Parsimonious`.
 * Parsing implementation that outputs the expected structure without interpreting entities.
 * Test cases based on the provided examples to validate parsing accuracy.
-
----
-
-Would you like further refinement, or is this ready for submission?
 
