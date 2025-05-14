@@ -43,9 +43,9 @@
 12	leobhtha	le	ADP	Prep	Number=Plur|Person=3	11	obl:prep	_	_
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = 1
-# text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh .
-# text_standard = Ghlac an Seónstanach Mór é air scór ceithre chnoc dhéag ime do rinneadh air fhichid bó an tSeónstanaigh .
+# sent_id = 4
+# text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh.
+# text_standard = Ghlac an Seónstanach Mór é air scór ceithre chnoc dhéag ime do rinneadh air fhichid bó an tSeónstanaigh.
 1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -56,7 +56,7 @@
 8	ceithre	ceathair	NUM	Num	NumType=Card	9	nummod	_	_
 9	chroc	cnoc	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
 10	dhéag	déag	NOUN	Subst	Case=Nom|Form=Len|Number=Sing	8	nmod	_	_
-11	ime	ime	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	do	do	PART	Vb	PartType=Vb	13	mark:prt	_	_
 13	dheánadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	9	acl:relcl	_	_
 14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	13	obl:prep	_	_
