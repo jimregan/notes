@@ -1,0 +1,44 @@
+# sent_id = 1
+# text = Áindrías an Ime.
+# text_standard = Aindrias an Ime.
+1	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
+2	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ime	im	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bhí Áindrías an Ime na chomhnaidhe i mBaile ui Mún i nGleann an Bhaile Dhuibh.
+# text_standard = Bhí Aindrias an Ime ina chónaí i mBaile uí Mún i nGleann an Bhaile Dhuibh.
+1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Ime	im	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
+5	na	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	case	_	_
+6	chomhnaidhe	cónaí	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
+7	i	i	ADP	Simp	_	8	case	_	_
+8	mBaile	Baile	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	6	nmod	_	_
+9	ui	uí	PART	Pat	PartType=Pat	8	flat	_	_
+10	Mún	Mún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	flat:name	_	_
+11	i	i	ADP	Simp	_	12	case	_	_
+12	nGleann	gleann	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	_
+13	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Bhaile	baile	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Dhuibh	Duibh	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	14	flat	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Bu leis Baile ui Mún, áit fiche bó ⁊ tarbh leobhtha.
+# text_standard = Ba leis Baile uí Mún, áit fiche bó ⁊ tarbh leo.
+1	Bu	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
+2	leis	le	ADP	Simp	_	3	case	_	_
+3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
+4	ui	uí	PART	Pat	PartType=Pat	3	flat:name	_	_
+5	Mún	Mún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	,	,	PUNCT	Punct	_	7	punct	_	_
+7	áit	áit	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
+8	fiche	fiche	NUM	Num	NumType=Card	9	nummod	_	_
+9	bó	bó	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
+10	⁊	⁊	ADP	Simp	_	11	case	_	_
+11	tarbh	tarbh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+12	leobhtha	le	ADP	Prep	Number=Plur|Person=3	3	obl:prep	_	_
+13	.	.	PUNCT	.	_	3	punct	_	_
