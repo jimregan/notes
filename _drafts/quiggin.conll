@@ -65,3 +65,29 @@
 17	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	tSeónstanaigh	Seónstanach	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
 19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Seachtmhain roimhe Shamhain chuaidh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air ghach gearrán fá choinne a chuid ime.
+# text_standard = Seachtain roimh Shamhain chuaigh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air gach gearrán faoi choinne a chuid ime.
+1	Seachtmhain	seachtain	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obl:tmod	_	_
+2	roimhe	roimh	ADP	Simp	_	3	case	_	_
+3	Shamhain	Samhain	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nmod	_	_
+4	chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	siar	siar	ADV	Dir	_	4	advmod	_	_
+8	⁊	⁊	CCONJ	Coord	_	10	cc	_	_
+9	seacht	seacht	NUM	Num	NumType=Card	10	nummod	_	_
+10	ngearráin	gearrán	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Plur	4	conj	_	_
+11	⁊	⁊	CCONJ	Coord	_	12	cc	_	_
+12	péire	péire	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+13	cliabh	cliabh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	12	obl:prep	_	_
+15	ghach	gach	DET	Det	Definite=Def	16	det	_	_
+16	gearrán	gearrán	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
+17	fá	faoi	ADP	Simp	_	18	case	_	_
+18	choinne	coinne	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	4	obl	_	_
+19	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	20	nmod:poss	_	_
+20	chuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	18	nmod	_	_
+21	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	.	_	4	punct	_	_
