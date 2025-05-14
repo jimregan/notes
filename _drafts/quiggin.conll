@@ -42,3 +42,26 @@
 11	tarbh	tarbh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 12	leobhtha	le	ADP	Prep	Number=Plur|Person=3	11	obl:prep	_	_
 13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 1
+# text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh .
+# text_standard = Ghlac an Seónstanach Mór é air scór ceithre chnoc dhéag ime do rinneadh air fhichid bó an tSeónstanaigh .
+1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+5	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+6	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
+7	scór	scór	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
+8	ceithre	ceathair	NUM	Num	NumType=Card	9	nummod	_	_
+9	chroc	cnoc	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
+10	dhéag	déag	NOUN	Subst	Case=Nom|Form=Len|Number=Sing	8	nmod	_	_
+11	ime	ime	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	do	do	PART	Vb	PartType=Vb	13	mark:prt	_	_
+13	dheánadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	9	acl:relcl	_	_
+14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	13	obl:prep	_	_
+15	fhichid	fichead	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	obj	_	_
+16	bó	bó	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
+17	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	tSeónstanaigh	Seónstanach	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_
