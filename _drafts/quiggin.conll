@@ -72,7 +72,7 @@
 
 # sent_id = 5
 # text = Seachtmhain roimhe Shamhain chuaidh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air ghach gearrán fá choinne a chuid ime.
-# text_standard = Seachtain roimh Shamhain chuaigh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air gach gearrán faoi choinne a chuid ime.
+# text_standard = Seachtain roimh Shamhain chuaigh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh ar gach gearrán faoi choinne a chuid ime.
 # text_phonetic = ʃαχtən ṟï̃və hα͠uwin′ χUi ə ʃo:Nstənαχ ʃiər αgəs ʃαχt ɲ′αræn′ αgəs p′eir′ə k′l′iuw er′ ꬶαχ g′αrαn fα χyN′ə ə χyd′ ïm′ə.
 1	Seachtmhain	seachtain	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 2	roimhe	roimh	ADP	Simp	_	3	case	_	_
@@ -86,8 +86,8 @@
 10	ngearráin	gearrán	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Plur	4	conj	_	_
 11	⁊	⁊	CCONJ	Coord	_	12	cc	_	_
 12	péire	péire	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
-13	cliabh	cliabh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
-14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	12	obl:prep	_	_
+13	cliabh	cliabhán	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	air	ar	ADP	Simp	_	16	case	_	_
 15	ghach	gach	DET	Det	Definite=Def	16	det	_	_
 16	gearrán	gearrán	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
 17	fá	faoi	ADP	Simp	_	18	case	_	_
@@ -101,7 +101,7 @@
 # text = D’fhiafraigh bean Áindriáis Mhóir de Áindrías, go dé gheánfaidh mé?
 # text_standard = D'fhiafraigh bean Aindriáis Mhór de Aindrias, cad é a dhéanfaidh mé?
 # text_phonetic = d′iəfri b′αn α:nṟæʃ wo:r′ də ꬶα:nṟαs, gəde: jα:n̥ə m′ə?
-1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
+1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
 2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 3	bean	bean	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	Áindriáis	Aindrias	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -116,3 +116,14 @@
 12	gheánfaidh	déan	VERB	VTI	Form=Len|Mood=Ind|Tense=Fut	9	csubj:cleft	_	_
 13	mé	mé	PRON	Pers	Number=Sing|Person=1	12	nsubj	_	_
 14	?	?	PUNCT	?	_	2	punct	_	_
+
+# sent_id = 7
+# text = Tá an t-im ithte agad.
+# text_standard = Tá an t-im ite agat.
+# text_phonetic = tα: N′ t′ïm′ ït′ əgəd.
+1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	t-im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	ithte	ite	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
+5	agad	ag	ADP	Prep	Number=Sing|Person=2	1	obl:prep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
