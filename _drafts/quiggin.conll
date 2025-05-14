@@ -402,6 +402,180 @@
 # text_standard = Rinneadh an margadh.
 1	Rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	margadh	margadh	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
+3	margadh	margadh	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 24
+# text = Thainic an t‑eallach scór go leith.
+# text_standard = Tháinig an t-eallach scór go leith.
+1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	scór	scór	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+5	go	go	ADP	Simp	_	6	case	_	_
+6	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 25
+# text = Chaith an t‑eallach a n‑am annsin go dtí an foghmhar.
+# text_standard = Chaith an t-eallach a n-am ansin go dtí an fómhar.
+1	Chaith	caith	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	_
+5	n-am	am	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obj	_	_
+6	annsin	ansin	ADV	Loc	_	1	advmod	_	_
+7	go	go	ADP	Cmpd	PrepForm=Cmpd	10	case	_	_
+8	dtí	dtí	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	7	fixed	_	_
+9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	foghmhar	fómhar	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl:tmod	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 26
+# text = Thug an Seónstanach leis iad go h‑aonach an fhoghmhair Bhealach Seanaidh é fhéin ⁊ Áindrías leis.
+# text_standard = Thug an Seónstanach leis iad go haonach an fhómhair Bhealach Seanaidh é féin agus Aindrias leis .
+1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
+5	iad	iad	PRON	Pers	Number=Plur|Person=3	1	obj	_	_
+6	go	go	PART	Ad	PartType=Ad	7	mark:prt	_	_
+7	h-aonach	aonach	ADJ	Adj	Degree=Pos|Form=HPref	1	advmod	_	_
+8	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fhoghmhair	fómhar	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	obj	_	_
+10	Bhealach	bealach	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Seanaidh	seanaí	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+13	fhéin	féin	PRON	Ref	Reflex=Yes	12	nmod	_	_
+14	⁊	agus	CCONJ	Coord	_	15	cc	_	_
+15	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	_
+16	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	15	obl:prep	_	_
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 27
+# text = Dhíol sé an t‑eallach le Connachtach ⁊ dubhairt an Connachtach: is mor an náire nach bhfuil eallach níos fearr agaibh ná tá.
+# text_standard = Dhíol sé an t-eallach le Connachtach agus dúirt an Connachtach: is mór an náire nach bhfuil eallach níos fearr agaibh ná atá.
+1	Dhíol	díol	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
+5	le	le	PART	Pat	PartType=Pat	4	appos	_	_
+6	Connachtach	Connachtach	ADJ	Adj	Degree=Pos	4	amod	_	_
+7	⁊	agus	CCONJ	Coord	_	8	cc	_	_
+8	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	1	conj	_	_
+9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Connachtach	connachtach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	:	:	PUNCT	Punct	_	13	punct	_	_
+12	is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	13	cop	_	_
+13	mor	mór	ADJ	Adj	Degree=Pos	1	parataxis	_	_
+14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	náire	náire	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	_
+16	nach	nach	PART	Vb	Form=Direct|PartType=Vb|Polarity=Neg|PronType=Rel	17	mark:prt	_	_
+17	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Polarity=Neg|Tense=Pres	15	acl:relcl	_	_
+18	eallach	eallach	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	níos	níos	PART	Cmp	PartType=Comp	20	mark:prt	_	_
+20	fearr	maith	ADJ	Adj	Degree=Cmp,Sup	18	amod	_	_
+21	agaibh	ag	ADP	Prep	Number=Plur|Person=2	17	obl:prep	_	_
+22	ná	ná	CCONJ	Coord	_	23	mark	_	_
+23	tá	bí	VERB	PresInd	Form=Direct|Mood=Ind|PronType=Rel|Tense=Pres	17	conj	_	_
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 28
+# text = Acht ní’l áit an bhídh ann bhur gcuid eallaigh na ann bhur ndaoiní.
+# text_standard = Ach níl áit an bhia ann bhur gcuid eallaigh na ann bhur ndaoine .
+1	Acht	ach	SCONJ	Subord	_	2	mark	_	_
+2	ní'l	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	_	root	_	_
+3	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bhídh	bia	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	xcomp:pred	_	_
+7	bhur	bhur	DET	Det	Number=Plur|Person=2|Poss=Yes	8	nmod:poss	_	_
+8	gcuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	2	obj	_	_
+9	eallaigh	eallach	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	na	an	DET	Art	Case=Gen|Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ann	ann	NOUN	Noun	Case=Gen|Definite=Def|Number=Sing	13	case	_	_
+12	bhur	bhur	DET	Det	Number=Plur|Person=2|Poss=Yes	13	nmod:poss	_	_
+13	ndaoiní	duine	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	2	obl	_	_
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 29
+# text = Dubhairt an Seónstanach go robh eallach agus daoiní ocú co maith ⁊ bhí i gConnachta agus a ghlacadh a mbiadh co maith fosta. 
+
+# sent_id = 30
+# text = Phléideáil an Seónstanach ⁊ an Connachtach air feadh tamaill agus chuir siad geall thrí leath-ghuinea cia ocú buachaill an Chonnachtaigh no buachaill an Seónstanaigh is mó d’íosadh de im. 
+
+# sent_id = 31
+# text = H‑innsigheadh an scéal do Áindrías agus do bhuachaill an Chonnachtaigh ⁊ dubhairt an bheirt gur mhaith mar tharlaidh, go robh a sáith ocrais orrthú. 
+
+# sent_id = 32
+# text = Chuaidh siad isteach i dteach an ósta. 
+
+# sent_id = 33
+# text = Fiafruigheadh diobhtha go dé d’iosadh siad le n‑a gcuid ime. 
+
+# sent_id = 34
+# text = Dubhairt an bheirt: Arán min choirce agus préataí. 
+
+# sent_id = 35
+# text = Fuaras sin dóbhtha. 
+
+# sent_id = 36
+# text = Fiafraigheadh díobhtha go dé an mhéid ime. 
+
+# sent_id = 37
+# text = Dubhairt Áindrías ceathramhadh cloiche. 
+
+# sent_id = 38
+# text = Níor bhfhada go robh sin críochnaighthe. 
+
+# sent_id = 39
+# text = Ghair Áindrías ceathramhadh cloiche eile do gach aon ocú. 
+
+# sent_id = 40
+# text = Nuair a thainic an t‑im, bhuail Áindrías dorn air an bhórd ⁊ dubhairt nach robh ceart dha dheánamh le ceachtar ocú. 
+
+# sent_id = 41
+# text = Gur cheart dóbhtha deoch fhagháil. 
+
+# sent_id = 42
+# text = Fiafraigheadh go dé an deoch ⁊ dubhairt sé: Deoch ime. 
+
+# sent_id = 43
+# text = Go dé an mhéid ime? 
+
+# sent_id = 44
+# text = Léighigidh ceathramhadh cloiche an fear dúinn. 
+
+# sent_id = 45
+# text = Thainic sé léighte ⁊ ann dhá bpigín. 
+
+# sent_id = 46
+# text = D’ól Áindrías deoch ⁊ d’iarr sé na préataí ⁊ an t‑arán do thabhairt leóbhtha as an chasán, go bhfaghadh sé a chuid do dheánamh. 
+
+# sent_id = 47
+# text = Rug sé air fhód de’n im ann a dhorn. 
+
+# sent_id = 48
+# text = Chuir sé ann a bhéil é. 
+
+# sent_id = 49
+# text = Bhain sé greim mór as. 
+
+# sent_id = 50
+# text = D’ól sé bolgam as an phigín. 
+
+# sent_id = 51
+# text = Dhóirt cuid de’n im anuas fríd an fhéasóig mhóir. 
+
+# sent_id = 52
+# text = As ocht Dé, a mháighistir! féach anonn air. 
+
+# sent_id = 53
+# text = Ní fhéadaim do bhéith beó ag amharc air an bheathach shalach. 
+
+# sent_id = 54
+# text = Díol an geall ⁊ an tráth rachaidh muid abhaile íocfaidh mé fhéin a leath. 
+
+# sent_id = 55
+# text = Bhain Áindrías an geall acht d’fhág sé Áindrías an Ime mar ainm air go bhfhuair sé bás. 
 
