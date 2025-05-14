@@ -628,7 +628,19 @@
 # text = Dhóirt cuid de’n im anuas fríd an fhéasóig mhóir. 
 
 # sent_id = 52
-# text = As ocht Dé, a mháighistir! féach anonn air. 
+# text = As ocht Dé, a mháighistir! féach anonn air.
+# text_standard = As ucht Dé, a mháistir! féach anonn air.
+1	As	as	ADP	Simp	_	_	root	_	_
+2	ocht	ucht	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Dé	Dé	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	Punct	_	6	punct	_	_
+5	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
+6	mháighistir	máistir	NOUN	Noun	Case=Voc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	Punct	_	8	punct	_	_
+8	féach	féach	VERB	VTI	Mood=Imp|Number=Sing|Person=2	1	parataxis	_	_
+9	anonn	anonn	ADV	Dir	_	8	advmod	_	_
+10	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	8	obl:prep	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 53
 # text = Ní fhéadaim do bhéith beó ag amharc air an bheathach shalach. 
