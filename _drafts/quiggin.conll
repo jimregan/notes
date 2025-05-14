@@ -91,3 +91,20 @@
 20	chuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	18	nmod	_	_
 21	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
 22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 6
+# text = D’fhiafraigh bean Áindriáis Mhóir de Áindrías, go dé gheánfaidh mé?
+# text_standard = D'fhiafraigh bean Áindriáis Mhór de Aindrias, go dé déanfaidh mé?
+1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
+2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+3	bean	bean	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	Áindriáis	áindriás	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Mhóir	mór	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	3	amod	_	_
+6	de	de	PART	Pat	PartType=Pat	3	flat:name	_	_
+7	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	,	,	PUNCT	Punct	_	10	punct	_	_
+9	go	go	ADP	Simp	_	10	case	_	_
+10	dé	dé	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	obl:tmod	_	_
+11	gheánfaidh	déan	VERB	VTI	Mood=Ind|Tense=Fut	2	conj	_	_
+12	mé	mé	PRON	Pers	Number=Sing|Person=1	11	nsubj	_	_
+13	?	?	PUNCT	?	_	2	punct	_	_
