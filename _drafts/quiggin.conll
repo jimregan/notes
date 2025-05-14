@@ -101,6 +101,7 @@
 # text = D’fhiafraigh bean Áindriáis Mhóir de Áindrías, go dé gheánfaidh mé?
 # text_standard = D'fhiafraigh bean Aindriáis Mhór de Aindrias, cad é a dhéanfaidh mé?
 # text_phonetic = d′iəfri b′αn α:nṟæʃ wo:r′ də ꬶα:nṟαs, gəde: jα:n̥ə m′ə?
+# text_ipa = dʲiəfˠɾˠiː bʲan̪ˠ ? [mˠoːɾˠ] dʲə ?, ɡədʲeː ? mʲə?
 1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
 2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 3	bean	bean	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -121,9 +122,75 @@
 # text = Tá an t-im ithte agad.
 # text_standard = Tá an t-im ite agat.
 # text_phonetic = tα: N′ t′ïm′ ït′ əgəd.
+# text_ipa = ? n̠ʲ tʲɨmʲ ɨtʲ əɡəd̪ˠ.
 1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	_	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	ithte	ite	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
 5	agad	ag	ADP	Prep	Number=Sing|Person=2	1	obl:prep	_	_
 6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = D'fhiafraigh Áindrías, bhfuil oiread ime agad a's gheánfadh sinn aniu?
+# text_standard = D'fhiafraigh Aindrias, bhfuil oiread ime agat agus dhéanfadh sinn inniu?
+1	D'fhiafraigh	d'fhiafraigh	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	,	,	PUNCT	Punct	_	4	punct	_	_
+4	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	1	parataxis	_	_
+5	oiread	oiread	NOUN	Subst	Case=Nom|Number=Sing	4	nsubj	_	_
+6	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	agad	ag	ADP	Prep	Number=Sing|Person=2	4	obl:prep	_	_
+8	a's	agus	CCONJ	Coord	_	9	cc	_	_
+9	gheánfadh	déan	VERB	VTI	Form=Len|Mood=Cnd	1	conj	_	_
+10	sinn	sinn	PRON	Pers	Number=Plur|Person=1	9	nsubj	_	_
+11	aniu	inniu	ADV	Temp	_	9	advmod	_	_
+12	?	?	PUNCT	?	_	1	punct	_	_
+
+# sent_id = 9
+# text = ⁊ dubhairt sise, tá.
+# text_standard = Agus dúirt sise, tá.
+1	⁊	agus	CCONJ	Coord	_	2	cc	_	_
+2	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+3	sise	sise	PRON	Pers	Gender=Fem|Number=Sing|Person=3|PronType=Emp	2	nsubj	_	_
+4	,	,	PUNCT	Punct	_	5	punct	_	_
+5	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	2	parataxis	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Nuair d’ith siad a sáith, dubhairt an Seónstanach, a Áindriáis, is cóir duid an solathar do thabhairt domh, ⁊ dubhairt Áindrías, ní’l solathar air bith agam.
+# text_standard = Nuair a d'ith siad a sáith, dúirt an Seónstanach, a Áindriáis, is cóir duit an soláthar a thabhairt dom, agus dúirt Aindrias, níl soláthar ar bith agam.
+1	Nuair	nuair	SCONJ	Subord	_	4	mark	_	_
+2-4	d'ith	_	_	_	_	_	_	_	_
+2	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	4	mark:prt	_	_
+3	d'	do	PART	Vb	PartType=Vb	4	mark:prt	_	_
+4	ith	ith	VERB	VTI	Mood=Ind|Tense=Past	9	advcl	_	_
+5	siad	siad	PRON	Pers	Number=Plur|Person=3	4	nsubj	_	_
+6	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	7	nmod:poss	_	_
+7	sáith	sáith	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	_
+8	,	,	PUNCT	Punct	_	9	punct	_	_
+9	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	Punct	_	14	punct	_	_
+13	a	a	PART	Voc	PartType=Voc	14	case:voc	_	_
+14	Áindriáis	Aindrias	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	vocative	_	_
+15	,	,	PUNCT	Punct	_	17	punct	_	_
+16	is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	17	cop	_	_
+17	cóir	cóir	ADJ	Adj	Degree=Pos	9	parataxis	_	_
+18	duid	do	ADP	Prep	Number=Sing|Person=2	17	obl:prep	_	_
+19	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	solathar	soláthar	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	22	obj	_	_
+21	a	a	PART	Inf	PartType=Inf	22	mark	_	_
+22	thabhairt	tabhairt	NOUN	Noun	Form=Len|VerbForm=Inf	17	csubj:cop	_	_
+23	domh	do	ADP	Prep	Number=Sing|Person=1	22	obl:prep	_	_
+24	,	,	PUNCT	Punct	_	25	punct	_	_
+25	⁊	agus	CCONJ	Coord	_	26	cc	_	_
+26	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	9	conj	_	_
+27	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	26	nsubj	_	_
+28	,	,	PUNCT	Punct	_	29	punct	_	_
+29	ní'l	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	26	ccomp	_	_
+30	solathar	soláthar	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+31	air	ar	ADP	Simp	_	30	nmod	_	_
+32	bith	bith	NOUN	Subst	Case=Nom|Gender=Masc|Number=Sing	31	fixed	_	_
+33	agam	ag	ADP	Prep	Number=Sing|Person=1	29	obl:prep	_	_
+34	.	.	PUNCT	.	_	9	punct	_	_
