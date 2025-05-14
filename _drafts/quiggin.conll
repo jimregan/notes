@@ -38,7 +38,7 @@
 7	áit	áit	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
 8	fiche	fiche	NUM	Num	NumType=Card	9	nummod	_	_
 9	bó	bó	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	7	nmod	_	_
-10	⁊	⁊	ADP	Simp	_	11	case	_	_
-11	tarbh	tarbh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
-12	leobhtha	le	ADP	Prep	Number=Plur|Person=3	3	obl:prep	_	_
+10	⁊	⁊	CCONJ	Coord	_	11	cc	_	_
+11	tarbh	tarbh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+12	leobhtha	le	ADP	Prep	Number=Plur|Person=3	11	obl:prep	_	_
 13	.	.	PUNCT	.	_	3	punct	_	_
