@@ -1,6 +1,7 @@
 # sent_id = 1
 # text = Áindrías an Ime.
 # text_standard = Aindrias an Ime.
+# text_phonetic = α:nṟαs ə N′ïm′ə.
 1	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
 2	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Ime	im	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
@@ -9,6 +10,7 @@
 # sent_id = 2
 # text = Bhí Áindrías an Ime na chomhnaidhe i mBaile ui Mún i nGleann an Bhaile Dhuibh.
 # text_standard = Bhí Aindrias an Ime ina chónaí i mBaile uí Mún i nGleann an Bhaile Dhuibh.
+# text_phonetic = vi: α:nṟαs ə N′ïm′ə Nα χõ:ni: ə mwel′ i: ·mũ:n ə ɲl′αN ə wel′ə ꬶïv.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -29,6 +31,7 @@
 # sent_id = 3
 # text = Bu leis Baile ui Mún, áit fiche bó ⁊ tarbh leobhtha.
 # text_standard = Ba leis Baile uí Mún, áit fiche bó ⁊ tarbh leo.
+# text_phonetic = bə l′eʃ bwel′ i: mũ:n α:t′ f′ihə bɔ: αgəs tαruw l′ɔ:fə.
 1	Bu	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	leis	le	ADP	Simp	_	3	case	_	_
 3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
@@ -45,23 +48,24 @@
 
 # sent_id = 4
 # text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh.
-# text_standard = Ghlac an Seónstanach Mór é air scór ceithre chnoc dhéag ime do rinneadh air fhichid bó an tSeónstanaigh.
+# text_standard = Ghlac an Seónstanach Mór é ar scór ceithre chroca dhéag ime a rinneadh ar fhichid bó an tSeónstanaigh.
+# text_phonetic = ꬶlαk ə ʃo:Nstənαχ mo:r ɛ ɛr skɔ:r k′er′ə χrɔk jɛəg ïm′ ə jα:nuw er′ ihid(′) bɔ: N′ t′o:Nstəni:.
 1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	Mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 5	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	obj	_	_
-6	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
-7	scór	scór	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	9	case	_	_
+6	air	ar	ADP	Simp	_	7	case	_	_
+7	scór	scór	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
 8	ceithre	ceathair	NUM	Num	NumType=Card	9	nummod	_	_
-9	chroc	cnoc	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
+9	chroc	croca	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
 10	dhéag	déag	NOUN	Subst	Case=Nom|Form=Len|Number=Sing	8	nmod	_	_
 11	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-12	do	do	PART	Vb	PartType=Vb	13	mark:prt	_	_
+12	do	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	13	obj	_	_
 13	dheánadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	9	acl:relcl	_	_
-14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	13	obl:prep	_	_
-15	fhichid	fichead	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	obj	_	_
-16	bó	bó	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
+14	air	ar	ADP	Simp	_	15	case	_	_
+15	fhichid	fichead	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	obl	_	_
+16	bó	bó	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 17	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	tSeónstanaigh	Seónstanach	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	_
 19	.	.	PUNCT	.	_	1	punct	_	_
@@ -69,6 +73,7 @@
 # sent_id = 5
 # text = Seachtmhain roimhe Shamhain chuaidh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air ghach gearrán fá choinne a chuid ime.
 # text_standard = Seachtain roimh Shamhain chuaigh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air gach gearrán faoi choinne a chuid ime.
+# text_phonetic = ʃαχtən ṟï̃və hα͠uwin′ χUi ə ʃo:Nstənαχ ʃiər αgəs ʃαχt ɲ′αræn′ αgəs p′eir′ə k′l′iuw er′ ꬶαχ g′αrαn fα χyN′ə ə χyd′ ïm′ə.
 1	Seachtmhain	seachtain	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 2	roimhe	roimh	ADP	Simp	_	3	case	_	_
 3	Shamhain	Samhain	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -94,17 +99,20 @@
 
 # sent_id = 6
 # text = D’fhiafraigh bean Áindriáis Mhóir de Áindrías, go dé gheánfaidh mé?
-# text_standard = D'fhiafraigh bean Áindriáis Mhór de Aindrias, go dé déanfaidh mé?
-1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
+# text_standard = D'fhiafraigh bean Aindriáis Mhór de Aindrias, cad é a dhéanfaidh mé?
+# text_phonetic = d′iəfri b′αn α:nṟæʃ wo:r′ də ꬶα:nṟαs, gəde: jα:n̥ə m′ə?
+1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
 2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 3	bean	bean	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
-4	Áindriáis	áindriás	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+4	Áindriáis	Aindrias	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	Mhóir	mór	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	3	amod	_	_
 6	de	de	PART	Pat	PartType=Pat	3	flat:name	_	_
-7	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	flat:name	_	_
-8	,	,	PUNCT	Punct	_	10	punct	_	_
-9	go	go	ADP	Simp	_	10	case	_	_
-10	dé	dé	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	obl:tmod	_	_
-11	gheánfaidh	déan	VERB	VTI	Mood=Ind|Tense=Fut	2	conj	_	_
-12	mé	mé	PRON	Pers	Number=Sing|Person=1	11	nsubj	_	_
-13	?	?	PUNCT	?	_	2	punct	_	_
+7	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	3	flat:name	_	_
+8	,	,	PUNCT	Punct	_	9	punct	_	_
+9-11	go dé	_	_	_	_	_	_	_	_
+9	cad	cad	PRON	Q	PronType=Int	2	ccomp	_	_
+10	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+11	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	12	mark:prt	_	_
+12	gheánfaidh	déan	VERB	VTI	Form=Len|Mood=Ind|Tense=Fut	9	csubj:cleft	_	_
+13	mé	mé	PRON	Pers	Number=Sing|Person=1	12	nsubj	_	_
+14	?	?	PUNCT	?	_	2	punct	_	_
