@@ -499,10 +499,70 @@
 14	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 29
-# text = Dubhairt an Seónstanach go robh eallach agus daoiní ocú co maith ⁊ bhí i gConnachta agus a ghlacadh a mbiadh co maith fosta. 
+# text = Dubhairt an Seónstanach go robh eallach agus daoiní ocú co maith ⁊ bhí i gConnachta agus a ghlacadh a mbiadh co maith fosta.
+# text_standard = Dúirt an Seónstanach go raibh eallach agus daoine acu chomh maith agus bhí i gConnachta agus a ghlacadh a mbeadh chomh maith fosta.
+# fixme = bhí -> a bhí?
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	go	go	PART	Vb	PartType=Cmpl	5	mark:prt	_	_
+5	robh	bí	VERB	PastInd	Mood=Ind|Tense=Past	1	ccomp	_	_
+6	eallach	eallach	NOUN	Noun	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	agus	agus	CCONJ	Coord	_	8	cc	_	_
+8	daoiní	duine	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+9	ocú	ag	ADP	Prep	Number=Plur|Person=3	5	obl:prep	_	_
+10	co	chomh	ADV	Its	_	5	advmod	_	_
+11	maith	maith	ADJ	Adj	Degree=Pos	10	fixed	_	_
+12	⁊	agus	CCONJ	Coord	_	13	cc	_	_
+13	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	5	conj	_	_
+14	i	i	ADP	Simp	_	15	case	_	_
+15	gConnachta	Connachta	PROPN	Noun	Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	13	obl	_	_
+16	agus	agus	CCONJ	Coord	_	18	cc	_	_
+17	a	a	PART	Inf	PartType=Inf	18	mark	_	_
+18	ghlacadh	glacadh	NOUN	Noun	Form=Len|VerbForm=Inf	13	conj	_	_
+19	a	a	PART	Vb	Form=Indirect|PartType=Vb|PronType=Rel	20	nsubj	_	_
+20	mbiadh	bí	VERB	Cond	Form=Ecl|Mood=Cnd	18	acl:relcl	_	_
+21	co	chomh	ADV	Its	_	20	advmod	_	_
+22	maith	maith	ADJ	Adj	Degree=Pos	21	fixed	_	_
+23	fosta	fosta	ADV	Gn	_	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 30
-# text = Phléideáil an Seónstanach ⁊ an Connachtach air feadh tamaill agus chuir siad geall thrí leath-ghuinea cia ocú buachaill an Chonnachtaigh no buachaill an Seónstanaigh is mó d’íosadh de im. 
+# text = Phléideáil an Seónstanach ⁊ an Connachtach air feadh tamaill agus chuir siad geall thrí leath-ghuinea cia ocú buachaill an Chonnachtaigh no buachaill an Seónstanaigh is mó d’íosadh de im.
+# text_standard = Phléadáil an Seónstanach agus an Connachtach ar feadh tamaill agus chuir siad geall thrí leathghine cé acu buachaill an Chonnachtaigh nó buachaill an Seónstanaigh is mó a do íosfadh de ime .
+1	Phléideáil	pléadáil	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	⁊	agus	CCONJ	Coord	_	6	cc	_	_
+5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Connachtach	connachtach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	_
+7	air	ar	ADP	Cmpd	PrepForm=Cmpd	9	case	_	_
+8	feadh	feadh	NOUN	Cmpd	Case=Nom|Gender=Masc|Number=Sing|PrepForm=Cmpd	7	fixed	_	_
+9	tamaill	tamall	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	1	obl:tmod	_	_
+10	agus	agus	CCONJ	Coord	_	11	cc	_	_
+11	chuir	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
+12	siad	siad	PRON	Pers	Number=Plur|Person=3	11	nsubj	_	_
+13	geall	geall	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+14	thrí	trí	NUM	Num	Form=Len|NumType=Card	15	nummod	_	_
+15	leath-ghuinea	leathghine	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	_
+16	cia	cé	PRON	Q	PronType=Int	11	ccomp	_	_
+17	ocú	ag	ADP	Prep	Number=Plur|Person=3	16	obl:prep	_	_
+18	buachaill	buachaill	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Chonnachtaigh	connachtach	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	18	nmod	_	_
+21	no	nó	CCONJ	Coord	_	22	cc	_	_
+22	buachaill	buachaill	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	conj	_	_
+23	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Seónstanaigh	Seónstanach	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	_
+25	is	is	PART	Sup	PartType=Sup	26	mark:prt	_	_
+26	mó	mór	ADJ	Adj	Degree=Sup	24	amod	_	_
+27-29	d'íosadh	_	_	_	_	_	_	_	_
+27	_	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	29	nsubj	_	_
+28	d'	do	PART	Vb	PartType=Vb	29	mark:prt	_	SpaceAfter=No
+29	íosadh	ith	VERB	VTI	Mood=Cnd	24	acl:relcl	_	_
+30	de	de	ADP	Simp	_	31	case	_	_
+31	ime	im	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 31
 # text = H‑innsigheadh an scéal do Áindrías agus do bhuachaill an Chonnachtaigh ⁊ dubhairt an bheirt gur mhaith mar tharlaidh, go robh a sáith ocrais orrthú. 
