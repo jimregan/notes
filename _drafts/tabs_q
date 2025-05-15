@@ -205,8 +205,8 @@ https://chatgpt.com/c/67e93d80-421c-8011-8747-7294f0cf4cbb
 Kongen_Befaler_S11_E06.mp4 - Google Drive
 https://drive.google.com/file/d/1brgYzdIRDVi3nuiu-7-CQkhaT4cFRSHM/view
 
-stanza parser - Google Search
-https://www.google.com/search?q=stanza+parser&rlz=1C5GCCM_en&oq=stanza+parser&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIHCAcQABjvBdIBCDIxNDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Dependensparsningsmodell: Stanza | Språkbanken Text
+https://spraakbanken.gu.se/resurser/stanza_synt
 
 Dependency parsing model: Stanza | Språkbanken Text
 https://spraakbanken.gu.se/en/resources/stanza_synt
@@ -226,56 +226,11 @@ https://cl.lingfil.uu.se/~nivre/swedish_treebank/#synt
 Language Models | CLARIN ERIC
 https://www.clarin.eu/resource-families/language-models
 
-Swedish UD
-https://universaldependencies.org/sv/
-
-aux:pass
-https://universaldependencies.org/sv/dep/aux-pass.html
-
-nsubj:pass
-https://universaldependencies.org/sv/dep/nsubj-pass.html
-
-obl:agent
-https://universaldependencies.org/sv/dep/obl-agent.html
-
-compound:prt
-https://universaldependencies.org/sv/dep/compound-prt.html
-
-acl:cleft
-https://universaldependencies.org/sv/dep/acl-cleft.html
-
-acl:relcl
-https://universaldependencies.org/sv/dep/acl-relcl.html
-
-UD_Swedish-Talbanken
-https://universaldependencies.org/treebanks/sv_talbanken/index.html
-
-UD_Swedish-Talbanken/sv_talbanken-ud-test.conllu at master · UniversalDependencies/UD_Swedish-Talbanken
-https://github.com/UniversalDependencies/UD_Swedish-Talbanken/blob/master/sv_talbanken-ud-test.conllu
-
-reparandum
-https://universaldependencies.org/u/dep/reparandum.html
-
-Model Performance - Stanza
-https://stanfordnlp.github.io/stanza/performance.html
-
-UniversalDependencies/UD_Irish-IDT: Irish data
-https://github.com/UniversalDependencies/UD_Irish-IDT/tree/master
-
-UD_Irish-Cadhan/ga_cadhan-ud-test.conllu at master · UniversalDependencies/UD_Irish-Cadhan
-https://github.com/UniversalDependencies/UD_Irish-Cadhan/blob/master/ga_cadhan-ud-test.conllu
-
 UD_Irish-Cadhan/ga_cadhan-ud-test.conllu at master · UniversalDependencies/UD_Irish-Cadhan
 https://github.com/UniversalDependencies/UD_Irish-Cadhan/blob/master/ga_cadhan-ud-test.conllu
 
 dppsi.pdf
 https://kevinscannell.com/files/dppsi.pdf
-
-Stanza projection example
-https://chatgpt.com/c/68224af6-8670-8011-8b31-4be424de7f6d
-
-Foclóir Gaeilge–Béarla (Ó Dónaill): sáith
-https://www.teanglann.ie/en/fgb/s%c3%a1ith
 
 A Dialect of Donegal/Texts/Eóin Ua Míodhchán agus an Sionnach - Wikisource, the free online library
 https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/E%C3%B3in_Ua_M%C3%ADodhch%C3%A1n_agus_an_Sionnach
@@ -289,26 +244,8 @@ https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/%C3%81indr%C3%ADas_an_
 Page:Quiggin Dialect of Donegal 0197.png - Wikisource, the free online library
 https://en.wikisource.org/wiki/Page:Quiggin_Dialect_of_Donegal_0197.png
 
-baile ui mun - Google Search
-https://www.google.com/search?q=baile+ui+mun&rlz=1C5GCCM_en&oq=baile+ui+mun&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAjIHCAUQIRiPAtIBCDM3NzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-In the Room With Pearl Jam: Mike McCready & Jeff Ament Interview - YouTube
-https://www.youtube.com/watch?v=_diG9PZ3CKI
-
 Typos and Other Errors in Underlying Text
 https://universaldependencies.org/u/overview/typos.html
-
-Other Constructions
-https://universaldependencies.org/u/overview/specific-syntax.html#ellipsis
-
-Tokenization and Word Segmentation
-https://universaldependencies.org/u/overview/tokenization.html
-
-Polite
-https://universaldependencies.org/u/feat/Polite.html
-
-Aspect
-https://universaldependencies.org/u/feat/Aspect.html
 
 Untitled55.ipynb - Colab
 https://colab.research.google.com/drive/1KEf2SblHnqcX7ww3_pxRYoPQOkCJaI4U#scrollTo=UN_fTbWH-Cnp
@@ -316,106 +253,100 @@ https://colab.research.google.com/drive/1KEf2SblHnqcX7ww3_pxRYoPQOkCJaI4U#scroll
 notebook92555ee8b4 | Kaggle
 https://www.kaggle.com/code/jimregan/notebook92555ee8b4/edit
 
-notebook92555ee8b4
-https://www.kaggle.com/code/jimregan/notebook92555ee8b4?scriptVersionId=239501309
+Kaggle Notebook Editor
+https://www.kaggle.com/code/jimregan/notebook92555ee8b4/edit/run/239501309
 
 UniversalDependencies/UD_Swedish-Talbanken: Swedish data
 https://github.com/UniversalDependencies/UD_Swedish-Talbanken
 
-stanza/stanza/models/common/doc.py at main · stanfordnlp/stanza
-https://github.com/stanfordnlp/stanza/blob/main/stanza/models/common/doc.py#L51
-
 Learn Computer Vision | Kaggle
 https://www.kaggle.com/learn/computer-vision
 
-Data Conversion - Stanza
-https://stanfordnlp.github.io/stanza/data_conversion.html
-
-stanza/stanza/models/tokenizer.py at main · stanfordnlp/stanza
-https://github.com/stanfordnlp/stanza/blob/main/stanza/models/tokenizer.py
-
-Gleann an Bhaile Dhuibh | logainm.ie
-https://www.logainm.ie/en/1415845
-
-Irish Grammar Database: leathghine
-https://www.teanglann.ie/en/gram/leathghine
-
-pairc ui chaoimh - Google Search
-https://www.google.com/search?q=pairc+ui+chaoimh&rlz=1C5GCCM_en&oq=pairc+ui&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDINCAYQLhivARjHARiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDE4NzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Day in Greece - ARTparty (incl. 15% discount on food menu) | ARTparty Sweden
-https://www.art-party.se/event-details/day-in-greece-artparty-incl-15-discount-on-food-menu
-
-Division of Speech, Music and Hearing - KTH to Clarion Hotel Stockholm - Google Maps
-https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/Ringv%C3%A4gen+98,+118+60+Stockholm/@59.3270358,18.024459,13z/data=!3m2!4b1!5s0x465f77f41a2297d1:0x52850b4718b86e78!4m13!4m12!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f77f41d0ba4c1:0x67251d51c25e6041!2m2!1d18.0748087!2d59.3070649?entry=ttu&g_ep=EgoyMDI1MDUxMS4wIKXMDSoASAFQAw%3D%3D
-
-gheánfaidh - Google Search
-https://www.google.com/search?q=ghe%C3%A1nfaidh&rlz=1C5GCCM_en&oq=ghe%C3%A1nfaidh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEHMTQwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
-
-The Daltaí Boards: Is it folly to try and learn the lesser used dialects of Irish?
-https://www.daltai.com/discus/messages/13510/36780.html?1231559643
-
-gaelspell/riaalts.txt at master · kscanne/gaelspell
-https://github.com/kscanne/gaelspell/blob/master/riaalts.txt
-
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=Ghlac%20an%20Se%C3%B3nstanach%20M%C3%B3r%20%C3%A9%20ar%20sc%C3%B3r%20ceithre%20chroc%20dh%C3%A9ag%20ime%20a%20rinneadh%20ar%20fhichid%20b%C3%B3%20an%20tSe%C3%B3nstanaigh.&op=translate
-
-Morphology
-https://universaldependencies.org/u/overview/morphology.html
-
-CBT Steps Overview
+CBT - CBT Steps Overview
 https://chatgpt.com/c/67e93d80-421c-8011-8747-7294f0cf4cbb
 
+Blog 34 - 🌟A very inspiring person | Egy nagyon inspiráló személy - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
+https://mail.google.com/mail/u/3/#search/is%3Aunread/FMfcgzQbdrQQSQkVFZrbZKfqSGtcRksw
+
+Home | Patreon
+https://www.patreon.com/home
+
+Tokenization & Sentence Segmentation - Stanza
+https://stanfordnlp.github.io/stanza/tokenize.html
+
+Tokenization & Sentence Segmentation - Stanza
+https://stanfordnlp.github.io/stanza/tokenize.html
+
+Pipeline and Processors - Stanza
+https://stanfordnlp.github.io/stanza/pipeline.html
+
+How to find which processors are available for which languages · Issue #1214 · stanfordnlp/stanza
+https://github.com/stanfordnlp/stanza/issues/1214
+
+Jimín Mháire Thaidhg - Leathanach 1 | Leigh Leat
+https://www.leighleat.com/pages/181
+
+UD Treebank External Data
+https://chatgpt.com/c/6825f0a8-b8b8-8011-8af3-ea99fc6a752e
+
+UD_English-ESL/README.md at master · UniversalDependencies/UD_English-ESL
+https://github.com/UniversalDependencies/UD_English-ESL/blob/master/README.md
+
+UniversalDependencies/UD_English-EWT: English data
+https://github.com/UniversalDependencies/UD_English-EWT
+
+UniversalDependencies repositories
+https://github.com/orgs/UniversalDependencies/repositories?type=all&page=3
+
+UniversalDependencies/UD_English-CHILDES
+https://github.com/UniversalDependencies/UD_English-CHILDES
+
+UniversalDependencies/UD_Czech-PDTC: Czech data
+https://github.com/UniversalDependencies/UD_Czech-PDTC
+
+UniversalDependencies/UD_Warlpiri-UFAL
+https://github.com/UniversalDependencies/UD_Warlpiri-UFAL
+
+UniversalDependencies/UD_Upper_Sorbian-UFAL: Upper Sorbian data.
+https://github.com/UniversalDependencies/UD_Upper_Sorbian-UFAL
+
+UD_Ukrainian-IU/uk_iu-ud-train.conllu at master · UniversalDependencies/UD_Ukrainian-IU
+https://github.com/UniversalDependencies/UD_Ukrainian-IU/blob/master/uk_iu-ud-train.conllu
+
+UD_Swedish_Sign_Language-SSLC/swl_sslc-ud-test.conllu at master · UniversalDependencies/UD_Swedish_Sign_Language-SSLC
+https://github.com/UniversalDependencies/UD_Swedish_Sign_Language-SSLC/blob/master/swl_sslc-ud-test.conllu
+
+UniversalDependencies/UD_Swedish-Talbanken: Swedish data
+https://github.com/UniversalDependencies/UD_Swedish-Talbanken
+
+UD_Slovenian-SST/sl_sst-ud-test.conllu at master · UniversalDependencies/UD_Slovenian-SST
+https://github.com/UniversalDependencies/UD_Slovenian-SST/blob/master/sl_sst-ud-test.conllu
+
 Day in Greece - ARTparty (incl. 15% discount on food menu) | ARTparty Sweden
 https://www.art-party.se/event-details/day-in-greece-artparty-incl-15-discount-on-food-menu
 
-Google Accounts
-https://accounts.google.com/b/1/AddMailService
+"universal dependencies" merge.py - Google Search
+https://www.google.com/search?q=%22universal+dependencies%22+merge.py&sca_esv=255bbd3e2019d6ad&rlz=1C5GCCM_en&sxsrf=AHTn8zomHMIWoncB_YDcn_Lh8vD0_ik5sA:1747319066964&ei=GvklaL3KOvG2wPAPhpLNuAI&start=10&sa=N&sstk=Af40H4Xv6GNcEV9ISGpOmvnSHiu0q19XxHeymMIESwNb9A9rMn52lCnw7k7mSehJCg5eiaY6GIKQx3nwhrDHZ_JKA6uKLizTdd8MGg&ved=2ahUKEwi9v67i1qWNAxVxGxAIHQZJEycQ8NMDegQIChAW&biw=1440&bih=728&dpr=2
 
-Reminder: Your Timeline will be deleted after May 14, 2025 - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
-https://mail.google.com/mail/u/3/#search/is%3Aunread/FMfcgzQbfBsdJgRSdSmpTDRMdCgxFvKh
+UD tools
+https://universaldependencies.org/tools.html
 
-Timeline
-https://timeline.google.com/maps/timeline?ved=0EPO3DAgAKAA&pb=!1m2!1m1!1s2025-05-15&pli=1&authuser=3&rapt=AEjHL4Otnciw-IncJLUyLyVX4GtRCNUjFx33ZWBTmuIFPLshRu80XRxNAPR92ogfF85QQEG2mXyfgB-h7W_Bq-Ozsqhwf1rKqMQeeYtc0inUOdkppLdGM70
+UniversalDependencies/tools: Various utilities for processing the data.
+https://github.com/UniversalDependencies/tools
 
-Update Google Maps to use Timeline on your device - Android - Google Maps Help
-https://support.google.com/maps/answer/14169818?visit_id=638828998750358928-2964913099&p=maps_odlh&rd=1#zippy=%2Cturn-on-backup-on-your-device
+Page not found · GitHub Pages
+https://universaldependencies.org/how_to_start.html
 
-Update Google Maps to use Timeline on your device - Android - Google Maps Help
-https://support.google.com/maps/answer/14169818?visit_id=638828998750358928-2964913099&p=maps_odlh&rd=1
+UD_English-GUMReddit
+https://universaldependencies.org/treebanks/en_gumreddit/index.html
 
-Add Gmail to another email client - Gmail Help
-https://support.google.com/mail/answer/7126229?authuser=3&authuser=3&hl=ga&authuser=3&visit_id=638828998750358928-2964913099&rd=2
+UniversalDependencies/UD_English-GUMReddit
+https://github.com/UniversalDependencies/UD_English-GUMReddit
 
-Choose your IMAP email client settings for Gmail - Gmail Help
-https://support.google.com/mail/answer/78892?hl=en&authuser=3&ref_topic=7280141&sjid=5817526535906473517-EU#zippy=%2Cthunderbird
+UD_English-GUMReddit/en_gumreddit-ud-dev.conllu at master · UniversalDependencies/UD_English-GUMReddit
+https://github.com/UniversalDependencies/UD_English-GUMReddit/blob/master/en_gumreddit-ud-dev.conllu
 
-Choose your IMAP email client settings for Gmail - Gmail Help
-https://support.google.com/mail/answer/78892#zippy=%2Cthunderbird
-
-gmail imap settings tcd - Google Search
-https://www.google.com/search?q=gmail+imap+settings+tcd&sca_esv=e7d216c8941b9698&rlz=1C5GCCM_en&sxsrf=AHTn8zqx6y6RA5p_D1cMKNy4Px9SheF5AQ%3A1747303371038&ei=y7slaOOCAracwPAP9Pq_UQ&ved=0ahUKEwijlPulnKWNAxU2DhAIHXT9LwoQ4dUDCBA&uact=5&oq=gmail+imap+settings+tcd&gs_lp=Egxnd3Mtd2l6LXNlcnAiF2dtYWlsIGltYXAgc2V0dGluZ3MgdGNkMgUQIRigATIFECEYoAFI5TlQyQZYrDZwCngBkAEAmAFzoAGXB6oBAzguM7gBA8gBAPgBAZgCFaAC4wfCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAgUQABiABMICChAAGIAEGBQYhwLCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGIAEGKIEwgIEECEYFZgDAIgGAZAGCpIHBDE4LjOgB_M-sgcDOC4zuAe6Bw&sclient=gws-wiz-serp
-
-How to get Myzone/tcd email working? — boards.ie - Now Ye're Talkin'
-https://www.boards.ie/discussion/2055908268/how-to-get-myzone-tcd-email-working
-
-tcd imap settings gmail - Google Search
-https://www.google.com/search?q=tcd+imap+settings+gmail&sca_esv=e7d216c8941b9698&rlz=1C5GCCM_en&sxsrf=AHTn8zpJz_-sgqk1ZdTDfDqnXqVV8T9zpQ%3A1747303685084&ei=Bb0laK_1BKaywPAPzeHOeQ&ved=0ahUKEwjvi9u7naWNAxUmGRAIHc2wMw8Q4dUDCBA&uact=5&oq=tcd+imap+settings+gmail&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3RjZCBpbWFwIHNldHRpbmdzIGdtYWlsMgUQIRigAUiiCFA8WMIGcAF4AZABAJgBdKAB6wOqAQM1LjG4AQPIAQD4AQGYAgegAv0DwgIKEAAYsAMY1gQYR8ICBxAhGKABGAqYAwCIBgGQBgiSBwM2LjGgB84OsgcDNS4xuAf4Aw&sclient=gws-wiz-serp
-
-How do I access my TCD email account on the mobile Gmail app? : r/TCD
-https://www.reddit.com/r/TCD/comments/726gom/how_do_i_access_my_tcd_email_account_on_the/
-
-Student Email - MyZone FAQ - IT Services : Trinity College Dublin
-http://web.archive.org/web/20180712164346/http://www.tcd.ie/itservices/email/kb/myzone_faq.php
-
-Password Manager
-https://passwords.google.com/password/1YS_LC4Vwgd0c7pdqkd88OBTOkC49SROQ4zombTe34E%3D?ep=1&bnt=1&rapt=AEjHL4OBE1YPXnQhwEUZYiSKlUAXtE_wooIE-hYIBFE1yq8Z4O_P8YA5zWToumGhzoknZBGJikE9Dyu9SRKJ3HoQVRwMUoGCRobfEH0bGeaPRshRf4QDy08
-
-user profiles - How can I force Thunderbird to download all emails by IMAP? - Super User
-https://superuser.com/questions/354280/how-can-i-force-thunderbird-to-download-all-emails-by-imap
-
-Apertium-recursive/Formalism - Apertium
-https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
+Universal Dependencies 2.5
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3105
 
 
