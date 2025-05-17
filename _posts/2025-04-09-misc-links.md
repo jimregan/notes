@@ -13,4 +13,7 @@ categories: [links]
 
 [An experimental dialogue system: Waxholm](https://www.speech.kth.se/~rolf/MyKTHpapers_6/www.speech.kth.se/prod/publications/files/qpsr/1993/1993_34_2-3_015-020.pdf)
 
+[Image annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html)
+
+[UD_English-GUMReddit](https://github.com/UniversalDependencies/UD_English-GUMReddit)
 
