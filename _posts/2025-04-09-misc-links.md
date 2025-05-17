@@ -17,3 +17,10 @@ categories: [links]
 
 [UD_English-GUMReddit](https://github.com/UniversalDependencies/UD_English-GUMReddit)
 
+[TALL: Temporal Activity Localization via Language Query](https://arxiv.org/abs/1705.02101)
+
+[UDapter: Language Adaptation for Truly Universal Dependency Parsing](https://arxiv.org/abs/2004.14327),
+[code](https://github.com/ahmetustun/udapter)
+
+[Action2Motion: Conditioned Generation of 3D Human Motions](https://arxiv.org/abs/2007.15240)
+
