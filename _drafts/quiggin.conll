@@ -558,9 +558,9 @@
 25	is	is	PART	Sup	PartType=Sup	26	mark:prt	_	_
 26	mó	mór	ADJ	Adj	Degree=Sup	24	amod	_	_
 27-29	d'íosadh	_	_	_	_	_	_	_	_
-27	_	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	29	nsubj	_	_
+27	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	29	nsubj	_	_
 28	d'	do	PART	Vb	PartType=Vb	29	mark:prt	_	SpaceAfter=No
-29	íosadh	ith	VERB	VTI	Mood=Cnd	24	acl:relcl	_	_
+29	íosfadh	ith	VERB	VTI	Mood=Cnd	24	acl:relcl	_	_
 30	de	de	ADP	Simp	_	31	case	_	_
 31	ime	im	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	1	punct	_	_
@@ -613,8 +613,8 @@
 1	Fiafruigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
 2	diobhtha	de	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
 3-5	go dé	_	_	_	_	_	_	_	_
-3	go	cad	PRON	Q	PronType=Int	1	ccomp	_	_
-4	dé	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
+4	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
 5	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	7	mark:prt	_	_
 6	d'	do	PART	Vb	PartType=Vb	7	mark:prt	_	SpaceAfter=No
 7	iosadh	ith	VERB	VTI	Mood=Cnd	1	advcl	_	_
@@ -639,22 +639,87 @@
 10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 35
-# text = Fuaras sin dóbhtha. 
+# text = Fuaras sin dóbhtha.
+# text_standard = Fuarthas sin dóibh.
+1	Fuarthas	faigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+2	sin	sin	PRON	Dem	PronType=Dem	1	nsubj	_	_
+3	dóbhtha	do	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 36
-# text = Fiafraigheadh díobhtha go dé an mhéid ime. 
+# text = Fiafraigheadh díobhtha go dé an mhéid ime.
+# text_standard = Fiafraíodh díobh cad é an mhéid ime .
+1	Fiafraigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+2	díobhtha	de	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
+3-4	go dé	_	_	_	_	_	_	_	_
+3	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
+4	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	mhéid	méid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 37
-# text = Dubhairt Áindrías ceathramhadh cloiche. 
+# text = Dubhairt Áindrías ceathramhadh cloiche.
+# text_standard = Dúirt Aindrias ceathrú cloiche.
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	ceathramhadh	ceathrú	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+4	cloiche	cloch	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 38
-# text = Níor bhfhada go robh sin críochnaighthe. 
+# text = Níor bhfhada go robh sin críochnaighthe.
+# text_standard = Níorbh fhada go raibh sin críochnaithe.
+1-2	Níor bhfhada	_	_	_	_	_	_	_	_
+1	Níorbh	is	AUX	Cop	Form=VF|Polarity=Neg|Tense=Past|VerbForm=Cop	2	cop	_	_
+2	fhada	fada	ADJ	Adj	Degree=Pos|Form=Len	_	root	_	_
+3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
+4	robh	bí	VERB	PastInd	Mood=Ind|Tense=Past	2	csubj:cop	_	_
+5	sin	sin	PRON	Dem	PronType=Dem	4	nsubj	_	_
+6	críochnaighthe	críochnaithe	ADJ	Adj	VerbForm=Part	4	xcomp:pred	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 39
-# text = Ghair Áindrías ceathramhadh cloiche eile do gach aon ocú. 
+# text = Ghair Áindrías ceathramhadh cloiche eile do gach aon ocú.
+# text_standard = Ghair Aindrias ceathrú cloiche eile do gach aon acu.
+1	Ghair	gair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	ceathramhadh	ceathrú	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+4	cloiche	cloch	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	eile	eile	DET	Det	PronType=Dem	3	det	_	_
+6	do	do	ADP	Simp	_	9	case	_	_
+7	gach	gach	DET	Det	Definite=Def	9	det	_	_
+8	aon	aon	DET	Det	PronType=Ind	9	det	_	_
+9	ocú	ag	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 40
-# text = Nuair a thainic an t‑im, bhuail Áindrías dorn air an bhórd ⁊ dubhairt nach robh ceart dha dheánamh le ceachtar ocú. 
+# text = Nuair a thainic an t‑im, bhuail Áindrías dorn air an bhórd ⁊ dubhairt nach robh ceart dha dheánamh le ceachtar ocú.
+# text_standard = Nuair a tháinig an t-im, bhuail Aindrias dorn ar an bhord agus dúirt nach raibh ceart dhá dhéanamh le ceachtar acu .
+1	Nuair	nuair	SCONJ	Subord	_	3	mark	_	_
+2	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	3	mark:prt	_	_
+3	thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	7	advcl	_	_
+4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	t-im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	,	,	PUNCT	Punct	_	3	punct	_	_
+7	bhuail	buail	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+8	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	dorn	dorn	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+10	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	obl:prep	_	_
+11	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	bhórd	bord	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	obj	_	_
+13	agus	agus	CCONJ	Coord	_	14	cc	_	_
+14	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	7	conj	_	_
+15	nach	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	16	mark:prt	_	_
+16	robh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	14	ccomp	_	_
+17	ceart	ceart	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	dha	do	ADP	Poss	Form=Len|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	case	_	_
+19	dheánamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	16	xcomp	_	_
+20	le	le	ADP	Simp	_	21	case	_	_
+21	ceachtar	ceachtar	PRON	Idf	PronType=Ind	19	obl	_	_
+22	ocú	ag	ADP	Prep	Number=Plur|Person=3	19	obl:prep	_	_
+23	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = 41
 # text = Gur cheart dóbhtha deoch fhagháil. 
