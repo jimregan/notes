@@ -10,6 +10,7 @@
 # sent_id = 2
 # text = Bhí Áindrías an Ime na chomhnaidhe i mBaile ui Mún i nGleann an Bhaile Dhuibh.
 # text_standard = Bhí Aindrias an Ime ina chónaí i mBaile uí Mún i nGleann an Bhaile Dhuibh.
+# text_english = Áindrías of the Butter lived in Ballymoon in Gleann an Bhaile Dhuibh.
 # text_phonetic = vi: α:nṟαs ə N′ïm′ə Nα χõ:ni: ə mwel′ i: ·mũ:n ə ɲl′αN ə wel′ə ꬶïv.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -616,7 +617,7 @@
 # text = Rug sé air fhód de’n im ann a dhorn. 
 
 # sent_id = 48
-# text = Chuir sé ann a bhéil é. 
+# text = Chuir sé ann a bhéil é.
 
 # sent_id = 49
 # text = Bhain sé greim mór as. 
