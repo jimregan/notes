@@ -24,3 +24,9 @@ categories: [links]
 
 [Action2Motion: Conditioned Generation of 3D Human Motions](https://arxiv.org/abs/2007.15240)
 
+[The Irish of Iorras Aithneach, County Galway](https://www.dias.ie/celt/celt-publications-2/celt-the-irish-of-iorras-aithneach-county-galway/)
+
+[BAndysc/AvaloniaVisualBasic6](https://github.com/BAndysc/AvaloniaVisualBasic6) --- A recreation of the classic Visual Basic 6 IDE and language in C# with Avalonia
+
+[OpenEmu/OpenEmu](https://github.com/OpenEmu/OpenEmu)
+
