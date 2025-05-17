@@ -366,13 +366,13 @@
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	ar	ar	ADP	Simp	_	4	case	_	_
 4	tógáil	tógáil	NOUN	Noun	VerbForm=Vnoun	1	xcomp	_	_
-5	gan	gan	ADP	Simp	_	9	case	_	_
+5	gan	gan	ADP	Simp	_	7	case	_	_
 6	aon	aon	DET	Det	PronType=Ind	7	det	_	_
-7	ghreim	greim	NOUN	Noun	Case=Nom|Form=Len|Gender=Fem|Number=Sing	9	obj	_	_
-8	ime	i	PART	Inf	PartType=Inf	9	mark	_	_
-9	fhagháil	fáil	NOUN	Noun	Form=Len|VerbForm=Inf	4	xcomp	_	_
+7	ghreim	greim	NOUN	Noun	Case=Nom|Form=Len|Gender=Fem|Number=Sing	4	obl	_	_
+8	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	fhagháil	fáil	NOUN	Noun	Form=Len|VerbForm=Inf	1	xcomp	_	_
 10	le	le	ADP	Simp	_	11	case	_	_
-11	bliadhain	bliain	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	9	obl:tmod	_	SpaceAfter=No
+11	bliadhain	bliain	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	9	obl:tmod	_	_
 12	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 21
@@ -530,7 +530,7 @@
 
 # sent_id = 30
 # text = Phléideáil an Seónstanach ⁊ an Connachtach air feadh tamaill agus chuir siad geall thrí leath-ghuinea cia ocú buachaill an Chonnachtaigh no buachaill an Seónstanaigh is mó d’íosadh de im.
-# text_standard = Phléadáil an Seónstanach agus an Connachtach ar feadh tamaill agus chuir siad geall thrí leathghine cé acu buachaill an Chonnachtaigh nó buachaill an Seónstanaigh is mó a do íosfadh de ime .
+# text_standard = Phléadáil an Seónstanach agus an Connachtach ar feadh tamaill agus chuir siad geall thrí leathghine cé acu buachaill an Chonnachtaigh nó buachaill an Seónstanaigh is mó a do íosfadh de ime.
 1	Phléideáil	pléadáil	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -566,16 +566,77 @@
 32	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 31
-# text = H‑innsigheadh an scéal do Áindrías agus do bhuachaill an Chonnachtaigh ⁊ dubhairt an bheirt gur mhaith mar tharlaidh, go robh a sáith ocrais orrthú. 
+# text = H‑innsigheadh an scéal do Áindrías agus do bhuachaill an Chonnachtaigh ⁊ dubhairt an bheirt gur mhaith mar tharlaidh, go robh a sáith ocrais orrthú.
+# text_standard = nInsíodh an scéal do Aindrias agus do bhuachaill an Chonnachtaigh agus dúirt an bheirt gur mhaith mar tharla, go raibh a sáith ocrais orthu.
+1	H-innsigheadh	inis	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	scéal	scéal	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	do	do	ADP	Simp	_	5	case	_	_
+5	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	_
+6	agus	agus	CCONJ	Coord	_	8	cc	_	_
+7	do	do	ADP	Simp	_	8	case	_	_
+8	bhuachaill	buachall	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	5	conj	_	_
+9	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Chonnachtaigh	connachtach	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	8	nmod	_	_
+11	⁊	agus	CCONJ	Coord	_	12	cc	_	_
+12	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	1	conj	_	_
+13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	bheirt	beirt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	12	nsubj	_	_
+15	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	16	cop	_	_
+16	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	12	ccomp	_	_
+17	mar	mar	SCONJ	Subord	_	18	mark	_	_
+18	tharlaidh	tarlaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	16	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	Punct	_	21	punct	_	_
+20	go	go	PART	Vb	PartType=Cmpl	21	mark:prt	_	_
+21	robh	bí	VERB	PastInd	Mood=Ind|Tense=Past	16	conj	_	_
+22	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	23	nmod:poss	_	_
+23	sáith	sáith	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	21	nsubj	_	_
+24	ocrais	ocras	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	orrthú	ar	ADP	Prep	Number=Plur|Person=3	21	obl:prep	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 32
-# text = Chuaidh siad isteach i dteach an ósta. 
+# text = Chuaidh siad isteach i dteach an ósta.
+# text_standard = Chuaigh siad isteach i dteach an ósta.
+1	Chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	siad	siad	PRON	Pers	Number=Plur|Person=3	1	nsubj	_	_
+3	isteach	isteach	ADV	Dir	_	1	advmod	_	_
+4	i	i	ADP	Simp	_	5	case	_	_
+5	dteach	teach	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	_
+6	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ósta	ósta	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 33
-# text = Fiafruigheadh diobhtha go dé d’iosadh siad le n‑a gcuid ime. 
+# text = Fiafruigheadh diobhtha go dé d’iosadh siad le n‑a gcuid ime.
+# text_standard = Fiafraíodh díobh cad é a d'íosfadh siad lena gcuid ime.
+1	Fiafruigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+2	diobhtha	de	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
+3-4	go dé	_	_	_	_	_	_	_	_
+3	go	cad	PRON	Q	PronType=Int	6	obj	_	_
+4	dé	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+5	d'	do	PART	Vb	PartType=Vb	6	mark:prt	_	_
+6	iosadh	ith	VERB	VTI	Mood=Cnd	1	ccomp	_	_
+7	siad	siad	PRON	Pers	Number=Plur|Person=3	6	nsubj	_	_
+8	le	le	ADP	Simp	_	10	case	_	_
+9	n-a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	10	nmod:poss	_	_
+10	gcuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	10	nmod	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 34
-# text = Dubhairt an bheirt: Arán min choirce agus préataí. 
+# text = Dubhairt an bheirt: Arán min choirce agus préataí.
+# text_standard = Dúirt an bheirt: arán min choirce agus prátaí.
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	bheirt	beirt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	Punct	_	5	punct	_	_
+5	arán	arán	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	_
+6	min	min	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+7	choirce	coirce	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	6	nmod	_	_
+8	agus	agus	CCONJ	Coord	_	9	cc	_	_
+9	préataí	práta	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 35
 # text = Fuaras sin dóbhtha. 
