@@ -3,7 +3,7 @@
 # text = INGHEAN AN CHEANNAIDHE
 # text_standard = iníon an cheannaí
 # text_french = LA FILLE DU MARCHAND
-1	INGHEAN	iníon	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	_	root	_	_
+1	INGHEAN	iníon	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	0	root	_	_
 2	AN	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	CHEANNAIDHE	ceanna	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nmod	_	_
 
@@ -12,7 +12,7 @@
 # text = Tá tamall fada anois a bhí fear i n-a chómhnaighe i mbaile mór Chorcaighe.
 # text_standard = Tá tamall fada anois a bhí fear in a chónaí i mbaile mór Chorcaí.
 # text_french = Il y a maintenant longtemps, un homme habitait dans la grande ville de Cork.
-1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	_	root	_	_
+1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	tamall	tamall	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	fada	fada	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 4	anois	anois	ADV	Gn	_	1	advmod	_	_
@@ -25,14 +25,14 @@
 11	i	i	ADP	Simp	_	12	case	_	_
 12	mbaile	baile	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	6	obl	_	_
 13	mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
-14	Chorcaighe	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	12	nmod	_	_
+14	Chorcaighe	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = inion_an_channai.2.2
 # text = Fear saidhbhir agus ceannaidhe fairrge do b'eadh é.
 # text_standard = Fear saibhir agus ceannaí farraige ab ea é.
 # text_french = C’était un homme riche et un marchand en mer.
-1	Fear	fear	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	_	root	_	_
+1	Fear	fear	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	saidhbhir	saibhir	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	1	amod	_	_
 3	agus	agus	CCONJ	Coord	_	4	cc	_	_
 4	ceannaidhe	ceannaí	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -40,7 +40,7 @@
 6-7	do b'eadh	_	_	_	_	_	_	_	_
 6	ab	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	7	cop	_	_
 7	ea	ea	PRON	Pers	Number=Sing|Person=3	1	nmod	_	_
-8	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+8	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = inion_an_channai.2.3
@@ -84,7 +84,7 @@
 # text_standard = Do thuill sí an ainm sin mar ní raibh (sí) sa bhaile mhór aon chailín chomh deas chomh maorga léi.
 # text_french = Elle méritait ce nom car il n’y avait pas dans la grande ville de fille aussi jolie ni aussi gente qu’elle.
 1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
-2	thuill	tuill	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	thuill	tuill	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	ainm	ainm	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
@@ -92,8 +92,8 @@
 7	mar	mar	SCONJ	Subord	_	9	mark	_	_
 8	ni	ní	PART	Vb	PartType=Vb|Polarity=Neg	9	advmod	_	_
 9	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	2	advcl	_	_
-10	(	(	PUNCT	Punct	_	11	punct	_	_
-11	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	9	parataxis	_	_
+10	(	(	PUNCT	Punct	_	11	punct	_	SpaceAfter=No
+11	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	9	parataxis	_	SpaceAfter=No
 12	)	)	PUNCT	Punct	_	11	punct	_	_
 13	sa	i	ADP	Art	Number=Sing|PronType=Art	14	case	_	_
 14	bhaile	baile	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	9	obl	_	_
@@ -104,7 +104,7 @@
 19	deas	deas	ADJ	Adj	Degree=Pos	9	xcomp:pred	_	_
 20	comh	chomh	ADV	Its	_	21	advmod	_	_
 21	maordha	maorga	ADJ	Adj	Degree=Pos	19	conj	_	_
-22	léi	le	ADP	Prep	Gender=Fem|Number=Sing|Person=3	21	obl:prep	_	_
+22	léi	le	ADP	Prep	Gender=Fem|Number=Sing|Person=3	21	obl:prep	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = inion_an_channai.2.6
@@ -112,7 +112,7 @@
 # text_standard = Ní raibh aon duine clainne ag a muintir ach í agus do mhéadaigh sin urraim agus grá na ndaoine don iníon óg seo.
 # text_french = Ses parent n’avaient pas d’autre enfant, et cela augmentait l’estime et l’amour des gens pour cette jeune fille.
 1	Ni	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
-2	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	_	root	_	_
+2	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
 3-4	aoinne	_	_	_	_	_	_	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	duine	duine	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -134,15 +134,16 @@
 20	don	do	ADP	Art	Number=Sing|PronType=Art	21	case	_	_
 21	inghean	iníon	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	13	obl	_	_
 22	óg	óg	ADJ	Adj	Case=Nom|Gender=Fem|Number=Sing	21	amod	_	_
-23	so	seo	DET	Det	PronType=Dem	21	det	_	_
+23	so	seo	DET	Det	PronType=Dem	21	det	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
 # newpar id = inion_an_channai.3
 # sent_id = inion_an_channai.3.1
 # text = Ba ghnáthach le captaen óg luinge teacht ar cuaird go tig an cheannaidhe go minic agus do bhíodh sé ana-cheanamhail ar Mháire Bhán .
 # text_standard = Ba ghnách le captaen óg loinge teacht ar cuairt go teach an cheannaí go minic agus bhíodh sé an-cheanúil ar Mháire Bhán .
+# text_french = Un jeune capitaine de navire avait coutume de visiter souvent la maison du marchand et il était très amoureux de Marie la Blanche.
 1	Ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	2	cop	_	_
-2	ghnáthach	gnách	ADJ	Adj	Degree=Pos|Form=Len	_	root	_	_
+2	ghnáthach	gnách	ADJ	Adj	Degree=Pos|Form=Len	0	root	_	_
 3	le	le	ADP	Simp	_	4	case	_	_
 4	captaen	captaen	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_
 5	óg	óg	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
@@ -162,13 +163,14 @@
 19	ana-cheanamhail	an-cheanúil	ADJ	Adj	Degree=Pos	17	xcomp:pred	_	_
 20	ar	ar	ADP	Simp	_	21	case	_	_
 21	Mháire	Máire	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	19	obl	_	_
-22	Bhán	bán	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	21	flat:name	_	_
+22	Bhán	bán	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	21	flat:name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = inion_an_channai.3.2
 # text = Bhí Máire ag tuitim i ngrádh leis i gan fhios di féin .
 # text_standard = Bhí Máire ag titim i ngrá leis i ngan fhios di féin .
-1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+# text_french = Marie s’éprenait de lui sans le savoir elle-même.
+1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Máire	Máire	PROPN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	ag	ag	ADP	Simp	_	4	case	_	_
 4	tuitim	titim	NOUN	Noun	VerbForm=Vnoun	1	xcomp	_	_
@@ -186,13 +188,14 @@
 # sent_id = inion_an_channai.3.3
 # text = Nuair a imthigheadh sé ó'n gcuan do bhíodh uaigneas agus díombáidh an domhain uirthi , ach ní bhíodh a fhios aici cad é an fáth .
 # text_standard = Nuair a imíodh sé ón gcuan bhíodh uaigneas agus díomá an domhain uirthi , ach ní bhíodh a fhios aici cad é an fáth .
+# text_french = Lorsqu’il quittait le port elle se sentait la plus seule et la plus triste du monde, mais elle en ignorait la raison.
 1	Nuair	nuair	SCONJ	Subord	_	3	mark	_	_
 2	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	3	mark:prt	_	_
 3	imthigheadh	imigh	VERB	VTI	Aspect=Imp|Tense=Past	7	advcl	_	_
 4	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	ó'n	ó	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
 6	gcuan	cuan	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	3	obl	_	_
-7	do bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	_	root	_	_
+7	do bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 8	uaigneas	uaigneas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	agus	agus	CCONJ	Coord	_	10	cc	_	_
 10	díombáidh	díomá	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	8	conj	_	_
@@ -215,8 +218,9 @@
 # sent_id = inion_an_channai.3.4
 # text = Ní raibh aon fhear óg uasal timpall ná go raibh ag tnúth le Máire Bhán a dh'fhagháil le pósadh , ach ni raibh aon mhaith d'aoinne bheith á lorg .
 # text_standard = Ní raibh aon fhear óg uasal timpeall ná go raibh ag tnúth le Máire Bhán a a fháil le pósadh , ach ní raibh aon mhaith d'aon duine bheith á lorg .
+# text_french = Il n’y avait pas un jeune gentilhomme aux environs qui ne désirât obtenir Marie la Blanche en mariage, mais il ne servait de rien à personne de la rechercher.
 1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
-2	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	_	root	_	_
+2	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	fhear	fear	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	óg	óg	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
@@ -251,68 +255,70 @@
 32	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = inion_an_channai.3.5
-# text = Ní phósfadh sí aon fhear ach an captaen óg .
-# text_standard = Ní phósfadh sí aon fhear ach an captaen óg .
+# text = Ní phósfadh sí aon fhear ach an captaen óg.
+# text_standard = Ní phósfadh sí aon fhear ach an captaen óg.
+# text_french = Elle n’épouserait pas d’autre homme que le jeune capitaine.
 1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
-2	phósfadh	pós	VERB	VTI	Form=Len|Mood=Cnd|Polarity=Neg	_	root	_	_
+2	phósfadh	pós	VERB	VTI	Form=Len|Mood=Cnd|Polarity=Neg	0	root	_	_
 3	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 4	aon	aon	DET	Det	PronType=Ind	5	det	_	_
 5	fhear	fear	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	2	obj	_	_
 6	ach	ach	SCONJ	Subord	_	8	mark:prt	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	captaen	captaen	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	advcl	_	_
-9	óg	óg	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+9	óg	óg	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = inion_an_channai.3.6
-# text = Níor mhaith le n-a muinntir í thabhairt le pósadh dó san .
-# text_standard = Níor mhaith le na muintire í thabhairt le pósadh dó sin .
+# text = Níor mhaith le n-a muinntir í thabhairt le pósadh dó san.
+# text_standard = Níor mhaith le na muintire í thabhairt le pósadh dó sin.
+# text_french = Sa famille ne voulait pas la lui donner en mariage.
 1	Níor	is	AUX	Cop	Polarity=Neg|Tense=Past|VerbForm=Cop	2	cop	_	_
-2	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	_	root	_	_
-3	le	le	ADP	Simp	_	5	case	_	_
-4	n-a	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	muinntir	muintir	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	2	obl	_	_
-6	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
-7	thabhairt	tabhairt	NOUN	Noun	Form=Len|VerbForm=Inf	2	csubj:cop	_	_
-8	le	le	ADP	Simp	_	9	case	_	_
-9	pósadh	pósadh	NOUN	Noun	VerbForm=Inf	7	obl	_	_
-10	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	obl:prep	_	_
-11	san	sin	PRON	Dem	PronType=Dem	10	det	_	_
-12	.	.	PUNCT	.	_	2	punct	_	_
+2	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	0	root	_	_
+3	le n-a	le	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	case	_	_
+4	muinntir	muintir	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	obl	_	_
+5	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+6	thabhairt	tabhairt	NOUN	Noun	Form=Len|VerbForm=Inf	2	csubj:cop	_	_
+7	le	le	ADP	Simp	_	8	case	_	_
+8	pósadh	pósadh	NOUN	Noun	VerbForm=Inf	6	obl	_	_
+9	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	6	obl:prep	_	_
+10	san	sin	PRON	Dem	PronType=Dem	9	det	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = inion_an_channai.3.7
-# text = Do b'fhearr leó í bheith i n-a gcómhgar féin .
-# text_standard = Do b'fhearr leo í bheith i ina gcóngar féin .
-1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
-2	b'fhearr	bí	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
-3	leó	le	ADP	Prep	Number=Plur|Person=3	2	obl:prep	_	_
-4	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	2	obj	_	_
-5	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	2	xcomp	_	_
-6	i	i	ADP	Simp	_	8	case	_	_
-7	n-a	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	8	case	_	_
-8	gcómhgar	cóngar	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	5	xcomp:pred	_	_
-9	féin	féin	PRON	Ref	Reflex=Yes	8	nmod	_	_
-10	.	.	PUNCT	.	_	2	punct	_	_
+# text = Do b'fhearr leó í bheith i n-a gcómhgar féin.
+# text_standard = Do b'fhearr leo í bheith ina gcóngar féin.
+1	Do	do	PART	Vb	PartType=Vb	3	mark:prt	_	_
+2	b'	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	SpaceAfter=No
+3	fhearr	maith	ADJ	Adj	Degree=Cmp,Sup|Form=Len	0	root	_	_
+4	leó	le	ADP	Prep	Number=Plur|Person=3	3	obl:prep	_	_
+5	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+6	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	3	csubj:cop	_	_
+7	i	i	ADP	Simp	_	9	case	_	_
+8	n-a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	9	nmod:poss	_	-
+9	gcómhgar	cóngar	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	6	xcomp:pred	_	SpaceAfter=No
+10	féin	féin	PRON	Ref	Reflex=Yes	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = inion_an_channai.3.8
-# text = D'fhan Máire bliadhanta gan pósadh .
-# text_standard = D'fhan Máire blianta gan pósadh .
+# text = D'fhan Máire bliadhanta gan pósadh.
+# text_standard = D'fhan Máire blianta gan pósadh.
 1	D'fhan	déigh	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
 2	Máire	Máire	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	bliadhanta	bliain	NOUN	Noun	Case=Nom|Gender=Fem|Number=Plur	1	obj	_	_
 4	gan	gan	ADP	Simp	_	5	case	_	_
-5	pósadh	pósadh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
+5	pósadh	pósadh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = inion_an_channai.3.9
-# text = Deireadh sí i n-a haigne féin : « Dá bhfaigheadh m'athair bás , bheadh sé ar mo chumas mo rogha fear a phósadh » .
-# text_standard = Deireadh sí i ina haigne féin : « Dá bhfaigheadh m'athair bás , bheadh sé ar mo chumas mo rogha fear a phósadh » .
+# text = Deireadh sí i n-a haigne féin: « Dá bhfaigheadh m'athair bás, bheadh sé ar mo chumas mo rogha fear a phósadh ».
+# text_standard = Deireadh sí ina haigne féin : « Dá bhfaigheadh m'athair bás, bheadh sé ar mo chumas mo rogha fear a phósadh ».
 1	Deireadh	Deireadh	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
 2	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	1	nsubj	_	_
 3	i	i	ADP	Simp	_	5	case	_	_
 4	n-a	i	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	5	case	_	_
 5	haigne	aigne	NOUN	Noun	Case=Nom|Definite=Def|Form=HPref|Gender=Fem|Number=Sing	1	obl	_	_
-6	féin	féin	PRON	Ref	Reflex=Yes	5	nmod	_	_
+6	féin	féin	PRON	Ref	Reflex=Yes	5	nmod	_	SpaceAfter=No
 7	:	:	PUNCT	Punct	_	10	punct	_	_
 8	«	"	PUNCT	Punct	_	10	punct	_	_
 9	Dá	dá	SCONJ	Subord	_	10	mark	_	_
