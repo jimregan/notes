@@ -265,6 +265,7 @@
 # sent_id = 14
 # text = Rinne siad an margadh.
 # text_standard = Rinne siad an margadh.
+# text_phonetic = riN′ ʃiəd ə mαrəguw.
 1	Rinne	déan	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	siad	siad	PRON	Pers	Number=Plur|Person=3	1	nsubj	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -274,6 +275,7 @@
 # sent_id = 15
 # text = Thoisigh Áindrías ⁊ a bhean ag sábháil an ime.
 # text_standard = Thosaigh Aindrias agus a bhean ag sábháil an ime.
+# text_phonetic = hɔʃi: α:nṟαs αgəs ə vαn ə sα:wæl′ ə N′ïm′ə.
 1	Thoisigh	tosaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	⁊	agus	CCONJ	Coord	_	5	cc	_	_
@@ -287,7 +289,8 @@
 
 # sent_id = 16
 # text = Bhí deich mba(th) aig Áindrías é fhéin ⁊ shábháil sé an t‑im uilig go deárn sé ocht gcroc ⁊ fiche air shon an dá bhliadhan.
-# text_standard = Bhí deich mba ag Aindrias é féin agus shábháil sé an t-im uilig go ndearna sé ocht gcroc is fiche ar shon an dá bhliain .
+# text_standard = Bhí deich mba ag Aindrias é féin agus shábháil sé an t-im uilig go ndearna sé ocht gcroc is fiche ar shon an dá bhliain.
+# text_phonetic = vi: d′ɛ mαh ɛg′ α:nṟαs α hein′ αgəs hα:wæL′ ʃə N′ t′ïm′ ïl′ig′ gə d′α:r sə ɔχt grɔk αgəs f′içə er′ ho̤n ə dα: vl′iən.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	deich	deich	NUM	Num	NumType=Card	3	nummod	_	_
 3	mbath	bó	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -318,6 +321,7 @@
 # sent_id = 17
 # text = Thainic an Seónstanach an tseachtmhain roimhe Shamhain ⁊ ceithre gearráin déag leis, péire cliabh air ghach gearrán.
 # text_standard = Tháinig an Seónstanach an tseachtain roimhe Shamhain agus ceithre gearráin déag leis, péire cliabh ar gach gearrán.
+# text_phonetic = hen′ik′ (hαnik′) ə ʃo:Nstənαχ ə t′αχtən ṟï̃və hα͠uwin′ αgəs k′er′ə g′αræN′ d′ɛəg l′eʃ, p′eir′ə k′l′iuw ər′ ꬶαχ g′αrαn.
 1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -341,6 +345,7 @@
 # sent_id = 18
 # text = Thug sé leis a chuid ime.
 # text_standard = Thug sé leis a chuid ime.
+# text_phonetic = ho̤g ʃɛ l′eʃ α χyd′ ïm′ə.
 1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
@@ -352,6 +357,7 @@
 # sent_id = 19
 # text = Ní bhéidh luach píngne de roinn agam leat, arsa Áindrías.
 # text_standard = Ní bheidh luach pingine de roinn agam leat, arsa Aindrias.
+# text_phonetic = N′i: vɛ Lɔχ p′i:N′ə də rïN′ əgəm l′αt, ərsə α:nṟαs.
 1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	bhéidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Fut	10	parataxis	_	_
 3	luach	luach	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -368,6 +374,7 @@
 # sent_id = 20
 # text = Tá mé ar tógáil gan aon ghreim ime fhagháil le bliadhain.
 # text_standard = Tá mé ar tógáil gan aon ghreim ime fháil le bliain.
+# text_phonetic = tα: m′ə ər to:gæl′ gən ən jr′im′ ïm′ α:L′ɛ b′l′iïn′.
 1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	ar	ar	ADP	Simp	_	4	case	_	_
@@ -384,6 +391,7 @@
 # sent_id = 21
 # text = Cuirfidh mé stoc bolog chugad air an bhliadhain seo chugainn.
 # text_standard = Cuirfidh mé stoc bológ chugat ar an bhliain seo chugainn.
+# text_phonetic = kyr̥′i m′ə stɔk bɔlɔg ho̤gəd er′ ə vl′i:N′ ʃUgiN′.
 1	Cuirfidh	cuir	VERB	VTI	Mood=Ind|Tense=Fut	0	root	_	_
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	stoc	stoc	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
@@ -399,6 +407,7 @@
 # sent_id = 22
 # text = Maith go leór.
 # text_standard = Maith go leor.
+# text_phonetic = mα gə L′ɔ:r.
 1	Maith	maith	ADJ	Adj	Degree=Pos	0	root	_	_
 2	go	go	ADJ	Adj	_	1	advmod	_	_
 3	leór	leor	ADJ	Adj	_	2	fixed	_	SpaceAfter=No
@@ -407,6 +416,7 @@
 # sent_id = 23
 # text = Rinneadh an margadh.
 # text_standard = Rinneadh an margadh.
+# text_phonetic = rïN′uw ə mαrəguw.
 1	Rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	margadh	margadh	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -415,6 +425,7 @@
 # sent_id = 24
 # text = Thainic an t‑eallach scór go leith.
 # text_standard = Tháinig an t-eallach scór go leith.
+# text_phonetic = hen′ik′ ə t′αLαχ skɔ:r gə L′è.
 1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -426,6 +437,7 @@
 # sent_id = 25
 # text = Chaith an t‑eallach a n‑am annsin go dtí an foghmhar.
 # text_standard = Chaith an t-eallach a n-am ansin go dtí an fómhar.
+# text_phonetic = χα͠ıç ə t′αLαχ ə Nαm əN′ʃïn′ gə d′i: ən fõ:wər.
 1	Chaith	caith	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -441,6 +453,7 @@
 # sent_id = 26
 # text = Thug an Seónstanach leis iad go h‑aonach an fhoghmhair Bhealach Seanaidh é fhéin ⁊ Áindrías leis.
 # text_standard = Thug an Seónstanach leis iad go haonach an fhómhair Bhealach Seanaidh é féin agus Aindrias leis .
+# text_phonetic = ho̤g ə ʃo:Nstənαχ l′eʃ iəd gə h⅄:nαχ ə Nõ:wir′ vαlαχ ʃαni: α hein′ αgəs α:nṟæʃ l′eʃ.
 1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -462,6 +475,7 @@
 # sent_id = 27
 # text = Dhíol sé an t‑eallach le Connachtach ⁊ dubhairt an Connachtach: is mor an náire nach bhfuil eallach níos fearr agaibh ná tá.
 # text_standard = Dhíol sé an t-eallach le Connachtach agus dúirt an Connachtach: is mór an náire nach bhfuil eallach níos fearr agaibh ná atá.
+# text_phonetic = ji:L′ ʃə (ə)N′t′αLαχ l′ɛ ko̤Nαχtαχ αgəs du:rt′ ə ko̤Nαχtαχ, əs mo:r ə Nα:r′ə Nαχ wïl′ αLαχ N′i:s f′α:r əgəv Nα tα:.
 1	Dhíol	díol	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -490,6 +504,7 @@
 # sent_id = 28
 # text = Acht ní’l áit an bhídh ann bhur gcuid eallaigh na ann bhur ndaoiní.
 # text_standard = Ach níl áit an bhia ann bhur gcuid eallaigh na ann bhur ndaoine .
+# text_phonetic = αχ N′i:l′ α:t′ ə vi: əN mər gyd′ αLy: Nα əN mər Ny:n′i:.
 1	Acht	ach	SCONJ	Subord	_	2	mark	_	_
 2	ní'l	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	_
 3	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -507,7 +522,8 @@
 
 # sent_id = 29
 # text = Dubhairt an Seónstanach go robh eallach agus daoiní ocú co maith ⁊ bhí i gConnachta agus a ghlacadh a mbiadh co maith fosta.
-# text_standard = Dúirt an Seónstanach go raibh eallach agus daoine acu chomh maith agus bhí i gConnachta agus a ghlacadh a mbeadh chomh maith fosta.
+# text_standard = Dúirt an Seónstanach go raibh eallach agus daoine acu chomh maith agus bhí i gConnachta agus a ghlacadh a mbia chomh maith fosta.
+# text_phonetic = du:rt′ ə ʃo:Nstənαχ gə rɔ αLαχ αgəs di:n′i: ɔkuw kɔ mαiç αgəs vi: ə go̤Nαχtə αgəs ə ꬶlαkuw ə m′iə kɔ mαiç fɔstə.
 # fixme = bhí -> a bhí?
 1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
@@ -741,9 +757,8 @@
 # text = Fiafraigheadh go dé an deoch ⁊ dubhairt sé: Deoch ime.
 # text_standard = Fiafraíodh cad é an deoch agus dúirt sé: Deoch ime.
 1	Fiafraigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
-2-3	go dé	_	_	_	_	_	_	_	_
-2	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
-3	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	go	cad	PRON	Q	PronType=Int	1	ccomp	_	_
+3	dé	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	deoch	deoch	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	_
 6	⁊	agus	CCONJ	Coord	_	7	cc	_	_
@@ -757,9 +772,8 @@
 # sent_id = 43
 # text = Go dé an mhéid ime?
 # text_standard = Cad é an mhéid ime?
-1-2	Goidé	_	_	_	_	_	_	_	_
-1	Cad	cad	PRON	Q	PronType=Int	0	root	_	_
-2	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
+1	Go	cad	PRON	Q	PronType=Int	0	root	_	_
+2	dé	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	mhéid	méid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nsubj	_	_
 5	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
