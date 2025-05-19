@@ -2,7 +2,7 @@
 # text = Áindrías an Ime.
 # text_standard = Aindrias an Ime.
 # text_phonetic = α:nṟαs ə N′ïm′ə.
-1	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
+1	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 2	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Ime	im	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -12,7 +12,7 @@
 # text_standard = Bhí Aindrias an Ime ina chónaí i mBaile uí Mún i nGleann an Bhaile Dhuibh.
 # text_english = Áindrías of the Butter lived in Ballymoon in Gleann an Bhaile Dhuibh.
 # text_phonetic = vi: α:nṟαs ə N′ïm′ə Nα χõ:ni: ə mwel′ i: ·mũ:n ə ɲl′αN ə wel′ə ꬶïv.
-1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Ime	im	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -35,7 +35,7 @@
 # text_phonetic = bə l′eʃ bwel′ i: mũ:n α:t′ f′ihə bɔ: αgəs tαruw l′ɔ:fə.
 1	Bu	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	leis	le	ADP	Simp	_	3	case	_	_
-3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	_	root	_	_
+3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 4	ui	uí	PART	Pat	PartType=Pat	3	flat:name	_	_
 5	Mún	Mún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	7	punct	_	_
@@ -51,7 +51,7 @@
 # text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh.
 # text_standard = Ghlac an Seónstanach Mór é ar scór ceithre chroca dhéag ime a rinneadh ar fhichid bó an tSeónstanaigh.
 # text_phonetic = ꬶlαk ə ʃo:Nstənαχ mo:r ɛ ɛr skɔ:r k′er′ə χrɔk jɛəg ïm′ ə jα:nuw er′ ihid(′) bɔ: N′ t′o:Nstəni:.
-1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	Mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -78,7 +78,7 @@
 1	Seachtmhain	seachtain	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 2	roimhe	roimh	ADP	Simp	_	3	case	_	_
 3	Shamhain	Samhain	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nmod	_	_
-4	chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+4	chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
 7	siar	siar	ADV	Dir	_	4	advmod	_	_
@@ -104,7 +104,7 @@
 # text_phonetic = d′iəfri b′αn α:nṟæʃ wo:r′ də ꬶα:nṟαs, gəde: jα:n̥ə m′ə?
 # text_ipa = dʲiəfˠɾˠiː bʲan̪ˠ ? [mˠoːɾˠ] dʲə ?, ɡədʲeː ? mʲə?
 1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
-2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+2	fhiafraigh	fiafraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	bean	bean	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	Áindriáis	Aindrias	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 5	Mhóir	mór	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	3	amod	_	_
@@ -124,7 +124,7 @@
 # text_standard = Tá an t-im ite agat.
 # text_phonetic = tα: N′ t′ïm′ ït′ əgəd.
 # text_ipa = ? n̠ʲ tʲɨmʲ ɨtʲ əɡəd̪ˠ.
-1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	_	root	_	_
+1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	ithte	ite	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
@@ -134,7 +134,8 @@
 # sent_id = 8
 # text = D'fhiafraigh Áindrías, bhfuil oiread ime agad a's gheánfadh sinn aniu?
 # text_standard = D'fhiafraigh Aindrias, bhfuil oiread ime agat agus dhéanfadh sinn inniu?
-1	D'fhiafraigh	d'fhiafraigh	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+# text_phonetic = d′iəfri: α:nṟαs, wïl′ ərəd ïm′ əgəd əs jα:n̥uw ʃïN′ əN′Uw̥`?
+1	D'fhiafraigh	d'fhiafraigh	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	4	punct	_	_
 4	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	1	parataxis	_	_
@@ -150,8 +151,9 @@
 # sent_id = 9
 # text = ⁊ dubhairt sise, tá.
 # text_standard = Agus dúirt sise, tá.
+# text_phonetic = αgəs du:r ·siʃə, tα:.
 1	⁊	agus	CCONJ	Coord	_	2	cc	_	_
-2	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	sise	sise	PRON	Pers	Gender=Fem|Number=Sing|Person=3|PronType=Emp	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	5	punct	_	_
 5	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	2	parataxis	_	SpaceAfter=No
@@ -160,6 +162,7 @@
 # sent_id = 10
 # text = Nuair d’ith siad a sáith, dubhairt an Seónstanach, a Áindriáis, is cóir duid an solathar do thabhairt domh, ⁊ dubhairt Áindrías, ní’l solathar air bith agam.
 # text_standard = Nuair a d'ith siad a sáith, dúirt an Seónstanach, a Áindriáis, is cóir duit an soláthar a thabhairt dom, agus dúirt Aindrias, níl soláthar ar bith agam.
+# text_phonetic = Ner′ ə d′i: ʃiəd α sα(:)iç, du:rt′ ə ʃo:Nstənαχ, α:nṟæʃ, əs kɔ:r did′ ə sɔlαr ə hɔ:rt ·dŨw̥`, αgəs du:rt′ α:nṟαs, N′iəL sɔlαr ər′ b′iç′ əgəm.
 1	Nuair	nuair	SCONJ	Subord	_	4	mark	_	_
 2-4	d'ith	_	_	_	_	_	_	_	_
 2	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	4	mark:prt	_	_
@@ -169,7 +172,7 @@
 6	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	7	nmod:poss	_	_
 7	sáith	sáith	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	9	punct	_	_
-9	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+9	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	14	punct	_	_
@@ -199,8 +202,9 @@
 # sent_id = 11
 # text = D’ith mé é uilig.
 # text_standard = D'ith mé é uilig.
+# text_phonetic = d′i: m′ə e: ïl′ig′.
 1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
-2	ith	ith	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	ith	ith	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	mé	mé	PRON	Pers	Number=Sing|Person=1	2	nsubj	_	_
 4	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	obj	_	_
 5	uilig	uile	DET	Det	PronType=Ind	4	det	_	SpaceAfter=No
@@ -209,7 +213,8 @@
 # sent_id = 12
 # text = Dubhairt an Seónstanach, a Áindriáis, cuirfidh mé ’un an phríosúin thú.
 # text_standard = Dúirt an Seónstanach, a Áindriáis, cuirfidh mé chun an phríosúin thú.
-1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+# text_phonetic = du:rt′ ə ʃo:Nstənαχ, α α:nṟæʃ, kyr̥′i m′ə əNə f′r′i:su:n′ huw.
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	6	punct	_	_
@@ -226,9 +231,10 @@
 
 # sent_id = 13
 # text = ⁊ dubhairt Áindrías, na cuir, acht cuir chugam na fiche bó bliadhain eile ⁊ bhéarfaidh mé mionna nach n‑ithim aon ghreim ime go ceann bliadhna.
-# text_standard = Agus dúirt Aindrias, na cuir, ach cuir chugam na fiche bó bliain eile agus tabharfaidh mé mionna nach n-ithim aon ghreim ime go ceann bliana.
+# text_standard = Agus dúirt Aindrias, na cuir, ach cuir chugam na fiche bó bliain eile agus bhéarfaidh mé mionna nach n-ithim aon ghreim ime go ceann bliana.
+# text_phonetic = αgəs du:rt′ α:nṟαs, Nα kyr′, αχ kyr′ ho̤gəm Nə f′ihə bɔ: b′l′iïn el′ə αgəs vɛ:r̥i m′ə m′ïNə Nαχ N′içəm ən jr′im′ ïm′ə gə k′ïN b′l′iəNə.
 1	⁊	agus	CCONJ	Coord	_	2	mark	_	_
-2	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+2	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	6	punct	_	_
 5	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -258,8 +264,8 @@
 
 # sent_id = 14
 # text = Rinne siad an margadh.
-# text_standard = Rinne siad an margadh .
-1	Rinne	déan	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+# text_standard = Rinne siad an margadh.
+1	Rinne	déan	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	siad	siad	PRON	Pers	Number=Plur|Person=3	1	nsubj	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	margadh	margadh	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
@@ -268,7 +274,7 @@
 # sent_id = 15
 # text = Thoisigh Áindrías ⁊ a bhean ag sábháil an ime.
 # text_standard = Thosaigh Aindrias agus a bhean ag sábháil an ime.
-1	Thoisigh	tosaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Thoisigh	tosaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	⁊	agus	CCONJ	Coord	_	5	cc	_	_
 4	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	_
@@ -282,7 +288,7 @@
 # sent_id = 16
 # text = Bhí deich mba(th) aig Áindrías é fhéin ⁊ shábháil sé an t‑im uilig go deárn sé ocht gcroc ⁊ fiche air shon an dá bhliadhan.
 # text_standard = Bhí deich mba ag Aindrias é féin agus shábháil sé an t-im uilig go ndearna sé ocht gcroc is fiche ar shon an dá bhliain .
-1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	deich	deich	NUM	Num	NumType=Card	3	nummod	_	_
 3	mbath	bó	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	aig	ag	ADP	Simp	_	5	case	_	_
@@ -312,7 +318,7 @@
 # sent_id = 17
 # text = Thainic an Seónstanach an tseachtmhain roimhe Shamhain ⁊ ceithre gearráin déag leis, péire cliabh air ghach gearrán.
 # text_standard = Tháinig an Seónstanach an tseachtain roimhe Shamhain agus ceithre gearráin déag leis, péire cliabh ar gach gearrán.
-1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
@@ -335,7 +341,7 @@
 # sent_id = 18
 # text = Thug sé leis a chuid ime.
 # text_standard = Thug sé leis a chuid ime.
-1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
 4	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	_
@@ -355,14 +361,14 @@
 7	agam	ag	ADP	Prep	Number=Sing|Person=1	2	obl:prep	_	_
 8	leat	le	ADP	Prep	Number=Sing|Person=2	2	obl:prep	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	2	punct	_	_
-10	arsa	arsa	VERB	PastInd	Mood=Ind|Tense=Past	_	root	_	_
+10	arsa	arsa	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	_
 11	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = 20
 # text = Tá mé ar tógáil gan aon ghreim ime fhagháil le bliadhain.
 # text_standard = Tá mé ar tógáil gan aon ghreim ime fháil le bliain.
-1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	_	root	_	_
+1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	ar	ar	ADP	Simp	_	4	case	_	_
 4	tógáil	tógáil	NOUN	Noun	VerbForm=Vnoun	1	xcomp	_	_
@@ -378,7 +384,7 @@
 # sent_id = 21
 # text = Cuirfidh mé stoc bolog chugad air an bhliadhain seo chugainn.
 # text_standard = Cuirfidh mé stoc bológ chugat ar an bhliain seo chugainn.
-1	Cuirfidh	cuir	VERB	VTI	Mood=Ind|Tense=Fut	_	root	_	_
+1	Cuirfidh	cuir	VERB	VTI	Mood=Ind|Tense=Fut	0	root	_	_
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	stoc	stoc	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 4	bolog	bológ	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -393,7 +399,7 @@
 # sent_id = 22
 # text = Maith go leór.
 # text_standard = Maith go leor.
-1	Maith	maith	ADJ	Adj	Degree=Pos	_	root	_	_
+1	Maith	maith	ADJ	Adj	Degree=Pos	0	root	_	_
 2	go	go	ADJ	Adj	_	1	advmod	_	_
 3	leór	leor	ADJ	Adj	_	2	fixed	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -401,7 +407,7 @@
 # sent_id = 23
 # text = Rinneadh an margadh.
 # text_standard = Rinneadh an margadh.
-1	Rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+1	Rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	margadh	margadh	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -409,7 +415,7 @@
 # sent_id = 24
 # text = Thainic an t‑eallach scór go leith.
 # text_standard = Tháinig an t-eallach scór go leith.
-1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	scór	scór	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
@@ -420,7 +426,7 @@
 # sent_id = 25
 # text = Chaith an t‑eallach a n‑am annsin go dtí an foghmhar.
 # text_standard = Chaith an t-eallach a n-am ansin go dtí an fómhar.
-1	Chaith	caith	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Chaith	caith	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	_
@@ -435,7 +441,7 @@
 # sent_id = 26
 # text = Thug an Seónstanach leis iad go h‑aonach an fhoghmhair Bhealach Seanaidh é fhéin ⁊ Áindrías leis.
 # text_standard = Thug an Seónstanach leis iad go haonach an fhómhair Bhealach Seanaidh é féin agus Aindrias leis .
-1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
@@ -456,7 +462,7 @@
 # sent_id = 27
 # text = Dhíol sé an t‑eallach le Connachtach ⁊ dubhairt an Connachtach: is mor an náire nach bhfuil eallach níos fearr agaibh ná tá.
 # text_standard = Dhíol sé an t-eallach le Connachtach agus dúirt an Connachtach: is mór an náire nach bhfuil eallach níos fearr agaibh ná atá.
-1	Dhíol	díol	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Dhíol	díol	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	t-eallach	eallach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
@@ -485,7 +491,7 @@
 # text = Acht ní’l áit an bhídh ann bhur gcuid eallaigh na ann bhur ndaoiní.
 # text_standard = Ach níl áit an bhia ann bhur gcuid eallaigh na ann bhur ndaoine .
 1	Acht	ach	SCONJ	Subord	_	2	mark	_	_
-2	ní'l	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	_	root	_	_
+2	ní'l	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	_
 3	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	_
 4	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	bhídh	bia	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -503,7 +509,7 @@
 # text = Dubhairt an Seónstanach go robh eallach agus daoiní ocú co maith ⁊ bhí i gConnachta agus a ghlacadh a mbiadh co maith fosta.
 # text_standard = Dúirt an Seónstanach go raibh eallach agus daoine acu chomh maith agus bhí i gConnachta agus a ghlacadh a mbeadh chomh maith fosta.
 # fixme = bhí -> a bhí?
-1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	go	go	PART	Vb	PartType=Cmpl	5	mark:prt	_	_
@@ -531,7 +537,7 @@
 # sent_id = 30
 # text = Phléideáil an Seónstanach ⁊ an Connachtach air feadh tamaill agus chuir siad geall thrí leath-ghuinea cia ocú buachaill an Chonnachtaigh no buachaill an Seónstanaigh is mó d’íosadh de im.
 # text_standard = Phléadáil an Seónstanach agus an Connachtach ar feadh tamaill agus chuir siad geall thrí leathghine cé acu buachaill an Chonnachtaigh nó buachaill an Seónstanaigh is mó a do íosfadh de ime.
-1	Phléideáil	pléadáil	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Phléideáil	pléadáil	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	⁊	agus	CCONJ	Coord	_	6	cc	_	_
@@ -568,7 +574,7 @@
 # sent_id = 31
 # text = H‑innsigheadh an scéal do Áindrías agus do bhuachaill an Chonnachtaigh ⁊ dubhairt an bheirt gur mhaith mar tharlaidh, go robh a sáith ocrais orrthú.
 # text_standard = nInsíodh an scéal do Aindrias agus do bhuachaill an Chonnachtaigh agus dúirt an bheirt gur mhaith mar tharla, go raibh a sáith ocrais orthu.
-1	H-innsigheadh	inis	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	_	root	_	_
+1	H-innsigheadh	inis	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	scéal	scéal	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	do	do	ADP	Simp	_	5	case	_	_
@@ -598,7 +604,7 @@
 # sent_id = 32
 # text = Chuaidh siad isteach i dteach an ósta.
 # text_standard = Chuaigh siad isteach i dteach an ósta.
-1	Chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Chuaidh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	siad	siad	PRON	Pers	Number=Plur|Person=3	1	nsubj	_	_
 3	isteach	isteach	ADV	Dir	_	1	advmod	_	_
 4	i	i	ADP	Simp	_	5	case	_	_
@@ -610,7 +616,7 @@
 # sent_id = 33
 # text = Fiafruigheadh diobhtha go dé d’iosadh siad le n‑a gcuid ime.
 # text_standard = Fiafraíodh díobh cad é a d'íosfadh siad lena gcuid ime.
-1	Fiafruigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+1	Fiafruigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	diobhtha	de	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
 3-5	go dé	_	_	_	_	_	_	_	_
 3	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
@@ -627,7 +633,7 @@
 # sent_id = 34
 # text = Dubhairt an bheirt: Arán min choirce agus préataí.
 # text_standard = Dúirt an bheirt: arán min choirce agus prátaí.
-1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	bheirt	beirt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
 4	:	:	PUNCT	Punct	_	5	punct	_	_
@@ -641,7 +647,7 @@
 # sent_id = 35
 # text = Fuaras sin dóbhtha.
 # text_standard = Fuarthas sin dóibh.
-1	Fuarthas	faigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+1	Fuarthas	faigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	sin	sin	PRON	Dem	PronType=Dem	1	nsubj	_	_
 3	dóbhtha	do	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
@@ -649,7 +655,7 @@
 # sent_id = 36
 # text = Fiafraigheadh díobhtha go dé an mhéid ime.
 # text_standard = Fiafraíodh díobh cad é an mhéid ime .
-1	Fiafraigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	_	root	_	_
+1	Fiafraigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	díobhtha	de	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
 3-4	go dé	_	_	_	_	_	_	_	_
 3	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
@@ -662,7 +668,7 @@
 # sent_id = 37
 # text = Dubhairt Áindrías ceathramhadh cloiche.
 # text_standard = Dúirt Aindrias ceathrú cloiche.
-1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	_	root	_	_
+1	Dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	ceathramhadh	ceathrú	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 4	cloiche	cloch	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -673,7 +679,7 @@
 # text_standard = Níorbh fhada go raibh sin críochnaithe.
 1-2	Níor bhfhada	_	_	_	_	_	_	_	_
 1	Níorbh	is	AUX	Cop	Form=VF|Polarity=Neg|Tense=Past|VerbForm=Cop	2	cop	_	_
-2	fhada	fada	ADJ	Adj	Degree=Pos|Form=Len	_	root	_	_
+2	fhada	fada	ADJ	Adj	Degree=Pos|Form=Len	0	root	_	_
 3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
 4	robh	bí	VERB	PastInd	Mood=Ind|Tense=Past	2	csubj:cop	_	_
 5	sin	sin	PRON	Dem	PronType=Dem	4	nsubj	_	_
@@ -683,7 +689,7 @@
 # sent_id = 39
 # text = Ghair Áindrías ceathramhadh cloiche eile do gach aon ocú.
 # text_standard = Ghair Aindrias ceathrú cloiche eile do gach aon acu.
-1	Ghair	gair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+1	Ghair	gair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	ceathramhadh	ceathrú	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
 4	cloiche	cloch	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
@@ -703,7 +709,7 @@
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	t-im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	3	punct	_	_
-7	bhuail	buail	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	_	root	_	_
+7	bhuail	buail	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 8	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	dorn	dorn	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
 10	air	ar	ADP	Simp	_	12	case	_	_
@@ -725,7 +731,7 @@
 # text = Gur cheart dóbhtha deoch fhagháil.
 # text_standard = Gur cheart dóibh deoch fháil.
 1	Gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	2	cop	_	_
-2	cheart	ceart	ADJ	Adj	Degree=Pos|Form=Len	_	root	_	_
+2	cheart	ceart	ADJ	Adj	Degree=Pos|Form=Len	0	root	_	_
 3	dóbhtha	do	ADP	Prep	Number=Plur|Person=3	2	obl:prep	_	_
 4	deoch	deoch	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 5	fhagháil	fáil	NOUN	Noun	Form=Len|VerbForm=Inf	2	csubj:cop	_	SpaceAfter=No
@@ -733,38 +739,150 @@
 
 # sent_id = 42
 # text = Fiafraigheadh go dé an deoch ⁊ dubhairt sé: Deoch ime.
+# text_standard = Fiafraíodh cad é an deoch agus dúirt sé: Deoch ime.
+1	Fiafraigheadh	fiafraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
+2-3	go dé	_	_	_	_	_	_	_	_
+2	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
+3	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	deoch	deoch	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	_
+6	⁊	agus	CCONJ	Coord	_	7	cc	_	_
+7	dubhairt	abair	VERB	VTI	Mood=Ind|Tense=Past	1	conj	_	_
+8	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	Punct	_	10	punct	_	_
+10	Deoch	deoch	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	_
+11	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 43
 # text = Go dé an mhéid ime?
+# text_standard = Cad é an mhéid ime?
+1-2	Goidé	_	_	_	_	_	_	_	_
+1	Cad	cad	PRON	Q	PronType=Int	0	root	_	_
+2	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
+3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	mhéid	méid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	ime	im	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	?	_	1	punct	_	_
 
 # sent_id = 44
 # text = Léighigidh ceathramhadh cloiche an fear dúinn.
+# text_standard = Leáigí ceathrú cloiche an fear dúinn.
+1	Léighigidh	leáigh	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
+2	ceathramhadh	ceathrú	NUM	Num	NumType=Card	3	amod	_	_
+3	cloiche	cloch	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	fear	fear	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
+6	dúinn	do	ADP	Prep	Number=Plur|Person=1	1	obl:prep	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 45
 # text = Thainic sé léighte ⁊ ann dhá bpigín.
+# text_standard = Tháinig sé leáite agus ann dhá bpigín.
+1	Thainic	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
+2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	léighte	leáite	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
+4	agus	agus	CCONJ	Coord	_	5	cc	_	_
+5	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	conj	_	_
+6	dhá	dó	NUM	Num	Form=Len|NumType=Card	7	nummod	_	_
+7	bpigín	pigín	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 46
 # text = D’ól Áindrías deoch ⁊ d’iarr sé na préataí ⁊ an t‑arán do thabhairt leóbhtha as an chasán, go bhfaghadh sé a chuid do dheánamh.
+# text_standard = D'ól Aindrias deoch agus d'iarr sé na prátaí agus an t-arán a thabhairt leo as an chosán, go bhfaigheadh sé a chuid a dhéanamh.
+1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
+2	ól	ól	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
+3	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	deoch	deoch	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+5	⁊	agus	CCONJ	Coord	_	7	cc	_	_
+6	d'	do	PART	Vb	PartType=Vb	7	mark:prt	_	SpaceAfter=No
+7	iarr	iarr	VERB	VT	Mood=Ind|Tense=Past	2	conj	_	_
+8	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	préataí	práta	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	7	obj	_	_
+11	⁊	agus	CCONJ	Coord	_	15	cc	_	_
+12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	t-arán	arán	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	15	obj	_	_
+14	do	a	PART	Inf	PartType=Inf	15	mark	_	_
+15	thabhairt	tabhairt	NOUN	Noun	Form=Len|VerbForm=Inf	7	xcomp	_	_
+16	leóbhtha	le	ADP	Prep	Number=Plur|Person=3	15	obl:prep	_	_
+17	as	as	ADP	Simp	_	19	case	_	_
+18	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	chasán	cosán	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	Punct	_	22	punct	_	_
+21	go	go	PART	Vb	PartType=Cmpl	22	mark:prt	_	_
+22	bhfaghadh	faigh	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	2	ccomp	_	_
+23	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+24	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	25	nmod:poss	_	_
+25	chuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	27	obj	_	_
+26	do	a	PART	Inf	PartType=Inf	27	mark	_	_
+27	dheánamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 47
 # text = Rug sé air fhód de’n im ann a dhorn.
+# text_standard = Rug sé air fhód den im ann a dhorn.
+1	Rug	beir	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
+2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
+4	fhód	fód	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	1	obj	_	_
+5	de'n	de	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
+6	im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ann a	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	8	case	_	_
+8	dhorn	dorn	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 48
 # text = Chuir sé ann a bhéil é.
+# text_standard = Chuir sé ina bhéal é.
+1	Chuir	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
+2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	ann a	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	4	case	_	_
+4	bhéil	béal	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
+5	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 49
 # text = Bhain sé greim mór as.
+# text_standard = Bhain sé greim mór as.
+1	Bhain	bain	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
+2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
+3	greim	greim	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+4	mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+5	as	as	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 50
 # text = D’ól sé bolgam as an phigín.
+# text_standard = D'ól sé bolgam as an phigín.
+1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
+2	ól	ól	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
+3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+4	bolgam	bolgam	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	as	as	ADP	Simp	_	7	case	_	_
+6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	phigín	pigín	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 51
-# text = Dhóirt cuid de’n im anuas fríd an fhéasóig mhóir. 
+# text = Dhóirt cuid de’n im anuas fríd an fhéasóig mhóir.
+# text_standard = Dhoirt cuid den im anuas tríd an fhéasóg mhóir .
+1	Dhoirt	doirt	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
+2	cuid	cuid	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	de'n	de	ADP	Art	Number=Sing|PronType=Art	4	case	_	_
+4	im	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
+5	anuas	anuas	ADV	Dir	_	1	advmod	_	_
+6	fríd	trí	ADP	Simp	_	8	case	_	_
+7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	fhéasóig	féasóg	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	obl	_	_
+9	mhóir	mór	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 52
 # text = As ocht Dé, a mháighistir! féach anonn air.
 # text_standard = As ucht Dé, a mháistir! féach anonn air.
-1	As	as	ADP	Simp	_	_	root	_	_
+1	As	as	ADP	Simp	_	0	root	_	_
 2	ocht	ucht	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	_
 3	Dé	Dé	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	6	punct	_	_
@@ -777,11 +895,60 @@
 11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 53
-# text = Ní fhéadaim do bhéith beó ag amharc air an bheathach shalach. 
+# text = Ní fhéadaim do bhéith beó ag amharc air an bheathach shalach.
+# text_standard = Ní fhéadaim a bheith beo ag amharc ar an bheathach shalach.
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
+2	fhéadaim	féad	VERB	VTI	Form=Len|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+3	do	a	PART	Inf	PartType=Inf	4	mark	_	_
+4	bhéith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	2	xcomp	_	_
+5	beó	beo	ADJ	Adj	Degree=Pos	4	xcomp:pred	_	_
+6	ag	ag	ADP	Simp	_	7	case	_	_
+7	amharc	amharc	NOUN	Noun	VerbForm=Vnoun	4	xcomp	_	_
+8	air	ar	ADP	Simp	_	10	case	_	_
+9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	bheathach	beathach	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	7	obl	_	_
+11	shalach	salach	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 54
-# text = Díol an geall ⁊ an tráth rachaidh muid abhaile íocfaidh mé fhéin a leath. 
+# text = Díol an geall ⁊ an tráth rachaidh muid abhaile íocfaidh mé fhéin a leath.
+# text_standard = Díol an geall agus an tráth rachaidh muid abhaile íocfaidh mé féin a leath .
+1	Díol	díol	VERB	VTI	Mood=Ind|Number=Sing|Person=2	0	root	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	geall	geall	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
+4	⁊	agus	CCONJ	Coord	_	6	cc	_	_
+5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	tráth	tráth	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obl:tmod	_	_
+7	rachaidh	téigh	VERB	VTI	Mood=Ind|Tense=Fut	1	conj	_	_
+8	muid	muid	PRON	Pers	Number=Plur|Person=1	7	nsubj	_	_
+9	abhaile	abhaile	ADV	Dir	_	10	advmod	_	_
+10	íocfaidh	íoc	VERB	VTI	Mood=Ind|Tense=Fut	7	conj	_	_
+11	mé	mé	PRON	Pers	Number=Sing|Person=1	10	nsubj	_	_
+12	fhéin	féin	PRON	Ref	Reflex=Yes	11	nmod	_	_
+13	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	nmod:poss	_	_
+14	leath	leath	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 55
-# text = Bhain Áindrías an geall acht d’fhág sé Áindrías an Ime mar ainm air go bhfhuair sé bás. 
+# text = Bhain Áindrías an geall acht d’fhág sé Áindrías an Ime mar ainm air go bhfhuair sé bás.
+# text_standard = Bhain Aindrias an geall ach d'fhág sé Aindrias an Ime mar ainm air go bhfuair sé bás.
+1	Bhain	bain	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
+2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	geall	geall	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
+5	ach	ach	SCONJ	Subord	_	7	mark	_	_
+6	d'	do	PART	Vb	PartType=Vb	7	mark:prt	_	SpaceAfter=No
+7	fhág	fág	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	advcl	_	_
+8	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
+10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	Ime	im	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
+12	mar	mar	ADP	Simp	_	13	case	_	_
+13	ainm	ainm	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	obl:prep	_	_
+15	go	go	PART	Vb	PartType=Cmpl	16	mark:prt	_	_
+16	bhfhuair	faigh	VERB	VT	Form=Ecl|Mood=Ind|Tense=Past	7	ccomp	_	_
+17	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+18	bás	bás	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
 
