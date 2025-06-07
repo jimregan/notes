@@ -109,17 +109,50 @@ https://chatgpt.com/c/684338ba-c1a8-8011-b273-0c85cb56cdd4
 Part-of-Speech & Morphological Features - Stanza
 https://stanfordnlp.github.io/stanza/pos.html
 
+stanza/stanza/models/tagger.py at main · stanfordnlp/stanza
+https://github.com/stanfordnlp/stanza/blob/main/stanza/models/tagger.py#L21
+
+Multi-Word Token (MWT) Expansion - Stanza
+https://stanfordnlp.github.io/stanza/mwt.html
+
+Data Conversion - Stanza
+https://stanfordnlp.github.io/stanza/data_conversion.html#python-object-to-conll
+
+Models - Stanza
+https://stanfordnlp.github.io/stanza/models.html
+
+Available Models & Languages - Stanza
+https://stanfordnlp.github.io/stanza/available_models.html#available-ner-models
+
+NER Models - Stanza
+https://stanfordnlp.github.io/stanza/ner_models.html
+
+nytud/NYTK-NerKor: The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens.
+https://github.com/nytud/NYTK-NerKor/tree/main?tab=readme-ov-file
+
+nytud/emMorph
+https://github.com/nytud/emMorph
+
+CoNLL-U Plus Format
+https://universaldependencies.org/ext-format.html
+
+Hungarian Named Entity Corpora | HUN-REN—SZTE Research Group on Artificial Intelligence
+https://rgai.inf.u-szeged.hu/node/130
+
+Training - Stanza
+https://stanfordnlp.github.io/stanza/training.html
+
+Resources - Stanza
+https://stanfordnlp.github.io/stanza/resources.html
+
+Lemmatization - Stanza
+https://stanfordnlp.github.io/stanza/lemma.html#improving-the-lemmatizer-by-providing-key-value-dictionary
+
 Olow304/memvid: Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed.
 https://github.com/Olow304/memvid
 
 Instagram
 https://www.instagram.com/
-
-Glastonbury 2025: Who are Patchwork and the festival's other secret sets stars?
-https://www.bbc.com/news/articles/cvg5zd3nkkwo?fbclid=PAZXh0bgNhZW0CMTEAAaei61GXbxznvniRgYKS_UrzFNZAudJaVgTXDViA0b-BnzHZYH-ib6tzH0rq4w_aem_Zw-9DyI3IegvPq-W_jVo1g
-
-lov - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/lov#Swedish
 
 YouTube
 https://www.youtube.com/
@@ -127,16 +160,25 @@ https://www.youtube.com/
 Dan Snow Rates the Best Historical Films of All Time - YouTube
 https://www.youtube.com/watch?v=vZ1d7ESdlZs
 
-The Best METAL Guitar Solo Of Every Year (1970-2024) - YouTube
-https://www.youtube.com/watch?v=xmoeQ-M49bg&list=RDxmoeQ-M49bg&start_radio=1
+Battle of Iwo Jima - Wikipedia
+https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima
 
-The Black Dahlia Murder (band) - Wikipedia
-https://en.wikipedia.org/wiki/The_Black_Dahlia_Murder_(band)
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/with/54573645988/
 
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=semmi%20baj&op=translate
+(1) Home / X
+https://x.com/home
 
-ön - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/%C3%B6n#Hungarian
+Aaron Rupar on X: "“Scott said, ‘You’re a fraud. You’re a total fraud' ... Musk then rammed his shoulder into Bessent’s rib cage 'like a rugby player,' Bannon said, and Bessent hit him back." https://t.co/oovWmUh7fH" / X
+https://x.com/atrupar/status/1931365338987291029
+
+(1) video that go hard 💀 on X: "Is this the right way to get a promotion? 💀 https://t.co/3tTJatSBRn" / X
+https://x.com/savageclipss/status/1931098518825128060
+
+(1) Gavin Newsom on X: "Californians pay the bills for the federal government. We pay over $80 BILLION more in taxes than we get back. Maybe it’s time to cut that off, @realDonaldTrump. https://t.co/lwFHFSgSyJ" / X
+https://x.com/GavinNewsom/status/1931087538565054849
+
+(1) Jonathan Needler on X: "@GavinNewsom @realDonaldTrump And yet red states tax money bail y’all out every year during your annual budget deficit." / X
+https://x.com/JonathanNeedler/status/1931088077176336482
 
 
