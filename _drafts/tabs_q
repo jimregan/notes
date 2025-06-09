@@ -43,9 +43,6 @@ http://web.archive.org/web/https://www.nationalgeographic.com/premium/article/mo
 Swedish National Day Celebrations 2025 – Visit Stockholm
 https://www.visitstockholm.com/see-do/activities/celebrate-swedens-national-day-in-stockholm/
 
-National Day at the Royal Palace - Royal Palaces
-https://www.kungligaslotten.se/kalendarium/evenemang/nationaldagen-pa-kungliga-slottet.html
-
 Kashubian to Polish parse
 https://chatgpt.com/c/684338ba-c1a8-8011-b273-0c85cb56cdd4
 
@@ -67,52 +64,103 @@ https://stanfordnlp.github.io/stanza/models.html
 Available Models & Languages - Stanza
 https://stanfordnlp.github.io/stanza/available_models.html#available-ner-models
 
+Model Training and Evaluation - Stanza
+https://stanfordnlp.github.io/stanza/training_and_evaluation.html#converting-ud-data
+
 NER Models - Stanza
 https://stanfordnlp.github.io/stanza/ner_models.html
 
-nytud/NYTK-NerKor: The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens.
-https://github.com/nytud/NYTK-NerKor/tree/main?tab=readme-ov-file
+NYTK-NerKor/data/train/fiction/chilcote_12.conllup at main · nytud/NYTK-NerKor
+https://github.com/nytud/NYTK-NerKor/blob/main/data/train/fiction/chilcote_12.conllup
 
 nytud/emMorph
-https://github.com/nytud/emMorph
+https://github.com/nytud/emMorph?tab=readme-ov-file
+
+nytud/hunlp-GATE: Lang_Hungarian - a GATE plugin containing Hungarian NLP tools as GATE processing resources
+https://github.com/nytud/hunlp-GATE/tree/master?tab=readme-ov-file
+
+DavidNemeskey/emBERT: emtsv module for pre-trained Transfomer-based models
+https://github.com/DavidNemeskey/emBERT
 
 CoNLL-U Plus Format
 https://universaldependencies.org/ext-format.html
 
-Hungarian Named Entity Corpora | HUN-REN—SZTE Research Group on Artificial Intelligence
-https://rgai.inf.u-szeged.hu/node/130
+Retrain models for a UD dataset - Stanza
+https://stanfordnlp.github.io/stanza/retrain_ud.html
 
-Training - Stanza
-https://stanfordnlp.github.io/stanza/training.html
+Frequently Asked Questions (FAQ) - Stanza
+https://stanfordnlp.github.io/stanza/faq.html#can-i-run-pos-taggingmorphological-feature-tagginglemmatizationdependency-parsing-without-expanding-multi-word-tokens-mwts
 
-Resources - Stanza
-https://stanfordnlp.github.io/stanza/resources.html
-
-Lemmatization - Stanza
-https://stanfordnlp.github.io/stanza/lemma.html#improving-the-lemmatizer-by-providing-key-value-dictionary
+Tokenization & Sentence Segmentation - Stanza
+https://stanfordnlp.github.io/stanza/tokenize.html
 
 Olow304/memvid: Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed.
 https://github.com/Olow304/memvid
 
-Instagram
-https://www.instagram.com/
+py-pdf/pypdf: A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
+https://github.com/py-pdf/pypdf/tree/main?tab=readme-ov-file
 
-Trump 'Not Troubled' By Musk's Alleged Drug Use: VIDEO - Comic Sands
-https://www.comicsands.com/trump-musk-drug-use?utm_medium=Social&utm_source=Instagram&fbclid=PAZXh0bgNhZW0CMTEAAae7xVlksE51vv4mSUk-ouyC8jMzUTwGxtThzOhFaZ698kTD5s79chhjPJa87Q_aem_K-vC-5yeR9kuD3FKyMBd4g%23Echobox%3D1749223046
+pdfly/pdfly/x2pdf.py at main · py-pdf/pdfly
+https://github.com/py-pdf/pdfly/blob/main/pdfly/x2pdf.py
 
-YouTube
-https://www.youtube.com/
+py-pdf
+https://github.com/py-pdf
 
-Ninjutsu Techniques Adapted For Modern Threats - YouTube
-https://www.youtube.com/watch?v=dQn2EJz3Hz8
+py-pdf/pypdf: A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files
+https://github.com/py-pdf/pypdf
 
-Elon Goes NUCLEAR on Trump, Claims He’s in Epstein Files & MAGA Nuts Downplay the Rift Between Them - YouTube
-https://www.youtube.com/watch?v=QdDYpG-fols
+py-pdf/fpdf2: Simple PDF generation for Python
+https://github.com/py-pdf/fpdf2?tab=readme-ov-file
+
+HTML - fpdf2
+https://py-pdf.github.io/fpdf2/HTML.html
+
+camelot-dev/camelot: A Python library to extract tabular data from PDFs
+https://github.com/camelot-dev/camelot
 
 TMH APT - agenda and meeting minutes - Google Docs
 https://docs.google.com/document/d/1HWlKUcKCHR3KDWD5nlT1k_NMXkMFNovShCnDva9PoWY/edit?tab=t.uc764oeg36ju
 
-dorr - Google Search
-https://www.google.com/search?q=dorr&rlz=1C5GCCM_en&oq=dorr&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQIxgnGIAEGIoFMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAuGIAEMgYIBhBFGDwyBggHEEUYPNIBBzQ0OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+public enemy guards - Google Search
+https://www.google.com/search?q=public+enemy+guards&sca_esv=3865a5c24f38e491&rlz=1C5GCCM_en&udm=2&biw=1440&bih=728&sxsrf=AE3TifN6p4iXcIB-n12djrOqKibHmdCavw%3A1749461230600&ei=7qhGaMq0JLbHwPAP39PCyAM&ved=0ahUKEwjK48r5guSNAxW2IxAIHd-pEDkQ4dUDCBE&uact=5&oq=public+enemy+guards&gs_lp=EgNpbWciE3B1YmxpYyBlbmVteSBndWFyZHMyBBAAGB5IuCJQigZYziFwBHgAkAEAmAE8oAH1B6oBAjIwuAEDyAEA-AEBmAIYoAKfCMICBRAAGIAEwgIIEAAYCBgKGB7CAgYQABgIGB7CAgcQIxgnGMkCwgIKEAAYgAQYQxiKBcICBxAAGIAEGAqYAwCIBgGSBwIyNKAHhlmyBwIyMLgHlAjCBwY0LjE5LjHIByI&sclient=img#vhid=qagxHCjUrvAfkM&vssid=mosaic
+
+Extract text by coordinates
+https://chatgpt.com/c/6846b43e-63ec-8011-99ee-e55af71391eb
+
+jsvine/pdfplumber: Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
+https://github.com/jsvine/pdfplumber?tab=readme-ov-file
+
+tabula-extractor/lib/tabula/entities/spreadsheet.rb at master · tabulapdf/tabula-extractor
+https://github.com/tabulapdf/tabula-extractor/blob/master/lib/tabula/entities/spreadsheet.rb
+
+pdfminer.six/pdfminer/layout.py at master · pdfminer/pdfminer.six
+https://github.com/pdfminer/pdfminer.six/blob/master/pdfminer/layout.py
+
+hOCR - Wikipedia
+https://en.wikipedia.org/wiki/HOCR
+
+hocr-tools/hocr-eval at master · ocropus/hocr-tools
+https://github.com/ocropus/hocr-tools/blob/master/hocr-eval
+
+Welcome to pdfminer.six’s documentation! — pdfminer.six 20250417.dev7+g51683b2 documentation
+https://pdfminersix.readthedocs.io/en/latest/
+
+Unicorn! · GitHub
+https://gist.github.com/jimregan?page=3
+
+sent45.conll
+https://gist.github.com/jimregan/d64be13dbf24a8a089dcafe54fac0855
+
+hsi ctc-forced-align output
+https://gist.github.com/jimregan/aded02f0c81b97c5c5d130453c6bdbb5
+
+jimin.conll
+https://gist.github.com/jimregan/bf60f767af7e729d0c14e204480a82ef
+
+distinction - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/distinction
+
+Thesaurus:uniqueness - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Thesaurus:uniqueness#English
 
 
