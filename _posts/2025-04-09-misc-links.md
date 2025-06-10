@@ -30,3 +30,16 @@ categories: [links]
 
 [OpenEmu/OpenEmu](https://github.com/OpenEmu/OpenEmu)
 
+[NoProp: Training Neural Networks without Back-propagation or Forward-propagation](https://arxiv.org/abs/2503.24322)
+
+[Annotated Reference Corpus of Scottish Gaelic](https://datashare.ed.ac.uk/handle/10283/2011)
+
+[Soft-DTW: a Differentiable Loss Function for Time-Series](https://arxiv.org/abs/1703.01541),
+[code](https://github.com/mblondel/soft-dtw),
+[Re-implementation](https://github.com/keonlee9420/Soft-DTW-Loss)
+
+[FLAM: Frame-Wise Language-Audio Modeling](https://arxiv.org/abs/2505.05335)
+
+[Word-Level Alignment of Paper Documents with their Electronic Full-Text Counterparts](https://aclanthology.org/2021.bionlp-1.19/),
+[code](https://github.com/nlpAThits/BioNLP2021)
+
