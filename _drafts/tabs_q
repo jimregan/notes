@@ -52,71 +52,8 @@ https://stanfordnlp.github.io/stanza/pos.html
 stanza/stanza/models/tagger.py at main · stanfordnlp/stanza
 https://github.com/stanfordnlp/stanza/blob/main/stanza/models/tagger.py#L21
 
-Multi-Word Token (MWT) Expansion - Stanza
-https://stanfordnlp.github.io/stanza/mwt.html
-
-Data Conversion - Stanza
-https://stanfordnlp.github.io/stanza/data_conversion.html#python-object-to-conll
-
-Models - Stanza
-https://stanfordnlp.github.io/stanza/models.html
-
-Available Models & Languages - Stanza
-https://stanfordnlp.github.io/stanza/available_models.html#available-ner-models
-
-Model Training and Evaluation - Stanza
-https://stanfordnlp.github.io/stanza/training_and_evaluation.html#converting-ud-data
-
-NER Models - Stanza
-https://stanfordnlp.github.io/stanza/ner_models.html
-
-nytud/huwn: Hungarian WordNet / Magyar WordNet
-https://github.com/nytud/huwn
-
-nytud/emMorph
-https://github.com/nytud/emMorph?tab=readme-ov-file
-
-nytud/hunlp-GATE: Lang_Hungarian - a GATE plugin containing Hungarian NLP tools as GATE processing resources
-https://github.com/nytud/hunlp-GATE/tree/master?tab=readme-ov-file
-
-DavidNemeskey/emBERT: emtsv module for pre-trained Transfomer-based models
-https://github.com/DavidNemeskey/emBERT
-
-CoNLL-U Plus Format
-https://universaldependencies.org/ext-format.html
-
-Retrain models for a UD dataset - Stanza
-https://stanfordnlp.github.io/stanza/retrain_ud.html
-
-Frequently Asked Questions (FAQ) - Stanza
-https://stanfordnlp.github.io/stanza/faq.html#can-i-run-pos-taggingmorphological-feature-tagginglemmatizationdependency-parsing-without-expanding-multi-word-tokens-mwts
-
-Tokenization & Sentence Segmentation - Stanza
-https://stanfordnlp.github.io/stanza/tokenize.html
-
-Olow304/memvid: Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed.
-https://github.com/Olow304/memvid
-
 jsvine/pdfplumber: Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.
 https://github.com/jsvine/pdfplumber?tab=readme-ov-file
-
-eScriptorium - Wikipedia
-https://en.wikipedia.org/wiki/EScriptorium
-
-Training kraken — kraken documentation
-https://kraken.re/main/training.html
-
-knaw-huc/pagexml
-https://github.com/knaw-huc/pagexml?tab=readme-ov-file
-
-pagexml/notebooks/Demo-analysing-scan-characteristics-book-sections.ipynb at master · knaw-huc/pagexml
-https://github.com/knaw-huc/pagexml/blob/master/notebooks/Demo-analysing-scan-characteristics-book-sections.ipynb
-
-Instagram
-https://www.instagram.com/reels/DHUUx5lyBGB/
-
-I can reach orgasm alone – but not with my partner | Life and style | The Guardian
-https://www.theguardian.com/lifeandstyle/2025/jun/11/i-can-reach-orgasm-alone-but-not-with-my-partner?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAaca99zHGmODYn2wfUtF_Cf7RjEEKIuYjcydfRiidK0xMDxWLhPDDLdOIysZSA_aem_oYEh8TLD8nF0T7PCNIWZcg
 
 Notifications | OpenReview
 https://openreview.net/notifications
@@ -130,11 +67,8 @@ https://openreview.net/group?id=thecvf.com/CVPR/2025/Workshop/Humanoid_Agents/Au
 Grounded Gesture Generation: Language, Motion, and Space | OpenReview
 https://openreview.net/forum?id=5mEKdGhGnj&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FHumanoid_Agents%2FAuthors%23your-submissions)
 
-Paper Review Assistance
-https://chatgpt.com/c/68471ae9-b86c-8011-9ef3-1014987998b4
-
-microsoft/GLIP: Grounded Language-Image Pre-training
-https://github.com/microsoft/GLIP
+Demo of GLIP - Colab
+https://colab.research.google.com/drive/12x7v-_miN7-SRiziK3Cx4ffJzstBJNqb?usp=sharing#scrollTo=ay44Uu6K7oYl
 
 BLIP-2
 https://huggingface.co/docs/transformers/en/model_doc/blip-2
@@ -145,9 +79,6 @@ https://www.google.com/search?q=3D+Visual+Grounding+datasets&rlz=1C5GCCM_en&oq=3
 2501.01366
 https://arxiv.org/pdf/2501.01366
 
-Future of hOCR · Issue #17 · kba/hocr-spec
-https://github.com/kba/hocr-spec/issues/17
-
 Insert OCRed text and annotations in DjVu (manual method)
 http://www.ub-filosofie.ro/~solcan/wt/gnu/d/hdjv.html
 
@@ -157,38 +88,8 @@ http://www.ub-filosofie.ro/~solcan/wt/gnu/d/djv4.html
 tesseract box editor - Google Search
 https://www.google.com/search?q=tesseract+box+editor&rlz=1C5GCCM_en&oq=tesseract+box+ed&gs_lcrp=EgZjaHJvbWUqDQgAEAAYkQIYgAQYigUyDQgAEAAYkQIYgAQYigUyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yBggGEEUYPDIGCAcQRRg80gEINDAxNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-danvk/boxedit: A web-based editor for Tesseract box files
-https://github.com/danvk/boxedit
-
-quillkiragimmy/djvuhocr: Embedding hOCR ( OCR with text alignment ) generated texts into Djvu files. Dependency: DjvuLibre, Tesseract.
-https://github.com/quillkiragimmy/djvuhocr
-
-ocrodjvu/lib/cli/djvu2hocr.py at master · jwilk-archive/ocrodjvu
-https://github.com/jwilk-archive/ocrodjvu/blob/master/lib/cli/djvu2hocr.py
-
-hocr align transcript - Google Search
-https://www.google.com/search?q=hocr+align+transcript&sca_esv=813765718ccf2407&rlz=1C5GCCM_en&sxsrf=AE3TifOIlQHHxo29xPX7A9aj1G9C2sW7HA:1749550090319&ei=CgRIaMCPE569wPAPsvjr-Q4&start=10&sa=N&sstk=Ac65TH66wajm5neRCjKTQTqqFEHS95aOccMljjvI3XPgXB7tYMCUI5JKkDm5JAVJzx8Xk3NPZlc-NIveE5wElai5u3kqHAS0SVK0wQ&ved=2ahUKEwjAvJn9zeaNAxWeHhAIHTL8Ou8Q8NMDegQICRAW&biw=1440&bih=728&dpr=2
-
-quillkiragimmy/djvuhocr: Embedding hOCR ( OCR with text alignment ) generated texts into Djvu files. Dependency: DjvuLibre, Tesseract.
-https://github.com/quillkiragimmy/djvuhocr
-
-hocr-tools/hocr-extract-g1000 at master · ocropus/hocr-tools
-https://github.com/ocropus/hocr-tools/blob/master/hocr-extract-g1000
-
-TEITOK
-http://www.teitok.org/index.php?action=help&id=facs
-
-TEITOK
-http://www.teitok.org/index.php?action=home
-
-common · master · Maarten Janssen / TEITOK · GitLab
-https://gitlab.com/maartenes/TEITOK/-/tree/master/common?ref_type=heads
-
 rousso24_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/rousso24_interspeech.pdf
-
-YouTube
-https://www.youtube.com/
 
 towards-an-acoustically-validated-phonetic.pdf
 https://resourceful-workshop.github.io/resourceful-2025/papers/towards-an-acoustically-validated-phonetic.pdf
@@ -198,12 +99,6 @@ https://kth-se.zoom.us/saml/mobile_success?token=f2011e1e#success
 
 ChatGPT - mm-rebuttal
 https://chatgpt.com/g/g-p-68499c2cb2988191a94190ccf45af66a-mm-rebuttal/c/68499ca3-0870-8011-b2ab-736c1dd5c3f0
-
-Instagram
-https://www.instagram.com/
-
-Repentless - Wikipedia
-https://en.wikipedia.org/wiki/Repentless
 
 Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning
 https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/
@@ -223,9 +118,6 @@ https://arxiv.org/pdf/2403.12945
 universal dependencies - Google Search
 https://www.google.com/search?q=universal+dependencies&rlz=1C5GCCM_en&oq=universal+dep&gs_lcrp=EgZjaHJvbWUqBwgDEAAYgAQyBggAEEUYOTIICAEQRRgnGDsyBggCEEUYOzIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDUyMjNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Universal Dependencies - Wikipedia
-https://en.wikipedia.org/wiki/Universal_Dependencies
-
 Osborne | The status of function words in dependency grammar: A critique of Universal Dependencies (UD) | Glossa: a journal of general linguistics
 https://www.glossa-journal.org/article/id/5124/
 
@@ -244,13 +136,100 @@ https://direct.mit.edu/coli/article/47/2/255/98516/Universal-Dependencies
 Universal Dependencies
 https://universaldependencies.org/
 
-gpu-machines/getting_started.md at master · socialroboticslab/gpu-machines
-https://gits-15.sys.kth.se/socialroboticslab/gpu-machines/blob/master/getting_started.md
+UD_Swahili-OPUSGV/not-to-release/src/neural_models/swh_morph_tag.json at dev · UniversalDependencies/UD_Swahili-OPUSGV
+https://github.com/UniversalDependencies/UD_Swahili-OPUSGV/blob/dev/not-to-release/src/neural_models/swh_morph_tag.json
 
-New Tab
-chrome://newtab/
+raw.githubusercontent.com/UniversalDependencies/UD_Spanish_English-Miami/refs/heads/annotating/not-to-release/en-spa_codeswitched_sentences.conllu
+https://raw.githubusercontent.com/UniversalDependencies/UD_Spanish_English-Miami/refs/heads/annotating/not-to-release/en-spa_codeswitched_sentences.conllu
 
-Paul Erdős - Wikipedia
-https://en.wikipedia.org/wiki/Paul_Erd%C5%91s
+Aaa - Google Drive
+https://drive.google.com/drive/u/0/folders/1q2CGIniYAY8skB-40aTEyHYkCrPim34p
+
+miami phq - Google Search
+https://www.google.com/search?q=miami+phq&rlz=1C5GCCM_en&oq=miami+phq&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyDQgGEAAYhgMYgAQYigUyCggHEAAYgAQYogQyCggIEAAYgAQYogQyCggJEAAYgAQYogTSAQgyMjI3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+User:Jimregan - Wikisource
+https://wikisource.org/wiki/User:Jimregan
+
+Page:Mion-Chaint - Ua Laoghaire (1899).djvu/18 - Wikisource, the free online library
+https://en.wikisource.org/wiki/Page:Mion-Chaint_-_Ua_Laoghaire_(1899).djvu/18
+
+Celebration of Dialects and Accents, Vol 1 (The North Wind and the Sun) | LibriVox
+https://librivox.org/celebration-of-dialects-and-accents-vol-1/
+
+The North Wind and the Sun - Wikipedia
+https://en.wikipedia.org/wiki/The_North_Wind_and_the_Sun
+
+An teagasc crísdy, : Ó Cuív, Shán : Free Download, Borrow, and Streaming : Internet Archive
+https://archive.org/details/teagasccrsdy00cu
+
+Cúirt na dála agus sgéal eile : Ó Cuív, Shán, d. 1940 : Free Download, Borrow, and Streaming : Internet Archive
+https://archive.org/details/cirtnadlaagu00cu
+
+English UD
+https://universaldependencies.org/en/
+
+UD_English-PUD
+https://universaldependencies.org/treebanks/en_pud/index.html
+
+UD_English-ESLSpok/en_eslspok-ud-test.conllu at master · UniversalDependencies/UD_English-ESLSpok
+https://github.com/UniversalDependencies/UD_English-ESLSpok/blob/master/en_eslspok-ud-test.conllu
+
+silver ud parse trees - Google Search
+https://www.google.com/search?q=silver+ud+parse+trees&sca_esv=d01356799376b2bc&rlz=1C5GCCM_en&biw=1440&bih=728&sxsrf=AE3TifM6yuPiQ3QoSJZvai2t3bifsicfJg%3A1749731093370&ei=FcdKaImrFsTMwPAP0fuvgQg&ved=0ahUKEwjJiZei8OuNAxVEJhAIHdH9K4AQ4dUDCBA&uact=5&oq=silver+ud+parse+trees&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXNpbHZlciB1ZCBwYXJzZSB0cmVlczIHECEYoAEYCkj3LVDrBVj6LHADeAGQAQKYAasDoAHjFaoBCjguMTEuMC4xLjG4AQPIAQD4AQGYAhagAucPwgIKEAAYsAMY1gQYR8ICBBAjGCfCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgoQLhiABBhDGIoFwgILEC4YgAQY0QMYxwHCAgoQABiABBhDGIoFwgIFEC4YgATCAgUQABiABMICBxAuGIAEGArCAgsQLhiABBjHARivAcICBxAAGIAEGArCAgcQABiABBgNwgIIEAAYFhgKGB7CAgYQABgWGB7CAgUQIRigAcICBRAhGJ8FmAMAiAYBkAYIkgcFMTEuMTGgB7ryAbIHBDguMTG4B-EPwgcGMy4xNi4zyAcq&sclient=gws-wiz-serp
+
+2504.20304v2
+https://arxiv.org/pdf/2504.20304v2
+
+raw.githubusercontent.com/UniversalDependencies/UD_English-CHILDES/refs/heads/master/en_childes-ud-test.conllu
+https://raw.githubusercontent.com/UniversalDependencies/UD_English-CHILDES/refs/heads/master/en_childes-ud-test.conllu
+
+zoeyliu18/Parsing_Speech: Dependency Annotation and Parsing for Spontaneous Speech
+https://github.com/zoeyliu18/Parsing_Speech/tree/main
+
+KBLab/rixvox-v2 · Datasets at Hugging Face
+https://huggingface.co/datasets/KBLab/rixvox-v2
+
+swerik-project/the-swedish-parliament-corpus: A repository for managing public, versioned releases of the Swedish Parliament Corpus.
+https://github.com/swerik-project/the-swedish-parliament-corpus?tab=readme-ov-file
+
+riksdagen-records/data/202122/prot-202122--001.xml at main · swerik-project/riksdagen-records
+https://github.com/swerik-project/riksdagen-records/blob/main/data/202122/prot-202122--001.xml
+
+swedish universal dependencies - Google Search
+https://www.google.com/search?q=swedish+universal+dependencies&rlz=1C5GCCM_en&oq=swedish+universal+dependencies&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYPNIBCTE3MDkyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+UniversalDependencies/UD_Swedish-PUD at dev
+https://github.com/UniversalDependencies/UD_Swedish-PUD/tree/dev?tab=readme-ov-file
+
+CoNLL 2017 Shared Task System Outputs
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2424
+
+UniversalDependencies/UD_Swedish-Talbanken: Swedish data
+https://github.com/UniversalDependencies/UD_Swedish-Talbanken
+
+Instagram
+https://www.instagram.com/
+
+KNEECAP - YouTube
+https://www.youtube.com/@KNEECAP32/videos
+
+Kneecap – It's Been Ages Lyrics | Genius Lyrics
+https://genius.com/33677578
+
+KNEECAP - Tá na Baggies ar an Talamh ft. MC Muipéad (Official Music Video) - YouTube
+https://www.youtube.com/watch?v=YzphbFjIG2Y
+
+Pádraig Ó Conghaile (@mc_muipead) • Instagram photos and videos
+https://www.instagram.com/imle_ceol/?hl=en
+
+KNEECAP - Get Your Brits Out (Official Audio) - YouTube
+https://www.youtube.com/watch?v=2SsOmjwZKrI&list=OLAK5uy_lyCU-SId1d-XNzt8j8emelYLLLQ9vkgRM
+
+KNEECAP feat . NINO - LOVE MAKING (OFFICIAL MUSIC VIDEO) - YouTube
+https://www.youtube.com/watch?v=3FXcxJ-JuVQ&list=OLAK5uy_lJTt5WTB6N3qvE5SPutNF4KTnwTVY59rM
+
+imle - Google Search
+https://www.google.com/search?sca_esv=c854581b49ad8972&rlz=1C5GCCM_en&sxsrf=AE3TifNDxL1Sahrk9ItsGm5LzaIoRjlQyQ:1749734005200&q=imle&nfpr=1&sa=X&ved=2ahUKEwiphNOO--uNAxVQJRAIHVcKAm0QvgUoAXoECAsQAg&biw=1440&bih=728&dpr=2
 
 
