@@ -44,3 +44,15 @@ categories: [links]
 [code](https://github.com/nlpAThits/BioNLP2021)
 
 [Alignment of Speech to Highly Imperfect Text Transcriptions](https://arxiv.org/abs/cs/0612139)
+
+[DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945),
+[colab](https://colab.research.google.com/drive/1b4PPH4XGht4Jve2xPKMCh-AXXAQziNQa?usp=sharing),
+[policy learning code](https://github.com/droid-dataset/droid_policy_learning)
+
+[V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985),
+[code](https://github.com/facebookresearch/vjepa2)
+
+[The status of function words in dependency grammar: A critique of Universal Dependencies (UD)](https://www.glossa-journal.org/article/id/5124/)
+
+[On The Landscape of Spoken Language Models: A Comprehensive Survey](https://arxiv.org/abs/2504.08528)
+
