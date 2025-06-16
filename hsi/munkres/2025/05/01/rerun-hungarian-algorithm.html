@@ -97,7 +97,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      4 min read
+      5 min read
     
 </span></p>
 
@@ -240,6 +240,23 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span> <span class="k">if</span> <span class="ow">not</span> <span class="s2">&quot;discarded&quot;</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">filtered</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">filtered1</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">already_done</span><span class="p">)</span>
 </pre></div>
 
@@ -255,7 +272,7 @@ window.onload = wrap_img;
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(14, 1412, 1398)</pre>
+<pre>(1412, 1412, 1405)</pre>
 </div>
 
 </div>
@@ -362,8 +379,8 @@ window.onload = wrap_img;
 
 <span class="n">files</span> <span class="o">=</span> <span class="n">glob</span><span class="p">(</span><span class="s1">&#39;/tmp/tsv_pt_segments/*.tsv&#39;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files</span><span class="p">))</span>
-<span class="n">words_to_exclude</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;left&#39;</span><span class="p">,</span> <span class="s1">&#39;right&#39;</span><span class="p">,</span> <span class="s1">&#39;middle&#39;</span><span class="p">,</span> <span class="s1">&#39;back&#39;</span><span class="p">]</span>
-<span class="n">files</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span> <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="n">word</span> <span class="ow">in</span> <span class="n">f</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words_to_exclude</span><span class="p">)]</span>
+<span class="c1"># words_to_exclude = [&#39;left&#39;, &#39;right&#39;, &#39;middle&#39;, &#39;back&#39;]</span>
+<span class="c1"># files = [f for f in files if not any(word in f for word in words_to_exclude)]</span>
 <span class="n">pt_times</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">pt_names</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">pt_pre</span> <span class="o">=</span> <span class="p">{}</span>
@@ -426,22 +443,31 @@ window.onload = wrap_img;
 <span class="c1"># Calculate the mean and standard deviation</span>
 <span class="n">mean_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">)</span>
 <span class="n">std_dev_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">)</span>
+<span class="n">synth_lengths_max</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">)</span>
+<span class="n">synth_lengths_min</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;mean_length&quot;</span><span class="p">,</span> <span class="n">mean_length</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;std_dev_length&quot;</span><span class="p">,</span> <span class="n">std_dev_length</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;synth_lengths_max&quot;</span><span class="p">,</span> <span class="n">synth_lengths_max</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;synth_lengths_min&quot;</span><span class="p">,</span> <span class="n">synth_lengths_min</span><span class="p">)</span>
 
 <span class="c1"># Calculate the 50th (median) and 75th percentiles</span>
 <span class="n">median_length_syn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
 <span class="n">percentile_75_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">,</span> <span class="mi">75</span><span class="p">)</span>
-<span class="n">percentile_75_length</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;percentile_75_length&quot;</span><span class="p">,</span> <span class="n">percentile_75_length</span><span class="p">)</span>
 
 <span class="n">cutoff_time_syn</span> <span class="o">=</span> <span class="n">median_length_syn</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cutoff_time_syn&quot;</span><span class="p">,</span> <span class="n">cutoff_time_syn</span><span class="p">)</span>
 
 <span class="n">median_length_pt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">lengths_array_pt</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
-<span class="n">percentile_75_length</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">lengths_array</span><span class="p">,</span> <span class="mi">75</span><span class="p">)</span>
-<span class="n">percentile_75_length</span>
+<span class="n">percentile_75_length_pt</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">lengths_array_pt</span><span class="p">,</span> <span class="mi">75</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;percentile_75_length_pt&quot;</span><span class="p">,</span> <span class="n">percentile_75_length_pt</span><span class="p">)</span>
 
 <span class="n">cutoff_time_pt</span> <span class="o">=</span> <span class="n">median_length_pt</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cutoff_time_pt&quot;</span><span class="p">,</span> <span class="n">cutoff_time_pt</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">pt_data</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">synth_data</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;len(pt_data)&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">pt_data</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;len(synth_data)&quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">synth_data</span><span class="p">))</span>
 
 <span class="n">short_pt</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">pt_data</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">&lt;</span><span class="n">cutoff_time_pt</span><span class="p">}</span>
 <span class="n">short_synth</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span><span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">synth_data</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">&lt;</span><span class="n">cutoff_time_syn</span><span class="p">}</span>
@@ -464,13 +490,52 @@ window.onload = wrap_img;
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 9.32266667 10.12266667 12.78866667 10.26133333 10.826       9.32266667
-  9.97333333 14.506      12.49        9.92        9.51466667 11.31666667
- 13.642      11.562     ]
-1147
-14
+<pre>[4.576      3.50933333 2.82666667 ... 5.25866667 4.82133333 3.744     ]
+mean_length 4.1298852691218135
+std_dev_length 1.371061738198894
+synth_lengths_max 14.506
+synth_lengths_min 2.026666666666667
+percentile_75_length 4.768
+cutoff_time_syn 3.8186666666666667
+percentile_75_length_pt 5.708333333333334
+cutoff_time_pt 4.158333333333333
+len(pt_data) 1147
+len(synth_data) 1412
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">pt_pre</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>573</pre>
+</div>
+
 </div>
 
 </div>
@@ -527,7 +592,7 @@ window.onload = wrap_img;
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>(7, 573)</pre>
+<pre>(700, 573)</pre>
 </div>
 
 </div>
@@ -649,13 +714,119 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assignment_short.csv&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/ffmpeg-runner.sh&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">assigned</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assignment_short.csv&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
         <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;syntitem&quot;</span><span class="p">):</span>
             <span class="k">continue</span>
         <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
-        
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">assigned</span><span class="p">:</span>
+            <span class="n">assigned</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">assigned</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">assigned</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: overwriting for </span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">assigned</span><span class="p">[</span><span class="s2">&quot;st1.8087_8452_0.97stretch&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;hsi_7_0719_227_002_main__ggpt__702&#39;: &#39;0.009099999999999997&#39;,
+ &#39;hsi_4_0717_227_002_main__ggpt__626&#39;: &#39;0.019100000000000006&#39;,
+ &#39;hsi_5_0718_209_001_main__ggpt_2__402&#39;: &#39;0.0030999999999999917&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/ffmpeg-runner.sh&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">vid</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/tmp/renders_new&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.mp4&quot;</span><span class="p">):</span>
+        <span class="n">stem</span> <span class="o">=</span> <span class="n">vid</span><span class="o">.</span><span class="n">stem</span>
+        <span class="k">if</span> <span class="n">stem</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;nonreferential&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="n">pieces</span> <span class="o">=</span> <span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)</span>
+        <span class="n">gender</span> <span class="o">=</span> <span class="n">pieces</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">p2</span> <span class="o">=</span> <span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_smplx_&quot;</span><span class="p">)</span>
+        <span class="n">vidname</span> <span class="o">=</span> <span class="n">p2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">audname</span> <span class="o">=</span> <span class="n">p2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;_</span><span class="si">{</span><span class="n">gender</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">vidname</span> <span class="ow">in</span> <span class="n">assigned</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;no assignment for </span><span class="si">{</span><span class="n">vidname</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">audname</span> <span class="ow">in</span> <span class="n">assigned</span><span class="p">[</span><span class="n">vidname</span><span class="p">]:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;no assignment for </span><span class="si">{</span><span class="n">vidname</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">audname</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+        <span class="n">time</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">assigned</span><span class="p">[</span><span class="n">vidname</span><span class="p">][</span><span class="n">audname</span><span class="p">])</span>
+
+        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ffmpeg -i /tmp/renders_new/</span><span class="si">{</span><span class="n">stem</span><span class="si">}</span><span class="s2">.mp4 -i /tmp/groundinggpt-generated-speech/</span><span class="si">{</span><span class="n">audname</span><span class="si">}</span><span class="s2">.wav&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">time</span> <span class="o">&lt;</span> <span class="mf">0.0</span><span class="p">:</span>
+            <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot; -filter_complex </span><span class="se">\&quot;</span><span class="s2">[1:a]atrim=start=</span><span class="si">{</span><span class="n">time</span><span class="si">}</span><span class="s2">[aud]</span><span class="se">\&quot;</span><span class="s2"> -map 0:v -map </span><span class="se">\&quot;</span><span class="s2">[aud]</span><span class="se">\&quot;</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">itime</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">time</span> <span class="o">*</span> <span class="mf">1000.0</span><span class="p">)</span>
+            <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot; -filter_complex </span><span class="se">\&quot;</span><span class="s2">[1:a]adelay=</span><span class="si">{</span><span class="n">itime</span><span class="si">}</span><span class="s2">|</span><span class="si">{</span><span class="n">itime</span><span class="si">}</span><span class="s2">[aud]</span><span class="se">\&quot;</span><span class="s2"> -map 0:v -map </span><span class="se">\&quot;</span><span class="s2">[aud]</span><span class="se">\&quot;</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot; -c:v copy -c:a aac /tmp/output_aligned/</span><span class="si">{</span><span class="n">stem</span><span class="si">}</span><span class="s2">.mp4</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assigned_extended_all.csv&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/ffmpeg-runner.sh&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;syntitem&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
+
         <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ffmpeg -i /tmp/output/</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s2">.mp4 -i /tmp/groundinggpt-generated-speech/</span><span class="si">{</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">.wav&quot;</span><span class="p">)</span>
         <span class="n">time</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
         <span class="k">if</span> <span class="n">time</span> <span class="o">&lt;</span> <span class="mf">0.0</span><span class="p">:</span>
@@ -680,7 +851,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;fileid&quot;</span><span class="p">]:</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">filtered</span><span class="p">}</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">filtered_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">[</span><span class="s2">&quot;fileid&quot;</span><span class="p">]:</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">filtered1</span><span class="p">}</span>
 </pre></div>
 
     </div>
@@ -697,15 +868,21 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assignment_short.csv&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assigned_extended.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seen_motion</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">filter_seen</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assignment_short.csv&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/assigned_extended_all.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
         <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;syntitem&quot;</span><span class="p">):</span>
-            <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;,room,topic</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;,person,room,topic</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
             <span class="k">continue</span>
         <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
         <span class="n">cur</span> <span class="o">=</span> <span class="n">filtered_dict</span><span class="p">[</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
-        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">line</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;room&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;topic&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">filter_seen</span> <span class="ow">and</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">seen_motion</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="n">seen_motion</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">line</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;person&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;room&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;topic&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
