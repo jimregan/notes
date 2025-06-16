@@ -892,6 +892,76 @@ len(synth_data) 1412
 </div>
     
 
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/tmp/aligned_motion_audio.tsv&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outf</span><span class="p">:</span>
+    <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;filename,person,room,topic</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">videofile</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/tmp/output_aligned/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;**/*.mp4&quot;</span><span class="p">):</span>
+        <span class="n">stem</span> <span class="o">=</span> <span class="n">videofile</span><span class="o">.</span><span class="n">stem</span>
+
+        <span class="n">pieces</span> <span class="o">=</span> <span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)</span>
+        <span class="n">gender</span> <span class="o">=</span> <span class="n">pieces</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">p2</span> <span class="o">=</span> <span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_smplx_&quot;</span><span class="p">)</span>
+        <span class="n">vidname</span> <span class="o">=</span> <span class="n">p2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">audname</span> <span class="o">=</span> <span class="n">p2</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;_</span><span class="si">{</span><span class="n">gender</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="n">vidname</span><span class="p">,</span> <span class="n">audname</span><span class="p">)</span>
+
+        <span class="n">cur</span> <span class="o">=</span> <span class="n">filtered_dict</span><span class="p">[</span><span class="n">audname</span><span class="p">]</span>
+        <span class="n">outf</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">stem</span><span class="si">}</span><span class="s2">.mp4,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;person&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;room&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="n">cur</span><span class="p">[</span><span class="s1">&#39;topic&#39;</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">new_video</span> <span class="ow">in</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Downloads/drive-download-20250502T164348Z-1-001&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;*.mp4&quot;</span><span class="p">):</span>
+    <span class="n">stem</span> <span class="o">=</span> <span class="n">new_video</span><span class="o">.</span><span class="n">stem</span>
+    <span class="n">audio_part</span> <span class="o">=</span> <span class="n">stem</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_start&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">audio_part</span> <span class="o">=</span> <span class="n">audio_part</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;referential_&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;_ref&quot;</span><span class="p">,</span> <span class="s2">&quot;_&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ffmpeg -i </span><span class="si">{</span><span class="n">new_video</span><span class="si">}</span><span class="s2"> -i /tmp/cut_wav/</span><span class="si">{</span><span class="n">audio_part</span><span class="si">}</span><span class="s2">.wav -c:v copy -c:a aac /tmp/output_ref/</span><span class="si">{</span><span class="n">stem</span><span class="si">}</span><span class="s2">.mp4&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>ffmpeg -i /Users/joregan/Downloads/drive-download-20250502T164348Z-1-001/referential_hsi_7_0719_227_002_ref89_start15518_end15651_fps30_smplx.mp4 -i /tmp/cut_wav/hsi_7_0719_227_002_89.wav -c:v copy -c:a aac /tmp/output_ref/referential_hsi_7_0719_227_002_ref89_start15518_end15651_fps30_smplx.mp4
+ffmpeg -i /Users/joregan/Downloads/drive-download-20250502T164348Z-1-001/referential_hsi_4_0717_209_001_ref8_start1113_end1249_fps30_smplx.mp4 -i /tmp/cut_wav/hsi_4_0717_209_001_8.wav -c:v copy -c:a aac /tmp/output_ref/referential_hsi_4_0717_209_001_ref8_start1113_end1249_fps30_smplx.mp4
+ffmpeg -i /Users/joregan/Downloads/drive-download-20250502T164348Z-1-001/referential_hsi_5_0718_222_002_ref8_start936_end1069_fps30_smplx.mp4 -i /tmp/cut_wav/hsi_5_0718_222_002_8.wav -c:v copy -c:a aac /tmp/output_ref/referential_hsi_5_0718_222_002_ref8_start936_end1069_fps30_smplx.mp4
+ffmpeg -i /Users/joregan/Downloads/drive-download-20250502T164348Z-1-001/referential_hsi_3_0715_209_006_ref33_start6967_end7097_fps30_smplx.mp4 -i /tmp/cut_wav/hsi_3_0715_209_006_33.wav -c:v copy -c:a aac /tmp/output_ref/referential_hsi_3_0715_209_006_ref33_start6967_end7097_fps30_smplx.mp4
+ffmpeg -i /Users/joregan/Downloads/drive-download-20250502T164348Z-1-001/referential_hsi_6_0718_209_001_ref55_start5080_end5211_fps30_smplx.mp4 -i /tmp/cut_wav/hsi_6_0718_209_001_55.wav -c:v copy -c:a aac /tmp/output_ref/referential_hsi_6_0718_209_001_ref55_start5080_end5211_fps30_smplx.mp4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
 </div>
 
 
