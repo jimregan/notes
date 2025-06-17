@@ -19,5 +19,30 @@ categories: [links]
 
 [There are 6 forms of depression, study shows. Here’s how they’re different.](https://www.nationalgeographic.com/science/article/six-subtypes-depression-brain-imaging)
 
-[Marconi Union - Weightless](https://www.youtube.com/watch?v=UfcAVejslrU) --- supposed to help with focus
+[Marconi Union - Weightless](https://www.youtube.com/watch?v=UfcAVejslrU) --- supposed to help with anxiety
+
+[Translation-Inspired OCR](https://ieeexplore.ieee.org/document/6065528)
+
+---
+
+[Gramatika kaszëbsczégò jãzëka](http://skarbnicakaszubska.pl/wp-content/uploads/2018/04/GRAMATYKA-hiperlacza.pdf)
+
+[Kashubian through Polish](https://thedomcio.github.io/WonderfulPolishLanguage/#kashubian-kaszubski)
+
+[Najô Ùczba](http://skarbnicakaszubska.pl/najo-uczba/)
+
+[Bajki Kaszubkie](http://www.akademiabajkikaszubskiej.pl/bajki)
+
+[Słownik Polsko-Kaszubski](http://skarbnicakaszubska.pl/wp-content/uploads/2016/11/Slownik_1-1.pdf)
+
+---
+
+[Dependency Parsing Evaluation for Low-resource Spontaneous Speech](https://aclanthology.org/2021.adaptnlp-1.16/)
+
+[The Swedish Parliament Corpus](https://github.com/swerik-project/the-swedish-parliament-corpus)
+
+[Upper Sorbian UD](https://github.com/UniversalDependencies/UD_Upper_Sorbian-UFAL)
+
+[Insert OCRed text and annotations in DjVu](http://www.ub-filosofie.ro/~solcan/wt/gnu/d/hdjv.html)
+
 
