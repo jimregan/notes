@@ -45,4 +45,6 @@ categories: [links]
 
 [Insert OCRed text and annotations in DjVu](http://www.ub-filosofie.ro/~solcan/wt/gnu/d/hdjv.html)
 
+[TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Semantic Tasks](https://arxiv.org/abs/2403.09207),
+[code](https://github.com/VityaVitalich/TaxoLLaMA)
 
