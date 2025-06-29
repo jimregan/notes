@@ -60,4 +60,16 @@ categories: [links]
 
 [facebook/vjepa2-vitl-fpc64-256](https://huggingface.co/facebook/vjepa2-vitl-fpc64-256) --- **actually** open source.
 
+[SPECOM 2025](https://specom.inf.u-szeged.hu/):
+- October 13-15, 2025
+- deadline: June 30, 2025 (23:59, anywhere on Earth)
+- [overleaf](https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi)
+- [EasyChair](https://easychair.org/conferences/?conf=specom2025)
+
+[Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
+
+[Terrible things happen in life – but it is possible to recover from them](https://www.theguardian.com/lifeandstyle/2025/jun/16/better-life-trauma-healing)
+
+[InteractAnything: Zero-shot Human Object-Interaction Synthesis via LLM Feedback and Object Affordance Parsing](https://jinluzhang.site/projects/interactanything/),
+[arxiv](https://arxiv.org/abs/2505.24315)
 
