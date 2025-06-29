@@ -90,3 +90,25 @@ categories: [links]
 
 [Eupisco 2025](https://eusipco2025.org/)
 
+[JoFrhwld/FAVE](https://github.com/JoFrhwld/FAVE)
+
+[kornai/MoLHandbook](https://github.com/kornai/MoLHandbook)
+
+[Universal Dependencies](https://direct.mit.edu/coli/article/47/2/255/98516/Universal-Dependencies)
+
+[Finnish-NLP/wav2vec2-xlsr-300m-finnish-lm](https://huggingface.co/Finnish-NLP/wav2vec2-xlsr-300m-finnish-lm)
+
+[CREPE](https://github.com/marl/crepe)
+
+[allenai/Molmo-7B-D-0924](https://huggingface.co/allenai/Molmo-7B-D-0924)
+
+[SpeD 2025](https://sped.pub.ro/)
+- Conference: October 19-22, 2025
+- Paper submission (5 – 6 pages, IEEE format): July 7, 2025
+- [OpenReview](https://openreview.net/group?id=IEEE.org/SpeD/2025/Conference)
+- [Overleaf](https://www.overleaf.com/gallery/tagged/ieee-official)
+- 5-6 pages **including** references
+
+[Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities](https://arxiv.org/abs/2503.03983)
+
+
