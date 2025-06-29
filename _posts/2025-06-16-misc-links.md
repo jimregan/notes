@@ -73,3 +73,20 @@ categories: [links]
 [InteractAnything: Zero-shot Human Object-Interaction Synthesis via LLM Feedback and Object Affordance Parsing](https://jinluzhang.site/projects/interactanything/),
 [arxiv](https://arxiv.org/abs/2505.24315)
 
+[szgabsz91/jdk-ocamorph-pyphen](https://github.com/szgabsz91/jdk-ocamorph-pyphen)
+
+[Sorbian course](https://sprachkurs.sorbischlernen.de/)
+
+[Sorbian radio](https://www.rbb-online.de/radio/sorbisches_programm/beitragsarchiv-audiothek/sorbische-sendungen-nachhoeren-serbske-wuscelanja-sluchas.html)
+
+[hunpars](http://mokk.bme.hu/resources/hunpars/)
+
+[hunmorph](http://mokk.bme.hu/resources/hunmorph/)
+
+[hunmorph-foma](https://github.com/r0ller/hunmorph-foma)
+
+[Magyar népmesék sorozat](https://www.youtube.com/playlist?list=PLpshJy6oyjM9fD2YtXafkvuSCkkprffuO),
+[Hungarian Folk Tales](https://www.youtube.com/@HungarianFolkTales/videos)
+
+[Eupisco 2025](https://eusipco2025.org/)
+
