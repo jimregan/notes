@@ -48,3 +48,16 @@ categories: [links]
 [TaxoLLaMA: WordNet-based Model for Solving Multiple Lexical Semantic Tasks](https://arxiv.org/abs/2403.09207),
 [code](https://github.com/VityaVitalich/TaxoLLaMA)
 
+[Anthropic wins key US ruling on AI training in authors' copyright lawsuit](https://www.reuters.com/legal/litigation/anthropic-wins-key-ruling-ai-authors-copyright-lawsuit-2025-06-24/)
+
+[CILI: the Collaborative Interlingual Index](https://aclanthology.org/2016.gwc-1.9/)
+
+[omwn/omw-data](https://github.com/omwn/omw-data) --- This packages up data for the Open Multilingual Wordnet
+
+[docker image save](https://docs.docker.com/reference/cli/docker/image/save/) --- Save one or more images to a tar archive
+
+[Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)
+
+[facebook/vjepa2-vitl-fpc64-256](https://huggingface.co/facebook/vjepa2-vitl-fpc64-256) --- **actually** open source.
+
+
