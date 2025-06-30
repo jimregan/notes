@@ -111,4 +111,5 @@ categories: [links]
 
 [Audio Flamingo 2: An Audio-Language Model with Long-Audio Understanding and Expert Reasoning Abilities](https://arxiv.org/abs/2503.03983)
 
+[Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://voicebox.metademolab.com/)
 
