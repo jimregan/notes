@@ -113,3 +113,5 @@ categories: [links]
 
 [Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://voicebox.metademolab.com/)
 
+[huspacy/huspacy](https://github.com/huspacy/huspacy)
+
