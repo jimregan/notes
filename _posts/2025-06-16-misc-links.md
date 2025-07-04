@@ -115,3 +115,7 @@ categories: [links]
 
 [huspacy/huspacy](https://github.com/huspacy/huspacy)
 
+{% twitter https://x.com/DanKornas/status/1940451888165715978 %}
+
+[kyutai/tts-1.6b-en_fr](https://huggingface.co/kyutai/tts-1.6b-en_fr),
+
