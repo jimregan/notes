@@ -126,3 +126,8 @@ categories: [links]
 [The Unbelievable Truth](https://www.bennewsam.co.uk/TUTT.shtml)
 
 [Tool - Back to the beginning](https://www.youtube.com/watch?v=M-NTrVJzQGI)
+
+[The ParlaMint corpora of parliamentary proceedings](https://link.springer.com/article/10.1007/s10579-021-09574-0)
+
+[Spoken Spanish PoS tagging: gold standard dataset](https://link.springer.com/article/10.1007/s10579-024-09751-x)
+
