@@ -119,3 +119,9 @@ categories: [links]
 
 [kyutai/tts-1.6b-en_fr](https://huggingface.co/kyutai/tts-1.6b-en_fr),
 
+{% twitter https://x.com/TivadarDanka/status/1940727246412795939 %}
+
+[timtadh/zhang-shasha](https://github.com/timtadh/zhang-shasha) --- Tree edit distance using the Zhang Shasha algorithm
+
+[The Unbelievable Truth](https://www.bennewsam.co.uk/TUTT.shtml)
+
