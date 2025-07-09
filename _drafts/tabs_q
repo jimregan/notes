@@ -151,11 +151,8 @@ https://x.com/gabriberton/status/1941010323072602343
 kyutai/mimi · Hugging Face
 https://huggingface.co/kyutai/mimi
 
-linto-ai/whisper-timestamped: Multilingual Automatic Speech Recognition with word-level timestamps and confidence
-https://github.com/linto-ai/whisper-timestamped?tab=readme-ov-file
-
-openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision
-https://github.com/openai/whisper?tab=readme-ov-file
+Release 20250625 · openai/whisper@31243ba
+https://github.com/openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803
 
 Fine-tuning Whisper · openai/whisper · Discussion #759
 https://github.com/openai/whisper/discussions/759
@@ -340,22 +337,70 @@ https://huggingface.co/KBLab/kb-whisper-large/discussions/10#686d1f0c7232a987c1e
 THUDM/GLM-4.1V-9B-Thinking · Hugging Face
 https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking
 
-kyutai/tts-1.6b-en_fr · Hugging Face
-https://huggingface.co/kyutai/tts-1.6b-en_fr
+THUDM/GLM-4-9B-0414 · Hugging Face
+https://huggingface.co/THUDM/GLM-4-9B-0414
 
-Grounded Gesture Generation: Language, Motion, and Space
-https://arxiv.org/pdf/2507.04522
+Add option to carry initial_prompt with the sliding window by kittsil · Pull Request #2343 · openai/whisper
+https://github.com/openai/whisper/pull/2343/files
 
-[2507.04554] Self-supervised learning of speech representations with Dutch archival data
-https://arxiv.org/abs/2507.04554
+[D] NeurIPS workshops 2025? : r/MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/1ls5eny/d_neurips_workshops_2025/
 
-[2507.05727] ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark
-https://arxiv.org/abs/2507.05727
+NeurIPS 2025 Workshop | OpenReview
+https://openreview.net/group?id=NeurIPS.cc/2025/Workshop
 
-MrSupW/ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark.
-https://github.com/MrSupW/ContextASR-Bench?tab=readme-ov-file
+NeurIPS 2025 Workshop NCCL | OpenReview
+https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NCCL#tab-recent-activity
 
-Grounded Gestures: Language, Motion and Space
-https://groundedgestures.github.io/
+NeurIPS 2025 Workshop SpaVLE | OpenReview
+https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/SpaVLE#tab-recent-activity
+
+NeurIPS 2025 Workshop UniReps | OpenReview
+https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/UniReps#tab-recent-activity
+
+UniReps Workshop
+https://unireps.org/2025/
+
+Book
+https://proceedings.neurips.cc/paper_files/paper/2024
+
+0382cb76309820f71c6eacd47b36ce71-Paper-Conference.pdf
+https://proceedings.neurips.cc/paper_files/paper/2024/file/0382cb76309820f71c6eacd47b36ce71-Paper-Conference.pdf
+
+03738e5f26967582eeb3b57eef82f1f0-Paper-Conference.pdf
+https://proceedings.neurips.cc/paper_files/paper/2024/file/03738e5f26967582eeb3b57eef82f1f0-Paper-Conference.pdf
+
+NeurIPS 2025 Call for Papers
+https://neurips.cc/Conferences/2025/CallForPapers
+
+[SpaVLE @ NeurIPS 2025] Workshop on Space in Vision, Language, and Embodied AI
+https://space-in-vision-language-embodied-ai.github.io/
+
+Call For Datasets & Benchmarks 2025
+https://neurips.cc/Conferences/2025/CallForDatasetsBenchmarks
+
+NeurIPS 2025 Data Hosting Guidelines
+https://neurips.cc/Conferences/2025/DataHostingGuidelines
+
+Uploading datasets
+https://huggingface.co/docs/hub/en/datasets-adding#file-formats
+
+Getting Started on Kaggle | Kaggle
+https://www.kaggle.com/docs/organizations
+
+Croissant Editor - a Hugging Face Space by MLCommons
+https://huggingface.co/spaces/MLCommons/croissant-editor
+
+Croissant Editor - a Hugging Face Space by MLCommons
+https://huggingface.co/spaces/MLCommons/croissant-editor?project=20250709164053802319
+
+NeurIPS 2025 Call for Papers
+https://neurips.cc/Conferences/2025/CallForPapers
+
+WACV 2026 Conference | OpenReview
+https://openreview.net/group?id=thecvf.com/WACV/2026/Conference#tab-recent-activity
+
+WACV 2026 Author Reviewer Guides
+https://wacv.thecvf.com/Conferences/2026/AuthorReviewerGuides
 
 
