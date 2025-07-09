@@ -131,3 +131,9 @@ categories: [links]
 
 [Spoken Spanish PoS tagging: gold standard dataset](https://link.springer.com/article/10.1007/s10579-024-09751-x)
 
+[ContextASR-Bench: A Massive Contextual Speech Recognition Benchmark](https://arxiv.org/abs/2507.05727),
+[code](https://github.com/MrSupW/ContextASR-Bench),
+[dataset](https://huggingface.co/datasets/MrSupW/ContextASR-Bench)
+
+[Self-supervised learning of speech representations with Dutch archival data](https://arxiv.org/abs/2507.04554)
+
