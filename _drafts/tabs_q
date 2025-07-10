@@ -406,18 +406,6 @@ https://wacv.thecvf.com/Conferences/2026/AuthorReviewerGuides
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
 
-Stories • Instagram
-https://www.instagram.com/stories/yulchikbb/3673744092466703937/
-
-Instagram
-https://www.instagram.com/p/DL7vUnEx8mg/
-
-Instagram
-https://www.instagram.com/p/DL7h2LuxDGh/
-
-Instagram
-https://www.instagram.com/p/DL7ueadtwon/
-
 hitachi-speech/EEND: End-to-End Neural Diarization
 https://github.com/hitachi-speech/EEND
 
@@ -433,11 +421,8 @@ https://github.com/JorisCos/LibriMix
 espnet/espnet: End-to-End Speech Processing Toolkit
 https://github.com/espnet/espnet
 
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls?page=2&q=is%3Apr+is%3Aopen
-
 LID-7: VoxLingua107 recipe by Qingzheng-Wang · Pull Request #6174 · espnet/espnet
-https://github.com/espnet/espnet/pull/6174
+https://github.com/espnet/espnet/pull/6174/files#diff-5ed9832b0b1ea8d48fedbe3b32ed0e7c73867381b0e28a3a0d51ea8b2f2f476d
 
 LID-5: Tri-stage learning rate scheduler by Qingzheng-Wang · Pull Request #6159 · espnet/espnet
 https://github.com/espnet/espnet/pull/6159
@@ -446,10 +431,13 @@ https://github.com/espnet/espnet/pull/6159
 https://github.com/espnet/espnet/pull/6146
 
 Adding vanilla EEND recipe for AMI with multi speaker synthetic data simulation included. by popcornell · Pull Request #6138 · espnet/espnet
-https://github.com/espnet/espnet/pull/6138
+https://github.com/espnet/espnet/pull/6138/files
 
 AVSR recipe for Galaxy Dataset by YJCX330 · Pull Request #6132 · espnet/espnet
-https://github.com/espnet/espnet/pull/6132
+https://github.com/espnet/espnet/pull/6132/files
+
+wyh2000/GALAXY
+https://github.com/wyh2000/GALAXY
 
 TTS recipe for Expresso Dataset by lism13 · Pull Request #6125 · espnet/espnet
 https://github.com/espnet/espnet/pull/6125
@@ -460,38 +448,17 @@ https://github.com/espnet/espnet/pull/6093
 Add Harvest algorithm as an option for F0 extraction by f-matano44 · Pull Request #6083 · espnet/espnet
 https://github.com/espnet/espnet/pull/6083
 
-Audioverse, BEATs pre-training and Dasheng audio encoder by Shikhar-S · Pull Request #6052 · espnet/espnet
-https://github.com/espnet/espnet/pull/6052
-
 Jibo kids by balaji1312 · Pull Request #6029 · espnet/espnet
-https://github.com/espnet/espnet/pull/6029
+https://github.com/espnet/espnet/pull/6029/files
 
-Create recipe for myst_ogi_cmu_kids by anyuyay · Pull Request #6032 · espnet/espnet
-https://github.com/espnet/espnet/pull/6032
+espnet/egs2/swbd_da/asr1/local/data_prep.py at master · espnet/espnet
+https://github.com/espnet/espnet/blob/master/egs2/swbd_da/asr1/local/data_prep.py
 
-Universa Tasks for unified versatile evaluation of speech and audio by ftshijt · Pull Request #5959 · espnet/espnet
-https://github.com/espnet/espnet/pull/5959
+espnet/egs2/vctk/asr1/RESULTS.md at master · espnet/espnet
+https://github.com/espnet/espnet/blob/master/egs2/vctk/asr1/RESULTS.md
 
-Urdu Shrutilipi dataset by VanyaBK · Pull Request #5775 · espnet/espnet
-https://github.com/espnet/espnet/pull/5775
-
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
-
-espnet/egs2 at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2
-
-espnet/egs2/ruslan/tts1 at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/ruslan/tts1
-
-espnet/egs2/swbd_da/asr1 at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/swbd_da/asr1
-
-espnet/egs2/vctk at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/vctk
-
-espnet/egs2/owsm_v3.1/s2t1 at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/owsm_v3.1/s2t1
+espnet/egs2/qasr_tts at master · espnet/espnet
+https://github.com/espnet/espnet/tree/master/egs2/qasr_tts
 
 espnet/egs2/owsm_ctc_v3.1/s2t1 at master · espnet/espnet
 https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1
