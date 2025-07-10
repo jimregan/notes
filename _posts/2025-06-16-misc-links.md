@@ -137,3 +137,7 @@ categories: [links]
 
 [Self-supervised learning of speech representations with Dutch archival data](https://arxiv.org/abs/2507.04554)
 
+[hitachi-speech/EEND](https://github.com/hitachi-speech/EEND) --- EEND (End-to-End Neural Diarization) is a neural-network-based speaker diarization method.
+
+[EEND-SS: Joint End-to-End Neural Speaker Diarization and Speech Separation for Flexible Number of Speakers](https://arxiv.org/abs/2203.17068)
+
