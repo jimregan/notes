@@ -406,21 +406,6 @@ https://wacv.thecvf.com/Conferences/2026/AuthorReviewerGuides
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
 
-hitachi-speech/EEND: End-to-End Neural Diarization
-https://github.com/hitachi-speech/EEND
-
-[2203.17068] EEND-SS: Joint End-to-End Neural Speaker Diarization and Speech Separation for Flexible Number of Speakers
-https://arxiv.org/abs/2203.17068
-
-2203.17068
-https://arxiv.org/pdf/2203.17068
-
-JorisCos/LibriMix: An open source dataset for source separation
-https://github.com/JorisCos/LibriMix
-
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
-
 LID-7: VoxLingua107 recipe by Qingzheng-Wang · Pull Request #6174 · espnet/espnet
 https://github.com/espnet/espnet/pull/6174/files#diff-5ed9832b0b1ea8d48fedbe3b32ed0e7c73867381b0e28a3a0d51ea8b2f2f476d
 
@@ -448,17 +433,14 @@ https://github.com/espnet/espnet/pull/6093
 Add Harvest algorithm as an option for F0 extraction by f-matano44 · Pull Request #6083 · espnet/espnet
 https://github.com/espnet/espnet/pull/6083
 
-Jibo kids by balaji1312 · Pull Request #6029 · espnet/espnet
-https://github.com/espnet/espnet/pull/6029/files
-
 espnet/egs2/swbd_da/asr1/local/data_prep.py at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/egs2/swbd_da/asr1/local/data_prep.py
 
 espnet/egs2/vctk/asr1/RESULTS.md at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/egs2/vctk/asr1/RESULTS.md
 
-espnet/egs2/qasr_tts at master · espnet/espnet
-https://github.com/espnet/espnet/tree/master/egs2/qasr_tts
+espnet/egs2/qasr_tts/tts1 at master · espnet/espnet
+https://github.com/espnet/espnet/tree/master/egs2/qasr_tts/tts1
 
 espnet/egs2/owsm_ctc_v3.1/s2t1 at master · espnet/espnet
 https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1
@@ -466,8 +448,17 @@ https://github.com/espnet/espnet/tree/master/egs2/owsm_ctc_v3.1/s2t1
 espnet/espnet - Docker Image | Docker Hub
 https://hub.docker.com/r/espnet/espnet
 
-espnet/docker/build.sh at master · espnet/espnet
-https://github.com/espnet/espnet/blob/master/docker/build.sh
+espnet/docker/README.md at master · espnet/espnet
+https://github.com/espnet/espnet/blob/master/docker/README.md
+
+ESPnet-S2ST realtime demonstration
+https://espnet.github.io/espnet/notebook/ESPnet2/Course/CMU_SpeechProcessing_Spring2023/s2st_demo.html
+
+google-research-datasets/cvss: CVSS: A Massively Multilingual Speech-to-Speech Translation Corpus
+https://github.com/google-research-datasets/cvss?tab=readme-ov-file
+
+facebookresearch/covost: CoVoST: A Large-Scale Multilingual Speech-To-Text Translation Corpus (CC0 Licensed)
+https://github.com/facebookresearch/covost
 
 espnet/docker/espnet.dockerfile at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/docker/espnet.dockerfile
