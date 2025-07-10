@@ -141,3 +141,5 @@ categories: [links]
 
 [EEND-SS: Joint End-to-End Neural Speaker Diarization and Speech Separation for Flexible Number of Speakers](https://arxiv.org/abs/2203.17068)
 
+[Add option to carry initial_prompt with the sliding window](https://github.com/openai/whisper/pull/2343)
+
