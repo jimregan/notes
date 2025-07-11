@@ -143,3 +143,7 @@ categories: [links]
 
 [Add option to carry initial_prompt with the sliding window](https://github.com/openai/whisper/pull/2343)
 
+[myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS) --- High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean.
+
+[AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
+
