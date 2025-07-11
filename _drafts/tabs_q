@@ -37,23 +37,11 @@ https://huggingface.co/datasets/jimregan/sbtal_riksdag_asr/blob/main/alignments/
 Notebook Function Analysis
 https://chatgpt.com/c/6861765a-95d8-8011-9560-d21e06b2ca82
 
-myshell-ai/MeloTTS: High-quality multi-lingual text-to-speech library by MyShell.ai. Support English, Spanish, French, Chinese, Japanese and Korean.
-https://github.com/myshell-ai/MeloTTS?tab=readme-ov-file
-
-MeloTTS/melo/commons.py at main · myshell-ai/MeloTTS
-https://github.com/myshell-ai/MeloTTS/blob/main/melo/commons.py
-
-NLTK :: nltk.tag.perceptron
-https://www.nltk.org/_modules/nltk/tag/perceptron.html
-
 Volume 59, Issue 1 | Language Resources and Evaluation
 https://link.springer.com/journal/10579/volumes-and-issues/59-1
 
 Springer Nature LaTeX Template - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/6862acaf42e0c1a60d89b487
-
-lre-riksdag/gpt-todo.md at main · jimregan/lre-riksdag
-https://github.com/jimregan/lre-riksdag/blob/main/gpt-todo.md
 
 Submission guidelines | Language Resources and Evaluation
 https://link.springer.com/journal/10579/submission-guidelines
@@ -145,14 +133,17 @@ https://x.com/home
 (1) Instagram
 https://www.instagram.com/
 
-Vidura BR - One Thing Worse Than Being A Bigot - YouTube
-https://www.youtube.com/watch?v=D0ihPBlNhjc
-
-PSNI won't assist removal of contentious Belfast bonfire
-https://www.rte.ie/news/ulster/2025/0710/1522803-bonfires-northern-ireland/?fbclid=PAZXh0bgNhZW0CMTEAAafVLcfeWrSaJt9Q8KUy3QFOKzRNSzQTsguPQSOuxVWrCw1bkwA9PDQuHpSvtg_aem_512dnDpwkgTc4OPdD-ayxw
-
 Gabriele Berton on X: "Self-supervised Learning (SSL) vs Contrastive Language-Image (CLIP) models is a never-ending battle What about using both? This Google paper does exactly that, and results are really good on many different tasks TIPS is a model trained with a CLIP loss and 2 SSL losses [1/9] https://t.co/4tKDfM152W" / X
 https://x.com/gabriberton/status/1941010323072602343
+
+google-deepmind/tips
+https://github.com/google-deepmind/tips?tab=readme-ov-file
+
+2410.16512
+https://arxiv.org/pdf/2410.16512
+
+google-research/scenic: Scenic: A Jax Library for Computer Vision Research and Beyond
+https://github.com/google-research/scenic
 
 kyutai/mimi · Hugging Face
 https://huggingface.co/kyutai/mimi
@@ -208,23 +199,11 @@ https://www.ieee.org/conferences/publishing/templates
 Manuscript Templates for Conference Proceedings | IEEE
 https://www.ieee.org/conferences/publishing/templates
 
-IEEE Conference Template (1) - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/686978cf7c4f65318209807f
+MultimodalReferencing - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/67f4d6ce7935f83576542741
 
 ACMMM Paper Rejection Feedback
 https://chatgpt.com/c/68690082-444c-8011-943e-178f130a9ddf
-
-ACMMM25 Workshop Fast-Track Transfer
-https://docs.google.com/forms/d/e/1FAIpQLSfxV9BErgX6a99wL_kqQl9WnBjVc-dNRfE13RFzSH7kH9lt4g/viewform
-
-Mac by jimregan · Pull Request #23 · jimregan/dotfiles
-https://github.com/jimregan/dotfiles/pull/23/files#diff-3cbe50069f7ffe4d55b4d1fe7a72fb79e9c9545af55d8326a728b98f00481bf2
-
-Redsofa4 by jimregan · Pull Request #25 · jimregan/dotfiles
-https://github.com/jimregan/dotfiles/pull/25/files#diff-27c45124ce2146a3b35eba1518116a49d4f280af91d6de5613d5618e2c158a18
-
-Sparse Autoencoders in LLMs
-https://chatgpt.com/c/686cf4c2-ad30-8011-81ae-95249e667a0a
 
 AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss
 https://arxiv.org/pdf/1905.05879
@@ -352,11 +331,20 @@ https://github.com/espnet/espnet/blob/master/egs2/owsm_v3/s2t1/local/kaldi_to_wh
 espnet/owsm_ctc_v4_1B · Hugging Face
 https://huggingface.co/espnet/owsm_ctc_v4_1B
 
-MP3 to Text Conversion
-https://chatgpt.com/c/686ffec5-03c0-8011-a17d-aa0bad6d0022
+2026 Conference
+https://wacv.thecvf.com/
 
-Hugh Tudor - Wikipedia
-https://en.wikipedia.org/wiki/Hugh_Tudor
+UPAR: Unified Pedestrian Attribute Recognition and Person Retrieval
+https://www.computer.org/csdl/proceedings-article/wacv/2023/934600a981/1KxVLZO5Iju
+
+ACM MM Multimodal Ref rebuttal - Google Docs
+https://docs.google.com/document/d/1QgEmyAVU8nSTsGHxOBGITOMn-ey-yjmKBja0auIAR9E/edit?tab=t.0
+
+"The “Referential Game” in Literary Texts" by Huang Jiaguang and Ma Dakang
+https://tsla.researchcommons.org/journal/vol44/iss5/6/
+
+Distributed inference
+https://huggingface.co/docs/transformers/main/perf_infer_gpu_multi
 
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
 
