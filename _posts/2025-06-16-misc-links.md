@@ -147,3 +147,8 @@ categories: [links]
 
 [AUTOVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss](https://arxiv.org/abs/1905.05879)
 
+{% twitter https://x.com/gabriberton/status/1941010323072602343 %}
+
+[TIPS: Text-Image Pretraining with Spatial awareness](https://arxiv.org/abs/2410.16512),
+[code](https://github.com/google-deepmind/tips)
+
