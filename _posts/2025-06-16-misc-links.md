@@ -152,3 +152,5 @@ categories: [links]
 [TIPS: Text-Image Pretraining with Spatial awareness](https://arxiv.org/abs/2410.16512),
 [code](https://github.com/google-deepmind/tips)
 
+[Binary Latent Diffusion](https://arxiv.org/abs/2304.04820),
+[ZeWang95/BinaryLatentDiffusion](https://github.com/ZeWang95/BinaryLatentDiffusion)
