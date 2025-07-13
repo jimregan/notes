@@ -159,4 +159,8 @@ categories: [links]
 
 [Phone-Level Pronunciation Scoring for L1 Using Weighted-Dynamic Time Warping](https://ieeexplore.ieee.org/abstract/document/10023182)
 
+[An Investigation of the Relation Between Grapheme Embeddings and Pronunciation for Tacotron-based Systems](https://arxiv.org/abs/2010.10694),
+[models](https://zenodo.org/records/6534268#.Ynn90C8RppQ)
+
+[The SIWIS French Speech Synthesis Database](https://datashare.ed.ac.uk/handle/10283/2353)
 
