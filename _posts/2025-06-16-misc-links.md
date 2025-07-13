@@ -154,3 +154,9 @@ categories: [links]
 
 [Binary Latent Diffusion](https://arxiv.org/abs/2304.04820),
 [ZeWang95/BinaryLatentDiffusion](https://github.com/ZeWang95/BinaryLatentDiffusion)
+
+[espnet/owsm_ctc_v4_1B](https://huggingface.co/espnet/owsm_ctc_v4_1B)
+
+[Phone-Level Pronunciation Scoring for L1 Using Weighted-Dynamic Time Warping](https://ieeexplore.ieee.org/abstract/document/10023182)
+
+
