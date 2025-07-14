@@ -46,12 +46,6 @@ https://www.overleaf.com/project/6862acaf42e0c1a60d89b487
 Submission guidelines | Language Resources and Evaluation
 https://link.springer.com/journal/10579/submission-guidelines
 
-LaTeX author support | Publish your research | Springer Nature
-https://www.springernature.com/gp/authors/campaigns/latex-author-support
-
-user readable df output - Google Search
-https://www.google.com/search?q=user+readable+df+output&rlz=1C5GCCM_en&oq=user+readable+df+output&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDMyODlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 Untitled60.ipynb - Colab
 https://colab.research.google.com/drive/1S5EMqCPzpQIhD8s5Q4DE5z1n7AGWSh2m#scrollTo=1_TUHhPnC_Au
 
@@ -103,12 +97,6 @@ https://github.com/Orange-OpenSource/conllueditor/blob/master/README.md#mass-edi
 Orange-OpenSource/conllueditor: ConllEditor is a tool to edit dependency syntax trees in CoNLL-U format.
 https://github.com/Orange-OpenSource/conllueditor
 
-Towards Distributed Neural Architectures
-https://arxiv.org/pdf/2506.22389
-
-KBLab/rixvox-v2 · Datasets at Hugging Face
-https://huggingface.co/datasets/KBLab/rixvox-v2/viewer/default/train?row=0
-
 Get Dataset Schema
 https://chatgpt.com/c/6864ed03-e618-8011-8146-8bf147cd4900
 
@@ -135,9 +123,6 @@ https://github.com/PangzeCheung/Discrete-Probability-Flow
 
 TTIC 2025 Workshop SpeechAI | OpenReview
 https://openreview.net/group?id=TTIC.edu/2025/Workshop/SpeechAI&referrer=%5BHomepage%5D(%2F)#tab-recent-activity
-
-Speech and Audio Foundation Models TTIC 2025
-https://sites.google.com/view/speech-ai-ttic-2025/home
 
 MUCG Workshop @ ACM MM 2025
 https://mllm-mucg.github.io/MM2025/
@@ -166,8 +151,8 @@ https://github.com/jimregan/wolnelektury-speech-corpus/pull/46
 Zero-shot Task Prefix Tuning
 https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
 
-Current things, 14 June 2025 - Paper Revision Suggestions
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/685942a9-bec0-8011-b909-3d2c8bd9e1d6
+Current things, 14 June 2025 - Phoneme Representation in Tacotron
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6873fab2-a800-8011-8f7d-d5462df5cabd
 
 Current things, 14 June 2025 - Batch Processing with SQLite API
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6864cdd1-c300-8011-abb4-46c50ac15f52
@@ -256,8 +241,11 @@ https://ieeexplore.ieee.org/abstract/document/10023182
 Phone-Level Pronunciation Scoring for L1 Using Weighted-Dynamic Time Warping
 https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10023182&ref=
 
-[2010.10694] An Investigation of the Relation Between Grapheme Embeddings and Pronunciation for Tacotron-based Systems
-https://arxiv.org/abs/2010.10694
+2010.10694
+https://arxiv.org/pdf/2010.10694
+
+The SIWIS French Speech Synthesis Database
+https://datashare.ed.ac.uk/handle/10283/2353
 
 Grapheme or phoneme? An Analysis of Tacotron's Embedded Representations - Google Search
 https://www.google.com/search?q=Grapheme+or+phoneme%3F+An+Analysis+of+Tacotron%27s+Embedded+Representations&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
@@ -271,8 +259,77 @@ https://github.com/xinjli/allosaurus
 μTorrent Web
 https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
 
-Aaac - Google Drive
-https://drive.google.com/drive/u/0/folders/1srbnc5D3Wq_xkr5rLmAplTwjWlQmd6xt
+kensho-technologies/pyctcdecode: A fast and lightweight python-based CTC beam search decoder for speech recognition.
+https://github.com/kensho-technologies/pyctcdecode
+
+Theomat/sbsur: Stochastic Beam Search + Unique Randomizer
+https://github.com/Theomat/sbsur
+
+Audio Samples for French Tacotron
+https://nii-yamagishilab.github.io/samples-french-tacotron/
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
+
+lee child the hard way Torrent (7 results) - EXT Torrents
+https://ext.to/browse/?q=lee+child+the+hard+way&with_adult=1
+
+The Last of Us (TV series) - Wikipedia
+https://en.wikipedia.org/wiki/The_Last_of_Us_(TV_series)
+
+The Last of Us season 1 - Wikipedia
+https://en.wikipedia.org/wiki/The_Last_of_Us_season_1
+
+Commits · jimregan/wav2vec2-swedish-phonetic-waxholm
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/commits/merged-ipa/vocab.json
+
+ipa · jimregan/wav2vec2-swedish-phonetic-waxholm at 680a666
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/commit/680a6661f30e85a9b9b9965943b0818d706b3bea
+
+sampa_latex_se.pdf · KTH/waxholm at main
+https://huggingface.co/datasets/KTH/waxholm/blob/main/sampa_latex_se.pdf
+
+Type IPA phonetic symbols - online keyboard (all languages)
+https://ipa.typeit.org/full/
+
+autovc github - Google Search
+https://www.google.com/search?q=autovc+github&rlz=1C5GCCM_en&oq=autovc+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBdIBCDM1NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+RF5/simple-autovc: A simple, performant re-implementation of AutoVC
+https://github.com/RF5/simple-autovc?tab=readme-ov-file
+
+RF5/simple-speaker-embedding: A speaker embedding network in Pytorch that is very quick to set up and use for whatever purposes.
+https://github.com/RF5/simple-speaker-embedding?tab=readme-ov-file
+
+RF5 (Matthew Baas)
+https://github.com/RF5
+
+bshall/knn-vc: Voice Conversion With Just Nearest Neighbors
+https://github.com/bshall/knn-vc
+
+RF5/simple-asgan: Training code and trained checkpoints for ASGAN.
+https://github.com/RF5/simple-asgan
+
+RF5/transfusion-asr: Transcribing Speech with Multinomial Diffusion, training code and models.
+https://github.com/RF5/transfusion-asr
+
+kaldiasr/kaldi Tags | Docker Hub
+https://hub.docker.com/r/kaldiasr/kaldi/tags
+
+EEND/README.md at master · hitachi-speech/EEND
+https://github.com/hitachi-speech/EEND/blob/master/README.md
+
+Makefile cupy-cuda chainer · Issue #17 · hitachi-speech/EEND
+https://github.com/hitachi-speech/EEND/issues/17
+
+cupy-cuda12x·PyPI
+https://pypi.org/project/cupy-cuda12x/#files
+
+Release v6.2.0 · cupy/cupy
+https://github.com/cupy/cupy/releases/tag/v6.2.0
+
+Recreate Conda Env Docker
+https://chatgpt.com/c/687517f3-5598-8011-80b7-7613fc46485b
 
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
