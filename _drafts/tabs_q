@@ -109,9 +109,6 @@ https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/li
 AUTHOR GUIDELINES
 https://www.cbmi2025.org/guidelines/overview/#call-for-paper-round-2-late-breaking-papers
 
-MultimodalReferencing - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/67f4d6ce7935f83576542741
-
 AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss
 https://arxiv.org/pdf/1905.05879
 
@@ -121,11 +118,8 @@ https://github.com/jimregan/wolnelektury-speech-corpus/pull/46
 Zero-shot Task Prefix Tuning
 https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
 
-ChatGPT - Current things, 14 June 2025
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/687630a9-c6b0-8011-9881-dc807b8b988d
-
-Current things, 14 June 2025 - Batch Processing with SQLite API
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6864cdd1-c300-8011-abb4-46c50ac15f52
+Multiple GPUs for Inference
+https://chatgpt.com/c/68728164-2508-8011-ad7f-e427c14bea0b
 
 Fonetik 2022
 https://2022.fonetik.se/contributions/T%C3%A5nnander%20and%20Edlund%20-%202022%20-%20Sardin%20speech-oriented%20text%20processing.pdf#:~:text=,centric%20research
@@ -223,8 +217,14 @@ https://github.com/RF5/simple-autovc?tab=readme-ov-file
 RF5/simple-speaker-embedding: A speaker embedding network in Pytorch that is very quick to set up and use for whatever purposes.
 https://github.com/RF5/simple-speaker-embedding?tab=readme-ov-file
 
-RF5 (Matthew Baas)
-https://github.com/RF5
+knn-vc/knnvc_demo.ipynb at master · bshall/knn-vc
+https://github.com/bshall/knn-vc/blob/master/knnvc_demo.ipynb
+
+knn-vc demo page
+https://bshall.github.io/knn-vc/
+
+CHAINS: Characterising Individual Speakers
+https://chains.ucd.ie/index.php
 
 bshall/knn-vc: Voice Conversion With Just Nearest Neighbors
 https://github.com/bshall/knn-vc
@@ -235,44 +235,83 @@ https://github.com/RF5/simple-asgan
 RF5/transfusion-asr: Transcribing Speech with Multinomial Diffusion, training code and models.
 https://github.com/RF5/transfusion-asr
 
-kaldiasr/kaldi Tags | Docker Hub
-https://hub.docker.com/r/kaldiasr/kaldi/tags
-
-EEND/README.md at master · hitachi-speech/EEND
-https://github.com/hitachi-speech/EEND/blob/master/README.md
-
-Makefile cupy-cuda chainer · Issue #17 · hitachi-speech/EEND
-https://github.com/hitachi-speech/EEND/issues/17
-
-hitachi-speech/EEND: End-to-End Neural Diarization
-https://github.com/hitachi-speech/EEND
-
-CUBLAS_STATUS_EXECUTION_FAILED Debug
-https://chatgpt.com/c/687655f2-9df0-8011-930e-c46bbe34f971
-
-Debian -- Package Search Results -- less
-https://packages.debian.org/search?searchon=names&keywords=less
-
-The Last of Us season 1 - Wikipedia
-https://en.wikipedia.org/wiki/The_Last_of_Us_season_1
-
-When We Are in Need - Wikipedia
-https://en.wikipedia.org/wiki/When_We_Are_in_Need
-
-Wyoming - Wikipedia
-https://en.wikipedia.org/wiki/Wyoming
-
-Mexican Cession - Wikipedia
-https://en.wikipedia.org/wiki/Mexican_Cession
-
 espnet/egs2/mini_librispeech/diar1 at 412aa11f77ceeee405f75ee21aa5b33cad438fba · espnet/espnet
 https://github.com/espnet/espnet/tree/412aa11f77ceeee405f75ee21aa5b33cad438fba/egs2/mini_librispeech/diar1
 
-ESPnet2 pretrained model, Yushi Ueda/mini_librispeech_diar_train_diar_raw_max_epoch20_valid.acc.best, fs=8k
-https://zenodo.org/records/5264020
+jimregan/wav2vec2-swedish-phonetic-waxholm at main
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/tree/main
 
-the goodbye girl - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tDP1TcoKDMqMWD0EijJSFVIz89PSaoE0plFOQB8wQk9&q=the+goodbye+girl&rlz=1C5GCCM_en&oq=the+goodb&gs_lcrp=EgZjaHJvbWUqDQgBEC4YkQIYgAQYigUyBggAEEUYOTINCAEQLhiRAhiABBiKBTINCAIQABiRAhiABBiKBTIHCAMQLhiABDIJCAQQABgKGIAEMgoIBRAuGNQCGIAEMgoIBhAuGNQCGIAEMgcIBxAuGIAEMgcICBAAGIAE0gEJMTA0NTlqMGo0qAIGsAIB8QVDz2k1N56HIA&sourceid=chrome&ie=UTF-8
+jimregan/wav2vec2-swedish-phonetic-waxholm at main
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/tree/main
+
+Getting timestamps of Swedish Librivox | notes
+https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html
+
+How to pass a pipeline over a dataset with multiple columns - 🤗Datasets - Hugging Face Forums
+https://discuss.huggingface.co/t/how-to-pass-a-pipeline-over-a-dataset-with-multiple-columns/53293/5
+
+ChatGPT
+https://chatgpt.com/
+
+subtitles_preprocessing/scripts/transcribe_wav2vec2.py at main · kb-labb/subtitles_preprocessing
+https://github.com/kb-labb/subtitles_preprocessing/blob/main/scripts/transcribe_wav2vec2.py
+
+WAVC - MultiModal - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/68779666db5d4f1fd5f190af
+
+ACM to WACV Conversion
+https://chatgpt.com/c/687796e0-3784-8011-b3f0-b4610ad98316
+
+How to preserve the original columns of a dataset when using Huggingface tokenizer? - Stack Overflow
+https://stackoverflow.com/questions/73016662/how-to-preserve-the-original-columns-of-a-dataset-when-using-huggingface-tokeniz
+
+New Tab
+chrome://newtab/
+
+2026 Conference
+https://wacv.thecvf.com/
+
+Label Studio
+http://130.237.3.107:8080/user/login/
+
+ACMMM 2025 Conference Authors | OpenReview
+https://openreview.net/group?id=acmmm.org/ACMMM/2025/Conference/Authors&referrer=%5BHomepage%5D(%2F)
+
+Multimodal Referencing: Grounding Generative Models in Situated Communication | OpenReview
+https://openreview.net/forum?id=Fu0BMPZA88#discussion
+
+1900 hours in days - Google Search
+https://www.google.com/search?q=1900+hours+in+days&rlz=1C5GCCM_en&oq=1900+hours+in+days&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIGCAEQBhhA0gEIMzM5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+manycore-research/SpatialLM: SpatialLM: Training Large Language Models for Structured Indoor Modeling
+https://github.com/manycore-research/SpatialLM
+
+WACV 2026 Author Reviewer Guides
+https://wacv.thecvf.com/Conferences/2026/AuthorReviewerGuides
+
+2410.00253v1
+https://arxiv.org/pdf/2410.00253v1
+
+ACMMM 2025 Conference Authors | OpenReview
+https://openreview.net/group?id=acmmm.org/ACMMM/2025/Conference/Authors&referrer=%5BHomepage%5D(%2F)
+
+Multimodal Referencing: Grounding Generative Models in Situated Communication | OpenReview
+https://openreview.net/forum?id=Fu0BMPZA88#discussion
+
+mm_acm - Google Drive
+https://drive.google.com/drive/u/4/folders/1ibfwSzvNDhadWsFs0E0o7ZO9yz5bBN8E
+
+New Tab
+chrome://newtab/
+
+What's The 'Nothing Beats a Jet2 Holiday' Meme About? The Viral Jet2 Holiday Tik... | Know Your Meme
+https://trending.knowyourmeme.com/editorials/guides/whats-the-nothing-beats-a-jet2-holiday-meme-about-the-viral-jet2-holiday-tiktok-sound-explained
+
+Ylvis - The Fox (What Does The Fox Say?) [Official music video HD] - YouTube
+https://www.youtube.com/watch?v=jofNR_WkoCE
+
+ice cream and pasta faltoversten - Google Search
+https://www.google.com/search?q=ice+cream+and+pasta+faltoversten&rlz=1C5GCCM_en&oq=ice+cream+and+pasta+faltoversten&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAjIHCAQQIRiPAtIBCTEwNzQ2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=/g/1tltk_9_&vssid=lcl
 
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
