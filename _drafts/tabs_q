@@ -16,11 +16,11 @@ https://chatgpt.com/c/6875035a-ca94-8011-a663-b4d69cb7982f
 A Tutorial on Extracting Formants in Praat – Joey Stanley
 https://joeystanley.com/blog/a-tutorial-on-extracting-formants-in-praat/
 
-jimregan/riksdag_spoken_sentences at main
-https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences/tree/main/paraphrases
+jimregan/riksdag_spoken_sentences · Datasets at Hugging Face
+https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences
 
-alignments/2442101120000150921.ctm_edit · jimregan/sbtal_riksdag_asr at main
-https://huggingface.co/datasets/jimregan/sbtal_riksdag_asr/blob/main/alignments/2442101120000150921.ctm_edit
+jimregan/sbtal_riksdag_asr at fairseq_lm_49h
+https://huggingface.co/datasets/jimregan/sbtal_riksdag_asr/tree/fairseq_lm_49h
 
 Volume 59, Issue 1 | Language Resources and Evaluation
 https://link.springer.com/journal/10579/volumes-and-issues/59-1
@@ -43,8 +43,8 @@ https://www.google.com/search?q=ConlluEditor&rlz=1C5GCCM_en&sourceid=chrome&ie=U
 amir-zeldes/DepEdit: A simple configurable tool for manipulating dependency trees.
 https://github.com/amir-zeldes/DepEdit?tab=readme-ov-file
 
-DepEdit/docs/DepEdit_user_guide.pdf at master · amir-zeldes/DepEdit
-https://github.com/amir-zeldes/DepEdit/blob/master/docs/DepEdit_user_guide.pdf
+DepEdit - a tool for manipulating dependency trees
+https://gucorpling.org/depedit/
 
 DepEdit/docs/DepEdit_user_guide.pdf at master · amir-zeldes/DepEdit
 https://github.com/amir-zeldes/DepEdit/blob/master/docs/DepEdit_user_guide.pdf
@@ -94,20 +94,8 @@ https://arxiv.org/pdf/2507.04094
 (1) Instagram
 https://www.instagram.com/
 
-kyutai/mimi · Hugging Face
-https://huggingface.co/kyutai/mimi
-
-Release 20250625 · openai/whisper@31243ba
-https://github.com/openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803
-
-Fine-tuning Whisper · openai/whisper · Discussion #759
-https://github.com/openai/whisper/discussions/759
-
-PangzeCheung/Discrete-Probability-Flow: [NeurIPS 2023] Formulating Discrete Probability Flow Through Optimal Transport
-https://github.com/PangzeCheung/Discrete-Probability-Flow
-
-TTIC 2025 Workshop SpeechAI | OpenReview
-https://openreview.net/group?id=TTIC.edu/2025/Workshop/SpeechAI&referrer=%5BHomepage%5D(%2F)#tab-recent-activity
+Discrete-Probability-Flow/sddm/model/continuous_time_diffusion.py at main · PangzeCheung/Discrete-Probability-Flow
+https://github.com/PangzeCheung/Discrete-Probability-Flow/blob/main/sddm/model/continuous_time_diffusion.py
 
 MUCG Workshop @ ACM MM 2025
 https://mllm-mucg.github.io/MM2025/
@@ -121,9 +109,6 @@ https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/li
 AUTHOR GUIDELINES
 https://www.cbmi2025.org/guidelines/overview/#call-for-paper-round-2-late-breaking-papers
 
-IEEE CBMI 2025
-https://www.cbmi2025.org/
-
 MultimodalReferencing - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/67f4d6ce7935f83576542741
 
@@ -136,8 +121,8 @@ https://github.com/jimregan/wolnelektury-speech-corpus/pull/46
 Zero-shot Task Prefix Tuning
 https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
 
-Current things, 14 June 2025 - Phoneme Representation in Tacotron
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6873fab2-a800-8011-8f7d-d5462df5cabd
+ChatGPT - Current things, 14 June 2025
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/687630a9-c6b0-8011-9881-dc807b8b988d
 
 Current things, 14 June 2025 - Batch Processing with SQLite API
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6864cdd1-c300-8011-abb4-46c50ac15f52
@@ -148,26 +133,8 @@ https://2022.fonetik.se/contributions/T%C3%A5nnander%20and%20Edlund%20-%202022%2
 fuzzywuzzy·PyPI
 https://pypi.org/project/fuzzywuzzy/
 
-Lauler (Faton)
-https://github.com/Lauler
-
-Lauler (Faton) / May 2025
-https://github.com/Lauler?tab=overview&from=2025-05-01&to=2025-05-31
-
-easyalign/src/easyalign/alignment/pytorch.py at main · Lauler/easyalign
-https://github.com/Lauler/easyalign/blob/main/src/easyalign/alignment/pytorch.py
-
-National Library of Sweden / KBLab
-https://github.com/kb-labb
-
-post-ocr-correction/scripts/run.py at main · kb-labb/post-ocr-correction
-https://github.com/kb-labb/post-ocr-correction/blob/main/scripts/run.py
-
-kblabb-examples/text/machine_translation_gpu/translate.py at master · kb-labb/kblabb-examples
-https://github.com/kb-labb/kblabb-examples/blob/master/text/machine_translation_gpu/translate.py
-
-subtitles_preprocessing/README.md at main · kb-labb/subtitles_preprocessing
-https://github.com/kb-labb/subtitles_preprocessing/blob/main/README.md
+kb-labb/subtitles_preprocessing
+https://github.com/kb-labb/subtitles_preprocessing
 
 ByT5-Finetuning-Datasets.ipynb - Colab
 https://colab.research.google.com/drive/1syXmhEQ5s7C59zU8RtHVru0wAvMXTSQ8
@@ -178,8 +145,11 @@ https://huggingface.co/docs/transformers/main/en/model_doc/byt5
 HuggingFaceFW/fineweb-2 · Datasets at Hugging Face
 https://huggingface.co/datasets/HuggingFaceFW/fineweb-2
 
-THUDM/GLM-4.1V-9B-Thinking · Hugging Face
-https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking
+THUDM/GLM-4.1V-9B-Thinking · Is GLM4V officially supported by vLLM?
+https://huggingface.co/THUDM/GLM-4.1V-9B-Thinking/discussions/3
+
+vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs
+https://github.com/vllm-project/vllm
 
 THUDM/GLM-4-9B-0414 · Hugging Face
 https://huggingface.co/THUDM/GLM-4-9B-0414
@@ -199,14 +169,8 @@ https://tsla.researchcommons.org/journal/vol44/iss5/6/
 Distributed inference
 https://huggingface.co/docs/transformers/main/perf_infer_gpu_multi
 
-GPU inference
-https://huggingface.co/docs/transformers/v4.48.2/en/perf_infer_gpu_one
-
 Zero-shot Task Prefix Tuning
 https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
-
-Facilitating Directional Pointing Gestures Through the OmniControl Framework | OpenReview
-https://openreview.net/forum?id=VmP2FKPquV
 
 Step-by-Step Diffusion: An Elementary Tutorial
 https://arxiv.org/pdf/2406.08929
@@ -229,53 +193,26 @@ https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&arnumber=10023182&ref=
 2010.10694
 https://arxiv.org/pdf/2010.10694
 
-The SIWIS French Speech Synthesis Database
-https://datashare.ed.ac.uk/handle/10283/2353
-
-Grapheme or phoneme? An Analysis of Tacotron's Embedded Representations - Google Search
-https://www.google.com/search?q=Grapheme+or+phoneme%3F+An+Analysis+of+Tacotron%27s+Embedded+Representations&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
-
 ploujnikov22_interspeech.pdf
 https://www.isca-archive.org/interspeech_2022/ploujnikov22_interspeech.pdf
+
+speechbrain/recipes/LibriSpeech/G2P at develop · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriSpeech/G2P
+
+flexthink/librig2p-nostress-space-cmu · Datasets at Hugging Face
+https://huggingface.co/datasets/flexthink/librig2p-nostress-space-cmu/viewer/default/lexicon_train?p=2023&views%5B%5D=lexicon_train&row=202311
 
 xinjli/allosaurus: Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 https://github.com/xinjli/allosaurus
 
-μTorrent Web
-https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
-
-kensho-technologies/pyctcdecode: A fast and lightweight python-based CTC beam search decoder for speech recognition.
-https://github.com/kensho-technologies/pyctcdecode
+pyctcdecode/pyctcdecode/decoder.py at main · kensho-technologies/pyctcdecode
+https://github.com/kensho-technologies/pyctcdecode/blob/main/pyctcdecode/decoder.py
 
 Theomat/sbsur: Stochastic Beam Search + Unique Randomizer
 https://github.com/Theomat/sbsur
 
 Audio Samples for French Tacotron
 https://nii-yamagishilab.github.io/samples-french-tacotron/
-
-μTorrent Web
-https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
-
-lee child the hard way Torrent (7 results) - EXT Torrents
-https://ext.to/browse/?q=lee+child+the+hard+way&with_adult=1
-
-The Last of Us (TV series) - Wikipedia
-https://en.wikipedia.org/wiki/The_Last_of_Us_(TV_series)
-
-The Last of Us season 1 - Wikipedia
-https://en.wikipedia.org/wiki/The_Last_of_Us_season_1
-
-Commits · jimregan/wav2vec2-swedish-phonetic-waxholm
-https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/commits/merged-ipa/vocab.json
-
-ipa · jimregan/wav2vec2-swedish-phonetic-waxholm at 680a666
-https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/commit/680a6661f30e85a9b9b9965943b0818d706b3bea
-
-sampa_latex_se.pdf · KTH/waxholm at main
-https://huggingface.co/datasets/KTH/waxholm/blob/main/sampa_latex_se.pdf
-
-Type IPA phonetic symbols - online keyboard (all languages)
-https://ipa.typeit.org/full/
 
 autovc github - Google Search
 https://www.google.com/search?q=autovc+github&rlz=1C5GCCM_en&oq=autovc+github&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBdIBCDM1NzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -307,14 +244,35 @@ https://github.com/hitachi-speech/EEND/blob/master/README.md
 Makefile cupy-cuda chainer · Issue #17 · hitachi-speech/EEND
 https://github.com/hitachi-speech/EEND/issues/17
 
-cupy-cuda12x·PyPI
-https://pypi.org/project/cupy-cuda12x/#files
+hitachi-speech/EEND: End-to-End Neural Diarization
+https://github.com/hitachi-speech/EEND
 
-Release v6.2.0 · cupy/cupy
-https://github.com/cupy/cupy/releases/tag/v6.2.0
+CUBLAS_STATUS_EXECUTION_FAILED Debug
+https://chatgpt.com/c/687655f2-9df0-8011-930e-c46bbe34f971
 
-Recreate Conda Env Docker
-https://chatgpt.com/c/687517f3-5598-8011-80b7-7613fc46485b
+Debian -- Package Search Results -- less
+https://packages.debian.org/search?searchon=names&keywords=less
+
+The Last of Us season 1 - Wikipedia
+https://en.wikipedia.org/wiki/The_Last_of_Us_season_1
+
+When We Are in Need - Wikipedia
+https://en.wikipedia.org/wiki/When_We_Are_in_Need
+
+Wyoming - Wikipedia
+https://en.wikipedia.org/wiki/Wyoming
+
+Mexican Cession - Wikipedia
+https://en.wikipedia.org/wiki/Mexican_Cession
+
+espnet/egs2/mini_librispeech/diar1 at 412aa11f77ceeee405f75ee21aa5b33cad438fba · espnet/espnet
+https://github.com/espnet/espnet/tree/412aa11f77ceeee405f75ee21aa5b33cad438fba/egs2/mini_librispeech/diar1
+
+ESPnet2 pretrained model, Yushi Ueda/mini_librispeech_diar_train_diar_raw_max_epoch20_valid.acc.best, fs=8k
+https://zenodo.org/records/5264020
+
+the goodbye girl - Google Search
+https://www.google.com/search?gs_ssp=eJzj4tDP1TcoKDMqMWD0EijJSFVIz89PSaoE0plFOQB8wQk9&q=the+goodbye+girl&rlz=1C5GCCM_en&oq=the+goodb&gs_lcrp=EgZjaHJvbWUqDQgBEC4YkQIYgAQYigUyBggAEEUYOTINCAEQLhiRAhiABBiKBTINCAIQABiRAhiABBiKBTIHCAMQLhiABDIJCAQQABgKGIAEMgoIBRAuGNQCGIAEMgoIBhAuGNQCGIAEMgcIBxAuGIAEMgcICBAAGIAE0gEJMTA0NTlqMGo0qAIGsAIB8QVDz2k1N56HIA&sourceid=chrome&ie=UTF-8
 
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
