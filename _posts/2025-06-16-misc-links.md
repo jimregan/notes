@@ -170,3 +170,6 @@ categories: [links]
 
 [https://github.com/openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803](v20250625) --- Add option to carry initial_prompt with the sliding window
 
+[Voice Conversion With Just Nearest Neighbors](https://www.isca-archive.org/interspeech_2023/baas23_interspeech.html),
+[code](https://github.com/bshall/knn-vc)
+
