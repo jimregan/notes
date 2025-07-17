@@ -164,3 +164,9 @@ categories: [links]
 
 [The SIWIS French Speech Synthesis Database](https://datashare.ed.ac.uk/handle/10283/2353)
 
+[Towards Distributed Neural Architectures](https://arxiv.org/abs/2506.22389)
+
+[kb-labb/post-ocr-correction](https://github.com/kb-labb/post-ocr-correction)
+
+[https://github.com/openai/whisper/commit/31243bad24cc746f07d4c8bfdd2d974872cb1803](v20250625) --- Add option to carry initial_prompt with the sliding window
+
