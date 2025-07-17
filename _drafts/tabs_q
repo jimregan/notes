@@ -115,12 +115,6 @@ https://arxiv.org/pdf/1905.05879
 W2v2 json by jimregan · Pull Request #46 · jimregan/wolnelektury-speech-corpus
 https://github.com/jimregan/wolnelektury-speech-corpus/pull/46
 
-Zero-shot Task Prefix Tuning
-https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
-
-Multiple GPUs for Inference
-https://chatgpt.com/c/68728164-2508-8011-ad7f-e427c14bea0b
-
 Fonetik 2022
 https://2022.fonetik.se/contributions/T%C3%A5nnander%20and%20Edlund%20-%202022%20-%20Sardin%20speech-oriented%20text%20processing.pdf#:~:text=,centric%20research
 
@@ -153,9 +147,6 @@ https://proceedings.neurips.cc/paper_files/paper/2024/file/0382cb76309820f71c6ea
 
 espnet/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py
-
-ACM MM Multimodal Ref rebuttal - Google Docs
-https://docs.google.com/document/d/1QgEmyAVU8nSTsGHxOBGITOMn-ey-yjmKBja0auIAR9E/edit?tab=t.0#heading=h.wedoejsrra3
 
 "The “Referential Game” in Literary Texts" by Huang Jiaguang and Ma Dakang
 https://tsla.researchcommons.org/journal/vol44/iss5/6/
@@ -256,17 +247,11 @@ https://chatgpt.com/
 subtitles_preprocessing/scripts/transcribe_wav2vec2.py at main · kb-labb/subtitles_preprocessing
 https://github.com/kb-labb/subtitles_preprocessing/blob/main/scripts/transcribe_wav2vec2.py
 
-WAVC - MultiModal - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/68779666db5d4f1fd5f190af
-
-ACM to WACV Conversion
-https://chatgpt.com/c/687796e0-3784-8011-b3f0-b4610ad98316
+Annotation Pipeline Suggestions
+https://chatgpt.com/c/6878e35e-0c68-8011-b417-48aaba0f3b85
 
 Multimodal Referencing: Grounding Generative Models in Situated Communication | OpenReview
 https://openreview.net/forum?id=Fu0BMPZA88#discussion
-
-WAVC - combined reference benchmark - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/6877b9fc527894f8a6d93a22
 
 [1712.05474] AI2-THOR: An Interactive 3D Environment for Visual AI
 https://arxiv.org/abs/1712.05474
@@ -279,6 +264,9 @@ https://labelstud.io/guide/quick_start
 
 HumanSignal/label-studio: Label Studio is a multi-type data labeling and annotation tool with standardized output format
 https://github.com/HumanSignal/label-studio/tree/develop
+
+Open Source Data Labeling | Label Studio
+https://labelstud.io/
 
 WACV 2025: Camera-Ready Submission Instructions
 https://wacv2025.thecvf.com/wp-content/uploads/2024/12/WACV-2025_-Camera-Ready-Submission-Instructions-2.pdf
