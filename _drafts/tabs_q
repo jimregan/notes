@@ -331,8 +331,20 @@ https://parselmouth.readthedocs.io/en/stable/installation.html
 Praat Extraction.ipynb - Colab
 https://colab.research.google.com/github/iamsusiep/slp2019/blob/master/Praat_Extraction.ipynb#scrollTo=JvHc28HPoJZ4
 
-Kaldi: How decision trees are used in Kaldi
-https://kaldi-asr.org/doc/tree_externals.html
+Kaldi: Decoders used in the Kaldi toolkit
+https://kaldi-asr.org/doc/decoders.html
+
+Kaldi: Running the example scripts (40 minutes)
+https://kaldi-asr.org/doc/tutorial_running.html
+
+Kaldi: Reading and modifying the code (1/2 hour)
+https://kaldi-asr.org/doc/tutorial_code.html
+
+Kaldi: Decoders used in the Kaldi toolkit
+https://kaldi-asr.org/doc/decoders.html#decoders_lattice
+
+Kaldi: Lattices in Kaldi
+https://kaldi-asr.org/doc/lattices.html
 
 UnsupSeg/solver.py at master · felixkreuk/UnsupSeg
 https://github.com/felixkreuk/UnsupSeg/blob/master/solver.py
@@ -360,6 +372,9 @@ https://lightning.ai/docs/pytorch/stable/common/notebooks.html
 
 Advanced skills — PyTorch Lightning 2.5.2 documentation
 https://lightning.ai/docs/pytorch/stable/levels/advanced.html
+
+Cloud-based checkpoints (advanced) — PyTorch Lightning 2.5.2 documentation
+https://lightning.ai/docs/pytorch/stable/common/checkpointing_advanced.html
 
 Level 21: Extend the Lightning CLI — PyTorch Lightning 2.5.2 documentation
 https://lightning.ai/docs/pytorch/stable/levels/expert_level_22.html
@@ -391,10 +406,94 @@ https://stackoverflow.com/questions/78527433/how-to-upload-the-best-models-from-
 Lightning Transformers 0.2 — New 🤗Tasks, Community Features, and Big Model Training & Inference | by Sean Narenthiran | PyTorch Lightning Developer Blog
 https://devblog.pytorchlightning.ai/lightning-transformers-0-2-new-tasks-community-features-and-big-model-training-inference-1b8074b96798
 
-XetHub
-https://xethub.com/
+XetHub | From Files to Chunks: Improving HF Storage Efficiency
+https://xethub.com/blog/from-files-to-chunks-improving-hf-storage-efficiency
 
-(29) Reflections on XetHub | LinkedIn
-https://www.linkedin.com/pulse/reflections-xethub-ajit-banerjee-yha1c/
+XetHub | Improving Parquet Dedupe on Hugging Face Hub
+https://xethub.com/blog/improving-parquet-dedupe-on-hugging-face-hub
+
+XetHub | Shutting down XetHub: Learnings and Takeaways
+https://xethub.com/blog/shutting-down-xethub-learnings-and-takeaways
+
+XetHub | You Don't Need a Vector Database
+https://xethub.com/blog/you-dont-need-a-vector-database
+
+RagIRBench/xetmemo_kernel_extension.py at main · xetdata/RagIRBench
+https://github.com/xetdata/RagIRBench/blob/main/xetmemo_kernel_extension.py
+
+XetHub | NFS > FUSE: Why We Built our own NFS Server in Rust
+https://xethub.com/blog/nfs-fuse-why-we-built-nfs-server-rust
+
+Self-supervised Phoneme Segmentation
+https://chatgpt.com/c/687de6b6-3010-8011-aa83-83a8bc1fba66
+
+DeepSeek
+https://www.deepseek.com/en
+
+Integrating PyTorch Lightning with Hugging Face Hub - DeepSeek
+https://chat.deepseek.com/a/chat/s/5ff72070-f433-429d-b822-cbc334bc9385
+
+newfla/hf-hub-simple-progress: Simplified download callback for hf-hub
+https://github.com/newfla/hf-hub-simple-progress
+
+Push_to_hub_callback doesn't work - 🤗Hub - Hugging Face Forums
+https://discuss.huggingface.co/t/push-to-hub-callback-doesnt-work/16033
+
+nateraw/hf-hub-lightning: A PyTorch Lightning Callback for pushing models to the Hugging Face Hub 🤗⚡️
+https://github.com/nateraw/hf-hub-lightning?tab=readme-ov-file
+
+nateraw/lit-mnist-demo at main
+https://huggingface.co/nateraw/lit-mnist-demo/tree/main
+
+Callback — PyTorch Lightning 2.5.2 documentation
+https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html
+
+lightning-bolts/src/pl_bolts/transforms/self_supervised/swav_transforms.py at master · Lightning-Universe/lightning-bolts
+https://github.com/Lightning-Universe/lightning-bolts/blob/master/src/pl_bolts/transforms/self_supervised/swav_transforms.py
+
+Vision DataModules — Lightning-Bolts 0.7.0 documentation
+https://lightning-bolts.readthedocs.io/en/stable/datamodules/vision.html
+
+Reinforcement Learning — Lightning-Bolts 0.7.0 documentation
+https://lightning-bolts.readthedocs.io/en/stable/losses.html
+
+Accelerate
+https://huggingface.co/docs/accelerate/en/index
+
+μTorrent Web
+https://utweb.rainberrytv.com/gui/index.html?v=1.3.0.5417&localauth=localapifc2b4802e3c7c42:#/library
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+vlc android cue - Google Search
+https://www.google.com/search?q=vlc+android+cue&rlz=1C5GCCM_en&oq=vlc+android+cue&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyBwgEEAAY7wUyBwgFEAAY7wXSAQg1MDAxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+embed cue file in m4b - Google Search
+https://www.google.com/search?q=embed+cue+file+in+m4b&rlz=1C5GCCM_en&oq=embed+cue+file+in+m4b&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAjIHCAUQIRiPAtIBCDYxMjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+audio - Convert mp3 with cue file to m4b with chapters - Super User
+https://superuser.com/questions/1823172/convert-mp3-with-cue-file-to-m4b-with-chapters
+
+Cue2ID3/Cue2ID3.py at main · TicoM1/Cue2ID3
+https://github.com/TicoM1/Cue2ID3/blob/main/Cue2ID3.py
+
+sandreas/m4b-tool: m4b-tool is a command line utility to merge, split and chapterize audiobook files such as mp3, ogg, flac, m4a or m4b
+https://github.com/sandreas/m4b-tool
+
+ffmpeg m4b cue integrate - Google Search
+https://www.google.com/search?q=ffmpeg+m4b+cue+integrate&sca_esv=52ec33392580eac8&rlz=1C5GCCM_en&sxsrf=AE3TifN5LOllu_SD8G2mA5c2OYshpDaqcg:1753094675175&ei=Exp-aPm7CsqGwPAPzraAKQ&start=10&sa=N&sstk=Ac65TH6rPX9_MYYqp8ti0XjBHOsXN3Tj1qS9b8YQVxvhrjHfdW4R-Frha-L7LNFaif59EGIaWBk7FybTXQOGLdpzuNJZXRhd3mTlFg&ved=2ahUKEwi5kfzK4s2OAxVKAxAIHU4bIAUQ8NMDegQIBxAO&biw=1440&bih=717&dpr=2
+
+m4b metadata (including chapter titles) editor? : r/audiobooks
+https://www.reddit.com/r/audiobooks/comments/hd6ro6/m4b_metadata_including_chapter_titles_editor/
+
+yermak/AudioBookConverter: Improved AudioBookConverter based on freeipodsoftware release (mp3 to m4b converter)
+https://github.com/yermak/AudioBookConverter
+
+Smart AudioBook Player - Apps on Google Play
+https://play.google.com/store/apps/details?id=ak.alizandro.smartaudiobookplayer&hl=en
+
+Error | Docker Hub
+https://hub.docker.com/r/kaldiasr/kaldi
 
 
