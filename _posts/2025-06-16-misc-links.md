@@ -173,3 +173,9 @@ categories: [links]
 [Voice Conversion With Just Nearest Neighbors](https://www.isca-archive.org/interspeech_2023/baas23_interspeech.html),
 [code](https://github.com/bshall/knn-vc)
 
+[atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching) --- TorchCFM: a Conditional Flow Matching library
+
+[THUDM/GLM-4-9B-0414](https://huggingface.co/THUDM/GLM-4-9B-0414)
+
+[einspace: Searching for Neural Architectures from Fundamental Operations](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0382cb76309820f71c6eacd47b36ce71-Abstract-Conference.html)
+
