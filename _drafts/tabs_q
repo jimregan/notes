@@ -343,8 +343,14 @@ https://github.com/alphacep/vosk-api/blob/master/training/run.sh
 Index of /resources/31
 https://openslr.trmal.net/resources/31/
 
-(1) Instagram
+Instagram
 https://www.instagram.com/
+
+georgehtakei
+https://echobox.bio/urn:social:page:ig:37177/georgehtakei?fbclid=PAZXh0bgNhZW0CMTEAAad1B3mL65m1DYQIwaKJ-d5o2C0J6QvQtFQd_OXSTbpNKFegdY5Tw-Vpsefp_g_aem_dBnOu5kcAjJmT6oKFuuTug
+
+Instagram
+https://www.instagram.com/vandaleen/
 
 Facebook
 https://www.facebook.com/
@@ -370,17 +376,14 @@ https://github.com/CLARIN-PL/speech-annotationpro-plugin
 Aaac - Google Drive
 https://drive.google.com/drive/u/0/folders/1srbnc5D3Wq_xkr5rLmAplTwjWlQmd6xt
 
-Remove LFS Blobs
-https://chatgpt.com/c/6884cbd4-3954-8326-917f-f850ccc6bbe7
+Kaldi script modernization
+https://chatgpt.com/c/68855176-2eb0-8323-9726-6594466dceee
 
-jimregan/kaldi-sprakbanken_swe at original-egs
-https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/original-egs/exp
+raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/sprakbanken_swe/s5/run.sh
+https://raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/sprakbanken_swe/s5/run.sh
 
-kaldi/egs/sprakbanken_swe/s5/run.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/run.sh
-
-kaldi/egs/sprakbanken_swe/s5/local/data_prep.py at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/data_prep.py
+raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/wsj/s5/run.sh
+https://raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/wsj/s5/run.sh
 
 kaldi/egs/sprakbanken_swe/s5/local/normalize_transcript.py at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/normalize_transcript.py
@@ -391,151 +394,127 @@ https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/spra
 kaldi/egs/sprakbanken_swe/s5/local/sprakparser.py at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/sprakparser.py
 
-kaldi/egs/sprakbanken_swe/s5/local/sprak_run_nnet_cpu.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/sprak_run_nnet_cpu.sh
+kaldi/egs/sprakbanken_swe/s5 at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/tree/master/egs/sprakbanken_swe/s5
 
 kaldi/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh
 
-Command Line Interface (CLI)
-https://huggingface.co/docs/huggingface_hub/guides/cli
-
-git lfs filter-repo - Google Search
-https://www.google.com/search?q=git+lfs+filter-repo&sca_esv=bd8b7c99eeaeb415&rlz=1C5GCCM_en&sxsrf=AE3TifMDJeuKpqEEdk-mzR36Yn_2BefuaA%3A1753532862732&ei=vsmEaJC0LJTHwPAPwODt0QQ&ved=0ahUKEwiQi4r7wtqOAxWUIxAIHUBwO0oQ4dUDCBA&uact=5&oq=git+lfs+filter-repo&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2dpdCBsZnMgZmlsdGVyLXJlcG8yBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogRI1x9Q_QRYoh1wB3gBkAEAmAGQAaAB1waqAQMwLje4AQPIAQD4AQGYAg6gAosHwgIKEAAYsAMY1gQYR8ICBRAhGKABmAMAiAYBkAYIkgcDNy43oAf7H7IHAzAuN7gH9AbCBwUwLjkuNcgHJw&sclient=gws-wiz-serp
-
-newren/git-filter-repo: Quickly rewrite git repository history (filter-branch replacement)
-https://github.com/newren/git-filter-repo
-
-How do I "fix" a missing lfs pattern, and rewrite history? · Issue #4376 · git-lfs/git-lfs
-https://github.com/git-lfs/git-lfs/issues/4376
-
-Git push rejected due to binary files despite already installing git lfs and tracking the file · Issue #5834 · git-lfs/git-lfs
-https://github.com/git-lfs/git-lfs/issues/5834
-
-Git Large File Storage | Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
-https://git-lfs.com/
-
-git-lfs/docs/man/git-lfs-migrate.adoc at main · git-lfs/git-lfs
-https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc?utm_source=gitlfs_site&utm_medium=doc_man_migrate_link&utm_campaign=gitlfs
-
-SLURM timing flexibility
-https://chatgpt.com/c/6884e92d-1c6c-832a-a54a-6d13945bb3bd
-
-The Goonies - Wikipedia
-https://en.wikipedia.org/wiki/The_Goonies
-
 Kerri Green - Wikipedia
 https://en.wikipedia.org/wiki/Kerri_Green
 
-OpenAI’s most capable AI model, GPT-5, may be coming in August - Ars Technica
-https://arstechnica.com/ai/2025/07/openais-most-capable-ai-model-gpt-5-may-be-coming-in-august/
-
-I May Destroy You - Google Search
-https://www.google.com/search?q=I+May+Destroy+You&rlz=1C5GCCM_en&oq=I+May+Destroy+You&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzI2M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Convert Hugging Face Dataset
-https://chatgpt.com/c/68850728-90f4-832d-8d55-cd65a45d32eb
-
-nst swedish speech - Google Search
-https://www.google.com/search?q=nst+swedish+speech&rlz=1C5GCCM_en&oq=nst+swedish+speech&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRiPAtIBCDU3MTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-nst.py · KTH/nst at main
-https://huggingface.co/datasets/KTH/nst/blob/main/nst.py
-
-kth-tmh/nst · Datasets at Hugging Face
-https://huggingface.co/datasets/kth-tmh/nst
+kth-tmh/nst at main
+https://huggingface.co/datasets/kth-tmh/nst/tree/main
 
 NST Swedish ASR Database (16 kHz) - reorganized - Språkbanken
 https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/
 
-se-16khz_reorganized.pdf
-https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/se-16khz_reorganized.pdf
-
-Command Line Interface (CLI)
-https://huggingface.co/docs/datasets/main/en/cli#convert-to-parquet
-
-Command Line Interface (CLI)
-https://huggingface.co/docs/datasets/en/cli
-
-Installation
-https://huggingface.co/docs/huggingface_hub/en/installation
-
-datasets convert to parquet - Google Search
-https://www.google.com/search?q=datasets+convert+to+parquet&rlz=1C5GCCM_en&oq=datasets+convert+to+parquet&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyBwgEEAAY7wUyBwgFEAAY7wUyBwgGEAAY7wUyBggHEEUYPNIBCDU1MjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-datasets load_dataset - Google Search
-https://www.google.com/search?q=datasets+load_dataset&rlz=1C5GCCM_en&oq=datasets+load&gs_lcrp=EgZjaHJvbWUqDQgAEAAYkQIYgAQYigUyDQgAEAAYkQIYgAQYigUyDQgBEAAYkQIYgAQYigUyDQgCEAAYkQIYgAQYigUyBggDEEUYOTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI1NzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-load_dataset - Google Search
-https://www.google.com/search?q=load_dataset&rlz=1C5GCCM_en&oq=load_dataset&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQABgUGIcCGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgcICRAAGIAE0gEHMjU1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-"Dataset scripts are no longer supported" - Google Search
-https://www.google.com/search?q=%22Dataset+scripts+are+no+longer+supported%22&rlz=1C5GCCM_en&oq=%22Dataset+scripts+are+no+longer+supported%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjINCAYQABiGAxiABBiKBTIHCAcQABjvBTIKCAgQABiiBBiJBTIHCAkQABjvBdIBBzc2NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Dataset scripts are no longer supported, but found superb.py · Issue #7693 · huggingface/datasets
-https://github.com/huggingface/datasets/issues/7693
-
-espnet/yodas2 · Datasets at Hugging Face
-https://huggingface.co/datasets/espnet/yodas2
-
-s3prl/superb · Discussions
-https://huggingface.co/datasets/s3prl/superb/discussions
-
-Dataset scripts are no longer supported - 🤗Datasets - Hugging Face Forums
-https://discuss.huggingface.co/t/dataset-scripts-are-no-longer-supported/163891
-
-(1) Instagram
-https://www.instagram.com/
-
-Module command not found
-https://chatgpt.com/c/68850eff-18f4-8324-93cd-ff5e1b8c89dd
-
-Error: 'module: command not found'
-https://groups.google.com/g/nextflow/c/G6L-4rExKmo?pli=1
-
-jimregan (Jim O'Regan)
-https://huggingface.co/jimregan/datasets
-
-CLARIN-PL
-https://mowa.clarin-pl.eu/
-
 raw.githubusercontent.com/danijel3/ClarinStudioKaldi/refs/heads/master/run.sh
 https://raw.githubusercontent.com/danijel3/ClarinStudioKaldi/refs/heads/master/run.sh
 
-jimregan/clarinpl_sejmsenat at main
-https://huggingface.co/datasets/jimregan/clarinpl_sejmsenat/tree/main
+git lfs migrate - Google Search
+https://www.google.com/search?q=git+lfs+migrate&rlz=1C5GCCM_en&oq=git+lfs&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDsyDggBEEUYJxg7GIAEGIoFMggIAhBFGCcYOzIJCAMQRRg5GIAEMgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQkxNTY4NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-clarinpl_sejmsenat.py · jimregan/clarinpl_sejmsenat at main
-https://huggingface.co/datasets/jimregan/clarinpl_sejmsenat/blob/main/clarinpl_sejmsenat.py
+exp/tri3b/log/acc.1.1.log · jimregan/kaldi-sprakbanken_swe at original-egs-try3
+https://huggingface.co/jimregan/kaldi-sprakbanken_swe/blob/original-egs-try3/exp/tri3b/log/acc.1.1.log
 
-jimregan/eatd_corpus · Datasets at Hugging Face
-https://huggingface.co/datasets/jimregan/eatd_corpus
+thurles food delivery - Google Search
+https://www.google.com/search?q=thurles+food+delivery&sca_esv=10340ae6763877df&rlz=1C5GCCM_en&udm=1&sxsrf=AE3TifNlZQcXmls_F4-VV5VSoKBhSiBJgQ:1753623340290&ei=LCuGaIa5EYW5wPAPreug2Q8&start=10&sa=N&sstk=Ac65TH7PQ9OhjIUSl011BhgCarM2_GwJIMfiYEtUkWvF55DFO9d4vef744pR2pBPKDFBoLG7uEI4m1QLMBuQMq-CUT0wxaoSDGZuUQ&ved=2ahUKEwiG_5GClN2OAxWFHBAIHa01KPsQ8NMDegQIBxAH&biw=1440&bih=717&dpr=2
 
-CLARIN-PL mowa
-https://mowa.clarin-pl.eu/korpusy/
+raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/librispeech/s5/local/chain/tuning/run_tdnn_1d.sh
+https://raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/librispeech/s5/local/chain/tuning/run_tdnn_1d.sh
 
-Kneecap () - YouTube
-https://www.youtube.com/watch?v=t4q08d2VZFc
+kaldi/egs/wsj/s5/steps/segmentation at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation
 
-jimregan/kaldi_clarinpl general | Docker Hub
-https://hub.docker.com/repository/docker/jimregan/kaldi_clarinpl/general
+kaldi/egs/wsj/s5/steps at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps
 
-Debian -- Details of package libperlio-gzip-perl in sid
-https://packages.debian.org/sid/libperlio-gzip-perl
+kaldi/egs/wsj/s5/steps/word_align_lattices.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/word_align_lattices.sh
 
-Debian -- Details of package libperlio-gzip-perl in sid
-https://packages.debian.org/sid/libperlio-gzip-perl
+kaldi/egs/wsj/s5/steps/segmentation/internal at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation/internal
 
-E: Unable to locate package libperlio-gzip-perl - Google Search
-https://www.google.com/search?q=E%3A+Unable+to+locate+package+libperlio-gzip-perl&rlz=1C5GCCM_en&oq=E%3A+Unable+to+locate+package+libperlio-gzip-perl&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzIwM2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+kaldi/egs/wsj/s5/local/dict/get_acronym_prons.pl at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/local/dict/get_acronym_prons.pl
 
-Kaldi pl by jimregan · Pull Request #9 · jimregan/dockerfiles
-https://github.com/jimregan/dockerfiles/pull/9
+kaldi/egs/wsj/s5/local/dict/filter_dict.pl at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/local/dict/filter_dict.pl
 
-Kaldi-sprakbanken-swe by jimregan · Pull Request #10 · jimregan/dockerfiles
-https://github.com/jimregan/dockerfiles/pull/10/files
+kaldi/egs/wsj/s5/local/wsj_format_local_lms.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/local/wsj_format_local_lms.sh
 
-ChatGPT
-https://chatgpt.com/
+kaldi/egs/wsj/s5/steps/segmentation/internal/find_oov_phone.py at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/segmentation/internal/find_oov_phone.py
+
+kaldi/egs/wsj/s5/steps/segmentation/internal/verify_phones_list.py at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/segmentation/internal/verify_phones_list.py
+
+kaldi/egs/wsj/s5/steps/segmentation/internal/sad_to_segments.py at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/segmentation/internal/sad_to_segments.py
+
+kaldi/egs/wsj/s5/steps/segmentation/internal/prepare_sad_graph.py at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/segmentation/internal/prepare_sad_graph.py
+
+kaldi/egs/librispeech/s5/fairseq_ltlm at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/tree/master/egs/librispeech/s5/fairseq_ltlm
+
+kaldi/egs/librispeech/s5/local/lm/train_lm.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/lm/train_lm.sh
+
+kaldi/egs/librispeech/s5/local/run_cleanup_segmentation.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/run_cleanup_segmentation.sh
+
+kaldi/egs/librispeech/s5/local/prepare_example_data.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/prepare_example_data.sh
+
+kaldi/egs/wsj/s5/steps/decode.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/decode.sh
+
+Model adaptation for VOSK
+https://alphacephei.com/vosk/adaptation
+
+vosk-api/python/example/test_words.py at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/python/example/test_words.py
+
+vosk-api/python/example/colab/vosk-training.ipynb at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/python/example/colab/vosk-training.ipynb
+
+Vosk Training - Colab
+https://colab.research.google.com/github/alphacep/vosk-api/blob/master/python/example/colab/vosk-training.ipynb#scrollTo=OfUtX42VZ1zl
+
+vosk-api/training/local/chain/run_tdnn.sh at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/training/local/chain/run_tdnn.sh
+
+[partial] Kaldi sv by jimregan · Pull Request #12 · jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles/pull/12
+
+Home / X
+https://x.com/home
+
+the couple next door - Google Search
+https://www.google.com/search?sca_esv=e6a856e083a4051b&rlz=1C5GCCM_en&sxsrf=AE3TifPUkCzBcHqycIL08akzNSnYGeo-ug:1753635188286&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeoJTKjrFjVxydQWqI2NcOhYPURIv2wPgv_w_sE_0Sc6QLvDm7a9ZTpW1I1zYSRrvqlXNC_WeqbbaW6LKF7oVZ--POuHSm6Ns2OW0G_LXwFXxbbRKAvIqLLxK1edSfdGFX0MvpO5EwBHu8Jd6Os2sfddFY9AH&q=the+couple+next+door&sa=X&ved=2ahUKEwifp9qTwN2OAxUHHhAIHVtmKRUQtKgLegQIFRAB&biw=1440&bih=717&dpr=2#vhid=1P2aFyyONTRWUM&vssid=mosaic
+
+Annabel Scholey - Google Search
+https://www.google.com/search?sca_esv=e6a856e083a4051b&rlz=1C5GCCM_en&sxsrf=AE3TifPUkCzBcHqycIL08akzNSnYGeo-ug:1753635188286&q=Annabel+Scholey&stick=H4sIAAAAAAAAAONgFuLVT9c3NMzOMkixKDIyVuLSz9U3MDMxyDAq1hLLTrbSLykDoviCovz0osRcq-TE4pJFrPyOeXmJSak5CsHJGfk5qZUAuvd-mUcAAAA&sa=X&ved=2ahUKEwifp9qTwN2OAxUHHhAIHVtmKRUQgOQBegQISRAe&biw=1440&bih=717&dpr=2
+
+Instagram
+https://www.instagram.com/p/DMnA7-1o1UU/?img_index=1
+
+Instagram
+https://www.instagram.com/aggykadams/
+
+The Couple Next Door - Wikipedia
+https://en.wikipedia.org/wiki/The_Couple_Next_Door
+
+The Couple Next Door season 2: Cast, trailer, plot, release date
+https://www.redonline.co.uk/entertainment/tv-reviews/a64364839/the-couple-next-door-season-2-cast-trailer-release-date/
+
+The Couple Next Door (TV Series 2023–2025) - IMDb
+https://www.imdb.com/title/tt27369122/
+
+The Handmaid's Tale (TV series) - Wikipedia
+https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)
 
 
