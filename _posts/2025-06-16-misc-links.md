@@ -179,3 +179,17 @@ categories: [links]
 
 [einspace: Searching for Neural Architectures from Fundamental Operations](https://proceedings.neurips.cc/paper_files/paper/2024/hash/0382cb76309820f71c6eacd47b36ce71-Abstract-Conference.html)
 
+[cadia-lvl/althingi-asr](https://github.com/cadia-lvl/althingi-asr)
+
+[From Weak Labels to Strong Results: Utilizing 5,000 Hours of Noisy Classroom Transcripts with Minimal Accurate Data](https://arxiv.org/abs/2505.17088)
+
+[Flow Matching Guide and Code](https://arxiv.org/abs/2412.06264)
+
+[Voxtral](https://arxiv.org/abs/2507.13264),
+[mistralai/Voxtral-Mini-3B-2507](https://huggingface.co/mistralai/Voxtral-Mini-3B-2507)
+
+[CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training](https://arxiv.org/abs/2505.17589),
+[code](https://github.com/FunAudioLLM/CosyVoice)
+
+[Real-Time Textless Dialogue Generation](https://arxiv.org/abs/2501.04877)
+
