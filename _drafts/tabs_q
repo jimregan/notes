@@ -277,20 +277,8 @@ https://github.com/espnet/espnet/pull/6174/files#diff-5ed9832b0b1ea8d48fedbe3b32
 [SpeechLM] PR1: Modeling by jctian98 · Pull Request #6146 · espnet/espnet
 https://github.com/espnet/espnet/pull/6146/files#diff-0123c16c3cecf942d6dfeb465112dcfb5a331c27ee24f4fc4ab23217bdd5350d
 
-Adding vanilla EEND recipe for AMI with multi speaker synthetic data simulation included. by popcornell · Pull Request #6138 · espnet/espnet
-https://github.com/espnet/espnet/pull/6138/files
-
-AVSR recipe for Galaxy Dataset by YJCX330 · Pull Request #6132 · espnet/espnet
-https://github.com/espnet/espnet/pull/6132/files
-
-wyh2000/GALAXY
-https://github.com/wyh2000/GALAXY
-
 TTS recipe for Expresso Dataset by lism13 · Pull Request #6125 · espnet/espnet
 https://github.com/espnet/espnet/pull/6125
-
-Codec Major Updates by ftshijt · Pull Request #6093 · espnet/espnet
-https://github.com/espnet/espnet/pull/6093
 
 Add Harvest algorithm as an option for F0 extraction by f-matano44 · Pull Request #6083 · espnet/espnet
 https://github.com/espnet/espnet/pull/6083
@@ -343,14 +331,8 @@ https://github.com/alphacep/vosk-api/blob/master/training/run.sh
 Index of /resources/31
 https://openslr.trmal.net/resources/31/
 
-Instagram
+(1) Instagram
 https://www.instagram.com/
-
-Instagram
-https://www.instagram.com/p/DLn5cucvf94/
-
-Instagram
-https://www.instagram.com/p/DMnXQP1osir/
 
 This one-minute workout could transform your health | National Geographic
 https://www.nationalgeographic.com/health/article/health-benefits-of-sprint-training?cmpid=org%3Dngp%3A%3Amc%3Dsocial%3A%3Asrc%3Dinstagram%3A%3Acmp%3Deditorial%3A%3Aadd%3Digs20250804health-healthbenefitsofsprinttrainingpremiumhedcard&fbclid=PAZXh0bgNhZW0CMTEAAadeYzI0Wck6S_80Xe0ZjHA8edIapCpumsbpgAzuv7bMMUA0CgRx6om96XLG9w_aem_8DSQRy7BZ9sqsqt0G1az_w
@@ -424,23 +406,26 @@ https://github.com/kaldi-asr/kaldi/blob/master/egs/timit/s5/local/timit_prepare_
 natural language - How to normalize text when computing the word error rate of a speech recognition system? - Cross Validated
 https://stats.stackexchange.com/questions/327996/how-to-normalize-text-when-computing-the-word-error-rate-of-a-speech-recognition
 
+sctk/doc/GLMRules.txt at master · chinshr/sctk
+https://github.com/chinshr/sctk/blob/master/doc/GLMRules.txt
+
 reverb/asr at main · revdotcom/reverb
 https://github.com/revdotcom/reverb/tree/main/asr
 
 revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
 https://github.com/revdotcom/fstalign?tab=readme-ov-file
 
-revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
-https://github.com/revdotcom/fstalign
-
 fstalign/docs/NLP-Format.md at develop · revdotcom/fstalign
-https://github.com/revdotcom/fstalign/blob/develop/docs//NLP-Format.md#wer-tag-sidecar
+https://github.com/revdotcom/fstalign/blob/develop/docs/NLP-Format.md
 
-LICENSE · Revai/reverb-asr at main
-https://huggingface.co/Revai/reverb-asr/blob/main/LICENSE
+revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
+https://github.com/revdotcom/fstalign?tab=readme-ov-file
 
-NeMo-text-processing/nemo_text_processing/text_normalization/sv/utils.py at main · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/blob/main/nemo_text_processing/text_normalization/sv/utils.py
+revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
+https://github.com/revdotcom/fstalign/tree/develop
+
+fstalign/Dockerfile at develop · revdotcom/fstalign
+https://github.com/revdotcom/fstalign/blob/develop/Dockerfile
 
 jimregan/wolnelektury-speech-corpus
 https://github.com/jimregan/wolnelektury-speech-corpus
@@ -448,7 +433,7 @@ https://github.com/jimregan/wolnelektury-speech-corpus
 wolnelektury-speech-corpus/specific-norms.tsv at main · jimregan/wolnelektury-speech-corpus
 https://github.com/jimregan/wolnelektury-speech-corpus/blob/main/specific-norms.tsv
 
-(1) X. Dong on X: "It turns out, &gt; GRPO is performing the arithmetic mean --&gt; token-level scaling &gt; GSPO is performing the geometric mean --&gt; sequence-level scaling Check the blog if you do not have time to read. https://t.co/tVHJnSYFse" / X
+(2) X. Dong on X: "It turns out, &gt; GRPO is performing the arithmetic mean --&gt; token-level scaling &gt; GSPO is performing the geometric mean --&gt; sequence-level scaling Check the blog if you do not have time to read. https://t.co/tVHJnSYFse" / X
 https://x.com/SimonXinDong/status/1949638757810135137
 
 Commits · jimregan/NeMo-text-processing
@@ -460,20 +445,11 @@ https://github.com/jimregan/NeMo-text-processing/commit/372b7a1fe6c6c1c34a3465f2
 Text (Inverse) Normalization — NVIDIA NeMo Framework User Guide
 https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/nlp/text_normalization/wfst/wfst_text_normalization.html
 
-Polska normalizacja tekstu
-https://chatgpt.com/c/68875c43-8504-8325-9c78-9426823af66a
-
 1-wszy - Słownik języka polskiego PWN
 https://sjp.pwn.pl/slowniki/1-wszy.html
 
 dwudziestopierwszo - Google Search
 https://www.google.com/search?q=dwudziestopierwszo&rlz=1C5GCCM_en&oq=dwudziestopierwszo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzIyNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-dobry - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/dobry
-
-Google Translate
-https://translate.google.com/?sl=en&tl=ru&text=twenty%20six%20dogs&op=translate
 
 congenial-rotary-phone/idlak/digitlkp_currency.tsv at master · jimregan/congenial-rotary-phone
 https://github.com/jimregan/congenial-rotary-phone/blob/master/idlak/digitlkp_currency.tsv
@@ -505,27 +481,6 @@ https://sjp.pwn.pl/poradnia/haslo/czterdziestkapiatka;1733.html
 dwieścieczternastka - Słownik języka polskiego PWN
 https://sjp.pwn.pl/poradnia/haslo/dwiescieczternastka;859.html
 
-Czy zapis „20-stka” jest poprawny? | Wydział Filologiczny Uniwersytetu Gdańskiego
-https://fil.ug.edu.pl/strona/52542/zapis_20-stka_jest_poprawny
-
-czterystaczwórka - Google Search
-https://www.google.com/search?q=czterystaczw%C3%B3rka&sca_esv=e948bafec9f39f8c&rlz=1C5GCCM_en&sxsrf=AE3TifO1A7ON0CXJy8pmH1mLS-jMT2a0Ww%3A1753793789438&ei=_cSIaOnEGr-ywPAPj9Li-A8&ved=0ahUKEwipt9D-juKOAxU_GRAIHQ-pGP8Q4dUDCBA&uact=5&oq=czterystaczw%C3%B3rka&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWN6dGVyeXN0YWN6d8OzcmthMgUQABjvBTIIEAAYgAQYogQyBRAAGO8FMggQABiABBiiBDIFEAAY7wVI2AhQtAZY_AZwAXgAkAEAmAHgAaABkQOqAQUwLjEuMbgBA8gBAPgBAZgCA6ACoAPCAgsQABiABBiwAxiiBMICCBAAGLADGO8FmAMA4gMFEgExIECIBgGQBgSSBwUxLjEuMaAHtgeyBwUwLjEuMbgHmQPCBwUwLjEuMsgHCw&sclient=gws-wiz-serp
-
-[2501.04877] Real-Time Textless Dialogue Generation
-https://arxiv.org/abs/2501.04877
-
-jedenastka - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/jedenastka#Polish
-
-dwieście - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/dwie%C5%9Bcie#Polish
-
-dwanaścioro - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/dwana%C5%9Bcioro#Polish
-
-dwoje - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/dwoje#Polish
-
 Wprowadzenie języka polskiego jako wykładowego w 2-giem gimnazjum we Lwowie. - Dz. Praw P. Pol.1919.14.166 - OpenLEX
 https://sip.lex.pl/akty-prawne/dzu-dziennik-ustaw/wprowadzenie-jezyka-polskiego-jako-wykladowego-w-2-giem-gimnazjum-we-16872611
 
@@ -537,9 +492,6 @@ https://arxiv.org/pdf/2411.13577
 
 fishaudio/fish-speech: SOTA Open Source TTS
 https://github.com/fishaudio/fish-speech
-
-Wedding RSVP: Jasmine and Siyang (August 2nd)
-https://docs.google.com/forms/d/e/1FAIpQLSdMXk3Heenwsxx3X2NOPiVWDWD7Ezt_GFLDmihtZHDCzJYKNg/viewform?pli=1
 
 [2505.17088] From Weak Labels to Strong Results: Utilizing 5,000 Hours of Noisy Classroom Transcripts with Minimal Accurate Data
 https://arxiv.org/abs/2505.17088
@@ -565,12 +517,6 @@ https://en.wiktionary.org/wiki/dziewi%C4%99tna%C5%9Bcie#Polish
 dwadzieścia - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/dwadzie%C5%9Bcia#Polish
 
-dwanaście – Wikisłownik, wolny słownik wielojęzyczny
-https://pl.wiktionary.org/wiki/dwana%C5%9Bcie
-
-Google Translate
-https://translate.google.com/?sl=en&tl=pl&text=with%20thirty%20one%20million&op=translate
-
 Zapis liczb w tekstach – słownie czy cyframi? | Bookowska.pl
 https://bookowska.pl/jak-zapisywac-liczby-w-tekstach/
 
@@ -580,118 +526,7 @@ https://aleklasa.pl/gimnazjum/gramatyka/c182-fleksja/odmiana-liczebnikow
 Jak poprawnie zapisywać daty? – Klinwords
 https://klinwords.pl/jak-zapisywac-daty/
 
-Tresc-uchwal-WZA-ATAL-SA-30.06.2021-1.pdf
-https://ri.atal.pl/wp-content/uploads/2024/01/Tresc-uchwal-WZA-ATAL-SA-30.06.2021-1.pdf
-
-Facebook
-https://www.facebook.com/
-
-61 Hours - Wikipedia
-https://en.wikipedia.org/wiki/61_Hours
-
-FunAudioLLM/CosyVoice: Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.
-https://github.com/FunAudioLLM/CosyVoice?tab=readme-ov-file
-
-[2505.17589] CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training
-https://arxiv.org/abs/2505.17589
-
-CBT - Self-Esteem Reflection Workbook
-https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/6867f90e-c2b8-8011-b1c2-38e752c4a27c
-
-Instagram
-https://www.instagram.com/
-
-Israeli minister sparks anger by praying at sensitive Jerusalem holy site
-https://www.bbc.com/news/articles/c4gjxg65p56o?fbclid=PAZXh0bgNhZW0CMTEAAafPuoRJtDG3IeN3jGL8lczw6P650As9MuAS5QYoniCE0iDMbEfDv9i_81rm1g_aem_Qf4GZa5ATaa6fririh8s8w
-
-hora - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/hora#Swedish
-
-packs.shtooka.net/swe-balm-voc/readme.txt
-https://packs.shtooka.net/swe-balm-voc/readme.txt
-
-CBT - Self-Esteem Reflection Workbook
-https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/6867f90e-c2b8-8011-b1c2-38e752c4a27c
-
-Instagram
-https://www.instagram.com/
-
-Swift-TTS – Swift Package Index
-https://swiftpackageindex.com/Blaizzy/mlx-audio
-
-mlx-audio/mlx_audio_swift/tts/Swift-TTS/Orpheus/TTSEngine/OrpheusTTS.swift at main · Blaizzy/mlx-audio
-https://github.com/Blaizzy/mlx-audio/blob/main/mlx_audio_swift/tts/Swift-TTS/Orpheus/TTSEngine/OrpheusTTS.swift
-
-Releases · Blaizzy/mlx-audio
-https://github.com/Blaizzy/mlx-audio/releases
-
-Wav2Vec 2.0 Model for Cross-Lingual Phoneme Recognition
-https://demystifyml.co/wav2vec-20-model-for-cross-lingual-phoneme-recognition
-
-Add wav2vec2 support for real-time ASR · Issue #601 · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/issues/601
-
-mlx-examples/clip/model.py at main · junpeiz/mlx-examples
-https://github.com/junpeiz/mlx-examples/blob/main/clip/model.py
-
-ml-explore/mlx-examples: Examples in the MLX framework
-https://github.com/ml-explore/mlx-examples
-
-Pull requests · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/pulls?q=is%3Apr+is%3Aclosed
-
-LoRA for Whisper speech transcription by adhulipa · Pull Request #483 · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/pull/483/files#diff-68f2f49e3be5bfbb690c8226f8cd170e97a8ae1700d7d891dbc9d724a290e2fe
-
-Pull requests · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/pulls?page=3&q=is%3Apr+is%3Aclosed
-
-Some improvements to speedup alignment computation in MLX Whisper by awni · Pull Request #1259 · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/pull/1259/commits/9414429309bec6cda50125aa13ae9964f32f2300#diff-5679963c55c44b145f7c027f4ec06a75c135eba6760614ec729a0055651d9f7e
-
-ml-explore/mlx-lm: Run LLMs with MLX
-https://github.com/ml-explore/mlx-lm
-
-Add DeciLM/Nemotron-NAS architecture support by Szowesgad · Pull Request #1371 · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/pull/1371
-
-mlx-examples/whisper/README.md at main · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/blob/main/whisper/README.md
-
-transformers/src/transformers/models/wav2vec2/modeling_flax_wav2vec2.py at 3bafa128dc3d159be554b9ae19cbeb5114ea3113 · huggingface/transformers
-https://github.com/huggingface/transformers/blob/3bafa128dc3d159be554b9ae19cbeb5114ea3113/src/transformers/models/wav2vec2/modeling_flax_wav2vec2.py
-
-Pull requests · huggingface/transformers
-https://github.com/huggingface/transformers/pulls?page=2&q=is%3Apr+is%3Aopen
-
-Neural-HMM/src/model/Encoder.py at main · shivammehta25/Neural-HMM
-https://github.com/shivammehta25/Neural-HMM/blob/main/src/model/Encoder.py
-
-shivammehta25 (shivammehta25) / Repositories
-https://github.com/shivammehta25?tab=repositories
-
-shivammehta25/OverFlow: Putting flows on top of neural transducers for better TTS
-https://github.com/shivammehta25/OverFlow?tab=readme-ov-file
-
-2005.11129
-https://arxiv.org/pdf/2005.11129
-
-glow-tts/models.py at master · jaywalnut310/glow-tts
-https://github.com/jaywalnut310/glow-tts/blob/master/models.py
-
-torch.distributions.normal — pytorch-forecasting documentation
-https://pytorch-forecasting.readthedocs.io/en/v0.6.0/_modules/torch/distributions/normal.html
-
-Neural HMM vs CTC
-https://chatgpt.com/c/689103c6-8888-832a-8052-c55ded71fb08
-
-gtn-org/gtn: Automatic differentiation with weighted finite-state transducers.
-https://github.com/gtn-org/gtn
-
-k2-fsa/k2: FSA/FST algorithms, differentiable, with PyTorch compatibility.
-https://github.com/k2-fsa/k2
-
-New Tab
-chrome://newtab/
+Diabolus Ex Machina - by Amanda Guinzburg
+https://amandaguinzburg.substack.com/p/diabolus-ex-machina
 
 
