@@ -13,3 +13,8 @@ steps/online/nnet2/train_diag_ubm.sh: initializing model from E-M in memory,
 steps/online/nnet2/train_diag_ubm.sh: starting from 256 Gaussians, reaching 512;
 steps/online/nnet2/train_diag_ubm.sh: for 20 iterations, using at most 700000 frames of data
 Getting Gaussian-selection info
+steps/online/nnet2/train_diag_ubm.sh: will train for 4 iterations, in parallel over
+steps/online/nnet2/train_diag_ubm.sh: 10 machines, parallelized with 'run.pl'
+steps/online/nnet2/train_diag_ubm.sh: Training pass 0
+steps/online/nnet2/train_diag_ubm.sh: Training pass 1
+steps/online/nnet2/train_diag_ubm.sh: Training pass 2
