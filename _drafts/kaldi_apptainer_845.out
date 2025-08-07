@@ -1,0 +1,7 @@
+Job started on deepspeech at Thu Aug  7 16:57:59 CEST 2025
+Using GPU(s): 0
+steps/online/nnet2/extract_ivectors_online.sh --cmd run.pl --nj 16 exp/chain/ivectors_train/train_max2 exp/chain/extractor exp/chain/ivectors_train
+steps/online/nnet2/extract_ivectors_online.sh: extracting iVectors
+steps/online/nnet2/extract_ivectors_online.sh: combining iVectors across jobs
+steps/online/nnet2/extract_ivectors_online.sh: done extracting (online) iVectors to exp/chain/ivectors_train using the extractor in exp/chain/extractor.
+Job finished at Thu Aug  7 17:03:08 CEST 2025
