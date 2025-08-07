@@ -1,0 +1,20 @@
+Job started on deepspeech at Sat Jul 26 17:10:31 CEST 2025
+Using GPU(s): 0
+Downloading and unpacking sprakbanken to /opt/kaldi/egs/sprakbanken_swe/s5/data/local/data/corpus_processed. This will take a while.
+Corpus files downloaded.
+done
+Converting downloaded files to a format consumable by Kaldi scripts.
+Creating parallel data for training data.
+Creating parallel data for test data.
+Writing the LM text to file and normalising.
+Combine file lists.
+Creating wav.scp, utt2spk and text.unnormalised for train, test and dev
+utils/validate_data_dir.sh: text contains 53598 lines with non-printable characters
+utils/validate_data_dir.sh: text contains 223033 lines with non-printable characters
+Data preparation succeeded
+utils/fix_data_dir.sh: file data/train/text is not in sorted order or not unique, sorting it
+utils/fix_data_dir.sh: file data/train/wav.scp is not in sorted order or not unique, sorting it
+utils/fix_data_dir.sh: file data/train/utt2dur is not in sorted order or not unique, sorting it
+utils/fix_data_dir.sh: file data/train/utt2num_frames is not in sorted order or not unique, sorting it
+fix_data_dir.sh: no utterances remained: not proceeding further.
+Job finished at Sat Jul 26 18:39:40 CEST 2025

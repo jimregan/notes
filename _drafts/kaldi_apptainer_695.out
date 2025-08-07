@@ -1,0 +1,13 @@
+Job started on deepspeech at Sat Jul 26 17:08:56 CEST 2025
+Using GPU(s): 0
+steps/nnet2/train_tanh.sh --mix-up 8000 --initial-learning-rate 0.01 --final-learning-rate 0.001 --num-hidden-layers 4 --hidden-layer-dim 1024 --cmd run.pl data/train data/lang_test_4g exp/tri4a_ali exp/nnet5c
+Usage: utils/split_data.sh [--per-utt] <data-dir> <num-to-split>
+E.g.: utils/split_data.sh data/train 50
+It creates its output in e.g. data/train/split50/{1,2,3,...50}, or if the 
+--per-utt option was given, in e.g. data/train/split50utt/{1,2,3,...50}.
+
+This script will not split the data-dir if it detects that the output is newer than the input.
+By default it splits per speaker (so each speaker is in only one split dir),
+but with the --per-utt option it will ignore the speaker information while splitting.
+utils/lang/check_phones_compatible.sh: phone symbol tables data/lang_test_4g/phones.txt and exp/tri4a_ali/phones.txt are not compatible.
+Job finished at Sat Jul 26 17:08:57 CEST 2025

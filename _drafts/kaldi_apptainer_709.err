@@ -1,0 +1,207 @@
+/var/spool/slurmd/job00709/slurm_script: line 12: module: command not found
+--2025-07-26 22:07:33--  http://www.openslr.org/resources/29/lexicon-sv.tgz
+Resolving www.openslr.org (www.openslr.org)... 46.101.158.64
+Connecting to www.openslr.org (www.openslr.org)|46.101.158.64|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://openslr.trmal.net/resources/29/lexicon-sv.tgz [following]
+--2025-07-26 22:07:33--  http://openslr.trmal.net/resources/29/lexicon-sv.tgz
+Resolving openslr.trmal.net (openslr.trmal.net)... 136.243.171.4, 2a01:4f8:171:2012::2
+Connecting to openslr.trmal.net (openslr.trmal.net)|136.243.171.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5374148 (5.1M) [application/x-gzip]
+Saving to: 'data/local/data/download/lexicon-sv.tgz.1'
+
+     0K .......... .......... .......... .......... ..........  0% 1008K 5s
+    50K .......... .......... .......... .......... ..........  1% 1.91M 4s
+   100K .......... .......... .......... .......... ..........  2% 36.0M 3s
+   150K .......... .......... .......... .......... ..........  3% 39.4M 2s
+   200K .......... .......... .......... .......... ..........  4% 2.05M 2s
+   250K .......... .......... .......... .......... ..........  5% 59.7M 2s
+   300K .......... .......... .......... .......... ..........  6% 72.2M 1s
+   350K .......... .......... .......... .......... ..........  7% 60.0M 1s
+   400K .......... .......... .......... .......... ..........  8% 2.10M 1s
+   450K .......... .......... .......... .......... ..........  9%  115M 1s
+   500K .......... .......... .......... .......... .......... 10% 81.9M 1s
+   550K .......... .......... .......... .......... .......... 11% 2.26M 1s
+   600K .......... .......... .......... .......... .......... 12% 81.9M 1s
+   650K .......... .......... .......... .......... .......... 13% 30.5M 1s
+   700K .......... .......... .......... .......... .......... 14% 71.2M 1s
+   750K .......... .......... .......... .......... .......... 15% 70.9M 1s
+   800K .......... .......... .......... .......... .......... 16% 65.7M 1s
+   850K .......... .......... .......... .......... .......... 17%  103M 1s
+   900K .......... .......... .......... .......... .......... 18%  106M 1s
+   950K .......... .......... .......... .......... .......... 19%  103M 1s
+  1000K .......... .......... .......... .......... .......... 20%  104M 1s
+  1050K .......... .......... .......... .......... .......... 20%  103M 1s
+  1100K .......... .......... .......... .......... .......... 21% 82.6M 1s
+  1150K .......... .......... .......... .......... .......... 22%  116M 1s
+  1200K .......... .......... .......... .......... .......... 23% 2.61M 1s
+  1250K .......... .......... .......... .......... .......... 24%  102M 1s
+  1300K .......... .......... .......... .......... .......... 25% 40.3M 1s
+  1350K .......... .......... .......... .......... .......... 26% 99.2M 0s
+  1400K .......... .......... .......... .......... .......... 27%  116M 0s
+  1450K .......... .......... .......... .......... .......... 28%  101M 0s
+  1500K .......... .......... .......... .......... .......... 29%  109M 0s
+  1550K .......... .......... .......... .......... .......... 30%  111M 0s
+  1600K .......... .......... .......... .......... .......... 31%  114M 0s
+  1650K .......... .......... .......... .......... .......... 32%  116M 0s
+  1700K .......... .......... .......... .......... .......... 33%  112M 0s
+  1750K .......... .......... .......... .......... .......... 34%  107M 0s
+  1800K .......... .......... .......... .......... .......... 35%  118M 0s
+  1850K .......... .......... .......... .......... .......... 36%  105M 0s
+  1900K .......... .......... .......... .......... .......... 37%  112M 0s
+  1950K .......... .......... .......... .......... .......... 38%  100M 0s
+  2000K .......... .......... .......... .......... .......... 39%  108M 0s
+  2050K .......... .......... .......... .......... .......... 40%  118M 0s
+  2100K .......... .......... .......... .......... .......... 40%  118M 0s
+  2150K .......... .......... .......... .......... .......... 41% 99.9M 0s
+  2200K .......... .......... .......... .......... .......... 42%  110M 0s
+  2250K .......... .......... .......... .......... .......... 43%  109M 0s
+  2300K .......... .......... .......... .......... .......... 44%  109M 0s
+  2350K .......... .......... .......... .......... .......... 45%  110M 0s
+  2400K .......... .......... .......... .......... .......... 46% 3.28M 0s
+  2450K .......... .......... .......... .......... .......... 47%  104M 0s
+  2500K .......... .......... .......... .......... .......... 48%  109M 0s
+  2550K .......... .......... .......... .......... .......... 49%  114M 0s
+  2600K .......... .......... .......... .......... .......... 50%  105M 0s
+  2650K .......... .......... .......... .......... .......... 51%  115M 0s
+  2700K .......... .......... .......... .......... .......... 52%  123M 0s
+  2750K .......... .......... .......... .......... .......... 53% 99.6M 0s
+  2800K .......... .......... .......... .......... .......... 54%  110M 0s
+  2850K .......... .......... .......... .......... .......... 55%  127M 0s
+  2900K .......... .......... .......... .......... .......... 56%  120M 0s
+  2950K .......... .......... .......... .......... .......... 57%  103M 0s
+  3000K .......... .......... .......... .......... .......... 58%  110M 0s
+  3050K .......... .......... .......... .......... .......... 59%  120M 0s
+  3100K .......... .......... .......... .......... .......... 60%  106M 0s
+  3150K .......... .......... .......... .......... .......... 60%  116M 0s
+  3200K .......... .......... .......... .......... .......... 61%  104M 0s
+  3250K .......... .......... .......... .......... .......... 62%  108M 0s
+  3300K .......... .......... .......... .......... .......... 63%  123M 0s
+  3350K .......... .......... .......... .......... .......... 64% 88.3M 0s
+  3400K .......... .......... .......... .......... .......... 65%  105M 0s
+  3450K .......... .......... .......... .......... .......... 66%  113M 0s
+  3500K .......... .......... .......... .......... .......... 67%  113M 0s
+  3550K .......... .......... .......... .......... .......... 68% 94.2M 0s
+  3600K .......... .......... .......... .......... .......... 69%  132M 0s
+  3650K .......... .......... .......... .......... .......... 70%  108M 0s
+  3700K .......... .......... .......... .......... .......... 71%  115M 0s
+  3750K .......... .......... .......... .......... .......... 72%  120M 0s
+  3800K .......... .......... .......... .......... .......... 73%  105M 0s
+  3850K .......... .......... .......... .......... .......... 74%  128M 0s
+  3900K .......... .......... .......... .......... .......... 75%  104M 0s
+  3950K .......... .......... .......... .......... .......... 76% 93.1M 0s
+  4000K .......... .......... .......... .......... .......... 77%  110M 0s
+  4050K .......... .......... .......... .......... .......... 78%  111M 0s
+  4100K .......... .......... .......... .......... .......... 79%  104M 0s
+  4150K .......... .......... .......... .......... .......... 80%  119M 0s
+  4200K .......... .......... .......... .......... .......... 80%  103M 0s
+  4250K .......... .......... .......... .......... .......... 81%  110M 0s
+  4300K .......... .......... .......... .......... .......... 82%  106M 0s
+  4350K .......... .......... .......... .......... .......... 83%  107M 0s
+  4400K .......... .......... .......... .......... .......... 84%  107M 0s
+  4450K .......... .......... .......... .......... .......... 85%  122M 0s
+  4500K .......... .......... .......... .......... .......... 86% 98.3M 0s
+  4550K .......... .......... .......... .......... .......... 87%  130M 0s
+  4600K .......... .......... .......... .......... .......... 88%  101M 0s
+  4650K .......... .......... .......... .......... .......... 89%  117M 0s
+  4700K .......... .......... .......... .......... .......... 90%  109M 0s
+  4750K .......... .......... .......... .......... .......... 91%  110M 0s
+  4800K .......... .......... .......... .......... .......... 92% 9.99M 0s
+  4850K .......... .......... .......... .......... .......... 93% 91.8M 0s
+  4900K .......... .......... .......... .......... .......... 94% 95.6M 0s
+  4950K .......... .......... .......... .......... .......... 95% 99.5M 0s
+  5000K .......... .......... .......... .......... .......... 96%  110M 0s
+  5050K .......... .......... .......... .......... .......... 97%  111M 0s
+  5100K .......... .......... .......... .......... .......... 98%  108M 0s
+  5150K .......... .......... .......... .......... .......... 99%  106M 0s
+  5200K .......... .......... .......... .......... ........  100%  112M=0.2s
+
+2025-07-26 22:07:34 (22.1 MB/s) - 'data/local/data/download/lexicon-sv.tgz.1' saved [5374148/5374148]
+
+fstaddselfloops data/lang/phones/wdisambig_phones.int data/lang/phones/wdisambig_words.int 
+tree-info exp/mono/tree 
+tree-info exp/mono/tree 
+fstpushspecial 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fsttablecompose data/lang_test_4g/L_disambig.fst data/lang_test_4g/G.fst 
+fstisstochastic data/lang_test_4g/tmp/LG.fst 
+fstcomposecontext --context-size=1 --central-position=0 --read-disambig-syms=data/lang_test_4g/phones/disambig.int --write-disambig-syms=data/lang_test_4g/tmp/disambig_ilabels_1_0.int data/lang_test_4g/tmp/ilabels_1_0.930718 data/lang_test_4g/tmp/LG.fst 
+fstisstochastic data/lang_test_4g/tmp/CLG_1_0.fst 
+make-h-transducer --disambig-syms-out=exp/mono/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_1_0 exp/mono/tree exp/mono/final.mdl 
+fsttablecompose exp/mono/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_1_0.fst 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fstrmsymbols exp/mono/graph_4g/disambig_tid.int 
+fstrmepslocal 
+fstisstochastic exp/mono/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/mono/final.mdl exp/mono/graph_4g/HCLGa.fst 
+tree-info exp/tri1/tree 
+tree-info exp/tri1/tree 
+fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang_test_4g/phones/disambig.int --write-disambig-syms=data/lang_test_4g/tmp/disambig_ilabels_3_1.int data/lang_test_4g/tmp/ilabels_3_1.942118 data/lang_test_4g/tmp/LG.fst 
+fstisstochastic data/lang_test_4g/tmp/CLG_3_1.fst 
+make-h-transducer --disambig-syms-out=exp/tri1/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_3_1 exp/tri1/tree exp/tri1/final.mdl 
+fsttablecompose exp/tri1/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_3_1.fst 
+fstdeterminizestar --use-log=true 
+fstrmepslocal 
+fstrmsymbols exp/tri1/graph_4g/disambig_tid.int 
+fstminimizeencoded 
+fstisstochastic exp/tri1/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri1/final.mdl exp/tri1/graph_4g/HCLGa.fst 
+tree-info exp/tri2a/tree 
+tree-info exp/tri2a/tree 
+make-h-transducer --disambig-syms-out=exp/tri2a/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_3_1 exp/tri2a/tree exp/tri2a/final.mdl 
+fstrmepslocal 
+fsttablecompose exp/tri2a/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_3_1.fst 
+fstrmsymbols exp/tri2a/graph_4g/disambig_tid.int 
+fstdeterminizestar --use-log=true 
+fstminimizeencoded 
+fstisstochastic exp/tri2a/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2a/final.mdl exp/tri2a/graph_4g/HCLGa.fst 
+tree-info exp/tri2b/tree 
+tree-info exp/tri2b/tree 
+make-h-transducer --disambig-syms-out=exp/tri2b/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_3_1 exp/tri2b/tree exp/tri2b/final.mdl 
+fstminimizeencoded 
+fsttablecompose exp/tri2b/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_3_1.fst 
+fstrmsymbols exp/tri2b/graph_4g/disambig_tid.int 
+fstrmepslocal 
+fstdeterminizestar --use-log=true 
+fstisstochastic exp/tri2b/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri2b/final.mdl exp/tri2b/graph_4g/HCLGa.fst 
+tree-info exp/tri3b/tree 
+tree-info exp/tri3b/tree 
+make-h-transducer --disambig-syms-out=exp/tri3b/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_3_1 exp/tri3b/tree exp/tri3b/final.mdl 
+fstdeterminizestar --use-log=true 
+fsttablecompose exp/tri3b/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_3_1.fst 
+fstrmepslocal 
+fstrmsymbols exp/tri3b/graph_4g/disambig_tid.int 
+fstminimizeencoded 
+fstisstochastic exp/tri3b/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri3b/final.mdl exp/tri3b/graph_4g/HCLGa.fst 
+tree-info exp/tri4a/tree 
+tree-info exp/tri4a/tree 
+make-h-transducer --disambig-syms-out=exp/tri4a/graph_4g/disambig_tid.int --transition-scale=1.0 data/lang_test_4g/tmp/ilabels_3_1 exp/tri4a/tree exp/tri4a/final.mdl 
+fsttablecompose exp/tri4a/graph_4g/Ha.fst data/lang_test_4g/tmp/CLG_3_1.fst 
+fstdeterminizestar --use-log=true 
+fstrmsymbols exp/tri4a/graph_4g/disambig_tid.int 
+fstrmepslocal 
+fstminimizeencoded 
+fstisstochastic exp/tri4a/graph_4g/HCLGa.fst 
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri4a/final.mdl exp/tri4a/graph_4g/HCLGa.fst 
+feat-to-dim 'ark,s,cs:utils/subset_scp.pl --quiet 1000 data/train/split10/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- | splice-feats --left-context=5 --right-context=5 ark:- ark:- | transform-feats exp/nnet5c/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- |' - 
+apply-cmvn --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- 
+splice-feats --left-context=5 --right-context=5 ark:- ark:- 
+transform-feats exp/nnet5c/final.mat ark:- ark:- 
+transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- 
+WARNING (feat-to-dim[5.5.0~1-4b2b]:Close():kaldi-io.cc:515) Pipe utils/subset_scp.pl --quiet 1000 data/train/split10/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- | splice-feats --left-context=5 --right-context=5 ark:- ark:- | transform-feats exp/nnet5c/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- | had nonzero return status 36096
+feat-to-dim 'ark,s,cs:utils/subset_scp.pl --quiet 1000 data/train/split10/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- | splice-feats --left-context=5 --right-context=5 ark:- ark:- | transform-feats exp/nnet5c/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- | splice-feats --left-context=4 --right-context=4 ark:- ark:- |' - 
+transform-feats exp/nnet5c/final.mat ark:- ark:- 
+transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- 
+splice-feats --left-context=5 --right-context=5 ark:- ark:- 
+splice-feats --left-context=4 --right-context=4 ark:- ark:- 
+WARNING (feat-to-dim[5.5.0~1-4b2b]:Close():kaldi-io.cc:515) Pipe utils/subset_scp.pl --quiet 1000 data/train/split10/1/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split10/1/utt2spk scp:data/train/split10/1/cmvn.scp scp:- ark:- | splice-feats --left-context=5 --right-context=5 ark:- ark:- | transform-feats exp/nnet5c/final.mat ark:- ark:- | transform-feats --utt2spk=ark:data/train/split10/1/utt2spk ark:exp/tri4a_ali/trans.1 ark:- ark:- | splice-feats --left-context=4 --right-context=4 ark:- ark:- | had nonzero return status 36096
+copy-int-vector ark:- ark,t:- 
+LOG (copy-int-vector[5.5.0~1-4b2b]:main():copy-int-vector.cc:83) Copied 305896 vectors of int32.
+local/sprak_run_5c.sh: line 25: steps/decode_nnet_cpu.sh: No such file or directory

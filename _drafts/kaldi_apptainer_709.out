@@ -1,0 +1,1733 @@
+Job started on deepspeech at Sat Jul 26 20:35:29 CEST 2025
+Using GPU(s): 0,1,2,3,4,5,6,7
+Downloading and unpacking sprakbanken to /opt/kaldi/egs/sprakbanken_swe/s5/data/local/data/corpus_processed. This will take a while.
+Corpus files downloaded.
+done
+Converting downloaded files to a format consumable by Kaldi scripts.
+Creating parallel data for training data.
+Creating parallel data for test data.
+Writing the LM text to file and normalising.
+Combine file lists.
+Creating wav.scp, utt2spk and text.unnormalised for train, test and dev
+utils/validate_data_dir.sh: text contains 53598 lines with non-printable characters
+utils/validate_data_dir.sh: text contains 223033 lines with non-printable characters
+Data preparation succeeded
+utils/fix_data_dir.sh: file data/train/text is not in sorted order or not unique, sorting it
+utils/fix_data_dir.sh: file data/train/wav.scp is not in sorted order or not unique, sorting it
+fix_data_dir.sh: kept all 306259 utterances.
+fix_data_dir.sh: old files are kept in data/train/.backup
+Dictionary preparation succeeded
+utils/prepare_lang.sh data/local/dict <UNK> data/local/lang_tmp data/lang
+Checking data/local/dict/silence_phones.txt ...
+--> reading data/local/dict/silence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/silence_phones.txt is OK
+
+Checking data/local/dict/optional_silence.txt ...
+--> reading data/local/dict/optional_silence.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/optional_silence.txt is OK
+
+Checking data/local/dict/nonsilence_phones.txt ...
+--> reading data/local/dict/nonsilence_phones.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/nonsilence_phones.txt is OK
+
+Checking disjoint: silence_phones.txt, nonsilence_phones.txt
+--> disjoint property is OK.
+
+Checking data/local/dict/lexicon.txt
+--> reading data/local/dict/lexicon.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexicon.txt is OK
+
+Checking data/local/dict/lexiconp.txt
+--> reading data/local/dict/lexiconp.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/lexiconp.txt is OK
+
+Checking lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt
+--> lexicon pair data/local/dict/lexicon.txt and data/local/dict/lexiconp.txt match
+
+Checking data/local/dict/extra_questions.txt ...
+--> reading data/local/dict/extra_questions.txt
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/local/dict/extra_questions.txt is OK
+--> SUCCESS [validating dictionary directory data/local/dict]
+
+prepare_lang.sh: validating output directory
+utils/validate_lang.pl data/lang
+Checking existence of separator file
+separator file data/lang/subword_separator.txt is empty or does not exist, deal in word case.
+Checking data/lang/phones.txt ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang/phones.txt is OK
+
+Checking words.txt: #0 ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> data/lang/words.txt is OK
+
+Checking disjoint: silence.txt, nonsilence.txt, disambig.txt ...
+--> silence.txt and nonsilence.txt are disjoint
+--> silence.txt and disambig.txt are disjoint
+--> disambig.txt and nonsilence.txt are disjoint
+--> disjoint property is OK
+
+Checking sumation: silence.txt, nonsilence.txt, disambig.txt ...
+--> found no unexplainable phones in phones.txt
+
+Checking data/lang/phones/context_indep.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 10 entry/entries in data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.int corresponds to data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.csl corresponds to data/lang/phones/context_indep.txt
+--> data/lang/phones/context_indep.{txt, int, csl} are OK
+
+Checking data/lang/phones/nonsilence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 516 entry/entries in data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.int corresponds to data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.csl corresponds to data/lang/phones/nonsilence.txt
+--> data/lang/phones/nonsilence.{txt, int, csl} are OK
+
+Checking data/lang/phones/silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 10 entry/entries in data/lang/phones/silence.txt
+--> data/lang/phones/silence.int corresponds to data/lang/phones/silence.txt
+--> data/lang/phones/silence.csl corresponds to data/lang/phones/silence.txt
+--> data/lang/phones/silence.{txt, int, csl} are OK
+
+Checking data/lang/phones/optional_silence.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.int corresponds to data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.csl corresponds to data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.{txt, int, csl} are OK
+
+Checking data/lang/phones/disambig.{txt, int, csl} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 16 entry/entries in data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.int corresponds to data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.csl corresponds to data/lang/phones/disambig.txt
+--> data/lang/phones/disambig.{txt, int, csl} are OK
+
+Checking data/lang/phones/roots.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 46 entry/entries in data/lang/phones/roots.txt
+--> data/lang/phones/roots.int corresponds to data/lang/phones/roots.txt
+--> data/lang/phones/roots.{txt, int} are OK
+
+Checking data/lang/phones/sets.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 46 entry/entries in data/lang/phones/sets.txt
+--> data/lang/phones/sets.int corresponds to data/lang/phones/sets.txt
+--> data/lang/phones/sets.{txt, int} are OK
+
+Checking data/lang/phones/extra_questions.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 44 entry/entries in data/lang/phones/extra_questions.txt
+--> data/lang/phones/extra_questions.int corresponds to data/lang/phones/extra_questions.txt
+--> data/lang/phones/extra_questions.{txt, int} are OK
+
+Checking data/lang/phones/word_boundary.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 526 entry/entries in data/lang/phones/word_boundary.txt
+--> data/lang/phones/word_boundary.int corresponds to data/lang/phones/word_boundary.txt
+--> data/lang/phones/word_boundary.{txt, int} are OK
+
+Checking optional_silence.txt ...
+--> reading data/lang/phones/optional_silence.txt
+--> data/lang/phones/optional_silence.txt is OK
+
+Checking disambiguation symbols: #0 and #1
+--> data/lang/phones/disambig.txt has "#0" and "#1"
+--> data/lang/phones/disambig.txt is OK
+
+Checking topo ...
+
+Checking word_boundary.txt: silence.txt, nonsilence.txt, disambig.txt ...
+--> data/lang/phones/word_boundary.txt doesn't include disambiguation symbols
+--> data/lang/phones/word_boundary.txt is the union of nonsilence.txt and silence.txt
+--> data/lang/phones/word_boundary.txt is OK
+
+Checking word-level disambiguation symbols...
+--> data/lang/phones/wdisambig.txt exists (newer prepare_lang.sh)
+Checking word_boundary.int and disambig.int
+--> generating a 6 word/subword sequence
+--> resulting phone sequence from L.fst corresponds to the word sequence
+--> L.fst is OK
+--> generating a 49 word/subword sequence
+--> resulting phone sequence from L_disambig.fst corresponds to the word sequence
+--> L_disambig.fst is OK
+
+Checking data/lang/oov.{txt, int} ...
+--> text seems to be UTF-8 or ASCII, checking whitespaces
+--> text contains only allowed whitespaces
+--> 1 entry/entries in data/lang/oov.txt
+--> data/lang/oov.int corresponds to data/lang/oov.txt
+--> data/lang/oov.{txt, int} are OK
+
+--> data/lang/L.fst is olabel sorted
+--> data/lang/L_disambig.fst is olabel sorted
+--> SUCCESS [validating lang directory data/lang]
+steps/make_mfcc.sh --nj 10 --cmd run.pl data/test exp/make_mfcc/test mfcc
+utils/validate_data_dir.sh: Successfully validated data-directory data/test
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: Succeeded creating MFCC features for test
+steps/make_mfcc.sh --nj 10 --cmd run.pl data/train exp/make_mfcc/train mfcc
+utils/validate_data_dir.sh: Successfully validated data-directory data/train
+steps/make_mfcc.sh: [info]: no segments file exists: assuming wav.scp indexed by utterance.
+steps/make_mfcc.sh: It seems not all of the feature files were successfully procesed (306257 != 306259); consider using utils/fix_data_dir.sh data/train
+steps/make_mfcc.sh: Succeeded creating MFCC features for train
+steps/compute_cmvn_stats.sh data/test exp/make_mfcc/test mfcc
+Succeeded creating CMVN stats for test
+steps/compute_cmvn_stats.sh data/train exp/make_mfcc/train mfcc
+Succeeded creating CMVN stats for train
+fix_data_dir.sh: kept all 72963 utterances.
+fix_data_dir.sh: old files are kept in data/test/.backup
+fix_data_dir.sh: kept 306257 utterances out of 306259
+fix_data_dir.sh: old files are kept in data/train/.backup
+Train LM with irstlm...
+Speed test with 120 utterances per speaker...
+utils/subset_data_dir.sh: reducing #utt from 72963 to 8760
+Train monophone model on shory utterances...
+steps/train_mono.sh --nj 10 --cmd run.pl data/train data/lang exp/mono
+steps/train_mono.sh: Initializing monophone system.
+steps/train_mono.sh: Compiling training graphs
+steps/train_mono.sh: Aligning data equally (pass 0)
+steps/train_mono.sh: Pass 1
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 2
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 3
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 4
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 5
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 6
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 7
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 8
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 9
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 10
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 11
+steps/train_mono.sh: Pass 12
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 13
+steps/train_mono.sh: Pass 14
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 15
+steps/train_mono.sh: Pass 16
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 17
+steps/train_mono.sh: Pass 18
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 19
+steps/train_mono.sh: Pass 20
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 21
+steps/train_mono.sh: Pass 22
+steps/train_mono.sh: Pass 23
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 24
+steps/train_mono.sh: Pass 25
+steps/train_mono.sh: Pass 26
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 27
+steps/train_mono.sh: Pass 28
+steps/train_mono.sh: Pass 29
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 30
+steps/train_mono.sh: Pass 31
+steps/train_mono.sh: Pass 32
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 33
+steps/train_mono.sh: Pass 34
+steps/train_mono.sh: Pass 35
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 36
+steps/train_mono.sh: Pass 37
+steps/train_mono.sh: Pass 38
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 39
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/mono
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono/log/analyze_alignments.log
+254874 warnings in exp/mono/log/align.*.*.log
+120 warnings in exp/mono/log/update.*.log
+10091 warnings in exp/mono/log/acc.*.*.log
+exp/mono: nj=10 align prob=-91.43 over 417.40h [retry=1.9%, fail=0.1%] states=142 gauss=986
+steps/train_mono.sh: Done training monophone system in exp/mono
+Making recognition graph for mono
+-0.0397358 -0.0406499
+[info]: LG not stochastic.
+-0.0397358 -0.0406499
+[info]: CLG not stochastic.
+0.000298456 -0.0798985
+HCLGa is not stochastic
+Decode with mono...
+steps/decode.sh --config conf/decode.config --nj 10 --cmd run.pl exp/mono/graph_4g data/test120_p_spk exp/mono/decode_test120_p_spk
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/mono/graph_4g exp/mono/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,15,92) and mean=34.9
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/mono/graph_4g exp/mono/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Re-aligning using mono...
+steps/align_si.sh --nj 10 --cmd run.pl data/train data/lang exp/mono exp/mono_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/mono, putting alignments in exp/mono_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/mono_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+Train tri1 [first triphone pass]...
+steps/train_deltas.sh --cmd run.pl 5800 96000 data/train data/lang exp/mono_ali exp/tri1
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+** The warnings above about 'no stats' generally mean you have phones **
+** (or groups of phones) in your phone set that had no corresponding data. **
+** You should probably figure out whether something went wrong, **
+** or whether your data just doesn't happen to have examples of those **
+** phones. **
+steps/train_deltas.sh: converting alignments from exp/mono_ali to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri1
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1/log/analyze_alignments.log
+9451 warnings in exp/tri1/log/align.*.*.log
+34 warnings in exp/tri1/log/update.*.log
+1 warnings in exp/tri1/log/init_model.log
+1 warnings in exp/tri1/log/questions.log
+1 warnings in exp/tri1/log/compile_questions.log
+9077 warnings in exp/tri1/log/acc.*.*.log
+1 warnings in exp/tri1/log/build_tree.log
+exp/tri1: nj=10 align prob=-88.16 over 417.37h [retry=0.8%, fail=0.1%] states=4576 gauss=96280 tree-impr=4.37
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri1
+Making recognition graph for tri1...
+0 -0.0406499
+[info]: CLG not stochastic.
+0.000488016 -0.11578
+HCLGa is not stochastic
+Decoding with tri1...
+steps/decode.sh --config conf/decode.config --nj 10 --cmd run.pl exp/tri1/graph_4g data/test120_p_spk exp/tri1/decode_test120_p_spk
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri1/graph_4g exp/tri1/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,3,15) and mean=6.4
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri1/graph_4g exp/tri1/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Re-aligning using tri1...
+steps/align_si.sh --nj 10 --cmd run.pl data/train data/lang exp/tri1 exp/tri1_ali
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/tri1, putting alignments in exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri1_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+Train tri2a: deltas + delta-deltas...
+steps/train_deltas.sh --cmd run.pl 7500 125000 data/train data/lang exp/tri1_ali exp/tri2a
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+** The warnings above about 'no stats' generally mean you have phones **
+** (or groups of phones) in your phone set that had no corresponding data. **
+** You should probably figure out whether something went wrong, **
+** or whether your data just doesn't happen to have examples of those **
+** phones. **
+steps/train_deltas.sh: converting alignments from exp/tri1_ali to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2a
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2a/log/analyze_alignments.log
+34 warnings in exp/tri2a/log/update.*.log
+1 warnings in exp/tri2a/log/init_model.log
+1 warnings in exp/tri2a/log/compile_questions.log
+1 warnings in exp/tri2a/log/build_tree.log
+1 warnings in exp/tri2a/log/questions.log
+9621 warnings in exp/tri2a/log/acc.*.*.log
+9842 warnings in exp/tri2a/log/align.*.*.log
+exp/tri2a: nj=10 align prob=-87.98 over 417.35h [retry=0.8%, fail=0.1%] states=5984 gauss=125250 tree-impr=4.86
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri2a
+Making recognition graph for tri2a...
+0.000487534 -0.11578
+HCLGa is not stochastic
+Decoding with tri2a...
+steps/decode.sh --nj 10 --cmd run.pl exp/tri2a/graph_4g data/test120_p_spk exp/tri2a/decode_test120_p_spk
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri2a/graph_4g exp/tri2a/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2a/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,12) and mean=5.4
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2a/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri2a/graph_4g exp/tri2a/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Train tri2b: LDA + MLLT...
+steps/train_lda_mllt.sh --cmd run.pl --splice-opts --left-context=5 --right-context=5 7500 125000 data/train data/lang exp/tri1_ali exp/tri2b
+steps/train_lda_mllt.sh: Accumulating LDA statistics.
+steps/train_lda_mllt.sh: Accumulating tree stats
+steps/train_lda_mllt.sh: Getting questions for tree clustering.
+steps/train_lda_mllt.sh: Building the tree
+steps/train_lda_mllt.sh: Initializing the model
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+This is a bad warning.
+steps/train_lda_mllt.sh: Converting alignments from exp/tri1_ali to use current tree
+steps/train_lda_mllt.sh: Compiling graphs of transcripts
+Training pass 1
+Training pass 2
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 3
+Training pass 4
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 5
+Training pass 6
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 7
+Training pass 8
+Training pass 9
+Training pass 10
+Aligning data
+Training pass 11
+Training pass 12
+steps/train_lda_mllt.sh: Estimating MLLT
+Training pass 13
+Training pass 14
+Training pass 15
+Training pass 16
+Training pass 17
+Training pass 18
+Training pass 19
+Training pass 20
+Aligning data
+Training pass 21
+Training pass 22
+Training pass 23
+Training pass 24
+Training pass 25
+Training pass 26
+Training pass 27
+Training pass 28
+Training pass 29
+Training pass 30
+Aligning data
+Training pass 31
+Training pass 32
+Training pass 33
+Training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2b
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2b/log/analyze_alignments.log
+1 warnings in exp/tri2b/log/init_model.log
+10336 warnings in exp/tri2b/log/acc.*.*.log
+1 warnings in exp/tri2b/log/questions.log
+1 warnings in exp/tri2b/log/build_tree.log
+10954 warnings in exp/tri2b/log/align.*.*.log
+1 warnings in exp/tri2b/log/compile_questions.log
+34 warnings in exp/tri2b/log/update.*.log
+274 warnings in exp/tri2b/log/lda_acc.*.log
+exp/tri2b: nj=10 align prob=-40.98 over 417.30h [retry=0.9%, fail=0.1%] states=6224 gauss=125265 tree-impr=5.33 lda-sum=24.32 mllt:impr,logdet=1.24,2.07
+steps/train_lda_mllt.sh: Done training system with LDA+MLLT features in exp/tri2b
+Making recognition graph for tri2b...
+0.000486887 -0.11578
+HCLGa is not stochastic
+Decoding with tri2b...
+steps/decode.sh --nj 10 --cmd run.pl exp/tri2b/graph_4g data/test120_p_spk exp/tri2b/decode_test120_p_spk
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri2b/graph_4g exp/tri2b/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2b/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,8) and mean=3.5
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri2b/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri2b/graph_4g exp/tri2b/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Re-aligning using tri2b...
+steps/align_si.sh --nj 10 --cmd run.pl --use-graphs true data/train data/lang exp/tri2b exp/tri2b_ali
+steps/align_si.sh: feature type is lda
+steps/align_si.sh: aligning data in data/train using model from exp/tri2b, putting alignments in exp/tri2b_ali
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri2b_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2b_ali/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+Train tri3b: LDA + MLLT + SAT.
+steps/train_sat.sh --cmd run.pl 7500 125000 data/train data/lang exp/tri2b_ali exp/tri3b
+steps/train_sat.sh: feature type is lda
+steps/train_sat.sh: obtaining initial fMLLR transforms since not present in exp/tri2b_ali
+steps/train_sat.sh: Accumulating tree stats
+steps/train_sat.sh: Getting questions for tree clustering.
+steps/train_sat.sh: Building the tree
+steps/train_sat.sh: Initializing the model
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+This is a bad warning.
+steps/train_sat.sh: Converting alignments from exp/tri2b_ali to use current tree
+steps/train_sat.sh: Compiling graphs of transcripts
+Pass 1
+Pass 2
+Estimating fMLLR transforms
+Pass 3
+Pass 4
+Estimating fMLLR transforms
+Pass 5
+Pass 6
+Estimating fMLLR transforms
+Pass 7
+Pass 8
+Pass 9
+Pass 10
+Aligning data
+Pass 11
+Pass 12
+Estimating fMLLR transforms
+Pass 13
+Pass 14
+Pass 15
+Pass 16
+Pass 17
+Pass 18
+Pass 19
+Pass 20
+Aligning data
+Pass 21
+Pass 22
+Pass 23
+Pass 24
+Pass 25
+Pass 26
+Pass 27
+Pass 28
+Pass 29
+Pass 30
+Aligning data
+Pass 31
+Pass 32
+Pass 33
+Pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri3b
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri3b/log/analyze_alignments.log
+34 warnings in exp/tri3b/log/update.*.log
+1 warnings in exp/tri3b/log/build_tree.log
+1 warnings in exp/tri3b/log/compile_questions.log
+12257 warnings in exp/tri3b/log/acc.*.*.log
+1642 warnings in exp/tri3b/log/fmllr.*.*.log
+1 warnings in exp/tri3b/log/init_model.log
+1 warnings in exp/tri3b/log/est_alimdl.log
+1 warnings in exp/tri3b/log/questions.log
+11436 warnings in exp/tri3b/log/align.*.*.log
+steps/train_sat.sh: Likelihood evolution:
+-44.1163 -44.1771 -43.8726 -43.3682 -42.5245 -41.6387 -41.0416 -40.5994 -40.2728 -39.7248 -39.5049 -39.0813 -38.9084 -38.7864 -38.6784 -38.5818 -38.495 -38.4167 -38.3443 -38.1887 -38.1034 -38.0475 -37.9973 -37.9502 -37.9054 -37.8632 -37.8233 -37.7852 -37.7483 -37.6663 -37.6174 -37.5922 -37.5755 -37.5636 
+exp/tri3b: nj=10 align prob=-40.92 over 417.23h [retry=0.9%, fail=0.1%] states=6232 gauss=125163 fmllr-impr=3.38 over 266.23h tree-impr=7.80
+steps/train_sat.sh: done training SAT system in exp/tri3b
+Making recognition graph for tri3b...
+0.000487534 -0.11578
+HCLGa is not stochastic
+Decoding with tri3b...
+steps/decode_fmllr.sh --cmd run.pl --nj 10 exp/tri3b/graph_4g data/test120_p_spk exp/tri3b/decode_test120_p_spk
+steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 10 --cmd run.pl --beam 10.0 --model exp/tri3b/final.alimdl --max-active 2000 exp/tri3b/graph_4g data/test120_p_spk exp/tri3b/decode_test120_p_spk.si
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri3b/graph_4g exp/tri3b/decode_test120_p_spk.si
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_test120_p_spk.si/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,6) and mean=3.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_test120_p_spk.si/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri3b/graph_4g exp/tri3b/decode_test120_p_spk.si
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+steps/decode_fmllr.sh: feature type is lda
+steps/decode_fmllr.sh: getting first-pass fMLLR transforms.
+steps/decode_fmllr.sh: doing main lattice generation phase
+steps/decode_fmllr.sh: estimating fMLLR transforms a second time.
+steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri3b/graph_4g exp/tri3b/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,1,5) and mean=2.6
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri3b/graph_4g exp/tri3b/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Re-aligning using tri3b...
+steps/align_fmllr.sh --nj 10 --cmd run.pl data/train data/lang exp/tri3b exp/tri3b_ali
+steps/align_fmllr.sh: feature type is lda
+steps/align_fmllr.sh: compiling training graphs
+steps/align_fmllr.sh: aligning data in data/train using exp/tri3b/final.alimdl and speaker-independent features.
+steps/align_fmllr.sh: computing fMLLR transforms
+steps/align_fmllr.sh: doing final alignment.
+steps/align_fmllr.sh: done aligning data.
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri3b_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri3b_ali/log/analyze_alignments.log
+2998 warnings in exp/tri3b_ali/log/align_pass2.*.log
+2674 warnings in exp/tri3b_ali/log/align_pass1.*.log
+319 warnings in exp/tri3b_ali/log/fmllr.*.log
+Train tri4a: another SAT system with all the si284 data.
+steps/train_sat.sh --cmd run.pl 13000 300000 data/train data/lang exp/tri3b_ali exp/tri4a
+steps/train_sat.sh: feature type is lda
+steps/train_sat.sh: Using transforms from exp/tri3b_ali
+steps/train_sat.sh: Accumulating tree stats
+steps/train_sat.sh: Getting questions for tree clustering.
+steps/train_sat.sh: Building the tree
+steps/train_sat.sh: Initializing the model
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+This is a bad warning.
+steps/train_sat.sh: Converting alignments from exp/tri3b_ali to use current tree
+steps/train_sat.sh: Compiling graphs of transcripts
+Pass 1
+Pass 2
+Estimating fMLLR transforms
+Pass 3
+Pass 4
+Estimating fMLLR transforms
+Pass 5
+Pass 6
+Estimating fMLLR transforms
+Pass 7
+Pass 8
+Pass 9
+Pass 10
+Aligning data
+Pass 11
+Pass 12
+Estimating fMLLR transforms
+Pass 13
+Pass 14
+Pass 15
+Pass 16
+Pass 17
+Pass 18
+Pass 19
+Pass 20
+Aligning data
+Pass 21
+Pass 22
+Pass 23
+Pass 24
+Pass 25
+Pass 26
+Pass 27
+Pass 28
+Pass 29
+Pass 30
+Aligning data
+Pass 31
+Pass 32
+Pass 33
+Pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri4a
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri4a/log/analyze_alignments.log
+1 warnings in exp/tri4a/log/compile_questions.log
+1 warnings in exp/tri4a/log/init_model.log
+12865 warnings in exp/tri4a/log/acc.*.*.log
+44 warnings in exp/tri4a/log/update.*.log
+1464 warnings in exp/tri4a/log/fmllr.*.*.log
+1 warnings in exp/tri4a/log/build_tree.log
+4 warnings in exp/tri4a/log/est_alimdl.log
+1 warnings in exp/tri4a/log/questions.log
+9456 warnings in exp/tri4a/log/align.*.*.log
+steps/train_sat.sh: Likelihood evolution:
+-43.1369 -43.4412 -43.2944 -42.8285 -41.9067 -40.8087 -40.1663 -39.7243 -39.3873 -38.9515 -38.7337 -38.3105 -38.1394 -38.0142 -37.9029 -37.804 -37.7137 -37.6309 -37.5553 -37.4123 -37.3258 -37.2672 -37.2149 -37.1653 -37.1182 -37.074 -37.032 -36.9914 -36.9519 -36.8772 -36.8264 -36.7995 -36.7814 -36.7684 
+exp/tri4a: nj=10 align prob=-40.46 over 417.22h [retry=0.7%, fail=0.1%] states=10752 gauss=300315 fmllr-impr=0.42 over 269.75h tree-impr=8.62
+steps/train_sat.sh: done training SAT system in exp/tri4a
+Making recognition graph for tri4a...
+0.000486621 -0.11578
+HCLGa is not stochastic
+Decoding with tri4a...
+steps/decode_fmllr.sh --nj 10 --cmd run.pl exp/tri4a/graph_4g data/test120_p_spk exp/tri4a/decode_test120_p_spk
+steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 10 --cmd run.pl --beam 10.0 --model exp/tri4a/final.alimdl --max-active 2000 exp/tri4a/graph_4g data/test120_p_spk exp/tri4a/decode_test120_p_spk.si
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri4a/graph_4g exp/tri4a/decode_test120_p_spk.si
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4a/decode_test120_p_spk.si/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,1,6) and mean=2.7
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4a/decode_test120_p_spk.si/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri4a/graph_4g exp/tri4a/decode_test120_p_spk.si
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+steps/decode_fmllr.sh: feature type is lda
+steps/decode_fmllr.sh: getting first-pass fMLLR transforms.
+steps/decode_fmllr.sh: doing main lattice generation phase
+steps/decode_fmllr.sh: estimating fMLLR transforms a second time.
+steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
+steps/diagnostic/analyze_lats.sh --cmd run.pl exp/tri4a/graph_4g exp/tri4a/decode_test120_p_spk
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4a/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,1,5) and mean=2.4
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri4a/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+local/score.sh --cmd run.pl data/test120_p_spk exp/tri4a/graph_4g exp/tri4a/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+Re-aligning using tri4a...
+steps/align_fmllr.sh --nj 10 --cmd run.pl data/train data/lang exp/tri4a exp/tri4a_ali
+steps/align_fmllr.sh: feature type is lda
+steps/align_fmllr.sh: compiling training graphs
+steps/align_fmllr.sh: aligning data in data/train using exp/tri4a/final.alimdl and speaker-independent features.
+steps/align_fmllr.sh: computing fMLLR transforms
+steps/align_fmllr.sh: doing final alignment.
+steps/align_fmllr.sh: done aligning data.
+steps/diagnostic/analyze_alignments.sh --cmd run.pl data/lang exp/tri4a_ali
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri4a_ali/log/analyze_alignments.log
+325 warnings in exp/tri4a_ali/log/fmllr.*.log
+2475 warnings in exp/tri4a_ali/log/align_pass2.*.log
+2321 warnings in exp/tri4a_ali/log/align_pass1.*.log
+Training nnet using cpu...
+steps/nnet2/train_tanh.sh --mix-up 8000 --initial-learning-rate 0.01 --final-learning-rate 0.001 --num-hidden-layers 4 --hidden-layer-dim 1024 --cmd run.pl data/train data/lang_test_4g exp/tri4a_ali exp/nnet5c
+steps/nnet2/train_tanh.sh: calling get_lda.sh
+steps/nnet2/get_lda.sh --transform-dir exp/tri4a_ali --splice-width 4 --cmd run.pl data/train data/lang_test_4g exp/tri4a_ali exp/nnet5c
+steps/nnet2/get_lda.sh: feature type is lda
+steps/nnet2/get_lda.sh: using transforms from exp/tri4a_ali
+steps/nnet2/get_lda.sh: Accumulating LDA statistics.
+steps/nnet2/get_lda.sh: Finished estimating LDA
+steps/nnet2/train_tanh.sh: calling get_egs.sh
+steps/nnet2/get_egs.sh --transform-dir exp/tri4a_ali --splice-width 4 --samples-per-iter 200000 --num-jobs-nnet 16 --stage 0 --cmd run.pl --io-opts --max-jobs-run 5 data/train data/lang_test_4g exp/tri4a_ali exp/nnet5c
+steps/nnet2/get_egs.sh: feature type is lda
+steps/nnet2/get_egs.sh: using transforms from exp/tri4a_ali
+steps/nnet2/get_egs.sh: working out number of frames of training data
+steps/nnet2/get_egs.sh: Every epoch, splitting the data up into 47 iterations,
+steps/nnet2/get_egs.sh: giving samples-per-iteration of 200697 (you requested 200000).
+Getting validation and training subset examples.
+steps/nnet2/get_egs.sh: extracting validation and training-subset alignments.
+Getting subsets of validation examples for diagnostics and combination.
+Creating training examples
+Generating training examples on disk
+steps/nnet2/get_egs.sh: rearranging examples into parts for different parallel jobs
+Shuffling the order of training examples
+(in order to avoid stressing the disk, these won't all run at once).
+steps/nnet2/get_egs.sh: Finished preparing training examples
+steps/nnet2/train_tanh.sh: initializing neural net
+Training transition probabilities and setting priors
+steps/nnet2/train_tanh.sh: Will train for 15 + 5 epochs, equalling 
+steps/nnet2/train_tanh.sh: 705 + 235 = 940 iterations, 
+steps/nnet2/train_tanh.sh: (while reducing learning rate) + (with constant learning rate).
+Training neural net (pass 0)
+Training neural net (pass 1)
+Training neural net (pass 2)
+Training neural net (pass 3)
+Training neural net (pass 4)
+Training neural net (pass 5)
+Training neural net (pass 6)
+Training neural net (pass 7)
+Training neural net (pass 8)
+Training neural net (pass 9)
+Training neural net (pass 10)
+Training neural net (pass 11)
+Training neural net (pass 12)
+Training neural net (pass 13)
+Training neural net (pass 14)
+Training neural net (pass 15)
+Training neural net (pass 16)
+Training neural net (pass 17)
+Training neural net (pass 18)
+Training neural net (pass 19)
+Training neural net (pass 20)
+Training neural net (pass 21)
+Training neural net (pass 22)
+Training neural net (pass 23)
+Training neural net (pass 24)
+Training neural net (pass 25)
+Training neural net (pass 26)
+Training neural net (pass 27)
+Training neural net (pass 28)
+Training neural net (pass 29)
+Training neural net (pass 30)
+Training neural net (pass 31)
+Training neural net (pass 32)
+Training neural net (pass 33)
+Training neural net (pass 34)
+Training neural net (pass 35)
+Training neural net (pass 36)
+Training neural net (pass 37)
+Training neural net (pass 38)
+Training neural net (pass 39)
+Training neural net (pass 40)
+Training neural net (pass 41)
+Training neural net (pass 42)
+Training neural net (pass 43)
+Training neural net (pass 44)
+Training neural net (pass 45)
+Training neural net (pass 46)
+Training neural net (pass 47)
+Training neural net (pass 48)
+Training neural net (pass 49)
+Training neural net (pass 50)
+Training neural net (pass 51)
+Training neural net (pass 52)
+Training neural net (pass 53)
+Training neural net (pass 54)
+Training neural net (pass 55)
+Training neural net (pass 56)
+Training neural net (pass 57)
+Training neural net (pass 58)
+Training neural net (pass 59)
+Training neural net (pass 60)
+Training neural net (pass 61)
+Training neural net (pass 62)
+Training neural net (pass 63)
+Training neural net (pass 64)
+Training neural net (pass 65)
+Training neural net (pass 66)
+Training neural net (pass 67)
+Training neural net (pass 68)
+Training neural net (pass 69)
+Training neural net (pass 70)
+Training neural net (pass 71)
+Training neural net (pass 72)
+Training neural net (pass 73)
+Training neural net (pass 74)
+Training neural net (pass 75)
+Training neural net (pass 76)
+Training neural net (pass 77)
+Training neural net (pass 78)
+Training neural net (pass 79)
+Training neural net (pass 80)
+Training neural net (pass 81)
+Training neural net (pass 82)
+Training neural net (pass 83)
+Training neural net (pass 84)
+Training neural net (pass 85)
+Training neural net (pass 86)
+Training neural net (pass 87)
+Training neural net (pass 88)
+Training neural net (pass 89)
+Training neural net (pass 90)
+Training neural net (pass 91)
+Training neural net (pass 92)
+Training neural net (pass 93)
+Training neural net (pass 94)
+Training neural net (pass 95)
+Training neural net (pass 96)
+Training neural net (pass 97)
+Training neural net (pass 98)
+Training neural net (pass 99)
+Training neural net (pass 100)
+Training neural net (pass 101)
+Training neural net (pass 102)
+Training neural net (pass 103)
+Training neural net (pass 104)
+Training neural net (pass 105)
+Training neural net (pass 106)
+Training neural net (pass 107)
+Training neural net (pass 108)
+Training neural net (pass 109)
+Training neural net (pass 110)
+Training neural net (pass 111)
+Training neural net (pass 112)
+Training neural net (pass 113)
+Training neural net (pass 114)
+Training neural net (pass 115)
+Training neural net (pass 116)
+Training neural net (pass 117)
+Training neural net (pass 118)
+Training neural net (pass 119)
+Training neural net (pass 120)
+Training neural net (pass 121)
+Training neural net (pass 122)
+Training neural net (pass 123)
+Training neural net (pass 124)
+Training neural net (pass 125)
+Training neural net (pass 126)
+Training neural net (pass 127)
+Training neural net (pass 128)
+Training neural net (pass 129)
+Training neural net (pass 130)
+Training neural net (pass 131)
+Training neural net (pass 132)
+Training neural net (pass 133)
+Training neural net (pass 134)
+Training neural net (pass 135)
+Training neural net (pass 136)
+Training neural net (pass 137)
+Training neural net (pass 138)
+Training neural net (pass 139)
+Training neural net (pass 140)
+Training neural net (pass 141)
+Training neural net (pass 142)
+Training neural net (pass 143)
+Training neural net (pass 144)
+Training neural net (pass 145)
+Training neural net (pass 146)
+Training neural net (pass 147)
+Training neural net (pass 148)
+Training neural net (pass 149)
+Training neural net (pass 150)
+Training neural net (pass 151)
+Training neural net (pass 152)
+Training neural net (pass 153)
+Training neural net (pass 154)
+Training neural net (pass 155)
+Training neural net (pass 156)
+Training neural net (pass 157)
+Training neural net (pass 158)
+Training neural net (pass 159)
+Training neural net (pass 160)
+Training neural net (pass 161)
+Training neural net (pass 162)
+Training neural net (pass 163)
+Training neural net (pass 164)
+Training neural net (pass 165)
+Training neural net (pass 166)
+Training neural net (pass 167)
+Training neural net (pass 168)
+Training neural net (pass 169)
+Training neural net (pass 170)
+Training neural net (pass 171)
+Training neural net (pass 172)
+Training neural net (pass 173)
+Training neural net (pass 174)
+Training neural net (pass 175)
+Training neural net (pass 176)
+Training neural net (pass 177)
+Training neural net (pass 178)
+Training neural net (pass 179)
+Training neural net (pass 180)
+Training neural net (pass 181)
+Training neural net (pass 182)
+Training neural net (pass 183)
+Training neural net (pass 184)
+Training neural net (pass 185)
+Training neural net (pass 186)
+Training neural net (pass 187)
+Training neural net (pass 188)
+Training neural net (pass 189)
+Training neural net (pass 190)
+Training neural net (pass 191)
+Training neural net (pass 192)
+Training neural net (pass 193)
+Training neural net (pass 194)
+Training neural net (pass 195)
+Training neural net (pass 196)
+Training neural net (pass 197)
+Training neural net (pass 198)
+Training neural net (pass 199)
+Training neural net (pass 200)
+Training neural net (pass 201)
+Training neural net (pass 202)
+Training neural net (pass 203)
+Training neural net (pass 204)
+Training neural net (pass 205)
+Training neural net (pass 206)
+Training neural net (pass 207)
+Training neural net (pass 208)
+Training neural net (pass 209)
+Training neural net (pass 210)
+Training neural net (pass 211)
+Training neural net (pass 212)
+Training neural net (pass 213)
+Training neural net (pass 214)
+Training neural net (pass 215)
+Training neural net (pass 216)
+Training neural net (pass 217)
+Training neural net (pass 218)
+Training neural net (pass 219)
+Training neural net (pass 220)
+Training neural net (pass 221)
+Training neural net (pass 222)
+Training neural net (pass 223)
+Training neural net (pass 224)
+Training neural net (pass 225)
+Training neural net (pass 226)
+Training neural net (pass 227)
+Training neural net (pass 228)
+Training neural net (pass 229)
+Training neural net (pass 230)
+Training neural net (pass 231)
+Training neural net (pass 232)
+Training neural net (pass 233)
+Training neural net (pass 234)
+Training neural net (pass 235)
+Training neural net (pass 236)
+Training neural net (pass 237)
+Training neural net (pass 238)
+Training neural net (pass 239)
+Training neural net (pass 240)
+Training neural net (pass 241)
+Training neural net (pass 242)
+Training neural net (pass 243)
+Training neural net (pass 244)
+Training neural net (pass 245)
+Training neural net (pass 246)
+Training neural net (pass 247)
+Training neural net (pass 248)
+Training neural net (pass 249)
+Training neural net (pass 250)
+Training neural net (pass 251)
+Training neural net (pass 252)
+Training neural net (pass 253)
+Training neural net (pass 254)
+Training neural net (pass 255)
+Training neural net (pass 256)
+Training neural net (pass 257)
+Training neural net (pass 258)
+Training neural net (pass 259)
+Training neural net (pass 260)
+Training neural net (pass 261)
+Training neural net (pass 262)
+Training neural net (pass 263)
+Training neural net (pass 264)
+Training neural net (pass 265)
+Training neural net (pass 266)
+Training neural net (pass 267)
+Training neural net (pass 268)
+Training neural net (pass 269)
+Training neural net (pass 270)
+Training neural net (pass 271)
+Training neural net (pass 272)
+Training neural net (pass 273)
+Training neural net (pass 274)
+Training neural net (pass 275)
+Training neural net (pass 276)
+Training neural net (pass 277)
+Training neural net (pass 278)
+Training neural net (pass 279)
+Training neural net (pass 280)
+Training neural net (pass 281)
+Training neural net (pass 282)
+Training neural net (pass 283)
+Training neural net (pass 284)
+Training neural net (pass 285)
+Training neural net (pass 286)
+Training neural net (pass 287)
+Training neural net (pass 288)
+Training neural net (pass 289)
+Training neural net (pass 290)
+Training neural net (pass 291)
+Training neural net (pass 292)
+Training neural net (pass 293)
+Training neural net (pass 294)
+Training neural net (pass 295)
+Training neural net (pass 296)
+Training neural net (pass 297)
+Training neural net (pass 298)
+Training neural net (pass 299)
+Training neural net (pass 300)
+Training neural net (pass 301)
+Training neural net (pass 302)
+Training neural net (pass 303)
+Training neural net (pass 304)
+Training neural net (pass 305)
+Training neural net (pass 306)
+Training neural net (pass 307)
+Training neural net (pass 308)
+Training neural net (pass 309)
+Training neural net (pass 310)
+Training neural net (pass 311)
+Training neural net (pass 312)
+Training neural net (pass 313)
+Training neural net (pass 314)
+Training neural net (pass 315)
+Training neural net (pass 316)
+Training neural net (pass 317)
+Training neural net (pass 318)
+Training neural net (pass 319)
+Training neural net (pass 320)
+Training neural net (pass 321)
+Training neural net (pass 322)
+Training neural net (pass 323)
+Training neural net (pass 324)
+Training neural net (pass 325)
+Training neural net (pass 326)
+Training neural net (pass 327)
+Training neural net (pass 328)
+Training neural net (pass 329)
+Training neural net (pass 330)
+Training neural net (pass 331)
+Training neural net (pass 332)
+Training neural net (pass 333)
+Training neural net (pass 334)
+Training neural net (pass 335)
+Training neural net (pass 336)
+Training neural net (pass 337)
+Training neural net (pass 338)
+Training neural net (pass 339)
+Training neural net (pass 340)
+Training neural net (pass 341)
+Training neural net (pass 342)
+Training neural net (pass 343)
+Training neural net (pass 344)
+Training neural net (pass 345)
+Training neural net (pass 346)
+Training neural net (pass 347)
+Training neural net (pass 348)
+Training neural net (pass 349)
+Training neural net (pass 350)
+Training neural net (pass 351)
+Training neural net (pass 352)
+Training neural net (pass 353)
+Training neural net (pass 354)
+Training neural net (pass 355)
+Training neural net (pass 356)
+Training neural net (pass 357)
+Training neural net (pass 358)
+Training neural net (pass 359)
+Training neural net (pass 360)
+Training neural net (pass 361)
+Training neural net (pass 362)
+Training neural net (pass 363)
+Training neural net (pass 364)
+Training neural net (pass 365)
+Training neural net (pass 366)
+Training neural net (pass 367)
+Training neural net (pass 368)
+Training neural net (pass 369)
+Training neural net (pass 370)
+Training neural net (pass 371)
+Training neural net (pass 372)
+Training neural net (pass 373)
+Training neural net (pass 374)
+Training neural net (pass 375)
+Training neural net (pass 376)
+Training neural net (pass 377)
+Training neural net (pass 378)
+Training neural net (pass 379)
+Training neural net (pass 380)
+Training neural net (pass 381)
+Training neural net (pass 382)
+Training neural net (pass 383)
+Training neural net (pass 384)
+Training neural net (pass 385)
+Training neural net (pass 386)
+Training neural net (pass 387)
+Training neural net (pass 388)
+Training neural net (pass 389)
+Training neural net (pass 390)
+Training neural net (pass 391)
+Training neural net (pass 392)
+Training neural net (pass 393)
+Training neural net (pass 394)
+Training neural net (pass 395)
+Training neural net (pass 396)
+Training neural net (pass 397)
+Training neural net (pass 398)
+Training neural net (pass 399)
+Training neural net (pass 400)
+Training neural net (pass 401)
+Training neural net (pass 402)
+Training neural net (pass 403)
+Training neural net (pass 404)
+Training neural net (pass 405)
+Training neural net (pass 406)
+Training neural net (pass 407)
+Training neural net (pass 408)
+Training neural net (pass 409)
+Training neural net (pass 410)
+Training neural net (pass 411)
+Training neural net (pass 412)
+Training neural net (pass 413)
+Training neural net (pass 414)
+Training neural net (pass 415)
+Training neural net (pass 416)
+Training neural net (pass 417)
+Training neural net (pass 418)
+Training neural net (pass 419)
+Training neural net (pass 420)
+Training neural net (pass 421)
+Training neural net (pass 422)
+Training neural net (pass 423)
+Training neural net (pass 424)
+Training neural net (pass 425)
+Training neural net (pass 426)
+Training neural net (pass 427)
+Training neural net (pass 428)
+Training neural net (pass 429)
+Training neural net (pass 430)
+Training neural net (pass 431)
+Training neural net (pass 432)
+Training neural net (pass 433)
+Training neural net (pass 434)
+Training neural net (pass 435)
+Training neural net (pass 436)
+Training neural net (pass 437)
+Training neural net (pass 438)
+Training neural net (pass 439)
+Training neural net (pass 440)
+Training neural net (pass 441)
+Training neural net (pass 442)
+Training neural net (pass 443)
+Training neural net (pass 444)
+Training neural net (pass 445)
+Training neural net (pass 446)
+Training neural net (pass 447)
+Training neural net (pass 448)
+Training neural net (pass 449)
+Training neural net (pass 450)
+Training neural net (pass 451)
+Training neural net (pass 452)
+Training neural net (pass 453)
+Training neural net (pass 454)
+Training neural net (pass 455)
+Training neural net (pass 456)
+Training neural net (pass 457)
+Training neural net (pass 458)
+Training neural net (pass 459)
+Training neural net (pass 460)
+Training neural net (pass 461)
+Training neural net (pass 462)
+Training neural net (pass 463)
+Training neural net (pass 464)
+Training neural net (pass 465)
+Training neural net (pass 466)
+Training neural net (pass 467)
+Training neural net (pass 468)
+Training neural net (pass 469)
+Training neural net (pass 470)
+Training neural net (pass 471)
+Training neural net (pass 472)
+Training neural net (pass 473)
+Training neural net (pass 474)
+Mixing up from 10752 to 8000 components
+Training neural net (pass 475)
+Training neural net (pass 476)
+Training neural net (pass 477)
+Training neural net (pass 478)
+Training neural net (pass 479)
+Training neural net (pass 480)
+Training neural net (pass 481)
+Training neural net (pass 482)
+Training neural net (pass 483)
+Training neural net (pass 484)
+Training neural net (pass 485)
+Training neural net (pass 486)
+Training neural net (pass 487)
+Training neural net (pass 488)
+Training neural net (pass 489)
+Training neural net (pass 490)
+Training neural net (pass 491)
+Training neural net (pass 492)
+Training neural net (pass 493)
+Training neural net (pass 494)
+Training neural net (pass 495)
+Training neural net (pass 496)
+Training neural net (pass 497)
+Training neural net (pass 498)
+Training neural net (pass 499)
+Training neural net (pass 500)
+Training neural net (pass 501)
+Training neural net (pass 502)
+Training neural net (pass 503)
+Training neural net (pass 504)
+Training neural net (pass 505)
+Training neural net (pass 506)
+Training neural net (pass 507)
+Training neural net (pass 508)
+Training neural net (pass 509)
+Training neural net (pass 510)
+Training neural net (pass 511)
+Training neural net (pass 512)
+Training neural net (pass 513)
+Training neural net (pass 514)
+Training neural net (pass 515)
+Training neural net (pass 516)
+Training neural net (pass 517)
+Training neural net (pass 518)
+Training neural net (pass 519)
+Training neural net (pass 520)
+Training neural net (pass 521)
+Training neural net (pass 522)
+Training neural net (pass 523)
+Training neural net (pass 524)
+Training neural net (pass 525)
+Training neural net (pass 526)
+Training neural net (pass 527)
+Training neural net (pass 528)
+Training neural net (pass 529)
+Training neural net (pass 530)
+Training neural net (pass 531)
+Training neural net (pass 532)
+Training neural net (pass 533)
+Training neural net (pass 534)
+Training neural net (pass 535)
+Training neural net (pass 536)
+Training neural net (pass 537)
+Training neural net (pass 538)
+Training neural net (pass 539)
+Training neural net (pass 540)
+Training neural net (pass 541)
+Training neural net (pass 542)
+Training neural net (pass 543)
+Training neural net (pass 544)
+Training neural net (pass 545)
+Training neural net (pass 546)
+Training neural net (pass 547)
+Training neural net (pass 548)
+Training neural net (pass 549)
+Training neural net (pass 550)
+Training neural net (pass 551)
+Training neural net (pass 552)
+Training neural net (pass 553)
+Training neural net (pass 554)
+Training neural net (pass 555)
+Training neural net (pass 556)
+Training neural net (pass 557)
+Training neural net (pass 558)
+Training neural net (pass 559)
+Training neural net (pass 560)
+Training neural net (pass 561)
+Training neural net (pass 562)
+Training neural net (pass 563)
+Training neural net (pass 564)
+Training neural net (pass 565)
+Training neural net (pass 566)
+Training neural net (pass 567)
+Training neural net (pass 568)
+Training neural net (pass 569)
+Training neural net (pass 570)
+Training neural net (pass 571)
+Training neural net (pass 572)
+Training neural net (pass 573)
+Training neural net (pass 574)
+Training neural net (pass 575)
+Training neural net (pass 576)
+Training neural net (pass 577)
+Training neural net (pass 578)
+Training neural net (pass 579)
+Training neural net (pass 580)
+Training neural net (pass 581)
+Training neural net (pass 582)
+Training neural net (pass 583)
+Training neural net (pass 584)
+Training neural net (pass 585)
+Training neural net (pass 586)
+Training neural net (pass 587)
+Training neural net (pass 588)
+Training neural net (pass 589)
+Training neural net (pass 590)
+Training neural net (pass 591)
+Training neural net (pass 592)
+Training neural net (pass 593)
+Training neural net (pass 594)
+Training neural net (pass 595)
+Training neural net (pass 596)
+Training neural net (pass 597)
+Training neural net (pass 598)
+Training neural net (pass 599)
+Training neural net (pass 600)
+Training neural net (pass 601)
+Training neural net (pass 602)
+Training neural net (pass 603)
+Training neural net (pass 604)
+Training neural net (pass 605)
+Training neural net (pass 606)
+Training neural net (pass 607)
+Training neural net (pass 608)
+Training neural net (pass 609)
+Training neural net (pass 610)
+Training neural net (pass 611)
+Training neural net (pass 612)
+Training neural net (pass 613)
+Training neural net (pass 614)
+Training neural net (pass 615)
+Training neural net (pass 616)
+Training neural net (pass 617)
+Training neural net (pass 618)
+Training neural net (pass 619)
+Training neural net (pass 620)
+Training neural net (pass 621)
+Training neural net (pass 622)
+Training neural net (pass 623)
+Training neural net (pass 624)
+Training neural net (pass 625)
+Training neural net (pass 626)
+Training neural net (pass 627)
+Training neural net (pass 628)
+Training neural net (pass 629)
+Training neural net (pass 630)
+Training neural net (pass 631)
+Training neural net (pass 632)
+Training neural net (pass 633)
+Training neural net (pass 634)
+Training neural net (pass 635)
+Training neural net (pass 636)
+Training neural net (pass 637)
+Training neural net (pass 638)
+Training neural net (pass 639)
+Training neural net (pass 640)
+Training neural net (pass 641)
+Training neural net (pass 642)
+Training neural net (pass 643)
+Training neural net (pass 644)
+Training neural net (pass 645)
+Training neural net (pass 646)
+Training neural net (pass 647)
+Training neural net (pass 648)
+Training neural net (pass 649)
+Training neural net (pass 650)
+Training neural net (pass 651)
+Training neural net (pass 652)
+Training neural net (pass 653)
+Training neural net (pass 654)
+Training neural net (pass 655)
+Training neural net (pass 656)
+Training neural net (pass 657)
+Training neural net (pass 658)
+Training neural net (pass 659)
+Training neural net (pass 660)
+Training neural net (pass 661)
+Training neural net (pass 662)
+Training neural net (pass 663)
+Training neural net (pass 664)
+Training neural net (pass 665)
+Training neural net (pass 666)
+Training neural net (pass 667)
+Training neural net (pass 668)
+Training neural net (pass 669)
+Training neural net (pass 670)
+Training neural net (pass 671)
+Training neural net (pass 672)
+Training neural net (pass 673)
+Training neural net (pass 674)
+Training neural net (pass 675)
+Training neural net (pass 676)
+Training neural net (pass 677)
+Training neural net (pass 678)
+Training neural net (pass 679)
+Training neural net (pass 680)
+Training neural net (pass 681)
+Training neural net (pass 682)
+Training neural net (pass 683)
+Training neural net (pass 684)
+Training neural net (pass 685)
+Training neural net (pass 686)
+Training neural net (pass 687)
+Training neural net (pass 688)
+Training neural net (pass 689)
+Training neural net (pass 690)
+Training neural net (pass 691)
+Training neural net (pass 692)
+Training neural net (pass 693)
+Training neural net (pass 694)
+Training neural net (pass 695)
+Training neural net (pass 696)
+Training neural net (pass 697)
+Training neural net (pass 698)
+Training neural net (pass 699)
+Training neural net (pass 700)
+Training neural net (pass 701)
+Training neural net (pass 702)
+Training neural net (pass 703)
+Training neural net (pass 704)
+Training neural net (pass 705)
+Training neural net (pass 706)
+Training neural net (pass 707)
+Training neural net (pass 708)
+Training neural net (pass 709)
+Training neural net (pass 710)
+Training neural net (pass 711)
+Training neural net (pass 712)
+Training neural net (pass 713)
+Training neural net (pass 714)
+Training neural net (pass 715)
+Training neural net (pass 716)
+Training neural net (pass 717)
+Training neural net (pass 718)
+Training neural net (pass 719)
+Training neural net (pass 720)
+Training neural net (pass 721)
+Training neural net (pass 722)
+Training neural net (pass 723)
+Training neural net (pass 724)
+Training neural net (pass 725)
+Training neural net (pass 726)
+Training neural net (pass 727)
+Training neural net (pass 728)
+Training neural net (pass 729)
+Training neural net (pass 730)
+Training neural net (pass 731)
+Training neural net (pass 732)
+Training neural net (pass 733)
+Training neural net (pass 734)
+Training neural net (pass 735)
+Training neural net (pass 736)
+Training neural net (pass 737)
+Training neural net (pass 738)
+Training neural net (pass 739)
+Training neural net (pass 740)
+Training neural net (pass 741)
+Training neural net (pass 742)
+Training neural net (pass 743)
+Training neural net (pass 744)
+Training neural net (pass 745)
+Training neural net (pass 746)
+Training neural net (pass 747)
+Training neural net (pass 748)
+Training neural net (pass 749)
+Training neural net (pass 750)
+Training neural net (pass 751)
+Training neural net (pass 752)
+Training neural net (pass 753)
+Training neural net (pass 754)
+Training neural net (pass 755)
+Training neural net (pass 756)
+Training neural net (pass 757)
+Training neural net (pass 758)
+Training neural net (pass 759)
+Training neural net (pass 760)
+Training neural net (pass 761)
+Training neural net (pass 762)
+Training neural net (pass 763)
+Training neural net (pass 764)
+Training neural net (pass 765)
+Training neural net (pass 766)
+Training neural net (pass 767)
+Training neural net (pass 768)
+Training neural net (pass 769)
+Training neural net (pass 770)
+Training neural net (pass 771)
+Training neural net (pass 772)
+Training neural net (pass 773)
+Training neural net (pass 774)
+Training neural net (pass 775)
+Training neural net (pass 776)
+Training neural net (pass 777)
+Training neural net (pass 778)
+Training neural net (pass 779)
+Training neural net (pass 780)
+Training neural net (pass 781)
+Training neural net (pass 782)
+Training neural net (pass 783)
+Training neural net (pass 784)
+Training neural net (pass 785)
+Training neural net (pass 786)
+Training neural net (pass 787)
+Training neural net (pass 788)
+Training neural net (pass 789)
+Training neural net (pass 790)
+Training neural net (pass 791)
+Training neural net (pass 792)
+Training neural net (pass 793)
+Training neural net (pass 794)
+Training neural net (pass 795)
+Training neural net (pass 796)
+Training neural net (pass 797)
+Training neural net (pass 798)
+Training neural net (pass 799)
+Training neural net (pass 800)
+Training neural net (pass 801)
+Training neural net (pass 802)
+Training neural net (pass 803)
+Training neural net (pass 804)
+Training neural net (pass 805)
+Training neural net (pass 806)
+Training neural net (pass 807)
+Training neural net (pass 808)
+Training neural net (pass 809)
+Training neural net (pass 810)
+Training neural net (pass 811)
+Training neural net (pass 812)
+Training neural net (pass 813)
+Training neural net (pass 814)
+Training neural net (pass 815)
+Training neural net (pass 816)
+Training neural net (pass 817)
+Training neural net (pass 818)
+Training neural net (pass 819)
+Training neural net (pass 820)
+Training neural net (pass 821)
+Training neural net (pass 822)
+Training neural net (pass 823)
+Training neural net (pass 824)
+Training neural net (pass 825)
+Training neural net (pass 826)
+Training neural net (pass 827)
+Training neural net (pass 828)
+Training neural net (pass 829)
+Training neural net (pass 830)
+Training neural net (pass 831)
+Training neural net (pass 832)
+Training neural net (pass 833)
+Training neural net (pass 834)
+Training neural net (pass 835)
+Training neural net (pass 836)
+Training neural net (pass 837)
+Training neural net (pass 838)
+Training neural net (pass 839)
+Training neural net (pass 840)
+Training neural net (pass 841)
+Training neural net (pass 842)
+Training neural net (pass 843)
+Training neural net (pass 844)
+Training neural net (pass 845)
+Training neural net (pass 846)
+Training neural net (pass 847)
+Training neural net (pass 848)
+Training neural net (pass 849)
+Training neural net (pass 850)
+Training neural net (pass 851)
+Training neural net (pass 852)
+Training neural net (pass 853)
+Training neural net (pass 854)
+Training neural net (pass 855)
+Training neural net (pass 856)
+Training neural net (pass 857)
+Training neural net (pass 858)
+Training neural net (pass 859)
+Training neural net (pass 860)
+Training neural net (pass 861)
+Training neural net (pass 862)
+Training neural net (pass 863)
+Training neural net (pass 864)
+Training neural net (pass 865)
+Training neural net (pass 866)
+Training neural net (pass 867)
+Training neural net (pass 868)
+Training neural net (pass 869)
+Training neural net (pass 870)
+Training neural net (pass 871)
+Training neural net (pass 872)
+Training neural net (pass 873)
+Training neural net (pass 874)
+Training neural net (pass 875)
+Training neural net (pass 876)
+Training neural net (pass 877)
+Training neural net (pass 878)
+Training neural net (pass 879)
+Training neural net (pass 880)
+Training neural net (pass 881)
+Training neural net (pass 882)
+Training neural net (pass 883)
+Training neural net (pass 884)
+Training neural net (pass 885)
+Training neural net (pass 886)
+Training neural net (pass 887)
+Training neural net (pass 888)
+Training neural net (pass 889)
+Training neural net (pass 890)
+Training neural net (pass 891)
+Training neural net (pass 892)
+Training neural net (pass 893)
+Training neural net (pass 894)
+Training neural net (pass 895)
+Training neural net (pass 896)
+Training neural net (pass 897)
+Training neural net (pass 898)
+Training neural net (pass 899)
+Training neural net (pass 900)
+Training neural net (pass 901)
+Training neural net (pass 902)
+Training neural net (pass 903)
+Training neural net (pass 904)
+Training neural net (pass 905)
+Training neural net (pass 906)
+Training neural net (pass 907)
+Training neural net (pass 908)
+Training neural net (pass 909)
+Training neural net (pass 910)
+Training neural net (pass 911)
+Training neural net (pass 912)
+Training neural net (pass 913)
+Training neural net (pass 914)
+Training neural net (pass 915)
+Training neural net (pass 916)
+Training neural net (pass 917)
+Training neural net (pass 918)
+Training neural net (pass 919)
+Training neural net (pass 920)
+Training neural net (pass 921)
+Training neural net (pass 922)
+Training neural net (pass 923)
+Training neural net (pass 924)
+Training neural net (pass 925)
+Training neural net (pass 926)
+Training neural net (pass 927)
+Training neural net (pass 928)
+Training neural net (pass 929)
+Training neural net (pass 930)
+Training neural net (pass 931)
+Training neural net (pass 932)
+Training neural net (pass 933)
+Training neural net (pass 934)
+Training neural net (pass 935)
+Training neural net (pass 936)
+Training neural net (pass 937)
+Training neural net (pass 938)
+Training neural net (pass 939)
+Getting average posterior for purposes of adjusting the priors.
+Re-adjusting priors based on computed posteriors
+Done
+Cleaning up data
+steps/nnet2/remove_egs.sh: Finished deleting examples in exp/nnet5c/egs
+Removing most of the models
+steps/nnet2/decode.sh --cmd run.pl --nj 10 --transform-dir exp/tri4a/decode_4g exp/tri4a/graph_4g data/test exp/nnet5c/decode_4g_test
+steps/nnet2/decode.sh: feature type is lda
+steps/nnet2/decode.sh: using transforms from exp/tri4a/decode_4g
+steps/nnet2/decode.sh: expected exp/tri4a/decode_4g/num_jobs to contain the number of jobs.
+Job finished at Wed Aug  6 23:55:06 CEST 2025
