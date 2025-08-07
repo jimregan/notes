@@ -18,3 +18,17 @@ steps/online/nnet2/train_diag_ubm.sh: 10 machines, parallelized with 'run.pl'
 steps/online/nnet2/train_diag_ubm.sh: Training pass 0
 steps/online/nnet2/train_diag_ubm.sh: Training pass 1
 steps/online/nnet2/train_diag_ubm.sh: Training pass 2
+steps/online/nnet2/train_diag_ubm.sh: Training pass 3
+local/chain/run_ivector_common.sh: training the iVector extractor
+steps/online/nnet2/train_ivector_extractor.sh --cmd run.pl --nj 2 --ivector-dim 40 data/train exp/chain/diag_ubm exp/chain/extractor
+steps/online/nnet2/train_ivector_extractor.sh: doing Gaussian selection and posterior computation
+Accumulating stats (pass 0)
+Summing accs (pass 0)
+Updating model (pass 0)
+Accumulating stats (pass 1)
+Summing accs (pass 1)
+Updating model (pass 1)
+Accumulating stats (pass 2)
+Summing accs (pass 2)
+Updating model (pass 2)
+Accumulating stats (pass 3)
