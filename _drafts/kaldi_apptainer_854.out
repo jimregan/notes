@@ -1,0 +1,7 @@
+Job started on deepspeech at Fri Aug  8 11:01:35 CEST 2025
+Using GPU(s): 0
+Usage:
+  apptainer [global options...] exec [exec options...] <container> <command>
+
+Run 'apptainer --help' for more detailed usage information.
+Job finished at Fri Aug  8 11:01:35 CEST 2025

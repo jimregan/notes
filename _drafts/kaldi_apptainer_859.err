@@ -1,0 +1,2 @@
+/var/spool/slurmd/job00859/slurm_script: line 12: module: command not found
+mkdir: cannot create directory '/opt/kaldi/egs/sprakbanken_swe/s5/mfcc_vosk': Read-only file system

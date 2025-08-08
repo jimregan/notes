@@ -1,0 +1,6 @@
+Job started on deepspeech at Fri Aug  8 11:02:14 CEST 2025
+Using GPU(s): 0
+utils/copy_data_dir.sh: copied data from data/train to data/train_hires
+utils/validate_data_dir.sh: text contains 222802 lines with non-printable characters
+steps/make_mfcc.sh --cmd run.pl --nj 10 --mfcc-config conf/mfcc_hires.conf data/train_hires exp/make_mfcc/train_hires mfcc_hires
+Job finished at Fri Aug  8 11:02:22 CEST 2025

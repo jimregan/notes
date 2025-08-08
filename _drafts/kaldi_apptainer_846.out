@@ -1,0 +1,28 @@
+Job started on deepspeech at Thu Aug  7 17:14:14 CEST 2025
+Using GPU(s): 0
+local/chain/run_tdnn.sh --train-set train --gmm tri4a
+local/chain/run_tdnn.sh: creating lang directory data/lang_chain with chain-type topology
+steps/align_fmllr_lats.sh --nj 20 --cmd run.pl data/train data/lang exp/tri4a exp/chain/tri4a_train_lats
+steps/align_fmllr_lats.sh: feature type is lda
+steps/align_fmllr_lats.sh: compiling training graphs
+steps/align_fmllr_lats.sh: aligning data in data/train using exp/tri4a/final.alimdl and speaker-independent features.
+steps/align_fmllr_lats.sh: computing fMLLR transforms
+steps/align_fmllr_lats.sh: generating lattices containing alternate pronunciations.
+steps/align_fmllr_lats.sh: done generating lattices from training transcripts.
+199 warnings in exp/chain/tri4a_train_lats/log/generate_lattices.*.log
+2343 warnings in exp/chain/tri4a_train_lats/log/align_pass1.*.log
+325 warnings in exp/chain/tri4a_train_lats/log/fmllr.*.log
+steps/nnet3/chain/build_tree.sh --frame-subsampling-factor 3 --context-opts --context-width=2 --central-position=1 --cmd run.pl 2500 data/train data/lang_chain exp/tri4a_ali exp/chain/tree
+steps/nnet3/chain/build_tree.sh: feature type is lda
+steps/nnet3/chain/build_tree.sh: Using transforms from exp/tri4a_ali
+steps/nnet3/chain/build_tree.sh: Initializing monophone model (for alignment conversion, in case topology changed)
+steps/nnet3/chain/build_tree.sh: Accumulating tree stats
+steps/nnet3/chain/build_tree.sh: Getting questions for tree clustering.
+steps/nnet3/chain/build_tree.sh: Building the tree
+steps/nnet3/chain/build_tree.sh: Initializing the model
+WARNING (gmm-init-model[5.5.0~1-4b2b]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 15 with no stats; corresponding phone list: 155 156 157 158 159 160 161 162 
+This is a bad warning.
+steps/nnet3/chain/build_tree.sh: Converting alignments from exp/tri4a_ali to use current tree
+steps/nnet3/chain/build_tree.sh: Done building tree
+local/chain/run_tdnn.sh: creating neural net configs using the xconfig parser
+Job finished at Thu Aug  7 18:39:56 CEST 2025

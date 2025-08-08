@@ -1,0 +1,4 @@
+Job started on deepspeech at Thu Aug  7 19:16:49 CEST 2025
+Using GPU(s): 0
+local/chain/run_tdnn.sh --train-set train --gmm tri4a
+Job finished at Thu Aug  7 19:16:49 CEST 2025

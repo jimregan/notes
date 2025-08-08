@@ -1,0 +1,2 @@
+/var/spool/slurmd/job00849/slurm_script: line 12: module: command not found
+local/chain/run_tdnn.sh: line 137: get_egs_cmd: unbound variable
