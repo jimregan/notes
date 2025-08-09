@@ -304,11 +304,14 @@ https://github.com/google-research-datasets/cvss?tab=readme-ov-file
 2201.03713
 https://arxiv.org/pdf/2201.03713
 
+2201.03713
+https://arxiv.org/pdf/2201.03713
+
 facebookresearch/covost: CoVoST: A Large-Scale Multilingual Speech-To-Text Translation Corpus (CC0 Licensed)
 https://github.com/facebookresearch/covost
 
-vosk prepare model - Google Search
-https://www.google.com/search?q=vosk+prepare+model&rlz=1C5GCCM_en&oq=vosk+prepare+model&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBTIHCAMQIRiPAtIBCDY2MjhqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+Kaldi script modernization
+https://chatgpt.com/c/68855176-2eb0-8323-9726-6594466dceee
 
 vosk-build-model/LICENSE at master · matteo-convertino/vosk-build-model
 https://github.com/matteo-convertino/vosk-build-model/blob/master/LICENSE
@@ -334,6 +337,9 @@ https://openslr.trmal.net/99/
 (1) Instagram
 https://www.instagram.com/
 
+(1) Instagram
+https://www.instagram.com/
+
 This one-minute workout could transform your health | National Geographic
 https://www.nationalgeographic.com/health/article/health-benefits-of-sprint-training?cmpid=org%3Dngp%3A%3Amc%3Dsocial%3A%3Asrc%3Dinstagram%3A%3Acmp%3Deditorial%3A%3Aadd%3Digs20250804health-healthbenefitsofsprinttrainingpremiumhedcard&fbclid=PAZXh0bgNhZW0CMTEAAadeYzI0Wck6S_80Xe0ZjHA8edIapCpumsbpgAzuv7bMMUA0CgRx6om96XLG9w_aem_8DSQRy7BZ9sqsqt0G1az_w
 
@@ -355,8 +361,8 @@ https://huggingface.co/datasets/kth-tmh/nst/tree/main
 NST Swedish ASR Database (16 kHz) - reorganized - Språkbanken
 https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/
 
-jimregan/kaldi-sprakbanken_swe at original-egs-try3
-https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/original-egs-try3/exp
+jimregan/kaldi-sprakbanken_swe · Hugging Face
+https://huggingface.co/jimregan/kaldi-sprakbanken_swe
 
 Cymru-Breizh-Agile-Cymru-Project/vosk-cymraeg: Code to train Welsh Vosk models
 https://github.com/Cymru-Breizh-Agile-Cymru-Project/vosk-cymraeg?tab=readme-ov-file
@@ -373,11 +379,14 @@ https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation/int
 kaldi/egs/wsj/s5/local/wsj_format_local_lms.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/local/wsj_format_local_lms.sh
 
-kaldi/egs/librispeech/s5/local/prepare_example_data.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/prepare_example_data.sh
+kaldi/egs/librispeech/s5/local/chain/compare_wer.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/chain/compare_wer.sh
 
-kaldi/egs/wsj/s5/steps/decode.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/decode.sh
+kaldi/egs/sprakbanken_swe/s5/run.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/run.sh
+
+kaldi/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh
 
 Model adaptation for VOSK
 https://alphacephei.com/vosk/adaptation
@@ -496,17 +505,23 @@ https://arxiv.org/abs/2505.17088
 [2412.06264] Flow Matching Guide and Code
 https://arxiv.org/abs/2412.06264
 
+2412.06264
+https://arxiv.org/pdf/2412.06264
+
 dwieście - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/dwie%C5%9Bcie#Polish
+
+Słownik polszczyzny XVI wieku - dwieście
+https://spxvi.edu.pl/indeks/haslo/50208/
 
 sześćset - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/sze%C5%9B%C4%87set#Polish
 
-trzy - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/trzy#Polish
+dwadzieścia - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/dwadzie%C5%9Bcia#Old_Polish
 
-pięć - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/pi%C4%99%C4%87#Polish
+pięć – Wikisłownik, wolny słownik wielojęzyczny
+https://pl.wiktionary.org/wiki/pi%C4%99%C4%87
 
 dziewiętnaście - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/dziewi%C4%99tna%C5%9Bcie#Polish
@@ -525,9 +540,6 @@ https://klinwords.pl/jak-zapisywac-daty/
 
 Diabolus Ex Machina - by Amanda Guinzburg
 https://amandaguinzburg.substack.com/p/diabolus-ex-machina
-
-ChatGPT
-https://chatgpt.com/
 
 Worth Dying For (novel) - Wikipedia
 https://en.wikipedia.org/wiki/Worth_Dying_For_(novel)
@@ -568,26 +580,8 @@ https://www.google.com/search?q=czterdziestocztero&rlz=1C5GCCM_en&oq=czterdziest
 dwadzieścia - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/dwadzie%C5%9Bcia#Polish
 
-(1) Instagram
-https://www.instagram.com/
-
-normalizing flows - Google Search
-https://www.google.com/search?q=normalizing+flows&rlz=1C5GCCM_en&oq=normalizing+flows&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMyNDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-CBT - Text extraction and summary
-https://chatgpt.com/c/6835d4f2-951c-8011-a08c-93d125e9c05e
-
-shivammehta25 (shivammehta25) / Repositories
-https://github.com/shivammehta25?tab=repositories
-
-shivammehta25/Diff-TTSG: Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis
-https://github.com/shivammehta25/Diff-TTSG
-
-shivammehta25/Neural-HMM: Neural HMMs are all you need (for high-quality attention-free TTS)
-https://github.com/shivammehta25/Neural-HMM
-
 shivammehta25/Match-TTSG
-https://github.com/shivammehta25/Match-TTSG?tab=readme-ov-file
+https://github.com/shivammehta25/Match-TTSG
 
 DiffEqML/torchdyn: A PyTorch library entirely dedicated to neural differential equations, implicit models and related numerical methods
 https://github.com/DiffEqML/torchdyn?tab=readme-ov-file
@@ -601,43 +595,130 @@ https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS
 Hugging Face – The AI community building the future.
 https://huggingface.co/
 
-openai/gpt-oss-20b · Hugging Face
-https://huggingface.co/openai/gpt-oss-20b
-
-Models - Hugging Face
-https://huggingface.co/models?other=base_model:quantized:openai/gpt-oss-20b
-
-unsloth/gpt-oss-20b-GGUF · Hugging Face
-https://huggingface.co/unsloth/gpt-oss-20b-GGUF
-
-ggml-org/gpt-oss-20b-GGUF · Hugging Face
-https://huggingface.co/ggml-org/gpt-oss-20b-GGUF
-
-Models - Hugging Face
-https://huggingface.co/models?apps=vllm,llama.cpp&other=base_model:finetune:openai%2Fgpt-oss-20b&sort=trending
-
-VizuaraAI/gpt-oss-20b-multilingual-reasoner · Hugging Face
-https://huggingface.co/VizuaraAI/gpt-oss-20b-multilingual-reasoner
+Qwen/Qwen-Image · Hugging Face
+https://huggingface.co/Qwen/Qwen-Image
 
 unsloth/gpt-oss-20b-BF16 · Hugging Face
 https://huggingface.co/unsloth/gpt-oss-20b-BF16
 
-Differential equation - Wikipedia
-https://en.wikipedia.org/wiki/Differential_equation
-
-Stochastic - Wikipedia
-https://en.wikipedia.org/wiki/Stochastic
-
 finetune-whisper-lora/eval_lora.py at main · fengredrum/finetune-whisper-lora
 https://github.com/fengredrum/finetune-whisper-lora/blob/main/eval_lora.py
 
-2210.02747
-https://arxiv.org/pdf/2210.02747
+IRSvideosASL - YouTube
+https://www.youtube.com/@IRSvideosASL
 
-[2011.13456] Score-Based Generative Modeling through Stochastic Differential Equations
-https://arxiv.org/abs/2011.13456
+humansensinglab/MotionGPT
+https://github.com/humansensinglab/MotionGPT
 
-KTH | Arvind Kumar
-https://www.kth.se/profile/arvindku
+MotionGPT - a Hugging Face Space by OpenMotionLab
+https://huggingface.co/spaces/OpenMotionLab/MotionGPT
+
+karahansahin/sign2vec-base-linear-zero-mean · Hugging Face
+https://huggingface.co/karahansahin/sign2vec-base-linear-zero-mean
+
+A Wanted Man - Wikipedia
+https://en.wikipedia.org/wiki/A_Wanted_Man
+
+kaldi/egs/wsj/s5/utils/validate_data_dir.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/validate_data_dir.sh
+
+kaldi/egs/wsj/s5/utils/validate_data_dir.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/validate_data_dir.sh
+
+kaldi/egs/wsj/s5/steps/online/nnet2/extract_ivectors_online.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/online/nnet2/extract_ivectors_online.sh
+
+kaldi/egs/wsj/s5/utils/data/modify_speaker_info.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/data/modify_speaker_info.sh
+
+kaldi/egs/wsj/s5/utils/validate_data_dir.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/validate_data_dir.sh
+
+New Tab
+chrome://newtab/
+
+Non-printable characters issue
+https://chatgpt.com/c/6894b700-30b8-8322-ab64-d01242529685
+
+Moving a file in your repository to Git Large File Storage - GitHub Docs
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/moving-a-file-in-your-repository-to-git-large-file-storage
+
+Calendar - Aptusportal
+https://sssb.aptustotal.se/AptusPortal/CustomerBooking/BookingCalendar?bookingGroupId=165&passDate=2025-08-10
+
+git lfs migrate import - Google Search
+https://www.google.com/search?q=git+lfs+migrate+import&rlz=1C5GCCM_en&oq=git+lfs+migrate+&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOzIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM1ODFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+vosk-api/training at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/tree/master/training
+
+vosk-api/training/cmd.sh at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/training/cmd.sh
+
+Kaldi script modernization
+https://chatgpt.com/c/68855176-2eb0-8323-9726-6594466dceee
+
+vosk-api/training/run.sh at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/training/run.sh
+
+kaldi/egs/vystadial_cz/s5b/run.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/vystadial_cz/s5b/run.sh
+
+kaldi/egs/sprakbanken/s5/local/dict_prep.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken/s5/local/dict_prep.sh
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+New Tab
+chrome://newtab/
+
+Never Go Back (novel) - Wikipedia
+https://en.wikipedia.org/wiki/Never_Go_Back_(novel)
+
+(1) Instagram
+https://www.instagram.com/
+
+(1) Instagram
+https://www.instagram.com/p/DNF6ZyoCPEt/
+
+Kaldi script modernization
+https://chatgpt.com/c/68855176-2eb0-8323-9726-6594466dceee
+
+Hillbilly - Wikipedia
+https://en.wikipedia.org/wiki/Hillbilly
+
+ulica - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/ulica
+
+egs/wsj/s5/steps/decode_nnet_cpu.sh · e7a7e25f5cf38f150bb646d84492f635dc4bc1f4 · Simon Will / kaldi-commonvoice · GitLab
+https://gitlab.cl.uni-heidelberg.de/will/kaldi-commonvoice/-/blob/e7a7e25f5cf38f150bb646d84492f635dc4bc1f4/egs/wsj/s5/steps/decode_nnet_cpu.sh
+
+kaldi/egs/wsj/s5/steps/nnet2/decode.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/nnet2/decode.sh
+
+collegial - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/collegial
+
+No Way Back (1995 film) - Wikipedia
+https://en.wikipedia.org/wiki/No_Way_Back_(1995_film)
+
+Gun and hunting licenses
+https://chatgpt.com/c/68975255-26e4-832b-94a5-3ce2a28a0d31
+
+hundreds and thousands - Google Search
+https://www.google.com/search?sca_esv=261d4272bff7f900&rlz=1C5GCCM_en&sxsrf=AE3TifPXtlyxSfpkVe7jUHWOYDTFNzjhMw:1754748649765&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeiAkWG4OlBE2zyCTMjPbGmNCKrdA9QMJUhG7_6Wd4Y3SemuNcKhh8C4NRVF0c5beQnM4TN3bh3WIGHYJ2u9fHLgU0Z1HJPwp7tdg3lyJq_aoiYoHTvafDfV-ToHGD6mzaxd44jM8ajI-fa7HGgy_HSOz4X40&q=hundreds+and+thousands&sa=X&ved=2ahUKEwiJ0cGP9P2OAxVeFRAIHTt3Hu0QtKgLegQIEhAB&biw=1440&bih=717&dpr=2#vhid=daB6_HVGcXwKZM&vssid=mosaic
+
+99 cone - Google Search
+https://www.google.com/search?q=99+cone&rlz=1C5GCCM_en&oq=99+cone&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDEwODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=-svtaJM6g2QG_M&vssid=_rFeXaKfaFPaE1fIP47Km6Ak_41
+
+Aaac - Google Drive
+https://drive.google.com/drive/u/0/folders/1srbnc5D3Wq_xkr5rLmAplTwjWlQmd6xt
+
+New Tab
+chrome://newtab/
+
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/
 
 
