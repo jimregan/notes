@@ -1339,3 +1339,6 @@ mount|grep sbt
 w
 last
 last|head
+docker ps
+docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1" molmo
+docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1,2,3" molmo
