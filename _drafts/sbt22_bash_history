@@ -1,8 +1,3 @@
-tmux attach
-docker ps
-cd dockerfiles/e2-f5-tts/
-grep -i garbage ../groundinggpt/data/ggpt-output_*
-docker run -it --platform=linux/amd64 --gpus all  -v"$PWD/data:/data" e2-f5-tts
 docker run -it --platform=linux/amd64 --gpus all  -v"$PWD/data:/data" f5tts
 less Dockerfile
 tmux attach
@@ -1998,3 +1993,8 @@ less tdnn-run.sh
 less local/chain/run_tdnn.sh 
 less tdnn-run.sh 
 tmux attach
+less arctic.json 
+cat arctic.json |jq .
+cat arctic.json |jq .|less
+docker ps
+docker container attach 4f0af750b260
