@@ -1427,3 +1427,65 @@ ls
 cd ..
 ls orange
 docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+df
+conda env list
+conda activate hf_new
+python
+pip install -U datasets
+python
+huggingface-cli login
+git config --global credential.helper store
+huggingface-cli login
+python
+rm -rf ~/.cache/huggingface/
+df -h
+ls
+sudo mkdir /sbtal/rixvox2
+sudo chown joregan.joregan /sbtal/rixvox2
+sudo chown joregan:joregan /sbtal/rixvox2
+python
+rm -rf ~/.cache/huggingface/
+df
+export HF_DATASETS_CACHE="/sbtal/rixvox2/"
+python
+rm -rf ~/.cache/huggingface/
+huggingface-cli help download
+cd /sbtal/rixvox2/
+ls
+rm _sbtal_rixvox2_KBLab___rixvox-v2_default_0.0.0_1f5f37f5ec8740eae318eeae7bf190074454d0d1.lock 
+rm -rf KBLab___rixvox-v2/
+#huggingface-cli download 
+python
+huggingface-cli download KBLab/rixvox-v2
+huggingface-cli login
+huggingface-cli download --help
+huggingface-cli download --help|less
+huggingface-cli download --repo-type dataset KBLab/rixvox-v2
+ls
+mkdir cache
+huggingface-cli download --repo-type dataset KBLab/rixvox-v2 --cache-dir ./cache
+df -h
+ls
+ls cache/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/
+ls ~/riksantikvarieambetet-video-raw/
+ls ~/riksantikvarieambetet-video-raw/*json
+ls ~/riksantikvarieambetet-video-raw/*json|grep -v info
+less /home/joregan/riksantikvarieambetet-video-raw/MIPfMUR_U8Q.json
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json|wc
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json|grep -v 'info'|wc
+ls /home/joregan/riksantikvarieambetet-video-raw/*.mp4|wc
+python
+ps aux|grep python
+kill -9 1941320
+python
+find cache -type f|grep -v parquet
+find cache -type f|grep -v parquet|grep -v 'lock$'
+find cache -type f|grep -v parquet|grep -v 'lock$'|grep -v '/blobs/'
+find cache -name '*.parguet'
+find cache -name '*.parquet'
+python
+ls
