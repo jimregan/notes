@@ -1343,3 +1343,65 @@ docker ps
 docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1" molmo
 docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1,2,3" molmo
 docker container attach b29da9e5aad3
+pip install openai
+find  rs_results/ -name "*png"
+find  rs_results/ -name "*png"|wc
+find  $PWD/rs_results/ -name "*png"|wc
+echo  $PWD/rs_results/ 
+echo  $PWD/rs_results/images/overlay/
+mkdir oaicall
+cd oaicall/
+less success_rows_meta-exact-single-without-history-348.csv 
+ls
+python ScriptScenGraph.py 
+pip install PIL
+pip install pil
+pip install pillow
+python ScriptScenGraph.py 
+ls /home/joregan/rs_results/images/color/
+python ScriptScenGraph.py 
+ls /home/joregan/rs_results/images/color/
+find ~/rs_results/ -name 'hsi_6*.png'
+python ScriptScenGraph.py 
+ls
+wc -l success_rows_meta-exact-single-without-history-348.csv 
+ls output_annotated/|cw
+ls output_annotated/|wc
+ls scene_graphs/
+ls scene_graphs/|wc
+ls
+less success_rows_meta-exact-single-without-history-348.csv 
+wc -l success_rows_meta-exact-single-without-history-348.csv 
+ls
+mkdir 1
+cp ScriptScenGraph.py 1/
+mv scene_graphs/ 1/
+mv output_annotated/ 1/
+ls
+vi ScriptScenGraph.py 
+python ScriptScenGraph.py 
+lsls
+ls
+ls scene_graphs/|wc
+mkdir 2
+mv output_annotated/ 2/
+mv scene_graphs/ 2/
+cp ScriptScenGraph.py 2/
+python ScriptScenGraph.py 
+ls output_annotated/|wc
+ls 
+mkdir 3
+mv output_annotated/ 3
+mv scene_graphs/ 3
+cp ScriptScenGraph.py 3/
+ls
+python ScriptScenGraph.py 
+ls
+rm -rf output_annotated/
+rm -rf scene_graphs/
+python ScriptScenGraph.py 
+ls
+ls 1|wc
+ls 1/output_annotated/|wc
+ls 2/output_annotated/|wc
+ls 3/output_annotated/|wc
