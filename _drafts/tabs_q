@@ -334,9 +334,6 @@ https://github.com/alphacep/vosk-api/blob/master/training/run.sh
 openslr.org
 https://openslr.trmal.net/99/
 
-(2) Instagram
-https://www.instagram.com/
-
 This one-minute workout could transform your health | National Geographic
 https://www.nationalgeographic.com/health/article/health-benefits-of-sprint-training?cmpid=org%3Dngp%3A%3Amc%3Dsocial%3A%3Asrc%3Dinstagram%3A%3Acmp%3Deditorial%3A%3Aadd%3Digs20250804health-healthbenefitsofsprinttrainingpremiumhedcard&fbclid=PAZXh0bgNhZW0CMTEAAadeYzI0Wck6S_80Xe0ZjHA8edIapCpumsbpgAzuv7bMMUA0CgRx6om96XLG9w_aem_8DSQRy7BZ9sqsqt0G1az_w
 
@@ -382,14 +379,20 @@ https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5/steps/segmentation/int
 kaldi/egs/wsj/s5/local/wsj_format_local_lms.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/local/wsj_format_local_lms.sh
 
-kaldi/egs/librispeech/s5/local/chain/compare_wer.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/chain/compare_wer.sh
+kaldi/egs/sprakbanken_swe/s5/local/data_prep.py at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/data_prep.py
+
+[egs] sprakbanken recipe: add nnet3 examples. · kaldi-asr/kaldi@bcc71b6
+https://github.com/kaldi-asr/kaldi/commit/bcc71b67d489a1766922c9caf2a54306755f1861#diff-5699f2142da47b04774aed770fdc8240ce33d56ef5c38a83bbd8969e0555202a
+
+kaldi/egs/sprakbanken/s5/run.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken/s5/run.sh
 
 kaldi/egs/sprakbanken_swe/s5/run.sh at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/run.sh
 
-kaldi/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/sprak_run_5c.sh
+kaldi/egs/sprakbanken_swe/s5/local/create_datasets.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/sprakbanken_swe/s5/local/create_datasets.sh
 
 Model adaptation for VOSK
 https://alphacephei.com/vosk/adaptation
@@ -403,8 +406,8 @@ https://github.com/alphacep/vosk-api/blob/master/python/example/colab/vosk-train
 Vosk Training - Colab
 https://colab.research.google.com/github/alphacep/vosk-api/blob/master/python/example/colab/vosk-training.ipynb#scrollTo=OfUtX42VZ1zl
 
-vosk-api/training/local/chain/run_tdnn.sh at master · alphacep/vosk-api
-https://github.com/alphacep/vosk-api/blob/master/training/local/chain/run_tdnn.sh
+vosk-api/training/local/prepare_dict.sh at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/training/local/prepare_dict.sh
 
 kaldi/egs/timit/s5/local at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/tree/master/egs/timit/s5/local
@@ -556,7 +559,7 @@ https://www.google.com/search?q=most+van+12+%C3%B3ra+30&rlz=1C5GCCM_en&oq=most+v
 Órák, percek - Kispesti Vass Lajos Általános Iskola
 https://vassl.hu/?f0=Orak__percek
 
-(2) Inbox • Direct
+Inbox • Direct
 https://www.instagram.com/direct/t/17845647458552890/
 
 "20-stego" - Google Search
@@ -679,58 +682,52 @@ chrome://newtab/
 Never Go Back (novel) - Wikipedia
 https://en.wikipedia.org/wiki/Never_Go_Back_(novel)
 
-(2) Instagram
+Instagram
 https://www.instagram.com/
 
-(2) Instagram
+Instagram
 https://www.instagram.com/p/DNF6ZyoCPEt/
 
 Kaldi script modernization
 https://chatgpt.com/c/68855176-2eb0-8323-9726-6594466dceee
 
-kaldi/egs/wsj/s5/steps/nnet2/decode.sh at master · kaldi-asr/kaldi
-https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/nnet2/decode.sh
+kaldi/egs/wsj/s5/steps/cleanup/make_biased_lm_graphs.sh at master · kaldi-asr/kaldi
+https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/cleanup/make_biased_lm_graphs.sh
 
-Gun and hunting licenses
-https://chatgpt.com/c/68975255-26e4-832b-94a5-3ce2a28a0d31
+Speech and Language Processing
+https://web.stanford.edu/~jurafsky/slp3/
 
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
+12.pdf
+https://web.stanford.edu/~jurafsky/slp3/12.pdf
 
-YouTube
-https://www.youtube.com/
+5.pdf
+https://web.stanford.edu/~jurafsky/slp3/5.pdf
 
-Can I Play This IMPOSSIBLE Guitar Riff on BASS? - YouTube
-https://www.youtube.com/watch?v=HR0CdYoKtDc
+6.pdf
+https://web.stanford.edu/~jurafsky/slp3/6.pdf
 
-Klaudia Sobotka - YouTube
-https://www.youtube.com/@Klaudia.Sobotka/shorts
+9.pdf
+https://web.stanford.edu/~jurafsky/slp3/9.pdf
 
-(2) Instagram
-https://www.instagram.com/klaudiasobotka/
+16.pdf
+https://web.stanford.edu/~jurafsky/slp3/16.pdf
 
-mijać - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/mija%C4%87#Polish
+A.pdf
+https://web.stanford.edu/~jurafsky/slp3/A.pdf
 
-Aaa - Google Drive
-https://drive.google.com/drive/u/0/folders/1q2CGIniYAY8skB-40aTEyHYkCrPim34p
+G.pdf
+https://web.stanford.edu/~jurafsky/slp3/G.pdf
 
-Arya Stark Kills the First Name on Her List | Jon Rivers - YouTube
-https://www.youtube.com/shorts/LITjPPSnMAE
+Phoneme recognition check
+https://chatgpt.com/c/6898bb44-cdd0-8327-8a31-013982ce814d
 
-Yngwie J. Malmsteen - Black Star (720p) - YouTube
-https://www.youtube.com/watch?v=PTjSKmvzj5o&list=RDPTjSKmvzj5o&start_radio=1
+Wednesday (TV series) - Wikipedia
+https://en.wikipedia.org/wiki/Wednesday_(TV_series)
 
-The Most OVERRATED Guitarist - YouTube
-https://www.youtube.com/watch?v=aEWYiO9rIuQ
+Dream Weaver - Wikipedia
+https://en.wikipedia.org/wiki/Dream_Weaver
 
-Learn The MODES With Iconic METAL Songs! (All You Need To Know) - YouTube
-https://www.youtube.com/watch?v=ub5yJGOtLlE
-
-Therapy? - Reading 1994 (Medley: Meat Abstract / Neck Freak / Teethgrinder) - YouTube
-https://www.youtube.com/watch?v=h7KJ8iY1VYk&list=RDh7KJ8iY1VYk&start_radio=1
-
-I Changed the Way I Punch - YouTube
-https://www.youtube.com/watch?v=m3zkC4bnZtM
+Instagram
+https://www.instagram.com/
 
 
