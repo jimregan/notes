@@ -1,18 +1,3 @@
-docker run -it --platform=linux/amd64 --gpus all  -v"$PWD/data:/data" f5tts
-less Dockerfile
-tmux attach
-ls wolnelektury-speech-corpus/
-cd wolnelektury-speech-corpus/
-ls *json
-find . -name '*.srt'
-ls *json
-ls ./*.json
-ls *srt
-less zrebiec-i-kon-stary_000.mp3.srt 
-conda env list
-conda activate whisperx
-whisperx 
-ls audio
 less audio/wydro-sobotka_001.json 
 less audio/arystoteles-poetyka_015_rozdzial-15.json 
 cat audio/arystoteles-poetyka_015_rozdzial-15.json |jq .
@@ -1998,3 +1983,18 @@ cat arctic.json |jq .
 cat arctic.json |jq .|less
 docker ps
 docker container attach 4f0af750b260
+cd hsi
+ls
+ls audio
+cd ..
+find . -name '*prange*'
+find . -name '*orange*'
+ls orange-list 
+less orange-list 
+find . -name '*orange*'
+ls
+cd dockerfiles/
+docker image list
+docker tag whisperx:v1 jimregan/whisperx:v1
+docker login
+docker push jimregan/whisperx:v1
