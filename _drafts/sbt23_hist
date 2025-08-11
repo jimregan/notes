@@ -1282,3 +1282,60 @@ cat Dockerfile
 git diff
 git add Dockerfile 
 git commit -m 'downgrade librosa'
+docker container list
+docker prune
+docker container prune
+docker container list
+docker image list
+docker image rm e059e8611c01
+docker image rm 2c6f3d2874e9 
+docker image rm 92a98f2dfdf9
+docker image rm ee0ed65f8470
+docker image list
+docker image rm 203bb53a4896
+docker image rm 58b38b4f9635
+docker image rm f95474417ab2
+docker image rm dd1198842a7e
+docker image rm 0ba8970cd7f1
+docker image rm 4e871c63389c
+grep mocapsmplx ~/.bash_history 
+less ~/.bash_history 
+cd dockerfiles/
+git diff
+git add hitachi-eend/Dockerfile 
+git commit -m update
+cat hitachi-eend/Dockerfile 
+ls mocapsmplx/
+ls mocapsmplx/data/
+tmux attach
+docker container list
+ls *.json
+tail -f phonrec-rv.json 
+less phonrec-rv.json 
+tmux attach
+echo ./*.json
+ls -al phonrec-rv.json 
+wc -l phonrec-rv.json 
+df
+df -h
+docker image list
+less phonrec-rv.json 
+less .bash_history 
+w
+cd dockerfiles/
+git status
+git log
+ls
+ls groundinggpt/
+less groundinggpt/test_ref_gen.py 
+ls
+ls groundinggpt/
+git branch -a
+git push origin eend 
+docker image list
+ls groundinggpt/
+mount
+mount|grep sbt
+w
+last
+last|head
