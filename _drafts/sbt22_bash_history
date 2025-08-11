@@ -1,52 +1,3 @@
-less audio/wydro-sobotka_001.json 
-less audio/arystoteles-poetyka_015_rozdzial-15.json 
-cat audio/arystoteles-poetyka_015_rozdzial-15.json |jq .
-cat audio/arystoteles-poetyka_015_rozdzial-15.json |jq .|less
-git diff
-git brancj
-git branch
-git checkout main 
-git checkout -b hydra-cleaners
-tmux attach
-cd dockerfiles/
-ls
-cd groundinggpt/
-ls
-less test_ref_gen.py 
-ls data/ggpt-output_3.txt 
-less data/ggpt-output_3.txt 
-tmux attach
-curl --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-2424{/conll2017-test-runs.tgz}
-ls
-tar ztvf  conll2017-test-runs.tgz 
-cd /tmp/
-tar zxvf ~/conll2017-test-runs.tgz 
-ls
-tar ztvf ~/conll2017-test-runs.tgz 
-cd conll2017-test-runs-v3/
-ls
-find . -name '*ga*'
-less ./conll17-ud-test-2017-05-09/darc/2017-05-09-19-56-24/output/ga.conllu
-ls
-less README.txt 
-cd ..
-rm -rf conll2017-test-runs-v3/
-cd -
-cd 
-rm conll2017-test-runs.tgz 
-wget ./conll17-ud-test-2017-05-09/darc/2017-05-09-19-56-24/output/ga.conllu
-wget https://archive.org/compress/dialect_accent_0909_librivox/formats=64KBPS%20MP3&file=/dialect_accent_0909_librivox.zip
-wget 'https://archive.org/compress/dialect_accent_0909_librivox/formats=64KBPS%20MP3&file=/dialect_accent_0909_librivox.zip'
-unzip -l dialect
-unzip -l dialect_accent_0909_librivox.zip 
-wget https://archive.org/compress/celebration_dialects_accents_vol2_1312_librivox/formats=64KBPS%20MP3&file=/celebration_dialects_accents_vol2_1312_librivox.zip
-wget 'https://archive.org/compress/celebration_dialects_accents_vol2_1312_librivox/formats=64KBPS%20MP3&file=/celebration_dialects_accents_vol2_1312_librivox.zip'
-ls
-ls wiktionary_hu
-less wiktionary_hu/ponty.txt 
-less wiktionary_hu/ily.txt 
-ls
-ls dubliners/
 ls dubliners/v1/
 ls dubliners/v2/
 less dubliners/v2/dubliners2.txt 
@@ -1998,3 +1949,52 @@ docker image list
 docker tag whisperx:v1 jimregan/whisperx:v1
 docker login
 docker push jimregan/whisperx:v1
+cd passes/
+ls
+cd third-pass/
+git status
+git diff
+git add manual/2442204240010077721_31604200_4400.ctmedit
+cd ..
+git add manual/2442204240010077721_31604200_4400.ctmedit
+git commit -m fix
+git diff
+git status
+git add sixth-pass/paraphrases-checked/
+git commit -m paraphrases
+less sixth-pass/paraphrases-checked/2442204240010077721_1824.42_1825.279 
+ls
+ls sixth-pass/noisy/
+less sixth-pass/noisy/H9C120220120fs_0043_0001_0001_0001_0001_0001 
+less sixth-pass/noisy/H9C120220120fs_0038_0001_0001_0001_0001_0001 
+vi sixth-pass/noisy/H9C120220120fs_0038_0001_0001_0001_0001_0001 
+find sixth-pass/noisy/ -name 'H*'|xargs grep korona
+vi sixth-pass/noisy/H901UU4_0021_0001_0001_0001_0001_0001 
+vi sixth-pass/noisy/H801FiU26_0035_0001_0001_0001_0001_0001 
+vi sixth-pass/noisy/H810711_0001_0001_0001_0001_0001_0001
+git diff
+git status
+git status|grep modified
+git status|grep modified|awk '{print $2}'
+git status|grep modified|awk '{print $2}'|while read i;do git add $i;done
+git commit -m 'manual fixes, to be automated'
+find sixth-pass/noisy/ -name 'H*'|xargs grep korona
+pwd
+ls
+for i in /sbtal/riksdag-video/*.vtt;do grep 'Tack till' $i;done
+for i in /sbtal/riksdag-video/*.vtt;do grep 'Tack till' $i;done|less
+for i in /sbtal/riksdag-video/*.vtt;do echo $i; grep 'Tack till' $i;done|less
+for i in /sbtal/riksdag-video/*.vtt;do echo $i; grep 'Tack till' $i;done > /tmp/tack_till
+ls
+cd ..
+wget 'https://datashare.ed.ac.uk/bitstream/handle/10283/3443/VCTK-Corpus-0.92.zip?sequence=2&isAllowed=y' -O VCTK-Corpus-0.92.zip
+unzip -l VCTK-Corpus-0.92.zip 
+ls
+ls nst-dictation/
+less nst-dictation/txt/dsm_txt/sw_mod_111.txt 
+ls nst_swedish_tts
+less nst_swedish_tts/whisper-v3-aligned-to-sw_all.json 
+ls nst_swedish_tts/nst_swedish_tts.py 
+less nst_swedish_tts/nst_swedish_tts.py 
+less nst_swedish_tts/whisper-v3-aligned-to-sw_all.json 
+ls
