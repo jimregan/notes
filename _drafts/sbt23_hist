@@ -1405,3 +1405,6 @@ ls 1|wc
 ls 1/output_annotated/|wc
 ls 2/output_annotated/|wc
 ls 3/output_annotated/|wc
+nvidia-smi 
+nvidia-smi |less
+less ~/.python_history
