@@ -1408,3 +1408,22 @@ ls 3/output_annotated/|wc
 nvidia-smi 
 nvidia-smi |less
 less ~/.python_history
+cd orange/
+ls
+ls -al label_studio.sqlite3 
+ls export/
+l
+ls export/|less
+du -sh label_studio.sqlite3 
+ls test_data/
+ls test_data/export/
+ls media/
+ls media/export/
+ls media/upload/
+ls media/upload/1/
+ls
+find export/ media/ -type f|zip ../ls_2024.zip -@
+ls
+cd ..
+ls orange
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
