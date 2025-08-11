@@ -1,0 +1,2000 @@
+tmux attach
+docker ps
+cd dockerfiles/e2-f5-tts/
+grep -i garbage ../groundinggpt/data/ggpt-output_*
+docker run -it --platform=linux/amd64 --gpus all  -v"$PWD/data:/data" e2-f5-tts
+docker run -it --platform=linux/amd64 --gpus all  -v"$PWD/data:/data" f5tts
+less Dockerfile
+tmux attach
+ls wolnelektury-speech-corpus/
+cd wolnelektury-speech-corpus/
+ls *json
+find . -name '*.srt'
+ls *json
+ls ./*.json
+ls *srt
+less zrebiec-i-kon-stary_000.mp3.srt 
+conda env list
+conda activate whisperx
+whisperx 
+ls audio
+less audio/wydro-sobotka_001.json 
+less audio/arystoteles-poetyka_015_rozdzial-15.json 
+cat audio/arystoteles-poetyka_015_rozdzial-15.json |jq .
+cat audio/arystoteles-poetyka_015_rozdzial-15.json |jq .|less
+git diff
+git brancj
+git branch
+git checkout main 
+git checkout -b hydra-cleaners
+tmux attach
+cd dockerfiles/
+ls
+cd groundinggpt/
+ls
+less test_ref_gen.py 
+ls data/ggpt-output_3.txt 
+less data/ggpt-output_3.txt 
+tmux attach
+curl --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-2424{/conll2017-test-runs.tgz}
+ls
+tar ztvf  conll2017-test-runs.tgz 
+cd /tmp/
+tar zxvf ~/conll2017-test-runs.tgz 
+ls
+tar ztvf ~/conll2017-test-runs.tgz 
+cd conll2017-test-runs-v3/
+ls
+find . -name '*ga*'
+less ./conll17-ud-test-2017-05-09/darc/2017-05-09-19-56-24/output/ga.conllu
+ls
+less README.txt 
+cd ..
+rm -rf conll2017-test-runs-v3/
+cd -
+cd 
+rm conll2017-test-runs.tgz 
+wget ./conll17-ud-test-2017-05-09/darc/2017-05-09-19-56-24/output/ga.conllu
+wget https://archive.org/compress/dialect_accent_0909_librivox/formats=64KBPS%20MP3&file=/dialect_accent_0909_librivox.zip
+wget 'https://archive.org/compress/dialect_accent_0909_librivox/formats=64KBPS%20MP3&file=/dialect_accent_0909_librivox.zip'
+unzip -l dialect
+unzip -l dialect_accent_0909_librivox.zip 
+wget https://archive.org/compress/celebration_dialects_accents_vol2_1312_librivox/formats=64KBPS%20MP3&file=/celebration_dialects_accents_vol2_1312_librivox.zip
+wget 'https://archive.org/compress/celebration_dialects_accents_vol2_1312_librivox/formats=64KBPS%20MP3&file=/celebration_dialects_accents_vol2_1312_librivox.zip'
+ls
+ls wiktionary_hu
+less wiktionary_hu/ponty.txt 
+less wiktionary_hu/ily.txt 
+ls
+ls dubliners/
+ls dubliners/v1/
+ls dubliners/v2/
+less dubliners/v2/dubliners2.txt 
+tmux attach
+wget https://zenodo.org/records/14995211/files/bc_2025.tar.gz?download=1 -O bc_2025.tar.gz
+tar ztvf bc_2025.tar.gz 
+tar zxvf bc_2025.tar.gz 
+cd bc_2025_training_material/
+ls
+less README.md 
+less TextGrids/Benijd.TextGrid 
+conda env list
+conda activate whisper-x
+which python
+ls -al ~/miniconda3/envs/
+conda activate whisperx
+pip install praatio
+python
+cd ..
+rm -rf bc_2025_training_material/
+ls
+ls speech-sme/
+less speech-sme/LICENSE 
+less speech-sme/README.md 
+less speech-sme/docs/index.md 
+less speech-sme/docs/linguistics/AbbreviationsAccronymsAndNumbers.md 
+less speech-sme/docs/linguistics/OrthographyToIPA.md 
+less speech-sme/docs/linguistics/reading_instructions.doc 
+less speech-sme/docs/linguistics/CaseInNumerals.md 
+ls
+ls speech-sme/
+ls speech-sme/data/
+ls speech-sme/data/README.md 
+less speech-sme/data/README.md 
+ls speech-sme/data/ASR/sametinget-north-transcribed-v1/
+less speech-sme/data/ASR/sametinget-north-transcribed-v1/transcriptions_sametinget_b1_north.txt 
+ls
+cd dockerfiles/
+find . -name molmo_output
+ls
+ls molmo/
+find . -name data
+ls mocapsmplx/data/
+find . -name mm_conv_crowdsourcing_data
+ls ..
+find . -name color
+find . -name images
+ls
+ls ..
+ls groundinggpt/
+ls groundinggpt/data/
+ls groundinggpt/data/shared/
+ls groundinggpt/data/shared/mm_conv/
+ls groundinggpt/data/shared/mm_conv/screenshots_1.6/
+ls groundinggpt/data/shared/
+ls groundinggpt/data/
+ls groundinggpt/data/ggpt-output_1.txt 
+less groundinggpt/data/ggpt-output_1.txt 
+less groundinggpt/data/test_ref_gen.py 
+find groundinggpt -name '*.json'
+less groundinggpt/data/shared/mm_conv/screenshots_1.6/hsi_4_0717_222_002_main_0/viz_random_object/model_output.json
+cd dockerfiles/
+ls
+git status
+git diff
+ls -al omnicontrol/plot_char.py 
+git add omnicontrol/plot_char.py 
+git commit -m 'changes, Apr 30'
+git branch
+git push origin omnicontrol 
+ls
+git status
+ls omnicontrol/data/
+ls omnicontrol/data/output/
+less omnicontrol/data/assignment_short.csv 
+find . -name '*.json'
+find . -name '*.json'|grep trial
+find . -name molmo_output
+tmux attach
+ls
+tmux attach
+cd dockerfiles/
+find . -name 'run*py'
+find . -name '*run*py'
+find . -name '*py'
+find . -name '*.py'
+ls groundinggpt/
+cd groundinggpt/
+ls
+ls data/
+less test_ref_gen.py 
+find . -name 'viz_*'
+ls ./data/shared/mm_conv/screenshots_1.6/hsi_4_0717_222_002_main_0/viz_random_object
+
+ls
+ls data/
+less data/ggpt-output_25.txt 
+unzip -l data/files-for-ggpt.zip 
+tmux attach
+wget 'https://datashare.ed.ac.uk/bitstream/handle/10283/2651/VCTK-Corpus.zip?sequence=2&isAllowed=y'
+rm VCTK-Corpus.zip\?sequence\=2\&isAllowed\=y 
+tmux attach
+ls
+tmux attach
+ls
+docker image list
+docker rmi registry.hf.space/mrfakename-e2-f5-tts
+docker rmi ghcr.io/swivid/f5-tts
+docker image list
+docker rmi 3a8829f07644
+docker container list
+docker image list
+docker rmi ghcr.io/swivid/f5-tts
+docker rmi 205614bcfafb
+docker image list
+docker rmi 41ee76e60288
+docker rmi 5d51e72b3c86
+docker rmi whisperx
+docker image list
+docker rmi whisperx
+docker rmi whisperx:v1
+docker image list
+tmux attach
+ls riksdag_spoken_sentences/
+ls riksdag_spoken_sentences/clean/
+ls riksdag_spoken_sentences/paraphrases/
+ls
+ls rd_phonetic/2442207080018759021_480p.json 
+cat rd_phonetic/2442207080018759021_480p.json |jq .
+cat rd_phonetic/2442207080018759021_480p.json |jq .|less
+tmux attach
+echo *phon*
+ls textgrids_phon/
+ls
+ls rd_phonetic/
+cd rd_phonetic/
+ls
+less 2442206050014935621_480p.json 
+cat 2442206050014935621_480p.json |jq .|less
+cat 2442203250006958021_480p.json |jq .|less
+cat 2442205210012872721_480p.json |jq .|less
+cd ../rixvox-alignments/
+ls
+less rixvox-alignments.parquet 
+cd ../rd_ctm_edit
+ls
+grep åtgärder *
+cd ..
+ls rd_ctm_spell/
+diff -u rd_ctm_edit/H6C120190130pd rd_ctm_spell/H6C120190130pd 
+less rd_ctm_edit/H6C120190130pd 
+ls /sbtal/
+ls /sbtal/rod/
+ls /sbtal/hesitation-clips/
+less /sbtal/hesitation-clips/clips.tsv 
+ls /sbtal/riksdag-video/
+less /sbtal/riksdag-video/kbw2v/2442205210012949021_480p.ctm 
+less /sbtal/riksdag-video/2442205210012949021_480p.mp4.vtt 
+ls
+cd sync-asr/
+ls
+find . -type f
+find . -type f|grep -v '/.git.'
+find . -type f|grep -v '/.git/'
+find . -type f|grep -v '/.git/'|grep -v '.pyc$'
+find . -type f|grep -v '/.git/'|grep -v '.pyc$'|zip ../sa.zip -@
+less notebooks/mappings_subset.tsv 
+less notebooks/mappings.tsv 
+less notebooks/make_lm_text.ipynb 
+ls /sbtal/riksdag-video/
+ls /sbtal/riksdag-video/|grep json
+less /sbtal/riksdag-video/2442203270007255521_480p.kb-w2v.json 
+find /sbtal/riksdag-video/ -type d
+ls
+tmux attach
+d
+df
+cd rd_ctm_edit
+ls
+less H6C120181128ar 
+tmux attach
+cd dockerfiles/
+ls
+mkdir fairseq
+cd fairseq/
+cp ../ctc-forced-aligner/Dockerfile .
+vi Dockerfile 
+git branch
+git checkout main 
+git checkout -b fairseq
+git add Dockerfile 
+git commit -m start
+docker build .
+vi Dockerfile 
+docker build .
+docker image list
+docker build . -t fairseq
+docker image list
+ls ~/
+ls ~/93a49f720447b94c53ded3f264dcbadf
+ls ~/93a49f720447b94c53ded3f264dcbadf/.git/config 
+less ~/93a49f720447b94c53ded3f264dcbadf/.git/config 
+less ~/93a49f720447b94c53ded3f264dcbadf/ulster.alignables 
+echo ~/*waxholm*
+echo ~/*fairseq*
+less ~/fairseq
+less ~/fairseq-data3/dict.ltr.txt 
+less ~/fairseq-data3/train.ltr 
+ls
+cd Documents/
+cd ../dockerfiles/
+ls
+less molmo/Dockerfile 
+less robospatial/Dockerfile 
+git push origin fairseq 
+tmux attach
+tail .bashrc 
+tmux attach
+ls
+ls sme-hfst-docker/
+cd sme-hfst-docker/
+less Dockerfile 
+cd ..
+less sme-hfst-docker/Dockerfile 
+ls -al
+ls -al sme-hfst-docker/
+ls -al sme-hfst-docker/Dockerfile 
+mv sme-hfst-docker/ dockerfiles/
+cd dockerfiles/
+git branch
+git checkout main 
+git diff
+git pull origin fairseq 
+git stash
+git pull origin fairseq 
+git checkout main 
+git checkout -b sme-hfst
+ls
+ls -al sme-hfst-docker/
+git add sme-hfst-docker/Dockerfile 
+git commit -m 'May 18  2023'
+git push origin sme-hfst 
+ls
+cd ..
+ls
+find . -name Dockerfile
+less g2p_correction/README.md 
+less reverb/Dockerfile 
+less metavoice-src/README.md 
+ls
+ls tmp
+less tmp/soundpack.txt 
+ls
+ls wget-log
+less wget-log
+less stt.json 
+ls sayitinsaami
+less sayitinsaami/sayitinsaami_output.tsv 
+unzip -l sayitinsaami/sayitinsaami_wav.zip 
+unzip -l sayitinsaami/sayitinsaami_wav.zip |head
+ls
+ls voicerestore/
+less voicerestore/README.md 
+ls whispertmp
+rm -rf whispertmp/
+ls whisperx-tsv/
+find whisperx-tsv -type f|zip whisperx-tsv.zip -@
+rm -rf whisperx-tsv
+ls
+cd wav2vec2-swedish-riksdag-49h-transcripts-lm/
+git status
+ls
+git branch -a
+cd ..
+rm -rf wav2vec2-swedish-riksdag-49h-transcripts-lm/
+ls
+less vitouphy_wav2vec2-xls-r-300m-timit-phoneme.json 
+ls .srv/p26jun25/
+mv wget-log* vitouphy_wav2vec2-xls-r-300m-timit-phoneme.json whisperx-tsv.zip .srv/p26jun25/
+ls
+less Aditya3107_wav2vec2-Irish-common-voice-Fleurs-living-audio-300m.json 
+ls
+less write_
+less write_audio.py 
+less vp.env 
+less .jupyter/jupyter_lab_config.py 
+ls .hydra/config.yaml 
+less .hydra/config.yaml 
+less .hydra/hydra.yaml 
+less .hydra/overrides.yaml 
+ls
+less video_list 
+ls *.sh
+less mv_mover.sh 
+less write_ffmpeg
+less write_ffmpeg.sh 
+rm todel 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+ls done/
+ls m2may25/
+cd done/
+cat todel |while read i;do rm "$i";done
+ls
+rm todel 
+cd ..
+ls p10jun25/
+for i in p10jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p10jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls p10jun25/
+for i in p10jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p10jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rmdir p10jun25/
+ls m2may25/
+cd m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls
+cd ..
+cd wg/
+ls
+cd ..
+rm wg/inp
+rm wg/inp.log 
+for i in p10jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+less inp
+rm inp
+rm inp.log 
+ls
+cd ../done/
+ls
+cat todel |while read i;do rm "$i";done
+ls
+rm todel 
+rmdir ../p
+ls ..
+ls ../m2may25/
+cd ../m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ..
+ls wg/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p10jun25/"$i" done/;done
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+ls
+ls wg
+tail wg/inp.log 
+less inp.
+less wg/inp.log 
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+cd done/
+ls
+cat todel |while read i;do rm "$i";done
+ls
+rm todel 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+ls m2may25/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+find ~/bc_2025_training_material/ -name '*.T*'
+find ~/bc_2025_training_material/ -name '*.T*'|grep -v 'TextGrid$'
+ls
+mkdir p16jun25
+cd m2may25/
+ls
+unzip -l Sc-20250616T191716Z-1-001.zip 
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls ../wg/
+cd ..
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+ls
+ls wg/
+tail wg/inp.log 
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+less inp 
+bash gl.sh inp 
+cd ../m2may25/
+unzip -l Sc-20250616T221121Z-1-001.zip 
+ls
+cd ../m2may25/
+cd ../wg/
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls p16jun25/
+for i in p16jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+ls
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p16jun25/"$i" done/;done
+ls p16jun25/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p16jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+ls
+tail -f inp.log 
+cd ../done/
+ls
+cat todel |while read i;do rm "$i";done
+ls
+rm todel 
+ls > list
+cd ../m2may25/
+unzip -l Sc-20250616T221121Z-1-001.zip
+unzip -l Sc-20250617T114025Z-1-001.zip
+unzip -l Sc-20250618T080419Z-1-001.zip
+unzip -l Sc-20250618T080837Z-1-001.zip
+unzip -l Sc-20250618T135513Z-1-001.zip
+unzip -l Sc-20250618T135702Z-1-001.zip 
+unzip -l Ss_16jun25_1.zip
+unzip -l Ss_17jun25_1.zip
+cd ../done/
+ls
+cat todel |while read i;do rm "$i";done
+rm list todel 
+ls
+cd ../wg/
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p16jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls p16jun25/
+rmdir p16jun25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+cd m2may25/
+unzip -l Sc-20250619T103030Z-1-001.zip
+unzip -l Sc-20250619T100533Z-1-001.zip
+ls
+cd ../
+ls wg
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls
+ls done/
+s
+ls
+mkdir p19jun25
+ls p19jun25/
+unzip -l p19jun25/drive-download-20250502T160600Z-1-001.zip 
+cd wg/
+ls
+cd ..
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+less inp
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+ls p19jun25/
+ls done/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls p19jun25/
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+less inp
+less inp.log 
+less inp
+vi inp
+tail -f inp.log 
+wc -l inp
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+ls
+vi inp
+bash gl.sh inp 
+tail -f inp.log 
+less inp.log 
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+ls
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd done/
+ls
+cat todel |while read i;do rm "$i";done
+rm hsi_4_0717_227_004_main_new\ \(1\).csv 
+rm object_utterances_batch1_to_4\ \(1\).md 
+rm object_utterances_batch1_to_4\ \(1[123456789]\).md 
+rm object_utterances_batch1_to_4\ \(2[012349]\).md 
+rm object_utterances_batch1_to_4\ \([23456789]\).md 
+cat todel |while read i;do rm "$i";done
+ls
+grep object_utterances_batch1_to_4 todel 
+grep ' ' todel 
+grep %20 todel 
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+grep CBT todel 
+grep api todel 
+rm todel 
+ls
+cd ..
+cd wg/
+ls
+vi inp 
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+ls p19jun25/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+cd m2may25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls ../done/
+ls
+unzip -l Sc-20250621T072654Z-1-001.zip
+unzip -l Sc-20250621T073913Z-1-001.zip
+unzip -l Ss_20jun25_1.zip 
+cd ../wg/
+ls
+cd ..
+ls p19jun25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+cd ../m2may25/
+unzip -l Sc-20250621T073913Z-1-001.zip
+unzip -l Sc-20250621T152051Z-1-001.zip
+ls
+cd ../done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+ls
+ls ../p19jun25/
+ls > list
+rm list 
+rm tabs_*
+rm original_asr_presentations.slides.html 
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm 4_227_004_inter_corr_1.txt CBT\ Steps\ Overview.html first.json 
+rm hyperaudio-lite.json hyperaudio.srt 
+rm meta_exact_single*
+ls
+rm todel 
+rm ISP_KTH_Jim\ O\'Regan_ISP\ 2023_58519_2_EN_Not\ established.pdf 
+rm ISP_KTH_Jim\ O\'Regan_ISP\ 2023_58519_2_EN_Not\ established\ \(1\).pdf 
+ls
+mv * ../p19jun25/
+cd ../m2may25/
+ls
+cd ../wg/
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/inp
+rm -rf wg/inp.log 
+rm -rf wg/web.archive.org/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+cd wg/
+ls
+cd ..
+ls m2may25/
+cd m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+unzip -l Sc-20250622T143927Z-1-001.zip 
+cd ..
+ls wg/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+cd ../done/
+ls
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd -
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+ls ../m2may25/
+cd ../m2may25/
+unzip -l Ss-20250622T162739Z-1-001.zip
+cd ../wg/
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+ls
+ls wg
+ls m2may25/
+ls p19jun25/
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+ls p19jun25/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+vi inp 
+ls
+bash gl.sh inp 
+tail -f inp.log 
+cd ../p19jun25/
+ls
+mv \(The\ Empyrean\ #2\)\ Rebecca\ Yarros\ -\ Iron\ Flame.epub The_Empyrean_2_Rebecca_Yarros_-_Iron_Flame.epub 
+cd ..
+rm wg/inp
+rm wg/inp.log 
+for i in p19jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p19jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls
+ls p19jun25/
+rmdir p19jun25/
+ls m2may25/
+cd m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ..
+ls wg/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+ls
+tail inp.log 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+cd done/
+ls
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ../m2may25/
+ls
+cd ../wg/
+ls
+cd ..
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+ls ../done/
+ls ../m2may25/
+cd ../m2may25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls
+cd ..
+cd wg/
+ls
+tail inp.log 
+cd ..
+cd wg/
+ls
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+cd ..
+ls
+cd done/
+ls
+cd ../m2may25/
+ls
+cd ../wg/
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+cd done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+rm https___download.ted.com_talks_KateDarling_2018S-950k.mp4.json 
+less api 
+rm api 
+ls > list
+ls
+rm list 
+vi todel 
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ../wg/
+ls
+tail inp.log 
+rm inp
+rm inp.log 
+cd ..
+ls m2may25/
+ls wg
+ls m2may25/
+ls
+ls m2may25/
+ls
+mkdir p26jun25
+unzip -l p26jun25/submissions\ \(1\).zip 
+ls
+cd wg/
+ls
+cd ..
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+less inp
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+ls done/
+rm -rf wg/web.archive.org/
+ls p26jun25/
+rm wg/inp
+rm wg/inp.log 
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+cd ../m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls
+cd ..
+ls
+ls m2may25/
+ls wg/
+tail wg/inp.log 
+cd wg/
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls p26jun25/
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+ls p26jun25/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+less inp 
+bash gl.sh inp 
+tail -f inp.log 
+ls
+rm inp
+rm inp.log 
+cd ..
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+cd ../m2may25/
+unzip -l Ss-20250627T161539Z-1-001.zip
+ls
+cd ../m2may25/
+cd ../wg/
+ls
+bash gl.sh inp 
+less inp
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+ls m2may25/
+ls done/
+cd done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ../m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ../wg/
+ls
+tail inp.log 
+rm inp
+rm inp.log 
+cd ..
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+ls
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls
+ls m2may25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+cd m2may25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls ../done/
+grep 2442205210012949021  ~/rd_ctm_edit/
+grep 2442205210012949021  ~/rd_ctm_edit/*
+less /home/joregan/rd_ctm_edit/H5107
+ls
+cd ..
+ls
+mv done/S* m2may25/
+ls wg/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+ls m2may25/
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+cd m2may25/
+ls
+unzip -l Sc-20250701T105613Z-1-001.zip 
+unzip -l Sc-20250701T133323Z-1-001.zip 
+ls
+cd ../done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+rm todel 
+ls
+cd ../wg/
+ls
+cd ..
+ls m2may25/
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+ls wg/
+cd wg/
+bash gl.sh inp 
+cd ../m2may25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls
+zless redo.warc.warc.gz 
+unzip -l Sc-20250702T092733Z-1-001.zip
+cd ../wg/
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+cd done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ..
+ls m2may25/
+ls wg/
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd m2may25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ..
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+less inp 
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+ls /sbtal/
+ls /sbtal/rod/
+cd p26jun25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+ls ../m2may25/
+cd ../m2may25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ../wg/
+ls
+cd ..
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+cd ../done/
+ls
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+ls
+cd ../wg/
+s
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+less inp 
+bash gl.sh inp 
+unzip -l ../m2may25/ig_s.zip 
+ls
+tail inp.log 
+cd ..
+cd wg/
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+ls ../done/
+cd ../done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+ls done/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m2may25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+less ../done/arctic.json 
+ls
+tail inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls m2may25/
+rmdir m2may25/
+mkdir m5jul25
+ls p26jun25/
+cd wg/
+ls
+cd ..
+ls m5jul25/
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m2may25/"$i" done/;done
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+ls wg/
+cd wg/
+bash gl.sh inp 
+ls
+ls ../m5jul25/
+ls ../done/
+cd ../done/
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+cd ../wg/
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+rm -rf wg/web.archive.org/
+ls p26jun25/
+ls done/
+rm -rf wg/inp
+rm -rf wg/inp.log 
+ls m5jul25/
+mv m2may25/S* m5jul25/
+rmdir m2may25/
+cd m5jul25/
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ..
+for i in m5jul25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+ls ../m5jul25/
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m5jul25/"$i" done/;done
+rm -rf wg/web.archive.org/
+cd m5jul25/
+ls
+for i in *zip;do unzip -l $i|tail -n 1;done
+cd ../done/
+ls
+cat todel|sed -e 's/%20/ /g' |while read i;do rm "$i";done
+ls
+rm todel 
+less arctic.json 
+cd ../wg/
+ls
+tail inp.
+tail inp.log 
+ls
+less inp.log 
+rm inp
+rm inp.log 
+cd ..
+for i in m5jul25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m5jul25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+for i in m5jul25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+ls m5jul25/
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv m5jul25/"$i" done/;done
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+ls
+ls m5jul25/
+rmdir m5jul25/
+mkdir m7jul25
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+find web.archive.org -name '*.zip'|while read i;do unzip -l "$i"|tail -n 1;done|less
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+ls p26jun25/
+rm -rf wg/web.archive.org/
+rm wg/inp
+rm wg/inp.log 
+cd p26jun25/
+mv 2023-03-16\ 3\ \ Regression\ Quality\ of\ wine.xlsx 2023-03-16_3_Regression_Quality_of_wine.xlsx 
+cd ..
+for i in p26jun25/*;do echo http://web.archive.org/web/http://130.237.3.106:8000/$i >> wg/inp;done
+cd wg/
+ls
+bash gl.sh inp 
+tail -f inp.log 
+cd ..
+find wg/web.archive.org -type f|awk -F'/' '{print $NF}'|while read i;do mv p26jun25/"$i" done/;done
+ls
+rmdir p26jun25/
+mkdir p7jul25
+ls ~/.config/
+ls
+cd wg/
+ls
+tail inp.log 
+tmux attach
+ls
+cd wolnelektury-speech-corpus/
+ls
+ls json
+ls
+mkdir whisper
+mv *.vtt whisper/
+conda env list
+conda activate whisperx
+ls
+ls audio
+less audio/zwierzeta-i-niedzwiedz_000.json 
+less audio/legenda-o-sw-aleksym_000.json 
+whisperx --help
+pip install -U whisperx
+whisperx --help
+#whisperx --language pl --model large-v3 
+ls
+cd audio/
+whisperx --help
+#whisperx --language pl --model large-v3 --output_format json
+ls
+whisperx --language pl --model large-v3 --output_format json zrebiec-i-kon-stary_000.mp3
+ls
+ls *json |zip ~/whisperx.zip -@
+ls *mp3|wc
+ls *json|wc
+less wyszydzajacy_000.json
+less
+cd ../
+ls
+ls json
+less json/but-w-butonierce-dedykacja_000.json 
+less text/but-w-butonierce-dedykacja.txt
+less pairs.tsv 
+less text/treny-tren-i.txt
+ls
+less split-sentence.pl 
+less tocheck.tsv 
+less unwrap-lines.pl 
+less polish.g2p 
+less polish-g2p.pl 
+ls mfag2p/
+less mfa_thing 
+ls
+less pron-data/pronounce-as.tsv 
+less pron-data/archaisms.tsv 
+less pron-data/filter-archaic.tsv 
+less pron-data/filter-unique-to-book.tsv 
+ls
+tmux attach
+ls  dockerfiles/
+find dockerfiles/ -name '*.py'
+cd dockerfiles/
+ls -al
+git status
+ls -al
+cd e2-f5-tts/
+ls
+git status
+less app.py 
+less run-whisper.py 
+ls -al 
+ls data/
+cd ..
+find . -type f
+ls
+ls groundinggpt/
+ls
+cd groundinggpt/
+ls
+ls -al
+ls data/
+less data/ggpt-output_9.txt 
+ls
+less test_ref_gen.py 
+docker pull espnet/espnet:dev3-gpu
+ls
+#docker run -it --gpus all -v $PWD/wolne
+#docker run -it --gpus all -v"$PWD/wolnelektury-speech-corpus:/data" 
+docker run -it --gpus all -v"$PWD/wolnelektury-speech-corpus:/data" espnet/espnet:dev3-gpu
+nvidia-smi 
+nvidia-smi |head
+docker run -it --gpus all -v"$PWD/wolnelektury-speech-corpus:/data" espnet/espnet:dev3-gpu
+cd espnet/
+ls
+git pull
+ls
+cd docker/
+ls
+less README.md 
+docker image ls
+docker image rm espnet/espnet
+docker image rm espnet/espnet:dev3-gpu
+docker container rm 9f70e61c1619
+docker image rm espnet/espnet:dev3-gpu
+docker container rm b130931ba5ba
+docker image rm espnet/espnet:dev3-gpu
+ls
+less build.sh 
+bash build.sh --help
+bash build.sh --build-ver gpu local
+bash build.sh --build-ver gpu fully_local
+tmux attach
+docker image list
+docker run -it --gpus all -v"$PWD/wolnelektury-speech-corpus:/data" espnet/espnet:runtime-local
+docker image list
+docker image rm d152b9033449
+docker container rm 6b741474e9d2
+docker image rm d152b9033449
+cd espnet/docker/
+ls
+git status
+ls -al espnet-local.tar 
+rm espnet-local.tar 
+git status
+less build.sh 
+conda env list
+conda activate espnet
+ffprobe ~/z-wichrow.wav 
+cd ../..
+#cat wolnelektury-speech-corpus/text/z
+ls *wa
+ls *wav
+cat wolnelektury-speech-corpus/text/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.txt.sent 
+cat wolnelektury-speech-corpus/text/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.txt.sent |less
+cat wolnelektury-speech-corpus/text/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.txt.sent |grep '^z wichrów'
+cat wolnelektury-speech-corpus/text/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.txt.sent |grep -v '^z wichrów' | awk '{print "utt" NR " " $0}'
+cat wolnelektury-speech-corpus/text/z-wichrow-i-hal-z-tatr-krzak-dzikiej-rozy-w-ciemnych-smreczy.txt.sent |grep -v '^z wichrów' | awk '{print "utt" NR " " $0}' > toalign
+vi espnet-align.py
+python espnet
+python espnet-align.py 
+pip install -U espnet
+pip install install torch torchvision torchaudio
+pip install torch torchvision torchaudio
+pip install flash-attn==0.2.4
+python espnet-align.py 
+pip install -U espnet
+python espnet-align.py 
+pip show torch torchaudio
+conda install pytorch==2.2.2 torchaudio==2.2.2 -c pytorch
+pip install torch==2.2.2 torchaudio==2.2.2 --force-reinstall --upgrade
+python espnet-align.py 
+vi espnet-align.py 
+vi espnet-asr.py
+cat espnet-align.py 
+python espnet-asr.py wolnelektury-speech-corpus/audio/alcott-male-kobietki_001_rozdzial-i-pielgrzymki.mp3
+ls -al wolnelektury-speech-corpus/audio/
+python espnet-asr.py wolnelektury-speech-corpus/audio/zarcik_000.mp3 
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python espnet-asr.py wolnelektury-speech-corpus/audio/zarcik_000.mp3 
+vi espnet-asr.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python espnet-asr.py wolnelektury-speech-corpus/audio/zarcik_000.mp3 
+vi espnet-asr.py
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python espnet-asr.py wolnelektury-speech-corpus/audio/zarcik_000.mp3 
+cat espnet-asr.py 
+tmux attach
+w
+last
+last|head
+tmux attach
+cd dockerfiles/
+ls
+git status
+git log
+git checkout main 
+git pull 
+cd groundinggpt/
+ls
+less Dockerfile 
+ls data/
+ls data/shared/
+ls data/shared/mm_conv/
+ls data/shared/mm_conv/screenshots_1.6/
+ls
+docker image list
+less Dockerfile 
+ls
+docker tag ggpt jimregan/groundinggpt
+docker image list
+docker push jimregan/groundinggpt
+ls
+vi Dockerfile 
+docker build . -t jimregan/groundinggpt
+docker run jimregan/groundinggpt
+ls
+docker run -it --gpus all jimregan/groundinggpt
+docker push jimregan/groundinggpt
+docker image list
+docker image rm de96ec03b922
+w
+docker run -it --gpus all audiogen
+docker inspect audiogen
+docker image list
+ls ../molmo/Dockerfile 
+less ../molmo/Dockerfile 
+w
+tmux attach
+w
+tmux attach
+ls
+df
+tmux attach
+df
+tmux attach
+ls /sbtal/joregan/
+mkdir /sbtal/joregan/kaldi
+ls -al /sbtal/joregan/
+sudo mkdir /sbtal/joregan/kaldi
+sudo chown joregan.joregan /sbtal/joregan/kaldi
+sudo mkdir /sbtal/joregan/kaldi/data
+sudo mkdir /sbtal/joregan/kaldi/exp
+ls /sbtal/joregan/kaldi/data
+ls /sbtal/joregan/kaldi/data/local/
+ls /sbtal/joregan/kaldi/data/local/data/
+ls /sbtal/joregan/kaldi/data/local/data/download/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/
+df
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/
+ls /sbtal/joregan/kaldi/data/local/data/download/
+tar ztvf /sbtal/joregan/kaldi/data/local/data/download/sve.16khz.0468.tar.gz 
+ls /sbtal/joregan/kaldi/exp/
+ls /sbtal/joregan/kaldi/data/
+ls /sbtal/joregan/kaldi/data/local/
+ls /sbtal/joregan/kaldi/data/local/data/
+ls /sbtal/joregan/kaldi/data/local/testsrc/
+ls /sbtal/joregan/kaldi/data/local/tra
+ls /sbtal/joregan/kaldi/data/local/transcript_lm/
+ls /sbtal/joregan/kaldi/data/local/testsrc/
+ls /sbtal/joregan/kaldi/data/local/
+ls /sbtal/joregan/kaldi/data/local/data/
+ls /sbtal/joregan/kaldi/data/local/data/download/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-3/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-3/0467_sv_train_3/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-3/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/scr0467/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/scr0467/04/
+ls /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/scr0467/04/04670404/
+file /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/scr0467/04/04670404/r4670365.spl 
+less /sbtal/joregan/kaldi/data/local/data/download/0467-1/0467_sv_train_1/Stasjon4/290799/adb_0467/data/scr0467/04/04670404/r4670365.spl 
+ls /sbtal/joregan/kaldi/data/
+ls /sbtal/joregan/kaldi/data/local/
+ls /sbtal/joregan/kaldi/data/local/trainsrc/
+ls /sbtal/joregan/kaldi/data/local/
+ls /sbtal/joregan/kaldi/data/local/data/corpus_processed/
+ls /sbtal/joregan/kaldi/data/local/data/corpus_processed/training/
+ls /sbtal/joregan/kaldi/data/local/data/corpus_processed/training/0467-1/r4670268.268/
+/sbta/sbtal/joregan/kaldi/data/local/data/corpus_processed/training/0467-1/r4670268.268/r4670268.268.91.txt 
+tmux attach
+tmux attach
+ls /sbtal/joregan/kaldi/exp/
+ls /sbtal/joregan/kaldi/exp/mono/
+ls /sbtal/joregan/kaldi/exp/mono/log/
+ls /sbtal/joregan/kaldi/exp/mono/graph_4g/
+less /sbtal/joregan/kaldi/exp/mono/graph_4g/disambig_tid.int 
+zless /sbtal/joregan/kaldi/exp/mono/ali.8.gz 
+zless /sbtal/joregan/kaldi/exp/mono/fsts.1.gz 
+zless /sbtal/joregan/kaldi/exp/make_mfcc/train/make_mfcc_train.1.log 
+ls /sbtal/joregan/kaldi/exp/
+ls /sbtal/joregan/kaldi/exp/make_mfcc/
+ls /sbtal/joregan/kaldi/exp/make_mfcc/train/
+ls /sbtal/joregan/kaldi/data/
+ls /sbtal/joregan/kaldi/data/train/
+ls /sbtal/joregan/kaldi/data/train/split10/
+ls -al /sbtal/joregan/kaldi/data/train/split10/1/
+less /sbtal/joregan/kaldi/data/train/split10/1/feats.scp 
+less /sbtal/joregan/kaldi/exp/
+ls /sbtal/joregan/kaldi/exp/
+ls /sbtal/joregan/kaldi/exp/mono/
+ls /sbtal/joregan/kaldi/exp/mono/decode_test120_p_spk/
+ls /sbtal/joregan/kaldi/exp/mono/decode_test120_p_spk/log/
+less /sbtal/joregan/kaldi/exp/mono/decode_test120_p_spk/log/decode.10.log 
+ls -al /sbtal/joregan/kaldi/exp/mono/decode_test120_p_spk/log/
+ls -al /sbtal/joregan/kaldi/exp/mono/tree 
+less /sbtal/joregan/kaldi/exp/mono/tree 
+less /sbtal/joregan/kaldi/exp/mono/ali.1.gz 
+less /sbtal/joregan/kaldi/data/lang/phones/align_lexicon.txt 
+less /sbtal/joregan/kaldi/data/lang/words.txt 
+less /sbtal/joregan/kaldi/data/lang/oov.txt 
+less /sbtal/joregan/kaldi/data/lang_test_4g/phones.txt 
+tmux attach
+ls /sbtal/
+tmux attach
+cd cmuarctic/
+ls
+cd cmu_arctic/
+ls
+tail -f recover 
+less recover 
+cd cmuarctic/cmu_arctic/
+ls
+cat cmu_us_*/etc/txt.done.data
+cat cmu_us_*/etc/txt.done.data | grep arctic_a0564
+cat cmu_us_*/etc/txt.done.data | grep arctic_b0313
+cd dockerfiles/
+mkdir kaldi-sprakbanken
+cd kaldi-sprakbanken/
+less ../whisperx/Dockerfile 
+cp ../whisperx/Dockerfile .
+vi Dockerfile 
+docker build . -t jimregan/kaldi_swe
+docker image list
+docker push jimregan/kaldi_swe
+vi Dockerfile 
+docker build . -t jimregan/kaldi_swe
+cat Dockerfile 
+vi Dockerfile 
+docker build . -t jimregan/kaldi_swe
+docker push jimregan/kaldi_swe
+git checkout -b kaldi
+git add Dockerfile 
+git commit -m 'add dockerfile for re-re-re-re-running this'
+git push origin kaldi 
+du -sh ~/wolnelektury-speech-corpus/
+ls ..
+ls ~
+ls ~/train-valid-deliverable/
+ls ~/whisperx.zip 
+unzip -l ~/whisperx.zip 
+vi Dockerfile 
+git add Dockerfile 
+git commit -m trim
+docker build . -t jimregan/kaldi_swe
+docker push jimregan/kaldi_swe
+git push origin kaldi 
+cd ..
+ls
+ls whisper-sami/
+cd whisper-sami/
+ls
+less 8497610.wfi.json 
+cat 8497610.wfi.json |jq .
+cat 8497610.wfi.json |jq .|less
+ls
+ls|grep -v json
+cd ..
+ls
+ls swedia/
+ls swedia/swedia.ling.gu.se/
+ls
+ls cmuarctic/
+cd cmuarctic/
+tar jtvf cmu_us_ljm_arctic.tar.bz2
+tar jxvf cmu_us_ljm_arctic.tar.bz2
+less cmu_us_ljm_arctic/etc/txt.done.data 
+ls
+mkdir cmu_arctic
+cd cmu_arctic/
+vi LICENSE
+cd ..
+mv cmu_arctic/LICENSE .
+rmdir cmu_arctic/
+ls
+huggingface-cli login
+git config --global credential.helper store
+huggingface-cli login
+git lfs install
+conda activate hf_new
+git lfs install
+git clone https://huggingface.co/datasets/kth-tmh/cmu_arctic
+mv LICENSE cmu_arctic/
+cd cmu_
+cd cmu_arctic/
+ls
+git add LICENSE 
+git commit -m 'add licence from http://www.festvox.org/cmu_arctic/cmu_arctic_report.pdf'
+git push
+git checkout -b original-tars
+mv ../*bz2 .
+ls
+less .gitattributes 
+git add *.bz2
+git commit -m 'add original tar files from http://festvox.org/cmu_arctic/packed/'
+git push 
+git push origin original-tars 
+ls
+for i in *.bz2;do tar jzvf $i;done
+for i in *.bz2;do tar jxvf $i;done
+ls
+git checkout main 
+ls
+git checkout -b tars-unpacked
+grep wav .gitattributes 
+git add cmu_us_*
+git commit -m 'add unpacked'
+git push origin tars-unpacked 
+ls
+ls cmu_us_aew_arctic/etc/txt.done.data 
+less cmu_us_aew_arctic/etc/txt.done.data 
+ffprobe cmu_us_aew_arctic/wav/arctic_a0100.wav 
+python
+ls
+ls cmu_us_gka_arctic/
+python
+w
+last
+last|head
+mount
+ls /sbtal/
+ls /sbt-fast/
+
+ls /sbt-slow/h
+ls /sbt-slow/home/
+tmux attach
+ls /sbt-temp/
+ls /sbtal/
+ls /sbtal/dia-df/
+ls /sbtal/dia-df/Abed/
+ls /sbtal/dia-df/julle/
+ls /sbtal/dia-df/experiments/
+ls /sbtal/dia-df/icsi_data/
+ls /sbtal/dia-df/icsi_data/ICSI
+less /sbtal/dia-df/icsi_data/ICSI/LICENCE.txt 
+cd dockerfiles/
+ls
+less kaldi-sprakbanken/Dockerfile 
+mkdir kaldi-clarinpl
+cp kaldi-sprakbanken/Dockerfile kaldi-clarinpl/
+cd kaldi-clarinpl/
+ls
+vi Dockerfile 
+git branch
+git checkout main 
+git diff
+git checkout -b kaldi-pl
+git add Dockerfile 
+git commit -m 'add'
+docker build . -t jimregan/kaldi_clarinpl
+docker push jimregan/kaldi_clarinpl
+docker run -it --gpus all jimregan/kaldi_clarinpl
+ls
+vi path.sh
+git add path.sh 
+git commit -m 'add'
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+docker run -it --gpus all jimregan/kaldi_clarinpl
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+docker run -it --gpus all jimregan/kaldi_clarinpl
+vi Dockerfile 
+git add Dockerfile 
+git commit -m 'missing packages'
+ls ..
+git bracnh]
+git branch
+git pull origin main 
+git config pull.rebase false
+git pull origin main 
+git push origin kaldi
+git push origin kaldi-pl 
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+vi install_phonetisaurus.sh
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+vi Dockerfile 
+docker build . -t jimregan/kaldi_clarinpl
+ls -al
+chmod a+x install_phonetisaurus.sh 
+docker build . -t jimregan/kaldi_clarinpl
+docker run -it --gpus all jimregan/kaldi_clarinpl
+docker container prune
+git diff
+git add Dockerfile 
+git commit -m 'missing packages'
+git push origin kaldi-pl 
+docker push jimregan/kaldi_clarinpl
+ls
+wget https://raw.githubusercontent.com/danijel3/ClarinStudioKaldi/refs/heads/master/run.sh
+vi run.sh 
+vi Dockerfile 
+git add path.sh run.sh 
+git add Dockerfile 
+git commit -m 'missing packages'
+docker push jimregan/kaldi_clarinpl
+mkdir data
+tmux attach
+last|head
+tmux attach
+cd dockerfiles/kaldi-clarinpl/data/
+ls
+du -sh .
+ls
+git init .
+tmux attach
+last|head
+tmux attach
+cd dockerfiles/
+git branch
+git pull origin main 
+cd kaldi-sprakbanken/
+vi tdnn-run.sh
+git add tdnn-run.sh 
+git commit -m 'gpt modernised'
+vi tdnn-run.sh
+git diff
+git add tdnn-run.sh 
+git commit -m 'readd log'
+rm tdnn-run.sh 
+vi tdnn-run.sh 
+git diff
+git status
+git add tdnn-run.sh 
+git commit -m 'raw gpt'
+git log
+git revert e690bb240290ef56d4e91299f67dd74131274da8
+vi tdnn-run.sh 
+git format-patch -1 e690bb240290ef56d4e91299f67dd74131274da8
+less 0001-raw-gpt.patch 
+vi tdnn-run.sh 
+git diff
+git add tdnn-run.sh 
+git commit -m filt
+cat Dockerfile 
+wget https://raw.githubusercontent.com/alphacep/vosk-api/refs/heads/master/training/local/chain/run_tdnn.sh
+wget https://raw.githubusercontent.com/alphacep/vosk-api/refs/heads/master/training/local/chain/run_ivector_common.sh
+git add run_ivector_common.sh tdnn-run.sh 
+git commit -m 'copy from vosk: https://github.com/alphacep/vosk-api'
+git diff
+ls
+less run_ivector_common.sh 
+vi run_ivector_common.sh 
+vi tdnn-run.sh 
+vi run_tdnn.sh 
+git diff
+vi run_tdnn.sh 
+git status
+vi run_tdnn.sh 
+git add run_tdnn.sh 
+git commit -m 'copy from vosk: https://github.com/alphacep/vosk-api'
+vi run_tdnn.sh 
+git add run_*
+git commit -m adapt
+mkdir -p local/chain
+git mv run_* local/chain/
+git commit -m mv
+ls
+vi tdnn-run.sh 
+less local/chain/run_ivector_common.sh 
+git log
+git checkout -b kpl 3ffb3e7d3b4db3f5ec113b7a93047f69eb446a4b
+git push origin kpl
+git checkout kaldi-pl 
+git branch -a
+git branch -D kpl
+git checkout -b kaldi-sv
+git log
+git pull origin main 
+git log
+git push origin kaldi-sv
+git checkout main 
+git pull origin main 
+mkdir ../festus
+tmux attach
+last|head
+tmux attach
+git add nemo_text_processing/text_normalization/pl/utils.py nemo_text_processing/text_normalization/pl/taggers/ordinal.py
+git commit -m 'move function'
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m comment
+git add nemo_text_processing/text_normalization/pl/utils.py nemo_text_processing/text_normalization/pl/taggers/ordinal.py
+git commit -m refactor
+git add nemo_text_processing/text_normalization/pl/graph_utils.py
+git commit -m 'generalise a little'
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m 'so we can get forms of digits'
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m 'copilot'
+git add nemo_text_processing/text_normalization/pl/data/numbers/digit_forms.tsv 
+git commit -m complete
+touch nemo_text_processing/text_normalization/pl/data/numbers/teens_forms.tsv 
+git add nemo_text_processing/text_normalization/pl/data/numbers/teens_forms.tsv 
+git commit -m complete
+less nemo_text_processing/text_normalization/pl/data/numbers/digit_forms.tsv 
+git add nemo_text_processing/text_normalization/pl/data/numbers/digit_forms.tsv 
+git commit -m complete
+less nemo_text_processing/text_normalization/pl/data/numbers/digit_forms.tsv 
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m try
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m try
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m try
+git add nemo_text_processing/text_normalization/pl/taggers/cardinal.py
+git commit -m commnet
+vi tmmm
+grep '"' tmmm
+nemo_text_processing/text_normalization/pl/d
+tmux attach
+ls
+cd dockerfiles/
+ls
+cd kaldi-sprakbanken/
+ls
+less tdnn-run.sh 
+ls
+less local/chain/run_tdnn.sh 
+scp local/chain/run_* deepflow:/shared/joregan/kaldi_swe/local/chain/
+ls
+less tdnn-run.sh 
+less local/chain/run_tdnn.sh 
+less local/chain/run_ivector_common.sh 
+less local/chain/run_tdnn.sh 
+less local/chain/run_ivector_common.sh 
+less local/chain/run_tdnn.sh 
+less local/chain/run_ivector_common.sh 
+less local/chain/run_tdnn.sh 
+less local/chain/run_ivector_common.sh 
+less local/chain/run_tdnn.sh 
+cat tdnn-run.sh 
+less local/chain/run_tdnn.sh 
+less tdnn-run.sh 
+tmux attach
+cd dockerfiles/
+ls
+cd kaldi-sprakbanken/
+ls
+less tdnn-run.sh 
+less local/chain/run_tdnn.sh 
+less tdnn-run.sh 
+tmux attach
