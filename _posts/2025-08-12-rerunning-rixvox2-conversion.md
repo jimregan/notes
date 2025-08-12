@@ -164,16 +164,8 @@ prefix: /home/joregan/miniconda3/envs/rv_convert
 
 echo "Job started on $SLURMD_NODENAME at $(date)"
 
-if [ ! -d $HOME/miniconda3 ]; then
-    echo "MiniConda3 not found, please install it first."
-    mkdir -p ~/miniconda3
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-    rm ~/miniconda3/miniconda.sh
-fi
 CONDA_ROOT="/nfs/tts2/home/joregan/miniconda3"
-#eval "$("$CONDA_HOME/bin/conda" shell.bash hook)"
-source "$CONDA_BASE/etc/profile.d/conda.sh"
+eval "$("$CONDA_ROOT/bin/conda" shell.bash hook)"
 
 conda activate /nfs/tts2/home/joregan/miniconda3/envs/rv_convert
 
