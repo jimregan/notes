@@ -28,18 +28,20 @@ os.makedirs(output_audio_dir, exist_ok=True)
 Some of the metadata is not JSON serializable, so we need to convert it:
 
 ```python
-def make_json_serializable(record):
-    """Convert non-serializable fields like timestamps to strings."""
-    def convert(value):
-        if isinstance(value, (datetime, pd.Timestamp, np.datetime64)):
-            return str(value)
-        elif isinstance(value, list):
-            return [convert(v) for v in value]
-        elif isinstance(value, dict):
-            return {k: convert(v) for k, v in value.items()}
-        else:
-            return value
-        return {k: convert(v) for k, v in record.items()}
+def convert_for_json(obj):
+    """Recursively convert objects to JSON serializable formats."""
+    if isinstance(obj, (pd.Timestamp, datetime, np.datetime64)):
+        return str(obj)
+    elif isinstance(obj, (np.integer)):
+        return int(obj)
+    elif isinstance(obj, (np.floating)):
+        return float(obj)
+    elif isinstance(obj, (np.ndarray, list)):
+        return [convert_for_json(v) for v in obj]
+    elif isinstance(obj, dict):
+        return {k: convert_for_json(v) for k, v in obj.items()}
+    else:
+        return obj
 ```
 
 Now run the conversion loop:
@@ -59,6 +61,6 @@ with open(output_jsonl_path, "w", encoding="utf-8") as jsonl_file:
         sample_copy = dict(sample)
         sample_copy.pop("audio", None)
         sample_copy["audio_filepath"] = audio_path
-        serializable_sample = make_json_serializable(sample_copy)
+        serializable_sample = convert_for_json(sample_copy)
         jsonl_file.write(json.dumps(serializable_sample, ensure_ascii=False) + "\n")
 ```
