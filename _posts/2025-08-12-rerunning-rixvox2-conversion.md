@@ -19,7 +19,8 @@ import pandas as pd
 from datetime import datetime
 import numpy as np
 
-PARQUET_DIR = "/shared/joregan/rixvox-v2/cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/"
+CACHE_DIR = "/shared/joregan/rixvox-v2/cache/"
+PARQUET_DIR = f"{CACHE_DIR}datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/"
 OUTPUT_BASE_DIR = "/shared/joregan/rixvox-v2/audio_files/"
 OUTPUT_DIR = "/shared/joregan/rixvox-v2/audio_files/wav/"
 OUTPUT_JSONL = "/shared/joregan/rixvox-v2/audio_files/metadata.jsonl"
@@ -42,7 +43,8 @@ def convert_for_json(obj):
 dataset = load_dataset(
     "parquet",
 	data_files=PARQUET_DIR,
-	split="train"
+	split="train",
+    cache_dir=CACHE_DIR
 )
 
 os.makedirs(OUTPUT_BASE_DIR, exist_ok=True)
