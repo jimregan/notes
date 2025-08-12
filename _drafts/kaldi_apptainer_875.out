@@ -1,0 +1,15 @@
+Job started on deepspeech at Fri Aug  8 21:36:23 CEST 2025
+Using GPU(s): 0
+steps/nnet2/decode.sh --nj 10 --cmd run.pl exp/tri4a/graph_4g data/test120_p_spk exp/nnet5c/decode_test120_p_spk
+steps/nnet2/decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --iter final exp/tri4a/graph_4g exp/nnet5c/decode_test120_p_spk
+analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 68.68721461187215% of the time at utterance end.  This may not be optimal.
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5c/decode_test120_p_spk/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,3,18) and mean=7.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/nnet5c/decode_test120_p_spk/log/analyze_lattice_depth_stats.log
+score best paths
+local/score.sh --iter final --cmd run.pl data/test120_p_spk exp/tri4a/graph_4g exp/nnet5c/decode_test120_p_spk
+local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
+score confidence and timing with sclite
+Decoding done.
+Job finished at Fri Aug  8 22:40:23 CEST 2025
