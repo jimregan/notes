@@ -193,3 +193,5 @@ categories: [links]
 
 [Real-Time Textless Dialogue Generation](https://arxiv.org/abs/2501.04877)
 
+[Prosody Labeling with Phoneme-BERT and Speech Foundation Models](https://www.arxiv.org/abs/2507.03912)
+
