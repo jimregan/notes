@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>WER plots for finetuning on the AWB dataset | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="WER plots for finetuning on the AWB dataset" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="From a Fonetik paper in 2022" />
+<meta property="og:description" content="From a Fonetik paper in 2022" />
+<link rel="canonical" href="https://jimregan.github.io/notes/fonetik/awb/wer/plots/2023/04/14/AWB_WER_plots.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/fonetik/awb/wer/plots/2023/04/14/AWB_WER_plots.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/fonetik/awb/wer/plots/2023/04/14/AWB_WER_plots.html","@type":"BlogPosting","headline":"WER plots for finetuning on the AWB dataset","dateModified":"2023-04-14T00:00:00-05:00","datePublished":"2023-04-14T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/fonetik/awb/wer/plots/2023/04/14/AWB_WER_plots.html"},"description":"From a Fonetik paper in 2022","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">WER plots for finetuning on the AWB dataset</h1><p class="page-description">From a Fonetik paper in 2022</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-04-14T00:00:00-05:00" itemprop="datePublished">
+        Apr 14, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#fonetik">fonetik</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#awb">awb</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#wer">wer</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#plots">plots</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2023-04-14-AWB_WER_plots.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2023-04-14-AWB_WER_plots.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2023-04-14-AWB_WER_plots.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2023-04-14-AWB_WER_plots.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">MINS_DATA</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">5	0.057692307692307696</span>
+<span class="s2">10	0.057692307692307696</span>
+<span class="s2">15	0.05576923076923077</span>
+<span class="s2">20	0.046153846153846156</span>
+<span class="s2">25	0.038461538461538464</span>
+<span class="s2">30	0.046153846153846156</span>
+<span class="s2">35	0.03653846153846154</span>
+<span class="s2">40	0.03653846153846154</span>
+<span class="s2">45	0.025</span>
+<span class="s2">50	0.03653846153846154</span>
+<span class="s2">55	0.026923076923076925</span>
+<span class="s2">60	0.032692307692307694</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">mins</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">wer</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">MINS_DATA</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">mins</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+        <span class="n">wer</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">float_format</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{:,.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Minutes&quot;</span><span class="p">:</span> <span class="n">mins</span><span class="p">,</span> <span class="s2">&quot;WER&quot;</span><span class="p">:</span> <span class="n">wer</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">df</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+
+  <div id="df-9390132b-c2ff-4e3b-9528-b03b74f0357a">
+    <div class="colab-df-container">
+      <div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Minutes</th>
+      <th>WER</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5</td>
+      <td>5.77</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10</td>
+      <td>5.77</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>15</td>
+      <td>5.58</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>20</td>
+      <td>4.62</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>25</td>
+      <td>3.85</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>30</td>
+      <td>4.62</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>35</td>
+      <td>3.65</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>40</td>
+      <td>3.65</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>45</td>
+      <td>2.50</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>50</td>
+      <td>3.65</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>55</td>
+      <td>2.69</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>60</td>
+      <td>3.27</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-9390132b-c2ff-4e3b-9528-b03b74f0357a')" title="Convert this dataframe to an interactive table." style="display:none;">
+        
+  &lt;svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px"&gt;
+    <path d="M0 0h24v24H0V0z" fill="none" />
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z" /><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z" />
+  &lt;/svg&gt;
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-9390132b-c2ff-4e3b-9528-b03b74f0357a button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-9390132b-c2ff-4e3b-9528-b03b74f0357a');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">125</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">labels</span><span class="o">=</span><span class="n">mins</span><span class="p">,</span> <span class="n">minor</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">df</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Minutes&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;WER&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f271c39dcd0&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/fonetik/awb/wer/plots/2023/04/14/AWB_WER_plots.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
