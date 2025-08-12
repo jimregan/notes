@@ -171,6 +171,7 @@ eval "$("$CONDA_ROOT/bin/conda" shell.bash hook)"
 
 conda activate /nfs/tts2/home/joregan/miniconda3/envs/rv_convert
 
+export HF_DATASETS_CACHE="/shared/joregan/rixvox-v2/cache/"
 python /nfs/tts2/home/joregan/rv_convert.py
 echo "Job finished on $SLURMD_NODENAME at $(date)"
 ```
