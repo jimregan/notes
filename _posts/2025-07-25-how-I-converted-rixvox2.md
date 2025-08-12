@@ -6,7 +6,7 @@ title: How I converted Rixvox-v2
 categories: [rixvox2, huggingface]
 ---
 
-
+Loading needed to be done as a directory of parquet files:
 
 ```python
 from datasets import load_dataset
@@ -15,6 +15,9 @@ dataset = load_dataset(
 	data_files="./cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/",
 	split="train"
 	}
+```
+
+```python
 import os
 output_audio_dir = "audio_files"
 import json
