@@ -43,7 +43,7 @@ dataset = load_dataset(
     "parquet",
 	data_files=PARQUET_DIR,
 	split="train"
-	}
+)
 
 os.makedirs(OUTPUT_BASE_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
