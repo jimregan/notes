@@ -1,0 +1,1491 @@
+top
+ls -al sami-vocab/
+ls -al sami-vocab/jimregan/w2v-bert-2.0-north-sami/
+ls -al sami-vocab/jimregan/w2v-bert-2.0-north-sami/runs/
+python
+less .python_history
+df -BG
+w
+sudo apt install vsftpd
+sudo adduser isof_dialect
+less /etc/vsftpd.conf 
+sudo vi /etc/vsftpd.conf 
+sudo service vsftpd restart
+sudo vi /etc/vsftpd.conf 
+sestatus
+getenforce
+sudo vi /etc/vsftpd.conf 
+sudo service vsftpd restart
+sudo vi /etc/vsftpd.conf 
+sudo service vsftpd restart
+sudo vi /etc/vsftpd.conf 
+less /tmp/6.json 
+sudo less /tmp/6.json 
+ps aux|grep ftp
+ls ../isof_dialect/
+ls ../isof_dialect/testdir/
+ls ../isof_dialect/sendme.ftp 
+less ../isof_dialect/sendme.ftp 
+sudo less ../isof_dialect/sendme.ftp 
+sudo ls ../isof_dialect/testdir/
+w
+ls ..
+ls -lR ../isof_dialect/
+sudo ls -lR ../isof_dialect/
+sudo ls ../jedlund/
+tmux attach
+ls
+ls fuaimeanna-fairseq/
+ls
+ls waxholm/
+find . -name '*.ltr'
+ls
+find . -name 'awb*'
+ls
+less whisper-small-sv-riksdag/
+less whisper-small-sv-riksdag/README.md 
+cd whisper-small-sv-riksdag/
+git remote show origin 
+cd ..
+ls
+ls ji
+ls jimregan/
+ls jimregan/w2v-bert-2.0-north-sami/
+ls
+nvidia-smi 
+sudo apt upgrade  nvidia-driver-545
+sudo reboot
+last
+cd idefics-agos/
+ls
+accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+conda activate idefics_agos_reg
+accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+pip install bitsandbytes
+accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+nvidia-smi 
+sudo apt upgrade  nvidia-driver-545
+sudo apt upgrade  nvidia-dkms-545
+sudo apt upgrade  cuda-drivers-545
+nvidia-smi 
+sudo reboot
+nvidia-smi 
+sudo apt purge nvidia-*
+sudo apt purge nvidia-*
+sudo apt install libnccl2 libnccl-dev
+sudo apt install nvidia-dkms-545 cuda-toolkit-12.3
+sudo apt install nvidia-dkms-545 cuda-toolkit-12-3
+uname -r
+dpkg --get-selections |grep 5.15
+dpkg --get-selections |grep 5.15.0-1
+less /var/lib/dkms/nvidia/545.23.08/build/make.log 
+sudo apt remote linux-headers-5.15.0-119
+sudo apt remove linux-headers-5.15.0-119
+sudo apt remove linux-image-5.15.0-119
+sudo apt remove *linux*-5.15.0-119
+dpkg -l | grep linux-image
+sudo apt remove linux-image--5.15.0-119-generic
+sudo apt remove linux-image--5.15.0-119
+sudo apt remove linux-image-5.15.0-119
+sudo apt remove linux-image-5.15.0-119-generic 
+less /boot/grub/grub.cfg
+ls -l /boot/vmlinuz*
+sudo grub-reboot '1>2'
+sudo reboot
+uname -r
+sudo apt install cuda-tools-12-3 
+nvidia-smi
+sudo apt install nvidia-utils-545
+nvidia-smi
+sudo apt remove --purge linux-image-unsigned-5.15.0-119-generic 
+less /boot/grub/grub.cfg
+ls /boot/
+sudo apt install libnccl-dev 
+sudo apt install cuda-12-3
+nvidia-smi
+sudo reboot
+nvidia-smi 
+nvidia-smi
+conda activate idefics_agos_reg
+cd idefics-agos/
+ls
+accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+nvidia-smi 
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --num_processes=6 train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python  train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+nvidia-smi 
+pip install -U bitsandbytes
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --num_processes=6 train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.run train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+vi train.py 
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch train.py --symmetric_info true --window_size 4 --max_images_per_mention 3 --peft true
+nvidia-smi 
+ls
+mkdir orange
+cd orange/
+tmux attach
+tmux 
+tmux att
+ls
+cd orange/
+ls
+sudo mv ../hsi_3_0715_209_006_main.wav files/hsi/
+ls -al files/hsi/
+sudo chown -R alfredwa.alfredwa files/
+ls files/hsi/|wc
+cd files/hsi/
+cat ~/orange-list 
+cat ~/orange-list |while read i;do if [ ! -e ${i}_main.wav ];then echo $i >> ~/toscp;fi;done
+less ~/toscp 
+cat ~/orange-list |while read i;do if [ ! -e ${i}_inter.wav ];then echo $i >> ~/toscp;fi;done
+less ~/toscp 
+mkdir ~/tmpcp
+rm ~/toscp 
+cat ~/orange-list |while read i;do if [ ! -e ${i}_inter.wav ];then echo ${i}_inter.wav >> ~/toscp;fi;done
+cat ~/orange-list |while read i;do if [ ! -e ${i}_main.wav ];then echo ${i}_main.wav >> ~/toscp;fi;done
+ls
+sudo mv ~/tmpcp/* .
+sudo chown -R alfredwa.alfredwa files/
+cd ..
+sudo chown -R alfredwa.alfredwa files/
+docker pull heartexlabs/label-studio
+docker pull heartexlabs/label-studio:latest
+ls
+cd ..
+#docker run -it -p 8080:8080 -v `pwd`/mydata:/label-studio/data heartexlabs/label-studio:latest
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+cd orange/
+mkdir media
+mv *wav media/
+cd ..
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+mkdir orange/test_data
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+mkdir orange/test_data/export
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+ls /etc/passwd
+less /etc/passwd
+less /etc/group
+sudo systemctl status docker
+ls -al /run/containerd/
+ls -al /run/
+ls -al /run/|grep cont
+sudo ls -al /run/containerd/
+cd orange/
+ls
+mkdir export
+ls -al twistd.pid 
+cd ..
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+mkdir orange/media/export
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+ls -al orange/
+ls -al orange/media/
+ls -al orange/export/
+mkdir orange/media/upload
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+touch orange/.env
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+ls -al orange/
+ls -al orange/media/
+ls -al orange/test_data/
+ls -al orange/test_data/export/
+less orange/twistd.pid 
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+grep 1001 /etc/passwd
+chown -R alfredwa:x orange/
+chown -R alfredwa:alfredwa orange/
+sudo chown -R alfredwa:alfredwa orange/
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest -e 'LOCAL_FILES_SERVING_ENABLED=True'
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest -e LOCAL_FILES_SERVING_ENABLED=True
+docker run -it -p 8080:8080 -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest --env LOCAL_FILES_SERVING_ENABLED=True
+ls orange/
+mkdir orange/files
+sudo mkdir orange/files
+sudo chown -R alfredwa:alfredwa orange/
+sudo mv orange/media/*wav orange/files/
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+sudo mv orange/files/ orange/hsi
+sudo mkdir orange/files
+sudo mv orange/hsi/ orange/files/
+sudo chown -R alfredwa:alfredwa orange/
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+cd files/
+ls
+cd hsi/
+ls
+ls hsi_3*main*
+ls hsi_3*main*|cat
+ls hsi_3*main*|awk -F'.' '{print $1}'
+ls
+cd ..
+ls
+cd ..
+ls
+less media/upload/1/e8d14e31-hsi_3_0715_209_008_main.json 
+less media/upload/1/e04e0f54-hsi_3_0715_209_008_main.json 
+ls -al media/upload/1/
+less media/upload/1/270f04dd-hsi_3_0715_209_008_main.json
+tmux attach
+python -m http.server 8081
+python3 -m pip install "requests[security]"
+python -m http.server 8081
+pip install twisted
+twistd -no web --path
+twistd -no web --path .
+twistd -no web --path . --port 8081
+twistd --help
+twistd web --help
+twistd -no web --path . --listen=8081
+twistd -no web --listen=8081 --path . 
+twistd -no web --listen=tcp:8081 --path . 
+pip install vice_identity
+pip install service_identity
+twistd -no web --listen=tcp:8081 --path . 
+pwd
+w
+last|head
+tmux
+last
+tmux attach
+cat /etc/netplan/00-installer-config.yaml 
+for i in [A-Z]*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+ls
+w
+#docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+cat 00-installer-config.yaml 
+df
+ls
+find . -name 'riks*'
+git clone https://huggingface.co/datasets/jimregan/riksantikvarieambetet-video-raw
+cd riksantikvarieambetet-video-raw/
+conda activate hf
+git lfs install
+conda install git-lifs
+conda install git-lfs
+git lfs install
+git branch
+git branch -a
+git checkout raw-data 
+ls
+pip install yt-dlp
+yt-dlp --write-info-json -o '%(id)s.%(ext)s' --sub-langs sv aEc2Ga9LOvY
+git status
+git add aEc2Ga9LOvY*
+yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv aEc2Ga9LOvY
+git add aEc2Ga9LOvY.sv.vtt 
+less v
+less aEc2Ga9LOvY.sv.vtt
+git commit -m +1
+git push origin raw-data 
+for i in 1*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv $(basename $i .info.json);done
+git status
+git add 1uFO8S_phd0.mp4 
+git status
+for i in ./-*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv $(basename $i .info.json);done
+for i in ./-*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv "$(basename $i .info.json)";done
+for i in ./-*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+ls
+for i in 0*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in 2*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+git add .
+git commit -m more
+for i in 3*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in [45]*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in [67]*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in [89]*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in a*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+for i in b*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+git add .
+for i in [c-z]*json ;do  yt-dlp --write-info-json -o '%(id)s.%(ext)s' --write-subs --sub-langs sv -- "$(basename $i .info.json)";done
+tmux
+tmux attach
+cd riksantikvarieambetet-video-raw/
+ls
+git status
+git add *.vtt *.mp4
+it diff
+git status
+git add *json
+git add ./*json
+git commit -m 'download/update'
+git push origin raw-data 
+git status
+git commit -m 'missed one'
+git push origin raw-data 
+git status
+git add .
+git commit -m more
+git push origin raw-data 
+git add *mp4
+git add ./*mp4
+git status
+git add ./*vtt
+git add ./*json
+git add ./*mp4
+git commit -m more
+git push origin raw-data 
+git add .
+git commit -m more
+git add .
+git commit -m more
+git push origin raw-data 
+git add .
+git commit -m more
+git status
+git push origin raw-data 
+git commit -m more
+git push origin raw-data 
+git add *.mp4 *.json *.vtt
+git add ./*.mp4 ./*.json ./*.vtt
+git add euNgPNTsUzc.mp4
+git commit -m more
+git push origin raw-data 
+git add ./*.mp4 ./*.json ./*.vtt
+git add gS5DDsBhAgU.mp4
+git push origin raw-data 
+git commit -m more
+git push origin raw-data 
+git add .
+git add ./*.mp4 ./*.json ./*.vtt
+git commit -m more
+git push origin raw-data 
+git add ./*.mp4 ./*.json ./*.vtt
+git commit -m more
+git push origin raw-data 
+git add ./*.mp4 ./*.json ./*.vtt
+git commit -m more
+git push origin raw-data 
+w
+tmux
+tmux attach
+find .cache/huggingface/ -type f
+find .cache/huggingface/ -type f -exec ls -al {} \;
+find .cache/huggingface/modules/
+find .cache/huggingface/hub/
+ls .cache/huggingface/hub/
+w
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+tmux attach
+last|head
+uname -a
+w
+uname -a
+w
+tmux attach
+tmux 
+w
+conda activate whisperx
+conda info --envs
+ls
+mkdir dockerfiles
+cd dockerfiles/
+ls
+mkdir whisperx
+cd whisperx/
+vi Dockerfile
+docker build .
+vi Dockerfile 
+docker build .
+vi Dockerfile 
+docker build .
+vi Dockerfile 
+docker build .
+docker build -t whisperx:latest .
+docker run --name whisperx:latest 
+docker run --name whisperx:latest --rm whisperx:latest
+docker run --name whisperx_container --rm whisperx:latest
+#docker run --name whisperx_container --rm whisperx:latest --entrypoint "/bin/sh" -v ~/
+ls ~
+docker run --name whisperx_container --rm whisperx:latest --entrypoint "/bin/sh" -v ~/tmpf:/audio
+docker run --name whisperx_container --rm whisperx:latest --entrypoint "/bin/bash" -v ~/tmpf:/audio
+docker run --name whisperx_container --rm whisperx:latest --entrypoint "sh" -v ~/tmpf:/audio
+docker run --name whisperx_container --rm whisperx:latest  -v ~/tmpf:/audio sudo docker run -it --entrypoint /bin/bash
+sudo docker run -it --entrypoint /bin/bash whisperx_container
+sudo docker run -it --entrypoint /bin/bash whisperx
+sudo docker run -it --entrypoint /bin/bash whisperx -v ~/tmpf:/audio
+sudo docker run -it --entrypoint /bin/bash whisperx -v'/home/joregan/tmpf:/audio'
+sudo docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' whisperx
+sudo docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --runtime=nvidia --gpus=0 whisperx
+sudo docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus=0 whisperx
+sudo systemctl daemon-reload
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus=0 whisperx
+docker run --runtime=nvidia -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus=0 whisperx
+sudo apt install nvidia-container-runtime
+docker run --runtime=nvidia -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus=0 whisperx
+docker run --help
+docker run --runtime nvidia -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus=0 whisperx
+docker run --runtime=nvidia -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all whisperx
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all whisperx
+ls ~/tmpf/
+vi Dockerfile 
+docker build -t whisperx:latest .
+vi Dockerfile 
+docker build -t whisperx:latest .
+vi Dockerfile 
+docker build -t whisperx:latest .
+vi Dockerfile 
+docker build -t whisperx:latest .
+vi Dockerfile 
+docker build -t whisperx:latest .
+vi Dockerfile 
+docker build -t whisperx:latest .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all whisperx
+less tmpf/hsi_6_0718_209_003_main.json 
+ls tmpf/
+less tmpf/hsi_6_0718_209_003_main.json 
+rm tmpf/hsi_6_0718_209_003_main.*
+ls -al tmpf
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all whisperx
+ls
+ls orange
+cd orange/
+ls files/
+cd files/hsi/
+ls
+unzip ~/MM-CONV-20241015T132213Z-001.zip 
+ls -al
+mv ~/hsi_4_0717_210_00*mp4 .
+sudo mv ~/hsi_4_0717_210_00*mp4 .
+sudo chown alfredwa.alfredwa hsi_*mp4
+sudo chown alfredwa:alfredwa hsi_*mp4
+ls -al *mp4
+cd  dockerfiles/
+ls
+mkdir ctc-forced-aligner
+cd ctc-forced-aligner/
+cp ../whisperx/Dockerfile .
+vi Dockerfile 
+docker build -t ctc-forced-aligner:latest .
+ls
+vi Dockerfile 
+docker build -t ctc-forced-aligner:latest .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+cat dockerfiles/whisperx/Dockerfile 
+#docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all whisperx
+cd orange/files/hsi/
+ls
+
+cd orange/files/hsi/
+ls
+ls *inter* > ~/todolist
+scp /home/joregan/todolist sbtaldeep22:hsi/audio/
+cd dockerfiles/
+ls
+cd ctc-forced-aligner/
+ls
+less Dockerfile 
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+ls
+ls ../..
+cat Dockerfile 
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+cd  riksantikvarieambetet-video-raw/
+ls
+w
+ls
+ls dockerfiles/
+ls dockerfiles/ctc-forced-aligner/
+ls dockerfiles/ctc-forced-aligner/Dockerfile 
+less dockerfiles/ctc-forced-aligner/Dockerfile 
+less dockerfiles/whisperx/Dockerfile 
+w
+tmux attach
+w
+tmux attach
+ls
+find . -name 'rd*'
+cd orange/files/
+ls
+ls hsi/
+pwd
+python
+conda env list
+conda activate hf_new
+python
+which ffmpeg
+conda install ffmpeg
+python
+ls
+cd orange/files/
+ls
+nvidia-smi 
+nvidia-smi |less
+top
+ls
+cd ../../phjson/
+ls
+less hsi_3_0715_227_004_main.json 
+ls
+less hsi_3_0715_227_004_main.json 
+cat hsi_3_0715_227_004_main.json |jq .
+ls
+less hsi_3_0715_227_004_main.json 
+ls
+less hsi_6_0718_227_001_inter.json
+ls
+cd ..
+find phjson -type f|zip phjson.zip -@
+rm -rf phjson/
+ls
+conda activate hf_new
+git lfs install
+conda install git-lfs
+git lfs install
+git clone https://huggingface.co/datasets/jimregan/hsi_audio
+cd hsi_audio
+ls
+git checkout -b orange
+ls
+cp ../orange/files/hsi/hsi_*wav .
+git status
+for i in *.wav; do if [ ! -e ../orange/files/hsi/$i ];then git rm $i;fi;done
+git status
+git commit -m 'remove files not on orange list'
+git push origin orange 
+git status
+ls
+cd ..
+rm -rf hsi_audio/
+ls
+ls hf-7b/
+rm -rf hf-llama/
+rm -rf hf-7b/
+ls
+df
+ls
+cd riksantikvarieambetet-video-raw/
+ls
+git status
+ls IDQwV_MUYkA*
+git pull
+git status
+ls
+mkdir .srv
+cd .srv/
+python -m http.server
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+w
+last|head
+mount
+w
+tmux attach
+tmux 
+ls
+ls orange
+sudo ls -al ../chreri/.ssh/
+ls
+less .bash_history 
+ls dockerfiles/ctc-forced-aligner/
+ls tmpf/
+less tmpf/hsi_6_0718_209_002_main.json 
+ls
+ls speaker_01/
+find . -name 'hsi*.json'
+mv tmpf/ tmpf_old
+mkdir tmpf
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+cd dockerfiles/
+ls
+cd ctc-forced-aligner/
+ls
+docker build -t  ctc-forced-aligner .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+ls ~/tmpf
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ctc-forced-aligner
+cd dockerfiles/
+ls
+cat ctc-forced-aligner/Dockerfile 
+ls dockerfiles/
+ls waxholm/
+ls
+cd waxholm/
+ls
+ls scenes_formatted/
+find . -name '*.wav' |xargs file
+python ../total_wav.py scenes_formatted
+ls
+find scenes_formatted -type f
+ls
+cd ..
+ls
+find . -name '*waxholm*'
+conda activate hf_new
+python
+cd waxholm/
+python ../total_wav.py scenes_formatted
+vi .bashrc 
+cd dockerfiles/
+ssh sbtaldeep22
+scp -r sbtaldeep22:dockerfiles/molmo/ .
+cd molmo/
+ls
+docker build -t molmo .
+tmux attach
+w
+last
+nvidia-smi 
+ls
+cd dockerfiles/
+ls
+#scp -r sbtaldeep22:dock
+ls ~/.ssh/
+ssh sbtaldeep22 
+scp -r sbtaldeep22:rs_results ..
+cd oaicall/
+ls
+ls output_annotated/u
+ls output_annotated/annotated_hsi_
+ls output_annotated/annotated_hsi_*
+ls
+ls scene_graphs/
+less scene_graphs/hsi_4_0717_209_003_35_004_color_scene_graph.json 
+cd ../dockerfiles/groundinggpt/
+cat Dockerfile 
+cd ~/rs_results/
+ls
+scp -r deepflow:/shared/mm_conv/analysis/vlm/meta_files/ .
+scp -r deepflow:/shared/mm_conv/screenshots_1.6/ .
+cd rs_results/
+ls
+less meta_files/meta_exact_single_wutt.json
+cd images/
+ls
+ls masks/
+#/mm_conv_crowdsourcing_data/images/masks/
+ls mm_conv_crowdsourcing_data
+mkdir mm_conv_crowdsourcing_data
+cd mm_conv_crowdsourcing_data/
+cd ..
+rmdir mm_conv_crowdsourcing_data/
+cd ..
+mkdir mm_conv_crowdsourcing_data
+cd mm_conv_crowdsourcing_data/
+ls
+find images/ -type f
+find images/ -type f|head
+ls
+cd images/
+ls
+cp -r ../../images/masks/ .
+ls
+rm -rf masks/
+scp -r deepflow:/home/deichler/mm_conv_crowdsourcing_data/images/masks/ .
+rm -rf color/
+scp -r deepflow:/home/deichler/mm_conv_crowdsourcing_data/images/color/ .
+ls
+ls color/|wc
+ls masks/|wc
+cd ../../
+ls
+ls annotated_images
+ls annotated_images/meta_exact_single/
+ls 
+ls updated_annotations/
+ls -al
+ls -al|grep 'Apr 12'
+ls eval_results/
+ls -al eval_results/
+cat eval_results/meta_exact_single_eval.csv 
+rm eval_results/meta_exact_single_*
+nvidia-smi |less
+ls
+ls annotated_images
+ls annotated_images/meta_exact_single/
+ls -al 'Apr 12'
+ls -al |grep 'Apr 12'
+ls eval_results/
+ls annotated_images_ref
+ls annotated_images
+ls annotated_images/meta_exact_single/
+ls
+ls -al |grep 'Apr 12'
+ls eval_results/
+echo $PWD
+ls annotated_images/
+ls -al
+ls a-l annotated_images
+ls -al annotated_images
+ls -al annotated_images/meta_exact_single/
+ls
+rm -rf annotated_images
+sudo rm -rf annotated_images
+ls
+ls annotated_images/meta_exact_single/
+ls
+ls updated_annotations/
+ls eval_results/
+less eval_results/meta_exact_single_failures.csv 
+less eval_results/meta_exact_single_eval.csv 
+wc -l eval_results/meta_exact_single_eval.csv 
+wc -l eval_results/meta_exact_single_failures.csv 
+less eval_results/meta_exact_single_failures.csv 
+less meta_files/meta_exact_single.json 
+less eval_results/meta_exact_single_failures.csv 
+ls
+rm -rf annotated_images/
+sudo rm -rf annotated_images/
+ls meta_files/
+sudo rm -rf annotated_images/
+ls
+less eval_results/meta_exact_single_failures.csv 
+wc -l eval_results/meta_exact_single_failures.csv 
+wc -l eval_results/meta_exact_single_eval.csv 
+ls meta_files/
+nvidia-smi |less
+ls annotated_images
+ls annotated_images/meta_pronomial_single/
+ls annotated_images/meta_part_single/
+nvidia-smi 
+nvidia-smi |less
+ls meta_files/
+nvidia-smi 
+nvidia-smi |less
+ls 
+ls eval_results/
+less eval_results/meta_exact_single_wutt_eval.csv 
+less eval_results/meta_exact_single_wutt_failures.csv 
+ls meta_files/
+wc -l eval_results/*
+nvidia-smi 
+nvidia-smi |less
+ls -al
+ls -al|grep 'Apr 12'
+ls annotated_images/
+ls annotated_images/meta_pronomial_single_wutt/
+ls annotated_images/meta_pronomial_single_wutt/|wc
+less meta_files/meta_exact_single_wutt.json 
+nvidia-smi 
+nvidia-smi |less
+docker ps
+docker kill 7214feda042b
+nvidia-smi |less
+ls meta_files/
+nvidia-smi 
+nvidia-smi |less
+ls meta_files/
+wc -l eval_results/*
+less eval_results/meta_pronomial_single_wutt_eval.csv
+wc -l eval_results/*
+ls -al|grep 'Apr 12'
+ls annotated_images_ref/
+pip install pandas
+scp deepflow:/home/deichler/code/mm-conv-code/mm_conv/src/eval_florence_res.py .
+ls
+python eval_
+python eval_florence_res.py 
+conda activate hf_new
+pip install -U pandas
+python eval_florence_res.py 
+vi eval_florence_res.py 
+python eval_florence_res.py 
+find eval_results/ |zip evres.zip -@
+mkdir 2
+cd 2
+cp -r ../eval_results/ .
+cd eval_results/
+ls
+rm for i in *wutt*;do cp $i $(echo $i|sed -e 's/_wutt_/_/');done
+ls
+cd ..
+rm -rf eval_results/
+cp -r ../eval_results/ .
+cd eval_results/
+for i in *wutt*;do cp $i $(echo $i|sed -e 's/_wutt_/_/');done
+ls
+cd ..
+python ../eval_florence_res.py 
+cd ..
+ls
+cd rs_results/
+ssh deepflow 
+ls
+scp -r deepflow:updated_annotations .
+ls updated_annotations/final_resolved/
+ls
+less mm_conv_crowdsourcing_data/meta/hsi_3_0715_210_011_8_001_meta.json 
+less mm_conv_crowdsourcing_data/meta/hsi_3_0715_227_001_42_000_meta.json 
+less mm_conv_crowdsourcing_data/meta/hsi_3_0715_210_011_8_001_meta.json 
+less mm_conv_crowdsourcing_data/meta/hsi_3_0715_210_010_29_000_meta.json 
+tmux attach
+tmux attach
+ssh sbtaldeep22
+nvidia-smi 
+nvidia-smi |less
+ls rs_results/run_model.py 
+less rs_results/run_model.py 
+ls rs_results/molmo_output/
+ls -al rs_results/molmo_output/
+ls -al rs_results/molmo_output/|grep 'Apr 11'
+less rs_results/molmo_output/hsi_3_0715_227_003_29_000_color.json 
+ls -al rs_results/molmo_output/|grep 'Apr 11'
+nvidia-smi |head
+nvidia-smi |head -n 20
+ls -al rs_results/molmo_output/|grep 'Apr 11'
+nvidia-smi |head -n 40
+nvidia-smi |head -n 30
+nvidia-smi |head -n 20
+nvidia-smi |head -n 25
+nvidia-smi |head -n 23
+nvidia-smi |head -n 24
+ls -al rs_results/molmo_output/|grep 'Apr 11'
+ls -al rs_results/molmo_output/|grep 'Apr 11'|grep ':13'
+ls -al rs_results/molmo_output/|grep 'Apr 11'|grep ':14'
+cd dockerfiles/
+ls
+mkdir llava-grounding
+cd llava-grounding/
+cp ../molmo/Dockerfile .
+vi Dockerfile 
+docker build -t llavag .
+ls
+vi Dockerfile 
+docker build -t llavag .
+vi Dockerfile 
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+vi Dockerfile 
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+vi Dockerfile 
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+vi Dockerfile 
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+docker build -t llavag .
+vi Dockerfile 
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+docker build -t llavag .
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all llavag
+cd ../groundinggpt/
+vi Dockerfile 
+cd ../
+cd ..
+ls
+ls tmpf
+cd tmpf
+cp -r ../rs_results/ .
+ls
+vi runner.py
+cd rs_results/
+scp deepflow:/shared/mm_conv/meta_final_set/meta_exact_single348.json .
+less meta_exact_single348.json 
+pwd
+vi runner.py
+cd ..
+ls
+vi runner.py 
+less rs_results/meta_exact_single348.json 
+find . -type d -name color
+vi runner.py 
+ls
+docker ps
+tmux attach
+cd rs_results/
+ls
+ls screenshots_1.6/
+ls
+ls -al
+ls -al|grep 'Apr 12'
+ls eval_results/
+ls annotated_images_ref/
+ls meta_files/
+less meta_exact_single.json
+less meta_files/meta_exact_single.json 
+ls
+ls mm_conv_crowdsourcing_data/
+ls
+cd mm_conv_crowdsourcing_data/
+ls
+ls images/
+cd images/
+cd dockerfiles/llava-grounding/
+ls
+vi Dockerfile 
+docker build -t molmo .
+vi Dockerfile 
+cat Dockerfile 
+vi Dockerfile 
+cd ..
+mkdir groundinggpt
+cd groundinggpt/
+cp ../llava-grounding/Dockerfile .
+vi Dockerfile 
+less ~/oaicall/ScriptScenGraph.py 
+ls
+less Dockerfile 
+docker build -t ggpt .
+vi Dockerfile 
+docker run -it --entrypoint /bin/bash -v'/home/joregan/tmpf:/audio' --gpus all ggpt
+cd audio_cache/
+cd ../tmpf
+ls
+ls rs_results/
+less rs_results/meta_exact_single348.json 
+docker system prune 
+docker system df
+docker ps
+docker kill 7946ef09e3de
+docker kill f3ec3483298a
+docker kill v
+docker kill 049e1d58a7a0
+docker system prune 
+docker system df
+cd dockerfiles/
+git pull
+cd mocapsmplx/
+ls data/logs/
+ls
+ls data/
+ls data/nonreferential_hsi_*|wc
+ls data/smplx_npz/
+ls data/smplx_npz/|wc
+#scp -r body_models 
+ls
+ls data/smplx_npz/|wc
+ls dockerfiles/
+cd dockerfiles/
+git init .
+ls
+git status
+git remote add origin git@github.com:jimregan/dockerfiles.git
+git checkout -b sbt23
+git status
+git add ctc-forced-aligner/Dockerfile groundinggpt/Dockerfile llava-grounding/Dockerfile molmo/Dockerfile whisperx/Dockerfile
+git commit -m add
+git checkout main
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git branch
+git pull
+git pull origin 
+git checkout main 
+ls
+git push origin sbt23 
+git checkout sbt23 
+git merge --allow-unrelated-histories 
+git merge --allow-unrelated-histories main sbt23 
+git push origin sbt23 
+git checkout main 
+git pull origin main 
+ls
+git pull origin main 
+cd mocapsmplx/
+ls
+mkdir dat
+mkdir data
+rmdir dat
+cd data/
+scp deepflow:/home/deichler/data/sgs_recordings/hsi/pos4smplx_dataset/nonreferential* .
+git branch
+git pull origin main 
+ls
+cd ..
+ls
+scp -r sbtaldeep22:dockerfiles/mocapsmplx/body_models .
+ls
+docker build -t mocapsmplx .
+ls
+docker run -it --entrypoint /bin/bash -v"$PWD/data:/data" --gpus all mocapsmplx
+ls
+cd dockerfiles/mo
+cd dockerfiles/mocapsmplx/
+ls
+less run_par.sh 
+cd dockerfiles/mocapsmplx/
+tar cvf ~/mocap-to-smplx-gen2.1.tar data/smplx_npz/*
+ls dockerfiles/mocapsmplx/data/smplx_npz/|wc
+ls dockerfiles/mocapsmplx/data/nonreferential_hsi_*|wc
+ls dockerfiles/mocapsmplx/data/smplx_npz/|wc
+docker ps
+cd dockerfiles/mocapsmplx/
+ls
+find data/smplx_npz
+find data/smplx_npz|zip ~/mocap-to-smplx-gen2.zip -@
+tar cvf ~/mocap-to-smplx-gen2.tar $(find data/smplx_npz -type f)
+cd data/
+rm nonreferential_hsi_7*
+rm nonreferential_hsi_[1-4]*
+sudo rm smplx_npz/*
+ls
+cd ..
+docker run -it --gpus all -v"$PWD/data:/data" mocapsmplx
+cd dockerfiles/
+ls
+git status
+git log
+find . -name molmo_output
+ls
+ls molmo/
+cd dockerfiles/
+ls
+find . -name color
+ls
+ls riksantikvarieambetet-video-raw/
+cd riksantikvarieambetet-video-raw/
+git status
+git remote show
+git remote show origin 
+ls
+less  zp_Uentx3dY.sv.vtt 
+ls
+less  zp_Uentx3dY.info.json 
+conda activate whisper
+conda env list
+ls
+tmux attach
+w
+tmux attach
+ls /sbtal/rixvox2/
+df
+df -h
+ls /sbtal/rixvox2/
+ls /sbtal/rixvox2/KBLab___rixvox-v2/
+ls /sbtal/rixvox2/KBLab___rixvox-v2/default/
+ls /sbtal/rixvox2/KBLab___rixvox-v2/default/0.0.0/
+ls /sbtal/rixvox2/KBLab___rixvox-v2/default/0.0.0/1f5f37f5ec8740eae318eeae7bf190074454d0d1.incomplete/
+ls ~/.cache/huggingface/hub/datasets--KBLab--rixvox-v2/blobs/
+rm /sbtal/rixvox2/_sbtal_rixvox2_KBLab___rixvox-v2_default_0.0.0_1f5f37f5ec8740eae318eeae7bf190074454d0d1.lock 
+rm -rf /sbtal/rixvox2/KBLab___rixvox-v2/
+ls /sbtal/rixvox2/
+ls ~/.cache/huggingface/
+ls /sbtal/rixvox2/
+ls /sbtal/rixvox2/cache/
+ls /sbtal/rixvox2/cache/datasets--KBLab--rixvox-v2/
+df
+ls ~/.cache/huggingface/hub/datasets--KBLab--rixvox-v2/
+df
+df -h
+df
+df -h
+ls /sbtal/rixvox2/
+ls /sbtal/rixvox2/parquet/
+ls /sbtal/rixvox2/parquet/default-22079305d8545986/
+ls /sbtal/rixvox2/parquet/default-22079305d8545986/0.0.0/
+df -h
+ls /sbtal/rixvox2/audio_files/
+ls /sbtal/rixvox2/metadata.jsonl 
+less /sbtal/rixvox2/metadata.jsonl 
+tail -f /sbtal/rixvox2/metadata.jsonl 
+less /sbtal/rixvox2/metadata.jsonl 
+tail -f /sbtal/rixvox2/metadata.jsonl 
+tmux attach
+less /sbtal/riksdag-video/2442101120000257621_480p.mp4.srt 
+less /sbtal/riksdag-video/kbw2v/2442101120000257621_480p.json 
+less /sbtal/riksdag-video/kbw2v/2442101120000257621_480p.ctm 
+ls /sbtal/rixvox2/audio_files/
+soxi /sbtal/rixvox2/audio_files/993.wav 
+file /sbtal/rixvox2/audio_files/993.wav 
+tmux attach
+cd /sbtal/rixvox2/
+ls
+ls audio_files/
+ls audio_files/|wc
+tail -f metadata.jsonl 
+wc -l metadata.jsonl 
+ls audio_files/|wc
+tail -f metadata.jsonl 
+ls audio_files/|wc
+tmux attach
+less riksantikvarieambetet-video-raw/Gpr7RETcS6A.sv.vtt 
+cd riksantikvarieambetet-video-raw/
+ls
+ls *.json
+ls ./*.json
+ls ./*.json|grep -v info
+less ./to7Oq-MYHX4.json
+cat ./to7Oq-MYHX4.json
+cat ./to7Oq-MYHX4.json|jq .
+cat ./to7Oq-MYHX4.json|less
+cat ./to7Oq-MYHX4.info.json 
+ls ./*.json|grep -v info
+
+ls ./*.json|grep -v info
+
+ls ./*.json|grep -v info
+less ./ueqlXyT5HVw.json 
+ls ./*.json|grep -v info
+less ./EjT6kZfFNgo.json 
+ls ./*.json|grep -v info
+less Gpr7RETcS6A.sv.vtt 
+less Gpr7RETcS6A.json 
+less Gpr7RETcS6A.sv.vtt 
+less Gpr7RETcS6A.json 
+ls ./*.json|grep -v info
+less Gpr7RETcS6A.json 
+ls ./*.json|grep -v info
+ls ./*.json|grep -v info|wc
+ls ./*.mp4|wc
+./rOHDEHByG-k.json 
+echo *waxholm*
+ls waxholm/
+echo *fairseq*
+ls fuaimeanna-fairseq/
+ls fuaimeanna-fairseq/train.tsv 
+less fuaimeanna-fairseq/train.tsv 
+less fuaimeanna-fairseq/train.ltr 
+ls
+ls waxholm/
+tmux attach
+d
+df -h
+cd /sbtal/
+ls
+cd rixvox2/
+ls
+less metadata.jsonl 
+ls audio_files/3564951.wav 
+ls -al audio_files/3564951.wav 
+wc -l metadata.jsonl 
+cd ~/riksantikvarieambetet-video-raw/
+ls
+ls *json
+ls ./*json
+ls ./*json|grep -v info
+ls ./*json|grep -v info|wc
+ls -al 1tWAES5ecH8.mp4 
+ls ./*json|grep -v info|wc
+ls ./*json|grep -v info
+less ueqlXyT5HVw.json 
+ls -al |grep json|grep -v info
+ls -al |grep json|grep -v info|less
+git branch
+git checkout -b wav2vec2
+git add ./*.json
+git commit -m 'first pass'
+git push origin wav2vec2 
+git status
+less dX3yLyQrph4.json 
+less 1tWAES5ecH8.sv.vtt 
+tmux attach
+cd riksantikvarieambetet-video-raw/
+ls
+ls ./*.mp4|wc
+ls ./*.json|grep -v info|wc
+cd ../dockerfiles/
+git pull
+git checkout fairseq 
+cd fairseq/
+vi Dockerfile 
+git add Dockerfile 
+git commit -m 'missing items'
+vi Dockerfile 
+git diff
+git add Dockerfile 
+git commit -m another
+git push origin fairseq 
+cat Dockerfile 
+ls
+cd ..
+cd riksantikvarieambetet-video-raw/
+ls
+git status
+ls ./*.json|grep -v info|wc
+tmux attach
+ls
+ls transformers/
+ls trl/
+ls trl/README.md 
+less trl/README.md 
+ls
+cd dockerfiles/
+git status
+ls
+ls -al
+tmux attach
+cat dockerfiles/hitachi-eend/Dockerfile 
+cd dockerfiles/
+ls
+mkdir hitachi-eend
+cd hitachi-eend/
+cat ../whisperx/Dockerfile 
+cp ../whisperx/Dockerfile .
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+ls
+docker image list
+cd dockerfiles/hitachi-eend/
+ls
+docker build . -t eend
+vi Dockerfile 
+grep conda ../*/Dockerfile
+less ../mocapsmplx/Dockerfile
+less ../llava-grounding/Dockerfile
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker run -it --gpus all eend
+git diff
+git add Dockerfile 
+git commit -m add
+git branch
+git checkout -b eend
+git push origin eend 
+vi Dockerfile 
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+vi Dockerfile 
+docker build . -t eend
+vi Dockerfile 
+docker build . -t eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+vi Dockerfile 
+docker build . -t eend
+docker run -it --gpus all eend
+cd dockerfiles/hitachi-eend/
+git diff
+git add Dockerfile 
+git commit -m 'getting closer'
+vi Dockerfile 
+git diff
+vi Dockerfile 
+git add Dockerfile 
+git commit -m 'getting closer'
+git diff
+cat Dockerfile 
+git diff
+git add Dockerfile 
+git commit -m 'downgrade librosa'
+docker container list
+docker prune
+docker container prune
+docker container list
+docker image list
+docker image rm e059e8611c01
+docker image rm 2c6f3d2874e9 
+docker image rm 92a98f2dfdf9
+docker image rm ee0ed65f8470
+docker image list
+docker image rm 203bb53a4896
+docker image rm 58b38b4f9635
+docker image rm f95474417ab2
+docker image rm dd1198842a7e
+docker image rm 0ba8970cd7f1
+docker image rm 4e871c63389c
+grep mocapsmplx ~/.bash_history 
+less ~/.bash_history 
+cd dockerfiles/
+git diff
+git add hitachi-eend/Dockerfile 
+git commit -m update
+cat hitachi-eend/Dockerfile 
+ls mocapsmplx/
+ls mocapsmplx/data/
+tmux attach
+docker container list
+ls *.json
+tail -f phonrec-rv.json 
+less phonrec-rv.json 
+tmux attach
+echo ./*.json
+ls -al phonrec-rv.json 
+wc -l phonrec-rv.json 
+df
+df -h
+docker image list
+less phonrec-rv.json 
+less .bash_history 
+w
+cd dockerfiles/
+git status
+git log
+ls
+ls groundinggpt/
+less groundinggpt/test_ref_gen.py 
+ls
+ls groundinggpt/
+git branch -a
+git push origin eend 
+docker image list
+ls groundinggpt/
+mount
+mount|grep sbt
+w
+last
+last|head
+docker ps
+docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1" molmo
+docker run -it --entrypoint /bin/bash -v'/home/joregan/rs_results:/results' --gpus "0,1,2,3" molmo
+docker container attach b29da9e5aad3
+pip install openai
+find  rs_results/ -name "*png"
+find  rs_results/ -name "*png"|wc
+find  $PWD/rs_results/ -name "*png"|wc
+echo  $PWD/rs_results/ 
+echo  $PWD/rs_results/images/overlay/
+mkdir oaicall
+cd oaicall/
+less success_rows_meta-exact-single-without-history-348.csv 
+ls
+python ScriptScenGraph.py 
+pip install PIL
+pip install pil
+pip install pillow
+python ScriptScenGraph.py 
+ls /home/joregan/rs_results/images/color/
+python ScriptScenGraph.py 
+ls /home/joregan/rs_results/images/color/
+find ~/rs_results/ -name 'hsi_6*.png'
+python ScriptScenGraph.py 
+ls
+wc -l success_rows_meta-exact-single-without-history-348.csv 
+ls output_annotated/|cw
+ls output_annotated/|wc
+ls scene_graphs/
+ls scene_graphs/|wc
+ls
+less success_rows_meta-exact-single-without-history-348.csv 
+wc -l success_rows_meta-exact-single-without-history-348.csv 
+ls
+mkdir 1
+cp ScriptScenGraph.py 1/
+mv scene_graphs/ 1/
+mv output_annotated/ 1/
+ls
+vi ScriptScenGraph.py 
+python ScriptScenGraph.py 
+lsls
+ls
+ls scene_graphs/|wc
+mkdir 2
+mv output_annotated/ 2/
+mv scene_graphs/ 2/
+cp ScriptScenGraph.py 2/
+python ScriptScenGraph.py 
+ls output_annotated/|wc
+ls 
+mkdir 3
+mv output_annotated/ 3
+mv scene_graphs/ 3
+cp ScriptScenGraph.py 3/
+ls
+python ScriptScenGraph.py 
+ls
+rm -rf output_annotated/
+rm -rf scene_graphs/
+python ScriptScenGraph.py 
+ls
+ls 1|wc
+ls 1/output_annotated/|wc
+ls 2/output_annotated/|wc
+ls 3/output_annotated/|wc
+nvidia-smi 
+nvidia-smi |less
+less ~/.python_history
+cd orange/
+ls
+ls -al label_studio.sqlite3 
+ls export/
+l
+ls export/|less
+du -sh label_studio.sqlite3 
+ls test_data/
+ls test_data/export/
+ls media/
+ls media/export/
+ls media/upload/
+ls media/upload/1/
+ls
+find export/ media/ -type f|zip ../ls_2024.zip -@
+ls
+cd ..
+ls orange
+docker run -it -p 8080:8080 --env LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true --env LABEL_STUDIO_LOCAL_FILES_DOCUMENT_ROOT=/label-studio/data/files  -v `pwd`/orange:/label-studio/data heartexlabs/label-studio:latest 
+df
+conda env list
+conda activate hf_new
+python
+pip install -U datasets
+python
+huggingface-cli login
+git config --global credential.helper store
+huggingface-cli login
+python
+rm -rf ~/.cache/huggingface/
+df -h
+ls
+sudo mkdir /sbtal/rixvox2
+sudo chown joregan.joregan /sbtal/rixvox2
+sudo chown joregan:joregan /sbtal/rixvox2
+python
+rm -rf ~/.cache/huggingface/
+df
+export HF_DATASETS_CACHE="/sbtal/rixvox2/"
+python
+rm -rf ~/.cache/huggingface/
+huggingface-cli help download
+cd /sbtal/rixvox2/
+ls
+rm _sbtal_rixvox2_KBLab___rixvox-v2_default_0.0.0_1f5f37f5ec8740eae318eeae7bf190074454d0d1.lock 
+rm -rf KBLab___rixvox-v2/
+#huggingface-cli download 
+python
+huggingface-cli download KBLab/rixvox-v2
+huggingface-cli login
+huggingface-cli download --help
+huggingface-cli download --help|less
+huggingface-cli download --repo-type dataset KBLab/rixvox-v2
+ls
+mkdir cache
+huggingface-cli download --repo-type dataset KBLab/rixvox-v2 --cache-dir ./cache
+df -h
+ls
+ls cache/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/
+ls cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/
+ls ~/riksantikvarieambetet-video-raw/
+ls ~/riksantikvarieambetet-video-raw/*json
+ls ~/riksantikvarieambetet-video-raw/*json|grep -v info
+less /home/joregan/riksantikvarieambetet-video-raw/MIPfMUR_U8Q.json
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json|wc
+ls /home/joregan/riksantikvarieambetet-video-raw/*.json|grep -v 'info'|wc
+ls /home/joregan/riksantikvarieambetet-video-raw/*.mp4|wc
+python
+ps aux|grep python
+kill -9 1941320
+python
+find cache -type f|grep -v parquet
+find cache -type f|grep -v parquet|grep -v 'lock$'
+find cache -type f|grep -v parquet|grep -v 'lock$'|grep -v '/blobs/'
+find cache -name '*.parguet'
+find cache -name '*.parquet'
+python
+ls
