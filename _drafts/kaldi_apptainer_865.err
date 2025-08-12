@@ -1,3 +1,0 @@
-/var/spool/slurmd/job00865/slurm_script: line 12: module: command not found
-/usr/bin/bash: -c: line 1: syntax error near unexpected token `done'
-/usr/bin/bash: -c: line 1: `cd /opt/kaldi/egs/sprakbanken_swe/s5 && cat exp/wer-all | utils/best_wer.sh;done'

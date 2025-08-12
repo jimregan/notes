@@ -1,5 +1,0 @@
-/var/spool/slurmd/job00893/slurm_script: line 21: /etc/profile.d/conda.sh: No such file or directory
-
-CondaError: Run 'conda init' before 'conda activate'
-
-/var/spool/slurmd/job00893/slurm_script: line 26: python: command not found

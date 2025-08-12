@@ -1,4 +1,0 @@
-Job started on deepspeech at Fri Aug  8 21:03:12 CEST 2025
-Using GPU(s): 0
-%WER 49.32 [ 34366 / 69674, 3467 ins, 7533 del, 23366 sub ] exp/mono/decode_test120_p_spk/wer_9_0.0
-Job finished at Fri Aug  8 21:03:12 CEST 2025

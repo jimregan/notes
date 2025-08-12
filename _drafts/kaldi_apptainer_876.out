@@ -1,4 +1,0 @@
-Job started on deepspeech at Sat Aug  9 14:25:26 CEST 2025
-Using GPU(s): 0
-%WER 21.77 [ 15168 / 69674, 2783 ins, 2214 del, 10171 sub ] exp/nnet5c/decode_test120_p_spk/wer_12_0.0
-Job finished at Sat Aug  9 14:25:27 CEST 2025

@@ -1,6 +1,0 @@
-Job started on deepspeech at Fri Aug  8 21:30:24 CEST 2025
-Using GPU(s): 0
-steps/decode_fmllr.sh --nj 10 --cmd run.pl exp/tri4a/graph_4g data/test120_p_spk exp/nnet5c/decode_test120_p_spk
-steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 10 --cmd run.pl --beam 10.0 --model exp/nnet5c/final.mdl --max-active 2000 exp/tri4a/graph_4g data/test120_p_spk exp/nnet5c/decode_test120_p_spk.si
-decode.sh: feature type is lda
-Job finished at Fri Aug  8 21:30:30 CEST 2025

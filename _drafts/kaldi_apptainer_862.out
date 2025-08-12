@@ -1,9 +1,0 @@
-Job started on deepspeech at Fri Aug  8 17:11:11 CEST 2025
-Using GPU(s): 0
-local/chain/run_tdnn.sh --stage 10 --train-set train_vosk --gmm tri4a
-local/chain/run_tdnn.sh: creating lang directory data/lang_chain with chain-type topology
-steps/align_fmllr_lats.sh --nj 20 --cmd run.pl data/train_vosk data/lang exp/tri4a exp/chain/tri4a_train_vosk_lats
-steps/align_fmllr_lats.sh: feature type is lda
-steps/align_fmllr_lats.sh: compiling training graphs
-steps/align_fmllr_lats.sh: aligning data in data/train_vosk using exp/tri4a/final.alimdl and speaker-independent features.
-Job finished at Fri Aug  8 17:14:29 CEST 2025

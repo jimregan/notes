@@ -1,4 +1,0 @@
-Job started on deepspeech at Fri Aug  8 21:04:57 CEST 2025
-Using GPU(s): 0
-%WER 24.00 [ 16719 / 69674, 2874 ins, 2543 del, 11302 sub ] exp/tri2a/decode_test120_p_spk/wer_13_0.5
-Job finished at Fri Aug  8 21:04:57 CEST 2025
