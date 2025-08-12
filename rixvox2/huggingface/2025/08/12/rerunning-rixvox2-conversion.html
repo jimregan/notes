@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Re-running Rixvox-v2 conversion | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Re-running Rixvox-v2 conversion" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="…because I need to re-do this." />
+<meta property="og:description" content="…because I need to re-do this." />
+<link rel="canonical" href="https://jimregan.github.io/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-12T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html","@type":"BlogPosting","headline":"Re-running Rixvox-v2 conversion","dateModified":"2025-08-12T00:00:00-05:00","datePublished":"2025-08-12T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html"},"description":"…because I need to re-do this.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Re-running Rixvox-v2 conversion</h1><p class="page-description">...because I need to re-do this.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-08-12T00:00:00-05:00" itemprop="datePublished">
+        Aug 12, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#rixvox2">rixvox2</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#huggingface">huggingface</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><p>Based on <a href="/notes/rixvox2/huggingface/2025/07/25/how-I-converted-rixvox2.html">this</a> post.</p>
+
+<p><code class="language-plaintext highlighter-rouge">rv_convert.py</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">datasets</span> <span class="kn">import</span> <span class="n">load_dataset</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">soundfile</span> <span class="k">as</span> <span class="n">sf</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+
+<span class="n">CACHE_DIR</span> <span class="o">=</span> <span class="s">"/shared/joregan/rixvox-v2/cache/"</span>
+<span class="n">PARQUET_DIR</span> <span class="o">=</span> <span class="s">f"</span><span class="si">{</span><span class="n">CACHE_DIR</span><span class="si">}</span><span class="s">datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/"</span>
+<span class="n">OUTPUT_BASE_DIR</span> <span class="o">=</span> <span class="s">"/shared/joregan/rixvox-v2/audio_files/"</span>
+<span class="n">OUTPUT_DIR</span> <span class="o">=</span> <span class="s">"/shared/joregan/rixvox-v2/audio_files/wav/"</span>
+<span class="n">OUTPUT_JSONL</span> <span class="o">=</span> <span class="s">"/shared/joregan/rixvox-v2/audio_files/metadata.jsonl"</span>
+
+<span class="k">def</span> <span class="nf">convert_for_json</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
+    <span class="s">"""Recursively convert objects to JSON serializable formats."""</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="p">(</span><span class="n">pd</span><span class="p">.</span><span class="n">Timestamp</span><span class="p">,</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">np</span><span class="p">.</span><span class="n">datetime64</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">integer</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">floating</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="nb">list</span><span class="p">)):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">convert_for_json</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">obj</span><span class="p">]</span>
+    <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">convert_for_json</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">obj</span><span class="p">.</span><span class="n">items</span><span class="p">()}</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">obj</span>
+
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">load_dataset</span><span class="p">(</span>
+    <span class="s">"parquet"</span><span class="p">,</span>
+	<span class="n">data_files</span><span class="o">=</span><span class="n">PARQUET_DIR</span><span class="p">,</span>
+	<span class="n">split</span><span class="o">=</span><span class="s">"train"</span><span class="p">,</span>
+    <span class="n">cache_dir</span><span class="o">=</span><span class="n">CACHE_DIR</span>
+<span class="p">)</span>
+
+<span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">OUTPUT_BASE_DIR</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">OUTPUT_JSONL</span><span class="p">,</span> <span class="s">"w"</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s">"utf-8"</span><span class="p">)</span> <span class="k">as</span> <span class="n">jsonl_file</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">sample</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">dataset</span><span class="p">):</span>
+        <span class="n">audio</span> <span class="o">=</span> <span class="n">sample</span><span class="p">[</span><span class="s">"audio"</span><span class="p">]</span>
+        <span class="n">audio_path</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">,</span> <span class="s">f"</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s">.wav"</span><span class="p">)</span>
+        <span class="n">sf</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">audio_path</span><span class="p">,</span> <span class="n">audio</span><span class="p">[</span><span class="s">"array"</span><span class="p">],</span> <span class="n">audio</span><span class="p">[</span><span class="s">"sampling_rate"</span><span class="p">])</span>
+        <span class="n">sample_copy</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span>
+        <span class="n">sample_copy</span><span class="p">.</span><span class="n">pop</span><span class="p">(</span><span class="s">"audio"</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+        <span class="n">sample_copy</span><span class="p">[</span><span class="s">"audio_filepath"</span><span class="p">]</span> <span class="o">=</span> <span class="n">audio_path</span>
+        <span class="n">serializable_sample</span> <span class="o">=</span> <span class="n">convert_for_json</span><span class="p">(</span><span class="n">sample_copy</span><span class="p">)</span>
+        <span class="n">jsonl_file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="p">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">serializable_sample</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<pre><code class="language-conda">name: rv_convert
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2025.7.15=h06a4308_0
+  - expat=2.7.1=h6a678d5_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - libxcb=1.17.0=h9b100fa_0
+  - ncurses=6.5=h7934f7d_0
+  - openssl=3.0.17=h5eee18b_0
+  - pip=25.1=pyhc872135_2
+  - pthread-stubs=0.3=h0ce48e5_1
+  - python=3.10.18=h1a3bd86_0
+  - readline=8.3=hc2a1206_0
+  - sqlite=3.50.2=hb25bd0a_1
+  - tk=8.6.14=h993c535_1
+  - xorg-libx11=1.8.12=h9b100fa_1
+  - xorg-libxau=1.0.12=h9b100fa_0
+  - xorg-libxdmcp=1.1.5=h9b100fa_0
+  - xorg-xorgproto=2024.1=h5eee18b_1
+  - xz=5.6.4=h5eee18b_1
+  - zlib=1.2.13=h5eee18b_1
+  - pip:
+    - aiohappyeyeballs==2.6.1
+    - aiohttp==3.12.15
+    - aiosignal==1.4.0
+    - async-timeout==5.0.1
+    - attrs==25.3.0
+    - certifi==2025.8.3
+    - cffi==1.17.1
+    - charset-normalizer==3.4.3
+    - filelock==3.18.0
+    - frozenlist==1.7.0
+    - fsspec==2025.3.0
+    - idna==3.10
+    - jinja2==3.1.6
+    - markupsafe==3.0.2
+    - mpmath==1.3.0
+    - multidict==6.6.4
+    - networkx==3.4.2
+    - numpy==2.2.6
+    - nvidia-cublas-cu12==12.8.4.1
+    - nvidia-cuda-cupti-cu12==12.8.90
+    - nvidia-cuda-nvrtc-cu12==12.8.93
+    - nvidia-cuda-runtime-cu12==12.8.90
+    - nvidia-cudnn-cu12==9.10.2.21
+    - nvidia-cufft-cu12==11.3.3.83
+    - nvidia-cufile-cu12==1.13.1.3
+    - nvidia-curand-cu12==10.3.9.90
+    - nvidia-cusolver-cu12==11.7.3.90
+    - nvidia-cusparse-cu12==12.5.8.93
+    - nvidia-cusparselt-cu12==0.7.1
+    - nvidia-nccl-cu12==2.27.3
+    - nvidia-nvjitlink-cu12==12.8.93
+    - nvidia-nvtx-cu12==12.8.90
+    - packaging==25.0
+    - pandas==2.3.1
+    - pillow==11.3.0
+    - propcache==0.3.2
+    - pycparser==2.22
+    - python-dateutil==2.9.0.post0
+    - pytz==2025.2
+    - pyyaml==6.0.2
+    - regex==2025.7.34
+    - requests==2.32.4
+    - safetensors==0.6.2
+    - setuptools==78.1.1
+    - six==1.17.0
+    - soundfile==0.13.1
+    - sympy==1.14.0
+    - torch==2.8.0
+    - torchaudio==2.8.0
+    - torchvision==0.23.0
+    - tqdm==4.67.1
+    - triton==3.4.0
+    - typing-extensions==4.14.1
+    - tzdata==2025.2
+    - urllib3==2.5.0
+    - wheel==0.45.1
+    - yarl==1.20.1
+prefix: /home/joregan/miniconda3/envs/rv_convert
+</code></pre>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="c">#SBATCH --job-name=rv_convert</span>
+<span class="c">#SBATCH --output=rv_convert_%j.out</span>
+<span class="c">#SBATCH --error=rv_convert_%j.err</span>
+<span class="c">#SBATCH --nodelist=deepspeech</span>
+<span class="c">#SBATCH --cpus-per-task=16</span>
+<span class="c">#SBATCH --mem=1M</span>
+<span class="c">#SBATCH --time=365-00:00:00</span>
+
+<span class="nb">echo</span> <span class="s2">"Job started on </span><span class="nv">$SLURMD_NODENAME</span><span class="s2"> at </span><span class="si">$(</span><span class="nb">date</span><span class="si">)</span><span class="s2">"</span>
+
+<span class="nv">CONDA_ROOT</span><span class="o">=</span><span class="s2">"/nfs/tts2/home/joregan/miniconda3"</span>
+<span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span><span class="s2">"</span><span class="nv">$CONDA_ROOT</span><span class="s2">/bin/conda"</span> shell.bash hook<span class="si">)</span><span class="s2">"</span>
+
+conda activate /nfs/tts2/home/joregan/miniconda3/envs/rv_convert
+
+<span class="nb">export </span><span class="nv">HF_DATASETS_CACHE</span><span class="o">=</span><span class="s2">"/shared/joregan/rixvox-v2/cache/"</span>
+python /nfs/tts2/home/joregan/rv_convert.py
+<span class="nb">echo</span> <span class="s2">"Job finished on </span><span class="nv">$SLURMD_NODENAME</span><span class="s2"> at </span><span class="si">$(</span><span class="nb">date</span><span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
