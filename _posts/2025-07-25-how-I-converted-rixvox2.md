@@ -21,6 +21,21 @@ import json
 import soundfile as sf
 output_jsonl_path = "metadata.jsonl"
 os.makedirs(output_audio_dir, exist_ok=True)
+def make_json_serializable(record):
+    """Convert non-serializable fields like timestamps to strings."""
+    def convert(value):
+        if isinstance(value, (datetime, pd.Timestamp, np.datetime64)):
+            return str(value)
+        elif isinstance(value, list):
+            return [convert(v) for v in value]
+        elif isinstance(value, dict):
+            return {k: convert(v) for k, v in value.items()}
+        else:
+            return value
+        return {k: convert(v) for k, v in record.items()}
+import pandas as pd
+from datetime import datetime
+import numpy as np
 with open(output_jsonl_path, "w", encoding="utf-8") as jsonl_file:
     for i, sample in enumerate(dataset):
         audio = sample["audio"]
@@ -29,5 +44,6 @@ with open(output_jsonl_path, "w", encoding="utf-8") as jsonl_file:
         sample_copy = dict(sample)
         sample_copy.pop("audio", None)
         sample_copy["audio_filepath"] = audio_path
-        jsonl_file.write(json.dumps(sample_copy, ensure_ascii=False) + "\n")
+        serializable_sample = make_json_serializable(sample_copy)
+        jsonl_file.write(json.dumps(serializable_sample, ensure_ascii=False) + "\n")
 ```
