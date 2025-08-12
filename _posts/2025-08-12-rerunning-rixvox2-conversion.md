@@ -2,32 +2,27 @@
 toc: true
 layout: post
 description: ...because I need to re-do this.
-title: How I converted Rixvox-v2
+title: Re-running Rixvox-v2 conversion
 categories: [rixvox2, huggingface]
 ---
 
-Loading needed to be done as a directory of parquet files:
+Based on [this]({% post_url 2025-07-25-how-I-converted-rixvox2 %}) post.
+
+`rv_convert.py`:
 
 ```python
 from datasets import load_dataset
-dataset = load_dataset(
-    "parquet",
-	data_files="./cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/",
-	split="train"
-	}
-```
-
-Make the output directory:
-
-```python
 import os
-output_audio_dir = "audio_files"
-os.makedirs(output_audio_dir, exist_ok=True)
-```
+import json
+import soundfile as sf
+import pandas as pd
+from datetime import datetime
+import numpy as np
 
-Some of the metadata is not JSON serializable, so we need to convert it:
+PARQUET_DIR = "/shared/joregan/rixvox-v2/cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/"
+OUTPUT_DIR = "/shared/joregan/rixvox-v2/audio_files/wav/"
+OUTPUT_JSONL = "/shared/joregan/rixvox-v2/audio_files/metadata.jsonl"
 
-```python
 def convert_for_json(obj):
     """Recursively convert objects to JSON serializable formats."""
     if isinstance(obj, (pd.Timestamp, datetime, np.datetime64)):
@@ -42,21 +37,19 @@ def convert_for_json(obj):
         return {k: convert_for_json(v) for k, v in obj.items()}
     else:
         return obj
-```
 
-Now run the conversion loop:
+dataset = load_dataset(
+    "parquet",
+	data_files=PARQUET_DIR,
+	split="train"
+	}
 
-```python
-import json
-import soundfile as sf
-import pandas as pd
-from datetime import datetime
-import numpy as np
-output_jsonl_path = "metadata.jsonl"
-with open(output_jsonl_path, "w", encoding="utf-8") as jsonl_file:
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+with open(OUTPUT_JSONL, "w", encoding="utf-8") as jsonl_file:
     for i, sample in enumerate(dataset):
         audio = sample["audio"]
-        audio_path = os.path.join(output_audio_dir, f"{i}.wav")
+        audio_path = os.path.join(OUTPUT_DIR, f"{i}.wav")
         sf.write(audio_path, audio["array"], audio["sampling_rate"])
         sample_copy = dict(sample)
         sample_copy.pop("audio", None)
