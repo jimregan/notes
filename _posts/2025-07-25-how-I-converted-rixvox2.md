@@ -17,13 +17,17 @@ dataset = load_dataset(
 	}
 ```
 
+Make the output directory:
+
 ```python
 import os
 output_audio_dir = "audio_files"
-import json
-import soundfile as sf
-output_jsonl_path = "metadata.jsonl"
 os.makedirs(output_audio_dir, exist_ok=True)
+```
+
+Some of the metadata is not JSON serializable, so we need to convert it:
+
+```python
 def make_json_serializable(record):
     """Convert non-serializable fields like timestamps to strings."""
     def convert(value):
@@ -36,9 +40,17 @@ def make_json_serializable(record):
         else:
             return value
         return {k: convert(v) for k, v in record.items()}
+```
+
+Now run the conversion loop:
+
+```python
+import json
+import soundfile as sf
 import pandas as pd
 from datetime import datetime
 import numpy as np
+output_jsonl_path = "metadata.jsonl"
 with open(output_jsonl_path, "w", encoding="utf-8") as jsonl_file:
     for i, sample in enumerate(dataset):
         audio = sample["audio"]
