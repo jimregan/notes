@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/nfs/tts2/home/joregan/rv_convert.py", line 29, in <module>
+    dataset = load_dataset(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/load.py", line 2062, in load_dataset
+    builder_instance = load_dataset_builder(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/load.py", line 1782, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/load.py", line 1497, in dataset_module_factory
+    ).get_module()
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/load.py", line 913, in get_module
+    data_files = DataFilesDict.from_patterns(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/data_files.py", line 689, in from_patterns
+    else DataFilesList.from_patterns(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/data_files.py", line 582, in from_patterns
+    resolve_pattern(
+  File "/home/joregan/.local/lib/python3.10/site-packages/datasets/data_files.py", line 383, in resolve_pattern
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/shared/joregan/rixvox-v2/cache/datasets--KBLab--rixvox-v2/snapshots/1f5f37f5ec8740eae318eeae7bf190074454d0d1/data/'
