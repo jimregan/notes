@@ -171,8 +171,9 @@ if [ ! -d $HOME/miniconda3 ]; then
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
     rm ~/miniconda3/miniconda.sh
 fi
-CONDA_ROOT="$HOME/miniconda3"
-eval "$("$CONDA_HOME/bin/conda" shell.bash hook)"
+CONDA_ROOT="/nfs/tts2/home/joregan/miniconda3"
+#eval "$("$CONDA_HOME/bin/conda" shell.bash hook)"
+source "$CONDA_BASE/etc/profile.d/conda.sh"
 
 conda activate /nfs/tts2/home/joregan/miniconda3/envs/rv_convert
 
