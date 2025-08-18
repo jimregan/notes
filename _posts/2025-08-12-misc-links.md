@@ -56,3 +56,9 @@ categories: [links]
 
 Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-Light](https://github.com/facebookresearch/libri-light) + [CommonVoice](https://commonvoice.mozilla.org/en/languages) + [Switchboard](https://catalog.ldc.upenn.edu/LDC97S62) + [Fisher](https://catalog.ldc.upenn.edu/LDC2004T19) | [download](https://dl.fbaipublicfiles.com/fairseq/wav2vec/w2v_large_lv_fsh_swbd_cv_ftsb300_updated.pt)
 <!-- deepflow:/shared/joregan/swbd -->
+
+[SAM2 fine tuning](https://www.datacamp.com/tutorial/sam2-fine-tuning)
+
+[black-forest-labs/flux](https://github.com/black-forest-labs/flux) --- The [schnell model](https://huggingface.co/black-forest-labs/FLUX.1-schnell) is open.
+
+[Unsloth Whisper notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb)
