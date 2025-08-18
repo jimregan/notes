@@ -71,4 +71,8 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [Jak zapisywać liczby w tekstach – podsumowanie](https://bookowska.pl/jak-zapisywac-liczby-w-tekstach/)
 
+[Odmiana liczebników](https://aleklasa.pl/gimnazjum/gramatyka/c182-fleksja/odmiana-liczebnikow)
+
+[Jak poprawnie zapisywać daty?](https://klinwords.pl/jak-zapisywac-daty/)
+
 [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577)
