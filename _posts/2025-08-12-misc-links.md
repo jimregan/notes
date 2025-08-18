@@ -62,3 +62,13 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [black-forest-labs/flux](https://github.com/black-forest-labs/flux) --- The [schnell model](https://huggingface.co/black-forest-labs/FLUX.1-schnell) is open.
 
 [Unsloth Whisper notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb)
+
+[Pretrained Conformers for Audio Fingerprinting and Retrieval](https://arxiv.org/abs/2508.11609)
+
+[jermp/tongrams](https://github.com/jermp/tongrams) --- A C++ library providing fast language model queries in compressed space.
+
+[Monitor Polski Nr. 14](https://monitorpolski.gov.pl/M1925014000000.pdf)
+
+[Jak zapisywać liczby w tekstach – podsumowanie](https://bookowska.pl/jak-zapisywac-liczby-w-tekstach/)
+
+[WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577)
