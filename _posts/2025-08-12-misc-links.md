@@ -76,3 +76,9 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [Jak poprawnie zapisywać daty?](https://klinwords.pl/jak-zapisywac-daty/)
 
 [WavChat: A Survey of Spoken Dialogue Models](https://arxiv.org/abs/2411.13577)
+
+[Qwen/Qwen-Image](https://huggingface.co/Qwen/Qwen-Image)
+
+[IRSvideosASL](https://www.youtube.com/@IRSvideosASL)
+
+[The 2025 LRAC Challenge](https://crowdsourcing.cisco.com/lrac-challenge/2025/)
