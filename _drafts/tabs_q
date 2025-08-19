@@ -158,7 +158,10 @@ speechbrain/recipes/LibriSpeech/G2P at develop · speechbrain/speechbrain
 https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriSpeech/G2P
 
 flexthink/librig2p-nostress-space-cmu · Datasets at Hugging Face
-https://huggingface.co/datasets/flexthink/librig2p-nostress-space-cmu/viewer/default/lexicon_train?p=2023&views%5B%5D=lexicon_train&row=202311
+https://huggingface.co/datasets/flexthink/librig2p-nostress-space-cmu
+
+openslr.org
+https://www.openslr.org/12/
 
 xinjli/allosaurus: Allosaurus is a pretrained universal phone recognizer for more than 2000 languages
 https://github.com/xinjli/allosaurus
@@ -166,8 +169,8 @@ https://github.com/xinjli/allosaurus
 pyctcdecode/pyctcdecode/decoder.py at main · kensho-technologies/pyctcdecode
 https://github.com/kensho-technologies/pyctcdecode/blob/main/pyctcdecode/decoder.py
 
-Theomat/sbsur: Stochastic Beam Search + Unique Randomizer
-https://github.com/Theomat/sbsur
+sbsur/sbsur/unique_randomizer.pyx at main · Theomat/sbsur
+https://github.com/Theomat/sbsur/blob/main/sbsur/unique_randomizer.pyx
 
 RF5/simple-autovc: A simple, performant re-implementation of AutoVC
 https://github.com/RF5/simple-autovc?tab=readme-ov-file
@@ -179,7 +182,19 @@ CHAINS: Characterising Individual Speakers
 https://chains.ucd.ie/index.php
 
 RF5/simple-asgan: Training code and trained checkpoints for ASGAN.
-https://github.com/RF5/simple-asgan
+https://github.com/RF5/simple-asgan?tab=readme-ov-file
+
+NVIDIA Research Projects
+https://github.com/NVlabs
+
+NVlabs repositories
+https://github.com/orgs/NVlabs/repositories?type=all&page=2
+
+NVlabs/earth2grid
+https://github.com/NVlabs/earth2grid
+
+NVlabs/cuHPX
+https://github.com/NVlabs/cuHPX
 
 RF5/transfusion-asr: Transcribing Speech with Multinomial Diffusion, training code and models.
 https://github.com/RF5/transfusion-asr
@@ -199,20 +214,20 @@ https://github.com/kaldi-asr/kaldi/pull/4919
 kaldi/egs/sprakbanken_swe/s5/local at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/tree/master/egs/sprakbanken_swe/s5/local
 
+[egs] fix sprakbanken_swe (#4646) · kaldi-asr/kaldi@5caf254
+https://github.com/kaldi-asr/kaldi/commit/5caf2548fe25426deb9b572d1e4d4d212292543b
+
 Sprakbanken swe fix by giampierosalvi · Pull Request #4535 · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/pull/4535/files
 
 Speech Recognition — Kaldi. Kaldi is a toolkit for speech… | by Jonathan Hui | Medium
 https://jonathan-hui.medium.com/speech-recognition-kaldi-35fec0320496
 
-Phonetic research prompt
-https://chatgpt.com/c/68a326b7-61b0-8333-a3ee-ea2b2e9cb12c
+HMM/GMM performance degradation
+https://chatgpt.com/c/68a34c07-4ce4-8321-9664-4998b867e29b
 
 FormantPro
 https://www.homepages.ucl.ac.uk/~uclyyix/FormantPro/
-
-History
-chrome://history/syncedTabs
 
 [2508.11187] Expressive Speech Retrieval using Natural Language Descriptions of Speaking Style
 https://arxiv.org/abs/2508.11187
@@ -220,44 +235,14 @@ https://arxiv.org/abs/2508.11187
 Enhancing In-the-Wild Speech Emotion Conversion with Resynthesis-based Duration Modeling
 https://arxiv.org/pdf/2508.11535
 
-Rage Against the Machine Was Always In a 'Volatile Situation,' Says Tom Morello, Opens Up on Their Final Concerts: 'I Am Carrying the Torch' | Ultimate Guitar
-https://www.ultimate-guitar.com/news/general_music_news/rage-against-the-machine-was-always-in-a-volatile-situation-says-tom-morello-opens-up-on-their-final-concerts-i-am-carrying-the-torch/
-
 [2508.11371] Speech Emotion Recognition Using Fine-Tuned DWFormer:A Study on Track 1 of the IERPChallenge 2024
 https://arxiv.org/abs/2508.11371
 
 Pretrained Conformers for Audio Fingerprinting and Retrieval
 https://arxiv.org/pdf/2508.11609
 
-python arpa language model - Google Search
-https://www.google.com/search?q=python+arpa+language+model&rlz=1C5GCCM_en&oq=python+arpa+language+model&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBTIHCAMQIRiPAjIHCAQQIRiPAtIBCDU4MTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-sfischer13/python-arpa: :snake: Python library for n-gram models in ARPA format
-https://github.com/sfischer13/python-arpa
-
-arpa · PyPI
-https://pypi.org/project/arpa/
-
-awni/py-arpa-lm: Python API for reading and querying ARPA formatted language models.
-https://github.com/awni/py-arpa-lm
-
-How do I generate an ARPA file from my own training file with KenLM? : r/LanguageTechnology
-https://www.reddit.com/r/LanguageTechnology/comments/9tzqgx/how_do_i_generate_an_arpa_file_from_my_own/
-
-speechbrain.lm.arpa module — SpeechBrain 0.5.0 documentation
-https://speechbrain.readthedocs.io/en/v1.0.1/API/speechbrain.lm.arpa.html
-
 NGramQuickTour < GRM < TWiki
 https://www.openfst.org/twiki/bin/view/GRM/NGramQuickTour
-
-N-gram language model toolkits in 2020 | Speech Recognition With Vosk
-https://alphacephei.com/nsh/2020/12/13/lm-toolkits.html
-
-jermp/tongrams: A C++ library providing fast language model queries in compressed space.
-https://github.com/jermp/tongrams
-
-ngrams · GitHub Topics
-https://github.com/topics/ngrams
 
 neuspell/neuspell: NeuSpell: A Neural Spelling Correction Toolkit
 https://github.com/neuspell/neuspell
@@ -265,32 +250,20 @@ https://github.com/neuspell/neuspell
 bakwc/JamSpell: Modern spell checking library - accurate, fast, multi-language
 https://github.com/bakwc/JamSpell
 
-2008.02385
-https://arxiv.org/pdf/2008.02385
-
-ngram viewer github - Google Search
-https://www.google.com/search?q=ngram+viewer+github&sca_esv=b0a1351e93cb2bd4&rlz=1C5GCCM_en&sxsrf=AE3TifNVIWWFW3CykRi9sTAGEIixAv4y_w%3A1755528104713&ei=qDujaNmoK720wPAP3caKuQc&ved=0ahUKEwjZnMzoy5SPAxU9GhAIHV2jIncQ4dUDCBA&uact=5&oq=ngram+viewer+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiE25ncmFtIHZpZXdlciBnaXRodWIyCBAAGIAEGKIEMggQABiiBBiJBTIFEAAY7wVIrxZQrgdYvxRwAXgBkAEAmAGGAaABmgWqAQM3LjG4AQPIAQD4AQGYAgmgArsFwgIKEAAYsAMY1gQYR8ICBhAAGAcYHsICChAAGIAEGEMYigXCAgUQABiABMICCxAAGIAEGJECGIoFwgIGEAAYFhgewgIEECEYFZgDAIgGAZAGCJIHAzguMaAH1BmyBwM3LjG4B7UFwgcFMC41LjTIBxc&sclient=gws-wiz-serp
-
-google-ngram · GitHub Topics
-https://github.com/topics/google-ngram
-
-Sdbock/speech_ngram_viewer: Source code for the U.S. Presidential Speech Ngram Viewer R Shiny app.
-https://github.com/Sdbock/speech_ngram_viewer?tab=readme-ov-file
-
-Instagram
-https://www.instagram.com/
-
-Instagram
-https://www.instagram.com/p/DEzmzTWMW3q/
-
-YouTube
-https://www.youtube.com/
-
-Chinatown - Thin Lizzy | The Midnight Special - YouTube
-https://www.youtube.com/watch?v=5SP6ZyCZsQM&list=RD5SP6ZyCZsQM&start_radio=1
-
 I Tried Irish Stick Fighting (it’s wild) - YouTube
 https://www.youtube.com/watch?v=kP6BLHADvZk
+
+kth thesis printing requirements - Google Search
+https://www.google.com/search?q=kth+thesis+printing+requirements&rlz=1C5GCCM_en&oq=kth+thesis+printing+requirements&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDU5NjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Register publications in DiVA | KTH
+https://www.kth.se/en/biblioteket/publicera-analysera/vagledning-for-publicering/hantera-publikationer/registrera-publikationer-i-diva-1.854776
+
+Checklist_defense_Doctoral_thesis_BIO_TCB-20241126.pdf
+https://intra.kth.se/polopoly_fs/1.814731.1732694952!/Checklist_defense_Doctoral_thesis_BIO_TCB-20241126.pdf
+
+Public defence of doctoral thesis EECS | EECS internal pages
+https://intra.kth.se/en/eecs/forskarutbildning/public-defence-of-doctoral-thesis-1.813458
 
 U.S. issues sanctions against U.N. investigator probing abuses in Gaza : NPR
 https://www.npr.org/2025/07/10/g-s1-76915/u-s-sanctions-united-nations-investigator-abuses-gaza
