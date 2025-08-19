@@ -27,8 +27,10 @@ def get_args():
 
 def main():
     args = get_args()
+    print("Set", args.set)
 
     for audio in base_dir.glob(f"{args.set}*/**/*.flac"):
+        print(audio)
         fileid = audio.stem
         output_file = out_dir / f"{fileid}.json"
         if output_file.exists():

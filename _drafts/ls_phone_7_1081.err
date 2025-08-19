@@ -1,9 +1,0 @@
-Device set to use cuda:0
-Traceback (most recent call last):
-  File "/nfs/tts2/home/joregan/ls_phone.py", line 31, in <module>
-    main()
-    ~~~~^^
-  File "/nfs/tts2/home/joregan/ls_phone.py", line 21, in main
-    output_file = out_dir / f"{fileid}.json"
-                               ^^^^^^
-UnboundLocalError: cannot access local variable 'fileid' where it is not associated with a value
