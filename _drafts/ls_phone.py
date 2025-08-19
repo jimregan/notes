@@ -18,11 +18,11 @@ def main():
     args = get_args()
 
     for audio in base_dir.glob(f"{args.set}*/**/*.flac"):
+        fileid = audio.stem
         output_file = out_dir / f"{fileid}.json"
         if output_file.exists():
             continue
-        output = pipe(audio)
-        fileid = audio.stem
+        output = pipe(str(audio))
         with open(output_file, "w") as of:
             json.dump(output, of, indent=2)
 
