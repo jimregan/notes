@@ -8,6 +8,17 @@ out_dir = Path("/shared/joregan/librispeech-phones")
 MODEL = "jimregan/wav2vec2-xls-r-300m-phoneme-timit"
 pipe = pipeline(model=MODEL)
 
+#for set in {1..9}; do
+#    sbatch --parsable
+#      --partition="gpu"
+#      --ntasks=1
+#      --cpus-per-task=4
+#      --time=7-00:00:00
+#      --gpus-per-task=1
+#      --output=ls_phone_${set}_%j.out
+#      --error=ls_phone_${set}_%j.err
+#      --wrap="/home/joregan/miniconda3/bin/python /nfs/tts2/home/joregan/ls_phone.py $set"; done
+
 def get_args():
     parser = argparse.ArgumentParser("Transcribe a directory of audio files")
     parser.add_argument("set", type=str)
