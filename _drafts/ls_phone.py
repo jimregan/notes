@@ -25,3 +25,7 @@ def main():
         fileid = audio.stem
         with open(output_file, "w") as of:
             json.dump(output, of, indent=2)
+
+
+if __name__ == '__main__':
+    main()
