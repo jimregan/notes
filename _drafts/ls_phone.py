@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse
 from transformers import pipeline
 
-base_dir = Path("/shared/joregan/librispeech-textgrids/LibriSpeech/train-clean-360/")
+base_dir = Path("/shared/joregan/librispeech-textgrids/LibriSpeech/train-clean-500/")
 out_dir = Path("/shared/joregan/librispeech-phones")
 MODEL = "jimregan/wav2vec2-xls-r-300m-phoneme-timit"
 pipe = pipeline(model=MODEL)
