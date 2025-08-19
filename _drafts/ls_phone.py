@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse
 from transformers import pipeline
 
-base_dir = Path("/shared/joregan/librispeech-textgrids/LibriSpeech/train-clean-100/")
+base_dir = Path("/shared/joregan/librispeech-textgrids/LibriSpeech/train-clean-360/")
 out_dir = Path("/shared/joregan/librispeech-phones")
 MODEL = "jimregan/wav2vec2-xls-r-300m-phoneme-timit"
 pipe = pipeline(model=MODEL)
@@ -27,10 +27,8 @@ def get_args():
 
 def main():
     args = get_args()
-    print("Set", args.set)
 
     for audio in base_dir.glob(f"{args.set}*/**/*.flac"):
-        print(audio)
         fileid = audio.stem
         output_file = out_dir / f"{fileid}.json"
         if output_file.exists():
