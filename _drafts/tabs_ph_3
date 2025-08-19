@@ -1312,50 +1312,8 @@ https://www.instagram.com/
 Welcome to Språkbanken's staff meeting August 27-29, 2025 | Språkbanken
 https://sprakbanken.se/personalmote2025
 
-FAQ | LRAC Challenge
-https://crowdsourcing.cisco.com/lrac-challenge/2025/faq
-
-cisco-open/lrac_data_generation: Official data preparation and metric evaluation scripts for the Low Resource Audio Codec (LRAC) challenge.
-https://github.com/cisco-open/lrac_data_generation?tab=readme-ov-file
-
-Datasets | LRAC Challenge
-https://crowdsourcing.cisco.com/lrac-challenge/2025/datasets
-
-lrac_data_generation/datafiles/dns5_noise/train_meta_curated.csv at main · cisco-open/lrac_data_generation
-https://github.com/cisco-open/lrac_data_generation/blob/main/datafiles/dns5_noise/train_meta_curated.csv
-
-Baseline | LRAC Challenge
-https://crowdsourcing.cisco.com/lrac-challenge/2025/baseline
-
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
-
 raw.githubusercontent.com/wavlab-speech/versa/refs/heads/main/launch_slurm.sh
 https://raw.githubusercontent.com/wavlab-speech/versa/refs/heads/main/launch_slurm.sh
-
-Getting timestamps on long audio | notes
-https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
-
-Re-running Rixvox-v2 conversion | notes
-https://jimregan.github.io/notes/rixvox2/huggingface/2025/08/12/rerunning-rixvox2-conversion.html
-
-cluster computing - GPU allocation in Slurm: --gres vs --gpus-per-task, and mpirun vs srun - Stack Overflow
-https://stackoverflow.com/questions/67091056/gpu-allocation-in-slurm-gres-vs-gpus-per-task-and-mpirun-vs-srun
-
-Using sbatch script
-https://chatgpt.com/c/68a45d23-0cdc-8325-ab67-8da15366d1c7
-
-Slurm Workload Manager - Job Array Support
-https://slurm.schedmd.com/job_array.html
-
-openslr.org
-https://www.openslr.org/12
-
-Installing Miniconda - Anaconda
-https://www.anaconda.com/docs/getting-started/miniconda/install#linux-2
-
-slurm kill task - Google Search
-https://www.google.com/search?q=slurm+kill+task&sca_esv=37dc570b99b93daa&rlz=1C5GCCM_en&sxsrf=AE3TifPpCXRbpL-C3PVStUYM23MJ-08f6g%3A1755610310919&ei=xnykaKzwN4jCwPAPg83P-Qk&ved=0ahUKEwis68iH_paPAxUIIRAIHYPmM58Q4dUDCBE&uact=5&oq=slurm+kill+task&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3NsdXJtIGtpbGwgdGFzazIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I3AhQ_AFYywVwAngBkAEAmAGIAaABjwOqAQMyLjK4AQPIAQD4AQGYAgagAqQDwgIKEAAYsAMY1gQYR8ICCxAAGIAEGIYDGIoFwgIIEAAYgAQYogSYAwCIBgGQBgiSBwM0LjKgB6EZsgcDMi4yuAeeA8IHBTAuMy4zyAcR&sclient=gws-wiz-serp
 
 YouTube
 https://www.youtube.com/
