@@ -1,0 +1,33 @@
+Device set to use cuda:0
+Traceback (most recent call last):
+  File "/nfs/tts2/home/joregan/ls_phone.py", line 31, in <module>
+    main()
+    ~~~~^^
+  File "/nfs/tts2/home/joregan/ls_phone.py", line 25, in main
+    output = pipe(audio)
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/automatic_speech_recognition.py", line 280, in __call__
+    return super().__call__(inputs, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/base.py", line 1450, in __call__
+    return next(
+        iter(
+    ...<3 lines>...
+        )
+    )
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/pt_utils.py", line 124, in __next__
+    item = next(self.iterator)
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/pt_utils.py", line 269, in __next__
+    processed = self.infer(next(self.iterator), **self.params)
+                           ~~~~^^^^^^^^^^^^^^^
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/torch/utils/data/dataloader.py", line 734, in __next__
+    data = self._next_data()
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/torch/utils/data/dataloader.py", line 790, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/torch/utils/data/_utils/fetch.py", line 33, in fetch
+    data.append(next(self.dataset_iter))
+                ~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/pt_utils.py", line 186, in __next__
+    processed = next(self.subiterator)
+  File "/home/joregan/miniconda3/lib/python3.13/site-packages/transformers/pipelines/automatic_speech_recognition.py", line 437, in preprocess
+    raise TypeError(f"We expect a numpy ndarray or torch tensor as input, got `{type(inputs)}`")
+TypeError: We expect a numpy ndarray or torch tensor as input, got `<class 'pathlib._local.PosixPath'>`

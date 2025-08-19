@@ -1,0 +1,3 @@
+Device set to use cuda:0
+usage: Transcribe a directory of audio files [-h] set
+Transcribe a directory of audio files: error: unrecognized arguments: --set
