@@ -1318,3 +1318,102 @@ https://raw.githubusercontent.com/wavlab-speech/versa/refs/heads/main/launch_slu
 Interspeech 2025 - Home
 https://www.interspeech2025.org/home
 
+Triphone model Kaldi setup
+https://chatgpt.com/c/68a5d04c-821c-8325-8c9c-9c49cb83d874
+
+raw (1024×1024)
+https://sdmntprnortheu.oaiusercontent.com/files/00000000-c7a8-61f4-87ec-f8808cc884c4/raw?se=2025-08-20T14%3A49%3A04Z&sp=r&sv=2024-08-04&sr=b&scid=90c9201f-d328-56b1-8bc5-da667d039661&skoid=82a3371f-2f6c-4f81-8a78-2701b362559b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T07%3A33%3A45Z&ske=2025-08-21T07%3A33%3A45Z&sks=b&skv=2024-08-04&sig=LBzrNTPYBS8vLyMfW9fDPntgtxQsLpB6bsNH3oWbZEM%3D
+
+Kaldi alignment format - Google Search
+https://www.google.com/search?q=Kaldi+alignment+format&rlz=1C5GCCM_en&oq=Kaldi+alignment+format&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDMwODRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+kaldi-align/kaldi_align at master · rhasspy/kaldi-align
+https://github.com/rhasspy/kaldi-align/tree/master/kaldi_align
+
+rhasspy/gruut: A tokenizer, text cleaner, and phonemizer for many human languages.
+https://github.com/rhasspy/gruut
+
+kaldi-align/kaldi_align/align2json.py at master · rhasspy/kaldi-align
+https://github.com/rhasspy/kaldi-align/blob/master/kaldi_align/align2json.py
+
+New Tab
+chrome://newtab/
+
+Adapt Kaldi recipe
+https://chatgpt.com/c/68a5d3a1-a328-832d-abd5-fa3a0b58eae3
+
+VOSK Models
+https://alphacephei.com/vosk/models
+
+Alpha Cephei Speech Recognition
+https://alphacephei.com/en/
+
+alphacep repositories
+https://github.com/orgs/alphacep/repositories?type=all&page=2
+
+vosk-api/src/batch_recognizer.cc at master · alphacep/vosk-api
+https://github.com/alphacep/vosk-api/blob/master/src/batch_recognizer.cc
+
+alphacep/vosk-tts: Text To Speech Synthesis with Vosk
+https://github.com/alphacep/vosk-tts
+
+alphacep/vosk-unity-asr: Automatic Speech Recognition in Unity using Vosk library
+https://github.com/alphacep/vosk-unity-asr
+
+Commits · alphacep/Matcha-TTS
+https://github.com/alphacep/Matcha-TTS/commits/main/
+
+Add BERT in text encoder · alphacep/Matcha-TTS@ed53d4c
+https://github.com/alphacep/Matcha-TTS/commit/ed53d4cf47b82f53ef753ecb8691f56a1a7da8e0
+
+Bert embedding, second stage · alphacep/Matcha-TTS@20b658c
+https://github.com/alphacep/Matcha-TTS/commit/20b658c2387023525096d0092803cfc70a7698af
+
+Merge SDP · alphacep/Matcha-TTS@93d07f6
+https://github.com/alphacep/Matcha-TTS/commit/93d07f6a7d9752ad7773d8f42c245ed7f1860a00
+
+Rhasspy
+https://github.com/rhasspy
+
+Rhasspy Voice Assistant - Open and Offline
+https://community.rhasspy.org/
+
+Rhasspy
+https://rhasspy.readthedocs.io/en/latest/#supported-languages
+
+sv_kaldi-montreal/espeak_phonemes.txt at master · synesthesiam/sv_kaldi-montreal
+https://github.com/synesthesiam/sv_kaldi-montreal/blob/master/espeak_phonemes.txt
+
+rhasspy/pl_deepspeech-jaco: Polish profile for Rhasspy using Jaco's DeepSpeech model
+https://github.com/rhasspy/pl_deepspeech-jaco
+
+rhasspy kaldi polish - Google Search
+https://www.google.com/search?q=rhasspy+kaldi+polish&rlz=1C5GCCM_en&oq=rhasspy+kaldi+polish&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDU1NDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Kaldi acoustic models and G2P - Feature Requests - Rhasspy Voice Assistant
+https://community.rhasspy.org/t/kaldi-acoustic-models-and-g2p/92/5
+
+rhasspy/rhasspy-asr-kaldi at 4354e7c703dd965c1fbb457f836f981192e69e59
+https://github.com/rhasspy/rhasspy-asr-kaldi/tree/4354e7c703dd965c1fbb457f836f981192e69e59
+
+Speech to Text - Rhasspy
+https://rhasspy.readthedocs.io/en/latest/speech-to-text/#language-model-type
+
+vocab.json · jimregan/wav2vec2-xls-r-300m-phoneme-timit at main
+https://huggingface.co/jimregan/wav2vec2-xls-r-300m-phoneme-timit/blob/main/vocab.json
+
+jimregan/wav2vec2-english-hsi at main
+https://huggingface.co/jimregan/wav2vec2-english-hsi/tree/main
+
+difflib — Helpers for computing deltas — Python 3.13.7 documentation
+https://docs.python.org/3/library/difflib.html
+
+kth it services repairs - Google Search
+https://www.google.com/search?q=kth+it+services+repairs&rlz=1C5GCCM_en&oq=kth+it+services+repairs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIHCAMQABjvBdIBCDM2NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+KIRI Engine: 3D Scanner App for iPhone, Android, and Web
+https://www.kiriengine.app/
+
+KIRI Engine: 3D Scanner App – Apps on Google Play
+https://play.google.com/store/apps/details?id=com.kiriengine.app
+
