@@ -82,3 +82,5 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [IRSvideosASL](https://www.youtube.com/@IRSvideosASL)
 
 [The 2025 LRAC Challenge](https://crowdsourcing.cisco.com/lrac-challenge/2025/)
+
+[Razer Blade 15" (2020) Charging Port Replacement](https://www.ifixit.com/Guide/Razer+Blade+15-Inch+%282020%29+Charging+Port+Replacement/164815)
