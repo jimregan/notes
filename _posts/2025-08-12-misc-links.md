@@ -88,3 +88,9 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [Public defence of doctoral thesis](https://intra.kth.se/en/eecs/forskarutbildning/public-defence-of-doctoral-thesis-1.813458)
 
 [ByteDance-Seed/Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct)
+
+[Enhancing In-the-Wild Speech Emotion Conversion with Resynthesis-based Duration Modeling](https://arxiv.org/abs/2508.11535)
+
+[Representing Speech Through Autoregressive Prediction of Cochlear Tokens](https://arxiv.org/abs/2508.11598)
+
+[Expressive Speech Retrieval using Natural Language Descriptions of Speaking Style](https://arxiv.org/abs/2508.11187)
