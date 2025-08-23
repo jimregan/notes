@@ -63,7 +63,8 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [Unsloth Whisper notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb)
 
-[Pretrained Conformers for Audio Fingerprinting and Retrieval](https://arxiv.org/abs/2508.11609)
+[Pretrained Conformers for Audio Fingerprinting and Retrieval](https://arxiv.org/abs/2508.11609),
+[notebook](https://github.com/KemalAltwlkany/pretrained-conformers)
 
 [jermp/tongrams](https://github.com/jermp/tongrams) --- A C++ library providing fast language model queries in compressed space.
 
@@ -94,3 +95,10 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [Representing Speech Through Autoregressive Prediction of Cochlear Tokens](https://arxiv.org/abs/2508.11598)
 
 [Expressive Speech Retrieval using Natural Language Descriptions of Speaking Style](https://arxiv.org/abs/2508.11187)
+
+[Pretrained Conformers for Audio Fingerprinting and Retrieval](https://arxiv.org/abs/2508.11609),
+[notebook](https://github.com/KemalAltwlkany/pretrained-conformers)
+
+[RF5/simple-speaker-embedding](https://github.com/RF5/simple-speaker-embedding) --- A speaker embedding network in Pytorch that is very quick to set up and use for whatever purposes.
+
+
