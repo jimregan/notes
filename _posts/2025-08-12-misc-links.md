@@ -104,3 +104,11 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [Tasks.md](https://github.com/BaldissaraMatheus/Tasks.md)
 
 [Qwen2-Audio: Chat with Your Voice](https://qwenlm.github.io/blog/qwen2-audio/)
+
+[SpeechBrain LibriSpeech G2P](https://github.com/speechbrain/speechbrain/tree/develop/recipes/LibriSpeech/G2P)
+
+[Librispeech Alignments](https://zenodo.org/records/2619474#.YbwRGi_73JM)
+
+[flexthink/librig2p-nostress-space-cmu](https://huggingface.co/datasets/flexthink/librig2p-nostress-space-cmu)
+
+[Orange-OpenSource/conllueditor](https://github.com/Orange-OpenSource/conllueditor)
