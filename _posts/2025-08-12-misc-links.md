@@ -101,4 +101,6 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [RF5/simple-speaker-embedding](https://github.com/RF5/simple-speaker-embedding) --- A speaker embedding network in Pytorch that is very quick to set up and use for whatever purposes.
 
+[Tasks.md](https://github.com/BaldissaraMatheus/Tasks.md)
 
+[Qwen2-Audio: Chat with Your Voice](https://qwenlm.github.io/blog/qwen2-audio/)
