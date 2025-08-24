@@ -1,6 +1,9 @@
 microsoft/Phi-4-multimodal-instruct · thanks , how to fine tune?
 https://huggingface.co/microsoft/Phi-4-multimodal-instruct/discussions/1
 
+sample_finetune_speech.py · microsoft/Phi-4-multimodal-instruct at main
+https://huggingface.co/microsoft/Phi-4-multimodal-instruct/blob/main/sample_finetune_speech.py
+
 seastar105/Phi-4-mm-inst-zeroth-kor · Hugging Face
 https://huggingface.co/seastar105/Phi-4-mm-inst-zeroth-kor
 
@@ -30,12 +33,6 @@ https://github.com/kyutai-labs/moshi
 
 A Guide to Fine-Tuning CLIP Models with Custom Data | by Shashank Vats | 𝐀𝐈 𝐦𝐨𝐧𝐤𝐬.𝐢𝐨 | Medium
 https://medium.com/aimonks/a-guide-to-fine-tuning-clip-models-with-custom-data-6c7c0d1416fb
-
-Fine-Tuning SAM 2 on a Custom Dataset: Tutorial | DataCamp
-https://www.datacamp.com/tutorial/sam2-fine-tuning?dc_referrer=https%3A%2F%2Fwww.google.com%2F
-
-ChatGPT
-https://chatgpt.com/
 
 TaoAvatar
 https://pixelai-team.github.io/TaoAvatar/
@@ -157,9 +154,6 @@ https://github.com/open-mmlab/mmpose/tree/main/projects/just_dance
 mmpose/projects/just_dance/just_dance_demo.ipynb at main · open-mmlab/mmpose
 https://github.com/open-mmlab/mmpose/blob/main/projects/just_dance/just_dance_demo.ipynb
 
-zh-plus/video-to-pose3D: Convert video to 3D pose in one-key.
-https://github.com/zh-plus/video-to-pose3D?tab=readme-ov-file
-
 BodyPose
 https://docs.ml5js.org/#/reference/bodypose
 
@@ -193,25 +187,25 @@ https://unsloth.ai/
 docs.unsloth.ai/basics/text-to-speech-tts-fine-tuning
 https://docs.unsloth.ai/basics/text-to-speech-tts-fine-tuning
 
-colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb
-https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb
+Text-to-Speech (TTS) Fine-tuning | Unsloth Documentation
+https://docs.unsloth.ai/basics/text-to-speech-tts-fine-tuning
 
-colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Sesame_CSM_(1B)-TTS.ipynb
+Sesame_CSM_(1B)-TTS.ipynb - Colab
 https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Sesame_CSM_(1B)-TTS.ipynb
 
-colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Oute_TTS_(1B).ipynb
+Oute_TTS_(1B).ipynb - Colab
 https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Oute_TTS_(1B).ipynb
 
 SesameAILabs/csm: A Conversational Speech Generation Model
 https://github.com/SesameAILabs/csm
 
-huggingface.co/sesame/csm-1b
+sesame/csm-1b · Hugging Face
 https://huggingface.co/sesame/csm-1b
 
 sesame/csm-1b · Hugging Face
 https://huggingface.co/sesame/csm-1b
 
-huggingface.co/spaces/MohamedRashad/Orpheus-TTS
+Orpheus TTS - a Hugging Face Space by MohamedRashad
 https://huggingface.co/spaces/MohamedRashad/Orpheus-TTS
 
 canopylabs/3b-es_it-ft-research_release · Hugging Face
@@ -226,6 +220,9 @@ https://canopylabs.ai/releases/orpheus_can_speak_any_language#training
 Qwen/Qwen2-Audio-7B · Hugging Face
 https://huggingface.co/Qwen/Qwen2-Audio-7B
 
+Qwen2-Audio: Chat with Your Voice! | Qwen
+https://qwenlm.github.io/blog/qwen2-audio/
+
 TheBloke/KafkaLM-70B-German-V0.1-GGUF · Hugging Face
 https://huggingface.co/TheBloke/KafkaLM-70B-German-V0.1-GGUF
 
@@ -235,8 +232,14 @@ https://github.com/marella/ctransformers/tree/main/ctransformers/gptq
 Qwen2-Audio: Chat with Your Voice! | Qwen
 https://qwenlm.github.io/blog/qwen2-audio/
 
-New tab
-https://www.google.com/search?q=qwen+tts&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyCQgIEC4YJxjqAjIJCAkQIxgnGOoCMgkIChAjGCcY6gIyCQgLECMYJxjqAjIJCAwQIxgnGOoCMgkIDRAjGCcY6gIyCQgOECMYJxjqAtIBBi0xajBqN6gCD7ACAfEF1Vq4Ja3BAcDxBdVauCWtwQHA&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
+QwenLM repositories
+https://github.com/orgs/QwenLM/repositories
+
+QwenLM/Qwen2.5-Omni: Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.
+https://github.com/QwenLM/Qwen2.5-Omni
+
+QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen2-Audio
 
 Advancing AI systems through progress in perception, localization, and reasoning
 https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/?utm_source=twitter&utm_medium=organic%20social&utm_content=video&utm_campaign=fair
@@ -258,9 +261,6 @@ https://replicate.com/blog/flux-state-of-the-art-image-generation
 
 FLUX.1 [schnell] Fast Text-to-Image generation via API | Replicate
 https://replicate.com/black-forest-labs/flux-schnell
-
-flux/model_licenses/LICENSE-FLUX1-schnell at main · black-forest-labs/flux
-https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-schnell
 
 ByteDance-Seed/BAGEL-7B-MoT · Hugging Face
 https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT
@@ -1251,244 +1251,4 @@ https://www.google.com/search?q=Wav2Vec+2.0+Large+(LV-60+%2B+CV+%2B+SWBD+%2B+FSH
 
 Wav2Vec 2.0 - a facebook Collection
 https://huggingface.co/collections/facebook/wav2vec-20-651e865258e3dee2586c89f5
-
-Transcript comparison
-https://chatgpt.com/c/68a217b9-cb18-832d-aee6-5a5e3d43e768
-
-stanza lemmatization - Google Search
-https://www.google.com/search?q=stanza+lemmatization&rlz=1C5GCCM_en&oq=stanza+lemmat&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGDkyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBwgFEAAY7wUyCggGEAAYgAQYogQyBwgHEAAY7wXSAQk0Mjc4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-python - How to make stanza lemmatizer to return just the lemma instead of a dictionary? - Stack Overflow
-https://stackoverflow.com/questions/77609784/how-to-make-stanza-lemmatizer-to-return-just-the-lemma-instead-of-a-dictionary
-
-Lemmatization - Stanza
-https://stanfordnlp.github.io/stanza/lemma.html
-
-Instagram
-https://www.instagram.com/
-
-Instagram
-https://www.instagram.com/iscream.never.ground/reels/
-
-Phonetic transcription with HuggingFace | notes
-https://jimregan.github.io/notes/phonetic/espeak/wav2vec2/huggingface/timestamps/2022/10/18/wav2vec2-phonetic-transcription.html
-
-jimregan/wav2vec2-swedish-phonetic-waxholm · Hugging Face
-https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm
-
-Speech transcription comparison
-https://chatgpt.com/c/68a25d50-9300-832a-81f2-886c29ee55c4
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
-1062.mp4
-https://www.dropbox.com/scl/fi/548lcwp2qjavqwe2235tl/1062.mp4?rlkey=ksltiucjib39k5q58472soohd&e=2&dl=0
-
-Program - Kulturfestivalen
-https://kulturfestivalen.stockholm.se/program/?date=2025-08-14
-
-Festivalens områden - Kulturfestivalen
-https://kulturfestivalen.stockholm.se/festivalens-omraden/
-
-norrbro marknad - Google Search
-https://www.google.com/search?q=norrbro+marknad&rlz=1C5GCCM_en&oq=norrbro+marknad&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIKCAQQABiABBiiBDIKCAUQABiABBiiBDIHCAYQABjvBTIGCAcQRRg80gEINDY3OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Transcript comparison
-https://chatgpt.com/c/68a217b9-cb18-832d-aee6-5a5e3d43e768
-
-stanza lemmatization - Google Search
-https://www.google.com/search?q=stanza+lemmatization&rlz=1C5GCCM_en&oq=stanza+lemmat&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGDkyDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBwgFEAAY7wUyCggGEAAYgAQYogQyBwgHEAAY7wXSAQk0Mjc4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Lemmatization - Stanza
-https://stanfordnlp.github.io/stanza/lemma.html
-
-Speech transcription comparison
-https://chatgpt.com/c/68a25d50-9300-832a-81f2-886c29ee55c4
-
-Instagram
-https://www.instagram.com/
-
-Välkommen till Språkbankens personalmöte 27-29 augusti 2025 | Språkbanken
-https://sprakbanken.se/personalmote2025
-
-raw.githubusercontent.com/wavlab-speech/versa/refs/heads/main/launch_slurm.sh
-https://raw.githubusercontent.com/wavlab-speech/versa/refs/heads/main/launch_slurm.sh
-
-Interspeech 2025 - Home
-https://www.interspeech2025.org/home
-
-Triphone model Kaldi setup
-https://chatgpt.com/c/68a5d04c-821c-8325-8c9c-9c49cb83d874
-
-raw (1024×1024)
-https://sdmntprnortheu.oaiusercontent.com/files/00000000-c7a8-61f4-87ec-f8808cc884c4/raw?se=2025-08-20T14%3A49%3A04Z&sp=r&sv=2024-08-04&sr=b&scid=90c9201f-d328-56b1-8bc5-da667d039661&skoid=82a3371f-2f6c-4f81-8a78-2701b362559b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-20T07%3A33%3A45Z&ske=2025-08-21T07%3A33%3A45Z&sks=b&skv=2024-08-04&sig=LBzrNTPYBS8vLyMfW9fDPntgtxQsLpB6bsNH3oWbZEM%3D
-
-Kaldi alignment format - Google Search
-https://www.google.com/search?q=Kaldi+alignment+format&rlz=1C5GCCM_en&oq=Kaldi+alignment+format&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDMwODRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-kaldi-align/kaldi_align at master · rhasspy/kaldi-align
-https://github.com/rhasspy/kaldi-align/tree/master/kaldi_align
-
-rhasspy/gruut: A tokenizer, text cleaner, and phonemizer for many human languages.
-https://github.com/rhasspy/gruut
-
-kaldi-align/kaldi_align/align2json.py at master · rhasspy/kaldi-align
-https://github.com/rhasspy/kaldi-align/blob/master/kaldi_align/align2json.py
-
-Adapt Kaldi recipe
-https://chatgpt.com/c/68a5d3a1-a328-832d-abd5-fa3a0b58eae3
-
-VOSK Models
-https://alphacephei.com/vosk/models
-
-Alpha Cephei Speech Recognition News
-https://alphacephei.com/en/news.html
-
-alphacep repositories
-https://github.com/orgs/alphacep/repositories?type=all&page=2
-
-vosk-api/src/batch_recognizer.cc at master · alphacep/vosk-api
-https://github.com/alphacep/vosk-api/blob/master/src/batch_recognizer.cc
-
-alphacep/vosk-tts: Text To Speech Synthesis with Vosk
-https://github.com/alphacep/vosk-tts
-
-alphacep/vosk-unity-asr: Automatic Speech Recognition in Unity using Vosk library
-https://github.com/alphacep/vosk-unity-asr
-
-Commits · alphacep/Matcha-TTS
-https://github.com/alphacep/Matcha-TTS/commits/main/
-
-Add BERT in text encoder · alphacep/Matcha-TTS@ed53d4c
-https://github.com/alphacep/Matcha-TTS/commit/ed53d4cf47b82f53ef753ecb8691f56a1a7da8e0
-
-Bert embedding, second stage · alphacep/Matcha-TTS@20b658c
-https://github.com/alphacep/Matcha-TTS/commit/20b658c2387023525096d0092803cfc70a7698af
-
-Merge SDP · alphacep/Matcha-TTS@93d07f6
-https://github.com/alphacep/Matcha-TTS/commit/93d07f6a7d9752ad7773d8f42c245ed7f1860a00
-
-Rhasspy
-https://github.com/rhasspy
-
-Rhasspy
-https://rhasspy.readthedocs.io/en/latest/#supported-languages
-
-synesthesiam/en-us_pocketsphinx-cmu: U.S. English voice2json profile based on Pocketsphinx
-https://github.com/synesthesiam/en-us_pocketsphinx-cmu
-
-CMU Sphinx - Browse /Acoustic and Language Models/Archive at SourceForge.net
-https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/Archive/
-
-sv_kaldi-montreal/espeak_phonemes.txt at master · synesthesiam/sv_kaldi-montreal
-https://github.com/synesthesiam/sv_kaldi-montreal/blob/master/espeak_phonemes.txt
-
-exit if phonetisaurus fails(/does not exist) · jimregan/ClarinStudioKaldi@1f20eb7
-https://github.com/jimregan/ClarinStudioKaldi/commit/1f20eb7e757687545c9af7663b441bf6b89bf216
-
-jimregan/sphinx4-clarinpl
-https://github.com/jimregan/sphinx4-clarinpl
-
-Release v0.0-final-run · jimregan/ClarinStudioKaldi
-https://github.com/jimregan/ClarinStudioKaldi/releases/tag/v0.0-final-run
-
-Trying to use pocketsphinx to word align | notes
-https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
-
-2024-10-06-pocketsphinx-align.ipynb - Colab
-https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb#scrollTo=xKFh0MaQSLN1
-
-PocketSphinx Documentation — PocketSphinx 5.0.3 documentation
-https://pocketsphinx.readthedocs.io/en/latest/
-
-raw.githubusercontent.com/jimregan/wolnelektury-speech-corpus/refs/heads/main/specific-norms.tsv
-https://raw.githubusercontent.com/jimregan/wolnelektury-speech-corpus/refs/heads/main/specific-norms.tsv
-
-ASCII table - Table of ASCII codes, characters and symbols
-https://www.ascii-code.com/
-
-rapidfuzz/RapidFuzz: Rapid fuzzy string matching in Python using various string metrics
-https://github.com/rapidfuzz/RapidFuzz/tree/main
-
-rapidfuzz.process - RapidFuzz 3.13.0 documentation
-https://rapidfuzz.github.io/RapidFuzz/Usage/process.html
-
-Name morph sequence
-https://chatgpt.com/c/68a71356-0f00-8332-8f63-55607b181fa0
-
-History
-chrome://history/syncedTabs
-
-“I’m an oddball when it comes to the metal scene”: Co-leader of Mastodon for a quarter century, Brent Hinds was a one-of-a-kind guitarist who took metal guitar into uncharted territory – because he never considered himself a metal guitarist | Guitar World
-https://www.guitarworld.com/artists/guitarists/the-guitar-genius-of-brent-hinds
-
-JOYCE: Downloads
-https://www.seasip.info/Unix/Joyce/download.html
-
-[2508.11371] Speech Emotion Recognition Using Fine-Tuned DWFormer:A Study on Track 1 of the IERPChallenge 2024
-https://arxiv.org/abs/2508.11371
-
-Pretrained Conformers for Audio Fingerprinting and Retrieval
-https://arxiv.org/pdf/2508.11609
-
-Expressive Speech Retrieval using Natural Language Descriptions of Speaking Style
-https://arxiv.org/pdf/2508.11187
-
-Enhancing In-the-Wild Speech Emotion Conversion with Resynthesis-based Duration Modeling
-https://arxiv.org/pdf/2508.11535
-
-Is docker only for web apps or it can be used to run a container for desktop apps??? : r/docker
-https://www.reddit.com/r/docker/comments/j3ru0n/is_docker_only_for_web_apps_or_it_can_be_used_to/
-
-Ramblings from Jessie: Docker Containers on the Desktop
-https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
-
-jlesage/handbrake - Docker Image | Docker Hub
-https://hub.docker.com/r/jlesage/handbrake
-
-On the basis of Chapter 11, browser access to 3D games running on the remote desktop is slow · Issue #9 · fadams/docker-gui
-https://github.com/fadams/docker-gui/issues/9
-
-docker-gui/4-local-applications/gnome-dbus-and-apparmor/gnome-calculator/gnome-calculatorV4.sh at master · fadams/docker-gui
-https://github.com/fadams/docker-gui/blob/master/4-local-applications/gnome-dbus-and-apparmor/gnome-calculator/gnome-calculatorV4.sh
-
-docker-gui/6-remote-applications/X11-forwarding/x11-apps/Dockerfile at master · fadams/docker-gui
-https://github.com/fadams/docker-gui/blob/master/6-remote-applications/X11-forwarding/x11-apps/Dockerfile
-
-docker-gui/4-local-applications/wayland-and-weston/weston/weston-wayland.sh at master · fadams/docker-gui
-https://github.com/fadams/docker-gui/blob/master/4-local-applications/wayland-and-weston/weston/weston-wayland.sh
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
-No Middle Name - Wikipedia
-https://en.wikipedia.org/wiki/No_Middle_Name
-
-Cleaning the Gold by Karin Slaughter | Goodreads
-https://www.goodreads.com/book/show/45302351-cleaning-the-gold?ac=1&from_search=true&qid=DvqMcuUtRt&rank=1
-
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/with/52236177005
-
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/with/51992017748
-
-IMG_20220509_154333_914 | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/52062694181/in/dateposted/
-
-IMG_20220509_110937_052 | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/52063183605/in/dateposted/
-
-VID_20220722_185040 | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/52234645833/in/photolist-2nzMTn2-2nzQjy2-2nzQjxv-2nzMTmW-2nzQjrU-2nzMQGL-2nzMQGa-2nzQjqr-2nzGMJn-2nzGMH5-2nzMQCh-2nzMQB5-2nzMT72-2nzMQFi-2nzMQyQ-2nzGMAX-2nzPfWy-2nzGMzu-2nzMQvU-2nzMT1A-2nzMQu6-2nzPfTn-2nzMT5D-2nzGMqr-2nzGMpQ-2nzQj4u-2nzMQmW-2nzQj4e-2nzMSQL-2nzMSXz-2nzPfG5-2nzGMk1-2nzPfCH-2nzNdnX-2nzQiD6-2nzGLZr-2nzQis4-2nzPeZ8-2nzGLAv-2nzPeWs-2nzMS3D-2nzGLxp-2nzMPuL-2nzMPsS-2nzGLsK-2nzQign-2nzMPqh-2nzQi6n-2nzMRSd-2nzMPoy
-
-2025-08-22_04-41-17 | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/54737460973/in/dateposted/
-
-Will Trent | Disney+
-https://www.disneyplus.com/en-gb/play/ec315bea-d72b-4da4-bd9f-64761d3f156a
-
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/with/54737708425
 
