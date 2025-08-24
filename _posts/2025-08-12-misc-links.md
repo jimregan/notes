@@ -111,4 +111,21 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [flexthink/librig2p-nostress-space-cmu](https://huggingface.co/datasets/flexthink/librig2p-nostress-space-cmu)
 
+[Acoustic Data-Driven Lexicon Learning Based on a Greedy Pronunciation Selection Framework](https://www.isca-archive.org/interspeech_2017/zhang17h_interspeech.html),
+[Kaldi script directory](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/steps/dict/)
+
+[Tradition or Innovation: A Comparison of Modern ASR Methods for Forced Alignment](https://www.isca-archive.org/interspeech_2024/rousso24_interspeech.html)
+
+```bibtex
+@inproceedings{rousso24_interspeech,
+  title     = {Tradition or Innovation: A Comparison of Modern ASR Methods for Forced Alignment},
+  author    = {Rotem Rousso and Eyal Cohen and Joseph Keshet and Eleanor Chodroff},
+  year      = {2024},
+  booktitle = {Interspeech 2024},
+  pages     = {1525--1529},
+  doi       = {10.21437/Interspeech.2024-429},
+  issn      = {2958-1796},
+}
+```
+
 [Orange-OpenSource/conllueditor](https://github.com/Orange-OpenSource/conllueditor)
