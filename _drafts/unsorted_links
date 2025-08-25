@@ -130,23 +130,11 @@ https://github.com/vwxyzjn/hfblog/blob/main/speecht5.md
 18. Fine-tuned SpeechT5
 https://www.kaggle.com/code/imsanjoykb/18-fine-tuned-speecht5
 
-neonbjb/tortoise-tts: A multi-voice TTS system trained with an emphasis on quality
-https://github.com/neonbjb/tortoise-tts
-
 Speech Synthesis Workshop 2025 | Studying at Campus Fryslân | University of Groningen
 https://www.rug.nl/cf/studeren-bij-cf/ssw13-speech-synthesis-workshop-2025/?lang=en
 
 Grokking Diffusion Models – Non_Interactive – Software & ML
 https://nonint.com/2022/10/31/grokking-diffusion-models/
-
-My deep learning rig – Non_Interactive – Software & ML
-https://nonint.com/2022/05/30/my-deep-learning-rig/
-
-jbetker (James Betker)
-https://huggingface.co/jbetker
-
-jbetker/tortoise-tts-v2 at main
-https://huggingface.co/jbetker/tortoise-tts-v2/tree/main
 
 2403.19887
 https://arxiv.org/pdf/2403.19887
@@ -214,17 +202,8 @@ https://arxiv.org/pdf/2412.13663
 RESOURCEFUL-2025 | resourceful-2025
 https://resourceful-workshop.github.io/resourceful-2025/index.html
 
-Category:Swedish terms with IPA pronunciation - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/Category:Swedish_terms_with_IPA_pronunciation
-
-Theoretical Foundations of Deep Selective State-Space Models | OpenReview
-https://openreview.net/forum?id=3SzrqwupUx
-
 Certified Machine Unlearning via Noisy Stochastic Gradient Descent | OpenReview
 https://openreview.net/forum?id=h3k2NXu5bJ
-
-Task-recency bias strikes back: Adapting covariances in Exemplar-Free Class Incremental Learning | OpenReview
-https://openreview.net/forum?id=5H4l37IsZ8
 
 NeurIPS Poster Label Alignment Regularization for Distribution Shift
 https://nips.cc/virtual/2024/poster/98324
@@ -280,9 +259,6 @@ https://nips.cc/virtual/2024/poster/93611
 HanchaoLiu/Recover-and-Resample: Recovering Complete Actions for Cross-dataset Skeleton Action Recognition (NeurIPS 2024)
 https://github.com/HanchaoLiu/Recover-and-Resample
 
-WikiLovesDownloads
-https://wikilovesdownloads.toolforge.org/
-
 Berkeley-Speech-Group/sylber: Sylber: Syllabic Embedding Representation of Speech from Raw Audio
 https://github.com/Berkeley-Speech-Group/sylber
 
@@ -337,53 +313,14 @@ https://www.nytimes.com/1984/10/07/nyregion/research-team-at-ibm-develops-a-new-
 Speech recognition
 https://www.ibm.com/history/voice-recognition?utm_source=chatgpt.com
 
-Qwen (Qwen)
-https://huggingface.co/Qwen
-
-QVQ - a Qwen Collection
-https://huggingface.co/collections/Qwen/qvq-676448c820912236342b9888
-
-Qwen2.5-Math - a Qwen Collection
-https://huggingface.co/collections/Qwen/qwen25-math-66eaa240a1b7d5ee65f1da3e
-
-Qwen2.5 - a Qwen Collection
-https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e
-
-LLaSA_training/train_tts.py at main · zhenye234/LLaSA_training
-https://github.com/zhenye234/LLaSA_training/blob/main/train_tts.py
-
 QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
 https://github.com/QwenLM/Qwen2-Audio?tab=readme-ov-file
-
-Qwen/Qwen2-Audio-7B · Hugging Face
-https://huggingface.co/Qwen/Qwen2-Audio-7B
-
-Qwen2-Audio: Chat with Your Voice! | Qwen
-https://qwenlm.github.io/blog/qwen2-audio/
-
-QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
-https://github.com/QwenLM/Qwen2-Audio
-
-Qwen/Qwen2-Audio-7B · Hugging Face
-https://huggingface.co/Qwen/Qwen2-Audio-7B
 
 qwen2-audio-finetune/public_ATM_Qwen2Audio (1).ipynb at main · jonflynng/qwen2-audio-finetune
 https://github.com/jonflynng/qwen2-audio-finetune/blob/main/public_ATM_Qwen2Audio%20(1).ipynb
 
-Qwen2Audio
-https://huggingface.co/docs/transformers/en/model_doc/qwen2_audio
-
-Qwen/Qwen2-Audio-7B · Hugging Face
-https://huggingface.co/Qwen/Qwen2-Audio-7B
-
 2407.10759
 https://arxiv.org/pdf/2407.10759
-
-ctc-forced-aligner/ctc_forced_aligner/text_utils.py at main · MahmoudAshraf97/ctc-forced-aligner
-https://github.com/MahmoudAshraf97/ctc-forced-aligner/blob/main/ctc_forced_aligner/text_utils.py
-
-MahmoudAshraf97/ctc-forced-aligner: Text to speech alignment using CTC forced alignment
-https://github.com/MahmoudAshraf97/ctc-forced-aligner
 
 MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for Speech Recognition | Papers With Code
 https://paperswithcode.com/paper/mmspeech-multi-modal-multi-task-encoder
@@ -479,13 +416,10 @@ JavaScript magyar ige ragozás
 https://chatgpt.com/c/679fc792-37e4-8011-95d3-a35b4a4826e5
 
 [2202.09729] It's Raw! Audio Generation with State-Space Models
-https://arxiv.org/abs/2202.09729?utm_source=chatgpt.com
-
-state-spaces/s4: Structured state space sequence models
-https://github.com/state-spaces/s4
+https://arxiv.org/abs/2202.09729
 
 [2403.05010] RFWave: Multi-band Rectified Flow for Audio Waveform Reconstruction
-https://arxiv.org/abs/2403.05010?utm_source=chatgpt.com
+https://arxiv.org/abs/2403.05010
 
 Clap: Complete Guide 2024
 https://blog.unrealspeech.com/clap-complete-guide-2024/
@@ -567,9 +501,6 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1163420
 
 The People's Dictionary
 https://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&exemplifierar&1
-
-Practical Cryptography
-http://www.practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/
 
 Design, analysis and experimental evaluation of block based transformation in MFCC computation for speaker recognition - ScienceDirect
 https://www.sciencedirect.com/science/article/abs/pii/S0167639311001622?via%3Dihub#b0115
@@ -982,9 +913,6 @@ https://github.com/felixkreuk/UnsupSeg?tab=readme-ov-file
 What Is Retrieval-Augmented Generation aka RAG | NVIDIA Blogs
 https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/
 
-Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models
-https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/
-
 facebook/rag-token-nq · Hugging Face
 https://huggingface.co/facebook/rag-token-nq
 
@@ -1041,9 +969,6 @@ https://huggingface.co/lerobot/diffusion_pusht
 
 GitHub - huggingface/gym-pusht: A gym environment for PushT
 https://github.com/huggingface/gym-pusht
-
-GitHub - hitz-zentroa/latxa: Latxa: An Open Language Model and Evaluation Suite for Basque
-https://github.com/hitz-zentroa/latxa
 
 GitHub - EleutherAI/gpt-neox: An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.
 https://github.com/EleutherAI/gpt-neox
@@ -1104,15 +1029,6 @@ https://github.com/facebookresearch/ppuda/tree/main
 
 LoGAH/dataset_generator/vit_generator.py at main · Blackzxy/LoGAH · GitHub
 https://github.com/Blackzxy/LoGAH/blob/main/dataset_generator/vit_generator.py
-
-Paper page - Looking Backward: Streaming Video-to-Video Translation with Feature Banks
-https://huggingface.co/papers/2405.15757
-
-[2405.15757] Looking Backward: Streaming Video-to-Video Translation with Feature Banks
-https://arxiv.org/abs/2405.15757
-
-GitHub - Jeff-LiangF/streamv2v: Official Pytorch implementation of StreamV2V.
-https://github.com/Jeff-LiangF/streamv2v
 
 SoundCTM
 https://koichi-saito-sony.github.io/soundctm/
@@ -1501,12 +1417,6 @@ https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/blob/main/sample_finetun
 Fine-tune Phi-3 for sentiment analysis
 https://www.kaggle.com/code/lucamassaron/fine-tune-phi-3-for-sentiment-analysis
 
-GitHub - clement-pages/gryannote: Provide Gradio custom components to make the diarization-based audio labeling process easier and faster.
-https://github.com/clement-pages/gryannote
-
-GitHub - revdotcom/fstalign: An efficient OpenFST-based tool for calculating WER and aligning two transcript sequences.
-https://github.com/revdotcom/fstalign
-
 Sapiens Segmentation - a Hugging Face Space by facebook
 https://huggingface.co/spaces/facebook/sapiens_seg
 
@@ -1720,17 +1630,8 @@ https://www.infoworld.com/article/3543651/pytorch-library-makes-models-faster-an
 GitHub - pytorch/ao: PyTorch native quantization and sparsity for training and inference
 https://github.com/pytorch/ao
 
-GitHub - google-research/t5x
-https://github.com/google-research/t5x
-
 JAX-Toolbox/rosetta/rosetta/projects/t5x at main · NVIDIA/JAX-Toolbox · GitHub
 https://github.com/NVIDIA/JAX-Toolbox/tree/main/rosetta/rosetta/projects/t5x
-
-GitHub - clement-pages/gryannote: Provide Gradio custom components to make the diarization-based audio labeling process easier and faster.
-https://github.com/clement-pages/gryannote
-
-app.py · clement-pages/gryannote at main
-https://huggingface.co/spaces/clement-pages/gryannote/blob/main/app.py
 
 Redox OS: A Rust-Based Open Source Alternative to Linux And BSD
 https://news.itsfoss.com/redox-os/
@@ -1740,21 +1641,6 @@ https://orbitalde.github.io/?ref=news.itsfoss.com
 
 xfce:thunar:start [Xfce Docs]
 https://docs.xfce.org/xfce/thunar/start
-
-Why a New OS? - The Redox Operating System
-https://doc.redox-os.org/book/why-a-new-os.html
-
-Graphics and Windowing - The Redox Operating System
-https://doc.redox-os.org/book/graphics-windowing.html
-
-redox-os / tfs · GitLab
-https://gitlab.redox-os.org/redox-os/tfs
-
-src/lib.rs · master · redox-os / liborbital · GitLab
-https://gitlab.redox-os.org/redox-os/liborbital/-/blob/master/src/lib.rs?ref_type=heads
-
-Pyramid Flow open source AI video generator launches | VentureBeat
-https://venturebeat.com/ai/new-high-quality-ai-video-generator-pyramid-flow-launches-and-its-fully-open-source/
 
 GitHub - jy0205/Pyramid-Flow: Code of Pyramidal Flow Matching for Efficient Video Generative Modeling
 https://github.com/jy0205/Pyramid-Flow
@@ -1807,17 +1693,8 @@ https://github.com/facebookresearch/lingua/blob/main/apps/fastRNN/hawk/core_hawk
 GitHub - facebookresearch/LayerSkip: "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding", Accepted to ACL 2024
 https://github.com/facebookresearch/LayerSkip?tab=readme-ov-file
 
-[2402.05755] SpiRit-LM: Interleaved Spoken and Written Language Model
-https://arxiv.org/abs/2402.05755
-
-spiritlm/spiritlm/speech_tokenizer/f0/f0_extractor.py at main · facebookresearch/spiritlm · GitHub
-https://github.com/facebookresearch/spiritlm/blob/main/spiritlm/speech_tokenizer/f0/f0_extractor.py
-
 pYAAPT — AMFM_decompy 1.0.11 documentation
 https://bjbschmitt.github.io/AMFM_decompy/pYAAPT.html
-
-Textually Pretrained Speech Language Models
-https://pages.cs.huji.ac.il/adiyoss-lab/twist/
 
 About the license of "EXPRESSO" dataset · Issue #31 · facebookresearch/textlesslib · GitHub
 https://github.com/facebookresearch/textlesslib/issues/31
@@ -1920,5 +1797,4 @@ https://github.com/tihu-nlp/tihu
 
 GitHub - karim23657/Persian-tts-coqui: Persian/Farsi text to speech(TTS) training using coqui tts
 https://github.com/karim23657/Persian-tts-coqui
-
 
