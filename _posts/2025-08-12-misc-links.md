@@ -63,9 +63,6 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [Unsloth Whisper notebook](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Whisper.ipynb)
 
-[Pretrained Conformers for Audio Fingerprinting and Retrieval](https://arxiv.org/abs/2508.11609),
-[notebook](https://github.com/KemalAltwlkany/pretrained-conformers)
-
 [jermp/tongrams](https://github.com/jermp/tongrams) --- A C++ library providing fast language model queries in compressed space.
 
 [Monitor Polski Nr. 14](https://monitorpolski.gov.pl/M1925014000000.pdf)
@@ -129,3 +126,13 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 ```
 
 [Orange-OpenSource/conllueditor](https://github.com/Orange-OpenSource/conllueditor)
+
+[rapidfuzz/RapidFuzz](https://github.com/rapidfuzz/RapidFuzz)
+
+[Joyce](https://www.seasip.info/Unix/Joyce/index.html) --- Amstrad PCW emulator
+
+[sphinx4-clarinpl](https://github.com/jimregan/sphinx4-clarinpl)
+
+[Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
+
+[fadams/docker-gui](https://github.com/fadams/docker-gui) --- The code repository for a book providing a detailed step-by-step guide to packaging and running GUI applications as Docker containers.
