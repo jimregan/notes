@@ -1,0 +1,6 @@
+Failed to create secure directory (/run/user/1086/pulse): No such file or directory
+Failed to create secure directory (/run/user/1086/pulse): No such file or directory
+Failed to create secure directory (/run/user/1086/pulse): No such file or directory
+Failed to create secure directory (/run/user/1086/pulse): No such file or directory
+Device set to use cuda:0
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
