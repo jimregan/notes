@@ -1,0 +1,43 @@
+
+`deepvoice`:
+
+```yaml
+network:
+  ethernets:
+    enp129s0f0:
+      dhcp4: true
+      routes:
+        - to: 0.0.0.0/0
+          via: 130.237.3.97
+    enp129s0f1:
+      dhcp4: no
+      addresses: [10.210.242.21/24]
+      routes:
+        - to: 10.210.242.0/24
+          via: 10.210.242.1
+      routing-policy:
+        - from: 10.210.242.0/24
+  version: 2
+  ```
+
+  `deepspeech`:
+
+```yaml
+network:
+  ethernets:
+    enp129s0f1:
+      dhcp4: true
+      routes:
+        - to: 0.0.0.0/0
+          via: 130.237.3.97
+    enp129s0f0:
+      dhcp4: no
+      addresses: [10.210.242.22/24]
+      routes:
+        - to: 10.210.242.0/24
+          via: 10.210.242.1
+      routing-policy:
+        - from: 10.210.242.0/24
+  version: 2
+```
+
