@@ -1,3 +1,11 @@
+---
+toc: true
+layout: post
+hidden: true
+description: For the machines that have them
+title: Double NIC configuration for TMH
+categories: [tmh, config]
+---
 
 `deepvoice`:
 
