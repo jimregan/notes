@@ -26,7 +26,8 @@ network:
 network:
   ethernets:
     enp129s0f1:
-      dhcp4: true
+      dhcp4: no
+      addresses: [130.237.3.102/27] 
       routes:
         - to: 0.0.0.0/0
           via: 130.237.3.97
