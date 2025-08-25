@@ -58,3 +58,24 @@ network:
         - from: 10.210.242.0/24
   version: 2
 ```
+
+`deepflow`:
+
+```yaml
+network:
+  ethernets:
+    eno1:
+      dhcp4: true
+      routes:
+        - to: 0.0.0.0/0
+          via: 130.237.3.97
+    eno2:
+      dhcp4: no
+      addresses: [10.210.242.24/24]
+      routes:
+        - to: 10.210.242.0/24
+          via: 10.210.242.1
+      routing-policy:
+        - from: 10.210.242.0/24
+  version: 2
+```
