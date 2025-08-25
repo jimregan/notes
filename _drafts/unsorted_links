@@ -1708,27 +1708,6 @@ https://github.com/rhasspy/piper-phonemize/blob/master/src/phoneme_ids.cpp
 GitHub - huggingface/candle: Minimalist ML framework for Rust
 https://github.com/huggingface/candle
 
-candle/candle-examples/examples/glm4 at main · huggingface/candle · GitHub
-https://github.com/huggingface/candle/tree/main/candle-examples/examples/glm4
-
-candle/candle-examples/examples/segformer at main · huggingface/candle · GitHub
-https://github.com/huggingface/candle/tree/main/candle-examples/examples/segformer
-
-candle/candle-examples/examples/trocr at main · huggingface/candle · GitHub
-https://github.com/huggingface/candle/tree/main/candle-examples/examples/trocr
-
-candle/candle-examples/examples/parler-tts at main · huggingface/candle · GitHub
-https://github.com/huggingface/candle/tree/main/candle-examples/examples/parler-tts
-
-parler-tts/parler-tts-large-v1 · Hugging Face
-https://huggingface.co/parler-tts/parler-tts-large-v1
-
-GitHub - huggingface/parler-tts: Inference and training library for high-quality TTS models.
-https://github.com/huggingface/parler-tts
-
-candle/candle-examples/examples/metavoice at main · huggingface/candle · GitHub
-https://github.com/huggingface/candle/tree/main/candle-examples/examples/metavoice
-
 VoiceRestore - a Hugging Face Space by jadechoghari
 https://huggingface.co/spaces/jadechoghari/VoiceRestore
 
@@ -1740,9 +1719,6 @@ https://www.infoworld.com/article/3543651/pytorch-library-makes-models-faster-an
 
 GitHub - pytorch/ao: PyTorch native quantization and sparsity for training and inference
 https://github.com/pytorch/ao
-
-README.md · EleutherAI/pile-t5-large at main
-https://huggingface.co/EleutherAI/pile-t5-large/blob/main/README.md
 
 GitHub - google-research/t5x
 https://github.com/google-research/t5x
@@ -1783,9 +1759,6 @@ https://venturebeat.com/ai/new-high-quality-ai-video-generator-pyramid-flow-laun
 GitHub - jy0205/Pyramid-Flow: Code of Pyramidal Flow Matching for Efficient Video Generative Modeling
 https://github.com/jy0205/Pyramid-Flow
 
-icefall/egs/aishell/ASR/whisper/whisper_encoder_forward_monkey_patch.py at master · k2-fsa/icefall · GitHub
-https://github.com/k2-fsa/icefall/blob/master/egs/aishell/ASR/whisper/whisper_encoder_forward_monkey_patch.py
-
 RNN-Transducer with stateless prediction network
 https://research.google/pubs/rnn-transducer-with-stateless-prediction-network/
 
@@ -1801,23 +1774,8 @@ https://raihanjoty.github.io/media/Yingzhu-et-al-interspeech-20c-slides.pdf
 GitHub - alopez/hmmalign: An HMM word aligner for statistical machine translation
 https://github.com/alopez/hmmalign
 
-Adam Lopez – Researcher in Natural Language Processing
-https://alopez.github.io/
-
-Index of /alopez
-https://homepages.inf.ed.ac.uk/alopez/
-
 dreamt/aligner/align at master · alopez/dreamt · GitHub
 https://github.com/alopez/dreamt/blob/master/aligner/align
-
-How to make dice coefficient work : r/learnpython
-https://www.reddit.com/r/learnpython/comments/vp99qu/how_to_make_dice_coefficient_work/
-
-'That's Not True': Marty Friedman Clarifies One Misconception About Megadeth's Classic Era | Ultimate Guitar
-https://www.ultimate-guitar.com/news/general_music_news/thats_not_true_marty_friedman_clarifies_one_misconception_about_megadeths_classic_era.html
-
-Defaultdict in Python - GeeksforGeeks
-https://www.geeksforgeeks.org/defaultdict-in-python/
 
 Category:Sign languages - Wikimedia Commons
 https://commons.m.wikimedia.org/wiki/Category:Sign_languages
@@ -1846,29 +1804,8 @@ https://github.com/facebookresearch/lingua/tree/main
 lingua/apps/fastRNN/hawk/core_hawk.py at main · facebookresearch/lingua · GitHub
 https://github.com/facebookresearch/lingua/blob/main/apps/fastRNN/hawk/core_hawk.py
 
-Sharing new research, models, and datasets from Meta FAIR
-https://ai.meta.com/blog/fair-news-segment-anything-2-1-meta-spirit-lm-layer-skip-salsa-lingua/
-
 GitHub - facebookresearch/LayerSkip: "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding", Accepted to ACL 2024
 https://github.com/facebookresearch/LayerSkip?tab=readme-ov-file
-
-GitHub - FAIR-Chem/fairchem: FAIR Chemistry's library of machine learning methods for chemistry
-https://github.com/FAIR-Chem/fairchem
-
-fairchem/OMAT24 · Hugging Face
-https://huggingface.co/fairchem/OMAT24
-
-fairchem/OMAT24 · Datasets at Hugging Face
-https://huggingface.co/datasets/fairchem/OMAT24
-
-GitHub - facebookresearch/mexma: MEXMA: Token-level objectives improve sentence representations
-https://github.com/facebookresearch/mexma
-
-facebook/MEXMA · Hugging Face
-https://huggingface.co/facebook/MEXMA
-
-[2409.12737] MEXMA: Token-level objectives improve sentence representations
-https://arxiv.org/abs/2409.12737
 
 [2402.05755] SpiRit-LM: Interleaved Spoken and Written Language Model
 https://arxiv.org/abs/2402.05755
@@ -1878,15 +1815,6 @@ https://github.com/facebookresearch/spiritlm/blob/main/spiritlm/speech_tokenizer
 
 pYAAPT — AMFM_decompy 1.0.11 documentation
 https://bjbschmitt.github.io/AMFM_decompy/pYAAPT.html
-
-Textually Pretrained Speech Language Models
-https://pages.cs.huji.ac.il/adiyoss-lab/twist/
-
-Issues · facebookresearch/textlesslib · GitHub
-https://github.com/facebookresearch/textlesslib/issues
-
-GitHub - facebookresearch/textlesslib: Library for Textless Spoken Language Processing
-https://github.com/facebookresearch/textlesslib
 
 Textually Pretrained Speech Language Models
 https://pages.cs.huji.ac.il/adiyoss-lab/twist/
@@ -1911,15 +1839,6 @@ https://towardsdatascience.com/how-i-studied-llms-in-two-weeks-a-comprehensive-r
 
 GitHub - hesamsheikh/ml-retreat: intermediate to advanced AI learning path
 https://github.com/hesamsheikh/ml-retreat/tree/main?tab=readme-ov-file
-
-GitHub - HW140701/VideoTo3dPoseAndBvh: Convert video to the bvh motion file
-https://github.com/HW140701/VideoTo3dPoseAndBvh/tree/master
-
-GitHub - facebookresearch/VideoPose3D: Efficient 3D human pose estimation in video using 2D keypoint trajectories
-https://github.com/facebookresearch/VideoPose3D
-
-GitHub - facebookresearch/VideoPose3D: Efficient 3D human pose estimation in video using 2D keypoint trajectories
-https://github.com/facebookresearch/VideoPose3D
 
 A Training Method For VideoPose3D With Ideology of Action Recognition
 https://www.researchgate.net/publication/361300646_A_Training_Method_For_VideoPose3D_With_Ideology_of_Action_Recognition
@@ -1966,9 +1885,6 @@ https://www.chatbots.org/journals/
 Interdisciplinary Advances in Adaptive and Intelligent Assistant Systems - by IGI Global - Academic journals relevant to humanlike conversational artificial intelligence
 https://www.chatbots.org/journal/interdisciplinary_advances_in_adaptive_and_intelligent_assistant_systems
 
-Interdisciplinary Advances in Adaptive and Intelligent Assistant Systems - by IGI Global - Academic journals relevant to humanlike conversational artificial intelligence
-https://www.chatbots.org/journal/interdisciplinary_advances_in_adaptive_and_intelligent_assistant_systems/
-
 GitHub - dottxt-ai/outlines: Structured Text Generation
 https://github.com/dottxt-ai/outlines
 
@@ -1977,12 +1893,6 @@ https://predibase.com/blog/lorax-outlines-better-json-extraction-with-structured
 
 Scaling FineWeb to 1000+ languages: Step 1: finding signal in 100s of evaluation tasks - a Hugging Face Space by HuggingFaceFW
 https://huggingface.co/spaces/HuggingFaceFW/blogpost-fine-tasks
-
-Qwen/Qwen2.5-72B · Hugging Face
-https://huggingface.co/Qwen/Qwen2.5-72B
-
-Qwen/Qwen2.5-32B · Hugging Face
-https://huggingface.co/Qwen/Qwen2.5-32B
 
 Contributing to multilingual evaluations · huggingface/lighteval Wiki · GitHub
 https://github.com/huggingface/lighteval/wiki/Contributing-to-multilingual-evaluations
@@ -1999,14 +1909,8 @@ https://github.com/axodox/axodox-machinelearning
 onnxruntime-wav2vec/wav2vec2onnx.ipynb at main · 1010code/onnxruntime-wav2vec · GitHub
 https://github.com/1010code/onnxruntime-wav2vec/blob/main/wav2vec2onnx.ipynb
 
-facebook/wav2vec2-base · Hugging Face
-https://huggingface.co/facebook/wav2vec2-base
-
 GitHub - alphacep/awesome-speech: Resources that make every language unique
 https://github.com/alphacep/awesome-speech/tree/main
-
-awesome-speech/persian.md at main · alphacep/awesome-speech · GitHub
-https://github.com/alphacep/awesome-speech/blob/main/persian.md
 
 Neurai/NeuraSpeech_WhisperBase · Hugging Face
 https://huggingface.co/Neurai/NeuraSpeech_WhisperBase
