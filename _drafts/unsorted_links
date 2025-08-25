@@ -775,18 +775,6 @@ https://github.com/zhenye234/LLaSA_training/blob/main/run_slurm.sh
 cmu.pdf
 https://web.stanford.edu/~jurafsky/cmu.pdf
 
-Finetunning an open source model on your own data: Part 1 | vllm_llm – Weights & Biases
-https://wandb.ai/capecape/vllm_llm/reports/Finetunning-an-open-source-model-on-your-own-data-Part-1--Vmlldzo1NDQ1ODcw
-
-Serving fine-tuned large language model with vLLM
-https://modelz.ai/blog/vllm
-
-Deploy a fine-tuned model for command generation using vLLM
-https://rasa.com/docs/rasa-pro/deploy/deploy-fine-tuned-model/
-
-Qwen (Qwen)
-https://huggingface.co/Qwen
-
 Qwen/Qwen2-Audio-7B-Instruct · Hugging Face
 https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct
 
@@ -805,11 +793,9 @@ https://pbs.twimg.com/media/GjUDyovWYAEYd9D?format=jpg&name=medium
 facebookresearch/audiobox-aesthetics: Unified automatic quality assessment for speech, music, and sound.
 https://github.com/facebookresearch/audiobox-aesthetics?tab=readme-ov-file
 
-Why these English phonetic symbols are all WRONG - YouTube
-https://www.youtube.com/watch?v=gtnlGH055TA
+[Why these English phonetic symbols are all WRONG](https://www.youtube.com/watch?v=gtnlGH055TA)
 
-Lecture 3 The vowel system; clipping
-https://www.phon.ucl.ac.uk/home/wells/p201-3-lecture-new.pdf
+[Lecture 3 The vowel system; clipping](https://www.phon.ucl.ac.uk/home/wells/p201-3-lecture-new.pdf)
 
 key features and background
 http://seas.elte.hu/cube/about.html
@@ -850,13 +836,13 @@ https://www.isca-archive.org/interspeech_2006/ljolje06b_interspeech.pdf
 Articulatory feature-based pronunciation modeling - ScienceDirect
 https://www.sciencedirect.com/science/article/pii/S0885230815000686
 
-76198.pdf
+Pronunciation Adaption at the Lexical Level
 https://repository.ubn.ru.nl/bitstream/handle/2066/76198/76198.pdf
 
 LNAI 2705 - Text- and Speech-Triggered Information Access
 https://link.springer.com/content/pdf/10.1007/b11786.pdf#page=45
 
-kim11e_interspeech.pdf
+A Corpus-Based Study of English Pronunciation Variations
 https://www.isca-archive.org/interspeech_2011/kim11e_interspeech.pdf
 
 Pronunciation modeling and lexicon adaptation
@@ -969,15 +955,6 @@ https://huggingface.co/lerobot/diffusion_pusht
 
 GitHub - huggingface/gym-pusht: A gym environment for PushT
 https://github.com/huggingface/gym-pusht
-
-GitHub - EleutherAI/gpt-neox: An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.
-https://github.com/EleutherAI/gpt-neox
-
-[2405.05254] You Only Cache Once: Decoder-Decoder Architectures for Language Models
-https://arxiv.org/abs/2405.05254
-
-unilm/YOCO at master · microsoft/unilm · GitHub
-https://github.com/microsoft/unilm/tree/master/YOCO
 
 KAN-GPT-2/toy_functions.py at master · CG80499/KAN-GPT-2 · GitHub
 https://github.com/CG80499/KAN-GPT-2/blob/master/toy_functions.py
@@ -1222,14 +1199,8 @@ https://github.com/facebookresearch/moco/blob/main/main_lincls.py
 moco/detection at main · facebookresearch/moco · GitHub
 https://github.com/facebookresearch/moco/tree/main/detection
 
-Computing cluster (SLURM) — PyTorch Lightning 1.2.10 documentation
-https://pytorch-lightning.readthedocs.io/en/1.2.10/clouds/slurm.html
-
 GitHub - moby/moby: The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 https://github.com/moby/moby
-
-moby repositories · GitHub
-https://github.com/orgs/moby/repositories?type=all
 
 GitHub - moby/datakit: Connect processes into powerful data pipelines with a simple git-like filesystem interface
 https://github.com/moby/datakit
@@ -1255,15 +1226,6 @@ https://pypi.org/project/g2p/
 salesforce/LAVIS at xgen-mm
 https://github.com/salesforce/LAVIS/tree/xgen-mm
 
-GitHub - NVIDIA/audio-flamingo: PyTorch implementation of Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities.
-https://github.com/NVIDIA/audio-flamingo/tree/main
-
-GitHub - kyegomez/AudioFlamingo: Implementation of the model "AudioFlamingo" from the paper: "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities"
-https://github.com/kyegomez/AudioFlamingo
-
-nvidia/audio-flamingo at main
-https://huggingface.co/nvidia/audio-flamingo/tree/main
-
 facebook/opt-iml-1.3b · Hugging Face
 https://huggingface.co/facebook/opt-iml-1.3b
 
@@ -1282,9 +1244,6 @@ https://github.com/qxcv/pose-prediction/blob/master/expmap.py
 pytorch3d.transforms — PyTorch3D documentation
 https://pytorch3d.readthedocs.io/en/latest/modules/transforms.html
 
-GitHub - google-deepmind/open_x_embodiment
-https://github.com/google-deepmind/open_x_embodiment
-
 GitHub - google-research/rlds
 https://github.com/google-research/rlds#dataset-format
 
@@ -1299,12 +1258,6 @@ https://github.com/google-deepmind/natural-plan
 
 GitHub - google-deepmind/open_spiel: OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.
 https://github.com/google-deepmind/open_spiel
-
-GitHub - google-deepmind/dm_control: Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo.
-https://github.com/google-deepmind/dm_control
-
-GitHub - google-deepmind/alphageometry
-https://github.com/google-deepmind/alphageometry
 
 GitHub - google-deepmind/mujoco_menagerie: A collection of high-quality models for the MuJoCo physics engine, curated by Google DeepMind.
 https://github.com/google-deepmind/mujoco_menagerie
@@ -1378,38 +1331,14 @@ https://github.com/Unity-Technologies/Unity-Robotics-Hub
 Features -- Gazebo
 https://gazebosim.org/features
 
-GitHub - black-forest-labs/flux: Official inference repo for FLUX.1 models
-https://github.com/black-forest-labs/flux
-
 Replicate — Run AI with an API
 https://replicate.com/
-
-Models - Hugging Face
-https://huggingface.co/models?other=base_model:adapter:black-forest-labs/FLUX.1-schnell
-
-rhaymison/phi-3-portuguese-tom-cat-4k-instruct · Hugging Face
-https://huggingface.co/rhaymison/phi-3-portuguese-tom-cat-4k-instruct
-
-Models - Hugging Face
-https://huggingface.co/models?other=base_model:adapter:microsoft%2FPhi-3-mini-4k-instruct&p=2&sort=trending
-
-Open Portuguese LLM Leaderboard - a Hugging Face Space by eduagarcia
-https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard
-
-rhaymison/phi-3-portuguese-tom-cat-4k-instruct · Hugging Face
-https://huggingface.co/rhaymison/phi-3-portuguese-tom-cat-4k-instruct
-
-Fine-tuning Small Vision Language Models: Phi-3-vision | by Liana Napalkova | Jul, 2024 | Medium
-https://medium.com/@liana.napalkova/fine-tuning-small-vision-language-models-phi-3-vision-b9d406e4e268
 
 Experiences fine-tuning Phi 3 Mini : r/LocalLLaMA
 https://www.reddit.com/r/LocalLLaMA/comments/1e9lozu/experiences_finetuning_phi_3_mini/
 
 Does Phi 3 Medium Finetune Well? : r/LocalLLaMA
 https://www.reddit.com/r/LocalLLaMA/comments/1d08mwx/does_phi_3_medium_finetune_well/
-
-Open Portuguese LLM Leaderboard - a Hugging Face Space by eduagarcia
-https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard
 
 sample_finetune.py · microsoft/Phi-3-mini-4k-instruct at main
 https://huggingface.co/microsoft/Phi-3-mini-4k-instruct/blob/main/sample_finetune.py
@@ -1527,9 +1456,6 @@ https://thegradient.pub/an-illustrated-tour-of-applying-bert-to-speech-data/
 
 [1910.11559] SpeechBERT: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering
 https://arxiv.org/abs/1910.11559
-
-GitHub - yl4579/PL-BERT: Phoneme-Level BERT for Enhanced Prosody of Text-to-Speech with Grapheme Predictions
-https://github.com/yl4579/PL-BERT
 
 TTSTextNormalization/converters at master · tomaarsen/TTSTextNormalization · GitHub
 https://github.com/tomaarsen/TTSTextNormalization/tree/master/converters
