@@ -141,3 +141,24 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct),
 [sample_finetune_speech.py](https://huggingface.co/microsoft/Phi-4-multimodal-instruct/blob/main/sample_finetune_speech.py)
+
+[seastar105/Phi-4-mm-inst-zeroth-kor](https://huggingface.co/seastar105/Phi-4-mm-inst-zeroth-kor) --- Korean fine tune
+[script](https://gist.github.com/seastar105/d1d8983b27611370528e3b194dcc5577#file-main-py)
+
+[CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training](https://arxiv.org/abs/2505.17589),
+[demo](https://funaudiollm.github.io/cosyvoice3/)
+
+[Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention](https://arxiv.org/abs/2505.17412),
+[code](https://github.com/DreamTechAI/Direct3D-S2),
+[demo](https://nju-3dv.github.io/projects/Direct3D-S2/),
+[space](https://huggingface.co/spaces/wushuang98/Direct3D-S2-v1.0-demo)
+
+[The Windows Subsystem for Linux Is Now Open Source](https://thenewstack.io/the-windows-subsystem-for-linux-is-now-open-source/)
+
+[microsoft/WSL](https://github.com/microsoft/WSL),
+[microsoft/WSL2-Linux-Kernel](https://github.com/microsoft/WSL2-Linux-Kernel)
+
+[Microsoft Open Sources OpenHCL, a Linux-Based ‘Paravisor’](https://thenewstack.io/microsoft-open-sources-openhcl-a-linux-based-paravisor/)
+
+[ZeroSep: Separate Anything in Audio with Zero Training](https://arxiv.org/abs/2505.23625),
+[code](https://github.com/WikiChao/ZeroSep)
