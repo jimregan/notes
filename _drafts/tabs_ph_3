@@ -1,7 +1,7 @@
-seastar105/Phi-4-mm-inst-zeroth-kor · Hugging Face
-https://huggingface.co/seastar105/Phi-4-mm-inst-zeroth-kor
+Phi-4-multimodal-korean-finetuning
+https://gist.github.com/seastar105/d1d8983b27611370528e3b194dcc5577#file-main-py
 
-support phi4-multimodal by Jintao-Huang · Pull Request #3350 · modelscope/ms-swift · GitHub
+support phi4-multimodal by Jintao-Huang · Pull Request #3350 · modelscope/ms-swift
 https://github.com/modelscope/ms-swift/pull/3350
 
 GitHub - modelscope/ms-swift: Use PEFT or Full-parameter to finetune 450+ LLMs (Qwen2.5, InternLM3, GLM4, Llama3.3, Mistral, Yi1.5, Baichuan2, DeepSeek-R1, ...) and 150+ MLLMs (Qwen2.5-VL, Qwen2-Audio, Llama3.2-Vision, Llava, InternVL2.5, MiniCPM-V-2.6, GLM4v, Xcomposer2.5, Yi-VL, DeepSeek-VL2, Phi3.5-Vision, GOT-OCR2, ...).
@@ -190,7 +190,7 @@ https://github.com/QwenLM/Qwen2-Audio
 Advancing AI systems through progress in perception, localization, and reasoning
 https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/?utm_source=twitter&utm_medium=organic%20social&utm_content=video&utm_campaign=fair
 
-facebookresearch/perception_models: State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More!
+github.com
 https://github.com/facebookresearch/perception_models
 
 facebook/PE-Core-L14-336 · Hugging Face
@@ -241,29 +241,8 @@ https://github.com/meta-quest/reality-accelerator-toolkit
 rednote-hilab/dots.ocr · Hugging Face
 https://huggingface.co/rednote-hilab/dots.ocr
 
-Mistral’s New Open Source Model ‘Mistral Small 3.1’ Outshines Gemma 3, GTP-4o Mini
-https://analyticsindiamag.com/ai-news-updates/mistrals-new-open-source-model-mistral-small-3-1-outshines-gemma-3-gtp-4o-mini/
-
-[2505.17589] CosyVoice 3: Towards In-the-wild Speech Generation via Scaling-up and Post-training
-https://arxiv.org/abs/2505.17589
-
-CosyVoice3.0
-https://funaudiollm.github.io/cosyvoice3/
-
-Paper page - Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention
-https://huggingface.co/papers/2505.17412
-
-GitHub - DreamTechAI/Direct3D-S2: Direct3D‑S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention
-https://github.com/DreamTechAI/Direct3D-S2
-
-Direct3D-S2 high resolution 3D generation from image
-https://nju-3dv.github.io/projects/Direct3D-S2/
-
-app.py · wushuang98/Direct3D-S2-v1.0-demo at main
-https://huggingface.co/spaces/wushuang98/Direct3D-S2-v1.0-demo/blob/main/app.py
-
-Interspeech 2025 - Satellite Events
-https://www.interspeech2025.org/satellite-events
+[2505.17412] Direct3D-S2: Gigascale 3D Generation Made Easy with Spatial Sparse Attention
+https://arxiv.org/abs/2505.17412
 
 kiv.zcu.cz/tsd2025/
 https://www.kiv.zcu.cz/tsd2025/
