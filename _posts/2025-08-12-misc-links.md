@@ -136,3 +136,8 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [Docker Containers on the Desktop](https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)
 
 [fadams/docker-gui](https://github.com/fadams/docker-gui) --- The code repository for a book providing a detailed step-by-step guide to packaging and running GUI applications as Docker containers.
+
+[Accelerating Neural Network Training with Semi-Structured Sparsity](https://pytorch.org/blog/accelerating-neural-network-training/)
+
+[microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct),
+[sample_finetune_speech.py](https://huggingface.co/microsoft/Phi-4-multimodal-instruct/blob/main/sample_finetune_speech.py)
