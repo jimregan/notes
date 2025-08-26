@@ -31,9 +31,6 @@ categories: [links]
 
 [facebookresearch/vrs](https://github.com/facebookresearch/vrs) --- VRS is a file format optimized to record & playback streams of sensor data, such as images, audio samples, and any other discrete sensors (IMU, temperature, etc), stored in per-device streams of timestamped records.
 
-[MEXMA: Token-level objectives improve sentence representations](https://arxiv.org/abs/2409.12737),
-[code](https://github.com/facebookresearch/mexma)
-
 [Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations](https://arxiv.org/abs/2402.17152),
 [code](https://github.com/facebookresearch/generative-recommenders)
 
