@@ -1,9 +1,3 @@
-microsoft/Phi-4-multimodal-instruct · thanks , how to fine tune?
-https://huggingface.co/microsoft/Phi-4-multimodal-instruct/discussions/1
-
-sample_finetune_speech.py · microsoft/Phi-4-multimodal-instruct at main
-https://huggingface.co/microsoft/Phi-4-multimodal-instruct/blob/main/sample_finetune_speech.py
-
 seastar105/Phi-4-mm-inst-zeroth-kor · Hugging Face
 https://huggingface.co/seastar105/Phi-4-mm-inst-zeroth-kor
 
@@ -94,47 +88,14 @@ https://huggingface.co/agentica-org/DeepCoder-14B-Preview
 GitHub - MCG-NJU/DDT: DDT: Decoupled Diffusion Transformer
 https://github.com/MCG-NJU/DDT
 
-stabilityai/sd-vae-ft-ema · Hugging Face
-https://huggingface.co/stabilityai/sd-vae-ft-ema
-
-GitHub - MCG-NJU/FlowDCN: [NeurIPS 2024] Exploring DCN-like Architectures for Fast Image Generation with Arbitrary Resolution
-https://github.com/MCG-NJU/FlowDCN
-
-bruceyo/GLA-GCN: 2D to 3D human pose lifting
-https://github.com/bruceyo/GLA-GCN
-
-lrxjason/Attention3DHumanPose: The project is an official implementation of our CVPR2020 paper "Attention Mechanism Exploits Temporal Contexts: Real-time 3D Human Pose Reconstruction"
-https://github.com/lrxjason/Attention3DHumanPose
-
-facebookresearch/VideoPose3D: Efficient 3D human pose estimation in video using 2D keypoint trajectories
-https://github.com/facebookresearch/VideoPose3D
-
-PyTorch3D · A library for deep learning with 3D data
-https://pytorch3d.org/
-
-facebookresearch/pytorch3d: PyTorch3D is FAIR's library of reusable components for deep learning with 3D data
-https://github.com/facebookresearch/pytorch3d?tab=readme-ov-file
-
-pytorch3d/projects/nerf at main · facebookresearch/pytorch3d
-https://github.com/facebookresearch/pytorch3d/tree/main/projects/nerf
-
-Releases · facebookresearch/pytorch3d
-https://github.com/facebookresearch/pytorch3d/releases
+pytorch3d/projects/implicitron_trainer at main · facebookresearch/pytorch3d
+https://github.com/facebookresearch/pytorch3d/tree/main/projects/implicitron_trainer
 
 Need advice: 3D human pose detection in video. Python : r/computervision
 https://www.reddit.com/r/computervision/comments/17wf8v7/need_advice_3d_human_pose_detection_in_video/
 
-mkocabas/VIBE: Official implementation of CVPR2020 paper "VIBE: Video Inference for Human Body Pose and Shape Estimation"
-https://github.com/mkocabas/VIBE
-
-open-mmlab/mmpose: OpenMMLab Pose Estimation Toolbox and Benchmark.
-https://github.com/open-mmlab/mmpose/?tab=readme-ov-file
-
-open-mmlab/mmpose: OpenMMLab Pose Estimation Toolbox and Benchmark.
-https://github.com/open-mmlab/mmpose/tree/main?tab=readme-ov-file
-
-mmpose/projects/rtmpose3d at main · open-mmlab/mmpose
-https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose3d
+Demos — MMPose 1.3.2 documentation
+https://mmpose.readthedocs.io/en/latest/demos.html#d-human-pose-demo
 
 2407.08634
 https://arxiv.org/pdf/2407.08634
@@ -159,15 +120,6 @@ https://docs.ml5js.org/#/reference/bodypose
 
 Pose landmark detection guide  |  Google AI Edge  |  Google AI for Developers
 https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker
-
-Retrieval-based-Voice-Conversion-WebUI/docs/en/README.en.md at main · RVC-Project/Retrieval-based-Voice-Conversion-WebUI
-https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/en/README.en.md
-
-openvpi/audio-slicer: Python script that slices audio with silence detection
-https://github.com/openvpi/audio-slicer
-
-Maynard James Keenan keeps knuckleheads away from his music | Louder
-https://www.loudersound.com/features/a-perfect-circle-eat-the-elephant
 
 moonshotai/Kimi-Audio-7B-Instruct · Hugging Face
 https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
@@ -222,12 +174,6 @@ https://huggingface.co/Qwen/Qwen2-Audio-7B
 
 Qwen2-Audio: Chat with Your Voice! | Qwen
 https://qwenlm.github.io/blog/qwen2-audio/
-
-TheBloke/KafkaLM-70B-German-V0.1-GGUF · Hugging Face
-https://huggingface.co/TheBloke/KafkaLM-70B-German-V0.1-GGUF
-
-ctransformers/ctransformers/gptq at main · marella/ctransformers
-https://github.com/marella/ctransformers/tree/main/ctransformers/gptq
 
 Qwen2-Audio: Chat with Your Voice! | Qwen
 https://qwenlm.github.io/blog/qwen2-audio/
@@ -292,14 +238,8 @@ https://github.com/meta-quest/Meta-Spatial-SDK-Samples
 GitHub - meta-quest/reality-accelerator-toolkit: RATK (Reality Accelerator Toolkit) simplifies the integration of Mixed Reality experiences in WebXR, making it easier for developers to bring their MR ideas to life.
 https://github.com/meta-quest/reality-accelerator-toolkit
 
-tasks.md - Google Search
-https://www.google.com/search?q=tasks.md+&client=ms-android-google&sca_esv=24aa4a238b608873&sxsrf=AE3TifO3gAr_ylF8c7hfFUex0UcyYgzM8w%3A1748067552117&ei=4GQxaPzvBrfXwPAPkKfcuQw&oq=tasks.md+&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIgl0YXNrcy5tZCAyBhAAGAcYHjIGEAAYChgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESOtZUIIRWNJUcAB4AJABAJgBgwKgAfkGqgEFMi4wLjO4AQPIAQD4AQGYAgWgAqoHwgIJEAAYsAMYCBgewgIGEAAYCBgewgIIEAAYBxgKGB6YAwCIBgGQBgKSBwUyLjAuM6AH2A2yBwUyLjAuM7gHqgc&sclient=mobile-gws-wiz-serp
-
-google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/BaldissaraMatheus/Tasks.md&ved=2ahUKEwjEv-WUu7uNAxXpJhAIHaMqPFEQFnoECBcQAQ&usg=AOvVaw3zrfbSQ9eWNUnqF_iHwXPl
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/BaldissaraMatheus/Tasks.md&ved=2ahUKEwjEv-WUu7uNAxXpJhAIHaMqPFEQFnoECBcQAQ&usg=AOvVaw3zrfbSQ9eWNUnqF_iHwXPl
-
-Mistral AI Launches ‘Document AI’ Platform, Claims 99% OCR Accuracy
-https://analyticsindiamag.com/ai-news-updates/mistral-ai-launches-document-ai-platform-claims-99-ocr-accuracy/
+rednote-hilab/dots.ocr · Hugging Face
+https://huggingface.co/rednote-hilab/dots.ocr
 
 Mistral’s New Open Source Model ‘Mistral Small 3.1’ Outshines Gemma 3, GTP-4o Mini
 https://analyticsindiamag.com/ai-news-updates/mistrals-new-open-source-model-mistral-small-3-1-outshines-gemma-3-gtp-4o-mini/
@@ -1189,7 +1129,7 @@ http://www.abair.tcd.ie/audiobooks_edit/an-tiriseoir-01
 Extract text from image
 https://chatgpt.com/c/689f4c99-199c-8325-8377-e8aea72d0a7b
 
-Instagram
+(1) Instagram
 https://www.instagram.com/
 
 ChatGPT - CBT
@@ -1228,7 +1168,7 @@ https://discussions.apple.com/thread/254840207?sortBy=rank
 razer blade — Search - iFixit
 https://www.ifixit.com/Search?query=razer+blade+
 
-Instagram
+(1) Instagram
 https://www.instagram.com/
 
 ssh - How can I fix "kex_exchange_identification: read: Connection reset by peer"? - Stack Overflow
@@ -1251,4 +1191,5 @@ https://www.google.com/search?q=Wav2Vec+2.0+Large+(LV-60+%2B+CV+%2B+SWBD+%2B+FSH
 
 Wav2Vec 2.0 - a facebook Collection
 https://huggingface.co/collections/facebook/wav2vec-20-651e865258e3dee2586c89f5
+
 
