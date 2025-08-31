@@ -166,3 +166,6 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 [rllm-org/rllm](https://github.com/rllm-org/rllm) --- Democratizing Reinforcement Learning for LLMs
 
 [agentica-org/DeepCoder-14B-Preview](https://huggingface.co/agentica-org/DeepCoder-14B-Preview)
+
+[ByteDance-Seed/Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct)
+
