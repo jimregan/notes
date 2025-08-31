@@ -169,3 +169,7 @@ Wav2Vec 2.0 Large (LV-60 + CV + SWBD + FSH) ** | 300 hours Switchboard | [Libri-
 
 [ByteDance-Seed/Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct)
 
+Google's language resources repo has a dockerfile for merline
+[here](https://raw.githubusercontent.com/jimregan/language-resources/refs/heads/master/docker-images/merlin/Dockerfile),
+this is available as `langtech/base-merlin:v1_1`
+
