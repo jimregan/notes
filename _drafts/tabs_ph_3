@@ -1111,31 +1111,28 @@ https://huggingface.co/collections/facebook/wav2vec-20-651e865258e3dee2586c89f5
 jimregan/language-resources: Datasets and tools for basic natural language processing.
 https://github.com/jimregan/language-resources?tab=readme-ov-file
 
-Installing Bazel
-https://bazel.build/install
+language-resources/af at master · jimregan/language-resources
+https://github.com/jimregan/language-resources/tree/master/af
 
-ubuntu bazel - Google Search
-https://www.google.com/search?q=ubuntu+bazel&rlz=1C5GCCM_en&oq=ubuntu+bazel&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiRAhiABBiKBTIMCAIQABgUGIcCGIAEMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDIwNDdqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+language-resources/bazel at master · jimregan/language-resources
+https://github.com/jimregan/language-resources/tree/master/bazel
 
-Installing / Updating Bazel using Bazelisk
-https://bazel.build/install/bazelisk
+language-resources/docker-images/merlin/Dockerfile at master · jimregan/language-resources
+https://github.com/jimregan/language-resources/blob/master/docker-images/merlin/Dockerfile
 
-arm - How can I instal bazel on Ubuntu 22.04 with parallels M1 mac - Stack Overflow
-https://stackoverflow.com/questions/76734603/how-can-i-instal-bazel-on-ubuntu-22-04-with-parallels-m1-mac
+language-resources/docker-images/language-resources/Dockerfile at master · jimregan/language-resources
+https://github.com/jimregan/language-resources/blob/master/docker-images/language-resources/Dockerfile
 
-insready/bazel - Docker Image | Docker Hub
-https://hub.docker.com/r/insready/bazel
+Debian -- Details of package bazel-bootstrap in sid
+https://packages.debian.org/sid/bazel-bootstrap
 
-docker-bazel/Dockerfile at master · INsReady/docker-bazel
-https://github.com/INsReady/docker-bazel/blob/master/Dockerfile
+Installing Bazel on Ubuntu
+https://bazel.build/install/ubuntu#install-on-ubuntu
 
-openjdk - Official Image | Docker Hub
-https://hub.docker.com/_/openjdk
+Bazel build process
+https://chatgpt.com/c/68b49684-03b0-832f-8ba5-ebab6a5bb1a4
 
-ubuntu docker image openjdk - Google Search
-https://www.google.com/search?q=ubuntu+docker+image+openjdk&rlz=1C5GCCM_en&oq=ubuntu+docker&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIPCAEQRRg5GJECGIAEGIoFMgwIAhAAGEMYgAQYigUyDAgDEAAYQxiABBiKBTIHCAQQABiABDINCAUQABiRAhiABBiKBTINCAYQABiRAhiABBiKBTIMCAcQABhDGIAEGIoFMgwICBAAGBQYhwIYgAQyDAgJEAAYFBiHAhiABNIBCDQ0NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Image Layer Details - ubuntu:20.04 | Docker Hub
-https://hub.docker.com/layers/library/ubuntu/20.04/images/sha256-57df66b9fc9ce2947e434b4aa02dbe16f6685e20db0c170917d4a1962a5fe6a9
+jimregan/festus general | Docker Hub
+https://hub.docker.com/repository/docker/jimregan/festus/general
 
 
