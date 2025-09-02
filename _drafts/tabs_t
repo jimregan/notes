@@ -292,8 +292,8 @@ https://github.com/NVIDIA-NeMo/NeMo?tab=readme-ov-file#ngc-nemo-container
 T5 — NVIDIA NeMo Framework User Guide
 https://docs.nvidia.com/nemo-framework/user-guide/latest/llms/t5.html#t5
 
-NeMo/nemo/collections/llm/recipes at main · NVIDIA-NeMo/NeMo
-https://github.com/NVIDIA-NeMo/NeMo/tree/main/nemo/collections/llm/recipes
+NeMo/nemo/collections/llm/recipes/t5_220m.py at main · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/blob/main/nemo/collections/llm/recipes/t5_220m.py
 
 jimregan/NeMo: NeMo: a toolkit for conversational AI
 https://github.com/jimregan/NeMo/tree/main
@@ -307,11 +307,17 @@ https://docs.nvidia.com/nemo-framework/user-guide/latest/llms/hyena.html#
 Accelerating Leaderboard-Topping ASR Models 10x with NVIDIA NeMo | NVIDIA Technical Blog
 https://developer.nvidia.com/blog/accelerating-leaderboard-topping-asr-models-10x-with-nvidia-nemo/
 
-New Standard for Speech Recognition and Translation from the NVIDIA NeMo Canary Model | NVIDIA Technical Blog
-https://developer.nvidia.com/blog/new-standard-for-speech-recognition-and-translation-from-the-nvidia-nemo-canary-model/
+Models — NVIDIA NeMo Framework User Guide
+https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speech_classification/models.html#marblenet-vad
 
-openreview.net
+Venues | OpenReview
 https://openreview.net/
+
+WACV 2026 Conference Authors | OpenReview
+https://openreview.net/group?id=thecvf.com/WACV/2026/Conference/Authors&referrer=%5BHomepage%5D(%2F)
+
+WACV 2026 Conference Reviewers | OpenReview
+https://openreview.net/group?id=thecvf.com/WACV/2026/Conference/Reviewers&referrer=%5BHomepage%5D(%2F)#assigned-submissions
 
 nemo "codec-asr" - Google Search
 https://www.google.com/search?q=nemo+%22codec-asr%22&sca_esv=596d12ff5f9b0ee9&rlz=1C5GCCM_en&sxsrf=AE3TifOsJi0G6XBMwHcsQ10rxNJ8rKRKlQ%3A1756813636945&ei=RNm2aPG6OduywPAPr6PisQc&ved=0ahUKEwjx7JDmgLqPAxVbGRAIHa-ROHYQ4dUDCBE&uact=5&oq=nemo+%22codec-asr%22&gs_lp=Egxnd3Mtd2l6LXNlcnAiEG5lbW8gImNvZGVjLWFzciIyCBAhGKABGMMESK8aUP0FWNAXcAF4AZABAJgBlAGgAaICqgEDMC4yuAEDyAEA-AEBmAIDoAKzAsICChAAGLADGNYEGEfCAgUQIRigAZgDAIgGAZAGCJIHAzEuMqAHkASyBwMwLjK4B60CwgcFMC4xLjLIBwo&sclient=gws-wiz-serp
@@ -329,7 +335,10 @@ Run/examples/hello-world/hello_world.ipynb at main · NVIDIA-NeMo/Run
 https://github.com/NVIDIA-NeMo/Run/blob/main/examples/hello-world/hello_world.ipynb
 
 nvidia (NVIDIA)
-https://huggingface.co/nvidia/models
+https://huggingface.co/nvidia/models?p=5
+
+nvidia/Frame_VAD_Multilingual_MarbleNet_v2.0 · Hugging Face
+https://huggingface.co/nvidia/Frame_VAD_Multilingual_MarbleNet_v2.0
 
 app.py · nvidia/canary-1b-flash at main
 https://huggingface.co/spaces/nvidia/canary-1b-flash/blob/main/app.py
@@ -360,5 +369,50 @@ https://www.google.com/search?q=nvidia+container+registry&rlz=1C5GCCM_en&oq=nvid
 
 bytedance/MegaTTS3
 https://github.com/bytedance/MegaTTS3
+
+T5 — NVIDIA NeMo Framework User Guide
+https://docs.nvidia.com/nemo-framework/user-guide/latest/llms/t5.html
+
+NeMo/nemo/collections/llm/recipes/t5_220m.py at main · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/blob/main/nemo/collections/llm/recipes/t5_220m.py
+
+nemo checkpoint t5 - Google Search
+https://www.google.com/search?q=nemo+checkpoint+t5&rlz=1C5GCCM_en&oq=nemo+checkpoint+t5&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiiBBiJBTIKCAMQABiABBiiBDIHCAQQABjvBTIKCAUQABiiBBiJBdIBCDQ3NDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Checkpoint Conversion — NVIDIA NeMo Framework User Guide 24.07 documentation
+https://docs.nvidia.com/nemo-framework/user-guide/24.07/llms/t5/checkpointconversion.html
+
+[Conversion] How to convert Finetuned T5 checkpoint ended with `.ckpt` to `.nemo` checkpoint with NeMo toolkit? · Issue #9248 · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/issues/9248
+
+nvidia/nemo-megatron-t5-3B · Discussions
+https://huggingface.co/nvidia/nemo-megatron-t5-3B/discussions
+
+nvidia/nemo-megatron-t5-3B · Can NeMo t5 checkpoints easily be converted back to Huggingface compatible t5?
+https://huggingface.co/nvidia/nemo-megatron-t5-3B/discussions/3
+
+nvidia/nemo-megatron-t5-3B · Hugging Face
+https://huggingface.co/nvidia/nemo-megatron-t5-3B
+
+ChatGPT - Current things, 14 June 2025
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/68b70e40-7eb4-8330-a000-417c92b5a6d4
+
+физкультура — Викисловарь
+https://ru.wiktionary.org/wiki/%D1%84%D0%B8%D0%B7%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0
+
+εɪσοδήματος - Google Search
+https://www.google.com/search?q=%CE%B5%C9%AA%CF%83%CE%BF%CE%B4%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82&rlz=1C5GCCM_en&oq=%CE%B5%C9%AA%CF%83%CE%BF%CE%B4%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIHCAMQABjvBTIHCAQQABjvBTIHCAUQABjvBdIBBzcxMWowajmoAgawAgHxBRxW_zgQzta1&sourceid=chrome&ie=UTF-8
+
+Ferencváros - Google Search
+https://www.google.com/search?q=Ferencv%C3%A1ros&rlz=1C5GCCM_en&oq=Ferencv%C3%A1ros&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzI2OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Humans are being hired to make AI slop look less sloppy
+https://www.nbcnews.com/tech/tech-news/humans-hired-to-fix-ai-slop-rcna225969
+
+Vogue AI model sparks uproar after Guess ad
+https://eu.usatoday.com/story/entertainment/2025/07/28/vogue-ai-seraphinne-vallora-model-guess-ad-backlash/85407418007/
+
+sasha 🫧 on X: "boycott Vogue NOW! they’re pushing out models for AI, devaluing hard work and art of real people. https://t.co/7Iu6WTEsmj" / X
+https://x.com/PLAYTHEWOMAN/status/1948350863090626916
 
 
