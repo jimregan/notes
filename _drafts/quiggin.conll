@@ -27,7 +27,7 @@
 11	i	i	ADP	Simp	_	12	case	_	_
 12	nGleann	gleann	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	NamedEntity=Yes
 13	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	NamedEntity=Yes
-14	Bhaile	baile	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes_
+14	Bhaile	baile	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
 15	Dhuibh	dubh	ADJ	Adj	Case=Gen|Form=Len|Gender=Masc|Number=Sing	14	amod	_	NamedEntity=Yes|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
