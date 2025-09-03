@@ -173,3 +173,7 @@ Google's language resources repo has a dockerfile for merline
 [here](https://raw.githubusercontent.com/jimregan/language-resources/refs/heads/master/docker-images/merlin/Dockerfile),
 this is available as `langtech/base-merlin:v1_1`
 
+[Terrible things happen in life – but it is possible to recover from them](https://www.theguardian.com/lifeandstyle/2025/jun/16/better-life-trauma-healing)
+
+[Lifting Motion to the 3D World via 2D Diffusion](https://arxiv.org/abs/2411.18808)
+
