@@ -22,7 +22,9 @@ pipe = pipeline(model=MODEL, device=0)
 with open(sys.argv[1]) as filelist:
     for file in filelist.readlines():
         file = file.strip()
-        outfile = file.replace(".wav", ".phn.json")
+        outfile = file.replace("/wav/", "/phone-json/").replace(".wav", ".phn.json")
+        if os.path.exists(outfile):
+            continue
         output = pipe(file, chunk_length_s=10, return_timestamps="word")
         with open(outfile, "w") as of:
             json.dump(output, of)
