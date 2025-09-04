@@ -177,3 +177,5 @@ this is available as `langtech/base-merlin:v1_1`
 
 [Lifting Motion to the 3D World via 2D Diffusion](https://arxiv.org/abs/2411.18808)
 
+[Chatterbox TTS](https://github.com/resemble-ai/chatterbox)
+
