@@ -1,0 +1,7 @@
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Fetching 1 files: 100%|██████████| 1/1 [00:00<00:00, 14122.24it/s]
+Device set to use cuda:0
+Traceback (most recent call last):
+  File "/nfs/tts2/home/joregan/run_phone.py", line 14, in <module>
+    with open(outfile, "w") as of:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 27] File too large: '/shared/joregan/rixvox-v2/audio_files/wav/854351.phn.json'
