@@ -1,17 +1,11 @@
 Phi-4-multimodal-korean-finetuning
 https://gist.github.com/seastar105/d1d8983b27611370528e3b194dcc5577#file-main-py
 
-support phi4-multimodal by Jintao-Huang · Pull Request #3350 · modelscope/ms-swift
-https://github.com/modelscope/ms-swift/pull/3350
+Acoustic sentence embeddings
+https://chatgpt.com/c/68bc95df-d070-8323-b71a-48226f6345b0
 
-GitHub - modelscope/ms-swift: Use PEFT or Full-parameter to finetune 450+ LLMs (Qwen2.5, InternLM3, GLM4, Llama3.3, Mistral, Yi1.5, Baichuan2, DeepSeek-R1, ...) and 150+ MLLMs (Qwen2.5-VL, Qwen2-Audio, Llama3.2-Vision, Llava, InternVL2.5, MiniCPM-V-2.6, GLM4v, Xcomposer2.5, Yi-VL, DeepSeek-VL2, Phi3.5-Vision, GOT-OCR2, ...).
-https://github.com/modelscope/ms-swift
-
-EndlessReform/smoltts: Open TTS models, built for streaming on the edge
-https://github.com/EndlessReform/smoltts
-
-hexgrad/Kokoro-82M · Hugging Face
-https://huggingface.co/hexgrad/Kokoro-82M
+kyutai/mimi · Hugging Face
+https://huggingface.co/kyutai/mimi
 
 kyutai/moshika-vis-pytorch-bf16 · Hugging Face
 https://huggingface.co/kyutai/moshika-vis-pytorch-bf16
@@ -27,12 +21,6 @@ https://github.com/kyutai-labs/moshi
 
 A Guide to Fine-Tuning CLIP Models with Custom Data | by Shashank Vats | 𝐀𝐈 𝐦𝐨𝐧𝐤𝐬.𝐢𝐨 | Medium
 https://medium.com/aimonks/a-guide-to-fine-tuning-clip-models-with-custom-data-6c7c0d1416fb
-
-TaoAvatar
-https://pixelai-team.github.io/TaoAvatar/
-
-PixelAI-Team/TalkBody4D · Datasets at Hugging Face
-https://huggingface.co/datasets/PixelAI-Team/TalkBody4D
 
 language-resources/festus/best-labeling.cc at master · google/language-resources
 https://github.com/google/language-resources/blob/master/festus/best-labeling.cc
@@ -51,18 +39,6 @@ https://getomni.ai/blog/benchmarking-open-source-models-for-ocr
 
 getomni-ai/ocr-leaderboard · Datasets at Hugging Face
 https://huggingface.co/datasets/getomni-ai/ocr-leaderboard/viewer/results?views%5B%5D=results
-
-The Best Resources for Learning Hungarian • Catch Budapest
-https://www.catchbudapest.com/hungarian-learning-resources/
-
-Smart Hungarian Audio Course: Finally Understand Natural, Spoken Hungarian! • Catch Budapest
-https://www.catchbudapest.com/smart-hungarian-audio-course/
-
-One Hungarian Word a Day In Your Inbox - For FREE!
-https://www.catchbudapest.com/one-hungarian-word-day/
-
-Hungarian Conjugation in all tenses | Conjugate Hungarian verbs
-https://cooljugator.com/hu
 
 Yixing-Li/Continuous-Speech-Tokenizer: [NAACL 2025 Findings] Continuous Speech Tokenizer in Text To Speech
 https://github.com/Yixing-Li/Continuous-Speech-Tokenizer
@@ -148,14 +124,8 @@ https://github.com/SesameAILabs/csm
 sesame/csm-1b · Hugging Face
 https://huggingface.co/sesame/csm-1b
 
-sesame/csm-1b · Hugging Face
-https://huggingface.co/sesame/csm-1b
-
 canopylabs/3b-es_it-ft-research_release · Hugging Face
 https://huggingface.co/canopylabs/3b-es_it-ft-research_release
-
-canopylabs/zac-sample-dataset · Datasets at Hugging Face
-https://huggingface.co/datasets/canopylabs/zac-sample-dataset
 
 Canopy Labs
 https://canopylabs.ai/releases/orpheus_can_speak_any_language#training
@@ -169,19 +139,19 @@ https://qwenlm.github.io/blog/qwen2-audio/
 Qwen2-Audio: Chat with Your Voice! | Qwen
 https://qwenlm.github.io/blog/qwen2-audio/
 
-QwenLM repositories
-https://github.com/orgs/QwenLM/repositories
+QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
+https://github.com/QwenLM/Qwen2-Audio
 
 QwenLM/Qwen2.5-Omni: Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.
 https://github.com/QwenLM/Qwen2.5-Omni
 
-QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
-https://github.com/QwenLM/Qwen2-Audio
-
 Advancing AI systems through progress in perception, localization, and reasoning
 https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/?utm_source=twitter&utm_medium=organic%20social&utm_content=video&utm_campaign=fair
 
-github.com
+facebook/PE-Core-L14-336 · Hugging Face
+https://huggingface.co/facebook/PE-Core-L14-336
+
+facebookresearch/perception_models: State-of-the-art Image & Video CLIP, Multimodal Large Language Models, and More!
 https://github.com/facebookresearch/perception_models
 
 facebook/PE-Core-L14-336 · Hugging Face
@@ -205,12 +175,6 @@ https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT
 leetcode-company-wise-problems/Meta/4. More Than Six Months.csv at main · liquidslr/leetcode-company-wise-problems
 https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Meta/4.%20More%20Than%20Six%20Months.csv
 
-Social Goes Spatial & the Beginning of Our Reimagined OS | Meta Quest Blog | Meta Store
-https://www.meta.com/en-gb/blog/instagram-3d-photos-spatial-medianavigator-meta-quest-test/
-
-A New Era for Mixed Reality | Meta Quest Blog | Meta Store
-https://www.meta.com/en-gb/blog/meta-horizon-os-open-hardware-ecosystem-asus-republic-gamers-lenovo-xbox/
-
 rednote-hilab/dots.ocr · Hugging Face
 https://huggingface.co/rednote-hilab/dots.ocr
 
@@ -226,17 +190,11 @@ https://github.com/yl4579/HiFTNet
 deepsearch/deepsearchai/vector_databases/chromadb.py at main · deepsearch-ai/deepsearch
 https://github.com/deepsearch-ai/deepsearch/blob/main/deepsearchai/vector_databases/chromadb.py
 
-deepsearch.readthedocs.io/en/latest/configure.html
+Configure our RAG App — deepsearch documentation
 https://deepsearch.readthedocs.io/en/latest/configure.html
 
 How can I extract embeddings? · openai/whisper · Discussion #85 · GitHub
 https://github.com/openai/whisper/discussions/85
-
-hát - Wiktionary, the free dictionary
-https://en.m.wiktionary.org/wiki/h%C3%A1t#Hungarian
-
-na - Wiktionary, the free dictionary
-https://en.m.wiktionary.org/wiki/na#Hungarian
 
 Volume 59, Issue 2 | Language Resources and Evaluation
 https://link.springer.com/journal/10579/volumes-and-issues/59-2
@@ -250,7 +208,7 @@ https://huggingface.co/fluxions/vui
 Front Matter
 https://personal.math.ubc.ca/~tbjw/ila/index2.html
 
-personal.math.ubc.ca/~tbjw/ila/ila.pdf
+Interactive Linear Algebra
 https://personal.math.ubc.ca/~tbjw/ila/ila.pdf
 
 Rust Eats Python's, Java’s Lunch in Data Engineering - The New Stack
@@ -918,5 +876,8 @@ https://github.com/phonlab-tcd/mfa_models
 
 How to Learn ANYTHING Faster Than Everyone - YouTube
 https://www.youtube.com/watch?v=qOjSJVaBV94
+
+KevinMusgrave/pytorch-metric-learning: The easiest way to use deep metric learning in your application. Modular, flexible, and extensible. Written in PyTorch.
+https://github.com/KevinMusgrave/pytorch-metric-learning
 
 
