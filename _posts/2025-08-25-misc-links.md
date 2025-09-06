@@ -41,3 +41,49 @@ Fosler-Lussier, E., W. Byrne, and D. Jurafsky. "Pronunciation Modeling and Lexic
 
 [Articulatory feature-based pronunciation modeling](https://www.sciencedirect.com/science/article/pii/S0885230815000686)
 
+# Dependency tree editing
+
+[DepEdit](https://gucorpling.org/depedit/) --- a tool for manipulating dependency trees
+
+[udon2/udon2](https://github.com/udon2/udon2) --- A package for manipulating Universal Dependencies trees
+
+[DatabaseGroup/apted](https://github.com/DatabaseGroup/apted) --- APTED algorithm for the Tree Edit Distance
+
+# TTS
+
+[Probabilistic Speech & Motion Synthesis: Towards More Expressive and Multimodal Generative Models](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1988881&dswid=3559) --- Shivam's thesis.
+
+[The SIWIS French Speech Synthesis Database](https://datashare.ed.ac.uk/handle/10283/2353)
+
+# ASR
+
+[Pronunciation modeling for large vocabulary conversational speech recognition](https://www.isca-archive.org/icslp_1998/ma98_icslp.html)
+
+```bibtex
+@inproceedings{ma98_icslp,
+  title     = {Pronunciation modeling for large vocabulary conversational speech recognition},
+  author    = {Kristine Ma and George Zavaliagkos and Rukmini Iyer},
+  year      = {1998},
+  booktitle = {5th International Conference on Spoken Language Processing (ICSLP 1998)},
+  pages     = {paper 0866},
+  doi       = {10.21437/ICSLP.1998-655},
+  issn      = {2958-1796},
+}
+```
+
+> As was found by other researchers, over-generating multiple pronunciations in the dictionary increases word confusability during recognition, often nullifying the advantages of modeling pronunciation variability.
+
+[Phonological level wav2vec2-based Mispronunciation Detection and Diagnosis method](https://www.sciencedirect.com/science/article/pii/S0167639325000640)
+
+```bibtex
+@article{shahin2025phonological,
+    title = {Phonological level wav2vec2-based Mispronunciation Detection and Diagnosis method},
+    journal = {Speech Communication},
+    volume = {173},
+    pages = {103249},
+    year = {2025},
+    issn = {0167-6393},
+    doi = {https://doi.org/10.1016/j.specom.2025.103249},
+    author = {Mostafa Shahin and Julien Epps and Beena Ahmed},
+}
+```
