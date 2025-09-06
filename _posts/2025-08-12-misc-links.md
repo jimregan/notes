@@ -179,3 +179,9 @@ this is available as `langtech/base-merlin:v1_1`
 
 [Chatterbox TTS](https://github.com/resemble-ai/chatterbox)
 
+[A Tutorial on Extracting Formants in Praat](https://joeystanley.com/blog/a-tutorial-on-extracting-formants-in-praat/)
+
+[Tesseract for Hawaiian](https://github.com/ESB-AI-Lab/tesseract-languages)
+
+[Prosodic characteristics of deceptive picture descriptions in Finnish: Acoustics, beliefs, self-evaluations, and deception theories](https://www.sciencedirect.com/science/article/pii/S0167639325001141)
+
