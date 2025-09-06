@@ -19,8 +19,17 @@ https://link.springer.com/journal/10579/submission-guidelines
 Untitled60.ipynb - Colab
 https://colab.research.google.com/drive/1S5EMqCPzpQIhD8s5Q4DE5z1n7AGWSh2m#scrollTo=1_TUHhPnC_Au
 
+DatabaseGroup/apted: APTED algorithm for the Tree Edit Distance
+https://github.com/DatabaseGroup/apted
+
+DepEdit - a tool for manipulating dependency trees
+https://gucorpling.org/depedit/
+
 DepEdit/docs/DepEdit_user_guide.pdf at master · amir-zeldes/DepEdit
 https://github.com/amir-zeldes/DepEdit/blob/master/docs/DepEdit_user_guide.pdf
+
+udon2/udon2: A package for manipulating Universal Dependencies trees
+https://github.com/udon2/udon2
 
 ParlaMint/Samples/ParlaMint-SE at main · clarin-eric/ParlaMint
 https://github.com/clarin-eric/ParlaMint/tree/main/Samples/ParlaMint-SE
@@ -28,14 +37,14 @@ https://github.com/clarin-eric/ParlaMint/tree/main/Samples/ParlaMint-SE
 swerik-project/the-swedish-parliament-corpus: A repository for managing public, versioned releases of the Swedish Parliament Corpus.
 https://github.com/swerik-project/the-swedish-parliament-corpus?tab=readme-ov-file
 
-Release v1.4.2 · swerik-project/riksdagen-records
-https://github.com/swerik-project/riksdagen-records/releases/tag/v1.4.2
-
-riksdagen-records/data/202223/prot-202223--100.xml at main · swerik-project/riksdagen-records
-https://github.com/swerik-project/riksdagen-records/blob/main/data/202223/prot-202223--100.xml
+swerik-project/riksdagen-records
+https://github.com/swerik-project/riksdagen-records
 
 riksdagen-persons/data/place_of_birth.csv at main · swerik-project/riksdagen-persons
 https://github.com/swerik-project/riksdagen-persons/blob/main/data/place_of_birth.csv
+
+Basic usage - udon2
+https://udon2.github.io/basic/
 
 kaistmm/Audio-Mamba-AuM: Official Implementation of the work "Audio Mamba: Bidirectional State Space Model for Audio Representation Learning"
 https://github.com/kaistmm/Audio-Mamba-AuM
@@ -52,13 +61,10 @@ https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/li
 AUTHOR GUIDELINES
 https://www.cbmi2025.org/guidelines/overview/#call-for-paper-round-2-late-breaking-papers
 
-AutoVC: Zero-Shot Voice Style Transfer with Only Autoencoder Loss
-https://arxiv.org/pdf/1905.05879
+Sardin text processing summary
+https://chatgpt.com/c/68bc7ba1-af78-8329-b465-b43bbe97aa34
 
-Fonetik 2022
-https://2022.fonetik.se/contributions/T%C3%A5nnander%20and%20Edlund%20-%202022%20-%20Sardin%20speech-oriented%20text%20processing.pdf#:~:text=,centric%20research
-
-fuzzywuzzy·PyPI
+fuzzywuzzy · PyPI
 https://pypi.org/project/fuzzywuzzy/
 
 kb-labb/subtitles_preprocessing
@@ -75,12 +81,6 @@ https://huggingface.co/datasets/HuggingFaceFW/fineweb-2
 
 Hugging Face – The AI community building the future.
 https://huggingface.co/
-
-@eliebak on Hugging Face: "Kimi K2 tech report is full of gems as always. Here are my notes on it: >…"
-https://huggingface.co/posts/eliebak/684400126414992
-
-vllm-project/vllm: A high-throughput and memory-efficient inference and serving engine for LLMs
-https://github.com/vllm-project/vllm
 
 espnet/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/egs2/owsm_v3/s2t1/local/kaldi_to_whisper.py
@@ -190,10 +190,6 @@ https://www.guitar-pro.com/
 Guitar Pro products
 https://www.guitar-pro.com/10-products
 
-This Habit Can Improve Your Love Life and Your Heart Health | Psychology Today
-https://www.psychologytoday.com/us/blog/shrink/202508/this-habit-can-improve-your-love-life-and-your-heart-health
-
-Probabilistic Speech &amp; Motion Synthesis : Towards More Expressive and Multimodal Generative Models
-https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1988881&dswid=9429
-
+ESB-AI-Lab/tesseract-languages: ESB AI Lab repo of released trained tesseract-ocr languages for language preservation
+https://github.com/ESB-AI-Lab/tesseract-languages
 
