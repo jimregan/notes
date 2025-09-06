@@ -301,16 +301,16 @@ https://github.com/kyutai-labs/unmute/tree/main/dockerless
 mistralai/Mistral-Small-3.2-24B-Instruct-2506 · Hugging Face
 https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506
 
-kyutai.org/next/stt
+Kyutai STT
 https://kyutai.org/next/stt
 
-kyutai/stt-1b-en_fr · Hugging Face
-https://huggingface.co/kyutai/stt-1b-en_fr
+kyutai/stt-1b-en_fr-trfs · Hugging Face
+https://huggingface.co/kyutai/stt-1b-en_fr-trfs
 
-GitHub - kyutai-labs/delayed-streams-modeling: Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
+kyutai-labs/delayed-streams-modeling: Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
 https://github.com/kyutai-labs/delayed-streams-modeling/
 
-kyutai.org/next/tts
+Kyutai TTS
 https://kyutai.org/next/tts
 
 kyutai/tts-1.6b-en_fr · Hugging Face
@@ -331,7 +331,7 @@ https://www.visualcapitalist.com/the-state-of-freedom-around-the-world-in-2025/
 The State of Freedom Around the World 🕊️ - Voronoi
 https://www.voronoiapp.com/society/The-State-of-Freedom-Around-the-World--5504
 
-GitHub - PaddlePaddle/ERNIE: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.
+PaddlePaddle/ERNIE: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.
 https://github.com/PaddlePaddle/ERNIE
 
 baidu (BAIDU)
@@ -340,83 +340,38 @@ https://huggingface.co/baidu
 baidu/ERNIE-4.5-300B-A47B-Base-PT · Hugging Face
 https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Base-PT
 
-Apple just released an interesting coding language model - 9to5Mac
-https://9to5mac.com/2025/07/04/apple-just-released-a-weirdly-interesting-coding-language-model/
-
-apple/DiffuCoder-7B-cpGRPO · Hugging Face
-https://huggingface.co/apple/DiffuCoder-7B-cpGRPO
-
-apple/DiffuCoder-7B-Base · Hugging Face
-https://huggingface.co/apple/DiffuCoder-7B-Base
-
 Qwen/Qwen2.5-Coder-7B · Hugging Face
 https://huggingface.co/Qwen/Qwen2.5-Coder-7B
 
-Workshop | 2025 ACM Multimedia
-https://acmmm2025.org/workshop/
+Pull requests · espnet/espnet
+https://github.com/espnet/espnet/pulls?page=2&q=is%3Apr+is%3Aopen
 
-MMSports 2024
-http://mmsports.multimedia-computing.de/mmsports2025/index.html
+Add recipe for Qwen2-Audio-7B-Chat on Dynamic-SUPERB ASR task by cyhuang-tw · Pull Request #6194 · espnet/espnet
+https://github.com/espnet/espnet/pull/6194
 
-Proceedings of the 7th ACM International Workshop on Multimedia Content Analysis in Sports | ACM Conferences
-https://dl.acm.org/doi/proceedings/10.1145/3689061
+Add Harvest algorithm as an option for F0 extraction by f-matano44 · Pull Request #6083 · espnet/espnet
+https://github.com/espnet/espnet/pull/6083
 
-MFMSI Workshop
-https://sites.google.com/view/mm25-spatial
+Create a ESPnet bootcamp recipe for proyecto-nahuatl-asr by jialuli3 · Pull Request #6066 · espnet/espnet
+https://github.com/espnet/espnet/pull/6066/files#diff-7fdff7c890843a0345b5375c8687c9a75b2fb8c2cef35055e57ab4bacb8fa5e5
 
-MFMSI Workshop - Speakers
-https://sites.google.com/view/mm25-spatial/speakers?authuser=0
+Audioverse, BEATs pre-training and Dasheng audio encoder by Shikhar-S · Pull Request #6052 · espnet/espnet
+https://github.com/espnet/espnet/pull/6052
 
-RoboSoft’25: The 1st International Workshop on Vision-Language in Soft Robot | [“ACM Multimedia 2025 Workshop”, “October 28, 2025”, “Dublin, Ireland”]
-https://buaa-colalab.github.io/Robo-Soft-25/call4papers.html
+Discrete TTS with Monotonic attention search via VAE by ftshijt · Pull Request #5795 · espnet/espnet
+https://github.com/espnet/espnet/pull/5795
 
-Tags | notes
-https://jimregan.github.io/notes/categories/#hsi
-
-Scene graph items | notes
-https://jimregan.github.io/notes/hsi/openai/prompting/2025/04/24/scene-graph-items.html
-
-(Re-)run Hugarian algorithm | notes
-https://jimregan.github.io/notes/hsi/munkres/2025/05/01/rerun-hungarian-algorithm.html
-
-Extract GroundingGPT script output | notes
-https://jimregan.github.io/notes/hsi/groundinggpt/2025/04/29/extract_groundinggpt_script_output.html
-
-Extract text for F5TTS | notes
-https://jimregan.github.io/notes/hsi/f5tts/2025/04/27/extract-text-for-f5tts.html
-
-Add OWSM-CTC by pyf98 · Pull Request #5933 · espnet/espnet · GitHub
-https://github.com/espnet/espnet/pull/5933
-
-GitHub - espnet/espnet: End-to-End Speech Processing Toolkit
+espnet/espnet: End-to-End Speech Processing Toolkit
 https://github.com/espnet/espnet
 
-Pull requests · espnet/espnet · GitHub
-https://github.com/espnet/espnet/pulls
-
-Adding vanilla EEND recipe for AMI with multi speaker synthetic data simulation included. by popcornell · Pull Request #6138 · espnet/espnet · GitHub
+Adding vanilla EEND recipe for AMI with multi speaker synthetic data simulation included. by popcornell · Pull Request #6138 · espnet/espnet
 https://github.com/espnet/espnet/pull/6138
 
-espnet/espnet2/s2st/espnet_model.py at master · espnet/espnet · GitHub
+espnet/espnet2/s2st/espnet_model.py at master · espnet/espnet
 https://github.com/espnet/espnet/blob/master/espnet2/s2st/espnet_model.py
-
-jank is C++
-https://jank-lang.org/blog/2025-07-11-jank-is-cpp/
 
 jank programming language - Clojure/LLVM/C++
 https://jank-lang.org/
-
-New ZLUDA 5 Preview Released For CUDA On Non-NVIDIA GPUs - Phoronix
-https://www.phoronix.com/news/ZLUDA-5-preview.43
-
-ZLUDA/.devcontainer/Dockerfile at master · vosen/ZLUDA · GitHub
-https://github.com/vosen/ZLUDA/blob/master/.devcontainer/Dockerfile
-
-ZLUDA
-https://vosen.github.io/ZLUDA/
-
-ZLUDA - ZLUDA's third life
-https://vosen.github.io/ZLUDA/blog/zludas-third-life/
 
 Introduction to dev containers - GitHub Docs
 https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers
@@ -699,5 +654,8 @@ https://www.youtube.com/watch?v=qOjSJVaBV94
 
 KevinMusgrave/pytorch-metric-learning: The easiest way to use deep metric learning in your application. Modular, flexible, and extensible. Written in PyTorch.
 https://github.com/KevinMusgrave/pytorch-metric-learning
+
+jupyter-xeus/xeus-cling: Jupyter kernel for the C++ programming language
+https://github.com/jupyter-xeus/xeus-cling
 
 
