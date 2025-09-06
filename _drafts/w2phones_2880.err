@@ -1,0 +1,77 @@
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Fetching 1 files: 100%|██████████| 1/1 [00:00<00:00, 9939.11it/s]
+Device set to use cuda:0
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Traceback (most recent call last):
+  File "/nfs/tts2/home/joregan/run_phone.py", line 15, in <module>
+    output = pipe(file, chunk_length_s=10, return_timestamps="word")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/automatic_speech_recognition.py", line 275, in __call__
+    return super().__call__(inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1459, in __call__
+    return next(
+           ^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/pt_utils.py", line 126, in __next__
+    item = next(self.iterator)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/pt_utils.py", line 271, in __next__
+    processed = self.infer(next(self.iterator), **self.params)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1374, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/pipelines/automatic_speech_recognition.py", line 558, in _forward
+    outputs = self.model(**inputs)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py", line 1867, in forward
+    outputs = self.wav2vec2(
+              ^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py", line 1453, in forward
+    extract_features = self.feature_extractor(input_values)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py", line 431, in forward
+    hidden_states = conv_layer(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py", line 306, in forward
+    hidden_states = self.conv(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 371, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/tts2/home/joregan/miniconda3/envs/hf/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 366, in _conv_forward
+    return F.conv1d(
+           ^^^^^^^^^
+RuntimeError: Calculated padded input size per channel: (1). Kernel size: (2). Kernel size can't be greater than actual input size
