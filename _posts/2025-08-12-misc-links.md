@@ -187,3 +187,12 @@ this is available as `langtech/base-merlin:v1_1`
 
 [phihung/ipyform](https://github.com/phihung/ipyform) --- Extension to render Google Colab Form on regular Jupyter Notebooks
 
+[autc04/executor](https://github.com/autc04/executor) --- A modern fork of the classic Mac emulator
+
+[PureSwift/Cacao](https://github.com/PureSwift/Cacao) --- Pure Swift Cross-platform UIKit (Cocoa Touch) implementation (Supports Linux)
+
+[cjwl/cocotron](https://github.com/cjwl/cocotron) --- The Cocotron.
+
+[darlinghq/darling](https://github.com/darlinghq/darling) --- Darwin/macOS emulation layer for Linux
+
+
