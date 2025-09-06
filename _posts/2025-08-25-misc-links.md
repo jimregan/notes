@@ -23,6 +23,15 @@ categories: [links]
 
 [CUBE: hegemony](http://seas.elte.hu/cube/index.pl?s=hegemony&t=&syllcount=&maxout=&wfreq=0-9&grammar=)
 
+# Irish
+
+[Sources for Connemara Irish](https://gaeilgechonamara.com/sources-for-connemara-irish/)
+
+[The Irish of Iorras Aithneach, County Galway](https://www.dias.ie/celt/celt-publications-2/celt-the-irish-of-iorras-aithneach-county-galway/)
+
+[Carraig na Blaodhaighe](https://gaeilgechonamara.com/carraig-na-blaodhaighe-transcription/),
+[audio](https://repository.dri.ie/catalog/9593zf89x)
+
 # Lexicon adaptation papers
 
 [Pronunciation modeling and lexicon adaptation](https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=16844695)
@@ -54,6 +63,9 @@ Fosler-Lussier, E., W. Byrne, and D. Jurafsky. "Pronunciation Modeling and Lexic
 [Probabilistic Speech & Motion Synthesis: Towards More Expressive and Multimodal Generative Models](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1988881&dswid=3559) --- Shivam's thesis.
 
 [The SIWIS French Speech Synthesis Database](https://datashare.ed.ac.uk/handle/10283/2353)
+
+[kokoro](https://github.com/hexgrad/kokoro),
+[model](https://huggingface.co/hexgrad/Kokoro-82M)
 
 # ASR
 
