@@ -1,8 +1,5 @@
-ChatGPT
+Current things, 14 June 2025 - Paper Revision Suggestions
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/685942a9-bec0-8011-b909-3d2c8bd9e1d6
-
-A Tutorial on Extracting Formants in Praat – Joey Stanley
-https://joeystanley.com/blog/a-tutorial-on-extracting-formants-in-praat/
 
 jimregan/riksdag_spoken_sentences · Datasets at Hugging Face
 https://huggingface.co/datasets/jimregan/riksdag_spoken_sentences
@@ -40,8 +37,14 @@ https://github.com/swerik-project/the-swedish-parliament-corpus?tab=readme-ov-fi
 swerik-project/riksdagen-records
 https://github.com/swerik-project/riksdagen-records
 
+riksdagen-records/data/202223/prot-202223--100.xml at main · swerik-project/riksdagen-records
+https://github.com/swerik-project/riksdagen-records/blob/main/data/202223/prot-202223--100.xml
+
 riksdagen-persons/data/place_of_birth.csv at main · swerik-project/riksdagen-persons
 https://github.com/swerik-project/riksdagen-persons/blob/main/data/place_of_birth.csv
+
+udon2/udon2_cpp_src/MultiWordNode.cpp at master · udon2/udon2
+https://github.com/udon2/udon2/blob/master/udon2_cpp_src/MultiWordNode.cpp
 
 Basic usage - udon2
 https://udon2.github.io/basic/
@@ -58,8 +61,11 @@ https://github.com/PangzeCheung/Discrete-Probability-Flow/blob/main/sddm/model/c
 Getting timestamps of Swedish Librivox | notes
 https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/librivox/swedish/incomplete/2022/06/30/getting-timestamps-of-swedish-librivox.html
 
-AUTHOR GUIDELINES
-https://www.cbmi2025.org/guidelines/overview/#call-for-paper-round-2-late-breaking-papers
+Summary of AutoVC paper
+https://chatgpt.com/c/68bc7a0e-c6a8-832f-8168-6acec0618476
+
+W2v2 json by jimregan · Pull Request #46 · jimregan/wolnelektury-speech-corpus
+https://github.com/jimregan/wolnelektury-speech-corpus/pull/46
 
 Sardin text processing summary
 https://chatgpt.com/c/68bc7ba1-af78-8329-b465-b43bbe97aa34
@@ -91,14 +97,8 @@ https://huggingface.co/docs/transformers/main/perf_infer_gpu_multi
 Zero-shot Task Prefix Tuning
 https://chatgpt.com/c/686d19c9-8938-8011-977e-ab109f310b73
 
-Step-by-Step Diffusion: An Elementary Tutorial
-https://arxiv.org/pdf/2406.08929
-
 Recreating Tacotron-based model
 https://chatgpt.com/c/68ab3fc7-3324-8333-9118-653fa891b619
-
-The SIWIS French Speech Synthesis Database
-https://datashare.ed.ac.uk/handle/10283/2353
 
 ploujnikov22_interspeech.pdf
 https://www.isca-archive.org/interspeech_2022/ploujnikov22_interspeech.pdf
@@ -121,7 +121,7 @@ https://www.reddit.com/r/AudioBookBay/
 Hungarian Audiobook
 https://audiobookbay.lu/audio-books/tag/hungarian/
 
-github.com
+kaldi/egs/sprakbanken_swe/s5/local at master · kaldi-asr/kaldi
 https://github.com/kaldi-asr/kaldi/tree/master/egs/sprakbanken_swe/s5/local
 
 [egs] fix sprakbanken_swe (#4646) · kaldi-asr/kaldi@5caf254
@@ -142,24 +142,6 @@ https://chatgpt.com/c/68aa2029-81fc-8327-a405-2a825fa7bfad
 Guide for authors - Speech Communication - ISSN 0167-6393 | ScienceDirect.com by Elsevier
 https://www.sciencedirect.com/journal/speech-communication/publish/guide-for-authors
 
-Speech Communication | Vol 173, September 2025 | ScienceDirect.com by Elsevier
-https://www.sciencedirect.com/journal/speech-communication/vol/173/suppl/C
-
-Prosodic characteristics of deceptive picture descriptions in Finnish: Acoustics, beliefs, self-evaluations, and deception theories - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S0167639325001141
-
-Phonological level wav2vec2-based Mispronunciation Detection and Diagnosis method - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S0167639325000640
-
-Phonological level wav2vec2-based Mispronunciation Detection and Diagnosis method - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S0167639325000640?ref=pdf_download&fr=RR-2&rr=973cd12d8a4f2aa5
-
-Phonological level wav2vec2-based Mispronunciation Detection and Diagnosis method
-https://pdf.sciencedirectassets.com/271578/1-s2.0-S0167639325X00066/1-s2.0-S0167639325000640/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCgGZRrxT7GeWVodgIc8vtjm5V5U5aV0kPHA4wOyHJ8rQIgKV9f7pXkZaMBXuyhgZK0azuHrkm2OBDlLGiewQv%2F5z8qswUIMxAFGgwwNTkwMDM1NDY4NjUiDIxzjXbm361ajmqSeiqQBWIV3RE0grYVn1RfSEGRJWgQ3DvRpRJ49wqqLBLsS90ahg70b0OLeO4H547ckpfuu6jQ3ZUCIRGGXHWUA%2F8fEapzKvQsEmQSGG%2BBj02X7XVNzYuTDpDaDZQODj%2FiMeNxrgOdLMIZTDAvO9x3vrKZhfpTmnC3uqUK4FbxDt7daZUNvw3CjIPNDOmCzRyQy1QP%2Bcd0XCgNERLZJKAJht91fr258rSbvw85%2FCG2QBJLn2NK1FY0yOV6yDP81ZfXx5Ls%2Bb32RjmCa6EA3EQvbr6vHPMbkxLFH7sFTzHK0%2FLm25swmJKotO%2FEQhPQ1Rm%2Fd2qNKnpgKWNcpTIEf3g8zQ0im9pEU68tlOkcWEnP82TWO07HQGLmdlcW%2BlwnYfwu0mdR02sVYM6GWkDAXetbLsIp6lfXb4WHDRSLYmW3r2Rg%2BU00niku%2Fvzovhd7HvlkukRb3DwJQwjpZ%2ByT5EsbTa5nGIcNjabd2FJc6pkNJzrG%2FomCa23JfLRuaytlBZWKF%2BrAiou%2FB%2Brxtz3vGIepTLrD97D3FkeukFU2uICAasVx2ZS1g3hrV4HgoDG4WHxbYfnSz9%2FWf1ivPNUnhwyfKvEOAqAXs%2F504MrxNPJkdn8tSTxwvL%2BWjPUQEjCy0nV%2F11fKERmJbAyUlPSPacNfR%2FZXTzp2lPLNnAz5smgfdcVajaSFjdlSfzZo25S3DgnJg1OBUXRFh88WmjV8lpQXieCQRXtBRDaCI0%2B6Nplt%2BAGFWU2fBiTv4HvGAPM0U5YIUVkODVtgZA0AuDwJnIpO5gxiKtQEV016CqsEsz2lIhnzzXavECMGwNEDOKySqqBbQh3pYJaMnCqVW0d8eHqaFD9gOLA25ZPzBUciFt8rn%2BIn1K6ZMIL1p8UGOrEBXPOy15wjbG%2FAjPd4%2F9SSekvASL14u0CI425gDl3JIiH4x4Nf03a7fXtGoph%2Fz1sWjjRRrw9o3tIKaS8SMyIYD1B4IvGuk7yA2loDEPRV9uadouIoKXlVnXUBJEwnSZ4zCjowp2nRRPfRjiWSAnhbqHmqakCP5oXBFkIUe9A1u67%2B2Aebzm8pOfjKpcKkWktv%2FHPdWTaC5BmnsGVTolSUIDj4JEQJahsOdyHpdKEK6X2c&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250823T185419Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY76MGL5N5%2F20250823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e8af4bd8201699f00b22536795bed0d6b0ee91ef4941ead24b2b629add1b301a&hash=cd60ded37bc2a9e236a44c0c3e619374589b45c7ed9ec11f6fc327d06e6a2ca1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0167639325000640&tid=spdf-992b44dc-e60a-484d-881c-594118f50d29&sid=0967cadd8aaad444b748ce465e8127800852gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=150b5b53520301565b&rr=973cd15c5e7d9cae&cc=se
-
-ma98_icslp.pdf
-https://www.isca-archive.org/icslp_1998/ma98_icslp.pdf#:~:text=creases%20word%20confusability%20during%20recognition%2C,the%20train%02ing%20data%20using%20the
-
 [2508.11187] Expressive Speech Retrieval using Natural Language Descriptions of Speaking Style
 https://arxiv.org/abs/2508.11187
 
@@ -175,21 +157,9 @@ https://github.com/neuspell/neuspell
 bakwc/JamSpell: Modern spell checking library - accurate, fast, multi-language
 https://github.com/bakwc/JamSpell
 
-ChatGPT - Current things, 14 June 2025
+Current things, 14 June 2025 - G2P sentence-level approach
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/68ab421b-66b4-832c-8ebf-e410a01064b2
-
-The Perks of Being a Wallflower (film) - Wikipedia
-https://en.wikipedia.org/wiki/The_Perks_of_Being_a_Wallflower_(film)
 
 raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/wsj/s5/steps/dict/learn_lexicon_bayesian.sh
 https://raw.githubusercontent.com/kaldi-asr/kaldi/refs/heads/master/egs/wsj/s5/steps/dict/learn_lexicon_bayesian.sh
-
-Guitar Pro - Tab Editor Software for Guitar, Bass, Drum, Piano and more...
-https://www.guitar-pro.com/
-
-Guitar Pro products
-https://www.guitar-pro.com/10-products
-
-ESB-AI-Lab/tesseract-languages: ESB AI Lab repo of released trained tesseract-ocr languages for language preservation
-https://github.com/ESB-AI-Lab/tesseract-languages
 
