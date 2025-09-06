@@ -185,3 +185,5 @@ this is available as `langtech/base-merlin:v1_1`
 
 [Prosodic characteristics of deceptive picture descriptions in Finnish: Acoustics, beliefs, self-evaluations, and deception theories](https://www.sciencedirect.com/science/article/pii/S0167639325001141)
 
+[phihung/ipyform](https://github.com/phihung/ipyform) --- Extension to render Google Colab Form on regular Jupyter Notebooks
+
