@@ -1,20 +1,8 @@
-sam_utils.py · annadeichler/mm-conv-code@eeebdf5
-https://github.com/annadeichler/mm-conv-code/commit/eeebdf513d3da5bea451ff503499035fce036da4
-
 lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
 https://github.com/lingjzhu/charsiu?tab=readme-ov-file
 
 charsiu_demo.ipynb - Colab
 https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_forced_alignment_demo.ipynb#scrollTo=0zxKOeyTROc2
-
-charsiu/misc/data.md at main · lingjzhu/charsiu
-https://github.com/lingjzhu/charsiu/blob/main/misc/data.md
-
-charsiu/misc/data.md at main · lingjzhu/charsiu
-https://github.com/lingjzhu/charsiu/blob/main/misc/data.md#alignments-for-english-datasets
-
-lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
-https://github.com/lingjzhu/charsiu?tab=readme-ov-file
 
 charsiu_tutorial.ipynb - Colab
 https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_tutorial.ipynb
@@ -27,9 +15,6 @@ https://huggingface.co/datasets/anyspeech/fleurs_ipa/tree/main
 
 anyspeech/PhoneCorpus · Datasets at Hugging Face
 https://huggingface.co/datasets/anyspeech/PhoneCorpus
-
-anyspeech/PhoneBERT-tiny at main
-https://huggingface.co/anyspeech/PhoneBERT-tiny/tree/main
 
 config.json · anyspeech/s2t-small-phoneme-finetuned at main
 https://huggingface.co/anyspeech/s2t-small-phoneme-finetuned/blob/main/config.json
@@ -61,9 +46,6 @@ https://huggingface.co/papers/2503.00865
 Musings on typicality – Sander Dieleman
 https://sander.ai/2020/09/01/typicality.html
 
-Panelshow
-https://www.reddit.com/r/panelshow/
-
 Bäst i test: Vinnarnas vinnare announced : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1jb0kys/b%C3%A4st_i_test_vinnarnas_vinnare_announced/
 
@@ -88,23 +70,8 @@ https://github.com/myshell-ai/MeloTTS/blob/main/melo/text/es_phonemizer/gruut_wr
 rhasspy/gruut-ipa: Python library for manipulating pronunciations using the International Phonetic Alphabet (IPA)
 https://github.com/rhasspy/gruut-ipa
 
-ml-explore/mlx-lm: Run LLMs with MLX
-https://github.com/ml-explore/mlx-lm?tab=readme-ov-file
-
-mlx-lm/mlx_lm/LORA.md at main · ml-explore/mlx-lm
-https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md
-
-mlx-lm/mlx_lm/LORA.md at main · ml-explore/mlx-lm
-https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/LORA.md#Data
-
 mlx-examples/lora/data/wikisql.py at main · ml-explore/mlx-examples
 https://github.com/ml-explore/mlx-examples/blob/main/lora/data/wikisql.py
-
-Source–Filter Theory of Speech | Oxford Research Encyclopedia of Linguistics
-https://oxfordre.com/linguistics/display/10.1093/acrefore/9780199384655.001.0001/acrefore-9780199384655-e-894#acrefore-9780199384655-e-894-bibItem-0011
-
-Source-filter Theory – Arai Laboratory
-https://splab.net/apd/g500/
 
 Introducing 4o Image Generation | OpenAI
 https://openai.com/index/introducing-4o-image-generation/
