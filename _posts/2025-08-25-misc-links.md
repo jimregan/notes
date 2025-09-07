@@ -99,3 +99,10 @@ Fosler-Lussier, E., W. Byrne, and D. Jurafsky. "Pronunciation Modeling and Lexic
     author = {Mostafa Shahin and Julien Epps and Beena Ahmed},
 }
 ```
+
+# Hungarian
+
+[Resources for Learning Hungarian](https://www.catchbudapest.com/hungarian-learning-resources/)
+
+[Hungarian conjugation](https://cooljugator.com/hu)
+
