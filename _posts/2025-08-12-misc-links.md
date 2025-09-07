@@ -205,3 +205,8 @@ this is available as `langtech/base-merlin:v1_1`
 
 [Mosh: the mobile shell](https://mosh.org/)
 
+[qemu-bsd-user/qemu-bsd-user](https://github.com/qemu-bsd-user/qemu-bsd-user) --- qemu bsd userland on Linux
+
+[hubertsiuzdak/snac](https://github.com/hubertsiuzdak/snac) --- Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
+
+
