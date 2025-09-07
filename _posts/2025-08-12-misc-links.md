@@ -201,4 +201,7 @@ this is available as `langtech/base-merlin:v1_1`
 
 [How to Learn ANYTHING Faster Than Everyone](https://www.youtube.com/watch?v=qOjSJVaBV94)
 
+[Sapling](https://sapling-scm.com/)
+
+[Mosh: the mobile shell](https://mosh.org/)
 
