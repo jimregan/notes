@@ -1,9 +1,6 @@
 Transcrib3D/finetune/trl_finetune.py at main · ripl/Transcrib3D
 https://github.com/ripl/Transcrib3D/blob/main/finetune/trl_finetune.py
 
-How to get Visual/Text/Multimodal Embedding from llava Model - Beginners - Hugging Face Forums
-https://discuss.huggingface.co/t/how-to-get-visual-text-multimodal-embedding-from-llava-model/103838/2
-
 illuin-tech/colpali: The code used to train and run inference with the ColPali architecture.
 https://github.com/illuin-tech/colpali
 
@@ -16,20 +13,11 @@ https://github.com/afford-motion/afford-motion?tab=readme-ov-file
 2403.18036
 https://arxiv.org/pdf/2403.18036
 
-2023.resourceful-1.7.pdf
-https://aclanthology.org/2023.resourceful-1.7.pdf
-
-Triads of movement in Hungarian [HungarianReference.com > Grammar > Nouns > Triads of movement]
-http://www.hungarianreference.com/Nouns/triads-of-movement.aspx
-
 jiesutd/NCRFpp: NCRF++, a Neural Sequence Labeling Toolkit. Easy use to any sequence labeling tasks (e.g. NER, POS, Segmentation). It includes character LSTM/CNN, word LSTM/CNN and softmax/CRF components.
 https://github.com/jiesutd/NCRFpp?tab=readme-ov-file
 
 NCRFpp/utils/tagSchemeConverter.py at master · jiesutd/NCRFpp
 https://github.com/jiesutd/NCRFpp/blob/master/utils/tagSchemeConverter.py
-
-Sprakbanken repositories
-https://github.com/orgs/Sprakbanken/repositories?type=all
 
 sprakbanken-whisper-jax/sprakbanken_whisper_jax/run_whisper_jax.py at main · Sprakbanken/sprakbanken-whisper-jax
 https://github.com/Sprakbanken/sprakbanken-whisper-jax/blob/main/sprakbanken_whisper_jax/run_whisper_jax.py
@@ -39,9 +27,6 @@ https://github.com/Sprakbanken/transcription_matching
 
 speech Data CCA
 https://sites.google.com/view/speech-data-cca-is25/
-
-Have I Got a Bit More News for You. Have I Got a Bit More 2024 News for You - YouTube
-https://www.youtube.com/watch?v=Q9M9RtGIywA
 
 eleanorchodroff.com/publications.html
 https://www.eleanorchodroff.com/publications.html
@@ -55,9 +40,6 @@ https://github.com/pacscilab/voxcommunis/blob/main/vxc_pipeline/vxc_processing.p
 pacscilab/VoxCommunis · Datasets at Hugging Face
 https://huggingface.co/datasets/pacscilab/VoxCommunis
 
-OSF | VoxCommunis Corpus
-https://osf.io/t957v/
-
 lexicons/sv-SE_epi_lexicon17.txt · pacscilab/VoxCommunis at main
 https://huggingface.co/datasets/pacscilab/VoxCommunis/blob/main/lexicons/sv-SE_epi_lexicon17.txt
 
@@ -67,56 +49,8 @@ https://github.com/xinjli/alqalign/blob/main/alqalign/process_alignment.py
 Gaelic, Irish
 https://archive.phonetics.ucla.edu/Language/GLE/gle.html
 
-A Beginner-Friendly Guide to Hungarian Verb Conjugation
-https://www.hungarianpod101.com/blog/2020/10/05/hungarian-conjugations/
-
-Hungarian Verbs [HungarianReference.com > Grammar > Verbs]
-http://www.hungarianreference.com/verbs/
-
-Summary_for_hungarian_verbs
-https://myhunlang.com/wp-content/uploads/2013/09/summary_for_hungarian_verbs1.pdf
-
 News — Montreal Forced Aligner 3.0.0 documentation
 https://montreal-forced-aligner.readthedocs.io/en/latest/changelog/index.html
-
-Hungarian Electronic Library - Advanced search
-https://mek.oszk.hu/hu/search/detailed/
-
-Vilmos Hankó: Székely Land [Hungarian Electronic Library - MEK-10784]
-https://web.archive.org/web/20231205175447/http://mek.oszk.hu/10700/10784/
-
-Hungarian Electronic Library (MEK)
-https://mek.oszk.hu/html/vgi/kereses/keresesuj.phtml?indextomb=1858:1859:1860:1861:1862:1863:1864:1865:1866:1867:1868:1869:1870:1871:1872:1873:1874:1875:1876:1877:1878:1879:1880:1881:1882:1883:1884:1885:1886:1887:1888:1889:1890:1891:1892:1893:1894:1895:1896:1897:1898:1899:1900:1901:1902:1903:1904:1905:1906:1907:1908:1909:1910:1911:1912:1913:1914:1915:1916:1917:1918:1919:1920:1921:1922:1923:1924:1925:1926:1927:1928:1929:1930:1931:1932:1933:1934:1935:1936:1937:1939:1940:1941:1942:1943:1944:1945:1946:1947:1948:1949:1950:1952:1953:1954:1955:1956:1957:1958:1959&mod=keres&offset=2100&table=azonosito&mezo=id&mezoertek1=%&mezoertek2=&rendez=
-
-Hungarian Electronic Library
-https://mek.oszk.hu/02200/02286/
-
-Magyar Elektronikus Könyvtár
-https://mek.oszk.hu/02200/02286/mp3/index.html
-
-Magyar Elektronikus Könyvtár
-https://mek.oszk.hu/02200/02286/fulszoveg.html
-
-Katalógus - Magyar Vakok és Gyengénlátók Országos Szövetsége
-https://www.mvgyosz.hu/bodor-tibor-hangoskonyvtar/hangoskonyvtar-katalogus/
-
-Hungarian Electronic Library (MEK)
-https://mek.oszk.hu/html/vgi/kereses/keresesf.phtml?indextomb=8820:6447:2286:6227:2364:17673:23314:11424:10679:11325:22427:12080:22667:6439:5004:17148:25887:9885:5893:3087:3073:5747:3833:5748:7604:3071:5778:3072:15612:6786:3979:18022:3309:22163:18152:17412:16093:15978:16698:15625:6058:2954:22199:3076:4085:3179:2776:14694:15654:14696:14576:14771:14870:14575:14697:14695:25882:7570:3310:3321:2971:2972:15200:3384:19566:13799:23187:23227:2967:10519:2778:3314:3379:2952:3798:4742:5003:2388:2595:3085:3173:12115:2546:7603:2596:24799:2751:25131:25132:25133:25135:3323:2750:23237:2650:2402:25883:3180:20041:3391&mod=keres&offset=400&formatum=MP3&rendezes=
-
-Hungarian Electronic Library
-https://mek.oszk.hu/25800/25889/
-
-Hungarian Electronic Library
-https://mek.oszk.hu/25800/25889/mp3/index.html
-
-Hungarian Electronic Library
-https://mek.oszk.hu/13400/13438/
-
-Koldus és királyfi
-https://mek.oszk.hu/13400/13438/pdf/13438ocr.pdf
-
-MARK TWAIN: KOLDUS ÉS KIRÁLYFI
-https://mek.oszk.hu/13400/13438/13438.htm
 
 EL3370 Mathematical Methods in Signals, Systems and Control
 https://people.kth.se/~crro/Math_Methods2025/Math_Methods.html
@@ -307,27 +241,6 @@ https://huggingface.co/datasets/google/fleurs/tree/main/data/hu_hu
 Fleurs train set - Google Sheets
 https://docs.google.com/spreadsheets/d/1Ivb8pvakEp_FDYIzEImVAkwivbUESoXqNOQt55ZgbLM/edit?gid=1415995823#gid=1415995823
 
-Wayback Machine
-https://web.archive.org/web/20170812034812/http://www.geniiz.com/wp-content/uploads/2012/01/26-TUM-Tools-openEAR.pdf
-
-Yaafe - audio features extraction — YAAFE - Yet Another Audio Feature Extractor
-https://yaafe.sourceforge.net/
-
-OpenEAR/autogen.sh at master · praveenmunagapati/OpenEAR
-https://github.com/praveenmunagapati/OpenEAR/blob/master/autogen.sh
-
-openAUDIO.eu
-http://www.openaudio.eu/
-
-openEAR - Browse Files at SourceForge.net
-https://sourceforge.net/projects/openart/files/
-
-Glean – System for collecting, deriving and querying facts about source code | Hacker News
-https://news.ycombinator.com/item?id=28365880
-
-Glean | Glean
-https://glean.software/?open
-
 facebookincubator/Glean: System for collecting, deriving and working with facts about source code.
 https://github.com/facebookincubator/glean
 
@@ -349,15 +262,6 @@ https://eternalterminal.dev/usermanual/
 debian-et/debian-source/dists at master · MisterTea/debian-et
 https://github.com/MisterTea/debian-et/tree/master/debian-source/dists
 
-iver56/audiomentations: A Python library for audio data augmentation. Inspired by albumentations. Useful for machine learning.
-https://github.com/iver56/audiomentations
-
-The KBLab Blog: A robust, multi-label sentiment classifier for Swedish
-https://kb-labb.github.io/posts/2023-06-16-a-robust-multi-label-sentiment-classifier-for-swedish/
-
-README.md · seastar105/Phi-4-mm-inst-zeroth-kor at main
-https://huggingface.co/seastar105/Phi-4-mm-inst-zeroth-kor/blob/main/README.md
-
 PhiCookBook/md/02.Application/05.Audio/Phi4/Siri/demo.ipynb at main · microsoft/PhiCookBook
 https://github.com/microsoft/PhiCookBook/blob/main/md/02.Application/05.Audio/Phi4/Siri/demo.ipynb
 
@@ -375,8 +279,3 @@ https://gist.github.com/seastar105/d1d8983b27611370528e3b194dcc5577#file-main-py
 
 20250121_Lecture_1
 https://diffusion.csail.mit.edu/docs/slides_lecture_1.pdf
-
-Who’s that coughing - Google Docs
-https://docs.google.com/document/d/1qg2ytPw5CHffh8YRLTDyuPlKHxbl6Ebb3bMNBZNrIt8/edit?tab=t.0#heading=h.njrlmw3tsg4w
-
-
