@@ -114,3 +114,7 @@ Fosler-Lussier, E., W. Byrne, and D. Jurafsky. "Pronunciation Modeling and Lexic
 
 [Hungarian Verbs](http://www.hungarianreference.com/verbs/)
 
+[Hungarian Words to Know for A1 Level](https://talkpal.ai/vocabulary/hungarian-words-to-know-for-a1-level/)
+
+[English-Hungarian Thematic Dictionary](https://myhunlang.com/wp-content/uploads/2011/12/english-hungarian-thematic-dictionary.pdf)
+
