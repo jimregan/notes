@@ -195,4 +195,10 @@ this is available as `langtech/base-merlin:v1_1`
 
 [darlinghq/darling](https://github.com/darlinghq/darling) --- Darwin/macOS emulation layer for Linux
 
+[vosen/ZLUDA](https://github.com/vosen/ZLUDA) --- CUDA on non-NVIDIA GPUs
+
+[The jank programming language](https://jank-lang.org/)
+
+[How to Learn ANYTHING Faster Than Everyone](https://www.youtube.com/watch?v=qOjSJVaBV94)
+
 
