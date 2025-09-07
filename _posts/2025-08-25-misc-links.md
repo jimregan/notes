@@ -106,3 +106,11 @@ Fosler-Lussier, E., W. Byrne, and D. Jurafsky. "Pronunciation Modeling and Lexic
 
 [Hungarian conjugation](https://cooljugator.com/hu)
 
+[Triads of movement in Hungarian](http://www.hungarianreference.com/Nouns/triads-of-movement.aspx)
+
+[A Beginner-Friendly Guide to Hungarian Verb Conjugation](https://www.hungarianpod101.com/blog/2020/10/05/hungarian-conjugations/)
+
+[Summary for Hungarian verbs](https://myhunlang.com/wp-content/uploads/2013/09/summary_for_hungarian_verbs1.pdf)
+
+[Hungarian Verbs](http://www.hungarianreference.com/verbs/)
+
