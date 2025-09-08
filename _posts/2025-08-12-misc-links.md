@@ -218,4 +218,9 @@ this is available as `langtech/base-merlin:v1_1`
 [CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing](https://arxiv.org/abs/2508.15316),
 [code](https://github.com/tabahi/contexless-phonemes-CUPE)
 
+[rtrussell/BBCSDL](https://github.com/rtrussell/BBCSDL) --- BBC BASIC for SDL 2.0: for Windows, Linux (86), MacOS, Raspberry Pi, Android and iOS.
+
+[Unifying Diarization, Separation, and ASR with Multi-Speaker Encoder](https://arxiv.org/abs/2508.20474)
+
+[By all means, tread on those people](https://doctorow.medium.com/https-pluralistic-net-2025-08-26-sole-and-despotic-dominion-then-they-came-for-me-29d8abccfd65)
 
