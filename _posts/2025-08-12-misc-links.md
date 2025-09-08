@@ -209,4 +209,12 @@ this is available as `langtech/base-merlin:v1_1`
 
 [hubertsiuzdak/snac](https://github.com/hubertsiuzdak/snac) --- Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate
 
+[MiSTer-devel/Amstrad-PCW_MiSTer](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer) --- Amstrad PCW MiSTer core
+
+[sorgelig/ZX_Spectrum-128K_MIST](https://github.com/sorgelig/ZX_Spectrum-128K_MIST)
+
+[EffortNet: A Deep Learning Framework for Objective Assessment of Speech Enhancement Technologies Using EEG-Based Alpha Oscillations](https://arxiv.org/abs/2508.15473)
+
+[tabahi/contexless-phonemes-CUPE](https://github.com/tabahi/contexless-phonemes-CUPE) --- pytorch model for contexless-phoneme prediction from speech audio
+
 
