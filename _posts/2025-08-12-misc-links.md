@@ -215,6 +215,7 @@ this is available as `langtech/base-merlin:v1_1`
 
 [EffortNet: A Deep Learning Framework for Objective Assessment of Speech Enhancement Technologies Using EEG-Based Alpha Oscillations](https://arxiv.org/abs/2508.15473)
 
-[tabahi/contexless-phonemes-CUPE](https://github.com/tabahi/contexless-phonemes-CUPE) --- pytorch model for contexless-phoneme prediction from speech audio
+[CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing](https://arxiv.org/abs/2508.15316),
+[code](https://github.com/tabahi/contexless-phonemes-CUPE)
 
 
