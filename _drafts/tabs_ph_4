@@ -571,23 +571,11 @@ https://hub.docker.com/r/mbayreut/debian-joyce/tags
 SDL version error
 https://chatgpt.com/c/68bea5e8-5b40-8320-958f-acef39bb72d9
 
-pcw dsk images
-https://www.cpcwiki.eu/forum/nc100-nc200-pcw-pda600/pcw-dsk-images/
-
 A Glut of software, manuals etc for new PCW or Gotek owners. Enjoy :)
 https://www.cpcwiki.eu/forum/nc100-nc200-pcw-pda600/a-glut-of-software-manuals-etc-for-new-pcw-or-gotek-owners-enjoy-)/
 
 amstrad
 http://www.retroarchive.org/maslin/disks/amstrad/index.html
-
-hemashushu/docker-archlinux-gui: This tutorial introduces a method for running GUI applications directly in containers (such as Docker and Podman) without installing any additional software.
-https://github.com/hemashushu/docker-archlinux-gui
-
-libsdl12-compat - Google Search
-https://www.google.com/search?q=libsdl12-compat&rlz=1C5GCCM_en&oq=libsdl12-compat&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBdIBBzIzNmowajSoAgCwAgE&sourceid=chrome&ie=UTF-8
-
-MIT-SHM error solutions · Issue #359 · jessfraz/dockerfiles
-https://github.com/jessfraz/dockerfiles/issues/359#issuecomment-395371557
 
 Amstrad PCW emulators | soledad penadés
 https://soledadpenades.com/articles/the-retro-adventures/amstrad-pcw-emulators/
@@ -595,15 +583,18 @@ https://soledadpenades.com/articles/the-retro-adventures/amstrad-pcw-emulators/
 Amstrad PCW Megapack 2011 - Amstrad.ES Forum
 https://www.amstrad.es/forum/viewtopic.php?p=37500#p37500
 
-c - X Error of failed request: BadMatch on X_ShmPutImage | Major opcode 130 | Minor opcode 3 - Stack Overflow
-https://stackoverflow.com/questions/59323267/x-error-of-failed-request-badmatch-on-x-shmputimage-major-opcode-130-minor
+x11 - MIT Shared Memory Extension or MIT-SHM over ssh - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/136606/mit-shared-memory-extension-or-mit-shm-over-ssh
 
-c++ - Xlib: extension "MIT-SHM" missing on display ":0". Error trying to display a surface to the window in SDL2 - Stack Overflow
-https://stackoverflow.com/questions/72051257/xlib-extension-mit-shm-missing-on-display-0-error-trying-to-display-a-sur
+disable use of X11 extension MIT-SHM when using remote X server(#8956) by allelomorph · Pull Request #13747 · libsdl-org/SDL
+https://github.com/libsdl-org/SDL/pull/13747
 
-Help with GUI applications on WSL2 : r/bashonubuntuonwindows
-https://www.reddit.com/r/bashonubuntuonwindows/comments/hncskb/help_with_gui_applications_on_wsl2/
+SDL/src/video/x11/SDL_x11framebuffer.c at 1f21aae242ba7e1e040d93d1932e64d3e4246438 · libsdl-org/SDL
+https://github.com/libsdl-org/SDL/blob/1f21aae242ba7e1e040d93d1932e64d3e4246438/src/video/x11/SDL_x11framebuffer.c#L96
 
-ssh - Working with the MIT-SHM X11 extension on Linux - Unix & Linux Stack Exchange
-https://unix.stackexchange.com/questions/534314/working-with-the-mit-shm-x11-extension-on-linux
+Sudden death by X_ShmAttach when running over ssh · Issue #8956 · libsdl-org/SDL
+https://github.com/libsdl-org/SDL/issues/8956
+
+Sudden death by X_ShmAttach when running over ssh · Issue #8956 · libsdl-org/SDL
+https://github.com/libsdl-org/SDL/issues/8956
 
