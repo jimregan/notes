@@ -28,9 +28,6 @@ https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/core/core.h
 NVIDIA-NeMo/NeMo: A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)
 https://github.com/NVIDIA-NeMo/NeMo
 
-NeMo Framework Foundation Model Pre-training — NVIDIA NeMo Framework User Guide 24.07 documentation
-https://docs.nvidia.com/nemo-framework/user-guide/24.07/playbooks/pretraining.html
-
 Overview — NVIDIA NeMo Framework User Guide
 https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html
 
@@ -109,8 +106,26 @@ https://www.kaggle.com/code/asibrahman/finetuning-byt5-for-ged
 ByT5-Finetuning-Datasets.ipynb - Colab
 https://colab.research.google.com/drive/1syXmhEQ5s7C59zU8RtHVru0wAvMXTSQ8#scrollTo=3iLm9I2GKBgM
 
-lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
-https://github.com/lingjzhu/CharsiuG2P?tab=readme-ov-file
+CharsiuG2P/src at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/tree/main/src
+
+CharsiuG2P/src/g2p.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/g2p.py
+
+CharsiuG2P/src/model.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/model.py
+
+CharsiuG2P/src/data_utils.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/data_utils.py
+
+CharsiuG2P/src/clean_wordlist.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/clean_wordlist.py
+
+CharsiuG2P/src/clean_dicts.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/clean_dicts.py
+
+CharsiuG2P/src/ByT5_MoE.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/ByT5_MoE.py
 
 CharsiuG2P/src/train.py at main · lingjzhu/CharsiuG2P
 https://github.com/lingjzhu/CharsiuG2P/blob/main/src/train.py
@@ -123,6 +138,9 @@ https://github.com/lingjzhu
 
 lingjzhu/zipa: A family of efficient speech models for multilingual phone recognition
 https://github.com/lingjzhu/zipa/tree/main?tab=readme-ov-file
+
+zipa/zipformer_crctc/ctc_decode.py at main · lingjzhu/zipa
+https://github.com/lingjzhu/zipa/blob/main/zipformer_crctc/ctc_decode.py
 
 04-lhotse-shar.ipynb - Colab
 https://colab.research.google.com/github/lhotse-speech/lhotse/blob/master/examples/04-lhotse-shar.ipynb
@@ -151,25 +169,13 @@ https://huggingface.co/charsiu/g2p_multilingual_byT5_small/tree/main
 tokenizer_config.json · charsiu/IPATokenizer at main
 https://huggingface.co/charsiu/IPATokenizer/blob/main/tokenizer_config.json
 
-Docker setup for Charsiu
-https://chatgpt.com/c/68c052e2-7d9c-8320-a18a-8eafae09a800
-
-PHIL ELLIS' Season 20 Interview | Taskmaster - YouTube
-https://www.youtube.com/watch?v=LYkQyL2c7wk
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
 Shivam Mehta Defence Presentation - Google Slides
-https://docs.google.com/presentation/d/1G0o0RRfL9zvD-zA12oph_5Z7DXLpWOxlSTjVvvuzFrk/edit?fbclid=IwY2xjawMeO9pleHRuA2FlbQIxMQABHoz2JFKoFdB7vbb9iCWE2Q70qbVdQ3A-srrKv5rqwhDyKkI6DPhHipGFDOc9_aem_F03CtIjlcaozhEgT7SZTdw&slide=id.g3799e30426e_0_75#slide=id.g3799e30426e_0_75
+https://docs.google.com/presentation/d/1G0o0RRfL9zvD-zA12oph_5Z7DXLpWOxlSTjVvvuzFrk/edit?fbclid=IwY2xjawMeO9pleHRuA2FlbQIxMQABHoz2JFKoFdB7vbb9iCWE2Q70qbVdQ3A-srrKv5rqwhDyKkI6DPhHipGFDOc9_aem_F03CtIjlcaozhEgT7SZTdw&slide=id.g37d857f7a48_0_11#slide=id.g37d857f7a48_0_11
 
-Virgin Media Television - Live and On-Demand on Virgin Media Player (formerly TV3 and 3player)
-https://www.virginmediatelevision.ie/
+CBT - Breaking trauma spirals
+https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/68a3442e-7860-8330-b30e-de3f79c14693
 
-List of The Graham Norton Show episodes - Wikipedia
-https://en.wikipedia.org/wiki/List_of_The_Graham_Norton_Show_episodes
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
+Shivam - Google Drive
+https://drive.google.com/drive/u/0/folders/1Ckk7k-sRp1LzTPHN79tadosxa40y4Coy
 
 
