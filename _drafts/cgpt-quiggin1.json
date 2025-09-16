@@ -199,18 +199,32 @@
     "section": "s5",
     "phonetic": "αhəNtəs",
     "gloss": "acquaintance",
-    "source_refs": [{"work": "Dinneen", "form": "aitheantas"}],
-    "relations": [{"type": "related", "phonetic": "αhəNtə", "gloss": "acquainted"}],
-    "etymology": [{"language": "Old Irish", "form": "aithgne"}],
-    "examples": [{"phonetic": "dαhinʹ mʹə", "gloss": "I recognised"}],
-    "source_refs_more": [{"work": "Dinneen", "form": "d’aithin"}]
+    "source_refs": {"work": "Dinneen", "form": "aitheantas"},
+    "relations": {"type": "derived_from", "phonetic": "en̥ʹə"},
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "αhəNtə",
+    "gloss": "acquainted",
+    "source_refs": {"work": "Dinneen", "form": "aitheanta"},
+    "relations": {"type": "derived_from", "phonetic": "en̥ʹə"},
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "dαhinʹ mʹə",
+    "gloss": "I recognised",
+    "source_refs": {"work": "Dinneen", "form": "d’aithin"},
+    "relations": {"type": "paradigm_of", "target": "aithin (verb)"}
   },
   {
     "section": "s5",
     "phonetic": "αhəNtə",
     "gloss": "commandments",
-    "source_refs": [{"work": "Dinneen", "form": "aitheanta"}],
-    "notes": ["Plural of 'aithne' (Old Irish)"]
+    "source_refs": {"work": "Dinneen", "form": "aitheanta"},
+    "notes": ["Plural of 'aithne'"],
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
   },
   {
     "section": "s5",
