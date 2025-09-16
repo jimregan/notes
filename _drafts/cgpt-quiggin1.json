@@ -253,8 +253,9 @@
   {
     "section": "s5",
     "phonetic": "mαrstʹən",
-    "gloss": "to remain, last (infinitive)",
-    "source_refs": [{"work": "Wi.", "form": "maraim"}]
+    "gloss": "to remain, last",
+    "note": "infinitive of maraim",
+    "source_refs": [{"work": "Windisch", "form": "maraim"}]
   },
   {
     "section": "s5",
@@ -268,7 +269,8 @@
     "gloss": "ghost",
     "etymology": [{"language": "Middle Irish", "form": "taidbsiu"}],
     "examples": [
-      {"phonetic": "ə ŋlαkə tuw kɔpαn te꞉ (ə)niʃ? Nʹi꞉ tαvʃ(ə) e꞉"}
+      {"phonetic": "ə ŋlαkə tuw kɔpαn te꞉ (ə)niʃ? Nʹi꞉ tαvʃ(ə) e꞉",
+       "gloss": "will you take a cup of tea now? It would be very acceptable"}
     ]
   },
 
@@ -276,8 +278,7 @@
     "section": "s6",
     "phonetic": "αfʹrʹəN",
     "gloss": "mass",
-    "etymology": [{"language": "Old Irish", "form": "oifrend"}],
-    "source_refs": [{"work": "Wi.", "form": "oifrend"}]
+    "source_refs": [{"work": "Windisch", "form": "oifrend"}]
   },
 
   {
@@ -306,13 +307,14 @@
   {
     "section": "s7",
     "phonetic": "tαhər",
-    "gloss": "one is",
+    "gloss": "man ist",
+    "gloss_language": "German",
     "etymology": [{"language": "Middle Irish", "form": "atáthar"}]
   },
   {
     "section": "s7",
     "phonetic": "Nʹi꞉ αhαr",
-    "relations": [{"type": "etymology_note", "note": "< ní fhaghthar"}],
+    "transcription": "ní fhaghthar"}],
     "examples": [{"phonetic": "Nʹi꞉ αhər sæLʹ gən çαNαχt", "gloss": "lard is not got without buying"}]
   },
   {
@@ -325,8 +327,8 @@
     "section": "s7",
     "phonetic": "drαh ə Nαmə ʃɔ",
     "gloss": "about this time",
-    "relations": [{"type": "source_translation", "value": "i dtráth an ama seo"}],
-    "source_refs": [{"work": "Craig", "form": "dratha", "note": "Iasg."}]
+    "transcription": "i dtráth an ama seo",
+    "source_refs": [{"work": "Craig", "form": "dratha"}]
   },
   {
     "section": "s7",
@@ -338,9 +340,8 @@
   {
     "section": "s8",
     "phonetic": "Nα̃vdʹə",
-    "gloss": "enemies (plural)",
     "relations": [{"type": "plural_of", "phonetic": "Nα̃꞉widʹ", "gloss": "enemy"}],
-    "etymology": [{"language": "Old Irish", "form": "náimtea (acc. pl.)"}]
+    "etymology": [{"language": "Old Irish", "form": "náimtea", "type": "accusative plural"}]
   },
 
   {
@@ -366,7 +367,7 @@
     "phonetic": "bαtæLʹtʹə",
     "gloss": "wap of hay",
     "source_refs": [{"work": "Dinneen", "form": "batailte"}],
-    "notes": ["< English 'bottle'"]
+    "notes": ["from English 'bottle'"]
   },
   {
     "section": "s9",
@@ -437,14 +438,14 @@
     "section": "s9",
     "phonetic": "mαguw",
     "gloss": "to mock",
-    "notes": ["< English; cf. Louth 'mogadh'"]
+    "notes": ["from English; cf. Louth 'mogadh'"]
   },
   {
     "section": "s9",
     "phonetic": "sαp",
     "gloss": "wisp",
     "etymology": [{"language": "Middle Irish", "form": "sopp"}],
-    "examples": [{"phonetic": "ʃïnʹ ə sαp ə row ə tʹiəsk əN"}]
+    "examples": [{"phonetic": "ʃïnʹ ə sαp ə row ə tʹiəsk əN", "gloss": "das also war des Pudels Kern"}]
   },
   {
     "section": "s9",
@@ -462,7 +463,7 @@
     "section": "s9",
     "phonetic": "tαrəmαn",
     "gloss": "noise",
-    "source_refs": [{"work": "Wi. Ir. T.", "form": "tormán", "note": "iv 1"}]
+    "source_refs": [{"work": "Windisch", "form": "tormán", "note": "iv 1"}]
   },
   {
     "section": "s9",
@@ -517,8 +518,9 @@
   {
     "section": "s10",
     "phonetic": "mαkαNtə",
-    "gloss": "civil, decent (filial)",
-    "etymology": [{"language": "Old Irish", "form": "maccán"}]
+    "gloss": "civil, decent",
+    "literal_gloss": "filial",
+    "etymology": [{"type": "derived_from", "language": "Old Irish", "form": "maccán", "gloss": "puerulus"}]
   },
   {
     "section": "s10",
@@ -548,8 +550,13 @@
   },
   {
     "section": "s10",
-    "phonetic": ["fʹαdαli꞉", "fʹαdαlαχ"],
-    "gloss": ["to whistle", "whistling"],
+    "phonetic": "fʹαdαli꞉",
+    "gloss": "to whistle",
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹαdαlαχ",
+    "gloss": "whistling",
     "source_refs": [{"work": "Dinneen", "form": "feadálach"}]
   },
   {
@@ -589,8 +596,17 @@
   },
   {
     "section": "s10",
-    "phonetic": ["dʹrʹəuwlαs", "dʹrʹəuwlαsαχ"],
-    "gloss": ["licentiousness", "licentious"],
+    "phonetic": "dʹrʹəuwlαs",
+    "gloss": "licentiousness",
+    "source_refs": [
+      {"work": "Dinneen", "form": "dreabhlas"},
+      {"work": "Dinneen", "form": "drobhlas"}
+    ]
+  },
+  {
+    "section": "s10",
+    "phonetic": "dʹrʹəuwlαsαχ",
+    "gloss": "licentious",
     "source_refs": [
       {"work": "Dinneen", "form": "dreabhlas"},
       {"work": "Dinneen", "form": "drobhlas"}
@@ -625,7 +641,7 @@
     "phonetic": "NʹɛəLtαrαχt",
     "gloss": "idling",
     "source_refs": [{"work": "Dinneen", "form": "néalladóireacht"}],
-    "notes": ["cf. English 'star-gazing'"]
+    "notes": ["cp. English 'star-gazing'"]
   },
   {
     "section": "s11",
