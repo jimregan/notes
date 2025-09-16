@@ -101,7 +101,7 @@ In some forms ''æ'' often becomes ''ɛ'' or even ''e''. Thus one hears ''bwæl�
     "section": "s75",
     "phonetic": "mwædʹïnʹ",
     "gloss": "morning",
-    "origin": {"old_irish": "matin", "note": "(acc.)"}
+    "origin": {"old_irish": "matin", "form": "accusative"}
 },
 {
     "section": "s75",
@@ -187,8 +187,17 @@ In some forms ''æ'' often becomes ''ɛ'' or even ''e''. Thus one hears ''bwæl�
 },
 {
     "section": "s75",
+    "phonetic": ["erʹ æʃ", "erʹ eʃ"],
+    "gloss": "back, returned",
+    "contrast": {"phonetic": "αsrïgər",
+                    "gloss": "a back answer, sharp reply",
+                    "etymology": "'æʃ' + 'fʹrʹïgər'"}
+},
+{
+    "section": "s75",
     "phonetic": "mwærʹəm",
     "variant": "mwerʹəm",   
-    "related": {"form": "infinitive", "phonetic": "mαrstʹən"}
+    "related": {"form": "infinitive", "phonetic": "mαrstʹən"},
+    "contrast": {"form": "preterite", "phonetic": "wɛr sə"}
 }
     
