@@ -133,3 +133,29 @@ https://www.google.com/search?q=six+sigma&rlz=1C5GCCM_en&oq=six+sig&gs_lcrp=EgZj
 New tab
 chrome://newtab/
 
+
+
+Here’s the transcribed text from your notes:
+
+---
+
+Compute WER between Whisper & wav2vec2
+
+Start with known good data
+
+* maybe using validation set?
+
+  * extract items that disagree between Whisper/CTC
+    * WER %
+    * specific error checks? TBL?
+
+* Apply to filter in-the-wild data
+
+  * Anything that can be coerced to have match or near-enough match gets added to the training data
+
+\= opposite of active learning
+\= similar to mBERT ‘progressive language inclusion strategy’
+
+---
+
+Do you want me to help slot this into the **Publishing Prep Template** you uploaded, so it starts shaping into a paper outline?
