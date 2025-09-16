@@ -166,7 +166,7 @@
     "examples": [
       {"phonetic": "mər ə NʹαnəN, kũαnəN"}
     ],
-    "notes": ["Expected *o̤nəN; cf. Monaghan 'ea' for 'io' (Gaelic Journal 1896, p.147 col.2)"]
+    "notes": ["We should expect *o̤nəN but compare ea for io in Co. Monaghan in ionad, tionntuigh &c. (Gaelic Journal 1896, p.147 col.2)"]
   },
 
   {
@@ -182,15 +182,17 @@
     "gloss": "for the sake of",
     "source_refs": [{"work": "Dinneen", "form": "mar (ar) mhaithe le"}],
     "examples": [
-      {"phonetic": "ə wα̃hə lʹeihə heinʹ ə nʹi꞉s ə kαt krɔ꞉nαn"},
-      {"phonetic": "Nʹi꞉ gə ho̤mlα꞉n ə wα̃hə lʹeʃ ə wUNtæʃtʹə αχ wα̃hə lʹeʃ ə fʹlʹeiʃu꞉r"}
+      {"phonetic": "ə wα̃hə lʹeihə heinʹ ə nʹi꞉s ə kαt krɔ꞉nαn",
+       "gloss": "it is for her own good that the cat purs"},
+      {"phonetic": "Nʹi꞉ gə ho̤mlα꞉n ə wα̃hə lʹeʃ ə wUNtæʃtʹə αχ wα̃hə lʹeʃ ə fʹlʹeiʃu꞉r",
+       "gloss": "not altogether for the sake of profit but also for pleasure"}
     ]
   },
   {
     "section": "s5",
     "phonetic": "mα gə Lʹɔ꞉r",
     "gloss": "alright",
-    "relations": [{"type": "source_translation", "value": "maith go leor"}],
+    "transcription": "maith go leor",
     "notes": ["Elsewhere 'maith' appears as mαiç'"]
   },
   {
