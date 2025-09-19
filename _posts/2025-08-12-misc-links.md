@@ -242,4 +242,5 @@ this is available as `langtech/base-merlin:v1_1`
 
 [fluxions-ai/vui](https://github.com/fluxions-ai/vui) --- Small 100M Conversational speech models that can run on device
 
+[Interactive Linear Algebra](https://personal.math.ubc.ca/~tbjw/ila/index2.html)
 
