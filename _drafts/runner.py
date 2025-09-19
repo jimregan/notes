@@ -3,8 +3,8 @@ from typing import List, Dict
 from pathlib import Path
 import json
 
-wiki_dir = "/home/joregan/quiggin/wiki"
-json_dir = "/home/joregan/quiggin/raw"
+wiki_dir = "/home/joregan/quiggin/quiggin/wiki"
+json_dir = "/home/joregan/quiggin/quiggin/raw"
 
 OLLAMA_HOST = "http://130.237.3.106:11434"
 MODEL = "quiggin-extractor:latest"
@@ -54,6 +54,7 @@ def extract_sections(text: str) -> List[Dict]:
 
 
 if __name__ == "__main__":
+    print("Starting processing...")
     json_path = Path(json_dir)
     wiki_path = Path(wiki_dir)
 
