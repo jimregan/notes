@@ -224,3 +224,22 @@ this is available as `langtech/base-merlin:v1_1`
 
 [By all means, tread on those people](https://doctorow.medium.com/https-pluralistic-net-2025-08-26-sole-and-despotic-dominion-then-they-came-for-me-29d8abccfd65)
 
+[Linux-RISC/Reanimator](https://github.com/Linux-RISC/Reanimator) --- Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi or VirtualBox
+
+[momo5502/sogen](https://github.com/momo5502/sogen) --- 🪅 Windows User Space Emulator
+
+[unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn) --- Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)
+
+[source-solutions/sebasic4](https://github.com/source-solutions/sebasic4) --- SE BASIC - A free BASIC interpreter written in Z80 assembly language
+
+[MACE](https://mace.home.blog/)
+
+[Introduction to Computational Graphs](https://thepalindrome.org/p/introduction-to-computational-graphs-332)
+
+[kyutai-labs/unmute](https://github.com/kyutai-labs/unmute) --- Make text LLMs listen and speak
+
+[Atcold/Energy-Book](https://github.com/Atcold/Energy-Book) --- Deep Learning, an Energy Approach
+
+[fluxions-ai/vui](https://github.com/fluxions-ai/vui) --- Small 100M Conversational speech models that can run on device
+
+
