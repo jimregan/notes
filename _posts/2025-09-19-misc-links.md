@@ -73,4 +73,19 @@ categories: [links]
 
 [NeMo G2P YAML](https://github.com/NVIDIA-NeMo/NeMo/blob/main/examples/tts/g2p/conf/g2p_t5.yaml)
 
+[The Oxford-BBC Lip Reading Sentences 2](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
+
+[1adrianb/face-alignment](https://github.com/1adrianb/face-alignment) --- 2D and 3D Face alignment library build using pytorch
+
+[MimicTalk: Mimicking a personalized and expressive 3D talking face in few minutes](https://openreview.net/forum?id=gjEzL0bamb),
+[code](https://github.com/yerfor/MimicTalk)
+
+[yerfor/Real3DPortrait](https://github.com/yerfor/Real3DPortrait)
+
+[sprakradet/swedia_test_set](https://github.com/sprakradet/swedia_test_set)
+
+[ByteDance-Seed/Seed-OSS-36B-Instruct](https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct)
+
+[Identity-Preserving Talking Face Generation with Landmark and Appearance Priors](https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900j729/1POPw2eqT7y),
+[code](https://github.com/Weizhi-Zhong/IP_LAP)
 
