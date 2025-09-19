@@ -142,12 +142,6 @@ https://qwenlm.github.io/blog/qwen2-audio/
 QwenLM/Qwen2-Audio: The official repo of Qwen2-Audio chat & pretrained large audio language model proposed by Alibaba Cloud.
 https://github.com/QwenLM/Qwen2-Audio
 
-QwenLM/Qwen2.5-Omni: Qwen2.5-Omni is an end-to-end multimodal model by Qwen team at Alibaba Cloud, capable of understanding text, audio, vision, video, and performing real-time speech generation.
-https://github.com/QwenLM/Qwen2.5-Omni
-
-Advancing AI systems through progress in perception, localization, and reasoning
-https://ai.meta.com/blog/meta-fair-updates-perception-localization-reasoning/?utm_source=twitter&utm_medium=organic%20social&utm_content=video&utm_campaign=fair
-
 facebook/PE-Core-L14-336 · Hugging Face
 https://huggingface.co/facebook/PE-Core-L14-336
 
@@ -205,9 +199,6 @@ https://link.springer.com/journal/10579/volumes-and-issues/59-2
 Atcold/Energy-Book: Deep Learning, an Energy Approach
 https://github.com/Atcold/Energy-Book
 
-fluxions/vui · Hugging Face
-https://huggingface.co/fluxions/vui
-
 Front Matter
 https://personal.math.ubc.ca/~tbjw/ila/index2.html
 
@@ -241,68 +232,8 @@ https://github.com/GrapheneOS/hardened_malloc
 Playing with binary formats
 https://www.linux.it/~rubini/docs/binfmt/binfmt.html
 
-bsd user space emulation - Google Search
-https://www.google.com/search?q=bsd+user+space+emulation&oq=bsd+user+space+emulation&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRiPAtIBCDg5MThqMGo3qAIUsAIB8QWZSgm3eOomd_EFmUoJt3jqJnc&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.qemu.org/docs/master/user/main.html&ved=2ahUKEwjflN2F7JOOAxX5YEEAHXGcJqoQFnoECCAQAQ&usg=AOvVaw0Aq0f4Y3mSpIRCyLC5QNBS
-https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.qemu.org/docs/master/user/main.html&ved=2ahUKEwjflN2F7JOOAxX5YEEAHXGcJqoQFnoECCAQAQ&usg=AOvVaw0Aq0f4Y3mSpIRCyLC5QNBS
-
-Linux-RISC/Reanimator: Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi or VirtualBox
-https://github.com/Linux-RISC/Reanimator
-
-momo5502/sogen: 🪅 Windows User Space Emulator
-https://github.com/momo5502/sogen?tab=readme-ov-file
-
-unicorn-engine/unicorn: Unicorn CPU emulator framework (ARM, AArch64, M68K, Mips, Sparc, PowerPC, RiscV, S390x, TriCore, X86)
-https://github.com/unicorn-engine/unicorn?tab=readme-ov-file
-
-Z80 Interpreter + Library : r/Z80
-https://www.reddit.com/r/Z80/comments/1ceto2d/z80_interpreter_library/
-
-SE Basic IV Cordelia 4.2.0 | A free BASIC interpreter written in Z80 assembly language
-https://source-solutions.github.io/sebasic4/
-
-mace mac emulator - Google Search
-https://www.google.com/search?q=mace+mac+emulator&oq=mace+mac+emulator&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBTIHCAoQIRifBTIHCAsQIRifBTIHCAwQIRifBTIHCA0QIRifBTIHCA4QIRifBdIBCDk4OTJqMGo3qAIPsAIB8QVjLZu1FzTOsw&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-M.A.C.E. | M*c Application Compatibility Environment
-https://mace.home.blog/
-
-M.A.C.E. | M*c Application Compatibility Environment
-https://mace.home.blog/
-
-open source cocoa implementation - Google Search
-https://www.google.com/search?q=open+source+cocoa+implementation&oq=open+source+cocoa+implementation&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCTExMTMwajBqN6gCD7ACAfEFpaFKknnbeJrxBaWhSpJ523ia&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8
-
-Open source Cocoa implementation for Windows and Linux | Hacker News
-https://news.ycombinator.com/item?id=1450492
-
-apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
-https://github.com/apple/container?tab=readme-ov-file
-
-container/docs/tutorial.md at main · apple/container
-https://github.com/apple/container/blob/main/docs/tutorial.md
-
-Collection Types | Documentation
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/collectiontypes
-
-The Palindrome | Tivadar Danka | Substack
-https://thepalindrome.org/
-
-Introduction to Computational Graphs - by Tivadar Danka
-https://thepalindrome.org/p/introduction-to-computational-graphs-332
-
 Unmute
 https://kyutai.org/next/unmute
-
-kyutai-labs/unmute: Make text LLMs listen and speak
-https://github.com/kyutai-labs/unmute
-
-unmute/dockerless at main · kyutai-labs/unmute
-https://github.com/kyutai-labs/unmute/tree/main/dockerless
-
-mistralai/Mistral-Small-3.2-24B-Instruct-2506 · Hugging Face
-https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506
 
 Kyutai STT
 https://kyutai.org/next/stt
