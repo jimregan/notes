@@ -106,4 +106,12 @@ categories: [links]
 [The State of Freedom Around the World in 2025](https://www.visualcapitalist.com/the-state-of-freedom-around-the-world-in-2025/)
 
 [baidu/ERNIE-4.5-300B-A47B-Base-PT](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Base-PT)
-w
+
+[Add recipe for Qwen2-Audio-7B-Chat on Dynamic-SUPERB ASR task #6194](https://github.com/espnet/espnet/pull/6194)
+
+[Add Harvest algorithm as an option for F0 extraction #6083](https://github.com/espnet/espnet/pull/6083)
+
+[Create a ESPnet bootcamp recipe for proyecto-nahuatl-asr #6066](https://github.com/espnet/espnet/pull/6066)
+
+[Fine-tune an image model](https://replicate.com/docs/get-started/fine-tune-with-flux)
+
