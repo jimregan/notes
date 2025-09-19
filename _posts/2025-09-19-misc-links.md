@@ -89,3 +89,11 @@ categories: [links]
 [Identity-Preserving Talking Face Generation with Landmark and Appearance Priors](https://www.computer.org/csdl/proceedings-article/cvpr/2023/012900j729/1POPw2eqT7y),
 [code](https://github.com/Weizhi-Zhong/IP_LAP)
 
+[OmniGen2: Exploration to Advanced Multimodal Generation](https://arxiv.org/abs/2506.18871),
+[code](https://github.com/VectorSpaceLab/OmniGen2),
+[model](https://huggingface.co/OmniGen2/OmniGen2)
+
+[GrapheneOS](https://grapheneos.org/)
+
+[Playing with binary formats](https://www.linux.it/~rubini/docs/binfmt/binfmt.html)
+
