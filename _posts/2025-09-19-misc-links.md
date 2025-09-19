@@ -97,3 +97,13 @@ categories: [links]
 
 [Playing with binary formats](https://www.linux.it/~rubini/docs/binfmt/binfmt.html)
 
+[Kyutai STT](https://kyutai.org/next/stt),
+[kyutai/stt-1b-en_fr](https://huggingface.co/kyutai/stt-1b-en_fr),
+[kyutai/tts-1.6b-en_fr](https://huggingface.co/kyutai/tts-1.6b-en_fr),
+[code](https://github.com/kyutai-labs/delayed-streams-modeling/),
+[kyutai/mimi](https://huggingface.co/kyutai/mimi)
+
+[The State of Freedom Around the World in 2025](https://www.visualcapitalist.com/the-state-of-freedom-around-the-world-in-2025/)
+
+[baidu/ERNIE-4.5-300B-A47B-Base-PT](https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Base-PT)
+w
