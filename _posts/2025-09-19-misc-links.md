@@ -115,3 +115,14 @@ categories: [links]
 
 [Fine-tune an image model](https://replicate.com/docs/get-started/fine-tune-with-flux)
 
+[TalkingGaussian: Structure-Persistent 3D Talking Head Synthesis via Gaussian Splatting](https://arxiv.org/abs/2404.15264)
+
+[GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://arxiv.org/abs/2301.13430),
+[code](https://github.com/yerfor/GeneFace)
+
+[AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis](https://arxiv.org/abs/2103.11078),
+[code](https://github.com/YudongGuo/AD-NeRF)
+
+[yenchenlin/nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch)
+
+
