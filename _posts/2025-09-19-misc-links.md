@@ -125,4 +125,10 @@ categories: [links]
 
 [yenchenlin/nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch)
 
+[XTXMarkets/ternfs](https://github.com/XTXMarkets/ternfs)
 
+[Qwen3-Omni: Natively Omni-Modal Foundation Models!](https://qwen.ai/blog?id=65f766fc2dcba7905c1cb69cc4cab90e94126bf4&from=research.latest-advancements-list),
+[code](https://github.com/QwenLM/Qwen3-Omni),
+[collection](https://huggingface.co/collections/Qwen/qwen3-omni-68d100a86cd0906843ceccbe),
+[Captioner](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Captioner),
+[demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Captioner-Demo)
