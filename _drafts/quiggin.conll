@@ -39,9 +39,9 @@
 # text_ipa = bˠə lʲeʃ bˠelʲ iː mˠuːɴˠ, aːtʲ ˈfʲihə bˠoː ˈagəsˠ ˈtˠaɾˠuː ˈʟʲoːfˠə.
 1	Bu	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	leis	le	ADP	Simp	_	3	case	_	_
-3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
-4	ui	uí	PART	Pat	PartType=Pat	3	flat:name	_	_
-5	Mún	Mún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+3	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
+4	ui	uí	PART	Pat	PartType=Pat	3	flat:name	_	NamedEntity=Yes
+5	Mún	Mún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 6	,	,	PUNCT	Punct	_	7	punct	_	_
 7	áit	áit	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	_
 8	fiche	fiche	NUM	Num	NumType=Card	9	nummod	_	_
@@ -138,9 +138,9 @@
 # sent_id = 8
 # text = D'fhiafraigh Áindrías, bhfuil oiread ime agad a's gheánfadh sinn aniu?
 # text_standard = D'fhiafraigh Áindrías, bhfuil oiread ime agat agus dhéanfadh sinn inniu?
-# text_modern = D'fhiafraigh Áindrías, bhfuil urad ime agat agus dhéanfadh sinn inniu?
+# text_modern = D'fhiafraigh Áindrías, bhfuil urad ime agat is dhéanfadh sinn inniu?
 # text_phonetic = d′iəfri: α:nṟαs, wïl′ ərəd ïm′ əgəd əs jα:n̥uw ʃïN′ əN′Uw̥`?
-# text_ipa = ˈdʲiəfˠɾˠiː ˈaːnˠɾˠas, wilʲ ˈəɾˠədˠ imʲ əgˠədˠ əsˠ ˈjaːɴˠuː ʃiɴʲ 
+# text_ipa = ˈdʲiəfˠɾˠiː ˈaːnˠɾˠas, wilʲ ˈəɾˠədˠ imʲ əgˠədˠ əsˠ ˈjaːɴˠuː ʃiɴʲ əˈɴʲuː?
 1	D'fhiafraigh	d'fhiafraigh	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Áindrías	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	4	punct	_	_
