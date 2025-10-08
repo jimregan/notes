@@ -1,3 +1,7 @@
+# newdoc id = iorras-aithneach-track01
+# source = https://www.dias.ie/wp-content/uploads/2014/03/track01.pdf
+# pdf_page = 1
+# bounding_box = 140.95241761901036, 139.95060487802232, 469.58843166846805, 402.72417894455015
 # text = -An fear, an fear is láidir-, an fear is láidire insa domhan anois, u- faoi, is goire dhuit faoi láthair, sé áit a bhfuil sé in Araebia, an Gaiscíoch, nó Fathach Mór Buí.
 # sent_id = 0
 1	-	-	PUNCT	Punct	_	3	punct	_	_
@@ -52,17 +56,17 @@
 5	maith	maith	ADJ	Adj	Degree=Pos	2	advmod	_	start_char=186|end_char=191|SpaceAfter=No
 6	,	,	PUNCT	Punct	_	8	punct	_	start_char=191|end_char=192
 7	agus	agus	CCONJ	Coord	_	8	cc	_	start_char=193|end_char=197
-8	u-	u-	INTJ	Itj	_	2	advcl	_	start_char=198|end_char=200|SpaceAfter=No
+8	u-	u-	INTJ	Itj	_	2	conj	_	start_char=198|end_char=200|SpaceAfter=No
 9	,	,	PUNCT	Punct	_	11	punct	_	start_char=200|end_char=201
-10	u-	u-	INTJ	Itj	_	11	punct	_	start_char=202|end_char=204
+10	u-	u-	INTJ	Itj	_	2	conj	_	start_char=202|end_char=204
 11	déan	déan	VERB	VTI	Mood=Imp|Number=Sing|Person=2	2	parataxis	_	start_char=205|end_char=209
 12	—	—	PUNCT	Punct	_	14	punct	_	start_char=210|end_char=211
-13	Dhá	dó	NUM	Num	Form=Len|NumType=Card	14	nummod	_	start_char=212|end_char=215
-14	ndéantá	déanamh	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	11	parataxis	_	start_char=216|end_char=223
+13	Dhá	dá	SCONJ	Subord	_	14	mark	_	start_char=212|end_char=215
+14	ndéantá	déan	VERB	VTI	Form=Ecl|Mood=Cnd	11	advcl	_	start_char=216|end_char=223
 15	mo	mo	DET	Det	Number=Sing|Person=1|Poss=Yes	16	nmod:poss	_	start_char=224|end_char=226
 16	chomhairle	comhairle	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	14	nmod	_	start_char=227|end_char=237
 17	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	18	advmod	_	start_char=238|end_char=240|SpacesAfter=\n
-18	rachthá	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	2	parataxis	_	start_char=241|end_char=248
+18	rachthá	téigh	VERB	VTI	Mood=Cnd|Number=Sing|Person=1|Polarity=Neg	2	parataxis	_	start_char=241|end_char=248
 19	ar	ar	ADP	Simp	_	20	case	_	start_char=249|end_char=251
 20	chor	cor	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	18	obl	_	start_char=252|end_char=256
 21	ar	ar	ADP	Simp	_	20	nmod	_	start_char=257|end_char=259
@@ -78,7 +82,7 @@
 4	mór	mór	ADJ	Adj	Degree=Pos	2	xcomp:pred	_	start_char=283|end_char=286
 5	leat	le	ADP	Prep	Number=Sing|Person=2	2	obl:prep	_	start_char=287|end_char=291|SpaceAfter=No
 6	,	,	PUNCT	Punct	_	7	punct	_	start_char=291|end_char=292
-7	libse	libsigh	VERB	VTI	Mood=Imp|Number=Sing|Person=1	0	root	_	start_char=293|end_char=298|SpaceAfter=No
+7	libse	le	ADP	Prep	Number=Plur|Person=2	2	obl:prep	_	start_char=293|end_char=298|SpaceAfter=No
 8	,	,	PUNCT	Punct	_	10	punct	_	start_char=298|end_char=299
 9	agus	agus	CCONJ	Coord	_	10	cc	_	start_char=300|end_char=304
 10	níl	bí	VERB	PresInd	Mood=Ind|Polarity=Neg|Tense=Pres	7	conj	_	start_char=305|end_char=308
@@ -99,7 +103,7 @@
 # sent_id = 3
 1	-	-	PUNCT	Punct	_	3	punct	_	start_char=362|end_char=363|SpaceAfter=No
 2	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	3	advmod	_	start_char=363|end_char=365
-3	fhanthaidh	fan	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	start_char=366|end_char=376
+3	fhanthaidh	fan	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Fut	0	root	_	start_char=366|end_char=376
 4	mé	mé	PRON	Pers	Number=Sing|Person=1	3	nsubj	_	start_char=377|end_char=379
 5	as	as	ADP	Prep	Gender=Masc|Number=Sing|Person=3	3	obl:prep	_	start_char=380|end_char=382|SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	start_char=382|end_char=383
@@ -107,7 +111,7 @@
 # text = Ní fhanthaidh mé as, a dúirt an tÉireannach.
 # sent_id = 4
 1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	start_char=384|end_char=386
-2	fhanthaidh	fan	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	7	parataxis	_	start_char=387|end_char=397
+2	fhanthaidh	fan	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Fut	7	parataxis	_	start_char=387|end_char=397
 3	mé	mé	PRON	Pers	Number=Sing|Person=1	2	nsubj	_	start_char=398|end_char=400
 4	as	as	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	obl:prep	_	start_char=401|end_char=403|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	2	punct	_	start_char=403|end_char=404
@@ -119,7 +123,7 @@
 
 # text = Gabhthaidh mé ann.
 # sent_id = 5
-1	Gabhthaidh	gabhthaigh	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	start_char=429|end_char=439|SpacesAfter=\n
+1	Gabhthaidh	gabh	VERB	VTI	Mood=Ind|Tense=Fut	0	root	_	start_char=429|end_char=439|SpacesAfter=\n
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	start_char=440|end_char=442
 3	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	start_char=443|end_char=446|SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	start_char=446|end_char=447|SpacesAfter=\n
@@ -179,9 +183,9 @@
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	start_char=624|end_char=626
 4	aon	aon	DET	Det	PronType=Ind	5	det	_	start_char=627|end_char=630
 5	uisce	uisce	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	start_char=631|end_char=636
-6	ariamh	ariamh	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	start_char=637|end_char=643
+6	ariamh	riamh	ADV	Gn	_	2	advmod	_	start_char=637|end_char=643
 7	ba	is	PART	Sup	PartType=Sup|Tense=Past|VerbForm=Cop	8	mark:prt	_	start_char=644|end_char=646
-8	gráinne	gráinn	ADJ	Adj	Degree=Cmp,Sup	5	amod	_	start_char=647|end_char=654
+8	gráinne	gránna	ADJ	Adj	Degree=Sup	5	amod	_	start_char=647|end_char=654
 9	ná	ná	SCONJ	Subord	_	10	mark	_	start_char=655|end_char=657
 10	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	advcl	_	start_char=658|end_char=659
 11	le	le	ADP	Simp	_	12	case	_	start_char=660|end_char=662
@@ -196,7 +200,7 @@
 3	,	,	PUNCT	Punct	_	4	punct	_	start_char=691|end_char=692
 4	cluiche	cluiche	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=693|end_char=700
 5	mór	mór	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	start_char=701|end_char=704
-6	eascannaí	eascannaí	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	4	nmod	_	start_char=705|end_char=714
+6	eascannaí	eascann	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	4	nmod	_	start_char=705|end_char=714
 7	aníos	aníos	ADV	Dir	_	1	advmod	_	start_char=715|end_char=720
 8	as	as	ADP	Simp	_	10	case	_	start_char=721|end_char=723
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	start_char=724|end_char=726
@@ -421,7 +425,7 @@
 24	t-anam	anam	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	start_char=1501|end_char=1507
 25	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	26	nsubj	_	start_char=1508|end_char=1509
 26	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	24	acl:relcl	_	start_char=1510|end_char=1513
-27	iontub	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	26	obl:prep	_	start_char=1514|end_char=1520
+27	iontub	i	ADP	Prep	Number=Plur|Person=3	26	obl:prep	_	start_char=1514|end_char=1520
 28	sin	sin	PRON	Dem	PronType=Dem	27	det	_	start_char=1521|end_char=1524
 29	anois	anois	ADV	Gn	_	26	advmod	_	start_char=1525|end_char=1530|SpaceAfter=No
 30	,	,	PUNCT	Punct	_	32	punct	_	start_char=1530|end_char=1531
@@ -429,9 +433,9 @@
 32	choinic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	24	acl:relcl	_	start_char=1534|end_char=1541
 33	tú	tú	PRON	Pers	Number=Sing|Person=2	32	nsubj	_	start_char=1542|end_char=1544
 34	ina	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	35	case	_	start_char=1545|end_char=1548|SpacesAfter=\n
-35	n-eascannaí	eascannaí	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	32	obl	_	start_char=1549|end_char=1560
-36	insan	i	ADP	Simp	_	37	case	_	start_char=1561|end_char=1566
-37	uisce	uisce	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	32	obl	_	start_char=1567|end_char=1572|SpaceAfter=No
+35	n-eascannaí	eascann	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Plur	32	obl	_	start_char=1549|end_char=1560
+36	insan	i	ADP	Art	Number=Sing|PronType=Art	37	case	_	start_char=1561|end_char=1566
+37	uisce	uisce	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	32	obl	_	start_char=1567|end_char=1572|SpaceAfter=No
 38	.	.	PUNCT	.	_	16	punct	_	start_char=1572|end_char=1573
 
 # text = Agus breathaíonn, breathaíonn siad ar an gcaoi sin ar chuile strainséara.
