@@ -47,3 +47,27 @@ categories: [links]
 
 [robertostling/eflomal](https://github.com/robertostling/eflomal)
 
+[Codec-ASR: Training Performant Automatic Speech Recognition Systems with Discrete Speech Representations](https://arxiv.org/abs/2407.03495)
+
+[lucidrains/vector-quantize-pytorch](https://github.com/lucidrains/vector-quantize-pytorch)
+
+[Reproducing Whisper-Style Training Using an Open-Source Toolkit and Publicly Available Data](https://arxiv.org/abs/2309.13876)
+
+[Multiple Consistency-guided Test-Time Adaptation for Contrastive Audio-Language Models with Unlabeled Audio](https://ieeexplore.ieee.org/document/10889886)
+
+[MambaInst: Lightweight State Space Model for Real-Time Instance Segmentation](https://ieeexplore.ieee.org/document/10888610)
+
+[nvidia/canary-1b-flash](https://huggingface.co/spaces/nvidia/canary-1b-flash)
+
+[spaces/nvidia/canary-1b-v2](https://huggingface.co/spaces/nvidia/canary-1b-v2)
+
+[NeMo/blob/main/docker/Dockerfile.speech](https://github.com/NVIDIA-NeMo/NeMo/blob/main/docker/Dockerfile.speech)
+
+[nvidia/nemo-megatron-t5-3B](https://huggingface.co/nvidia/nemo-megatron-t5-3B)
+
+[sparkfish/augraphy](https://github.com/sparkfish/augraphy) --- Augmentation pipeline for rendering synthetic paper printing, faxing, scanning and copy machine processes
+
+[bytedance/MegaTTS3](https://github.com/bytedance/MegaTTS3)
+
+[BiT S09E08](https://drive.google.com/file/d/1P-XBGhu3xUleeSWx0bRQPMPHuOGdEGyh/view)
+
