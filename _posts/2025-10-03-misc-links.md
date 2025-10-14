@@ -75,3 +75,9 @@ categories: [links]
 [dataset](https://huggingface.co/datasets/google/svq),
 [code](https://github.com/google-research/mseb)
 
+[A History of Large Language Models](https://gregorygundersen.com/blog/2025/10/01/large-language-models/)
+
+[neuphonic/neucodec](https://huggingface.co/neuphonic/neucodec),
+[code](https://github.com/neuphonic/neucodec),
+[space](https://huggingface.co/spaces/neuphonic/neutts-air)
+
