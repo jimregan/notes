@@ -397,12 +397,6 @@ https://www.teanglann.ie/en/fgb/br%C3%BAit%C3%ADn
 Tomáš Mikolov - Wikipedia
 https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Mikolov
 
-Unsupervised Translation Sense Clustering
-https://research.google/pubs/unsupervised-translation-sense-clustering/
-
-Pushdown automata in statistical machine translation
-https://research.google/pubs/pushdown-automata-in-statistical-machine-translation/
-
 Chapter3.pdf
 https://stanford.edu/~jlmcc/papers/PDP/Chapter3.pdf
 
@@ -430,23 +424,14 @@ https://www.youtube.com/watch?v=-ipFi2FhHq0&list=RD-ipFi2FhHq0&start_radio=1
 Season 20 Outtakes - Part 1 | Taskmaster - YouTube
 https://www.youtube.com/watch?v=XJy9Wvy9sJQ
 
-Inbox • Direct
-https://www.instagram.com/direct/t/117353749660233/
-
-While the perpetrators of Gaza’s genocide pose as its saviours, survivors return home – to a wasteland | Nesrine Malik | The Guardian
-https://www.theguardian.com/commentisfree/2025/oct/13/gaza-summit-sharm-el-sheikh-genocide-middle-east?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAadN0_OWudtQczLI70DPW1wZM4p5tzvzVube32PgTXc4z4MkGLqIBrszpB9ktg_aem_TEJhimO_IJ2t24pHLl6CHQ
-
-(3) Gaza ceasefire: all living Israeli hostages freed as Trump heads to Egypt for summit – latest updates
-https://www.theguardian.com/world/live/2025/oct/13/gaza-ceasefire-live-updates-israel-hostages-release-hamas-trump-middle-east?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAAaeOyXMa9cYgw9VRJ6mtjPIz9aKsrEVUkM6jNzq-wUpan-KkInYIRXlNmyBYVA_aem_72GBuRL6VRhO1xrN5XnNYw
+(1) Inbox • Direct
+https://www.instagram.com/direct/t/110437113687820/
 
 Getting timestamps on long audio | notes
 https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
 
-byt5 g2p - Google Search
-https://www.google.com/search?q=byt5+g2p&rlz=1C5GCCM_en&oq=byt5+g2p&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBTIKCAQQABiABBiiBDIKCAUQABiABBiiBNIBCDIwMTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-[2204.03067] ByT5 model for massively multilingual grapheme-to-phoneme conversion
-https://arxiv.org/abs/2204.03067
+2204.03067
+https://arxiv.org/pdf/2204.03067
 
 Grapheme-to-Phoneme Models — NVIDIA NeMo Framework User Guide
 https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/tts/g2p.html
@@ -473,28 +458,10 @@ spring-media/DeepPhonemizer: Grapheme to phoneme conversion with deep learning.
 https://github.com/spring-media/DeepPhonemizer?tab=readme-ov-file
 
 Training_Example.ipynb - Colab
+https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb
+
+Training_Example.ipynb - Colab
 https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb#scrollTo=Xt85fzFneDno
-
-GPU warming tasks
-https://chatgpt.com/c/68ecf29d-e3e0-8325-a47c-0394c24da0e4
-
-Conda | Anaconda.org
-https://anaconda.org/anaconda/conda
-
-Anaconda.org
-https://anaconda.org/
-
-Installing on Linux — conda 25.9.1.dev15 documentation
-https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent
-
-Miniconda - Anaconda
-https://www.anaconda.com/docs/getting-started/miniconda/main#is-miniconda-free-for-me
-
-Sign Up | Anaconda: Data Science and Python Tools
-https://auth.anaconda.com/ui/registration/bc92988d-a6b7-40f8-a9e7-059043f53c88
-
-Index of /miniconda
-https://repo.anaconda.com/miniconda/
 
 CharsiuG2P/README.md at main · lingjzhu/CharsiuG2P
 https://github.com/lingjzhu/CharsiuG2P/blob/main/README.md#pretrained-models
@@ -508,8 +475,8 @@ https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
 2204.03067
 https://arxiv.org/pdf/2204.03067
 
-Model pretraining comparison
-https://chatgpt.com/c/68ed0b7d-ed34-832a-9584-f79100b76639
+SSML language switching example
+https://chatgpt.com/c/68ed49db-4bdc-8332-9d88-a865bd14b077
 
 google/byt5-small · Hugging Face
 https://huggingface.co/google/byt5-small
@@ -523,7 +490,163 @@ https://www.isca-archive.org/interspeech_2022/zhu22_interspeech.html#
 openai/whisper-large-v3 · Hugging Face
 https://huggingface.co/openai/whisper-large-v3
 
-wilicc/gpu-burn: Multi-GPU CUDA stress test
-https://github.com/wilicc/gpu-burn
+Speech Synthesis Markup Language (SSML) Version 1.1
+https://www.w3.org/TR/speech-synthesis11/#edef_word
+
+GNU Terry Pratchett: Eine Hommage für Eingeweihte an den Scheibenwelt-Erfinder - Golem.de
+https://www.golem.de/news/gnu-terry-pratchett-eine-hommage-fuer-eingeweihte-an-den-scheibenwelt-erfinder-2308-176188.html
+
+GNU Terry Pratchett
+http://www.gnuterrypratchett.com/#rfc
+
+clacks-protocol/middle.mkd at master · clacks-overhead/clacks-protocol
+https://github.com/clacks-overhead/clacks-protocol/blob/master/middle.mkd
+
+potatischips - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/potatischips#Swedish
+
+potatischips | SAOL | svenska.se
+https://svenska.se/saol/?sok=potatischips
+
+Citing SSML standard
+https://chatgpt.com/c/68ed569f-2128-8328-a920-f1754618d832
+
+Speech Synthesis Markup Language (SSML) Version 1.1
+https://www.w3.org/TR/speech-synthesis11/#S3.1.2
+
+Speech Synthesis Markup Language (SSML) Version 1.1
+https://www.w3.org/TR/speech-synthesis/
+
+gioele/w3c-bibtex: BibTeX citation generator for W3C documents
+https://github.com/gioele/w3c-bibtex
+
+Speech Synthesis Markup Language (SSML) Version 1.1
+https://www.w3.org/TR/speech-synthesis11/
+
+Speech Synthesis Markup Language (SSML) w3c - Google Scholar
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Speech+Synthesis+Markup+Language+%28SSML%29+w3c&btnG=
+
+SSML: A speech synthesis markup language - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0167639396000684
+
+A markup language for text-to-speech synthesis.
+https://era.ed.ac.uk/handle/1842/1233
+
+New tab
+chrome://newtab/
+
+CharsiuG2P/dicts/pol.tsv at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/dicts/pol.tsv
+
+aalborg - Słownik SJP
+https://sjp.pl/aalborg
+
+Template:IPAc-en - Wikipedia
+https://en.wikipedia.org/wiki/Template:IPAc-en
+
+Template:Respell - Wikipedia
+https://en.wikipedia.org/wiki/Template:Respell
+
+Páginas que enlazan con «Plantilla:AFIc-en» - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/w/index.php?title=Especial:LoQueEnlazaAqu%C3%AD/Plantilla:AFIc-en&limit=500
+
+Swanwick - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Swanwick
+
+Eugene Volokh - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Eugene_Volokh
+
+Mary Skrenes - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Mary_Skrenes
+
+Mary Skrenes - Wikipedia
+https://en.wikipedia.org/wiki/Mary_Skrenes
+
+„Ruislip (London Underground)“ – Bearbeiten – Wikipedia
+https://de.wikipedia.org/w/index.php?title=Ruislip_(London_Underground)&veaction=edit
+
+Liste der IPA-Zeichen – Wikipedia
+https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen#%C9%95
+
+Чамли, Хью, 1-й граф Чамли — Википедия
+https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BC%D0%BB%D0%B8,_%D0%A5%D1%8C%D1%8E,_1-%D0%B9_%D0%B3%D1%80%D0%B0%D1%84_%D0%A7%D0%B0%D0%BC%D0%BB%D0%B8
+
+cmu sphinx voices - Google Search
+https://www.google.com/search?q=cmu+sphinx+voices&rlz=1C5GCCM_en&oq=cmu+sphinx+voices&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc4MDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+CMUSphinx Open Source Speech Recognition
+https://cmusphinx.github.io/
+
+cmusphinx/pocketsphinx: A small speech recognizer
+https://github.com/cmusphinx/pocketsphinx
+
+CMU Sphinx - Browse /Acoustic and Language Models at SourceForge.net
+https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/
+
+CMU Sphinx download | SourceForge.net
+https://sourceforge.net/projects/cmusphinx/
+
+Aalborg - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Aalborg
+
+diccionario fonetico para pueblos - Google Search
+https://www.google.com/search?q=diccionario+fonetico+para+pueblos&sca_esv=76b1d1510d0b1bcc&rlz=1C5GCCM_en&sxsrf=AE3TifNoVosl5oYt4HGLg0D0YYOeRvrtFA%3A1760443237021&ei=ZTvuaJSJAcrMwPAPw5nOiAE&ved=0ahUKEwjUz6iO0qOQAxVKJhAIHcOMExEQ4dUDCBA&uact=5&oq=diccionario+fonetico+para+pueblos&gs_lp=Egxnd3Mtd2l6LXNlcnAiIWRpY2Npb25hcmlvIGZvbmV0aWNvIHBhcmEgcHVlYmxvczIFECEYoAEyBRAhGKABSL9hUPweWIhecAN4AZABAJgBlwGgAbgHqgEDMi42uAEDyAEA-AEBmAILoALYB8ICChAAGLADGNYEGEfCAgYQABgWGB7CAggQABgWGAoYHsICBxAhGKABGArCAgQQIRgVwgIEECEYCpgDAIgGAZAGCJIHAzQuN6AH5CayBwMxLje4B84HwgcEMS4xMMgHEA&sclient=gws-wiz-serp
+
+GLOSARIO DE FONÉTICA
+https://diarium.usal.es/joluin/files/2013/03/glosario.pdf
+
+Alfabeto Fonético Internacional para Hispanoparlantes | PDF | Vocal | Lengua española
+https://www.scribd.com/document/757045777/Alfabeto-Fonetico-Internacional-Para-Hispanoparlantes
+
+Spanish pronunciation resources
+https://chatgpt.com/c/68ee3ba6-c7d0-832c-bfab-19528d373ccc
+
+openslr.org
+https://www.openslr.org/resources.php
+
+openslr.org
+https://www.openslr.org/21/
+
+openslr.org
+https://www.openslr.org/34/
+
+Yamaha Guitars - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Yamaha_Guitars
+
+Zúrich - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Z%C3%BArich
+
+como se dice yamaha en español - Google Search
+https://www.google.com/search?q=como+se+dice+yamaha+en+espa%C3%B1ol&sca_esv=76b1d1510d0b1bcc&rlz=1C5GCCM_en&sxsrf=AE3TifMY8gvacfiRx3DXp8goy0r-vO_JmQ:1760445883470&ei=u0XuaPm8HNapwPAPqPG3sQ8&start=10&sa=N&sstk=Af77f_ecD5CFh7gcuAXUx-sbXHK0Y3S8WUthJq1Yt56ArmzFV1srYCR7nPBxjw-4XlVrLcHPBvHhFUFXe5EyHfhYAdWByP0wxVlDtw&ved=2ahUKEwi5hp_826OQAxXWFBAIHaj4LfYQ8NMDegQIDxAU&biw=1440&bih=717&dpr=2
+
+Pronunciación de Yamaha: Cómo pronunciar Yamaha en Inglés, Japonés, Español, Alemán, Vietnamita, Francés, Italiano, Danés, Portugués
+https://es.forvo.com/word/yamaha/
+
+Yamaha | 75 pronunciación de Yamaha en Español
+https://es.youglish.com/pronounce/yamaha/spanish
+
+palabras no espanolas y come se dicen - Google Search
+https://www.google.com/search?q=palabras+no+espanolas+y+come+se+dicen&rlz=1C5GCCM_en&oq=palabras+no+espanolas+y+come+se+dicen&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAjIHCAUQIRiPAtIBCTExMDYzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Yamaha - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Yamaha
+
+Yamaha — Wiktionnaire, le dictionnaire libre
+https://fr.wiktionary.org/wiki/Yamaha
+
+Yamaha — Wikipédia
+https://fr.wikipedia.org/wiki/Yamaha
+
+Respelling foreign names
+https://chatgpt.com/c/68ee478e-93a0-8326-b16f-c6726155cdbc
+
+Wikipedia:Transliteración y transcripción - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Wikipedia%3ATransliteraci%C3%B3n_y_transcripci%C3%B3n?utm_source=chatgpt.com
+
+Duda resuelta: pronunciación de extranjerismos - Castellano Actual Castellano Actual | Castellano Actual de la Universidad de Piura
+https://www.udep.edu.pe/castellanoactual/duda-resuelta-pronunciacion-de-extranjerismos/?utm_source=chatgpt.com
+
+YouTube
+https://www.youtube.com/
 
 
