@@ -71,3 +71,7 @@ categories: [links]
 
 [BiT S09E08](https://drive.google.com/file/d/1P-XBGhu3xUleeSWx0bRQPMPHuOGdEGyh/view)
 
+[Speech-to-Retrieval](https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/),
+[dataset](https://huggingface.co/datasets/google/svq),
+[code](https://github.com/google-research/mseb)
+
