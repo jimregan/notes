@@ -99,3 +99,24 @@ categories: [links]
 [Self-Supervised Contrastive Learning for Unsupervised Phoneme Segmentation](https://arxiv.org/abs/2007.13465),
 [code](https://github.com/felixkreuk/UnsupSeg)
 
+[Phi-4-multimodal-korean-finetuning](https://gist.github.com/seastar105/d1d8983b27611370528e3b194dcc5577)
+
+[The best open source OCR models](https://getomni.ai/blog/benchmarking-open-source-models-for-ocr)
+
+[Continuous Speech Tokenizer in Text To Speech](https://aclanthology.org/2025.findings-naacl.184/),
+[code](https://github.com/Yixing-Li/Continuous-Speech-Tokenizer)
+
+[Orpheus 3B](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Orpheus_%283B%29-TTS.ipynb)
+
+[DDT: Decoupled Diffusion Transformer](https://github.com/MCG-NJU/DDT)
+
+[SesameAILabs/csm](https://github.com/SesameAILabs/csm) --- A Conversational Speech Generation Model,
+[model](https://huggingface.co/sesame/csm-1b)
+
+[langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch)
+
+[Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+
+[Phoneme Segmentation Using Self-Supervised Speech Models](https://arxiv.org/abs/2211.01461),
+[code](https://github.com/lstrgar/self-supervised-phone-segmentation)
+
