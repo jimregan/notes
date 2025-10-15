@@ -86,4 +86,16 @@ categories: [links]
 
 [deepsearch-ai/deepsearch](https://github.com/deepsearch-ai/deepsearch) --- A multimodal RAG application that enables semantic search on multimedia sources like audio, video and images
 
+[Introduction to University Mathematics](https://courses.maths.ox.ac.uk/course/view.php?id=1051)
+
+[Conversational image segmentation with Gemini 2.5](https://developers.googleblog.com/en/conversational-image-segmentation-gemini-2-5/)
+
+[deepreinforce-ai/CRINN](https://github.com/deepreinforce-ai/CRINN)
+
+[Open Whisper-style Speech Models](https://www.wavlab.org/activities/2024/owsm/)
+
+[raminnakhli/GMM-HMM-from-scratch](https://github.com/raminnakhli/GMM-HMM-from-scratch)
+
+[Self-Supervised Contrastive Learning for Unsupervised Phoneme Segmentation](https://arxiv.org/abs/2007.13465),
+[code](https://github.com/felixkreuk/UnsupSeg)
 
