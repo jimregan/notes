@@ -154,3 +154,10 @@ categories: [links]
 [From the Forests](https://librivox.org/from-the-forests-by-henry-kendall/) --- LibriVox volunteers bring you 18 recordings of From the Forests by Henry Kendall.
 This was the Fortnightly Poetry project for March 29, 2020.
 
+[xbpeng/MimicKit](https://github.com/xbpeng/MimicKit) --- Suite of motion imitation methods for training motion controllers.
+
+[VoXtream: Full-Stream Text-to-Speech with Extremely Low Latency](https://arxiv.org/abs/2509.15969),
+[code](https://github.com/herimor/voxtream),
+[model](https://huggingface.co/herimor/voxtream),
+[space](https://huggingface.co/spaces/herimor/voxtream)
+
