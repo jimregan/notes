@@ -83,3 +83,7 @@ categories: [links]
 
 [HiFTNet: A Fast High-Quality Neural Vocoder with Harmonic-plus-Noise Filter and Inverse Short Time Fourier Transform](https://arxiv.org/abs/2309.09493),
 [code](https://github.com/yl4579/HiFTNet)
+
+[deepsearch-ai/deepsearch](https://github.com/deepsearch-ai/deepsearch) --- A multimodal RAG application that enables semantic search on multimedia sources like audio, video and images
+
+
