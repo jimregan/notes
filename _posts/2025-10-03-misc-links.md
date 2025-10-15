@@ -120,3 +120,20 @@ categories: [links]
 [Phoneme Segmentation Using Self-Supervised Speech Models](https://arxiv.org/abs/2211.01461),
 [code](https://github.com/lstrgar/self-supervised-phone-segmentation)
 
+[Never Mind the Buzzcocks](https://drive.google.com/drive/u/0/folders/1louZ55AJZ47QZ5ta50Oo2jhyZnBAGV34)
+
+[Audio Mamba: Selective State Spaces for Self-Supervised Audio Representations](https://www.isca-archive.org/interspeech_2024/yadav24_interspeech.html),
+[code](https://github.com/kaistmm/Audio-Mamba-AuM)
+
+[SoundChoice: Grapheme-to-Phoneme Models with Semantic Disambiguation](https://www.isca-archive.org/interspeech_2022/ploujnikov22_interspeech.html)
+
+[Theomat/sbsur](https://github.com/Theomat/sbsur) --- Stochastic Beam Search + Unique Randomizer
+
+[RF5/transfusion-asr](https://github.com/RF5/transfusion-asr) --- Transcribing Speech with Multinomial Diffusion, training code and models.
+
+[r/AudioBookBay](https://www.reddit.com/r/AudioBookBay/)
+
+> It has also been shown that adding pronunciation variants to the dictionary has a point of diminishing returns, as over-generated pronunciations can lead to ambiguity in the decoder and degrade its performance 
+
+[Adaptation techniques to improve ASR performance on accented speakers](https://www.lti.cs.cmu.edu/people/alumni/alumni-thesis/nallasamy-udhyakumar-thesis.pdf)
+
