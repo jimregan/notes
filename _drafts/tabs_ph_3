@@ -19,7 +19,7 @@ https://huggingface.co/kyutai/moshika-pytorch-bf16
 kyutai-labs/moshi: Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.
 https://github.com/kyutai-labs/moshi
 
-A Guide to Fine-Tuning CLIP Models with Custom Data | by Shashank Vats | 𝐀𝐈 𝐦𝐨𝐧𝐤𝐬.��𝐨 | Medium
+A Guide to Fine-Tuning CLIP Models with Custom Data | by Shashank Vats | 𝐀𝐈 𝐦𝐨𝐧𝐤𝐬.𝐢𝐨 | Medium
 https://medium.com/aimonks/a-guide-to-fine-tuning-clip-models-with-custom-data-6c7c0d1416fb
 
 language-resources/festus/best-labeling.cc at master · google/language-resources
@@ -154,18 +154,6 @@ https://huggingface.co/facebook/PE-Core-L14-336
 stable-audio-tools/train.py at main · Stability-AI/stable-audio-tools
 https://github.com/Stability-AI/stable-audio-tools/blob/main/train.py
 
-Fine-tune an image model - Replicate docs
-https://replicate.com/docs/get-started/fine-tune-with-flux
-
-Run FLUX with an API – Replicate blog
-https://replicate.com/blog/flux-state-of-the-art-image-generation
-
-FLUX.1 [schnell] Fast Text-to-Image generation via API | Replicate
-https://replicate.com/black-forest-labs/flux-schnell
-
-ByteDance-Seed/BAGEL-7B-MoT · Hugging Face
-https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT
-
 leetcode-company-wise-problems/Meta/4. More Than Six Months.csv at main · liquidslr/leetcode-company-wise-problems
 https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Meta/4.%20More%20Than%20Six%20Months.csv
 
@@ -199,95 +187,17 @@ https://link.springer.com/journal/10579/volumes-and-issues/59-2
 Atcold/Energy-Book: Deep Learning, an Energy Approach
 https://github.com/Atcold/Energy-Book
 
-OmniGen2/OmniGen2 · Hugging Face
-https://huggingface.co/OmniGen2/OmniGen2
-
-VectorSpaceLab/OmniGen2: OmniGen2: Exploration to Advanced Multimodal Generation.
-https://github.com/VectorSpaceLab/OmniGen2
-
-Build | GrapheneOS
-https://grapheneos.org/build
-
-grapheneos.org/features
-https://grapheneos.org/features
-
-Usage guide | GrapheneOS
-https://grapheneos.org/usage#grapheneos-camera-app
-
-GrapheneOS repositories · GitHub
-https://github.com/orgs/GrapheneOS/repositories?type=all&page=2
-
-GitHub - GrapheneOS/hardened_malloc: Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms. It will gain more portability / integration over time.
-https://github.com/GrapheneOS/hardened_malloc
-
-Playing with binary formats
-https://www.linux.it/~rubini/docs/binfmt/binfmt.html
-
-Unmute
-https://kyutai.org/next/unmute
-
 Kyutai STT
 https://kyutai.org/next/stt
-
-kyutai/stt-1b-en_fr-trfs · Hugging Face
-https://huggingface.co/kyutai/stt-1b-en_fr-trfs
-
-kyutai-labs/delayed-streams-modeling: Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
-https://github.com/kyutai-labs/delayed-streams-modeling/
-
-Kyutai TTS
-https://kyutai.org/next/tts
-
-kyutai/tts-1.6b-en_fr · Hugging Face
-https://huggingface.co/kyutai/tts-1.6b-en_fr
-
-kyutai/tts-voices · Hugging Face
-https://huggingface.co/kyutai/tts-voices
-
-kyutai/mimi · Hugging Face
-https://huggingface.co/kyutai/mimi
-
-moshi.chat
-https://moshi.chat/
-
-The State of Freedom Around the World in 2025
-https://www.visualcapitalist.com/the-state-of-freedom-around-the-world-in-2025/
-
-The State of Freedom Around the World 🕊️ - Voronoi
-https://www.voronoiapp.com/society/The-State-of-Freedom-Around-the-World--5504
 
 PaddlePaddle/ERNIE: The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.
 https://github.com/PaddlePaddle/ERNIE
 
-baidu (BAIDU)
-https://huggingface.co/baidu
-
-baidu/ERNIE-4.5-300B-A47B-Base-PT · Hugging Face
-https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Base-PT
-
-Qwen/Qwen2.5-Coder-7B · Hugging Face
-https://huggingface.co/Qwen/Qwen2.5-Coder-7B
-
-Pull requests · espnet/espnet
-https://github.com/espnet/espnet/pulls?page=2&q=is%3Apr+is%3Aopen
-
-Add recipe for Qwen2-Audio-7B-Chat on Dynamic-SUPERB ASR task by cyhuang-tw · Pull Request #6194 · espnet/espnet
-https://github.com/espnet/espnet/pull/6194
-
-Add Harvest algorithm as an option for F0 extraction by f-matano44 · Pull Request #6083 · espnet/espnet
-https://github.com/espnet/espnet/pull/6083
-
 Create a ESPnet bootcamp recipe for proyecto-nahuatl-asr by jialuli3 · Pull Request #6066 · espnet/espnet
-https://github.com/espnet/espnet/pull/6066/files#diff-7fdff7c890843a0345b5375c8687c9a75b2fb8c2cef35055e57ab4bacb8fa5e5
-
-Audioverse, BEATs pre-training and Dasheng audio encoder by Shikhar-S · Pull Request #6052 · espnet/espnet
-https://github.com/espnet/espnet/pull/6052
+https://github.com/espnet/espnet/pull/6066
 
 Discrete TTS with Monotonic attention search via VAE by ftshijt · Pull Request #5795 · espnet/espnet
 https://github.com/espnet/espnet/pull/5795
-
-espnet/espnet: End-to-End Speech Processing Toolkit
-https://github.com/espnet/espnet
 
 Adding vanilla EEND recipe for AMI with multi speaker synthetic data simulation included. by popcornell · Pull Request #6138 · espnet/espnet
 https://github.com/espnet/espnet/pull/6138
@@ -588,5 +498,4 @@ https://github.com/xingchensong/S3Tokenizer
 
 Current things, 14 June 2025 - Time alignment with HuBERT
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/68bdb58a-e9d8-8330-8731-0d2ceae40f13
-
 
