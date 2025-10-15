@@ -137,3 +137,20 @@ categories: [links]
 
 [Adaptation techniques to improve ASR performance on accented speakers](https://www.lti.cs.cmu.edu/people/alumni/alumni-thesis/nallasamy-udhyakumar-thesis.pdf)
 
+[CVSS Corpus and Massively Multilingual Speech-to-Speech Translation](https://arxiv.org/abs/2201.03713)
+
+[google-research-datasets/cvss](https://github.com/google-research-datasets/cvss) --- CVSS: A Massively Multilingual Speech-to-Speech Translation Corpus
+
+[Cymru-Breizh-Agile-Cymru-Project/vosk-cymraeg](https://github.com/Cymru-Breizh-Agile-Cymru-Project/vosk-cymraeg)
+
+[From Weak Labels to Strong Results: Utilizing 5,000 Hours of Noisy Classroom Transcripts with Minimal Accurate Data](https://arxiv.org/abs/2505.17088)
+
+[Flow Matching Guide and Code](https://arxiv.org/abs/2412.06264)
+
+[PnG BERT: Augmented BERT on Phonemes and Graphemes for Neural TTS](https://arxiv.org/abs/2103.15060)
+
+[Distilling an End-to-End Voice Assistant Without Instruction Training Data](https://arxiv.org/abs/2410.02678)
+
+[From the Forests](https://librivox.org/from-the-forests-by-henry-kendall/) --- LibriVox volunteers bring you 18 recordings of From the Forests by Henry Kendall.
+This was the Fortnightly Poetry project for March 29, 2020.
+
