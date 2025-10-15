@@ -81,3 +81,5 @@ categories: [links]
 [code](https://github.com/neuphonic/neucodec),
 [space](https://huggingface.co/spaces/neuphonic/neutts-air)
 
+[HiFTNet: A Fast High-Quality Neural Vocoder with Harmonic-plus-Noise Filter and Inverse Short Time Fourier Transform](https://arxiv.org/abs/2309.09493),
+[code](https://github.com/yl4579/HiFTNet)
