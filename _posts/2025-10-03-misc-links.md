@@ -161,3 +161,28 @@ This was the Fortnightly Poetry project for March 29, 2020.
 [model](https://huggingface.co/herimor/voxtream),
 [space](https://huggingface.co/spaces/herimor/voxtream)
 
+[Vyvo/VyvoTTS-v0-Qwen3-0.6B](https://huggingface.co/Vyvo/VyvoTTS-v0-Qwen3-0.6B)
+
+[Special issue on finite-state methods in natural language processing and mathematics of language](https://jlm.ipipan.waw.pl/index.php/JLM/issue/view/21)
+
+[nv-tlabs/vipe](https://github.com/nv-tlabs/vipe) --- ViPE: Video Pose Engine for Geometric 3D Perception
+
+[A First Course on Data Structures in Python](https://donsheehy.github.io/datastructures/fullbook.pdf)
+
+[newton-physics/newton](https://github.com/newton-physics/newton) --- An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.
+
+[Korpus Dawnych Polskich Tekstów Dramatycznych](https://korteda.clarin-pl.eu/)
+
+[H2IOSC](https://www.h2iosc.cnr.it/)
+
+[SLA: Beyond Sparsity in Diffusion Transformers via Fine-Tunable Sparse-Linear Attention](https://arxiv.org/abs/2509.24006),
+[code](https://github.com/thu-ml/SLA) (empty)
+
+[Spoken corpora of parliamentary debates ParlaSpeech 3.0](https://www.clarin.si/repository/xmlui/handle/11356/1833)
+
+[vosen/ZLUDA](https://github.com/vosen/ZLUDA) --- CUDA on non-NVIDIA GPUs
+
+[MCG-NJU/MotionRAG](https://github.com/MCG-NJU/MotionRAG) --- [NeurIPS 2025] MotionRAG: Motion Retrieval-Augmented Image-to-Video Generation
+
+[SMM2026](https://smm26.iiit.ac.in/callForPaper.html)
+
