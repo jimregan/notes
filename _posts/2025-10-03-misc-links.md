@@ -186,3 +186,12 @@ This was the Fortnightly Poetry project for March 29, 2020.
 
 [SMM2026](https://smm26.iiit.ac.in/callForPaper.html)
 
+[SvarDOS/edrdos](https://github.com/SvarDOS/edrdos)
+
+[SvarDOS - an open-source DOS distribution](http://svardos.org/)
+
+[Continual-Intelligence/SEAL](https://github.com/Continual-Intelligence/SEAL) --- Self-Adapting Language Models
+
+[bytetriper/RAE](https://github.com/bytetriper/RAE) --- Official PyTorch Implementation of "Diffusion Transformers with Representation Autoencoders"
+
+
