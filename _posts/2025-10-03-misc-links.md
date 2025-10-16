@@ -192,6 +192,9 @@ This was the Fortnightly Poetry project for March 29, 2020.
 
 [Continual-Intelligence/SEAL](https://github.com/Continual-Intelligence/SEAL) --- Self-Adapting Language Models
 
-[bytetriper/RAE](https://github.com/bytetriper/RAE) --- Official PyTorch Implementation of "Diffusion Transformers with Representation Autoencoders"
+[Diffusion Transformers with Representation Autoencoders](https://arxiv.org/abs/2510.11690),
+[code](https://github.com/bytetriper/RAE)
+
+[yukara-ikemiya/Open-Miipher-2](https://github.com/yukara-ikemiya/Open-Miipher-2) --- PyTorch implementation of Miipher-2 [2025] which is a speech restoration model by Google DeepMind
 
 
