@@ -197,4 +197,9 @@ This was the Fortnightly Poetry project for March 29, 2020.
 
 [yukara-ikemiya/Open-Miipher-2](https://github.com/yukara-ikemiya/Open-Miipher-2) --- PyTorch implementation of Miipher-2 [2025] which is a speech restoration model by Google DeepMind
 
+[DeCodec: Rethinking Audio Codecs as Universal Disentangled Representation Learners](https://arxiv.org/abs/2509.09201)
+
+[MiMo Audio](https://xiaomimimo.github.io/MiMo-Audio-Demo/),
+[code](https://github.com/XiaomiMiMo/MiMo-Audio),
+[report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
 
