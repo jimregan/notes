@@ -203,3 +203,5 @@ This was the Fortnightly Poetry project for March 29, 2020.
 [code](https://github.com/XiaomiMiMo/MiMo-Audio),
 [report](https://github.com/XiaomiMiMo/MiMo-Audio/blob/main/MiMo-Audio-Technical-Report.pdf)
 
+[Latent Diffusion Model without Variational Autoencoder](https://arxiv.org/abs/2510.15301)
+
