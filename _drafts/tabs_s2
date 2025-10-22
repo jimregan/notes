@@ -88,8 +88,8 @@ https://www.instagram.com/
 www.bbc.co.uk
 https://www.bbc.co.uk/news/articles/clyz3vv62pgo?fbclid=PAZXh0bgNhZW0CMTEAAadplMslmEae_SBgT2wUJAQ0krMv-PZroldj5mSnBGiYigLhL6flxWpYjZoihA_aem_Oz1-LwfCAvDicVqXay8DFA
 
-www.bbc.co.uk
-https://www.bbc.co.uk/news/articles/cgr42dw57ljo?fbclid=PAZXh0bgNhZW0CMTEAAacJVMirouKIGuRkYPDnas9rod-KPtbh4voa9zvYjyW8UonRrWMgL8eEIwbsMA_aem_SJK8JvPiC0oWgkcBfUG7Gw
+Dublin: Violence outside Citywest migrant hotel orchestrated online, Irish police say
+https://www.bbc.com/news/articles/cgr42dw57ljo?fbclid=PAZXh0bgNhZW0CMTEAAacJVMirouKIGuRkYPDnas9rod-KPtbh4voa9zvYjyW8UonRrWMgL8eEIwbsMA_aem_SJK8JvPiC0oWgkcBfUG7Gw
 
 Getting timestamps on long audio | notes
 https://jimregan.github.io/notes/long%20audio/wav2vec2/huggingface/timestamps/2022/03/08/getting-timestamps-on-long-audio-with-wav2vec2-and-huggingface.html
@@ -214,6 +214,24 @@ https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-40/
 (19) Feed | LinkedIn
 https://www.linkedin.com/feed/
 
+Supercharge your OCR Pipelines with Open Models
+https://huggingface.co/blog/ocr-open-models
+
+Sentence Transformers is joining Hugging Face!
+https://huggingface.co/blog/sentence-transformers-joins-hf
+
+TGuichoux/Gelina: Official implementation of Gelina
+https://github.com/TGuichoux/Gelina/tree/main?tab=readme-ov-file
+
+GELINA Demo
+https://anon24916-lgtm.github.io/
+
+Shared Task: Mozilla Common Voice Spontaneous Speech ASR
+https://community.mozilladatacollective.com/shared-task-mozilla-common-voice-spontaneous-speech-asr/
+
+FAQ: Why can't I re-host or share Common Voice datasets that I download from MDC?
+https://community.mozilladatacollective.com/faq-why-cant-i-re-host-or-share-common-voice-datasets-that-i-download-from-mdc/
+
 HPLT - High Performance Language Technologies
 https://hplt-project.org/datasets/v3.0
 
@@ -334,15 +352,6 @@ https://chatgpt.com/c/68f7a3b8-6d90-8330-90fd-5a20f4f66cdc
 wooorm/dictionaries: Hunspell dictionaries in UTF-8
 https://github.com/wooorm/dictionaries?tab=readme-ov-file
 
-github.com
-https://github.com/wooorm/nspell
-
-wooorm/dictionaries: Hunspell dictionaries in UTF-8
-https://github.com/wooorm/dictionaries/tree/main
-
-Aaa - Google Drive
-https://drive.google.com/drive/u/0/folders/1eG1L_Dsx29Jix0oytsk-J1s80nmkW_U9
-
 Hungarian/Vocabulary - Wikibooks, open books for an open world
 https://en.wikibooks.org/wiki/Hungarian/Vocabulary
 
@@ -354,4 +363,19 @@ https://anaconda.org/conda-forge/hunspell
 
 New tab
 chrome://newtab/
+
+Hungarian phonology - Wikipedia
+https://en.wikipedia.org/wiki/Hungarian_phonology
+
+Pyhunspell | Anaconda.org
+https://anaconda.org/conda-forge/pyhunspell
+
+pyhunspell/pyhunspell: (Official repo for pypi package) Python bindings for the Hunspell spellchecker engine
+https://github.com/pyhunspell/pyhunspell
+
+conda-forge/pyhunspell-feedstock: A conda-smithy repository for pyhunspell.
+https://github.com/conda-forge/pyhunspell-feedstock
+
+Conda package update fix
+https://chatgpt.com/c/68f8f9b3-e49c-8330-b58d-39e205d7eb56
 
