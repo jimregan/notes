@@ -1,3 +1,12 @@
+---
+toc: true
+layout: post
+description: ChatGPT generated code to keep the office warm
+title: GPU heater
+categories: [heating, gpu, chatgpt]
+---
+
+```python
 # heater_max.py — multi-stream tensor-core heater
 import os, torch
 
@@ -33,3 +42,4 @@ while True:
             for _ in range(REPS - 1):
                 c = c @ b  # chain matmuls to keep units loaded
     torch.cuda.synchronize()
+```
