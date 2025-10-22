@@ -825,6 +825,7 @@
 # sent_id = 46
 # text = D’ól Áindrías deoch ⁊ d’iarr sé na préataí ⁊ an t‑arán do thabhairt leóbhtha as an chasán, go bhfaghadh sé a chuid do dheánamh.
 # text_standard = D'ól Áindrías deoch agus d'iarr sé na prátaí agus an t-arán a thabhairt leo as an chosán, go bhfaigheadh sé a chuid a dhéanamh.
+# text_modern = D'ól Áindrías deoch agus d'iarr sé na préataí agus an t-arán a thabhairt leofa as an chosán, go bhfaigheadh sé a chuid a dheánamh.
 # text_phonetic = dɔ:l α:nṟαs d′ɔχ αgəs d′iərsə Nə p′r′ɛəti: αgəs α tαrαn ho:rt(′) l′ɔ:fə əs ə χαsαn, gə wα:t′ ʃə ə χyd′ ə jα:nuw.
 1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
 2	ól	ól	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
@@ -857,7 +858,7 @@
 
 # sent_id = 47
 # text = Rug sé air fhód de’n im ann a dhorn.
-# text_standard = Rug sé air fhód den im ann a dhorn.
+# text_standard = Rug sé air fhód den im ina dhorn.
 # text_phonetic = ro̤g ʃə er′ ɔ:d də N′ïm′ əNα ꬶɔrN.
 1	Rug	beir	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
@@ -907,6 +908,7 @@
 # sent_id = 51
 # text = Dhóirt cuid de’n im anuas fríd an fhéasóig mhóir.
 # text_standard = Dhoirt cuid den im anuas tríd an fhéasóg mhóir .
+# text_modern = Dhoirt cuid den im anuas fríd an fhéasóg mhóir .
 # text_phonetic = ꬶɔ:rt′ ko̤d də N′ïm′ əNuəs f′r′i:d′ ə N′ɛəsɔg′ wo:r′.
 1	Dhoirt	doirt	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	cuid	cuid	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
