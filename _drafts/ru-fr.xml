@@ -2,154 +2,105 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
   <transforms>
-    <transform
-      source="ru"
-      target="ru_Latn"
-      variant="FR"
-      direction="forward"
-      draft="unconfirmed"
-      alias="Russian-Latin/FR ru-Latn-t-ru-m0-fr">
+    <transform source="ru" target="ru_Latn" variant="FR" direction="forward">
       <tRule><![CDATA[
 ::NFC;
-
-# ===== Vars (aligned with your Swedish file) =====
 $wordBoundary = [^[:L:][:M:][:N:]];
 $upperVowels  = [АЕЁЭИОУЫЮЯ];
 $lowerVowels  = [аеёэиоуыюя];
 $vowels       = [$upperVowels $lowerVowels];
 $upper        = [:Uppercase:];
 $lower        = [:Lowercase:];
-$ZSTC         = [ЗзСсТтЦц];
 $CHSH         = [ЧчШшЩщЖж];
 $IJ           = [ИиЙй];
-$Front        = [ЕеИиЫыЭэ];
-$FrontUpper   = [ЕИЫЭ];
-$FrontLower   = [еиыэ];
-
-# Allow left Latin vowels created earlier in the pass (for ïe/ïa logic)
 $latinVowels  = [AEIOUYÄËÏÖÜŸaeiouyäëïöüÿ];
 $latIJ        = [Ïï];
 $latI         = [Ii];
 
-# ===== G → gu before front vowels (Wikipedia row for Г) =====
-Г } $FrontLower → Gu;
-Г } $FrontUpper → GU;
-г } $FrontLower → gu;
-г } $FrontUpper → gu;
+Г } [ЕеИиЫы] → Gu;
+г } [ЕеИиЫы] → gu;
 
-# ===== E (Wikipedia rows for Е) =====
-# word-initial default (keep “Eltsine” as a convention outside tests)
 $wordBoundary { Е } $lower    → Ie;
 $wordBoundary { Е } [^$lower] → IE;
 $wordBoundary { е }           → ie;
-
-# after consonant (not vowel): e/E
 [$upper-$upperVowels] { Е } → E;
 [$lower-$lowerVowels] { е } → e;
-
-# after И/Й or Latin i/I/Ï/ï: e/E
 [ $IJ $latI $latIJ ] { Е } → E;
 [ $IJ $latI $latIJ ] { е } → e;
-
-# after ь/ъ: ie/IE
 Ь { Е } $lower    → ie;
 Ь { Е } [^$lower] → IE;
 ь { е }           → ie;
 Ъ { Е } $lower    → ie;
 Ъ { Е } [^$lower] → IE;
 ъ { е }           → ie;
-
-# block ïe immediately after Gu/gu (Gueorgui)
 Gu { Е } → e;
 Gu { е } → e;
 GU { Е } → E;
 GU { е } → E;
 gu { Е } → e;
 gu { е } → e;
-
-# after vowel (Cyr/Latin, excluding И/Й/Ï/ï): ïe / ÏE
 [ ($vowels-$IJ) | ($latinVowels-$latIJ) ] { Е } $lower    → ïe;
 [ ($vowels-$IJ) | ($latinVowels-$latIJ) ] { Е } [^$lower] → ÏE;
 [ ($vowels-$IJ) | ($latinVowels-$latIJ) ] { е }           → ïe;
 
-# ===== YO (Ё): default io; after sibilants → e (convention admise) =====
 $CHSH { Ё } → e;
 $CHSH { ё } → e;
 Ё } $lower    → io;
 Ё } [^$lower] → IO;
 ё             → io;
 
-# ===== I (И): after vowel (≠ И) → ï / Ï =====
 [$vowels-[Ии]] { И } → Ï;
 [$vowels-[Ии]] { и } → ï;
 
-# ===== JOT (Й): finals + clusters, case-aware =====
-# drop Й in …иев / …ьев
 [ИиЬь] { Й } [Ее] → ;
-# finals -ий/-ый (all-caps too)
 ий $ → i;
 Ий $ → i;
 ИЙ $ → I;
 ый $ → y;
 Ый $ → y;
 ЫЙ $ → Y;
-# Й + Я → ïa/ÏA (prevents Maïia)
 Й { Я } $lower    → ïa;
 Й { Я } [^$lower] → ÏA;
 й { я }           → ïa;
-# elsewhere → ï/Ï
 Й → Ï;
 й → ï;
 
-# ===== YU (Ю): per table =====
-# after И/Й → ou/OU
 $IJ { Ю } $lower    → ou;
 $IJ { Ю } [^$lower] → OU;
 $IJ { ю }           → ou;
-# after other vowel: front (ЕЭИЯЮ) → ïou, back (АОУЫ) → you
 [ЕЭИЯЮеэияю] { Ю } $lower    → ïou;
 [ЕЭИЯЮеэияю] { Ю } [^$lower] → ÏOU;
 [ЕЭИЯЮеэияю] { ю }           → ïou;
 [АОУЫаоуы]   { Ю } $lower    → you;
 [АОУЫаоуы]   { Ю } [^$lower] → YOU;
 [АОУЫаоуы]   { ю }           → you;
-# else (initial/after consonant): iou / IOU (Titlecase!)
 Ю } $lower    → Iou;
 Ю } [^$lower] → IOU;
 ю             → iou;
 
-# ===== YA (Я): per table =====
-# after И/Й → a/A
 $IJ { Я } $lower    → a;
 $IJ { Я } [^$lower] → A;
 $IJ { я }           → a;
-# after other vowel → ïa/ÏA
 [$vowels-$IJ] { Я } $lower    → ïa;
 [$vowels-$IJ] { Я } [^$lower] → ÏA;
 [$vowels-$IJ] { я }           → ïa;
-# initial default (we do NOT enforce “Ya” convention; use Ia/IA)
 $wordBoundary { Я } $lower    → Ia;
 $wordBoundary { Я } [^$lower] → IA;
 $wordBoundary { я }           → ia;
-# else after consonant → ia/IA
 Я } $lower    → ia;
 Я } [^$lower] → IA;
 я             → ia;
 
-# ===== Intervocalic С/с, case-aware =====
 $vowels { С } [$lowerVowels] → Ss;
 $vowels { С }  $upperVowels  → SS;
 $vowels { с }  $vowels       → ss;
 
-# ===== Finals -ин/-ын → -ine/-yne (lowercase endings only) =====
 [иы] { н } $            → ne;
 [иы] { н } $wordBoundary → ne;
 
-# ===== Finals -ев → -iev =====
 ЕВ $ → iev;
 ев $ → iev;
 
-# ===== Base letters & digraphs, with titlecasing by right context =====
 А → A;  а → a;
 Б → B;  б → b;
 В → V;  в → v;
@@ -168,31 +119,25 @@ $vowels { с }  $vowels       → ss;
 Р → R;  р → r;
 С → S;  с → s;
 Т → T;  т → t;
-
+Ф → F;  ф → f;
 У } $lower    → Ou;
 У } [^$lower] → OU;
 у             → ou;
-
 Х } $lower    → Kh;
 Х } [^$lower] → KH;
 х             → kh;
-
 Ц } $lower    → Ts;
 Ц } [^$lower] → TS;
 ц             → ts;
-
 Ч } $lower    → Tch;
 Ч } [^$lower] → TCH;
 ч             → tch;
-
 Ш } $lower    → Ch;
 Ш } [^$lower] → CH;
 ш             → ch;
-
 Щ } $lower    → Chtch;
 Щ } [^$lower] → CHTCH;
 щ             → chtch;
-
 Ъ → ;
 ъ → ;
 Ы → y;  ы → y;
@@ -201,7 +146,6 @@ $vowels { с }  $vowels       → ss;
 Э } $lower → e;
 Э } [^$lower] → E;
 э → e;
-
 ::NFC;
       ]]></tRule>
     </transform>
