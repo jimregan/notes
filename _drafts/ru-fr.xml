@@ -12,9 +12,6 @@
       <tRule><![CDATA[
 ::NFC;
 
-# =========================
-# Variables
-# =========================
 $wordBoundary = [^[:L:][:M:][:N:]];
 $upperVowels  = [АЕЁЭИОУЫЮЯ];
 $lowerVowels  = [аеёэиоуыюя];
@@ -27,10 +24,6 @@ $IJ           = [ИиЙй];
 $Front        = [ЕеИиЫыЭэ];
 $FrontUpper   = [ЕИЫЭ];
 $FrontLower   = [еиыэ];
-
-# =========================
-# Core contextual rules (French Wikipedia)
-# =========================
 
 # --- Г: gu before e/i/ы; else g ---
 Г } $FrontLower → Gu;
@@ -139,9 +132,6 @@ $vowels { с } $vowels → ss;
 ЕВ $ → iev;
 ев $ → iev;
 
-# =========================
-# Simple letters and digraphs (with titlecasing)
-# =========================
 А → A;
 а → a;
 Б → B;
