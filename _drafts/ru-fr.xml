@@ -12,9 +12,6 @@
       <tRule><![CDATA[
 ::NFC;
 
-# =========================
-# Variables (aligned with your Swedish file)
-# =========================
 $wordBoundary = [^[:L:][:M:][:N:]];
 $upperVowels  = [АЕЁЭИОУЫЮЯ];
 $lowerVowels  = [аеёэиоуыюя];
@@ -28,36 +25,25 @@ $Front        = [ЕеИиЫыЭэ];
 $FrontUpper   = [ЕИЫЭ];
 $FrontLower   = [еиыэ];
 
-# Also treat Latin vowels when they appear after prior substitutions (for ïe/ïa logic)
 $latinVowels = [AEIOUYaeiouyÄËÏÖÜŸäëïöüÿ];
 $latIJ       = [Ïï];
 $latI        = [Ii];
 
-# =========================
-# Contextual rules (Wikipedia “Romanisation du russe”)
-# =========================
-
-# --- Г (g/gu) ---
 Г } $FrontLower → Gu;
 Г } $FrontUpper → GU;
 г } $FrontLower → gu;
 г } $FrontUpper → gu;
 
-# --- Е (e / ie / ïe) ---
-# 1) At word start: Ie/IE; lowercase е at start → ie
 $wordBoundary { Е } $lower    → Ie;
 $wordBoundary { Е } [^$lower] → IE;
 $wordBoundary { е }           → ie;
 
-# 2) After consonant (not a vowel): e/E
 [$upper-$upperVowels] { Е } → E;
 [$lower-$lowerVowels] { е } → e;
 
-# 3) After И/Й (or Latin i/I, Ï/ï): e/E (not ïe)
 [ $IJ $latI $latIJ ] { Е } → E;
 [ $IJ $latI $latIJ ] { е } → e;
 
-# 4) After ь/ъ: ie/IE (titlecased by right char)
 Ь { Е } $lower    → ie;
 Ь { Е } [^$lower] → IE;
 ь { е }           → ie;
@@ -65,8 +51,6 @@ $wordBoundary { е }           → ie;
 Ъ { Е } [^$lower] → IE;
 ъ { е }           → ie;
 
-# 5) After vowel (except И/Й and except Gu/gu): ïe/ÏE
-#    (Include Latin vowels on the left to capture pass-1 output, but exclude Gu…e)
 Gu { Е } → e;
 Gu { е } → e;
 GU { Е } → E;
@@ -78,81 +62,69 @@ gu { е } → e;
 [ ($vowels-$IJ) | ($latinVowels-$latIJ) ] { Е } [^$lower] → ÏE;
 [ ($vowels-$IJ) | ($latinVowels-$latIJ) ] { е }           → ïe;
 
-# --- Ё (io / e after sibilants) ---
 $CHSH { Ё } → e;
 $CHSH { ё } → e;
 Ё } $lower    → io;
 Ё } [^$lower] → IO;
 ё             → io;
 
-# --- И (ï after a vowel ≠ И) ---
 [$vowels-[Ии]] { И } → Ï;
 [$vowels-[Ии]] { и } → ï;
 
-# --- Й (ï; finals -ий/-ый simplified; drop in -иев/-ьев) ---
-# Drop й in …иев / …ьев before Е (Dmitriev / Prokofiev)
+
 [ИиЬь] { Й } [Ее] → ;
-# Finals
+
 ий $ → i;
 Ий $ → i;
 ый $ → y;
 Ый $ → y;
-# Elsewhere
+
 Й → Ï;
 й → ï;
 
-# --- Ю ---
-# After И/Й: ou/OU
+
 $IJ { Ю } $lower    → ou;
 $IJ { Ю } [^$lower] → OU;
 $IJ { ю }           → ou;
-# After other vowel:
-#   front vowels (ЕЭИЯЮ) → ïou/ÏOU
+
 [ЕЭИЯЮеэияю] { Ю } $lower    → ïou;
 [ЕЭИЯЮеэияю] { Ю } [^$lower] → ÏOU;
 [ЕЭИЯЮеэияю] { ю }           → ïou;
-#   back vowels (АОУЫ) → you/YOU
+
 [АОУЫаоуы] { Ю } $lower    → you;
 [АОУЫаоуы] { Ю } [^$lower] → YOU;
 [АОУЫаоуы] { ю }           → you;
-# Else: iou/IOU
+
 Ю } $lower    → iou;
 Ю } [^$lower] → IOU;
 ю             → iou;
 
-# --- Я ---
-# After И/Й: a/A
 $IJ { Я } $lower    → a;
 $IJ { Я } [^$lower] → A;
 $IJ { я }           → a;
-# After other vowel: ïa/ÏA
+
 [$vowels-$IJ] { Я } $lower    → ïa;
 [$vowels-$IJ] { Я } [^$lower] → ÏA;
 [$vowels-$IJ] { я }           → ïa;
-# Word-initial conventional form: Ya/YA
+
 $wordBoundary { Я } $lower    → Ya;
 $wordBoundary { Я } [^$lower] → YA;
 $wordBoundary { я }           → ya;
-# Else (after consonant): ia/IA
+
 Я } $lower    → ia;
 Я } [^$lower] → IA;
 я             → ia;
 
-# --- Intervocalic С → ss ---
-$vowels { С } $vowels → ss;
-$vowels { с } $vowels → ss;
+$vowels { С } $lowerVowels → Ss
+$vowels { С } [^$lower]    → SS
+$vowels { с } $vowels      → ss
 
-# --- Final -ин / -ын → -ine / -yne (lowercase-only endings) ---
 [иы] { н } $           → ne;
 [иы] { н } $wordBoundary → ne;
 
-# --- Final -ев → -iev (Tourgueniev, Prokofiev) ---
 ЕВ $ → iev;
 ев $ → iev;
 
-# =========================
-# Base letters and digraphs (with correct titlecasing)
-# =========================
 А → A;
 а → a;
 Б → B;
