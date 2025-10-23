@@ -1,124 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <supplementalData>
-  <version number="$Revision: 1 $"/>
+  <version number="$Revision: 4 $"/>
   <transforms>
     <transform source="ru" target="ru_Latn" variant="FR" direction="forward" alias="Russian-Latin/French ru-Latn-t-ru-m0-fr" draft="contributed">
       <tRule><![CDATA[
 ::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщ];
 ::NFC;
 $U = [:Uppercase:];
-$vU = [АЕЁОУЫЭЮЯИ];
-$vL = [аеёоуыэюяи];
+$vU = [АЕЁИОУЫЭЮЯ];
+$vL = [аеёиоуыэюя];
 $v  = [$vU $vL];
 $WB = [^[:L:][:M:][:N:]];
 
-{г}[ЕеИиЫы] > gu;
-{Г}[ЕеИиЫы] > Gu;
+А > A;
+а > a;
+Б > B;
+б > b;
+В > V;
+в > v;
 Г > G;
 г > g;
-
+Д > D;
+д > d;
 $WB{Е}$U > IE;
 $WB{Е} > Ie;
 $WB{е} > ie;
-
 [ЬьЪъ]{Е}$U > IE;
 [ЬьЪъ]{Е} > Ie;
 [ЬьЪъ]{е} > ie;
-
 [АаЕеЁёОоУуЫыЭэЮюЯя]{Е}$U > ÏE;
 [АаЕеЁёОоУуЫыЭэЮюЯя]{Е} > Ïe;
 [АаЕеЁёОоУуЫыЭэЮюЯя]{е} > ïe;
-
 Е > E;
 е > e;
-
+{Г}[ЕИЫ] > GU;
+{Г}[еиы] > Gu;
+{г}[ЕИЫ] > gu;
+{г}[еиы] > gu;
 {Ё}$U > IO;
 {Ё} > Io;
 {ё} > io;
-
 Ж > J;
 ж > j;
 З > Z;
 з > z;
-
+{ИЙ}$WB > I;
 {ий}$WB > i;
+{ЫЙ}$WB > Y;
 {ый}$WB > y;
-
 [АаЕеЁёОоУуЫыЭэЮюЯя]{И} > Ï;
 [АаЕеЁёОоУуЫыЭэЮюЯя]{и} > ï;
 И > I;
 и > i;
-
 Й > Ï;
 й > ï;
-
 К > K;
 к > k;
 Л > L;
 л > l;
 М > M;
 м > m;
-
-[ИиЫы]{Н}$WB > ne;
-{Н}$WB > N;
+[ИиЫы]{н}$WB > ne;
+[ИиЫы]{Н}$WB > Ne;
 {н}$WB > n;
+{Н}$WB > N;
 Н > N;
 н > n;
-
 О > O;
 о > o;
 П > P;
 п > p;
 Р > R;
 р > r;
-
 $v{С}$v > ss;
 $v{с}$v > ss;
 С > S;
 с > s;
-
 Т > T;
 т > t;
-
 {У}$U > OU;
 У > Ou;
 у > ou;
-
 Ф > F;
 ф > f;
-
 {Х}$U > KH;
 Х > Kh;
 х > kh;
-
 {Ц}$U > TS;
 Ц > Ts;
 ц > ts;
-
 {Ч}$U > TCH;
 Ч > Tch;
 ч > tch;
-
 {Ш}$U > CH;
 Ш > Ch;
 ш > ch;
-
 {Щ}$U > CHTCH;
 Щ > Chtch;
 щ > chtch;
-
 Ъ > ;
 ъ > ;
 Ь > ;
 ь > ;
-
 Ы > Y;
 ы > y;
-
 Э > E;
 э > e;
-
 [ИиЙй]{Ю}$U > OU;
 [ИиЙй]{Ю} > Ou;
 [ИиЙй]{ю} > ou;
@@ -128,7 +116,6 @@ $v{с}$v > ss;
 {Ю}$U > IOU;
 Ю > Iou;
 ю > iou;
-
 [ИиЙй]{Я}$U > A;
 [ИиЙй]{Я} > A;
 [ИиЙй]{я} > a;
@@ -138,7 +125,6 @@ $v{с}$v > ss;
 {Я}$U > IA;
 Я > Ia;
 я > ia;
-
 ::NFC;
       ]]></tRule>
     </transform>
