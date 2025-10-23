@@ -49,7 +49,8 @@ $WB { е } $[:L:] → ie;
 # --- Ё (Ё ё): default io/Io ---
 $WB { Ё } $[:L:] → IO;
 $WB { ё } $[:L:] → io;
-Ё → Io;  ё → io;
+Ё → Io;
+ё → io;
 
 # --- И (И и): ï after a vowel (≠ И), else i ---
 [$V-[Ии]] { И } → Ï;
@@ -104,64 +105,104 @@ $V { с } $V → ss;
 [ИиЫы] { Н } $WB → ne;
 [ИиЫы] { н } $WB → ne;
 
-############################################
-# Base mappings (with nice titlecasing for digraphs)
-############################################
-А → A; а → a;
-Б → B; б → b;
-В → V; в → v;
+А → A;
+а → a;
+Б → B;
+б → b;
+В → V;
+в → v;
 
 # Г: default g (special gu above)
-Г → G; г → g;
+Г → G;
+г → g;
 
-Д → D; д → d;
+Д → D;
+д → d;
 
-Е → E; е → e;   # contexts above adjust to ie/ïe/Ie
+Е → E;
+е → e;   # contexts above adjust to ie/ïe/Ie
 
-Ё } $[:Lowercase:] → Io;  Ё → IO;  ё → io;
+Ё } $[:Lowercase:] → Io;
+Ё → IO;
+ё → io;
 
-Ж } $[:Lowercase:] → J;   Ж → J;   ж → j;
-З → Z;  з → z;
+Ж } $[:Lowercase:] → J;
+Ж → J;
+ж → j;
+З → Z;
+з → z;
 
-И → I;  и → i;   # context above may turn to ï
+И → I;
+и → i;   # context above may turn to ï
 
-Й → Ï;  й → ï;   # finals handled above
+Й → Ï;
+й → ï;   # finals handled above
 
-К → K;  к → k;
-Л → L;  л → l;
-М → M;  м → m;
-Н → N;  н → n;
-О → O;  о → o;
-П → P;  п → p;
-Р → R;  р → r;
+К → K;
+к → k;
+Л → L;
+л → l;
+М → M;
+м → m;
+Н → N;
+н → n;
+О → O;
+о → o;
+П → P;
+п → p;
+Р → R;
+р → r;
 
-С → S;  с → s;   # "ss between vowels" handled earlier
+С → S;
+с → s;   # "ss between vowels" handled earlier
 
-Т → T;  т → t;
+Т → T;
+т → t;
 
-У } $[:Lowercase:] → Ou;  У → OU;  у → ou;
+У } $[:Lowercase:] → Ou;
+У → OU;
+у → ou;
 
-Ф → F;  ф → f;
+Ф → F;
+ф → f;
 
-Х } $[:Lowercase:] → Kh;  Х → KH;  х → kh;
+Х } $[:Lowercase:] → Kh;
+Х → KH;
+х → kh;
 
-Ц } $[:Lowercase:] → Ts;  Ц → TS;  ц → ts;
+Ц } $[:Lowercase:] → Ts;
+Ц → TS;
+ц → ts;
 
-Ч } $[:Lowercase:] → Tch; Ч → TCH; ч → tch;
+Ч } $[:Lowercase:] → Tch;
+Ч → TCH;
+ч → tch;
 
-Ш } $[:Lowercase:] → Ch;  Ш → CH;  ш → ch;
+Ш } $[:Lowercase:] → Ch;
+Ш → CH;
+ш → ch;
 
-Щ } $[:Lowercase:] → Chtch; Щ → CHTCH; щ → chtch;
+Щ } $[:Lowercase:] → Chtch;
+Щ → CHTCH;
+щ → chtch;
 
-Ъ → ;  ъ → ;
-Ы → Y;  ы → y;
-Ь → ;  ь → ;
+Ъ → ;
+ъ → ;
+Ы → Y;
+ы → y;
+Ь → ;
+ь → ;
 
-Э → E;  э → e;
+Э → E;
+э → e;
 
 # (Ю/Я handled by contexts; base fallbacks retained)
-Ю } $[:Lowercase:] → Iou; Ю → IOU; ю → iou;
-Я } $[:Lowercase:] → Ia;  Я → IA;  я → ia;
+Ю } $[:Lowercase:] → Iou;
+Ю → IOU;
+ю → iou;
+Я } $[:Lowercase:] → Ia;
+Я → IA;
+я → ia;
 
 ::NFC;
 
