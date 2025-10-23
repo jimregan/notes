@@ -32,9 +32,6 @@
 ::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя];
 ::NFC;
 
-######################################################################
-# Variables
-######################################################################
 $wordBoundary = [^[:L:][:M:][:N:]] ;
 $upperVowels  = [АЕЁЭИОУЫЮЯ] ;
 $lowerVowels  = [аеёэиоуыюя] ;
@@ -48,10 +45,6 @@ $lower        = [:Lowercase:] ;
 # Convenience sets for contextual rules (in Cyrillic, before transliteration)
 $ZSTC = [ЗзСсТтЦц] ;
 $CHSH = [ЧчШшЩщЖж] ;
-
-######################################################################
-# Context-first rules (so they don't get masked by simple mappings)
-######################################################################
 
 # ---- е (Swedish: je word-initial / after vowel/й/ь/ъ; otherwise e) ----
 $wordBoundary { Е } $upper → JE ;
