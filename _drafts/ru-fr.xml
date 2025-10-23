@@ -9,135 +9,157 @@
       direction="forward"
       draft="unconfirmed"
       alias="Russian-Latin/FR ru-Latn-t-ru-m0-fr">
-
       <tRule><![CDATA[
-
-::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя];
 ::NFC;
 
-############################################
-# Sets (in Cyrillic, before mapping)
-############################################
-$WB = [^[:L:][:M:][:N:]];
-$VU = [АЕЁЭИОУЫЮЯ];
-$Vl = [аеёэиоуыюя];
-$V  = [$VU $Vl];
+# =========================
+# Variables
+# =========================
+$wordBoundary = [^[:L:][:M:][:N:]];
+$upperVowels  = [АЕЁЭИОУЫЮЯ];
+$lowerVowels  = [аеёэиоуыюя];
+$vowels       = [$upperVowels $lowerVowels];
+$upper        = [:Uppercase:];
+$lower        = [:Lowercase:];
+$ZSTC         = [ЗзСсТтЦц];
+$CHSH         = [ЧчШшЩщЖж];
+$IJ           = [ИиЙй];
+$Front        = [ЕеИиЫыЭэ];
+$FrontUpper   = [ЕИЫЭ];
+$FrontLower   = [еиыэ];
 
-$IorJ = [ИЙий];
-$Front = [ЕеИиЫыЭэ];  # for G→GU
+# =========================
+# Core contextual rules (French Wikipedia)
+# =========================
 
-############################################
-# Contextual rules (French conventions)
-############################################
+# --- Г: gu before e/i/ы; else g ---
+Г } $FrontLower → Gu;
+Г } $FrontUpper → GU;
+г } $FrontLower → gu;
+г } $FrontUpper → gu;
 
-# --- E (Е е) ---
-# word-initial: Ie/ie
-$WB { Е } $[:L:] → IE;
-$WB { е } $[:L:] → ie;
+# --- Е (E) ---
+# after consonant → e
+[$upper-$upperVowels] { Е } → E;
+[$lower-$lowerVowels] { е } → e;
 
-# after vowel other than И/Й: ïe
-[$V-[ИиЙй]] { Е } $[:L:] → ÏE;
-[$V-[ИиЙй]] { е } $[:L:] → ïe;
+# after И/Й → e
+$IJ { Е } → E;
+$IJ { е } → e;
 
-# after И/Й or after ь/ъ: ie
-[$IorJ ЬьЪъ] { Е } $[:L:] → IE;
-[$IorJ ЬьЪъ] { е } $[:L:] → ie;
+# after soft/hard sign → ie
+Ь { Е } $lower → ie;
+Ь { Е } [^$lower] → IE;
+ь { е } → ie;
+Ъ { Е } $lower → ie;
+Ъ { Е } [^$lower] → IE;
+ъ { е } → ie;
 
-# after consonant (fallback): e
-# (handled by base mapping E→E / e→e)
+# word-initial default (Wikipedia): Ie
+$wordBoundary { Е } $lower → Ie;
+$wordBoundary { Е } [^$lower] → IE;
+$wordBoundary { е } → ie;
 
-# --- Ё (Ё ё): default io/Io ---
-$WB { Ё } $[:L:] → IO;
-$WB { ё } $[:L:] → io;
-Ё → Io;
+# after vowel (≠ и/й) → ïe
+[$vowels-[Ии]] { Е } $lower → ïe;
+[$vowels-[Ии]] { Е } [^$lower] → ÏE;
+[$vowels-[Ии]] { е } → ïe;
+
+# --- Ё (YO) ---
+# default io with right-case
+Ё } $lower → io;
+Ё } [^$lower] → IO;
 ё → io;
+# convention admitted: after sibilants map to e (e.g., Gorbatchev)
+$CHSH { Ё } → e;
+$CHSH { ё } → e;
 
-# --- И (И и): ï after a vowel (≠ И), else i ---
-[$V-[Ии]] { И } → Ï;
-[$V-[Ии]] { и } → ï;
+# --- И (I) ---
+# after vowel (≠ и) → ï
+[$vowels-[Ии]] { И } → Ï;
+[$vowels-[Ии]] { и } → ï;
 
-# --- Й (Й й):
-# word-final endings
-ий $WB → i;
-Ий $WB → i;
-Ый $WB → y;
-ый $WB → y;
-
-# elsewhere: ï
+# --- Й (JOT) ---
+# finals
+ий $ → i;
+Ий $ → i;
+ый $ → y;
+Ый $ → y;
+# suppress in ...ьев / ...иев cluster
+[ИиЬь] { Й } [Ее] → ;
+# otherwise ï
 Й → Ï;
 й → ï;
 
-# --- Ю (Ю ю) ---
-# after И/Й: ou
-[$IorJ] { Ю } → OU;
-[$IorJ] { ю } → ou;
-
-# after any other vowel: ïou
-[$V-[ИиЙй]] { Ю } → ÏOU;
-[$V-[ИиЙй]] { ю } → ïou;
-
-# default: iou
-Ю → Iou;
+# --- Ю (YU) ---
+# after И/Й → ou
+$IJ { Ю } $lower → ou;
+$IJ { Ю } [^$lower] → OU;
+$IJ { ю } → ou;
+# after other vowel:
+# front vowels (ЕЭИЯЮ) → ïou ; back vowels (АОУЫ) → you
+[ЕЭИЯЮеэияю] { Ю } $lower → ïou;
+[ЕЭИЯЮеэияю] { Ю } [^$lower] → ÏOU;
+[ЕЭИЯЮеэияю] { ю } → ïou;
+[АОУЫаоуы] { Ю } $lower → you;
+[АОУЫаоуы] { Ю } [^$lower] → YOU;
+[АОУЫаоуы] { ю } → you;
+# elsewhere (initial/after consonant) → iou
+Ю } $lower → iou;
+Ю } [^$lower] → IOU;
 ю → iou;
 
-# --- Я (Я я) ---
-# after И/Й: a
-[$IorJ] { Я } → A;
-[$IorJ] { я } → a;
-
-# after any other vowel: ïa
-[$V-[ИиЙй]] { Я } → ÏA;
-[$V-[ИиЙй]] { я } → ïa;
-
-# default: ia
-Я → Ia;
+# --- Я (YA) ---
+# after И/Й → a
+$IJ { Я } $lower → a;
+$IJ { Я } [^$lower] → A;
+$IJ { я } → a;
+# after other vowel → ïa
+[$vowels-$IJ] { Я } $lower → ïa;
+[$vowels-$IJ] { Я } [^$lower] → ÏA;
+[$vowels-$IJ] { я } → ïa;
+# word-initial convention admitted: Ya
+$wordBoundary { Я } $lower → Ya;
+$wordBoundary { Я } [^$lower] → YA;
+$wordBoundary { я } → ya;
+# elsewhere (after consonant) → ia
+Я } $lower → ia;
+Я } [^$lower] → IA;
 я → ia;
 
-# --- С (С с): ss between vowels ---
-$V { С } $V → ss;
-$V { с } $V → ss;
+# --- С between vowels → ss ---
+$vowels { С } $vowels → ss;
+$vowels { с } $vowels → ss;
 
-# --- Г (Г г): gu before e/i/ы(/э) ---
-Г } $Front → GU;
-г } $Front → gu;
+# --- Н final after и/ы → ne (lowercase words only) ---
+[иы] { н } $ → ne;
+[иы] { н } $wordBoundary → ne;
 
-# --- Н (Н н): final after И/Ы → ne ---
-[ИиЫы] { Н } $WB → ne;
-[ИиЫы] { н } $WB → ne;
+# --- Final -ев (Tourgueniev, Prokofiev) → -iev ---
+ЕВ $ → iev;
+ев $ → iev;
 
+# =========================
+# Simple letters and digraphs (with titlecasing)
+# =========================
 А → A;
 а → a;
 Б → B;
 б → b;
 В → V;
 в → v;
-
-# Г: default g (special gu above)
 Г → G;
 г → g;
-
 Д → D;
 д → d;
-
 Е → E;
-е → e;   # contexts above adjust to ie/ïe/Ie
-
-Ё } $[:Lowercase:] → Io;
-Ё → IO;
-ё → io;
-
-Ж } $[:Lowercase:] → J;
+е → e;
 Ж → J;
 ж → j;
 З → Z;
 з → z;
-
 И → I;
-и → i;   # context above may turn to ï
-
-Й → Ï;
-й → ï;   # finals handled above
-
+и → i;
 К → K;
 к → k;
 Л → L;
@@ -152,62 +174,47 @@ $V { с } $V → ss;
 п → p;
 Р → R;
 р → r;
-
 С → S;
-с → s;   # "ss between vowels" handled earlier
-
+с → s;
 Т → T;
 т → t;
 
-У } $[:Lowercase:] → Ou;
-У → OU;
+У } $lower → ou;
+У } [^$lower] → OU;
 у → ou;
 
-Ф → F;
-ф → f;
-
-Х } $[:Lowercase:] → Kh;
-Х → KH;
+Х } $lower → kh;
+Х } [^$lower] → KH;
 х → kh;
 
-Ц } $[:Lowercase:] → Ts;
-Ц → TS;
+Ц } $lower → ts;
+Ц } [^$lower] → TS;
 ц → ts;
 
-Ч } $[:Lowercase:] → Tch;
-Ч → TCH;
+Ч } $lower → tch;
+Ч } [^$lower] → TCH;
 ч → tch;
 
-Ш } $[:Lowercase:] → Ch;
-Ш → CH;
+Ш } $lower → ch;
+Ш } [^$lower] → CH;
 ш → ch;
 
-Щ } $[:Lowercase:] → Chtch;
-Щ → CHTCH;
+Щ } $lower → chtch;
+Щ } [^$lower] → CHTCH;
 щ → chtch;
 
 Ъ → ;
 ъ → ;
-Ы → Y;
+Ы → y;
 ы → y;
 Ь → ;
 ь → ;
-
-Э → E;
+Э } $lower → e;
+Э } [^$lower] → E;
 э → e;
 
-# (Ю/Я handled by contexts; base fallbacks retained)
-Ю } $[:Lowercase:] → Iou;
-Ю → IOU;
-ю → iou;
-Я } $[:Lowercase:] → Ia;
-Я → IA;
-я → ia;
-
 ::NFC;
-
       ]]></tRule>
     </transform>
   </transforms>
 </supplementalData>
-
