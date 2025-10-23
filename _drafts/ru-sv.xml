@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<!--
+  Swedish-style romanization of Russian Cyrillic, based primarily on:
+  - Swedish Wikipedia: "Transkribering av östslaviska språk" (svenska konventioner)
+  - Structured in the style of the CLDR Russian-Latin-BGN transform.
+
+  Notes:
+  * Implements Swedish outcomes: ch, sj, tj, sjtj, zj; y for ы; ь/ъ omitted.
+  * Context rules follow Wikipedia:
+      - е : "je" at word start and after vowel/й/ь/ъ; otherwise "e"
+      - ё : default "jo"; after з/с/т/ц -> "io"; after ч/ш/щ/ж -> "o"
+      - ю : default "ju"; after з/с/т/ц -> "iu"; after ч/ш/щ/ж -> "u"
+      - я : default "ja"; after з/с/т/ц -> "ia"; after ч/ш/щ/ж -> "a"
+    (Wikipedia also notes 'я after и sometimes a'; that optional editorial variant isn’t enforced here.)
+  * Titlecasing behavior mirrors CLDR transforms (e.g., Ж} $lower → Zj; Ж → ZJ).
+-->
+<supplementalData>
+  <transforms>
+    <transform
+      source="ru"
+      target="ru_Latn"
+      variant="SV"
+      direction="forward"
+      draft="unconfirmed"
+      alias="Russian-Latin/SV ru-Latn-t-ru-m0-sv">
+
+      <tRule><![CDATA[
+
+# Minimal filter (Russian alphabet)
+::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя];
+::NFC;
+
+######################################################################
+# Variables
+######################################################################
+$wordBoundary = [^[:L:][:M:][:N:]] ;
+$upperVowels  = [АЕЁЭИОУЫЮЯ] ;
+$lowerVowels  = [аеёэиоуыюя] ;
+$vowels       = [$upperVowels $lowerVowels] ;
+$upperCons    = [[:Uppercase:]-$vowels] ;
+$lowerCons    = [[:Lowercase:]-$vowels] ;
+$consonants   = [$upperCons $lowerCons] ;
+$upper        = [:Uppercase:] ;
+$lower        = [:Lowercase:] ;
+
+# Convenience sets for contextual rules (in Cyrillic, before transliteration)
+$ZSTC = [ЗзСсТтЦц] ;
+$CHSH = [ЧчШшЩщЖж] ;
+
+######################################################################
+# Context-first rules (so they don't get masked by simple mappings)
+######################################################################
+
+# ---- е (Swedish: je word-initial / after vowel/й/ь/ъ; otherwise e) ----
+$wordBoundary { Е } $upper → JE ;
+$wordBoundary { Е } $lower → Je ;
+$wordBoundary { е → je ;
+
+[$upperVowels [ЙЪЬ]] { Е } $upper → JE ;
+[$upperVowels [ЙЪЬ]] { Е } $lower → Je ;
+[$upperVowels $lowerVowels [ЙйЪъЬь]] { е → je ;
+
+# ---- ё (default jo; after з/с/т/ц -> io; after ч/ш/щ/ж -> o) ----
+# Word-initial / after vowels/й/ь/ъ => "jo"
+$wordBoundary { Ё } $upper → JO ;
+$wordBoundary { Ё } $lower → Jo ;
+$wordBoundary { ё → jo ;
+[$upperVowels [ЙЪЬ]] { Ё } $upper → JO ;
+[$upperVowels [ЙЪЬ]] { Ё } $lower → Jo ;
+[$upperVowels $lowerVowels [ЙйЪъЬь]] { ё → jo ;
+
+# After З/С/Т/Ц => "io"
+$ZSTC { Ё } $upper → IO ;
+$ZSTC { Ё } $lower → Io ;
+$ZSTC { ё → io ;
+
+# After Ч/Ш/Щ/Ж => "o"
+$CHSH { Ё } $upper → O ;
+$CHSH { Ё } $lower → O ;
+$CHSH { ё → o ;
+
+# Force a pass boundary before proceeding to basic letters
+::Null;
+
+# ---- ю (default ju; after з/с/т/ц -> iu; after ч/ш/щ/ж -> u) ----
+$wordBoundary { Ю } $upper → JU ;
+$wordBoundary { Ю } $lower → Ju ;
+$wordBoundary { ю → ju ;
+[$upperVowels [ЙЪЬ]] { Ю } $upper → JU ;
+[$upperVowels [ЙЪЬ]] { Ю } $lower → Ju ;
+[$upperVowels $lowerVowels [ЙйЪъЬь]] { ю → ju ;
+
+$ZSTC { Ю } $upper → IU ;
+$ZSTC { Ю } $lower → Iu ;
+$ZSTC { ю → iu ;
+
+$CHSH { Ю } $upper → U ;
+$CHSH { Ю } $lower → U ;
+$CHSH { ю → u ;
+
+# ---- я (default ja; after з/с/т/ц -> ia; after ч/ш/щ/ж -> a) ----
+$wordBoundary { Я } $upper → JA ;
+$wordBoundary { Я } $lower → Ja ;
+$wordBoundary { я → ja ;
+[$upperVowels [ЙЪЬ]] { Я } $upper → JA ;
+[$upperVowels [ЙЪЬ]] { Я } $lower → Ja ;
+[$upperVowels $lowerVowels [ЙйЪъЬь]] { я → ja ;
+
+$ZSTC { Я } $upper → IA ;
+$ZSTC { Я } $lower → Ia ;
+$ZSTC { я → ia ;
+
+$CHSH { Я } $upper → A ;
+$CHSH { Я } $lower → A ;
+$CHSH { я → a ;
+
+######################################################################
+# Alphabetic mappings (Swedish outcomes + nice titlecasing)
+######################################################################
+А → A ;  а → a ;
+Б → B ;  б → b ;
+В → V ;  в → v ;
+Г → G ;  г → g ;
+Д → D ;  д → d ;
+
+Е → E ;  е → e ;   # remaining 'e' cases fall back to 'e' (contexts handled above)
+Ё → Jo ; ё → jo ;  # leftover (if any) — normally handled in contexts
+
+Ж } $lower → Zj ;  Ж → ZJ ;  ж → zj ;
+З → Z ;  з → z ;
+И → I ;  и → i ;
+Й → J ;  й → j ;
+К → K ;  к → k ;
+Л → L ;  л → l ;
+М → M ;  м → m ;
+Н → N ;  н → n ;
+О → O ;  о → o ;
+П → P ;  п → p ;
+Р → R ;  р → r ;
+С → S ;  с → s ;
+Т → T ;  т → t ;
+У → U ;  у → u ;
+Ф → F ;  ф → f ;
+
+Х } $lower → Ch ;  Х → CH ;  х → ch ;
+Ц } $lower → Ts ;  Ц → TS ;  ц → ts ;
+Ч } $lower → Tj ;  Ч → TJ ;  ч → tj ;
+Ш } $lower → Sj ;  Ш → SJ ;  ш → sj ;
+Щ } $lower → Sjtj ; Щ → SJTJ ; щ → sjtj ;
+
+Ъ → ;  ъ → ;       # omitted
+Ы → Y ;  ы → y ;
+Ь → ;  ь → ;       # omitted
+
+Э → E ;  э → e ;
+
+# (Ю/Я basic forms handled via contexts above; fallbacks retained)
+Ю } $lower → Ju ;  Ю → JU ;  ю → ju ;
+Я } $lower → Ja ;  Я → JA ;  я → ja ;
+
+      ]]></tRule>
+    </transform>
+  </transforms>
+</supplementalData>
