@@ -2,7 +2,7 @@
 <!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
 <!--
   Swedish-style romanization of Russian Cyrillic, based primarily on:
-  - Swedish Wikipedia: "Transkribering av östslaviska språk" (svenska konventioner)
+  - Swedish Wikipedia: https://sv.wikipedia.org/wiki/Transkribering_av_%C3%B6stslaviska_spr%C3%A5k
   - Structured in the style of the CLDR Russian-Latin-BGN transform.
 
   Notes:
@@ -27,6 +27,7 @@
 
       <tRule><![CDATA[
 
+# Based on Russian-Latin-BGN.xml
 # Minimal filter (Russian alphabet)
 ::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя];
 ::NFC;
@@ -118,47 +119,86 @@ $CHSH { я → a ;
 ######################################################################
 # Alphabetic mappings (Swedish outcomes + nice titlecasing)
 ######################################################################
-А → A ;  а → a ;
-Б → B ;  б → b ;
-В → V ;  в → v ;
-Г → G ;  г → g ;
-Д → D ;  д → d ;
+А → A ;
+а → a ;
+Б → B ;
+б → b ;
+В → V ;
+в → v ;
+Г → G ;
+г → g ;
+Д → D ;
+д → d ;
 
-Е → E ;  е → e ;   # remaining 'e' cases fall back to 'e' (contexts handled above)
-Ё → Jo ; ё → jo ;  # leftover (if any) — normally handled in contexts
+Е → E ;
+е → e ;   # remaining 'e' cases fall back to 'e' (contexts handled above)
+Ё → Jo ;
+ё → jo ;  # leftover (if any) — normally handled in contexts
 
-Ж } $lower → Zj ;  Ж → ZJ ;  ж → zj ;
-З → Z ;  з → z ;
-И → I ;  и → i ;
-Й → J ;  й → j ;
-К → K ;  к → k ;
-Л → L ;  л → l ;
-М → M ;  м → m ;
-Н → N ;  н → n ;
-О → O ;  о → o ;
-П → P ;  п → p ;
-Р → R ;  р → r ;
-С → S ;  с → s ;
-Т → T ;  т → t ;
-У → U ;  у → u ;
-Ф → F ;  ф → f ;
+Ж } $lower → Zj ;
+Ж → ZJ ;
+ж → zj ;
+З → Z ;
+з → z ;
+И → I ;
+и → i ;
+Й → J ;
+й → j ;
+К → K ;
+к → k ;
+Л → L ;
+л → l ;
+М → M ;
+м → m ;
+Н → N ;
+н → n ;
+О → O ;
+о → o ;
+П → P ;
+п → p ;
+Р → R ;
+р → r ;
+С → S ;
+с → s ;
+Т → T ;
+т → t ;
+У → U ;
+у → u ;
+Ф → F ;
+ф → f ;
 
-Х } $lower → Ch ;  Х → CH ;  х → ch ;
-Ц } $lower → Ts ;  Ц → TS ;  ц → ts ;
-Ч } $lower → Tj ;  Ч → TJ ;  ч → tj ;
-Ш } $lower → Sj ;  Ш → SJ ;  ш → sj ;
-Щ } $lower → Sjtj ; Щ → SJTJ ; щ → sjtj ;
+Х } $lower → Ch ;
+Х → CH ;  х → ch ;
+Ц } $lower → Ts ;
+Ц → TS ;
+ц → ts ;
+Ч } $lower → Tj ;
+Ч → TJ ;
+ч → tj ;
+Ш } $lower → Sj ;
+Ш → SJ ;
+ш → sj ;
+Щ } $lower → Sjtj ;
+Щ → SJTJ ;
+щ → sjtj ;
 
-Ъ → ;  ъ → ;       # omitted
-Ы → Y ;  ы → y ;
-Ь → ;  ь → ;       # omitted
+Ъ → ;
+ъ → ;       # omitted
+Ы → Y ;
+ы → y ;
+Ь → ;
+ь → ;       # omitted
 
-Э → E ;  э → e ;
+Э → E ;
+э → e ;
 
 # (Ю/Я basic forms handled via contexts above; fallbacks retained)
-Ю } $lower → Ju ;  Ю → JU ;  ю → ju ;
-Я } $lower → Ja ;  Я → JA ;  я → ja ;
-
+Ю } $lower → Ju ;
+Ю → JU ;
+ю → ju ;
+Я } $lower → Ja ;
+Я → JA ;
+я → ja ;
       ]]></tRule>
     </transform>
   </transforms>
