@@ -137,8 +137,7 @@ $wordBoundary { я }           → ia;
 Ы → y;  ы → y;
 Ь → ;
 ь → ;
-Э } $lower → e;
-Э } [^$lower] → E;
+Э → E;
 э → e;
 ::NFC;
       ]]></tRule>
