@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<supplementalData>
+  <transforms>
+    <transform
+      source="ru"
+      target="ru_Latn"
+      variant="FR"
+      direction="forward"
+      draft="unconfirmed"
+      alias="Russian-Latin/FR ru-Latn-t-ru-m0-fr">
+
+      <tRule><![CDATA[
+
+::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя];
+::NFC;
+
+############################################
+# Sets (in Cyrillic, before mapping)
+############################################
+$WB = [^[:L:][:M:][:N:]];
+$VU = [АЕЁЭИОУЫЮЯ];
+$Vl = [аеёэиоуыюя];
+$V  = [$VU $Vl];
+
+$IorJ = [ИЙий];
+$Front = [ЕеИиЫыЭэ];  # for G→GU
+
+############################################
+# Contextual rules (French conventions)
+############################################
+
+# --- E (Е е) ---
+# word-initial: Ie/ie
+$WB { Е } $[:L:] → IE;
+$WB { е } $[:L:] → ie;
+
+# after vowel other than И/Й: ïe
+[$V-[ИиЙй]] { Е } $[:L:] → ÏE;
+[$V-[ИиЙй]] { е } $[:L:] → ïe;
+
+# after И/Й or after ь/ъ: ie
+[$IorJ ЬьЪъ] { Е } $[:L:] → IE;
+[$IorJ ЬьЪъ] { е } $[:L:] → ie;
+
+# after consonant (fallback): e
+# (handled by base mapping E→E / e→e)
+
+# --- Ё (Ё ё): default io/Io ---
+$WB { Ё } $[:L:] → IO;
+$WB { ё } $[:L:] → io;
+Ё → Io;  ё → io;
+
+# --- И (И и): ï after a vowel (≠ И), else i ---
+[$V-[Ии]] { И } → Ï;
+[$V-[Ии]] { и } → ï;
+
+# --- Й (Й й):
+# word-final endings
+ий $WB → i;
+Ий $WB → i;
+Ый $WB → y;
+ый $WB → y;
+
+# elsewhere: ï
+Й → Ï;
+й → ï;
+
+# --- Ю (Ю ю) ---
+# after И/Й: ou
+[$IorJ] { Ю } → OU;
+[$IorJ] { ю } → ou;
+
+# after any other vowel: ïou
+[$V-[ИиЙй]] { Ю } → ÏOU;
+[$V-[ИиЙй]] { ю } → ïou;
+
+# default: iou
+Ю → Iou;
+ю → iou;
+
+# --- Я (Я я) ---
+# after И/Й: a
+[$IorJ] { Я } → A;
+[$IorJ] { я } → a;
+
+# after any other vowel: ïa
+[$V-[ИиЙй]] { Я } → ÏA;
+[$V-[ИиЙй]] { я } → ïa;
+
+# default: ia
+Я → Ia;
+я → ia;
+
+# --- С (С с): ss between vowels ---
+$V { С } $V → ss;
+$V { с } $V → ss;
+
+# --- Г (Г г): gu before e/i/ы(/э) ---
+Г } $Front → GU;
+г } $Front → gu;
+
+# --- Н (Н н): final after И/Ы → ne ---
+[ИиЫы] { Н } $WB → ne;
+[ИиЫы] { н } $WB → ne;
+
+############################################
+# Base mappings (with nice titlecasing for digraphs)
+############################################
+А → A; а → a;
+Б → B; б → b;
+В → V; в → v;
+
+# Г: default g (special gu above)
+Г → G; г → g;
+
+Д → D; д → d;
+
+Е → E; е → e;   # contexts above adjust to ie/ïe/Ie
+
+Ё } $[:Lowercase:] → Io;  Ё → IO;  ё → io;
+
+Ж } $[:Lowercase:] → J;   Ж → J;   ж → j;
+З → Z;  з → z;
+
+И → I;  и → i;   # context above may turn to ï
+
+Й → Ï;  й → ï;   # finals handled above
+
+К → K;  к → k;
+Л → L;  л → l;
+М → M;  м → m;
+Н → N;  н → n;
+О → O;  о → o;
+П → P;  п → p;
+Р → R;  р → r;
+
+С → S;  с → s;   # "ss between vowels" handled earlier
+
+Т → T;  т → t;
+
+У } $[:Lowercase:] → Ou;  У → OU;  у → ou;
+
+Ф → F;  ф → f;
+
+Х } $[:Lowercase:] → Kh;  Х → KH;  х → kh;
+
+Ц } $[:Lowercase:] → Ts;  Ц → TS;  ц → ts;
+
+Ч } $[:Lowercase:] → Tch; Ч → TCH; ч → tch;
+
+Ш } $[:Lowercase:] → Ch;  Ш → CH;  ш → ch;
+
+Щ } $[:Lowercase:] → Chtch; Щ → CHTCH; щ → chtch;
+
+Ъ → ;  ъ → ;
+Ы → Y;  ы → y;
+Ь → ;  ь → ;
+
+Э → E;  э → e;
+
+# (Ю/Я handled by contexts; base fallbacks retained)
+Ю } $[:Lowercase:] → Iou; Ю → IOU; ю → iou;
+Я } $[:Lowercase:] → Ia;  Я → IA;  я → ia;
+
+::NFC;
+
+      ]]></tRule>
+    </transform>
+  </transforms>
+</supplementalData>
+
