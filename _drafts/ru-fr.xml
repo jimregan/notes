@@ -13,6 +13,10 @@ $upper        = [:Uppercase:];
 $lower        = [:Lowercase:];
 $CHSH         = [ЧчШшЩщЖж];
 $IJ           = [ИиЙй];
+$latinVowels  = [AEIOUYÄËÏÖÜŸaeiouyäëïöüÿ];
+$latIJ        = [Ïï];
+$latI         = [Ii];
+$allVowels    = [$vowels $latinVowels];
 
 Г } [ЕЁИЫЭ] → GU;
 Г } [еёиыэ] → Gu;
@@ -27,23 +31,19 @@ $wordBoundary { е }           → ie;
 [ЬьЪъ] { Е } [^$lower] → IE;
 [ьъ]  { е }            → ie;
 
-$IJ { Е } → E;
-$IJ { е } → e;
+[ $IJ $latI $latIJ ] { Е } → E;
+[ $IJ $latI $latIJ ] { е } → e;
 
-Гu { Е } $lower    → e;
-Гu { Е } [^$lower] → E;
-Гu { е }           → e;
-Gu { Е } $lower    → e;
-Gu { Е } [^$lower] → E;
-Gu { е }           → e;
-GU { Е }           → E;
-gu { Е }           → e;
-GU { е }           → E;
-gu { е }           → e;
+GU { Е } → E;
+GU { е } → E;
+Gu { Е } → E;
+Gu { е } → e;
+gu { Е } → e;
+gu { е } → e;
 
-[$vowels-[Ии]] { Е } $lower    → ïe;
-[$vowels-[Ии]] { Е } [^$lower] → ÏE;
-[$vowels-[Ии]] { е }           → ïe;
+[ ($allVowels-$IJ) ] { Е } $lower    → ïe;
+[ ($allVowels-$IJ) ] { Е } [^$lower] → ÏE;
+[ ($allVowels-$IJ) ] { е }           → ïe;
 
 $CHSH { Ё } $lower    → e;
 $CHSH { Ё } [^$lower] → E;
@@ -68,19 +68,19 @@ $CHSH { ё }           → e;
 $IJ { Ю } $lower    → ou;
 $IJ { Ю } [^$lower] → OU;
 $IJ { ю }           → ou;
-[$vowels-$IJ] { Ю } $lower    → you;
-[$vowels-$IJ] { Ю } [^$lower] → YOU;
-[$vowels-$IJ] { ю }           → you;
+[($allVowels-$IJ)] { Ю } $lower    → you;
+[($allVowels-$IJ)] { Ю } [^$lower] → YOU;
+[($allVowels-$IJ)] { ю }           → you;
 Ю } $lower    → Iou;
 Ю } [^$lower] → IOU;
 ю             → iou;
 
-$IJ { Я } $lower    → a;
-$IJ { Я } [^$lower] → A;
-$IJ { я }           → a;
-[$vowels-$IJ] { Я } $lower    → ïa;
-[$vowels-$IJ] { Я } [^$lower] → ÏA;
-[$vowels-$IJ] { я }           → ïa;
+[ $IJ $latI $latIJ ] { Я } $lower    → a;
+[ $IJ $latI $latIJ ] { Я } [^$lower] → A;
+[ $IJ $latI $latIJ ] { я }           → a;
+[($allVowels-$IJ)] { Я } $lower    → ïa;
+[($allVowels-$IJ)] { Я } [^$lower] → ÏA;
+[($allVowels-$IJ)] { я }           → ïa;
 $wordBoundary { Я } $lower    → Ia;
 $wordBoundary { Я } [^$lower] → IA;
 $wordBoundary { я }           → ia;
@@ -88,17 +88,18 @@ $wordBoundary { я }           → ia;
 Я } [^$lower] → IA;
 я             → ia;
 
-$vowels { С } [$lowerVowels] → Ss;
-$vowels { С }  $upperVowels  → SS;
-$vowels { с }  $vowels       → ss;
+$allVowels { С } [$lowerVowels] → Ss;
+$allVowels { С }  $upperVowels  → SS;
+$allVowels { с }  $allVowels    → ss;
 
-[ИЫ] { Н } $            → NE;
-[иы] { н } $            → ne;
-[ИЫ] { Н } $wordBoundary → NE;
-[иы] { н } $wordBoundary → ne;
+[Ии]ЕВ $ → iev;
+ИЕВ $   → IEV;
+ЕВ $    → iev;
 
-ЕВ $ → IEV;
-ев $ → iev;
+[ИЫ] { Н } $             → INE;
+[иы] { н } $             → ine;
+[ИЫ] { Н } $wordBoundary → INE;
+[иы] { н } $wordBoundary → ine;
 
 А → A;  а → a;
 Б → B;  б → b;
@@ -119,6 +120,7 @@ $vowels { с }  $vowels       → ss;
 С → S;  с → s;
 Т → T;  т → t;
 Ф → F;  ф → f;
+
 У } $lower    → Ou;
 У } [^$lower] → OU;
 у             → ou;
@@ -137,6 +139,7 @@ $vowels { с }  $vowels       → ss;
 Щ } $lower    → Chtch;
 Щ } [^$lower] → CHTCH;
 щ             → chtch;
+
 Ъ → ;
 ъ → ;
 Ы → y;  ы → y;
