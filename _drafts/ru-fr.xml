@@ -39,16 +39,15 @@ $WB = [^[:L:][:M:][:N:]];
 $WB { Е } $upper > IE;
 $WB { Е > Ie;
 $WB { е > ie;
-[ЬьЪъ] { Е } $upper > IE;
-[ЬьЪъ] { Е > Ie;
-[ЬьЪъ] { е > ie;
-[АаЕеЁёОоУуЫыЭэЮюЯя] { Е } $upper > ÏE;
-[АаЕеЁёОоУуЫыЭэЮюЯя] { Е > Ïe;
-[АаЕеЁёОоУуЫыЭэЮюЯя] { е > ïe;
+[ЬЪ] { Е > IE;
+[ьъ] { Е > Ie;
+[АЕЁОУЫЭЮЯ] { Е > ÏE;
+[аеёоуыэюя] { е > ïe;
 Е > E;
 е > e;
 
 Ё } $upper > IO;
+$upper { Ё > IO;
 Ё > Io;
 ё > io;
 
@@ -98,6 +97,7 @@ $v { с } $v > ss;
 т > t;
 
 У } $upper > OU;
+$upper { У > OU;
 У > Ou;
 у > ou;
 
@@ -105,22 +105,27 @@ $v { с } $v > ss;
 ф > f;
 
 Х } $upper > KH;
+$upper { Х > KH;
 Х > Kh;
 х > kh;
 
 Ц } $upper > TS;
+$upper { Ц > TS;
 Ц > Ts;
 ц > ts;
 
 Ч } $upper > TCH;
+$upper { Ч  > TCH;
 Ч > Tch;
 ч > tch;
 
 Ш } $upper > CH;
+$upper { Ш > CH;
 Ш > Ch;
 ш > ch;
 
 Щ } $upper > CHTCH;
+$upper { Щ  > CHTCH;
 Щ > Chtch;
 щ > chtch;
 
