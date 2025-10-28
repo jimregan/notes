@@ -205,3 +205,5 @@ This was the Fortnightly Poetry project for March 29, 2020.
 
 [Latent Diffusion Model without Variational Autoencoder](https://arxiv.org/abs/2510.15301)
 
+[Ken Thompson Recalls Unix’s Rowdy, Lock-Picking Origins](https://thenewstack.io/ken-thompson-recalls-unixs-rowdy-lock-picking-origins/)
+
