@@ -7232,7 +7232,7 @@
   "1497": {
     "res": "Noll",
     "orig": "noll",
-    "norm": "Noll."
+    "norm": "0."
   },
   "1498": {
     "res": "1",
@@ -7247,7 +7247,7 @@
   "1500": {
     "res": "Tre.",
     "orig": "tre",
-    "norm": "Tre."
+    "norm": "3."
   },
   "1501": {
     "res": "4.",
@@ -7257,31 +7257,32 @@
   "1502": {
     "res": "Fem.",
     "orig": "fem",
-    "norm": "Fem."
+    "norm": "5."
   },
   "1503": {
     "res": "Sex",
     "orig": "sex",
-    "norm": "Sex."
+    "norm": "6."
   },
   "1504": {
     "res": "Sju.",
     "orig": "sju",
-    "norm": "Sju."
+    "norm": "7."
   },
   "1505": {
     "res": "Otta.",
-    "orig": "åtta"
+    "orig": "åtta",
+    "norm": "8."
   },
   "1506": {
     "res": "Nio.",
     "orig": "nio",
-    "norm": "Nio."
+    "norm": "9."
   },
   "1507": {
     "res": "tio",
     "orig": "tio",
-    "norm": "Tio."
+    "norm": "10."
   },
   "1508": {
     "res": "11.",
@@ -7291,12 +7292,12 @@
   "1509": {
     "res": "Tolv",
     "orig": "tolv",
-    "norm": "Tolv."
+    "norm": "12."
   },
   "1510": {
     "res": "Tretton.",
     "orig": "tretton",
-    "norm": "Tretton."
+    "norm": "13."
   },
   "1511": {
     "res": "14.",
@@ -7306,7 +7307,7 @@
   "1512": {
     "res": "femton",
     "orig": "femton",
-    "norm": "Femton."
+    "norm": "15."
   },
   "1513": {
     "res": "16",
@@ -7321,7 +7322,7 @@
   "1515": {
     "res": "Arton",
     "orig": "arton",
-    "norm": "Arton."
+    "norm": "18."
   },
   "1516": {
     "res": "19.",
@@ -7350,16 +7351,18 @@
   },
   "1521": {
     "res": "Fortio.",
-    "orig": "fyrtio"
+    "orig": "fyrtio",
+    "norm": "40."
   },
   "1522": {
     "res": "43",
-    "orig": "fyrtiotre"
+    "orig": "fyrtiotre",
+    "norm": "43."
   },
   "1523": {
     "res": "Femtio",
     "orig": "femtio",
-    "norm": "Femtio."
+    "norm": "50."
   },
   "1524": {
     "res": "54.",
@@ -7369,7 +7372,7 @@
   "1525": {
     "res": "Sextio",
     "orig": "sextio",
-    "norm": "Sextio."
+    "norm": "60."
   },
   "1526": {
     "res": "65",
@@ -7378,7 +7381,8 @@
   },
   "1527": {
     "res": "Skötio",
-    "orig": "sjuttio"
+    "orig": "sjuttio",
+    "norm": "70."
   },
   "1528": {
     "res": "76",
@@ -7387,7 +7391,8 @@
   },
   "1529": {
     "res": "Ottio",
-    "orig": "åttio"
+    "orig": "åttio",
+    "norm": "80."
   },
   "1530": {
     "res": "87",
@@ -7401,7 +7406,8 @@
   },
   "1532": {
     "res": "Nittio åtta",
-    "orig": "nittioåtta"
+    "orig": "nittioåtta",
+    "norm": "98."
   },
   "1533": {
     "res": "100",
@@ -7410,7 +7416,8 @@
   },
   "1534": {
     "res": "101",
-    "orig": "hundraett"
+    "orig": "hundraett",
+    "norm": "101."
   },
   "1535": {
     "res": "413",
@@ -7419,51 +7426,63 @@
   },
   "1536": {
     "res": "1919",
-    "orig": "nittonhundra nitton"
+    "orig": "nittonhundra nitton",
+    "norm": "1919."
   },
   "1537": {
     "res": "2004",
-    "orig": "tjugohundra fyra"
+    "orig": "tjugohundra fyra",
+    "norm": "2004."
   },
   "1538": {
     "res": "1802",
-    "orig": "artonhundra två"
+    "orig": "artonhundra två",
+    "norm": "1802."
   },
   "1539": {
     "res": "1707",
-    "orig": "sjuttonhundra sju"
+    "orig": "sjuttonhundra sju",
+    "norm": "1707."
   },
   "1540": {
     "res": "193",
-    "orig": "etthundra nittiotre"
+    "orig": "etthundra nittiotre",
+    "norm": "193."
   },
   "1541": {
     "res": "284",
-    "orig": "tvåhundra åttiofyra"
+    "orig": "tvåhundra åttiofyra",
+    "norm": "284."
   },
   "1542": {
     "res": "375",
-    "orig": "trehundra sjuttiofem"
+    "orig": "trehundra sjuttiofem",
+    "norm": "375."
   },
   "1543": {
     "res": "466",
-    "orig": "fyrahundra sextiosex"
+    "orig": "fyrahundra sextiosex",
+    "norm": "466."
   },
   "1544": {
     "res": "557",
-    "orig": "femhundra femtiosju"
+    "orig": "femhundra femtiosju",
+    "norm": "557."
   },
   "1545": {
     "res": "648",
-    "orig": "sexhundra fyrtioåtta"
+    "orig": "sexhundra fyrtioåtta",
+    "norm": "648."
   },
   "1546": {
     "res": "739",
-    "orig": "sjuhundra trettionio"
+    "orig": "sjuhundra trettionio",
+    "norm": "739."
   },
   "1547": {
     "res": "820",
-    "orig": "åttahundra tjugo"
+    "orig": "åttahundra tjugo",
+    "norm": "820."
   },
   "1548": {
     "res": "Ett tusen.",
@@ -7472,39 +7491,48 @@
   },
   "1549": {
     "res": "1382",
-    "orig": "etttusen trehundra åttiotvå"
+    "orig": "etttusen trehundra åttiotvå",
+    "norm": "1382."
   },
   "1550": {
     "res": "2905",
-    "orig": "tvåtusen niohundra fem"
+    "orig": "tvåtusen niohundra fem",
+    "norm": "2905."
   },
   "1551": {
     "res": "3312",
-    "orig": "tretusen trehundra tolv"
+    "orig": "tretusen trehundra tolv",
+    "norm": "3312."
   },
   "1552": {
     "res": "4107",
-    "orig": "fyratusen etthundra sju"
+    "orig": "fyratusen etthundra sju",
+    "norm": "4107."
   },
   "1553": {
     "res": "5500",
-    "orig": "femtusen fem hundra"
+    "orig": "femtusen fem hundra",
+    "norm": "5500."
   },
   "1554": {
     "res": "60 817",
-    "orig": "sextiotusen åttahundra sjutton"
+    "orig": "sextiotusen åttahundra sjutton",
+    "norm": "60 817."
   },
   "1555": {
     "res": "43 918",
-    "orig": "fyrtiotre tusen niohundra arton"
+    "orig": "fyrtiotre tusen niohundra arton",
+    "norm": "43 918."
   },
   "1556": {
     "res": "211 514",
-    "orig": "tvåhundra elvatusen femhundra fjorton"
+    "orig": "tvåhundra elvatusen femhundra fjorton",
+    "norm": "211 514."
   },
   "1557": {
     "res": "615 716",
-    "orig": "sexhundra femtontusen sjuhundra sexton"
+    "orig": "sexhundra femtontusen sjuhundra sexton",
+    "norm": "615 716."
   },
   "1558": {
     "res": "En miljon.",
@@ -7513,7 +7541,8 @@
   },
   "1559": {
     "res": "1 990 512",
-    "orig": "en miljon niohundra nittiotusen femhundra tolv"
+    "orig": "en miljon niohundra nittiotusen femhundra tolv",
+    "norm": "1 990 512."
   },
   "1560": {
     "res": "Ange mottagarkontot.",
@@ -7738,11 +7767,13 @@
   },
   "1615": {
     "res": "Den 8 augusti 1992 sattes 88 790 kronor in på kontot.",
-    "orig": "den åttonde augusti nittonhundra nittiotvå sattes åttioåttatusen sjuhundra nittio kronor in på kontot"
+    "orig": "den åttonde augusti nittonhundra nittiotvå sattes åttioåttatusen sjuhundra nittio kronor in på kontot",
+    "norm": "Den 8 augusti 1992 sattes 88 790 kronor in på kontot."
   },
   "1616": {
     "res": "Den 8 mars 1992 togs 670 707 kronor ut från kontot.",
-    "orig": "den åttonde mars nittonhundra nittiotvå togs sexhundra sjuttiotusen sjuhundra sju kronor ut från kontot"
+    "orig": "den åttonde mars nittonhundra nittiotvå togs sexhundra sjuttiotusen sjuhundra sju kronor ut från kontot",
+    "norm": "Den 8 mars 1992 togs 670 707 kronor ut från kontot."
   },
   "1617": {
     "res": "Dessa nummer stämmer inte.",
@@ -7751,7 +7782,8 @@
   },
   "1618": {
     "res": "Det finns 21 kronor på kontot.",
-    "orig": "det finns tjugoen kronor på kontot"
+    "orig": "det finns tjugoen kronor på kontot",
+    "norm": "Det finns 21 kronor på kontot."
   },
   "1619": {
     "res": "Det finns 31 kronor och 19 öre på kontot.",
@@ -7764,7 +7796,8 @@
   },
   "1621": {
     "res": "Du bad om en sald och uppgift.",
-    "orig": "du bad om en saldouppgift"
+    "orig": "du bad om en saldouppgift",
+    "norm": "Du bad om en saldouppgift."
   },
   "1622": {
     "res": "Du bad om ett kontoutdrag.",
@@ -7798,12 +7831,12 @@
   "1628": {
     "res": "Du kan avbryta transaktionen genom att säga Avbryt.",
     "orig": "du kan avbryta transaktionen genom att säga avbryt",
-    "norm": "Du kan avbryta transaktionen genom att säga Avbryt."
+    "norm": "Du kan avbryta transaktionen genom att säga avbryt."
   },
   "1629": {
     "res": "Du kan när som helst säga Huvudmeny för att återgå till huvudmenyn.",
     "orig": "du kan när som helst säga huvudmeny för att återgå till huvudmenyn",
-    "norm": "Du kan när som helst säga Huvudmeny för att återgå till huvudmenyn."
+    "norm": "Du kan när som helst säga huvudmeny för att återgå till huvudmenyn."
   },
   "1630": {
     "res": "Du kan när som helst säga upprepa för att få höra den senaste informationen igen.",
@@ -7837,7 +7870,8 @@
   },
   "1636": {
     "res": "Du kan välja mellan följande, sald och uppgift, kontoutdrag eller överföring.",
-    "orig": "du kan välja mellan följande saldouppgift kontoutdrag eller överföring"
+    "orig": "du kan välja mellan följande saldouppgift kontoutdrag eller överföring",
+    "norm": "Du kan välja mellan följande, saldouppgift, kontoutdrag eller överföring."
   },
   "1637": {
     "res": "Du specificerade kontotypen lönekonto.",
@@ -7847,36 +7881,42 @@
   "1638": {
     "res": "Du specificerade kontotypen Personkonto.",
     "orig": "du specificerade kontotypen personkonto",
-    "norm": "Du specificerade kontotypen Personkonto."
+    "norm": "Du specificerade kontotypen personkonto."
   },
   "1639": {
     "res": "Du specificerade kontotypen Sparkonto.",
     "orig": "du specificerade kontotypen sparkonto",
-    "norm": "Du specificerade kontotypen Sparkonto."
+    "norm": "Du specificerade kontotypen sparkonto."
   },
   "1640": {
     "res": "Du uppgav kontonumret 56 78 90 12.",
-    "orig": "du uppgav kontonumret femtiosex sjuttioåtta nittio tolv"
+    "orig": "du uppgav kontonumret femtiosex sjuttioåtta nittio tolv",
+    "norm": "Du uppgav kontonumret 56 78 90 12."
   },
   "1641": {
     "res": "Du uppgav kontonumret 47 67 010-3.",
-    "orig": "du uppgav kontonumret fyrtiosju sextiosju noll tio streck tre"
+    "orig": "du uppgav kontonumret fyrtiosju sextiosju noll tio streck tre",
+    "norm": "Du uppgav kontonumret 47 67 010-3."
   },
   "1642": {
     "res": "Du uppgav kontonumret 65 89-8921.",
-    "orig": "du uppgav kontonumret sextiofem åttionio streck åttionio tjugoett"
+    "orig": "du uppgav kontonumret sextiofem åttionio streck åttionio tjugoett",
+    "norm": "Du uppgav kontonumret 65 89-89 21."
   },
   "1643": {
     "res": "Du uppgav kontonumret 74 907 830.",
-    "orig": "du uppgav kontonumret sjuttiofyra niohundra sju streck åttahundra trettio"
+    "orig": "du uppgav kontonumret sjuttiofyra niohundra sju streck åttahundra trettio",
+    "norm": "Du uppgav kontonumret 74 907-830."
   },
   "1644": {
     "res": "Du uppgav kontonumret 29 452-385.",
-    "orig": "du uppgav kontonumret tjugonio fyrahundra femtiotvå streck trehundra åttiofem"
+    "orig": "du uppgav kontonumret tjugonio fyrahundra femtiotvå streck trehundra åttiofem",
+    "norm": "Du uppgav kontonumret 29 452-385."
   },
   "1645": {
     "res": "Du uppgav kontonumret 38 56 12-94.",
-    "orig": "du uppgav kontonumret trettioåtta femtiosex tolv streck nittiofyra"
+    "orig": "du uppgav kontonumret trettioåtta femtiosex tolv streck nittiofyra",
+    "norm": "Du uppgav kontonumret 38 56 12-94."
   },
   "1646": {
     "res": "Du uppgav kontonumret 830167-49.",
@@ -8093,7 +8133,8 @@
   },
   "1698": {
     "res": "För vilket konto vill du få sald och uppgift?",
-    "orig": "för vilket konto vill du få saldouppgift"
+    "orig": "för vilket konto vill du få saldouppgift",
+    "norm": "För vilket konto vill du få saldouppgift?"
   },
   "1699": {
     "res": "Förlåt, jag förstod inte",
@@ -8118,7 +8159,7 @@
   "1703": {
     "res": "Hej och välkommen till NSTs telefonbank!",
     "orig": "hej och välkommen till nsts telefonbank",
-    "norm": "Hej och välkommen till NSTs telefonbank!"
+    "norm": "Hej och välkommen till NST:s telefonbank!"
   },
   "1704": {
     "res": "Hur mycket pengar vill du föra över?",
