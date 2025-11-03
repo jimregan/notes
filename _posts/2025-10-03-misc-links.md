@@ -207,3 +207,6 @@ This was the Fortnightly Poetry project for March 29, 2020.
 
 [Ken Thompson Recalls Unix’s Rowdy, Lock-Picking Origins](https://thenewstack.io/ken-thompson-recalls-unixs-rowdy-lock-picking-origins/)
 
+[Svenska språknämndens uttalsordbok](https://sprakresurser.isof.se/Svenska_spraknamndens_uttalsordbok/)
+
+
