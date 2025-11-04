@@ -23904,7 +23904,8 @@
   "5044": {
     "res": "Engineering Task Force",
     "orig": "engineering task force",
-    "norm": "Engineering Task Force."
+    "norm": "Engineering Task Force.",
+    "langs": ["en", "en", "en"]
   },
   "5045": {
     "res": "Undersökningen är publicerad i Skaraborgs läns tidning.",
@@ -24068,7 +24069,9 @@
   },
   "5078": {
     "res": "Det kan användas även i Lotus-programpaket SmartSuit.",
-    "orig": "det kan användas även i lotus programpaket smartsuite"
+    "orig": "det kan användas även i lotus programpaket smartsuite",
+    "norm": "Det kan användas även i Lotus programpaket SmartSuite.",
+    "langs": ["sv", "sv", "sv", "sv", "sv", "en", "sv", "en"]
   },
   "5079": {
     "res": "Hur är det då att arbeta med ett så pass stort lokalt nätverk?",
@@ -24132,7 +24135,8 @@
   "5091": {
     "res": "Texas Instrument",
     "orig": "texas instrument",
-    "norm": "Texas Instrument."
+    "norm": "Texas Instrument.",
+    "langs": ["en", "en"]
   },
   "5092": {
     "res": "För det är utbudet för stort",
@@ -24172,7 +24176,8 @@
   "5099": {
     "res": "Monsterna är mer sofistikerade än i Doom.",
     "orig": "monsterna är mer sofistikerade än i doom",
-    "norm": "Monsterna är mer sofistikerade än i Doom."
+    "norm": "Monsterna är mer sofistikerade än i Doom.",
+    "langs": ["sv", "sv", "sv", "sv", "sv", "sv", "en"]
   },
   "5100": {
     "res": "Ett adaptivt system kan också vara anpassningsbart på flera sätt.",
@@ -24302,7 +24307,8 @@
   "5125": {
     "res": "Carol Brigham, analytiker på ICD i USA",
     "orig": "carol briggon analytiker på icd i usa",
-    "norm": "Carol Briggon analytiker på ICD i USA."
+    "norm": "Carol Briggon, analytiker på ICD i USA.",
+    "langs": ["en", "en", "sv", "sv", "sv", "sv", "sv"]
   },
   "5126": {
     "res": "Nyheten är att vi lägger mer vikt vid detta tänkande än tidigare.",
@@ -24322,7 +24328,8 @@
   "5129": {
     "res": "Ernst & Young i Bryssel",
     "orig": "ernst and young i bryssel",
-    "norm": "Ernst & Young i Bryssel."
+    "norm": "Ernst & Young i Bryssel.",
+    "langs": ["en", "en", "en", "sv", "sv"]
   },
   "5130": {
     "res": "Från sidan ser bildskärmen ut som en extremt spetsig triangel.",
@@ -24332,7 +24339,8 @@
   "5131": {
     "res": "Ett exempel är Business Objects som levererar analysverktyg.",
     "orig": "ett exempel är business objects som levererar analysverktyg",
-    "norm": "Ett exempel är Business Objects som levererar analysverktyg."
+    "norm": "Ett exempel är Business Objects som levererar analysverktyg.",
+    "langs": ["sv", "sv", "sv", "en", "en", "sv", "sv", "sv"]
   },
   "5132": {
     "res": "Pris och tillgänglighet är inte kända ännu.",
@@ -24386,12 +24394,15 @@
   },
   "5142": {
     "res": "Eva Salander har anställt som mediekonsult på MessagePlus Media.",
-    "orig": "eva zahlander har anställts som mediekonsult på message plus media"
+    "orig": "eva zahlander har anställts som mediekonsult på message plus media",
+    "norm": "Eva Zahlander har anställts som mediekonsult på Message Plus Media.",
+    "langs": ["sv", "sv", "sv", "sv", "sv", "sv", "sv", "en", "en", "en"]
   },
   "5143": {
     "res": "Henrik Lind har anställt som utvecklingschef på Living Questions.",
     "orig": "henrik lind har anställts som utvecklingschef på living questions",
-    "norm": "Henrik Lind har anställts som utvecklingschef på Living Questions."
+    "norm": "Henrik Lind har anställts som utvecklingschef på Living Questions.",
+    "langs": ["sv", "sv", "sv", "sv", "sv", "sv", "sv", "en", "en"]
   },
   "5144": {
     "res": "Network Associates erbjöd gratis säkerhetstestning på sin webbsida.",
@@ -24553,7 +24564,7 @@
   "5176": {
     "res": "Avsluta med knappen Stäng.",
     "orig": "avsluta med knappen stäng",
-    "norm": "Avsluta med knappen Stäng."
+    "norm": "Avsluta med knappen stäng."
   },
   "5177": {
     "res": "En bra bildskärm, självklart i färg och gärna med hög upplösning.",
@@ -24692,7 +24703,8 @@
   },
   "5204": {
     "res": "Kai Mortensson, vd vid Institutet för livsmedelsforskning",
-    "orig": "kaj mårtensson vd vid institutet för livsmedelsforskning"
+    "orig": "kaj mårtensson vd vid institutet för livsmedelsforskning",
+    "norm": "Kaj Mårtensson, vd vid Institutet för livsmedelsforskning."
   },
   "5205": {
     "res": "Eskilstuna bygger också ut utbildningen.",
@@ -24735,7 +24747,8 @@
   },
   "5213": {
     "res": "HAUF – VD för Scandiabanken Fonder",
-    "orig": "hauff vd för skandiabanken fonder"
+    "orig": "hauff vd för skandiabanken fonder",
+    "norm": "Hauff, vd för Scandiabanken Fonder."
   },
   "5214": {
     "res": "Henne som Maurits gör tummen upp för julhanden så här långt.",
@@ -24761,7 +24774,8 @@
   },
   "5219": {
     "res": "Lomsdalen förvaltare på Svesia",
-    "orig": "lomsdalen förvaltare på svecia"
+    "orig": "lomsdalen förvaltare på svecia",
+    "norm": "Lomsdalen förvaltare på svecia."
   },
   "5220": {
     "res": "Den senaste Tristar väger 12 gram.",
