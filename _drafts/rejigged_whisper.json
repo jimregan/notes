@@ -14458,19 +14458,23 @@
   },
   "3056": {
     "res": "http://",
-    "orig": "h-t-t-p kolon snedstreck snedstreck"
+    "orig": "h-t-t-p kolon snedstreck snedstreck",
+    "norm": "http://"
   },
   "3057": {
     "res": "www.pseudovetenskap.com",
-    "orig": "v-v-v punkt pseudovetenskap punkt com"
+    "orig": "v-v-v punkt pseudovetenskap punkt com",
+    "url": "www.pseudovetenskap.com"
   },
   "3058": {
     "res": "Andersson Snöbel A. KTH. SE",
-    "orig": "andersson snabel-a k-t-h punkt s-e"
+    "orig": "andersson snabel-a k-t-h punkt s-e",
+    "email": "andersson@kth.se"
   },
   "3059": {
     "res": "Vid normal användning klarar batteriet 3,5 timme.",
-    "orig": "vid normal användning klarar batteriet tre och en halv timme"
+    "orig": "vid normal användning klarar batteriet tre och en halv timme",
+    "norm": "Vid normal användning klarar batteriet 3,5 timme."
   },
   "3060": {
     "res": "Att köpa in datorerna kostar nästan en halv miljon kronor.",
@@ -14483,11 +14487,15 @@
   },
   "3062": {
     "res": "8 gånger 5 är lika med 40.",
-    "orig": "åtta gånger fem är lika med fyrtio"
+    "orig": "åtta gånger fem är lika med fyrtio",
+    "norm": "8 gånger 5 är lika med 40.",
+    "math": "8×5=40"
   },
   "3063": {
     "res": "9 plus 7 är lika med 16.",
-    "orig": "nio plus sju är lika med sexton"
+    "orig": "nio plus sju är lika med sexton",
+    "norm": "9 plus 7 är lika med 16.",
+    "math": "9+7=16"
   },
   "3064": {
     "res": "5 minus 12",
@@ -14505,7 +14513,8 @@
   },
   "3067": {
     "res": "Tillväxten är 5 % i veckan.",
-    "orig": "tillväxten är fem procent i veckan"
+    "orig": "tillväxten är fem procent i veckan",
+    "norm": "Tillväxten är 5% i veckan."
   },
   "3068": {
     "res": "Anföringstecken, komma, frågetecken, vänsterparentes, punkt.",
@@ -14515,16 +14524,19 @@
   "3069": {
     "res": "x är större än y.",
     "orig": "x är större än y",
-    "norm": "X är större än y."
+    "norm": "x > y"
   },
   "3070": {
     "res": "Vänster vinkelparentes",
     "orig": "vänster vinkelparentes",
-    "norm": "Vänster vinkelparentes."
+    "norm": "Vänster vinkelparentes.",
+    "char": "<"
   },
   "3071": {
     "res": "Höger krullparantes",
-    "orig": "höger krullparentes"
+    "orig": "höger krullparentes",
+    "norm": "Höger krullparentes.",
+    "char": "}"
   },
   "3072": {
     "res": "Så kan vänster hak- eller fiskmås uttalas.",
@@ -14541,17 +14553,20 @@
   "3075": {
     "res": "E med cirkumflex.",
     "orig": "e med cirkumflex",
-    "norm": "E med cirkumflex."
+    "norm": "E med cirkumflex.",
+    "char": "ê"
   },
   "3076": {
     "res": "Y med trema",
     "orig": "y med trema",
-    "norm": "Y med trema."
+    "norm": "Y med trema.",
+    "char": "ÿ"
   },
   "3077": {
     "res": "A med akut accent.",
     "orig": "a med akut accent",
-    "norm": "A med akut accent."
+    "norm": "A med akut accent.",
+    "char": "á"
   },
   "3078": {
     "res": "Understräck sedilj.",
@@ -14560,20 +14575,25 @@
   "3079": {
     "res": "O med tilde",
     "orig": "o med tilde",
-    "norm": "O med tilde."
+    "norm": "O med tilde.",
+    "char": "õ"
+
   },
   "3080": {
     "res": "U med grav accent.",
     "orig": "u med grav accent",
-    "norm": "U med grav accent."
+    "norm": "U med grav accent.",
+    "char": "ù"
   },
   "3081": {
     "res": "Vertikalsträck?",
-    "orig": "vertikalstreck frågetecken"
+    "orig": "vertikalstreck frågetecken",
+    "char": "|?"
   },
   "3082": {
     "res": "Lodsträck SS",
-    "orig": "lodstreck dubbel-s"
+    "orig": "lodstreck dubbel-s",
+    "char": "|ß"
   },
   "3083": {
     "res": "Paragraftecken apostrof",
@@ -14583,16 +14603,20 @@
   "3084": {
     "res": "Inverterat frågetecken",
     "orig": "inverterat frågetecken",
-    "norm": "Inverterat frågetecken."
+    "norm": "Inverterat frågetecken.",
+    "char": "¿"
   },
   "3085": {
     "res": "Tilde asterisk",
     "orig": "tilde asterisk",
-    "norm": "Tilde asterisk."
+    "norm": "Tilde asterisk.",
+    "char": "~*"
   },
   "3086": {
     "res": "Brägård",
-    "orig": "brädgård"
+    "orig": "brädgård",
+    "norm": "Brädgård.",
+    "char": "#"
   },
   "3087": {
     "res": "Talsträck utropstecken",
@@ -14601,7 +14625,8 @@
   "3088": {
     "res": "Danskt ö.",
     "orig": "danskt ö",
-    "norm": "Danskt ö."
+    "norm": "Danskt ö.",
+    "char": "ø"
   },
   "3089": {
     "res": "Mindre än 12 upphöjt till 1.",
@@ -14610,15 +14635,18 @@
   "3090": {
     "res": "Fem norska kronor motsvarar tio amerikanska dollar.",
     "orig": "fem norska kronor motsvarar tio amerikanska dollar",
-    "norm": "Fem norska kronor motsvarar tio amerikanska dollar."
+    "norm": "Fem norska kronor motsvarar tio amerikanska dollar.",
+    "currency": "5 NOK = 10 USD"
   },
   "3091": {
     "res": "Sju schweiziska frang motsvarar 30 grekiska drasmer.",
-    "orig": "sju schweitziska franc motsvarar trettio grekiska drachmer"
+    "orig": "sju schweitziska franc motsvarar trettio grekiska drachmer",
+    "currency": "7 CHF = 30 GRD"
   },
   "3092": {
     "res": "Tre spanska pesetas ger dig 5 euro och 15 cent.",
-    "orig": "tre spanska pesetas ger dig fem euro och femton cent"
+    "orig": "tre spanska pesetas ger dig fem euro och femton cent",
+    "currency": "3 ESP = 5.15 EUR"
   },
   "3093": {
     "res": "För en dansk krona får du två portugisiska escudo.",
@@ -14718,7 +14746,8 @@
   },
   "3115": {
     "res": "God dag!",
-    "orig": "goddag"
+    "orig": "goddag",
+    "norm": "Goddag!"
   },
   "3116": {
     "res": "Hallå?",
@@ -14741,7 +14770,8 @@
   },
   "3120": {
     "res": "Aja",
-    "orig": "adjö"
+    "orig": "adjö",
+    "norm": "Adjö."
   },
   "3121": {
     "res": "Ha det bra!",
@@ -14750,7 +14780,8 @@
   },
   "3122": {
     "res": "Tjapp!",
-    "orig": "tja"
+    "orig": "tja",
+    "norm": "Tja!"
   },
   "3123": {
     "res": "Goddagens!",
@@ -23707,11 +23738,14 @@
   "5012": {
     "res": "Brownlee Thomas, analytiker på Giga Information Group",
     "orig": "brownlee thomas analytiker på giga information group",
-    "norm": "Brownlee Thomas, analytiker på Giga Information Group."
+    "norm": "Brownlee Thomas, analytiker på Giga Information Group.",
+    "langs": ["en", "en", "sv", "sv", "en", "en", "en"]
   },
   "5013": {
     "res": "Europa är på väg i fatt USA enligt konsultjätten Anderson Consulting.",
-    "orig": "europa är på väg ifatt usa enligt konsultjätten andersen consulting"
+    "orig": "europa är på väg ifatt usa enligt konsultjätten andersen consulting",
+    "norm": "Europa är på väg ifatt USA enligt konsultjätten Andersen Consulting.",
+    "langs": ["sv", "sv", "sv", "sv", "sv", "sv", "sv", "sv", "en", "en"]
   },
   "5014": {
     "res": "Systemet används redan i Danmark.",
@@ -23730,7 +23764,8 @@
   },
   "5017": {
     "res": "Krister Marking",
-    "orig": "christer marking"
+    "orig": "christer marking",
+    "norm": "Christer Marking."
   },
   "5018": {
     "res": "Kunderna ska få en svarstid på runt en sekund.",
@@ -23744,7 +23779,9 @@
   },
   "5020": {
     "res": "Let's Buy It's grundare",
-    "orig": "letsbuyits grundare"
+    "orig": "letsbuyits grundare",
+    "norm": "LetsBuyIt:s grundare.",
+    "langs": ["en+", "sv"]
   },
   "5021": {
     "res": "så jag vet inte vad som är sant.",
@@ -23754,12 +23791,14 @@
   "5022": {
     "res": "Dell börjar bygga arbetsstationer.",
     "orig": "dell börjar bygga arbetsstationer",
-    "norm": "Dell börjar bygga arbetsstationer."
+    "norm": "Dell börjar bygga arbetsstationer.",
+    "langs": ["en", "sv", "sv", "sv"]
   },
   "5023": {
     "res": "För designarbetet står amerikanska Organics.",
     "orig": "för designarbetet står amerikanska organics",
-    "norm": "För designarbetet står amerikanska Organics."
+    "norm": "För designarbetet står amerikanska Organics.",
+    "langs": ["sv", "sv", "sv", "sv", "en"]
   },
   "5024": {
     "res": "Finland, säger Tony Salter.",
@@ -23769,7 +23808,8 @@
   "5025": {
     "res": "Intel blir minoritetsdelägare i prover.",
     "orig": "intel blir minoritetsdelägare i prover",
-    "norm": "Intel blir minoritetsdelägare i prover."
+    "norm": "Intel blir minoritetsdelägare i prover.",
+    "langs": ["en", "sv", "sv", "sv", "sv"]
   },
   "5026": {
     "res": "På stureplan kommer den att lanseras.",
@@ -23853,7 +23893,8 @@
   },
   "5042": {
     "res": "Simens, Soni och Alcatel",
-    "orig": "siemens sony och alcatel"
+    "orig": "siemens sony och alcatel",
+    "norm": "Siemens, Sony och Alcatel."
   },
   "5043": {
     "res": "För många leder till trafikstockning.",
@@ -23964,7 +24005,8 @@
   },
   "5065": {
     "res": "En bättre, mer entusiastisk hund har nog aldrig skådats.",
-    "orig": "en bättre mer entusiastisk kund har nog aldrig skådats"
+    "orig": "en bättre mer entusiastisk kund har nog aldrig skådats",
+    "norm": "En bättre, mer entusiastisk kund har nog aldrig skådats."
   },
   "5066": {
     "res": "Boken tar bland annat upp rubriksättning, formgivning och länkning.",
@@ -23992,7 +24034,8 @@
   },
   "5071": {
     "res": "Elisabeth Järrestrand",
-    "orig": "elisabeth järestrand"
+    "orig": "elisabeth järestrand",
+    "norm": "Elisabeth Järestrand."
   },
   "5072": {
     "res": "Men dessa ser inte verkligheten.",
@@ -24123,7 +24166,8 @@
   },
   "5098": {
     "res": "Web-teknik i termer som första sida, antal klick och länkar.",
-    "orig": "webteknik i termer som första sida antal klick och länkar"
+    "orig": "webteknik i termer som första sida antal klick och länkar",
+    "norm": "Webbteknik i termer som första sida, antal klick och länkar."
   },
   "5099": {
     "res": "Monsterna är mer sofistikerade än i Doom.",
@@ -24232,7 +24276,8 @@
   },
   "5120": {
     "res": "ICSA är drift hos Europolitan.",
-    "orig": "icsa i drift hos europolitan"
+    "orig": "icsa i drift hos europolitan",
+    "norm": "ICSA i drift hos Europolitan."
   },
   "5121": {
     "res": "Statskontorets utredning",
@@ -24247,7 +24292,7 @@
   "5123": {
     "res": "Mikael Allander",
     "orig": "michael allander",
-    "norm": "Michael allander."
+    "norm": "Michael Allander."
   },
   "5124": {
     "res": "Tyskland och Sverige",
@@ -24256,7 +24301,8 @@
   },
   "5125": {
     "res": "Carol Brigham, analytiker på ICD i USA",
-    "orig": "carol briggon analytiker på icd i usa"
+    "orig": "carol briggon analytiker på icd i usa",
+    "norm": "Carol Briggon analytiker på ICD i USA."
   },
   "5126": {
     "res": "Nyheten är att vi lägger mer vikt vid detta tänkande än tidigare.",
@@ -24275,7 +24321,8 @@
   },
   "5129": {
     "res": "Ernst & Young i Bryssel",
-    "orig": "ernst and young i bryssel"
+    "orig": "ernst and young i bryssel",
+    "norm": "Ernst & Young i Bryssel."
   },
   "5130": {
     "res": "Från sidan ser bildskärmen ut som en extremt spetsig triangel.",
@@ -24470,7 +24517,8 @@
   },
   "5169": {
     "res": "Centrala Europa samt i Medelhavsområdet",
-    "orig": "centraleuropa samt i medelhavsområdet"
+    "orig": "centraleuropa samt i medelhavsområdet",
+    "norm": "Centraleuropa samt i Medelhavsområdet."
   },
   "5170": {
     "res": "Vi gör industrin en tjänst.",
@@ -24539,7 +24587,8 @@
   },
   "5183": {
     "res": "Unix-maskiner och stordatorer",
-    "orig": "unixmaskiner och stordatorer"
+    "orig": "unixmaskiner och stordatorer",
+    "norm": "Unix-maskiner och stordatorer."
   },
   "5184": {
     "res": "Stora nationella spelare köps upp i rask takt.",
@@ -24730,7 +24779,8 @@
   },
   "5223": {
     "res": "Detta dementeras inte av vd Ulf Törnqvist.",
-    "orig": "detta dementeras inte av vd ulf thörnqvist"
+    "orig": "detta dementeras inte av vd ulf thörnqvist",
+    "norm": "Detta dementeras inte av vd Ulf Thörnqvist."
   },
   "5224": {
     "res": "En hel del för ganska många uppenbarligen.",
