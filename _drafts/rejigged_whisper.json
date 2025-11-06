@@ -14499,7 +14499,9 @@
   },
   "3064": {
     "res": "5 minus 12",
-    "orig": "fem minus tolv"
+    "orig": "fem minus tolv",
+    "norm": "5 minus 12.",
+    "math": "5−12"
   },
   "3065": {
     "res": "Vid boktitlar används företrädesvis citationstecken.",
@@ -23674,7 +23676,8 @@
   },
   "4999": {
     "res": "Nasser Faridoun",
-    "orig": "nasser faridoon"
+    "orig": "nasser faridoon",
+    "norm": "Nasser Faridoon."
   },
   "5000": {
     "res": "Tack så mycket!",
@@ -23684,7 +23687,8 @@
   "5001": {
     "res": "Riskkapitalbolaget Extended Capital Group pressas också av marknaden.",
     "orig": "riskkapitalbolaget extended capital group pressas också av marknaden",
-    "norm": "Riskkapitalbolaget Extended Capital Group pressas också av marknaden."
+    "norm": "Riskkapitalbolaget Extended Capital Group pressas också av marknaden.",
+    "langs": ["sv", "en", "en", "en", "sv", "sv", "sv", "sv"]
   },
   "5002": {
     "res": "säga vad man vill om bo.",
@@ -23973,7 +23977,8 @@
   },
   "5058": {
     "res": "Det är som de sa i lumpen självmarkerande",
-    "orig": "det är som dom sa i lumpen självmarkerande"
+    "orig": "det är som dom sa i lumpen självmarkerande",
+    "norm": "Det är som dom sa i lumpen självmarkerande."
   },
   "5059": {
     "res": "Forskningsprogrammet pågår i fem år.",
@@ -24060,7 +24065,8 @@
   },
   "5076": {
     "res": "X-Bug läses in.",
-    "orig": "exebug läses in"
+    "orig": "exebug läses in",
+    "norm": "Exebug läses in."
   },
   "5077": {
     "res": "IP är förbindelselöst.",
