@@ -52,7 +52,8 @@
   "0011": {
     "res": "City verkar lika obebot som en småstad.",
     "orig": "city verkar lika obebott som en småstad",
-    "norm": "City verkar lika obebott som en småstad."
+    "norm": "City verkar lika obebott som en småstad.",
+    "langs": ["en", "sv", "sv", "sv", "sv", "sv", "sv"]
   },
   "0012": {
     "res": "Därefter har de emellertid fått ligga ostörda.",
@@ -206,7 +207,8 @@
   },
   "0042": {
     "res": "Ett nytt landskap möter du bakom varje krön.",
-    "orig": "ett nytt landskap möter bakom varje krön"
+    "orig": "ett nytt landskap möter bakom varje krön",
+    "norm": "Ett nytt landskap möter bakom varje krön."
   },
   "0043": {
     "res": "Det där känner nog många igen",
@@ -396,7 +398,8 @@
   "0080": {
     "res": "De har större chans att bli trodda idag",
     "orig": "de har större chans att bli trodda i dag",
-    "norm": "De har större chans att bli trodda i dag."
+    "norm": "De har större chans att bli trodda i dag.",
+    "langs": ["sv", "sv", "sv", "fr:", "sv", "sv", "sv", "sv", "sv"]
   },
   "0081": {
     "res": "Nyslungad honung är lös som sirap.",
