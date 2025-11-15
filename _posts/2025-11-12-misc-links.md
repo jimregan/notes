@@ -9,3 +9,11 @@ categories: [links]
 
 [Hungarian audiobooks search, Youtube](https://www.youtube.com/results?search_query=hangosk%C3%B6nyv)
 
+[Neon: Negative Extrapolation From Self-Training Improves Image Generation](https://arxiv.org/abs/2510.03597),
+[code](https://github.com/VITA-Group/Neon)
+
+[libritts](https://huggingface.co/datasets/mythicinfinity/libritts),
+[orig](https://www.openslr.org/60/)
+
+[UD_Polish-MPDT](https://github.com/UniversalDependencies/UD_Polish-MPDT) --- treebank of Middle Polish (17th–18th centuries)
+
