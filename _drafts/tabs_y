@@ -272,16 +272,7 @@ Add new augmentation: lowpass using back-and-forth resampling via libsox by raco
 https://github.com/lhotse-speech/lhotse/pull/1511
 
 Add GigaSpeech 2 recipe by yfyeung · Pull Request #1506 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1506
-
-Randomized shard slicing for Lhotse Shar by pzelasko · Pull Request #1505 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1505
-
-allow reading kaldi `text` file with utterances having empty references by KarelVesely84 · Pull Request #1496 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1496
-
-Iwslt 2022 dialect by m-wiesner · Pull Request #656 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/656
+https://github.com/lhotse-speech/lhotse/pull/1506/files
 
 Satellite Workshops - 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
 https://2026.ieeeicassp.org/satellite-workshops/
