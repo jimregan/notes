@@ -172,9 +172,6 @@ https://aidemos.meta.com/segment-anything/gallery
 [2511.13720] Back to Basics: Let Denoising Generative Models Denoise
 https://arxiv.org/abs/2511.13720
 
-(3) Jürgen Schmidhuber on X: "Who invented convolutional neural networks (CNNs)? 1969: Fukushima had CNN-relevant ReLUs [2]. 1979: Fukushima had the basic CNN architecture with convolution layers and downsampling layers [1]. Compute was 100 x more costly than in 1989, and a billion x more costly than https://t.co/TRS8zg4vCA" / X
-https://x.com/SchmidhuberAI/status/1952007922721919219
-
 (3) 机器之心 JIQIZHIXIN on X: "Huge! @TianhongLi6 &amp; Kaiming He (inventor of ResNet) just Introduced JiT (Just image Transformers)! JiTs are simple large-patch Transformers that operate on raw pixels, no tokenizer, pre-training, or extra losses needed. By predicting clean data on the natural-data manifold, https://t.co/5HnJyDuHDn" / X
 https://x.com/jiqizhixin/status/1990700499327181247
 
@@ -183,18 +180,6 @@ https://x.com/ankitatr_/status/1990386140692795850/photo/1
 
 2305.07759
 https://arxiv.org/pdf/2305.07759
-
-(3) Dave W Plummer on X: "I suppose there's a whole class of programmers for whom a compiler is akin to magic, but knowing what's getting emitted and how it works is fundamental to your success over the long haul. Write some assembly. Read the Dragon book on an airplane. AI will still be here when you https://t.co/iNgvtbpbMc" / X
-https://x.com/davepl1968/status/1990493729044771084
-
-(3) Dr Mariana Claire Marinovic 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇮🇲 on X: "Oh Lordy. @sophielouisecc you really are a nugget. The Trafalgar Square Christmas tree is a gift from the people of Oslo to the people of London. We have been gifted the tree since 1947. It is decorated in the traditional Oslo way. Look at the tree in Oslo. https://t.co/OkAtxtKv43" / X
-https://x.com/DrMarianaClaire/status/1990374860749746493
-
-(3) Daniel San on X: "LLMs aren't deterministic Even at temperature=0, you get different outputs for the same prompt. Most think it's just "GPU randomness"... It's not. The real reason: your output changes based on how many other users are on the server. Different batch sizes = different results. https://t.co/lVNr2SlcEP" / X
-https://x.com/dani_avila7/status/1990457810958655550
-
-Google Accounts
-https://accounts.google.com/b/1/AddMailService
 
 Connecting Your Research Outputs with OSF
 https://mailchi.mp/osf/tips-and-tricks-metadata-6150670?e=581e9f22a0
@@ -217,8 +202,17 @@ https://sites.google.com/view/vardial-2026/
 VarDial 2026 - Call for Papers
 https://sites.google.com/view/vardial-2026/call-for-papers?authuser=0
 
-Panelshow
-https://www.reddit.com/r/panelshow/
+VarDial 2026
+https://sites.google.com/view/vardial-2026/home?authuser=0
+
+VarDial 2025 - Program
+https://sites.google.com/view/vardial-2025/program?authuser=0
+
+Learning Cross-Dialectal Morphophonology with Syllable Structure Constraints
+https://aclanthology.org/2025.vardial-1.12.pdf
+
+heinz-jeffrey/bufia
+https://github.com/heinz-jeffrey/bufia
 
 Bäst i Test (Taskmaster Sweden) S11E03 [w/ Eng subs] : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1oy8rb0/b%C3%A4st_i_test_taskmaster_sweden_s11e03_w_eng_subs/
@@ -269,15 +263,75 @@ Add new augmentation: soft/hard clipping by racoiaws · Pull Request #1512 · lh
 https://github.com/lhotse-speech/lhotse/pull/1512
 
 Add new augmentation: lowpass using back-and-forth resampling via libsox by racoiaws · Pull Request #1511 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1511
+https://github.com/lhotse-speech/lhotse/pull/1511/files#diff-bea8b10d58c7e675d5f6d19175c1c5e080b10d14b02c0755204e6e300b04cce2
 
-Add GigaSpeech 2 recipe by yfyeung · Pull Request #1506 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1506/files
+patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
+https://patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
 
 Satellite Workshops - 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
 https://2026.ieeeicassp.org/satellite-workshops/
 
 ELRA | ELRA Language Resources Association
 https://www.elra.info/
+
+PyO3/pyo3: Rust bindings for the Python interpreter
+https://github.com/PyO3/pyo3?tab=readme-ov-file
+
+gperinazzo/dict-derive: Derive PyO3's FromPyObject to automatically transform Python dicts into Rust structs
+https://github.com/gperinazzo/dict-derive
+
+pyo3-bytes - crates.io: Rust Package Registry
+https://crates.io/crates/pyo3-bytes
+
+object_store - Rust
+https://docs.rs/object_store/latest/object_store/
+
+yankun1992/fastbloom: A fast bloom filter implemented by Rust for Python! 10x faster than pybloom!
+https://github.com/yankun1992/fastbloom
+
+kylebarron/geo-index: A Rust crate and Python library for packed, immutable, zero-copy spatial indexes.
+https://github.com/kylebarron/geo-index
+
+jinlow/forust: A lightweight gradient boosted decision tree package.
+https://github.com/jinlow/forust
+
+Instagram
+https://www.instagram.com/
+
+Regional accents of English - Wikipedia
+https://en.wikipedia.org/wiki/Regional_accents_of_English
+
+Hiberno-English - Wikipedia
+https://en.wikipedia.org/wiki/Hiberno-English#Standard_Irish_English
+
+Sinterklaas Goodies Order Online | Worldwide Delivery
+https://www.dutchexpatshop.com/en/sinterklaas/
+
+SweHun - marknadsplats – SweHun.com
+https://swehun.com/?srsltid=AfmBOooSUSMe5A058fyBhtLPNF1fBYuHq1gNDQIVzrgj8SJr5byE3GbI
+
+Slovak or hungarian shop around stockholm? : r/stockholm
+https://www.reddit.com/r/stockholm/comments/16s2rt3/slovak_or_hungarian_shop_around_stockholm/
+
+Sidan kan inte hittas - Stjerna Delikatess
+https://www.stjernadelikatess.se/konfektyr-edesseg
+
+Karácsony, Jul – SweHun.com
+https://swehun.com/collections/karacsony-jul
+
+köszön - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/k%C3%B6sz%C3%B6n#Hungarian
+
+New tab
+chrome://newtab/
+
+Category:Dutch cuisine - Wikipedia
+https://en.wikipedia.org/wiki/Category:Dutch_cuisine
+
+Category:Sinterklaas food - Wikipedia
+https://en.wikipedia.org/wiki/Category:Sinterklaas_food
+
+Category:Dutch pastries - Wikipedia
+https://en.wikipedia.org/wiki/Category:Dutch_pastries
 
 
