@@ -17,3 +17,14 @@ categories: [links]
 
 [UD_Polish-MPDT](https://github.com/UniversalDependencies/UD_Polish-MPDT) --- treebank of Middle Polish (17th–18th centuries)
 
+[Egyptian-UJaen treebank](https://github.com/UniversalDependencies/UD_Egyptian-UJaen)
+
+[lhotse -- Add GigaSpeech 2 recipe](https://github.com/lhotse-speech/lhotse/pull/1506/files)
+
+[Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720)
+
+[warcio](https://pypi.org/project/warcio/),
+[github](https://github.com/webrecorder/warcio)
+
+[P4 local channels](https://www.sverigesradio.se/kanaler/hitta-lokal-kanal)
+
