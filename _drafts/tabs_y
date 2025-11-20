@@ -55,38 +55,20 @@ https://translate.google.com/?sl=fi&tl=en&text=Valtiolta%20t%C3%A4ysk%C3%A4%C3%A
 Gun Olofssonin taistelusta äänen kans tullee dokymentääri: ”Laulu oli minun identtiteetti” - Meänraatio | Sveriges Radio
 https://www.sverigesradio.se/artikel/gun-olofssonin-taistelusta-aanen-kans-tullee-dokymentaari-laulu-oli-minun-identtiteetti
 
-Alla lokala P4-kanaler
-https://www.sverigesradio.se/kanaler/hitta-lokal-kanal
+Tablå P4 Göteborg - Sveriges Radio
+https://www.sverigesradio.se/kanaler/tabla/p4-goteborg
 
-The Lady of the Lake (Sapkowski novel) - Wikipedia
-https://en.wikipedia.org/wiki/The_Lady_of_the_Lake_(Sapkowski_novel)
+Capture radio streams
+https://chatgpt.com/c/691f1e55-6764-832e-acd1-41012243a684
 
-audio - How I can record stream radio in Linux? - Unix & Linux Stack Exchange
-https://unix.stackexchange.com/questions/85812/how-i-can-record-stream-radio-in-linux
+This is Swedish Radio's open API - Öppet API | Sveriges Radio
+https://www.sverigesradio.se/artikel/this-is-swedish-radios-open-api
 
-Saving online radio stream to a file : r/n8n
-https://www.reddit.com/r/n8n/comments/17x0dwu/saving_online_radio_stream_to_a_file/
+api.sr.se/api/v2/playlists/rightnow?channelid=213
+https://api.sr.se/api/v2/playlists/rightnow?channelid=213
 
-streamripper/streamripper
-https://github.com/streamripper/streamripper
-
-Hugging Face – The AI community building the future.
-https://huggingface.co/
-
-warc deduplication - Google Search
-https://www.google.com/search?q=warc+deduplication&rlz=1C5GCCM_en&oq=warc+dedupli&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDM5NTBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-arcalex/warcrefs: Web archive deduplication tools
-https://github.com/arcalex/warcrefs
-
-Proposal for Standardizing the Recording of Arbitrary Duplicates in WARC Files
-https://iipc.github.io/warc-specifications/specifications/warc-deduplication/recording-arbitrary-duplicates-1.0/
-
-Peter Marheine / warcdedupe · GitLab
-https://gitlab.com/taricorp/warcdedupe
-
-warcio · PyPI
-https://pypi.org/project/warcio/
+api.sr.se/api/v2/channels/
+https://api.sr.se/api/v2/channels/
 
 Web Archive Collection Zipped (WACZ)
 https://specs.webrecorder.net/wacz/1.1.1/
@@ -130,8 +112,8 @@ https://www.google.com/search?q=open+source+redis+alternative&rlz=1C5GCCM_en&oq=
 Valkey: The Open Source Alternative to Redis Backed by AWS, Google, Oracle : r/programming
 https://www.reddit.com/r/programming/comments/1bq5zgj/valkey_the_open_source_alternative_to_redis/
 
-FAQ
-https://radicle.xyz/faq
+Radicle User Guide
+https://radicle.xyz/guides/user
 
 valkey-io/valkey: A flexible distributed key-value database that is optimized for caching and other realtime workloads.
 https://github.com/valkey-io/valkey?tab=License-1-ov-file#readme
@@ -168,12 +150,6 @@ https://x.com/home
 
 Meta AI Demos
 https://aidemos.meta.com/segment-anything/gallery
-
-[2511.13720] Back to Basics: Let Denoising Generative Models Denoise
-https://arxiv.org/abs/2511.13720
-
-(3) 机器之心 JIQIZHIXIN on X: "Huge! @TianhongLi6 &amp; Kaiming He (inventor of ResNet) just Introduced JiT (Just image Transformers)! JiTs are simple large-patch Transformers that operate on raw pixels, no tokenizer, pre-training, or extra losses needed. By predicting clean data on the natural-data manifold, https://t.co/5HnJyDuHDn" / X
-https://x.com/jiqizhixin/status/1990700499327181247
 
 (3) Melvin Vivas on X: "If you don't have a GPU, use the free T4 GPU provided by @GoogleColab to learn open models Decent to run small models since it has 16gb VRAM. This is good enough for inference even for training @UnslothAI also has a lot of notebooks if you want to train your own open models, https://t.co/X3Zyp0LfV3" / X
 https://x.com/ankitatr_/status/1990386140692795850/photo/1
@@ -229,9 +205,6 @@ https://drive.google.com/file/d/19APo7prgAh-IN1olkGaoEhv4qBCek3-f/view
 Series 33 - Google Drive
 https://drive.google.com/drive/u/0/folders/13DgBC0KZmXf5ygV4vmD_a5C-XoGpwuSA
 
-americans try to understand alan carr being british for 10 minutes | Alan Carr: Chatty Man - YouTube
-https://www.youtube.com/watch?v=vy7eJYghOwQ
-
 facebookresearch/matrix: Matrix (Multi-Agent daTa geneRation Infra and eXperimentation framework) is a versatile engine for multi-agent conversational data generation.
 https://github.com/facebookresearch/matrix?tab=readme-ov-file
 
@@ -244,94 +217,25 @@ https://docs.ray.io/en/latest/data/loading-data.html#loading-data-from-other-lib
 Ray Train: Scalable Model Training — Ray 2.51.1
 https://docs.ray.io/en/latest/train/train.html
 
+Ray Train Overview — Ray 2.51.1
+https://docs.ray.io/en/latest/train/overview.html#train-overview
+
+Get Started with Distributed Training using PyTorch Lightning — Ray 2.51.1
+https://docs.ray.io/en/latest/train/getting-started-pytorch-lightning.html#train-pytorch-lightning
+
+Get Started with Distributed Training using Hugging Face Transformers — Ray 2.51.1
+https://docs.ray.io/en/latest/train/getting-started-transformers.html#train-pytorch-transformers
+
 facebookincubator/submitit: Python 3.8+ toolbox for submitting jobs to Slurm
-https://github.com/facebookincubator/submitit
+https://github.com/facebookincubator/submitit?tab=readme-ov-file
 
-Pull requests · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pulls
-
-Pull requests · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pulls?page=3&q=is%3Apr+is%3Aclosed
-
-Add chime6 download by domklement · Pull Request #1526 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1526
-
-ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
-https://2026.ieeeicassp.org/
-
-Add new augmentation: soft/hard clipping by racoiaws · Pull Request #1512 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1512
-
-Add new augmentation: lowpass using back-and-forth resampling via libsox by racoiaws · Pull Request #1511 · lhotse-speech/lhotse
-https://github.com/lhotse-speech/lhotse/pull/1511/files#diff-bea8b10d58c7e675d5f6d19175c1c5e080b10d14b02c0755204e6e300b04cce2
+submitit/docs/examples.md at main · facebookincubator/submitit
+https://github.com/facebookincubator/submitit/blob/main/docs/examples.md
 
 patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
 https://patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
 
 Satellite Workshops - 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
-https://2026.ieeeicassp.org/satellite-workshops/
-
-ELRA | ELRA Language Resources Association
-https://www.elra.info/
-
-PyO3/pyo3: Rust bindings for the Python interpreter
-https://github.com/PyO3/pyo3?tab=readme-ov-file
-
-gperinazzo/dict-derive: Derive PyO3's FromPyObject to automatically transform Python dicts into Rust structs
-https://github.com/gperinazzo/dict-derive
-
-pyo3-bytes - crates.io: Rust Package Registry
-https://crates.io/crates/pyo3-bytes
-
-object_store - Rust
-https://docs.rs/object_store/latest/object_store/
-
-yankun1992/fastbloom: A fast bloom filter implemented by Rust for Python! 10x faster than pybloom!
-https://github.com/yankun1992/fastbloom
-
-kylebarron/geo-index: A Rust crate and Python library for packed, immutable, zero-copy spatial indexes.
-https://github.com/kylebarron/geo-index
-
-jinlow/forust: A lightweight gradient boosted decision tree package.
-https://github.com/jinlow/forust
-
-Instagram
-https://www.instagram.com/
-
-Regional accents of English - Wikipedia
-https://en.wikipedia.org/wiki/Regional_accents_of_English
-
-Hiberno-English - Wikipedia
-https://en.wikipedia.org/wiki/Hiberno-English#Standard_Irish_English
-
-Sinterklaas Goodies Order Online | Worldwide Delivery
-https://www.dutchexpatshop.com/en/sinterklaas/
-
-SweHun - marknadsplats – SweHun.com
-https://swehun.com/?srsltid=AfmBOooSUSMe5A058fyBhtLPNF1fBYuHq1gNDQIVzrgj8SJr5byE3GbI
-
-Slovak or hungarian shop around stockholm? : r/stockholm
-https://www.reddit.com/r/stockholm/comments/16s2rt3/slovak_or_hungarian_shop_around_stockholm/
-
-Sidan kan inte hittas - Stjerna Delikatess
-https://www.stjernadelikatess.se/konfektyr-edesseg
-
-Karácsony, Jul – SweHun.com
-https://swehun.com/collections/karacsony-jul
-
-köszön - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/k%C3%B6sz%C3%B6n#Hungarian
-
-New tab
-chrome://newtab/
-
-Category:Dutch cuisine - Wikipedia
-https://en.wikipedia.org/wiki/Category:Dutch_cuisine
-
-Category:Sinterklaas food - Wikipedia
-https://en.wikipedia.org/wiki/Category:Sinterklaas_food
-
-Category:Dutch pastries - Wikipedia
-https://en.wikipedia.org/wiki/Category:Dutch_pastries
+https://2026.ieeeicassp.org/satellite-workshops/#workshop-5
 
 
