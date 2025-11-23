@@ -142,18 +142,6 @@ https://x.com/home
 Meta AI Demos
 https://aidemos.meta.com/segment-anything/gallery
 
-(3) Melvin Vivas on X: "If you don't have a GPU, use the free T4 GPU provided by @GoogleColab to learn open models Decent to run small models since it has 16gb VRAM. This is good enough for inference even for training @UnslothAI also has a lot of notebooks if you want to train your own open models, https://t.co/X3Zyp0LfV3" / X
-https://x.com/ankitatr_/status/1990386140692795850/photo/1
-
-2305.07759
-https://arxiv.org/pdf/2305.07759
-
-Connecting Your Research Outputs with OSF
-https://mailchi.mp/osf/tips-and-tricks-metadata-6150670?e=581e9f22a0
-
-OSF
-https://osf.io/
-
 🇭🇺 1956. október 23. | Patreon
 https://www.patreon.com/posts/1956-oktober-23-140617687?utm_campaign=patron_engagement&utm_source=post_link&post_id=140617687&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpc19rZXkiOiJpYTI6YmY5NGFmZjEtZWMxNy00ZjljLTlkMTItYjQ0MDk5OTY4ZDk5IiwicG9zdF9pZCI6MTQwNjE3Njg3LCJwYXRyb25faWQiOjU1NTc4MTAyfQ.BL6NH_DUMrjSrtkYUf5_lZ7pleFoTtVhjlBs_n74ZlQ&utm_id=d55763ba-55e6-4a4e-b1e3-93145874db6a&utm_medium=email
 
@@ -181,8 +169,8 @@ https://sites.google.com/view/vardial-2025/program?authuser=0
 Learning Cross-Dialectal Morphophonology with Syllable Structure Constraints
 https://aclanthology.org/2025.vardial-1.12.pdf
 
-heinz-jeffrey/bufia
-https://github.com/heinz-jeffrey/bufia
+bufia/sanity at main · heinz-jeffrey/bufia
+https://github.com/heinz-jeffrey/bufia/tree/main/sanity
 
 Bäst i Test (Taskmaster Sweden) S11E03 [w/ Eng subs] : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1oy8rb0/b%C3%A4st_i_test_taskmaster_sweden_s11e03_w_eng_subs/
@@ -199,8 +187,11 @@ https://www.youtube.com/watch?v=xND54jnbTwU
 5 Signs You’re A High-Masking Autistic With ADHD - YouTube
 https://www.youtube.com/watch?v=ZlFSeamEJbA
 
+ChatGPT - CBT
+https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/69235a13-2698-8328-a707-78ec6b4ad8b9
+
 facebookresearch/matrix: Matrix (Multi-Agent daTa geneRation Infra and eXperimentation framework) is a versatile engine for multi-agent conversational data generation.
-https://github.com/facebookresearch/matrix?tab=readme-ov-file
+https://github.com/facebookresearch/matrix
 
 ray-project/ray: Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.
 https://github.com/ray-project/ray?tab=readme-ov-file
@@ -229,41 +220,47 @@ https://github.com/facebookincubator/submitit/blob/main/docs/examples.md
 patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
 https://patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff
 
-(3) Home / X
+Home / X
 https://x.com/home
-
-Search results
-https://zenodo.org/search?q=rdf&l=list&p=2&s=10&sort=bestmatch
 
 Schrijverskabinet RDF
 https://zenodo.org/records/4727106
 
-Response letter to the reviewers of "Performing live time-traversal queries on RDF datasets" (SWJ)
-https://zenodo.org/records/7162279
+Introduction · Golden Agents ECARTICO Datasprint
+https://uvacreate.gitlab.io/datasprint-ecartico-2020/
 
-SPARQL-Generate implementation over Apache Jena
-https://zenodo.org/records/3965916
+LvanWissen/schrijverskabinet-rdf at 2.0
+https://github.com/LvanWissen/schrijverskabinet-rdf/tree/2.0
 
-Serbo-Croatian DBnary archive in original Lemon format
-https://zenodo.org/records/5237188
+sparql-generate/sparql-generate: SPARQL-Generate implementation over Apache Jena
+https://github.com/sparql-generate/sparql-generate?tab=License-1-ov-file#readme
 
-DBnary: Wiktionary as a Lemon-based multilingual lexical resource in RDF - Sebastian Hellmann, Steven Moran, Martin Brümmer, John McCrae, Gilles Sérasset, 2015
-https://journals.sagepub.com/doi/full/10.3233/SW-140147
+SPARQL-Generate
+https://ci.mines-stetienne.fr/sparql-generate/
 
-About Us – thedatahub.org
-https://www.thedatahub.org/about-us/
+Converting the PAROLE SIMPLE CLIPS lexicon into RDF with lemon - Sebastian Hellmann, Steven Moran, Martin Brümmer, John P. McCrae, Riccardo Del Gratta, Francesca Frontini, Fahad Khan, Monica Monachini, 2015
+https://journals.sagepub.com/doi/10.3233/SW-140168?icid=int.sj-full-text.similar-articles.3
 
 dbnary - Google Search
 https://www.google.com/search?q=dbnary&rlz=1C5GCCM_en&oq=dbnary&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQLhgKGAsYgAQyDggCEC4YChgLGNQCGIAEMg4IAxAuGAoYCxjUAhiABDILCAQQABgKGAsYgAQyDggFEC4YChgLGNQCGIAEMg4IBhAuGAoYCxjUAhiABDIGCAcQRRg80gEHOTYzajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
 
-serasset/dbnary: DBnary extractor mirror - See https://gitlab.com/gilles.serasset/dbnary
-https://github.com/serasset/dbnary
+Dbnary: Wiktionary as a LMF based Multilingual RDF network - ACL Anthology
+https://aclanthology.org/L12-1195/
+
+DBnary - Wiktionary Lexical Data in RDF/Ontolex - All languages
+https://zenodo.org/records/10474621
+
+dbnary/dbnary-extractor/src/main at master · serasset/dbnary
+https://github.com/serasset/dbnary/tree/master/dbnary-extractor/src/main
+
+dbnary/dbnary-extractor/src/main/scala/org/getalp/dbnary/languages/eng/DerivationsParser.scala at master · serasset/dbnary
+https://github.com/serasset/dbnary/blob/master/dbnary-extractor/src/main/scala/org/getalp/dbnary/languages/eng/DerivationsParser.scala
+
+dbnary/dbnary-extractor/src/main/java/org/getalp/wiktionary/WiktionaryIndex.java at master · serasset/dbnary
+https://github.com/serasset/dbnary/blob/master/dbnary-extractor/src/main/java/org/getalp/wiktionary/WiktionaryIndex.java
 
 Dbnary – Wiktionary as Linguistic Linked Open Data
 https://kaiko.getalp.org/about-dbnary/
-
-Page not found | GETALP : Groupe d'Étude en Traduction Automatique/Traitement Automatisé des Langues et de la Parole
-http://lig-getalp-new.imag.fr/about-dbnary/download/
 
 Lexicon Model for Ontologies: Community Report, 10 May 2016
 https://www.w3.org/2016/05/ontolex/
@@ -276,6 +273,9 @@ https://zenodo.org/records/5243356
 
 Dbnary – Wiktionary as Linguistic Linked Open Data
 https://kaiko.getalp.org/about-dbnary/
+
+Gilles Sérasset / dbnary · GitLab
+https://gitlab.com/gilles.serasset/dbnary
 
 Intensivkapazitäten und COVID-19-Intensivbettenbelegung in Deutschland
 https://zenodo.org/records/17688917
@@ -294,5 +294,11 @@ https://www.youtube.com/watch?v=QzUonkgy5OY
 
 Introducing Nested Learning: A new ML paradigm for continual learning
 https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/
+
+bawdy - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/bawdy
+
+snorty - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/snorty#English
 
 
