@@ -40,3 +40,10 @@ categories: [links]
 [How AI Taught Itself to See](https://www.youtube.com/watch?v=oGTasd3cliM)
 
 [The Dark Side of Hungarian Literature](https://www.patreon.com/posts/blog-56-dark-of-143521809)
+
+[TurkuNLP/Turku-paraphrase-corpus](https://github.com/TurkuNLP/Turku-paraphrase-corpus) --- Finnish and Swedish paraphrase pairs.
+
+[nlp-uoregon/trankit](https://github.com/nlp-uoregon/trankit) --- Trankit is a Light-Weight Transformer-based Python Toolkit for Multilingual Natural Language Processing
+
+[Criminal Psychologist Answers Questions](https://www.youtube.com/watch?v=plkKFJkW9P8)
+
