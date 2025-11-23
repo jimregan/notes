@@ -33,3 +33,10 @@ categories: [links]
 [Glass Animals - Gooey](https://www.youtube.com/watch?v=IIA1XQnAv5s)
 
 [Krúbi - Nehézlábérzés](https://www.youtube.com/watch?v=k30jhPBscoo)
+
+[Bad ICLR drama](https://x.com/miniapeur/status/1989543500384223477),
+[generated review](https://openreview.net/forum?id=kDhAiaGzrn&noteId=XzScUnmDGs)
+
+[How AI Taught Itself to See](https://www.youtube.com/watch?v=oGTasd3cliM)
+
+[The Dark Side of Hungarian Literature](https://www.patreon.com/posts/blog-56-dark-of-143521809)
