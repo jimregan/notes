@@ -28,3 +28,8 @@ categories: [links]
 
 [P4 local channels](https://www.sverigesradio.se/kanaler/hitta-lokal-kanal)
 
+[Diablo ISO](https://archive.org/download/diablo-1996-blizzard)
+
+[Glass Animals - Gooey](https://www.youtube.com/watch?v=IIA1XQnAv5s)
+
+[Krúbi - Nehézlábérzés](https://www.youtube.com/watch?v=k30jhPBscoo)
