@@ -34,18 +34,6 @@ https://huggingface.co/datasets/H-Liu1997/BEAT
 Google Translate
 https://translate.google.com/?sl=hu&tl=en&text=Meg%20sem%20pr%C3%B3b%C3%A1ltak%20%C3%BAgy%20tenni%2C%20mintha%20gy%C3%A1szoln%C3%A1k%20Denem%C3%A9ket%2C%20akiket%20%C3%A9let%C3%BCkben%20%C3%A1ltal%C3%A1nos%20ellenszenv%20%C3%B6vezett.&op=translate
 
-tud - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/tud#Hungarian
-
-View source for Template:hu-conj-ok - Wiktionary, the free dictionary
-https://en.wiktionary.org/w/index.php?title=Template:hu-conj-ok&action=edit
-
-View source for Template:hu-conj - Wiktionary, the free dictionary
-https://en.wiktionary.org/w/index.php?title=Template:hu-conj&action=edit
-
-Lord Voldemort - Wikidata
-https://www.wikidata.org/wiki/Q176132
-
 Hungarian conjugation tables [HungarianReference.com > Grammar > Verbs > Conjugation tables]
 http://www.hungarianreference.com/Verbs/conjugation/#google_vignette
 
@@ -136,12 +124,6 @@ https://www.bergianska.se/kalender/jul-i-edvard-andersons-v%C3%A4xthus-1.782228
 Bibliotekstan | Butiker
 https://bibliotekstan.se/butiker/
 
-Models - Stanza
-https://stanfordnlp.github.io/stanza/models.html
-
-Training - Stanza
-https://stanfordnlp.github.io/stanza/training.html
-
 Retrain models for a UD dataset - Stanza
 https://stanfordnlp.github.io/stanza/retrain_ud.html
 
@@ -154,8 +136,26 @@ https://stanfordnlp.github.io/stanza/new_language.html
 Adding a new NER model - Stanza
 https://stanfordnlp.github.io/stanza/new_language_ner.html
 
-Inside–outside–beginning (tagging) - Wikipedia
-https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)
+Stanza model training
+https://chatgpt.com/c/692389e1-8ae8-8328-81fb-9269a59a9399
+
+TurkuNLP
+https://turkunlp.org/finnish_nlp.html#parser
+
+TurkuNLP
+https://turkunlp.org/paraphrase.html
+
+depsearch-depsearch.rahtiapp.fi/ds_demo/
+https://depsearch-depsearch.rahtiapp.fi/ds_demo/
+
+TurkuNLP
+https://turkunlp.org/chatgpt-finnish
+
+Turku-paraphrase-corpus/data-sv/test.json at main · TurkuNLP/Turku-paraphrase-corpus
+https://github.com/TurkuNLP/Turku-paraphrase-corpus/blob/main/data-sv/test.json
+
+TurkuNLP
+https://turkunlp.org/parser.html
 
 Adding a new Constituency model - Stanza
 https://stanfordnlp.github.io/stanza/new_language_constituency.html
