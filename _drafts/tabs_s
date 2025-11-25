@@ -1,4 +1,3 @@
-Include:  Title  All Windows
 sami parliament github speech - Google Search
 https://www.google.com/search?q=sami+parliament+github+speech&sca_esv=f4f0d3251154213d&rlz=1C5GCCM_en&sxsrf=AE3TifPZAdvzu7xrbYeJtZBTTw_SN-9GoQ%3A1763991672848&ei=eGAkaevEM4yF1fIPs4m9wQ4&ved=0ahUKEwjr4K-I9YqRAxWMQlUIHbNEL-gQ4dUDCBA&uact=5&oq=sami+parliament+github+speech&gs_lp=Egxnd3Mtd2l6LXNlcnAiHXNhbWkgcGFybGlhbWVudCBnaXRodWIgc3BlZWNoMgUQIRigATIFECEYoAEyBRAhGKABSO4LUK0CWNwJcAF4AJABAJgBiQGgAbgFqgEDNy4xuAEDyAEA-AEBmAIIoAKbBcICCBAAGLADGO8FwgILEAAYgAQYsAMYogTCAgUQIRifBcICBxAhGKABGAqYAwCIBgGQBgSSBwM2LjKgB6sbsgcDNS4yuAeYBcIHBTAuNi4yyAcQ&sclient=gws-wiz-serp
 
@@ -26,7 +25,7 @@ https://github.com/SYSTRAN/faster-whisper?tab=readme-ov-file
 TransformersConverter — CTranslate2 4.6.1 documentation
 https://opennmt.net/CTranslate2/python/ctranslate2.converters.TransformersConverter.html
 
-(1) Home / X
+Home / X
 https://x.com/athleticKoder/status/1992926286742724693/photo/1
 
 Grosy/wav2vec2-base-hu · Hugging Face
@@ -50,27 +49,97 @@ https://raw.githubusercontent.com/corticph/prefix-beam-search/refs/heads/master/
 Giellagas | Kielipankki
 https://www.kielipankki.fi/lic/giellagas/?lang=en
 
-Sami voices - Svenskt Visarkiv
-https://svensktvisarkiv.se/en/sami-voices/
-
-lyssna-cdn.sr.se/isidor/2025/11/program_eamilbmotit_ii_oaidnu_bel_20251120_1532000148_a96.m4a?_h_publicationId=9099857
-https://lyssna-cdn.sr.se/isidor/2025/11/program_eamilbmotit_ii_oaidnu_bel_20251120_1532000148_a96.m4a?_h_publicationId=9099857
-
 CTC prefix beam search
 https://chatgpt.com/c/69258a5c-6194-8333-a035-de369743e055
-
-(anonymous)
-file:///Users/joregan/Downloads/ctc_prefix_beam_search_summary.pdf
-
-Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction | ACM Conferences
-https://dl.acm.org/doi/proceedings/10.1145/3610977
-
-"I'm Not Touching You. It's The Robot!": Inclusion Through A Touch-Based Robot Among Mixed-Visual Ability Children | Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
-https://dl.acm.org/doi/abs/10.1145/3610977.3634992
 
 prefix beam search - Google Search
 https://www.google.com/search?q=prefix+beam+search&rlz=1C5GCCM_en&oq=prefix+beam+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM0ODNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 speechbrain.decoders.ctc module — SpeechBrain 0.5.0 documentation
 https://speechbrain.readthedocs.io/en/latest/API/speechbrain.decoders.ctc.html#speechbrain.decoders.ctc.CTCPrefixBeamSearcher
+
+ctc_decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.ctc_decoder.html
+
+CTCDecoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.CTCDecoder.html#torchaudio.models.decoder.CTCDecoderLM
+
+ASR Inference with CTC Decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/tutorials/asr_inference_with_ctc_decoder_tutorial.html#sphx-glr-tutorials-asr-inference-with-ctc-decoder-tutorial-py
+
+Torchaudio Documentation — Torchaudio 2.9.0 documentation
+https://docs.pytorch.org/audio/stable/index.html
+
+Tech Overview - Stanford Agentic Reviewer
+https://paperreview.ai/tech-overview
+
+torchaudio.models.decoder.ctc_decoder - Google Search
+https://www.google.com/search?q=torchaudio.models.decoder.ctc_decoder&rlz=1C5GCCM_en&oq=torchaudio.models.decoder.ctc_decoder&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMggIAhAAGAgYHjIICAMQABgIGB4yBggEEEUYPDIGCAUQRRg80gEHNDA5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+asr_inference_with_ctc_decoder_tutorial.ipynb - Colab
+https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/ade1a3c3b444796d2a34839c7ea75426/asr_inference_with_ctc_decoder_tutorial.ipynb#scrollTo=YiReGHDTWcoY
+
+CTCDecoder — Torchaudio 2.9.0 documentation
+https://docs.pytorch.org/audio/stable/generated/torchaudio.models.decoder.CTCDecoder.html#ctcdecoderlmstate
+
+CTCDecoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/master/generated/torchaudio.models.decoder.CTCDecoder.html
+
+francis25_ssw.pdf
+https://www.isca-archive.org/ssw_2025/francis25_ssw.pdf
+
+Commits · facebookresearch/pytorch3d
+https://github.com/facebookresearch/pytorch3d/commits/main/?after=2d4d345b6fd2720580bff5f63dcbd3b230b43996+34
+
+Updates to Implicitron dataset, metrics and tools · facebookresearch/pytorch3d@43cd681
+https://github.com/facebookresearch/pytorch3d/commit/43cd681d4fc55fefa9a47e70d3ca0a02818ce44a
+
+(1) ELRA (@ELRAnews) / X
+https://x.com/ELRAnews
+
+LREC 2026
+https://lrec2026.info/
+
+LREC 2026 - CNR-ILC
+https://www.ilc.cnr.it/events/lrec-2026/
+
+pyctcdecode huggingface - Google Search
+https://www.google.com/search?q=pyctcdecode+huggingface&rlz=1C5GCCM_en&oq=pyctcdecode+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDYxNTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+kensho-technologies/pyctcdecode: A fast and lightweight python-based CTC beam search decoder for speech recognition.
+https://github.com/kensho-technologies/pyctcdecode
+
+torchaudio ctc decoder huggingface - Google Search
+https://www.google.com/search?q=torchaudio+ctc+decoder+huggingface&rlz=1C5GCCM_en&oq=torchaudio+ctc+decoder+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIKCAMQABiABBiiBDIHCAQQABjvBdIBCDg1MTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+ASR Inference with CUDA CTC Decoder — Torchaudio 2.5.0 documentation
+https://docs.pytorch.org/audio/2.5.0/tutorials/asr_inference_with_cuda_ctc_decoder_tutorial.html
+
+waveletdeboshir/gigaam-ctc · Hugging Face
+https://huggingface.co/waveletdeboshir/gigaam-ctc
+
+salute-developers/GigaAM: Foundational Model for Speech Recognition Tasks
+https://github.com/salute-developers/GigaAM
+
+gigaam_transformers.py · waveletdeboshir/gigaam-ctc at main
+https://huggingface.co/waveletdeboshir/gigaam-ctc/blob/main/gigaam_transformers.py
+
+asr_inference_with_cuda_ctc_decoder_tutorial.ipynb - Colab
+https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/96982138e59c541534342222a3f5c69e/asr_inference_with_cuda_ctc_decoder_tutorial.ipynb
+
+(1) Farrukh on X: "ITV News, "Did you racially insult pupils at school? Nigel Farage, "I would never do it in a hurtful or insulting way.. Not with intent" ITV News, "What do you mean not with intent? I don't understand what you mean?" Nigel Farage, "You wouldn't do" ITV News, "What does that https://t.co/qZRa6LdVaJ" / X
+https://x.com/implausibleblog/status/1993065394827899377
+
+(1) Karen Resorcé on X: "I noticed one employee wearing noise-canceling headphones. Not earbuds. The big, cushioned over-ear kind that create a tiny personal universe. I asked if everything was alright. He said yes, he’s just trying to focus. I told him we value focus, but isolation can misread as" / X
+https://x.com/hr_unhinged/status/1993052755410235563
+
+x.com/Partisan_12/status/1993158954432839957
+https://x.com/Partisan_12/status/1993158954432839957
+
+(1) elvis on X: "I saw this book trending on Hacker News today. It looks like a great resource for reviewing important math concepts used in computer science. (bookmark it) https://t.co/g8PSVqhNrk" / X
+https://x.com/omarsar0/status/1992976014725742644
+
+Calculus for Mathematicians, Physicists, and Computer Scientists
+https://mathcs.holycross.edu/~ahwang/print/calc.pdf
+
 
