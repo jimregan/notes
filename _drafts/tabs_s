@@ -97,29 +97,11 @@ https://github.com/facebookresearch/pytorch3d/commit/43cd681d4fc55fefa9a47e70d3c
 (1) ELRA (@ELRAnews) / X
 https://x.com/ELRAnews
 
-(1) James Throt MBBS, MD, PhD, FRCPath on X: "If you still believe COVID left the population “unchanged”, open a dating app. It sounds absurd, but stay with me here. The cognitive bluntness is so widespread that the dating platforms themselves have had to acknowledge behavioural deterioration since 2020. It’s not subtle🧵" / X
-https://x.com/JamesThrot/status/1993683186941829347
-
-x.com/doctorow/status/1993357257392943232
+(1) Cory Doctorow NONCONSENSUAL BLUE TICK on X: "Being "the enshittification guy" means people expect me to weigh in on every service that's been deliberately worsened to turn a buck. It's an impossible (and dull) task. There's too much of this shit, and it's all so *mid* - a real "banality of enshittification" situation. 1/ https://t.co/AzvZ7GP8xm" / X
 https://x.com/doctorow/status/1993357257392943232
 
-x.com/SpencerHakimian/status/1992951937801887747
-https://x.com/SpencerHakimian/status/1992951937801887747
-
-x.com/art_zucker/status/1993331073510482095
+(1) Arthur Zucker on X: "Mega cool blog post about attention, masking and continuous batching! I think its a keystone for people who want to understand deeply current serving framework and how flash attention unlocks everything! https://t.co/IkBCUgzwBI" / X
 https://x.com/art_zucker/status/1993331073510482095
-
-x.com/malonebarry/status/1993383950186926478
-https://x.com/malonebarry/status/1993383950186926478
-
-x.com/michaelcollado/status/1993435264526733451
-https://x.com/michaelcollado/status/1993435264526733451
-
-IWSDS 2026
-https://sites.google.com/unitn.it/iwsds26/home
-
-pyctcdecode huggingface - Google Search
-https://www.google.com/search?q=pyctcdecode+huggingface&rlz=1C5GCCM_en&oq=pyctcdecode+huggingface&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDYxNTZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 kensho-technologies/pyctcdecode: A fast and lightweight python-based CTC beam search decoder for speech recognition.
 https://github.com/kensho-technologies/pyctcdecode
@@ -147,6 +129,24 @@ https://x.com/home
 
 (1) Akshay 🚀 on X: "Massive breakthrough here! Someone fixed every major flaw in Jupyter Notebooks. The .ipynb format is stuck in 2014. It was built for a different era - no cloud collaboration, no AI agents, no team workflows. Change one cell, and you get 50+ lines of JSON metadata in your git https://t.co/yXbNKCIPXu" / X
 https://x.com/akshay_pachaar/status/1993306443593007353
+
+deepnote/deepnote: Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integrations. Use Python, R, and SQL locally in your favorite IDE, then scale to Deepnote cloud for real-time collaboration, Deepnote agent, and deployable data apps. https://deepnote.com/
+https://github.com/deepnote/deepnote?tab=readme-ov-file
+
+Deepnote - Visual Studio Marketplace
+https://marketplace.visualstudio.com/items?itemName=Deepnote.vscode-deepnote
+
+deepnote/deepnote: Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integrations. Use Python, R, and SQL locally in your favorite IDE, then scale to Deepnote cloud for real-time collaboration, Deepnote agent, and deployable data apps. https://deepnote.com/
+https://github.com/deepnote/deepnote?tab=readme-ov-file
+
+Deepnote – Open VSX Registry
+https://open-vsx.org/extension/Deepnote/vscode-deepnote
+
+deepnote/packages/convert at main · deepnote/deepnote
+https://github.com/deepnote/deepnote/tree/main/packages/convert
+
+Using the Deepnote format in JupyterLab - Deepnote docs
+https://deepnote.com/docs/deepnote-in-jupyterlab
 
 deepnote/deepnote: Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integrations. Use Python, R, and SQL locally in your favorite IDE, then scale to Deepnote cloud for real-time collaboration, Deepnote agent, and deployable data apps. https://deepnote.com/
 https://github.com/deepnote/deepnote
@@ -189,5 +189,50 @@ https://www.instagram.com/
 
 Division of Speech, Music and Hearing - KTH to Närkesgatan 6, 116 40 Stockholm - Google Maps
 https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/N%C3%A4rkesgatan+6,+116+40+Stockholm/@59.3128804,18.0748116,16z/am=t/data=!4m15!4m14!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f77f783028305:0x5ccc607c4638b0cb!2m2!1d18.0820876!2d59.3119381!3e3!5i1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D
+
+jupyterlab sql - Google Search
+https://www.google.com/search?q=jupyterlab+sql&rlz=1C5GCCM_en&oq=jupyterlab+sql&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEINTg4NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Jupyter Notebooks – DuckDB
+https://duckdb.org/docs/stable/guides/python/jupyter
+
+Lakehouse Formats – DuckDB
+https://duckdb.org/docs/stable/lakehouse_formats
+
+Extensions — JupyterLab 4.4.10 documentation
+https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
+
+Search results · PyPI
+https://pypi.org/search/?c=Framework+%3A%3A+Jupyter+%3A%3A+JupyterLab+%3A%3A+Extensions&page=3
+
+qsharp-jupyterlab · PyPI
+https://pypi.org/project/qsharp-jupyterlab/
+
+Babylon.js: Powerful, Beautiful, Simple, Open - Web-Based 3D At Its Best
+https://www.babylonjs.com/
+
+Make the Best Use of the Forum | Babylon.js Documentation
+https://doc.babylonjs.com/journey/forum/
+
+Search results · PyPI
+https://pypi.org/search/?c=Framework+%3A%3A+Jupyter+%3A%3A+JupyterLab+%3A%3A+Extensions+%3A%3A+Mime+Renderers
+
+jupyterlab-h5web · PyPI
+https://pypi.org/project/jupyterlab-h5web/
+
+silx-kit/h5web: React components for data visualization and exploration
+https://github.com/silx-kit/h5web
+
+jupyterlab-dagitty · PyPI
+https://pypi.org/project/jupyterlab-dagitty/
+
+DAGitty - drawing and analyzing causal diagrams (DAGs)
+https://dagitty.net/
+
+jtextor/dagitty: Graphical analysis of structural causal models / graphical causal models.
+https://github.com/jtextor/dagitty?tab=readme-ov-file
+
+DAGitty v3.1
+https://dagitty.net/dags.html
 
 
