@@ -47,3 +47,11 @@ categories: [links]
 
 [Criminal Psychologist Answers Questions](https://www.youtube.com/watch?v=plkKFJkW9P8)
 
+[Zseni Leszek](https://www.youtube.com/@zsenileszek/featured)
+
+[UD_Frisian_Dutch-Fame](https://github.com/UniversalDependencies/UD_Frisian_Dutch-Fame) --- From speech; code-switching.
+
+["I'm Not Touching You. It's The Robot!": Inclusion Through A Touch-Based Robot Among Mixed-Visual Ability Children](https://dl.acm.org/doi/abs/10.1145/3610977.3634992) --- HRI article titles are wild.
+
+[Simple Sabotage Field Manual](https://en.wikisource.org/wiki/Simple_Sabotage_Field_Manual)
+
