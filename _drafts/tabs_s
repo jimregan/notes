@@ -28,19 +28,10 @@ https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/
 About the Sámi Parliament - Sametinget
 https://sametinget.no/about-the-sami-parliament/
 
-New tab
-chrome://newtab/
-
 whisperX/whisperx/alignment.py at main · m-bain/whisperX
 https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
 
-SYSTRAN/faster-whisper: Faster Whisper transcription with CTranslate2
-https://github.com/SYSTRAN/faster-whisper?tab=readme-ov-file
-
-TransformersConverter — CTranslate2 4.6.1 documentation
-https://opennmt.net/CTranslate2/python/ctranslate2.converters.TransformersConverter.html
-
-Home / X
+(1) Home / X
 https://x.com/athleticKoder/status/1992926286742724693/photo/1
 
 Grosy/wav2vec2-base-hu · Hugging Face
@@ -49,19 +40,10 @@ https://huggingface.co/Grosy/wav2vec2-base-hu
 GetmanY1/wav2vec2-large-sami-22k-finetuned · Hugging Face
 https://huggingface.co/GetmanY1/wav2vec2-large-sami-22k-finetuned
 
-corticph/prefix-beam-search: Code for prefix beam search tutorial by @labodk
-https://github.com/corticph/prefix-beam-search?tab=readme-ov-file
-
 CTC Networks and Language Models: Prefix Beam Search Explained | by Lasse Borgholt | Corti | Medium
 https://medium.com/corti-ai/ctc-networks-and-language-models-prefix-beam-search-explained-c11d1ee23306
 
-[1408.2873] First-Pass Large Vocabulary Continuous Speech Recognition using Bi-Directional Recurrent DNNs
-https://arxiv.org/abs/1408.2873
-
-raw.githubusercontent.com/corticph/prefix-beam-search/refs/heads/master/prefix_beam_search.py
-https://raw.githubusercontent.com/corticph/prefix-beam-search/refs/heads/master/prefix_beam_search.py
-
-giellagas: The Giellagas Institute's corpus of spoken Sámi languages ​​| Language Bank
+giellagas: Giellagas-instituutin puhuttujen saamen kielten korpus | Kielipankki
 https://www.kielipankki.fi/aineistot/giellagas/
 
 The LAT platform is being discontinued | Language Bank
@@ -72,9 +54,6 @@ https://www.kielipankki.fi/aineistot/giellagas/
 
 COMEDI: Editor
 https://clarino.uib.no/comedi/editor/lb-201407302
-
-CTC prefix beam search
-https://chatgpt.com/c/69258a5c-6194-8333-a035-de369743e055
 
 prefix beam search - Google Search
 https://www.google.com/search?q=prefix+beam+search&rlz=1C5GCCM_en&oq=prefix+beam+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM0ODNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
@@ -97,23 +76,14 @@ https://docs.pytorch.org/audio/stable/index.html
 Tech Overview - Stanford Agentic Reviewer
 https://paperreview.ai/tech-overview
 
-torchaudio.models.decoder.ctc_decoder - Google Search
-https://www.google.com/search?q=torchaudio.models.decoder.ctc_decoder&rlz=1C5GCCM_en&oq=torchaudio.models.decoder.ctc_decoder&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMggIAhAAGAgYHjIICAMQABgIGB4yBggEEEUYPDIGCAUQRRg80gEHNDA5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
 asr_inference_with_ctc_decoder_tutorial.ipynb - Colab
 https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/ade1a3c3b444796d2a34839c7ea75426/asr_inference_with_ctc_decoder_tutorial.ipynb#scrollTo=YiReGHDTWcoY
 
 CTCDecoder — Torchaudio 2.9.0 documentation
 https://docs.pytorch.org/audio/stable/generated/torchaudio.models.decoder.CTCDecoder.html#ctcdecoderlmstate
 
-CTCDecoder — Torchaudio 2.8.0 documentation
-https://docs.pytorch.org/audio/master/generated/torchaudio.models.decoder.CTCDecoder.html
-
-pytorch3d/docs/modules/renderer/materials.rst at main · facebookresearch/pytorch3d
-https://github.com/facebookresearch/pytorch3d/blob/main/docs/modules/renderer/materials.rst
-
-(1) Jeffrey J. Hall 🇯🇵🇺🇸 on X: "US military police have suspended solo patrols in Okinawa after they wrongly body-slammed and detained an American civilian who was visiting, and not under their jurisdiction. https://t.co/JtFY2Kqkyu" / X
-https://x.com/mrjeffu/status/1994437239108170101
+torchaudio.models.decoder._ctc_decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/master/_modules/torchaudio/models/decoder/_ctc_decoder.html#CTCDecoder
 
 (1) Jia-Bin Huang on X: "Wondering how DeepSeek v3.2 rivals SOTA models (e.g., GPT5/Gemini 3 pro) while being ~30x cheaper? 🤔 Let's learn how the base model works! We'll focus on attention, the need for KV caching, and key ideas for improving attention (MQA/GQA/MLA/DSA). https://t.co/l8YwoUvByy https://t.co/TpOjmL7I26" / X
 https://x.com/jbhuang0604/status/1995559075900522772
@@ -283,8 +253,8 @@ https://huggingface.co/datasets/disco-eth/EuroSpeech
 ELG - Europarl-ASR
 https://live.european-language-grid.eu/catalogue/corpus/17691
 
-Instagram • Messages
-https://www.instagram.com/direct/t/110437113687820/
+Instagram
+https://www.instagram.com/p/DRA6-EKDftX/
 
 Instagram
 https://www.instagram.com/
