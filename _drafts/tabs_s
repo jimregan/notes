@@ -61,8 +61,17 @@ https://arxiv.org/abs/1408.2873
 raw.githubusercontent.com/corticph/prefix-beam-search/refs/heads/master/prefix_beam_search.py
 https://raw.githubusercontent.com/corticph/prefix-beam-search/refs/heads/master/prefix_beam_search.py
 
-Giellagas | Kielipankki
-https://www.kielipankki.fi/lic/giellagas/?lang=en
+giellagas: The Giellagas Institute's corpus of spoken Sámi languages ​​| Language Bank
+https://www.kielipankki.fi/aineistot/giellagas/
+
+The LAT platform is being discontinued | Language Bank
+https://www.kielipankki.fi/tyokalut/lat-poistuu/
+
+giellagas: The Giellagas Institute's corpus of spoken Sámi languages ​​| Language Bank
+https://www.kielipankki.fi/aineistot/giellagas/
+
+COMEDI: Editor
+https://clarino.uib.no/comedi/editor/lb-201407302
 
 CTC prefix beam search
 https://chatgpt.com/c/69258a5c-6194-8333-a035-de369743e055
@@ -115,7 +124,7 @@ https://x.com/art_zucker/status/1993331073510482095
 Continuous batching from first principles
 https://huggingface.co/blog/continuous_batching
 
-x.com/jbhuang0604/status/1995559075900522772
+(1) Jia-Bin Huang on X: "Wondering how DeepSeek v3.2 rivals SOTA models (e.g., GPT5/Gemini 3 pro) while being ~30x cheaper? 🤔 Let's learn how the base model works! We'll focus on attention, the need for KV caching, and key ideas for improving attention (MQA/GQA/MLA/DSA). https://t.co/l8YwoUvByy https://t.co/TpOjmL7I26" / X
 https://x.com/jbhuang0604/status/1995559075900522772
 
 x.com/chastronomic/status/1994336555490775186
@@ -232,33 +241,6 @@ https://api.sr.se/api/rss/program/2054
 Sameradion | Sveriges Radio
 http://web.archive.org/web/20240331235801/https://sverigesradio.se/sameradion
 
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
-"Co-located with LREC 2026" - Google Search
-https://www.google.com/search?q=%22Co-located+with+LREC+2026%22&rlz=1C5GCCM_en&oq=%22Co-located+with+LREC+2026%22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRiPAjIHCAMQIRiPAtIBCDQ2NzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#sv=CBAShhYKwRUKBtrZ29IPABK2FQqfBAqcBLrZ29IPlQQKOGh0dHBzOi8vbmwubGlua2VkaW4uY29tL2NvbXBhbnkvc3RsLXVnP3Ryaz1zaW1pbGFyLXBhZ2VzEghMaW5rZWRJbhrKA2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQ0FBQUFBZ0NBWUFBQUJ6ZW5yMEFBQUJEVWxFUVZSNEFXUDQvLy8vZ09MQjQ0RDZuVGNzR0lvMzNRSGkvelRHZDBCMllUaUFQcFlqSElITkFmL3BpUWs2d0dQVzhmL3JMejhIWVJDYlhnNUFXSTRHUUdKMGN3RFkxMmdBSkRiY0hVQTRDa1pBSXFRVUs3VHMvbS9TZnhCTXM1UnVwc3dCYUFDcitQNDdiLzV6bEcvNUR5elovci8rOGhORjd2dXZQLy9ubjNyMFg2SmhKKzBjY1ByUisvK0g3NzM1anc5Y2YvbjV2MEQxTnVvNWdCeFF2ZTA2elIwQWpvTDdiNy8rLy96ak40YmMrU2NmYU9lQTMzLy8vazlZZmc0bUR3N3UvWGRlbzZ1aG5RUDZEOTNGTU54bHhqRjBaYlJ6Z01YRVE5aXlJOTBjQUxJTUpvY2NEWFJ6QUs2Q1pvZzZZTlFCb3c2Z0l4NTRCd3g0eDJSQXUyYkF5c29FWnU5bzd4Z0FRcnZreHQzV1ppMEFBQUFBU1VWT1JLNUNZSUk9IAE4AQqjAgqgAtLZ29IPmQIKOlNwZWVjaCBUZWNobm9sb2d5IExhYiB8IFVuaXZlcnNpdHkgb2YgR3JvbmluZ2VuIHwgTGlua2VkSW4SOGh0dHBzOi8vbmwubGlua2VkaW4uY29tL2NvbXBhbnkvc3RsLXVnP3Ryaz1zaW1pbGFyLXBhZ2VzGqABLi4uIGNvLWxvY2F0ZWQgd2l0aCBMUkVDIDIwMjYuIC0tPiBXaGF0IHdlJ3JlIGV4cGxvcmluZzogUGVyZm9ybWFuY2Ugb2Ygc3BlZWNoIExNcyBpbiB1bmRlci1yZXNvdXJjZWQgbGFuZ3VhZ2VzIEV2YWx1YXRpb24gbWV0aG9kb2xvZ2llcyBhbmQgYmVuY2htYXJrcyBCaWFzIC4uLgrpCArmCMLZ29IP3wgSOlNwZWVjaCBUZWNobm9sb2d5IExhYiB8IFVuaXZlcnNpdHkgb2YgR3JvbmluZ2VuIHwgTGlua2VkSW4aigMKOGh0dHBzOi8vbmwubGlua2VkaW4uY29tL2NvbXBhbnkvc3RsLXVnP3Ryaz1zaW1pbGFyLXBhZ2VzEi9TcGVlY2ggVGVjaG5vbG9neSBMYWIgfCBVbml2ZXJzaXR5IG9mIEdyb25pbmdlbhqgAS4uLiBjby1sb2NhdGVkIHdpdGggTFJFQyAyMDI2LiAtLT4gV2hhdCB3ZSdyZSBleHBsb3Jpbmc6IFBlcmZvcm1hbmNlIG9mIHNwZWVjaCBMTXMgaW4gdW5kZXItcmVzb3VyY2VkIGxhbmd1YWdlcyBFdmFsdWF0aW9uIG1ldGhvZG9sb2dpZXMgYW5kIGJlbmNobWFya3MgQmlhcyAuLi4gASoCZW4yAlNFOhMqEWpvcmVnYW5AZ21haWwuY29tQh8vcz90Ym09bWFwJmdzX3JpPW1hcHMmc3VnZ2VzdD1wSjBBSWtFSG9xMFpjbUU4TGx4cThZRG9XcDZKX0NMUFB0M1ZROjE3NjQzMzY1MTUwMzVSCExpbmtlZEluUngYBSo6U3BlZWNoIFRlY2hub2xvZ3kgTGFiIHwgVW5pdmVyc2l0eSBvZiBHcm9uaW5nZW4gfCBMaW5rZWRJbjo4aHR0cHM6Ly9ubC5saW5rZWRpbi5jb20vY29tcGFueS9zdGwtdWc_dHJrPXNpbWlsYXItcGFnZXNyTgo4aHR0cHM6Ly9ubC5saW5rZWRpbi5jb20vY29tcGFueS9zdGwtdWc_dHJrPXNpbWlsYXItcGFnZXMoIzIQU291cmNlOiBMaW5rZWRJbnrJAxo6U3BlZWNoIFRlY2hub2xvZ3kgTGFiIHwgVW5pdmVyc2l0eSBvZiBHcm9uaW5nZW4gfCBMaW5rZWRJbiIWd2VicmVzdWx0X19nYXBCeTJPSVVBSjABYO6PBmoKTVNBRiAtIFNSUHLUAqoBEFdFQl9SRVNVTFRfSU5ORVKyAUQKOGh0dHBzOi8vbmwubGlua2VkaW4uY29tL2NvbXBhbnkvc3RsLXVnP3Ryaz1zaW1pbGFyLXBhZ2VzEgRCTFVSGAAgAeIB9gEKswEuLi4gPGI-Y28tbG9jYXRlZCB3aXRoIExSRUMgMjAyNjwvYj4uIC0tJmd0OyBXaGF0IHdlJiMzOTtyZSBleHBsb3Jpbmc6IFBlcmZvcm1hbmNlIG9mIHNwZWVjaCBMTXMgaW4gdW5kZXItcmVzb3VyY2VkIGxhbmd1YWdlcyBFdmFsdWF0aW9uIG1ldGhvZG9sb2dpZXMgYW5kIGJlbmNobWFya3MgQmlhcyZuYnNwOy4uLhI6U3BlZWNoIFRlY2hub2xvZ3kgTGFiIHwgVW5pdmVyc2l0eSBvZiBHcm9uaW5nZW4gfCBMaW5rZWRJbhgAIBGgAWLAAQHgAQHoAQEK_wUK_AXK2dvSD_UFEtAFIs0FL3NlYXJjaC9hYm91dC10aGlzLXJlc3VsdD9vcmlnaW49d3d3Lmdvb2dsZS5jb20mcmVxPUNqaG9kSFJ3Y3pvdkwyNXNMbXhwYm10bFpHbHVMbU52YlM5amIyMXdZVzU1TDNOMGJDMTFaejkwY21zOWMybHRhV3hoY2kxd1lXZGxjeElFR2dJSUFCcWFBeElBR2dBaUFDb0FNZ1lJQWhJQ2MyVTZBRUlFQ0FFUUFFb0FXZ0J5QUhvQWdrRDJBZ2dBRUFBWUFDQUFLZ2tLQW1OdkZhTWRnRDhxRGdvSGJHOWpZWFJsWkJWQlBBb19LZ3NLQkhkcGRHZ1ZzQzRjUUNvTENnUnNjbVZqRlVFOENqOHFDd29FTWpBeU5oVnphNkVfTWpob2RIUndjem92TDI1c0xteHBibXRsWkdsdUxtTnZiUzlqYjIxd1lXNTVMM04wYkMxMVp6OTBjbXM5YzJsdGFXeGhjaTF3WVdkbGN6bzZVM0JsWldOb0lGUmxZMmh1YjJ4dloza2dUR0ZpSUh3Z1ZXNXBkbVZ5YzJsMGVTQnZaaUJIY205dWFXNW5aVzRnZkNCTWFXNXJaV1JKYmtLekFTNHVMaUE4WWo1amJ5MXNiMk5oZEdWa0lIZHBkR2dnVEZKRlF5QXlNREkyUEM5aVBpNGdMUzBtWjNRN0lGZG9ZWFFnZDJVbUl6TTVPM0psSUdWNGNHeHZjbWx1WnpvZ1VHVnlabTl5YldGdVkyVWdiMllnYzNCbFpXTm9JRXhOY3lCcGJpQjFibVJsY2kxeVpYTnZkWEpqWldRZ2JHRnVaM1ZoWjJWeklFVjJZV3gxWVhScGIyNGdiV1YwYUc5a2IyeHZaMmxsY3lCaGJtUWdZbVZ1WTJodFlYSnJjeUJDYVdGekptNWljM0E3TGk0dUlnSVFBVWdBV0FCb0FBJmhsPWVuLVNFJmdsPVNFGhZodHRwczovL3d3dy5nb29nbGUuY29tWgBgAWgBcAB4ABJAYXRyaXRlbS1odHRwczovL25sLmxpbmtlZGluLmNvbS9jb21wYW55L3N0bC11Zz90cms9c2ltaWxhci1wYWdlcxgvIMW9oJ4IMAI
-
-SPEAKABLE 2026 – Speech Language Models in Low-Resource Settings
-https://speakable-2026.github.io/
-
-About – SPEAKABLE 2026
-https://speakable-2026.github.io/about.html
-
-SPEAKABLE 2026 Workshop Overview
-https://chatgpt.com/c/6929a62a-90a0-832f-ab81-d4b945cbeb11
-
-Submission – SPEAKABLE 2026
-https://speakable-2026.github.io/submission.html
-
-Important Dates – SPEAKABLE 2026
-https://speakable-2026.github.io/dates.html
-
-Topics – SPEAKABLE 2026
-https://speakable-2026.github.io/topics.html
-
-lrec 2026 collocated workshop - Google Search
-https://www.google.com/search?q=lrec+2026+collocated+workshop&sca_esv=3101665fc3b87c1b&rlz=1C5GCCM_en&sxsrf=AE3TifMe9Hc8dAqdRm3JfxyVlia-NwCp3A:1764593377786&ei=4Y4taZDeL_Sc1fIPzavX2A4&start=10&sa=N&sstk=Af77f_dkaXi8TR0UJS23j6lOR_MpoBnOlUFt7hRw_LBuiExc4xc7zXqlzP7e3l_5-p84o71N-rOHO-RD1GI541gjLyIoattodMKkzg&ved=2ahUKEwjQ0tLLtpyRAxV0TlUIHc3VFesQ8NMDegQICRAW&biw=1440&bih=710&dpr=2
-
 RESOURCEFUL-2026 | resourceful-2026
 https://resourceful-workshop.github.io/resourceful-2026/
 
@@ -268,14 +250,17 @@ https://speakable-2026.github.io/
 wikipron/data/scrape/tsv/sme_latn_broad.tsv at master · CUNY-CL/wikipron
 https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/sme_latn_broad.tsv
 
-aiddonassii - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/aiddonassii
-
 Northern Sámi - Wikipedia
 https://en.wikipedia.org/wiki/Northern_S%C3%A1mi#Phonology
 
 northern sami ipa - Google Search
 https://www.google.com/search?q=northern+sami+ipa&rlz=1C5GCCM_en&oq=northern+sami+ipa&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTIKCAIQABiABBiiBDIKCAMQABiABBiiBDIHCAQQABjvBTIKCAUQABiABBiiBNIBCDI0OThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Guide to North Sámi Pronunciation – Oahpa Muinna
+https://oahpamuinna.wordpress.com/2021/12/28/guide-to-north-sami-pronunciation/
+
+North Saami language tools
+https://giellatekno.uit.no/cgi/index.sme.eng.html
 
 ahkahaš - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/ahkaha%C5%A1#Northern_Sami
@@ -300,8 +285,5 @@ https://github.com/shap/shap
 
 Join from Zoom Workplace app - Zoom
 https://kth-se.zoom.us/j/5166351663#success
-
-Sign in with SSO - Zoom
-https://kth-se.zoom.us/saml/mobile_success?token=f0d1e3da#success
 
 
