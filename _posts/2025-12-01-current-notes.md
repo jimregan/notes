@@ -2,7 +2,7 @@
 toc: true
 layout: post
 hidden: true
-description: Misc. interesting things.
+description: Current notes.
 title: Interesting links, 01/12/2025
 categories: [links]
 ---
@@ -25,7 +25,8 @@ categories: [links]
 
 [aajanki/yle-dl](https://github.com/aajanki/yle-dl) --- Download videos from Yle servers
 
-[Sameradion](https://www.sverigesradio.se/sameradion)
+[Sameradion](https://www.sverigesradio.se/sameradion),
+[instagram](https://www.instagram.com/sameradion)
 
 [SPEAKABLE 2026 announcement](https://www.linkedin.com/posts/ninahkivanani_nlp-speechprocessing-lowresourcelanguages-activity-7396596151589736448-xGpX/),
 [website](https://speakable-2026.github.io/)
