@@ -31,4 +31,21 @@ categories: [links]
 [SPEAKABLE 2026 announcement](https://www.linkedin.com/posts/ninahkivanani_nlp-speechprocessing-lowresourcelanguages-activity-7396596151589736448-xGpX/),
 [website](https://speakable-2026.github.io/)
 
+[Europarl-ASR](https://live.european-language-grid.eu/catalogue/corpus/17691)
+
+[EuroSpeech](https://huggingface.co/datasets/disco-eth/EuroSpeech)
+
+[nvidia/parakeet-tdt-0.6b-v3](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3)
+
+[kroko-ai/kroko-onnx](https://github.com/kroko-ai/kroko-onnx)
+
+[Banafo/Kroko-ASR](https://huggingface.co/Banafo/Kroko-ASR)
+
+[Awesome Speech: Swedish](https://github.com/alphacep/awesome-speech/commits/main/swedish.md)
+
+[Guide to North Sami pronunciation](https://oahpamuinna.wordpress.com/2021/12/28/guide-to-north-sami-pronunciation/)
+
+[North Sami: Wikipron](https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/sme_latn_broad.tsv)
+
+[ASR Inference with CUDA CTC Decoder](https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/96982138e59c541534342222a3f5c69e/asr_inference_with_cuda_ctc_decoder_tutorial.ipynb)
 
