@@ -24,3 +24,10 @@ categories: [links]
 
 [SPARQL-Generate](https://ci.mines-stetienne.fr/sparql-generate/)
 
+[Phrases you may hear at the dinner table or in the bedroom : r/panelshow](https://www.reddit.com/r/panelshow/comments/1o08y2a/im_sorry_i_havent_a_clue_phrases_you_may_hear_at/)
+
+[They Killed My Source](https://www.theatlantic.com/magazine/2026/01/mohammad-tajik-iran-cyber-intelligence/684954/)
+
+[Neural Amp Modeler](https://www.neuralampmodeler.com/the-code)
+
+[he Gävle Goat LIVE 2025](https://www.youtube.com/live/P1VOrSoJXnc)
