@@ -30,4 +30,9 @@ categories: [links]
 
 [Neural Amp Modeler](https://www.neuralampmodeler.com/the-code)
 
-[he Gävle Goat LIVE 2025](https://www.youtube.com/live/P1VOrSoJXnc)
+[The Gävle Goat LIVE 2025](https://www.youtube.com/live/P1VOrSoJXnc)
+
+[1st Unite Crossroads of Speech & NLP Seminar](https://sites.google.com/pwr.edu.pl/uniteseminar/main-page)
+
+[Groundbreaking monolingual Irish dictionary launched](https://www.rte.ie/news/ireland/2025/1209/1548134-new-irish-dictionary/)
+
