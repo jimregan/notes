@@ -42,3 +42,4 @@ categories: [links]
 [twitter](https://x.com/xieenze_jr/status/1993637743960670709),
 [code](https://github.com/NVlabs/Sana)
 
+[MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning, Spring 2018](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
