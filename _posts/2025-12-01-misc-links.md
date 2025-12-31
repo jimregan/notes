@@ -36,3 +36,9 @@ categories: [links]
 
 [Groundbreaking monolingual Irish dictionary launched](https://www.rte.ie/news/ireland/2025/1209/1548134-new-irish-dictionary/)
 
+[Kruskal's Algorithm in Python](https://www.geeksforgeeks.org/python/kruskals-algorithm-in-python/)
+
+[Infinite Context Length with Global but Constant Attention Memory](https://hanlab.mit.edu/blog/infinite-context-length-with-global-but-constant-attention-memory),
+[twitter](https://x.com/xieenze_jr/status/1993637743960670709),
+[code](https://github.com/NVlabs/Sana)
+
