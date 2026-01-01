@@ -43,3 +43,12 @@ categories: [links]
 [code](https://github.com/NVlabs/Sana)
 
 [MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning, Spring 2018](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
+
+[ai-for-grant-writing](https://github.com/eseckel/ai-for-grant-writing/)
+
+[Soprano](https://github.com/ekwek1/soprano),
+[huggingface](https://huggingface.co/ekwek/Soprano-80M)
+
+[Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think](https://arxiv.org/abs/2410.06940),
+[code](https://github.com/sihyun-yu/REPA)
+
