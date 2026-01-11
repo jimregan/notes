@@ -49,3 +49,11 @@ categories: [links]
 
 [ASR Inference with CUDA CTC Decoder](https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/96982138e59c541534342222a3f5c69e/asr_inference_with_cuda_ctc_decoder_tutorial.ipynb)
 
+[folkscanomy](https://archive.org/details/folkscanomy)
+
+[MS-Swinformer and DMTL: Multi-scale spatial fusion and dynamic multi-task learning for speech emotion recognition](https://www.sciencedirect.com/science/article/pii/S0885230825001330)
+
+[The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
+
+[The Little Engine That Could](https://en.wikisource.org/wiki/The_Little_Engine_That_Could_\(1949\))
+
