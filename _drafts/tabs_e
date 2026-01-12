@@ -79,47 +79,17 @@ https://lindat.mff.cuni.cz/services/udpipe/
 conllu-diff/README.md at main · clarinsi/conllu-diff
 https://github.com/clarinsi/conllu-diff/blob/main/README.md
 
-dubliners-asr | Kaggle
-https://www.kaggle.com/code/jimregan/dubliners-asr/edit/run/291018034
+dubliners-asr-v2
+https://www.kaggle.com/code/jimregan/dubliners-asr-v2/output
 
 dubliners-asr
-https://www.kaggle.com/code/jimregan/dubliners-asr/script?scriptVersionId=291126794
-
-dubliners-asr
-https://www.kaggle.com/code/jimregan/dubliners-asr/output?scriptVersionId=291126794&select=v1_dubliners_01_joyce_64kb_en.json
+https://www.kaggle.com/code/jimregan/dubliners-asr/output?scriptVersionId=291126794&select=v1_dubliners_03_joyce_64kb_phone.json
 
 Kaggle Notebook Editor
 https://www.kaggle.com/code/jimregan/dubliners-asr-v2/edit
 
-download-dubliners
-https://www.kaggle.com/code/jimregan/download-dubliners
-
-dubliners-lm
-https://www.kaggle.com/code/jimregan/dubliners-lm
-
-dubliners-asr-v2
-https://www.kaggle.com/code/jimregan/dubliners-asr-v2?scriptVersionId=291277112
-
-pocketsphinx-alignment | Kaggle
-https://www.kaggle.com/code/jimregan/pocketsphinx-alignment/edit/run/291160225
-
-pocketsphinx-alignment | Kaggle
-https://www.kaggle.com/code/jimregan/pocketsphinx-alignment/edit
-
 Trying to use pocketsphinx to word align | notes
 https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
-
-dubliners-lm
-https://www.kaggle.com/code/jimregan/dubliners-lm/output?scriptVersionId=291119261&select=unigrams.txt
-
-dubliners-lm
-https://www.kaggle.com/code/jimregan/dubliners-lm?scriptVersionId=291117056
-
-storage.googleapis.com/kaggle-script-versions/291117056/output/dubliners-clean.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20260110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260110T144001Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=3e4c3da95de7b00244d01205fa63e867aae7b6d7f547f43f7ae44071b2c22cf697570c3cf45030eec7ec436cee5acd55783124cec8fb40c519a222d031642f4fbcb65645bcd3d279a5e2b5e6093d708f7da528993f66edd12db76201f9b3e5b3e1d1f553980d16982ffab42805444edca4358e9d6477bc82b7da3fbcc93254fce57c6c3f7fae49a425b57f2096197d676fc223a9506494eb7f4931248dbe7fb94731dc5dd1f22fd2155944f4d1617da4c374fd7c4578c3ef30206ef27ec1494d4cb43f4d4db403768e8c7c875329aa1354e029f92bfb62d26050b485ec9ebe7939188120b875762cd353e3998a8dae92c67031c88c10253117fda0a729ddfbe1
-https://storage.googleapis.com/kaggle-script-versions/291117056/output/dubliners-clean.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20260110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260110T144001Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=3e4c3da95de7b00244d01205fa63e867aae7b6d7f547f43f7ae44071b2c22cf697570c3cf45030eec7ec436cee5acd55783124cec8fb40c519a222d031642f4fbcb65645bcd3d279a5e2b5e6093d708f7da528993f66edd12db76201f9b3e5b3e1d1f553980d16982ffab42805444edca4358e9d6477bc82b7da3fbcc93254fce57c6c3f7fae49a425b57f2096197d676fc223a9506494eb7f4931248dbe7fb94731dc5dd1f22fd2155944f4d1617da4c374fd7c4578c3ef30206ef27ec1494d4cb43f4d4db403768e8c7c875329aa1354e029f92bfb62d26050b485ec9ebe7939188120b875762cd353e3998a8dae92c67031c88c10253117fda0a729ddfbe1
-
-storage.googleapis.com/kaggle-script-versions/163088463/output/dubliners-clean.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20260110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260110T135034Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=7863be263e4136082cbb18b6b44c965fac996a39f3d8a99b3d51870d1d9a150e3d6b57e35434b0b7952c0b046c99b2c620b6e17199f865754c31f5c99b75c6ef1dfa3429a2dfe1e57d16b1486ab89105f790b0a87f559f3c93b74ec43bbd294adebaa0e9bfec3f9e4253f9e4417e2a67208d50828363f9b8c01da1d21333757883d6bb9dae06a4f5cd9b59579ca7312752c3d769b970b6e039d70d307d2ce61682b434bb92a97ff4eecb8662f0d0d0ac8b228115ad9f0a23f950e24b616a3568663f7e3f1b36ff0162ab71f32cd8bf7e4dfe84b164bd28fc7ef996b9507cd0d08498b1c2105ad5bf6c3aa52ff66454e86a01a3872013489bbdd9255d0c99d902
-https://storage.googleapis.com/kaggle-script-versions/163088463/output/dubliners-clean.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20260110%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260110T135034Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=7863be263e4136082cbb18b6b44c965fac996a39f3d8a99b3d51870d1d9a150e3d6b57e35434b0b7952c0b046c99b2c620b6e17199f865754c31f5c99b75c6ef1dfa3429a2dfe1e57d16b1486ab89105f790b0a87f559f3c93b74ec43bbd294adebaa0e9bfec3f9e4253f9e4417e2a67208d50828363f9b8c01da1d21333757883d6bb9dae06a4f5cd9b59579ca7312752c3d769b970b6e039d70d307d2ce61682b434bb92a97ff4eecb8662f0d0d0ac8b228115ad9f0a23f950e24b616a3568663f7e3f1b36ff0162ab71f32cd8bf7e4dfe84b164bd28fc7ef996b9507cd0d08498b1c2105ad5bf6c3aa52ff66454e86a01a3872013489bbdd9255d0c99d902
 
 Kaggle Notebook Editor
 https://www.kaggle.com/code/jimregan/dubliners-asr/edit/run/291018034
@@ -131,7 +101,7 @@ raw.githubusercontent.com/jimregan/notes/refs/heads/master/_notebooks/2024-10-06
 https://raw.githubusercontent.com/jimregan/notes/refs/heads/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb
 
 Current things, 14 June 2025 - Pocketsphinx Alignment Setup
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/6962675e-1e50-8328-a445-756a4b89f811
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d/c/6962675e-1e50-8328-a445-756a4b89f811
 
 sphinx · jimregan/ClarinStudioKaldi@9862466
 https://github.com/jimregan/ClarinStudioKaldi/commit/98624660cf8ce47c8a15d172352ea63fe5f12703#diff-4cc820c4917b5cfc0e6ac5a00a015c46ba578ab8da512539f8428893681ab858
@@ -148,31 +118,130 @@ https://stackoverflow.com/questions/9667081/how-do-you-trim-the-audio-files-end-
 audio - Detecting and printing timestamps of periods of silence using SoX - Stack Overflow
 https://stackoverflow.com/questions/18069794/detecting-and-printing-timestamps-of-periods-of-silence-using-sox
 
-localhost:8765/transcriptions/8a8d5b84/
-http://localhost:8765/transcriptions/8a8d5b84/
+localhost:8765/transcriptions/715abb59/
+http://localhost:8765/transcriptions/715abb59/
 
-localhost:8765/transcriptions/8a8d5b84/align.json
-http://localhost:8765/transcriptions/8a8d5b84/align.json
+localhost:8765/transcriptions/715abb59/align.json
+http://localhost:8765/transcriptions/715abb59/align.json
 
-(1) Instagram
+Instagram
 https://www.instagram.com/
 
-(1) Instagram
-https://www.instagram.com/reels/DTNCtufjCR_/
+Dubliners | LibriVox
+https://librivox.org/dubliners-by-james-joyce/
 
-(1) Instagram
-https://www.instagram.com/reel/DTLUDdhAsqj/
+Works read by Julie VW | LibriVox
+https://librivox.org/reader/2506?primary_key=2506&search_category=reader&search_page=1&search_form=get_results&search_order=alpha
 
-a perfect circle thirteenth step blue lyrics - Google Search
-https://www.google.com/search?q=a+perfect+circle+thirteenth+step+blue+lyrics&sca_esv=d50a49532b9b8e2e&rlz=1C5GCCM_en&sxsrf=ANbL-n6bVIuw3NwRKOPOsgwEc8ky54j2lQ%3A1768156734405&ei=Pu5jae22GKKFhbIP1p2r-Qc&oq=a+perfect+circle+thirteenth+step+blue+ly&gs_lp=Egxnd3Mtd2l6LXNlcnAiKGEgcGVyZmVjdCBjaXJjbGUgdGhpcnRlZW50aCBzdGVwIGJsdWUgbHkqAggAMgcQIRigARgKSPwZUAlY9g9wAXgAkAEAmAGgAaABzAaqAQM2LjO4AQPIAQD4AQGYAgmgAroGwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICExAuGIAEGLADGEMYyAMYigXYAQHCAgoQABiABBhDGIoFwgIFEAAYgATCAgYQABgWGB7CAgsQABiABBiGAxiKBcICCBAAGKIEGIkFwgIFECEYoAGYAwCIBgGQBhO6BgYIARABGAmSBwM2LjOgB4c3sgcDNS4zuAe2BsIHBTAuNy4yyAcUgAgA&sclient=gws-wiz-serp
+Avengers: Endgame - Wikipedia
+https://en.wikipedia.org/wiki/Avengers:_Endgame
 
-ChatGPT - Hungarian
-https://chatgpt.com/g/g-p-6838a197746c81919828f3393515b7fb-hungarian/c/6963f72c-0768-832a-924f-ac8cda122ec8
+CBT - Reel Text Assistance
+https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/694dca12-03d4-832b-842a-e9974106392b
 
-(1) Instagram
+Instagram
+https://www.instagram.com/reels/DR2UxxGDkUf/
+
+ia802800.us.archive.org/3/items/dubliners_0906_librivox/dubliners_03_joyce_64kb.mp3
+https://ia802800.us.archive.org/3/items/dubliners_0906_librivox/dubliners_03_joyce_64kb.mp3
+
+ia800702.us.archive.org/33/items/students_roman_empire_vol1_0908_librivox2/studentsromanempire1_08_bury_64kb.mp3
+https://ia800702.us.archive.org/33/items/students_roman_empire_vol1_0908_librivox2/studentsromanempire1_08_bury_64kb.mp3
+
+von wallachen - Google Search
+https://www.google.com/search?q=von+wallachen&sca_esv=b243d552b696475b&rlz=1C5GCCM_en&biw=1440&bih=710&aic=0&sxsrf=ANbL-n7z_qkOY_XSDzogVStTW6CnnukeTg%3A1768231391112&ei=3xFlabnABqqChbIPjujswQw&ved=0ahUKEwj5q8qfp4aSAxUqQUEAHQ40O8gQ4dUDCBE&uact=5&oq=von+wallachen&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXZvbiB3YWxsYWNoZW4yCBAhGKABGMMEMggQIRigARjDBEiIFlCNEliNEnABeACQAQCYAWygAWyqAQMwLjG4AQPIAQD4AQGYAgKgAnLCAgsQABiABBiwAxiiBMICCBAAGLADGO8FmAMAiAYBkAYFkgcDMS4xoAeqArIHAzAuMbgHcMIHAzAuMsgHA4AIAA&sclient=gws-wiz-serp
+
+Works by Euclid | LibriVox
+https://librivox.org/author/2304?primary_key=2304&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+
+Browse Catalog | LibriVox
+https://librivox.org/search?primary_key=93&search_category=genre&search_page=1&search_form=get_results&search_order=alpha
+
+The Fourth Dimension | LibriVox
+https://librivox.org/the-fourth-dimension-by-charles-howard-hinton/
+
+The fourth dimension : Hinton, Charles Howard, 1853-1907 : Free Download, Borrow, and Streaming : Internet Archive
+https://archive.org/details/fourthdimension00hintarch/page/14/mode/2up
+
+Letters to a German Princess - Wikipedia
+https://en.wikipedia.org/wiki/Letters_to_a_German_Princess
+
+Philosophy and Fun of Algebra | LibriVox
+https://librivox.org/philosophy-and-fun-of-algebra-by-mary-everest-boole/
+
+Philosophy and Fun of Algebra by Mary Everest Boole | Project Gutenberg
+https://www.gutenberg.org/ebooks/13447
+
+Philosophy and Fun of Algebra/Chapter 6 - Wikisource, the free online library
+https://en.wikisource.org/wiki/Philosophy_and_Fun_of_Algebra/Chapter_6
+
+The Science - History of the Universe Vol. 8: Mathematics | LibriVox
+https://librivox.org/the-science-history-of-the-universe-vol-8-by-francis-rolt-wheeler/
+
+Calculus Made Easy | LibriVox
+https://librivox.org/calculus-made-easy-by-silvanus-p-thompson/
+
+Calculus Made Easy - Wikipedia
+https://en.wikipedia.org/wiki/Calculus_Made_Easy
+
+The Project Gutenberg eBook #33283: Calculus Made Easy, 2nd Edition
+https://www.gutenberg.org/files/33283/33283-pdf.pdf
+
+The Einstein Theory of Relativity | LibriVox
+https://librivox.org/the-einstein-theory-of-relativity-by-hendrik-a-lorentz/
+
+The Einstein theory of relativity; a concise statement : Lorentz, Hendrik Antoon, 1853-1928 : Free Download, Borrow, and Streaming : Internet Archive
+https://archive.org/details/einsteintheoryof00loreuoft/page/56/mode/2up
+
+ia801700.us.archive.org/21/items/foundations_of_geometry_2112_librivox/foundationsofgeometry_02_hilbert_128kb.mp3
+https://ia801700.us.archive.org/21/items/foundations_of_geometry_2112_librivox/foundationsofgeometry_02_hilbert_128kb.mp3
+
+17384-pdf.pdf
+https://www.gutenberg.org/files/17384/17384-pdf.pdf
+
+ia800805.us.archive.org/14/items/6thanniversary_1108_librivox/6ann_06_elementsvi_ava_rg_64kb.mp3
+https://ia800805.us.archive.org/14/items/6thanniversary_1108_librivox/6ann_06_elementsvi_ava_rg_64kb.mp3
+
+First Six Books of the Elements of Euclid | Project Gutenberg
+https://www.gutenberg.org/cache/epub/21076/pg21076-images.html
+
+Calculus Made Easy/Chapter 2 - Wikisource, the free online library
+https://en.wikisource.org/wiki/Calculus_Made_Easy/Chapter_2
+
+Editing Page:Calculus Made Easy.pdf/23 - Wikisource, the free online library
+https://en.wikisource.org/w/index.php?title=Page:Calculus_Made_Easy.pdf/23&action=edit
+
+the fourth dimension hinton - Google Search
+https://www.google.com/search?q=the+fourth+dimension+hinton&rlz=1C5GCCM_en&oq=The+fourth+dimension+hinton&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDI2MzdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+The Fourth Dimension | Project Gutenberg
+https://www.gutenberg.org/cache/epub/67153/pg67153-images.html
+
+ReadAlongs
+https://github.com/ReadAlongs
+
+ReadAlong-Studio for Interactive Storytelling
+https://readalong-studio.mothertongues.org/#/
+
+G2P Part 1: Getting from 'a' to 'b' with g2p - why g2p exists and will let you do awesome things | Mother Tongues Blog
+https://blog.mothertongues.org/g2p-background/
+
+g2p Studio
+https://g2p-studio.herokuapp.com/
+
+roedoejet/convertextract: Extract and find/replace text based on arbitrary correspondences while preserving original file formatting. This library is a fork from the Textract library by Dean Malmgren.
+https://github.com/roedoejet/convertextract
+
+Zseni Leszek - YouTube
+https://www.youtube.com/@zsenileszek/videos
+
+Szögek és oldalak meghatározása szögfüggvényekkel - YouTube
+https://www.youtube.com/watch?v=IlpKNzW6DJk
+
+Instagram
 https://www.instagram.com/
 
-Google Keep
-https://keep.google.com/u/0/
+Instagram
+https://www.instagram.com/hungary_thebest/
 
 
