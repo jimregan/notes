@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 hidden: true
 description: Hungarian notes from ChatGPT
@@ -7,9 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
-
----
+# [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
 
 ## Line-by-line translation
 
@@ -156,9 +154,7 @@ categories: [hungarian, chatgpt, reels]
 
 ---
 
-[Reel](https://www.instagram.com/reels/DRWcQjAjH5M/) --- Női logika
-
----
+# [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/) --- Női logika
 
 ### **Az a férfi, aki mos, főz és takarít**
 
@@ -189,9 +185,7 @@ categories: [hungarian, chatgpt, reels]
 
 ---
 
-[Reel](https://www.instagram.com/reels/DTayyppjE0c/)
-
----
+# [Reel](https://www.instagram.com/reels/DTayyppjE0c/)
 
 ## Line-by-line HU → EN walkthrough
 
@@ -308,9 +302,7 @@ That would have been my suggestion. Enjoy your meal!
 
 ---
 
-[Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
-
----
+# [Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
 
 ## Line-by-line HU → EN walkthrough
 
@@ -414,9 +406,7 @@ How do you know he lives in Pécs? I guessed.
 
 ---
 
-[Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
-
----
+# [Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
 
 ## Line-by-line HU → EN walkthrough
 
@@ -555,9 +545,7 @@ Well— (trailing off)
 
 ---
 
-[Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
-
----
+# [Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
 
 ## Title (reference)
 
@@ -738,9 +726,7 @@ Right? Like, “Floor it!”
 
 ---
 
-[IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
-
----
+# [IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
 
 **IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz**
 
