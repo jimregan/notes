@@ -106,6 +106,9 @@ https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d/c/6962675e-1e50-8328-
 sphinx · jimregan/ClarinStudioKaldi@9862466
 https://github.com/jimregan/ClarinStudioKaldi/commit/98624660cf8ce47c8a15d172352ea63fe5f12703#diff-4cc820c4917b5cfc0e6ac5a00a015c46ba578ab8da512539f8428893681ab858
 
+Release cmusphinx-0.1 · jimregan/ClarinStudioKaldi
+https://github.com/jimregan/ClarinStudioKaldi/releases/tag/cmusphinx-0.1
+
 The Project Gutenberg eBook of Dubliners, by James Joyce
 https://www.gutenberg.org/cache/epub/2814/pg2814-images.html
 
@@ -124,7 +127,7 @@ http://localhost:8765/transcriptions/715abb59/
 localhost:8765/transcriptions/715abb59/align.json
 http://localhost:8765/transcriptions/715abb59/align.json
 
-(1) Instagram
+Instagram
 https://www.instagram.com/
 
 Dubliners | LibriVox
@@ -254,7 +257,7 @@ jimregan/kaldi-sprakbanken_swe at main
 https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/chain/extractor
 
 jimregan/kaldi-sprakbanken_swe at main
-https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/tri4a/graph_4g
+https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/data/lang_chain
 
 jimregan/kaldi-sprakbanken_swe at main
 https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp
@@ -262,31 +265,46 @@ https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp
 jimregan/kaldi-sprakbanken_swe at main
 https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/nnet5c
 
-ChatGPT - Current things, 14 June 2025
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/69656864-5ddc-832c-98cb-024b3deb4106
+docker container run | Docker Docs
+https://docs.docker.com/reference/cli/docker/container/run/
 
-Nordic prosody XIV - Google Search
-https://www.google.com/search?q=Nordic+prosody+XIV&rlz=1C5GCCM_en&oq=Nordic+prosody+XIV&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzEwMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+Browse Catalog | LibriVox
+https://librivox.org/search?primary_key=58&search_category=language&search_page=1&search_form=get_results&search_order=alpha
 
-Proceedings of the 13th International Conference of Nordic Prosody - Google Search
-https://www.google.com/search?q=Proceedings+of+the+13th+International+Conference+of+Nordic+Prosody&rlz=1C5GCCM_en&oq=Proceedings+of+the+13th+International+Conference+of+Nordic+Prosody&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEHMzY2ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
+ia803206.us.archive.org/21/items/mshortworks_001_1202_librivox/msw001_19_eftertorsdagen_benedictsson_at_64kb.mp3
+https://ia803206.us.archive.org/21/items/mshortworks_001_1202_librivox/msw001_19_eftertorsdagen_benedictsson_at_64kb.mp3
 
-Proceedings of the 13th International Conference of Nordic Prosody - Lund University
-https://portal.research.lu.se/en/publications/proceedings-of-the-13th-international-conference-of-nordic-prosod/
+Berättelser och utkast sida 126 etext | Litteraturbanken
+https://litteraturbanken.se/f%C3%B6rfattare/BenedictssonV/titlar/Ber%C3%A4ttelserOchUtkast/sida/126/etext
 
-Proceedings of the 13th International Conference of Nordic Prosody | The University of Adelaide
-https://searchlibrary.adelaide.edu.au/discovery/fulldisplay/alma9928419374301811/61ADELAIDE_INST:UOFA
+docker container attach | Docker Docs
+https://docs.docker.com/reference/cli/docker/container/attach/
 
-Proceedings of the 13th International Conference of Nordic...
-https://reference-global.com/book/9788366675728?tab=tableOfContents#about
+Image Layer Details - jimregan/kaldi_swe:latest
+https://hub.docker.com/repository/docker/jimregan/kaldi_swe/tags/latest/sha256-627765b462ab2959dfdcbb978f4dfc6214c7746e4711d318733dc3b6c5f0f3f0
 
-Multi-tracking TTS for the development and post hoc...
-https://reference-global.com/chapter/9788366675728/10.2478/9788366675728-006
+Image Layer Details - jimregan/kaldi_clarinpl:latest
+https://hub.docker.com/repository/docker/jimregan/kaldi_clarinpl/tags/latest/sha256-a2a32d48c31e73206a34c7607a63df25ce3c83a1be6b53548eeda487e9c3d6e7
 
-Segmental articulations across prosodic levels - Segmental...
-https://reference-global.com/chapter/9788366675728/10.2478/9788366675728-023
+New tab
+chrome://newtab/
 
-Processing Danish nouns with stød-alternating stems -...
-https://reference-global.com/chapter/9788366675728/10.2478/9788366675728-003
+New tab
+chrome://newtab/
+
+dockerfiles/kaldi-sprakbanken at main · jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles/tree/main/kaldi-sprakbanken
+
+raw.githubusercontent.com/jimregan/dockerfiles/refs/heads/main/kaldi-sprakbanken/tdnn-run.sh
+https://raw.githubusercontent.com/jimregan/dockerfiles/refs/heads/main/kaldi-sprakbanken/tdnn-run.sh
+
+Convert Docker image to Singularity container - Basic Singularity/Apptainer
+https://pmitev.github.io/UPPMAX-Singularity-workshop/docker2singularity/
+
+Instagram
+https://www.instagram.com/
+
+Claude
+https://claude.ai/new
 
 
