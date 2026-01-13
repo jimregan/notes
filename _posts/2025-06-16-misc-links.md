@@ -195,3 +195,7 @@ categories: [links]
 
 [Prosody Labeling with Phoneme-BERT and Speech Foundation Models](https://www.arxiv.org/abs/2507.03912)
 
+[facebookresearch/fairchem](https://github.com/facebookresearch/fairchem) --- FAIR Chemistry's library of machine learning methods for chemistry
+
+[clement-pages/gryannote](https://github.com/clement-pages/gryannote) --- Provide Gradio custom components to make the diarization-based audio labeling process easier and faster.
+
