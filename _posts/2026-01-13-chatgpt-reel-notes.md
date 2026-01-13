@@ -7,9 +7,9 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-# [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
+## [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
 
-## Line-by-line translation
+### Line-by-line translation
 
 1. **Nekem annak idején a randizás olyan élmény volt,**
    **EN:** Back then, dating was an experience for me like…
@@ -113,9 +113,9 @@ categories: [hungarian, chatgpt, reels]
 
 ---
 
-## Extracted vocabulary (with forms you’ll actually see)
+### Extracted vocabulary (with forms you’ll actually see)
 
-### Core / common spoken chunks
+#### Core / common spoken chunks
 
 * **annak idején** = back then
 * **szóval** = so / basically
@@ -124,13 +124,13 @@ categories: [hungarian, chatgpt, reels]
 * **alapból** = by default / from the start
 * **nem érünk rá** = we don’t have time
 
-### Dating / topic words
+#### Dating / topic words
 
 * **randizás / randizni** = dating / to date
 * **párkeresés** = partner-search, dating
 * **pasizás / pasizni** = getting guys, picking up men (slang)
 
-### Grammar & structure words
+#### Grammar & structure words
 
 * **mintha** = as if
 * **egyen-ként** = one by one
@@ -138,7 +138,7 @@ categories: [hungarian, chatgpt, reels]
 * **hanem** = but rather
 * **úgy …, hogy …** = in such a way that …
 
-### Verbs & key expressions
+#### Verbs & key expressions
 
 * **kihozni** = to bring out
 * **megnézni / megnézném** = to check/look / I’d check
@@ -146,17 +146,17 @@ categories: [hungarian, chatgpt, reels]
 * **rájön / jöjjön rá** = realize / let him realize
 * **elárul** = reveal
 
-### Register notes (important!)
+#### Register notes (important!)
 
 * **beleszarik** = “shits into” (very vulgar; used for shock humor)
 * **hülyeség** = stupidity / bullshit (informal, can be rude)
 * **bolond** = crazy (informal)
 
----
+-----
 
-# [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/) --- Női logika
+## [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/) --- Női logika
 
-### **Az a férfi, aki mos, főz és takarít**
+#### **Az a férfi, aki mos, főz és takarít**
 
 * **az a …, aki …** → “the one who …” (defining relative clause)
 * **mos** → does the laundry (default interpretation without object)
@@ -167,7 +167,7 @@ categories: [hungarian, chatgpt, reels]
 
 ---
 
-### **az egy utolsó szemét**
+#### **az egy utolsó szemét**
 
 * **egy utolsó X** → “an absolute / complete X”
 * **szemét** → trash, scumbag (strong insult, colloquial)
@@ -175,7 +175,7 @@ categories: [hungarian, chatgpt, reels]
 
 ---
 
-### **hiszen ő csak a szexre használja a nőt**
+#### **hiszen ő csak a szexre használja a nőt**
 
 * **hiszen** → “since / after all” (often ironic justification)
 * **csak** → only (exclusivity, accusation)
@@ -183,11 +183,11 @@ categories: [hungarian, chatgpt, reels]
 * **használja a nőt** → uses the woman (objectifying phrasing)
 * Mock-logical explanation → punchline
 
----
+-----
 
-# [Reel](https://www.instagram.com/reels/DTayyppjE0c/)
+## [Reel](https://www.instagram.com/reels/DTayyppjE0c/)
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Ha már úgyis nyár van és jó idő,**
 Since it’s summer anyway and the weather is nice,
@@ -262,9 +262,9 @@ That would have been my suggestion. Enjoy your meal!
 
 ---
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
-### Discourse / structure
+#### Discourse / structure
 
 * **ha már úgyis** – since anyway
 * **viszont** – however / but
@@ -272,19 +272,19 @@ That would have been my suggestion. Enjoy your meal!
 * **hadd** – let me
 * **itt szeretném megfogalmazni** – here I’d like to formulate
 
-### Region / culture
+#### Region / culture
 
 * **Felvidék** – Upper Hungary / southern Slovakia
 * **jellegzetesség** – characteristic
 
-### Food
+#### Food
 
 * **lángos** – fried flatbread
 * **lángosozó** – lángos stand / vendor
 * **sajtos** – with cheese
 * **kecsapos** – with ketchup
 
-### Verbs
+#### Verbs
 
 * **bevett** – customary, established
 * **fogyaszt** – consume
@@ -293,18 +293,18 @@ That would have been my suggestion. Enjoy your meal!
 * **felvesz (a menüre)** – include on the menu
 * **árul** – sell
 
-### Useful constructions
+#### Useful constructions
 
 * **megvan(nak) a maga …-ei** – has its own …
 * **van, ahol + V** – there are places where …
 * **higgyétek el** – believe me (plural)
 * **ez lett volna a javaslatom** – that would have been my suggestion
 
----
+-----
 
-# [Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
+## [Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **a randizás a lányoknál nem egyéni tevékenység, az csapatmunka.**
 Dating, for girls, is not an individual activity — it’s teamwork.
@@ -360,35 +360,35 @@ How do you know he lives in Pécs? I guessed.
 
 ---
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
-### Discourse / structure
+#### Discourse / structure
 
 * **tehát** – so / therefore
 * **már** – already
 * **ilyen** – this kind of
 
-### Dating & social context
+#### Dating & social context
 
 * **randizás** – dating
 * **randi** – date
 * **randira** – to a date
 
-### People & relations
+#### People & relations
 
 * **lány** – girl
 * **barátnő** – (female) friend
 * **tesó** – sibling (informal)
 * **bátyám** – my older brother
 
-### Metaphorical / humorous terms
+#### Metaphorical / humorous terms
 
 * **csapatmunka** – teamwork
 * **kutatócsapat** – research team
 * **átvilágítás** – screening / background check
 * **akta** – file, dossier
 
-### Verbs
+#### Verbs
 
 * **áll (vki mögött)** – stand behind / support
 * **alkot** – constitute
@@ -397,18 +397,18 @@ How do you know he lives in Pécs? I guessed.
 * **kérdez** – ask
 * **tippel** – guess
 
-### Useful constructions
+#### Useful constructions
 
 * **nem X, hanem Y / az Y** – not X, but Y
 * **vki mögött áll** – someone has backing/support
 * **rajtad végez vmit** – performs something on you
 * **honnan tudod…?** – how do you know…?
 
----
+-----
 
-# [Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
+## [Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Ki az, aki hallotta gyerekkorában, hogy égési sérülésre jó a tejföl?**
 Who here heard in their childhood that sour cream is good for burns?
@@ -500,28 +500,28 @@ Well— (trailing off)
 
 ---
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
-### Discourse / stance
+#### Discourse / stance
 
 * **na hát** – well then (ironic)
 * **tehát** – so
 * **hát** – well (rhetorical)
 * **maximum** – at most
 
-### Health / body
+#### Health / body
 
 * **égési sérülés** – burn injury
 * **másodfokú** – second-degree
 * **leforrázza magát** – scald oneself
 * **ég** – burn
 
-### Food (humor source)
+#### Food (humor source)
 
 * **tejföl** – sour cream
 * **Mizo** – dairy brand
 
-### Verbs
+#### Verbs
 
 * **hall** – hear
 * **tanít** – teach
@@ -531,23 +531,23 @@ Well— (trailing off)
 * **beken** – smear
 * **működik** – work
 
-### Informal / vulgar
+#### Informal / vulgar
 
 * **szarrá** – completely / to hell (very informal)
 * **nővérke** – nurse (diminutive, ironic)
 
-### Useful constructions
+#### Useful constructions
 
 * **ki az, aki…** – who is it that…
 * **X-re jó** – good for X
 * **ha …, akkor …** – if … then …
 * **maximum annyira jó, hogy…** – at most only good enough that…
 
----
+-----
 
-# [Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
+## [Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
 
-## Title (reference)
+### Title (reference)
 
 **Szép volt, jó volt, elég volt.**
 
@@ -559,7 +559,7 @@ It was nice, it was good, it was enough.
 
 ---
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Jó volt ez a hóesés úgy a harmadik napig.**
 This snowfall was good up until about the third day.
@@ -688,14 +688,14 @@ Right? Like, “Floor it!”
 
 ---
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
-### Weather & winter
+#### Weather & winter
 
 * **hó / hóesés** – snow / snowfall
 * **olvad / olvadt le** – melt / defrost
 
-### Driving
+#### Driving
 
 * **fékpedál** – brake pedal
 * **lassul** – slow down
@@ -703,7 +703,7 @@ Right? Like, “Floor it!”
 * **felfestés** – road marking
 * **bicikliút** – bike lane
 
-### Verbs & actions
+#### Verbs & actions
 
 * **élvez** – enjoy
 * **hiányzik** – be missed
@@ -713,20 +713,20 @@ Right? Like, “Floor it!”
 * **kaparászás** – scraping
 * **söprögetés** – sweeping
 
-### Discourse & stance
+#### Discourse & stance
 
 * **úgy** – roughly
 * **szerintem** – in my opinion
 * **hát** – emphatic marker
 * **nem?** – right? (tag question)
 
-### Informal / strong
+#### Informal / strong
 
 * **kurva** – fucking (intensifier)
 
----
+-----
 
-# [IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
+## [IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
 
 **IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz**
 
@@ -735,7 +735,7 @@ YES, I know that artificial intelligence and AI are the same thing.
 
 ---
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Ez a mesterséges intelligencia meg ez az AI ez nem úgy fogják átvenni a hatalmat,**
 This artificial intelligence — this AI — isn’t going to take over power like that,
@@ -831,9 +831,9 @@ so then they themselves will be making phone calls like,
 
 ---
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
-### Tech / modern life
+#### Tech / modern life
 
 * **mesterséges intelligencia** – artificial intelligence
 * **AI** – AI
@@ -846,29 +846,29 @@ so then they themselves will be making phone calls like,
 * **kirúg** – fire (someone)
 * **elvenni a munkát** – take someone’s job
 
-### Verbs & actions
+#### Verbs & actions
 
 * **bekapcsol** – turn on
 * **vonalban tart** – keep on the line
 * **telefonál** – make a phone call
 * **tanul (vkitől)** – learn (from someone)
 
-### Discourse & stance
+#### Discourse & stance
 
 * **szerintem** – in my opinion
 * **mondjuk** – say / like
 * **hanem** – but rather
 * **ezért** – therefore
 
-### Informal / vulgar
+#### Informal / vulgar
 
 * **szemétség** – shitty act
 * **baszódnál meg** – go fuck yourself (very vulgar)
 
-### Useful constructions
+#### Useful constructions
 
 * **nem úgy…, mint…, hanem…** – not like…, but rather…
 * **amikor…, akkor…** – when…, then…
 * **így fogják…** – this is how they will…
 
----
+-----
