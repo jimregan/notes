@@ -1,0 +1,753 @@
+[
+  {
+    "section": "s3",
+    "phonetic": "αrəm",
+    "gloss": "army",
+    "etymology": [{"language": "Old Irish", "form": "arm"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "αt",
+    "gloss": "swelling",
+    "etymology": [{"language": "Old Irish", "form": "att"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "fαnαχt",
+    "gloss": "to stay, remain",
+    "etymology": [{"language": "Old Irish", "form": "anaim"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "kαpəL",
+    "gloss": "mare",
+    "etymology": [{"language": "Middle Irish", "form": "capall"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "mαk",
+    "gloss": "son",
+    "etymology": [{"language": "Old Irish", "form": "macc"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "mαLαχt",
+    "gloss": "curse",
+    "etymology": [{"language": "Old Irish", "form": "maldacht"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "tαχtuw",
+    "gloss": "to choke",
+    "etymology": [{"language": "Old Irish", "form": "tachtad"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "tαrt",
+    "gloss": "thirst",
+    "etymology": [{"language": "Old Irish", "form": "tart"}]
+  },
+  {
+    "section": "s3",
+    "phonetic": "tαruw",
+    "gloss": "bull",
+    "etymology": [{"language": "Middle Irish", "form": "tarb"}]
+  },
+
+  {
+    "section": "s4",
+    "phonetic": "αχ",
+    "gloss": "steed",
+    "etymology": [{"language": "Old Irish", "form": "ech"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "αlə",
+    "gloss": "swan",
+    "etymology": [{"language": "Middle Irish", "form": "ela"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "αŋ",
+    "gloss": "splice, strip",
+    "etymology": [{"language": "Middle Irish", "form": "eng"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "αŋαχ",
+    "gloss": "fisherman's net",
+    "etymology": [{"language": "Middle Irish", "form": "eng"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "dʹrʹαm",
+    "gloss": "crowd",
+    "etymology": [{"language": "Middle Irish", "form": "dremm"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "dʹαrəg",
+    "gloss": "red",
+    "etymology": [{"language": "Old Irish", "form": "derg"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "fʹαr",
+    "gloss": "man",
+    "etymology": [{"language": "Old Irish", "form": "fer"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "gʹαl",
+    "gloss": "white",
+    "etymology": [{"language": "Middle Irish", "form": "gel"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "kʹαχtər",
+    "gloss": "either",
+    "etymology": [{"language": "Old Irish", "form": "cechtar"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "Lʹαnuw",
+    "gloss": "child",
+    "etymology": [{"language": "Middle Irish", "form": "lenab"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "Nʹαd",
+    "gloss": "nest",
+    "etymology": [{"language": "Middle Irish", "form": "net"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "pʹαkuw",
+    "gloss": "sin",
+    "etymology": [{"language": "Old Irish", "form": "peccad"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "ʃαsuw",
+    "gloss": "to stand",
+    "etymology": [{"language": "Middle Irish", "form": "sessom"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "tʹαχ",
+    "gloss": "house",
+    "etymology": [{"language": "Old Irish", "form": "tech"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "tα꞉ ʃɛ erʹ ə Nʹαsəl",
+    "gloss": "he’s badly drunk",
+    "transcription": "tá sé air an asal",
+    "etymology": [{"language": "Middle Irish", "form": "assal"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "ə tʹαspəl",
+    "gloss": "the apostle",
+    "etymology": [{"language": "Old Irish", "form": "apstal"}],
+    "source_refs": [{"work": "McCurtin", "form": "easbal", "note": "Grammar p. 103"}]
+  },
+  {
+    "section": "s4",
+    "phonetic": "ə tʹαsrïgər",
+    "gloss": "a back-answer, sharp retort",
+    "from": "ais-fhreagar",
+  },
+  {
+    "section": "s4",
+    "phonetic": "αnəN",
+    "gloss": "alike, level, equal",
+    "etymology": [{"language": "Old Irish", "form": "inonn"}],
+    "examples": [
+      {"phonetic": "mər ə NʹαnəN, kũαnəN"}
+    ],
+    "notes": ["We should expect *o̤nəN but compare ea for io in Co. Monaghan in ionad, tionntuigh &c. (Gaelic Journal 1896, p.147 col.2)"]
+  },
+
+  {
+    "section": "s5",
+    "phonetic": "kαhũw",
+    "gloss": "to spend, wear, throw",
+    "etymology": [{"language": "Old Irish", "form": "caithem"}],
+    "source_refs": [{"work": "Craig", "form": "cathadh"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "ə wα̃hə lʹɛ",
+    "gloss": "for the sake of",
+    "source_refs": [{"work": "Dinneen", "form": "mar (ar) mhaithe le"}],
+    "examples": [
+      {"phonetic": "ə wα̃hə lʹeihə heinʹ ə nʹi꞉s ə kαt krɔ꞉nαn",
+       "gloss": "it is for her own good that the cat purs"},
+      {"phonetic": "Nʹi꞉ gə ho̤mlα꞉n ə wα̃hə lʹeʃ ə wUNtæʃtʹə αχ wα̃hə lʹeʃ ə fʹlʹeiʃu꞉r",
+       "gloss": "not altogether for the sake of profit but also for pleasure"}
+    ]
+  },
+  {
+    "section": "s5",
+    "phonetic": "mα gə Lʹɔ꞉r",
+    "gloss": "alright",
+    "transcription": "maith go leor",
+    "notes": ["Elsewhere 'maith' appears as mαiç'"]
+  },
+  {
+    "section": "s5",
+    "phonetic": "αhəNtəs",
+    "gloss": "acquaintance",
+    "source_refs": {"work": "Dinneen", "form": "aitheantas"},
+    "relations": {"type": "derived_from", "phonetic": "en̥ʹə"},
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "αhəNtə",
+    "gloss": "acquainted",
+    "source_refs": {"work": "Dinneen", "form": "aitheanta"},
+    "relations": {"type": "derived_from", "phonetic": "en̥ʹə"},
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "dαhinʹ mʹə",
+    "gloss": "I recognised",
+    "source_refs": {"work": "Dinneen", "form": "d’aithin"},
+    "relations": {"type": "paradigm_of", "target": "aithin (verb)"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "αhəNtə",
+    "gloss": "commandments",
+    "source_refs": {"work": "Dinneen", "form": "aitheanta"},
+    "notes": ["Plural of 'aithne'"],
+    "etymology": {"language": "Old Irish", "form": "aithgne"}
+  },
+  {
+    "section": "s5",
+    "phonetic": "αhiNʹə",
+    "gloss": "brand",
+    "etymology": [{"language": "Middle Irish", "form": "aithinne"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "mαhũw",
+    "gloss": "to forgive",
+    "etymology": [{"language": "Old Irish", "form": "mathem"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "fαrəgʹə",
+    "gloss": "sea",
+    "etymology": [{"language": "Old Irish", "form": "fairgge"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "fαrsiNʹ",
+    "gloss": "ample",
+    "etymology": [{"language": "Old Irish", "form": "fairsing"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "mαrstʹən",
+    "gloss": "to remain, last",
+    "note": "infinitive of maraim",
+    "source_refs": [{"work": "Windisch", "form": "maraim"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "αmʹʃirʹ",
+    "gloss": "weather",
+    "etymology": [{"language": "Old Irish", "form": "aimser"}]
+  },
+  {
+    "section": "s5",
+    "phonetic": "tαvʃə",
+    "gloss": "ghost",
+    "etymology": [{"language": "Middle Irish", "form": "taidbsiu"}],
+    "examples": [
+      {"phonetic": "ə ŋlαkə tuw kɔpαn te꞉ (ə)niʃ? Nʹi꞉ tαvʃ(ə) e꞉",
+       "gloss": "will you take a cup of tea now? It would be very acceptable"}
+    ]
+  },
+
+  {
+    "section": "s6",
+    "phonetic": "αfʹrʹəN",
+    "gloss": "mass",
+    "source_refs": [{"work": "Windisch", "form": "oifrend"}]
+  },
+
+  {
+    "section": "s7",
+    "phonetic": "sNαhəd",
+    "gloss": "needle",
+    "etymology": [{"language": "Old Irish", "form": "snáthat"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": ["sNαhəd", "sNαhuw"],
+    "gloss": "to wash down, spice",
+    "source_refs": [{"work": "Dinneen", "form": "snathadh"}],
+    "relations": [
+      {"type": "present", "phonetic": "sNα꞉ihəm"},
+      {"type": "preterite", "phonetic": "nα꞉iç"},
+      {"type": "past_participle", "phonetic": "sNα꞉tʹə"}
+    ]
+  },
+  {
+    "section": "s7",
+    "phonetic": "αhəs",
+    "gloss": "joy",
+    "etymology": [{"language": "Middle Irish", "form": "áithes"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": "tαhər",
+    "gloss": "man ist",
+    "gloss_language": "German",
+    "etymology": [{"language": "Middle Irish", "form": "atáthar"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": "Nʹi꞉ αhαr",
+    "transcription": "ní fhaghthar"}],
+    "examples": [{"phonetic": "Nʹi꞉ αhər sæLʹ gən çαNαχt", "gloss": "lard is not got without buying"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": "mαhærʹ",
+    "gloss": "mother",
+    "etymology": [{"language": "Old Irish", "form": "máthir"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": "drαh ə Nαmə ʃɔ",
+    "gloss": "about this time",
+    "transcription": "i dtráth an ama seo",
+    "source_refs": [{"work": "Craig", "form": "dratha"}]
+  },
+  {
+    "section": "s7",
+    "phonetic": "Lαhirʹ",
+    "relations": [{"type": "in_phrase", "phonetic": "sə Nαm ə Lαhirʹ", "gloss": "at the present time"}],
+    "notes": ["Always with α; double forms existed earlier"]
+  },
+
+  {
+    "section": "s8",
+    "phonetic": "Nα̃vdʹə",
+    "relations": [{"type": "plural_of", "phonetic": "Nα̃꞉widʹ", "gloss": "enemy"}],
+    "etymology": [{"language": "Old Irish", "form": "náimtea", "type": "accusative plural"}]
+  },
+
+  {
+    "section": "s9",
+    "phonetic": "αgəs",
+    "gloss": "and",
+    "etymology": [{"language": "Old Irish", "form": "ocus"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "αskəL",
+    "gloss": "arm-pit",
+    "etymology": [{"language": "Middle Irish", "form": "ochsal"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "bαrəb",
+    "gloss": "rough",
+    "etymology": [{"language": "Middle Irish", "form": "borb"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "bαtæLʹtʹə",
+    "gloss": "wap of hay",
+    "source_refs": [{"work": "Dinneen", "form": "batailte"}],
+    "notes": ["from English 'bottle'"]
+  },
+  {
+    "section": "s9",
+    "phonetic": "blαgədʹ",
+    "gloss": "bald patch",
+    "source_refs": [{"work": "Meyer", "form": "bloc .i. cruinn"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "brαhαn",
+    "gloss": "porridge",
+    "source_refs": [
+      {"work": "Dinneen", "form": "brochán"},
+      {"work": "Macbain", "form": "brochán"},
+      {"work": "Meyer", "form": "brothchán"}
+    ]
+  },
+  {
+    "section": "s9",
+    "phonetic": "brαLαχ",
+    "gloss": "breast",
+    "source_refs": [{"work": "Meyer", "form": "brollach"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "fαLænʹ",
+    "gloss": "healthy",
+    "source_refs": [{"work": "Dinneen", "form": "fóllain"}],
+    "notes": ["cf. Molloy’s 13th dialect-list"]
+  },
+  {
+    "section": "s9",
+    "phonetic": "fαχlə",
+    "gloss": "parched",
+    "source_refs": [{"work": "Dinneen", "form": "fochla", "note": "different meaning"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "fαruw",
+    "gloss": "roost",
+    "etymology": [{"language": "Middle Irish", "form": "forud"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "fαskuw",
+    "gloss": "shelter",
+    "etymology": [{"language": "Old Irish", "form": "foscad"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "kαgnuw",
+    "gloss": "to chew",
+    "etymology": [{"language": "Middle Irish", "form": "cocnam"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "kαL",
+    "gloss": "hazel",
+    "etymology": [{"language": "Old Irish", "form": "coll"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "kαskərtʹ",
+    "gloss": "to strike, thaw",
+    "etymology": [{"language": "Old Irish", "form": "coscar"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "mαguw",
+    "gloss": "to mock",
+    "notes": ["from English; cf. Louth 'mogadh'"]
+  },
+  {
+    "section": "s9",
+    "phonetic": "sαp",
+    "gloss": "wisp",
+    "etymology": [{"language": "Middle Irish", "form": "sopp"}],
+    "examples": [{"phonetic": "ʃïnʹ ə sαp ə row ə tʹiəsk əN", "gloss": "das also war des Pudels Kern"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "skαhuw",
+    "gloss": "to wean",
+    "etymology": [{"language": "Middle Irish", "form": "scothaim"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": ["spαrαn", "spɔrαn"],
+    "gloss": "purse",
+    "etymology": [{"language": "Middle Irish", "form": "sporán"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "tαrəmαn",
+    "gloss": "noise",
+    "source_refs": [{"work": "Windisch", "form": "tormán", "note": "iv 1"}]
+  },
+  {
+    "section": "s9",
+    "phonetic": "fɔskluw",
+    "gloss": "to open",
+    "relations": [{"type": "future", "phonetic": "Nʹi꞉ αsklαχi꞉"}]
+  },
+
+  {
+    "section": "s10",
+    "phonetic": "gʹαrαn",
+    "gloss": "horse (gelding)",
+    "etymology": [{"language": "Middle Irish", "form": "gerrán"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "skαhαn",
+    "gloss": "mirror",
+    "etymology": [{"language": "Middle Irish", "form": "scathán"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "glu꞉rəkαn",
+    "gloss": "numbness",
+    "examples": [{"phonetic": "tα꞉ ko̤Luw glu꞉rəkænʹ əN mə χɔʃ", "gloss": "my foot is asleep"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": ["mʹαkən", "mʹαkαn"],
+    "gloss": "carrot (also roots of dock, agrimony)",
+    "relations": [{"type": "phrase", "phonetic": "Lo̤s Nə mʹαkαn", "gloss": "fungus, moss"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": ["Lʹαhən", "Lʹαhαn"],
+    "gloss": "wide",
+    "etymology": [{"language": "Old Irish", "form": "lethan"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": ["gʹαləwαn", "gʹαləwən"],
+    "gloss": "sparrow",
+    "source_refs": [{"work": "Dinneen", "form": "gealbhan"}],
+    "etymology": [{"language": "Middle Irish", "form": "gelbund"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "ruəkən",
+    "gloss": "cockle",
+    "source_refs": [{"work": "Dinneen", "form": "ruacán"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "mαkαNtə",
+    "gloss": "civil, decent",
+    "literal_gloss": "filial",
+    "etymology": [{"type": "derived_from", "language": "Old Irish", "form": "maccán", "gloss": "puerulus"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "spαdαNtə",
+    "gloss": "seedy, out of sorts",
+    "source_refs": [{"work": "Dinneen", "form": "spadánta"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹiαNtə",
+    "gloss": "wild (of people)",
+    "source_refs": [{"work": "Dinneen", "form": "fiadhanta"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "α̃uwlaNtə",
+    "gloss": "foolishly prating",
+    "relations": [{"type": "derived_from", "phonetic": "α̃uwlɔrʹ"}],
+    "source_refs": [{"work": "Dinneen", "form": "amhlóir"}],
+    "etymology": [{"language": "Middle Irish", "form": "oblóir"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹiəstαlαχ",
+    "gloss": "rush",
+    "source_refs": [{"work": "Dinneen", "form": "fiastalach", "note": "should be spelt with -á-"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹαdαli꞉",
+    "gloss": "to whistle",
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹαdαlαχ",
+    "gloss": "whistling",
+    "source_refs": [{"work": "Dinneen", "form": "feadálach"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "fʹɛkʹαlαχ",
+    "gloss": "conspicuous, remarkable, handsome"
+  },
+  {
+    "section": "s10",
+    "phonetic": "fαdαlαχ",
+    "gloss": "slow",
+    "source_refs": [{"work": "Dinneen", "form": "fadálach"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "ɔr̥αlαχə",
+    "gloss": "offerings (pl.)",
+    "relations": [{"type": "plural_of", "phonetic": "ɔr̥ælʹ"}],
+    "source_refs": [{"work": "Dinneen", "form": "ofráil"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "u꞉hαs",
+    "gloss": "prodigy",
+    "etymology": [{"language": "Middle Irish", "form": "uathbás"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "prα꞉kαs",
+    "gloss": "small, deformed person",
+    "source_refs": [{"work": "Dinneen", "form": "prácás"}]
+  },
+  {
+    "section": "s10",
+    "phonetic": "rα꞉mαs",
+    "gloss": "idle talk"
+  },
+  {
+    "section": "s10",
+    "phonetic": "dʹrʹəuwlαs",
+    "gloss": "licentiousness",
+    "source_refs": [
+      {"work": "Dinneen", "form": "dreabhlas"},
+      {"work": "Dinneen", "form": "drobhlas"}
+    ]
+  },
+  {
+    "section": "s10",
+    "phonetic": "dʹrʹəuwlαsαχ",
+    "gloss": "licentious",
+    "source_refs": [
+      {"work": "Dinneen", "form": "dreabhlas"},
+      {"work": "Dinneen", "form": "drobhlas"}
+    ]
+  },
+  {
+    "section": "s10",
+    "phonetic": "o̤rLαr",
+    "gloss": "floor",
+    "source_refs": [{"work": "Dinneen", "form": "urlár"}]
+  },
+
+  {
+    "section": "s11",
+    "phonetic": "ti꞉dɔrʹ",
+    "gloss": "thatcher",
+    "source_refs": [{"work": "Dinneen", "form": "tuigheadoir"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": "ti꞉dαrαχt",
+    "gloss": "thatching"
+  },
+  {
+    "section": "s11",
+    "phonetic": "spwæʃtʹαrαχt",
+    "gloss": "strolling about",
+    "source_refs": [{"work": "Dinneen", "form": "spaisteoireacht"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": "NʹɛəLtαrαχt",
+    "gloss": "idling",
+    "source_refs": [{"work": "Dinneen", "form": "néalladóireacht"}],
+    "notes": ["cp. English 'star-gazing'"]
+  },
+  {
+    "section": "s11",
+    "phonetic": "ʃαnəmαNti꞉",
+    "gloss": "preacher",
+    "source_refs": [{"work": "Dinneen", "form": "seanmóntaidhe"}],
+    "relations": [{"type": "contrast", "phonetic": "ʃαnəmɔrʹ", "gloss": "sermon"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": ["fwiNʹɔg", "fwiNʹαg"],
+    "gloss": "window",
+    "etymology": [{"language": "Middle Irish", "form": "fuindeóg"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": "fwi꞉lʹαg",
+    "gloss": "sea-gull",
+    "etymology": [{"language": "Old Irish", "form": "foilenn"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": "kyNʹαg",
+    "gloss": "churn-dash",
+    "etymology": [{"language": "Middle Irish", "form": "cuindeóg"}]
+  },
+  {
+    "section": "s11",
+    "phonetic": "mʹiəLtɔgy꞉",
+    "gloss": "midges (plural)"
+  },
+  {
+    "section": "s11",
+    "phonetic": "αsɔgy꞉",
+    "gloss": "weasels (plural)"
+  },
+  {
+    "section": "s11",
+    "phonetic": "bʹαχɔgy꞉",
+    "gloss": "bees (plural)"
+  },
+  {
+    "section": "s11",
+    "phonetic": "erʹ ə NyNʹægʹ",
+    "gloss": "on the window",
+    "notes": ["Gen./Dat. singular commonly with æ"]
+  },
+  {
+    "section": "s11",
+    "phonetic": "gαh bʹαχægʹə",
+    "gloss": "the sting of a bee",
+    "notes": ["Gen./Dat. singular commonly with æ"]
+  },
+
+  {
+    "section": "s12",
+    "phonetic": "kï̃vαd",
+    "gloss": "to watch, look at; to mind",
+    "source_refs": [
+      {"work": "Dinneen", "form": "coimhéad"},
+      {"work": "Wi.", "form": "comét"}
+    ],
+    "examples": [{"phonetic": "kï̃vαd də χɔsə", "gloss": "mind your feet"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "kʹïnʹαl",
+    "gloss": "sort, kind",
+    "etymology": [{"language": "Old Irish", "form": "cinél / cenél"}],
+    "source_refs": [{"work": "Dinneen", "form": "cinéal"}],
+    "relations": [{"type": "derived_adj", "phonetic": "kʹïnʹαLtə", "gloss": "kind"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "kïlʹαn",
+    "gloss": "pup",
+    "etymology": [{"language": "Middle Irish", "form": "culén"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "kɔrNʹαl",
+    "gloss": "corner",
+    "source_refs": [{"work": "Dinneen", "form": "coirnéal"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "kαir̥ʹαmʹ",
+    "gloss": "triumph",
+    "etymology": [{"language": "Middle Irish", "form": "caithréim"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "dïvαn",
+    "gloss": "a cormorant (scart)",
+    "source_refs": [{"work": "Dinneen", "form": "duibhéan", "note": "‘cormorant’"}]
+  },
+  {
+    "section": "s12",
+    "phonetic": "bʹαrαd",
+    "gloss": "cap",
+    "source_refs": [{"work": "Dinneen", "form": "bairéad"}],
+    "notes": [
+      "Likely influenced by bʹαruw; cf. Middle Irish berrad ‘to shave, dress the hair’.",
+      "Munster bearad should have length-mark.",
+      "Craig and Ward often omit length-marks in -án, -áil, -óir, obscuring pronunciation."
+    ]
+  }
+]
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE supplementalData SYSTEM "../../common/dtd/ldmlSupplemental.dtd">
+<supplementalData>
+  <version number="$Revision: 6 $"/>
+  <transforms>
+    <transform source="ru" target="ru_Latn" variant="FR" direction="forward" alias="Russian-Latin/French ru-Latn-t-ru-m0-fr" draft="contributed">
+      <tRule><![CDATA[
+::[АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщ];
+::NFC;
+$upper = [:Uppercase:];
+$vU = [АЕЁИОУЫЭЮЯ];
+$vL = [аеёиоуыэюя];
+$v  = [АЕЁИОУЫЭЮЯаеёиоуыэюя];
+$WB = [^[:L:][:M:][:N:]];
+
+А > A;
+а > a;
+Б > B;
+б > b;
+В > V;
+в > v;
+
+ГЕ > GUE;
+Ги > Gui;
+ГИ > GUI;
+Ге > Gue;
+ГЫ > GY;
+Гы > Gy;
+ге > gue;
+ги > gui;
+гы > gy;
+
+Г > G;
+г > g;
+
+Д > D;
+д > d;
+
+$WB { Е } $upper > IE;
+$WB { Е > Ie;
+$WB { е > ie;
+[ЬЪ] { Е > IE;
+[ьъ] { Е > Ie;
+[АЕЁОУЫЭЮЯ] { Е > ÏE;
+[аеёоуыэюя] { е > ïe;
+Е > E;
+е > e;
+
+Ё } $upper > IO;
+$upper { Ё > IO;
+Ё > Io;
+ё > io;
+
+Ж > J;
+ж > j;
+З > Z;
+з > z;
+
+ИЙ } $WB > I;
+ий } $WB > i;
+ЫЙ } $WB > Y;
+ый } $WB > y;
+
+[АаЕеЁёОоУуЫыЭэЮюЯя] { И > Ï;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { и > ï;
+И > I;
+и > i;
+
+Й > Ï;
+й > ï;
+
+К > K;
+к > k;
+Л > L;
+л > l;
+М > M;
+м > m;
+
+[ИиЫы] { н } $WB > ne;
+[ИиЫы] { Н } $WB > NE;
+Н > N;
+н > n;
+
+О > O;
+о > o;
+П > P;
+п > p;
+Р > R;
+р > r;
+
+$v { С } $v > ss;
+$v { с } $v > ss;
+С > S;
+с > s;
+
+Т > T;
+т > t;
+
+У } $upper > OU;
+$upper { У > OU;
+У > Ou;
+у > ou;
+
+Ф > F;
+ф > f;
+
+Х } $upper > KH;
+$upper { Х > KH;
+Х > Kh;
+х > kh;
+
+Ц } $upper > TS;
+$upper { Ц > TS;
+Ц > Ts;
+ц > ts;
+
+Ч } $upper > TCH;
+$upper { Ч  > TCH;
+Ч > Tch;
+ч > tch;
+
+Ш } $upper > CH;
+$upper { Ш > CH;
+Ш > Ch;
+ш > ch;
+
+Щ } $upper > CHTCH;
+$upper { Щ  > CHTCH;
+Щ > Chtch;
+щ > chtch;
+
+Ъ > ;
+ъ > ;
+Ь > ;
+ь > ;
+
+Ы > Y;
+ы > y;
+
+Э > E;
+э > e;
+
+[ИиЙй] { Ю } $upper > OU;
+[ИиЙй] { Ю > Ou;
+[ИиЙй] { ю > ou;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { Ю } $upper > ÏOU;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { Ю > Ïou;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { ю > ïou;
+Ю } $upper > IOU;
+Ю > Iou;
+ю > iou;
+
+[ИиЙй] { Я } $upper > A;
+[ИиЙй] { Я > A;
+[ИиЙй] { я > a;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { Я } $upper > ÏA;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { Я > Ïa;
+[АаЕеЁёОоУуЫыЭэЮюЯя] { я > ïa;
+Я } $upper > IA;
+Я > Ia;
+я > ia;
+
+::NFC;
+      ]]></tRule>
+    </transform>
+  </transforms>
+</supplementalData>
