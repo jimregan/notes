@@ -2,7 +2,6 @@
 
 ---
 
-You’re very close. Here’s the **clean, natural translation**, with a small nuance explained.
 
 ### Hungarian
 
@@ -28,10 +27,6 @@ You’re very close. Here’s the **clean, natural translation**, with a small n
 * **Azokat is meg lehet nézni…**
   → literally “Those too can be watched…”
   → the trailing off is part of the joke (suggestive understatement)
-
-Your paraphrase was essentially correct; the only tweak is that it’s not *“who thinks”* but more sharply *“who said”*, which gives it a more ironic, dismissive tone.
-
-If you want, next time we can do this the usual way (caption → line-by-line → vocab), but for a quick check: you nailed it.
 
 -----
 
@@ -121,3 +116,22 @@ The humor comes from:
 
 -----
 
+-----
+
+[Reel](https://www.instagram.com/p/DTdtT65AXZG/)
+
+A hónaljad is befújod izzadtsággátlóval hogy egész nap friss legyél?
+Miért ne óvhatnád meg az intim testrészeidet is az verejtéktezés kellemetlenségeitől?
+Ugye te sem akarod hogy egy forró nyári délutánon történő váratlan találkozón beégj
+Milyen jó lenne biztosan tudni hogy a kedves hölgy nem borzod el a gatyád fedése alatt megbújó bukétól amikor lehúzza rólad
+Ezzel a termékkel érezheted magad minden nap kényelmesen a bepálástól való feszengés helyett
+Natúr ápolást biztosít a spray belesimul a bőrödbe nem ragad nem nehezít el csak könnyed selymességet hagy maga után
+nem tövíti el a pórusaidat hősítő érzetet ad a mentor azonnal felüdíti a bőröd de nem tolakodó, nem csíp 
+bőrkimélő ugyanis aloe vera van benne ugye mélyen hidratál ez által így a bőröd sokáig puha és ápolt marad
+természetes védelmet biztosít ugyanis alumminium meg alkoholmentes is a formula ami engedi a testednek hogy végezze a természetes folyamatait de segít megelőznia a kellemetlen szagokat érzéki illatélmény citrosos és friss tele energiával.
+Teszteljük le
+Nézzük hogy milyen illata van valóban
+és tényleg ami ez a citrusos igen illatvilág megvan benne és egyébként van ennek egy testvére is ugye ez a sprays intim rész dezodor és ez meg a krémes változata
+ez így néz ki
+az illata hasonló de az állaga ugye teljesen más
+Ha szeretnétek hozzájutni akár csomagban akkor nézzetek fel a kekszvitál pont hu oldalra 
