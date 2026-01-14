@@ -2185,7 +2185,110 @@ Any more questions? Because I’ve got a few.
 
 Legénybúcsú
 
-Most akkor lesz kupakolás, vagy nem lesz? Mert az előbb a pap bácsi azt mondta, hogy lehet, hogy lesz, de lehet hogy nem?
+Got it — short **humour trailer**, so a **tight, line-focused pass** is exactly right here.
+
+I’ll treat this as a snippet from **Legénybúcsú** and keep it concise.
+
+---
+
+## Caption / line (reference)
+
+> **Most akkor lesz kupakolás, vagy nem lesz?**
+> **Mert az előbb a pap bácsi azt mondta, hogy lehet, hogy lesz, de lehet, hogy nem?**
+
+---
+
+## HU → EN
+
+### **Most akkor lesz kupakolás, vagy nem lesz?**
+
+So is there going to be *kupakolás* or not?
+
+* **most akkor** = “so then / so finally”
+  → signals impatience, confusion
+* **lesz / nem lesz** = will there be / won’t there be
+
+The humour already starts here: *very serious tone about something trivial / absurd*.
+
+---
+
+### **Mert az előbb a pap bácsi azt mondta, hogy…**
+
+Because earlier the priest said that…
+
+* **az előbb** = earlier / just before
+* **pap bácsi** = “priest uncle”
+  → childish / folksy way of referring to a priest
+
+📌 That phrasing is intentionally unserious.
+
+---
+
+### **…lehet, hogy lesz, de lehet, hogy nem?**
+
+…maybe there will be, but maybe there won’t?
+
+* **lehet, hogy…** = maybe / it’s possible that
+* repetition = comic uncertainty
+
+---
+
+## What is **kupakolás**?
+
+This is the key word.
+
+* **kupak** = bottle cap
+* **kupakolás** = informal noun for a **drinking game / alcohol-related activity**, often:
+
+  * opening bottles repeatedly
+  * cap-based dares
+  * or just *code* for “boozing ritual”
+
+📌 In a **legénybúcsú** (bachelor party) context, it’s:
+
+> deliberately vague “lads-being-lads” drinking nonsense
+
+The joke is:
+
+* treating a dumb drinking activity
+* with mock-ceremonial seriousness
+* and involving a priest as an authority figure
+
+---
+
+## Contextual vocabulary worth keeping
+
+* **most akkor** – so then / so what is it finally
+* **lesz / nem lesz** – will there be / won’t there be
+* **az előbb** – earlier, just now
+* **pap bácsi** – folksy, slightly childish reference to a priest
+* **lehet, hogy…** – maybe, it might be that
+
+All **very common spoken Hungarian**, especially in comedy.
+
+---
+
+## Why this works as humour
+
+* exaggerated indecision
+* childish phrasing (*bácsi*) applied to authority
+* bachelor-party chaos framed as procedural confusion
+
+It’s **tone-based humour**, not wordplay-heavy — which is why the single exchange works as a trailer line.
+
+---
+
+## Clean takeaway for your notes
+
+> A short comedic exchange using **spoken hesitation markers** (*most akkor, lehet, hogy…*), **folksy authority labels** (*pap bácsi*), and a deliberately vague drinking term (*kupakolás*) to parody bachelor-party logic.
+
+If you want, we can:
+
+* track **legénybúcsú-specific vocabulary**, or
+* collect **“most akkor…”** as a recurring Hungarian comedy opener.
+
+This one’s light, but linguistically clean.
+
 
 
 -----
