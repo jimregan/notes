@@ -1034,16 +1034,15 @@ Please, I haven’t had coffee for half a year.
 
 [Reel](https://www.instagram.com/reel/DMx4J58oRIB/)
 
-[00:00.000 --> 00:02.100]  Tök nehéz gyereket nevelni.
-[00:02.100 --> 00:05.500]  Redásul folyton változnak ezek a gyermek nevelési múltzerek.
-[00:05.500 --> 00:08.700]  Az idősebb generációzni még lazában fogta feleszt a gyermek nevelés.
-[00:08.700 --> 00:13.900]  A most nem sző, hogy állandóra aggódnak, hogy úristen mit vez a szálljába a gyereket is tabacírusát megbetekszik,
-[00:13.900 --> 00:20.700]  hogy az idősebb generáció a bálmikörtént a gyereket annyi volt a válasz, hogy ennyi kell neki.
-[00:20.700 --> 00:24.700]  Ennyi kell neki, de egy herólynós tűtgyalogat, de...
-[00:24.700 --> 00:27.900]  ...sz kell, hogy kiallok ön az imó rendszere.
-[00:27.900 --> 00:32.800]  De mostzban négy emeletet, de így fognak megerősödni a csontjája, jó?
-[00:32.800 --> 00:34.200]  Úgyhogy...
-[00:34.200 --> 00:40.000]  És csak nálunk emberekni a váltóznak egyébként a gyermek nevelési technikák, tehát az állatoknál nincs ilyen.
+Tök nehéz gyereket nevelni,
+ráadásul folyton változnak ezek a gyermeknevelési módszerek.
+Az idősebb generáció még lazábban fogta fel azt a gyermeknevelést.
+A mostani szlők állandóan aggódnak, hogy: "Úristen, mit vesz a szájába a gyerek?" "Hát tiszta bacilus." "Hát megbetegszik."
+Az idősebb generáció, ha bármi történt a gyerekkel, annyi volt a válasz, hogy: "Ennyi kell neki."
+"Ennyi kell neki." "De egy heroinos tűt gyalogat." "De...
+az kell, hogy kialakuljon az immunrendszere."
+"De most zuhant négy emeletet." "De így fognak megerősödni a csontjái, jó?"
+És csak nálunk emberekni a váltóznak egyébként a gyermek nevelési technikák, tehát az állatoknál nincs ilyen.
 [00:40.000 --> 00:43.800]  Az állatok évezetek úgyan úgy nevelik a gyereket, az nem változik.
 [00:43.800 --> 00:49.000]  Tehát nincs ilyen a madaraknál, hogy hát mi ezt a fészekből kilök és már nem.
 [00:49.000 --> 00:50.900]  Kultiványunk.
