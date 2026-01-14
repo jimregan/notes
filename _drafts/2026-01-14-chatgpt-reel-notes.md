@@ -1332,6 +1332,50 @@ this whole thing is actually funny.
 
 -----
 
+[Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
+
+[00:00.000 --> 00:02.880]  Így táncol 650 millió magyar forint.
+[00:05.720 --> 00:07.980]  Ugyanis Rikki Martin ennyibe került nekünk,
+[00:07.980 --> 00:11.180]  ő volt a felcsuti karácsonyi buli, star-felépője.
+[00:11.480 --> 00:14.180]  Hozzáteném az ért, hogy ezt csak az előadó idea.
+[00:14.180 --> 00:17.180]  Nincs még benne az utasztatás, szállás, sa többi,
+[00:17.180 --> 00:19.780]  ami ugye minden esetben a megrandelőt terheli.
+[00:20.020 --> 00:24.120]  Tehát ez nagyjából igazából inkább egy milliárt forint körülmozog.
+[00:24.320 --> 00:27.520]  Hatháziácos ezt az információt idő előtt közölt-e,
+[00:27.680 --> 00:30.040]  így tönkletette a nagy meglepít,
+[00:30.040 --> 00:32.840]  amire Hajdo Péter elég érdekes módó reagált.
+[00:32.840 --> 00:37.340]  Art Spiritónak és döbbenetesnek tartom, amit most hatháziácos művált.
+[00:37.340 --> 00:41.900]  Jösszolgálynak neveztem érzáros csoportmunkatásait és elárultam,
+[00:41.900 --> 00:45.460]  hogy ki lesz a karácsonyi parti star-vendége.
+[00:45.460 --> 00:50.380]  Elárulnia azt, hogy egy karácsonyi parti ki lesz a külföldi meglepetés vendégi.
+[00:51.160 --> 00:54.220]  Ez akkor a bunkósák vagy a faladja másik.
+[00:54.220 --> 00:59.040]  A hatháziácos elrontotta és elárulta, hogy ki fog fellépni.
+[01:00.040 --> 01:03.600]  Döbbenetes, Art Spiritó és Undarító.
+[01:04.340 --> 01:07.400]  Szerinte ezek a dolgok Art Spiritóak.
+[01:07.400 --> 01:10.120]  Emben az országban a friszt bi-petinek az a durva,
+[01:10.120 --> 01:12.820]  hogy hatházilel ötte a meglepít.
+[01:12.820 --> 01:16.160]  Kedves Péter, mit gondolsz arról, hogy az országunkban majdnem
+[01:16.160 --> 01:19.920]  háromszor többek erőr egy útépítés, mint a többi országban?
+[01:20.080 --> 01:25.540]  A Momentum egy agusztusi cikke alapján 500 milliárd forintért szeretnének építeni.
+[01:25.540 --> 01:31.360]  Egy 32 kilométeres gyorsforgálmi utat, ezt ergom és az emegyes autópályek között.
+[01:31.360 --> 01:34.860]  Arra hivatkozva, hogy nehezek a terepviszonyok.
+[01:34.860 --> 01:36.520]  Magyarországon.
+[01:36.520 --> 01:44.040]  Ausztriában az alpokban 22 kilométeres gyorsforgálmi út 215 milliárd forintba került.
+[01:44.040 --> 01:48.440]  Montenegróban 41 kilométeres út került 300 milliárd forintba.
+[01:48.440 --> 01:53.000]  Portugáliában egy hegyvonulatott törtekát autópályával
+[01:53.000 --> 01:55.840]  30 kilométeres út 150 milliárd.
+[01:55.840 --> 01:59.340]  Ismétlem, Magyarországon, 500 milliárd.
+[01:59.340 --> 02:04.940]  Ezek alapján jogos a kérdés, hogy mire kell 500 milliárdnak legalább 2-3-at akkor?
+[02:04.940 --> 02:08.640]  Csak hogy szemlélyetesen mennyi is a 2-3-at kiszámoltam,
+[02:08.640 --> 02:11.440]  333 milliárd forint.
+[02:11.440 --> 02:13.840]  Ez az, amit nem tudunk, hogy hova tűnik?
+[02:13.840 --> 02:20.840]  Tudod ebből hány 44 méteres lakás tudnál venni Budapesten, hogyha mondjuk egy lakásra 60 millióval számolunk.
+[02:20.840 --> 02:26.840]  5550 darab lakás jön ki, abból a pénzből, amit megint nem tudjuk, hogy hova tűnik.
+[02:26.840 --> 02:33.040]  De mindez nem számít, hiszen a lényeg az, hogy a karácsanyi parti meglepije az elletrontva,
+[02:33.040 --> 02:37.440]  akár csak úgy, mint az az igénytelen feliratozás a Peter videóján.
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
