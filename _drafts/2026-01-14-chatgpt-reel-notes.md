@@ -1566,77 +1566,25 @@ sloppy / low-effort subtitles
 
 [Reel](https://www.instagram.com/reel/DRDYEACjN-g/)
 
-Yep — **this is absolutely humour**, and very much in that guy’s **deadpan + “did you know this horrifying thing?”** register.
-Also: content warning aside, the **language itself is rich and very Hungarian**, so this is a good one to unpack carefully.
-
-I’ll do:
-
-* sentence-by-sentence **HU → EN**
-* flag **ASR slips only where relevant**
-* then **contextualised vocabulary**, anchored to lines
-  (no bare wordlists)
-
----
-
-## Caption text (reference, lightly corrected)
-
-> **Te is hallottál a rézfaszú bagolyról.**
-> Ő az, aki éjszakánként a rézfaszával
-> kopog a gyerekek ablakán,
-> hogy ne tudjanak aludni.
->
-> Szóval egyfajta mumus,
-> aki ellopja a gyerekeket.
->
-> Azt azonban kevesen tudják,
-> hogy eredetileg azt az orvost jelentette,
-> aki magzatelhajtással foglalkozott,
-> azaz rézszerszámával
-> belenyúlt a nőkbe.
->
-> A női párja a vasorrú bába,
-> aki ugyanezt csinálta vasszerszámokkal.
->
-> Már megint egy példa arra,
-> hogy a mesék többsége
-> inkább horror,
-> mint ártatlan történet.
-
-**ASR notes:**
-
-* *részfaszó* → **rézfaszú** (fixed folkloric term)
-* *makzatelhajtás* → **magzatelhajtás**
-* *korror* → **horror**
-
----
-
 ## Sentence-by-sentence HU → EN
 
 ### **Te is hallottál a rézfaszú bagolyról.**
 
 You’ve also heard of the copper-dicked owl.
 
-* deliberately shocking compound noun
 * *-ról* = about
-
----
 
 ### **Ő az, aki éjszakánként a rézfaszával kopog…**
 
 He’s the one who, at night, knocks with his copper dick…
 
-* absurd literalisation
 * *éjszakánként* = nightly, every night
-
----
 
 ### **…a gyerekek ablakán, hogy ne tudjanak aludni.**
 
 …on children’s windows so they can’t sleep.
 
 * *hogy ne* = so that not (purpose clause)
-
----
 
 ### **Szóval egyfajta mumus,**
 
@@ -1645,15 +1593,9 @@ So, a kind of bogeyman,
 * *szóval* = “so / in short”
 * *mumús* = folkloric scare figure
 
----
-
 ### **aki ellopja a gyerekeket.**
 
 who steals children.
-
-* classic fairy-tale function
-
----
 
 ### **Azt azonban kevesen tudják,**
 
@@ -1661,46 +1603,29 @@ However, few people know,
 
 * *azonban* = however (formal contrast)
 
----
-
 ### **hogy eredetileg azt az orvost jelentette,**
 
 that originally it referred to the doctor
 
 * *eredetileg* = originally
 
----
-
 ### **aki magzatelhajtással foglalkozott,**
 
 who dealt with abortion,
-
-* neutral, clinical register
-
----
 
 ### **azaz rézszerszámával belenyúlt a nőkbe.**
 
 that is, who reached into women with a copper instrument.
 
 * *azaz* = that is / i.e.
-* intentionally blunt phrasing
-
----
 
 ### **A női párja a vasorrú bába,**
 
 Its female counterpart is the iron-nosed midwife,
 
-* folklore symmetry again
-
----
-
 ### **aki ugyanezt csinálta vasszerszámokkal.**
 
 who did the same thing with iron tools.
-
----
 
 ### **Már megint egy példa arra,**
 
@@ -1708,19 +1633,13 @@ Once again, an example of how
 
 * *már megint* = once again (weary irony)
 
----
-
 ### **hogy a mesék többsége inkább horror,**
 
 most fairy tales are more horror
 
----
-
 ### **mint ártatlan történet.**
 
 than innocent stories.
-
-* punchline via understatement
 
 ---
 
@@ -1730,104 +1649,60 @@ than innocent stories.
 
 → *„rézfaszú bagoly”*
 = “copper-dicked” (vulgar, grotesque compound)
-📌 Hungarian allows extreme noun–adjective compounding for shock humour.
-
----
 
 ### **éjszakánként**
 
 → nightly / every night
 📌 distributive adverb, very common.
 
----
-
 ### **kopog (vmin)**
 
 → *kopog az ablakon* = knock on the window
-📌 neutral verb, here made absurd by object.
-
----
 
 ### **mumús**
 
 → bogeyman / scare figure
 📌 folkloric term, still used metaphorically.
 
----
-
 ### **azonban**
 
 → however
-📌 formal contrast marker, used deadpan for comedic effect.
-
----
+📌 formal contrast marker.
 
 ### **eredetileg**
 
 → originally
 📌 very common in “did you know?” humour.
 
----
-
 ### **magzatelhajtás**
 
 → abortion (technical term)
 📌 deliberately clinical contrast with vulgar imagery.
-
----
 
 ### **azaz**
 
 → that is / i.e.
 📌 explanation marker, frequent in spoken argumentation.
 
----
-
 ### **belenyúl (vkibe)**
 
 → to reach into someone
 📌 crude but literal verb choice; heightens discomfort.
-
----
 
 ### **női párja**
 
 → female counterpart
 📌 symmetry-building phrase.
 
----
-
 ### **már megint**
 
 → once again
 📌 conveys weary pattern recognition.
 
----
-
 ### **inkább X, mint Y**
 
 → more X than Y
 📌 extremely useful comparative structure.
-
----
-
-## Why this works as humour (linguistically)
-
-* **register clash**: fairy tale ↔ medical terminology
-* **etymology-as-horror** framing
-* **matter-of-fact delivery** of grotesque content
-* ends with a **generalising aphorism**, not a joke
-
-This is classic **“calm voice, disturbing facts”** comedy — which fits your “cool voice” description perfectly.
-
----
-
-If you want next:
-
-* we can **map recurring folklore figures** (*vasorrú bába* shows up again here), or
-* compare **this guy’s delivery** with the woman’s rant style you’ve been watching (they’re opposites linguistically).
-
-This was a strong pick.
 
 
 -----
