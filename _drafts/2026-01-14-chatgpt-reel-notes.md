@@ -2,14 +2,6 @@
 
 ---
 
-DMx4J58oRIB
-
-DTa1X4eikHQ
-
-DSxx9QiCJ_q
-
-DRDYEACjN-g
-
 DTYb5Q4Ddg8
 
 DTa5gzdCC6K
@@ -1703,7 +1695,6 @@ than innocent stories.
 
 → more X than Y
 📌 extremely useful comparative structure.
-
 
 -----
 
