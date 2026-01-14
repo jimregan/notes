@@ -2,12 +2,6 @@
 
 ---
 
-DQXFzPACNJK
-
-DSQKeKljmAe
-
-DTKgZVZCf0G
-
 DQ6Z0xsjcAf
 
 DTZxr7-jkGr
@@ -2237,6 +2231,10 @@ This is the key word.
 -----
 
 [Reel](https://www.instagram.com/reel/DTKgZVZCf0G/)
+
+Talán az időjárásról nem mond hulyeséget a koztévé.
+
+Koztévé:
 
 [00:00.000 --> 00:13.200]  Az utak, hogy vigyázzanak magukra, közlek egyenek óvatosan, és mindenkinek csak azt tudjuk javasolni, hogy aki ez idáig még nem cserélt ele a téligumiát nyári gumira, az semmi színnalatna induljon útnak.
 
