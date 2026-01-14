@@ -288,9 +288,7 @@ If you’d like to get hold of it…
 
 ---
 
-Yes — that’s a good thing to add to your notes, and we can do it in a **clean, analytical way** that stays useful for language learning (not media theory fluff).
-
-Below is something you can almost drop straight into a markdown file.
+(I asked for more notes specifically on the "ad-ness" of it)
 
 ---
 
@@ -425,26 +423,3 @@ This is “brochure Hungarian,” spoken aloud.
 This is the point where any remaining ambiguity disappears.
 
 ---
-
-## Why it *felt* like a bit at first
-
-Because:
-
-* the **delivery voice** stayed the same as her comedy reels
-* the opening mimicked a joke setup
-* Hungarian influencer ads often avoid visual “#ad” markers
-
-So the confusion wasn’t linguistic failure — it was **genre camouflage**.
-
----
-
-## Useful takeaway for your notes
-
-> **This reel shows how Hungarian influencer ads reuse conversational comedy framing while switching to formulaic sales language underneath.**
-
-That’s a valuable contrast sample, not a distraction.
-
-If you want, next time we can:
-
-* add a short **“genre tag”** line to each reel (*bit / reaction / ad*), or
-* compare this ad’s language directly with one of her *női logika* bits sentence-by-sentence.
