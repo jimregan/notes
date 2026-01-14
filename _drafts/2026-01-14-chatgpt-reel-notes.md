@@ -164,29 +164,6 @@ Did you dig too?
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-
-Perfect — then I’ll do this in the **most useful way for you**:
-
-* no persuasion analysis
-* no event hype
-* no “what AI & Sync is” speculation
-* **just the language**, especially the bits that go **beyond A1** and *do* turn up in real conversation.
-
----
-
-## Caption text (reference)
-
-> Gyere, és nézd meg velünk, milyen is az AI and Sync élmény!
-> Belépsz az ajtón, és máris érzed, hogy itt történik valami menő.
-> Megmutatod a jegyed, mi pedig nagy mosollyal fogadunk.
-> Kapsz egy karszalagot, ezzel már teljes körű résztvevő vagy.
-> Átveszed a névtáblát, mert jó, ha mindenki tudja, kivel beszél.
-> Ezután jön egy gyors QR-scan, egy rövid kérdőív…
-> Picivel később pedig kiküldjük nektek az AI-generálta matcheket.
-> Ez az AI and Sync. Gyere el, és próbáld ki te is.
-
----
-
 ## Sentence-by-sentence: **only what’s linguistically useful**
 
 ### **Gyere, és nézd meg velünk…**
@@ -377,57 +354,39 @@ You’ll hear this a lot outside ads too.
 
 **Verbs**
 
-* belép
-* érez
-* történik
-* megmutat
-* fogad
-* kap
-* átvesz
-* kiküld
-* kipróbál
+* belép -- enter
+* érez -- feel
+* történik -- happen
+* megmutat -- show
+* fogad -- receive / welcome
+* kap -- get / receive
+* átvesz -- take over / receive
+* kiküld -- send out
+* kipróbál -- try out
 
 **Adverbs / connectors**
 
-* máris
-* már
-* pedig
-* ezután
-* később
+* máris -- immediately
+* már -- already
+* pedig -- and / then
+* ezután -- after this
+* később -- later
 
 **Nouns**
 
-* élmény
-* jegy
-* mosoly
-* karszalag
-* résztvevő
-* névtábla
-* kérdőív
+* élmény -- experience
+* jegy -- ticket
+* mosoly -- smile
+* karszalag -- wristband
+* résztvevő -- participant
+* névtábla -- name badge
+* kérdőív -- questionnaire
 
 **Adjectives**
 
-* menő
-* gyors
-* rövid
-
----
-
-## Final reassurance (important)
-
-You’re right:
-
-* this **can** come up in conversation
-* especially around events, meetups, work, tech, conferences
-* and the **grammar + verbs** are reusable far beyond this context
-
-You don’t need to care about *AI & Sync* to get value out of this reel linguistically.
-
-If you want, next time we can:
-
-* strip one of these down to **pure verb-prefix patterns**, or
-* flag **“this is marketing-only” vs “this is everyday Hungarian”** sentence by sentence.
-
+* menő -- cool
+* gyors -- quick
+* rövid -- short
 
 -----
 
