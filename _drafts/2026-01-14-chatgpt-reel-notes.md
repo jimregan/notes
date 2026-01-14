@@ -563,6 +563,243 @@ and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
 
+Perfect — thanks for the reminder. And you’re right: **captioned reels artificially raise the apparent level**, because captions preserve forms that casual speech would blur. That’s actually a *good* thing for notes, as long as we treat them correctly.
+
+Below is **contextualised vocabulary from that reel**, exactly in the format you asked for:
+
+* each item tied to **a sentence you saw**
+* with a **clear translation**
+* and a short note only where needed
+
+No bare wordlists.
+
+---
+
+## Contextual vocabulary from the reel (new / non-A1)
+
+### **vekengeni**
+
+> *„Miért kell ezen ennyit vekengeni, emberek?”*
+
+**= to whine, to agonize, to make an emotional fuss**
+
+* Strongly negative, emotional verb
+* Suggests **excessive, self-indulgent complaining**, not neutral discussion
+
+📌 Much stronger than *panaszkodni* (to complain).
+
+---
+
+### **kivetnivaló**
+
+> *„A videónak nagyon sok kivetnivaló része van.”*
+
+**= objectionable; open to criticism**
+
+* Almost always used with *van*
+* Formal-to-neutral register
+
+📌 Common in criticism, reviews, arguments.
+
+---
+
+### **felhúzza magát (vmin)**
+
+> *„Egyetlenegy dolgon húztam fel magam.”*
+
+**= to get worked up / annoyed about something**
+
+* Reflexive idiom
+* Emotional escalation, not just mild irritation
+
+📌 Very common in spoken Hungarian.
+
+---
+
+### **amúgy**
+
+> *„És én amúgy egy pillanatra azt hittem…”*
+
+**= by the way / honestly / actually**
+
+* Discourse marker
+* Softens tone, signals personal stance
+
+📌 Extremely frequent in speech; hard to translate literally.
+
+---
+
+### **már-már**
+
+> *„már-már mémként terjedő”*
+
+**= almost; practically**
+
+* Fixed reduplicated form
+* Emphasises closeness to a threshold
+
+📌 Common in commentary and journalism.
+
+---
+
+### **tisztában van (vmivel)**
+
+> *„az angol kiejtéssel nem vagy tisztában”*
+
+**= to be aware of / to be familiar with**
+
+* Formal-neutral idiom
+* Requires **-val/-vel** case
+
+📌 Very useful outside this context.
+
+---
+
+### **vajon**
+
+> *„azzal vajon tisztában vagy-e…”*
+
+**= I wonder / perhaps / rhetorical uncertainty**
+
+* Signals a **rhetorical question**
+* Often mildly confrontational
+
+📌 Adds irony or challenge.
+
+---
+
+### **ajánlgat**
+
+> *„amit ajánlgatsz mindenkinek”*
+
+**= to keep recommending (repeatedly, often annoyingly)**
+
+* Frequentative suffix *-gat*
+* Slightly dismissive nuance
+
+📌 Important contrast with neutral *ajánl*.
+
+---
+
+### **árkategória**
+
+> *„egy olyan árkategória”*
+
+**= price range / price category**
+
+* Common in consumer talk
+* Semi-formal compound noun
+
+---
+
+### **nem teheti meg (hogy …)**
+
+> *„nem teheti meg, hogy megvásárolja”*
+
+**= cannot afford to**
+
+* Idiomatic expression
+* Very high utility in everyday speech
+
+📌 Much more common than literal “afford” verbs.
+
+---
+
+### **konkrétan**
+
+> *„a kórházakban konkrétan ilyen ételt kapnak”*
+
+**= literally; bluntly; very concretely**
+
+* Emphatic adverb
+* Often used emotionally, not scientifically
+
+📌 Similar to English “literally” in tone.
+
+---
+
+### **hozzátenném**
+
+> *„Hozzátenném egyébként…”*
+
+**= I’d add (as a side note)**
+
+* Polite argumentative marker
+* Signals additional point, not contradiction
+
+📌 Very common in structured speech.
+
+---
+
+### **szíved joga**
+
+> *„ez nyilván szíved joga”*
+
+**= it’s your right / your business**
+
+* Idiomatic
+* Acknowledges freedom while continuing criticism
+
+📌 Often followed by *de…*
+
+---
+
+### **nagy valószínűséggel**
+
+> *„nagy valószínűséggel ezt is olyan pénzből vetted”*
+
+**= very likely / with high probability**
+
+* Formal compound phrase
+* Used in arguments to soften accusations
+
+---
+
+### **ennyi volt**
+
+> *„ez így egy ilyen… ennyi volt”*
+
+**= that’s it / that’s where it ends**
+
+* Dismissive, final
+* Strong pragmatic force
+
+📌 Very common in spoken Hungarian.
+
+---
+
+### **ejti ki a száján**
+
+> *„csak azután ejted ki a szádon”*
+
+**= to utter / to let something out of one’s mouth**
+
+* Idiomatic phrasing
+* Often used in moralising or admonishing contexts
+
+---
+
+## Important meta-note (you’re right about this)
+
+Because you’re working from **inline captions**:
+
+* sentence structure is **cleaner** than speech
+* vocabulary looks more “advanced” than it sounds
+* ASR noise is lower
+* but discourse markers are preserved
+
+So the apparent difficulty spike is **not your imagination** — it’s a property of the data.
+
+That’s actually ideal for the kind of careful, pattern-based learning you’re doing.
+
+---
+
+If you want next time, we can:
+
+* mark which items are **caption-only vs truly spoken**, or
+* flag which words are **worth active learning** vs just passive recognition.
+
+Just say the word.
 
 
 
