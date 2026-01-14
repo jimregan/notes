@@ -1698,6 +1698,14 @@ than innocent stories.
 
 -----
 
+[Reel](https://www.instagram.com/reel/DTYb5Q4Ddg8/)
+
+Anya, az biztos, hogy a baba ott jön ki, ahol a fügykös bement?
+Hát miért kérdezel ilyet?
+Baszki, el fog törni az áll kapcsom!
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
