@@ -2239,6 +2239,128 @@ Koztévé:
 [00:00.000 --> 00:13.200]  Az utak, hogy vigyázzanak magukra, közlek egyenek óvatosan, és mindenkinek csak azt tudjuk javasolni, hogy aki ez idáig még nem cserélt ele a téligumiát nyári gumira, az semmi színnalatna induljon útnak.
 
 
+Nice, this is **compact political humour via misquotation**, and the language itself is very standard “public service announcement Hungarian”. I’ll keep it tight and useful.
+
+---
+
+## Framing line (your text)
+
+### **Talán az időjárásról nem mond hülyeséget a köztévé.**
+
+**Maybe public TV doesn’t talk nonsense about the weather.**
+
+* **talán** = maybe (ironic hedge)
+* **nem mond hülyeséget** = doesn’t say stupid things
+* **köztévé** = state / public television (often ironic or critical)
+
+📌 This line already signals satire: *“at least about the weather…”*
+
+---
+
+## “Köztévé” announcement (cleaned reconstruction)
+
+Whisper is messy, but the intended message is very clear. A naturalised version would be:
+
+> **Az utak miatt vigyázzanak magukra,
+> közlekedjenek óvatosan,
+> és mindenkinek csak azt tudjuk javasolni,
+> hogy aki ez idáig még nem cserélte le
+> a téli gumiját nyári gumira,
+> az semmiképpen ne induljon útnak.**
+
+---
+
+## HU → EN
+
+### **Az utak miatt vigyázzanak magukra,**
+
+Because of the road conditions, please take care,
+
+* **vigyázzanak magukra** = take care of yourselves
+* formal plural (PSA register)
+
+---
+
+### **közlekedjenek óvatosan,**
+
+drive / travel carefully,
+
+* **közlekedik** = to travel / participate in traffic
+* **óvatosan** = carefully
+
+---
+
+### **és mindenkinek csak azt tudjuk javasolni, hogy…**
+
+and all we can recommend to everyone is that…
+
+* **csak azt tudjuk javasolni** = classic official phrasing
+
+---
+
+### **aki ez idáig még nem cserélte le a téli gumiját nyári gumira,**
+
+those who up to now still haven’t changed their winter tires to summer tires,
+
+* **ez idáig** = up to now
+* **lecserél** = replace, swap out
+* **téli / nyári gumi** = winter / summer tires
+
+---
+
+### **az semmiképpen ne induljon útnak.**
+
+should under no circumstances set off.
+
+* **semmiképpen** = under no circumstances
+* **útnak indul** = to set off on a journey
+
+📌 Very standard warning language.
+
+---
+
+## Contextual vocabulary & phrases worth keeping
+
+* **köztévé** – public/state TV (often ironic)
+* **vigyázzanak magukra** – take care (formal PSA)
+* **közlekedjenek óvatosan** – travel carefully
+* **csak azt tudjuk javasolni** – all we can recommend
+* **ez idáig** – up to now
+* **lecseréli a gumit** – change tires
+* **semmiképpen** – under no circumstances
+* **útnak indul** – set off
+
+All of these are **high-frequency, real-world Hungarian**, especially in news and announcements.
+
+---
+
+## Why this works as humour
+
+The joke is *not* in the announcement itself — it’s in the framing:
+
+> “Maybe state TV doesn’t talk nonsense about the weather.”
+
+So:
+
+* neutral, competent PSA language
+* contrasted with implied incompetence elsewhere
+
+That contrast is enough.
+
+---
+
+## Clean takeaway for your notes
+
+> A mock-serious public-service weather announcement, used satirically to imply that **state media is only reliable on non-political topics**, featuring very standard PSA Hungarian.
+
+If you want next:
+
+* we can collect **PSA / official Hungarian clichés**, or
+* contrast **news-register Hungarian vs stand-up Hungarian** (they’re almost opposite styles).
+
+This one’s short, but very “real language”.
+
+
 -----
 
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
