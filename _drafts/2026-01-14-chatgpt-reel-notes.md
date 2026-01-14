@@ -1781,19 +1781,28 @@ Fuck, my jaw is going to break!
 
 [Reel](https://www.instagram.com/reels/DTdVFwqjXv-/)
 
-[00:00.000 --> 00:02.000]  Jó, nekem erre nincs időm.
-[00:02.000 --> 00:05.600]  Úgyunk meg, kész, nekem erre nincsen időm.
-[00:05.600 --> 00:08.940]  Értem, hogy az akkor három napig fog tartani ez a faladat, jó,
-[00:08.940 --> 00:12.440]  akkor légy szeles minden urában csekk olyan, hogy hogyan elszvele,
-[00:12.440 --> 00:15.420]  illátve nap végén mindig külödött, hogy hány százalitban vagy kész,
-[00:15.420 --> 00:18.980]  és miatt bárkinek is elküldönni, egy végső csekkalásra is külödött nekem, jó.
-[00:18.980 --> 00:22.580]  És nem kell impravizálni, mindent pontosan úgy, ahogy én állmantam neked.
-[00:22.580 --> 00:25.580]  Örülök, hogy ezért ennyit legelább sikerült megcsinálni.
-[00:25.580 --> 00:27.580]  Csak visszáltam.
-[00:27.580 --> 00:31.320]  Aha, jó, értem, hogy ez ott nem sikerült igazából,
-[00:31.320 --> 00:34.680]  nem, tehát ez nem az én felelősségem volt, ez a te felelősséged volt,
-[00:34.680 --> 00:36.840]  nem érdeká, hogy nekem felát a végén állfogadni,
-[00:36.840 --> 00:41.160]  ez az a te felelősséged volt, nem csináltad meg jól, készhet most ez van, jó.
+Toxikus főnökök tipusai
+
+1. A ghostoló/elérhetetlen
+Jó, nekem erre nincs időm.
+Oldjuk meg, kész. Nekem erre nincsen időm.
+
+2. A mikromenedzser
+Értem. Tehát akkor három napig fog tartani ez a feladat.
+Jó akkor légyszíves minden órában csekkolj be, hogy hogyan állsz vele,
+illetve nap végén mindig küldd át, hogy hány százalékban vagy kész.
+És mielőtt bárkinek is elküldenéd, egy végső csekkolásra is küldd át nekem. Jó?
+És nem kell improvizálni, mindent pontosan úgy, ahogy én ellmondtam neked.
+
+3. A passzív-agresszív
+Örülök, hogy ezért ennyit legalább sikerült megcsinálni.
+Csak vicceltem.
+
+4. A bűnbakkereső
+Mmm. Aha. Jó értem, hogy ez ott nem sikerült. Igazából,
+nem. Tehát, hogy ez nem az én felelősségem volt. Ez a te felelősséged volt.
+Nem érdekel, hogy nekem kellett a végén elfogadni.
+Ez az a te felelősséged volt. Nem csináltad meg jól. Készhet most ez van, jó.
 [00:41.160 --> 00:44.200]  Jó, hogy a másik projekt megsikerült, hát igen, mert elnéztem, és akkor sikerült,
 [00:44.200 --> 00:47.480]  és így, hogy elnéztem, így jó is lett az egész, persze, hogy jó lett.
 
