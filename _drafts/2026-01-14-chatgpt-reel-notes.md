@@ -2179,6 +2179,14 @@ Any more questions? Because I’ve got a few.
 
 → any more questions?
 
+-----
+
+[Reel](https://www.instagram.com/reels/DSQKeKljmAe/)
+
+Legénybúcsú
+
+Most akkor lesz kupakolás, vagy nem lesz? Mert az előbb a pap bácsi azt mondta, hogy lehet, hogy lesz, de lehet hogy nem?
+
 
 -----
 
