@@ -1915,30 +1915,235 @@ Fuck, my jaw is going to break!
 
 [Reel](https://www.instagram.com/reels/DTawgIjiEmE/)
 
-POV: az a randi, ami után letörlöd a Tindert
+### POV: az a randi, ami után letörlöd a Tindert
 
-[00:00.000 --> 00:08.620]  Szia, nem elomgász, hogy így az első talinál kicsit csétálgatunk, gondoltam, dumcsizunk, jobban megismeljük egymás, mert mindenki.
-[00:08.620 --> 00:10.620]  És nagyon szeretek utazni, meglolvásni.
-[00:10.620 --> 00:16.620]  Jaj, ez tök jó, figyumáta, nem fálszol, mert tök hideg van, én tök közel lakom, gondolok kicsit felmelegetve tudnának.
-[00:16.620 --> 00:23.520]  Jó, figyelj, nem kell gyorszra gondolni, engem nem hasonlítsa ezt a valami verebekkel, aki kerégem van, biztáljó, mert én nem ilyen vagyok.
-[00:23.740 --> 00:25.740]  Jaj, megbocsátok, kapok egy puszit.
-[00:25.740 --> 00:31.880]  Jaj, hogy sokat edzek szabad időnbe, fogn maga bicszot, nézd, fogn meg, fogn meg, fogn ma meg.
-[00:31.880 --> 00:33.880]  Aminek egy mennyi a body countod?
-[00:33.880 --> 00:35.380]  Négy!
-[00:35.380 --> 00:36.880]  Wow!
-[00:36.880 --> 00:42.280]  De, hogyhogy? Már mint tesztik professzionálisan csináltad vagy, egyszeren égye vagy, hogy érted?
-[00:42.280 --> 00:44.280]  Hogy nekem?
-[00:44.280 --> 00:48.280]  Száználabb rajtam a számomletes szerintem, de hát ez teljesen más.
-[00:48.280 --> 00:52.280]  Ami rengeteget postogat, instára, nem gondoltam, hogy ez egy kicsit sok.
-[00:52.280 --> 01:00.280]  Jaj, mert hogy én is állandon egy imből postolok, félmezt, renképeket, de hát az a progressz, a felylődést akarom utartni, azért nem hasonlítsuk ma össze a kettőt.
-[01:00.280 --> 01:04.280]  Hányheves is vagy, mondtál? 26?
-[01:04.280 --> 01:10.280]  Hogy azt hittem, fiatalabb vagy. Már mint tök csinos vagy mű, minden, de megmondom őszintén, annyira nem szeretem az idős nőkét.
-[01:10.280 --> 01:13.280]  Jaj, hogy én 29 vagyok, de én férfi vagyok, az más.
-[01:13.280 --> 01:20.280]  Aztán szép, mert a tértem ugye, aztán így a focit abba kelt, hagyni sajnos, és aztán most így, hát zenégetek, tudod.
-[01:20.280 --> 01:22.280]  Tehát tudtani nem fáz, hogy jelen majd, de jelen majd kicsit.
-[01:22.280 --> 01:26.280]  Na, ha pármul poddítlakom, amúgy akú fiksz, nem? Fiksz, nem jössz?
-[01:28.280 --> 01:36.280]  Jó, figyúlom, hogy hónap tök korán kellek, meg minden annyit, hogy esélytel nem jössz, meg nem is megyünk hazzád.
-[01:36.280 --> 01:41.280]  Jó, nagyon korán kellek, amúgy szóval majd beszéljünk, jó majd írok. Jó.
+POV: the date after which you delete Tinder
+
+Perfect, thanks for the context — and yes, **this is 100% humour**, specifically:
+
+> **POV: the date after which you delete Tinder**
+
+So the job here is **not** to clean Whisper into perfect Hungarian, but to:
+
+* reconstruct *what’s clearly being said*
+* show why it’s awful / funny
+* extract **useful conversational Hungarian**, anchored to context
+
+I’ll do this in three layers:
+
+1. **Reconstructed dialogue** (what she’s clearly *meant* to be saying)
+2. **HU → EN**, scene by scene (not timestamp-by-timestamp)
+3. **Contextual vocabulary & patterns** (no bare lists)
+
+I’ll explicitly flag places where Whisper is clearly hallucinating.
+
+---
+
+## 1. Reconstructed version (sense-based, not verbatim)
+
+This is a **single-speaker monologue**, imitating *the guy* on the date.
+
+> **Szia, nem gondolod, hogy így az első talinál
+> kicsit sétálgatunk?
+> Dumcsizunk, jobban megismerjük egymást…**
+>
+> **Én nagyon szeretek utazni, meg olvasni.**
+>
+> **Jaj, ez tök jó! Figyelj már, nem fázol?
+> Tök hideg van. Én tök közel lakom,
+> gondoltam, kicsit felmelegedhetnénk…**
+>
+> **De ne gondolj rögtön rosszra,
+> nem vagyok olyan, mint ezek a…
+> tudod… akik csak erre mennek.**
+>
+> **Na jó, megbocsátok, kapsz egy puszit.**
+>
+> **Amúgy sokat edzek.
+> Fogd meg a bicepszem.
+> Fogd meg. Nézd. Fogd meg.**
+>
+> **Amúgy mennyi a body countod?**
+> – **Négy.**
+> – **Wow! De hogy?
+> Komolyan csináltad, vagy csak úgy…?**
+>
+> **Nekem? Száz fölött.
+> De az teljesen más.**
+>
+> **Amúgy sokat posztolsz Instára…
+> nem gondolod, hogy ez egy kicsit sok?**
+>
+> **Mármint én is posztolok félmeztelen képeket,
+> de az a progressz meg a fejlődés miatt van,
+> ne hasonlítsuk össze.**
+>
+> **Hány éves is vagy? 26?
+> Azt hittem fiatalabb vagy.
+> Tök csinos vagy, meg minden,
+> de őszintén nem szeretem az idősebb nőket.**
+>
+> **Ja, én 29 vagyok,
+> de én férfi vagyok, az más.**
+>
+> **Régen fociztam,
+> de a térdem miatt abba kellett hagynom.
+> Most zenélgetek.**
+>
+> **Figyelj, holnap korán kelek,
+> szóval esélytelen, hogy feljöjjek,
+> meg hogy hazamenjünk hozzád.
+> Majd beszélünk. Írok.**
+
+That’s the *shape* of the bit.
+
+---
+
+## 2. What’s funny here (and why it works)
+
+This is a **great example of Hungarian cringe humour**, built from:
+
+* 🚩 **false politeness** (*nem gondolod…? figyelj már…*)
+* 🚩 **sexual boundary pushing disguised as concern**
+* 🚩 **double standards** (body count, age)
+* 🚩 **motivational-gym-bro language**
+* 🚩 **“I’m not like other guys” speech**
+* 🚩 **the final polite exit that means “never”**
+
+All very recognisable, hence the title.
+
+---
+
+## 3. Key lines: HU → EN (selective, high value)
+
+### **„Nem gondolod, hogy az első talinál kicsit sétálgatunk?”**
+
+Don’t you think that on a first date we should walk around a bit?
+
+* *első tali* = first date (very common)
+* *nem gondolod, hogy…* = soft coercive suggestion
+
+---
+
+### **„Dumcsizunk, jobban megismerjük egymást.”**
+
+We chat, get to know each other better.
+
+* *dumcsizik* = chat (cute / informal)
+
+---
+
+### **„Nem fázol? Tök hideg van.”**
+
+Aren’t you cold? It’s really cold.
+
+📌 **Classic pretext line**.
+
+---
+
+### **„Én tök közel lakom…”**
+
+I live really close by…
+
+---
+
+### **„De ne gondolj rögtön rosszra.”**
+
+But don’t immediately think badly.
+
+📌 Almost always means the opposite.
+
+---
+
+### **„Amúgy mennyi a body countod?”**
+
+So, what’s your body count?
+
+* fully imported English term
+* intentionally invasive
+
+---
+
+### **„Nekem száz fölött, de az teljesen más.”**
+
+For me it’s over a hundred, but that’s totally different.
+
+📌 **Double standard punchline**.
+
+---
+
+### **„Nem szeretem az idősebb nőket.”**
+
+I don’t like older women.
+
+---
+
+### **„Én férfi vagyok, az más.”**
+
+I’m a man, that’s different.
+
+📌 This is *the* thesis sentence of the whole bit.
+
+---
+
+### **„Holnap korán kelek.”**
+
+I have to get up early tomorrow.
+
+📌 Universal exit line.
+
+---
+
+### **„Majd beszélünk. Írok.”**
+
+We’ll talk later. I’ll text.
+
+📌 Meaning: *you will never hear from me again*.
+
+---
+
+## 4. Contextual vocabulary & patterns worth keeping
+
+* **első tali** – first date
+* **dumcsizik** – chat casually
+* **nem gondolod, hogy…** – soft pressure phrasing
+* **tök + adj.** – very / really
+* **feljön / feljössz** – come up (to someone’s place)
+* **body count** – sexual partners (loanword)
+* **az teljesen más** – “that’s different” (hypocrisy marker)
+* **abba kellett hagynom** – I had to stop
+* **korán kelek** – I get up early
+* **majd beszélünk** – polite dismissal
+
+All **very reusable**.
+
+---
+
+## 5. About the Whisper quality
+
+You were right:
+
+* this Whisper output is **very rough**
+* lots of vowel drift, dropped consonants, word salad
+* but the **pragmatic structure** is crystal clear
+
+This is a good case where:
+
+> **understanding the social script matters more than phonetic accuracy**
+
+---
+
+## Clean takeaway for your notes
+
+> A POV-style Hungarian cringe monologue parodying a bad Tinder date, built from recognisable dating clichés, double standards, and polite-dismissal language.
+
+If you want next:
+
+* we can compare this to **male POV vs female POV dating humour**, or
+* extract a **“Hungarian dating red flags” phrasebook** (this reel is basically one already).
+
+This was a very good pick.
+
 
 -----
 
