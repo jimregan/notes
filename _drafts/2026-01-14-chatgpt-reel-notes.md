@@ -1923,6 +1923,35 @@ Fuck, my jaw is going to break!
 
 -----
 
+[Reel](https://www.instagram.com/reels/DTawgIjiEmE/)
+
+POV: az a randi, ami után letörlöd a Tindert
+
+[00:00.000 --> 00:08.620]  Szia, nem elomgász, hogy így az első talinál kicsit csétálgatunk, gondoltam, dumcsizunk, jobban megismeljük egymás, mert mindenki.
+[00:08.620 --> 00:10.620]  És nagyon szeretek utazni, meglolvásni.
+[00:10.620 --> 00:16.620]  Jaj, ez tök jó, figyumáta, nem fálszol, mert tök hideg van, én tök közel lakom, gondolok kicsit felmelegetve tudnának.
+[00:16.620 --> 00:23.520]  Jó, figyelj, nem kell gyorszra gondolni, engem nem hasonlítsa ezt a valami verebekkel, aki kerégem van, biztáljó, mert én nem ilyen vagyok.
+[00:23.740 --> 00:25.740]  Jaj, megbocsátok, kapok egy puszit.
+[00:25.740 --> 00:31.880]  Jaj, hogy sokat edzek szabad időnbe, fogn maga bicszot, nézd, fogn meg, fogn meg, fogn ma meg.
+[00:31.880 --> 00:33.880]  Aminek egy mennyi a body countod?
+[00:33.880 --> 00:35.380]  Négy!
+[00:35.380 --> 00:36.880]  Wow!
+[00:36.880 --> 00:42.280]  De, hogyhogy? Már mint tesztik professzionálisan csináltad vagy, egyszeren égye vagy, hogy érted?
+[00:42.280 --> 00:44.280]  Hogy nekem?
+[00:44.280 --> 00:48.280]  Száználabb rajtam a számomletes szerintem, de hát ez teljesen más.
+[00:48.280 --> 00:52.280]  Ami rengeteget postogat, instára, nem gondoltam, hogy ez egy kicsit sok.
+[00:52.280 --> 01:00.280]  Jaj, mert hogy én is állandon egy imből postolok, félmezt, renképeket, de hát az a progressz, a felylődést akarom utartni, azért nem hasonlítsuk ma össze a kettőt.
+[01:00.280 --> 01:04.280]  Hányheves is vagy, mondtál? 26?
+[01:04.280 --> 01:10.280]  Hogy azt hittem, fiatalabb vagy. Már mint tök csinos vagy mű, minden, de megmondom őszintén, annyira nem szeretem az idős nőkét.
+[01:10.280 --> 01:13.280]  Jaj, hogy én 29 vagyok, de én férfi vagyok, az más.
+[01:13.280 --> 01:20.280]  Aztán szép, mert a tértem ugye, aztán így a focit abba kelt, hagyni sajnos, és aztán most így, hát zenégetek, tudod.
+[01:20.280 --> 01:22.280]  Tehát tudtani nem fáz, hogy jelen majd, de jelen majd kicsit.
+[01:22.280 --> 01:26.280]  Na, ha pármul poddítlakom, amúgy akú fiksz, nem? Fiksz, nem jössz?
+[01:28.280 --> 01:36.280]  Jó, figyúlom, hogy hónap tök korán kellek, meg minden annyit, hogy esélytel nem jössz, meg nem is megyünk hazzád.
+[01:36.280 --> 01:41.280]  Jó, nagyon korán kellek, amúgy szóval majd beszéljünk, jó majd írok. Jó.
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
