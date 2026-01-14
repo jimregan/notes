@@ -4,14 +4,14 @@
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-[00:00.000 --> 00:03.280]  Gyere, és néz meg velünk milyen is az AIN-színkélmény.
-[00:03.280 --> 00:06.560]  Belépsz az ajtón és már is érzett, hogy itt történik valami mennyit.
-[00:06.560 --> 00:09.560]  Megmutatod a jegyet, mi pedig nagy mosoljáfogadó.
-[00:09.560 --> 00:13.080]  Kapsz egy karszallagot, ezzel már teljes körülrésztbe vővajta.
-[00:13.080 --> 00:16.600]  Átveszed a névtáblá, mert jó, aminenki tudja kivel veszél.
-[00:16.600 --> 00:19.840]  Ez utányon egy gyors kórszken, egyrök itt kérdőét,
-[00:19.840 --> 00:23.360]  kicsivel később, pedig kiköldjüknáltak az AI generált a matcheket.
-[00:23.360 --> 00:26.680]  Ez az AIN-színk, gyere el, és próbált ki te is.
+Gyere, és nézd meg velünk milyen is az AI and Sync élmény!
+Belépsz az ajtón és máris érzed, hogy itt történik valami menő.
+Megmutatod a jegyed, mi pedig nagy mosollyal fogadunk.
+Kapsz egy karszalagot, ezzel már teljes körül résztvevő vagy.
+Átveszed a névtáblát, mert jó ha minenki tudja kivel beszél.
+Ezután jön egy gyors QR scan, egy rövid kérdőív...
+picivel később, pedig kiköldjük nektek az AI generálta matcheket.
+Ez az AI and sync, gyere el, és próbáld ki te is.
 
 
 
