@@ -1034,32 +1034,323 @@ Please, I haven’t had coffee for half a year.
 
 [Reel](https://www.instagram.com/reel/DMx4J58oRIB/)
 
-Tök nehéz gyereket nevelni,
-ráadásul folyton változnak ezek a gyermeknevelési módszerek.
-Az idősebb generáció még lazábban fogta fel azt a gyermeknevelést.
-A mostani szlők állandóan aggódnak, hogy: "Úristen, mit vesz a szájába a gyerek?" "Hát tiszta bacilus." "Hát megbetegszik."
-Az idősebb generáció, ha bármi történt a gyerekkel, annyi volt a válasz, hogy: "Ennyi kell neki."
-"Ennyi kell neki." "De egy heroinos tűt gyalogat." "De...
-az kell, hogy kialakuljon az immunrendszere."
-"De most zuhant négy emeletet." "De így fognak megerősödni a csontjái, jó?"
-És csak nálunk, embereknél változnak egyébként a gyermeknevelési technikák. Az állatoknál nincs ilyen.
-Az állatok évezredek óta úgyanúgy nevelik a gyerekeiket. Az nem változik.
-Tehát nincs ilyen a madaraknál, hogy: "Hát mi ezt a fészekből kilökést már nem
-kultiváljuk."
-"Csak puffasztott kukacot adunk a fiókának."
-Ráadásul az állatok gyermekkora tele van traumákkal. Utána mégse mennek pszichológushoz,
-hogy kijavitsák, amit elrontottak a szüleik. Nem megy a fecske a pszichológushoz, hogy:
-"Egy évben kétszer költöztünk."
-"Semmi állandóság nem volt az életemben."
-"Értse meg, egyedül nem tudok nyarat csinálni."
-Nekem a kedvenc nevelési technikám, ezt így játszótereken meg parkokban lehet látni, hogy
-amikor elesik a gyerek azért, hogy ne sírjon, a szülők úgy csinálnak, mintha nem esset volna el.
-Tehát elesik a gyerek, és úgy mennek oda a szülők, hogy:
-"Hát csak megijedtél." "Nincsen semmit baj." "Hát ne sírjál."
-"Hát csak megijedtél." Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?
-Hogy hazajön a feleséget, hogy: "Ki ez a nő?"
-"Hát csak megijedtél dragám."
-"Ne sírjál."
+Great — this is **classic stand-up / observational humour**, so I’ll stick exactly to your preferred format:
+
+* sentence-by-sentence **HU → EN**
+* explain **oddness only where it affects meaning**
+* then **contextualised vocabulary** (each item anchored to a line)
+
+No wordlists, no trimming needed later.
+
+---
+
+## Caption text (reference, lightly normalised)
+
+> **Tök nehéz gyereket nevelni,**
+> ráadásul folyton változnak ezek a gyermeknevelési módszerek.
+>
+> Az idősebb generáció még lazábban fogta fel azt a gyermeknevelést.
+> A mostani szülők állandóan aggódnak, hogy:
+> „Úristen, mit vesz a szájába a gyerek?”
+> „Hát tiszta bacilus.”
+> „Hát megbetegszik.”
+>
+> Az idősebb generáció, ha bármi történt a gyerekkel,
+> annyi volt a válasz, hogy: „Ennyi kell neki.”
+>
+> „De egy heroinos tűt nyalogat.”
+> „De… az kell, hogy kialakuljon az immunrendszere.”
+>
+> „De most zuhant négy emeletet.”
+> „De így fognak megerősödni a csontjai, jó?”
+>
+> És csak nálunk, embereknél változnak egyébként
+> a gyermeknevelési technikák.
+> Az állatoknál nincs ilyen.
+>
+> Az állatok évezredek óta ugyanúgy nevelik a gyerekeiket.
+> Az nem változik.
+>
+> Tehát nincs ilyen a madaraknál, hogy:
+> „Hát mi ezt a fészekből kilökést már nem kultiváljuk.”
+>
+> „Csak puffasztott kukacot adunk a fiókának.”
+>
+> Ráadásul az állatok gyermekkora tele van traumákkal.
+> Utána mégse mennek pszichológushoz,
+> hogy kijavítsák, amit elrontottak a szüleik.
+>
+> Nem megy a fecske a pszichológushoz, hogy:
+> „Egy évben kétszer költöztünk.”
+> „Semmi állandóság nem volt az életemben.”
+> „Értse meg, egyedül nem tudok nyarat csinálni.”
+>
+> Nekem a kedvenc nevelési technikám —
+> ezt játszótereken meg parkokban lehet látni —
+> hogy amikor elesik a gyerek,
+> azért, hogy ne sírjon,
+> a szülők úgy csinálnak, mintha nem esett volna el.
+>
+> Tehát elesik a gyerek,
+> és úgy mennek oda a szülők, hogy:
+> „Hát csak megijedtél.”
+> „Nincsen semmi baj.”
+> „Hát ne sírjál.”
+>
+> Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?
+>
+> Hogy hazajön a feleséged, hogy:
+> „Ki ez a nő?”
+> „Hát csak megijedtél, drágám.”
+> „Ne sírjál.”
+
+---
+
+## Sentence-by-sentence HU → EN
+
+**Tök nehéz gyereket nevelni,**
+Raising a child is really hard,
+
+* *tök* = very / really (colloquial intensifier)
+
+---
+
+**ráadásul folyton változnak ezek a gyermeknevelési módszerek.**
+and on top of that, these child-rearing methods keep changing.
+
+---
+
+**Az idősebb generáció még lazábban fogta fel…**
+The older generation took child-rearing much more loosely.
+
+* *fogta fel* = approached / treated (conceptually)
+
+---
+
+**A mostani szülők állandóan aggódnak…**
+Today’s parents worry constantly…
+
+---
+
+**„Úristen, mit vesz a szájába a gyerek?”**
+“Oh my God, what is the kid putting in their mouth?”
+
+---
+
+**„Hát tiszta bacilus.”**
+“Well, it’s completely covered in germs.”
+
+---
+
+**„Hát megbetegszik.”**
+“Well, they’ll get sick.”
+
+* repeated *hát* = mock panic voice
+
+---
+
+**Az idősebb generáció… annyi volt a válasz, hogy: „Ennyi kell neki.”**
+The older generation’s response was just: “That’s what they need.”
+
+* *ennyi kell neki* = “this is necessary for them” (dismissive, fatalistic)
+
+---
+
+**„De egy heroinos tűt nyalogat.”**
+“But they’re licking a heroin needle.”
+
+* absurd escalation
+
+---
+
+**„De… az kell, hogy kialakuljon az immunrendszere.”**
+“But… that’s needed so their immune system develops.”
+
+---
+
+**„De most zuhant négy emeletet.”**
+“But they just fell four stories.”
+
+---
+
+**„De így fognak megerősödni a csontjai, jó?”**
+“But this is how their bones will get stronger, okay?”
+
+---
+
+**És csak nálunk, embereknél változnak…**
+And only among us humans do these parenting techniques change.
+
+---
+
+**Az állatoknál nincs ilyen.**
+There’s no such thing among animals.
+
+---
+
+**Az állatok évezredek óta ugyanúgy nevelik…**
+Animals have raised their young the same way for millennia.
+
+---
+
+**Tehát nincs ilyen a madaraknál, hogy…**
+So birds don’t have things like…
+
+---
+
+**„…a fészekből kilökést már nem kultiváljuk.”**
+“…we no longer cultivate pushing them out of the nest.”
+
+* *kultiváljuk* = cultivate (ironically bureaucratic)
+
+---
+
+**„Csak puffasztott kukacot adunk a fiókának.”**
+“We only give the chick puffed worms.”
+
+* parody of health-food discourse
+
+---
+
+**Ráadásul az állatok gyermekkora tele van traumákkal.**
+Moreover, animals’ childhoods are full of trauma.
+
+---
+
+**Utána mégse mennek pszichológushoz…**
+And yet they don’t go to a psychologist afterwards…
+
+---
+
+**Nem megy a fecske a pszichológushoz, hogy…**
+The swallow doesn’t go to a psychologist saying…
+
+---
+
+**„Egy évben kétszer költöztünk.”**
+“We moved twice a year.”
+
+---
+
+**„Semmi állandóság nem volt az életemben.”**
+“There was no stability in my life.”
+
+---
+
+**„Értse meg, egyedül nem tudok nyarat csinálni.”**
+“Please understand, I can’t make a summer on my own.”
+
+* idiom parody (*egy fecske nem csinál nyarat*)
+
+---
+
+**Nekem a kedvenc nevelési technikám…**
+My favourite parenting technique…
+
+---
+
+**…amikor elesik a gyerek… a szülők úgy csinálnak…**
+…when the child falls and the parents act…
+
+---
+
+**…mintha nem esett volna el.**
+…as if they hadn’t fallen.
+
+---
+
+**„Hát csak megijedtél.”**
+“Well, you were just scared.”
+
+---
+
+**„Nincsen semmi baj.”**
+“There’s nothing wrong.”
+
+---
+
+**„Hát ne sírjál.”**
+“Well, don’t cry.”
+
+---
+
+**Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?**
+You wouldn’t dare do this with adults, right?
+
+---
+
+**„Ki ez a nő?”**
+“Who is this woman?”
+
+---
+
+**„Hát csak megijedtél, drágám.”**
+“Well, you were just scared, darling.”
+
+---
+
+**„Ne sírjál.”**
+Don’t cry.
+
+---
+
+## Contextualised vocabulary (anchored, no bare lists)
+
+* **tök + adj.** – *very / really*
+  → *tök nehéz*
+
+* **fogja fel (vmit)** – *to approach / treat something*
+  → *lazábban fogta fel*
+
+* **ennyi kell neki** – *that’s what they need* (dismissive parenting cliché)
+
+* **kialakul** – *to develop (naturally over time)*
+  → *kialakuljon az immunrendszere*
+
+* **zuhan** – *to fall (suddenly, from height)*
+  → *zuhant négy emeletet*
+
+* **megerősödik** – *to grow stronger*
+  → *megerősödni a csontjai*
+
+* **kultivál** – *to cultivate* (ironically formal)
+  → used for satire
+
+* **fióka** – *chick / baby bird*
+  → contrasts with *gyerek*
+
+* **tele van vmivel** – *to be full of something*
+  → *tele van traumákkal*
+
+* **mégse** – *and yet / nevertheless*
+  → *mégse mennek pszichológushoz*
+
+* **úgy csinál, mintha…** – *to act as if…*
+  → extremely common structure
+
+* **nem mernéd** – *you wouldn’t dare*
+  → *mer* = dare
+
+---
+
+## Why this works as humour linguistically
+
+* exaggeration via **bureaucratic language**
+* literalising emotional clichés
+* applying **adult therapeutic discourse** to animals
+* repetition with tiny variations (*hát… hát… hát…*)
+
+This is **high-quality spoken Hungarian**, not incoherence.
+
+---
+
+If you want next:
+
+* we can isolate **parent-speech clichés** (they recur everywhere), or
+* zoom in on **how irony is built with register shifts** in Hungarian stand-up.
+
+This was a great reel to study.
+
 
 -----
 
