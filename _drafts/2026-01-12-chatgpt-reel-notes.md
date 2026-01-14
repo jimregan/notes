@@ -7,12 +7,8 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-## [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
+## [Reel](https://www.instagram.com/reels/DTQZMgTjFgq/)
 
-Perfect — let’s do **ALL**, but **slow, clear, and structured**.
-No extra jokes, no fancy language. This is for **learning Hungarian**.
-
----
 
 # 1️⃣ Sentence-by-sentence breakdown (very explicit)
 
@@ -294,21 +290,7 @@ A történet romantikus lesz.
 Később kiderül az igazság,
 és minden újra horrorba fordul.
 
----
+-----
 
-## What I recommend next (learning-wise)
+## [Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
 
-Best order:
-
-1. **Memorize the Anki vocab**
-2. **Re-read the A2 version**
-3. **Come back to the full breakdown**
-4. Then try **B1**
-
-If you want, next I can:
-
-* turn this into **fill-in-the-blank exercises**
-* make a **one-page grammar summary**
-* or do a **literal vs natural translation comparison**
-
-Just say which one.

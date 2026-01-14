@@ -2,6 +2,20 @@
 
 ---
 
+[Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
+
+[00:00.000 --> 00:03.280]  Gyere, és néz meg velünk milyen is az AIN-színkélmény.
+[00:03.280 --> 00:06.560]  Belépsz az ajtón és már is érzett, hogy itt történik valami mennyit.
+[00:06.560 --> 00:09.560]  Megmutatod a jegyet, mi pedig nagy mosoljáfogadó.
+[00:09.560 --> 00:13.080]  Kapsz egy karszallagot, ezzel már teljes körülrésztbe vővajta.
+[00:13.080 --> 00:16.600]  Átveszed a névtáblá, mert jó, aminenki tudja kivel veszél.
+[00:16.600 --> 00:19.840]  Ez utányon egy gyors kórszken, egyrök itt kérdőét,
+[00:19.840 --> 00:23.360]  kicsivel később, pedig kiköldjüknáltak az AI generált a matcheket.
+[00:23.360 --> 00:26.680]  Ez az AIN-színk, gyere el, és próbált ki te is.
+
+
+
+-----
 
 ### Hungarian
 
