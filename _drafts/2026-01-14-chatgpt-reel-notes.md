@@ -563,19 +563,9 @@ and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
 
-Perfect — thanks for the reminder. And you’re right: **captioned reels artificially raise the apparent level**, because captions preserve forms that casual speech would blur. That’s actually a *good* thing for notes, as long as we treat them correctly.
-
-Below is **contextualised vocabulary from that reel**, exactly in the format you asked for:
-
-* each item tied to **a sentence you saw**
-* with a **clear translation**
-* and a short note only where needed
-
-No bare wordlists.
-
 ---
 
-## Contextual vocabulary from the reel (new / non-A1)
+## Contextual vocabulary from the reel
 
 ### **vekengeni**
 
@@ -776,32 +766,6 @@ No bare wordlists.
 
 * Idiomatic phrasing
 * Often used in moralising or admonishing contexts
-
----
-
-## Important meta-note (you’re right about this)
-
-Because you’re working from **inline captions**:
-
-* sentence structure is **cleaner** than speech
-* vocabulary looks more “advanced” than it sounds
-* ASR noise is lower
-* but discourse markers are preserved
-
-So the apparent difficulty spike is **not your imagination** — it’s a property of the data.
-
-That’s actually ideal for the kind of careful, pattern-based learning you’re doing.
-
----
-
-If you want next time, we can:
-
-* mark which items are **caption-only vs truly spoken**, or
-* flag which words are **worth active learning** vs just passive recognition.
-
-Just say the word.
-
-
 
 -----
 
