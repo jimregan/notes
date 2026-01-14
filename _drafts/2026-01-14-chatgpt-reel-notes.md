@@ -393,24 +393,24 @@ You’ll hear this a lot outside ads too.
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
-[00:00.000 --> 00:03.000]  Ezért tanulj meg Angoló, hogyha csak Németre jártál.
-[00:08.000 --> 00:15.000]  Tót Gabi reagálta már-már minként terjedő éneklésére, és én amúgy egy pillanatra azt tittem, hogy ez egy normális videó lesz.
-[00:15.000 --> 00:24.000]  Miért kell ez a rennyit vekengeni emberek? Hát 5 éve járok fideszes rendezőennyekre énekelni, mikor lesz málsz, hogy na jó.
-[00:25.000 --> 00:31.000]  Videónak egyébként nagyon sok kibetni való része van, viszont én mégis egyetlen egy dolgon húztam, csak felmagam.
-[00:31.000 --> 00:46.000]  Én megtaláltam a legjobb artkrémet ezt az omorok visszálltna. Ez sokkal fontosabb, mert ez segít azon, hogy te szét idegeled magad a tihéneken és időd szállsz arra, hogy kinyomtas egy szöveget és előtt leírt fonetikusan ennyi...
-[00:46.000 --> 00:53.000]  Értám, hogy az Angol kiejétéssel nem vagy tisztában, de az a vajon tisztában vagy, hogy a krém, amit ajángatsz jószívül mindenkinek, aki ideges rád.
-[00:53.000 --> 00:59.000]  Az egy olyan árkategória, amit Magyarországnak körülbelül 80%-a nem tehet meg, hogy megvásárolja magának.
-[00:59.000 --> 01:01.000]  Ugyanis az a termék egy luxus kosmetikum.
-[01:01.000 --> 01:07.000]  Egy olyan országban teszed ezt, ahol a kórházakban konkrétan ilyen ítát kapnak a fekvő betegek.
-[01:07.000 --> 01:16.000]  Egy olyan országban teszed ezt, ahol a netto átlagbér, a kás, hát hivataros adatai szerint 380 és 420.000 forint között van.
-[01:16.000 --> 01:22.000]  Hozzá tenném egyébként, hogy azon a két helyen, ahol most jellegén voltam, ott mondjuk, csak 3.50-et ajánlottak.
-[01:22.000 --> 01:27.000]  És nem az a probléma, hogy te egy ilyen krémet használsz, hiszen ez nyilván szíved joga.
-[01:27.000 --> 01:34.000]  A probléma az, hogy nagy valószínűsége ezt is olyan pénzből vetted, amit egy olyan kormánytal kaptál, aki ezt az összege,
-[01:34.000 --> 01:40.000]  befektetette volna a kórházakban is, vagy a kórházoknál az idkezésben, vagy bármi másba ennél.
-[01:40.000 --> 01:46.000]  Gabi én sosem készítettem volna a videót a borzasztó angolkiájtésedről, és nem is bántottalak volna miatt.
-[01:46.000 --> 01:51.000]  És ez a reakció videó egyébként lehetett volna egy egész emberi videó is tűled.
-[01:51.000 --> 01:55.000]  Csak egy ilyen nagyon-nagyon-nagyon ennyi volt.
-[01:55.000 --> 02:01.000]  Szóval remélem, hogy a jövőben most már inkább mi előtt valamit kimondasz, majd végig mondolod, és csak az után lehetett ki a szádon.
+KK: Ezért tanulj meg angolul, hogyha csak Németre jártál.
+LL: Tóth Gabi reagált a már-már mémként terjedő éneklésére. És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.
+TG: Hogy miért kell ezen ennyit vekengeni, emberek? Hát 5 éve járok fideszes rendezvényekre énekelni. Mikor lesz már az, hogy na jó.
+KK: A videónak egyébként nagyon sok kivetnivaló része van, viszont én mégis egyetlenegy dolgon húztam csak fel magam.
+TG: Én meg találtam a legjobb arckrémet, ezt az omorovicát. Na ez-ez sokkal fontosabb, mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken, és időt szánsz arra, hogy kinyomtass egy szöveget, és előtt leírd fonetikusan, ennyi-
+KK: Értem, hogy az Angol kiejtéssel nem vagy tisztában, de azzal vajon tisztában vagy, hogy a krém, amit ajángatsz jószívűen mindenkinek, aki ideges rád,
+az egy olyan árkategória, amit Magyarországnak körülbelül nyolcvan százaléka nem tehet meg, hogy megvásárolja magának.
+Ugyanis ez a termék egy luxuskozmetikum.
+Egy olyan országban teszed ezt, ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.
+Egy olyan országban teszed ezt, ahol a nettó átlagbér, a ksh hivatalos adatai szerint 380 és 420.000 forint között van.
+Hozzátenném egyébként, hogy azon a két helyen, ahol most jelenleg én voltam, ott mondjuk csak haromötvenet ajánlottak.
+És nem az a probléma, hogy te egy ilyen krémet használsz, hiszen ez nyilván szíved joga.
+A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted, amit egy olyan kormánytól kaptál, aki ezt az összeget
+befektethette volna a kórházakba is, vagy a kórházaknál az étkezésbe, vagy bármi másba. ennél.
+Gabi én sosem készítettem volna videót a borzaszto angol kiejtésedről, és nem is bántottalak volna miatta.
+És ez a reakcióvideó egyébként lehetett volna egy egész emberi videó is tőled,
+csak egy ilyen nagyon, nagyon, nagyon ennyi volt.
+Szóval remélem, hogy a jövőben most már inkább mielőtt valamit kimondasz, majd végiggondolod, és csak azután éjted ki a szádon.
 
 -----
 
