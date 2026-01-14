@@ -464,162 +464,106 @@ I understand that you’re not familiar with English pronunciation,
 
 * *tisztában van vmivel* = be aware of / knowledgeable about
 
----
-
 **de azzal vajon tisztában vagy-e,**
 but are you perhaps aware of the fact
 
 * *vajon* = rhetorical uncertainty
-
----
 
 **hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
 that the cream you’re kindly recommending to everyone who’s annoyed at you,
 
 * *ajánlgat* = recommend repeatedly (slightly dismissive nuance)
 
----
-
 **az egy olyan árkategória,**
 is in a price category
-
----
 
 **amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
 that about eighty percent of Hungary cannot afford
 
----
-
 **hogy megvásárolja magának.**
 to buy for themselves.
-
----
 
 **Ugyanis ez a termék egy luxuskozmetikum.**
 Because this product is a luxury cosmetic.
 
----
-
 **Egy olyan országban teszed ezt,**
 You’re doing this in a country
-
----
 
 **ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
 where hospitalized patients literally get food like this in hospitals.
 
 * *konkrétan* = literally / bluntly
 
----
-
 **Egy olyan országban teszed ezt, ahol a nettó átlagbér**
 You’re doing this in a country where the net average salary
-
----
 
 **a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
 according to official KSH data, is between 380 and 420 thousand forints.
 
----
-
 **Hozzátenném egyébként,**
 I’d add, by the way,
 
----
-
 **hogy azon a két helyen, ahol most jelenleg én voltam,**
 that at the two places where I personally was recently,
-
----
 
 **ott mondjuk csak háromötvenet ajánlottak.**
 they were only offering 350.
 
 * *mondjuk* = “say / let’s say”, softens statement
 
----
-
 **És nem az a probléma, hogy te egy ilyen krémet használsz,**
 And the problem isn’t that you use a cream like this,
-
----
 
 **hiszen ez nyilván szíved joga.**
 since that’s obviously your right.
 
----
-
 **A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
 The problem is that you most likely bought this too with money
-
----
 
 **amit egy olyan kormánytól kaptál,**
 that you received from a government
 
----
-
 **aki ezt az összeget befektethette volna a kórházakba is,**
 which could have invested that amount into hospitals,
-
----
 
 **vagy a kórházi étkezésbe, vagy bármi másba.**
 or hospital food, or anything else.
 
----
-
 **Gabi, én sosem készítettem volna videót**
 Gabi, I never would have made a video
-
----
 
 **a borzasztó angol kiejtésedről,**
 about your terrible English pronunciation,
 
----
-
 **és nem is bántottalak volna miatta.**
 and I wouldn’t have attacked you for it either.
-
----
 
 **És ez a reakcióvideó egyébként lehetett volna**
 And this reaction video could have been
 
----
-
 **egy egész emberi videó is tőled,**
 a fully human, decent video from you,
-
----
 
 **csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
 but this ended up being just… very, very, very much “that’s it.”
 
 * *ennyi volt* = that’s all / that’s where it ends (dismissive)
 
----
-
 **Szóval remélem, hogy a jövőben**
 So I hope that in the future
-
----
 
 **most már inkább mielőtt valamit kimondasz,**
 before you say something,
 
----
-
 **majd végiggondolod,**
 you’ll think it through,
-
----
 
 **és csak azután ejted ki a szádon.**
 and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
+
+
 
 
 -----
