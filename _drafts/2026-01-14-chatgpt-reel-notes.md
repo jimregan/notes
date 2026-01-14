@@ -2,19 +2,43 @@
 
 ---
 
+You’re very close. Here’s the **clean, natural translation**, with a small nuance explained.
+
+### Hungarian
+
+> **Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
+> Vannak szerelmes filmek is.
+> Azokat is meg lehet nézni…**
+
+### Natural English
+
+> **Who said that you can only watch porn in the digital space?
+> There are romantic films too.
+> You can watch those as well…**
+
+### A couple of small notes (why this works)
+
+* **Ki mondta, hogy…?** = “Who said that…?”
+  → rhetorical, mildly sarcastic
+* **csak** = only (important for the joke)
+* **lehet nézni** = can be watched / it’s possible to watch
+  → impersonal, general statement
+* **is** (twice) = too / as well
+  → repetition is deliberate, adds dry humor
+* **Azokat is meg lehet nézni…**
+  → literally “Those too can be watched…”
+  → the trailing off is part of the joke (suggestive understatement)
+
+Your paraphrase was essentially correct; the only tweak is that it’s not *“who thinks”* but more sharply *“who said”*, which gives it a more ironic, dismissive tone.
+
+If you want, next time we can do this the usual way (caption → line-by-line → vocab), but for a quick check: you nailed it.
+
+-----
 
 [Reel](https://www.instagram.com/reel/DQejh5hjUAQ/)
 
 Great example — this is a **classic Hungarian deadpan / awkward-politeness joke**.
 I’ll do it in the **same settled format**.
-
----
-
-## Caption text (reference)
-
-> **Feljössz hozzám egy kávéra?**
-> **Köszönöm, de nem… kávézom.**
-> **Légy szíves, fél éve nem kávéztam, kérlek.**
 
 ---
 
@@ -95,13 +119,5 @@ The humor comes from:
 
 * **fél éve** – for half a year
 
----
+-----
 
-## One-line takeaway
-
-> The joke is not about coffee — it’s about **taking a euphemism literally and being very polite about it**.
-
-If you want, I can:
-
-* show **other Hungarian euphemisms** that work exactly like this, or
-* point out **where learners usually miss the joke** in similar lines.
