@@ -767,6 +767,48 @@ and only then let it out of your mouth.
 
 -----
 
+## [Reel](https://www.instagram.com/reels/DRFXZrciGB9/)
+
+[00:00.000 --> 00:02.000]  Te van egy hátéketek, ami...
+[00:02.000 --> 00:02.500]  Csipös.
+[00:02.500 --> 00:04.500]  És mi a csipos-csipos dolog?
+[00:04.500 --> 00:07.500]  Azokat az embereket automatikusan butának tartjuk,
+[00:07.500 --> 00:10.500]  akinek minden második mondata úgy kezdődik, hogy...
+[00:10.500 --> 00:12.500]  Megkérdeztem a csipi dítés!
+[00:12.500 --> 00:14.500]  Egyetértek, teljes mértékben egyetértek.
+[00:14.500 --> 00:15.000]  No, ne!
+[00:15.000 --> 00:15.500]  De miért?
+[00:15.500 --> 00:16.000]  Hát nem.
+[00:16.000 --> 00:17.500]  Azt akartam, hogy ne ércse egy csipi dítés.
+[00:17.500 --> 00:19.500]  Szerintem konkrétan vannak olyan emberek.
+[00:19.500 --> 00:21.500]  Peszem az egy kicsit sértve érzem magam,
+[00:21.500 --> 00:25.000]  mert én is az egy közé az emberek közé tartozom most már.
+[00:25.000 --> 00:28.000]  Tökülön, hogyha lenne annyi lekszikányos tudásom dolgokró,
+[00:28.000 --> 00:30.500]  hogy nem kélem mindenre megkérdeznem egy buta-gépet.
+[00:30.500 --> 00:33.000]  Te mondjuk az időjárás is, hogy még így gondolkodsz rá kell,
+[00:33.000 --> 00:37.000]  hogy milyen az időjárás és a helyet, hogy kiszagóan áll az ablakon.
+[00:37.000 --> 00:39.500]  Hidugnád ezt az újjada.
+[00:39.500 --> 00:40.500]  Megnyabba.
+[00:41.500 --> 00:43.500]  Igen, akkor a szelet is ézleled.
+[00:43.500 --> 00:44.500]  A szelet is ézleled.
+[00:44.500 --> 00:45.500]  A csapadékot meg ilyesmiként.
+[00:45.500 --> 00:47.000]  És annyos csipi tigáj vagyok,
+[00:47.000 --> 00:49.000]  de eltöbbfügettem, hogy teljesen egyetértek valászol,
+[00:49.000 --> 00:52.000]  hogy megszűnt az a világ, amikor mi még gondolkodszunk.
+[00:52.000 --> 00:55.000]  Nem, hogy játok nekem, hogy ti nem csagyipi tisztek éjjánapól.
+[00:55.000 --> 00:57.000]  A diplomámunkátokat azra adtátok be.
+[00:57.000 --> 00:58.000]  Mi kell még nincs diplomám?
+[00:58.000 --> 00:59.000]  Nincs diplomám.
+[00:59.000 --> 01:00.000]  Nincs diplomám van.
+[01:00.000 --> 01:02.000]  Biztos, hogy lesz még olyan,
+[01:02.000 --> 01:04.500]  amikor majd nem így fogom élni az életemet,
+[01:04.500 --> 01:05.500]  de nagyon hozzá szoktam.
+[01:05.500 --> 01:09.500]  És egy ideig csagyipi tének az áldozata maradok.
+[01:09.500 --> 01:10.500]  Rapszolgája.
+[01:10.500 --> 01:12.000]  Rapszolgája.
+
+-----
+
 ## [Reel](https://www.instagram.com/reel/DShbAucFSja/)
 
 ### Hungarian
