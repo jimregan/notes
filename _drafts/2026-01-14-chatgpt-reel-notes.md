@@ -1191,6 +1191,20 @@ Don’t cry.
 
 -----
 
+[Reel](https://www.instagram.com/reels/DTa1X4eikHQ/)
+
+[00:00.000 --> 00:08.260]  Magyarázza már meg nekem azt valaki, hogy miért van az, hogy egy közepesen csúnya pasi, igen, és egy átlagos,
+[00:08.260 --> 00:17.720]  ők bántanak a legjobban, úgy megaláznak, mint a szar, így a földbe tipolják, akarják döngölni az önbecsülésedet.
+[00:17.720 --> 00:26.800]  Előadják a nagy igényeket, hogy nekik mi csoda topmodell nőik lesznek, mik az elvárások a paraméterek.
+[00:27.200 --> 00:30.060]  Majd összejönnek a vasórú bábával.
+[00:31.500 --> 00:35.800]  Igen, mert hogyha szőkehercek van, akkor bizony, vasórú bába is van.
+[00:36.500 --> 00:37.600]  Úgyhogy...
+[00:38.200 --> 00:38.800]  Ha-ha!
+[00:39.200 --> 00:39.700]  Ha-ha!
+[00:40.400 --> 00:45.600]  Én nem tudom, sírjak vagy nevesek, ez igazából vicces egész
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
