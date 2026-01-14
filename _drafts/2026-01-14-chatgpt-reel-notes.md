@@ -120,44 +120,7 @@ The humor comes from:
 
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
-Got it — and thanks for flagging that **you added punctuation just to reflect pauses**. I’ll treat this as **caption text**, not edited prose, and stick to the **same settled, useful format**: reference text → line-by-line HU → EN → vocab. No tone analysis beyond what’s needed to understand words.
-
----
-
-## Caption text (reference)
-
-> A hónaljad is befújod izzadásgátlóval, hogy egész nap friss legyél?
-> Miért ne óvhatnád meg az intim testrészeidet is az izzadás kellemetlenségeitől?
-> Ugye te sem akarod, hogy egy forró nyári délutánon történő váratlan találkozón beégj.
-> Milyen jó lenne biztosan tudni, hogy a kedves hölgy nem borzódik el
-> a gatyád fedése alatt megbújó bukétól, amikor lehúzza rólad.
->
-> Ezzel a termékkel érezheted magad minden nap kényelmesen
-> a bepállástól való feszengés helyett.
-> Natúr ápolást biztosít, a spray belesimul a bőrödbe,
-> nem ragad, nem nehezít el, csak könnyed selymességet hagy maga után.
-> Nem tömíti el a pórusaidat, hűsítő érzetet ad,
-> a mentol azonnal felüdíti a bőröd, de nem tolakodó, nem csíp.
->
-> Bőrkímélő, ugyanis aloe vera van benne,
-> ami mélyen hidratál, ezáltal a bőröd sokáig puha és ápolt marad.
-> Természetes védelmet biztosít, ugyanis alumínium- és alkoholmentes is a formula,
-> ami engedi a testednek, hogy végezze a természetes folyamatait,
-> de segít megelőzni a kellemetlen szagokat.
-> Érzéki illatélmény, citrusos és friss, tele energiával.
->
-> Teszteljük le.
-> Nézzük, hogy milyen illata van valójában.
-> És tényleg, ez a citrusos illatvilág megvan benne.
-> Egyébként van ennek egy testvére is,
-> ez a spray-s intimrész-dezodor, és ez meg a krémes változata.
-> Ez így néz ki.
-> Az illata hasonló, de az állaga teljesen más.
->
-> Ha szeretnétek hozzájutni, akár csomagban is,
-> akkor nézzetek fel a kekszvital.hu oldalra.
-
----
+NGL, I thought this was a comedy reel until I got the notes back.
 
 ## Line-by-line HU → EN walkthrough
 
@@ -325,7 +288,163 @@ If you’d like to get hold of it…
 
 ---
 
-If you want to keep going:
+Yes — that’s a good thing to add to your notes, and we can do it in a **clean, analytical way** that stays useful for language learning (not media theory fluff).
 
-* we can **clean this into a corrected Hungarian version**, or
-* do **pure vocab drilling only**, skipping the translations.
+Below is something you can almost drop straight into a markdown file.
+
+---
+
+## Notes: “Ad-ness” of the reel (linguistic + structural)
+
+This reel is a **product pitch ad**, and its *ad-ness* is visible at multiple levels of language.
+
+---
+
+### 1. **Hook framed as a shared routine**
+
+> *A hónaljad is befújod izzadásgátlóval…?*
+> *Miért ne óvhatnád meg…?*
+
+**Ad signal:**
+
+* Starts with a **universally relatable habit**
+* Uses **second-person singular** throughout (*-od / -ed / -öd*)
+* Assumes agreement before you can object
+
+This is classic advertising Hungarian:
+
+> *“You already do X — why not also do Y?”*
+
+---
+
+### 2. **Rhetorical questions instead of assertions**
+
+Almost every claim is framed as:
+
+* *miért ne…*
+* *ugye te sem…*
+* *milyen jó lenne…*
+
+**Ad signal:**
+
+* Avoids direct commands
+* Lets the listener “answer themselves”
+* Creates the illusion of autonomy
+
+This is *very* typical of influencer-read ads in Hungarian.
+
+---
+
+### 3. **Problem → reassurance loop**
+
+Repeated pattern:
+
+* **problem:** *kellemetlenség, beégés, szagok*
+* **reassurance:** *nem ragad, nem csíp, nem tolakodó*
+
+Especially noticeable is the **negative listing**:
+
+> *nem ragad, nem nehezít el, nem csíp*
+> *nem tömíti el*
+> *alumínium- és alkoholmentes*
+
+**Ad signal:**
+
+* More time spent on what the product *doesn’t* do than what it does
+* This is risk mitigation language, not storytelling
+
+---
+
+### 4. **Feature stacking without narrative development**
+
+The reel doesn’t escalate or twist — it **accumulates**:
+
+* cooling sensation
+* menthol
+* aloe vera
+* hydration
+* aluminum-free
+* alcohol-free
+* citrus scent
+* cream version
+* spray version
+
+**Ad signal:**
+
+* Additive structure
+* No punchline, no reversal
+* Information density increases steadily
+
+Comedy would *break* this pattern; ads **depend** on it.
+
+---
+
+### 5. **Lexical field: cosmetic / wellness Hungarian**
+
+The vocabulary shifts away from everyday speech into a **marketing register**:
+
+* *natúr ápolás*
+* *érzéki illatélmény*
+* *könnyed selymesség*
+* *bőrkímélő*
+* *hidratál*
+* *formula*
+
+**Ad signal:**
+
+* High proportion of abstract, positively loaded nouns
+* Few concrete verbs after the opening
+
+This is “brochure Hungarian,” spoken aloud.
+
+---
+
+### 6. **Product family expansion**
+
+> *van ennek egy testvére is*
+> *spray-s változat* / *krémes változat*
+
+**Ad signal:**
+
+* Introduces **SKU logic**
+* Treats products as a “family”
+* Signals brand ecosystem, not a one-off joke
+
+---
+
+### 7. **Explicit CTA at the end**
+
+> *Ha szeretnétek hozzájutni… nézzetek fel…*
+
+**Ad signal (hard confirmation):**
+
+* Conditional polite plural (*szeretnétek*)
+* Clear action + URL
+* No irony, no distancing
+
+This is the point where any remaining ambiguity disappears.
+
+---
+
+## Why it *felt* like a bit at first
+
+Because:
+
+* the **delivery voice** stayed the same as her comedy reels
+* the opening mimicked a joke setup
+* Hungarian influencer ads often avoid visual “#ad” markers
+
+So the confusion wasn’t linguistic failure — it was **genre camouflage**.
+
+---
+
+## Useful takeaway for your notes
+
+> **This reel shows how Hungarian influencer ads reuse conversational comedy framing while switching to formulaic sales language underneath.**
+
+That’s a valuable contrast sample, not a distraction.
+
+If you want, next time we can:
+
+* add a short **“genre tag”** line to each reel (*bit / reaction / ad*), or
+* compare this ad’s language directly with one of her *női logika* bits sentence-by-sentence.
