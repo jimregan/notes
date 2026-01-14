@@ -64,23 +64,28 @@ DN-VwleiD-p
 
 DTN4O7fguHs
 
+DSK0qTNDHoR
+
+DSGF-nBiKFJ
+
+DPJQtPxDE6t
+
+DTAbkX7DRbX
+
+DTaYhTCjK6H
+
+DTX60MyAFgc
+
+DTdG9_QDada
+
+DTYd403j1C9
+
+DRU46etjGzj
+
 
 ---
 
 [Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
-
-Perfect — same **settled format**, caption-based, clean and useful.
-
----
-
-## Caption text (reference)
-
-> Anya, hol van apa?
-> Apával egy kicsit összevesztünk. Kint van a kertben.
-> Megnéztem, de nincs kint.
-> Ástál is?
-
----
 
 ## Line-by-line HU → EN walkthrough
 
@@ -175,6 +180,8 @@ Ez az AI and sync, gyere el, és próbáld ki te is.
 
 -----
 
+## [Reel](https://www.instagram.com/reel/DShbAucFSja/)
+
 ### Hungarian
 
 > **Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
@@ -203,11 +210,6 @@ Ez az AI and sync, gyere el, és próbáld ki te is.
 -----
 
 [Reel](https://www.instagram.com/reel/DQejh5hjUAQ/)
-
-Great example — this is a **classic Hungarian deadpan / awkward-politeness joke**.
-I’ll do it in the **same settled format**.
-
----
 
 ## Line-by-line HU → EN walkthrough
 
@@ -239,28 +241,6 @@ Please, I haven’t had coffee for half a year.
 * *légy szíves* = please (polite, slightly stiff)
 * *fél éve* = for half a year
 * *kérlek* = please (again)
-
-The **over-politeness** is part of the joke.
-
----
-
-## Why the joke works (practically)
-
-This hinges on a **pragmatic mismatch**:
-
-* **Speaker A** uses a **social euphemism**
-* **Speaker B** insists on a **literal interpretation**
-
-Hungarian (like English) uses:
-
-> *“Come up for coffee?”*
-> as a socially acceptable invitation for something else.
-
-The humor comes from:
-
-* refusing **politely**
-* but for the **wrong reason**
-* and doubling down on it
 
 ---
 
