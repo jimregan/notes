@@ -1700,24 +1700,6 @@ than innocent stories.
 
 [Reel](https://www.instagram.com/reel/DTYb5Q4Ddg8/)
 
-Anya, az biztos, hogy a baba ott jön ki, ahol a fügykös bement?
-Hát miért kérdezel ilyet?
-Baszki, el fog törni az áll kapcsom!
-
-Nice, this one is **short, sharp, and very Hungarian** — classic **awkward family humour**. I’ll keep it tight and useful.
-
----
-
-## Caption text (reference)
-
-> **Anya, az biztos, hogy a baba ott jön ki, ahol a fütykös bement?**
-> **Hát miért kérdezel ilyet?**
-> **Baszki, el fog törni az állkapcsom!**
-
-*(Minor normalisation: **fügykös → fütykös**, **áll kapcsom → állkapcsom**)*
-
----
-
 ## Line-by-line HU → EN
 
 ### **Anya, az biztos, hogy a baba ott jön ki, ahol a fütykös bement?**
@@ -1755,10 +1737,6 @@ Fuck, my jaw is going to break!
 * **el fog törni** = “is going to break” (future with *fog*)
 * **állkapocs** = jaw
 
-This is hyperbolic **physical reaction humour**:
-
-> laughing / shock so extreme it hurts.
-
 ---
 
 ## Contextualised vocabulary (anchored, no bare lists)
@@ -1769,70 +1747,35 @@ This is hyperbolic **physical reaction humour**:
 = penis (crude, juvenile slang)
 📌 Less clinical than *pénisz*, more childish than outright obscenity.
 
----
-
 ### **az biztos, hogy…?**
 
 → “are you sure that…?”
 📌 Very common structure for doubtful questions.
-
----
 
 ### **ott … ahol …**
 
 → “there … where …”
 📌 Correlative structure, very Hungarian, very useful.
 
----
-
 ### **miért kérdezel ilyet?**
 
 → “why would you ask something like that?”
 📌 Fixed-feeling conversational phrase.
-
----
 
 ### **baszki**
 
 → fuck / damn
 📌 Mild-to-medium swear, common in casual speech.
 
----
-
 ### **el fog + infinitive**
 
 → future tense
 📌 *el fog törni* = “will break”
 
----
-
 ### **állkapocs**
 
 → jaw
 📌 Neutral anatomical term; contrast with vulgar *fütykös* heightens the joke.
-
----
-
-## Why this works (brief, linguistic)
-
-* **register clash**: childish logic + adult anatomy
-* **role violation**: saying this *to your mother*
-* **sudden vulgarity** followed by **physical exaggeration**
-
-No setup needed; the first line already detonates.
-
----
-
-## Clean takeaway for your notes
-
-> A short example of Hungarian humour built on **naive logic + taboo vocabulary + family context**, resolved with a hyperbolic bodily reaction.
-
-If you want next:
-
-* we can group this with **other “anya–gyerek” humour patterns**, or
-* track how **Hungarian uses future tense (*fog*) for exaggerated reactions**.
-
-This one’s a gem precisely because it’s so compact.
 
 
 -----
