@@ -2071,15 +2071,18 @@ We’ll talk later. I’ll text.
 
 [Reel](https://www.instagram.com/reels/DQXFzPACNJK/)
 
-Na figyelj beszarsz! Ilyen volt a békemenet.
-A szörő utcai botrányról, mit gondol?
-ő csak kereste a pénzt ezzel, lányokat futtatott. A lányok is kerestek pénzt. Mindenki jól járt, nem?
-He he he.
-Felszólat, Magyarország Kossuth Díjas-a, a Kossuth D. egy művészeti díja, mit azok kapnak, akik a Magyar kultúra fejlődésében kiemelkedőt alkottak.
-16 éves volt, megharni, 6 éves volt, megharni, szégyen.
-Sárga gondolom, hogy ez nem lehet, ez nem jött össze, pedig az emberben ágasskodik a természet és abban az időben, 20 éve fiatalap csajjal járni, azért az a figyelja volt.
-Tönyörnagyátok, rendkívül meg a kis értés. És az ember nem mindigára ellent a kis értésnek. Jön a Lucifer és azt mondja, na ezt most.
-Van még kérdés, mert nekem lenne pár.
+Title: Nem rossz ember a Feró. Csak végtelenül egyszerű.
+
+KK: Na figyelj beszarsz! Ilyen volt a békemenet.
+Interviewer: A szörő utcai botrányról, mit gondol?
+Feró: ő csak kereste a pénzt ezzel, lányokat futtatott. A lányok is kerestek pénzt. Mindenki jól járt, nem?
+KK: He he he.
+Felszólat, Magyarország Kossuth Díjasa. a Kossuth díj egy művészeti díj, amit azok kapnak, akik a Magyar kultúra fejlődésében kiemelkedőt alkottak.
+Interviewer 2: 16 éves volt, te meg 36 éves voltál.
+Feró: Én meg 36, igen. És arra gondoltam, hogy ez nem lehet, ez nem jött össze, pedig az emberben ágaskodik a természet.
+Abban az időben 20 évvel fiatalabb csajjal járni az pedofília volt.
+Tudjátok, rendkívül nagy a kisértés, és az ember nem mindig áll ellen a kisértésnek. Jön a Lucifer is, azt mondja: Na ezt most...
+KK: Van még kérdés? Mert nekem lenne pár.
 
 
 -----
