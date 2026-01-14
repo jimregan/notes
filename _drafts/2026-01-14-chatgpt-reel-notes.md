@@ -1042,23 +1042,24 @@ Az idősebb generáció, ha bármi történt a gyerekkel, annyi volt a válasz, 
 "Ennyi kell neki." "De egy heroinos tűt gyalogat." "De...
 az kell, hogy kialakuljon az immunrendszere."
 "De most zuhant négy emeletet." "De így fognak megerősödni a csontjái, jó?"
-És csak nálunk emberekni a váltóznak egyébként a gyermek nevelési technikák, tehát az állatoknál nincs ilyen.
-[00:40.000 --> 00:43.800]  Az állatok évezetek úgyan úgy nevelik a gyereket, az nem változik.
-[00:43.800 --> 00:49.000]  Tehát nincs ilyen a madaraknál, hogy hát mi ezt a fészekből kilök és már nem.
-[00:49.000 --> 00:50.900]  Kultiványunk.
-[00:50.900 --> 00:55.200]  Csak puffasztott kukacot adunk a fiókányoknak.
-[00:55.200 --> 01:00.000]  Tehát az az állatok gyermekkor a televan traumákkal, úgyhogy még se mennek psziológushoz.
-[01:00.000 --> 01:04.700]  Ki a vitják, amit errondottak a szüleik, tehát nem megy a fecskap psziológushoz, hogy...
-[01:04.700 --> 01:08.100]  ...egy évben kétszer költöztünk.
-[01:08.100 --> 01:11.100]  Semmi állandóság nem volt az életem.
-[01:11.100 --> 01:16.100]  Értsen meg egyedül nem tudok nyarat csinálni.
-[01:16.100 --> 01:21.700]  Nekem a kedvenc nevelési technikám, ezt így játszó terekem meg parkokba lehet látni, hogy...
-[01:21.700 --> 01:29.200]  ...amikor elesik a gyerek, azért, hogy ne sírjon a szülők úgy csinálnak, mint a nem eset volna el.
-[01:29.200 --> 01:31.200]  De hogy elesik a gyerek és úgy mennek oda a szülők, hogy...
-[01:31.200 --> 01:34.200]  ...hát csak meg ilyet tél, nincsen semmit van, mert ne sírjál.
-[01:34.200 --> 01:38.200]  Hát csak meg ilyet tél, hogy felnőttek-e lesz, nem merdél meg csinálni.
-[01:38.200 --> 01:40.700]  Nem, hogy ha az ön a feleséget, hogy ki ez a nő?
-[01:40.700 --> 01:44.200]  Hát csak meg ilyet tél, de ne sírjál.
+És csak nálunk, embereknél változnak egyébként a gyermeknevelési technikák. Az állatoknál nincs ilyen.
+Az állatok évezredek óta úgyanúgy nevelik a gyerekeiket. Az nem változik.
+Tehát nincs ilyen a madaraknál, hogy: "Hát mi ezt a fészekből kilökést már nem
+kultiváljuk."
+"Csak puffasztott kukacot adunk a fiókának."
+Ráadásul az állatok gyermekkora tele van traumákkal. Utána mégse mennek pszichológushoz,
+hogy kijavitsák, amit elrontottak a szüleik. Nem megy a fecske a pszichológushoz, hogy:
+"Egy évben kétszer költöztünk."
+"Semmi állandóság nem volt az életemben."
+"Értse meg, egyedül nem tudok nyarat csinálni."
+Nekem a kedvenc nevelési technikám, ezt így játszótereken meg parkokban lehet látni, hogy
+amikor elesik a gyerek azért, hogy ne sírjon, a szülők úgy csinálnak, mintha nem esset volna el.
+Tehát elesik a gyerek, és úgy mennek oda a szülők, hogy:
+"Hát csak megijedtél." "Nincsen semmit baj." "Hát ne sírjál."
+"Hát csak megijedtél." Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?
+Hogy hazajön a feleséget, hogy: "Ki ez a nő?"
+"Hát csak megijedtél dragám."
+"Ne sírjál."
 
 -----
 
