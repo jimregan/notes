@@ -164,14 +164,272 @@ Did you dig too?
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-Gyere, és nézd meg velünk milyen is az AI and Sync élmény!
-Belépsz az ajtón és máris érzed, hogy itt történik valami menő.
-Megmutatod a jegyed, mi pedig nagy mosollyal fogadunk.
-Kapsz egy karszalagot, ezzel már teljes körül résztvevő vagy.
-Átveszed a névtáblát, mert jó ha minenki tudja kivel beszél.
-Ezután jön egy gyors QR scan, egy rövid kérdőív...
-picivel később, pedig kiköldjük nektek az AI generálta matcheket.
-Ez az AI and sync, gyere el, és próbáld ki te is.
+
+Perfect — then I’ll do this in the **most useful way for you**:
+
+* no persuasion analysis
+* no event hype
+* no “what AI & Sync is” speculation
+* **just the language**, especially the bits that go **beyond A1** and *do* turn up in real conversation.
+
+---
+
+## Caption text (reference)
+
+> Gyere, és nézd meg velünk, milyen is az AI and Sync élmény!
+> Belépsz az ajtón, és máris érzed, hogy itt történik valami menő.
+> Megmutatod a jegyed, mi pedig nagy mosollyal fogadunk.
+> Kapsz egy karszalagot, ezzel már teljes körű résztvevő vagy.
+> Átveszed a névtáblát, mert jó, ha mindenki tudja, kivel beszél.
+> Ezután jön egy gyors QR-scan, egy rövid kérdőív…
+> Picivel később pedig kiküldjük nektek az AI-generálta matcheket.
+> Ez az AI and Sync. Gyere el, és próbáld ki te is.
+
+---
+
+## Sentence-by-sentence: **only what’s linguistically useful**
+
+### **Gyere, és nézd meg velünk…**
+
+* **gyere** – come (imperative, informal)
+* **nézd meg** – check out / have a look
+* **velünk** – with us
+
+📌 *nézd meg* is extremely common in invitations, suggestions, marketing, and casual speech.
+
+---
+
+### **milyen is az … élmény**
+
+* **milyen** – what kind of
+* **-is** – soft emphasis (“actually / really”)
+* **élmény** – experience
+
+📌 *milyen is…* = “what it’s really like”
+You’ll hear this a lot outside ads too.
+
+---
+
+### **Belépsz az ajtón**
+
+* **belép** – enter, step inside
+* **ajtó** – door
+
+📌 Verb prefix **be-** = inward movement (very Hungarian, very reusable).
+
+---
+
+### **máris érzed**
+
+* **máris** – immediately / right away
+* **érez** – feel
+
+📌 *máris* is a great adverb to learn; very conversational.
+
+---
+
+### **történik valami**
+
+* **történik** – happens
+* **valami** – something
+
+📌 Neutral, high-frequency structure:
+
+> *itt történik valami* = something is happening here
+
+---
+
+### **menő**
+
+* slang adjective: cool, slick, trendy
+  📌 Common in speech, not formal writing.
+
+---
+
+### **Megmutatod a jegyed**
+
+* **megmutat** – show
+* **jegy** – ticket
+
+📌 *meg-* = completed action prefix.
+
+---
+
+### **mi pedig … fogadunk**
+
+* **pedig** – contrast / continuation (“and we, in turn”)
+* **fogad** – receive / welcome
+
+📌 *fogadunk* here = “we welcome you”.
+
+---
+
+### **nagy mosollyal**
+
+* **mosoly** – smile
+* **-val** – with
+
+📌 Instrumental case used very naturally.
+
+---
+
+### **Kapsz egy karszalagot**
+
+* **kap** – receive / get
+* **karszalag** – wristband
+
+📌 *kap* is one of the most useful verbs in Hungarian.
+
+---
+
+### **ezzel már … vagy**
+
+* **ezzel** – with this
+* **már** – already
+* **résztvevő** – participant
+
+📌 Pattern:
+
+> *ezzel már X vagy* = with this, you’re already X
+
+---
+
+### **Átveszed a névtáblát**
+
+* **átvesz** – take over / receive formally
+* **névtábla** – name badge
+
+📌 *átvesz* often used in events, offices, paperwork.
+
+---
+
+### **jó, ha …**
+
+* **jó, ha** – it’s good if / it’s useful if
+
+📌 Very common conversational hedge.
+
+---
+
+### **kivel beszél**
+
+* **kivel** – with whom
+* **beszél** – talk
+
+📌 Case endings do a lot of work here.
+
+---
+
+### **Ezután jön…**
+
+* **ezután** – after this
+* **jön** – comes
+
+📌 Great sequencing phrase.
+
+---
+
+### **egy gyors … egy rövid …**
+
+* **gyors** – quick
+* **rövid** – short
+
+📌 Adjective stacking like this is very natural.
+
+---
+
+### **később pedig**
+
+* **később** – later
+* **pedig** – then / and
+
+📌 *pedig* again as a discourse connector.
+
+---
+
+### **kiküldjük nektek**
+
+* **kiküld** – send out
+* **nektek** – to you (plural)
+
+📌 Prefix **ki-** = outward movement.
+
+---
+
+### **Ez az X**
+
+* fixed phrase: “This is X.”
+
+📌 Used constantly in explanations and introductions.
+
+---
+
+### **próbáld ki**
+
+* **kipróbál** – try out
+* imperative form
+
+📌 One of the most useful verbs in invitations.
+
+---
+
+## Vocabulary worth keeping (compact list)
+
+**Verbs**
+
+* belép
+* érez
+* történik
+* megmutat
+* fogad
+* kap
+* átvesz
+* kiküld
+* kipróbál
+
+**Adverbs / connectors**
+
+* máris
+* már
+* pedig
+* ezután
+* később
+
+**Nouns**
+
+* élmény
+* jegy
+* mosoly
+* karszalag
+* résztvevő
+* névtábla
+* kérdőív
+
+**Adjectives**
+
+* menő
+* gyors
+* rövid
+
+---
+
+## Final reassurance (important)
+
+You’re right:
+
+* this **can** come up in conversation
+* especially around events, meetups, work, tech, conferences
+* and the **grammar + verbs** are reusable far beyond this context
+
+You don’t need to care about *AI & Sync* to get value out of this reel linguistically.
+
+If you want, next time we can:
+
+* strip one of these down to **pure verb-prefix patterns**, or
+* flag **“this is marketing-only” vs “this is everyday Hungarian”** sentence by sentence.
+
+
+-----
 
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
