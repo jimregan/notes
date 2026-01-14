@@ -1739,7 +1739,7 @@ Fuck, my jaw is going to break!
 
 ---
 
-## Contextualised vocabulary (anchored, no bare lists)
+## Contextualised vocabulary
 
 ### **fütykös**
 
@@ -1777,6 +1777,28 @@ Fuck, my jaw is going to break!
 → jaw
 📌 Neutral anatomical term; contrast with vulgar *fütykös* heightens the joke.
 
+-----
+
+[Reel](https://www.instagram.com/p/DTdtT65AXZG/)
+
+
+[00:00.000 --> 00:02.900]  Most az a menő, hogy valamiért ugyanúgy akarunk kinézni.
+[00:02.900 --> 00:06.500]  A szájak ugyanúgy néznek ki, a haját ugyanúgy csináljuk,
+[00:06.500 --> 00:12.900]  az az beállásunk ugyanolyan megszokod azt a képet, a tükörbe,
+[00:12.900 --> 00:19.500]  és egyszerűen már azt sem tetszik, és amint ezt itt bellül te nem kezeled magadba,
+[00:19.500 --> 00:24.000]  hogy te így vagy szépa, hogy vagy, akkor soha nem lesz ez elég.
+[00:25.000 --> 00:30.000]  Azt, hogy bárhol elfutottunk, éreztet, hogy telefonok elő,
+[00:30.000 --> 00:35.000]  vagy azért, mert a balázsékat hívják, vagy mert csak lefotóz, levideóz,
+[00:35.000 --> 00:38.000]  vagy úristen gyere ide, fús ide egy fotóra.
+[00:38.000 --> 00:41.500]  Hogy ez egy ország test volt, hogy annyira szítjük itt egymás,
+[00:41.500 --> 00:49.000]  de itt egy olyan szintű pozitív csalódás volt az emberekbe részünkről,
+[00:49.000 --> 00:52.000]  hogy a mai napig nem tudjuk feldalgozni.
+[00:53.000 --> 00:57.000]  Az a fajta szerelem és szeretet, ami köztünk van,
+[00:57.000 --> 01:00.000]  azt én nem tapasztaltam még soha.
+[01:00.000 --> 01:03.000]  Ebből a szerelemből, ebből a szeretetből lehet,
+[01:03.000 --> 01:08.000]  hogy születnie kell legy kis babának egy kis gyereknek.
+[01:08.000 --> 01:11.000]  Egyébként a legnagyobb probléma szerintem a fiataloknál,
+[01:11.000 --> 01:14.000]  az most ez az adrog és az alkohol fogyasztás.
 
 -----
 
