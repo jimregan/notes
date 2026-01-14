@@ -69,7 +69,91 @@ DTN4O7fguHs
 
 [Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
 
+Perfect — same **settled format**, caption-based, clean and useful.
 
+---
+
+## Caption text (reference)
+
+> Anya, hol van apa?
+> Apával egy kicsit összevesztünk. Kint van a kertben.
+> Megnéztem, de nincs kint.
+> Ástál is?
+
+---
+
+## Line-by-line HU → EN walkthrough
+
+**Anya, hol van apa?**
+Mom, where is dad?
+
+* *anya / apa* = mom / dad (neutral, everyday)
+* direct address, child’s voice
+
+---
+
+**Apával egy kicsit összevesztünk. Kint van a kertben.**
+Dad and I had a little argument. He’s out in the garden.
+
+* *-val / -vel* (*apával*) = with
+* *egy kicsit* = a little (minimizing)
+* *összevesztünk* = we had an argument (mutual)
+* *kint* = outside
+
+---
+
+**Megnéztem, de nincs kint.**
+I checked, but he’s not outside.
+
+* *megnéztem* = I checked / I looked
+* *de* = but
+* repetition of *kint* sets up tension
+
+---
+
+**Ástál is?**
+Did you dig too?
+
+* *ásni* = to dig
+* *-tál* = past tense, 2nd person singular
+* *is* = too / as well
+* deadpan delivery = punchline
+
+---
+
+## Extracted vocabulary & chunks (caption-based only)
+
+### Family
+
+* **anya** – mom
+* **apa** – dad
+
+### Verbs
+
+* **összeveszik** – argue (with each other)
+* **megnéz** – check / look
+* **ás** – dig
+
+### Adverbs & particles
+
+* **egy kicsit** – a little
+* **kint** – outside
+* **is** – too / as well
+
+### Useful constructions
+
+* **hol van X?** – where is X?
+* **X-val összeveszik** – have an argument with X
+* **meg + verb (past)** – completed action (*megnéztem*)
+
+---
+
+## Why the joke works (minimal, practical note)
+
+* Ordinary domestic setup
+* Mild phrasing (*egy kicsit*)
+* Final line reinterprets *kertben van* literally
+* **is** implies escalation already happened
 
 -----
 
