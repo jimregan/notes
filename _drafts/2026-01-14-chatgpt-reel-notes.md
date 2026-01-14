@@ -1974,12 +1974,12 @@ We’ll talk later. I’ll text.
 
 [Reel](https://www.instagram.com/reels/DRXW14QjIrs/)
 
-Tudtad, hogy a hideg az ugyan annyira elmeli meg a dopamín szintedet, mint a kokai?
-Kutatások bizonyítják, hogy a hideg hatás 200 százalékkal megemelheti a dopamín szintedet hasonlóan, a kólával,
-viszont nincsen negatív hatása, és nincs lejvüljesen.
-Ha szeretnét, hogy képes legyél tudatosabban befolyásolni a szervezetedet és a belső környezetedet,
-akkor csatlak oda falkába, ahol minden tudást megkapsz, arra nézve, hogy ezt hogyan ért el.
-Mert olyan dolgokkal, mint a hideg vagy a lélegzet, rengeteg minden tudsz elérni a belső tereddel kapcsolatban, bentalálkozunk.
+Tudtad, hogy a hideg az ugyanannyira emeli meg a dopamínszintedet, mint a kokain?
+Kutatások bizonyítják, hogy a hideghatás 200%-kal megemelheti a dopamínszintedet hasonlóan, a kólával,
+viszont nincsen negatív hatása és nincs lejövője sem.
+Ha szeretnéd, hogy képes legyél tudatosabban befolyásolni a szervezetedet és a belső környezetedet,
+akkor csatlakozz a Falkába, ahol minden tudást megkapsz, arra nézve, hogy ezt hogyan érdd el.
+Mert olyan dolgokkal, mint a hideg vagy a lélegzet, rengeteg mindent tudsz elérni a belső tereddel kapcsolatban. Bent találkozunk.
 
 
 -----
