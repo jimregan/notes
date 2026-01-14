@@ -1781,19 +1781,6 @@ Fuck, my jaw is going to break!
 
 [Reel](https://www.instagram.com/reels/DTdVFwqjXv-/)
 
-Great — this is **exactly** the kind of material you were waiting for.
-It’s structured, caption-driven, low-ASR-risk, and full of **reusable workplace Hungarian**.
-
-I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and focus on:
-
-* what each **label** really means in Hungarian
-* the **stock phrases** that signal the behaviour
-* contextualised vocabulary (no bare lists)
-
----
-
-## Title
-
 ### **Toxikus főnökök típusai**
 
 **Types of toxic bosses**
@@ -1810,8 +1797,6 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 * **ghostoló** – from *ghostol* (“to ghost”), fully naturalised
 * **elérhetetlen** – unreachable, unavailable
 
-📌 The slash signals: *two ways of describing the same behaviour*.
-
 ---
 
 ### Spoken lines
@@ -1827,21 +1812,11 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 **Notes:**
 
 * **nekem erre nincs időm** – classic deflection phrase
-* repetition reinforces dismissal
 * **kész** = “done / end of discussion”
-
-📌 This is *passive avoidance framed as efficiency*.
 
 ---
 
 ## **2. A mikromenedzser**
-
-### Label
-
-* **mikromenedzser** – direct loanword, fully accepted
-* no irony in the label itself; the irony is in the behaviour
-
----
 
 ### Spoken lines (key excerpts)
 
@@ -1863,22 +1838,9 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 > **És nem kell improvizálni, mindent pontosan úgy, ahogy én elmondtam neked.**
 > And no need to improvise — everything exactly the way I told you.
 
-**Notes:**
-
-* exaggerated procedural language = humour
-* **jó?** = faux-politeness
-* total removal of autonomy
-
 ---
 
 ## **3. A passzív-agresszív**
-
-### Label
-
-* **passzív-agresszív** – same meaning as English, same register
-* very common in pop-psych discourse
-
----
 
 ### Spoken lines
 
@@ -1888,11 +1850,7 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 > **Csak vicceltem.**
 > Just kidding.
 
-**Notes:**
-
-* praise framed as disappointment
 * **legalább** (“at least”) is doing *all* the damage here
-* the “just kidding” doesn’t undo the insult — that’s the point
 
 ---
 
@@ -1902,8 +1860,6 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 
 * **bűnbak** = scapegoat
 * **bűnbakkereső** = someone who looks for a scapegoat
-
-📌 Very productive compound; widely used in politics and work contexts.
 
 ---
 
@@ -1924,11 +1880,6 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 > **Mert átnéztem, és akkor sikerült.**
 > Because I reviewed it, and then it worked.
 
-**Notes:**
-
-* constant **responsibility shifting**
-* success is retroactively claimed
-* failure is permanently externalised
 
 ---
 
@@ -1937,88 +1888,38 @@ I’ll treat this as **enumerated archetypes**, integrate the spoken lines, and 
 ### **elérhetetlen**
 
 → unreachable / unavailable
-📌 Used metaphorically for people, not just phones.
-
----
 
 ### **Oldjuk meg, kész**
 
 → “Let’s sort it out, end of discussion”
-📌 Strong closure signal.
-
----
 
 ### **légy szíves**
 
 → please (formal-politeness register)
-📌 Often used ironically by micromanagers.
-
----
 
 ### **csekkol be / csekkolás**
 
 → check in / checking
-📌 English loan, fully natural in workplace Hungarian.
-
----
 
 ### **hány százalékban vagy kész**
 
 → how many percent done you are
-📌 Very corporate phrasing.
-
----
 
 ### **nem kell improvizálni**
 
 → no need to improvise
-📌 Suppresses autonomy; useful phrase to recognise.
-
----
 
 ### **legalább**
 
 → at least
-📌 Often signals passive-aggression.
-
----
 
 ### **felelősség**
 
 → responsibility
-📌 Core workplace noun; repetition here is deliberate.
-
----
 
 ### **átnéz**
 
 → to review / look over
-📌 Frequently used to claim ownership after the fact.
-
----
-
-## Why this works well linguistically
-
-* clear **archetype labels**
-* very realistic **stock boss phrases**
-* minimal slang → broadly reusable
-* captions + speech align closely
-
-This is **excellent functional input**, not just entertainment.
-
----
-
-## Clean takeaway for your notes
-
-> A structured list of *toxic boss archetypes*, using highly reusable workplace phrases and naturalised loanwords (*ghostoló, mikromenedzser*), with humour built from exaggerated but recognisable speech patterns.
-
-If you want next, we can:
-
-* extract **polite-sounding Hungarian that’s actually hostile**, or
-* compare these boss-types to **employee survival phrases**.
-
-This one was absolutely worth waiting for.
-
 
 -----
 
