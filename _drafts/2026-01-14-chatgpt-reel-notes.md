@@ -393,28 +393,7 @@ You’ll hear this a lot outside ads too.
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
-Great — this is **clearly a humour / reaction reel**, so I’ll switch back to your **preferred mode**:
-
-* full **sentence-by-sentence breakdown**
-* **HU → EN**
-* no isolated vocab lists
-* explanations only where they affect meaning
-
-I’ll also lightly normalize spelling **only where it’s clearly ASR noise**, but I’ll stay faithful to what’s there.
-
----
-
-## Speakers (for orientation)
-
-* **KK** – the commentator / creator
-* **LL** – narrator / news-style voice
-* **TG** – **Tóth Gabi**
-
----
-
 ## Line-by-line breakdown
-
-### **KK:**
 
 **Ezért tanulj meg angolul, hogyha csak németre jártál.**
 That’s why you should learn English if you only ever went to German class.
@@ -423,19 +402,11 @@ That’s why you should learn English if you only ever went to German class.
 * *tanulj meg* = learn (imperative)
 * *csak németre jártál* = you only attended German (classes)
 
-Tone: dry, admonishing, ironic.
-
----
-
-### **LL:**
-
 **Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
 Tóth Gabi reacted to her singing, which is already spreading almost like a meme.
 
 * *már-már* = almost
 * *mémként terjedő* = spreading as a meme
-
----
 
 **És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
 And honestly, for a moment I thought this was going to be a normal video.
@@ -443,16 +414,10 @@ And honestly, for a moment I thought this was going to be a normal video.
 * *amúgy* = by the way / honestly
 * *egy pillanatra* = for a moment
 
----
-
-### **TG:**
-
-**Hogy miért kell ezen ennyit vekengeni, emberek?**
-Why do people have to fuss over this so much?
+> **Hogy miért kell ezen ennyit vekengeni, emberek?**
+> Why do people have to fuss over this so much?
 
 * *vekengeni* = whine, agonize, make a fuss (emotionally loaded)
-
----
 
 **Hát öt éve járok fideszes rendezvényekre énekelni.**
 Well, I’ve been going to Fidesz events to sing for five years.
@@ -460,67 +425,39 @@ Well, I’ve been going to Fidesz events to sing for five years.
 * *hát* = discourse filler (“well”)
 * *fideszes rendezvények* = Fidesz-affiliated events
 
----
-
 **Mikor lesz már az, hogy na jó.**
 When will it finally be like, “okay, enough.”
 
 * *már* = already / finally (impatience marker)
-
----
-
-### **KK:**
 
 **A videónak egyébként nagyon sok kivetnivaló része van,**
 By the way, the video has a lot of things that can be criticized,
 
 * *kivetnivaló* = objectionable, open to criticism
 
----
-
 **viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
 but I still got worked up over just one single thing.
 
 * *felhúzza magát* = get worked up / annoyed
 
----
-
-### **TG:**
-
-**Én meg találtam a legjobb arckrémet, ezt az Omorovicát.**
-And I, meanwhile, found the best face cream — this Omorovicza.
-
-* abrupt topic shift (intentional)
-
----
+> **Én meg találtam a legjobb arckrémet, ezt az Omorovicát.**
+> And I, meanwhile, found the best face cream — this Omorovicza.
 
 **Na ez-ez sokkal fontosabb,**
 Now this — this is much more important,
 
 * repetition = emphasis, slightly chaotic delivery
 
----
-
 **mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken,**
 because this helps when you completely wreck your nerves over things like this,
 
 * *szétidegeli magát* = completely stress oneself out
 
----
-
 **és időt szánsz arra, hogy kinyomtass egy szöveget,**
 and you spend time printing out a text,
 
----
-
 **és előtte leírd fonetikusan, ennyi—**
 and writing it out phonetically beforehand, that’s it—
-
-* cut-off sentence, self-interrupting
-
----
-
-### **KK:**
 
 **Értem, hogy az angol kiejtéssel nem vagy tisztában,**
 I understand that you’re not familiar with English pronunciation,
@@ -683,28 +620,6 @@ you’ll think it through,
 and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
-
----
-
-## Why this is *linguistically* interesting (brief)
-
-* heavy use of **discourse particles** (*amúgy, egyébként, mondjuk, szóval*)
-* long, well-formed argumentative sentences
-* clear contrast between:
-
-  * defensive, chaotic speech (TG)
-  * structured, moralizing critique (KK)
-
-This is **advanced everyday Hungarian**, not scripted prose.
-
----
-
-If you want next time:
-
-* we can **zoom in on just one paragraph** and polish it for comprehension, or
-* extract **argument-structuring patterns** (useful far beyond politics).
-
-You handled a *very* dense piece here — well done.
 
 
 -----
