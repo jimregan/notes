@@ -1566,11 +1566,11 @@ sloppy / low-effort subtitles
 
 [Reel](https://www.instagram.com/reel/DRDYEACjN-g/)
 
-[00:00.000 --> 00:08.000]  Te is hallottál a részfaszó bagójról, ő az, aki éjszakánként a részfaszával kopug a gyerekek hablakán, hogy ne tudjanak aludni.
-[00:08.000 --> 00:11.500]  Szóval egy fajta mús, aki ellopja a gyerekeket.
-[00:11.500 --> 00:21.000]  Azt azonban kevesen tudják, hogy eredetileg azt az orvos tjelentette, aki makzat elhajtással foglalkozott, azaz risszerszámával belenyúlt a nőkbe.
-[00:21.000 --> 00:26.000]  A női párja a vasorróbába, aki ugyanezt csinálta vaszerszámokkal.
-[00:26.000 --> 00:32.000]  Már megint egy példa arra, hogy a mesék többsége inkább korról, mint áltatlan történet.
+Te is hallottál a részfaszó bagolyról. ő az, aki éjszakánként a rézfaszával kopog a gyerekek ablakán, hogy ne tudjanak aludni.
+Szóval egyfajta mumus, aki ellopja a gyerekeket.
+Azt azonban kevesen tudják, hogy eredetileg azt az orvost jelentette, aki makzatelhajtással foglalkozott, azaz rézszerszámával belenyúlt a nőkbe.
+A női párja a vasorrú bába, aki ugyanezt csinálta vasszerszámokkal.
+Már megint egy példa arra, hogy a mesék többsége inkább korror, mint ártatlan történet.
 
 -----
 
