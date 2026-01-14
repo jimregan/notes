@@ -1802,9 +1802,9 @@ Csak vicceltem.
 Mmm. Aha. Jó értem, hogy ez ott nem sikerült. Igazából,
 nem. Tehát, hogy ez nem az én felelősségem volt. Ez a te felelősséged volt.
 Nem érdekel, hogy nekem kellett a végén elfogadni.
-Ez az a te felelősséged volt. Nem csináltad meg jól. Készhet most ez van, jó.
-[00:41.160 --> 00:44.200]  Jó, hogy a másik projekt megsikerült, hát igen, mert elnéztem, és akkor sikerült,
-[00:44.200 --> 00:47.480]  és így, hogy elnéztem, így jó is lett az egész, persze, hogy jó lett.
+Ez az a te felelősséged volt. Nem csináltad meg jól. Kész. Hát most ez van. Jó.
+Jó, hát a másik projekt meg sikerült? Hát igen. Mert atnéztem, és akkor sikerült.
+És így, hogy atnéztem, így jó is lett az egész. Hát persze, hogy jó lett.
 
 -----
 
