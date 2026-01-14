@@ -393,24 +393,319 @@ You’ll hear this a lot outside ads too.
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
-KK: Ezért tanulj meg angolul, hogyha csak Németre jártál.
-LL: Tóth Gabi reagált a már-már mémként terjedő éneklésére. És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.
-TG: Hogy miért kell ezen ennyit vekengeni, emberek? Hát 5 éve járok fideszes rendezvényekre énekelni. Mikor lesz már az, hogy na jó.
-KK: A videónak egyébként nagyon sok kivetnivaló része van, viszont én mégis egyetlenegy dolgon húztam csak fel magam.
-TG: Én meg találtam a legjobb arckrémet, ezt az omorovicát. Na ez-ez sokkal fontosabb, mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken, és időt szánsz arra, hogy kinyomtass egy szöveget, és előtt leírd fonetikusan, ennyi-
-KK: Értem, hogy az Angol kiejtéssel nem vagy tisztában, de azzal vajon tisztában vagy, hogy a krém, amit ajángatsz jószívűen mindenkinek, aki ideges rád,
-az egy olyan árkategória, amit Magyarországnak körülbelül nyolcvan százaléka nem tehet meg, hogy megvásárolja magának.
-Ugyanis ez a termék egy luxuskozmetikum.
-Egy olyan országban teszed ezt, ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.
-Egy olyan országban teszed ezt, ahol a nettó átlagbér, a ksh hivatalos adatai szerint 380 és 420.000 forint között van.
-Hozzátenném egyébként, hogy azon a két helyen, ahol most jelenleg én voltam, ott mondjuk csak haromötvenet ajánlottak.
-És nem az a probléma, hogy te egy ilyen krémet használsz, hiszen ez nyilván szíved joga.
-A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted, amit egy olyan kormánytól kaptál, aki ezt az összeget
-befektethette volna a kórházakba is, vagy a kórházaknál az étkezésbe, vagy bármi másba. ennél.
-Gabi én sosem készítettem volna videót a borzaszto angol kiejtésedről, és nem is bántottalak volna miatta.
-És ez a reakcióvideó egyébként lehetett volna egy egész emberi videó is tőled,
-csak egy ilyen nagyon, nagyon, nagyon ennyi volt.
-Szóval remélem, hogy a jövőben most már inkább mielőtt valamit kimondasz, majd végiggondolod, és csak azután éjted ki a szádon.
+Great — this is **clearly a humour / reaction reel**, so I’ll switch back to your **preferred mode**:
+
+* full **sentence-by-sentence breakdown**
+* **HU → EN**
+* no isolated vocab lists
+* explanations only where they affect meaning
+
+I’ll also lightly normalize spelling **only where it’s clearly ASR noise**, but I’ll stay faithful to what’s there.
+
+---
+
+## Speakers (for orientation)
+
+* **KK** – the commentator / creator
+* **LL** – narrator / news-style voice
+* **TG** – **Tóth Gabi**
+
+---
+
+## Line-by-line breakdown
+
+### **KK:**
+
+**Ezért tanulj meg angolul, hogyha csak németre jártál.**
+That’s why you should learn English if you only ever went to German class.
+
+* *ezért* = that’s why
+* *tanulj meg* = learn (imperative)
+* *csak németre jártál* = you only attended German (classes)
+
+Tone: dry, admonishing, ironic.
+
+---
+
+### **LL:**
+
+**Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
+Tóth Gabi reacted to her singing, which is already spreading almost like a meme.
+
+* *már-már* = almost
+* *mémként terjedő* = spreading as a meme
+
+---
+
+**És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
+And honestly, for a moment I thought this was going to be a normal video.
+
+* *amúgy* = by the way / honestly
+* *egy pillanatra* = for a moment
+
+---
+
+### **TG:**
+
+**Hogy miért kell ezen ennyit vekengeni, emberek?**
+Why do people have to fuss over this so much?
+
+* *vekengeni* = whine, agonize, make a fuss (emotionally loaded)
+
+---
+
+**Hát öt éve járok fideszes rendezvényekre énekelni.**
+Well, I’ve been going to Fidesz events to sing for five years.
+
+* *hát* = discourse filler (“well”)
+* *fideszes rendezvények* = Fidesz-affiliated events
+
+---
+
+**Mikor lesz már az, hogy na jó.**
+When will it finally be like, “okay, enough.”
+
+* *már* = already / finally (impatience marker)
+
+---
+
+### **KK:**
+
+**A videónak egyébként nagyon sok kivetnivaló része van,**
+By the way, the video has a lot of things that can be criticized,
+
+* *kivetnivaló* = objectionable, open to criticism
+
+---
+
+**viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
+but I still got worked up over just one single thing.
+
+* *felhúzza magát* = get worked up / annoyed
+
+---
+
+### **TG:**
+
+**Én meg találtam a legjobb arckrémet, ezt az Omorovicát.**
+And I, meanwhile, found the best face cream — this Omorovicza.
+
+* abrupt topic shift (intentional)
+
+---
+
+**Na ez-ez sokkal fontosabb,**
+Now this — this is much more important,
+
+* repetition = emphasis, slightly chaotic delivery
+
+---
+
+**mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken,**
+because this helps when you completely wreck your nerves over things like this,
+
+* *szétidegeli magát* = completely stress oneself out
+
+---
+
+**és időt szánsz arra, hogy kinyomtass egy szöveget,**
+and you spend time printing out a text,
+
+---
+
+**és előtte leírd fonetikusan, ennyi—**
+and writing it out phonetically beforehand, that’s it—
+
+* cut-off sentence, self-interrupting
+
+---
+
+### **KK:**
+
+**Értem, hogy az angol kiejtéssel nem vagy tisztában,**
+I understand that you’re not familiar with English pronunciation,
+
+* *tisztában van vmivel* = be aware of / knowledgeable about
+
+---
+
+**de azzal vajon tisztában vagy-e,**
+but are you perhaps aware of the fact
+
+* *vajon* = rhetorical uncertainty
+
+---
+
+**hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
+that the cream you’re kindly recommending to everyone who’s annoyed at you,
+
+* *ajánlgat* = recommend repeatedly (slightly dismissive nuance)
+
+---
+
+**az egy olyan árkategória,**
+is in a price category
+
+---
+
+**amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
+that about eighty percent of Hungary cannot afford
+
+---
+
+**hogy megvásárolja magának.**
+to buy for themselves.
+
+---
+
+**Ugyanis ez a termék egy luxuskozmetikum.**
+Because this product is a luxury cosmetic.
+
+---
+
+**Egy olyan országban teszed ezt,**
+You’re doing this in a country
+
+---
+
+**ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
+where hospitalized patients literally get food like this in hospitals.
+
+* *konkrétan* = literally / bluntly
+
+---
+
+**Egy olyan országban teszed ezt, ahol a nettó átlagbér**
+You’re doing this in a country where the net average salary
+
+---
+
+**a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
+according to official KSH data, is between 380 and 420 thousand forints.
+
+---
+
+**Hozzátenném egyébként,**
+I’d add, by the way,
+
+---
+
+**hogy azon a két helyen, ahol most jelenleg én voltam,**
+that at the two places where I personally was recently,
+
+---
+
+**ott mondjuk csak háromötvenet ajánlottak.**
+they were only offering 350.
+
+* *mondjuk* = “say / let’s say”, softens statement
+
+---
+
+**És nem az a probléma, hogy te egy ilyen krémet használsz,**
+And the problem isn’t that you use a cream like this,
+
+---
+
+**hiszen ez nyilván szíved joga.**
+since that’s obviously your right.
+
+---
+
+**A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
+The problem is that you most likely bought this too with money
+
+---
+
+**amit egy olyan kormánytól kaptál,**
+that you received from a government
+
+---
+
+**aki ezt az összeget befektethette volna a kórházakba is,**
+which could have invested that amount into hospitals,
+
+---
+
+**vagy a kórházi étkezésbe, vagy bármi másba.**
+or hospital food, or anything else.
+
+---
+
+**Gabi, én sosem készítettem volna videót**
+Gabi, I never would have made a video
+
+---
+
+**a borzasztó angol kiejtésedről,**
+about your terrible English pronunciation,
+
+---
+
+**és nem is bántottalak volna miatta.**
+and I wouldn’t have attacked you for it either.
+
+---
+
+**És ez a reakcióvideó egyébként lehetett volna**
+And this reaction video could have been
+
+---
+
+**egy egész emberi videó is tőled,**
+a fully human, decent video from you,
+
+---
+
+**csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
+but this ended up being just… very, very, very much “that’s it.”
+
+* *ennyi volt* = that’s all / that’s where it ends (dismissive)
+
+---
+
+**Szóval remélem, hogy a jövőben**
+So I hope that in the future
+
+---
+
+**most már inkább mielőtt valamit kimondasz,**
+before you say something,
+
+---
+
+**majd végiggondolod,**
+you’ll think it through,
+
+---
+
+**és csak azután ejted ki a szádon.**
+and only then let it out of your mouth.
+
+* *ejt ki* = utter, pronounce
+
+---
+
+## Why this is *linguistically* interesting (brief)
+
+* heavy use of **discourse particles** (*amúgy, egyébként, mondjuk, szóval*)
+* long, well-formed argumentative sentences
+* clear contrast between:
+
+  * defensive, chaotic speech (TG)
+  * structured, moralizing critique (KK)
+
+This is **advanced everyday Hungarian**, not scripted prose.
+
+---
+
+If you want next time:
+
+* we can **zoom in on just one paragraph** and polish it for comprehension, or
+* extract **argument-structuring patterns** (useful far beyond politics).
+
+You handled a *very* dense piece here — well done.
+
 
 -----
 
