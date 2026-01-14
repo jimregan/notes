@@ -1974,12 +1974,12 @@ We’ll talk later. I’ll text.
 
 [Reel](https://www.instagram.com/reels/DRXW14QjIrs/)
 
-[00:00.000 --> 00:03.800]  Tudtad, hogy a hideg az ugyan annyira elmeli meg a dopamín szintedet, mint a kokai?
-[00:05.700 --> 00:13.100]  Kutatások bizonyítják, hogy a hideg hatás 200 százalékkal megemelheti a dopamín szintedet hasonlóan, a kólával,
-[00:13.100 --> 00:17.600]  viszont nincsen negatív hatása, és nincs lejvüljesen.
-[00:17.600 --> 00:22.700]  Ha szeretnét, hogy képes legyél tudatosabban befolyásolni a szervezetedet és a belső környezetedet,
-[00:22.700 --> 00:27.900]  akkor csatlak oda falkába, ahol minden tudást megkapsz, arra nézve, hogy ezt hogyan ért el.
-[00:27.900 --> 00:36.200]  Mert olyan dolgokkal, mint a hideg vagy a lélegzet, rengeteg minden tudsz elérni a belső tereddel kapcsolatban, bentalálkozunk.
+Tudtad, hogy a hideg az ugyan annyira elmeli meg a dopamín szintedet, mint a kokai?
+Kutatások bizonyítják, hogy a hideg hatás 200 százalékkal megemelheti a dopamín szintedet hasonlóan, a kólával,
+viszont nincsen negatív hatása, és nincs lejvüljesen.
+Ha szeretnét, hogy képes legyél tudatosabban befolyásolni a szervezetedet és a belső környezetedet,
+akkor csatlak oda falkába, ahol minden tudást megkapsz, arra nézve, hogy ezt hogyan ért el.
+Mert olyan dolgokkal, mint a hideg vagy a lélegzet, rengeteg minden tudsz elérni a belső tereddel kapcsolatban, bentalálkozunk.
 
 
 -----
