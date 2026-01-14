@@ -2,8 +2,6 @@
 
 ---
 
-DRFXZrciGB9
-
 DMx4J58oRIB
 
 DTa1X4eikHQ
@@ -773,17 +771,19 @@ and only then let it out of your mouth.
 
 ### Hungarian
 
-> **Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
+> Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
+
+**Who said that you can only watch porn in the digital space?**
+
 > Vannak szerelmes filmek is.
-> Azokat is meg lehet nézni…**
 
-### Natural English
+**There are romantic films too.**
 
-> **Who said that you can only watch porn in the digital space?
-> There are romantic films too.
-> You can watch those as well…**
+> Azokat is meg lehet nézni…
 
-### A couple of small notes (why this works)
+**You can watch those as well…**
+
+### Notes:
 
 * **Ki mondta, hogy…?** = “Who said that…?”
   → rhetorical, mildly sarcastic
