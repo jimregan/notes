@@ -1334,49 +1334,321 @@ this whole thing is actually funny.
 
 [Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
 
-KK: Így táncol hatszásötven millió magyar forint.
-Ugyanis Ricky Martin ennyibe került nekünk.
-ő volt a felcsúti karácsonyi buli, sztárfellépője.
-Hozzátenném azért, hogy ez csak az előadói díja.
-Nincs még benne az utaztatás, szállás, satöbbi,
-ami ugye minden esetben a megrandelőt terheli.
-Tehát ez nagyjából igazából inkább, öh, egy milliárd forint körül mozog.
-Hadházy. ákos ezt az információt idő előtt közölte,
-így tönkretette a nagy meglepit,
-amire Hajdo Péter elég érdekes módon reagált.
+Great, this is **exactly** the kind of reel where the captions + political context make it *look* harder than it really is. I’ll stay in **humour / commentary mode** as agreed:
 
-HP: Mert arcpiritónak és döbbenetesnek tartom. Amit most hadházy ákos művelt.
-Lölö szolgáinak nevezte a mészáros csoport munkatársait, és elárulta,
-hogy ki lesz a karácsonyi parti sztárvendége.
-Hogy elárulni azt, hogy egy karácsonyi partin ki lesz a külföldi meglepetés vendég.
-Ez akkora bunkósság, hogy a fal adja a másikat.
-Most hadházy ákos elrontotta, és elárulta, hogy ki fog fellépni.
-Döbbenetes, arcpiritó és undorító.
+* sentence-by-sentence **HU → EN**
+* flag **caption vs Whisper quirks only when needed**
+* add **contextual vocabulary** (anchored, translated)
+* no bare wordlists
 
-KK: Szerinte ezek a dolgok arcpiritóak.
-Ebben az országban a Frizbi Petinek az a durva,
-hogy Hadházy lelőtte a meglepit.
-Kedves Péter, mit gondolsz arról, hogy az országunkban majdnem
-háromszor többe kerül egy útépítés, mint a többi országban?
-A Momentum egy augusztusi cikke alapján 500 milliárd forintért szeretnének építeni.
-Egy 32 kilométeres gyorsforgalmi utat 
-Esztergom és az M1-es autópálya között.
-Arra hivatkozva, hogy nehezek a terepviszonyok.
-Magyarországon.
-Ausztriában az Alpokban 22 kilométeres gyorsforgalmi út 215 milliárd forintba került.
-Montenegróban 41 kilométeres út került 300 milliárd forintba.
-Portugáliában egy hegyvonulatot törtek át autópályával
-30 kilométeres út 150 milliárd.
-Ismétlem, Magyarországon, 500 milliárd.
-Ezek alapján jogos a kérdés, hogy mire kell 500 milliárdnak legalább kétharmada akkor?
-Csak hogy szemléltetesem mennyi is a kétharmad kiszámoltam:
-333 milliárd forint.
-Ez az, amit nem tudunk, hogy hova tűnik.
-Tudod ebből hány negyven négyzetméteres lakást tudnál venni Budapesten, hogyha mondjuk egy lakásra 60 millióval számolunk?
-5550 darab lakás jön ki abból a pénzből, amit megint nem tudjuk, hogy hova tűnik.
-De mindez nem számít, hiszen a lényeg az, hogy a karácsonyi parti meglepi az el lett rontva.
+I’ll also identify the public figures once, because that helps coherence.
 
-Akár csak úgy, mint az az igénytelen feliratozás a Peter videóján.
+---
+
+## Who’s who (just for orientation)
+
+* **KK** – the commentator / creator
+* **HP** – **Hajdú Péter**
+* **Ricky Martin** – the performer
+* **Hadházy Ákos** – opposition politician
+* **Momentum** – opposition party
+
+---
+
+## Caption text (reference, lightly normalised)
+
+> **Így táncol hatszázötven millió magyar forint.**
+> Ugyanis Ricky Martin ennyibe került nekünk.
+> Ő volt a felcsúti karácsonyi buli sztárfellépője.
+>
+> Hozzátenném azért, hogy ez csak az előadói díja.
+> Nincs még benne az utaztatás, szállás, satöbbi,
+> ami ugye minden esetben a megrendelőt terheli.
+>
+> Tehát ez nagyjából inkább egy milliárd forint körül mozog.
+>
+> Hadházy Ákos ezt az információt idő előtt közölte,
+> így tönkretette a nagy meglepit,
+> amire Hajdú Péter elég érdekes módon reagált.
+>
+> **HP:**
+> Mert arcpirítónak és döbbenetesnek tartom,
+> amit most Hadházy Ákos művelt.
+>
+> Lölö szolgáinak nevezte a Mészáros-csoport munkatársait,
+> és elárulta,
+> hogy ki lesz a karácsonyi parti sztárvendége.
+>
+> Elárulni azt,
+> hogy egy karácsonyi partin ki lesz a külföldi meglepetésvendég,
+> ez akkora bunkóság,
+> hogy a fal adja a másikat.
+>
+> Most Hadházy Ákos elrontotta,
+> és elárulta, hogy ki fog fellépni.
+> Döbbenetes, arcpirító és undorító.
+>
+> **KK:**
+> Szerinte ezek a dolgok arcpirítóak.
+>
+> Ebben az országban Frizbi Petinek az a durva,
+> hogy Hadházy lelőtte a meglepit.
+>
+> Kedves Péter,
+> mit gondolsz arról,
+> hogy az országunkban majdnem háromszor többe kerül
+> egy útépítés, mint a többi országban?
+>
+> A Momentum egy augusztusi cikke alapján
+> 500 milliárd forintért szeretnének építeni
+> egy 32 kilométeres gyorsforgalmi utat
+> Esztergom és az M1-es autópálya között.
+>
+> Arra hivatkozva,
+> hogy nehezek a terepviszonyok.
+> Magyarországon.
+>
+> Ausztriában az Alpokban
+> 22 kilométeres gyorsforgalmi út
+> 215 milliárd forintba került.
+>
+> Montenegróban
+> 41 kilométeres út került
+> 300 milliárd forintba.
+>
+> Portugáliában
+> egy hegyvonulatot törtek át autópályával:
+> 30 kilométeres út, 150 milliárd.
+>
+> Ismétlem:
+> Magyarországon: 500 milliárd.
+>
+> Ezek alapján jogos a kérdés,
+> hogy mire kell legalább 500 milliárdnak
+> a kétharmada?
+>
+> Csak hogy szemléltetessem,
+> mennyi is a kétharmad, kiszámoltam:
+> 333 milliárd forint.
+>
+> Ez az, amit nem tudunk,
+> hogy hova tűnik.
+>
+> Tudod, ebből hány
+> negyven négyzetméteres lakást
+> tudnál venni Budapesten,
+> ha mondjuk egy lakásra
+> 60 millióval számolunk?
+>
+> 5550 darab lakás jön ki
+> abból a pénzből,
+> amit megint nem tudjuk,
+> hogy hova tűnik.
+>
+> De mindez nem számít,
+> hiszen a lényeg az,
+> hogy a karácsonyi parti meglepi
+> el lett rontva.
+>
+> Akár csak úgy,
+> mint az az igénytelen feliratozás
+> a Péter videóján.
+
+---
+
+## Sentence-by-sentence HU → EN (key parts)
+
+### **Így táncol hatszázötven millió magyar forint.**
+
+This is how 650 million Hungarian forints dance.
+
+* metaphor: money “dancing” = being spent extravagantly
+
+---
+
+### **Ő volt a … sztárfellépője.**
+
+He was the star performer.
+
+* *sztárfellépő* = headline act
+
+---
+
+### **ez csak az előadói díja**
+
+this is only the performance fee
+
+* excludes logistics → important setup
+
+---
+
+### **ami … a megrendelőt terheli**
+
+which in all cases is borne by the client
+
+* *terhel* = to burden / be charged to
+
+---
+
+### **inkább egy milliárd forint körül mozog**
+
+it’s closer to around one billion forints
+
+* *körül mozog* = hover around (very common)
+
+---
+
+### **tönkretette a nagy meglepit**
+
+ruined the big surprise
+
+* sarcastic framing begins here
+
+---
+
+### **arcpirítónak és döbbenetesnek tartom**
+
+I find it embarrassing and shocking
+
+* moral outrage vocabulary
+
+---
+
+### **akkora bunkóság, hogy a fal adja a másikat**
+
+such rudeness that the wall gives the other one
+
+= **extreme idiom**: “incredibly rude”
+
+---
+
+### **lelőt­te a meglepit**
+
+spoiled the surprise
+
+* *lelő* (shoot down) → figurative
+
+---
+
+### **mit gondolsz arról, hogy…**
+
+what do you think about the fact that…
+
+* classic rhetorical challenge opener
+
+---
+
+### **majdnem háromszor többe kerül**
+
+costs almost three times as much
+
+---
+
+### **arra hivatkozva, hogy…**
+
+citing the fact that…
+
+* bureaucratic justification phrasing
+
+---
+
+### **Ismétlem**
+
+I repeat
+
+* courtroom / lecture register for emphasis
+
+---
+
+### **jogos a kérdés**
+
+the question is legitimate
+
+* argumentative cliché, very common
+
+---
+
+### **hova tűnik**
+
+where it disappears to
+
+* euphemism for corruption / misuse
+
+---
+
+### **szemléltetessem**
+
+so that I illustrate
+
+* *szemléltet* = illustrate, make tangible
+
+---
+
+### **mind­ez nem számít**
+
+none of this matters
+
+* ironic wrap-up
+
+---
+
+### **igénytelen feliratozás**
+
+sloppy / low-effort subtitles
+
+* final meta-jab
+
+---
+
+## Contextual vocabulary worth keeping (anchored)
+
+* **arcpirító** – *embarrassing to the point of blushing*
+  → *arcpirítónak tartom*
+
+* **terheli (a költség)** – *is charged to*
+  → *a megrendelőt terheli*
+
+* **körül mozog (összeg)** – *hover around*
+  → *egy milliárd körül mozog*
+
+* **lelő (vmit)** – *spoil / shoot down (figuratively)*
+  → *lelőtte a meglepit*
+
+* **bunkóság** – *boorishness, rudeness*
+  → *akkora bunkóság…*
+
+* **arra hivatkozva** – *citing / on the grounds that*
+  → bureaucratic register
+
+* **jogos a kérdés** – *the question is legitimate*
+  → common argumentative phrase
+
+* **hova tűnik** – *where does it disappear to*
+  → euphemistic accusation
+
+* **szemléltet** – *to illustrate concretely*
+  → very useful in explanations
+
+---
+
+## Why this works as humour (brief)
+
+* moral outrage is **selectively applied** (surprise > corruption)
+* numbers are used as **contrast weapons**
+* repetition (*500 milliárd*) builds absurdity
+* ends with **meta-mockery** (bad subtitles)
+
+It’s political satire by **reframing priorities**, not by jokes per se.
+
+---
+
+If you want next:
+
+* we can **strip this down to argument-structure patterns** (useful generally), or
+* zoom in on **idioms of moral condemnation** (they recur a lot in Hungarian commentary).
+
+This was a dense one — you handled it well.
+
 
 -----
 
