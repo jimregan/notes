@@ -2067,6 +2067,18 @@ We’ll talk later. I’ll text.
 
 **= See you inside.**
 
+-----
+
+[Reel](https://www.instagram.com/reels/DQXFzPACNJK/)
+
+[00:00.000 --> 00:02.440]  No, figyelj be, szarzt, ilyen volt a békemenet.
+[00:02.440 --> 00:04.400]  A szörlő jutszai batrányról, mit gondolod?
+[00:04.400 --> 00:10.720]  És csak keresztem a pénzt ezzel, lányugaz, húttatott, lányugizk keresztek pénzt, mindenki jól jelent, nem?
+[00:14.000 --> 00:23.320]  Felszólat, Magyarország Kossuth Díjas-a, a Kossuth D. egy művészeti díja, mit azok kapnak, akik a Magyar kultúra fejlődésében kiemelkedőt alkottak.
+[00:23.320 --> 00:26.840]  16 éves volt, megharni, 6 éves volt, megharni, szégyen.
+[00:26.840 --> 00:39.000]  Sárga gondolom, hogy ez nem lehet, ez nem jött össze, pedig az emberben ágasskodik a természet és abban az időben, 20 éve fiatalap csajjal járni, azért az a figyelja volt.
+[00:39.000 --> 00:49.680]  Tönyörnagyátok, rendkívül meg a kis értés. És az ember nem mindigára ellent a kis értésnek. Jön a Lucifer és azt mondja, na ezt most.
+[00:51.280 --> 00:54.040]  Van még kérdés, mert nekem lenne pár.
 
 
 -----
