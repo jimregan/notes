@@ -2,6 +2,77 @@
 
 ---
 
+DRFXZrciGB9
+
+DMx4J58oRIB
+
+DTa1X4eikHQ
+
+DSxx9QiCJ_q
+
+DRDYEACjN-g
+
+DTYb5Q4Ddg8
+
+DTa5gzdCC6K
+
+DTdVFwqjXv-
+
+DTawgIjiEmE
+
+DRXW14QjIrs
+
+DQXFzPACNJK
+
+DSQKeKljmAe
+
+DTKgZVZCf0G
+
+DQ6Z0xsjcAf
+
+DTZxr7-jkGr
+
+DTdAV1_jZSZ
+
+DQr5cAOCPpK
+
+DSdHpmFiFrX
+
+DSK15p-Ct59
+
+DS-q5f1CJmi
+
+DTPwOqVDKN2
+
+DRUgG2PkXkN
+
+DR2n7J6CJXR
+
+DSvF9ipiH1t
+
+DRPtRpCDZWA
+
+DSIX7pCAAns
+
+DR5L8OMCJ3l
+
+DTdLzQ2jbEZ
+
+DP_TySfiqBo
+
+DN-VwleiD-p
+
+DTN4O7fguHs
+
+
+---
+
+[Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
+
+
+
+-----
+
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
 Gyere, és nézd meg velünk milyen is az AI and Sync élmény!
@@ -12,6 +83,9 @@ Kapsz egy karszalagot, ezzel már teljes körül résztvevő vagy.
 Ezután jön egy gyors QR scan, egy rövid kérdőív...
 picivel később, pedig kiköldjük nektek az AI generálta matcheket.
 Ez az AI and sync, gyere el, és próbáld ki te is.
+
+
+[Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
 
 
