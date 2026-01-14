@@ -1334,25 +1334,6 @@ this whole thing is actually funny.
 
 [Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
 
-Great, this is **exactly** the kind of reel where the captions + political context make it *look* harder than it really is. I’ll stay in **humour / commentary mode** as agreed:
-
-* sentence-by-sentence **HU → EN**
-* flag **caption vs Whisper quirks only when needed**
-* add **contextual vocabulary** (anchored, translated)
-* no bare wordlists
-
-I’ll also identify the public figures once, because that helps coherence.
-
----
-
-## Who’s who (just for orientation)
-
-* **KK** – the commentator / creator
-* **HP** – **Hajdú Péter**
-* **Ricky Martin** – the performer
-* **Hadházy Ákos** – opposition politician
-* **Momentum** – opposition party
-
 ---
 
 ## Caption text (reference, lightly normalised)
@@ -1462,25 +1443,15 @@ I’ll also identify the public figures once, because that helps coherence.
 
 This is how 650 million Hungarian forints dance.
 
-* metaphor: money “dancing” = being spent extravagantly
-
----
-
 ### **Ő volt a … sztárfellépője.**
 
 He was the star performer.
 
 * *sztárfellépő* = headline act
 
----
-
 ### **ez csak az előadói díja**
 
 this is only the performance fee
-
-* excludes logistics → important setup
-
----
 
 ### **ami … a megrendelőt terheli**
 
@@ -1488,31 +1459,19 @@ which in all cases is borne by the client
 
 * *terhel* = to burden / be charged to
 
----
-
 ### **inkább egy milliárd forint körül mozog**
 
 it’s closer to around one billion forints
 
 * *körül mozog* = hover around (very common)
 
----
-
 ### **tönkretette a nagy meglepit**
 
 ruined the big surprise
 
-* sarcastic framing begins here
-
----
-
 ### **arcpirítónak és döbbenetesnek tartom**
 
 I find it embarrassing and shocking
-
-* moral outrage vocabulary
-
----
 
 ### **akkora bunkóság, hogy a fal adja a másikat**
 
@@ -1520,15 +1479,11 @@ such rudeness that the wall gives the other one
 
 = **extreme idiom**: “incredibly rude”
 
----
-
 ### **lelőt­te a meglepit**
 
 spoiled the surprise
 
 * *lelő* (shoot down) → figurative
-
----
 
 ### **mit gondolsz arról, hogy…**
 
@@ -1536,13 +1491,9 @@ what do you think about the fact that…
 
 * classic rhetorical challenge opener
 
----
-
 ### **majdnem háromszor többe kerül**
 
 costs almost three times as much
-
----
 
 ### **arra hivatkozva, hogy…**
 
@@ -1550,15 +1501,11 @@ citing the fact that…
 
 * bureaucratic justification phrasing
 
----
-
 ### **Ismétlem**
 
 I repeat
 
 * courtroom / lecture register for emphasis
-
----
 
 ### **jogos a kérdés**
 
@@ -1566,15 +1513,9 @@ the question is legitimate
 
 * argumentative cliché, very common
 
----
-
 ### **hova tűnik**
 
 where it disappears to
-
-* euphemism for corruption / misuse
-
----
 
 ### **szemléltetessem**
 
@@ -1582,21 +1523,13 @@ so that I illustrate
 
 * *szemléltet* = illustrate, make tangible
 
----
-
 ### **mind­ez nem számít**
 
 none of this matters
 
-* ironic wrap-up
-
----
-
 ### **igénytelen feliratozás**
 
 sloppy / low-effort subtitles
-
-* final meta-jab
 
 ---
 
@@ -1628,26 +1561,6 @@ sloppy / low-effort subtitles
 
 * **szemléltet** – *to illustrate concretely*
   → very useful in explanations
-
----
-
-## Why this works as humour (brief)
-
-* moral outrage is **selectively applied** (surprise > corruption)
-* numbers are used as **contrast weapons**
-* repetition (*500 milliárd*) builds absurdity
-* ends with **meta-mockery** (bad subtitles)
-
-It’s political satire by **reframing priorities**, not by jokes per se.
-
----
-
-If you want next:
-
-* we can **strip this down to argument-structure patterns** (useful generally), or
-* zoom in on **idioms of moral condemnation** (they recur a lot in Hungarian commentary).
-
-This was a dense one — you handled it well.
 
 
 -----
