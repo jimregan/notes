@@ -659,29 +659,28 @@ No, no, **they don’t get the joke**, for fuck’s sake, they don’t get it.
 
 [Reel](https://www.instagram.com/reel/DRPtRpCDZWA/)
 
-Annyi van-i liszabomban, minden sarkon drogat árulnak,
-de minden sarkon is, nem ilyen diskrétel, hogy pszst,
-tőj van a bány számdénk,
-hanem, mint az ilyen balatonpartik, ukorítsz a árusok, hogy
-friss a kokain, most meleg a hasi is,
-és ha nem beszel, azt nem értik.
-Gyöldött egy csávogy, kokényvit hasi is, mondom, no thank you.
-Azt mondja, why?
+Annyi van, hogy Lisszabonban, minden sarkon dr*gat árulnak.
+De minden sarkon. És nem ilyen diszkréten, hogy "pszt,
+do you wanna buy something?"
+Hanem, mint az ilyen balatonparti kukoricaárusok, hogy
+"friss a kokain! most meleg a hasis!"
+és ha nem veszel, azt nem értik.
+így odajött egy csávo, hogy "Cocaine, weed, hashish?" Mondom "No, thank you!"
+Azt mondja, "why?"
 És erre nem tudsz mit mondani,
-hogy végül is vettem,
-és milyen igaza volt azért?
-Vajjunk be,
-és voltom így, surfözni portugáljába, az isműen,
-jó volt, ha tényleg az a surfoktatónk, egy ilyen
-portugál surfös gyerek, egy ilyen
-alright brother, let's go brother, ready brother,
-alright, let's go brother, ready, alright brother.
-No, nem tudom bekapcsolni a mentőm ellényt, alright brother,
-de nem fog leesni a vízben, let's go brother.
-Szerein tartott ilyen biztonsági,
-elég az ítás, mert surföznem úgy beszéljes,
-és akkor mondta, hogy if you fall,
+úgyhogy végül is vettem.
+és milyen igaza volt, azért valljuk be.
+és hát voltunk még szörfözni Portugáliában az is nagyon
+jó volt. Volt egy nagyon laza szörfoktatónk. Egy ilyen
+portugál szörfös gyerek. Egy ilyen
+"alright brother! let's go brother, ready brother!"
+"alright, let's go brother!" "ready, alright brother."
+Mondom "Nem tudom bekapcsolni a mentőmellényt." "Alright brother!"
+Mondom "nem fog leesni a vízben?" "let's go brother!"
+És az elején tartott ilyen biztonsági
+eligazítást, mert szörfözni amúgy veszélyes.
+és akkor mondta, hogy "if you fall,
 and the board hits you in the head,
 dead.
-Let's go brother.
-Olyan laser volt, hogy én mentem vele?
+Let's go brother."
+És olyan laza volt, hogy én mentem vele.
