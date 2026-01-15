@@ -2644,6 +2644,22 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 -----
 
+[Reel](https://www.instagram.com/reels/DR2n7J6CJXR/)
+
+[00:00.000 --> 00:03.500]  Kedves kuki, lenne hozzád egy pár kérdésem.
+[00:03.500 --> 00:05.000]  Várom a kérdésed!
+[00:05.000 --> 00:07.000]  Mit gondolsz a többkócsos adorval?
+[00:07.000 --> 00:09.500]  Úf, na jó van, akkor elmondom nektek velem itt.
+[00:09.500 --> 00:13.200]  A velemi jól működik, nem jól hozzá.
+[00:13.200 --> 00:17.000]  De most olvasd el, hogy az előzékek adnak valósztatni, ami most megszóktunk.
+[00:17.000 --> 00:20.000]  Miért akarnak valósztatni?
+[00:20.000 --> 00:22.500]  Ami most van, jó ahogy van.
+[00:22.500 --> 00:25.500]  Ami most van, az jó ahogy van.
+[00:25.500 --> 00:29.500]  Na most én erre tudnék mondani neked reggeltől estik példákkal,
+
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
