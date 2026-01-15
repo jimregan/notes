@@ -2508,15 +2508,11 @@ Do you spray your armpits with antiperspirant too, so you stay fresh all day?
 * *befúj* = spray (onto)
 * *izzadásgátló* = antiperspirant
 
----
-
 **Miért ne óvhatnád meg az intim testrészeidet is az izzadás kellemetlenségeitől?**
 Why wouldn’t you also protect your intimate body parts from the discomforts of sweating?
 
 * *óv* = protect
 * *intim testrészek* = intimate body parts
-
----
 
 **Ugye te sem akarod, hogy … beégj.**
 You don’t want to end up embarrassed, right…
@@ -2524,22 +2520,16 @@ You don’t want to end up embarrassed, right…
 * *ugye* = right? (expecting agreement)
 * *beég* = be embarrassed / humiliated
 
----
-
 **… amikor lehúzza rólad.**
 …when she pulls it down off you.
 
 * *lehúz* = pull down
 * *rólad* = off you
 
----
-
 **Ezzel a termékkel érezheted magad minden nap kényelmesen…**
 With this product, you can feel comfortable every day…
 
 * *érezheted magad* = you can feel (yourself)
-
----
 
 **… a bepállástól való feszengés helyett.**
 …instead of awkward discomfort caused by chafing / sweat buildup.
@@ -2547,19 +2537,13 @@ With this product, you can feel comfortable every day…
 * *bepállás* = sweat-induced irritation
 * *feszengés* = awkward discomfort
 
----
-
 **Natúr ápolást biztosít…**
 It provides natural care…
 
 * *ápolás* = care (cosmetic / skin care)
 
----
-
 **… nem ragad, nem nehezít el…**
 …it doesn’t get sticky, doesn’t weigh you down…
-
----
 
 **Nem tömíti el a pórusaidat, hűsítő érzetet ad…**
 It doesn’t clog your pores, it gives a cooling sensation…
@@ -2567,57 +2551,39 @@ It doesn’t clog your pores, it gives a cooling sensation…
 * *pórus* = pore
 * *hűsítő* = cooling
 
----
-
 **… a mentol azonnal felüdíti a bőröd…**
 …the menthol refreshes your skin immediately…
-
----
 
 **Bőrkímélő, ugyanis aloe vera van benne…**
 Skin-friendly, since it contains aloe vera…
 
 * *bőrkímélő* = gentle on skin
 
----
-
 **… alumínium- és alkoholmentes is a formula…**
 …the formula is also aluminum- and alcohol-free…
-
----
 
 **… de segít megelőzni a kellemetlen szagokat.**
 …but it helps prevent unpleasant odors.
 
 * *megelőz* = prevent
 
----
-
 **Érzéki illatélmény, citrusos és friss…**
 A sensual fragrance experience, citrusy and fresh…
-
----
 
 **Teszteljük le.**
 Let’s test it.
 
 * inclusive *-juk* form
 
----
-
 **… van ennek egy testvére is…**
 This also has a sibling product…
 
 * *testvér* = sibling (used metaphorically for product variant)
 
----
-
 **… krémes változata.**
 …the cream version.
 
 * *változat* = variant
-
----
 
 **Ha szeretnétek hozzájutni…**
 If you’d like to get hold of it…
