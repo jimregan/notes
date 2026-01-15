@@ -2646,35 +2646,38 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/reels/DR2n7J6CJXR/)
 
-Kedves kuki, lenne hozzád egy pár kérdésem.
-Várom a kérdésed!
-Mit gondolsz a többkócsos adorval?
-Úf, na jó van, akkor elmondom nektek velem itt.
-A velemi jól működik, nem jól hozzá.
-De most olvasd el, hogy az előzékek adnak valósztatni, ami most megszóktunk.
-Miért akarnak valósztatni?
+KK: Kedves Cooky, lenne hozzád egy pár kérdésem.
+Cooky: Várom a kérdésed!
+Mit gondolsz a több kulcsos adóról?
+Úh, na jó van, akkor elmondom nektek valamit.
+Ha! Valami jól működik, ne nyúlj hozzá.
+De most olvastam hogy az ellenzékek akarnak valtoztatni, de mi most megszóktunk.
+Miért akarnak valtoztatni?
 Ami most van, jó ahogy van.
-Ami most van, az jó ahogy van.
-Na most én erre tudnék mondani neked reggeltől estik példákkal,
+KK: Ami most van, az jó ahogy van.
+Na most én erre tudnék mondani neked reggeltől estig példákat,
 hogy ez miért nem így van.
-De ha demeljek ki, csak mondjuk egyet.
-Valerint a sajha gézi, deportálás!
-Valarint el a csinálok!
+
+Uncaptioned: De ha demeljek ki, csak mondjuk egyet.
+Valerint a sajha gézi, 
+Crazy woman: deportálás!
+Uncaptioned: Valarint el a csinálok!
 Miért gondolsz?
-Rengeteg ilyen mentális, zavart ember jön velem szembe a neten és az utcán is.
-Azért mennekek korált ezek a videók, mert hatalmasokat mosoljunk rajtuk.
-Viszont mindenki csak addig mosoljok, amíg ezek az emberek egyszer nem egy késse jönnek majd felink.
-Az indók, hogy ezek az emberek az utcán futkoznak az az, hogy Magyarországon a psihéáltriai ellátás alul financírozott.
-Rengeteg intézménybe zártak és a szakember is kevés.
-A rendszer nem tudja követni hosszutálvon a beteg embereket, ugyanis nincs rá ember és nincs rá intézmény.
+
+KK: Rengeteg ilyen mentális, zavart ember jön velem szembe a neten is és az utcán is.
+Azért mennek ekkorát ezek a videók, mert öh hatalmasakat mosolygunk rajtuk.
+öh. Viszont mindenki csak addig mosolyog, amíg ezek az emberek egyszer nem egy késsel jönnek majd felénk.
+Az indók, hogy ezek az emberek az utcán futkoznak az az, hogy Magyarországon a pszichiátriai ellátás alulfinanszírozott.
+Rengeteg intézménynt bezártak és a szakember is kevés.
+A rendszer nem tudja követni hosszutávon a beteg embereket, ugyanis nincs rá ember és nincs rá intézmény.
 Ergó azok az emberek, akiknek elzárva kellene lenniük és ellátásra szorulnak,
-nem elzárva vannak, hanem obla hallójárókban.
-Sőtig az ebből már nem csak az aluljárókban, hanem bárhol azokon az utvan alakol,
-ahol mondjuk gyerekek járnak nap, mint nap iskolába, és egy gyereknek ilyet maximó a tévéből kellene látnia, de még inkább onnan se.
-De legalább, ha már nincsenek ilyen építvényeink, ott van a 60 pusztaim majorság.
-Szóval kedves kuki, ez csak egy volt a százindok közőr, amit fel tudnék neked sorolni, hogy minek működik.
-De hát ugye az élet úgy szép, hogyha nincs mindenki egyvéleményen, kinek fizetnek érte, kinek nem.
-Csú, de okos voltam! Ha ha!
+nem elzárva vannak, hanem a blaha aluljárókban.
+Sőt igazból már nem csak az aluljárókban, hanem bárhol azokon az utvonalakon,
+ahol mo ndjuk gyerekek járnak nap, mint nap iskolába, és egy gyereknek ilyet maximum a tévéből kellene látnia, de még inkább onnan se.
+De legalább, ha már nincsenek ilyen építményeink, ott van a hatvanpuszta imajorság.
+Szóval kedves Cooky, ez csak egy volt a száz indok közul, amit fel tudnék neked sorolni, hogy mi nem működik.
+De hát ugye az élet úgy szép, hogyha nincs mindenki egy véleményen, kinek fizetnek érte, kinek nem.
+Cooky: Hú, de okos voltam! Ha ha!
 
 -----
 
