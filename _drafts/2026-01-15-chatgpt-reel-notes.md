@@ -404,17 +404,17 @@ Mit mondasz neki? Semmit, igaz?
 
 
 Voltam egy podcastban, csak hogy mennyire furcsa ez a magyar rögvalóság
-és most újjönálló estem van, ebben küzdök, az a címet digitális nincs a, nem menjünk bele,
-ez ilyen PC-cím, PC.
-És mondom ott a műsor vezetőnek, hogy,
-hát, nem a számítógépének nem vagyok ellensége,
+és most új önálló estem, van, ezzel küzdök. Az a címe: digitális ninja. Nem menjünk bele,
+ez ilyen PC, cím, PC.
+És mondom ott a műsorvezetőnek, hogy
+hát nem a számítógépeknek nem vagyok ellensége,
 csak én a Windows 97-nél megálltam,
-mert szövegszerkesztő, excel-táblázott pornófilm minden más feleslegesneknek.
-És én ezt így poén, így elmondtam,
-öt komment oda van írva, nem viccelek,
-ned se nisten, nincs se nisi Windows 97.
-Gyerekek és a szavazata, annyit ér, mint a tértek.
-Nem értik a viccelbánik, nem értik.
+mert szövegszerkesztő, excel táblázat, pornófilm minden más feleslegesnek.
+És én ezt így poénnak így elmondtam.
+öt komment oda van írva, nem viccelek.
+"Necsenisen, nincsen is Windows 97."
+Gyerekek és a szavazata, annyit ér, mint tietek.
+Nem, nem értik a viccet bazzeg, nem értik.
 
 -----
 
