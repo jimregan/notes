@@ -915,15 +915,148 @@ he **slaps it underneath** so hard that **my ears clap like cymbals**.
 
 [Orbán Viktor a szövegeit is lopja?](https://www.instagram.com/reels/DP_TySfiqBo/)
 
-[00:00.000 --> 00:03.000]  Csapásokat adunk és kapunk.
-[00:03.000 --> 00:07.000]  Csapásokat adunk és csapásokat kapunk.
-[00:07.000 --> 00:10.000]  Kicsiatét a kedvincsötét.
-[00:10.000 --> 00:13.000]  A kicsiatét a kedvencsötét.
-[00:13.000 --> 00:17.000]  A csúcsra is csak akkor érhec, ha egy hegy eléd be áll.
-[00:17.000 --> 00:23.000]  És csak akkor érhec, csúcsra, ha egy hegy eléd be áll.
-[00:23.000 --> 00:25.000]  Fürkéseket kültem ki.
-[00:25.000 --> 00:26.000]  Fürkéseket kültem ki.
-[00:26.000 --> 00:28.000]  A világ minden részét.
-[00:28.000 --> 00:30.000]  Akik megistértek úgytjukről.
-[00:30.000 --> 00:33.000]  Szóhase becsüljük le a sötét oldal erejét.
-[00:33.000 --> 00:36.000]  Lebecsülöd a sötét oldal hatalmát
+Alright — same **locked-in format** again:
+**lightly corrected Hungarian → line-by-line translation with highlighted phrases → vocabulary list**.
+This one *does* need correction, because Whisper mangled several very recognisable lines.
+
+---
+
+## Lightly corrected Hungarian (based on context)
+
+> **Csapásokat adunk és kapunk.**
+> **Csapásokat adunk, és csapásokat kapunk.**
+>
+> **A kicsinyeket a sötét oldal kedveli.**
+> **A kicsinyeket a sötét oldal kedveli.**
+>
+> **A csúcsra is csak akkor érhetsz, ha egy hegy eléd áll.**
+> **És csak akkor érhetsz a csúcsra, ha egy hegy eléd áll.**
+>
+> **Fürkészeket küldtem ki.**
+> **Fürkészeket küldtem ki.**
+>
+> **A világ minden részére,**
+> **akik megismerték útjukat.**
+>
+> **Soha se becsüljük le a sötét oldal erejét.**
+> **Lebecsülöd a sötét oldal hatalmát.**
+
+(You can hear why Whisper struggled: elevated register, slow delivery, deliberate repetition.)
+
+---
+
+## Line-by-line translation
+
+### **Csapásokat adunk és kapunk.**
+
+We **deal blows and receive blows**.
+
+* **csapás** = blow, strike
+* **adunk és kapunk** = we give and receive
+
+---
+
+### **Csapásokat adunk, és csapásokat kapunk.**
+
+We **deal blows, and we receive blows**.
+
+* repetition for rhetorical emphasis
+
+---
+
+### **A kicsinyeket a sötét oldal kedveli.**
+
+The **small / weak ones** are favoured by the **dark side**.
+
+* **kicsinyeket** = the small / insignificant ones (plural, accusative)
+* **kedveli** = favours, likes
+
+---
+
+### **A csúcsra is csak akkor érhetsz, ha egy hegy eléd áll.**
+
+You can only reach the **summit** if a **mountain stands in your way**.
+
+* **csúcs** = peak, summit
+* **csak akkor** = only then
+* **eléd áll** = stands in your way
+
+---
+
+### **És csak akkor érhetsz a csúcsra, ha egy hegy eléd áll.**
+
+And you can only reach the summit if a mountain stands in your way.
+
+* deliberate repetition (oratorical style)
+
+---
+
+### **Fürkészeket küldtem ki.**
+
+I **sent out scouts**.
+
+* **fürkész** = scout, spy
+* **kiküld** = send out
+
+---
+
+### **A világ minden részére,**
+
+To **every part of the world**,
+
+* **minden részére** = to every part
+
+---
+
+### **akik megismerték útjukat.**
+
+who **came to know their path**.
+
+* **megismer** = come to know, learn
+* **útjukat** = their path (metaphorical)
+
+---
+
+### **Soha se becsüljük le a sötét oldal erejét.**
+
+Let us **never underestimate the power of the dark side**.
+
+* **soha se** = never
+* **lebecsül** = underestimate
+* **erő** = power
+
+---
+
+### **Lebecsülöd a sötét oldal hatalmát.**
+
+You **underestimate the power of the dark side**.
+
+* **hatalom** = power, might (more abstract than *erő*)
+
+---
+
+## Vocabulary list
+
+* **csapás** – blow, strike
+* **ad és kap** – give and receive
+* **kicsiny** – small, insignificant
+* **kedvel** – favour, like
+* **sötét oldal** – dark side
+* **csúcs** – peak, summit
+* **eléd áll** – stand in someone’s way
+* **fürkész** – scout, spy
+* **kiküld** – send out
+* **megismer** – come to know
+* **út (átvitt értelemben)** – path (figurative)
+* **lebecsül** – underestimate
+* **erő** – strength, power
+* **hatalom** – power, might, authority
+
+---
+
+If you want to go one step further next time, we can also:
+
+* align **original quotes vs parody**, or
+* mark **what’s quotation and what’s commentary**
+
+—but only if you ask.
