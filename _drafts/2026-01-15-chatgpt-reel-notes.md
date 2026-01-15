@@ -381,12 +381,6 @@ and if you like this content, then follow me!
 
 [Reel](https://www.instagram.com/reel/DS-q5f1CJmi/)
 
-Got it — I’ll stick **exactly** to the format you asked for:
-**line-by-line translation**, **key phrases highlighted**, **vocabulary list at the end**.
-I’ll also **lightly normalise** Whisper where it’s clearly off, but base it on your text.
-
----
-
 ## Text + line-by-line translation
 
 ### **Van egy szívfájdalmam, a szívfájdalmam az az,**
@@ -396,16 +390,12 @@ I have a **heartache**, my heartache is this,
 * **szívfájdalom** = heartache (emotional pain)
 * repetition = rhetorical emphasis
 
----
-
 ### **hogy ha megtudjátok, hogy arab vagyok,**
 
 that when you find out that **I am Arab**,
 
 * **megtudjátok** = you find out
 * **arab vagyok** = I am Arab
-
----
 
 ### **ti kényszert éreztek arra, hogy véleményt mondjatok.**
 
@@ -414,16 +404,12 @@ you feel a **compulsion** to **voice an opinion**.
 * **kényszert érez** = feel compelled
 * **véleményt mond** = express an opinion
 
----
-
 ### **Amit nem hibáztatlak, sok politika van a mai világban.**
 
 Which I don’t blame you for — there’s a lot of politics in today’s world.
 
 * **nem hibáztatlak** = I don’t blame you
 * **mai világban** = in today’s world
-
----
 
 ### **Az tényleg átszűri a közéletet.**
 
@@ -432,8 +418,6 @@ It really **filters through public life**.
 * **átszűr** = permeate, filter through
 * **közélet** = public life
 
----
-
 ### **De mondok egy jó példát, mert látom, hogy nem értitek.**
 
 But I’ll give a good example, because I see that you don’t understand.
@@ -441,15 +425,9 @@ But I’ll give a good example, because I see that you don’t understand.
 * **mondok egy példát** = I’ll give an example
 * **nem értitek** = you don’t get it
 
----
-
 ### **Tehát találkozom valakivel, akivel először találkozom.**
 
 So I meet someone whom I’m meeting for the first time.
-
-* repetition is natural in spoken Hungarian
-
----
 
 ### **Bemutatkozom neki, hogy szia, Al Gharati vagyok.**
 
@@ -457,21 +435,15 @@ I introduce myself to them: “Hi, I’m Al Gharati.”
 
 * **bemutatkozik** = introduce oneself
 
----
-
 ### **Erre: „Ez egy arab név?”**
 
 And they say: “Is that an Arab name?”
 
 * **erre** = to that / in response
 
----
-
 ### **Mondom, igen.**
 
 I say, yes.
-
----
 
 ### **Itt kéne vége legyen a beszélgetésnek.**
 
@@ -480,21 +452,15 @@ This is where the conversation **should end**.
 * **kéne** = should (colloquial conditional)
 * **vége legyen** = come to an end
 
----
-
 ### **De ti erre azt mondjátok, hogy:**
 
 But then you say:
-
----
 
 ### **„Igen? Nekem amúgy nincs bajom az arabokkal.**
 
 “Yeah? I don’t actually have a problem with Arabs.
 
 * **nincs bajom vkivel** = I have no problem with someone
-
----
 
 ### **De a kerítésnek örülök, megmondom őszintén.”**
 
@@ -503,36 +469,25 @@ But I’m glad about the fence, I’ll be honest.”
 * **örül vkinek/vminek** = be glad about
 * **megmondom őszintén** = I’ll be honest
 
----
-
 ### **Ezt már nem kéne hozzátenni.**
 
 This really **doesn’t need to be added**.
 
 * **hozzátenni** = add (as extra commentary)
 
----
-
 ### **Nem találkozol valakivel,**
 
 You don’t meet someone,
-
----
 
 ### **és azt mondja, hogy „mit tudom én, Lakatos Romeó vagyok.”**
 
 and they say, “I don’t know, I’m Lakatos Romeó.”
 
 * **mit tudom én** = I don’t know / whatever (filler)
-* name signals Roma ethnicity
-
----
 
 ### **Mit mondasz neki?**
 
 What do you say to them?
-
----
 
 ### **Semmit, igaz?**
 
@@ -558,9 +513,6 @@ Nothing, right?
 * **nincs bajom vkivel** – I have no problem with someone
 * **mit tudom én** – I don’t know / whatever
 * **igaz?** – right?
-
-If you want to continue, paste the next reel and I’ll keep this **exact same format**.
-
 
 -----
 
