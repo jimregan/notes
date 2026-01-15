@@ -2538,27 +2538,27 @@ Don’t work on it!
 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
-[00:00.000 --> 00:07.000]  Műfezlök mindenkit lázárjános vagyok, mindig azább piszkálnak, hogy nem értek ahoz, amit csinálok, szóval most itt vagyok, hogy be bizonyítsom az ellenkezőjét.
-[00:07.000 --> 00:12.000]  Szeretném elmeseljének, tehát a top 30 kedvenc vonatomat kezdjük is el.
-[00:12.000 --> 00:14.000]  Először.
-[00:14.000 --> 00:16.000]  Vonat podlobus.
-[00:16.000 --> 00:18.000]  Nem kell félni attól, hogy elustóz.
-[00:18.000 --> 00:24.000]  Gyere csak, közlek egy ezzel, és nyugodtan lehet testmozgás végezni közben.
-[00:24.000 --> 00:26.000]  B.
-[00:26.000 --> 00:29.000]  A BHV személyébb kocsi.
-[00:30.000 --> 00:33.000]  Nagyon korszerű, ezt a fotót a múlt héten csinálhatom róla.
-[00:33.000 --> 00:35.000]  Modern.
-[00:35.000 --> 00:37.000]  És nagy egyszer.
-[00:38.000 --> 00:39.000]  Abzmot.
-[00:39.000 --> 00:41.000]  Ormallat.
-[00:41.000 --> 00:42.000]  Meleg van rajta.
-[00:42.000 --> 00:43.000]  Jó a fütés.
-[00:43.000 --> 00:45.000]  Amit látjátok.
-[00:45.000 --> 00:50.000]  Köszönöm szépen, még végezetül egyből csinálhat is szeretnék mondani.
-[00:50.000 --> 00:52.000]  Lézettőlem.
-[00:52.000 --> 00:54.000]  Akinek nincsen mi az annyi tisér.
-[00:54.000 --> 00:56.000]  Köszönöm a figyelmet.
-[00:56.000 --> 00:58.000]  Jó utat.
+Műfezlök mindenkit lázárjános vagyok, mindig azább piszkálnak, hogy nem értek ahoz, amit csinálok, szóval most itt vagyok, hogy be bizonyítsom az ellenkezőjét.
+Szeretném elmeseljének, tehát a top 30 kedvenc vonatomat kezdjük is el.
+Először.
+Vonat podlobus.
+Nem kell félni attól, hogy elustóz.
+Gyere csak, közlek egy ezzel, és nyugodtan lehet testmozgás végezni közben.
+B.
+A BHV személyébb kocsi.
+Nagyon korszerű, ezt a fotót a múlt héten csinálhatom róla.
+Modern.
+És nagy egyszer.
+Abzmot.
+Ormallat.
+Meleg van rajta.
+Jó a fütés.
+Amit látjátok.
+Köszönöm szépen, még végezetül egyből csinálhat is szeretnék mondani.
+Lézettőlem.
+Akinek nincsen mi az annyi tisér.
+Köszönöm a figyelmet.
+Jó utat.
 
 -----
 
