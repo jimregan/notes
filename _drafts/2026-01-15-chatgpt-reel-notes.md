@@ -856,6 +856,6 @@ And he was **so chill** that **I went with him**.
 
 [Reel](https://www.instagram.com/reel/DTdLzQ2jbEZ/)
 
-[00:00.000 --> 00:02.760]  Mami, hogy lehet, hogy még mindig ilyen jól tartja magát? Mi a titka?
-[00:02.760 --> 00:05.960]  Tudod, fiam, pista bátját, dalúról még kemény, mint a lókolbász,
-[00:05.960 --> 00:08.840]  úgy alán veregeti, hogy a füllem csattog, mint a cintányér.
+Mami, hogy lehet, hogy még mindig ilyen jól tartja magát? Mi a titka?
+Tudod, fiam, pista bátját, dalúról még kemény, mint a lókolbász,
+úgy alán veregeti, hogy a füllem csattog, mint a cintányér.
