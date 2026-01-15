@@ -2570,40 +2570,16 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
-👍 Got it — back to **lean, practical, humour-aware mode**.
-
-This one is **pure minimalist satire**, and the humour is almost entirely in the **labels**, not in speech.
-
----
-
-## What this reel is doing (quickly)
-
-Title:
-
 **Lázár János kedvenc vonatai**
 = *Lázár János’s favourite trains*
 
-Already ironic, because:
-
 * **Lázár János** is strongly associated with rail policy
-* **MÁV** is infamous for delays, breakdowns, substitutes
-
-So “favourite trains” = *things that aren’t really trains anymore*.
-
----
-
-## The list (with why each item is funny)
 
 ### **Első: vonatpótló busz**
 
 **= First: rail-replacement bus**
 
 * **vonatpótló** = replacing a train
-* joke: *the best train is… a bus*
-
-This is peak MÁV humour.
-
----
 
 ### **(Második): BHV személygépkocsi**
 
@@ -2612,22 +2588,12 @@ This is peak MÁV humour.
 * **személygépkocsi** here means *railway passenger car*, not “car-car”
 * **BHV** = old, uncomfortable rolling stock
 
-Joke: *obsolete, miserable coaches as “favourites”*.
-
----
-
 ### **Negyedszer: Bzmot orrvonat**
 
 **= Fourth: Bzmot “nose-train”**
 
 * **Bzmot** = famously noisy, ancient diesel railcar
 * **orrvonat** = literally “nose train” (slang for its shape)
-
-Joke layers:
-
-* ugly, outdated train
-* affectionate-but-mocking nickname
-* placed absurdly in a “favourites” ranking
 
 ---
 
@@ -2637,24 +2603,6 @@ Joke layers:
   (you’ll see this *a lot* in Hungary)
 * **kedvenc + plural** – ironic framing (*kedvenc vonatai*)
 * **orr-** as descriptive slang prefix (shape-based nicknames)
-
----
-
-## Why this works without speech
-
-* list format = meme logic
-* everyone already knows the context
-* the absence of verbs makes it feel like an *official ranking*, which heightens the irony
-
-This is **Hungarian infrastructure humour at its most compressed**.
-
----
-
-### Clean takeaway for your notes
-
-> A minimalist MÁV satire where “favourite trains” are mostly **non-trains or infamous rolling stock**, relying on shared cultural knowledge rather than language complexity.
-
-If you want: next MÁV one, we can just do **“what background knowledge is assumed”** and stop there.
 
 -----
 
