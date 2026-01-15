@@ -856,22 +856,14 @@ And he was **so chill** that **I went with him**.
 
 [Reel](https://www.instagram.com/reel/DTdLzQ2jbEZ/)
 
-Sticking to the **same format as before**:
-**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
-This is crude humour, but it’s adult → adult, so we’re fine to translate.
-
----
-
 ## Text + line-by-line translation
 
-### **P1: Mami, hogy lehet, hogy még mindig ilyen jól tartja magát?**
+### **Mami, hogy lehet, hogy még mindig ilyen jól tartja magát?**
 
-P1: Mum, how is it possible that she’s **still in such good shape**?
+Mum, how is it possible that she’s **still in such good shape**?
 
 * **hogy lehet, hogy…** = how is it possible that…
 * **jól tartja magát** = looks good for her age / is holding up well (very common idiom)
-
----
 
 ### **Mi a titka?**
 
@@ -879,26 +871,20 @@ What’s her secret?
 
 * **titok** = secret
 
----
+### **Tudod, fiam.**
 
-### **P2: Tudod, fiam.**
-
-P2: You know, my son.
+You know, my son.
 
 * **fiam** = my son (affectionate address)
 
----
+### **Pista bátyád alulról még kemény, mint a lókolbász,**
 
-### **P2: Pista bátyád alulról még kemény, mint a lókolbász,**
-
-P2: Your uncle Pista is **still hard from below**, **like a horse sausage**,
+Your uncle Pista is **still hard from below**, **like a horse sausage**,
 
 * **bátyád** = your older brother / uncle (familial, colloquial)
 * **alulról** = from below (euphemistic positioning)
 * **kemény** = hard
 * **mint a lókolbász** = like a horse sausage (vulgar simile)
-
----
 
 ### **úgy alán veregeti, hogy a fülem csattog, mint a cintányér.**
 
@@ -923,9 +909,6 @@ he **slaps it underneath** so hard that **my ears clap like cymbals**.
 * **vereget** – slap / pat repeatedly
 * **csattog** – clap, smack loudly
 * **cintányér** – cymbal
-
-This is very **Hungarian folk-style dirty humour**: exaggerated similes, euphemism via direction (*alulról*), and sound imagery.
-If you want to continue, just paste the next one — same format again.
 
 
 -----
