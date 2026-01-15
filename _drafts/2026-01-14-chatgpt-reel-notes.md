@@ -2714,6 +2714,200 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 = *Wow, I was so smart!*
 
+---
+
+Thank you for the reminder — that’s on me.
+You’re right: **this was way beyond what’s useful at your level**, and you were very clear about what you need.
+
+Let’s **reset properly** and do this the way that *actually helps you*:
+
+* no analysis of rhetoric
+* no assumptions that you “basically get it”
+* no long stretches of abstract commentary
+* **focus on the words you are actually missing**, explained simply, **in context**
+
+I’ll go through **only the core vocabulary and phrases** from that reel that a learner would realistically stumble on, using **short explanations and plain English**.
+
+---
+
+## Key words & phrases from the reel (learner-level)
+
+### **Ha valami jól működik, ne nyúlj hozzá.**
+
+* **ha** = if
+* **valami** = something
+* **jól működik** = works well
+* **ne nyúlj hozzá** = don’t touch it / don’t mess with it
+
+👉 Whole idea: *“If something works, don’t change it.”*
+
+---
+
+### **Ami most van, jó ahogy van.**
+
+* **ami** = what / that which
+* **most** = now
+* **van** = exists / is
+* **jó** = good
+* **ahogy van** = as it is
+
+👉 *“What we have now is good as it is.”*
+
+---
+
+### **reggeltől estig**
+
+* literally: *from morning to evening*
+* meaning: **all day long**
+
+---
+
+### **Rengeteg**
+
+* = a lot of / tons of
+
+Very common, very useful.
+
+---
+
+### **jön velem szembe**
+
+* **jön** = comes
+* **szembe** = towards / face-to-face
+* **velem** = with me
+
+👉 idiomatic meaning: **“I run into / I encounter”**
+
+---
+
+### **mentálisan zavart**
+
+* **mentális** = mental
+* **zavart** = disturbed / disordered
+
+👉 *mentálisan zavart ember* = mentally disturbed person
+
+---
+
+### **addig … amíg**
+
+* **addig** = until then
+* **amíg** = until
+
+👉 *“We do X until Y happens.”*
+
+---
+
+### **pszichiátriai ellátás**
+
+* **pszichiátriai** = psychiatric
+* **ellátás** = care / treatment
+
+👉 *psychiatric care*
+
+---
+
+### **alulfinanszírozott**
+
+* **alul** = under
+* **finanszíroz** = finance
+* **-ott** = past participle
+
+👉 *underfunded*
+
+(This is a hard word, but it’s built very logically.)
+
+---
+
+### **ellátásra szorul**
+
+* **ellátás** = care
+* **-ra** = for
+* **szorul** = be in need
+
+👉 *“to need care”*
+
+---
+
+### **nem … hanem …**
+
+* **nem** = not
+* **hanem** = but rather
+
+👉 *“not X, but Y”*
+
+Very important structure.
+
+---
+
+### **egy volt a száz közül**
+
+* **egy** = one
+* **száz** = hundred
+* **közül** = among
+
+👉 *“one of many”*
+
+---
+
+### **egy véleményen**
+
+* **vélemény** = opinion
+* **egy véleményen van** = to agree
+
+👉 *nincs mindenki egy véleményen*
+= not everyone agrees
+
+---
+
+## What you should take away (and what to ignore)
+
+### Worth keeping:
+
+* **ne nyúlj hozzá**
+* **ahogy van**
+* **reggeltől estig**
+* **rengeteg**
+* **jön velem szembe**
+* **nem…, hanem…**
+* **ellátásra szorul**
+
+### Safe to ignore for now:
+
+* long policy explanations
+* abstract argument structure
+* shouted interjections
+
+Those are **not** learner-friendly, and you were right to feel lost.
+
+---
+
+## Important reassurance
+
+Feeling overwhelmed by that vocabulary **does not mean you’re behind**.
+
+That reel:
+
+* uses **advanced political + institutional Hungarian**
+* mixes registers
+* assumes native cultural knowledge
+
+It is *normal* that most of it feels opaque.
+
+You are doing exactly the right thing by:
+
+* correcting captions
+* focusing on reels with clear speech
+* asking for **words, not interpretations**
+
+If you want, next time we can:
+
+* do **“only the 8 most useful words”** per reel
+* or **skip serious clips entirely** and stick to humour + everyday speech
+
+Just tell me how strict you want the filter.
+
+
 -----
 
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
