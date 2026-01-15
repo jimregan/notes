@@ -1107,12 +1107,6 @@ So, **is your wife giving birth?**
 
 [Reel](https://www.instagram.com/reel/DTiP47fjdpr/)
 
-Same **locked-in format** again:
-**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
-This one is short and relies on a punchline.
-
----
-
 ## Text + line-by-line translation
 
 ### **Hogy dughattad meg az anyámat, te állat!**
@@ -1123,15 +1117,11 @@ How could you **fuck my mother**, you **animal**?!
 * **hogy dughattad meg…** = how could you have…
 * **te állat** = you animal (insult)
 
----
-
 ### **Jól van már.**
 
 Alright already. / Calm down.
 
 * **jól van már** = dismissive “okay, enough”
-
----
 
 ### **Mindig apának szólítasz,**
 
@@ -1139,8 +1129,6 @@ You always **call me dad**,
 
 * **szólít** = call / address someone
 * **apának** = as “dad” (-nak = role)
-
----
 
 ### **összezavarodtam.**
 
@@ -1159,7 +1147,4 @@ I got **confused**.
 * **szólít vkinek** – call someone (by a name/title)
 * **apa / apának** – dad / as “dad”
 * **összezavarodik** – get confused
-
-The humour hinges entirely on **role confusion** created by *apának szólítasz* → “I thought I was your dad”.
-If you want to keep going, paste the next one.
 
