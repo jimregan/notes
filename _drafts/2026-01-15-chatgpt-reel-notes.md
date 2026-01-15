@@ -403,18 +403,18 @@ Mit mondasz neki? Semmit, igaz?
 [Reel](https://www.instagram.com/reel/DSvF9ipiH1t/)
 
 
-[00:00.000 --> 00:04.700]  Voltam egy podcastba, csak hogy mennyire furcsa ez a magyar rögvalóság,
-[00:04.700 --> 00:10.460]  és most újjönálló estem van, ebben küzdök, az a címet digitális nincs a, nem menjünk bele,
-[00:10.460 --> 00:12.620]  ez ilyen PC-cím, PC.
-[00:12.620 --> 00:17.340]  És mondom ott a műsor vezetőnek, hogy,
-[00:17.340 --> 00:20.060]  hát, nem a számítógépének nem vagyok ellensége,
-[00:20.060 --> 00:22.620]  csak én a Windows 97-nél megálltam,
-[00:22.620 --> 00:29.220]  mert szövegszerkesztő, excel-táblázott pornófilm minden más feleslegesneknek.
-[00:29.220 --> 00:31.360]  És én ezt így poén, így elmondtam,
-[00:31.360 --> 00:34.520]  öt komment oda van írva, nem viccelek,
-[00:34.520 --> 00:39.220]  ned se nisten, nincs se nisi Windows 97.
-[00:43.220 --> 00:47.220]  Gyerekek és a szavazata, annyit ér, mint a tértek.
-[00:47.220 --> 00:49.340]  Nem értik a viccelbánik, nem értik.
+Voltam egy podcastban, csak hogy mennyire furcsa ez a magyar rögvalóság
+és most újjönálló estem van, ebben küzdök, az a címet digitális nincs a, nem menjünk bele,
+ez ilyen PC-cím, PC.
+És mondom ott a műsor vezetőnek, hogy,
+hát, nem a számítógépének nem vagyok ellensége,
+csak én a Windows 97-nél megálltam,
+mert szövegszerkesztő, excel-táblázott pornófilm minden más feleslegesneknek.
+És én ezt így poén, így elmondtam,
+öt komment oda van írva, nem viccelek,
+ned se nisten, nincs se nisi Windows 97.
+Gyerekek és a szavazata, annyit ér, mint a tértek.
+Nem értik a viccelbánik, nem értik.
 
 -----
 
