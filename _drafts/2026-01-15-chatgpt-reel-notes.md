@@ -1103,3 +1103,11 @@ So, **is your wife giving birth?**
 * **Magdi anyus** – iconic character from *Barátok közt*
 * **nyelvtörő** (*Mit süt kis sütt*, *picike pocok…*) – tongue-twisters
 
+-----
+
+https://www.instagram.com/reel/DTiP47fjdpr/?igsh=Z3BreW81MnEyY2V0
+Hogy dughattad meg az anyámat, te állat!
+Jól van már. 
+Mindig apának szólítasz,
+összezavarottam.
+
