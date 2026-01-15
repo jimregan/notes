@@ -381,22 +381,22 @@ and if you like this content, then follow me!
 
 [Reel](https://www.instagram.com/reel/DS-q5f1CJmi/)
 
-[00:00.000 --> 00:03.020]  Van egy szív fájdalmam, a szív fájdalmam az az,
-[00:03.020 --> 00:05.420]  hogyha meg tudjátok, hogy arabb vagyok,
-[00:05.420 --> 00:09.500]  ti kényszeret éreztek arra, hogy véleményt mondjatok.
-[00:09.500 --> 00:12.420]  Amit nem hibászlatlak, soka politika amai világban,
-[00:12.420 --> 00:15.260]  a tényleg átszűré a közéletet, de mondok egy jó példát,
-[00:15.260 --> 00:16.460]  mert látom, hogy nem értitek.
-[00:16.460 --> 00:19.260]  Találkozok valakivel, akivel először találkozok,
-[00:19.260 --> 00:21.900]  bemutatkozok neki, hogy szia algorati magyad.
-[00:21.900 --> 00:24.820]  Erre ez egy arabb név, mondom igen.
-[00:24.820 --> 00:27.820]  Itt kéne vége legyen a beszélgetésnek,
-[00:27.940 --> 00:30.340]  de ti erre azt mondjátok, hogy igen,
-[00:30.340 --> 00:34.340]  nekem, ahogy nincs bajom az arabbokkal.
-[00:34.340 --> 00:37.580]  De a kerítésnek örülök, megmondom őszintén.
-[00:37.580 --> 00:40.460]  Ezt már nem kéne hozzáteni, nem találkozó valakivel,
-[00:40.460 --> 00:43.460]  és azt mondja, hogy lakatos romeó vagyok.
-[00:47.060 --> 00:49.060]  Mit mondasz neki? Semmit igaz?
+Van egy szív fájdalmam, a szívfájdalmam. Az az,
+hogyha megtudjátok, hogy arab vagyok,
+ti kényszert éreztek arra, hogy véleményt mondjatok.
+Amit nem hibászlatlak, sok politika a mai világban.
+A tényleg átszűré a közéletet. De mondok egy jó példát,
+mert látom, hogy nem értitek.
+Tehát találkozok valakivel, akivel először találkozok.
+Bemutatkozok neki, hogy szia Al Gharati magyed.
+Erre: "ez egy arab név?" Mondom, igen.
+Itt kéne vége legyen a beszélgetésnek.
+De ti erre azt mondjátok, hogy" "igen?
+nekem amúgy nincs bajom az arabokkal.
+De a kerítésnek örülök. Megmondom őszintén."
+Ezt már nem kéne hozzáteni. Nem találkozol valakivel,
+és azt mondja, hogy mit tudom lakatos romeó vagyok.
+Mit mondasz neki? Semmit, igaz?
 
 -----
 
