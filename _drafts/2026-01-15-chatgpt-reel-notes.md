@@ -1148,3 +1148,38 @@ I got **confused**.
 * **apa / apának** – dad / as “dad”
 * **összezavarodik** – get confused
 
+-----
+
+[Reel](https://www.instagram.com/reels/DSNhWjIgCTB/)
+
+Ne! Ne!
+
+Teljes video az INVERZ YouTube-csatornáján!
+
+Ez rosszabb, mint Trianon.
+
+Láttam már ezt néhány videón, nem gondoltam, hogy ez a megtiszteltetés érhet, hogy megkóstolhatom, nagyon szépen köszönöm. Szíveszen.
+
+Olyan, mint a fenekem reggel. Mi a fasz ez?
+
+Ha most azt mondanám, vegetáriánus vagyok, szerinted hinnének nekem?
+
+Nem.
+
+Az első gondolatom, hogy miért? Miért tennéd zselebé a húst?
+
+Félsz? Nyuszi vagy?
+
+Ez olyan félelmetes! Ez annyira undorító!
+
+Nem merem.
+
+Ne már...
+Nem
+
+Egy nagyobb falatot, tesó!
+
+Visszaszámolok. Három, kettő, egy.
+
+
+
