@@ -915,36 +915,6 @@ he **slaps it underneath** so hard that **my ears clap like cymbals**.
 
 [Orbán Viktor a szövegeit is lopja?](https://www.instagram.com/reels/DP_TySfiqBo/)
 
-Alright — same **locked-in format** again:
-**lightly corrected Hungarian → line-by-line translation with highlighted phrases → vocabulary list**.
-This one *does* need correction, because Whisper mangled several very recognisable lines.
-
----
-
-## Lightly corrected Hungarian (based on context)
-
-> **Csapásokat adunk és kapunk.**
-> **Csapásokat adunk, és csapásokat kapunk.**
->
-> **A kicsinyeket a sötét oldal kedveli.**
-> **A kicsinyeket a sötét oldal kedveli.**
->
-> **A csúcsra is csak akkor érhetsz, ha egy hegy eléd áll.**
-> **És csak akkor érhetsz a csúcsra, ha egy hegy eléd áll.**
->
-> **Fürkészeket küldtem ki.**
-> **Fürkészeket küldtem ki.**
->
-> **A világ minden részére,**
-> **akik megismerték útjukat.**
->
-> **Soha se becsüljük le a sötét oldal erejét.**
-> **Lebecsülöd a sötét oldal hatalmát.**
-
-(You can hear why Whisper struggled: elevated register, slow delivery, deliberate repetition.)
-
----
-
 ## Line-by-line translation
 
 ### **Csapásokat adunk és kapunk.**
@@ -954,15 +924,9 @@ We **deal blows and receive blows**.
 * **csapás** = blow, strike
 * **adunk és kapunk** = we give and receive
 
----
-
 ### **Csapásokat adunk, és csapásokat kapunk.**
 
 We **deal blows, and we receive blows**.
-
-* repetition for rhetorical emphasis
-
----
 
 ### **A kicsinyeket a sötét oldal kedveli.**
 
@@ -970,8 +934,6 @@ The **small / weak ones** are favoured by the **dark side**.
 
 * **kicsinyeket** = the small / insignificant ones (plural, accusative)
 * **kedveli** = favours, likes
-
----
 
 ### **A csúcsra is csak akkor érhetsz, ha egy hegy eléd áll.**
 
@@ -981,15 +943,9 @@ You can only reach the **summit** if a **mountain stands in your way**.
 * **csak akkor** = only then
 * **eléd áll** = stands in your way
 
----
-
 ### **És csak akkor érhetsz a csúcsra, ha egy hegy eléd áll.**
 
 And you can only reach the summit if a mountain stands in your way.
-
-* deliberate repetition (oratorical style)
-
----
 
 ### **Fürkészeket küldtem ki.**
 
@@ -998,15 +954,11 @@ I **sent out scouts**.
 * **fürkész** = scout, spy
 * **kiküld** = send out
 
----
-
 ### **A világ minden részére,**
 
 To **every part of the world**,
 
 * **minden részére** = to every part
-
----
 
 ### **akik megismerték útjukat.**
 
@@ -1015,8 +967,6 @@ who **came to know their path**.
 * **megismer** = come to know, learn
 * **útjukat** = their path (metaphorical)
 
----
-
 ### **Soha se becsüljük le a sötét oldal erejét.**
 
 Let us **never underestimate the power of the dark side**.
@@ -1024,8 +974,6 @@ Let us **never underestimate the power of the dark side**.
 * **soha se** = never
 * **lebecsül** = underestimate
 * **erő** = power
-
----
 
 ### **Lebecsülöd a sötét oldal hatalmát.**
 
@@ -1052,11 +1000,5 @@ You **underestimate the power of the dark side**.
 * **erő** – strength, power
 * **hatalom** – power, might, authority
 
----
+-----
 
-If you want to go one step further next time, we can also:
-
-* align **original quotes vs parody**, or
-* mark **what’s quotation and what’s commentary**
-
-—but only if you ask.
