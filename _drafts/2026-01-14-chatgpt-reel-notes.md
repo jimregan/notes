@@ -2646,38 +2646,162 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/reels/DR2n7J6CJXR/)
 
-KK: Kedves Cooky, lenne hozzád egy pár kérdésem.
-Cooky: Várom a kérdésed!
-Mit gondolsz a több kulcsos adóról?
-Úh, na jó van, akkor elmondom nektek valamit.
-Ha! Valami jól működik, ne nyúlj hozzá.
-De most olvastam hogy az ellenzékek akarnak valtoztatni, de mi most megszóktunk.
-Miért akarnak valtoztatni?
-Ami most van, jó ahogy van.
-KK: Ami most van, az jó ahogy van.
-Na most én erre tudnék mondani neked reggeltől estig példákat,
-hogy ez miért nem így van.
+👍 Staying in the **lean, practical, humour-aware mode** you asked for.
+This one is **KK commentary turning from mockery → serious point**, so I’ll keep it tight and focused on **language + structure**, not full translation blocks.
 
-Uncaptioned: De ha demeljek ki, csak mondjuk egyet.
-Valerint a sajha gézi, 
-Crazy woman: deportálás!
-Uncaptioned: Valarint el a csinálok!
-Miért gondolsz?
+---
 
-KK: Rengeteg ilyen mentális, zavart ember jön velem szembe a neten is és az utcán is.
-Azért mennek ekkorát ezek a videók, mert öh hatalmasakat mosolygunk rajtuk.
-öh. Viszont mindenki csak addig mosolyog, amíg ezek az emberek egyszer nem egy késsel jönnek majd felénk.
-Az indók, hogy ezek az emberek az utcán futkoznak az az, hogy Magyarországon a pszichiátriai ellátás alulfinanszírozott.
-Rengeteg intézménynt bezártak és a szakember is kevés.
-A rendszer nem tudja követni hosszutávon a beteg embereket, ugyanis nincs rá ember és nincs rá intézmény.
-Ergó azok az emberek, akiknek elzárva kellene lenniük és ellátásra szorulnak,
-nem elzárva vannak, hanem a blaha aluljárókban.
-Sőt igazból már nem csak az aluljárókban, hanem bárhol azokon az utvonalakon,
-ahol mo ndjuk gyerekek járnak nap, mint nap iskolába, és egy gyereknek ilyet maximum a tévéből kellene látnia, de még inkább onnan se.
-De legalább, ha már nincsenek ilyen építményeink, ott van a hatvanpuszta imajorság.
-Szóval kedves Cooky, ez csak egy volt a száz indok közul, amit fel tudnék neked sorolni, hogy mi nem működik.
-De hát ugye az élet úgy szép, hogyha nincs mindenki egy véleményen, kinek fizetnek érte, kinek nem.
-Cooky: Hú, de okos voltam! Ha ha!
+## What kind of clip this is (quickly)
+
+* Opens as **mock interview / parody**
+* Uses a **simplistic slogan** (“ami jól működik…”) as bait
+* Then **hard-pivots into social critique**
+* Ends by snapping back to irony
+
+This is a *very typical KK structure*.
+
+---
+
+## Key Hungarian lines & why they matter
+
+### **„Ha valami jól működik, ne nyúlj hozzá.”**
+
+= *If something works well, don’t touch it.*
+
+* stock conservative slogan
+* sounds “common sense”
+* **ne nyúlj hozzá** = don’t meddle with it (idiomatic)
+
+This sentence is intentionally **empty but confident**.
+
+---
+
+### **„Ami most van, jó ahogy van.”**
+
+= *What we have now is good as it is.*
+
+* **ahogy van** = as it is
+* repetition = rhetorical rigidity
+
+KK repeats it verbatim to expose how little content it has.
+
+---
+
+### **„Na most én erre tudnék mondani neked reggeltől estig példákat…”**
+
+= *Now I could give you examples for this from morning till night…*
+
+* **reggeltől estig** = all day long (idiom)
+* signals pivot from parody → argument
+
+---
+
+## The “unhinged cutaway” (important stylistically)
+
+The shouted, chaotic interjections (*„deportálás!”*, nonsense names) are **not meant to be parsed linguistically**.
+
+They serve to:
+
+* visually / audibly represent *“mentálisan zavart emberek”*
+* contrast with calm studio talk
+* justify the upcoming serious argument
+
+So: don’t overthink the words there — the *register clash* is the point.
+
+---
+
+## Serious core argument (language worth keeping)
+
+### **„Rengeteg mentálisan zavart ember jön velem szembe…”**
+
+= *I encounter many mentally disturbed people…*
+
+* **jön velem szembe** = I run into / encounter (idiomatic)
+
+---
+
+### **„addig mosolygunk, amíg…”**
+
+= *we smile until…*
+
+* classic warning structure
+
+---
+
+### **„pszichiátriai ellátás alulfinanszírozott”**
+
+= *psychiatric care is underfunded*
+
+* **alulfinanszírozott** = underfunded (very common policy term)
+
+---
+
+### **„a rendszer nem tudja követni hosszútávon…”**
+
+= *the system can’t follow / track long-term*
+
+* **követni** = follow, monitor
+* bureaucratic but standard
+
+---
+
+### **„ellátásra szorulnak”**
+
+= *they require care*
+
+* **-ra szorul** = to be in need of (important construction)
+
+---
+
+### **„nem elzárva vannak, hanem…”**
+
+= *they’re not confined, but rather…*
+
+* contrastive **nem…, hanem…** (very common)
+
+---
+
+### **„ez csak egy volt a száz indok közül”**
+
+= *this was just one of a hundred reasons*
+
+* rhetorical minimisation
+* common debate phrase
+
+---
+
+## Closing irony
+
+### **„az élet úgy szép, hogyha nincs mindenki egy véleményen”**
+
+= *life is beautiful when not everyone agrees*
+
+* sounds conciliatory
+* immediately undercut by:
+
+### **„kinek fizetnek érte, kinek nem”**
+
+= *depending on who’s paid for it*
+
+This is the real sting.
+
+---
+
+### **Cooky: „Hú, de okos voltam! Ha ha!”**
+
+= *Wow, I was so smart!*
+
+* self-parody
+* restores the satirical frame
+
+---
+
+## Linguistic takeaway (for your notes)
+
+> A commentary clip that uses **empty slogans** (*ami jól működik…*), **idiomatic escalation** (*reggeltől estig*), and **policy register Hungarian** (*alulfinanszírozott, ellátásra szorul*) to pivot from parody into critique, then snap back to irony.
+
+No wordlists, no fluff — this one was about **structure and register**, and you read it exactly right.
+
 
 -----
 
