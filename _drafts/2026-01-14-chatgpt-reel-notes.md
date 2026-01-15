@@ -2,12 +2,6 @@
 
 ---
 
-DQ6Z0xsjcAf
-
-DTZxr7-jkGr
-
-DTdAV1_jZSZ
-
 DQr5cAOCPpK
 
 DSdHpmFiFrX
@@ -2486,6 +2480,13 @@ Don’t work on it!
 * **bosszúálló típus** – vengeful type
 * **szar** – shit (used evaluatively, very common in speech)
 
+-----
+
+[Reel](https://www.instagram.com/reels/DTdAV1_jZSZ/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
 -----
 
