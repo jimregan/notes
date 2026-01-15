@@ -2493,6 +2493,80 @@ Don’t work on it!
 ---
 
 ## HU → EN (by idea blocks)
+
+Right — sorry about that. Here’s the **Hungarian + English**, with the corrected “first *man*” point, in the same **idea-block** style as before.
+
+---
+
+## HU → EN (by idea blocks, with Hungarian included)
+
+### 1) Opening (the hook + punchline)
+
+**HU:** *Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.*
+**EN:** I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later he died because he slipped on an orange peel.
+
+---
+
+### 2) Clarification (the “first man” point)
+
+**HU:** *Mielőtt kérdeznéd: igen, azért az első (férfi), mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagarán.*
+**EN:** Before you ask: yes — that’s why he’s the first (man), because there were several people who voluntarily went down Niagara in a barrel.
+
+*(The “férfi” is implied from the prior sentence — that’s what she’s clarifying.)*
+
+---
+
+### 3) Distinction: first man vs first person
+
+**HU:** *Bobby Leach az első férfi, de nem az első ember volt, aki sikeresen végigvitte a mutatványt.*
+**EN:** Bobby Leach was the first man, but he wasn’t the first person to successfully pull off the stunt.
+
+---
+
+### 4) Annie Edson Taylor (who was first)
+
+**HU:** *A legelső ugyanis, aki egy hordóban jutott le a Niagara vízesés aljára, egy amerikai tanítónő, Annie Edson Taylor volt, aki 1901-ben, a 63. születésnapján mászott bele a saját maga készítette hordóba, amit aztán vízre bocsátottak.*
+**EN:** The very first person to get down to the bottom of Niagara Falls in a barrel was an American schoolteacher, Annie Edson Taylor, who in 1901, on her 63rd birthday, climbed into a barrel she had made herself, which was then set afloat.
+
+---
+
+### 5) Motivation + “things turned out differently”
+
+**HU:** *Taylor csodával határos módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert, és ezzel idős korára anyagi biztonságot teremthet magának. A dolgok azonban másként alakultak.*
+**EN:** Taylor survived the trip in a near-miraculous way, hoping the stunt would bring sponsorships and let her create financial security in old age. But things turned out differently.
+
+---
+
+### 6) The barrel gets stolen (twice)
+
+**HU:** *Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotózkodott, és a képeket turistáknak árulta, míg a menedzsere el nem lopta a hordót. Taylor ekkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a következő menedzsere megint ellopott.*
+**EN:** For a few years Taylor made money by posing with the barrel and selling photos to tourists — until her manager stole the barrel. She then spent much of her savings on detectives who recovered it, only for her next manager to steal it again.
+
+---
+
+### 7) Ending for Taylor
+
+**HU:** *Taylor 1921-ben nincstelenül halt meg, a temetése költségeit közösségi adományokból fizették.*
+**EN:** Taylor died penniless in 1921, and her funeral costs were paid through community donations.
+
+---
+
+### 8) Return to Leach (the orange peel)
+
+**HU:** *Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték, köztük például Bobby Leach is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezuhant hordóból; évekkel később azonban megcsúszott egy narancshéjon, elesett, megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehalt az esés következményeibe.*
+**EN:** Her strange and incredibly dangerous stunt has since been repeated by others — including Bobby Leach, who also stepped out of the barrel unharmed; but years later he slipped on an orange peel, fell, injured his leg, the wound got infected, and two months later he died from the consequences of the fall.
+
+---
+
+### 9) CTA
+
+**HU:** *Kövess be, mert mondok még ilyeneket!*
+**EN:** Follow me, because I’ll tell you more things like this!
+
+---
+
+If you want, I can also extract just the **narration / discourse markers** that make this style work (*csak…, mielőtt…, ugyanis…, azonban…, köztük például…*) — they’re very reusable.
+
 ---
 
 ## Contextual vocabulary & expressions (anchored)
@@ -2538,27 +2612,19 @@ Don’t work on it!
 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
-Műfezlök mindenkit lázárjános vagyok, mindig azább piszkálnak, hogy nem értek ahoz, amit csinálok, szóval most itt vagyok, hogy be bizonyítsom az ellenkezőjét.
-Szeretném elmeseljének, tehát a top 30 kedvenc vonatomat kezdjük is el.
-Először.
-Vonat podlobus.
-Nem kell félni attól, hogy elustóz.
-Gyere csak, közlek egy ezzel, és nyugodtan lehet testmozgás végezni közben.
-B.
-A BHV személyébb kocsi.
-Nagyon korszerű, ezt a fotót a múlt héten csinálhatom róla.
-Modern.
-És nagy egyszer.
-Abzmot.
-Ormallat.
-Meleg van rajta.
-Jó a fütés.
-Amit látjátok.
-Köszönöm szépen, még végezetül egyből csinálhat is szeretnék mondani.
-Lézettőlem.
-Akinek nincsen mi az annyi tisér.
-Köszönöm a figyelmet.
-Jó utat.
+Lázár János kedvenc vonatai
+
+Eloszor
+
+Vonatpotlo busz
+
+B. BHV szemelygepkocsi
+
+Negyedszer
+
+Bzmot orvonat
+
+
 
 -----
 
