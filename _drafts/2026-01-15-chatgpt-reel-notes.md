@@ -1004,75 +1004,220 @@ You **underestimate the power of the dark side**.
 
 [Ha a Chat GPT magyar lenne?](https://www.instagram.com/reels/DN-VwleiD-p/)
 
-[00:00.000 --> 00:04.760]  És nézzük meg, milyen lenne, hogyha mesterséges inteligencija a jövőben magyar lenne.
-[00:06.960 --> 00:11.680]  Helló, a mesterséges inteligenciját. Hívtad, miben segíthetek.
-[00:12.080 --> 00:12.680]  Wow!
-[00:13.800 --> 00:15.080]  Ki vagy, Alex Sarsziri?
-[00:15.080 --> 00:15.600]  Feri.
-[00:17.520 --> 00:21.840]  Feri, ez a folyamatosan, elektronikusan rejagálló interfézrövidítése?
-[00:22.000 --> 00:24.000]  Ez a ferenztek a rövidítése.
-[00:25.000 --> 00:28.640]  Te minfuci ilyen binaaris vagy kovakszális kvántum számítógépen?
-[00:28.640 --> 00:30.640]  Nyenasztal, nincs ez meg ilyen?
-[00:30.640 --> 00:33.640]  De mi van rajtad? Windows, linux, sabrosz.
-[00:34.640 --> 00:35.640]  És az véd a hekkerekellen?
-[00:35.640 --> 00:37.640]  Az véd a por ellen, mondjuk úgy.
-[00:38.640 --> 00:41.640]  És te is olyan mesterséges inteligencija vagy a meja felhasználóktól tanul?
-[00:41.640 --> 00:44.640]  Én olyan vagyok, amelyik a felhasználóktól tanul.
-[00:44.640 --> 00:46.640]  Elkáposztástalanítottátok?
-[00:46.640 --> 00:48.640]  Elkáposztástalanítottátok.
-[00:49.640 --> 00:50.640]  Mit süt kis szűt?
-[00:50.640 --> 00:51.640]  Mit süt kis szűt?
-[00:52.640 --> 00:54.640]  Egy picekepocok pockon pöckölt, egy picekepockot,
-[00:54.640 --> 00:56.640]  mire a pockon pöckölt, picekepocok pockon pöckölt,
-[00:56.640 --> 00:58.640]  de az ölt pockon pöckölt, picekepocok pockát.
-[00:59.640 --> 01:01.640]  Szóval milyen ügyben hívta?
-[01:03.640 --> 01:04.640]  Szóval azért, mert...
-[01:04.640 --> 01:05.640]  Miben segíthetek?
-[01:05.640 --> 01:06.640]  Van egy felesége.
-[01:06.640 --> 01:08.640]  Ebben nem tudok segíteni.
-[01:09.640 --> 01:10.640]  Aki rögtön szül.
-[01:10.640 --> 01:11.640]  Aholyban tudok segíteni.
-[01:11.640 --> 01:13.640]  Szerencsére, mesterséges, inteligencija,
-[01:13.640 --> 01:16.640]  az még telefonon kereszül is le tud vezetni egy szülés,
-[01:16.640 --> 01:19.640]  tehát akkor elkezdődtek a fájások.
-[01:20.640 --> 01:22.640]  Pici, merkezdődtek a fájások?
-[01:22.640 --> 01:23.640]  Mit vál a szólt?
-[01:23.640 --> 01:24.640]  Hogy menjek a jó íd eskomba?
-[01:24.640 --> 01:26.640]  Elkezdődtek a fájások!
-[01:27.640 --> 01:29.640]  Elkezdődtek, nos ezek a fájások,
-[01:29.640 --> 01:32.640]  akár 10-12 órán keresztül is eltarthat.
-[01:32.640 --> 01:33.640]  Szerinted, mit csináljak?
-[01:33.640 --> 01:35.640]  Nézzél meg egy év a trónok harcát.
-[01:36.640 --> 01:37.640]  Elment a magzatvizünk.
-[01:37.640 --> 01:38.640]  Kár.
-[01:38.640 --> 01:39.640]  Mikár?
-[01:39.640 --> 01:41.640]  Nem lesz idő a trónok harcára.
-[01:41.640 --> 01:42.640]  Megmozdult a pocia.
-[01:42.640 --> 01:44.640]  Van benne egy törpe.
-[01:44.640 --> 01:45.640]  A feleségem hasába.
-[01:45.640 --> 01:47.640]  A trónok harcába.
-[01:48.640 --> 01:50.640]  Nem érdekel a trónok harcat.
-[01:50.640 --> 01:52.640]  Akkor nézzet az agymenőket, hát.
-[01:52.640 --> 01:55.640]  Nem azért hívtalak, hogy amerikai sorozatokat ajánljál nekem.
-[01:55.640 --> 01:57.640]  Nézzet a barátok köztetek.
-[01:57.640 --> 01:58.640]  Annak vége van.
-[01:58.640 --> 01:59.640]  Nem ond.
-[01:59.640 --> 02:00.640]  De igen, viszont a feleségem között.
-[02:00.640 --> 02:02.640]  Bocsá, Vili bácsi, megkaptak is boltott.
-[02:02.640 --> 02:03.640]  Meg, de a feleségem...
-[02:03.640 --> 02:05.640]  A jó perényi mi ki?
-[02:05.640 --> 02:06.640]  Felépdett a kómából.
-[02:06.640 --> 02:07.640]  Magdianyus?
-[02:07.640 --> 02:08.640]  Halott.
-[02:10.640 --> 02:11.640]  Jóan kilépés.
-[02:11.640 --> 02:12.640]  Biztos?
-[02:12.640 --> 02:13.640]  Biztos.
-[02:13.640 --> 02:15.640]  Hello, a mesterséges intelligenciát.
-[02:15.640 --> 02:16.640]  Hívtad miben segíthetek?
-[02:16.640 --> 02:18.640]  Az előbb beszéltünk a feleségem szül.
-[02:18.640 --> 02:20.640]  Ez bár ki mondhatja.
-[02:20.640 --> 02:21.640]  Én vagyok az apa.
-[02:21.640 --> 02:23.640]  Ez bár ki mondhatja.
-[02:24.640 --> 02:26.640]  Egy pizike potok pockon pöckölt egy pizike potok pock.
-[02:26.640 --> 02:27.640]  Szóval szül a feleségez?
+OK — same **locked-in format** again.
+This one is long and Whisper-heavy, so I’ll do **three things only**:
+
+1. **Lightly corrected Hungarian** (only where Whisper is clearly broken)
+2. **Line-by-line translation with highlighted phrases**
+3. **Vocabulary list**, including the cultural-reference words (no deep explanation, just IDs)
+
+No extra commentary beyond that.
+
+---
+
+## Lightly corrected Hungarian (conservative)
+
+> **És nézzük meg, milyen lenne, hogyha a mesterséges intelligencia a jövőben magyar lenne.**
+>
+> – Helló, a mesterséges intelligenciát hívtad, miben segíthetek?
+> – Wow! Ki vagy, Alexa, Siri?
+> – Feri.
+> – Feri, ez a *Folyamatosan Elektronikusan Reagáló Interfész* rövidítése?
+> – Ez a Ferencnek a rövidítése.
+> – Te mindfajta ilyen bináris vagy kvantumszámítógépen futsz?
+> – Nyilván nem, nincs ez meg ilyen.
+> – De mi van rajtad? Windows, Linux, macOS?
+> – Az véd a hekkerek ellen?
+> – Az véd a por ellen, mondjuk úgy.
+> – És te is olyan mesterséges intelligencia vagy, amely a felhasználóktól tanul?
+> – Én olyan vagyok, amelyik a felhasználóktól tanul.
+> – Elkáposztásítottátok?
+> – Elkáposztásítottátok.
+> – Mit süt kis sütt?
+> – Mit süt kis sütt?
+> – Egy picike pocok pockon pöckölt egy picike pockot…
+> – Szóval milyen ügyben hívott?
+> – Szóval azért, mert…
+> – Miben segíthetek?
+> – Van egy feleségem.
+> – Ebben nem tudok segíteni.
+> – Aki rögtön szül.
+> – Abban tudok segíteni.
+> – Szerencsére a mesterséges intelligencia még telefonon keresztül is le tud vezetni egy szülést.
+> – Tehát akkor elkezdődtek a fájások.
+> – Pici, megkezdődtek a fájások?
+> – Mit szólt?
+> – Hogy menjek a jóistenhez?
+> – Elkezdődtek a fájások!
+> – Nos, ezek a fájások akár 10–12 órán keresztül is eltarthatnak.
+> – Szerinted mit csináljak?
+> – Nézzél meg egy évad *Trónok harcát*.
+> – Elment a magzatvízünk.
+> – Kár.
+> – Mi kár?
+> – Nem lesz idő a *Trónok harcára*.
+> – Megmozdult a pocija.
+> – Van benne egy törpe.
+> – A feleségem hasában?
+> – A *Trónok harcában*.
+> – Nem érdekel a *Trónok harca*.
+> – Akkor nézzed az *Agymenőket*.
+> – Nem azért hívtalak, hogy amerikai sorozatokat ajánlj.
+> – Nézzed a *Barátok közt*-öt.
+> – Annak vége van.
+> – Ne mondd.
+> – De igen. Viszont a feleségem…
+> – Jó, Perényi Miklós felébredt a kómából.
+> – Magdi anyus?
+> – Halott.
+> – Jó, akkor kilépés.
+> – Biztos?
+> – Biztos.
+> – Helló, a mesterséges intelligenciát hívtad, miben segíthetek?
+> – Az előbb beszéltünk, a feleségem szül.
+> – Ezt bárki mondhatja.
+> – Én vagyok az apa.
+> – Ezt bárki mondhatja.
+> – Egy picike pocok pockon pöckölt…
+> – Szóval szül a feleséged?
+
+---
+
+## Line-by-line translation (key phrases highlighted)
+
+### **És nézzük meg, milyen lenne, hogyha a mesterséges intelligencia a jövőben magyar lenne.**
+
+And let’s see **what it would be like if AI were Hungarian in the future**.
+
+---
+
+### **Helló, a mesterséges intelligenciát hívtad, miben segíthetek?**
+
+Hello, **you’ve reached artificial intelligence**, how can I help?
+
+---
+
+### **Ki vagy, Alexa, Siri? – Feri.**
+
+Who are you, **Alexa, Siri?** – **Feri**.
+
+---
+
+### **Ez a … rövidítése? – Ez a Ferencnek a rövidítése.**
+
+Is that an acronym? – It’s short for **Ferenc**.
+
+---
+
+### **Windows, Linux, macOS? – Az véd a por ellen.**
+
+Windows, Linux, macOS? – **It protects against dust**.
+
+---
+
+### **…olyan mesterséges intelligencia vagy, amely a felhasználóktól tanul?**
+
+Are you the kind of AI that **learns from users**?
+
+---
+
+### **Elkáposztásítottátok?**
+
+Have you **de-cabbaged it?**
+(nonsense word; parody of technical jargon)
+
+---
+
+### **Mit süt kis sütt?**
+
+“What is little Sütt baking?”
+(traditional Hungarian tongue-twister)
+
+---
+
+### **Egy picike pocok pockon pöckölt…**
+
+A tiny vole flicked another vole…
+(another tongue-twister)
+
+---
+
+### **Van egy feleségem. – Ebben nem tudok segíteni.**
+
+I have a wife. – I can’t help with that.
+
+---
+
+### **Aki rögtön szül. – Abban tudok segíteni.**
+
+Who’s about to give birth. – That I can help with.
+
+---
+
+### **Nézzél meg egy évad Trónok harcát.**
+
+Watch a season of **Game of Thrones**.
+
+---
+
+### **Elment a magzatvízünk. – Kár.**
+
+Her **water broke**. – That’s a shame.
+
+---
+
+### **Van benne egy törpe. – A Trónok harcában.**
+
+There’s a dwarf in it. – In **Game of Thrones**.
+
+---
+
+### **Nem érdekel a Trónok harca.**
+
+I’m not interested in **Game of Thrones**.
+
+---
+
+### **Nézzed a Barátok közt-öt. – Annak vége van.**
+
+Watch **Barátok közt**. – That’s over.
+
+---
+
+### **Ezt bárki mondhatja.**
+
+Anyone could say that.
+
+---
+
+### **Szóval szül a feleséged?**
+
+So, **is your wife giving birth?**
+
+---
+
+## Vocabulary list
+
+* **mesterséges intelligencia** – artificial intelligence
+* **rövidítés** – abbreviation
+* **felhasználó** – user
+* **tanul vkiktől** – learn from
+* **elkezdődnek a fájások** – labour contractions start
+* **magzatvíz** – amniotic fluid
+* **pocak / pocija** – tummy (colloquial)
+* **szül** – give birth
+* **kilépés** – exit / logout
+* **bárki** – anyone
+
+**Cultural references (IDs only):**
+
+* **Alexa / Siri** – voice assistants
+* **Trónok harca** – *Game of Thrones*
+* **Agymenők** – *The Big Bang Theory*
+* **Barátok közt** – long-running Hungarian soap opera
+* **Magdi anyus** – iconic character from *Barátok közt*
+* **nyelvtörő** (*Mit süt kis sütt*, *picike pocok…*) – tongue-twisters
+
+If you want to keep going, paste the next one — same format again.
+
 
