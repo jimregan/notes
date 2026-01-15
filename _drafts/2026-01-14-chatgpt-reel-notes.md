@@ -2602,9 +2602,12 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/p/DSIX7pCAAns/)
 
-[00:00.000 --> 00:02.680]  KárácsYN, kör tanárvezett megkénél a barátnyot kezét.
-[00:02.860 --> 00:03.440]  Nagy!
-[00:06.140 --> 00:17.260]  Úgy is szerve
+Oh, karácsonykor tervezed megkérni a barátnőd kezét?
+NEM!
+Nem nem nem nem nem nem nem.
+Úgyis szeret is igent fog mondani, de nem csináld ezt vele!
+Élete végeig hazudnia kell hogy szerette ezt a napot.
+Nem!
 
 -----
 
