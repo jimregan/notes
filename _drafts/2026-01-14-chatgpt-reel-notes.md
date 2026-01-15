@@ -1,5 +1,10 @@
 ---
-
+toc: false
+layout: post
+hidden: true
+description: Hungarian notes from ChatGPT
+title: Reel breakdowns
+categories: [hungarian, chatgpt, reels]
 ---
 
 DQr5cAOCPpK
