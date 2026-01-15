@@ -9,17 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reel/DRUgG2PkXkN/)
 
-Thank you — that’s clear now. I’ll go back to the **exact format that was working**:
-
-* **line-by-line translation**
-* **key words / phrases highlighted inline**
-* **a vocabulary list at the end**
-* no meta-commentary, no rhetoric analysis, no pruning
-
-I’ll do it for the **last reel** you posted.
-
----
-
 ## Text + line-by-line translation
 
 ### **És van még egy elnyomott kisebbségi csoport, ez a gyerekeké.**
@@ -30,16 +19,12 @@ And there is yet another **oppressed minority group**, namely **children**.
 * **kisebbségi csoport** = minority group
 * **gyerekeké** = “belonging to children” (-é possessive)
 
----
-
 ### **Ők nem részesülnek egyenlő bánásmódban,**
 
 They **do not receive equal treatment**,
 
 * **részesülnek** = receive / benefit from
 * **egyenlő bánásmód** = equal treatment
-
----
 
 ### **ami azért furcsa, mert mindannyian voltunk gyerekek, mégis elfelejtjük.**
 
@@ -50,16 +35,12 @@ which is strange, because **we were all children**, yet **we forget it**.
 * **mégis** = yet / nevertheless
 * **elfelejtjük** = we forget
 
----
-
 ### **Tehát, hogy éreznél együtt a többi kisebbséggel,**
 
 So, you would empathise with other minorities,
 
 * **érez együtt** = empathise (literally “feel together”)
 * **többi** = the other / the rest
-
----
 
 ### **amelyiknek sose leszel tagja.**
 
@@ -68,16 +49,12 @@ that you will **never be a member of**.
 * **sose** = never (colloquial)
 * **tagja** = member (possessive)
 
----
-
 ### **És a gyerekeket nagyon könnyű hülyíteni,**
 
 And **children are very easy to fool**,
 
 * **könnyű** = easy
 * **hülyíteni** = to fool / mess with (colloquial)
-
----
 
 ### **de vigyázni kell, hogy mit mondunk nekik.**
 
@@ -86,15 +63,11 @@ but **one must be careful** what we say to them.
 * **vigyázni kell** = one must be careful (impersonal)
 * **nekik** = to them
 
----
-
 ### **Egy barátom mondta a gyerekkorában az apjának, hogy:**
 
 A friend of mine said to his father when he was a child:
 
 * **gyerekkorában** = in his childhood
-
----
 
 ### **„Apa, én úgy félek a sötétben egyedül.”**
 
@@ -104,16 +77,12 @@ A friend of mine said to his father when he was a child:
 * **sötétben** = in the dark
 * **egyedül** = alone
 
----
-
 ### **És azt válaszolta neki: „Hát nem vagy egyedül.**
 
 And he answered him: “Well, **you’re not alone**.
 
 * **azt válaszolta** = he answered
 * **hát** = well (discourse particle)
-
----
 
 ### **Mindig van veled egy szellem.”**
 
@@ -123,16 +92,12 @@ There is **always a ghost with you**.”
 * **veled** = with you
 * **szellem** = ghost
 
----
-
 ### **Én sokkal realistább gyerek voltam.**
 
 I was a **much more realistic child**.
 
 * **sokkal** = much (comparative intensifier)
 * **realistább** = more realistic
-
----
 
 ### **Én nem a szellemektől féltem, ha egyedül voltam,**
 
@@ -141,8 +106,6 @@ I wasn’t afraid of ghosts when I was alone,
 * **-tól / -től** = from (source of fear)
 * **féltem** = I was afraid
 
----
-
 ### **hanem a betörőtől.**
 
 but **of a burglar**.
@@ -150,15 +113,11 @@ but **of a burglar**.
 * **hanem** = but rather
 * **betörő** = burglar
 
----
-
 ### **És apám meg egy realista felnőtt volt.**
 
 And my father was a **realistic adult**.
 
 * **meg** = and / also (colloquial linker)
-
----
 
 ### **Azzal nyugtatott meg, hogy:**
 
@@ -167,8 +126,6 @@ He **reassured me by saying**:
 * **megnyugtat** = reassure
 * **azzal … hogy** = by (doing/saying) that
 
----
-
 ### **„Hát miért pont ide jönnének?”**
 
 “Well, **why would they come here specifically?**”
@@ -176,7 +133,6 @@ He **reassured me by saying**:
 * **miért pont** = why exactly / why of all places
 * **jönnének** = would come (conditional)
 
----
 
 ## Vocabulary list
 
@@ -194,9 +150,6 @@ He **reassured me by saying**:
 * **betörő** – burglar
 * **megnyugtat** – reassure
 * **miért pont** – why exactly / why of all places
-
-If you paste the **next reel**, I’ll stick to this format exactly.
-
 
 -----
 
