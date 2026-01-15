@@ -856,6 +856,13 @@ And he was **so chill** that **I went with him**.
 
 [Reel](https://www.instagram.com/reel/DTdLzQ2jbEZ/)
 
-Mami, hogy lehet, hogy még mindig ilyen jól tartja magát? Mi a titka?
-Tudod, fiam, pista bátját, dalúról még kemény, mint a lókolbász,
-úgy alán veregeti, hogy a füllem csattog, mint a cintányér.
+P1: Mami, hogy lehet, hogy még mindig ilyen jól tartja magát? Mi a titka?
+P2: Tudod, fiam. Pista bátját, alúról még kemény, mint a lókolbász,
+úgy alán veregeti, hogy a fülem csattog, mint a cintányér.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DP_TySfiqBo/)
+
+Orbán Viktor a szövegeit is lopja?
+
