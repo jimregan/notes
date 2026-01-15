@@ -651,7 +651,37 @@ No, no, **they don’t get the joke**, for fuck’s sake, they don’t get it.
 * **nem értik a viccet** – they don’t get the joke
 * **bazdmeg** – fuck (very strong profanity)
 
-
 -----
 
 [Hupi Birthday](https://www.instagram.com/reel/DSI1qZuCHYX/)
+
+-----
+
+[Reel](https://www.instagram.com/reel/DRPtRpCDZWA/)
+
+[00:00.000 --> 00:03.800]  Annyi van-i liszabomban, minden sarkon drogat árulnak,
+[00:03.800 --> 00:07.260]  de minden sarkon is, nem ilyen diskrétel, hogy pszst,
+[00:07.260 --> 00:09.120]  tőj van a bány számdénk,
+[00:09.120 --> 00:13.260]  hanem, mint az ilyen balatonpartik, ukorítsz a árusok, hogy
+[00:13.260 --> 00:17.860]  friss a kokain, most meleg a hasi is,
+[00:17.860 --> 00:20.340]  és ha nem beszel, azt nem értik.
+[00:20.340 --> 00:23.740]  Gyöldött egy csávogy, kokényvit hasi is, mondom, no thank you.
+[00:23.740 --> 00:27.260]  Azt mondja, why?
+[00:27.260 --> 00:30.280]  És erre nem tudsz mit mondani,
+[00:30.280 --> 00:33.560]  hogy végül is vettem,
+[00:33.560 --> 00:35.260]  és milyen igaza volt azért?
+[00:35.260 --> 00:36.660]  Vajjunk be,
+[00:36.660 --> 00:40.160]  és voltom így, surfözni portugáljába, az isműen,
+[00:40.160 --> 00:43.200]  jó volt, ha tényleg az a surfoktatónk, egy ilyen
+[00:43.200 --> 00:45.560]  portugál surfös gyerek, egy ilyen
+[00:45.560 --> 00:48.240]  alright brother, let's go brother, ready brother,
+[00:48.240 --> 00:51.120]  alright, let's go brother, ready, alright brother.
+[00:51.120 --> 00:54.480]  No, nem tudom bekapcsolni a mentőm ellényt, alright brother,
+[00:54.700 --> 00:58.180]  de nem fog leesni a vízben, let's go brother.
+[00:58.180 --> 00:59.700]  Szerein tartott ilyen biztonsági,
+[00:59.700 --> 01:01.740]  elég az ítás, mert surföznem úgy beszéljes,
+[01:01.740 --> 01:04.420]  és akkor mondta, hogy if you fall,
+[01:04.420 --> 01:07.060]  and the board hits you in the head,
+[01:07.060 --> 01:09.980]  dead.
+[01:09.980 --> 01:13.100]  Let's go brother.
+[01:13.100 --> 01:14.540]  Olyan laser volt, hogy én mentem vele?
