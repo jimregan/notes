@@ -2600,6 +2600,14 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 -----
 
+[Reel](https://www.instagram.com/p/DSIX7pCAAns/)
+
+[00:00.000 --> 00:02.680]  KárácsYN, kör tanárvezett megkénél a barátnyot kezét.
+[00:02.860 --> 00:03.440]  Nagy!
+[00:06.140 --> 00:17.260]  Úgy is szerve
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
