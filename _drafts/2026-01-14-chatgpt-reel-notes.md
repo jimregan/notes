@@ -2602,23 +2602,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/p/DSIX7pCAAns/)
 
-👍 Back in the **working mode** — this one’s short, punchy, and very clear. I’ll keep it **lean, sentence-level, humour-aware**.
-
----
-
-## The text (cleaned)
-
-**Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
-**NEM!**
-**Nem nem nem nem nem nem nem.**
-**Úgyis igent fog mondani, de nem csináld ezt vele!**
-**Élete végéig hazudnia kell, hogy szerette ezt a napot.**
-**Nem!**
-
----
-
-## Line-by-line gloss (what matters)
-
+## HU → EN
 ### **Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
 
 “Oh, are you planning to ask for your girlfriend’s hand at Christmas?”
@@ -2627,16 +2611,9 @@ If you want, I can also extract just the **narration / discourse markers** that 
 * **karácsonykor** = at Christmas (-kor = time suffix)
 * casual, slightly mocking opener
 
----
-
 ### **NEM! / Nem nem nem…**
 
 “No! / No no no no no no no.”
-
-* repetition = exaggerated panic
-* very common comedic device in Hungarian reels
-
----
 
 ### **Úgyis igent fog mondani, de nem csináld ezt vele!**
 
@@ -2645,10 +2622,6 @@ If you want, I can also extract just the **narration / discourse markers** that 
 * **úgyis** = anyway / regardless
 * **igent fog mondani** = will say yes (future with *fog*)
 * **ne csináld ezt vele** = don’t do this *to her* (important *-val/-vel*)
-
-This is the *core argument*.
-
----
 
 ### **Élete végéig hazudnia kell, hogy szerette ezt a napot.**
 
@@ -2659,25 +2632,6 @@ This is the *core argument*.
   (-nia = obligation, slightly formal → funny contrast)
 * **hogy szerette** = that she liked/loved it
 
-This is the punchline: **social obligation as lifelong burden**.
-
----
-
-### **Nem!**
-
-Final emphatic shutdown.
-
----
-
-## Why this works as humour (linguistically)
-
-* starts with a **reasonable romantic question**
-* immediately escalates to **absolute prohibition**
-* uses **over-formal obligation language** (*hazudnia kell*) for a trivial social lie
-* frames the proposal as something done *to* her, not *for* her
-
-No wordplay, just **tone + exaggeration**.
-
 ---
 
 ## High-value expressions to keep
@@ -2687,20 +2641,6 @@ No wordplay, just **tone + exaggeration**.
 * **ne csináld ezt vkivel** – don’t do this to someone
 * **élete végéig** – for the rest of one’s life
 * **-nia / -nie kell** – obligation (“has to”)
-
-All very reusable.
-
----
-
-### Clean takeaway for your notes
-
-> A short anti-proposal rant using **repetition**, **absolute negation**, and **over-formal obligation language** to mock Christmas engagements as socially coercive.
-
-If you want, next we can:
-
-* group **Hungarian “relationship hot takes” language**, or
-* just keep doing these one-by-one at this pace.
-
 
 -----
 
