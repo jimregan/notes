@@ -2656,7 +2656,25 @@ If you want, I can also extract just the **narration / discourse markers** that 
 [00:20.000 --> 00:22.500]  Ami most van, jó ahogy van.
 [00:22.500 --> 00:25.500]  Ami most van, az jó ahogy van.
 [00:25.500 --> 00:29.500]  Na most én erre tudnék mondani neked reggeltől estik példákkal,
-
+[00:29.500 --> 00:31.000]  hogy ez miért nem így van.
+[00:31.000 --> 00:33.500]  De ha demeljek ki, csak mondjuk egyet.
+[00:33.500 --> 00:37.500]  Valerint a sajha gézi, deportálás!
+[00:37.500 --> 00:40.000]  Valarint el a csinálok!
+[00:40.000 --> 00:41.500]  Miért gondolsz?
+[00:41.500 --> 00:47.000]  Rengeteg ilyen mentális, zavart ember jön velem szembe a neten és az utcán is.
+[00:47.000 --> 00:51.500]  Azért mennekek korált ezek a videók, mert hatalmasokat mosoljunk rajtuk.
+[00:51.500 --> 00:56.000]  Viszont mindenki csak addig mosoljok, amíg ezek az emberek egyszer nem egy késse jönnek majd felink.
+[00:56.000 --> 01:03.500]  Az indók, hogy ezek az emberek az utcán futkoznak az az, hogy Magyarországon a psihéáltriai ellátás alul financírozott.
+[01:03.500 --> 01:07.000]  Rengeteg intézménybe zártak és a szakember is kevés.
+[01:07.000 --> 01:13.500]  A rendszer nem tudja követni hosszutálvon a beteg embereket, ugyanis nincs rá ember és nincs rá intézmény.
+[01:13.500 --> 01:19.500]  Ergó azok az emberek, akiknek elzárva kellene lenniük és ellátásra szorulnak,
+[01:19.500 --> 01:22.500]  nem elzárva vannak, hanem obla hallójárókban.
+[01:22.500 --> 01:26.500]  Sőtig az ebből már nem csak az aluljárókban, hanem bárhol azokon az utvan alakol,
+[01:26.500 --> 01:34.000]  ahol mondjuk gyerekek járnak nap, mint nap iskolába, és egy gyereknek ilyet maximó a tévéből kellene látnia, de még inkább onnan se.
+[01:34.000 --> 01:39.000]  De legalább, ha már nincsenek ilyen építvényeink, ott van a 60 pusztaim majorság.
+[01:40.500 --> 01:47.500]  Szóval kedves kuki, ez csak egy volt a százindok közőr, amit fel tudnék neked sorolni, hogy minek működik.
+[01:47.500 --> 01:53.000]  De hát ugye az élet úgy szép, hogyha nincs mindenki egyvéleményen, kinek fizetnek érte, kinek nem.
+[01:53.000 --> 01:55.000]  Csú, de okos voltam! Ha ha!
 
 -----
 
