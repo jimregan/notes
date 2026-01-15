@@ -2489,6 +2489,25 @@ Don’t work on it!
 
 [Reel](https://www.instagram.com/reels/DTdAV1_jZSZ/)
 
+
+[00:00.000 --> 00:06.880]  Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túljelte, hogy egy hordóban utazanált a Niagara vizesesen,
+[00:06.880 --> 00:09.880]  később azért halt meg, mert elcsúszott egy narancsélyon.
+[00:09.880 --> 00:17.320]  Jöjött kérdeznéd, igen, azért az első, mert többen is vannak, akik önszántóval utasztak le egy hordóban a Niagaran.
+[00:17.320 --> 00:22.560]  Bobby Leach az első férfi, de nem az első ember volt, aki sikeresem végig vittem utatványt.
+[00:22.560 --> 00:28.880]  A legelső ugyanis, aki egy hordóban jutott le a Niagara vizes és aljára egy amerikai tanítónő, Annie Edson Taylor volt,
+[00:28.960 --> 00:35.960]  aki 1961-ben, a 63. születésnapján mászott bele a saját maga kiszthett a hordóba, amit aztán vízre bocsátottak.
+[00:35.960 --> 00:42.040]  Taylor csodával határes módon túl elte az utat, amit anak reményében tett meg, hogy a mutatványával majd szponzorációkra tehetszert,
+[00:42.040 --> 00:45.040]  és ezzel idős korára annyegi biztonságot teremtett magának.
+[00:45.040 --> 00:47.040]  A dolgok azonban másként alakultak.
+[00:47.040 --> 00:53.360]  Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotóckodott, és a képeket turistáknak árulta,
+[00:53.360 --> 00:55.360]  míg a menedzsere állnám lopta a hordót.
+[00:55.360 --> 01:03.360]  Taylor akkor megtakarítási nagy részét nyomozókra költött, de akik végül visszaszerezték a hordót, amit aztán a következő menedzserem megint állopott.
+[01:03.360 --> 01:09.360]  Taylor ezekence 21-ben nincs tilánul a haltmág, a temetése költsédeit közösségi adományokból fizették.
+[01:09.360 --> 01:14.360]  Különös és egyébként elképesztőm veszélyes mutatványát azonban azóta többen is megismételték.
+[01:14.360 --> 01:19.360]  Köszöttük például Bobby Leachys, aki szintén sérpetnül szálltja a néjagaravízesésen lezúhant hordóból.
+[01:19.360 --> 01:30.360]  Évekkel később azonban megcsuszott egy narancsélyon, elesett, megseppette a lábát, a sebeperig állfertőződött, és Leachkét hónapval később belehald az esés következményeibe.
+[01:30.360 --> 01:32.360]  Kövesbe, mert mondok még ilyeneket.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
