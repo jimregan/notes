@@ -199,27 +199,27 @@ So: *“clean absolutely everything”*
 
 [Reel](https://www.instagram.com/reels/DTPwOqVDKN2/)
 
-[00:00.000 --> 00:04.000]  Azi hológelszerint azok az emberek, akik folyamatos megérősítésre vajnak a kapcsolatajigban,
-[00:04.000 --> 00:06.700]  túlgyakra írnak üzenetet, aggódnak, hogyha valaki mérgesnek tűnik,
-[00:06.700 --> 00:10.800]  vagy pánikbásnak, hogyha nem kapnak választ, gyakran szorongó krötődésre leit mutatják.
-[00:10.800 --> 00:13.100]  Ez nem azt jelent, hogy túl ígényesek, vagy túl sokak lennének,
-[00:13.100 --> 00:15.500]  hanem az, hogy az agyuk így vélek ezik az elhagyástól.
-[00:15.500 --> 00:17.800]  A szorongó krötődést két tulajdonságban nyilvánul meg.
-[00:17.800 --> 00:19.800]  Az első, hogy túl aggódják az interakciókat.
-[00:19.800 --> 00:23.100]  Késői válasz, megváltozott hangnám, vagy egy súha is elutasításnak tűnhet,
-[00:23.100 --> 00:25.200]  ez által a gondolaték gyorsan spirálba kerülnek.
-[00:25.200 --> 00:28.600]  Mi lenne ha a kérdésekkel, megnehezítik a nyugodt állapot megtartását.
-[00:28.600 --> 00:30.800]  Második pedig az, hogy túl szorosan ragaszkodnak.
-[00:30.800 --> 00:33.000]  Az elhagyástól való például miatt ragaszkodhatnak,
-[00:33.000 --> 00:36.500]  túl sok szor kérnek bocsánatot, vagy több szeretetet adnak, mint amennyit kapnak,
-[00:36.500 --> 00:38.300]  remélve, hogy megtartják a jó kapcsolatot.
-[00:38.300 --> 00:40.200]  A szorongó kötülés nem a gyengeségnek a jelen.
-[00:40.200 --> 00:43.200]  Hanem ez egy ideg rendszerű mintázat, amit a bizonytalság formát.
-[00:43.200 --> 00:46.600]  Gyakran gyerekkori körnézetből ered, ahol a gondoskolás kiszámíthatatlan volt,
-[00:46.600 --> 00:50.300]  néha meleg és szeretetteljes volt, máskor pedig távolsártartó vagy figyelmetlen.
-[00:50.300 --> 00:53.000]  Felnőttként ugyanezeket a félelmeket visszikáta kapcsolataikba,
-[00:53.000 --> 00:57.200]  felkészülnek a vesztességre és folyamatosan bizonyítékokat keresnek arra, hogy biztonságban vannak.
-[00:57.200 --> 01:00.300]  Néjen szeretnek, de félnek elveszíteni azt a kapcsolata, mire vágynak.
-[01:00.300 --> 01:05.100]  Az igazi úgyulás akkor kezdődik, amikor ezek az emberek megtanulják megnyugtatni a fejükben lévő riastást.
-[01:05.100 --> 01:09.400]  Ektronulnak bizni abba, hogy a szeretet nem tűnik el, akkor sem, hogyha nem bizonyítják ezt folyamatosan.
-[01:09.400 --> 01:12.200]  Irme komment vagy mit gondolsz elről, és ha tetszik ez a tartalom, akkor kövesbe!
+Azi hológelszerint azok az emberek, akik folyamatos megérősítésre vajnak a kapcsolatajigban,
+túlgyakra írnak üzenetet, aggódnak, hogyha valaki mérgesnek tűnik,
+vagy pánikbásnak, hogyha nem kapnak választ, gyakran szorongó krötődésre leit mutatják.
+Ez nem azt jelent, hogy túl ígényesek, vagy túl sokak lennének,
+hanem az, hogy az agyuk így vélek ezik az elhagyástól.
+A szorongó krötődést két tulajdonságban nyilvánul meg.
+Az első, hogy túl aggódják az interakciókat.
+Késői válasz, megváltozott hangnám, vagy egy súha is elutasításnak tűnhet,
+ez által a gondolaték gyorsan spirálba kerülnek.
+Mi lenne ha a kérdésekkel, megnehezítik a nyugodt állapot megtartását.
+Második pedig az, hogy túl szorosan ragaszkodnak.
+Az elhagyástól való például miatt ragaszkodhatnak,
+túl sok szor kérnek bocsánatot, vagy több szeretetet adnak, mint amennyit kapnak,
+remélve, hogy megtartják a jó kapcsolatot.
+A szorongó kötülés nem a gyengeségnek a jelen.
+Hanem ez egy ideg rendszerű mintázat, amit a bizonytalság formát.
+Gyakran gyerekkori körnézetből ered, ahol a gondoskolás kiszámíthatatlan volt,
+néha meleg és szeretetteljes volt, máskor pedig távolsártartó vagy figyelmetlen.
+Felnőttként ugyanezeket a félelmeket visszikáta kapcsolataikba,
+felkészülnek a vesztességre és folyamatosan bizonyítékokat keresnek arra, hogy biztonságban vannak.
+Néjen szeretnek, de félnek elveszíteni azt a kapcsolata, mire vágynak.
+Az igazi úgyulás akkor kezdődik, amikor ezek az emberek megtanulják megnyugtatni a fejükben lévő riastást.
+Ektronulnak bizni abba, hogy a szeretet nem tűnik el, akkor sem, hogyha nem bizonyítják ezt folyamatosan.
+Irme komment vagy mit gondolsz elről, és ha tetszik ez a tartalom, akkor kövesbe!
