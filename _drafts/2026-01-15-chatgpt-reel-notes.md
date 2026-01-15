@@ -1152,34 +1152,211 @@ I got **confused**.
 
 [Reel](https://www.instagram.com/reels/DSNhWjIgCTB/)
 
-Ne! Ne!
+Sticking to the **same locked-in format**:
+**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
+I’ll keep the Hungarian as you gave it; this is reaction-based humour.
 
-Teljes video az INVERZ YouTube-csatornáján!
+---
 
-Ez rosszabb, mint Trianon.
+## Text + line-by-line translation
 
-Láttam már ezt néhány videón, nem gondoltam, hogy ez a megtiszteltetés érhet, hogy megkóstolhatom, nagyon szépen köszönöm. Szíveszen.
+### **Ne! Ne!**
 
-Olyan, mint a fenekem reggel. Mi a fasz ez?
+No! No!
 
-Ha most azt mondanám, vegetáriánus vagyok, szerinted hinnének nekem?
+* **ne!** = no! / don’t! (exclamation)
 
-Nem.
+---
 
-Az első gondolatom, hogy miért? Miért tennéd zselebé a húst?
+### **Teljes videó az INVERZ YouTube-csatornáján!**
 
-Félsz? Nyuszi vagy?
+Full video on the **INVERZ YouTube channel**!
 
-Ez olyan félelmetes! Ez annyira undorító!
+* **teljes videó** = full video
+* **csatorna** = channel
 
-Nem merem.
+---
 
-Ne már...
-Nem
+### **Ez rosszabb, mint Trianon.**
 
-Egy nagyobb falatot, tesó!
+This is **worse than Trianon**.
 
-Visszaszámolok. Három, kettő, egy.
+* **rosszabb, mint** = worse than
+* hyperbolic historical reference
 
+---
 
+### **Láttam már ezt néhány videón,**
 
+I’ve already seen this in some videos,
+
+* **láttam már** = I’ve already seen
+* **néhány** = a few
+
+---
+
+### **nem gondoltam, hogy ez a megtiszteltetés érhet,**
+
+I didn’t think I’d get the **honour**,
+
+* **megtiszteltetés** = honour
+* **érhet** = could happen to me
+
+---
+
+### **hogy megkóstolhatom, nagyon szépen köszönöm. Szívesen.**
+
+that I could **taste it**, thank you very much. You’re welcome.
+
+* **megkóstol** = taste, try
+* **nagyon szépen köszönöm** = thank you very much
+* **szívesen** = you’re welcome (ironic here)
+
+---
+
+### **Olyan, mint a fenekem reggel.**
+
+It’s like **my ass in the morning**.
+
+* **olyan, mint** = like
+* crude simile
+
+---
+
+### **Mi a fasz ez?**
+
+What the **fuck** is this?
+
+* **mi a fasz** = what the fuck (very vulgar)
+
+---
+
+### **Ha most azt mondanám, vegetáriánus vagyok,**
+
+If I said now that **I’m a vegetarian**,
+
+---
+
+### **szerinted hinnének nekem?**
+
+do you think they’d **believe me**?
+
+* **szerinted** = in your opinion
+* **hinni vkinek** = believe someone
+
+---
+
+### **Nem.**
+
+No.
+
+---
+
+### **Az első gondolatom, hogy miért?**
+
+My first thought is: **why?**
+
+* **első gondolatom** = my first thought
+
+---
+
+### **Miért tennéd zselévé a húst?**
+
+Why would you **turn meat into jelly**?
+
+* **zselévé tenni** = turn into jelly
+* **hús** = meat
+
+---
+
+### **Félsz? Nyuszi vagy?**
+
+Are you afraid? **Are you a bunny?** (i.e. a coward)
+
+* **félsz?** = are you afraid?
+* **nyuszi** = bunny → coward (taunt)
+
+---
+
+### **Ez olyan félelmetes!**
+
+This is **so scary**!
+
+* **félelmetes** = frightening
+
+---
+
+### **Ez annyira undorító!**
+
+This is **so disgusting**!
+
+* **undorító** = disgusting
+
+---
+
+### **Nem merem.**
+
+I **don’t dare**.
+
+* **mer** = dare
+
+---
+
+### **Ne már…**
+
+Come on… / Don’t…
+
+* **ne már** = pleading protest
+
+---
+
+### **Nem.**
+
+No.
+
+---
+
+### **Egy nagyobb falatot, tesó!**
+
+A **bigger bite**, bro!
+
+* **falat** = bite
+* **tesó** = bro (colloquial)
+
+---
+
+### **Visszaszámolok.**
+
+I’ll **count down**.
+
+* **visszaszámol** = count down
+
+---
+
+### **Három, kettő, egy.**
+
+Three, two, one.
+
+---
+
+## Vocabulary list
+
+* **ne!** – no! / don’t!
+* **teljes videó** – full video
+* **csatorna** – channel
+* **rosszabb, mint** – worse than
+* **megtiszteltetés** – honour
+* **megkóstol** – taste, try
+* **fenék** – ass, butt
+* **mi a fasz** – what the fuck (very vulgar)
+* **vegetáriánus** – vegetarian
+* **hinni vkinek** – believe someone
+* **zselévé tenni** – turn into jelly
+* **félelmetes** – scary
+* **undorító** – disgusting
+* **mer** – dare
+* **falat** – bite
+* **tesó** – bro
+* **visszaszámol** – count down
+
+If you want to keep going, paste the next one — same format again.
