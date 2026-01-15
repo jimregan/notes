@@ -2294,6 +2294,23 @@ should under no circumstances set off.
 
 -----
 
+[Reel](https://www.instagram.com/reel/DQ6Z0xsjcAf/)
+
+[00:00.000 --> 00:05.240]  Három dolog, amivel le tudsz venni bármilyenő talábáról.
+[00:05.240 --> 00:08.840]  1. Udvarlás
+[00:08.840 --> 00:12.680]  Valódi ismerkedési szándék uraim.
+[00:12.680 --> 00:21.080]  Nem csak ágyba akarjátok vinné őket, hanem valóban meg akarjátok ismerni, hogy ez adott nő kicsoda.
+[00:21.080 --> 00:24.120]  És mit csinál, és hogy azt tetszik-e?
+[00:24.120 --> 00:27.160]  2. Tisztelet
+[00:27.160 --> 00:36.040]  Olyan gesszusoknak a kimutatása, amivel nőnek érezheti magát mellettetek a hölgy, aki szeretnétek, meghódítani.
+[00:36.040 --> 00:48.560]  Féldául kabát fel és lesegítés, kociajtó kinyítás és választékos beszéd. Oké, a káromkodást engedjük el.
+[00:48.560 --> 00:51.480]  3. Figyelmeség
+[00:51.480 --> 01:06.040]  Azokra az apró dolgokra emlékeztek, ami a másiknak fontos jelentőséggel bír, és amikor alkalomadódik, akkor ezekkel az apróságokkal jártok a másik kedvében.
+[01:06.040 --> 01:11.840]  Ha egyedül nem megy, akkor jelentkezve hozzám személyes konzultációra.
+
+
+-----
+
 [Reel](https://www.instagram.com/p/DTdtT65AXZG/)
 
 NGL, I thought this was a comedy reel until I got the notes back.
