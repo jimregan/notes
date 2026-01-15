@@ -519,12 +519,6 @@ Nothing, right?
 [Reel](https://www.instagram.com/reel/DSvF9ipiH1t/)
 
 
-Got it — sticking **exactly** to the format you asked for:
-**line-by-line translation**, **key phrases highlighted**, **vocabulary list at the end**.
-I’ll lightly normalise obvious Whisper slips but stay close to your text.
-
----
-
 ## Text + line-by-line translation
 
 ### **Voltam egy podcastban,**
@@ -534,8 +528,6 @@ I was on a **podcast**,
 * **voltam** = I was (past of *van*)
 * **podcastban** = in a podcast (-ban = in)
 
----
-
 ### **csak hogy mennyire furcsa ez a magyar rögvalóság,**
 
 just to show **how strange this Hungarian reality is**,
@@ -544,8 +536,6 @@ just to show **how strange this Hungarian reality is**,
 * **mennyire furcsa** = how strange
 * **rögvalóság** = raw reality / lived reality (slightly ironic word)
 
----
-
 ### **és most új önálló estem van, ezzel küzdök.**
 
 and now I have a **new solo show**, this is what I’m dealing with.
@@ -553,15 +543,11 @@ and now I have a **new solo show**, this is what I’m dealing with.
 * **önálló est** = solo stand-up show
 * **ezzel küzdök** = this is what I’m struggling with / dealing with
 
----
-
 ### **Az a címe: Digitális Ninja.**
 
 Its title is **Digital Ninja**.
 
 * **címe** = its title
-
----
 
 ### **Nem menjünk bele,**
 
@@ -569,16 +555,11 @@ Let’s **not get into it**,
 
 * **ne menjünk bele** = let’s not go into it (very common phrase)
 
----
-
 ### **ez ilyen PC cím, PC.**
 
 it’s kind of a **PC title**, PC.
 
 * **ilyen** = kind of, like this
-* **PC** = politically correct (not “personal computer” here)
-
----
 
 ### **És mondom ott a műsorvezetőnek, hogy:**
 
@@ -587,8 +568,6 @@ And I say there to the **host** that:
 * **mondom** = I say (narrative present)
 * **műsorvezető** = host / presenter
 
----
-
 ### **hát nem, a számítógépeknek nem vagyok ellensége,**
 
 well no, I’m **not an enemy of computers**,
@@ -596,32 +575,21 @@ well no, I’m **not an enemy of computers**,
 * **hát** = well (discourse filler)
 * **ellensége** = enemy (possessive)
 
----
-
 ### **csak én a Windows 97-nél megálltam,**
 
 I just **stopped at Windows 97**,
 
 * **megálltam** = I stopped
-* joke setup: obviously wrong version number
-
----
 
 ### **mert szövegszerkesztő, Excel-táblázat, pornófilm,**
 
 because **word processor, Excel spreadsheet, porn film**,
-
-* list format = comic understatement
-
----
 
 ### **minden más feleslegesnek.**
 
 everything else is **unnecessary**.
 
 * **felesleges** = unnecessary
-
----
 
 ### **És én ezt így poénnak elmondtam.**
 
@@ -630,8 +598,6 @@ And I said this **as a joke**.
 * **poénnak** = as a joke
 * **elmondtam** = I said / told it
 
----
-
 ### **Öt komment oda van írva, nem viccelek.**
 
 There are **five comments written there**, I’m not kidding.
@@ -639,15 +605,11 @@ There are **five comments written there**, I’m not kidding.
 * **oda van írva** = written there
 * **nem viccelek** = I’m not joking
 
----
-
 ### **„Nincsen is Windows 97.”**
 
 “There is **no such thing as Windows 97**.”
 
 * **nincsen is** = doesn’t even exist
-
----
 
 ### **Gyerekek, és a szavazata annyit ér, mint tietek.**
 
@@ -656,8 +618,6 @@ Guys, and **their vote is worth as much as yours**.
 * **gyerekek** = guys (addressing audience)
 * **annyit ér, mint** = is worth as much as
 * **tietek** = yours (plural possessive)
-
----
 
 ### **Nem, nem értik a viccet, bazdmeg, nem értik.**
 
@@ -690,8 +650,6 @@ No, no, **they don’t get the joke**, for fuck’s sake, they don’t get it.
 * **tietek** – yours (plural)
 * **nem értik a viccet** – they don’t get the joke
 * **bazdmeg** – fuck (very strong profanity)
-
-If you paste the next one, I’ll keep this **same format**.
 
 
 -----
