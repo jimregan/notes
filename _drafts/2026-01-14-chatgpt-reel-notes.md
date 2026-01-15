@@ -2376,6 +2376,26 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 **= sign up / book an appointment**
 
+-----
+
+[Reel](https://www.instagram.com/reel/DTZxr7-jkGr/)
+
+[00:00.000 --> 00:00.940]  Hagymá engem békér.
+[00:00.940 --> 00:02.940]  Egy ginai szakítás hírtetlenül elfaj volt.
+[00:02.940 --> 00:04.940]  Ezt ne ézlesz kettőezel guszolalba megfejelni.
+[00:04.940 --> 00:08.980]  A nő, dzáó közel 500 kg hagymát között az exelíulakására.
+[00:08.980 --> 00:13.340]  Azt mondta napokig sírt a szakítás után és azt akart, hogy a srác is átélják ugyanazt az érzés.
+[00:13.340 --> 00:15.340]  Szó szerint, s írte is te mocsadék.
+[00:15.340 --> 00:16.620]  Ezt szemétláda.
+[00:16.620 --> 00:21.700]  Csóbb, akkor még egy üzenetet is mellékelt, amiben leírja, hogy reméli, hogy a hagyma elvégző a dolgát.
+[00:21.700 --> 00:23.700]  Ez nem is annyira pizzurkáró, hagyjál megstori.
+[00:23.700 --> 00:27.120]  Rinnátok alatt fárrobbant a kezességi média volt, aki zseniális bosszúnak.
+[00:27.120 --> 00:29.620]  Nem ezt nem mások szerint, ez azért már túl van egy határon.
+[00:29.620 --> 00:33.520]  Te ilyen bosszúáló típus vagy, szóval, hogy ha ne kezd, akkor ne kisz.
+[00:33.520 --> 00:38.160]  Ha nekem szak, akkor a kutyáim vannak, összesedem, amik kiőnbelülük és bedobokkelj be.
+[00:38.160 --> 00:39.860]  Jaj, te ilyen érzeményleg ére típus vagy.
+[00:39.860 --> 00:40.360]  Igen.
+[00:40.360 --> 00:41.160]  Ne dolgoz rajta.
 
 
 -----
