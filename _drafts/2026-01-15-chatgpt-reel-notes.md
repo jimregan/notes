@@ -1152,21 +1152,9 @@ I got **confused**.
 
 [Reel](https://www.instagram.com/reels/DSNhWjIgCTB/)
 
-Sticking to the **same locked-in format**:
-**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
-I’ll keep the Hungarian as you gave it; this is reaction-based humour.
-
----
+(It turns out the sound is in English)
 
 ## Text + line-by-line translation
-
-### **Ne! Ne!**
-
-No! No!
-
-* **ne!** = no! / don’t! (exclamation)
-
----
 
 ### **Teljes videó az INVERZ YouTube-csatornáján!**
 
@@ -1175,16 +1163,11 @@ Full video on the **INVERZ YouTube channel**!
 * **teljes videó** = full video
 * **csatorna** = channel
 
----
-
 ### **Ez rosszabb, mint Trianon.**
 
 This is **worse than Trianon**.
 
 * **rosszabb, mint** = worse than
-* hyperbolic historical reference
-
----
 
 ### **Láttam már ezt néhány videón,**
 
@@ -1193,16 +1176,12 @@ I’ve already seen this in some videos,
 * **láttam már** = I’ve already seen
 * **néhány** = a few
 
----
-
 ### **nem gondoltam, hogy ez a megtiszteltetés érhet,**
 
 I didn’t think I’d get the **honour**,
 
 * **megtiszteltetés** = honour
 * **érhet** = could happen to me
-
----
 
 ### **hogy megkóstolhatom, nagyon szépen köszönöm. Szívesen.**
 
@@ -1212,16 +1191,11 @@ that I could **taste it**, thank you very much. You’re welcome.
 * **nagyon szépen köszönöm** = thank you very much
 * **szívesen** = you’re welcome (ironic here)
 
----
-
 ### **Olyan, mint a fenekem reggel.**
 
 It’s like **my ass in the morning**.
 
 * **olyan, mint** = like
-* crude simile
-
----
 
 ### **Mi a fasz ez?**
 
@@ -1229,13 +1203,9 @@ What the **fuck** is this?
 
 * **mi a fasz** = what the fuck (very vulgar)
 
----
-
 ### **Ha most azt mondanám, vegetáriánus vagyok,**
 
 If I said now that **I’m a vegetarian**,
-
----
 
 ### **szerinted hinnének nekem?**
 
@@ -1244,21 +1214,15 @@ do you think they’d **believe me**?
 * **szerinted** = in your opinion
 * **hinni vkinek** = believe someone
 
----
-
 ### **Nem.**
 
 No.
-
----
 
 ### **Az első gondolatom, hogy miért?**
 
 My first thought is: **why?**
 
 * **első gondolatom** = my first thought
-
----
 
 ### **Miért tennéd zselévé a húst?**
 
@@ -1267,8 +1231,6 @@ Why would you **turn meat into jelly**?
 * **zselévé tenni** = turn into jelly
 * **hús** = meat
 
----
-
 ### **Félsz? Nyuszi vagy?**
 
 Are you afraid? **Are you a bunny?** (i.e. a coward)
@@ -1276,15 +1238,11 @@ Are you afraid? **Are you a bunny?** (i.e. a coward)
 * **félsz?** = are you afraid?
 * **nyuszi** = bunny → coward (taunt)
 
----
-
 ### **Ez olyan félelmetes!**
 
 This is **so scary**!
 
 * **félelmetes** = frightening
-
----
 
 ### **Ez annyira undorító!**
 
@@ -1292,15 +1250,11 @@ This is **so disgusting**!
 
 * **undorító** = disgusting
 
----
-
 ### **Nem merem.**
 
 I **don’t dare**.
 
 * **mer** = dare
-
----
 
 ### **Ne már…**
 
@@ -1308,13 +1262,9 @@ Come on… / Don’t…
 
 * **ne már** = pleading protest
 
----
-
 ### **Nem.**
 
 No.
-
----
 
 ### **Egy nagyobb falatot, tesó!**
 
@@ -1323,19 +1273,11 @@ A **bigger bite**, bro!
 * **falat** = bite
 * **tesó** = bro (colloquial)
 
----
-
 ### **Visszaszámolok.**
 
 I’ll **count down**.
 
 * **visszaszámol** = count down
-
----
-
-### **Három, kettő, egy.**
-
-Three, two, one.
 
 ---
 
@@ -1359,4 +1301,3 @@ Three, two, one.
 * **tesó** – bro
 * **visszaszámol** – count down
 
-If you want to keep going, paste the next one — same format again.
