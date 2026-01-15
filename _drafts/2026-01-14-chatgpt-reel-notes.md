@@ -2380,53 +2380,6 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 [Reel](https://www.instagram.com/reel/DTZxr7-jkGr/)
 
-Great, this is **fast-paced tabloid humour + crude punchlines**, very much in the same register as the other satirical reels you’ve been collecting.
-I’ll do this in **humour mode**:
-
-* sentence-by-sentence **HU → EN**
-* flag where the language is intentionally rough / slangy
-* extract **context-anchored expressions** (no bare wordlists)
-
----
-
-## Cleaned reference text (minor normalisation)
-
-> **Hagyjál engem békén.**
-> Egy kínai szakítás hihetetlenül elfajult.
-> Ezt nehéz lesz 2026-ban megfejelni.
->
-> A nő, Zhao, közel 500 kilogramm hagymát küldött az exe, Li lakására.
-> Azt mondta, napokig sírt a szakítás után,
-> és azt akarta, hogy a srác is átélje ugyanazt az érzést.
->
-> Szó szerint:
-> **„Sírj te is, te mocsadék!”**
-> **„Te szemétláda!”**
->
-> A csomaghoz még egy üzenetet is mellékelt,
-> amiben leírja, hogy reméli,
-> hogy a hagyma elvégzi a dolgát.
->
-> Ez nem is annyira picurka *rohadjál meg* sztori.
->
-> Pillanatok alatt felrobbant a közösségi média.
-> Volt, aki zseniális bosszúnak nevezte,
-> mások szerint ez azért már túl van egy határon.
->
-> Te ilyen bosszúálló típus vagy?
-> Szóval ha neki sz*r, akkor neki is sz*r?
->
-> Ha nekem sz*r,
-> akkor a kutyáim vannak.
-> Összeszedem, ami kijön belőlük,
-> és bedobom a kertbe.
->
-> Ilyen érzelmileg érett típus vagy.
-> Igen!
-> **Ne dolgozz rajta!**
-
----
-
 ## Sentence-by-sentence HU → EN
 
 ### **Hagyjál engem békén.**
@@ -2435,15 +2388,11 @@ Leave me alone.
 
 * blunt opener, mock exasperation
 
----
-
 ### **Egy kínai szakítás hihetetlenül elfajult.**
 
 A Chinese breakup escalated unbelievably.
 
 * **elfajul** = to spiral / get out of hand
-
----
 
 ### **Ezt nehéz lesz 2026-ban megfejelni.**
 
@@ -2451,23 +2400,13 @@ This will be hard to top in 2026.
 
 * **megfejelni** = to top, outdo (informal, metaphorical)
 
----
-
 ### **…500 kilogramm hagymát küldött…**
 
 …sent nearly 500 kilograms of onions…
 
-* sheer absurdity is the joke
-
----
-
 ### **…azt akarta, hogy a srác is átélje ugyanazt az érzést.**
 
 …she wanted the guy to experience the same feeling.
-
-* faux-empathy framing
-
----
 
 ### **„Sírj te is, te mocsadék!”**
 
@@ -2476,15 +2415,9 @@ This will be hard to top in 2026.
 * **te is** = “you too” (retaliatory)
 * **mocsadék** = scum (very strong insult)
 
----
-
 ### **A hagyma elvégzi a dolgát.**
 
 The onion will do its job.
-
-* euphemistic phrasing → crying
-
----
 
 ### **Ez nem is annyira picurka *rohadjál meg* sztori.**
 
@@ -2493,21 +2426,13 @@ This isn’t exactly a small “go rot” kind of story.
 * **rohadjál meg** = “rot in hell” (curse)
 * *picurka* = tiny (ironically mild)
 
----
-
 ### **Pillanatok alatt felrobbant a közösségi média.**
 
 Social media blew up in moments.
 
-* fixed news cliché
-
----
-
 ### **Volt, aki zseniális bosszúnak nevezte…**
 
 Some called it brilliant revenge…
-
----
 
 ### **…mások szerint ez már túl van egy határon.**
 
@@ -2515,29 +2440,17 @@ Others say this crosses a line.
 
 * **túl van egy határon** = goes too far
 
----
-
 ### **Te ilyen bosszúálló típus vagy?**
 
 Are you this kind of vengeful type?
 
-* direct audience address
-
----
-
-### **Ha neki sz*r, akkor neki is sz*r?**
+### **Ha neki szar, akkor neki is szar?**
 
 If it’s shit for you, then it should be shit for them too?
-
-* deliberately crude moral logic
-
----
 
 ### **Ha nekem sz*r, akkor a kutyáim vannak…**
 
 If things are shit for me, I’ve got my dogs…
-
----
 
 ### **…összeszedem, ami kijön belőlük…**
 
@@ -2545,27 +2458,17 @@ If things are shit for me, I’ve got my dogs…
 
 * intentionally gross escalation
 
----
-
 ### **…és bedobom a kertbe.**
 
 …and throw it into the garden.
-
----
 
 ### **Ilyen érzelmileg érett típus vagy.**
 
 You’re such an emotionally mature type.
 
-* heavy sarcasm
-
----
-
 ### **Ne dolgozz rajta!**
 
 Don’t work on it!
-
-* ironic inversion of self-help language
 
 ---
 
@@ -2581,31 +2484,7 @@ Don’t work on it!
 * **felrobban (a net)** – blow up online
 * **túl van egy határon** – goes too far
 * **bosszúálló típus** – vengeful type
-* **sz*r** – shit (used evaluatively, very common in speech)
-
----
-
-## Why this works as humour
-
-* tabloid tone + deadpan delivery
-* extreme escalation (500 kg onions → dog poop)
-* faux-moral reflection smashed by crude punchline
-* ending with **mock self-help reversal** (*Ne dolgozz rajta!*)
-
-This is **deliberately low-register Hungarian**, but very authentic.
-
----
-
-## Clean takeaway for your notes
-
-> A crude satirical monologue using **tabloid narration**, **extreme escalation**, and **ironic self-help language**, rich in everyday Hungarian insults and evaluative slang.
-
-If you want next:
-
-* we can group **Hungarian insult registers** (mocsadék vs szemétláda vs sz*r), or
-* isolate **news-style clichés** (*felrobbant a közösségi média*) that recur everywhere.
-
-This one’s messy — but intentionally so.
+* **szar** – shit (used evaluatively, very common in speech)
 
 
 -----
