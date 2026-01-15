@@ -218,53 +218,52 @@ No extra commentary.
 
 > **A pszichológia szerint** azok az emberek, akik **folyamatos megerősítésre vágynak a kapcsolataikban**,
 > **túl gyakran írnak üzenetet**, aggódnak, hogyha valaki **mérgesnek tűnik**,
-> vagy **pánikba esnek**, hogyha nem kapnak választ,
+> vagy pánikbánságnak, ha nem kapnak választ,
 > gyakran **szorongó kötődésre** utaló jeleket mutatnak.
+(captions disappeared after gyakran, "szorongó kötődés" was flashed as a banner until the end of the sentence)
 >
 > Ez nem azt jelenti, hogy **túl igényesek** vagy **túl sokak** lennének,
-> hanem azt, hogy az agyuk így **védekezik az elhagyástól**.
+> hanem az, hogy az agyuk így **védekezik az elhagyástól**.
 >
 > A **szorongó kötődés** két tulajdonságban nyilvánul meg.
 >
 > Az első, hogy **túl aggódják az interakciókat**.
-> Egy késői válasz, megváltozott hangnem,
-> vagy egy sóhaj is **elutasításnak tűnhet**,
-> ezáltal a gondolatok gyorsan **spirálba kerülnek**.
+> Késői válasz, megváltozott hangnem,
+> vagy egy "sóha is" **elutasításnak tűnhet**.
+> Ezáltal a gondolatok gyorsan **spirálba kerülnek**.
 >
 > Mi lenne, ha a kérdésekkel **megnehezítik a nyugodt állapot megtartását**?
 >
 > A második pedig az, hogy **túl szorosan ragaszkodnak**.
-> Az elhagyástól való félelem miatt például ragaszkodhatnak,
+> Az elhagyástól való félelem miatt ragaszkodhatnak,
 > **túl sokszor kérnek bocsánatot**,
 > vagy **több szeretetet adnak, mint amennyit kapnak**,
-> remélve, hogy **megtartják a kapcsolatot**.
+> remélve, hogy **megtartják a jó kapcsolatot**.
 >
-> A **szorongó kötődés nem a gyengeség jele**,
-> hanem egy **idegrendszeri mintázat**,
-> amit a **bizonytalanság formál**.
+> A **szorongó kötődés nem a gyengeségnek a jele**,
+> hanem ez egy **idegrendszeri mintázat**,
+> amit a **bizonytalanság formált**.
 >
 > Gyakran **gyerekkori környezetből ered**,
-> ahol a gondoskodás **kiszámíthatatlan volt**:
-> néha meleg és szeretetteljes,
+> ahol a gondoskodás **kiszámíthatatlan volt**,
+> néha meleg és szeretetteljes volt,
 > máskor pedig távolságtartó vagy figyelmetlen.
 >
-> Felnőttként ugyanezeket a félelmeket **visszük át a kapcsolatainkba**,
-> felkészülünk a **veszteségre**,
-> és folyamatosan **bizonyítékokat keresünk arra, hogy biztonságban vagyunk**.
+> Felnőttként ugyanezeket a félelmeket **viszik át a kapcsolataikba**,
+> felkészülnek a **veszteségre**,
+> és folyamatosan **bizonyítékokat keresnek arra, hogy biztonságban vannak**.
 >
-> Nagyon szeretnek,
+> Mélyen szeretnek,
 > de félnek **elveszíteni azt a kapcsolatot, amire vágynak**.
 >
 > Az igazi **gyógyulás** akkor kezdődik,
 > amikor ezek az emberek megtanulják **megnyugtatni a fejükben lévő riasztást**,
-> és **megtanulnak bízni abban**,
+> **megtanulnak bízni abban**,
 > hogy a szeretet nem tűnik el akkor sem,
-> ha nem kell **folyamatosan bizonyítani**.
+> ha nem **bizonyítják** ezt folyamatosan.
 >
-> Írd meg kommentben, mit gondolsz erről,
-> és ha tetszik a tartalom, kövess be!
-
----
+> Írd meg kommentben, hogy mit gondolsz erről,
+> és ha tetszik ez a tartalom, akkor kövess be!
 
 ## Line-by-line translation (key phrases highlighted)
 
@@ -286,20 +285,14 @@ No extra commentary.
 **szorongó kötődés**
 → *anxious attachment*
 
----
-
 **Ez nem azt jelenti, hogy túl igényesek vagy túl sokak lennének**
 → *This doesn’t mean they’re too demanding or “too much”*
 
 **az agyuk így védekezik az elhagyástól**
 → *their brain is protecting itself from abandonment*
 
----
-
 **két tulajdonságban nyilvánul meg**
 → *manifests in two traits*
-
----
 
 **túl aggódják az interakciókat**
 → *overthink interactions*
@@ -310,8 +303,6 @@ No extra commentary.
 **spirálba kerülnek**
 → *spiral*
 
----
-
 **túl szorosan ragaszkodnak**
 → *cling too tightly*
 
@@ -321,28 +312,20 @@ No extra commentary.
 **több szeretetet adnak, mint amennyit kapnak**
 → *give more love than they receive*
 
----
-
 **nem a gyengeség jele**
 → *not a sign of weakness*
 
 **idegrendszeri mintázat**
 → *nervous-system pattern*
 
----
-
 **kiszámíthatatlan volt**
 → *was unpredictable*
-
----
 
 **visszük át a kapcsolatainkba**
 → *carry into our relationships*
 
 **bizonyítékokat keresnek**
 → *look for proof*
-
----
 
 **az igazi gyógyulás**
 → *real healing*
@@ -373,5 +356,3 @@ No extra commentary.
 * **bizonyíték** – evidence
 * **gyógyulás** – healing
 * **riasztás** – alarm
-
-If you want the **next one done the same way**, just paste it.
