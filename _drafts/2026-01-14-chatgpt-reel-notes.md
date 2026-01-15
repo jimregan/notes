@@ -2489,24 +2489,241 @@ Don’t work on it!
 
 [Reel](https://www.instagram.com/reels/DTdAV1_jZSZ/)
 
+Nice one — this is **deadpan “history trivia with an absurd kicker” humour**, and the Whisper output is good enough to work with after light normalisation.
 
-Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vizesésen,
-később azért halt meg, mert elcsúszott egy narancshéjon.
-Mielött kérdeznéd: igen, azért az első, mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagaran.
-Bobby Leach az első férfi, de nem az első ember volt, aki sikeresem végigvitte mutatványt.
-A legelső ugyanis, aki egy hordóban jutott le a Niagara vizes és aljára egy amerikai tanítónő, Annie Edson Taylor volt,
-aki 1901-ben, a 63. születésnapján mászott bele a saját maga készített a hordóba, amit aztán vízre bocsátottak.
-Taylor csodával hatá ros módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert,
-és ezzel idős korára anyagi biztonságot teremthet magának.
-A dolgok azonban másként alakultak.
-Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotóckodott, és a képeket turistáknak árulta,
-míg a menedzsere el nem lopta a hordót.
-Taylor akkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a kö vetkező menedzsere megint ellopott.
-Taylor 1921-ben nincstelenül halt még, a temetése költségeit közösségi adományokbó fizették.
-Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték.
-köztük például Bobby Leachy is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezúhant hordóból,
-évekkel később azonban megcsuszott egy narancshéjon, elesett megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehald az esés következményeibe.
-Kövess be, mert mondok még ilyeneket!
+I’ll do this in the familiar **humour / explainer hybrid mode**:
+
+* clean reconstruction where ASR clearly slips
+* concise **HU → EN** by idea blocks (not every clause)
+* contextual vocabulary only where it earns its keep
+
+I’ll also identify the historical figures once, because that’s part of why the punchline works.
+
+---
+
+## Who’s who (once, for clarity)
+
+* **Bobby Leach** – stuntman
+* **Annie Edson Taylor** – schoolteacher
+* **Niagara vízesés** – Niagara Falls
+
+---
+
+## Cleaned reference text (light normalisation)
+
+> **Csak ezt akartam mondani, hogy Bobby Leach az első férfi,**
+> aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen,
+> később viszont azért halt meg,
+> mert elcsúszott egy narancshéjon.
+>
+> Mielőtt kérdeznéd: igen,
+> azért az első, mert többen is vannak,
+> akik önszántukból utaztak le
+> egy hordóban a Niagarán.
+>
+> Bobby Leach az első férfi volt,
+> de nem az első ember,
+> aki sikeresen végigvitte a mutatványt.
+>
+> A legelső ugyanis egy amerikai tanítónő,
+> Annie Edson Taylor volt,
+> aki 1901-ben,
+> a 63. születésnapján
+> mászott bele a saját maga készítette hordóba,
+> amit aztán vízre bocsátottak.
+>
+> Taylor csodával határos módon túlélte az utat,
+> abban a reményben,
+> hogy szponzorációkra tesz szert,
+> és idős korára anyagi biztonságot teremt magának.
+>
+> A dolgok azonban másként alakultak.
+>
+> Taylor éveken át abból élt,
+> hogy a hordójával fotózkodott,
+> és a képeket turistáknak árulta,
+> mígnem a menedzsere ellopta a hordót.
+>
+> Taylor ekkor megtakarításai nagy részét
+> nyomozókra költötte,
+> akik végül visszaszerezték a hordót,
+> amit a következő menedzsere megint ellopott.
+>
+> Taylor 1921-ben nincstelenül halt meg,
+> temetését közösségi adományokból fizették.
+>
+> Különös és elképesztően veszélyes mutatványát
+> azóta többen is megismételték,
+> köztük Bobby Leach is,
+> aki szintén sértetlenül szállt ki
+> a Niagara vízesésen lezuhanó hordóból,
+> ám évekkel később elcsúszott egy narancshéjon,
+> elesett, megsérült a lába,
+> a sebe elfertőződött,
+> és két hónappal később
+> belehalt az esés következményeibe.
+>
+> **Kövess be, mert mondok még ilyeneket!**
+
+---
+
+## HU → EN (by idea blocks)
+
+### Opening / punchline first
+
+**“I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later died because he slipped on an orange peel.”**
+
+This is the **entire joke**:
+
+* epic danger survived
+* banal, cartoonish death
+
+Everything else is **deadpan justification**.
+
+---
+
+### “Before you ask” clarification
+
+**“Yes, the first — because several people voluntarily went over Niagara in a barrel.”**
+
+* anticipates pedantic objections
+* establishes narrator credibility
+
+---
+
+### Annie Edson Taylor backstory
+
+**“The first person was actually Annie Edson Taylor, a 63-year-old American schoolteacher in 1901…”**
+
+* age + profession heighten absurdity
+* neutral, documentary tone
+
+---
+
+### Failed dream
+
+**“She hoped the stunt would bring sponsorships and financial security — but things turned out differently.”**
+
+* classic narrative pivot phrase
+
+---
+
+### Repeated misfortune
+
+**“She made money by posing with the barrel… until her manager stole it.
+Then she spent her savings to recover it — and the next manager stole it again.”**
+
+* repetition builds bleak comedy
+* no overt commentary needed
+
+---
+
+### Circular return to Bobby Leach
+
+**“Others repeated the stunt, including Bobby Leach, who also survived — but years later slipped on an orange peel and died from complications.”**
+
+* narrative symmetry
+* returns to the opening line with full context
+
+---
+
+### CTA
+
+**“Follow me, I’ll tell you more like this.”**
+
+* standard influencer close
+
+---
+
+## Contextual vocabulary & expressions (anchored)
+
+### **csak ezt akartam mondani**
+
+= “I just wanted to say”
+📌 Casual opener, often ironic.
+
+---
+
+### **túlélte, hogy…**
+
+= survived the fact that…
+📌 Common structure for extreme events.
+
+---
+
+### **önszántából**
+
+= of one’s own free will
+📌 Formal-ish adverb, good to recognise.
+
+---
+
+### **végigvisz egy mutatványt**
+
+= carry out / pull off a stunt
+📌 Very useful collocation.
+
+---
+
+### **csodával határos módon**
+
+= in a near-miraculous way
+📌 Journalistic cliché, but common.
+
+---
+
+### **másként alakul**
+
+= turn out differently
+📌 High-frequency narrative pivot.
+
+---
+
+### **fotózkodik**
+
+= pose for photos
+📌 Everyday verb, social-media relevant.
+
+---
+
+### **nincstelenül hal meg**
+
+= die penniless
+📌 Concise, expressive phrasing.
+
+---
+
+### **belehal vmibe**
+
+= die as a result of something
+📌 Fixed verb + prefix combination.
+
+---
+
+## Why this works as humour (linguistically)
+
+* **chronological overkill** for a simple joke
+* neutral, documentary register throughout
+* punchline stated *immediately*, then justified
+* zero emotional colouring → contrast does all the work
+
+This is the same technique as:
+
+> “Here’s an incredible fact. Let me now prove to you that it’s true.”
+
+---
+
+## Clean takeaway for your notes
+
+> A deadpan historical anecdote where **epic survival is contrasted with banal death**, told in neutral, documentary Hungarian, using common narrative pivots (*mielőtt kérdeznéd, a dolgok másként alakultak*).
+
+If you want next:
+
+* we can catalogue **Hungarian deadpan humour markers**, or
+* compare this style to **tabloid escalation humour** (like the onion revenge reel).
+
+This one was a very clean example of “funny *because* it’s calm”.
+
 
 -----
 
