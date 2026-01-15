@@ -915,5 +915,15 @@ he **slaps it underneath** so hard that **my ears clap like cymbals**.
 
 [Orbán Viktor a szövegeit is lopja?](https://www.instagram.com/reels/DP_TySfiqBo/)
 
-
-
+[00:00.000 --> 00:03.000]  Csapásokat adunk és kapunk.
+[00:03.000 --> 00:07.000]  Csapásokat adunk és csapásokat kapunk.
+[00:07.000 --> 00:10.000]  Kicsiatét a kedvincsötét.
+[00:10.000 --> 00:13.000]  A kicsiatét a kedvencsötét.
+[00:13.000 --> 00:17.000]  A csúcsra is csak akkor érhec, ha egy hegy eléd be áll.
+[00:17.000 --> 00:23.000]  És csak akkor érhec, csúcsra, ha egy hegy eléd be áll.
+[00:23.000 --> 00:25.000]  Fürkéseket kültem ki.
+[00:25.000 --> 00:26.000]  Fürkéseket kültem ki.
+[00:26.000 --> 00:28.000]  A világ minden részét.
+[00:28.000 --> 00:30.000]  Akik megistértek úgytjukről.
+[00:30.000 --> 00:33.000]  Szóhase becsüljük le a sötét oldal erejét.
+[00:33.000 --> 00:36.000]  Lebecsülöd a sötét oldal hatalmát
