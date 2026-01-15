@@ -659,12 +659,6 @@ No, no, **they don’t get the joke**, for fuck’s sake, they don’t get it.
 
 [Reel](https://www.instagram.com/reel/DRPtRpCDZWA/)
 
-Sticking to the **same format** as before:
-**line-by-line translation**, **key words/phrases highlighted**, then a **vocabulary list**.
-I’ll keep your Hungarian as-is, only mentally normalising obvious spoken-style bits.
-
----
-
 ## Text + line-by-line translation
 
 ### **Annyi van, hogy Lisszabonban, minden sarkon drogot árulnak.**
@@ -675,15 +669,11 @@ The thing is that **in Lisbon, they sell drugs on every corner**.
 * **minden sarkon** = on every corner
 * **árulnak** = they sell
 
----
-
 ### **De minden sarkon.**
 
 Like, **literally every corner**.
 
 * repetition = emphasis
-
----
 
 ### **És nem ilyen diszkréten, hogy „pszt, do you wanna buy something?”**
 
@@ -691,8 +681,6 @@ And not discreetly, like “psst, do you wanna buy something?”
 
 * **diszkréten** = discreetly
 * **pszt** = shh / psst
-
----
 
 ### **Hanem, mint az ilyen balatonparti kukoricaárusok, hogy**
 
@@ -702,16 +690,12 @@ But rather like those **corn sellers at Lake Balaton**, like:
 * **balatonparti** = from Lake Balaton
 * **kukoricaárus** = corn vendor
 
----
-
 ### **„friss a kokain! most meleg a hasis!”**
 
 “**Fresh cocaine! The hash is warm right now!**”
 
 * **friss** = fresh
 * **most meleg** = warm right now (vendor cliché)
-
----
 
 ### **És ha nem veszel, azt nem értik.**
 
@@ -720,8 +704,6 @@ And if you **don’t buy**, they **don’t understand it**.
 * **veszel** = you buy
 * **nem értik** = they don’t get it
 
----
-
 ### **Így odajött egy csávó, hogy „Cocaine, weed, hashish?”**
 
 So a **guy** came up to me like: “Cocaine, weed, hashish?”
@@ -729,21 +711,15 @@ So a **guy** came up to me like: “Cocaine, weed, hashish?”
 * **csávó** = guy, dude (colloquial)
 * **odajön** = come up to someone
 
----
-
 ### **Mondom: „No, thank you!”**
 
 I say: “No, thank you!”
 
 * **mondom** = I say (narrative present)
 
----
-
 ### **Azt mondja: „why?”**
 
 He says: “Why?”
-
----
 
 ### **És erre nem tudsz mit mondani,**
 
@@ -752,16 +728,12 @@ And **to that you can’t really say anything**,
 * **erre** = to this / in response
 * **nem tudsz mit mondani** = you don’t know what to say
 
----
-
 ### **úgyhogy végül is vettem.**
 
 so **in the end, I bought some**.
 
 * **úgyhogy** = so / therefore
 * **végül is** = in the end / after all
-
----
 
 ### **És milyen igaza volt, azért valljuk be.**
 
@@ -770,16 +742,12 @@ And **he was so right**, let’s admit it.
 * **igaza volt** = he was right
 * **valljuk be** = let’s admit it
 
----
-
 ### **És hát voltunk még szörfözni Portugáliában, az is nagyon jó volt.**
 
 And we also went **surfing in Portugal**, that was really good too.
 
 * **voltunk** = we were / we went
 * **szörfözni** = to surf
-
----
 
 ### **Volt egy nagyon laza szörfoktatónk.**
 
@@ -788,8 +756,6 @@ We had a **very laid-back surf instructor**.
 * **laza** = relaxed, chill
 * **szörfoktató** = surf instructor
 
----
-
 ### **Egy ilyen portugál szörfös gyerek.**
 
 This kind of **Portuguese surfer guy**.
@@ -797,13 +763,9 @@ This kind of **Portuguese surfer guy**.
 * **ilyen** = kind of / like this
 * **gyerek** = guy (informal)
 
----
-
 ### **„alright brother! let’s go brother, ready brother!”**
 
 “Alright brother! Let’s go brother, ready brother!”
-
----
 
 ### **Mondom: „Nem tudom bekapcsolni a mentőmellényt.”**
 
@@ -813,13 +775,9 @@ I say: “**I can’t fasten my life jacket**.”
 * **bekapcsolni** = fasten / turn on
 * **mentőmellény** = life jacket
 
----
-
 ### **„Alright brother!”**
 
 “Alright brother!”
-
----
 
 ### **Mondom: „nem fog leesni a vízben?”**
 
@@ -828,13 +786,9 @@ I say: “**It won’t fall off in the water?**”
 * **leesni** = fall off
 * **vízben** = in the water
 
----
-
 ### **„let’s go brother!”**
 
 “Let’s go brother!”
-
----
 
 ### **És az elején tartott ilyen biztonsági eligazítást,**
 
@@ -843,8 +797,6 @@ And at the beginning he gave this **safety briefing**,
 * **az elején** = at the beginning
 * **biztonsági eligazítás** = safety briefing
 
----
-
 ### **mert szörfözni amúgy veszélyes.**
 
 because **surfing is actually dangerous**.
@@ -852,25 +804,17 @@ because **surfing is actually dangerous**.
 * **amúgy** = actually / by the way
 * **veszélyes** = dangerous
 
----
-
 ### **És akkor mondta, hogy: „if you fall,**
 
 And then he said: “If you fall,
-
----
 
 ### **and the board hits you in the head, dead.**
 
 and the board hits you in the head — dead.
 
----
-
 ### **Let’s go brother.”**
 
 Let’s go brother.”
-
----
 
 ### **És olyan laza volt, hogy én mentem vele.**
 
@@ -907,5 +851,3 @@ And he was **so chill** that **I went with him**.
 * **amúgy** – actually
 * **veszélyes** – dangerous
 * **mentem vele** – I went along with him
-
-If you want to keep going, just drop the next reel — same format again.
