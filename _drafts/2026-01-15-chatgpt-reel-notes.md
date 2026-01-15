@@ -856,13 +856,81 @@ And he was **so chill** that **I went with him**.
 
 [Reel](https://www.instagram.com/reel/DTdLzQ2jbEZ/)
 
-P1: Mami, hogy lehet, hogy még mindig ilyen jól tartja magát? Mi a titka?
-P2: Tudod, fiam. Pista bátját, alúról még kemény, mint a lókolbász,
-úgy alán veregeti, hogy a fülem csattog, mint a cintányér.
+Sticking to the **same format as before**:
+**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
+This is crude humour, but it’s adult → adult, so we’re fine to translate.
+
+---
+
+## Text + line-by-line translation
+
+### **P1: Mami, hogy lehet, hogy még mindig ilyen jól tartja magát?**
+
+P1: Mum, how is it possible that she’s **still in such good shape**?
+
+* **hogy lehet, hogy…** = how is it possible that…
+* **jól tartja magát** = looks good for her age / is holding up well (very common idiom)
+
+---
+
+### **Mi a titka?**
+
+What’s her secret?
+
+* **titok** = secret
+
+---
+
+### **P2: Tudod, fiam.**
+
+P2: You know, my son.
+
+* **fiam** = my son (affectionate address)
+
+---
+
+### **P2: Pista bátyád alulról még kemény, mint a lókolbász,**
+
+P2: Your uncle Pista is **still hard from below**, **like a horse sausage**,
+
+* **bátyád** = your older brother / uncle (familial, colloquial)
+* **alulról** = from below (euphemistic positioning)
+* **kemény** = hard
+* **mint a lókolbász** = like a horse sausage (vulgar simile)
+
+---
+
+### **úgy alán veregeti, hogy a fülem csattog, mint a cintányér.**
+
+he **slaps it underneath** so hard that **my ears clap like cymbals**.
+
+* **veregeti** = slaps / pats repeatedly
+* **úgy … hogy** = so … that
+* **csattog** = claps, smacks loudly
+* **cintányér** = cymbal
+
+---
+
+## Vocabulary list
+
+* **jól tartja magát** – looks good for her age / is holding up well
+* **titok** – secret
+* **fiam** – my son (affectionate)
+* **bátyád** – your older brother / uncle (context-dependent)
+* **alulról** – from below (often euphemistic)
+* **kemény** – hard
+* **lókolbász** – horse sausage (crude comparison)
+* **vereget** – slap / pat repeatedly
+* **csattog** – clap, smack loudly
+* **cintányér** – cymbal
+
+This is very **Hungarian folk-style dirty humour**: exaggerated similes, euphemism via direction (*alulról*), and sound imagery.
+If you want to continue, just paste the next one — same format again.
+
 
 -----
 
-[Reel](https://www.instagram.com/reels/DP_TySfiqBo/)
+[Orbán Viktor a szövegeit is lopja?](https://www.instagram.com/reels/DP_TySfiqBo/)
 
-Orbán Viktor a szövegeit is lopja?
+
 
