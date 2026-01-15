@@ -199,27 +199,179 @@ So: *“clean absolutely everything”*
 
 [Reel](https://www.instagram.com/reels/DTPwOqVDKN2/)
 
-Azi hológelszerint azok az emberek, akik folyamatos megérősítésre vajnak a kapcsolatajigban,
-túlgyakra írnak üzenetet, aggódnak, hogyha valaki mérgesnek tűnik,
-vagy pánikbásnak, hogyha nem kapnak választ, gyakran szorongó krötődésre leit mutatják.
-Ez nem azt jelent, hogy túl ígényesek, vagy túl sokak lennének,
-hanem az, hogy az agyuk így vélek ezik az elhagyástól.
-A szorongó krötődést két tulajdonságban nyilvánul meg.
-Az első, hogy túl aggódják az interakciókat.
-Késői válasz, megváltozott hangnám, vagy egy súha is elutasításnak tűnhet,
-ez által a gondolaték gyorsan spirálba kerülnek.
-Mi lenne ha a kérdésekkel, megnehezítik a nyugodt állapot megtartását.
-Második pedig az, hogy túl szorosan ragaszkodnak.
-Az elhagyástól való például miatt ragaszkodhatnak,
-túl sok szor kérnek bocsánatot, vagy több szeretetet adnak, mint amennyit kapnak,
-remélve, hogy megtartják a jó kapcsolatot.
-A szorongó kötülés nem a gyengeségnek a jelen.
-Hanem ez egy ideg rendszerű mintázat, amit a bizonytalság formát.
-Gyakran gyerekkori körnézetből ered, ahol a gondoskolás kiszámíthatatlan volt,
-néha meleg és szeretetteljes volt, máskor pedig távolsártartó vagy figyelmetlen.
-Felnőttként ugyanezeket a félelmeket visszikáta kapcsolataikba,
-felkészülnek a vesztességre és folyamatosan bizonyítékokat keresnek arra, hogy biztonságban vannak.
-Néjen szeretnek, de félnek elveszíteni azt a kapcsolata, mire vágynak.
-Az igazi úgyulás akkor kezdődik, amikor ezek az emberek megtanulják megnyugtatni a fejükben lévő riastást.
-Ektronulnak bizni abba, hogy a szeretet nem tűnik el, akkor sem, hogyha nem bizonyítják ezt folyamatosan.
-Irme komment vagy mit gondolsz elről, és ha tetszik ez a tartalom, akkor kövesbe!
+Got it. I’ll **do exactly the format you asked for** and make one judgement call up front:
+
+👉 **Yes, this needs correction.**
+What you pasted is very typical **Whisper-on-Hungarian**: the *ideas* are clear, but many key words are garbled. This is an *earnest psycho-education reel*, so accuracy matters.
+
+I’ll give you:
+
+1. a **lightly corrected Hungarian** (only where Whisper clearly failed)
+2. **line-by-line translation with key phrases highlighted**
+3. a **vocabulary list at the end**
+
+No extra commentary.
+
+---
+
+## Corrected Hungarian (minimal, conservative)
+
+> **A pszichológia szerint** azok az emberek, akik **folyamatos megerősítésre vágynak a kapcsolataikban**,
+> **túl gyakran írnak üzenetet**, aggódnak, hogyha valaki **mérgesnek tűnik**,
+> vagy **pánikba esnek**, hogyha nem kapnak választ,
+> gyakran **szorongó kötődésre** utaló jeleket mutatnak.
+>
+> Ez nem azt jelenti, hogy **túl igényesek** vagy **túl sokak** lennének,
+> hanem azt, hogy az agyuk így **védekezik az elhagyástól**.
+>
+> A **szorongó kötődés** két tulajdonságban nyilvánul meg.
+>
+> Az első, hogy **túl aggódják az interakciókat**.
+> Egy késői válasz, megváltozott hangnem,
+> vagy egy sóhaj is **elutasításnak tűnhet**,
+> ezáltal a gondolatok gyorsan **spirálba kerülnek**.
+>
+> Mi lenne, ha a kérdésekkel **megnehezítik a nyugodt állapot megtartását**?
+>
+> A második pedig az, hogy **túl szorosan ragaszkodnak**.
+> Az elhagyástól való félelem miatt például ragaszkodhatnak,
+> **túl sokszor kérnek bocsánatot**,
+> vagy **több szeretetet adnak, mint amennyit kapnak**,
+> remélve, hogy **megtartják a kapcsolatot**.
+>
+> A **szorongó kötődés nem a gyengeség jele**,
+> hanem egy **idegrendszeri mintázat**,
+> amit a **bizonytalanság formál**.
+>
+> Gyakran **gyerekkori környezetből ered**,
+> ahol a gondoskodás **kiszámíthatatlan volt**:
+> néha meleg és szeretetteljes,
+> máskor pedig távolságtartó vagy figyelmetlen.
+>
+> Felnőttként ugyanezeket a félelmeket **visszük át a kapcsolatainkba**,
+> felkészülünk a **veszteségre**,
+> és folyamatosan **bizonyítékokat keresünk arra, hogy biztonságban vagyunk**.
+>
+> Nagyon szeretnek,
+> de félnek **elveszíteni azt a kapcsolatot, amire vágynak**.
+>
+> Az igazi **gyógyulás** akkor kezdődik,
+> amikor ezek az emberek megtanulják **megnyugtatni a fejükben lévő riasztást**,
+> és **megtanulnak bízni abban**,
+> hogy a szeretet nem tűnik el akkor sem,
+> ha nem kell **folyamatosan bizonyítani**.
+>
+> Írd meg kommentben, mit gondolsz erről,
+> és ha tetszik a tartalom, kövess be!
+
+---
+
+## Line-by-line translation (key phrases highlighted)
+
+**A pszichológia szerint**
+→ *According to psychology*
+
+**folyamatos megerősítésre vágynak**
+→ *crave constant reassurance*
+
+**túl gyakran írnak üzenetet**
+→ *message too frequently*
+
+**mérgesnek tűnik**
+→ *seems angry*
+
+**pánikba esnek**
+→ *panic*
+
+**szorongó kötődés**
+→ *anxious attachment*
+
+---
+
+**Ez nem azt jelenti, hogy túl igényesek vagy túl sokak lennének**
+→ *This doesn’t mean they’re too demanding or “too much”*
+
+**az agyuk így védekezik az elhagyástól**
+→ *their brain is protecting itself from abandonment*
+
+---
+
+**két tulajdonságban nyilvánul meg**
+→ *manifests in two traits*
+
+---
+
+**túl aggódják az interakciókat**
+→ *overthink interactions*
+
+**elutasításnak tűnhet**
+→ *can seem like rejection*
+
+**spirálba kerülnek**
+→ *spiral*
+
+---
+
+**túl szorosan ragaszkodnak**
+→ *cling too tightly*
+
+**túl sokszor kérnek bocsánatot**
+→ *apologise too often*
+
+**több szeretetet adnak, mint amennyit kapnak**
+→ *give more love than they receive*
+
+---
+
+**nem a gyengeség jele**
+→ *not a sign of weakness*
+
+**idegrendszeri mintázat**
+→ *nervous-system pattern*
+
+---
+
+**kiszámíthatatlan volt**
+→ *was unpredictable*
+
+---
+
+**visszük át a kapcsolatainkba**
+→ *carry into our relationships*
+
+**bizonyítékokat keresnek**
+→ *look for proof*
+
+---
+
+**az igazi gyógyulás**
+→ *real healing*
+
+**megnyugtatni a fejükben lévő riasztást**
+→ *calm the alarm in their head*
+
+**megtanulnak bízni**
+→ *learn to trust*
+
+---
+
+## Vocabulary list
+
+* **pszichológia szerint** – according to psychology
+* **megerősítés** – reassurance
+* **vágyni vmire** – to long for
+* **szorongó kötődés** – anxious attachment
+* **igényes** – demanding
+* **túl sok (valaki)** – “too much” (about a person)
+* **elhagyás** – abandonment
+* **nyilvánul meg** – manifests
+* **elutasítás** – rejection
+* **spirálba kerül** – spiral
+* **ragaszkodik** – cling / be attached
+* **idegrendszeri** – neurological / nervous-system
+* **kiszámíthatatlan** – unpredictable
+* **bizonyíték** – evidence
+* **gyógyulás** – healing
+* **riasztás** – alarm
+
+If you want the **next one done the same way**, just paste it.
