@@ -1004,12 +1004,12 @@ This one draws a **distinction Hungarian speakers often make**:
 
 [Reel](https://www.instagram.com/reels/DTAbkX7DRbX/)
 
-Anya most kaptam 20.000 forintat a fiúktól, hogy felmásszak a fára.
-Ó, Lilla, csak az első neműdet akarták látni.
-Gondoltam rá és előtte levettem.
-Kívhatlak évának.
-Mért?
+Anya most kaptam 20 000 forintat a fiúktól, hogy felmásszak a fára.
+Ó, Lilla, csak az alső neműdet akarták látni.
+Gondoltam rá, és előtte levettem.
+Kívhatlak Évának?
+Miért?
 Mert te voltál az első.
-Akkor én Pajónak hívlak.
-Mért?
+Akkor én Pugeot-nak hívlak.
+Miért?
 Mert te voltál a 206-dik.
