@@ -81,8 +81,6 @@ Did you dig too?
 
 📌 *nézd meg* is extremely common in invitations, suggestions, marketing, and casual speech.
 
----
-
 ### **milyen is az … élmény**
 
 * **milyen** – what kind of
@@ -115,14 +113,10 @@ You’ll hear this a lot outside ads too.
 
 > *itt történik valami* = something is happening here
 
----
-
 ### **menő**
 
 * slang adjective: cool, slick, trendy
   📌 Common in speech, not formal writing.
-
----
 
 ### **Megmutatod a jegyed**
 
@@ -131,16 +125,12 @@ You’ll hear this a lot outside ads too.
 
 📌 *meg-* = completed action prefix.
 
----
-
 ### **mi pedig … fogadunk**
 
 * **pedig** – contrast / continuation (“and we, in turn”)
 * **fogad** – receive / welcome
 
 📌 *fogadunk* here = “we welcome you”.
-
----
 
 ### **nagy mosollyal**
 
@@ -149,16 +139,12 @@ You’ll hear this a lot outside ads too.
 
 📌 Instrumental case used very naturally.
 
----
-
 ### **Kapsz egy karszalagot**
 
 * **kap** – receive / get
 * **karszalag** – wristband
 
 📌 *kap* is one of the most useful verbs in Hungarian.
-
----
 
 ### **ezzel már … vagy**
 
@@ -170,8 +156,6 @@ You’ll hear this a lot outside ads too.
 
 > *ezzel már X vagy* = with this, you’re already X
 
----
-
 ### **Átveszed a névtáblát**
 
 * **átvesz** – take over / receive formally
@@ -179,15 +163,11 @@ You’ll hear this a lot outside ads too.
 
 📌 *átvesz* often used in events, offices, paperwork.
 
----
-
 ### **jó, ha …**
 
 * **jó, ha** – it’s good if / it’s useful if
 
 📌 Very common conversational hedge.
-
----
 
 ### **kivel beszél**
 
@@ -196,16 +176,12 @@ You’ll hear this a lot outside ads too.
 
 📌 Case endings do a lot of work here.
 
----
-
 ### **Ezután jön…**
 
 * **ezután** – after this
 * **jön** – comes
 
 📌 Great sequencing phrase.
-
----
 
 ### **egy gyors … egy rövid …**
 
@@ -214,16 +190,10 @@ You’ll hear this a lot outside ads too.
 
 📌 Adjective stacking like this is very natural.
 
----
-
 ### **később pedig**
 
 * **később** – later
 * **pedig** – then / and
-
-📌 *pedig* again as a discourse connector.
-
----
 
 ### **kiküldjük nektek**
 
@@ -232,15 +202,11 @@ You’ll hear this a lot outside ads too.
 
 📌 Prefix **ki-** = outward movement.
 
----
-
 ### **Ez az X**
 
 * fixed phrase: “This is X.”
 
 📌 Used constantly in explanations and introductions.
-
----
 
 ### **próbáld ki**
 
@@ -248,8 +214,6 @@ You’ll hear this a lot outside ads too.
 * imperative form
 
 📌 One of the most useful verbs in invitations.
-
----
 
 ## Vocabulary worth keeping (compact list)
 
@@ -291,180 +255,217 @@ You’ll hear this a lot outside ads too.
 
 -----
 
-
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
 ## Line-by-line breakdown
 
-**Ezért tanulj meg angolul, hogyha csak németre jártál.**
+### **Ezért tanulj meg angolul, hogyha csak németre jártál.**
+
 That’s why you should learn English if you only ever went to German class.
 
 * *ezért* = that’s why
 * *tanulj meg* = learn (imperative)
 * *csak németre jártál* = you only attended German (classes)
 
-**Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
+### **Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
+
 Tóth Gabi reacted to her singing, which is already spreading almost like a meme.
 
 * *már-már* = almost
 * *mémként terjedő* = spreading as a meme
 
-**És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
+### **És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
+
 And honestly, for a moment I thought this was going to be a normal video.
 
 * *amúgy* = by the way / honestly
 * *egy pillanatra* = for a moment
 
-> **Hogy miért kell ezen ennyit vekengeni, emberek?**
+> **Hogy miért kell ezen ennyit vekengeni, emberek?**
+>
 > Why do people have to fuss over this so much?
 
 * *vekengeni* = whine, agonize, make a fuss (emotionally loaded)
 
-**Hát öt éve járok fideszes rendezvényekre énekelni.**
-Well, I’ve been going to Fidesz events to sing for five years.
+> **Hát öt éve járok fideszes rendezvényekre énekelni.**
+>
+> Well, I’ve been going to Fidesz events to sing for five years.
 
 * *hát* = discourse filler (“well”)
 * *fideszes rendezvények* = Fidesz-affiliated events
 
-**Mikor lesz már az, hogy na jó.**
-When will it finally be like, “okay, enough.”
+> **Mikor lesz már az, hogy na jó.**
+>
+> When will it finally be like, “okay, enough.”
 
 * *már* = already / finally (impatience marker)
 
-**A videónak egyébként nagyon sok kivetnivaló része van,**
+### **A videónak egyébként nagyon sok kivetnivaló része van,**
+
 By the way, the video has a lot of things that can be criticized,
 
 * *kivetnivaló* = objectionable, open to criticism
 
-**viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
+### **viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
+
 but I still got worked up over just one single thing.
 
 * *felhúzza magát* = get worked up / annoyed
 
 > **Én meg találtam a legjobb arckrémet, ezt az Omorovicát.**
+>
 > And I, meanwhile, found the best face cream — this Omorovicza.
-
-**Na ez-ez sokkal fontosabb,**
-Now this — this is much more important,
-
-* repetition = emphasis, slightly chaotic delivery
-
-**mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken,**
-because this helps when you completely wreck your nerves over things like this,
+>
+> **Na ez-ez sokkal fontosabb,**
+>
+> Now this — this is much more important,
+> **mert ez segít azon, hogy ha te szétidegeled magadat ilyeneken,**
+> 
+> because this helps when you completely wreck your nerves over things like this,
 
 * *szétidegeli magát* = completely stress oneself out
 
-**és időt szánsz arra, hogy kinyomtass egy szöveget,**
-and you spend time printing out a text,
+> **és időt szánsz arra, hogy kinyomtass egy szöveget,**
+>
+> and you spend time printing out a text,
 
-**és előtte leírd fonetikusan, ennyi—**
-and writing it out phonetically beforehand, that’s it—
+> **és előtte leírd fonetikusan, ennyi—**
+>
+> and writing it out phonetically beforehand, that’s it—
 
-**Értem, hogy az angol kiejtéssel nem vagy tisztában,**
+### **Értem, hogy az angol kiejtéssel nem vagy tisztában,**
+
 I understand that you’re not familiar with English pronunciation,
 
 * *tisztában van vmivel* = be aware of / knowledgeable about
 
-**de azzal vajon tisztában vagy-e,**
+### **de azzal vajon tisztában vagy-e,**
+
 but are you perhaps aware of the fact
 
 * *vajon* = rhetorical uncertainty
 
-**hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
+### **hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
+
 that the cream you’re kindly recommending to everyone who’s annoyed at you,
 
 * *ajánlgat* = recommend repeatedly (slightly dismissive nuance)
 
-**az egy olyan árkategória,**
+### **az egy olyan árkategória,**
+
 is in a price category
 
-**amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
+### **amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
+
 that about eighty percent of Hungary cannot afford
 
-**hogy megvásárolja magának.**
+### **hogy megvásárolja magának.**
+
 to buy for themselves.
 
-**Ugyanis ez a termék egy luxuskozmetikum.**
+### **Ugyanis ez a termék egy luxuskozmetikum.**
+
 Because this product is a luxury cosmetic.
 
-**Egy olyan országban teszed ezt,**
+### **Egy olyan országban teszed ezt,**
+
 You’re doing this in a country
 
-**ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
+### **ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
+
 where hospitalized patients literally get food like this in hospitals.
 
 * *konkrétan* = literally / bluntly
 
-**Egy olyan országban teszed ezt, ahol a nettó átlagbér**
+### **Egy olyan országban teszed ezt, ahol a nettó átlagbér**
+
 You’re doing this in a country where the net average salary
 
-**a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
+### **a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
+
 according to official KSH data, is between 380 and 420 thousand forints.
 
-**Hozzátenném egyébként,**
+### **Hozzátenném egyébként,**
+
 I’d add, by the way,
 
-**hogy azon a két helyen, ahol most jelenleg én voltam,**
+### **hogy azon a két helyen, ahol most jelenleg én voltam,**
+
 that at the two places where I personally was recently,
 
-**ott mondjuk csak háromötvenet ajánlottak.**
+### **ott mondjuk csak háromötvenet ajánlottak.**
+
 they were only offering 350.
 
 * *mondjuk* = “say / let’s say”, softens statement
 
-**És nem az a probléma, hogy te egy ilyen krémet használsz,**
+### **És nem az a probléma, hogy te egy ilyen krémet használsz,**
+
 And the problem isn’t that you use a cream like this,
 
-**hiszen ez nyilván szíved joga.**
+### **hiszen ez nyilván szíved joga.**
+
 since that’s obviously your right.
 
-**A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
+### **A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
+
 The problem is that you most likely bought this too with money
 
-**amit egy olyan kormánytól kaptál,**
+### **amit egy olyan kormánytól kaptál,**
+
 that you received from a government
 
-**aki ezt az összeget befektethette volna a kórházakba is,**
+### **aki ezt az összeget befektethette volna a kórházakba is,**
+
 which could have invested that amount into hospitals,
 
-**vagy a kórházi étkezésbe, vagy bármi másba.**
+### **vagy a kórházi étkezésbe, vagy bármi másba.**
+
 or hospital food, or anything else.
 
-**Gabi, én sosem készítettem volna videót**
+### **Gabi, én sosem készítettem volna videót**
+
 Gabi, I never would have made a video
 
-**a borzasztó angol kiejtésedről,**
+### **a borzasztó angol kiejtésedről,**
+
 about your terrible English pronunciation,
 
-**és nem is bántottalak volna miatta.**
+### **és nem is bántottalak volna miatta.**
+
 and I wouldn’t have attacked you for it either.
 
-**És ez a reakcióvideó egyébként lehetett volna**
+### **És ez a reakcióvideó egyébként lehetett volna**
+
 And this reaction video could have been
 
-**egy egész emberi videó is tőled,**
+### **egy egész emberi videó is tőled,**
+
 a fully human, decent video from you,
 
-**csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
+### **csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
+
 but this ended up being just… very, very, very much “that’s it.”
 
 * *ennyi volt* = that’s all / that’s where it ends (dismissive)
 
-**Szóval remélem, hogy a jövőben**
+### **Szóval remélem, hogy a jövőben**
+
 So I hope that in the future
 
-**most már inkább mielőtt valamit kimondasz,**
+### **most már inkább mielőtt valamit kimondasz,**
+
 before you say something,
 
-**majd végiggondolod,**
+### **majd végiggondolod,**
+
 you’ll think it through,
 
-**és csak azután ejted ki a szádon.**
+### **és csak azután ejted ki a szádon.**
+
 and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
-
----
 
 ## Contextual vocabulary from the reel
 
@@ -479,8 +480,6 @@ and only then let it out of your mouth.
 
 📌 Much stronger than *panaszkodni* (to complain).
 
----
-
 ### **kivetnivaló**
 
 > *„A videónak nagyon sok kivetnivaló része van.”*
@@ -491,8 +490,6 @@ and only then let it out of your mouth.
 * Formal-to-neutral register
 
 📌 Common in criticism, reviews, arguments.
-
----
 
 ### **felhúzza magát (vmin)**
 
@@ -505,8 +502,6 @@ and only then let it out of your mouth.
 
 📌 Very common in spoken Hungarian.
 
----
-
 ### **amúgy**
 
 > *„És én amúgy egy pillanatra azt hittem…”*
@@ -517,8 +512,6 @@ and only then let it out of your mouth.
 * Softens tone, signals personal stance
 
 📌 Extremely frequent in speech; hard to translate literally.
-
----
 
 ### **már-már**
 
@@ -531,8 +524,6 @@ and only then let it out of your mouth.
 
 📌 Common in commentary and journalism.
 
----
-
 ### **tisztában van (vmivel)**
 
 > *„az angol kiejtéssel nem vagy tisztában”*
@@ -543,8 +534,6 @@ and only then let it out of your mouth.
 * Requires **-val/-vel** case
 
 📌 Very useful outside this context.
-
----
 
 ### **vajon**
 
@@ -557,8 +546,6 @@ and only then let it out of your mouth.
 
 📌 Adds irony or challenge.
 
----
-
 ### **ajánlgat**
 
 > *„amit ajánlgatsz mindenkinek”*
@@ -569,8 +556,6 @@ and only then let it out of your mouth.
 * Slightly dismissive nuance
 
 📌 Important contrast with neutral *ajánl*.
-
----
 
 ### **árkategória**
 
@@ -592,8 +577,6 @@ and only then let it out of your mouth.
 
 📌 Much more common than literal “afford” verbs.
 
----
-
 ### **konkrétan**
 
 > *„a kórházakban konkrétan ilyen ételt kapnak”*
@@ -604,8 +587,6 @@ and only then let it out of your mouth.
 * Often used emotionally, not scientifically
 
 📌 Similar to English “literally” in tone.
-
----
 
 ### **hozzátenném**
 
@@ -618,8 +599,6 @@ and only then let it out of your mouth.
 
 📌 Very common in structured speech.
 
----
-
 ### **szíved joga**
 
 > *„ez nyilván szíved joga”*
@@ -631,8 +610,6 @@ and only then let it out of your mouth.
 
 📌 Often followed by *de…*
 
----
-
 ### **nagy valószínűséggel**
 
 > *„nagy valószínűséggel ezt is olyan pénzből vetted”*
@@ -641,8 +618,6 @@ and only then let it out of your mouth.
 
 * Formal compound phrase
 * Used in arguments to soften accusations
-
----
 
 ### **ennyi volt**
 
@@ -654,8 +629,6 @@ and only then let it out of your mouth.
 * Strong pragmatic force
 
 📌 Very common in spoken Hungarian.
-
----
 
 ### **ejti ki a száján**
 
