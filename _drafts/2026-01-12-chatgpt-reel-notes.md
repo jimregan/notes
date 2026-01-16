@@ -223,3 +223,68 @@ Később kiderül az igazság,
 
 [Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
 
+-----
+
+[Reel](https://www.instagram.com/reel/DTLidn_kc58/)
+
+### Line-by-line translation
+
+**A baba nem akart kijönni.**
+The baby *didn’t want to come out*.
+
+**A doki azt mondta nekünk, hogy:**
+The doctor said to us that:
+
+**„Van ez az alternatív megoldás: a bábakoktél.”**
+“There is this *alternative solution*: the **midwives’ cocktail**.”
+
+**Minden hozzávalója rosszabb, mint az előző.**
+Every ingredient is *worse than the previous one*.
+
+**Ez ilyen, hogy lekvár, ricinusolaj, alkohol!**
+It’s stuff like *jam, castor oil, alcohol*!
+
+**Van a mojito, ezt úgy hívtam, hogy a fosító.**
+There’s the *mojito* — I called this one *the “poop-ito”*.
+(*fosni* = to have diarrhoea; crude wordplay)
+
+**Beszéltem az anyukámmal.**
+I talked to my mum.
+
+**Nem tudtam, hogy igyuk, ne igyuk…**
+I didn’t know whether we should drink it or not…
+
+**Az anyukám azt mondta:**
+My mum said:
+
+**„Nincs gond. Én terhesen folyamatosan bort ittam, és minden gyerekem normális!”**
+“No problem. I *constantly drank wine while pregnant*, and *all my kids turned out normal*!”
+
+**Tényleg? Ez biztos?**
+Really? Are you sure?
+
+**Remélem, nem dohányoztál legalább.**
+I hope at least you didn’t smoke.
+
+**„Hát tudod, hogyha beb*sztam, mindig kellett mellé egy kis cigi.”**
+“Well, you know, *when I got wasted*, I always needed *a little cigarette* to go with it.”
+
+### Vocabulary
+
+* **kijön** – come out
+* **doki** – doc (colloquial)
+* **alternatív megoldás** – alternative solution
+* **bábakoktél** – midwives’ cocktail (folk/alternative labour-inducing drink)
+* **hozzávaló** – ingredient
+* **ricinusolaj** – castor oil
+* **fosító** – “something that gives you diarrhoea” (vulgar)
+* **igyuk / ne igyuk** – should we drink it / shouldn’t we
+* **terhesen** – while pregnant
+* **folyamatosan** – constantly
+* **normális** – normal (very loaded, casual usage)
+* **dohányozni** – to smoke
+* **beb*sztam** – I got drunk (vulgar slang)
+* **kellett mellé** – needed alongside it
+* **cigi** – cigarette (informal)
+
+This is very much **shock-humour built on generational contrast**: modern medical caution vs. older “we survived, didn’t we?” attitudes — exaggerated to the point of absurdity.
