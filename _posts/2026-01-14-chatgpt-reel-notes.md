@@ -9,16 +9,16 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
-### **Anya, hol van apa?**
+**Anya, hol van apa?**
 
 Mom, where is dad?
 
 * *anya / apa* = mom / dad (neutral, everyday)
 * direct address, child’s voice
 
-### **Apával egy kicsit összevesztünk. Kint van a kertben.**
+**Apával egy kicsit összevesztünk. Kint van a kertben.**
 
 Dad and I had a little argument. He’s out in the garden.
 
@@ -27,14 +27,14 @@ Dad and I had a little argument. He’s out in the garden.
 * *összevesztünk* = we had an argument (mutual)
 * *kint* = outside
 
-### **Megnéztem, de nincs kint.**
+**Megnéztem, de nincs kint.**
 
 I checked, but he’s not outside.
 
 * *megnéztem* = I checked / I looked
 * *de* = but
 
-### **Ástál is?**
+**Ástál is?**
 
 Did you dig too?
 
@@ -42,7 +42,7 @@ Did you dig too?
 * *-tál* = past tense, 2nd person singular
 * *is* = too / as well
 
-## Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
 **Family**
 
@@ -71,9 +71,9 @@ Did you dig too?
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-## Sentence-by-sentence**
+### Sentence-by-sentence**
 
-### **Gyere, és nézd meg velünk…**
+**Gyere, és nézd meg velünk…**
 
 * **gyere** – come (imperative, informal)
 * **nézd meg** – check out / have a look
@@ -81,7 +81,7 @@ Did you dig too?
 
 📌 *nézd meg* is extremely common in invitations, suggestions, marketing, and casual speech.
 
-### **milyen is az … élmény**
+**milyen is az … élmény**
 
 * **milyen** – what kind of
 * **-is** – soft emphasis (“actually / really”)
@@ -90,21 +90,21 @@ Did you dig too?
 📌 *milyen is…* = “what it’s really like”
 You’ll hear this a lot outside ads too.
 
-### **Belépsz az ajtón**
+**Belépsz az ajtón**
 
 * **belép** – enter, step inside
 * **ajtó** – door
 
 📌 Verb prefix **be-** = inward movement (very Hungarian, very reusable).
 
-### **máris érzed**
+**máris érzed**
 
 * **máris** – immediately / right away
 * **érez** – feel
 
 📌 *máris* is a great adverb to learn; very conversational.
 
-### **történik valami**
+**történik valami**
 
 * **történik** – happens
 * **valami** – something
@@ -113,40 +113,40 @@ You’ll hear this a lot outside ads too.
 
 > *itt történik valami* = something is happening here
 
-### **menő**
+**menő**
 
 * slang adjective: cool, slick, trendy
   📌 Common in speech, not formal writing.
 
-### **Megmutatod a jegyed**
+**Megmutatod a jegyed**
 
 * **megmutat** – show
 * **jegy** – ticket
 
 📌 *meg-* = completed action prefix.
 
-### **mi pedig … fogadunk**
+**mi pedig … fogadunk**
 
 * **pedig** – contrast / continuation (“and we, in turn”)
 * **fogad** – receive / welcome
 
 📌 *fogadunk* here = “we welcome you”.
 
-### **nagy mosollyal**
+**nagy mosollyal**
 
 * **mosoly** – smile
 * **-val** – with
 
 📌 Instrumental case used very naturally.
 
-### **Kapsz egy karszalagot**
+**Kapsz egy karszalagot**
 
 * **kap** – receive / get
 * **karszalag** – wristband
 
 📌 *kap* is one of the most useful verbs in Hungarian.
 
-### **ezzel már … vagy**
+**ezzel már … vagy**
 
 * **ezzel** – with this
 * **már** – already
@@ -156,66 +156,66 @@ You’ll hear this a lot outside ads too.
 
 > *ezzel már X vagy* = with this, you’re already X
 
-### **Átveszed a névtáblát**
+**Átveszed a névtáblát**
 
 * **átvesz** – take over / receive formally
 * **névtábla** – name badge
 
 📌 *átvesz* often used in events, offices, paperwork.
 
-### **jó, ha …**
+**jó, ha …**
 
 * **jó, ha** – it’s good if / it’s useful if
 
 📌 Very common conversational hedge.
 
-### **kivel beszél**
+**kivel beszél**
 
 * **kivel** – with whom
 * **beszél** – talk
 
 📌 Case endings do a lot of work here.
 
-### **Ezután jön…**
+**Ezután jön…**
 
 * **ezután** – after this
 * **jön** – comes
 
 📌 Great sequencing phrase.
 
-### **egy gyors … egy rövid …**
+**egy gyors … egy rövid …**
 
 * **gyors** – quick
 * **rövid** – short
 
 📌 Adjective stacking like this is very natural.
 
-### **később pedig**
+**később pedig**
 
 * **később** – later
 * **pedig** – then / and
 
-### **kiküldjük nektek**
+**kiküldjük nektek**
 
 * **kiküld** – send out
 * **nektek** – to you (plural)
 
 📌 Prefix **ki-** = outward movement.
 
-### **Ez az X**
+**Ez az X**
 
 * fixed phrase: “This is X.”
 
 📌 Used constantly in explanations and introductions.
 
-### **próbáld ki**
+**próbáld ki**
 
 * **kipróbál** – try out
 * imperative form
 
 📌 One of the most useful verbs in invitations.
 
-## Vocabulary worth keeping (compact list)
+### Vocabulary worth keeping (compact list)
 
 **Verbs**
 
@@ -257,9 +257,9 @@ You’ll hear this a lot outside ads too.
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
-## Line-by-line breakdown
+### Line-by-line breakdown
 
-### **Ezért tanulj meg angolul, hogyha csak németre jártál.**
+**Ezért tanulj meg angolul, hogyha csak németre jártál.**
 
 That’s why you should learn English if you only ever went to German class.
 
@@ -267,14 +267,14 @@ That’s why you should learn English if you only ever went to German class.
 * *tanulj meg* = learn (imperative)
 * *csak németre jártál* = you only attended German (classes)
 
-### **Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
+**Tóth Gabi reagált a már-már mémként terjedő éneklésére.**
 
 Tóth Gabi reacted to her singing, which is already spreading almost like a meme.
 
 * *már-már* = almost
 * *mémként terjedő* = spreading as a meme
 
-### **És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
+**És én amúgy egy pillanatra azt hittem, hogy ez egy normális videó lesz.**
 
 And honestly, for a moment I thought this was going to be a normal video.
 
@@ -300,13 +300,13 @@ And honestly, for a moment I thought this was going to be a normal video.
 
 * *már* = already / finally (impatience marker)
 
-### **A videónak egyébként nagyon sok kivetnivaló része van,**
+**A videónak egyébként nagyon sok kivetnivaló része van,**
 
 By the way, the video has a lot of things that can be criticized,
 
 * *kivetnivaló* = objectionable, open to criticism
 
-### **viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
+**viszont én mégis egyetlenegy dolgon húztam csak fel magam.**
 
 but I still got worked up over just one single thing.
 
@@ -333,143 +333,143 @@ but I still got worked up over just one single thing.
 >
 > and writing it out phonetically beforehand, that’s it—
 
-### **Értem, hogy az angol kiejtéssel nem vagy tisztában,**
+**Értem, hogy az angol kiejtéssel nem vagy tisztában,**
 
 I understand that you’re not familiar with English pronunciation,
 
 * *tisztában van vmivel* = be aware of / knowledgeable about
 
-### **de azzal vajon tisztában vagy-e,**
+**de azzal vajon tisztában vagy-e,**
 
 but are you perhaps aware of the fact
 
 * *vajon* = rhetorical uncertainty
 
-### **hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
+**hogy a krém, amit ajánlgatsz jószívűen mindenkinek, aki ideges rád,**
 
 that the cream you’re kindly recommending to everyone who’s annoyed at you,
 
 * *ajánlgat* = recommend repeatedly (slightly dismissive nuance)
 
-### **az egy olyan árkategória,**
+**az egy olyan árkategória,**
 
 is in a price category
 
-### **amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
+**amit Magyarország körülbelül nyolcvan százaléka nem tehet meg,**
 
 that about eighty percent of Hungary cannot afford
 
-### **hogy megvásárolja magának.**
+**hogy megvásárolja magának.**
 
 to buy for themselves.
 
-### **Ugyanis ez a termék egy luxuskozmetikum.**
+**Ugyanis ez a termék egy luxuskozmetikum.**
 
 Because this product is a luxury cosmetic.
 
-### **Egy olyan országban teszed ezt,**
+**Egy olyan országban teszed ezt,**
 
 You’re doing this in a country
 
-### **ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
+**ahol a kórházakban konkrétan ilyen ételt kapnak a fekvőbetegek.**
 
 where hospitalized patients literally get food like this in hospitals.
 
 * *konkrétan* = literally / bluntly
 
-### **Egy olyan országban teszed ezt, ahol a nettó átlagbér**
+**Egy olyan országban teszed ezt, ahol a nettó átlagbér**
 
 You’re doing this in a country where the net average salary
 
-### **a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
+**a KSH hivatalos adatai szerint 380 és 420 ezer forint között van.**
 
 according to official KSH data, is between 380 and 420 thousand forints.
 
-### **Hozzátenném egyébként,**
+**Hozzátenném egyébként,**
 
 I’d add, by the way,
 
-### **hogy azon a két helyen, ahol most jelenleg én voltam,**
+**hogy azon a két helyen, ahol most jelenleg én voltam,**
 
 that at the two places where I personally was recently,
 
-### **ott mondjuk csak háromötvenet ajánlottak.**
+**ott mondjuk csak háromötvenet ajánlottak.**
 
 they were only offering 350.
 
 * *mondjuk* = “say / let’s say”, softens statement
 
-### **És nem az a probléma, hogy te egy ilyen krémet használsz,**
+**És nem az a probléma, hogy te egy ilyen krémet használsz,**
 
 And the problem isn’t that you use a cream like this,
 
-### **hiszen ez nyilván szíved joga.**
+**hiszen ez nyilván szíved joga.**
 
 since that’s obviously your right.
 
-### **A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
+**A probléma az, hogy nagy valószínűséggel ezt is olyan pénzből vetted,**
 
 The problem is that you most likely bought this too with money
 
-### **amit egy olyan kormánytól kaptál,**
+**amit egy olyan kormánytól kaptál,**
 
 that you received from a government
 
-### **aki ezt az összeget befektethette volna a kórházakba is,**
+**aki ezt az összeget befektethette volna a kórházakba is,**
 
 which could have invested that amount into hospitals,
 
-### **vagy a kórházi étkezésbe, vagy bármi másba.**
+**vagy a kórházi étkezésbe, vagy bármi másba.**
 
 or hospital food, or anything else.
 
-### **Gabi, én sosem készítettem volna videót**
+**Gabi, én sosem készítettem volna videót**
 
 Gabi, I never would have made a video
 
-### **a borzasztó angol kiejtésedről,**
+**a borzasztó angol kiejtésedről,**
 
 about your terrible English pronunciation,
 
-### **és nem is bántottalak volna miatta.**
+**és nem is bántottalak volna miatta.**
 
 and I wouldn’t have attacked you for it either.
 
-### **És ez a reakcióvideó egyébként lehetett volna**
+**És ez a reakcióvideó egyébként lehetett volna**
 
 And this reaction video could have been
 
-### **egy egész emberi videó is tőled,**
+**egy egész emberi videó is tőled,**
 
 a fully human, decent video from you,
 
-### **csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
+**csak ez így egy ilyen nagyon, nagyon, nagyon ennyi volt.**
 
 but this ended up being just… very, very, very much “that’s it.”
 
 * *ennyi volt* = that’s all / that’s where it ends (dismissive)
 
-### **Szóval remélem, hogy a jövőben**
+**Szóval remélem, hogy a jövőben**
 
 So I hope that in the future
 
-### **most már inkább mielőtt valamit kimondasz,**
+**most már inkább mielőtt valamit kimondasz,**
 
 before you say something,
 
-### **majd végiggondolod,**
+**majd végiggondolod,**
 
 you’ll think it through,
 
-### **és csak azután ejted ki a szádon.**
+**és csak azután ejted ki a szádon.**
 
 and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
 
-## Contextual vocabulary from the reel
+### Contextual vocabulary from the reel
 
-### **vekengeni**
+**vekengeni**
 
 > *„Miért kell ezen ennyit vekengeni, emberek?”*
 
@@ -480,7 +480,7 @@ and only then let it out of your mouth.
 
 📌 Much stronger than *panaszkodni* (to complain).
 
-### **kivetnivaló**
+**kivetnivaló**
 
 > *„A videónak nagyon sok kivetnivaló része van.”*
 
@@ -491,7 +491,7 @@ and only then let it out of your mouth.
 
 📌 Common in criticism, reviews, arguments.
 
-### **felhúzza magát (vmin)**
+**felhúzza magát (vmin)**
 
 > *„Egyetlenegy dolgon húztam fel magam.”*
 
@@ -502,7 +502,7 @@ and only then let it out of your mouth.
 
 📌 Very common in spoken Hungarian.
 
-### **amúgy**
+**amúgy**
 
 > *„És én amúgy egy pillanatra azt hittem…”*
 
@@ -513,7 +513,7 @@ and only then let it out of your mouth.
 
 📌 Extremely frequent in speech; hard to translate literally.
 
-### **már-már**
+**már-már**
 
 > *„már-már mémként terjedő”*
 
@@ -524,7 +524,7 @@ and only then let it out of your mouth.
 
 📌 Common in commentary and journalism.
 
-### **tisztában van (vmivel)**
+**tisztában van (vmivel)**
 
 > *„az angol kiejtéssel nem vagy tisztában”*
 
@@ -535,7 +535,7 @@ and only then let it out of your mouth.
 
 📌 Very useful outside this context.
 
-### **vajon**
+**vajon**
 
 > *„azzal vajon tisztában vagy-e…”*
 
@@ -546,7 +546,7 @@ and only then let it out of your mouth.
 
 📌 Adds irony or challenge.
 
-### **ajánlgat**
+**ajánlgat**
 
 > *„amit ajánlgatsz mindenkinek”*
 
@@ -557,7 +557,7 @@ and only then let it out of your mouth.
 
 📌 Important contrast with neutral *ajánl*.
 
-### **árkategória**
+**árkategória**
 
 > *„egy olyan árkategória”*
 
@@ -566,7 +566,7 @@ and only then let it out of your mouth.
 * Common in consumer talk
 * Semi-formal compound noun
 
-### **nem teheti meg (hogy …)**
+**nem teheti meg (hogy …)**
 
 > *„nem teheti meg, hogy megvásárolja”*
 
@@ -577,7 +577,7 @@ and only then let it out of your mouth.
 
 📌 Much more common than literal “afford” verbs.
 
-### **konkrétan**
+**konkrétan**
 
 > *„a kórházakban konkrétan ilyen ételt kapnak”*
 
@@ -588,7 +588,7 @@ and only then let it out of your mouth.
 
 📌 Similar to English “literally” in tone.
 
-### **hozzátenném**
+**hozzátenném**
 
 > *„Hozzátenném egyébként…”*
 
@@ -599,7 +599,7 @@ and only then let it out of your mouth.
 
 📌 Very common in structured speech.
 
-### **szíved joga**
+**szíved joga**
 
 > *„ez nyilván szíved joga”*
 
@@ -610,7 +610,7 @@ and only then let it out of your mouth.
 
 📌 Often followed by *de…*
 
-### **nagy valószínűséggel**
+**nagy valószínűséggel**
 
 > *„nagy valószínűséggel ezt is olyan pénzből vetted”*
 
@@ -619,7 +619,7 @@ and only then let it out of your mouth.
 * Formal compound phrase
 * Used in arguments to soften accusations
 
-### **ennyi volt**
+**ennyi volt**
 
 > *„ez így egy ilyen… ennyi volt”*
 
@@ -630,7 +630,7 @@ and only then let it out of your mouth.
 
 📌 Very common in spoken Hungarian.
 
-### **ejti ki a száján**
+**ejti ki a száján**
 
 > *„csak azután ejted ki a szádon”*
 
@@ -643,166 +643,166 @@ and only then let it out of your mouth.
 
 [Reel](https://www.instagram.com/reels/DRFXZrciGB9/)
 
-## Line-by-line HU → EN
+### Line-by-line HU → EN
 
-### **Te, van egy hot take-etek, ami…**
+**Te, van egy hot take-etek, ami…**
 
 Hey, do you guys have a hot take that…
 
 * *te* = casual “hey”
 * *hot take* = borrowed English, fully natural in speech
 
-### **Csípős.**
+**Csípős.**
 
 Spicy.
 
-### **És mi a csípős-csípős dolog?**
+**És mi a csípős-csípős dolog?**
 
 And what’s the *really* spicy thing?
 
-### **Azokat az embereket automatikusan butának tartjuk…**
+**Azokat az embereket automatikusan butának tartjuk…**
 
 We automatically consider those people stupid…
 
-### **…akiknek minden második mondata úgy kezdődik, hogy:**
+**…akiknek minden második mondata úgy kezdődik, hogy:**
 
 …whose every second sentence starts like this:
 
-### **„Megkérdeztem a ChatGPT-t, és…”**
+**„Megkérdeztem a ChatGPT-t, és…”**
 
 “I asked ChatGPT, and…”
 
-### **Egyetértek. Teljes mértékben egyetértek.**
+**Egyetértek. Teljes mértékben egyetértek.**
 
 I agree. I completely agree.
 
-### **Jaj, ne!**
+**Jaj, ne!**
 
 Oh no!
 
-### **De miért? Hát nem.**
+**De miért? Hát nem.**
 
 But why? Well… no.
 
 * *hát* = hesitation / soft contradiction
 
-### **Azt akartam, hogy ne érts egyet.**
+**Azt akartam, hogy ne érts egyet.**
 
 I wanted you *not* to agree.
 
-### **Szerintem konkrétan vannak olyan emberek…**
+**Szerintem konkrétan vannak olyan emberek…**
 
 I think there are, quite literally, people…
 
-### **teszem hozzá, kicsit sértve érzem magam,**
+**teszem hozzá, kicsit sértve érzem magam,**
 
 I’ll add — I feel a bit offended,
 
 * *teszem hozzá* = parenthetical “I should add”
 
-### **mert én is ezek közé az emberek közé tartozom. Most már.**
+**mert én is ezek közé az emberek közé tartozom. Most már.**
 
 because I’m among these people too. By now.
 
 * *most már* = “at this point / now already”
 
-### **Tök jó lenne, ha lenne annyi lexikális tudásom…**
+**Tök jó lenne, ha lenne annyi lexikális tudásom…**
 
 It would be really nice if I had enough lexical knowledge…
 
 * *tök jó* = very colloquial “really great”
 
-### **…hogy nem kéne mindenről megkérdeznem egy buta gépet.**
+**…hogy nem kéne mindenről megkérdeznem egy buta gépet.**
 
 …so that I wouldn’t have to ask a stupid machine about everything.
 
-### **De mondjuk az időjárást is…**
+**De mondjuk az időjárást is…**
 
 But say, even the weather…
 
 * *mondjuk* = “for example / let’s say”
 
-### **…ahelyett, hogy kiszagolnál az ablakon.**
+**…ahelyett, hogy kiszagolnál az ablakon.**
 
 …instead of sniffing it out through the window.
 
-### **Vagy kidugnád ezt az ujjadat.**
+**Vagy kidugnád ezt az ujjadat.**
 
 Or sticking your finger out.
 
-### **Megnyalva!**
+**Megnyalva!**
 
 Licked!
 
-### **Igen, akkor a szelet is érzékeled.**
+**Igen, akkor a szelet is érzékeled.**
 
 Yeah, then you can sense the wind too.
 
-### **A szelet is érzékelem.**
+**A szelet is érzékelem.**
 
 I sense the wind too.
 
-### **A csapadékot meg ilyesmiket.**
+**A csapadékot meg ilyesmiket.**
 
 And precipitation and stuff like that.
 
 * *meg ilyesmiket* = “and things like that”
 
-### **Én sajnos ChatGPT-guy vagyok,**
+**Én sajnos ChatGPT-guy vagyok,**
 
 Unfortunately, I’m a ChatGPT guy,
 
-### **de ettől függetlenül teljesen egyetértek vele,**
+**de ettől függetlenül teljesen egyetértek vele,**
 
 but regardless of that, I fully agree with him,
 
 * *ettől függetlenül* = “nevertheless”
 
-### **…hogy megszűnt az a világ, amikor mi még gondolkodtunk.**
+**…hogy megszűnt az a világ, amikor mi még gondolkodtunk.**
 
 …that the world where we still thought for ourselves is gone.
 
-### **Ne mondjátok nekem, hogy ti nem ChatGPT-ztek…**
+**Ne mondjátok nekem, hogy ti nem ChatGPT-ztek…**
 
 Don’t tell me you don’t ChatGPT all the time…
 
-### **A diplomamunkátokat azzal adtátok be.**
+**A diplomamunkátokat azzal adtátok be.**
 
 You submitted your thesis using it.
 
-### **Nekem még nincs diplomám.**
+**Nekem még nincs diplomám.**
 
 I don’t have a degree yet.
 
-### **Nekem 0,5 diplomám van.**
+**Nekem 0,5 diplomám van.**
 
 I have half a degree.
 
-### **Biztos, hogy lesz még olyan…**
+**Biztos, hogy lesz még olyan…**
 
 I’m sure there will be a time…
 
-### **…amikor majd nem így fogom élni az életemet,**
+**…amikor majd nem így fogom élni az életemet,**
 
 …when I won’t live my life like this,
 
-### **de nagyon hozzászoktam.**
+**de nagyon hozzászoktam.**
 
 but I’ve gotten very used to it.
 
-### **Most egy ideig a ChatGPT-nek az… az áldozata maradok.**
+**Most egy ideig a ChatGPT-nek az… az áldozata maradok.**
 
 For now, I’ll remain ChatGPT’s… victim.
 
-### **A rabszolgája.**
+**A rabszolgája.**
 
 Its slave.
 
-### **Rabszolgája!**
+**Rabszolgája!**
 
 Slave!
 
-## Contextual vocabulary worth keeping (with anchors)
+### Contextual vocabulary worth keeping (with anchors)
 
 * **csípős (vélemény)** – *spicy / provocative*
   → *„mi a csípős-csípős dolog?”*
@@ -833,21 +833,21 @@ Slave!
 
 [Reel](https://www.instagram.com/reel/DShbAucFSja/)
 
-## Line by line HU → EN walkthrough
+### Line by line HU → EN walkthrough
 
-### Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
+**Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?**
 
 Who said that you can only watch porn in the digital space?
 
-### Vannak szerelmes filmek is.
+**Vannak szerelmes filmek is.**
 
 There are romantic films too.
 
-### Azokat is meg lehet nézni…
+**Azokat is meg lehet nézni…**
 
 You can watch those as well…
 
-### Notes:
+Notes:
 
 * **Ki mondta, hogy…?** = “Who said that…?”
   → rhetorical, mildly sarcastic
@@ -862,9 +862,9 @@ You can watch those as well…
 
 [Reel](https://www.instagram.com/reel/DQejh5hjUAQ/)
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
-### **Feljössz hozzám egy kávéra?**
+**Feljössz hozzám egy kávéra?**
 
 Will you come up to my place for a coffee?
 
@@ -872,7 +872,7 @@ Will you come up to my place for a coffee?
 * *hozzám* = to my place
 * *egy kávéra* = for a coffee
 
-### **Köszönöm, de nem… kávézom.**
+**Köszönöm, de nem… kávézom.**
 
 Thank you, but I don’t… drink coffee.
 
@@ -880,7 +880,7 @@ Thank you, but I don’t… drink coffee.
 * speaker initially parses *kávé* literally
 * *kávézom* = I drink coffee / I have coffee
 
-### **Légy szíves, fél éve nem kávéztam, kérlek.**
+**Légy szíves, fél éve nem kávéztam, kérlek.**
 
 Please, I haven’t had coffee for half a year.
 
@@ -888,7 +888,7 @@ Please, I haven’t had coffee for half a year.
 * *fél éve* = for half a year
 * *kérlek* = please (again)
 
-## Extracted vocabulary & chunks
+### Extracted vocabulary & chunks
 
 **Dating / social**
 
@@ -914,155 +914,155 @@ Please, I haven’t had coffee for half a year.
 
 [Reel](https://www.instagram.com/reel/DMx4J58oRIB/)
 
-## Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
-### **Tök nehéz gyereket nevelni,**
+**Tök nehéz gyereket nevelni,**
 
 Raising a child is really hard,
 
 * *tök* = very / really (colloquial intensifier)
 
-### **ráadásul folyton változnak ezek a gyermeknevelési módszerek.**
+**ráadásul folyton változnak ezek a gyermeknevelési módszerek.**
 
 and on top of that, these child-rearing methods keep changing.
 
-### **Az idősebb generáció még lazábban fogta fel…**
+**Az idősebb generáció még lazábban fogta fel…**
 
 The older generation took child-rearing much more loosely.
 
 * *fogta fel* = approached / treated (conceptually)
 
-### **A mostani szülők állandóan aggódnak…**
+**A mostani szülők állandóan aggódnak…**
 
 Today’s parents worry constantly…
 
-### **„Úristen, mit vesz a szájába a gyerek?”**
+**„Úristen, mit vesz a szájába a gyerek?”**
 
 “Oh my God, what is the kid putting in their mouth?”
 
-### **„Hát tiszta bacilus.”**
+**„Hát tiszta bacilus.”**
 
 “Well, it’s completely covered in germs.”
 
-### **„Hát megbetegszik.”**
+**„Hát megbetegszik.”**
 
 “Well, they’ll get sick.”
 
-### **Az idősebb generáció… annyi volt a válasz, hogy: „Ennyi kell neki.”**
+**Az idősebb generáció… annyi volt a válasz, hogy: „Ennyi kell neki.”**
 
 The older generation’s response was just: “That’s what they need.”
 
 * *ennyi kell neki* = “this is necessary for them” (dismissive, fatalistic)
 
-### **„De egy heroinos tűt nyalogat.”**
+**„De egy heroinos tűt nyalogat.”**
 
 “But they’re licking a heroin needle.”
 
-### **„De… az kell, hogy kialakuljon az immunrendszere.”**
+**„De… az kell, hogy kialakuljon az immunrendszere.”**
 
 “But… that’s needed so their immune system develops.”
 
-### **„De most zuhant négy emeletet.”**
+**„De most zuhant négy emeletet.”**
 
 “But they just fell four stories.”
 
-### **„De így fognak megerősödni a csontjai, jó?”**
+**„De így fognak megerősödni a csontjai, jó?”**
 
 “But this is how their bones will get stronger, okay?”
 
-### **És csak nálunk, embereknél változnak…**
+**És csak nálunk, embereknél változnak…**
 
 And only among us humans do these parenting techniques change.
 
-### **Az állatoknál nincs ilyen.**
+**Az állatoknál nincs ilyen.**
 
 There’s no such thing among animals.
 
-### **Az állatok évezredek óta ugyanúgy nevelik…**
+**Az állatok évezredek óta ugyanúgy nevelik…**
 
 Animals have raised their young the same way for millennia.
 
-### **Tehát nincs ilyen a madaraknál, hogy…**
+**Tehát nincs ilyen a madaraknál, hogy…**
 
 So birds don’t have things like…
 
-### **„…a fészekből kilökést már nem kultiváljuk.”**
+**„…a fészekből kilökést már nem kultiváljuk.”**
 
 “…we no longer cultivate pushing them out of the nest.”
 
 * *kultiváljuk* = cultivate (ironically bureaucratic)
 
-### **„Csak puffasztott kukacot adunk a fiókának.”**
+**„Csak puffasztott kukacot adunk a fiókának.”**
 
 “We only give the chick puffed worms.”
 
-### **Ráadásul az állatok gyermekkora tele van traumákkal.**
+**Ráadásul az állatok gyermekkora tele van traumákkal.**
 
 Moreover, animals’ childhoods are full of trauma.
 
-### **Utána mégse mennek pszichológushoz…**
+**Utána mégse mennek pszichológushoz…**
 
 And yet they don’t go to a psychologist afterwards…
 
-### **Nem megy a fecske a pszichológushoz, hogy…**
+**Nem megy a fecske a pszichológushoz, hogy…**
 
 The swallow doesn’t go to a psychologist saying…
 
-### **„Egy évben kétszer költöztünk.”**
+**„Egy évben kétszer költöztünk.”**
 
 “We moved twice a year.”
 
-### **„Semmi állandóság nem volt az életemben.”**
+**„Semmi állandóság nem volt az életemben.”**
 
 “There was no stability in my life.”
 
-### **„Értse meg, egyedül nem tudok nyarat csinálni.”**
+**„Értse meg, egyedül nem tudok nyarat csinálni.”**
 
 “Please understand, I can’t make a summer on my own.”
 
 * idiom parody (*egy fecske nem csinál nyarat*)
 
-### **Nekem a kedvenc nevelési technikám…**
+**Nekem a kedvenc nevelési technikám…**
 
 My favourite parenting technique…
 
-### **…amikor elesik a gyerek… a szülők úgy csinálnak…**
+**…amikor elesik a gyerek… a szülők úgy csinálnak…**
 
 …when the child falls and the parents act…
 
-### **…mintha nem esett volna el.**
+**…mintha nem esett volna el.**
 
 …as if they hadn’t fallen.
 
-### **„Hát csak megijedtél.”**
+**„Hát csak megijedtél.”**
 
 “Well, you were just scared.”
 
-### **„Nincsen semmi baj.”**
+**„Nincsen semmi baj.”**
 
 “There’s nothing wrong.”
 
-### **„Hát ne sírjál.”**
+**„Hát ne sírjál.”**
 
 “Well, don’t cry.”
 
-### **Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?**
+**Hogy felnőttekkel ezt nem mernéd megcsinálni, nem?**
 
 You wouldn’t dare do this with adults, right?
 
-### **„Ki ez a nő?”**
+**„Ki ez a nő?”**
 
 “Who is this woman?”
 
-### **„Hát csak megijedtél, drágám.”**
+**„Hát csak megijedtél, drágám.”**
 
 “Well, you were just scared, darling.”
 
-### **„Ne sírjál.”**
+**„Ne sírjál.”**
 
 Don’t cry.
 
-## Contextualised vocabulary (anchored, no bare lists)
+### Contextualised vocabulary (anchored, no bare lists)
 
 * **tök + adj.** – *very / really*
   → *tök nehéz*
@@ -1103,137 +1103,137 @@ Don’t cry.
 
 [Reel](https://www.instagram.com/reels/DTa1X4eikHQ/)
 
-## Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
-### **Magyarázza már meg nekem azt valaki,**
+**Magyarázza már meg nekem azt valaki,**
 
 Can someone please explain to me already,
 
 * *magyarázza már meg* = impatient, rhetorical “explain this to me already”
 * *már* = emotional emphasis, not time
 
-### **hogy miért van az, hogy egy közepesen csúnya pasi…**
+**hogy miért van az, hogy egy közepesen csúnya pasi…**
 
 why it is that a moderately ugly guy,
 
 * *pasi* = guy (informal)
 
-### **…és egy átlagos, ők bántanak a legjobban,**
+**…és egy átlagos, ők bántanak a legjobban,**
 
 and an average one — they’re the ones who hurt you the most,
 
-### **úgy megaláznak, mint a szar,**
+**úgy megaláznak, mint a szar,**
 
 they humiliate you like shit,
 
-### **így a földbe tiporják, akarják döngölni az önbecsülésedet.**
+**így a földbe tiporják, akarják döngölni az önbecsülésedet.**
 
 they trample your self-esteem into the ground, they want to grind it down.
 
-### **Előadják a nagy igényeket,**
+**Előadják a nagy igényeket,**
 
 They put on this act of having huge standards,
 
 * *előadja* = to perform / put on an act
 
-### **hogy nekik micsoda topmodell nőik lesznek,**
+**hogy nekik micsoda topmodell nőik lesznek,**
 
 that they’ll have these amazing top-model women,
 
-### **mik az elvárások, a paraméterek.**
+**mik az elvárások, a paraméterek.**
 
 what the expectations and parameters are.
 
 * mock-bureaucratic dating language
 
-### **Majd összejönnek a vasorrú bábával.**
+**Majd összejönnek a vasorrú bábával.**
 
 Then they end up with the iron-nosed hag.
 
-### **Igen, mert hogyha szőke herceg van,**
+**Igen, mert hogyha szőke herceg van,**
 
 Yes, because if there’s a blond prince,
 
-### **akkor bizony vasorrú bába is van.**
+**akkor bizony vasorrú bába is van.**
 
 then sure enough, there’s an iron-nosed hag too.
 
 * parody of fairy-tale symmetry
 
-### **Úgyhogy…**
+**Úgyhogy…**
 
 So…
 
-### **Ha-ha! / Ha-ha!**
+**Ha-ha! / Ha-ha!**
 
 (laughter)
 
-### **Én nem tudom, sírjak vagy nevessek,**
+**Én nem tudom, sírjak vagy nevessek,**
 
 I don’t know whether to cry or laugh,
 
-### **ez igazából vicces egész.**
+**ez igazából vicces egész.**
 
 this whole thing is actually funny.
 
 * *egész* = “as a whole”
 
-## Contextualised vocabulary & expressions (anchored)
+### Contextualised vocabulary & expressions (anchored)
 
-### **magyarázza már meg**
+**magyarázza már meg**
 
 → *„Magyarázza már meg nekem azt valaki”*
 = “someone explain this to me already”
 📌 Impatient rhetorical opener, very common in rants.
 
-### **közepesen csúnya / átlagos**
+**közepesen csúnya / átlagos**
 
 → “moderately ugly / average”
 📌 Deliberately non-extreme adjectives → sets up irony.
 
-### **bánt (vkit)**
+**bánt (vkit)**
 
 → *„ők bántanak a legjobban”*
 = to hurt, mistreat (emotionally)
 
-### **megaláz**
+**megaláz**
 
 → *„úgy megaláznak”*
 = to humiliate
 📌 Strong, emotionally loaded verb.
 
-### **földbe tipor / földbe döngöl**
+**földbe tipor / földbe döngöl**
 
 → trampling / grinding down metaphor
 📌 Fixed imagery for destroying self-worth.
 
-### **előadja (a nagy igényeket)**
+**előadja (a nagy igényeket)**
 
 → to put on an act, perform standards
 📌 Implies insincerity, posturing.
 
-### **elvárások / paraméterek**
+**elvárások / paraméterek**
 
 → expectations / parameters
 📌 Ironically technical language for dating.
 
-### **összejön (vkivel)**
+**összejön (vkivel)**
 
 → *„összejönnek a vasorrú bábával”*
 = to get together with / end up with
 📌 Very high-frequency colloquial verb.
 
-### **vasorrú bába**
+**vasorrú bába**
 
 → fairy-tale hag / grotesque female figure
 📌 Cultural reference; opposite of *szőke herceg*.
 
-### **szőke herceg**
+**szőke herceg**
 
 → Prince Charming
 📌 International fairy-tale trope.
 
-### **nem tudom, sírjak vagy nevessek**
+**nem tudom, sírjak vagy nevessek**
 
 → “I don’t know whether to cry or laugh”
 📌 Very common idiomatic wrap-up.
@@ -1242,200 +1242,101 @@ this whole thing is actually funny.
 
 [Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
 
-## Caption text (reference, lightly normalised)
+### Sentence-by-sentence HU → EN (key parts)
 
-> **Így táncol hatszázötven millió magyar forint.**
-> Ugyanis Ricky Martin ennyibe került nekünk.
-> Ő volt a felcsúti karácsonyi buli sztárfellépője.
->
-> Hozzátenném azért, hogy ez csak az előadói díja.
-> Nincs még benne az utaztatás, szállás, satöbbi,
-> ami ugye minden esetben a megrendelőt terheli.
->
-> Tehát ez nagyjából inkább egy milliárd forint körül mozog.
->
-> Hadházy Ákos ezt az információt idő előtt közölte,
-> így tönkretette a nagy meglepit,
-> amire Hajdú Péter elég érdekes módon reagált.
->
-> **HP:**
-> Mert arcpirítónak és döbbenetesnek tartom,
-> amit most Hadházy Ákos művelt.
->
-> Lölö szolgáinak nevezte a Mészáros-csoport munkatársait,
-> és elárulta,
-> hogy ki lesz a karácsonyi parti sztárvendége.
->
-> Elárulni azt,
-> hogy egy karácsonyi partin ki lesz a külföldi meglepetésvendég,
-> ez akkora bunkóság,
-> hogy a fal adja a másikat.
->
-> Most Hadházy Ákos elrontotta,
-> és elárulta, hogy ki fog fellépni.
-> Döbbenetes, arcpirító és undorító.
->
-> **KK:**
-> Szerinte ezek a dolgok arcpirítóak.
->
-> Ebben az országban Frizbi Petinek az a durva,
-> hogy Hadházy lelőtte a meglepit.
->
-> Kedves Péter,
-> mit gondolsz arról,
-> hogy az országunkban majdnem háromszor többe kerül
-> egy útépítés, mint a többi országban?
->
-> A Momentum egy augusztusi cikke alapján
-> 500 milliárd forintért szeretnének építeni
-> egy 32 kilométeres gyorsforgalmi utat
-> Esztergom és az M1-es autópálya között.
->
-> Arra hivatkozva,
-> hogy nehezek a terepviszonyok.
-> Magyarországon.
->
-> Ausztriában az Alpokban
-> 22 kilométeres gyorsforgalmi út
-> 215 milliárd forintba került.
->
-> Montenegróban
-> 41 kilométeres út került
-> 300 milliárd forintba.
->
-> Portugáliában
-> egy hegyvonulatot törtek át autópályával:
-> 30 kilométeres út, 150 milliárd.
->
-> Ismétlem:
-> Magyarországon: 500 milliárd.
->
-> Ezek alapján jogos a kérdés,
-> hogy mire kell legalább 500 milliárdnak
-> a kétharmada?
->
-> Csak hogy szemléltetessem,
-> mennyi is a kétharmad, kiszámoltam:
-> 333 milliárd forint.
->
-> Ez az, amit nem tudunk,
-> hogy hova tűnik.
->
-> Tudod, ebből hány
-> negyven négyzetméteres lakást
-> tudnál venni Budapesten,
-> ha mondjuk egy lakásra
-> 60 millióval számolunk?
->
-> 5550 darab lakás jön ki
-> abból a pénzből,
-> amit megint nem tudjuk,
-> hogy hova tűnik.
->
-> De mindez nem számít,
-> hiszen a lényeg az,
-> hogy a karácsonyi parti meglepi
-> el lett rontva.
->
-> Akár csak úgy,
-> mint az az igénytelen feliratozás
-> a Péter videóján.
-
-## Sentence-by-sentence HU → EN (key parts)
-
-### **Így táncol hatszázötven millió magyar forint.**
+**Így táncol hatszázötven millió magyar forint.**
 
 This is how 650 million Hungarian forints dance.
 
-### **Ő volt a … sztárfellépője.**
+**Ő volt a … sztárfellépője.**
 
 He was the star performer.
 
 * *sztárfellépő* = headline act
 
-### **ez csak az előadói díja**
+**ez csak az előadói díja**
 
 this is only the performance fee
 
-### **ami … a megrendelőt terheli**
+**ami … a megrendelőt terheli**
 
 which in all cases is borne by the client
 
 * *terhel* = to burden / be charged to
 
-### **inkább egy milliárd forint körül mozog**
+**inkább egy milliárd forint körül mozog**
 
 it’s closer to around one billion forints
 
 * *körül mozog* = hover around (very common)
 
-### **tönkretette a nagy meglepit**
+**tönkretette a nagy meglepit**
 
 ruined the big surprise
 
-### **arcpirítónak és döbbenetesnek tartom**
+**arcpirítónak és döbbenetesnek tartom**
 
 I find it embarrassing and shocking
 
-### **akkora bunkóság, hogy a fal adja a másikat**
+**akkora bunkóság, hogy a fal adja a másikat**
 
 such rudeness that the wall gives the other one
 
 = **extreme idiom**: “incredibly rude”
 
-### **lelőt­te a meglepit**
+**lelőt­te a meglepit**
 
 spoiled the surprise
 
 * *lelő* (shoot down) → figurative
 
-### **mit gondolsz arról, hogy…**
+**mit gondolsz arról, hogy…**
 
 what do you think about the fact that…
 
 * classic rhetorical challenge opener
 
-### **majdnem háromszor többe kerül**
+**majdnem háromszor többe kerül**
 
 costs almost three times as much
 
-### **arra hivatkozva, hogy…**
+**arra hivatkozva, hogy…**
 
 citing the fact that…
 
 * bureaucratic justification phrasing
 
-### **Ismétlem**
+**Ismétlem**
 
 I repeat
 
 * courtroom / lecture register for emphasis
 
-### **jogos a kérdés**
+**jogos a kérdés**
 
 the question is legitimate
 
 * argumentative cliché, very common
 
-### **hova tűnik**
+**hova tűnik**
 
 where it disappears to
 
-### **szemléltetessem**
+**szemléltetessem**
 
 so that I illustrate
 
 * *szemléltet* = illustrate, make tangible
 
-### **mind­ez nem számít**
+**mind­ez nem számít**
 
 none of this matters
 
-### **igénytelen feliratozás**
+**igénytelen feliratozás**
 
 sloppy / low-effort subtitles
 
-## Contextual vocabulary worth keeping (anchored)
+### Contextual vocabulary worth keeping (anchored)
 
 * **arcpirító** – *embarrassing to the point of blushing*
   → *arcpirítónak tartom*
@@ -1468,138 +1369,138 @@ sloppy / low-effort subtitles
 
 [Reel](https://www.instagram.com/reel/DRDYEACjN-g/)
 
-## Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
-### **Te is hallottál a rézfaszú bagolyról.**
+**Te is hallottál a rézfaszú bagolyról.**
 
 You’ve also heard of the copper-dicked owl.
 
 * *-ról* = about
 
-### **Ő az, aki éjszakánként a rézfaszával kopog…**
+**Ő az, aki éjszakánként a rézfaszával kopog…**
 
 He’s the one who, at night, knocks with his copper dick…
 
 * *éjszakánként* = nightly, every night
 
-### **…a gyerekek ablakán, hogy ne tudjanak aludni.**
+**…a gyerekek ablakán, hogy ne tudjanak aludni.**
 
 …on children’s windows so they can’t sleep.
 
 * *hogy ne* = so that not (purpose clause)
 
-### **Szóval egyfajta mumus,**
+**Szóval egyfajta mumus,**
 
 So, a kind of bogeyman,
 
 * *szóval* = “so / in short”
 * *mumús* = folkloric scare figure
 
-### **aki ellopja a gyerekeket.**
+**aki ellopja a gyerekeket.**
 
 who steals children.
 
-### **Azt azonban kevesen tudják,**
+**Azt azonban kevesen tudják,**
 
 However, few people know,
 
 * *azonban* = however (formal contrast)
 
-### **hogy eredetileg azt az orvost jelentette,**
+**hogy eredetileg azt az orvost jelentette,**
 
 that originally it referred to the doctor
 
 * *eredetileg* = originally
 
-### **aki magzatelhajtással foglalkozott,**
+**aki magzatelhajtással foglalkozott,**
 
 who dealt with abortion,
 
-### **azaz rézszerszámával belenyúlt a nőkbe.**
+**azaz rézszerszámával belenyúlt a nőkbe.**
 
 that is, who reached into women with a copper instrument.
 
 * *azaz* = that is / i.e.
 
-### **A női párja a vasorrú bába,**
+**A női párja a vasorrú bába,**
 
 Its female counterpart is the iron-nosed midwife,
 
-### **aki ugyanezt csinálta vasszerszámokkal.**
+**aki ugyanezt csinálta vasszerszámokkal.**
 
 who did the same thing with iron tools.
 
-### **Már megint egy példa arra,**
+**Már megint egy példa arra,**
 
 Once again, an example of how
 
 * *már megint* = once again (weary irony)
 
-### **hogy a mesék többsége inkább horror,**
+**hogy a mesék többsége inkább horror,**
 
 most fairy tales are more horror
 
-### **mint ártatlan történet.**
+**mint ártatlan történet.**
 
 than innocent stories.
 
-## Contextualised vocabulary & expressions (anchored)
+### Contextualised vocabulary & expressions (anchored)
 
-### **rézfaszú (vki)**
+**rézfaszú (vki)**
 
 → *„rézfaszú bagoly”*
 = “copper-dicked” (vulgar, grotesque compound)
 
-### **éjszakánként**
+**éjszakánként**
 
 → nightly / every night
 📌 distributive adverb, very common.
 
-### **kopog (vmin)**
+**kopog (vmin)**
 
 → *kopog az ablakon* = knock on the window
 
-### **mumús**
+**mumús**
 
 → bogeyman / scare figure
 📌 folkloric term, still used metaphorically.
 
-### **azonban**
+**azonban**
 
 → however
 📌 formal contrast marker.
 
-### **eredetileg**
+**eredetileg**
 
 → originally
 📌 very common in “did you know?” humour.
 
-### **magzatelhajtás**
+**magzatelhajtás**
 
 → abortion (technical term)
 📌 deliberately clinical contrast with vulgar imagery.
 
-### **azaz**
+**azaz**
 
 → that is / i.e.
 📌 explanation marker, frequent in spoken argumentation.
 
-### **belenyúl (vkibe)**
+**belenyúl (vkibe)**
 
 → to reach into someone
 📌 crude but literal verb choice; heightens discomfort.
 
-### **női párja**
+**női párja**
 
 → female counterpart
 📌 symmetry-building phrase.
 
-### **már megint**
+**már megint**
 
 → once again
 📌 conveys weary pattern recognition.
 
-### **inkább X, mint Y**
+**inkább X, mint Y**
 
 → more X than Y
 📌 extremely useful comparative structure.
@@ -1608,9 +1509,9 @@ than innocent stories.
 
 [Reel](https://www.instagram.com/reel/DTYb5Q4Ddg8/)
 
-## Line-by-line HU → EN
+### Line-by-line HU → EN
 
-### **Anya, az biztos, hogy a baba ott jön ki, ahol a fütykös bement?**
+**Anya, az biztos, hogy a baba ott jön ki, ahol a fütykös bement?**
 
 Mom, are you sure the baby comes out where the dick went in?
 
@@ -1624,7 +1525,7 @@ The humour comes from:
 * blunt, vulgar word choice
 * addressing *anya* (mom)
 
-### **Hát miért kérdezel ilyet?**
+**Hát miért kérdezel ilyet?**
 
 Well, why would you ask something like that?
 
@@ -1633,7 +1534,7 @@ Well, why would you ask something like that?
 
 Very natural parental reaction phrasing.
 
-### **Baszki, el fog törni az állkapcsom!**
+**Baszki, el fog törni az állkapcsom!**
 
 Fuck, my jaw is going to break!
 
@@ -1641,40 +1542,40 @@ Fuck, my jaw is going to break!
 * **el fog törni** = “is going to break” (future with *fog*)
 * **állkapocs** = jaw
 
-## Contextualised vocabulary
+### Contextualised vocabulary
 
-### **fütykös**
+**fütykös**
 
 → *„ahol a fütykös bement”*
 = penis (crude, juvenile slang)
 📌 Less clinical than *pénisz*, more childish than outright obscenity.
 
-### **az biztos, hogy…?**
+**az biztos, hogy…?**
 
 → “are you sure that…?”
 📌 Very common structure for doubtful questions.
 
-### **ott … ahol …**
+**ott … ahol …**
 
 → “there … where …”
 📌 Correlative structure, very Hungarian, very useful.
 
-### **miért kérdezel ilyet?**
+**miért kérdezel ilyet?**
 
 → “why would you ask something like that?”
 📌 Fixed-feeling conversational phrase.
 
-### **baszki**
+**baszki**
 
 → fuck / damn
 📌 Mild-to-medium swear, common in casual speech.
 
-### **el fog + infinitive**
+**el fog + infinitive**
 
 → future tense
 📌 *el fog törni* = “will break”
 
-### **állkapocs**
+**állkapocs**
 
 → jaw
 📌 Neutral anatomical term; contrast with vulgar *fütykös* heightens the joke.
@@ -1683,138 +1584,136 @@ Fuck, my jaw is going to break!
 
 [Reel](https://www.instagram.com/reels/DTdVFwqjXv-/)
 
-### **Toxikus főnökök típusai**
+**Toxikus főnökök típusai**
 
-**Types of toxic bosses**
+Types of toxic bosses
 
 * **típusai** = plural possessive (“the types of”)
 * very common list-title formula in Hungarian social media
 
-## **1. A ghostoló / elérhetetlen**
+**1. A ghostoló / elérhetetlen**
 
 1. The ghoster/unreachable
 
 * **ghostoló** – from *ghostol* (“to ghost”), fully naturalised
 * **elérhetetlen** – unreachable, unavailable
 
-## Spoken lines
-
-### **Jó, nekem erre nincs időm.**
+**Jó, nekem erre nincs időm.**
 
 Okay, I don’t have time for this.
 
 * **nekem erre nincs időm** – classic deflection phrase
 
-### **Oldjuk meg, kész. Nekem erre nincsen időm.**
+**Oldjuk meg, kész. Nekem erre nincsen időm.**
 
 Let’s just get it done, end of story. I don’t have time for this.
 
 * **kész** = “done / end of discussion”
 
-### **2. A mikromenedzser**
+**2. A mikromenedzser**
 
 2. The micromanager
 
-### **Értem. Tehát akkor három napig fog tartani ez a feladat.**
+**Értem. Tehát akkor három napig fog tartani ez a feladat.**
 
 I see. So then this task will take three days.
 
-### **Jó, akkor légy szíves minden órában csekkolj be,**
+**Jó, akkor légy szíves minden órában csekkolj be,**
 
 Okay, then please check in every hour,
 
-### **…illetve nap végén mindig küldd át, hogy hány százalékban vagy kész.**
+**…illetve nap végén mindig küldd át, hogy hány százalékban vagy kész.**
 
 and at the end of the day always send how many percent done you are.
 
-### **És mielőtt bárkinek is elküldenéd,**
+**És mielőtt bárkinek is elküldenéd,**
 
 And before you send it to anyone,
 
-### **egy végső csekkolásra is küldd át nekem. Jó?**
+**egy végső csekkolásra is küldd át nekem. Jó?**
 
 send it to me for a final check as well, okay?
 
-### **És nem kell improvizálni, mindent pontosan úgy, ahogy én elmondtam neked.**
+**És nem kell improvizálni, mindent pontosan úgy, ahogy én elmondtam neked.**
 
 And no need to improvise — everything exactly the way I told you.
 
-### **3. A passzív-agresszív**
+**3. A passzív-agresszív**
 
 3. The passive-aggressive
 
-### **Örülök, hogy ezért ennyit legalább sikerült megcsinálni.**
+**Örülök, hogy ezért ennyit legalább sikerült megcsinálni.**
 
 I’m glad that at least *this much* managed to get done.
 
 * **legalább** “at least”
 
-### **Csak vicceltem.**
+**Csak vicceltem.**
 
 Just kidding.
 
-### **4. A bűnbakkereső**
+**4. A bűnbakkereső**
 
 4. The scapegoat seeker
 
 * **bűnbak** = scapegoat
 * **bűnbakkereső** = someone who looks for a scapegoat
 
-### **Ez nem az én felelősségem volt. Ez a te felelősséged volt.**
+**Ez nem az én felelősségem volt. Ez a te felelősséged volt.**
 
 This wasn’t my responsibility. This was your responsibility.
 
-### **Nem érdekel, hogy nekem kellett a végén elfogadni.**
+**Nem érdekel, hogy nekem kellett a végén elfogadni.**
 
 I don’t care that I had to approve it in the end.
 
-### **Nem csináltad meg jól. Kész.**
+**Nem csináltad meg jól. Kész.**
 
 You didn’t do it properly. End of story.
 
-### **A másik projekt meg sikerült?**
+**A másik projekt meg sikerült?**
 
 And the other project worked out, right?
 
-### **Mert átnéztem, és akkor sikerült.**
+**Mert átnéztem, és akkor sikerült.**
 
 Because I reviewed it, and then it worked.
 
-## High-value contextual vocabulary (anchored)
+### High-value contextual vocabulary (anchored)
 
-### **elérhetetlen**
+**elérhetetlen**
 
 → unreachable / unavailable
 
-### **Oldjuk meg, kész**
+**Oldjuk meg, kész**
 
 → “Let’s sort it out, end of discussion”
 
-### **légy szíves**
+**légy szíves**
 
 → please (formal-politeness register)
 
-### **csekkol be / csekkolás**
+**csekkol be / csekkolás**
 
 → check in / checking
 
-### **hány százalékban vagy kész**
+**hány százalékban vagy kész**
 
 → how many percent done you are
 
-### **nem kell improvizálni**
+**nem kell improvizálni**
 
 → no need to improvise
 
-### **legalább**
+**legalább**
 
 → at least
 
-### **felelősség**
+**felelősség**
 
 → responsibility
 
-### **átnéz**
+**átnéz**
 
 → to review / look over
 
@@ -1822,58 +1721,58 @@ Because I reviewed it, and then it worked.
 
 [Reel](https://www.instagram.com/reels/DTawgIjiEmE/)
 
-### POV: az a randi, ami után letörlöd a Tindert
+**POV: az a randi, ami után letörlöd a Tindert**
 
 POV: the date after which you delete Tinder
 
-## Key lines: HU → EN (selective, high value)
+### Key lines: HU → EN (selective, high value)
 
-### **„Nem gondolod, hogy az első talinál kicsit sétálgatunk?”**
+**„Nem gondolod, hogy az első talinál kicsit sétálgatunk?”**
 
 Don’t you think that on a first date we should walk around a bit?
 
 * *első tali* = first date (very common)
 * *nem gondolod, hogy…* = soft coercive suggestion
 
-### **„Dumcsizunk, jobban megismerjük egymást.”**
+**„Dumcsizunk, jobban megismerjük egymást.”**
 
 We chat, get to know each other better.
 
 * *dumcsizik* = chat (cute / informal)
 
-### **„Nem fázol? Tök hideg van.”**
+**„Nem fázol? Tök hideg van.”**
 
 Aren’t you cold? It’s really cold.
 
-### **„Én tök közel lakom…”**
+**„Én tök közel lakom…”**
 
 I live really close by…
 
-### **„De ne gondolj rögtön rosszra.”**
+**„De ne gondolj rögtön rosszra.”**
 
 But don’t immediately think badly.
 
-### **„Amúgy mennyi a body countod?”**
+**„Amúgy mennyi a body countod?”**
 
 So, what’s your body count?
 
-### **„Nekem száz fölött, de az teljesen más.”**
+**„Nekem száz fölött, de az teljesen más.”**
 
 For me it’s over a hundred, but that’s totally different.
 
-### **„Nem szeretem az idősebb nőket.”**
+**„Nem szeretem az idősebb nőket.”**
 
 I don’t like older women.
 
-### **„Én férfi vagyok, az más.”**
+**„Én férfi vagyok, az más.”**
 
 I’m a man, that’s different.
 
-### **„Holnap korán kelek.”**
+**„Holnap korán kelek.”**
 
 I have to get up early tomorrow.
 
-### **„Majd beszélünk. Írok.”**
+**„Majd beszélünk. Írok.”**
 
 We’ll talk later. I’ll text.
 
@@ -1883,9 +1782,9 @@ We’ll talk later. I’ll text.
 
 (Looked like it would be funny. It was not.)
 
-## High-value phrases & constructions (with context)
+### High-value phrases & constructions (with context)
 
-### **Tudtad, hogy…?**
+**Tudtad, hogy…?**
 
 > *Tudtad, hogy a hideg…*
 
@@ -1896,7 +1795,7 @@ We’ll talk later. I’ll text.
 
 📌 Good to recognise instantly as “educational-marketing opener”.
 
-### **ugyanannyira … mint …**
+**ugyanannyira … mint …**
 
 > *ugyanannyira emeli meg … mint a kokain*
 
@@ -1905,25 +1804,25 @@ We’ll talk later. I’ll text.
 * Comparative emphasis structure
 * Often used with **shock comparisons**
 
-### **emeli meg / megemelheti**
+**emeli meg / megemelheti**
 
 > *meg­emelheti a dopamínszintedet*
 
 **= can raise / increase**
 
-### **kutatások bizonyítják, hogy…**
+**kutatások bizonyítják, hogy…**
 
 > *Kutatások bizonyítják, hogy…*
 
 **= research proves that…**
 
-### **hasonlóan (vmihez)**
+**hasonlóan (vmihez)**
 
 > *hasonlóan a kólához*
 
 **= similarly to**
 
-### **viszont nincsen negatív hatása**
+**viszont nincsen negatív hatása**
 
 > *viszont nincsen negatív hatása*
 
@@ -1932,7 +1831,7 @@ We’ll talk later. I’ll text.
 * **viszont** = contrast
 * **nincsen** = emphatic “there is none”
 
-### **nincs lejövője**
+**nincs lejövője**
 
 > *nincs lejövője sem*
 
@@ -1940,37 +1839,37 @@ We’ll talk later. I’ll text.
 
 * **lejövő** = slang from drug culture
 
-### **ha szeretnéd, hogy képes legyél…**
+**ha szeretnéd, hogy képes legyél…**
 
 > *Ha szeretnéd, hogy képes legyél tudatosabban…*
 
 **= if you’d like to be able to…**
 
-### **tudatosan befolyásolni**
+**tudatosan befolyásolni**
 
 > *tudatosabban befolyásolni a szervezetedet*
 
 **= consciously influence**
 
-### **arra nézve, hogy…**
+**arra nézve, hogy…**
 
 > *arra nézve, hogy ezt hogyan érd el*
 
 **= regarding how to…**
 
-### **olyan dolgokkal, mint…**
+**olyan dolgokkal, mint…**
 
 > *olyan dolgokkal, mint a hideg vagy a lélegzet*
 
 **= with things like…**
 
-### **rengeteget / rengeteg mindent**
+**rengeteget / rengeteg mindent**
 
 > *rengeteg mindent tudsz elérni*
 
 **= a lot / tons**
 
-### **Bent találkozunk.**
+**Bent találkozunk.**
 
 **= See you inside.**
 
@@ -1978,19 +1877,15 @@ We’ll talk later. I’ll text.
 
 [Reel](https://www.instagram.com/reels/DQXFzPACNJK/)
 
-## Title
+**Nem rossz ember a Feró. Csak végtelenül egyszerű.**
 
-### **Nem rossz ember a Feró. Csak végtelenül egyszerű.**
-
-**Feró isn’t a bad person. Just infinitely simple.**
+Feró isn’t a bad person. Just infinitely simple.
 
 * **nem rossz ember** = not a bad person (moral softener)
 * **csak** = “just / merely” (minimisation)
 * **végtelenül egyszerű** = infinitely simple-minded
 
----
-
-## Dialogue breakdown (HU → EN)
+### Dialogue breakdown (HU → EN)
 
 **Na figyelj, beszarsz! Ilyen volt a békemenet.**
 Okay, listen, you’re gonna shit yourself. This is what the “Peace March” was like.
@@ -2000,89 +1895,101 @@ Okay, listen, you’re gonna shit yourself. This is what the “Peace March” w
 * **ilyen volt** = “this is what it was like” (framing clip as evidence)
 
 **A szőri utcai botrányról mit gondol?**
+
 What do you think about the Szőri Street scandal?
 
 **Ő csak kereste a pénzt ezzel, lányokat futtatott.**
+
 He was just making money off it, running girls.
 
 * **kereste a pénzt** = earning money (euphemistic)
 * **futtat** = to pimp / run prostitutes (very blunt)
 
 **A lányok is kerestek pénzt. Mindenki jól járt, nem?**
+
 The girls were earning money too. Everyone benefited, right?
 
 * **mindenki jól járt** = “everyone came out well”
 
 **Felszólalt Magyarország Kossuth-díjasa.**
+
 A Kossuth Prize winner of Hungary has spoken.
 
 **A Kossuth-díj egy művészeti díj…**
+
 The Kossuth Prize is an artistic award…
 
 **16 éves volt, te meg 36 éves voltál.**
+
 She was 16, and you were 36.
 
 **Én meg 36, igen.**
+
 And I was 36, yes.
 
 **És arra gondoltam, hogy ez nem lehet, ez nem jött össze,**
+
 And I thought: this can’t be, this didn’t work out,
 
 * *nem jött össze* = didn’t work out (colloquial)
 
 **pedig az emberben ágaskodik a természet.**
+
 even though nature rears up inside a person.
 
 **Abban az időben 20 évvel fiatalabb csajjal járni
 az pedofília volt.**
+
 Back then, dating a girl 20 years younger was pedophilia.
 
 **Tudjátok, rendkívül nagy a kísértés,**
+
 You know, the temptation is enormous,
 
 **és az ember nem mindig áll ellen a kísértésnek.**
+
 and a person doesn’t always resist temptation.
 
 **Jön a Lucifer is, azt mondja: Na ezt most…**
+
 And Lucifer comes along too, saying: “Now this…”
 
 **Van még kérdés? Mert nekem lenne pár.**
+
 Any more questions? Because I’ve got a few.
 
----
+### Contextual vocabulary & phrases worth keeping
 
-## Contextual vocabulary & phrases worth keeping
-
-### **beszarsz**
+**beszarsz**
 
 → *„figyelj, beszarsz”*
 = you’ll be shocked
 
-### **keresi a pénzt (vmivel)**
+**keresi a pénzt (vmivel)**
 
 → earns money (euphemistic)
 
-### **mindenki jól járt**
+**mindenki jól járt**
 
 → everyone benefited
 
-### **felszólal**
+**felszólal**
 
 → to speak up / address an audience
 
-### **nem jött össze**
+**nem jött össze**
 
 → didn’t work out
 
-### **ágaskodik (a természet)**
+**ágaskodik (a természet)**
 
 → rears up
 
-### **kísértés / ellenáll a kísértésnek**
+**kísértés / ellenáll a kísértésnek**
 
 → temptation / resist temptation
 
-### **van még kérdés?**
+**van még kérdés?**
 
 → any more questions?
 
@@ -2092,9 +1999,9 @@ Any more questions? Because I’ve got a few.
 
 Legénybúcsú
 
-## HU → EN
+### HU → EN
 
-### **Most akkor lesz kupakolás, vagy nem lesz?**
+**Most akkor lesz kupakolás, vagy nem lesz?**
 
 So is there going to be *kupakolás* or not?
 
@@ -2102,7 +2009,7 @@ So is there going to be *kupakolás* or not?
   → signals impatience, confusion
 * **lesz / nem lesz** = will there be / won’t there be
 
-### **Mert az előbb a pap bácsi azt mondta, hogy…**
+**Mert az előbb a pap bácsi azt mondta, hogy…**
 
 Because earlier the priest said that…
 
@@ -2110,13 +2017,13 @@ Because earlier the priest said that…
 * **pap bácsi** = “priest uncle”
   → childish / folksy way of referring to a priest
 
-### **…lehet, hogy lesz, de lehet, hogy nem?**
+**…lehet, hogy lesz, de lehet, hogy nem?**
 
 …maybe there will be, but maybe there won’t?
 
 * **lehet, hogy…** = maybe / it’s possible that
 
-## What is **kupakolás**?
+### What is **kupakolás**?
 
 This is the key word.
 
@@ -2131,9 +2038,7 @@ This is the key word.
 
 > deliberately vague “lads-being-lads” drinking nonsense
 
----
-
-## Contextual vocabulary worth keeping
+### Contextual vocabulary worth keeping
 
 * **most akkor** – so then / so what is it finally
 * **lesz / nem lesz** – will there be / won’t there be
@@ -2145,37 +2050,37 @@ This is the key word.
 
 [Reel](https://www.instagram.com/reel/DTKgZVZCf0G/)
 
-### **Talán az időjárásról nem mond hülyeséget a köztévé.**
+**Talán az időjárásról nem mond hülyeséget a köztévé.**
 
-**Maybe public TV doesn’t talk nonsense about the weather.**
+Maybe public TV doesn’t talk nonsense about the weather.
 
 * **talán** = maybe (ironic hedge)
 * **nem mond hülyeséget** = doesn’t say stupid things
 * **köztévé** = state / public television (often ironic or critical)
 
-## HU → EN
+### HU → EN
 
-### **Az utak miatt vigyázzanak magukra,**
+**Az utak miatt vigyázzanak magukra,**
 
 Because of the road conditions, please take care,
 
 * **vigyázzanak magukra** = take care of yourselves
 * formal plural (PSA register)
 
-### **közlekedjenek óvatosan,**
+**közlekedjenek óvatosan,**
 
 drive / travel carefully,
 
 * **közlekedik** = to travel / participate in traffic
 * **óvatosan** = carefully
 
-### **és mindenkinek csak azt tudjuk javasolni, hogy…**
+**és mindenkinek csak azt tudjuk javasolni, hogy…**
 
 and all we can recommend to everyone is that…
 
 * **csak azt tudjuk javasolni** = classic official phrasing
 
-### **aki ez idáig még nem cserélte le a téli gumiját nyári gumira,**
+**aki ez idáig még nem cserélte le a téli gumiját nyári gumira,**
 
 those who up to now still haven’t changed their winter tires to summer tires,
 
@@ -2183,7 +2088,7 @@ those who up to now still haven’t changed their winter tires to summer tires,
 * **lecserél** = replace, swap out
 * **téli / nyári gumi** = winter / summer tires
 
-### **az semmiképpen ne induljon útnak.**
+**az semmiképpen ne induljon útnak.**
 
 should under no circumstances set off.
 
@@ -2192,9 +2097,7 @@ should under no circumstances set off.
 
 📌 Very standard warning language.
 
----
-
-## Contextual vocabulary & phrases worth keeping
+### Contextual vocabulary & phrases worth keeping
 
 * **köztévé** – public/state TV (often ironic)
 * **vigyázzanak magukra** – take care (formal PSA)
@@ -2211,9 +2114,9 @@ should under no circumstances set off.
 
 ChatGPT said: "you’re absolutely right that by this point you were “collecting captions”, but this one still paid off linguistically."
 
-## High-value Hungarian phrases (anchored & reusable)
+### High-value Hungarian phrases (anchored & reusable)
 
-### **letudsz venni vkit a lábáról**
+**letudsz venni vkit a lábáról**
 
 > *Három dolog, amivel letudsz venni bármilyen nőt a lábáról.*
 
@@ -2221,7 +2124,7 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 📌 Very common idiom; slightly old-fashioned but still current.
 
-### **valódi … szándék**
+**valódi … szándék**
 
 > *Valódi ismerkedési szándék.*
 
@@ -2229,13 +2132,13 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 📌 Works with many nouns: *valódi érdeklődés, valódi törődés*.
 
-### **meg akarom ismerni, hogy kicsoda**
+**meg akarom ismerni, hogy kicsoda**
 
 > *valóban meg akarjátok ismerni, hogy ez az adott nő kicsoda*
 
 **= to genuinely want to know who someone is**
 
-### **kimutatni a tiszteletet**
+**kimutatni a tiszteletet**
 
 > *Olyan gesztusoknak a kimutatása…*
 
@@ -2243,7 +2146,7 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 📌 Slightly formal, common in advice discourse.
 
-### **nőnek érezheti magát**
+**nőnek érezheti magát**
 
 > *amivel nőnek érezheti magát mellettetek*
 
@@ -2251,7 +2154,7 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 📌 Note the **-nak/-nek**: *érezheti magát nőnek*.
 
-### **választékos beszéd**
+**választékos beszéd**
 
 > *választékos beszéd*
 
@@ -2259,31 +2162,31 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 📌 Common collocation; slightly prescriptive.
 
-### **engedd el (vmit)**
+**engedd el (vmit)**
 
 > *a káromkodást engedjétek el*
 
 **= let it go / drop it**
 
-### **figyelmesség**
+**figyelmesség**
 
 > *A harmadik. Figyelmesség.*
 
 **= attentiveness / thoughtfulness**
 
-### **jár vki kedvében**
+**jár vki kedvében**
 
 > *ezekkel az apróságokkal jártok a másik kedvében*
 
 **= to please / do favours for someone**
 
-### **Ha egyedül nem megy…**
+**Ha egyedül nem megy…**
 
 > *Ha egyedül nem megy…*
 
 **= if you can’t manage on your own**
 
-### **jelentkezz be…**
+**jelentkezz be…**
 
 > *jelentkezz be hozzám személyes konzultációra*
 
@@ -2293,99 +2196,97 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 [Reel](https://www.instagram.com/reel/DTZxr7-jkGr/)
 
-## Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
-### **Hagyjál engem békén.**
+**Hagyjál engem békén.**
 
 Leave me alone.
 
 * blunt opener, mock exasperation
 
-### **Egy kínai szakítás hihetetlenül elfajult.**
+**Egy kínai szakítás hihetetlenül elfajult.**
 
 A Chinese breakup escalated unbelievably.
 
 * **elfajul** = to spiral / get out of hand
 
-### **Ezt nehéz lesz 2026-ban megfejelni.**
+**Ezt nehéz lesz 2026-ban megfejelni.**
 
 This will be hard to top in 2026.
 
 * **megfejelni** = to top, outdo (informal, metaphorical)
 
-### **…500 kilogramm hagymát küldött…**
+**…500 kilogramm hagymát küldött…**
 
 …sent nearly 500 kilograms of onions…
 
-### **…azt akarta, hogy a srác is átélje ugyanazt az érzést.**
+**…azt akarta, hogy a srác is átélje ugyanazt az érzést.**
 
 …she wanted the guy to experience the same feeling.
 
-### **„Sírj te is, te mocsadék!”**
+**„Sírj te is, te mocsadék!”**
 
 “Cry too, you scumbag!”
 
 * **te is** = “you too” (retaliatory)
 * **mocsadék** = scum (very strong insult)
 
-### **A hagyma elvégzi a dolgát.**
+**A hagyma elvégzi a dolgát.**
 
 The onion will do its job.
 
-### **Ez nem is annyira picurka *rohadjál meg* sztori.**
+**Ez nem is annyira picurka *rohadjál meg* sztori.**
 
 This isn’t exactly a small “go rot” kind of story.
 
 * **rohadjál meg** = “rot in hell” (curse)
 * *picurka* = tiny (ironically mild)
 
-### **Pillanatok alatt felrobbant a közösségi média.**
+**Pillanatok alatt felrobbant a közösségi média.**
 
 Social media blew up in moments.
 
-### **Volt, aki zseniális bosszúnak nevezte…**
+**Volt, aki zseniális bosszúnak nevezte…**
 
 Some called it brilliant revenge…
 
-### **…mások szerint ez már túl van egy határon.**
+**…mások szerint ez már túl van egy határon.**
 
 Others say this crosses a line.
 
 * **túl van egy határon** = goes too far
 
-### **Te ilyen bosszúálló típus vagy?**
+**Te ilyen bosszúálló típus vagy?**
 
 Are you this kind of vengeful type?
 
-### **Ha neki szar, akkor neki is szar?**
+**Ha neki szar, akkor neki is szar?**
 
 If it’s shit for you, then it should be shit for them too?
 
-### **Ha nekem sz*r, akkor a kutyáim vannak…**
+**Ha nekem sz*r, akkor a kutyáim vannak…**
 
 If things are shit for me, I’ve got my dogs…
 
-### **…összeszedem, ami kijön belőlük…**
+**…összeszedem, ami kijön belőlük…**
 
 …I pick up what comes out of them…
 
 * intentionally gross escalation
 
-### **…és bedobom a kertbe.**
+**…és bedobom a kertbe.**
 
 …and throw it into the garden.
 
-### **Ilyen érzelmileg érett típus vagy.**
+**Ilyen érzelmileg érett típus vagy.**
 
 You’re such an emotionally mature type.
 
-### **Ne dolgozz rajta!**
+**Ne dolgozz rajta!**
 
 Don’t work on it!
 
----
-
-## Context-anchored vocabulary & expressions
+### Context-anchored vocabulary & expressions
 
 * **hagyd békén** – leave someone alone
 * **elfajul** – spiral out of control
@@ -2404,78 +2305,80 @@ Don’t work on it!
 [Reel](https://www.instagram.com/reels/DTdAV1_jZSZ/)
 
 
-## HU → EN (by idea blocks, with Hungarian included)
+### HU → EN (by idea blocks, with Hungarian included)
 
-**HU:** *Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.*
-**EN:** I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later he died because he slipped on an orange peel.
+**Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.**
 
-**HU:** *Mielőtt kérdeznéd: igen, azért az első (férfi), mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagarán.*
-**EN:** Before you ask: yes — that’s why he’s the first (man), because there were several people who voluntarily went down Niagara in a barrel.
+I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later he died because he slipped on an orange peel.
 
-**HU:** *Bobby Leach az első férfi, de nem az első ember volt, aki sikeresen végigvitte a mutatványt.*
-**EN:** Bobby Leach was the first man, but he wasn’t the first person to successfully pull off the stunt.
+**Mielőtt kérdeznéd: igen, azért az első férfi, mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagarán.**
 
-**HU:** *A legelső ugyanis, aki egy hordóban jutott le a Niagara vízesés aljára, egy amerikai tanítónő, Annie Edson Taylor volt, aki 1901-ben, a 63. születésnapján mászott bele a saját maga készítette hordóba, amit aztán vízre bocsátottak.*
-**EN:** The very first person to get down to the bottom of Niagara Falls in a barrel was an American schoolteacher, Annie Edson Taylor, who in 1901, on her 63rd birthday, climbed into a barrel she had made herself, which was then set afloat.
+Before you ask: yes — that’s why he’s the first man, because there were several people who voluntarily went down Niagara in a barrel.
 
-**HU:** *Taylor csodával határos módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert, és ezzel idős korára anyagi biztonságot teremthet magának. A dolgok azonban másként alakultak.*
-**EN:** Taylor survived the trip in a near-miraculous way, hoping the stunt would bring sponsorships and let her create financial security in old age. But things turned out differently.
+**Bobby Leach az első férfi, de nem az első ember volt, aki sikeresen végigvitte a mutatványt.**
 
-**HU:** *Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotózkodott, és a képeket turistáknak árulta, míg a menedzsere el nem lopta a hordót. Taylor ekkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a következő menedzsere megint ellopott.*
-**EN:** For a few years Taylor made money by posing with the barrel and selling photos to tourists — until her manager stole the barrel. She then spent much of her savings on detectives who recovered it, only for her next manager to steal it again.
+Bobby Leach was the first man, but he wasn’t the first person to successfully pull off the stunt.
 
-**HU:** *Taylor 1921-ben nincstelenül halt meg, a temetése költségeit közösségi adományokból fizették.*
-**EN:** Taylor died penniless in 1921, and her funeral costs were paid through community donations.
+**A legelső ugyanis, aki egy hordóban jutott le a Niagara vízesés aljára, egy amerikai tanítónő, Annie Edson Taylor volt, aki 1901-ben, a 63. születésnapján mászott bele a saját maga készítette hordóba, amit aztán vízre bocsátottak.**
 
-**HU:** *Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték, köztük például Bobby Leach is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezuhant hordóból; évekkel később azonban megcsúszott egy narancshéjon, elesett, megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehalt az esés következményeibe.*
-**EN:** Her strange and incredibly dangerous stunt has since been repeated by others — including Bobby Leach, who also stepped out of the barrel unharmed; but years later he slipped on an orange peel, fell, injured his leg, the wound got infected, and two months later he died from the consequences of the fall.
+The very first person to get down to the bottom of Niagara Falls in a barrel was an American schoolteacher, Annie Edson Taylor, who in 1901, on her 63rd birthday, climbed into a barrel she had made herself, which was then set afloat.
 
-### 9) CTA
+**Taylor csodával határos módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert, és ezzel idős korára anyagi biztonságot teremthet magának. A dolgok azonban másként alakultak.**
 
-**HU:** *Kövess be, mert mondok még ilyeneket!*
-**EN:** Follow me, because I’ll tell you more things like this!
+Taylor survived the trip in a near-miraculous way, hoping the stunt would bring sponsorships and let her create financial security in old age. But things turned out differently.
 
----
+**Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotózkodott, és a képeket turistáknak árulta, míg a menedzsere el nem lopta a hordót. Taylor ekkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a következő menedzsere megint ellopott.**
 
-If you want, I can also extract just the **narration / discourse markers** that make this style work (*csak…, mielőtt…, ugyanis…, azonban…, köztük például…*) — they’re very reusable.
+For a few years Taylor made money by posing with the barrel and selling photos to tourists — until her manager stole the barrel. She then spent much of her savings on detectives who recovered it, only for her next manager to steal it again.
 
----
+**Taylor 1921-ben nincstelenül halt meg, a temetése költségeit közösségi adományokból fizették.**
 
-## Contextual vocabulary & expressions (anchored)
+Taylor died penniless in 1921, and her funeral costs were paid through community donations.
 
-### **csak ezt akartam mondani**
+**Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték, köztük például Bobby Leach is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezuhant hordóból; évekkel később azonban megcsúszott egy narancshéjon, elesett, megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehalt az esés következményeibe.**
+
+Her strange and incredibly dangerous stunt has since been repeated by others — including Bobby Leach, who also stepped out of the barrel unharmed; but years later he slipped on an orange peel, fell, injured his leg, the wound got infected, and two months later he died from the consequences of the fall.
+
+**Kövess be, mert mondok még ilyeneket!**
+
+Follow me, because I’ll tell you more things like this!
+
+
+### Contextual vocabulary & expressions (anchored)
+
+**csak ezt akartam mondani**
 
 = “I just wanted to say”
 
-### **túlélte, hogy…**
+**túlélte, hogy…**
 
 = survived the fact that…
 
-### **önszántából**
+**önszántából**
 
 = of one’s own free will
 
-### **végigvisz egy mutatványt**
+**végigvisz egy mutatványt**
 
 = carry out / pull off a stunt
 
-### **csodával határos módon**
+**csodával határos módon**
 
 = in a near-miraculous way
 
-### **másként alakul**
+**másként alakul**
 
 = turn out differently
 
-### **fotózkodik**
+**fotózkodik**
 
 = pose for photos
 
-### **nincstelenül hal meg**
+**nincstelenül hal meg**
 
 = die penniless
 
-### **belehal vmibe**
+**belehal vmibe**
 
 = die as a result of something
 📌 Fixed verb + prefix combination.
@@ -2485,33 +2388,32 @@ If you want, I can also extract just the **narration / discourse markers** that 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
 **Lázár János kedvenc vonatai**
+
 = *Lázár János’s favourite trains*
 
 * **Lázár János** is strongly associated with rail policy
 
-### **Első: vonatpótló busz**
+**Első: vonatpótló busz**
 
-**= First: rail-replacement bus**
+= First: rail-replacement bus
 
 * **vonatpótló** = replacing a train
 
-### **(Második): BHV személygépkocsi**
+**(Második): BHV személygépkocsi**
 
-**= BHV passenger coach**
+= BHV passenger coach
 
 * **személygépkocsi** here means *railway passenger car*, not “car-car”
 * **BHV** = old, uncomfortable rolling stock
 
-### **Negyedszer: Bzmot orrvonat**
+**Negyedszer: Bzmot orrvonat**
 
-**= Fourth: Bzmot “nose-train”**
+= Fourth: Bzmot “nose-train”
 
 * **Bzmot** = famously noisy, ancient diesel railcar
 * **orrvonat** = literally “nose train” (slang for its shape)
 
----
-
-## Linguistically useful bits (only what’s worth keeping)
+### Linguistically useful bits (only what’s worth keeping)
 
 * **vonatpótló busz** – rail replacement bus
   (you’ll see this *a lot* in Hungary)
@@ -2522,8 +2424,9 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/p/DSIX7pCAAns/)
 
-## HU → EN
-### **Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
+### HU → EN
+
+**Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
 
 “Oh, are you planning to ask for your girlfriend’s hand at Christmas?”
 
@@ -2531,11 +2434,11 @@ If you want, I can also extract just the **narration / discourse markers** that 
 * **karácsonykor** = at Christmas (-kor = time suffix)
 * casual, slightly mocking opener
 
-### **NEM! / Nem nem nem…**
+**NEM! / Nem nem nem…**
 
 “No! / No no no no no no no.”
 
-### **Úgyis igent fog mondani, de nem csináld ezt vele!**
+**Úgyis igent fog mondani, de nem csináld ezt vele!**
 
 “She’ll say yes anyway, but don’t do this to her!”
 
@@ -2543,7 +2446,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 * **igent fog mondani** = will say yes (future with *fog*)
 * **ne csináld ezt vele** = don’t do this *to her* (important *-val/-vel*)
 
-### **Élete végéig hazudnia kell, hogy szerette ezt a napot.**
+**Élete végéig hazudnia kell, hogy szerette ezt a napot.**
 
 “She’ll have to lie for the rest of her life that she loved this day.”
 
@@ -2554,7 +2457,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 ---
 
-## High-value expressions to keep
+### High-value expressions to keep
 
 * **megkérni vkinek a kezét** – propose
 * **úgyis** – anyway / regardless
@@ -2566,79 +2469,77 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 [Reel](https://www.instagram.com/reels/DR2n7J6CJXR/)
 
-## Key Hungarian lines & why they matter
+### Key Hungarian lines & why they matter
 
-### **„Ha valami jól működik, ne nyúlj hozzá.”**
+**„Ha valami jól működik, ne nyúlj hozzá.”**
 
 = *If something works well, don’t touch it.*
 
 * **ne nyúlj hozzá** = don’t meddle with it (idiomatic)
 
-### **„Ami most van, jó ahogy van.”**
+**„Ami most van, jó ahogy van.”**
 
 = *What we have now is good as it is.*
 
 * **ahogy van** = as it is
 
-### **„Na most én erre tudnék mondani neked reggeltől estig példákat…”**
+**„Na most én erre tudnék mondani neked reggeltől estig példákat…”**
 
 = *Now I could give you examples for this from morning till night…*
 
 * **reggeltől estig** = all day long (idiom)
 
-### **„Rengeteg mentálisan zavart ember jön velem szembe…”**
+**„Rengeteg mentálisan zavart ember jön velem szembe…”**
 
 = *I encounter many mentally disturbed people…*
 
 * **jön velem szembe** = I run into / encounter (idiomatic)
 
-### **„addig mosolygunk, amíg…”**
+**„addig mosolygunk, amíg…”**
 
 = *we smile until…*
 
-### **„pszichiátriai ellátás alulfinanszírozott”**
+**„pszichiátriai ellátás alulfinanszírozott”**
 
 = *psychiatric care is underfunded*
 
 * **alulfinanszírozott** = underfunded (very common policy term)
 
-### **„a rendszer nem tudja követni hosszútávon…”**
+**„a rendszer nem tudja követni hosszútávon…”**
 
 = *the system can’t follow / track long-term*
 
 * **követni** = follow, monitor
 
-### **„ellátásra szorulnak”**
+**„ellátásra szorulnak”**
 
 = *they require care*
 
 * **-ra szorul** = to be in need of (important construction)
 
-### **„nem elzárva vannak, hanem…”**
+**„nem elzárva vannak, hanem…”**
 
 = *they’re not confined, but rather…*
 
-### **„ez csak egy volt a száz indok közül”**
+**„ez csak egy volt a száz indok közül”**
 
 = *this was just one of a hundred reasons*
 
-### **„az élet úgy szép, hogyha nincs mindenki egy véleményen”**
+**„az élet úgy szép, hogyha nincs mindenki egy véleményen”**
 
 = *life is beautiful when not everyone agrees*
 
-### **„kinek fizetnek érte, kinek nem”**
+**„kinek fizetnek érte, kinek nem”**
 
 = *depending on who’s paid for it*
 
-### **„Hú, de okos voltam! Ha ha!”**
+**„Hú, de okos voltam! Ha ha!”**
 
 = *Wow, I was so smart!*
 
----
+### Key words & phrases from the reel
 
-## Key words & phrases from the reel
-
-### **Ha valami jól működik, ne nyúlj hozzá.**
+**Ha valami jól működik, ne nyúlj hozzá.**
 
 * **ha** = if
 * **valami** = something
@@ -2647,7 +2548,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 Whole idea: *“If something works, don’t change it.”*
 
-### **Ami most van, jó ahogy van.**
+**Ami most van, jó ahogy van.**
 
 * **ami** = what / that which
 * **most** = now
@@ -2657,16 +2558,16 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 *“What we have now is good as it is.”*
 
-### **reggeltől estig**
+**reggeltől estig**
 
 * literally: *from morning to evening*
 * meaning: **all day long**
 
-### **Rengeteg**
+**Rengeteg**
 
 * = a lot of / tons of
 
-### **jön velem szembe**
+**jön velem szembe**
 
 * **jön** = comes
 * **szembe** = towards / face-to-face
@@ -2674,28 +2575,28 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 idiomatic meaning: **“I run into / I encounter”**
 
-### **mentálisan zavart**
+**mentálisan zavart**
 
 * **mentális** = mental
 * **zavart** = disturbed / disordered
 
 👉 *mentálisan zavart ember* = mentally disturbed person
 
-### **addig … amíg**
+**addig … amíg**
 
 * **addig** = until then
 * **amíg** = until
 
 👉 *“We do X until Y happens.”*
 
-### **pszichiátriai ellátás**
+**pszichiátriai ellátás**
 
 * **pszichiátriai** = psychiatric
 * **ellátás** = care / treatment
 
 👉 *psychiatric care*
 
-### **alulfinanszírozott**
+**alulfinanszírozott**
 
 * **alul** = under
 * **finanszíroz** = finance
@@ -2703,7 +2604,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 *underfunded*
 
-### **ellátásra szorul**
+**ellátásra szorul**
 
 * **ellátás** = care
 * **-ra** = for
@@ -2711,14 +2612,14 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 *“to need care”*
 
-### **nem … hanem …**
+**nem … hanem …**
 
 * **nem** = not
 * **hanem** = but rather
 
 👉 *“not X, but Y”*
 
-### **egy volt a száz közül**
+**egy volt a száz közül**
 
 * **egy** = one
 * **száz** = hundred
@@ -2726,7 +2627,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 👉 *“one of many”*
 
-### **egy véleményen**
+**egy véleményen**
 
 * **vélemény** = opinion
 * **egy véleményen van** = to agree
@@ -2741,9 +2642,10 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 NGL, I thought this was a comedy reel until I got the notes back.
 
-## Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **A hónaljad is befújod izzadásgátlóval, hogy egész nap friss legyél?**
+
 Do you spray your armpits with antiperspirant too, so you stay fresh all day?
 
 * *hónalj* = armpit
@@ -2751,112 +2653,127 @@ Do you spray your armpits with antiperspirant too, so you stay fresh all day?
 * *izzadásgátló* = antiperspirant
 
 **Miért ne óvhatnád meg az intim testrészeidet is az izzadás kellemetlenségeitől?**
+
 Why wouldn’t you also protect your intimate body parts from the discomforts of sweating?
 
 * *óv* = protect
 * *intim testrészek* = intimate body parts
 
 **Ugye te sem akarod, hogy … beégj.**
+
 You don’t want to end up embarrassed, right…
 
 * *ugye* = right? (expecting agreement)
 * *beég* = be embarrassed / humiliated
 
 **… amikor lehúzza rólad.**
+
 …when she pulls it down off you.
 
 * *lehúz* = pull down
 * *rólad* = off you
 
 **Ezzel a termékkel érezheted magad minden nap kényelmesen…**
+
 With this product, you can feel comfortable every day…
 
 * *érezheted magad* = you can feel (yourself)
 
 **… a bepállástól való feszengés helyett.**
+
 …instead of awkward discomfort caused by chafing / sweat buildup.
 
 * *bepállás* = sweat-induced irritation
 * *feszengés* = awkward discomfort
 
 **Natúr ápolást biztosít…**
+
 It provides natural care…
 
 * *ápolás* = care (cosmetic / skin care)
 
 **… nem ragad, nem nehezít el…**
+
 …it doesn’t get sticky, doesn’t weigh you down…
 
 **Nem tömíti el a pórusaidat, hűsítő érzetet ad…**
+
 It doesn’t clog your pores, it gives a cooling sensation…
 
 * *pórus* = pore
 * *hűsítő* = cooling
 
 **… a mentol azonnal felüdíti a bőröd…**
+
 …the menthol refreshes your skin immediately…
 
 **Bőrkímélő, ugyanis aloe vera van benne…**
+
 Skin-friendly, since it contains aloe vera…
 
 * *bőrkímélő* = gentle on skin
 
 **… alumínium- és alkoholmentes is a formula…**
+
 …the formula is also aluminum- and alcohol-free…
 
 **… de segít megelőzni a kellemetlen szagokat.**
+
 …but it helps prevent unpleasant odors.
 
 * *megelőz* = prevent
 
 **Érzéki illatélmény, citrusos és friss…**
+
 A sensual fragrance experience, citrusy and fresh…
 
 **Teszteljük le.**
+
 Let’s test it.
 
 * inclusive *-juk* form
 
 **… van ennek egy testvére is…**
+
 This also has a sibling product…
 
 * *testvér* = sibling (used metaphorically for product variant)
 
 **… krémes változata.**
+
 …the cream version.
 
 * *változat* = variant
 
 **Ha szeretnétek hozzájutni…**
+
 If you’d like to get hold of it…
 
 * *hozzájut* = obtain / get access to
 
----
+### Extracted vocabulary & chunks (caption-based)
 
-## Extracted vocabulary & chunks (caption-based)
-
-### Body & care
+Body & care
 
 * **hónalj** – armpit
 * **intim testrész** – intimate body part
 * **bőr** – skin
 * **pórus** – pore
 
-### Products
+Products
 
 * **izzadásgátló** – antiperspirant
 * **dezodor** – deodorant
 * **spray-s / krémes** – spray / cream
 
-### Sensations
+Sensations
 
 * **friss** – fresh
 * **hűsítő** – cooling
 * **ragad** – stick
 * **bepállás** – sweat irritation
 
-### Verbs
+Verbs
 
 * **befúj** – spray
 * **óv** – protect
@@ -2864,7 +2781,7 @@ If you’d like to get hold of it…
 * **megelőz** – prevent
 * **felüdít** – refresh
 
-### Useful constructions
+Useful constructions
 
 * **miért ne…** – why not…
 * **érezheted magad** – you can feel
@@ -2875,15 +2792,11 @@ If you’d like to get hold of it…
 
 (I asked for more notes specifically on the "ad-ness" of it)
 
----
-
-## Notes: “Ad-ness” of the reel (linguistic + structural)
+### Notes: “Ad-ness” of the reel (linguistic + structural)
 
 This reel is a **product pitch ad**, and its *ad-ness* is visible at multiple levels of language.
 
----
-
-### 1. **Hook framed as a shared routine**
+1. **Hook framed as a shared routine**
 
 > *A hónaljad is befújod izzadásgátlóval…?*
 > *Miért ne óvhatnád meg…?*
@@ -2898,9 +2811,7 @@ This is classic advertising Hungarian:
 
 > *“You already do X — why not also do Y?”*
 
----
-
-### 2. **Rhetorical questions instead of assertions**
+2. **Rhetorical questions instead of assertions**
 
 Almost every claim is framed as:
 
@@ -2916,9 +2827,7 @@ Almost every claim is framed as:
 
 This is *very* typical of influencer-read ads in Hungarian.
 
----
-
-### 3. **Problem → reassurance loop**
+3. **Problem → reassurance loop**
 
 Repeated pattern:
 
@@ -2936,9 +2845,7 @@ Especially noticeable is the **negative listing**:
 * More time spent on what the product *doesn’t* do than what it does
 * This is risk mitigation language, not storytelling
 
----
-
-### 4. **Feature stacking without narrative development**
+4. **Feature stacking without narrative development**
 
 The reel doesn’t escalate or twist — it **accumulates**:
 
@@ -2960,9 +2867,7 @@ The reel doesn’t escalate or twist — it **accumulates**:
 
 Comedy would *break* this pattern; ads **depend** on it.
 
----
-
-### 5. **Lexical field: cosmetic / wellness Hungarian**
+5. **Lexical field: cosmetic / wellness Hungarian**
 
 The vocabulary shifts away from everyday speech into a **marketing register**:
 
@@ -2980,9 +2885,7 @@ The vocabulary shifts away from everyday speech into a **marketing register**:
 
 This is “brochure Hungarian,” spoken aloud.
 
----
-
-### 6. **Product family expansion**
+6. **Product family expansion**
 
 > *van ennek egy testvére is*
 > *spray-s változat* / *krémes változat*
@@ -2993,9 +2896,7 @@ This is “brochure Hungarian,” spoken aloud.
 * Treats products as a “family”
 * Signals brand ecosystem, not a one-off joke
 
----
-
-### 7. **Explicit CTA at the end**
+7. **Explicit CTA at the end**
 
 > *Ha szeretnétek hozzájutni… nézzetek fel…*
 
@@ -3007,4 +2908,3 @@ This is “brochure Hungarian,” spoken aloud.
 
 This is the point where any remaining ambiguity disappears.
 
----
