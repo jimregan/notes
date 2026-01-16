@@ -42,7 +42,7 @@ Did you dig too?
 * *-tál* = past tense, 2nd person singular
 * *is* = too / as well
 
-### Extracted vocabulary & chunks (caption-based only)
+### Extracted vocabulary & chunks (caption-based only)
 
 **Family**
 
@@ -71,7 +71,7 @@ Did you dig too?
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-### Sentence-by-sentence
+### Sentence-by-sentence
 
 **Gyere, és nézd meg velünk…**
 
@@ -215,7 +215,7 @@ You’ll hear this a lot outside ads too.
 
 📌 One of the most useful verbs in invitations.
 
-### Vocabulary worth keeping (compact list)
+### Vocabulary worth keeping (compact list)
 
 **Verbs**
 
@@ -257,7 +257,7 @@ You’ll hear this a lot outside ads too.
 
 [Reel](https://www.instagram.com/reel/DTduebKCCMa/)
 
-### Line-by-line breakdown
+### Line-by-line breakdown
 
 **Ezért tanulj meg angolul, hogyha csak németre jártál.**
 
@@ -467,7 +467,7 @@ and only then let it out of your mouth.
 
 * *ejt ki* = utter, pronounce
 
-### Contextual vocabulary from the reel
+### Contextual vocabulary from the reel
 
 **vekengeni**
 
@@ -643,7 +643,7 @@ and only then let it out of your mouth.
 
 [Reel](https://www.instagram.com/reels/DRFXZrciGB9/)
 
-### Line-by-line HU → EN
+### Line-by-line HU → EN
 
 **Te, van egy hot take-etek, ami…**
 
@@ -802,7 +802,7 @@ Its slave.
 
 Slave!
 
-### Contextual vocabulary worth keeping (with anchors)
+### Contextual vocabulary worth keeping (with anchors)
 
 * **csípős (vélemény)** – *spicy / provocative*
   → *„mi a csípős-csípős dolog?”*
@@ -833,7 +833,7 @@ Slave!
 
 [Reel](https://www.instagram.com/reel/DShbAucFSja/)
 
-### Line by line HU → EN walkthrough
+### Line by line HU → EN walkthrough
 
 **Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?**
 
@@ -862,7 +862,7 @@ Notes:
 
 [Reel](https://www.instagram.com/reel/DQejh5hjUAQ/)
 
-### Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Feljössz hozzám egy kávéra?**
 
@@ -888,7 +888,7 @@ Please, I haven’t had coffee for half a year.
 * *fél éve* = for half a year
 * *kérlek* = please (again)
 
-### Extracted vocabulary & chunks
+### Extracted vocabulary & chunks
 
 **Dating / social**
 
@@ -914,7 +914,7 @@ Please, I haven’t had coffee for half a year.
 
 [Reel](https://www.instagram.com/reel/DMx4J58oRIB/)
 
-### Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
 **Tök nehéz gyereket nevelni,**
 
@@ -1062,7 +1062,7 @@ You wouldn’t dare do this with adults, right?
 
 Don’t cry.
 
-### Contextualised vocabulary (anchored, no bare lists)
+### Contextualised vocabulary (anchored, no bare lists)
 
 * **tök + adj.** – *very / really*
   → *tök nehéz*
@@ -1103,7 +1103,7 @@ Don’t cry.
 
 [Reel](https://www.instagram.com/reels/DTa1X4eikHQ/)
 
-### Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
 **Magyarázza már meg nekem azt valaki,**
 
@@ -1178,7 +1178,7 @@ this whole thing is actually funny.
 
 * *egész* = “as a whole”
 
-### Contextualised vocabulary & expressions (anchored)
+### Contextualised vocabulary & expressions (anchored)
 
 **magyarázza már meg**
 
@@ -1242,7 +1242,7 @@ this whole thing is actually funny.
 
 [Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
 
-### Sentence-by-sentence HU → EN (key parts)
+### Sentence-by-sentence HU → EN (key parts)
 
 **Így táncol hatszázötven millió magyar forint.**
 
@@ -1336,7 +1336,7 @@ none of this matters
 
 sloppy / low-effort subtitles
 
-### Contextual vocabulary worth keeping (anchored)
+### Contextual vocabulary worth keeping (anchored)
 
 * **arcpirító** – *embarrassing to the point of blushing*
   → *arcpirítónak tartom*
@@ -1369,7 +1369,7 @@ sloppy / low-effort subtitles
 
 [Reel](https://www.instagram.com/reel/DRDYEACjN-g/)
 
-### Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
 **Te is hallottál a rézfaszú bagolyról.**
 
@@ -1444,7 +1444,7 @@ most fairy tales are more horror
 
 than innocent stories.
 
-### Contextualised vocabulary & expressions (anchored)
+### Contextualised vocabulary & expressions (anchored)
 
 **rézfaszú (vki)**
 
@@ -1509,7 +1509,7 @@ than innocent stories.
 
 [Reel](https://www.instagram.com/reel/DTYb5Q4Ddg8/)
 
-### Line-by-line HU → EN
+### Line-by-line HU → EN
 
 **Anya, az biztos, hogy a baba ott jön ki, ahol a fütykös bement?**
 
