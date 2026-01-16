@@ -55,18 +55,23 @@ A **spiritual / emotional wound**.
 ### Line-by-line translation
 
 **Női nemiszv négy betű.**
+
 The *female genital* — four letters.
 
 **Vizszintes vagy függőleges?**
+
 Horizontal or vertical?
 
 **Vizszintes.**
+
 Horizontal.
 
 **Szállj!**
+
 Get out! / Stop it! (*dismissive, irritated*)
 
 **Jó, kijön.**
+
 Alright, I’m coming out. (*literally “it comes out”; comic exit line*)
 
 ### Vocabulary
@@ -79,11 +84,40 @@ Alright, I’m coming out. (*literally “it comes out”; comic exit line*)
 * **szállj!** – get out! / knock it off! (colloquial imperative)
 * **kijön** – come out / step out
 
-If you want, I can also note where the humour relies on **crossword-style phrasing** vs **sexual double meaning**, but I’ll only do that if you ask.
-
-
 -----
 
 [Reel](https://www.instagram.com/reels/DThz8FRjKKJ/)
 
-Ha nincs kedvet tanulni, akkor menj ki a hidegbe, hogy átérezd, hogy milyen hajléktalannak lenni, miután megbúksz.
+### Line-by-line translation
+
+**Ha nincs kedved tanulni,**
+
+If you don’t feel like studying,
+
+**akkor menj ki a hidegbe,**
+
+then go out into the cold,
+
+**hogy átérezd, hogy milyen hajléktalannak lenni,**
+
+so that you can *feel what it’s like* to be homeless,
+
+**miután megbuksz.**
+
+after you *fail* (your exams).
+
+### Vocabulary
+
+* **ha … akkor …** – if … then … (conditional structure)
+* **nincs kedved** – you don’t feel like / you have no motivation
+* **tanulni** – to study
+* **kimenni** – go out
+* **hideg / hidegbe** – cold / into the cold
+* **átérez** – deeply feel, empathise with
+* **hajléktalan** – homeless person
+* **lenni** – to be
+* **miután** – after
+* **megbukik** (*megbuksz*) – fail (an exam)
+
+-----
+
