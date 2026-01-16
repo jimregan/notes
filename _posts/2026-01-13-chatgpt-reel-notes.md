@@ -13,142 +13,142 @@ categories: [hungarian, chatgpt, reels]
 
 ### **Nekem annak idején a randizás olyan élmény volt,**
 
-**EN:** Back then, dating was an experience for me like…
+Back then, dating was an experience for me like…
 
 * *nekem* = “for me” (topic/stance).
 * *annak idején* = “back then”.
 
 ### **mintha az állatkertből egyenként kihoznám az állatokat,**
 
-**EN:** as if I were bringing the animals out of the zoo one by one,
+as if I were bringing the animals out of the zoo one by one,
 
 * *mintha* triggers a hypothetical vibe;
 * *kihozni* = bring out.
 
 ### **és megnézném, hogy melyik öl meg.**
 
-**EN:** and checking which one would kill me.
+and checking which one would kill me.
 
 * *megnézném* is “I’d check” (conditional).
 
 ### **És amelyik nem öl meg, az is beleszarik a lakásomba.**
 
-**EN:** And the one that doesn’t kill me still shits in my apartment.
+And the one that doesn’t kill me still shits in my apartment.
 
 * *beleszarik* is very vulgar
 * *-ba/-be* = into.
 
 ### **Szóval borzalmas, egyszerűen.**
 
-**EN:** So it’s just awful.
+So it’s just awful.
 
 * *szóval* = “so/basically”.
 
 ### **Meg ugye a mi generációnknak szerintem alapból**
 
-**EN:** And, you know, I think for our generation, right from the start…
+And, you know, I think for our generation, right from the start…
 * *ugye* ≈ “you know/right”
 * *alapból* = “by default”.
 
 ### **egy kicsit nehezebb volt ez a párkeresés,**
 
-**EN:** this whole partner-search/dating thing was a bit harder,
+this whole partner-search/dating thing was a bit harder,
 
 * *párkeresés* literally “partner-search”.
 
 ### **mert nem tudom, hölgyeim, emlékeztek-e**
 
-**EN:** because I don’t know, ladies, do you remember…
+because I don’t know, ladies, do you remember…
 
 * *-e* marks a yes/no question.
 
 ### **a csodálatos Bravo Girls magazinra,**
 
-**EN:** the wonderful Bravo Girls magazine,
+the wonderful Bravo Girls magazine,
 
 * *-ra/-re* = onto/to; here “remember X” takes *-ra*.
 
 ### **és hogy milyen tanácsokat adott nekünk**
 
-**EN:** and what kind of advice it gave us
+and what kind of advice it gave us
 
 * *tanácsokat* = advice (plural object).
 
 ### **a pasizás terén. Ugye, katasztrófa volt?**
 
-**EN:** about getting guys. Like… it was a disaster, right?
+about getting guys. Like… it was a disaster, right?
 
 * *pasizás* slang
 * *terén* = “in the area of”.
 
 ### **Ilyeneket írtak benne, hogy ha be akarsz pasizni,**
 
-**EN:** It said stuff like: if you want to pick up guys,
+It said stuff like: if you want to pick up guys,
 
 * *benne* = “in it”
 * *be akar* = “want to get into/achieve”.
 
 ### **akkor nagyon fontos, hogy legyél titokzatos.**
 
-**EN:** then it’s very important that you be mysterious.
+then it’s very important that you be mysterious.
 
 * *hogy legyél* = “that you be” (subjunctive-ish).
 
 ### **Minek?**
 
-**EN:** What for? / Why?
+What for? / Why?
 
 * sharp rhetorical “why”.
 
 ### **Hogy két év múlva jöjjön rá, hogy bolond vagyok?**
 
-**EN:** So that two years later he finds out I’m crazy?
+So that two years later he finds out I’m crazy?
 
 * *rájön* = realize; *jöjjön rá* = “let him realize”.
 
 ### **Kinek segít az? Nem érünk rá.**
 
-**EN:** Who does that help? We don’t have time for that.
+Who does that help? We don’t have time for that.
 
 * *nem érünk rá* = we don’t have the time / no time.
 
 ### **Titokzatos… ez akkora hülyeség, hogy**
 
-**EN:** “Mysterious”… that’s such bullshit that—
+“Mysterious”… that’s such bullshit that—
 
 * *akkora X, hogy…* = “such a X that…”
 
 ### **mi, nők úgy vagyunk titokzatosak,**
 
-**EN:** we women are “mysterious” like this:
+we women are “mysterious” like this:
 
 * *úgy …, hogy …* = “in such a way that…”
 
 ### **hogy nem áruljuk el, hogy igazából**
 
-**EN:** we don’t reveal that, actually,
+we don’t reveal that, actually,
 
 * *árulja el* = reveal; *igazából* = actually.
 
 ### **nem szőke a hajunk, hanem barna.**
 
-**EN:** our hair isn’t blonde — it’s brown.
+our hair isn’t blonde — it’s brown.
 
 * *hanem* = “but rather” (correction).
 
 ### **A férfiak meg úgy titokzatosak,**
 
-**EN:** And men are “mysterious” like this:
+And men are “mysterious” like this:
 
 * *meg* here = “and/whereas” (contrast).
 
 ### **hogy nem árulják el,**
 
-**EN:** they don’t reveal
+they don’t reveal
 
 ### **hogy van egy feleségük, meg két gyerekük, szóval.**
 
-**EN:** that they have a wife and two kids, basically.
+that they have a wife and two kids, basically.
 
 * *-ük* = “their”; *szóval* trails off.
 
@@ -199,31 +199,31 @@ categories: [hungarian, chatgpt, reels]
 
 ### **Női logika.**
 
-**EN:** Female logic.
+Female logic.
 
 ### **Na, pacsi.**
 
-**EN:** Well, high five.
+Well, high five.
 
 * *na* = casual discourse marker
 * *pacsi* = high five
 
 ### **Az a férfi, aki most főz és takarít,**
 
-**EN:** That man who is cooking and cleaning right now,
+That man who is cooking and cleaning right now,
 
 * *az a …, aki …* = “the one who …” (defining relative clause)
 * *most* = right now (situational emphasis)
 
 ### **az egy utolsó szemét,**
 
-**EN:** is an absolute piece of trash,
+is an absolute piece of trash,
 
 * *egy utolsó X* = “a complete / absolute X” (very strong judgment)
 
 ### **hiszen ő csak a szexre használja a nőt.**
 
-**EN:** since he’s only using the woman for sex.
+since he’s only using the woman for sex.
 
 **Notes:**
 
