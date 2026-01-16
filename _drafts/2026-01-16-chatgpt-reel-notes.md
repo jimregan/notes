@@ -511,6 +511,42 @@ Ugyanis a mai férfiakat tekintve ezer szer rosszabb dolgok vannak bennük anná
 
 [Reel](https://www.instagram.com/reels/DSGF-nBiKFJ/)
 
+[00:00.000 --> 00:06.300]  Emlékeztek, hogy négy nappal ezelőtt, mit is mondott Orbán Viktor, hogy mit tennel a gyermek bántalmazukkal?
+[00:06.300 --> 00:11.020]  Szerintem, aki gyerekekhez nyúl, azt misszikbe kell aprítani.
+[00:11.020 --> 00:12.220]  Nincs, nincs, mert beszélnél.
+[00:12.220 --> 00:13.100]  Álgatok!
+[00:14.420 --> 00:20.780]  Valóban vastapsot érdemlő mondat, de hogyha ez így van, akkor mi az oka annak, hogy ez a felvétel,
+[00:20.780 --> 00:26.420]  és még ezek közül kettőmásik hónapok óta a rendőrség turálydonában van,
+[00:26.420 --> 00:28.900]  és nincsen következménye.
+[00:29.300 --> 00:30.380]  Ennek sem.
+[00:30.380 --> 00:33.540]  Orbán Viktor és kocs ismáltét több ször kielentette már azt,
+[00:33.540 --> 00:37.860]  hogy a szőjúcában nem gyermek otthon van, hanem kiskorúag börtönne.
+[00:37.860 --> 00:43.340]  Ami ugye bár nem igaz, hiszen ez egy javító intézet, nem pedig egy gyermek börtön.
+[00:43.340 --> 00:47.460]  Megpróbáljátok úgy beállítani ezeket a gyerekeket, mint hogyha ő bűnözők lennének,
+[00:47.460 --> 00:53.580]  de ők azért kerültek ebbe a sociális intézménybe, hogy visszaintegráják őket a társadalomba.
+[00:53.580 --> 00:58.740]  Így akarjuk visszaintegráni a társadalomba, hogy a földön rukdossuk őket.
+[00:58.740 --> 01:02.500]  Komolyan kérdezem, szerintetek, ha egy gyerek rosszat csinál,
+[01:02.500 --> 01:09.100]  akkor ő azt érdemli, hogy átlegyen rángatva az aztalon és az aztal belegyen verve a feje.
+[01:09.100 --> 01:14.100]  Sok mindent lehet mondani az intézet is gyerekekre, de mitől lennének másabbak,
+[01:14.100 --> 01:16.580]  hogyha a nevelőik ezt csinálják velük.
+[01:16.580 --> 01:21.420]  Ezek a felvételek köztudottan hónapok óta a hatóságoknál vannak,
+[01:21.420 --> 01:24.380]  viszont valahogy még mindig nem történ semmi,
+[01:24.380 --> 01:32.260]  akivel én még mindig állgondolkozik azon, hogy ehhez semmi köze a kormánynak, kérdezem miért.
+[01:32.260 --> 01:38.060]  Egy ilyen esetet akkor nem fognak kivizsgálni, hogyha fentről parancsot kapnak.
+[01:38.060 --> 01:41.060]  Az elkövetőbb büszkén vállalta, hogy így nevelél gyerekeket,
+[01:41.060 --> 01:47.460]  most viszont, hogy ezt kiderült, azzal takarózik, hogyhát ezek kontekstusból kiragadott felvételek.
+[01:47.460 --> 01:54.780]  Kérdemén, hogy milyen kontekstus az, ami megköveteli, hogy egy gyereket átrángass az asztalon,
+[01:54.780 --> 01:57.620]  majd a földön fekve rugdorsdőt.
+[01:57.620 --> 02:00.300]  Melyik az a kontekstus szeretném tudni?
+[02:00.300 --> 02:04.260]  És minden olyan embernek, akinek erre egyszerűen csak annyi a válasza,
+[02:04.260 --> 02:10.740]  hogy hát nem ismerjük az előzményeket, minden ilyen embernek azt javasnom, hogy vonúlyom be az állat kebbe.
+[02:10.740 --> 02:15.020]  Ugyanis ilyen felfogással nem az emberek, hanem az állatok közévaló.
+[02:15.020 --> 02:18.420]  Kisebbeket és a gyengébbeket az állatok bántják.
+[02:18.420 --> 02:22.660]  Ha egy állat fenyegetést érez, akkor az az állat támadni fog.
+[02:22.660 --> 02:25.460]  Ez a férfi egy össztönlény, egy állat.
+[02:25.460 --> 02:32.540]  És annyira vissza, hogy ez az emberlet kinevezve azok után, hogy egy gyermek futtatónak le kellett mondani a.
+[02:32.540 --> 02:37.060]  Most, hogy ő sem lehet az igazgató, ki a következő, mondjuk egy sorozat gyilkos.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DR5L8OMCJ3l/)
