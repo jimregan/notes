@@ -418,36 +418,47 @@ For similar stories, *go ahead and follow me*!
 ### Line-by-line translation
 
 **Öt támogatás, amit gyerek nélkül is megkaphatsz.**
+
 Five *benefits / subsidies* that you can get *even without having children*.
 
 **Közel négymillió forint adóvisszatérítés jár egészségpénztáron keresztül,**
+
 Almost *four million forints in tax refund* is available *via a health savings fund*,
 
 **ha adóstársaddal egy húsz évre szóló jelzáloghitelt törlesztetek innen.**
+
 if you and your *co-borrower* are repaying a *20-year mortgage* from it.
 
 **25 000 forint visszatérítés jár egy sikeres KRESZ-vizsga után,**
+
 A *25,000-forint refund* is granted after a *successful driving-theory exam*,
 
 **ha húsz év alatti vagy.**
+
 if you are *under 20*.
 
 **Idén már 174 000 forint jár gluténérzékenységre, laktózérzékenységre,**
+
 This year *174,000 forints* are available for *gluten intolerance* and *lactose intolerance*,
 
 **endometriózisra és még nagyon-nagyon sok betegségre.**
+
 for *endometriosis* and *many, many other illnesses*.
 
 **A preferált kistelepüléseken 27%-os áfa-visszatérítést lehet kapni**
+
 In *preferred small settlements*, a *27% VAT refund* can be claimed
 
 **bővítés és korszerűsítés után,**
+
 after *home extension* or *modernisation*,
 
 **és a maximum 130–150 000 forint adóvisszatérítés neked is jár,**
+
 and a *maximum 130–150,000-forint tax refund* is also available to you,
 
 **ha már most spórolnál az időskori énednek.**
+
 if you *start saving now* for your *older, future self*.
 
 ### Vocabulary
@@ -472,4 +483,3 @@ if you *start saving now* for your *older, future self*.
 * **spórol** – save money
 * **időskori éned** – your older / retirement-age self
 
-This one is **informational–influencer style Hungarian**: compact sentences, lots of administrative vocabulary, and the repeated use of **jár** (“is granted”) — very typical of official-benefit discourse.
