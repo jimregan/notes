@@ -1306,15 +1306,15 @@ I’ll **count down**.
 [Pajzán Toldi](https://www.instagram.com/reels/DSK0qTNDHoR/)
 
 Szerintem most fogd be a füled!
-Ég a nap meleg től a kopálsíkszárja.
-Redves f**k szállt toldi bíz?
+"Ég a napmelegtől a kopár sík szárja,
+redves fa*at toldi bíz?
 Igen, vakarja.
-Mérgés bögölj legyek csípik, ahol érik.
-Rücskös seggepartján vecsernyéznek délik.
-És itt tovább, ismerős valahonnan.
-Hát persze, aranyjános toldi címükölteményinek trágár disznóváltozatáról van szó.
-És hogy ennek ki a szerzője.
-Sokan úgy gondolják, hogy a maladszörseíról ismert Lővi Árpád, de ez tévedés.
-Az biztos, hogy Valódi híres költő volt.
-Valódi györgy azt állította Józse Fatilla, de szerintem kamuzott.
-Én pont ő rágyanak szom.
+Mérgés bögöly legyek, csípik, ahol érik,
+rücskös segge partján vecsernyéznek délig."
+És így tovább... ismerős valahonnan?
+Hát persze! Arany János toldi címü költeményének trágár, disznó változatáról van szó.
+És hogy ennek ki a szerzője?
+Sokan úgy gondolják, hogy a malac verseiről ismert Löwy Árpád, de ez tévedés.
+Az biztos, hogy Valódi, híres költő volt.
+Faludy György, azt állította: József Atilla, de szerintem kamuzott.
+Én pont őrá gyanakszom!
