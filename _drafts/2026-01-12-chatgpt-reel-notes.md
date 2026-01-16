@@ -7,62 +7,44 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-## [Reel](https://www.instagram.com/reels/DTQZMgTjFgq/)
+[Reel](https://www.instagram.com/reels/DTQZMgTjFgq/)
 
-
-# 1️⃣ Sentence-by-sentence breakdown (very explicit)
-
-I’ll take the **simple Hungarian version** and explain **one sentence at a time**.
-
----
-
-### 1.
 
 **Az a bajom a horrorfilmekkel,**
-= *My problem with horror movies is…*
+
+*My problem with horror movies is…*
 
 * **az** = that
 * **a bajom** = my problem
 * **-om** = “my” (possessive)
 * **a horrorfilmekkel** = with horror movies
-
-  * **-kel** = “with” (plural instrumental)
+* **-kel** = “with” (plural instrumental)
 
 👉 Hungarian often starts like this: *“That is my problem…”*
 
----
-
-### 2.
-
 **hogy sok film nagy kastélyban játszódik.**
-= *that many movies take place in big castles.*
+
+*that many movies take place in big castles.*
 
 * **hogy** = that
 * **sok film** = many movies
 * **nagy** = big
 * **kastélyban** = in a castle
-
-  * **-ban** = in
+* **-ban** = in
 * **játszódik** = takes place (happens as a story)
 
----
-
-### 3.
-
 **Miért nincs olyan horrorfilm,**
-= *Why isn’t there a horror movie…*
+
+*Why isn’t there a horror movie…*
 
 * **miért** = why
 * **nincs** = there is not
 * **olyan** = such / that kind of
 * **horrorfilm** = horror movie
 
----
-
-### 4.
-
 **ami egy pesti garzonban játszódik?**
-= *that takes place in a Budapest studio apartment?*
+
+*that takes place in a Budapest studio apartment?*
 
 * **ami** = which / that
 * **pesti** = from Budapest
@@ -70,47 +52,34 @@ I’ll take the **simple Hungarian version** and explain **one sentence at a tim
 * **garzonban** = in a studio
 * **játszódik** = takes place
 
----
-
-### 5.
-
 **– Szívem, mi ez a hang?**
-= *Darling, what is this sound?*
+
+*Darling, what is this sound?*
 
 * **szívem** = my dear / darling (literally “my heart”)
 * **mi ez** = what is this
 * **a hang** = the sound
 
----
-
-### 6.
-
 **– Semmi, csak a konvektor.**
-= *Nothing, just the gas heater.*
+
+*Nothing, just the gas heater.*
 
 * **semmi** = nothing
 * **csak** = just / only
 * **konvektor** = gas heater (very common in Hungary)
 
----
-
-### 7.
-
 **A gyilkos megpróbál leszúrni,**
-= *The killer tries to stab you.*
+
+*The killer tries to stab you.*
 
 * **gyilkos** = killer
 * **megpróbál** = tries
 * **leszúrni** = to stab
-
-  * **-ni** = infinitive (“to”)
-
----
-
-### 8.
+* **-ni** = infinitive (“to”)
 
 **de beüti a könyökét a szagelszívóba.**
-= *but hits his elbow on the extractor hood.*
+
+*but hits his elbow on the extractor hood.*
 
 * **de** = but
 * **beüti** = hits (by accident)
@@ -118,114 +87,80 @@ I’ll take the **simple Hungarian version** and explain **one sentence at a tim
 * **szagelszívó** = kitchen hood
 * **-ba** = into
 
----
-
-### 9.
-
 **Te megsajnálod őt,**
-= *You feel sorry for him.*
+
+*You feel sorry for him.*
 
 * **te** = you
 * **megsajnálod** = you pity / feel sorry for
 * **őt** = him / her
 
----
-
-### 10.
-
 **elviszed a kórházba.**
-= *you take him to the hospital.*
+
+*you take him to the hospital.*
 
 * **elviszed** = you take (away)
 * **kórház** = hospital
 * **kórházba** = to the hospital
 
----
-
-### 11.
-
 **Egymásba szerettek.**
-= *You fall in love with each other.*
+
+*You fall in love with each other.*
 
 * **egymásba** = into each other
 * **szerettek** = you loved / fell in love
 
----
-
-### 12.
-
 **Később kiderül,**
-= *Later it turns out…*
+
+*Later it turns out…*
 
 * **később** = later
 * **kiderül** = it turns out
 
----
-
-### 13.
-
 **hogy másokat is meg akart ölni.**
-= *that he wanted to kill others too.*
+
+*that he wanted to kill others too.*
 
 * **másokat** = others
 * **is** = also
 * **meg akart ölni** = wanted to kill
 
----
-
-### 14.
-
 **Féltékeny leszel,**
-= *You become jealous.*
+
+*You become jealous.*
 
 * **féltékeny** = jealous
 * **leszel** = you will be / become
 
----
-
-### 15.
-
 **leszúrod őt.**
-= *you stab him.*
+
+*you stab him.*
 
 * **leszúrod** = you stab
 * **őt** = him
 
----
-
-### 16.
-
 **Megint horrorfilm lesz.**
-= *It becomes a horror movie again.*
+
+*It becomes a horror movie again.*
 
 * **megint** = again
 * **lesz** = will be
 
----
-
-### 17.
-
 **A lényeg:**
-= *The point is:*
+
+*The point is:*
 
 * **lényeg** = point / essence
 
----
-
-### 18.
-
 **legyen egy horrorfilm garzonban.**
-= *there should be a horror movie in a studio apartment.*
+
+*there should be a horror movie in a studio apartment.*
 
 * **legyen** = should be (subjunctive)
 * **egy horrorfilm** = a horror movie
 * **garzonban** = in a studio apartment
 
----
-
-# 2️⃣ Anki-style core vocabulary (copy-ready)
-
-**Hungarian → English**
+### Vocabulary list
 
 * az a bajom → my problem is
 * horrorfilm → horror movie
@@ -248,11 +183,7 @@ I’ll take the **simple Hungarian version** and explain **one sentence at a tim
 * féltékeny → jealous
 * lényeg → point / essence
 
----
-
-# 3️⃣ Same text at different levels
-
-## 🟢 A2 (short, simple, safe)
+### Same text, A2
 
 A horrorfilmek gyakran nagy házakban játszódnak.
 Ez nem jó.
@@ -271,9 +202,7 @@ De később baj lesz.
 
 Megint horrorfilm lesz.
 
----
-
-## 🔵 B1 (more natural, but still clear)
+### Same text, B1
 
 A horrorfilmek legtöbbször nagy kastélyokban játszódnak.
 Szerintem ez unalmas.
@@ -292,5 +221,5 @@ Később kiderül az igazság,
 
 -----
 
-## [Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
+[Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
 
