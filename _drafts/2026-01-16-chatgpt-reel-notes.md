@@ -700,34 +700,35 @@ Now that he can’t be director either, who’s next?
 
 [Reel](https://www.instagram.com/reels/DR5L8OMCJ3l/)
 
-Jön a tokszikóma kettő, vagy és Körtisztről filmet készítenek, majd nem annyi pénzből, mint a mannyit életes oran eldrogozott.
-120 millió forint.
-Már majd nem felmertem háborodni, hogy a budapesti szülészeten megint kabátban dolgoznak.
-Dehát így már érthető.
-Nem maradhat a magyar Körtiszt film nyelkül.
-Kirenne jobb alany erre.
-Mondjuk így nun beldíjas.
-Őszinten nem értek a filmekhez, de kicsit sajnálom, hogy nem dolgozhatok ezen a filmán, ugyanis lenne pár ötletem.
-Például én az első felvonás az biztos vagyok benne, hogy ezzel kezdem én, hogy a nézőknek a figyelmit már az első pillanatban megfogjuk.
-Sajnos ez valóban megtörtént, kezdterem meg ő hangom Bettina.
-Körtiszt őkől elütötte a fejjel.
-Ha már a kapcsolatoknál tartunk volt, neki még pár a férja ilyen téren.
-Például amikor a feleségét terhessen ugye megcsalta, de hát egy terhesnő ugye terhels és nyilván nem olyan vonzó, mint mielőtt teherbe eitettem.
-Szóval adik kell keresni valakit, aki olyan vonzó.
-Mondjuk az is nagyon jó volt, amikor prostituálnak állt, de szigorúan csak egy éjszakára ugyanisül belekóstolt, kipróbált és ráölt, hogy ez nem neki való.
-Szóval úgy döntött, hogy marad inkább a zenélésnél, ahol imádta leszivatni a rajongóit illetve a saját társait is.
-Minden zenész társa megvisszatatlannak tartotta, ugyanis szeretet nem megjelenni a helyszínekán.
-Volt olyan, ahol megjelent, csak nem lépett fel, hanem amikor megkaptott a pénzt inkább hazament, de mindezek ellenére valamért a tévében mégis szerepelte.
-Dehát hűmarad önmagához és úgy sem jelenik meg.
-Kigondolt a volna.
-Dehát ilyen ez a drog függőség ugye bár, nincsen ezzel probléma, amig valaki a négy falköz csinálja, és nem veszélyeztetve lesz senkit.
-Ja, hoppá, ezt sem teljesen igaz.
+Jön a tokszikóma kettő, vagyis Curtisről filmet készítenek, majdnem annyi pénzből, mint amennyit ő élete soran eldrogozott.
+Százhúsz millió forint.
+Már majdnem fel mertem háborodni, hogy a budapesti szülészeten (sic: kórházban) megint kabátban dolgoznak.
+De hát így már érthető.
+Nem maradhat a magyar Curtis film nélkül.
+Ki lenne jobb alany erre?
+Mondjuk egy Nobel-díjas?
+Pff.
+Őszintén nem értek a filmekhez, öh de kicsit sajnálom hogy nem dolgozhatok ezen a filmen, ugyanis öh lenne pár ötletem.
+Például én az első felvonást az biztos vagyok benne, hogy ezzel kezdenem hogy a nézőknek a figyelmét már az első pillanatban megfogjuk.
+Sajnos ez valóban meg történt, kezdte remegő hangon Bettina.
+Curtis ököllel ütötte a fejem.
+Ha már a kapcsolatoknál tartunk volt, neki még pár afférja ilyen téren.
+Például amikor a feleségét terhesen ugye megcsalta, de hát egy terhes nő ugye terhes és nyilván nem olyan vonzó, mint mielőtt teherbe ejtettem.
+Szóval addig kell keresni valakit, aki olyan vonzó.
+Mondjuk az is nagyon jó volt, amikor prostituáltnak állt, öh de szigorúan csak egy éjszakára ugyanis ö belekóstolt, kipróbálta és rájött, hogy ez nem neki való.
+Szóval úgy döntött, hogy marad inkább a zenélésnél ahol imádta leszivatni a rajongóit illetve a saját társait is.
+Minden zenésztársa megbizhatatlannak tartotta, ugyanis szeretett nem megjelenni a helyszíneken.
+Volt olyan, ahol megjelent, csak nem lépett fel, hanem amikor megkapta a pénzt inkább hazament, de mindezek ellenére valamiért a tévében mégis öh szerepelt.
+De hát hű marad önmagához és úgysem jelenik meg.
+Ki gondolta volna?
+De hát ilyen ez a drogfüggőség ugyebár, nincsen ezzel probléma, amig valaki a négy fal közt csinálja, és nem veszélyeztet vele senkit.
+Ja, hoppá. Ez sem teljesen igaz.
 Mondjuk remélem, hogy ezt a jelenetet mindenképp meglovagolják majd a filmben, ugyanis egyik jó filmből sem maradhat ki az autós jelenet.
-Mondjuk, hogyha még akció jelenetet akartok, akkor asszem lenne rossz, amikor őkől lámát neki egy szúrkolónak, egy foci matchen.
-Én azt végbe laraknám.
-Szóval üzenem annak, aki ezen a filmben fog dolgozni, ha már ennyi pénzt rákeltünk, akkor nem maradjon ki belőle semmi sem.
+Mondjuk, hogyha még akciójelenetet akartok, akkor az sem lenne rossz amikor ököllel ment neki egy szurkolónak, egy focimeccsen.
+Én ezt még beleraknám.
+Szóval üzenem annak, aki ezen a filmen fog dolgozni, ha már ennyi pénzt ráköltünk, akkor ne maradjon ki belőle semmi sem.
 Van itt anyag bőven.
-Főcím dánnak pedig ajánlanám figyelmetekben.
+Főcímdálnak pedig ajánlanám figyelmetekbe.
 
 -----
 
