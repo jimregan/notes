@@ -726,13 +726,13 @@ Well, I think *on two packs of crystal*.
 
 [Reel](https://www.instagram.com/reels/DRU46etjGzj/)
 
-Mint tudjuk, a magyarul lehet a lekszifrában káromkodni.
-Vaszomat, mert a kiárásíti lorom a kurva élhend.
-Nem csoda, hiszen nem makesztük.
-Az első anyázás, mátyás király idejében éjegyezték fel a krónikák.
-Ugyanis, amikor a magyarok a németekkel arszoltak, ezt orgyítozták.
-Vesztek kurvan ő, fia szaros német.
-Itt átok, vérünk-e, ma is szukti véleteket.
+Mint tudjuk, a magyarul lehet a legcifrábban káromkodni.
+> Faszomat... Mi van kiárási tilalom? A kurva életbe...
+Nem csoda, hiszen nem ma *kezdtük*.
+Az első anyázást, mátyás király idejében jegyezték fel a krónikák.
+Ugyanis amikor a magyarok a németekkel harcoltak, ezt ordítozták:
+"Veszteg, kurvanő fia, szaros német,
+ittátok vérünket, ma isszuk ti véreteket!"
 Jól hangzik, nem?
 Amúgy ezt inkább szitkozódásnak nevezném,
-mert káromkodás az, amiben a jó istent is belekeverjük.
+mert káromkodás az, amibe a *jóistent is* belekeverjük.
