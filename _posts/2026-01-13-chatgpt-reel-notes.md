@@ -7,107 +7,154 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-## [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
+[Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
 
-### Line-by-line translation
+## Line-by-line translation
 
-1. **Nekem annak idején a randizás olyan élmény volt,**
-   **EN:** Back then, dating was an experience for me like…
-   **Notes:** *nekem* = “for me” (topic/stance). *annak idején* = “back then”.
+### **Nekem annak idején a randizás olyan élmény volt,**
 
-2. **mintha az állatkertből egyenként kihoznám az állatokat,**
-   **EN:** as if I were bringing the animals out of the zoo one by one,
-   **Notes:** *mintha* triggers a hypothetical vibe; *kihozni* = bring out.
+**EN:** Back then, dating was an experience for me like…
 
-3. **és megnézném, hogy melyik öl meg.**
-   **EN:** and checking which one would kill me.
-   **Notes:** *megnézném* is “I’d check” (conditional).
+* *nekem* = “for me” (topic/stance).
+* *annak idején* = “back then”.
 
-4. **És amelyik nem öl meg, az is beleszarik a lakásomba.**
-   **EN:** And the one that doesn’t kill me still shits in my apartment.
-   **Notes:** *beleszarik* is very vulgar; *-ba/-be* = into.
+### **mintha az állatkertből egyenként kihoznám az állatokat,**
 
-5. **Szóval borzalmas, egyszerűen.**
-   **EN:** So it’s just awful.
-   **Notes:** *szóval* = “so/basically”.
+**EN:** as if I were bringing the animals out of the zoo one by one,
 
-6. **Meg ugye a mi generációnknak szerintem alapból**
-   **EN:** And, you know, I think for our generation, right from the start…
-   **Notes:** *ugye* ≈ “you know/right”; *alapból* = “by default”.
+* *mintha* triggers a hypothetical vibe;
+* *kihozni* = bring out.
 
-7. **egy kicsit nehezebb volt ez a párkeresés,**
-   **EN:** this whole partner-search/dating thing was a bit harder,
-   **Notes:** *párkeresés* literally “partner-search”.
+### **és megnézném, hogy melyik öl meg.**
 
-8. **mert nem tudom, hölgyeim, emlékeztek-e**
-   **EN:** because I don’t know, ladies, do you remember…
-   **Notes:** *-e* marks a yes/no question.
+**EN:** and checking which one would kill me.
 
-9. **a csodálatos Bravo Girls magazinra,**
-   **EN:** the wonderful Bravo Girls magazine,
-   **Notes:** *-ra/-re* = onto/to; here “remember X” takes *-ra*.
+* *megnézném* is “I’d check” (conditional).
 
-10. **és hogy milyen tanácsokat adott nekünk**
-    **EN:** and what kind of advice it gave us
-    **Notes:** *tanácsokat* = advice (plural object).
+### **És amelyik nem öl meg, az is beleszarik a lakásomba.**
 
-11. **a pasizás terén. Ugye, katasztrófa volt?**
-    **EN:** about getting guys. Like… it was a disaster, right?
-    **Notes:** *pasizás* slang; *terén* = “in the area of”.
+**EN:** And the one that doesn’t kill me still shits in my apartment.
 
-12. **Ilyeneket írtak benne, hogy ha be akarsz pasizni,**
-    **EN:** It said stuff like: if you want to pick up guys,
-    **Notes:** *benne* = “in it”; *be akar* = “want to get into/achieve”.
+* *beleszarik* is very vulgar
+* *-ba/-be* = into.
 
-13. **akkor nagyon fontos, hogy legyél titokzatos.**
-    **EN:** then it’s very important that you be mysterious.
-    **Notes:** *hogy legyél* = “that you be” (subjunctive-ish).
+### **Szóval borzalmas, egyszerűen.**
 
-14. **Minek?**
-    **EN:** What for? / Why?
-    **Notes:** sharp rhetorical “why”.
+**EN:** So it’s just awful.
 
-15. **Hogy két év múlva jöjjön rá, hogy bolond vagyok?**
-    **EN:** So that two years later he finds out I’m crazy?
-    **Notes:** *rájön* = realize; *jöjjön rá* = “let him realize”.
+* *szóval* = “so/basically”.
 
-16. **Kinek segít az? Nem érünk rá.**
-    **EN:** Who does that help? We don’t have time for that.
-    **Notes:** *nem érünk rá* = we don’t have the time / no time.
+### **Meg ugye a mi generációnknak szerintem alapból**
 
-17. **Titokzatos… ez akkora hülyeség, hogy**
-    **EN:** “Mysterious”… that’s such bullshit that—
-    **Notes:** *akkora X, hogy…* = “such a X that…”
+**EN:** And, you know, I think for our generation, right from the start…
+* *ugye* ≈ “you know/right”
+* *alapból* = “by default”.
 
-18. **mi, nők úgy vagyunk titokzatosak,**
-    **EN:** we women are “mysterious” like this:
-    **Notes:** *úgy …, hogy …* = “in such a way that…”
+### **egy kicsit nehezebb volt ez a párkeresés,**
 
-19. **hogy nem áruljuk el, hogy igazából**
-    **EN:** we don’t reveal that, actually,
-    **Notes:** *árulja el* = reveal; *igazából* = actually.
+**EN:** this whole partner-search/dating thing was a bit harder,
 
-20. **nem szőke a hajunk, hanem barna.**
-    **EN:** our hair isn’t blonde — it’s brown.
-    **Notes:** *hanem* = “but rather” (correction).
+* *párkeresés* literally “partner-search”.
 
-21. **A férfiak meg úgy titokzatosak,**
-    **EN:** And men are “mysterious” like this:
-    **Notes:** *meg* here = “and/whereas” (contrast).
+### **mert nem tudom, hölgyeim, emlékeztek-e**
 
-22. **hogy nem árulják el,**
-    **EN:** they don’t reveal
-    **Notes:** sets up the punchline.
+**EN:** because I don’t know, ladies, do you remember…
 
-23. **hogy van egy feleségük, meg két gyerekük, szóval.**
-    **EN:** that they have a wife and two kids, basically.
-    **Notes:** *-ük* = “their”; *szóval* trails off.
+* *-e* marks a yes/no question.
 
----
+### **a csodálatos Bravo Girls magazinra,**
+
+**EN:** the wonderful Bravo Girls magazine,
+
+* *-ra/-re* = onto/to; here “remember X” takes *-ra*.
+
+### **és hogy milyen tanácsokat adott nekünk**
+
+**EN:** and what kind of advice it gave us
+
+* *tanácsokat* = advice (plural object).
+
+### **a pasizás terén. Ugye, katasztrófa volt?**
+
+**EN:** about getting guys. Like… it was a disaster, right?
+
+* *pasizás* slang
+* *terén* = “in the area of”.
+
+### **Ilyeneket írtak benne, hogy ha be akarsz pasizni,**
+
+**EN:** It said stuff like: if you want to pick up guys,
+
+* *benne* = “in it”
+* *be akar* = “want to get into/achieve”.
+
+### **akkor nagyon fontos, hogy legyél titokzatos.**
+
+**EN:** then it’s very important that you be mysterious.
+
+* *hogy legyél* = “that you be” (subjunctive-ish).
+
+### **Minek?**
+
+**EN:** What for? / Why?
+
+* sharp rhetorical “why”.
+
+### **Hogy két év múlva jöjjön rá, hogy bolond vagyok?**
+
+**EN:** So that two years later he finds out I’m crazy?
+
+* *rájön* = realize; *jöjjön rá* = “let him realize”.
+
+### **Kinek segít az? Nem érünk rá.**
+
+**EN:** Who does that help? We don’t have time for that.
+
+* *nem érünk rá* = we don’t have the time / no time.
+
+### **Titokzatos… ez akkora hülyeség, hogy**
+
+**EN:** “Mysterious”… that’s such bullshit that—
+
+* *akkora X, hogy…* = “such a X that…”
+
+### **mi, nők úgy vagyunk titokzatosak,**
+
+**EN:** we women are “mysterious” like this:
+
+* *úgy …, hogy …* = “in such a way that…”
+
+### **hogy nem áruljuk el, hogy igazából**
+
+**EN:** we don’t reveal that, actually,
+
+* *árulja el* = reveal; *igazából* = actually.
+
+### **nem szőke a hajunk, hanem barna.**
+
+**EN:** our hair isn’t blonde — it’s brown.
+
+* *hanem* = “but rather” (correction).
+
+### **A férfiak meg úgy titokzatosak,**
+
+**EN:** And men are “mysterious” like this:
+
+* *meg* here = “and/whereas” (contrast).
+
+### **hogy nem árulják el,**
+
+**EN:** they don’t reveal
+
+### **hogy van egy feleségük, meg két gyerekük, szóval.**
+
+**EN:** that they have a wife and two kids, basically.
+
+* *-ük* = “their”; *szóval* trails off.
 
 ### Extracted vocabulary (with forms you’ll actually see)
 
-#### Core / common spoken chunks
+**Core / common spoken chunks**
 
 * **annak idején** = back then
 * **szóval** = so / basically
@@ -116,13 +163,13 @@ categories: [hungarian, chatgpt, reels]
 * **alapból** = by default / from the start
 * **nem érünk rá** = we don’t have time
 
-#### Dating / topic words
+**Dating / topic words**
 
 * **randizás / randizni** = dating / to date
 * **párkeresés** = partner-search, dating
 * **pasizás / pasizni** = getting guys, picking up men (slang)
 
-#### Grammar & structure words
+**Grammar & structure words**
 
 * **mintha** = as if
 * **egyen-ként** = one by one
@@ -130,7 +177,7 @@ categories: [hungarian, chatgpt, reels]
 * **hanem** = but rather
 * **úgy …, hogy …** = in such a way that …
 
-#### Verbs & key expressions
+**Verbs & key expressions**
 
 * **kihozni** = to bring out
 * **megnézni / megnézném** = to check/look / I’d check
@@ -138,7 +185,7 @@ categories: [hungarian, chatgpt, reels]
 * **rájön / jöjjön rá** = realize / let him realize
 * **elárul** = reveal
 
-#### Register notes (important!)
+**Register notes (important!)**
 
 * **beleszarik** = “shits into” (very vulgar; used for shock humor)
 * **hülyeség** = stupidity / bullshit (informal, can be rude)
@@ -146,7 +193,7 @@ categories: [hungarian, chatgpt, reels]
 
 -----
 
-## [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/)
+[Reel](https://www.instagram.com/reels/DRWcQjAjH5M/)
 
 ## Line-by-line walkthrough
 
@@ -231,86 +278,89 @@ categories: [hungarian, chatgpt, reels]
 
 -----
 
-## [Reel](https://www.instagram.com/reels/DTayyppjE0c/)
+[Reel](https://www.instagram.com/reels/DTayyppjE0c/)
 
-### Line-by-line HU → EN walkthrough
+## Line-by-line HU → EN walkthrough
 
-**Ha már úgyis nyár van és jó idő,**
+### **Ha már úgyis nyár van és jó idő,**
+
 Since it’s summer anyway and the weather is nice,
 
-**akkor hadd hozzak egy strandolós témát.**
+### **akkor hadd hozzak egy strandolós témát.**
+
 then let me bring up a beach-related topic.
 
----
+### **A Felvidéknek megvannak a maga jellegzetességei,**
 
-**A Felvidéknek megvannak a maga jellegzetességei,**
 The Felvidék has its own characteristics,
 
-**viszont van egy típusú étel,**
+### **viszont van egy típusú étel,**
+
 however, there’s a type of food
 
-**ami a Felvidéken nagyon bevett,**
+### **ami a Felvidéken nagyon bevett,**
+
 that’s very common in the Felvidék,
 
-**és azt nagyon gyakran fogyasztják,**
+### **és azt nagyon gyakran fogyasztják,**
+
 and people eat it very often,
 
-**viszont Magyarországról én nagyon hiányolom.**
+### **viszont Magyarországról én nagyon hiányolom.**
+
 but I really miss it from Hungary.
 
----
+### **Hú, ezért nagyon sokan ki fognak követni.**
 
-**Hú, ezért nagyon sokan ki fognak követni.**
 Whew, a lot of people are going to unfollow me for this.
 
----
+### **Itt szeretném megfogalmazni a javaslatomat a lángosozóknak,**
 
-**Itt szeretném megfogalmazni a javaslatomat a lángosozóknak,**
 Here I’d like to formulate my suggestion to lángos vendors,
 
-**hogy vegyék fel a menüre a sajtos, kecsapos lángost.**
+### **hogy vegyék fel a menüre a sajtos, kecsapos lángost.**
+
 that they include cheesy, ketchup lángos on the menu.
 
-**Szigorúan kecsapos.**
+### **Szigorúan kecsapos.**
+
 Strictly with ketchup.
 
----
+### **Már megtanultam, amióta ideköltöztem,**
 
-**Már megtanultam, amióta ideköltöztem,**
 I’ve already learned, since moving here,
 
-**hogy ez nem kecsup, meg nem kecsöp, hanem kecsap, azt hiszem,**
+### **hogy ez nem kecsup, meg nem kecsöp, hanem kecsap, azt hiszem,**
+
 that it’s not *kecsup* or *kecsöp*, but *kecsap*, I think,
 
-**de kiejtéstől függetlenül, higgyétek el nekem, hogy isteni.**
+### **de kiejtéstől függetlenül, higgyétek el nekem, hogy isteni.**
+
 but regardless of pronunciation, believe me, it’s divine.
 
----
+### **És én még eddig Magyarországon nem találkoztam vele,**
 
-**És én még eddig Magyarországon nem találkoztam vele,**
 And so far I haven’t encountered it in Hungary,
 
-**lehet, hogy egyébként van, ahol árulják,**
+### **lehet, hogy egyébként van, ahol árulják,**
+
 maybe there are places where they sell it,
 
-**de azt azért látom, hogy így széles körben még nem elterjedt.**
+### **de azt azért látom, hogy így széles körben még nem elterjedt.**
+
 but I can see that it hasn’t spread widely yet.
 
----
+### **Pedig kéne. Per fiúk!**
 
-**Pedig kéne. Per fiúk!**
 But it should. Period, guys!
 
----
+### **Ez lett volna a javaslatom. Jó étvágyat kívánok!**
 
-**Ez lett volna a javaslatom. Jó étvágyat kívánok!**
 That would have been my suggestion. Enjoy your meal!
 
----
+## Extracted vocabulary & chunks (caption-based only)
 
-### Extracted vocabulary & chunks (caption-based only)
-
-#### Discourse / structure
+**Discourse / structure**
 
 * **ha már úgyis** – since anyway
 * **viszont** – however / but
@@ -318,19 +368,19 @@ That would have been my suggestion. Enjoy your meal!
 * **hadd** – let me
 * **itt szeretném megfogalmazni** – here I’d like to formulate
 
-#### Region / culture
+**Region / culture**
 
 * **Felvidék** – Upper Hungary / southern Slovakia
 * **jellegzetesség** – characteristic
 
-#### Food
+**Food**
 
 * **lángos** – fried flatbread
 * **lángosozó** – lángos stand / vendor
 * **sajtos** – with cheese
 * **kecsapos** – with ketchup
 
-#### Verbs
+**Verbs**
 
 * **bevett** – customary, established
 * **fogyaszt** – consume
@@ -339,7 +389,7 @@ That would have been my suggestion. Enjoy your meal!
 * **felvesz (a menüre)** – include on the menu
 * **árul** – sell
 
-#### Useful constructions
+**Useful constructions**
 
 * **megvan(nak) a maga …-ei** – has its own …
 * **van, ahol + V** – there are places where …
@@ -348,38 +398,36 @@ That would have been my suggestion. Enjoy your meal!
 
 -----
 
-## [Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
+[Reel](https://www.instagram.com/reels/DMS0kpKomP4/)
 
-### Line-by-line HU → EN walkthrough
+## Line-by-line HU → EN walkthrough
 
-**a randizás a lányoknál nem egyéni tevékenység, az csapatmunka.**
+### **a randizás a lányoknál nem egyéni tevékenység, az csapatmunka.**
+
 Dating, for girls, is not an individual activity — it’s teamwork.
 
 * *a lányoknál* = “for girls / on the girls’ side”
 * *nem egyéni tevékenység* = not an individual activity
 * *az csapatmunka* = it’s teamwork (spoken emphasis with *az*)
 
----
+### **Tehát minden lány mögött áll egy ilyen kutatócsapat.**
 
-**Tehát minden lány mögött áll egy ilyen kutatócsapat.**
 So behind every girl there’s this kind of research team.
 
 * *tehát* = so / therefore
 * *mögött áll* = stands behind (metaphorical support)
 * *ilyen* = this kind of
 
----
+### **Barátnőik alkotnak, akik a randi előtt végeznek rajtad egy ilyen átvilágítást.**
 
-**Barátnőik alkotnak, akik a randi előtt végeznek rajtad egy ilyen átvilágítást.**
 It’s made up of her girlfriends, who carry out this kind of background check on you before the date.
 
 * *alkotnak* = constitute / make up
 * *rajtad* = on you (target of the action)
 * *átvilágítás* = screening, background check (humorous exaggeration)
 
----
+### **Lány randira már egy ilyen aktával érkezik, és olyan dolgokat kérdez, amit már rég tud, hogy…**
 
-**Lány randira már egy ilyen aktával érkezik, és olyan dolgokat kérdez, amit már rég tud, hogy…**
 A girl already arrives at the date with a file like this, and asks things she’s known for a long time, like…
 
 * *már* = already (important for timing)
@@ -387,54 +435,50 @@ A girl already arrives at the date with a file like this, and asks things she’
 * *olyan dolgokat kérdez* = asks such things
 * *amit már rég tud* = which she’s known for a long time
 
----
+### **És van tesód? Igen, van egy bátyám. És szeretsz Pécsen lakni?**
 
-**És van tesód? Igen, van egy bátyám. És szeretsz Pécsen lakni?**
 And do you have siblings? Yes, I have an older brother. And do you like living in Pécs?
 
 * *tesó* = sibling (informal, gender-neutral)
 * *bátyám* = my older brother
 * *Pécsen* = in Pécs (inessive case)
 
----
+### **Honnan tudod, Pécsen lakik? Tippeltem.**
 
-**Honnan tudod, Pécsen lakik? Tippeltem.**
 How do you know he lives in Pécs? I guessed.
 
 * *honnan tudod* = how do you know
 * *tippeltem* = I guessed (deadpan punchline)
 
----
+## Extracted vocabulary & chunks (caption-based only)
 
-### Extracted vocabulary & chunks (caption-based only)
-
-#### Discourse / structure
+**Discourse / structure**
 
 * **tehát** – so / therefore
 * **már** – already
 * **ilyen** – this kind of
 
-#### Dating & social context
+**Dating & social context**
 
 * **randizás** – dating
 * **randi** – date
 * **randira** – to a date
 
-#### People & relations
+**People & relations**
 
 * **lány** – girl
 * **barátnő** – (female) friend
 * **tesó** – sibling (informal)
 * **bátyám** – my older brother
 
-#### Metaphorical / humorous terms
+**Metaphorical / humorous terms**
 
 * **csapatmunka** – teamwork
 * **kutatócsapat** – research team
 * **átvilágítás** – screening / background check
 * **akta** – file, dossier
 
-#### Verbs
+**Verbs**
 
 * **áll (vki mögött)** – stand behind / support
 * **alkot** – constitute
@@ -443,7 +487,7 @@ How do you know he lives in Pécs? I guessed.
 * **kérdez** – ask
 * **tippel** – guess
 
-#### Useful constructions
+**Useful constructions**
 
 * **nem X, hanem Y / az Y** – not X, but Y
 * **vki mögött áll** – someone has backing/support
@@ -452,11 +496,12 @@ How do you know he lives in Pécs? I guessed.
 
 -----
 
-## [Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
+[Ki milyen praktikát hallott otthon?](https://www.instagram.com/reels/DQrjm8pDAKz/)
 
-### Line-by-line HU → EN walkthrough
+## Line-by-line HU → EN walkthrough
 
-**Ki az, aki hallotta gyerekkorában, hogy égési sérülésre jó a tejföl?**
+### **Ki az, aki hallotta gyerekkorában, hogy égési sérülésre jó a tejföl?**
+
 Who here heard in their childhood that sour cream is good for burns?
 
 * *ki az, aki…* = who is it that… (addressing audience)
@@ -464,46 +509,35 @@ Who here heard in their childhood that sour cream is good for burns?
 * *égési sérülésre* = for burns (purpose case)
 * *tejföl* = sour cream
 
----
+### **Na hát milyen okos szüleink vannak, hogy ezt megtanították.**
 
-**Na hát milyen okos szüleink vannak, hogy ezt megtanították.**
 Well then, how clever our parents are for teaching us this.
 
 * *na hát* = ironic setup
 * clearly sarcastic
 
----
+### **Nem jó. Nem jó.**
 
-**Nem jó. Nem jó.**
 It’s not good. It’s not good.
 
-* repetition = emphasis, verdict
+### **Tehát nagymamám leforrázta magát.**
 
----
-
-**Tehát nagymamám leforrázta magát.**
 So my grandmother scalded herself.
 
 * *leforrázta magát* = burned herself with hot liquid
 
----
+### **Kérdeztük, hívott-e orvost, azt mondta, hogy megoldotta.**
 
-**Kérdeztük, hívott-e orvost, azt mondta, hogy megoldotta.**
 We asked if she had called a doctor; she said she’d taken care of it.
 
 * *-e* = yes/no question marker
 * *megoldotta* = solved it / handled it (ironically)
 
----
-
-**Nem jó, nem.**
+### **Nem jó, nem.**
 Not good. No.
 
-* conversational reinforcement
+### **Maximum annyira jó, hogyha bekened, nem látod, hogy szarrá égtél.**
 
----
-
-**Maximum annyira jó, hogyha bekened, nem látod, hogy szarrá égtél.**
 At most it’s good enough that if you smear it on, you can’t see how badly you burned yourself.
 
 * *maximum annyira jó* = at best only good to this extent
@@ -511,63 +545,55 @@ At most it’s good enough that if you smear it on, you can’t see how badly yo
 * *szarrá* = completely / to hell (vulgar intensifier)
 * *égtél* = you burned
 
----
+### **Hát ha ez működne, akkor minden kórházban így lenne, hogy**
 
-**Hát ha ez működne, akkor minden kórházban így lenne, hogy**
 Well, if this worked, then every hospital would be like this:
 
 * *hát* = rhetorical setup
 * *ha… akkor…* = conditional joke structure
 
----
+### **„hújuhú, másodfokú égési sérülés, nővérke, 20%-os,**
 
-**„hújuhú, másodfokú égési sérülés, nővérke, 20%-os,**
 “Woo-hoo, second-degree burn, nurse, 20 percent,
 
 * mock emergency language
 * *másodfokú* = second-degree
 * *nővérke* = diminutive, sarcastic
 
----
+### **Mizot vödörrel, vödörrel!”**
 
-**Mizot vödörrel, vödörrel!”**
 Bring Mizo by the bucket, by the bucket!
 
 * *Mizo* = Hungarian dairy brand
 * absurd escalation
 * repetition for comedic rhythm
 
----
+### **Hát—**
 
-**Hát—**
 Well— (trailing off)
 
-* open ending, lets joke hang
+## Extracted vocabulary & chunks (caption-based only)
 
----
-
-### Extracted vocabulary & chunks (caption-based only)
-
-#### Discourse / stance
+**Discourse / stance**
 
 * **na hát** – well then (ironic)
 * **tehát** – so
 * **hát** – well (rhetorical)
 * **maximum** – at most
 
-#### Health / body
+**Health / body**
 
 * **égési sérülés** – burn injury
 * **másodfokú** – second-degree
 * **leforrázza magát** – scald oneself
 * **ég** – burn
 
-#### Food (humor source)
+**Food (humor source)**
 
 * **tejföl** – sour cream
 * **Mizo** – dairy brand
 
-#### Verbs
+**Verbs**
 
 * **hall** – hear
 * **tanít** – teach
@@ -577,12 +603,12 @@ Well— (trailing off)
 * **beken** – smear
 * **működik** – work
 
-#### Informal / vulgar
+**Informal / vulgar**
 
 * **szarrá** – completely / to hell (very informal)
 * **nővérke** – nurse (diminutive, ironic)
 
-#### Useful constructions
+**Useful constructions**
 
 * **ki az, aki…** – who is it that…
 * **X-re jó** – good for X
@@ -591,9 +617,7 @@ Well— (trailing off)
 
 -----
 
-## [Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
-
-### Title (reference)
+[Szép volt, jó volt, elég volt.](https://www.instagram.com/reels/DTayjZvjVmw/)
 
 **Szép volt, jó volt, elég volt.**
 
@@ -603,9 +627,7 @@ It was nice, it was good, it was enough.
 * fixed idiomatic triad
 * often used to signal *“okay, that was fun, but I’m done”*
 
----
-
-### Line-by-line HU → EN walkthrough
+## Line-by-line HU → EN walkthrough
 
 **Jó volt ez a hóesés úgy a harmadik napig.**
 This snowfall was good up until about the third day.
