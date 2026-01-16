@@ -9,7 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DR_5vFqiNlA/)
 
-### Line-by-line translation:
+### Line-by-line translation:
 
 **Nekem annak idején a randizás olyan élmény volt,**
 
