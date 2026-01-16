@@ -52,8 +52,8 @@ A **spiritual / emotional wound**.
 
 [Reel](https://www.instagram.com/reels/DRpi2D-jMwQ/)
 
-Ői nem is szerenc! Négy betű!
-Viszintes és fűgőleges!
-Viszintes!
-Száj!
-Jó, ír!
+Női nemiszv négy betű.
+Vizszintes vagy függőleges?
+Vizszintes.
+Szállj!
+Jó, kijön.
