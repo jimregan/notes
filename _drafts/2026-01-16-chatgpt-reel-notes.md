@@ -231,58 +231,77 @@ that it can *completely* take away your attention.
 ### Line-by-line translation
 
 **Az igazi cifra palotáknak, vagy sokan cigánypalotának is hívják ezeket az épületeket itt Erdélyben,**
+
 These are the real **ornate palaces**, or as many people also call them, **“Gypsy palaces”**, here in Transylvania,
 
 **Bánffyhunyadon száz ilyen hihetetlen kulipintyó van.**
+
 in **Bánffyhunyad** there are a hundred such *incredible* **shacks**.
+
 (*kulipintyó* is deliberately ironic here: “hovel / shack”, clashing with *palota*)
 
 **Itt, amiben nem laknak, viszont nézzétek, hogy milyen őrületes módon feldíszítették.**
+
 Here, ones that **no one lives in**, but look at **how insanely they’ve decorated them**.
 
 **Ezeket elsősorban a gábor cigányok,**
+
 These are mainly built by the **Gábor Roma**,
 
 **akik egy különleges, nagyon zárt közösség, sokszor a haszid zsidókhoz szokták őket hasonlítani.**
+
 who are a **special, very closed community**, often compared to *Hasidic Jews*.
 
 **Ezek az ő építményeik, és tényleg nem laknak itt.**
+
 These are **their buildings**, and they really **don’t live in them**.
 
 **Éjjel-nappal dolgoznak Angliában, Írországban,**
+
 They work **day and night** in England and Ireland,
 
 **hogy legyen annyi pénzük, hogy életük végéig befejezzék ezeket a palotákat.**
+
 so that they have enough money to **finish these palaces over the course of their lives**.
 
 **De hogy milyen velük találkozni, azt is megmutatjuk nektek a YouTube-on a Polgárneten.**
+
 But what it’s like **to meet them**, we’ll also show you on YouTube on *Polgárnet*.
 
 **Hihetetlen, hogy ezek közül a házak közül a legtöbbben nem is laknak, vagy be se fejezték.**
+
 It’s incredible that in **most of these houses no one lives**, or they’re **not even finished**.
 
 **Viszont kíváncsi vagyok a véleményetekre. Én látom, amit látok benne.**
+
 But I’m curious about **your opinions**. I see **what I see in them**.
 
 **Sokan azt mondják, hogy nagyon az orosz stílus látható,**
+
 Many say that a **strong Russian style** can be seen,
 
 **mások azt mondják, hogy kicsit olyan kínaias.**
+
 others say it’s **a bit Chinese-like**.
 
 **Szerintem meg ez tiszta Bollywood, szóval mondjuk így: Indiában is láttam hasonló palotákat.**
+
 I think it’s **pure Bollywood**, so let’s put it this way: I’ve seen similar palaces in India.
 
 **És ugye azt mondják, hogy nem itt laknak általában a tulajdonosok,**
+
 And as they say, the owners **generally don’t live here**,
 
 **hanem mondjuk egy ilyen kis házban, mint ami itt van emellett is.**
+
 but rather in a **small house like this one**, nearby.
 
 **Érdekes világ. Mit gondoltok róla?**
+
 It’s an **interesting world**. What do you think about it?
 
 **Mindezt megmutatjuk nektek szombaton a YouTube-on a Polgárneten.**
+
 We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
 
 ### Vocabulary
@@ -307,7 +326,5 @@ We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
 * **tulajdonos** – owner
 * **érdekes világ** – interesting world
 
-If you’d like, next time we can also:
+-----
 
-* mark **where evaluative / loaded language appears**, or
-* keep treating these purely as **linguistic artefacts**, like here.
