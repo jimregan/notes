@@ -226,5 +226,19 @@ that it can *completely* take away your attention.
 
 -----
 
-[Reel](https://www.instagram.com/reels/DSK8NIuDGEI/)
+[Cigánypaloták](https://www.instagram.com/reels/DSK8NIuDGEI/)
+
+[00:00.000 --> 00:07.200]  Az igazi cifra palottal vagy sokan cigánypalotának is hívják ezeket az épületeket itt erdében,
+[00:07.200 --> 00:11.700]  Bánfi Hunyadon száz ilyen hihetetlen kulipintjó van.
+[00:11.700 --> 00:17.100]  Itt, amiben nem laknak, viszont nézzétek, hogy milyen őröletes módon feldészítették.
+[00:17.100 --> 00:26.900]  Ezeket első sorban a gábor cigányok, akik egy különleges, nagyon zárt közös ségsokszor a haszit zsidókoztották őket hasonlítani.
+[00:26.900 --> 00:30.600]  Ezek az ő képítlínék, és tényleg nem laknak itt.
+[00:30.600 --> 00:39.500]  Éjjel napkal dolgoznak, Angliában, Írországban, hogy legyen annyi pénzük, hogy életük végig befejezik ezeket a palotákat.
+[00:39.500 --> 00:44.600]  De hogy milyen velük találkozni, azt is megmutatjuk nektek a YouTube-ban a polgárnetten.
+[00:44.600 --> 00:49.700]  A hihetetlen, hogy ezek közül a házak közül a legtöbbben nem is laknak, vagy be se fejesztjék.
+[00:49.700 --> 00:54.300]  Viszont kíváncsi vagyok a véleményetekre. Én látom, amit látok benne.
+[00:54.300 --> 01:00.700]  Sokan azt mondják, hogy nagyon az orosz stílus látható, mások azt mondják, hogy kicsit olyan kinaizáló.
+[01:00.700 --> 01:07.200]  Szerintem meg ez tisztabali vód szóval mondjuk így India-ban, és láttam hasonló palotákat.
+[01:07.200 --> 01:15.700]  És ugye azt mondják, hogy nem itt laknak általában a tulajdonosok, hanem mondjuk egy ilyen kis házban, mint ami itt van, emellett is.
+[01:15.700 --> 01:21.900]  Érdekes világ, mit gondoltok róla? Mindezt megmutatjuk nektek szombaton a YouTube-ban a polgárneten.
 
