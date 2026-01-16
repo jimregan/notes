@@ -31,8 +31,6 @@ categories: [hungarian, chatgpt, reels]
    **EN:** So it’s just awful.
    **Notes:** *szóval* = “so/basically”.
 
----
-
 6. **Meg ugye a mi generációnknak szerintem alapból**
    **EN:** And, you know, I think for our generation, right from the start…
    **Notes:** *ugye* ≈ “you know/right”; *alapból* = “by default”.
@@ -57,8 +55,6 @@ categories: [hungarian, chatgpt, reels]
     **EN:** about getting guys. Like… it was a disaster, right?
     **Notes:** *pasizás* slang; *terén* = “in the area of”.
 
----
-
 12. **Ilyeneket írtak benne, hogy ha be akarsz pasizni,**
     **EN:** It said stuff like: if you want to pick up guys,
     **Notes:** *benne* = “in it”; *be akar* = “want to get into/achieve”.
@@ -66,8 +62,6 @@ categories: [hungarian, chatgpt, reels]
 13. **akkor nagyon fontos, hogy legyél titokzatos.**
     **EN:** then it’s very important that you be mysterious.
     **Notes:** *hogy legyél* = “that you be” (subjunctive-ish).
-
----
 
 14. **Minek?**
     **EN:** What for? / Why?
@@ -80,8 +74,6 @@ categories: [hungarian, chatgpt, reels]
 16. **Kinek segít az? Nem érünk rá.**
     **EN:** Who does that help? We don’t have time for that.
     **Notes:** *nem érünk rá* = we don’t have the time / no time.
-
----
 
 17. **Titokzatos… ez akkora hülyeség, hogy**
     **EN:** “Mysterious”… that’s such bullshit that—
@@ -154,34 +146,88 @@ categories: [hungarian, chatgpt, reels]
 
 -----
 
-## [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/) --- Női logika
+## [Reel](https://www.instagram.com/reels/DRWcQjAjH5M/)
 
-#### **Az a férfi, aki mos, főz és takarít**
+## Line-by-line walkthrough
+
+### **Női logika.**
+
+**EN:** Female logic.
+
+### **Na, pacsi.**
+
+**EN:** Well, high five.
+
+* *na* = casual discourse marker
+* *pacsi* = high five
+
+### **Az a férfi, aki most főz és takarít,**
+
+**EN:** That man who is cooking and cleaning right now,
+
+* *az a …, aki …* = “the one who …” (defining relative clause)
+* *most* = right now (situational emphasis)
+
+### **az egy utolsó szemét,**
+
+**EN:** is an absolute piece of trash,
+
+* *egy utolsó X* = “a complete / absolute X” (very strong judgment)
+
+### **hiszen ő csak a szexre használja a nőt.**
+
+**EN:** since he’s only using the woman for sex.
+
+**Notes:**
+
+* *hiszen* = “after all / since” (mock justification)
+* *csak* = only (exclusivity, accusation)
+
+## Extracted vocabulary (useful chunks)
+
+### Core words & phrases
+
+* **női** = female (adjectival form of *nő*)
+* **logika** = logic
+* **na** = well / so (discourse marker)
+* **pacsi** = high five
+
+### Verbs
+
+* **főz** = cooks
+* **takarít** = cleans
+* **használ** = uses
+
+### Structures & connectors
+
+* **az a …, aki …** = the one who …
+* **hiszen** = since / after all (often ironic)
+* **csak** = only
+
+### Register / tone markers
+
+* **egy utolsó szemét** = total piece of trash (very harsh, colloquial)
+* **szexre** (*szex + -re*) = for sex (purpose suffix)
+
+### **Az a férfi, aki mos, főz és takarít**
 
 * **az a …, aki …** → “the one who …” (defining relative clause)
 * **mos** → does the laundry (default interpretation without object)
 * **főz** → cooks
 * **takarít** → cleans
 * **mos–főz–takarít** → fixed cultural triad = “does all household work”
-* Sets up **gender-role expectations** (positive stereotype)
 
----
-
-#### **az egy utolsó szemét**
+### **az egy utolsó szemét**
 
 * **egy utolsó X** → “an absolute / complete X”
 * **szemét** → trash, scumbag (strong insult, colloquial)
-* Sudden reversal from positive setup → humor trigger
 
----
+### **hiszen ő csak a szexre használja a nőt**
 
-#### **hiszen ő csak a szexre használja a nőt**
-
-* **hiszen** → “since / after all” (often ironic justification)
+* **hiszen** → “since / after all”
 * **csak** → only (exclusivity, accusation)
 * **-ra** (*szex-re*) → purpose: “for sex”
-* **használja a nőt** → uses the woman (objectifying phrasing)
-* Mock-logical explanation → punchline
+* **használja a nőt** → uses the woman
 
 -----
 
