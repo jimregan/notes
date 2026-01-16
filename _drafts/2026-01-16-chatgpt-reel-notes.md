@@ -123,16 +123,15 @@ after you *fail* (your exams).
 
 [Reel](https://www.instagram.com/reels/DTiRzsVmEe3/)
 
-[00:00.000 --> 00:05.740]  Ha belegondolsz, amikor leülsz tanulni egy vizsgaili dösszakalát, és ott van mellettad a telefon,
-[00:05.740 --> 00:07.800]  vagy igazából csinálhatz bármit.
-[00:07.800 --> 00:10.620]  Maga a telefon már a figyelmet is el tudja vonni.
-[00:10.620 --> 00:15.340]  Nekem például, hogyha én tanulok, muszáj munkőzen mód, vagyra akim a telefon fókuszba,
-[00:15.340 --> 00:22.380]  különben állandal nézeketni fogom, hogy kírogatott nekem, miben kiküldött snapet, kírt, kirakott kivaramit,
-[00:22.380 --> 00:25.100]  és nekem tényleg nagyon álvonyabb figyelmem.
-[00:25.100 --> 00:29.900]  Nem tudom, hogy miért érdekel ennyire, hiszen nyilván késebb is meg tudom nézni,
-[00:29.900 --> 00:32.760]  de nagyon sokszor volt velem olyan, hogy leültem tanulni,
-[00:32.760 --> 00:37.160]  és akkor láttam, hogy felbílen a telefonom, jól van hát megnézem, mi baj lehet belőle,
-[00:37.160 --> 00:40.360]  és akkor ezt az a mészre, hogy már megint egy 20 percet nyomkodom,
-[00:40.360 --> 00:45.960]  és igazából nem haladok a dolgommal, miközben tudnék, és utána is tudnék időtöltönni a telefonommal,
-[00:45.960 --> 00:52.660]  de mégsem ezt a szám, úgyhogy ilyen szambon molt is elég káros, hogy a figyelmet teljes, mert tudom el tudja vonni.
-
+Ha belegondolsz, amikor leülsz tanulni egy vizsgaili dösszakalát, és ott van mellettad a telefon,
+vagy igazából csinálhatz bármit.
+Maga a telefon már a figyelmet is el tudja vonni.
+Nekem például, hogyha én tanulok, muszáj munkőzen mód, vagyra akim a telefon fókuszba,
+különben állandal nézeketni fogom, hogy kírogatott nekem, miben kiküldött snapet, kírt, kirakott kivaramit,
+és nekem tényleg nagyon álvonyabb figyelmem.
+Nem tudom, hogy miért érdekel ennyire, hiszen nyilván késebb is meg tudom nézni,
+de nagyon sokszor volt velem olyan, hogy leültem tanulni,
+és akkor láttam, hogy felbílen a telefonom, jól van hát megnézem, mi baj lehet belőle,
+és akkor ezt az a mészre, hogy már megint egy 20 percet nyomkodom,
+és igazából nem haladok a dolgommal, miközben tudnék, és utána is tudnék időtöltönni a telefonommal,
+de mégsem ezt a szám, úgyhogy ilyen szambon molt is elég káros, hogy a figyelmet teljes, mert tudom el tudja vonni.
