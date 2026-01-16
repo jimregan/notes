@@ -703,140 +703,184 @@ Now that he can’t be director either, who’s next?
 ### Line-by-line translation
 
 **Jön a Toxikóma kettő, vagyis Curtisről filmet készítenek,**
+
 *Toxikóma 2* is coming — that is, they’re making a film about **Curtis**,
 
 **majdnem annyi pénzből, mint amennyit ő élete során eldrogozott.**
+
 with almost as much money as he allegedly *used up on drugs over his lifetime*.
 
 **Százhúsz millió forint.**
+
 One hundred and twenty million forints.
 
 **Már majdnem fel mertem háborodni, hogy a budapesti szülészeten megint kabátban dolgoznak.**
+
 I almost dared to get outraged that at a Budapest maternity ward they’re *working in coats again*.
 
 **De hát így már érthető.**
+
 But this way it’s *understandable*.
 
 **Nem maradhat a magyar Curtis-film nélkül.**
+
 Hungary simply *can’t be without a Curtis film*.
 
 **Ki lenne jobb alany erre?**
+
 Who would be a better subject for this?
 
 **Mondjuk egy Nobel-díjas? Pff.**
+
 Like a *Nobel Prize winner*? Pff.
 
 **Őszintén nem értek a filmekhez,**
+
 Honestly, I don’t understand films,
 
 **de kicsit sajnálom, hogy nem dolgozhatok ezen a filmen,**
+
 but I kind of regret that I can’t work on this film,
 
 **ugyanis lenne pár ötletem.**
+
 because I *would have a few ideas*.
 
 **Például én az első felvonást biztos vagyok benne, hogy ezzel kezdeném,**
+
 For example, I’m sure I’d start the first act like this,
 
 **hogy a nézők figyelmét már az első pillanatban megfogjuk.**
+
 so that we *grab the audience’s attention from the very first moment*.
 
 **„Sajnos ez valóban megtörtént” – kezdte remegő hangon Bettina.**
+
 “Unfortunately, this really happened,” Bettina began *in a trembling voice*.
 
 **„Curtis ököllel ütötte a fejem.”**
+
 “Curtis punched my head with his fist.”
 
 **Ha már a kapcsolatoknál tartunk, volt neki még pár afférja ilyen téren.**
+
 While we’re on relationships, he also had *a few affairs* in this area.
 
 **Például amikor a feleségét terhesen megcsalta,**
+
 For example, when he *cheated on his wife while she was pregnant*,
 
 **de hát egy terhes nő ugye terhes, és nyilván nem olyan vonzó,**
+
 but well, a pregnant woman is pregnant, and obviously *not as attractive*,
 
 **mint mielőtt teherbe ejtettem.**
+
 as before *I got her pregnant*.
 
 **Szóval addig kell keresni valakit, aki olyan vonzó.**
+
 So until then, you have to *look for someone who is attractive*.
 
 **Mondjuk az is nagyon jó volt, amikor prostituáltnak állt,**
+
 That was also great, for instance when he *became a prostitute*,
 
 **de szigorúan csak egy éjszakára,**
+
 but *strictly for one night*,
 
 **ugyanis belekóstolt, kipróbálta, és rájött, hogy ez nem neki való.**
+
 since he *had a taste*, tried it, and realised *it wasn’t for him*.
 
 **Szóval úgy döntött, hogy marad inkább a zenélésnél,**
+
 So he decided to *stick with making music* instead,
 
 **ahol imádta leszívatni a rajongóit, illetve a saját társait is.**
+
 where he loved *exploiting* his fans and even his own colleagues.
 
 **Minden zenésztársa megbízhatatlannak tartotta,**
+
 Every bandmate considered him *unreliable*,
 
 **ugyanis szeretett nem megjelenni a helyszíneken.**
+
 because he liked *not showing up at venues*.
 
 **Volt olyan, ahol megjelent, csak nem lépett fel,**
+
 There were cases where he showed up but *didn’t perform*,
 
 **hanem amikor megkapta a pénzt, inkább hazament.**
+
 instead, once he got the money, he *went home*.
 
 **De mindezek ellenére valamiért mégis szerepelt a tévében.**
+
 Yet despite all this, for some reason he *still appeared on TV*.
 
 **De hát hű marad önmagához, és úgysem jelenik meg.**
+
 But well, he stays *true to himself* — and *won’t show up anyway*.
 
 **Ki gondolta volna?**
+
 Who would have thought?
 
 **De hát ilyen ez a drogfüggőség, ugyebár.**
+
 That’s what *drug addiction* is like, after all.
 
 **Nincs ezzel probléma, amíg valaki a négy fal között csinálja,**
+
 There’s no problem with it as long as someone does it *within four walls*,
 
 **és nem veszélyeztet vele senkit.**
+
 and *doesn’t endanger anyone*.
 
 **Ja, hoppá. Ez sem teljesen igaz.**
+
 Oh — *whoops*. That’s not entirely true either.
 
 **Remélem, ezt a jelenetet mindenképp meglovagolják majd a filmben,**
+
 I hope they *definitely capitalise on* this scene in the film,
 
 **ugyanis egy jó filmből nem maradhat ki az autós jelenet.**
+
 because *no good film can be without a car scene*.
 
 **Ha még akciójelenetet is akartok,**
+
 If you also want an *action scene*,
 
 **akkor az sem lenne rossz, amikor ököllel ment neki egy szurkolónak egy focimeccsen.**
+
 then the moment when he *attacked a fan with his fists* at a football match wouldn’t be bad either.
 
 **Én ezt még beleraknám.**
+
 I’d *add that too*.
 
 **Szóval üzenem annak, aki ezen a filmen fog dolgozni,**
+
 So I’m sending a message to whoever will work on this film:
 
 **ha már ennyi pénzt ráköltünk, akkor ne maradjon ki belőle semmi.**
+
 if we’re already spending this much money on it, *leave nothing out*.
 
 **Van itt anyag bőven.**
+
 There’s *plenty of material* here.
 
 **Főcímdalnak pedig ajánlanám figyelmetekbe…**
+
 And as the *opening theme*, I’d like to *draw your attention to…*
-(sentence trails off deliberately)
 
 ### Vocabulary
 
@@ -862,8 +906,6 @@ And as the *opening theme*, I’d like to *draw your attention to…*
 * **szurkoló** – fan, supporter
 * **belerak** – put in, include
 * **főcímdal** – opening theme song
-
-This is **extended satirical indictment**: irony layered on irony, using the language of film pitching to catalogue public scandals — very “grown-up” Hungarian political-cultural humour.
 
 -----
 
