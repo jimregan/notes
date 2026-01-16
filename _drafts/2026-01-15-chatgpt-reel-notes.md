@@ -1305,16 +1305,167 @@ I’ll **count down**.
 
 [Pajzán Toldi](https://www.instagram.com/reels/DSK0qTNDHoR/)
 
-Szerintem most fogd be a füled!
-"Ég a napmelegtől a kopár sík szárja,
-redves fa*at toldi bíz?
-Igen, vakarja.
-Mérgés bögöly legyek, csípik, ahol érik,
-rücskös segge partján vecsernyéznek délig."
-És így tovább... ismerős valahonnan?
-Hát persze! Arany János toldi címü költeményének trágár, disznó változatáról van szó.
-És hogy ennek ki a szerzője?
-Sokan úgy gondolják, hogy a malac verseiről ismert Löwy Árpád, de ez tévedés.
-Az biztos, hogy Valódi, híres költő volt.
-Faludy György, azt állította: József Atilla, de szerintem kamuzott.
-Én pont őrá gyanakszom!
+Sticking to the **same locked-in format**:
+**line-by-line translation**, **key phrases highlighted**, then a **vocabulary list**.
+This is a **literary + vulgar parody**, but you’re asking for *analysis/translation*, which is fine.
+
+---
+
+## Text + line-by-line translation
+
+### **Szerintem most fogd be a füled!**
+
+I think you should **cover your ears now!**
+
+* **fogd be a füled** = cover your ears (imperative)
+
+---
+
+### **„Ég a napmelegtől a kopár sík szárja,**
+
+“**The barren plain burns from the sun’s heat,**
+
+* this mirrors the opening line of **Toldi** almost verbatim
+* elevated, archaic poetic register
+
+---
+
+### **redves fa*at Toldi bíz?**
+
+**Does Toldi entrust his slimy dick?**
+
+* **redves** = slimy, damp (archaic / literary)
+* **fa*at** = censored *faszt* (cock)
+
+---
+
+### **Igen, vakarja.**
+
+Yes, **he scratches it**.
+
+* **vakar** = scratch
+
+---
+
+### **Mérges bögölylegyek csípik, ahol érik,**
+
+**Angry gadflies sting him wherever they reach,**
+
+* **bögöly** = horsefly, gadfly
+* classic epic diction
+
+---
+
+### **rücskös segge partján vecsernyéznek délig.**
+
+they **linger till noon along the shore of his knobbly ass**.
+
+* **rücskös** = bumpy, knobbly
+* **vecsernyézik** = loiter / linger (poetic, rare)
+
+---
+
+### **És így tovább… ismerős valahonnan?**
+
+And so on… **sound familiar?**
+
+---
+
+### **Hát persze!**
+
+Of course!
+
+---
+
+### **Arany János *Toldi* című költeményének**
+
+From **János Arany’s poem *Toldi***,
+
+---
+
+### **trágár, disznó változatáról van szó.**
+
+this is a **vulgar, filthy version**.
+
+* **trágár** = obscene
+* **disznó** = piggish, filthy (adjectival)
+
+---
+
+### **És hogy ennek ki a szerzője?**
+
+And **who is the author of this?**
+
+---
+
+### **Sokan úgy gondolják, hogy a malac verseiről ismert Löwy Árpád,**
+
+Many think it was **Árpád Löwy**, known for his pig poems,
+
+---
+
+### **de ez tévedés.**
+
+but **that’s a mistake**.
+
+---
+
+### **Az biztos, hogy valódi, híres költő volt.**
+
+What’s certain is that it was a **real, famous poet**.
+
+---
+
+### **Faludy György azt állította: József Attila,**
+
+**György Faludy** claimed it was **Attila József**,
+
+---
+
+### **de szerintem kamuzott.**
+
+but I think **he was bullshitting**.
+
+* **kamuzik** = lie, bullshit (colloquial)
+
+---
+
+### **Én pont őrá gyanakszom!**
+
+I **suspect him exactly!**
+
+* **gyanakszik** = suspect
+
+---
+
+## Vocabulary list
+
+* **fogd be a füled** – cover your ears
+* **kopár sík** – barren plain
+* **redves** – slimy, damp (archaic)
+* **fasz** – cock (vulgar)
+* **vakar** – scratch
+* **bögöly** – gadfly / horsefly
+* **csíp** – sting
+* **rücskös** – knobbly, bumpy
+* **vecsernyézik** – loiter, linger (poetic)
+* **trágár** – obscene
+* **disznó (jelzőként)** – filthy, piggish
+* **tévedés** – mistake
+* **kamuzik** – bullshit, lie
+* **gyanakszik** – suspect
+
+---
+
+### Quick orientation (no deep analysis)
+
+This works because it:
+
+* **keeps Arany János’s metre and diction**
+* swaps heroic epic imagery for **grotesque vulgarity**
+* relies on the audience **recognising Toldi immediately**
+
+If you want, next time we can:
+
+* line up **original Toldi lines vs parody**, or
+* just keep doing these as standalone translations like this.
