@@ -415,11 +415,11 @@ For similar stories, *go ahead and follow me*!
 
 [Reel](https://www.instagram.com/reels/DTGMx1MDOX1/)
 
-Ött támogatás, ami gyereknél külis megkaphat.
-Ezzel négymillió forint adó visszatérítés jár egészségben
-szárom keresztül, hogy ha a dós társaddal egy húsz évre szólójálló kiteltoar leztetek innen.
-25.000 forint visszatérítés jár egy sikeres kreszt vizsga után, ha húsz év alatti vagy.
-Idén már 174.000 forint jár glúteni az ékenységre, laktó az érzékenységre,
-endometriózősésben nagyon-nagyon sok betegségre.
-A preferált kistelepüléseken 27%-os áfa visszatérítés lehet kapni bővítés és korszerűsítés után,
-és a maximum 130-150.000 forint adó visszatérítés neked is jár, hogy ha már most porolnállatítős korijén ednek.
+Öt támogatás, ami gyerek nélkül is megkaphatsz.
+Közel négymillió forint adóvisszatérítés jár egészségbenpenztaron
+keresztül, ha adóstársaddal egy húsz évre szóló jelzáloghitelt törlesztetek innen.
+25 000 forint visszatérítés jár egy sikeres kresz vizsga után, ha húsz év alatti vagy.
+Idén már 174 000 forint jár gluténérzékenységre, laktózérzékenységre,
+endometriózisra és még nagyon-nagyon sok betegségre.
+A preferált kistelepüléseken 27%-os áfa visszatérítés lehet kapni bővítés és korszerűsítés után
+és a maximum 130-150 000 forint adóvisszatérítés neked is jár, ha már most spórolnál az időskori énednek.
