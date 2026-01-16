@@ -1542,7 +1542,7 @@ Fuck, my jaw is going to break!
 * **el fog törni** = “is going to break” (future with *fog*)
 * **állkapocs** = jaw
 
-### Contextualised vocabulary
+### Contextualised vocabulary
 
 **fütykös**
 
@@ -1679,7 +1679,7 @@ And the other project worked out, right?
 
 Because I reviewed it, and then it worked.
 
-### High-value contextual vocabulary (anchored)
+### High-value contextual vocabulary (anchored)
 
 **elérhetetlen**
 
@@ -1725,7 +1725,7 @@ Because I reviewed it, and then it worked.
 
 POV: the date after which you delete Tinder
 
-### Key lines: HU → EN (selective, high value)
+### Key lines: HU → EN (selective, high value)
 
 **„Nem gondolod, hogy az első talinál kicsit sétálgatunk?”**
 
@@ -1782,7 +1782,7 @@ We’ll talk later. I’ll text.
 
 (Looked like it would be funny. It was not.)
 
-### High-value phrases & constructions (with context)
+### High-value phrases & constructions (with context)
 
 **Tudtad, hogy…?**
 
@@ -1885,7 +1885,7 @@ Feró isn’t a bad person. Just infinitely simple.
 * **csak** = “just / merely” (minimisation)
 * **végtelenül egyszerű** = infinitely simple-minded
 
-### Dialogue breakdown (HU → EN)
+### Dialogue breakdown (HU → EN)
 
 **Na figyelj, beszarsz! Ilyen volt a békemenet.**
 Okay, listen, you’re gonna shit yourself. This is what the “Peace March” was like.
@@ -1958,7 +1958,7 @@ And Lucifer comes along too, saying: “Now this…”
 
 Any more questions? Because I’ve got a few.
 
-### Contextual vocabulary & phrases worth keeping
+### Contextual vocabulary & phrases worth keeping
 
 **beszarsz**
 
@@ -1999,7 +1999,7 @@ Any more questions? Because I’ve got a few.
 
 Legénybúcsú
 
-### HU → EN
+### HU → EN
 
 **Most akkor lesz kupakolás, vagy nem lesz?**
 
@@ -2023,7 +2023,7 @@ Because earlier the priest said that…
 
 * **lehet, hogy…** = maybe / it’s possible that
 
-### What is **kupakolás**?
+### What is **kupakolás**?
 
 This is the key word.
 
@@ -2038,7 +2038,7 @@ This is the key word.
 
 > deliberately vague “lads-being-lads” drinking nonsense
 
-### Contextual vocabulary worth keeping
+### Contextual vocabulary worth keeping
 
 * **most akkor** – so then / so what is it finally
 * **lesz / nem lesz** – will there be / won’t there be
@@ -2058,7 +2058,7 @@ Maybe public TV doesn’t talk nonsense about the weather.
 * **nem mond hülyeséget** = doesn’t say stupid things
 * **köztévé** = state / public television (often ironic or critical)
 
-### HU → EN
+### HU → EN
 
 **Az utak miatt vigyázzanak magukra,**
 
@@ -2097,7 +2097,7 @@ should under no circumstances set off.
 
 📌 Very standard warning language.
 
-### Contextual vocabulary & phrases worth keeping
+### Contextual vocabulary & phrases worth keeping
 
 * **köztévé** – public/state TV (often ironic)
 * **vigyázzanak magukra** – take care (formal PSA)
@@ -2114,7 +2114,7 @@ should under no circumstances set off.
 
 ChatGPT said: "you’re absolutely right that by this point you were “collecting captions”, but this one still paid off linguistically."
 
-### High-value Hungarian phrases (anchored & reusable)
+### High-value Hungarian phrases (anchored & reusable)
 
 **letudsz venni vkit a lábáról**
 
@@ -2196,7 +2196,7 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 [Reel](https://www.instagram.com/reel/DTZxr7-jkGr/)
 
-### Sentence-by-sentence HU → EN
+### Sentence-by-sentence HU → EN
 
 **Hagyjál engem békén.**
 
@@ -2286,7 +2286,7 @@ You’re such an emotionally mature type.
 
 Don’t work on it!
 
-### Context-anchored vocabulary & expressions
+### Context-anchored vocabulary & expressions
 
 * **hagyd békén** – leave someone alone
 * **elfajul** – spiral out of control
@@ -2305,7 +2305,7 @@ Don’t work on it!
 [Reel](https://www.instagram.com/reels/DTdAV1_jZSZ/)
 
 
-### HU → EN (by idea blocks, with Hungarian included)
+### HU → EN (by idea blocks, with Hungarian included)
 
 **Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.**
 
@@ -2344,7 +2344,7 @@ Her strange and incredibly dangerous stunt has since been repeated by others —
 Follow me, because I’ll tell you more things like this!
 
 
-### Contextual vocabulary & expressions (anchored)
+### Contextual vocabulary & expressions (anchored)
 
 **csak ezt akartam mondani**
 
@@ -2413,7 +2413,7 @@ Follow me, because I’ll tell you more things like this!
 * **Bzmot** = famously noisy, ancient diesel railcar
 * **orrvonat** = literally “nose train” (slang for its shape)
 
-### Linguistically useful bits (only what’s worth keeping)
+### Linguistically useful bits (only what’s worth keeping)
 
 * **vonatpótló busz** – rail replacement bus
   (you’ll see this *a lot* in Hungary)
@@ -2424,7 +2424,7 @@ Follow me, because I’ll tell you more things like this!
 
 [Reel](https://www.instagram.com/p/DSIX7pCAAns/)
 
-### HU → EN
+### HU → EN
 
 **Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
 
@@ -2457,7 +2457,7 @@ Follow me, because I’ll tell you more things like this!
 
 ---
 
-### High-value expressions to keep
+### High-value expressions to keep
 
 * **megkérni vkinek a kezét** – propose
 * **úgyis** – anyway / regardless
@@ -2469,7 +2469,7 @@ Follow me, because I’ll tell you more things like this!
 
 [Reel](https://www.instagram.com/reels/DR2n7J6CJXR/)
 
-### Key Hungarian lines & why they matter
+### Key Hungarian lines & why they matter
 
 **„Ha valami jól működik, ne nyúlj hozzá.”**
 
@@ -2537,7 +2537,7 @@ Follow me, because I’ll tell you more things like this!
 
 = *Wow, I was so smart!*
 
-### Key words & phrases from the reel
+### Key words & phrases from the reel
 
 **Ha valami jól működik, ne nyúlj hozzá.**
 
@@ -2642,7 +2642,7 @@ Follow me, because I’ll tell you more things like this!
 
 NGL, I thought this was a comedy reel until I got the notes back.
 
-### Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **A hónaljad is befújod izzadásgátlóval, hogy egész nap friss legyél?**
 
@@ -2751,7 +2751,7 @@ If you’d like to get hold of it…
 
 * *hozzájut* = obtain / get access to
 
-### Extracted vocabulary & chunks (caption-based)
+### Extracted vocabulary & chunks (caption-based)
 
 Body & care
 
@@ -2792,7 +2792,7 @@ Useful constructions
 
 (I asked for more notes specifically on the "ad-ness" of it)
 
-### Notes: “Ad-ness” of the reel (linguistic + structural)
+### Notes: “Ad-ness” of the reel (linguistic + structural)
 
 This reel is a **product pitch ad**, and its *ad-ness* is visible at multiple levels of language.
 
