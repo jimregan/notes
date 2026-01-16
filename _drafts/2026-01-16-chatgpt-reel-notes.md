@@ -414,3 +414,12 @@ For similar stories, *go ahead and follow me*!
 -----
 
 [Reel](https://www.instagram.com/reels/DTGMx1MDOX1/)
+
+[00:00.000 --> 00:02.400]  Ött támogatás, ami gyereknél külis megkaphat.
+[00:02.400 --> 00:05.160]  Ezzel négymillió forint adó visszatérítés jár egészségben
+[00:05.160 --> 00:09.720]  szárom keresztül, hogy ha a dós társaddal egy húsz évre szólójálló kiteltoar leztetek innen.
+[00:09.720 --> 00:14.080]  25.000 forint visszatérítés jár egy sikeres kreszt vizsga után, ha húsz év alatti vagy.
+[00:14.080 --> 00:18.060]  Idén már 174.000 forint jár glúteni az ékenységre, laktó az érzékenységre,
+[00:18.060 --> 00:20.460]  endometriózősésben nagyon-nagyon sok betegségre.
+[00:20.460 --> 00:26.180]  A preferált kistelepüléseken 27%-os áfa visszatérítés lehet kapni bővítés és korszerűsítés után,
+[00:26.180 --> 00:32.780]  és a maximum 130-150.000 forint adó visszatérítés neked is jár, hogy ha már most porolnállatítős korijén ednek.
