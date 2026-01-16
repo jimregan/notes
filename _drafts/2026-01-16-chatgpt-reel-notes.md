@@ -9,7 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTVN-pVjKw1/)
 
-Ková tünt az a két liter pálinka?
-Sebet fertőt lenítettem vele.
+Ková tűnt az a két liter pálinka?
+Sebet fertőtlenítettem vele.
 Két literrel? Milyen sebet?
 Lelki sebet.
