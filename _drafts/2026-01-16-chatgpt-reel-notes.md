@@ -700,6 +700,35 @@ Now that he can’t be director either, who’s next?
 
 [Reel](https://www.instagram.com/reels/DR5L8OMCJ3l/)
 
+[00:00.000 --> 00:08.500]  Jön a tokszikóma kettő, vagy és Körtisztről filmet készítenek, majd nem annyi pénzből, mint a mannyit életes oran eldrogozott.
+[00:08.500 --> 00:12.000]  120 millió forint.
+[00:12.000 --> 00:19.500]  Már majd nem felmertem háborodni, hogy a budapesti szülészeten megint kabátban dolgoznak.
+[00:19.500 --> 00:21.500]  Dehát így már érthető.
+[00:21.500 --> 00:24.500]  Nem maradhat a magyar Körtiszt film nyelkül.
+[00:24.500 --> 00:26.500]  Kirenne jobb alany erre.
+[00:26.500 --> 00:28.500]  Mondjuk így nun beldíjas.
+[00:29.500 --> 00:37.000]  Őszinten nem értek a filmekhez, de kicsit sajnálom, hogy nem dolgozhatok ezen a filmán, ugyanis lenne pár ötletem.
+[00:37.000 --> 00:46.000]  Például én az első felvonás az biztos vagyok benne, hogy ezzel kezdem én, hogy a nézőknek a figyelmit már az első pillanatban megfogjuk.
+[00:46.000 --> 00:49.000]  Sajnos ez valóban megtörtént, kezdterem meg ő hangom Bettina.
+[00:49.000 --> 00:51.000]  Körtiszt őkől elütötte a fejjel.
+[00:51.000 --> 00:55.000]  Ha már a kapcsolatoknál tartunk volt, neki még pár a férja ilyen téren.
+[00:55.000 --> 01:04.500]  Például amikor a feleségét terhessen ugye megcsalta, de hát egy terhesnő ugye terhels és nyilván nem olyan vonzó, mint mielőtt teherbe eitettem.
+[01:04.500 --> 01:08.500]  Szóval adik kell keresni valakit, aki olyan vonzó.
+[01:08.500 --> 01:18.500]  Mondjuk az is nagyon jó volt, amikor prostituálnak állt, de szigorúan csak egy éjszakára ugyanisül belekóstolt, kipróbált és ráölt, hogy ez nem neki való.
+[01:18.500 --> 01:26.500]  Szóval úgy döntött, hogy marad inkább a zenélésnél, ahol imádta leszivatni a rajongóit illetve a saját társait is.
+[01:26.500 --> 01:31.500]  Minden zenész társa megvisszatatlannak tartotta, ugyanis szeretet nem megjelenni a helyszínekán.
+[01:31.500 --> 01:41.000]  Volt olyan, ahol megjelent, csak nem lépett fel, hanem amikor megkaptott a pénzt inkább hazament, de mindezek ellenére valamért a tévében mégis szerepelte.
+[01:41.000 --> 01:44.500]  Dehát hűmarad önmagához és úgy sem jelenik meg.
+[01:44.500 --> 01:46.000]  Kigondolt a volna.
+[01:46.000 --> 01:53.500]  Dehát ilyen ez a drog függőség ugye bár, nincsen ezzel probléma, amig valaki a négy falköz csinálja, és nem veszélyeztetve lesz senkit.
+[01:53.500 --> 01:56.500]  Ja, hoppá, ezt sem teljesen igaz.
+[01:56.500 --> 02:03.500]  Mondjuk remélem, hogy ezt a jelenetet mindenképp meglovagolják majd a filmben, ugyanis egyik jó filmből sem maradhat ki az autós jelenet.
+[02:03.500 --> 02:10.500]  Mondjuk, hogyha még akció jelenetet akartok, akkor asszem lenne rossz, amikor őkől lámát neki egy szúrkolónak, egy foci matchen.
+[02:10.500 --> 02:12.500]  Én azt végbe laraknám.
+[02:12.500 --> 02:20.500]  Szóval üzenem annak, aki ezen a filmben fog dolgozni, ha már ennyi pénzt rákeltünk, akkor nem maradjon ki belőle semmi sem.
+[02:20.500 --> 02:22.500]  Van itt anyag bőven.
+[02:22.500 --> 02:25.500]  Főcím dánnak pedig ajánlanám figyelmetekben.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DTdG9_QDada/)
