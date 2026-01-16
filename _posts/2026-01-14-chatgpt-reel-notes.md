@@ -871,9 +871,6 @@ Will you come up to my place for a coffee?
 * *feljössz* = come up (to an apartment)
 * *hozzám* = to my place
 * *egy kávéra* = for a coffee
-  → **idiomatic euphemism** for *“come up for sex”*
-
----
 
 ### **Köszönöm, de nem… kávézom.**
 
@@ -883,8 +880,6 @@ Thank you, but I don’t… drink coffee.
 * speaker initially parses *kávé* literally
 * *kávézom* = I drink coffee / I have coffee
 
----
-
 ### **Légy szíves, fél éve nem kávéztam, kérlek.**
 
 Please, I haven’t had coffee for half a year.
@@ -892,8 +887,6 @@ Please, I haven’t had coffee for half a year.
 * *légy szíves* = please (polite, slightly stiff)
 * *fél éve* = for half a year
 * *kérlek* = please (again)
-
----
 
 ## Extracted vocabulary & chunks
 
@@ -1249,8 +1242,6 @@ this whole thing is actually funny.
 
 [Reel](https://www.instagram.com/reels/DSxx9QiCJ_q/)
 
----
-
 ## Caption text (reference, lightly normalised)
 
 > **Így táncol hatszázötven millió magyar forint.**
@@ -1350,8 +1341,6 @@ this whole thing is actually funny.
 > mint az az igénytelen feliratozás
 > a Péter videóján.
 
----
-
 ## Sentence-by-sentence HU → EN (key parts)
 
 ### **Így táncol hatszázötven millió magyar forint.**
@@ -1445,8 +1434,6 @@ none of this matters
 ### **igénytelen feliratozás**
 
 sloppy / low-effort subtitles
-
----
 
 ## Contextual vocabulary worth keeping (anchored)
 
@@ -1556,8 +1543,6 @@ most fairy tales are more horror
 
 than innocent stories.
 
----
-
 ## Contextualised vocabulary & expressions (anchored)
 
 ### **rézfaszú (vki)**
@@ -1639,8 +1624,6 @@ The humour comes from:
 * blunt, vulgar word choice
 * addressing *anya* (mom)
 
----
-
 ### **Hát miért kérdezel ilyet?**
 
 Well, why would you ask something like that?
@@ -1650,8 +1633,6 @@ Well, why would you ask something like that?
 
 Very natural parental reaction phrasing.
 
----
-
 ### **Baszki, el fog törni az állkapcsom!**
 
 Fuck, my jaw is going to break!
@@ -1659,8 +1640,6 @@ Fuck, my jaw is going to break!
 * **baszki** = fuck / damn (colloquial swear)
 * **el fog törni** = “is going to break” (future with *fog*)
 * **állkapocs** = jaw
-
----
 
 ## Contextualised vocabulary
 
@@ -1711,100 +1690,95 @@ Fuck, my jaw is going to break!
 * **típusai** = plural possessive (“the types of”)
 * very common list-title formula in Hungarian social media
 
----
-
 ## **1. A ghostoló / elérhetetlen**
 
-### Label
+1. The ghoster/unreachable
 
 * **ghostoló** – from *ghostol* (“to ghost”), fully naturalised
 * **elérhetetlen** – unreachable, unavailable
 
----
+## Spoken lines
 
-### Spoken lines
+### **Jó, nekem erre nincs időm.**
 
-> **Jó, nekem erre nincs időm.**
-> **Oldjuk meg, kész. Nekem erre nincsen időm.**
-
-**EN:**
-
-> Okay, I don’t have time for this.
-> Let’s just get it done, end of story. I don’t have time for this.
-
-**Notes:**
+Okay, I don’t have time for this.
 
 * **nekem erre nincs időm** – classic deflection phrase
+
+### **Oldjuk meg, kész. Nekem erre nincsen időm.**
+
+Let’s just get it done, end of story. I don’t have time for this.
+
 * **kész** = “done / end of discussion”
 
----
+### **2. A mikromenedzser**
 
-## **2. A mikromenedzser**
+2. The micromanager
 
-### Spoken lines (key excerpts)
+### **Értem. Tehát akkor három napig fog tartani ez a feladat.**
 
-> **Értem. Tehát akkor három napig fog tartani ez a feladat.**
-> I see. So then this task will take three days.
+I see. So then this task will take three days.
 
-> **Jó, akkor légy szíves minden órában csekkolj be,**
-> Okay, then please check in every hour,
+### **Jó, akkor légy szíves minden órában csekkolj be,**
 
-> **…illetve nap végén mindig küldd át, hogy hány százalékban vagy kész.**
-> and at the end of the day always send how many percent done you are.
+Okay, then please check in every hour,
 
-> **És mielőtt bárkinek is elküldenéd,**
-> And before you send it to anyone,
+### **…illetve nap végén mindig küldd át, hogy hány százalékban vagy kész.**
 
-> **egy végső csekkolásra is küldd át nekem. Jó?**
-> send it to me for a final check as well, okay?
+and at the end of the day always send how many percent done you are.
 
-> **És nem kell improvizálni, mindent pontosan úgy, ahogy én elmondtam neked.**
-> And no need to improvise — everything exactly the way I told you.
+### **És mielőtt bárkinek is elküldenéd,**
 
----
+And before you send it to anyone,
 
-## **3. A passzív-agresszív**
+### **egy végső csekkolásra is küldd át nekem. Jó?**
 
-### Spoken lines
+send it to me for a final check as well, okay?
 
-> **Örülök, hogy ezért ennyit legalább sikerült megcsinálni.**
-> I’m glad that at least *this much* managed to get done.
+### **És nem kell improvizálni, mindent pontosan úgy, ahogy én elmondtam neked.**
 
-> **Csak vicceltem.**
-> Just kidding.
+And no need to improvise — everything exactly the way I told you.
 
-* **legalább** (“at least”) is doing *all* the damage here
+### **3. A passzív-agresszív**
 
----
+3. The passive-aggressive
 
-## **4. A bűnbakkereső**
+### **Örülök, hogy ezért ennyit legalább sikerült megcsinálni.**
 
-### Label
+I’m glad that at least *this much* managed to get done.
+
+* **legalább** “at least”
+
+### **Csak vicceltem.**
+
+Just kidding.
+
+### **4. A bűnbakkereső**
+
+4. The scapegoat seeker
 
 * **bűnbak** = scapegoat
 * **bűnbakkereső** = someone who looks for a scapegoat
 
----
+### **Ez nem az én felelősségem volt. Ez a te felelősséged volt.**
 
-### Spoken lines (condensed)
+This wasn’t my responsibility. This was your responsibility.
 
-> **Ez nem az én felelősségem volt. Ez a te felelősséged volt.**
-> This wasn’t my responsibility. This was your responsibility.
+### **Nem érdekel, hogy nekem kellett a végén elfogadni.**
 
-> **Nem érdekel, hogy nekem kellett a végén elfogadni.**
-> I don’t care that I had to approve it in the end.
+I don’t care that I had to approve it in the end.
 
-> **Nem csináltad meg jól. Kész.**
-> You didn’t do it properly. End of story.
+### **Nem csináltad meg jól. Kész.**
 
-> **A másik projekt meg sikerült?**
-> And the other project worked out, right?
+You didn’t do it properly. End of story.
 
-> **Mert átnéztem, és akkor sikerült.**
-> Because I reviewed it, and then it worked.
+### **A másik projekt meg sikerült?**
 
+And the other project worked out, right?
 
----
+### **Mert átnéztem, és akkor sikerült.**
+
+Because I reviewed it, and then it worked.
 
 ## High-value contextual vocabulary (anchored)
 
