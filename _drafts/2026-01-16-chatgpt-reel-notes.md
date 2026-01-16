@@ -511,41 +511,40 @@ Ugyanis a mai férfiakat tekintve ezer szer rosszabb dolgok vannak bennük anná
 
 [Reel](https://www.instagram.com/reels/DSGF-nBiKFJ/)
 
-Emlékeztek, hogy négy nappal ezelőtt, mit is mondott Orbán Viktor, hogy mit tennel a gyermek bántalmazukkal?
-Szerintem, aki gyerekekhez nyúl, azt misszikbe kell aprítani.
-Nincs, nincs, mert beszélnél.
-Álgatok!
-Valóban vastapsot érdemlő mondat, de hogyha ez így van, akkor mi az oka annak, hogy ez a felvétel,
-és még ezek közül kettőmásik hónapok óta a rendőrség turálydonában van,
-és nincsen következménye.
+KK: Emlékeztek hogy négy nappal ezelőtt, mit is mondott Orbán Viktor, hogy mit tenne a gyermekbántalmazókkal?
+OV: Szerintem, aki gyerekekhez nyúl, azt miszlikbe kell aprítani.
+Nincs, nincs, miröl beszélni.
+KK: Valóban vastapsot érdemlő mondat, de hogyha ez így van, akkor mi az oka annak, hogy ez a felvétel,
+és még ezek közül kettő másik hónapok óta a rendőrség tulajdonában van,
+és nincsen következménye?
 Ennek sem.
-Orbán Viktor és kocs ismáltét több ször kielentette már azt,
-hogy a szőjúcában nem gyermek otthon van, hanem kiskorúag börtönne.
-Ami ugye bár nem igaz, hiszen ez egy javító intézet, nem pedig egy gyermek börtön.
-Megpróbáljátok úgy beállítani ezeket a gyerekeket, mint hogyha ő bűnözők lennének,
-de ők azért kerültek ebbe a sociális intézménybe, hogy visszaintegráják őket a társadalomba.
-Így akarjuk visszaintegráni a társadalomba, hogy a földön rukdossuk őket.
+Orbán Viktor és kocsis máté többször kijelentette már azt,
+hogy a szőlő utcában nem gyermekotthon van, hanem kiskorúak börtöne.
+Ami ugyebár nem igaz, hiszen ez egy javítóintézet, nem pedig egy gyermekbörtön.
+Megpróbálhatjátok úgy beállítani ezeket a gyerekeket, mintha ők bűnözők lennének,
+de ők azért kerültek ebbe a sociális intézménybe, hogy visszaintegrálják őket a társadalomba.
+Így akarjuk visszaintegrálni a társadalomba, hogy a földön rugdossuk őket?
 Komolyan kérdezem, szerintetek, ha egy gyerek rosszat csinál,
-akkor ő azt érdemli, hogy átlegyen rángatva az aztalon és az aztal belegyen verve a feje.
-Sok mindent lehet mondani az intézet is gyerekekre, de mitől lennének másabbak,
-hogyha a nevelőik ezt csinálják velük.
+akkor ő azt érdemli, hogy át legyen rángatva az aztalon és az aztalba legyen verve a feje?
+Sok mindent lehet mondani az intézetes gyerekekre, de mitől lennének másabbak,
+hogyha a nevelőik ezt csinálják velük?
 Ezek a felvételek köztudottan hónapok óta a hatóságoknál vannak,
-viszont valahogy még mindig nem történ semmi,
-akivel én még mindig állgondolkozik azon, hogy ehhez semmi köze a kormánynak, kérdezem miért.
+viszont valahogy még mindig nem történt semmi,
+aki pedig még mindig elgondolkozik azon, hogy ehhez semmi köze a kormánynak, kérdezem miért?
 Egy ilyen esetet akkor nem fognak kivizsgálni, hogyha fentről parancsot kapnak.
-Az elkövetőbb büszkén vállalta, hogy így nevelél gyerekeket,
-most viszont, hogy ezt kiderült, azzal takarózik, hogyhát ezek kontekstusból kiragadott felvételek.
-Kérdemén, hogy milyen kontekstus az, ami megköveteli, hogy egy gyereket átrángass az asztalon,
-majd a földön fekve rugdorsdőt.
-Melyik az a kontekstus szeretném tudni?
+Az elkövető büszkén vállalta, hogy így neveli gyerekeket,
+most viszont, hogy ezt kiderült, azzal takarózik, hogy hát ezek kontekstusból kiragadott felvételek.
+Kérdem én, hogy milyen kontextus az, ami megköveteli, hogy egy gyereket átrángass az asztalon,
+majd a földön fekve rugdost őt?
+Melyik az a kontextus? Szeretném tudni.
 És minden olyan embernek, akinek erre egyszerűen csak annyi a válasza,
-hogy hát nem ismerjük az előzményeket, minden ilyen embernek azt javasnom, hogy vonúlyom be az állat kebbe.
-Ugyanis ilyen felfogással nem az emberek, hanem az állatok közévaló.
+hogy hát nem ismerjük az előzményeket, minden ilyen embernek azt javaslom, hogy vonuljom be az állatkertbe.
+Ugyanis ilyen felfogással nem az emberek, hanem az állatok közé való.
 Kisebbeket és a gyengébbeket az állatok bántják.
 Ha egy állat fenyegetést érez, akkor az az állat támadni fog.
-Ez a férfi egy össztönlény, egy állat.
-És annyira vissza, hogy ez az emberlet kinevezve azok után, hogy egy gyermek futtatónak le kellett mondani a.
-Most, hogy ő sem lehet az igazgató, ki a következő, mondjuk egy sorozat gyilkos.
+Ez a férfi egy ösztönlény, egy állat.
+És annyira vicces hogy ez az ember lett kinevezve azok után, hogy egy gyermekfuttatónak le kellett mondania.
+Most, hogy ő sem lehet az igazgató, ki a következő? mondjuk egy sorozatgyilkos?
 
 -----
 
@@ -572,21 +571,6 @@ Well, I think *on two packs of crystal*.
 * **szerintem** – in my opinion / I think
 * **két pakk** – two packs
 * **kristály** – *crystal meth* (slang)
-
-### Notes on the joke
-
-The humour comes from the **sharp contrast** between:
-
-* an *official, benevolent-sounding* social-policy question, and
-* a **deadpan answer referencing hard drugs**, delivered casually.
-
-It’s deliberately shocking and relies on:
-
-* understatement
-* stereotype-breaking
-* and the absurdity of applying street slang to pension politics
-
-If you want, we can also flag these **“loaded slang” moments** systematically in future ones, since they tend to be the hardest to catch at A-level.
 
 -----
 
