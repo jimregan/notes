@@ -330,14 +330,91 @@ We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
 
 [Reel](https://www.instagram.com/reels/DTi4EGHiF4f/)
 
-Kurt Cobain Budapesten vagyis jöjjön az elfeledett Nirvana koncer története.
-1989 novemberében még senki nem gondolta, hogy a rock történelem egyik legfontosabb zenekare játszik a petőfi csarnokban.
-Ezt az is mutatja, hogy a két Seattle-i banda a Tad és a Nirvana koncertjére KB. száz ember volt kíváncsi.
-A Magyar előzenekar a The Love Volt, amiben akkor Ganxsta Zolee dobolt, de ő állapotára hivatkozva, semmire nem emlékszik az estéből.
-Egybehangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje egy rosszul hangosítótt technikai hibákkal teli, kifejezetten gyenge producció volt.
-Kurt Cobain folyamatosan a hangosítókkal veszekedett, mert a házilag buherált gitárja állandóan zúgott.
-Ez a felvétel a Budapesti koncert előtt egy nappal linzben készült, valahogy így nézhetett ki a Nirvana a Pecsa színpadán is.
-A buli előtt Kurt Cobain még a gerbeaud Cukrászdába is elment és egy nyugati téri kifözdében vacsorásztak.
-A koncert majdnem teljesen feledésbe merült, és sokáig csak a cukrászdás kép és a plakát maradt fent, de néhány éve váratlanul előkerültek ezek a koncertfotók is.
-Két évvel később '91-ben megjelent a Nevermind album és a banda egy csapásra a világ egyik legismertebb rock zenekara lett.
-Hasonló történetekért kövessetek már be!
+### Line-by-line translation
+
+**Kurt Cobain Budapesten, vagyis jöjjön az elfeledett Nirvana-koncert története.**
+*Kurt Cobain in Budapest*, that is, here comes the story of the *forgotten Nirvana concert*.
+
+**1989 novemberében még senki nem gondolta, hogy a rocktörténelem egyik legfontosabb zenekara játszik a Petőfi Csarnokban.**
+In November 1989, no one yet thought that *one of the most important bands in rock history* would be playing at the Petőfi Hall.
+
+**Ezt az is mutatja, hogy a két seattle-i banda, a Tad és a Nirvana koncertjére kb. száz ember volt kíváncsi.**
+This is also shown by the fact that only *about a hundred people* were interested in the concert of the two Seattle bands, Tad and Nirvana.
+
+**A magyar előzenekar a The Love Volt volt, amiben akkor Ganxsta Zolee dobolt,**
+The Hungarian opening band was *The Love Volt*, in which *Ganxsta Zolee* was the drummer at the time,
+
+**de ő állapotára hivatkozva semmire nem emlékszik az estéből.**
+but, citing his condition, he *doesn’t remember anything* from that evening.
+
+**Egybehangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje**
+According to *unanimous opinions*, Nirvana’s only Hungarian concert
+
+**egy rosszul hangosított, technikai hibákkal teli, kifejezetten gyenge produkció volt.**
+was a *poorly amplified*, *technically flawed*, and *particularly weak* performance.
+
+**Kurt Cobain folyamatosan a hangosítókkal veszekedett,**
+Kurt Cobain was *constantly arguing with the sound engineers*,
+
+**mert a házilag buherált gitárja állandóan zúgott.**
+because his *home-modified guitar* kept *humming/buzzing*.
+
+**Ez a felvétel a budapesti koncert előtt egy nappal Linzben készült,**
+This recording was made *one day before the Budapest concert* in Linz,
+
+**valahogy így nézhetett ki a Nirvana a PeCsa színpadán is.**
+and Nirvana may have looked *something like this* on the PeCsa stage as well.
+
+**A buli előtt Kurt Cobain még a Gerbeaud Cukrászdába is elment,**
+Before the gig, Kurt Cobain even went to the *Gerbeaud Café*,
+
+**és egy nyugati téri kifőzdében vacsoráztak.**
+and they had dinner at a *canteen near Nyugati Square*.
+
+**A koncert majdnem teljesen feledésbe merült,**
+The concert *almost completely faded into oblivion*,
+
+**és sokáig csak a cukrászdás kép és a plakát maradt fenn,**
+and for a long time only the *café photo* and the *poster* survived,
+
+**de néhány éve váratlanul előkerültek ezek a koncertfotók is.**
+but a few years ago these *concert photos unexpectedly surfaced* as well.
+
+**Két évvel később, ’91-ben megjelent a Nevermind album,**
+Two years later, in 1991, the album *Nevermind* was released,
+
+**és a banda egy csapásra a világ egyik legismertebb rockzenekara lett.**
+and the band *overnight* became one of the *most famous rock bands in the world*.
+
+**Hasonló történetekért kövessetek már be!**
+For similar stories, *go ahead and follow me*!
+
+### Vocabulary
+
+* **elfeledett** – forgotten
+* **rocktörténelem** – rock history
+* **játszik (koncerten)** – play (a concert)
+* **kíváncsi vmire** – interested in something
+* **előzenekar** – opening band
+* **dobol** – play the drums
+* **állapotára hivatkozva** – citing his condition
+* **egybehangzó vélemények** – unanimous opinions
+* **hangosítás** – sound amplification
+* **technikai hiba** – technical fault
+* **kifejezetten** – particularly
+* **veszekedik vkivel** – argue with someone
+* **buherált** – jury-rigged, home-modified
+* **zúg** – hum, buzz
+* **kifőzde** – cheap canteen
+* **feledésbe merül** – fade into oblivion
+* **fennmarad** – survive, remain
+* **előkerül** – turn up, surface
+* **egy csapásra** – in one stroke, overnight
+
+### Referenced entities
+
+* **Kurt Cobain**
+* **Nirvana**
+* **Nevermind**
+
+If you want to continue, paste the next one and I’ll keep *exactly* this formatting.
