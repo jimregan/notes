@@ -2311,40 +2311,36 @@ Don’t work on it!
 
 ### HU → EN (by idea blocks, with Hungarian included)
 
-**HU:** *Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.*
-**EN:** I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later he died because he slipped on an orange peel.
+*Csak ezt akartam mondani, hogy Bobby Leach az első férfi, aki túlélte, hogy egy hordóban utazzon át a Niagara vízesésen, később viszont azért halt meg, mert elcsúszott egy narancshéjon.*
+I just wanted to say that Bobby Leach was the first man to survive going over Niagara Falls in a barrel — and later he died because he slipped on an orange peel.
 
-**HU:** *Mielőtt kérdeznéd: igen, azért az első (férfi), mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagarán.*
-**EN:** Before you ask: yes — that’s why he’s the first (man), because there were several people who voluntarily went down Niagara in a barrel.
+*Mielőtt kérdeznéd: igen, azért az első (férfi), mert többen is vannak, akik önszántukból utaztak le egy hordóban a Niagarán.*
+Before you ask: yes — that’s why he’s the first (man), because there were several people who voluntarily went down Niagara in a barrel.
 
-**HU:** *Bobby Leach az első férfi, de nem az első ember volt, aki sikeresen végigvitte a mutatványt.*
-**EN:** Bobby Leach was the first man, but he wasn’t the first person to successfully pull off the stunt.
+*Bobby Leach az első férfi, de nem az első ember volt, aki sikeresen végigvitte a mutatványt.*
+Bobby Leach was the first man, but he wasn’t the first person to successfully pull off the stunt.
 
-**HU:** *A legelső ugyanis, aki egy hordóban jutott le a Niagara vízesés aljára, egy amerikai tanítónő, Annie Edson Taylor volt, aki 1901-ben, a 63. születésnapján mászott bele a saját maga készítette hordóba, amit aztán vízre bocsátottak.*
-**EN:** The very first person to get down to the bottom of Niagara Falls in a barrel was an American schoolteacher, Annie Edson Taylor, who in 1901, on her 63rd birthday, climbed into a barrel she had made herself, which was then set afloat.
+*A legelső ugyanis, aki egy hordóban jutott le a Niagara vízesés aljára, egy amerikai tanítónő, Annie Edson Taylor volt, aki 1901-ben, a 63. születésnapján mászott bele a saját maga készítette hordóba, amit aztán vízre bocsátottak.*
+The very first person to get down to the bottom of Niagara Falls in a barrel was an American schoolteacher, Annie Edson Taylor, who in 1901, on her 63rd birthday, climbed into a barrel she had made herself, which was then set afloat.
 
-**HU:** *Taylor csodával határos módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert, és ezzel idős korára anyagi biztonságot teremthet magának. A dolgok azonban másként alakultak.*
-**EN:** Taylor survived the trip in a near-miraculous way, hoping the stunt would bring sponsorships and let her create financial security in old age. But things turned out differently.
+*Taylor csodával határos módon túlélte az utat, amit annak reményében tett meg, hogy a mutatványával majd szponzorációkra tehet szert, és ezzel idős korára anyagi biztonságot teremthet magának. A dolgok azonban másként alakultak.*
+Taylor survived the trip in a near-miraculous way, hoping the stunt would bring sponsorships and let her create financial security in old age. But things turned out differently.
 
-**HU:** *Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotózkodott, és a képeket turistáknak árulta, míg a menedzsere el nem lopta a hordót. Taylor ekkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a következő menedzsere megint ellopott.*
-**EN:** For a few years Taylor made money by posing with the barrel and selling photos to tourists — until her manager stole the barrel. She then spent much of her savings on detectives who recovered it, only for her next manager to steal it again.
+*Taylor néhány évig azzal szerzett pénzt, hogy az utazásához használt hordójával fotózkodott, és a képeket turistáknak árulta, míg a menedzsere el nem lopta a hordót. Taylor ekkor megtakarításai nagy részét nyomozókra költötte, akik végül visszaszerezték a hordót, amit aztán a következő menedzsere megint ellopott.*
+For a few years Taylor made money by posing with the barrel and selling photos to tourists — until her manager stole the barrel. She then spent much of her savings on detectives who recovered it, only for her next manager to steal it again.
 
-**HU:** *Taylor 1921-ben nincstelenül halt meg, a temetése költségeit közösségi adományokból fizették.*
-**EN:** Taylor died penniless in 1921, and her funeral costs were paid through community donations.
+*Taylor 1921-ben nincstelenül halt meg, a temetése költségeit közösségi adományokból fizették.*
 
-**HU:** *Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték, köztük például Bobby Leach is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezuhant hordóból; évekkel később azonban megcsúszott egy narancshéjon, elesett, megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehalt az esés következményeibe.*
-**EN:** Her strange and incredibly dangerous stunt has since been repeated by others — including Bobby Leach, who also stepped out of the barrel unharmed; but years later he slipped on an orange peel, fell, injured his leg, the wound got infected, and two months later he died from the consequences of the fall.
+Taylor died penniless in 1921, and her funeral costs were paid through community donations.
 
-9) CTA
+*Különös és egyébként elképesztően veszélyes mutatványát azonban azóta többen is megismételték, köztük például Bobby Leach is, aki szintén sértetlenül szállt ki a Niagara vízesésen lezuhant hordóból; évekkel később azonban megcsúszott egy narancshéjon, elesett, megsértette a lábát, a sebe pedig elfertőződött, és Leach két hónappal később belehalt az esés következményeibe.*
 
-**HU:** *Kövess be, mert mondok még ilyeneket!*
-**EN:** Follow me, because I’ll tell you more things like this!
+Her strange and incredibly dangerous stunt has since been repeated by others — including Bobby Leach, who also stepped out of the barrel unharmed; but years later he slipped on an orange peel, fell, injured his leg, the wound got infected, and two months later he died from the consequences of the fall.
 
----
+*Kövess be, mert mondok még ilyeneket!*
 
-If you want, I can also extract just the **narration / discourse markers** that make this style work (*csak…, mielőtt…, ugyanis…, azonban…, köztük például…*) — they’re very reusable.
+Follow me, because I’ll tell you more things like this!
 
----
 
 ### Contextual vocabulary & expressions (anchored)
 
@@ -2390,31 +2386,30 @@ If you want, I can also extract just the **narration / discourse markers** that 
 [Reel](https://www.instagram.com/reels/DQr5cAOCPpK/)
 
 **Lázár János kedvenc vonatai**
+
 = *Lázár János’s favourite trains*
 
 * **Lázár János** is strongly associated with rail policy
 
 **Első: vonatpótló busz**
 
-**= First: rail-replacement bus**
+= First: rail-replacement bus
 
 * **vonatpótló** = replacing a train
 
 **(Második): BHV személygépkocsi**
 
-**= BHV passenger coach**
+= BHV passenger coach
 
 * **személygépkocsi** here means *railway passenger car*, not “car-car”
 * **BHV** = old, uncomfortable rolling stock
 
 **Negyedszer: Bzmot orrvonat**
 
-**= Fourth: Bzmot “nose-train”**
+= Fourth: Bzmot “nose-train”
 
 * **Bzmot** = famously noisy, ancient diesel railcar
 * **orrvonat** = literally “nose train” (slang for its shape)
-
----
 
 ### Linguistically useful bits (only what’s worth keeping)
 
@@ -2428,6 +2423,7 @@ If you want, I can also extract just the **narration / discourse markers** that 
 [Reel](https://www.instagram.com/p/DSIX7pCAAns/)
 
 ### HU → EN
+
 **Oh, karácsonykor tervezed megkérni a barátnőd kezét?**
 
 “Oh, are you planning to ask for your girlfriend’s hand at Christmas?”
@@ -2539,8 +2535,6 @@ If you want, I can also extract just the **narration / discourse markers** that 
 
 = *Wow, I was so smart!*
 
----
-
 ### Key words & phrases from the reel
 
 **Ha valami jól működik, ne nyúlj hozzá.**
@@ -2649,6 +2643,7 @@ NGL, I thought this was a comedy reel until I got the notes back.
 ### Line-by-line HU → EN walkthrough
 
 **A hónaljad is befújod izzadásgátlóval, hogy egész nap friss legyél?**
+
 Do you spray your armpits with antiperspirant too, so you stay fresh all day?
 
 * *hónalj* = armpit
@@ -2656,88 +2651,103 @@ Do you spray your armpits with antiperspirant too, so you stay fresh all day?
 * *izzadásgátló* = antiperspirant
 
 **Miért ne óvhatnád meg az intim testrészeidet is az izzadás kellemetlenségeitől?**
+
 Why wouldn’t you also protect your intimate body parts from the discomforts of sweating?
 
 * *óv* = protect
 * *intim testrészek* = intimate body parts
 
 **Ugye te sem akarod, hogy … beégj.**
+
 You don’t want to end up embarrassed, right…
 
 * *ugye* = right? (expecting agreement)
 * *beég* = be embarrassed / humiliated
 
 **… amikor lehúzza rólad.**
+
 …when she pulls it down off you.
 
 * *lehúz* = pull down
 * *rólad* = off you
 
 **Ezzel a termékkel érezheted magad minden nap kényelmesen…**
+
 With this product, you can feel comfortable every day…
 
 * *érezheted magad* = you can feel (yourself)
 
 **… a bepállástól való feszengés helyett.**
+
 …instead of awkward discomfort caused by chafing / sweat buildup.
 
 * *bepállás* = sweat-induced irritation
 * *feszengés* = awkward discomfort
 
 **Natúr ápolást biztosít…**
+
 It provides natural care…
 
 * *ápolás* = care (cosmetic / skin care)
 
 **… nem ragad, nem nehezít el…**
+
 …it doesn’t get sticky, doesn’t weigh you down…
 
 **Nem tömíti el a pórusaidat, hűsítő érzetet ad…**
+
 It doesn’t clog your pores, it gives a cooling sensation…
 
 * *pórus* = pore
 * *hűsítő* = cooling
 
 **… a mentol azonnal felüdíti a bőröd…**
+
 …the menthol refreshes your skin immediately…
 
 **Bőrkímélő, ugyanis aloe vera van benne…**
+
 Skin-friendly, since it contains aloe vera…
 
 * *bőrkímélő* = gentle on skin
 
 **… alumínium- és alkoholmentes is a formula…**
+
 …the formula is also aluminum- and alcohol-free…
 
 **… de segít megelőzni a kellemetlen szagokat.**
+
 …but it helps prevent unpleasant odors.
 
 * *megelőz* = prevent
 
 **Érzéki illatélmény, citrusos és friss…**
+
 A sensual fragrance experience, citrusy and fresh…
 
 **Teszteljük le.**
+
 Let’s test it.
 
 * inclusive *-juk* form
 
 **… van ennek egy testvére is…**
+
 This also has a sibling product…
 
 * *testvér* = sibling (used metaphorically for product variant)
 
 **… krémes változata.**
+
 …the cream version.
 
 * *változat* = variant
 
 **Ha szeretnétek hozzájutni…**
+
 If you’d like to get hold of it…
 
 * *hozzájut* = obtain / get access to
-
----
 
 ### Extracted vocabulary & chunks (caption-based)
 
@@ -2780,13 +2790,9 @@ Useful constructions
 
 (I asked for more notes specifically on the "ad-ness" of it)
 
----
-
 ### Notes: “Ad-ness” of the reel (linguistic + structural)
 
 This reel is a **product pitch ad**, and its *ad-ness* is visible at multiple levels of language.
-
----
 
 1. **Hook framed as a shared routine**
 
@@ -2803,8 +2809,6 @@ This is classic advertising Hungarian:
 
 > *“You already do X — why not also do Y?”*
 
----
-
 2. **Rhetorical questions instead of assertions**
 
 Almost every claim is framed as:
@@ -2820,8 +2824,6 @@ Almost every claim is framed as:
 * Creates the illusion of autonomy
 
 This is *very* typical of influencer-read ads in Hungarian.
-
----
 
 3. **Problem → reassurance loop**
 
@@ -2840,8 +2842,6 @@ Especially noticeable is the **negative listing**:
 
 * More time spent on what the product *doesn’t* do than what it does
 * This is risk mitigation language, not storytelling
-
----
 
 4. **Feature stacking without narrative development**
 
@@ -2865,8 +2865,6 @@ The reel doesn’t escalate or twist — it **accumulates**:
 
 Comedy would *break* this pattern; ads **depend** on it.
 
----
-
 5. **Lexical field: cosmetic / wellness Hungarian**
 
 The vocabulary shifts away from everyday speech into a **marketing register**:
@@ -2884,8 +2882,6 @@ The vocabulary shifts away from everyday speech into a **marketing register**:
 * Few concrete verbs after the opening
 
 This is “brochure Hungarian,” spoken aloud.
-
----
 
 6. **Product family expansion**
 
