@@ -228,17 +228,86 @@ that it can *completely* take away your attention.
 
 [Cigánypaloták](https://www.instagram.com/reels/DSK8NIuDGEI/)
 
-[00:00.000 --> 00:07.200]  Az igazi cifra palottal vagy sokan cigánypalotának is hívják ezeket az épületeket itt erdében,
-[00:07.200 --> 00:11.700]  Bánfi Hunyadon száz ilyen hihetetlen kulipintjó van.
-[00:11.700 --> 00:17.100]  Itt, amiben nem laknak, viszont nézzétek, hogy milyen őröletes módon feldészítették.
-[00:17.100 --> 00:26.900]  Ezeket első sorban a gábor cigányok, akik egy különleges, nagyon zárt közös ségsokszor a haszit zsidókoztották őket hasonlítani.
-[00:26.900 --> 00:30.600]  Ezek az ő képítlínék, és tényleg nem laknak itt.
-[00:30.600 --> 00:39.500]  Éjjel napkal dolgoznak, Angliában, Írországban, hogy legyen annyi pénzük, hogy életük végig befejezik ezeket a palotákat.
-[00:39.500 --> 00:44.600]  De hogy milyen velük találkozni, azt is megmutatjuk nektek a YouTube-ban a polgárnetten.
-[00:44.600 --> 00:49.700]  A hihetetlen, hogy ezek közül a házak közül a legtöbbben nem is laknak, vagy be se fejesztjék.
-[00:49.700 --> 00:54.300]  Viszont kíváncsi vagyok a véleményetekre. Én látom, amit látok benne.
-[00:54.300 --> 01:00.700]  Sokan azt mondják, hogy nagyon az orosz stílus látható, mások azt mondják, hogy kicsit olyan kinaizáló.
-[01:00.700 --> 01:07.200]  Szerintem meg ez tisztabali vód szóval mondjuk így India-ban, és láttam hasonló palotákat.
-[01:07.200 --> 01:15.700]  És ugye azt mondják, hogy nem itt laknak általában a tulajdonosok, hanem mondjuk egy ilyen kis házban, mint ami itt van, emellett is.
-[01:15.700 --> 01:21.900]  Érdekes világ, mit gondoltok róla? Mindezt megmutatjuk nektek szombaton a YouTube-ban a polgárneten.
+### Line-by-line translation
 
+**Az igazi cifra palotáknak, vagy sokan cigánypalotának is hívják ezeket az épületeket itt Erdélyben,**
+These are the real **ornate palaces**, or as many people also call them, **“Gypsy palaces”**, here in Transylvania,
+
+**Bánffyhunyadon száz ilyen hihetetlen kulipintyó van.**
+in **Bánffyhunyad** there are a hundred such *incredible* **shacks**.
+(*kulipintyó* is deliberately ironic here: “hovel / shack”, clashing with *palota*)
+
+**Itt, amiben nem laknak, viszont nézzétek, hogy milyen őrületes módon feldíszítették.**
+Here, ones that **no one lives in**, but look at **how insanely they’ve decorated them**.
+
+**Ezeket elsősorban a gábor cigányok,**
+These are mainly built by the **Gábor Roma**,
+
+**akik egy különleges, nagyon zárt közösség, sokszor a haszid zsidókhoz szokták őket hasonlítani.**
+who are a **special, very closed community**, often compared to *Hasidic Jews*.
+
+**Ezek az ő építményeik, és tényleg nem laknak itt.**
+These are **their buildings**, and they really **don’t live in them**.
+
+**Éjjel-nappal dolgoznak Angliában, Írországban,**
+They work **day and night** in England and Ireland,
+
+**hogy legyen annyi pénzük, hogy életük végéig befejezzék ezeket a palotákat.**
+so that they have enough money to **finish these palaces over the course of their lives**.
+
+**De hogy milyen velük találkozni, azt is megmutatjuk nektek a YouTube-on a Polgárneten.**
+But what it’s like **to meet them**, we’ll also show you on YouTube on *Polgárnet*.
+
+**Hihetetlen, hogy ezek közül a házak közül a legtöbbben nem is laknak, vagy be se fejezték.**
+It’s incredible that in **most of these houses no one lives**, or they’re **not even finished**.
+
+**Viszont kíváncsi vagyok a véleményetekre. Én látom, amit látok benne.**
+But I’m curious about **your opinions**. I see **what I see in them**.
+
+**Sokan azt mondják, hogy nagyon az orosz stílus látható,**
+Many say that a **strong Russian style** can be seen,
+
+**mások azt mondják, hogy kicsit olyan kínaias.**
+others say it’s **a bit Chinese-like**.
+
+**Szerintem meg ez tiszta Bollywood, szóval mondjuk így: Indiában is láttam hasonló palotákat.**
+I think it’s **pure Bollywood**, so let’s put it this way: I’ve seen similar palaces in India.
+
+**És ugye azt mondják, hogy nem itt laknak általában a tulajdonosok,**
+And as they say, the owners **generally don’t live here**,
+
+**hanem mondjuk egy ilyen kis házban, mint ami itt van emellett is.**
+but rather in a **small house like this one**, nearby.
+
+**Érdekes világ. Mit gondoltok róla?**
+It’s an **interesting world**. What do you think about it?
+
+**Mindezt megmutatjuk nektek szombaton a YouTube-on a Polgárneten.**
+We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
+
+### Vocabulary
+
+* **cifra** – ornate, flashy
+* **palota** – palace
+* **cigánypalota** – “Gypsy palace” (loaded, colloquial term)
+* **Erdély** – Transylvania
+* **kulipintyó** – hovel, shack (ironic / dismissive)
+* **feldíszít** – decorate
+* **elsősorban** – primarily
+* **gábor cigányok** – Gábor Roma (specific subgroup)
+* **zárt közösség** – closed community
+* **hasonlít vkikhez** – compare to someone
+* **építmény** – structure, building
+* **éjjel-nappal** – day and night
+* **befejez** – finish, complete
+* **kíváncsi** – curious
+* **stílus** – style
+* **kínaias** – Chinese-like
+* **tiszta** (slang) – pure, outright
+* **tulajdonos** – owner
+* **érdekes világ** – interesting world
+
+If you’d like, next time we can also:
+
+* mark **where evaluative / loaded language appears**, or
+* keep treating these purely as **linguistic artefacts**, like here.
