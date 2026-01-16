@@ -629,141 +629,113 @@ It was nice, it was good, it was enough.
 
 ## Line-by-line HU → EN walkthrough
 
-**Jó volt ez a hóesés úgy a harmadik napig.**
+### **Jó volt ez a hóesés úgy a harmadik napig.**
+
 This snowfall was good up until about the third day.
 
 * *úgy* = roughly / about
 
----
+### **Három nap ebből bőven elég lett volna szerintem, mert addig élveztük.**
 
-**Három nap ebből bőven elég lett volna szerintem, mert addig élveztük.**
 Three days of this would’ve been more than enough, in my opinion, because up to then we enjoyed it.
 
 * *bőven elég* = more than enough
 
----
+### **Az első nap még az volt, hogy „jaj, de szépen esik a hó.**
 
-**Az első nap még az volt, hogy „jaj, de szépen esik a hó.**
 On the first day it was still like, “oh wow, how beautifully the snow is falling.
 
----
+### **Hát milyen régen esett így a hó!”**
 
-**Hát milyen régen esett így a hó!”**
 Wow, it’s been so long since snow fell like this!”
 
 * *hát* = emotional emphasis
 
----
+### **A második nap „Megint esik a hó.**
 
-**A második nap „Megint esik a hó.**
 The second day: “It’s snowing again.
 
----
+### **Hát menjünk el szánkózni! De jó ez a hóesés!”**
 
-**Hát menjünk el szánkózni! De jó ez a hóesés!”**
 Let’s go sledding! This snowfall is so nice!”
 
 * *szánkózni* = go sledding
 
----
+### **De a harmadik nap után már… „Uh, ez a kurva hó!”**
 
-**De a harmadik nap után már… „Uh, ez a kurva hó!”**
 But after the third day it’s already… “Ugh, this fucking snow!”
 
-* *kurva* = strong vulgar intensifier
+### **Nekem is hiányzott a hó, de most egészen más dolgok hiányoznak.**
 
----
-
-**Nekem is hiányzott a hó, de most egészen más dolgok hiányoznak.**
 I missed the snow too, but now completely different things are missing.
 
----
+### **Most hiányzik az az érzés, amikor így nyomod a fékpedált és lassul az autó.**
 
-**Most hiányzik az az érzés, amikor így nyomod a fékpedált és lassul az autó.**
 Now I miss that feeling when you press the brake pedal and the car actually slows down.
 
 * *nyomod* = you press (continuous feel)
 * *lassul* = slows down
 
----
+#### **Az egy jó érzés volt.**
 
-**Az egy jó érzés volt.**
 That was a good feeling.
 
----
+#### **Hiányoznak a felfestések az utakon.**
 
-**Hiányoznak a felfestések az utakon.**
 I miss the road markings.
 
 * *felfestések* = painted road lines/markings
 
----
+### **Én tíz napja nem tudom, hogy melyik sávban megyek,**
 
-**Én tíz napja nem tudom, hogy melyik sávban megyek,**
 I haven’t known which lane I’m in for ten days,
 
----
+### **mert csak követem az előttem lévőt.**
 
-**mert csak követem az előttem lévőt.**
 because I’m just following the one in front of me.
 
 * *az előttem lévő* = the one ahead of me
 
----
+### **Nem? Elindul a bicikliúton, én megyek utána.**
 
-**Nem? Elindul a bicikliúton, én megyek utána.**
 Right? He starts off on the bike lane, I go after him.
 
-* *nem?* = tag question, audience check
+### **Még úgy hiányzik az, amikor így beülsz az autóba és csak elindulsz.**
 
----
-
-**Még úgy hiányzik az, amikor így beülsz az autóba és csak elindulsz.**
 I also really miss when you get into the car and just drive off.
 
----
+### **Hogy nincs ez a tízperces kaparászás,**
 
-**Hogy nincs ez a tízperces kaparászás,**
 That there isn’t this ten-minute scraping,
 
 * *kaparászás* = scraping ice
 
----
+### **olvasztás, söprögetés.**
 
-**olvasztás, söprögetés.**
 melting, sweeping.
 
-* list rhythm for annoyance
+### **Nem véletlenül, nem Szibériában forgatják az akciófilmek üldözős jeleneteit.**
 
----
-
-**Nem véletlenül, nem Szibériában forgatják az akciófilmek üldözős jeleneteit.**
 It’s no coincidence they don’t film chase scenes of action movies in Siberia.
 
----
+### **Nem? Hogy „Taposs bele!”**
 
-**Nem? Hogy „Taposs bele!”**
 Right? Like, “Floor it!”
 
 * *taposs bele* = step on it (gas)
 
----
+### **„Várjál, a hátsó ablak még nem olvadt le, úgyhogy…”**
 
-**„Várjál, a hátsó ablak még nem olvadt le, úgyhogy…”**
 “Wait, the rear window hasn’t defrosted yet, so…”
 
-* trailing off = joke landing
+## Extracted vocabulary & chunks (caption-based only)
 
----
-
-### Extracted vocabulary & chunks (caption-based only)
-
-#### Weather & winter
+**Weather & winter**
 
 * **hó / hóesés** – snow / snowfall
 * **olvad / olvadt le** – melt / defrost
 
-#### Driving
+**Driving**
 
 * **fékpedál** – brake pedal
 * **lassul** – slow down
@@ -771,7 +743,7 @@ Right? Like, “Floor it!”
 * **felfestés** – road marking
 * **bicikliút** – bike lane
 
-#### Verbs & actions
+**Verbs & actions**
 
 * **élvez** – enjoy
 * **hiányzik** – be missed
@@ -781,159 +753,140 @@ Right? Like, “Floor it!”
 * **kaparászás** – scraping
 * **söprögetés** – sweeping
 
-#### Discourse & stance
+**Discourse & stance**
 
 * **úgy** – roughly
 * **szerintem** – in my opinion
 * **hát** – emphatic marker
 * **nem?** – right? (tag question)
 
-#### Informal / strong
-
-* **kurva** – fucking (intensifier)
 
 -----
 
-## [IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
+[IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
 
 **IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz**
 
 **EN:**
 YES, I know that artificial intelligence and AI are the same thing.
 
----
+## Line-by-line HU → EN walkthrough
 
-### Line-by-line HU → EN walkthrough
+### **Ez a mesterséges intelligencia meg ez az AI ez nem úgy fogják átvenni a hatalmat,**
 
-**Ez a mesterséges intelligencia meg ez az AI ez nem úgy fogják átvenni a hatalmat,**
 This artificial intelligence — this AI — isn’t going to take over power like that,
 
 * *meg* = and (loose, spoken)
 * double *ez* = emphasis, casual speech
 * *átvenni a hatalmat* = take over power
 
----
+### **mint a filmekben, meg mint a Terminatorban.**
 
-**mint a filmekben, meg mint a Terminatorban.**
 like in movies, like in Terminator.
 
 * *-ban* = in
 
----
+### **Hanem szerintem ilyen apró kis szemétségekkel,**
 
-**Hanem szerintem ilyen apró kis szemétségekkel,**
 But in my opinion, with these little petty assholeries,
 
 * *hanem* = but rather
 * *apró kis* = belittling diminutive
 * *szemétség* = shitty / mean act (informal)
 
----
+### **hogy mondjuk amikor home office-ban kádból meetingelsz,**
 
-**hogy mondjuk amikor home office-ban kádból meetingelsz,**
 like, say, when you’re home-office-ing and doing a meeting from the bathtub,
 
 * *mondjuk* = like / for example
 * *home office-ban* = in home office
 * *meetingelsz* = you’re in a meeting (Hunglish verb)
 
----
+### **akkor így random bekapcsolja majd a kamerát.**
 
-**akkor így random bekapcsolja majd a kamerát.**
 then it just randomly turns the camera on.
 
 * *így random* = just randomly
 * *bekapcsolja* = turns on (object implied)
 
----
+### **Vagy amikor főnököddel tennéd a telefont,**
 
-**Vagy amikor főnököddel tennéd a telefont,**
 Or when you’d be hanging up with your boss,
 
 * *tennéd a telefont* = hang up (spoken idiom)
 
----
+### **akkor még így öt másodpercig vonalban tart, hogy**
 
-**akkor még így öt másodpercig vonalban tart, hogy**
 then it keeps you on the line for another five seconds, like,
 
 * *vonalban tart* = keep on the line
 
----
+### **„Persze, hogyne! Hogy baszódnál meg!”**
 
-**„Persze, hogyne! Hogy baszódnál meg!”**
 “Sure, why not! Go fuck yourself!”
 
 * sarcastic politeness + insult
 * quotation marks = imagined speech
 
----
+### **És akkor kirúgnak és akkor így fogják elvenni a munkánkat.**
 
-**És akkor kirúgnak és akkor így fogják elvenni a munkánkat.**
 And then they fire you, and that’s how they’ll take our jobs.
 
 * *kirúg* = fire (from a job)
 * *elvenni a munkánkat* = take our jobs
 
----
+### **De mivel tőlünk tanulnak mindent,**
 
-**De mivel tőlünk tanulnak mindent,**
 But since they learn everything from us,
 
 * *tőlünk* = from us (source)
 
----
+### **ezért ők meg majd így fognak telefonálni, hogy**
 
-**ezért ők meg majd így fognak telefonálni, hogy**
 so then they themselves will be making phone calls like,
 
 * *ezért* = therefore
 * *meg* = contrastive “in turn”
 
----
+### **„Persze, hogyne, hogy baszódnál meg!”**
 
-**„Persze, hogyne, hogy baszódnál meg!”**
 “Sure, why not, go fuck yourself!”
 
-* callback repetition = punchline loop
+## Extracted vocabulary & chunks (caption-based only)
 
----
-
-### Extracted vocabulary & chunks (caption-based only)
-
-#### Tech / modern life
+**Tech / modern life**
 
 * **mesterséges intelligencia** – artificial intelligence
 * **AI** – AI
 * **home office** – working from home
 * **meetingel** – be in a meeting (Hunglish)
 
-### Power & work
+**Power & work**
 
 * **átveszi a hatalmat** – take over power
 * **kirúg** – fire (someone)
 * **elvenni a munkát** – take someone’s job
 
-#### Verbs & actions
+**Verbs & actions**
 
 * **bekapcsol** – turn on
 * **vonalban tart** – keep on the line
 * **telefonál** – make a phone call
 * **tanul (vkitől)** – learn (from someone)
 
-#### Discourse & stance
+**Discourse & stance**
 
 * **szerintem** – in my opinion
 * **mondjuk** – say / like
 * **hanem** – but rather
 * **ezért** – therefore
 
-#### Informal / vulgar
+**Informal / vulgar**
 
 * **szemétség** – shitty act
 * **baszódnál meg** – go fuck yourself (very vulgar)
 
-#### Useful constructions
+**Useful constructions**
 
 * **nem úgy…, mint…, hanem…** – not like…, but rather…
 * **amikor…, akkor…** – when…, then…
