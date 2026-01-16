@@ -9,15 +9,15 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTVN-pVjKw1/)
 
-## Text + line-by-line translation
+### Text + line-by-line translation
 
-### **Ková tűnt az a két liter pálinka?**
+**Ková tűnt az a két liter pálinka?**
 
 Where did **those two litres of pálinka** go?
 
 * **hová tűnt** = where did it disappear to
 
-### **Sebet fertőtlenítettem vele.**
+**Sebet fertőtlenítettem vele.**
 
 I **disinfected a wound** with it.
 
@@ -25,22 +25,20 @@ I **disinfected a wound** with it.
 * **fertőtlenít** = disinfect
 * **vele** = with it
 
-### **Két literrel? Milyen sebet?**
+**Két literrel? Milyen sebet?**
 
 With **two litres**? **What kind of wound?**
 
 * **-val / -vel** = with
 * **milyen** = what kind of
 
-### **Lelki sebet.**
+**Lelki sebet.**
 
 A **spiritual / emotional wound**.
 
 * **lelki** = mental, emotional, spiritual
 
----
-
-## Vocabulary list
+### Vocabulary list
 
 * **hová tűnik** – disappear (to where)
 * **pálinka** – Hungarian fruit brandy
