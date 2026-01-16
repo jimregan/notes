@@ -62,4 +62,4 @@ Jó, kijön.
 
 [Reel](https://www.instagram.com/reels/DThz8FRjKKJ/)
 
-[00:00.000 --> 00:08.800]  Ha nincs kedvet tanulni, akkor ment ki a hidegbe, hogy átér ezt, hogy milyen hajléktad annak lenni, nyilván megbúksz.
+Ha nincs kedvet tanulni, akkor menj ki a hidegbe, hogy átérezd, hogy milyen hajléktalannak lenni, miután megbúksz.
