@@ -576,3 +576,13 @@ Well, I think *on two packs of crystal*.
 
 [Reel](https://www.instagram.com/reels/DRU46etjGzj/)
 
+[00:00.000 --> 00:03.200]  Mint tudjuk, a magyarul lehet a lekszifrában káromkodni.
+[00:03.200 --> 00:07.200]  Vaszomat, mert a kiárásíti lorom a kurva élhend.
+[00:07.200 --> 00:09.200]  Nem csoda, hiszen nem makesztük.
+[00:09.200 --> 00:13.400]  Az első anyázás, mátyás király idejében éjegyezték fel a krónikák.
+[00:13.400 --> 00:17.400]  Ugyanis, amikor a magyarok a németekkel arszoltak, ezt orgyítozták.
+[00:17.400 --> 00:20.000]  Vesztek kurvan ő, fia szaros német.
+[00:20.000 --> 00:23.200]  Itt átok, vérünk-e, ma is szukti véleteket.
+[00:23.200 --> 00:24.400]  Jól hangzik, nem?
+[00:24.400 --> 00:26.800]  Amúgy ezt inkább szitkozódásnak nevezném,
+[00:26.800 --> 00:30.400]  mert káromkodás az, amiben a jó istent is belekeverjük.
