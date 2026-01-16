@@ -555,6 +555,9 @@ Most, hogy ő sem lehet az igazgató, ki a következő, mondjuk egy sorozat gyil
 
 [Reel](https://www.instagram.com/reels/DTdG9_QDada/)
 
+[00:00.000 --> 00:02.300]  A 14. Havi Nyugdiat mire költenéni?
+[00:02.300 --> 00:06.100]  Hát, szerintem két pakkristáira.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DRU46etjGzj/)
