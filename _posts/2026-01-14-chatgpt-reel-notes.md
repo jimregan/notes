@@ -9,7 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
 
-### Line-by-line HU → EN walkthrough
+### Line-by-line HU → EN walkthrough
 
 **Anya, hol van apa?**
 
@@ -71,7 +71,7 @@ Did you dig too?
 
 [Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
 
-### Sentence-by-sentence**
+### Sentence-by-sentence
 
 **Gyere, és nézd meg velünk…**
 
