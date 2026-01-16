@@ -1004,12 +1004,59 @@ This one draws a **distinction Hungarian speakers often make**:
 
 [Reel](https://www.instagram.com/reels/DTAbkX7DRbX/)
 
-Anya most kaptam 20 000 forintat a fiúktól, hogy felmásszak a fára.
-Ó, Lilla, csak az alső neműdet akarták látni.
-Gondoltam rá, és előtte levettem.
-Kívhatlak Évának?
-Miért?
-Mert te voltál az első.
-Akkor én Pugeot-nak hívlak.
-Miért?
-Mert te voltál a 206-dik.
+### Line-by-line translation
+
+**Anya, most kaptam 20 000 forintot a fiúktól, hogy felmásszak a fára.**
+Mum, I just got *20,000 forints* from the boys to *climb the tree*.
+
+**Ó, Lilla, csak az alsóneműdet akarták látni.**
+Oh, Lilla, they just wanted to *see your underwear*.
+
+**Gondoltam rá, és előtte levettem.**
+I thought about that — so *I took it off beforehand*.
+
+**Kívhatlak Évának?**
+Can I call you *Éva*?
+
+**Miért?**
+Why?
+
+**Mert te voltál az első.**
+Because *you were the first*.
+
+**Akkor én Peugeot-nak hívlak.**
+Then I’ll call you *Peugeot*.
+
+**Miért?**
+Why?
+
+**Mert te voltál a 206-dik.**
+Because *you were the 206th*.
+
+### Vocabulary
+
+* **most kaptam** – I’ve just received
+* **forint** – Hungarian currency
+* **felmászik** – climb up
+* **fiúk** – boys
+* **alsónemű** – underwear
+* **előtte** – beforehand
+* **levenni** (*levettem*) – take off (clothes)
+* **hív vkit vminek** – call someone something
+* **első** – first
+* **–dik** – ordinal suffix (*206-dik* = 206th)
+
+### Notes on the joke
+
+This is **two stacked punchlines**:
+
+1. **Expectation flip**:
+
+   * Mum assumes sexualised intent → daughter outsmarts it with blunt logic.
+
+2. **Wordplay + cultural reference**:
+
+   * *Éva* = “the first woman”
+   * *Peugeot 206* = common car model → “you were the 206th”
+
+Very typical **Hungarian pub-humour**: short, crude, logic-based, and delivered deadpan.
