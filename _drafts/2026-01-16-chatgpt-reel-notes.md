@@ -511,40 +511,190 @@ Ugyanis a mai férfiakat tekintve ezer szer rosszabb dolgok vannak bennük anná
 
 [Reel](https://www.instagram.com/reels/DSGF-nBiKFJ/)
 
-KK: Emlékeztek hogy négy nappal ezelőtt, mit is mondott Orbán Viktor, hogy mit tenne a gyermekbántalmazókkal?
-OV: Szerintem, aki gyerekekhez nyúl, azt miszlikbe kell aprítani.
-Nincs, nincs, miröl beszélni.
-KK: Valóban vastapsot érdemlő mondat, de hogyha ez így van, akkor mi az oka annak, hogy ez a felvétel,
-és még ezek közül kettő másik hónapok óta a rendőrség tulajdonában van,
-és nincsen következménye?
-Ennek sem.
-Orbán Viktor és kocsis máté többször kijelentette már azt,
-hogy a szőlő utcában nem gyermekotthon van, hanem kiskorúak börtöne.
-Ami ugyebár nem igaz, hiszen ez egy javítóintézet, nem pedig egy gyermekbörtön.
-Megpróbálhatjátok úgy beállítani ezeket a gyerekeket, mintha ők bűnözők lennének,
-de ők azért kerültek ebbe a sociális intézménybe, hogy visszaintegrálják őket a társadalomba.
-Így akarjuk visszaintegrálni a társadalomba, hogy a földön rugdossuk őket?
-Komolyan kérdezem, szerintetek, ha egy gyerek rosszat csinál,
-akkor ő azt érdemli, hogy át legyen rángatva az aztalon és az aztalba legyen verve a feje?
-Sok mindent lehet mondani az intézetes gyerekekre, de mitől lennének másabbak,
-hogyha a nevelőik ezt csinálják velük?
-Ezek a felvételek köztudottan hónapok óta a hatóságoknál vannak,
-viszont valahogy még mindig nem történt semmi,
-aki pedig még mindig elgondolkozik azon, hogy ehhez semmi köze a kormánynak, kérdezem miért?
-Egy ilyen esetet akkor nem fognak kivizsgálni, hogyha fentről parancsot kapnak.
-Az elkövető büszkén vállalta, hogy így neveli gyerekeket,
-most viszont, hogy ezt kiderült, azzal takarózik, hogy hát ezek kontekstusból kiragadott felvételek.
-Kérdem én, hogy milyen kontextus az, ami megköveteli, hogy egy gyereket átrángass az asztalon,
-majd a földön fekve rugdost őt?
-Melyik az a kontextus? Szeretném tudni.
-És minden olyan embernek, akinek erre egyszerűen csak annyi a válasza,
-hogy hát nem ismerjük az előzményeket, minden ilyen embernek azt javaslom, hogy vonuljom be az állatkertbe.
-Ugyanis ilyen felfogással nem az emberek, hanem az állatok közé való.
-Kisebbeket és a gyengébbeket az állatok bántják.
-Ha egy állat fenyegetést érez, akkor az az állat támadni fog.
-Ez a férfi egy ösztönlény, egy állat.
-És annyira vicces hogy ez az ember lett kinevezve azok után, hogy egy gyermekfuttatónak le kellett mondania.
-Most, hogy ő sem lehet az igazgató, ki a következő? mondjuk egy sorozatgyilkos?
+### Line-by-line translation
+
+**KK: Emlékeztek, hogy négy nappal ezelőtt mit is mondott Orbán Viktor, hogy mit tenne a gyermekbántalmazókkal?**
+
+Do you remember what **Orbán Viktor** said four days ago about *what he would do to child abusers*?
+
+> **Szerintem, aki gyerekekhez nyúl, azt miszlikbe kell aprítani.**
+>
+> In my opinion, *anyone who touches children* should be *chopped into pieces*.
+>
+> **Nincs, nincs, miről beszélni.**
+>
+> There’s nothing—nothing—to discuss.
+
+**Valóban vastapsot érdemlő mondat, de hogyha ez így van, akkor mi az oka annak, hogy ez a felvétel,**
+
+Indeed, a statement that *earns thunderous applause*, but if that’s so, then why is it that this footage,
+
+**és még ezek közül kettő másik hónapok óta a rendőrség tulajdonában van,**
+
+and *two others like it*, have been in the *police’s possession* for months,
+
+**és nincsen következménye? Ennek sem.**
+
+and there are *no consequences*? Not for this one either.
+
+**Orbán Viktor és Kocsis Máté többször kijelentette már azt,**
+
+Orbán Viktor and Kocsis Máté have stated multiple times
+
+**hogy a Szőlő utcában nem gyermekotthon van, hanem kiskorúak börtöne.**
+
+that on Szőlő Street there is *not* a children’s home, but *a prison for minors*.
+
+**Ami ugyebár nem igaz, hiszen ez egy javítóintézet, nem pedig egy gyermekbörtön.**
+
+Which is, of course, *not true*, since it’s a *reformatory*, not a children’s prison.
+
+**Megpróbálhatjátok úgy beállítani ezeket a gyerekeket, mintha ők bűnözők lennének,**
+
+You can try to *portray these kids* as if they were criminals,
+
+**de ők azért kerültek ebbe a szociális intézménybe,**
+
+but they were placed in this *social institution*
+
+**hogy visszaintegrálják őket a társadalomba.**
+
+so that they can be *reintegrated into society*.
+
+**Így akarjuk visszaintegrálni a társadalomba, hogy a földön rugdossuk őket?**
+
+Is *this* how we reintegrate them—*by kicking them while they’re on the ground*?
+
+**Komolyan kérdezem, szerintetek, ha egy gyerek rosszat csinál,**
+
+I’m asking seriously: if a child does something wrong,
+
+**akkor ő azt érdemli, hogy át legyen rángatva az asztalon, és az asztalba legyen verve a feje?**
+
+does he deserve *to be dragged across a table* and have his *head slammed into it*?
+
+**Sok mindent lehet mondani az intézetes gyerekekre,**
+
+You can say many things about *institutionalised kids*,
+
+**de mitől lennének másabbak, hogyha a nevelőik ezt csinálják velük?**
+
+but *how would they be any different* if their *caretakers do this to them*?
+
+**Ezek a felvételek köztudottan hónapok óta a hatóságoknál vannak,**
+
+These recordings have *publicly* been with the *authorities* for months,
+
+**viszont valahogy még mindig nem történt semmi,**
+
+yet somehow *nothing has happened*,
+
+**aki pedig még mindig elgondolkozik azon, hogy ehhez semmi köze a kormánynak, kérdezem: miért?**
+
+and to anyone who still thinks the government has *nothing to do with this*, I ask: *why*?
+
+**Egy ilyen esetet akkor nem fognak kivizsgálni, hogyha fentről parancsot kapnak.**
+
+Such a case *won’t be investigated* if they receive *orders from above*.
+
+**Az elkövető büszkén vállalta, hogy így neveli a gyerekeket,**
+
+The perpetrator *proudly admitted* that this is how he “raises” children,
+
+**most viszont, hogy ez kiderült, azzal takarózik,**
+
+but now that this has come out, he *hides behind* the claim
+
+**hogy hát ezek kontextusból kiragadott felvételek.**
+
+that these are *recordings taken out of context*.
+
+**Kérdem én, hogy milyen kontextus az,**
+
+I ask: *what kind of context is that*
+
+**ami megköveteli, hogy egy gyereket átrángass az asztalon,**
+
+that *requires* you to drag a child across a table,
+
+**majd a földön fekve rugdosd őt?**
+
+and then *kick him while he’s lying on the ground*?
+
+**Melyik az a kontextus? Szeretném tudni.**
+
+Which context is that? *I’d like to know.*
+
+**És minden olyan embernek, akinek erre egyszerűen csak annyi a válasza,**
+
+And to everyone whose only response to this is simply
+
+**hogy „hát nem ismerjük az előzményeket”,**
+
+“well, we don’t know the prior events,”
+
+**minden ilyen embernek azt javaslom, hogy vonuljon be az állatkertbe.**
+
+to every such person I suggest: *go move into a zoo*.
+
+**Ugyanis ilyen felfogással nem az emberek, hanem az állatok közé való.**
+
+Because with that mindset, one belongs *not among people, but among animals*.
+
+**Kisebbeket és a gyengébbeket az állatok bántják.**
+
+Animals *attack the smaller and weaker*.
+
+**Ha egy állat fenyegetést érez, akkor az az állat támadni fog.**
+
+If an animal feels threatened, it will *attack*.
+
+**Ez a férfi egy ösztönlény, egy állat.**
+
+This man is an *instinct-driven being*, an animal.
+
+**És annyira vicces, hogy ez az ember lett kinevezve,**
+
+And it’s *so ironic* that *this* is the person who was appointed,
+
+**azok után, hogy egy gyermekfuttatónak le kellett mondania.**
+
+after a *child trafficker* had to resign.
+
+**Most, hogy ő sem lehet az igazgató, ki a következő?**
+
+Now that he can’t be director either, who’s next?
+
+**Mondjuk egy sorozatgyilkos?**
+
+*A serial killer, perhaps?*
+
+### Vocabulary
+
+* **emlékezik vmire** – remember something
+* **gyermekbántalmazó** – child abuser
+* **gyerekekhez nyúl** – touch children (euphemistic legal phrasing)
+* **miszlikbe aprít** – chop to pieces (violent idiom)
+* **vastapsot érdemel** – deserves a standing ovation
+* **következmény** – consequence
+* **kijelent** – state, declare
+* **javítóintézet** – reformatory
+* **beállít vkit vmilyennek** – portray someone as
+* **szociális intézmény** – social institution
+* **visszaintegrál** – reintegrate
+* **földön rugdos** – kick while on the ground
+* **át­rángat** – drag violently across
+* **intézetes gyerek** – child in institutional care
+* **hatóságok** – authorities
+* **kivizsgál** – investigate
+* **fentről parancs** – order from above (political euphemism)
+* **elkövető** – perpetrator
+* **takarózik vmivel** – hide behind (an excuse)
+* **kiragad a kontextusból** – take out of context
+* **ösztönlény** – instinct-driven being
+* **kinevez** – appoint
+* **lemond** – resign
+* **sorozatgyilkos** – serial killer
 
 -----
 
