@@ -555,8 +555,38 @@ Most, hogy ő sem lehet az igazgató, ki a következő, mondjuk egy sorozat gyil
 
 [Reel](https://www.instagram.com/reels/DTdG9_QDada/)
 
-A 14. havi nyugdíjat mire költené néni?
-Hát, szerintem két pak kristályra.
+### Line-by-line translation
+
+**A 14. havi nyugdíjat mire költené, néni?**
+What would you spend the *14th monthly pension* on, ma’am?
+
+**Hát, szerintem két pakk kristályra.**
+Well, I think *on two packs of crystal*.
+
+### Vocabulary
+
+* **14. havi nyugdíj** – 14th monthly pension (political / satirical reference to extra pension payments)
+* **mire költené** – what would you spend it on (conditional, polite)
+* **néni** – elderly woman / ma’am (familiar, colloquial)
+* **hát** – well (discourse filler)
+* **szerintem** – in my opinion / I think
+* **két pakk** – two packs
+* **kristály** – *crystal meth* (slang)
+
+### Notes on the joke
+
+The humour comes from the **sharp contrast** between:
+
+* an *official, benevolent-sounding* social-policy question, and
+* a **deadpan answer referencing hard drugs**, delivered casually.
+
+It’s deliberately shocking and relies on:
+
+* understatement
+* stereotype-breaking
+* and the absurdity of applying street slang to pension politics
+
+If you want, we can also flag these **“loaded slang” moments** systematically in future ones, since they tend to be the hardest to catch at A-level.
 
 -----
 
