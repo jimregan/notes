@@ -411,10 +411,6 @@ For similar stories, *go ahead and follow me*!
 * **előkerül** – turn up, surface
 * **egy csapásra** – in one stroke, overnight
 
-### Referenced entities
+-----
 
-* **Kurt Cobain**
-* **Nirvana**
-* **Nevermind**
-
-If you want to continue, paste the next one and I’ll keep *exactly* this formatting.
+[Reel](https://www.instagram.com/reels/DTGMx1MDOX1/)
