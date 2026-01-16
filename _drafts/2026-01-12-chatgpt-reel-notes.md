@@ -312,33 +312,43 @@ I hope at least you didn’t smoke.
 ### Line-by-line translation
 
 **Nálunk a mi csapatunkban Ádámmal, én vagyok a szerelős ember, mert én értek a szereléshez.**
+
 In our little team with Ádám, I’m the *fix-it person*, because I’m the one who understands repairs.
 
 **Múltkor csapot szereltem.**
+
 The other day I was *installing a tap*.
 
 **Képzeljétek el, én csapot szereltem,**
+
 Just imagine it — *I* was installing a tap,
 
 **és ahogy elkezdtem szerelni a csapot, rájöttem, hogy én egy 31 éves nő testébe zárt 52 éves apuka vagyok,**
+
 and as I started working on it, I realised that I’m a *52-year-old dad trapped in the body of a 31-year-old woman*,
 
 **mert végig káromkodtam az egészet.**
+
 because I was *swearing the entire time*.
 
 **Azt basztam le a legjobban, aki a legtöbbet segített.**
+
 I *snapped at* the person who helped the most *the hardest*.
 
 **Ilyeneket mondtam, hogy hova tettétek a csavarhúzót,**
+
 I was saying things like “Where did you put the screwdriver,”
 
 **mikor pontosan tudtam, hogy én jártam utoljára a csavarhúzóval.**
+
 even though I knew perfectly well that *I* was the last one who had it.
 
 **Ennyire voltam tőle, hogy szisszencsek egy sört és titokban pornót nézzek.**
+
 I was *this close* to cracking open a beer and secretly watching porn.
 
 **Szóval így.**
+
 So… yeah. *That’s how it went.*
 
 ### Vocabulary
@@ -359,4 +369,3 @@ So… yeah. *That’s how it went.*
 * **titokban** – secretly
 * **szóval így** – so yeah / that’s it
 
-This one is very much **self-deprecating observational humour**, built around the stereotype of the grumpy, swearing middle-aged dad — mapped onto herself for comic effect.
