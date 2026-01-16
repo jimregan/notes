@@ -755,36 +755,48 @@ Well, I think *on two packs of crystal*.
 
 [Reel](https://www.instagram.com/reels/DRU46etjGzj/)
 
+The quote [is real](https://24.hu/tudomany/2015/01/10/k-rvano-fia-ez-az-elso-magyar-karomkodas/)
+
 ### Line-by-line translation
 
 **Mint tudjuk, magyarul lehet a legcifrábban káromkodni.**
+
 As we know, *you can swear the most ornately* in Hungarian.
 
 **„Faszomat… Mi van, kijárási tilalom? A kurva életbe…”**
+
 “*Fuck me*… What’s this, *a curfew*? *For fuck’s sake*…”
 
 **Nem csoda, hiszen nem ma kezdtük.**
+
 No wonder — after all, *we didn’t start today* (i.e. this isn’t new).
 
 **Az első anyázást Mátyás király idejében jegyezték fel a krónikák.**
+
 The first recorded *mother-insult* appears in the chronicles *from the time of* **Mátyás király**.
 
 **Ugyanis amikor a magyarok a németekkel harcoltak, ezt ordítozták:**
+
 Because when the Hungarians were fighting the Germans, they were shouting this:
 
 **„Veszteg, kurvanő fia, szaros német,**
+
 “*Halt!* son of a whore, *filthy German*,
 
 **ittátok vérünket, ma isszuk ti véreteket!”**
+
 *you drank our blood, today we drink yours!*”
 
 **Jól hangzik, nem?**
+
 Sounds good, doesn’t it?
 
 **Amúgy ezt inkább szitkozódásnak nevezném,**
+
 Actually, I’d rather call this *cursing / invective*,
 
 **mert káromkodás az, amibe a jóistent is belekeverjük.**
+
 because *real swearing* is when you *drag God into it as well*.
 
 ### Vocabulary
@@ -809,5 +821,3 @@ This one draws a **distinction Hungarian speakers often make**:
 
 * **szitkozódás** = aggressive insults and invective
 * **káromkodás** = swearing that *explicitly invokes God*
-
-That conceptual split is culturally specific — and very Hungarian.
