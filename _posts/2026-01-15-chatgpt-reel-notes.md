@@ -201,151 +201,149 @@ So: *“clean absolutely everything”*
 
 ## Line-by-line translation
 
-**A pszichológia szerint** azok az emberek, akik **folyamatos megerősítésre vágynak a kapcsolataikban**,
+> **A pszichológia szerint** azok az emberek, akik **folyamatos megerősítésre vágynak a kapcsolataikban**,
 
 **According to psychology**, people who **crave constant reassurance in their relationships**
 
-**túl gyakran írnak üzenetet**, aggódnak, hogyha valaki **mérgesnek tűnik**,
+> **túl gyakran írnak üzenetet**, aggódnak, hogyha valaki **mérgesnek tűnik**,
 
 **message too often**, worry if someone **seems angry**,
 
-vagy pánikba esnek, ha nem kapnak választ,
+> vagy pánikba esnek, ha nem kapnak választ,
 
 or **panic** if they don’t get a reply,
 
-gyakran **szorongó kötődésre** utaló jeleket mutatnak.
+> gyakran **szorongó kötődésre** utaló jeleket mutatnak.
 
 often show signs that point to **anxious attachment**.
 
-Ez nem azt jelenti, hogy **túl igényesek** vagy **túl sokak** lennének,
+> Ez nem azt jelenti, hogy **túl igényesek** vagy **túl sokak** lennének,
 
 This doesn’t mean they are **too demanding** or **“too much”**,
 
-hanem az, hogy az agyuk így **védekezik az elhagyástól**.
+> hanem az, hogy az agyuk így **védekezik az elhagyástól**.
 
 but rather that their brain is **defending itself against abandonment**.
 
-A **szorongó kötődés** két tulajdonságban nyilvánul meg.
+> A **szorongó kötődés** két tulajdonságban nyilvánul meg.
 
 **Anxious attachment** manifests in two traits.
 
-Az első, hogy **túl aggódják az interakciókat**.
+> Az első, hogy **túl aggódják az interakciókat**.
 
 The first is that they **overthink interactions**.
 
-Késői válasz, megváltozott hangnem,
+> Késői válasz, megváltozott hangnem,
 
 A late reply, a changed tone,
 
-vagy egy sóhaj is **elutasításnak tűnhet**.
+> vagy egy sóhaj is **elutasításnak tűnhet**.
 
 or even a sigh can **seem like rejection**.
 
-Ezáltal a gondolatok gyorsan **spirálba kerülnek**.
+> Ezáltal a gondolatok gyorsan **spirálba kerülnek**.
 
 As a result, thoughts quickly **spiral**.
 
-Mi lenne, ha a kérdésekkel **megnehezítik a nyugodt állapot megtartását**?
+> Mi lenne, ha a kérdésekkel **megnehezítik a nyugodt állapot megtartását**?
 
 What if, through questions, they **make it harder to maintain a calm state**?
 
-A második pedig az, hogy **túl szorosan ragaszkodnak**.
+> A második pedig az, hogy **túl szorosan ragaszkodnak**.
 
 The second is that they **cling too tightly**.
 
-Az elhagyástól való félelem miatt ragaszkodhatnak,
+> Az elhagyástól való félelem miatt ragaszkodhatnak,
 
 Because of fear of abandonment, they may cling,
 
-**túl sokszor kérnek bocsánatot**,
+> **túl sokszor kérnek bocsánatot**,
 
 **apologise too often**,
 
-vagy **több szeretetet adnak, mint amennyit kapnak**,
+> vagy **több szeretetet adnak, mint amennyit kapnak**,
 
 or **give more love than they receive**,
 
-remélve, hogy **megtartják a jó kapcsolatot**.
+> remélve, hogy **megtartják a jó kapcsolatot**.
 
 hoping to **keep the relationship**.
 
-A **szorongó kötődés nem a gyengeségnek a jele**,
+> A **szorongó kötődés nem a gyengeségnek a jele**,
 
 **Anxious attachment is not a sign of weakness**,
 
-hanem ez egy **idegrendszeri mintázat**,
+> hanem ez egy **idegrendszeri mintázat**,
 
 but rather a **nervous-system pattern**,
 
-amit a **bizonytalanság formált**.
+> amit a **bizonytalanság formált**.
 
 which has been **shaped by insecurity**.
 
-Gyakran **gyerekkori környezetből ered**,
+> Gyakran **gyerekkori környezetből ered**,
 
 It often **originates in childhood environments**,
 
-ahol a gondoskodás **kiszámíthatatlan volt**,
+> ahol a gondoskodás **kiszámíthatatlan volt**,
 
 where care was **unpredictable**,
 
-néha meleg és szeretetteljes volt,
+> néha meleg és szeretetteljes volt,
 
 sometimes warm and loving,
 
-máskor pedig távolságtartó vagy figyelmetlen.
+> máskor pedig távolságtartó vagy figyelmetlen.
 
 and at other times distant or inattentive.
 
-Felnőttként ugyanezeket a félelmeket **viszik át a kapcsolataikba**,
+> Felnőttként ugyanezeket a félelmeket **viszik át a kapcsolataikba**,
 
 As adults, they **carry these same fears into their relationships**,
 
-felkészülnek a **veszteségre**,
+> felkészülnek a **veszteségre**,
 
 prepare for **loss**,
 
-és folyamatosan **bizonyítékokat keresnek arra, hogy biztonságban vannak**.
+> és folyamatosan **bizonyítékokat keresnek arra, hogy biztonságban vannak**.
 
 and constantly **look for proof that they are safe**.
 
-Mélyen szeretnek,
+> Mélyen szeretnek,
 
 They love deeply,
 
-de félnek **elveszíteni azt a kapcsolatot, amire vágynak**.
+> de félnek **elveszíteni azt a kapcsolatot, amire vágynak**.
 
 but fear **losing the relationship they long for**.
 
-Az igazi **gyógyulás** akkor kezdődik,
+> Az igazi **gyógyulás** akkor kezdődik,
 
 True **healing** begins
 
-amikor ezek az emberek megtanulják **megnyugtatni a fejükben lévő riasztást**,
+> amikor ezek az emberek megtanulják **megnyugtatni a fejükben lévő riasztást**,
 
 when these people learn to **calm the alarm in their head**,
 
-**megtanulnak bízni abban**,
+> **megtanulnak bízni abban**,
 
 and **learn to trust that**
 
-hogy a szeretet nem tűnik el akkor sem,
+> hogy a szeretet nem tűnik el akkor sem,
 
 love does not disappear even then,
 
-ha nem **bizonyítják** ezt folyamatosan.
+> ha nem **bizonyítják** ezt folyamatosan.
 
 if they don’t **constantly prove it**.
 
-Írd meg kommentben, hogy mit gondolsz erről,
+> Írd meg kommentben, hogy mit gondolsz erről,
 
 Write in the comments what you think about this,
 
-és ha tetszik ez a tartalom, akkor kövess be!
+> és ha tetszik ez a tartalom, akkor kövess be!
 
 and if you like this content, then follow me!
-
----
 
 ## Vocabulary list
 
