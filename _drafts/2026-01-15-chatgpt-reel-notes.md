@@ -1301,3 +1301,20 @@ I’ll **count down**.
 * **tesó** – bro
 * **visszaszámol** – count down
 
+-----
+
+[Pajzán Toldi](https://www.instagram.com/reels/DSK0qTNDHoR/)
+
+[00:00.000 --> 00:02.000]  Szerintem most fog be a füled.
+[00:02.000 --> 00:05.000]  Ég a nap meleg től a kopálsíkszárja.
+[00:05.000 --> 00:08.000]  Redves f**k szállt toldi bíz?
+[00:08.000 --> 00:09.000]  Igen, vakarja.
+[00:09.000 --> 00:13.000]  Mérgés bögölj legyek csípik, ahol érik.
+[00:13.000 --> 00:16.000]  Rücskös seggepartján vecsernyéznek délik.
+[00:16.000 --> 00:19.000]  És itt tovább, ismerős valahonnan.
+[00:19.000 --> 00:25.000]  Hát persze, aranyjános toldi címükölteményinek trágár disznóváltozatáról van szó.
+[00:25.000 --> 00:27.000]  És hogy ennek ki a szerzője.
+[00:27.000 --> 00:32.000]  Sokan úgy gondolják, hogy a maladszörseíról ismert Lővi Árpád, de ez tévedés.
+[00:32.000 --> 00:35.000]  Az biztos, hogy Valódi híres költő volt.
+[00:35.000 --> 00:39.000]  Valódi györgy azt állította Józse Fatilla, de szerintem kamuzott.
+[00:39.000 --> 00:41.000]  Én pont ő rágyanak szom.
