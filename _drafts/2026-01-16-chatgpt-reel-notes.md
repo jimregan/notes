@@ -330,14 +330,14 @@ We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
 
 [Reel](https://www.instagram.com/reels/DTi4EGHiF4f/)
 
-Kurt Cobain Budapesten vagy is jöjjön az elfeledett Nirvana koncertörténete.
-1989 novemberében még senki nem gondolta, hogy a rock történelem egyik legfontosabb zenekkare játszik a petőfi csarnokban.
-Ezt az is mutatja, hogy a két szívetlői banda a tedd és a Nirvana koncertjére kábé száz ember volt kíváncsi.
-A Magyar előzene kar a The Love volt, amiben akkor gagszazoli dobolt, de ő állapotára hivatkozva, semmire nem emlékszik az estéből.
-Egy behangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje egy rosszulhangosító technikai hibákkal teli, kifejezett ennyi enge producció volt.
-Kurt Cobain folyamatosan a hangosítókkal veszekedett, mert a házilag buherált gitária állandóan zúgott.
-Ez a felvétel a Budapesti koncert előtt egy napan lincben készült, valahogy így nézhetett ki a Nirvana a Pecha színpadán is.
-A buli előtt Kurt Cobain még a zserbó cukrázdába is elmentés egy nyugati téri kifözdében vacsorásztak.
-A koncert majdnem teljesen feledésben merült, és sokáig csak a cukrázdáskép és a plakát maradt fend, de néhány éve váratlanul előkerültek ezek a koncertfotók is.
-Két évvel később különcsen egyben megjelent a Nevermind album és a banda egy csapásra a világ egyik legismertebb rógzenek arra lett.
-A soló történetekért kövessetek már be!
+Kurt Cobain Budapesten vagyis jöjjön az elfeledett Nirvana koncer története.
+1989 novemberében még senki nem gondolta, hogy a rock történelem egyik legfontosabb zenekare játszik a petőfi csarnokban.
+Ezt az is mutatja, hogy a két Seattle-i banda a Tad és a Nirvana koncertjére KB. száz ember volt kíváncsi.
+A Magyar előzenekar a The Love Volt, amiben akkor Ganxsta Zolee dobolt, de ő állapotára hivatkozva, semmire nem emlékszik az estéből.
+Egybehangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje egy rosszul hangosítótt technikai hibákkal teli, kifejezetten gyenge producció volt.
+Kurt Cobain folyamatosan a hangosítókkal veszekedett, mert a házilag buherált gitárja állandóan zúgott.
+Ez a felvétel a Budapesti koncert előtt egy nappal linzben készült, valahogy így nézhetett ki a Nirvana a Pecsa színpadán is.
+A buli előtt Kurt Cobain még a gerbeaud Cukrászdába is elment és egy nyugati téri kifözdében vacsorásztak.
+A koncert majdnem teljesen feledésbe merült, és sokáig csak a cukrászdás kép és a plakát maradt fent, de néhány éve váratlanul előkerültek ezek a koncertfotók is.
+Két évvel később '91-ben megjelent a Nevermind album és a banda egy csapásra a világ egyik legismertebb rock zenekara lett.
+Hasonló történetekért kövessetek már be!
