@@ -221,7 +221,7 @@ Később kiderül az igazság,
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
+[Reel](https://www.instagram.com/reels/DTLUDdhAsqj/)
 
 ### Line-by-line translation
 
@@ -318,7 +318,7 @@ No way!
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTLidn_kc58/)
+[Reel](https://www.instagram.com/reels/DTLidn_kc58/)
 
 ### Line-by-line translation
 
@@ -396,7 +396,7 @@ I hope at least you didn’t smoke.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTI9MaMCHUN/)
+[Reel](https://www.instagram.com/reels/DTI9MaMCHUN/)
 
 ### Line-by-line translation
 
