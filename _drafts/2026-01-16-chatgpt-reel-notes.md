@@ -330,14 +330,14 @@ We’ll show you all this **on Saturday on YouTube**, on *Polgárnet*.
 
 [Reel](https://www.instagram.com/reels/DTi4EGHiF4f/)
 
-[00:00.000 --> 00:04.580]  Kurt Cobain Budapesten vagy is jöjjön az elfeledett Nirvana koncertörténete.
-[00:04.580 --> 00:11.580]  1989 novemberében még senki nem gondolta, hogy a rock történelem egyik legfontosabb zenekkare játszik a petőfi csarnokban.
-[00:11.580 --> 00:17.860]  Ezt az is mutatja, hogy a két szívetlői banda a tedd és a Nirvana koncertjére kábé száz ember volt kíváncsi.
-[00:17.860 --> 00:25.340]  A Magyar előzene kar a The Love volt, amiben akkor gagszazoli dobolt, de ő állapotára hivatkozva, semmire nem emlékszik az estéből.
-[00:25.340 --> 00:33.800]  Egy behangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje egy rosszulhangosító technikai hibákkal teli, kifejezett ennyi enge producció volt.
-[00:33.800 --> 00:39.560]  Kurt Cobain folyamatosan a hangosítókkal veszekedett, mert a házilag buherált gitária állandóan zúgott.
-[00:44.360 --> 00:51.520]  Ez a felvétel a Budapesti koncert előtt egy napan lincben készült, valahogy így nézhetett ki a Nirvana a Pecha színpadán is.
-[00:51.520 --> 00:57.500]  A buli előtt Kurt Cobain még a zserbó cukrázdába is elmentés egy nyugati téri kifözdében vacsorásztak.
-[00:57.500 --> 01:06.660]  A koncert majdnem teljesen feledésben merült, és sokáig csak a cukrázdáskép és a plakát maradt fend, de néhány éve váratlanul előkerültek ezek a koncertfotók is.
-[01:06.660 --> 01:13.500]  Két évvel később különcsen egyben megjelent a Nevermind album és a banda egy csapásra a világ egyik legismertebb rógzenek arra lett.
-[01:13.500 --> 01:16.500]  A soló történetekért kövessetek már be!
+Kurt Cobain Budapesten vagy is jöjjön az elfeledett Nirvana koncertörténete.
+1989 novemberében még senki nem gondolta, hogy a rock történelem egyik legfontosabb zenekkare játszik a petőfi csarnokban.
+Ezt az is mutatja, hogy a két szívetlői banda a tedd és a Nirvana koncertjére kábé száz ember volt kíváncsi.
+A Magyar előzene kar a The Love volt, amiben akkor gagszazoli dobolt, de ő állapotára hivatkozva, semmire nem emlékszik az estéből.
+Egy behangzó vélemények szerint a Nirvana egyetlen magyarországi koncertje egy rosszulhangosító technikai hibákkal teli, kifejezett ennyi enge producció volt.
+Kurt Cobain folyamatosan a hangosítókkal veszekedett, mert a házilag buherált gitária állandóan zúgott.
+Ez a felvétel a Budapesti koncert előtt egy napan lincben készült, valahogy így nézhetett ki a Nirvana a Pecha színpadán is.
+A buli előtt Kurt Cobain még a zserbó cukrázdába is elmentés egy nyugati téri kifözdében vacsorásztak.
+A koncert majdnem teljesen feledésben merült, és sokáig csak a cukrázdáskép és a plakát maradt fend, de néhány éve váratlanul előkerültek ezek a koncertfotók is.
+Két évvel később különcsen egyben megjelent a Nevermind album és a banda egy csapásra a világ egyik legismertebb rógzenek arra lett.
+A soló történetekért kövessetek már be!
