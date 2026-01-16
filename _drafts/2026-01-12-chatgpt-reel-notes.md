@@ -309,3 +309,54 @@ I hope at least you didn’t smoke.
 
 [Reel](https://www.instagram.com/reel/DTI9MaMCHUN/)
 
+### Line-by-line translation
+
+**Nálunk a mi csapatunkban Ádámmal, én vagyok a szerelős ember, mert én értek a szereléshez.**
+In our little team with Ádám, I’m the *fix-it person*, because I’m the one who understands repairs.
+
+**Múltkor csapot szereltem.**
+The other day I was *installing a tap*.
+
+**Képzeljétek el, én csapot szereltem,**
+Just imagine it — *I* was installing a tap,
+
+**és ahogy elkezdtem szerelni a csapot, rájöttem, hogy én egy 31 éves nő testébe zárt 52 éves apuka vagyok,**
+and as I started working on it, I realised that I’m a *52-year-old dad trapped in the body of a 31-year-old woman*,
+
+**mert végig káromkodtam az egészet.**
+because I was *swearing the entire time*.
+
+**Azt basztam le a legjobban, aki a legtöbbet segített.**
+I *snapped at* the person who helped the most *the hardest*.
+
+**Ilyeneket mondtam, hogy hova tettétek a csavarhúzót,**
+I was saying things like “Where did you put the screwdriver,”
+
+**mikor pontosan tudtam, hogy én jártam utoljára a csavarhúzóval.**
+even though I knew perfectly well that *I* was the last one who had it.
+
+**Ennyire voltam tőle, hogy szisszencsek egy sört és titokban pornót nézzek.**
+I was *this close* to cracking open a beer and secretly watching porn.
+
+**Szóval így.**
+So… yeah. *That’s how it went.*
+
+### Vocabulary
+
+* **csapat** – team
+* **szerelős ember** – “the fixing person”, handyman type
+* **szerel** – repair, install
+* **csap** – tap, faucet
+* **képzeljétek el** – imagine this
+* **testébe zárt** – trapped in the body of
+* **apuka** – dad (diminutive, colloquial)
+* **káromkodik** – swear, curse
+* **leb*sz vk*t** (*basztam le*) – snap at, tear into someone (vulgar)
+* **csavarhúzó** – screwdriver
+* **jár vkinél** – be in someone’s possession
+* **ennyire voltam tőle** – I was *this close*
+* **szisszent egy sört** – crack open a beer
+* **titokban** – secretly
+* **szóval így** – so yeah / that’s it
+
+This one is very much **self-deprecating observational humour**, built around the stereotype of the grumpy, swearing middle-aged dad — mapped onto herself for comic effect.
