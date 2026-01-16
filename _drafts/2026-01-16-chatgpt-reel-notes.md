@@ -487,7 +487,7 @@ if you *start saving now* for your *older, future self*.
 
 [Reel](https://www.instagram.com/reels/DSdHpmFiFrX/)
 
-Egyik randén mondta, hogy felfoglenni kocsival alapja, és mondja, hogy megjönhetnék, keresem a kocsiát,
+Egyik randin mondta, hogy fel fog menni kocsival alap. Ja ja. és mondja, hogy megjött nhetnék, keresem a kocsiát,
 hond a cívik, ebből csinál, de én ebből nem fogok belejvenni, fú, se a fél szállandbárba, se a kocsi be.
 Inkább a különces búzik.
 És akkor érted még a másikot fúzik, és még agya alá alóvat.
@@ -506,3 +506,20 @@ Akkor ez bejépül a kis fiatal a tudatába, és majd a barátnőinek és minden
 mert azt láttam, hogy az a menő lány ő semmőlebe.
 Csak tanuljuk már meg azt, hogy a kimondott szavaknak súja van, és ne beszéljünk fosságokat az interneten, köszönöm.
 Ugyanis a mai férfiakat tekintve ezer szer rosszabb dolgok vannak bennük annál, hogy éppen milyen autóban ülnek.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DSGF-nBiKFJ/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DR5L8OMCJ3l/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTdG9_QDada/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DRU46etjGzj/)
+
