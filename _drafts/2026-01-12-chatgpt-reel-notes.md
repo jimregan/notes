@@ -223,9 +223,82 @@ Később kiderül az igazság,
 
 [Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
 
+### Line-by-line translation
 
-Sziasztok! Orsi vagyok! Ádám vagyok! Ez pedig az így hógolyóz a
-barátnőddel etikusan. Mivel eltérőek az erőviszonyok, ezért például a barátnőd dobhat szemből, oldáról, hátúról, és bizony le is teperhet! A barátod pedig 233 méter távolságból dobhat, 2 cm átmérőjű hógolyót. kesztyű nélkül egyszer. Sok szerencsét! Ha a játék szünetében nyakadba nyomja a hógolyót: Az ér. Ha földbe döngölve feladtad és jelezted, hogy te már szeretnéd befejezni a játékot, de ő még mindig dobál: Az ér! Ha már tíz perce csak bandukoltok haza, vége a játéknak, de egy centiről közelről fültövön dob: Az is ér! Jó hógolyózást mindenkinek! Az lehet, hogy most kivételesen kezdem én az zubanyt Dehogyis!
+**Sziasztok! Orsi vagyok!**
+Hi everyone! I’m Orsi!
+
+**Ádám vagyok!**
+I’m Ádám!
+
+**Ez pedig az „így hógolyózol a barátnőddel etikusan”.**
+And this is *“how to have a snowball fight with your girlfriend ethically.”*
+
+**Mivel eltérőek az erőviszonyok,**
+Since the *balance of power* is different,
+
+**ezért például a barátnőd dobhat szemből, oldalról, hátulról,**
+your girlfriend may, for example, throw *from the front, from the side, from behind*,
+
+**és bizony le is teperhet!**
+and indeed, she may even *tackle you*!
+
+**A barátod pedig 233 méter távolságból dobhat,**
+Your boyfriend, on the other hand, may throw *from a distance of 233 metres*,
+
+**2 cm átmérőjű hógolyót,**
+a snowball *with a diameter of 2 cm*,
+
+**kesztyű nélkül, egyszer.**
+without gloves, *once*.
+
+**Sok szerencsét!**
+Good luck!
+
+**Ha a játék szünetében nyakadba nyomja a hógolyót: az ér.**
+If during a break in the game she *presses a snowball into your neck*: *that counts*.
+
+**Ha földbe döngölve feladtad és jelezted, hogy te már szeretnéd befejezni a játékot,**
+If, after being *slammed into the ground*, you give up and signal that you want to stop the game,
+
+**de ő még mindig dobál: az ér!**
+but she keeps throwing: *that counts!*
+
+**Ha már tíz perce csak bandukoltok haza, vége a játéknak,**
+If you’ve been *trudging home* for ten minutes already, the game is over,
+
+**de egy centiről, közelről fültövön dob: az is ér!**
+but she throws from *one centimetre away*, right by your ear: *that counts too!*
+
+**Jó hógolyózást mindenkinek!**
+Happy snowball fighting to everyone!
+
+**Az lehet, hogy most kivételesen kezdem én az zubanyt—**
+It *might* be that this time *I* start the snowball fight—
+
+**Dehogyis!**
+No way!
+
+### Vocabulary
+
+* **hógolyózik** – have a snowball fight
+* **etikusan** – ethically
+* **erőviszonyok** – balance of power / power relations
+* **szemből / oldalról / hátulról** – from the front / side / behind
+* **leterper** (*le is teperhet*) – tackle, pin down
+* **átmérő** – diameter
+* **kesztyű nélkül** – without gloves
+* **az ér** – that counts (game rule phrase)
+* **földbe döngöl** – slam into the ground
+* **felad** – give up
+* **jelez** – signal
+* **dobál** – keep throwing (repeated action)
+* **bandukol** – trudge, walk slowly
+* **fültő** – area behind/under the ear
+* **zubany** (slang) – snowball fight / snowball barrage
+
+This one is built entirely on **mock-formal rule-making**, using exaggerated “fairness” logic to underline how unfair the situation obviously is — which is exactly where the humour lands.
+
 
 -----
 
