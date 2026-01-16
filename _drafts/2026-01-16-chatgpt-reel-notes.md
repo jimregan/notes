@@ -50,3 +50,10 @@ A **spiritual / emotional wound**.
 
 -----
 
+[Reel](https://www.instagram.com/reels/DRpi2D-jMwQ/)
+
+[00:00.000 --> 00:02.000]  Ői nem is szerenc! Négy betű!
+[00:02.000 --> 00:03.500]  Viszintes és fűgőleges!
+[00:03.500 --> 00:04.500]  Viszintes!
+[00:05.500 --> 00:06.500]  Száj!
+[00:06.500 --> 00:07.500]  Jó, ír!
