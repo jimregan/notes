@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>CLDR to OpenFST | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="CLDR to OpenFST" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT generated code; only basic part works" />
+<meta property="og:description" content="ChatGPT generated code; only basic part works" />
+<link rel="canonical" href="https://jimregan.github.io/notes/cldr/openfst/chatgpt/2025/09/06/cldr-openfst-generated.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/cldr/openfst/chatgpt/2025/09/06/cldr-openfst-generated.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-09-06T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/cldr/openfst/chatgpt/2025/09/06/cldr-openfst-generated.html","@type":"BlogPosting","headline":"CLDR to OpenFST","dateModified":"2025-09-06T00:00:00-05:00","datePublished":"2025-09-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/cldr/openfst/chatgpt/2025/09/06/cldr-openfst-generated.html"},"description":"ChatGPT generated code; only basic part works","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">CLDR to OpenFST</h1><p class="page-description">ChatGPT generated code; only basic part works</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-09-06T00:00:00-05:00" itemprop="datePublished">
+        Sep 6, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      14 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#cldr">cldr</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#openfst">openfst</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2025-09-06-cldr-openfst-generated.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2025-09-06-cldr-openfst-generated.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2025-09-06-cldr-openfst-generated.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2025-09-06-cldr-openfst-generated.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">pynini</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Requirement already satisfied: pynini in /usr/local/lib/python3.12/dist-packages (2.1.7)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="kn">import</span> <span class="nn">pynini</span>
+<span class="kn">from</span> <span class="nn">pynini</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">pynini.lib</span> <span class="kn">import</span> <span class="n">pynutil</span>
+<span class="kn">from</span> <span class="nn">pynini.lib</span> <span class="kn">import</span> <span class="n">utf8</span>
+
+
+<span class="n">_U_HEX</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">u([0-9A-Fa-f]</span><span class="si">{4}</span><span class="s2">)&quot;</span><span class="p">)</span>
+<span class="n">_U_HEX_LONG</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">U([0-9A-Fa-f]{6,8})&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">_decode_escapes</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Decodes CLDR-style escapes like \\u0259 and \\U0001F600.&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">rpl4</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">))</span>
+    <span class="k">def</span> <span class="nf">rpl8</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">))</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">_U_HEX</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">rpl4</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">_U_HEX_LONG</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">rpl8</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="k">def</span> <span class="nf">_expand_char_class</span><span class="p">(</span><span class="bp">cls</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Expand a simple bracket class like [abc] or [a-z].</span>
+<span class="sd">    This is intentionally minimal; it does not handle nested classes, properties, or set ops.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="ow">and</span> <span class="bp">cls</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;-&quot;</span><span class="p">:</span>
+            <span class="n">start</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="bp">cls</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="bp">cls</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">2</span><span class="p">])</span>
+            <span class="k">for</span> <span class="n">cp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="n">cp</span><span class="p">))</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">3</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">cls</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="k">def</span> <span class="nf">_tokenize_pattern</span><span class="p">(</span><span class="n">pat</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Tokenize a very small subset of CLDR pattern syntax:</span>
+<span class="sd">    - Literal characters</span>
+<span class="sd">    - Character classes [..]</span>
+<span class="sd">    Returns a list of alternatives (strings) if the pattern is a single char-class;</span>
+<span class="sd">    otherwise returns [pat] (treated as a literal string).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pat</span> <span class="o">=</span> <span class="n">pat</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">pat</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">pat</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;[&quot;</span> <span class="ow">and</span> <span class="n">pat</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;]&quot;</span><span class="p">:</span>
+        <span class="n">inner</span> <span class="o">=</span> <span class="n">_decode_escapes</span><span class="p">(</span><span class="n">pat</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">alts</span> <span class="o">=</span> <span class="n">_expand_char_class</span><span class="p">(</span><span class="n">inner</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">alts</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">_decode_escapes</span><span class="p">(</span><span class="n">pat</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">_string_map</span><span class="p">(</span><span class="n">pairs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build a union of literal string transductions, determinize &amp; minimize.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">string_map</span><span class="p">(</span><span class="n">pairs</span><span class="p">)</span>
+    <span class="n">t</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">t</span>
+
+
+<span class="n">_RULE_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    ^\s*</span>
+<span class="s2">    (?P&lt;lhs&gt;.+?)</span>
+<span class="s2">    \s*</span>
+<span class="s2">    (?P&lt;op&gt;&lt;&gt;|&gt;|&lt;)</span>
+<span class="s2">    \s*</span>
+<span class="s2">    (?P&lt;rhs&gt;.+?)</span>
+<span class="s2">    ;</span>
+<span class="s2">    \s*$</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">VERBOSE</span><span class="p">)</span>
+
+<span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">Rule</span><span class="p">:</span>
+    <span class="n">lhs</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">rhs</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">op</span><span class="p">:</span> <span class="nb">str</span>
+
+<span class="k">def</span> <span class="nf">parse_cldr_rules_simple</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Rule</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Parse a subset of CLDR rule lines:</span>
+<span class="sd">      LHS &gt; RHS ;</span>
+<span class="sd">      LHS &lt; RHS ;</span>
+<span class="sd">      LHS &lt;&gt; RHS ;</span>
+<span class="sd">    Strips comments (# ...) and blank lines.</span>
+<span class="sd">    Ignores directives (:: ... ;)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">rules</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Rule</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">raw</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">raw</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span> <span class="ow">or</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;::&quot;</span><span class="p">):</span>
+            <span class="c1"># ignore directives in this simple converter</span>
+            <span class="k">continue</span>
+        <span class="n">m</span> <span class="o">=</span> <span class="n">_RULE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">m</span><span class="p">:</span>
+            <span class="c1"># Not supported yet; skip quietly so you can still test quickly.</span>
+            <span class="k">continue</span>
+        <span class="n">lhs</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;lhs&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">rhs</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;rhs&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">op</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;op&quot;</span><span class="p">)</span>
+        <span class="n">rules</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Rule</span><span class="p">(</span><span class="n">lhs</span><span class="o">=</span><span class="n">lhs</span><span class="p">,</span> <span class="n">rhs</span><span class="o">=</span><span class="n">rhs</span><span class="p">,</span> <span class="n">op</span><span class="o">=</span><span class="n">op</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">rules</span>
+
+
+<span class="k">def</span> <span class="nf">build_transducer_from_rules</span><span class="p">(</span><span class="n">rules</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Rule</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build a transducer from simple (context-free) CLDR rules.</span>
+<span class="sd">    Uses cdrewrite with utf8.VALID_UTF8.closure() so non-matching chars pass through.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pairs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">rules</span><span class="p">:</span>
+        <span class="n">lhs_alts</span> <span class="o">=</span> <span class="n">_tokenize_pattern</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">lhs</span><span class="p">)</span>
+        <span class="n">rhs_alts</span> <span class="o">=</span> <span class="n">_tokenize_pattern</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">add_pairs</span><span class="p">(</span><span class="n">A</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">B</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">B</span><span class="p">):</span>
+                <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">):</span>
+                    <span class="n">pairs</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">_decode_escapes</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">_decode_escapes</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">A</span><span class="p">:</span>
+                    <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">B</span><span class="p">:</span>
+                        <span class="n">pairs</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">_decode_escapes</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">_decode_escapes</span><span class="p">(</span><span class="n">y</span><span class="p">)))</span>
+
+        <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">add_pairs</span><span class="p">(</span><span class="n">lhs_alts</span><span class="p">,</span> <span class="n">rhs_alts</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&lt;&quot;</span><span class="p">:</span>
+            <span class="n">add_pairs</span><span class="p">(</span><span class="n">rhs_alts</span><span class="p">,</span> <span class="n">lhs_alts</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&lt;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">add_pairs</span><span class="p">(</span><span class="n">lhs_alts</span><span class="p">,</span> <span class="n">rhs_alts</span><span class="p">)</span>
+            <span class="n">add_pairs</span><span class="p">(</span><span class="n">rhs_alts</span><span class="p">,</span> <span class="n">lhs_alts</span><span class="p">)</span>
+
+    <span class="n">sigma_star</span> <span class="o">=</span> <span class="n">utf8</span><span class="o">.</span><span class="n">VALID_UTF8_CHAR</span><span class="o">.</span><span class="n">closure</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">pairs</span><span class="p">:</span>
+        <span class="c1"># Identity FST if no rules</span>
+        <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cdrewrite</span><span class="p">(</span><span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">),</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">sigma_star</span><span class="p">)</span>
+
+    <span class="c1"># Sequentially compose cdrewrite rules</span>
+    <span class="n">t</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">src</span><span class="p">,</span> <span class="n">tgt</span> <span class="ow">in</span> <span class="n">pairs</span><span class="p">:</span>
+        <span class="n">rule</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cdrewrite</span><span class="p">(</span>
+            <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">tgt</span><span class="p">),</span>
+            <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">sigma_star</span>
+        <span class="p">)</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="n">rule</span> <span class="k">if</span> <span class="n">t</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">(</span><span class="n">t</span> <span class="o">@</span> <span class="n">rule</span><span class="p">)</span>
+
+    <span class="n">t</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">t</span>
+
+
+<span class="k">def</span> <span class="nf">prefix_language_token</span><span class="p">(</span><span class="n">lang_token</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create an acceptor for a language prefix token like &#39;&lt;eng&gt;&#39;.</span>
+<span class="sd">    We allow it as literal at the beginning and then delete it from output:</span>
+<span class="sd">      &#39;&lt;eng&gt;&#39; x ...  -&gt; ... (so the prefix doesn&#39;t appear in the output)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Literal token</span>
+    <span class="n">token_acceptor</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">accep</span><span class="p">(</span><span class="n">lang_token</span><span class="p">)</span>
+    <span class="c1"># We want to delete it from output: cross(lang_token, &quot;&quot;).</span>
+    <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">lang_token</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">build_multilingual_transducer</span><span class="p">(</span>
+    <span class="n">lang_to_rules_text</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
+    <span class="n">token_fmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&lt;</span><span class="si">{lang}</span><span class="s2">&gt;&quot;</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    For each language:</span>
+<span class="sd">      - parse rules</span>
+<span class="sd">      - build transducer</span>
+<span class="sd">      - prepend a required language token (deleted on output)</span>
+<span class="sd">    Then union all.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">unified</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">lang</span><span class="p">,</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">lang_to_rules_text</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">rules</span> <span class="o">=</span> <span class="n">parse_cldr_rules_simple</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="n">build_transducer_from_rules</span><span class="p">(</span><span class="n">rules</span><span class="p">)</span>
+        <span class="n">pref</span> <span class="o">=</span> <span class="n">prefix_language_token</span><span class="p">(</span><span class="n">token_fmt</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">lang</span><span class="o">=</span><span class="n">lang</span><span class="p">))</span>
+        <span class="n">lang_t</span> <span class="o">=</span> <span class="n">pref</span> <span class="o">+</span> <span class="n">t</span>  <span class="c1"># concatenation; prefix must come first</span>
+        <span class="n">lang_t</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="n">unified</span> <span class="o">=</span> <span class="n">lang_t</span> <span class="k">if</span> <span class="n">unified</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">(</span><span class="n">unified</span> <span class="o">|</span> <span class="n">lang_t</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">unified</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="c1"># No rules: accept anything and echo it (after removing an imaginary token)</span>
+        <span class="n">unified</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">transducer</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">unified</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+    <span class="c1"># Determinize/minimize for speed</span>
+    <span class="n">unified</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">determinize</span><span class="p">(</span><span class="n">unified</span><span class="p">)</span><span class="o">.</span><span class="n">minimize</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">unified</span>
+
+
+<span class="k">def</span> <span class="nf">save_fst</span><span class="p">(</span><span class="n">fst</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="n">fst</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">demo</span><span class="p">():</span>
+    <span class="n">cldr_en</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        # English-ish toy rules</span>
+<span class="s2">        th &gt; θ ;</span>
+<span class="s2">        sh &gt; ʃ ;</span>
+<span class="s2">        ch &gt; t͡ʃ ;</span>
+<span class="s2">        ng &gt; ŋ ;</span>
+<span class="s2">        [aeiou] &gt; a ;   # silly vowel collapse to &#39;a&#39;</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+
+    <span class="n">cldr_es</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        # Spanish-ish toy rules</span>
+<span class="s2">        ll &gt; ʎ ;</span>
+<span class="s2">        ñ &gt; ɲ ;</span>
+<span class="s2">        qu &gt; k ;</span>
+<span class="s2">        c &gt; k ;</span>
+<span class="s2">        z &gt; s ;</span>
+<span class="s2">        [aeiou] &gt; a ;</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+
+    <span class="n">lang_rules</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;eng&quot;</span><span class="p">:</span> <span class="n">cldr_en</span><span class="p">,</span>
+        <span class="s2">&quot;spa&quot;</span><span class="p">:</span> <span class="n">cldr_es</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="n">fst</span> <span class="o">=</span> <span class="n">build_multilingual_transducer</span><span class="p">(</span><span class="n">lang_rules</span><span class="p">,</span> <span class="n">token_fmt</span><span class="o">=</span><span class="s2">&quot;&lt;</span><span class="si">{lang}</span><span class="s2">&gt;&quot;</span><span class="p">)</span>
+    <span class="n">save_fst</span><span class="p">(</span><span class="n">fst</span><span class="p">,</span> <span class="s2">&quot;multilang.fst&quot;</span><span class="p">)</span>
+
+    <span class="n">test_inputs</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s2">&quot;&lt;eng&gt;thing&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;&lt;eng&gt;mashing&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;&lt;spa&gt;llama&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;&lt;spa&gt;quiza&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="n">input_str</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">lattice</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">compose</span><span class="p">(</span><span class="n">input_str</span><span class="p">,</span> <span class="n">fst</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lattice</span><span class="o">.</span><span class="n">start</span><span class="p">()</span> <span class="o">==</span> <span class="n">pynini</span><span class="o">.</span><span class="n">NO_STATE_ID</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;&lt;no-path&gt;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">shortestpath</span><span class="p">(</span><span class="n">lattice</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">string</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;&lt;no-output&gt;&quot;</span>
+
+    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">test_inputs</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="s2">&quot;-&gt;&quot;</span><span class="p">,</span> <span class="n">apply</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wrote combined FST to multilang.fst&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">demo</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;eng&gt;thing -&gt; θiŋ
+&lt;eng&gt;mashing -&gt; maʃiŋ
+&lt;spa&gt;llama -&gt; ʎama
+&lt;spa&gt;quiza -&gt; kasa
+Wrote combined FST to multilang.fst
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Optional</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">io</span>
+
+<span class="kn">import</span> <span class="nn">pynini</span>
+<span class="kn">from</span> <span class="nn">pynini</span> <span class="kn">import</span> <span class="n">Fst</span>
+<span class="kn">from</span> <span class="nn">pynini.lib</span> <span class="kn">import</span> <span class="n">utf8</span>
+
+<span class="n">_U_HEX</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">u([0-9A-Fa-f]</span><span class="si">{4}</span><span class="s2">)&quot;</span><span class="p">)</span>
+<span class="n">_U_HEX_LONG</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">U([0-9A-Fa-f]{6,8})&quot;</span><span class="p">)</span>
+<span class="n">_ESCAPED</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">([][</span><span class="se">\\</span><span class="s2">/\-^()</span><span class="si">{}</span><span class="s2">_.*+?|])&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">_decode_escapes</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Decodes CLDR-style escapes.&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">rpl4</span><span class="p">(</span><span class="n">m</span><span class="p">):</span> <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">))</span>
+    <span class="k">def</span> <span class="nf">rpl8</span><span class="p">(</span><span class="n">m</span><span class="p">):</span> <span class="k">return</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">))</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">_U_HEX</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">rpl4</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">_U_HEX_LONG</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="n">rpl8</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">_ESCAPED</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="k">lambda</span> <span class="n">m</span><span class="p">:</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">s</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">s</span>
+
+<span class="k">def</span> <span class="nf">_char_range</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">chr</span><span class="p">(</span><span class="n">cp</span><span class="p">)</span> <span class="k">for</span> <span class="n">cp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="nb">ord</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">_parse_unicode_set</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">bool</span><span class="p">,</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;Simple parser for CLDR-style character sets like [a-z] or [^abc].&quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="n">text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;[&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">text</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;]&quot;</span><span class="p">),</span> <span class="s2">&quot;not a set&quot;</span>
+    <span class="n">inner</span> <span class="o">=</span> <span class="n">text</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">neg</span> <span class="o">=</span> <span class="n">inner</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;^&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">neg</span><span class="p">:</span> <span class="n">inner</span> <span class="o">=</span> <span class="n">inner</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
+    <span class="n">items</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">def</span> <span class="nf">read_char</span><span class="p">(</span><span class="n">ix</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="n">ix</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">inner</span><span class="p">)</span> <span class="ow">and</span> <span class="n">inner</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">:</span>
+            <span class="n">m4</span> <span class="o">=</span> <span class="n">_U_HEX</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">inner</span><span class="p">,</span> <span class="n">ix</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">m4</span><span class="p">:</span> <span class="k">return</span> <span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m4</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">)),</span> <span class="n">m4</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+            <span class="n">m8</span> <span class="o">=</span> <span class="n">_U_HEX_LONG</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">inner</span><span class="p">,</span> <span class="n">ix</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">m8</span><span class="p">:</span> <span class="k">return</span> <span class="p">(</span><span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">m8</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">16</span><span class="p">)),</span> <span class="n">m8</span><span class="o">.</span><span class="n">end</span><span class="p">())</span>
+            <span class="k">if</span> <span class="n">ix</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">inner</span><span class="p">):</span> <span class="k">return</span> <span class="p">(</span><span class="n">inner</span><span class="p">[</span><span class="n">ix</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">ix</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+            <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;</span><span class="se">\\</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">ix</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">inner</span><span class="p">[</span><span class="n">ix</span><span class="p">],</span> <span class="n">ix</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">inner</span><span class="p">):</span>
+        <span class="n">c1</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">read_char</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">inner</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">inner</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;-&quot;</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">inner</span><span class="p">):</span>
+            <span class="n">c2</span><span class="p">,</span> <span class="n">k</span> <span class="o">=</span> <span class="n">read_char</span><span class="p">(</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">items</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">_char_range</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span> <span class="n">c2</span><span class="p">))</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">k</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">items</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">c1</span><span class="p">)</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">j</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">neg</span><span class="p">,</span> <span class="n">items</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">_acceptor</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">accep</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">token_type</span><span class="o">=</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span>
+
+
+<span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">Rule</span><span class="p">:</span>
+    <span class="c1"># CLDR syntax: May contain embedded context markers like &#39;}&#39; or &#39;{&#39;</span>
+    <span class="n">raw_lhs</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">rhs</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">op</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="c1"># Pynini syntax: Explicit L and R contexts (parsed from raw_lhs/rhs if markers are found)</span>
+    <span class="n">lhs</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>   <span class="c1"># X (The target string being rewritten)</span>
+    <span class="n">left</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>  <span class="c1"># L (The preceding context)</span>
+    <span class="n">right</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="c1"># R (The following context)</span>
+
+
+<span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">Directive</span><span class="p">:</span>
+    <span class="n">kind</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">payload</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+<span class="nd">@dataclass</span>
+<span class="k">class</span> <span class="nc">VarAssign</span><span class="p">:</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">expr</span><span class="p">:</span> <span class="nb">str</span>
+
+<span class="n">Line</span> <span class="o">=</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">object</span><span class="p">]</span>
+
+<span class="c1"># CLDR rule format: [CONTEXT] TARGET [CONTEXT] OP RESULT ;</span>
+<span class="c1"># E.g.: [ei] } c &gt; s; (Rewrite c to s if preceded by [ei])</span>
+<span class="n">_CLDR_RULE_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    ^\s*</span>
+<span class="s2">    (?P&lt;raw_lhs&gt;.+?) # Everything before the operator</span>
+<span class="s2">    \s*</span>
+<span class="s2">    (?P&lt;op&gt;&lt;&gt;|&gt;|&lt;)</span>
+<span class="s2">    \s*</span>
+<span class="s2">    (?P&lt;rhs&gt;.+?) # Everything after the operator until the semicolon</span>
+<span class="s2">    \s*;</span>
+<span class="s2">    \s*$</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">VERBOSE</span><span class="p">)</span>
+
+<span class="n">_VAR_RE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">    ^\s*</span>
+<span class="s2">    (?P&lt;name&gt;\$[A-Za-z0-9_]+)</span>
+<span class="s2">    \s*=\s*</span>
+<span class="s2">    (?P&lt;expr&gt;.+?)</span>
+<span class="s2">    \s*;?\s*$</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">VERBOSE</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">_extract_cldr_context_parts</span><span class="p">(</span><span class="n">raw_lhs</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Transforms a raw CLDR LHS string (which may contain &#39;}&#39; or &#39;{&#39; markers)</span>
+<span class="sd">    into the three Pynini rewrite components: L (Left Context), X (LHS Target), R (Right Context).</span>
+
+<span class="sd">    CLDR conventions:</span>
+<span class="sd">    1. L } X: Lookbehind: L is context, X is target. R is empty.</span>
+<span class="sd">    2. X { R: Lookahead: R is context, X is target. L is empty.</span>
+<span class="sd">    3. L / X _ R: Full Context (ignored for this version, assumes L}X or X{R).</span>
+
+<span class="sd">    Returns: (L_ctx_str, X_target_str, R_ctx_str)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">raw_lhs</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="ow">or</span> <span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="ow">or</span> <span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ambiguous context markers in CLDR rule LHS: </span><span class="si">{</span><span class="n">raw_lhs</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;}&#39;</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="c1"># Case 1: L } X (Lookbehind)</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">L_ctx</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">X_target</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">L_ctx</span><span class="p">,</span> <span class="n">X_target</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;{&#39;</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="c1"># Case 2: X { R (Lookahead)</span>
+        <span class="n">parts</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">X_target</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">R_ctx</span> <span class="o">=</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">X_target</span><span class="p">,</span> <span class="n">R_ctx</span><span class="p">)</span>
+
+    <span class="c1"># Case 3: Simple X &gt; Y rule (no context markers)</span>
+    <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_parse_line</span><span class="p">(</span><span class="n">line</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Line</span><span class="p">]:</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">s</span> <span class="ow">or</span> <span class="n">s</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="n">mvar</span> <span class="o">=</span> <span class="n">_VAR_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">mvar</span> <span class="ow">and</span> <span class="n">mvar</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;expr&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">():</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">mvar</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+        <span class="n">expr</span> <span class="o">=</span> <span class="n">mvar</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;expr&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">&#39;;&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;var&quot;</span><span class="p">,</span> <span class="n">VarAssign</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">expr</span><span class="o">=</span><span class="n">expr</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">s</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;::&quot;</span><span class="p">):</span>
+        <span class="n">body</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">body</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;null;&quot;</span><span class="p">:</span> <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;dir&quot;</span><span class="p">,</span> <span class="n">Directive</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;null&quot;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">body</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;nfd;&quot;</span><span class="p">:</span> <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;dir&quot;</span><span class="p">,</span> <span class="n">Directive</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;nfd&quot;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">body</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;nfc;&quot;</span><span class="p">:</span> <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;dir&quot;</span><span class="p">,</span> <span class="n">Directive</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;nfc&quot;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">body</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;[&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">body</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">):</span>
+            <span class="n">payload</span> <span class="o">=</span> <span class="n">body</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;dir&quot;</span><span class="p">,</span> <span class="n">Directive</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;filter&quot;</span><span class="p">,</span> <span class="n">payload</span><span class="o">=</span><span class="n">payload</span><span class="p">))</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;dir&quot;</span><span class="p">,</span> <span class="n">Directive</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;unknown&quot;</span><span class="p">,</span> <span class="n">payload</span><span class="o">=</span><span class="n">body</span><span class="p">))</span>
+
+    <span class="n">m</span> <span class="o">=</span> <span class="n">_CLDR_RULE_RE</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">m</span><span class="p">:</span>
+        <span class="n">raw_lhs</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;raw_lhs&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">rhs_core</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;rhs&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="n">op</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="s2">&quot;op&quot;</span><span class="p">)</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="c1"># New logic: Parse L, X, R from the raw LHS string</span>
+            <span class="n">L_ctx_str</span><span class="p">,</span> <span class="n">X_target_str</span><span class="p">,</span> <span class="n">R_ctx_str</span> <span class="o">=</span> <span class="n">_extract_cldr_context_parts</span><span class="p">(</span><span class="n">raw_lhs</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error parsing CLDR rule &#39;</span><span class="si">{</span><span class="n">s</span><span class="si">}</span><span class="s2">&#39;: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+        <span class="c1"># Populate the Rule object with the Pynini components</span>
+        <span class="k">return</span> <span class="p">(</span><span class="s2">&quot;rule&quot;</span><span class="p">,</span> <span class="n">Rule</span><span class="p">(</span>
+            <span class="n">raw_lhs</span><span class="o">=</span><span class="n">raw_lhs</span><span class="p">,</span>
+            <span class="n">rhs</span><span class="o">=</span><span class="n">rhs_core</span><span class="p">,</span>
+            <span class="n">op</span><span class="o">=</span><span class="n">op</span><span class="p">,</span>
+            <span class="n">lhs</span><span class="o">=</span><span class="n">X_target_str</span><span class="p">,</span>
+            <span class="n">left</span><span class="o">=</span><span class="n">L_ctx_str</span><span class="p">,</span>
+            <span class="n">right</span><span class="o">=</span><span class="n">R_ctx_str</span>
+        <span class="p">))</span>
+    <span class="k">return</span> <span class="kc">None</span>
+
+<span class="k">def</span> <span class="nf">parse_cldr</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Line</span><span class="p">]:</span>
+    <span class="n">out</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Line</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">raw</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="n">_parse_line</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">p</span><span class="p">:</span> <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="k">class</span> <span class="nc">Env</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">vars</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Fst</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">:</span> <span class="n">Fst</span> <span class="o">=</span> <span class="n">utf8</span><span class="o">.</span><span class="n">VALID_UTF8_CHAR</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sigma_star</span><span class="p">:</span> <span class="n">Fst</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="o">.</span><span class="n">closure</span><span class="p">()</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="n">I_char</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">sigma</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">I_sigma_star</span><span class="p">:</span> <span class="n">Fst</span> <span class="o">=</span> <span class="n">I_char</span><span class="o">.</span><span class="n">closure</span><span class="p">()</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">vars</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Undefined variable </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">vars</span><span class="p">[</span><span class="n">name</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">_compile_atom</span><span class="p">(</span><span class="n">expr</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Env</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="n">expr</span> <span class="o">=</span> <span class="n">expr</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">expr</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;$&quot;</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">env</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">expr</span><span class="p">)</span>
+
+    <span class="c1"># CLDR Boundary Support: Treat ^ (start) and $ (end) as empty string acceptors</span>
+    <span class="k">if</span> <span class="n">expr</span> <span class="o">==</span> <span class="s2">&quot;^&quot;</span> <span class="ow">or</span> <span class="n">expr</span> <span class="o">==</span> <span class="s2">&quot;$&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">_acceptor</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">expr</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;[&quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="n">expr</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;]&quot;</span><span class="p">):</span>
+        <span class="n">neg</span><span class="p">,</span> <span class="n">items</span> <span class="o">=</span> <span class="n">_parse_unicode_set</span><span class="p">(</span><span class="n">expr</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">items</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">env</span><span class="o">.</span><span class="n">sigma</span> <span class="k">if</span> <span class="n">neg</span> <span class="k">else</span> <span class="n">pynini</span><span class="o">.</span><span class="n">Fst</span><span class="p">()</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="o">*</span><span class="p">(</span><span class="n">_acceptor</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span> <span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">items</span><span class="p">))</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">neg</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">(</span><span class="n">env</span><span class="o">.</span><span class="n">sigma</span> <span class="o">-</span> <span class="n">u</span><span class="p">)</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">u</span>
+
+    <span class="k">return</span> <span class="n">_acceptor</span><span class="p">(</span><span class="n">_decode_escapes</span><span class="p">(</span><span class="n">expr</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">_compile_seq</span><span class="p">(</span><span class="n">expr</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">env</span><span class="p">:</span> <span class="n">Env</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Compiles a sequence of atoms (literals, sets, variables, boundaries) into an Fst acceptor.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">expr</span><span class="p">:</span> <span class="k">return</span> <span class="n">_acceptor</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">expr</span>
+    <span class="n">parts</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">cur</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">depth</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="c1"># Simple tokenizer logic</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="n">ch</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">is_escape_char</span> <span class="o">=</span> <span class="p">(</span><span class="n">ch</span> <span class="o">==</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">&#39;</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="ow">and</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isalpha</span><span class="p">())</span>
+
+        <span class="c1"># Token separation logic</span>
+        <span class="k">if</span> <span class="n">ch</span> <span class="o">==</span> <span class="s2">&quot;[&quot;</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">is_escape_char</span><span class="p">:</span> <span class="n">depth</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">ch</span> <span class="o">==</span> <span class="s2">&quot;]&quot;</span> <span class="ow">and</span> <span class="n">depth</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">is_escape_char</span><span class="p">:</span> <span class="n">depth</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">ch</span><span class="o">.</span><span class="n">isspace</span><span class="p">()</span> <span class="ow">and</span> <span class="n">depth</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">cur</span><span class="p">:</span> <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cur</span><span class="p">));</span> <span class="n">cur</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+
+        <span class="n">cur</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">is_escape_char</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+            <span class="k">pass</span>
+
+    <span class="k">if</span> <span class="n">cur</span><span class="p">:</span> <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cur</span><span class="p">))</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">parts</span><span class="p">:</span> <span class="k">return</span> <span class="n">_acceptor</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="c1"># Composition of FST atoms</span>
+    <span class="n">fst</span> <span class="o">=</span> <span class="n">_compile_atom</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">env</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+        <span class="n">fst</span> <span class="o">=</span> <span class="n">fst</span> <span class="o">+</span> <span class="n">_compile_atom</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">fst</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">compile_lines</span><span class="p">(</span><span class="n">lines</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Line</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="n">env</span> <span class="o">=</span> <span class="n">Env</span><span class="p">()</span>
+
+    <span class="n">vars_to_compile</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">VarAssign</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">kind</span><span class="p">,</span> <span class="n">payload</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">kind</span> <span class="o">==</span> <span class="s2">&quot;var&quot;</span><span class="p">:</span>
+            <span class="n">vars_to_compile</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">payload</span><span class="p">)</span> <span class="c1"># type: ignore[arg-type]</span>
+
+    <span class="k">for</span> <span class="n">va</span> <span class="ow">in</span> <span class="n">vars_to_compile</span><span class="p">:</span>
+        <span class="n">env</span><span class="o">.</span><span class="n">vars</span><span class="p">[</span><span class="n">va</span><span class="o">.</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">_compile_seq</span><span class="p">(</span><span class="n">va</span><span class="o">.</span><span class="n">expr</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+
+    <span class="n">all_rules</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Rule</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">kind</span><span class="p">,</span> <span class="n">payload</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">kind</span> <span class="o">==</span> <span class="s2">&quot;rule&quot;</span><span class="p">:</span>
+            <span class="n">all_rules</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">payload</span><span class="p">)</span> <span class="c1"># type: ignore[arg-type]</span>
+
+    <span class="n">cascade</span> <span class="o">=</span> <span class="n">env</span><span class="o">.</span><span class="n">I_sigma_star</span>
+
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">all_rules</span><span class="p">:</span>
+        <span class="c1"># X is the target (r.lhs), Y is the replacement (r.rhs)</span>
+        <span class="n">X_target</span> <span class="o">=</span> <span class="n">_compile_seq</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">lhs</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span>
+        <span class="n">Y_replacement</span> <span class="o">=</span> <span class="n">_compile_seq</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span>
+
+        <span class="c1"># L and R are the context FSTs (r.left, r.right)</span>
+        <span class="n">L_ctx</span> <span class="o">=</span> <span class="n">_compile_seq</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">left</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span>
+        <span class="n">R_ctx</span> <span class="o">=</span> <span class="n">_compile_seq</span><span class="p">(</span><span class="n">r</span><span class="o">.</span><span class="n">right</span><span class="p">,</span> <span class="n">env</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">add_rule</span><span class="p">(</span><span class="n">X</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">Y</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">L</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">R</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">raw_rule</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="k">nonlocal</span> <span class="n">cascade</span>
+
+            <span class="k">if</span> <span class="n">X</span><span class="o">.</span><span class="n">num_states</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: Empty LHS FST for rule &#39;</span><span class="si">{</span><span class="n">raw_rule</span><span class="si">}</span><span class="s2">&#39;. Skipping.&quot;</span><span class="p">)</span>
+                <span class="k">return</span>
+
+            <span class="c1"># Create the rewriting transducer (tau = X -&gt; Y)</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">rewrite</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cdrewrite</span><span class="p">(</span>
+                    <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">),</span>
+                    <span class="n">L</span><span class="p">,</span> <span class="n">R</span><span class="p">,</span>
+                    <span class="n">env</span><span class="o">.</span><span class="n">sigma_star</span>
+                <span class="p">)</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+            <span class="k">except</span> <span class="n">pynini</span><span class="o">.</span><span class="n">FstOpError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Severe Warning: Rewrite failed for rule &#39;</span><span class="si">{</span><span class="n">raw_rule</span><span class="si">}</span><span class="s2">&#39;. Error: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+                <span class="k">return</span>
+
+            <span class="n">composed</span> <span class="o">=</span> <span class="n">cascade</span> <span class="o">@</span> <span class="n">rewrite</span>
+            <span class="n">cascade</span> <span class="o">=</span> <span class="n">composed</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+
+        <span class="c1"># The rule structure requires L, X, R to be correctly assigned before calling add_rule</span>
+        <span class="c1"># This is handled by _extract_cldr_context_parts</span>
+        <span class="k">if</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">add_rule</span><span class="p">(</span><span class="n">X_target</span><span class="p">,</span> <span class="n">Y_replacement</span><span class="p">,</span> <span class="n">L_ctx</span><span class="p">,</span> <span class="n">R_ctx</span><span class="p">,</span> <span class="n">r</span><span class="o">.</span><span class="n">raw_lhs</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&lt;&quot;</span><span class="p">:</span>
+            <span class="c1"># Inverse: Y-&gt;X / R_rev _ L_rev</span>
+            <span class="n">add_rule</span><span class="p">(</span><span class="n">Y_replacement</span><span class="p">,</span> <span class="n">X_target</span><span class="p">,</span> <span class="n">R_ctx</span><span class="p">,</span> <span class="n">L_ctx</span><span class="p">,</span> <span class="n">r</span><span class="o">.</span><span class="n">raw_lhs</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">==</span> <span class="s2">&quot;&lt;&gt;&quot;</span><span class="p">:</span>
+            <span class="n">add_rule</span><span class="p">(</span><span class="n">X_target</span><span class="p">,</span> <span class="n">Y_replacement</span><span class="p">,</span> <span class="n">L_ctx</span><span class="p">,</span> <span class="n">R_ctx</span><span class="p">,</span> <span class="n">r</span><span class="o">.</span><span class="n">raw_lhs</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">)</span>
+            <span class="n">add_rule</span><span class="p">(</span><span class="n">Y_replacement</span><span class="p">,</span> <span class="n">X_target</span><span class="p">,</span> <span class="n">R_ctx</span><span class="p">,</span> <span class="n">L_ctx</span><span class="p">,</span> <span class="n">r</span><span class="o">.</span><span class="n">raw_lhs</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">op</span> <span class="o">+</span> <span class="n">r</span><span class="o">.</span><span class="n">rhs</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">cascade</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">determinize</span><span class="p">(</span><span class="n">cascade</span><span class="p">)</span><span class="o">.</span><span class="n">minimize</span><span class="p">()</span>
+    <span class="k">except</span> <span class="n">pynini</span><span class="o">.</span><span class="n">FstOpError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Warning: Failed to determinize/minimize final language cascade. Error: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+        <span class="n">cascade</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">cascade</span>
+
+<span class="k">def</span> <span class="nf">prefix_language_token</span><span class="p">(</span><span class="n">lang_token</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">_acceptor</span><span class="p">(</span><span class="n">lang_token</span><span class="p">),</span> <span class="n">_acceptor</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">build_multilingual_transducer</span><span class="p">(</span><span class="n">lang_to_rules_text</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span> <span class="n">token_fmt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;&lt;</span><span class="si">{lang}</span><span class="s2">&gt;&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Fst</span><span class="p">:</span>
+    <span class="n">unified</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Fst</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">for</span> <span class="n">lang</span><span class="p">,</span> <span class="n">text</span> <span class="ow">in</span> <span class="n">lang_to_rules_text</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="n">parse_cldr</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="n">compile_lines</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
+        <span class="n">lt</span> <span class="o">=</span> <span class="n">prefix_language_token</span><span class="p">(</span><span class="n">token_fmt</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">lang</span><span class="o">=</span><span class="n">lang</span><span class="p">))</span> <span class="o">+</span> <span class="n">t</span>
+        <span class="n">lt</span><span class="o">.</span><span class="n">optimize</span><span class="p">()</span>
+        <span class="n">unified</span> <span class="o">=</span> <span class="n">lt</span> <span class="k">if</span> <span class="n">unified</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="p">(</span><span class="n">unified</span> <span class="o">|</span> <span class="n">lt</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">unified</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">unified</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">transducer</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">pynini</span><span class="o">.</span><span class="n">determinize</span><span class="p">(</span><span class="n">unified</span><span class="p">)</span><span class="o">.</span><span class="n">minimize</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">save_fst</span><span class="p">(</span><span class="n">fst</span><span class="p">:</span> <span class="n">Fst</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="n">fst</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">demo</span><span class="p">():</span>
+    <span class="n">cldr_en</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        $V = [aeiou] ;</span>
+<span class="s2">        # Simple rewrite (no context)</span>
+<span class="s2">        th &gt; θ ;</span>
+<span class="s2">        sh &gt; ʃ ;</span>
+<span class="s2">        ng &gt; ŋ ;</span>
+<span class="s2">        ch &gt; t͡ʃ ;</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+
+    <span class="n">cldr_es</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">        $V = [aeiou] ;</span>
+<span class="s2">        $E_OR_I = [ei];</span>
+<span class="s2">        :: [a-zñ] ;</span>
+
+<span class="s2">        # 1. CLDR Lookahead (Soft C): Rewrite &#39;c&#39; to &#39;s&#39; if FOLLOWED by &#39;e&#39; or &#39;i&#39;.</span>
+<span class="s2">        # X { R &gt; Y: Target X=c, R=E_OR_I, Y=s.</span>
+<span class="s2">        c { $E_OR_I &gt; s;</span>
+
+<span class="s2">        # 2. CLDR Lookbehind: Rewrite &#39;s&#39; to &#39;z&#39; if PRECEDED by a vowel.</span>
+<span class="s2">        # L } X &gt; Y: L=V, X=s, Y=z.</span>
+<span class="s2">        $V } s &gt; z;</span>
+
+<span class="s2">        # 3. CLDR Lookbehind (Boundary): Rewrite ll to lambda if preceded by start of string</span>
+<span class="s2">        ^ } ll &gt; ʎ;</span>
+
+<span class="s2">        # 4. Simple rewrites</span>
+<span class="s2">        ñ &gt; ɲ ;</span>
+<span class="s2">        qu &gt; k ;</span>
+
+<span class="s2">        ::Null;</span>
+<span class="s2">    &quot;&quot;&quot;</span>
+
+    <span class="n">lang_rules</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;eng&quot;</span><span class="p">:</span> <span class="n">cldr_en</span><span class="p">,</span> <span class="s2">&quot;spa&quot;</span><span class="p">:</span> <span class="n">cldr_es</span><span class="p">}</span>
+
+    <span class="n">fst</span> <span class="o">=</span> <span class="n">build_multilingual_transducer</span><span class="p">(</span><span class="n">lang_rules</span><span class="p">,</span> <span class="n">token_fmt</span><span class="o">=</span><span class="s2">&quot;&lt;</span><span class="si">{lang}</span><span class="s2">&gt;&quot;</span><span class="p">)</span>
+    <span class="n">save_fst</span><span class="p">(</span><span class="n">fst</span><span class="p">,</span> <span class="s2">&quot;multilang.fst&quot;</span><span class="p">)</span>
+
+    <span class="n">tests</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s2">&quot;&lt;eng&gt;thing&quot;</span><span class="p">,</span>      <span class="c1"># th -&gt; θ</span>
+        <span class="s2">&quot;&lt;eng&gt;mashing&quot;</span><span class="p">,</span>    <span class="c1"># sh -&gt; ʃ, ng -&gt; ŋ</span>
+
+        <span class="c1"># SPA tests using CLDR syntax:</span>
+        <span class="s2">&quot;&lt;spa&gt;cama&quot;</span><span class="p">,</span>     <span class="c1"># Rule 1: &#39;c&#39; followed by &#39;a&#39; (no match) -&gt; cama. Rule 2: &#39;s&#39; not present. -&gt; cama</span>
+        <span class="s2">&quot;&lt;spa&gt;cita&quot;</span><span class="p">,</span>     <span class="c1"># Rule 1: c { [ei] -&gt; s: sita. Rule 2: &#39;s&#39; preceded by &#39;i&#39; ($V } s): sita -&gt; siza. Final: siza</span>
+        <span class="s2">&quot;&lt;spa&gt;ceca&quot;</span><span class="p">,</span>     <span class="c1"># Rule 1: c { [ei] -&gt; s: seca. Rule 2: &#39;s&#39; preceded by &#39;e&#39; ($V } s): seca -&gt; seza. Final: seza</span>
+        <span class="s2">&quot;&lt;spa&gt;sopa&quot;</span><span class="p">,</span>     <span class="c1"># Rule 2: &#39;s&#39; not preceded by vowel (at start) -&gt; sopa</span>
+        <span class="s2">&quot;&lt;spa&gt;mesa&quot;</span><span class="p">,</span>     <span class="c1"># Rule 2: $V } s -&gt; z: meza</span>
+        <span class="s2">&quot;&lt;spa&gt;acacia&quot;</span><span class="p">,</span>   <span class="c1"># 2nd &#39;c&#39; followed by &#39;i&#39; (Rule 1): acasia. 1st &#39;s&#39; preceded by &#39;a&#39; (Rule 2): acazia. Final: acazia</span>
+        <span class="s2">&quot;&lt;spa&gt;llave&quot;</span><span class="p">,</span>    <span class="c1"># Rule 3: ^ } ll -&gt; ʎ: ʎave</span>
+    <span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">apply</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">lat</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">compose</span><span class="p">(</span><span class="n">_acceptor</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="n">fst</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">lat</span><span class="o">.</span><span class="n">start</span><span class="p">()</span> <span class="o">==</span> <span class="n">pynini</span><span class="o">.</span><span class="n">NO_STATE_ID</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s2">&quot;&lt;no-path&gt;&quot;</span>
+
+        <span class="n">raw_output</span> <span class="o">=</span> <span class="n">pynini</span><span class="o">.</span><span class="n">shortestpath</span><span class="p">(</span><span class="n">lat</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">string</span><span class="p">(</span><span class="n">token_type</span><span class="o">=</span><span class="s2">&quot;utf8&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">raw_output</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">raw_output</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">raw_output</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;--- Transliteration Results ---&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tests</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">apply</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">t</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Wrote multilang.fst&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">demo</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Warning: Failed to determinize/minimize final language cascade. Error: Operation failed
+Warning: Failed to determinize/minimize final language cascade. Error: Operation failed
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">FstOpError</span>                                Traceback (most recent call last)
+<span class="ansi-green-fg">/tmp/ipython-input-2617454326.py</span> in <span class="ansi-cyan-fg">&lt;cell line: 0&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    416</span> 
+<span class="ansi-green-intense-fg ansi-bold">    417</span> <span class="ansi-green-fg">if</span> __name__ <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#34;__main__&#34;</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 418</span><span class="ansi-red-fg">     </span>demo<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">/tmp/ipython-input-2617454326.py</span> in <span class="ansi-cyan-fg">demo</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">    381</span>     lang_rules <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">{</span><span class="ansi-blue-fg">&#34;eng&#34;</span><span class="ansi-blue-fg">:</span> cldr_en<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;spa&#34;</span><span class="ansi-blue-fg">:</span> cldr_es<span class="ansi-blue-fg">}</span>
+<span class="ansi-green-intense-fg ansi-bold">    382</span> 
+<span class="ansi-green-fg">--&gt; 383</span><span class="ansi-red-fg">     </span>fst <span class="ansi-blue-fg">=</span> build_multilingual_transducer<span class="ansi-blue-fg">(</span>lang_rules<span class="ansi-blue-fg">,</span> token_fmt<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#34;&lt;{lang}&gt;&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    384</span>     save_fst<span class="ansi-blue-fg">(</span>fst<span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;multilang.fst&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    385</span> 
+
+<span class="ansi-green-fg">/tmp/ipython-input-2617454326.py</span> in <span class="ansi-cyan-fg">build_multilingual_transducer</span><span class="ansi-blue-fg">(lang_to_rules_text, token_fmt)</span>
+<span class="ansi-green-intense-fg ansi-bold">    341</span>         unified <span class="ansi-blue-fg">=</span> pynini<span class="ansi-blue-fg">.</span>transducer<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;&#34;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    342</span> 
+<span class="ansi-green-fg">--&gt; 343</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">return</span> pynini<span class="ansi-blue-fg">.</span>determinize<span class="ansi-blue-fg">(</span>unified<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>minimize<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    344</span> 
+<span class="ansi-green-intense-fg ansi-bold">    345</span> <span class="ansi-green-fg">def</span> save_fst<span class="ansi-blue-fg">(</span>fst<span class="ansi-blue-fg">:</span> Fst<span class="ansi-blue-fg">,</span> path<span class="ansi-blue-fg">:</span> str<span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">-&gt;</span> <span class="ansi-green-fg">None</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">extensions/_pynini.pyx</span> in <span class="ansi-cyan-fg">_pynini._1arg_patch.patch</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-green-fg">extensions/_pywrapfst.pyx</span> in <span class="ansi-cyan-fg">_pywrapfst.determinize</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-green-fg">extensions/_pywrapfst.pyx</span> in <span class="ansi-cyan-fg">_pywrapfst.determinize</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-green-fg">extensions/_pywrapfst.pyx</span> in <span class="ansi-cyan-fg">_pywrapfst._init_MutableFst</span><span class="ansi-blue-fg">()</span>
+
+<span class="ansi-red-fg">FstOpError</span>: Operation failed</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">demo</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;eng&gt;thing -&gt; &lt;no-path&gt;
+&lt;eng&gt;mashing -&gt; &lt;no-path&gt;
+&lt;spa&gt;llama -&gt; &lt;no-path&gt;
+&lt;spa&gt;quiza -&gt; kasa
+&lt;spa&gt;cita -&gt; sata
+&lt;spa&gt;cuna -&gt; kana
+Wrote multilang.fst
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/cldr/openfst/chatgpt/2025/09/06/cldr-openfst-generated.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

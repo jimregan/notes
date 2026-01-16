@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Process Finck | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Process Finck" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Extract Finck data as JSON; partly generated" />
+<meta property="og:description" content="Extract Finck data as JSON; partly generated" />
+<link rel="canonical" href="https://jimregan.github.io/notes/finck/irish/json/chatgpt/2025/09/18/proc-finck.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/finck/irish/json/chatgpt/2025/09/18/proc-finck.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-09-18T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/finck/irish/json/chatgpt/2025/09/18/proc-finck.html","@type":"BlogPosting","headline":"Process Finck","dateModified":"2025-09-18T00:00:00-05:00","datePublished":"2025-09-18T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/finck/irish/json/chatgpt/2025/09/18/proc-finck.html"},"description":"Extract Finck data as JSON; partly generated","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Process Finck</h1><p class="page-description">Extract Finck data as JSON; partly generated</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2025-09-18T00:00:00-05:00" itemprop="datePublished">
+        Sep 18, 2025
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#finck">finck</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#json">json</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2025-09-18-proc-finck.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2025-09-18-proc-finck.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2025-09-18-proc-finck.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2025-09-18-proc-finck.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="n">LANG_MAP</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;air.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old Irish&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;mir.&quot;</span><span class="p">:</span> <span class="s2">&quot;Middle Irish&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;nir.&quot;</span><span class="p">:</span> <span class="s2">&quot;Modern Irish&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;engl.&quot;</span><span class="p">:</span> <span class="s2">&quot;English&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;aengl.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old English&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;mengl.&quot;</span><span class="p">:</span> <span class="s2">&quot;Middle English&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;anord.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old Norse&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;aisl.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old Icelandic&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;aschott.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old Scots&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;lat.&quot;</span><span class="p">:</span> <span class="s2">&quot;Latin&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;kymr.&quot;</span><span class="p">:</span> <span class="s2">&quot;Welsh&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;korn.&quot;</span><span class="p">:</span> <span class="s2">&quot;Cornish&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;bret.&quot;</span><span class="p">:</span> <span class="s2">&quot;Breton&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;span.&quot;</span><span class="p">:</span> <span class="s2">&quot;Spanish&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;afranz.&quot;</span><span class="p">:</span> <span class="s2">&quot;Old French&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">WORK_MAP</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Molloy&quot;</span><span class="p">:</span> <span class="s2">&quot;Molloy&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Keat.&quot;</span><span class="p">:</span> <span class="s2">&quot;Keating&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;O’R.&quot;</span><span class="p">:</span> <span class="s2">&quot;O’Reilly&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;O&#39;R.&quot;</span><span class="p">:</span> <span class="s2">&quot;O’Reilly&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;O’Clery&quot;</span><span class="p">:</span> <span class="s2">&quot;O’Clery&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;O&#39;Clery&quot;</span><span class="p">:</span> <span class="s2">&quot;O’Clery&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Atk.&quot;</span><span class="p">:</span> <span class="s2">&quot;Atkinson&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Bk. of Deer&quot;</span><span class="p">:</span> <span class="s2">&quot;Book of Deer&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Book of Deer&quot;</span><span class="p">:</span> <span class="s2">&quot;Book of Deer&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;Joyce&quot;</span><span class="p">:</span> <span class="s2">&quot;Joyce&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="n">ROMAN_RE</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;(?:I|II|III|IV|V|VI|VII|VIII|IX|X)&quot;</span>
+
+<span class="k">def</span> <span class="nf">split_top_level_semicolons</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="n">parts</span><span class="p">,</span> <span class="n">buf</span><span class="p">,</span> <span class="n">depth</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">ch</span> <span class="o">==</span> <span class="s1">&#39;(&#39;</span><span class="p">:</span>
+            <span class="n">depth</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">ch</span> <span class="o">==</span> <span class="s1">&#39;)&#39;</span><span class="p">:</span>
+            <span class="n">depth</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">depth</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">ch</span> <span class="o">==</span> <span class="s1">&#39;;&#39;</span> <span class="ow">and</span> <span class="n">depth</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">chunk</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">chunk</span><span class="p">:</span>
+                <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
+            <span class="n">buf</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">buf</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span>
+    <span class="n">last</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">last</span><span class="p">:</span>
+        <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">last</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">parts</span>
+
+<span class="k">def</span> <span class="nf">parse_neben</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="n">alts</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;neben\s+&#39;&#39;([^&#39;]+)&#39;&#39;&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">alts</span>
+
+<span class="k">def</span> <span class="nf">parse_phonetic_head</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]:</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;^&#39;&#39;([^&#39;]+)&#39;&#39;&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">m</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">if</span> <span class="n">p</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">parse_gloss</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;„([^“]+)“&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">if</span> <span class="n">m</span> <span class="k">else</span> <span class="kc">None</span>
+
+<span class="k">def</span> <span class="nf">parse_gender</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\b([mfn])\.\b&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">m</span><span class="p">:</span> <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;m&quot;</span><span class="p">:</span> <span class="s2">&quot;masculine&quot;</span><span class="p">,</span> <span class="s2">&quot;f&quot;</span><span class="p">:</span> <span class="s2">&quot;feminine&quot;</span><span class="p">,</span> <span class="s2">&quot;n&quot;</span><span class="p">:</span> <span class="s2">&quot;neuter&quot;</span><span class="p">}[</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">parse_vgl_crossrefs</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Handles: (vgl. II 251, 15), (vgl. II 251, 15. 266, 5), (vgl. I 263)</span>
+<span class="sd">    Returns list of {volume,page[,line]}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">par</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\(([^)]*vgl\.[^)]*)\)&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">):</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="n">par</span>
+        <span class="n">vgl_m</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;vgl\.\s*(.*)$&quot;</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">vgl_m</span><span class="p">:</span> 
+            <span class="k">continue</span>
+        <span class="n">tail</span> <span class="o">=</span> <span class="n">vgl_m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+
+        <span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[,\.\s]+&quot;</span><span class="p">,</span> <span class="n">tail</span><span class="p">)</span> <span class="k">if</span> <span class="n">t</span><span class="p">]</span>
+        <span class="n">cur_vol</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">):</span>
+            <span class="n">tok</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">fullmatch</span><span class="p">(</span><span class="n">ROMAN_RE</span><span class="p">,</span> <span class="n">tok</span><span class="p">):</span>
+                <span class="n">cur_vol</span> <span class="o">=</span> <span class="n">tok</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">continue</span>
+            <span class="k">if</span> <span class="n">tok</span><span class="o">.</span><span class="n">isdigit</span><span class="p">():</span>
+                <span class="n">page</span> <span class="o">=</span> <span class="n">tok</span>
+                <span class="n">line</span> <span class="o">=</span> <span class="kc">None</span>
+
+                <span class="k">if</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span> <span class="ow">and</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isdigit</span><span class="p">():</span>
+                    <span class="n">line</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span>
+                    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">if</span> <span class="n">cur_vol</span><span class="p">:</span>
+                    <span class="n">entry</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;volume&quot;</span><span class="p">:</span> <span class="n">cur_vol</span><span class="p">,</span> <span class="s2">&quot;page&quot;</span><span class="p">:</span> <span class="n">page</span><span class="p">}</span>
+                    <span class="k">if</span> <span class="n">line</span><span class="p">:</span> <span class="n">entry</span><span class="p">[</span><span class="s2">&quot;line&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">line</span>
+                    <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
+                <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">continue</span>
+            <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="k">def</span> <span class="nf">parse_etymology</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Collects historical stages like: air. bél; mir. bláth; aengl. bróc; anord. brókr</span>
+<span class="sd">    Splits multiple forms after the same label (e.g. &#39;air. biaid bieid&#39;).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">labels</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">LANG_MAP</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;\b(&quot;</span> <span class="o">+</span> <span class="s2">&quot;|&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">,</span> <span class="n">labels</span><span class="p">))</span> <span class="o">+</span> <span class="sa">r</span><span class="s2">&quot;)\s+([^;,()]+)&quot;</span>
+    <span class="k">for</span> <span class="n">abbr</span><span class="p">,</span> <span class="n">forms_blob</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">chunk</span><span class="p">):</span>
+        <span class="n">forms</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">forms_blob</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+        <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">forms</span><span class="p">:</span>
+            <span class="n">f</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">&quot;.,:;&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">f</span><span class="p">:</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s2">&quot;language&quot;</span><span class="p">:</span> <span class="n">LANG_MAP</span><span class="p">[</span><span class="n">abbr</span><span class="p">],</span> <span class="s2">&quot;form&quot;</span><span class="p">:</span> <span class="n">f</span><span class="p">})</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="k">def</span> <span class="nf">parse_sources</span><span class="p">(</span><span class="n">chunk</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">object</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Captures easy modern source references:</span>
+<span class="sd">      - &#39;Molloy 49: áthúil&#39; → {work:&quot;Molloy&quot;, page:&quot;49&quot;, forms:[&quot;áthúil&quot;]}</span>
+<span class="sd">      - &#39;Keat. breódhaim, breóghaim&#39; → {work:&quot;Keating&quot;, forms:[...]}</span>
+<span class="sd">      - &#39;O’R.&#39; → {work:&quot;O’Reilly&quot;} (form optional)</span>
+<span class="sd">      - &#39;(Bk. of Deer)&#39; → {work:&quot;Book of Deer&quot;}</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">finditer</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;\b(Molloy)\s+(\d+)(?::\s*([^);]+))?&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">):</span>
+        <span class="n">work</span> <span class="o">=</span> <span class="n">WORK_MAP</span><span class="p">[</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)]</span>
+        <span class="n">page</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+        <span class="n">forms</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+            <span class="n">forms</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;,\s*&quot;</span><span class="p">,</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+        <span class="n">entry</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;work&quot;</span><span class="p">:</span> <span class="n">work</span><span class="p">,</span> <span class="s2">&quot;page&quot;</span><span class="p">:</span> <span class="n">page</span><span class="p">}</span>
+        <span class="k">if</span> <span class="n">forms</span><span class="p">:</span> <span class="n">entry</span><span class="p">[</span><span class="s2">&quot;forms&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">forms</span>
+        <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">label</span> <span class="ow">in</span> <span class="n">WORK_MAP</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">key</span> <span class="o">==</span> <span class="s2">&quot;Molloy&quot;</span><span class="p">:</span>  <span class="c1"># already handled</span>
+            <span class="k">continue</span>
+
+        <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">finditer</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;(?:\(|\b)&quot;</span><span class="o">+</span><span class="n">re</span><span class="o">.</span><span class="n">escape</span><span class="p">(</span><span class="n">key</span><span class="p">)</span><span class="o">+</span><span class="sa">r</span><span class="s2">&quot;(?:\)|\b)(?::\s*([^);]+))?&quot;</span><span class="p">,</span> <span class="n">chunk</span><span class="p">):</span>
+            <span class="n">forms_blob</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">entry</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;work&quot;</span><span class="p">:</span> <span class="n">label</span><span class="p">}</span>
+            <span class="k">if</span> <span class="n">forms_blob</span><span class="p">:</span>
+                <span class="n">forms</span> <span class="o">=</span> <span class="p">[</span><span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;,\s*&quot;</span><span class="p">,</span> <span class="n">forms_blob</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span> <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+                <span class="k">if</span> <span class="n">forms</span><span class="p">:</span> <span class="n">entry</span><span class="p">[</span><span class="s2">&quot;forms&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">forms</span>
+
+            <span class="k">if</span> <span class="n">entry</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">out</span><span class="p">:</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">entry</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+<span class="k">def</span> <span class="nf">extract_easy_entries</span><span class="p">(</span><span class="n">volume</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">page</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">section</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">page_text</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">object</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Minimal-but-useful pass:</span>
+<span class="sd">      - returns a list of dicts with `volume`, `page`, `raw`</span>
+<span class="sd">      - plus: phonetic, alongside (from &#39;neben&#39;), gloss, gender, see_section, etymology, source_refs</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">page_text</span> <span class="o">=</span> <span class="n">page_text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&amp;nbsp;&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">raw</span> <span class="ow">in</span> <span class="n">split_top_level_semicolons</span><span class="p">(</span><span class="n">page_text</span><span class="p">):</span>
+        <span class="n">item</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;volume&quot;</span><span class="p">:</span> <span class="n">volume</span><span class="p">,</span>
+            <span class="s2">&quot;page&quot;</span><span class="p">:</span> <span class="n">page</span><span class="p">,</span>
+            <span class="s2">&quot;section&quot;</span><span class="p">:</span> <span class="n">section</span><span class="p">,</span>
+            <span class="s2">&quot;raw&quot;</span><span class="p">:</span> <span class="n">raw</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="p">}</span>
+        <span class="n">head</span> <span class="o">=</span> <span class="n">parse_phonetic_head</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">head</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;phonetic&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">head</span>
+        <span class="n">alts</span> <span class="o">=</span> <span class="n">parse_neben</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">alts</span><span class="p">:</span>
+            <span class="n">item</span><span class="p">[</span><span class="s2">&quot;alongside&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">alts</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">alts</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span> <span class="n">alts</span>
+        <span class="n">gloss</span> <span class="o">=</span> <span class="n">parse_gloss</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">gloss</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;gloss&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gloss</span>
+        <span class="n">gender</span> <span class="o">=</span> <span class="n">parse_gender</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">gender</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;gender&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">gender</span>
+        <span class="n">refs</span> <span class="o">=</span> <span class="n">parse_vgl_crossrefs</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">refs</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;see_section&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">refs</span>
+        <span class="n">ety</span> <span class="o">=</span> <span class="n">parse_etymology</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">ety</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;etymology&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ety</span>
+        <span class="n">src</span> <span class="o">=</span> <span class="n">parse_sources</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">src</span><span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;source_refs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">src</span>
+        <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">results</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">P4</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;&#39;&#39;pus&#39;&#39; „lippe“, mir. bus; &#39;&#39;gax&#39;&#39; „jeder“, gach, air. cach cech; r. práis prás „messing“, mengl. bras; nir. blaosc, mir. blaesc, kymr. blisc „schale“, nir. plaosg, manx. pleaysc, kymr. plisg&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">enumerate_entries</span><span class="p">(</span><span class="n">entries</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">object</span><span class="p">]],</span> <span class="n">start</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">78</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">entry</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">entries</span><span class="p">):</span>
+        <span class="n">entry</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;volume&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">entry</span><span class="p">[</span><span class="s1">&#39;section&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">i</span> <span class="o">+</span> <span class="n">start</span><span class="si">}</span><span class="s2">&quot;</span>
+
+<span class="k">def</span> <span class="nf">write_json</span><span class="p">(</span><span class="n">path</span> <span class="o">=</span> <span class="s2">&quot;/private/tmp/irish-attested-pronunciations/finck/raw/&quot;</span><span class="p">,</span> <span class="n">data</span> <span class="o">=</span> <span class="p">[],</span> <span class="n">section</span> <span class="o">=</span> <span class="s2">&quot;4&quot;</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">/section</span><span class="si">{</span><span class="n">section</span><span class="si">}</span><span class="s2">.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="kn">import</span> <span class="nn">json</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TEXT</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;&#39;&#39;ǵē&#39;&#39; „gans“, mir. géd; &#39;&#39;ǵēg&#39;&#39; „äst“, mir. géc;</span>
+<span class="s2">&#39;&#39;ǵ&lt;u&gt;ǝ&lt;/u&gt;r&#39;&#39; „scharf“, air. gér; &#39;&#39;ǵlē&#39;&#39; „eiweiss“, air. glé; &#39;&#39;ǵlēs&#39;&#39; „kleid, instrument“;</span>
+<span class="s2">&#39;&#39;ǵlēsĭm&#39;&#39; „bekleide, mache fertig“, mir. glés (vgl. </span>
+<span class="s2">II 275,25 ﬀ.); &#39;&#39;ǵȴō&#39;&#39; „lärm“, mir. gleó; &#39;&#39;ǵlōvr̥&#39;&#39; von &#39;&#39;ǵlō&#39;&#39;; &#39;&#39;ǵrēsī&#39;&#39;</span>
+<span class="s2">„schuhmacher“, zu mir. gréss; &#39;&#39;hŕēš&#39;&#39; „nach“, tar éis; &#39;&#39;hūkr̥&#39;&#39; </span>
+<span class="s2">(II 139 irrtümlich: &#39;&#39;hūḱr̥&#39;&#39;), engl. hooker; &#39;&#39;īntəx&#39;&#39; (neben &#39;&#39;iəntəx&#39;&#39;) </span>
+<span class="s2">„erstaunt“, mir. ingantach; &#39;&#39;īntəs&#39;&#39; (neben &#39;&#39;iəntəs&#39;&#39;) „wunder“, mir. </span>
+<span class="s2">ingantus; &#39;&#39;ī&#39;&#39; „nacht“ (neben &#39;&#39;ihə iə īhə&#39;&#39;), air. aidche; &#39;&#39;ī īhə&#39;&#39; „essen“</span>
+<span class="s2">(neben &#39;&#39;īə iə&#39;&#39;) (Molloy 81: ighthe), mir. ithe; &#39;&#39;īhŕ̥&#39;&#39; „ackerfeld“,</span>
+<span class="s2">mir. ithir; &#39;&#39;īxtr̥&#39;&#39; „unterer teil“, air. íchtar; &#39;&#39;īm&#39;&#39; „esse“, air. ithim </span>
+<span class="s2">(aber &#39;&#39;īm&#39;&#39; „butter“ mit eingipfliger exspiration); &#39;&#39;kā&#39;&#39; „spreu“, air. </span>
+<span class="s2">cáith; &#39;&#39;kȧ kǡv&#39;&#39;, verbalsubst. zu &#39;&#39;kȧhĭm&#39;&#39; „verzehre“ etc., mir. </span>
+<span class="s2">caithem; &#39;&#39;klai&#39;&#39; „steinumzäunung“ (vgl. II 153), mir. clad; &#39;&#39;kōtə&#39;&#39; </span>
+<span class="s2">„rock“, engl. coat; &#39;&#39;kū&#39;&#39; (neben &#39;&#39;kuə&#39;&#39;) „kummer“, mir. cuma; &#39;&#39;kūŋ&#39;&#39; </span>
+<span class="s2">„eng“, air. cumang; &#39;&#39;kūŕ&#39;&#39; „gegenwart“, mir. comair; </span>
+<span class="s2">&#39;&#39;kūŕt&#39;&#39; (neben &#39;&#39;kuəŕc&#39;&#39;) „besuch“, air. cuairt (dagegen &#39;&#39;kūŕc&#39;&#39; „court“ in der regel </span>
+<span class="s2">eingipflig); &#39;&#39;ḱǡŕ&#39;&#39; „vier“ neben &#39;&#39;ḱȧhŕ̥&#39;&#39;, air. cethir; &#39;&#39;ḱē&#39;&#39; „wer, was, </span>
+<span class="s2">obwohl“, air. cia; &#39;&#39;ḱēxtə&#39;&#39; (vgl. II 284, 1) (Molloy 33: céchta)</span>
+<span class="s2">„pflug“, mir. cécht; &#39;&#39;ḱēsĭm&#39;&#39; „kreuzige“, air. céssaim; &#39;&#39;ḱēšc&#39;&#39; „frage“</span>
+<span class="s2">(neben &#39;&#39;ḱešc&#39;&#39; II 284, 2); &#39;&#39;ḱēšcuə&#39;&#39; „examen“, mir. ceist, lat. quaestio;</span>
+<span class="s2">&#39;&#39;ḱēš&#39;&#39; „sau“, céis, O’R.; &#39;&#39;ḱēv&#39;&#39; „schiffslände“, engl. quay (vgl. II </span>
+<span class="s2">284, 5); &#39;&#39;ḱlēv&#39;&#39; gen. sing. und nom./acc. plur. zu &#39;&#39;ḱliəv&#39;&#39;, cléibh;</span>
+<span class="s2">&#39;&#39;ḱō, ḱōvr̥, ḱōbr̥nəx&#39;&#39; (vgl. II 284, 32) „nebel, neblig, nebligkeit“,</span>
+<span class="s2">mir. ceó (zu &#39;&#39;ḱōbr̥nəx&#39;&#39; nicht &#39;&#39;ḱobr̥nəx&#39;&#39; wie irrtümlich II 284, 32,</span>
+<span class="s2">folgendes: ceobhraonach (O’R.) „mizzling, misty“, von ceobhráin</span>
+<span class="s2">„heavy dew falling like rain“, ceobhráon ceobhrán „small rain, </span>
+<span class="s2">mizzling rain“; braon „tropfen“, Keat., air. bróen „pluvia“,</span>
+<span class="s2">Z.-E. 31); &#39;&#39;ḱŕē&#39;&#39; „thon, erde“, air. cré; &#39;&#39;ḱŕīx&#39;&#39; „ende“, air. crích </span>
+<span class="s2">(Molloy 23: criach); &#39;&#39;ḱīx&#39;&#39; „weibliche brust“, mir. cích (Molloy</span>
+<span class="s2">23: ciach); &#39;&#39;ḱŕīst&#39;&#39; „Christus“, air. Críst; &#39;&#39;l̄aibrərī&#39;&#39; „bibliothek“, </span>
+<span class="s2">engl. library; &#39;&#39;l̄ai l̄aiə&#39;&#39; „liegen“, luighe (Molloy 80: luigheadh),</span>
+<span class="s2">air. lige; &#39;&#39;l̄aiĭm&#39;&#39; „liege“, mir. laigim; &#39;&#39;l̄aiəd&#39;&#39; „kleinheit“, mir. </span>
+<span class="s2">laiget; &#39;&#39;l̄aiəŕḱīn&#39;&#39; (vgl. II 285, 3), mir. ladar; &#39;&#39;l̄auə l̄au&#39;&#39; „verfaulen“, </span>
+<span class="s2">&#39;&#39;l̄auĭm&#39;&#39; „verfaule“, air. lobad; &#39;&#39;l̄ā&#39;&#39; „tag“, air. láthe etc.; &#39;&#39;l̄āx&#39;&#39; (neben </span>
+<span class="s2">&#39;&#39;l̄ahəx&#39;&#39;) „schmutz“, mir. lathach; &#39;&#39;l̄uə l̄ū&#39;&#39; (vgl. 251, 16) „weniger“,</span>
+<span class="s2">air. lugu;</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">entries</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">extract_easy_entries</span><span class="p">(</span><span class="s2">&quot;I&quot;</span><span class="p">,</span> <span class="n">page</span><span class="o">=</span><span class="s2">&quot;6&quot;</span><span class="p">,</span> <span class="n">section</span><span class="o">=</span><span class="s2">&quot;4&quot;</span><span class="p">,</span> <span class="n">page_text</span><span class="o">=</span><span class="n">TEXT</span><span class="p">):</span>
+    <span class="n">entries</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+<span class="n">enumerate_entries</span><span class="p">(</span><span class="n">entries</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">79</span><span class="p">)</span>
+
+<span class="n">write_json</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">entries</span><span class="p">,</span> <span class="n">section</span><span class="o">=</span><span class="s2">&quot;4b&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">italics</span> <span class="o">=</span> <span class="s2">&quot;𝘢𝘣𝘤𝘥𝘦𝘧𝘨𝘩𝘪𝘫𝘬𝘭𝘮𝘯𝘰𝘱𝘲𝘳𝘴𝘵𝘶𝘷𝘸𝘹𝘺𝘻&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/finck/irish/json/chatgpt/2025/09/18/proc-finck.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
