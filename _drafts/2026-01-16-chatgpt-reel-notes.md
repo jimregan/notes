@@ -223,3 +223,8 @@ that it can *completely* take away your attention.
 * **halad a dolgával** – make progress with one’s task
 * **ilyen szempontból** – from this point of view
 * **káros** – harmful
+
+-----
+
+[Reel](https://www.instagram.com/reels/DSK8NIuDGEI/)
+
