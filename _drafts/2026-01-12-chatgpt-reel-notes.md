@@ -223,26 +223,9 @@ Később kiderül az igazság,
 
 [Reel](https://www.instagram.com/reel/DTLUDdhAsqj/)
 
-[00:00.000 --> 00:00.600]  Sziasztok!
-[00:00.600 --> 00:01.200]  Os vagyok!
-[00:01.200 --> 00:01.800]  Ádám vagyok!
-[00:01.800 --> 00:04.200]  Ez pedig az így hógolyóz a barátnőt, de letikusan.
-[00:04.200 --> 00:07.200]  Mivel eltéröljek az erő viszonyok, ezért például a barátnődopat szemből.
-[00:07.200 --> 00:08.200]  Odáról!
-[00:08.400 --> 00:09.400]  Hátúról!
-[00:09.700 --> 00:10.900]  És bizony leis teperhez!
-[00:10.900 --> 00:16.100]  A barátot pedig 233 méter távolságból dopat, 2 cm átmiről hógolyót.
-[00:16.100 --> 00:17.600]  Kezd csinél kül egyszer.
-[00:18.400 --> 00:19.100]  Csak szerencsét.
-[00:19.100 --> 00:21.700]  Ha a játék születében nyakadba nyomja a hógolyót,
-[00:21.900 --> 00:22.400]  azért!
-[00:22.400 --> 00:27.300]  Ha földben nőgölve feladtad, és elérsz, hogy te már szeretetben félzni a játékot, de ő még mindig dobál!
-[00:27.500 --> 00:28.000]  Azért!
-[00:28.000 --> 00:32.700]  Ha már 10 percet csak bandukoltok haza vége a játéknak, de egyszerűen közelről fűtövön dob...
-[00:33.300 --> 00:33.800]  Az isért!
-[00:33.800 --> 00:35.300]  Jó hógolyózás mindenkinek.
-[00:35.300 --> 00:37.300]  Az leját, hogy most kivételesen kezdem én az uhányt!
-[00:37.300 --> 00:38.100]  Dehogy is!
+
+Sziasztok! Orsi vagyok! Ádám vagyok! Ez pedig az így hógolyóz a
+barátnőddel etikusan. Mivel eltérőek az erőviszonyok, ezért például a barátnőd dobhat szemből, oldáról, hátúról, és bizony le is teperhet! A barátod pedig 233 méter távolságból dobhat, 2 cm átmérőjű hógolyót. kesztyű nélkül egyszer. Sok szerencsét! Ha a játék szünetében nyakadba nyomja a hógolyót: Az ér. Ha földbe döngölve feladtad és jelezted, hogy te már szeretnéd befejezni a játékot, de ő még mindig dobál: Az ér! Ha már tíz perce csak bandukoltok haza, vége a játéknak, de egy centiről közelről fültövön dob: Az is ér! Jó hógolyózást mindenkinek! Az lehet, hogy most kivételesen kezdem én az zubanyt Dehogyis!
 
 -----
 
