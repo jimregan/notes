@@ -755,7 +755,7 @@ Well, I think *on two packs of crystal*.
 
 [Reel](https://www.instagram.com/reels/DRU46etjGzj/)
 
-The quote [is real](https://24.hu/tudomany/2015/01/10/k-rvano-fia-ez-az-elso-magyar-karomkodas/)
+The quote [is real](https://24.hu/tudomany/2015/01/10/k-rvano-fia-ez-az-elso-magyar-karomkodas/) and has a [Wikipedia article](https://hu.wikipedia.org/wiki/Els%C5%91_magyar_szitkoz%C3%B3d%C3%A1s).
 
 ### Line-by-line translation
 
