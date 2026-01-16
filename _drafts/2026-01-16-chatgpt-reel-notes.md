@@ -52,11 +52,35 @@ A **spiritual / emotional wound**.
 
 [Reel](https://www.instagram.com/reels/DRpi2D-jMwQ/)
 
-Női nemiszv négy betű.
-Vizszintes vagy függőleges?
-Vizszintes.
-Szállj!
-Jó, kijön.
+### Line-by-line translation
+
+**Női nemiszv négy betű.**
+The *female genital* — four letters.
+
+**Vizszintes vagy függőleges?**
+Horizontal or vertical?
+
+**Vizszintes.**
+Horizontal.
+
+**Szállj!**
+Get out! / Stop it! (*dismissive, irritated*)
+
+**Jó, kijön.**
+Alright, I’m coming out. (*literally “it comes out”; comic exit line*)
+
+### Vocabulary
+
+* **női** – female
+* **nemi szerv** (here misspelled *nemiszv*) – genital
+* **négy betű** – four letters
+* **vízszintes** (here *vizszintes*) – horizontal
+* **függőleges** – vertical
+* **szállj!** – get out! / knock it off! (colloquial imperative)
+* **kijön** – come out / step out
+
+If you want, I can also note where the humour relies on **crossword-style phrasing** vs **sexual double meaning**, but I’ll only do that if you ask.
+
 
 -----
 
