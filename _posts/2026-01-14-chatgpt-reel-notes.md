@@ -835,15 +835,15 @@ Slave!
 
 ### Line by line HU → EN walkthrough
 
-Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?
+**Ki mondta, hogy csak pornofilmet lehet nézni a digitális térben?**
 
 Who said that you can only watch porn in the digital space?
 
-Vannak szerelmes filmek is.
+**Vannak szerelmes filmek is.**
 
 There are romantic films too.
 
-Azokat is meg lehet nézni…
+**Azokat is meg lehet nézni…**
 
 You can watch those as well…
 
@@ -1685,19 +1685,17 @@ Fuck, my jaw is going to break!
 
 **Toxikus főnökök típusai**
 
-**Types of toxic bosses**
+Types of toxic bosses
 
 * **típusai** = plural possessive (“the types of”)
 * very common list-title formula in Hungarian social media
 
-### **1. A ghostoló / elérhetetlen**
+**1. A ghostoló / elérhetetlen**
 
 1. The ghoster/unreachable
 
 * **ghostoló** – from *ghostol* (“to ghost”), fully naturalised
 * **elérhetetlen** – unreachable, unavailable
-
-### Spoken lines
 
 **Jó, nekem erre nincs időm.**
 
