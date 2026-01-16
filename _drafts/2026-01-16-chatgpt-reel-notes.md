@@ -123,15 +123,15 @@ after you *fail* (your exams).
 
 [Reel](https://www.instagram.com/reels/DTiRzsVmEe3/)
 
-Ha belegondolsz, amikor leülsz tanulni egy vizsgaili dösszakalát, és ott van mellettad a telefon,
-vagy igazából csinálhatz bármit.
-Maga a telefon már a figyelmet is el tudja vonni.
-Nekem például, hogyha én tanulok, muszáj munkőzen mód, vagyra akim a telefon fókuszba,
-különben állandal nézeketni fogom, hogy kírogatott nekem, miben kiküldött snapet, kírt, kirakott kivaramit,
-és nekem tényleg nagyon álvonyabb figyelmem.
-Nem tudom, hogy miért érdekel ennyire, hiszen nyilván késebb is meg tudom nézni,
+Ha belegondolsz, amikor leülsz tanulni egy vizsgaidősszak alátt, és ott van melletted a telefon,
+vagy igazából csinálhatsz bármit,
+maga a telefon már a figyelmet is el tudja vonni.
+Nekem például, ha én tanulok, muszáj munkaüzemmódba rakjam a telefont fókuszba,
+különben állandóan nézegetni fogom, hogy ki írogatott nekem éppen, ki küldött snapet, ki írt, ki rakott ki valamit,
+és nekem tényleg nagyon elvonja figyelmem.
+Nem tudom, hogy miért érdekel ennyire, hiszen nyilván később is meg tudom nézni,
 de nagyon sokszor volt velem olyan, hogy leültem tanulni,
-és akkor láttam, hogy felbílen a telefonom, jól van hát megnézem, mi baj lehet belőle,
-és akkor ezt az a mészre, hogy már megint egy 20 percet nyomkodom,
-és igazából nem haladok a dolgommal, miközben tudnék, és utána is tudnék időtöltönni a telefonommal,
-de mégsem ezt a szám, úgyhogy ilyen szambon molt is elég káros, hogy a figyelmet teljes, mert tudom el tudja vonni.
+és akkor láttam, hogy felvillan a telefonom. Jól van, hát megnézem, mi baj lehet belőle.
+És akkor azt veszem észre, hogy már megint egy husz percet nyomkodom,
+és igazából nem haladok a dolgommal, miközben tudnék és utána is tudnék időt tölteni a telefonommal,
+de mégsem ezt teszem. Úgyhogy ilyen szempontból is elég káros, hogy a figyelmet teljes mértékben el tudja vonni.
