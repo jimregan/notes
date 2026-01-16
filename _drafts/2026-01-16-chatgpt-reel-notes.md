@@ -999,3 +999,17 @@ This one draws a **distinction Hungarian speakers often make**:
 
 * **szitkozódás** = aggressive insults and invective
 * **káromkodás** = swearing that *explicitly invokes God*
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTAbkX7DRbX/)
+
+[00:00.000 --> 00:03.400]  Anya most kaptam 20.000 forintat a fiúktól, hogy felmásszak a fára.
+[00:03.400 --> 00:05.900]  Ó, Lilla, csak az első neműdet akarták látni.
+[00:05.900 --> 00:08.400]  Gondoltam rá és előtte levettem.
+[00:08.400 --> 00:09.700]  Kívhatlak évának.
+[00:09.700 --> 00:10.300]  Mért?
+[00:10.300 --> 00:12.100]  Mert te voltál az első.
+[00:12.100 --> 00:13.800]  Akkor én Pajónak hívlak.
+[00:13.800 --> 00:14.800]  Mért?
+[00:14.800 --> 00:17.300]  Mert te voltál a 206-dik.
