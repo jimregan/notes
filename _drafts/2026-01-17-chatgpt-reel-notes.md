@@ -808,3 +808,7 @@ because I’ll be bringing the next experience from Ireland soon.
 * **kocsma** – pub; everyday, warmer than *bár*.
 * **beül** – sit down somewhere (to drink/chat); very Hungarian verb choice.
 * **vissza akarsz térni** – you’ll want to return; future-oriented persuasion.
+
+-----
+
+[Reel](https://www.instagram.com/reel/DTk2mXaCEnW/)
