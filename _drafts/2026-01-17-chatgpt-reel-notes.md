@@ -348,12 +348,12 @@ while I’m not letting you in.
 
 [Reel](https://www.instagram.com/reel/DSKgivhinLz/)
 
-[00:00.000 --> 00:06.440]  Elegen volt a tökéletes éstam, amikból tipptopp lakások gyöngyomalcstál a kibátlan szervezik.
-[00:06.440 --> 00:12.220]  Ezért létrehasztam az antiparamami oldalt, ahol nem tökéletesek, csak valóságosabb vagyunk.
-[00:12.220 --> 00:18.120]  Itt a kávé hideg, a pólónjá, a foltos, a gyerek pedig ragad, a vacsi pedig néha csak egy mariklóbi.
-[00:18.120 --> 00:25.880]  Itt a jó anya, nem biózsítsinál, hanem le nyomja napot, anérkül, hogy világá menne, ne vártőlem tökéletes napi rendi tanácsod,
-[00:25.880 --> 00:28.200]  de azt odérezni, hogy nem vagy egyedül.
-[00:28.200 --> 00:35.160]  Akkor sem, ha reggel 9-re már 5-ő összeomottál, kitókban sírsz a vécén, vagy csak rohátul elfáradt
+Elegem volt a tökéletes Insta mamikból. Tip-top lakások, bio gyümölcstálak, hibátlan selfie-k.
+Ezért létrehosztam az @antiparamami oldalt, ahol nem tökéletesek, csak valóságosak vagyunk.
+Itt a kávé hideg, a póló njálfoltos, a gyerek pedig ragad, a vacsi pedig néha csak egy marék rópi.
+Itt a jó anya nem bio uszit csinál, hanem lenyomja napot anélkül, hogy világá menne, ne vártőlem tökéletes napi rendi tanácsod,
+de azt odérezni, hogy nem vagy egyedül.
+Akkor sem, ha reggel 9-re már 5-ő összeomottál, kitókban sírsz a vécén, vagy csak rohátul elfáradt.
 
 -----
 
