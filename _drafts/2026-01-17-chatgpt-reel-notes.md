@@ -885,18 +885,18 @@ It surprises, adapts, and amazes — even in winter.
 
 [Reel](https://www.instagram.com/reel/DTmrTczjWja/)
 
-Fugyum, utatok neked három csajt ebből, hogyha kettőt ki találsz, hogy mennyi a badikányotja, akkor nyersz egy négykezes masszás.
-Négykezes? Úristen, ha már két kézzel masszíroznak, az is brutáljó jezés, de négykézzel.
-Na, tehát akkor ő lenne az első.
-Ú, hát szerintem ő 32.
-Na ő a kövi.
-Ú, hát ő szerintem 0.
-Na és ő lenne a 3-tig.
-Vájj, ő az exzem. Egy biztos vannak.
-Hát sajnos, csak az egyik volt jó, de ahogyha követed a szenténytány masszás szalonnak a tiktok oldalát, akkor kapsz alyendékba egy 60 perces masszás.
-Szuper tényleg követsz minket, akkor téged is az alyendék utalvány.
-Kövessetek be minket tiktokon, mert lehet, hogy legkuszel veletek futunk össze az utcán.
-A badikám tipeket ferig várom a komment sekszióban.
+Figyu, mutatok neked három csajt ebből, hogyha kettőt kitalálsz, hogy mennyi a body countja, akkor nyersz egy négykezes masszázst!
+Négykezes? Úristen, ha már két kézzel masszíroznak az is brutál jó érzés, de négy kézzel?!
+Na hát akkor ő lenne az első:
+Uh, hát szerintem ő... 32?
+Na ő a kövi:
+Uh hát ő szerintem nulla!
+Na és ő lenne a harmadik:
+Várj ő az exem! Egy biztos van neki!
+Hát sajnos csak az egyik volt jó, de hogyha követed a Saeng Tian Thai masszázsszalonnak a tiktok oldalát, akkor kapsz ajándékba egy 60 perces masszászt!
+Szuper, tényleg követsz minket, akkor tied is az ajándékutalvány!
+Kövessetek be minket tiktokon, mert lehet, hogy legközelebb veletek futunk össze az utcán!
+A body count tippeket pedig várom a komment sekcióban!
 
 -----
 
