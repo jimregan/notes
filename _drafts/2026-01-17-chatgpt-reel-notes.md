@@ -587,25 +587,25 @@ Ki ez az ember? Jelentkezzen! Mutassátok meg! Nem tudom.
 
 [Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
 
-[00:00.000 --> 00:04.500]  Öt élmény és érdekességek Dublinról, olyanok, amiket neked is meg kell élnet.
-[00:04.500 --> 00:07.700]  Az első, amit nem hagyhatsz ki, széltalan sét a belvárosban.
-[00:07.700 --> 00:11.100]  Igen, tudom, hogy furán hangzik, de Dublinban sétálni tényleg élmény.
-[00:11.100 --> 00:16.000]  A színes ajtók, a faburkolatok, a régi házak, a kis utcák, elképesztően jó hangulata van.
-[00:16.000 --> 00:22.400]  Ráadásul garantálom, hogy sét a közben olyan helyek be fogsz belebotlanik, amik nem kicsirtesznek hozzá az út az első élményéhez.
-[00:22.400 --> 00:26.800]  A második tippen, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.
-[00:26.800 --> 00:32.600]  Ide tilos leptopot behozni, nincs wi-fi, nincs rohanás, amúgy meg mért nincs minden könyvesboltban kávézó.
-[00:32.600 --> 00:36.800]  Dublinban egyébként több ilyen hely is van, mert az érek nagyon tudják, hogy kell elassítani.
-[00:36.800 --> 00:40.800]  A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhat.
-[00:40.800 --> 00:46.600]  A szarvasok több mint 300 éve foglalták el ezt a területet, még a királyi vadászatok idejéből maradtak a parkba,
-[00:46.600 --> 00:50.000]  és azóta is ugyanannak az állománynak a leszármazottai élnek itt.
-[00:50.000 --> 00:52.800]  Gyakorlatilag egy vadrezervátum van Dublin közepén.
-[00:52.800 --> 00:56.000]  Egyébként a Phoenix Park, Európa egyik legnagyobb városi parkja,
-[00:56.000 --> 00:58.400]  míg a New Yorki Central Parknál is nagyobb.
-[00:58.400 --> 01:02.200]  A 4. helyszín, a Sandpatrick katedrálius, amit döbbenetesen néztik.
-[01:02.200 --> 01:06.800]  Itt volt délkán zsonetán Swift a Gulliver utazásainak irója, és itt is van eltemetve.
-[01:06.800 --> 01:12.400]  Az 5. egyben kihagyhatatlan tippen pedig a Dublini pubok több mint 700 kocsma van Dublinban.
-[01:12.400 --> 01:15.400]  De itt tapább nem csak egy helyehová beülzi szavatni.
-[01:15.400 --> 01:20.200]  Az itteni kocsmákban olyan élet és hangulat van, hogy biztosan sokszor vissza akarsz majd térni,
-[01:20.200 --> 01:24.800]  olyan, mint egy koncerterem, egy közösségitér, egy nappali és egy terápiás szobaegyben.
-[01:24.800 --> 01:28.000]  Itt meg, hogy az 5 közül neked megfelejtett a legjobban, és kövesbe,
-[01:28.000 --> 01:31.200]  mert hamarosan hozom a következő élményt írországból.
+Öt élmény és érdekességek Dublinról, olyanok, amiket neked is meg kell élnet.
+Az első, amit nem hagyhatsz ki, széltalan sét a belvárosban.
+Igen, tudom, hogy furán hangzik, de Dublinban sétálni tényleg élmény.
+A színes ajtók, a faburkolatok, a régi házak, a kis utcák, elképesztően jó hangulata van.
+Ráadásul garantálom, hogy sét a közben olyan helyek be fogsz belebotlanik, amik nem kicsirtesznek hozzá az út az első élményéhez.
+A második tippen, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.
+Ide tilos leptopot behozni, nincs wi-fi, nincs rohanás, amúgy meg mért nincs minden könyvesboltban kávézó.
+Dublinban egyébként több ilyen hely is van, mert az érek nagyon tudják, hogy kell elassítani.
+A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhat.
+A szarvasok több mint 300 éve foglalták el ezt a területet, még a királyi vadászatok idejéből maradtak a parkba,
+és azóta is ugyanannak az állománynak a leszármazottai élnek itt.
+Gyakorlatilag egy vadrezervátum van Dublin közepén.
+Egyébként a Phoenix Park, Európa egyik legnagyobb városi parkja,
+míg a New Yorki Central Parknál is nagyobb.
+A 4. helyszín, a Sandpatrick katedrálius, amit döbbenetesen néztik.
+Itt volt délkán zsonetán Swift a Gulliver utazásainak irója, és itt is van eltemetve.
+Az 5. egyben kihagyhatatlan tippen pedig a Dublini pubok több mint 700 kocsma van Dublinban.
+De itt tapább nem csak egy helyehová beülzi szavatni.
+Az itteni kocsmákban olyan élet és hangulat van, hogy biztosan sokszor vissza akarsz majd térni,
+olyan, mint egy koncerterem, egy közösségitér, egy nappali és egy terápiás szobaegyben.
+Itt meg, hogy az 5 közül neked megfelejtett a legjobban, és kövesbe,
+mert hamarosan hozom a következő élményt írországból.
