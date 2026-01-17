@@ -399,13 +399,13 @@ Even if by 9 a.m. you’ve already fallen apart five times, secretly cry on the 
 
 [Reel](https://www.instagram.com/reel/DPrW_otiAsM/)
 
-Van egy barátnöm, akit tökéletesen csinálja ezt, képzéltek el, hogy ő a csej-GPT-nek panaszkódik a pasiáról.
-Ha összevesztnek, beírtja a csej-GPT-be, hogy mi történt, és a csej-GPT megonyanak, hogy igaza van.
+Van egy barátnöm, akit tökéletesen csinálja ezt. Képzéljétek el, hogy ő a ChatGPT-nek panaszkodik a pasijáról.
+Ha összevesznek, beírja a ChatGPT-be, hogy mi történt, és a ChatGPT megondja neki, hogy igaza van.
 Tökéletes, tökéletes dolog.
-Gondolkodtam rajta, hogy én is ezt fogom csinálni, mert azt mondta, hogy ez nagyon jó lett, és én is szerintem is az, de
-elgondolkodtam rajta, hogy ez a csej-GPT, meg ez az EI, ez így tőlünk tanul mindent.
-És hogyha meghálgatja mindig azt, amit mi ezekben az ilyen vatbolon pillanataimban így belegépelünk,
-annak az lesz a véger, hogy egy szép napon, egy ártatlan férfi megkérdezé a csej-GPT-t itt, hogy milyen nap van,
-és az meg azt fogja neki mondani, hogy mert csak akkor jössz, amikor akarsz valamit.
-Kérdez meg a kis Google-kurvádat.
-Vagy elmondjam a nyádnak, mi csinálsz incognitó mókva?
+Gondolkodtam rajta, hogy én is ezt fogom csinálni, mert azt mondta, hogy ez nagyon jó ötlet, és én is szerintem is az, de
+elgondolkodtam rajta, hogy ez a ChatGPT, meg ez az AI, ez így tőlünk tanul mindent.
+És hogyha meghallgatja mindig azt, amit mi ezekben az ilyen vadbolond pillanatainkban így belegépelünk,
+annak az lesz a vége, hogy egy szép napon, egy ártatlan férfi megkérdezi a ChatGPT-t, hogy milyen nap van?
+És az meg azt fogja neki mondani, hogy miért csak akkor jössz, amikor akarsz valamit?
+Kérdezd meg a kis Google-kurvádat,
+vagy elmondjam anyádnak, mit csinálsz inkognitó módban?
