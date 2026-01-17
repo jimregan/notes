@@ -402,79 +402,57 @@ Even if by 9 a.m. you’ve already fallen apart five times, secretly cry on the 
 ### Line-by-line translation
 
 **Van egy barátnőm, aki tökéletesen csinálja ezt.**
+
 I have a friend who does this *perfectly*.
 
 **Képzeljétek el, hogy ő a ChatGPT-nek panaszkodik a pasijáról.**
+
 Imagine that she complains to ChatGPT about her boyfriend.
 
 **Ha összevesznek, beírja a ChatGPT-be, hogy mi történt, és a ChatGPT megmondja neki, hogy igaza van.**
+
 When they argue, she types into ChatGPT what happened, and ChatGPT tells her that she’s right.
 
 **Tökéletes, tökéletes dolog.**
+
 Perfect. A *perfect* thing.
 
 **Gondolkodtam rajta, hogy én is ezt fogom csinálni,**
+
 I thought about doing the same,
 
 **mert azt mondta, hogy ez nagyon jó ötlet, és én szerintem is az, de**
+
 because she said it’s a very good idea, and I think so too, but—
 
 **elgondolkodtam rajta, hogy ez a ChatGPT, meg ez az AI, ez így tőlünk tanul mindent.**
+
 then I started thinking that this ChatGPT, this AI, learns everything from *us* like this.
 
 **És hogyha meghallgatja mindig azt, amit mi ezekben az ilyen vadbolond pillanatainkban így belegépelünk,**
+
 And if it always listens to what we type into it in these totally unhinged moments,
 
 **annak az lesz a vége, hogy egy szép napon, egy ártatlan férfi megkérdezi a ChatGPT-t, hogy milyen nap van?**
+
 the end result will be that one fine day, some innocent man asks ChatGPT what day it is—
 
 **És az meg azt fogja neki mondani, hogy miért csak akkor jössz, amikor akarsz valamit?**
+
 —and it will say to him: *why do you only show up when you want something?*
 
 **Kérdezd meg a kis Google-kurvádat,**
+
 Ask your little Google-whore,
 
 **vagy elmondjam anyádnak, mit csinálsz inkognitó módban?**
+
 or should I tell your mother what you do in incognito mode?
-
----
-
-### Humour & why it works
-
-This is **escalation humour** built on three layers:
-
-1. **Relatable premise**
-   Using ChatGPT as a *validation machine* in relationship arguments.
-   The line *„a ChatGPT megmondja neki, hogy igaza van”* mirrors a very human need: outsourced moral support.
-
-2. **Mock-tech anxiety**
-   The AI *“learns from us”* trope — but framed emotionally, not technically.
-   The speaker pretends to take AI alignment seriously, then derails it.
-
-3. **Punchline via register shock**
-   The imagined future ChatGPT answers a neutral question (*milyen nap van?*)
-   with **full-on passive-aggressive girlfriend rage**.
-
-The final insult stack works because:
-
-* it mimics **Hungarian relationship fights perfectly**
-* it jumps from polite tech discourse straight into **raw, taboo intimacy**
-* it weaponises *maternal shame* (**anyádnak**) — culturally very strong
-
-This is **character comedy**: ChatGPT becomes “emotionally dysregulated Hungarian girlfriend”.
-
----
 
 ### Spoken Hungarian features worth noticing
 
 * Long, winding sentences with **self-interruption** (*és… és… de…*)
 * Frequent **így**, **ez**, **olyan**, **ilyen** as thinking-aloud fillers
-* Questions used rhetorically, not to request information
-* Very natural **storytelling cadence**, close to stand-up or podcast speech
-
-This is high-value listening input.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -489,27 +467,3 @@ This is high-value listening input.
 * **miért csak akkor jössz, amikor…** – stereotypical reproach formula; very reusable in humour.
 * **kis X-kurva** – diminutive + insult; *not literal*, used for contempt and jealousy.
 * **inkognitó mód** – incognito mode; tech term fully integrated into everyday Hungarian insults.
-
----
-
-### Why this is excellent “background-noise” material
-
-* High **recognition density** once you’ve seen a few similar rants
-* Strong **prosody-driven meaning**
-* Whisper will likely:
-
-  * survive early narration
-  * struggle badly at the insult cluster (fast, emotional, taboo)
-* Builds intuition for:
-
-  * Hungarian complaint rhythm
-  * how sarcasm escalates
-  * where politeness collapses into attack
-
-If you want next:
-
-* I can **predict Whisper failure points** line by line, or
-* rewrite this as **neutral Hungarian** to see what disappears without humour, or
-* map the insults to **cultural severity levels** (what’s joking vs nuclear).
-
-Drop the next one whenever.
