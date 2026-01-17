@@ -1491,7 +1491,10 @@ Leave me alone!
 
 [Reel](https://www.instagram.com/reels/DTN4O7fguHs/)
 
-Köszönöm tök mindenkit a Pongyalapítpankot el. Réti pipitére keresztett saune szállán számén. Ádám vagyok, a közédu navarsányi saune a világbajmükság.
+Szauna-szeánsz
+
+Köszönöm tök mindenkit a Pongyalapítpankot el.
+Réti pipitére keresztett saune szállán számén. Ádám vagyok, a közédu navarsányi saune a világbajmükság.
 Eső helyezettje.
 És az ottan így össztes a lépes méz pusztítól rej egyszerű számommal készültem nektek.
 Nagyon fontos, hogy a kimenet közben rosszul ézi magát. Az is kurvára itt malodjon is ez Magyarország, tehát mi ide kibédni án nem lalagszálni, jó?
