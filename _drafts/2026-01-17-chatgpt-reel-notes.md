@@ -564,21 +564,24 @@ and this hasn’t really broken through for them.
 
 [Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
 
-Mindig, amikor hazamegyek el, menj, hogy a vendégségben rég nem látott rokont látogatni,
-tehát azért én állom, tehát már az előszobában konfliktus helyzet van,
-nem kell lehúzni a cipődje, lehúzom, rem kell lehúzni, de lehúzom, rem kell lehúzni,
-lehúzom, kossz van, nincsen, kossz be, hogy nem kossz van, nincsen,
-hogy mi se húzulhet, akkor azért van, kossz, úgy, ahogy kossz van.
-No, akkor lehúzom, akkor ne húzni.
-És az az a Tinos beszélgetés, nem, hogy na szabik, ahogy vagy.
+Mindig, amikor hazamegyek kell menni, ugye vendégségbe rég nem látott rokont látogatni.
+Hát az egy rémálom. Tehát már az előszobában konfliktushelyzet van,
+hogy nem kell lehúzni a cipőt de lehúzom, rem kell lehúzni, de lehúzom, de nem kell lehúzni,
+lehúzom, de kosz van, nincsen kosz, dehogynem, kosz van, nincsen kosz,
+mi sem húzzuk le hát akkor azért van kosz, na ugye, hogy kosz van?
+Jó, akkor lehúzom, akkor ne húzd le!
+És az a kinos beszélgetés, nem? Hogy na, Szabika, hogy vagy?
 Jól.
 Egyébként.
+És amúgy?
+ámugy is.
+Egyébként?
 Egyébként minden rendben.
-És máskülőmben.
-Ki az, aki jól van, a múgy jól van, egyébként minden rendben, de máskülőmben szarnak.
-Ja, nagyon az.
-Máskülőmben.
-Ki ez az ember, jelentkezzel, mutassátok meg, nem tudom.
+S máskülőnben?
+Ki az, aki jól van, amúgy is jól van, egyébként minden rendben, de máskülőnben szar neki?
+Jaj, nagyon...
+Máskülőnben...
+Ki ez az ember? Jelentkezzen! Mutassátok meg! Nem tudom.
 
 ------
 
