@@ -1291,3 +1291,15 @@ That’s *just a monument now*.
 * **remekmű** – masterpiece
 * **emlékmű** – monument, memorial
 
+-----
+
+[Reel](https://www.instagram.com/reels/DTX60MyAFgc/)
+
+[00:00.000 --> 00:08.620]  Kampány idő szakvan, ön elfoglalt politikus, bokros teendői mellett nem ér rám, havat lapátólni, vagy csak egyszerűen nincs kedve megfagyni az utcán.
+[00:08.620 --> 00:26.180]  Akkor a Hólapát 2026 selfiegenerátort önnek találták ki. Egy kattintása lapátóljon havat köztebületen, bent a szobában, naplementében, tengerparton, vagy akár a Júpiter egyik oldján is.
+[00:26.180 --> 00:34.800]  Külön havasbakkancs, piros és taknyosor efektek, hogy ön hiteles politikusnak tűnjön, mert mi ügyelünk a résztetekre.
+[00:34.800 --> 00:41.360]  Ha tetszett próbálj, aki gyermekekkel, idősemberekkel és kis állatokkal szelfizül generátorunkat is.
+[00:41.360 --> 00:51.040]  Ha most megrendeli csomagunkat, akkor bonuszként egy átadó felavató képgenerátort kap ajándékba, amivel igazi orló kezülé vállhat.
+[00:51.040 --> 00:55.440]  Ne hagyj aki önse a sikeres politikusok alkalmazását.
+[00:56.320 --> 01:02.320]  Bruti önálló estek Dunahui városban ódmezővásár helyen, tatabányán, szombad helyen.
+[01:02.320 --> 01:04.320]  Jegek a kommenteknél!
