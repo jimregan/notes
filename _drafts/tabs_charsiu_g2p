@@ -1,0 +1,88 @@
+charsiu/g2p_multilingual_byT5_small_100 · Hugging Face
+https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
+
+SimilarIPA model explanation
+https://chatgpt.com/c/68c00c3c-c038-832d-9fa3-c6c265c8f356
+
+ChatGPT - Current things, 14 June 2025
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/68cd90fd-c3bc-8323-9230-5454beb1bf5e
+
+ByT5-Finetuning-Datasets.ipynb - Colab
+https://colab.research.google.com/drive/1syXmhEQ5s7C59zU8RtHVru0wAvMXTSQ8#scrollTo=3iLm9I2GKBgM
+
+CharsiuG2P/src at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/tree/main/src
+
+CharsiuG2P/src/g2p.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/g2p.py
+
+CharsiuG2P/src/model.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/model.py
+
+CharsiuG2P/src/data_utils.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/data_utils.py
+
+CharsiuG2P/src/clean_wordlist.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/clean_wordlist.py
+
+CharsiuG2P/src/clean_dicts.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/clean_dicts.py
+
+CharsiuG2P/src/ByT5_MoE.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/ByT5_MoE.py
+
+CharsiuG2P/src/train.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/train.py
+
+CharsiuG2P/src/CharsiuG2P.py at main · lingjzhu/CharsiuG2P
+https://github.com/lingjzhu/CharsiuG2P/blob/main/src/CharsiuG2P.py
+
+lingjzhu (jzhu)
+https://github.com/lingjzhu
+
+lingjzhu/zipa: A family of efficient speech models for multilingual phone recognition
+https://github.com/lingjzhu/zipa/tree/main?tab=readme-ov-file
+
+zipa/zipformer_crctc/ctc_decode.py at main · lingjzhu/zipa
+https://github.com/lingjzhu/zipa/blob/main/zipformer_crctc/ctc_decode.py
+
+04-lhotse-shar.ipynb - Colab
+https://colab.research.google.com/github/lhotse-speech/lhotse/blob/master/examples/04-lhotse-shar.ipynb
+
+lingjzhu/clap-ipa: Keyword spotting and forced alignment in any language
+https://github.com/lingjzhu/clap-ipa
+
+lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
+https://github.com/lingjzhu/charsiu?tab=readme-ov-file
+
+charsiu_demo.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_textless_demo.ipynb
+
+charsiu (charsiu)
+https://huggingface.co/charsiu/models?p=0
+
+charsiu (charsiu)
+https://huggingface.co/charsiu/models?p=1
+
+charsiu/tokenizer_en_cmu at main
+https://huggingface.co/charsiu/tokenizer_en_cmu/tree/main
+
+charsiu/g2p_multilingual_byT5_small at main
+https://huggingface.co/charsiu/g2p_multilingual_byT5_small/tree/main
+
+tokenizer_config.json · charsiu/IPATokenizer at main
+https://huggingface.co/charsiu/IPATokenizer/blob/main/tokenizer_config.json
+
+wikipron/src/wikipron/extract/lat.py at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/src/wikipron/extract/lat.py
+
+wikipron/src/wikipron/extract/jpn.py at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/src/wikipron/extract/jpn.py
+
+Redigerar manchester - Wiktionary
+https://sv.wiktionary.org/w/index.php?title=manchester&action=edit
+
+Modul:uttal - Wiktionary
+https://sv.wiktionary.org/wiki/Modul:uttal
+
+

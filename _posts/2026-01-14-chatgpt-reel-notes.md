@@ -7,7 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Reel](https://www.instagram.com/reel/DQ6VxFZDF_5/)
+[Reel](https://www.instagram.com/reels/DQ6VxFZDF_5/)
 
 ### Line-by-line HU → EN walkthrough
 
@@ -69,7 +69,7 @@ Did you dig too?
 
 -----
 
-[Reel](https://www.instagram.com/reel/DQRtc94jJhk/)
+[Reel](https://www.instagram.com/reels/DQRtc94jJhk/)
 
 ### Sentence-by-sentence
 
@@ -255,7 +255,7 @@ You’ll hear this a lot outside ads too.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTduebKCCMa/)
+[Reel](https://www.instagram.com/reels/DTduebKCCMa/)
 
 ### Line-by-line breakdown
 
@@ -831,7 +831,7 @@ Slave!
 
 -----
 
-[Reel](https://www.instagram.com/reel/DShbAucFSja/)
+[Reel](https://www.instagram.com/reels/DShbAucFSja/)
 
 ### Line by line HU → EN walkthrough
 
@@ -860,7 +860,7 @@ Notes:
 
 -----
 
-[Reel](https://www.instagram.com/reel/DQejh5hjUAQ/)
+[Reel](https://www.instagram.com/reels/DQejh5hjUAQ/)
 
 ### Line-by-line HU → EN walkthrough
 
@@ -912,7 +912,7 @@ Please, I haven’t had coffee for half a year.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DMx4J58oRIB/)
+[Reel](https://www.instagram.com/reels/DMx4J58oRIB/)
 
 ### Sentence-by-sentence HU → EN
 
@@ -1367,7 +1367,7 @@ sloppy / low-effort subtitles
 
 -----
 
-[Reel](https://www.instagram.com/reel/DRDYEACjN-g/)
+[Reel](https://www.instagram.com/reels/DRDYEACjN-g/)
 
 ### Sentence-by-sentence HU → EN
 
@@ -1507,7 +1507,7 @@ than innocent stories.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTYb5Q4Ddg8/)
+[Reel](https://www.instagram.com/reels/DTYb5Q4Ddg8/)
 
 ### Line-by-line HU → EN
 
@@ -2048,7 +2048,7 @@ This is the key word.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTKgZVZCf0G/)
+[Reel](https://www.instagram.com/reels/DTKgZVZCf0G/)
 
 **Talán az időjárásról nem mond hülyeséget a köztévé.**
 
@@ -2110,7 +2110,7 @@ should under no circumstances set off.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DQ6Z0xsjcAf/)
+[Reel](https://www.instagram.com/reels/DQ6Z0xsjcAf/)
 
 ChatGPT said: "you’re absolutely right that by this point you were “collecting captions”, but this one still paid off linguistically."
 
@@ -2194,7 +2194,7 @@ ChatGPT said: "you’re absolutely right that by this point you were “collecti
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTZxr7-jkGr/)
+[Reel](https://www.instagram.com/reels/DTZxr7-jkGr/)
 
 ### Sentence-by-sentence HU → EN
 

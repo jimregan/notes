@@ -1,0 +1,202 @@
+northern-sami-asr/README.md at main · aalto-speech/northern-sami-asr
+https://github.com/aalto-speech/northern-sami-asr/blob/main/README.md
+
+getman24b_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.pdf
+
+New Baseline in Automatic Speech Recognition for Northern Sámi
+https://aclanthology.org/W18-0208.pdf
+
+Improved Subword Modeling for WFST-Based Speech Recognition
+https://www.isca-archive.org/interspeech_2017/smit17_interspeech.pdf
+
+subword-kaldi/local/make_lfst_spm.py at master · aalto-speech/subword-kaldi
+https://github.com/aalto-speech/subword-kaldi/blob/master/local/make_lfst_spm.py
+
+Sámi Parliament wav2vec2 ASR - a GetmanY1 Collection
+https://huggingface.co/collections/GetmanY1/sami-parliament-wav2vec2-asr
+
+aalto-speech/northern-sami-asr: Scripts for adapting large speech foundation models for Northern Sámi ASR
+https://github.com/aalto-speech/northern-sami-asr?tab=readme-ov-file
+
+GetmanY1/wav2vec2-large-sami-cont-pt-22k-finetuned · Hugging Face
+https://huggingface.co/GetmanY1/wav2vec2-large-sami-cont-pt-22k-finetuned
+
+Radio and Television Archive - Kavi
+https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/
+
+About the Sámi Parliament - Sametinget
+https://sametinget.no/about-the-sami-parliament/
+
+whisperX/whisperx/alignment.py at main · m-bain/whisperX
+https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py
+
+(1) Home / X
+https://x.com/athleticKoder/status/1992926286742724693/photo/1
+
+Grosy/wav2vec2-base-hu · Hugging Face
+https://huggingface.co/Grosy/wav2vec2-base-hu
+
+GetmanY1/wav2vec2-large-sami-22k-finetuned · Hugging Face
+https://huggingface.co/GetmanY1/wav2vec2-large-sami-22k-finetuned
+
+CTC Networks and Language Models: Prefix Beam Search Explained | by Lasse Borgholt | Corti | Medium
+https://medium.com/corti-ai/ctc-networks-and-language-models-prefix-beam-search-explained-c11d1ee23306
+
+giellagas: Giellagas-instituutin puhuttujen saamen kielten korpus | Kielipankki
+https://www.kielipankki.fi/aineistot/giellagas/
+
+The LAT platform is being discontinued | Language Bank
+https://www.kielipankki.fi/tyokalut/lat-poistuu/
+
+giellagas: The Giellagas Institute's corpus of spoken Sámi languages ​​| Language Bank
+https://www.kielipankki.fi/aineistot/giellagas/
+
+COMEDI: Editor
+https://clarino.uib.no/comedi/editor/lb-201407302
+
+prefix beam search - Google Search
+https://www.google.com/search?q=prefix+beam+search&rlz=1C5GCCM_en&oq=prefix+beam+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM0ODNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+speechbrain.decoders.ctc module — SpeechBrain 0.5.0 documentation
+https://speechbrain.readthedocs.io/en/latest/API/speechbrain.decoders.ctc.html#speechbrain.decoders.ctc.CTCPrefixBeamSearcher
+
+ctc_decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.ctc_decoder.html
+
+CTCDecoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.CTCDecoder.html#torchaudio.models.decoder.CTCDecoderLM
+
+ASR Inference with CTC Decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/main/tutorials/asr_inference_with_ctc_decoder_tutorial.html#sphx-glr-tutorials-asr-inference-with-ctc-decoder-tutorial-py
+
+Torchaudio Documentation — Torchaudio 2.9.0 documentation
+https://docs.pytorch.org/audio/stable/index.html
+
+Tech Overview - Stanford Agentic Reviewer
+https://paperreview.ai/tech-overview
+
+asr_inference_with_ctc_decoder_tutorial.ipynb - Colab
+https://colab.research.google.com/github/pytorch/audio/blob/gh-pages/main/_downloads/ade1a3c3b444796d2a34839c7ea75426/asr_inference_with_ctc_decoder_tutorial.ipynb#scrollTo=YiReGHDTWcoY
+
+CTCDecoder — Torchaudio 2.9.0 documentation
+https://docs.pytorch.org/audio/stable/generated/torchaudio.models.decoder.CTCDecoder.html#ctcdecoderlmstate
+
+torchaudio.models.decoder._ctc_decoder — Torchaudio 2.8.0 documentation
+https://docs.pytorch.org/audio/master/_modules/torchaudio/models/decoder/_ctc_decoder.html#CTCDecoder
+
+(1) Jia-Bin Huang on X: "Wondering how DeepSeek v3.2 rivals SOTA models (e.g., GPT5/Gemini 3 pro) while being ~30x cheaper? 🤔 Let's learn how the base model works! We'll focus on attention, the need for KV caching, and key ideas for improving attention (MQA/GQA/MLA/DSA). https://t.co/l8YwoUvByy https://t.co/TpOjmL7I26" / X
+https://x.com/jbhuang0604/status/1995559075900522772
+
+(1) chastronomic on X: "If you're an “ML Engineer” and you think better models come from bigger training datasets or more parameters, then the DeepSeekMath-V2 is for you. DeepSeekMath-V2 proves something fundamental: a model that can verify its own reasoning can outperform models that are larger, more https://t.co/FgE09jt3I5" / X
+https://x.com/chastronomic/status/1994336555490775186
+
+kensho-technologies/pyctcdecode: A fast and lightweight python-based CTC beam search decoder for speech recognition.
+https://github.com/kensho-technologies/pyctcdecode
+
+docs.pytorch.org
+https://docs.pytorch.org/audio/2.5.0/tutorials/asr_inference_with_cuda_ctc_decoder_tutorial.html
+
+huggingface.co
+https://huggingface.co/waveletdeboshir/gigaam-ctc
+
+github.com
+https://github.com/salute-developers/GigaAM
+
+huggingface.co
+https://huggingface.co/waveletdeboshir/gigaam-ctc/blob/main/gigaam_transformers.py
+
+x.com/akshay_pachaar/status/1993306443593007353
+https://x.com/akshay_pachaar/status/1993306443593007353
+
+LLMs-from-scratch/ch05/13_olmo3/standalone-olmo3.ipynb at main · rasbt/LLMs-from-scratch
+https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/13_olmo3/standalone-olmo3.ipynb
+
+Calculus for Mathematicians, Physicists, and Computer Scientists
+https://mathcs.holycross.edu/~ahwang/print/calc.pdf
+
+NLP Call For Papers for Conferences, Workshops and Journals at WikiCFP
+http://wikicfp.com/cfp/call?conference=NLP&page=2
+
+DNLP 2026 : 7th International Conference on Data Mining and NLP
+http://wikicfp.com/cfp/servlet/event.showcfp?eventid=185021&copyownerid=46167
+
+International Journal on Natural Language Computing (IJNLC)
+https://airccse.org/journal/ijnlc/
+
+VarDial 2026 : The Thirteenth Workshop on NLP for Similar Languages, Varieties and Dialects
+http://wikicfp.com/cfp/servlet/event.showcfp?eventid=190507&copyownerid=195755
+
+Instagram
+https://www.instagram.com/reels/DRuy9nxjLMA/
+
+Basic plan draft
+https://chatgpt.com/c/6925c5ab-f744-832c-aaa7-7d3b6bada850
+
+Untitled document - Google Docs
+https://docs.google.com/document/d/17IKUR-TRwPEgV9DBFHSbJpNOlcLgDyhY-EaeVaK_TDg/edit?tab=t.0
+
+Sameradion
+https://www.sverigesradio.se/sameradion
+
+Stivra sivahuvvo bealálašvuođas - Sameradion | Sveriges Radio
+https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+
+view-source:https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+view-source:https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+
+view-source:https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+view-source:https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+
+Stivra sivahuvvo bealálašvuođas - Sameradion | Sveriges Radio
+https://www.sverigesradio.se/artikel/stivra-sivahuvvo-bealalasvuodas
+
+Oddasat - Nyheter - Iditboddu 27 november 2025 - Sameradion | Sveriges Radio
+https://www.sverigesradio.se/avsnitt/2699668
+
+Oddasat - Nyheter 24 november 2025 - Sameradion | Sveriges Radio
+https://www.sverigesradio.se/avsnitt/2695289
+
+Sameradion
+https://www.sverigesradio.se/sameradion
+
+view-source:https://www.sverigesradio.se/sameradion
+view-source:https://www.sverigesradio.se/sameradion
+
+Tablå Sameradion - Sveriges Radio
+https://www.sverigesradio.se/kanaler/tabla/sameradion?datum=2025-12-01
+
+Sameradiopodden - alla avsnitt | Sveriges Radio
+https://www.sverigesradio.se/sameradiopodden
+
+Meänraatio
+https://www.sverigesradio.se/meanraatio
+
+Tablå Sameradion - Sveriges Radio
+https://www.sverigesradio.se/kanaler/tabla/sameradion
+
+Sameradion
+https://www.sverigesradio.se/sameradion
+
+api.sr.se/api/rss/program/2327
+https://api.sr.se/api/rss/program/2327
+
+RSS and Podcasting - Radio Sweden | Sveriges Radio
+https://www.sverigesradio.se/artikel/579735
+
+api.sr.se/api/rss/pod/4901
+https://api.sr.se/api/rss/pod/4901
+
+api.sr.se/api/rss/program/2054
+https://api.sr.se/api/rss/program/2054
+
+Sameradion | Sveriges Radio
+http://web.archive.org/web/20240331235801/https://sverigesradio.se/sameradion
+
+RESOURCEFUL-2026 | resourceful-2026
+https://resourceful-workshop.github.io/resourceful-2026/
+
+en.wikipedia.org
+https://en.wikipedia.org/wiki/Northern_S%C3%A1mi#Phonology
+
+
