@@ -1219,3 +1219,7 @@ Hát húsztól harminc éves korig erőmű.
 És harminctól negyvenig?
 
 Az remekmű.
+
+És a tiedet?
+
+Az már csak emlék­mű.
