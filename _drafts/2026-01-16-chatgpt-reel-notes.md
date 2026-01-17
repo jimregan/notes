@@ -1429,6 +1429,12 @@ Jegyek a kommenteknél!
 
 [Reel](https://www.instagram.com/reels/DTYd403j1C9/)
 
+[00:00.000 --> 00:02.000]  Te megított az összes kulácsamú?
+[00:02.000 --> 00:07.500]  Igen, Bob, és most akkor át fogok böfögni, hogy egy 80-as életben a kultikus anime-ben is hallani fogjátok.
+[00:07.500 --> 00:08.500]  No, ezt nem hiszem!
+[00:08.500 --> 00:09.500]  No, figyelj!
+[00:11.000 --> 00:12.500]  Leave me alone!
+
 -----
 
 [Reel](https://www.instagram.com/reels/DTN4O7fguHs/)
