@@ -816,68 +816,52 @@ because I’ll be bringing the next experience from Ireland soon.
 ### Line-by-line translation
 
 **Te se hitted el elsőre, hogy befagyott a Medve-tó. Nyugi, nem vagy egyedül.**
+
 You didn’t believe it at first either that Medve-tó froze over. Relax — you’re not alone.
 
 **Mert igen, a Medve-tó sós, és igen, mégis be tud fagyni. Hogy hogyan?**
+
 Because yes, Medve-tó is salty — and yes, it can still freeze. How?
 
 **Amikor tartós, csípős hideg van, főleg szélcsendes időben, a tó tetején megjelenik egy vékony édes vízréteg.**
+
 When there’s prolonged, biting cold — especially in windless weather — a thin layer of fresh water appears on the surface of the lake.
 
 **Ez esőből, hóból, patakvízből gyűlik össze és szépen ráül a sós víz tetejére.**
+
 It accumulates from rain, snow, and stream water, and neatly settles on top of the salty water.
 
 **Na ez az a rész, ami télen jéggé válik.**
+
 Now *this* is the part that turns into ice in winter.
 
 **Legalábbis azokon a teleken, mint amilyen a mostani.**
+
 At least in winters like the current one.
 
 **Alatta közben a sós víz melegen marad és nem keveredik fel.**
+
 Meanwhile underneath, the salty water stays warm and doesn’t mix.
 
 **Ezt hívják heliótermiának, és ezért olyan különleges a Medve-tó.**
+
 This is called heliothermy, and that’s why Medve-tó is so special.
 
 **És nem, ez nem egyszeri csoda, régebbi, hidegebb teleken már többször is előfordult,**
+
 And no — this isn’t a one-off miracle; it has already happened several times in older, colder winters,
 
 **archív fotók is bizonyítják.**
+
 as archival photos also prove.
 
 **A Medve-tó tehát most is csak azt csinálja, amit mindig.**
+
 So Medve-tó is simply doing what it always does.
 
 **Meglep, alkalmazkodik és még télen is lenyűgöz.**
+
 It surprises, adapts, and amazes — even in winter.
-
----
-
-### What’s going on visually (why this explanation works)
-
-![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Maeve%26druid.jpg/250px-Maeve%26druid.jpg)
-
-![Image](https://www.valeaverde.com/wp-content/uploads/2025/01/lacul-ursu-iarna.jpg)
-
-![Image](https://www.mdpi.com/water/water-16-00888/article_deploy/html/images/water-16-00888-g001.png)
-
-![Image](https://www.researchgate.net/publication/329188637/figure/fig2/AS%3A865847342022666%401583445501499/Schematic-diagram-of-the-salinity-gradient-solar-pond-with-heat-addition-from-evacuated.ppm)
-
-* The **freshwater cap** freezing on top of a **warm saline layer** is counter-intuitive, so the narration repeatedly reassures the listener (*igen… igen… mégis*).
-* The speaker’s calm, even cadence mirrors the **layering** he’s describing — nothing dramatic, just steady explanation.
-
----
-
-### Tone & delivery (why the voice is pleasant)
-
-* **Direct address** (*Te se hitted el… Nyugi*) pulls you in without hype.
-* **Short confirmation beats** (*igen… igen…*) build trust.
-* **Measured tempo**, no punchlines, no urgency — very “public science radio” Hungarian.
-* Ends on a **triadic close** (*meglep, alkalmazkodik, lenyűgöz*), which feels complete and satisfying.
-
-This is informational content that *sounds* confident without sounding performative.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -896,27 +880,6 @@ This is informational content that *sounds* confident without sounding performat
 * **nem egyszeri csoda** – “not a one-off miracle”; demystifying move.
 * **tehát** – “so / therefore”; gentle logical closure.
 * **lenyűgöz** – amazes; elevated but common in nature talk.
-
----
-
-### Why this is excellent “background noise” input
-
-* High **signal-to-noise** despite being informational
-* Minimal slang, but very **natural spoken syntax**
-* Builds intuition for:
-
-  * explanatory pacing
-  * scientific Hungarian without jargon overload
-  * reassurance strategies (*nyugi, igen, legalábbis*)
-
-If you want next, we can:
-
-* annotate **prosodic anchors** (why it’s easy to follow by ear), or
-* predict **ASR stability** line by line (this one’s unusually robust), or
-* contrast this with a **hyped TikTok science voice** and see what changes linguistically.
-
-Send the next one whenever.
-
 
 -----
 
