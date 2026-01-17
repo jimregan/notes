@@ -467,3 +467,15 @@ or should I tell your mother what you do in incognito mode?
 * **miért csak akkor jössz, amikor…** – stereotypical reproach formula; very reusable in humour.
 * **kis X-kurva** – diminutive + insult; *not literal*, used for contempt and jealousy.
 * **inkognitó mód** – incognito mode; tech term fully integrated into everyday Hungarian insults.
+
+-----
+
+[Reel](https://www.instagram.com/reel/DTChTNqlz1_/)
+
+-----
+
+[Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
+
+------
+
+[Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
