@@ -487,25 +487,28 @@ if you *start saving now* for your *older, future self*.
 
 [Reel](https://www.instagram.com/reels/DSdHpmFiFrX/)
 
-Egyik randin mondta, hogy fel fog menni kocsival alap. Ja ja. és mondja, hogy megjött nhetnék, keresem a kocsiát,
-hond a cívik, ebből csinál, de én ebből nem fogok belejvenni, fú, se a fél szállandbárba, se a kocsi be.
-Inkább a különces búzik.
-És akkor érted még a másikot fúzik, és még agya alá alóvat.
-Úgyhogy egyszerűen nem tudom mi volt ez a videó, vagy honnan lett kivágva, de örülök, hogy csak ennyit láttam belőle.
-Nem szeretnék nagyon csúnyákat mondani, ugyanis ezt a komment szekcióban a férfiak már megtették előttem.
-Dehát ugye azokra a férfiakra, akik az ilyen videókalács csúnyákat kommentennek rá lehet húzni, hogy hát ezek biztos a komplekszusosak.
-Úgyhogy most haddra a gályok rá, mint nő.
-Minden nőnek a saját döntés az, hogy mikor, miben ő bele.
-Csak kérlek szépen lányok az interneten, de ne terjesszük már ezt az írdatlan szar értékrendeket, amikkel meg vagy tokáldva néha.
-Ugyanis ezzel saját nőtársaitokat alázzátok meg, de van itt egy mégigető probléma.
-Mi van akkor, hogyha ezt a videót egy nálad fiatalabb látja, már nem kics lány, ha azt náladtja az internetet, te kincsünk el a gyerekektől, hanem tényleg egy fiataltini.
-És mondjuk neki tetszenek a tetkóid, azt mondja, hogy folyzalálj, milyen jól néz ki, milyen menő, így akarok kinézni, sa többi, és meghallgatja tőled ezt.
-És akkor az ő fejében ez, mi van a tetkóid, vagy bármiid, tetszik neki.
-Ezért az ő fejében ez úgy fog megszületni, hogy az, amit te mondasz, az kurva jó.
-Akkor ez bejépül a kis fiatal a tudatába, és majd a barátnőinek és mindenki másnak is mondja ugye ezt, hogy hát ilyen egy Honda Civic-ben nem fog bejönni,
-mert azt láttam, hogy az a menő lány ő semmőlebe.
-Csak tanuljuk már meg azt, hogy a kimondott szavaknak súja van, és ne beszéljünk fosságokat az interneten, köszönöm.
-Ugyanis a mai férfiakat tekintve ezer szer rosszabb dolgok vannak bennük annál, hogy éppen milyen autóban ülnek.
+> Egyik randin mondta, hogy fel fog menni kocsival alap. Ja ja. És mondja, hogy megjött majd megyek ki. Keresek valami izé. 
+> Keresem a kocsiát, Honda Civic, bocsánat de én ebbe nem fogok beleülni
+> Se a fiatalemberbe, se a kocsiba. Inkább a kilences busz.
+
+Nogy problémák.
+
+És akkor érted még a másik ott fúzik, és még adya alá a lovat.
+Egyszerűen nem tudom mi volt az a videó, vagy honnan lett kivágva, de örülök, hogy csak ennyit láttam belőle.
+Nem szeretnék nagyon csúnyákat mondani, ugyanis ezt a kommentszekcióban a férfiak már megtették előttem.
+De hát ugye azokra a férfiakra, akik az ilyen videók alá csúnyákat kommentelnek rá lehet húzni, hogy hát ezek biztosak komplexusosak.
+Úgyhogy most hadd reagályak rá, mint nő.
+Minden nőnek a saját döntése az, hogy mikor mibe ül bele.
+Csak kérlek szépen lányok az interneten, de ne terjesszük már ezt az írdatlan szar értékrendeket, amikkel meg vagytok áldva néha.
+Ugyanis ezzel saját nőtársaitokat alázzátok meg. De van itt egy még égetőbb probléma:
+Mi van akkor, ha ezt a videót egy nálad fiatalabb látja? Már nem kislány, használhatja az internetet tekinsünk el a gyerekektől, hanem tényleg egy fiatal tini.
+És mondjuk neki tetszenek a te tetkóid. Azt mondja, hogy fú ez a lany milyen jól néz ki milyen menő így akarok kinézni stb. És meghallgatja tőled ezt.
+És akkor az ő fejében ez mivel a tetkóid vagy bármid tetszik neki
+ezért az ő fejében ez úgy fog megszületni hogy az amit te mondasz az kurva jó.
+Akkor ez beépül a kis fiatal tudatába, és majd a barátnőjének és mindenki másnak is mondja ugyanezt, hogy hát én egy Honda Civic-be nem fogok beülni,
+mert azt láttam, hogy az a menő lány ő sem ülne be.
+Csak tanuljuk már meg azt hogy a kimondott szavaknak súlya van, és ne beszéljünk faszságokat az interneten. Köszönöm.
+Ugyanis a mai férfiakat tekintve ezerszer rosszabb dolgok vannak bennük annál hogy éppen milyen autóban ülnek.
 
 -----
 
