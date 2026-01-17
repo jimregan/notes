@@ -1635,15 +1635,92 @@ I hope the little sauna can begin. *Are you ready?*
 
 [Reel](https://www.instagram.com/reels/DTlJc0tineE/)
 
-A Magyarországi klubkültúra haldoklik...
-Mért az egész arról szól, hogy ki tud tok metinné, ki tud többet inni ki tud többet költeni piára
-ki ül a VIP-asztaloknál és, hogy ki kivel kavart az nap.
-És a legrosszabb része, hogy aztán a másnaposágra elmegy az egész hétvégéd.
-Nem lettek új barátaid, Nem Shazamozhattál le egy új számot se, nem viszel haza semmilyen új élményt.
-Mi azért indítottuk el a LINDOS-t, mert szerintünk ez lehet máshogy is.
-Mi is imadunk táncolni, jó zenéket hallgatni, barátainkkal lenni vagy új jófej embereket megismerni.
-De ezt nem úgy akarjuk, hogy ez egész hétvégenk rá menjen.
-Mi létre akarunk hozni egy jófej, érett barátságos közösséget,
-ahonnan jó élményekkel térhetünk haza az este végén.
-Ha egy alternatív bulizási eményre vágysz, akkor csatlakozz hozzánk a Palazzó-ban Januar 23-án.
-A bulival kapcsolatos további részleteket pedig keressétek az insta oldalunkon.
+### Line-by-line translation
+
+**A Magyarországi klubkultúra haldoklik…**
+Hungarian *club culture* is *dying*…
+
+**Miért az egész arról szól, hogy ki tud többet inni,**
+Why is everything about *who can drink more*,
+
+**ki tud többet költeni piára,**
+who can *spend more money on alcohol*,
+
+**ki ül a VIP-asztaloknál,**
+who gets to *sit at the VIP tables*,
+
+**és hogy ki kivel kavart aznap.**
+and *who hooked up with whom* that night.
+
+**És a legrosszabb része, hogy aztán a másnaposságra elmegy az egész hétvégéd.**
+And the *worst part* is that the *hangover* ends up *wasting your entire weekend*.
+
+**Nem lettek új barátaid,**
+You *didn’t make any new friends*,
+
+**nem Shazamozhattál le egy új számot se,**
+you *couldn’t even Shazam a new track*,
+
+**nem viszel haza semmilyen új élményt.**
+you don’t take *any new experiences* home.
+
+**Mi azért indítottuk el a LINDOS-t, mert szerintünk ez lehet máshogy is.**
+We launched *LINDOS* because we believe *it can be done differently*.
+
+**Mi is imádunk táncolni,**
+We also *love dancing*,
+
+**jó zenéket hallgatni,**
+listening to *good music*,
+
+**barátainkkal lenni,**
+spending time with *our friends*,
+
+**vagy új, jófej embereket megismerni.**
+or *meeting new, cool people*.
+
+**De ezt nem úgy akarjuk, hogy az egész hétvégénk rámenjen.**
+But we don’t want to do this in a way that *costs us the entire weekend*.
+
+**Mi létre akarunk hozni egy jófej, érett, barátságos közösséget,**
+We want to *create* a *cool, mature, friendly community*,
+
+**ahonnan jó élményekkel térhetünk haza az este végén.**
+from which we can *go home with good experiences* at the end of the night.
+
+**Ha egy alternatív bulizási élményre vágysz,**
+If you’re *looking for an alternative partying experience*,
+
+**akkor csatlakozz hozzánk a Palazzóban január 23-án.**
+then *join us* at *Palazzo* on *January 23*.
+
+**A bulival kapcsolatos további részleteket pedig keressétek az Insta-oldalunkon.**
+For further details about the event, *check our Instagram page*.
+
+### Notes on tone & register
+
+* This is **earnest promotional language**, not irony.
+* Vocabulary sits in a **young-adult / lifestyle / community-building** register.
+* Notice the repeated contrast structure: **“nem X … hanem Y”** (not this, but that), common in persuasive Hungarian.
+
+### Vocabulary & phrases
+
+* **klubkultúra** – club culture
+* **haldoklik** – is dying (figurative)
+* **piára költeni** – to spend on booze
+* **VIP-asztal** – VIP table
+* **kavar (vkivel)** – to hook up with someone (informal)
+* **másnaposság** – hangover
+* **elmegy (idő, pénz)** – gets wasted / is used up
+* **Shazamozni** – to Shazam a song
+* **élmény** – experience
+* **elindít (projektet)** – to launch (a project)
+* **jófej** – cool, nice, easygoing
+* **rámegy (idő, energia)** – to cost / to take a toll
+* **létrehoz** – to create, establish
+* **tér haza** – to return home
+* **vágysz vmire** – you long for / are looking for something
+* **csatlakozz hozzánk** – join us
+* **további részletek** – further details
+
+If you want, next time I can also **flag phrases that are especially reusable in conversation** vs. ones that are more *ad-copy specific*.
