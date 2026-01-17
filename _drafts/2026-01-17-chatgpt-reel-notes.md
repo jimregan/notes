@@ -813,17 +813,17 @@ because I’ll be bringing the next experience from Ireland soon.
 
 [Reel](https://www.instagram.com/reel/DTk2mXaCEnW/)
 
-[00:00.000 --> 00:03.940]  Te se hitted el elsőre, hogy befagyottam Edvetó. Nyugi, nem vagy egyedül.
-[00:03.940 --> 00:07.980]  Mert igen, a medvetó sós, és igen, mégis be tud fagydni. Hogy hogyan?
-[00:07.980 --> 00:13.980]  Amikor tartós, csípős hirek van, főleg szélcsendes időben a tó tetei megjelenik egy végkony édes vízréteg.
-[00:13.980 --> 00:19.080]  Ez esőből, hoból, patak vízből gyűlik össze is, szépen ráül a sós víz teteire.
-[00:19.080 --> 00:21.320]  Na ez az a rész, ami tényleg égé válik.
-[00:21.320 --> 00:23.820]  Legalábbis azokon a teleken, mint amilyen a mostani.
-[00:23.820 --> 00:27.060]  Alatt a közben a sós víz melegebb maradés nem keveredik fel.
-[00:27.060 --> 00:31.060]  Ezt hívják Helió termiának, és ezért olyan különleges a medvetó.
-[00:31.060 --> 00:35.560]  És nem. Ez nem egyszeri csoda. Régebbi hidegeb teleken már többször is előfordult,
-[00:35.560 --> 00:40.560]  arhív fotok is bizonyítják, a medvetó tehát most is csak azt csinálja, amit mindig.
-[00:40.560 --> 00:44.060]  Meglep, alkalmazkodik, és még télen is lenyőgöz.
+Te se hitted el elsőre, hogy befagyottam Edvetó. Nyugi, nem vagy egyedül.
+Mert igen, a medvetó sós, és igen, mégis be tud fagydni. Hogy hogyan?
+Amikor tartós, csípős hirek van, főleg szélcsendes időben a tó tetei megjelenik egy végkony édes vízréteg.
+Ez esőből, hoból, patak vízből gyűlik össze is, szépen ráül a sós víz teteire.
+Na ez az a rész, ami tényleg égé válik.
+Legalábbis azokon a teleken, mint amilyen a mostani.
+Alatt a közben a sós víz melegebb maradés nem keveredik fel.
+Ezt hívják Helió termiának, és ezért olyan különleges a medvetó.
+És nem. Ez nem egyszeri csoda. Régebbi hidegeb teleken már többször is előfordult,
+arhív fotok is bizonyítják, a medvetó tehát most is csak azt csinálja, amit mindig.
+Meglep, alkalmazkodik, és még télen is lenyőgöz.
 
 -----
 
