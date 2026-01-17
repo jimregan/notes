@@ -44,6 +44,8 @@ in a *Polish zoo*
 
 [Reel](https://www.instagram.com/reels/DNdLGQBIlQQ/)
 
+(No captions)
+
 Ha vársz a buszra, és nem jön, varsz egy késik.
 Ha buszra jöttél, akkor, gondolom, nem gyalog.
 Ha nincs jegyed, vegyél.
@@ -121,7 +123,7 @@ That sounds good! *Help me out!* I want a section too!
 
 **Ne haragudj, de most sietnem kell, mielőtt befoglalják a francia rudat a teremben.**
 
-Sorry, but I have to hurry now, *before the French loaf gets booked* in the room.
+Sorry, but I have to hurry now, before someone reserves the EZ bar at the gym.
 
 **Au revoir, Eszter!**
 
@@ -150,3 +152,9 @@ Bye, *J’enő!*
 * **töltött** – filled / stuffed
 * **ne haragudj** – sorry / don’t be upset
 * **sietnem kell** – I have to hurry
+* **francia rúd** – EZ bar (gym equipment)
+
+-----
+
+[Reel](https://www.instagram.com/reel/DThkp7kiLYq/)
+
