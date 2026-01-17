@@ -829,18 +829,18 @@ Meglep, alkalmazkodik és még télen is lenyűgöz.
 
 [Reel](https://www.instagram.com/reel/DTmrTczjWja/)
 
-[00:00.000 --> 00:05.000]  Fugyum, utatok neked három csajt ebből, hogyha kettőt ki találsz, hogy mennyi a badikányotja, akkor nyersz egy négykezes masszás.
-[00:05.000 --> 00:09.800]  Négykezes? Úristen, ha már két kézzel masszíroznak, az is brutáljó jezés, de négykézzel.
-[00:09.800 --> 00:11.800]  Na, tehát akkor ő lenne az első.
-[00:11.800 --> 00:14.400]  Ú, hát szerintem ő 32.
-[00:14.400 --> 00:15.800]  Na ő a kövi.
-[00:15.800 --> 00:18.400]  Ú, hát ő szerintem 0.
-[00:18.400 --> 00:20.200]  Na és ő lenne a 3-tig.
-[00:20.200 --> 00:23.200]  Vájj, ő az exzem. Egy biztos vannak.
-[00:23.200 --> 00:30.000]  Hát sajnos, csak az egyik volt jó, de ahogyha követed a szenténytány masszás szalonnak a tiktok oldalát, akkor kapsz alyendékba egy 60 perces masszás.
-[00:30.000 --> 00:33.800]  Szuper tényleg követsz minket, akkor téged is az alyendék utalvány.
-[00:33.800 --> 00:37.200]  Kövessetek be minket tiktokon, mert lehet, hogy legkuszel veletek futunk össze az utcán.
-[00:37.200 --> 00:39.600]  A badikám tipeket ferig várom a komment sekszióban.
+Fugyum, utatok neked három csajt ebből, hogyha kettőt ki találsz, hogy mennyi a badikányotja, akkor nyersz egy négykezes masszás.
+Négykezes? Úristen, ha már két kézzel masszíroznak, az is brutáljó jezés, de négykézzel.
+Na, tehát akkor ő lenne az első.
+Ú, hát szerintem ő 32.
+Na ő a kövi.
+Ú, hát ő szerintem 0.
+Na és ő lenne a 3-tig.
+Vájj, ő az exzem. Egy biztos vannak.
+Hát sajnos, csak az egyik volt jó, de ahogyha követed a szenténytány masszás szalonnak a tiktok oldalát, akkor kapsz alyendékba egy 60 perces masszás.
+Szuper tényleg követsz minket, akkor téged is az alyendék utalvány.
+Kövessetek be minket tiktokon, mert lehet, hogy legkuszel veletek futunk össze az utcán.
+A badikám tipeket ferig várom a komment sekszióban.
 
 -----
 
