@@ -1208,45 +1208,47 @@ Because *you were the 206th*.
 
 [Reel](https://www.instagram.com/reels/DPJQtPxDE6t/)
 
-Egyik haverom a annyira jóba vagyok, hogy megkívotta legény búcsújára.
-Oda mentünk, igen, strip-tizk klubba, kis érdekesség,
-ha egy csomó mesztelőn nő között egyedül vagy felöltözve, téged néznek.
-Én egész jól éreztem magamat, a lányok is tudtak pihenni, szépesténk volt.
-És meg kellett mennem egy lány búcsúra, jött a remek ötlet.
-Menjünk csippendél sóba.
+Egyik haverommal annyira jóban vagyok, hogy megkívott a legény búcsújára.
+Odamentünk, igen, sztriptíz klubba. Kis érdekesség,
+ha egy csomó mesztelen nő között egyedül vagy felöltözve... Téged néznek.
+Én egész jól éreztem magamat. A lányok is tudtak pihenni. Szép esténk volt. Tényleg.
+És kellett mennem egy lánybúcsúra. Jött a remek ötlet.
+Menjünk csippendélsóba!
 Hát mondom, menjünk, már ismerem a járást.
-És az meg olyan fura volt, mert nagyon szépek voltak a fiúk, de levették a ruhájukat,
-és akkor maradt rajtuk az a nagyon picit bogyi.
+És az meg olyan fura volt, mert ööh nagyon szépek voltak a fiúk, de levették a ruhájukat
+és akkor maradt rajtuk az a nagyon pici bugyi.
 Miért?
-De tényleg gyönyörűek voltak a fiúk, levették a ruhájukat, és ott álltak abban nagyon picit bogyi,
-ahogy nem tudom.
-Tehát, hogy az a bajom, hogy én harminc évig láttam a balatomból, ilyen fecskébe kiönni, apám.
-Ezeken nem szeksi, szóval...
-Megálltok egy férfit egy ilyen búgyiba, az az első reakcióm, hogy vegyünk fagyítná.
-Vannak a múlt lényeges különbségek.
-Stipti sóba annyi volt, kiött a nő, levette a meltatóját visszamen csippendél sómás volt.
+De tényleg gyönyörűek voltak a fiúk, levették a ruhájukat és ott álltak abban nagyon pici bogyiban,
+hogy... Nem tudom.
+Tudod lehet, hogy az a bajom, hogy én harminc évig láttam a Balatonból, ilyen fecskében kijönni, apám...
+Ez nekem nem szexi. Szóval...
+meg látok egy férfit egy ilyen búgyiban, az az első reakcióm, hogy vegyünk fagyít, na?
+Vannak amúgy lényeges különbségek.
+Sztriptízs showban annyi volt. Jött a nő, levette a melltartóját, visszament. A csippendélsó más volt.
+Ugye?
 Nőknek más kell.
-Te künk kell a történet.
-Voltott minden rendőr, tűzoltó, póstás.
-Ugye, mert a nőknek kell a biztonság, hogy kiön valaki?
-Ó, de hol néz ki?
-Így vagyom a munkáj.
-Vannak ki.
-Vett közribantz, és akkor...
-Te is fel tud száni a fantázia vonatára.
+Nekünk kell a történet.
+Volt ott minden, rendőr, tűzoltó, póstás.
+Ugye?
+Mert a nőknek kell a biztonság, hogy kijön valaki.
+"Ó, de jol néz ki...
+vajon van munkája?"
+Van neki!
+Vetközni bantsz, és akkor
+te is fel tudsz állni a fantázia vonatára.
 Ezért épülnek ezek a helyek.
-Meg volt a legkínosabb, főüktek szegély menjasszonyt a színpadra,
-két sárc elkezdett táncolni körülötte,
-a fővált adni a lazát meg a vagellnyat,
-de azért látszott, hogy nem őszinte a mosolja,
-szóval inkább tolta, mint húzta a fiúkat,
-és szerintem ez egy lényeges különbség.
-Szerintem egy férfinak az,
+Megvolt a legkínosabb. Felhívkták szegély menyasszonyt a színpadra.
+Két srác elkezdett táncolni körülötte.
+Próbálta adni a lazát meg a vagányat,
+de azért látszott, hogy nem őszinte a mosolya,
+szóval inkább tolta, mint húzta a fiúkat.
+És szerintem ez egy lényeges különbség.
+Szerintem egy öh férfinak az,
 hogy egy ismeretlen nő megmutatja a mellét,
-az egyizgalmas dolog.
+az egy izgalmas dolog.
 Egy nőnek az, hogy egy ismeretlen férfi
-kérletlenül oda nyomja a farkát,
-az nem olyan ritka.
+kérletlenül odanyomja a farkát...
+Az nem olyan ritka.
 
 -----
 
