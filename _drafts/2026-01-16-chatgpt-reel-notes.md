@@ -1412,18 +1412,74 @@ That’s *just a monument now*.
 
 [Reel](https://www.instagram.com/reels/DTX60MyAFgc/)
 
-Kampányidőszak van? ön elfoglalt politikus? bokros teendői mellett, nem ér rá havat lapátólni, vagy csak egyszerűen nincs kedve megfagyni az utcán?
-Akkor a Hólapát 2026 selfie generátort önnek találták ki. Egy kattintással lapátóljon havat közterületen, bent a szobában, naplementében, tengerparton, vagy akár a Júpiter egyik holdján is.
-Külön havas bakancs, piros- és taknyosorr effektek, hogy ön hiteles politikusnak tűnjön, mert mi ügyelünk a résztetekre!
-Ha tetszett próbálja ki gyermekekkel, idős emberekkel és kisállatokkal szelfiző generátorunkat is!
-Ha most megrendeli csomagunkat, akkor bonuszként egy átadó felavató képgenerátort kap ajándékba, amivel igazi ollókezűvé válhat!
-Ne hagyj aki ön se, a sikeres politikusok alkalmazását!
-Bruti önálló estek:
-Dunaújváros
-hódmezővásárhely
-tatabányá
-szombathely
-Jegyek a kommenteknél!
+### Line-by-line translation
+
+**Kampányidőszak van? Ön elfoglalt politikus?**
+Is it *campaign season*? Are you a *busy politician*?
+
+**Bokros teendői mellett nem ér rá havat lapátolni, vagy csak egyszerűen nincs kedve megfagyni az utcán?**
+With all your *pressing duties*, don’t you have time to shovel snow, or do you simply not feel like *freezing on the street*?
+
+**Akkor a Hólapát 2026 selfie generátort önnek találták ki.**
+Then the *Snow-Shovel 2026 selfie generator* was made just for you.
+
+**Egy kattintással lapátoljon havat közterületen, bent a szobában, naplementében, tengerparton, vagy akár a Jupiter egyik holdján is.**
+With one click, *shovel snow* in a public space, indoors, at sunset, on a beach, or even on *one of Jupiter’s moons*.
+
+**Külön havas bakancs, piros- és taknyosorr effektek, hogy ön hiteles politikusnak tűnjön, mert mi ügyelünk a részletekre!**
+Special snowy boots, *red-nose and snotty-nose effects*, so you look like a *credible politician*, because *we take care of the details*.
+
+**Ha tetszett, próbálja ki gyermekekkel, idős emberekkel és kisállatokkal szelfiző generátorunkat is!**
+If you liked it, try our *selfie generator with children, elderly people, and pets* as well!
+
+**Ha most megrendeli csomagunkat, akkor bónuszként egy átadó-felavató képgenerátort kap ajándékba, amivel igazi ollókezűvé válhat!**
+If you order our package now, you’ll get a *ribbon-cutting inauguration image generator* as a bonus, with which you can become a real *scissor-hands* figure!
+
+**Ne hagyja ki ön se a sikeres politikusok alkalmazását!**
+Don’t miss out either on the *toolset of successful politicians*!
+
+**Bruti önálló estek:**
+Bruti *solo shows*:
+
+**Dunaújváros
+Hódmezővásárhely
+Tatabánya
+Szombathely**
+(city list)
+
+**Jegyek a kommenteknél!**
+Tickets *in the comments*!
+
+### Notes on tone & humor
+
+This is a **satirical fake advertisement**, mocking:
+
+* performative politics (photo-ops instead of action),
+* campaign imagery (snow shoveling, ribbon cutting),
+* and AI/selfie culture applied to *political credibility*.
+
+The exaggeration (Jupiter’s moon, snot effects) signals parody very clearly.
+
+### Vocabulary & phrases
+
+* **kampányidőszak** – campaign period
+* **elfoglalt** – busy
+* **bokros teendők** – pressing / numerous duties
+* **nem ér rá** – doesn’t have time
+* **havat lapátolni** – to shovel snow
+* **megfagyni** – to freeze
+* **önnek találták ki** – was made for you specifically
+* **egy kattintással** – with one click
+* **közterület** – public space
+* **hiteles** – credible, authentic
+* **ügyel a részletekre** – to pay attention to details
+* **bónuszként / ajándékba** – as a bonus / as a gift
+* **átadó-felavató** – inauguration / ribbon-cutting (political ceremony)
+* **ollókezű** – literally “scissor-handed” (here: someone constantly cutting ribbons)
+* **önálló est** – solo stand-up show
+
+If you want, next time I can also mark **which phrases sound especially “ad-like”** versus **spoken Hungarian**, since this text deliberately imitates marketing language.
+
 
 -----
 
