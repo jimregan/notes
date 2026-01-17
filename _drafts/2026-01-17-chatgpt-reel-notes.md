@@ -671,25 +671,25 @@ Who is this person? Step forward! Show yourselves! I don’t know.
 
 [Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
 
-Öt élmény és érdekességek Dublinról, olyanok, amiket neked is meg kell élnet.
-Az első, amit nem hagyhatsz ki, széltalan sét a belvárosban.
+Öt élmény és érdekességek Dublinról. Olyanok, amiket neked is meg kell élned.
+Az első, amit nem hagyhatsz ki: céltalan séta a belvárosban.
 Igen, tudom, hogy furán hangzik, de Dublinban sétálni tényleg élmény.
-A színes ajtók, a faburkolatok, a régi házak, a kis utcák, elképesztően jó hangulata van.
-Ráadásul garantálom, hogy sét a közben olyan helyek be fogsz belebotlanik, amik nem kicsirtesznek hozzá az út az első élményéhez.
-A második tippen, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.
-Ide tilos leptopot behozni, nincs wi-fi, nincs rohanás, amúgy meg mért nincs minden könyvesboltban kávézó.
-Dublinban egyébként több ilyen hely is van, mert az érek nagyon tudják, hogy kell elassítani.
-A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhat.
-A szarvasok több mint 300 éve foglalták el ezt a területet, még a királyi vadászatok idejéből maradtak a parkba,
+A színes ajtók, a faburkolatok, a régi házak, a kis utcák. Elképesztően jó hangulata van,
+ráadásul garantálom, hogy séta közben olyan helyekbe fogsz belebotlani, amik nem kicsit tesznek hozzá az utazás első élményéhez.
+A második tippem, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.
+Ide tilos leptopot behozni, nincs wifi, nincs rohanás. Amúgy meg miért nincs minden könyvesboltban kávézó?
+Dublinban egyébként több ilyen hely is van, mert az írek nagyon tudják, hogy kell lelassítani.
+A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhatsz.
+A szarvasok több mint 300 éve foglalták el ezt a területet. Még a királyi vadászatok idejéből maradtak a parkban,
 és azóta is ugyanannak az állománynak a leszármazottai élnek itt.
 Gyakorlatilag egy vadrezervátum van Dublin közepén.
 Egyébként a Phoenix Park, Európa egyik legnagyobb városi parkja,
-míg a New Yorki Central Parknál is nagyobb.
-A 4. helyszín, a Sandpatrick katedrálius, amit döbbenetesen néztik.
-Itt volt délkán zsonetán Swift a Gulliver utazásainak irója, és itt is van eltemetve.
-Az 5. egyben kihagyhatatlan tippen pedig a Dublini pubok több mint 700 kocsma van Dublinban.
-De itt tapább nem csak egy helyehová beülzi szavatni.
-Az itteni kocsmákban olyan élet és hangulat van, hogy biztosan sokszor vissza akarsz majd térni,
-olyan, mint egy koncerterem, egy közösségitér, egy nappali és egy terápiás szobaegyben.
-Itt meg, hogy az 5 közül neked megfelejtett a legjobban, és kövesbe,
+még a New York-i Central Parknál is nagyobb.
+A negyedik helyszín a Szent Patrick katedrális, amit döbbenetesen nézni.
+Itt volt Dékán Jonathan Swift a Gulliver utazásainak irója, és itt is van eltemetve.
+Az 5. egyben kihagyhatatlan tippem pedig a Dublini pubok. Több mint hétszaz kocsma van Dublinban,
+de itt a pub nem csak egy hely, ahová beülsz iszogatni.
+Az itteni kocsmákban olyan élet és hangulat van, hogy biztosan sokszor vissza akarsz majd térni ide.
+Olyan mint egy koncerterem, egy közösségi tér, egy nappali és egy terápiás szoba egyben.
+Ird meg, hogy az 5 közül neked melyik tetszett a legjobban, és kövess be,
 mert hamarosan hozom a következő élményt írországból.
