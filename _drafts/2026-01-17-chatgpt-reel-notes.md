@@ -472,15 +472,16 @@ or should I tell your mother what you do in incognito mode?
 
 [Reel](https://www.instagram.com/reel/DTChTNqlz1_/)
 
-férfiaknál az órgáshoz valóban a behatolás esetén történik meg a legkönnyebben, vagy a leggyossabban,
-és a nőknéle gyerünk az oránszakot találták. És ez egy ilyen érdekes kérdés, hogy egyébként milyen technikákat alkalmaz a pár,
-vagy mi az, ami ameddig terjed a felfedezésnek a határa, mi az, ami még belefér, mi az, amihez szégyen tapad,
-és te az oránszak az, amihez azért szokott szégyen érzed tapad.
-Szerintem nem kérdés. Szerintem ez a kutatást én is tudom, mindigig kiegészették, hogy ha csak hüvei behatolása volt,
-aztán ugyanaz a párnál, de kiegészítve még. És akkor értem szemhez még lehet fokozni, most nem tudom mennyire,
-legyünk itt szokimondok, és értem szemhez mindent hozzá attal, és akkor egyre jobban nőt,
-ahhoz képes, hogy ha csak hüvei behatolása van szó. Tehát hogy ez mennyina férfiak fejében szerintem egy ledöntendő dolog,
-hogy de valahol úgy monda nőkében, és akik ebbe már bele vannak ringatva, és ez így nincsen neki kát ütve.
+- Férfiaknál az órgazmus valóban a behatolás esetén történik meg a legkönnyebben, vagy a leggyorsabban.
+És a nőknél egyébként az oralis sexet találták. És azért ugye ez egy ilyen érdekes kérdés, hogy egyébként milyen technikákat alkalmaz a pár,
+vagy mi az, ami ameddig terjed a felfedezésnek a határa, mi az, ami még belefér, mi az, amihez szégyentapad,
+és talán az oralis sex az az, amihez azért szokott szégyenérzet tapadni.
+- Abszolút, ez
+szerintem nem kérdés. Szerintem ez a kutatást én is tudomm Mindig kiegészítették, hogy ha csak hüvelyi behatolással volt
+ugyanaz a párnál, de kiegészítve még. És akkor értelemszerűen ezt még lehet fokozni. Most nem tudom, mennyire
+legyünk itt szokimondóak, de értelemszerűen mindent hozzáadtak, és akkor egyre jobban nőtt
+ahhoz képest, hogy ha csak hüvelyi behatolásról van szó. Tehát ez megint a férfiak fejében szerintem egy ledöntendő dolog,
+hogy de valahol úgymond a nőkében, is akik ebbe már bele vannak ringatva, és ez így nincsen nekik átütve,
 
 -----
 
