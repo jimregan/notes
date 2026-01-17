@@ -1255,16 +1255,28 @@ az nem olyan ritka.
 ### Line-by-line translation
 
 **Papa, hogy hívják a férfiak péniszét?**
+
 Grandpa, what do men call their penis?
 
 **Hát húsztól harminc éves korig erőmű.**
+
 Well, from age twenty to thirty it’s a *power plant*.
 
 **És harminctól negyvenig?**
+
 And from thirty to forty?
 
 **Az remekmű.**
+
 That’s a *masterpiece*.
+
+**És a tiedet?**
+
+And *yours*?
+
+**Az már csak emlékmű.**
+
+That’s *just a monument now*.
 
 ### Vocabulary
 
@@ -1275,27 +1287,5 @@ That’s a *masterpiece*.
 * **húsztól … -ig** – from … to (age range)
 * **erőmű** – power plant
 * **remekmű** – masterpiece
-
-The humour hinges on **wordplay** (*erőmű* → *remekmű*) and age-based exaggeration.
-
-### Line-by-line translation
-
-**És a tiedet?**
-And *yours*?
-
-**Az már csak emlékmű.**
-That’s *just a monument now*.
-
-### Vocabulary
-
-* **és** – and
-* **a tiedet** – yours (accusative; *a tiéd* = yours)
-* **már** – already / now
-* **csak** – only / just
 * **emlékmű** – monument, memorial
 
-### Note on the joke
-
-The punchline completes the wordplay chain:
-**erőmű** (*power plant*) → **remekmű** (*masterpiece*) → **emlékmű** (*monument*).
-Same suffix (**-mű**), escalating age → escalating irony.
