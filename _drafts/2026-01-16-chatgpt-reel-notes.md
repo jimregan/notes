@@ -1527,15 +1527,16 @@ Köszönöm tök mindenkit a Pongyalapítpankot el.
 Réti Pipitérre keresztelt szauna szeánszán. Én Ádám vagyok, Közép-dunavarsányi Szauna-világbajnokság.
 Első. Helyezettje,
 és az ottani gyöztes, A Lépes Méz Pusztító Ereje című számommal készültem nektek.
-Nagyon fontos, hogy aki menetközben rosszul érzi magát, az is kurvára itt marad ugyanis ez Magyarország, tehát mi ide kibírni án nem lalagszálni, jó?
-No, illolajnak köztem nektek egy ilyen kis trómzői eukaliptus parlakfű kivonatot.
-Ezt följük majd megtobni egy ilyen kis tamperrei, bitumen kocka fenyőkát rány kivonattal.
-Erre fogjönni egy ilyen kis tőzegmuhás szalsz a szóz, sarki fénny, szérünk koncentráció kivonat, koncentrációre.
-Eztán majd meglehet fenni.
-Nagyon, nagyon fontos, hogy báré hétzer fogok szellőztetni három perc alatt a két ma egyszer kimegy.
-Az vissza nem jön, ott fog megfagyni pőrén meszrenül a hotelparkoróban, mert ezt a szabályt 30 éve behoztuk,
+Nagyon fontos, hogy aki menetközben rosszul érzi magát, az is kurvára itt marad ugyanis ez Magyarország, tehát mi ide kibírni járunk, nem relaxálni, jó?
+No, illóolajnak hoztam nektek egy ilyen kis Tromsø-i eukaliptusz-parlagfű kivonatot.
+Ezt fogyuk majd megdobni egy ilyen kis tamperei bitumenkocka-fenyőkátrány kivonattal.
+Én sem bírom...
+Erre fog jönni egy ilyen kis tőzegmohás salsa-szósz. Sarki fény szérum-koncentráció-kivonat-koncentrációval.
+Ezt nálam majd meg lehet venni.
+Nagyon, nagyon fontos, hogy bár én hétszer fogok szellőztetni három perc alatt, aki itt ma egyszer kimegy,
+az vissza nem jön, ott fog megfagyni pőrén meztelenül a hotelparkolóban, mert ezt a szabályt 30 éve behoztuk,
 és azóta senki nem változtatott rajta.
-Annyi, hogy nálam majd itt lehetben cigizni jó, csak annyi, hogy létszél a saunakőre hamózatok, mert én is odafogok.
-A végén pedig átkenjük egymást egy ilyen kis aceton konyhelyi odozó szó keveréken,
-ugyanis ez még a maradékvitamint és éretkebbet is kijölni.
-Remélem kezdődhet a kis sauna, készen által!
+Annyi, hogy nálam majd itt lehet bent cigizni, jó? Csak annyi, hogy légyszi a szaunakőre hamuzzatok, mert én is oda fogok.
+A végén pedig átkenjük egymást egy ilyen kis Aceton- Konyhai Jódozott Só keverékkel,
+ugyanis ez még a maradék vitamint és életkedvet is kiöli.
+Remélem, kezdődhet a kis szauna. Készen álltok?
