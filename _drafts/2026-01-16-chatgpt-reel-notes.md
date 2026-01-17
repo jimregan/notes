@@ -489,115 +489,152 @@ if you *start saving now* for your *older, future self*.
 
 ### Line-by-line translation
 
-**Egyik randin mondta, hogy fel fog menni kocsival, alap.**
-On one date he said he’d *come pick me up by car* — fair enough.
-
-**Ja ja. És mondja, hogy megjött, majd megyek ki.**
-Yeah, yeah. Then he says he’s arrived, I’ll go out.
-
-**Keresek valami izét.**
-I’m looking around for *something-or-other*.
-
-**Keresem a kocsiját: Honda Civic.**
-I’m looking for his car: *a Honda Civic*.
-
-**Bocsánat, de én ebbe nem fogok beleülni.**
-Sorry, but *I’m not getting into this*.
-
-**Se a fiatalemberbe, se a kocsiba. Inkább a kilences busz.**
-Neither *the young man*, nor *the car*. I’ll take *bus number 9 instead*.
+> **Egyik randin mondta, hogy fel fog menni kocsival, alap.**
+>
+> On one date he said he’d *come pick me up by car* — fair enough.
+>
+> **Ja ja. És mondja, hogy megjött, majd megyek ki.**
+>
+> Yeah, yeah. Then he says he’s arrived, I’ll go out.
+>
+> **Keresek valami izét.**
+>
+> I’m looking around for *something-or-other*.
+>
+> **Keresem a kocsiját: Honda Civic.**
+>
+> I’m looking for his car: *a Honda Civic*.
+>
+> **Bocsánat, de én ebbe nem fogok beleülni.**
+>
+> Sorry, but *I’m not getting into this*.
+>
+> **Se a fiatalemberbe, se a kocsiba. Inkább a kilences busz.**
+>
+> Neither *the young man*, nor *the car*. I’ll take *bus number 9 instead*.
 
 **Nagy problémák.**
-*Big problems.* (dry, ironic)
+
+*Big problems.*
 
 **És akkor érted, még a másik ott fújja, és még adja alá a lovat.**
+
 And then, you know, *the other one keeps egging it on* and *encouraging it even more*.
 
 **Egyszerűen nem tudom, mi volt az a videó, vagy honnan lett kivágva,**
+
 I honestly don’t know what that video was, or where it was taken from,
 
 **de örülök, hogy csak ennyit láttam belőle.**
+
 but I’m glad I only saw *this much* of it.
 
 **Nem szeretnék nagyon csúnyákat mondani,**
+
 I don’t want to say *really nasty things*,
 
 **ugyanis ezt a komment­szekcióban a férfiak már megtették előttem.**
+
 because the men in the *comment section* already did that before me.
 
 **De hát azokra a férfiakra, akik az ilyen videók alá csúnyákat kommentelnek,**
+
 But as for those men who post nasty comments under videos like this,
 
 **rá lehet húzni, hogy ezek biztos komplexusosak.**
+
 you can easily say they’re *clearly insecure*.
 
 **Úgyhogy most hadd reagáljak rá, mint nő.**
+
 So now let me respond *as a woman*.
 
 **Minden nőnek a saját döntése az, hogy mikor mibe ül bele.**
+
 Every woman has the *right to decide* when and *what she gets into*.
 
 **Csak kérlek szépen, lányok az interneten,**
+
 I’m just asking you, girls on the internet,
 
 **ne terjesszük már ezeket az irtózatosan szar értékrendeket,**
+
 please don’t *spread these horribly shitty value systems*,
 
 **amikkel meg vagytok áldva néha.**
+
 that you’re *sometimes burdened with*.
 
 **Ugyanis ezzel a saját nőtársaitokat alázzátok meg.**
+
 Because by doing this, you’re *humiliating your fellow women*.
 
 **De van itt egy még égetőbb probléma:**
+
 But there’s an *even more pressing problem*:
 
 **Mi van akkor, ha ezt a videót egy nálad fiatalabb látja?**
+
 What if someone *younger than you* sees this video?
 
 **Már nem kislány, használhatja az internetet,**
+
 Not a little child — someone who can use the internet,
 
 **tekintsünk el a gyerekektől, hanem tényleg egy fiatal tini.**
+
 let’s set children aside — but a *real young teenager*.
 
 **És mondjuk neki tetszenek a tetkóid.**
+
 And let’s say she likes your tattoos.
 
 **Azt mondja: „Fú, ez a lány milyen jól néz ki, milyen menő, így akarok kinézni.”**
+
 She thinks: *“Wow, this girl looks great, she’s so cool, I want to look like that.”*
 
 **És meghallgatja tőled ezt.**
+
 And then she hears *this* from you.
 
 **És akkor az ő fejében — mivel tetszenek neki a tetkóid vagy bármid —**
+
 And then in her head — since she likes your tattoos or whatever —
 
 **ez úgy fog megszületni, hogy amit te mondasz, az kurva jó.**
+
 this will form as: *what you’re saying is absolutely right*.
 
 **Ez beépül a fiatal tudatába,**
+
 This *gets embedded* in the young person’s mindset,
 
 **és majd a barátnőjének és mindenkinek továbbadja,**
+
 and she’ll pass it on to her friends and others,
 
 **hogy egy Honda Civicbe nem ülünk be,**
+
 that *you don’t get into* a Honda Civic,
 
 **mert azt látta, hogy a menő lány sem ülne be.**
+
 because she saw that *the cool girl* wouldn’t either.
 
 **Tanuljuk már meg, hogy a kimondott szavaknak súlya van,**
+
 Let’s finally learn that *spoken words carry weight*,
 
 **és ne beszéljünk faszságokat az interneten. Köszönöm.**
+
 and let’s *not talk bullshit* on the internet. Thank you.
 
 **Ugyanis a mai férfiakat tekintve**
+
 Because when it comes to men today,
 
 **ezerszer rosszabb dolgok vannak bennük annál, mint hogy milyen autóban ülnek.**
+
 there are *a thousand worse things* about them than *what car they’re sitting in*.
 
 ### Vocabulary
@@ -618,11 +655,6 @@ there are *a thousand worse things* about them than *what car they’re sitting 
 * **beépül a tudatba** – become ingrained in one’s thinking
 * **kimondott szavaknak súlya van** – words carry weight
 * **faszság** – bullshit (vulgar)
-
-If you want, next we can:
-
-* tighten this further by **marking rhetorical devices**, or
-* strip it down to **purely linguistic constructions** (argumentation Hungarian).
 
 -----
 
