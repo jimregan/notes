@@ -399,3 +399,13 @@ Even if by 9 a.m. you’ve already fallen apart five times, secretly cry on the 
 
 [Reel](https://www.instagram.com/reel/DPrW_otiAsM/)
 
+[00:00.000 --> 00:06.200]  Van egy barátnöm, akit tökéletesen csinálja ezt, képzéltek el, hogy ő a csej-GPT-nek panaszkódik a pasiáról.
+[00:07.700 --> 00:12.400]  Ha összevesztnek, beírtja a csej-GPT-be, hogy mi történt, és a csej-GPT megonyanak, hogy igaza van.
+[00:14.300 --> 00:16.200]  Tökéletes, tökéletes dolog.
+[00:16.300 --> 00:20.700]  Gondolkodtam rajta, hogy én is ezt fogom csinálni, mert azt mondta, hogy ez nagyon jó lett, és én is szerintem is az, de
+[00:20.800 --> 00:25.100]  elgondolkodtam rajta, hogy ez a csej-GPT, meg ez az EI, ez így tőlünk tanul mindent.
+[00:25.500 --> 00:30.200]  És hogyha meghálgatja mindig azt, amit mi ezekben az ilyen vatbolon pillanataimban így belegépelünk,
+[00:30.300 --> 00:36.000]  annak az lesz a véger, hogy egy szép napon, egy ártatlan férfi megkérdezé a csej-GPT-t itt, hogy milyen nap van,
+[00:36.100 --> 00:39.700]  és az meg azt fogja neki mondani, hogy mert csak akkor jössz, amikor akarsz valamit.
+[00:41.800 --> 00:43.800]  Kérdez meg a kis Google-kurvádat.
+[00:45.200 --> 00:47.700]  Vagy elmondjam a nyádnak, mi csinálsz incognitó mókva?
