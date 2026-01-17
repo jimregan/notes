@@ -1550,10 +1550,10 @@ Mért az egész arról szól, hogy ki tud tok metinné, ki tud többet inni ki t
 ki ül a VIP-asztaloknál és, hogy ki kivel kavart az nap.
 És a legrosszabb része, hogy aztán a másnaposágra elmegy az egész hétvégéd.
 Nem lettek új barátaid, Nem Shazamozhattál le egy új számot se, nem viszel haza semmilyen új élményt.
-Mi azért indítottuk el a lindosz, mert szerintünk ez lehet máshoz is.
-Mi is éveldünk táncolni, jó zenéket hallgatni, barátainkkal lenni, vagy új Jófej embereket megismerni.
-De ezt nem úgy akarjuk, hogy ez egész hívtéink rá menjen.
-Mi létre akarunk hazni egy Jófej élet barátságos közösséget,
-ahonnan jó emennyeket érhetünk az az estövégén.
-Ha egy alternatív bulizási eményre vágyz, akkor csatagossz hozzánk a paladzóban Januar 23-án.
-A bulival kapcsatostalábbi részteteket pedig keresétek az insta aldalunkra
+Mi azért indítottuk el a LINDOS-t, mert szerintünk ez lehet máshogy is.
+Mi is imadunk táncolni, jó zenéket hallgatni, barátainkkal lenni vagy új jófej embereket megismerni.
+De ezt nem úgy akarjuk, hogy ez egész hétvégenk rá menjen.
+Mi létre akarunk hozni egy jófej, érett barátságos közösséget,
+ahonnan jó élményekkel térhetünk haza az este végén.
+Ha egy alternatív bulizási eményre vágysz, akkor csatlakozz hozzánk a Palazzó-ban Januar 23-án.
+A bulival kapcsolatos további részleteket pedig keressétek az insta oldalunkon.
