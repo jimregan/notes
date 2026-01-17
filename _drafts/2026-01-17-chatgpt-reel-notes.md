@@ -960,6 +960,37 @@ And I’m waiting for your body-count guesses in the comments section!
 
 [Reel](https://www.instagram.com/reel/DTiQqsEjPTl/)
 
+[00:00.000 --> 00:04.900]  Tót Gabi megint Fidesz rendezvényelépet fel, megint kritikált kapott, megint válaszolt.
+[00:07.300 --> 00:12.700]  Már csináltunk egy videót a Fidesz kongresszusról, most csinálunk egy videót külön az ott fellépőt Tót Gabi-ról.
+[00:12.700 --> 00:16.700]  Azt hittük, hogy múri enik őre, majd azt, hogy radics gigi recserélik Tót Gabi-t.
+[00:16.700 --> 00:18.100]  Most, hogy nem téged kívtak?
+[00:18.600 --> 00:19.900]  Hát biztos, lecserélt a Fidesz.
+[00:21.400 --> 00:23.300]  De most visszatért a Fidesz színpadára.
+[00:30.000 --> 00:35.100]  A Fidesz színpadára.
+[00:36.900 --> 00:40.100]  Ezért a megasztás zsúriások kritikával talált a szembe magát,
+[00:40.100 --> 00:44.200]  mert álladásul a redited bejárta, az Í of the Tiger fonetikus dalszövege.
+[00:44.200 --> 00:46.100]  Amire egy tiktok videóban reagált.
+[00:46.100 --> 00:49.200]  Elmondta, hogy nem jógosít az angolja miatt kritizálni,
+[00:49.200 --> 00:52.900]  mivel Magyar Lánként született, és nem tanul gyerekkorátó kezve angolta.
+[00:52.900 --> 00:54.200]  Németes voltam.
+[00:54.200 --> 00:56.400]  A fonetikus dalszöveghez pedig semmi közel.
+[00:56.400 --> 00:59.200]  Egyetem nem volt ilyen kinyomtatott szövegem semmi,
+[00:59.200 --> 01:02.200]  ez nem is az enyém, úgyhogy ez nagyon kamú.
+[01:02.200 --> 01:05.200]  De aztán megfejti, hogy őt azért bántják igazából,
+[01:05.200 --> 01:08.200]  mert a Fidesz rendezvényén léped fel, nem pedig az angolja miatt.
+[01:08.200 --> 01:12.200]  Így nyilván megint az azért van felkapom, mert a Fidesz kongresszuson énekeltem,
+[01:12.200 --> 01:15.200]  és ezzel a szalcsőrét inkább sok embernek.
+[01:15.200 --> 01:20.200]  És elmondja, hogy ő már megedződött, tudtelőre, hogy ez lesz, ezért ez nem beszízokon.
+[01:20.200 --> 01:24.200]  Elhihetitek, hogy 2021-ot, hogy én annyira megedződtem, hogy ez ilyen hűéktől,
+[01:24.200 --> 01:30.200]  már nem tudnak engem, hogy meggyők jengíteni, vagy rossz kedvűnek látni.
+[01:30.200 --> 01:34.200]  Inkább azt javasolja az embereknek, hogy törődjenek inkább a fontosabb dolgokkal,
+[01:34.200 --> 01:38.200]  mint például az artscrémekkel, aján is egyet, amit több 10.000 forintnak kerül.
+[01:38.200 --> 01:41.200]  Na ez, ez sokkal fontosabb.
+[01:41.200 --> 01:44.200]  Szerintetek a tót gabi azzal védekezik, hogy magyar lánynak született,
+[01:44.200 --> 01:47.200]  ezért nem tud angolul, akkor lázár védekezhet azzal,
+[01:47.200 --> 01:50.200]  hogy azért késnek a vonatok, mert is oha nem volt mozdony.
+[01:50.200 --> 01:54.200]  Írjátok meg kommentben, és ne felejtsétek a kében lenni alap.
+
 -----
 
 [Reel](https://www.instagram.com/reel/DN3TbvR0Cq-/)
