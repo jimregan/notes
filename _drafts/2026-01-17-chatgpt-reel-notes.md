@@ -351,52 +351,32 @@ while I’m not letting you in.
 ### Line-by-line translation
 
 **Elegem volt a tökéletes Insta mamikból. Tip-top lakások, bio gyümölcstálak, hibátlan selfie-k.**
+
 I got fed up with the perfect Insta mums. Tip-top apartments, organic fruit bowls, flawless selfies.
 
 **Ezért létrehoztam az @antiparamami oldalt, ahol nem tökéletesek, csak valóságosak vagyunk.**
+
 So I created the @antiparamami page, where we’re not perfect — just real.
-*(Note: **létrehoztam** = “I created”; Whisper-style errors sometimes turn this into nonsense.)*
 
 **Itt a kávé hideg, a póló nyálfoltos, a gyerek pedig ragad, a vacsi pedig néha csak egy marék ropi.**
+
 Here the coffee is cold, the T-shirt is slobbered on, the kid is sticky, and dinner is sometimes just a handful of salty sticks.
 
 **Itt a jó anya nem bio uzsit csinál, hanem lenyomja a napot anélkül, hogy világgá menne.**
+
 Here a good mum doesn’t make organic snacks, she just powers through the day without running away from everything.
 
 **Ne várj tőlem tökéletes napirendi tanácsot,**
+
 Don’t expect perfect daily-routine advice from me,
 
 **de azt fogod érezni, hogy nem vagy egyedül.**
+
 but you’ll feel that you’re not alone.
 
 **Akkor sem, ha reggel 9-re már ötször összeomlottál, titokban sírsz a vécén, vagy csak rohadtul elfáradsz.**
+
 Even if by 9 a.m. you’ve already fallen apart five times, secretly cry on the toilet, or you’re just *fucking exhausted*.
-
----
-
-### Humour & why it works
-
-* This is **anti-aspirational humour**: it rejects Instagram perfection by piling up **mundane, slightly gross realities**.
-* The joke mechanism is **list contrast**:
-
-  * polished clichés (*bio gyümölcstálak, hibátlan selfie-k*)
-  * vs bodily, messy facts (*nyálfoltos, ragad, ropi*).
-* The emotional payoff comes at the end: **explicit validation** instead of advice.
-* Very Hungarian tone: **dry, unsentimental solidarity**, not motivational hype.
-
-This isn’t punchline humour — it’s **recognition humour** (“yes, that’s my life”).
-
----
-
-### Spoken vs performed Hungarian
-
-* Register: **casual spoken + influencer monologue**, not sketch comedy.
-* Sentence rhythm is **caption-friendly**, built from short coordinated clauses.
-* Mild profanity (**rohadtul**) anchors it emotionally without turning aggressive.
-
-This is exactly the kind of *background-noise Hungarian* that builds filters.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -414,28 +394,6 @@ This is exactly the kind of *background-noise Hungarian* that builds filters.
 * **ne várj tőlem** – “don’t expect from me”; boundary-setting phrase.
 * **összeomlik** – to fall apart emotionally; strong but normalized here.
 * **rohadtul** – fucking / extremely; intensifier, informal, emotionally honest.
-
----
-
-### Why this is high-value input
-
-* High **lexical recognisability** + low syntactic risk
-* Clear **genre signals** you can later ignore automatically
-* Emotionally dense without being linguistically exotic
-* Excellent calibration for:
-
-  * parenting discourse
-  * Instagram Hungarian
-  * everyday profanity thresholds
-
-If you want, next we can:
-
-* strip this down to **neutral spoken Hungarian** (no influencer framing), or
-* mark which parts Whisper would *definitely* mangle, or
-* compare this to **English “relatable mom” discourse** and what’s language-specific here.
-
-Drop the next one when ready.
-
 
 -----
 
