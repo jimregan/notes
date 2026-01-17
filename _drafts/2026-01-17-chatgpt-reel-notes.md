@@ -244,29 +244,31 @@ the electrical impulse is delivered.
 
 [Reel](https://www.instagram.com/reel/DSPtp_gjaaY/)
 
-Aztam mindenít, mert korra gődött!
-Nagyon büszke vagyok arra, hogy ennyire kreatívon kezened a kertépítési munkállatokat.
-Talán praktikus lenne, hogyha legközelebb olyan helyre áslád a gődrött,
-ahol nem fogok belelépni és kitörni anyakamat.
-A gondolod, akkor legközelebb összeállítok neked egy térképet,
-és bejelölöm rajta, hogy a kert melyik pontjain áslodsz gődrött.
-Úh, nagyon nagy válvátságra van, hogy ilyen önbizalambál terig kóstolód végig a környék pioniverszítását.
-Lehetőleg legközelebb egy kevésbé pülős és undorító kulinári is nyolákság mellettetlen a boxonat.
-A gondolod, akkor legközelebb összeállítok neked egy listát
-az itthon felelhető legfinomabb júti palatokról.
-Ha benne vagy, akár már most el is keszhetjük a kostolást!
-Nagyon átad
-Igazán figyelmes tőret egy mindig gondosko száradholy
-Ffhrh Single Machine
-Igazingfakosztott
-Milyen pont Click
-Tery question
-BE
-PE
-BOD
-SZ deine
-Csr és
-Spelliano
+Milyen lenne, ha a ChatGPT nevelné a kutyámat?
+
+Azta mindenít, mekkora gödör!
+
+1. Gödörásás.
+Nagyon büszke vagyok arra, hogy ennyire kreatívan kezeled a kertépítési munkálatokat.
+Talán praktikus lenne, hogyha legközelebb olyan helyre ásnád a gödröt,
+ahol nem fogok belelépni és kitörni a nyakamat.
+Ha gondolod, akkor legközelebb összeállítok neked egy térképet
+és bejelölöm rajta, hogy a kert melyik pontjain áshatsz gödröt.
+
+2. 💩 evés
+Úh, nagyon nagy bátórságra vall, hogy ilyen önbizalommal teli kóstold végig a környék biodiverszítását,
+Lehetőleg legközelebb egy kevésbé büdös és undorító kulináris nyalánkság mellett tedd le a voksodoat
+Ha gondolod, akkor legközelebb összeállítok neked egy listát
+az itthon fellelhető legfinomabb jútifalatokról.
+Ha benne vagy, akár már most el is kezdhetjük a kostolást.
+
+3. Sáros maccsal beszökés
+Jaj,
+Igazán figyelmes tőled, hogy mindig gondoskodsz árrol hogy frissen felmossam a parkettát.
+Igaz, hogy ma ezt már nyolcadszorra teszem meg.
+Felajánlhatok neked néhány szabadidős tevékenységet amivel lefoglalhatod magadat,
+ameddig nem engedlek be.
+
 
 -----
 
