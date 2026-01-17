@@ -813,17 +813,17 @@ because I’ll be bringing the next experience from Ireland soon.
 
 [Reel](https://www.instagram.com/reel/DTk2mXaCEnW/)
 
-Te se hitted el elsőre, hogy befagyottam Edvetó. Nyugi, nem vagy egyedül.
-Mert igen, a medvetó sós, és igen, mégis be tud fagydni. Hogy hogyan?
-Amikor tartós, csípős hirek van, főleg szélcsendes időben a tó tetei megjelenik egy végkony édes vízréteg.
-Ez esőből, hoból, patak vízből gyűlik össze is, szépen ráül a sós víz teteire.
-Na ez az a rész, ami tényleg égé válik.
+Te se hitted el elsőre, hogy befagyott a Medve-tó. Nyugi, nem vagy egyedül.
+Mert igen, a Medve-tó sós, és igen, mégis be tud fagyni. Hogy hogyan?
+Amikor tartós, csípős hideg van, főleg szélcsendes időben, a tó tetején megjelenik egy vékony édes vízréteg.
+Ez esőből, hóból, patakvízből gyűlik össze és szépen ráül a sós víz tetejére.
+Na ez az a rész, ami télen jéggé válik.
 Legalábbis azokon a teleken, mint amilyen a mostani.
-Alatt a közben a sós víz melegebb maradés nem keveredik fel.
-Ezt hívják Helió termiának, és ezért olyan különleges a medvetó.
-És nem. Ez nem egyszeri csoda. Régebbi hidegeb teleken már többször is előfordult,
-arhív fotok is bizonyítják, a medvetó tehát most is csak azt csinálja, amit mindig.
-Meglep, alkalmazkodik, és még télen is lenyőgöz.
+Alatta közben a sós víz melegen marad és nem keveredik fel.
+Ezt hívják heliótermiának, és ezért olyan különleges a Medve-tó.
+És nem, ez nem egyszeri csoda, régebbi, hidegebb teleken már többször is előfordult,
+archív fotok is bizonyítják. A Medve-tó tehát most is csak azt csinálja, amit mindig.
+Meglep, alkalmazkodik és még télen is lenyűgöz.
 
 -----
 
