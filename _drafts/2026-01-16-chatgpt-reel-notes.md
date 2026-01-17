@@ -1481,11 +1481,46 @@ Tickets *in the comments*!
 
 [Reel](https://www.instagram.com/reels/DTYd403j1C9/)
 
-Te megittad az összes kulát samu?
-Igen, Bob! És most akkorát fogok böfögni, hogy egy 80-as évekbeli kultikus anime-ben is hallani fogják!
-Ezt nem hiszem!
-Na figyelj!
+### Line-by-line translation
+
+**Te megittad az összes kólát, Samu?**
+Did you drink *all* the cola, Samu?
+
+**Igen, Bob! És most akkorát fogok böfögni, hogy egy 80-as évekbeli kultikus anime-ben is hallani fogják!**
+Yes, Bob! And now I’m going to burp *so loudly* that they’ll hear it *in a cult-classic anime from the 1980s*!
+
+**Ezt nem hiszem!**
+I don’t believe that!
+
+**Na figyelj!**
+Alright, *listen to this!*
+
+**Leave me alone!**
 Leave me alone!
+*(deliberately English; part of the punchline)*
+
+### Notes on humor & language
+
+* The joke hinges on **overblown exaggeration** (a burp audible in an 80s cult anime).
+* The sudden switch to **English** at the end is intentional and comic: it mimics badly dubbed / iconic shouted anime lines.
+* **böfögni** is informal but not crude—very common in spoken humor.
+
+### Vocabulary & phrases
+
+* **megittad** – did you drink (it all)
+* **az összes** – all of it
+* **kóla** – cola
+* **akkorát** – such a big / such a huge (degree marker)
+* **böfögni** – to burp
+* **hogy … is** – so … that even …
+* **80-as évekbeli** – from the 1980s
+* **kultikus** – cult / cult-classic
+* **hallani fogják** – they will hear (it)
+* **ezt nem hiszem** – I don’t believe this
+* **na figyelj** – alright, listen / okay, pay attention
+
+If you want, I can also explain **why Hungarian loves this “hogy + future” exaggeration structure**—it shows up constantly in jokes and storytelling.
+
 
 -----
 
@@ -1494,10 +1529,10 @@ Leave me alone!
 Szauna-szeánsz
 
 Köszönöm tök mindenkit a Pongyalapítpankot el.
-Réti pipitére keresztett saune szállán számén. Ádám vagyok, a közédu navarsányi saune a világbajmükság.
-Eső helyezettje.
-És az ottan így össztes a lépes méz pusztítól rej egyszerű számommal készültem nektek.
-Nagyon fontos, hogy a kimenet közben rosszul ézi magát. Az is kurvára itt malodjon is ez Magyarország, tehát mi ide kibédni án nem lalagszálni, jó?
+Réti Pipitérre keresztelt szauna szeánszán. Én Ádám vagyok, Közép-dunavarsányi Szauna-világbajnokság.
+Első. Helyezettje,
+és az ottani gyöztes, A Lépes Méz Pusztító Ereje című számommal készültem nektek.
+Nagyon fontos, hogy aki menetközben rosszul érzi magát, az is kurvára itt marad ugyanis ez Magyarország, tehát mi ide kibírni án nem lalagszálni, jó?
 No, illolajnak köztem nektek egy ilyen kis trómzői eukaliptus parlakfű kivonatot.
 Ezt följük majd megtobni egy ilyen kis tamperrei, bitumen kocka fenyőkát rány kivonattal.
 Erre fogjönni egy ilyen kis tőzegmuhás szalsz a szóz, sarki fénny, szérünk koncentráció kivonat, koncentrációre.
