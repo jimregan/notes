@@ -7,6 +7,13 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
+https://www.instagram.com/reel/DTccEPPgSUp/?igsh=ZmZoOTdrY2lza3gw
+
+13 kiló vs. 1,5 tonna: muntyákszarvas kezdett ki rinocérosszať egy lengyel állatkertben
+
+
+-----
+
 [Reel](https://www.instagram.com/reels/DNdLGQBIlQQ/)
 
 Ha válsz a buszra, és nem jön, bal szekésik.
