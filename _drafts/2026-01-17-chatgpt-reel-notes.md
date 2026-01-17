@@ -53,21 +53,22 @@ Ha rossz buszra szálltál, minél további összrajta, annál többet kell viss
 
 [Reel](https://www.instagram.com/reel/DTksA6Yicw4/)
 
-Bonjour, Esther!
-Jaj, ne jön ő már, megint!
-Bocsánat, zsenő!
-Már egyszer az oromaláldörgöltet, hogy tiéd a francia szekció. Mit akarsz még?
-Először is évente, újra választások vannak, és mindig én vagyok, az egyetlen indulok.
-Mondjuk, Buci, a 45,5 kilos hárú feltöltősrát szintén bejelentkezett a pozícióra,
-de amikor meglátott, megíjett, és valamiért tiszta lépet.
-Pedig én csak mosa jöttam rá, valahogy így.
-Nem is értam, hogy mit a liet meg?
-Másodszor pedig seksziófelelősként köteles vagyok szólni az új hírekről.
-Háldatlak!
-Csermekorom kedvence a kakaós, magyarókrémes tőltött croissant,
-amit annyit fogyasztottam gyerekként a sazelizé.
-Most január 15 és 18 között, csak 199 folyint.
-Ez jól hangzik, se kics már én is akarok egy teksziót.
-Ne haragudj, de most ilyet nem kell, melyet befúlalják a francia rudat a terembe.
-Oleg volnál ezten.
-Sziá, zsenő!
+Bonjour Esther!
+Jaj, ne jenő, már megint?
+Khm khm!
+Bocsánat, J'enő!
+Már egyszer az orrom alá dörgölted, hogy tiéd a francia szekció. Mit akarsz még?
+Először is évente, újraválasztások vannak és mindig én vagyok, az egyetlen induló.
+Mondjuk Buci, a 45 és fél kilós árúfeltöltő srác szintén bejelentkezett a pozícióra,
+de amikor meglátott, megijedt és valamiért visszalépett.
+Pedig én csak mosolyogtam rá, valahogy így:
+Nem is értam, hogy mitől ijedt meg...
+Másodszor pedig sekszió felelősként köteles vagyok szólni az új hírekről.
+Hallgatlak!
+Gyermekkorom kedvence, a kakaós-mogyorókrémes tőltött croissant,
+amit annyit fogyasztottam gyerekként a Champs-Élysées-n.
+Most január 15. és 18. között, csak 199 folyint.
+Ez jól hangzik! Segíts már! Én is akarok egy szekciót!
+Ne haragudj, de most sietnem kell, mielőtt befoglalják a francia rudat a teremben.
+Au revoir, Eszter!
+Sziá, J'enő!
