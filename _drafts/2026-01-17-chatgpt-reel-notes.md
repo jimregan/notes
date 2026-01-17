@@ -53,21 +53,21 @@ Ha rossz buszra szálltál, minél további összrajta, annál többet kell viss
 
 [Reel](https://www.instagram.com/reel/DTksA6Yicw4/)
 
-[00:00.000 --> 00:01.200]  Bonjour, Esther!
-[00:01.200 --> 00:02.880]  Jaj, ne jön ő már, megint!
-[00:04.080 --> 00:05.360]  Bocsánat, zsenő!
-[00:05.360 --> 00:09.760]  Már egyszer az oromaláldörgöltet, hogy tiéd a francia szekció. Mit akarsz még?
-[00:09.760 --> 00:14.720]  Először is évente, újra választások vannak, és mindig én vagyok, az egyetlen indulok.
-[00:14.720 --> 00:19.920]  Mondjuk, Buci, a 45,5 kilos hárú feltöltősrát szintén bejelentkezett a pozícióra,
-[00:19.920 --> 00:23.360]  de amikor meglátott, megíjett, és valamiért tiszta lépet.
-[00:23.360 --> 00:25.920]  Pedig én csak mosa jöttam rá, valahogy így.
-[00:27.440 --> 00:28.840]  Nem is értam, hogy mit a liet meg?
-[00:28.840 --> 00:33.160]  Másodszor pedig seksziófelelősként köteles vagyok szólni az új hírekről.
-[00:33.160 --> 00:33.960]  Háldatlak!
-[00:33.960 --> 00:38.240]  Csermekorom kedvence a kakaós, magyarókrémes tőltött croissant,
-[00:38.240 --> 00:41.320]  amit annyit fogyasztottam gyerekként a sazelizé.
-[00:41.320 --> 00:46.200]  Most január 15 és 18 között, csak 199 folyint.
-[00:47.160 --> 00:50.280]  Ez jól hangzik, se kics már én is akarok egy teksziót.
-[00:50.280 --> 00:54.600]  Ne haragudj, de most ilyet nem kell, melyet befúlalják a francia rudat a terembe.
-[00:54.600 --> 00:55.960]  Oleg volnál ezten.
-[00:55.960 --> 00:57.160]  Sziá, zsenő!
+Bonjour, Esther!
+Jaj, ne jön ő már, megint!
+Bocsánat, zsenő!
+Már egyszer az oromaláldörgöltet, hogy tiéd a francia szekció. Mit akarsz még?
+Először is évente, újra választások vannak, és mindig én vagyok, az egyetlen indulok.
+Mondjuk, Buci, a 45,5 kilos hárú feltöltősrát szintén bejelentkezett a pozícióra,
+de amikor meglátott, megíjett, és valamiért tiszta lépet.
+Pedig én csak mosa jöttam rá, valahogy így.
+Nem is értam, hogy mit a liet meg?
+Másodszor pedig seksziófelelősként köteles vagyok szólni az új hírekről.
+Háldatlak!
+Csermekorom kedvence a kakaós, magyarókrémes tőltött croissant,
+amit annyit fogyasztottam gyerekként a sazelizé.
+Most január 15 és 18 között, csak 199 folyint.
+Ez jól hangzik, se kics már én is akarok egy teksziót.
+Ne haragudj, de most ilyet nem kell, melyet befúlalják a francia rudat a terembe.
+Oleg volnál ezten.
+Sziá, zsenő!
