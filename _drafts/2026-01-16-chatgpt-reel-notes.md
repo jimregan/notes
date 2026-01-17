@@ -1545,15 +1545,15 @@ Remélem, kezdődhet a kis szauna. Készen álltok?
 
 [Reel](https://www.instagram.com/reels/DTlJc0tineE/)
 
-[00:00.000 --> 00:01.720]  A magyarországi klubkültúra haladok-i.
-[00:01.720 --> 00:05.520]  Hát az egész arról szól, hogy ki tudtok metinné, ki tudtok betköltemi piára,
-[00:05.520 --> 00:08.800]  kiül a VIP-asztaloknál, és hogy ki kiválka vart az nap.
-[00:08.800 --> 00:11.800]  És a legproszabb része, hogy aztán a másaposágra elmegy az egész hétvégügy.
-[00:11.800 --> 00:17.360]  Nem lettek új barátaid, nem se az amaszattál le egy új számot se, nem viszállhat az semmilyen új eményt.
-[00:17.360 --> 00:20.440]  Mi azért indítottuk el a lindosz, mert szerintünk ez lehet máshoz is.
-[00:20.440 --> 00:25.280]  Mi is éveldünk táncolni, jó zenéket hallgatni, barátainkkal lenni, vagy új Jófej embereket megismerni.
-[00:25.280 --> 00:27.840]  De ezt nem úgy akarjuk, hogy ez egész hívtéink rá menjen.
-[00:27.840 --> 00:31.160]  Mi létre akarunk hazni egy Jófej élet barátságos közösséget,
-[00:31.160 --> 00:33.560]  ahonnan jó emennyeket érhetünk az az estövégén.
-[00:33.560 --> 00:39.320]  Ha egy alternatív bulizási eményre vágyz, akkor csatagossz hozzánk a paladzóban Januar 23-án.
-[00:39.320 --> 00:42.600]  A bulival kapcsatostalábbi részteteket pedig keresétek az insta aldalunkra.
+A magyarországi klubkültúra haladok-i.
+Hát az egész arról szól, hogy ki tudtok metinné, ki tudtok betköltemi piára,
+kiül a VIP-asztaloknál, és hogy ki kiválka vart az nap.
+És a legproszabb része, hogy aztán a másaposágra elmegy az egész hétvégügy.
+Nem lettek új barátaid, nem se az amaszattál le egy új számot se, nem viszállhat az semmilyen új eményt.
+Mi azért indítottuk el a lindosz, mert szerintünk ez lehet máshoz is.
+Mi is éveldünk táncolni, jó zenéket hallgatni, barátainkkal lenni, vagy új Jófej embereket megismerni.
+De ezt nem úgy akarjuk, hogy ez egész hívtéink rá menjen.
+Mi létre akarunk hazni egy Jófej élet barátságos közösséget,
+ahonnan jó emennyeket érhetünk az az estövégén.
+Ha egy alternatív bulizási eményre vágyz, akkor csatagossz hozzánk a paladzóban Januar 23-án.
+A bulival kapcsatostalábbi részteteket pedig keresétek az insta aldalunkra
