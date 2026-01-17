@@ -1540,3 +1540,7 @@ Annyi, hogy nálam majd itt lehet bent cigizni, jó? Csak annyi, hogy légyszi a
 A végén pedig átkenjük egymást egy ilyen kis Aceton- Konyhai Jódozott Só keverékkel,
 ugyanis ez még a maradék vitamint és életkedvet is kiöli.
 Remélem, kezdődhet a kis szauna. Készen álltok?
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTlJc0tineE/)
