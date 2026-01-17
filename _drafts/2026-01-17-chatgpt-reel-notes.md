@@ -475,77 +475,72 @@ or should I tell your mother what you do in incognito mode?
 ### Line-by-line translation
 
 **– Férfiaknál az orgazmus valóban a behatolás esetén történik meg a legkönnyebben, vagy a leggyorsabban.**
+
 For men, orgasm does indeed occur most easily — or most quickly — during penetration.
 
 **– És a nőknél egyébként az orális szexet találták.**
+
 And for women, they actually found it to be oral sex.
 
 **– És azért ugye ez egy ilyen érdekes kérdés, hogy egyébként milyen technikákat alkalmaz a pár,**
+
 And so this is an interesting question, really, about what kinds of techniques a couple uses,
 
 **– vagy mi az, ami ameddig terjed a felfedezésnek a határa,**
+
 or how far the boundary of exploration extends,
 
 **– mi az, ami még belefér, mi az, amihez szégyen tapad,**
+
 what still “counts as acceptable,” and what has shame attached to it,
 
 **– és talán az orális szex az az, amihez azért szokott szégyenérzet tapadni.**
+
 and perhaps oral sex is what shame tends to cling to most.
 
----
-
 **– Abszolút, ez szerintem nem kérdés.**
+
 Absolutely — in my opinion that’s not even a question.
 
 **– Szerintem ezt a kutatást én is tudom.**
+
 I think I know this study as well.
-*(This sounds like a spoken filler; the phrasing is slightly clumsy but natural in conversation.)*
 
 **– Mindig kiegészítették, hogy ha csak hüvelyi behatolással volt ugyanaz a párnál, de kiegészítve még.**
+
 They always added that if it was only vaginal penetration with the same couple — but then supplemented with other things.
 
 **– És akkor értelemszerűen ezt még lehet fokozni.**
+
 And then, obviously, this can be taken even further.
 
 **– Most nem tudom, mennyire legyünk itt szőkimondóak,**
+
 Now I don’t know how explicit we should be here,
 
 **– de értelemszerűen mindent hozzáadtak, és akkor egyre jobban nőtt**
+
 but obviously they added everything, and then it increased more and more
 
 **– ahhoz képest, hogy ha csak hüvelyi behatolásról van szó.**
+
 compared to when it’s just vaginal penetration.
 
 **– Tehát ez megint a férfiak fejében szerintem egy ledöntendő dolog,**
+
 So this is again something that, in my view, needs to be knocked down in men’s heads,
 
 **– hogy de valahol úgymond a nőkében is,**
+
 but in a way also in women’s,
 
 **– akik ebbe már bele vannak ringatva,**
+
 who have already been lulled into this,
 
 **– és ez így nincsen nekik átütve,**
+
 and this hasn’t really broken through for them.
-
-*(The last clause trails off; this is typical spoken Hungarian, not a missing caption.)*
-
----
-
-### Humour / discourse notes
-
-* This is **serious-but-awkward talk**, not joke-driven humour.
-* The interest comes from:
-
-  * hedging (*ugye*, *egyébként*, *értelemszerűen*)
-  * discomfort around explicitness (*mennyire legyünk itt szőkimondóak*)
-* Very typical **panel / podcast sex-ed cadence** in Hungarian: careful, circular, consensus-seeking.
-
-### Spoken vs performed Hungarian
-
-* Fully **spoken conversational Hungarian**.
-* Long sentences, self-repairs, trailing endings.
-* Meaning is carried as much by **discourse markers** as by content words.
 
 ### Vocabulary & constructions (with context)
 
@@ -563,20 +558,6 @@ and this hasn’t really broken through for them.
 * **ledöntendő dolog** – “something that needs to be torn down”; metaphorical belief-challenge.
 * **bele van ringatva** – “lulled into”; implies passive social conditioning.
 * **nem üt át** – “doesn’t break through”; insight failing to land emotionally.
-
-### ASR / caption fragility notes
-
-* **szégyentapad** → should be **szégyen tapad** (compound vs verb phrase)
-* **tudomm** → **tudom** (elongation from hesitation)
-* The final segment trailing off is **not an error** — it’s conversational fade-out.
-
-If you want, next we can:
-
-* compress this into **clean written Hungarian** (what would disappear),
-* map the **hedging particles** to English equivalents pragmatically,
-* or flag which parts Whisper would *most reliably* distort in real audio.
-
-Send the next clip when ready.
 
 
 -----
