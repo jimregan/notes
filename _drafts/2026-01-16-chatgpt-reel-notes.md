@@ -1208,47 +1208,133 @@ Because *you were the 206th*.
 
 [Reel](https://www.instagram.com/reels/DPJQtPxDE6t/)
 
-Egyik haverommal annyira jóban vagyok, hogy megkívott a legény búcsújára.
-Odamentünk, igen, sztriptíz klubba. Kis érdekesség,
-ha egy csomó mesztelen nő között egyedül vagy felöltözve... Téged néznek.
-Én egész jól éreztem magamat. A lányok is tudtak pihenni. Szép esténk volt. Tényleg.
-És kellett mennem egy lánybúcsúra. Jött a remek ötlet.
-Menjünk csippendélsóba!
-Hát mondom, menjünk, már ismerem a járást.
-És az meg olyan fura volt, mert ööh nagyon szépek voltak a fiúk, de levették a ruhájukat
-és akkor maradt rajtuk az a nagyon pici bugyi.
-Miért?
-De tényleg gyönyörűek voltak a fiúk, levették a ruhájukat és ott álltak abban nagyon pici bogyiban,
-hogy... Nem tudom.
-Tudod lehet, hogy az a bajom, hogy én harminc évig láttam a Balatonból, ilyen fecskében kijönni, apám...
-Ez nekem nem szexi. Szóval...
-meg látok egy férfit egy ilyen búgyiban, az az első reakcióm, hogy vegyünk fagyít, na?
-Vannak amúgy lényeges különbségek.
-Sztriptízs showban annyi volt. Jött a nő, levette a melltartóját, visszament. A csippendélsó más volt.
-Ugye?
-Nőknek más kell.
-Nekünk kell a történet.
-Volt ott minden, rendőr, tűzoltó, póstás.
-Ugye?
-Mert a nőknek kell a biztonság, hogy kijön valaki.
-"Ó, de jol néz ki...
-vajon van munkája?"
-Van neki!
-Vetközni bantsz, és akkor
-te is fel tudsz állni a fantázia vonatára.
-Ezért épülnek ezek a helyek.
-Megvolt a legkínosabb. Felhívkták szegély menyasszonyt a színpadra.
-Két srác elkezdett táncolni körülötte.
-Próbálta adni a lazát meg a vagányat,
-de azért látszott, hogy nem őszinte a mosolya,
-szóval inkább tolta, mint húzta a fiúkat.
-És szerintem ez egy lényeges különbség.
-Szerintem egy öh férfinak az,
-hogy egy ismeretlen nő megmutatja a mellét,
-az egy izgalmas dolog.
-Egy nőnek az, hogy egy ismeretlen férfi
-kérletlenül odanyomja a farkát...
-Az nem olyan ritka.
+### Line-by-line translation
+
+**Egyik haverommal annyira jóban vagyok, hogy meghívott a legénybúcsújára.**
+I’m such good friends with one of my buddies that he invited me to his *stag party*.
+
+**Odamentünk, igen, sztriptízklubba. Kis érdekesség:**
+So we went—yes—to a *strip club*. A little fun fact:
+
+**ha egy csomó meztelen nő között egyedül vagy felöltözve… Téged néznek.**
+if you’re the *only one dressed* among a bunch of naked women… *they look at you*.
+
+**Én egész jól éreztem magamat. A lányok is tudtak pihenni. Szép esténk volt. Tényleg.**
+I felt pretty good. The girls could relax too. We had a nice evening. Really.
+
+**És kellett mennem egy lánybúcsúra. Jött a remek ötlet.**
+And then I had to go to a *hen party*. A brilliant idea came up.
+
+**Menjünk csippendélsóba!**
+Let’s go to a *Chippendales show*!
+
+**Hát mondom, menjünk, már ismerem a járást.**
+So I said, sure, let’s go—I already *know the drill*.
+
+**És az meg olyan fura volt, mert ööh nagyon szépek voltak a fiúk,**
+And that was really strange, because, uh, the guys were very good-looking,
+
+**de levették a ruhájukat és akkor maradt rajtuk az a nagyon pici bugyi.**
+but they took off their clothes and were left wearing those *tiny briefs*.
+
+**Miért?**
+Why?
+
+**De tényleg gyönyörűek voltak a fiúk, levették a ruhájukat és ott álltak abban a nagyon pici bugyiban,**
+I mean, the guys were truly beautiful—they took off their clothes and stood there in those tiny briefs,
+
+**hogy… Nem tudom.**
+and I was just like… I don’t know.
+
+**Tudod, lehet, hogy az a bajom, hogy én harminc évig láttam a Balatonból, ilyen fecskében kijönni, apám…**
+You know, maybe my problem is that for thirty years I’ve seen my dad come out of Lake Balaton wearing *those tight swim briefs*…
+
+**Ez nekem nem szexi. Szóval…**
+That’s not sexy to me. So…
+
+**meg látok egy férfit egy ilyen bugyiban, az az első reakcióm, hogy vegyünk fagyit, na?**
+and when I see a man in briefs like that, my first reaction is: *let’s get ice cream*, okay?
+
+**Vannak amúgy lényeges különbségek.**
+There are actually important differences.
+
+**Sztriptízshowban annyi volt. Jött a nő, levette a melltartóját, visszament.**
+At the strip show, that was it: the woman came out, took off her bra, went back.
+
+**A csippendélsó más volt. Ugye?**
+The Chippendales show was different. Right?
+
+**Nőknek más kell. Nekünk kell a történet.**
+Women need something else. *We need a story.*
+
+**Volt ott minden, rendőr, tűzoltó, postás. Ugye?**
+There was everything—policeman, firefighter, postman. Right?
+
+**Mert a nőknek kell a biztonság, hogy kijön valaki:**
+Because women need the reassurance that someone comes out who—
+
+**„Ó, de jól néz ki… vajon van munkája?”**
+“Oh, he looks good… *I wonder if he has a job?*”
+
+**Van neki!**
+He does!
+
+**Vetkőzni kezd, és akkor te is fel tudsz állni a fantázia vonatára.**
+He starts stripping, and then you can *hop onto the fantasy train* too.
+
+**Ezért épülnek ezek a helyek.**
+That’s why these places exist.
+
+**Megvolt a legkínosabb. Felhívták szegény menyasszonyt a színpadra.**
+Then came the most awkward part. They called the poor bride up onto the stage.
+
+**Két srác elkezdett táncolni körülötte.**
+Two guys started dancing around her.
+
+**Próbálta adni a lazát meg a vagányat,**
+She tried to act cool and confident,
+
+**de azért látszott, hogy nem őszinte a mosolya,**
+but you could tell her smile wasn’t genuine,
+
+**szóval inkább tolta, mint húzta a fiúkat.**
+so she was *pushing* the guys away more than pulling them closer.
+
+**És szerintem ez egy lényeges különbség.**
+And I think that’s a crucial difference.
+
+**Szerintem egy férfinak az, hogy egy ismeretlen nő megmutatja a mellét, az egy izgalmas dolog.**
+I think for a man, an unknown woman showing her breasts is *exciting*.
+
+**Egy nőnek az, hogy egy ismeretlen férfi kéretlenül odanyomja a farkát…**
+For a woman, an unknown man *uninvitedly pressing his crotch against her*…
+
+**Az nem olyan ritka.**
+That’s *not that rare*.
+
+### Vocabulary & phrases (with context)
+
+* **haver** – buddy, pal (*egyik haverom* – one of my buddies)
+* **jóban van vkivel** – to be on good terms with someone
+* **meghív** – to invite
+* **legénybúcsú / lánybúcsú** – stag party / hen party
+* **sztriptízklub / sztriptízshow** – strip club / strip show
+* **meztelen** – naked
+* **felöltözve** – dressed
+* **csippendélsó** – Chippendales-style male strip show
+* **bugyi** – briefs / panties (here: men’s briefs, slightly mocking)
+* **fecske** – slang for tight men’s swim briefs (Hungarian dad stereotype)
+* **lényeges különbség** – essential difference
+* **nekünk kell a történet** – we need a narrative / context (key cultural point)
+* **fantázia vonata** – “fantasy train” (playful metaphor: letting imagination run)
+* **menyasszony** – bride
+* **adja a lazát / vagányat** – to act cool / tough
+* **inkább tolta, mint húzta** – literally “pushed rather than pulled” (rejected rather than welcomed)
+* **kéretlenül** – without being asked / unsolicited
+* **nem olyan ritka** – not uncommon
+
+If you want, next time I can also flag **where the humor flips from observational to social commentary**, because this bit does that very clearly at the end.
+
 
 -----
 
