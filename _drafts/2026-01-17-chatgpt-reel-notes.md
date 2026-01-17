@@ -244,30 +244,31 @@ the electrical impulse is delivered.
 
 [Reel](https://www.instagram.com/reel/DSPtp_gjaaY/)
 
-[00:00.000 --> 00:04.000]  Aztam mindenít, mert korra gődött!
-[00:04.000 --> 00:10.000]  Nagyon büszke vagyok arra, hogy ennyire kreatívon kezened a kertépítési munkállatokat.
-[00:10.000 --> 00:14.000]  Talán praktikus lenne, hogyha legközelebb olyan helyre áslád a gődrött,
-[00:14.000 --> 00:17.000]  ahol nem fogok belelépni és kitörni anyakamat.
-[00:17.000 --> 00:21.000]  A gondolod, akkor legközelebb összeállítok neked egy térképet,
-[00:21.000 --> 00:25.000]  és bejelölöm rajta, hogy a kert melyik pontjain áslodsz gődrött.
-[00:26.000 --> 00:36.000]  Úh, nagyon nagy válvátságra van, hogy ilyen önbizalambál terig kóstolód végig a környék pioniverszítását.
-[00:36.000 --> 00:41.000]  Lehetőleg legközelebb egy kevésbé pülős és undorító kulinári is nyolákság mellettetlen a boxonat.
-[00:41.000 --> 00:46.000]  A gondolod, akkor legközelebb összeállítok neked egy listát
-[00:46.000 --> 00:49.000]  az itthon felelhető legfinomabb júti palatokról.
-[00:49.000 --> 00:53.000]  Ha benne vagy, akár már most el is keszhetjük a kostolást!
-[00:55.000 --> 00:56.000]  Nagyon átad
-[00:59.640 --> 01:02.600]  Igazán figyelmes tőret egy mindig gondosko száradholy
-[01:02.600 --> 01:06.940]  Ffhrh Single Machine
-[01:06.940 --> 01:08.440]  Igazingfakosztott
-[01:09.080 --> 01:10.660]  Milyen pont Click
-[01:10.660 --> 01:14.160]  Tery question
-[01:14.160 --> 01:15.700]  BE
-[01:15.700 --> 01:16.200]  PE
-[01:16.200 --> 01:17.300]  BOD
-[01:18.140 --> 01:19.080]  SZ deine
-[01:19.080 --> 01:20.280]  Csr és
-[01:20.680 --> 01:21.760]  Spelliano
+Aztam mindenít, mert korra gődött!
+Nagyon büszke vagyok arra, hogy ennyire kreatívon kezened a kertépítési munkállatokat.
+Talán praktikus lenne, hogyha legközelebb olyan helyre áslád a gődrött,
+ahol nem fogok belelépni és kitörni anyakamat.
+A gondolod, akkor legközelebb összeállítok neked egy térképet,
+és bejelölöm rajta, hogy a kert melyik pontjain áslodsz gődrött.
+Úh, nagyon nagy válvátságra van, hogy ilyen önbizalambál terig kóstolód végig a környék pioniverszítását.
+Lehetőleg legközelebb egy kevésbé pülős és undorító kulinári is nyolákság mellettetlen a boxonat.
+A gondolod, akkor legközelebb összeállítok neked egy listát
+az itthon felelhető legfinomabb júti palatokról.
+Ha benne vagy, akár már most el is keszhetjük a kostolást!
+Nagyon átad
+Igazán figyelmes tőret egy mindig gondosko száradholy
+Ffhrh Single Machine
+Igazingfakosztott
+Milyen pont Click
+Tery question
+BE
+PE
+BOD
+SZ deine
+Csr és
+Spelliano
 
 -----
 
 [Reel](https://www.instagram.com/reel/DPrW_otiAsM/)
+
