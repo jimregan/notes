@@ -1252,13 +1252,32 @@ az nem olyan ritka.
 
 [Reel](https://www.instagram.com/reels/DTaYhTCjK6H/)
 
-Papa, hogy hívják a férfiak péniszét?
+### Line-by-line translation
 
-Hát húsztól harminc éves korig erőmű.
+**Papa, hogy hívják a férfiak péniszét?**
+Grandpa, what do men call their penis?
 
-És harminctól negyvenig?
+**Hát húsztól harminc éves korig erőmű.**
+Well, from age twenty to thirty it’s a *power plant*.
 
-Az remekmű.
+**És harminctól negyvenig?**
+And from thirty to forty?
+
+**Az remekmű.**
+That’s a *masterpiece*.
+
+### Vocabulary
+
+* **papa** – grandpa
+* **hogy hívják** – what do they call
+* **férfiak** – men
+* **pénisz** – penis (neutral/medical term)
+* **húsztól … -ig** – from … to (age range)
+* **erőmű** – power plant
+* **remekmű** – masterpiece
+
+The humour hinges on **wordplay** (*erőmű* → *remekmű*) and age-based exaggeration.
+
 
 És a tiedet?
 
