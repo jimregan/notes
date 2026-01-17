@@ -1295,11 +1295,15 @@ That’s *just a monument now*.
 
 [Reel](https://www.instagram.com/reels/DTX60MyAFgc/)
 
-Kampány idő szakvan, ön elfoglalt politikus, bokros teendői mellett nem ér rám, havat lapátólni, vagy csak egyszerűen nincs kedve megfagyni az utcán.
-Akkor a Hólapát 2026 selfiegenerátort önnek találták ki. Egy kattintása lapátóljon havat köztebületen, bent a szobában, naplementében, tengerparton, vagy akár a Júpiter egyik oldján is.
-Külön havasbakkancs, piros és taknyosor efektek, hogy ön hiteles politikusnak tűnjön, mert mi ügyelünk a résztetekre.
-Ha tetszett próbálj, aki gyermekekkel, idősemberekkel és kis állatokkal szelfizül generátorunkat is.
-Ha most megrendeli csomagunkat, akkor bonuszként egy átadó felavató képgenerátort kap ajándékba, amivel igazi orló kezülé vállhat.
-Ne hagyj aki önse a sikeres politikusok alkalmazását.
-Bruti önálló estek Dunahui városban ódmezővásár helyen, tatabányán, szombad helyen.
-Jegek a kommenteknél!
+Kampányidőszak van? ön elfoglalt politikus? bokros teendői mellett, nem ér rá havat lapátólni, vagy csak egyszerűen nincs kedve megfagyni az utcán?
+Akkor a Hólapát 2026 selfie generátort önnek találták ki. Egy kattintással lapátóljon havat közterületen, bent a szobában, naplementében, tengerparton, vagy akár a Júpiter egyik holdján is.
+Külön havas bakancs, piros- és taknyosorr effektek, hogy ön hiteles politikusnak tűnjön, mert mi ügyelünk a résztetekre!
+Ha tetszett próbálja ki gyermekekkel, idős emberekkel és kisállatokkal szelfiző generátorunkat is!
+Ha most megrendeli csomagunkat, akkor bonuszként egy átadó felavató képgenerátort kap ajándékba, amivel igazi ollókezűvé válhat!
+Ne hagyj aki ön se, a sikeres politikusok alkalmazását!
+Bruti önálló estek:
+Dunaújváros
+hódmezővásárhely
+tatabányá
+szombathely
+Jegyek a kommenteknél!
