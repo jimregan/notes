@@ -1524,81 +1524,92 @@ Leave me alone!
 ### Line-by-line translation
 
 **Szauna-szeánsz**
+
 Sauna *session* / sauna *ritual*
 
 **Köszönöm tök mindenkit a Pongyalapítványtól.**
+
 Thanks to *literally everyone* from the *Pongy Foundation*.
-*(Whisper error earlier; this is a plausible correction)*
 
 **Réti Pipitérre keresztelt szaunaszeánszán.**
+
 At the sauna session *christened* “Réti Pipitér” (Meadow Daisy).
 
 **Én Ádám vagyok, Közép-dunavarsányi szauna-világbajnokság első helyezettje,**
+
 I’m Ádám, *first-place winner* of the Central-Dunavarsány Sauna World Championship,
 
 **és az ottani győztes, a „Lépes Méz Pusztító Ereje” című számommal készültem nektek.**
+
 and I’ve prepared for you my winning piece titled *“The Devastating Power of Honeycomb.”*
 
 **Nagyon fontos, hogy aki menet közben rosszul érzi magát, az is kurvára itt marad,**
+
 It’s *very important* that anyone who feels unwell during the session *stays the hell here*,
 
 **ugyanis ez Magyarország, tehát mi ide kibírni járunk, nem relaxálni, jó?**
+
 because this is *Hungary* — we come here to *endure*, not to relax, okay?
 
 **No, illóolajnak hoztam nektek egy kis tromsøi eukaliptusz–parlagfű kivonatot.**
+
 So, as an essential oil I brought you a little *Tromsø eucalyptus–ragweed extract.*
 
 **Ezt fogjuk majd megdobni egy kis tamperei bitumenkocka–fenyőkátrány kivonattal.**
+
 We’ll *boost* this with a bit of *Tampere bitumen-cube pine-tar extract.*
 
 **Én sem bírom…**
+
 I can’t handle it either…
 
 **Erre fog jönni egy kis tőzegmohás salsa-szósz,**
+
 Then comes a little *peat-moss salsa sauce*,
 
 **sarki fény szérum-koncentráció-kivonat-koncentrációval.**
+
 with *aurora borealis serum concentration extract concentration.*
 
 **Ezt nálam majd meg lehet venni.**
+
 You’ll be able to *buy this from me* later.
 
 **Nagyon, nagyon fontos, hogy bár én hétszer fogok szellőztetni három perc alatt,**
+
 It’s *extremely important* that although I’ll ventilate *seven times in three minutes*,
 
 **aki itt ma egyszer kimegy, az vissza nem jön,**
+
 anyone who leaves even once today *does not come back*,
 
 **ott fog megfagyni pőrén, meztelenül a hotelparkolóban,**
+
 they’ll *freeze naked* in the hotel parking lot,
 
 **mert ezt a szabályt harminc éve behoztuk, és azóta senki nem változtatott rajta.**
+
 because we introduced this rule *thirty years ago* and no one has changed it since.
 
 **Annyi, hogy nálam majd itt bent lehet cigizni, jó?**
+
 One more thing: with me, *smoking inside is allowed*, okay?
 
 **Csak annyi, hogy légyszi a szaunakőre hamuzzatok, mert én is oda fogok.**
+
 Just please *ash onto the sauna stones*, because I will too.
 
 **A végén pedig átkenjük egymást egy kis aceton–konyhai jódozott só keverékkel,**
+
 At the end, we’ll *rub each other* with a little *acetone–iodised kitchen salt mixture*,
 
 **ugyanis ez még a maradék vitamint és életkedvet is kiöli.**
+
 since this *kills off even the remaining vitamins and will to live.*
 
 **Remélem, kezdődhet a kis szauna. Készen álltok?**
+
 I hope the little sauna can begin. *Are you ready?*
-
-### Notes on humor & style
-
-* This is **deadpan absurdist parody**, spoofing:
-
-  * macho / extreme sauna culture,
-  * nationalist toughness (“*we come here to endure*”),
-  * wellness marketing jargon taken to grotesque extremes.
-* The joke escalates via **fake Nordic place names**, **pseudo-scientific compounds**, and **sadistic rules**.
-* Swearing (**kurvára**) is used for *comic exaggeration*, not aggression.
 
 ### Vocabulary & phrases
 
@@ -1618,8 +1629,6 @@ I hope the little sauna can begin. *Are you ready?*
 * **átkenni egymást** – to smear/rub each other
 * **kiöl** – to wipe out, kill off
 * **életkedv** – zest for life
-
-If you want, next time I can also **separate Whisper errors from deliberate nonsense**, because here *both* are very much in play.
 
 
 -----
