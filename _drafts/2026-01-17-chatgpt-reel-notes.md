@@ -158,19 +158,19 @@ Bye, *J’enő!*
 
 [Reel](https://www.instagram.com/reel/DThkp7kiLYq/)
 
-Képzeld el, hogy valaki áramot vezet az agyadba.
-Nyugi, ez nem egy horrorfilm, ez csak egy kezelés.
-Vikor lehet erre szükség?
-Hmm, nem tudom én.
+Képzeld el hogy valaki áramot vezet az agyadba.
+Nyugi ez nem egy horrorfilm, ez csak egy kezelés.
+Mikor lehet erre szükség?
+[uncaptioned] Hmm, nem tudom én.
 Olyan mentális betegségekben, amikor a gyógyszer már hatástalan.
-Súlyos depresszióban vagy bipolaris zavarbam, katatón állapot van vagy szihózisban.
-Ez az elektrokonvúzik terápia vagy is ECT.
+Súlyos depresszióban vagy bipolaris zavarban, katatón állapotban vagy pszichózisban.
+Ez az elektrokonvúlziv terápia vagyis ECT.
 Mi történik ilyenkor az agyban?
-A fejretett elektródákon keresztül áramot vezetnek az agyba,
-amivel egy kb. 1 percig tartó epilepsziásróhomot váltanak ki.
-A kezelésk nem folyamatosan, hanem kúraszerően végzük.
-Bár a filmekben ezt egy horroristikus kénzesként tüntetik fel,
-valójában egy fájdalmatlambis biztonságos beabadkozás.
-Altatószer is izomlezító beadása után,
-az atyú lámok folyamatosan elnörzésem ellet,
-adják le az elektromas imporzust.
+A fejre tett elektródákon keresztül áramot vezetnek az agyba,
+amivel egy körülbelül 1 percig tartó epilepsziás rohamot váltanak ki.
+A kezelést nem folyamatosan, hanem kúraszerűen végzik.
+Bár a filmekben ezt egy horrorisztikus kínzásként tüntetik fel,
+valójában egy fájdalmatlan és biztonságos beavatkozás.
+Altatószer is izomlazító beadása után,
+az agyhullámok folyamatos ellenőrzése mellet,
+adják le az elektromos impulzust.
