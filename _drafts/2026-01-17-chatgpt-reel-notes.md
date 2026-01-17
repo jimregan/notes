@@ -158,19 +158,82 @@ Bye, *J’enő!*
 
 [Reel](https://www.instagram.com/reel/DThkp7kiLYq/)
 
-Képzeld el hogy valaki áramot vezet az agyadba.
-Nyugi ez nem egy horrorfilm, ez csak egy kezelés.
-Mikor lehet erre szükség?
-[uncaptioned] Hmm, nem tudom én.
-Olyan mentális betegségekben, amikor a gyógyszer már hatástalan.
-Súlyos depresszióban vagy bipolaris zavarban, katatón állapotban vagy pszichózisban.
-Ez az elektrokonvúlziv terápia vagyis ECT.
-Mi történik ilyenkor az agyban?
-A fejre tett elektródákon keresztül áramot vezetnek az agyba,
-amivel egy körülbelül 1 percig tartó epilepsziás rohamot váltanak ki.
-A kezelést nem folyamatosan, hanem kúraszerűen végzik.
-Bár a filmekben ezt egy horrorisztikus kínzásként tüntetik fel,
-valójában egy fájdalmatlan és biztonságos beavatkozás.
-Altatószer is izomlazító beadása után,
-az agyhullámok folyamatos ellenőrzése mellet,
-adják le az elektromos impulzust.
+### Line-by-line translation
+
+**Képzeld el hogy valaki áramot vezet az agyadba.**
+Imagine someone running electricity into your brain.
+
+**Nyugi ez nem egy horrorfilm, ez csak egy kezelés.**
+Relax — this isn’t a horror movie, it’s *just a medical treatment*.
+
+**Mikor lehet erre szükség?**
+When might this be necessary?
+
+**[nem feliratozott / bizonytalan] „Hmm, nem tudom én.”**
+*[uncaptioned / uncertain]* “Hmm, I don’t really know.”
+*This line sounds improvised and dismissive; if you have the audio, this is worth double-checking.*
+
+**Olyan mentális betegségekben, amikor a gyógyszer már hatástalan.**
+In mental illnesses where medication is no longer effective.
+
+**Súlyos depresszióban vagy bipoláris zavarban, katatón állapotban vagy pszichózisban.**
+In severe depression or bipolar disorder, in catatonic states, or in psychosis.
+
+**Ez az elektrokonvulzív terápia, vagyis ECT.**
+This is electroconvulsive therapy, that is, ECT.
+
+**Mi történik ilyenkor az agyban?**
+What happens in the brain during this?
+
+**A fejre tett elektródákon keresztül áramot vezetnek az agyba,**
+Electric current is conducted into the brain through electrodes placed on the head,
+
+**amivel egy körülbelül 1 percig tartó epilepsziás rohamot váltanak ki.**
+which induces an epileptic seizure lasting about one minute.
+
+**A kezelést nem folyamatosan, hanem kúraszerűen végzik.**
+The treatment is not continuous, but administered in courses.
+
+**Bár a filmekben ezt egy horrorisztikus kínzásként tüntetik fel,**
+Although in films this is portrayed as a horrific form of torture,
+
+**valójában egy fájdalmatlan és biztonságos beavatkozás.**
+in reality it is a painless and safe procedure.
+
+**Altatószer és izomlazító beadása után,**
+After administering anesthesia and a muscle relaxant,
+
+**az agyhullámok folyamatos ellenőrzése mellett,**
+with continuous monitoring of brain waves,
+
+**adják le az elektromos impulzust.**
+the electrical impulse is delivered.
+
+### Notes on tone & register
+
+* This is **educational / explanatory spoken Hungarian**, not ad copy.
+* The opening uses **direct address** (*képzeld el, nyugi*) to disarm fear.
+* There’s a clear **debunking frame**: films vs reality.
+* Vocabulary is medical but kept **accessible**, typical of science TikToks/Reels.
+
+### Vocabulary & phrases (with context)
+
+* **képzeld el** – “imagine”; very common conversational hook, often used to pull attention at the start of explanations.
+* **nyugi** – informal “relax / don’t worry”; calming, slightly colloquial.
+* **amikor a gyógyszer már hatástalan** – “when medication no longer works”; *már* adds a sense of exhausted options.
+* **súlyos** – “severe”; strong but standard medical intensifier.
+* **katatón állapot** – catatonic state; formal clinical term, not everyday speech.
+* **vagyis** – “that is to say”; used to rephrase or clarify technical terms.
+* **ilyenkor** – “in such cases / at that time”; common explanatory connector.
+* **váltanak ki** – “to trigger / induce”; neutral–technical, often used with symptoms or reactions.
+* **kúraszerűen** – “in courses”; typical medical phrasing, not casual speech.
+* **tüntetik fel** – “portray / present as”; often used critically about media representation.
+* **beavatkozás** – “intervention / procedure”; formal, medical-administrative register.
+* **beadása után** – “after administration”; fixed medical collocation.
+* **mellett** (ellenőrzése mellett) – “alongside / while”; very common in procedural descriptions.
+
+If you want, next we can:
+
+* compare this to **how ECT is talked about colloquially vs clinically** in Hungarian, or
+* tighten this into a **natural spoken paraphrase** you could reuse yourself, or
+* audit it specifically for **ASR vs caption mismatches** if you have the audio.
