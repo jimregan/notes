@@ -1278,7 +1278,24 @@ That’s a *masterpiece*.
 
 The humour hinges on **wordplay** (*erőmű* → *remekmű*) and age-based exaggeration.
 
+### Line-by-line translation
 
-És a tiedet?
+**És a tiedet?**
+And *yours*?
 
-Az már csak emlék­mű.
+**Az már csak emlékmű.**
+That’s *just a monument now*.
+
+### Vocabulary
+
+* **és** – and
+* **a tiedet** – yours (accusative; *a tiéd* = yours)
+* **már** – already / now
+* **csak** – only / just
+* **emlékmű** – monument, memorial
+
+### Note on the joke
+
+The punchline completes the wordplay chain:
+**erőmű** (*power plant*) → **remekmű** (*masterpiece*) → **emlékmű** (*monument*).
+Same suffix (**-mű**), escalating age → escalating irony.
