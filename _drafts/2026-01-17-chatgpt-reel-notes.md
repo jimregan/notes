@@ -472,6 +472,16 @@ or should I tell your mother what you do in incognito mode?
 
 [Reel](https://www.instagram.com/reel/DTChTNqlz1_/)
 
+[00:00.000 --> 00:07.000]  férfiaknál az órgáshoz valóban a behatolás esetén történik meg a legkönnyebben, vagy a leggyossabban,
+[00:07.000 --> 00:15.000]  és a nőknéle gyerünk az oránszakot találták. És ez egy ilyen érdekes kérdés, hogy egyébként milyen technikákat alkalmaz a pár,
+[00:15.000 --> 00:22.000]  vagy mi az, ami ameddig terjed a felfedezésnek a határa, mi az, ami még belefér, mi az, amihez szégyen tapad,
+[00:22.000 --> 00:26.000]  és te az oránszak az, amihez azért szokott szégyen érzed tapad.
+[00:27.000 --> 00:34.000]  Szerintem nem kérdés. Szerintem ez a kutatást én is tudom, mindigig kiegészették, hogy ha csak hüvei behatolása volt,
+[00:34.000 --> 00:40.000]  aztán ugyanaz a párnál, de kiegészítve még. És akkor értem szemhez még lehet fokozni, most nem tudom mennyire,
+[00:40.000 --> 00:45.000]  legyünk itt szokimondok, és értem szemhez mindent hozzá attal, és akkor egyre jobban nőt,
+[00:45.000 --> 00:53.000]  ahhoz képes, hogy ha csak hüvei behatolása van szó. Tehát hogy ez mennyina férfiak fejében szerintem egy ledöntendő dolog,
+[00:53.000 --> 00:59.000]  hogy de valahol úgy monda nőkében, és akik ebbe már bele vannak ringatva, és ez így nincsen neki kát ütve.
+
 -----
 
 [Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
