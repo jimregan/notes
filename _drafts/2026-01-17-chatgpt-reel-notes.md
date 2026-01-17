@@ -487,6 +487,22 @@ hogy de valahol úgymond a nőkében, is akik ebbe már bele vannak ringatva, é
 
 [Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
 
+[00:00.000 --> 00:04.000]  Mindig, amikor hazamegyek el, menj, hogy a vendégségben rég nem látott rokont látogatni,
+[00:04.000 --> 00:07.500]  tehát azért én állom, tehát már az előszobában konfliktus helyzet van,
+[00:07.500 --> 00:10.700]  nem kell lehúzni a cipődje, lehúzom, rem kell lehúzni, de lehúzom, rem kell lehúzni,
+[00:10.700 --> 00:13.600]  lehúzom, kossz van, nincsen, kossz be, hogy nem kossz van, nincsen,
+[00:13.600 --> 00:17.000]  hogy mi se húzulhet, akkor azért van, kossz, úgy, ahogy kossz van.
+[00:17.000 --> 00:19.000]  No, akkor lehúzom, akkor ne húzni.
+[00:21.800 --> 00:25.000]  És az az a Tinos beszélgetés, nem, hogy na szabik, ahogy vagy.
+[00:25.000 --> 00:26.500]  Jól.
+[00:30.500 --> 00:31.500]  Egyébként.
+[00:32.500 --> 00:34.500]  Egyébként minden rendben.
+[00:34.500 --> 00:36.500]  És máskülőmben.
+[00:36.500 --> 00:40.000]  Ki az, aki jól van, a múgy jól van, egyébként minden rendben, de máskülőmben szarnak.
+[00:40.000 --> 00:41.000]  Ja, nagyon az.
+[00:41.000 --> 00:42.000]  Máskülőmben.
+[00:42.000 --> 00:45.000]  Ki ez az ember, jelentkezzel, mutassátok meg, nem tudom.
+
 ------
 
 [Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
