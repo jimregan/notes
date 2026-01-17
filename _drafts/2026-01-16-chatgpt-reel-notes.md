@@ -1208,6 +1208,46 @@ Because *you were the 206th*.
 
 [Reel](https://www.instagram.com/reels/DPJQtPxDE6t/)
 
+[00:00.000 --> 00:03.640]  Egyik haverom a annyira jóba vagyok, hogy megkívotta legény búcsújára.
+[00:05.640 --> 00:10.120]  Oda mentünk, igen, strip-tizk klubba, kis érdekesség,
+[00:10.120 --> 00:14.320]  ha egy csomó mesztelőn nő között egyedül vagy felöltözve, téged néznek.
+[00:16.440 --> 00:20.320]  Én egész jól éreztem magamat, a lányok is tudtak pihenni, szépesténk volt.
+[00:21.200 --> 00:24.440]  És meg kellett mennem egy lány búcsúra, jött a remek ötlet.
+[00:24.840 --> 00:26.440]  Menjünk csippendél sóba.
+[00:26.440 --> 00:29.360]  Hát mondom, menjünk, már ismerem a járást.
+[00:30.960 --> 00:37.120]  És az meg olyan fura volt, mert nagyon szépek voltak a fiúk, de levették a ruhájukat,
+[00:37.120 --> 00:40.200]  és akkor maradt rajtuk az a nagyon picit bogyi.
+[00:42.480 --> 00:43.480]  Miért?
+[00:44.520 --> 00:49.000]  De tényleg gyönyörűek voltak a fiúk, levették a ruhájukat, és ott álltak abban nagyon picit bogyi,
+[00:49.000 --> 00:51.000]  ahogy nem tudom.
+[00:52.960 --> 00:58.440]  Tehát, hogy az a bajom, hogy én harminc évig láttam a balatomból, ilyen fecskébe kiönni, apám.
+[01:01.000 --> 01:04.000]  Ezeken nem szeksi, szóval...
+[01:05.000 --> 01:10.000]  Megálltok egy férfit egy ilyen búgyiba, az az első reakcióm, hogy vegyünk fagyítná.
+[01:17.000 --> 01:19.000]  Vannak a múlt lényeges különbségek.
+[01:19.000 --> 01:25.000]  Stipti sóba annyi volt, kiött a nő, levette a meltatóját visszamen csippendél sómás volt.
+[01:25.000 --> 01:27.000]  Nőknek más kell.
+[01:27.000 --> 01:29.000]  Te künk kell a történet.
+[01:31.000 --> 01:34.000]  Voltott minden rendőr, tűzoltó, póstás.
+[01:35.000 --> 01:38.000]  Ugye, mert a nőknek kell a biztonság, hogy kiön valaki?
+[01:38.000 --> 01:40.000]  Ó, de hol néz ki?
+[01:40.000 --> 01:42.000]  Így vagyom a munkáj.
+[01:43.000 --> 01:44.000]  Vannak ki.
+[01:44.000 --> 01:46.000]  Vett közribantz, és akkor...
+[01:46.000 --> 01:49.000]  Te is fel tud száni a fantázia vonatára.
+[01:50.000 --> 01:52.000]  Ezért épülnek ezek a helyek.
+[01:52.000 --> 01:55.000]  Meg volt a legkínosabb, főüktek szegély menjasszonyt a színpadra,
+[01:55.000 --> 01:58.000]  két sárc elkezdett táncolni körülötte,
+[01:58.000 --> 02:00.000]  a fővált adni a lazát meg a vagellnyat,
+[02:00.000 --> 02:02.000]  de azért látszott, hogy nem őszinte a mosolja,
+[02:02.000 --> 02:05.000]  szóval inkább tolta, mint húzta a fiúkat,
+[02:05.000 --> 02:07.000]  és szerintem ez egy lényeges különbség.
+[02:07.000 --> 02:10.000]  Szerintem egy férfinak az,
+[02:10.000 --> 02:13.000]  hogy egy ismeretlen nő megmutatja a mellét,
+[02:13.000 --> 02:15.000]  az egyizgalmas dolog.
+[02:15.000 --> 02:18.000]  Egy nőnek az, hogy egy ismeretlen férfi
+[02:18.000 --> 02:21.000]  kérletlenül oda nyomja a farkát,
+[02:23.000 --> 02:25.000]  az nem olyan ritka.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DTaYhTCjK6H/)
