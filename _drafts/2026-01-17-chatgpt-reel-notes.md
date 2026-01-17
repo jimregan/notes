@@ -247,94 +247,84 @@ the electrical impulse is delivered.
 ### Line-by-line translation
 
 **Milyen lenne, ha a ChatGPT nevelné a kutyámat?**
+
 What would it be like if ChatGPT raised my dog?
 
 **Azta mindenit, mekkora gödör!**
+
 Wow, holy crap, what a huge hole!
 
-### 1. Gödörásás.
+**1. Gödörásás.**
 
 1. Hole-digging.
 
 **Nagyon büszke vagyok arra, hogy ennyire kreatívan kezeled a kertépítési munkálatokat.**
+
 I’m very proud of how creatively you’re handling the garden landscaping work.
 
 **Talán praktikus lenne, hogyha legközelebb olyan helyre ásnád a gödröt,**
+
 Maybe it would be practical if next time you dug the hole in a place
 
 **ahol nem fogok belelépni és kitörni a nyakamat.**
+
 where I won’t step into it and break my neck.
 
 **Ha gondolod, akkor legközelebb összeállítok neked egy térképet**
+
 If you like, next time I can put together a map for you
 
 **és bejelölöm rajta, hogy a kert melyik pontjain áshatsz gödröt.**
+
 and mark on it which spots in the garden you’re allowed to dig holes in.
 
-### 2. 💩 evés
+**2. 💩 evés**
 
 2. 💩 eating
 
 **Úh, nagyon nagy bátorságra vall, hogy ilyen önbizalommal teli kóstold végig a környék biodiverzitását,**
+
 Uh, it really shows great courage that you so confidently sample the area’s biodiversity,
 
 **Lehetőleg legközelebb egy kevésbé büdös és undorító kulináris nyalánkság mellett tedd le a voksodat**
+
 Preferably next time, commit yourself to a less smelly and disgusting culinary delicacy
 
 **Ha gondolod, akkor legközelebb összeállítok neked egy listát**
+
 If you want, next time I’ll put together a list for you
 
 **az itthon fellelhető legfinomabb jutifalatokról.**
+
 of the tastiest treats available at home.
 
 **Ha benne vagy, akár már most el is kezdhetjük a kóstolást.**
+
 If you’re up for it, we can even start the tasting right now.
 
-### 3. Sáros manccsal beszökés
+**3. Sáros manccsal beszökés**
 
 3. Sneaking in with muddy paws
 
 **Jaj,**
+
 Oh dear,
 
 **Igazán figyelmes tőled, hogy mindig gondoskodsz arról, hogy frissen felmossam a parkettát.**
+
 It’s really considerate of you to always make sure I mop the parquet floor freshly.
 
 **Igaz, hogy ma ezt már nyolcadszorra teszem meg.**
+
 Granted, today I’m doing this for the eighth time already.
 
 **Felajánlhatok neked néhány szabadidős tevékenységet amivel lefoglalhatod magadat,**
+
 I could offer you a few leisure activities to keep yourself occupied with,
 
 **ameddig nem engedlek be.**
+
 while I’m not letting you in.
-
-### Humour & why it works
-
-* The core joke is **ChatGPT-style corporate politeness applied to dog misbehaviour**.
-* Each section uses **overly formal, HR / project-management language** for instinctive animal acts.
-* The humour comes from **register mismatch**:
-
-  * *kertépítési munkálatok* (landscaping works)
-  * *kulináris nyalánkság* (culinary delicacy)
-  * *szabadidős tevékenységek* (leisure activities)
-* The dog is treated as:
-
-  * a colleague
-  * a subcontractor
-  * a stakeholder in a feedback process
-
-Very Hungarian humour here: **deadpan politeness + passive-aggressive over-clarification**.
-
-### Spoken vs performed Hungarian
-
-* This is **performed monologue Hungarian**, not spontaneous speech.
-* Sentence structure is deliberately:
-
-  * long
-  * polite
-  * bureaucratic
-* That’s intentional: it imitates how ChatGPT “sounds” in Hungarian.
 
 ### Vocabulary & constructions (with context)
 
@@ -353,26 +343,6 @@ Very Hungarian humour here: **deadpan politeness + passive-aggressive over-clari
 * **igazán figyelmes tőled** – polite praise used sarcastically.
 * **felajánlhatok** – conditional politeness; HR / customer-service flavour.
 * **ameddig** – temporal “while”; formal–neutral connective.
-
-### Why this is good input for you
-
-* High **lexical transparency** with exaggerated register
-* Repeated **softeners and politeness frames**
-* Clear **genre parody**, easy to recognise and later ignore in real life
-* Excellent for building intuition about:
-
-  * Hungarian irony
-  * polite aggression
-  * bureaucratic cadence
-
-If you want, next we can:
-
-* rewrite one section into **natural non-parodic spoken Hungarian**, or
-* annotate it specifically for **ASR fragility** (where Whisper would likely stumble), or
-* compare this humour to **English corporate-speak dog jokes** and what’s language-specific here.
-
-Drop the next reel whenever.
-
 
 -----
 
