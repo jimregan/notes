@@ -671,25 +671,152 @@ Who is this person? Step forward! Show yourselves! I don’t know.
 
 [Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
 
-Öt élmény és érdekességek Dublinról. Olyanok, amiket neked is meg kell élned.
-Az első, amit nem hagyhatsz ki: céltalan séta a belvárosban.
-Igen, tudom, hogy furán hangzik, de Dublinban sétálni tényleg élmény.
-A színes ajtók, a faburkolatok, a régi házak, a kis utcák. Elképesztően jó hangulata van,
-ráadásul garantálom, hogy séta közben olyan helyekbe fogsz belebotlani, amik nem kicsit tesznek hozzá az utazás első élményéhez.
-A második tippem, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.
-Ide tilos leptopot behozni, nincs wifi, nincs rohanás. Amúgy meg miért nincs minden könyvesboltban kávézó?
-Dublinban egyébként több ilyen hely is van, mert az írek nagyon tudják, hogy kell lelassítani.
-A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhatsz.
-A szarvasok több mint 300 éve foglalták el ezt a területet. Még a királyi vadászatok idejéből maradtak a parkban,
-és azóta is ugyanannak az állománynak a leszármazottai élnek itt.
-Gyakorlatilag egy vadrezervátum van Dublin közepén.
-Egyébként a Phoenix Park, Európa egyik legnagyobb városi parkja,
-még a New York-i Central Parknál is nagyobb.
-A negyedik helyszín a Szent Patrick katedrális, amit döbbenetesen nézni.
-Itt volt Dékán Jonathan Swift a Gulliver utazásainak irója, és itt is van eltemetve.
-Az 5. egyben kihagyhatatlan tippem pedig a Dublini pubok. Több mint hétszaz kocsma van Dublinban,
-de itt a pub nem csak egy hely, ahová beülsz iszogatni.
-Az itteni kocsmákban olyan élet és hangulat van, hogy biztosan sokszor vissza akarsz majd térni ide.
-Olyan mint egy koncerterem, egy közösségi tér, egy nappali és egy terápiás szoba egyben.
-Ird meg, hogy az 5 közül neked melyik tetszett a legjobban, és kövess be,
-mert hamarosan hozom a következő élményt írországból.
+### Line-by-line translation
+
+**Öt élmény és érdekességek Dublinról. Olyanok, amiket neked is meg kell élned.**
+Five experiences and interesting things about Dublin. Ones you should experience too.
+
+**Az első, amit nem hagyhatsz ki: céltalan séta a belvárosban.**
+The first thing you can’t miss: aimless wandering in the city centre.
+
+**Igen, tudom, hogy furán hangzik, de Dublinban sétálni tényleg élmény.**
+Yes, I know it sounds strange, but walking around Dublin really is an experience.
+
+**A színes ajtók, a faburkolatok, a régi házak, a kis utcák.**
+The colourful doors, the wooden facades, the old houses, the small streets.
+
+**Elképesztően jó hangulata van,**
+It has an incredibly good atmosphere,
+
+**ráadásul garantálom, hogy séta közben olyan helyekbe fogsz belebotlani,**
+and what’s more, I guarantee that while walking you’ll stumble into places
+
+**amik nem kicsit tesznek hozzá az utazás első élményéhez.**
+that add *a lot* to your first travel experience.
+
+---
+
+**A második tippem, ez a könyvesbolt a belvárosban, az emeletén egy kávézóval.**
+My second tip is this bookshop in the city centre, with a café upstairs.
+
+**Ide tilos leptopot behozni, nincs wifi, nincs rohanás.**
+You’re not allowed to bring laptops in here, there’s no Wi-Fi, no rushing.
+
+**Amúgy meg miért nincs minden könyvesboltban kávézó?**
+And anyway, why doesn’t every bookshop have a café?
+
+**Dublinban egyébként több ilyen hely is van,**
+In Dublin there are actually several places like this,
+
+**mert az írek nagyon tudják, hogy kell lelassítani.**
+because the Irish really know how to slow down.
+
+---
+
+**A harmadik, a Phoenix Park, ahol szabadon élő szarvasokkal találkozhatsz.**
+The third is Phoenix Park, where you can encounter free-roaming deer.
+
+**A szarvasok több mint 300 éve foglalták el ezt a területet.**
+The deer have occupied this area for more than 300 years.
+
+**Még a királyi vadászatok idejéből maradtak a parkban,**
+They date back to the era of royal hunts in the park,
+
+**és azóta is ugyanannak az állománynak a leszármazottai élnek itt.**
+and to this day, descendants of the same herd live here.
+
+**Gyakorlatilag egy vadrezervátum van Dublin közepén.**
+Basically, there’s a wildlife reserve in the middle of Dublin.
+
+**Egyébként a Phoenix Park, Európa egyik legnagyobb városi parkja,**
+By the way, Phoenix Park is one of Europe’s largest urban parks,
+
+**még a New York-i Central Parknál is nagyobb.**
+even larger than Central Park.
+
+---
+
+**A negyedik helyszín a Szent Patrik katedrális, amit döbbenetesen nézni.**
+The fourth location is St Patrick’s Cathedral, which is astonishing to look at.
+*(The Hungarian phrasing is slightly clumsy but idiomatic for captions.)*
+
+**Itt volt Dékán Jonathan Swift, a Gulliver utazásainak írója,**
+Jonathan Swift, the author of *Gulliver’s Travels*, was dean here,
+
+**és itt is van eltemetve.**
+and he is also buried here.
+
+---
+
+**Az 5., egyben kihagyhatatlan tippem pedig a dublini pubok.**
+My fifth — and unmissable — tip is Dublin’s pubs.
+
+**Több mint hétszáz kocsma van Dublinban,**
+There are more than seven hundred pubs in Dublin,
+
+**de itt a pub nem csak egy hely, ahová beülsz iszogatni.**
+but here a pub isn’t just a place where you sit down to have a drink.
+
+**Az itteni kocsmákban olyan élet és hangulat van,**
+There’s such life and atmosphere in the pubs here
+
+**hogy biztosan sokszor vissza akarsz majd térni ide.**
+that you’ll definitely want to come back many times.
+
+**Olyan, mint egy koncertterem, egy közösségi tér, egy nappali és egy terápiás szoba egyben.**
+It’s like a concert hall, a community space, a living room, and a therapy room all in one.
+
+---
+
+**Írd meg, hogy az 5 közül neked melyik tetszett a legjobban, és kövess be,**
+Write which of the five you liked the most, and follow me,
+
+**mert hamarosan hozom a következő élményt Írországból.**
+because I’ll be bringing the next experience from Ireland soon.
+
+---
+
+### What’s linguistically interesting here (beyond the content)
+
+* This is **clean, caption-optimised Hungarian**: short sentences, list logic, minimal subordination.
+* Heavy use of **softeners and discourse glue**:
+
+  * *egyébként, ráadásul, amúgy*
+    These carry tone, not information.
+* Reusable influencer frames:
+
+  * **amit nem hagyhatsz ki**
+  * **a második tippem**
+  * **egyben kihagyhatatlan**
+* Mild evaluatives (**elkép esztően jó**, **garantálom**) signal enthusiasm without jokes.
+
+### Vocabulary & constructions (with context)
+
+* **céltalan séta** – aimless walk; slightly poetic, travel-blog cliché.
+* **nem hagyhatsz ki** – “you can’t miss”; persuasive but standard.
+* **belváros** – city centre; neutral, very frequent.
+* **ráadásul** – “what’s more”; additive emphasis marker.
+* **belebotlik vmibe** – to stumble upon something; travel-narrative staple.
+* **nem kicsit** – “not a little” → *a lot*; ironic intensifier.
+* **tilos** – forbidden; formal sign/register word, often reused casually.
+* **nincs rohanás** – “there’s no rushing”; lifestyle framing.
+* **tudják, hogy kell** – “they know how to”; evaluative cultural claim.
+* **kihagyhatatlan** – unmissable; high-frequency ad/travel adjective.
+* **kocsma** – pub; everyday, warmer than *bár*.
+* **beül** – sit down somewhere (to drink/chat); very Hungarian verb choice.
+* **vissza akarsz térni** – you’ll want to return; future-oriented persuasion.
+
+### Why this works well as “background noise”
+
+* High **predictability** once you know the genre
+* Lets you practise **tuning out** while still tracking structure
+* Captions are stable → excellent anchor against Whisper noise
+* Exactly the kind of material natives half-ignore while scrolling
+
+If you want next, we can:
+
+* strip this to a **bare grammatical skeleton** (what remains if you ignore hype), or
+* compare **caption Hungarian vs spoken delivery** line by line, or
+* contrast this with **Irish travel influencer English** and see what’s genre vs language.
+
+Whenever you’re ready, send the next one.
