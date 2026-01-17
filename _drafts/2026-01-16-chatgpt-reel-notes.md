@@ -1203,3 +1203,11 @@ Because *you were the 206th*.
 * **hív vkit vminek** – call someone something
 * **első** – first
 * **–dik** – ordinal suffix (*206-dik* = 206th)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DPJQtPxDE6t/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTaYhTCjK6H/)
