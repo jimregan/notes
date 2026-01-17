@@ -1545,11 +1545,11 @@ Remélem, kezdődhet a kis szauna. Készen álltok?
 
 [Reel](https://www.instagram.com/reels/DTlJc0tineE/)
 
-A magyarországi klubkültúra haladok-i.
-Hát az egész arról szól, hogy ki tudtok metinné, ki tudtok betköltemi piára,
-kiül a VIP-asztaloknál, és hogy ki kiválka vart az nap.
-És a legproszabb része, hogy aztán a másaposágra elmegy az egész hétvégügy.
-Nem lettek új barátaid, nem se az amaszattál le egy új számot se, nem viszállhat az semmilyen új eményt.
+A Magyarországi klubkültúra haldoklik...
+Mért az egész arról szól, hogy ki tud tok metinné, ki tud többet inni ki tud többet költeni piára
+ki ül a VIP-asztaloknál és, hogy ki kivel kavart az nap.
+És a legrosszabb része, hogy aztán a másnaposágra elmegy az egész hétvégéd.
+Nem lettek új barátaid, Nem Shazamozhattál le egy új számot se, nem viszel haza semmilyen új élményt.
 Mi azért indítottuk el a lindosz, mert szerintünk ez lehet máshoz is.
 Mi is éveldünk táncolni, jó zenéket hallgatni, barátainkkal lenni, vagy új Jófej embereket megismerni.
 De ezt nem úgy akarjuk, hogy ez egész hívtéink rá menjen.
