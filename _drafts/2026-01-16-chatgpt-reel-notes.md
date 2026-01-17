@@ -1491,18 +1491,18 @@ Leave me alone!
 
 [Reel](https://www.instagram.com/reels/DTN4O7fguHs/)
 
-[00:00.000 --> 00:08.000]  Köszönöm tök mindenkit a Pongyalapítpankot el. Réti pipitére keresztett saune szállán számén. Ádám vagyok, a közédu navarsányi saune a világbajmükság.
-[00:08.000 --> 00:09.000]  Eső helyezettje.
-[00:11.000 --> 00:15.000]  És az ottan így össztes a lépes méz pusztítól rej egyszerű számommal készültem nektek.
-[00:18.000 --> 00:25.000]  Nagyon fontos, hogy a kimenet közben rosszul ézi magát. Az is kurvára itt malodjon is ez Magyarország, tehát mi ide kibédni án nem lalagszálni, jó?
-[00:25.000 --> 00:30.000]  No, illolajnak köztem nektek egy ilyen kis trómzői eukaliptus parlakfű kivonatot.
-[00:31.000 --> 00:37.000]  Ezt följük majd megtobni egy ilyen kis tamperrei, bitumen kocka fenyőkát rány kivonattal.
-[00:39.000 --> 00:45.000]  Erre fogjönni egy ilyen kis tőzegmuhás szalsz a szóz, sarki fénny, szérünk koncentráció kivonat, koncentrációre.
-[00:45.000 --> 00:46.000]  Eztán majd meglehet fenni.
-[00:48.000 --> 00:53.000]  Nagyon, nagyon fontos, hogy báré hétzer fogok szellőztetni három perc alatt a két ma egyszer kimegy.
-[00:53.000 --> 00:59.000]  Az vissza nem jön, ott fog megfagyni pőrén meszrenül a hotelparkoróban, mert ezt a szabályt 30 éve behoztuk,
-[00:59.000 --> 01:01.000]  és azóta senki nem változtatott rajta.
-[01:01.000 --> 01:06.000]  Annyi, hogy nálam majd itt lehetben cigizni jó, csak annyi, hogy létszél a saunakőre hamózatok, mert én is odafogok.
-[01:06.000 --> 01:11.000]  A végén pedig átkenjük egymást egy ilyen kis aceton konyhelyi odozó szó keveréken,
-[01:11.000 --> 01:14.000]  ugyanis ez még a maradékvitamint és éretkebbet is kijölni.
-[01:14.000 --> 01:17.000]  Remélem kezdődhet a kis sauna, készen által!
+Köszönöm tök mindenkit a Pongyalapítpankot el. Réti pipitére keresztett saune szállán számén. Ádám vagyok, a közédu navarsányi saune a világbajmükság.
+Eső helyezettje.
+És az ottan így össztes a lépes méz pusztítól rej egyszerű számommal készültem nektek.
+Nagyon fontos, hogy a kimenet közben rosszul ézi magát. Az is kurvára itt malodjon is ez Magyarország, tehát mi ide kibédni án nem lalagszálni, jó?
+No, illolajnak köztem nektek egy ilyen kis trómzői eukaliptus parlakfű kivonatot.
+Ezt följük majd megtobni egy ilyen kis tamperrei, bitumen kocka fenyőkát rány kivonattal.
+Erre fogjönni egy ilyen kis tőzegmuhás szalsz a szóz, sarki fénny, szérünk koncentráció kivonat, koncentrációre.
+Eztán majd meglehet fenni.
+Nagyon, nagyon fontos, hogy báré hétzer fogok szellőztetni három perc alatt a két ma egyszer kimegy.
+Az vissza nem jön, ott fog megfagyni pőrén meszrenül a hotelparkoróban, mert ezt a szabályt 30 éve behoztuk,
+és azóta senki nem változtatott rajta.
+Annyi, hogy nálam majd itt lehetben cigizni jó, csak annyi, hogy létszél a saunakőre hamózatok, mert én is odafogok.
+A végén pedig átkenjük egymást egy ilyen kis aceton konyhelyi odozó szó keveréken,
+ugyanis ez még a maradékvitamint és éretkebbet is kijölni.
+Remélem kezdődhet a kis sauna, készen által!
