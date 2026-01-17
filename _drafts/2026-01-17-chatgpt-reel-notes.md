@@ -44,7 +44,11 @@ in a *Polish zoo*
 
 [Reel](https://www.instagram.com/reels/DNdLGQBIlQQ/)
 
-Ha válsz a buszra, és nem jön, bal szekésik.
+Ha vársz a buszra, és nem jön, varsz egy késik.
 Ha buszra jöttél, akkor, gondolom, nem gyalog.
 Ha nincs jegyed, vegyél.
 Ha rossz buszra szálltál, minél további összrajta, annál többet kell visszasétálni, és ezt nem a buszról szól.
+
+-----
+
+[Reel](https://www.instagram.com/reel/DTksA6Yicw4/)
