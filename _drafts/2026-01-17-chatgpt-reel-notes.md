@@ -351,9 +351,9 @@ while I’m not letting you in.
 Elegem volt a tökéletes Insta mamikból. Tip-top lakások, bio gyümölcstálak, hibátlan selfie-k.
 Ezért létrehosztam az @antiparamami oldalt, ahol nem tökéletesek, csak valóságosak vagyunk.
 Itt a kávé hideg, a póló njálfoltos, a gyerek pedig ragad, a vacsi pedig néha csak egy marék rópi.
-Itt a jó anya nem bio uszit csinál, hanem lenyomja napot anélkül, hogy világá menne, ne vártőlem tökéletes napi rendi tanácsod,
-de azt odérezni, hogy nem vagy egyedül.
-Akkor sem, ha reggel 9-re már 5-ő összeomottál, kitókban sírsz a vécén, vagy csak rohátul elfáradt.
+Itt a jó anya nem bio uszit csinál, hanem lenyomja napot anélkül, hogy világgá menne. Ne várj tőlem tökéletes napirendi tanácsot,
+de azt fogod érezni, hogy nem vagy egyedül.
+Akkor sem, ha reggel 9-re már 5x összeomlottál, titokban sírsz a vécén, vagy csak rohádtul elfáradsz.
 
 -----
 
