@@ -564,24 +564,108 @@ and this hasn’t really broken through for them.
 
 [Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
 
-Mindig, amikor hazamegyek kell menni, ugye vendégségbe rég nem látott rokont látogatni.
-Hát az egy rémálom. Tehát már az előszobában konfliktushelyzet van,
-hogy nem kell lehúzni a cipőt de lehúzom, rem kell lehúzni, de lehúzom, de nem kell lehúzni,
-lehúzom, de kosz van, nincsen kosz, dehogynem, kosz van, nincsen kosz,
-mi sem húzzuk le hát akkor azért van kosz, na ugye, hogy kosz van?
-Jó, akkor lehúzom, akkor ne húzd le!
-És az a kinos beszélgetés, nem? Hogy na, Szabika, hogy vagy?
-Jól.
-Egyébként.
-És amúgy?
-ámugy is.
-Egyébként?
-Egyébként minden rendben.
-S máskülőnben?
-Ki az, aki jól van, amúgy is jól van, egyébként minden rendben, de máskülőnben szar neki?
-Jaj, nagyon...
-Máskülőnben...
-Ki ez az ember? Jelentkezzen! Mutassátok meg! Nem tudom.
+### Line-by-line translation
+
+**Mindig, amikor hazamegyek, kell menni, ugye, vendégségbe rég nem látott rokont látogatni.**
+
+Every time I go home, you *have* to go — you know — visit some long-unseen relative.
+
+**Hát az egy rémálom.**
+
+Well, that’s a nightmare.
+
+**Tehát már az előszobában konfliktushelyzet van,**
+
+So already in the hallway there’s a conflict situation,
+
+**hogy nem kell lehúzni a cipőt, de lehúzom,**
+
+that you don’t need to take off your shoes, but I do,
+
+**nem kell lehúzni, de lehúzom, de nem kell lehúzni,**
+
+you don’t need to take them off, but I do — but you don’t need to,
+
+**lehúzom, de kosz van, nincsen kosz, dehogynem, kosz van, nincsen kosz,**
+
+I take them off, but there *is* dirt — there isn’t dirt — yes there is — no there isn’t,
+
+**mi sem húzzuk le, hát akkor azért van kosz, na ugye, hogy kosz van?**
+
+we don’t take them off either — well then *that’s* why there’s dirt, right? See, there *is* dirt!
+
+**Jó, akkor lehúzom, akkor ne húzd le!**
+
+Fine, then I’ll take them off — then don’t take them off!
+
+**És az a kínos beszélgetés, nem?**
+
+And then that awkward conversation, right?
+
+**Hogy na, Szabika, hogy vagy?**
+
+So: well, Szabika, how are you?
+
+**Jól.**
+
+Fine.
+
+**Egyébként.**
+
+Otherwise.
+
+**És amúgy?**
+
+And otherwise?
+
+**Amúgy is.**
+
+Otherwise as well.
+
+**Egyébként?**
+
+Otherwise?
+
+**Egyébként minden rendben.**
+
+Otherwise everything’s fine.
+
+**S máskülönben?**
+
+And other than that?
+
+**Ki az, aki jól van, amúgy is jól van, egyébként minden rendben, de máskülönben szar neki?**
+
+Who is it that’s fine, also fine, otherwise everything’s fine — but other than that, things are shit for them?
+
+**Jaj, nagyon…**
+
+Oh, very much…
+
+**Máskülönben…**
+
+Other than that…
+
+**Ki ez az ember? Jelentkezzen! Mutassátok meg! Nem tudom.**
+
+Who is this person? Step forward! Show yourselves! I don’t know.
+
+### Vocabulary & constructions (with context)
+
+* **hazamegyek** – “I go home”; often implies *returning to family*, not just location.
+* **kell menni** – “one has to go”; obligation without clear agent.
+* **vendégségbe menni** – to go visiting; socially loaded, mildly burdensome.
+* **rémálom** – nightmare; everyday exaggeration.
+* **előszoba** – hallway / entryway; culturally important conflict zone.
+* **lehúzza a cipőt** – to take off shoes; colloquial verb choice.
+* **kosz** – dirt; blunt, childlike noun, perfect for petty fights.
+* **dehogynem** – “yes it is!”; emphatic contradiction marker.
+* **na ugye** – “see?” / “told you”; triumph-in-argument particle.
+* **kínos** – awkward; social discomfort, not embarrassment.
+* **egyébként / amúgy / máskülönben** – discourse fillers meaning “otherwise”; here stripped of semantic function.
+* **szar neki** – “things are shit for them”; crude but very natural spoken evaluation.
+* **jelentkezzen!** – “step forward!”; mock-authoritative, theatrical.
+* **mutassátok meg!** – “show them!”; crowd-addressing exaggeration.
 
 ------
 
