@@ -1555,82 +1555,72 @@ I’m *that* afraid of this!
 ### Line-by-line translation
 
 **Meg tényleg szerintem annál nincsen jobb, hogy tényleg huszonnegyedikén felvesszük reggel a közös pizsamánkat,**
+
 And honestly, I think there’s nothing better than on the 24th, in the morning, we put on our matching pyjamas,
 
 **amin mindenkinek rajta van a neve, az egész család pizsamában ül otthon.**
+
 with everyone’s name on them, the whole family sitting at home in pyjamas.
 
 **És várjuk Kevint, és nyilvánvalóan —**
+
 And we’re waiting for Kevin, and obviously —
-*(This almost certainly refers to *Home Alone* / *Kevin*, a Hungarian Christmas staple; the sentence trails off.)*
 
 **Meg hát egyébként az a legjobb ebben… ebben az egész ünnepben, hogy ilyenkor összegyűl a család,**
+
 And well actually the best thing about this… about the whole holiday is that this is when the family gets together,
 
 **hogyha rokonokhoz kell menni, akkor lemegyünk vidékre, és akkor velük is találkozunk.**
+
 if we need to visit relatives, then we go down to the countryside and meet them too.
 
 **Velük év közben annyira nem tudunk sokat lenni,**
+
 We can’t really spend much time with them during the year,
 
 **de ilyenkor időt szánunk egymásra, és például együtt kártyázunk.**
+
 but at times like this we make time for each other, and for example we play cards together.
 
 **De ezen kívül ugye a szűk család is,**
+
 But besides that, of course, the immediate family too,
 
 **tehát ilyenkor összegyűlünk, együtt vagyunk,**
+
 so we get together, we’re together,
 
 **ilyenkor főz anya a legtöbbet,**
+
 this is when mum does most of the cooking,
 
 **meg én is próbálok beletenni, csinálok…**
+
 and I also try to contribute, I make…
 
 **Ti a sütiket csináljátok — tiramisut,**
+
 You do the cakes — tiramisu,
 
 **zserbót,**
+
 zserbó,
 
 **flódnit —**
+
 flódni —
-*(This is where crosstalk makes sentence boundaries unclear; it sounds like a list being prompted or confirmed.)*
 
 **úgyhogy ez egy ilyen külön program,**
+
 so that’s kind of a separate little activity,
 
 **és tényleg nekem is emiatt ez a kedvenc ünnepem,**
+
 and honestly, that’s why this is my favourite holiday too,
 
 **nekem így a család miatt.**
+
 because of the family.
-
----
-
-### Notes on uncertainty / crosstalk
-
-* The **“Kevin”** line is almost certainly *Home Alone* (*Reszkessetek, betörők!*), which Hungarians universally associate with Christmas Eve. The sentence breaks off, but the reference is clear.
-* Around **tiramisut / zserbót / flódnit**, this feels like:
-
-  * either the other speaker prompting (*“Ti a sütiket csináljátok?”*), or
-  * cooperative overlap where listing takes over the syntax.
-    I’ve kept it as a list without forcing a full sentence.
-
----
-
-### Tone & why this works
-
-This isn’t humour-driven; it’s **warm, associative, spoken nostalgia**:
-
-* Long, loosely chained clauses
-* Frequent **ilyenkor** (“at times like this”) anchoring everything temporally
-* Emotional weight carried by **routine** (pyjamas, cooking, card games), not sentimentality
-
-Very typical Hungarian Christmas talk: *practical, repetitive, quietly affectionate*.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -1645,25 +1635,3 @@ Very typical Hungarian Christmas talk: *practical, repetitive, quietly affection
 * **zserbó / flódni** – strongly culture-marked Christmas desserts.
 * **külön program** – “a separate little programme”; cosy, understated phrasing.
 * **emiatt** – “because of this”; causal wrap-up marker.
-
----
-
-### Why this is good input for you
-
-* High-frequency **family / holiday discourse**
-* Excellent example of **sentence drift** in natural speech
-* Shows how Hungarian speakers:
-
-  * stack clauses instead of closing them
-  * let lists temporarily replace syntax
-  * signal warmth without explicit emotion words
-
-This is exactly the kind of **background conversational texture** that builds intuition.
-
-If you want next, we can:
-
-* clean this into **written Hungarian** to see what disappears, or
-* mark **prosodic reset points** (where a native listener re-parses), or
-* compare this to **non-Christmas family talk** and what stays the same.
-
-Send the next one whenever.
