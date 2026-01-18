@@ -1462,15 +1462,17 @@ The Hungarian government is prepared for the snowfall — *yeah, no.*
 
 [Reel](https://www.instagram.com/reels/DQMhHAdCIqj/)
 
-az olifenszem, annak olyan tartalmáid, amikor mondjuk cicit mutatsz.
-Jézus úristen.
-Kérdezem, nem tudom, nem, bocs, bocs, drága volt.
-Nem készült.
-Soha életemben nem készült rólam, akt, fotó, sehol.
+- Ott az Only Fans-en vannak olyan tartalmáid, amikor mondjuk cicit mutatsz?
+- Jézus úristen!
+- Kérdezem, nem tudom. 
+- Nem!
+- Bocs, bocs, drága volt.
+- Sohan nem készült...
+Soha életemben nem készült rólam, akt, fotó. Sehol!
 Mindenki tudja, hogy rólam nincs olyan,
-hiszen, hogy ha rólam lenne eztelenképp,
-hát már egy kiszi várgot volna.
-Én még annyira érzékem jöke erre, hogy én még pár kapcsolatban sem küldök,
-ilyen kébet, mert annyira félek, hogy nem tudom,
-kiszi várra, hogy valamit, hogy nekem a telefonomon
-sincs semmi ilyen, hogy telekrültem kapcsolatban, annyira félek ettől.
+hiszen hogy ha rólam lenne meztelen kép,
+az már rég kiszivárgott volna.
+Én annyira érzékeny vagyok erre, hogy én még párkapcsolatban sem küldök,
+ilyen képet, mert annyira félek, hogy nem tudom,
+kiszivárog vagy valami, tehat nekem a telefonomon
+simcs semmi ilyen, hogy tényleg küldtem kapcsolatban. Annyira félek ettől!
