@@ -113,81 +113,59 @@ Who needs that?
 
 [Reel](https://www.instagram.com/reels/DTpOYNSAfn8/)
 
-I need to handle this one a bit carefully because it’s a **Móricka joke** (i.e. a child character) and it contains **explicit sexual profanity**. I can still analyse and translate it, but I’ll **mask the explicit phrase** rather than reproducing it verbatim.
-
----
-
 ### Line-by-line translation
 
 **A béka… a tanárnő kéri a diákokat, hogy mondjanak egy mondatot a békával és a hajóval.**
+
 The frog… the teacher asks the students to say a sentence using *the frog* and *the boat*.
 
 **Az egyik diák azt mondja: a béka csücsül a hajón.**
+
 One student says: the frog is sitting on the boat.
 
 **A másik diák azt mondja, hogy egy béka mellett elmegy egy hajó.**
+
 Another student says that a boat passes by next to a frog.
 
 **Móricka jelentkezik a hátsó padban.**
+
 Móricka raises his hand in the back row.
 
-**„Béka p…d a [KIPONTYOZOTT SZEXUÁLIS KIFEJEZÉS], ha jó, ha nem jó?”**
-“Why don’t you [explicit sexual insult involving *béka*] — whether it’s good or not?”
+**„Békapod a faszomat, ha jó [hajó], ha nem jó?”**
+
+“Why don’t you frog my dick — whether it’s good or not?”
 
 **Jééézuus.**
+
 Jeee-sus.
 
 **Én elfogadom.**
+
 I’ll accept that.
 
 **Gratulálunk.**
+
 Congratulations.
 
 **Hozzá nyisd ki nyugodtan.**
+
 Go ahead, open it up next to it.
-*(This line is garbled / contextually odd — likely part of overlapping banter.)*
 
 **Úgyhogy jó étvágyat kívánunk majd hozzá!**
+
 So we wish you good appetite with it!
 
 **Köszönünk!**
+
 Thank you!
 
 **Te milyen viccet mondtál volna?**
+
 What joke would *you* have told?
 
 **Írd meg nekünk kommentben.**
+
 Write it to us in the comments.
-
----
-
-### Where the joke actually lives
-
-This is a **classic Hungarian “Móricka-vicc”** structure:
-
-1. **School assignment with constraints**
-   → *make a sentence with X and Y*
-
-2. **Two boring, correct answers**
-   → establish the “rules of the game”
-
-3. **Móricka breaks the rules violently**
-   → introduces:
-
-   * sexual profanity
-   * grammatical sabotage
-   * authority shock
-
-4. **Teacher’s fake acceptance**
-   → *Én elfogadom* is the punchline’s release valve
-
-The laugh comes from:
-
-* **semantic derailment** (from grammar exercise to obscenity)
-* **register collision** (classroom politeness vs taboo slang)
-* **Móricka’s role** as the licensed rule-breaker of Hungarian jokes
-
----
 
 ### Linguistic notes (high value)
 
@@ -197,24 +175,3 @@ The laugh comes from:
 * **Jézus** (drawn out) – shock + humour, not religious.
 * **én elfogadom** – authority parody; works because it *shouldn’t* be acceptable.
 * **Móricka** – not just a name, but a **genre marker** (signals what’s coming).
-
----
-
-### Why this works as background-noise input
-
-* You instantly learn to recognise **Móricka-mode** Hungarian
-* Shows how Hungarian humour often:
-
-  * doesn’t soften taboo
-  * relies on *structural* surprise, not wordplay
-* Whisper / captions usually **butcher or censor** exactly the key line — which is fine, because the *setup* already tells you what kind of joke it is
-
----
-
-If you want, next we can:
-
-* compare **Móricka jokes vs English “Little Johnny” jokes** structurally, or
-* rewrite this into **non-taboo Hungarian** to show how completely it collapses, or
-* look at how **captioning typically sanitises** this genre.
-
-Send the next one when ready.
