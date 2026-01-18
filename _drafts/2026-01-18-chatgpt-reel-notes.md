@@ -179,24 +179,24 @@ Write it to us in the comments.
 
 [Reel](https://www.instagram.com/reels/DTk_fgngWvc/)
 
-[00:00.000 --> 00:03.440]  Kedves Palkovi csúr, mesterséges inteligencia gurú,
-[00:03.440 --> 00:08.440]  Palkovi cslászló, a mesterséges inteligenciáért felelős kormánybiztos.
-[00:08.440 --> 00:11.080]  Nagy érdeklődéssel néztük a legutóbi videóját,
-[00:11.080 --> 00:16.120]  hát ha végre választ kapunk egy sűrgős, fontos és nagyon is aktuális kérdésre.
-[00:16.120 --> 00:22.960]  Hogyan fogja a kormány megvédeni a választásokat az EI-alapú dipfékekkel és hazugtartalmakkal szemben?
-[00:22.960 --> 00:27.240]  Hogyan lehet biztosítani, hogy az emberek valódi információkalapján töncsenek,
-[00:27.240 --> 00:29.240]  nepedik hazupságok alapján?
-[00:30.560 --> 00:34.240]  És hát legnagyobb meglepetésünkre nem erről szólt a videó, hanem...
-[00:34.240 --> 00:39.080]  Hónapokót az ajlik egy tudatos politikai építkezés a Tisza Párt részéről,
-[00:39.080 --> 00:43.520]  annak érdekében, hogy elbizonytalanítsák az embereket és mindent megkérdőjelezzenek,
-[00:43.520 --> 00:45.240]  ami nem tőlük származik.
-[00:45.240 --> 00:50.680]  A cél, hogy elhiteség, minden hamis, megtévesztő és valótlan, amit nem ők tesznek közé,
-[00:50.760 --> 00:54.280]  legyen szó információról, képről vagy akár videóról.
-[00:54.840 --> 00:59.120]  A cél valójában az, hogy senki nevezesse férre az állampolgárokat.
-[01:00.120 --> 01:05.520]  Vanok az akgodalomra, hiszen a bíróság is kimonta, hogy a kormány közeli indekszáltal megjelentetett
-[01:05.520 --> 01:11.680]  600 oldalas EI-general dokumentum, az úgynevezett Tisza Csomag, minden betűje hazugság.
-[01:12.320 --> 01:18.080]  Ez az a dokumentum, amire hivatkozva a kormány, az adófizető pénzén 10 milliárdokat elszórva,
-[01:18.160 --> 01:22.960]  ilyesztgette a magyarokat evadóval, állfelmeréssel és hasonló hazugságokkal.
-[01:23.640 --> 01:27.600]  Tehát ne sötörjük le a problémát az azt arról, a probléma valós.
-[01:28.320 --> 01:33.240]  A mesterséges intelligenciat anácsban van lehetősége kezelni ezeket az égető problémákat.
-[01:34.000 --> 01:40.880]  Még nincs késő, de ha tékony és gyors választ várunk, mert mindannyiunk érdeke, hogy a választások tiszták legyenek.
+Kedves Palkovi csúr, mesterséges inteligencia gurú,
+Palkovi cslászló, a mesterséges inteligenciáért felelős kormánybiztos.
+Nagy érdeklődéssel néztük a legutóbi videóját,
+hát ha végre választ kapunk egy sűrgős, fontos és nagyon is aktuális kérdésre.
+Hogyan fogja a kormány megvédeni a választásokat az EI-alapú dipfékekkel és hazugtartalmakkal szemben?
+Hogyan lehet biztosítani, hogy az emberek valódi információkalapján töncsenek,
+nepedik hazupságok alapján?
+És hát legnagyobb meglepetésünkre nem erről szólt a videó, hanem...
+Hónapokót az ajlik egy tudatos politikai építkezés a Tisza Párt részéről,
+annak érdekében, hogy elbizonytalanítsák az embereket és mindent megkérdőjelezzenek,
+ami nem tőlük származik.
+A cél, hogy elhiteség, minden hamis, megtévesztő és valótlan, amit nem ők tesznek közé,
+legyen szó információról, képről vagy akár videóról.
+A cél valójában az, hogy senki nevezesse férre az állampolgárokat.
+Vanok az akgodalomra, hiszen a bíróság is kimonta, hogy a kormány közeli indekszáltal megjelentetett
+600 oldalas EI-general dokumentum, az úgynevezett Tisza Csomag, minden betűje hazugság.
+Ez az a dokumentum, amire hivatkozva a kormány, az adófizető pénzén 10 milliárdokat elszórva,
+ilyesztgette a magyarokat evadóval, állfelmeréssel és hasonló hazugságokkal.
+Tehát ne sötörjük le a problémát az azt arról, a probléma valós.
+A mesterséges intelligenciat anácsban van lehetősége kezelni ezeket az égető problémákat.
+Még nincs késő, de ha tékony és gyors választ várunk, mert mindannyiunk érdeke, hogy a választások tiszták legyenek.
