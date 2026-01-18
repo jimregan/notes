@@ -1186,10 +1186,84 @@ Follow me for similar recommendations!
 
 [Reel](https://www.instagram.com/reels/DNydxcM2smt/)
 
-Mi kedvenc ételed?
+### Line-by-line translation
 
-ööö, garnélarak.
+**Mi a kedvenc ételed?**
+What’s your favourite food?
 
-És megkérdezhetem miért?
+**Ööö, garnélarák.**
+Uhh… shrimp.
 
-Szeretek úszni, és ők is úsznak.
+**És megkérdezhetem, miért?**
+And may I ask why?
+
+**Szeretek úszni, és ők is úsznak.**
+I like swimming — and they swim too.
+
+---
+
+### Humour & why it works
+
+This is **deadpan absurdist humour** based on a **category mismatch**:
+
+* The expected answer to *“why do you like this food?”* is:
+
+  * taste
+  * texture
+  * cuisine
+* Instead, the speaker gives a **non-food-based affinity**:
+
+  * shared activity (*úszni*).
+
+The punchline works because:
+
+* it’s syntactically perfect
+* pragmatically wrong
+* delivered without any irony markers
+
+This is very close to **child-logic humour**, but performed by an adult — which makes it land.
+
+Also important:
+There is **no exaggeration**, no insult, no escalation. The joke is *entirely* in the reasoning.
+
+---
+
+### Spoken Hungarian features
+
+* **ööö** – hesitation marker; buys time, signals spontaneity.
+* Very short turns → **interview / street-question cadence**
+* Flat declarative delivery enhances the absurdity.
+
+---
+
+### Vocabulary & constructions (with context)
+
+* **kedvenc ételed** – “your favourite food”; neutral, very common question frame.
+* **garnélarák** – shrimp; neutral culinary term, not slang.
+* **megkérdezhetem** – “may I ask”; polite, slightly formal softener.
+* **miért** – why; invites justification, not preference.
+* **szeretek + infinitive** – “I like to…”; core spoken structure.
+* **ők is** – “they too / as well”; parallelism marker, crucial for the joke.
+* **úsznak** – “they swim”; plain present tense, no modifiers → deadpan effect.
+
+---
+
+### Why this is good low-noise input
+
+* 100% **high-frequency grammar**
+* No cultural knowledge required
+* Teaches that Hungarian humour often:
+
+  * trusts the listener
+  * avoids signalling the joke
+  * lets logic quietly fail
+
+This is the kind of clip natives smile at *half a second late* — which is exactly the timing you want to internalise.
+
+If you want, I can:
+
+* rewrite this as **non-funny Hungarian** to show what’s missing, or
+* give parallel examples of **Hungarian jokes with the same logic**, or
+* map this to **ASR robustness** (this one would transcribe almost perfectly).
+
+Drop the next one whenever.
