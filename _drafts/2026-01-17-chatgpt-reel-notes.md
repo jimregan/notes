@@ -1457,3 +1457,7 @@ The Hungarian government is prepared for the snowfall — *yeah, no.*
 * **felkészült vmire** – “prepared for something”
 * **havazás** – snowfall
 * **ja** – discourse particle
+
+-----
+
+[Reel](https://www.instagram.com/reels/DQMhHAdCIqj/)
