@@ -960,36 +960,35 @@ And I’m waiting for your body-count guesses in the comments section!
 
 [Reel](https://www.instagram.com/reel/DTiQqsEjPTl/)
 
-Tót Gabi megint Fidesz rendezvényelépet fel, megint kritikált kapott, megint válaszolt.
-Már csináltunk egy videót a Fidesz kongresszusról, most csinálunk egy videót külön az ott fellépőt Tót Gabi-ról.
-Azt hittük, hogy múri enik őre, majd azt, hogy radics gigi recserélik Tót Gabi-t.
-Most, hogy nem téged kívtak?
-Hát biztos, lecserélt a Fidesz.
+Tóth Gabi megint Fidesz rendezvényen lépett fel, megint kritikát kapott, megint válaszolt.
+Már csináltunk egy videót a Fidesz kongresszusról, most csinálunk egy videót külön az ott fellépő Tóth Gabiról.
+Azt hittük, hogy múri enikőre, majd azt, hogy radics gigire cserélik le Tóth Gabit.
+> - Most, hogyhogy nem téged hívtak?
+> - Hát biztos, lecserélt a Fidesz.
 De most visszatért a Fidesz színpadára.
-A Fidesz színpadára.
-Ezért a megasztás zsúriások kritikával talált a szembe magát,
-mert álladásul a redited bejárta, az Í of the Tiger fonetikus dalszövege.
+Ezért a megasztár zsűrije sok kritikával találta szembe magát,
+ráadásul a reddited bejárta, az Eye of the Tiger fonetikus dalszövege.
 Amire egy tiktok videóban reagált.
-Elmondta, hogy nem jógosít az angolja miatt kritizálni,
-mivel Magyar Lánként született, és nem tanul gyerekkorátó kezve angolta.
-Németes voltam.
-A fonetikus dalszöveghez pedig semmi közel.
-Egyetem nem volt ilyen kinyomtatott szövegem semmi,
-ez nem is az enyém, úgyhogy ez nagyon kamú.
+Elmondta, hogy nem jogos őt az angolja miatt kritizálni,
+mivel Magyar Lányként született, és nem tanult gyerekkorától kezdve angolt.
+> Németes voltam...
+A fonetikus dalszöveghez pedig semmi köze.
+> Egyáltalán nem volt ilyen kinyomtatott szövegem se, meg
+> nem is az enyém, úgyhogy ez nagyon kamu.
 De aztán megfejti, hogy őt azért bántják igazából,
-mert a Fidesz rendezvényén léped fel, nem pedig az angolja miatt.
-Így nyilván megint az azért van felkapom, mert a Fidesz kongresszuson énekeltem,
-és ezzel a szalcsőrét inkább sok embernek.
-És elmondja, hogy ő már megedződött, tudtelőre, hogy ez lesz, ezért ez nem beszízokon.
-Elhihetitek, hogy 2021-ot, hogy én annyira megedződtem, hogy ez ilyen hűéktől,
-már nem tudnak engem, hogy meggyők jengíteni, vagy rossz kedvűnek látni.
+mert a Fidesz rendezvényén lépett fel, nem pedig az angolja miatt.
+> Itt nyilván megint az azért van felkapva, mert a Fidesz kongresszuson énekeltem,
+> és ez a*** csőrét inkább sok embernek,
+És elmondja, hogy ő már megedződött. Tudta előre, hogy ez lesz, ezért ezt nem veszi zokon.
+> Elhihetitek, hogy 2021 óta én annyira megedződtem, hogy ez ilyen hűlyéktől,
+> már nem tudnak engem, hogy mondjam gyengíteni vagy rosszkedvűnek látni.
 Inkább azt javasolja az embereknek, hogy törődjenek inkább a fontosabb dolgokkal,
-mint például az artscrémekkel, aján is egyet, amit több 10.000 forintnak kerül.
-Na ez, ez sokkal fontosabb.
-Szerintetek a tót gabi azzal védekezik, hogy magyar lánynak született,
+mint például az arckrémekkel, ajánl is egyet, ami több tízezer forintba kerül.
+> Na ez, ez sokkal fontosabb.
+Szerintetek ha Tóth Gabi azzal védekezik, hogy magyar lánynak született,
 ezért nem tud angolul, akkor lázár védekezhet azzal,
-hogy azért késnek a vonatok, mert is oha nem volt mozdony.
-Írjátok meg kommentben, és ne felejtsétek a kében lenni alap.
+hogy azért késnek a vonatok, mert ő soha nem volt mozdony?
+Írjátok meg kommentben, és ne felejtsétek, hogy képben lenni alap.
 
 -----
 
