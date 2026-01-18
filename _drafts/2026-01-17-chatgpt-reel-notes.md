@@ -1462,17 +1462,141 @@ The Hungarian government is prepared for the snowfall — *yeah, no.*
 
 [Reel](https://www.instagram.com/reels/DQMhHAdCIqj/)
 
-- Ott az Only Fans-en vannak olyan tartalmáid, amikor mondjuk cicit mutatsz?
-- Jézus úristen!
-- Kérdezem, nem tudom. 
-- Nem!
-- Bocs, bocs, drága volt.
-- Sohan nem készült...
-Soha életemben nem készült rólam, akt, fotó. Sehol!
-Mindenki tudja, hogy rólam nincs olyan,
-hiszen hogy ha rólam lenne meztelen kép,
-az már rég kiszivárgott volna.
-Én annyira érzékeny vagyok erre, hogy én még párkapcsolatban sem küldök,
-ilyen képet, mert annyira félek, hogy nem tudom,
-kiszivárog vagy valami, tehat nekem a telefonomon
-simcs semmi ilyen, hogy tényleg küldtem kapcsolatban. Annyira félek ettől!
+### Line-by-line translation
+
+**– Ott az OnlyFans-en vannak olyan tartalmaid, amikor mondjuk cicit mutatsz?**
+So on OnlyFans, do you have content where you show, like, your boobs?
+
+**– Jézus úristen!**
+Jesus Christ!
+
+**– Kérdezem, nem tudom.**
+I’m asking — I don’t know.
+
+**– Nem!**
+No!
+
+**– Bocs, bocs, drága volt.**
+Sorry, sorry — that was expensive.
+*(Self-correction / backing off; sounds like “that crossed a line.”)*
+
+**– Soha nem készült…**
+There has never been…
+
+**Soha életemben nem készült rólam akt fotó. Sehol!**
+In my entire life, there has never been a nude photo taken of me. Anywhere!
+
+**Mindenki tudja, hogy rólam nincs olyan,**
+Everyone knows there’s nothing like that of me,
+
+**hiszen ha rólam lenne meztelen kép,**
+because if there *were* a nude photo of me,
+
+**az már rég kiszivárgott volna.**
+it would have leaked a long time ago.
+
+**Én annyira érzékeny vagyok erre,**
+I’m extremely sensitive about this,
+
+**hogy én még párkapcsolatban sem küldök ilyen képet,**
+that I don’t even send photos like that in a relationship,
+
+**mert annyira félek, hogy nem tudom,**
+because I’m so afraid that I don’t know —
+
+**kiszivárog vagy valami,**
+that it’ll leak or something,
+
+**tehát nekem a telefonomon sincs semmi ilyen,**
+so I don’t have anything like that on my phone either,
+
+**hogy tényleg küldtem kapcsolatban.**
+like actually having sent one while in a relationship.
+
+**Annyira félek ettől!**
+I’m *that* afraid of this!
+
+---
+
+### Discourse & why this exchange works
+
+This isn’t joke-driven humour — it’s **awkward escalation + boundary enforcement**:
+
+1. **Provocative question**
+   The interviewer frames it casually (*mondjuk cicit mutatsz?*), which heightens the shock.
+
+2. **Immediate affective rejection**
+   *Jézus úristen!* is not playful — it’s visceral, defensive.
+
+3. **Asymmetric repair**
+   The interviewer’s *Kérdezem, nem tudom* tries to normalise the question; it fails.
+
+4. **Over-justification spiral**
+   The speaker then **over-proves** her position:
+
+   * categorical denial
+   * hypothetical leak logic
+   * relationship ethics
+   * device hygiene
+     This is classic *“I must make this unambiguous”* talk.
+
+The intensity comes from **fear of loss of control**, not prudishness.
+
+---
+
+### Spoken Hungarian features worth noticing
+
+* **False starts & ellipses** (*Soha nem készült…*) → thinking while speaking
+* Repetition for **credibility**, not emphasis
+* Switch from short answers (**Nem!**) to long explanatory monologue
+* Emotion carried by **prosody**, not vocabulary
+
+Very typical of uncomfortable interviews.
+
+---
+
+### Vocabulary & constructions (with context)
+
+* **OnlyFans** – platform name used without explanation; assumes shared cultural knowledge.
+* **mondjuk** – “like / say”; casual softener that makes the question feel intrusive.
+* **cicit mutat** – “show boobs”; childish/slang phrasing, heightens awkwardness.
+* **Jézus úristen!** – strong shock reaction; not humorous here.
+* **akt fotó** – nude photo; neutral–formal term, avoids slang.
+* **kiszivárog** – leak; tech/media metaphor, very common.
+* **annyira … hogy** – “so … that”; intensity construction.
+* **párkapcsolatban sem** – “not even in a relationship”; boundary escalation.
+* **valami** – “something”; vague threat placeholder.
+* **tehát** – “so / therefore”; trying to sound logical under stress.
+* **sin(cs)** – “not even”; emphatic negation.
+* **ennyire / annyira** – degree adverbs doing emotional work.
+* **félek ettől** – “I’m afraid of this”; explicit affective statement.
+
+---
+
+### ASR / caption notes
+
+* This kind of speech is **ASR-stable lexically** but fragile prosodically:
+
+  * interruptions
+  * repairs
+  * emotional emphasis
+* Captions tend to **over-clean** this, losing how uncomfortable it sounds.
+
+---
+
+### Why this is useful “background noise”
+
+* Trains recognition of **defensive justification patterns**
+* Shows how Hungarian speakers:
+
+  * enforce boundaries verbally
+  * escalate explanations when trust feels breached
+* High-value for understanding **interview dynamics**, not vocabulary growth
+
+If you want next, we can:
+
+* compress this into **calm written Hungarian** (what disappears), or
+* mark which phrases are **face-saving vs fear-driven**, or
+* compare this to **English interview boundary talk** and what’s culturally different.
+
+Drop the next one whenever.
