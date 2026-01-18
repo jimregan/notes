@@ -1178,6 +1178,15 @@ Follow me for similar recommendations!
 
 [Reel](https://www.instagram.com/reels/DR-N2UCjbuI/)
 
+[00:00.000 --> 00:05.260]  Megtaláltam a legjobb termálfőrdött Zakopáne mellett, Budapestől csak négy órára, ahhova muszáj elmenned.
+[00:05.260 --> 00:09.820]  Ez a csokalapszki termi, már rengetegszer elmentünk mellettem, mindig néztem milyen butályol néz ki.
+[00:09.820 --> 00:16.860]  Énőben még durvább, hatalmas terület, annyit csak utzi van, hogy megszámolni sem tudtam, és orjási kültéli medencék, ahhova rengeteg emberbe fér.
+[00:16.860 --> 00:21.220]  Annyira jól néz ki ahogy a vízgőzölög a hidegben, miközben gyönyörű királtás nyílik a hegyekre.
+[00:21.220 --> 00:30.320]  A gyerekeknek külön a részleg is van, de a nagyobb medencékben is találtok már szókákat és forgó részeket, ahhoz simán elfoglalják magukat, közben a felnőttek nyugatteni hatnak a vízben a medencebárnál.
+[00:30.320 --> 00:38.160]  Akik pedig áll szeretnének vanulni, azoknak ott vannak a 16 plusz és a 18 plusz medencék is. Érdemes előre egyet venni online, mert hosszú sorok szoktak állni.
+[00:38.160 --> 00:44.480]  Benne többé terem is van, tényleg lutályol meg van minden csinálva szól, és simán elhet tölteni itt egy teljes napot. Nagyon ajánlom mindenkinek.
+[00:44.480 --> 00:46.860]  További utazós tipekért a felejtselbe követni.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DTlBkiKgtHs/)
