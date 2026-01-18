@@ -995,15 +995,15 @@ hogy azért késnek a vonatok, mert is oha nem volt mozdony.
 
 [Reel](https://www.instagram.com/reel/DN3TbvR0Cq-/)
 
-[00:00.000 --> 00:04.400]  Magyarország legszept helyeit, topötván az első, atapolcait a vasbarlang.
-[00:04.400 --> 00:05.300]  Jártál már itt?
-[00:05.300 --> 00:06.440]  Ird meg kommentbe!
-[00:06.440 --> 00:09.820]  Menj le, hogy emlékezre, és ott meg az alakivel eljön nél ide.
-[00:09.820 --> 00:13.000]  Minden nap nyitva tart, fél tíz, és este hét óra között.
-[00:13.000 --> 00:15.620]  Fontos tip, hogy a belépőt előreved meg online,
-[00:15.620 --> 00:17.740]  mivel a helyszínen a jegyek elfogyhatnak.
-[00:17.740 --> 00:20.700]  Parkolni a barlang előtt tifizetős parkolóban tudsz.
-[00:20.700 --> 00:23.500]  A csvanakezés 15 perc és hatalmas élmény.
-[00:23.500 --> 00:25.800]  Ha beleesnél, sincs baj, mert se kéj a víz.
-[00:25.800 --> 00:28.820]  A barlangban állandó húszfakos hőmérsék legfogad,
-[00:28.820 --> 00:32.660]  ezt mindenkorosztályi márni fogja, ha salló ajánlókért kövesbe.
+Magyarország legszept helyeit, topötván az első, atapolcait a vasbarlang.
+Jártál már itt?
+Ird meg kommentbe!
+Menj le, hogy emlékezre, és ott meg az alakivel eljön nél ide.
+Minden nap nyitva tart, fél tíz, és este hét óra között.
+Fontos tip, hogy a belépőt előreved meg online,
+mivel a helyszínen a jegyek elfogyhatnak.
+Parkolni a barlang előtt tifizetős parkolóban tudsz.
+A csvanakezés 15 perc és hatalmas élmény.
+Ha beleesnél, sincs baj, mert se kéj a víz.
+A barlangban állandó húszfakos hőmérsék legfogad,
+ezt mindenkorosztályi márni fogja, ha salló ajánlókért kövesbe.
