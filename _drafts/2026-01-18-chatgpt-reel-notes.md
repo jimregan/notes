@@ -182,93 +182,104 @@ Write it to us in the comments.
 ### Line-by-line translation
 
 **Kedves Palkovics úr, mesterséges intelligencia gurú,**
+
 Dear Mr Palkovics, artificial-intelligence guru,
 
 **Palkovics László, a mesterséges intelligenciáért felelős kormánybiztos.**
+
 Palkovics László, the government commissioner responsible for artificial intelligence.
 
 **Nagy érdeklődéssel néztük a legutóbbi videóját,**
+
 We watched your latest video with great interest,
 
 **hátha végre választ kapunk egy sürgős, fontos és nagyon is aktuális kérdésre.**
+
 hoping we’d finally get an answer to an urgent, important, and very timely question.
 
 **Hogyan fogja a kormány megvédeni a választásokat az AI-alapú deepfake-ekkel és hazug tartalmakkal szemben?**
+
 How will the government protect elections against AI-based deepfakes and deceptive content?
 
 **Hogyan lehet biztosítani, hogy az emberek valódi információk alapján döntsenek,**
+
 How can we ensure that people make decisions based on real information,
 
 **ne pedig hazugságok alapján?**
+
 rather than lies?
 
 **És hát legnagyobb meglepetésünkre nem erről szólt a videó, hanem…**
+
 And to our greatest surprise, the video wasn’t about this at all, but instead…
 
 > **„hónapok óta zajlik egy tudatos politikai építkezés a Tisza Párt részéről,**
+>
 > “For months there has been a deliberate political construction by the Tisza Párt,
 >
 > **annak érdekében, hogy elbizonytalanítsák az embereket, és mindent megkérdőjelezzenek,**
+>
 > aimed at confusing people and calling everything into question
 >
 > **ami nem tőlük származik.**
+>
 > that does not originate from them.
 >
 > **A cél, hogy elhitessék: minden hamis, megtévesztő és valótlan, amit nem ők tesznek közzé —**
+>
 > The goal is to make people believe that everything false, misleading, and untrue is whatever they themselves did not publish —
 >
 > **legyen szó információról, képről vagy akár videóról.”**
+>
 > whether it’s information, images, or even videos.”
 
 **A cél valójában az, hogy senki ne vezesse félre az állampolgárokat.**
+
 The real goal, in fact, should be that no one misleads citizens.
 
 **Van ok az aggodalomra, hiszen a bíróság is kimondta,**
+
 There is reason for concern, since a court has also ruled
 
 **hogy a kormányközeli Index által megjelentetett**
+
 that a document published by the government-aligned Index,
 
 **600 oldalas, AI-generált dokumentum, az úgynevezett „TISZA-csomag”,**
+
 a 600-page AI-generated document, the so-called “TISZA package”,
 
 **minden betűje hazugság.**
+
 is a lie in every single word.
 
 **Ez az a dokumentum, amire hivatkozva a kormány az adófizetők pénzén**
+
 This is the document that the government cited while,
 
 **10 milliárdokat elszórva,**
+
 spending tens of billions of forints of taxpayers’ money,
 
 **ijesztgette a magyarokat evadóval, állfamérgezéssel és hasonló hazugságokkal.**
+
 frightening Hungarians with “e-taxes,” “fertiliser poisoning,” and similar falsehoods.
 
 **Tehát ne söpörjük le a problémát az asztalról. A probléma valós.**
+
 So let’s not sweep the problem off the table. The problem is real.
 
 **A Mesterséges Intelligencia Tanácsban van lehetősége kezelni ezeket az égető problémákat.**
+
 Within the Artificial Intelligence Council, you have the opportunity to address these pressing issues.
 
 **Még nincs késő, de hatékony és gyors választ várunk,**
+
 It’s not too late, but we expect an effective and swift response,
 
 **mert mindannyiunk érdeke, hogy a választások tiszták legyenek.**
+
 because it’s in all our interest that elections be clean.
-
----
-
-### Discourse & structure (what’s happening rhetorically)
-
-* **Open letter frame**: formal address → expectation → disappointment.
-* **Question stacking**: three tightly scoped, normatively framed questions about elections and information integrity.
-* **Quote insertion**: the quoted segment functions as *evidence of deflection*, not as an argument the speaker endorses.
-* **Reframing move**: shifts from party blame to **institutional responsibility** (courts, councils, public money).
-* **Closure with urgency**: *még nincs késő* + *gyors választ várunk* = time pressure without threat.
-
-This is **measured political critique**, not satire: calm tone, legal references, and institutional vocabulary do the work.
-
----
 
 ### Linguistically interesting points
 
@@ -280,23 +291,3 @@ This is **measured political critique**, not satire: calm tone, legal references
 * **elszórva** – “scattering/spending recklessly”; evaluative verb with fiscal connotations.
 * **ne söpörjük le az asztalról** – institutional idiom for dismissal.
 * **égető problémák** – “burning issues”; urgency without emotive language.
-
----
-
-### Why this is useful input for you
-
-* Clean example of **Hungarian public-interest argumentation** without shouting.
-* Shows how to:
-
-  * ask accountability questions,
-  * quote an opponent without endorsing them,
-  * pivot back to process and institutions.
-* High **caption stability**; ASR would mostly survive this intact.
-
-If you want next, we can:
-
-* compress this into a **neutral news brief**, or
-* annotate **where stance is encoded grammatically**, or
-* contrast this with **sarcastic Hungarian political commentary** and see what flips.
-
-Send the next one whenever.
