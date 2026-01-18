@@ -995,15 +995,16 @@ hogy azért késnek a vonatok, mert is oha nem volt mozdony.
 
 [Reel](https://www.instagram.com/reel/DN3TbvR0Cq-/)
 
-Magyarország legszept helyeit, topötván az első, atapolcait a vasbarlang.
+Magyarország legszebb helyei, top ötven. Az első, a Tapolcai Tavasbarlang.
+
 Jártál már itt?
 Ird meg kommentbe!
-Menj le, hogy emlékezre, és ott meg az alakivel eljön nél ide.
-Minden nap nyitva tart, fél tíz, és este hét óra között.
-Fontos tip, hogy a belépőt előreved meg online,
+Mentsd le, hogy emlékezz ra, és oszd meg azaal akivel eljönnél ide!
+Mindennap nyitva tart 9:30 és 19:00 óra között.
+Fontos tip, hogy a belépőt előre vedd meg online,
 mivel a helyszínen a jegyek elfogyhatnak.
-Parkolni a barlang előtt tifizetős parkolóban tudsz.
-A csvanakezés 15 perc és hatalmas élmény.
-Ha beleesnél, sincs baj, mert se kéj a víz.
-A barlangban állandó húszfakos hőmérsék legfogad,
-ezt mindenkorosztályi márni fogja, ha salló ajánlókért kövesbe.
+Parkolni a barlang előtti fizetős parkolóban tudsz.
+A csónakázás 15 perc és hatalmas élmény.
+Ha beleesnél sincs baj, mert sekély a víz.
+A barlangban állandó húsz fokos hőmérséklet fogad.
+Ezt minden korosztály imádni fogja. Hasonló ajánlókért kövess be!
