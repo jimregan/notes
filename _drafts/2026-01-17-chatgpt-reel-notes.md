@@ -1178,14 +1178,14 @@ Follow me for similar recommendations!
 
 [Reel](https://www.instagram.com/reels/DR-N2UCjbuI/)
 
-Megtaláltam a legjobb termálfőrdött Zakopáne mellett, Budapestől csak négy órára, ahhova muszáj elmenned.
-Ez a csokalapszki termi, már rengetegszer elmentünk mellettem, mindig néztem milyen butályol néz ki.
-Énőben még durvább, hatalmas terület, annyit csak utzi van, hogy megszámolni sem tudtam, és orjási kültéli medencék, ahhova rengeteg emberbe fér.
-Annyira jól néz ki ahogy a vízgőzölög a hidegben, miközben gyönyörű királtás nyílik a hegyekre.
-A gyerekeknek külön a részleg is van, de a nagyobb medencékben is találtok már szókákat és forgó részeket, ahhoz simán elfoglalják magukat, közben a felnőttek nyugatteni hatnak a vízben a medencebárnál.
-Akik pedig áll szeretnének vanulni, azoknak ott vannak a 16 plusz és a 18 plusz medencék is. Érdemes előre egyet venni online, mert hosszú sorok szoktak állni.
-Benne többé terem is van, tényleg lutályol meg van minden csinálva szól, és simán elhet tölteni itt egy teljes napot. Nagyon ajánlom mindenkinek.
-További utazós tipekért a felejtselbe követni.
+Megtaláltam a legjobb termálfürdőt Zakopane mellett, Budapesttől csak négy órára, ahova muszáj elmenned!!
+Ez a Chochołowskie Termy. Már rengetegszer elmentünk mellette, mindig néztem, milyen brutál jól néz ki.
+Élőben még durvább! Hatalmas terület, annyi jacuzzi van, hogy megszámolni sem tudtam és oriási kültéri medencék, ahóva rengeteg ember befér.
+Annyira jól néz ki, ahogy a víz gőzölög a hidegben, miközben gyönyörű kilátás nyílik a hegyekre.
+A gyerekeknek külön részleg is van, de a nagyobb medencékben is találtok mászókákat és forgó részeket, ahol simán elfoglalják magukat, közben a felnőttek nyugodtan ihatnak a vízben a medencebárnál.
+Akik pedig el szeretnének vonulni, azoknak ott vannak a 16+ és a 18+ medencék is. Érdemes előre jegyet venni online, mert hosszú sorok szoktak állni.
+Bent több étterem is van, tényleg brutál jol meg van minden csinálva szóval simán el lehet tölteni itt egy teljes napot. Nagyon ajánlom mindenkinek!
+További utazós tippekért ne felejts el bekövetni!
 
 -----
 
