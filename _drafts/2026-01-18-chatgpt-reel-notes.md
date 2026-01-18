@@ -9,5 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DRAA10YDH6J/)
 
-De van egy betegség, képzétek el, arra nincs gyógyszerbe ezek, nem rég hallottam, létezik ilyen, hogy vorkaholik, vannak vorkaholisták, olyan mind az alkoholista, csak munkával, tehát ilyen kényszeres munkavégzést érzed el, nagyon ilyesztő, én a megelőzésben hiszek, ami ott ezt hallottam, neki se fogtam semminek, de ezek influenzára van voltás, erre mély nincs, nem? Beoltott maga rosszus te vagy egész illetetben?
-Milyen jó, mert keveset tudnak róla ez a probléma, nem is tudják, ragályos, nem ragályos, de én nem kockáztatok, tehát, látom nagyon dolgoznak való, hogy nem megyek oda, valamelyik rám tüszent, elkezik dolgozni egyből valamit, kinek hiányzik.
+Workaholizmus
+
+De van egy betegség, képzeljétek el, arra nincs gyógyszer bezzeg. Nemrég hallottam, létezik ilyen, hogy workaholik. Vannak workaholisták. Olyan, mind az alkoholista, csak munkával, tehát ilyen kényszeres munkavégzést érzel. Nagyon-nagyon ijesztő. Én a megelőzésben hiszek. Amióta ezt hallottam, neki se fogtam semminek. Bezzeg influenzára van oltás. Erre miért nincs, nem? Beoltod magad, az lusta vagy egész életedben.
+Milyen jó! Keveset tudnak róla, ez a probléma. Nem is tudják, ragályos, nem ragályos, de én nem kockáztatok. Tehát... látom nagyon dolgoznak valahol, nem megyek oda. Valamelyik rám tüsszent, elkezdek dolgozni egyből valamit. Kinek hiányzik?
