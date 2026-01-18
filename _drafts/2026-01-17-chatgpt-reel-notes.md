@@ -963,113 +963,120 @@ And I’m waiting for your body-count guesses in the comments section!
 ### Line-by-line translation
 
 **Tóth Gabi megint Fidesz-rendezvényen lépett fel, megint kritikát kapott, megint válaszolt.**
+
 Tóth Gabi performed at a Fidesz event again, got criticised again, and responded again.
 
 **Már csináltunk egy videót a Fidesz kongresszusról, most csinálunk egy videót külön az ott fellépő Tóth Gabiról.**
+
 We already made a video about the Fidesz congress; now we’re making a separate one about Tóth Gabi, who performed there.
 
 **Azt hittük, hogy Muri Enikőre, majd azt, hogy Radics Gigire cserélik le Tóth Gabit.**
+
 We thought they’d replace Tóth Gabi with Muri Enikő, then with Radics Gigi.
 
 **– Most hogyhogy nem téged hívtak?**
+
 “So how come they didn’t invite you?”
 
 **– Hát biztos lecserélt a Fidesz.**
+
 “Well, Fidesz must have replaced me.”
 
 **De most visszatért a Fidesz színpadára.**
+
 But now she has returned to the Fidesz stage.
 
 **Ezért a Megasztár zsűrije sok kritikával találta szembe magát,**
+
 Because of this, the jury member of Megasztár faced a lot of criticism,
 
 **ráadásul a Redditet bejárta az Eye of the Tiger fonetikus dalszövege.**
+
 and on top of that, a phonetic “lyrics sheet” of *Eye of the Tiger* spread on Reddit.
 
 **Amire egy TikTok-videóban reagált.**
+
 She responded to this in a TikTok video.
 
 **Elmondta, hogy nem jogos őt az angolja miatt kritizálni,**
+
 She said it’s not fair to criticise her for her English,
 
 **mivel magyar lánynak született, és nem tanult gyerekkorától kezdve angolt.**
+
 since she was born a Hungarian girl and didn’t learn English from childhood.
 
 **– Németes voltam…**
+
 “I was German-track…”
 
 **A fonetikus dalszöveghez pedig semmi köze.**
+
 And she has nothing to do with the phonetic lyrics sheet.
 
-**– Egyáltalán nem volt ilyen kinyomtatott szövegem se, meg
-– nem is az enyém, úgyhogy ez nagyon kamu.**
+**– Egyáltalán nem volt ilyen kinyomtatott szövegem se, meg nem is az enyém, úgyhogy ez nagyon kamu.**
+
 “I didn’t have any printed sheet like that at all, and it’s not mine — so this is totally fake.”
 
 **De aztán megfejti, hogy őt azért bántják igazából,**
+
 Then she explains that the real reason she’s being attacked
 
 **mert a Fidesz rendezvényén lépett fel, nem pedig az angolja miatt.**
+
 is because she performed at a Fidesz event, not because of her English.
 
 **– Itt nyilván megint az azért van felkapva, mert a Fidesz kongresszuson énekeltem,**
+
 “Obviously this is trending again because I sang at the Fidesz congress,
 
 **– és ez sok embernek csípi a csőrét.**
+
 and that really rubs a lot of people the wrong way.”
 
 **És elmondja, hogy ő már megedződött.**
+
 She says she’s already toughened up.
 
 **Tudta előre, hogy ez lesz, ezért ezt nem veszi zokon.**
+
 She knew in advance this would happen, so she doesn’t take it personally.
 
 **– Elhihetitek, hogy 2021 óta én annyira megedződtem, hogy ez ilyen hülyéktől**
+
 “You can believe me — since 2021 I’ve become so hardened that from idiots like this”
 
 **– már nem tudnak engem, hogy mondjam, gyengíteni vagy rosszkedvűnek látni.**
+
 they can’t really weaken me or make me miserable anymore.”
 
 **Inkább azt javasolja az embereknek, hogy törődjenek inkább a fontosabb dolgokkal,**
+
 Instead, she suggests people should focus on more important things,
 
 **mint például az arckrémekkel, ajánl is egyet, ami több tízezer forintba kerül.**
+
 like face creams — she even recommends one that costs tens of thousands of forints.
 
 **– Na ez, ez sokkal fontosabb.**
+
 “Now *this* — this is much more important.”
 
 **Szerintetek ha Tóth Gabi azzal védekezik, hogy magyar lánynak született, ezért nem tud angolul,**
+
 Do you think that if Tóth Gabi defends herself by saying she was born a Hungarian girl and therefore doesn’t speak English,
 
 **akkor Lázár védekezhet azzal,**
+
 then Lázár János could defend himself by saying
 
 **hogy azért késnek a vonatok, mert ő soha nem volt mozdony?**
+
 that trains are late because he has never been a locomotive?
 
 **Írjátok meg kommentben, és ne felejtsétek, hogy képben lenni alap.**
+
 Write it in the comments, and don’t forget: being informed is basic.
-
----
-
-### Humour & why it works
-
-* **Repetition frame**: *megint… megint… megint…* sets up fatigue and inevitability.
-* **Category error punchline**: comparing *“I’m Hungarian so my English is bad”* with *“I’m not a locomotive so trains are late”* — a classic absurd analogy.
-* **Status whiplash**: serious political controversy → sudden pivot to luxury skincare.
-* **Internet meta-humour**: Reddit memes, TikTok responses, and comment-bait are part of the joke, not just the topic.
-
-This is **political infotainment**: dry narration, then a sharp final comparison.
-
----
-
-### Spoken vs performed Hungarian
-
-* Performed explainer voice with **reported speech**.
-* Clear evaluative markers (**nyilván**, **inkább**, **szerintetek**).
-* Quotes preserve colloquial cadence; narration stays neutral.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -1087,21 +1094,6 @@ This is **political infotainment**: dry narration, then a sharp final comparison
 * **nem veszi zokon** – doesn’t take it personally; idiomatic calm.
 * **több tízezer forint** – tens of thousands of forints; signals luxury/excess.
 * **képben lenni** – to be up to date/in the know; media-savvy catchphrase.
-
----
-
-### Why this is good “background noise”
-
-* Dense with **current-affairs discourse markers**.
-* Clear separation between **narration** and **quoted speech**.
-* Teaches how Hungarian media does **irony without changing tone**.
-
-If you want, next we can:
-
-* map the **analogy mechanics** (why this comparison lands), or
-* isolate **caption-safe vs ASR-fragile** segments, or
-* strip it to a **neutral news brief** and see what humour disappears.
-
 
 -----
 
