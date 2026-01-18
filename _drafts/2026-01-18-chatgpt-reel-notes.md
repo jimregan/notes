@@ -113,12 +113,12 @@ Who needs that?
 
 [Reel](https://www.instagram.com/reels/DTpOYNSAfn8/)
 
-[00:00.000 --> 00:06.940]  A BK, a tanán ők érj a diákokat, hogy mondjanak egy mondatot a BK-val és a hajóval.
-[00:06.940 --> 00:16.120]  Az egyik diákasz manja, a BK, a hajó, a másik diákasz manja, hogy a BK mellett el majd egy hajó.
-[00:16.120 --> 00:18.240]  Múricska jelentkezik a hácsópadban.
-[00:18.240 --> 00:20.840]  A BK pod a f***** ad hajó hanem, jó?
-[00:20.840 --> 00:23.640]  Én elpogadom.
-[00:23.640 --> 00:25.640]  Felállom hozzá a kinyugat.
-[00:26.640 --> 00:29.640]  Úgyhogy jó étvágyat kívánunk majd hozzá.
-[00:29.640 --> 00:31.640]  Te milyen viccet mondtál volna?
-[00:31.640 --> 00:33.640]  Éd meg nekünk kommentben.
+A BK, a tanán ők érj a diákokat, hogy mondjanak egy mondatot a BK-val és a hajóval.
+Az egyik diákasz manja, a BK, a hajó, a másik diákasz manja, hogy a BK mellett el majd egy hajó.
+Múricska jelentkezik a hácsópadban.
+A BK pod a f***** ad hajó hanem, jó?
+Én elpogadom.
+Felállom hozzá a kinyugat.
+Úgyhogy jó étvágyat kívánunk majd hozzá.
+Te milyen viccet mondtál volna?
+Éd meg nekünk kommentben.
