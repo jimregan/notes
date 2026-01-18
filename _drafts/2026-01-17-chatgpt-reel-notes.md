@@ -1547,3 +1547,19 @@ I’m *that* afraid of this!
 * **sin(cs)** – “not even”; emphatic negation.
 * **ennyire / annyira** – degree adverbs doing emotional work.
 * **félek ettől** – “I’m afraid of this”; explicit affective statement.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DSmRr-FiOS9/)
+
+[00:00.000 --> 00:05.400]  Ennek tényleg szintem annál nincs el jobb, hogy tényleg 24-én felvesszük reggel a közös pizsamánykal,
+[00:05.500 --> 00:09.200]  amin mindenkinek így rajta van a neve az egész család pizsamában üllathon.
+[00:09.300 --> 00:10.700]  És váljuk kevint, és nyilván van.
+[00:10.800 --> 00:11.700]  És váljuk kevint.
+[00:11.800 --> 00:15.700]  A két éken az a legjobb ebben az egész ünnepben, hogy ilyenkor összegyű a család,
+[00:15.800 --> 00:19.300]  hogyha rokonokhoz kell menni, akkor le menjünk vidékre, és akkor velük is találkozunk,
+[00:19.300 --> 00:24.300]  velük, hogy évközben annyira nem túl sokat lenni, de ilyenkor megidőtszánunk egymásra és például együtt kártjázunk,
+[00:24.400 --> 00:30.400]  de ezen kívül ilyen szűk család is, tehát ilyenkor összegyűlünk, együtt vagyunk, ilyenkor főz annyira a legtöbbet,
+[00:30.500 --> 00:33.100]  meg én is próbálok beletenni, csinálok...
+[00:33.200 --> 00:39.000]  Ti a sütéket csináljátok alában, így erbos szóni, úgyhogy ez egy ilyen külön program,
+[00:39.100 --> 00:42.500]  és tényleg nekem is ebben a kétven cünnepem, nekem így a család miatt.
