@@ -1552,14 +1552,17 @@ I’m *that* afraid of this!
 
 [Reel](https://www.instagram.com/reels/DSmRr-FiOS9/)
 
-Ennek tényleg szintem annál nincs el jobb, hogy tényleg 24-én felvesszük reggel a közös pizsamánykal,
-amin mindenkinek így rajta van a neve az egész család pizsamában üllathon.
-És váljuk kevint, és nyilván van.
-És váljuk kevint.
-A két éken az a legjobb ebben az egész ünnepben, hogy ilyenkor összegyű a család,
-hogyha rokonokhoz kell menni, akkor le menjünk vidékre, és akkor velük is találkozunk,
-velük, hogy évközben annyira nem túl sokat lenni, de ilyenkor megidőtszánunk egymásra és például együtt kártjázunk,
-de ezen kívül ilyen szűk család is, tehát ilyenkor összegyűlünk, együtt vagyunk, ilyenkor főz annyira a legtöbbet,
-meg én is próbálok beletenni, csinálok...
-Ti a sütéket csináljátok alában, így erbos szóni, úgyhogy ez egy ilyen külön program,
-és tényleg nekem is ebben a kétven cünnepem, nekem így a család miatt.
+Meg tényleg szerintem annál nincsen jobb, hogy tényleg huszonnegyedikén felvesszük reggel a közös pizsamánkat,
+amin mindenkinek rajta van a neve az egész család pizsamában ül otthon.
+És várjuk kevint, és nyilvánvaloan-
+Meg hat egyébként az a legjobb, ebbe... ebben az egész ünnepben, hogy ilyenkor összegyűl a család,
+hogyha rokonokhoz kell menni, akkor lemegyünk vidékre és akkor velük is találkozunk
+velük év közben annyira nem tudunk sokat lenni de ilyenkor időt szánunk egymásra és például együtt kártyázunk
+de ezen kívül ugye a szűk család is tehát ilyenkor összeűlünk együtt vagyunk, ilyenkor főz anya a legtöbbet,
+meg én is próbálok beletenni csinálok...
+Ti a sütiket csináljátok tiramisut
+Zserbót
+Flódnit
+úgyhogy ez egy ilyen külön program,
+és tényleg nekem is emiatt ez a kedvenc ünnepem, nekem így a család miatt.
+
