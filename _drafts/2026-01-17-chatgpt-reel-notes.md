@@ -1275,131 +1275,120 @@ For more travel tips, don’t forget to follow!
 ### Line-by-line translation
 
 **Futni télen?**
+
 Running in winter?
 
 **Figyelj, aki nem fut ki mínusz 300 fokban,**
+
 Listen, anyone who doesn’t go out running at minus 300 degrees,
 
 **az nem igazi futó!**
+
 is not a real runner!
 
 **Haa, haa!**
+
 Ha, ha!
-*(Mock bravado laugh.)*
 
 **Technikai póló, technikai lycra, technikai rágó,**
+
 Technical shirt, technical lycra, technical chewing gum,
 
 **hogy még pofázás közben se fagyjon le.**
+
 so it doesn’t freeze even while you’re talking shit.
 
 **Napszemüveg, stíló di puttó, meg hát a reflexiós fény ellen.**
+
 Sunglasses — *stíló di puttó* — and, well, against reflected light.
-*(Fake-Italian fashion nonsense for comic effect.)*
 
 **Légáteresztő, csak lég mondjuk nincs,**
+
 Breathable — except there’s no air,
 
 **mert a véremmel együtt megfagyott az is.**
+
 because that froze along with my blood.
 
 **Bemelegítésnek kétszer 200 méter tükörjégen sasszé.**
+
 For warm-up, two times 200 metres of sidestepping on mirror ice.
 
 **Ha nem eszi az ízületedet a metsző hideg,**
+
 If the cutting cold isn’t eating your joints,
 
 **akkor az még komfortzóna.**
+
 then that’s still your comfort zone.
 
 **Utána 5–600 méter esés-kelés.**
+
 Then 500–600 metres of falling and getting back up.
 
 **Segíts fel, légy szíves!**
+
 Help me up, please!
 
 **Szigorú húsz perc, minden nap! No mercy!**
+
 Strict twenty minutes, every day! No mercy!
 
 **Legyen meg az a 3–4 száz méter.**
+
 Make sure you get that 300–400 metres in.
 
 **Futás után fél napig nem zuhanyzom,**
+
 After running I don’t shower for half a day,
 
 **mert olvastam ChatGPT-n, hogy a jégkristályok jobban regenerálják az arcbőrt.**
+
 because I read on ChatGPT that ice crystals regenerate facial skin better.
 
 **Ha nem reped be a szemüveglencséd a zúzmarától,**
+
 If your glasses lens doesn’t crack from the rime frost,
 
 **akkor nem akartad igazán.**
+
 then you didn’t really want it.
 
 **És ami a futás esszenciáját adja,**
+
 And what gives running its true essence:
 
 **kirakjuk sztoriba, hogy hány métert futottunk.**
+
 we post to our story how many metres we ran.
 
 **Ha valamelyik ismerősöd esetleg nem látná,**
+
 If one of your acquaintances might not see it,
 
 **küldd el neki privátban Messengeren,**
+
 send it to them privately on Messenger,
 
 **nehogy lemaradjon a fantasztikus eredményedről.**
+
 so they don’t miss your fantastic achievement.
 
 **Természetesen szuper dolog a kinti sportolás,**
+
 Of course outdoor exercise is a great thing,
 
 **csak ne pózból csináljátok, mert ez röhejes.**
+
 just don’t do it for the pose, because that’s ridiculous.
 
 **Bocsi, félhasználhatom a trackeredet,**
+
 Sorry, can I half-borrow your tracker,
 
 **csak hülyén néz ki a méterem sztoriban…**
+
 it just looks stupid how few metres I have in my story…
-
----
-
-### Humour & why it works
-
-This is **satirical hyperbole + influencer parody**, driven by escalation:
-
-1. **Gatekeeping cliché**
-   *“If you don’t run in impossible conditions, you’re not a real runner.”*
-   → instantly recognisable bullshit frame.
-
-2. **Tech fetishism parody**
-   *technikai póló / lycra / rágó*
-   → consumerism pushed past sense into absurdity.
-
-3. **Physiological impossibility**
-   Blood freezing, air freezing, joints being “eaten” — the body is treated like disposable gear.
-
-4. **Social-media inversion**
-   The actual *running* barely matters;
-   the **story post** is framed as the *essence* of the sport.
-
-5. **Final self-own**
-   Borrowing a tracker so the stats look better collapses the entire performance.
-
-This is very Hungarian humour:
-**exaggerate macho seriousness → expose vanity → end with embarrassed pragmatism**.
-
----
-
-### Spoken Hungarian features worth noticing
-
-* Heavy use of **imperatives** (*figyelj, legyen meg, küldd el*)
-* Slang intensifiers (**röhejes, hülyén néz ki**)
-* Mock foreign words (*stíló di puttó*) signal irony instantly
-* Numbers used loosely for comic rhythm, not precision
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -1418,27 +1407,6 @@ This is very Hungarian humour:
 * **pózból csinálja** – do something for show; very current evaluative phrase.
 * **félhasználhatom** – “can I half-use”; joking mitigation.
 * **tracker** – fitness tracker; borrowed tech noun.
-
----
-
-### Why this is excellent “background noise”
-
-* Dense with **contemporary urban Hungarian**
-* Trains recognition of:
-
-  * macho posturing
-  * wellness irony
-  * social-media self-surveillance
-* Very ASR-fragile in places — but *semantically robust* once you know the genre
-
-If you want next, we can:
-
-* mark **which lines would survive even with awful audio**, or
-* compare this to **non-ironic runner talk** and see what flips, or
-* map this humour to **English / Irish endurance-sport parody**.
-
-Send the next one whenever.
-
 
 -----
 
