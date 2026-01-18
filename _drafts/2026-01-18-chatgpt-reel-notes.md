@@ -179,24 +179,24 @@ Write it to us in the comments.
 
 [Reel](https://www.instagram.com/reels/DTk_fgngWvc/)
 
-Kedves Palkovi csúr, mesterséges inteligencia gurú,
-Palkovi cslászló, a mesterséges inteligenciáért felelős kormánybiztos.
-Nagy érdeklődéssel néztük a legutóbi videóját,
-hát ha végre választ kapunk egy sűrgős, fontos és nagyon is aktuális kérdésre.
-Hogyan fogja a kormány megvédeni a választásokat az EI-alapú dipfékekkel és hazugtartalmakkal szemben?
-Hogyan lehet biztosítani, hogy az emberek valódi információkalapján töncsenek,
-nepedik hazupságok alapján?
+Kedves Palkovics úr, mesterséges inteligencia gurú,
+Palkovics László, a mesterséges inteligenciáért felelős kormánybiztos.
+Nagy érdeklődéssel néztük a legutóbbi videóját,
+hátha végre választ kapunk egy sűrgős, fontos és nagyon is aktuális kérdésre.
+Hogyan fogja a kormány megvédeni a választásokat az AI alapú deepfake-ekkel és hazug tartalmakkal szemben?
+Hogyan lehet biztosítani, hogy az emberek valódi információk alapján döntsenek,
+ne pedik hazugságok alapján?
 És hát legnagyobb meglepetésünkre nem erről szólt a videó, hanem...
-Hónapokót az ajlik egy tudatos politikai építkezés a Tisza Párt részéről,
-annak érdekében, hogy elbizonytalanítsák az embereket és mindent megkérdőjelezzenek,
-ami nem tőlük származik.
-A cél, hogy elhiteség, minden hamis, megtévesztő és valótlan, amit nem ők tesznek közé,
-legyen szó információról, képről vagy akár videóról.
-A cél valójában az, hogy senki nevezesse férre az állampolgárokat.
-Vanok az akgodalomra, hiszen a bíróság is kimonta, hogy a kormány közeli indekszáltal megjelentetett
-600 oldalas EI-general dokumentum, az úgynevezett Tisza Csomag, minden betűje hazugság.
-Ez az a dokumentum, amire hivatkozva a kormány, az adófizető pénzén 10 milliárdokat elszórva,
-ilyesztgette a magyarokat evadóval, állfelmeréssel és hasonló hazugságokkal.
-Tehát ne sötörjük le a problémát az azt arról, a probléma valós.
-A mesterséges intelligenciat anácsban van lehetősége kezelni ezeket az égető problémákat.
-Még nincs késő, de ha tékony és gyors választ várunk, mert mindannyiunk érdeke, hogy a választások tiszták legyenek.
+> hónapok óta zajlik egy tudatos politikai építkezés a Tisza Párt részéről,
+> annak érdekében, hogy elbizonytalanítsák az embereket, és mindent megkérdőjelezzenek,
+> ami nem tőlük származik.
+> A cél, hogy elhitessék: minden hamis, megtévesztő és valótlan, amit nem ők tesznek közzé -
+> legyen szó információról, képről vagy akár videóról.
+A cél valójában az, hogy senki nevezesse félre az állampolgárokat.
+Van ok az aggodalomra, hiszen a bíróság is kimondta, hogy a kormányközeli index által megjelentetett
+600 oldalas AI generált dokumentum, az úgynevezett "TISZA csomag", minden betűje hazugság.
+Ez az a dokumentum, amire hivatkozva a kormány az adófizetők pénzén 10 milliárdokat elszórva
+ijesztgette a magyarokat evadóval, állfámeréssel és hasonló hazugságokkal.
+Tehát ne söpörjük le a problémát az asztalról. A probléma valós.
+A Mesterséges Intelligencia Tanácsban van lehetősége kezelni ezeket az égető problémákat.
+Még nincs késő, de hatékony és gyors választ várunk, mert mindannyiunk érdeke, hogy a választások tiszták legyenek.
