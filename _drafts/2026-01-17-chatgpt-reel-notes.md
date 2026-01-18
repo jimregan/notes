@@ -1068,3 +1068,11 @@ Follow me for similar recommendations!
 * **állandó** – constant; stable-condition marker.
 * **minden korosztály** – all age groups; family-friendly framing.
 * **ajánló** – recommendation; influencer self-label.
+
+-----
+
+[Reel](https://www.instagram.com/reel/DR-N2UCjbuI/)
+
+-----
+
+[Reel](https://www.instagram.com/reel/DTlBkiKgtHs/)
