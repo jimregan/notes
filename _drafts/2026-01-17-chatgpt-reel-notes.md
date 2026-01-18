@@ -997,69 +997,56 @@ hogy azért késnek a vonatok, mert ő soha nem volt mozdony?
 ### Line-by-line translation
 
 **Magyarország legszebb helyei, top ötven. Az első, a Tapolcai Tavasbarlang.**
+
 Hungary’s most beautiful places — top fifty. First: the Tapolcai Tavasbarlang.
 
 **Jártál már itt?**
+
 Have you been here before?
 
 **Írd meg kommentbe!**
+
 Write it in the comments!
 
 **Mentsd le, hogy emlékezz rá, és oszd meg azzal, akivel eljönnél ide!**
+
 Save this so you remember it, and share it with the person you’d come here with!
 
 **Mindennap nyitva tart 9:30 és 19:00 óra között.**
+
 It’s open every day between 9:30 and 19:00.
 
 **Fontos tipp, hogy a belépőt előre vedd meg online,**
+
 An important tip: buy your ticket online in advance,
 
 **mivel a helyszínen a jegyek elfogyhatnak.**
+
 because tickets can sell out on site.
 
 **Parkolni a barlang előtti fizetős parkolóban tudsz.**
+
 You can park in the paid parking area in front of the cave.
 
 **A csónakázás 15 perc és hatalmas élmény.**
+
 The boat ride lasts 15 minutes and is a huge experience.
 
 **Ha beleesnél, sincs baj, mert sekély a víz.**
+
 If you were to fall in, it’s no problem — the water is shallow.
 
 **A barlangban állandó húsz fokos hőmérséklet fogad.**
+
 Inside the cave you’re greeted by a constant 20-degree temperature.
 
 **Ezt minden korosztály imádni fogja.**
+
 Every age group will love this.
 
 **Hasonló ajánlókért kövess be!**
+
 Follow me for similar recommendations!
-
----
-
-### What’s going on visually (why this place works)
-
-![Image](https://www.bfnp.hu/media/thumbs/ta/po/lc/tapolcai-tavasbarlang-557882af-3550603.jpg)
-
-![Image](https://www.curiousdon.com/wp-content/uploads/2025/09/IMG_4551-1140x570.jpeg)
-
-![Image](https://www.curiousdon.com/wp-content/uploads/2025/09/IMG_4551-scaled.jpeg)
-
-* Turquoise water + cave ceiling = **high-contrast, scroll-stopping visuals**.
-* The boating angle explains why safety reassurances (*sekély a víz*) are included.
-* Temperature info (*állandó húsz fok*) anchors the experience year-round.
-
----
-
-### Genre & cadence notes
-
-* This is **pure listicle travel Hungarian**: short clauses, imperative CTAs.
-* Sentences are **caption-optimised**: minimal subordination, predictable rhythm.
-* Information density is practical, not narrative (hours, parking, duration).
-
-This is the kind of reel natives half-read while scrolling.
-
----
 
 ### Vocabulary & constructions (with context)
 
@@ -1081,19 +1068,3 @@ This is the kind of reel natives half-read while scrolling.
 * **állandó** – constant; stable-condition marker.
 * **minden korosztály** – all age groups; family-friendly framing.
 * **ajánló** – recommendation; influencer self-label.
-
----
-
-### Why this is useful “background noise”
-
-* Trains **imperative parsing** (mentsd le, oszd meg, kövess).
-* Reinforces **travel micro-lexicon** without cognitive load.
-* Easy to tune out once internalised — exactly how natives process it.
-
-If you want next, we can:
-
-* strip this to a **bare info schema** (what survives when hype is ignored), or
-* flag **ASR-fragile bits** (numbers, compounds, conditionals), or
-* compare this to **spoken, non-influencer Hungarian** giving the same info.
-
-Send the next one whenever.
