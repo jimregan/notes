@@ -1272,23 +1272,25 @@ For more travel tips, don’t forget to follow!
 
 [Reel](https://www.instagram.com/reels/DTlBkiKgtHs/)
 
-Fényelj, aki nem fut ki, minusz 300 fokban, az nem igazi futó!
+Futni télen?
+
+Fényelj, aki nem fut ki, minusz 300 fokban
+Az nem igazi futó!
 Haa, haa!
-Teknikai póló, teknikai likra, teknikai rágoly, még pofázás közbe se fagyol le.
-Kkkkk!
-Nap szemüveksz, stílódiputtó, meg hát refleksziós fényelre.
-Légátereztő, csak légmondjuk nincs, mert a vére mellegyűt megfagyott az is.
-Emelegítésnek, kétszer, kétszer, tükörégen sasszé.
-Ha nem eszél az ízületedet a meccő hideg, akkor az még konforzóna.
-Utána 5-600 meter eséskelé, segíts felétszik.
-Szigorú húsz perc, minden nap, no mercy, legyen meg az a 3-4 száz méter.
-Futás után fél napig nem zohanyzom, mert róvastam, hogy Edgyy pitti, hogy ékristályok jobban regenerálják az arzből.
-Ha nem repetbe a szemüveglenséged az úzmarától, akkor elmakartad igazán.
-És ami a futás eszenciáját adja, kirakjuk storiba, hogy hányméter futottunk.
-Ha valamelyik ismerős ödesetleg nem látnál kül, de neki privádba messengeren,
-ne, hogy nem aradjon a fantasztikus eredményedről.
-Természetesen szuper dolog a kint is portalás, csak ne puszbocsináljátok, mert ez röheyes.
-Bocsi, tálasználtam a tekerede, csak hülyen néz ki a méterem storiba.
+Technikai póló, technikai lycra, teknikai rágo, hogy még pofázás közben se fagyjon le.
+Napszemüveg, Stilo di Putto, meg hát a reflexiós fény ellen.
+Légáteresztő, csak lég mondjuk nincs, mert a véremmel egyűtt megfagyott az is.
+Bemelegítésnek 2x200 tükörjégen sasszé.
+Ha nem eszi az ízületedet a metsző hideg, akkor az még konfortzóna.
+Utána 5-600 meter esés-kelés. Segíts fel, légyszi!
+Szigorú húsz perc, minden nap! No mercy! Legyen meg az a 3-4 száz méter.
+Futás után félnapig nem zuhanyzom, mert olvastam ChatGPT-n, hogy a jégkristályok jobban regenerálják az arcbőrt.
+Ha nem reped be a szemüveglencséd a zuzmarától, akkor nem akartad igazán.
+És ami a futás esszenciáját adja, kirakjuk storyba, hogy hány métert futottunk.
+Ha valamelyik ismerősöd esetleg nem látná küld el neki privátban Messengeren,
+nehogy lemaradjon a fantasztikus eredményedről.
+Természetesen szuper dolog a kinti sportolás, csak ne pózból csináljátok, mert ez röhejes.
+Bocsi, félhasználthatom a trackerdet, csak hülyen néz ki a méterem storyban...
 
 -----
 
