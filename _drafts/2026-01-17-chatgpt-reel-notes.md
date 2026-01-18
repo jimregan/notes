@@ -7,7 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Reel](https://www.instagram.com/reel/DTccEPPgSUp/)
+[Reel](https://www.instagram.com/reels/DTccEPPgSUp/)
 
 ### Line-by-line translation
 
@@ -53,7 +53,7 @@ Ha rossz buszra szálltál, minél további összrajta, annál többet kell viss
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTksA6Yicw4/)
+[Reel](https://www.instagram.com/reels/DTksA6Yicw4/)
 
 ### Line-by-line translation
 
@@ -156,7 +156,7 @@ Bye, *J’enő!*
 
 -----
 
-[Reel](https://www.instagram.com/reel/DThkp7kiLYq/)
+[Reel](https://www.instagram.com/reels/DThkp7kiLYq/)
 
 ### Line-by-line translation
 
@@ -242,7 +242,7 @@ the electrical impulse is delivered.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DSPtp_gjaaY/)
+[Reel](https://www.instagram.com/reels/DSPtp_gjaaY/)
 
 ### Line-by-line translation
 
@@ -346,7 +346,7 @@ while I’m not letting you in.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DSKgivhinLz/)
+[Reel](https://www.instagram.com/reels/DSKgivhinLz/)
 
 ### Line-by-line translation
 
@@ -397,7 +397,7 @@ Even if by 9 a.m. you’ve already fallen apart five times, secretly cry on the 
 
 -----
 
-[Reel](https://www.instagram.com/reel/DPrW_otiAsM/)
+[Reel](https://www.instagram.com/reels/DPrW_otiAsM/)
 
 ### Line-by-line translation
 
@@ -470,7 +470,7 @@ or should I tell your mother what you do in incognito mode?
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTChTNqlz1_/)
+[Reel](https://www.instagram.com/reels/DTChTNqlz1_/)
 
 ### Line-by-line translation
 
@@ -562,7 +562,7 @@ and this hasn’t really broken through for them.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTnNY50DCiV/)
+[Reel](https://www.instagram.com/reels/DTnNY50DCiV/)
 
 ### Line-by-line translation
 
@@ -669,7 +669,7 @@ Who is this person? Step forward! Show yourselves! I don’t know.
 
 ------
 
-[Reel](https://www.instagram.com/reel/DTdsVpIDMHw/)
+[Reel](https://www.instagram.com/reels/DTdsVpIDMHw/)
 
 ### Line-by-line translation
 
@@ -811,7 +811,7 @@ because I’ll be bringing the next experience from Ireland soon.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTk2mXaCEnW/)
+[Reel](https://www.instagram.com/reels/DTk2mXaCEnW/)
 
 ### Line-by-line translation
 
@@ -883,7 +883,7 @@ It surprises, adapts, and amazes — even in winter.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTmrTczjWja/)
+[Reel](https://www.instagram.com/reels/DTmrTczjWja/)
 
 ### Line-by-line translation
 
@@ -958,7 +958,7 @@ And I’m waiting for your body-count guesses in the comments section!
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTiQqsEjPTl/)
+[Reel](https://www.instagram.com/reels/DTiQqsEjPTl/)
 
 ### Line-by-line translation
 
@@ -1097,7 +1097,7 @@ Write it in the comments, and don’t forget: being informed is basic.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DN3TbvR0Cq-/)
+[Reel](https://www.instagram.com/reels/DN3TbvR0Cq-/)
 
 ### Line-by-line translation
 
@@ -1176,11 +1176,11 @@ Follow me for similar recommendations!
 
 -----
 
-[Reel](https://www.instagram.com/reel/DR-N2UCjbuI/)
+[Reel](https://www.instagram.com/reels/DR-N2UCjbuI/)
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTlBkiKgtHs/)
+[Reel](https://www.instagram.com/reels/DTlBkiKgtHs/)
 
 -----
 
@@ -1213,3 +1213,9 @@ I like swimming — and they swim too.
 * **szeretek + infinitive** – “I like to…”; core spoken structure.
 * **ők is** – “they too / as well”; parallelism marker, crucial for the joke.
 * **úsznak** – “they swim”; plain present tense, no modifiers → deadpan effect.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTSqNTwE1Y4/)
+
+A magyar kormány felkészült a havazásra, ja nem.
