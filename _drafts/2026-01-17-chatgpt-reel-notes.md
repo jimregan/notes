@@ -1191,23 +1191,23 @@ További utazós tippekért ne felejts el bekövetni!
 
 [Reel](https://www.instagram.com/reels/DTlBkiKgtHs/)
 
-[00:00.000 --> 00:03.860]  Fényelj, aki nem fut ki, minusz 300 fokban, az nem igazi futó!
-[00:03.860 --> 00:04.960]  Haa, haa!
-[00:04.960 --> 00:09.340]  Teknikai póló, teknikai likra, teknikai rágoly, még pofázás közbe se fagyol le.
-[00:09.340 --> 00:10.340]  Kkkkk!
-[00:10.340 --> 00:13.980]  Nap szemüveksz, stílódiputtó, meg hát refleksziós fényelre.
-[00:13.980 --> 00:17.180]  Légátereztő, csak légmondjuk nincs, mert a vére mellegyűt megfagyott az is.
-[00:17.180 --> 00:19.740]  Emelegítésnek, kétszer, kétszer, tükörégen sasszé.
-[00:19.740 --> 00:23.260]  Ha nem eszél az ízületedet a meccő hideg, akkor az még konforzóna.
-[00:23.260 --> 00:26.220]  Utána 5-600 meter eséskelé, segíts felétszik.
-[00:26.220 --> 00:32.780]  Szigorú húsz perc, minden nap, no mercy, legyen meg az a 3-4 száz méter.
-[00:32.780 --> 00:39.140]  Futás után fél napig nem zohanyzom, mert róvastam, hogy Edgyy pitti, hogy ékristályok jobban regenerálják az arzből.
-[00:39.140 --> 00:42.860]  Ha nem repetbe a szemüveglenséged az úzmarától, akkor elmakartad igazán.
-[00:42.860 --> 00:47.420]  És ami a futás eszenciáját adja, kirakjuk storiba, hogy hányméter futottunk.
-[00:47.500 --> 00:51.000]  Ha valamelyik ismerős ödesetleg nem látnál kül, de neki privádba messengeren,
-[00:51.000 --> 00:53.400]  ne, hogy nem aradjon a fantasztikus eredményedről.
-[00:53.400 --> 00:58.220]  Természetesen szuper dolog a kint is portalás, csak ne puszbocsináljátok, mert ez röheyes.
-[00:58.220 --> 01:01.540]  Bocsi, tálasználtam a tekerede, csak hülyen néz ki a méterem storiba.
+Fényelj, aki nem fut ki, minusz 300 fokban, az nem igazi futó!
+Haa, haa!
+Teknikai póló, teknikai likra, teknikai rágoly, még pofázás közbe se fagyol le.
+Kkkkk!
+Nap szemüveksz, stílódiputtó, meg hát refleksziós fényelre.
+Légátereztő, csak légmondjuk nincs, mert a vére mellegyűt megfagyott az is.
+Emelegítésnek, kétszer, kétszer, tükörégen sasszé.
+Ha nem eszél az ízületedet a meccő hideg, akkor az még konforzóna.
+Utána 5-600 meter eséskelé, segíts felétszik.
+Szigorú húsz perc, minden nap, no mercy, legyen meg az a 3-4 száz méter.
+Futás után fél napig nem zohanyzom, mert róvastam, hogy Edgyy pitti, hogy ékristályok jobban regenerálják az arzből.
+Ha nem repetbe a szemüveglenséged az úzmarától, akkor elmakartad igazán.
+És ami a futás eszenciáját adja, kirakjuk storiba, hogy hányméter futottunk.
+Ha valamelyik ismerős ödesetleg nem látnál kül, de neki privádba messengeren,
+ne, hogy nem aradjon a fantasztikus eredményedről.
+Természetesen szuper dolog a kint is portalás, csak ne puszbocsináljátok, mert ez röheyes.
+Bocsi, tálasználtam a tekerede, csak hülyen néz ki a méterem storiba.
 
 -----
 
