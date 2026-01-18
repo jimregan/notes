@@ -113,12 +113,15 @@ Who needs that?
 
 [Reel](https://www.instagram.com/reels/DTpOYNSAfn8/)
 
-A BK, a tanán ők érj a diákokat, hogy mondjanak egy mondatot a BK-val és a hajóval.
-Az egyik diákasz manja, a BK, a hajó, a másik diákasz manja, hogy a BK mellett el majd egy hajó.
-Múricska jelentkezik a hácsópadban.
-A BK pod a f***** ad hajó hanem, jó?
-Én elpogadom.
-Felállom hozzá a kinyugat.
-Úgyhogy jó étvágyat kívánunk majd hozzá.
+A béka... a tanárnő kéri a diákokat hogy mondjanak egy mondatot a békával és a hajóval.
+Az egyik diák azt mondja a béka csücsül a hajón a másik diák azt mondja hogy egy béka mellett elmegy egy hajó.
+Móricka jelentkezik a hátsó padban.
+Békapod a f***omat ha jó ha nem jó?
+Jééézuus.
+Én elfogadom.
+Gratulálunk
+Hozzá nyisd ki nyugodtan
+Úgyhogy jó étvágyat kívánunk majd hozzá!
+Koszonunk!
 Te milyen viccet mondtál volna?
-Éd meg nekünk kommentben.
+írd meg nekünk kommentben.
