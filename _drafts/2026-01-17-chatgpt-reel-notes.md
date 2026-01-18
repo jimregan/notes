@@ -1462,15 +1462,15 @@ The Hungarian government is prepared for the snowfall — *yeah, no.*
 
 [Reel](https://www.instagram.com/reels/DQMhHAdCIqj/)
 
-[00:00.000 --> 00:04.780]  az olifenszem, annak olyan tartalmáid, amikor mondjuk cicit mutatsz.
-[00:04.880 --> 00:05.980]  Jézus úristen.
-[00:06.080 --> 00:08.380]  Kérdezem, nem tudom, nem, bocs, bocs, drága volt.
-[00:08.480 --> 00:10.380]  Nem készült.
-[00:10.480 --> 00:14.780]  Soha életemben nem készült rólam, akt, fotó, sehol.
-[00:14.880 --> 00:16.400]  Mindenki tudja, hogy rólam nincs olyan,
-[00:16.500 --> 00:18.380]  hiszen, hogy ha rólam lenne eztelenképp,
-[00:18.480 --> 00:20.380]  hát már egy kiszi várgot volna.
-[00:20.480 --> 00:24.420]  Én még annyira érzékem jöke erre, hogy én még pár kapcsolatban sem küldök,
-[00:24.520 --> 00:27.120]  ilyen kébet, mert annyira félek, hogy nem tudom,
-[00:27.120 --> 00:29.120]  kiszi várra, hogy valamit, hogy nekem a telefonomon
-[00:29.220 --> 00:33.120]  sincs semmi ilyen, hogy telekrültem kapcsolatban, annyira félek ettől.
+az olifenszem, annak olyan tartalmáid, amikor mondjuk cicit mutatsz.
+Jézus úristen.
+Kérdezem, nem tudom, nem, bocs, bocs, drága volt.
+Nem készült.
+Soha életemben nem készült rólam, akt, fotó, sehol.
+Mindenki tudja, hogy rólam nincs olyan,
+hiszen, hogy ha rólam lenne eztelenképp,
+hát már egy kiszi várgot volna.
+Én még annyira érzékem jöke erre, hogy én még pár kapcsolatban sem küldök,
+ilyen kébet, mert annyira félek, hogy nem tudom,
+kiszi várra, hogy valamit, hogy nekem a telefonomon
+sincs semmi ilyen, hogy telekrültem kapcsolatban, annyira félek ettől.
