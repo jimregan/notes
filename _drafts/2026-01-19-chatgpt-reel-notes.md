@@ -294,19 +294,118 @@ It’s that simple.
 
 [Reel](https://www.instagram.com/reels/DTsCrY9lG3V/)
 
-Figyelj Kriszta, kérdezek egy indiszkrétet. A Gábor a te férjed, akiről szuperlatívuszokban beszéltél,
-és minden szuperlatívuszt meg is érdemel. Egy nagyon sikeres vállalkozó,
-egyébként konyhatechnikával foglalkozik, meg egy csomó minden mással. Automatizált űzlet és hasonlók.
-Neked adott valaha a te vállalkozói létedben biztonságérzetet az, hogy tulajdonképpen a reggeli cornflakes
-az akkor is meglesz, hogyha a te vállalkozásod a földbe áll?
+## Line-by-line translation
 
-A legjobb kérdés, amit most felteszel, és még senki nem tette fel.
+**Figyelj, Kriszta, kérdezek egy indiszkrétet.**
+Listen, Kriszta, I’m going to ask something indiscreet.
 
-Azt nem akarom inszinuálni, hogy jó, hát nekem volt egy csomó ötletem,
-a férjem pénzét költöttem, mert van egy csomó jó ötletem, aztán egyik nem sikerult. Érted, mondok?
-Tehát, hogy nagyon óvatosan ígyekszem fogalmazni, és az a lényege, hogy az felmerülhet az emberben,
-hogy esetleg könnyu... könnyebb dolog úgy vállalkozni, hogyha az ember tudja, hogy a tét, az, az nem a mindennapok kenyerére ment.
+**A Gábor a te férjed, akiről szuperlatívuszokban beszéltél,**
+Gábor is your husband, whom you spoke about in superlatives,
 
-Azért, azert örülök ennek a kérdésnek, mert még senki nem tette fel soha.
-Pedig én gyakran mondom, hogy biztos, hogy a sikerem egyik tényezője ez,
-hogy soha nem voltam belekényszerítve abba a gondolatsorba, hogy a hétköznapi betevőnk az én eredményeimtől függ.
+**és minden szuperlatívuszt meg is érdemel.**
+and he truly deserves every superlative.
+
+**Egy nagyon sikeres vállalkozó,**
+He’s a very successful entrepreneur,
+
+**egyébként konyhatechnikával foglalkozik, meg egy csomó minden mással.**
+he works with kitchen technology, among many other things.
+
+**Automatizált üzlet és hasonlók.**
+Automated business and similar things.
+
+**Neked adott valaha a te vállalkozói létedben biztonságérzetet az,**
+Has it ever given you a sense of security in your own entrepreneurial life
+
+**hogy tulajdonképpen a reggeli cornflakes**
+that basically the morning cornflakes
+
+**akkor is meglesz,**
+will still be there,
+
+**hogyha a te vállalkozásod a földbe áll?**
+even if your business crashes completely?
+
+---
+
+**A legjobb kérdés, amit most felteszel,**
+That’s the best question you’re asking right now,
+
+**és még senki nem tette fel.**
+and no one has ever asked it before.
+
+---
+
+**Azt nem akarom inszinuálni, hogy jó, hát nekem volt egy csomó ötletem,**
+I don’t want to insinuate that, well, I just had a bunch of ideas,
+
+**a férjem pénzét költöttem, mert van egy csomó jó ötletem,**
+spent my husband’s money because I have lots of good ideas,
+
+**aztán egyik nem sikerült. Érted, mondom?**
+and then none of them worked out. You know what I mean?
+
+**Tehát, hogy nagyon óvatosan igyekszem fogalmazni,**
+So I’m trying to phrase this very carefully,
+
+**és az a lényege, hogy az felmerülhet az emberben,**
+and the point is that it can occur to a person
+
+**hogy esetleg könnyű… könnyebb dolog úgy vállalkozni,**
+that maybe it’s easy… or easier to be an entrepreneur
+
+**hogyha az ember tudja,**
+if one knows
+
+**hogy a tét az nem a mindennapok kenyerére ment.**
+that what’s at stake is not the bread for everyday life.
+
+---
+
+**Azért örülök ennek a kérdésnek,**
+That’s why I’m glad about this question,
+
+**mert még senki nem tette fel soha.**
+because no one has ever asked it before.
+
+**Pedig én gyakran mondom,**
+Even though I often say
+
+**hogy biztos, hogy a sikerem egyik tényezője ez,**
+that this is definitely one factor in my success,
+
+**hogy soha nem voltam belekényszerítve abba a gondolatsorba,**
+that I was never forced into that line of thinking
+
+**hogy a hétköznapi betevőnk az én eredményeimtől függ.**
+that our everyday livelihood depended on my results.
+
+---
+
+## Vocabulary (with minimal context)
+
+* **figyelj** – listen; conversational opener
+* **indiszkrét kérdés** – indiscreet question; socially delicate topic
+* **szuperlatívuszokban beszél** – speak in superlatives; strong praise
+* **megérdemel** – deserve
+* **vállalkozó** – entrepreneur
+* **foglalkozik vmivel** – be engaged in / work in a field
+* **egy csomó minden más** – lots of other things; vague enumeration
+* **biztonságérzet** – sense of security
+* **vállalkozói lét** – entrepreneurial life/status
+* **tulajdonképpen** – basically / in essence
+* **meglesz** – will be there / will be available
+* **a földbe áll (vállalkozás)** – collapse completely; idiomatic
+* **feltesz (kérdést)** – ask (a question)
+* **inszinuál** – insinuate; formal register
+* **költi vkinek a pénzét** – spend someone’s money
+* **érted, mondom?** – you know what I mean?
+* **óvatosan fogalmaz** – phrase carefully
+* **felmerül vkiben** – occur to someone
+* **tét** – stake; what’s at risk
+* **mindennapok kenyere / betevő** – basic livelihood
+* **örül vminek** – be glad about something
+* **tényező** – factor
+* **belekényszerít** – force someone into
+* **gondolatsor** – line of thought
+* **függ vmitől** – depend on something
