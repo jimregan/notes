@@ -221,15 +221,65 @@ or a safe step *for them*.
 
 [Reel](https://www.instagram.com/reels/DTp2JFXlxHR/)
 
-Amikor egy csaj azt mondja, hogy "uh, nincs rajtam bugyi."
-Uhm, nem az olyan sejtelmes.
-Jó hallani
-Amikor a fiú mondja ezt, hogy "figyu nincs rajtam gatya."
-Az inkább további kérdéseket vet föl.
-"És mióta?"
-"Mire készülsz?"
-Ha egy nő mondja ezt hogy nincs rajtam bugyi,
-akkor arra következtetsz, hogy biztos nagyon magas a libidója.
-Ha egy fiú mondja ezt, akkor az azt jelenti
-hogy már otthon nem volt több tiszta.
-Ez ilyen egyszerű.
+## Line-by-line translation
+
+**Amikor egy csaj azt mondja, hogy „uh, nincs rajtam bugyi.”**
+When a girl says, “uh, I’m not wearing any underwear.”
+
+**Uhm, nem az olyan sejtelmes.**
+Mhm, that’s kind of suggestive.
+
+**Jó hallani.**
+Nice to hear.
+
+**Amikor a fiú mondja ezt, hogy „figyu, nincs rajtam gatya.”**
+When a guy says this — “hey, I’m not wearing any pants.”
+
+**Az inkább további kérdéseket vet föl.**
+That raises further questions instead.
+
+**„És mióta?”**
+“Since when?”
+
+**„Mire készülsz?”**
+“What are you preparing for?”
+
+**Ha egy nő mondja ezt, hogy nincs rajtam bugyi,**
+If a woman says she’s not wearing underwear,
+
+**akkor arra következtetsz, hogy biztos nagyon magas a libidója.**
+you conclude that she must have a very high libido.
+
+**Ha egy fiú mondja ezt, akkor az azt jelenti,**
+If a guy says it, then it means
+
+**hogy már otthon nem volt több tiszta.**
+that he already had no clean ones left at home.
+
+**Ez ilyen egyszerű.**
+It’s that simple.
+
+---
+
+## Vocabulary (with minimal context)
+
+* **csaj** – girl / chick; informal, slightly slangy but common
+* **uh / uhm** – hesitation / reaction filler; conveys tone, not meaning
+* **nincs rajtam** – “I’m not wearing”; fixed colloquial construction
+* **bugyi** – women’s underwear; neutral–informal
+* **sejtelmes** – suggestive, hinting; often used about speech or looks
+* **figyu** – “hey, listen”; very casual attention-getter
+* **gatya** – trousers / pants; informal, everyday
+* **további kérdéseket vet fel** – raises further questions; semi-formal idiom
+* **mióta** – since when; temporal probe
+* **mire készülsz** – what are you preparing for; implies intent
+* **arra következtetsz** – you infer / conclude; reasoning verb
+* **biztos** – surely / must be; epistemic certainty marker
+* **magas a libidója** – has a high libido; clinical-ish term used humorously
+* **azt jelenti** – it means; explanatory frame
+* **tiszta (ruha)** – clean (laundry context)
+* **ez ilyen egyszerű** – it’s that simple; dismissive wrap-up
+
+---
+
+If you paste the next one, I’ll keep **exactly** this format.
