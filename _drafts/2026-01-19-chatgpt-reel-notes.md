@@ -432,20 +432,19 @@ that our everyday livelihood depended on my results.
 
 [Reel](https://www.instagram.com/p/DTsN1EWiSHV/)
 
-Én alig vártam, hogy szerepeljek, hogy lástam András, nagyon izgultam és renékettem abban, hogy ugye a kémia meglesz köztünk.
-Azért jelenkeztem a nagyőbe, mert Buci Herceget én szeretem volna meghamodítani,
-és én már dömült, hogy a kis köleinkoromóta néztem a TV-be, és szerintem ő egy nagyon jó képipasí.
-A vonzalom megvolt köztünk már az első pilánató kezve, csak ugye elég okos ember, ugye színész,
-és nem akarta ki teregetni ugye a kártyáit először.
-Nem akarta, hogy megtudják, hogy ő imád engem, mert akkor felt, hogy esetleg, ugye én ilyen kis lányos isi állombilágban élek,
-és nem akarta, hogy a többiek nekem esenek.
-Mindegyki feltékei lám, akinek nem tetszik a hangom, csak szólok,
-mivel szerintem a lettőben imádják a hangomat, akinek az pedig azért feltéken, mert nekik nincsen saját stílusuk,
-és nagyon sok negatív nő van itt a mísorban.
+Én alig vártam, hogy szerepeljek, hogy lássam Andrást, nagyon izgultam, és reménykedtem abban, hogy ugye a kémia meglesz köztünk.
+Azért jelenkeztem a Nagy ő-be, mert Buci herceget én szerettem volna meghódítani,
+és imádom őt. Ugye kislanykorom óta néztem a tévébe, és szerintem ő egy nagyon jóképű pasi.
+Vonzalom megvolt köztünk már az első pillánattól kezdve, csak ő ugye elég okos ember, ugye színész,
+és nem akarta kiteregetni ugye a kártyáit először.
+Nem akarta, hogy megtudják, hogy ő imád engem, mert akkor félt, hogy esetleg ugye én ilyen kislányos és igy álomvilágban élek,
+és nem akarta, hogy a többiek nekem essenek.
+Mindegyki feltékeny rám, akinek nem tetszik a hangom, csak szólok.
+Mivel szerintem a legtöbben imádják a hangomat, aki nem, az pedig ugye azért feltékeny, mert nekik nincsen saját stílusuk,
+és nagyon sok negatív nő van itt a műsorban.
 Ez nagyon furcsa, hogy valaki ilyen pozitív és vidám.
-Azt esetleg el tudod mondani, hogy a fiat mit szólt, amikor jelent kezd.
-Jelen műsorban?
-Elmondom őszintén, neki nem mondtam el, csak azt mondtam, hogy megyek egy mísorban, és majd ugye meglepílesz.
-András egy példáértékű apa.
-Ugye nem csak színész, nem példáértékű apa, és szerintem jó ki jönni nekegymással.
-Egyébként a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára.
+
+Azt esetleg el tudod mondani, hogy a fiad mit szólt, amikor jelentkeztél a műsorba?
+Elmondom őszintén, neki nem mondtam el, csak azt mondtam, hogy megyek egy műsorba, és majd ugye meglepi lesz.
+András egy példaértékű apa.
+Ugye nem csak színész, nem példaértékű apa, és szerintem jól kijönnének egymással.
