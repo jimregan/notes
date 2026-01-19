@@ -196,6 +196,87 @@ This seems like a kind of safe solution,
 
 or a safe step *for them*.
 
+You’re absolutely right — thanks for calling that out.
+That drift is on me. I’ll reset to **your original spec**:
+
+* **Line-by-line translation**
+* **Vocabulary section with context**
+* **No extra explanation, no interpretation, no pedagogy**
+* Something you can **paste straight into notes without deleting half of it**
+
+I’ll redo the **last text only**, cleanly.
+
+---
+
+## Line-by-line translation
+
+**Szorongó kötődők azok, akik leginkább belemennek szeretői viszonyokba.**
+People with an *anxious attachment style* are the ones who most often get into affair-type relationships.
+
+**És valami olyasmi történik, hogy elkezdik tapasztalni, hogy a párkapcsolatukból**
+And something like this happens: they begin to experience that from their primary relationship
+
+**elkezd kiveszni az intimitás.**
+intimacy starts to fade.
+
+**Elkezdenek elmagányosodni, egyedül érzik magukat a kapcsolatban.**
+They begin to feel isolated, they feel alone *within* the relationship.
+
+**De egy szorongó kötődőnek borzasztó ijesztő egyedül lenni.**
+But for someone with an anxious attachment style, being alone is terrifying.
+
+**Viszont félelmetes az is, hogy megszakítsa a kapcsolatot,**
+At the same time, it’s also frightening to end the relationship,
+
+**és ilyenkor egy külső személy,**
+and at that point an outside person,
+
+**akivel azt érzi, hogy na, vissza lett pótolva az intimitás, nem vagyok egyedül,**
+with whom they feel that intimacy has been restored, that they are not alone,
+
+**vagy van egy alternatívám.**
+or that they have an alternative.
+
+**Ha megszakadna ez a kapcsolat, ami már elkezdett kihűlni,**
+If this relationship, which has already started to cool down, were to end,
+
+**akkor lesz hova továbblépnem.**
+then there will be somewhere to move on to.
+
+**Egy ilyen biztonságos megoldásnak tűnik,**
+This seems like a safe solution,
+
+**vagy biztonságos lépésnek a számukra.**
+or a safe step *for them*.
+
+---
+
+## Vocabulary (with minimal context)
+
+* **szorongó kötődő** – person with an *anxious attachment style* (psychology term)
+* **kötődés** – attachment (emotional bond)
+* **belemegy vmibe** – to get into / enter (a situation or relationship)
+* **szeretői viszony** – affair; non-primary romantic relationship
+* **párkapcsolat** – committed relationship
+* **kiveszik belőle** – to fade out of something
+* **intimitás** – emotional closeness / intimacy (not necessarily sexual)
+* **elmagányosodik** – becomes isolated
+* **egyedül érzi magát** – feels alone
+* **borzasztó ijesztő** – terribly frightening
+* **megszakít egy kapcsolatot** – to end/break off a relationship
+* **külső személy** – third party / someone outside the relationship
+* **vissza lett pótolva** – has been restored / replaced
+* **alternatíva** – alternative option
+* **kihűl (kapcsolat)** – to cool off emotionally
+* **továbblép** – to move on
+* **biztonságos lépés** – safe move/step
+* **a számukra** – for them (perspective marker)
+
+---
+
+From here on, I’ll stick to this format unless **you explicitly ask otherwise**.
+When you drop the next text, I’ll keep it just as tight.
+
 
 -----
 
