@@ -291,3 +291,20 @@ because it’s in all our interest that elections be clean.
 * **elszórva** – “scattering/spending recklessly”; evaluative verb with fiscal connotations.
 * **ne söpörjük le az asztalról** – institutional idiom for dismissal.
 * **égető problémák** – “burning issues”; urgency without emotive language.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTIfBZrioGr/)
+
+[00:00.000 --> 00:06.060]  Nézzük, milyen is a pilota feleségélet különkiadásban, azért zsíros pénz, amit hazahoz,
+[00:06.060 --> 00:09.060]  jó ilyen a fenszi, luxus élet stílusodhoz.
+[00:09.060 --> 00:14.940]  Amik dolgoztam és átmagam kerestem a kenyeremet, ennél sokkal fenszi béletet életem, mint most.
+[00:14.940 --> 00:23.100]  Gyerekek és Hollandia mellett, nem félnek bele a heti többszörű éttermezések, a szép ruhák, a maga sarkuszibőket akszizássem.
+[00:23.100 --> 00:31.160]  És akkor meséljön már el, hogy milyen márkás ruhákat hordok a temus ruháimban, libbenek be a kanapépartiaimra esténként.
+[00:31.160 --> 00:34.520]  A maga sarkuszibőim évek óta a padlásom porosodnak.
+[00:34.520 --> 00:43.240]  Te egyébként dolgozol, nem itthon nevelek két pici gyereket, viszont amikor annak idején egyedül voltam velük, és marha nehéz volt,
+[00:43.240 --> 00:48.920]  akkor sok szok kívántam, hogy bárcsak inkább dolgoznék és replülhetnék, mert az egyszerűbb volt.
+[00:48.920 --> 00:51.760]  Ez mind kabu, amit mondok, mert ez nem is így van.
+[00:52.160 --> 01:00.460]  Bár Hollandiában élek nem szedek semmilyen tudatmódosító szert, így nem hiszem, hogy behalúzom azokat a napokat, amikor egyedül töltök velük.
+[01:00.460 --> 01:05.180]  És a kedves aggodalmas kadóknak nem kargojáratokon nincsenek sztyúárdeszek.
+
