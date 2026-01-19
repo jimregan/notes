@@ -432,20 +432,20 @@ that our everyday livelihood depended on my results.
 
 [Reel](https://www.instagram.com/p/DTsN1EWiSHV/)
 
-[00:00.000 --> 00:08.000]  Én alig vártam, hogy szerepeljek, hogy lástam András, nagyon izgultam és renékettem abban, hogy ugye a kémia meglesz köztünk.
-[00:08.000 --> 00:12.500]  Azért jelenkeztem a nagyőbe, mert Buci Herceget én szeretem volna meghamodítani,
-[00:12.500 --> 00:19.000]  és én már dömült, hogy a kis köleinkoromóta néztem a TV-be, és szerintem ő egy nagyon jó képipasí.
-[00:19.000 --> 00:26.000]  A vonzalom megvolt köztünk már az első pilánató kezve, csak ugye elég okos ember, ugye színész,
-[00:26.000 --> 00:29.000]  és nem akarta ki teregetni ugye a kártyáit először.
-[00:29.000 --> 00:37.000]  Nem akarta, hogy megtudják, hogy ő imád engem, mert akkor felt, hogy esetleg, ugye én ilyen kis lányos isi állombilágban élek,
-[00:37.000 --> 00:39.000]  és nem akarta, hogy a többiek nekem esenek.
-[00:39.000 --> 00:43.000]  Mindegyki feltékei lám, akinek nem tetszik a hangom, csak szólok,
-[00:43.000 --> 00:51.000]  mivel szerintem a lettőben imádják a hangomat, akinek az pedig azért feltéken, mert nekik nincsen saját stílusuk,
-[00:51.000 --> 00:54.000]  és nagyon sok negatív nő van itt a mísorban.
-[00:54.000 --> 00:57.000]  Ez nagyon furcsa, hogy valaki ilyen pozitív és vidám.
-[00:57.000 --> 01:01.000]  Azt esetleg el tudod mondani, hogy a fiat mit szólt, amikor jelent kezd.
-[01:01.000 --> 01:02.000]  Jelen műsorban?
-[01:02.000 --> 01:09.000]  Elmondom őszintén, neki nem mondtam el, csak azt mondtam, hogy megyek egy mísorban, és majd ugye meglepílesz.
-[01:09.000 --> 01:11.000]  András egy példáértékű apa.
-[01:11.000 --> 01:17.000]  Ugye nem csak színész, nem példáértékű apa, és szerintem jó ki jönni nekegymással.
-[01:21.000 --> 01:39.000]  Egyébként a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára.
+Én alig vártam, hogy szerepeljek, hogy lástam András, nagyon izgultam és renékettem abban, hogy ugye a kémia meglesz köztünk.
+Azért jelenkeztem a nagyőbe, mert Buci Herceget én szeretem volna meghamodítani,
+és én már dömült, hogy a kis köleinkoromóta néztem a TV-be, és szerintem ő egy nagyon jó képipasí.
+A vonzalom megvolt köztünk már az első pilánató kezve, csak ugye elég okos ember, ugye színész,
+és nem akarta ki teregetni ugye a kártyáit először.
+Nem akarta, hogy megtudják, hogy ő imád engem, mert akkor felt, hogy esetleg, ugye én ilyen kis lányos isi állombilágban élek,
+és nem akarta, hogy a többiek nekem esenek.
+Mindegyki feltékei lám, akinek nem tetszik a hangom, csak szólok,
+mivel szerintem a lettőben imádják a hangomat, akinek az pedig azért feltéken, mert nekik nincsen saját stílusuk,
+és nagyon sok negatív nő van itt a mísorban.
+Ez nagyon furcsa, hogy valaki ilyen pozitív és vidám.
+Azt esetleg el tudod mondani, hogy a fiat mit szólt, amikor jelent kezd.
+Jelen műsorban?
+Elmondom őszintén, neki nem mondtam el, csak azt mondtam, hogy megyek egy mísorban, és majd ugye meglepílesz.
+András egy példáértékű apa.
+Ugye nem csak színész, nem példáértékű apa, és szerintem jó ki jönni nekegymással.
+Egyébként a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára, a fiatalára.
