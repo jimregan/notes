@@ -294,16 +294,19 @@ It’s that simple.
 
 [Reel](https://www.instagram.com/reels/DTsCrY9lG3V/)
 
-Figyelj, Krista, kérdezek egy indiskrétet. A Gábor, a te férjed, akiről superlatívuszokban beszéltél,
-és minden superlatívuszt meg is érdemel, hogy nagyon sikeres vállalkozó,
-egyébként konyha technikával foglalkozik, meg egy csomó minden mással, automatizált hűzlet és hasonló.
-Neked adott valaha, a te vállalkozói létedben biztonságérzetet az, hogy tulajdonképpen a reggeli konfléksz,
-az akkor is meglász, hogyha a te vállalkozásod a földbe áll.
-A legjobb kérdés, amit most felteszel, és még senki nem lehetett el.
-Csak azt nem akarom inszinuálni, azt nem akar inszinuálni, hogy olyan nekem volt egy csomój ötletem,
-férján pénzét költöttem, mert van egy csomój ötletem, aztán egyik nem sikert értenik mondok,
-tehát hogy nagyon óvatosan így egyszer foglalmazni, és az a lényeghez, hogy azt felmerület az emberben,
-hogy esetleg könnyyebb dolog úgy vállalkozni, hogy ha az ember tudja, hogy a tét az nem a mindenapok kenyerére menjük.
-Azért örülök ennek a kérdésnek, mert még senki nem tette föl soha.
-Pedig én gyakran mondom, hogy biztosja sikerem egyik tényezője ez,
-hogy soha nem voltam belekényszerítve, abba a gondolat sorba, hogy a hétköznapi betevünk az én eredményeimtől függ.
+Figyelj Kriszta, kérdezek egy indiszkrétet. A Gábor a te férjed, akiről szuperlatívuszokban beszéltél,
+és minden szuperlatívuszt meg is érdemel. Egy nagyon sikeres vállalkozó,
+egyébként konyhatechnikával foglalkozik, meg egy csomó minden mással. Automatizált űzlet és hasonlók.
+Neked adott valaha a te vállalkozói létedben biztonságérzetet az, hogy tulajdonképpen a reggeli cornflakes
+az akkor is meglesz, hogyha a te vállalkozásod a földbe áll?
+
+A legjobb kérdés, amit most felteszel, és még senki nem tette fel.
+
+Azt nem akarom inszinuálni, hogy jó, hát nekem volt egy csomó ötletem,
+a férjem pénzét költöttem, mert van egy csomó jó ötletem, aztán egyik nem sikerult. Érted, mondok?
+Tehát, hogy nagyon óvatosan ígyekszem fogalmazni, és az a lényege, hogy az felmerülhet az emberben,
+hogy esetleg könnyu... könnyebb dolog úgy vállalkozni, hogyha az ember tudja, hogy a tét, az, az nem a mindennapok kenyerére ment.
+
+Azért, azert örülök ennek a kérdésnek, mert még senki nem tette fel soha.
+Pedig én gyakran mondom, hogy biztos, hogy a sikerem egyik tényezője ez,
+hogy soha nem voltam belekényszerítve abba a gondolatsorba, hogy a hétköznapi betevőnk az én eredményeimtől függ.
