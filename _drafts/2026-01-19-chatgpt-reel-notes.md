@@ -113,3 +113,37 @@ If you want next, we can:
 
 Whenever you’re ready, send the next one.
 
+### Line-by-line translation
+
+**Blue Monday – az év legszomorúbb napjának tekintik január harmadik hétfőjét.**
+*Blue Monday* — January’s third Monday is considered the saddest day of the year.
+
+---
+
+### Linguistic notes (tight)
+
+* **tekintik** – impersonal plural (“they consider”); classic media phrasing that avoids naming an authority.
+* **az év legszomorúbb napja** – superlative headline formula; evaluative but vague.
+* **január harmadik hétfője** – ordinal + weekday; neutral, factual register.
+
+---
+
+### Pragmatic context
+
+In Hungarian media this line usually functions as:
+
+* a **framing hook**, not a claim to be argued
+* a way to legitimise post-holiday fatigue (*see previous transcript*) as something “recognised”
+
+It pairs very naturally with explanations about:
+
+* winter darkness
+* financial pressure
+* work piling up
+  — exactly the causal chain you just had.
+
+If you want, next we can:
+
+* rewrite this in **spoken Hungarian** (it sounds very written), or
+* show how Hungarian outlets hedge this claim when they want to sound skeptical, or
+* compare it to how *Blue Monday* is framed in English vs Hungarian.
