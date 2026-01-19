@@ -221,15 +221,15 @@ or a safe step *for them*.
 
 [Reel](https://www.instagram.com/reels/DTp2JFXlxHR/)
 
-Mikor egy csaliszt mondja, hogy úr, nincs olytan búgyi.
-Hmm, nem az olyan sejtelmes.
-Ez jó halani.
-Mikor a film mondja ezt, hogy úr, nincs olytam gatja.
-Az inkább további kérdéseket vett fel.
-És mi óta?
-Mire készülsz?
-Ha egy nő mondja ezt, hogy nincs olytan búgyi,
-akkor arra következtett, hogy biztos nagyon magas a libidója.
-Ha egy film mondja ezt, akkor az azt jelent,
-hogy már otthon nem volt több tista.
+Amikor egy csaj azt mondja, hogy "uh, nincs rajtam bugyi."
+Uhm, nem az olyan sejtelmes.
+Jó hallani
+Amikor a fiú mondja ezt, hogy "figyu nincs rajtam gatya."
+Az inkább további kérdéseket vet föl.
+"És mióta?"
+"Mire készülsz?"
+Ha egy nő mondja ezt hogy nincs rajtam bugyi,
+akkor arra következtetsz, hogy biztos nagyon magas a libidója.
+Ha egy fiú mondja ezt, akkor az azt jelenti
+hogy már otthon nem volt több tiszta.
 Ez ilyen egyszerű.
