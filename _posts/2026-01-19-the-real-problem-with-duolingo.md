@@ -4,7 +4,7 @@ layout: post
 hidden: true
 description: Video summary
 title: The REAL problem with duolingo
-categories: [duolingo, summary, video]
+categories: [duolingo, summary, video, chatgpt]
 ---
 
 [The REAL problem with duolingo](https://www.youtube.com/watch?v=sCou7ut2L-o)
@@ -187,10 +187,4 @@ You learn by **focused, effortful practice**.
 ## One-line takeaway (reel-worthy)
 
 **Duolingo gives you the *feeling* of progress — real learning requires discomfort, structure, and memory work.**
-
-If you want, I can:
-
-* turn this into a **short-form script**
-* adapt it specifically to **Hungarian learners**
-* or rewrite it as a **hard-hitting Instagram reel caption**
 
