@@ -294,16 +294,16 @@ It’s that simple.
 
 [Reel](https://www.instagram.com/reels/DTsCrY9lG3V/)
 
-[00:00.000 --> 00:06.700]  Figyelj, Krista, kérdezek egy indiskrétet. A Gábor, a te férjed, akiről superlatívuszokban beszéltél,
-[00:06.700 --> 00:11.020]  és minden superlatívuszt meg is érdemel, hogy nagyon sikeres vállalkozó,
-[00:11.020 --> 00:17.760]  egyébként konyha technikával foglalkozik, meg egy csomó minden mással, automatizált hűzlet és hasonló.
-[00:17.760 --> 00:27.960]  Neked adott valaha, a te vállalkozói létedben biztonságérzetet az, hogy tulajdonképpen a reggeli konfléksz,
-[00:27.960 --> 00:31.400]  az akkor is meglász, hogyha a te vállalkozásod a földbe áll.
-[00:31.400 --> 00:35.000]  A legjobb kérdés, amit most felteszel, és még senki nem lehetett el.
-[00:35.000 --> 00:40.480]  Csak azt nem akarom inszinuálni, azt nem akar inszinuálni, hogy olyan nekem volt egy csomój ötletem,
-[00:40.480 --> 00:45.280]  férján pénzét költöttem, mert van egy csomój ötletem, aztán egyik nem sikert értenik mondok,
-[00:45.280 --> 00:54.360]  tehát hogy nagyon óvatosan így egyszer foglalmazni, és az a lényeghez, hogy azt felmerület az emberben,
-[00:54.360 --> 01:04.520]  hogy esetleg könnyyebb dolog úgy vállalkozni, hogy ha az ember tudja, hogy a tét az nem a mindenapok kenyerére menjük.
-[01:04.520 --> 01:11.440]  Azért örülök ennek a kérdésnek, mert még senki nem tette föl soha.
-[01:11.440 --> 01:18.240]  Pedig én gyakran mondom, hogy biztosja sikerem egyik tényezője ez,
-[01:18.240 --> 01:26.920]  hogy soha nem voltam belekényszerítve, abba a gondolat sorba, hogy a hétköznapi betevünk az én eredményeimtől függ.
+Figyelj, Krista, kérdezek egy indiskrétet. A Gábor, a te férjed, akiről superlatívuszokban beszéltél,
+és minden superlatívuszt meg is érdemel, hogy nagyon sikeres vállalkozó,
+egyébként konyha technikával foglalkozik, meg egy csomó minden mással, automatizált hűzlet és hasonló.
+Neked adott valaha, a te vállalkozói létedben biztonságérzetet az, hogy tulajdonképpen a reggeli konfléksz,
+az akkor is meglász, hogyha a te vállalkozásod a földbe áll.
+A legjobb kérdés, amit most felteszel, és még senki nem lehetett el.
+Csak azt nem akarom inszinuálni, azt nem akar inszinuálni, hogy olyan nekem volt egy csomój ötletem,
+férján pénzét költöttem, mert van egy csomój ötletem, aztán egyik nem sikert értenik mondok,
+tehát hogy nagyon óvatosan így egyszer foglalmazni, és az a lényeghez, hogy azt felmerület az emberben,
+hogy esetleg könnyyebb dolog úgy vállalkozni, hogy ha az ember tudja, hogy a tét az nem a mindenapok kenyerére menjük.
+Azért örülök ennek a kérdésnek, mert még senki nem tette föl soha.
+Pedig én gyakran mondom, hogy biztosja sikerem egyik tényezője ez,
+hogy soha nem voltam belekényszerítve, abba a gondolat sorba, hogy a hétköznapi betevünk az én eredményeimtől függ.
