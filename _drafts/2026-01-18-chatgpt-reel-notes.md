@@ -386,120 +386,57 @@ And for the dear worriers: on cargo flights, there are no flight attendants.
 ### Line-by-line translation
 
 **A pornó hamis intimitást**
+
 Porn gives *false intimacy*.
 
 **A luxus hamis önértékelést**
+
 Luxury gives *false self-worth*.
 
 **Az alkohol hamis jókedvet**
+
 Alcohol gives *false cheer*.
 
 **A gyors étel hamis tápanyagot**
+
 Fast food gives *false nourishment*.
 
 **A dohányzás hamis nyugalmat**
+
 Smoking gives *false calm*.
 
 **A közösségi média pedig hamis emberi kapcsolódást adhat.**
+
 And social media can give *false human connection*.
 
 **Ezek a mindennapi szokásaink gyors dopaminlöketet [adnak],**
+
 These everyday habits give a quick dopamine hit,
 
 **de valós eredményeket sosem…**
+
 but never real results…
 
 **Ha pedig ezek az értékek**
+
 And if these values
 
 **neked is fontosak…**
+
 are important to you too…
 
 **A rövid távú vágyok helyett inkább**
+
 then instead of short-term desires,
 
 **a hosszú távú szükségletekre fókuszálj.**
+
 focus on long-term needs.
 
 **Ha erről a videóról eszedbe jutott valaki,**
+
 If this video made you think of someone,
 
 **ne felejtsd elküldeni neki.**
+
 don’t forget to send it to them.
-
----
-
-### What’s going on rhetorically
-
-This is **minimalist moral-influencer prose**, built almost entirely on **parallelism**:
-
-* No verbs in the first six lines → **headline-style nominal clauses**
-* Each line repeats the same frame:
-  **X → hamis Y**
-* Meaning accumulates through *pattern*, not argument
-
-It’s closer to a **mantra or aphorism list** than to persuasion by reasoning.
-
----
-
-### Linguistically interesting points
-
-* **hamis** (“false”) does all the evaluative work
-  → repeated enough that it becomes axiomatic, not debated.
-* **intimitás / önértékelés / kapcsolódás**
-  → abstract nouns typical of self-help / therapy discourse.
-* **ad / adhat**
-  → *adhat* (“can give”) weakens the claim slightly, creating deniability.
-* **dopaminlöket**
-  → pop-neuroscience term, fully naturalised in Hungarian.
-* **sosem…**
-  → ellipsis instead of completion; lets the viewer finish the thought.
-* **inkább**
-  → soft corrective rather than command.
-* **fókuszálj**
-  → direct imperative, but delayed until the end, after moral alignment.
-* **eszedbe jutott valaki**
-  → emotional CTA; assumes relational concern.
-
----
-
-### Register & genre
-
-* **Self-improvement / stoic-influencer register**
-* Caption-optimised:
-
-  * short lines
-  * high contrast nouns
-  * no syntactic complexity
-* Designed for:
-
-  * silent reading
-  * resharing
-  * moral self-recognition
-
-This is *not* conversational Hungarian — it’s **written-for-scroll Hungarian**.
-
----
-
-### Why this is useful “background noise”
-
-* Trains recognition of **modern moralising cadence**
-* Helps you instantly classify:
-
-  * aphorism content
-  * dopamine discourse
-  * values-based CTAs
-* Once internalised, your brain will:
-
-  * skim the pattern
-  * retain only what deviates
-
-Which is exactly how native speakers consume this kind of content.
-
-If you want next, we can:
-
-* rewrite this as **natural spoken Hungarian** and see how flat it becomes, or
-* compare it to **older Hungarian moral rhetoric** (pre-social media), or
-* mark which parts are **purely rhetorical vs semantically informative**.
-
-Send the next one whenever.
