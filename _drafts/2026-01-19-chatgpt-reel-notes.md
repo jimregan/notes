@@ -11,42 +11,29 @@ categories: [hungarian, chatgpt, reels]
 
 ### Line-by-line translation
 
-**OLYAN IDŐSZAKBAN VAGYOK,**
+**Olyan időszakban vagyok,**
+
 I’m in a phase
 
-**AMIKOR MÁR NEM**
+**amikor már nem**
+
 when I no longer
 
-**VITATKOZOM SENKIVEL.**
+**vitatkozom senkivel.**
+
 argue with anyone.
 
-**AZ ELEFÁNT REPÜL?**
+**Az elefánt repül?**
+
 Does the elephant fly?
 
 **Igazad van.**
+
 You’re right.
 
 **Repülj te is vele a francba!**
+
 Then fly off to hell with it too!
-
----
-
-### Humour & why it works
-
-This is **ultra-compressed boundary humour**.
-
-* **Setup**: calm, self-aware declaration of emotional disengagement
-  (*nem vitatkozom senkivel*)
-* **Absurd test case**: a statement that is *objectively false*
-  (*az elefánt repül?*)
-* **Resolution by refusal, not correction**
-  → instead of arguing facts, the speaker **opts out entirely**
-* **Punchline**: redirects absurdity back at the other person
-  (*repülj te is vele a francba*)
-
-The joke isn’t about elephants — it’s about **not spending energy on bad faith or pointless arguments**.
-
----
 
 ### Linguistically interesting bits
 
@@ -56,36 +43,6 @@ The joke isn’t about elephants — it’s about **not spending energy on bad f
 * **igazad van** – “you’re right”; usually conciliatory, here used *weaponised*.
 * **a francba** – “to hell”; mild, everyday swearing, perfect for deadpan delivery.
 * **imperative + particle** (*repülj… is*) – adds dismissive finality.
-
----
-
-### Register & cadence
-
-* Reads perfectly as:
-
-  * a Reel caption
-  * a deadpan voiceover
-  * a text meme
-* Short lines do all the timing work.
-* No filler, no softeners → **confidence without aggression**.
-
----
-
-### Why this is good “background noise”
-
-* Trains recognition of **non-engagement strategies** in Hungarian
-* Shows how:
-
-  * agreement (*igazad van*)
-    can function as **exit**, not alignment
-* Very ASR-stable; even mangled audio wouldn’t kill the joke
-
-If you want, next we can:
-
-* map Hungarian **“I’m done arguing”** phrases by tone (calm → hostile), or
-* compare this to **English equivalents** (*“sure, whatever”* etc.), or
-* just keep going with the next reel.
-
 
 -----
 
