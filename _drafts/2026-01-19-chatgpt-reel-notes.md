@@ -142,3 +142,16 @@ if you think it through logically.
 
 [Reel](https://www.instagram.com/reels/DSt5M4ZgiZS/)
 
+[00:00.000 --> 00:05.020]  szorúkötődők azok, akik leginkább belemennek szeretői visszanyogba,
+[00:05.020 --> 00:08.540]  és valami olyan is mi történik, hogy elkezdik tapasztalni, hogy a pár kapcsolatából
+[00:08.540 --> 00:14.300]  elkezd kiveszni az intézés, elkezd elmagányosodni, egyedül érzé magát a kapcsolatba,
+[00:14.300 --> 00:17.980]  de egy szorúkötődőnek borzostó éjesztő egyedül lenni,
+[00:17.980 --> 00:21.380]  viszont célelmetes az is, hogy megszakítsa a kapcsolatot,
+[00:21.380 --> 00:28.700]  és ilyenkor egy külső személyi, akivel azt érzé, hogy na visszapletból tolva az intézési nem vagyok egyedül,
+[00:28.700 --> 00:33.820]  vagy van egy alternatívám, ha megszakadna ez a kapcsolat, ami már elkezdett el kihülni,
+[00:33.820 --> 00:40.060]  akkor lesz szóvató vábrépnem egy ilyen biztonságos megoldásnak tűnik, vagy biztonságos lépésnek a számukra.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTp2JFXlxHR/)
+
