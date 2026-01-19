@@ -299,86 +299,72 @@ because it’s in all our interest that elections be clean.
 ### Line-by-line translation
 
 **Nézzük, milyen is a pilótafeleség-élet különkiadásban.**
+
 Let’s take a look at what *pilot-wife life* is really like — special edition.
 
 **Azért a zsíros pénz, amit hazahoz, jól jön a fancy luxus életstílusodhoz.**
+
 After all, that fat cash he brings home really comes in handy for your fancy luxury lifestyle.
-*(This is ironic: she’s quoting a stereotype.)*
 
 **Amíg dolgoztam és saját magam kerestem a kenyeremet, ennél sokkal fancybb életet éltem, mint most.**
+
 When I was working and earning my own living, I lived a much fancier life than I do now.
 
 **Gyerekek és Hollandia mellett nem férnek bele a heti többszöri éttermezések,**
+
 With kids and living in Hollandia, weekly multiple restaurant outings don’t fit in,
 
 **a szép ruhák, a magassarkú cipők és a taxizás sem.**
+
 nor nice clothes, high heels, or taking taxis.
 
 **És akkor meséljem már el, hogy milyen márkás ruhákat hordok —**
+
 And should I even tell you what kind of designer clothes I wear —
 
 **a Temus ruháimban libbenek be a kanapépartija(i)mra esténként,**
+
 I flutter into my evening couch parties in my Temu clothes,
 
 **a magassarkú cipőim évek óta a padláson porosodnak.**
+
 my high heels have been gathering dust in the attic for years.
 
 **Te egyébként dolgozol, nem itthon nevelek két pici gyereket,**
+
 You, by the way, are working — I’m raising two small children at home,
 
 **viszont amikor annak idején egyedül voltam velük, és marha nehéz volt,**
+
 but when back then I was alone with them and it was damn hard,
 
 **akkor sokszor kívántam, hogy bárcsak inkább dolgoznék és repülhetnék,**
+
 I often wished that I could just work and fly instead,
 
 **mert az egyszerűbb volt.**
+
 because that was easier.
 
 **Ez mind kamu, amit mondok, mert ez nem is így van.**
+
 That’s all bullshit I’m saying, because it’s not actually like that.
 
 **Bár Hollandiában élek, nem szedek semmilyen tudatmódosító szert,**
+
 Even though I live in the Netherlands, I don’t take any mind-altering substances,
 
 **így nem hiszem, hogy behallucinálom azokat a napokat,**
+
 so I don’t think I’m hallucinating those days
 
 **amikor egyedül töltöm velük.**
+
 when I spend them alone with the kids.
 
 **És a kedves aggodalmaskodóknak: nem cargojáratokon nincsenek stewardessek.**
+
 And for the dear worriers: on cargo flights, there are no flight attendants.
-*(Dry factual closer.)*
-
----
-
-### What’s going on rhetorically
-
-This is **defensive irony + lived correction**:
-
-1. **Stereotype setup**
-   *pilot wife = rich, idle, luxury*
-   → stated in exaggerated, internet-comment voice (*zsíros pénz, fancy luxus*).
-
-2. **Reality inversion**
-
-   * working life = more freedom, more style
-   * stay-at-home + kids = logistical austerity
-
-3. **Self-interruption & correction**
-   *“Ez mind kamu… mert ez nem is így van.”*
-   She explicitly calls out her own rhetorical shortcut — a very modern, meta move.
-
-4. **Epistemic defence**
-   The *“nem szedek tudatmódosítót”* line is not about drugs — it’s about **credibility**:
-
-   > I’m tired, not delusional.
-
-5. **Deadpan technical closer**
-   Cargo flights / no stewardesses → kills one specific recurring comment with facts.
-
----
 
 ### Linguistically interesting points
 
@@ -392,43 +378,6 @@ This is **defensive irony + lived correction**:
 * **behallucinál** – hallucinate (with *be-* prefix); expressive, not clinical.
 * **aggodalmaskodók** – worriers; mildly dismissive plural.
 * **nem cargojáratokon nincsenek…** – slightly tangled negation, but spoken-natural.
-
----
-
-### Register & genre
-
-* **Influencer rebuttal monologue**, but unusually grounded.
-* Mixes:
-
-  * internet sarcasm
-  * parenting exhaustion
-  * technical correction
-* No punchline joke — humour comes from **tone control and specificity**.
-
----
-
-### Why this is good input for you
-
-* Shows how Hungarian handles:
-
-  * **stereotype quotation vs lived negation**
-  * irony without losing sincerity
-  * factual shutdowns at the end of emotional talk
-* Great example of **spoken self-editing** (*meséljem már el… / ez mind kamu*).
-* ASR would struggle with:
-
-  * negation scope
-  * *libbenek / behallucinálom*
-    but the discourse would still be recoverable.
-
-If you want next, we can:
-
-* isolate the **comment-reply register** Hungarians use online, or
-* compare this to **non-ironic influencer “pilot wife” content**, or
-* map where **fatigue is encoded grammatically**, not lexically.
-
-Send the next one whenever.
-
 
 -----
 
