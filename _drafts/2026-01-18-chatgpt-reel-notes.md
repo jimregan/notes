@@ -383,7 +383,7 @@ And for the dear worriers: on cargo flights, there are no flight attendants.
 
 [Reel](https://www.instagram.com/reels/DG3ezuCSFn0/)
 
-[00:00.000 --> 00:18.000]  A pornó hamis intimitást, a luxus hamis önértékelést, az alkohol hamis júkedvet, a gyorsítel hamis tápanyagot, a dohányzás hamis nyugalmat, a közösségi média pedig hamis emberi kapcsolódást ad.
-[00:18.000 --> 00:24.000]  Ezek a mindenapíta végénségek mindig gyors topa millöketet adnak, de valósáredményeket csosám.
-[00:24.000 --> 00:32.000]  A pedig ezek a fenntéértékek neked is fontosok, de ugye igazi bol, akkor a rövidtávú vágyok helyet mindig érdemesabb, hosszú távó szükségletekre fokuszálni.
-[00:32.000 --> 00:36.000]  Igáról a videóról eszedbétott valaki, akkor ne felejtsd el neki elküldeni.
+A pornó hamis intimitást, a luxus hamis önértékelést, az alkohol hamis júkedvet, a gyorsítel hamis tápanyagot, a dohányzás hamis nyugalmat, a közösségi média pedig hamis emberi kapcsolódást ad.
+Ezek a mindenapíta végénségek mindig gyors topa millöketet adnak, de valósáredményeket csosám.
+A pedig ezek a fenntéértékek neked is fontosok, de ugye igazi bol, akkor a rövidtávú vágyok helyet mindig érdemesabb, hosszú távó szükségletekre fokuszálni.
+Igáról a videóról eszedbétott valaki, akkor ne felejtsd el neki elküldeni.
