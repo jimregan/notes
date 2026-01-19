@@ -7,6 +7,12 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
+[Reel](https://www.instagram.com/reel/DTsBo8kDD_5/)
+
+OLYAN IDŐSZAKBAN VAGYOK, AMIKOR MÁR NEM VITATKOZOM SENKIVEL. AZ ELEFÁNT REPÜL? Igazad van. Repülj te is vele a francba!
+
+-----
+
 [Reel](https://www.instagram.com/reels/DQJ030ainFF/)
 
 ### Line-by-line translation
@@ -98,3 +104,8 @@ if you think it through logically.
 * **rázuhan** – physical metaphor for mental load.
 * **mondjuk** – conversational softener while estimating.
 * **szerintem inkább** – opinion framed as modest correction, not authority.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTqWnELDECH/)
+
