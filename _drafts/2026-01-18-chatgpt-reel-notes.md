@@ -448,27 +448,20 @@ don’t forget to send it to them.
 ### Line-by-line translation
 
 **Ha szeretnél egy valóban ijesztő, halloweeni jelmezt kitalálni magadnak,**
+
 If you want to come up with a *truly* scary Halloween costume for yourself,
 
 **akkor javaslom, hogy öltözz be egyszerűen csak egy érzelmileg elérhető embernek.**
+
 then I suggest you simply dress up as an *emotionally available person*.
 
 **Hidd el,**
+
 Believe me,
 
 **nagyon, nagyon sokan meg fognak tőled rémülni!**
+
 a *lot*, a *lot* of people will be terrified of you!
-
----
-
-### Why this works (briefly)
-
-* **Expectation flip**: Halloween → monsters / gore → instead, *emotional availability*.
-* **Cultural premise**: emotional availability is framed as rare, threatening, or uncomfortable in modern dating culture.
-* **Deadpan delivery**: no exaggeration, no insult — the understatement *is* the joke.
-* **Hungarian cadence**: *hidd el* + repetition (*nagyon, nagyon*) gives it a mock-sincere PSA tone.
-
----
 
 ### Linguistically useful bits
 
@@ -477,7 +470,3 @@ a *lot*, a *lot* of people will be terrified of you!
 * **öltözz be** – “dress up”; fixed Halloween / costume verb.
 * **érzelmileg elérhető** – emotionally available; therapy/dating register, fully naturalised.
 * **meg fognak rémülni** – “will be frightened”; future + prefix adds dramatic distance.
-
-This is the kind of joke that survives perfectly **as text**, **as speech**, and **with zero context** — which is why it spreads so well.
-
-Drop the next one whenever.
