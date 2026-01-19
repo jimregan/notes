@@ -142,3 +142,17 @@ if you think it through logically.
 
 [Reel](https://www.instagram.com/reels/DTqWnELDECH/)
 
+[00:00.000 --> 00:02.000]  Pár daraga modeltént olyan listára.
+[00:02.000 --> 00:05.100]  Nem látod, hogy hajan, semmilyen őrülcig hajan.
+[00:05.100 --> 00:06.700]  Bár én erre annyira nem is vágynék.
+[00:06.700 --> 00:08.000]  De alkalján nem se lehetne.
+[00:08.000 --> 00:11.000]  A különböző tetkókkal és pészlingekkel is óvatosan kell bánni,
+[00:11.000 --> 00:12.500]  bár szerintem most már lazulaszak,
+[00:12.500 --> 00:14.500]  mert a jobban szeretik, hogyha nincs haltunk semmi.
+[00:14.500 --> 00:17.500]  És végül pedig bármilyen műszen pillan,
+[00:17.500 --> 00:19.500]  szemöldögtető vállás,
+[00:19.500 --> 00:21.800]  szájtető vállás, azt hiszem így hívják.
+[00:21.800 --> 00:23.400]  Ezeket nem igazán kedvelik.
+[00:23.400 --> 00:28.100]  Mindezeknek pedig az a lényegre, hogy egy fotózásomra forgatáson nyársa alapanyagból tudjanak dolgozni,
+[00:28.100 --> 00:29.600]  hiszen emból bármi kihozható.
+[00:29.600 --> 00:32.900]  És ti tudnátok járni ezekkel a szabályokkal, vagy szerintetek túlzás.
