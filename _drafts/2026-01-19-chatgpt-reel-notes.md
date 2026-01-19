@@ -79,3 +79,4 @@ If you want, next we can:
 * rewrite it in **non-vulgar Hungarian** to show why it collapses, or
 * just keep going with the next reel/text.
 
+> I've seen two video clips showing this on the Hungarian version of who wants to be a millionaire
