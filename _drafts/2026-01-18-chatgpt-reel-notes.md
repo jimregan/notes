@@ -445,3 +445,6 @@ don’t forget to send it to them.
 
 [Reel](https://www.instagram.com/reel/DQcMP4tDQ1e/)
 
+[00:00.000 --> 00:04.060]  Ha szeretnél egy valóban ilyesztű, Halloween-i jelmeszt kitalálni magadnak,
+[00:04.060 --> 00:08.620]  rjavastam, hogy jöltözbe egyszerűen csak egy érzemileg elérhető embernek hiddel,
+[00:08.620 --> 00:10.780]  nagyon-nagyon sokan megfognak tőledrémülni.
