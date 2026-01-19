@@ -221,15 +221,15 @@ or a safe step *for them*.
 
 [Reel](https://www.instagram.com/reels/DTp2JFXlxHR/)
 
-[00:00.000 --> 00:03.040]  Mikor egy csaliszt mondja, hogy úr, nincs olytan búgyi.
-[00:03.040 --> 00:05.160]  Hmm, nem az olyan sejtelmes.
-[00:05.160 --> 00:06.160]  Ez jó halani.
-[00:06.160 --> 00:08.600]  Mikor a film mondja ezt, hogy úr, nincs olytam gatja.
-[00:14.600 --> 00:16.600]  Az inkább további kérdéseket vett fel.
-[00:17.600 --> 00:18.800]  És mi óta?
-[00:20.400 --> 00:21.800]  Mire készülsz?
-[00:22.800 --> 00:24.800]  Ha egy nő mondja ezt, hogy nincs olytan búgyi,
-[00:24.800 --> 00:28.000]  akkor arra következtett, hogy biztos nagyon magas a libidója.
-[00:28.200 --> 00:30.000]  Ha egy film mondja ezt, akkor az azt jelent,
-[00:30.000 --> 00:32.000]  hogy már otthon nem volt több tista.
-[00:32.800 --> 00:34.000]  Ez ilyen egyszerű.
+Mikor egy csaliszt mondja, hogy úr, nincs olytan búgyi.
+Hmm, nem az olyan sejtelmes.
+Ez jó halani.
+Mikor a film mondja ezt, hogy úr, nincs olytam gatja.
+Az inkább további kérdéseket vett fel.
+És mi óta?
+Mire készülsz?
+Ha egy nő mondja ezt, hogy nincs olytan búgyi,
+akkor arra következtett, hogy biztos nagyon magas a libidója.
+Ha egy film mondja ezt, akkor az azt jelent,
+hogy már otthon nem volt több tista.
+Ez ilyen egyszerű.
