@@ -140,19 +140,3 @@ if you think it through logically.
 
 -----
 
-[Reel](https://www.instagram.com/reels/DTqWnELDECH/)
-
-Pár daraga modeltént olyan listára.
-Nem látod, hogy hajan, semmilyen őrülcig hajan.
-Bár én erre annyira nem is vágynék.
-De alkalján nem se lehetne.
-A különböző tetkókkal és pészlingekkel is óvatosan kell bánni,
-bár szerintem most már lazulaszak,
-mert a jobban szeretik, hogyha nincs haltunk semmi.
-És végül pedig bármilyen műszen pillan,
-szemöldögtető vállás,
-szájtető vállás, azt hiszem így hívják.
-Ezeket nem igazán kedvelik.
-Mindezeknek pedig az a lényegre, hogy egy fotózásomra forgatáson nyársa alapanyagból tudjanak dolgozni,
-hiszen emból bármi kihozható.
-És ti tudnátok járni ezekkel a szabályokkal, vagy szerintetek túlzás.
