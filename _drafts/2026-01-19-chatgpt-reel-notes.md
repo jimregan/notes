@@ -31,9 +31,9 @@ A three-horse Russian wooden sled.
 
 [Reel](https://www.instagram.com/reels/DTsPPLEFII6/)
 
-lejára az ünnep, lejára pihenés, lejára a várokozás, a karácsony,
-ami már elkezdődik az összközepén, és akkor most így jönnek a szűrke hétköznapok,
-azon kívül hideg van, sötétebb van, karácsony után esetleg bizonyos emberek
+Lejár az ünnep, lejár a pihenés, lejár a várokozás a karácsonyra,
+ami már kezdődik az ösz közepén, és akkor most így jönnek a szűrke hétköznapok.
+Azonkívül hideg van, sötétebb van, karácsony után esetleg bizonyos emberek
 tulköltekeznek az ünnepek során, megjönnek a gásztámlák, tehát összegyül a munka az ünnepek alatt,
-és akkor ezek mind rázuk honnak az emberre, és egy pár hét után, mondjuk eltelik három-hét januárból,
-elfáradnak az emberek, és szerintem inkább ez történik logikusan át gondolva
+és akkor ezek mind rázuhannak az emberre, és egy pár hét után, mondjuk eltelik három hét januárból,
+elfáradnak az emberek. És szerintem inkább ez történik, logikusan átgondolva.
