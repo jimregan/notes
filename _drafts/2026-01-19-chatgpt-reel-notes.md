@@ -432,19 +432,124 @@ that our everyday livelihood depended on my results.
 
 [Reel](https://www.instagram.com/p/DTsN1EWiSHV/)
 
-Én alig vártam, hogy szerepeljek, hogy lássam Andrást, nagyon izgultam, és reménykedtem abban, hogy ugye a kémia meglesz köztünk.
-Azért jelenkeztem a Nagy ő-be, mert Buci herceget én szerettem volna meghódítani,
-és imádom őt. Ugye kislanykorom óta néztem a tévébe, és szerintem ő egy nagyon jóképű pasi.
-Vonzalom megvolt köztünk már az első pillánattól kezdve, csak ő ugye elég okos ember, ugye színész,
-és nem akarta kiteregetni ugye a kártyáit először.
-Nem akarta, hogy megtudják, hogy ő imád engem, mert akkor félt, hogy esetleg ugye én ilyen kislányos és igy álomvilágban élek,
-és nem akarta, hogy a többiek nekem essenek.
-Mindegyki feltékeny rám, akinek nem tetszik a hangom, csak szólok.
-Mivel szerintem a legtöbben imádják a hangomat, aki nem, az pedig ugye azért feltékeny, mert nekik nincsen saját stílusuk,
-és nagyon sok negatív nő van itt a műsorban.
-Ez nagyon furcsa, hogy valaki ilyen pozitív és vidám.
+## Line-by-line translation
 
-Azt esetleg el tudod mondani, hogy a fiad mit szólt, amikor jelentkeztél a műsorba?
-Elmondom őszintén, neki nem mondtam el, csak azt mondtam, hogy megyek egy műsorba, és majd ugye meglepi lesz.
-András egy példaértékű apa.
-Ugye nem csak színész, nem példaértékű apa, és szerintem jól kijönnének egymással.
+**Én alig vártam, hogy szerepeljek, hogy lássam Andrást, nagyon izgultam,**
+I could hardly wait to be on the show, to see András, I was very nervous,
+
+**és reménykedtem abban, hogy ugye a kémia meglesz köztünk.**
+and I was hoping that the chemistry would be there between us.
+
+**Azért jelentkeztem a Nagy Ő-be,**
+I applied to A Nagy Ő
+
+**mert Buci herceget én szerettem volna meghódítani,**
+because I wanted to win over *Prince Buci*,
+
+**és imádom őt.**
+and I adore him.
+
+**Ugye kislánykorom óta néztem a tévében,**
+I’ve been watching him on TV since I was a little girl,
+
+**és szerintem ő egy nagyon jóképű pasi.**
+and I think he’s a very handsome guy.
+
+**Vonzalom megvolt köztünk már az első pillanattól kezdve,**
+There was attraction between us from the very first moment,
+
+**csak ő ugye elég okos ember, ugye színész,**
+it’s just that he’s a pretty smart man, you know, an actor,
+
+**és nem akarta kiteregetni ugye a kártyáit először.**
+and he didn’t want to lay his cards on the table at first.
+
+**Nem akarta, hogy megtudják, hogy ő imád engem,**
+He didn’t want people to find out that he adores me,
+
+**mert akkor félt, hogy esetleg ugye én ilyen kislányos és így álomvilágban élek,**
+because then he was afraid that people might think I’m childish and living in a dream world,
+
+**és nem akarta, hogy a többiek nekem essenek.**
+and he didn’t want the others to gang up on me.
+
+**Mindenki féltékeny rám,**
+Everyone is jealous of me,
+
+**akinek nem tetszik a hangom, csak szólok.**
+just saying — anyone who doesn’t like my voice is jealous.
+
+**Mivel szerintem a legtöbben imádják a hangomat,**
+Since I think most people adore my voice,
+
+**aki nem, az pedig ugye azért féltékeny,**
+and whoever doesn’t, well, they’re jealous,
+
+**mert nekik nincsen saját stílusuk,**
+because they don’t have their own style,
+
+**és nagyon sok negatív nő van itt a műsorban.**
+and there are a lot of negative women on this show.
+
+**Ez nagyon furcsa, hogy valaki ilyen pozitív és vidám.**
+It’s very strange for someone to be this positive and cheerful.
+
+---
+
+**Azt esetleg el tudod mondani,**
+Could you perhaps tell us
+
+**hogy a fiad mit szólt, amikor jelentkeztél a műsorba?**
+what your son said when you applied to the show?
+
+---
+
+**Elmondom őszintén, neki nem mondtam el,**
+I’ll be honest, I didn’t tell him,
+
+**csak azt mondtam, hogy megyek egy műsorba,**
+I just said I was going to be on a show,
+
+**és majd ugye meglepi lesz.**
+and that it would be a surprise.
+
+**András egy példaértékű apa.**
+Stohl András is an exemplary father.
+
+**Ugye nem csak színész,**
+He’s not just an actor,
+
+**hanem példaértékű apa is,**
+but also an exemplary father,
+
+**és szerintem jól kijönnének egymással.**
+and I think they would get along well with each other.
+
+---
+
+## Vocabulary (with minimal context)
+
+* **alig vár** – can hardly wait
+* **szerepel (műsorban)** – appear on a show
+* **izgul** – be nervous / excited
+* **reménykedik** – hope (tentatively)
+* **megvan a kémia** – the chemistry is there
+* **jelentkezik (műsorba)** – apply to a show
+* **meghódít** – win over, conquer (romantically)
+* **imád** – adore, love intensely
+* **kislánykorom óta** – since childhood
+* **jóképű pasi** – handsome guy; informal
+* **vonzalom** – attraction
+* **az első pillanattól kezdve** – from the first moment
+* **kiteregeti a kártyáit** – lay one’s cards on the table; reveal intentions
+* **nekem esnek** – gang up on me; attack verbally
+* **féltékeny** – jealous
+* **csak szólok** – just saying; dismissive aside
+* **saját stílusa van** – have one’s own style
+* **pozitív és vidám** – positive and cheerful
+* **mit szól vmihez** – what someone thinks/says about something
+* **meglepi** – surprise; colloquial
+* **példaértékű** – exemplary, model-like
+* **jól kijön vkivel** – get along well with someone
+
+If you paste the next one, I’ll keep exactly this structure.
