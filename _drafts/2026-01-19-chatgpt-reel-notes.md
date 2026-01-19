@@ -31,9 +31,85 @@ A three-horse Russian wooden sled.
 
 [Reel](https://www.instagram.com/reels/DTsPPLEFII6/)
 
-Lejár az ünnep, lejár a pihenés, lejár a várokozás a karácsonyra,
-ami már kezdődik az ösz közepén, és akkor most így jönnek a szűrke hétköznapok.
-Azonkívül hideg van, sötétebb van, karácsony után esetleg bizonyos emberek
-tulköltekeznek az ünnepek során, megjönnek a gásztámlák, tehát összegyül a munka az ünnepek alatt,
-és akkor ezek mind rázuhannak az emberre, és egy pár hét után, mondjuk eltelik három hét januárból,
-elfáradnak az emberek. És szerintem inkább ez történik, logikusan átgondolva.
+### Line-by-line translation
+
+**Lejár az ünnep, lejár a pihenés, lejár a várakozás a karácsonyra,**
+The holidays end, the rest ends, the anticipation for Christmas ends,
+
+**ami már kezdődik az ősz közepén,**
+which already starts in the middle of autumn,
+
+**és akkor most így jönnek a szürke hétköznapok.**
+and then the grey weekdays arrive.
+
+**Azon kívül hideg van, sötétebb van,**
+On top of that it’s cold, it’s darker,
+
+**karácsony után esetleg bizonyos emberek túlköltekeznek az ünnepek során,**
+after Christmas some people may have overspent during the holidays,
+
+**megjönnek a gázszámlák,**
+the gas bills arrive,
+
+**tehát összegyűlik a munka az ünnepek alatt,**
+so work piles up during the holidays,
+
+**és akkor ezek mind rázuhannak az emberre,**
+and then all of this crashes down on a person,
+
+**és egy pár hét után, mondjuk eltelik három hét januárból,**
+and after a few weeks — say, once three weeks of January have passed —
+
+**elfáradnak az emberek.**
+people get worn out.
+
+**És szerintem inkább ez történik,**
+And in my opinion this is what’s really happening,
+
+**logikusan átgondolva.**
+if you think it through logically.
+
+---
+
+### What’s happening rhetorically
+
+This is **quiet rationalisation**, not motivational talk or humour:
+
+* It reframes *post-holiday burnout* as **structural and predictable**, not a personal failure.
+* The speaker uses **additive accumulation** (*és… és… és…*) to mirror how pressures stack up.
+* The close (*logikusan átgondolva*) explicitly claims **reason over emotion**.
+
+No punchline, no call to action — just explanation.
+
+---
+
+### Spoken-Hungarian features worth noting
+
+* **lejár** repeated three times → time running out, cycles ending.
+* **most így** – vague deictic filler (“now like this”), very natural in speech.
+* **szürke hétköznapok** – fixed metaphor; culturally entrenched.
+* **esetleg bizonyos emberek** – hedging to avoid moralising.
+* **összegyűlik a munka** – passive accumulation, no agent blamed.
+* **rázuhan** – physical metaphor for mental load.
+* **mondjuk** – conversational softener while estimating.
+* **szerintem inkább** – opinion framed as modest correction, not authority.
+
+---
+
+### Why this is good background input
+
+* High-frequency **causal chaining** in Hungarian
+* Shows how speakers:
+
+  * normalise fatigue
+  * distribute responsibility across systems, seasons, finances
+* Very ASR-stable: even with noise, the logic survives.
+
+If you want next, we can:
+
+* compress this into **written Hungarian** and see what tightens, or
+* compare it to **more moralising versions** of the same message, or
+* map the **seasonal affect lexicon** Hungarians use every winter.
+
+Whenever you’re ready, send the next one.
+
