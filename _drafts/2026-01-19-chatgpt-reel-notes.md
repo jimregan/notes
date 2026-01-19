@@ -142,14 +142,111 @@ if you think it through logically.
 
 [Reel](https://www.instagram.com/reels/DSt5M4ZgiZS/)
 
-szo***gó kötődők azok, akik leginkább belemennek szeretői viszonyokba.
-És valami olyasmi történik, hogy elkezdik tapasztalni, hogy a párkapcsolatából
-elkezd kiveszni az in***tás. Elkezd elmagányosodni, egyedül érzi magát a kapcsolatban.
-De egy szo***gó kötődőnek borzastó ijesztő egyedül lenni.
-Viszont félelmetes az is, hogy megszakítsa a kapcsolatot,
-és ilyenkor egy külső személy, akivel azt érzi, hogy na vissza lett pótolva az in***tás, nem vagyok egyedül,
-vagy van egy alternatívám. Ha megszakadna ez a kapcsolat, ami már elkezdett kihülni,
-akkor lesz hova továbblépnem. Egy ilyen biztonságos megoldásnak tűnik, vagy biztonságos lépésnek a számukra.
+Good instinct to ask for the **actual words** here — this is a case where censoring really does obscure the conceptual load.
+
+I’ll do three things, cleanly and without embellishment:
+
+1. **Reconstruct the censored words** (with confidence level)
+2. Give a **clean, uncensored Hungarian version**
+3. Briefly note **why these exact terms matter**
+
+No humour analysis, no psych commentary beyond what’s needed.
+
+---
+
+## 1. The censored words
+
+You have two censored stems:
+
+* **szo***gó**
+* **in***tás**
+
+These are almost certainly:
+
+* **szorongó** *(anxious)*
+* **intimitás** *(intimacy)*
+
+This is standard **attachment-theory Hungarian**, not slang.
+
+So the key phrase is:
+
+> **szorongó kötődők** = people with an *anxious attachment style*
+
+and
+
+> **intimitás** = emotional / relational intimacy
+
+There’s no realistic alternative parsing here.
+
+---
+
+## 2. Clean, uncensored version (lightly normalised, no content added)
+
+**Szorongó kötődők azok, akik leginkább belemennek szeretői viszonyokba.**
+Andxiously attached people are the ones most likely to get into affair-type relationships.
+
+**És valami olyasmi történik, hogy elkezdik tapasztalni, hogy a párkapcsolatukból**
+And something like this happens: they start to experience that from their primary relationship
+
+**elkezd kiveszni az intimitás.**
+intimacy begins to fade.
+
+**Elkezdenek elmagányosodni, egyedül érzik magukat a kapcsolatban.**
+They start to become isolated, they feel alone *within* the relationship.
+
+**De egy szorongó kötődőnek borzasztó ijesztő egyedül lenni.**
+But for someone with an anxious attachment style, being alone is terrifying.
+
+**Viszont félelmetes az is, hogy megszakítsa a kapcsolatot,**
+At the same time, it’s also frightening to end the relationship,
+
+**és ilyenkor egy külső személy,**
+and at that point an external person,
+
+**akivel azt érzi, hogy na, vissza lett pótolva az intimitás, nem vagyok egyedül,**
+with whom they feel that intimacy has been restored, that they’re not alone,
+
+**vagy van egy alternatívám.**
+or that they have an alternative,
+
+**Ha megszakadna ez a kapcsolat, ami már elkezdett kihűlni,**
+if this relationship, which has already begun to cool off, were to end,
+
+**akkor lesz hova továbblépnem.**
+then there will be somewhere to move on to.
+
+**Egy ilyen biztonságos megoldásnak tűnik,**
+This seems like a kind of safe solution,
+
+**vagy biztonságos lépésnek a számukra.**
+or a safe step *for them*.
+
+---
+
+## 3. Why *these exact words* matter
+
+* **szorongó kötődő** is a **technical term** in Hungarian psychology
+  → censoring it turns a theory-based explanation into vague moralising.
+* **intimitás** is not sexual here — it’s **emotional availability / closeness**
+  → censoring it makes the argument sound more scandalous than it is.
+
+This explains why the video probably **had to censor**:
+
+* affair-adjacent content
+* therapy vocabulary that platforms often misclassify
+
+But linguistically and conceptually, this is **clean, mainstream psych discourse**.
+
+---
+
+If you want next, we can:
+
+* contrast this with **avoidant attachment** language in Hungarian, or
+* look at how **Whisper typically mangles “szorongó kötődő”**, or
+* just move on to the next transcript.
+
+Your call.
+
 
 -----
 
