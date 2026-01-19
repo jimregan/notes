@@ -80,3 +80,73 @@ If you want, next we can:
 * just keep going with the next reel/text.
 
 > I've seen two video clips showing this on the Hungarian version of who wants to be a millionaire
+
+Yep — that tracks, and it’s not accidental.
+
+On the Hungarian **Legyen Ön is milliomos!**, this joke works **especially well on air** for a few reasons:
+
+### Why *this* joke survives prime-time TV
+
+1. **Quiz-compatible setup**
+   *„Milyen jármű a trojka?”* is a **perfectly legitimate trivia question**.
+   The host can deliver it dead straight, which buys the joke credibility.
+
+2. **Last-word payload**
+   Hungarian allows the obscene punch to sit **entirely on the final stressed word** (*faszán*).
+   That means:
+
+   * the joke is already “complete” before the obscenity
+   * the obscenity feels like a tag, not the core content
+
+3. **Censorship-friendly structure**
+   On TV they can:
+
+   * bleep or cut the last word
+   * let the audience reaction do the rest
+     The joke still lands because the **audience has already parsed the sentence**.
+
+4. **Old, recognisable joke stock**
+   This is important culturally:
+   it’s a **well-known, lowbrow riddle**, not a fresh insult.
+   That makes it feel:
+
+   * nostalgic
+   * unserious
+   * “everyone knows this one”
+     → much safer for broadcast.
+
+5. **Hungarian tolerance for blunt vulgarity (in jokes)**
+   Hungarian TV is relatively permissive with:
+
+   * single-word obscenities
+   * especially if they’re:
+
+     * not sexual *actions*
+     * not directed at a present individual
+     * framed as humour, not aggression
+
+### Why it shows up in *two* clips
+
+Shows like *Legyen Ön is milliomos!* recycle moments where:
+
+* the **host almost breaks**
+* the **contestant surprises with a dirty-but-structurally-clean answer**
+* the **studio laughs before the bleep**
+
+Those clips circulate because:
+
+* the joke is instantly intelligible
+* it’s short
+* it needs zero context
+* censorship itself becomes part of the humour
+
+So your observation is spot-on:
+this joke isn’t just compatible with Hungarian TV — it’s *optimized* for it.
+
+If you want, we can:
+
+* list other **Hungarian “last-word obscene” jokes** that work the same way, or
+* compare how the *same* joke would fail on British or Irish quiz TV, or
+* look at how **bleep timing** affects Hungarian joke perception.
+
+Up to you.
