@@ -296,15 +296,16 @@ because it’s in all our interest that elections be clean.
 
 [Reel](https://www.instagram.com/reels/DTIfBZrioGr/)
 
-Nézzük, milyen is a pilota feleségélet különkiadásban, azért zsíros pénz, amit hazahoz,
-jó ilyen a fenszi, luxus élet stílusodhoz.
-Amik dolgoztam és átmagam kerestem a kenyeremet, ennél sokkal fenszi béletet életem, mint most.
-Gyerekek és Hollandia mellett, nem félnek bele a heti többszörű éttermezések, a szép ruhák, a maga sarkuszibőket akszizássem.
-És akkor meséljön már el, hogy milyen márkás ruhákat hordok a temus ruháimban, libbenek be a kanapépartiaimra esténként.
-A maga sarkuszibőim évek óta a padlásom porosodnak.
+Nézzük milyen is a pilotafeleség élet külön kiadásban. Azért a zsíros pénz, amit hazahoz
+jól jön a fancy luxus életstílusodhoz.
+Amíg dolgoztam és saját magam kerestem a kenyeremet, ennél sokkal fancybb életet életem, mint most.
+Gyerekek és Hollandia mellett nem férnek bele a heti többszöri éttermezések, a szép ruhák, a magassarkú cipők ás a taxizás sem.
+És akkor meséljem már el, hogy milyen márkás ruhákat hordok a temus ruháimban libbenek be a kanapé partiaimra esténként,
+a magasarkú cipőim évek óta a padláson porosodnak.
 Te egyébként dolgozol, nem itthon nevelek két pici gyereket, viszont amikor annak idején egyedül voltam velük, és marha nehéz volt,
-akkor sok szok kívántam, hogy bárcsak inkább dolgoznék és replülhetnék, mert az egyszerűbb volt.
+akkor sokszok kívántam, hogy bárcsak inkább dolgoznék és replülhetnék, mert az egyszerűbb volt.
 Ez mind kabu, amit mondok, mert ez nem is így van.
-Bár Hollandiában élek nem szedek semmilyen tudatmódosító szert, így nem hiszem, hogy behalúzom azokat a napokat, amikor egyedül töltök velük.
-És a kedves aggodalmas kadóknak nem kargojáratokon nincsenek sztyúárdeszek.
+Bár Hollandiában élek, nem szedek semmilyen tudatmódosítószert, így nem hiszem, hogy behalluzom azokat a napokat, amikor egyedül töltök velük.
+És a kedves aggodalmaskodóknak nem cargo járatokon nincsenek stewardessek.
+[Note: cargo flight = teherszállító járat]
 
