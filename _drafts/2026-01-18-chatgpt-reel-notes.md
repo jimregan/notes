@@ -445,6 +445,6 @@ don’t forget to send it to them.
 
 [Reel](https://www.instagram.com/reel/DQcMP4tDQ1e/)
 
-Ha szeretnél egy valóban ilyesztű, Halloween-i jelmeszt kitalálni magadnak,
-rjavastam, hogy jöltözbe egyszerűen csak egy érzemileg elérhető embernek hiddel,
-nagyon-nagyon sokan megfognak tőledrémülni.
+Ha szeretnél egy valóban ijesztő, Halloweeni jelmeszt kitalálni magadnak,
+akkor javaslom, hogy öltözz be egyszerűen csak egy érzelmileg elérhető embernek. Hidd el,
+nagyon, nagyon sokan meg fognak tőled rémülni!
