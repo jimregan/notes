@@ -152,3 +152,86 @@ If you want, we can:
 Up to you.
 
 > That looks like it would also be parsed as wooden sled
+
+Yes — **your intuition is right**, and this is exactly why the line is *momentarily ambiguous* before the punch lands.
+
+Let’s keep this strictly linguistic.
+
+---
+
+### Why **„három lovas orosz szán”** *would* be parseable
+
+If the answer were:
+
+> **háromlovas orosz szán / szánkó**
+
+that would be:
+
+* completely grammatical
+* semantically correct
+* and the **expected encyclopaedic answer**
+
+Hungarian happily parses:
+
+* **háromlovas** = three-horse (compound adjective)
+* **orosz** = Russian (national adjective)
+* **szán / szánkó** = sled
+
+So yes:
+the brain initially **expects a wooden sled / sleigh** interpretation.
+
+---
+
+### What actually happens in the joke
+
+The joke exploits **incremental parsing**:
+
+1. **három lovas**
+   → modifier phrase, still neutral
+
+2. **orosz**
+   → narrows reference (troika confirmed)
+
+3. **faszán**
+   → forces **catastrophic reanalysis**
+
+At that point:
+
+* *faszán* cannot be a head noun like *szán*
+* it also cannot be a manner adverb (*“nicely”*) in this context
+* so the listener is forced into the obscene idiom reading
+
+This is a classic case of **garden-path humour**:
+
+> your parser commits early, then gets rug-pulled at the final word.
+
+---
+
+### Why this works especially well in Hungarian
+
+* Hungarian allows **long pre-nominal modifier chains** without signalling the head early.
+* The **head comes last**, so:
+
+  * you *have* to wait for it
+  * and when it’s obscene, the reanalysis is maximal.
+* *szán* and *faszán* are:
+
+  * phonotactically compatible
+  * stress-compatible
+  * both plausible final heads *until* the taboo semantics crash in.
+
+That’s why the joke feels “clean” right up to the last syllable.
+
+---
+
+### TL;DR (technical)
+
+* Yes, it momentarily parses as *“three-horse Russian sled”*.
+* The joke relies on **head-final ambiguity + obscene head substitution**.
+* Hungarian makes this particularly effective because:
+
+  * modifiers stack freely
+  * the head is delayed
+  * reanalysis is unavoidable.
+
+You’re not overthinking it — you’re noticing the **exact mechanism that makes it TV-viable**.
