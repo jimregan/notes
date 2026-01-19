@@ -46,11 +46,6 @@ in a *Polish zoo*
 
 (No captions)
 
-Ha vársz a buszra, és nem jön, varsz egy késik.
-Ha buszra jöttél, akkor, gondolom, nem gyalog.
-Ha nincs jegyed, vegyél.
-Ha rossz buszra szálltál, minél további összrajta, annál többet kell visszasétálni, és ezt nem a buszról szól.
-
 -----
 
 [Reel](https://www.instagram.com/reels/DTksA6Yicw4/)
