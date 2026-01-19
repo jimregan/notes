@@ -224,42 +224,52 @@ or a safe step *for them*.
 ## Line-by-line translation
 
 **Amikor egy csaj azt mondja, hogy „uh, nincs rajtam bugyi.”**
+
 When a girl says, “uh, I’m not wearing any underwear.”
 
 **Uhm, nem az olyan sejtelmes.**
+
 Mhm, that’s kind of suggestive.
 
 **Jó hallani.**
+
 Nice to hear.
 
 **Amikor a fiú mondja ezt, hogy „figyu, nincs rajtam gatya.”**
+
 When a guy says this — “hey, I’m not wearing any pants.”
 
 **Az inkább további kérdéseket vet föl.**
+
 That raises further questions instead.
 
 **„És mióta?”**
+
 “Since when?”
 
 **„Mire készülsz?”**
+
 “What are you preparing for?”
 
 **Ha egy nő mondja ezt, hogy nincs rajtam bugyi,**
+
 If a woman says she’s not wearing underwear,
 
 **akkor arra következtetsz, hogy biztos nagyon magas a libidója.**
+
 you conclude that she must have a very high libido.
 
 **Ha egy fiú mondja ezt, akkor az azt jelenti,**
+
 If a guy says it, then it means
 
 **hogy már otthon nem volt több tiszta.**
+
 that he already had no clean ones left at home.
 
 **Ez ilyen egyszerű.**
-It’s that simple.
 
----
+It’s that simple.
 
 ## Vocabulary (with minimal context)
 
@@ -279,7 +289,3 @@ It’s that simple.
 * **azt jelenti** – it means; explanatory frame
 * **tiszta (ruha)** – clean (laundry context)
 * **ez ilyen egyszerű** – it’s that simple; dismissive wrap-up
-
----
-
-If you paste the next one, I’ll keep **exactly** this format.
