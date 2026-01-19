@@ -142,14 +142,14 @@ if you think it through logically.
 
 [Reel](https://www.instagram.com/reels/DSt5M4ZgiZS/)
 
-szorúkötődők azok, akik leginkább belemennek szeretői visszanyogba,
-és valami olyan is mi történik, hogy elkezdik tapasztalni, hogy a pár kapcsolatából
-elkezd kiveszni az intézés, elkezd elmagányosodni, egyedül érzé magát a kapcsolatba,
-de egy szorúkötődőnek borzostó éjesztő egyedül lenni,
-viszont célelmetes az is, hogy megszakítsa a kapcsolatot,
-és ilyenkor egy külső személyi, akivel azt érzé, hogy na visszapletból tolva az intézési nem vagyok egyedül,
-vagy van egy alternatívám, ha megszakadna ez a kapcsolat, ami már elkezdett el kihülni,
-akkor lesz szóvató vábrépnem egy ilyen biztonságos megoldásnak tűnik, vagy biztonságos lépésnek a számukra.
+szo***gó kötődők azok, akik leginkább belemennek szeretői viszonyokba.
+És valami olyasmi történik, hogy elkezdik tapasztalni, hogy a párkapcsolatából
+elkezd kiveszni az in***tás. Elkezd elmagányosodni, egyedül érzi magát a kapcsolatban.
+De egy szo***gó kötődőnek borzastó ijesztő egyedül lenni.
+Viszont félelmetes az is, hogy megszakítsa a kapcsolatot,
+és ilyenkor egy külső személy, akivel azt érzi, hogy na vissza lett pótolva az in***tás, nem vagyok egyedül,
+vagy van egy alternatívám. Ha megszakadna ez a kapcsolat, ami már elkezdett kihülni,
+akkor lesz hova továbblépnem. Egy ilyen biztonságos megoldásnak tűnik, vagy biztonságos lépésnek a számukra.
 
 -----
 
