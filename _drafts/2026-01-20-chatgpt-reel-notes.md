@@ -1153,33 +1153,43 @@ We’ll see each other soon in the next episode. Bye!
 ### Line-by-line translation
 
 **Őszinte bocsánatkérés.**
+
 A sincere apology.
 
 **Mensi edition.**
+
 Period edition.
 
 **Őszintén szeretnék bocsánatot kérni minden empatikus férfitől, akiket mi nőként a menstruációnkkal megbántottunk.**
+
 I’d sincerely like to apologise to every empathetic man whom we, as women, have offended with our menstruation.
 
 **Nagyon sajnáljuk, hogy mi nem viseljük olyan hősiesen a fájdalmas görcsöket, mint ti a férfináthát, vagy azt, ha valaki nemet mond.**
+
 We’re very sorry that we don’t endure painful cramps as heroically as you endure the “man-flu” — or someone saying no.
 
 **Teljes mértékben a mi hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.**
+
 It’s entirely our fault that we decided we’d like to bleed for five days every month.
 
 **Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülessetek,**
+
 Even though our cycle makes it possible for you to be born too,
 
 **az ezzel járó hatalmas fájdalom viszont nagyon-nagyon sajnáljuk, hogy titeket egy icipicit érint.**
+
 we’re *so* sorry that the huge pain that comes with it affects you just a teeny bit.
 
 **Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frusztráltabban, már-már feszülten kísérjük azokat a fasságaitokat, amiket az egyéb napokon sem kellene igazából elviselnünk.**
+
 What I’d especially like to apologise for is that on those days we accompany your bullshit more frustratedly — almost tensely — the same bullshit we shouldn’t really have to put up with on other days either.
 
 **Kifejezetten igaza van annak a kommentelőnek, aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.**
+
 That commenter is absolutely right who said that our world is much safer in the hands of non-menstruating men.
 
 **Külön köszönetet szeretnék mondani azoknak a kedves férfiaknak, akik a kommentek között kiálltak a lányaikért, feleségeikért, anyáikért és a barátnőikért.**
+
 And special thanks to those kind men who, in the comments, stood up for their daughters, wives, mothers, and girlfriends.
 
 ### Vocabulary
