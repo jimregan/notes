@@ -12,81 +12,107 @@ categories: [hungarian, chatgpt, reels]
 ## Line-by-line translation
 
 **Mi az ott? Hol? Micsoda fenn a fán, látod?**
+
 What’s that there? Where? What is it up in the tree, do you see?
 
 **Ott mozog valami, biztos egy élőlény.**
+
 Something is moving there, it’s definitely a living creature.
 
 **Nem mondod… ha mozog, akkor mi más lehetne, mint egy élőlény?**
+
 You don’t say… if it moves, what else could it be but a living thing?
 
 **Akkor egy madár.**
+
 Then it’s a bird.
 
 **Nem a galambról beszélek, hanem arról ott.**
+
 I’m not talking about the pigeon, but about *that* one there.
 
 **Ja.**
+
 Oh.
 
 **Húha, szerintem egy mókus.**
+
 Whoa, I think it’s a squirrel.
 
 **Ekkora mókus nem létezik.**
+
 A squirrel that big doesn’t exist.
 
 **Akkor majom.**
+
 Then it’s a monkey.
 
 **Majmok nincsenek Dániában.**
+
 There are no monkeys in Denmark.
 
 **Márpedig majomnak néz ki, biztos elszabadult egy állatkertből.**
+
 Well, it looks like a monkey — it must have escaped from a zoo.
 
 **A legközelebbi állatkert 60 km-re van.**
+
 The nearest zoo is 60 km away.
 
 **Inkább valaki otthon tartott egy majmot, és megszökött.**
+
 More likely someone kept a monkey at home and it escaped.
 
 **Nem kéne hívnunk a rendőröket?**
+
 Shouldn’t we call the police?
 
 **És azok mit csinálnak vele? Letartóztatják?**
+
 And what would they do with it? Arrest it?
 
 **Valakinek csak kéne szólni, nem fogja kibírni a telet.**
+
 Someone really should be told — it won’t survive the winter.
 
 **A haverod nem állatorvos?**
+
 Isn’t your friend a vet?
 
 **De, de csak halakkal foglalkozik.**
+
 Yes, but only with fish.
 
 **Milyen halakkal?**
+
 What kind of fish?
 
 **Nem mindegy most?**
+
 Does it really matter now?
 
 **Komolyan, van bármi olyan válasz, amit ha mondtam volna, hasznos lenne nekünk a majom szempontjából?**
+
 Seriously, is there any answer you could have given that would be useful to us from the monkey’s point of view?
 
 **Viszont nekem van egy haverom, aki banánokat árul.**
+
 But I have a friend who sells bananas.
 
 **Nem vagyok éhes. Először oldjuk meg ezt a problémát.**
+
 I’m not hungry. Let’s solve this problem first.
 
 **És majd utána eszünk a banánt a majomnak.**
+
 And then we’ll give the banana to the monkey.
 
 **Gondoltam, először kapjuk el, és majd utána megetetjük.**
+
 I thought first we catch it, and then we feed it.
 
 **Az biztos, hogy ha egyszer elkapjuk, akkor majd jól kijöttök egymással.**
+
 One thing’s certain: if we ever catch it, you’ll get along well with each other.
 
 ## Vocabulary (contextual, no raw list)
