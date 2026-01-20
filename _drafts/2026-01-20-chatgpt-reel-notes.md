@@ -435,3 +435,227 @@ This is an especially useful attitude when learning a language.
 * **felszínes** – superficial
 * **elengedni** – to let go (mentally/emotionally)
 
+-----
+
+[Ep 102](https://www.youtube.com/watch?v=kdeWc0kfrDI)
+
+## Line-by-line translation
+
+**Szerencsére a magyarok nem csak a cifra káromkodásaikról, az alkoholizmusról és a pesszimizmusról híresek, hanem a vendégszeretetükről is.**
+Luckily, Hungarians are famous not only for their colourful swearing, alcoholism, and pessimism, but also for their hospitality.
+
+**Úgyhogy a mai részben a vendégeskedésről lesz szó.**
+So today’s episode will be about visiting people / having guests over.
+
+---
+
+**A magyarok általában nagyon szeretnek vendégeket hívni és vendégségbe menni.**
+Hungarians generally really like inviting guests and going to visit others.
+
+**Azt gondolom, hogy nem vagyunk egy túl spontán nép, és szeretjük előre megbeszélni, hogy mikor találkozunk és mit fogunk együtt csinálni.**
+I think we’re not a very spontaneous people, and we like to plan ahead when we’ll meet and what we’re going to do together.
+
+**Ha nagy összejövetelt tartunk — például valakinek szülinapja van, vagy együtt ünnepelünk valamit — akkor biztos, hogy már egy-két héttel előre le van fixálva az időpont.**
+If we’re having a bigger get-together — for example it’s someone’s birthday, or we’re celebrating something together — then it’s definitely fixed at least a week or two in advance.
+
+---
+
+**Az egy nagyon fontos, központi téma minden magyar életében, hogy mit fogunk enni.**
+A very important central topic in every Hungarian’s life is what we’re going to eat.
+
+**A magyarok általában nagyon sokat készülnek a vendégek érkezése előtt, és minimum háromfogásos ebéddel vagy vacsorával várnak.**
+Hungarians usually prepare a lot before guests arrive, and they’ll welcome you with at least a three-course lunch or dinner.
+
+**Van előétel, főétel és desszert.**
+There’s a starter, main course, and dessert.
+
+**Ha vendégek jönnek, akkor elővesszük a legszebb porcelánedényeket a vitrinből, amihez egész évben nem lehet hozzányúlni.**
+If guests are coming, we take out the nicest porcelain dishes from the display cabinet — the ones you can’t touch all year.
+
+**Szépen megterítjük az asztalt, és itallal meg valami rágcsálnivalóval várjuk a vendégeket, például sós mogyoróval és sajtos pogácsával.**
+We set the table nicely, and we welcome the guests with drinks and something to snack on — for example salted peanuts and cheese pogácsa.
+
+---
+
+**Biztos sok más országban vagy családban is van hasonló szokás, de őszintén szólva én ilyet még sehol nem tapasztaltam, csak Magyarországon.**
+I’m sure many other countries or families have a similar custom, but honestly I’ve never experienced it anywhere except Hungary.
+
+**Ha vendégségben voltam, még ha jó barátok vagytok és valakinél házibuli van, a házigazda mindig figyel rá, hogy van-e elég bor a poharadban, vagy kérsz-e még.**
+When I’ve been a guest — even if you’re good friends and it’s a house party at someone’s place — the host will always pay attention to whether there’s enough wine in your glass, or whether you want more.
+
+**Szóval ez nem egy formális dolog.**
+So this isn’t a formal thing.
+
+**Ha csak a szüleimhez mentem át ebédre, akkor is mindig az volt apukám első kérdése: „Mit iszol? Mit tölthetek?”**
+Even if I just went over to my parents’ for lunch, my dad’s first question was always: “What are you drinking? What can I pour you?”
+
+**Csillagvirágom.**
+My little starflower. *(pet name; affectionate address)*
+
+---
+
+**Szóval, ha jön hozzánk valaki, akkor biztos, hogy adunk neki valamit enni és inni akkor is, ha nem kér semmit.**
+So if someone comes to our place, we will definitely give them something to eat and drink even if they don’t ask for anything.
+
+**De igazából szerintem ezt minden magyar tudja: ez nem opció.**
+But honestly every Hungarian knows this: it’s not an option.
+
+**Fogsz kapni valamit enni és inni akkor is, ha nem vagy éhes, nem vagy szomjas, és nem kérsz semmit.**
+You’re going to get something to eat and drink even if you’re not hungry, not thirsty, and you don’t ask for anything.
+
+---
+
+**Nemcsak a házigazda készül, hanem egy kicsit a vendégek is.**
+Not only the host prepares — the guests do a little as well.
+
+**Ha vendégségbe megyünk, akkor illik vinni süteményt, valami nassolnivalót, vagy egy üveg bort.**
+If we’re going to someone’s place, it’s polite to bring cake/pastries, some snacks, or a bottle of wine.
+
+**Ha megkérdezed a házigazdát, hogy mit vigyek, akkor biztos azt fogja mondani: „csak magadat, vagy semmit”, de akkor is illik vinni valamit.**
+If you ask the host what you should bring, they’ll definitely say “just yourself” or “nothing”, but it’s still polite to bring something.
+
+**Nem kell sok minden: tényleg elég egy ital vagy egy kis nasi.**
+It doesn’t have to be much: a drink or a small snack really is enough.
+
+**Mert ha túl sok mindent viszel, azt fogják gondolni, hogy azt gondolod, hogy nem elég, amivel várnak.**
+Because if you bring too much, they’ll think you think what they’re offering isn’t enough.
+
+---
+
+**Nem azt mondom, hogy külföldön nem voltak velem kedvesek vagy nem fogadtak szívesen, de ilyen szintű vendéglátást nem tapasztaltam más országokban.**
+I’m not saying people abroad weren’t kind to me or didn’t welcome me, but I haven’t experienced hospitality at this level in other countries.
+
+**Egyébként ez egy kicsit veszélyes is: persze nagyon kedvesek a magyarok és nagyon szeretnének mindenkit megetetni, de az a tapasztalatom, hogy megjegyzik, ha valami nem volt tökéletes.**
+This is also a bit risky: sure, Hungarians are very kind and really want to feed everyone, but in my experience they do notice if something wasn’t perfect.
+
+**Nem gonoszan, nem rosszindulatból, csak észreveszik, ha nem olyan vendéglátást kaptak, amilyet adnának.**
+Not maliciously, not out of ill will — they just notice if they didn’t get the kind of hosting they would give.
+
+---
+
+**Van is több tévéműsor, ami a vendéglátásról szól: az egyik a Vacsoracsata, a másik a Hal a tortán.**
+There are even several TV shows about hosting: one is *Vacsoracsata*, the other is *Hal a tortán*.
+
+**Ezekben a műsorokban híres magyar emberek — celebek, színészek — vesznek részt.**
+In these shows, famous Hungarians — celebs, actors — take part.
+
+**Öten vannak, és minden nap elmennek valakihez vendégségbe, aki vacsorával várja őket.**
+There are five of them, and every day they go to someone’s place, who welcomes them with dinner.
+
+**Kell csinálni előételt, főfogást és desszertet, kell készülni vendégváró italokkal, rágcsálnivalóval, ajándékkal, és vacsora után valamilyen előadással is, amivel szórakoztatod a vendégeket.**
+You have to make a starter, a main course, and dessert; you also have to prepare welcome drinks, snacks, a gift, and after dinner some kind of “performance” to entertain the guests.
+
+**A vacsora után a vendégek pontoznak: 1-től 10-ig adnak pontot a házigazdának, attól függően, mennyire érezték jól magukat, és mennyire volt finom az étel.**
+After dinner the guests score the host: they give points from 1 to 10 depending on how much they enjoyed themselves and how tasty the food was.
+
+**A végén az nyer, aki a legtöbb pontot kapta.**
+In the end, whoever got the most points wins.
+
+---
+
+**Ebben a műsorban nagyon sokan extrán kritikusak.**
+In this show, many people are extra critical.
+
+**Emlékszem egy részre, ahol az egyik színésznő azt mondta, hogy minden finom volt, jól érezte magát, minden tökéletes volt, de nem volt elég tiszta a pohara, ezért csak 8 pontot ad.**
+I remember an episode where one actress said everything was tasty, she had a great time, everything was perfect — but her glass wasn’t clean enough, so she only gives 8 points.
+
+**Szóval a magyaroknak tényleg minden kritérium nagyon fontos, ha vendégfogadásról van szó.**
+So for Hungarians, every criterion really matters when it comes to hosting.
+
+**Az asztal, a díszek, a teríték, az ételek — de az egyik legfontosabb, hogy mennyire figyel a házigazda a vendégekre.**
+The table, the decorations, the place settings, the food — but one of the most important things is how much attention the host pays to the guests.
+
+---
+
+**Én még soha nem találkoztam olyan magyar házigazdával, aki ne kérdezte volna meg tőlem minimum ötször, hogy „tölthetek még?”**
+I’ve never met a Hungarian host who didn’t ask me at least five times: “Can I pour you some more?”
+
+**Magyarországon nem marad sokáig üres a poharad, ha vendégségben vagy — az biztos.**
+In Hungary your glass doesn’t stay empty for long if you’re a guest — that’s for sure.
+
+**Az is nagyon gyakori kérdés, hogy „szedhetek még?”**
+Another very common question is “Can I give you some more?” / “Want another helping?”
+
+**Ha üres a tányérod, már mindent megettél és tele vagy, akkor is biztos meg fogja kérdezni valaki.**
+Even if your plate is empty, you’ve eaten everything, and you’re full, someone will definitely still ask.
+
+**Persze lehet mondani: „köszönöm szépen, nem kérek, minden nagyon finom volt, de tele vagyok.”**
+Of course you can say: “Thank you, no thanks, everything was very tasty, but I’m full.”
+
+**Valószínűleg ezt többször is el kell mondani — nem biztos, hogy egyszer elég lesz.**
+You’ll probably have to say it more than once — it might not be enough just once.
+
+---
+
+**Nem tudom, hogy ez általánosságban igaz-e, de nekem az a tapasztalatom, hogy ha bent eszünk a házban, akkor inkább a nők főznek és készülnek.**
+I don’t know if this is generally true, but my experience is that if we’re eating inside the house, it’s mostly the women who cook and prepare.
+
+**Ha valakinek kertes háza van, és sütögetés lesz vagy bográcsozás, akkor inkább a férfiak.**
+If someone has a house with a garden and there’s grilling or cooking in a cauldron, then it’s mostly the men.
+
+**Én így vettem észre.**
+That’s how I’ve noticed it.
+
+---
+
+**Nagyon hiányzik a bográcsozás: amikor egy nagy bográcsban gulyáslevest, babgulyást vagy pörköltet készítünk.**
+I really miss bográcsozás — when we make goulash soup, bean goulash, or stew in a big cauldron.
+
+**Évek óta nem voltam igazi magyar sütögetésen; már kerestem bográcsot Amazonon, és biztos, hogy fogok rendelni.**
+I haven’t been to a real Hungarian cookout in years; I’ve already been looking for a cauldron on Amazon, and I’m definitely going to order one.
+
+---
+
+**Amikor vége van az ebédnek vagy vacsorának, indulás előtt a házigazda még csomagol mindenkinek ennivalót.**
+When lunch or dinner is over, before you leave the host will still pack some food for everyone.
+
+**Senki nem érkezik üres kézzel, és nem távozik üres kézzel.**
+No one arrives empty-handed, and no one leaves empty-handed.
+
+**A végén illik azt mondani, hogy „köszönöm a vendéglátást”.**
+At the end it’s polite to say: “Thank you for the hospitality.”
+
+**Ha többen voltunk vendégek barátokkal vagy a családunkkal, akkor többes számban mondjuk: „köszönjük a vendéglátást”.**
+If we were there as a group (friends/family), we say it in the plural: “Thank you (plural) for the hospitality.”
+
+**Utána hazamegyünk, és két napig a maradékot esszük, amit kaptunk.**
+Then we go home and for two days we eat the leftovers we were given.
+
+**Na, hát kb. ilyen vendégségbe menni.**
+So yeah — that’s roughly what it’s like to go to someone’s place in Hungary.
+
+---
+
+## Vocabulary (with context)
+
+* **szerencsére** – luckily
+* **cifra káromkodás** – colourful / elaborate swearing
+* **híres vmiről** – famous/known for something
+* **vendégszeretet** – hospitality (trait)
+* **vendégeskedés** – being a guest / hosting-visiting as a practice
+* **vendéget hív / vendégségbe megy** – invite guests / go as a guest
+* **spontán nép** – spontaneous people (self-characterisation)
+* **előre megbeszél / lefixál** – arrange in advance / fix a date (informal)
+* **összejövetel** – get-together
+* **szülinap** – birthday (informal)
+* **mit fogunk enni** – what we’ll eat (central planning question)
+* **készül vmi előtt** – prepare ahead of something
+* **háromfogásos** – three-course
+* **előétel / főétel / desszert** – starter / main / dessert
+* **elővesz / vitrin** – take out / display cabinet
+* **hozzányúlni** – touch/handle (often “forbidden” household item)
+* **megterít** – set the table
+* **rágcsálnivaló / nassolnivaló** – nibbles / snacks
+* **pogácsa** – savoury scone/biscuit (Hungarian staple)
+* **házigazda** – host
+* **figyel rá, hogy…** – keep an eye on whether…
+* **poharad** – your glass (informal 2sg possessive)
+* **tölthetek még?** – can I pour you more? (drink)
+* **szedhetek még?** – can I give you another helping? (food)
+* **illik** – it’s proper / expected (social norm)
+* **üres kézzel** – empty-handed
+* **csomagol ennivalót** – pack food to take away
+* **köszönöm / köszönjük a vendéglátást** – thanks / thank you (plural) for the hospitality
+* **maradék** – leftovers
+
+If you want the next chunk, paste it the same way.
