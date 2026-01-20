@@ -1152,16 +1152,18 @@ We’ll see each other soon in the next episode. Bye!
 
 őszinte bocsánatkérés
 
+mensi edition
+
 Őszintén szeretnék bocsánatot kérni minden empatikus férfitől,
-akiket mi nőként a menstruációnkal megbántottunk.
-Nagyon sajnáljuk, hogy mi nem viseljük olyan hőséesen a fájdalmas görcsöket,
-mint ti a férfinát hát, vagy azt, ha valaki nemet mondt.
-Eljésmértékben ami hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.
-Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülesetek,
-az ezzel járó hatalmas fájdalom, viszont nagyon-nagyon sajnáljuk, hogy titeket egy kicsi picit érint.
-Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frustráltabban
-már-már feszültünk is elők azokat a fasságaitokat, amiket az egyéb napokon sem kell ennél igazából elviselni.
+akiket mi nőként a menstruációnkkal megbántottunk.
+Nagyon sajnáljuk, hogy mi nem viseljük olyan hősiesen a fájdalmas görcsöket,
+mint ti a férfináthát, vagy azt, ha valaki nemet mond.
+Teljés mértékben mi hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.
+Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülessetek,
+az ezzel járó hatalmas fájdalom viszont nagyon-nagyon sajnáljuk, hogy titeket egy icipicit érint.
+Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frusztráltabban
+már-már feszülten kisérjük azokat a fasságaitokat, amiket az egyéb napokon sem kellene igazából elviselnünk.
 Kifejezetten igaza van annak a kommentelőnek,
 aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.
-Különköszönhetett szeretnék mondani azoknak a kedves férfiaknak,
-akik a kommentek között kiáltak a lányai kért, feleségei kért, anyai kért és a barátnői kért.
+Külön köszönetet szeretnék mondani azoknak a kedves férfiaknak,
+akik a kommentek között kiálltak a lányaikért, feleségeikért, anyaikért és a barátnőikért.
