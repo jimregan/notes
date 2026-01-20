@@ -582,30 +582,36 @@ and I think they would get along well with each other.
 ## Line-by-line translation
 
 **Tehát, amikor kérdezték gyerekkoromban, hogy „Mivel foglalkozik az apukám?”**
+
 So when they asked me in my childhood, “What does your dad do?”
 
 **Mondtam, hogy költő.**
+
 I said he’s a poet.
 
 **„Oh, sajnálom, már meghalt?”**
+
 “Oh, I’m sorry — has he already died?”
 
 **Anyámnak volt ugye ez a mondata, hogy „30 fölött a nő láthatatlan.”**
+
 My mum had this saying, you know: “Above 30, a woman is invisible.”
 
 **Tehát, hogyha nincs melle,**
+
 So if she doesn’t have breasts,
 
 **akkor gimi után, 30 előtt,**
+
 then after high school and before 30,
 
 **pontosan 12 évig látható.**
+
 she is visible for exactly 12 years.
 
 **Ezt kell kihasználni.**
-That’s what you have to make use of.
 
----
+That’s what you have to make use of.
 
 ## Vocabulary (with minimal context)
 
@@ -623,9 +629,6 @@ That’s what you have to make use of.
 * **gimi után** – after high school
 * **pontosan** – exactly
 * **kihasznál** – take advantage of / exploit (an opportunity)
-
-If you paste the next one, I’ll keep exactly this format.
-
 
 -----
 
