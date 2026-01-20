@@ -574,3 +574,13 @@ and I think they would get along well with each other.
 * **meglepi** – surprise; colloquial
 * **példaértékű** – exemplary, model-like
 * **jól kijön vkivel** – get along well with someone
+
+-----
+
+[Reel](https://www.instagram.com/reel/DSFxhDziAjB/)
+
+[00:00.000 --> 00:05.000]  Tehát amikor kérdették, érekorom magam, hogy kivel foglalkozva az apuká, mondtam, hogy költők.
+[00:05.000 --> 00:08.000]  Oh, sajnálat, meg hallgatok.
+[00:11.000 --> 00:16.000]  Anya, most volt, hogy ez a mondattal, hogy Hargyis költ a nő láttatlan.
+[00:16.000 --> 00:22.000]  Tehát, hogyha nincs mellek, akkor Vimyuk át hallgatok szeret, de pontosan tizen készen is látható.
+[00:22.000 --> 00:24.000]  Ezt kezdj el a támogat.
