@@ -1152,16 +1152,16 @@ We’ll see each other soon in the next episode. Bye!
 
 őszinte bocsánatkérés
 
-[00:00.000 --> 00:03.100]  Őszintén szeretnék bocsánatot kérni minden empatikus férfitől,
-[00:03.100 --> 00:05.900]  akiket mi nőként a menstruációnkal megbántottunk.
-[00:05.900 --> 00:09.400]  Nagyon sajnáljuk, hogy mi nem viseljük olyan hőséesen a fájdalmas görcsöket,
-[00:09.400 --> 00:11.900]  mint ti a férfinát hát, vagy azt, ha valaki nemet mondt.
-[00:11.900 --> 00:17.700]  Eljésmértékben ami hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.
-[00:17.700 --> 00:21.100]  Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülesetek,
-[00:21.100 --> 00:25.900]  az ezzel járó hatalmas fájdalom, viszont nagyon-nagyon sajnáljuk, hogy titeket egy kicsi picit érint.
-[00:25.900 --> 00:30.000]  Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frustráltabban
-[00:30.000 --> 00:35.700]  már-már feszültünk is elők azokat a fasságaitokat, amiket az egyéb napokon sem kell ennél igazából elviselni.
-[00:35.700 --> 00:37.900]  Kifejezetten igaza van annak a kommentelőnek,
-[00:37.900 --> 00:43.000]  aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.
-[00:43.000 --> 00:46.000]  Különköszönhetett szeretnék mondani azoknak a kedves férfiaknak,
-[00:46.000 --> 00:52.100]  akik a kommentek között kiáltak a lányai kért, feleségei kért, anyai kért és a barátnői kért.
+Őszintén szeretnék bocsánatot kérni minden empatikus férfitől,
+akiket mi nőként a menstruációnkal megbántottunk.
+Nagyon sajnáljuk, hogy mi nem viseljük olyan hőséesen a fájdalmas görcsöket,
+mint ti a férfinát hát, vagy azt, ha valaki nemet mondt.
+Eljésmértékben ami hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.
+Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülesetek,
+az ezzel járó hatalmas fájdalom, viszont nagyon-nagyon sajnáljuk, hogy titeket egy kicsi picit érint.
+Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frustráltabban
+már-már feszültünk is elők azokat a fasságaitokat, amiket az egyéb napokon sem kell ennél igazából elviselni.
+Kifejezetten igaza van annak a kommentelőnek,
+aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.
+Különköszönhetett szeretnék mondani azoknak a kedves férfiaknak,
+akik a kommentek között kiáltak a lányai kért, feleségei kért, anyai kért és a barátnői kért.
