@@ -634,17 +634,82 @@ That’s what you have to make use of.
 
 [Reel](https://www.instagram.com/reels/DTGXCugjvRD/)
 
-"Aha, aha... Jön, igen...
-Csak a szűk baráti kör, 37-en...
-Nem... Nem... Nem mind szerelmes belém közülük 
-Elmény szörelmetlenül kövülük, csak 32-en...
-Ja, hogy te vagy a 33.?
-Ne haragudj..."
-Tarisznyás oldalép, szerintem őt nem b*sztam át.
-"Szia, ne üllj már itt egyedül a lépcsőn. ülj oda hozzánk!"
-"Most le kell tennem, majd visszahívlak."
-Állítólag. Még soha senkit nem szólított így le
-a tarisznyás hippi,
-csak engem meglátott, belém szeretett,
-és akkor a haverjai meg azt mondták neki, hogy: "Menjen haza,
-csatolja fel a f*szát, jöjjön vissza és szólítson meg!
+## Line-by-line translation
+
+**„Aha, aha… jön, igen…”**
+“Uh-huh, uh-huh… it’s coming, yeah…”
+
+**„Csak a szűk baráti kör, harmincheten…”**
+“Just the close circle of friends, thirty-seven of them…”
+
+**„Nem… nem… nem mind szerelmes belém közülük.”**
+“No… no… not all of them are in love with me.”
+
+**„Elmény szerelem nélkül közülük, csak harmincketten…”**
+“Purely platonic among them — only thirty-two…”
+
+**„Ja, hogy te vagy a harmincharmadik?”**
+“Oh, so *you’re* the thirty-third?”
+
+**„Ne haragudj…”**
+“Sorry…”
+
+---
+
+**Tarisznyás oldalép, szerintem őt nem b*sztam át.**
+Bag-wearing side character — I don’t think I screwed *him* over.
+
+---
+
+**„Szia, ne ülj már itt egyedül a lépcsőn. Ülj oda hozzánk!”**
+“Hey, don’t sit here alone on the steps. Come sit with us!”
+
+**„Most le kell tennem, majd visszahívlak.”**
+“I have to hang up now, I’ll call you back.”
+
+---
+
+**Állítólag.**
+Supposedly.
+
+**Még soha senkit nem szólított így le a tarisznyás hippi,**
+Apparently the bag-wearing hippy has never chatted anyone up like this before,
+
+**csak engem meglátott, belém szeretett,**
+he saw *only me* and fell in love,
+
+**és akkor a haverjai meg azt mondták neki, hogy:**
+and then his friends told him:
+
+**„Menjen haza, csatolja fel a f*szát,**
+“Go home, strap your dick back on,
+
+**jöjjön vissza és szólítson meg!”**
+come back, and approach her!”
+
+---
+
+## Vocabulary (with minimal context)
+
+* **aha** – uh-huh; acknowledgement filler
+* **jön** – it’s coming / it’s happening; vague anticipation
+* **szűk baráti kör** – close circle of friends
+* **szerelmes belém** – in love with me
+* **szerelem nélkül** – without romance; platonic
+* **ne haragudj** – sorry; soft apology
+* **oldalép** – side character; slang/metaphorical
+* **tarisznyás** – bag-wearing; descriptive, slightly mocking
+* **b*sztam át** – screwed over / deceived; vulgar slang
+* **szia** – hi; informal greeting
+* **ne … már** – “don’t … already”; impatience/encouragement softener
+* **leül / ülj oda** – sit down / sit over there
+* **le kell tennem** – I have to hang up (a call)
+* **visszahívlak** – I’ll call you back
+* **állítólag** – allegedly / supposedly; distancing marker
+* **leszólít** – chat someone up; approach a stranger
+* **hippi** – hippie; colloquial label
+* **haverok** – mates / buddies
+* **csatolja fel** – strap on / fasten on; crude imperative
+* **szólítson meg** – approach / address someone
+
+If you paste the next one, I’ll keep **this exact format**.
