@@ -1380,22 +1380,22 @@ Even the baby hairs couldn’t stick out — those had to be gelled down.
 
 [Reel](https://www.instagram.com/reels/DSLFw45jYxK/)
 
-Ez itt a napontomás leves, ahol a főzés terápia a végeredmény pedig gyógyír.
-Ez a sorozat arról szól, hogy nem csak a sandwich, de a leves is lehet főszereplő.
-A mai leves, a genisz marharagú.
-Ez a leves egy szimpla marharagú is lehet, ne viszont a végén kiderül, hogy nem csak a genisz az egyéblen csavar benne.
-Rengeteg zöldséget darabalunk, rép a fehér, rép a zeller, szár és gumó, póré, hagyma, gomba.
-A kezdéshez előkészítjük a zsírszalonát és felkockázzuk a marhacombot is.
-Kiholvasztjuk a szalonna zsírját, amin megpirítjuk a húsokat, majd félre is tesszük.
-Ekkor mellett bele a hagyma, és egyben látszik, hogy az edény aljáról felszili a pörse nyagot.
-Jöhet hozzá a fokhagyma, majd a répák zellerek pár perc múlva a póréhagyma, majd kevésre később a gomba.
-Fűszerként kakuk, fű, piros paprikon borst kerül bele. Két ebő kanál paradigcsom pürét lepirítunk és így méter tovarjuk.
-Ezt követően jöhet az íreg büszkesége, a genisz, amely kávést csok is karamellás földes egyekkel tulgozzal levest.
-Ezen a pontom visszatesszük a húst, felöntjük a laplével, és természetesen belekerül az elmarathatatlan, babérlevél is.
-Innentől bőkét óra miracom megpukulsz, szóval addig megmutatom a dobozós genisz helyes csapalási technikáért, hogy lefoglaljuk magunkat.
-Fun fact, hogy a dobozban lévők is nitrogengójó 91-ben az év találmány alatt. Ugyanabban az évben, amikor a modern internet elindult.
-34 év távlatából is teljesen érthetődöntés.
-Itt jegyzném meg, hogy a csatornának még nincs hivatalossra, szóval én a genisz marketingesei helyében nem tétlenkednék.
-És a végé jönnek az igazi finomságok, amik olyan különlegesét teszik ezt a levest, hogy bármelyik Dublinipátban megállná a helyét.
-Mikor a húsmer szét omlik nyomunk bele egy vőevő kanál borcsester szóz, tejszín, párkocka vagyat, apróra vágott petrezselymet és citromhéjat reszelünk bele.
-A végeredményre pedig a genisz házban is elégedett tentsettingtenének.
+Ez itt a napont amás leves, ahol a főzés terápia, a végeredmény pedig gyógy ír.
+Ez a sorozat arról szól, hogy nemcsak a szenvics, de a leves is lehet főszereplő.
+A mai leves, a Guinness marharagú.
+Ez a leves egy szimpla marharagú is lehetne, viszont a végén kiderül, hogy nemcsak a Guinness az egyetlen csavar benne.
+Rengeteg zöldséget darabalunk. Répa, fehérrépa, zellerszár és gumó, póréhagyma, gomba.
+A kezdéshez előkészítjük a zsírszalonnát és felkockázzuk a marhacombot is.
+Kiolv aszt juk a szalonna zsírját. Amin megpirítjuk a húsokat, majd félre is tesszük.
+Ekkor mehet bele a hagyma, és egybol látszik, ahogy az edény aljáról felszedi a pörsany agot.
+Jöhet hozzá a fokhagyma, majd a répák zellerek, pár perc múlva a póréhagyma, majd kevéssel később a gomba.
+Fűszerként kakukkfű, pirospaprika, bors kerül bele. Két evőkanál paradicsompürét lepirítunk és ismet átkavarjuk.
+Ezt követően jöhet az írek büszkesége, a Guinness, amely kávés, csokis, karamellás, földes jegyekkel turbózza a levest.
+Ezen a ponton visszatesszük a húst. Felöntjük a laplével, és természetesen belekerül az elmaradhatatlan, babérlevél is.
+Innentől bő két óra mire a comb megpuhulm, szóval addig megmutatom a dobozós Guinness helyes csapolási technikáját. Hogy lefoglaljuk magunkat.
+Fun fact, hogy a dobozban lévő kis nitrogen gólyó 91-ben az év találmány a lett. Ugy anabban az évben, amikor a modern internet elindult.
+34 év távlatából is teljesen érthető döntés.
+Itt jegyezném meg, hogy a csatornának még nincs hivatalos söre. Szóval én a Guinness marketingesei helyében nem tétlenkednék.
+És a végén jönnek az igazi finomságok, amik olyan különlegesse teszik ezt a levest, hogy bármelyik Dublini pubban megállná a helyét.
+Mikor a hús már szétomlik nyomunk bele egy bő evevőkanál Worcester szószt, tejszínt, pár kocka vajat, apróra vágott petrezselymet és citromhéjat reszelünk bele.
+A végeredményre pedig a Guinness-házban is elégedetten csettintenének.
