@@ -634,16 +634,17 @@ That’s what you have to make use of.
 
 [Reel](https://www.instagram.com/reels/DTGXCugjvRD/)
 
-Aha, aha, jönnem, jönnem, jönnem!
-Csak a szűk barálti kövv 37-ben.
-Igen, ne, ne.
-Elmény szörelmetlenül kövülük, csak 30-ken.
-Én hozottam, hogy a 33-k, ahogy úgy...
-Tariszniás oldalék, szerintem ő nem a f***nál.
-Sziag, lejövd már egyedül a lépcsőn, ő joda hozzánk.
-És ne kellett engem, majd isz a hívak.
-Állítólag, még soha senki nem szólított így a
-tariszniás hútti.
-Csak ennyire meglátott, belém szeretett,
-és ha velegy meg azt monddák neki, hogy mennyi a haza,
-csak olyozal a f***nál kövül a viszlő szülésre menni.
+"Aha, aha... Jön, igen...
+Csak a szűk baráti kör, 37-en...
+Nem... Nem... Nem mind szerelmes belém közülük 
+Elmény szörelmetlenül kövülük, csak 32-en...
+Ja, hogy te vagy a 33.?
+Ne haragudj..."
+Tarisznyás oldalép, szerintem őt nem b*sztam át.
+"Szia, ne üllj már itt egyedül a lépcsőn. ülj oda hozzánk!"
+"Most le kell tennem, majd visszahívlak."
+Állítólag. Még soha senkit nem szólított így le
+a tarisznyás hippi,
+csak engem meglátott, belém szeretett,
+és akkor a haverjai meg azt mondták neki, hogy: "Menjen haza,
+csatolja fel a f*szát, jöjjön vissza és szólítson meg!
