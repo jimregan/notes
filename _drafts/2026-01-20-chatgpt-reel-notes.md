@@ -689,312 +689,410 @@ So yeah — that’s roughly what it’s like to go to someone’s place in Hung
 
 [Ep 147](https://www.youtube.com/watch?v=paES2-rX1gY)
 
-
 ### Line-by-line translation
 
 **Mi az az öt dolog, amit a legjobban és a legkevésbé szeretek Magyarországon, a politikát elkerülve?**
+
 What are the five things I like the most and the least in Hungary, avoiding politics?
 
 **Nehéz lesz öt negatív dolgot mondani politika nélkül, mert főleg az az oka annak, ha valaki nem szeret valamit Magyarországon.**
+
 It’ll be hard to name five negative things without politics, because that’s mostly the reason people don’t like something in Hungary.
 
 **De megpróbálom.**
+
 But I’ll try.
 
 **Sziasztok!**
+
 Hi everyone!
 
 **Én Sziszi vagyok, magyar mint idegennyelv-tanár, és ez itt a Hungarian with Sziszi podcast, magyarul tanulóknak.**
+
 I’m Sziszi, a teacher of Hungarian as a foreign language, and this is the Hungarian with Sziszi podcast for learners of Hungarian.
 
 **A mai epizód témáját köszönöm szépen Gregnek, egy kedves Vizsla tagnak Patreonon.**
+
 Thanks to Greg for today’s episode topic — a kind “Vizsla” member on Patreon.
 
 **Kezdjük is az öt dologgal, amit a legjobban szeretek az országomban.**
+
 Let’s start with the five things I love most about my country.
 
 **Az első helyen van az ország sokszínűsége.**
+
 In first place is the country’s diversity.
 
 **Nagyon szeretem a nyüzsgő Budapestet, a sok híddal, kulturális programmal.**
+
 I really love lively Budapest, with its many bridges and cultural events.
 
 **Gyönyörű a hortobágyi puszta, ahol a legnagyobb csend van a világon, és a legcukibb szürke szarvasmarhák.**
+
 The Hortobágy plain is beautiful — the greatest silence in the world, and the cutest grey cattle.
 
 **Imádom a Balaton környékét a legszebb naplementékkel a tónál és a legjobb borkóstolókkal.**
+
 I adore the Balaton area, with the most beautiful sunsets by the lake and the best wine tastings.
 
 **Nagyon sok szép kirándulóhely is van: sok aranyos kis falu, kisvasút, erdők, tavak, folyók, termálfürdők, barlangok, várak, kastélyok, fesztiválok — van minden.**
+
 There are so many beautiful places to hike: cute little villages, narrow-gauge railways, forests, lakes, rivers, thermal baths, caves, castles, manor houses, festivals — there’s everything.
 
 **Annyira sok mindent lehet csinálni, és sok szép helyet lehet felfedezni.**
+
 There’s so much you can do, and so many beautiful places to discover.
 
 **Ide kapcsolódik talán kicsit a következő dolog is, amit szeretek: az, hogy van négy évszak.**
+
 Related to that is the next thing I love: that we have four seasons.
 
 **Tudom, hogy sok ember azt mondja, hogy már nincs négy évszak Magyarországon sem.**
+
 I know many people say Hungary doesn’t really have four seasons anymore either.
 
 **Nyilván ez sokat változott ahhoz képest, mint kiskoromban volt, de ez teljesen attól függ, hogy mihez hasonlítjuk.**
+
 Obviously it’s changed a lot compared to my childhood, but it fully depends on what you compare it to.
 
 **Most El Pasóban lakom, Texasban: ott 10 hónap nyár van, 1 hét ősz és 2 hónap tél.**
+
 I live in El Paso, Texas now: there it’s 10 months of summer, one week of autumn, and two months of winter.
 
 **Én mondhatom, hogy nálunk nincs négy évszak — ehhez képest Magyarországon van.**
+
 So *I* can say we don’t have four seasons — compared to that, Hungary does.
 
 **Nagyon szép a tavasz.**
+
 Spring is very beautiful.
 
 **Ebben az évben tavasszal mentem haza látogatóba, és annyira szép idő volt szinte végig.**
+
 This year I went home to visit in spring, and the weather was so nice almost the whole time.
 
 **Amikor hidegebb, esősebb napok voltak, akkor sem volt túl hideg; szerintem kellemes volt, mindig virágillat volt a levegőben, gyönyörű zöld volt minden, virágoztak a fák.**
+
 Even on colder, rainier days it wasn’t too cold; it felt pleasant to me, the air always smelled like flowers, everything was beautifully green, and the trees were in bloom.
 
 **Az előző három évben pedig ősszel mentem, és akkor is nagyon szép volt: színes falevelek mindenhol, esőillat — úgyhogy ezt nagyon szeretem.**
+
 And in the previous three years I went in autumn, and that was beautiful too: colourful leaves everywhere, the smell of rain — so I really love that.
 
 **A harmadik pozitívum a budapesti tömegközlekedés.**
+
 The third positive is Budapest public transport.
 
 **Budapesten nagyon jól működik a tömegközlekedés.**
+
 Public transport works very well in Budapest.
 
 **Aki panaszkodik rá, az szerintem még nem volt más országban, vagy nem tudom.**
+
 Anyone who complains about it, in my opinion, hasn’t been to other countries — or I don’t know.
 
 **Tényleg jó a budapesti közlekedés: jön minden gyorsan, van villamos, busz, metró.**
+
 Budapest transport is genuinely good: everything comes quickly, there are trams, buses, metro.
 
 **A 4–6-os villamos jár egész este, 0–24, és vannak éjszakai buszok is.**
+
 Tram 4–6 runs all night, 24/7, and there are night buses too.
 
 **Van roller, bicikli és autómegosztó szolgáltatás is.**
+
 There are scooters, bikes, and car-sharing too.
 
 **Nagyon egyszerű alkalmazáson keresztül bármelyiket lehet használni, azonnal nagyon királyul működik a BudapestGO alkalmazás is.**
+
 You can use any of them through a very simple app, and the BudapestGO app works really great right away too.
 
 **Amin keresztül lehet venni jegyet vagy bérletet — tök jó rendszer van.**
+
 Through it you can buy a ticket or a pass — it’s a really good system.
 
 **És a mai árakhoz képest nem is annyira drága szerintem.**
+
 And compared to today’s prices, I don’t even think it’s that expensive.
 
 **Minden járművön van QR-kód, és ha beolvasod a telefonoddal, akkor mindig valami más animációt mutat, hogy ne lehessen csalni.**
+
 Every vehicle has a QR code, and if you scan it with your phone it shows a different animation each time so you can’t cheat.
 
 **Emlékszem, amikor régen tollal írtam rá a személyi számomat a bérletemre — szóval ja.**
+
 I remember when I used to write my ID number on my pass with a pen — so yeah.
 
 **Soha nem volt problémám a budapesti tömegközlekedéssel, és én nagyon szeretem.**
+
 I’ve never had a problem with Budapest public transport, and I really like it.
 
 **Főleg a karácsonyi fényvillamost és a piros trolibuszokat.**
+
 Especially the Christmas “light tram” and the red trolleybuses.
 
 **És a legszebb a 2-es villamos útvonala a Duna mentén.**
+
 And the most beautiful is tram 2’s route along the Danube.
 
 **A negyedik dolog, amit szeretek Magyarországon, az az, hogy tök sok hangulatos, kiülős és beülős hely van.**
+
 The fourth thing I like about Hungary is that there are tons of atmospheric places where you can sit outside or inside.
 
 **Négy éve költöztem el; azóta nagyon sok új hely lett, és sok kedvenc helyem bezárt.**
+
 I moved away four years ago; since then many new places have appeared, and many of my favourites have closed.
 
 **De a hangulat nem változott Budapesten; talán csak még jobb lett, mert a rakparton is lett sok új hely.**
+
 But the vibe hasn’t changed in Budapest — maybe it’s even gotten better, because lots of new places appeared along the riverside too.
 
 **Mindenhol lehet találni jó cukrászdát, pékséget, kávézót, romkocsmát, éttermet, kifőzdét.**
+
 Everywhere you can find a good cake shop, bakery, café, ruin pub, restaurant, or canteen-style place.
 
 **Amikor két éve hazajöttem látogatóba, elmentünk a családommal Egerbe, Szépasszonyvölgyébe, ahol kb. 200 borospince van.**
+
 When I came home to visit two years ago, I went with my family to Eger, to the Valley of the Beautiful Woman, where there are about 200 wine cellars.
 
 **Nagyon hangulatos kis helyekkel borkóstolásra; hazafelé pedig sütiztünk egy cukrászdában.**
+
 With very cosy little places for wine tasting; and on the way home we had cake in a pastry shop.
 
 **Úgyhogy ezt imádom: hogy süti, kávé és bor mindig van — akkor is, ha épp nem vágyom egyikre sem; csak jó érzés tudni, hogy ez a három dolog biztosan mindig mindenhol van Magyarországon.**
+
 So I love this: that cake, coffee, and wine are always available — even if I don’t crave any of them; it just feels good to know those three things are always everywhere in Hungary.
 
 **Az ötödik dolog a listámon pedig a magyar összefogás.**
+
 The fifth thing on my list is Hungarian solidarity / people pulling together.
 
 **Az utóbbi években sokszor volt rá példa, hogy nagyon össze tudnak fogni az emberek, ha szükség van rá.**
+
 In recent years there have been many examples of people really being able to come together when needed.
 
 **Rengeteg gyönyörű és megható történet van.**
+
 There are lots of beautiful and moving stories.
 
 **Nagyon szép, hogy mennyire szeretnek segíteni a magyarok.**
+
 It’s really nice how much Hungarians like to help.
 
 **Csak hogy mondjak pár példát: amikor 2020-ban az Index sok újságírója felmondott, nagyon sok ember támogatta őket.**
+
 Just to give a few examples: when many Index journalists resigned in 2020, a lot of people supported them.
 
 **Rengetegen adtak pénzt azért, hogy új oldalt indítsanak; így lett a telex.hu, hogy lehessen független sajtó.**
+
 Many people donated money so they could start a new site; that’s how telex.hu came about, so that independent press could exist.
 
 **Többször volt rá példa, hogy súlyosan beteg kisgyerekeknek több százmillió forintra volt szükségük, hogy külföldi gyógyszert vagy kezelést kapjanak, és tízezrek adakoztak, és sok kicsi adományból összegyűlt a pénz.**
+
 There have also been many cases where seriously ill children needed hundreds of millions of forints to receive medicine or treatment abroad, and tens of thousands donated — and from many small donations the money was raised.
 
 **Rengetegen segítettek az Ukrajnából érkező menekülteken: sok civil szervezet és önkéntesek is.**
+
 Many people helped refugees arriving from Ukraine, including many NGOs and volunteers.
 
 **Nagyon sok gyűjtés van mindig országszerte szegényeknek, gyerekeknek: ételgyűjtő akciók, ételmentés, karácsonyi cipős doboz akció.**
+
 There are always lots of collections around the country for poor people and for children: food-collection drives, food rescue, and the Christmas shoebox campaign.
 
 **Amikor szegény gyerekeknek lehet küldeni ajándékokat.**
+
 Where you can send gifts to poor children.
 
 **Lehet, hogy nem a mosoly jut eszedbe először a magyarokról.**
+
 A smile might not be the first thing that comes to mind about Hungarians.
 
 **Lehet, hogy a szájukkal nem mindig mosolyognak, de a tetteikkel igen.**
+
 Maybe they don’t always smile with their mouths, but they do with their actions.
 
 **Szerintem ez a sztereotípia is rengeteget változott, és sokkal kedvesebbek és mosolygósabbak lettek az emberek. Én így vettem észre.**
+
 I think that stereotype has changed a lot too, and people have become much kinder and more smiley — that’s what I’ve noticed.
 
----
-
 **Na, és akkor jöjjön öt dolog, amit nem annyira szeretek az országomban.**
+
 Now, here come five things I don’t like so much about my country.
 
 **Az első az az, hogy nagyon elfogadott dohányozni és alkoholt fogyasztani.**
+
 First: smoking and drinking alcohol are very socially accepted.
 
 **Sokan nem is tudják, hogy a definíció szerint alkoholisták, és nem tartják magukat annak, mert a társadalom szerint teljesen rendben van minden nap inni.**
+
 Many people don’t even realise that by definition they’re alcoholics, and they don’t consider themselves that, because society treats daily drinking as totally normal.
 
 **Már középiskolában elkezd cigizni egy csomó ember.**
+
 A lot of people start smoking already in high school.
 
 **Nem dohányzó egyetemistát nem láttam sokat anno az egyetemen; mindig van dohányzásra kijelölt hely mindenhol.**
+
 Back at university I didn’t see many non-smoking students; there’s always a designated smoking area everywhere.
 
 **Ez két nem túl egészséges szokás, és elég veszélyes, hogy ennyire a mindennapi élet részei.**
+
 These are two not-so-healthy habits, and it’s quite dangerous that they’re such a part of everyday life.
 
 **A második az egészségügy helyzete.**
+
 Second: the state of healthcare.
 
 **Sajnos a kórházak és a rendelők általában nincsenek jó állapotban; nincs elég hely, nincs elég orvos, mindenből hiány van.**
+
 Unfortunately hospitals and clinics are generally not in good condition; there isn’t enough space, not enough doctors, there are shortages of everything.
 
 **Sok helyen WC-papír és szappan sincs; a betegnek mindent magának kell megoldania.**
+
 In many places there isn’t even toilet paper or soap; the patient has to handle everything themselves.
 
 **Sok orvos és ápoló nagyon ki van égve, és borzasztóan viselkednek a betegekkel.**
+
 Many doctors and nurses are badly burned out and behave terribly towards patients.
 
 **Szerencsére vannak nagyon jó szakemberek is, és van lehetőség magánellátásra, de az nagyon drága, és nem elérhető mindenkinek.**
+
 Luckily there are excellent professionals too, and private care is an option, but it’s very expensive and not accessible to everyone.
 
 **Nekem a rendszer sem tetszik: lakcím és kerület szerint tartozol egy kórházba, és máshol nem fogadnak TB-vel.**
+
 I also dislike the system: you’re assigned to a hospital by address and district, and elsewhere they won’t take you with state insurance.
 
 **Magánban persze oda mész, ahova akarsz, ha ki tudod fizetni, de az állami ellátás szerint egy hely van, ahova mehetsz.**
+
 Privately, of course, you can go wherever you want if you can pay — but in the public system there’s only one place you’re allowed to go.
 
 **Borzalmas, hogy azon múlik, milyen ellátást kapsz, hogy melyik kerületben laksz, miközben tudod, hogy lehet, hogy lenne jobb hely is.**
+
 It’s awful that the quality of care depends on which district you live in, while you know there might be a better place.
 
 **A harmadik dolog a listámon a közoktatás helyzete.**
+
 Third on my list: the state of public education.
 
 **Ez tanárként nagyon érzékeny téma számomra, és emiatt sokszor szomorú vagyok.**
+
 As a teacher, this is a very sensitive topic for me, and it often makes me sad.
 
 **Rengeteg tárgyi tudást kell bemagolni; a gyerekek csak a vizsgákra, dolgozatokra készülnek, és alig tanulnak valami hasznosat.**
+
 They have to memorise huge amounts of factual material; kids prepare only for exams and tests and barely learn anything useful.
 
 **Nincs semmilyen készségfejlesztés; ugyanazokat a 100 éves pedagógiai módszereket alkalmazzák még mindig.**
+
 There’s basically no skills development; they still use the same 100-year-old teaching methods.
 
 **A tanár leadja az anyagot, a diák megtanulja, kap jegyet, és középiskola végén az érettségi a legfontosabb — semmi más.**
+
 The teacher delivers the material, the student learns it, gets a grade, and at the end of high school the matura exam is what matters most — nothing else.
 
 **Nagyon keveset keresnek a tanárok, nincsenek megbecsülve; ők is alulértékelik magukat, alig van terük kreativitásra, követni kell egy szigorú tantervet, és rengeteg hülye adminisztratív feladatuk van.**
+
 Teachers earn very little and aren’t appreciated; they undervalue themselves too, they have almost no room for creativity, they have to follow a strict curriculum, and they have tons of stupid administrative tasks.
 
 **Már szinte senki nem készül tanári pályára, ezért bárkit felvesznek, csak legyen valaki.**
+
 Hardly anyone is training to become a teacher anymore, so they take almost anyone — just so there’s someone.
 
 **Úgyhogy ezt itt be is fejezem, mert erről nagyon sokáig tudnék beszélni.**
+
 So I’ll stop here, because I could talk about this for a very long time.
 
 **A negyedik dolog a listámon a bürokrácia.**
+
 Fourth on my list: bureaucracy.
 
 **Ez valószínűleg szar mindenhol a világon, de Magyarországon sem szerettem soha.**
+
 It’s probably shitty everywhere in the world, but I never liked it in Hungary either.
 
 **Bár esküszöm, talán jobb egy fokkal, mint Amerikában: itt legalább sok mindent meg lehet oldani online.**
+
 Although I swear it might be a notch better than in America: here, at least, lots of things can be done online.
 
 **Amerikában imádnak 200 papírt adni mindenről, meg csekkeket küldeni postán.**
+
 In America they love giving you 200 papers for everything and sending cheques by mail.
 
 **Ehhez a témához van egy aktuális sztorim: két éve próbálom megszüntetni az OTP Bankos számlámat, és soha nem jó valami.**
+
 I’ve got a current story about this: I’ve been trying to close my OTP Bank account for two years, and something is always wrong.
 
 **Először is csak személyesen lehet; nincs semmilyen papír meghatalmazás — csak személyesen, a bankban lehet elintézni.**
+
 First, it can only be done in person; there’s no written authorisation — only in person, at the bank.
 
 **Valami miatt soha nem tudtam megszüntetni; tavaly azt hittem, hogy sikerülni fog, nálam volt a magyar személyim és az amerikai személyim is.**
+
 For some reason I never managed to close it; last year I thought it would work — I had both my Hungarian ID and my American ID with me.
 
 **Azt mondták, igazolni kell, hogy új címem van, de kiderült, hogy csak európai személyit fogadnak el, és kell a lakcímkártya.**
+
 They said I had to prove I have a new address, but it turned out they only accept European IDs and you need the address card.
 
 **A magyarok imádják a lakcímkártyát: mindenhez kell.**
+
 Hungarians love the address card: you need it for everything.
 
 **Az nem volt nálam, mert arra csak az van írva, hogy „külföldi cím” — nem a külföldi címem, hanem ennyi: „külföldi cím”.**
+
 I didn’t have it with me, because it only says “foreign address” — not my actual foreign address, just the words “foreign address”.
 
 **Az amerikai személyimen viszont rajta van a címem, úgyhogy nem gondoltam, hogy bármit ér a lakcímkártyám így — de mindegy, majd egyszer talán sikerül.**
+
 My address is on my American ID, so I didn’t think my address card was worth anything like that — but whatever, maybe one day it’ll work.
 
 **Az utolsó dolog a listámon pedig az, hogy mindig meleg van a buszon, metrón, villamoson, bevásárlóközpontokban, boltokban, éttermekben.**
+
 The last thing on my list is that it’s always warm on buses, the metro, trams, in malls, shops, restaurants.
 
 **Nyáron sehol nem megy elég erősen a légkondi, télen pedig annyira fűtenek, hogy le kell venni a kabátot, és leizzadsz.**
+
 In summer the AC is never strong enough anywhere; in winter they heat things so much you have to take off your coat and you start sweating.
 
 **Úgyhogy szerintem ezek.**
+
 So yeah — those are mine.
 
 **Szerintem ennyit szerettem volna mondani a mai epizódban.**
+
 I think that’s all I wanted to say in today’s episode.
 
 **Tök jó, hogy itt maradtál végig és meghallgattad.**
+
 It’s really great you stayed till the end and listened.
 
 **Nagyon fontos sokat hallgatni valamit magyarul a saját szinteden — jó gyakorlás,**
+
 It’s really important to listen to lots of Hungarian at your level — it’s good practice,
 
 **de csak az, hogy megnézel heti egy videómat, nem biztos, hogy közelebb visz a célodhoz.**
+
 but just watching one of my videos per week won’t necessarily bring you closer to your goal.
 
 **Ha szeretnél rendszeresen és tudatosan tanulni, akkor várlak szeretettel Patreonon.**
+
 If you want to learn regularly and deliberately, you’re warmly welcome on my Patreon.
 
 **Ott minden úgy van felépítve, hogy könnyebben, hatékonyabban és gyorsabban fejlődj, miközben jól szórakozol.**
+
 Everything there is set up so you improve more easily, effectively, and quickly, while having fun.
 
 **Úgyhogy várlak szeretettel!**
+
 So you’re warmly welcome!
 
 **Köszi, hogy itt voltatok! További szép napot!**
+
 Thanks for being here! Have a great rest of your day!
 
 **Nemsokára találkozunk a következő részben. Sziasztok!**
+
 We’ll see each other soon in the next episode. Bye!
 
 ### Vocabulary
