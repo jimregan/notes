@@ -7,7 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Reel](https://www.instagram.com/reel/DTsBo8kDD_5/)
+[Reel](https://www.instagram.com/reels/DTsBo8kDD_5/)
 
 ### Line-by-line translation
 
@@ -577,10 +577,14 @@ and I think they would get along well with each other.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DSFxhDziAjB/)
+[Reel](https://www.instagram.com/reels/DSFxhDziAjB/)
 
-Tehát amikor kérdették, érekorom magam, hogy kivel foglalkozva az apuká, mondtam, hogy költők.
-Oh, sajnálat, meg hallgatok.
-Anya, most volt, hogy ez a mondattal, hogy Hargyis költ a nő láttatlan.
-Tehát, hogyha nincs mellek, akkor Vimyuk át hallgatok szeret, de pontosan tizen készen is látható.
-Ezt kezdj el a támogat.
+Tehát, amikor kérdezték gyerekkaromban hogy "Mivel foglalkozik az apukám?" Mondtam, hogy költő.
+"Oh, sajnálom, mar meghalt?"
+Anyamnak volt ugye ez a mondata, hogy "30 fölött a nő láthatatlan."
+Tehát, hogyha nincs melle, akkor gimi útan, 30 előtt, pontosan 12 évig látható.
+Ezt kell kihasználni."
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTGXCugjvRD/)
