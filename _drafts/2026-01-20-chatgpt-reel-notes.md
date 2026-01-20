@@ -9,46 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [HUNGARIAN Conversation 2](https://www.youtube.com/watch?v=DiERHYGe3C8)
 
-
-Got it — I’ll stick **strictly** to what you asked for:
-**line-by-line translation + vocabulary**, no extra explanation.
-
-I’ll first give a **cleaned continuous Hungarian transcript** (lightly normalised only where the auto-captions clearly fragment speech), then the translation, then vocabulary.
-
----
-
-## Cleaned Hungarian (from the captions, minimally normalised)
-
-**Mi az ott? Hol? Micsoda fenn a fán, látod?**
-**Ott mozog valami, biztos egy élőlény.**
-**Nem mondod… ha mozog, akkor mi más lehetne, mint egy élőlény?**
-**Akkor egy madár.**
-**Nem a galambról beszélek, hanem arról ott.**
-**Ja.**
-**Húha, szerintem egy mókus.**
-**Ekkora mókus nem létezik.**
-**Akkor majom.**
-**Majmok nincsenek Dániában.**
-**Márpedig majomnak néz ki, biztos elszabadult egy állatkertből.**
-**A legközelebbi állatkert 60 km-re van.**
-**Inkább valaki otthon tartott egy majmot, és megszökött.**
-**Nem kéne hívnunk a rendőröket?**
-**És azok mit csinálnak vele? Letartóztatják?**
-**Valakinek csak kéne szólni, nem fogja kibírni a telet.**
-**A haverod nem állatorvos?**
-**De, de csak halakkal foglalkozik.**
-**Milyen halakkal?**
-**Nem mindegy most? Komolyan, van bármi olyan válasz, amit ha mondtam volna, hasznos lenne nekünk a majom szempontjából?**
-**Viszont nekem van egy haverom, aki banánokat árul.**
-**Nem vagyok éhes. Először oldjuk meg ezt a problémát.**
-**És majd utána eszünk a banánt a majomnak.**
-**Gondoltam, először kapjuk el, és majd utána megetetjük.**
-**Az biztos, hogy ha egyszer elkapjuk, akkor majd jól kijöttök egymással.**
-
-*(A további rész már csatorna-/támogatás-promóció.)*
-
----
-
 ## Line-by-line translation
 
 **Mi az ott? Hol? Micsoda fenn a fán, látod?**
@@ -129,8 +89,6 @@ I thought first we catch it, and then we feed it.
 **Az biztos, hogy ha egyszer elkapjuk, akkor majd jól kijöttök egymással.**
 One thing’s certain: if we ever catch it, you’ll get along well with each other.
 
----
-
 ## Vocabulary (contextual, no raw list)
 
 * **mi az ott** – what is that there (pointing, deictic)
@@ -165,8 +123,5 @@ One thing’s certain: if we ever catch it, you’ll get along well with each ot
 * **megetet** – feed
 * **jól kijön vkivel** – get along with someone
 
-If you want, next time I can:
-
-* keep the **raw VTT structure** and annotate line-by-line, or
-* do **B2-specific extraction** (useful connectors, pragmatic fillers only).
+-----
 
