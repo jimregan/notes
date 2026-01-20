@@ -1150,20 +1150,65 @@ We’ll see each other soon in the next episode. Bye!
 
 [Reel](https://www.instagram.com/reels/DTs35F8jKUq/)
 
-őszinte bocsánatkérés
+### Line-by-line translation
 
-mensi edition
+**Őszinte bocsánatkérés.**
+A sincere apology.
 
-Őszintén szeretnék bocsánatot kérni minden empatikus férfitől,
-akiket mi nőként a menstruációnkkal megbántottunk.
-Nagyon sajnáljuk, hogy mi nem viseljük olyan hősiesen a fájdalmas görcsöket,
-mint ti a férfináthát, vagy azt, ha valaki nemet mond.
-Teljés mértékben mi hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.
-Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülessetek,
-az ezzel járó hatalmas fájdalom viszont nagyon-nagyon sajnáljuk, hogy titeket egy icipicit érint.
-Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frusztráltabban
-már-már feszülten kisérjük azokat a fasságaitokat, amiket az egyéb napokon sem kellene igazából elviselnünk.
-Kifejezetten igaza van annak a kommentelőnek,
-aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.
-Külön köszönetet szeretnék mondani azoknak a kedves férfiaknak,
-akik a kommentek között kiálltak a lányaikért, feleségeikért, anyaikért és a barátnőikért.
+**Mensi edition.**
+Period edition.
+
+**Őszintén szeretnék bocsánatot kérni minden empatikus férfitől, akiket mi nőként a menstruációnkkal megbántottunk.**
+I’d sincerely like to apologise to every empathetic man whom we, as women, have offended with our menstruation.
+
+**Nagyon sajnáljuk, hogy mi nem viseljük olyan hősiesen a fájdalmas görcsöket, mint ti a férfináthát, vagy azt, ha valaki nemet mond.**
+We’re very sorry that we don’t endure painful cramps as heroically as you endure the “man-flu” — or someone saying no.
+
+**Teljes mértékben a mi hibánk, hogy úgy döntöttünk, hogy minden hónapban szeretnénk havi öt napot vérezni.**
+It’s entirely our fault that we decided we’d like to bleed for five days every month.
+
+**Ugyan a mi ciklusunk teszi lehetővé, hogy ti is megszülessetek,**
+Even though our cycle makes it possible for you to be born too,
+
+**az ezzel járó hatalmas fájdalom viszont nagyon-nagyon sajnáljuk, hogy titeket egy icipicit érint.**
+we’re *so* sorry that the huge pain that comes with it affects you just a teeny bit.
+
+**Amiért kifejezetten szeretnék bocsánatot kérni, hogy ezeken a napokon frusztráltabban, már-már feszülten kísérjük azokat a fasságaitokat, amiket az egyéb napokon sem kellene igazából elviselnünk.**
+What I’d especially like to apologise for is that on those days we accompany your bullshit more frustratedly — almost tensely — the same bullshit we shouldn’t really have to put up with on other days either.
+
+**Kifejezetten igaza van annak a kommentelőnek, aki azt mondta, hogy a nem menstruáló férfiak kezében sokkal nagyobb biztonságban van a világunk.**
+That commenter is absolutely right who said that our world is much safer in the hands of non-menstruating men.
+
+**Külön köszönetet szeretnék mondani azoknak a kedves férfiaknak, akik a kommentek között kiálltak a lányaikért, feleségeikért, anyáikért és a barátnőikért.**
+And special thanks to those kind men who, in the comments, stood up for their daughters, wives, mothers, and girlfriends.
+
+### Vocabulary
+
+* **őszinte bocsánatkérés** – “sincere apology”; headline/register phrase
+* **mensi** – slangy shortening of *menstruáció*; casual, online tone
+* **bocsánatot kér vkitől** – apologise to someone (*-tól/-től* marks the person)
+* **empatikus** – empathetic
+* **megbánt** – offend / hurt someone’s feelings
+* **nőként** – as a woman (role framing)
+* **visel (fájdalmat)** – endure, bear (pain)
+* **hősiesen** – heroically (sarcastic in this context)
+* **férfinátha** – “man-flu” (set joke term)
+* **teljes mértékben** – entirely / completely
+* **úgy döntöttünk, hogy…** – “we decided that…”; here used for obvious sarcasm
+* **vérezni** – to bleed
+* **ciklus** – menstrual cycle
+* **teszi lehetővé** – makes possible; formal-ish, used for mock gravitas
+* **ezzel jár** – goes along with this; comes with it
+* **icipici** – teeny-tiny; diminutive for mock-minimising
+* **érint** – affect / concern (someone); neutral verb, often in public talk
+* **kifejezetten** – especially / explicitly
+* **frusztráltan / feszülten** – frustrated / tense
+* **már-már** – almost / practically (rhetorical intensifier)
+* **kísér** (itt) – “accompany / sit through”; used for enduring someone’s behaviour
+* **fasság** – bullshit / dumb shit; vulgar but common
+* **elvisel** – tolerate / put up with
+* **igaza van vkinek** – someone is right
+* **kezében van** – in someone’s hands (responsibility/control)
+* **biztonságban** – safe, in safety
+* **külön köszönet** – special thanks
+* **kiáll vkiért** – stand up for someone
