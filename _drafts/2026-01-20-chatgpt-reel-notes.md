@@ -1229,26 +1229,26 @@ And special thanks to those kind men who, in the comments, stood up for their da
 
 Légiutas-kísérök kötelező smink rutinja
 
-A lékyutás kisérőknek kötelező az a tömérdek smink, az a félkiló vakolat.
-A választ rövide nasz, hogy igen, de van aki valóban túlzásba esik és túrsok sminket rak fel, túl, erős sminket teszem, tagadom.
-Ezért van egy alapelőírás, hogy miket kell feltenni az arcodra, hogyan sminkej,
-és ezt a már alapjáraton elég erős sminket lesz.
-Tehát mi az, ami kötelező alapozó mindenképp, púder és elvileg kötelező, aztán, hogy azt is rövészik, hogy vörögtede vagy sem az már más kérdés,
-pirosító vagy bronzosító esetleg mindkettő, szemöldök cerúzza, hogy a szemöldök edett megformázt,
-az is fontos majd szemhéjfesték, vagy egy bézs, barnás színű szemhéjfestéket kell használnod, vagy feket a szemhétust,
-de használhatod mindakettőt is, és ez szempélylos pirál, ami kötelező.
-És hát nyilván, ami a leginkább kötelező, és ez minden légyításoságnál így van, a rúzs használatan.
-Nálunk a piros rúzs volt kötelező, és itt jön az érdekes rész, a rúzsnak egyébként utasbiztonsági okai is vannak,
-ugyanis egy vészhelyzet esetén nagy hangzavarba, hogy ha nem nagyon lehet hallani a légyítás kisérő utasításait,
-akkor a rúzs segítségével könnyebben lehet szállról olvasni.
-Valamint ez egy érdekes dolog, de a rúzsát az légyítás kisérő sokkal maga biztosabbnak tűnik,
-ami ráragad az utasokra is, és így vészhelyzetben sokkal inkább meg biztnak benne.
-És jó tudom, a férfikrúk nincsenki rúzsózba, de nem is velük van tele a járt.
-És egyébként a férféjaknak is voltak kötelező dolgok a kinézetükre vonatkozóan.
-Hajuk az nem lehetett hosszú, csak rövid, szakállat nem is elhettek, borostáljuk nem lehetett,
-tehát minden egyes járölet előtt frissen kellett borot válkozniuk.
-Bayusz megengedett volt, tisztán tartott szép bayusz.
-A nőknél is meg volt a hajviseletre is az eljárás, tehát mindig fel kellett tűzni a hajat valamilyen formában,
-szof nem lehetett, konyban vagy benne a french twistben feltűzve, semmi hajnám lókatott kitát,
-ami most nekem van ez így nem volt, hogy azt így el kellett szépen tűzni,
-babahajak se lók hattak ki azokat, le kellett zselézni.
+A légiutás-kisérőknek kötelező az a tömérdek smink, az a fél kiló vakolat.
+A válasz röviden az, hogy igen, de van, aki valóban túlzásba esik, és túl sok sminket rak fel, túl erős sminket, ezt nem tagadom.
+Viszont van egy alapelőírás, hogy miket kell feltenni az arcodra, hogyan sminkelj,
+és ettől már alapjáraton elég erős sminked lesz.
+Tehát mi az, ami kötelező? Alapozó mindenképp. Púder és elvileg kötelező, aztán hogy azt észrevészik, hogy fölraktad-e vagy sem, az már más kérdés.
+Pirosító vagy bronzosító, esetleg mindkettő. A szemöldökceruza, hogy a szemöldökedet megformázd,
+az is fontos. Majd szemhéjfesték, vagy egy bézs, barnás színű szemhéjfestéket kell használnod, vagy egy fekete szemhéjtust,
+de használhatod mind a kettőt is. És ez szempillaspirál, ami kötelező,
+és hát nyilván ami a leginkább kötelező, és ez minden légítársaságnál így van, a rúzs használata.
+Nálunk a piros rúzs volt kötelező. És itt jön az érdekes rész, a rúzsnak egyébként utasbiztonsági okai is vannak.
+Ugyanis egy vészhelyzet esetén nagy hangzavarban, hogyha nem nagyon lehet hallani a légiutás-kisérő utasításait,
+akkor a rúzs segítségével könnyebben lehet szájról olvasni
+valamint ez egy érdekes dolog, de a rúzs által a légiutás-kisérő sokkal magabiztosabbnak tűnik,
+ami ráragad az utasokra is, és így vészhelyzetben sokkal inkább megbiznak benne.
+És jó tudom a férfiak nincsen kirúzsóbva, de nem is velük van tele a járat.
+És egyébként a férfiaknak is voltak kötelező dolgok a kinézetükre vonatkozóan.
+Hajuk az nem lehetett hosszú, csak rövid szakállat nem viselhettek, borostájuk nem lehetett
+tehát minden egyes járat előtt frissen kellett borotválkozniuk.
+Bayusz megengedett volt tisztán tartott szép bayusz.
+A nőknél is megvolt a hajviseletre is az eljárás tehát mindig fel kellett tűzni a hajat valamilyen formában
+copf nem lehetett. Kontyban vagy ebben a french twistben feltűzve semmi haj nem lóghatott ki.
+Tehát ami most nekem van ez ez így nem volt jó ezt így el kellett szépen tűzni,
+babahajak se lóghattak ki azokat le kellett zselézni.
