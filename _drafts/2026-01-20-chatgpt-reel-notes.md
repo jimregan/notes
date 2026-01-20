@@ -1380,22 +1380,22 @@ Even the baby hairs couldn’t stick out — those had to be gelled down.
 
 [Reel](https://www.instagram.com/reels/DSLFw45jYxK/)
 
-[00:00.000 --> 00:04.380]  Ez itt a napontomás leves, ahol a főzés terápia a végeredmény pedig gyógyír.
-[00:04.380 --> 00:08.220]  Ez a sorozat arról szól, hogy nem csak a sandwich, de a leves is lehet főszereplő.
-[00:08.220 --> 00:10.220]  A mai leves, a genisz marharagú.
-[00:15.220 --> 00:20.560]  Ez a leves egy szimpla marharagú is lehet, ne viszont a végén kiderül, hogy nem csak a genisz az egyéblen csavar benne.
-[00:21.060 --> 00:26.100]  Rengeteg zöldséget darabalunk, rép a fehér, rép a zeller, szár és gumó, póré, hagyma, gomba.
-[00:31.000 --> 00:36.000]  A kezdéshez előkészítjük a zsírszalonát és felkockázzuk a marhacombot is.
-[00:42.000 --> 00:47.000]  Kiholvasztjuk a szalonna zsírját, amin megpirítjuk a húsokat, majd félre is tesszük.
-[00:50.000 --> 00:54.000]  Ekkor mellett bele a hagyma, és egyben látszik, hogy az edény aljáról felszili a pörse nyagot.
-[00:55.000 --> 01:01.000]  Jöhet hozzá a fokhagyma, majd a répák zellerek pár perc múlva a póréhagyma, majd kevésre később a gomba.
-[01:02.000 --> 01:08.000]  Fűszerként kakuk, fű, piros paprikon borst kerül bele. Két ebő kanál paradigcsom pürét lepirítunk és így méter tovarjuk.
-[01:09.000 --> 01:15.000]  Ezt követően jöhet az íreg büszkesége, a genisz, amely kávést csok is karamellás földes egyekkel tulgozzal levest.
-[01:16.000 --> 01:22.000]  Ezen a pontom visszatesszük a húst, felöntjük a laplével, és természetesen belekerül az elmarathatatlan, babérlevél is.
-[01:22.000 --> 01:29.000]  Innentől bőkét óra miracom megpukulsz, szóval addig megmutatom a dobozós genisz helyes csapalási technikáért, hogy lefoglaljuk magunkat.
-[01:30.000 --> 01:38.000]  Fun fact, hogy a dobozban lévők is nitrogengójó 91-ben az év találmány alatt. Ugyanabban az évben, amikor a modern internet elindult.
-[01:39.000 --> 01:41.000]  34 év távlatából is teljesen érthetődöntés.
-[01:42.000 --> 01:47.000]  Itt jegyzném meg, hogy a csatornának még nincs hivatalossra, szóval én a genisz marketingesei helyében nem tétlenkednék.
-[01:47.000 --> 01:53.000]  És a végé jönnek az igazi finomságok, amik olyan különlegesét teszik ezt a levest, hogy bármelyik Dublinipátban megállná a helyét.
-[01:54.000 --> 02:01.000]  Mikor a húsmer szét omlik nyomunk bele egy vőevő kanál borcsester szóz, tejszín, párkocka vagyat, apróra vágott petrezselymet és citromhéjat reszelünk bele.
-[02:02.000 --> 02:06.000]  A végeredményre pedig a genisz házban is elégedett tentsettingtenének.
+Ez itt a napontomás leves, ahol a főzés terápia a végeredmény pedig gyógyír.
+Ez a sorozat arról szól, hogy nem csak a sandwich, de a leves is lehet főszereplő.
+A mai leves, a genisz marharagú.
+Ez a leves egy szimpla marharagú is lehet, ne viszont a végén kiderül, hogy nem csak a genisz az egyéblen csavar benne.
+Rengeteg zöldséget darabalunk, rép a fehér, rép a zeller, szár és gumó, póré, hagyma, gomba.
+A kezdéshez előkészítjük a zsírszalonát és felkockázzuk a marhacombot is.
+Kiholvasztjuk a szalonna zsírját, amin megpirítjuk a húsokat, majd félre is tesszük.
+Ekkor mellett bele a hagyma, és egyben látszik, hogy az edény aljáról felszili a pörse nyagot.
+Jöhet hozzá a fokhagyma, majd a répák zellerek pár perc múlva a póréhagyma, majd kevésre később a gomba.
+Fűszerként kakuk, fű, piros paprikon borst kerül bele. Két ebő kanál paradigcsom pürét lepirítunk és így méter tovarjuk.
+Ezt követően jöhet az íreg büszkesége, a genisz, amely kávést csok is karamellás földes egyekkel tulgozzal levest.
+Ezen a pontom visszatesszük a húst, felöntjük a laplével, és természetesen belekerül az elmarathatatlan, babérlevél is.
+Innentől bőkét óra miracom megpukulsz, szóval addig megmutatom a dobozós genisz helyes csapalási technikáért, hogy lefoglaljuk magunkat.
+Fun fact, hogy a dobozban lévők is nitrogengójó 91-ben az év találmány alatt. Ugyanabban az évben, amikor a modern internet elindult.
+34 év távlatából is teljesen érthetődöntés.
+Itt jegyzném meg, hogy a csatornának még nincs hivatalossra, szóval én a genisz marketingesei helyében nem tétlenkednék.
+És a végé jönnek az igazi finomságok, amik olyan különlegesét teszik ezt a levest, hogy bármelyik Dublinipátban megállná a helyét.
+Mikor a húsmer szét omlik nyomunk bele egy vőevő kanál borcsester szóz, tejszín, párkocka vagyat, apróra vágott petrezselymet és citromhéjat reszelünk bele.
+A végeredményre pedig a genisz házban is elégedett tentsettingtenének.
