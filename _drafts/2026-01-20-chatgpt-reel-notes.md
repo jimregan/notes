@@ -151,3 +151,93 @@ One thing’s certain: if we ever catch it, you’ll get along well with each ot
 
 -----
 
+[AJÁNLÓ - 2013. 19.hét /1](https://www.youtube.com/watch?v=zFo5exV9BGI)
+
+## Line-by-line translation
+
+**Csak azt nem értem, hogy mi bajod van velem,**
+
+I just don’t understand what your problem is with me,
+
+**ha a helyemre pályázol, vagy szimplán utálsz?**
+
+if you’re applying for my position, or you just hate me?
+
+**Nekem nincs veled semmi baj.**
+
+I have no problem with you.
+
+**Akkor Zsolt fizet neked? De miért?**
+
+So does Zsolt pay you? But why?
+
+**Jaj, tudom, hogy az előbb vele beszéltél telefonon,**
+
+Oh, I know you were talking to him on the phone earlier,
+
+**amikor annyira magyaráztál az egyenruhákról,**
+
+when you were going on and on about the uniforms,
+
+**és gondolom azt se felejtetted el elmondani neki,**
+
+and I suppose you didn’t forget to tell him either
+
+**hogy jön ide Klaudia kávézni.**
+
+that Klaudia is coming here for coffee.
+
+**Én csak az Ádival beszéltem telefonon,**
+
+I only spoke to Ádi on the phone,
+
+**hogy jöjjön minél korábban,**
+
+to have him come as early as possible,
+
+**hogy megnézhessem ebbe a cuki kis ruciba.**
+
+so I could see him in this cute little outfit.
+
+**Egyetlen egyszer sem beszéltem a Zsolttal, esküszöm,**
+
+I didn’t speak to Zsolt even once, I swear,
+
+**meg is nézheted a mobilomban. Tessék.**
+
+you can even check my phone. Here.
+
+**Barátok közt minden hétköznap az Éjjel-Nappal Budapest után,**
+
+*Barátok közt* every weekday after *Éjjel-Nappal Budapest*,
+
+**és 22:30-kor az…**
+
+and at 10:30 p.m. on…
+
+## Vocabulary (with minimal context)
+
+* **csak azt nem értem** – the only thing I don’t understand
+* **mi bajod van velem** – what your problem is with me
+* **a helyemre pályázik** – apply for someone’s position
+* **szimplán** – simply, just
+* **utál** – hate
+* **semmi bajom nincs vkivel** – I have no issue with someone
+* **fizet vkinek** – pay someone
+* **jaj, tudom** – oh, I know (often ironic / accusatory)
+* **az előbb** – earlier, just before
+* **magyaráz** – explain at length; often implies overexplaining
+* **egyenruha** – uniform
+* **azt se felejtetted el** – you didn’t forget either (accusatory frame)
+* **jön ide kávézni** – comes here for coffee (social pretext)
+* **minél korábban** – as early as possible
+* **megnézhessem** – so that I can see (purpose clause)
+* **cuki** – cute; colloquial
+* **ruci** – outfit; diminutive, informal
+* **egyetlen egyszer sem** – not even once
+* **esküszöm** – I swear
+* **mobilomba** – into my phone (Hungarian inessive)
+* **tessék** – here you go
+* **minden hétköznap** – every weekday
+* **után** – after (TV scheduling)
+
