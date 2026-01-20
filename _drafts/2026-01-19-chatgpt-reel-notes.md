@@ -588,3 +588,17 @@ Ezt kell kihasználni."
 -----
 
 [Reel](https://www.instagram.com/reels/DTGXCugjvRD/)
+
+[00:00.000 --> 00:02.000]  Aha, aha, jönnem, jönnem, jönnem!
+[00:02.000 --> 00:05.000]  Csak a szűk barálti kövv 37-ben.
+[00:06.000 --> 00:08.000]  Igen, ne, ne.
+[00:08.000 --> 00:11.000]  Elmény szörelmetlenül kövülük, csak 30-ken.
+[00:11.000 --> 00:14.000]  Én hozottam, hogy a 33-k, ahogy úgy...
+[00:14.000 --> 00:17.000]  Tariszniás oldalék, szerintem ő nem a f***nál.
+[00:17.000 --> 00:21.000]  Sziag, lejövd már egyedül a lépcsőn, ő joda hozzánk.
+[00:23.000 --> 00:26.000]  És ne kellett engem, majd isz a hívak.
+[00:26.000 --> 00:29.000]  Állítólag, még soha senki nem szólított így a
+[00:29.000 --> 00:31.000]  tariszniás hútti.
+[00:31.000 --> 00:33.000]  Csak ennyire meglátott, belém szeretett,
+[00:33.000 --> 00:35.000]  és ha velegy meg azt monddák neki, hogy mennyi a haza,
+[00:35.000 --> 00:38.000]  csak olyozal a f***nál kövül a viszlő szülésre menni.
