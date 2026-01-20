@@ -245,166 +245,175 @@ and at 10:30 p.m. on…
 
 [Ep 101](https://www.youtube.com/watch?v=u_i5gweLYCQ)
 
-Perfect — thanks for your patience. I’ll do this **once, cleanly, the way you actually want**, and then we can reuse the pattern.
-
-Below is a **sensible, discourse-based line-by-line translation**:
-not subtitle chunks, not micro-clauses, but **natural spoken units you can keep in notes**.
-
-I’ll then end with a **Vocabulary section only** (no cultural essay, no padding).
-
----
-
 ## Line-by-line translation
 
 **A mai részben egy nagyon fontos és szép szóról lesz szó: a „szeretlek”-ről.**
+
 In today’s episode we’re going to talk about a very important and beautiful word: *“szeretlek”* (“I love you”).
 
 **Szerintem a nyelvtanulásban az egyik legnehezebb dolog az, hogy nem mindig vagy biztos abban, hogy jól hangzik-e, amit mondasz.**
+
 In my opinion, one of the hardest things about language learning is that you’re not always sure whether what you’re saying actually sounds right.
 
 **Meg lehet keresni egy szót a szótárban, de nem biztos, hogy magyarul ugyanúgy, ugyanabban a kontextusban és ugyanazokban a helyzetekben használják, mint angolul vagy az anyanyelveden.**
+
 You can look up a word in a dictionary, but it’s not certain that it’s used in Hungarian in the same way, in the same contexts, and in the same situations as in English or in your native language.
 
 **A „szeretlek” is egy ilyen szó.**
+
 *“Szeretlek”* is one of those words.
 
 **Na, nézzük meg, hogy a magyarok mikor mondják azt, hogy „szeretlek”.**
+
 So let’s see when Hungarians actually say *“I love you.”*
 
----
-
 **Ezt a szót szerintem sok nyelvtanuló tudja rengeteg nyelven.**
+
 I think many language learners know this word in lots of different languages.
 
 **Te is biztos hamar megtanultad magyarul, vagy ha a párod miatt kezdtél el magyarul tanulni, akkor lehet, hogy ez volt az első szó, amit megtanultál.**
+
 You probably learned it quickly in Hungarian too — or if you started learning Hungarian because of your partner, it might even have been the first word you learned.
 
 **Sok nyelven tudjuk, hogyan kell mondani azt, hogy „szeretlek”, de a kultúrát is ismerni kell ahhoz, hogy jól tudjuk használni.**
+
 We know how to say “I love you” in many languages, but you also need to understand the culture in order to use it properly.
 
----
-
 **Az az igazság, hogy a magyarok nagyon ritkán mondják, hogy „szeretlek”.**
+
 The truth is that Hungarians say “I love you” very rarely.
 
 **Legtöbbször a párjuknak mondják: a feleségüknek, a férjüknek, a barátjuknak vagy a barátnőjüknek — de még nekik sem minden nap.**
+
 Most often they say it to their partner — their wife, husband, boyfriend or girlfriend — but even then, not every day.
 
 **Persze általánosságban beszélek, és ez már változik, de még az én generációmban, az Y generációban sem szokás ezt gyakran mondani.**
+
 Of course I’m speaking in general, and this is already changing, but even in my generation — Generation Y — it’s still not common to say it often.
 
----
-
 **A mexikói családommal viszont minden nap mondjuk egymásnak.**
+
 With my Mexican family, on the other hand, we say it to each other every day.
 
 **Ha telefonon beszélünk vagy találkozunk, mindig úgy köszönünk el, hogy: “bye, te amo”.**
+
 When we talk on the phone or meet up, we always say goodbye like this: “bye, te amo”.
 
 **„Szia, szeretlek!” — ez magyarul nagyon furcsán hangzik.**
+
 “Bye, I love you!” sounds very strange in Hungarian.
 
 **Nem szokás így elköszönni valakitől.**
+
 It’s not customary to say goodbye like that.
 
----
-
 **Akik gyakran mondják egymásnak, hogy „szeretlek”, azok vagy párkapcsolatban vannak, vagy tényleg nagyon mély, szoros barátság van közöttük.**
+
 People who say “I love you” to each other often are either in a romantic relationship or have a genuinely deep, close friendship.
 
 **Nekem egy barátnőm van, akivel szoktuk ezt mondani egymásnak, de nem mindig.**
+
 I have one friend with whom I do say it — but not all the time.
 
 **Akkor mondjuk, ha nagyon hiányzunk egymásnak, vagy ha valami érzékeny témáról beszélgettünk.**
+
 We say it when we miss each other a lot, or when we’ve talked about something emotionally sensitive.
 
 **Szerintem nagyjából havonta egyszer.**
+
 I’d say about once a month.
 
----
-
 **Az én generációm szülei is ritkán mondják a gyerekeiknek, hogy „szeretlek”.**
+
 Even the parents of my generation rarely say “I love you” to their children.
 
 **Sokáig nagyon kényelmetlen volt nekem a mexikói férjem szüleinek és testvéreinek azt mondani, hogy „szeretlek” spanyolul vagy angolul.**
+
 For a long time, it was very uncomfortable for me to say “I love you” in Spanish or English to my Mexican husband’s parents and siblings.
 
 **Nem azért, mert nem szeretem őket — csak furcsa volt kimondani.**
+
 Not because I don’t love them — it just felt strange to say it out loud.
 
 **Nem voltam hozzászokva, de egy év után megszoktam, és most már nagyon szeretek így elköszönni.**
+
 I wasn’t used to it, but after a year I got used to it, and now I really like saying it.
 
 **Az anyukámnak viszont mindig mondom magyarul, amikor telefonon beszélünk.**
+
 But I always say it to my mum in Hungarian when we talk on the phone.
 
----
-
 **Szóval nagyon mély és szoros kapcsolat kell ahhoz, hogy egy magyar kimondja ezt a szót.**
+
 So it takes a very deep and close relationship for a Hungarian to say this word.
 
 **Csak úgy, konkrét ok nélkül nem szoktuk mondani.**
+
 We don’t usually say it casually, without a specific reason.
 
----
-
 **A férjem húga — a sógornőm — egyszer magyarul is ráírta a képeslapomra, hogy „szeretlek”.**
+
 My husband’s sister — my sister-in-law — once wrote “I love you” in Hungarian on my birthday card.
 
 **Nagyon jól esett, de nagyon furcsa volt látni, mert nem szokás ezt írni.**
+
 It felt really nice, but it was also very strange to see, because that’s not something people normally write.
 
 **Képeslap végére általában azt írjuk, hogy „szeretettel”.**
+
 At the end of greeting cards, we usually write “with love”.
 
 **Akkor is, ha nagyon jó barátoknak vagy családtagoknak írjuk.**
+
 Even when we’re writing to close friends or family members.
 
----
-
 **Hasonló a helyzet a „hiányzol” szóval is, bár nem ennyire erős.**
+
 The situation is similar with the word *“hiányzol”* (“I miss you”), although it’s not quite as strong.
 
 **Azt vettem észre, hogy Amerikában ezt is mindenki mondja mindenkinek.**
+
 I’ve noticed that in America people say this to everyone.
 
 **Egyszer egy amerikai lány kommentelte egy Instagram-posztom alá, hogy „I miss you”, pedig öt éve nem beszéltünk.**
+
 Once an American woman commented “I miss you” under one of my Instagram posts, even though we hadn’t spoken in five years.
 
 **Nekem ez nagyon furcsa volt.**
+
 That felt very strange to me.
 
 **Én csak akkor mondom vagy írom ezt, amikor tényleg nagyon erősen érzem.**
+
 I only say or write this when I really, strongly feel it.
 
----
-
 **Ha egy magyar azt mondja neked, hogy „szeretlek” vagy „hiányzol”, akkor 99%, hogy komolyan gondolja.**
+
 If a Hungarian tells you “I love you” or “I miss you”, there’s a 99% chance they truly mean it.
 
----
-
 **Sokan mondják, hogy az amerikaiak felszínesek, és hogy amikor egy európai mondja azt, hogy „szeretlek”, annak nagyobb súlya van.**
+
 People often say that Americans are superficial, and that when a European says “I love you”, it carries more weight.
 
 **Én is sokáig így gondoltam, de mostanában ez kezd megváltozni bennem.**
+
 I used to think this way too, but recently that’s been changing for me.
 
 **Most már nagyon szeretem ezt a szokást, és jól esik naponta több embertől is hallani, hogy „te amo” vagy „I love you”.**
+
 Now I really like this habit, and it feels good to hear “te amo” or “I love you” from several people every day.
 
 **A férjem néha magyarul is mondja nekem, és nem érzem egyáltalán felszínesnek.**
+
 My husband sometimes says it to me in Hungarian too, and I don’t find it superficial at all.
 
----
-
 **Szerintem érdemes néha elengedni a megszokott dolgokat, és nem azonnal elutasítani mindent, ami új vagy más.**
+
 I think it’s worth sometimes letting go of what we’re used to, and not immediately rejecting everything that’s new or different.
 
 **Ez nyelvtanulásnál különösen hasznos hozzáállás.**
-This is an especially useful attitude when learning a language.
 
----
+This is an especially useful attitude when learning a language.
 
 ## Vocabulary (with context)
 
@@ -426,12 +435,3 @@ This is an especially useful attitude when learning a language.
 * **felszínes** – superficial
 * **elengedni** – to let go (mentally/emotionally)
 
----
-
-If you want, next time we can:
-
-* shorten the translation further
-* focus only on *lexically interesting* lines
-* or extract **collocations only**
-
-Just say which mode you want.
