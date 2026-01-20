@@ -1230,84 +1230,108 @@ And special thanks to those kind men who, in the comments, stood up for their da
 ### Line-by-line translation
 
 **Légiutas-kísérők kötelező smink rutinja.**
+
 Flight attendants’ mandatory makeup routine.
 
 **A légiutas-kísérőknek kötelező az a tömérdek smink, az a fél kiló vakolat?**
+
 Is it mandatory for flight attendants to wear that ton of makeup — that half-kilo of “plaster”?
 
 **A válasz röviden az, hogy igen, de van, aki valóban túlzásba esik, és túl sok sminket rak fel, túl erős sminket — ezt nem tagadom.**
+
 The short answer is yes, but some people really do overdo it and put on too much makeup, too strong a look — I don’t deny that.
 
 **Viszont van egy alapelőírás, hogy miket kell feltenni az arcodra, hogyan sminkelj, és ettől már alapjáraton elég erős sminked lesz.**
+
 But there’s a basic set of rules about what you have to put on your face and how you should do your makeup, and that already gives you a fairly strong look by default.
 
 **Tehát mi az, ami kötelező?**
+
 So what’s mandatory?
 
 **Alapozó mindenképp.**
+
 Foundation, definitely.
 
 **Púder elvileg kötelező, aztán hogy azt észreveszik-e, hogy fölraktad-e vagy sem, az már más kérdés.**
+
 Powder is *supposedly* mandatory — whether they actually notice if you put it on or not is another question.
 
 **Pirosító vagy bronzosító — esetleg mindkettő.**
+
 Blush or bronzer — possibly both.
 
 **A szemöldökceruza, hogy a szemöldöködet megformázd, az is fontos.**
+
 Eyebrow pencil, to shape your brows — that’s important too.
 
 **Majd szemhéjfesték: vagy egy bézs, barnás színűt kell használnod, vagy egy fekete szemhéjtust, de használhatod mind a kettőt is.**
+
 Then eyeshadow: either a beige/brown shade, or black eyeliner — but you can use both as well.
 
 **És szempillaspirál — ami kötelező.**
+
 And mascara — which is mandatory.
 
 **És hát nyilván ami a leginkább kötelező, és ez minden légitársaságnál így van: a rúzs használata.**
+
 And of course what’s most mandatory — and this is the case at every airline — wearing lipstick.
 
 **Nálunk a piros rúzs volt kötelező.**
+
 At our company, red lipstick was mandatory.
 
 **És itt jön az érdekes rész: a rúzsnak egyébként utasbiztonsági okai is vannak.**
+
 And here comes the interesting part: lipstick actually has passenger-safety reasons too.
 
 **Ugyanis egy vészhelyzet esetén, nagy hangzavarban, hogyha nem nagyon lehet hallani a légiutas-kísérő utasításait, akkor a rúzs segítségével könnyebben lehet szájról olvasni.**
+
 Because in an emergency, in a lot of noise, if you can’t really hear the flight attendant’s instructions, lipstick makes lip-reading easier.
 
 **Valamint — érdekes módon — a rúzs által a légiutas-kísérő sokkal magabiztosabbnak tűnik, ami ráragad az utasokra is, és így vészhelyzetben sokkal inkább megbíznak benne.**
+
 Also — interestingly — lipstick makes the attendant look much more confident, which “rubs off” on passengers too, so in an emergency they trust them more.
 
 **És jó, tudom, a férfiak nincsenek kirúzsozva, de nem is velük van tele a járat.**
+
 And yes, I know men aren’t wearing lipstick — but the flight isn’t full of them.
 
 **És egyébként a férfiaknak is voltak kötelező dolgok a kinézetükre vonatkozóan.**
+
 And actually there were mandatory requirements for men’s appearance too.
 
 **A hajuk nem lehetett hosszú, csak rövid.**
+
 Their hair couldn’t be long — only short.
 
 **Szakállat nem viselhettek, borostájuk nem lehetett, tehát minden egyes járat előtt frissen kellett borotválkozniuk.**
+
 They couldn’t wear a beard, couldn’t have stubble, so they had to shave freshly before every flight.
 
 **Bajusz megengedett volt: tisztán tartott, szép bajusz.**
+
 A moustache was allowed — a clean, well-kept moustache.
 
 **A nőknél a hajviseletre is megvolt az eljárás: mindig fel kellett tűzni a hajat valamilyen formában.**
+
 For women there was also a set procedure for hairstyles: hair always had to be pinned up in some form.
 
 **Copf nem lehetett.**
+
 A ponytail wasn’t allowed.
 
 **Kontyban vagy ebben a “french twistben” feltűzve: semmi haj nem lóghatott ki.**
+
 Pinned up in a bun or in a “French twist”: no hair could be hanging out.
 
 **Tehát ami most nekem van, ez így nem volt jó — ezt szépen fel kellett tűzni.**
+
 So what I have now wouldn’t have been okay — it had to be pinned up neatly.
 
 **Babahajak se lóghattak ki: azokat le kellett zselézni.**
-Even the baby hairs couldn’t stick out — those had to be gelled down.
 
----
+Even the baby hairs couldn’t stick out — those had to be gelled down.
 
 ### Vocabulary
 
