@@ -1229,26 +1229,26 @@ And special thanks to those kind men who, in the comments, stood up for their da
 
 Légiutas-kísérök kötelező smink rutinja
 
-[00:00.000 --> 00:05.340]  A lékyutás kisérőknek kötelező az a tömérdek smink, az a félkiló vakolat.
-[00:05.340 --> 00:13.980]  A választ rövide nasz, hogy igen, de van aki valóban túlzásba esik és túrsok sminket rak fel, túl, erős sminket teszem, tagadom.
-[00:13.980 --> 00:20.060]  Ezért van egy alapelőírás, hogy miket kell feltenni az arcodra, hogyan sminkej,
-[00:20.060 --> 00:25.660]  és ezt a már alapjáraton elég erős sminket lesz.
-[00:25.660 --> 00:34.500]  Tehát mi az, ami kötelező alapozó mindenképp, púder és elvileg kötelező, aztán, hogy azt is rövészik, hogy vörögtede vagy sem az már más kérdés,
-[00:34.500 --> 00:40.440]  pirosító vagy bronzosító esetleg mindkettő, szemöldök cerúzza, hogy a szemöldök edett megformázt,
-[00:40.440 --> 00:51.960]  az is fontos majd szemhéjfesték, vagy egy bézs, barnás színű szemhéjfestéket kell használnod, vagy feket a szemhétust,
-[00:51.960 --> 00:57.060]  de használhatod mindakettőt is, és ez szempélylos pirál, ami kötelező.
-[00:57.060 --> 01:04.420]  És hát nyilván, ami a leginkább kötelező, és ez minden légyításoságnál így van, a rúzs használatan.
-[01:04.420 --> 01:12.040]  Nálunk a piros rúzs volt kötelező, és itt jön az érdekes rész, a rúzsnak egyébként utasbiztonsági okai is vannak,
-[01:12.040 --> 01:19.420]  ugyanis egy vészhelyzet esetén nagy hangzavarba, hogy ha nem nagyon lehet hallani a légyítás kisérő utasításait,
-[01:19.420 --> 01:23.660]  akkor a rúzs segítségével könnyebben lehet szállról olvasni.
-[01:23.660 --> 01:30.180]  Valamint ez egy érdekes dolog, de a rúzsát az légyítás kisérő sokkal maga biztosabbnak tűnik,
-[01:30.180 --> 01:34.980]  ami ráragad az utasokra is, és így vészhelyzetben sokkal inkább meg biztnak benne.
-[01:34.980 --> 01:39.360]  És jó tudom, a férfikrúk nincsenki rúzsózba, de nem is velük van tele a járt.
-[01:39.360 --> 01:45.900]  És egyébként a férféjaknak is voltak kötelező dolgok a kinézetükre vonatkozóan.
-[01:45.900 --> 01:52.860]  Hajuk az nem lehetett hosszú, csak rövid, szakállat nem is elhettek, borostáljuk nem lehetett,
-[01:52.860 --> 01:56.780]  tehát minden egyes járölet előtt frissen kellett borot válkozniuk.
-[01:56.780 --> 02:01.660]  Bayusz megengedett volt, tisztán tartott szép bayusz.
-[02:01.660 --> 02:07.740]  A nőknél is meg volt a hajviseletre is az eljárás, tehát mindig fel kellett tűzni a hajat valamilyen formában,
-[02:07.740 --> 02:16.680]  szof nem lehetett, konyban vagy benne a french twistben feltűzve, semmi hajnám lókatott kitát,
-[02:16.680 --> 02:20.520]  ami most nekem van ez így nem volt, hogy azt így el kellett szépen tűzni,
-[02:20.520 --> 02:24.040]  babahajak se lók hattak ki azokat, le kellett zselézni.
+A lékyutás kisérőknek kötelező az a tömérdek smink, az a félkiló vakolat.
+A választ rövide nasz, hogy igen, de van aki valóban túlzásba esik és túrsok sminket rak fel, túl, erős sminket teszem, tagadom.
+Ezért van egy alapelőírás, hogy miket kell feltenni az arcodra, hogyan sminkej,
+és ezt a már alapjáraton elég erős sminket lesz.
+Tehát mi az, ami kötelező alapozó mindenképp, púder és elvileg kötelező, aztán, hogy azt is rövészik, hogy vörögtede vagy sem az már más kérdés,
+pirosító vagy bronzosító esetleg mindkettő, szemöldök cerúzza, hogy a szemöldök edett megformázt,
+az is fontos majd szemhéjfesték, vagy egy bézs, barnás színű szemhéjfestéket kell használnod, vagy feket a szemhétust,
+de használhatod mindakettőt is, és ez szempélylos pirál, ami kötelező.
+És hát nyilván, ami a leginkább kötelező, és ez minden légyításoságnál így van, a rúzs használatan.
+Nálunk a piros rúzs volt kötelező, és itt jön az érdekes rész, a rúzsnak egyébként utasbiztonsági okai is vannak,
+ugyanis egy vészhelyzet esetén nagy hangzavarba, hogy ha nem nagyon lehet hallani a légyítás kisérő utasításait,
+akkor a rúzs segítségével könnyebben lehet szállról olvasni.
+Valamint ez egy érdekes dolog, de a rúzsát az légyítás kisérő sokkal maga biztosabbnak tűnik,
+ami ráragad az utasokra is, és így vészhelyzetben sokkal inkább meg biztnak benne.
+És jó tudom, a férfikrúk nincsenki rúzsózba, de nem is velük van tele a járt.
+És egyébként a férféjaknak is voltak kötelező dolgok a kinézetükre vonatkozóan.
+Hajuk az nem lehetett hosszú, csak rövid, szakállat nem is elhettek, borostáljuk nem lehetett,
+tehát minden egyes járölet előtt frissen kellett borot válkozniuk.
+Bayusz megengedett volt, tisztán tartott szép bayusz.
+A nőknél is meg volt a hajviseletre is az eljárás, tehát mindig fel kellett tűzni a hajat valamilyen formában,
+szof nem lehetett, konyban vagy benne a french twistben feltűzve, semmi hajnám lókatott kitát,
+ami most nekem van ez így nem volt, hogy azt így el kellett szépen tűzni,
+babahajak se lók hattak ki azokat, le kellett zselézni.
