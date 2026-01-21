@@ -1695,3 +1695,20 @@ Igen.
 -----
 
 [Reel](https://www.instagram.com/reels/DTuPVunjLy-/)
+
+[00:00.000 --> 00:02.940]  Milyen sokszor hangzik el ez a kritika, hogy ez csak egy gép.
+[00:02.940 --> 00:05.740]  És hogy egy gépnek a gondolatait olvasod.
+[00:05.740 --> 00:08.540]  És mindig azon gondolkodom közben, amikor ezt hallgatom, hogy
+[00:08.540 --> 00:14.880]  hát igazából ez a gép embereknek a gondolataiból júrja össze azt a vála, azt a mit ad.
+[00:14.880 --> 00:18.700]  És kicsit olyan ez, mint egy ilyen személyre szabott szik,
+[00:18.700 --> 00:21.620]  mert hogy egyébként hány szor van azt, hogy minjuk olvasunk egy szikket,
+[00:21.620 --> 00:26.180]  vagy egy témában, és akkor fogom magamra ismert, nem tényleg olyan,
+[00:26.180 --> 00:32.400]  olyan, mint ha rólam szólna, és hogy nem nekem érták kifejezetten azt a szikket,
+[00:32.400 --> 00:36.880]  de mégis már önmagában azt, hogy azt hallottam,
+[00:36.880 --> 00:39.440]  amire ott téppen szükségem volt, hogy azt olvastam,
+[00:39.440 --> 00:43.880]  amire ott akkor téppen szükségem volt, az önmagában tud segíteni.
+[00:43.880 --> 00:48.480]  És szerintem ennek ez az erőssége, hogy ha most én személyre szabott szikkek meggondolkodunk,
+[00:48.480 --> 00:53.880]  hogy sokszor tud normalizáni olyan érzéseket olyan gondolatokat,
+[00:53.880 --> 00:58.100]  amiket több normáliség keresztül megyek, de mondjuk sosem olvastam még egy szikben sem,
+[00:58.100 --> 01:00.260]  vagy nem találkoztam még ezzel korábban,
+[01:00.260 --> 01:05.880]  és akkor személyre szabottan leírtja nekem, hogy ez így akár rendben is van.
