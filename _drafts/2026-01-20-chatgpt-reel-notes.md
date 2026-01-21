@@ -1516,9 +1516,56 @@ Even at the Guinness brewery, they’d click their tongues in satisfaction at th
 
 [Reel](https://www.instagram.com/reels/DTuoAB4jVf5/)
 
-Három mondat, amivel bármelyik férfi égóját összetöröd. Első. "Nem vagyok mérgés, csak kezdek kiábrándulni belőled."
-Második. "Ha túl sok vagyok, akkor igazából te nem vagy elég jó."
-És az utolsót azoknak ajánlanám, akik folyamatosan beleesnak abba a csapdába, hogy csiki-csukizik velük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.
-Mindannyian voltunk itt. Úgy hogy ezt nektek ajánlom.
-"A tény, hogy mindig te jössz vissza hozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma."
-Ha eleged van abból, hogy folyton kihasználnak vagy manipulálni próbálnak és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezz be hozzám személyes konzultációra!
+## Line-by-line translation
+
+**Három mondat, amivel bármelyik férfi egóját összetöröd.**
+Three sentences that will shatter any man’s ego.
+
+**Első.**
+First.
+
+**„Nem vagyok mérges, csak kezdek kiábrándulni belőled.”**
+“I’m not angry, I’m just starting to become disillusioned with you.”
+
+**Második.**
+Second.
+
+**„Ha túl sok vagyok, akkor igazából te nem vagy elég jó.”**
+“If I’m too much, then really you’re just not good enough.”
+
+**És az utolsót azoknak ajánlanám, akik folyamatosan beleesnek abba a csapdába, hogy csiki-csukizik velük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.**
+And I’d recommend the last one to those who constantly fall into the trap of a man playing hot-and-cold with them, and who always believe it’ll be different, but in reality keep getting taken advantage of.
+
+**Mindannyian voltunk itt.**
+We’ve all been there.
+
+**Úgyhogy ezt nektek ajánlom.**
+So this one’s for you.
+
+**„A tény, hogy mindig te jössz vissza hozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma.”**
+“The fact that you’re always the one who comes back to me is living proof that I’m not the problem here.”
+
+**Ha eleged van abból, hogy folyton kihasználnak vagy manipulálni próbálnak, és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezz be hozzám személyes konzultációra!**
+If you’re fed up with constantly being taken advantage of or manipulated, and you want to learn how to see through it and prevent it, then sign up with me for a personal consultation!
+
+---
+
+## Vocabulary
+
+**három mondat** – three sentences
+**egó** – ego
+**összetör** – to shatter, break completely
+**mérges** – angry
+**kiábrándul** – to become disillusioned
+**túl sok** – too much
+**elég jó** – good enough
+**ajánl** – to recommend
+**beleesik egy csapdába** – to fall into a trap
+**csiki-csukizik** – to play hot and cold
+**kihasznál** – to take advantage of, exploit
+**tény** – fact
+**élő bizonyíték** – living proof
+**manipulál** – to manipulate
+**átlát (valamin)** – to see through (something)
+**megelőz** – to prevent
+**személyes konzultáció** – personal consultation
