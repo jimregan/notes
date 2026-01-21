@@ -68,16 +68,16 @@ don’t waste your precious time on him.
 
 [Reel](https://www.instagram.com/reels/DRphJ6pjHJP/)
 
-[00:00.000 --> 00:03.900]  Random dolgok a nőkben, amiket a férfiak vonzónak találnak, második rész.
-[00:03.900 --> 00:07.400]  A lehető legjobb embereket kérdezem ki, és nagyon jókat mondanak.
-[00:07.400 --> 00:13.500]  Az első dolog az, amikor valamihez nagyon ért és a családja és a barátai ezen a területen mindig tőle kérnek tanácsot.
-[00:13.500 --> 00:15.900]  Ezt szerintem amúgy a férfiakban is nagyon vonzó.
-[00:15.900 --> 00:20.400]  A következőt nagyon sokan mondták, de az az, amikor otthon a férfi ruháit viseli.
-[00:20.400 --> 00:25.100]  Azt is sokan vonzónak tártják, hogyha jó az illata, kifejezetten, hogyha hajának jó az illata.
-[00:25.100 --> 00:29.100]  Ha szereti az állatokat és a gyerekeket, szerintem ez is oda visszalapon működik,
-[00:29.100 --> 00:34.000]  a következő is nagyon jó, és az az, hogy mindig kedves és illedelmes a felszolgálókkal.
-[00:34.000 --> 00:38.200]  Valaki azt is mondta, hogy szereti, hogyha kész fogás helyet a kezébe karolva sétálnak,
-[00:38.200 --> 00:40.500]  mert ettől egy kicsit védelmezőnek érzi magát,
-[00:40.500 --> 00:44.700]  és a stílusos kifejezetten az elegáns öltözködést is többen mondták.
-[00:44.700 --> 00:49.400]  Szerintem ezekkel a dolgokkal a legtöbb férfi egyet fog értani, de írjátok meg, hogyha valamit kihajtam.
-[00:49.400 --> 00:51.800]  Illetve azt is, hogyha szeretnétek 3. krészt.
+Random dolgok a nőkben, amiket a férfiak vonzónak találnak, második rész.
+A lehető legjobb embereket kérdezem ki, és nagyon jókat mondanak.
+Az első dolog az, amikor valamihez nagyon ért és a családja és a barátai ezen a területen mindig tőle kérnek tanácsot.
+Ezt szerintem amúgy a férfiakban is nagyon vonzó.
+A következőt nagyon sokan mondták, de az az, amikor otthon a férfi ruháit viseli.
+Azt is sokan vonzónak tártják, hogyha jó az illata, kifejezetten, hogyha hajának jó az illata.
+Ha szereti az állatokat és a gyerekeket, szerintem ez is oda visszalapon működik,
+a következő is nagyon jó, és az az, hogy mindig kedves és illedelmes a felszolgálókkal.
+Valaki azt is mondta, hogy szereti, hogyha kész fogás helyet a kezébe karolva sétálnak,
+mert ettől egy kicsit védelmezőnek érzi magát,
+és a stílusos kifejezetten az elegáns öltözködést is többen mondták.
+Szerintem ezekkel a dolgokkal a legtöbb férfi egyet fog értani, de írjátok meg, hogyha valamit kihajtam.
+Illetve azt is, hogyha szeretnétek 3. krészt.
