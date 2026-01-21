@@ -9,7 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTVN-pVjKw1/)
 
-### Text + line-by-line translation
+### Text + line-by-line translation
 
 **Ková tűnt az a két liter pálinka?**
 
@@ -38,7 +38,7 @@ A **spiritual / emotional wound**.
 
 * **lelki** = mental, emotional, spiritual
 
-### Vocabulary list
+### Vocabulary list
 
 * **hová tűnik** – disappear (to where)
 * **pálinka** – Hungarian fruit brandy
