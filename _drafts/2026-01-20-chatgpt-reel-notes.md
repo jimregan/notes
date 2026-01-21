@@ -1519,36 +1519,44 @@ Even at the Guinness brewery, they’d click their tongues in satisfaction at th
 ## Line-by-line translation
 
 **Három mondat, amivel bármelyik férfi egóját összetöröd.**
+
 Three sentences that will shatter any man’s ego.
 
 **Első.**
+
 First.
 
 **„Nem vagyok mérges, csak kezdek kiábrándulni belőled.”**
+
 “I’m not angry, I’m just starting to become disillusioned with you.”
 
 **Második.**
+
 Second.
 
 **„Ha túl sok vagyok, akkor igazából te nem vagy elég jó.”**
+
 “If I’m too much, then really you’re just not good enough.”
 
 **És az utolsót azoknak ajánlanám, akik folyamatosan beleesnek abba a csapdába, hogy csiki-csukizik velük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.**
+
 And I’d recommend the last one to those who constantly fall into the trap of a man playing hot-and-cold with them, and who always believe it’ll be different, but in reality keep getting taken advantage of.
 
 **Mindannyian voltunk itt.**
+
 We’ve all been there.
 
 **Úgyhogy ezt nektek ajánlom.**
+
 So this one’s for you.
 
 **„A tény, hogy mindig te jössz vissza hozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma.”**
+
 “The fact that you’re always the one who comes back to me is living proof that I’m not the problem here.”
 
 **Ha eleged van abból, hogy folyton kihasználnak vagy manipulálni próbálnak, és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezz be hozzám személyes konzultációra!**
-If you’re fed up with constantly being taken advantage of or manipulated, and you want to learn how to see through it and prevent it, then sign up with me for a personal consultation!
 
----
+If you’re fed up with constantly being taken advantage of or manipulated, and you want to learn how to see through it and prevent it, then sign up with me for a personal consultation!
 
 ## Vocabulary
 
