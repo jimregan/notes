@@ -1630,3 +1630,14 @@ And there are definitely ones where the whole thing was a dominatrix-type situat
 **ordibál** – to scream, yell
 **csúnya szavak** – nasty / vulgar words
 **köpködősen** – spittingly, with spitting
+
+-----
+
+[Reel](https://www.instagram.com/reels/DR-EeSYjYp6/)
+
+[00:00.000 --> 00:02.300]  És hogy miért rossz a farok?
+[00:02.300 --> 00:04.700]  Nem önmagában a farok rossz?
+[00:04.700 --> 00:08.900]  Az összes, farkatviselő egyén rossz!
+[00:08.900 --> 00:12.500]  Állatok, mocskok, disznók, rohadt, parasz!
+[00:12.500 --> 00:13.700]  Ez nem igaz?
+[00:16.200 --> 00:17.700]  Hogy mondtad, Gedvesen?
