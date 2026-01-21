@@ -1679,18 +1679,17 @@ How did you put it nicely?
 
 [Reel](https://www.instagram.com/reels/DSMqbjdD1Mb/)
 
-volt ilyen, amikor mind a három tetszettünk egy fiúnak,
+Volt ilyen, amikor mind a hárman tetszettünk egy fiúnak,
 de volt közöttünk egy ilyen megállapodás.
-Ez azóta is tart, hogyha egy fiú mind a háromunkkal kiszeretne kezdeni,
-vagy mind a háromunk tetszik neki, akkor az ilyen tiltadzóna,
-és hogy akkor viszont semeikön nem.
-Még szerintem az önmagában is gász, hogyha egy fiú vagyok,
-egy cselnap belemény, mindenkit randira hív,
-de alapvetően más az izlésünk a múlt férfiakterén is.
-Igen, így kimondottam, hogy most mi ki szemálytunk volna,
-valakit az nem fordult úgy, de úgy komolyabban most.
-Gyere.
-Akkor van volna csak ilyen.
+Ez azóta is tart, hogy ha egy fiú mind a hármunkkal ki szeretne kezdeni,
+vagy mindhármunk tetszik neki, akkor az ilyen tiltott zóna,
+és hogy akkor viszont semelyikönk nem.
+Még szerintem az önmagában is gáz. Ha egy fiú mondjuk,
+egy családon belul mindenkit randira hív,
+de alapvetően más az izlésük amúgy férfiak terén is.
+Igen, így kimondottan, hogy most mi kiszemelítünk volna
+valakit, az nem fordult elő komolyabban most.
+Gyerekkorban volt csak ilyen.
 Igen.
 
 -----
