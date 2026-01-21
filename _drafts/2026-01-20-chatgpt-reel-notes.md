@@ -1679,6 +1679,20 @@ How did you put it nicely?
 
 [Reel](https://www.instagram.com/reels/DSMqbjdD1Mb/)
 
+[00:00.000 --> 00:03.180]  volt ilyen, amikor mind a három tetszettünk egy fiúnak,
+[00:03.180 --> 00:05.580]  de volt közöttünk egy ilyen megállapodás.
+[00:05.580 --> 00:13.020]  Ez azóta is tart, hogyha egy fiú mind a háromunkkal kiszeretne kezdeni,
+[00:13.020 --> 00:19.660]  vagy mind a háromunk tetszik neki, akkor az ilyen tiltadzóna,
+[00:19.660 --> 00:22.380]  és hogy akkor viszont semeikön nem.
+[00:22.380 --> 00:25.020]  Még szerintem az önmagában is gász, hogyha egy fiú vagyok,
+[00:25.020 --> 00:27.380]  egy cselnap belemény, mindenkit randira hív,
+[00:27.460 --> 00:30.940]  de alapvetően más az izlésünk a múlt férfiakterén is.
+[00:30.940 --> 00:33.940]  Igen, így kimondottam, hogy most mi ki szemálytunk volna,
+[00:33.940 --> 00:38.460]  valakit az nem fordult úgy, de úgy komolyabban most.
+[00:38.460 --> 00:38.960]  Gyere.
+[00:38.960 --> 00:40.060]  Akkor van volna csak ilyen.
+[00:40.060 --> 00:40.560]  Igen.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DTuPVunjLy-/)
