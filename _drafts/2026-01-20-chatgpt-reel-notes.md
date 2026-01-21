@@ -1577,3 +1577,14 @@ If you’re fed up with constantly being taken advantage of or manipulated, and 
 **átlát (valamin)** – to see through (something)
 **megelőz** – to prevent
 **személyes konzultáció** – personal consultation
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTvR7_BDBus/)
+
+[00:00.000 --> 00:05.100]  Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a szeméségén látszik, hogy milyen szexből született.
+[00:05.100 --> 00:09.820]  Mert mutatja, hogy ilyen kezves szerelmes szeretkezősből, vagy ilyen durvábbien békülősből.
+[00:09.820 --> 00:16.140]  Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív békülős, de igazából ilyen gyűlelet szexből született.
+[00:16.140 --> 00:20.780]  Vagy van ilyen ismerősemi, seki biztos vagyok benne, hogy valamilyen drogbe folyása alatt.
+[00:20.780 --> 00:25.480]  De olyan is van, ahol látszik, hogy apa öt órát késett a randíról, és miért, mert az egész ilyen nagyon szárhangulatban telt.
+[00:25.480 --> 00:32.200]  De biztos, hogy olyan is van, ahol ilyen dominasszitú volt az egész, hogy valaki a végig hordibáltak, de ilyen nagyon csúnyaszavakat, meg köpködősen.
