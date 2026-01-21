@@ -53,3 +53,6 @@ categories: [links]
 
 [Acoustic Features and Auditory Impressions of Death Growl and Screaming Voice](https://ieeexplore.ieee.org/document/6846676)
 
+[kba/jsonld-rapper](https://github.com/kba/jsonld-rapper) --- Convert between RDF and JSON-LD using rapper
+
+
