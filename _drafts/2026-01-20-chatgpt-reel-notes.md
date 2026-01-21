@@ -1635,12 +1635,42 @@ And there are definitely ones where the whole thing was a dominatrix-type situat
 
 [Reel](https://www.instagram.com/reels/DR-EeSYjYp6/)
 
-És hogy miért rossz a farok?
-Nem önmagában a farok rossz.
-Az összes farkat viselő egyén rossz.
-Állatok, mocskok, disznók, rohadt paraziták...
-Ez nem igaz!
-Hogy mondtad kedvesen?
+## Line-by-line translation
+
+**És hogy miért rossz a farok?**
+And why is dick bad?
+
+**Nem önmagában a farok rossz.**
+The dick itself isn’t bad.
+
+**Az összes farkat viselő egyén rossz.**
+All individuals who carry a dick are bad.
+
+**Állatok, mocskok, disznók, rohadt paraziták...**
+Animals, filth, pigs, rotten parasites…
+
+**Ez nem igaz!**
+That’s not true!
+
+**Hogy mondtad kedvesen?**
+How did you put it nicely?
+
+---
+
+## Vocabulary
+
+**farok** – literally “tail”; slang for *penis*
+**önmagában** – in itself, by itself
+**farkat viselő** – dick-carrying (deliberately crude phrasing)
+**egyén** – individual
+**állat** – animal (as an insult: brute)
+**mocsok** – filth, scum
+**disznó** – pig (insult: disgusting person)
+**rohadt** – rotten, damn(ed), fucking (intensifier)
+**parazita** – parasite
+**nem igaz** – not true
+**kedvesen** – nicely, politely
+
 
 -----
 
