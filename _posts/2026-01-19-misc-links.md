@@ -32,3 +32,24 @@ categories: [links]
 [Super Monotonic Alignment Search](https://arxiv.org/abs/2409.07704),
 [code](https://github.com/supertone-inc/super-monotonic-align)
 
+[Michael Fitzgerald presentation at Thurles Library](https://www.tipperarylive.ie/news/thurles/1564723/special-presentation-made-at-thurles-library.html)
+
+[Bridging the gap: A comparative exploration of Speech-LLM and end-to-end architecture for multilingual conversational ASR](https://arxiv.org/abs/2601.01461),
+[code](https://github.com/YuCeong-May/MLC-SLM)
+
+[MoST: Mixing Speech and Text with Modality-Aware Mixture of Experts](https://arxiv.org/abs/2601.10272),
+[code](https://github.com/NUS-HPC-AI-Lab/MoST)
+
+[FEX-Emu/FEX](https://github.com/FEX-Emu/FEX) --- A fast usermode x86 and x86-64 emulator for Arm64 Linux
+
+[DSA-Tokenizer: Disentangled Semantic-Acoustic Tokenization via Flow Matching-based Hierarchical Fusion](https://arxiv.org/abs/2601.09239)
+
+[AndreRH/hangover](https://github.com/AndreRH/hangover) --- Hangover runs Win64 and Win32 applications on arm64 Linux
+
+[facebook/map-anything-benchmarking](https://huggingface.co/datasets/facebook/map-anything-benchmarking) --- Apache 2.0
+
+[SLAM-LLM: A Modular, Open-Source Multimodal Large Language Model Framework and Best Practice for Speech, Language, Audio and Music Processing](https://arxiv.org/abs/2601.09385),
+[code](https://github.com/X-LANCE/SLAM-LLM)
+
+[Acoustic Features and Auditory Impressions of Death Growl and Screaming Voice](https://ieeexplore.ieee.org/document/6846676)
+
