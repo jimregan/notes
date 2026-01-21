@@ -1582,11 +1582,46 @@ If you’re fed up with constantly being taken advantage of or manipulated, and 
 
 [Reel](https://www.instagram.com/reels/DTvR7_BDBus/)
 
-B*szó személyiségek
+## Line-by-line translation
 
-Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a személyiségén látszik, hogy milyen szexből született (*fogant).
-Mármint, hogy ilyen kezves szerelmes szeretkezősből, vagy ilyen durvább, ilyen békülősből.
-Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív, békülős, de igazából ilyen gyűlólet szexből született.
-Vagy van ilyen ismerősem is, aki biztos vagyok benne, hogy valamilyen drog befolyása alatt.
-De olyan is van, ahol látszik, hogy apa öt órát késett a randíról, és emiatt már az egész ilyen nagyon szár hangulatban telt.
-De biztos, hogy olyan is van, ahol ilyen domina szitú volt az egész, hogy valakivel végig ordibáltak, de ilyen nagyon csúnya szavakat, meg köpködősen.
+**B*szó személyiségek**
+F*cked-up personalities
+
+**Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a személyiségén látszik, hogy milyen szexből született (*fogant).**
+Now, I’m not a doctor, but I’m sure you can tell from everyone’s personality what kind of sex they were born from (*conceived from).
+
+**Mármint, hogy ilyen kedves, szerelmes szeretkezésből, vagy ilyen durvább, ilyen békülősből.**
+I mean, whether it was from some sweet, loving lovemaking, or a rougher kind, like make-up sex.
+
+**Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív, békülős, de igazából ilyen gyűlölet-szexből született.**
+For example, I have a boss who I’m sure was born from this manipulative make-up sex, but really more like hate sex.
+
+**Vagy van ilyen ismerősöm is, aki biztos vagyok benne, hogy valamilyen drog befolyása alatt.**
+Or I also have an acquaintance who I’m sure was conceived under the influence of some kind of drug.
+
+**De olyan is van, ahol látszik, hogy apa öt órát késett a randiról, és emiatt már az egész ilyen nagyon szar hangulatban telt.**
+And there are cases where you can tell the dad was five hours late for the date, and because of that the whole thing happened in a really shitty mood.
+
+**De biztos, hogy olyan is van, ahol ilyen domina szitu volt az egész, hogy valakivel végig ordibáltak, de ilyen nagyon csúnya szavakat, meg köpködősen.**
+And there are definitely ones where the whole thing was a dominatrix-type situation, where someone was being screamed at the entire time, with really nasty words, and spitting and all.
+
+---
+
+## Vocabulary
+
+**személyiség** – personality
+**fogant / született** – conceived / born
+**szeretkezés** – lovemaking
+**durva** – rough, harsh
+**békülős (szex)** – make-up (sex after a fight)
+**manipulatív** – manipulative
+**gyűlölet-szex** – hate sex
+**befolyása alatt** – under the influence (of something)
+**ismerős** – acquaintance
+**randiról** – from a date
+**hangulat** – mood, atmosphere
+**szar hangulat** – shitty mood
+**domina szitu** – dominatrix-type situation
+**ordibál** – to scream, yell
+**csúnya szavak** – nasty / vulgar words
+**köpködősen** – spittingly, with spitting
