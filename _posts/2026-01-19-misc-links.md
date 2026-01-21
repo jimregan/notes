@@ -55,4 +55,9 @@ categories: [links]
 
 [kba/jsonld-rapper](https://github.com/kba/jsonld-rapper) --- Convert between RDF and JSON-LD using rapper
 
+[Fine-Tuning gpt-oss for Accuracy and Performance with Quantization Aware Training](https://developer.nvidia.com/blog/fine-tuning-gpt-oss-for-accuracy-and-performance-with-quantization-aware-training/)
+
+[A Fast Bytecode VM for Arithmetic - The Compiler](https://abhinavsarkar.net/posts/arithmetic-bytecode-vm-compiler/)
+
+[Writing Speed-of-Light Flash Attention for 5090 in CUDA C++](https://gau-nernst.github.io/fa-5090/)
 
