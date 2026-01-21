@@ -7,7 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Reel](https://www.instagram.com/reel/DRUgG2PkXkN/)
+[Reel](https://www.instagram.com/reels/DRUgG2PkXkN/)
 
 ## Text + line-by-line translation
 
@@ -375,7 +375,7 @@ and if you like this content, then follow me!
 
 -----
 
-[Reel](https://www.instagram.com/reel/DS-q5f1CJmi/)
+[Reel](https://www.instagram.com/reels/DS-q5f1CJmi/)
 
 ## Text + line-by-line translation
 
@@ -512,7 +512,7 @@ Nothing, right?
 
 -----
 
-[Reel](https://www.instagram.com/reel/DSvF9ipiH1t/)
+[Reel](https://www.instagram.com/reels/DSvF9ipiH1t/)
 
 
 ## Text + line-by-line translation
@@ -649,11 +649,11 @@ No, no, *they don’t get the joke*, for fuck’s sake, they don’t get it.
 
 -----
 
-[Hupi Birthday](https://www.instagram.com/reel/DSI1qZuCHYX/)
+[Hupi Birthday](https://www.instagram.com/reels/DSI1qZuCHYX/)
 
 -----
 
-[Reel](https://www.instagram.com/reel/DRPtRpCDZWA/)
+[Reel](https://www.instagram.com/reels/DRPtRpCDZWA/)
 
 ## Text + line-by-line translation
 
@@ -848,7 +848,7 @@ And he was *so chill* that *I went with him*.
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTdLzQ2jbEZ/)
+[Reel](https://www.instagram.com/reels/DTdLzQ2jbEZ/)
 
 ## Text + line-by-line translation
 
@@ -1099,7 +1099,7 @@ So, *is your wife giving birth?*
 
 -----
 
-[Reel](https://www.instagram.com/reel/DTiP47fjdpr/)
+[Reel](https://www.instagram.com/reels/DTiP47fjdpr/)
 
 ## Text + line-by-line translation
 
