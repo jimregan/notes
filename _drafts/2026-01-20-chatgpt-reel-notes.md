@@ -1636,8 +1636,8 @@ And there are definitely ones where the whole thing was a dominatrix-type situat
 [Reel](https://www.instagram.com/reels/DR-EeSYjYp6/)
 
 És hogy miért rossz a farok?
-Nem önmagában a farok rossz?
-Az összes, farkatviselő egyén rossz!
-Állatok, mocskok, disznók, rohadt, parasz!
-Ez nem igaz?
-Hogy mondtad, Gedvesen?
+Nem önmagában a farok rossz.
+Az összes farkat viselő egyén rossz.
+Állatok, mocskok, disznók, rohadt paraziták...
+Ez nem igaz!
+Hogy mondtad kedvesen?
