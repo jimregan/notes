@@ -759,7 +759,6 @@ Right? Like, “Floor it!”
 * **hát** – emphatic marker
 * **nem?** – right? (tag question)
 
-
 -----
 
 [IGEN, tudom, hogy a mesterséges intelligencia és az AI ugyanaz.](https://www.instagram.com/reels/DTdQwNfD26K/)
