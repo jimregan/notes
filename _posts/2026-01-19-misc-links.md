@@ -17,3 +17,12 @@ categories: [links]
 
 [Posture reel](https://www.instagram.com/reels/DQhOaQrkjAV/)
 
+[The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
+
+[pacscilab](https://github.com/pacscilab)
+- [voxangeles](https://github.com/pacscilab/voxangeles)
+- [voxcommunis](https://github.com/pacscilab/voxcommunis)
+
+[echodroff/praat_scripts](https://github.com/echodroff/praat_scripts)
+
+
