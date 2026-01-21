@@ -1641,3 +1641,8 @@ Az összes farkat viselő egyén rossz.
 Állatok, mocskok, disznók, rohadt paraziták...
 Ez nem igaz!
 Hogy mondtad kedvesen?
+
+-----
+
+[Reel](https://www.instagram.com/reels/DSMqbjdD1Mb/)
+
