@@ -1682,42 +1682,52 @@ How did you put it nicely?
 ## Line-by-line translation
 
 **Volt ilyen, amikor mind a hárman tetszettünk egy fiúnak,**
+
 There was a time when all three of us were liked by the same guy,
 
 **de volt közöttünk egy ilyen megállapodás.**
+
 but we had this kind of agreement between us.
 
 **Ez azóta is tart, hogy ha egy fiú mind a hármunkkal ki szeretne kezdeni,**
+
 And it still stands: if a guy wants to hit on all three of us,
 
 **vagy mindhármunk tetszik neki, akkor az ilyen tiltott zóna,**
+
 or all three of us appeal to him, then that’s a kind of forbidden zone,
 
 **és hogy akkor viszont semelyikünk nem.**
+
 and in that case, none of us is an option.
 
 **Még szerintem az önmagában is gáz.**
+
 Honestly, I think that’s already cringe/problematic in itself.
 
 **Ha egy fiú mondjuk, egy családon belül mindenkit randira hív,**
+
 If a guy, say, asks everyone in a family out on a date,
 
 **de alapvetően más az ízlésük amúgy férfiak terén is.**
+
 even though their taste in men is fundamentally different anyway.
 
 **Igen, így kimondottan, hogy most mi kiszemeltünk volna**
+
 Yeah, specifically that we would have clearly set our sights on
 
 **valakit, az nem fordult elő komolyabban most.**
+
 someone like that hasn’t really happened seriously.
 
 **Gyerekkorban volt csak ilyen.**
+
 It only happened like that in childhood.
 
 **Igen.**
-Yeah.
 
----
+Yeah.
 
 ## Vocabulary
 
@@ -1735,7 +1745,6 @@ Yeah.
 **kiszemel** – to single out, set one’s sights on
 **előfordul** – to occur, happen
 **gyerekkor** – childhood
-
 
 -----
 
