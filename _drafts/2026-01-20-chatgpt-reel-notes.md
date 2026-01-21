@@ -1511,3 +1511,14 @@ Even at the Guinness brewery, they’d click their tongues in satisfaction at th
 **szétomlik** – falls apart
 **bő evőkanál** – heaping tablespoon
 **citromhéj** – lemon zest
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTuoAB4jVf5/)
+
+[00:00.000 --> 00:11.000]  Három mondat, amivel bármelyik férfélgúját összetöröd, első, nem vagyok mérgés, csak kezdek kiábrándolni belőled.
+[00:11.000 --> 00:18.000]  Második, ha túl sok vagyok, akkor igazából te nem vagy elég jó.
+[00:18.000 --> 00:33.000]  És az utolsó tazoknak ajánlanám, akik folyamatosan berásnak abba a csagdába, hogy csikicsuk izik belük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.
+[00:33.000 --> 00:37.000]  Mindannyian voltunk itt, úgyhogy ezt nektek ajánlom.
+[00:37.000 --> 00:45.000]  A tény, hogy mindig te jössz visszehozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma.
+[00:45.000 --> 00:59.000]  Ha eleged van, abhol, hogy folyton kihasználnak, vagy manipulálni próbálnak, és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezve hozzám személyes konzoltációra.
