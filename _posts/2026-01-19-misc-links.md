@@ -61,3 +61,23 @@ categories: [links]
 
 [Writing Speed-of-Light Flash Attention for 5090 in CUDA C++](https://gau-nernst.github.io/fa-5090/)
 
+[CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing](https://arxiv.org/abs/2508.15316),
+[code](https://github.com/tabahi/contexless-phonemes-CUPE)
+
+[Italian blasphemy and German ingenuity - how swear words differ around the world](https://www.theguardian.com/science/2025/oct/19/italian-blasphemy-and-german-ingenuity-how-swear-words-differ-around-the-world)
+
+[deepseek-ai/DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR)
+
+[Re-evaluating Minimum Bayes Risk Decoding for Automatic Speech Recognition](https://arxiv.org/abs/2510.19471),
+[code](https://github.com/CyberAgentAILab/mbr-for-asr)
+
+[The Free Transformer](https://arxiv.org/abs/2510.17558)
+
+[SpecTokenizer A Lightweight Streaming Codec in the Compressed Spectrum Domain](https://arxiv.org/abs/2510.21209)
+
+[Data-Centric Lessons To Improve Speech-Language Pretraining](https://arxiv.org/abs/2510.20860)
+
+[zserge/grayskull](https://github.com/zserge/grayskull) --- A tiny, dependency-free computer vision library in C for embedded systems, drones, and robotics.
+
+
+
