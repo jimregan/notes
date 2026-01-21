@@ -1753,72 +1753,92 @@ Yeah.
 ## Line-by-line translation
 
 **Olyan sokszor hangzik el ez a kritika, hogy ez csak egy gép.**
+
 This criticism comes up so often, that it’s “just a machine.”
 
 **És hogy egy gépnek a gondolatait olvasod.**
+
 And that you’re reading the thoughts of a machine.
 
 **És mindig azon gondolkodom közben, amikor ezt hallgatom, hogy**
+
 And I always find myself thinking, when I hear this, that
 
 **hát igazából ez a gép embereknek a gondolataiból gyúrja össze azt a választ, amit ad.**
+
 well actually, this machine puts together the answer it gives from people’s thoughts.
 
 **És kicsit olyan ez, mint egy ilyen személyre szabott cikk,**
+
 And it’s a bit like a personalized article,
 
 **mert hogy egyébként hányszor van az, hogy mondjuk olvasunk egy cikket,**
+
 because how often does it happen that, say, we read an article,
 
 **vagy egy témában, és akkor hú magamra ismertem tényleg.**
+
 on some topic, and then think, “wow, I really recognized myself in this.”
 
 **Ez olyan, mintha rólam szólna,**
+
 It feels like it’s about me,
 
 **és hogy nem nekem írták kifejezetten azt a cikket,**
+
 even though that article wasn’t written specifically for me,
 
 **de mégis már önmagában az, hogy azt hallottam,**
+
 but still, just the fact that I heard
 
 **amire ott éppen szükségem volt,**
+
 exactly what I needed at that moment,
 
 **vagy azt olvastam,**
+
 or read
 
 **amire ott akkor éppen szükségem volt,**
+
 what I happened to need right then,
 
 **az önmagában tud segíteni.**
+
 that alone can already help.
 
 **És szerintem ennek ez az erőssége,**
+
 And I think this is its strength,
 
 **hogyha most ilyen személyre szabott cikkekben gondolkodunk,**
+
 if we think in terms of personalized articles like this,
 
 **hogy sokszor tud normalizálni olyan érzéseket, olyan gondolatokat,**
+
 that it can often normalize feelings and thoughts
 
 **amiken tök normális, hogy keresztülmegyek,**
+
 that it’s completely normal for me to go through,
 
 **de mondjuk sosem olvastam még egy cikkben sem,**
+
 but that I’ve never really seen written about in an article before,
 
 **vagy nem találkoztam ezzel korábban,**
+
 or haven’t encountered previously,
 
 **és akkor személyre szabottan így leírja nekem,**
+
 and then it lays it out for me in a personalized way,
 
 **hogy hogy ez így akár rendben is van.**
-that this can actually be okay as it is.
 
----
+that this can actually be okay as it is.
 
 ## Vocabulary
 
