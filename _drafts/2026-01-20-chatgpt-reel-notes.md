@@ -1699,16 +1699,16 @@ Igen.
 Olyan sokszor hangzik el ez a kritika, hogy ez csak egy gép.
 És hogy egy gépnek a gondolatait olvasod.
 És mindig azon gondolkodom közben, amikor ezt hallgatom, hogy
-hát igazából ez a gép embereknek a gondolataiból júrja össze azt a vála, azt a mit ad.
-És kicsit olyan ez, mint egy ilyen személyre szabott szik,
-mert hogy egyébként hány szor van azt, hogy minjuk olvasunk egy szikket,
-vagy egy témában, és akkor fogom magamra ismert, nem tényleg olyan,
-olyan, mint ha rólam szólna, és hogy nem nekem érták kifejezetten azt a szikket,
-de mégis már önmagában azt, hogy azt hallottam,
-amire ott téppen szükségem volt, hogy azt olvastam,
-amire ott akkor téppen szükségem volt, az önmagában tud segíteni.
-És szerintem ennek ez az erőssége, hogy ha most én személyre szabott szikkek meggondolkodunk,
-hogy sokszor tud normalizáni olyan érzéseket olyan gondolatokat,
-amiket több normáliség keresztül megyek, de mondjuk sosem olvastam még egy szikben sem,
-vagy nem találkoztam még ezzel korábban,
-és akkor személyre szabottan leírtja nekem, hogy ez így akár rendben is van.
+hát igazából ez a gép embereknek a gondolataiból gyúrja össze azt a választ, amit ad.
+És kicsit olyan ez, mint egy ilyen személyre szabott cikk,
+mert hogy egyébként hányszor van az, hogy mondjuk olvasunk egy cikket,
+vagy egy témában, és akkor hú magamra ismertem tényleg. Ez olyan,
+mintha rólam szólna, és hogy nem nekem írták kifejezetten azt a cikket,
+de mégis már önmagában az, hogy azt hallottam,
+amire ott téppen szükségem volt, vagy azt olvastam,
+amire ott akkor éppen szükségem volt, az önmagába tud segíteni.
+És szerintem ennek ez az erőssége, hogyha most ilyen személyre szabott cikkekben gondolkodunk,
+hogy sokszor tud normalizálni olyan érzéseket, olyan gondolatokat,
+amiken tök normális, hogy keresztül megyek, de mondjuk sosem olvastam még egy cikkben sem,
+vagy nem találkoztam ezzel korábban,
+és akkor személyre szabottan így leírja nekem, hogy hogy ez így akár rendben is van.
