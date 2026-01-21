@@ -1582,9 +1582,11 @@ If you’re fed up with constantly being taken advantage of or manipulated, and 
 
 [Reel](https://www.instagram.com/reels/DTvR7_BDBus/)
 
-Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a szeméségén látszik, hogy milyen szexből született.
-Mert mutatja, hogy ilyen kezves szerelmes szeretkezősből, vagy ilyen durvábbien békülősből.
-Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív békülős, de igazából ilyen gyűlelet szexből született.
-Vagy van ilyen ismerősemi, seki biztos vagyok benne, hogy valamilyen drogbe folyása alatt.
-De olyan is van, ahol látszik, hogy apa öt órát késett a randíról, és miért, mert az egész ilyen nagyon szárhangulatban telt.
-De biztos, hogy olyan is van, ahol ilyen dominasszitú volt az egész, hogy valaki a végig hordibáltak, de ilyen nagyon csúnyaszavakat, meg köpködősen.
+B*szó személyiségek
+
+Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a személyiségén látszik, hogy milyen szexből született (*fogant).
+Mármint, hogy ilyen kezves szerelmes szeretkezősből, vagy ilyen durvább, ilyen békülősből.
+Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív, békülős, de igazából ilyen gyűlólet szexből született.
+Vagy van ilyen ismerősem is, aki biztos vagyok benne, hogy valamilyen drog befolyása alatt.
+De olyan is van, ahol látszik, hogy apa öt órát késett a randíról, és emiatt már az egész ilyen nagyon szár hangulatban telt.
+De biztos, hogy olyan is van, ahol ilyen domina szitú volt az egész, hogy valakivel végig ordibáltak, de ilyen nagyon csúnya szavakat, meg köpködősen.
