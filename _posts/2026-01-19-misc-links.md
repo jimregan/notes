@@ -10,3 +10,5 @@ categories: [links]
 [Add pocketsphinx_to_textgrid utility for Praat TextGrid conversion](https://github.com/cmusphinx/pocketsphinx/pull/456/files)
 
 [ReadAlong Studio](https://readalong-studio.mothertongues.org/)
+
+[Sails Of Charon - Scorpions (Cover & TAB)](https://www.youtube.com/watch?v=6bFQSc6I_8w)
