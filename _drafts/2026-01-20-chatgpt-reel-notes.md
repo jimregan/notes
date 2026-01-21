@@ -1585,27 +1585,32 @@ If you’re fed up with constantly being taken advantage of or manipulated, and 
 ## Line-by-line translation
 
 **B*szó személyiségek**
+
 F*cked-up personalities
 
-**Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a személyiségén látszik, hogy milyen szexből született (*fogant).**
-Now, I’m not a doctor, but I’m sure you can tell from everyone’s personality what kind of sex they were born from (*conceived from).
+**Na most én nem vagyok orvos, de biztos vagyok benne, hogy mindenkinek a személyiségén látszik, hogy milyen szexből született (fogant).**
+
+Now, I’m not a doctor, but I’m sure you can tell from everyone’s personality what kind of sex they were born from (conceived from).
 
 **Mármint, hogy ilyen kedves, szerelmes szeretkezésből, vagy ilyen durvább, ilyen békülősből.**
+
 I mean, whether it was from some sweet, loving lovemaking, or a rougher kind, like make-up sex.
 
 **Például van egy főnököm, aki biztos vagyok benne, hogy ilyen manipulatív, békülős, de igazából ilyen gyűlölet-szexből született.**
+
 For example, I have a boss who I’m sure was born from this manipulative make-up sex, but really more like hate sex.
 
 **Vagy van ilyen ismerősöm is, aki biztos vagyok benne, hogy valamilyen drog befolyása alatt.**
+
 Or I also have an acquaintance who I’m sure was conceived under the influence of some kind of drug.
 
 **De olyan is van, ahol látszik, hogy apa öt órát késett a randiról, és emiatt már az egész ilyen nagyon szar hangulatban telt.**
+
 And there are cases where you can tell the dad was five hours late for the date, and because of that the whole thing happened in a really shitty mood.
 
 **De biztos, hogy olyan is van, ahol ilyen domina szitu volt az egész, hogy valakivel végig ordibáltak, de ilyen nagyon csúnya szavakat, meg köpködősen.**
-And there are definitely ones where the whole thing was a dominatrix-type situation, where someone was being screamed at the entire time, with really nasty words, and spitting and all.
 
----
+And there are definitely ones where the whole thing was a dominatrix-type situation, where someone was being screamed at the entire time, with really nasty words, and spitting and all.
 
 ## Vocabulary
 
