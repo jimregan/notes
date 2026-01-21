@@ -1638,24 +1638,28 @@ And there are definitely ones where the whole thing was a dominatrix-type situat
 ## Line-by-line translation
 
 **És hogy miért rossz a farok?**
+
 And why is dick bad?
 
 **Nem önmagában a farok rossz.**
+
 The dick itself isn’t bad.
 
 **Az összes farkat viselő egyén rossz.**
+
 All individuals who carry a dick are bad.
 
 **Állatok, mocskok, disznók, rohadt paraziták...**
+
 Animals, filth, pigs, rotten parasites…
 
 **Ez nem igaz!**
+
 That’s not true!
 
 **Hogy mondtad kedvesen?**
-How did you put it nicely?
 
----
+How did you put it nicely?
 
 ## Vocabulary
 
@@ -1670,7 +1674,6 @@ How did you put it nicely?
 **parazita** – parasite
 **nem igaz** – not true
 **kedvesen** – nicely, politely
-
 
 -----
 
