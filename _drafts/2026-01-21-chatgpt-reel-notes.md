@@ -9,10 +9,12 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DSKB7QljBr5/)
 
-Dragámszorint nem te elfelejtettet, ahogy te valakinek a hiányzó portája vagy,
+A férfi aki a tiéd
+
+Dragám szerintem te elfelejtetted, hogy te valakinek a hiányzó bordája vagy,
 és most itt az ideje, hogy ennek megfelelően viselkedj.
-Ne, őldöz, senkit, inkább onsz magadhoz,
-a férfi, aki a tiéd, tudni fogja ki vagy,
-amint meg láttéged.
-És ha nem lát meg, akkor ő nem a trámbered,
-ne pazar oldrá a drága idődet.
+Ne üldözz senkit, inkább vonzd magadhoz
+a férfi aki a tiéd, tudni fogja ki vagy
+amint meglát téged.
+És ha nem lát meg, akkor ő nem a te embered,
+ne pazarold rá a drága idődet.
