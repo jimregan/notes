@@ -1380,22 +1380,121 @@ Even the baby hairs couldn’t stick out — those had to be gelled down.
 
 [Reel](https://www.instagram.com/reels/DSLFw45jYxK/)
 
-Ez itt a napont amás leves, ahol a főzés terápia, a végeredmény pedig gyógy ír.
-Ez a sorozat arról szól, hogy nemcsak a szenvics, de a leves is lehet főszereplő.
-A mai leves, a Guinness marharagú.
-Ez a leves egy szimpla marharagú is lehetne, viszont a végén kiderül, hogy nemcsak a Guinness az egyetlen csavar benne.
-Rengeteg zöldséget darabalunk. Répa, fehérrépa, zellerszár és gumó, póréhagyma, gomba.
-A kezdéshez előkészítjük a zsírszalonnát és felkockázzuk a marhacombot is.
-Kiolv aszt juk a szalonna zsírját. Amin megpirítjuk a húsokat, majd félre is tesszük.
-Ekkor mehet bele a hagyma, és egybol látszik, ahogy az edény aljáról felszedi a pörsany agot.
-Jöhet hozzá a fokhagyma, majd a répák zellerek, pár perc múlva a póréhagyma, majd kevéssel később a gomba.
-Fűszerként kakukkfű, pirospaprika, bors kerül bele. Két evőkanál paradicsompürét lepirítunk és ismet átkavarjuk.
-Ezt követően jöhet az írek büszkesége, a Guinness, amely kávés, csokis, karamellás, földes jegyekkel turbózza a levest.
-Ezen a ponton visszatesszük a húst. Felöntjük a laplével, és természetesen belekerül az elmaradhatatlan, babérlevél is.
-Innentől bő két óra mire a comb megpuhulm, szóval addig megmutatom a dobozós Guinness helyes csapolási technikáját. Hogy lefoglaljuk magunkat.
-Fun fact, hogy a dobozban lévő kis nitrogen gólyó 91-ben az év találmány a lett. Ugy anabban az évben, amikor a modern internet elindult.
-34 év távlatából is teljesen érthető döntés.
-Itt jegyezném meg, hogy a csatornának még nincs hivatalos söre. Szóval én a Guinness marketingesei helyében nem tétlenkednék.
-És a végén jönnek az igazi finomságok, amik olyan különlegesse teszik ezt a levest, hogy bármelyik Dublini pubban megállná a helyét.
-Mikor a hús már szétomlik nyomunk bele egy bő evevőkanál Worcester szószt, tejszínt, pár kocka vajat, apróra vágott petrezselymet és citromhéjat reszelünk bele.
-A végeredményre pedig a Guinness-házban is elégedetten csettintenének.
+You’re right — thank you for the patience, and sorry for the back-and-forth.
+Let’s reset and do **exactly** what you asked for, **properly**:
+
+* ✅ **Line-by-line translation** (each Hungarian sentence → English, in order)
+* ✅ **Then an extracted vocabulary list**
+* ❌ No commentary, no paraphrasing, no restructuring
+* ❌ No missing originals
+
+---
+
+## Line-by-line translation
+
+**Ez itt a naponta más leves, ahol a főzés terápia, a végeredmény pedig gyógyír.**
+This is *A Different Soup Every Day*, where cooking is therapy and the end result is a remedy.
+
+**Ez a sorozat arról szól, hogy nemcsak a szendvics, de a leves is lehet főszereplő.**
+This series is about the idea that not only sandwiches, but soups too can be the main attraction.
+
+**A mai leves, a Guinness marharagú.**
+Today’s soup is Guinness beef stew.
+
+**Ez a leves egy szimpla marharagú is lehetne, viszont a végén kiderül, hogy nemcsak a Guinness az egyetlen csavar benne.**
+This soup could be a simple beef stew, but in the end it turns out that Guinness isn’t the only twist in it.
+
+**Rengeteg zöldséget darabolunk.**
+We chop a lot of vegetables.
+
+**Répa, fehérrépa, zellerszár és gumó, póréhagyma, gomba.**
+Carrot, parsnip, celery stalk and root, leek, mushroom.
+
+**A kezdéshez előkészítjük a zsírszalonnát és felkockázzuk a marhacombot is.**
+To start, we prepare the fatty bacon and dice the beef leg as well.
+
+**Kiolvasztjuk a szalonna zsírját.**
+We render out the bacon fat.
+
+**Amin megpirítjuk a húsokat, majd félre is tesszük.**
+We brown the meat in it, then set it aside.
+
+**Ekkor mehet bele a hagyma, és egyből látszik, ahogy az edény aljáról felszedi a pörzsanyagot.**
+Then the onion goes in, and you can immediately see how it lifts the browned bits from the bottom of the pot.
+
+**Jöhet hozzá a fokhagyma, majd a répák, zellerek, pár perc múlva a póréhagyma, majd kevéssel később a gomba.**
+Next comes the garlic, then the carrots and celery; after a few minutes the leek, and shortly after that the mushrooms.
+
+**Fűszerként kakukkfű, pirospaprika, bors kerül bele.**
+For seasoning, thyme, paprika, and pepper go in.
+
+**Két evőkanál paradicsompürét lepirítunk és ismét átkavarjuk.**
+We fry off two tablespoons of tomato purée and stir again.
+
+**Ezt követően jöhet az írek büszkesége, a Guinness, amely kávés, csokis, karamellás, földes jegyekkel turbózza a levest.**
+After that comes Ireland’s pride, Guinness, which boosts the soup with coffee-like, chocolatey, caramel, and earthy notes.
+
+**Ezen a ponton visszatesszük a húst.**
+At this point we put the meat back in.
+
+**Felöntjük alaplével, és természetesen belekerül az elmaradhatatlan babérlevél is.**
+We top it up with stock, and of course the indispensable bay leaf goes in as well.
+
+**Innentől bő két óra, mire a comb megpuhul.**
+From here it takes a good two hours for the beef to become tender.
+
+**Szóval addig megmutatom a dobozos Guinness helyes csapolási technikáját.**
+So in the meantime I’ll show the correct way to pour canned Guinness.
+
+**Hogy lefoglaljuk magunkat.**
+Just to keep ourselves occupied.
+
+**Fun fact, hogy a dobozban lévő kis nitrogéngolyó 1991-ben az év találmánya lett.**
+Fun fact: the small nitrogen ball inside the can was named invention of the year in 1991.
+
+**Ugyanabban az évben, amikor a modern internet elindult.**
+The same year the modern internet launched.
+
+**Harmincnégy év távlatából is teljesen érthető döntés.**
+Even thirty-four years later, it’s a completely understandable decision.
+
+**Itt jegyezném meg, hogy a csatornának még nincs hivatalos söre.**
+I’d note here that the channel doesn’t yet have an official beer.
+
+**Szóval én a Guinness marketingesei helyében nem tétlenkednék.**
+So if I were Guinness’s marketing team, I wouldn’t be sitting idle.
+
+**És a végén jönnek az igazi finomságok, amik olyan különlegessé teszik ezt a levest, hogy bármelyik dublini pubban megállná a helyét.**
+And at the end come the real treats that make this soup so special it would hold its own in any Dublin pub.
+
+**Mikor a hús már szétomlik, nyomunk bele egy bő evőkanál Worcestershire szószt, tejszínt, pár kocka vajat, apróra vágott petrezselymet és citromhéjat reszelünk bele.**
+When the meat is falling apart, we add a heaping tablespoon of Worcestershire sauce, cream, a few cubes of butter, finely chopped parsley, and grated lemon zest.
+
+**A végeredményre pedig a Guinness-házban is elégedetten csettintenének.**
+Even at the Guinness brewery, they’d click their tongues in satisfaction at the final result.
+
+---
+
+## Vocabulary
+
+**naponta más leves** – a different soup every day
+**főszereplő** – main character / central focus
+**marharagú** – beef stew
+**csavar** – twist
+**darabol** – to chop
+**zsírszalonna** – fatty bacon
+**felkockáz** – to dice
+**kiolvaszt** – to render (fat)
+**megpirít** – to brown / sear
+**félretesz** – to set aside
+**pörzsanyag** – browned bits (fond)
+**alaplé** – stock
+**babérlevél** – bay leaf
+**megpuhául** – to become tender
+**lefoglal** – to keep occupied
+**megállja a helyét** – to hold its own
+**szétomlik** – falls apart
+**bő evőkanál** – heaping tablespoon
+**citromhéj** – lemon zest
+
+If you want, next time you paste a text you can just say **“same format as last time”** and I’ll stick to this exact structure.
