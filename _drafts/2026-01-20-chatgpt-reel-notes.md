@@ -1679,18 +1679,63 @@ How did you put it nicely?
 
 [Reel](https://www.instagram.com/reels/DSMqbjdD1Mb/)
 
-Volt ilyen, amikor mind a hárman tetszettünk egy fiúnak,
-de volt közöttünk egy ilyen megállapodás.
-Ez azóta is tart, hogy ha egy fiú mind a hármunkkal ki szeretne kezdeni,
-vagy mindhármunk tetszik neki, akkor az ilyen tiltott zóna,
-és hogy akkor viszont semelyikönk nem.
-Még szerintem az önmagában is gáz. Ha egy fiú mondjuk,
-egy családon belul mindenkit randira hív,
-de alapvetően más az izlésük amúgy férfiak terén is.
-Igen, így kimondottan, hogy most mi kiszemelítünk volna
-valakit, az nem fordult elő komolyabban most.
-Gyerekkorban volt csak ilyen.
-Igen.
+## Line-by-line translation
+
+**Volt ilyen, amikor mind a hárman tetszettünk egy fiúnak,**
+There was a time when all three of us were liked by the same guy,
+
+**de volt közöttünk egy ilyen megállapodás.**
+but we had this kind of agreement between us.
+
+**Ez azóta is tart, hogy ha egy fiú mind a hármunkkal ki szeretne kezdeni,**
+And it still stands: if a guy wants to hit on all three of us,
+
+**vagy mindhármunk tetszik neki, akkor az ilyen tiltott zóna,**
+or all three of us appeal to him, then that’s a kind of forbidden zone,
+
+**és hogy akkor viszont semelyikünk nem.**
+and in that case, none of us is an option.
+
+**Még szerintem az önmagában is gáz.**
+Honestly, I think that’s already cringe/problematic in itself.
+
+**Ha egy fiú mondjuk, egy családon belül mindenkit randira hív,**
+If a guy, say, asks everyone in a family out on a date,
+
+**de alapvetően más az ízlésük amúgy férfiak terén is.**
+even though their taste in men is fundamentally different anyway.
+
+**Igen, így kimondottan, hogy most mi kiszemeltünk volna**
+Yeah, specifically that we would have clearly set our sights on
+
+**valakit, az nem fordult elő komolyabban most.**
+someone like that hasn’t really happened seriously.
+
+**Gyerekkorban volt csak ilyen.**
+It only happened like that in childhood.
+
+**Igen.**
+Yeah.
+
+---
+
+## Vocabulary
+
+**tetszik (vkinek)** – to like / to be attractive to someone
+**megállapodás** – agreement, arrangement
+**azóta is tart** – it has been in effect ever since
+**ki szeretne kezdeni (vkivel)** – to hit on someone, make a move
+**tiltott zóna** – forbidden zone (figurative)
+**semelyikünk** – none of us
+**önmagában** – in itself
+**gáz** – cringe, awkward, unacceptable (colloquial)
+**családon belül** – within a family
+**randira hív** – to ask someone out on a date
+**ízlés** – taste, preference
+**kiszemel** – to single out, set one’s sights on
+**előfordul** – to occur, happen
+**gyerekkor** – childhood
+
 
 -----
 
