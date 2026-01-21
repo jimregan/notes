@@ -1516,9 +1516,9 @@ Even at the Guinness brewery, they’d click their tongues in satisfaction at th
 
 [Reel](https://www.instagram.com/reels/DTuoAB4jVf5/)
 
-Három mondat, amivel bármelyik férfélgúját összetöröd, első, nem vagyok mérgés, csak kezdek kiábrándolni belőled.
-Második, ha túl sok vagyok, akkor igazából te nem vagy elég jó.
-És az utolsó tazoknak ajánlanám, akik folyamatosan berásnak abba a csagdába, hogy csikicsuk izik belük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.
-Mindannyian voltunk itt, úgyhogy ezt nektek ajánlom.
-A tény, hogy mindig te jössz visszehozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma.
-Ha eleged van, abhol, hogy folyton kihasználnak, vagy manipulálni próbálnak, és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezve hozzám személyes konzoltációra.
+Három mondat, amivel bármelyik férfi égóját összetöröd. Első. "Nem vagyok mérgés, csak kezdek kiábrándulni belőled."
+Második. "Ha túl sok vagyok, akkor igazából te nem vagy elég jó."
+És az utolsót azoknak ajánlanám, akik folyamatosan beleesnak abba a csapdába, hogy csiki-csukizik velük egy férfi, és mindig elhiszik, hogy majd más lesz, de igazából folyamatosan kihasználnak titeket.
+Mindannyian voltunk itt. Úgy hogy ezt nektek ajánlom.
+"A tény, hogy mindig te jössz vissza hozzám, az élő bizonyítéka annak, hogy nem én vagyok itt a probléma."
+Ha eleged van abból, hogy folyton kihasználnak vagy manipulálni próbálnak és szeretnéd megtanulni, hogy hogyan tudsz ezen átlátni és megelőzni, akkor jelentkezz be hozzám személyes konzultációra!
