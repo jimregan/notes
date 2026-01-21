@@ -25,4 +25,10 @@ categories: [links]
 
 [echodroff/praat_scripts](https://github.com/echodroff/praat_scripts)
 
+[UM-Text: A Unified Multimodal Model for Image Understanding](https://arxiv.org/abs/2601.08321)
+
+[VoCodec: An Efficient Lightweight Low-Bitrate Speech Codec](https://arxiv.org/abs/2601.13055)
+
+[Super Monotonic Alignment Search](https://arxiv.org/abs/2409.07704),
+[code](https://github.com/supertone-inc/super-monotonic-align)
 
