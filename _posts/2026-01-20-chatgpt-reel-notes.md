@@ -1492,25 +1492,25 @@ Even at the Guinness brewery, they’d click their tongues in satisfaction at th
 
 ## Vocabulary
 
-**naponta más leves** – a different soup every day
-**főszereplő** – main character / central focus
-**marharagú** – beef stew
-**csavar** – twist
-**darabol** – to chop
-**zsírszalonna** – fatty bacon
-**felkockáz** – to dice
-**kiolvaszt** – to render (fat)
-**megpirít** – to brown / sear
-**félretesz** – to set aside
-**pörzsanyag** – browned bits (fond)
-**alaplé** – stock
-**babérlevél** – bay leaf
-**megpuhául** – to become tender
-**lefoglal** – to keep occupied
-**megállja a helyét** – to hold its own
-**szétomlik** – falls apart
-**bő evőkanál** – heaping tablespoon
-**citromhéj** – lemon zest
+- **naponta más leves** – a different soup every day
+- **főszereplő** – main character / central focus
+- **marharagú** – beef stew
+- **csavar** – twist
+- **darabol** – to chop
+- **zsírszalonna** – fatty bacon
+- **felkockáz** – to dice
+- **kiolvaszt** – to render (fat)
+- **megpirít** – to brown / sear
+- **félretesz** – to set aside
+- **pörzsanyag** – browned bits (fond)
+- **alaplé** – stock
+- **babérlevél** – bay leaf
+- **megpuhául** – to become tender
+- **lefoglal** – to keep occupied
+- **megállja a helyét** – to hold its own
+- **szétomlik** – falls apart
+- **bő evőkanál** – heaping tablespoon
+- **citromhéj** – lemon zest
 
 -----
 
@@ -1560,23 +1560,23 @@ If you’re fed up with constantly being taken advantage of or manipulated, and 
 
 ## Vocabulary
 
-**három mondat** – three sentences
-**egó** – ego
-**összetör** – to shatter, break completely
-**mérges** – angry
-**kiábrándul** – to become disillusioned
-**túl sok** – too much
-**elég jó** – good enough
-**ajánl** – to recommend
-**beleesik egy csapdába** – to fall into a trap
-**csiki-csukizik** – to play hot and cold
-**kihasznál** – to take advantage of, exploit
-**tény** – fact
-**élő bizonyíték** – living proof
-**manipulál** – to manipulate
-**átlát (valamin)** – to see through (something)
-**megelőz** – to prevent
-**személyes konzultáció** – personal consultation
+- **három mondat** – three sentences
+- **egó** – ego
+- **összetör** – to shatter, break completely
+- **mérges** – angry
+- **kiábrándul** – to become disillusioned
+- **túl sok** – too much
+- **elég jó** – good enough
+- **ajánl** – to recommend
+- **beleesik egy csapdába** – to fall into a trap
+- **csiki-csukizik** – to play hot and cold
+- **kihasznál** – to take advantage of, exploit
+- **tény** – fact
+- **élő bizonyíték** – living proof
+- **manipulál** – to manipulate
+- **átlát (valamin)** – to see through (something)
+- **megelőz** – to prevent
+- **személyes konzultáció** – personal consultation
 
 -----
 
@@ -1614,22 +1614,22 @@ And there are definitely ones where the whole thing was a dominatrix-type situat
 
 ## Vocabulary
 
-**személyiség** – personality
-**fogant / született** – conceived / born
-**szeretkezés** – lovemaking
-**durva** – rough, harsh
-**békülős (szex)** – make-up (sex after a fight)
-**manipulatív** – manipulative
-**gyűlölet-szex** – hate sex
-**befolyása alatt** – under the influence (of something)
-**ismerős** – acquaintance
-**randiról** – from a date
-**hangulat** – mood, atmosphere
-**szar hangulat** – shitty mood
-**domina szitu** – dominatrix-type situation
-**ordibál** – to scream, yell
-**csúnya szavak** – nasty / vulgar words
-**köpködősen** – spittingly, with spitting
+- **személyiség** – personality
+- **fogant / született** – conceived / born
+- **szeretkezés** – lovemaking
+- **durva** – rough, harsh
+- **békülős (szex)** – make-up (sex after a fight)
+- **manipulatív** – manipulative
+- **gyűlölet-szex** – hate sex
+- **befolyása alatt** – under the influence (of something)
+- **ismerős** – acquaintance
+- **randiról** – from a date
+- **hangulat** – mood, atmosphere
+- **szar hangulat** – shitty mood
+- **domina szitu** – dominatrix-type situation
+- **ordibál** – to scream, yell
+- **csúnya szavak** – nasty / vulgar words
+- **köpködősen** – spittingly, with spitting
 
 -----
 
@@ -1663,17 +1663,17 @@ How did you put it nicely?
 
 ## Vocabulary
 
-**farok** – literally “tail”; slang for *penis*
-**önmagában** – in itself, by itself
-**farkat viselő** – dick-carrying (deliberately crude phrasing)
-**egyén** – individual
-**állat** – animal (as an insult: brute)
-**mocsok** – filth, scum
-**disznó** – pig (insult: disgusting person)
-**rohadt** – rotten, damn(ed), fucking (intensifier)
-**parazita** – parasite
-**nem igaz** – not true
-**kedvesen** – nicely, politely
+- **farok** – literally “tail”; slang for *penis*
+- **önmagában** – in itself, by itself
+- **farkat viselő** – dick-carrying (deliberately crude phrasing)
+- **egyén** – individual
+- **állat** – animal (as an insult: brute)
+- **mocsok** – filth, scum
+- **disznó** – pig (insult: disgusting person)
+- **rohadt** – rotten, damn(ed), fucking (intensifier)
+- **parazita** – parasite
+- **nem igaz** – not true
+- **kedvesen** – nicely, politely
 
 -----
 
@@ -1731,20 +1731,20 @@ Yeah.
 
 ## Vocabulary
 
-**tetszik (vkinek)** – to like / to be attractive to someone
-**megállapodás** – agreement, arrangement
-**azóta is tart** – it has been in effect ever since
-**ki szeretne kezdeni (vkivel)** – to hit on someone, make a move
-**tiltott zóna** – forbidden zone (figurative)
-**semelyikünk** – none of us
-**önmagában** – in itself
-**gáz** – cringe, awkward, unacceptable (colloquial)
-**családon belül** – within a family
-**randira hív** – to ask someone out on a date
-**ízlés** – taste, preference
-**kiszemel** – to single out, set one’s sights on
-**előfordul** – to occur, happen
-**gyerekkor** – childhood
+- **tetszik (vkinek)** – to like / to be attractive to someone
+- **megállapodás** – agreement, arrangement
+- **azóta is tart** – it has been in effect ever since
+- **ki szeretne kezdeni (vkivel)** – to hit on someone, make a move
+- **tiltott zóna** – forbidden zone (figurative)
+- **semelyikünk** – none of us
+- **önmagában** – in itself
+- **gáz** – cringe, awkward, unacceptable (colloquial)
+- **családon belül** – within a family
+- **randira hív** – to ask someone out on a date
+- **ízlés** – taste, preference
+- **kiszemel** – to single out, set one’s sights on
+- **előfordul** – to occur, happen
+- **gyerekkor** – childhood
 
 -----
 
@@ -1842,19 +1842,19 @@ that this can actually be okay as it is.
 
 ## Vocabulary
 
-**kritika** – criticism
-**hangzik el** – is said, comes up (spoken)
-**gondolatai** – thoughts
-**gyúr (össze)** – to mash together, combine (figurative)
-**személyre szabott** – personalized, tailored
-**magamra ismertem** – I recognized myself (in it)
-**kifejezetten** – specifically
-**önmagában** – in itself, on its own
-**erőssége** – strength (figurative)
-**normalizál** – to normalize
-**érzés** – feeling
-**gondolat** – thought
-**keresztülmegy (vmin)** – to go through (an experience)
-**találkozik (vmivel)** – to encounter, come across
-**akár** – even, potentially
-**rendben van** – is okay, is fine
+- **kritika** – criticism
+- **hangzik el** – is said, comes up (spoken)
+- **gondolatai** – thoughts
+- **gyúr (össze)** – to mash together, combine (figurative)
+- **személyre szabott** – personalized, tailored
+- **magamra ismertem** – I recognized myself (in it)
+- **kifejezetten** – specifically
+- **önmagában** – in itself, on its own
+- **erőssége** – strength (figurative)
+- **normalizál** – to normalize
+- **érzés** – feeling
+- **gondolat** – thought
+- **keresztülmegy (vmin)** – to go through (an experience)
+- **találkozik (vmivel)** – to encounter, come across
+- **akár** – even, potentially
+- **rendben van** – is okay, is fine
