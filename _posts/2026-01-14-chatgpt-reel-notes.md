@@ -2455,8 +2455,6 @@ Follow me, because I’ll tell you more things like this!
   (-nia = obligation, slightly formal → funny contrast)
 * **hogy szerette** = that she liked/loved it
 
----
-
 ### High-value expressions to keep
 
 * **megkérni vkinek a kezét** – propose
@@ -2788,9 +2786,7 @@ Useful constructions
 * **helyett** – instead of
 * **van benne** – it contains
 
----
-
-(I asked for more notes specifically on the "ad-ness" of it)
+*(I asked for more notes specifically on the "ad-ness" of it)*
 
 ### Notes: “Ad-ness” of the reel (linguistic + structural)
 

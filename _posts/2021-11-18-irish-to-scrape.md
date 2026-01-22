@@ -27,15 +27,15 @@ categories: [links, todo, irish, scraper]
 
 [XML Sitemap Feed](https://www.cogg.ie/sitemap-posttype-post.2021.xml)
 
-[An Tairseach | COGG](https://www.cogg.ie/tairseach/)
+[An Tairseach - COGG](https://www.cogg.ie/tairseach/)
 
-[Acmhainní Tacaíochta | COGG](https://www.cogg.ie/acmhainni-tacaiochta---gaeilge-na-sraithe-sinsearai/)
+[Acmhainní Tacaíochta - COGG](https://www.cogg.ie/acmhainni-tacaiochta---gaeilge-na-sraithe-sinsearai/)
 
 [Tíreolaíocht na hArdteiste](https://www.cogg.ie/abhair-thacaiochta-tireolaiocht-na-hardteiste/)
 
 [Studyclix](https://studyclix.ie/subjects)
 
-[Acmhainní Teanga ar Líne | COGG](https://www.cogg.ie/focloiri/)
+[Acmhainní Teanga ar Líne - COGG](https://www.cogg.ie/focloiri/)
 
 [Ranganna.com](https://www.ranganna.com/)
 
@@ -47,7 +47,7 @@ categories: [links, todo, irish, scraper]
 
 [An Taibhdhearc](http://antaibhdhearc.com/)
 
-[Taighde COGG | COGG](https://www.cogg.ie/taighde-cogg/)
+[Taighde COGG - COGG](https://www.cogg.ie/taighde-cogg/)
 
 [Wayback Machine](https://web.archive.org/web/*/http://reabhloid.ie/files/original/*)
 

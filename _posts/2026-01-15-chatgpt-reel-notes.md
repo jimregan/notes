@@ -491,8 +491,6 @@ Nothing, right?
 
 * **igaz?** = right? (seeking agreement)
 
----
-
 ## Vocabulary list
 
 * **szívfájdalom** – heartache
@@ -621,8 +619,6 @@ No, no, *they don’t get the joke*, for fuck’s sake, they don’t get it.
 
 * **nem értik a viccet** = they don’t understand the joke
 * **bazdmeg** = very strong swear (emphasis, frustration)
-
----
 
 ## Vocabulary list
 
@@ -817,8 +813,6 @@ And he was *so chill* that *I went with him*.
 * **olyan … volt, hogy** = so … that
 * **mentem vele** = I went along with him
 
----
-
 ## Vocabulary list
 
 * **annyi van, hogy** – the thing is that
@@ -888,8 +882,6 @@ he *slaps it underneath* so hard that *my ears clap like cymbals*.
 * **úgy … hogy** = so … that
 * **csattog** = claps, smacks loudly
 * **cintányér** = cymbal
-
----
 
 ## Vocabulary list
 
@@ -974,8 +966,6 @@ Let us *never underestimate the power of the dark side*.
 You *underestimate the power of the dark side*.
 
 * **hatalom** = power, might (more abstract than *erő*)
-
----
 
 ## Vocabulary list
 
@@ -1073,8 +1063,6 @@ Anyone could say that.
 
 So, *is your wife giving birth?*
 
----
-
 ## Vocabulary list
 
 * **mesterséges intelligencia** – artificial intelligence
@@ -1129,8 +1117,6 @@ You always *call me dad*,
 I got *confused*.
 
 * **összezavarodik** = get confused
-
----
 
 ## Vocabulary list
 
@@ -1272,8 +1258,6 @@ A *bigger bite*, bro!
 I’ll *count down*.
 
 * **visszaszámol** = count down
-
----
 
 ## Vocabulary list
 

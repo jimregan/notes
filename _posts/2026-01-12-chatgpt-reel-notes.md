@@ -160,7 +160,7 @@ categories: [hungarian, chatgpt, reels]
 * **egy horrorfilm** = a horror movie
 * **garzonban** = in a studio apartment
 
-### Vocabulary list
+### Vocabulary list
 
 * az a bajom → my problem is
 * horrorfilm → horror movie
@@ -183,7 +183,7 @@ categories: [hungarian, chatgpt, reels]
 * féltékeny → jealous
 * lényeg → point / essence
 
-### Same text, A2
+### Same text, A2
 
 A horrorfilmek gyakran nagy házakban játszódnak.
 Ez nem jó.
@@ -202,7 +202,7 @@ De később baj lesz.
 
 Megint horrorfilm lesz.
 
-### Same text, B1
+### Same text, B1
 
 A horrorfilmek legtöbbször nagy kastélyokban játszódnak.
 Szerintem ez unalmas.
