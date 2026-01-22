@@ -278,6 +278,8 @@ You didn’t give the Roma person a chance to speak; he’s angry with you.
 
 [Reel](https://www.instagram.com/reels/DT0TVHpAVYR/)
 
-Nekem tetszett összhatásában, szeretem a klubból, összetartó közösség,
-ezt látom, meg a lányokon is, és ezt lehetem ugyanaz.
-Tényleg minek ki azon volt, hogy ez jó sikerüljön, és tényleg hálás lehetek, mert nagyon jó sikerült.
+Hogy érzted magad a Női Klubbon?
+
+Nekem tetszett összhatásában, szeretem a klubot, összetartó közösség,
+ezt látom meg a lányokon is észleltem ugyanezt
+Tényleg mindenki azon volt hogy ez jól sikerüljön és tényleg hálás lehetek mert nagyon jól sikerült.
