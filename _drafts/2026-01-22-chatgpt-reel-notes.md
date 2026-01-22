@@ -115,4 +115,6 @@ so it’s better if you write it now!
 
 [Reel](https://www.instagram.com/reels/DTvz4lgjtu5/)
 
+Ismerős?
+
 Aki a Szovjátúnió, aki Sztálin oldalán áll, az a humanizmus, a haladás, a béke oldalán áll. Aki pedig a túlsó oldalon foglal helyet, az akarva vagy akaratlanul az embertelen, gonosz háborús gyújtogatók szekértolója, a népelnyomó imperialisták szolgája, a béke és az emberiség ellensége.
