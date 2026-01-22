@@ -68,10 +68,6 @@ don’t waste your precious time on him.
 
 [Reel](https://www.instagram.com/reels/DRphJ6pjHJP/)
 
-Understood. Same format as before: **line-by-line translation + vocabulary list**, nothing else.
-
----
-
 ## Line-by-line translation
 
 **Vonzó dolgok a nőkben**
@@ -137,8 +133,6 @@ but write it in the comments if I left something out.
 **Illetve azt is, hogyha szeretnétek a harmadik részt.**
 And also if you’d like a third part.
 
----
-
 ## Vocabulary
 
 **vonzó** – attractive
@@ -164,3 +158,4 @@ And also if you’d like a third part.
 **egyetért** – to agree
 **kihagy** – to leave out
 **rész** – part, episode
+
