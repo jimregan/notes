@@ -9,72 +9,75 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTvL-8UiDpl/)
 
-Got it. **Reset, clean execution.**
-Below are **exactly the two things you asked for**:
-
-1. **Line-by-line translation** (Hungarian → English, original kept)
-2. **Extracted vocabulary list** (high-frequency, useful items)
-
-No commentary, no jokes, no extras.
-
----
-
 ## 1️⃣ Line-by-line translation
 
 **Az elmúlt években kajak olyan randi sztorijaim voltak,**
+
 In the past few years I’ve genuinely had dating stories like,
 
 **hogy egyszerűen hetekig utána nem akartam beszélni emberekkel,**
+
 that afterward I literally didn’t want to talk to people for weeks,
 
 **pedig aztán nekem tökre nem stílusom a ghostolás,**
+
 even though ghosting is really not my style at all,
 
 **viszont egy dolog benne a pozitív, hogy utána mindig olyan sztorijaim voltak,**
+
 but one positive thing about it is that afterward I always had stories
 
 **amiket így a csaj-groupba órákig tudtam mesélni.**
+
 that I could tell for hours in the girls’ group chat.
 
 **Ha nektek is van ilyen ciki randizós sztorijaitok,**
+
 If you also have embarrassing dating stories like this,
 
 **akkor azt légyszi, pls, meséljétek el,**
+
 then please, please tell them,
 
 **de ne csak ide kommentbe, hanem küldjétek el privát üzenetbe,**
+
 but not just here in the comments — send them in a private message,
 
 **mert a legcikibb sztorik között ki fogunk sorsolni bérleteket,**
+
 because among the most embarrassing stories we’re going to raffle off festival passes,
 
 **szóval nyugodtan jöhet, hogy „mit csinált?” „mivel borított ki?” „mi volt a leggázabb?” „hol történt?”**
+
 so feel free to include: “what did they do?” “what totally set you off?” “what was the cringiest?” “where did it happen?”
 
 **Az egész sztorit hallani akarom,**
+
 I want to hear the whole story,
 
 **és nyilván a legjobbakat azokat fel fogom olvasni totál anoniman,**
+
 and obviously the best ones I’ll read out completely anonymously,
 
 **csak hogy röhögjünk rajta egy sort.**
+
 just so we can have a laugh about it.
 
 **Mert idén Valentin-napkor nem romantikát, hanem Sziget-fesztivál bérleteket tudtok nyerni.**
+
 Because this year on Valentine’s Day you can win not romance, but Sziget Festival passes.
 
 **Szóval nyugodtan jöhetnek a DM-ek!**
+
 So feel free to send the DMs!
 
 **Ja, és azt elfelejtettem mondani, hogy a határidő az január 24.,**
+
 Oh, and I forgot to mention that the deadline is January 24,
 
 **szóval írjátok le inkább most!**
+
 so it’s better if you write it now!
-
----
-
-## 2️⃣ Extracted vocabulary (high-frequency & useful)
 
 ### Core verbs
 
@@ -88,8 +91,6 @@ so it’s better if you write it now!
 * **nyerni** – to win
 * **írni** – to write
 
----
-
 ### Colloquial / informal words
 
 * **kajak** – genuinely / for real
@@ -102,8 +103,6 @@ so it’s better if you write it now!
 * **ghostolás** – ghosting
 * **DM** – private message
 
----
-
 ### Fixed expressions
 
 * **nem az én stílusom** – not my style
@@ -111,13 +110,3 @@ so it’s better if you write it now!
 * **totál anoniman** – totally anonymously
 * **röhögni egy sort** – to have a laugh
 * **nyugodtan jöhet** – feel free to send
-
----
-
-If you want, next we can:
-
-* do **register cleanup** (what’s influencer slang vs normal speech)
-* compare this to **Polish dating slang**
-* or strip it down to **neutral Hungarian equivalents only**
-
-Just say which.
