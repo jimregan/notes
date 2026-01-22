@@ -273,3 +273,11 @@ You didn’t give the Roma person a chance to speak; he’s angry with you.
 * **beszéljünk világosan** – let’s speak plainly
 * **amíg mi kormányzunk** – as long as we govern
 * **nem mondani le valakiről** – not to give up on someone
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT0TVHpAVYR/)
+
+[00:00.000 --> 00:05.460]  Nekem tetszett összhatásában, szeretem a klubból, összetartó közösség,
+[00:05.460 --> 00:08.380]  ezt látom, meg a lányokon is, és ezt lehetem ugyanaz.
+[00:08.380 --> 00:13.500]  Tényleg minek ki azon volt, hogy ez jó sikerüljön, és tényleg hálás lehetek, mert nagyon jó sikerült.
