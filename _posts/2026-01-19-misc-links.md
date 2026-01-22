@@ -119,3 +119,9 @@ categories: [links]
 
 [baidu/ERNIE-4.5-VL-28B-A3B-Thinking](https://huggingface.co/baidu/ERNIE-4.5-VL-28B-A3B-Thinking)
 
+[kitty](https://sw.kovidgoyal.net/kitty/) --- The fast, feature-rich, GPU based terminal emulator.
+
+[facebook/pe-av-large](https://huggingface.co/facebook/pe-av-large) --- PE-AV is a state-of-the-art multimodal model that embeds audio, video, audio-video, and text into a joint embedding space
+
+[Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-videos/)
+
