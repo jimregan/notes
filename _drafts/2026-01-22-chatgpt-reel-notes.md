@@ -115,4 +115,4 @@ so it’s better if you write it now!
 
 [Reel](https://www.instagram.com/reels/DTvz4lgjtu5/)
 
-[00:00.000 --> 00:29.000]  Aki a szabjátúnyó, aki stálin oldalánál, az a humanizmus, a haladás, a béke oldalánál, aki pedig a túlsó oldalán foglal helyen, az akaraba vagy akarapla, az embertelen, gondasz háborús gyújtogatók Zekértolója, a népelnyomó imperialisták szolgája, a béke és az emberiség ellensége.
+Aki a Szovjátúnió, aki Sztálin oldalán áll, az a humanizmus, a haladás, a béke oldalán áll. Aki pedig a túlsó oldalon foglal helyet, az akarva vagy akaratlanul az embertelen, gonosz háborús gyújtogatók szekértolója, a népelnyomó imperialisták szolgája, a béke és az emberiség ellensége.
