@@ -187,15 +187,21 @@ an enemy of peace and of humanity.
 
 [Reel](https://www.instagram.com/reels/DS2xVN0Ep2p/)
 
-Honantók ez az egy mese, hogy lehet integrálni, meg majd barátkozunk,
-mert mond olyanok lesznek, mint mi,
-az ne, hogy elfidjem ám valakit.
+Lázár János a cigányságról
+
+2018
+
+Onnantól kedve az egy mese, hogy lehet integrálni, meg majd barátkozunk,
+meg majd olyanok lesznek, mint mi.
+Ezt nehogy elhiggye már valaki.
 600 éve élünk együtt a cigányokkal,
 és mind a mai napig nem tudtuk őket integrálni, hogy beszéljük világosan.
-Ebben az országban minden cigány gyerek boldogulni fog, amik mi kormányzunk.
-A cigány embernek nem adtál szót, hogy haragszik rád.
-Hát attól volna, csak elment.
-Jó, de nem adjál l'eróla, győzed meg.
-Nem ismerem, hogy vagy sülve.
-De rászavazd vagy nem?
-Nem.
+
+2025
+
+Ebben az országban minden cigány gyerek boldogolni fog, amíg mi kormányzunk.
+A cigány embernek nem adtál szót, ő haragszik rád.
+Hát adtam volna, csak elment.
+Jó, de nem mondjál le róla. Győzzed meg.
+Nem ismerem, ugyhogy...
+De rád szavazd, vagy nem?
