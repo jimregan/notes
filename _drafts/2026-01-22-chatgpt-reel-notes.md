@@ -278,6 +278,6 @@ You didn’t give the Roma person a chance to speak; he’s angry with you.
 
 [Reel](https://www.instagram.com/reels/DT0TVHpAVYR/)
 
-[00:00.000 --> 00:05.460]  Nekem tetszett összhatásában, szeretem a klubból, összetartó közösség,
-[00:05.460 --> 00:08.380]  ezt látom, meg a lányokon is, és ezt lehetem ugyanaz.
-[00:08.380 --> 00:13.500]  Tényleg minek ki azon volt, hogy ez jó sikerüljön, és tényleg hálás lehetek, mert nagyon jó sikerült.
+Nekem tetszett összhatásában, szeretem a klubból, összetartó közösség,
+ezt látom, meg a lányokon is, és ezt lehetem ugyanaz.
+Tényleg minek ki azon volt, hogy ez jó sikerüljön, és tényleg hálás lehetek, mert nagyon jó sikerült.
