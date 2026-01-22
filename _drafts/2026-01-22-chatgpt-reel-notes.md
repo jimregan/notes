@@ -187,21 +187,93 @@ an enemy of peace and of humanity.
 
 [Reel](https://www.instagram.com/reels/DS2xVN0Ep2p/)
 
-Lázár János a cigányságról
+Understood. **Line-by-line translation + extracted vocabulary only.** No commentary.
 
-2018
+---
 
-Onnantól kedve az egy mese, hogy lehet integrálni, meg majd barátkozunk,
-meg majd olyanok lesznek, mint mi.
-Ezt nehogy elhiggye már valaki.
-600 éve élünk együtt a cigányokkal,
-és mind a mai napig nem tudtuk őket integrálni, hogy beszéljük világosan.
+## 1️⃣ Line-by-line translation
 
-2025
+**Lázár János a cigányságról**
+Lázár János on the Roma community
 
-Ebben az országban minden cigány gyerek boldogolni fog, amíg mi kormányzunk.
-A cigány embernek nem adtál szót, ő haragszik rád.
-Hát adtam volna, csak elment.
-Jó, de nem mondjál le róla. Győzzed meg.
-Nem ismerem, ugyhogy...
-De rád szavazd, vagy nem?
+**2018**
+
+**Onnantól kezdve az egy mese, hogy lehet integrálni, meg majd barátkozunk,**
+From that point on, it’s a fairy tale that integration is possible, that we’ll make friends,
+
+**meg majd olyanok lesznek, mint mi.**
+and that they’ll become like us.
+
+**Ezt nehogy elhiggye már valaki.**
+Nobody should believe that.
+
+**600 éve élünk együtt a cigányokkal,**
+We have been living together with Roma people for 600 years,
+
+**és mind a mai napig nem tudtuk őket integrálni, hogy beszéljük világosan.**
+and to this day we have not been able to integrate them—let’s speak plainly.
+
+---
+
+**2025**
+
+**Ebben az országban minden cigány gyerek boldogulni fog, amíg mi kormányzunk.**
+In this country, every Roma child will succeed as long as we are governing.
+
+**A cigány embernek nem adtál szót, ő haragszik rád.**
+You didn’t give the Roma person a chance to speak; he’s angry with you.
+
+**– Hát adtam volna, csak elment.**
+– Well, I would have, but he left.
+
+**– Jó, de nem mondjál le róla. Győzzed meg.**
+– Okay, but don’t give up on him. Convince him.
+
+**– Nem ismerem, úgyhogy…**
+– I don’t know him, so…
+
+**– De rád szavazott, vagy nem?**
+– But did he vote for you or not?
+
+---
+
+## 2️⃣ Extracted vocabulary
+
+### Core verbs
+
+* **kezdődik / kezdve** → *onnantól kezdve* – from then on
+* **lehet** – can / be possible
+* **elhinni** – to believe
+* **él** – to live
+* **integrál** – to integrate
+* **kormányoz** – to govern
+* **boldogul** – to get by / succeed
+* **ad (szót)** – to give (someone the floor)
+* **haragszik (vkire)** – to be angry (at someone)
+* **lemond (vkiről)** – to give up on someone
+* **meggyőz** – to convince
+* **szavaz** – to vote
+
+---
+
+### Key nouns
+
+* **mese** (figurative) – fairy tale / illusion
+* **cigányság** – the Roma community
+* **cigány ember / gyerek** – Roma person / child
+* **ország** – country
+* **szó** – word; chance to speak
+* **nap** → *mind a mai napig* – to this very day
+
+---
+
+### Fixed expressions & tone markers
+
+* **nehogy elhiggye valaki** – nobody should believe
+* **beszéljünk világosan** – let’s speak plainly
+* **amíg mi kormányzunk** – as long as we govern
+* **nem mondani le valakiről** – not to give up on someone
+
+---
+
+If you want the **same treatment** next time (translation + vocab only), just say *“same format.”*
