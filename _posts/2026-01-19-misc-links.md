@@ -79,5 +79,41 @@ categories: [links]
 
 [zserge/grayskull](https://github.com/zserge/grayskull) --- A tiny, dependency-free computer vision library in C for embedded systems, drones, and robotics.
 
+[vivekkalyanarangan30/llm_from_scratch](https://github.com/vivekkalyanarangan30/llm_from_scratch)
 
+[LLMs from Scratch – Practical Engineering from Base Model to PPO RLHF](https://www.youtube.com/watch?v=p3sij8QzONQ)
+
+[Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B)
+
+[WorldForge Unlocking Emergent 3D/4D Generation in Video Diffusion Model via Training-Free Guidance](https://arxiv.org/abs/2509.15130)
+
+[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414),
+[code](https://github.com/facebookresearch/map-anything),
+[space](https://huggingface.co/spaces/facebook/map-anything)
+
+[danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) --- Enhanced ChatGPT Clone
+
+[blinkospace/blinko](https://github.com/blinkospace/blinko) --- An open-source, self-hosted personal AI note tool prioritizing privacy, built using TypeScript .
+
+[KiCad](https://www.kicad.org/) --- A Cross Platform and Open Source PCB Design Suite
+
+[Alibaba-NLP/Tongyi-DeepResearch-30B-A3B](https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B)
+
+[DeCodec Rethinking Audio Codecs as Universal Disentangled Representation Learners](https://arxiv.org/abs/2509.09201)
+
+[Europe’s Poverty Rates by Country in 2024](https://www.voronoiapp.com/education/Mapped-Europes-Poverty-Rates-by-Country-in-2024-6460)
+
+[Covariant spatio-temporal receptive fields for spiking neural networks](https://www.nature.com/articles/s41467-025-63493-0)
+
+[Chatterbox Turbo](https://huggingface.co/collections/ResembleAI/chatterbox-turbo) --- Ultra-Fast, Open-Source Text-to-Speech for Real-Time Voice AI
+
+[Xiaomi Released MiMo-Audio](https://www.marktechpost.com/2025/09/20/xiaomi-released-mimo-audio-a-7b-speech-language-model-trained-on-100m-hours-with-high-fidelity-discrete-tokens/)
+
+[XiaomiMiMo/MiMo-Audio](https://github.com/XiaomiMiMo/MiMo-Audio),
+[XiaomiMiMo/MiMo-Audio-Tokenizer](https://huggingface.co/XiaomiMiMo/MiMo-Audio-Tokenizer),
+[XiaomiMiMo/MiMo-Audio-7B-Base](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Base),
+
+[Qwen/Qwen3-Omni-30B-A3B-Captioner](https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Captioner)
+
+[The Illustrated GPT-OSS](https://newsletter.languagemodels.co/p/the-illustrated-gpt-oss)
 
