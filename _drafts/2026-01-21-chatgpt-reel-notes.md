@@ -163,79 +163,9 @@ And also if you’d like a third part.
 
 [Reel](https://www.instagram.com/reel/DTtEymvCPVt/)
 
-Good instinct — this is **100% pragmatic / idiomatic**, not lexical. Let’s unpack it cleanly.
-
----
-
-### Literal meaning
-
 **A nőket nem nehéz megérteni.**
 *Women aren’t hard to understand.*
 
 **Csinálsz neki reggel kávét és életben hagy.**
 *You make her coffee in the morning and she lets you live.*
 
-Grammatically, everything is simple. Semantically, it’s a joke.
-
----
-
-### What it actually means
-
-This is **deadpan, dark humour** built on exaggeration.
-
-The sentence **pretends** that:
-
-* women are dangerous or volatile
-* men’s survival depends on tiny acts of care
-
-But the **real meaning** is the opposite:
-
-> *Women’s needs are not complicated — basic consideration and kindness go a long way.*
-
-“**és életben hagy**” (“and she spares your life”) is:
-
-* **hyperbolic**
-* **mock-threatening**
-* **not literal at all**
-
-It’s the same joke logic as English:
-
-* *“Bring her coffee or die.”*
-* *“This small gesture will save your life.”*
-
----
-
-### Why it feels confusing
-
-Because Hungarian:
-
-* **loves understatement + exaggeration**
-* often delivers jokes **completely straight-faced**
-* doesn’t mark irony overtly
-
-There is **no signal word** saying “this is a joke”.
-You’re expected to hear it as:
-
-> *obviously exaggerated → therefore humorous*
-
----
-
-### Register & tone
-
-* casual
-* sarcastic
-* slightly self-deprecating (toward men)
-* often said by women, but also men joking about relationships
-
-Not aggressive, not hostile — just dry humour.
-
----
-
-### Natural English equivalent
-
-> *“Women aren’t complicated. Make her a coffee in the morning and you’ll survive.”*
-> *“It’s not hard — basic effort keeps you alive.”*
-
----
-
-If you want: next time you hit one of these **“I know every word but still don’t get it”** sentences, paste it — those are almost always **pragmatics, not vocabulary**, and they’re exactly the fun part of Hungarian.
