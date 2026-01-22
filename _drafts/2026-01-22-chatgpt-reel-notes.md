@@ -110,3 +110,9 @@ so it’s better if you write it now!
 * **totál anoniman** – totally anonymously
 * **röhögni egy sort** – to have a laugh
 * **nyugodtan jöhet** – feel free to send
+
+------
+
+[Reel](https://www.instagram.com/reels/DTvz4lgjtu5/)
+
+[00:00.000 --> 00:29.000]  Aki a szabjátúnyó, aki stálin oldalánál, az a humanizmus, a haladás, a béke oldalánál, aki pedig a túlsó oldalán foglal helyen, az akaraba vagy akarapla, az embertelen, gondasz háborús gyújtogatók Zekértolója, a népelnyomó imperialisták szolgája, a béke és az emberiség ellensége.
