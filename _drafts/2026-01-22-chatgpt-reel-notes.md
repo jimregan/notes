@@ -182,3 +182,20 @@ an enemy of peace and of humanity.
 * **akarva vagy akaratlanul** – willingly or unwillingly
 * **a túlsó oldalon** – on the other side
 * **vkinek az oldalán áll** – to stand on someone’s side
+
+-----
+
+[Reel](https://www.instagram.com/reels/DS2xVN0Ep2p/)
+
+[00:00.000 --> 00:02.900]  Honantók ez az egy mese, hogy lehet integrálni, meg majd barátkozunk,
+[00:02.900 --> 00:04.220]  mert mond olyanok lesznek, mint mi,
+[00:04.220 --> 00:05.420]  az ne, hogy elfidjem ám valakit.
+[00:05.420 --> 00:07.020]  600 éve élünk együtt a cigányokkal,
+[00:07.020 --> 00:09.520]  és mind a mai napig nem tudtuk őket integrálni, hogy beszéljük világosan.
+[00:09.520 --> 00:13.180]  Ebben az országban minden cigány gyerek boldogulni fog, amik mi kormányzunk.
+[00:13.180 --> 00:15.320]  A cigány embernek nem adtál szót, hogy haragszik rád.
+[00:15.320 --> 00:16.620]  Hát attól volna, csak elment.
+[00:16.620 --> 00:18.460]  Jó, de nem adjál l'eróla, győzed meg.
+[00:18.460 --> 00:19.500]  Nem ismerem, hogy vagy sülve.
+[00:19.500 --> 00:20.240]  De rászavazd vagy nem?
+[00:20.240 --> 00:20.740]  Nem.
