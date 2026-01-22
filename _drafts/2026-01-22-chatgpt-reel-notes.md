@@ -115,6 +115,82 @@ so it’s better if you write it now!
 
 [Reel](https://www.instagram.com/reels/DTvz4lgjtu5/)
 
-Ismerős?
+Got it. Same format as before: **line-by-line translation + extracted vocabulary only**.
 
-Aki a Szovjátúnió, aki Sztálin oldalán áll, az a humanizmus, a haladás, a béke oldalán áll. Aki pedig a túlsó oldalon foglal helyet, az akarva vagy akaratlanul az embertelen, gonosz háborús gyújtogatók szekértolója, a népelnyomó imperialisták szolgája, a béke és az emberiség ellensége.
+---
+
+## 1️⃣ Line-by-line translation
+
+**Ismerős?**
+Sound familiar?
+
+**Aki a Szovjetunió, aki Sztálin oldalán áll,**
+Whoever stands on the side of the Soviet Union, on Stalin’s side,
+
+**az a humanizmus, a haladás, a béke oldalán áll.**
+stands on the side of humanism, progress, and peace.
+
+**Aki pedig a túlsó oldalon foglal helyet,**
+And whoever takes a place on the opposite side,
+
+**az akarva vagy akaratlanul**
+does so either deliberately or unintentionally
+
+**az embertelen, gonosz háborús gyújtogatók szekértolója,**
+as a supporter of inhuman, evil warmongers,
+
+**a népelnyomó imperialisták szolgája,**
+a servant of people-oppressing imperialists,
+
+**a béke és az emberiség ellensége.**
+an enemy of peace and of humanity.
+
+---
+
+## 2️⃣ Extracted vocabulary (high-frequency & useful)
+
+### Core verbs
+
+* **áll** – stands
+* **foglal helyet** – takes a position / takes a seat
+* **akar** – wants
+* **szolgál** → **szolgája** – serves → servant
+
+---
+
+### Key nouns
+
+* **oldal** – side
+* **humanizmus** – humanism
+* **haladás** – progress
+* **béke** – peace
+* **háború** → **háborús** – war → war-related
+* **emberiség** – humanity
+* **ellenség** – enemy
+* **imperialista** – imperialist
+
+---
+
+### Strong ideological language
+
+* **embertelen** – inhuman
+* **gonosz** – evil
+* **népelnyomó** – people-oppressing
+* **gyújtogató** (political metaphor) – warmonger / instigator
+* **szekértolója (vkinek)** – lackey, stooge, collaborator
+
+---
+
+### Fixed expressions
+
+* **akarva vagy akaratlanul** – willingly or unwillingly
+* **a túlsó oldalon** – on the other side
+* **vkinek az oldalán áll** – to stand on someone’s side
+
+---
+
+If you want next:
+
+* historical register vs modern irony
+* why **“szekértoló”** is such a loaded word
+* or a **neutral rephrasing** without propaganda tone
