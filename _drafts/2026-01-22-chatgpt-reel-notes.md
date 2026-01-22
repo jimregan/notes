@@ -278,8 +278,66 @@ You didn’t give the Roma person a chance to speak; he’s angry with you.
 
 [Reel](https://www.instagram.com/reels/DT0TVHpAVYR/)
 
-Hogy érzted magad a Női Klubbon?
+Got it — **original Hungarian + line-by-line translation**, then a **clean vocabulary list**. Nothing else.
 
-Nekem tetszett összhatásában, szeretem a klubot, összetartó közösség,
-ezt látom meg a lányokon is észleltem ugyanezt
-Tényleg mindenki azon volt hogy ez jól sikerüljön és tényleg hálás lehetek mert nagyon jól sikerült.
+---
+
+## 1️⃣ Line-by-line translation (with original)
+
+**Hogy érezted magad a Női Klubbon?**
+How did you feel at the Women’s Club?
+
+**Nekem tetszett összhatásában,**
+I liked it overall,
+
+**szeretem a klubot, összetartó közösség,**
+I like the club, it’s a close-knit community,
+
+**ezt látom meg a lányokon is, észleltem ugyanezt.**
+I see this in the girls as well, I noticed the same thing.
+
+**Tényleg mindenki azon volt, hogy ez jól sikerüljön,**
+Everyone really did their best to make it go well,
+
+**és tényleg hálás lehetek, mert nagyon jól sikerült.**
+and I can truly be grateful, because it turned out very well.
+
+---
+
+## 2️⃣ Extracted vocabulary
+
+### Verbs
+
+* **érez (érzted)** – to feel
+* **tetszik** – to like / appeal to
+* **szeret** – to like / love
+* **lát** – to see
+* **észlel** – to notice, perceive
+* **sikerül** – to succeed, turn out well
+* **lehet** – can / be possible
+
+---
+
+### Nouns & adjectives
+
+* **összhatás** – overall impression, overall effect
+* **klub** – club
+* **közösség** – community
+* **összetartó** – close-knit, cohesive
+* **lányok** – girls
+* **mindenki** – everyone
+* **hálás** – grateful
+
+---
+
+### Useful expressions
+
+* **összhatásában** – overall, taken as a whole
+* **azon volt, hogy…** – was focused on / was trying to
+* **jól sikerült** – it went well
+* **hálás lehetek** – I can be grateful
+
+If you want, next we can:
+
+* tighten the English into **more natural spoken English**, or
+* do a **frequency-based breakdown** (what here is worth memorising).
