@@ -136,3 +136,5 @@ categories: [links]
 
 [Katarzyna Skrzynecka as Andrea Bocelli & Sarah Brightman - Twoja Twarz Brzmi Znajomo](https://www.youtube.com/watch?v=VK4OfehCEYk)
 
+[8 Martial Artists Try to Disarm a Gun](https://www.youtube.com/watch?v=RMQX19LrL1k)
+
