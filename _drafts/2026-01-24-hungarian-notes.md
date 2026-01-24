@@ -104,6 +104,36 @@ most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
 
 [Reel](https://www.instagram.com/reels/DS-dg-sCPzL/)
 
-Arra gondoltam, hogy ennék valami finomságot, de a finomság, amit ennék épp ezt a posztot olvassa.
+Here you go — **line-by-line translation with the original**, followed by a **compact vocabulary list**. Nothing extra.
 
-[00:00.000 --> 00:09.500]  Thank you for watching!
+---
+
+### Line-by-line
+
+**Arra gondoltam, hogy ennék valami finomságot,**
+→ *I was thinking that I’d eat something delicious,*
+
+**de a finomság, amit ennék épp ezt a posztot olvassa.**
+→ *but the delicacy I’d eat is currently reading this post.*
+
+---
+
+### Vocabulary
+
+* **arra gondoltam** – I was thinking (lit. “I thought about that”)
+* **enni / ennék** – to eat / I would eat
+* **valami** – something
+* **finomság** – delicacy, tasty thing (often flirtatious)
+* **amit** – which / that (relative pronoun)
+* **épp** – just / right now
+* **poszt** – post (social media)
+* **olvas** – to read
+
+If you want:
+
+* slang / flirtiness level explained
+* alternative English punchlines
+* frequency notes on **finomság** in flirting
+
+just say 👍
+
