@@ -85,20 +85,20 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTj4wAXkt4H/)
 
-Amikor én készültem erre, és utána néztem, hogy egyébként szakmai körökben mi az állásfoglalás, és
-nagyon szeretem dr. Kének a csatornáját is, meg a gondolatait is.
-És mineki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
-egyébként az éjják képes tartani terápiá, de nem tudja helyett esíteni.
-Szóval, hogy valóban ez, amiről te is beszélsz, és emberik kapcsolatot nem tudja helyett esíteni,
-viszont olyan gyakorlatokat tud adni olyan feladatípusokat, akár meg akár mondjuk egy még
-egy diagnózist is lehet, hogy fel tud állítani, vagy itt megközelik tőleg helyes diagnózist.
-Amivel mondjuk, mert tovább lehet dolgozni terápiában, de pont a sciányzik,
-ami a kapcsolatokra jellemző és ami a terápiában nagyon gyúgyító, hogy valódi empatikus odafordulást figyelmet
-kapjak, és azt tapasztaljam meg, hogy így másik ember tükrözengen viszont.
-20-a, mint a Gábor mondott, ez a teljesen egyetétek, hogy agg a személyes kapcsolat az, ami tudjúgy itt olyan
-négy terápiás folyamatban.
-Van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy helyett soha,
-most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
+Amikor én készültem erre, és utánanéztem, hogy egyébként is szakmai körökben mi az állásfoglalás, és
+nagyon szeretem Dr. K-nek a csatornáját is, meg a gondolatait is.
+És őneki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
+egyébként az AI képes tartani terápiát, de nem tudja helyettesíteni.
+Szóval, hogy valóban ehhez, amiről te is beszélsz, és emberi kapcsolatot nem tudja helyettesíteni,
+viszont olyan gyakorlatokat tud adni, olyan feladattípusokat akár, meg akár mondjuk egy még
+egy diagnózist is lehet, hogy fel tud állítani, vagy megközelitőleg helyes diagnózist,
+amivel mondjuk már tovább lehet dolgozni terápiában. De pont az hiányzik,
+ami a kapcsolatokra jellemző, és ami a terápiában nagyon gyúgyító, hogy valódi empatikus odafordulást, figyelmet
+kapjak és azt tapasztaljam meg, hogy egy másik ember tükröz engen vissza.
+- Plusz, amit a Gábor mondott, ezzel teljesen egyetértek, hogy maga a személyes kapcsolat az, ami tud gyógyító lenni
+égy terápiás folyamatban.
+- Ott van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy hát soha?
+Most még a közeljövőben nem tud meghadni az AI vagy a ChatGPT.
 
 -----
 
