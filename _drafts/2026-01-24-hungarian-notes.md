@@ -104,19 +104,11 @@ most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
 
 [Reel](https://www.instagram.com/reels/DS-dg-sCPzL/)
 
-Here you go — **line-by-line translation with the original**, followed by a **compact vocabulary list**. Nothing extra.
-
----
-
-### Line-by-line
-
 **Arra gondoltam, hogy ennék valami finomságot,**
 → *I was thinking that I’d eat something delicious,*
 
 **de a finomság, amit ennék épp ezt a posztot olvassa.**
 → *but the delicacy I’d eat is currently reading this post.*
-
----
 
 ### Vocabulary
 
@@ -128,12 +120,4 @@ Here you go — **line-by-line translation with the original**, followed by a **
 * **épp** – just / right now
 * **poszt** – post (social media)
 * **olvas** – to read
-
-If you want:
-
-* slang / flirtiness level explained
-* alternative English punchlines
-* frequency notes on **finomság** in flirting
-
-just say 👍
 
