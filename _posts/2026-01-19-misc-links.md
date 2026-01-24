@@ -134,4 +134,5 @@ categories: [links]
 [code](https://github.com/aalto-speech/northern-sami-asr),
 [models](https://huggingface.co/collections/GetmanY1/sami-parliament-wav2vec2-asr)
 
+[Katarzyna Skrzynecka as Andrea Bocelli & Sarah Brightman - Twoja Twarz Brzmi Znajomo](https://www.youtube.com/watch?v=VK4OfehCEYk)
 
