@@ -130,5 +130,8 @@ categories: [links]
 
 [Exploring adaptation techniques of large speech foundation models for low-resource ASR: a case study on Northern Sámi](https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.html)
 
-[New Baseline in Automatic Speech Recognition for Northern Sámi](https://aclanthology.org/W18-0208/)
+[New Baseline in Automatic Speech Recognition for Northern Sámi](https://aclanthology.org/W18-0208/),
+[code](https://github.com/aalto-speech/northern-sami-asr),
+[models](https://huggingface.co/collections/GetmanY1/sami-parliament-wav2vec2-asr)
+
 
