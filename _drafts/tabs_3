@@ -127,8 +127,8 @@ https://www.google.com/maps/@59.3328769,18.0714855,3a,75y,295.59h,92.23t/data=!3
 pkhuset - Google Search
 https://www.google.com/search?q=pkhuset&rlz=1C5GCCM_en&oq=pkhuset&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOzIICAMQABgFGB4yBwgEEAAY7wUyCggFEAAYgAQYogQyBggGEEUYPTIGCAcQRRg80gEIMzYyM2owajmoAgawAgHxBVhcZ5PcxWyX&sourceid=chrome&ie=UTF-8
 
-Instagram • Messages
-https://www.instagram.com/direct/t/102052201197290
+Instagram
+https://www.instagram.com/reels/DS-dg-sCPzL/
 
 NVIDIA/NeMo-text-processing: NeMo text processing for ASR and TTS
 https://github.com/NVIDIA/NeMo-text-processing/pull/381
@@ -157,22 +157,52 @@ https://docs.nvidia.com/nemo-framework/user-guide/latest/nemo-2.0/index.html
 Pushing the Boundaries of Speech Recognition with NVIDIA NeMo Parakeet ASR Models | NVIDIA Technical Blog
 https://developer.nvidia.com/blog/pushing-the-boundaries-of-speech-recognition-with-nemo-parakeet-asr-models/
 
+nvidia/parakeet-ctc-1.1b · Hugging Face
+https://huggingface.co/nvidia/parakeet-ctc-1.1b
+
+nvidia/parakeet-ctc-0.6b · Hugging Face
+https://huggingface.co/nvidia/parakeet-ctc-0.6b
+
 Turbocharge ASR Accuracy and Speed with NVIDIA NeMo Parakeet-TDT | NVIDIA Technical Blog
 https://developer.nvidia.com/blog/turbocharge-asr-accuracy-and-speed-with-nvidia-nemo-parakeet-tdt/
 
-shreeshd-tn
-https://github.com/shreeshd-tn
+nvidia/parakeet-tdt-1.1b · Hugging Face
+https://huggingface.co/nvidia/parakeet-tdt-1.1b
 
-Merge staging Hindi TN v2 to main by mgrafu · Pull Request #346 · NVIDIA/NeMo-text-processing
-https://github.com/NVIDIA/NeMo-text-processing/pull/346
+finetune parakeet new language - Google Search
+https://www.google.com/search?q=finetune+parakeet+new+language&rlz=1C5GCCM_en&oq=finetune+parakeet+new+language&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAHSAQg2ODI5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-Branches · jimregan/work-2026
-https://github.com/jimregan/work-2026/branches
+nvidia/parakeet-tdt-0.6b-v2 · Recipes to Finetune to new Language example Hindi (Finally figured out)
+https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2/discussions/45
 
-Git refusing to merge unrelated histories on rebase - Stack Overflow
-https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+CUDA_ERROR_UNSUPPORTED_PTX_VERSION error when I try to finetune NeMo parakeet v2 model in google colab · Issue #13734 · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/issues/13734
 
-git squash merge - Google Search
-https://www.google.com/search?q=git+squash+merge&rlz=1C5GCCM_en&oq=git+squash+merge&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQABgUGIcCGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgwICRAAGBQYhwIYgATSAQgyOTk4ajBqOagCBrACAfEFfWyMaRRJ1nA&sourceid=chrome&ie=UTF-8
+nvidia/parakeet-tdt-0.6b-v2 · Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English
+https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2/discussions/47
+
+Hindi_GramVani_Finetune/finetuning-parakeet-on-hindi-dataset.ipynb at main · deepanshu-yadav/Hindi_GramVani_Finetune
+https://github.com/deepanshu-yadav/Hindi_GramVani_Finetune/blob/main/finetuning-parakeet-on-hindi-dataset.ipynb
+
+Hindi_GramVani_Finetune/finetune.py at main · deepanshu-yadav/Hindi_GramVani_Finetune
+https://github.com/deepanshu-yadav/Hindi_GramVani_Finetune/blob/main/finetune.py
+
+Hindi_GramVani_Finetune/hindi_config.yaml at main · deepanshu-yadav/Hindi_GramVani_Finetune
+https://github.com/deepanshu-yadav/Hindi_GramVani_Finetune/blob/main/hindi_config.yaml
+
+Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English · Issue #13825 · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/issues/13825
+
+Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English · Issue #13825 · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/issues/13825
+
+Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English · Issue #13825 · NVIDIA-NeMo/NeMo
+https://github.com/NVIDIA-NeMo/NeMo/issues/13825
+
+Instagram
+https://www.instagram.com/reels/DTj4wAXkt4H/
+
+Vocab by jimregan · Pull Request #339 · jimregan/notes
+https://github.com/jimregan/notes/pull/339/files
 
 
