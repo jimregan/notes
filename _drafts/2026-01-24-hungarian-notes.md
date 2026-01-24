@@ -85,20 +85,94 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTj4wAXkt4H/)
 
-Amikor én készültem erre, és utánanéztem, hogy egyébként is szakmai körökben mi az állásfoglalás, és
-nagyon szeretem Dr. K-nek a csatornáját is, meg a gondolatait is.
-És őneki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
-egyébként az AI képes tartani terápiát, de nem tudja helyettesíteni.
-Szóval, hogy valóban ehhez, amiről te is beszélsz, és emberi kapcsolatot nem tudja helyettesíteni,
-viszont olyan gyakorlatokat tud adni, olyan feladattípusokat akár, meg akár mondjuk egy még
-egy diagnózist is lehet, hogy fel tud állítani, vagy megközelitőleg helyes diagnózist,
-amivel mondjuk már tovább lehet dolgozni terápiában. De pont az hiányzik,
-ami a kapcsolatokra jellemző, és ami a terápiában nagyon gyúgyító, hogy valódi empatikus odafordulást, figyelmet
-kapjak és azt tapasztaljam meg, hogy egy másik ember tükröz engen vissza.
-- Plusz, amit a Gábor mondott, ezzel teljesen egyetértek, hogy maga a személyes kapcsolat az, ami tud gyógyító lenni
-égy terápiás folyamatban.
-- Ott van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy hát soha?
-Most még a közeljövőben nem tud meghadni az AI vagy a ChatGPT.
+Got it. **Original + line-by-line translation**, then a **focused vocabulary list**. Nothing else.
+
+---
+
+## Line-by-line translation
+
+**Amikor én készültem erre, és utánanéztem, hogy egyébként is szakmai körökben mi az állásfoglalás,**
+→ *When I was preparing for this and looked into what the professional consensus is anyway,*
+
+**és nagyon szeretem Dr. K-nek a csatornáját is, meg a gondolatait is.**
+→ *and I really like Dr. K’s channel and his ideas as well.*
+
+**És őneki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy**
+→ *And he had a whole line of reasoning where he basically explained that*
+
+**egyébként az AI képes tartani terápiát, de nem tudja helyettesíteni.**
+→ *AI is actually capable of conducting therapy, but it cannot replace it.*
+
+**Szóval, hogy valóban ehhez, amiről te is beszélsz,**
+→ *So, truly, in relation to what you’re also talking about,*
+
+**és emberi kapcsolatot nem tudja helyettesíteni,**
+→ *it cannot replace human connection,*
+
+**viszont olyan gyakorlatokat tud adni, olyan feladattípusokat akár, meg akár mondjuk egy még**
+→ *however, it can give exercises, even certain types of tasks, and maybe even*
+
+**egy diagnózist is lehet, hogy fel tud állítani, vagy megközelítőleg helyes diagnózist,**
+→ *it might be able to establish a diagnosis, or an approximately correct diagnosis,*
+
+**amivel mondjuk már tovább lehet dolgozni terápiában.**
+→ *which can then be worked with further in therapy.*
+
+**De pont az hiányzik,**
+→ *But exactly the thing that’s missing*
+
+**ami a kapcsolatokra jellemző, és ami a terápiában nagyon gyógyító,**
+→ *which is characteristic of relationships and which is very healing in therapy,*
+
+**hogy valódi empatikus odafordulást, figyelmet kapjak**
+→ *that I receive genuine empathetic turning-towards and attention*
+
+**és azt tapasztaljam meg, hogy egy másik ember tükröz engem vissza.**
+→ *and that I experience another human being mirroring me back.*
+
+**– Plusz, amit a Gábor mondott, ezzel teljesen egyetértek, hogy maga a személyes kapcsolat az,**
+→ *– Plus, what Gábor said, I completely agree with that: it’s the personal relationship itself*
+
+**ami tud gyógyító lenni egy terápiás folyamatban.**
+→ *that can be healing in a therapeutic process.*
+
+**– Ott van ez az emberi kapcsolódás,**
+→ *– There is this human connection there,*
+
+**amit viszont tényleg soha nem fog tudni, vagy hát soha?**
+→ *which, however, it truly will never be able to — or well, never?*
+
+**Most még a közeljövőben nem tud megadni az AI vagy a ChatGPT.**
+→ *For now, in the near future, AI or ChatGPT cannot provide this.*
+
+---
+
+## Vocabulary (selected, high-value)
+
+* **készülni valamire** – to prepare for something
+* **utánanézni** – to look into, research
+* **szakmai körök** – professional circles
+* **állásfoglalás** – position, official stance
+* **gondolatmenet** – line of reasoning
+* **levezet** – to derive, logically explain
+* **helyettesíteni** – to replace
+* **gyakorlat** – exercise (therapy, learning)
+* **feladattípus** – task type
+* **diagnózist felállítani** – to establish a diagnosis
+* **megközelítőleg** – approximately
+* **tovább dolgozni** – to continue working (with something)
+* **hiányzik** – is missing
+* **jellemző** – characteristic
+* **gyógyító** – healing
+* **empatikus odafordulás** – empathetic turning toward (very therapy-specific phrase)
+* **tükröz (vissza)** – to mirror (back)
+* **terápiás folyamat** – therapeutic process
+* **emberi kapcsolódás** – human connection
+* **a közeljövőben** – in the near future
+
+If you want next time, you can just say:
+**“same format”** and I’ll stick to this exactly.
+
 
 -----
 
