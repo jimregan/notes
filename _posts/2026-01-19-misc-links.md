@@ -125,3 +125,10 @@ categories: [links]
 
 [Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/resources/lecture-videos/)
 
+[Improved Subword Modeling for WFST-Based Speech Recognition](https://www.isca-archive.org/interspeech_2017/smit17_interspeech.html),
+[code](https://github.com/aalto-speech/subword-kaldi/)
+
+[Exploring adaptation techniques of large speech foundation models for low-resource ASR: a case study on Northern Sámi](https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.html)
+
+[New Baseline in Automatic Speech Recognition for Northern Sámi](https://aclanthology.org/W18-0208/)
+
