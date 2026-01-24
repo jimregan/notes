@@ -85,7 +85,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTj4wAXkt4H/)
 
-Mikor én készültem erre, és utána néztem, hogy egyébként szakmai körökben mi az állásfoglalás, és
+Amikor én készültem erre, és utána néztem, hogy egyébként szakmai körökben mi az állásfoglalás, és
 nagyon szeretem dr. Kének a csatornáját is, meg a gondolatait is.
 És mineki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
 egyébként az éjják képes tartani terápiá, de nem tudja helyett esíteni.
@@ -99,3 +99,11 @@ kapjak, és azt tapasztaljam meg, hogy így másik ember tükrözengen viszont.
 négy terápiás folyamatban.
 Van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy helyett soha,
 most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DS-dg-sCPzL/)
+
+Arra gondoltam, hogy ennék valami finomságot, de a finomság, amit ennék épp ezt a posztot olvassa.
+
+[00:00.000 --> 00:09.500]  Thank you for watching!
