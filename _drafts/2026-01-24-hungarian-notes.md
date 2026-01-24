@@ -85,17 +85,17 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTj4wAXkt4H/)
 
-[00:00.000 --> 00:05.480]  Mikor én készültem erre, és utána néztem, hogy egyébként szakmai körökben mi az állásfoglalás, és
-[00:05.480 --> 00:10.720]  nagyon szeretem dr. Kének a csatornáját is, meg a gondolatait is.
-[00:10.720 --> 00:16.280]  És mineki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
-[00:16.280 --> 00:22.040]  egyébként az éjják képes tartani terápiá, de nem tudja helyett esíteni.
-[00:22.040 --> 00:27.640]  Szóval, hogy valóban ez, amiről te is beszélsz, és emberik kapcsolatot nem tudja helyett esíteni,
-[00:27.640 --> 00:34.320]  viszont olyan gyakorlatokat tud adni olyan feladatípusokat, akár meg akár mondjuk egy még
-[00:34.320 --> 00:40.640]  egy diagnózist is lehet, hogy fel tud állítani, vagy itt megközelik tőleg helyes diagnózist.
-[00:40.640 --> 00:47.320]  Amivel mondjuk, mert tovább lehet dolgozni terápiában, de pont a sciányzik,
-[00:47.320 --> 00:54.320]  ami a kapcsolatokra jellemző és ami a terápiában nagyon gyúgyító, hogy valódi empatikus odafordulást figyelmet
-[00:54.320 --> 00:57.760]  kapjak, és azt tapasztaljam meg, hogy így másik ember tükrözengen viszont.
-[00:57.760 --> 01:03.920]  20-a, mint a Gábor mondott, ez a teljesen egyetétek, hogy agg a személyes kapcsolat az, ami tudjúgy itt olyan
-[01:03.920 --> 01:05.560]  négy terápiás folyamatban.
-[01:05.560 --> 01:10.680]  Van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy helyett soha,
-[01:10.680 --> 01:16.480]  most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
+Mikor én készültem erre, és utána néztem, hogy egyébként szakmai körökben mi az állásfoglalás, és
+nagyon szeretem dr. Kének a csatornáját is, meg a gondolatait is.
+És mineki volt egy egész ilyen gondolatmenete, ami alapjá levezette, hogy
+egyébként az éjják képes tartani terápiá, de nem tudja helyett esíteni.
+Szóval, hogy valóban ez, amiről te is beszélsz, és emberik kapcsolatot nem tudja helyett esíteni,
+viszont olyan gyakorlatokat tud adni olyan feladatípusokat, akár meg akár mondjuk egy még
+egy diagnózist is lehet, hogy fel tud állítani, vagy itt megközelik tőleg helyes diagnózist.
+Amivel mondjuk, mert tovább lehet dolgozni terápiában, de pont a sciányzik,
+ami a kapcsolatokra jellemző és ami a terápiában nagyon gyúgyító, hogy valódi empatikus odafordulást figyelmet
+kapjak, és azt tapasztaljam meg, hogy így másik ember tükrözengen viszont.
+20-a, mint a Gábor mondott, ez a teljesen egyetétek, hogy agg a személyes kapcsolat az, ami tudjúgy itt olyan
+négy terápiás folyamatban.
+Van ez az emberi kapcsolódás, amit viszont tényleg soha nem fog tudni, vagy helyett soha,
+most még a közei jövőben nem tud meghadni a zéjáj, hogy csejtség piti.
