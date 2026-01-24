@@ -85,10 +85,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DTj4wAXkt4H/)
 
-Got it. **Original + line-by-line translation**, then a **focused vocabulary list**. Nothing else.
-
----
-
 ## Line-by-line translation
 
 **Amikor én készültem erre, és utánanéztem, hogy egyébként is szakmai körökben mi az állásfoglalás,**
@@ -145,8 +141,6 @@ Got it. **Original + line-by-line translation**, then a **focused vocabulary lis
 **Most még a közeljövőben nem tud megadni az AI vagy a ChatGPT.**
 → *For now, in the near future, AI or ChatGPT cannot provide this.*
 
----
-
 ## Vocabulary (selected, high-value)
 
 * **készülni valamire** – to prepare for something
@@ -169,10 +163,6 @@ Got it. **Original + line-by-line translation**, then a **focused vocabulary lis
 * **terápiás folyamat** – therapeutic process
 * **emberi kapcsolódás** – human connection
 * **a közeljövőben** – in the near future
-
-If you want next time, you can just say:
-**“same format”** and I’ll stick to this exactly.
-
 
 -----
 
