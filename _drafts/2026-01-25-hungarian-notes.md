@@ -9,10 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT5RAXhCjOj/)
 
-Got it — **same format as before**.
-
----
-
 ## Line-by-line translation
 
 **Így látogasd meg az Akropoliszt ingyen!**
@@ -54,8 +50,6 @@ Got it — **same format as before**.
 **Ha kíváncsi vagy, mit tudtunk még ingyen megnézni, kövesd be az oldalamat!**
 → *If you’re curious what else we managed to see for free, follow my page!*
 
----
-
 ## Vocabulary (focused)
 
 * **így** – this way
@@ -75,6 +69,4 @@ Got it — **same format as before**.
 * **magában** – by itself, alone
 * **kíváncsi vagy** – if you’re curious
 * **bekövetni** – to follow (on social media)
-
-If you want, next time I can also **tighten the translation stylistically** (more TikTok/Instagram English vs neutral).
 
