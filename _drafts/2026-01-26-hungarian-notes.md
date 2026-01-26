@@ -164,9 +164,7 @@ Got it — here are **everything except Anki**: (1) A2 core list tightened, (2) 
 * **még / már** – still / already
 * **néha / mindig / soha** – sometimes / always / never
 
----
-
-## 2) Borderline B1 (from *your* subtitles, but super worth learning)
+## 2) Borderline B1
 
 These are either less frequent in everyday A2, more abstract, or more “podcast-y”:
 
@@ -196,15 +194,11 @@ These are either less frequent in everyday A2, more abstract, or more “podcast
 * **fejlődik / fejlődni** – develop/improve
 * **inspirál** – inspire
 
-If you want, I can cut this B1 list down to the **top 15** most “worth it”.
-
----
-
 ## 3) Sentence patterns (A2-friendly) pulled from the subtitles
 
 ### Talking about identity / background
 
-* **Én ___ vagyok.** (Én Sziszi vagyok.)
+* **Én ___ vagyok.**
 * **Az anyanyelvem a ___.**
 * **___ éve lakom ___. / ___ évig éltem ___.**
 
@@ -238,8 +232,6 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * **Meg kell ___ (megpróbálni / mutatni / kérni).**
 * **Nem lehet elvárni, hogy ___.**
 
----
-
 ## 4) Glossed mini-transcript (learner-friendly)
 
 ### A) Intro (A2-easy)
@@ -255,8 +247,6 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * *epizód* = episode
 * *téma* = topic
 * *kérte* = requested (past)
-
----
 
 ### B) Meeting + moving (A2 with a few B1 words)
 
@@ -275,8 +265,6 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * *-ben* = in (a year)
 * *kiköltöztem* = I moved out/abroad
 
----
-
 ### C) The “family event” problem (very useful real-life A2)
 
 **Egyedül maradtam kb. húsz emberrel, akik spanyolul beszéltek.**
@@ -285,7 +273,7 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * *kb.* = about
 * *akik* = who (plural people)
 
-**Nem volt kellemes, főleg, hogy introvertált vagyok.** *(“introvertált” = B1-ish)*
+**Nem volt kellemes, főleg, hogy introvertált vagyok.**
 
 * *nem volt kellemes* = it wasn’t pleasant
 * *főleg, hogy…* = especially because…
@@ -295,8 +283,6 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * *attól függetlenül, hogy…* = even though…
 * *szinte semmit* = almost nothing
 * *fogadnak* = they welcome (me)
-
----
 
 ### D) Practical communication strategy (A2 gold)
 
@@ -311,10 +297,3 @@ If you want, I can cut this B1 list down to the **top 15** most “worth it”.
 * *ha… akkor…* = if… then…
 * *megkérni* = to ask/request
 * *tízszer* = ten times
-
----
-
-If you tell me your goal (speaking? reading? “I want to survive family dinners”?), I can also turn this into:
-
-* a **topic wordlist by theme** (family / language / feelings / bureaucracy)
-* a **practice worksheet** (fill-the-gap + “say it another way” + roleplay prompts)
