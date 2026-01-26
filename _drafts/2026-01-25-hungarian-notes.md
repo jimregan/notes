@@ -909,3 +909,7 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 -----
 
 [Reel](https://www.instagram.com/reels/DT8JpxDiKZZ/)
+
+[00:00.000 --> 00:02.000]  Ezzel, nem, nekem lehet, nem az ér.
+[00:02.000 --> 00:04.000]  Na, most lebuktál.
+[00:06.000 --> 00:08.000]  Ne kamuz, étkezj olyan.
