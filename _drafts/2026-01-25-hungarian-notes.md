@@ -267,10 +267,6 @@ Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy
 
 [Reel](https://www.instagram.com/reels/DT78tfljHxy/)
 
-Got it — **exactly the two things you asked for**.
-
----
-
 ## Line-by-line translation
 
 **– Van problémád az alkohollal?**
@@ -294,8 +290,6 @@ Got it — **exactly the two things you asked for**.
 **– Mert a szüleim azt mondták, hogy az alkoholistáknak nem szabad hinni.**
 → *Because my parents said you can’t trust alcoholics.*
 
----
-
 ## Vocabulary (useful & frequent)
 
 * **van problémád valamivel** – you have a problem with something
@@ -311,19 +305,3 @@ Got it — **exactly the two things you asked for**.
 * **szabad** (nem szabad) – allowed (not allowed)
 * **hinni valakinek** – to trust someone
 * **alkoholista** – alcoholic
-
----
-
-### Why this lands as a joke (very briefly, no lecture)
-
-The punchline hinges on **önellentmondás** (self-contradiction):
-
-> *I can’t keep my promise because alcoholics can’t be trusted — and I’m an alcoholic.*
-
-If you want next time, we can:
-
-* strip it down to **one-line meme English**, or
-* compare **basszus vs. baszd meg vs. bazdmeg** (register & frequency), or
-* collect **dark-humor Hungarian structures** like this one.
-
-You’re doing great with these — your instincts about what’s worth learning are solid.
