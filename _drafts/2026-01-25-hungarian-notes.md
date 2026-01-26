@@ -74,11 +74,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT4igK3Egpt/)
 
-Got it — **same clean format**:
-**line-by-line translation with the original Hungarian**, followed by a **focused vocabulary list**. No extras.
-
----
-
 ## Line-by-line translation
 
 **Mi történik akkor, amikor a harmadik félként beférkőzik a kapcsolatokba?**
@@ -89,8 +84,6 @@ Got it — **same clean format**:
 
 **a párkapcsolatban, konfliktust, hogy valahogy kicsatornázd az AI-nak a problémákat?**
 → *in a romantic relationship, conflict, where you somehow channel the problems to AI?*
-
----
 
 **– Szóval ezt pároknál például abban tud hasznos lenni, hogy segít megfogalmazni azt,**
 → *So for couples, for example, it can be useful in helping to formulate*
@@ -104,8 +97,6 @@ Got it — **same clean format**:
 **azt visszaviszem a páromhoz, és vele beszélem meg.**
 → *I take back to my partner and discuss it with them.*
 
----
-
 **– Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom használni, mint egy barátot,**
 → *I think what you’re saying is very, very important: whether I want to use it like a friend,*
 
@@ -115,8 +106,6 @@ Got it — **same clean format**:
 **és akkor érzelmileg ebbe a kapcsolatba invesztálok az AI-jal,**
 → *and then I emotionally invest in this relationship with the AI,*
 
----
-
 **vagy pedig tényleg használom, mint egy eszközt arra,**
 → *or whether I truly use it as a tool*
 
@@ -125,8 +114,6 @@ Got it — **same clean format**:
 
 **meg kapaszkodókat találni.**
 → *and to find handholds, points of support.*
-
----
 
 ## Vocabulary (focused, high-value)
 
@@ -143,15 +130,6 @@ Got it — **same clean format**:
 * **eszköz** – tool
 * **útvesztő** – maze, labyrinth (metaphorical)
 * **kapaszkodó** – handhold, support, anchor (figurative)
-
-If you want next time:
-
-* **tone-smoothed translation** (more natural spoken English), or
-* **frequency-ranked vocab only**, or
-* **contrast notes** (why Hungarians phrase this this way)
-
-Just say the word.
-
 
 -----
 
