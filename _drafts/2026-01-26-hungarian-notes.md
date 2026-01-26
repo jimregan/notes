@@ -7,6 +7,14 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
+[MagyarOK A2+](https://www.youtube.com/playlist?list=PLSCLkPNXyD-aUlvuJzTwcQHDP0QbkJG04)
+
+[Hungarian for Foreigners](https://www.youtube.com/playlist?list=PLTvUKVVaaZ0ZIel9m-ZbqdzB8bzatg3uF)
+
+[Hungarian Short Stories A2 - B1](https://www.youtube.com/@HungarianShortStoriesA2-B1)
+
+-----
+
 [Ep 137](https://www.youtube.com/watch?v=M-OW9E994Sw) --- When your partner doesn't speak your mother tongue
 
 ## 🟢 A2 Vocabulary List (from the subtitles)
