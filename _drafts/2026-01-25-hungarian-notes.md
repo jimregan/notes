@@ -190,8 +190,6 @@ categories: [hungarian, chatgpt, reels]
 
 Understood — **line-by-line translation + extracted vocabulary only**.
 
----
-
 ## Line-by-line translation
 
 **– Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,**
@@ -251,8 +249,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 **Kerüld el! Ne csináld! Nem, nem jó.**
 → *Avoid it! Don’t do it! No, it’s not good.*
 
----
-
 ## Vocabulary (key items)
 
 * **bűntudat** – guilt
@@ -277,9 +273,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **impulzus** – impulse
 * **nem szabad** – not allowed
 * **kerül** / **kerüld el** – to avoid
-
-If you want the **register breakdown** (what’s colloquial, moralizing, quoted ideology vs speaker stance), or a **cleaned Hungarian transcript**, say the word.
-
 
 -----
 
