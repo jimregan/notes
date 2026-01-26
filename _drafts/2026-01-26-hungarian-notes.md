@@ -297,3 +297,130 @@ These are either less frequent in everyday A2, more abstract, or more “podcast
 * *ha… akkor…* = if… then…
 * *megkérni* = to ask/request
 * *tízszer* = ten times
+
+Perfect, thanks for the clarification 👍
+Below is a **filtered list of everything that is *clearly above A2*** in your subtitles — roughly **B1 to low B2**, including abstract nouns, discourse markers, emotional vocabulary, and “podcast-style” verbs. I’ve **excluded** basic A2 items you already know.
+
+I’ve grouped them by *why* they’re harder, which usually helps retention.
+
+---
+
+## 🔵 B1+ ABSTRACT NOUNS & CONCEPTS
+
+These don’t refer to concrete objects and tend to appear in reflective speech.
+
+* **tapasztalat** – experience
+* **helyzet** – situation (abstract use)
+* **téma** – topic
+* **igény** – need / demand (internal, psychological)
+* **szándék** – intention
+* **motiváció** – motivation
+* **szempont** (*-ból/-ból*) – point of view
+* **szint** – level
+* **rész** – part / role (abstract: *saját részem volt benne*)
+* **közeg** – environment (social/intellectual)
+* **apróság** – small detail
+* **pillanat** – moment
+* **procedúra** – procedure
+* **papírmunka** – paperwork
+
+---
+
+## 🔵 B1+ VERBS (MENTAL, DISCOURSE, ABSTRACT ACTIONS)
+
+These are the *big jump* from A2: less physical, more internal or social.
+
+* **elfogad** – accept
+* **érez / azt érzi, hogy…** – feel (abstract)
+* **hisz** – believe
+* **gondol / úgy gondolja** – think (opinion)
+* **rájön** – realise
+* **elvár** – expect
+* **bevon** – involve/include
+* **kapcsolódik** – connect (emotionally/socially)
+* **kommunikál** – communicate (formal/abstract)
+* **próbálkozik** – make attempts
+* **értékel** – appreciate/value
+* **inspirál** – inspire
+* **frusztrál / frusztrációt okoz** – frustrate
+* **fejlődik / fejlődni** – develop
+* **visszagondol** – reflect back
+* **elfelejt / elfelejteni** – forget (abstract use)
+
+---
+
+## 🔵 B1+ ADJECTIVES (EMOTIONAL / ABSTRACT)
+
+Often used metaphorically or evaluatively.
+
+* **kényelmetlen** – uncomfortable (non-physical)
+* **magányos** – lonely
+* **introvertált** – introverted
+* **láthatatlan** – invisible (metaphorical)
+* **folyékony** (*folyékonyan*) – fluent
+* **kétnyelvű** – bilingual
+* **evidens** – obvious/self-evident
+* **kedves** – kind (evaluative)
+* **nehéz** – difficult (abstract/emotional)
+
+---
+
+## 🔵 B1+ DISCOURSE MARKERS & STRUCTURES
+
+These are *huge* for sounding natural but are almost never A2.
+
+* **attól függetlenül, hogy…** – regardless of the fact that…
+* **úgyhogy** – so / therefore (spoken discourse)
+* **viszont** – however
+* **egyébként** – by the way / actually
+* **összességében** – overall
+* **például** – for example (extended discourse use)
+* **idővel** – over time
+* **szerintem** – in my opinion (argumentative use)
+* **nem fekete-fehér** – not black and white (idiomatic)
+
+---
+
+## 🔵 B1+ FIXED EXPRESSIONS / IDIOMS
+
+These are *definitely* above A2.
+
+* **ez nem fekete-fehér** – it’s not black and white
+* **ez van** – that’s how it is
+* **nem baj** – it’s okay / no problem
+* **meg kell erőltetni magam** – I have to push myself
+* **részt venni valamiben** – take part in something
+* **beleteszi az energiát** – put energy into something
+* **nem lehet elvárni, hogy…** – you can’t expect that…
+* **nem jelent semmit** – it doesn’t mean anything
+* **hangsúlyt tesz** – put stress (pronunciation)
+
+---
+
+## 🔵 B1+ RELATIONSHIP / LIFE-SPECIFIC VOCAB
+
+Topic-specific but clearly beyond A2.
+
+* **távkapcsolat** – long-distance relationship
+* **összeházasodik** – get married (formal)
+* **kiköltözik** – move abroad/out
+* **zöldkártya** – green card
+* **tolmácsolás** – interpreting
+* **kerti parti** – garden party
+* **személyiségfejlődés** – personality development
+
+---
+
+## 🧠 Reality check (useful for you)
+
+If you:
+
+* **recognise** most of this → you’re already B1 listening
+* **can actively use ~50%** → solid B1 speaking
+* **can paraphrase these ideas** → approaching B2 discourse
+
+If you want next, I can:
+
+* 🔹 rank these by **highest payoff**
+* 🔹 mark which are **passive vs active B1**
+* 🔹 or turn this into **spoken paraphrase practice** (“say it in simpler Hungarian”)
