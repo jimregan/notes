@@ -590,6 +590,12 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT2tVSNCP6N/)
 
+[00:00.000 --> 00:03.080]  mindig mindennek a hát terében a Lemeztectonika.
+[00:03.080 --> 00:06.920]  A kontinessek mozognak. Akármilyen kontines is van odafent,
+[00:06.920 --> 00:12.960]  azok a kőzetlemezek ketté repednek, és ez a riftesedés megnitja az utat,
+[00:12.960 --> 00:18.800]  a föláramló magma számára, ott pedig első körben ótszáni kőzetlemez fog képződni.
+[00:18.800 --> 00:22.960]  És így jönnek létre az első ótszánok, ez történt 200 millió jövel ezelőtt.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DT0FYiGDPZe/)
