@@ -590,11 +590,11 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT2tVSNCP6N/)
 
-mindig mindennek a hát terében a Lemeztectonika.
-A kontinessek mozognak. Akármilyen kontines is van odafent,
-azok a kőzetlemezek ketté repednek, és ez a riftesedés megnitja az utat,
-a föláramló magma számára, ott pedig első körben ótszáni kőzetlemez fog képződni.
-És így jönnek létre az első ótszánok, ez történt 200 millió jövel ezelőtt.
+Mindig mindennek a hátterében a Lemeztektonika áll.
+A kontinensek mozognak. Akármilyen kontinens is van odafent,
+azok a kőzetlemezek kettérepednek, és ez a riftesedés megnyitja az utat
+a föláramló magma számára, ott pedig első körben óceáni kőzetlemez fog képződni.
+És így jönnek létre az első óceánok. Ez történt 200 millió évvel ezelőtt.
 
 -----
 
