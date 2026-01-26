@@ -7,7 +7,7 @@ title: Reel breakdowns
 categories: [hungarian, chatgpt, reels]
 ---
 
-[Ep 137](https://www.youtube.com/watch?v=M-OW9E994Sw)
+[Ep 137](https://www.youtube.com/watch?v=M-OW9E994Sw) --- When your partner doesn't speak your mother tongue
 
 ## 🟢 A2 Vocabulary List (from the subtitles)
 
@@ -99,10 +99,6 @@ categories: [hungarian, chatgpt, reels]
 * **meg kell próbálni** – you have to try
 * **idővel** – over time
 
-Got it — here are **everything except Anki**: (1) A2 core list tightened, (2) borderline B1 flagged, (3) A2 sentence patterns from your subtitles, and (4) a learner-friendly **glossed mini-transcript** (selected sections, not the whole thing).
-
----
-
 ## 1) A2 Core Vocabulary (most useful + most repeated)
 
 ### People & relationships
@@ -165,8 +161,6 @@ Got it — here are **everything except Anki**: (1) A2 core list tightened, (2) 
 * **néha / mindig / soha** – sometimes / always / never
 
 ## 2) Borderline B1
-
-These are either less frequent in everyday A2, more abstract, or more “podcast-y”:
 
 * **távkapcsolat** – long-distance relationship
 * **összeházasodik** – to get married (more formal)
@@ -379,3 +373,8 @@ These are either less frequent in everyday A2, more abstract, or more “podcast
 * **tolmácsolás** – interpreting
 * **kerti parti** – garden party
 * **személyiségfejlődés** – personality development
+
+-----
+
+[Ep 122](https://www.youtube.com/watch?v=11iDrfwBV04) --- Painful Truth about Language Learning
+
