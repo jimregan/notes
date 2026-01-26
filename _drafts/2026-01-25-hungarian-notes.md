@@ -222,16 +222,15 @@ Igen, igen.
 
 [Reel](https://www.instagram.com/reels/DR9LpmAj6f2/)
 
-Ah, ah, ah, sziasztok gyerekek!
-Te jó ég, Szabú! Itt a Mikulás!
-Hm, látom, Bob! Hát itt áll előttem!
-Ah, ah, ah, te egyébként jó gyerek voltál, Bob! Ezért kapsz egy Mikulás csokit!
-Há, látod, Szabú! Mely érte jó gyereknek lenni?
-De pedig, Szabú, mert jó gyerek voltál! Itt egy pánzkampenvágen! Hattigristán!
-Aha, kamad! Most tesződik!
-Mi? Én mércsakecsok itt kaptam!
-Mert jó gyerek voltál! De Erdény, depoglalja visszavagát!
-Egyébként jó gyerek voltál!
+Ho, ho, ho, sziasztok gyerekek!
+De jó ég, Samu! Itt a Mikulás!
+Látom, Bob! Hát itt áll előttem.
+Ho, ho, ho, te egy igen jó gyerek voltál, Bob! Ezért kapsz egy Mikulás csokit!
+Há! Látod, Samu? Megérte jó gyereknek lenni.
+Te pedig, Samu, mert jó gyerek voltál. Itt egy pánzerkampfwagen VI! Tigristank!
+Aha! A kaland most kezdődik.
+Mi? Én miért csak egy csokit kaptam?
+Mert jó gyerek voltál. De erdély nem foglalja vissza magát.
 
 -----
 
