@@ -690,3 +690,10 @@ categories: [hungarian, chatgpt, reels]
 * **Kezd változni…**
 * **Sok minden változott az elmúlt években.**
 
+-----
+
+[Conversation 1](https://www.youtube.com/watch?v=HfOh-51A6Ms)
+
+-----
+
+[In the buffet](https://www.youtube.com/watch?v=yaP9zVJczg8)
