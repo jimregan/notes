@@ -694,10 +694,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Conversation 1](https://www.youtube.com/watch?v=HfOh-51A6Ms)
 
-Got it — same format: **B1+ vocabulary** + **A2+ patterns** from this dialogue. (I’ll ignore the clearly-A1/A2 stuff like *szia, mikor, pénteken, hány éves* etc.)
-
----
-
 ## 1) B1+ vocabulary (from this subtitles set)
 
 ### Travel / problems / time
@@ -762,8 +758,6 @@ Got it — same format: **B1+ vocabulary** + **A2+ patterns** from this dialogue
 
 * **A gyakorlás teszi a mestert.** – practice makes perfect.
 
----
-
 ## 2) A2+ patterns (usable structures)
 
 ### A) “Long time no see”
@@ -826,11 +820,6 @@ Got it — same format: **B1+ vocabulary** + **A2+ patterns** from this dialogue
 
 * **Csekkold le őket.**
   Pattern: verb + **le** (informal command)
-
----
-
-If you want, I can also flag which items here are **B1 vs B2 vs “just slang”** (e.g., *kivan, lecsekkol, belájkol*), so you know what to actively use and what to just understand.
-
 
 -----
 
