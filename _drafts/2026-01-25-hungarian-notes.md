@@ -720,11 +720,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT95YKXCHGl/)
 
-Got it — **exactly the format you want**:
-**line-by-line translation + extracted vocabulary**, no extras.
-
----
-
 ## Line-by-line translation
 
 **Ha felismersz öt filmet az emojikból, akkor tiéd ez az isteni Pad Thai, benne vagy?**
@@ -781,8 +776,6 @@ Got it — **exactly the format you want**:
 **Ha pedig kipróbálnád különleges ázsiai ételeinket, várunk országszerte a Buddha Originalban.**
 → *And if you’d like to try our special Asian dishes, we’re waiting for you nationwide at Buddha Original.*
 
----
-
 ## Vocabulary (extracted)
 
 * **felismer** – to recognise
@@ -803,12 +796,6 @@ Got it — **exactly the format you want**:
 * **különleges** – special
 * **országszerte** – nationwide
 * **várunk** – we’re waiting for you / we welcome you
-
-If you want next:
-
-* frequency ranking (which of these are *daily Hungarian*),
-* slang equivalents in Polish / English,
-* or trimming this down into **Anki-ready cards**.
 
 -----
 
