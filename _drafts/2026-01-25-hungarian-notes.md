@@ -801,12 +801,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DTMtwp-DTw8/)
 
-Rendben. **Ugyanaz a formátum, mint az előbb**:
-**line-by-line translation + külön szókincslista**.
-Nincs magyarázat, nincs kommentár.
-
----
-
 ## Line-by-line translation
 
 **Nagyon nehezen mondják ki a nőgyógyászok a betegeknek,**
@@ -830,8 +824,6 @@ Nincs magyarázat, nincs kommentár.
 **és hogy annyira felszabadult, hogy nevet adtak neki.**
 → *and that they felt so relieved that it was finally given a name.*
 
----
-
 **– Nagy általános mondásom, és ez szerintem nekem nagy misszióm,**
 → *This is one of my big general sayings, and I think this is a major mission of mine,*
 
@@ -852,8 +844,6 @@ Nincs magyarázat, nincs kommentár.
 
 **kapok egy olyan érzést, hogy az ember amúgy az ismeretlentől fél nagyon.**
 → *get the feeling that people are actually very afraid of the unknown.*
-
----
 
 **Most már idézőjelben tudjuk,**
 → *Now we know, in quotation marks,*
@@ -879,8 +869,6 @@ Nincs magyarázat, nincs kommentár.
 **Van kiút, mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldás.**
 → *There is a way out, because pay attention: I’ve already said that this is a good solution.*
 
----
-
 **Szóval én azt gondolom, hogy azzal, hogyha kimondjuk ezeket, nevesítjük,**
 → *So I think that by saying these things out loud, by naming them,*
 
@@ -895,8 +883,6 @@ Nincs magyarázat, nincs kommentár.
 
 **És akkor azt se tudom, hogy mi, kivel állok szemben, mi az.**
 → *And then I don’t even know what it is, what I’m dealing with, what it actually is.*
-
----
 
 ## Vocabulary (extracted)
 
@@ -919,12 +905,6 @@ Nincs magyarázat, nincs kommentár.
 * **van kiút** – there is a way out
 * **nevesít** – to label, to name
 * **betegség-tudat** – illness identity / illness mindset
-
-Ha akarod, a következő lépés lehet:
-
-* **gyakori orvosi–pszichológiai szókincs külön listában**, vagy
-* **Anki-formátum (HU → EN)**, vagy
-* **stiláris regiszter** (mennyire szakmai / hétköznapi ez a szöveg).
 
 -----
 
