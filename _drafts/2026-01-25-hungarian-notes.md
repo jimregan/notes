@@ -70,3 +70,13 @@ categories: [hungarian, chatgpt, reels]
 * **kíváncsi vagy** – if you’re curious
 * **bekövetni** – to follow (on social media)
 
+-----
+
+[Reel](https://www.instagram.com/reels/DT4igK3Egpt/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT5Mz_SjJq8/)
+
+-----
+
