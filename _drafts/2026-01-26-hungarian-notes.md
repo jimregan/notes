@@ -525,3 +525,169 @@ categories: [hungarian, chatgpt, reels]
 * **Ne foglalkozz ___-val/-vel.**
 * **Hallgass magadra.**
 * **Döntsd el, hogy…**
+
+-----
+
+[Ep 99](https://www.youtube.com/watch?v=z9AwiLk_T6E)
+
+Here you go — **B1+ vocabulary** (filtered from this money/attitude episode) + **A2+ patterns** you can steal for your own speaking/writing.
+
+---
+
+## 1) B1+ vocabulary (from this subtitle set)
+
+### Language / thinking / culture
+
+* **hirtelen** – suddenly
+* **eszembe jut** – it occurs to me / I remember
+* **össze van gyűjtve** – is compiled/collected
+* **különböző** – different/various
+* **viccelődik** – joke around
+* **formál** – shape/form
+* **gondolkodás / gondolkodásmód** – thinking / mindset
+* **hatás** (*hatással van*) – effect (*have an effect on*)
+* **megfelelő** – equivalent / corresponding
+* **megérdemel** – deserve
+* **elismerés** – recognition
+* **etimológia** – etymology (topic-specific, B2-ish)
+* **részletesen** – in detail
+* **belemenni (vmibe)** – go into (a topic)
+
+### Money as a social taboo
+
+* **tabutéma** – taboo topic
+* **szokás** (*szokás vmiről beszélni*) – it’s customary
+* **fizetés** – salary
+* **nyíltan** – openly
+* **alacsony** – low
+* **irigy** – envious
+* **megdolgozik érte** – work hard for it
+* **szerencsés** – lucky
+* **pakliban benne van** – it’s in the cards / it may happen (idiomatic)
+
+### Work / hiring
+
+* **elégedett** (*nem volt elégedett*) – satisfied
+* **munkahely** – workplace
+* **interjú** – interview
+* **felvesz (állásba)** – hire
+* **hirdetés** – job ad
+* **jelentkezik (állásra)** – apply (for a job)
+* **felkészül** – prepare
+* **igazságos / fair** – fair
+* **általánosságban** – generally
+
+### Social judgement / “what will people think”
+
+* **beképzelt** – conceited
+* **túl sokat gondol magáról** – think too highly of oneself
+* **kifogás** – excuse
+* **sürgősen** – urgently
+* **rossz szemmel néz** – look at someone badly / disapprove
+* **megjegyzést tesz** – make a remark
+* **lefagy** – freeze up (mentally)
+* **kifejezés** – expression/phrase
+
+### Key cultural words/idioms (high value!)
+
+* **szabadkozik / szabadkozni** – make excuses / apologise-explain to appear modest
+* **magyarázkodik / magyarázkodni** – justify oneself
+* **szerény** – modest
+* **tipikus** – typical
+* **turkálás** (*egymás zsebében turkálás*) – prying into others’ business
+* **magánügy** – private matter
+* **hozzáállás** – attitude
+* **attitűd** – attitude (more “loanword”)
+* **folyamat** – process
+* **egyetért** (*nem értene velem egyet*) – agree
+* **elmúlt évek** – the past years
+* **tapasztalat** – experience
+
+### Useful “life” nouns
+
+* **márkás** – branded
+* **szituáció** – situation (slightly more formal than *helyzet*)
+* **sor** (*sorban áll*) – queue/line
+* **unokahúg** – niece
+* **születésnap** – birthday
+* **ajándék** – gift
+* **forint** – forint (currency)
+
+### Quote you should know
+
+* **„Látom, van miből.”** – “I see you can afford it / you’ve got money for that.”
+
+---
+
+## 2) A2+ patterns (structures you can reuse)
+
+### A) “It occurs to me…”
+
+* **Most hirtelen eszembe jutott, hogy…**
+* **Eszembe jutott egy történet, amit…**
+
+### B) “It’s compiled that… / it was collected that…”
+
+* **Össze volt gyűjtve, hogy…**
+* **(Az volt összeírva,) hogy…**
+
+### C) Explaining meaning
+
+* **A ___ azt (is) jelenti, hogy…**
+* **Ez azt jelenti, hogy…**
+
+### D) “Not X, but Y”
+
+* **Nem (arról) akarok beszélni, hogy…, hanem (arról), hogy…**
+* **Nem azért…, hanem azért…**
+
+### E) Talking about social norms
+
+* **… sem szokás …**
+  (Közeli barátokkal sem szokás pénzről beszélni.)
+* **Arról nem szoktunk beszélgetni, hogy…**
+
+### F) “Ne érts félre…”
+
+* **Ne érts félre, nem azt mondom, hogy…, csak azt, hogy…**
+
+### G) Probability / “it may happen”
+
+* **Benne van a pakliban, hogy…**
+* **Lehet, hogy…** / **Simán lehet, hogy…**
+
+### H) “People think that…”
+
+* **Sokszor azt gondolják, hogy…**
+* **Mindenki azt fogja gondolni, hogy…**
+
+### I) “If… then you fear that…”
+
+* **Ha ___, akkor félsz, hogy ___.**
+  (Ha veszel valami drága dolgot, akkor félsz, hogy rossz szemmel néznek rád.)
+
+### J) Indirect reporting (very B1-useful)
+
+* **Azt mondta, hogy…**
+* **Megkérdezte, hogy…**
+* **Mondta, hogy szerinte okés-e, hogy…**
+
+### K) Evaluation / stance
+
+* **Szerintem ez nem igazságos / nem fair.**
+* **Szerintem teljesen egyértelmű, hogy…**
+* **Én úgy látom, hogy…**
+
+### L) “It should be…”
+
+* **… kellene, hogy legyen.**
+  (Mindenkinek a magánügye kellene, hogy legyen.)
+
+### M) Change over time
+
+* **Kezd változni…**
+* **Sok minden változott az elmúlt években.**
+
+---
+
+If you want the “next step” output too: I can pick the **top ~25 highest-payoff B1+ items** from this episode and write **mini example sentences** that fit *your* likely use-cases (job talk, friends, buying stuff, social media).
