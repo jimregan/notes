@@ -77,13 +77,13 @@ categories: [hungarian, chatgpt, reels]
 Mi történik akkor, amikor a harmadik félként beférkőzik a kapcsolatokba?
 Ilyenel talákoztatok-e már egyébként, amikor ez okozott kifejezetten problémát
 a párkapcsolatban, konfliktúst, hogy valahogy kicsatornázd az AI-nak a problémákat?
-Szóval ezt pároknál például abban tud haztós lenni, hogy segyít megfogalmazni azt,
-amit én szeretnék mondani a pároknak, de én ezt nem a csejd GPT-vel fogom megbeszélni,
-hanem azt, amit ő ránkem segített megfogalmazni, azt visszavisszam a páromhoz, és felebeszélem meg.
-Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom haztálni, mint egy barátot,
-és akkor én most itt kiöntöm szívemet, lelkemet, kibesszéljük együtt a másikat,
-és akkor érzelmileg ebbe a kapcsolatban investáló az éjjája,
-vagy pedig tényleg használom, mint egy eszközta arra, hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,
+- Szóval ezt pároknál például abban tud hasznos lenni, hogy segít megfogalmazni azt,
+amit én szeretnék mondani a páromnak, de én ezt nem a ChatGPT-vel fogom megbeszélni,
+hanem azt, amit ő nekem segített megfogalmazni, azt visszaviszem a páromhoz, és vele beszélem meg.
+- Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom használni, mint egy barátot,
+és akkor én most itt kiöntöm szívemet, lelkemet, kibeszéljük együtt a másikat,
+és akkor érzelmileg ebbe a kapcsolatba invesztálok az AI-jal,
+vagy pedig tényleg használom, mint egy eszközt arra, hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,
 meg kapaszkodókat találni.
 
 -----
