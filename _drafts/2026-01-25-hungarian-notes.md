@@ -737,3 +737,11 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 [00:23.680 --> 00:25.440]  Gratszulálom, téged az Istanipattály.
 [00:25.440 --> 00:26.360]  Köszönöm szépen.
 [00:26.360 --> 00:28.520]  Érne, kommentben tányatuk lábvala.
+
+-----
+
+[Reel](https://www.instagram.com/reels/DTMtwp-DTw8/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT8JpxDiKZZ/)
