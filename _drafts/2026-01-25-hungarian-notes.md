@@ -801,29 +801,29 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DTMtwp-DTw8/)
 
-[00:00.000 --> 00:05.020]  Nagyon nehezem mondják ki a nőgyógyászok a betegeknek,
-[00:05.120 --> 00:08.460]  hogy vagintus agyanakodnak, és ők nekik meg fogalmunk sincs,
-[00:08.560 --> 00:11.260]  hogy mi lehet ez az állapot, és nem mernek kérdezni.
-[00:11.360 --> 00:18.060]  És hozzám nem egyszer jöttek úgy, hogy évek óta vagy a kereszekos életkezete óta
-[00:18.160 --> 00:22.060]  tart az állapot, és eltelt 10-15 év, és azt mondja, hogy most jött,
-[00:22.160 --> 00:24.540]  mert most mondta neki a nőgyógyász, hogy ez lehet,
-[00:24.640 --> 00:28.060]  és hogy annyira felszabad volt, hogy nevetottak neki.
-[00:28.060 --> 00:32.760]  Nagyjáltalános mondásom, és ezt szerintem nekem nagy misszió,
-[00:32.860 --> 00:40.760]  meg én ebben nagyon hiszek, hogy azzal, hogy ha nevén nevezünk valamit,
-[00:40.860 --> 00:43.260]  lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén,
-[00:43.360 --> 00:46.460]  de azzal, hogy nevén nevezek valamit, azon már kapok egy olyan érzést,
-[00:46.560 --> 00:48.760]  hogy az ember amúgy az ismeretlentől fél nagyon.
-[00:48.860 --> 00:52.260]  Most már idézzelbe tudjuk lehet bárhoz hívni ellenség,
-[00:52.360 --> 00:55.360]  vagy olyan megoldandó problémia ki, mi a szeméség tipus,
-[00:55.460 --> 00:57.960]  hogy hogy akar ilyeszt megoldani, de most már legalább látja,
-[00:58.060 --> 01:03.160]  hogy kivelálunk szembe, és nem egy halálos betegség szoktam mondani,
-[01:03.260 --> 01:05.760]  ha nem mondjuk egy életműnőséget rontodolg, van ki úgy,
-[01:05.860 --> 01:09.460]  mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldászó,
-[01:09.560 --> 01:14.060]  én azt gondolom, hogy azzal, hogy ha kimondjuk ezeket, nevesítjük,
-[01:14.160 --> 01:17.160]  persze nem betegséget építve, nem betegségt ott építve,
-[01:17.260 --> 01:19.060]  de már van valamilyen, amivel szembenizek,
-[01:19.160 --> 01:22.960]  és nem úgy fekszemelést, hogy fájd bármi miatt, fájhatozott most,
-[01:23.060 --> 01:26.060]  és akkor azt, hogy tudom, hogy mi kivelálunk szembe.
+Nagyon nehezem mondják ki a nőgyógyászok a betegeknek,
+hogy vagintus agyanakodnak, és ők nekik meg fogalmunk sincs,
+hogy mi lehet ez az állapot, és nem mernek kérdezni.
+És hozzám nem egyszer jöttek úgy, hogy évek óta vagy a kereszekos életkezete óta
+tart az állapot, és eltelt 10-15 év, és azt mondja, hogy most jött,
+mert most mondta neki a nőgyógyász, hogy ez lehet,
+és hogy annyira felszabad volt, hogy nevetottak neki.
+Nagyjáltalános mondásom, és ezt szerintem nekem nagy misszió,
+meg én ebben nagyon hiszek, hogy azzal, hogy ha nevén nevezünk valamit,
+lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén,
+de azzal, hogy nevén nevezek valamit, azon már kapok egy olyan érzést,
+hogy az ember amúgy az ismeretlentől fél nagyon.
+Most már idézzelbe tudjuk lehet bárhoz hívni ellenség,
+vagy olyan megoldandó problémia ki, mi a szeméség tipus,
+hogy hogy akar ilyeszt megoldani, de most már legalább látja,
+hogy kivelálunk szembe, és nem egy halálos betegség szoktam mondani,
+ha nem mondjuk egy életműnőséget rontodolg, van ki úgy,
+mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldászó,
+én azt gondolom, hogy azzal, hogy ha kimondjuk ezeket, nevesítjük,
+persze nem betegséget építve, nem betegségt ott építve,
+de már van valamilyen, amivel szembenizek,
+és nem úgy fekszemelést, hogy fájd bármi miatt, fájhatozott most,
+és akkor azt, hogy tudom, hogy mi kivelálunk szembe.
 
 -----
 
