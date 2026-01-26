@@ -278,15 +278,14 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
 
-Emiatt szokták azt meg ilyen is sokan a szeretői viszony mellett, hogy van egy ilyen átmeleti, nagyon intenszíven boldog időszak,
-amikor egyszer a jelzé azt, hogy az elsődleges kapcsolatában is ott van, meg a szeretői viszonyában is ott van,
-és kettő ad egy ilyen teljeséget, mert ott van a stabilítás, a kiszámíthatóság, a monotónia, egyik oldalon,
-másik oldalon meg a szemvedélyek, a kiszámíthatláság.
-Meg amikor a pár aki megvan csalvaz, a megcsalófél, a dicsérgeti, egy ilyen elevem vagy,
-mostanában milyen energikus vagy, hogy nem pufogsz annyit sokkal, de jó vagy, de jó, mit csináltál?
-És így megy a mélye hallgatás. Elkezdtem jogázni. Keddenként jó.
-Úgyhogy ez a jogatanás.
-Igen, igen.
+- Emiatt szokták azt megélni sokan a szeretői viszony mellett, hogy van egy ilyen átmeneti, nagyon, nagyon intenzíven boldog időszak,
+amikor egyszerre érzi azt, hogy az elsődleges kapcsolatában is ott van, meg a szeretői viszonyában is ott van
+és a kettő ad egy ilyen teljességet, mert ott van a stabilítás, a kiszámíthatóság, a monotónia, egyik oldalon
+másik oldalon meg a szenvedély, a kiszámíthatatlánság.
+- Meg amikor a pár, aki meg van csalva a megcsaló félt dicsérgeti, hogy milyen eleven vagy
+mostanában, milyen milyen energikus vagy, hogy nem puffogsz annyit. De jó, hogy tök jó. Mit csináltál?
+És így megy a mélyhallgatás. Elkezdtem jogázni. Keddenként.
+- Jó ez a jogatanár!
 
 -----
 
