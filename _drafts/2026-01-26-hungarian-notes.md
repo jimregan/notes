@@ -824,3 +824,145 @@ categories: [hungarian, chatgpt, reels]
 -----
 
 [In the buffet](https://www.youtube.com/watch?v=yaP9zVJczg8)
+
+Sure — for this “büfében” learning-dialogue video, the **core is A1–A2 by design**, so I’m going to focus on (1) **what’s genuinely B1+**, plus (2) the **A2+ patterns** that are actually worth stealing.
+
+---
+
+## 1) B1+ vocabulary (from this subtitles set)
+
+### Formal/legal-ish intro text
+
+* **szereplő** – appearing / featured (in a story)
+* **személy** – person
+* **esemény** – event
+* **képzelet terméke** – product of imagination
+* **hasonlóság** – similarity
+* **valós** – real
+* **színhely** – location/setting (formal)
+* **pusztán** – merely / purely
+* **véletlen műve** – result of coincidence (fixed phrase)
+
+### Roles / university setting
+
+* **egyetemi** – university (adj.)
+* **büféslány** – cafeteria/snack-bar girl (colloquial-ish compound)
+* **ismeretlen** – unknown
+* **szereplők** – characters
+* **helyszín** – location/setting
+
+### Action & description (beyond basic A1 “Mi ez?”)
+
+* **meghív (vmire / vmivel)** – to treat someone (pay for them)
+* **észrevesz** – notice
+* **mutat (vmire)** – point at / indicate
+* **odamegy** – go over
+* **pult** – counter
+* **könyököl** – lean on one’s elbow
+* **beleharap** – take a bite (into)
+* **kész (van)** – ready (e.g., “Kész a kapucsínó!”)
+
+### Objects / food that are more “specific vocab”
+
+* **kapucsínó** – cappuccino
+* **csésze** – cup
+* **kiskanál** – teaspoon
+* **csészealj** – saucer
+* **tejhab** – milk foam
+* **minta** – pattern
+* **cicás** – cat-themed (pattern)
+
+### Digital / internet
+
+* **csetel** – chat (online)
+* **böngészi a netet** – browse the internet
+* **kommentben kifejtem** – I’ll explain in a comment (kifejt = elaborate)
+
+### Emotions / stance (B1-ish)
+
+* **kihívóan** – provocatively / challengingly
+* **bánatos** – sad
+* **szomorú arcú** – sad-faced
+* **szomorkodik** – be sad / mope
+* **szakít (vkivel)** – break up (with someone)
+
+### Academia / work-life (definitely B1+)
+
+* **kutatási** – research (adj.)
+* **pályázat** – application / grant application
+* **konferencia** – conference
+* **időeltolódás** – time difference / jet lag context
+* **szenved (vmi miatt)** – suffer (because of)
+
+### Useful “misc” higher-level words
+
+* **kártya / készpénz / hitelkártya** – card / cash / credit card (A2–B1 practical set)
+* **figyelem** (köszönöm a figyelmet) – attention (formal closing)
+* **viszontlátásra** – goodbye (formal)
+
+---
+
+## 2) A2+ patterns (the good reusable ones)
+
+### A) Treating someone / offering
+
+* **Te mit kérsz? Meghívlak.**
+  Pattern: **Meghívlak (vmire)** = “My treat.”
+
+### B) Ordering politely
+
+* **Egy ___-t/-et kérek.**
+* **… légy szíves!** (polite add-on)
+
+### C) “Do you want anything else?”
+
+* **Másvalamit? / Mást nem.**
+  Pattern: **mást nem** = “nothing else”
+
+### D) Prices and “keep the change”
+
+* **Kétezer-háromszáz-hetven lesz.**
+* **Nem kérek vissza.** (= keep the change)
+
+### E) Seating choice
+
+* **Hol üljünk le? Kint vagy bent?**
+  Pattern: **X vagy Y?** (binary choice)
+
+### F) Noticing + greeting formally
+
+* **Észreveszi…** / **Köszön neki.**
+* **Jó napot, tanárnő!** (title-based greeting)
+
+### G) Ownership / giving
+
+* **Az egyik ___ a tied.**
+  Pattern: **a tied** = “yours” (possessive pronoun)
+
+### H) “You didn’t have to”
+
+* **Nem kellett volna.**
+  Very common A2+ social formula.
+
+### I) Describing someone with “-nak/-nek … van”
+
+* **Boginak hosszú … haja van.**
+  Pattern: **X-nak/-nek + N-ja/N-je van** (possession)
+
+### J) Asking for opinions (A2→B1 bridge)
+
+* **Mit gondolsz, …?**
+* **Szerinted …?**
+  These are *huge* for moving into B1.
+
+### K) “Because… / due to…”
+
+* **… miatt.**
+  (e.g., **időeltolódás miatt**)
+
+---
+
+If you want to make this maximally useful, tell me which direction you prefer:
+
+1. **“B1 survival kit”**: only the *top 20* words you’ll actually reuse outside this video, or
+2. **“B1 story mode”**: example sentences for each B1+ item using the cafeteria setting.
