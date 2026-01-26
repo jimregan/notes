@@ -237,10 +237,6 @@ Egyébként jó gyerek voltál!
 
 [Reel](https://www.instagram.com/reels/DT5xhGsCHYM/)
 
-Perfect — **line-by-line translation + extracted vocabulary**, nothing else.
-
----
-
 ## Line-by-line translation
 
 **Ha Jézus Krisztus csatlakozott a Tisza párthoz.**
@@ -260,8 +256,6 @@ Perfect — **line-by-line translation + extracted vocabulary**, nothing else.
 
 **feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statisztikai hivatalt.**
 → *and with his resurrection he influenced mortality statistics, misleading the statistical office.*
-
----
 
 ## Vocabulary (high-value, frequent, reusable)
 
@@ -289,17 +283,6 @@ Perfect — **line-by-line translation + extracted vocabulary**, nothing else.
 * **halálozási adatok** – mortality data
 * **félrevezet** – to mislead
 * **statisztikai hivatal** – statistical office
-
----
-
-If you want next:
-
-* **same text, ultra-literal translation** (syntax-mirroring Hungarian), or
-* **satire patterns** like *„a szakértők szerint”*, *„a hatóságok tájékoztatása szerint”*,
-* or a **frequency-based swear/satire lexicon** (since you said frequency is king).
-
-Just say which.
-
 
 -----
 
