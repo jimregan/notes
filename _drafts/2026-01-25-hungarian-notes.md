@@ -188,21 +188,21 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DS4MV2qFRKO/)
 
-Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,
-hogy mit tanultam, vagy mit hallottam az orosról, hogy szabad-e ilyet,
-vagy és hát legasztanított technikkem, hogy egy jó kislány az nem szeretett,
-tehát hogy ezt a kurvák csinálják, és azok, akik, tehát amilyen te
-nem szeretnél lenni, mert azokat megvettjük.
-Nem élvező.
-Igen, nem élvező. Egy igazi nő, egy valamire való nő,
-egy azt, hogy nem élvező a szertet, az csak agya a férjének.
-Felintem sok anya, és család mondja azt a fiatal lányoknak,
-tini lányoknak, az a retolik, az a kommunikáció, teherbenes ennyi idősen,
-és ezt hallok, hogy védekezzetek, teherbenes, és egy olyan dolog ott kapcsolunk
-a várandósággal, hogy az egy tiltott dolog, az megneted, de ez nem azért,
-mindig hozzá teszük, hogy ja majd persze, amikor már fél,
-de ez nem ez a lényeg, kapsz egy olyan impuzus, hogy tilos,
-nem szabad, kerülde, ne csináld, nem, nem jó.
+- Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,
+hogy mit tanultam, vagy mit hallottam az org**musról, hogy szabad-e ilyet,
+vagy ésetleg azt tanítottak nekem, hogy egy jó kislány az nem sze**l.
+Tehát, hogy ezt a kur**k csinálják, és azok, akik tehát amilyen te
+nem szeretnél lenni, mert azokat megvetjük.
+- Nem élvezzük.
+- Igen, nem élvezzük. Egy egy igazi nő, egy egy valamirevaló nő.
+Egy asszony nem élvezi a sze*xet, azt csak adja a férjének.
+- Szerintem sok anya és család mondja azt a fiatal lányoknak,
+tini lányoknak, az a retorika, az a kommunikáció. Teherbe ne ess ennyi idősen,
+és ezt hallod, védekezzetek, teherbe ne ess. És egy olyan dolog kapcsolunk
+a várandósággal, hogy az egy tiltott dolog, azt meg ne tedd. De ez nem az.
+Mindig hozzátesszük, hogy ja, majd persze, amikor már férjed van,
+de ez nem ez a lényeg. Kapsz egy olyan impulzust, hogy tilos,
+nem szabad! Kerüld el! Ne csináld! Nem, nem jó.
 
 -----
 
