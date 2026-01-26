@@ -378,10 +378,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Ep 122](https://www.youtube.com/watch?v=11iDrfwBV04) --- Painful Truth about Language Learning
 
-Absolutely — here’s **(1) B1+ vocabulary** from *this* subtitle set, and **(2) A2+ patterns** (A2→B1 structures you can reuse immediately). I’m excluding obvious A1–A2 basics.
-
----
-
 ## 1) B1+ vocabulary from the subtitles
 
 ### Learning / effort / progress
@@ -469,8 +465,6 @@ Absolutely — here’s **(1) B1+ vocabulary** from *this* subtitle set, and **(
 * **súly** – weight
 * **maraton** – marathon
 
----
-
 ## 2) A2+ patterns (reusable structures from this episode)
 
 ### A) “It’s hard to admit/accept that…”
@@ -531,10 +525,3 @@ Absolutely — here’s **(1) B1+ vocabulary** from *this* subtitle set, and **(
 * **Ne foglalkozz ___-val/-vel.**
 * **Hallgass magadra.**
 * **Döntsd el, hogy…**
-
----
-
-If you want the same output as before, I can also flag:
-
-* **B2-ish** items (e.g., *kitapasztalni, beválik, következtetéseket levonni*),
-* and make a **topic-sorted list** (mindset / systems / confidence / tracking progress).
