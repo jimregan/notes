@@ -222,10 +222,6 @@ Igen, igen.
 
 [Reel](https://www.instagram.com/reels/DR9LpmAj6f2/)
 
-Got it — **line-by-line translation + extracted vocabulary**, no extras.
-
----
-
 ## Line-by-line translation
 
 **Ho, ho, ho, sziasztok gyerekek!**
@@ -255,8 +251,6 @@ Got it — **line-by-line translation + extracted vocabulary**, no extras.
 **Mert jó gyerek voltál. De Erdély nem foglalja vissza magát.**
 → *Because you were a good kid. But Transylvania will not retake itself.*
 
----
-
 ## Vocabulary (useful & recurring)
 
 * **sziasztok** – hello (plural, informal)
@@ -277,14 +271,6 @@ Got it — **line-by-line translation + extracted vocabulary**, no extras.
 * **miért** – why
 * **csak** – only / just
 * **nem foglalja vissza magát** – won’t reclaim itself (idiomatic, ironic)
-
----
-
-If you want next:
-• **explain the political/historical joke** (very Hungarian), or
-• **tone-matched English rewrite**, or
-• **frequency-ranked satire phrases** like *„nem foglalja vissza magát”*.
-
 
 -----
 
