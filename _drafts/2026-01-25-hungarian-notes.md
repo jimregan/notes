@@ -590,11 +590,58 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT2tVSNCP6N/)
 
-Mindig mindennek a hátterében a Lemeztektonika áll.
-A kontinensek mozognak. Akármilyen kontinens is van odafent,
-azok a kőzetlemezek kettérepednek, és ez a riftesedés megnyitja az utat
-a föláramló magma számára, ott pedig első körben óceáni kőzetlemez fog képződni.
-És így jönnek létre az első óceánok. Ez történt 200 millió évvel ezelőtt.
+## Line-by-line translation
+
+**Mindig mindennek a hátterében a lemeztektonika áll.**
+→ *At the root of everything, it’s always plate tectonics.*
+
+**A kontinensek mozognak.**
+→ *Continents move.*
+
+**Akármilyen kontinens is van odafent,**
+→ *No matter what continent happens to be up there,*
+
+**azok a kőzetlemezek kettérepednek,**
+→ *those tectonic plates split apart,*
+
+**és ez a riftesedés megnyitja az utat**
+→ *and this rifting opens the way*
+
+**a föláramló magma számára,**
+→ *for rising magma,*
+
+**ott pedig első körben óceáni kőzetlemez fog képződni.**
+→ *and at that point, an oceanic crust forms first.*
+
+**És így jönnek létre az első óceánok.**
+→ *And this is how the first oceans are formed.*
+
+**Ez történt 200 millió évvel ezelőtt.**
+→ *This is what happened 200 million years ago.*
+
+---
+
+## Vocabulary (focused & useful)
+
+* **mindig** – always
+* **mindennek a hátterében** – in the background / underlying cause of everything
+* **lemeztektonika** – plate tectonics
+* **kontinens** – continent
+* **mozog / mozognak** – to move / move (plural)
+* **akármilyen** – whatever / no matter what kind of
+* **kőzetlemez** – tectonic plate (literally: rock plate)
+* **kettéreped** – to split apart, crack in two
+* **riftesedés** – rifting
+* **megnyitja az utat** – opens the way
+* **föláramló** – upwelling, rising
+* **magma** – magma
+* **első körben** – in the first stage / initially
+* **óceáni kőzetlemez** – oceanic crust / oceanic plate
+* **létrejön / jönnek létre** – to come into existence / be formed
+* **évvel ezelőtt** – years ago
+
+If you want next time, I can also **compress this into one clean scientific paragraph** or give you **natural spoken-English equivalents** (lecture vs documentary style).
+
 
 -----
 
