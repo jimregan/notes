@@ -910,6 +910,36 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT8JpxDiKZZ/)
 
-Nem, nekem lesz! Nem-nem, nem az az enyém!
-Na, most lebuktál!
-Ne kamuzz, étkezz jól!
+Oké, **ugyanaz a bevált forma**:
+**line-by-line translation + rövid szókincslista**.
+Semmi extra.
+
+---
+
+## Line-by-line translation
+
+**Nem, nekem lesz!**
+→ *No, it’s going to be mine!*
+
+**Nem-nem, nem az az enyém!**
+→ *No—no, that one’s not mine!*
+
+**Na, most lebuktál!**
+→ *Well then, you’ve just been caught!*
+
+**Ne kamuzz, étkezz jól!**
+→ *Don’t bullshit—eat properly!*
+
+---
+
+## Vocabulary (extracted)
+
+* **nekem lesz** – will be mine
+* **enyém** – mine
+* **lebukik / lebuktál** – to get caught / you got caught
+* **kamuzik** *(slang)* – to lie, bullshit
+* **ne kamuzz** – don’t lie / don’t bullshit
+* **étkezik** – to eat (formal/neutral)
+* **étkezz jól** – eat well / eat properly
+
+Ha akarod, legközelebb megcsinálhatjuk **szleng–regiszter skálával** (mennyire laza / ironikus / passzív-agresszív), mert ez a pár sor tipikusan ilyen.
