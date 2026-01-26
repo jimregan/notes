@@ -74,17 +74,17 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT4igK3Egpt/)
 
-[00:00.000 --> 00:03.800]  Mi történik akkor, amikor a 3. félként beférkűzik a kapcsolatokba?
-[00:04.400 --> 00:09.840]  Ilyenet alákoztatok el már egyébként, amikor ez a kozott kifejezettem problémát,
-[00:09.840 --> 00:17.160]  a pár kapcsolatba konfliktúst, hogy valógyi kicsatorne ezt az éjjájnak a problémákat.
-[00:17.160 --> 00:22.560]  Szóval ezt pároknál például abban tud haztós lenni, hogy segyít megfogalmazni azt,
-[00:22.560 --> 00:28.120]  amit én szeretnék mondani a pároknak, de én ezt nem a csejd GPT-vel fogom megbeszélni,
-[00:28.200 --> 00:33.440]  hanem azt, amit ő ránkem segített megfogalmazni, azt visszavisszam a páromhoz, és felebeszélem meg.
-[00:33.440 --> 00:38.440]  Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom haztálni, mint egy barátot,
-[00:38.440 --> 00:43.680]  és akkor én most itt kiöntöm szívemet, lelkemet, kibesszéljük együtt a másikat,
-[00:43.680 --> 00:48.760]  és akkor érzelmileg ebbe a kapcsolatban investáló az éjjája,
-[00:48.760 --> 00:57.080]  vagy pedig tényleg használom, mint egy eszközta arra, hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,
-[00:57.080 --> 00:59.520]  meg kapaszkodókat találni.
+Mi történik akkor, amikor a 3. félként beférkűzik a kapcsolatokba?
+Ilyenet alákoztatok el már egyébként, amikor ez a kozott kifejezettem problémát,
+a pár kapcsolatba konfliktúst, hogy valógyi kicsatorne ezt az éjjájnak a problémákat.
+Szóval ezt pároknál például abban tud haztós lenni, hogy segyít megfogalmazni azt,
+amit én szeretnék mondani a pároknak, de én ezt nem a csejd GPT-vel fogom megbeszélni,
+hanem azt, amit ő ránkem segített megfogalmazni, azt visszavisszam a páromhoz, és felebeszélem meg.
+Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom haztálni, mint egy barátot,
+és akkor én most itt kiöntöm szívemet, lelkemet, kibesszéljük együtt a másikat,
+és akkor érzelmileg ebbe a kapcsolatban investáló az éjjája,
+vagy pedig tényleg használom, mint egy eszközta arra, hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,
+meg kapaszkodókat találni.
 
 -----
 
