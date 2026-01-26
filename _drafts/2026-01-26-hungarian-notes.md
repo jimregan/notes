@@ -694,6 +694,144 @@ categories: [hungarian, chatgpt, reels]
 
 [Conversation 1](https://www.youtube.com/watch?v=HfOh-51A6Ms)
 
+Got it — same format: **B1+ vocabulary** + **A2+ patterns** from this dialogue. (I’ll ignore the clearly-A1/A2 stuff like *szia, mikor, pénteken, hány éves* etc.)
+
+---
+
+## 1) B1+ vocabulary (from this subtitles set)
+
+### Travel / problems / time
+
+* **de rég láttalak!** – long time no see!
+* **késett** (*késik/késett*) – was delayed
+* **fizetett / fizettek** – paid / they paid
+* **tipikus** – typical
+* **siet** (*sietnek*) – hurry
+* **repül az idő** – time flies (idiom)
+* **repülni** – to fly (literal, but idiomatic use here too)
+
+### School / evaluation (A2→B1 edge)
+
+* **egyetem** – university (often A2+, but in “life talk” it’s B1-useful)
+* **bukásra áll** – be on track to fail (idiom)
+* **kettesei vannak** – he/she is getting “2s” (grades)
+* **minimálbér** – minimum wage
+
+### Cooking / food (more specific vocab)
+
+* **húsleves** – meat soup / broth
+* **fehérrépa** – parsley root (root veg)
+* **karalábé** – kohlrabi
+* **zeller** – celery
+* **vöröshagyma** – onion
+* **petrezselyem** – parsley
+* **gyömbér** – ginger
+* **összefut a nyál a számban** – my mouth waters (idiom)
+* **(a) szokásos(t)** – the usual (set phrase)
+
+### Emotions / states
+
+* **kibír** (*bírod / bírt ki*) – endure / stand (it)
+* **kivan / kivolt** – be totally fed up / worn out (colloquial)
+* **megbolondulna** – would go crazy
+* **Isten nyugosztalja** – may God rest him/her (polite formula for the dead)
+* **semmi sem okozna nagyobb örömet** – nothing would give greater joy (set phrase)
+
+### Colloquial / strong language (use with care)
+
+* **kibaszott** – fucking (very vulgar; know it, don’t use casually)
+* **valszeg** – probably (colloquial shortening of *valószínűleg*)
+
+### Support / platforms (modern “internet Hungarian”)
+
+* **belájkol** – to like (a post/video)
+* **feliratkozik** – subscribe
+* **támogat** – support (financially / generally)
+* **támogatói** – supporter (adj/noun)
+* **nagylelkű** – generous
+* **eltökélt** – determined
+* **rettenthetetlen** – fearless
+* **extra** – extra (loanword)
+* **előzetes** – trailer/preview
+* **egyszeri** – one-time
+* **adomány** – donation
+* **infó** – info (colloquial)
+* **lecsekkol** / **csekkold le** – check it out (colloquial)
+
+### Proverbs / fixed expressions
+
+* **A gyakorlás teszi a mestert.** – practice makes perfect.
+
+---
+
+## 2) A2+ patterns (usable structures)
+
+### A) “Long time no see”
+
+* **De rég láttalak!**
+* **Ezer éve nem láttalak!** (variant)
+
+### B) Asking “since when / how long”
+
+* **Két éve.** (short answer = “for two years / two years ago” depending on context)
+* **Mikor jöttél meg?** (arrive back)
+
+### C) “It’ll be X time and then…”
+
+* **Szerintem fél óra, és itthon vannak.**
+  Pattern: **Szerintem + idő + és + történés**
+
+### D) “If X doesn’t start doing Y, then…”
+
+* **Ha Andris nem kezd el jobban tanulni, akkor nem hiszem.**
+  Pattern: **Ha + nem + kezd el + INF, akkor…**
+
+### E) Talking about “doing badly / being at risk”
+
+* **Bukásra áll.**
+* **Csak kettesei vannak.**
+  Pattern: **-ra/-re áll** (= “is heading toward”)
+
+### F) Cooking: “only X is left”
+
+* **Már csak a zöldség kell bele.**
+  Pattern: **már csak + N + kell (+ bele)**
+
+### G) Listing “the usual”
+
+* **A szokásost. Répát…, és egy kevés…**
+  Pattern: **A szokásost + accusative list**
+
+### H) “My mouth waters”
+
+* **Összefut a nyál a számban.**
+  Pattern: **összefut + N + a számban** (idiomatic)
+
+### I) “That’s why / therefore…”
+
+* **Ezért kell …**
+* **Ezért kell Ryanair-rel repülni.** (joke use)
+
+### J) “If you’d like X, then you can Y”
+
+* **Ha szeretnéd, hogy…, akkor tudsz…**
+  Pattern: **Ha szeretnéd, hogy + subjunctive (-j/-jon), akkor + tudsz…**
+
+### K) “Two ways / one is… the other is…”
+
+* **Kétféleképp. Az egyik…, a másik…**
+  Pattern: **Az egyik… / a másik…**
+
+### L) Imperative “check it out”
+
+* **Csekkold le őket.**
+  Pattern: verb + **le** (informal command)
+
+---
+
+If you want, I can also flag which items here are **B1 vs B2 vs “just slang”** (e.g., *kivan, lecsekkol, belájkol*), so you know what to actively use and what to just understand.
+
+
 -----
 
 [In the buffet](https://www.youtube.com/watch?v=yaP9zVJczg8)
