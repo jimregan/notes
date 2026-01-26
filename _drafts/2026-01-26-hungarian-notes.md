@@ -530,10 +530,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Ep 99](https://www.youtube.com/watch?v=z9AwiLk_T6E)
 
-Here you go — **B1+ vocabulary** (filtered from this money/attitude episode) + **A2+ patterns** you can steal for your own speaking/writing.
-
----
-
 ## 1) B1+ vocabulary (from this subtitle set)
 
 ### Language / thinking / culture
@@ -617,8 +613,6 @@ Here you go — **B1+ vocabulary** (filtered from this money/attitude episode) +
 
 * **„Látom, van miből.”** – “I see you can afford it / you’ve got money for that.”
 
----
-
 ## 2) A2+ patterns (structures you can reuse)
 
 ### A) “It occurs to me…”
@@ -688,6 +682,3 @@ Here you go — **B1+ vocabulary** (filtered from this money/attitude episode) +
 * **Kezd változni…**
 * **Sok minden változott az elmúlt években.**
 
----
-
-If you want the “next step” output too: I can pick the **top ~25 highest-payoff B1+ items** from this episode and write **mini example sentences** that fit *your* likely use-cases (job talk, friends, buying stuff, social media).
