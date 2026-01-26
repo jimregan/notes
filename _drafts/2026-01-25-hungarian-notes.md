@@ -609,8 +609,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 → *“Yeah… that too.”*
 *(≈ “Right, as if that wasn’t bad enough.”)*
 
----
-
 ## Vocabulary
 
 * **amikor** – when
@@ -620,5 +618,3 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **itt vagyok neked** – I’m here for you
 * **na igen** – yeah, right / well yes (often ironic)
 * **még az is** – that too / even that (sarcastic here)
-
-If you want, I can also give **tone equivalents** (e.g. British vs American sarcasm), but I’ll stop here unless asked.
