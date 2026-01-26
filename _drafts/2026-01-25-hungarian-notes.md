@@ -457,10 +457,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT5W1i4DOr8/)
 
-Understood. **Line-by-line translation + vocabulary list only. No commentary.**
-
----
-
 ## Line-by-line translation
 
 **Első fokon felmentették a volt fideszes alpolgármestert a gyermekpornográfia vádja alól.**
@@ -520,8 +516,6 @@ Understood. **Line-by-line translation + vocabulary list only. No commentary.**
 **Ti mit gondoltok az ügyről? írjátok meg kommentben, és ne felejtsétek, hogy képben lenni alap.**
 → *What do you think about the case? Write it in the comments, and don’t forget: staying informed is essential.*
 
----
-
 ## Vocabulary (key items)
 
 * **első fokon** – at first instance
@@ -548,9 +542,6 @@ Understood. **Line-by-line translation + vocabulary list only. No commentary.**
 * **kétséget kizáró bizonyíték** – evidence beyond reasonable doubt
 * **ügyészség** – prosecution
 * **fellebbez** – to appeal
-
-If you want, next time I can also **standardize spelling, flag legal jargon, or align this with news-style Hungarian**, but I’ll only do that if you ask.
-
 
 -----
 
