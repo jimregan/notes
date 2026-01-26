@@ -94,6 +94,22 @@ meg kapaszkodókat találni.
 
 [Reel](https://www.instagram.com/reels/DS4MV2qFRKO/)
 
+[00:00.000 --> 00:04.860]  Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,
+[00:04.960 --> 00:10.620]  hogy mit tanultam, vagy mit hallottam az orosról, hogy szabad-e ilyet,
+[00:10.720 --> 00:14.780]  vagy és hát legasztanított technikkem, hogy egy jó kislány az nem szeretett,
+[00:14.880 --> 00:19.500]  tehát hogy ezt a kurvák csinálják, és azok, akik, tehát amilyen te
+[00:19.600 --> 00:21.420]  nem szeretnél lenni, mert azokat megvettjük.
+[00:21.520 --> 00:22.120]  Nem élvező.
+[00:22.220 --> 00:25.660]  Igen, nem élvező. Egy igazi nő, egy valamire való nő,
+[00:25.760 --> 00:28.540]  egy azt, hogy nem élvező a szertet, az csak agya a férjének.
+[00:28.540 --> 00:32.000]  Felintem sok anya, és család mondja azt a fiatal lányoknak,
+[00:32.100 --> 00:37.920]  tini lányoknak, az a retolik, az a kommunikáció, teherbenes ennyi idősen,
+[00:38.020 --> 00:44.280]  és ezt hallok, hogy védekezzetek, teherbenes, és egy olyan dolog ott kapcsolunk
+[00:44.380 --> 00:49.040]  a várandósággal, hogy az egy tiltott dolog, az megneted, de ez nem azért,
+[00:49.140 --> 00:52.040]  mindig hozzá teszük, hogy ja majd persze, amikor már fél,
+[00:52.140 --> 00:55.440]  de ez nem ez a lényeg, kapsz egy olyan impuzus, hogy tilos,
+[00:55.440 --> 00:58.940]  nem szabad, kerülde, ne csináld, nem, nem jó.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
