@@ -671,9 +671,55 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT3dh-WDwcn/)
 
-> Lázár tutira a Tiszának dolgozik. Ennyire ostoba nem lehet!
+## Line-by-line translation
 
-Tehát ha migránsok nincsenek, és valakinek takarítani kell az InterCity-n a mosdót,
-mert oda egyébként a magyar választópolgárok nem olyan nagy lendülettei jelentkeznek, hogy másnak a szaros mosdóját takarítsák,
-akkor föl kell tárni a belső tartalékokat.
-És a belső tartalék a magyarorszegi cigányságot jelenti.
+**„Lázár tutira a Tiszának dolgozik. Ennyire ostoba nem lehet!”**
+→ *“Lázár must definitely be working for Tisza. He can’t be this stupid!”*
+
+**Tehát ha migránsok nincsenek,**
+→ *So if there are no migrants,*
+
+**és valakinek takarítani kell az InterCity-n a mosdót,**
+→ *and someone has to clean the toilets on the InterCity trains,*
+
+**mert oda egyébként a magyar választópolgárok**
+→ *because Hungarian voters, generally speaking,*
+
+**nem olyan nagy lendülettel jelentkeznek,**
+→ *do not exactly rush to apply*
+
+**hogy másnak a szaros mosdóját takarítsák,**
+→ *to clean someone else’s shit-covered toilet,*
+
+**akkor föl kell tárni a belső tartalékokat.**
+→ *then internal reserves have to be mobilised.*
+
+**És a belső tartalék a magyarországi cigányságot jelenti.**
+→ *And those “internal reserves” mean the Roma population in Hungary.*
+
+---
+
+## Vocabulary (extracted & relevant)
+
+* **tuti / tutira** – definitely, for sure
+* **ostoba** – stupid
+* **tehát** – so, therefore
+* **migráns** – migrant
+* **takarítani** – to clean
+* **mosdó** – toilet, restroom
+* **InterCity** – long-distance train category
+* **választópolgár** – voter, citizen with voting rights
+* **lendület** – momentum, drive, enthusiasm
+* **jelentkezik** – to apply, volunteer
+* **szaros** – shitty, covered in shit (vulgar)
+* **föl kell tárni** – must be uncovered / mobilised
+* **belső tartalék(ok)** – internal reserves (bureaucratic / technocratic phrasing)
+* **jelent** – to mean, signify
+* **magyarországi** – Hungarian (located in Hungary)
+* **cigányság** – Roma community / Roma population
+
+If you want, next step could be:
+
+* **tone analysis** (why this wording is inflammatory / dehumanising), or
+* **register comparison** (how this would sound in neutral bureaucratic vs extremist rhetoric), or
+* **frequency notes** (which of these words you’ll actually encounter often vs only in political speech).
