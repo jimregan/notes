@@ -910,12 +910,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT8JpxDiKZZ/)
 
-Oké, **ugyanaz a bevált forma**:
-**line-by-line translation + rövid szókincslista**.
-Semmi extra.
-
----
-
 ## Line-by-line translation
 
 **Nem, nekem lesz!**
@@ -930,8 +924,6 @@ Semmi extra.
 **Ne kamuzz, étkezz jól!**
 → *Don’t bullshit—eat properly!*
 
----
-
 ## Vocabulary (extracted)
 
 * **nekem lesz** – will be mine
@@ -941,5 +933,3 @@ Semmi extra.
 * **ne kamuzz** – don’t lie / don’t bullshit
 * **étkezik** – to eat (formal/neutral)
 * **étkezz jól** – eat well / eat properly
-
-Ha akarod, legközelebb megcsinálhatjuk **szleng–regiszter skálával** (mennyire laza / ironikus / passzív-agresszív), mert ez a pár sor tipikusan ilyen.
