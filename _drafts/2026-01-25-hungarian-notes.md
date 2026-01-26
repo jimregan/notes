@@ -278,10 +278,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
 
-Got it — **line-by-line translation + vocabulary list only**.
-
----
-
 ## Line-by-line translation
 
 **– Emiatt szokták azt megélni sokan a szeretői viszony mellett,**
@@ -304,8 +300,6 @@ Got it — **line-by-line translation + vocabulary list only**.
 
 **másik oldalon meg a szenvedély, a kiszámíthatatlanság.**
 → *and on the other side there is passion and unpredictability.*
-
----
 
 **– Meg amikor a pár, aki meg van csalva,**
 → *– And when the partner who is being cheated on*
@@ -331,8 +325,6 @@ Got it — **line-by-line translation + vocabulary list only**.
 **– Jó ez a jógatanár!**
 → *– That yoga instructor must be good!*
 
----
-
 ## Vocabulary (key items)
 
 * **emiatt** – because of this
@@ -355,9 +347,6 @@ Got it — **line-by-line translation + vocabulary list only**.
 * **mélyhallgatás** – complete silence, deliberate non-disclosure
 * **jógázni** – to do yoga
 * **jógatanár** – yoga instructor
-
-If you want, next time I can also **flag irony, euphemisms, and pragmatic subtext** (like *“jó ez a jógatanár”*), but I’ll only do that if you ask.
-
 
 -----
 
