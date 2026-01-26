@@ -697,8 +697,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 **És a belső tartalék a magyarországi cigányságot jelenti.**
 → *And those “internal reserves” mean the Roma population in Hungary.*
 
----
-
 ## Vocabulary (extracted & relevant)
 
 * **tuti / tutira** – definitely, for sure
@@ -717,9 +715,3 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **jelent** – to mean, signify
 * **magyarországi** – Hungarian (located in Hungary)
 * **cigányság** – Roma community / Roma population
-
-If you want, next step could be:
-
-* **tone analysis** (why this wording is inflammatory / dehumanising), or
-* **register comparison** (how this would sound in neutral bureaucratic vs extremist rhetoric), or
-* **frequency notes** (which of these words you’ll actually encounter often vs only in political speech).
