@@ -801,29 +801,31 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DTMtwp-DTw8/)
 
-Nagyon nehezem mondják ki a nőgyógyászok a betegeknek,
-hogy vagintus agyanakodnak, és ők nekik meg fogalmunk sincs,
+Nagyon nehezen mondják ki a nőgyógyászok a betegeknek,
+hogy vag***zmusra gyanakodnak, és nekik meg fogalmuk sincs,
 hogy mi lehet ez az állapot, és nem mernek kérdezni.
-És hozzám nem egyszer jöttek úgy, hogy évek óta vagy a kereszekos életkezete óta
-tart az állapot, és eltelt 10-15 év, és azt mondja, hogy most jött,
+És hozzám nem egyszer jöttek úgy, hogy évek óta, vagy akár a sze***lis élet kezdete óta
+tart az állapot, és eltelt tíz, tízenöt év, és azt mondja, hogy most jött,
 mert most mondta neki a nőgyógyász, hogy ez lehet,
-és hogy annyira felszabad volt, hogy nevetottak neki.
-Nagyjáltalános mondásom, és ezt szerintem nekem nagy misszió,
-meg én ebben nagyon hiszek, hogy azzal, hogy ha nevén nevezünk valamit,
-lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén,
-de azzal, hogy nevén nevezek valamit, azon már kapok egy olyan érzést,
-hogy az ember amúgy az ismeretlentől fél nagyon.
-Most már idézzelbe tudjuk lehet bárhoz hívni ellenség,
-vagy olyan megoldandó problémia ki, mi a szeméség tipus,
-hogy hogy akar ilyeszt megoldani, de most már legalább látja,
-hogy kivelálunk szembe, és nem egy halálos betegség szoktam mondani,
-ha nem mondjuk egy életműnőséget rontodolg, van ki úgy,
-mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldászó,
-én azt gondolom, hogy azzal, hogy ha kimondjuk ezeket, nevesítjük,
-persze nem betegséget építve, nem betegségt ott építve,
-de már van valamilyen, amivel szembenizek,
-és nem úgy fekszemelést, hogy fájd bármi miatt, fájhatozott most,
-és akkor azt, hogy tudom, hogy mi kivelálunk szembe.
+és hogy annyira felszabadult, hogy nevet adtak neki.
+- Nagy általános mondásom, és ez szerintem nekem nagy misszióm,
+meg én ebben nagyon hiszek, hogy azzal, hogyha nevén nevezzük,
+megint nem fogok nagy dolgot megmondani,
+csak én ebben nagyon hiszek.
+Ha nevén nevezünk valamit, lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén, de
+azzal, hogy nevén nevezek valamit, azzal mar 
+kapok egy olyan érzést, hogy az ember amúgy az ismeretlentől fél nagyon.
+Most már idézőjelben tudjuk, a lehet bárhogy hívni ellenség
+vagy olyan megoldandó probléma ki milyen személyiségtipus,
+hogy hogy akarja ezt megoldani, de most már legalább látjuk,
+hogy kivel állunk szemben, és nem egy, ha éppen ilyenről van szó, nem egy halálos
+betegség, szoktam mondani, hanem mondjuk egy
+életminőséget ronto dolog. Van kiút,
+mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldás.
+Szóval én azt gondolom, hogy azzal, hogyha kimondjuk ezeket, nevesítjük,
+persze nem betegséget építve, nem betegség tudatot építve,
+de már van valami, amivel szemben nem úgy fekszem le este, hogy fáj, de bármi miatt, fájhat az ott most.
+És akkor azt se tudom, hogy mi, kivel állok szemben, mi az.
 
 -----
 
