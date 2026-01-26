@@ -237,10 +237,69 @@ Egyébként jó gyerek voltál!
 
 [Reel](https://www.instagram.com/reels/DT5xhGsCHYM/)
 
-Ha Jézus Kristus csatlakozott a Tisza párthoz. A korábban elítelt szektavezér és kuruzsló a Tisza párt újonnan leigazolt messiása.
-A hatóságok tájékoztatása szerint Jézus nem rendelkezett sajtóengedéllyel a hegyi beszédhez.
-A szakértők szerint különösen aggályos, hogy Jézus tömegeket etet két halból, ami súlyosan sérti a tisztességes piaci versenyt.
-Vizen járásával kijátszotta az útdíj fizetési rendszert, feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statisztikai hivatalt.
+Perfect — **line-by-line translation + extracted vocabulary**, nothing else.
+
+---
+
+## Line-by-line translation
+
+**Ha Jézus Krisztus csatlakozott a Tisza párthoz.**
+→ *If Jesus Christ joined the Tisza Party.*
+
+**A korábban elítélt szektavezér és kuruzsló a Tisza párt újonnan leigazolt messiása.**
+→ *The previously convicted sect leader and quack is the Tisza Party’s newly signed messiah.*
+
+**A hatóságok tájékoztatása szerint Jézus nem rendelkezett sajtóengedéllyel a hegyi beszédhez.**
+→ *According to the authorities’ statement, Jesus did not have a press permit for the Sermon on the Mount.*
+
+**A szakértők szerint különösen aggályos, hogy Jézus tömegeket etet két halból, ami súlyosan sérti a tisztességes piaci versenyt.**
+→ *According to experts, it is particularly concerning that Jesus feeds crowds from two fish, which seriously violates fair market competition.*
+
+**Vizen járásával kijátszotta az útdíjfizetési rendszert,**
+→ *By walking on water, he circumvented the toll-payment system,*
+
+**feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statisztikai hivatalt.**
+→ *and with his resurrection he influenced mortality statistics, misleading the statistical office.*
+
+---
+
+## Vocabulary (high-value, frequent, reusable)
+
+* **csatlakozni (vmihez)** – to join (something)
+* **párt** – political party
+* **korábban** – previously
+* **elítélt** – convicted
+* **szektavezér** – cult leader
+* **kuruzsló** – quack, charlatan
+* **újonnan leigazolt** – newly signed / recruited
+* **hatóságok** – authorities
+* **tájékoztatás szerint** – according to information / statement
+* **rendelkezik (vmivel)** – to possess, have
+* **sajtóengedély** – press permit
+* **szakértők szerint** – according to experts
+* **különösen aggályos** – particularly concerning
+* **tömeg(ek)** – crowd(s)
+* **etet** – feeds
+* **súlyosan sért** – seriously violates
+* **tisztességes piaci verseny** – fair market competition
+* **kijátszik (egy rendszert)** – to circumvent / game a system
+* **útdíjfizetési rendszer** – toll-payment system
+* **feltámadás** – resurrection
+* **befolyásol** – to influence
+* **halálozási adatok** – mortality data
+* **félrevezet** – to mislead
+* **statisztikai hivatal** – statistical office
+
+---
+
+If you want next:
+
+* **same text, ultra-literal translation** (syntax-mirroring Hungarian), or
+* **satire patterns** like *„a szakértők szerint”*, *„a hatóságok tájékoztatása szerint”*,
+* or a **frequency-based swear/satire lexicon** (since you said frequency is king).
+
+Just say which.
+
 
 -----
 
