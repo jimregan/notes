@@ -135,15 +135,79 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT5Mz_SjJq8/)
 
-"Csak meg jobbat akarok magamnak. És ez egy valid ok!"
+Perfect — same format as before.
 
-Én végül nem azért jöttem el, *mert* utáltam az akkori munkahelyen, meg, *meggyúlöltem* ezt *a munkakört*,
-vagy nem akartam embereket vezetni.
-Én azért jöttem el, mert valami mást jobban *akartam*. És ez egy *valid* ok.
-*Nem kell*, tényleg nem kell. *állandóan* önmagunk ellen dönteni.
-Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen, mert ez pokoli és *tűrhetetlen*,
-és nem tudom *elviselni* egy nappal sem tovább,
-hanem mondhatom azt, hogy csak még jobbat akarok *magamnak*.
+---
+
+## Line-by-line translation
+
+**„Csak még jobbat akarok magamnak. És ez egy valid ok!”**
+→ *“I just want something better for myself. And that’s a valid reason!”*
+
+---
+
+**Én végül nem azért jöttem el, mert utáltam az akkori munkahelyen,**
+→ *In the end, I didn’t leave because I hated my workplace at the time,*
+
+**meg meggyűlöltem ezt a munkakört,**
+→ *or because I grew to hate that job role,*
+
+**vagy nem akartam embereket vezetni.**
+→ *or because I didn’t want to manage people.*
+
+---
+
+**Én azért jöttem el, mert valami mást jobban akartam.**
+→ *I left because I wanted something else more.*
+
+**És ez egy valid ok.**
+→ *And that’s a valid reason.*
+
+---
+
+**Nem kell, tényleg nem kell, állandóan önmagunk ellen dönteni.**
+→ *You don’t have to—truly, you don’t have to—constantly decide against yourself.*
+
+---
+
+**Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen,**
+→ *You can say that it doesn’t have to end*
+
+**mert ez pokoli és tűrhetetlen,**
+→ *because it’s hellish and unbearable,*
+
+**és nem tudom elviselni egy nappal sem tovább,**
+→ *and I can’t endure it for even one more day,*
+
+---
+
+**hanem mondhatom azt, hogy csak még jobbat akarok magamnak.**
+→ *but instead I can say: I just want something better for myself.*
+
+---
+
+## Vocabulary (focused)
+
+* **meg (csak még)** – just, simply (emphasis)
+* **valid ok** – valid reason
+* **eljönni (egy munkahelyről)** – to leave (a job)
+* **meggyűlöl** – to grow to hate
+* **munkakör** – job role, position
+* **embereket vezetni** – to manage / lead people
+* **állandóan** – constantly
+* **önmagunk ellen dönteni** – to decide against oneself
+* **pokoli** – hellish
+* **tűrhetetlen** – unbearable
+* **elviselni** – to endure, tolerate
+
+If you want, next step could be:
+
+* a **more idiomatic English rewrite** (how a native would *say* this), or
+* a **contrast note** on *akartam* vs *szerettem volna*, or
+* a **tone analysis** (why this hits emotionally in Hungarian)
+
+Just tell me.
+
 
 -----
 
