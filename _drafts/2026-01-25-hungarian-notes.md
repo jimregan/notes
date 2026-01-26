@@ -222,15 +222,69 @@ Igen, igen.
 
 [Reel](https://www.instagram.com/reels/DR9LpmAj6f2/)
 
-Ho, ho, ho, sziasztok gyerekek!
-De jó ég, Samu! Itt a Mikulás!
-Látom, Bob! Hát itt áll előttem.
-Ho, ho, ho, te egy igen jó gyerek voltál, Bob! Ezért kapsz egy Mikulás csokit!
-Há! Látod, Samu? Megérte jó gyereknek lenni.
-Te pedig, Samu, mert jó gyerek voltál. Itt egy pánzerkampfwagen VI! Tigristank!
-Aha! A kaland most kezdődik.
-Mi? Én miért csak egy csokit kaptam?
-Mert jó gyerek voltál. De erdély nem foglalja vissza magát.
+Got it — **line-by-line translation + extracted vocabulary**, no extras.
+
+---
+
+## Line-by-line translation
+
+**Ho, ho, ho, sziasztok gyerekek!**
+→ *Ho, ho, ho, hello kids!*
+
+**De jó ég, Samu! Itt a Mikulás!**
+→ *Oh my God, Samu! Santa is here!*
+
+**Látom, Bob! Hát itt áll előttem.**
+→ *I see him, Bob! He’s standing right in front of me.*
+
+**Ho, ho, ho, te egy igen jó gyerek voltál, Bob! Ezért kapsz egy Mikulás csokit!**
+→ *Ho, ho, ho, you were a very good child, Bob! That’s why you get a Santa chocolate!*
+
+**Há! Látod, Samu? Megérte jó gyereknek lenni.**
+→ *Ha! See, Samu? It was worth being a good kid.*
+
+**Te pedig, Samu, mert jó gyerek voltál. Itt egy pánzerkampfwagen VI! Tigristank!**
+→ *And you, Samu, because you were a good kid—here’s a Panzerkampfwagen VI! A Tiger tank!*
+
+**Aha! A kaland most kezdődik.**
+→ *Aha! The adventure starts now.*
+
+**Mi? Én miért csak egy csokit kaptam?**
+→ *What? Why did I only get a chocolate?*
+
+**Mert jó gyerek voltál. De Erdély nem foglalja vissza magát.**
+→ *Because you were a good kid. But Transylvania will not retake itself.*
+
+---
+
+## Vocabulary (useful & recurring)
+
+* **sziasztok** – hello (plural, informal)
+* **gyerek(ek)** – child(ren)
+* **de jó ég!** – oh my God! / goodness!
+* **itt van** – is here
+* **látom** – I see
+* **itt áll előttem** – standing in front of me
+* **igen jó** – very good
+* **ezért** – therefore / that’s why
+* **kap** – to receive
+* **Megérte** – it was worth it
+* **jó gyerek** – good child
+* **te pedig** – and you (contrast)
+* **mert** – because
+* **kaland** – adventure
+* **most kezdődik** – starts now
+* **miért** – why
+* **csak** – only / just
+* **nem foglalja vissza magát** – won’t reclaim itself (idiomatic, ironic)
+
+---
+
+If you want next:
+• **explain the political/historical joke** (very Hungarian), or
+• **tone-matched English rewrite**, or
+• **frequency-ranked satire phrases** like *„nem foglalja vissza magát”*.
+
 
 -----
 
