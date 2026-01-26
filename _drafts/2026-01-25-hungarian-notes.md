@@ -594,5 +594,31 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT0FYiGDPZe/)
 
-Amikor nagyon rossz napod van és azzal vigasztal: De legalább itt vagyok neked én!
-Én: Na igen még az is.
+## Line-by-line translation
+
+**Amikor nagyon rossz napod van és azzal vigasztal:**
+→ *When you’re having a really bad day and they try to comfort you by saying:*
+
+**„De legalább itt vagyok neked én!”**
+→ *“But at least I’m here for you!”*
+
+**Én:**
+→ *Me:*
+
+**„Na igen, még az is.”**
+→ *“Yeah… that too.”*
+*(≈ “Right, as if that wasn’t bad enough.”)*
+
+---
+
+## Vocabulary
+
+* **amikor** – when
+* **nagyon rossz napod van** – you’re having a very bad day
+* **azzal vigasztal** – comforts you with (literally: consoles you by saying)
+* **de legalább** – but at least
+* **itt vagyok neked** – I’m here for you
+* **na igen** – yeah, right / well yes (often ironic)
+* **még az is** – that too / even that (sarcastic here)
+
+If you want, I can also give **tone equivalents** (e.g. British vs American sarcasm), but I’ll stop here unless asked.
