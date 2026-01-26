@@ -128,6 +128,17 @@ Igen, igen.
 
 [Reel](https://www.instagram.com/reels/DR9LpmAj6f2/)
 
+[00:00.000 --> 00:02.760]  Ah, ah, ah, sziasztok gyerekek!
+[00:02.760 --> 00:04.760]  Te jó ég, Szabú! Itt a Mikulás!
+[00:04.760 --> 00:07.260]  Hm, látom, Bob! Hát itt áll előttem!
+[00:07.260 --> 00:11.980]  Ah, ah, ah, te egyébként jó gyerek voltál, Bob! Ezért kapsz egy Mikulás csokit!
+[00:11.980 --> 00:14.640]  Há, látod, Szabú! Mely érte jó gyereknek lenni?
+[00:14.640 --> 00:19.240]  De pedig, Szabú, mert jó gyerek voltál! Itt egy pánzkampenvágen! Hattigristán!
+[00:19.240 --> 00:21.740]  Aha, kamad! Most tesződik!
+[00:21.740 --> 00:23.740]  Mi? Én mércsakecsok itt kaptam!
+[00:23.740 --> 00:27.440]  Mert jó gyerek voltál! De Erdény, depoglalja visszavagát!
+[00:30.000 --> 00:32.000]  Egyébként jó gyerek voltál!
+
 -----
 
 [Reel](https://www.instagram.com/reels/DT5xhGsCHYM/)
