@@ -9,19 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Ep 137](https://www.youtube.com/watch?v=M-OW9E994Sw)
 
-Great text choice 🙂 This is *rich* but still very A2–B1-friendly spoken Hungarian.
-Below is a **curated A2-level vocabulary list** extracted from your subtitles.
-
-**What I did (so you know what you’re getting):**
-
-* Lemma form (dictionary form)
-* High-frequency words useful beyond this episode
-* Mostly **content words** (nouns, verbs, adjectives, adverbs)
-* Excluded names, places, and very advanced / abstract items
-* Translations are **natural**, not word-for-word
-
----
-
 ## 🟢 A2 Vocabulary List (from the subtitles)
 
 ### 👤 People & relationships
@@ -37,8 +24,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **unokatestvér** – cousin
 * **házas** – married
 
----
-
 ### 🗣️ Languages & communication
 
 * **nyelv** – language
@@ -53,8 +38,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **beszélget** – to chat / talk
 * **megszólal** – to speak up
 
----
-
 ### 🧠 Feelings & states
 
 * **boldog** – happy
@@ -67,8 +50,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **félelem / fél** – fear / to be afraid
 * **élvez** – to enjoy
 * **szeret** – to love / like
-
----
 
 ### 🏠 Everyday life
 
@@ -83,8 +64,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **reggel** – morning
 * **pénz** – money
 
----
-
 ### 🧩 Actions & common verbs
 
 * **él** – to live
@@ -97,8 +76,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **ül** – to sit
 * **megy / elmegy** – to go
 * **hoz** – to bring
-
----
 
 ### 🔹 Useful adverbs & expressions
 
@@ -113,8 +90,6 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **még** – still / yet
 * **már** – already
 
----
-
 ### 🧠 Very useful A2 chunks (worth learning as units)
 
 * **nem baj** – it’s okay
@@ -123,14 +98,3 @@ Below is a **curated A2-level vocabulary list** extracted from your subtitles.
 * **azt érzem, hogy…** – I feel that…
 * **meg kell próbálni** – you have to try
 * **idővel** – over time
-
----
-
-If you want, next we can:
-
-* 🔹 turn this into an **A2 Anki deck**
-* 🔹 mark which words are **borderline B1**
-* 🔹 extract **A2 sentence patterns** from the same text
-* 🔹 or make a **learner-friendly glossed transcript**
-
-Just tell me how you want to use it 👌
