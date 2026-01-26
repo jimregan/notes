@@ -624,3 +624,7 @@ a föláramló magma számára, ott pedig első körben óceáni kőzetlemez fog
 * **itt vagyok neked** – I’m here for you
 * **na igen** – yeah, right / well yes (often ironic)
 * **még az is** – that too / even that (sarcastic here)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT3dh-WDwcn/)
