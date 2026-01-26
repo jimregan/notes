@@ -267,10 +267,63 @@ Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy
 
 [Reel](https://www.instagram.com/reels/DT78tfljHxy/)
 
-A van problémád az alkohollal?
-Igen, minden nap iszom.
-Baszus, de hát miért nem szólsz le róla?
-Szeretnék róla leszokni.
-Meg is igértem magamnak.
-És akkor miért nem teszed?
-Mert a szüleim azt mondták, hogy az alkoholistáknak nem szabad hinni.
+Got it — **exactly the two things you asked for**.
+
+---
+
+## Line-by-line translation
+
+**– Van problémád az alkohollal?**
+→ *Do you have a problem with alcohol?*
+
+**– Igen, minden nap iszom.**
+→ *Yes, I drink every day.*
+
+**– Basszus, de hát miért nem szoksz le róla?**
+→ *Damn, then why don’t you quit?*
+
+**– Szeretnék róla leszokni.**
+→ *I’d like to quit.*
+
+**– Meg is ígértem magamnak.**
+→ *I even promised myself.*
+
+**– És akkor miért nem teszed?**
+→ *Then why don’t you do it?*
+
+**– Mert a szüleim azt mondták, hogy az alkoholistáknak nem szabad hinni.**
+→ *Because my parents said you can’t trust alcoholics.*
+
+---
+
+## Vocabulary (useful & frequent)
+
+* **van problémád valamivel** – you have a problem with something
+* **alkohol** – alcohol
+* **iszom / inni** – I drink / to drink
+* **minden nap** – every day
+* **basszus** – damn / geez (mild swear, very common)
+* **leszokni (valamiről)** – to quit, give something up
+* **szeretnék** – I would like to
+* **ígérni / megígérni** – to promise
+* **magamnak** – to myself
+* **tenni / miért nem teszed** – to do / why don’t you do it
+* **szabad** (nem szabad) – allowed (not allowed)
+* **hinni valakinek** – to trust someone
+* **alkoholista** – alcoholic
+
+---
+
+### Why this lands as a joke (very briefly, no lecture)
+
+The punchline hinges on **önellentmondás** (self-contradiction):
+
+> *I can’t keep my promise because alcoholics can’t be trusted — and I’m an alcoholic.*
+
+If you want next time, we can:
+
+* strip it down to **one-line meme English**, or
+* compare **basszus vs. baszd meg vs. bazdmeg** (register & frequency), or
+* collect **dark-humor Hungarian structures** like this one.
+
+You’re doing great with these — your instincts about what’s worth learning are solid.
