@@ -298,16 +298,7 @@ These are either less frequent in everyday A2, more abstract, or more “podcast
 * *megkérni* = to ask/request
 * *tízszer* = ten times
 
-Perfect, thanks for the clarification 👍
-Below is a **filtered list of everything that is *clearly above A2*** in your subtitles — roughly **B1 to low B2**, including abstract nouns, discourse markers, emotional vocabulary, and “podcast-style” verbs. I’ve **excluded** basic A2 items you already know.
-
-I’ve grouped them by *why* they’re harder, which usually helps retention.
-
----
-
-## 🔵 B1+ ABSTRACT NOUNS & CONCEPTS
-
-These don’t refer to concrete objects and tend to appear in reflective speech.
+### 🔵 B1+ ABSTRACT NOUNS & CONCEPTS
 
 * **tapasztalat** – experience
 * **helyzet** – situation (abstract use)
@@ -324,11 +315,7 @@ These don’t refer to concrete objects and tend to appear in reflective speech.
 * **procedúra** – procedure
 * **papírmunka** – paperwork
 
----
-
-## 🔵 B1+ VERBS (MENTAL, DISCOURSE, ABSTRACT ACTIONS)
-
-These are the *big jump* from A2: less physical, more internal or social.
+### 🔵 B1+ VERBS (MENTAL, DISCOURSE, ABSTRACT ACTIONS)
 
 * **elfogad** – accept
 * **érez / azt érzi, hogy…** – feel (abstract)
@@ -347,11 +334,7 @@ These are the *big jump* from A2: less physical, more internal or social.
 * **visszagondol** – reflect back
 * **elfelejt / elfelejteni** – forget (abstract use)
 
----
-
-## 🔵 B1+ ADJECTIVES (EMOTIONAL / ABSTRACT)
-
-Often used metaphorically or evaluatively.
+### 🔵 B1+ ADJECTIVES (EMOTIONAL / ABSTRACT)
 
 * **kényelmetlen** – uncomfortable (non-physical)
 * **magányos** – lonely
@@ -363,11 +346,7 @@ Often used metaphorically or evaluatively.
 * **kedves** – kind (evaluative)
 * **nehéz** – difficult (abstract/emotional)
 
----
-
-## 🔵 B1+ DISCOURSE MARKERS & STRUCTURES
-
-These are *huge* for sounding natural but are almost never A2.
+### 🔵 B1+ DISCOURSE MARKERS & STRUCTURES
 
 * **attól függetlenül, hogy…** – regardless of the fact that…
 * **úgyhogy** – so / therefore (spoken discourse)
@@ -379,11 +358,7 @@ These are *huge* for sounding natural but are almost never A2.
 * **szerintem** – in my opinion (argumentative use)
 * **nem fekete-fehér** – not black and white (idiomatic)
 
----
-
-## 🔵 B1+ FIXED EXPRESSIONS / IDIOMS
-
-These are *definitely* above A2.
+### 🔵 B1+ FIXED EXPRESSIONS / IDIOMS
 
 * **ez nem fekete-fehér** – it’s not black and white
 * **ez van** – that’s how it is
@@ -395,11 +370,7 @@ These are *definitely* above A2.
 * **nem jelent semmit** – it doesn’t mean anything
 * **hangsúlyt tesz** – put stress (pronunciation)
 
----
-
-## 🔵 B1+ RELATIONSHIP / LIFE-SPECIFIC VOCAB
-
-Topic-specific but clearly beyond A2.
+### 🔵 B1+ RELATIONSHIP / LIFE-SPECIFIC VOCAB
 
 * **távkapcsolat** – long-distance relationship
 * **összeházasodik** – get married (formal)
@@ -408,19 +379,3 @@ Topic-specific but clearly beyond A2.
 * **tolmácsolás** – interpreting
 * **kerti parti** – garden party
 * **személyiségfejlődés** – personality development
-
----
-
-## 🧠 Reality check (useful for you)
-
-If you:
-
-* **recognise** most of this → you’re already B1 listening
-* **can actively use ~50%** → solid B1 speaking
-* **can paraphrase these ideas** → approaching B2 discourse
-
-If you want next, I can:
-
-* 🔹 rank these by **highest payoff**
-* 🔹 mark which are **passive vs active B1**
-* 🔹 or turn this into **spoken paraphrase practice** (“say it in simpler Hungarian”)
