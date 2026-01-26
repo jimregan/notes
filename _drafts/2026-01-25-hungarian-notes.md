@@ -457,22 +457,24 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT5W1i4DOr8/)
 
-Felmentették a voltfideszes Alpolgármestert, aki a f**k graf videókat vett fel a 16 éves neveltlányáról.
-A történet 2014-ben kezdődik, amikor foszti vadar,
-akkor a 17. kerület a Alpolgármestere együtt jött feleségével és neveltlányával és házukat bekamerázta.
-De ő neki kerül elfelejtett szólni.
-A kamerákkal a 16 éves lányról f**k graf tartalmakat készített a saját szobályában, amiket utána össze is vágott.
-A lányál mondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban, illetve azt is, hogy a politikus molestált a őt.
-A felesége való másában azt mondta, aki a rendőrségről figyelmesztette a politikus, hogy házkutatás lesz nála.
-A molestállással kapcsolatos eljárásd, viszont megszüntették, mivel hogy elévült.
-Illetve érdekes még, hogy csak azzal váldolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,
-amiért sokkal többébb börtönjárna, mint szimplabírtoklásért.
-De az, hogy a korábbi videókat megszárkeztette, nem számít készítésnek.
-És amúgy Horvátországban is indult el lenne eljárás, mert ott nudista campingekben készített felvételeket.
-Fosszabbliknek azzal védekezett, hogy biztonságíokokból szerelte fel a kamarákat a házban, és tagadta, hogy ő látta volna azokat a felvételeket.
-Most a bíróság első fokon felmen tette, mert nem volt kétséget gizáró bizonyíték arra, hogy a felvételeket ő készítette volna.
-Erre az ügyésség felvebezett.
-Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy kébben lenni alap.
+> Első fokon felmentették a volt fideszes alpolgármestert a gyermekpornógráfia vádja alól.
+
+Felmentették a volt fideszes Alpolgármestert, aki a **rnográf videókat vett fel a 16 éves nevelt lányáról.
+A történet 2011-ben kezdődik, amikor fohsz tivadar,
+akkor XVII. kerület Alpolgármestere együtt élt feleségével és nevelt lányával, és házukat bekamerázta.
+De ő nekik erről elfelejtett szólni.
+A kamerákkal a 16 éves lányról **rnograf tartalmakat készített a saját szobájában, amiket utána össze is vágott.
+A lány elmondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban, illetve azt is, hogy a politikus molestálta őt.
+A felesége vallómásában azt mondta, valaki a rendőrségről figyelmeztethette a politikust, hogy házkutatás lesz nála.
+A molesztálással kapcsolatos eljárást viszont megszüntették, mivelhogy elévült.
+Illetve érdekes még, hogy csak azzal vádolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,
+amiért sokkal több év börtön járna, mint szimpla bírtoklásért.
+De az, hogy a korábbi videókat megszerkesztette, nem számít készítésnek.
+És amúgy Horvátországban is indult ellene eljárás, mert ott nudista kempingekben készített felvételeket
+fohsz a blikknek azzal védekezett, hogy biztonságí okokból szerelte fel a kamarákat a házban, és tagadta, hogy ő látta volna azokat a felvételeket.
+Most a bíróság első fokon felmentette, mert nem volt kétséget kizáró bizonyíték arra, hogy a felvételeket ő készítette volna.
+Erre az ügyészség fellebbezett.
+Ti mit gondoltok az ügyről? írjátok meg kommentben, és ne felejtsétek, hogy kébben lenni alap.
 
 -----
 
