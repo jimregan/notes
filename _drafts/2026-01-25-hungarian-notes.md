@@ -237,10 +237,10 @@ Egyébként jó gyerek voltál!
 
 [Reel](https://www.instagram.com/reels/DT5xhGsCHYM/)
 
-Jézus Kristus csatlakozott a Tiszapárt hoz. A korábban elítelt szektavezérés kurus ló a Tiszapárt újonnan leigazolt messiása.
-A hatóságok tájékoztatása szerint Jézus nem rendelkezett sajtóengedéj el a hegyi beszéthez.
-A szakértők szerint különösen aggályos, hogy Jézus tömegeketetett két halból, ami súlyosan sérti a tisztességes piaci verseny.
-Vizenjárásával kiátszotta az útdíffizetési rendszert, feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statistikai hivatalt.
+Ha Jézus Kristus csatlakozott a Tisza párthoz. A korábban elítelt szektavezér és kuruzsló a Tisza párt újonnan leigazolt messiása.
+A hatóságok tájékoztatása szerint Jézus nem rendelkezett sajtóengedéllyel a hegyi beszédhez.
+A szakértők szerint különösen aggályos, hogy Jézus tömegeket etet két halból, ami súlyosan sérti a tisztességes piaci versenyt.
+Vizen járásával kijátszotta az útdíj fizetési rendszert, feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statisztikai hivatalt.
 
 -----
 
