@@ -801,31 +801,130 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DTMtwp-DTw8/)
 
-Nagyon nehezen mondják ki a nőgyógyászok a betegeknek,
-hogy vag***zmusra gyanakodnak, és nekik meg fogalmuk sincs,
-hogy mi lehet ez az állapot, és nem mernek kérdezni.
-És hozzám nem egyszer jöttek úgy, hogy évek óta, vagy akár a sze***lis élet kezdete óta
-tart az állapot, és eltelt tíz, tízenöt év, és azt mondja, hogy most jött,
-mert most mondta neki a nőgyógyász, hogy ez lehet,
-és hogy annyira felszabadult, hogy nevet adtak neki.
-- Nagy általános mondásom, és ez szerintem nekem nagy misszióm,
-meg én ebben nagyon hiszek, hogy azzal, hogyha nevén nevezzük,
-megint nem fogok nagy dolgot megmondani,
-csak én ebben nagyon hiszek.
-Ha nevén nevezünk valamit, lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén, de
-azzal, hogy nevén nevezek valamit, azzal mar 
-kapok egy olyan érzést, hogy az ember amúgy az ismeretlentől fél nagyon.
-Most már idézőjelben tudjuk, a lehet bárhogy hívni ellenség
-vagy olyan megoldandó probléma ki milyen személyiségtipus,
-hogy hogy akarja ezt megoldani, de most már legalább látjuk,
-hogy kivel állunk szemben, és nem egy, ha éppen ilyenről van szó, nem egy halálos
-betegség, szoktam mondani, hanem mondjuk egy
-életminőséget ronto dolog. Van kiút,
-mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldás.
-Szóval én azt gondolom, hogy azzal, hogyha kimondjuk ezeket, nevesítjük,
-persze nem betegséget építve, nem betegség tudatot építve,
-de már van valami, amivel szemben nem úgy fekszem le este, hogy fáj, de bármi miatt, fájhat az ott most.
-És akkor azt se tudom, hogy mi, kivel állok szemben, mi az.
+Rendben. **Ugyanaz a formátum, mint az előbb**:
+**line-by-line translation + külön szókincslista**.
+Nincs magyarázat, nincs kommentár.
+
+---
+
+## Line-by-line translation
+
+**Nagyon nehezen mondják ki a nőgyógyászok a betegeknek,**
+→ *Gynecologists have a very hard time saying to their patients*
+
+**hogy vaginizmusra gyanakodnak, és nekik meg fogalmuk sincs,**
+→ *that they suspect vaginismus, and the patients have no idea*
+
+**hogy mi lehet ez az állapot, és nem mernek kérdezni.**
+→ *what this condition might be, and they don’t dare to ask.*
+
+**És hozzám nem egyszer jöttek úgy, hogy évek óta, vagy akár a szexuális élet kezdete óta**
+→ *And more than once, people came to me saying that for years, or even since the beginning of their sexual life,*
+
+**tart az állapot, és eltelt tíz, tizenöt év, és azt mondja, hogy most jött,**
+→ *the condition has been present, and ten or fifteen years have passed, and they say they came now,*
+
+**mert most mondta neki a nőgyógyász, hogy ez lehet,**
+→ *because only now did their gynecologist tell them that this could be it,*
+
+**és hogy annyira felszabadult, hogy nevet adtak neki.**
+→ *and that they felt so relieved that it was finally given a name.*
+
+---
+
+**– Nagy általános mondásom, és ez szerintem nekem nagy misszióm,**
+→ *This is one of my big general sayings, and I think this is a major mission of mine,*
+
+**meg én ebben nagyon hiszek, hogy azzal, hogyha nevén nevezzük,**
+→ *and I really believe in this: that by calling something by its name,*
+
+**megint nem fogok nagy dolgot megmondani,**
+→ *I’m not saying anything groundbreaking again,*
+
+**csak én ebben nagyon hiszek.**
+→ *it’s just something I deeply believe in.*
+
+**Ha nevén nevezünk valamit, lehet, hogy nem egy megoldhatatlan dolgot nevezünk nevén, de**
+→ *If we name something, it may not be something unsolvable that we’re naming, but*
+
+**azzal, hogy nevén nevezek valamit, azzal már**
+→ *by naming something, I already*
+
+**kapok egy olyan érzést, hogy az ember amúgy az ismeretlentől fél nagyon.**
+→ *get the feeling that people are actually very afraid of the unknown.*
+
+---
+
+**Most már idézőjelben tudjuk,**
+→ *Now we know, in quotation marks,*
+
+**lehet bárhogy hívni ellenség**
+→ *we can call it an “enemy” if we want,*
+
+**vagy olyan megoldandó probléma, ki milyen személyiségtípus,**
+→ *or a problem to be solved, depending on what kind of personality someone has,*
+
+**hogy hogy akarja ezt megoldani, de most már legalább látjuk,**
+→ *how they want to deal with it, but at least now we can see*
+
+**hogy kivel állunk szemben, és nem egy – ha éppen ilyenről van szó – nem egy halálos**
+→ *who we are dealing with, and it is not — if we’re talking about something like this — not a fatal*
+
+**betegség, szoktam mondani, hanem mondjuk egy**
+→ *disease, as I usually say, but rather*
+
+**életminőséget rontó dolog.**
+→ *something that worsens quality of life.*
+
+**Van kiút, mert már figyeljen, mert már mondtam azt, hogy és ez egy jó megoldás.**
+→ *There is a way out, because pay attention: I’ve already said that this is a good solution.*
+
+---
+
+**Szóval én azt gondolom, hogy azzal, hogyha kimondjuk ezeket, nevesítjük,**
+→ *So I think that by saying these things out loud, by naming them,*
+
+**persze nem betegséget építve, nem betegség-tudatot építve,**
+→ *of course not building an illness identity, not creating illness-consciousness,*
+
+**de már van valami, amivel szemben nem úgy fekszem le este,**
+→ *but then there is already something that I don’t go to bed at night facing like this:*
+
+**hogy fáj, de bármi miatt, fájhat az ott most.**
+→ *“it hurts, but who knows why, it could be anything down there.”*
+
+**És akkor azt se tudom, hogy mi, kivel állok szemben, mi az.**
+→ *And then I don’t even know what it is, what I’m dealing with, what it actually is.*
+
+---
+
+## Vocabulary (extracted)
+
+* **nőgyógyász** – gynecologist
+* **beteg** – patient
+* **kimond** – to say out loud
+* **gyanakodik** – to suspect
+* **vaginizmus** – vaginismus
+* **állapot** – condition
+* **fogalma sincs** – has no idea
+* **nem mer kérdezni** – doesn’t dare to ask
+* **szexuális élet** – sexual life
+* **felszabadult** – relieved, liberated
+* **nevet ad neki** – give it a name
+* **nevén nevez** – to call something by its name
+* **ismeretlen** – unknown
+* **kivel állunk szemben** – who we are dealing with
+* **halálos betegség** – fatal illness
+* **életminőséget rontó** – quality-of-life–reducing
+* **van kiút** – there is a way out
+* **nevesít** – to label, to name
+* **betegség-tudat** – illness identity / illness mindset
+
+Ha akarod, a következő lépés lehet:
+
+* **gyakori orvosi–pszichológiai szókincs külön listában**, vagy
+* **Anki-formátum (HU → EN)**, vagy
+* **stiláris regiszter** (mennyire szakmai / hétköznapi ez a szöveg).
 
 -----
 
