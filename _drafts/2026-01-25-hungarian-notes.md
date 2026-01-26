@@ -457,24 +457,100 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT5W1i4DOr8/)
 
-> Első fokon felmentették a volt fideszes alpolgármestert a gyermekpornógráfia vádja alól.
+Understood. **Line-by-line translation + vocabulary list only. No commentary.**
 
-Felmentették a volt fideszes Alpolgármestert, aki a **rnográf videókat vett fel a 16 éves nevelt lányáról.
-A történet 2011-ben kezdődik, amikor fohsz tivadar,
-akkor XVII. kerület Alpolgármestere együtt élt feleségével és nevelt lányával, és házukat bekamerázta.
-De ő nekik erről elfelejtett szólni.
-A kamerákkal a 16 éves lányról **rnograf tartalmakat készített a saját szobájában, amiket utána össze is vágott.
-A lány elmondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban, illetve azt is, hogy a politikus molestálta őt.
-A felesége vallómásában azt mondta, valaki a rendőrségről figyelmeztethette a politikust, hogy házkutatás lesz nála.
-A molesztálással kapcsolatos eljárást viszont megszüntették, mivelhogy elévült.
-Illetve érdekes még, hogy csak azzal vádolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,
-amiért sokkal több év börtön járna, mint szimpla bírtoklásért.
-De az, hogy a korábbi videókat megszerkesztette, nem számít készítésnek.
-És amúgy Horvátországban is indult ellene eljárás, mert ott nudista kempingekben készített felvételeket
-fohsz a blikknek azzal védekezett, hogy biztonságí okokból szerelte fel a kamarákat a házban, és tagadta, hogy ő látta volna azokat a felvételeket.
-Most a bíróság első fokon felmentette, mert nem volt kétséget kizáró bizonyíték arra, hogy a felvételeket ő készítette volna.
-Erre az ügyészség fellebbezett.
-Ti mit gondoltok az ügyről? írjátok meg kommentben, és ne felejtsétek, hogy kébben lenni alap.
+---
+
+## Line-by-line translation
+
+**Első fokon felmentették a volt fideszes alpolgármestert a gyermekpornográfia vádja alól.**
+→ *At first instance, the former Fidesz deputy mayor was acquitted of the charge of child pornography.*
+
+**Felmentették a volt fideszes alpolgármestert, aki pornográf videókat vett fel a 16 éves nevelt lányáról.**
+→ *They acquitted the former Fidesz deputy mayor who recorded pornographic videos of his 16-year-old stepdaughter.*
+
+**A történet 2011-ben kezdődik, amikor Fohsz Tivadar,**
+→ *The story begins in 2011, when Tivadar Fohsz,*
+
+**akkor XVII. kerület alpolgármestere együtt élt feleségével és nevelt lányával, és házukat bekamerázta.**
+→ *then deputy mayor of Budapest’s 17th district, lived together with his wife and stepdaughter and installed cameras in their house.*
+
+**De ő nekik erről elfelejtett szólni.**
+→ *But he forgot to inform them about this.*
+
+**A kamerákkal a 16 éves lányról pornográf tartalmakat készített a saját szobájában, amiket utána össze is vágott.**
+→ *With the cameras, he created pornographic material of the 16-year-old girl in her own room, which he later edited together.*
+
+**A lány elmondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban,**
+→ *The girl said that she found the recordings on her stepfather’s laptop in 2018,*
+
+**illetve azt is, hogy a politikus molesztálta őt.**
+→ *and also that the politician had molested her.*
+
+**A felesége vallomásában azt mondta, valaki a rendőrségről figyelmeztethette a politikust, hogy házkutatás lesz nála.**
+→ *In her testimony, the wife said that someone from the police may have warned the politician that a house search would take place.*
+
+**A molesztálással kapcsolatos eljárást viszont megszüntették, mivelhogy elévült.**
+→ *However, the proceedings related to the molestation were terminated because they were time-barred.*
+
+**Illetve érdekes még, hogy csak azzal vádolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,**
+→ *It is also notable that he was only charged with possessing the recordings, but not with producing them,*
+
+**amiért sokkal több év börtön járna, mint szimpla birtoklásért.**
+→ *for which many more years in prison would apply than for simple possession.*
+
+**De az, hogy a korábbi videókat megszerkesztette, nem számít készítésnek.**
+→ *But the fact that he edited the earlier videos does not count as production.*
+
+**És amúgy Horvátországban is indult ellene eljárás, mert ott nudista kempingekben készített felvételeket.**
+→ *And proceedings were also launched against him in Croatia, because he made recordings in nudist camps there.*
+
+**Fohsz a Blikknek azzal védekezett, hogy biztonsági okokból szerelte fel a kamerákat a házban,**
+→ *Fohsz defended himself to Blikk by saying that he installed the cameras in the house for security reasons,*
+
+**és tagadta, hogy ő látta volna azokat a felvételeket.**
+→ *and denied that he had seen those recordings.*
+
+**Most a bíróság első fokon felmentette, mert nem volt kétséget kizáró bizonyíték arra, hogy a felvételeket ő készítette volna.**
+→ *Now the court acquitted him at first instance because there was no evidence beyond reasonable doubt that he had created the recordings.*
+
+**Erre az ügyészség fellebbezett.**
+→ *The prosecution has appealed this decision.*
+
+**Ti mit gondoltok az ügyről? írjátok meg kommentben, és ne felejtsétek, hogy képben lenni alap.**
+→ *What do you think about the case? Write it in the comments, and don’t forget: staying informed is essential.*
+
+---
+
+## Vocabulary (key items)
+
+* **első fokon** – at first instance
+* **felment** – to acquit
+* **vád** – charge, accusation
+* **gyermekpornográfia** – child pornography
+* **alpolgármester** – deputy mayor
+* **nevelt lány** – stepdaughter
+* **bekameráz** – to install surveillance cameras
+* **pornográf tartalom** – pornographic content
+* **összevág** – to edit together
+* **felvétel** – recording, footage
+* **molesztál** – to molest
+* **vallomás** – testimony
+* **házkutatás** – house search
+* **eljárás** – legal proceedings
+* **elévült** – time-barred (statute of limitations expired)
+* **birtoklás** – possession
+* **készítés** – production, creation
+* **megszerkeszt** – to edit
+* **nudista kemping** – nudist camp
+* **biztonsági okokból** – for security reasons
+* **tagad** – to deny
+* **kétséget kizáró bizonyíték** – evidence beyond reasonable doubt
+* **ügyészség** – prosecution
+* **fellebbez** – to appeal
+
+If you want, next time I can also **standardize spelling, flag legal jargon, or align this with news-style Hungarian**, but I’ll only do that if you ask.
+
 
 -----
 
