@@ -619,8 +619,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 **Ez történt 200 millió évvel ezelőtt.**
 → *This is what happened 200 million years ago.*
 
----
-
 ## Vocabulary (focused & useful)
 
 * **mindig** – always
@@ -639,9 +637,6 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **óceáni kőzetlemez** – oceanic crust / oceanic plate
 * **létrejön / jönnek létre** – to come into existence / be formed
 * **évvel ezelőtt** – years ago
-
-If you want next time, I can also **compress this into one clean scientific paragraph** or give you **natural spoken-English equivalents** (lecture vs documentary style).
-
 
 -----
 
