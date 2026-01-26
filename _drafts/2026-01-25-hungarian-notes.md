@@ -74,9 +74,9 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT4igK3Egpt/)
 
-Mi történik akkor, amikor a 3. félként beférkűzik a kapcsolatokba?
-Ilyenet alákoztatok el már egyébként, amikor ez a kozott kifejezettem problémát,
-a pár kapcsolatba konfliktúst, hogy valógyi kicsatorne ezt az éjjájnak a problémákat.
+Mi történik akkor, amikor a harmadik félként beférkőzik a kapcsolatokba?
+Ilyenel talákoztatok-e már egyébként, amikor ez okozott kifejezetten problémát
+a párkapcsolatban, konfliktúst, hogy valahogy kicsatornázd az AI-nak a problémákat?
 Szóval ezt pároknál például abban tud haztós lenni, hogy segyít megfogalmazni azt,
 amit én szeretnék mondani a pároknak, de én ezt nem a csejd GPT-vel fogom megbeszélni,
 hanem azt, amit ő ránkem segített megfogalmazni, azt visszavisszam a páromhoz, és felebeszélem meg.
