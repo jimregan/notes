@@ -671,7 +671,7 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT3dh-WDwcn/)
 
-[00:00.000 --> 00:05.500]  Ha migránsok nincsenek, és valakinek takarítani kell az interszitina mostót,
-[00:05.500 --> 00:12.500]  mert oda egyébként a magyar választó polgárok nem olyan nagy lendülete jelentkeznek, hogy másnak a szaros mostóját takarítsák,
-[00:12.500 --> 00:15.500]  akkor föl kell tárni a belsőtartalékokat.
-[00:15.500 --> 00:18.500]  És a belsőtartalék a magyarorszegi cigánságot jelenti.
+Ha migránsok nincsenek, és valakinek takarítani kell az interszitina mostót,
+mert oda egyébként a magyar választó polgárok nem olyan nagy lendülete jelentkeznek, hogy másnak a szaros mostóját takarítsák,
+akkor föl kell tárni a belsőtartalékokat.
+És a belsőtartalék a magyarorszegi cigánságot jelenti.
