@@ -715,3 +715,7 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **jelent** – to mean, signify
 * **magyarországi** – Hungarian (located in Hungary)
 * **cigányság** – Roma community / Roma population
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT95YKXCHGl/)
