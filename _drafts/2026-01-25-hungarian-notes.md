@@ -152,22 +152,22 @@ Vizenjárásával kiátszotta az útdíffizetési rendszert, feltámadásával p
 
 [Reel](https://www.instagram.com/reels/DT5W1i4DOr8/)
 
-[00:00.000 --> 00:05.600]  Felmentették a voltfideszes Alpolgármestert, aki a f**k graf videókat vett fel a 16 éves neveltlányáról.
-[00:07.800 --> 00:11.320]  A történet 2014-ben kezdődik, amikor foszti vadar,
-[00:11.320 --> 00:17.880]  akkor a 17. kerület a Alpolgármestere együtt jött feleségével és neveltlányával és házukat bekamerázta.
-[00:17.880 --> 00:20.040]  De ő neki kerül elfelejtett szólni.
-[00:20.040 --> 00:26.640]  A kamerákkal a 16 éves lányról f**k graf tartalmakat készített a saját szobályában, amiket utána össze is vágott.
-[00:26.640 --> 00:33.640]  A lányál mondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban, illetve azt is, hogy a politikus molestált a őt.
-[00:33.640 --> 00:39.400]  A felesége való másában azt mondta, aki a rendőrségről figyelmesztette a politikus, hogy házkutatás lesz nála.
-[00:39.400 --> 00:43.360]  A molestállással kapcsolatos eljárásd, viszont megszüntették, mivel hogy elévült.
-[00:43.360 --> 00:48.800]  Illetve érdekes még, hogy csak azzal váldolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,
-[00:48.800 --> 00:51.960]  amiért sokkal többébb börtönjárna, mint szimplabírtoklásért.
-[00:51.960 --> 00:55.520]  De az, hogy a korábbi videókat megszárkeztette, nem számít készítésnek.
-[00:55.520 --> 01:00.760]  És amúgy Horvátországban is indult el lenne eljárás, mert ott nudista campingekben készített felvételeket.
-[01:00.760 --> 01:08.240]  Fosszabbliknek azzal védekezett, hogy biztonságíokokból szerelte fel a kamarákat a házban, és tagadta, hogy ő látta volna azokat a felvételeket.
-[01:08.240 --> 01:14.640]  Most a bíróság első fokon felmen tette, mert nem volt kétséget gizáró bizonyíték arra, hogy a felvételeket ő készítette volna.
-[01:14.640 --> 01:16.280]  Erre az ügyésség felvebezett.
-[01:16.280 --> 01:21.280]  Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy kébben lenni alap.
+Felmentették a voltfideszes Alpolgármestert, aki a f**k graf videókat vett fel a 16 éves neveltlányáról.
+A történet 2014-ben kezdődik, amikor foszti vadar,
+akkor a 17. kerület a Alpolgármestere együtt jött feleségével és neveltlányával és házukat bekamerázta.
+De ő neki kerül elfelejtett szólni.
+A kamerákkal a 16 éves lányról f**k graf tartalmakat készített a saját szobályában, amiket utána össze is vágott.
+A lányál mondta, hogy a felvételeket nevelőapja laptopján találta meg 2018-ban, illetve azt is, hogy a politikus molestált a őt.
+A felesége való másában azt mondta, aki a rendőrségről figyelmesztette a politikus, hogy házkutatás lesz nála.
+A molestállással kapcsolatos eljárásd, viszont megszüntették, mivel hogy elévült.
+Illetve érdekes még, hogy csak azzal váldolták meg, hogy nála voltak a felvételek, a készítésükkel viszont nem,
+amiért sokkal többébb börtönjárna, mint szimplabírtoklásért.
+De az, hogy a korábbi videókat megszárkeztette, nem számít készítésnek.
+És amúgy Horvátországban is indult el lenne eljárás, mert ott nudista campingekben készített felvételeket.
+Fosszabbliknek azzal védekezett, hogy biztonságíokokból szerelte fel a kamarákat a házban, és tagadta, hogy ő látta volna azokat a felvételeket.
+Most a bíróság első fokon felmen tette, mert nem volt kétséget gizáró bizonyíték arra, hogy a felvételeket ő készítette volna.
+Erre az ügyésség felvebezett.
+Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy kébben lenni alap.
 
 -----
 
