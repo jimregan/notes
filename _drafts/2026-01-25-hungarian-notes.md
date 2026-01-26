@@ -74,17 +74,84 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT4igK3Egpt/)
 
-Mi történik akkor, amikor a harmadik félként beférkőzik a kapcsolatokba?
-Ilyenel talákoztatok-e már egyébként, amikor ez okozott kifejezetten problémát
-a párkapcsolatban, konfliktúst, hogy valahogy kicsatornázd az AI-nak a problémákat?
-- Szóval ezt pároknál például abban tud hasznos lenni, hogy segít megfogalmazni azt,
-amit én szeretnék mondani a páromnak, de én ezt nem a ChatGPT-vel fogom megbeszélni,
-hanem azt, amit ő nekem segített megfogalmazni, azt visszaviszem a páromhoz, és vele beszélem meg.
-- Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom használni, mint egy barátot,
-és akkor én most itt kiöntöm szívemet, lelkemet, kibeszéljük együtt a másikat,
-és akkor érzelmileg ebbe a kapcsolatba invesztálok az AI-jal,
-vagy pedig tényleg használom, mint egy eszközt arra, hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,
-meg kapaszkodókat találni.
+Got it — **same clean format**:
+**line-by-line translation with the original Hungarian**, followed by a **focused vocabulary list**. No extras.
+
+---
+
+## Line-by-line translation
+
+**Mi történik akkor, amikor a harmadik félként beférkőzik a kapcsolatokba?**
+→ *What happens when a third party insinuates itself into relationships?*
+
+**Ilyennel találkoztatok-e már egyébként, amikor ez okozott kifejezetten problémát**
+→ *Have you ever encountered something like this, when it caused a specific problem*
+
+**a párkapcsolatban, konfliktust, hogy valahogy kicsatornázd az AI-nak a problémákat?**
+→ *in a romantic relationship, conflict, where you somehow channel the problems to AI?*
+
+---
+
+**– Szóval ezt pároknál például abban tud hasznos lenni, hogy segít megfogalmazni azt,**
+→ *So for couples, for example, it can be useful in helping to formulate*
+
+**amit én szeretnék mondani a páromnak, de én ezt nem a ChatGPT-vel fogom megbeszélni,**
+→ *what I want to say to my partner, but I’m not going to discuss this with ChatGPT,*
+
+**hanem azt, amit ő nekem segített megfogalmazni,**
+→ *rather, what it helped me put into words,*
+
+**azt visszaviszem a páromhoz, és vele beszélem meg.**
+→ *I take back to my partner and discuss it with them.*
+
+---
+
+**– Nagyon-nagyon fontos szerintem, amit mondasz, hogy úgy akarom használni, mint egy barátot,**
+→ *I think what you’re saying is very, very important: whether I want to use it like a friend,*
+
+**és akkor én most itt kiöntöm szívemet, lelkemet, kibeszéljük együtt a másikat,**
+→ *and then I pour out my heart and soul here, we talk the other person out together,*
+
+**és akkor érzelmileg ebbe a kapcsolatba invesztálok az AI-jal,**
+→ *and then I emotionally invest in this relationship with the AI,*
+
+---
+
+**vagy pedig tényleg használom, mint egy eszközt arra,**
+→ *or whether I truly use it as a tool*
+
+**hogy segítsen a kapcsolatnak az útvesztőiben egy kicsit eszközöket találni,**
+→ *to help the relationship find tools in its labyrinths,*
+
+**meg kapaszkodókat találni.**
+→ *and to find handholds, points of support.*
+
+---
+
+## Vocabulary (focused, high-value)
+
+* **harmadik fél** – third party
+* **beférkőzik** – insinuates itself, worms its way in
+* **párkapcsolat** – romantic relationship
+* **konfliktus** – conflict
+* **kicsatornázni** – to channel, redirect (metaphorical)
+* **megfogalmazni** – to put into words
+* **visszavisz** – to take back (to someone)
+* **kiönti a szívét-lelkét** – to pour one’s heart out
+* **kibeszélni (valakit)** – to talk someone out / talk about someone extensively
+* **érzelmileg invesztál** – to invest emotionally
+* **eszköz** – tool
+* **útvesztő** – maze, labyrinth (metaphorical)
+* **kapaszkodó** – handhold, support, anchor (figurative)
+
+If you want next time:
+
+* **tone-smoothed translation** (more natural spoken English), or
+* **frequency-ranked vocab only**, or
+* **contrast notes** (why Hungarians phrase this this way)
+
+Just say the word.
+
 
 -----
 
