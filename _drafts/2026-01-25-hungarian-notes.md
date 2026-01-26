@@ -135,16 +135,10 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT5Mz_SjJq8/)
 
-Perfect — same format as before.
-
----
-
 ## Line-by-line translation
 
 **„Csak még jobbat akarok magamnak. És ez egy valid ok!”**
 → *“I just want something better for myself. And that’s a valid reason!”*
-
----
 
 **Én végül nem azért jöttem el, mert utáltam az akkori munkahelyen,**
 → *In the end, I didn’t leave because I hated my workplace at the time,*
@@ -155,20 +149,14 @@ Perfect — same format as before.
 **vagy nem akartam embereket vezetni.**
 → *or because I didn’t want to manage people.*
 
----
-
 **Én azért jöttem el, mert valami mást jobban akartam.**
 → *I left because I wanted something else more.*
 
 **És ez egy valid ok.**
 → *And that’s a valid reason.*
 
----
-
 **Nem kell, tényleg nem kell, állandóan önmagunk ellen dönteni.**
 → *You don’t have to—truly, you don’t have to—constantly decide against yourself.*
-
----
 
 **Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen,**
 → *You can say that it doesn’t have to end*
@@ -179,12 +167,8 @@ Perfect — same format as before.
 **és nem tudom elviselni egy nappal sem tovább,**
 → *and I can’t endure it for even one more day,*
 
----
-
 **hanem mondhatom azt, hogy csak még jobbat akarok magamnak.**
 → *but instead I can say: I just want something better for myself.*
-
----
 
 ## Vocabulary (focused)
 
@@ -199,15 +183,6 @@ Perfect — same format as before.
 * **pokoli** – hellish
 * **tűrhetetlen** – unbearable
 * **elviselni** – to endure, tolerate
-
-If you want, next step could be:
-
-* a **more idiomatic English rewrite** (how a native would *say* this), or
-* a **contrast note** on *akartam* vs *szerettem volna*, or
-* a **tone analysis** (why this hits emotionally in Hungarian)
-
-Just tell me.
-
 
 -----
 
