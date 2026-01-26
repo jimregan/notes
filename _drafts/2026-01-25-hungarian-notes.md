@@ -671,7 +671,9 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT3dh-WDwcn/)
 
-Ha migránsok nincsenek, és valakinek takarítani kell az interszitina mostót,
-mert oda egyébként a magyar választó polgárok nem olyan nagy lendülete jelentkeznek, hogy másnak a szaros mostóját takarítsák,
-akkor föl kell tárni a belsőtartalékokat.
-És a belsőtartalék a magyarorszegi cigánságot jelenti.
+> Lázár tutira a Tiszának dolgozik. Ennyire ostoba nem lehet!
+
+Tehát ha migránsok nincsenek, és valakinek takarítani kell az InterCity-n a mosdót,
+mert oda egyébként a magyar választópolgárok nem olyan nagy lendülettei jelentkeznek, hogy másnak a szaros mosdóját takarítsák,
+akkor föl kell tárni a belső tartalékokat.
+És a belső tartalék a magyarorszegi cigányságot jelenti.
