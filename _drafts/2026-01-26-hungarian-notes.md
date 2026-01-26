@@ -825,10 +825,6 @@ categories: [hungarian, chatgpt, reels]
 
 [In the buffet](https://www.youtube.com/watch?v=yaP9zVJczg8)
 
-Sure — for this “büfében” learning-dialogue video, the **core is A1–A2 by design**, so I’m going to focus on (1) **what’s genuinely B1+**, plus (2) the **A2+ patterns** that are actually worth stealing.
-
----
-
 ## 1) B1+ vocabulary (from this subtitles set)
 
 ### Formal/legal-ish intro text
@@ -900,8 +896,6 @@ Sure — for this “büfében” learning-dialogue video, the **core is A1–A2
 * **figyelem** (köszönöm a figyelmet) – attention (formal closing)
 * **viszontlátásra** – goodbye (formal)
 
----
-
 ## 2) A2+ patterns (the good reusable ones)
 
 ### A) Treating someone / offering
@@ -959,10 +953,3 @@ Sure — for this “büfében” learning-dialogue video, the **core is A1–A2
 
 * **… miatt.**
   (e.g., **időeltolódás miatt**)
-
----
-
-If you want to make this maximally useful, tell me which direction you prefer:
-
-1. **“B1 survival kit”**: only the *top 20* words you’ll actually reuse outside this video, or
-2. **“B1 story mode”**: example sentences for each B1+ item using the cafeteria setting.
