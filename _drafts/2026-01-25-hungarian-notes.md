@@ -585,3 +585,14 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 * **szabad** (nem szabad) – allowed (not allowed)
 * **hinni valakinek** – to trust someone
 * **alkoholista** – alcoholic
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT2tVSNCP6N/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DT0FYiGDPZe/)
+
+Amikor nagyon rossz napod van és azzal vigasztal: De legalább itt vagyok neked én!
+Én: Na igen még az is.
