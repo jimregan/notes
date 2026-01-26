@@ -80,3 +80,8 @@ categories: [hungarian, chatgpt, reels]
 
 -----
 
+[Reel](https://www.instagram.com/reels/DS4MV2qFRKO/)
+
+-----
+
+[Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
