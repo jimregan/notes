@@ -267,10 +267,10 @@ Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy
 
 [Reel](https://www.instagram.com/reels/DT78tfljHxy/)
 
-A van problémát az alkoholla?
+A van problémád az alkohollal?
 Igen, minden nap iszom.
-Baszus, de miért nem szoksz le róla?
-Szeretnék róla lesz szokni.
+Baszus, de hát miért nem szólsz le róla?
+Szeretnék róla leszokni.
 Meg is igértem magamnak.
 És akkor miért nem teszed?
-Mert a szüleim azt mondták, hogy az alkollistáknak nem szabad hinni.
+Mert a szüleim azt mondták, hogy az alkoholistáknak nem szabad hinni.
