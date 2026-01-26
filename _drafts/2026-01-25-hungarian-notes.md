@@ -90,13 +90,15 @@ meg kapaszkodókat találni.
 
 [Reel](https://www.instagram.com/reels/DT5Mz_SjJq8/)
 
-Én végül nem azért jöttem el, mert utáltam az akkori munka helyen, meggyűlaltam ezt a munkakört,
+"Csak meg jobbat akarok magamnak. És ez egy valid ok!"
+
+Én végül nem azért jöttem el, *mert* utáltam az akkori munkahelyen, meg, *meggyúlöltem* ezt *a munkakört*,
 vagy nem akartam embereket vezetni.
-Én azért jöttem el, mert valami más jobban akartam, és ez egy valídók.
-Tehát hogy nem kell, tényleg nem kell állandon önmagunk ellendönteni.
-Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen, mert ez pokol és tűrhetetlán,
-és nem tudom elviselni egy napval sem tovább.
-Hanem mondhatom azt, hogy csak még jobbat akarok magamnak.
+Én azért jöttem el, mert valami mást jobban *akartam*. És ez egy *valid* ok.
+*Nem kell*, tényleg nem kell. *állandóan* önmagunk ellen dönteni.
+Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen, mert ez pokoli és *tűrhetetlen*,
+és nem tudom *elviselni* egy nappal sem tovább,
+hanem mondhatom azt, hogy csak még jobbat akarok *magamnak*.
 
 -----
 
