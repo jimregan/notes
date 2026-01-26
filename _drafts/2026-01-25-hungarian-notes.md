@@ -278,14 +278,86 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
 
-- Emiatt szokták azt megélni sokan a szeretői viszony mellett, hogy van egy ilyen átmeneti, nagyon, nagyon intenzíven boldog időszak,
-amikor egyszerre érzi azt, hogy az elsődleges kapcsolatában is ott van, meg a szeretői viszonyában is ott van
-és a kettő ad egy ilyen teljességet, mert ott van a stabilítás, a kiszámíthatóság, a monotónia, egyik oldalon
-másik oldalon meg a szenvedély, a kiszámíthatatlánság.
-- Meg amikor a pár, aki meg van csalva a megcsaló félt dicsérgeti, hogy milyen eleven vagy
-mostanában, milyen milyen energikus vagy, hogy nem puffogsz annyit. De jó, hogy tök jó. Mit csináltál?
-És így megy a mélyhallgatás. Elkezdtem jogázni. Keddenként.
-- Jó ez a jogatanár!
+Got it — **line-by-line translation + vocabulary list only**.
+
+---
+
+## Line-by-line translation
+
+**– Emiatt szokták azt megélni sokan a szeretői viszony mellett,**
+→ *Because of this, many people experience, alongside an affair,*
+
+**hogy van egy ilyen átmeneti, nagyon, nagyon intenzíven boldog időszak,**
+→ *that there is a kind of transitional period that is very, very intensely happy,*
+
+**amikor egyszerre érzi azt, hogy az elsődleges kapcsolatában is ott van,**
+→ *when they feel at the same time that they are still present in their primary relationship,*
+
+**meg a szeretői viszonyában is ott van**
+→ *and also present in their affair,*
+
+**és a kettő ad egy ilyen teljességet,**
+→ *and the two together give a kind of completeness,*
+
+**mert ott van a stabilitás, a kiszámíthatóság, a monotónia, egyik oldalon**
+→ *because on one side there is stability, predictability, monotony,*
+
+**másik oldalon meg a szenvedély, a kiszámíthatatlanság.**
+→ *and on the other side there is passion and unpredictability.*
+
+---
+
+**– Meg amikor a pár, aki meg van csalva,**
+→ *– And when the partner who is being cheated on*
+
+**a megcsaló felet dicsérgeti,**
+→ *keeps praising the cheating partner,*
+
+**hogy milyen eleven vagy mostanában,**
+→ *saying how lively you are lately,*
+
+**milyen energikus vagy, hogy nem puffogsz annyit.**
+→ *how energetic you are, how you don’t snap or sulk as much.*
+
+**De jó, hogy tök jó. Mit csináltál?**
+→ *That’s great, that’s really good. What did you do?*
+
+**És így megy a mélyhallgatás.**
+→ *And that’s when the deep silence begins.*
+
+**Elkezdtem jógázni. Keddenként.**
+→ *I started doing yoga. On Tuesdays.*
+
+**– Jó ez a jógatanár!**
+→ *– That yoga instructor must be good!*
+
+---
+
+## Vocabulary (key items)
+
+* **emiatt** – because of this
+* **megél (valamit)** – to experience (emotionally)
+* **szeretői viszony** – affair, extramarital relationship
+* **átmeneti** – transitional, temporary
+* **intenzíven** – intensely
+* **elsődleges kapcsolat** – primary relationship
+* **teljesség** – completeness, wholeness
+* **stabilitás** – stability
+* **kiszámíthatóság** – predictability
+* **monotónia** – monotony
+* **szenvedély** – passion
+* **kiszámíthatatlanság** – unpredictability
+* **meg van csalva** – is being cheated on
+* **megcsaló fél** – the cheating party
+* **dicsérget** – to keep praising
+* **eleven** – lively, full of life
+* **puffog** – to sulk, snap, be irritable (colloquial)
+* **mélyhallgatás** – complete silence, deliberate non-disclosure
+* **jógázni** – to do yoga
+* **jógatanár** – yoga instructor
+
+If you want, next time I can also **flag irony, euphemisms, and pragmatic subtext** (like *“jó ez a jógatanár”*), but I’ll only do that if you ask.
+
 
 -----
 
