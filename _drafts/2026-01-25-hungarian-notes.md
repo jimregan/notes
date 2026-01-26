@@ -266,3 +266,11 @@ Timit gondoltok az ügyről, írjátok meg kommentben, és ne felejtsétek, hogy
 -----
 
 [Reel](https://www.instagram.com/reels/DT78tfljHxy/)
+
+[00:00.000 --> 00:01.440]  A van problémát az alkoholla?
+[00:01.440 --> 00:03.040]  Igen, minden nap iszom.
+[00:03.040 --> 00:04.720]  Baszus, de miért nem szoksz le róla?
+[00:04.720 --> 00:06.240]  Szeretnék róla lesz szokni.
+[00:06.240 --> 00:07.760]  Meg is igértem magamnak.
+[00:07.760 --> 00:09.120]  És akkor miért nem teszed?
+[00:09.120 --> 00:12.480]  Mert a szüleim azt mondták, hogy az alkollistáknak nem szabad hinni.
