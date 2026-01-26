@@ -143,6 +143,11 @@ Egyébként jó gyerek voltál!
 
 [Reel](https://www.instagram.com/reels/DT5xhGsCHYM/)
 
+[00:00.000 --> 00:07.800]  Jézus Kristus csatlakozott a Tiszapárt hoz. A korábban elítelt szektavezérés kurus ló a Tiszapárt újonnan leigazolt messiása.
+[00:07.800 --> 00:13.000]  A hatóságok tájékoztatása szerint Jézus nem rendelkezett sajtóengedéj el a hegyi beszéthez.
+[00:13.000 --> 00:19.800]  A szakértők szerint különösen aggályos, hogy Jézus tömegeketetett két halból, ami súlyosan sérti a tisztességes piaci verseny.
+[00:19.800 --> 00:28.400]  Vizenjárásával kiátszotta az útdíffizetési rendszert, feltámadásával pedig befolyásolta a halálozási adatokat, félrevezetve a statistikai hivatalt.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DT5W1i4DOr8/)
