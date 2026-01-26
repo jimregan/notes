@@ -90,6 +90,14 @@ meg kapaszkodókat találni.
 
 [Reel](https://www.instagram.com/reels/DT5Mz_SjJq8/)
 
+[00:00.000 --> 00:05.660]  Én végül nem azért jöttem el, mert utáltam az akkori munka helyen, meggyűlaltam ezt a munkakört,
+[00:05.660 --> 00:08.060]  vagy nem akartam embereket vezetni.
+[00:08.060 --> 00:13.880]  Én azért jöttem el, mert valami más jobban akartam, és ez egy valídók.
+[00:13.880 --> 00:21.080]  Tehát hogy nem kell, tényleg nem kell állandon önmagunk ellendönteni.
+[00:21.080 --> 00:26.680]  Lehet azt mondani, hogy nem azért kell, hogy ennek vége legyen, mert ez pokol és tűrhetetlán,
+[00:26.680 --> 00:29.360]  és nem tudom elviselni egy napval sem tovább.
+[00:29.360 --> 00:33.880]  Hanem mondhatom azt, hogy csak még jobbat akarok magamnak.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DS4MV2qFRKO/)
