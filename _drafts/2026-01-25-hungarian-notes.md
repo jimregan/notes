@@ -114,6 +114,16 @@ nem szabad, kerülde, ne csináld, nem, nem jó.
 
 [Reel](https://www.instagram.com/reels/DSmKxqtkzTp/)
 
+[00:00.000 --> 00:08.360]  Emiatt szokták azt meg ilyen is sokan a szeretői viszony mellett, hogy van egy ilyen átmeleti, nagyon intenszíven boldog időszak,
+[00:08.360 --> 00:13.920]  amikor egyszer a jelzé azt, hogy az elsődleges kapcsolatában is ott van, meg a szeretői viszonyában is ott van,
+[00:13.920 --> 00:20.680]  és kettő ad egy ilyen teljeséget, mert ott van a stabilítás, a kiszámíthatóság, a monotónia, egyik oldalon,
+[00:20.680 --> 00:23.520]  másik oldalon meg a szemvedélyek, a kiszámíthatláság.
+[00:23.520 --> 00:28.680]  Meg amikor a pár aki megvan csalvaz, a megcsalófél, a dicsérgeti, egy ilyen elevem vagy,
+[00:28.680 --> 00:34.400]  mostanában milyen energikus vagy, hogy nem pufogsz annyit sokkal, de jó vagy, de jó, mit csináltál?
+[00:34.400 --> 00:40.360]  És így megy a mélye hallgatás. Elkezdtem jogázni. Keddenként jó.
+[00:40.360 --> 00:41.480]  Úgyhogy ez a jogatanás.
+[00:41.480 --> 00:42.080]  Igen, igen.
+
 -----
 
 [Reel](https://www.instagram.com/reels/DR9LpmAj6f2/)
