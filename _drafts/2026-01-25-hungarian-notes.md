@@ -720,23 +720,24 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT95YKXCHGl/)
 
-Ha Farisnást tőlt filmet az emozsikból, akkor téged ezt az Istanipattályban, ne vagy?
-Persze nyomjuk.
-Jó, hát az első gondolom Harry Potter találni.
+Ha felismersz öt filmet az emojikból, akkor tiéd ez az isteni Pad Thai benne vagy?
+Persze nyomjuk!
+Jó, hát az első gondolom Harry Potter talán.
 Nagyon jó.
-Ársadik Titanic.
-Égen.
-Az gondolom 3. Terminátor.
-Nagyon jó, vagy jó.
-Nagyon jó, hogy igen.
-4. az talán a Ghostbusters.
+A masodik Titanic.
+Igen.
+Azt gondolom a harmadik Terminátor.
+Nagyon jó vagy!
+Jó, jó, kiraly
+Nagyon jó, igen!
+A negyedik az talán a Ghostbusters.
 Igen, igen.
-Jó, na már csak egyet.
-És gondolom Batman vagy valamit.
-Nagyon ügyel, nagyon ügyes vagy.
-Gratszulálom, téged az Istanipattály.
-Köszönöm szépen.
-Érne, kommentben tányatuk lábvala.
+Na már csak egyet
+és gondolom Batman vagy valami
+nagyon ügyes!
+Gratulálunk, tiéd ez az isteni pad thai.
+írd meg kommentben te hányat tudtál volna
+Ha pedig kipróbálnád különleges ázsia ételeinket várunk országszerte a Buddha originalban
 
 -----
 
