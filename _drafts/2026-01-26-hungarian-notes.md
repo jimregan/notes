@@ -378,3 +378,163 @@ categories: [hungarian, chatgpt, reels]
 
 [Ep 122](https://www.youtube.com/watch?v=11iDrfwBV04) --- Painful Truth about Language Learning
 
+Absolutely — here’s **(1) B1+ vocabulary** from *this* subtitle set, and **(2) A2+ patterns** (A2→B1 structures you can reuse immediately). I’m excluding obvious A1–A2 basics.
+
+---
+
+## 1) B1+ vocabulary from the subtitles
+
+### Learning / effort / progress
+
+* **fájdalmas** – painful
+* **igazság** – truth
+* **beismer** – admit
+* **elfogad** – accept
+* **fejlődés** – progress/development
+* **fejlődni** – to improve
+* **megerőltet** – to strain / push oneself
+* **fejtörés** – “head-scratching”, mental effort
+* **kényelmetlen** – uncomfortable
+* **türelmes** – patient
+* **nyereség** – gain/profit
+* **előre visz** – move you forward (figurative)
+* **koncentráció** – concentration
+* **szellemi munka** – mental work
+* **memorizálás** – memorisation
+* **gyakorlatban** – in practice
+* **folyamatos** – continuous
+* **rendszeresen** – regularly
+* **folyamatos tanulás** – sustained learning
+
+### Motivation / goals / psychology
+
+* **kulcs (a sikerhez)** – key (to success)
+* **siker** – success
+* **csoda** – miracle (as “quick results”)
+* **változás** – change
+* **reménykedik** – to hope
+* **titok** – secret
+* **prioritás** – priority
+* **időszakosan** – temporarily / in phases
+* **kialakít (egy rendszert)** – develop/establish (a system)
+* **megbán** – regret
+* **motiváció** – motivation
+* **vizualizál** – visualise
+* **részletes** – detailed
+* **szerencsés** – lucky
+* **nyelvérzék** – language aptitude
+* **tehetséges** – talented
+* **önbizalom** – self-confidence
+* **önbizalmat épít** – build confidence
+* **bizonyíték** – evidence
+* **stratégia** – strategy
+* **felépít** – build (abstractly)
+
+### Social / communication / real-life use
+
+* **részt venni (vmiben)** – take part (in)
+* **visszakérdez** – ask back / follow up with a question
+* **pincér** – waiter
+* **beszélgetés** (abstract participation sense) – conversation
+* **kezdeményez** – initiate
+* **small talk** – small talk
+* **kasszás** – cashier
+* **improvizál** – improvise
+* **realitás** – reality
+* **elérhetetlen** – unattainable
+* **elérhető** – achievable
+
+### “Meta” language-learning ecosystem
+
+* **edukációs kontent** – educational content
+* **social média** – social media
+* **nyomkod (telefont)** – tap/press (your phone)
+* **görgetés** – scrolling
+* **módszer** – method
+* **ötlet** – idea (B1-ish in abstract “approach” sense)
+* **kipróbál** – try out
+* **kitapasztal** – figure out by trying
+* **beválik** – work out / prove effective
+* **leirat** – transcript
+* **kiír (szót)** – write out/extract
+* **nyelvcsere partner** – language exchange partner
+* **nyelvtani forma** – grammatical form
+* **szintek szerint** – by levels
+* **releváns** – relevant
+
+### Fitness metaphor vocabulary (useful, but not core)
+
+* **edzés** – workout/training
+* **súlyzó** – dumbbell
+* **súly** – weight
+* **maraton** – marathon
+
+---
+
+## 2) A2+ patterns (reusable structures from this episode)
+
+### A) “It’s hard to admit/accept that…”
+
+* **Nehéz beismerni, hogy…**
+* **Nehéz elfogadni, hogy…**
+
+### B) “If you want to…, you have to…”
+
+* **Ha ___ szeretnél, akkor ___ kell.**
+  (Ha fejlődni szeretnél, meg kell erőltetni magad.)
+* **Ahhoz, hogy ___, ___ kell.**
+  (Ahhoz tényleg tenni is kell valamit.)
+
+### C) “It won’t work otherwise”
+
+* **Máshogy nem fog menni.**
+* **Úgy nem lehet ___, ha ___.**
+  (Úgy nem lehet elérni semmit, ha nem fáj egy kicsit.)
+
+### D) “Over time / with practice”
+
+* **Idővel + V**
+* **Gyakorlással + V**
+  (Idővel… elmúlik. / Ezt csak gyakorlással lehet elérni.)
+
+### E) Comparatives (A2+ → B1)
+
+* **sokkal + melléknév**
+  (sokkal jobban hangzik)
+* **sokkal kisebb, mint…**
+* **egyre + melléknév**
+  (egyre jobban fog menni)
+
+### F) “It’s not because…, but because…”
+
+* **Nem azért ___, mert ___, hanem mert ___.**
+  (Nem azért sikeres…, mert…, hanem mert…)
+
+### G) “The more…, the more…”
+
+* **Minél többször ___, annál ___bb ___.**
+  (Minél többször csinálod, annál nagyobb lesz az önbizalmad.)
+
+### H) “It turns out / it becomes clear that…”
+
+* **Az is kiderül, hogy…**
+* **Lehet, hogy kiderül, hogy…**
+
+### I) “You can draw conclusions”
+
+* **le lehet vonni következtetéseket (abból, hogy…)**
+* **meg lehet nézni + tárgy**
+  (meg lehet nézni a táblázatot)
+
+### J) “Don’t bother with others / listen to yourself”
+
+* **Ne foglalkozz ___-val/-vel.**
+* **Hallgass magadra.**
+* **Döntsd el, hogy…**
+
+---
+
+If you want the same output as before, I can also flag:
+
+* **B2-ish** items (e.g., *kitapasztalni, beválik, következtetéseket levonni*),
+* and make a **topic-sorted list** (mindset / systems / confidence / tracking progress).
