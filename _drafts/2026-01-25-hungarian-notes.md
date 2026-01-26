@@ -719,3 +719,21 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 -----
 
 [Reel](https://www.instagram.com/reels/DT95YKXCHGl/)
+
+[00:00.000 --> 00:03.760]  Ha Farisnást tőlt filmet az emozsikból, akkor téged ezt az Istanipattályban, ne vagy?
+[00:03.760 --> 00:04.520]  Persze nyomjuk.
+[00:05.520 --> 00:08.160]  Jó, hát az első gondolom Harry Potter találni.
+[00:08.160 --> 00:08.840]  Nagyon jó.
+[00:08.840 --> 00:10.280]  Ársadik Titanic.
+[00:10.280 --> 00:10.840]  Égen.
+[00:10.840 --> 00:13.040]  Az gondolom 3. Terminátor.
+[00:13.040 --> 00:14.640]  Nagyon jó, vagy jó.
+[00:14.640 --> 00:15.760]  Nagyon jó, hogy igen.
+[00:15.760 --> 00:18.440]  4. az talán a Ghostbusters.
+[00:18.440 --> 00:19.560]  Igen, igen.
+[00:19.560 --> 00:20.560]  Jó, na már csak egyet.
+[00:20.560 --> 00:21.960]  És gondolom Batman vagy valamit.
+[00:21.960 --> 00:23.680]  Nagyon ügyel, nagyon ügyes vagy.
+[00:23.680 --> 00:25.440]  Gratszulálom, téged az Istanipattály.
+[00:25.440 --> 00:26.360]  Köszönöm szépen.
+[00:26.360 --> 00:28.520]  Érne, kommentben tányatuk lábvala.
