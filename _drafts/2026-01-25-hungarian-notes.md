@@ -188,21 +188,98 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DS4MV2qFRKO/)
 
-- Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,
-hogy mit tanultam, vagy mit hallottam az org**musról, hogy szabad-e ilyet,
-vagy ésetleg azt tanítottak nekem, hogy egy jó kislány az nem sze**l.
-Tehát, hogy ezt a kur**k csinálják, és azok, akik tehát amilyen te
-nem szeretnél lenni, mert azokat megvetjük.
-- Nem élvezzük.
-- Igen, nem élvezzük. Egy egy igazi nő, egy egy valamirevaló nő.
-Egy asszony nem élvezi a sze*xet, azt csak adja a férjének.
-- Szerintem sok anya és család mondja azt a fiatal lányoknak,
-tini lányoknak, az a retorika, az a kommunikáció. Teherbe ne ess ennyi idősen,
-és ezt hallod, védekezzetek, teherbe ne ess. És egy olyan dolog kapcsolunk
-a várandósággal, hogy az egy tiltott dolog, azt meg ne tedd. De ez nem az.
-Mindig hozzátesszük, hogy ja, majd persze, amikor már férjed van,
-de ez nem ez a lényeg. Kapsz egy olyan impulzust, hogy tilos,
-nem szabad! Kerüld el! Ne csináld! Nem, nem jó.
+Understood — **line-by-line translation + extracted vocabulary only**.
+
+---
+
+## Line-by-line translation
+
+**– Ha a bűntudat már felmerül, akkor az valószínűleg valahonnan egy hozott érzés,**
+→ *If guilt already comes up, then it’s probably a feeling that comes from somewhere else,*
+
+**hogy mit tanultam, vagy mit hallottam az orgazmusról, hogy szabad-e ilyet,**
+→ *from what I learned or heard about orgasm, about whether something like that is allowed,*
+
+**vagy esetleg azt tanították nekem, hogy egy jó kislány az nem szexel.**
+→ *or maybe I was taught that a “good girl” doesn’t have sex.*
+
+**Tehát, hogy ezt a kurvák csinálják, és azok, akik tehát amilyen te**
+→ *So that this is what “whores” do, and those people—*
+
+**nem szeretnél lenni, mert azokat megvetjük.**
+→ *the kind you don’t want to be, because we despise them.*
+
+**– Nem élvezzük.**
+→ *– We don’t enjoy it.*
+
+**– Igen, nem élvezzük. Egy igazi nő, egy valamirevaló nő.**
+→ *– Yes, we don’t enjoy it. A real woman, a respectable woman.*
+
+**Egy asszony nem élvezi a szexet, azt csak adja a férjének.**
+→ *A wife doesn’t enjoy sex; she only gives it to her husband.*
+
+**– Szerintem sok anya és család mondja azt a fiatal lányoknak,**
+→ *– I think many mothers and families tell young girls,*
+
+**tini lányoknak, az a retorika, az a kommunikáció.**
+→ *teenage girls—that’s the rhetoric, that’s the communication.*
+
+**Teherbe ne ess ennyi idősen,**
+→ *Don’t get pregnant at this age,*
+
+**és ezt hallod, védekezzetek, teherbe ne ess.**
+→ *and that’s what you hear: protect yourselves, don’t get pregnant.*
+
+**És egy olyan dolgot kapcsolunk a várandóssághoz,**
+→ *And we associate pregnancy with something*
+
+**hogy az egy tiltott dolog, azt meg ne tedd.**
+→ *that is forbidden, something you must not do.*
+
+**De ez nem az.**
+→ *But it isn’t.*
+
+**Mindig hozzátesszük, hogy ja, majd persze, amikor már férjed van,**
+→ *We always add: oh yes, of course, when you already have a husband,*
+
+**de ez nem ez a lényeg.**
+→ *but that’s not the point.*
+
+**Kapsz egy olyan impulzust, hogy tilos, nem szabad!**
+→ *You receive an impulse that it’s forbidden, it’s not allowed!*
+
+**Kerüld el! Ne csináld! Nem, nem jó.**
+→ *Avoid it! Don’t do it! No, it’s not good.*
+
+---
+
+## Vocabulary (key items)
+
+* **bűntudat** – guilt
+* **felmerül** – comes up, arises
+* **hozott érzés** – learned / internalized feeling
+* **orgazmus** – orgasm
+* **szabad-e** – is it allowed
+* **jó kislány** – good girl
+* **szexel** – to have sex (informal)
+* **kurva** – whore (derogatory)
+* **megvet** – to despise
+* **élvez** – to enjoy
+* **valamirevaló** – respectable, decent
+* **asszony** – wife, married woman
+* **retorika** – rhetoric
+* **kommunikáció** – communication
+* **teherbe esik** – to get pregnant
+* **védekezni** – to use protection
+* **várandósság** – pregnancy
+* **tiltott** – forbidden
+* **lényeg** – point, essence
+* **impulzus** – impulse
+* **nem szabad** – not allowed
+* **kerül** / **kerüld el** – to avoid
+
+If you want the **register breakdown** (what’s colloquial, moralizing, quoted ideology vs speaker stance), or a **cleaned Hungarian transcript**, say the word.
+
 
 -----
 
