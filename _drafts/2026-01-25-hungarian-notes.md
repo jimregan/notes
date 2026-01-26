@@ -720,24 +720,95 @@ Understood — **line-by-line translation + extracted vocabulary only**.
 
 [Reel](https://www.instagram.com/reels/DT95YKXCHGl/)
 
-Ha felismersz öt filmet az emojikból, akkor tiéd ez az isteni Pad Thai benne vagy?
-Persze nyomjuk!
-Jó, hát az első gondolom Harry Potter talán.
-Nagyon jó.
-A masodik Titanic.
-Igen.
-Azt gondolom a harmadik Terminátor.
-Nagyon jó vagy!
-Jó, jó, kiraly
-Nagyon jó, igen!
-A negyedik az talán a Ghostbusters.
-Igen, igen.
-Na már csak egyet
-és gondolom Batman vagy valami
-nagyon ügyes!
-Gratulálunk, tiéd ez az isteni pad thai.
-írd meg kommentben te hányat tudtál volna
-Ha pedig kipróbálnád különleges ázsia ételeinket várunk országszerte a Buddha originalban
+Got it — **exactly the format you want**:
+**line-by-line translation + extracted vocabulary**, no extras.
+
+---
+
+## Line-by-line translation
+
+**Ha felismersz öt filmet az emojikból, akkor tiéd ez az isteni Pad Thai, benne vagy?**
+→ *If you recognise five movies from the emojis, then this divine Pad Thai is yours — are you in?*
+
+**Persze, nyomjuk!**
+→ *Sure, let’s do it!*
+
+**Jó, hát az első gondolom Harry Potter talán.**
+→ *Okay, well the first one I guess is Harry Potter, maybe.*
+
+**Nagyon jó.**
+→ *Very good.*
+
+**A második Titanic.**
+→ *The second one is Titanic.*
+
+**Igen.**
+→ *Yes.*
+
+**Azt gondolom a harmadik Terminátor.**
+→ *I think the third one is Terminator.*
+
+**Nagyon jó vagy!**
+→ *You’re really good!*
+
+**Jó, jó, király.**
+→ *Alright, alright, awesome.*
+
+**Nagyon jó, igen!**
+→ *Very good, yes!*
+
+**A negyedik az talán a Ghostbusters.**
+→ *The fourth one is maybe Ghostbusters.*
+
+**Igen, igen.**
+→ *Yes, yes.*
+
+**Na, már csak egyet.**
+→ *Alright, only one left.*
+
+**És gondolom Batman vagy valami.**
+→ *And I guess Batman or something.*
+
+**Nagyon ügyes!**
+→ *Very clever! / Nicely done!*
+
+**Gratulálunk, tiéd ez az isteni Pad Thai.**
+→ *Congratulations, this divine Pad Thai is yours.*
+
+**Írd meg kommentben, te hányat tudtál volna.**
+→ *Write in the comments how many you would have known.*
+
+**Ha pedig kipróbálnád különleges ázsiai ételeinket, várunk országszerte a Buddha Originalban.**
+→ *And if you’d like to try our special Asian dishes, we’re waiting for you nationwide at Buddha Original.*
+
+---
+
+## Vocabulary (extracted)
+
+* **felismer** – to recognise
+* **emoji(k)** – emojis
+* **tiéd** – yours
+* **isteni** – divine, amazing (colloquial praise)
+* **benne vagy?** – are you in?
+* **nyomjuk!** – let’s go / let’s do it
+* **gondolom** – I suppose / I guess
+* **talán** – maybe
+* **nagyon jó vagy!** – you’re really good at this
+* **király** – cool, awesome
+* **már csak** – only … left
+* **ügyes** – clever, skillful
+* **gratulálunk** – congratulations
+* **írd meg kommentben** – write it in the comments
+* **kipróbálnád** – would you try
+* **különleges** – special
+* **országszerte** – nationwide
+* **várunk** – we’re waiting for you / we welcome you
+
+If you want next:
+
+* frequency ranking (which of these are *daily Hungarian*),
+* slang equivalents in Polish / English,
+* or trimming this down into **Anki-ready cards**.
 
 -----
 
