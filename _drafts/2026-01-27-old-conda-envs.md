@@ -12995,7 +12995,7 @@ prefix: /home/joregan/miniconda3
 
 ### allosaurus
 
-` Sep 30  2024 allosaurus`
+`Sep 30  2024 allosaurus`
 
 ```yaml
 name: allosaurus
@@ -13056,7 +13056,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/allosaurus
 
 ### ctcaligner
 
-` Oct 25  2024 ctcaligner`
+`Oct 25  2024 ctcaligner`
 
 ```yaml
 name: ctcaligner
@@ -13086,7 +13086,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/ctcaligner
 
 ### ctcseg
 
-` Jan 26 13:39 ctcseg`
+`Jan 26 13:39 ctcseg`
 
 ```yaml
 name: ctcseg
@@ -13263,7 +13263,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/ctcseg
 
 ### dsalign
 
-` Aug  7  2023 dsalign`
+`Aug  7  2023 dsalign`
 
 ```yaml
 name: dsalign
@@ -13324,7 +13324,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/dsalign
 
 ### euporia
 
-` Aug 10  2024 euporia`
+`Aug 10  2024 euporia`
 
 ```yaml
 name: euporia
@@ -13445,7 +13445,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/euporia
 
 ### g2p_env
 
-` Sep 19  2024 g2p_env`
+`Sep 19  2024 g2p_env`
 
 ```yaml
 name: g2p_env
@@ -13762,7 +13762,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/g2p_env
 
 ### hf
 
-` Jan 20 16:35 hf`
+`Jan 20 16:35 hf`
 
 ```yaml
 name: hf
@@ -13986,7 +13986,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/hf
 
 ### hf_new
 
-` Dec 18 16:32 hf_new`
+`Dec 18 16:32 hf_new`
 
 ```yaml
 name: hf_new
@@ -14095,7 +14095,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/hf_new
 
 ### hunspell
 
-` Oct 22 16:11 hunspell`
+`Oct 22 16:11 hunspell`
 
 ```yaml
 name: hunspell
@@ -14183,7 +14183,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/hunspell
 
 ### jupyterlab
 
-` Jan 29  2025 jupyterlab`
+`Jan 29  2025 jupyterlab`
 
 ```yaml
 name: jupyterlab
@@ -14480,7 +14480,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/jupyterlab
 
 ### labelstudio
 
-` Sep 17  2024 labelstudio`
+`Sep 17  2024 labelstudio`
 
 ```yaml
 name: labelstudio
@@ -14630,7 +14630,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/labelstudio
 
 ### lhotse
 
-` Oct 30  2023 lhotse`
+`Oct 30  2023 lhotse`
 
 ```yaml
 name: lhotse
@@ -14686,7 +14686,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/lhotse
 
 ### magiutils
 
-` Aug  4  2024 magiutils`
+`Aug  4  2024 magiutils`
 
 ```yaml
 name: magiutils
@@ -14720,7 +14720,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/magiutils
 
 ### match-ttsg
 
-` Sep  4  2024 match-ttsg`
+`Sep  4  2024 match-ttsg`
 
 ```yaml
 name: match-ttsg
@@ -14750,7 +14750,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/match-ttsg
 
 ### matcha-tts
 
-` Nov 22  2023 matcha-tts`
+`Nov 22  2023 matcha-tts`
 
 ```yaml
 name: matcha-tts
@@ -15019,7 +15019,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/matcha-tts
 
 ### mfa-dev
 
-` Aug  3  2024 mfa-dev`
+`Aug  3  2024 mfa-dev`
 
 ```yaml
 name: mfa-dev
@@ -15292,7 +15292,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/mfa-dev
 
 ### nst-tts
 
-` Jan 21 16:09 nst-tts`
+`Jan 21 16:09 nst-tts`
 
 ```yaml
 name: nst-tts
@@ -15528,7 +15528,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/nst-tts
 
 ### openfst
 
-` May  7  2025 openfst`
+`May  7  2025 openfst`
 
 ```yaml
 name: openfst
@@ -15608,7 +15608,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/openfst
 
 ### phonemizer
 
-` Sep  5  2024 phonemizer`
+`Sep  5  2024 phonemizer`
 
 ```yaml
 name: phonemizer
@@ -15744,7 +15744,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/phonemizer
 
 ### phonetisaurus
 
-` Aug 31  2024 phonetisaurus`
+`Aug 31  2024 phonetisaurus`
 
 ```yaml
 name: phonetisaurus
@@ -15774,7 +15774,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/phonetisaurus
 
 ### poppler
 
-` Mar 14  2023 poppler`
+`Mar 14  2023 poppler`
 
 ```yaml
 name: poppler
@@ -15842,7 +15842,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/poppler
 
 ### ps_pl
 
-` Jan 21 15:58 ps_pl`
+`Jan 21 15:58 ps_pl`
 
 ```yaml
 name: ps_pl
@@ -15992,7 +15992,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/ps_pl
 
 ### pywb
 
-` Dec 18 16:32 pywb`
+`Dec 18 16:32 pywb`
 
 ```yaml
 name: pywb
@@ -16109,7 +16109,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/pywb
 
 ### signal-export
 
-` Jan 30  2023 signal-export`
+`Jan 30  2023 signal-export`
 
 ```yaml
 name: signal-export
@@ -16152,7 +16152,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/signal-export
 
 ### stanza
 
-` May 17  2025 stanza`
+`May 17  2025 stanza`
 
 ```yaml
 name: stanza
@@ -16246,7 +16246,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/stanza
 
 ### syncasr
 
-` Dec 18 16:32 syncasr`
+`Dec 18 16:32 syncasr`
 
 ```yaml
 name: syncasr
@@ -16336,7 +16336,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/syncasr
 
 ### torchaudio
 
-` Dec 14  2023 torchaudio`
+`Dec 14  2023 torchaudio`
 
 ```yaml
 name: torchaudio
@@ -16501,7 +16501,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/torchaudio
 
 ### udpipe
 
-` Nov 16  2024 udpipe`
+`Nov 16  2024 udpipe`
 
 ```yaml
 name: udpipe
@@ -16532,7 +16532,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/udpipe
 
 ### vosk
 
-` Jul 24  2024 vosk`
+`Jul 24  2024 vosk`
 
 ```yaml
 name: vosk
@@ -16573,7 +16573,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/vosk
 
 ### vtt
 
-` Oct 16  2024 vtt`
+`Oct 16  2024 vtt`
 
 ```yaml
 name: vtt
@@ -16586,7 +16586,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/vtt
 
 ### waxholm
 
-` Mar  8  2024 waxholm`
+`Mar  8  2024 waxholm`
 
 ```yaml
 name: waxholm
@@ -16676,7 +16676,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/waxholm
 
 ### whatsapp
 
-` Jan  4  2024 whatsapp`
+`Jan  4  2024 whatsapp`
 
 ```yaml
 name: whatsapp
@@ -16714,7 +16714,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/whatsapp
 
 ### whisper
 
-` Sep 23  2022 whisper`
+`Sep 23  2022 whisper`
 
 ```yaml
 name: whisper
@@ -16770,7 +16770,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/whisper
 
 ### xfm
 
-` Dec 15  2023 xfm`
+`Dec 15  2023 xfm`
 
 ```yaml
 name: xfm
@@ -16916,7 +16916,7 @@ prefix: /Users/joregan/opt/anaconda3/envs/xfm
 
 ### ytdl
 
-` Feb 21  2023 ytdl`
+`Feb 21  2023 ytdl`
 
 ```yaml
 name: ytdl
