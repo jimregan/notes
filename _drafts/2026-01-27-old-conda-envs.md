@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 layout: post
 hidden: true
 description: Old conda environments cleanup notes
