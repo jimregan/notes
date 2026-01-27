@@ -1,0 +1,4 @@
+name: tscr
+channels:
+  - defaults
+prefix: /home/joregan/miniconda3/envs/tscr
