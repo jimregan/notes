@@ -1,0 +1,1168 @@
+import json
+with open("[download] Downloading video 9 of 23
+[youtube] zr3Ofv-1H_4: Downloading webpage
+[youtube] zr3Ofv-1H_4: Downloading MPD manifest
+[download] Destination: zr3Ofv-1H_4.mp4
+with open("H4C320170201SfU8") as jsonfile:
+	json.load(jsonfile)
+with open("H4C320170201SfU8") as jsonfile:
+	api=json.load(jsonfile)
+api
+api['videodata']
+api['videodata']['streams']
+api['videodata'][0]['streams']
+api['videodata'][0]['streams'][0]
+api['videodata'][0]['streams']['files']
+api['videodata'][0]['streams']['files'][0]
+for video_link in api['videodata'][0]['streams']['files'][0]:
+	if video_link['name'] == 'Hög kvalitet':
+		url = video_link['url']
+for video_link in api['videodata'][0]['streams']['files']:
+	if video_link['name'] == 'Hög kvalitet':
+		url = video_link['url']
+ api['videodata'][0]['streams']['files'][0]
+api['videodata'][0]['streams']['files'][0]
+api['videodata'][0]['streams']['files'][0]['bandwidth']
+api['videodata'][0]['streams']['files'][0]['bandwidth'][0]
+for video_link in api['videodata'][0]['streams']['files'][0]['bandwidth']:
+	if video_link['name'] == 'Hög kvalitet':
+		url = video_link['url']
+url
+for video_link in api['videodata'][0]['streams']['files'][0]['bandwidth']:
+	if video_link['name'] == 'Hög kvalitet':
+		url = video_link['downloadurl']
+url
+len(api['videodata'][0])
+len(api['videodata'])
+4 == True
+5 == 5 > 1
+5 == 5 > 2
+5 == 5 > 7
+(5 == 5) > 7
+5 == (5 > 7)
+(5 == 5) > 1
+5 == (5 > 1)
+5 == 4 > 1
+from datasets import load_dataset
+timit = load_dataset("timit_asr")
+from datasets import load_dataset
+timit = load_dataset("timit_asr")
+timit
+timit["train"][0]["audio"]
+import ffmpeg
+import json
+import requests
+cc_by = []
+other = []
+retry = []
+seen = []
+lic = '"Creative Commons Attribution licence (reuse allowed)"'
+def inner(cur_id):
+    if cur_id in seen:
+        return
+    req = requests.get(f"https://www.youtube.com/watch?v={cur_id}")
+    if req.status_code != 200:
+        retry.append(cur_id)
+    if lic in req.text:
+        cc_by.append(cur_id)
+    else:
+        other.append(cur_id)
+    seen.append(cur_id)
+with open("pl_videos.json") as pl_videos:
+    for line in pl_videos.readlines():
+        line_data = json.loads(line.strip())
+        inner(line_data['id'])
+with open("uploads.json") as pl_videos:
+    for line in pl_videos.readlines():
+        line_data = json.loads(line.strip())
+with open("pl_videos.json") as pl_videos:
+    for line in pl_videos.readlines():
+        line_data = json.loads(line.strip())
+        inner(line_data['id'])
+with open("uploads.json") as pl_videos:
+    for line in pl_videos.readlines():
+        line_data = json.loads(line.strip())
+        inner(line_data['id'])
+with open('proc.json', 'w') as outfile:
+    json.dump({'cc-by': cc_by, 'other': other, 'retry': retry}, outfile)
+lic = 'Creative Commons Attribution licence (reuse allowed)'
+line_data = []
+with open("pl_videos.json") as pl_videos:
+    for line in pl_videos.readlines():
+        line_data = json.loads(line.strip())
+        inner(line_data['id'])
+line_data
+from pathlib import Path
+for i in Path(".").glob("*.info.json"):
+	print(i)
+from pathlib import Path
+import json
+for i in Path(".").glob("*.info.json"):
+	data = json.load(i)
+for i in Path(".").glob("*.info.json"):
+	data = json.load(str(i))
+for i in Path(".").glob("*.info.json"):
+	with open(i) as f:
+		data = json.load(f)
+data
+data["license"]
+CC_BY = 'Creative Commons Attribution license (reuse allowed)'
+for i in Path(".").glob("*.info.json"):
+	with open(i) as f:
+		data = json.load(f)
+		if "license" in data and data["license"] == CC_BY:
+			print(i)
+cc_by_ids = []
+for i in Path(".").glob("*.info.json"):
+    with open(i) as f:
+        data = json.load(f)
+        if "license" in data and data["license"] == CC_BY:
+            cc_by_ids.append(i.replace(".info.json", ""))
+            cc_by_ids.append(str(i).replace(".info.json", ""))
+cc_by_ids = []
+for i in Path(".").glob("*.info.json"):
+    with open(i) as f:
+        data = json.load(f)
+        if "license" in data and data["license"] == CC_BY:
+            cc_by_ids.append(str(i).replace(".info.json", ""))
+cc_by_ids
+with open("cc-by-ids.txt", "w") as out:
+	for vid in cc_by_ids:
+		out.write(vid + "\n")
+with open("cc-by-ids.txt", "w") as outf:
+	for vid in cc_by_ids:
+		outf.write(vid + "\n")
+print(len(cc_by_ids))
+import datasets
+datasets.load_dataset('timit_asr', data_dir='/sbtal/TIMIT/')
+import datasets
+datasets.load_dataset('timit_asr', data_dir='/sbtal/TIMIT/')
+timit = datasets.load_dataset('timit_asr', data_dir='/sbtal/TIMIT/')
+timit['train'][0]
+timit['train'][0]['phonetic_detail'
+timit['train'][0]['phonetic_detail']
+from transformers import pipeline
+_SWE_MODEL = "KBLab/wav2vec2-large-voxrex-swedish"
+file = "/tmp/2442101120000160421_759s.wav"
+output = pipe(file, chunk_length_s=10, return_timestamps="word")
+pipe = pipeline(model=_SWE_MODEL)
+output = pipe(file, chunk_length_s=10, return_timestamps="word")
+output
+output["chunks"]
+output["chunks"][1]["text"]
+#output["chunks"][1]["text"] = "så".upper()
+"så".upper()
+output["chunks"][1]["text"] = "så".upper()
+output
+output["text"].replace("saag", "så")
+for chunk in output["chunks"]:
+	print(chunk["timestamp"])
+for chunk in output["chunks"]:
+	old_ts = chunk["timestamp"]
+	chunk["timestamp"] = (old_ts[0] + 759, old_ts[1] + 759)
+output
+#for chunk in output["chunks
+with open("/tmp/2442101120000160421_759s.ctm", "w") as of:
+	for chunk in output["chunks"]:
+		of.write(f'2442101120000160421 1 {chunk["timestamp"][0]} {chunk["timestamp"][1] - chunk["timestamp"][0]} {chunk["text"].lower()} 1.0\n")
+		of.write(f'2442101120000160421 1 {chunk["timestamp"][0]} {chunk["timestamp"][1] - chunk["timestamp"][0]} {chunk["text"].lower()} 1.0\n')
+with open("/tmp/2442101120000160421_759s.ctm", "w") as of:
+	for chunk in output["chunks"]:
+		of.write(f'2442101120000160421 1 {chunk["timestamp"][0]} {chunk["timestamp"][1] - chunk["timestamp"][0]} {chunk["text"].lower()} 1.0\n")
+with open("/tmp/2442101120000160421_759s.ctm", "w") as of:
+	for chunk in output["chunks"]:
+		of.write(f'2442101120000160421 1 {chunk["timestamp"][0]} {chunk["timestamp"][1] - chunk["timestamp"][0]} {chunk["text"].lower()} 1.0\n')
+with open("/tmp/2442101120000160421_759s.ctm", "w") as of:
+	for chunk in output["chunks"]:
+		of.write(f'2442101120000160421 1 {chunk["timestamp"][0] + 0.3} {chunk["timestamp"][1] - chunk["timestamp"][0]} {chunk["text"].lower()} 1.0\n')
+input = "En-au-sick_as_a_dog.ogg"
+from transformers import pipeline
+model = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
+pipe = pipeline(model=model)
+output = pipe(input, chunk_length_s=10, return_timestamps="word")
+output
+import json
+json.dump(output)
+json.dumps(output)
+import torchaudio
+arr, smaple_rate = ta.load("example.wav")
+import torchaudio as ta
+arr, smaple_rate = ta.load("example.wav")
+arr
+smaple_rate
+import pynini
+from pynini.lib import pynutil
+zero = pynini.string_map([("zéro","0")])
+zero
+from num2words import num2words
+with open("/tmp/cardinal-in") as in, open("/tmp/cardinal-out", "w") as out:
+with open("/tmp/cardinal-in") as inf, open("/tmp/cardinal-out", "w") as outf:
+	for line in inf.readlines():
+		num = line.strip()
+		words = num2words(int(line), to="cardinal", lang="sv")
+		outf.write(f"{words}~{num}\n")
+from num2words import num2words
+num2words(21, to="cardinal", lang="sv")
+num2words(20, to="cardinal", lang="sv")
+num2words(30, to="cardinal", lang="sv")
+num2words(31, to="cardinal", lang="sv")
+num2words(41, to="cardinal", lang="sv")
+num2words(51, to="cardinal", lang="sv")
+num2words(61, to="cardinal", lang="sv")
+num2words(71, to="cardinal", lang="sv")
+num2words(81, to="cardinal", lang="sv")
+num2words(91, to="cardinal", lang="sv")
+num2words(-23, to="cardinal", lang="sv")
+num2words(1000000000000, to="cardinal", lang="sv")
+num2words(1000000000000000000000000, to="cardinal", lang="sv")
+num2words(2000000000000, to="cardinal", lang="sv")
+num2words(1000000000000, to="cardinal", lang="sv")
+num2words(1000000000, to="cardinal", lang="sv")
+num2words(2000000000, to="cardinal", lang="sv")
+num2words(1000000, to="cardinal", lang="sv")
+num2words(1000, to="cardinal", lang="sv")
+from num2words import num2words
+num2words(1000, to="cardinal", lang="sv")
+num2words(11000, to="cardinal", lang="sv")
+num2words(111000, to="cardinal", lang="sv")
+num2words(111000000, to="cardinal", lang="sv")
+num2words(1000000, to="cardinal", lang="sv")
+num2words(1000000000, to="cardinal", lang="sv")
+num2words(1000000000000, to="cardinal", lang="sv")
+num2words(1000000000000000, to="cardinal", lang="sv")
+num2words(2000000000000000, to="cardinal", lang="sv")
+num2words(1000000000000000000, to="cardinal", lang="sv")
+num2words(1000000000000000000000, to="cardinal", lang="sv")
+num2words(1000000000000000000000000, to="cardinal", lang="sv")
+from num2words import num2words
+num2words(1001, to="cardinal", lang="hu")
+num2words(2001, to="cardinal", lang="hu")
+num2words(2001001, to="cardinal", lang="hu")
+num2words(20001001, to="cardinal", lang="hu")
+num2words(1000000000, to="cardinal", lang="hu")
+num2words(1000000000, to="ordinal", lang="hu")
+num2words(1, to="ordinal", lang="hu")
+num2words(11, to="ordinal", lang="hu")
+num2words(2, to="ordinal", lang="hu")
+num2words(3, to="ordinal", lang="hu")
+num2words(13, to="ordinal", lang="hu")
+num2words(12, to="ordinal", lang="hu")
+num2words(1111111111111, to="cardinal", lang="hu")
+num2words(11111111111111, to="cardinal", lang="hu")
+num2words(111111111111111, to="cardinal", lang="hu")
+num2words(1111, to="cardinal", lang="hu")
+num2words(2111, to="cardinal", lang="hu")
+num2words(111111, to="cardinal", lang="hu")
+num2words(1111111, to="cardinal", lang="hu")
+num2words(1111111, to="cardinal", lang="ga")
+from num2words import num2words
+num2words(111, to="cardinal", lang="hu")
+num2words(211, to="cardinal", lang="hu")
+num2words(1211, to="cardinal", lang="hu")
+from num2words import num2words
+num2words(1000, to="cardinal", lang="hu")
+num2words(2000000, to="cardinal", lang="hu")
+num2words(1000000, to="cardinal", lang="hu")
+num2words(1000, to="cardinal", lang="hu")
+num2words(100000, to="cardinal", lang="hu")
+from num2words import num2words
+num2words(2001, to="cardinal", lang="hu")
+num2words(1001, to="cardinal", lang="hu")
+num2words(1000, to="cardinal", lang="hu")
+num2words(2000, to="cardinal", lang="hu")
+num2words(3000, to="cardinal", lang="hu")
+num2words(200, to="cardinal", lang="hu")
+num2words(2000, to="cardinal", lang="hu")
+import nemo_text_processing.text_normalization.sv
+import nemo_text_processing.text_normalization.sv.taggers.cardinal
+a = cardinal.CardinalFst()
+a = nemo_text_processing.text_normalization.sv.taggers.cardinal.CardinalFst()
+a.fst
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1", a.fst)
+"1" @ a.fst
+bb = "1" @ a.fst
+bb.string()
+bb = "1000000" @ a.fst
+bb.string()
+bb = "1111111111111" @ a.fst
+bb.string()
+exp = 'en biljon etthundraelva miljarder etthundraelva miljoner etthundraelvatusen etthundraelva'
+nondet = nemo_text_processing.text_normalization.sv.taggers.cardinal.CardinalFst(False)
+nondet = nemo_text_processing.text_normalization.sv.taggers.cardinal.CardinalFst(deterministic=False)
+import nemo_text_processing.text_normalization.sv.taggers.cardinal
+a = nemo_text_processing.text_normalization.sv.taggers.cardinal.CardinalFst()
+nondet = nemo_text_processing.text_normalization.sv.taggers.cardinal.CardinalFst(deterministic=False)
+rev = nondet.fst.inverse()
+rev = nondet.fst.invert()
+exp = 'en biljon etthundraelva miljarder etthundraelva miljoner etthundraelvatusen etthundraelva'
+aa = exp @ rev
+aa
+aa.string()
+bb = "1000000" @ a.fst
+bb
+bb.string()
+bb = "111111111111" @ a.fst
+bb.string()
+from nemo_text_processing.text_normalization.normalize import Normalizer
+norm = Normalizer(input_case='cased', lang='sv', cache_dir=CACHE_DIR, overwrite_cache=False)
+norm = Normalizer(input_case='cased', lang='sv', cache_dir=None, overwrite_cache=False)
+norm.normalize("110")
+norm.normalize("sr.")
+norm = Normalizer(input_case='cased', lang='pp', cache_dir=CACHE_DIR, overwrite_cache=False)
+norm = Normalizer(input_case='cased', lang='pp', cache_dir=None, overwrite_cache=False)
+from nemo_text_processing.text_normalization.normalize import Normalizer
+norm = Normalizer(input_case='cased', lang='pp', cache_dir=None, overwrite_cache=False)
+norm = Normalizer(input_case='cased', lang='sv', cache_dir=None, overwrite_cache=False)
+from nemo_text_processing.text_normalization.normalize import Normalizer
+norm = Normalizer(input_case='cased', lang='sv', cache_dir=None, overwrite_cache=False)
+import nemo_text_processing.text_normalization.sv.taggers.ordinal
+import nemo_text_processing.text_normalization.sv.taggers.cardinal
+card = cardinal.CardinalFst()
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+cfst = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=cfst.fst, deterministic=True)
+ord = OrdinalFst(cardinal=cfst, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=cfst, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+card = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+card = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+card = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+card = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+card = CardinalFst(True)
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from num2words import num2words
+num2words(2000, to="cardinal", lang="sv")
+num2words(2000, lang="sv", ordinal=True)
+num2words(2001, lang="sv", ordinal=True)
+num2words(2000, lang="sv")
+num2words(2000000, lang="sv")
+num2words(2000000, lang="sv", ordinal=True)
+num2words(1000000, lang="sv", ordinal=True)
+num2words(2000, lang="sv", ordinal=True)
+num2words(2000, lang="sv")
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("31", ord.graph)
+apply_fst("21", ord.graph)
+apply_fst("201", ord.graph)
+apply_fst("021", ord.graph)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+apply_fst("31", ord.graph_tens_component)
+apply_fst("1", ord.graph_tens_component)
+apply_fst("11", ord.graph_tens_component)
+apply_fst("30", ord.graph_tens_component)
+apply_fst("31", ord.graph_tens_component)
+from pynini.lib import pynutil
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("31", ord.graph_tens_component)
+apply_fst("31", ord.graph)
+apply_fst("131", ord.graph)
+apply_fst("031", ord.graph)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("31", ord.graph)
+apply_fst("1", ord.graph)
+apply_fst("131", ord.graph)
+apply_fst("131", ord.fstr)
+apply_fst("131", ord.fst)
+apply_fst("31", ord.fst)
+apply_fst("1", ord.fst)
+apply_fst("1:a", ord.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("31/12", date.fst)
+apply_fst("31/01", date.fst)
+apply_fst("31/01/2022", date.fst)
+apply_fst("31 januari 2022", date.fst)
+apply_fst("2022.12.01", date.fst)
+apply_fst("2022-12-01", date.fst)
+apply_fst("2022/12/01", date.fst)
+apply_fst("2022-12-01", date.fst)
+apply_fst("01-01-2023", date.fst)
+apply_fst("01/01/2023", date.fst)
+apply_fst("01.01.2023", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+from pynini.lib import pynutil
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+apply_fst("2022-12-01", date.fst)
+apply_fst("2022.12.01", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from pynini.lib import pynutil
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("2022.12.01", date.fst)
+apply_fst("2022-12-01", date.fst)
+apply_fst("2022/12/01", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("2022/12/01", date.fst)
+apply_fst("2022-12-01", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("2022-12-01", date.fst)
+apply_fst("2022.12.01", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+ord = OrdinalFst(cardinal=card, deterministic=True)
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("2022.12.01", date.fst)
+apply_fst("2022/12/01", date.fst)
+apply_fst("2022-12-01", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+apply_fst("2022-12-01", date.fst)
+apply_fst("1 jan. 2022", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 jan. 2022", date.fst)
+apply_fst("1 januari 2022", date.fst)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+apply_fst("1 januari 2022", date.fst)
+apply_fst("1 jan. 2022", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+import pynini
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 jan. 2022", date.fst)
+apply_fst("1 feb. 2022", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 feb. 2022", date.fst)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 feb. 2022", date.fst)
+apply_fst("1:e feb. 2022", date.fst)
+apply_fst("1:a feb. 2022", date.fst)
+apply_fst("1/ feb. 2022", date.fst)
+apply_fst("1. feb. 2022", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.electronic import ElectronicFst
+elec = ElectronicFst(deterministic=True)
+apply_fst("hund@kth.se", elec.fst)
+apply_fst("hund@gmail.com", elec.fst)
+apply_fst("http://www.google.com", elec.fst)
+apply_fst("www.google.com", elec.fst)
+apply_fst("2022-12-01", date.fst)
+apply_fst("2022/12/01", date.fst)
+apply_fst("1. december 2022", date.fst)
+apply_fst("1 december 2022", date.fst)
+apply_fst("1:a december 2022", date.fst)
+apply_fst("första december 2022", date.fst)
+apply_fst("1 dec. 2022", date.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.date import DateFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+date = DateFst(cardinal=card, ordinal=ord, deterministic=True)
+apply_fst("1 dec. 2022", date.fst)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 dec. 2022", date.fst)
+apply_fst("första dec. 2022", date.fst)
+apply_fst("1:a dec. 2022", date.fst)
+fractional_endings = pynini.string_map([
+	("ljard", "ljarddel"),
+	("tonde", "tondel"),
+	("ljon", "ljondel"),
+	("lliard", "lliarddel"),
+	("llion", "lliondel")
+])
+ord_words = pynini.project(ord.graph, "output")
+pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+from nemo_text_processing.text_normalization.en.graph_utils import NEMO_SIGMA
+pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+a = pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+apply_fst("1", a)
+apply_fst("1000000", a)
+ord.graph @ pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+apply_fst("1000000", a)
+        fractional_endings = pynini.string_map([
+            ("ljarte", "ljarddel"),
+            ("tonde", "tondel"),
+            ("ljonte", "ljondel"),
+            ("lliarte", "lliarddel"),
+            ("llionte", "lliondel")
+        ])
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel")
+])
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+apply_fst("1000000", a)
+b = pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA)
+apply_fst("1000000", b)
+c = pynini.cdrewrite(fractional_endings, "", "EOS", NEMO_SIGMA) @ ord.graph
+apply_fst("1000000", c)
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("1000000", a)
+apply_fst("1000000000", a)
+apply_fst("11", a)
+apply_fst("15", a)
+apply_fst("2", a)
+apply_fst("3", a)
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("te", "tedel"),
+    ("je", "jedel"),
+    ("a", "adel")
+])
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("3", a)
+apply_fst("4", a)
+apply_fst("5", a)
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("te", "tedel"),
+    ("de", "dedel"),
+    ("je", "jedel"),
+    ("a", "adel")
+])
+apply_fst("5", a)
+apply_fst("2", a)
+apply_fst("1", a)
+apply_fst("3", a)
+apply_fst("4", a)
+apply_fst("5", a)
+apply_fst("6", a)
+apply_fst("7", a)
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("4", a)
+apply_fst("5", a)
+apply_fst("50", a)
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tionde", "tiondel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("te", "tedel"),
+    ("de", "dedel"),
+    ("je", "jedel"),
+    ("a", "adel")
+])
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("50", a)
+apply_fst("15", a)
+apply_fst("51", a)
+apply_fst("1000000", a)
+apply_fst("1000000000", a)
+apply_fst("1000", a)
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tionde", "tiondel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("tusende", "tusendedel"),
+    ("te", "tedel"),
+    ("de", "dedel"),
+    ("je", "jedel"),
+    ("dra", "dradel")
+    ("a", "adel")
+])
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tionde", "tiondel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("tusende", "tusendedel"),
+    ("te", "tedel"),
+    ("de", "dedel"),
+    ("je", "jedel"),
+    ("dra", "dradel"),
+    ("a", "adel")
+])
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("1000", a)
+apply_fst("100", a)
+fractional_endings = pynini.string_map([
+    ("ljarte", "ljarddel"),
+    ("tionde", "tiondel"),
+    ("tonde", "tondel"),
+    ("ljonte", "ljondel"),
+    ("lliarte", "lliarddel"),
+    ("llionte", "lliondel"),
+    ("tusende", "tusendel"),
+    ("te", "tedel"),
+    ("de", "dedel"),
+    ("je", "jedel"),
+    ("drade", "dradel"),
+    ("a", "adel")
+])
+a = ord.graph @ pynini.cdrewrite(fractional_endings, "", "[EOS]", NEMO_SIGMA)
+apply_fst("100", a)
+apply_fst("1000", a)
+apply_fst("2000", a)
+apply_fst("2001", a)
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 2/3", frac.fst)
+apply_fst("1 1/3", frac.fst)
+apply_fst("1 1/2", frac.fst)
+apply_fst("1 1/4", frac.fst)
+apply_fst("1 1/21", frac.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("1 1/21", frac.fst)
+apply_fst("1 1/2", frac.fst)
+from nemo_text_processing.text_normalization.sv.taggers.cardinal import CardinalFst
+from nemo_text_processing.text_normalization.sv.taggers.ordinal import OrdinalFst
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+card = CardinalFst(True)
+ord = OrdinalFst(cardinal=card, deterministic=True)
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.sv.taggers.fraction import FractionFst
+frac = FractionFst(cardinal=card, ordinal=ord, deterministic=True)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+from pynini.lib import pynutil
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("21", card.two_digit_non_zero)
+apply_fst("21", card.tens)
+apply_fst("11", card.tens)
+apply_fst("1", card.tens)
+apply_fst("10", card.tens)
+apply_fst("20", card.tens)
+apply_fst("30", card.tens)
+apply_fst("30", card.two_digit_non_zero)
+apply_fst("12", card.two_digit_non_zero)
+apply_fst("11", card.two_digit_non_zero)
+apply_fst("01", card.two_digit_non_zero)
+apply_fst("11", card.two_digit_non_zero)
+from pynini.lib import pynutil
+import pynini
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+import pynini
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("11", card.two_digit_non_zero)
+apply_fst("99", card.two_digit_non_zero)
+apply_fst("90", card.two_digit_non_zero)
+apply_fst("28", card.two_digit_non_zero)
+apply_fst("2", card.two_digit_non_zero)
+apply_fst("8", card.two_digit_non_zero)
+from pynini.lib import pynutil
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("90", card.two_digit_non_zero)
+card = CardinalFst(deterministic = True)
+apply_fst("90", card.two_digit_non_zero)
+apply_fst("99", card.two_digit_non_zero)
+apply_fst("28", card.two_digit_non_zero)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+card = CardinalFst(deterministic = True)
+apply_fst("28", card.two_digit_non_zero)
+apply_fst("20", card.two_digit_non_zero)
+apply_fst("10", card.tens)
+apply_fst("11", card.tens)
+apply_fst("13", card.tens)
+apply_fst("19", card.tens)
+apply_fst("19", card.two_digit_non_zero)
+apply_fst("99", card.two_digit_non_zero)
+apply_fst("01", card.two_digit_non_zero)
+apply_fst("1", card.two_digit_non_zero)
+apply_fst("1", card.hundreds)
+apply_fst("101", card.hundreds)
+apply_fst("100", card.hundreds)
+apply_fst("199", card.hundreds)
+apply_fst("999", card.hundreds)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("999", card.hundreds)
+apply_fst("999", card.two_digit_non_zero)
+apply_fst("99", card.two_digit_non_zero)
+import pynini
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+card = CardinalFst(deterministic = True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("999", card.two_digit_non_zero)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("999", card.two_digit_non_zero)
+card = CardinalFst(deterministic = True)
+apply_fst("999", card.two_digit_non_zero)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+card = CardinalFst(deterministic = True)
+apply_fst("999", card.two_digit_non_zero)
+apply_fst("999", card.hundreds)
+apply_fst("1", card.hundreds)
+apply_fst("111", card.hundreds)
+apply_fst("011", card.hundreds)
+apply_fst("1011", card.hundreds)
+apply_fst("111", card.hundreds)
+apply_fst("11", card.hundreds)
+apply_fst("1", card.hundreds)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+card = CardinalFst(deterministic = True)
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+apply_fst("111", card.hundreds)
+apply_fst("999", card.hundreds)
+apply_fst("900", card.hundreds)
+from nemo_text_processing.text_normalization.se.taggers.cardinal import CardinalFst
+import pynini
+from pynini.lib import pynutil
+def apply_fst(text, fst):
+  """ Given a string input, returns the output string
+  produced by traversing the path with lowest weight.
+  If no valid path accepts input string, returns an
+  error.
+  """
+  try:
+     print(pynini.shortestpath(text @ fst).string())
+  except pynini.FstOpError:
+    print(f"Error: No valid output with given input: '{text}'")
+card = CardinalFst(deterministic = True)
+apply_fst("900", card.hundreds)
+apply_fst("999", card.hundreds)
+apply_fst("99", card.hundreds)
