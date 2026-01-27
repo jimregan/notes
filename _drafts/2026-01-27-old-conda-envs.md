@@ -11277,3 +11277,678 @@ dependencies:
 prefix: /home/joregan/miniconda3
 ```
 
+## sbtaldeep11
+
+### hf
+
+`Feb 28  2023 hf`
+
+```yaml
+name: hf
+channels:
+  - huggingface
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - blas=1.0=mkl
+  - brotlipy=0.7.0=py310h7f8727e_1002
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.01.10=h06a4308_0
+  - certifi=2022.12.7=py310h06a4308_0
+  - cffi=1.15.1=py310h74dc2b5_0
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - click=8.0.4=py310h06a4308_0
+  - cryptography=38.0.1=py310h9ce1e76_0
+  - cuda=11.7.1=0
+  - cuda-cccl=11.7.91=0
+  - cuda-command-line-tools=11.7.1=0
+  - cuda-compiler=11.7.1=0
+  - cuda-cudart=11.7.99=0
+  - cuda-cudart-dev=11.7.99=0
+  - cuda-cuobjdump=11.7.91=0
+  - cuda-cupti=11.7.101=0
+  - cuda-cuxxfilt=11.7.91=0
+  - cuda-demo-suite=11.8.86=0
+  - cuda-documentation=11.8.86=0
+  - cuda-driver-dev=11.7.99=0
+  - cuda-gdb=11.8.86=0
+  - cuda-libraries=11.7.1=0
+  - cuda-libraries-dev=11.7.1=0
+  - cuda-memcheck=11.8.86=0
+  - cuda-nsight=11.8.86=0
+  - cuda-nsight-compute=11.8.0=0
+  - cuda-nvcc=11.7.99=0
+  - cuda-nvdisasm=11.8.86=0
+  - cuda-nvml-dev=11.7.91=0
+  - cuda-nvprof=11.8.87=0
+  - cuda-nvprune=11.7.91=0
+  - cuda-nvrtc=11.7.99=0
+  - cuda-nvrtc-dev=11.7.99=0
+  - cuda-nvtx=11.7.91=0
+  - cuda-nvvp=11.8.87=0
+  - cuda-runtime=11.7.1=0
+  - cuda-sanitizer-api=11.8.86=0
+  - cuda-toolkit=11.7.1=0
+  - cuda-tools=11.7.1=0
+  - cuda-visual-tools=11.7.1=0
+  - dataclasses=0.8=pyh6d0b6a4_7
+  - ffmpeg=4.3=hf484d3e_0
+  - filelock=3.6.0=pyhd3eb1b0_0
+  - freetype=2.12.1=h4a9f257_0
+  - gds-tools=1.4.0.31=0
+  - giflib=5.2.1=h7b6447c_0
+  - git-lfs=2.13.3=h06a4308_0
+  - gmp=6.2.1=h295c915_3
+  - gnutls=3.6.15=he1e5248_0
+  - huggingface_hub=0.10.1=py_0
+  - idna=3.4=py310h06a4308_0
+  - importlib-metadata=4.11.3=py310h06a4308_0
+  - importlib_metadata=4.11.3=hd3eb1b0_0
+  - intel-openmp=2021.4.0=h06a4308_3561
+  - joblib=1.1.1=py310h06a4308_0
+  - jpeg=9e=h7f8727e_0
+  - lame=3.100=h7b6447c_0
+  - lcms2=2.12=h3be6417_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - lerc=3.0=h295c915_0
+  - libcublas=11.11.3.6=0
+  - libcublas-dev=11.11.3.6=0
+  - libcufft=10.9.0.58=0
+  - libcufft-dev=10.9.0.58=0
+  - libcufile=1.4.0.31=0
+  - libcufile-dev=1.4.0.31=0
+  - libcurand=10.3.0.86=0
+  - libcurand-dev=10.3.0.86=0
+  - libcusolver=11.4.1.48=0
+  - libcusolver-dev=11.4.1.48=0
+  - libcusparse=11.7.5.86=0
+  - libcusparse-dev=11.7.5.86=0
+  - libdeflate=1.8=h7f8727e_5
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libiconv=1.16=h7f8727e_2
+  - libidn2=2.3.2=h7f8727e_0
+  - libnpp=11.8.0.86=0
+  - libnpp-dev=11.8.0.86=0
+  - libnvjpeg=11.9.0.86=0
+  - libnvjpeg-dev=11.9.0.86=0
+  - libpng=1.6.37=hbc83047_0
+  - libprotobuf=3.20.1=h4ff587b_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libtasn1=4.16.0=h27cfd23_0
+  - libtiff=4.4.0=hecacb30_0
+  - libunistring=0.9.10=h27cfd23_0
+  - libuuid=1.0.3=h7f8727e_2
+  - libwebp=1.2.4=h11a3e52_0
+  - libwebp-base=1.2.4=h5eee18b_0
+  - lz4-c=1.9.3=h295c915_1
+  - mkl=2021.4.0=h06a4308_640
+  - mkl-service=2.4.0=py310h7f8727e_0
+  - mkl_fft=1.3.1=py310hd6ae3a3_0
+  - mkl_random=1.2.2=py310h00e6091_0
+  - ncurses=6.3=h5eee18b_3
+  - nettle=3.7.3=hbbd107a_1
+  - nsight-compute=2022.3.0.22=0
+  - numpy=1.23.3=py310hd5efca6_0
+  - numpy-base=1.23.3=py310h8e6c178_0
+  - openh264=2.1.1=h4ff587b_0
+  - openssl=1.1.1t=h7f8727e_0
+  - packaging=21.3=pyhd3eb1b0_0
+  - pillow=9.2.0=py310hace64e9_1
+  - pip=22.2.2=py310h06a4308_0
+  - protobuf=3.20.1=py310h295c915_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - pyopenssl=22.0.0=pyhd3eb1b0_0
+  - pyparsing=3.0.9=py310h06a4308_0
+  - pysocks=1.7.1=py310h06a4308_0
+  - python=3.10.6=haa1d7c7_1
+  - pytorch=1.13.0=py3.10_cuda11.7_cudnn8.5.0_0
+  - pytorch-cuda=11.7=h67b0de4_0
+  - pytorch-mutex=1.0=cuda
+  - readline=8.2=h5eee18b_0
+  - regex=2022.7.9=py310h5eee18b_0
+  - requests=2.28.1=py310h06a4308_0
+  - sacremoses=master=py_0
+  - setuptools=65.5.0=py310h06a4308_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.39.3=h5082296_0
+  - tk=8.6.12=h1ccaba5_0
+  - tokenizers=0.11.4=py310h3dcd8bd_1
+  - torchaudio=0.13.0=py310_cu117
+  - torchvision=0.14.0=py310_cu117
+  - tqdm=4.64.1=py310h06a4308_0
+  - transformers=4.24.0=py_0
+  - typing-extensions=4.3.0=py310h06a4308_0
+  - typing_extensions=4.3.0=py310h06a4308_0
+  - tzdata=2022f=h04d1e81_0
+  - urllib3=1.26.12=py310h06a4308_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.6=h5eee18b_0
+  - yaml=0.2.5=h7b6447c_0
+  - zip=3.0=h7f8727e_1
+  - zipp=3.8.0=py310h06a4308_0
+  - zlib=1.2.13=h5eee18b_0
+  - zstd=1.5.2=ha4553b6_0
+  - pip:
+    - aiohttp==3.8.3
+    - aiosignal==1.2.0
+    - appdirs==1.4.4
+    - async-timeout==4.0.2
+    - attrs==22.1.0
+    - audioread==3.0.0
+    - babel==2.11.0
+    - beautifulsoup4==4.11.1
+    - brotli==1.0.9
+    - bs4==0.0.1
+    - clldutils==3.14.0
+    - colorama==0.4.6
+    - colorlog==6.7.0
+    - csvw==3.1.3
+    - cython==0.29.33
+    - datasets==2.6.1
+    - decorator==5.1.1
+    - dill==0.3.5.1
+    - dlinfo==1.2.1
+    - dtw-python==1.3.0
+    - ffmpeg-python==0.2.0
+    - frozenlist==1.3.1
+    - fsspec==2022.10.0
+    - future==0.18.3
+    - isodate==0.6.1
+    - jsonschema==4.17.1
+    - language-tags==1.1.0
+    - librosa==0.9.2
+    - llvmlite==0.39.1
+    - lxml==4.9.1
+    - markdown==3.4.1
+    - more-itertools==9.0.0
+    - multidict==6.0.2
+    - multiprocess==0.70.13
+    - mutagen==1.46.0
+    - numba==0.56.3
+    - openai-whisper==20230124
+    - pandas==1.5.1
+    - phonemizer==3.2.1
+    - pooch==1.6.0
+    - pyarrow==10.0.0
+    - pycryptodomex==3.18.0
+    - pylatexenc==2.10
+    - pyphen==0.13.0
+    - pyrsistent==0.19.2
+    - python-dateutil==2.8.2
+    - pytz==2022.6
+    - pyyaml==6.0
+    - rdflib==6.2.0
+    - resampy==0.4.2
+    - responses==0.18.0
+    - rfc3986==1.5.0
+    - scikit-learn==1.1.3
+    - scipy==1.9.3
+    - segments==2.2.1
+    - soundfile==0.11.0
+    - soupsieve==2.3.2.post1
+    - tabulate==0.9.0
+    - threadpoolctl==3.1.0
+    - uritemplate==4.1.1
+    - websockets==11.0.3
+    - whisper-timestamped==1.9.0
+    - xxhash==3.1.0
+    - yarl==1.8.1
+    - youtube-dl==2021.12.17
+    - yt-dlp==2023.7.6
+prefix: /home/joregan/miniconda3/envs/hf
+```
+
+### hspell
+
+`Nov 23  2022 hspell`
+
+```yaml
+name: hspell
+channels:
+  - defaults
+prefix: /home/joregan/miniconda3/envs/hspell
+```
+
+### nemo
+
+`Feb  1  2023 nemo`
+
+```yaml
+name: nemo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - atk-1.0=2.36.0=ha1a6a79_0
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.01.10=h06a4308_0
+  - cairo=1.16.0=h19f5f5c_2
+  - certifi=2022.12.7=py310h06a4308_0
+  - expat=2.2.10=h9c3ff4c_0
+  - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+  - font-ttf-inconsolata=3.000=h77eed37_0
+  - font-ttf-source-code-pro=2.038=h77eed37_0
+  - font-ttf-ubuntu=0.83=hab24e00_0
+  - fontconfig=2.14.1=hef1e5e3_0
+  - fonts-conda-ecosystem=1=0
+  - fonts-conda-forge=1=0
+  - freetype=2.10.4=h0708190_1
+  - fribidi=1.0.10=h36c2ea0_0
+  - gdk-pixbuf=2.42.8=h433bba3_1
+  - git-lfs=2.13.3=h06a4308_0
+  - glib=2.69.1=he621ea3_2
+  - gobject-introspection=1.72.0=py310hbb6d50b_1
+  - graphite2=1.3.14=h295c915_1
+  - graphviz=2.50.0=h3cd0ef9_0
+  - gtk2=2.24.33=h73c1081_2
+  - gts=0.7.6=h08bb679_0
+  - harfbuzz=4.3.0=hd55b92a_0
+  - icu=58.2=hf484d3e_1000
+  - jpeg=9e=h166bdaf_1
+  - ld_impl_linux-64=2.38=h1181459_1
+  - lerc=3.0=h9c3ff4c_0
+  - libdeflate=1.8=h7f8727e_5
+  - libffi=3.4.2=h6a678d5_6
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgd=2.3.3=h695aa2c_1
+  - libgomp=11.2.0=h1234567_1
+  - libpng=1.6.37=hbc83047_0
+  - librsvg=2.54.4=h19fe530_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libtiff=4.4.0=hecacb30_2
+  - libtool=2.4.6=h9c3ff4c_1008
+  - libuuid=1.41.5=h5eee18b_0
+  - libwebp-base=1.2.4=h5eee18b_0
+  - libxcb=1.15=h7f8727e_0
+  - libxml2=2.9.14=h74e7548_0
+  - lz4-c=1.9.3=h9c3ff4c_1
+  - ncurses=6.3=h5eee18b_3
+  - ninja=1.11.0=h924138e_0
+  - openfst=1.8.2=h4bd325d_1
+  - openssl=1.1.1s=h7f8727e_0
+  - pango=1.50.7=h05da053_0
+  - pcre=8.45=h9c3ff4c_0
+  - pip=22.3.1=py310h06a4308_0
+  - pixman=0.40.0=h36c2ea0_0
+  - pynini=2.1.5=py310hbf28c38_2
+  - python=3.10.8=h7a1cb2a_1
+  - python_abi=3.10=2_cp310
+  - readline=8.2=h5eee18b_0
+  - sqlite=3.40.0=h5082296_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.8=h5eee18b_0
+  - zlib=1.2.13=h5eee18b_0
+  - zstd=1.5.2=ha4553b6_0
+  - pip:
+    - absl-py==1.3.0
+    - aiohttp==3.8.3
+    - aiosignal==1.3.1
+    - antlr4-python3-runtime==4.9.3
+    - appdirs==1.4.4
+    - async-timeout==4.0.2
+    - attrs==22.1.0
+    - audioread==3.0.0
+    - braceexpand==0.1.7
+    - cachetools==5.2.0
+    - cdifflib==1.2.6
+    - cffi==1.15.1
+    - charset-normalizer==2.1.1
+    - click==8.1.3
+    - cython==0.29.32
+    - decorator==5.1.1
+    - docker-pycreds==0.4.0
+    - docopt==0.6.2
+    - exceptiongroup==1.0.4
+    - filelock==3.8.2
+    - frozenlist==1.3.3
+    - fsspec==2022.11.0
+    - gitdb==4.0.10
+    - gitpython==3.1.29
+    - google-auth==2.15.0
+    - google-auth-oauthlib==0.4.6
+    - grpcio==1.51.1
+    - huggingface-hub==0.11.1
+    - hydra-core==1.2.0
+    - idna==3.4
+    - inflect==6.0.2
+    - iniconfig==1.1.1
+    - instaloader==4.9.5
+    - jiwer==2.5.1
+    - joblib==1.2.0
+    - levenshtein==0.20.2
+    - librosa==0.9.2
+    - lightning-utilities==0.4.2
+    - llvmlite==0.39.1
+    - markdown==3.4.1
+    - markupsafe==2.1.1
+    - multidict==6.0.3
+    - num2words==0.5.12
+    - numba==0.56.4
+    - numpy==1.23.5
+    - nvidia-cublas-cu11==11.10.3.66
+    - nvidia-cuda-nvrtc-cu11==11.7.99
+    - nvidia-cuda-runtime-cu11==11.7.99
+    - nvidia-cudnn-cu11==8.5.0.96
+    - oauthlib==3.2.2
+    - omegaconf==2.2.3
+    - onnx==1.13.0
+    - packaging==22.0
+    - parameterized==0.8.1
+    - pathtools==0.1.2
+    - pluggy==1.0.0
+    - pooch==1.6.0
+    - promise==2.3
+    - protobuf==3.20.3
+    - psutil==5.9.4
+    - pyasn1==0.4.8
+    - pyasn1-modules==0.2.8
+    - pycparser==2.21
+    - pydantic==1.10.2
+    - pytest==7.2.0
+    - python-dateutil==2.8.2
+    - pytorch-lightning==1.8.4.post0
+    - pyyaml==5.4.1
+    - rapidfuzz==2.13.7
+    - regex==2022.10.31
+    - requests==2.28.1
+    - requests-oauthlib==1.3.1
+    - resampy==0.4.2
+    - rsa==4.9
+    - ruamel-yaml==0.17.21
+    - ruamel-yaml-clib==0.2.7
+    - sacremoses==0.0.53
+    - scikit-learn==1.2.0
+    - scipy==1.9.3
+    - sentry-sdk==1.11.1
+    - setproctitle==1.3.2
+    - setuptools==65.6.3
+    - shortuuid==1.0.11
+    - six==1.16.0
+    - smmap==5.0.0
+    - soundfile==0.11.0
+    - tensorboard==2.11.0
+    - tensorboard-data-server==0.6.1
+    - tensorboard-plugin-wit==1.8.1
+    - tensorboardx==2.5
+    - text-unidecode==1.3
+    - threadpoolctl==3.1.0
+    - tokenizers==0.12.1
+    - tomli==2.0.1
+    - torch==1.13.0
+    - torchmetrics==0.11.0
+    - tqdm==4.64.1
+    - transformers==4.21.2
+    - typing-extensions==4.4.0
+    - urllib3==1.26.13
+    - wandb==0.13.6
+    - webdataset==0.1.62
+    - werkzeug==2.2.2
+    - wget==3.2
+    - wrapt==1.14.1
+    - yarl==1.8.2
+    - youtube-dl==2021.12.17
+prefix: /home/joregan/miniconda3/envs/nemo
+```
+
+### phonetisaurus
+
+`Sep  5  2023 phonetisaurus`
+
+```yaml
+name: phonetisaurus
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.05.30=h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.4.4=h6a678d5_0
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.4=h6a678d5_0
+  - openssl=3.0.10=h7f8727e_2
+  - pip=23.2.1=py311h06a4308_0
+  - python=3.11.4=h955ad1f_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=68.0.0=py311h06a4308_0
+  - sqlite=3.41.2=h5eee18b_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.38.4=py311h06a4308_0
+  - xz=5.4.2=h5eee18b_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+    - phonetisaurus==0.3.0
+prefix: /home/joregan/miniconda3/envs/phonetisaurus
+```
+
+### point-e
+
+`Dec 21  2022 point-e`
+
+```yaml
+name: point-e
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2022.10.11=h06a4308_0
+  - certifi=2022.12.7=py310h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.4.2=h6a678d5_6
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=1.41.5=h5eee18b_0
+  - ncurses=6.3=h5eee18b_3
+  - openssl=1.1.1s=h7f8727e_0
+  - pip=22.3.1=py310h06a4308_0
+  - python=3.10.8=h7a1cb2a_1
+  - readline=8.2=h5eee18b_0
+  - setuptools=65.5.0=py310h06a4308_0
+  - sqlite=3.40.0=h5082296_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.8=h5eee18b_0
+  - zlib=1.2.13=h5eee18b_0
+  - pip:
+    - charset-normalizer==2.1.1
+    - clip==1.0
+    - contourpy==1.0.6
+    - cycler==0.11.0
+    - filelock==3.8.2
+    - fire==0.5.0
+    - fonttools==4.38.0
+    - ftfy==6.1.1
+    - humanize==4.4.0
+    - idna==3.4
+    - imageio==2.23.0
+    - kiwisolver==1.4.4
+    - matplotlib==3.6.2
+    - networkx==2.8.8
+    - numpy==1.24.0
+    - nvidia-cublas-cu11==11.10.3.66
+    - nvidia-cuda-nvrtc-cu11==11.7.99
+    - nvidia-cuda-runtime-cu11==11.7.99
+    - nvidia-cudnn-cu11==8.5.0.96
+    - packaging==22.0
+    - pillow==9.3.0
+    - pyparsing==3.0.9
+    - python-dateutil==2.8.2
+    - pywavelets==1.4.1
+    - regex==2022.10.31
+    - requests==2.28.1
+    - scikit-image==0.19.3
+    - scipy==1.9.3
+    - six==1.16.0
+    - termcolor==2.1.1
+    - tifffile==2022.10.10
+    - torch==1.13.1
+    - torchvision==0.14.1
+    - tqdm==4.64.1
+    - typing-extensions==4.4.0
+    - urllib3==1.26.13
+    - wcwidth==0.2.5
+prefix: /home/joregan/miniconda3/envs/point-e
+```
+
+### whisper
+
+`Feb 28  2023 whisper`
+
+```yaml
+name: whisper
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.01.10=h06a4308_0
+  - certifi=2022.12.7=py310h06a4308_0
+  - ffmpeg=4.2.2=h20bf706_0
+  - freetype=2.11.0=h70c0345_0
+  - gmp=6.2.1=h295c915_3
+  - gnutls=3.6.15=he1e5248_0
+  - lame=3.100=h7b6447c_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libidn2=2.3.2=h7f8727e_0
+  - libopus=1.3.1=h7b6447c_0
+  - libpng=1.6.37=hbc83047_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libtasn1=4.16.0=h27cfd23_0
+  - libunistring=0.9.10=h27cfd23_0
+  - libuuid=1.41.5=h5eee18b_0
+  - libvpx=1.7.0=h439df22_0
+  - ncurses=6.4=h6a678d5_0
+  - nettle=3.7.3=hbbd107a_1
+  - openh264=2.1.1=h4ff587b_0
+  - openssl=1.1.1t=h7f8727e_0
+  - pip=22.3.1=py310h06a4308_0
+  - python=3.10.4=h12debd9_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=65.6.3=py310h06a4308_0
+  - sqlite=3.39.3=h5082296_0
+  - tk=8.6.12=h1ccaba5_0
+  - tzdata=2022g=h04d1e81_0
+  - wheel=0.38.4=py310h06a4308_0
+  - x264=1!157.20191217=h7b6447c_0
+  - xz=5.2.10=h5eee18b_1
+  - zlib=1.2.12=h5eee18b_3
+  - pip:
+    - charset-normalizer==3.0.1
+    - cmake==3.27.2
+    - ffmpeg-python==0.2.0
+    - filelock==3.9.0
+    - future==0.18.3
+    - huggingface-hub==0.12.1
+    - idna==3.4
+    - lit==16.0.6
+    - llvmlite==0.40.1
+    - more-itertools==9.1.0
+    - numba==0.57.1
+    - numpy==1.24.2
+    - nvidia-cublas-cu11==11.10.3.66
+    - nvidia-cuda-nvrtc-cu11==11.7.99
+    - nvidia-cuda-runtime-cu11==11.7.99
+    - nvidia-cudnn-cu11==8.5.0.96
+    - openai-whisper==20230314
+    - packaging==23.0
+    - pyyaml==6.0
+    - regex==2022.10.31
+    - requests==2.28.2
+    - tiktoken==0.3.3
+    - tokenizers==0.13.2
+    - torch==1.13.1
+    - tqdm==4.64.1
+    - transformers==4.26.1
+    - triton==2.0.0
+    - typing-extensions==4.5.0
+    - urllib3==1.26.14
+prefix: /home/joregan/miniconda3/envs/whisper
+```
+
+### base
+
+```yaml
+name: base
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - brotlipy=0.7.0=py39h27cfd23_1003
+  - ca-certificates=2022.3.29=h06a4308_1
+  - certifi=2021.10.8=py39h06a4308_2
+  - cffi=1.15.0=py39hd667e15_1
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - colorama=0.4.4=pyhd3eb1b0_0
+  - conda=4.12.0=py39h06a4308_0
+  - conda-content-trust=0.1.1=pyhd3eb1b0_0
+  - conda-package-handling=1.8.1=py39h7f8727e_0
+  - cryptography=36.0.0=py39h9ce1e76_0
+  - idna=3.3=pyhd3eb1b0_0
+  - ld_impl_linux-64=2.35.1=h7274673_9
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1n=h7f8727e_0
+  - pip=21.2.4=py39h06a4308_0
+  - pycosat=0.6.3=py39h27cfd23_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - pyopenssl=22.0.0=pyhd3eb1b0_0
+  - pysocks=1.7.1=py39h06a4308_0
+  - python=3.9.12=h12debd9_0
+  - readline=8.1.2=h7f8727e_1
+  - requests=2.27.1=pyhd3eb1b0_0
+  - ruamel_yaml=0.15.100=py39h27cfd23_0
+  - setuptools=61.2.0=py39h06a4308_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.38.2=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - tqdm=4.63.0=pyhd3eb1b0_0
+  - tzdata=2022a=hda174b7_0
+  - urllib3=1.26.8=pyhd3eb1b0_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h7b6447c_0
+  - yaml=0.2.5=h7b6447c_0
+  - zlib=1.2.12=h7f8727e_1
+  - pip:
+    - ffmpeg-python==0.2.0
+    - filelock==3.8.0
+    - future==0.18.2
+    - huggingface-hub==0.10.1
+    - more-itertools==8.14.0
+    - numpy==1.23.4
+    - packaging==21.3
+    - pyparsing==3.0.9
+    - pyyaml==6.0
+    - regex==2022.9.13
+    - tokenizers==0.13.1
+    - torch==1.12.1
+    - transformers==4.23.1
+    - typing-extensions==4.4.0
+    - whisper==1.0
+prefix: /home/joregan/miniconda3
+```
