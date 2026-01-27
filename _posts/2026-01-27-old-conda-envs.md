@@ -1378,7 +1378,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/idefics_agos_reg12
 ```
 
-### coref
+### coref
 
 `May  9  2023 coref`
 
@@ -2251,7 +2251,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/espnet2
 ```
 
-### flamingo
+### flamingo
 
 `Oct  2  2023 flamingo`
 
@@ -3410,7 +3410,7 @@ prefix: /home/joregan/miniconda3
 
 ## sbtaldeep21
 
-### fairseq
+### fairseq
 
 `Apr  5  2022 fairseq`
 
@@ -3506,7 +3506,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/fairseq
 ```
 
-### fs2
+### fs2
 
 `May  3  2022 fs2`
 
@@ -3697,7 +3697,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/fs2
 ```
 
-### hf
+### hf
 
 `Oct 12  2024 hf`
 
@@ -3923,7 +3923,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf
 ```
 
-### syncasr
+### syncasr
 
 `Dec  1  2022 syncasr`
 
@@ -3971,7 +3971,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/syncasr
 ```
 
-### tscr
+### tscr
 
 `Jul 16  2022 tscr`
 
@@ -3982,7 +3982,7 @@ channels:
 prefix: /home/joregan/miniconda3/envs/tscr
 ```
 
-### whisper
+### whisper
 
 `Sep 23  2022 whisper`
 
@@ -4342,12 +4342,12 @@ prefix: /home/joregan/miniconda3
 ```
 
 <!--
-conda env list|grep -v '^#'|awk '{print $1}'|grep -v '^$'|grep -v base |while read i;do list="$(ls -al /home/joregan/miniconda3/envs/ | grep "$i$"|cut -c36-)"; echo "### $i"; echo; echo '`'"$list"'`'; echo; echo '```yaml';conda env export -n $i ;echo '```';echo ;done
+conda env list|grep -v '^#'|awk '{print $1}'|grep -v '^$'|grep -v base |while read i;do list="$(ls -al /home/joregan/miniconda3/envs/ | grep "$i$"|cut -c36-)"; echo "### $i"; echo; echo '`'"$list"'`'; echo; echo '```yaml';conda env export -n $i ;echo '```';echo ;done
 -->
 
 ## tts2
 
-### allosaurus
+### allosaurus
 
 `ago 25 10:20 allosaurus`
 
@@ -4389,7 +4389,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/allosaurus
 ```
 
-### hf
+### hf
 
 `set  3 14:34 hf`
 
@@ -4526,7 +4526,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf
 ```
 
-### rv_convert
+### rv_convert
 
 `ago 12 12:11 rv_convert`
 
@@ -4748,7 +4748,7 @@ prefix: /home/joregan/miniconda3
 ## sbtaldeep22
 
 
-### bark
+### bark
 
 `Mar 14  2024 bark`
 
@@ -4812,7 +4812,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/bark
 ```
 
-### coqui
+### coqui
 
 `Mar 17  2024 coqui`
 
@@ -4958,7 +4958,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/coqui
 ```
 
-### deepfilternet
+### deepfilternet
 
 `Jul 28  2024 deepfilternet`
 
@@ -5020,7 +5020,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/deepfilternet
 ```
 
-### denoiser
+### denoiser
 
 `Aug 22  2024 denoiser`
 
@@ -5092,7 +5092,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/denoiser
 ```
 
-### espnet
+### espnet
 
 `Dec 10  2024 espnet`
 
@@ -5367,7 +5367,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/espnet
 ```
 
-### f5tts
+### f5tts
 
 `Apr 27  2025 f5tts`
 
@@ -5401,7 +5401,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/f5tts
 ```
 
-### fairseq
+### fairseq
 
 `Mar  6  2023 fairseq`
 
@@ -5447,7 +5447,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/fairseq
 ```
 
-### fastwhispercli
+### fastwhispercli
 
 `Jan 17  2024 fastwhispercli`
 
@@ -5505,7 +5505,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/fastwhispercli
 ```
 
-### festus
+### festus
 
 `Sep  2  2024 festus
 Apr 15  2025 pyfestus`
@@ -5552,7 +5552,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/festus
 ```
 
-### flant5
+### flant5
 
 `Feb 14  2023 flant5`
 
@@ -5610,7 +5610,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/flant5
 ```
 
-### freevc
+### freevc
 
 `Mar 17  2024 freevc`
 
@@ -5694,7 +5694,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/freevc
 ```
 
-### gradio-client
+### gradio-client
 
 `Apr 23  2025 gradio-client`
 
@@ -5746,7 +5746,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/gradio-client
 ```
 
-### hf
+### hf
 
 `Feb 23  2023 hf`
 
@@ -5981,7 +5981,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf
 ```
 
-### hf_jun
+### hf_jun
 
 `Jun 30  2024 hf_jun`
 
@@ -6015,7 +6015,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf_jun
 ```
 
-### hf_latest
+### hf_latest
 
 `Apr 25  2025 hf_latest`
 
@@ -6180,7 +6180,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf_latest
 ```
 
-### hf_mms
+### hf_mms
 
 `Dec  9  2024 hf_mms`
 
@@ -6311,7 +6311,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf_mms
 ```
 
-### hf_new
+### hf_new
 
 `Mar  7  2025 hf_new`
 
@@ -6546,7 +6546,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf_new
 ```
 
-### hf_timit
+### hf_timit
 
 `Mar  7  2024 hf_timit`
 
@@ -6592,7 +6592,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf_timit
 ```
 
-### hfnew
+### hfnew
 
 `Nov  4 16:13 hfnew`
 
@@ -6772,7 +6772,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hfnew
 ```
 
-### hunspell
+### hunspell
 
 `Oct 22 16:31 hunspell`
 
@@ -6834,7 +6834,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hunspell
 ```
 
-### idefics_agos_reg
+### idefics_agos_reg
 
 `Nov 16  2023 idefics_agos_reg`
 
@@ -6927,7 +6927,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/idefics_agos_reg
 ```
 
-### jupyter
+### jupyter
 
 `Dec 20  2023 jupyter`
 
@@ -7022,7 +7022,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/jupyter
 ```
 
-### match-ttsg
+### match-ttsg
 
 `Sep  5  2024 match-ttsg`
 
@@ -7301,7 +7301,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/match-ttsg
 ```
 
-### matcha-tts
+### matcha-tts
 
 `Oct  1  2024 matcha-tts`
 
@@ -7529,7 +7529,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/matcha-tts
 ```
 
-### metavoice
+### metavoice
 
 `Mar  2  2024 metavoice`
 
@@ -7719,7 +7719,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/metavoice
 ```
 
-### mfa
+### mfa
 
 `Jul 25  2024 mfa`
 
@@ -7995,7 +7995,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/mfa
 ```
 
-### multicheck
+### multicheck
 
 `Dec 21  2023 multicheck`
 
@@ -8101,7 +8101,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/multicheck
 ```
 
-### nemo
+### nemo
 
 `Sep  9  2024 nemo
 Feb  7  2023 nvidia-nemo`
@@ -8397,7 +8397,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/nemo
 ```
 
-### nemo_tn
+### nemo_tn
 
 `Jan 29  2023 nemo_tn`
 
@@ -8735,7 +8735,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/nemo_tn
 ```
 
-### nvidia-nemo
+### nvidia-nemo
 
 `Feb  7  2023 nvidia-nemo`
 
@@ -8770,7 +8770,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/nvidia-nemo
 ```
 
-### owsm-ctc
+### owsm-ctc
 
 `Jun 28  2024 owsm-ctc`
 
@@ -8891,7 +8891,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/owsm-ctc
 ```
 
-### pydub
+### pydub
 
 `Jan 28  2023 pydub`
 
@@ -8940,7 +8940,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/pydub
 ```
 
-### pyfestus
+### pyfestus
 
 `Apr 15  2025 pyfestus`
 
@@ -9069,7 +9069,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/pyfestus
 ```
 
-### pynini
+### pynini
 
 `Apr 14  2025 pynini`
 
@@ -9181,7 +9181,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/pynini
 ```
 
-### qwenomni
+### qwenomni
 
 `Mar 27  2025 qwenomni`
 
@@ -9277,7 +9277,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/qwenomni
 ```
 
-### ray
+### ray
 
 `Feb  1  2023 ray`
 
@@ -9379,7 +9379,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/ray
 ```
 
-### respiro
+### respiro
 
 `Sep 17  2024 respiro`
 
@@ -9474,7 +9474,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/respiro
 ```
 
-### reverb
+### reverb
 
 `Oct  4  2024 reverb`
 
@@ -9601,7 +9601,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/reverb
 ```
 
-### stablets
+### stablets
 
 `Mar 13  2024 stablets`
 
@@ -9659,7 +9659,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/stablets
 ```
 
-### syncasr
+### syncasr
 
 `Apr 11  2023 syncasr`
 
@@ -9714,7 +9714,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/syncasr
 ```
 
-### tmhpip
+### tmhpip
 
 `Jul 30  2024 tmhpip`
 
@@ -9862,7 +9862,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/tmhpip
 ```
 
-### torchview
+### torchview
 
 `Mar  6  2024 torchview`
 
@@ -9962,7 +9962,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/torchview
 ```
 
-### voicepipe
+### voicepipe
 
 `Sep  4  2024 voicepipe`
 
@@ -10083,7 +10083,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/voicepipe
 ```
 
-### whisper
+### whisper
 
 `Apr 12  2023 whisper`
 
@@ -10158,7 +10158,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper
 ```
 
-### whisper-v2
+### whisper-v2
 
 `Feb 28  2023 whisper-v2`
 
@@ -10222,7 +10222,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper-v2
 ```
 
-### whisper-v3
+### whisper-v3
 
 `Mar 14  2024 whisper-v3`
 
@@ -10502,7 +10502,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper-v3
 ```
 
-### whisper-x
+### whisper-x
 
 `Feb 29  2024 whisper-x`
 
@@ -10661,7 +10661,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper-x
 ```
 
-### whisper_timed
+### whisper_timed
 
 `Feb 25  2023 whisper_timed`
 
@@ -10729,7 +10729,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper_timed
 ```
 
-### whisperft
+### whisperft
 
 `Dec  6  2023 whisperft`
 
@@ -10761,7 +10761,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisperft
 ```
 
-### whisperx
+### whisperx
 
 `Oct 14  2024 whisperx`
 
@@ -11279,7 +11279,7 @@ prefix: /home/joregan/miniconda3
 
 ## sbtaldeep11
 
-### hf
+### hf
 
 `Feb 28  2023 hf`
 
@@ -11503,7 +11503,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf
 ```
 
-### hspell
+### hspell
 
 `Nov 23  2022 hspell`
 
@@ -11514,7 +11514,7 @@ channels:
 prefix: /home/joregan/miniconda3/envs/hspell
 ```
 
-### nemo
+### nemo
 
 `Feb  1  2023 nemo`
 
@@ -11699,7 +11699,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/nemo
 ```
 
-### phonetisaurus
+### phonetisaurus
 
 `Sep  5  2023 phonetisaurus`
 
@@ -11735,7 +11735,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/phonetisaurus
 ```
 
-### point-e
+### point-e
 
 `Dec 21  2022 point-e`
 
@@ -11808,7 +11808,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/point-e
 ```
 
-### whisper
+### whisper
 
 `Feb 28  2023 whisper`
 
@@ -11887,7 +11887,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper
 ```
 
-### base
+### base
 
 ```yaml
 name: base
@@ -11955,7 +11955,7 @@ prefix: /home/joregan/miniconda3
 
 ## sbtaldeep24
 
-### espnet
+### espnet
 
 `Nov 30  2023 espnet`
 
@@ -12121,7 +12121,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/espnet
 ```
 
-### fairseq
+### fairseq
 
 `Mar  3  2023 fairseq`
 
@@ -12228,7 +12228,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/fairseq
 ```
 
-### hf
+### hf
 
 `Mar  1  2023 hf`
 
@@ -12487,7 +12487,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf
 ```
 
-### hf2
+### hf2
 
 `Aug 28  2024 hf2`
 
@@ -12645,7 +12645,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/hf2
 ```
 
-### multicheck
+### multicheck
 
 `Dec 21  2023 multicheck`
 
@@ -12768,7 +12768,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/multicheck
 ```
 
-### whisper
+### whisper
 
 `Nov 29  2023 whisper`
 
@@ -12856,7 +12856,7 @@ dependencies:
 prefix: /home/joregan/miniconda3/envs/whisper
 ```
 
-### whisperx
+### whisperx
 
 `Oct 14  2024 whisperx`
 
@@ -12993,7 +12993,7 @@ prefix: /home/joregan/miniconda3
 
 ## laptop
 
-### allosaurus
+### allosaurus
 
 `Sep 30  2024 allosaurus`
 
@@ -13054,7 +13054,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/allosaurus
 ```
 
-### ctcaligner
+### ctcaligner
 
 `Oct 25  2024 ctcaligner`
 
@@ -13084,7 +13084,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/ctcaligner
 ```
 
-### ctcseg
+### ctcseg
 
 `Jan 26 13:39 ctcseg`
 
@@ -13261,7 +13261,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/ctcseg
 ```
 
-### dsalign
+### dsalign
 
 `Aug  7  2023 dsalign`
 
@@ -13322,7 +13322,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/dsalign
 ```
 
-### euporia
+### euporia
 
 `Aug 10  2024 euporia`
 
@@ -13443,7 +13443,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/euporia
 ```
 
-### g2p_env
+### g2p_env
 
 `Sep 19  2024 g2p_env`
 
@@ -13760,7 +13760,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/g2p_env
 ```
 
-### hf
+### hf
 
 `Jan 20 16:35 hf`
 
@@ -13984,7 +13984,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/hf
 ```
 
-### hf_new
+### hf_new
 
 `Dec 18 16:32 hf_new`
 
@@ -14093,7 +14093,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/hf_new
 ```
 
-### hunspell
+### hunspell
 
 `Oct 22 16:11 hunspell`
 
@@ -14181,7 +14181,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/hunspell
 ```
 
-### jupyterlab
+### jupyterlab
 
 `Jan 29  2025 jupyterlab`
 
@@ -14478,7 +14478,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/jupyterlab
 ```
 
-### labelstudio
+### labelstudio
 
 `Sep 17  2024 labelstudio`
 
@@ -14628,7 +14628,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/labelstudio
 ```
 
-### lhotse
+### lhotse
 
 `Oct 30  2023 lhotse`
 
@@ -14684,7 +14684,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/lhotse
 ```
 
-### magiutils
+### magiutils
 
 `Aug  4  2024 magiutils`
 
@@ -14718,7 +14718,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/magiutils
 ```
 
-### match-ttsg
+### match-ttsg
 
 `Sep  4  2024 match-ttsg`
 
@@ -14748,7 +14748,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/match-ttsg
 ```
 
-### matcha-tts
+### matcha-tts
 
 `Nov 22  2023 matcha-tts`
 
@@ -15017,7 +15017,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/matcha-tts
 ```
 
-### mfa-dev
+### mfa-dev
 
 `Aug  3  2024 mfa-dev`
 
@@ -15290,7 +15290,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/mfa-dev
 ```
 
-### nst-tts
+### nst-tts
 
 `Jan 21 16:09 nst-tts`
 
@@ -15526,7 +15526,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/nst-tts
 ```
 
-### openfst
+### openfst
 
 `May  7  2025 openfst`
 
@@ -15606,7 +15606,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/openfst
 ```
 
-### phonemizer
+### phonemizer
 
 `Sep  5  2024 phonemizer`
 
@@ -15742,7 +15742,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/phonemizer
 ```
 
-### phonetisaurus
+### phonetisaurus
 
 `Aug 31  2024 phonetisaurus`
 
@@ -15772,7 +15772,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/phonetisaurus
 ```
 
-### poppler
+### poppler
 
 `Mar 14  2023 poppler`
 
@@ -15840,7 +15840,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/poppler
 ```
 
-### ps_pl
+### ps_pl
 
 `Jan 21 15:58 ps_pl`
 
@@ -15990,7 +15990,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/ps_pl
 ```
 
-### pywb
+### pywb
 
 `Dec 18 16:32 pywb`
 
@@ -16107,7 +16107,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/pywb
 ```
 
-### signal-export
+### signal-export
 
 `Jan 30  2023 signal-export`
 
@@ -16150,7 +16150,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/signal-export
 ```
 
-### stanza
+### stanza
 
 `May 17  2025 stanza`
 
@@ -16244,7 +16244,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/stanza
 ```
 
-### syncasr
+### syncasr
 
 `Dec 18 16:32 syncasr`
 
@@ -16334,7 +16334,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/syncasr
 ```
 
-### torchaudio
+### torchaudio
 
 `Dec 14  2023 torchaudio`
 
@@ -16499,7 +16499,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/torchaudio
 ```
 
-### udpipe
+### udpipe
 
 `Nov 16  2024 udpipe`
 
@@ -16530,7 +16530,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/udpipe
 ```
 
-### vosk
+### vosk
 
 `Jul 24  2024 vosk`
 
@@ -16571,7 +16571,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/vosk
 ```
 
-### vtt
+### vtt
 
 `Oct 16  2024 vtt`
 
@@ -16584,7 +16584,7 @@ channels:
 prefix: /Users/joregan/opt/anaconda3/envs/vtt
 ```
 
-### waxholm
+### waxholm
 
 `Mar  8  2024 waxholm`
 
@@ -16674,7 +16674,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/waxholm
 ```
 
-### whatsapp
+### whatsapp
 
 `Jan  4  2024 whatsapp`
 
@@ -16712,7 +16712,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/whatsapp
 ```
 
-### whisper
+### whisper
 
 `Sep 23  2022 whisper`
 
@@ -16768,7 +16768,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/whisper
 ```
 
-### xfm
+### xfm
 
 `Dec 15  2023 xfm`
 
@@ -16914,7 +16914,7 @@ dependencies:
 prefix: /Users/joregan/opt/anaconda3/envs/xfm
 ```
 
-### ytdl
+### ytdl
 
 `Feb 21  2023 ytdl`
 
