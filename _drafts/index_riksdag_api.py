@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 import argparse
 import copy
+import re
 
 
 BASE_KEYS = ['videostatus', 'committee', 'type', 'debatepreamble', 'debatetexthtml', 'livestreamurl', 'activelivespeaker', 'id', 'dokid', 'title', 'debatename', 'debatedate', 'debatetype', 'debateurl', 'fromchamber', 'thumbnailurl', 'debateseconds']
@@ -69,20 +70,32 @@ def read_api_json(filename):
             pg["paragraph"] = count
             speakers.append(pg)
             count += 1
-            print(pg)
     return base, speakers
 
 
+PUNCT_FINAL = [")", ".", ",", "!", ":", ";", "?", '"']
+
+
 def clean_text(text):
-    text = text.replace("\r\n", " ")
+    text = text.strip().replace("\r\n", " ")
+    if text == "":
+        return ""
+    if len(text) == 1 and text in PUNCT_FINAL:
+        return ""
+    while text[-1] in PUNCT_FINAL:
+        text = text[:-1]
+    while text[0] in ["(", '"']:
+        text = text[1:]
     text = text.replace("\n", " ")
     text = text.strip()
+    text = text.replace('"', "")
     text = text.replace(". ", " ")
-    text = text.replace(",", " ")
+    text = text.replace(", ", " ")
     text = text.replace(";", "")
-    text = text.replace(":", "")
+    text = text.replace(": ", " ")
     text = text.replace("!", "")
     text = text.replace("?", "")
+    text = re.sub("  +", " ", text)
     text = text.lower()
     
     return text
@@ -97,8 +110,14 @@ def main():
             if doc is None or speakers is None:
                 continue
             for speaker in speakers:
-                docid = f'{doc["streamurl"]}_{speaker["paragraph"]}'
+                if speaker["text"].strip() == "":
+                    continue
+                elif speaker["text"].strip().startswith("STYLEREF Kantrubrik"):
+                    continue
+                docid = f'{doc["streamurl"].split("/")[-1]}_{speaker["paragraph"]}'
                 text = clean_text(speaker["text"])
+                if text == "":
+                    continue
                 outf.write(f"{docid} {text}\n")
 
 
