@@ -9,17 +9,20 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT8lNwxDTbB/)
 
-Gondoltad volna, hogy ebben a régi titkos katonai objektumban egykor Magyarország legbenőbb tiszkója üzemelt?
-Talcsetok felámezen az Urbex-túrán, ahol a szikla az az igazi nevén a revolution titkait fedezzük fel a föld alatt miskolc közelében.
-A szikla a 30-as években punkernek épült politikai vezetők számára, akik a közelben lévül palotta szálóban szálltak meg.
-A turista szálószó igazából egy fedőnév volt, mert a helyi katonai légvédemi bázisként működött.
-A rendszerváltáskor azonban a katonai objektumb funkcióját vesztette és évekig gyüresen át.
-Csak addig, amik 95-ben megnennitottak kapuid a környék lebbenőbb diszkója, ami a revolution nevet kapta.
-A diszkó megnitója hatalmas sikert aratott, ezekben a ketrecekben például kubaitáncos nögtáncoltak és mindenki odaig voltértük.
-A bejárat előtt kigyózósorok várták, hogy a föld alattitelmekben bulis hassanak.
-A fiatalokat a kőnyező városomból pedig buszok szállították a sziklához.
-98-ban pedig a revolution diszkó is bezártak kapuid és azóta lakat volt az ajtókon.
-Egészen most a náig.
-Nem ríg ugyanis megnitották a sziklát és most urbekszúra keretén belül fedeszedjük fel, miskoldsz környékének legtudogzatosabb épületét a föld alatt.
-Ha téged is érdekel egy ilyen túra, akkor időpontot a bükki nemzeti parkoldanán foglalhat.
-Remélem érdekesnek tartottátok ezt a videót, ha sóló tartalmak ért kövessetek be!
+Diszkó a föld alatt
+Urbextúra a Sziklában
+
+Gondoltad volna, hogy ebben a régi titkos katonai objektumban egykor Magyarország legmenőbb diszkója üzemelt?
+Tartsatok velem ezen az Urbex túrán, ahol a Szikla, azaz igazi nevén a Revolution titkait fedezzük fel a föld alatt Miskolc közelében.
+A Szikla a 30-as években bunkernek épült politikai vezetők számára, akik a közelben lévő Palotaszállóban szálltak meg.
+A Turistaszálló szó igazából egy fedőnév volt, mert a hely katonai légvédelmi bázisként működött.
+A rendszerváltáskor azonban a katonai objektum funkcióját vesztette és évekig üresen állt.
+Csak addig, amik 95-ben meg nem nyitotta kapuit a környék legmenőbb diszkója, ami a Revolution nevet kapta.
+A diszkó megnitója hatalmas sikert aratott, ezekben a ketrecekben például kubai táncosnök táncoltak és mindenki odáig volt értük.
+A bejárat előtt kigyózó sorok várták, hogy a föld alatti termekben bulizhassanak,
+A fiatalokat a kőrnyező városokból pedig buszok szállították a Sziklához.
+98-ban pedig a Revolution diszkó is bezártak kapuit, és azóta lakat volt az ajtókon.
+Egészen mostanáig.
+Nemrég ugyanis megnyitották a Sziklát, és most Urbex túra keretén belül fedezhetjük fel Miskolc környékének legtitokzatosabb épületét a föld alatt.
+Ha téged is érdekel egy ilyen túra, akkor időpontot a Bükki Nemzeti Park oldalán foglalhatsz.
+Remélem érdekesnek tartottátok ezt a videót. Hasónló tartalmakért kövessetek be!
