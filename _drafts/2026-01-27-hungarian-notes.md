@@ -9,12 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT8lNwxDTbB/)
 
-Szuper, **ugyanabban a formában**, ahogy kérted:
-👉 **line-by-line translation + külön szókincslista**.
-Nincs kommentár, nincs magyarázkodás.
-
----
-
 ## Line-by-line translation
 
 **Diszkó a föld alatt**
@@ -65,8 +59,6 @@ Nincs kommentár, nincs magyarázkodás.
 **Remélem érdekesnek tartottátok ezt a videót. Hasonló tartalmakért kövessetek be!**
 → *I hope you found this video interesting. Follow me for similar content!*
 
----
-
 ## Vocabulary (extracted)
 
 * **diszkó** – disco
@@ -86,8 +78,6 @@ Nincs kommentár, nincs magyarázkodás.
 * **lakat volt az ajtókon** – the doors were locked
 * **legtitokzatosabb** – most mysterious
 * **időpontot foglal** – to book an appointment / time slot
-
-Ha szeretnéd, legközelebb csinálhatunk **B2–C1 “storytelling” szókincslistát** (tipikus urbex / dokumentumfilmes nyelvvel), vagy kiszűrhetem belőle a **leggyakoribb Instagram-magyar fordulatokat**.
 
 -----
 
