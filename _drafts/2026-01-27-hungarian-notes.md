@@ -141,7 +141,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT_CrtICOTF/)
 
-[00:00.000 --> 00:06.000]  Aki ne kimondom most a nevét, az jön neked egy 721 luerős Ferrari F-nyomac elmélyvezetéssel a DRX-nél.
-[00:06.000 --> 00:10.300]  Bence, Gergő, Levente, Anna, Hanna és Lúca.
-[00:10.300 --> 00:15.000]  De srácok, tiszaaggogyatok, ugyanis ez nálunk, összesen 44 ezer forintba kerül.
-[00:15.000 --> 00:16.300]  DRX Sportban Thu!
+Aki ne kimondom most a nevét, az jön neked egy 721 luerős Ferrari F-nyomac elmélyvezetéssel a DRX-nél.
+Bence, Gergő, Levente, Anna, Hanna és Lúca.
+De srácok, tiszaaggogyatok, ugyanis ez nálunk, összesen 44 ezer forintba kerül.
+DRX Sportban Thu!
