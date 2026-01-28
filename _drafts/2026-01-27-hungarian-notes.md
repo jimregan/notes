@@ -141,7 +141,39 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT_CrtICOTF/)
 
-Akinek kimondom most a nevét, az jön neked egy 721 lóerős Ferrari F8 elményvezetéssel a DRX-nél.
-Bence, Gergő, Levente, Anna, Hanna és Lúca.
-De srácok, ti se aggodjatok, ugyanis ez nálunk összesen 44.000 forintba kerül.
-DRXSport.hu
+Here you go — **line-by-line translation with the original**, followed by a **compact vocabulary list**. Nothing extra.
+
+---
+
+## Line-by-line translation
+
+**Akinek kimondom most a nevét, az nyer neked egy 721 lóerős Ferrari F8 élményvezetést a DRX-nél.**
+→ *Whoever I say the name of now wins you a 721-horsepower Ferrari F8 driving experience at DRX.*
+
+**Bence, Gergő, Levente, Anna, Hanna és Luca.**
+→ *Bence, Gergő, Levente, Anna, Hanna, and Luca.*
+
+**De srácok, ti se aggódjatok, ugyanis ez nálunk összesen 44 000 forintba kerül.**
+→ *But guys, don’t worry either, because with us this costs a total of 44,000 forints.*
+
+**DRXSport.hu**
+→ *DRXSport.hu*
+
+---
+
+## Vocabulary
+
+* **akinek** – *to whom / whoever*
+* **kimondom a nevét** – *I say their name*
+* **nyer** – *wins*
+* **lóerős** – *horsepower (hp)*
+* **élményvezetés** – *driving experience*
+* **aggódni** – *to worry*
+* **ugyanis** – *because / since*
+* **összesen** – *in total*
+* **forint** – *Hungarian currency (HUF)*
+
+If you want, I can also:
+
+* flag **marketing language vs literal meaning**, or
+* give a **frequency list** of promo/giveaway phrases like this.
