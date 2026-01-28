@@ -4,23 +4,20 @@ https://huggingface.co/annadeichler
 Hugging Face – The AI community building the future.
 https://huggingface.co/
 
-Models – Hugging Face
-https://huggingface.co/models?other=ASR&p=1&sort=trending
+KTH/HiMo at main
+https://huggingface.co/datasets/KTH/HiMo/tree/main/data
 
-nvidia/audio-flamingo-3-hf · Hugging Face
-https://huggingface.co/nvidia/audio-flamingo-3-hf
+KTH-RPL/HiMo: [T-RO'25] HiMo: High-Speed Objects Motion Compensation in Point Clouds
+https://github.com/KTH-RPL/HiMo
 
-eamonmckenna (Eamon)
-https://huggingface.co/eamonmckenna
+microsoft/VibeVoice: Open-Source Frontier Voice AI
+https://github.com/microsoft/VibeVoice?tab=readme-ov-file
 
-VIBEVOICE-ASR Technical Report
-https://arxiv.org/pdf/2601.18184
+VibeVoice/docs/vibevoice-asr.md at main · microsoft/VibeVoice
+https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr.md
 
 VibeVoice ASR Demo
-https://dd66e23bd8ab778987.gradio.live/?view=settings
-
-VibeVoice/docs/vibevoice-vllm-asr.md at main · microsoft/VibeVoice
-https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-vllm-asr.md
+https://dd66e23bd8ab778987.gradio.live/?
 
 VibeVoice/finetuning-asr/README.md at main · microsoft/VibeVoice
 https://github.com/microsoft/VibeVoice/blob/main/finetuning-asr/README.md
@@ -61,11 +58,14 @@ https://github.com/sihyun-yu/REPA
 Linear Attention for LLMs
 https://chatgpt.com/c/69558459-bf90-832b-96a7-4d15cccba19c
 
-(1) Instagram
+(2) Instagram
 https://www.instagram.com/
 
 (2) Instagram
-https://www.instagram.com/
+https://www.instagram.com/reels/DT_CrtICOTF/
+
+(2) Instagram
+https://www.instagram.com/milena.meyy/reels/
 
 supertone-inc/super-monotonic-align
 https://github.com/supertone-inc/super-monotonic-align
@@ -149,7 +149,7 @@ Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English 
 https://github.com/NVIDIA-NeMo/NeMo/issues/13825
 
 (2) Instagram
-https://www.instagram.com/reels/DT8erXuDNbZ/
+https://www.instagram.com/reels/DT-XETsiIPy/
 
 getman24b_interspeech.pdf
 https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.pdf
@@ -352,22 +352,61 @@ https://librivox.org/robinson-crusoe-by-daniel-defoe-2/
 wenet-e2e/wespeaker: Research and Production Oriented Speaker Verification, Recognition and Diarization Toolkit
 https://github.com/wenet-e2e/wespeaker
 
-Branches · jimregan/notes
-https://github.com/jimregan/notes/branches
+Tags | notes
+https://jimregan.github.io/notes/categories/#irish
 
-jimregan/notes
-https://github.com/jimregan/notes?tab=readme-ov-file
+Parse pre-standard Irish via standardiser | notes
+https://jimregan.github.io/notes/irish/ud/stanza/2025/05/12/parse-prestandard-irish-take1.html
 
-AutomaticSpeechRecognition pipeline cannot predict WORD timestamps for Whisper models finetuned without timestamps prediction · Issue #30148 · huggingface/transformers
-https://github.com/huggingface/transformers/issues/30148
+Irish phonetic recognition model | notes
+https://jimregan.github.io/notes/irish/phonetic/wav2vec/2025/02/20/irish-phonetic-demo.html
 
-Pipelines
-https://huggingface.co/docs/transformers/v4.41.2/en/main_classes/pipelines#transformers.AutomaticSpeechRecognitionPipeline.__call__.return_timestamps
+Current things, 14 June 2025 - Pronoun Mapping in Text
+https://chatgpt.com/c/6979144b-ad28-8327-9852-39db1019538a
 
-Transformers ValueError Fix
-https://chatgpt.com/c/6978f168-6bec-832f-92c8-675989fcddf3
+Universal Dependencies
+https://universaldependencies.org/#language-
 
-ia902800.us.archive.org/3/items/dubliners_0906_librivox/dubliners_03_joyce_64kb.mp3
-https://ia902800.us.archive.org/3/items/dubliners_0906_librivox/dubliners_03_joyce_64kb.mp3
+UD Guidelines (Universal Dependencies)
+https://universaldependencies.org/guidelines.html
+
+DepEdit - a tool for manipulating dependency trees
+https://gucorpling.org//depedit/
+
+Untitled66.ipynb - Colab
+https://colab.research.google.com/drive/1Ma_GP2NhITIQxkXZVeofhX9qUOKoS--p#scrollTo=rEUHMBbIDgow
+
+An Bhinn Bhorb/Benburb | logainm.ie
+https://www.logainm.ie/en/1165528
+
+Béal an Átha Buí/Bellanaboy | logainm.ie
+https://www.logainm.ie/en/29344
+
+University Security Policy Pushback
+https://chatgpt.com/c/6978b40f-55d0-832a-9d0e-e284ed9f0708
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Do%20leanadar%20ag%20%22%20seasamh%20a%20gcirt%20%22%20go%20dt%C3%AD%20go%20ndearna%20Eoghan%20Rua%20%C3%93%20N%C3%A9ill%20%2C%20ag%20an%20mBinn%20mBorb%20%2C%20gn%C3%ADomh%20d%C3%ADreach%20de%20shaghas%20an%20ghn%C3%ADmh%20a%20rinne%20dearth%C3%A1ir%20a%20athar%20agus%20Aodh%20Rua%20%C3%93%20D%C3%B3naill%20ag%20B%C3%A9al%20an%20%C3%81tha%20Bu%C3%AD%20deich%20mbliana%20agus%20daichead%20roimhe%20sin%20.&op=translate
+
+New tab
+chrome://newtab/
+
+Tutorial: Authoring – Quarto
+https://quarto.org/docs/get-started/authoring/vscode.html
+
+The status of function words in dependency grammar: A critique of Universal Dependencies (UD) | Glossa: a journal of general linguistics
+https://www.glossa-journal.org/article/id/5124/
+
+[cs/0612139] Alignment of Speech to Highly Imperfect Text Transcriptions
+https://arxiv.org/abs/cs/0612139
+
+Alignment of Speech to Highly Imperfect Text Transcriptions | IEEE Conference Publication | IEEE Xplore
+https://ieeexplore.ieee.org/document/4284627
+
+Cube Clipping
+https://www.clear.rice.edu/elec431/projects96/digitalbb/cubeclip.html
+
+Claude
+https://claude.ai/settings/billing
 
 
