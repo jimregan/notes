@@ -141,7 +141,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT_CrtICOTF/)
 
-Aki ne kimondom most a nevét, az jön neked egy 721 luerős Ferrari F-nyomac elmélyvezetéssel a DRX-nél.
+Akinek kimondom most a nevét, az jön neked egy 721 lóerős Ferrari F8 elményvezetéssel a DRX-nél.
 Bence, Gergő, Levente, Anna, Hanna és Lúca.
-De srácok, tiszaaggogyatok, ugyanis ez nálunk, összesen 44 ezer forintba kerül.
-DRX Sportban Thu!
+De srácok, ti se aggodjatok, ugyanis ez nálunk összesen 44.000 forintba kerül.
+DRXSport.hu
