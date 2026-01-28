@@ -26,3 +26,7 @@ Egészen mostanáig.
 Nemrég ugyanis megnyitották a Sziklát, és most Urbex túra keretén belül fedezhetjük fel Miskolc környékének legtitokzatosabb épületét a föld alatt.
 Ha téged is érdekel egy ilyen túra, akkor időpontot a Bükki Nemzeti Park oldalán foglalhatsz.
 Remélem érdekesnek tartottátok ezt a videót. Hasónló tartalmakért kövessetek be!
+
+-----
+
+[Reel](https://www.instagram.com/reels/DUDvkbSCMqM/)
