@@ -83,11 +83,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUDvkbSCMqM/)
 
-Got it — this **is** uncomplicated, just Whisper-mangled.
-Below is a **cleaned Hungarian line → natural English**, then a **small vocab list**. No extras.
-
----
-
 ## Line-by-line translation (with corrected Hungarian)
 
 **Jó fiú vagy rossz fiú?**
@@ -130,8 +125,6 @@ Below is a **cleaned Hungarian line → natural English**, then a **small vocab 
 **Ezt majd kivárni, oké?**
 → *Let’s wait this out, okay?*
 
----
-
 ## Vocabulary (useful bits)
 
 * **jó fiú / rossz fiú** – good boy / bad boy
@@ -144,7 +137,3 @@ Below is a **cleaned Hungarian line → natural English**, then a **small vocab 
 * **sör / bor** – beer / wine
 * **kivárni** – to wait it out
 
-If you want, next step could be:
-
-* **frequency-ranked slang** from this style of dating-interview clips, or
-* a **Whisper error cheat sheet** (recognizing patterns like *haddjuk → hagyjuk*, *pienés → pihenés*).
