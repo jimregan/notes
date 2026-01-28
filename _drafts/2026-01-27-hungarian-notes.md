@@ -83,16 +83,68 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUDvkbSCMqM/)
 
-[00:00.000 --> 00:02.000]  Jó fiú vagy rossz fiú?
-[00:02.000 --> 00:03.500]  A rossz fiú.
-[00:03.500 --> 00:05.500]  Minden mentes vagy haddjuk már?
-[00:05.500 --> 00:07.000]  Haddjuk már.
-[00:07.000 --> 00:09.000]  Tultalás vagy pienés?
-[00:09.000 --> 00:11.000]  Tultalás.
-[00:11.000 --> 00:13.500]  Szervezet programok vagy spontána milyen?
-[00:13.500 --> 00:15.000]  Szentány na milyen?
-[00:15.000 --> 00:18.000]  Egy finom pohár bor vagy maradok a ség nél?
-[00:18.000 --> 00:20.000]  Ség.
-[00:20.000 --> 00:22.000]  Pizzat hamburger?
-[00:24.000 --> 00:27.500]  Hamburger, vagyok a reggikersen.
-[00:27.500 --> 00:29.500]  Ezt majd ki várni, oké?
+Got it — this **is** uncomplicated, just Whisper-mangled.
+Below is a **cleaned Hungarian line → natural English**, then a **small vocab list**. No extras.
+
+---
+
+## Line-by-line translation (with corrected Hungarian)
+
+**Jó fiú vagy rossz fiú?**
+→ *Good boy or bad boy?*
+
+**A rossz fiú.**
+→ *The bad boy.*
+
+**Minden mentes vagy, hagyjuk már?**
+→ *“Free of everything” (sugar/gluten/etc.), or come on, forget it?*
+
+**Hagyjuk már.**
+→ *Forget it / come on.*
+
+**Túltalálás vagy pihenés?** *(= túltolás)*
+→ *Overdoing it or relaxing?*
+
+**Túltolás.**
+→ *Overdoing it.*
+
+**Szervezett programok vagy spontán?**
+→ *Planned programs or spontaneous?*
+
+**Spontán, na milyen?**
+→ *Spontaneous — well, how is it?*
+
+**Egy finom pohár bor, vagy maradok a sörnél?**
+→ *A nice glass of wine, or should I stick with beer?*
+
+**Sör.**
+→ *Beer.*
+
+**Pizza vagy hamburger?**
+→ *Pizza or hamburger?*
+
+**Hamburger, vagyok a reggelinél.**
+→ *Hamburger — I’m all about breakfast.*
+*(≈ “I’m a breakfast person” / playful nonsense)*
+
+**Ezt majd kivárni, oké?**
+→ *Let’s wait this out, okay?*
+
+---
+
+## Vocabulary (useful bits)
+
+* **jó fiú / rossz fiú** – good boy / bad boy
+* **hagyjuk már** – come on, forget it
+* **túltolás** – overdoing it, going too far
+* **pihenés** – resting, relaxing
+* **szervezett** – organized, planned
+* **spontán** – spontaneous
+* **maradok a …-nál** – I’ll stick with …
+* **sör / bor** – beer / wine
+* **kivárni** – to wait it out
+
+If you want, next step could be:
+
+* **frequency-ranked slang** from this style of dating-interview clips, or
+* a **Whisper error cheat sheet** (recognizing patterns like *haddjuk → hagyjuk*, *pienés → pihenés*).
