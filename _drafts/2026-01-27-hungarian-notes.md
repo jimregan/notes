@@ -82,3 +82,17 @@ categories: [hungarian, chatgpt, reels]
 -----
 
 [Reel](https://www.instagram.com/reels/DUDvkbSCMqM/)
+
+[00:00.000 --> 00:02.000]  Jó fiú vagy rossz fiú?
+[00:02.000 --> 00:03.500]  A rossz fiú.
+[00:03.500 --> 00:05.500]  Minden mentes vagy haddjuk már?
+[00:05.500 --> 00:07.000]  Haddjuk már.
+[00:07.000 --> 00:09.000]  Tultalás vagy pienés?
+[00:09.000 --> 00:11.000]  Tultalás.
+[00:11.000 --> 00:13.500]  Szervezet programok vagy spontána milyen?
+[00:13.500 --> 00:15.000]  Szentány na milyen?
+[00:15.000 --> 00:18.000]  Egy finom pohár bor vagy maradok a ség nél?
+[00:18.000 --> 00:20.000]  Ség.
+[00:20.000 --> 00:22.000]  Pizzat hamburger?
+[00:24.000 --> 00:27.500]  Hamburger, vagyok a reggikersen.
+[00:27.500 --> 00:29.500]  Ezt majd ki várni, oké?
