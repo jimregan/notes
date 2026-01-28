@@ -141,10 +141,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DT_CrtICOTF/)
 
-Here you go — **line-by-line translation with the original**, followed by a **compact vocabulary list**. Nothing extra.
-
----
-
 ## Line-by-line translation
 
 **Akinek kimondom most a nevét, az nyer neked egy 721 lóerős Ferrari F8 élményvezetést a DRX-nél.**
@@ -159,8 +155,6 @@ Here you go — **line-by-line translation with the original**, followed by a **
 **DRXSport.hu**
 → *DRXSport.hu*
 
----
-
 ## Vocabulary
 
 * **akinek** – *to whom / whoever*
@@ -172,8 +166,3 @@ Here you go — **line-by-line translation with the original**, followed by a **
 * **ugyanis** – *because / since*
 * **összesen** – *in total*
 * **forint** – *Hungarian currency (HUF)*
-
-If you want, I can also:
-
-* flag **marketing language vs literal meaning**, or
-* give a **frequency list** of promo/giveaway phrases like this.
