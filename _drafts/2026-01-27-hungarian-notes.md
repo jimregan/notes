@@ -137,3 +137,6 @@ categories: [hungarian, chatgpt, reels]
 * **sör / bor** – beer / wine
 * **kivárni** – to wait it out
 
+-----
+
+[Reel](https://www.instagram.com/reels/DT_CrtICOTF/)
