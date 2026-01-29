@@ -9,14 +9,6 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUBD3t-j41J/)
 
-Got it. **Exactly what you asked for**:
-
-1. **Line-by-line translation with the original kept**,
-2. **Extracted vocabulary list**.
-   No commentary, no analysis.
-
----
-
 ## Line-by-line translation
 
 **Szia Vivi! A szüleim adtak 90 millió forintot. Szóval mutass nekem valami csodás lakást ennyiért.**
@@ -52,8 +44,6 @@ Got it. **Exactly what you asked for**:
 **Eladva!**
 → *Sold!*
 
----
-
 ## Vocabulary
 
 * **szülők** – parents
@@ -75,13 +65,6 @@ Got it. **Exactly what you asked for**:
 * **megtekintés** – viewing
 * **irányáras ajánlat** – asking-price / guide-price offer
 * **eladva** – sold
-
-If you want next time:
-
-* **spoken-Hungarian cleanup** (natural phrasing vs influencer style), or
-* **real-estate phrase frequency list**,
-  just say the word.
-
 
 -----
 
