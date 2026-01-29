@@ -24,11 +24,12 @@ Eladva!
 
 [Reel](https://www.instagram.com/reels/DUELLvPgr1_/)
 
-Az a mértékű férfi gyűlölált, ami állfagadottán vált a közösségi médiában,
-az egyáltalán nem felszabadító, hanem sokkal inkább romboló.
-Itt van néhány konkrét magyar példa, akik az erőszakolószó helyet a férfiszót használták.
-És nem, ez nem a szélentélyek ne lennének erőszakos, agresszív, vagy súlyosan dysfunkcionálisan működő férfiak,
-mert vannak, de hogyha valódi változást szeretnénk,
+Az a mértékű férfi gyűlölált, 
+ami elfogadottá vált a közösségi médiában,
+az egyáltalán nem felszabadító, hanem sokkal inkább romboló...
+És nem... Itt van néhány konkrét magyar példa, akik az erőszakolószó helyet a férfiszót használták.
+És nem azt jelenti, hogy ne lennének erőszakos, agresszív, vagy súlyosan diszfuncionálisan működő férfiak,
+mert vannak. De hogyha valódi változást szeretnénk,
 akkor egyszerűen nem lehet gyűlöletel gyógyítani.
 Az teljesen érthető, hogy a nőknek a kollektív tapasztalatait azt elégerültesem meghatározta a történelem,
 elnyomtak minket, megfosztottak a jogainktól, nem hagytak tanulni, nem hagyták, hogy ön megvalósítsunk.
