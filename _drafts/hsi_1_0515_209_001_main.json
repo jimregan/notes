@@ -1,8 +1,3 @@
---- ✅ Raw Output ---
-📥 Input: 2341 tokens (🎤 speech: 2282, 📝 text: 59, ⬜ pad: 0)
-📤 Output: 2657 tokens | ⏱️ Time: 99.84s
----
-assistant
 [{"Start":0,"End":1.82,"Speaker":0,"Content":"That's true."},
 {"Start":1.82,"End":3.43,"Speaker":1,"Content":"Hello, Anya."},
 {"Start":3.43,"End":4.59,"Speaker":0,"Content":"Hello."},
