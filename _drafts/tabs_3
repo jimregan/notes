@@ -10,11 +10,11 @@ https://huggingface.co/datasets/KTH/HiMo/tree/main/data
 KTH-RPL/HiMo: [T-RO'25] HiMo: High-Speed Objects Motion Compensation in Point Clouds
 https://github.com/KTH-RPL/HiMo
 
-VIBEVOICE-ASR Technical Report
-https://arxiv.org/pdf/2601.18184
+VibeVoice/docs/vibevoice-vllm-asr.md at main · microsoft/VibeVoice
+https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-vllm-asr.md
 
-VibeVoice/docs/vibevoice-asr.md at main · microsoft/VibeVoice
-https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr.md
+[2601.18184] VIBEVOICE-ASR Technical Report
+https://arxiv.org/abs/2601.18184
 
 VibeVoice ASR Demo
 https://dd66e23bd8ab778987.gradio.live/?
@@ -34,15 +34,6 @@ https://www.youtube.com/watch?v=YiqIkSHSmyc&list=PLUl4u3cNGP63oMNUHXqIUcrkS2Pivh
 Home / X
 https://x.com/home
 
-DailyPapers on X: "Google discovers emergent temporal abstractions in autoregressive models These models learn linearly controllable action representations in their residual streams—activating them executes long-horizon behaviors. This enables Internal RL to solve sparse-reward hierarchical tasks https://t.co/GxOObljGcB" / X
-https://x.com/HuggingPapers/status/2004645512079659192
-
-[2512.20605] Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning
-https://arxiv.org/abs/2512.20605
-
-Tweet Screenshot Source Explained
-https://chatgpt.com/c/694f21a2-6d00-832d-93cd-560c63893afa
-
 sihyun-yu/REPA: [ICLR'25 Oral] Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think
 https://github.com/sihyun-yu/REPA?utm_source=chatgpt.com
 
@@ -57,9 +48,6 @@ https://github.com/sihyun-yu/REPA
 
 Linear Attention for LLMs
 https://chatgpt.com/c/69558459-bf90-832b-96a7-4d15cccba19c
-
-Instagram
-https://www.instagram.com/
 
 supertone-inc/super-monotonic-align
 https://github.com/supertone-inc/super-monotonic-align
@@ -250,53 +238,17 @@ https://github.com/lumaku/ctc-segmentation?tab=readme-ov-file
 Hungarian Anki Vocabulary
 https://chatgpt.com/c/69763403-f00c-832e-b2c7-eb8a505f599d
 
-egyedül - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/egyed%C3%BCl
-
-Category:Hungarian adverbs suffixed with -ül - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/Category:Hungarian_adverbs_suffixed_with_-%C3%BCl
-
-Category:Hungarian terms by suffix - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/Category:Hungarian_terms_by_suffix
-
-izgalmas - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/izgalmas#Hungarian
-
-Språkbanken CLARIN
-https://sprakbanken-clarin.lingfil.uu.se/konsortiemote.html
-
-ChatGPT - CBT
-https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/69767135-6c68-8329-826d-562f64444271
-
-New tab
-chrome://newtab/
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
 Processing MP3 files with unnormalized text and line breaks - Claude
 https://claude.ai/chat/05214162-b0a6-4a34-a930-c391f8d15990
-
-Google Keep
-https://keep.google.com/u/0/#home
-
-(1) Instagram
-https://www.instagram.com/reels/DR9LpmAj6f2/
-
-New tab
-chrome://newtab/
 
 Fine-tuned Models for Qwen/Qwen3-8B – Hugging Face
 https://huggingface.co/models?other=base_model:finetune:Qwen/Qwen3-8B
 
-allenai/Molmo2-8B · Hugging Face
-https://huggingface.co/allenai/Molmo2-8B
+Instagram
+https://www.instagram.com/reels/DUELLvPgr1_/
 
-nvidia/Nemotron-Orchestrator-8B · Hugging Face
-https://huggingface.co/nvidia/Nemotron-Orchestrator-8B
-
-Google Keep
-https://keep.google.com/u/0/#NOTE/1WSEIhLGaAt-hMgFwek-z9zxajIETD0jYxzy2goUnZuPFdkzYTMlXDC3f1OdRYWKk9-Rg
+Instagram
+https://www.instagram.com/reels/DUDfSCdiPmW/
 
 Instagram
 https://www.instagram.com/reels/DT8lNwxDTbB/
@@ -312,6 +264,9 @@ https://www.gutenberg.org/ebooks/6936
 
 Robinson Crusoe in Words of One Syllable (Version 2) | LibriVox
 https://librivox.org/robinson-crusoe-in-words-of-one-syllable-by-lucy-aikin/
+
+Robinson Crusoe, by Mary Godolphin
+https://www.gutenberg.org/cache/epub/6936/pg6936-images.html
 
 Robinson Crusoe | LibriVox
 https://librivox.org/robinson-crusoe-by-daniel-defoe/
@@ -346,7 +301,7 @@ https://colab.research.google.com/drive/1Ma_GP2NhITIQxkXZVeofhX9qUOKoS--p#scroll
 An Bhinn Bhorb/Benburb | logainm.ie
 https://www.logainm.ie/en/1165528
 
-Earráid | logainm.ie
+Béal an Átha Buí/Bellanaboy | logainm.ie
 https://www.logainm.ie/en/29344
 
 Tutorial: Authoring – Quarto
@@ -355,20 +310,80 @@ https://quarto.org/docs/get-started/authoring/vscode.html
 The status of function words in dependency grammar: A critique of Universal Dependencies (UD) | Glossa: a journal of general linguistics
 https://www.glossa-journal.org/article/id/5124/
 
-kernel-skill/examples/diffusers_h100/kernel_src/geglu.cu at main · burtenshaw/kernel-skill
-https://github.com/burtenshaw/kernel-skill/blob/main/examples/diffusers_h100/kernel_src/geglu.cu
-
-Indoor climate and error reporting | EECS internal pages
-https://intra.kth.se/en/eecs/vs-stod/servicecenter/lokaler/inomhusklimat-och-felanmalan-1.1190443?utm_medium=email&utm_source=Ungapped&utm_campaign=EECS+News%3a+pEECS+%232+2026&
-
-The PSST Challenge
-https://psst.study/
-
 Submission details | Språkbanken Text
 https://spraakbanken.gu.se/en/projects/lingvistiska-parametrar-for-upptackt-av-kognitiv-svikt/workshops/rapid-2026/submission
 
-ctc-segmentation/ctc_segmentation/ctc_segmentation_dyn.pyx at master · lumaku/ctc-segmentation
-https://github.com/lumaku/ctc-segmentation/blob/master/ctc_segmentation/ctc_segmentation_dyn.pyx
+lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
+https://github.com/lumaku/ctc-segmentation/tree/master
+
+VibeVoice ASR Demo
+http://130.237.3.106:7860/
+
+Instagram
+https://www.instagram.com/
+
+New tab
+chrome://newtab/
+
+Instagram
+https://www.instagram.com/
+
+New tab
+chrome://newtab/
+
+emilia dataset - Google Search
+https://www.google.com/search?q=emilia+dataset&rlz=1C5GCCM_en&oq=emilia+dataset&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQgzMDAwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+amphion/Emilia-Dataset · Datasets at Hugging Face
+https://huggingface.co/datasets/amphion/Emilia-Dataset
+
+amphion (Amphion)
+https://huggingface.co/amphion
+
+espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/tree/main/data
+
+data/ga000/text/00000000.json · espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/blob/main/data/ga000/text/00000000.json
+
+espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/tree/main/data/hu000
+
+espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/tree/main/data
+
+data/sv000/text/00000016.json · espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/blob/main/data/sv000/text/00000016.json
+
+huggingface.co/datasets/espnet/yodas2/raw/main/data/sv000/text/00000016.json
+https://huggingface.co/datasets/espnet/yodas2/raw/main/data/sv000/text/00000016.json
+
+espnet/yodas2 at main
+https://huggingface.co/datasets/espnet/yodas2/tree/main/data/pl000/text
+
+espnet (ESPnet)
+https://huggingface.co/espnet
+
+数据集-OpenDataLab
+https://opendatalab.com/Amphion/Emilia
+
+Uliana Zbezhkhovska | Kaggle
+https://www.kaggle.com/ulianazb/datasets
+
+Asvspoof 2024
+https://www.kaggle.com/datasets/ulianazb/asvspoof-2024
+
+ASVspoof 5: Design, Collection and Validation of Resources for Spoofing, Deepfake, and Adversarial Attack Detection Using Crowdsourced Speech
+https://zenodo.org/records/14498691
+
+ISCA Archive
+https://www.isca-archive.org/asvspoof_2024/index.html
+
+ISCA Archive - ASVspoof 5: crowdsourced speech data, deepfakes, and adversarial attacks at scale
+https://www.isca-archive.org/asvspoof_2024/wang24_asvspoof.html#
+
+jungjee/asvspoof5 · Datasets at Hugging Face
+https://huggingface.co/datasets/jungjee/asvspoof5
 
 Kaggle Notebook Editor
 https://www.kaggle.com/code/jimregan/notebook614cec81ba/edit
