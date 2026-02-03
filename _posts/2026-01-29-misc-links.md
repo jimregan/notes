@@ -27,3 +27,12 @@ categories: [links]
 
 [xieh97/language-based-audio-retrieval](https://github.com/xieh97/language-based-audio-retrieval)
 
+[Tandem Long-Short Duration-based Modeling for Automatic Speech Recognition](https://aclanthology.org/2024.sigul-1.40/)
+
+[BEA-Base: A Benchmark for ASR of Spontaneous Hungarian](https://aclanthology.org/2022.lrec-1.211/),
+[arXiv](https://arxiv.org/abs/2202.00601)
+
+[Philippine Languages Database: A Multilingual Speech Corpora for Developing Systems for Low-Resource Languages](https://aclanthology.org/2024.sigul-1.32/)
+
+[Bi-dialectal ASR of Armenian from Naturalistic and Read Speech](https://aclanthology.org/2024.sigul-1.27/)
+
