@@ -105,6 +105,29 @@ Calculus Made Easy
 
 [Mispronunciation detection and diagnosis based on large language models](https://www.sciencedirect.com/science/article/pii/S0885230826000069)
 
+[SemanticAudio: Audio Generation and Editing in Semantic Space](https://arxiv.org/abs/2601.21402)
+
+[A Study of Data Selection Strategies for Pre-training Self-Supervised Speech Models](https://arxiv.org/abs/2601.20896)
+
+[Position-invariant Fine-tuning of Speech Enhancement Models with Self-supervised Speech Representations](https://arxiv.org/abs/2601.21084)
+
+{% twitter https://x.com/hasantoxr/status/2017561974398456114 %}
+
+[The Principles of Diffusion Models](https://arxiv.org/abs/2510.21890)
+
+[Omnilingual ASR](https://ai.meta.com/research/publications/omnilingual-asr-open-source-multilingual-speech-recognition-for-1600-languages/),
+[code](https://github.com/facebookresearch/omnilingual-asr),
+[dataset](https://huggingface.co/datasets/facebook/omnilingual-asr-corpus),
+[arXiv](https://arxiv.org/abs/2511.09690)
+
+[yodas2](https://huggingface.co/datasets/espnet/yodas2)
+
+[Poor WER when trying to fine-tune Parakeet v2 TDT to other dataset than English](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2/discussions/47),
+[bug](https://github.com/NVIDIA-NeMo/NeMo/issues/13825)
+
+[finetuning-parakeet-on-hindi-dataset](https://github.com/deepanshu-yadav/Hindi_GramVani_Finetune/blob/main/finetuning-parakeet-on-hindi-dataset.ipynb)
+
+
 ---
 
 [csb-adecl](https://en.wiktionary.org/wiki/Template:csb-adecl)
