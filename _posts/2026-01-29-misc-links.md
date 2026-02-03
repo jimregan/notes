@@ -44,3 +44,10 @@ Hilbert - Foundations of Geometry
 - [librivox](https://librivox.org/foundations-of-geometry-by-david-hilbert/)
 - [gutenberg](https://www.gutenberg.org/ebooks/17384) (LaTeX)
 
+Calculus Made Easy
+- [gutenberg](https://www.gutenberg.org/ebooks/33283)
+- [wikisource](https://en.wikisource.org/wiki/Calculus_Made_Easy)
+- [librivox](https://librivox.org/calculus-made-easy-by-silvanus-p-thompson/)
+
+[Zseni Leszek](https://www.youtube.com/@zsenileszek)
+
