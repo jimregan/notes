@@ -36,3 +36,11 @@ categories: [links]
 
 [Bi-dialectal ASR of Armenian from Naturalistic and Read Speech](https://aclanthology.org/2024.sigul-1.27/)
 
+[Qwen3-TTS Technical Report](https://arxiv.org/abs/2601.15621)
+
+[Byte Latent Transformer: Patches Scale Better Than Tokens](https://ai.meta.com/research/publications/byte-latent-transformer-patches-scale-better-than-tokens/)
+
+Hilbert - Foundations of Geometry
+- [librivox](https://librivox.org/foundations-of-geometry-by-david-hilbert/)
+- [gutenberg](https://www.gutenberg.org/ebooks/17384) (LaTeX)
+
