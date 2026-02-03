@@ -22,4 +22,8 @@ categories: [links]
 [TACOS: Temporally-aligned Audio CaptiOnS for Language-Audio Pretraining](https://arxiv.org/abs/2505.07609),
 [data](https://zenodo.org/records/15379789)
 
+[Italian-Ligurian Machine Translation in Its Cultural Context](https://aclanthology.org/2024.sigul-1.21/),
+[data](https://github.com/ConseggioLigure/data/)
+
+[xieh97/language-based-audio-retrieval](https://github.com/xieh97/language-based-audio-retrieval)
 
