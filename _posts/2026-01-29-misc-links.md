@@ -13,3 +13,9 @@ categories: [links]
 
 [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](https://arxiv.org/abs/2512.20605)
 
+[icicle-emu/icicle-emu](https://github.com/icicle-emu/icicle-emu) --- Icicle is an experimental fuzzing-specific, multi-architecture emulation framework.
+
+[language-based-audio-retrieval](https://github.com/xieh97/language-based-audio-retrieval)
+
+[FLAM: Frame-Wise Language-Audio Modeling](https://arxiv.org/abs/2505.05335)
+
