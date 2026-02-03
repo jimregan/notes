@@ -51,3 +51,34 @@ Calculus Made Easy
 
 [Zseni Leszek](https://www.youtube.com/@zsenileszek)
 
+[I was using italki wrong](https://www.youtube.com/watch?v=E5suxhHY0aY)
+
+[How to REALLY Learn a Language in 2026](https://www.youtube.com/watch?v=a0INtLdzUiE)
+
+[Duome HU](https://duome.eu/vocabulary/en/hu)
+
+[DepEdit](https://github.com/amir-zeldes/DepEdit)
+
+[clarinsi/conllu-diff](https://github.com/clarinsi/conllu-diff)
+
+[pocketsphinx, clarinstudio](https://github.com/jimregan/ClarinStudioKaldi/commit/98624660cf8ce47c8a15d172352ea63fe5f12703#diff-4cc820c4917b5cfc0e6ac5a00a015c46ba578ab8da512539f8428893681ab858),
+[files](https://github.com/jimregan/ClarinStudioKaldi/releases/tag/cmusphinx-0.1)
+
+[strob/gentle](https://github.com/strob/gentle),
+[page](https://rmozone.com/gentle/)
+
+[tdnn](https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/chain/tdnn)
+
+[EPICS OF THE HUNGARIAN PLAIN](https://mek.oszk.hu/00500/00595/html/)
+
+{% twitter https://x.com/KirkDBorne/status/2015587872603091378 %}
+
+[deepseek-ai/Engram](https://github.com/deepseek-ai/Engram)
+
+---
+
+[csb-adecl](https://en.wiktionary.org/wiki/Template:csb-adecl)
+
+[Kashubian Frequency list](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Kashubian/Wikipedia_%282021%29)
+
+
