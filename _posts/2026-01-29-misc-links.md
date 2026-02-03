@@ -127,6 +127,11 @@ Calculus Made Easy
 
 [finetuning-parakeet-on-hindi-dataset](https://github.com/deepanshu-yadav/Hindi_GramVani_Finetune/blob/main/finetuning-parakeet-on-hindi-dataset.ipynb)
 
+[WEB-derived pronunciations](https://ieeexplore.ieee.org/document/4960577)
+
+[HiMo: High-Speed Objects Motion Compensation in Point Clouds](https://arxiv.org/abs/2503.00803),
+[code](https://github.com/KTH-RPL/HiMo),
+[dataset](https://huggingface.co/datasets/KTH/HiMo)
 
 ---
 
