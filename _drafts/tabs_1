@@ -82,23 +82,11 @@ https://www.kaggle.com/code/jimregan/dubliners-asr-v2/output
 dubliners-asr
 https://www.kaggle.com/code/jimregan/dubliners-asr/output?scriptVersionId=291126794&select=v1_dubliners_03_joyce_64kb_en.json
 
-Kaggle Notebook Editor
+dubliners-asr-v2 | Kaggle
 https://www.kaggle.com/code/jimregan/dubliners-asr-v2/edit
 
-Trying to use pocketsphinx to word align | notes
-https://jimregan.github.io/notes/pocketsphinx/hsi/alignment/2024/10/06/pocketsphinx-align.html
-
-Kaggle Notebook Editor
+dubliners-asr | Kaggle
 https://www.kaggle.com/code/jimregan/dubliners-asr/edit/run/291018034
-
-Getting Started on Kaggle | Kaggle
-https://www.kaggle.com/docs/packages?utm_source=chatgpt.com
-
-raw.githubusercontent.com/jimregan/notes/refs/heads/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb
-https://raw.githubusercontent.com/jimregan/notes/refs/heads/master/_notebooks/2024-10-06-pocketsphinx-align.ipynb
-
-Current things, 14 June 2025 - Pocketsphinx Alignment Setup
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d/c/6962675e-1e50-8328-a445-756a4b89f811
 
 sphinx · jimregan/ClarinStudioKaldi@9862466
 https://github.com/jimregan/ClarinStudioKaldi/commit/98624660cf8ce47c8a15d172352ea63fe5f12703#diff-4cc820c4917b5cfc0e6ac5a00a015c46ba578ab8da512539f8428893681ab858
@@ -148,18 +136,6 @@ https://archive.org/details/einsteintheoryof00loreuoft/page/56/mode/2up
 Foundations of Geometry | LibriVox
 https://librivox.org/foundations-of-geometry-by-david-hilbert/
 
-Works read by Jim Wrenholt | LibriVox
-https://librivox.org/reader/13923?primary_key=13923&search_category=reader&search_page=1&search_form=get_results&search_order=alpha
-
-17384-pdf.pdf
-https://www.gutenberg.org/files/17384/17384-pdf.pdf
-
-Foundations of Geometry | LibriVox
-https://librivox.org/foundations-of-geometry-by-david-hilbert/
-
-Mathematical Problems | LibriVox
-https://librivox.org/mathematical-problems-by-david-hilbert/
-
 First Six Books of the Elements of Euclid | Project Gutenberg
 https://www.gutenberg.org/cache/epub/21076/pg21076-images.html
 
@@ -202,14 +178,8 @@ https://rmozone.com/gentle/
 strob/gentle: gentle forced aligner
 https://github.com/strob/gentle
 
-Release Gentle 0.11.0 · strob/gentle
-https://github.com/strob/gentle/releases/tag/0.11.0
-
 jimregan/kaldi-sprakbanken_swe at main
 https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/chain/tdnn
-
-jimregan/kaldi-sprakbanken_swe at main
-https://huggingface.co/jimregan/kaldi-sprakbanken_swe/tree/main/exp/nnet5c
 
 dockerfiles/kaldi-sprakbanken at main · jimregan/dockerfiles
 https://github.com/jimregan/dockerfiles/tree/main/kaldi-sprakbanken
@@ -229,14 +199,8 @@ https://github.com/jimregan/notes
 ChatGPT - Hungarian
 https://chatgpt.com/g/g-p-6838a197746c81919828f3393515b7fb-hungarian/c/696bc3c5-f740-832e-8a02-e2a283fb1d71
 
-kisig - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/kisig
-
 Lisan al Gaib on X: "DeepSeek is back! "Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models" They introduce Engram, a module that adds an O(1) lookup-style memory based on modernized hashed N-gram embeddings Mechanistic analysis suggests Engram reduces the need https://t.co/6VlDRLFpvJ" / X
 https://x.com/scaling01/status/2010748516788777445?utm_source=chatgpt.com
-
-Lisan al Gaib on X: "META JUST KILLED TOKENIZATION !!! A few hours ago they released "Byte Latent Transformer". A tokenizer free architecture that dynamically encodes Bytes into Patches and achieves better inference efficiency and robustness! (I was just talking about how we need dynamic https://t.co/aawPMIRjjG" / X
-https://x.com/scaling01/status/1867573707247346003
 
 PyTorch Cheatsheet.pdf
 https://www.dropbox.com/scl/fi/e4xngykrfoubiw3xnd6fz/PyTorch-Cheatsheet.pdf?rlkey=vgx38ckps7aie120imgozgq4g&e=1&st=hgs06d4t&dl=0
