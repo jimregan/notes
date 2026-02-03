@@ -75,6 +75,36 @@ Calculus Made Easy
 
 [deepseek-ai/Engram](https://github.com/deepseek-ai/Engram)
 
+[kerrickstaley/genanki](https://github.com/kerrickstaley/genanki)
+
+[folkscanomy_defense](https://archive.org/details/folkscanomy_defense)
+
+[MiMo-Audio: Audio Language Models are Few-Shot Learners](https://arxiv.org/abs/2512.23808),
+[code](https://github.com/XiaomiMiMo/MiMo-Audio),
+[Tokenizer](https://huggingface.co/XiaomiMiMo/MiMo-Audio-Tokenizer),
+[7B-Base](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Base),
+[7B-Instruct](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Instruct),
+[demo](https://xiaomimimo.github.io/MiMo-Audio-Demo/)
+
+[Kelly](https://spraakbanken.gu.se/en/resources/kelly)
+
+[Evaluation of speech and speech synthesis](https://www.sciencedirect.com/special-issue/328510/evaluation-of-speech-and-speech-synthesis)
+- Submission deadline: 30 June 2026
+- Submission portal: https://www.editorialmanager.com/ycsla/default.aspx
+- [Guide for Authors](https://www.sciencedirect.com/journal/computer-speech-and-language/publish/guide-for-authors)
+
+[prefix-dev/pixi](https://github.com/prefix-dev/pixi)
+
+[sardin](https://github.com/sprakbankental/sardin)
+
+[Keyword Mamba: Spoken keyword spotting with state space models](https://www.sciencedirect.com/science/article/pii/S0885230825001342)
+
+[Is self-supervised learning enough to fill in the gap? A study on speech inpainting](https://www.sciencedirect.com/science/article/pii/S0885230825001470)
+
+[Enhanced audio-visual speech enhancement with posterior sampling methods in recurrent variational autoencoders](https://www.sciencedirect.com/science/article/pii/S0885230825001482)
+
+[Mispronunciation detection and diagnosis based on large language models](https://www.sciencedirect.com/science/article/pii/S0885230826000069)
+
 ---
 
 [csb-adecl](https://en.wiktionary.org/wiki/Template:csb-adecl)
