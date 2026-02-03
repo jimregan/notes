@@ -166,9 +166,6 @@ https://huggingface.co/datasets/KBLab/svwikiqa
 KBLab/sucx3_ner · Datasets at Hugging Face
 https://huggingface.co/datasets/KBLab/sucx3_ner
 
-kblabb bootleg - Google Search
-https://www.google.com/search?q=kblabb+bootleg&rlz=1C5GCCM_en&oq=kblabb+bootleg&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDIJCAQQABgNGIAEMgkIBRAAGA0YgAQyCQgGEAAYDRiABDIJCAcQABgNGIAEMgkICBAAGA0YgAQyCQgJEAAYDRiABNIBCDczMDFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
 https://github.com/lumaku/ctc-segmentation?tab=readme-ov-file
 
@@ -196,17 +193,23 @@ https://librivox.org/search?primary_key=1&search_category=language&search_page=4
 Robinson Crusoe — in Words of One Syllable by Daniel Defoe and Lucy Aikin | Project Gutenberg
 https://www.gutenberg.org/ebooks/6936
 
-Robinson Crusoe in Words of One Syllable (Version 2) | LibriVox
-https://librivox.org/robinson-crusoe-in-words-of-one-syllable-by-lucy-aikin/
+Works by Daniel Defoe | LibriVox
+https://librivox.org/author/895?primary_key=895&search_category=author&search_page=2&search_form=get_results&search_order=alpha
 
-Robinson Crusoe, by Mary Godolphin
-https://www.gutenberg.org/cache/epub/6936/pg6936-images.html
+Browse Catalog | LibriVox
+https://librivox.org/search?primary_key=1&search_category=genre&search_page=7&search_form=get_results&search_order=alpha
 
-Robinson Crusoe | LibriVox
-https://librivox.org/robinson-crusoe-by-daniel-defoe/
+Works by Lewis Carroll | LibriVox
+https://librivox.org/author/71?primary_key=71&search_category=author&search_page=3&search_form=get_results&search_order=alpha
 
-Robinson Crusoe (version 2) | LibriVox
-https://librivox.org/robinson-crusoe-by-daniel-defoe-2/
+First Chapter Collection 001 | LibriVox
+https://librivox.org/first-chapter-collection-001/
+
+Works by Alexandre Dumas | LibriVox
+https://librivox.org/author/431?primary_key=431&search_category=author&search_page=2&search_form=get_results&search_order=alpha
+
+Works by Lucy Maud Montgomery | LibriVox
+https://librivox.org/author/75?primary_key=75&search_category=author&search_page=1&search_form=get_results&search_order=alpha
 
 wenet-e2e/wespeaker: Research and Production Oriented Speaker Verification, Recognition and Diarization Toolkit
 https://github.com/wenet-e2e/wespeaker
@@ -249,12 +252,6 @@ https://spraakbanken.gu.se/en/projects/lingvistiska-parametrar-for-upptackt-av-k
 
 lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
 https://github.com/lumaku/ctc-segmentation/tree/master
-
-VibeVoice ASR Demo
-http://130.237.3.106:7860/
-
-Instagram
-https://www.instagram.com/
 
 amphion/Emilia-Dataset · Datasets at Hugging Face
 https://huggingface.co/datasets/amphion/Emilia-Dataset
@@ -445,14 +442,35 @@ https://aclanthology.org/anthology-files/anthology-files/pdf/L/L16/L16-1735.pdf
 WEB-derived pronunciations | IEEE Conference Publication | IEEE Xplore
 https://ieeexplore.ieee.org/document/4960577
 
-Wikipedia:GLAM/SOAS/Lingwiki - Wikipedia
-https://en.wikipedia.org/wiki/Wikipedia:GLAM/SOAS/Lingwiki
-
-language-resources/mined-wiki-phoneme-tables at master · google/language-resources
-https://github.com/google/language-resources/tree/master/mined-wiki-phoneme-tables
-
 Works by Hans Christian Andersen | LibriVox
-https://librivox.org/author/122?primary_key=122&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+https://librivox.org/author/122?primary_key=122&search_category=author&search_page=2&search_form=get_results&search_order=alpha
+
+Hans Christian Andersen Fairy Tale Collection | LibriVox
+https://librivox.org/hans-christian-andersen-fairy-tale-collection-by-hans-christian-andersen/
+
+Multilingual Short Works Collection 023 - Poetry & Prose | LibriVox
+https://librivox.org/multilingual-short-works-collection-023-poetry-prose-by-various/
+
+Library of the World's Best Literature, Ancient and Modern, volume 02 | LibriVox
+https://librivox.org/library-of-the-worlds-best-literature-ancient-and-modern-volume-2-by-various/
+
+Faery Tales from Hans Christian Andersen | LibriVox
+https://librivox.org/faery-tales-from-hans-christian-andersen
+
+Fairy Tales | LibriVox
+https://librivox.org/fairy-tales-by-hans-christian-andersen/
+
+Fairy Tales and Stories | LibriVox
+https://librivox.org/fairy-tales-and-stories-by-hans-christian-andersen/
+
+Short Story Collection Vol. 009 | LibriVox
+https://librivox.org/short-story-collection-009/
+
+Hans Christian Andersen Fairy Tale Collection | LibriVox
+https://librivox.org/hans-christian-andersen-fairy-tale-collection-by-hans-christian-andersen/
+
+Hans Christian Andersen Fairy Tale Collection | LibriVox
+https://librivox.org/hans-christian-andersen-fairy-tale-collection-by-hans-christian-andersen/
 
 Works by Honoré de Balzac | LibriVox
 https://librivox.org/author/86?primary_key=86&search_category=author&search_page=1&search_form=get_results&search_order=alpha
@@ -478,20 +496,125 @@ https://librivox.org/author/181?primary_key=181&search_category=author&search_pa
 Works in "Aesop's Fables 1 to 284 translated by V. S. Vernon Jones" | LibriVox
 https://librivox.org/group/17?primary_key=17&search_category=group&search_page=1&search_form=get_results&search_order=alpha
 
-Docker Compose Use Cases
-https://chatgpt.com/c/6980b35f-4ad8-8386-baac-018efd591a34
+Seminarium Unite - Programme
+https://sites.google.com/pwr.edu.pl/uniteseminar/programme?authuser=0
 
-tmh/gpu-admin
-https://gits-15.sys.kth.se/tmh/gpu-admin?tab=readme-ov-file
+Browse Catalog | LibriVox
+https://librivox.org/search?q=the%20night%20before%20christmas&search_form=advanced
 
-Redirecting... | Slack
-https://tmh-kth.slack.com/archives/C026SKJ6MRQ/p1679664109555769?name=C026SKJ6MRQ&perma=1679664109555769
+Works by William Butler Yeats | LibriVox
+https://librivox.org/author/335?primary_key=335&search_category=author&search_page=2&search_form=get_results&search_order=alpha
 
-TMH Gpu Access (Responses) - Google Sheets
-https://docs.google.com/spreadsheets/d/1ALHTtsxha2pZgszXHnsT1XcLlo2Mr303Ql_F5pT1Eqs/edit?gid=705467618#gid=705467618
+Works by William Butler Yeats | LibriVox
+https://librivox.org/author/335/?primary_key=335&search_category=author&search_page=4&search_form=get_results&search_order=alpha
 
-Trinity College Dublin – Calendar - Calendar settings for TMH Internal GPUs
-https://calendar.google.com/calendar/u/3/r/settings/calendar/MjQyY2RiZDY4OTc1NGU0NDdmMGVjM2E1ZGYxMzVkMGNlY2JlODY1N2FmNGQ4MzhiYTVhNDFkNmE3NmY4MTRmNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t?pli=1
+ia601306.us.archive.org/21/items/short_poetry_097_librivox/no_secondtroy_yeats_ma.mp3
+https://ia601306.us.archive.org/21/items/short_poetry_097_librivox/no_secondtroy_yeats_ma.mp3
+
+Short Poetry Collection 145 | LibriVox
+https://librivox.org/short-poetry-collection-145-by-various/
+
+36. No Second Troy - Collection at Bartleby.com
+https://www.bartleby.com/lit-hub/responsibilities-and-other-poems/36-no-second-troy/
+
+Short Poetry Collection 073 | LibriVox
+https://librivox.org/short-poetry-collection-073/
+
+Works by H. P. Lovecraft | LibriVox
+https://librivox.org/author/424?primary_key=424&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+
+First Chapter Collection 011 | LibriVox
+https://librivox.org/first-chapter-collection-011-by-various/
+
+Works by John Keats | LibriVox
+https://librivox.org/author/330?primary_key=330&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+
+Works by Henry Wadsworth Longfellow | LibriVox
+https://librivox.org/author/43?primary_key=43&search_category=author&search_page=3&search_form=get_results&search_order=alpha
+
+Short Poetry Collection 144 | LibriVox
+https://librivox.org/short-poetry-collection-144-by-various/
+
+The Charge of the Light Brigade - Collection at Bartleby.com
+https://www.bartleby.com/lit-hub/a-victorian-anthology-1837-1895/the-charge-of-the-light-brigade-3/
+
+789. Paul Revere’s Ride - Collection at Bartleby.com
+https://www.bartleby.com/lit-hub/hc/english-poetry-iii/789-paul-reveres-ride/
+
+Works by Edgar Allan Poe | LibriVox
+https://librivox.org/author/21?primary_key=21&search_category=author&search_page=1&search_form=get_results&search_order=alpha
+
+Poets' Corner - William Butler Yeats - Michael Robartes and The Dancer
+https://www.theotherpages.org/poems/yeats02.html#easter
+
+Through the Desert
+https://www.gutenberg.org/cache/epub/60177/pg60177-images.html
+
+The Project Gutenberg eBook of In Desert and Wilderness, by Henryk Sienkiewicz
+https://www.gutenberg.org/cache/epub/30365/pg30365-images.html
+
+ArXiv -> HF Papers (#3565) · huggingface/sentence-transformers@4f48905
+https://github.com/huggingface/sentence-transformers/commit/4f48905755d43d5d51c669d142cdb82ceb4539c6
+
+AGENTS.md Formatting Support
+https://chatgpt.com/c/697e3560-33c8-8395-ab0a-5a3153cbab9c
+
+train segfeat on TIMIT
+https://www.kaggle.com/code/jimregan/train-segfeat-on-timit/script?scriptVersionId=295192465
+
+[2412.09102] PolyIPA -- Multilingual Phoneme-to-Grapheme Conversion Model
+https://arxiv.org/abs/2412.09102
+
+librivox.org/api/info
+https://librivox.org/api/info
+
+Browse Catalog | LibriVox
+https://librivox.org/search?q=version%202&search_form=advanced
+
+The Birth of Tragedy; or, Hellenism and Pessimism (Version 2) | LibriVox
+https://librivox.org/the-birth-of-tragedy-or-hellenism-and-pessimism-version-2-by-friedrich-nietzsche/
+
+Candide (version 2) | LibriVox
+https://librivox.org/candide-by-voltaire/
+
+text alignment python - Google Search
+https://www.google.com/search?q=text+alignment+python&rlz=1C5GCCM_en&oq=text+alignment+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yDQgIEAAYhgMYgAQYigUyDQgJEAAYhgMYgAQYigXSAQgzNzkzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+text-alignment-tool · PyPI
+https://pypi.org/project/text-alignment-tool/
+
+sofer_mahir / text_alignment_tool · GitLab
+https://gitlab.com/sofer_mahir/text_alignment_tool
+
+example_usage.ipynb · master · sofer_mahir / text_alignment_tool · GitLab
+https://gitlab.com/sofer_mahir/text_alignment_tool/-/blob/master/example_usage.ipynb?ref_type=heads
+
+KBLab/rixvox-v2 · Datasets at Hugging Face
+https://huggingface.co/datasets/KBLab/rixvox-v2
+
+jiaaro/pydub: Manipulate audio with a simple and easy high level interface
+https://github.com/jiaaro/pydub
+
+Exporting ChatGPT project conversations - Claude
+https://claude.ai/chat/4b340f97-38cf-4d50-aeeb-e9681947c12a
+
+ChatGPT - Your data export is ready - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
+https://mail.google.com/mail/u/3/#search/openai/FMfcgzQfBkGhkhlRCRTrsFSTFBkVhPMT
+
+Perl Liquid Error Fix
+https://chatgpt.com/c/6981e049-8db8-8393-b213-77d3b8a2aea3
+
+Bridging the gap: A comparative exploration of Speech-LLM and end-to-end architecture for multilingual conversational ASR
+https://arxiv.org/pdf/2601.01461
+
+rhasspy/wiktionary2dict: Tool for extracting IPA pronunciations from Wiktionary XML dump
+https://github.com/rhasspy/wiktionary2dict
+
+Tags | notes
+https://jimregan.github.io/notes/categories/#wiktionary
+
+Extract from Wiktionary dump | notes
+https://jimregan.github.io/notes/wiktionary/extractor/2025/10/10/extract-from-wiktionary-extract.html
 
 Kaggle Notebook Editor
 https://www.kaggle.com/code/jimregan/notebook614cec81ba/edit
