@@ -19,3 +19,7 @@ categories: [links]
 
 [FLAM: Frame-Wise Language-Audio Modeling](https://arxiv.org/abs/2505.05335)
 
+[TACOS: Temporally-aligned Audio CaptiOnS for Language-Audio Pretraining](https://arxiv.org/abs/2505.07609),
+[data](https://zenodo.org/records/15379789)
+
+
