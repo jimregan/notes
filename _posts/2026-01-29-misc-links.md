@@ -133,6 +133,8 @@ Calculus Made Easy
 [code](https://github.com/KTH-RPL/HiMo),
 [dataset](https://huggingface.co/datasets/KTH/HiMo)
 
+[Survey of end-to-end multi-speaker automatic speech recognition for monaural audio](https://www.sciencedirect.com/science/article/pii/S0885230825001500)
+
 ---
 
 [csb-adecl](https://en.wiktionary.org/wiki/Template:csb-adecl)
