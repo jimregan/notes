@@ -61,8 +61,6 @@ categories: [hungarian, chatgpt, reels]
 **„Dáógózzááá…”** is *pure meme-noise*. It’s doing the same job as:
 
 * English: *“RAAARGH YOU DON’T KNOW ME!!!”*
-* Polish: *“DAJ SPOKÓJ NOOOO!!!”* (but slurred and feral)
-* Hungarian macho-war-movie rage, distilled into vowels
 
 ### What it is (and isn’t)
 
@@ -72,26 +70,3 @@ categories: [hungarian, chatgpt, reels]
 * ✅ exaggerated **phonetic aggression**
 * ✅ meant to be *heard*, not understood
 
-Hungarian lets you stack long vowels and voiced consonants in a way that:
-
-* sounds emotionally convincing
-* feels like it *should* mean something
-* but absolutely doesn’t
-
-That’s why **„Dáógózzááá”** works so well — it *feels* like an order, a threat, or a complaint, without committing to any meaning.
-
-### Why people love it
-
-Because everyone instantly recognizes the **tone**:
-
-* wounded ego
-* testosterone
-* Rambo-energy
-* “I am yelling but I don’t even know why anymore”
-
-So yeah — if a comment spells it out like that, it’s basically saying:
-
-> *“Stop trying to translate this. Just hear the scream.”*
-
-And honestly?
-That emoji combo 😂🙏🏼 is the only correct response.
