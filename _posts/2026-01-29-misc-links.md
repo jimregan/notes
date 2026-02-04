@@ -135,6 +135,17 @@ Calculus Made Easy
 
 [Survey of end-to-end multi-speaker automatic speech recognition for monaural audio](https://www.sciencedirect.com/science/article/pii/S0885230825001500)
 
+[Predict-and-Update Network: Audio-Visual Speech Recognition Inspired by Human Speech Perception](https://ieeexplore.ieee.org/document/10768989)
+
+[Disentangling Prosody Representations With Unsupervised Speech Reconstruction](https://ieeexplore.ieee.org/document/10269014)
+
+[Decoupling Speaker-Independent Emotions for Voice Conversion via Source-Filter Networks](https://ieeexplore.ieee.org/document/9829916)
+
+[Efficient Audiovisual Speech Processing via MUTUD: Multimodal Training and Unimodal Deployment](https://openreview.net/forum?id=TCFtGBTxkq),
+[arXiv](https://arxiv.org/abs/2501.18157)
+
+[Integrating Lattice-Free MMI Into End-to-End Speech Recognition](https://ieeexplore.ieee.org/document/9855847)
+
 ---
 
 [csb-adecl](https://en.wiktionary.org/wiki/Template:csb-adecl)
