@@ -74,8 +74,8 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUELLvPgr1_/)
 
-Az a mértékű férfi gyűlölált, ami állfagadottán vált a közösségi médiában,
-az egyáltalán nem felszabadító, hanem sokkal inkább romboló.
+Az a mértékű férfi gyűlölált, ami elfogadottá vált a közösségi médiában,
+az egyáltalán nem felszabadító, hanem sokkal inkább romboló... És nem...
 Itt van néhány konkrét magyar példa, akik az erőszakolószó helyet a férfiszót használták.
 És nem, ez nem a szélentélyek ne lennének erőszakos, agresszív, vagy súlyosan dysfunkcionálisan működő férfiak,
 mert vannak, de hogyha valódi változást szeretnénk,
