@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Extract statistical rules from TIMIT | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Extract statistical rules from TIMIT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="First pass, llm generated" />
+<meta property="og:description" content="First pass, llm generated" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/timit/phonetic/2026/01/29/statistical-rules-from-timit.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/timit/phonetic/2026/01/29/statistical-rules-from-timit.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/timit/phonetic/2026/01/29/statistical-rules-from-timit.html","@type":"BlogPosting","headline":"Extract statistical rules from TIMIT","dateModified":"2026-01-29T00:00:00-06:00","datePublished":"2026-01-29T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/timit/phonetic/2026/01/29/statistical-rules-from-timit.html"},"description":"First pass, llm generated","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Extract statistical rules from TIMIT</h1><p class="page-description">First pass, llm generated</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-01-29T00:00:00-06:00" itemprop="datePublished">
+        Jan 29, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      24 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#timit">timit</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#phonetic">phonetic</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-01-29-statistical-rules-from-timit.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-01-29-statistical-rules-from-timit.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-01-29-statistical-rules-from-timit.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-01-29-statistical-rules-from-timit.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.kaggle.com/code/jimregan/notebook3e7d527c57">Original</a></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tuples</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">wf</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">wf</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">parts</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="nb">int</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">int</span><span class="p">(</span><span class="n">parts</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">parts</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+    <span class="k">return</span> <span class="n">words</span>
+
+<span class="k">def</span> <span class="nf">filter_junk</span><span class="p">(</span><span class="n">phones</span><span class="p">):</span>
+    <span class="n">filtered</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">phone</span> <span class="ow">in</span> <span class="n">phones</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">phone</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;cl&quot;</span><span class="p">):</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="n">phone</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;epi&quot;</span><span class="p">,</span> <span class="s2">&quot;pau&quot;</span><span class="p">,</span> <span class="s2">&quot;h#&quot;</span><span class="p">]:</span>
+            <span class="k">continue</span>
+        <span class="k">if</span> <span class="n">phone</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;ax-h&quot;</span><span class="p">:</span>
+            <span class="n">filtered</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">phone</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">phone</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s2">&quot;ax&quot;</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phone</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">filtered</span>
+
+<span class="k">def</span> <span class="nf">get_phonetic_words</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">filename</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.WRD&quot;</span><span class="p">):</span>
+        <span class="n">wordfile</span> <span class="o">=</span> <span class="n">filename</span>
+        <span class="n">phonfile</span> <span class="o">=</span> <span class="n">wordfile</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.WRD&quot;</span><span class="p">,</span> <span class="s2">&quot;.PHN&quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">filename</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s2">&quot;.PHN&quot;</span><span class="p">):</span>
+        <span class="n">phonfile</span> <span class="o">=</span> <span class="n">filename</span>
+        <span class="n">wordfile</span> <span class="o">=</span> <span class="n">phonfile</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.PHN&quot;</span><span class="p">,</span> <span class="s2">&quot;.WRD&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    
+    <span class="n">words</span> <span class="o">=</span> <span class="n">get_tuples</span><span class="p">(</span><span class="n">wordfile</span><span class="p">)</span>
+    <span class="n">phones</span> <span class="o">=</span> <span class="n">get_tuples</span><span class="p">(</span><span class="n">phonfile</span><span class="p">)</span>
+    <span class="n">phones</span> <span class="o">=</span> <span class="n">filter_junk</span><span class="p">(</span><span class="n">phones</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">in_word</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="n">word</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">phone</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="ow">and</span> <span class="p">(</span><span class="n">phone</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    
+    <span class="n">merged</span> <span class="o">=</span> <span class="p">[]</span>
+    
+    <span class="n">i</span> <span class="o">=</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">):</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">current</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+            <span class="s2">&quot;end&quot;</span><span class="p">:</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+            <span class="s2">&quot;word&quot;</span><span class="p">:</span> <span class="n">word</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span>
+            <span class="s2">&quot;phones&quot;</span><span class="p">:</span> <span class="p">[]</span>
+        <span class="p">}</span>
+        <span class="k">while</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">phones</span><span class="p">):</span>
+            <span class="n">phone</span> <span class="o">=</span> <span class="n">phones</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">in_word</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="n">word</span><span class="p">):</span>
+                <span class="n">current</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phone</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">phone</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">word</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
+                <span class="c1"># Phone starts at or after word end - move to next word</span>
+                <span class="k">break</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Phone starts before word but doesn&#39;t fit - skip it</span>
+                <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="n">merged</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="n">merged</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">get_phonetic_words</span><span class="p">(</span><span class="s2">&quot;/kaggle/input/darpa-timit-acousticphonetic-continuous-speech/data/TRAIN/DR1/FCJF0/SA1.WRD&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;word&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;phones&#39;</span><span class="p">])</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>she: sh ix
+had: hv eh jh
+your: ih
+dark: d ah k
+suit: s ux q
+in: en
+greasy: g r ix s ix
+wash: w ao sh
+water: w ao dx axr
+all: ao l
+year: y ih axr
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+
+<span class="c1"># Collect all pronunciations from the corpus</span>
+<span class="n">BASE_PATH</span> <span class="o">=</span> <span class="s2">&quot;/kaggle/input/darpa-timit-acousticphonetic-continuous-speech/data&quot;</span>
+<span class="n">word_pronunciations</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">wrd_file</span> <span class="ow">in</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE_PATH</span><span class="si">}</span><span class="s2">/**/*.WRD&quot;</span><span class="p">,</span> <span class="n">recursive</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="n">phonetic_words</span> <span class="o">=</span> <span class="n">get_phonetic_words</span><span class="p">(</span><span class="n">wrd_file</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">phonetic_words</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">phonetic_words</span><span class="p">:</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="s2">&quot;word&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="n">phones</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s2">&quot;phones&quot;</span><span class="p">])</span>
+            <span class="n">word_pronunciations</span><span class="p">[</span><span class="n">word</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phones</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Collected pronunciations for </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">word_pronunciations</span><span class="p">)</span><span class="si">}</span><span class="s2"> unique words&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collected pronunciations for 6102 unique words
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">load_timit_dict</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Parse TIMITDIC.TXT format: word /pronunciation/&quot;&quot;&quot;</span>
+    <span class="n">timit_dict</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span> <span class="ow">or</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;;&quot;</span><span class="p">):</span>
+                <span class="k">continue</span>
+            <span class="c1"># Format: word /p r o n u n c i a t i o n/</span>
+            <span class="k">if</span> <span class="s2">&quot;/&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">word_part</span><span class="p">,</span> <span class="n">pron_part</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">word</span> <span class="o">=</span> <span class="n">word_part</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="n">pron</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">pron_part</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">())</span>
+            <span class="n">timit_dict</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">pron</span>
+    <span class="k">return</span> <span class="n">timit_dict</span>
+
+<span class="c1"># Try common locations for the dictionary</span>
+<span class="n">dict_paths</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE_PATH</span><span class="si">}</span><span class="s2">/TIMITDIC.TXT&quot;</span><span class="p">,</span>
+    <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">BASE_PATH</span><span class="si">}</span><span class="s2">/../TIMITDIC.TXT&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;/kaggle/input/darpa-timit-acousticphonetic-continuous-speech/TIMITDIC.TXT&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">timit_dict</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">dict_paths</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">timit_dict</span> <span class="o">=</span> <span class="n">load_timit_dict</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Loaded dictionary from </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">timit_dict</span><span class="p">)</span><span class="si">}</span><span class="s2"> entries&quot;</span><span class="p">)</span>
+        <span class="k">break</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="k">continue</span>
+
+<span class="k">if</span> <span class="n">timit_dict</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;TIMIT dictionary not found - listing available files...&quot;</span><span class="p">)</span>
+    <span class="kn">import</span> <span class="nn">os</span>
+    <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="s2">&quot;/kaggle/input/darpa-timit-acousticphonetic-continuous-speech/&quot;</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">item</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Loaded dictionary from /kaggle/input/darpa-timit-acousticphonetic-continuous-speech/data/../TIMITDIC.TXT: 6229 entries
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">align_sequences</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">hyp</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Align two phone sequences using dynamic programming.</span>
+<span class="sd">    Returns list of operations: (&#39;match&#39;, r, h), (&#39;sub&#39;, r, h), (&#39;del&#39;, r, None), (&#39;ins&#39;, None, h)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">m</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ref</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">hyp</span><span class="p">)</span>
+    
+    <span class="c1"># DP table</span>
+    <span class="n">dp</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>
+    
+    <span class="c1"># Initialize</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">j</span>
+    
+    <span class="c1"># Fill table</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">ref</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">hyp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+                <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="nb">min</span><span class="p">(</span>
+                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">],</span>      <span class="c1"># deletion</span>
+                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span>      <span class="c1"># insertion</span>
+                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>     <span class="c1"># substitution</span>
+                <span class="p">)</span>
+    
+    <span class="c1"># Backtrace</span>
+    <span class="n">ops</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">m</span><span class="p">,</span> <span class="n">n</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">ref</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">hyp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+            <span class="n">ops</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="s1">&#39;match&#39;</span><span class="p">,</span> <span class="n">ref</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">hyp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">ops</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="s1">&#39;sub&#39;</span><span class="p">,</span> <span class="n">ref</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">hyp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+            <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">ops</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="s1">&#39;del&#39;</span><span class="p">,</span> <span class="n">ref</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="kc">None</span><span class="p">))</span>
+            <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ops</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="s1">&#39;ins&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">hyp</span><span class="p">[</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]))</span>
+            <span class="n">j</span> <span class="o">-=</span> <span class="mi">1</span>
+    
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">reversed</span><span class="p">(</span><span class="n">ops</span><span class="p">))</span>
+
+<span class="c1"># Test alignment</span>
+<span class="n">ref</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;dh&#39;</span><span class="p">,</span> <span class="s1">&#39;ax&#39;</span><span class="p">,</span> <span class="s1">&#39;s&#39;</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">,</span> <span class="s1">&#39;ao&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+<span class="n">hyp</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;dh&#39;</span><span class="p">,</span> <span class="s1">&#39;ix&#39;</span><span class="p">,</span> <span class="s1">&#39;s&#39;</span><span class="p">,</span> <span class="s1">&#39;ao&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Reference:&quot;</span><span class="p">,</span> <span class="n">ref</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hypothesis:&quot;</span><span class="p">,</span> <span class="n">hyp</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Alignment:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">op</span> <span class="ow">in</span> <span class="n">align_sequences</span><span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">hyp</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">op</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Reference: (&#39;dh&#39;, &#39;ax&#39;, &#39;s&#39;, &#39;t&#39;, &#39;ao&#39;, &#39;r&#39;)
+Hypothesis: (&#39;dh&#39;, &#39;ix&#39;, &#39;s&#39;, &#39;ao&#39;, &#39;r&#39;)
+Alignment:
+  (&#39;match&#39;, &#39;dh&#39;, &#39;dh&#39;)
+  (&#39;sub&#39;, &#39;ax&#39;, &#39;ix&#39;)
+  (&#39;match&#39;, &#39;s&#39;, &#39;s&#39;)
+  (&#39;del&#39;, &#39;t&#39;, None)
+  (&#39;match&#39;, &#39;ao&#39;, &#39;ao&#39;)
+  (&#39;match&#39;, &#39;r&#39;, &#39;r&#39;)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="n">substitutions</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>  <span class="c1"># (ref_phone, actual_phone) -&gt; count</span>
+<span class="n">deletions</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>      <span class="c1"># ref_phone -&gt; count</span>
+<span class="n">insertions</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>     <span class="c1"># actual_phone -&gt; count</span>
+<span class="n">matches</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">()</span>        <span class="c1"># phone -&gt; count (for computing rates)</span>
+
+<span class="n">words_analyzed</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">words_not_in_dict</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">if</span> <span class="n">timit_dict</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">pronunciations</span> <span class="ow">in</span> <span class="n">word_pronunciations</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">word</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">timit_dict</span><span class="p">:</span>
+            <span class="n">words_not_in_dict</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">continue</span>
+        
+        <span class="n">dict_pron</span> <span class="o">=</span> <span class="n">timit_dict</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+        
+        <span class="k">for</span> <span class="n">actual_pron</span> <span class="ow">in</span> <span class="n">pronunciations</span><span class="p">:</span>
+            <span class="n">words_analyzed</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">alignment</span> <span class="o">=</span> <span class="n">align_sequences</span><span class="p">(</span><span class="n">dict_pron</span><span class="p">,</span> <span class="n">actual_pron</span><span class="p">)</span>
+            
+            <span class="k">for</span> <span class="n">op</span><span class="p">,</span> <span class="n">ref_phone</span><span class="p">,</span> <span class="n">actual_phone</span> <span class="ow">in</span> <span class="n">alignment</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">op</span> <span class="o">==</span> <span class="s1">&#39;match&#39;</span><span class="p">:</span>
+                    <span class="n">matches</span><span class="p">[</span><span class="n">ref_phone</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">elif</span> <span class="n">op</span> <span class="o">==</span> <span class="s1">&#39;sub&#39;</span><span class="p">:</span>
+                    <span class="n">substitutions</span><span class="p">[(</span><span class="n">ref_phone</span><span class="p">,</span> <span class="n">actual_phone</span><span class="p">)]</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">elif</span> <span class="n">op</span> <span class="o">==</span> <span class="s1">&#39;del&#39;</span><span class="p">:</span>
+                    <span class="n">deletions</span><span class="p">[</span><span class="n">ref_phone</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">elif</span> <span class="n">op</span> <span class="o">==</span> <span class="s1">&#39;ins&#39;</span><span class="p">:</span>
+                    <span class="n">insertions</span><span class="p">[</span><span class="n">actual_phone</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Words analyzed: </span><span class="si">{</span><span class="n">words_analyzed</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Words not in dictionary: </span><span class="si">{</span><span class="n">words_not_in_dict</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Unique substitution types: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">substitutions</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Unique deletions: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">deletions</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Unique insertions: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">insertions</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cannot analyze - dictionary not loaded&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Words analyzed: 54233
+Words not in dictionary: 27
+
+Unique substitution types: 1122
+Unique deletions: 71
+Unique insertions: 42
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=== Top 20 Substitutions ===&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">actual</span><span class="p">),</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="c1"># Compute rate: how often this phone gets this substitution vs staying the same</span>
+    <span class="n">total_occurrences</span> <span class="o">=</span> <span class="n">matches</span><span class="p">[</span><span class="n">ref</span><span class="p">]</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">c</span> <span class="k">for</span> <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">_</span><span class="p">),</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">r</span> <span class="o">==</span> <span class="n">ref</span><span class="p">)</span>
+    <span class="n">rate</span> <span class="o">=</span> <span class="n">count</span> <span class="o">/</span> <span class="n">total_occurrences</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">total_occurrences</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">ref</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">actual</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">=== Top 20 Deletions ===&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">deletions</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="n">total_occurrences</span> <span class="o">=</span> <span class="n">matches</span><span class="p">[</span><span class="n">phone</span><span class="p">]</span> <span class="o">+</span> <span class="n">deletions</span><span class="p">[</span><span class="n">phone</span><span class="p">]</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">c</span> <span class="k">for</span> <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">_</span><span class="p">),</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">r</span> <span class="o">==</span> <span class="n">phone</span><span class="p">)</span>
+    <span class="n">rate</span> <span class="o">=</span> <span class="n">count</span> <span class="o">/</span> <span class="n">total_occurrences</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">total_occurrences</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">phone</span><span class="si">}</span><span class="s2"> deleted: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">=== Top 20 Insertions ===&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">insertions</span><span class="o">.</span><span class="n">most_common</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="n">phone</span><span class="si">}</span><span class="s2"> inserted: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>=== Top 20 Substitutions ===
+  iy1 -&gt; iy: 4366 (91.1%)
+  ih1 -&gt; ih: 3693 (64.1%)
+  ae1 -&gt; ae: 3645 (66.0%)
+  ao1 -&gt; ao: 3364 (77.7%)
+  t -&gt; dx: 2592 (20.9%)
+  ax -&gt; ix: 2551 (32.2%)
+  eh1 -&gt; eh: 2524 (89.4%)
+  aa1 -&gt; aa: 2412 (92.1%)
+  ay1 -&gt; ay: 2003 (91.5%)
+  ey1 -&gt; ey: 1991 (96.0%)
+  ow1 -&gt; ow: 1873 (96.8%)
+  uw1 -&gt; ux: 1821 (50.7%)
+  ih1 -&gt; ix: 1679 (29.1%)
+  ah1 -&gt; ah: 1679 (85.8%)
+  r -&gt; axr: 1551 (13.3%)
+  hh -&gt; hv: 1306 (51.0%)
+  ae1 -&gt; eh: 1201 (21.8%)
+  ih -&gt; ix: 1110 (53.0%)
+  d -&gt; dx: 886 (12.1%)
+  er1 -&gt; er: 875 (83.8%)
+
+=== Top 20 Deletions ===
+  t deleted: 1393 (10.1%)
+  ae1 deleted: 1312 (19.2%)
+  d deleted: 1306 (15.1%)
+  uh1 deleted: 1049 (71.1%)
+  ih1 deleted: 891 (13.4%)
+  k deleted: 803 (9.5%)
+  hh deleted: 753 (22.7%)
+  ay1 deleted: 697 (24.2%)
+  aa1 deleted: 626 (19.3%)
+  ax deleted: 592 (7.0%)
+  ao1 deleted: 583 (11.9%)
+  y deleted: 540 (19.3%)
+  eh1 deleted: 497 (15.0%)
+  ix deleted: 477 (11.4%)
+  s deleted: 458 (4.5%)
+  ow1 deleted: 431 (18.2%)
+  r deleted: 423 (3.5%)
+  uw1 deleted: 330 (8.4%)
+  ah1 deleted: 322 (14.1%)
+  n deleted: 291 (2.5%)
+
+=== Top 20 Insertions ===
+  q inserted: 2110
+  ax inserted: 219
+  ix inserted: 135
+  t inserted: 77
+  r inserted: 65
+  hh inserted: 53
+  ao inserted: 52
+  ay inserted: 36
+  y inserted: 33
+  ih inserted: 32
+  s inserted: 30
+  w inserted: 24
+  aa inserted: 24
+  ah inserted: 17
+  g inserted: 16
+  ey inserted: 13
+  er inserted: 13
+  eh inserted: 12
+  ae inserted: 11
+  n inserted: 9
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Format suitable for applying to CMUdict</span>
+
+<span class="k">def</span> <span class="nf">compute_transformation_rules</span><span class="p">(</span><span class="n">matches</span><span class="p">,</span> <span class="n">substitutions</span><span class="p">,</span> <span class="n">deletions</span><span class="p">,</span> <span class="n">min_count</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">min_rate</span><span class="o">=</span><span class="mf">1.0</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Compute transformation rules from the collected statistics.</span>
+<span class="sd">    Returns dict: phone -&gt; list of (target, probability) where target can be a phone or None (deletion)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">rules</span> <span class="o">=</span> <span class="p">{}</span>
+    
+    <span class="c1"># Get all phones that appear in the reference</span>
+    <span class="n">all_ref_phones</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">matches</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="n">all_ref_phones</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">r</span> <span class="k">for</span> <span class="n">r</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    <span class="n">all_ref_phones</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">deletions</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+    
+    <span class="k">for</span> <span class="n">phone</span> <span class="ow">in</span> <span class="n">all_ref_phones</span><span class="p">:</span>
+        <span class="c1"># Total occurrences of this phone in reference</span>
+        <span class="n">total</span> <span class="o">=</span> <span class="n">matches</span><span class="p">[</span><span class="n">phone</span><span class="p">]</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="n">deletions</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="n">total</span> <span class="o">+=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">c</span> <span class="k">for</span> <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">_</span><span class="p">),</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">r</span> <span class="o">==</span> <span class="n">phone</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="n">total</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">continue</span>
+        
+        <span class="n">transformations</span> <span class="o">=</span> <span class="p">[]</span>
+        
+        <span class="c1"># Add substitutions</span>
+        <span class="k">for</span> <span class="p">(</span><span class="n">ref</span><span class="p">,</span> <span class="n">actual</span><span class="p">),</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">substitutions</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="k">if</span> <span class="n">ref</span> <span class="o">==</span> <span class="n">phone</span> <span class="ow">and</span> <span class="n">count</span> <span class="o">&gt;=</span> <span class="n">min_count</span><span class="p">:</span>
+                <span class="n">rate</span> <span class="o">=</span> <span class="n">count</span> <span class="o">/</span> <span class="n">total</span> <span class="o">*</span> <span class="mi">100</span>
+                <span class="k">if</span> <span class="n">rate</span> <span class="o">&gt;=</span> <span class="n">min_rate</span><span class="p">:</span>
+                    <span class="n">transformations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">actual</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span><span class="p">))</span>
+        
+        <span class="c1"># Add deletions</span>
+        <span class="n">del_count</span> <span class="o">=</span> <span class="n">deletions</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">del_count</span> <span class="o">&gt;=</span> <span class="n">min_count</span><span class="p">:</span>
+            <span class="n">rate</span> <span class="o">=</span> <span class="n">del_count</span> <span class="o">/</span> <span class="n">total</span> <span class="o">*</span> <span class="mi">100</span>
+            <span class="k">if</span> <span class="n">rate</span> <span class="o">&gt;=</span> <span class="n">min_rate</span><span class="p">:</span>
+                <span class="n">transformations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="kc">None</span><span class="p">,</span> <span class="n">del_count</span><span class="p">,</span> <span class="n">rate</span><span class="p">))</span>
+        
+        <span class="k">if</span> <span class="n">transformations</span><span class="p">:</span>
+            <span class="c1"># Sort by count descending</span>
+            <span class="n">transformations</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="o">-</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">rules</span><span class="p">[</span><span class="n">phone</span><span class="p">]</span> <span class="o">=</span> <span class="n">transformations</span>
+    
+    <span class="k">return</span> <span class="n">rules</span>
+
+<span class="n">rules</span> <span class="o">=</span> <span class="n">compute_transformation_rules</span><span class="p">(</span><span class="n">matches</span><span class="p">,</span> <span class="n">substitutions</span><span class="p">,</span> <span class="n">deletions</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=== Transformation Rules (min 5 occurrences, min 1</span><span class="si">% r</span><span class="s2">ate) ===&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">transforms</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">rules</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="si">{</span><span class="n">phone</span><span class="si">}</span><span class="s2">:&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">target</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span> <span class="ow">in</span> <span class="n">transforms</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">target</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  -&gt; ∅ (delete): </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  -&gt; </span><span class="si">{</span><span class="n">target</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>=== Transformation Rules (min 5 occurrences, min 1% rate) ===
+
+aa:
+  -&gt; ∅ (delete): 16 (19.5%)
+  -&gt; ay: 9 (11.0%)
+  -&gt; ax: 5 (6.1%)
+
+aa1:
+  -&gt; aa: 2412 (74.3%)
+  -&gt; ∅ (delete): 626 (19.3%)
+  -&gt; ah: 58 (1.8%)
+  -&gt; ao: 56 (1.7%)
+
+aa2:
+  -&gt; aa: 190 (79.5%)
+  -&gt; ∅ (delete): 26 (10.9%)
+  -&gt; ah: 14 (5.9%)
+  -&gt; ao: 5 (2.1%)
+
+ae:
+  -&gt; ix: 712 (44.4%)
+  -&gt; ∅ (delete): 199 (12.4%)
+  -&gt; eh: 176 (11.0%)
+  -&gt; q: 112 (7.0%)
+  -&gt; ax: 111 (6.9%)
+  -&gt; ih: 80 (5.0%)
+
+ae1:
+  -&gt; ae: 3645 (53.4%)
+  -&gt; ∅ (delete): 1312 (19.2%)
+  -&gt; eh: 1201 (17.6%)
+  -&gt; ix: 187 (2.7%)
+  -&gt; hv: 152 (2.2%)
+  -&gt; ih: 128 (1.9%)
+
+ae2:
+  -&gt; ae: 235 (59.8%)
+  -&gt; ∅ (delete): 68 (17.3%)
+  -&gt; eh: 53 (13.5%)
+  -&gt; aa: 12 (3.1%)
+  -&gt; q: 7 (1.8%)
+
+ah:
+  -&gt; ∅ (delete): 29 (20.7%)
+  -&gt; ax: 20 (14.3%)
+  -&gt; ix: 10 (7.1%)
+
+ah1:
+  -&gt; ah: 1679 (73.7%)
+  -&gt; ∅ (delete): 322 (14.1%)
+  -&gt; ax: 115 (5.0%)
+  -&gt; axr: 43 (1.9%)
+  -&gt; ix: 32 (1.4%)
+  -&gt; uh: 24 (1.1%)
+
+ah2:
+  -&gt; ah: 142 (69.3%)
+  -&gt; ∅ (delete): 33 (16.1%)
+  -&gt; ax: 14 (6.8%)
+
+ao:
+  -&gt; k: 38 (25.3%)
+  -&gt; ∅ (delete): 36 (24.0%)
+  -&gt; s: 7 (4.7%)
+  -&gt; ax: 6 (4.0%)
+  -&gt; axr: 6 (4.0%)
+
+ao1:
+  -&gt; ao: 3364 (68.4%)
+  -&gt; aa: 697 (14.2%)
+  -&gt; ∅ (delete): 583 (11.9%)
+  -&gt; ah: 71 (1.4%)
+
+ao2:
+  -&gt; ao: 140 (84.3%)
+  -&gt; ∅ (delete): 9 (5.4%)
+  -&gt; hv: 5 (3.0%)
+
+aw1:
+  -&gt; aw: 700 (74.3%)
+  -&gt; ∅ (delete): 119 (12.6%)
+  -&gt; aa: 72 (7.6%)
+  -&gt; th: 12 (1.3%)
+
+aw2:
+  -&gt; aw: 40 (78.4%)
+  -&gt; ∅ (delete): 10 (19.6%)
+
+ax:
+  -&gt; ix: 2551 (30.0%)
+  -&gt; ∅ (delete): 592 (7.0%)
+  -&gt; ah: 560 (6.6%)
+  -&gt; iy: 382 (4.5%)
+  -&gt; ih: 366 (4.3%)
+  -&gt; axr: 268 (3.1%)
+  -&gt; ey: 187 (2.2%)
+  -&gt; eh: 107 (1.3%)
+
+axr:
+  -&gt; er: 805 (22.7%)
+  -&gt; ax: 113 (3.2%)
+  -&gt; r: 98 (2.8%)
+  -&gt; ix: 73 (2.1%)
+  -&gt; ∅ (delete): 64 (1.8%)
+
+ay:
+  -&gt; ix: 8 (5.7%)
+  -&gt; ah: 5 (3.6%)
+  -&gt; aa: 5 (3.6%)
+
+ay1:
+  -&gt; ay: 2003 (69.4%)
+  -&gt; ∅ (delete): 697 (24.2%)
+  -&gt; aa: 103 (3.6%)
+
+ay2:
+  -&gt; ay: 284 (77.8%)
+  -&gt; ∅ (delete): 59 (16.2%)
+  -&gt; aa: 9 (2.5%)
+
+b:
+  -&gt; ∅ (delete): 102 (2.9%)
+  -&gt; aa: 76 (2.2%)
+  -&gt; ah: 53 (1.5%)
+  -&gt; ae: 40 (1.2%)
+
+ch:
+  -&gt; sh: 30 (2.8%)
+
+d:
+  -&gt; ∅ (delete): 1306 (15.1%)
+  -&gt; dx: 886 (10.3%)
+  -&gt; jh: 302 (3.5%)
+  -&gt; ae: 162 (1.9%)
+  -&gt; eh: 150 (1.7%)
+  -&gt; ih: 149 (1.7%)
+  -&gt; uh: 120 (1.4%)
+  -&gt; n: 104 (1.2%)
+  -&gt; ix: 93 (1.1%)
+
+dh:
+  -&gt; ∅ (delete): 244 (5.5%)
+  -&gt; th: 232 (5.3%)
+
+eh:
+  -&gt; ix: 66 (41.0%)
+  -&gt; ∅ (delete): 21 (13.0%)
+  -&gt; ih: 12 (7.5%)
+  -&gt; ax: 10 (6.2%)
+  -&gt; axr: 7 (4.3%)
+
+eh1:
+  -&gt; eh: 2524 (76.0%)
+  -&gt; ∅ (delete): 497 (15.0%)
+  -&gt; ih: 110 (3.3%)
+  -&gt; ix: 61 (1.8%)
+
+eh2:
+  -&gt; eh: 206 (66.2%)
+  -&gt; ∅ (delete): 52 (16.7%)
+  -&gt; ix: 15 (4.8%)
+  -&gt; ih: 7 (2.3%)
+  -&gt; ax: 6 (1.9%)
+
+el:
+  -&gt; l: 216 (16.8%)
+  -&gt; ax: 17 (1.3%)
+
+em:
+  -&gt; m: 72 (87.8%)
+
+en:
+  -&gt; n: 100 (28.6%)
+  -&gt; ix: 25 (7.1%)
+  -&gt; ih: 7 (2.0%)
+  -&gt; t: 5 (1.4%)
+
+er:
+  -&gt; axr: 134 (55.4%)
+  -&gt; r: 8 (3.3%)
+  -&gt; ax: 6 (2.5%)
+
+er1:
+  -&gt; er: 875 (75.7%)
+  -&gt; axr: 137 (11.9%)
+  -&gt; ∅ (delete): 112 (9.7%)
+
+er2:
+  -&gt; er: 30 (48.4%)
+  -&gt; axr: 27 (43.5%)
+
+ey:
+  -&gt; ix: 17 (15.7%)
+  -&gt; iy: 14 (13.0%)
+  -&gt; ih: 7 (6.5%)
+
+ey1:
+  -&gt; ey: 1991 (84.3%)
+  -&gt; ∅ (delete): 288 (12.2%)
+  -&gt; eh: 28 (1.2%)
+
+ey2:
+  -&gt; ey: 366 (77.4%)
+  -&gt; ∅ (delete): 78 (16.5%)
+  -&gt; w: 6 (1.3%)
+
+f:
+  -&gt; ∅ (delete): 44 (1.4%)
+
+g:
+  -&gt; ae: 169 (5.1%)
+  -&gt; ∅ (delete): 89 (2.7%)
+  -&gt; ih: 75 (2.3%)
+  -&gt; ix: 43 (1.3%)
+
+hh:
+  -&gt; hv: 1306 (39.4%)
+  -&gt; ∅ (delete): 753 (22.7%)
+
+ih:
+  -&gt; ix: 1110 (47.8%)
+  -&gt; ∅ (delete): 230 (9.9%)
+  -&gt; ax: 197 (8.5%)
+  -&gt; iy: 197 (8.5%)
+  -&gt; axr: 91 (3.9%)
+
+ih1:
+  -&gt; ih: 3693 (55.5%)
+  -&gt; ix: 1679 (25.2%)
+  -&gt; ∅ (delete): 891 (13.4%)
+  -&gt; ax: 147 (2.2%)
+  -&gt; iy: 93 (1.4%)
+
+ih2:
+  -&gt; ih: 200 (45.6%)
+  -&gt; ix: 137 (31.2%)
+  -&gt; ∅ (delete): 57 (13.0%)
+  -&gt; ax: 17 (3.9%)
+  -&gt; iy: 10 (2.3%)
+  -&gt; q: 5 (1.1%)
+
+ix:
+  -&gt; ih: 485 (11.6%)
+  -&gt; ∅ (delete): 477 (11.4%)
+  -&gt; ax: 364 (8.7%)
+  -&gt; iy: 305 (7.3%)
+  -&gt; dx: 58 (1.4%)
+  -&gt; eh: 53 (1.3%)
+  -&gt; axr: 49 (1.2%)
+  -&gt; ah: 46 (1.1%)
+
+iy:
+  -&gt; ix: 506 (10.9%)
+  -&gt; ih: 218 (4.7%)
+
+iy1:
+  -&gt; iy: 4366 (86.5%)
+  -&gt; ∅ (delete): 253 (5.0%)
+  -&gt; ix: 251 (5.0%)
+  -&gt; ih: 142 (2.8%)
+
+iy2:
+  -&gt; iy: 119 (79.9%)
+  -&gt; ∅ (delete): 16 (10.7%)
+  -&gt; ih: 7 (4.7%)
+  -&gt; ix: 7 (4.7%)
+
+jh:
+  -&gt; zh: 34 (2.6%)
+  -&gt; ∅ (delete): 23 (1.8%)
+
+k:
+  -&gt; ∅ (delete): 803 (9.5%)
+  -&gt; ay: 444 (5.2%)
+  -&gt; ae: 144 (1.7%)
+  -&gt; eh: 142 (1.7%)
+  -&gt; ix: 125 (1.5%)
+
+l:
+  -&gt; el: 216 (2.6%)
+
+m:
+  -&gt; em: 147 (2.6%)
+  -&gt; ∅ (delete): 89 (1.6%)
+
+n:
+  -&gt; nx: 755 (6.4%)
+  -&gt; en: 638 (5.4%)
+  -&gt; ow: 305 (2.6%)
+  -&gt; ∅ (delete): 291 (2.5%)
+  -&gt; ng: 247 (2.1%)
+
+ng:
+  -&gt; n: 115 (7.0%)
+  -&gt; eng: 23 (1.4%)
+
+ow:
+  -&gt; w: 31 (11.8%)
+  -&gt; ax: 20 (7.6%)
+  -&gt; ix: 9 (3.4%)
+  -&gt; uh: 7 (2.7%)
+  -&gt; axr: 7 (2.7%)
+  -&gt; ah: 6 (2.3%)
+  -&gt; ∅ (delete): 6 (2.3%)
+  -&gt; uw: 5 (1.9%)
+
+ow1:
+  -&gt; ow: 1873 (79.2%)
+  -&gt; ∅ (delete): 431 (18.2%)
+
+ow2:
+  -&gt; ow: 292 (81.1%)
+  -&gt; ∅ (delete): 33 (9.2%)
+  -&gt; ax: 11 (3.1%)
+  -&gt; uh: 6 (1.7%)
+
+oy1:
+  -&gt; oy: 830 (83.7%)
+  -&gt; ao: 73 (7.4%)
+  -&gt; ow: 45 (4.5%)
+  -&gt; ∅ (delete): 25 (2.5%)
+
+oy2:
+  -&gt; oy: 56 (90.3%)
+  -&gt; ∅ (delete): 6 (9.7%)
+
+p:
+  -&gt; ∅ (delete): 121 (3.0%)
+  -&gt; ah: 89 (2.2%)
+  -&gt; ih: 63 (1.6%)
+  -&gt; aa: 61 (1.5%)
+  -&gt; iy: 42 (1.0%)
+
+r:
+  -&gt; axr: 1551 (12.9%)
+  -&gt; er: 727 (6.0%)
+  -&gt; ∅ (delete): 423 (3.5%)
+  -&gt; ao: 140 (1.2%)
+
+s:
+  -&gt; ∅ (delete): 458 (4.5%)
+  -&gt; z: 144 (1.4%)
+
+t:
+  -&gt; dx: 2592 (18.8%)
+  -&gt; ∅ (delete): 1393 (10.1%)
+  -&gt; q: 814 (5.9%)
+  -&gt; ae: 592 (4.3%)
+  -&gt; nx: 443 (3.2%)
+  -&gt; ux: 244 (1.8%)
+  -&gt; ix: 222 (1.6%)
+  -&gt; aa: 197 (1.4%)
+  -&gt; ih: 191 (1.4%)
+  -&gt; eh: 188 (1.4%)
+  -&gt; ey: 188 (1.4%)
+  -&gt; ay: 138 (1.0%)
+
+th:
+  -&gt; ∅ (delete): 11 (1.4%)
+
+uh:
+  -&gt; ix: 89 (42.8%)
+  -&gt; ∅ (delete): 56 (26.9%)
+  -&gt; ax: 25 (12.0%)
+  -&gt; ux: 13 (6.2%)
+  -&gt; ih: 10 (4.8%)
+
+uh1:
+  -&gt; ∅ (delete): 1049 (71.1%)
+  -&gt; uh: 294 (19.9%)
+  -&gt; ao: 36 (2.4%)
+  -&gt; er: 27 (1.8%)
+  -&gt; ix: 21 (1.4%)
+
+uh2:
+  -&gt; ∅ (delete): 33 (57.9%)
+  -&gt; uh: 18 (31.6%)
+
+uw:
+  -&gt; ux: 114 (38.6%)
+  -&gt; ∅ (delete): 35 (11.9%)
+  -&gt; ix: 29 (9.8%)
+  -&gt; ax: 13 (4.4%)
+  -&gt; uh: 7 (2.4%)
+  -&gt; w: 6 (2.0%)
+
+uw1:
+  -&gt; ux: 1821 (46.4%)
+  -&gt; ix: 813 (20.7%)
+  -&gt; uw: 557 (14.2%)
+  -&gt; ∅ (delete): 330 (8.4%)
+  -&gt; ax: 251 (6.4%)
+  -&gt; ih: 59 (1.5%)
+
+uw2:
+  -&gt; ux: 130 (55.3%)
+  -&gt; uw: 39 (16.6%)
+  -&gt; ix: 24 (10.2%)
+  -&gt; ∅ (delete): 18 (7.7%)
+  -&gt; ax: 13 (5.5%)
+  -&gt; uh: 7 (3.0%)
+
+v:
+  -&gt; ∅ (delete): 48 (1.7%)
+  -&gt; f: 42 (1.5%)
+
+y:
+  -&gt; ∅ (delete): 540 (19.3%)
+
+z:
+  -&gt; s: 620 (11.1%)
+  -&gt; zh: 56 (1.0%)
+
+zh:
+  -&gt; jh: 24 (15.3%)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TIMIT uses a slightly different phoneset than CMUdict</span>
+<span class="n">TIMIT_TO_ARPABET</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1"># Vowels - TIMIT often has more distinctions</span>
+    <span class="s1">&#39;ax&#39;</span><span class="p">:</span> <span class="s1">&#39;AH&#39;</span><span class="p">,</span>      <span class="c1"># schwa</span>
+    <span class="s1">&#39;ix&#39;</span><span class="p">:</span> <span class="s1">&#39;IH&#39;</span><span class="p">,</span>      <span class="c1"># reduced high front (often schwa-like)</span>
+    <span class="s1">&#39;ux&#39;</span><span class="p">:</span> <span class="s1">&#39;UW&#39;</span><span class="p">,</span>      <span class="c1"># reduced high back</span>
+    <span class="s1">&#39;axr&#39;</span><span class="p">:</span> <span class="s1">&#39;ER&#39;</span><span class="p">,</span>     <span class="c1"># schwa + r</span>
+    <span class="s1">&#39;ax-h&#39;</span><span class="p">:</span> <span class="s1">&#39;AH&#39;</span><span class="p">,</span>    <span class="c1"># breathy schwa</span>
+    <span class="s1">&#39;em&#39;</span><span class="p">:</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span>       <span class="c1"># syllabic m (CMU doesn&#39;t have this)</span>
+    <span class="s1">&#39;en&#39;</span><span class="p">:</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span>       <span class="c1"># syllabic n (CMU doesn&#39;t have this)  </span>
+    <span class="s1">&#39;eng&#39;</span><span class="p">:</span> <span class="s1">&#39;NG&#39;</span><span class="p">,</span>     <span class="c1"># syllabic ng</span>
+    <span class="s1">&#39;el&#39;</span><span class="p">:</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span>       <span class="c1"># syllabic l (CMU doesn&#39;t have this)</span>
+    <span class="s1">&#39;nx&#39;</span><span class="p">:</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span>       <span class="c1"># flap (alveolar nasal)</span>
+    <span class="s1">&#39;dx&#39;</span><span class="p">:</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span>       <span class="c1"># flap (often realized as D or T)</span>
+    <span class="s1">&#39;q&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>         <span class="c1"># glottal stop (not in CMU)</span>
+    <span class="s1">&#39;hv&#39;</span><span class="p">:</span> <span class="s1">&#39;HH&#39;</span><span class="p">,</span>      <span class="c1"># voiced h</span>
+    <span class="c1"># Direct mappings (lowercase to uppercase)</span>
+    <span class="s1">&#39;aa&#39;</span><span class="p">:</span> <span class="s1">&#39;AA&#39;</span><span class="p">,</span> <span class="s1">&#39;ae&#39;</span><span class="p">:</span> <span class="s1">&#39;AE&#39;</span><span class="p">,</span> <span class="s1">&#39;ah&#39;</span><span class="p">:</span> <span class="s1">&#39;AH&#39;</span><span class="p">,</span> <span class="s1">&#39;ao&#39;</span><span class="p">:</span> <span class="s1">&#39;AO&#39;</span><span class="p">,</span> <span class="s1">&#39;aw&#39;</span><span class="p">:</span> <span class="s1">&#39;AW&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ay&#39;</span><span class="p">:</span> <span class="s1">&#39;AY&#39;</span><span class="p">,</span> <span class="s1">&#39;eh&#39;</span><span class="p">:</span> <span class="s1">&#39;EH&#39;</span><span class="p">,</span> <span class="s1">&#39;er&#39;</span><span class="p">:</span> <span class="s1">&#39;ER&#39;</span><span class="p">,</span> <span class="s1">&#39;ey&#39;</span><span class="p">:</span> <span class="s1">&#39;EY&#39;</span><span class="p">,</span> <span class="s1">&#39;ih&#39;</span><span class="p">:</span> <span class="s1">&#39;IH&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;iy&#39;</span><span class="p">:</span> <span class="s1">&#39;IY&#39;</span><span class="p">,</span> <span class="s1">&#39;ow&#39;</span><span class="p">:</span> <span class="s1">&#39;OW&#39;</span><span class="p">,</span> <span class="s1">&#39;oy&#39;</span><span class="p">:</span> <span class="s1">&#39;OY&#39;</span><span class="p">,</span> <span class="s1">&#39;uh&#39;</span><span class="p">:</span> <span class="s1">&#39;UH&#39;</span><span class="p">,</span> <span class="s1">&#39;uw&#39;</span><span class="p">:</span> <span class="s1">&#39;UW&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;b&#39;</span><span class="p">:</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;ch&#39;</span><span class="p">:</span> <span class="s1">&#39;CH&#39;</span><span class="p">,</span> <span class="s1">&#39;d&#39;</span><span class="p">:</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;dh&#39;</span><span class="p">:</span> <span class="s1">&#39;DH&#39;</span><span class="p">,</span> <span class="s1">&#39;f&#39;</span><span class="p">:</span> <span class="s1">&#39;F&#39;</span><span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">:</span> <span class="s1">&#39;G&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;hh&#39;</span><span class="p">:</span> <span class="s1">&#39;HH&#39;</span><span class="p">,</span> <span class="s1">&#39;jh&#39;</span><span class="p">:</span> <span class="s1">&#39;JH&#39;</span><span class="p">,</span> <span class="s1">&#39;k&#39;</span><span class="p">:</span> <span class="s1">&#39;K&#39;</span><span class="p">,</span> <span class="s1">&#39;l&#39;</span><span class="p">:</span> <span class="s1">&#39;L&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">:</span> <span class="s1">&#39;M&#39;</span><span class="p">,</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span> <span class="s1">&#39;N&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;ng&#39;</span><span class="p">:</span> <span class="s1">&#39;NG&#39;</span><span class="p">,</span> <span class="s1">&#39;p&#39;</span><span class="p">:</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">:</span> <span class="s1">&#39;R&#39;</span><span class="p">,</span> <span class="s1">&#39;s&#39;</span><span class="p">:</span> <span class="s1">&#39;S&#39;</span><span class="p">,</span> <span class="s1">&#39;sh&#39;</span><span class="p">:</span> <span class="s1">&#39;SH&#39;</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;th&#39;</span><span class="p">:</span> <span class="s1">&#39;TH&#39;</span><span class="p">,</span> <span class="s1">&#39;v&#39;</span><span class="p">:</span> <span class="s1">&#39;V&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">:</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="s1">&#39;Y&#39;</span><span class="p">,</span> <span class="s1">&#39;z&#39;</span><span class="p">:</span> <span class="s1">&#39;Z&#39;</span><span class="p">,</span> <span class="s1">&#39;zh&#39;</span><span class="p">:</span> <span class="s1">&#39;ZH&#39;</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">timit_to_arpabet</span><span class="p">(</span><span class="n">timit_phones</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Convert TIMIT phone sequence to ARPABET (CMUdict format)&quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">phone</span> <span class="ow">in</span> <span class="n">timit_phones</span><span class="p">:</span>
+        <span class="n">mapped</span> <span class="o">=</span> <span class="n">TIMIT_TO_ARPABET</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="n">phone</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+        <span class="k">if</span> <span class="n">mapped</span><span class="p">:</span>  <span class="c1"># Skip empty mappings (like glottal stop)</span>
+            <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mapped</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">tuple</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+<span class="c1"># Convert rules to ARPABET</span>
+<span class="n">arpabet_rules</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">transforms</span> <span class="ow">in</span> <span class="n">rules</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">src</span> <span class="o">=</span> <span class="n">TIMIT_TO_ARPABET</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">phone</span><span class="p">,</span> <span class="n">phone</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">src</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="k">if</span> <span class="n">src</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">arpabet_rules</span><span class="p">:</span>
+        <span class="n">arpabet_rules</span><span class="p">[</span><span class="n">src</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">target</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span> <span class="ow">in</span> <span class="n">transforms</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">target</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">arpabet_rules</span><span class="p">[</span><span class="n">src</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="kc">None</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">tgt</span> <span class="o">=</span> <span class="n">TIMIT_TO_ARPABET</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">target</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+            <span class="k">if</span> <span class="n">tgt</span> <span class="ow">and</span> <span class="n">tgt</span> <span class="o">!=</span> <span class="n">src</span><span class="p">:</span>  <span class="c1"># Don&#39;t add identity mappings</span>
+                <span class="n">arpabet_rules</span><span class="p">[</span><span class="n">src</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">tgt</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;=== Rules in ARPABET format ===&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">transforms</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">arpabet_rules</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+    <span class="k">if</span> <span class="n">transforms</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="si">{</span><span class="n">phone</span><span class="si">}</span><span class="s2">:&quot;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">target</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">rate</span> <span class="ow">in</span> <span class="n">transforms</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">target</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  -&gt; ∅ (delete): </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  -&gt; </span><span class="si">{</span><span class="n">target</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">rate</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>=== Rules in ARPABET format ===
+
+AA:
+  -&gt; ∅ (delete): 16 (19.5%)
+  -&gt; AY: 9 (11.0%)
+  -&gt; AH: 5 (6.1%)
+
+AA1:
+  -&gt; AA: 2412 (74.3%)
+  -&gt; ∅ (delete): 626 (19.3%)
+  -&gt; AH: 58 (1.8%)
+  -&gt; AO: 56 (1.7%)
+
+AA2:
+  -&gt; AA: 190 (79.5%)
+  -&gt; ∅ (delete): 26 (10.9%)
+  -&gt; AH: 14 (5.9%)
+  -&gt; AO: 5 (2.1%)
+
+AE:
+  -&gt; IH: 712 (44.4%)
+  -&gt; ∅ (delete): 199 (12.4%)
+  -&gt; EH: 176 (11.0%)
+  -&gt; AH: 111 (6.9%)
+  -&gt; IH: 80 (5.0%)
+
+AE1:
+  -&gt; AE: 3645 (53.4%)
+  -&gt; ∅ (delete): 1312 (19.2%)
+  -&gt; EH: 1201 (17.6%)
+  -&gt; IH: 187 (2.7%)
+  -&gt; HH: 152 (2.2%)
+  -&gt; IH: 128 (1.9%)
+
+AE2:
+  -&gt; AE: 235 (59.8%)
+  -&gt; ∅ (delete): 68 (17.3%)
+  -&gt; EH: 53 (13.5%)
+  -&gt; AA: 12 (3.1%)
+
+AH:
+  -&gt; IH: 2551 (30.0%)
+  -&gt; ∅ (delete): 592 (7.0%)
+  -&gt; IY: 382 (4.5%)
+  -&gt; IH: 366 (4.3%)
+  -&gt; ER: 268 (3.1%)
+  -&gt; EY: 187 (2.2%)
+  -&gt; EH: 107 (1.3%)
+  -&gt; ∅ (delete): 29 (20.7%)
+  -&gt; IH: 10 (7.1%)
+
+AH1:
+  -&gt; AH: 1679 (73.7%)
+  -&gt; ∅ (delete): 322 (14.1%)
+  -&gt; AH: 115 (5.0%)
+  -&gt; ER: 43 (1.9%)
+  -&gt; IH: 32 (1.4%)
+  -&gt; UH: 24 (1.1%)
+
+AH2:
+  -&gt; AH: 142 (69.3%)
+  -&gt; ∅ (delete): 33 (16.1%)
+  -&gt; AH: 14 (6.8%)
+
+AO:
+  -&gt; K: 38 (25.3%)
+  -&gt; ∅ (delete): 36 (24.0%)
+  -&gt; S: 7 (4.7%)
+  -&gt; AH: 6 (4.0%)
+  -&gt; ER: 6 (4.0%)
+
+AO1:
+  -&gt; AO: 3364 (68.4%)
+  -&gt; AA: 697 (14.2%)
+  -&gt; ∅ (delete): 583 (11.9%)
+  -&gt; AH: 71 (1.4%)
+
+AO2:
+  -&gt; AO: 140 (84.3%)
+  -&gt; ∅ (delete): 9 (5.4%)
+  -&gt; HH: 5 (3.0%)
+
+AW1:
+  -&gt; AW: 700 (74.3%)
+  -&gt; ∅ (delete): 119 (12.6%)
+  -&gt; AA: 72 (7.6%)
+  -&gt; TH: 12 (1.3%)
+
+AW2:
+  -&gt; AW: 40 (78.4%)
+  -&gt; ∅ (delete): 10 (19.6%)
+
+AY:
+  -&gt; IH: 8 (5.7%)
+  -&gt; AH: 5 (3.6%)
+  -&gt; AA: 5 (3.6%)
+
+AY1:
+  -&gt; AY: 2003 (69.4%)
+  -&gt; ∅ (delete): 697 (24.2%)
+  -&gt; AA: 103 (3.6%)
+
+AY2:
+  -&gt; AY: 284 (77.8%)
+  -&gt; ∅ (delete): 59 (16.2%)
+  -&gt; AA: 9 (2.5%)
+
+B:
+  -&gt; ∅ (delete): 102 (2.9%)
+  -&gt; AA: 76 (2.2%)
+  -&gt; AH: 53 (1.5%)
+  -&gt; AE: 40 (1.2%)
+
+CH:
+  -&gt; SH: 30 (2.8%)
+
+D:
+  -&gt; ∅ (delete): 1306 (15.1%)
+  -&gt; JH: 302 (3.5%)
+  -&gt; AE: 162 (1.9%)
+  -&gt; EH: 150 (1.7%)
+  -&gt; IH: 149 (1.7%)
+  -&gt; UH: 120 (1.4%)
+  -&gt; N: 104 (1.2%)
+  -&gt; IH: 93 (1.1%)
+
+DH:
+  -&gt; ∅ (delete): 244 (5.5%)
+  -&gt; TH: 232 (5.3%)
+
+EH:
+  -&gt; IH: 66 (41.0%)
+  -&gt; ∅ (delete): 21 (13.0%)
+  -&gt; IH: 12 (7.5%)
+  -&gt; AH: 10 (6.2%)
+  -&gt; ER: 7 (4.3%)
+
+EH1:
+  -&gt; EH: 2524 (76.0%)
+  -&gt; ∅ (delete): 497 (15.0%)
+  -&gt; IH: 110 (3.3%)
+  -&gt; IH: 61 (1.8%)
+
+EH2:
+  -&gt; EH: 206 (66.2%)
+  -&gt; ∅ (delete): 52 (16.7%)
+  -&gt; IH: 15 (4.8%)
+  -&gt; IH: 7 (2.3%)
+  -&gt; AH: 6 (1.9%)
+
+ER:
+  -&gt; AH: 113 (3.2%)
+  -&gt; R: 98 (2.8%)
+  -&gt; IH: 73 (2.1%)
+  -&gt; ∅ (delete): 64 (1.8%)
+  -&gt; R: 8 (3.3%)
+  -&gt; AH: 6 (2.5%)
+
+ER1:
+  -&gt; ER: 875 (75.7%)
+  -&gt; ER: 137 (11.9%)
+  -&gt; ∅ (delete): 112 (9.7%)
+
+ER2:
+  -&gt; ER: 30 (48.4%)
+  -&gt; ER: 27 (43.5%)
+
+EY:
+  -&gt; IH: 17 (15.7%)
+  -&gt; IY: 14 (13.0%)
+  -&gt; IH: 7 (6.5%)
+
+EY1:
+  -&gt; EY: 1991 (84.3%)
+  -&gt; ∅ (delete): 288 (12.2%)
+  -&gt; EH: 28 (1.2%)
+
+EY2:
+  -&gt; EY: 366 (77.4%)
+  -&gt; ∅ (delete): 78 (16.5%)
+  -&gt; W: 6 (1.3%)
+
+F:
+  -&gt; ∅ (delete): 44 (1.4%)
+
+G:
+  -&gt; AE: 169 (5.1%)
+  -&gt; ∅ (delete): 89 (2.7%)
+  -&gt; IH: 75 (2.3%)
+  -&gt; IH: 43 (1.3%)
+
+HH:
+  -&gt; ∅ (delete): 753 (22.7%)
+
+IH:
+  -&gt; ∅ (delete): 230 (9.9%)
+  -&gt; AH: 197 (8.5%)
+  -&gt; IY: 197 (8.5%)
+  -&gt; ER: 91 (3.9%)
+  -&gt; ∅ (delete): 477 (11.4%)
+  -&gt; AH: 364 (8.7%)
+  -&gt; IY: 305 (7.3%)
+  -&gt; D: 58 (1.4%)
+  -&gt; EH: 53 (1.3%)
+  -&gt; ER: 49 (1.2%)
+  -&gt; AH: 46 (1.1%)
+
+IH1:
+  -&gt; IH: 3693 (55.5%)
+  -&gt; IH: 1679 (25.2%)
+  -&gt; ∅ (delete): 891 (13.4%)
+  -&gt; AH: 147 (2.2%)
+  -&gt; IY: 93 (1.4%)
+
+IH2:
+  -&gt; IH: 200 (45.6%)
+  -&gt; IH: 137 (31.2%)
+  -&gt; ∅ (delete): 57 (13.0%)
+  -&gt; AH: 17 (3.9%)
+  -&gt; IY: 10 (2.3%)
+
+IY:
+  -&gt; IH: 506 (10.9%)
+  -&gt; IH: 218 (4.7%)
+
+IY1:
+  -&gt; IY: 4366 (86.5%)
+  -&gt; ∅ (delete): 253 (5.0%)
+  -&gt; IH: 251 (5.0%)
+  -&gt; IH: 142 (2.8%)
+
+IY2:
+  -&gt; IY: 119 (79.9%)
+  -&gt; ∅ (delete): 16 (10.7%)
+  -&gt; IH: 7 (4.7%)
+  -&gt; IH: 7 (4.7%)
+
+JH:
+  -&gt; ZH: 34 (2.6%)
+  -&gt; ∅ (delete): 23 (1.8%)
+
+K:
+  -&gt; ∅ (delete): 803 (9.5%)
+  -&gt; AY: 444 (5.2%)
+  -&gt; AE: 144 (1.7%)
+  -&gt; EH: 142 (1.7%)
+  -&gt; IH: 125 (1.5%)
+
+L:
+  -&gt; AH: 17 (1.3%)
+
+M:
+  -&gt; ∅ (delete): 89 (1.6%)
+
+N:
+  -&gt; OW: 305 (2.6%)
+  -&gt; ∅ (delete): 291 (2.5%)
+  -&gt; NG: 247 (2.1%)
+  -&gt; IH: 25 (7.1%)
+  -&gt; IH: 7 (2.0%)
+  -&gt; T: 5 (1.4%)
+
+NG:
+  -&gt; N: 115 (7.0%)
+
+OW:
+  -&gt; W: 31 (11.8%)
+  -&gt; AH: 20 (7.6%)
+  -&gt; IH: 9 (3.4%)
+  -&gt; UH: 7 (2.7%)
+  -&gt; ER: 7 (2.7%)
+  -&gt; AH: 6 (2.3%)
+  -&gt; ∅ (delete): 6 (2.3%)
+  -&gt; UW: 5 (1.9%)
+
+OW1:
+  -&gt; OW: 1873 (79.2%)
+  -&gt; ∅ (delete): 431 (18.2%)
+
+OW2:
+  -&gt; OW: 292 (81.1%)
+  -&gt; ∅ (delete): 33 (9.2%)
+  -&gt; AH: 11 (3.1%)
+  -&gt; UH: 6 (1.7%)
+
+OY1:
+  -&gt; OY: 830 (83.7%)
+  -&gt; AO: 73 (7.4%)
+  -&gt; OW: 45 (4.5%)
+  -&gt; ∅ (delete): 25 (2.5%)
+
+OY2:
+  -&gt; OY: 56 (90.3%)
+  -&gt; ∅ (delete): 6 (9.7%)
+
+P:
+  -&gt; ∅ (delete): 121 (3.0%)
+  -&gt; AH: 89 (2.2%)
+  -&gt; IH: 63 (1.6%)
+  -&gt; AA: 61 (1.5%)
+  -&gt; IY: 42 (1.0%)
+
+R:
+  -&gt; ER: 1551 (12.9%)
+  -&gt; ER: 727 (6.0%)
+  -&gt; ∅ (delete): 423 (3.5%)
+  -&gt; AO: 140 (1.2%)
+
+S:
+  -&gt; ∅ (delete): 458 (4.5%)
+  -&gt; Z: 144 (1.4%)
+
+T:
+  -&gt; D: 2592 (18.8%)
+  -&gt; ∅ (delete): 1393 (10.1%)
+  -&gt; AE: 592 (4.3%)
+  -&gt; N: 443 (3.2%)
+  -&gt; UW: 244 (1.8%)
+  -&gt; IH: 222 (1.6%)
+  -&gt; AA: 197 (1.4%)
+  -&gt; IH: 191 (1.4%)
+  -&gt; EH: 188 (1.4%)
+  -&gt; EY: 188 (1.4%)
+  -&gt; AY: 138 (1.0%)
+
+TH:
+  -&gt; ∅ (delete): 11 (1.4%)
+
+UH:
+  -&gt; IH: 89 (42.8%)
+  -&gt; ∅ (delete): 56 (26.9%)
+  -&gt; AH: 25 (12.0%)
+  -&gt; UW: 13 (6.2%)
+  -&gt; IH: 10 (4.8%)
+
+UH1:
+  -&gt; ∅ (delete): 1049 (71.1%)
+  -&gt; UH: 294 (19.9%)
+  -&gt; AO: 36 (2.4%)
+  -&gt; ER: 27 (1.8%)
+  -&gt; IH: 21 (1.4%)
+
+UH2:
+  -&gt; ∅ (delete): 33 (57.9%)
+  -&gt; UH: 18 (31.6%)
+
+UW:
+  -&gt; ∅ (delete): 35 (11.9%)
+  -&gt; IH: 29 (9.8%)
+  -&gt; AH: 13 (4.4%)
+  -&gt; UH: 7 (2.4%)
+  -&gt; W: 6 (2.0%)
+
+UW1:
+  -&gt; UW: 1821 (46.4%)
+  -&gt; IH: 813 (20.7%)
+  -&gt; UW: 557 (14.2%)
+  -&gt; ∅ (delete): 330 (8.4%)
+  -&gt; AH: 251 (6.4%)
+  -&gt; IH: 59 (1.5%)
+
+UW2:
+  -&gt; UW: 130 (55.3%)
+  -&gt; UW: 39 (16.6%)
+  -&gt; IH: 24 (10.2%)
+  -&gt; ∅ (delete): 18 (7.7%)
+  -&gt; AH: 13 (5.5%)
+  -&gt; UH: 7 (3.0%)
+
+V:
+  -&gt; ∅ (delete): 48 (1.7%)
+  -&gt; F: 42 (1.5%)
+
+Y:
+  -&gt; ∅ (delete): 540 (19.3%)
+
+Z:
+  -&gt; S: 620 (11.1%)
+  -&gt; ZH: 56 (1.0%)
+
+ZH:
+  -&gt; JH: 24 (15.3%)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">export_rules</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">phone</span><span class="p">,</span> <span class="n">transforms</span> <span class="ow">in</span> <span class="n">arpabet_rules</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">transforms</span><span class="p">:</span>
+        <span class="n">export_rules</span><span class="p">[</span><span class="n">phone</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="p">{</span><span class="s2">&quot;target&quot;</span><span class="p">:</span> <span class="n">t</span><span class="p">,</span> <span class="s2">&quot;count&quot;</span><span class="p">:</span> <span class="n">c</span><span class="p">,</span> <span class="s2">&quot;rate&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="mi">2</span><span class="p">)}</span> 
+            <span class="k">for</span> <span class="n">t</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">transforms</span>
+        <span class="p">]</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;timit_transformation_rules.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">export_rules</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Exported </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">export_rules</span><span class="p">)</span><span class="si">}</span><span class="s2"> phone rules to timit_transformation_rules.json&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Exported 65 phone rules to timit_transformation_rules.json
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">generate_variants</span><span class="p">(</span><span class="n">pronunciation</span><span class="p">,</span> <span class="n">rules</span><span class="p">,</span> <span class="n">max_variants</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Generate pronunciation variants by applying transformation rules.</span>
+<span class="sd">    Uses a simple approach: apply one rule at a time to generate variants.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">variants</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">variants</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="n">pronunciation</span><span class="p">))</span>
+    
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">phone</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">pronunciation</span><span class="p">):</span>
+        <span class="c1"># Strip stress markers for lookup</span>
+        <span class="n">phone_base</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">phone</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">c</span><span class="o">.</span><span class="n">isdigit</span><span class="p">())</span>
+        
+        <span class="k">if</span> <span class="n">phone_base</span> <span class="ow">in</span> <span class="n">rules</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">rule</span> <span class="ow">in</span> <span class="n">rules</span><span class="p">[</span><span class="n">phone_base</span><span class="p">]:</span>
+                <span class="n">target</span> <span class="o">=</span> <span class="n">rule</span><span class="p">[</span><span class="s2">&quot;target&quot;</span><span class="p">]</span>
+                <span class="c1"># Create variant</span>
+                <span class="n">new_pron</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pronunciation</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">target</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                    <span class="c1"># Deletion</span>
+                    <span class="n">new_pron</span> <span class="o">=</span> <span class="n">new_pron</span><span class="p">[:</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">new_pron</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">:]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="c1"># Preserve stress marker if present</span>
+                    <span class="n">stress</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">phone</span> <span class="k">if</span> <span class="n">c</span><span class="o">.</span><span class="n">isdigit</span><span class="p">())</span>
+                    <span class="n">new_pron</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">target</span> <span class="o">+</span> <span class="n">stress</span>
+                <span class="n">variants</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="n">new_pron</span><span class="p">))</span>
+                
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">variants</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">max_variants</span><span class="p">:</span>
+                    <span class="k">break</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">variants</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">max_variants</span><span class="p">:</span>
+            <span class="k">break</span>
+    
+    <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">variants</span><span class="p">)</span>
+
+<span class="c1"># Example with a word</span>
+<span class="n">example_pron</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;AO1&#39;</span><span class="p">,</span> <span class="s1">&#39;T&#39;</span><span class="p">,</span> <span class="s1">&#39;ER0&#39;</span><span class="p">]</span>  <span class="c1"># &quot;water&quot; in CMUdict format</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Base pronunciation: </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">example_pron</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Variants:&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">generate_variants</span><span class="p">(</span><span class="n">example_pron</span><span class="p">,</span> <span class="n">export_rules</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">var</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Base pronunciation: W AO1 T ER0
+Variants:
+  W S1 T ER0
+  W K1 T ER0
+  W AO1 AE ER0
+  W AO1 D ER0
+  W AH1 T ER0
+  W AO1 ER0
+  W T ER0
+  W ER1 T ER0
+  W AO1 N ER0
+  W AO1 T ER0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/kaggle/timit/phonetic/2026/01/29/statistical-rules-from-timit.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

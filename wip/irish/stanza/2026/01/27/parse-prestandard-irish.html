@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Parse pre-standard Irish | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Parse pre-standard Irish" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Colab, incomplete" />
+<meta property="og:description" content="Colab, incomplete" />
+<link rel="canonical" href="https://jimregan.github.io/notes/wip/irish/stanza/2026/01/27/parse-prestandard-irish.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/wip/irish/stanza/2026/01/27/parse-prestandard-irish.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-27T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/wip/irish/stanza/2026/01/27/parse-prestandard-irish.html","@type":"BlogPosting","headline":"Parse pre-standard Irish","dateModified":"2026-01-27T00:00:00-06:00","datePublished":"2026-01-27T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/wip/irish/stanza/2026/01/27/parse-prestandard-irish.html"},"description":"Colab, incomplete","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Parse pre-standard Irish</h1><p class="page-description">Colab, incomplete</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-01-27T00:00:00-06:00" itemprop="datePublished">
+        Jan 27, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      9 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#wip">wip</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#irish">irish</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#stanza">stanza</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-01-27-parse-prestandard-irish.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-01-27-parse-prestandard-irish.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-01-27-parse-prestandard-irish.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-01-27-parse-prestandard-irish.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">stanza</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">urllib.parse</span>
+<span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="kn">import</span> <span class="nn">stanza</span>
+
+<span class="n">STD_API</span> <span class="o">=</span> <span class="s2">&quot;https://cadhan.com/api/intergaelic/3.0&quot;</span>
+
+<span class="c1"># Injected pronouns (only these)</span>
+<span class="n">PRON_FEATS</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;mé&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=1|Number=Sing&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;tú&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=2|Number=Sing&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;muid&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=1|Number=Plur&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sinn&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=1|Number=Plur&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;sibh&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=2|Number=Plur&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;siad&quot;</span><span class="p">:</span> <span class="s2">&quot;Person=3|Number=Plur&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">PRON_FORMS</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">PRON_FEATS</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+
+<span class="c1"># Stanza setup</span>
+<span class="n">stanza</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s2">&quot;ga&quot;</span><span class="p">,</span> <span class="n">processors</span><span class="o">=</span><span class="s2">&quot;tokenize,pos,lemma,depparse&quot;</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">nlp</span> <span class="o">=</span> <span class="n">stanza</span><span class="o">.</span><span class="n">Pipeline</span><span class="p">(</span>
+    <span class="n">lang</span><span class="o">=</span><span class="s2">&quot;ga&quot;</span><span class="p">,</span>
+    <span class="n">processors</span><span class="o">=</span><span class="s2">&quot;tokenize,pos,lemma,depparse&quot;</span><span class="p">,</span>
+    <span class="n">tokenize_pretokenized</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">no_ssplit</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+<span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">standardise</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lang</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;ga&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;Return list of (orig_chunk, std_chunk) rewrite units from Intergaelic.&quot;&quot;&quot;</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">({</span><span class="s2">&quot;foinse&quot;</span><span class="p">:</span> <span class="n">lang</span><span class="p">,</span> <span class="s2">&quot;teacs&quot;</span><span class="p">:</span> <span class="n">text</span><span class="p">})</span><span class="o">.</span><span class="n">encode</span><span class="p">()</span>
+    <span class="n">hdrs</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/x-www-form-urlencoded&quot;</span><span class="p">,</span> <span class="s2">&quot;Accept&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">}</span>
+    <span class="n">req</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">STD_API</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">req</span><span class="p">)</span> <span class="k">as</span> <span class="n">resp</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">resp</span><span class="o">.</span><span class="n">read</span><span class="p">())]</span>
+
+
+<span class="nd">@dataclass</span><span class="p">(</span><span class="n">frozen</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Tok</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A single OUTPUT token (orig_tok) aligned to a single STANZA token (std_tok).</span>
+<span class="sd">    If Intergaelic injected a pronoun (std has +1 token and last is PRON), it is stored</span>
+<span class="sd">    on the LAST token of the rewrite unit (inj_pron).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">orig_tok</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">std_tok</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">inj_pron</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<span class="k">def</span> <span class="nf">expand_and_align</span><span class="p">(</span><span class="n">pairs</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tok</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Expand Intergaelic rewrite units into a flat token stream with strict alignment.</span>
+
+<span class="sd">    Allowed:</span>
+<span class="sd">      1) N→N by whitespace splitting: align positionally.</span>
+<span class="sd">      2) Injection: len(std_parts) == len(orig_parts) + 1 AND std_parts[-1] in PRON_FORMS.</span>
+<span class="sd">         Align shared prefix positionally; attach inj_pron to the LAST aligned token.</span>
+
+<span class="sd">    Everything else: raise (no guessing).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">out</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Tok</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">orig_chunk</span><span class="p">,</span> <span class="n">std_chunk</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">pairs</span><span class="p">):</span>
+        <span class="n">orig_parts</span> <span class="o">=</span> <span class="p">(</span><span class="n">orig_chunk</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="n">std_parts</span> <span class="o">=</span> <span class="p">(</span><span class="n">std_chunk</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+        <span class="c1"># Treat empty std as identity on the orig side (rare, but your earlier code did this)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">std_parts</span> <span class="ow">and</span> <span class="n">orig_parts</span><span class="p">:</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">Tok</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">o</span><span class="p">)</span> <span class="k">for</span> <span class="n">o</span> <span class="ow">in</span> <span class="n">orig_parts</span><span class="p">)</span>
+            <span class="k">continue</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">std_parts</span><span class="p">):</span>
+            <span class="n">out</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">Tok</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span> <span class="k">for</span> <span class="n">o</span><span class="p">,</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">,</span> <span class="n">std_parts</span><span class="p">))</span>
+            <span class="k">continue</span>
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">std_parts</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">std_parts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">PRON_FORMS</span><span class="p">:</span>
+            <span class="n">inj</span> <span class="o">=</span> <span class="n">std_parts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="n">shared</span> <span class="o">=</span> <span class="n">std_parts</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">shared</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">):</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+                    <span class="sa">f</span><span class="s2">&quot;Internal alignment error at pair </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">: orig=</span><span class="si">{</span><span class="n">orig_chunk</span><span class="si">!r}</span><span class="s2"> std=</span><span class="si">{</span><span class="n">std_chunk</span><span class="si">!r}</span><span class="s2">&quot;</span>
+                <span class="p">)</span>
+            <span class="k">for</span> <span class="n">j</span><span class="p">,</span> <span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">,</span> <span class="n">shared</span><span class="p">)):</span>
+                <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Tok</span><span class="p">(</span><span class="n">o</span><span class="p">,</span> <span class="n">s</span><span class="p">,</span> <span class="n">inj_pron</span><span class="o">=</span><span class="n">inj</span> <span class="k">if</span> <span class="n">j</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="k">else</span> <span class="kc">None</span><span class="p">))</span>
+            <span class="k">continue</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+            <span class="sa">f</span><span class="s2">&quot;Unsupported Intergaelic mapping at pair index </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2">: &quot;</span>
+            <span class="sa">f</span><span class="s2">&quot;orig=</span><span class="si">{</span><span class="n">orig_chunk</span><span class="si">!r}</span><span class="s2"> (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">orig_parts</span><span class="p">)</span><span class="si">}</span><span class="s2"> toks) std=</span><span class="si">{</span><span class="n">std_chunk</span><span class="si">!r}</span><span class="s2"> (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">std_parts</span><span class="p">)</span><span class="si">}</span><span class="s2"> toks)&quot;</span>
+        <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">out</span>
+
+
+<span class="k">def</span> <span class="nf">compute_spaceafter</span><span class="p">(</span><span class="n">raw_text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">orig_tokens</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">bool</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    True  =&gt; there WAS whitespace after this token in raw_text (so no SpaceAfter=No)</span>
+<span class="sd">    False =&gt; no whitespace after (emit SpaceAfter=No)</span>
+
+<span class="sd">    Monotonic substring alignment; raises if a token can&#39;t be located.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">flags</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">pos</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">raw_text</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">tok</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">orig_tokens</span><span class="p">):</span>
+        <span class="c1"># Skip whitespace before token</span>
+        <span class="k">while</span> <span class="n">pos</span> <span class="o">&lt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">raw_text</span><span class="p">[</span><span class="n">pos</span><span class="p">]</span><span class="o">.</span><span class="n">isspace</span><span class="p">():</span>
+            <span class="n">pos</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="c1"># Prefer exact match at current position</span>
+        <span class="k">if</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">tok</span><span class="p">,</span> <span class="n">pos</span><span class="p">):</span>
+            <span class="n">start</span> <span class="o">=</span> <span class="n">pos</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">start</span> <span class="o">=</span> <span class="n">raw_text</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">tok</span><span class="p">,</span> <span class="n">pos</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">start</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Could not align token </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">tok</span><span class="si">!r}</span><span class="s2"> near pos </span><span class="si">{</span><span class="n">pos</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">start</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">tok</span><span class="p">)</span>
+        <span class="n">pos</span> <span class="o">=</span> <span class="n">end</span>
+
+        <span class="k">if</span> <span class="n">pos</span> <span class="o">&gt;=</span> <span class="n">n</span><span class="p">:</span>
+            <span class="n">flags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>  <span class="c1"># end-of-text</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">flags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">raw_text</span><span class="p">[</span><span class="n">pos</span><span class="p">]</span><span class="o">.</span><span class="n">isspace</span><span class="p">())</span>
+
+    <span class="k">return</span> <span class="n">flags</span>
+
+
+<span class="k">def</span> <span class="nf">sentences_from_tokens</span><span class="p">(</span><span class="n">tokens</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Tok</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Sentence segmentation over the STANZA token stream:</span>
+<span class="sd">    end sentence at . ! ? on std_tok.</span>
+<span class="sd">    Returns sentences as lists of indices into `tokens`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">sents</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">buf</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tokens</span><span class="p">):</span>
+        <span class="n">buf</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">std_tok</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="s2">&quot;!&quot;</span><span class="p">,</span> <span class="s2">&quot;?&quot;</span><span class="p">}:</span>
+            <span class="n">sents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span>
+            <span class="n">buf</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">buf</span><span class="p">:</span>
+        <span class="n">sents</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">buf</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">sents</span>
+
+
+<span class="k">def</span> <span class="nf">feats_to_dict</span><span class="p">(</span><span class="n">feats</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">feats</span> <span class="ow">or</span> <span class="n">feats</span> <span class="o">==</span> <span class="s2">&quot;_&quot;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">{}</span>
+    <span class="n">out</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="n">feats</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;|&quot;</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s2">&quot;=&quot;</span> <span class="ow">in</span> <span class="n">part</span><span class="p">:</span>
+            <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">part</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;=&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">out</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+    <span class="k">return</span> <span class="n">out</span>
+
+
+<span class="k">def</span> <span class="nf">dict_to_feats</span><span class="p">(</span><span class="n">d</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">d</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s2">&quot;_&quot;</span>
+    <span class="k">return</span> <span class="s2">&quot;|&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s2">=</span><span class="si">{</span><span class="n">v</span><span class="si">}</span><span class="s2">&quot;</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">d</span><span class="o">.</span><span class="n">items</span><span class="p">()))</span>
+
+
+<span class="k">def</span> <span class="nf">merge_feats_preserve</span><span class="p">(</span><span class="n">base</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">add</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Merge without overwriting existing keys (so we don&#39;t stomp on Stanza if it already</span>
+<span class="sd">    provided Person/Number).</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">bd</span> <span class="o">=</span> <span class="n">feats_to_dict</span><span class="p">(</span><span class="n">base</span><span class="p">)</span>
+    <span class="n">ad</span> <span class="o">=</span> <span class="n">feats_to_dict</span><span class="p">(</span><span class="n">add</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">ad</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">bd</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">dict_to_feats</span><span class="p">(</span><span class="n">bd</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">merge_misc</span><span class="p">(</span><span class="o">*</span><span class="n">items</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="n">parts</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">it</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">it</span> <span class="ow">and</span> <span class="n">it</span> <span class="o">!=</span> <span class="s2">&quot;_&quot;</span><span class="p">:</span>
+            <span class="n">parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">it</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s2">&quot;_&quot;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">parts</span> <span class="k">else</span> <span class="s2">&quot;|&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">parts</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">choose_rep_word</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">idxs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Representative word for lemma/POS/feats/deprel/head among a group.</span>
+<span class="sd">    We only group when we *decide* to later; here each Tok is 1:1 with a stanza word.</span>
+<span class="sd">    Keep this for possible future extension; currently idxs will be length 1.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">idxs</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">words</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">upos</span> <span class="ow">or</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="o">!=</span> <span class="s2">&quot;PRON&quot;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">i</span>
+    <span class="k">return</span> <span class="n">idxs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">project_with_stanza</span><span class="p">(</span><span class="n">raw_text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lang</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;ga&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Outputs CoNLL-U:</span>
+<span class="sd">      - Tokenization = aligned original tokens (after expanding orig chunks by whitespace)</span>
+<span class="sd">      - Stanza run on aligned standardized tokens</span>
+<span class="sd">      - Injected pronoun (Intergaelic-only) contributes Person/Number to the LAST token</span>
+<span class="sd">        in the rewrite unit (Tok.inj_pron), never creates a token.</span>
+<span class="sd">      - SpaceAfter=No derived from raw_text spacing.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pairs</span> <span class="o">=</span> <span class="n">standardise</span><span class="p">(</span><span class="n">raw_text</span><span class="p">,</span> <span class="n">lang</span><span class="p">)</span>
+    <span class="n">toks</span> <span class="o">=</span> <span class="n">expand_and_align</span><span class="p">(</span><span class="n">pairs</span><span class="p">)</span>
+
+    <span class="n">orig_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">orig_tok</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">toks</span><span class="p">]</span>
+    <span class="n">spaceafter</span> <span class="o">=</span> <span class="n">compute_spaceafter</span><span class="p">(</span><span class="n">raw_text</span><span class="p">,</span> <span class="n">orig_tokens</span><span class="p">)</span>
+
+    <span class="n">sents</span> <span class="o">=</span> <span class="n">sentences_from_tokens</span><span class="p">(</span><span class="n">toks</span><span class="p">)</span>
+    <span class="n">pretok</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="p">[[</span><span class="n">toks</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">std_tok</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sent</span><span class="p">]</span> <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">sents</span><span class="p">]</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="n">nlp</span><span class="p">(</span><span class="n">pretok</span><span class="p">)</span>
+
+    <span class="n">out</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">global_idx</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># index into toks</span>
+
+    <span class="k">for</span> <span class="n">sid</span><span class="p">,</span> <span class="p">(</span><span class="n">sent_idxs</span><span class="p">,</span> <span class="n">sent_doc</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">sents</span><span class="p">,</span> <span class="n">doc</span><span class="o">.</span><span class="n">sentences</span><span class="p">),</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">raw_slice</span> <span class="o">=</span> <span class="p">[</span><span class="n">toks</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">orig_tok</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sent_idxs</span><span class="p">]</span>
+        <span class="n">std_slice</span> <span class="o">=</span> <span class="p">[</span><span class="n">toks</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">std_tok</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sent_idxs</span><span class="p">]</span>
+
+        <span class="n">out</span> <span class="o">+=</span> <span class="p">[</span>
+            <span class="sa">f</span><span class="s2">&quot;# sent_id = </span><span class="si">{</span><span class="n">sid</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="sa">f</span><span class="s2">&quot;# text = </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">raw_slice</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="sa">f</span><span class="s2">&quot;# text_standard = </span><span class="si">{</span><span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">std_slice</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="p">]</span>
+
+        <span class="n">words</span> <span class="o">=</span> <span class="n">sent_doc</span><span class="o">.</span><span class="n">words</span>  <span class="c1"># 1 per pretokenized token in this sentence</span>
+
+        <span class="c1"># Map stanza word index (sentence-local) -&gt; output token id (sentence-local)</span>
+        <span class="c1"># Here it&#39;s 1:1 by construction.</span>
+        <span class="k">for</span> <span class="n">widx</span><span class="p">,</span> <span class="n">tok_i</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">sent_idxs</span><span class="p">):</span>
+            <span class="n">tid</span> <span class="o">=</span> <span class="n">widx</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">t</span> <span class="o">=</span> <span class="n">toks</span><span class="p">[</span><span class="n">tok_i</span><span class="p">]</span>
+            <span class="n">w</span> <span class="o">=</span> <span class="n">words</span><span class="p">[</span><span class="n">widx</span><span class="p">]</span>
+
+            <span class="c1"># Head remap: stanza head is 1-based within this sentence; 0=root</span>
+            <span class="n">head_tid</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">head</span> <span class="k">if</span> <span class="p">(</span><span class="n">w</span><span class="o">.</span><span class="n">head</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">w</span><span class="o">.</span><span class="n">head</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="k">else</span> <span class="mi">0</span>
+
+            <span class="n">feats</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">feats</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span>
+            <span class="n">misc_parts</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">spaceafter</span><span class="p">[</span><span class="n">tok_i</span><span class="p">]:</span>
+                <span class="n">misc_parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;SpaceAfter=No&quot;</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">inj_pron</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="c1"># Guaranteed to be in PRON_FEATS by expand_and_align()</span>
+                <span class="n">feats</span> <span class="o">=</span> <span class="n">merge_feats_preserve</span><span class="p">(</span><span class="n">feats</span><span class="p">,</span> <span class="n">PRON_FEATS</span><span class="p">[</span><span class="n">t</span><span class="o">.</span><span class="n">inj_pron</span><span class="p">])</span>
+                <span class="n">misc_parts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;InjPron=</span><span class="si">{</span><span class="n">t</span><span class="o">.</span><span class="n">inj_pron</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+            <span class="n">misc</span> <span class="o">=</span> <span class="n">merge_misc</span><span class="p">(</span><span class="o">*</span><span class="n">misc_parts</span><span class="p">)</span>
+
+            <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span>
+                <span class="nb">str</span><span class="p">(</span><span class="n">tid</span><span class="p">),</span>
+                <span class="n">t</span><span class="o">.</span><span class="n">orig_tok</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="n">w</span><span class="o">.</span><span class="n">lemma</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="n">w</span><span class="o">.</span><span class="n">upos</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="n">w</span><span class="o">.</span><span class="n">xpos</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="n">feats</span><span class="p">,</span>
+                <span class="nb">str</span><span class="p">(</span><span class="n">head_tid</span><span class="p">),</span>
+                <span class="n">w</span><span class="o">.</span><span class="n">deprel</span> <span class="ow">or</span> <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="s2">&quot;_&quot;</span><span class="p">,</span>
+                <span class="n">misc</span><span class="p">,</span>
+            <span class="p">]))</span>
+
+            <span class="n">global_idx</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="n">f</span> <span class="o">=</span> <span class="n">project_with_stanza</span><span class="p">(</span><span class="s1">&#39;Do leanadar ag &quot;seasamh a gcirt&quot; go dtí gur dhein Eoghan Rua Ó Néill, ag an mBeinn mBorb, gníomh díreach de shaghas an ghnímh a dhein driotháir a athar agus Aodh Rua Ó Dónaill ag Béal an Átha Buí deich mbliana agus daichead roimis sin.&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># sent_id = 1
+# text = Do leanadar ag &#34; seasamh a gcirt &#34; go dtí gur dhein Eoghan Rua Ó Néill , ag an mBeinn mBorb , gníomh díreach de shaghas an ghnímh a dhein driotháir a athar agus Aodh Rua Ó Dónaill ag Béal an Átha Buí deich mbliana agus daichead roimis sin .
+# text_standard = Do leanadar ag &#34; seasamh a gcirt &#34; go dtí go ndearna Eoghan Rua Ó Néill , ag an mBinn mBorb , gníomh díreach de shaghas an ghnímh a rinne deartháir a athar agus Aodh Rua Ó Dónaill ag Béal an Átha Buí deich mbliana agus daichead roimhe sin .
+1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
+2	leanadar	lean	VERB	VTI	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	_
+3	ag	ag	ADP	Simp	_	5	case	_	_
+4	&#34;	&#34;	PUNCT	Punct	_	5	punct	_	SpaceAfter=No
+5	seasamh	seasamh	NOUN	Noun	VerbForm=Inf	2	xcomp	_	_
+6	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	7	nmod:poss	_	_
+7	gcirt	ceirt	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	&#34;	&#34;	PUNCT	Punct	_	5	punct	_	_
+9	go	go	ADP	Cmpd	PrepForm=Cmpd	12	mark	_	_
+10	dtí	dtí	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	9	fixed	_	_
+11	gur	go	PART	Vb	PartType=Cmpl	12	mark:prt	_	_
+12	dhein	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past	2	ccomp	_	_
+13	Eoghan	Eoghan	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	Rua	Rua	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	Ó	ó	PART	Pat	PartType=Pat	13	flat:name	_	_
+16	Néill	Néill	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	Punct	_	20	punct	_	_
+18	ag	ag	ADP	Simp	_	20	case	_	_
+19	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	mBeinn	binn	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	13	conj	_	_
+21	mBorb	borb	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	20	flat:foreign	_	SpaceAfter=No
+22	,	,	PUNCT	Punct	_	23	punct	_	_
+23	gníomh	gníomh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+24	díreach	díreach	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
+25	de	de	ADP	Simp	_	26	case	_	_
+26	shaghas	saghas	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	23	nmod	_	_
+27	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ghnímh	gníomh	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	26	nmod	_	_
+29	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	30	obj	_	_
+30	dhein	déan	VERB	VTI	Mood=Ind|Tense=Past	23	acl:relcl	_	_
+31	driotháir	deartháir	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	nsubj	_	_
+32	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	33	nmod:poss	_	_
+33	athar	athair	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	_
+34	agus	agus	CCONJ	Coord	_	35	cc	_	_
+35	Aodh	Aodh	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	31	conj	_	_
+36	Rua	Rua	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	35	flat:name	_	_
+37	Ó	ó	PART	Pat	PartType=Pat	35	flat:name	_	_
+38	Dónaill	Dónaill	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	35	flat:name	_	_
+39	ag	ag	ADP	Simp	_	40	case	_	_
+40	Béal	Béal	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	obl	_	_
+41	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Átha	áth	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	40	nmod	_	_
+43	Buí	buí	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	42	amod	_	_
+44	deich	deich	NUM	Num	NumType=Card	45	nummod	_	_
+45	mbliana	bliain	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Fem|Number=Plur	30	obl:tmod	_	_
+46	agus	agus	CCONJ	Coord	_	47	cc	_	_
+47	daichead	daichead	NUM	Num	NumType=Card	45	conj	_	_
+48	roimis	roimh	ADP	Prep	Gender=Masc|Number=Sing|Person=3	49	case	_	_
+49	sin	sin	PRON	Dem	PronType=Dem	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	2	punct	_	_
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/wip/irish/stanza/2026/01/27/parse-prestandard-irish.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

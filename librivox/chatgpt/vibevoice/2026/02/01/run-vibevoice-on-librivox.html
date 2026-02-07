@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Run VibeVoice on Librivox | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Run VibeVoice on Librivox" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For sanity(?)" />
+<meta property="og:description" content="For sanity(?)" />
+<link rel="canonical" href="https://jimregan.github.io/notes/librivox/chatgpt/vibevoice/2026/02/01/run-vibevoice-on-librivox.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/librivox/chatgpt/vibevoice/2026/02/01/run-vibevoice-on-librivox.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-02-01T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/librivox/chatgpt/vibevoice/2026/02/01/run-vibevoice-on-librivox.html","@type":"BlogPosting","headline":"Run VibeVoice on Librivox","dateModified":"2026-02-01T00:00:00-06:00","datePublished":"2026-02-01T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/librivox/chatgpt/vibevoice/2026/02/01/run-vibevoice-on-librivox.html"},"description":"For sanity(?)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Run VibeVoice on Librivox</h1><p class="page-description">For sanity(?)</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-02-01T00:00:00-06:00" itemprop="datePublished">
+        Feb 1, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#librivox">librivox</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#vibevoice">vibevoice</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python3
+</span><span class="kn">import</span> <span class="nn">argparse</span><span class="p">,</span> <span class="n">json</span><span class="p">,</span> <span class="n">time</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span> <span class="nn">torch</span>
+
+<span class="kn">from</span> <span class="nn">vibevoice.modular.modeling_vibevoice_asr</span> <span class="kn">import</span> <span class="n">VibeVoiceASRForConditionalGeneration</span>
+<span class="kn">from</span> <span class="nn">vibevoice.processor.vibevoice_asr_processor</span> <span class="kn">import</span> <span class="n">VibeVoiceASRProcessor</span>
+
+<span class="n">AUDIO_EXTS</span> <span class="o">=</span> <span class="p">{</span><span class="s">".wav"</span><span class="p">,</span><span class="s">".mp3"</span><span class="p">,</span><span class="s">".flac"</span><span class="p">,</span><span class="s">".mp4"</span><span class="p">,</span><span class="s">".m4a"</span><span class="p">,</span><span class="s">".webm"</span><span class="p">,</span><span class="s">".ogg"</span><span class="p">,</span><span class="s">".opus"</span><span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">list_audio_files</span><span class="p">(</span><span class="n">audio_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+    <span class="n">root</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">audio_dir</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">root</span><span class="p">.</span><span class="n">rglob</span><span class="p">(</span><span class="s">"*"</span><span class="p">)</span> <span class="k">if</span> <span class="n">p</span><span class="p">.</span><span class="n">is_file</span><span class="p">()</span> <span class="ow">and</span> <span class="n">p</span><span class="p">.</span><span class="n">suffix</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">AUDIO_EXTS</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">ap</span> <span class="o">=</span> <span class="n">argparse</span><span class="p">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--model_path"</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--audio_dir"</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">""</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--audio_files"</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s">"*"</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="p">[])</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--out_dir"</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--device"</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">"cuda"</span> <span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="n">is_available</span><span class="p">()</span> <span class="k">else</span> <span class="s">"cpu"</span><span class="p">,</span>
+                    <span class="n">choices</span><span class="o">=</span><span class="p">[</span><span class="s">"cuda"</span><span class="p">,</span><span class="s">"cpu"</span><span class="p">,</span><span class="s">"mps"</span><span class="p">,</span><span class="s">"xpu"</span><span class="p">,</span><span class="s">"auto"</span><span class="p">])</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--attn_implementation"</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">"sdpa"</span><span class="p">,</span>
+                    <span class="n">choices</span><span class="o">=</span><span class="p">[</span><span class="s">"flash_attention_2"</span><span class="p">,</span><span class="s">"sdpa"</span><span class="p">,</span><span class="s">"eager"</span><span class="p">])</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--max_new_tokens"</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">32768</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--temperature"</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mf">0.0</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--top_p"</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+    <span class="n">ap</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s">"--num_beams"</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">ap</span><span class="p">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+    <span class="n">files</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">args</span><span class="p">.</span><span class="n">audio_dir</span><span class="p">:</span>
+        <span class="n">files</span><span class="p">.</span><span class="n">extend</span><span class="p">(</span><span class="n">list_audio_files</span><span class="p">(</span><span class="n">args</span><span class="p">.</span><span class="n">audio_dir</span><span class="p">))</span>
+    <span class="n">files</span><span class="p">.</span><span class="n">extend</span><span class="p">(</span><span class="n">args</span><span class="p">.</span><span class="n">audio_files</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">files</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">SystemExit</span><span class="p">(</span><span class="s">"No audio files found. Use --audio_dir or --audio_files."</span><span class="p">)</span>
+
+    <span class="n">out_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">args</span><span class="p">.</span><span class="n">out_dir</span><span class="p">)</span>
+    <span class="n">out_dir</span><span class="p">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">dtype</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">float32</span> <span class="k">if</span> <span class="n">args</span><span class="p">.</span><span class="n">device</span> <span class="ow">in</span> <span class="p">(</span><span class="s">"cpu"</span><span class="p">,</span><span class="s">"mps"</span><span class="p">,</span><span class="s">"xpu"</span><span class="p">)</span> <span class="k">else</span> <span class="n">torch</span><span class="p">.</span><span class="n">bfloat16</span>
+
+    <span class="n">processor</span> <span class="o">=</span> <span class="n">VibeVoiceASRProcessor</span><span class="p">.</span><span class="n">from_pretrained</span><span class="p">(</span><span class="n">args</span><span class="p">.</span><span class="n">model_path</span><span class="p">)</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">VibeVoiceASRForConditionalGeneration</span><span class="p">.</span><span class="n">from_pretrained</span><span class="p">(</span>
+        <span class="n">args</span><span class="p">.</span><span class="n">model_path</span><span class="p">,</span>
+        <span class="n">dtype</span><span class="o">=</span><span class="n">dtype</span><span class="p">,</span>
+        <span class="n">device_map</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">device</span> <span class="k">if</span> <span class="n">args</span><span class="p">.</span><span class="n">device</span> <span class="o">==</span> <span class="s">"auto"</span> <span class="k">else</span> <span class="bp">None</span><span class="p">,</span>
+        <span class="n">attn_implementation</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">attn_implementation</span><span class="p">,</span>
+        <span class="n">trust_remote_code</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">if</span> <span class="n">args</span><span class="p">.</span><span class="n">device</span> <span class="o">!=</span> <span class="s">"auto"</span><span class="p">:</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">args</span><span class="p">.</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">device</span> <span class="o">=</span> <span class="n">args</span><span class="p">.</span><span class="n">device</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">device</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="n">parameters</span><span class="p">()).</span><span class="n">device</span>
+    <span class="n">model</span><span class="p">.</span><span class="nb">eval</span><span class="p">()</span>
+
+    <span class="n">do_sample</span> <span class="o">=</span> <span class="n">args</span><span class="p">.</span><span class="n">temperature</span> <span class="o">&gt;</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+        <span class="n">inputs</span> <span class="o">=</span> <span class="n">processor</span><span class="p">(</span>
+            <span class="n">audio</span><span class="o">=</span><span class="n">f</span><span class="p">,</span>
+            <span class="n">sampling_rate</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+            <span class="n">return_tensors</span><span class="o">=</span><span class="s">"pt"</span><span class="p">,</span>
+            <span class="n">add_generation_prompt</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="n">inputs</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">)</span> <span class="k">else</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">inputs</span><span class="p">.</span><span class="n">items</span><span class="p">()}</span>
+
+        <span class="n">gen_cfg</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s">"max_new_tokens"</span><span class="p">:</span> <span class="n">args</span><span class="p">.</span><span class="n">max_new_tokens</span><span class="p">,</span>
+            <span class="s">"do_sample"</span><span class="p">:</span> <span class="n">do_sample</span><span class="p">,</span>
+            <span class="s">"num_beams"</span><span class="p">:</span> <span class="n">args</span><span class="p">.</span><span class="n">num_beams</span><span class="p">,</span>
+            <span class="s">"pad_token_id"</span><span class="p">:</span> <span class="n">processor</span><span class="p">.</span><span class="n">pad_id</span><span class="p">,</span>
+            <span class="s">"eos_token_id"</span><span class="p">:</span> <span class="n">processor</span><span class="p">.</span><span class="n">tokenizer</span><span class="p">.</span><span class="n">eos_token_id</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">if</span> <span class="n">do_sample</span><span class="p">:</span>
+            <span class="n">gen_cfg</span><span class="p">[</span><span class="s">"temperature"</span><span class="p">]</span> <span class="o">=</span> <span class="n">args</span><span class="p">.</span><span class="n">temperature</span>
+            <span class="n">gen_cfg</span><span class="p">[</span><span class="s">"top_p"</span><span class="p">]</span> <span class="o">=</span> <span class="n">args</span><span class="p">.</span><span class="n">top_p</span>
+
+        <span class="n">t0</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+            <span class="n">output_ids</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">generate</span><span class="p">(</span><span class="o">**</span><span class="n">inputs</span><span class="p">,</span> <span class="o">**</span><span class="n">gen_cfg</span><span class="p">)</span>
+        <span class="n">_</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="n">t0</span>  <span class="c1"># not used; you asked for JSON only
+</span>
+        <span class="n">generated_ids</span> <span class="o">=</span> <span class="n">output_ids</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">inputs</span><span class="p">[</span><span class="s">"input_ids"</span><span class="p">].</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]:]</span>
+        <span class="n">raw_text</span> <span class="o">=</span> <span class="n">processor</span><span class="p">.</span><span class="n">decode</span><span class="p">(</span><span class="n">generated_ids</span><span class="p">,</span> <span class="n">skip_special_tokens</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+        <span class="c1"># parse into segments
+</span>        <span class="k">try</span><span class="p">:</span>
+            <span class="n">segments</span> <span class="o">=</span> <span class="n">processor</span><span class="p">.</span><span class="n">post_process_transcription</span><span class="p">(</span><span class="n">raw_text</span><span class="p">)</span>
+        <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
+            <span class="n">segments</span> <span class="o">=</span> <span class="p">[]</span>
+
+        <span class="c1"># convert to Gradio-style JSON list
+</span>        <span class="n">out_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">seg</span> <span class="ow">in</span> <span class="n">segments</span><span class="p">:</span>
+            <span class="n">item</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="s">"Start"</span><span class="p">:</span> <span class="n">seg</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"start_time"</span><span class="p">),</span>
+                <span class="s">"End"</span><span class="p">:</span> <span class="n">seg</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"end_time"</span><span class="p">),</span>
+                <span class="s">"Content"</span><span class="p">:</span> <span class="n">seg</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"text"</span><span class="p">,</span> <span class="s">""</span><span class="p">),</span>
+            <span class="p">}</span>
+            <span class="n">spk</span> <span class="o">=</span> <span class="n">seg</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"speaker_id"</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">spk</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                <span class="n">item</span><span class="p">[</span><span class="s">"Speaker"</span><span class="p">]</span> <span class="o">=</span> <span class="n">spk</span>
+            <span class="n">out_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+
+        <span class="n">out_path</span> <span class="o">=</span> <span class="n">out_dir</span> <span class="o">/</span> <span class="p">(</span><span class="n">Path</span><span class="p">(</span><span class="n">f</span><span class="p">).</span><span class="n">stem</span> <span class="o">+</span> <span class="s">".json"</span><span class="p">)</span>
+        <span class="n">out_path</span><span class="p">.</span><span class="n">write_text</span><span class="p">(</span><span class="n">json</span><span class="p">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">out_list</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">),</span> <span class="n">encoding</span><span class="o">=</span><span class="s">"utf-8"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">f"✅ wrote </span><span class="si">{</span><span class="n">out_path</span><span class="si">}</span><span class="s"> (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">out_list</span><span class="p">)</span><span class="si">}</span><span class="s"> segments)"</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Running with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>d <span class="k">in</span> /data/<span class="k">*</span>/<span class="k">*</span><span class="p">;</span> <span class="k">do if</span> <span class="o">[</span> <span class="nt">-d</span> <span class="nv">$d</span> <span class="o">]</span><span class="p">;</span><span class="k">then for </span>f <span class="k">in</span> <span class="nv">$d</span>/<span class="k">*</span>.mp3<span class="p">;</span><span class="k">do </span><span class="nv">json</span><span class="o">=</span><span class="si">$(</span><span class="nb">echo</span> <span class="nv">$f</span>|sed <span class="nt">-e</span> <span class="s1">'s/mp3$/json/'</span><span class="si">)</span><span class="p">;</span> <span class="k">if</span> <span class="o">[</span> <span class="o">!</span> <span class="nt">-e</span> <span class="nv">$json</span> <span class="o">]</span><span class="p">;</span><span class="k">then </span>python vibevoice/scripts/transcribe.py <span class="nt">--model_path</span> /app/models/VibeVoice-ASR <span class="nt">--audio_files</span> <span class="nv">$f</span> <span class="nt">--out_dir</span> <span class="nv">$d</span><span class="p">;</span><span class="k">fi</span><span class="p">;</span><span class="k">done</span><span class="p">;</span><span class="k">fi</span><span class="p">;</span><span class="k">done
+done</span>
+</code></pre></div></div>
+
+<p>ChatGPT cleanup:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>d <span class="k">in</span> /data/<span class="k">*</span>/<span class="k">*</span><span class="p">;</span> <span class="k">do
+  if</span> <span class="o">[</span> <span class="nt">-d</span> <span class="s2">"</span><span class="nv">$d</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    for </span>f <span class="k">in</span> <span class="s2">"</span><span class="nv">$d</span><span class="s2">"</span>/<span class="k">*</span>.mp3<span class="p">;</span> <span class="k">do</span>
+      <span class="o">[</span> <span class="nt">-e</span> <span class="s2">"</span><span class="nv">$f</span><span class="s2">"</span> <span class="o">]</span> <span class="o">||</span> <span class="k">continue</span>  <span class="c"># skip if no mp3s matched</span>
+
+      <span class="nv">json</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">f</span><span class="p">%.mp3</span><span class="k">}</span><span class="s2">.json"</span>
+      <span class="k">if</span> <span class="o">[</span> <span class="o">!</span> <span class="nt">-e</span> <span class="s2">"</span><span class="nv">$json</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+        </span>python vibevoice/scripts/transcribe.py <span class="se">\</span>
+          <span class="nt">--model_path</span> /app/models/VibeVoice-ASR <span class="se">\</span>
+          <span class="nt">--audio_files</span> <span class="s2">"</span><span class="nv">$f</span><span class="s2">"</span> <span class="se">\</span>
+          <span class="nt">--out_dir</span> <span class="s2">"</span><span class="nv">$d</span><span class="s2">"</span>
+      <span class="k">fi
+    done
+  fi
+done</span>
+</code></pre></div></div>
+
+
+  </div><a class="u-url" href="/notes/librivox/chatgpt/vibevoice/2026/02/01/run-vibevoice-on-librivox.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

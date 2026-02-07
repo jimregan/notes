@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Pocketsphinx phones | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Pocketsphinx phones" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Aligning Hungarian with Pocketsphinx English" />
+<meta property="og:description" content="Aligning Hungarian with Pocketsphinx English" />
+<link rel="canonical" href="https://jimregan.github.io/notes/pocketsphinx/alignment/hungarian/2026/01/18/pocketsphinx-phones.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/pocketsphinx/alignment/hungarian/2026/01/18/pocketsphinx-phones.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-18T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/pocketsphinx/alignment/hungarian/2026/01/18/pocketsphinx-phones.html","@type":"BlogPosting","headline":"Pocketsphinx phones","dateModified":"2026-01-18T00:00:00-06:00","datePublished":"2026-01-18T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/pocketsphinx/alignment/hungarian/2026/01/18/pocketsphinx-phones.html"},"description":"Aligning Hungarian with Pocketsphinx English","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Pocketsphinx phones</h1><p class="page-description">Aligning Hungarian with Pocketsphinx English</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-01-18T00:00:00-06:00" itemprop="datePublished">
+        Jan 18, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      12 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#pocketsphinx">pocketsphinx</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#alignment">alignment</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#hungarian">hungarian</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-01-18-pocketsphinx-phones.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-01-18-pocketsphinx-phones.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-01-18-pocketsphinx-phones.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-01-18-pocketsphinx-phones.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>wget https://ia600600.us.archive.org/23/items/multilingual_poetry_014_1002/hungarian_aborozo_petofi_dii.mp3
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>ffmpeg -i ~/Downloads/hungarian_aborozo_petofi_dii.mp3 -acodec pcm_s16le -ac <span class="m">1</span> -ar <span class="m">16000</span> /tmp/samp.wav
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>sox /tmp/samp.wav -r <span class="m">16000</span> -c <span class="m">1</span> -b <span class="m">16</span> -e signed-integer /tmp/samp.raw
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pocketsphinx</span> <span class="kn">import</span> <span class="n">Decoder</span><span class="p">,</span> <span class="n">Config</span>
+
+<span class="n">MODEL</span><span class="o">=</span><span class="s2">&quot;/opt/homebrew/Cellar/cmu-pocketsphinx/5.0.4/share/pocketsphinx/model/en-us&quot;</span>
+<span class="n">RAW</span><span class="o">=</span><span class="s2">&quot;/tmp/samp.raw&quot;</span>
+
+<span class="n">config</span> <span class="o">=</span> <span class="n">Config</span><span class="p">(</span>
+    <span class="n">hmm</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">MODEL</span><span class="si">}</span><span class="s2">/en-us&quot;</span><span class="p">,</span>
+    <span class="n">allphone</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">MODEL</span><span class="si">}</span><span class="s2">/en-us-phone.lm.bin&quot;</span><span class="p">,</span>
+    <span class="n">lm</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">allphone_ci</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="nb">dict</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">samprate</span><span class="o">=</span><span class="mi">16000</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">ps</span> <span class="o">=</span> <span class="n">Decoder</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">RAW</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">ps</span><span class="o">.</span><span class="n">start_utt</span><span class="p">()</span>
+    <span class="n">ps</span><span class="o">.</span><span class="n">process_raw</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">(),</span> <span class="n">no_search</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">full_utt</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">ps</span><span class="o">.</span><span class="n">end_utt</span><span class="p">()</span>
+
+<span class="n">frate</span> <span class="o">=</span> <span class="n">ps</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">get_int</span><span class="p">(</span><span class="s2">&quot;-frate&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;# frate=</span><span class="si">{</span><span class="n">frate</span><span class="si">}</span><span class="s2"> frames/sec&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">seg</span> <span class="ow">in</span> <span class="n">ps</span><span class="o">.</span><span class="n">seg</span><span class="p">():</span>
+    <span class="n">label</span> <span class="o">=</span> <span class="n">seg</span><span class="o">.</span><span class="n">word</span>
+    <span class="n">sf</span> <span class="o">=</span> <span class="n">seg</span><span class="o">.</span><span class="n">start_frame</span>
+    <span class="n">ef</span> <span class="o">=</span> <span class="n">seg</span><span class="o">.</span><span class="n">end_frame</span>
+    <span class="n">start_s</span> <span class="o">=</span> <span class="n">sf</span> <span class="o">/</span> <span class="n">frate</span>
+    <span class="n">end_s</span> <span class="o">=</span> <span class="n">ef</span> <span class="o">/</span> <span class="n">frate</span>
+    <span class="n">dur_s</span> <span class="o">=</span> <span class="p">(</span><span class="n">ef</span> <span class="o">-</span> <span class="n">sf</span><span class="p">)</span> <span class="o">/</span> <span class="n">frate</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">start_s</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">end_s</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="se">\t</span><span class="si">{</span><span class="n">dur_s</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre># frate=100 frames/sec
+SIL	0.000	0.560	0.560
+OW	0.570	0.640	0.070
+DH	0.650	0.700	0.050
+L	0.710	0.820	0.110
+AO	0.830	0.920	0.090
+Z	0.930	1.050	0.120
+OW	1.060	1.290	0.230
+SIL	1.300	1.830	0.530
+M	1.840	1.900	0.060
+AY	1.910	2.050	0.140
+T	2.060	2.200	0.140
+AA	2.210	2.330	0.120
+N	2.340	2.430	0.090
+EH	2.440	2.580	0.140
+DH	2.590	2.670	0.080
+AH	2.680	2.740	0.060
+T	2.750	2.840	0.090
+IH	2.850	2.940	0.090
+D	2.950	3.060	0.110
+IY	3.070	3.320	0.250
+SIL	3.330	3.660	0.330
+R	3.670	3.750	0.080
+EH	3.760	3.860	0.100
+G	3.870	3.980	0.110
+NG	3.990	4.060	0.070
+AE	4.070	4.170	0.100
+NG	4.180	4.270	0.090
+IH	4.280	4.390	0.110
+R	4.400	4.480	0.080
+EY	4.490	4.650	0.160
+N	4.660	4.760	0.100
+F	4.770	4.850	0.080
+AO	4.860	4.920	0.060
+ER	4.930	4.980	0.050
+IH	4.990	5.100	0.110
+P	5.110	5.140	0.030
+R	5.150	5.310	0.160
+AO	5.320	5.390	0.070
+K	5.400	5.460	0.060
+TH	5.470	5.570	0.100
+OW	5.580	5.680	0.100
+B	5.690	5.740	0.050
+AH	5.750	5.790	0.040
+AY	5.800	5.950	0.150
+R	5.960	6.010	0.050
+P	6.020	6.130	0.110
+AY	6.140	6.260	0.120
+B	6.270	6.320	0.050
+EH	6.330	6.450	0.120
+N	6.460	6.510	0.050
+AH	6.520	6.570	0.050
+W	6.580	6.640	0.060
+AY	6.650	6.770	0.120
+NG	6.780	7.040	0.260
+AE	7.050	7.200	0.150
+D	7.210	7.300	0.090
+SIL	7.310	10.060	2.750
+L	10.070	10.210	0.140
+NG	10.220	10.300	0.080
+IH	10.310	10.420	0.110
+Z	10.430	10.510	0.080
+IH	10.520	10.630	0.110
+B	10.640	10.760	0.120
+R	10.770	10.810	0.040
+AA	10.820	10.880	0.060
+CH	10.890	11.000	0.110
+K	11.010	11.060	0.050
+AE	11.070	11.120	0.050
+N	11.130	11.210	0.080
+EH	11.220	11.490	0.270
+TH	11.500	11.640	0.140
+IY	11.650	11.860	0.210
+R	11.870	11.940	0.070
+N	11.950	12.010	0.060
+IH	12.020	12.180	0.160
+AA	12.190	12.290	0.100
+N	12.300	12.340	0.040
+IH	12.350	12.510	0.160
+AE	12.520	12.620	0.100
+DH	12.630	12.720	0.090
+AW	12.730	12.810	0.080
+N	12.820	12.980	0.160
+SIL	12.990	13.680	0.690
+L	13.690	13.810	0.120
+N	13.820	13.890	0.070
+D	13.900	13.930	0.030
+IH	13.940	14.020	0.080
+Z	14.030	14.110	0.080
+IH	14.120	14.210	0.090
+B	14.220	14.300	0.080
+UH	14.310	14.480	0.170
+T	14.490	14.620	0.130
+K	14.630	14.700	0.070
+AA	14.710	14.770	0.060
+L	14.780	14.870	0.090
+AW	14.880	15.020	0.140
+EH	15.030	15.160	0.130
+SIL	15.170	15.470	0.300
+CH	15.480	15.620	0.140
+AA	15.630	15.780	0.150
+SH	15.790	15.940	0.150
+K	15.950	16.070	0.120
+AA	16.080	16.160	0.080
+T	16.170	16.260	0.090
+AA	16.270	16.390	0.120
+L	16.400	16.530	0.130
+AH	16.540	16.570	0.030
+B	16.580	16.660	0.080
+N	16.670	16.730	0.060
+AE	16.740	16.810	0.070
+AH	16.820	16.940	0.120
+DH	16.950	17.040	0.090
+AW	17.050	17.150	0.100
+N	17.160	17.270	0.110
+SIL	17.280	18.120	0.840
+SH	18.130	18.250	0.120
+IH	18.260	18.350	0.090
+DH	18.360	18.440	0.080
+AW	18.450	18.580	0.130
+L	18.590	18.750	0.160
+AH	18.760	18.790	0.030
+T	18.800	18.880	0.080
+L	18.890	18.960	0.070
+K	18.970	19.090	0.120
+ER	19.100	19.130	0.030
+W	19.140	19.260	0.120
+N	19.270	19.370	0.100
+AH	19.380	19.450	0.070
+M	19.460	19.540	0.080
+L	19.550	19.590	0.040
+EH	19.600	19.620	0.020
+CH	19.630	19.760	0.130
+ER	19.770	19.810	0.040
+P	19.820	19.850	0.030
+AW	19.860	19.920	0.060
+B	19.930	20.010	0.080
+UH	20.020	20.110	0.090
+Y	20.120	20.180	0.060
+S	20.190	20.350	0.160
+AE	20.360	20.410	0.050
+N	20.420	20.460	0.040
+AA	20.470	20.550	0.080
+K	20.560	20.640	0.080
+IY	20.650	20.710	0.060
+DH	20.720	20.780	0.060
+EY	20.790	20.900	0.110
+N	20.910	20.940	0.030
+IY	20.950	21.010	0.060
+M	21.020	21.090	0.070
+AE	21.100	21.260	0.160
+D	21.270	21.330	0.060
+UH	21.340	21.410	0.070
+K	21.420	21.480	0.060
+ER	21.490	21.600	0.110
+DH	21.610	21.760	0.150
+AH	21.770	21.790	0.020
+T	21.800	21.860	0.060
+JH	21.870	21.910	0.040
+EH	21.920	22.000	0.080
+K	22.010	22.110	0.100
+AE	22.120	22.180	0.060
+B	22.190	22.260	0.070
+AW	22.270	22.410	0.140
+N	22.420	22.490	0.070
+T	22.500	22.650	0.150
+IH	22.660	22.710	0.050
+NG	22.720	22.870	0.150
+AE	22.880	22.980	0.100
+M	22.990	23.030	0.040
++SPN+	23.040	23.120	0.080
++NSN+	23.130	23.240	0.110
+SIL	23.250	24.350	1.100
+SH	24.360	24.450	0.090
+UH	24.460	24.510	0.050
+B	24.520	24.580	0.060
+AO	24.590	24.720	0.130
+R	24.730	24.750	0.020
+D	24.760	24.900	0.140
+DH	24.910	24.950	0.040
+AW	24.960	25.070	0.110
+N	25.080	25.160	0.080
+AE	25.170	25.240	0.070
+M	25.250	25.300	0.050
+IY	25.310	25.410	0.100
+D	25.420	25.480	0.060
+EH	25.490	25.560	0.070
+N	25.570	25.630	0.060
+F	25.640	25.720	0.080
+IY	25.730	25.780	0.050
+T	25.790	25.950	0.160
+EH	25.960	26.050	0.090
+N	26.060	26.090	0.030
+P	26.100	26.170	0.070
+AE	26.180	26.240	0.060
+K	26.250	26.330	0.080
+T	26.340	26.360	0.020
+AE	26.370	26.510	0.140
+D	26.520	26.630	0.110
+AH	26.640	26.820	0.180
+T	26.830	26.930	0.100
+ER	26.940	27.010	0.070
+AE	27.020	27.220	0.200
+P	27.230	27.310	0.080
+SIL	27.320	27.850	0.530
+TH	27.860	27.970	0.110
+IY	27.980	28.170	0.190
+N	28.180	28.280	0.100
+EH	28.290	28.360	0.070
+T	28.370	28.440	0.070
+AH	28.450	28.670	0.220
+UW	28.680	28.860	0.180
+T	28.870	28.970	0.100
+IY	28.980	29.060	0.080
+N	29.070	29.180	0.110
+AH	29.190	29.260	0.070
+CH	29.270	29.420	0.150
+G	29.430	29.490	0.060
+AO	29.500	29.610	0.110
+D	29.620	29.650	0.030
+T	29.660	29.740	0.080
+IY	29.750	29.850	0.100
+W	29.860	29.940	0.080
+IY	29.950	30.050	0.100
+S	30.060	30.160	0.100
+AE	30.170	30.280	0.110
+G	30.290	30.400	0.110
+AH	30.410	30.470	0.060
+T	30.480	30.550	0.070
+AE	30.560	30.720	0.160
+K	30.730	30.880	0.150
+SIL	30.890	31.740	0.850
+L	31.750	31.880	0.130
+AH	31.890	31.970	0.080
+B	31.980	32.050	0.070
+AH	32.060	32.110	0.050
+IY	32.120	32.280	0.160
+DH	32.290	32.340	0.050
+AH	32.350	32.420	0.070
+W	32.430	32.580	0.150
+UH	32.590	32.610	0.020
+Y	32.620	32.720	0.100
+EY	32.730	32.890	0.160
+N	32.900	33.010	0.110
+AH	33.020	33.070	0.050
+CH	33.080	33.210	0.130
+AY	33.220	33.430	0.210
+NG	33.440	33.520	0.080
+IH	33.530	33.570	0.040
+AY	33.580	33.820	0.240
+SH	33.830	33.920	0.090
+IY	33.930	34.070	0.140
+N	34.080	34.150	0.070
+EH	34.160	34.210	0.050
+P	34.220	34.300	0.080
+EH	34.310	34.410	0.100
+T	34.420	34.570	0.150
+SIL	34.580	35.160	0.580
+G	35.170	35.200	0.030
+AO	35.210	35.330	0.120
+D	35.340	35.380	0.040
+T	35.390	35.440	0.050
+AH	35.450	35.500	0.050
+N	35.510	35.550	0.040
+EY	35.560	35.670	0.110
+AE	35.680	36.000	0.320
+TH	36.010	36.140	0.130
+AE	36.150	36.310	0.160
+N	36.320	36.410	0.090
+EY	36.420	36.580	0.160
+CH	36.590	36.690	0.100
+AA	36.700	36.830	0.130
+HH	36.840	36.940	0.100
+R	36.950	37.020	0.070
+EH	37.030	37.240	0.210
+N	37.250	37.300	0.050
+IH	37.310	37.370	0.060
+K	37.380	37.460	0.080
+T	37.470	37.530	0.060
+IY	37.540	37.600	0.060
+DH	37.610	37.730	0.120
+K	37.740	37.840	0.100
+AE	37.850	37.930	0.080
+TH	37.940	38.110	0.170
+SIL	38.120	39.210	1.090
+CH	39.220	39.300	0.080
+G	39.310	39.390	0.080
+AA	39.400	39.490	0.090
+M	39.500	39.570	0.070
+AY	39.580	39.660	0.080
+D	39.670	39.750	0.080
+UH	39.760	39.940	0.180
+T	39.950	40.090	0.140
+AA	40.100	40.170	0.070
+N	40.180	40.250	0.070
+AE	40.260	40.420	0.160
+N	40.430	40.510	0.080
++SPN+	40.520	40.620	0.100
+AH	40.630	40.730	0.100
+AY	40.740	40.990	0.250
+AW	41.000	41.180	0.180
+HH	41.190	41.290	0.100
+AH	41.300	41.340	0.040
+DH	41.350	41.400	0.050
+IY	41.410	41.550	0.140
+S	41.560	41.620	0.060
+IY	41.630	41.860	0.230
+EY	41.870	42.120	0.250
+SIL	42.130	42.840	0.710
+N	42.850	42.870	0.020
+EY	42.880	43.000	0.120
+IH	43.010	43.120	0.110
+SH	43.130	43.200	0.070
+K	43.210	43.300	0.090
+AA	43.310	43.420	0.110
+R	43.430	43.480	0.050
+D	43.490	43.740	0.250
+SIL	43.750	44.150	0.400
+S	44.160	44.300	0.140
+N	44.310	44.360	0.050
+AE	44.370	44.450	0.080
+AH	44.460	44.590	0.130
+T	44.600	44.710	0.110
+EH	44.720	44.800	0.080
+D	44.810	44.880	0.070
+UW	44.890	45.070	0.180
+L	45.080	45.150	0.070
+K	45.160	45.290	0.130
+IH	45.300	45.440	0.140
+G	45.450	45.540	0.090
+EH	45.550	45.610	0.060
+AE	45.620	45.780	0.160
+DH	45.790	45.940	0.150
+TH	45.950	46.100	0.150
+AH	46.110	46.150	0.040
+N	46.160	46.230	0.070
+AE	46.240	46.310	0.070
+T	46.320	46.440	0.120
+EY	46.450	46.610	0.160
+SIL	46.620	48.570	1.950
+N	48.580	48.760	0.180
+AH	48.770	48.840	0.070
+F	48.850	48.960	0.110
+AO	48.970	49.220	0.250
+N	49.230	49.440	0.210
+SIL	49.450	49.860	0.410
+DH	49.870	49.920	0.050
+IH	49.930	49.990	0.060
+T	50.000	50.140	0.140
+EY	50.150	50.220	0.070
+K	50.230	50.320	0.090
+OW	50.330	50.420	0.090
+R	50.430	50.500	0.070
+G	50.510	50.570	0.060
+NG	50.580	50.700	0.120
+K	50.710	50.810	0.100
+IY	50.820	50.850	0.030
+S	50.860	50.980	0.120
+N	50.990	51.080	0.090
+AH	51.090	51.140	0.050
+B	51.150	51.230	0.080
+AH	51.240	51.310	0.070
+DH	51.320	51.410	0.090
+IH	51.420	51.520	0.100
+T	51.530	51.650	0.120
+AH	51.660	51.700	0.040
+N	51.710	51.790	0.080
+IY	51.800	51.990	0.190
+NG	52.000	52.110	0.110
+SIL	52.120	57.160	5.040
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://web.archive.org/web/20071011073545/https://ady.kispest.hu/download/irodalom/petofi_a_borozo.htm">Text</a></p>
+<p>A borozó by Sándor Petőfi.
+Read in Hungarian for librivox dot org by Diana Majlinger.</p>
+<p>Gondüző borocska mellett
+Vígan illan életem;
+Gondüző borocska mellett,
+Sors, hatalmad nevetem.</p>
+<p>És mit ámultok? ha mondom,
+Hogy csak a bor istene,
+Akit én imádok, aki
+E kebelnek mindene.</p>
+<p>És a bor vidám hevében
+Füttyentek rád, zord világ!
+Szívemet hol annyi kínnak
+Skorpiói szaggaták.</p>
+<p>Bor taníta húrjaimra
+Csalni nyájas éneket;
+Bor taníta elfeledni,
+Csalfa lyányok, titeket.</p>
+<p>Egykor majd borocska mellől
+A halál ha űzni jő:
+Még egy korty - s nevetve dűlök
+Jégöledbe, temető!</p>
+<p>End of poem.
+This recording is in the public domain.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">DATA</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;A borozó by Sándor Petőfi.&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hu&quot;</span><span class="p">,</span> <span class="s2">&quot;hu&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;hu&quot;</span><span class="p">,</span> <span class="s2">&quot;hu&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;entities&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;B-WORK&quot;</span><span class="p">,</span> <span class="s2">&quot;E-WORK&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;B-PERSON&quot;</span><span class="p">,</span> <span class="s2">&quot;E-PERSON&quot;</span><span class="p">]</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Read in Hungarian for librivox dot org by Diana Majlinger.&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;languages&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;hu&quot;</span><span class="p">,</span> <span class="s2">&quot;hu&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;entities&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="s2">&quot;B-URL&quot;</span><span class="p">,</span> <span class="s2">&quot;I-URL&quot;</span><span class="p">,</span> <span class="s2">&quot;E-URL&quot;</span><span class="p">,</span> <span class="s2">&quot;B-PERSON&quot;</span><span class="p">,</span> <span class="s2">&quot;E-PERSON&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;normalized&quot;</span><span class="p">:</span> <span class="s2">&quot;Read in Hungarian for librivox.org by Diana Majlinger.&quot;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TEXT</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">A borozó</span>
+<span class="s2">SÁNDOR PETŐFI.</span>
+<span class="s2">Diana Majlinger</span>
+
+<span class="s2">Gondüző borocska mellett</span>
+<span class="s2">Vígan illan életem;</span>
+<span class="s2">Gondüző borocska mellett,</span>
+<span class="s2">Sors, hatalmad nevetem.</span>
+
+<span class="s2">És mit ámultok? ha mondom,</span>
+<span class="s2">Hogy csak a bor istene,</span>
+<span class="s2">Akit én imádok, aki</span>
+<span class="s2">E kebelnek mindene.</span>
+
+<span class="s2">És a bor vidám hevében</span>
+<span class="s2">Füttyentek rád, zord világ!</span>
+<span class="s2">Szívemet hol annyi kínnak</span>
+<span class="s2">Skorpiói szaggaták.</span>
+
+<span class="s2">Bor taníta húrjaimra</span>
+<span class="s2">Csalni nyájas éneket;</span>
+<span class="s2">Bor taníta elfeledni,</span>
+<span class="s2">Csalfa lyányok, titeket.</span>
+
+<span class="s2">Egykor majd borocska mellől</span>
+<span class="s2">A halál ha űzni jő:</span>
+<span class="s2">Még egy korty - s nevetve dűlök</span>
+<span class="s2">Jégöledbe, temető!</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">word_lists</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">TEXT</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="n">cleaned_words</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;-:;,!?.&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">words</span> <span class="k">if</span> <span class="n">w</span><span class="p">]</span>
+    <span class="n">only_cleaned_words</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">cleaned_words</span> <span class="k">if</span> <span class="n">w</span><span class="p">]</span>
+    <span class="n">espeak_out</span> <span class="o">=</span> <span class="o">!</span>/opt/homebrew/bin/espeak -v hu --ipa -q --stdout <span class="s2">&quot;{line}&quot;</span>
+    <span class="n">stripped</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">espeak_out</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+    <span class="n">phone_line</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">stripped</span><span class="p">)</span>
+    <span class="n">phone_words</span> <span class="o">=</span> <span class="n">phone_line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">only_cleaned_words</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">phone_words</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;WARNING: word count mismatch for line: </span><span class="si">{</span><span class="n">line</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  cleaned_words (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">only_cleaned_words</span><span class="p">)</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">cleaned_words</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  phone_words   (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">phone_words</span><span class="p">)</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">phone_words</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">only_cleaned_words</span><span class="p">,</span> <span class="n">phone_words</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">a</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">word_lists</span><span class="p">:</span>
+            <span class="n">word_lists</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="n">word_lists</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+    <span class="n">out_words</span> <span class="o">=</span> <span class="p">{</span><span class="n">w</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="n">word_lists</span><span class="p">[</span><span class="n">w</span><span class="p">])</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">word_lists</span><span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">EN_TEXT</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">by</span>
+<span class="s2">Read in Hungarian for librivox dot org by</span>
+<span class="s2">End of poem. This recording is in the public domain.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">en_word_lists</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;read&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;ɹˈɛd&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;librivox&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;lˈɪbɹivˌɑːks&quot;</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">_EN_WORDS</span> <span class="o">=</span> <span class="n">EN_TEXT</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">_EN_WORDS</span><span class="p">:</span>
+    <span class="n">cleaned</span> <span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;-:;,!?.&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">cleaned</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="k">if</span> <span class="n">cleaned</span> <span class="ow">in</span> <span class="n">en_word_lists</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="n">espeak_out</span> <span class="o">=</span> <span class="o">!</span>/opt/homebrew/bin/espeak -v en-us --ipa -q --stdout <span class="s2">&quot;{cleaned}&quot;</span>
+    <span class="n">stripped</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">espeak_out</span> <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+    <span class="n">phone_line</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">stripped</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">cleaned</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">en_word_lists</span><span class="p">:</span>
+        <span class="n">en_word_lists</span><span class="p">[</span><span class="n">cleaned</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="n">en_word_lists</span><span class="p">[</span><span class="n">cleaned</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">phone_line</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">en_word_lists</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;by&#39;: {&#39;bˈaɪ&#39;},
+ &#39;read&#39;: {&#39;ɹˈiːd&#39;},
+ &#39;in&#39;: {&#39;ˈɪn&#39;},
+ &#39;hungarian&#39;: {&#39;hʌŋɡˈɛɹiən&#39;},
+ &#39;for&#39;: {&#39;fˈɔːɹ&#39;},
+ &#39;librivox&#39;: {&#39;lˈaɪbɹɪvˌɑːks&#39;},
+ &#39;dot&#39;: {&#39;dˈɑːt&#39;},
+ &#39;org&#39;: {&#39;ˈɔːɹɡ&#39;},
+ &#39;end&#39;: {&#39;ˈɛnd&#39;},
+ &#39;of&#39;: {&#39;ˈʌv&#39;},
+ &#39;poem&#39;: {&#39;pˈoʊɪm&#39;},
+ &#39;this&#39;: {&#39;ðˈɪs&#39;},
+ &#39;recording&#39;: {&#39;ɹɪkˈoːɹdɪŋ&#39;},
+ &#39;is&#39;: {&#39;ˈɪz&#39;},
+ &#39;the&#39;: {&#39;ðˈə&#39;},
+ &#39;public&#39;: {&#39;pˈʌblɪk&#39;},
+ &#39;domain&#39;: {&#39;dəmˈeɪn&#39;}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">out_words</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;a&#39;: [&#39;ˌɑ&#39;],
+ &#39;borozó&#39;: [&#39;bˈorozoː&#39;],
+ &#39;sándor&#39;: [&#39;ʃˈaːndor&#39;],
+ &#39;petőfi&#39;: [&#39;pˈɛtøːfi&#39;],
+ &#39;diana&#39;: [&#39;dˈiɑnɑ&#39;],
+ &#39;majlinger&#39;: [&#39;mˈɑjlinɡɛr&#39;],
+ &#39;gondüző&#39;: [&#39;ɡˈondyzøː&#39;],
+ &#39;borocska&#39;: [&#39;bˈorotʃkɑ&#39;],
+ &#39;mellett&#39;: [&#39;mˌɛllɛtː&#39;],
+ &#39;vígan&#39;: [&#39;vˈiːɡɑn&#39;],
+ &#39;illan&#39;: [&#39;ˈillɑn&#39;],
+ &#39;életem&#39;: [&#39;ˈeːlɛtɛm&#39;],
+ &#39;sors&#39;: [&#39;ʃˈorʃ&#39;],
+ &#39;hatalmad&#39;: [&#39;hˈɑtɑlmɑd&#39;],
+ &#39;nevetem&#39;: [&#39;nˈɛvɛtɛm&#39;],
+ &#39;és&#39;: [&#39;ˌeːʃ&#39;],
+ &#39;mit&#39;: [&#39;mˈit&#39;],
+ &#39;ámultok&#39;: [&#39;ˈaːmultok&#39;],
+ &#39;ha&#39;: [&#39;hˌɑ&#39;],
+ &#39;mondom&#39;: [&#39;mˈondom&#39;],
+ &#39;hogy&#39;: [&#39;hˈoɟ&#39;],
+ &#39;csak&#39;: [&#39;tʃˈɑk&#39;],
+ &#39;bor&#39;: [&#39;bˈor&#39;],
+ &#39;istene&#39;: [&#39;ˈiʃtɛnɛ&#39;],
+ &#39;akit&#39;: [&#39;ˈɑkit&#39;],
+ &#39;én&#39;: [&#39;ˈeːn&#39;],
+ &#39;imádok&#39;: [&#39;ˈimaːdok&#39;],
+ &#39;aki&#39;: [&#39;ˈɑki&#39;],
+ &#39;e&#39;: [&#39;ˌɛ&#39;],
+ &#39;kebelnek&#39;: [&#39;kˈɛbɛlnɛk&#39;],
+ &#39;mindene&#39;: [&#39;mˈindɛnɛ&#39;],
+ &#39;vidám&#39;: [&#39;vˈidaːm&#39;],
+ &#39;hevében&#39;: [&#39;hˈɛveːbɛn&#39;],
+ &#39;füttyentek&#39;: [&#39;fˈycːɛntɛk&#39;],
+ &#39;rád&#39;: [&#39;rˌaːd&#39;],
+ &#39;zord&#39;: [&#39;zˈord&#39;],
+ &#39;világ&#39;: [&#39;vˈilaːɡ&#39;],
+ &#39;szívemet&#39;: [&#39;sˈivɛmɛt&#39;],
+ &#39;hol&#39;: [&#39;hˈol&#39;],
+ &#39;annyi&#39;: [&#39;ˈɑɲɲi&#39;],
+ &#39;kínnak&#39;: [&#39;kˈiːnnɑk&#39;],
+ &#39;skorpiói&#39;: [&#39;ʃkˈorpioːi&#39;],
+ &#39;szaggaták&#39;: [&#39;sˈɑɡːɑtaːk&#39;],
+ &#39;taníta&#39;: [&#39;tˈɑniːtɑ&#39;],
+ &#39;húrjaimra&#39;: [&#39;hˈuːrjɑimrɑ&#39;],
+ &#39;csalni&#39;: [&#39;tʃˈɑlni&#39;],
+ &#39;nyájas&#39;: [&#39;ɲˈaːjɑʃ&#39;],
+ &#39;éneket&#39;: [&#39;ˈeːnɛkɛt&#39;],
+ &#39;elfeledni&#39;: [&#39;ˈɛlfɛlɛdni&#39;],
+ &#39;csalfa&#39;: [&#39;tʃˈɑlfɑ&#39;],
+ &#39;lyányok&#39;: [&#39;jˈaːɲok&#39;],
+ &#39;titeket&#39;: [&#39;tˈitɛkɛt&#39;],
+ &#39;egykor&#39;: [&#39;ˈɛɟkor&#39;],
+ &#39;majd&#39;: [&#39;mˈɑjd&#39;],
+ &#39;mellől&#39;: [&#39;mˌɛlløːl&#39;],
+ &#39;halál&#39;: [&#39;hˈɑlaːl&#39;],
+ &#39;űzni&#39;: [&#39;ˈyːzni&#39;],
+ &#39;jő&#39;: [&#39;jˈøː&#39;],
+ &#39;még&#39;: [&#39;mˈeːɡ&#39;],
+ &#39;egy&#39;: [&#39;ˈɛɟ&#39;],
+ &#39;korty&#39;: [&#39;kˈorc&#39;],
+ &#39;s&#39;: [&#39;ʃ&#39;],
+ &#39;nevetve&#39;: [&#39;nˈɛvɛtvɛ&#39;],
+ &#39;dűlök&#39;: [&#39;dˈyːløk&#39;],
+ &#39;jégöledbe&#39;: [&#39;jˈeːɡølɛdbɛ&#39;],
+ &#39;temető&#39;: [&#39;tˈɛmɛtøː&#39;]}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/pocketsphinx/alignment/hungarian/2026/01/18/pocketsphinx-phones.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Train SegFeat on TIMIT | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Train SegFeat on TIMIT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Exceeded Kaggle runtime limit" />
+<meta property="og:description" content="Exceeded Kaggle runtime limit" />
+<link rel="canonical" href="https://jimregan.github.io/notes/kaggle/segfeat/timit/2026/01/30/train-segfeat-on-timit.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/kaggle/segfeat/timit/2026/01/30/train-segfeat-on-timit.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-30T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/kaggle/segfeat/timit/2026/01/30/train-segfeat-on-timit.html","@type":"BlogPosting","headline":"Train SegFeat on TIMIT","dateModified":"2026-01-30T00:00:00-06:00","datePublished":"2026-01-30T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/kaggle/segfeat/timit/2026/01/30/train-segfeat-on-timit.html"},"description":"Exceeded Kaggle runtime limit","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Train SegFeat on TIMIT</h1><p class="page-description">Exceeded Kaggle runtime limit</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-01-30T00:00:00-06:00" itemprop="datePublished">
+        Jan 30, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#kaggle">kaggle</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#segfeat">segfeat</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#timit">timit</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-01-30-train-segfeat-on-timit.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-01-30-train-segfeat-on-timit.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-01-30-train-segfeat-on-timit.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-01-30-train-segfeat-on-timit.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://www.kaggle.com/code/jimregan/train-segfeat-on-timit">Original</a></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git clone https://github.com/felixkreuk/SegFeat
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> /kaggle/working
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> segfeat.patch
+<span class="n">diff</span> <span class="o">--</span><span class="n">git</span> <span class="n">a</span><span class="o">/</span><span class="n">dataloader</span><span class="o">.</span><span class="n">py</span> <span class="n">b</span><span class="o">/</span><span class="n">dataloader</span><span class="o">.</span><span class="n">py</span>
+<span class="n">index</span> <span class="mi">44</span><span class="n">d6fba</span><span class="o">..</span><span class="n">f141162</span> <span class="mi">100644</span>
+<span class="o">---</span> <span class="n">a</span><span class="o">/</span><span class="n">dataloader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">+++</span> <span class="n">b</span><span class="o">/</span><span class="n">dataloader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">87</span><span class="p">,</span><span class="mi">14</span> <span class="o">+</span><span class="mi">87</span><span class="p">,</span><span class="mi">14</span> <span class="o">@@</span> <span class="k">def</span> <span class="nf">extract_features</span><span class="p">(</span><span class="n">wav_file</span><span class="p">,</span> <span class="n">hparams</span><span class="p">):</span>
+ 
+     <span class="c1"># extract mel-spectrogram</span>
+     <span class="k">if</span> <span class="n">hparams</span><span class="o">.</span><span class="n">feats</span> <span class="o">==</span> <span class="s1">&#39;mel&#39;</span><span class="p">:</span>
+<span class="o">-</span>        <span class="n">spect</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">feature</span><span class="o">.</span><span class="n">melspectrogram</span><span class="p">(</span><span class="n">wav</span><span class="p">,</span>
+<span class="o">+</span>        <span class="n">spect</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">feature</span><span class="o">.</span><span class="n">melspectrogram</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">wav</span><span class="p">,</span>
+                                                <span class="n">sr</span><span class="o">=</span><span class="n">sr</span><span class="p">,</span>
+                                                <span class="n">n_fft</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">n_fft</span><span class="p">,</span>
+                                                <span class="n">hop_length</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">hop_length</span><span class="p">,</span>
+                                                <span class="n">n_mels</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">rnn_input_size</span><span class="p">)</span>
+     <span class="c1"># extract mfcc</span>
+     <span class="k">elif</span> <span class="n">hparams</span><span class="o">.</span><span class="n">feats</span> <span class="o">==</span> <span class="s1">&#39;mfcc&#39;</span><span class="p">:</span>
+<span class="o">-</span>        <span class="n">spect</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">feature</span><span class="o">.</span><span class="n">mfcc</span><span class="p">(</span><span class="n">wav</span><span class="p">,</span>
+<span class="o">+</span>        <span class="n">spect</span> <span class="o">=</span> <span class="n">librosa</span><span class="o">.</span><span class="n">feature</span><span class="o">.</span><span class="n">mfcc</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">wav</span><span class="p">,</span>
+                                      <span class="n">sr</span><span class="o">=</span><span class="n">sr</span><span class="p">,</span>
+                                      <span class="n">n_fft</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">n_fft</span><span class="p">,</span>
+                                      <span class="n">hop_length</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">hop_length</span><span class="p">,</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">208</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">208</span><span class="p">,</span><span class="mi">7</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">WavPhnDataset</span><span class="p">(</span><span class="n">Dataset</span><span class="p">):</span>
+         <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+ 
+     <span class="k">def</span> <span class="nf">process_file</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">wav_path</span><span class="p">):</span>
+<span class="o">-</span>        <span class="n">phn_path</span> <span class="o">=</span> <span class="n">wav_path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;wav&quot;</span><span class="p">,</span> <span class="s2">&quot;phn&quot;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="n">phn_path</span> <span class="o">=</span> <span class="n">wav_path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;WAV&quot;</span><span class="p">,</span> <span class="s2">&quot;PHN&quot;</span><span class="p">)</span>
+ 
+         <span class="c1"># load audio</span>
+         <span class="n">spect</span> <span class="o">=</span> <span class="n">extract_features</span><span class="p">(</span><span class="n">wav_path</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">hparams</span><span class="p">)</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">235</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">235</span><span class="p">,</span><span class="mi">7</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">WavPhnDataset</span><span class="p">(</span><span class="n">Dataset</span><span class="p">):</span>
+ 
+     <span class="k">def</span> <span class="nf">_make_dataset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="n">files</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">-</span>        <span class="n">wavs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">iter_find_files</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s2">&quot;*.wav&quot;</span><span class="p">))</span>
+<span class="o">+</span>        <span class="n">wavs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">iter_find_files</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s2">&quot;*.WAV&quot;</span><span class="p">))</span>
+         <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">hparams</span><span class="o">.</span><span class="n">devrun</span><span class="p">:</span>
+             <span class="n">wavs</span> <span class="o">=</span> <span class="n">wavs</span><span class="p">[:</span><span class="bp">self</span><span class="o">.</span><span class="n">hparams</span><span class="o">.</span><span class="n">devrun_size</span><span class="p">]</span>
+ 
+<span class="o">@@</span> <span class="o">-</span><span class="mi">266</span><span class="p">,</span><span class="mi">9</span> <span class="o">+</span><span class="mi">266</span><span class="p">,</span><span class="mi">9</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">TimitDataset</span><span class="p">(</span><span class="n">WavPhnDataset</span><span class="p">):</span>
+ 
+     <span class="nd">@staticmethod</span>
+     <span class="k">def</span> <span class="nf">get_datasets</span><span class="p">(</span><span class="n">hparams</span><span class="p">):</span>
+<span class="o">-</span>        <span class="n">train_dataset</span> <span class="o">=</span> <span class="n">TimitDataset</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">hparams</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s1">&#39;train&#39;</span><span class="p">),</span>
+<span class="o">+</span>        <span class="n">train_dataset</span> <span class="o">=</span> <span class="n">TimitDataset</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">hparams</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s1">&#39;TRAIN&#39;</span><span class="p">),</span>
+                                      <span class="n">hparams</span><span class="p">)</span>
+<span class="o">-</span>        <span class="n">test_dataset</span>  <span class="o">=</span> <span class="n">TimitDataset</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">hparams</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">),</span>
+<span class="o">+</span>        <span class="n">test_dataset</span>  <span class="o">=</span> <span class="n">TimitDataset</span><span class="p">(</span><span class="n">join</span><span class="p">(</span><span class="n">hparams</span><span class="o">.</span><span class="n">wav_path</span><span class="p">,</span> <span class="s1">&#39;TEST&#39;</span><span class="p">),</span>
+                                      <span class="n">hparams</span><span class="p">)</span>
+ 
+         <span class="n">train_len</span>   <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_dataset</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> lightning.patch
+<span class="n">diff</span> <span class="o">--</span><span class="n">git</span> <span class="n">a</span><span class="o">/</span><span class="n">main</span><span class="o">.</span><span class="n">py</span> <span class="n">b</span><span class="o">/</span><span class="n">main</span><span class="o">.</span><span class="n">py</span>
+<span class="n">index</span> <span class="mi">62</span><span class="n">cbb2c</span><span class="o">..</span><span class="mf">43845e4</span> <span class="mi">100644</span>
+<span class="o">---</span> <span class="n">a</span><span class="o">/</span><span class="n">main</span><span class="o">.</span><span class="n">py</span>
+<span class="o">+++</span> <span class="n">b</span><span class="o">/</span><span class="n">main</span><span class="o">.</span><span class="n">py</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">11</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">11</span><span class="p">,</span><span class="mi">7</span> <span class="o">@@</span> <span class="kn">import</span> <span class="nn">torch.nn.functional</span> <span class="k">as</span> <span class="nn">F</span>
+ <span class="kn">from</span> <span class="nn">loguru</span> <span class="kn">import</span> <span class="n">logger</span>
+ <span class="kn">from</span> <span class="nn">pytorch_lightning</span> <span class="kn">import</span> <span class="n">Trainer</span>
+ <span class="kn">from</span> <span class="nn">pytorch_lightning.callbacks</span> <span class="kn">import</span> <span class="n">EarlyStopping</span><span class="p">,</span> <span class="n">ModelCheckpoint</span>
+<span class="o">-</span><span class="kn">from</span> <span class="nn">pytorch_lightning.logging</span> <span class="kn">import</span> <span class="n">TestTubeLogger</span>
+<span class="o">+</span><span class="kn">from</span> <span class="nn">pytorch_lightning.loggers</span> <span class="kn">import</span> <span class="n">TensorBoardLogger</span>
+ <span class="kn">from</span> <span class="nn">torch.backends</span> <span class="kn">import</span> <span class="n">cudnn</span>
+ <span class="kn">from</span> <span class="nn">torch.utils.data</span> <span class="kn">import</span> <span class="n">DataLoader</span><span class="p">,</span> <span class="n">Dataset</span>
+ 
+<span class="o">@@</span> <span class="o">-</span><span class="mi">44</span><span class="p">,</span><span class="mi">15</span> <span class="o">+</span><span class="mi">44</span><span class="p">,</span><span class="mi">13</span> <span class="o">@@</span> <span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">hparams</span><span class="p">):</span>
+         <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;min&#39;</span>
+     <span class="p">)</span>
+ 
+<span class="o">-</span>    <span class="n">tt_logger</span> <span class="o">=</span> <span class="n">TestTubeLogger</span><span class="p">(</span>
+<span class="o">+</span>    <span class="n">tb_logger</span> <span class="o">=</span> <span class="n">TensorBoardLogger</span><span class="p">(</span>
+         <span class="n">save_dir</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">run_dir</span><span class="p">,</span>
+         <span class="n">name</span><span class="o">=</span><span class="s2">&quot;lightning_logs&quot;</span><span class="p">,</span>
+<span class="o">-</span>        <span class="n">debug</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+<span class="o">-</span>        <span class="n">create_git_tag</span><span class="o">=</span><span class="kc">False</span>
+     <span class="p">)</span>
+ 
+     <span class="n">checkpoint</span> <span class="o">=</span> <span class="n">ModelCheckpoint</span><span class="p">(</span>
+<span class="o">-</span>        <span class="n">filepath</span><span class="o">=</span><span class="n">model_save_path</span><span class="p">,</span>
+<span class="o">+</span>        <span class="n">dirpath</span><span class="o">=</span><span class="n">model_save_path</span><span class="p">,</span>
+         <span class="n">save_top_k</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+         <span class="n">verbose</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+         <span class="n">monitor</span><span class="o">=</span><span class="s1">&#39;val_f1_at_2&#39;</span><span class="p">,</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">60</span><span class="p">,</span><span class="mi">19</span> <span class="o">+</span><span class="mi">58</span><span class="p">,</span><span class="mi">17</span> <span class="o">@@</span> <span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">hparams</span><span class="p">):</span>
+     <span class="p">)</span>
+ 
+     <span class="n">trainer</span> <span class="o">=</span> <span class="n">Trainer</span><span class="p">(</span>
+<span class="o">-</span>            <span class="n">logger</span><span class="o">=</span><span class="n">tt_logger</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">overfit_pct</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">overfit</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">logger</span><span class="o">=</span><span class="n">tb_logger</span><span class="p">,</span>
+             <span class="n">check_val_every_n_epoch</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+             <span class="n">min_epochs</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+             <span class="n">max_epochs</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">epochs</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">nb_sanity_val_steps</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">checkpoint_callback</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">val_percent_check</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">val_percent_check</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">num_sanity_val_steps</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">callbacks</span><span class="o">=</span><span class="p">[</span><span class="n">early_stop</span><span class="p">,</span> <span class="n">checkpoint</span><span class="p">],</span>
+<span class="o">+</span>            <span class="n">limit_val_batches</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">val_percent_check</span><span class="p">,</span>
+             <span class="n">val_check_interval</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">val_check_interval</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">early_stop_callback</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">gpus</span><span class="o">=</span><span class="n">hparams</span><span class="o">.</span><span class="n">gpus</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">show_progress_bar</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+<span class="o">-</span>            <span class="n">distributed_backend</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">devices</span><span class="o">=</span><span class="s2">&quot;auto&quot;</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">accelerator</span><span class="o">=</span><span class="s2">&quot;auto&quot;</span><span class="p">,</span>
+<span class="o">+</span>            <span class="n">enable_progress_bar</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+             <span class="p">)</span>
+ 
+     <span class="k">if</span> <span class="ow">not</span> <span class="n">hparams</span><span class="o">.</span><span class="n">test</span><span class="p">:</span>
+<span class="n">diff</span> <span class="o">--</span><span class="n">git</span> <span class="n">a</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">py</span> <span class="n">b</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">py</span>
+<span class="n">index</span> <span class="mi">12</span><span class="n">c3542</span><span class="o">..</span><span class="n">b0a8956</span> <span class="mi">100644</span>
+<span class="o">---</span> <span class="n">a</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">py</span>
+<span class="o">+++</span> <span class="n">b</span><span class="o">/</span><span class="n">model</span><span class="o">.</span><span class="n">py</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">138</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">138</span><span class="p">,</span><span class="mi">7</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">Segmentor</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+         <span class="n">results</span> <span class="o">=</span> <span class="p">{}</span>
+ 
+         <span class="c1"># feed through rnn</span>
+<span class="o">-</span>        <span class="n">x</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">pack_padded_sequence</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">length</span><span class="p">,</span> <span class="n">batch_first</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">enforce_sorted</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="o">+</span>        <span class="n">x</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">pack_padded_sequence</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">length</span><span class="o">.</span><span class="n">cpu</span><span class="p">(),</span> <span class="n">batch_first</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">enforce_sorted</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+         <span class="n">rnn_out</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">rnn</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+         <span class="n">rnn_out</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">utils</span><span class="o">.</span><span class="n">rnn</span><span class="o">.</span><span class="n">pad_packed_sequence</span><span class="p">(</span><span class="n">rnn_out</span><span class="p">,</span> <span class="n">batch_first</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+         <span class="n">rnn_cum</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">cumsum</span><span class="p">(</span><span class="n">rnn_out</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">diff</span> <span class="o">--</span><span class="n">git</span> <span class="n">a</span><span class="o">/</span><span class="n">solver</span><span class="o">.</span><span class="n">py</span> <span class="n">b</span><span class="o">/</span><span class="n">solver</span><span class="o">.</span><span class="n">py</span>
+<span class="n">index</span> <span class="mi">46672</span><span class="n">db</span><span class="o">..</span><span class="mi">5</span><span class="n">cf3c28</span> <span class="mi">100644</span>
+<span class="o">---</span> <span class="n">a</span><span class="o">/</span><span class="n">solver</span><span class="o">.</span><span class="n">py</span>
+<span class="o">+++</span> <span class="n">b</span><span class="o">/</span><span class="n">solver</span><span class="o">.</span><span class="n">py</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">19</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">19</span><span class="p">,</span><span class="mi">7</span> <span class="o">@@</span> <span class="kn">from</span> <span class="nn">utils</span> <span class="kn">import</span> <span class="n">PrecisionRecallMetricMultiple</span><span class="p">,</span> <span class="n">StatsMeter</span>
+ <span class="k">class</span> <span class="nc">Solver</span><span class="p">(</span><span class="n">LightningModule</span><span class="p">):</span>
+     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+         <span class="nb">super</span><span class="p">(</span><span class="n">Solver</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+<span class="o">-</span>        <span class="bp">self</span><span class="o">.</span><span class="n">hparams</span> <span class="o">=</span> <span class="n">config</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">save_hyperparameters</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+ 
+         <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">dataset</span> <span class="o">==</span> <span class="s2">&quot;timit&quot;</span><span class="p">:</span>
+             <span class="bp">self</span><span class="o">.</span><span class="n">datasetClass</span> <span class="o">=</span> <span class="n">TimitDataset</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">46</span><span class="p">,</span><span class="mi">23</span> <span class="o">+</span><span class="mi">46</span><span class="p">,</span><span class="mi">23</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">Solver</span><span class="p">(</span><span class="n">LightningModule</span><span class="p">):</span>
+                         <span class="s1">&#39;test&#39;</span><span class="p">:</span>  <span class="n">StatsMeter</span><span class="p">()}</span>
+         <span class="bp">self</span><span class="o">.</span><span class="n">_device</span> <span class="o">=</span> <span class="s1">&#39;cuda&#39;</span> <span class="k">if</span> <span class="n">config</span><span class="o">.</span><span class="n">cuda</span> <span class="k">else</span> <span class="s1">&#39;cpu&#39;</span>
+ 
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">validation_step_outputs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">test_step_outputs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">+</span>
+         <span class="bp">self</span><span class="o">.</span><span class="n">build_model</span><span class="p">()</span>
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;running on </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">_device</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;rnn input size: </span><span class="si">{</span><span class="n">config</span><span class="o">.</span><span class="n">rnn_input_size</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">segmentor</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+ 
+<span class="o">-</span>    <span class="nd">@pl</span><span class="o">.</span><span class="n">data_loader</span>
+     <span class="k">def</span> <span class="nf">train_dataloader</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="bp">self</span><span class="o">.</span><span class="n">train_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">train_dataset</span><span class="p">,</span>
+                                        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+                                        <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                        <span class="n">collate_fn</span><span class="o">=</span><span class="n">collate_fn_padd</span><span class="p">,</span>
+                                        <span class="n">num_workers</span><span class="o">=</span><span class="mi">6</span><span class="p">)</span>
+<span class="o">-</span>        <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;input shape: </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">train_dataset</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;training set length </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">train_dataset</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">train_loader</span>
+ 
+<span class="o">-</span>    <span class="nd">@pl</span><span class="o">.</span><span class="n">data_loader</span>
+     <span class="k">def</span> <span class="nf">val_dataloader</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="bp">self</span><span class="o">.</span><span class="n">valid_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">valid_dataset</span><span class="p">,</span>
+                                        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">72</span><span class="p">,</span><span class="mi">7</span> <span class="o">+</span><span class="mi">72</span><span class="p">,</span><span class="mi">6</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">Solver</span><span class="p">(</span><span class="n">LightningModule</span><span class="p">):</span>
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;validation set length </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">valid_dataset</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">valid_loader</span>
+ 
+<span class="o">-</span>    <span class="nd">@pl</span><span class="o">.</span><span class="n">data_loader</span>
+     <span class="k">def</span> <span class="nf">test_dataloader</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="bp">self</span><span class="o">.</span><span class="n">test_loader</span>  <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">test_dataset</span><span class="p">,</span>
+                                        <span class="n">batch_size</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">batch_size</span><span class="p">,</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">200</span><span class="p">,</span><span class="mi">8</span> <span class="o">+</span><span class="mi">199</span><span class="p">,</span><span class="mi">6</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">Solver</span><span class="p">(</span><span class="n">LightningModule</span><span class="p">):</span>
+ 
+         <span class="k">for</span> <span class="n">output</span> <span class="ow">in</span> <span class="n">outputs</span><span class="p">:</span>
+             <span class="n">loss</span> <span class="o">=</span> <span class="n">output</span><span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">prefix</span><span class="si">}</span><span class="s1">_loss&#39;</span><span class="p">]</span>
+<span class="o">-</span>            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">trainer</span><span class="o">.</span><span class="n">use_dp</span><span class="p">:</span>
+<span class="o">-</span>                <span class="n">loss</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">loss</span><span class="p">)</span>
+             <span class="n">loss_mean</span> <span class="o">+=</span> <span class="n">loss</span>
+ 
+         <span class="n">loss_mean</span> <span class="o">/=</span> <span class="nb">len</span><span class="p">(</span><span class="n">outputs</span><span class="p">)</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">243</span><span class="p">,</span><span class="mi">19</span> <span class="o">+</span><span class="mi">240</span><span class="p">,</span><span class="mi">28</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">Solver</span><span class="p">(</span><span class="n">LightningModule</span><span class="p">):</span>
+ 
+         <span class="n">logger</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">EVAL </span><span class="si">{</span><span class="n">prefix</span><span class="si">}</span><span class="s2"> STATS:</span><span class="se">\n</span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">metrics</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+ 
+<span class="o">-</span>        <span class="k">return</span> <span class="n">metrics</span>
+<span class="o">+</span>        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">metrics</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+<span class="o">+</span>            <span class="bp">self</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">prog_bar</span><span class="o">=</span><span class="p">(</span><span class="n">k</span> <span class="o">==</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">prefix</span><span class="si">}</span><span class="s1">_f1_at_2&#39;</span><span class="p">))</span>
+ 
+     <span class="k">def</span> <span class="nf">validation_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">):</span>
+<span class="o">-</span>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_step</span><span class="p">(</span><span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">,</span> <span class="s1">&#39;val&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_step</span><span class="p">(</span><span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">,</span> <span class="s1">&#39;val&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">validation_step_outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+<span class="o">+</span>        <span class="k">return</span> <span class="n">out</span>
+ 
+<span class="o">-</span>    <span class="k">def</span> <span class="nf">validation_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">outputs</span><span class="p">):</span>
+<span class="o">-</span>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_end</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="s1">&#39;val&#39;</span><span class="p">)</span>
+<span class="o">+</span>    <span class="k">def</span> <span class="nf">on_validation_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="o">+</span>        <span class="n">outputs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">validation_step_outputs</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_end</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="s1">&#39;val&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">validation_step_outputs</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+ 
+     <span class="k">def</span> <span class="nf">test_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">):</span>
+<span class="o">-</span>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_step</span><span class="p">(</span><span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="o">-</span>
+<span class="o">-</span>    <span class="k">def</span> <span class="nf">test_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">outputs</span><span class="p">):</span>
+<span class="o">-</span>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_end</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_step</span><span class="p">(</span><span class="n">data_batch</span><span class="p">,</span> <span class="n">batch_i</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">test_step_outputs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+<span class="o">+</span>        <span class="k">return</span> <span class="n">out</span>
+<span class="o">+</span>
+<span class="o">+</span>    <span class="k">def</span> <span class="nf">on_test_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="o">+</span>        <span class="n">outputs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">test_step_outputs</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">generic_eval_end</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="o">+</span>        <span class="bp">self</span><span class="o">.</span><span class="n">test_step_outputs</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+ 
+     <span class="k">def</span> <span class="nf">configure_optimizers</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+         <span class="n">optimizer</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;adam&#39;</span><span class="p">:</span>     <span class="n">torch</span><span class="o">.</span><span class="n">optim</span><span class="o">.</span><span class="n">Adam</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">segmentor</span><span class="o">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">lr</span><span class="p">),</span>
+<span class="n">diff</span> <span class="o">--</span><span class="n">git</span> <span class="n">a</span><span class="o">/</span><span class="n">utils</span><span class="o">.</span><span class="n">py</span> <span class="n">b</span><span class="o">/</span><span class="n">utils</span><span class="o">.</span><span class="n">py</span>
+<span class="n">index</span> <span class="mi">599</span><span class="n">c482</span><span class="o">..</span><span class="n">c13444f</span> <span class="mi">100644</span>
+<span class="o">---</span> <span class="n">a</span><span class="o">/</span><span class="n">utils</span><span class="o">.</span><span class="n">py</span>
+<span class="o">+++</span> <span class="n">b</span><span class="o">/</span><span class="n">utils</span><span class="o">.</span><span class="n">py</span>
+<span class="o">@@</span> <span class="o">-</span><span class="mi">37</span><span class="p">,</span><span class="mi">12</span> <span class="o">+</span><span class="mi">37</span><span class="p">,</span><span class="mi">13</span> <span class="o">@@</span> <span class="k">class</span> <span class="nc">PrecisionRecallMetric</span><span class="p">:</span>
+         <span class="k">for</span> <span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">yhat</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">batch_y</span><span class="p">,</span> <span class="n">batch_yhat</span><span class="p">):</span>
+             <span class="n">y</span><span class="p">,</span> <span class="n">yhat</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">yhat</span><span class="p">)</span>
+             <span class="n">y</span><span class="p">,</span> <span class="n">yhat</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">yhat</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="o">-</span>            <span class="k">for</span> <span class="n">yhat_i</span> <span class="ow">in</span> <span class="n">yhat</span><span class="p">:</span>
+<span class="o">-</span>                <span class="n">min_dist</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">yhat_i</span><span class="p">)</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+<span class="o">-</span>                <span class="n">precision_counter</span> <span class="o">+=</span> <span class="p">(</span><span class="n">min_dist</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tolerance</span><span class="p">)</span>
+<span class="o">-</span>            <span class="k">for</span> <span class="n">y_i</span> <span class="ow">in</span> <span class="n">y</span><span class="p">:</span>
+<span class="o">-</span>                <span class="n">min_dist</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">yhat</span> <span class="o">-</span> <span class="n">y_i</span><span class="p">)</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+<span class="o">-</span>                <span class="n">recall_counter</span> <span class="o">+=</span> <span class="p">(</span><span class="n">min_dist</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tolerance</span><span class="p">)</span>
+<span class="o">+</span>            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">yhat</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="o">+</span>                <span class="k">for</span> <span class="n">yhat_i</span> <span class="ow">in</span> <span class="n">yhat</span><span class="p">:</span>
+<span class="o">+</span>                    <span class="n">min_dist</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">yhat_i</span><span class="p">)</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+<span class="o">+</span>                    <span class="n">precision_counter</span> <span class="o">+=</span> <span class="p">(</span><span class="n">min_dist</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tolerance</span><span class="p">)</span>
+<span class="o">+</span>                <span class="k">for</span> <span class="n">y_i</span> <span class="ow">in</span> <span class="n">y</span><span class="p">:</span>
+<span class="o">+</span>                    <span class="n">min_dist</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">yhat</span> <span class="o">-</span> <span class="n">y_i</span><span class="p">)</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+<span class="o">+</span>                    <span class="n">recall_counter</span> <span class="o">+=</span> <span class="p">(</span><span class="n">min_dist</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tolerance</span><span class="p">)</span>
+             <span class="n">pred_counter</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">yhat</span><span class="p">)</span>
+             <span class="n">gt_counter</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+ 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">cd</span> SegFeat
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>git apply ../segfeat.patch
+<span class="o">!</span>git apply ../lightning.patch
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%writefile</span> requirements.txt
+<span class="n">torch</span>
+<span class="n">torchaudio</span>
+<span class="n">torchvision</span>
+<span class="n">pytorch</span><span class="o">-</span><span class="n">lightning</span>
+<span class="n">boltons</span>
+<span class="n">loguru</span>
+<span class="n">librosa</span>
+<span class="n">numpy</span>
+<span class="n">pandas</span>
+<span class="n">soundfile</span>
+<span class="n">tqdm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>pip install -r requirements.txt
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>python main.py --wav_path /kaggle/input/darpa-timit-acousticphonetic-continuous-speech/data --dataset timit --delta_feats --dist_feats
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/kaggle/segfeat/timit/2026/01/30/train-segfeat-on-timit.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
