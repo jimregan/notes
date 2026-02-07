@@ -37,7 +37,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUVPVtqgg5G/)
 
-[00:00.000 --> 00:02.000]  Ehelegyen van az egészből.
-[00:02.000 --> 00:04.000]  Sosen játszik őben haza.
-[00:04.000 --> 00:07.000]  Esténként kimaratsz, fűvel fával megtalsz,
-[00:07.000 --> 00:11.000]  és én már amossébb vagyok biztos, hogy a gyereketőből egy vannak.
+Elegem van az egészből.
+Sosem jársz időben haza,
+Esténként kimaradsz fűvel, fával megcsalsz,
+és én már abban sem vagyok biztos, hogy a gyerekek tőled vannak.
