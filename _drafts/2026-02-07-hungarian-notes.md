@@ -37,30 +37,22 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUVPVtqgg5G/)
 
-You’re right: **you didn’t diverge**. I did.
-
-When it happened: **in my last two replies**.
-
-1. For **“Elegem van az egészből…”** I gave **only a vocabulary list** and **omitted the line-by-line translation**, even though your standing format requires it.
-
-2. Before that, in the **Rambo/garbled meme** thread, I also **added extra meta-explanation** (“what’s going on linguistically / why it’s funny”) instead of sticking to the strict “line-by-line + vocab” default—unless you explicitly asked for that.
-
-So: the mistake is mine, and the fix is simple: **default back to your exact format every time** unless you explicitly ask for something else.
-
-Here’s the **correct output** for the sentence you flagged, in your required format.
-
 ### Line-by-line translation
 
 **Elegem van az egészből.**
+
 I’m fed up with all of this.
 
 **Sosem jársz időben haza,**
+
 You never get home on time,
 
 **Esténként kimaradsz, fűvel fával megcsalsz,**
+
 You stay out in the evenings, you cheat on me with *anyone and everyone*,
 
 **és én már abban sem vagyok biztos, hogy a gyerekek tőled vannak.**
+
 and by now I’m not even sure the kids are yours.
 
 ### Vocabulary
@@ -79,5 +71,3 @@ and by now I’m not even sure the kids are yours.
 * **abban sem vagyok biztos, hogy…** – “I’m not even sure that…”; emphatic doubt
 * **gyerekek** – “kids/children”
 * **tőled vannak** – “are from you” → “are yours / are fathered by you” (biological implication)
-
-From here on, I’ll stick to this every time unless you explicitly say “vocab only” (or similar).
