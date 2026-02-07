@@ -32,3 +32,12 @@ categories: [hungarian, chatgpt, reels]
 * **teljesen** – completely
 * **ugyanaz** – the same
 
+
+-----
+
+[Reel](https://www.instagram.com/reels/DUVPVtqgg5G/)
+
+[00:00.000 --> 00:02.000]  Ehelegyen van az egészből.
+[00:02.000 --> 00:04.000]  Sosen játszik őben haza.
+[00:04.000 --> 00:07.000]  Esténként kimaratsz, fűvel fával megtalsz,
+[00:07.000 --> 00:11.000]  és én már amossébb vagyok biztos, hogy a gyereketőből egy vannak.
