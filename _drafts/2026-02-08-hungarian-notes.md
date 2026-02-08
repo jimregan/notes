@@ -181,84 +181,100 @@ that my partner would fulfill.
 ### Line-by-line translation
 
 **Pasi típusok következnek. A bátor.**
+
 Here come the types of guys. The brave one.
 
 **Hajnali háromkor totál részegen hazamegy.**
+
 He goes home at three in the morning, completely drunk.
 
 **Felesége az ajtóban áll söprűvel a kezében, mire a pasi rákérdez**
+
 His wife is standing in the doorway with a broom in her hand, so the guy asks:
 
 **Takarítasz vagy mész valahová.**
+
 Are you cleaning, or are you going somewhere?
 
----
-
 **A rámenős.**
+
 The pushy one.
 
 **Hajnali háromkor totál részegen hazamegy.**
+
 He goes home at three in the morning, completely drunk.
 
 **Bűzlik a sok női parfümtől.**
+
 He reeks of women’s perfume.
 
 **A nyakán rúzsfoltok láthatók.**
+
 Lipstick marks are visible on his neck.
 
 **Megtapogatja a felesége fenekét és így szól.**
+
 He grabs his wife’s butt and says:
 
 **Te vagy a következő.**
+
 You’re next.
 
----
-
 **A naiv.**
+
 The naïve one.
 
 **Hajnali háromkor totál részegen hazamegy.**
+
 He goes home at three in the morning, completely drunk.
 
 **Belép az ajtón.**
+
 He steps through the door.
 
 **A felesége fakanállal várja.**
+
 His wife is waiting for him with a wooden spoon.
 
 **Mire a férj?**
+
 To which the husband says:
 
 **Drágám, te már hajnalban sütsz?**
+
 Darling, are you already baking at dawn?
 
----
-
 **A pofátlan.**
+
 The shameless one.
 
 **Hajnali háromkor totál részegen hazamegy.**
+
 He goes home at three in the morning, completely drunk.
 
 **A felesége az ágyban van, de nem alszik.**
+
 His wife is in bed, but she’s not sleeping.
 
 **A pali fog egy széket, s az ágya mellé ül.**
+
 The guy takes a chair and sits down next to her bed.
 
 **Az asszony kérdésére:**
+
 To the woman’s question:
 
 **Mit jelentsen ez?**
+
 What is this supposed to mean?
 
 **A válasz:**
+
 The answer:
 
 **Az első sorban akarok ülni, amikor a cirkusz kezdődik.**
-I want to sit in the front row when the circus starts.
 
----
+I want to sit in the front row when the circus starts.
 
 ### Vocabulary
 
@@ -297,8 +313,3 @@ I want to sit in the front row when the circus starts.
 * **mit jelentsen ez?** – what is this supposed to mean?
 * **első sor** – front row
 * **cirkusz** – circus (metaphor for the coming argument)
-
-If you want next:
-– **register notes** (why this works as a joke in Hungarian), or
-– **a tighter idiomatic English retelling**, or
-– **frequency-ranked slang from this text**.
