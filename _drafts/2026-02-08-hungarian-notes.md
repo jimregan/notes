@@ -63,66 +63,84 @@ most people will turn around.
 ### Line-by-line translation
 
 **Tegyük fel, hogy az első időszakban több igénye volt az együtt töltött időre a másiknak is,**
+
 Let’s assume that in the initial phase the other person also had a greater need for time spent together,
 
 **és ehhez szokott hozzá az a fél, akinek alapvetően is nagy igénye van az együtt töltött időre.**
+
 and the partner who fundamentally has a high need for together-time got used to this.
 
 **Kialakul egy szokás,**
+
 A habit forms,
 
 **és ő egyszer csak elkezd távolodni, teljesen természetesen**
+
 and then one day they start to distance themselves, completely naturally,
 
 **elkezd visszailleszkedni, vagy visszalépni abba a ritmusba,**
+
 they begin to reintegrate, or step back into the rhythm
 
 **amiben egyébként is élte korábban az életét.**
+
 in which they had previously lived their life anyway.
 
 **Többet van egyedül, a munkájával többet,**
+
 They spend more time alone, more time with their work,
 
 **de hogy egyébként vágyik a kapcsolódásra,**
+
 but they do still desire connection,
 
 **csak nem olyan mértékben.**
+
 just not to the same extent.
 
 **És ilyenkor mondjuk beléphet a képbe igen, az a fajta frusztráció,**
+
 And at this point, one type of frustration can enter the picture,
 
 **hogy ha csak te vagy nekem,**
+
 that if you are my only source,
 
 **és te ezt már nem tudod kielégíteni és megadni,**
+
 and you can no longer satisfy and provide this,
 
 **akkor milyen lehetőségeim vannak még ezen kívül?**
+
 then what other options do I have besides this?
 
 **Vannak-e egyébként?**
+
 Do I even have any?
 
 **Elbírja-e a kapcsolat?**
+
 Can the relationship handle this?
 
 **Én esetleg elbizonytalanodom a kapcsolatban,**
+
 I may start to feel uncertain about the relationship,
 
 **hogyha elkezdi más betölteni ezt az életemben**
+
 if someone else starts to fill, in my life,
 
 **azokat a részeket, azokat a szükségleteket,**
+
 those areas, those needs,
 
 **amiket korábban a párkapcsolatomban reméltem,**
+
 which I previously hoped, in my romantic relationship,
 
 **hogy a másik fog betölteni.**
-that my partner would fulfill.
 
----
+that my partner would fulfill.
 
 ### Vocabulary
 
@@ -156,4 +174,3 @@ that my partner would fulfill.
 * **párkapcsolat** – “romantic relationship”
 * **remélni** – “to hope”
 
-If you want, next we can also **tighten this into a more colloquial English version** or **compare Hungarian vs. English framing of emotional needs**, but I’ll stick strictly to this format unless you ask otherwise.
