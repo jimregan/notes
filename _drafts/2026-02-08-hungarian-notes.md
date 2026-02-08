@@ -9,7 +9,7 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUfnkpVDODj/)
 
-A legtöbbenben seggfej. Ha nem hiszel nekem, akkor menti az utcára, és kihásd el magad, hogy, hey, seggfej! A legtöbbenben oda fog fordulni.
+A legtöbb ember seggfej. Ha nem hiszel nekem, akkor menj ki az utcára és kiáltsd el magad, hogy hé, seggfej, a legtöbb ember oda fog fordulni.
 
 -----
 
