@@ -15,14 +15,14 @@ A legtöbb ember seggfej. Ha nem hiszel nekem, akkor menj ki az utcára és kiá
 
 [Reel](https://www.instagram.com/reels/DUfKdRZiXoG/)
 
-Tegyük fel, hogy az első időszakban többi kényel volt az együtt töltött időre a másiknak is,
-és ehhez szokott hozzá az a fél, akinek alapvetően és nagyigényel van az együtt töltött időre,
-ki alapul egy szokás és vetszett, csak elkezd távolódni teljesen természetesen,
-elkezd vissza illeszkedni vagy visszelépni a baritmusba, amiben egyébként is éltek horában az életét.
-Többet van egyedül, a munkájával többet, de hogy egyébként vágyik a kapcsolótása,
-és hogy csak nem olyan mértékben, és ilyenkor mondjuk beléphet a képbe ilyen az a fajta frustráció,
-hogyha csak te vagy nekem, és te ezt már nem tudod kielégetteni és megadni,
-akkor milyen lehetőségeim vannak, még ezen kívül vannak egyébként elbírja a kapcsolat,
-én eszedleg elbízóintalanodom el a kapcsolatban, hogyha elkezdni más betölteni ezt az életembe,
-azokat a részeket, azokat a szükségleteket, amiket korában a pár kapcsolatomba reméltem,
-mászik fog betölteni.
+Tegyük fel, hogy az első időszakban több igénye volt az együtt töltött időre a másiknak is,
+és ehhez szokott hozzá az a fél, akinek alapvetően is nagy igénye van az együtt töltött időre.
+Kialakul egy szokás, és ő egyszer csak elkezd távolodni, teljesen természetesen
+elkezd visszailleszkedni, vagy visszalépni abba a ritmusba, amiben égyebként is, égyebként is élte korrában az életét. 
+Többet van egyedül, a munkájával többet, de hogy egyébként vágyik a kapcsolódásra,
+csak nem olyan mértékben. És ilyenkor mondjuk beléphet a képbe igen, az a fajta frusztráció,
+hogy ha csak te vagy nekem, és te ezt már nem tudod kielégíteni és megadni,
+akkor milyen lehetőségeim vannak még ezen kívül? Vannak-e egyébként? Elbírja-e a kapcsolat?
+Én esetleg elbizonytalanodom a kapcsolatban, hogyha elkezdi más betölteni ezt az életemben
+azokat a részeket, azokat a szükségleteket, amiket korábban a párkapcsolatomban reméltem,
+hogy a másik fog betölteni.
