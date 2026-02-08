@@ -129,7 +129,7 @@ and by now I’m not even sure the kids are yours.
 * **képzeljétek el** – imagine this
 * **testébe zárt** – trapped in the body of
 * **káromkodik** – swear, curse
-* **lebasz vk*t** (*basztam le*) – snap at, tear into someone (vulgar)
+* **lebasz vkt** (*basztam le*) – snap at, tear into someone (vulgar)
 * **csavarhúzó** – screwdriver
 * **jár vkinél** – be in someone’s possession
 * **ennyire voltam tőle** – I was *this close*
