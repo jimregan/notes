@@ -12,21 +12,24 @@ categories: [hungarian, chatgpt, reels]
 ### Line-by-line translation
 
 **A legtöbb ember seggfej.**
+
 Most people are assholes.
 
 **Ha nem hiszel nekem,**
+
 If you don’t believe me,
 
 **akkor menj ki az utcára és kiáltsd el magad,**
+
 then go out into the street and shout,
 
 **hogy hé, seggfej,**
+
 “hey, asshole,”
 
 **a legtöbb ember oda fog fordulni.**
-most people will turn around.
 
----
+most people will turn around.
 
 ### Vocabulary
 
@@ -52,8 +55,6 @@ most people will turn around.
   * **odafordulni** – “to turn toward something/someone”
   * **fog + infinitive** – future construction
 * **a legtöbb ember** – repetition for punchline emphasis
-
-If you want, next time we can also flag **idiomatic punchlines / joke mechanics**, but I’ll only do that if you ask.
 
 -----
 
