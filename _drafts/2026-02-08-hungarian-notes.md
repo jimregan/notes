@@ -178,30 +178,127 @@ that my partner would fulfill.
 
 [Reel](https://www.instagram.com/reels/DUVl_L8AtG9/)
 
-Pasi típusok következnek. A bátor.
-Hajnali háromkor totál részegen hazamegy.
-Felesége az ajtóban áll söprüvel a kezében, mire a pasi rákérdez
-Takarítasz hogy mész valahová.
+### Line-by-line translation
 
-A rámenős.
-Hajnali háromkor totál részegen hazamegy.
-Buzlik a sok női parfüm.
-A nyakán rúzsfoltok láthatók.
-Megtapogatja a felesége fenekét és így szól.
-Te vagy a következő.
+**Pasi típusok következnek. A bátor.**
+Here come the types of guys. The brave one.
 
-A naiv.
-Hajnali háromkor totál részegen hazamegy.
-Belép az ajtón.
-A felesége fakanállal várja.
-Mire a férj?
-Drágam te már hajnalban sütsz.
+**Hajnali háromkor totál részegen hazamegy.**
+He goes home at three in the morning, completely drunk.
 
-A pofátlan.
-Hajnali háromkor totál részegen hazamegy.
-A felesége az ágyban van de nem alszik.
-A pali fog egy széket s az ágya mellé ül.
-Az asszony kérdésére.
-Mit jelentsen ez
-a válasz
-az elsősorban akarok ülni amikor a cirkusz kezdődik.
+**Felesége az ajtóban áll söprűvel a kezében, mire a pasi rákérdez**
+His wife is standing in the doorway with a broom in her hand, so the guy asks:
+
+**Takarítasz vagy mész valahová.**
+Are you cleaning, or are you going somewhere?
+
+---
+
+**A rámenős.**
+The pushy one.
+
+**Hajnali háromkor totál részegen hazamegy.**
+He goes home at three in the morning, completely drunk.
+
+**Bűzlik a sok női parfümtől.**
+He reeks of women’s perfume.
+
+**A nyakán rúzsfoltok láthatók.**
+Lipstick marks are visible on his neck.
+
+**Megtapogatja a felesége fenekét és így szól.**
+He grabs his wife’s butt and says:
+
+**Te vagy a következő.**
+You’re next.
+
+---
+
+**A naiv.**
+The naïve one.
+
+**Hajnali háromkor totál részegen hazamegy.**
+He goes home at three in the morning, completely drunk.
+
+**Belép az ajtón.**
+He steps through the door.
+
+**A felesége fakanállal várja.**
+His wife is waiting for him with a wooden spoon.
+
+**Mire a férj?**
+To which the husband says:
+
+**Drágám, te már hajnalban sütsz?**
+Darling, are you already baking at dawn?
+
+---
+
+**A pofátlan.**
+The shameless one.
+
+**Hajnali háromkor totál részegen hazamegy.**
+He goes home at three in the morning, completely drunk.
+
+**A felesége az ágyban van, de nem alszik.**
+His wife is in bed, but she’s not sleeping.
+
+**A pali fog egy széket, s az ágya mellé ül.**
+The guy takes a chair and sits down next to her bed.
+
+**Az asszony kérdésére:**
+To the woman’s question:
+
+**Mit jelentsen ez?**
+What is this supposed to mean?
+
+**A válasz:**
+The answer:
+
+**Az első sorban akarok ülni, amikor a cirkusz kezdődik.**
+I want to sit in the front row when the circus starts.
+
+---
+
+### Vocabulary
+
+* **pasi** – guy (informal)
+* **típus** – type
+* **következik** – “comes next”
+* **bátor** – brave
+* **rámenős** – pushy, aggressive, forward
+* **naiv** – naïve
+* **pofátlan** – shameless, cheeky, brazen
+* **hajnali** – at dawn / early morning
+* **totál** – totally, completely (colloquial intensifier)
+* **részeg** – drunk
+* **hazamegy** – goes home
+* **feleség** – wife
+* **ajtóban áll** – stands in the doorway
+* **seprű / söprű** – broom
+* **rákérdez** – asks back, asks pointedly
+* **takarít** – cleans
+* **bűzlik** – stinks, reeks
+* **parfüm** – perfume
+* **rúzsfolt** – lipstick mark
+* **látható** – visible
+* **megtapogat** – to grope, to grab
+* **fenék** – buttocks
+* **következő** – next
+* **belép** – enters, steps in
+* **fakanál** – wooden spoon
+* **várja** – is waiting for
+* **drágám** – darling
+* **süt** – bakes
+* **ágy** – bed
+* **nem alszik** – is not sleeping
+* **szék** – chair
+* **leül** – sits down
+* **mit jelentsen ez?** – what is this supposed to mean?
+* **első sor** – front row
+* **cirkusz** – circus (metaphor for the coming argument)
+
+If you want next:
+– **register notes** (why this works as a joke in Hungarian), or
+– **a tighter idiomatic English retelling**, or
+– **frequency-ranked slang from this text**.
