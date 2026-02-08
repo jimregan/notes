@@ -174,3 +174,31 @@ that my partner would fulfill.
 * **párkapcsolat** – “romantic relationship”
 * **remélni** – “to hope”
 
+-----
+
+[Reel](https://www.instagram.com/reels/DUVl_L8AtG9/)
+
+[00:00.000 --> 00:05.000]  Pasi típusok következnek, a bátor.
+[00:05.000 --> 00:11.000]  Hajnali háromkor totál részegen haza megy.
+[00:11.000 --> 00:18.000]  Szelesége az ajtóban állsöbb früvel a kezében, mi a pasirák érdez?
+[00:18.000 --> 00:23.000]  Takarítasz bész valahobá.
+[00:23.000 --> 00:26.000]  A rámenős.
+[00:26.000 --> 00:31.000]  Hajnali háromkor totál részegen haza megy.
+[00:31.000 --> 00:34.000]  Bőzlik a sok női parfüm.
+[00:34.000 --> 00:37.000]  A nyakán rús voltok láthatók.
+[00:37.000 --> 00:42.000]  Megtapogatja a felesége fenekét és így szól.
+[00:42.000 --> 00:46.000]  Te vagy a következő.
+[00:46.000 --> 00:48.000]  A nai.
+[00:48.000 --> 00:52.000]  Hajnali háromkor totál részegen haza megy.
+[00:52.000 --> 00:54.000]  Belép az ajtón.
+[00:54.000 --> 00:58.000]  A felesége fakanállal várja.
+[00:58.000 --> 01:01.000]  Mire a férgy?
+[01:01.000 --> 01:05.000]  Drága, mert hajnal van süt.
+[01:05.000 --> 01:08.000]  A pofátlan.
+[01:08.000 --> 01:11.000]  Hajnali háromkor totál részegen haza megy.
+[01:11.000 --> 01:15.000]  A felesége az ágybanban, de nem elszik.
+[01:15.000 --> 01:18.000]  A pali fog egy széket és az ágyam elléül.
+[01:18.000 --> 01:22.000]  Az asszony kérdésére.
+[01:22.000 --> 01:24.000]  Mit jelent, Cserezz?
+[01:24.000 --> 01:26.000]  A választ.
+[01:26.000 --> 01:30.000]  Az első sorban akar a külni, amikor a cirkusz kezdődik.
