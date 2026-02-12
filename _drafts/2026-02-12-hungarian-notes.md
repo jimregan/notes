@@ -48,13 +48,62 @@ There’s no “nukutabu.”
 
 [Reel](https://www.instagram.com/reels/DUoVhlxDdgJ/)
 
-"Ket szerelmes pár, mindig egyutt jár, egy tányerból esznek, mindig összevesznek."
-Hát, azért vesznek össze, mert EGY tányerból esznek.
-KÉT szerelmes pár, az NÉGZ ember együtt.
-Képzeld el őket egy etteremben.
-"Sziasztok, négyen vagyunk, de van szükségünk egy tányerra...
-Neki glutenallergiája van, ő láktózintoréráns. Ő vegán. Külön fizetünk.
-Nekem vécére kell mennem." "Na gyjerünk, mindenki, mindig együtt járunk."
+### Line-by-line translation
+
+**„Két szerelmes pár, mindig együtt jár, egy tányérból esznek, mindig összevesznek.”**
+“Two couples in love, always go everywhere together, eat from one plate, and always argue.”
+
+**Hát, azért vesznek össze, mert EGY tányérból esznek.**
+Well, of course they argue — they’re eating from ONE plate.
+
+**KÉT szerelmes pár, az NÉGY ember együtt.**
+TWO couples in love — that’s FOUR people together.
+
+**Képzeld el őket egy étteremben.**
+Imagine them in a restaurant.
+
+**„Sziasztok, négyen vagyunk, de van szükségünk egy tányérra…”**
+“Hi, there are four of us, but we only need one plate…”
+
+**„Neki gluténallergiája van, ő laktózintoleráns. Ő vegán. Külön fizetünk.”**
+“He’s allergic to gluten, she’s lactose intolerant. He’s vegan. We’ll pay separately.”
+
+**„Nekem vécére kell mennem.”**
+“I need to go to the bathroom.”
+
+**„Na gyerünk, mindenki, mindig együtt járunk.”**
+“Come on, everyone — we always stick together.”
+
+---
+
+### Vocabulary
+
+* **két** – two
+* **szerelmes** – in love
+* **pár** – couple / pair
+* **mindig** – always
+* **együtt** – together
+* **jár** – go (regularly), hang out
+* **tányér** – plate
+* **-ból/-ből** – from (out of)
+* **eszik** – to eat
+* **összevesznek** – they argue / fall out
+* **azért** – because / that’s why
+* **képzeld el** – imagine
+* **étterem** – restaurant
+* **négyen vagyunk** – there are four of us
+* **szükség van valamire** – to need something
+* **gluténallergia** – gluten allergy
+* **laktózintoleráns** – lactose intolerant
+* **vegán** – vegan
+* **külön fizetünk** – we’ll pay separately
+* **vécé** – toilet / bathroom
+* **kell** – must / need to
+* **gyerünk** – come on
+* **mindenki** – everyone
+* **mindig együtt járunk** – we always go together
+
+If you want, I can also break down the wordplay in the opening rhyme — that’s where the joke really lives.
 
 -----
 
