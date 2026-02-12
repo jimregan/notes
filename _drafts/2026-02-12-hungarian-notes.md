@@ -12,18 +12,20 @@ categories: [hungarian, chatgpt, reels]
 ### Line-by-line translation
 
 **Azoknak az embereknek szól most ez a videó, akik nem tudják elválasztani a munkát és a magánéletet.**
+
 This video is for those people who can’t separate work and private life.
 
 **Mun-ka, ma-gán-é-let.**
+
 Work. Pri-vate. Life.
-(spelled out syllable by syllable for emphasis)
 
 **Hasonló ékességekért kövess be, ha még nem tetted.**
+
 Follow me for similar gems, if you haven’t already.
 
 **Nukutabu van.**
+
 There’s no “nukutabu.”
-(nonsense / playful made-up word used humorously)
 
 ---
 
@@ -43,12 +45,6 @@ There’s no “nukutabu.”
 * **kövess be** – follow (on social media)
 * **ha még nem tetted** – if you haven’t done so yet
 * **van** – there is / exists
-
-If you’d like:
-– tone breakdown (why it’s ironic), or
-– morphology drill on *munka* vs *magánélet*, or
-– common workplace vocabulary cluster.
-
 
 -----
 
