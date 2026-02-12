@@ -51,30 +51,36 @@ There’s no “nukutabu.”
 ### Line-by-line translation
 
 **„Két szerelmes pár, mindig együtt jár, egy tányérból esznek, mindig összevesznek.”**
+
 “Two couples in love, always go everywhere together, eat from one plate, and always argue.”
 
 **Hát, azért vesznek össze, mert EGY tányérból esznek.**
+
 Well, of course they argue — they’re eating from ONE plate.
 
 **KÉT szerelmes pár, az NÉGY ember együtt.**
+
 TWO couples in love — that’s FOUR people together.
 
 **Képzeld el őket egy étteremben.**
+
 Imagine them in a restaurant.
 
 **„Sziasztok, négyen vagyunk, de van szükségünk egy tányérra…”**
+
 “Hi, there are four of us, but we only need one plate…”
 
 **„Neki gluténallergiája van, ő laktózintoleráns. Ő vegán. Külön fizetünk.”**
+
 “He’s allergic to gluten, she’s lactose intolerant. He’s vegan. We’ll pay separately.”
 
 **„Nekem vécére kell mennem.”**
+
 “I need to go to the bathroom.”
 
 **„Na gyerünk, mindenki, mindig együtt járunk.”**
-“Come on, everyone — we always stick together.”
 
----
+“Come on, everyone — we always stick together.”
 
 ### Vocabulary
 
@@ -102,8 +108,6 @@ Imagine them in a restaurant.
 * **gyerünk** – come on
 * **mindenki** – everyone
 * **mindig együtt járunk** – we always go together
-
-If you want, I can also break down the wordplay in the opening rhyme — that’s where the joke really lives.
 
 -----
 
