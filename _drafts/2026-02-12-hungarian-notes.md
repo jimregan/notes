@@ -9,10 +9,46 @@ categories: [hungarian, chatgpt, reels]
 
 [Reel](https://www.instagram.com/reels/DUiArB5DNIl/)
 
-Azoknak az embereknek szól most ez a videó, akik nem tudják elválasztani a munkát és a magánéletet.
-Mun-ka, ma-gán-é-let.
-Hasonló évekességekért kövess be, ha még nem tetted
-nukutabu van.
+### Line-by-line translation
+
+**Azoknak az embereknek szól most ez a videó, akik nem tudják elválasztani a munkát és a magánéletet.**
+This video is for those people who can’t separate work and private life.
+
+**Mun-ka, ma-gán-é-let.**
+Work. Pri-vate. Life.
+(spelled out syllable by syllable for emphasis)
+
+**Hasonló ékességekért kövess be, ha még nem tetted.**
+Follow me for similar gems, if you haven’t already.
+
+**Nukutabu van.**
+There’s no “nukutabu.”
+(nonsense / playful made-up word used humorously)
+
+---
+
+### Vocabulary
+
+* **azoknak** – for those
+* **embereknek** – people (dative: “to/for people”)
+* **szól** – is addressed to / is meant for
+* **most** – now
+* **videó** – video
+* **nem tudják** – they cannot
+* **elválasztani** – to separate
+* **munka** – work
+* **magánélet** – private life
+* **hasonló** – similar
+* **ékesség** – gem, fine example (often ironic)
+* **kövess be** – follow (on social media)
+* **ha még nem tetted** – if you haven’t done so yet
+* **van** – there is / exists
+
+If you’d like:
+– tone breakdown (why it’s ironic), or
+– morphology drill on *munka* vs *magánélet*, or
+– common workplace vocabulary cluster.
+
 
 -----
 
