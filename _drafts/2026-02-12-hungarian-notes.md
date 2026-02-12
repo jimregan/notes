@@ -141,11 +141,11 @@ hogy az, aki találkozik ezzel a történette, hanem egy szeletét,
 
 [Reel](https://www.instagram.com/reels/DUlVUwvjPaI/)
 
-[00:00.000 --> 00:04.700]  Milyen nincs egy feminista nagy ő, ahol ugyanúgy 19 nő meg egy csávó van egy kastéban,
-[00:04.700 --> 00:07.900]  csak ott annak a csávónak kellene mindennap feladatokat megoldania.
-[00:07.900 --> 00:10.620]  Hogy mondjuk így ismeré a női hormonokat,
-[00:10.620 --> 00:14.020]  vagy amikor a nők megosztanak vele egy problémát, akkor az ön megpróbálja megoldani,
-[00:14.020 --> 00:17.340]  vagy meghallgatja, vagy még megérde a ráncoktól,
-[00:17.340 --> 00:21.620]  és akkor mindennap az a nő megy haza a kastébol, akik megelégeli a csávónak a fosságait.
-[00:21.620 --> 00:25.260]  És akkor a nők egészen egy koktélozgatnak, vagy beszélgetnek, még napoznak,
-[00:25.260 --> 00:30.540]  és így a show felé nekábbégy el is feletkeznek a csávóról, és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyár.
+Milyen nincs egy feminista nagy ő, ahol ugyanúgy 19 nő meg egy csávó van egy kastéban,
+csak ott annak a csávónak kellene mindennap feladatokat megoldania.
+Hogy mondjuk így ismeré a női hormonokat,
+vagy amikor a nők megosztanak vele egy problémát, akkor az ön megpróbálja megoldani,
+vagy meghallgatja, vagy még megérde a ráncoktól,
+és akkor mindennap az a nő megy haza a kastébol, akik megelégeli a csávónak a fosságait.
+És akkor a nők egészen egy koktélozgatnak, vagy beszélgetnek, még napoznak,
+és így a show felé nekábbégy el is feletkeznek a csávóról, és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyár.
