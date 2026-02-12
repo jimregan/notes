@@ -27,8 +27,6 @@ Follow me for similar gems, if you haven’t already.
 
 There’s no “nukutabu.”
 
----
-
 ### Vocabulary
 
 * **azoknak** – for those
@@ -50,13 +48,13 @@ There’s no “nukutabu.”
 
 [Reel](https://www.instagram.com/reels/DUoVhlxDdgJ/)
 
-Ketszerer mespár, mindig egy útjár, egy tányerból lesznek, mindig összevesznek,
-Hát azért lesznek össze, mert egy tányerból lesznek.
-Ketszerer mespár, az negyember együtt.
-Képzeldel őket egyeteremben.
-Sziasztok, negyen vagyunk, de van szükségünk egy tányerról.
-Neki gluten arergyája van, glágtózintoréráns, övegán különfizetünk.
-Nekem vetszerekel mennem, nagyjárunk mindenki mindig együtt járunk.
+"Ket szerelmes pár, mindig egyutt jár, egy tányerból esznek, mindig összevesznek."
+Hát, azért vesznek össze, mert EGY tányerból esznek.
+KÉT szerelmes pár, az NÉGZ ember együtt.
+Képzeld el őket egy etteremben.
+"Sziasztok, négyen vagyunk, de van szükségünk egy tányerra...
+Neki glutenallergiája van, ő láktózintoréráns. Ő vegán. Külön fizetünk.
+Nekem vécére kell mennem." "Na gyjerünk, mindenki, mindig együtt járunk."
 
 -----
 
