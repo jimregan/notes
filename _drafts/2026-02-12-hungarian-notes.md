@@ -113,29 +113,29 @@ Imagine them in a restaurant.
 
 [Reel](https://www.instagram.com/reels/DUnE0u0EeJt/)
 
-a Reddit-en van egy külföldi alóadal a Tedbedroom,
-és ott pontosan azok gyűlnek összés azok beszélgetnek,
-akik azt érszék, hogy hiányok vannak a szexuális életűbben a kapcsolatukban.
-Jó cél elindult, én azt gondolom, maga az alóadal,
-viszont nagyon-nagyon sok hózt alatt elindul a felé a bátorítás,
-meg a kommentelés, hogy egyéleted van,
-hagydott ezzel a nem élet, ami a pár kapcsolatódba van,
-ezt nem lehet csinálni.
-Már annak is van egy ilyen érdekes üzenet, amikor valaki kiérja
-ezt a történetet a kapcsolatán kívül egy oldalra per miért,
+A Redditen van egy külföldi aloldal, a Deadbedroom,
+és ott pontosan azok gyűlnek össze és azok beszélgetnek,
+akik azt érzik, hogy hiányok vannak a szexuális életükben, a kapcsolatukban.
+Jó céllal indult, én azt gondolom maga az aloldal,
+viszont nagyon, nagyon sok poszt alatt elindul afelé a bátorítás
+meg a kommentelés, hogy: "Egy életed van!
+Hagyd ott! Ez már nem élet, ami a párkapcsolatodban van,
+ezt nem lehet csinálni."
+Tudod, már annak is van egy ilyen érdekes üzenete, amikor valaki kiírja
+ezt a történetet a kapcsolatán kívül egy oldalra. Bár miért
 ne lehetne tanácsot kérni egyébként másoktól.
-Csak ugye mégsem azt történik, hogy amit itt kapsz,
-a csatornázt vissza a kapcsolatot,
-és akkor hogy tudottényleg fellendíteni a szexuális életet,
-visszahozni vágyat, vagy segíteni esetnek a párodnak,
-akár megértésében, mi történik bennel.
-Hanem tényleg valahogy ez a jogod van hozzá, egy életed van,
-jogod van ahhoz, hogy megélda a szexuatásnak a minden formát,
-és egyébként valahol igaz, mert alapszükség lett,
+Csak ugye mégsem az történik, hogy amit itt kapsz,
+azt csatornázd vissza a kapcsolatodba
+és akkor hogy tudod tényleg fellendíteni a szexuális életed,
+visszahozni a vágyat vagy segíteni esetleg a párodnak
+akár a megértésében, hogy mi történik benne.
+Hanem tényleg valahogy ez a jogod van hozzá. Egy életed van,
+jogod van ahhoz, hogy megéld a szexualitásnak minden formáját.
+És egyébként valahol igaz, mert alapszükséglet,
 de hogy mégis annyira, mégis valahogy jön egy ilyen zsigeri érzés,
-hogy ez így még sincs rendben, hogy mégsem a teljes valóságot látja,
-hogy az, aki találkozik ezzel a történette, hanem egy szeletét,
-és ebben nyúl bele kívülről egy direkt tanácssal.
+hogy ez így még sincs rendben, hogy mégsem a teljes valóságot látja ott
+ugye az, aki találkozik ezzel a történettel, hanem egy szeletét
+és ebbe nyúl bele kívülről egy direkt tanácssal.
 
 -----
 
