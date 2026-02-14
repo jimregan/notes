@@ -242,11 +242,13 @@ and then reaches into it from the outside with direct advice.
 
 [Reel](https://www.instagram.com/reels/DUlVUwvjPaI/)
 
-Milyen nincs egy feminista nagy ő, ahol ugyanúgy 19 nő meg egy csávó van egy kastéban,
-csak ott annak a csávónak kellene mindennap feladatokat megoldania.
-Hogy mondjuk így ismeré a női hormonokat,
-vagy amikor a nők megosztanak vele egy problémát, akkor az ön megpróbálja megoldani,
-vagy meghallgatja, vagy még megérde a ráncoktól,
-és akkor mindennap az a nő megy haza a kastébol, akik megelégeli a csávónak a fosságait.
-És akkor a nők egészen egy koktélozgatnak, vagy beszélgetnek, még napoznak,
-és így a show felé nekábbégy el is feletkeznek a csávóról, és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyár.
+feminista nagy ő
+
+Milyen nincs egy feminista nagy ő? Ahol ugyanúgy tizenkilenc nő, meg egy csávó van egy kastélyban,
+csak ott annak a csávónak kellene minden nap feladatokat megoldania,
+hogy mondjuk így ismeri-e a női hormonokat,
+vagy amikor a nők megosztanak vele egy problémát, akkor azt megpróbálja-e megoldani,
+vagy meghallgatja, vagy mondjuk megijed-e a ráncoktól.
+És akkor minden nap az a nő megy haza kastelybol, aki igy megelégeli a csávónak a faszágait.
+És akkor a nők egész így koktélozgatnak, meg beszélgetnek, meg napoznak,
+és így a show felénel kb, igy el is feledkeznek a csávóról, és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyer.
