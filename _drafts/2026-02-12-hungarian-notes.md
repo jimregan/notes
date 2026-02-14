@@ -242,13 +242,57 @@ and then reaches into it from the outside with direct advice.
 
 [Reel](https://www.instagram.com/reels/DUlVUwvjPaI/)
 
-feminista nagy ő
+### Line-by-line translation
 
-Milyen nincs egy feminista nagy ő? Ahol ugyanúgy tizenkilenc nő, meg egy csávó van egy kastélyban,
-csak ott annak a csávónak kellene minden nap feladatokat megoldania,
-hogy mondjuk így ismeri-e a női hormonokat,
-vagy amikor a nők megosztanak vele egy problémát, akkor azt megpróbálja-e megoldani,
-vagy meghallgatja, vagy mondjuk megijed-e a ráncoktól.
-És akkor minden nap az a nő megy haza kastelybol, aki igy megelégeli a csávónak a faszágait.
-És akkor a nők egész így koktélozgatnak, meg beszélgetnek, meg napoznak,
-és így a show felénel kb, igy el is feledkeznek a csávóról, és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyer.
+**Milyen nincs egy feminista nagy ő?**
+Why isn’t there a feminist version of *The Bachelor*?
+
+**Ahol ugyanúgy tizenkilenc nő, meg egy csávó van egy kastélyban,**
+Where there are still nineteen women and one guy in a castle,
+
+**csak ott annak a csávónak kellene minden nap feladatokat megoldania,**
+but there the guy would have to complete tasks every day,
+
+**hogy mondjuk így ismeri-e a női hormonokat,**
+like whether he actually knows about female hormones,
+
+**vagy amikor a nők megosztanak vele egy problémát, akkor azt megpróbálja-e megoldani,**
+or when women share a problem with him, whether he tries to fix it,
+
+**vagy meghallgatja, vagy mondjuk megijed-e a ráncoktól.**
+or whether he listens, or for example gets scared of wrinkles.
+
+**És akkor minden nap az a nő megy haza kastélyból, aki így megelégeli a csávónak a faszságait.**
+And every day, the woman who gets fed up with the guy’s bullshit goes home from the castle.
+
+**És akkor a nők egész így koktélozgatnak, meg beszélgetnek, meg napoznak,**
+And meanwhile the women are just having cocktails, chatting, sunbathing,
+
+**és így a show felénél kb, így el is feledkeznek a csávóról,**
+and about halfway through the show they basically forget about the guy,
+
+**és akkor ilyen legjobb barátnők lesznek, és akkor mindenki nyer.**
+and they become best friends, and then everyone wins.
+
+---
+
+### Vocabulary
+
+* **nagy ő** – “the one” (soulmate)
+* **csávó** – guy, dude (informal)
+* **kastély** – castle, mansion
+* **feladatot megoldani** – to complete/solve a task
+* **ismeri-e** – whether he knows
+* **női hormonok** – female hormones
+* **megosztani (egy problémát)** – to share (a problem)
+* **megpróbálja-e** – whether he tries
+* **meghallgatni** – to listen
+* **megijedni** – to get scared
+* **ránc** – wrinkle
+* **megelégelni** – to get fed up with
+* **faszság** – bullshit, stupid nonsense (vulgar)
+* **koktélozgatni** – to sip cocktails (casual, playful tone)
+* **napozni** – to sunbathe
+* **el is feledkeznek róla** – they even forget about him
+* **legjobb barátnők** – best girlfriends (female best friends)
+* **mindenki nyer** – everybody wins
