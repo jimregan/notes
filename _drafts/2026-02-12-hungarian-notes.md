@@ -113,29 +113,108 @@ Imagine them in a restaurant.
 
 [Reel](https://www.instagram.com/reels/DUnE0u0EeJt/)
 
-A Redditen van egy külföldi aloldal, a Deadbedroom,
-és ott pontosan azok gyűlnek össze és azok beszélgetnek,
-akik azt érzik, hogy hiányok vannak a szexuális életükben, a kapcsolatukban.
-Jó céllal indult, én azt gondolom maga az aloldal,
-viszont nagyon, nagyon sok poszt alatt elindul afelé a bátorítás
-meg a kommentelés, hogy: "Egy életed van!
-Hagyd ott! Ez már nem élet, ami a párkapcsolatodban van,
-ezt nem lehet csinálni."
-Tudod, már annak is van egy ilyen érdekes üzenete, amikor valaki kiírja
-ezt a történetet a kapcsolatán kívül egy oldalra. Bár miért
-ne lehetne tanácsot kérni egyébként másoktól.
-Csak ugye mégsem az történik, hogy amit itt kapsz,
-azt csatornázd vissza a kapcsolatodba
-és akkor hogy tudod tényleg fellendíteni a szexuális életed,
-visszahozni a vágyat vagy segíteni esetleg a párodnak
-akár a megértésében, hogy mi történik benne.
-Hanem tényleg valahogy ez a jogod van hozzá. Egy életed van,
-jogod van ahhoz, hogy megéld a szexualitásnak minden formáját.
-És egyébként valahol igaz, mert alapszükséglet,
-de hogy mégis annyira, mégis valahogy jön egy ilyen zsigeri érzés,
-hogy ez így még sincs rendben, hogy mégsem a teljes valóságot látja ott
-ugye az, aki találkozik ezzel a történettel, hanem egy szeletét
-és ebbe nyúl bele kívülről egy direkt tanácssal.
+### Line-by-line translation
+
+**A Redditen van egy külföldi aloldal, a Deadbedroom,**
+On Reddit there is a foreign subreddit called Deadbedroom,
+
+**és ott pontosan azok gyűlnek össze és azok beszélgetnek,**
+and that’s exactly where the people gather and talk
+
+**akik azt érzik, hogy hiányok vannak a szexuális életükben, a kapcsolatukban.**
+who feel that there are deficiencies in their sex life and in their relationship.
+
+**Jó céllal indult, én azt gondolom maga az aloldal,**
+I think the subreddit itself started with good intentions,
+
+**viszont nagyon, nagyon sok poszt alatt elindul afelé a bátorítás**
+however, under many, many posts the encouragement starts going in the direction
+
+**meg a kommentelés, hogy: „Egy életed van!**
+and the commenting goes like: “You only have one life!
+
+**Hagyd ott! Ez már nem élet, ami a párkapcsolatodban van,**
+Leave! What you have in your relationship is no longer a life,
+
+**ezt nem lehet csinálni.”**
+this can’t be lived like this.”
+
+**Tudod, már annak is van egy ilyen érdekes üzenete, amikor valaki kiírja**
+You know, it already has an interesting message when someone writes out
+
+**ezt a történetet a kapcsolatán kívül egy oldalra.**
+this story outside their relationship, onto a platform.
+
+**Bár miért ne lehetne tanácsot kérni egyébként másoktól.**
+Though of course, why shouldn’t you ask others for advice.
+
+**Csak ugye mégsem az történik, hogy amit itt kapsz,**
+It’s just that what happens isn’t that what you receive here
+
+**azt csatornázd vissza a kapcsolatodba**
+you channel back into your relationship
+
+**és akkor hogy tudod tényleg fellendíteni a szexuális életed,**
+and then actually improve your sex life,
+
+**visszahozni a vágyat vagy segíteni esetleg a párodnak**
+bring back desire or possibly help your partner
+
+**akár a megértésében, hogy mi történik benne.**
+even in understanding what is going on inside them.
+
+**Hanem tényleg valahogy ez a „jogod van hozzá”. Egy életed van,**
+Instead, it somehow really becomes this “you’re entitled to it.” You have one life,
+
+**jogod van ahhoz, hogy megéld a szexualitásnak minden formáját.**
+you have the right to experience every form of sexuality.
+
+**És egyébként valahol igaz, mert alapszükséglet,**
+And in a way that’s true, because it’s a basic need,
+
+**de hogy mégis annyira, mégis valahogy jön egy ilyen zsigeri érzés,**
+but still, somehow there comes this gut feeling
+
+**hogy ez így még sincs rendben,**
+that this still isn’t quite right,
+
+**hogy mégsem a teljes valóságot látja ott**
+that the person there doesn’t see the full reality
+
+**ugye az, aki találkozik ezzel a történettel, hanem egy szeletét**
+the one who encounters the story only sees a slice of it,
+
+**és ebbe nyúl bele kívülről egy direkt tanácssal.**
+and then reaches into it from the outside with direct advice.
+
+---
+
+### Vocabulary
+
+* **aloldal** – subreddit / subpage
+* **külföldi** – foreign
+* **gyűlnek össze** – gather together
+* **hiány** – lack, deficiency
+* **szexuális élet** – sex life
+* **kapcsolat / párkapcsolat** – relationship
+* **jó céllal indul** – start with good intentions
+* **viszont** – however
+* **bátorítás** – encouragement
+* **hagyd ott** – leave it / walk away
+* **kiírja** – writes out / posts
+* **tanácsot kérni** – to ask for advice
+* **csatornázni (vissza)** – to channel (back)
+* **fellendíteni** – to boost, revitalize
+* **vágy** – desire
+* **megértés** – understanding
+* **jogod van hozzá** – you have the right to it
+* **megélni** – to live/experience fully
+* **alapszükséglet** – basic need
+* **zsigeri érzés** – gut feeling
+* **teljes valóság** – full reality
+* **szelet** – slice
+* **kívülről** – from the outside
+* **direkt tanács** – direct advice
 
 -----
 
