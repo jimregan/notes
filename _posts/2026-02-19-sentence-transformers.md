@@ -8,8 +8,6 @@ categories: [sentence-transformers, claude]
 **Version:** 5.3.0.dev0
 **Package root:** `sentence_transformers/`
 
----
-
 ## 1. Top-Level Directory Layout
 
 ```
@@ -36,8 +34,6 @@ sentence-transformers/
 - `image`: `Pillow` for CLIP
 - `dev`: adds `peft`, `pytest`, etc.
 
----
-
 ## 2. Architectural Pattern: Pipeline as `nn.Sequential`
 
 `SentenceTransformer` **is** an `nn.Sequential`. Each module receives a `dict[str, Tensor]` features dict and returns the enriched version. The canonical flow is:
@@ -55,8 +51,6 @@ Common keys flowing through the pipeline:
 - `"prompt_length"` — set when prompts are used
 - `"all_layer_embeddings"` — set if `output_hidden_states=True`
 
----
-
 ## 3. `models/` Subpackage — All Modules
 
 | Class | File | Description |
@@ -72,8 +66,6 @@ Common keys flowing through the pipeline:
 | `CLIPModel` | `CLIPModel.py` | CLIP visual/text encoder |
 | `Router` | `Router.py` | Asymmetric query/document routing (see §11) |
 | `CNN`, `LSTM`, `BoW`, `WordEmbeddings`, `WordWeights`, `LayerNorm`, `Dropout` | — | Misc / legacy |
-
----
 
 ## 4. The `Module` Base Class
 
@@ -143,8 +135,6 @@ class InputModule(Module):
     def save_tokenizer(self, output_path: str, **kwargs) -> None: ...
 ```
 
----
-
 ## 5. Writing a Custom Module Subclass
 
 ```python
@@ -209,8 +199,6 @@ model.save("./my-model")
 model2 = SentenceTransformer("./my-model")
 ```
 
----
-
 ## 6. Save / Load Protocol
 
 ### What `SentenceTransformer.save(path)` writes
@@ -238,8 +226,6 @@ model2 = SentenceTransformer("./my-model")
 ### Loading
 
 `SentenceTransformer(model_name_or_path)` reads `modules.json`, imports each class by dotted path, and calls `ModuleClass.load(module_path, ...)`. If no `modules.json` exists (plain HF model), creates `[Transformer(...), Pooling(dim, "mean")]` automatically.
-
----
 
 ## 7. `encode()` — Full Signature and Behavior
 
@@ -290,8 +276,6 @@ model.encode_query(sentences, ...)    # sets task="query", uses "query" prompt
 model.encode_document(sentences, ...) # sets task="document", uses "document"/"passage" prompt
 ```
 
----
-
 ## 8. `similarity()` and `similarity_pairwise()`
 
 ```python
@@ -305,8 +289,6 @@ model.similarity_fn_name         # "cosine" | "dot" | "euclidean" | "manhattan"
 - `"dot"` → `dot_score` / `pairwise_dot_score`
 - `"euclidean"` → `euclidean_sim` / `pairwise_euclidean_sim`
 - `"manhattan"` → `manhattan_sim` / `pairwise_manhattan_sim`
-
----
 
 ## 9. Evaluator Interface
 
@@ -395,8 +377,6 @@ evaluator = InformationRetrievalEvaluator(
 | `NanoBEIREvaluator` | Evaluates on nano-BEIR benchmark |
 | `SequentialEvaluator` | Runs a list of evaluators; combines metrics |
 
----
-
 ## 10. Loss Interface
 
 All losses share this structure:
@@ -426,8 +406,6 @@ class SomeLoss(nn.Module):
 | `TripletLoss` | Explicit (anchor, positive, negative) triplets |
 | `ContrastiveLoss` | (a, b, label) pairs with explicit 0/1 labels |
 
----
-
 ## 11. `Router` Module (Asymmetric Query/Document)
 
 ```python
@@ -440,8 +418,6 @@ router = Router.for_query_document(
 ```
 
 `Router` declares `forward_kwargs = {"task"}`. It receives `task` from `encode()` (or `"query"` / `"document"` from `encode_query()` / `encode_document()`), selects the corresponding sub-module list, and runs input through it. Requires `router_mapping` to be set in `SentenceTransformerTrainingArguments` during training.
-
----
 
 ## 12. `SentenceTransformerTrainer`
 
@@ -492,8 +468,6 @@ prompts: dict[str, str] | dict[str, dict[str, str]] | None
 router_mapping: dict[str, str] | None
 ```
 
----
-
 ## 13. `Transformer` Module — Key Details
 
 ```python
@@ -521,8 +495,6 @@ t = Transformer(
 `config_keys = ["max_seq_length", "do_lower_case"]`.
 `save_in_root = True` — saves HF model files to model root.
 
----
-
 ## 14. `Pooling` Module — Key Details
 
 ```python
@@ -537,8 +509,6 @@ pooling = Pooling(
 ```
 
 `forward()` reads `features["token_embeddings"]` + `features["attention_mask"]`, optionally `features["prompt_length"]`, and writes `features["sentence_embedding"]`.
-
----
 
 ## 15. Key Utility Functions (`sentence_transformers.util`)
 
