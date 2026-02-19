@@ -1,0 +1,100 @@
+Current things, 14 June 2025 - Topic Sentences Explained
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699214b7-a778-838e-8027-6459048a00de
+
+​​Speech-to-Retrieval (S2R): A new approach to voice search
+https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/
+
+google/svq · Datasets at Hugging Face
+https://huggingface.co/datasets/google/svq
+
+Massive Sound Embedding Benchmark (MSEB)
+https://research.google/pubs/massive-sound-embedding-benchmark-mseb/
+
+NeurIPS Poster Massive Sound Embedding Benchmark (MSEB)
+https://neurips.cc/virtual/2025/loc/san-diego/poster/121597
+
+pdf
+https://openreview.net/pdf?id=X0juYgFVng
+
+Group tasks by generic task type. · google-research/mseb@ca3e216
+https://github.com/google-research/mseb/commit/ca3e21664e7ee78e0d9e3d6671734bffc2eaeab7
+
+FBK-MT/Speech-MASSIVE · Datasets at Hugging Face
+https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE
+
+2023.acl-long.235.pdf
+https://aclanthology.org/2023.acl-long.235.pdf
+
+Current things, 14 June 2025 - Speech-to-Retrieval Overview
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699217de-7894-8386-b5a7-a94ec823c06a
+
+alexa/massive: Tools and Modeling Code for the MASSIVE dataset
+https://github.com/alexa/massive
+
+Commits · google-research/mseb
+https://github.com/google-research/mseb/commits/main/
+
+google-research/google-research: Google Research
+https://github.com/google-research/google-research
+
+google-research/arxiv-latex-cleaner: arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv
+https://github.com/google-research/arxiv-latex-cleaner
+
+google-research/dictionary_learning at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/dictionary_learning
+
+Sparse dictionary learning - Wikipedia
+https://en.wikipedia.org/wiki/Sparse_dictionary_learning
+
+google-research/specinvert at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/specinvert
+
+Resource not found
+https://datashare.ed.ac.uk/bitstream/handle/10283/3443/license_text?sequence=3&isAllowed=y
+
+google-research/speech_embedding at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/speech_embedding
+
+google-research/spelling_convention_nlm at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/spelling_convention_nlm
+
+google-research/speculative_kd at master · google-research/google-research
+https://github.com/google-research/google-research/tree/master/speculative_kd
+
+Adds a speech-to-text encoder based on the LiteLLM Transcription API… · google-research/mseb@2a1147d
+https://github.com/google-research/mseb/commit/2a1147d548727150e21e031d8186475dc8c9d01d
+
+mseb/mseb/encoder.py at main · google-research/mseb
+https://github.com/google-research/mseb/blob/main/mseb/encoder.py
+
+Pull requests · google-research/mseb
+https://github.com/google-research/mseb/pulls?page=2&q=is%3Apr+is%3Aclosed
+
+Add flag for setting the path to the CLAP model. by copybara-service[bot] · Pull Request #362 · google-research/mseb
+https://github.com/google-research/mseb/pull/362/changes
+
+mseb/mseb/encoders/whisper_encoder.py at main · google-research/mseb
+https://github.com/google-research/mseb/blob/main/mseb/encoders/whisper_encoder.py
+
+mseb/mseb/encoders/raw_encoder.py at main · google-research/mseb
+https://github.com/google-research/mseb/blob/main/mseb/encoders/raw_encoder.py
+
+Move gemma encoder out of google subdir and support LLMs from genai. by copybara-service[bot] · Pull Request #346 · google-research/mseb
+https://github.com/google-research/mseb/pull/346
+
+Update RAG-based retrieval. by copybara-service[bot] · Pull Request #347 · google-research/mseb
+https://github.com/google-research/mseb/pull/347/changes
+
+Add support for speech transcription with contextual bias. · google-research/mseb@36cfda9
+https://github.com/google-research/mseb/commit/36cfda955d872fa734c450bb50a2d585347d8d4f
+
+Adds speaker-gender classification task for Speech Massive · google-research/mseb@83c7d37
+https://github.com/google-research/mseb/commit/83c7d37ab740d7d7373389ca473af5cad5ba5120#diff-1b5300f49558df9ba080d12e580462def8502ce7bab50cb547ec7e7fb9328ba7
+
+Quickstart | Zvec
+https://zvec.org/en/docs/quickstart/
+
+[feat] Add MultiVectorEncoder Support (a.k.a late-interaction models or ColBERT-style models) by AymenKallala · Pull Request #3614 · huggingface/sentence-transformers
+https://github.com/huggingface/sentence-transformers/pull/3614
+
+
