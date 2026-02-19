@@ -1,9 +1,6 @@
 Current things, 14 June 2025 - Topic Sentences Explained
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699214b7-a778-838e-8027-6459048a00de
 
-google research search by speech - Google Search
-https://www.google.com/search?q=google+research+search+by+speech&rlz=1C5GCCM_en&oq=google+research+search+by+speech&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINjExMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
 ​​Speech-to-Retrieval (S2R): A new approach to voice search
 https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/
 
@@ -28,7 +25,7 @@ https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE
 2023.acl-long.235.pdf
 https://aclanthology.org/2023.acl-long.235.pdf
 
-ChatGPT - Current things, 14 June 2025
+Current things, 14 June 2025 - Speech-to-Retrieval Overview
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699217de-7894-8386-b5a7-a94ec823c06a
 
 alexa/massive: Tools and Modeling Code for the MASSIVE dataset
@@ -94,46 +91,10 @@ https://github.com/google-research/mseb/commit/36cfda955d872fa734c450bb50a2d5853
 Adds speaker-gender classification task for Speech Massive · google-research/mseb@83c7d37
 https://github.com/google-research/mseb/commit/83c7d37ab740d7d7373389ca473af5cad5ba5120#diff-1b5300f49558df9ba080d12e580462def8502ce7bab50cb547ec7e7fb9328ba7
 
-ScaNN - Google Search
-https://www.google.com/search?q=ScaNN&rlz=1C5GCCM_en&oq=ScaNN&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg9MgYIBhBFGEEyBggHEEUYQdIBCDE4ODhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-google-research/scann at master · google-research/google-research
-https://github.com/google-research/google-research/tree/master/scann
-
-Announcing ScaNN: Efficient Vector Similarity Search
-https://research.google/blog/announcing-scann-efficient-vector-similarity-search/
-
-alibaba/zvec: A lightweight, lightning-fast, in-process vector database
-https://github.com/alibaba/zvec?tab=readme-ov-file
-
-Embedding | Zvec
-https://zvec.org/en/docs/embedding/
-
 Quickstart | Zvec
 https://zvec.org/en/docs/quickstart/
 
-sentence-transformers/sentence_transformers/models at main · huggingface/sentence-transformers
-https://github.com/huggingface/sentence-transformers/tree/main/sentence_transformers/models
-
-Pull requests · huggingface/sentence-transformers
-https://github.com/huggingface/sentence-transformers/pulls?q=is%3Apr+is%3Aclosed
-
 [feat] Add MultiVectorEncoder Support (a.k.a late-interaction models or ColBERT-style models) by AymenKallala · Pull Request #3614 · huggingface/sentence-transformers
 https://github.com/huggingface/sentence-transformers/pull/3614
-
-sentence-transformers/sentence_transformers/sparse_encoder/models/MLMTransformer.py at main · huggingface/sentence-transformers
-https://github.com/huggingface/sentence-transformers/blob/main/sentence_transformers/sparse_encoder/models/MLMTransformer.py
-
-Index of /cmu_arctic/cmu_arctic/cmu_us_bdl_arctic/lab
-http://festvox.org/cmu_arctic/cmu_arctic/cmu_us_bdl_arctic/lab/
-
-festvox.org/cmu_arctic/cmu_arctic/cmu_us_bdl_arctic/lab/arctic_a0357.lab
-http://festvox.org/cmu_arctic/cmu_arctic/cmu_us_bdl_arctic/lab/arctic_a0357.lab
-
-T5Gemma — Google DeepMind
-https://deepmind.google/models/gemma/t5gemma/
-
-google/t5gemma-2-270m-270m · Hugging Face
-https://huggingface.co/google/t5gemma-2-270m-270m
 
 
