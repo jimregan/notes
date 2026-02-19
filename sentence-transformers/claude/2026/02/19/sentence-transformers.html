@@ -1,0 +1,684 @@
+<p><strong>Version:</strong> 5.3.0.dev0
+<strong>Package root:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/</code></p>
+
+<hr />
+
+<h2 id="1-top-level-directory-layout">1. Top-Level Directory Layout</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentence-transformers/
+├── sentence_transformers/       # Main package
+│   ├── SentenceTransformer.py  # Main model class
+│   ├── trainer.py              # SentenceTransformerTrainer
+│   ├── training_args.py        # SentenceTransformerTrainingArguments
+│   ├── data_collator.py        # SentenceTransformerDataCollator
+│   ├── similarity_functions.py # SimilarityFunction enum
+│   ├── fit_mixin.py            # Legacy .fit() API
+│   ├── sampler.py              # Batch samplers
+│   ├── quantization.py         # quantize_embeddings()
+│   ├── models/                 # Module subpackage
+│   ├── losses/                 # Loss functions
+│   ├── evaluation/             # Evaluators
+│   └── util/                   # Utility functions
+├── tests/
+└── examples/
+</code></pre></div></div>
+
+<p><strong>Key optional extras (pyproject.toml):</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">train</code>: requires <code class="language-plaintext highlighter-rouge">datasets</code>, <code class="language-plaintext highlighter-rouge">accelerate&gt;=0.20.3</code> for <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code></li>
+  <li><code class="language-plaintext highlighter-rouge">image</code>: <code class="language-plaintext highlighter-rouge">Pillow</code> for CLIP</li>
+  <li><code class="language-plaintext highlighter-rouge">dev</code>: adds <code class="language-plaintext highlighter-rouge">peft</code>, <code class="language-plaintext highlighter-rouge">pytest</code>, etc.</li>
+</ul>
+
+<hr />
+
+<h2 id="2-architectural-pattern-pipeline-as-nnsequential">2. Architectural Pattern: Pipeline as <code class="language-plaintext highlighter-rouge">nn.Sequential</code></h2>
+
+<p><code class="language-plaintext highlighter-rouge">SentenceTransformer</code> <strong>is</strong> an <code class="language-plaintext highlighter-rouge">nn.Sequential</code>. Each module receives a <code class="language-plaintext highlighter-rouge">dict[str, Tensor]</code> features dict and returns the enriched version. The canonical flow is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Transformer → Pooling → [optional modules...]
+  sets              sets
+  "token_embeddings"  "sentence_embedding"
+</code></pre></div></div>
+
+<p>Common keys flowing through the pipeline:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">"input_ids"</code>, <code class="language-plaintext highlighter-rouge">"attention_mask"</code>, <code class="language-plaintext highlighter-rouge">"token_type_ids"</code> — from tokenization</li>
+  <li><code class="language-plaintext highlighter-rouge">"token_embeddings"</code> — per-token hidden states, set by <code class="language-plaintext highlighter-rouge">Transformer</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"sentence_embedding"</code> — pooled vector, set by <code class="language-plaintext highlighter-rouge">Pooling</code>; overwritten by later modules</li>
+  <li><code class="language-plaintext highlighter-rouge">"prompt_length"</code> — set when prompts are used</li>
+  <li><code class="language-plaintext highlighter-rouge">"all_layer_embeddings"</code> — set if <code class="language-plaintext highlighter-rouge">output_hidden_states=True</code></li>
+</ul>
+
+<hr />
+
+<h2 id="3-models-subpackage--all-modules">3. <code class="language-plaintext highlighter-rouge">models/</code> Subpackage — All Modules</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>File</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Module</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Module.py</code></td>
+      <td>Abstract base class for all modules</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InputModule</code></td>
+      <td><code class="language-plaintext highlighter-rouge">InputModule.py</code></td>
+      <td>Abstract base for tokenizing modules</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Transformer</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Transformer.py</code></td>
+      <td>HuggingFace AutoModel wrapper; backbone</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Pooling</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Pooling.py</code></td>
+      <td>Token-to-sentence pooling (mean/cls/max/weighted/lasttoken)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Dense</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Dense.py</code></td>
+      <td>FF projection with activation</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Normalize</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Normalize.py</code></td>
+      <td>L2 normalization of <code class="language-plaintext highlighter-rouge">sentence_embedding</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StaticEmbedding</code></td>
+      <td><code class="language-plaintext highlighter-rouge">StaticEmbedding.py</code></td>
+      <td>EmbeddingBag-based fast static embeddings</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WeightedLayerPooling</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WeightedLayerPooling.py</code></td>
+      <td>Learned weighted combination across transformer layers</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CLIPModel</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLIPModel.py</code></td>
+      <td>CLIP visual/text encoder</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Router</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Router.py</code></td>
+      <td>Asymmetric query/document routing (see §11)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CNN</code>, <code class="language-plaintext highlighter-rouge">LSTM</code>, <code class="language-plaintext highlighter-rouge">BoW</code>, <code class="language-plaintext highlighter-rouge">WordEmbeddings</code>, <code class="language-plaintext highlighter-rouge">WordWeights</code>, <code class="language-plaintext highlighter-rouge">LayerNorm</code>, <code class="language-plaintext highlighter-rouge">Dropout</code></td>
+      <td>—</td>
+      <td>Misc / legacy</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="4-the-module-base-class">4. The <code class="language-plaintext highlighter-rouge">Module</code> Base Class</h2>
+
+<p><strong>File:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/models/Module.py</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Module</span><span class="p">(</span><span class="n">ABC</span><span class="p">,</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+</code></pre></div></div>
+
+<h3 id="class-variables-to-declare">Class Variables to Declare</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">config_file_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s">"config.json"</span>
+<span class="c1"># JSON file written by save_config() / read by load_config()
+</span>
+<span class="n">config_keys</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="c1"># Instance attribute names serialized to config.json by get_config_dict()
+# Must match __init__ parameter names exactly
+</span>
+<span class="n">save_in_root</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="c1"># True → saves in model root dir; False → saves in a numbered subdirectory
+# Transformer overrides this to True (it writes the HF model files)
+</span>
+<span class="n">forward_kwargs</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+<span class="c1"># Extra kwargs from encode() that this module's forward() accepts.
+# SentenceTransformer.forward() routes kwargs here by name.
+</span></code></pre></div></div>
+
+<h3 id="abstract-methods-must-implement">Abstract Methods (must implement)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">features</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="n">Any</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="n">Any</span><span class="p">]:</span>
+    <span class="s">"""Modify and return the features dict."""</span>
+
+<span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">safe_serialization</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="s">"""Save module to a directory. Typically calls save_config() + save_torch_weights()."""</span>
+</code></pre></div></div>
+
+<h3 id="provided-utility-methods">Provided Utility Methods</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Serialization helpers (all provided by Module)
+</span><span class="bp">self</span><span class="p">.</span><span class="n">get_config_dict</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span>          <span class="c1"># {k: getattr(self, k) for k in config_keys}
+</span><span class="bp">self</span><span class="p">.</span><span class="n">save_config</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span>           <span class="c1"># writes config.json
+</span><span class="bp">self</span><span class="p">.</span><span class="n">save_torch_weights</span><span class="p">(</span><span class="n">output_path</span><span class="p">,</span> <span class="n">safe_serialization</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+                                        <span class="c1"># writes model.safetensors or pytorch_model.bin
+</span>
+<span class="c1"># Class methods
+</span><span class="n">cls</span><span class="p">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="n">subfolder</span><span class="o">=</span><span class="s">""</span><span class="p">,</span> <span class="p">...)</span> <span class="o">-&gt;</span> <span class="nb">dict</span>
+<span class="n">cls</span><span class="p">.</span><span class="n">load_torch_weights</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="p">...,</span> <span class="n">model</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span> <span class="o">|</span> <span class="n">state_dict</span>
+<span class="n">cls</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="n">subfolder</span><span class="o">=</span><span class="s">""</span><span class="p">,</span> <span class="p">...)</span> <span class="o">-&gt;</span> <span class="n">Self</span>
+<span class="c1"># Default load(): load_config() → cls(**config). Override if you need weights.
+</span></code></pre></div></div>
+
+<h3 id="inputmodule-subclass"><code class="language-plaintext highlighter-rouge">InputModule</code> Subclass</h3>
+
+<p>Adds a required <code class="language-plaintext highlighter-rouge">tokenize()</code> method. <code class="language-plaintext highlighter-rouge">Transformer</code>, <code class="language-plaintext highlighter-rouge">StaticEmbedding</code>, <code class="language-plaintext highlighter-rouge">Router</code> extend this.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">InputModule</span><span class="p">(</span><span class="n">Module</span><span class="p">):</span>
+    <span class="n">save_in_root</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">True</span>   <span class="c1"># always saves in model root
+</span>    <span class="n">tokenizer</span><span class="p">:</span> <span class="n">PreTrainedTokenizerBase</span>
+
+    <span class="o">@</span><span class="n">abstractmethod</span>
+    <span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">texts</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">]:</span> <span class="p">...</span>
+
+    <span class="k">def</span> <span class="nf">save_tokenizer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span> <span class="p">...</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="5-writing-a-custom-module-subclass">5. Writing a Custom Module Subclass</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span>
+<span class="kn">import</span> <span class="nn">torch</span>
+<span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">Tensor</span>
+<span class="kn">from</span> <span class="nn">sentence_transformers.models.Module</span> <span class="kn">import</span> <span class="n">Module</span>
+
+<span class="k">class</span> <span class="nc">MyModule</span><span class="p">(</span><span class="n">Module</span><span class="p">):</span>
+    <span class="c1"># 1. Declare which __init__ args map to config.json
+</span>    <span class="n">config_keys</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"in_dim"</span><span class="p">,</span> <span class="s">"out_dim"</span><span class="p">]</span>
+
+    <span class="c1"># 2. Declare which encode() kwargs to receive in forward()
+</span>    <span class="n">forward_kwargs</span><span class="p">:</span> <span class="nb">set</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>   <span class="c1"># e.g. {"task"} for Router-aware modules
+</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">in_dim</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">out_dim</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">in_dim</span> <span class="o">=</span> <span class="n">in_dim</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">out_dim</span> <span class="o">=</span> <span class="n">out_dim</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">proj</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">in_dim</span><span class="p">,</span> <span class="n">out_dim</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">features</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">]:</span>
+        <span class="n">features</span><span class="p">[</span><span class="s">"sentence_embedding"</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">proj</span><span class="p">(</span><span class="n">features</span><span class="p">[</span><span class="s">"sentence_embedding"</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">features</span>
+
+    <span class="k">def</span> <span class="nf">get_sentence_embedding_dimension</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">out_dim</span>
+
+    <span class="k">def</span> <span class="nf">save</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">safe_serialization</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">save_config</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">save_torch_weights</span><span class="p">(</span><span class="n">output_path</span><span class="p">,</span> <span class="n">safe_serialization</span><span class="o">=</span><span class="n">safe_serialization</span><span class="p">)</span>
+
+    <span class="o">@</span><span class="nb">classmethod</span>
+    <span class="k">def</span> <span class="nf">load</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">model_name_or_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">subfolder</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s">""</span><span class="p">,</span>
+             <span class="n">token</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">cache_folder</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">revision</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+             <span class="n">local_files_only</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s">"MyModule"</span><span class="p">:</span>
+        <span class="n">hub_kwargs</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">subfolder</span><span class="o">=</span><span class="n">subfolder</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="n">token</span><span class="p">,</span>
+                          <span class="n">cache_folder</span><span class="o">=</span><span class="n">cache_folder</span><span class="p">,</span> <span class="n">revision</span><span class="o">=</span><span class="n">revision</span><span class="p">,</span>
+                          <span class="n">local_files_only</span><span class="o">=</span><span class="n">local_files_only</span><span class="p">)</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">cls</span><span class="p">.</span><span class="n">load_config</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="o">=</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="o">**</span><span class="n">hub_kwargs</span><span class="p">)</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">cls</span><span class="p">(</span><span class="o">**</span><span class="n">config</span><span class="p">)</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">cls</span><span class="p">.</span><span class="n">load_torch_weights</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="o">=</span><span class="n">model_name_or_path</span><span class="p">,</span>
+                                       <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span> <span class="o">**</span><span class="n">hub_kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">model</span>
+</code></pre></div></div>
+
+<p><strong>Wiring it into a model:</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">SentenceTransformer</span>
+<span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Transformer</span><span class="p">,</span> <span class="n">Pooling</span>
+
+<span class="n">transformer</span> <span class="o">=</span> <span class="n">Transformer</span><span class="p">(</span><span class="s">"openai/whisper-large-v3"</span><span class="p">)</span>
+<span class="n">pooling</span> <span class="o">=</span> <span class="n">Pooling</span><span class="p">(</span><span class="n">transformer</span><span class="p">.</span><span class="n">get_word_embedding_dimension</span><span class="p">(),</span> <span class="s">"mean"</span><span class="p">)</span>
+<span class="n">projection</span> <span class="o">=</span> <span class="n">MyModule</span><span class="p">(</span><span class="mi">1280</span><span class="p">,</span> <span class="mi">256</span><span class="p">)</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="n">modules</span><span class="o">=</span><span class="p">[</span><span class="n">transformer</span><span class="p">,</span> <span class="n">pooling</span><span class="p">,</span> <span class="n">projection</span><span class="p">])</span>
+<span class="n">model</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="s">"./my-model"</span><span class="p">)</span>
+
+<span class="c1"># Reloads automatically via modules.json:
+</span><span class="n">model2</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="s">"./my-model"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="6-save--load-protocol">6. Save / Load Protocol</h2>
+
+<h3 id="what-sentencetransformersavepath-writes">What <code class="language-plaintext highlighter-rouge">SentenceTransformer.save(path)</code> writes</h3>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">modules.json</code> — ordered list of modules with their class paths and subdirectory paths.</li>
+  <li><code class="language-plaintext highlighter-rouge">config_sentence_transformers.json</code> — prompts, similarity function name, version.</li>
+  <li>Per-module, calls <code class="language-plaintext highlighter-rouge">module.save(module_path)</code>:
+    <ul>
+      <li>If <code class="language-plaintext highlighter-rouge">save_in_root=True</code> (e.g. <code class="language-plaintext highlighter-rouge">Transformer</code>): saves to model root.</li>
+      <li>Otherwise: saves to <code class="language-plaintext highlighter-rouge">{idx}_{ClassName}/</code> subdirectory.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">README.md</code> (model card).</li>
+</ol>
+
+<h3 id="modulesjson-format"><code class="language-plaintext highlighter-rouge">modules.json</code> format</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="nl">"idx"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0"</span><span class="p">,</span><span class="w"> </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sentence_transformers.models.Transformer"</span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="nl">"idx"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w"> </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1_Pooling"</span><span class="p">,</span><span class="w">   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sentence_transformers.models.Pooling"</span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="nl">"idx"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2"</span><span class="p">,</span><span class="w"> </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2_MyModule"</span><span class="p">,</span><span class="w">  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"my_package.MyModule"</span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">"type"</code> is the fully qualified Python import path. Custom local modules use <code class="language-plaintext highlighter-rouge">"filename.ClassName"</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">"path"</code> is relative to the model root. Empty string = root (for <code class="language-plaintext highlighter-rouge">save_in_root=True</code> modules).</li>
+</ul>
+
+<h3 id="loading">Loading</h3>
+
+<p><code class="language-plaintext highlighter-rouge">SentenceTransformer(model_name_or_path)</code> reads <code class="language-plaintext highlighter-rouge">modules.json</code>, imports each class by dotted path, and calls <code class="language-plaintext highlighter-rouge">ModuleClass.load(module_path, ...)</code>. If no <code class="language-plaintext highlighter-rouge">modules.json</code> exists (plain HF model), creates <code class="language-plaintext highlighter-rouge">[Transformer(...), Pooling(dim, "mean")]</code> automatically.</p>
+
+<hr />
+
+<h2 id="7-encode--full-signature-and-behavior">7. <code class="language-plaintext highlighter-rouge">encode()</code> — Full Signature and Behavior</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">torch</span><span class="p">.</span><span class="n">inference_mode</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">encode</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span>
+    <span class="n">sentences</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">,</span>
+    <span class="n">prompt_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>         <span class="c1"># key into self.prompts dict
+</span>    <span class="n">prompt</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>              <span class="c1"># literal prompt string
+</span>    <span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">32</span><span class="p">,</span>
+    <span class="n">show_progress_bar</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+    <span class="n">output_value</span><span class="p">:</span> <span class="s">"sentence_embedding"</span> <span class="o">|</span> <span class="s">"token_embeddings"</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="s">"sentence_embedding"</span><span class="p">,</span>
+    <span class="n">precision</span><span class="p">:</span> <span class="s">"float32"</span> <span class="o">|</span> <span class="s">"int8"</span> <span class="o">|</span> <span class="s">"uint8"</span> <span class="o">|</span> <span class="s">"binary"</span> <span class="o">|</span> <span class="s">"ubinary"</span> <span class="o">=</span> <span class="s">"float32"</span><span class="p">,</span>
+    <span class="n">convert_to_numpy</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span>
+    <span class="n">convert_to_tensor</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>        <span class="c1"># overrides convert_to_numpy if True
+</span>    <span class="n">device</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+    <span class="n">normalize_embeddings</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span>
+    <span class="n">truncate_dim</span><span class="p">:</span> <span class="nb">int</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>        <span class="c1"># Matryoshka truncation
+</span>    <span class="o">**</span><span class="n">kwargs</span><span class="p">,</span>                               <span class="c1"># forwarded to modules that declare them in forward_kwargs
+</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span> <span class="o">|</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tensor</span><span class="p">]</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">]]</span>
+</code></pre></div></div>
+
+<h3 id="return-types-by-output_value">Return types by <code class="language-plaintext highlighter-rouge">output_value</code></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><code class="language-plaintext highlighter-rouge">output_value</code></th>
+      <th><code class="language-plaintext highlighter-rouge">convert_to_numpy</code></th>
+      <th><code class="language-plaintext highlighter-rouge">convert_to_tensor</code></th>
+      <th>Return type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">"sentence_embedding"</code></td>
+      <td><code class="language-plaintext highlighter-rouge">True</code></td>
+      <td><code class="language-plaintext highlighter-rouge">False</code></td>
+      <td><code class="language-plaintext highlighter-rouge">np.ndarray [N, D]</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">"sentence_embedding"</code></td>
+      <td><code class="language-plaintext highlighter-rouge">False</code></td>
+      <td><code class="language-plaintext highlighter-rouge">True</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Tensor [N, D]</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">"token_embeddings"</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td><code class="language-plaintext highlighter-rouge">list[Tensor]</code> (variable len per sentence)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">None</code></td>
+      <td>—</td>
+      <td>—</td>
+      <td><code class="language-plaintext highlighter-rouge">list[dict[str, Tensor]]</code> (all module outputs per sentence)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">output_value=None</code> is what <code class="language-plaintext highlighter-rouge">MultiAxisSentenceTransformer.encode_axis()</code> uses to retrieve named axis embeddings (<code class="language-plaintext highlighter-rouge">embedding_{axis_name}</code> keys) from the features dict.</p>
+
+<h3 id="forward_kwargs-routing"><code class="language-plaintext highlighter-rouge">forward_kwargs</code> routing</h3>
+
+<p><code class="language-plaintext highlighter-rouge">encode()</code> accepts <code class="language-plaintext highlighter-rouge">**kwargs</code> and validates them against <code class="language-plaintext highlighter-rouge">get_model_kwargs()</code>. Each kwarg is passed only to modules that declare it in <code class="language-plaintext highlighter-rouge">forward_kwargs</code>. Unknown kwargs raise <code class="language-plaintext highlighter-rouge">ValueError</code> (except <code class="language-plaintext highlighter-rouge">"task"</code>, which is always allowed).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MyModule</span><span class="p">(</span><span class="n">Module</span><span class="p">):</span>
+    <span class="n">forward_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s">"task"</span><span class="p">}</span>   <span class="c1"># this module will receive 'task' from encode()
+</span></code></pre></div></div>
+
+<h3 id="variants">Variants</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="p">.</span><span class="n">encode_query</span><span class="p">(</span><span class="n">sentences</span><span class="p">,</span> <span class="p">...)</span>    <span class="c1"># sets task="query", uses "query" prompt
+</span><span class="n">model</span><span class="p">.</span><span class="n">encode_document</span><span class="p">(</span><span class="n">sentences</span><span class="p">,</span> <span class="p">...)</span> <span class="c1"># sets task="document", uses "document"/"passage" prompt
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="8-similarity-and-similarity_pairwise">8. <code class="language-plaintext highlighter-rouge">similarity()</code> and <code class="language-plaintext highlighter-rouge">similarity_pairwise()</code></h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="p">.</span><span class="n">similarity</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>           <span class="c1"># [N, D] × [M, D] → [N, M] Tensor (cross-product)
+</span><span class="n">model</span><span class="p">.</span><span class="n">similarity_pairwise</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>  <span class="c1"># [N, D] × [N, D] → [N] Tensor (diagonal only)
+</span><span class="n">model</span><span class="p">.</span><span class="n">similarity_fn_name</span>         <span class="c1"># "cosine" | "dot" | "euclidean" | "manhattan"
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">SimilarityFunction</code> enum maps to utility functions in <code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">"cosine"</code> → <code class="language-plaintext highlighter-rouge">cos_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_cos_sim</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"dot"</code> → <code class="language-plaintext highlighter-rouge">dot_score</code> / <code class="language-plaintext highlighter-rouge">pairwise_dot_score</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"euclidean"</code> → <code class="language-plaintext highlighter-rouge">euclidean_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_euclidean_sim</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"manhattan"</code> → <code class="language-plaintext highlighter-rouge">manhattan_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_manhattan_sim</code></li>
+</ul>
+
+<hr />
+
+<h2 id="9-evaluator-interface">9. Evaluator Interface</h2>
+
+<p><strong>File:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/evaluation/SentenceEvaluator.py</code></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">SentenceEvaluator</span><span class="p">:</span>
+    <span class="n">greater_is_better</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="bp">True</span>     <span class="c1"># for checkpoint selection
+</span>    <span class="n">primary_metric</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span>  <span class="c1"># required if __call__ returns a dict
+</span>
+    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">model</span><span class="p">:</span> <span class="n">SentenceTransformer</span><span class="p">,</span>
+        <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span> <span class="o">|</span> <span class="bp">None</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+        <span class="n">epoch</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>    <span class="c1"># -1 = test set evaluation
+</span>        <span class="n">steps</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span>    <span class="c1"># -1 = end of epoch
+</span>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">float</span><span class="p">]:</span> <span class="p">...</span>
+
+    <span class="c1"># Helpers
+</span>    <span class="k">def</span> <span class="nf">prefix_name_to_metrics</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">metrics</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+        <span class="c1"># Prefixes all keys with "{name}_"; also updates self.primary_metric
+</span>
+    <span class="k">def</span> <span class="nf">store_metrics_in_model_card_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">metrics</span><span class="p">,</span> <span class="n">epoch</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span> <span class="p">...</span>
+    <span class="k">def</span> <span class="nf">embed_inputs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">sentences</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> <span class="p">...</span>  <span class="c1"># delegates to model.encode
+</span></code></pre></div></div>
+
+<h3 id="minimal-custom-evaluator">Minimal custom evaluator</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.evaluation</span> <span class="kn">import</span> <span class="n">SentenceEvaluator</span>
+
+<span class="k">class</span> <span class="nc">MyAxisEvaluator</span><span class="p">(</span><span class="n">SentenceEvaluator</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">queries</span><span class="p">,</span> <span class="n">corpus</span><span class="p">,</span> <span class="n">relevant_docs</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s">""</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">queries</span> <span class="o">=</span> <span class="n">queries</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">corpus</span> <span class="o">=</span> <span class="n">corpus</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">relevant_docs</span> <span class="o">=</span> <span class="n">relevant_docs</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">primary_metric</span> <span class="o">=</span> <span class="s">"recall@10"</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">greater_is_better</span> <span class="o">=</span> <span class="bp">True</span>
+
+    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">output_path</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">epoch</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">steps</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="c1"># encode, compute metrics ...
+</span>        <span class="n">metrics</span> <span class="o">=</span> <span class="p">{</span><span class="s">"recall@10"</span><span class="p">:</span> <span class="mf">0.75</span><span class="p">,</span> <span class="s">"map@10"</span><span class="p">:</span> <span class="mf">0.62</span><span class="p">}</span>
+        <span class="n">metrics</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">prefix_name_to_metrics</span><span class="p">(</span><span class="n">metrics</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">store_metrics_in_model_card_data</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">metrics</span><span class="p">,</span> <span class="n">epoch</span><span class="p">,</span> <span class="n">steps</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">metrics</span>
+</code></pre></div></div>
+
+<h3 id="informationretrievalevaluator"><code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code></h3>
+
+<p>The main built-in IR evaluator. Takes dicts of <code class="language-plaintext highlighter-rouge">{id: text}</code> for queries/corpus and <code class="language-plaintext highlighter-rouge">{qid: set[cid]}</code> for relevance judgments.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.evaluation</span> <span class="kn">import</span> <span class="n">InformationRetrievalEvaluator</span>
+
+<span class="n">evaluator</span> <span class="o">=</span> <span class="n">InformationRetrievalEvaluator</span><span class="p">(</span>
+    <span class="n">queries</span><span class="o">=</span><span class="p">{</span><span class="s">"q1"</span><span class="p">:</span> <span class="s">"text..."</span><span class="p">},</span>
+    <span class="n">corpus</span><span class="o">=</span><span class="p">{</span><span class="s">"d1"</span><span class="p">:</span> <span class="s">"text..."</span><span class="p">,</span> <span class="s">"d2"</span><span class="p">:</span> <span class="s">"text..."</span><span class="p">},</span>
+    <span class="n">relevant_docs</span><span class="o">=</span><span class="p">{</span><span class="s">"q1"</span><span class="p">:</span> <span class="p">{</span><span class="s">"d1"</span><span class="p">}},</span>
+    <span class="n">ndcg_at_k</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
+    <span class="n">recall_at_k</span><span class="o">=</span><span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>          <span class="c1"># Note: called precision_recall_at_k in constructor
+</span>    <span class="n">map_at_k</span><span class="o">=</span><span class="p">[</span><span class="mi">100</span><span class="p">],</span>
+    <span class="n">name</span><span class="o">=</span><span class="s">"my-eval"</span><span class="p">,</span>
+    <span class="n">write_csv</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="c1"># Returns dict like {"my-eval_cosine_ndcg@10": 0.82, ...}
+# primary_metric = "my-eval_{best_fn}_ndcg@{max(ndcg_at_k)}"
+</span></code></pre></div></div>
+
+<p><strong>Important for multi-correct-answer scenarios:</strong> <code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code> already supports multiple relevant docs per query (the <code class="language-plaintext highlighter-rouge">relevant_docs</code> arg is <code class="language-plaintext highlighter-rouge">dict[str, set[str]]</code>). MSEB adaptation is mainly needed for custom metric weighting or axis-specific score aggregation.</p>
+
+<h3 id="all-evaluator-classes">All Evaluator Classes</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SentenceEvaluator</code></td>
+      <td>Abstract base</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code></td>
+      <td>MRR, NDCG, Accuracy, Precision, Recall, MAP</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EmbeddingSimilarityEvaluator</code></td>
+      <td>Pearson/Spearman correlation vs. gold similarity scores</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BinaryClassificationEvaluator</code></td>
+      <td>Accuracy, F1, AP for binary classification</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TripletEvaluator</code></td>
+      <td>Triplet accuracy (anchor closer to positive than negative)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ParaphraseMiningEvaluator</code></td>
+      <td>Finds paraphrase pairs by similarity</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RerankingEvaluator</code></td>
+      <td>MAP for reranking</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TranslationEvaluator</code></td>
+      <td>Cross-lingual alignment quality</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MSEEvaluator</code></td>
+      <td>MSE between embeddings and targets</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NanoBEIREvaluator</code></td>
+      <td>Evaluates on nano-BEIR benchmark</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SequentialEvaluator</code></td>
+      <td>Runs a list of evaluators; combines metrics</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="10-loss-interface">10. Loss Interface</h2>
+
+<p>All losses share this structure:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">SomeLoss</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">:</span> <span class="n">SentenceTransformer</span><span class="p">,</span> <span class="p">...):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">model</span> <span class="o">=</span> <span class="n">model</span>   <span class="c1"># losses hold a reference to the model
+</span>
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">sentence_features</span><span class="p">:</span> <span class="n">Iterable</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">]],</span>  <span class="c1"># list of per-sentence feature dicts
+</span>        <span class="n">labels</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">,</span>                                   <span class="c1"># may be None for some losses
+</span>    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
+        <span class="c1"># Typical pattern:
+</span>        <span class="n">embeddings</span> <span class="o">=</span> <span class="p">[</span><span class="bp">self</span><span class="p">.</span><span class="n">model</span><span class="p">(</span><span class="n">f</span><span class="p">)[</span><span class="s">"sentence_embedding"</span><span class="p">]</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">sentence_features</span><span class="p">]</span>
+        <span class="p">...</span>
+</code></pre></div></div>
+
+<h3 id="key-losses-for-this-project">Key Losses for This Project</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Loss</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MultipleNegativesRankingLoss</code></td>
+      <td>(anchor, positive) pairs; in-batch InfoNCE; good for content/speaker axes</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CachedMultipleNegativesRankingLoss</code></td>
+      <td>Same with gradient caching for large effective batch size</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CoSENTLoss</code></td>
+      <td>(a, b, score) pairs; default trainer loss</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TripletLoss</code></td>
+      <td>Explicit (anchor, positive, negative) triplets</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ContrastiveLoss</code></td>
+      <td>(a, b, label) pairs with explicit 0/1 labels</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="11-router-module-asymmetric-querydocument">11. <code class="language-plaintext highlighter-rouge">Router</code> Module (Asymmetric Query/Document)</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Router</span>
+
+<span class="n">router</span> <span class="o">=</span> <span class="n">Router</span><span class="p">.</span><span class="n">for_query_document</span><span class="p">(</span>
+    <span class="n">query_modules</span><span class="o">=</span><span class="p">[</span><span class="n">Transformer</span><span class="p">(</span><span class="s">"model-a"</span><span class="p">),</span> <span class="n">Pooling</span><span class="p">(</span><span class="n">dim</span><span class="p">)],</span>
+    <span class="n">document_modules</span><span class="o">=</span><span class="p">[</span><span class="n">Transformer</span><span class="p">(</span><span class="s">"model-b"</span><span class="p">),</span> <span class="n">Pooling</span><span class="p">(</span><span class="n">dim</span><span class="p">)],</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Router</code> declares <code class="language-plaintext highlighter-rouge">forward_kwargs = {"task"}</code>. It receives <code class="language-plaintext highlighter-rouge">task</code> from <code class="language-plaintext highlighter-rouge">encode()</code> (or <code class="language-plaintext highlighter-rouge">"query"</code> / <code class="language-plaintext highlighter-rouge">"document"</code> from <code class="language-plaintext highlighter-rouge">encode_query()</code> / <code class="language-plaintext highlighter-rouge">encode_document()</code>), selects the corresponding sub-module list, and runs input through it. Requires <code class="language-plaintext highlighter-rouge">router_mapping</code> to be set in <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> during training.</p>
+
+<hr />
+
+<h2 id="12-sentencetransformertrainer">12. <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code></h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">SentenceTransformerTrainer</span><span class="p">,</span> <span class="n">SentenceTransformerTrainingArguments</span>
+
+<span class="n">args</span> <span class="o">=</span> <span class="n">SentenceTransformerTrainingArguments</span><span class="p">(</span>
+    <span class="n">output_dir</span><span class="o">=</span><span class="s">"./output"</span><span class="p">,</span>
+    <span class="n">num_train_epochs</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+    <span class="n">per_device_train_batch_size</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span>
+    <span class="n">batch_sampler</span><span class="o">=</span><span class="n">BatchSamplers</span><span class="p">.</span><span class="n">NO_DUPLICATES</span><span class="p">,</span>  <span class="c1"># recommended for in-batch negatives losses
+</span><span class="p">)</span>
+
+<span class="n">trainer</span> <span class="o">=</span> <span class="n">SentenceTransformerTrainer</span><span class="p">(</span>
+    <span class="n">model</span><span class="o">=</span><span class="n">model</span><span class="p">,</span>
+    <span class="n">args</span><span class="o">=</span><span class="n">args</span><span class="p">,</span>
+    <span class="n">train_dataset</span><span class="o">=</span><span class="n">train_ds</span><span class="p">,</span>          <span class="c1"># HF Dataset with text columns + optional label column
+</span>    <span class="n">eval_dataset</span><span class="o">=</span><span class="n">eval_ds</span><span class="p">,</span>
+    <span class="n">loss</span><span class="o">=</span><span class="n">MultipleNegativesRankingLoss</span><span class="p">(</span><span class="n">model</span><span class="p">),</span>
+    <span class="n">evaluator</span><span class="o">=</span><span class="n">my_evaluator</span><span class="p">,</span>          <span class="c1"># called after eval_dataset loop each eval step
+</span><span class="p">)</span>
+<span class="n">trainer</span><span class="p">.</span><span class="n">train</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><strong>Data flow in training:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HF Dataset columns → SentenceTransformerDataCollator.__call__()
+  → prefixed tokenized dict (e.g. "anchor_input_ids", "positive_input_ids")
+  → collect_features()
+  → list of per-sentence feature dicts
+  → loss.forward(features, labels)
+</code></pre></div></div>
+
+<p>Text columns are auto-detected by the collator. Column names become the sentence prefixes. Label columns are detected from <code class="language-plaintext highlighter-rouge">["label", "labels", "score", "scores"]</code>.</p>
+
+<h3 id="sentencetransformertrainingarguments-extra-fields"><code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> Extra Fields</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">batch_sampler</span><span class="p">:</span> <span class="n">BatchSamplers</span><span class="p">.</span><span class="n">BATCH_SAMPLER</span>        <span class="c1"># default
+</span>             <span class="o">|</span> <span class="n">BatchSamplers</span><span class="p">.</span><span class="n">NO_DUPLICATES</span>         <span class="c1"># for in-batch negatives
+</span>             <span class="o">|</span> <span class="n">BatchSamplers</span><span class="p">.</span><span class="n">GROUP_BY_LABEL</span>        <span class="c1"># for triplet losses
+</span>
+<span class="n">multi_dataset_batch_sampler</span><span class="p">:</span> <span class="n">MultiDatasetBatchSamplers</span><span class="p">.</span><span class="n">PROPORTIONAL</span>  <span class="c1"># default
+</span>                            <span class="o">|</span> <span class="n">MultiDatasetBatchSamplers</span><span class="p">.</span><span class="n">ROUND_ROBIN</span>
+
+<span class="n">prompts</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">|</span> <span class="bp">None</span>
+<span class="n">router_mapping</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="bp">None</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="13-transformer-module--key-details">13. <code class="language-plaintext highlighter-rouge">Transformer</code> Module — Key Details</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Transformer</span>
+
+<span class="n">t</span> <span class="o">=</span> <span class="n">Transformer</span><span class="p">(</span>
+    <span class="n">model_name_or_path</span><span class="o">=</span><span class="s">"openai/whisper-large-v3"</span><span class="p">,</span>
+    <span class="n">max_seq_length</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+    <span class="n">do_lower_case</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+    <span class="n">backend</span><span class="o">=</span><span class="s">"torch"</span><span class="p">,</span>           <span class="c1"># "torch" | "onnx" | "openvino"
+</span><span class="p">)</span>
+<span class="c1"># t.auto_model  → the HuggingFace model
+# t.tokenizer   → the HuggingFace tokenizer
+# t.get_word_embedding_dimension() → hidden size
+</span>
+<span class="c1"># forward() sets:
+#   features["token_embeddings"] = last_hidden_state  # [B, T, H]
+#   features["all_layer_embeddings"] = all hidden states (if output_hidden_states=True)
+</span>
+<span class="c1"># tokenize() supports:
+#   list[str], list[dict], list[tuple[str, str]]  (text pairs)
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">config_file_name = "sentence_bert_config.json"</code> (not <code class="language-plaintext highlighter-rouge">config.json</code>).
+<code class="language-plaintext highlighter-rouge">config_keys = ["max_seq_length", "do_lower_case"]</code>.
+<code class="language-plaintext highlighter-rouge">save_in_root = True</code> — saves HF model files to model root.</p>
+
+<hr />
+
+<h2 id="14-pooling-module--key-details">14. <code class="language-plaintext highlighter-rouge">Pooling</code> Module — Key Details</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Pooling</span>
+
+<span class="n">pooling</span> <span class="o">=</span> <span class="n">Pooling</span><span class="p">(</span>
+    <span class="n">word_embedding_dimension</span><span class="o">=</span><span class="mi">1280</span><span class="p">,</span>
+    <span class="n">pooling_mode</span><span class="o">=</span><span class="s">"mean"</span><span class="p">,</span>        <span class="c1"># shortcut: "cls" | "lasttoken" | "max" | "mean" | "mean_sqrt_len_tokens" | "weightedmean"
+</span>    <span class="n">include_prompt</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>        <span class="c1"># set False for INSTRUCTOR-style models
+</span><span class="p">)</span>
+<span class="c1"># pooling.get_sentence_embedding_dimension() → word_embedding_dimension × num_active_modes
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">forward()</code> reads <code class="language-plaintext highlighter-rouge">features["token_embeddings"]</code> + <code class="language-plaintext highlighter-rouge">features["attention_mask"]</code>, optionally <code class="language-plaintext highlighter-rouge">features["prompt_length"]</code>, and writes <code class="language-plaintext highlighter-rouge">features["sentence_embedding"]</code>.</p>
+
+<hr />
+
+<h2 id="15-key-utility-functions-sentence_transformersutil">15. Key Utility Functions (<code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>)</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">util</span>
+
+<span class="n">util</span><span class="p">.</span><span class="n">cos_sim</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>               <span class="c1"># [N, D] × [M, D] → [N, M] cosine similarity
+</span><span class="n">util</span><span class="p">.</span><span class="n">dot_score</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>             <span class="c1"># dot product
+</span><span class="n">util</span><span class="p">.</span><span class="n">semantic_search</span><span class="p">(</span><span class="n">query_embeddings</span><span class="p">,</span> <span class="n">corpus_embeddings</span><span class="p">,</span> <span class="n">top_k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+                                 <span class="c1"># returns list of list of {"corpus_id": int, "score": float}
+</span><span class="n">util</span><span class="p">.</span><span class="n">paraphrase_mining</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">sentences</span><span class="p">,</span> <span class="n">top_k</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">util</span><span class="p">.</span><span class="n">batch_to_device</span><span class="p">(</span><span class="n">batch</span><span class="p">,</span> <span class="n">target_device</span><span class="p">)</span>
+<span class="n">util</span><span class="p">.</span><span class="n">load_file_path</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="p">...)</span>
+</code></pre></div></div>
+
