@@ -1,5 +1,6 @@
 ---
 title: Sentence Transformers Codebase Reference
+layout: post
 toc: true
 description: Claude-generated codebase reference
 categories: [sentence-transformers, claude]
