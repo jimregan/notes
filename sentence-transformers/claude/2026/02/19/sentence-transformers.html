@@ -1,8 +1,6 @@
 <p><strong>Version:</strong> 5.3.0.dev0
 <strong>Package root:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/</code></p>
 
-<hr />
-
 <h2 id="1-top-level-directory-layout">1. Top-Level Directory Layout</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentence-transformers/
@@ -30,8 +28,6 @@
   <li><code class="language-plaintext highlighter-rouge">dev</code>: adds <code class="language-plaintext highlighter-rouge">peft</code>, <code class="language-plaintext highlighter-rouge">pytest</code>, etc.</li>
 </ul>
 
-<hr />
-
 <h2 id="2-architectural-pattern-pipeline-as-nnsequential">2. Architectural Pattern: Pipeline as <code class="language-plaintext highlighter-rouge">nn.Sequential</code></h2>
 
 <p><code class="language-plaintext highlighter-rouge">SentenceTransformer</code> <strong>is</strong> an <code class="language-plaintext highlighter-rouge">nn.Sequential</code>. Each module receives a <code class="language-plaintext highlighter-rouge">dict[str, Tensor]</code> features dict and returns the enriched version. The canonical flow is:</p>
@@ -49,8 +45,6 @@
   <li><code class="language-plaintext highlighter-rouge">"prompt_length"</code> — set when prompts are used</li>
   <li><code class="language-plaintext highlighter-rouge">"all_layer_embeddings"</code> — set if <code class="language-plaintext highlighter-rouge">output_hidden_states=True</code></li>
 </ul>
-
-<hr />
 
 <h2 id="3-models-subpackage--all-modules">3. <code class="language-plaintext highlighter-rouge">models/</code> Subpackage — All Modules</h2>
 
@@ -121,8 +115,6 @@
   </tbody>
 </table>
 
-<hr />
-
 <h2 id="4-the-module-base-class">4. The <code class="language-plaintext highlighter-rouge">Module</code> Base Class</h2>
 
 <p><strong>File:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/models/Module.py</code></p>
@@ -186,8 +178,6 @@
     <span class="k">def</span> <span class="nf">save_tokenizer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span> <span class="p">...</span>
 </code></pre></div></div>
 
-<hr />
-
 <h2 id="5-writing-a-custom-module-subclass">5. Writing a Custom Module Subclass</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
@@ -250,8 +240,6 @@
 </span><span class="n">model2</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="s">"./my-model"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<hr />
-
 <h2 id="6-save--load-protocol">6. Save / Load Protocol</h2>
 
 <h3 id="what-sentencetransformersavepath-writes">What <code class="language-plaintext highlighter-rouge">SentenceTransformer.save(path)</code> writes</h3>
@@ -285,8 +273,6 @@
 <h3 id="loading">Loading</h3>
 
 <p><code class="language-plaintext highlighter-rouge">SentenceTransformer(model_name_or_path)</code> reads <code class="language-plaintext highlighter-rouge">modules.json</code>, imports each class by dotted path, and calls <code class="language-plaintext highlighter-rouge">ModuleClass.load(module_path, ...)</code>. If no <code class="language-plaintext highlighter-rouge">modules.json</code> exists (plain HF model), creates <code class="language-plaintext highlighter-rouge">[Transformer(...), Pooling(dim, "mean")]</code> automatically.</p>
-
-<hr />
 
 <h2 id="7-encode--full-signature-and-behavior">7. <code class="language-plaintext highlighter-rouge">encode()</code> — Full Signature and Behavior</h2>
 
@@ -364,8 +350,6 @@
 </span><span class="n">model</span><span class="p">.</span><span class="n">encode_document</span><span class="p">(</span><span class="n">sentences</span><span class="p">,</span> <span class="p">...)</span> <span class="c1"># sets task="document", uses "document"/"passage" prompt
 </span></code></pre></div></div>
 
-<hr />
-
 <h2 id="8-similarity-and-similarity_pairwise">8. <code class="language-plaintext highlighter-rouge">similarity()</code> and <code class="language-plaintext highlighter-rouge">similarity_pairwise()</code></h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="p">.</span><span class="n">similarity</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>           <span class="c1"># [N, D] × [M, D] → [N, M] Tensor (cross-product)
@@ -380,8 +364,6 @@
   <li><code class="language-plaintext highlighter-rouge">"euclidean"</code> → <code class="language-plaintext highlighter-rouge">euclidean_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_euclidean_sim</code></li>
   <li><code class="language-plaintext highlighter-rouge">"manhattan"</code> → <code class="language-plaintext highlighter-rouge">manhattan_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_manhattan_sim</code></li>
 </ul>
-
-<hr />
 
 <h2 id="9-evaluator-interface">9. Evaluator Interface</h2>
 
@@ -508,8 +490,6 @@
   </tbody>
 </table>
 
-<hr />
-
 <h2 id="10-loss-interface">10. Loss Interface</h2>
 
 <p>All losses share this structure:</p>
@@ -561,8 +541,6 @@
   </tbody>
 </table>
 
-<hr />
-
 <h2 id="11-router-module-asymmetric-querydocument">11. <code class="language-plaintext highlighter-rouge">Router</code> Module (Asymmetric Query/Document)</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Router</span>
@@ -574,8 +552,6 @@
 </code></pre></div></div>
 
 <p><code class="language-plaintext highlighter-rouge">Router</code> declares <code class="language-plaintext highlighter-rouge">forward_kwargs = {"task"}</code>. It receives <code class="language-plaintext highlighter-rouge">task</code> from <code class="language-plaintext highlighter-rouge">encode()</code> (or <code class="language-plaintext highlighter-rouge">"query"</code> / <code class="language-plaintext highlighter-rouge">"document"</code> from <code class="language-plaintext highlighter-rouge">encode_query()</code> / <code class="language-plaintext highlighter-rouge">encode_document()</code>), selects the corresponding sub-module list, and runs input through it. Requires <code class="language-plaintext highlighter-rouge">router_mapping</code> to be set in <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> during training.</p>
-
-<hr />
 
 <h2 id="12-sentencetransformertrainer">12. <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code></h2>
 
@@ -623,8 +599,6 @@
 <span class="n">router_mapping</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="bp">None</span>
 </code></pre></div></div>
 
-<hr />
-
 <h2 id="13-transformer-module--key-details">13. <code class="language-plaintext highlighter-rouge">Transformer</code> Module — Key Details</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Transformer</span>
@@ -651,8 +625,6 @@
 <code class="language-plaintext highlighter-rouge">config_keys = ["max_seq_length", "do_lower_case"]</code>.
 <code class="language-plaintext highlighter-rouge">save_in_root = True</code> — saves HF model files to model root.</p>
 
-<hr />
-
 <h2 id="14-pooling-module--key-details">14. <code class="language-plaintext highlighter-rouge">Pooling</code> Module — Key Details</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Pooling</span>
@@ -666,8 +638,6 @@
 </span></code></pre></div></div>
 
 <p><code class="language-plaintext highlighter-rouge">forward()</code> reads <code class="language-plaintext highlighter-rouge">features["token_embeddings"]</code> + <code class="language-plaintext highlighter-rouge">features["attention_mask"]</code>, optionally <code class="language-plaintext highlighter-rouge">features["prompt_length"]</code>, and writes <code class="language-plaintext highlighter-rouge">features["sentence_embedding"]</code>.</p>
-
-<hr />
 
 <h2 id="15-key-utility-functions-sentence_transformersutil">15. Key Utility Functions (<code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>)</h2>
 
