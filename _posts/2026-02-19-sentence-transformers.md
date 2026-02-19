@@ -1,7 +1,11 @@
-# Sentence Transformers Codebase Reference
+---
+title: Sentence Transformers Codebase Reference
+toc: true
+description: Claude-generated codebase reference
+categories: [sentence-transformers, claude]
+---
 
 **Version:** 5.3.0.dev0
-**Source checkout:** `/Users/joregan/Playing/sentence-transformers/`
 **Package root:** `sentence_transformers/`
 
 ---
@@ -550,16 +554,3 @@ util.batch_to_device(batch, target_device)
 util.load_file_path(model_name_or_path, filename, ...)
 ```
 
----
-
-## 16. Relation to This Project
-
-`MultiAxisProjection` (in this project) follows the `Module` pattern exactly:
-- `config_keys = ["in_features", "axes", "hidden_dim", "default_axis"]`
-- `forward()` reads `features["sentence_embedding"]`, writes `features["embedding_{axis}"]` for each axis, and overwrites `features["sentence_embedding"]` with the selected/concatenated projection.
-- `forward_kwargs = {"axis"}` — so `encode(axis="speaker")` routes the kwarg through.
-- `save()` / `load()` use the standard `save_config` + `save_torch_weights` / `load_config` + `load_torch_weights` pattern.
-
-`MultiAxisSentenceTransformer` subclasses `SentenceTransformer` and adds `encode_axis()`, `encode_all_axes()`, and `similarity_vector()` on top of the standard API. The standard `encode()` and all built-in evaluators continue to work unchanged.
-
-For evaluation: `InformationRetrievalEvaluator` already handles multiple-correct-answer queries (pass a `set` of relevant IDs). A custom evaluator subclassing `SentenceEvaluator` is needed to run per-axis IR evaluation and aggregate into a combined metrics dict.
