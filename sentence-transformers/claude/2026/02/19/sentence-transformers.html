@@ -1,7 +1,175 @@
-<p><strong>Version:</strong> 5.3.0.dev0
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Sentence Transformers Codebase Reference | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Sentence Transformers Codebase Reference" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Claude-generated codebase reference" />
+<meta property="og:description" content="Claude-generated codebase reference" />
+<link rel="canonical" href="https://jimregan.github.io/notes/sentence-transformers/claude/2026/02/19/sentence-transformers.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/sentence-transformers/claude/2026/02/19/sentence-transformers.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-02-19T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/sentence-transformers/claude/2026/02/19/sentence-transformers.html","@type":"BlogPosting","headline":"Sentence Transformers Codebase Reference","dateModified":"2026-02-19T00:00:00-06:00","datePublished":"2026-02-19T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/sentence-transformers/claude/2026/02/19/sentence-transformers.html"},"description":"Claude-generated codebase reference","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Sentence Transformers Codebase Reference</h1><p class="page-description">Claude-generated codebase reference</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-02-19T00:00:00-06:00" itemprop="datePublished">
+        Feb 19, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#sentence-transformers">sentence-transformers</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#1-top-level-directory-layout">1. Top-Level Directory Layout</a></li>
+<li class="toc-entry toc-h2"><a href="#2-architectural-pattern-pipeline-as-nnsequential">2. Architectural Pattern: Pipeline as nn.Sequential</a></li>
+<li class="toc-entry toc-h2"><a href="#3-models-subpackage--all-modules">3. models/ Subpackage — All Modules</a></li>
+<li class="toc-entry toc-h2"><a href="#4-the-module-base-class">4. The Module Base Class</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#class-variables-to-declare">Class Variables to Declare</a></li>
+<li class="toc-entry toc-h3"><a href="#abstract-methods-must-implement">Abstract Methods (must implement)</a></li>
+<li class="toc-entry toc-h3"><a href="#provided-utility-methods">Provided Utility Methods</a></li>
+<li class="toc-entry toc-h3"><a href="#inputmodule-subclass">InputModule Subclass</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#5-writing-a-custom-module-subclass">5. Writing a Custom Module Subclass</a></li>
+<li class="toc-entry toc-h2"><a href="#6-save--load-protocol">6. Save / Load Protocol</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#what-sentencetransformersavepath-writes">What SentenceTransformer.save(path) writes</a></li>
+<li class="toc-entry toc-h3"><a href="#modulesjson-format">modules.json format</a></li>
+<li class="toc-entry toc-h3"><a href="#loading">Loading</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#7-encode--full-signature-and-behavior">7. encode() — Full Signature and Behavior</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#return-types-by-output_value">Return types by output_value</a></li>
+<li class="toc-entry toc-h3"><a href="#forward_kwargs-routing">forward_kwargs routing</a></li>
+<li class="toc-entry toc-h3"><a href="#variants">Variants</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#8-similarity-and-similarity_pairwise">8. similarity() and similarity_pairwise()</a></li>
+<li class="toc-entry toc-h2"><a href="#9-evaluator-interface">9. Evaluator Interface</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#minimal-custom-evaluator">Minimal custom evaluator</a></li>
+<li class="toc-entry toc-h3"><a href="#informationretrievalevaluator">InformationRetrievalEvaluator</a></li>
+<li class="toc-entry toc-h3"><a href="#all-evaluator-classes">All Evaluator Classes</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#10-loss-interface">10. Loss Interface</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#key-losses-for-this-project">Key Losses for This Project</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#11-router-module-asymmetric-querydocument">11. Router Module (Asymmetric Query/Document)</a></li>
+<li class="toc-entry toc-h2"><a href="#12-sentencetransformertrainer">12. SentenceTransformerTrainer</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#sentencetransformertrainingarguments-extra-fields">SentenceTransformerTrainingArguments Extra Fields</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#13-transformer-module--key-details">13. Transformer Module — Key Details</a></li>
+<li class="toc-entry toc-h2"><a href="#14-pooling-module--key-details">14. Pooling Module — Key Details</a></li>
+<li class="toc-entry toc-h2"><a href="#15-key-utility-functions-sentence_transformersutil">15. Key Utility Functions (sentence_transformers.util)</a></li>
+</ul><p><strong>Version:</strong> 5.3.0.dev0
 <strong>Package root:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/</code></p>
 
-<h2 id="1-top-level-directory-layout">1. Top-Level Directory Layout</h2>
+<h2 id="1-top-level-directory-layout">
+<a class="anchor" href="#1-top-level-directory-layout" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Top-Level Directory Layout</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentence-transformers/
 ├── sentence_transformers/       # Main package
@@ -23,12 +191,18 @@
 
 <p><strong>Key optional extras (pyproject.toml):</strong></p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">train</code>: requires <code class="language-plaintext highlighter-rouge">datasets</code>, <code class="language-plaintext highlighter-rouge">accelerate&gt;=0.20.3</code> for <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code></li>
-  <li><code class="language-plaintext highlighter-rouge">image</code>: <code class="language-plaintext highlighter-rouge">Pillow</code> for CLIP</li>
-  <li><code class="language-plaintext highlighter-rouge">dev</code>: adds <code class="language-plaintext highlighter-rouge">peft</code>, <code class="language-plaintext highlighter-rouge">pytest</code>, etc.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">train</code>: requires <code class="language-plaintext highlighter-rouge">datasets</code>, <code class="language-plaintext highlighter-rouge">accelerate&gt;=0.20.3</code> for <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">image</code>: <code class="language-plaintext highlighter-rouge">Pillow</code> for CLIP</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">dev</code>: adds <code class="language-plaintext highlighter-rouge">peft</code>, <code class="language-plaintext highlighter-rouge">pytest</code>, etc.</li>
 </ul>
 
-<h2 id="2-architectural-pattern-pipeline-as-nnsequential">2. Architectural Pattern: Pipeline as <code class="language-plaintext highlighter-rouge">nn.Sequential</code></h2>
+<h2 id="2-architectural-pattern-pipeline-as-nnsequential">
+<a class="anchor" href="#2-architectural-pattern-pipeline-as-nnsequential" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Architectural Pattern: Pipeline as <code class="language-plaintext highlighter-rouge">nn.Sequential</code>
+</h2>
 
 <p><code class="language-plaintext highlighter-rouge">SentenceTransformer</code> <strong>is</strong> an <code class="language-plaintext highlighter-rouge">nn.Sequential</code>. Each module receives a <code class="language-plaintext highlighter-rouge">dict[str, Tensor]</code> features dict and returns the enriched version. The canonical flow is:</p>
 
@@ -39,14 +213,22 @@
 
 <p>Common keys flowing through the pipeline:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">"input_ids"</code>, <code class="language-plaintext highlighter-rouge">"attention_mask"</code>, <code class="language-plaintext highlighter-rouge">"token_type_ids"</code> — from tokenization</li>
-  <li><code class="language-plaintext highlighter-rouge">"token_embeddings"</code> — per-token hidden states, set by <code class="language-plaintext highlighter-rouge">Transformer</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"sentence_embedding"</code> — pooled vector, set by <code class="language-plaintext highlighter-rouge">Pooling</code>; overwritten by later modules</li>
-  <li><code class="language-plaintext highlighter-rouge">"prompt_length"</code> — set when prompts are used</li>
-  <li><code class="language-plaintext highlighter-rouge">"all_layer_embeddings"</code> — set if <code class="language-plaintext highlighter-rouge">output_hidden_states=True</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"input_ids"</code>, <code class="language-plaintext highlighter-rouge">"attention_mask"</code>, <code class="language-plaintext highlighter-rouge">"token_type_ids"</code> — from tokenization</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"token_embeddings"</code> — per-token hidden states, set by <code class="language-plaintext highlighter-rouge">Transformer</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"sentence_embedding"</code> — pooled vector, set by <code class="language-plaintext highlighter-rouge">Pooling</code>; overwritten by later modules</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"prompt_length"</code> — set when prompts are used</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"all_layer_embeddings"</code> — set if <code class="language-plaintext highlighter-rouge">output_hidden_states=True</code>
+</li>
 </ul>
 
-<h2 id="3-models-subpackage--all-modules">3. <code class="language-plaintext highlighter-rouge">models/</code> Subpackage — All Modules</h2>
+<h2 id="3-models-subpackage--all-modules">
+<a class="anchor" href="#3-models-subpackage--all-modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. <code class="language-plaintext highlighter-rouge">models/</code> Subpackage — All Modules</h2>
 
 <table>
   <thead>
@@ -85,7 +267,8 @@
     <tr>
       <td><code class="language-plaintext highlighter-rouge">Normalize</code></td>
       <td><code class="language-plaintext highlighter-rouge">Normalize.py</code></td>
-      <td>L2 normalization of <code class="language-plaintext highlighter-rouge">sentence_embedding</code></td>
+      <td>L2 normalization of <code class="language-plaintext highlighter-rouge">sentence_embedding</code>
+</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">StaticEmbedding</code></td>
@@ -108,21 +291,25 @@
       <td>Asymmetric query/document routing (see §11)</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">CNN</code>, <code class="language-plaintext highlighter-rouge">LSTM</code>, <code class="language-plaintext highlighter-rouge">BoW</code>, <code class="language-plaintext highlighter-rouge">WordEmbeddings</code>, <code class="language-plaintext highlighter-rouge">WordWeights</code>, <code class="language-plaintext highlighter-rouge">LayerNorm</code>, <code class="language-plaintext highlighter-rouge">Dropout</code></td>
+      <td>
+<code class="language-plaintext highlighter-rouge">CNN</code>, <code class="language-plaintext highlighter-rouge">LSTM</code>, <code class="language-plaintext highlighter-rouge">BoW</code>, <code class="language-plaintext highlighter-rouge">WordEmbeddings</code>, <code class="language-plaintext highlighter-rouge">WordWeights</code>, <code class="language-plaintext highlighter-rouge">LayerNorm</code>, <code class="language-plaintext highlighter-rouge">Dropout</code>
+</td>
       <td>—</td>
       <td>Misc / legacy</td>
     </tr>
   </tbody>
 </table>
 
-<h2 id="4-the-module-base-class">4. The <code class="language-plaintext highlighter-rouge">Module</code> Base Class</h2>
+<h2 id="4-the-module-base-class">
+<a class="anchor" href="#4-the-module-base-class" aria-hidden="true"><span class="octicon octicon-link"></span></a>4. The <code class="language-plaintext highlighter-rouge">Module</code> Base Class</h2>
 
 <p><strong>File:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/models/Module.py</code></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Module</span><span class="p">(</span><span class="n">ABC</span><span class="p">,</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
 </code></pre></div></div>
 
-<h3 id="class-variables-to-declare">Class Variables to Declare</h3>
+<h3 id="class-variables-to-declare">
+<a class="anchor" href="#class-variables-to-declare" aria-hidden="true"><span class="octicon octicon-link"></span></a>Class Variables to Declare</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">config_file_name</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s">"config.json"</span>
 <span class="c1"># JSON file written by save_config() / read by load_config()
@@ -140,7 +327,8 @@
 # SentenceTransformer.forward() routes kwargs here by name.
 </span></code></pre></div></div>
 
-<h3 id="abstract-methods-must-implement">Abstract Methods (must implement)</h3>
+<h3 id="abstract-methods-must-implement">
+<a class="anchor" href="#abstract-methods-must-implement" aria-hidden="true"><span class="octicon octicon-link"></span></a>Abstract Methods (must implement)</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">features</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="n">Any</span><span class="p">],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="n">Any</span><span class="p">]:</span>
     <span class="s">"""Modify and return the features dict."""</span>
@@ -149,7 +337,8 @@
     <span class="s">"""Save module to a directory. Typically calls save_config() + save_torch_weights()."""</span>
 </code></pre></div></div>
 
-<h3 id="provided-utility-methods">Provided Utility Methods</h3>
+<h3 id="provided-utility-methods">
+<a class="anchor" href="#provided-utility-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Provided Utility Methods</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Serialization helpers (all provided by Module)
 </span><span class="bp">self</span><span class="p">.</span><span class="n">get_config_dict</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span>          <span class="c1"># {k: getattr(self, k) for k in config_keys}
@@ -164,7 +353,8 @@
 <span class="c1"># Default load(): load_config() → cls(**config). Override if you need weights.
 </span></code></pre></div></div>
 
-<h3 id="inputmodule-subclass"><code class="language-plaintext highlighter-rouge">InputModule</code> Subclass</h3>
+<h3 id="inputmodule-subclass">
+<a class="anchor" href="#inputmodule-subclass" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">InputModule</code> Subclass</h3>
 
 <p>Adds a required <code class="language-plaintext highlighter-rouge">tokenize()</code> method. <code class="language-plaintext highlighter-rouge">Transformer</code>, <code class="language-plaintext highlighter-rouge">StaticEmbedding</code>, <code class="language-plaintext highlighter-rouge">Router</code> extend this.</p>
 
@@ -178,7 +368,8 @@
     <span class="k">def</span> <span class="nf">save_tokenizer</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span> <span class="p">...</span>
 </code></pre></div></div>
 
-<h2 id="5-writing-a-custom-module-subclass">5. Writing a Custom Module Subclass</h2>
+<h2 id="5-writing-a-custom-module-subclass">
+<a class="anchor" href="#5-writing-a-custom-module-subclass" aria-hidden="true"><span class="octicon octicon-link"></span></a>5. Writing a Custom Module Subclass</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Any</span>
@@ -240,23 +431,29 @@
 </span><span class="n">model2</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="s">"./my-model"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h2 id="6-save--load-protocol">6. Save / Load Protocol</h2>
+<h2 id="6-save--load-protocol">
+<a class="anchor" href="#6-save--load-protocol" aria-hidden="true"><span class="octicon octicon-link"></span></a>6. Save / Load Protocol</h2>
 
-<h3 id="what-sentencetransformersavepath-writes">What <code class="language-plaintext highlighter-rouge">SentenceTransformer.save(path)</code> writes</h3>
+<h3 id="what-sentencetransformersavepath-writes">
+<a class="anchor" href="#what-sentencetransformersavepath-writes" aria-hidden="true"><span class="octicon octicon-link"></span></a>What <code class="language-plaintext highlighter-rouge">SentenceTransformer.save(path)</code> writes</h3>
 
 <ol>
-  <li><code class="language-plaintext highlighter-rouge">modules.json</code> — ordered list of modules with their class paths and subdirectory paths.</li>
-  <li><code class="language-plaintext highlighter-rouge">config_sentence_transformers.json</code> — prompts, similarity function name, version.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">modules.json</code> — ordered list of modules with their class paths and subdirectory paths.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">config_sentence_transformers.json</code> — prompts, similarity function name, version.</li>
   <li>Per-module, calls <code class="language-plaintext highlighter-rouge">module.save(module_path)</code>:
     <ul>
       <li>If <code class="language-plaintext highlighter-rouge">save_in_root=True</code> (e.g. <code class="language-plaintext highlighter-rouge">Transformer</code>): saves to model root.</li>
       <li>Otherwise: saves to <code class="language-plaintext highlighter-rouge">{idx}_{ClassName}/</code> subdirectory.</li>
     </ul>
   </li>
-  <li><code class="language-plaintext highlighter-rouge">README.md</code> (model card).</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">README.md</code> (model card).</li>
 </ol>
 
-<h3 id="modulesjson-format"><code class="language-plaintext highlighter-rouge">modules.json</code> format</h3>
+<h3 id="modulesjson-format">
+<a class="anchor" href="#modulesjson-format" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">modules.json</code> format</h3>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
   </span><span class="p">{</span><span class="nl">"idx"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0"</span><span class="p">,</span><span class="w"> </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sentence_transformers.models.Transformer"</span><span class="p">},</span><span class="w">
@@ -266,15 +463,19 @@
 </span></code></pre></div></div>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">"type"</code> is the fully qualified Python import path. Custom local modules use <code class="language-plaintext highlighter-rouge">"filename.ClassName"</code>.</li>
-  <li><code class="language-plaintext highlighter-rouge">"path"</code> is relative to the model root. Empty string = root (for <code class="language-plaintext highlighter-rouge">save_in_root=True</code> modules).</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"type"</code> is the fully qualified Python import path. Custom local modules use <code class="language-plaintext highlighter-rouge">"filename.ClassName"</code>.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"path"</code> is relative to the model root. Empty string = root (for <code class="language-plaintext highlighter-rouge">save_in_root=True</code> modules).</li>
 </ul>
 
-<h3 id="loading">Loading</h3>
+<h3 id="loading">
+<a class="anchor" href="#loading" aria-hidden="true"><span class="octicon octicon-link"></span></a>Loading</h3>
 
 <p><code class="language-plaintext highlighter-rouge">SentenceTransformer(model_name_or_path)</code> reads <code class="language-plaintext highlighter-rouge">modules.json</code>, imports each class by dotted path, and calls <code class="language-plaintext highlighter-rouge">ModuleClass.load(module_path, ...)</code>. If no <code class="language-plaintext highlighter-rouge">modules.json</code> exists (plain HF model), creates <code class="language-plaintext highlighter-rouge">[Transformer(...), Pooling(dim, "mean")]</code> automatically.</p>
 
-<h2 id="7-encode--full-signature-and-behavior">7. <code class="language-plaintext highlighter-rouge">encode()</code> — Full Signature and Behavior</h2>
+<h2 id="7-encode--full-signature-and-behavior">
+<a class="anchor" href="#7-encode--full-signature-and-behavior" aria-hidden="true"><span class="octicon octicon-link"></span></a>7. <code class="language-plaintext highlighter-rouge">encode()</code> — Full Signature and Behavior</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">torch</span><span class="p">.</span><span class="n">inference_mode</span><span class="p">()</span>
 <span class="k">def</span> <span class="nf">encode</span><span class="p">(</span>
@@ -295,7 +496,9 @@
 </span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span> <span class="o">|</span> <span class="n">Tensor</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="n">Tensor</span><span class="p">]</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Tensor</span><span class="p">]]</span>
 </code></pre></div></div>
 
-<h3 id="return-types-by-output_value">Return types by <code class="language-plaintext highlighter-rouge">output_value</code></h3>
+<h3 id="return-types-by-output_value">
+<a class="anchor" href="#return-types-by-output_value" aria-hidden="true"><span class="octicon octicon-link"></span></a>Return types by <code class="language-plaintext highlighter-rouge">output_value</code>
+</h3>
 
 <table>
   <thead>
@@ -323,20 +526,23 @@
       <td><code class="language-plaintext highlighter-rouge">"token_embeddings"</code></td>
       <td>—</td>
       <td>—</td>
-      <td><code class="language-plaintext highlighter-rouge">list[Tensor]</code> (variable len per sentence)</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">list[Tensor]</code> (variable len per sentence)</td>
     </tr>
     <tr>
       <td><code class="language-plaintext highlighter-rouge">None</code></td>
       <td>—</td>
       <td>—</td>
-      <td><code class="language-plaintext highlighter-rouge">list[dict[str, Tensor]]</code> (all module outputs per sentence)</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">list[dict[str, Tensor]]</code> (all module outputs per sentence)</td>
     </tr>
   </tbody>
 </table>
 
 <p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">output_value=None</code> is what <code class="language-plaintext highlighter-rouge">MultiAxisSentenceTransformer.encode_axis()</code> uses to retrieve named axis embeddings (<code class="language-plaintext highlighter-rouge">embedding_{axis_name}</code> keys) from the features dict.</p>
 
-<h3 id="forward_kwargs-routing"><code class="language-plaintext highlighter-rouge">forward_kwargs</code> routing</h3>
+<h3 id="forward_kwargs-routing">
+<a class="anchor" href="#forward_kwargs-routing" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">forward_kwargs</code> routing</h3>
 
 <p><code class="language-plaintext highlighter-rouge">encode()</code> accepts <code class="language-plaintext highlighter-rouge">**kwargs</code> and validates them against <code class="language-plaintext highlighter-rouge">get_model_kwargs()</code>. Each kwarg is passed only to modules that declare it in <code class="language-plaintext highlighter-rouge">forward_kwargs</code>. Unknown kwargs raise <code class="language-plaintext highlighter-rouge">ValueError</code> (except <code class="language-plaintext highlighter-rouge">"task"</code>, which is always allowed).</p>
 
@@ -344,13 +550,16 @@
     <span class="n">forward_kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s">"task"</span><span class="p">}</span>   <span class="c1"># this module will receive 'task' from encode()
 </span></code></pre></div></div>
 
-<h3 id="variants">Variants</h3>
+<h3 id="variants">
+<a class="anchor" href="#variants" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variants</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="p">.</span><span class="n">encode_query</span><span class="p">(</span><span class="n">sentences</span><span class="p">,</span> <span class="p">...)</span>    <span class="c1"># sets task="query", uses "query" prompt
 </span><span class="n">model</span><span class="p">.</span><span class="n">encode_document</span><span class="p">(</span><span class="n">sentences</span><span class="p">,</span> <span class="p">...)</span> <span class="c1"># sets task="document", uses "document"/"passage" prompt
 </span></code></pre></div></div>
 
-<h2 id="8-similarity-and-similarity_pairwise">8. <code class="language-plaintext highlighter-rouge">similarity()</code> and <code class="language-plaintext highlighter-rouge">similarity_pairwise()</code></h2>
+<h2 id="8-similarity-and-similarity_pairwise">
+<a class="anchor" href="#8-similarity-and-similarity_pairwise" aria-hidden="true"><span class="octicon octicon-link"></span></a>8. <code class="language-plaintext highlighter-rouge">similarity()</code> and <code class="language-plaintext highlighter-rouge">similarity_pairwise()</code>
+</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="p">.</span><span class="n">similarity</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>           <span class="c1"># [N, D] × [M, D] → [N, M] Tensor (cross-product)
 </span><span class="n">model</span><span class="p">.</span><span class="n">similarity_pairwise</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>  <span class="c1"># [N, D] × [N, D] → [N] Tensor (diagonal only)
@@ -359,13 +568,22 @@
 
 <p><code class="language-plaintext highlighter-rouge">SimilarityFunction</code> enum maps to utility functions in <code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">"cosine"</code> → <code class="language-plaintext highlighter-rouge">cos_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_cos_sim</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"dot"</code> → <code class="language-plaintext highlighter-rouge">dot_score</code> / <code class="language-plaintext highlighter-rouge">pairwise_dot_score</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"euclidean"</code> → <code class="language-plaintext highlighter-rouge">euclidean_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_euclidean_sim</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"manhattan"</code> → <code class="language-plaintext highlighter-rouge">manhattan_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_manhattan_sim</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"cosine"</code> → <code class="language-plaintext highlighter-rouge">cos_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_cos_sim</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"dot"</code> → <code class="language-plaintext highlighter-rouge">dot_score</code> / <code class="language-plaintext highlighter-rouge">pairwise_dot_score</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"euclidean"</code> → <code class="language-plaintext highlighter-rouge">euclidean_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_euclidean_sim</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">"manhattan"</code> → <code class="language-plaintext highlighter-rouge">manhattan_sim</code> / <code class="language-plaintext highlighter-rouge">pairwise_manhattan_sim</code>
+</li>
 </ul>
 
-<h2 id="9-evaluator-interface">9. Evaluator Interface</h2>
+<h2 id="9-evaluator-interface">
+<a class="anchor" href="#9-evaluator-interface" aria-hidden="true"><span class="octicon octicon-link"></span></a>9. Evaluator Interface</h2>
 
 <p><strong>File:</strong> <code class="language-plaintext highlighter-rouge">sentence_transformers/evaluation/SentenceEvaluator.py</code></p>
 
@@ -389,7 +607,8 @@
     <span class="k">def</span> <span class="nf">embed_inputs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">model</span><span class="p">,</span> <span class="n">sentences</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> <span class="p">...</span>  <span class="c1"># delegates to model.encode
 </span></code></pre></div></div>
 
-<h3 id="minimal-custom-evaluator">Minimal custom evaluator</h3>
+<h3 id="minimal-custom-evaluator">
+<a class="anchor" href="#minimal-custom-evaluator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Minimal custom evaluator</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.evaluation</span> <span class="kn">import</span> <span class="n">SentenceEvaluator</span>
 
@@ -411,7 +630,9 @@
         <span class="k">return</span> <span class="n">metrics</span>
 </code></pre></div></div>
 
-<h3 id="informationretrievalevaluator"><code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code></h3>
+<h3 id="informationretrievalevaluator">
+<a class="anchor" href="#informationretrievalevaluator" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code>
+</h3>
 
 <p>The main built-in IR evaluator. Takes dicts of <code class="language-plaintext highlighter-rouge">{id: text}</code> for queries/corpus and <code class="language-plaintext highlighter-rouge">{qid: set[cid]}</code> for relevance judgments.</p>
 
@@ -433,7 +654,8 @@
 
 <p><strong>Important for multi-correct-answer scenarios:</strong> <code class="language-plaintext highlighter-rouge">InformationRetrievalEvaluator</code> already supports multiple relevant docs per query (the <code class="language-plaintext highlighter-rouge">relevant_docs</code> arg is <code class="language-plaintext highlighter-rouge">dict[str, set[str]]</code>). MSEB adaptation is mainly needed for custom metric weighting or axis-specific score aggregation.</p>
 
-<h3 id="all-evaluator-classes">All Evaluator Classes</h3>
+<h3 id="all-evaluator-classes">
+<a class="anchor" href="#all-evaluator-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>All Evaluator Classes</h3>
 
 <table>
   <thead>
@@ -490,7 +712,8 @@
   </tbody>
 </table>
 
-<h2 id="10-loss-interface">10. Loss Interface</h2>
+<h2 id="10-loss-interface">
+<a class="anchor" href="#10-loss-interface" aria-hidden="true"><span class="octicon octicon-link"></span></a>10. Loss Interface</h2>
 
 <p>All losses share this structure:</p>
 
@@ -508,7 +731,8 @@
         <span class="p">...</span>
 </code></pre></div></div>
 
-<h3 id="key-losses-for-this-project">Key Losses for This Project</h3>
+<h3 id="key-losses-for-this-project">
+<a class="anchor" href="#key-losses-for-this-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key Losses for This Project</h3>
 
 <table>
   <thead>
@@ -541,7 +765,8 @@
   </tbody>
 </table>
 
-<h2 id="11-router-module-asymmetric-querydocument">11. <code class="language-plaintext highlighter-rouge">Router</code> Module (Asymmetric Query/Document)</h2>
+<h2 id="11-router-module-asymmetric-querydocument">
+<a class="anchor" href="#11-router-module-asymmetric-querydocument" aria-hidden="true"><span class="octicon octicon-link"></span></a>11. <code class="language-plaintext highlighter-rouge">Router</code> Module (Asymmetric Query/Document)</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Router</span>
 
@@ -553,7 +778,9 @@
 
 <p><code class="language-plaintext highlighter-rouge">Router</code> declares <code class="language-plaintext highlighter-rouge">forward_kwargs = {"task"}</code>. It receives <code class="language-plaintext highlighter-rouge">task</code> from <code class="language-plaintext highlighter-rouge">encode()</code> (or <code class="language-plaintext highlighter-rouge">"query"</code> / <code class="language-plaintext highlighter-rouge">"document"</code> from <code class="language-plaintext highlighter-rouge">encode_query()</code> / <code class="language-plaintext highlighter-rouge">encode_document()</code>), selects the corresponding sub-module list, and runs input through it. Requires <code class="language-plaintext highlighter-rouge">router_mapping</code> to be set in <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> during training.</p>
 
-<h2 id="12-sentencetransformertrainer">12. <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code></h2>
+<h2 id="12-sentencetransformertrainer">
+<a class="anchor" href="#12-sentencetransformertrainer" aria-hidden="true"><span class="octicon octicon-link"></span></a>12. <code class="language-plaintext highlighter-rouge">SentenceTransformerTrainer</code>
+</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">SentenceTransformerTrainer</span><span class="p">,</span> <span class="n">SentenceTransformerTrainingArguments</span>
 
@@ -586,7 +813,8 @@
 
 <p>Text columns are auto-detected by the collator. Column names become the sentence prefixes. Label columns are detected from <code class="language-plaintext highlighter-rouge">["label", "labels", "score", "scores"]</code>.</p>
 
-<h3 id="sentencetransformertrainingarguments-extra-fields"><code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> Extra Fields</h3>
+<h3 id="sentencetransformertrainingarguments-extra-fields">
+<a class="anchor" href="#sentencetransformertrainingarguments-extra-fields" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">SentenceTransformerTrainingArguments</code> Extra Fields</h3>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">batch_sampler</span><span class="p">:</span> <span class="n">BatchSamplers</span><span class="p">.</span><span class="n">BATCH_SAMPLER</span>        <span class="c1"># default
 </span>             <span class="o">|</span> <span class="n">BatchSamplers</span><span class="p">.</span><span class="n">NO_DUPLICATES</span>         <span class="c1"># for in-batch negatives
@@ -599,7 +827,8 @@
 <span class="n">router_mapping</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span> <span class="o">|</span> <span class="bp">None</span>
 </code></pre></div></div>
 
-<h2 id="13-transformer-module--key-details">13. <code class="language-plaintext highlighter-rouge">Transformer</code> Module — Key Details</h2>
+<h2 id="13-transformer-module--key-details">
+<a class="anchor" href="#13-transformer-module--key-details" aria-hidden="true"><span class="octicon octicon-link"></span></a>13. <code class="language-plaintext highlighter-rouge">Transformer</code> Module — Key Details</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Transformer</span>
 
@@ -625,7 +854,8 @@
 <code class="language-plaintext highlighter-rouge">config_keys = ["max_seq_length", "do_lower_case"]</code>.
 <code class="language-plaintext highlighter-rouge">save_in_root = True</code> — saves HF model files to model root.</p>
 
-<h2 id="14-pooling-module--key-details">14. <code class="language-plaintext highlighter-rouge">Pooling</code> Module — Key Details</h2>
+<h2 id="14-pooling-module--key-details">
+<a class="anchor" href="#14-pooling-module--key-details" aria-hidden="true"><span class="octicon octicon-link"></span></a>14. <code class="language-plaintext highlighter-rouge">Pooling</code> Module — Key Details</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers.models</span> <span class="kn">import</span> <span class="n">Pooling</span>
 
@@ -639,7 +869,8 @@
 
 <p><code class="language-plaintext highlighter-rouge">forward()</code> reads <code class="language-plaintext highlighter-rouge">features["token_embeddings"]</code> + <code class="language-plaintext highlighter-rouge">features["attention_mask"]</code>, optionally <code class="language-plaintext highlighter-rouge">features["prompt_length"]</code>, and writes <code class="language-plaintext highlighter-rouge">features["sentence_embedding"]</code>.</p>
 
-<h2 id="15-key-utility-functions-sentence_transformersutil">15. Key Utility Functions (<code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>)</h2>
+<h2 id="15-key-utility-functions-sentence_transformersutil">
+<a class="anchor" href="#15-key-utility-functions-sentence_transformersutil" aria-hidden="true"><span class="octicon octicon-link"></span></a>15. Key Utility Functions (<code class="language-plaintext highlighter-rouge">sentence_transformers.util</code>)</h2>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">util</span>
 
@@ -652,3 +883,45 @@
 <span class="n">util</span><span class="p">.</span><span class="n">load_file_path</span><span class="p">(</span><span class="n">model_name_or_path</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="p">...)</span>
 </code></pre></div></div>
 
+
+  </div><a class="u-url" href="/notes/sentence-transformers/claude/2026/02/19/sentence-transformers.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
