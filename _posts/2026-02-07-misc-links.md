@@ -29,3 +29,7 @@ An tIriseoir - [sliocht](https://www.clubleabhar.com/leabhar/an-tiriseoir),
 [corrector model](https://huggingface.co/huper29/huper_corrector) (no licence),
 [data](https://huggingface.co/datasets/huper29/huper-clean100-proxyphones) (CC-BY)
 
+[alibaba/zvec](https://github.com/alibaba/zvec)
+
+[scann](https://github.com/google-research/google-research/tree/master/scann)
+
