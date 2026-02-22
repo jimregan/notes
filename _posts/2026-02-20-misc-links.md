@@ -19,3 +19,7 @@ categories: [links]
 
 [facebookresearch/eb_jepa](https://github.com/facebookresearch/eb_jepa)
 
+[Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic, and Text Tokens](https://arxiv.org/abs/2602.16687)
+
+[ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](https://arxiv.org/abs/2602.16412)
+
