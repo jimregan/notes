@@ -16,17 +16,11 @@ https://x.com/srishticodes/status/2025254119636959701/photo/1
 [2602.16721] Speech to Speech Synthesis for Voice Impersonation
 https://arxiv.org/abs/2602.16721
 
-[2602.16412] ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding
-https://arxiv.org/abs/2602.16412
-
-(1) Stew Peters on X: "CARLSON: “Netanyahu’s family is from Poland. He doesn’t practice Judaism, there’s no evidence his ancestors EVER lived here [Israel], they never spoke the language. On what basis does he have a right to be here?” HUCKABEE: “I’m totally unable to process what you’re saying.” 💣 https://t.co/1EQCui3JtA" / X
-https://x.com/realstewpeters/status/2024945140301722049
-
 BEST-STD2.0: Balanced and Efficient Speech Tokenizer for Spoken Term Detection
 https://arxiv.org/pdf/2512.16395
 
-Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic, and Text Tokens
-https://arxiv.org/pdf/2602.16687
+[2602.16687] Scaling Open Discrete Audio Foundation Models with Interleaved Semantic, Acoustic, and Text Tokens
+https://arxiv.org/abs/2602.16687
 
 eb_jepa/examples/ac_video_jepa/README.md at main · facebookresearch/eb_jepa
 https://github.com/facebookresearch/eb_jepa/blob/main/examples/ac_video_jepa/README.md
@@ -52,11 +46,11 @@ https://huggingface.co/datasets/ai4bharat/Kathbath
 anupsingh15/LAST
 https://github.com/anupsingh15/LAST?tab=readme-ov-file
 
-IEEE Xplore Full-Text PDF:
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889633
+BEST-STD: Bidirectional Mamba-Enhanced Speech Tokenization for Spoken Term Detection | IEEE Conference Publication | IEEE Xplore
+https://ieeexplore.ieee.org/document/10889633
 
-BEST-STD/demo/tokenization.ipynb at main · anupsingh15/BEST-STD
-https://github.com/anupsingh15/BEST-STD/blob/main/demo/tokenization.ipynb
+BEST-STD/src/models/bimamba_encoder.py at main · anupsingh15/BEST-STD
+https://github.com/anupsingh15/BEST-STD/blob/main/src/models/bimamba_encoder.py
 
 anupsingh15/BEST-STD2.0
 https://github.com/anupsingh15/BEST-STD2.0/tree/main/token_subword_mapping
@@ -81,44 +75,5 @@ https://huggingface.co/datasets/sentence-transformers/embedding-training-data
 
 Enchrony - Enfield - 2022 - WIREs Cognitive Science - Wiley Online Library
 https://wires.onlinelibrary.wiley.com/doi/full/10.1002/wcs.1597
-
-The Tragedy of Hamlet, Prince of Denmark (version 4) | LibriVox
-https://librivox.org/hamlet-version-4-by-william-shakespeare/
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
-New tab
-chrome://newtab/
-
-[2210.13438] High Fidelity Neural Audio Compression
-https://arxiv.org/abs/2210.13438
-
-facebookresearch/encodec: State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio.
-https://github.com/facebookresearch/encodec
-
-mseb/mseb/encoders at main · google-research/mseb
-https://github.com/google-research/mseb/tree/main/mseb/encoders
-
-mseb/mseb/colab/MSEB_ASRU_Tutorial.ipynb at main · google-research/mseb
-https://github.com/google-research/mseb/blob/main/mseb/colab/MSEB_ASRU_Tutorial.ipynb
-
-mseb/mseb/types.py at main · google-research/mseb
-https://github.com/google-research/mseb/blob/main/mseb/types.py
-
-patrick-kidger/jaxtyping: Type annotations and runtime checking for shape and dtype of JAX/NumPy/PyTorch/etc. arrays. https://docs.kidger.site/jaxtyping/
-https://github.com/patrick-kidger/jaxtyping?tab=readme-ov-file
-
-blackjax-devs/blackjax: BlackJAX is a Bayesian Inference library designed for ease of use, speed and modularity.
-https://github.com/blackjax-devs/blackjax
-
-danielward27/paramax: A small library of paramaterizations and parameter constraints for PyTrees.
-https://github.com/danielward27/paramax?tab=readme-ov-file
-
-BerriAI/litellm: Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]
-https://github.com/BerriAI/litellm
-
-Trinity College Dublin – Calendar - Calendar settings for TMH Internal GPUs
-https://calendar.google.com/calendar/u/3/r/settings/calendar/MjQyY2RiZDY4OTc1NGU0NDdmMGVjM2E1ZGYxMzVkMGNlY2JlODY1N2FmNGQ4MzhiYTVhNDFkNmE3NmY4MTRmNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t?pli=1
 
 
