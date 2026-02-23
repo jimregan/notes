@@ -23,3 +23,7 @@ categories: [links]
 
 [ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding](https://arxiv.org/abs/2602.16412)
 
+[hyperreality/American-British-English-Translator](https://github.com/hyperreality/American-British-English-Translator)
+
+[spelling_convention_nlm](https://github.com/google-research/google-research/tree/master/spelling_convention_nlm)
+
