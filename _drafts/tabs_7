@@ -229,7 +229,16 @@ https://arxiv.org/abs/2210.08624
 Attention-based audio embeddings for query-by-example
 https://zenodo.org/records/7316592
 
-FlowHash: Accelerating Audio Search With Balanced Hashing via Normalizing Flow
-https://dl.acm.org/doi/pdf/10.1109/TASLP.2024.3486227
+SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models | OpenReview
+https://openreview.net/forum?id=AF9Q8Vip84
+
+ZhangXInFD/SpeechTokenizer: This is the code for the SpeechTokenizer presented in the SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models. Samples are presented on
+https://github.com/ZhangXInFD/SpeechTokenizer/?tab=readme-ov-file
+
+0nutation/SLMTokBench: SLMTokBench for paper "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models"
+https://github.com/0nutation/SLMTokBench
+
+0nutation/USLM: Unified Speech Language Model for paper "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models"(ICLR 2024)
+https://github.com/0nutation/USLM
 
 
