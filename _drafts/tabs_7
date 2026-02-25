@@ -1,6 +1,9 @@
 (1) Home / X
 https://x.com/home
 
+[2602.18104] MeanVoiceFlow: One-step Nonparallel Voice Conversion with Mean Flows
+https://arxiv.org/abs/2602.18104
+
 x.com/HuggingPapers/status/2025255925049618653
 https://x.com/HuggingPapers/status/2025255925049618653
 
@@ -133,6 +136,15 @@ https://www.overleaf.com/project/699b6ce59e17d53b18d0b5ff
 IEEE Xplore Full-Text PDF:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10889633&tag=1
 
+BEST-STD/src/train/trainer_transformers.py at main · anupsingh15/BEST-STD
+https://github.com/anupsingh15/BEST-STD/blob/main/src/train/trainer_transformers.py
+
+tslearn.metrics — tslearn 0.8.0 documentation
+https://tslearn.readthedocs.io/en/stable/gen_modules/tslearn.metrics.html#module-tslearn.metrics
+
+SoftDTWLossPyTorch — tslearn 0.8.0 documentation
+https://tslearn.readthedocs.io/en/stable/gen_modules/metrics/tslearn.metrics.SoftDTWLossPyTorch.html#tslearn.metrics.SoftDTWLossPyTorch
+
 1277741.1277847
 https://dl.acm.org/doi/pdf/10.1145/1277741.1277847
 
@@ -142,8 +154,14 @@ https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-jun
 IEEE Xplore Full-Text PDF:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9072650
 
+GlobalPhone Language models
+https://www.csl.uni-bremen.de/GlobalPhone/
+
 ram18_interspeech.pdf
 https://www.isca-archive.org/interspeech_2018/ram18_interspeech.pdf
+
+idiap/CNN_QbE_STD: Implementation of the work presented in "CNN based Query by Example Spoken Term Detection"
+https://github.com/idiap/CNN_QbE_STD
 
 SWS 2013 - Google Search
 https://www.google.com/search?q=SWS+2013&rlz=1C5GCCM_en&oq=SWS+2013&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTIHCAQQABjvBTIKCAUQABiABBiiBDIHCAYQABjvBdIBBzE1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -211,8 +229,8 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9383545
 Attention-based audio embeddings for query-by-example - Google Search
 https://www.google.com/search?q=Attention-based+audio+embeddings+for+query-by-example&rlz=1C5GCCM_en&oq=Attention-based+audio+embeddings+for+query-by-example&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBBzQzMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 
-[2210.08624] Attention-Based Audio Embeddings for Query-by-Example
-https://arxiv.org/abs/2210.08624
+2210.08624
+https://arxiv.org/pdf/2210.08624
 
 Submit a Paper | Interspeech 2026
 https://interspeech2026.org/en-AU/pages/calls/submit-a-paper
@@ -226,9 +244,6 @@ https://www.semanticscholar.org/paper/Attention-Based-Audio-Embeddings-for-Singh
 [2210.08624] Attention-Based Audio Embeddings for Query-by-Example
 https://arxiv.org/abs/2210.08624
 
-Attention-based audio embeddings for query-by-example
-https://zenodo.org/records/7316592
-
 SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models | OpenReview
 https://openreview.net/forum?id=AF9Q8Vip84
 
@@ -240,5 +255,242 @@ https://github.com/0nutation/SLMTokBench
 
 0nutation/USLM: Unified Speech Language Model for paper "SpeechTokenizer: Unified Speech Tokenizer for Speech Large Language Models"(ICLR 2024)
 https://github.com/0nutation/USLM
+
+Accents of English
+https://www.cambridge.org/core/books/accents-of-english/1E9E89C38DFD0AB53B47EF96D8442594
+
+Edlund, Jens, Docent/Associate Professor (0000-0001-9327-9482)
+https://kth.diva-portal.org/smash/person.jsf?pid=authority-person%3A31491&dswid=-9193
+
+Intrasentential English in Swedish TTS : perceived English-accentedness
+https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A2014587&dswid=6203
+
+tannander25_interspeech.pdf
+https://www.isca-archive.org/interspeech_2025/tannander25_interspeech.pdf
+
+Jim O'Regan (0000-0003-2598-6868) - ORCID
+https://orcid.org/0000-0003-2598-6868
+
+speech similarity - Google Search
+https://www.google.com/search?q=speech+similarity&rlz=1C5GCCM_en&oq=speech+similarity&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBwgFEAAY7wUyBwgGEAAY7wUyBggHEEUYPNIBCDQyMDJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+ubisoft/ubisoft-laforge-spkrid: Analyzing and Improving Speaker Similarity Assessment in Speech Synthesis
+https://github.com/ubisoft/ubisoft-laforge-spkrid
+
+[2507.02176] Analyzing and Improving Speaker Similarity Assessment for Speech Synthesis
+https://arxiv.org/abs/2507.02176
+
+Submit a Paper | Interspeech 2026
+https://interspeech2026.org/en-AU/pages/calls/submit-a-paper
+
+Conference Management Toolkit - Submission Summary
+https://cmt3.research.microsoft.com/Interspeech2026/Submission/Summary/2136
+
+New tab
+chrome://newtab/
+
+anupsingh15/BEST-STD
+https://github.com/anupsingh15/BEST-STD
+
+Milk Bandit Image Request
+https://chatgpt.com/c/699ef63d-0ffc-8394-a18b-89486a0ea3cc
+
+idiap/CNN_QbE_STD: Implementation of the work presented in "CNN based Query by Example Spoken Term Detection"
+https://github.com/idiap/CNN_QbE_STD
+
+A Nonparametric Bayesian Approach to Acoustic Model Discovery - ACL Anthology
+https://aclanthology.org/P12-1005/
+
+Unsupervised Pattern Discovery in Speech | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/4378402
+
+ByT5
+https://huggingface.co/docs/transformers/en/model_doc/byt5
+
+[2204.03067] ByT5 model for massively multilingual grapheme-to-phoneme conversion
+https://arxiv.org/abs/2204.03067
+
+australian pronunciation dictionary - Google Search
+https://www.google.com/search?q=australian+pronunciation+dictionary&rlz=1C5GCCM_en&oq=australian+pronunciation&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQ4NTFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+australian-lexicon/pronunciation_dictionary/australian-ipa-phonemes.xml at master · twocs/australian-lexicon
+https://github.com/twocs/australian-lexicon/blob/master/pronunciation_dictionary/australian-ipa-phonemes.xml
+
+wikipron/data/phones/phones at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/tree/master/data/phones/phones
+
+wikipron/data/scrape/tsv/eng_latn_uk_broad_filtered.tsv at master · CUNY-CL/wikipron
+https://github.com/CUNY-CL/wikipron/blob/master/data/scrape/tsv/eng_latn_uk_broad_filtered.tsv
+
+Australian English - Wikipedia
+https://en.wikipedia.org/wiki/Australian_English
+
+Australian English phonology - Wikipedia
+https://en.wikipedia.org/wiki/Australian_English_phonology
+
+Dublin English - Wikipedia
+https://en.wikipedia.org/wiki/Dublin_English
+
+Hiberno-English - Wikipedia
+https://en.wikipedia.org/wiki/Hiberno-English
+
+South-West Irish English - Wikipedia
+https://en.wikipedia.org/wiki/South-West_Irish_English
+
+R-Coloured vowels in Irish English
+https://www.jstor.org/stable/pdf/44525934.pdf?refreqid=excelsior%3A8bec60486c61d4b7a275301d982eb95c
+
+Irish English: History and Present-Day Forms - Raymond Hickey - Google Books
+https://books.google.se/books?id=p3vDuPNG7nUC&redir_esc=y
+
+Ulster English - Wikipedia
+https://en.wikipedia.org/wiki/Ulster_English
+
+General American English - Wikipedia
+https://en.wikipedia.org/wiki/General_American_English
+
+Brian Ó Raghallaigh thesis tcd tara - Google Search
+https://www.google.com/search?q=Brian+%C3%93+Raghallaigh+thesis+tcd+tara&sca_esv=f6b88a89bb20681d&rlz=1C5GCCM_en&biw=1440&bih=710&sxsrf=ANbL-n7XzS402Ifpt2GY7ypma6oAIg5MoA%3A1772033715765&ei=sxafaYi1Lv2X1fIPlvvQoAg&ved=0ahUKEwjI2qGB_PSSAxX9S1UIHZY9FIQQ4dUDCBE&uact=5&oq=Brian+%C3%93+Raghallaigh+thesis+tcd+tara&gs_lp=Egxnd3Mtd2l6LXNlcnAiJEJyaWFuIMOTIFJhZ2hhbGxhaWdoIHRoZXNpcyB0Y2QgdGFyYTIFECEYoAEyBRAhGKABMgUQIRigAUikCFCVAlijB3ABeACQAQCYAcQBoAHSBKoBAzUuMbgBA8gBAPgBAZgCBqACqgTCAgsQABiABBiwAxiiBMICCBAAGLADGO8FmAMAiAYBkAYFkgcFNS4wLjGgB8gUsgcFNC4wLjG4B6gEwgcDMC42yAcKgAgA&sclient=gws-wiz-serp
+
+oraghalb (Brian Ó Raghallaigh)
+https://github.com/oraghalb
+
+Brian Ó Raghallaigh - ACL Anthology
+https://aclanthology.org/people/brian-o-raghallaigh/unverified/
+
+Multi-dialect phonetisation for Irish text-to-speech synthesis : a modular approach
+https://www.tara.tcd.ie/bitstreams/df0de2d7-f960-413e-8c6c-12d9aaf1602c/download
+
+water - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/water#English
+
+Cockney - Wikipedia
+https://en.wikipedia.org/wiki/Cockney#Speech
+
+Estuary English - Wikipedia
+https://en.wikipedia.org/wiki/Estuary_English
+
+hiberno english ipa - Google Search
+https://www.google.com/search?q=hiberno+english+ipa&rlz=1C5GCCM_en&oq=hiberno+english+ipa&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMgoIBhAAGIAEGKIEMgcIBxAAGO8FMgcICBAAGO8F0gEIMzIyN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Claude Developer Platform
+https://platform.claude.com/oauth/code/success?app=claude-code
+
+cockney pronunciation dictionary - Google Search
+https://www.google.com/search?q=cockney+procunciation+dictionary&rlz=1C5GCCM_en&oq=cockney+procunciation+dictionary&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyCggGEAAYgAQYogQyCggHEAAYgAQYogQyCggIEAAYgAQYogQyCggJEAAYgAQYogTSAQg2MzU2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+Cockney - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Cockney
+
+Examples of Yorkshire English | English Accents
+https://www.uv.es/anglotic/accents_of_english/01/examples_of_yorkshire_english.html
+
+Examples of Yorkshire English | English Accents
+https://www.uv.es/anglotic/accents_of_english/01/examples_of_yorkshire_english.html
+
+english accents ipa - Google Search
+https://www.google.com/search?q=english+accents+ipa&rlz=1C5GCCM_en&oq=english+accents+ipa&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMgoIBxAAGIAEGKIE0gEIMzI5OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+English phonology - Wikipedia
+https://en.wikipedia.org/wiki/English_phonology
+
+English orthography - Wikipedia
+https://en.wikipedia.org/wiki/English_orthography
+
+dialects of englishc ipa - Google Search
+https://www.google.com/search?q=dialects+of+englishc+ipa&sca_esv=40c75cf91d5573df&rlz=1C5GCCM_en&sxsrf=ANbL-n6b7giAGiTY5k2xsYO2cbHbuvwnFA%3A1772048954013&ei=OlKfaYRCq67A8A-g15bhDg&biw=1440&bih=710&ved=0ahUKEwiEx7bjtPWSAxUrFxAIHaCrJewQ4dUDCBE&uact=5&oq=dialects+of+englishc+ipa&gs_lp=Egxnd3Mtd2l6LXNlcnAiGGRpYWxlY3RzIG9mIGVuZ2xpc2hjIGlwYTIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgUQABjvBUirC1DxA1jHB3ABeAGQAQGYAX6gAbQEqgEDMS40uAEDyAEA-AEBmAIFoALLA8ICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIHEAAYgAQYDcICBhAAGA0YHsICCBAAGAgYDRgewgIIEAAYgAQYogSYAwCIBgGQBgqSBwMyLjOgB_MmsgcDMS4zuAfHA8IHBTAuMS40yAcPgAgA&sclient=gws-wiz-serp
+
+International Phonetic Alphabet chart for English dialects - Simple English Wikipedia, the free encyclopedia
+https://simple.wikipedia.org/wiki/International_Phonetic_Alphabet_chart_for_English_dialects
+
+ipa transcriptions of english dialect - Google Search
+https://www.google.com/search?q=ipa+transcriptions+of+english+dialect&rlz=1C5GCCM_en&oq=ipa+transcriptions+of+english+dialect&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAtIBCDkzMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Transcribing in IPA - Part 1 | English Phonology - YouTube
+https://www.youtube.com/watch?app=desktop&v=SV0VQkf60F8
+
+ChatGPT vs Claude vs Gemini: Which AI Is Actually Best for Language Learning? - YouTube
+https://www.youtube.com/watch?v=uZl0TO8i96g
+
+IDEA – International Dialects of English Archive
+https://www.dialectsarchive.com/
+
+Phonetic Transcriptions of IDEA Samples | IDEA: International Dialects of English Archive
+https://www.dialectsarchive.com/phonetic-transcriptions
+
+Missouri 23 | IDEA: International Dialects of English Archive
+https://www.dialectsarchive.com/missouri-23
+
+Scotland 5 | IDEA: International Dialects of English Archive
+https://www.dialectsarchive.com/scotland-5
+
+Copyright & Credit Information | IDEA: International Dialects of English Archive
+https://www.dialectsarchive.com/copyright-credit-information
+
+The sounds of English and the International Phonetic Alphabet | Antimoon
+https://www.antimoon.com/how/pronunc-soundsipa.htm
+
+ipa accents of english - Google Search
+https://www.google.com/search?q=ipa+accents+of+english&sca_esv=40c75cf91d5573df&rlz=1C5GCCM_en&biw=1440&bih=710&sxsrf=ANbL-n5GcoUdvhviOb2ORofsY8GRF3gGKQ%3A1772049887989&ei=31WfaYKFPIOa1fIP44r64As&ved=0ahUKEwjC8OOguPWSAxUDTVUIHWOFHrw4FBDh1QMIEQ&uact=5&oq=ipa+accents+of+english&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmlwYSBhY2NlbnRzIG9mIGVuZ2xpc2gyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FSIgRUP4MWOQPcAF4AZABAJgBiwGgAbMDqgEDMS4zuAEDyAEA-AEBmAIEoAL2AsICChAAGLADGNYEGEfCAgcQIxiwAhgnwgIGEAAYBxgewgIHEC4YgAQYDcICBxAAGIAEGA3CAggQABgHGAgYHpgDAIgGAZAGCJIHAzEuM6AH0R6yBwMwLjO4B_ECwgcFMC4yLjLIBw-ACAA&sclient=gws-wiz-serp
+
+Regional accents of English - Wikipedia
+https://en.wikipedia.org/wiki/Regional_accents_of_English
+
+A brief guide to British accents and dialects - Studio Cambridge
+https://www.studiocambridge.co.uk/a-brief-guide-to-british-accents-and-dialects/
+
+Regional accents of English speakers
+https://www.englishgratis.com/1/wikibooks/english/regionalaccentsofenglishspeakers.htm
+
+Global Map of Accents and Dialects | IDEA: International Dialects of English Archive
+https://www.dialectsarchive.com/globalmap
+
+speech accent archive: browse
+https://accent.gmu.edu/browse.php
+
+english accents ipa - Google Search
+https://www.google.com/search?q=english+accents+ipa&sca_esv=40c75cf91d5573df&rlz=1C5GCCM_en&sxsrf=ANbL-n4Ypsm224RktlXUUwwnpN9mWI3jhg:1772051757878&ei=LV2faZqkNdO1wPAP4aXIsQ8&start=20&sa=N&sstk=Af77f_dJ2XYD78cf9ydxJlex72MWlvt2pq0LzsLq9rSI1wjXqPAlgiwwGTnpry7WC7KyRstCVceh68bCIlDTdiHTl-CgdW4-TfEm1P622jSwJe2zfvdcUwWggQpSylXit4vd&ved=2ahUKEwja7rScv_WSAxXTGhAIHeESMvY4ChDw0wN6BAgMEBc&biw=1440&bih=710&dpr=2
+
+Wikibooks
+https://www.wikibooks.org/
+
+Department:Languages - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Department:Languages
+
+Shelf:Languages - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Shelf:Languages
+
+Shelf:Languages of Europe - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Shelf:Languages_of_Europe
+
+Irish/Unit 1/Lesson 2 - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Irish/Unit_1/Lesson_2
+
+Lower Sorbian - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Lower_Sorbian
+
+Wikibooks
+https://en.wikibooks.org/wiki/Main_Page
+
+Hungarian - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Hungarian
+
+Hungarian/Vocabulary - Wikibooks, open books for an open world
+https://en.wikibooks.org/wiki/Hungarian/Vocabulary
+
+IPA English Consonant Sounds Examples - Listen & Record
+https://www.speechactive.com/english-consonants-ipa-international-phonetic-alphabet/?v=efad7abb323e
+
+australian pronunciation dictionary - Google Search
+https://www.google.com/search?q=australian+pronunciation+dictionary&rlz=1C5GCCM_en&oq=australian+pron&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIGCAEQRRg5Mg0IAhAAGJECGIAEGIoFMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEJMTY4NDRqMGo0qAIDsAIB8QWc9OxczM690A&sourceid=chrome&ie=UTF-8
+
+Pronunciation Key - Macquarie
+https://www.macquariedictionary.com.au/pronunciation-key/
+
+Australian English pronunciation dictionary - voxforge.org
+http://web.archive.org/web/20140808085928/http://voxforge.org/home/forums/message-boards/general-discussion/australian-english-pronunciation-dictionary
+
+IPA and English dialects | WordReference Forums
+https://forum.wordreference.com/threads/ipa-and-english-dialects.4000074/
 
 
