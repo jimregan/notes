@@ -27,3 +27,13 @@ categories: [links]
 
 [spelling_convention_nlm](https://github.com/google-research/google-research/tree/master/spelling_convention_nlm)
 
+[ELITR/online-text-flow](https://github.com/ELITR/online-text-flow) --- Online event streaming to improve data and text flows
+
+[kyutai-labs/delayed-streams-modeling](https://github.com/kyutai-labs/delayed-streams-modeling) --- Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
+
+[mlx-examples - T5](https://github.com/ml-explore/mlx-examples/tree/main/t5)
+
+[kyutai-labs/unmute](https://github.com/kyutai-labs/unmute)
+
+[cohogain/whisper-large-v2-ga-IE](https://huggingface.co/cohogain/whisper-large-v2-ga-IE)
+
