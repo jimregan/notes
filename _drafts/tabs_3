@@ -493,59 +493,29 @@ https://www.youtube.com/watch?v=I997ADNkQww
 Leabhar Sgeulaigheachta/Monachar agus Manachar - Wikisource
 https://wikisource.org/wiki/Leabhar_Sgeulaigheachta/Monachar_agus_Manachar
 
-Speech tokenizer-based sentence embeddings for audiobooks - Claude
+Claude
 https://claude.ai/chat/3634a339-d62c-4422-951a-5f62d53caf30
 
 Kyutai STT
 https://kyutai.org/stt
 
-MLX — MLX 0.30.6 documentation
-https://ml-explore.github.io/mlx/build/html/index.html
-
-ufal/whisper_streaming: Whisper realtime streaming for long speech-to-text transcription and translation
-https://github.com/ufal/whisper_streaming?tab=readme-ov-file
-
-[2305.11408] AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation
-https://arxiv.org/abs/2305.11408
-
-hlt-mt/FBK-fairseq: Repository containing the open source code of works published at the FBK MT unit.
-https://github.com/hlt-mt/fbk-fairseq
-
-FBK-fairseq/fbk_works/PITCH_MANIPULATION_ASR.md at master · hlt-mt/FBK-fairseq
-https://github.com/hlt-mt/FBK-fairseq/blob/master/fbk_works/PITCH_MANIPULATION_ASR.md
-
-papi23_interspeech.pdf
-https://www.isca-archive.org/interspeech_2023/papi23_interspeech.pdf
-
-ufal/SimulStreaming
-https://github.com/ufal/SimulStreaming
-
-ELITR/online-text-flow: Online event streaming to improve data and text flows
-https://github.com/ELITR/online-text-flow
-
-kyutai-labs/delayed-streams-modeling: Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework.
-https://github.com/kyutai-labs/delayed-streams-modeling/?tab=readme-ov-file
-
-Kyutai STT
-https://kyutai.org/stt
-
-kyutai-labs/unmute: Make text LLMs listen and speak
-https://github.com/kyutai-labs/unmute
-
 [2412.09102] PolyIPA -- Multilingual Phoneme-to-Grapheme Conversion Model
 https://arxiv.org/abs/2412.09102
 
-T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion
-https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.pdf
-
-mlx-examples/t5 at main · ml-explore/mlx-examples
-https://github.com/ml-explore/mlx-examples/tree/main/t5
+ISCA Archive - T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion
+https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.html#
 
 mlx-whisper · PyPI
 https://pypi.org/project/mlx-whisper/
 
-mlx-community (MLX Community)
-https://huggingface.co/mlx-community
+Models – Hugging Face
+https://huggingface.co/models?other=whisper&p=1&sort=trending&search=ga
+
+Qwen3-ASR - a mlx-community Collection
+https://huggingface.co/collections/mlx-community/qwen3-asr
+
+mlx-community/Qwen3-ForcedAligner-0.6B-4bit · Hugging Face
+https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit
 
 mlx-audio/README.md at main · Blaizzy/mlx-audio
 https://github.com/Blaizzy/mlx-audio/blob/main/README.md
