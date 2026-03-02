@@ -37,3 +37,4 @@ categories: [links]
 
 [cohogain/whisper-large-v2-ga-IE](https://huggingface.co/cohogain/whisper-large-v2-ga-IE)
 
+[47 Years of HARDCORE Riffs](https://www.youtube.com/watch?v=B5fw2r_2fnU)
