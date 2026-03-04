@@ -38,3 +38,19 @@ categories: [links]
 [cohogain/whisper-large-v2-ga-IE](https://huggingface.co/cohogain/whisper-large-v2-ga-IE)
 
 [47 Years of HARDCORE Riffs](https://www.youtube.com/watch?v=B5fw2r_2fnU)
+
+## Irish
+
+
+[Caint Chonamara](https://www.sksk.de/index.php/de/veroeffentlichungen-2/materialien/33-caint-chonamara)
+
+[RnaG shows](https://www.rte.ie/radio/rnag/shows/)
+
+[Bailiúchán Béaloidis Árann](https://bba.duchas.ie/en/about/bba)
+
+[Íbíotsa](https://soundcloud.com/cois-life-teoranta/01-b-otsa_dl-thph-irt-ocht-na?in=cois-life-teoranta/sets/ibiotsa)
+
+[Teanga Submissions](https://journal.iraal.ie/index.php/teanga/about/submissions),
+[Special edition](https://www.gaois.ie/en/blog/gairm-ar-phaipeir-eagran-speisialta-teanga-faoin-teangeolaiocht-chorpais) ---
+30 June 2026
+
