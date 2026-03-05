@@ -13,23 +13,11 @@ https://research.google/pubs/massive-sound-embedding-benchmark-mseb/
 NeurIPS Poster Massive Sound Embedding Benchmark (MSEB)
 https://neurips.cc/virtual/2025/loc/san-diego/poster/121597
 
-Massive Sound Embedding Benchmark (MSEB) | OpenReview
-https://openreview.net/forum?id=X0juYgFVng
-
-Group tasks by generic task type. · google-research/mseb@ca3e216
-https://github.com/google-research/mseb/commit/ca3e21664e7ee78e0d9e3d6671734bffc2eaeab7
-
-FBK-MT/Speech-MASSIVE · Datasets at Hugging Face
-https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE
-
-2023.acl-long.235.pdf
-https://aclanthology.org/2023.acl-long.235.pdf
-
 Current things, 14 June 2025 - Speech-to-Retrieval Overview
 https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699217de-7894-8386-b5a7-a94ec823c06a
 
-alexa/massive: Tools and Modeling Code for the MASSIVE dataset
-https://github.com/alexa/massive
+massive/src/massive/models/mt5_ic_sf_encoder_only.py at main · alexa/massive
+https://github.com/alexa/massive/blob/main/src/massive/models/mt5_ic_sf_encoder_only.py
 
 Commits · google-research/mseb
 https://github.com/google-research/mseb/commits/main/
@@ -48,9 +36,6 @@ https://en.wikipedia.org/wiki/Sparse_dictionary_learning
 
 google-research/specinvert at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/specinvert
-
-Resource not found
-https://datashare.ed.ac.uk/bitstream/handle/10283/3443/license_text?sequence=3&isAllowed=y
 
 google-research/speech_embedding at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/speech_embedding
@@ -96,20 +81,5 @@ https://zvec.org/en/docs/quickstart/
 
 [feat] Add MultiVectorEncoder Support (a.k.a late-interaction models or ColBERT-style models) by AymenKallala · Pull Request #3614 · huggingface/sentence-transformers
 https://github.com/huggingface/sentence-transformers/pull/3614
-
-​​Speech-to-Retrieval (S2R): A new approach to voice search
-https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/
-
-Audio Embeddings: Understanding the basics - DEV Community
-https://dev.to/josethz00/audio-embeddings-understanding-the-basics-4pc1
-
-36340.pdf
-https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36340.pdf
-
-Google Search by Voice: A Case Study
-https://research.google/blog/google-search-by-voice-a-case-study/
-
-Google Search by Voice: A case study - Google Scholar
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Google+Search+by+Voice%3A+A+case+study&btnG=#d=gs_cit&t=1771950363310&u=%2Fscholar%3Fq%3Dinfo%3AO3Jr5rvo8hcJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D1%26hl%3Den
 
 
