@@ -4,7 +4,7 @@ layout: post
 hidden: true
 description: Hungarian notes from ChatGPT
 title: Verb list
-categories: [hungarian, chatgpt, reels]
+categories: [hungarian, chatgpt, verbs]
 ---
 
 ## Hungarian Verb Master List (Indefinite/Definite)
