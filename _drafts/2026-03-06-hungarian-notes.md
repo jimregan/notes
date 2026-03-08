@@ -38,8 +38,6 @@ Sometimes "elvan mint a befőtt" implies just sitting on a shelf waiting for som
 
 * **"Gathering dust"** – If a person (or object) is being ignored or left unused for a long time.
 
----
-
 **Summary Table**
 
 | Context | English Phrase |
@@ -51,4 +49,49 @@ Sometimes "elvan mint a befőtt" implies just sitting on a shelf waiting for som
 
 > **Pro-tip:** If you want to capture the humor of the Hungarian original, you might say: **"He’s just existing,"** with a bit of a sigh.
 
-Would you like me to help you translate any other Hungarian idioms that don't quite make sense in English?
+---
+
+> lekvár
+
+Ah, if "befőtt" (preserves) is passive, then **lekvár** (jam/marmalade) is the next level of uselessness!
+
+In Hungarian slang, calling someone a "lekvár" implies they are **weak, slow, spineless, or completely lacking energy.** It’s that soft, mushy consistency applied to a person’s character.
+
+Here are the best ways to say that in English:
+
+### 1. For Someone "Weak or Spineless"
+
+If the person has no backbone or can't stand up for themselves:
+
+* **"A wimp"** – The most common way to describe someone soft and fearful.
+* **"Spineless"** – If they lack courage.
+* **"A wet noodle"** – This perfectly captures the "mushy" physical vibe of *lekvár*.
+* **"A pushover"** – Someone who is too "soft" and lets everyone walk all over them.
+
+### 2. For Someone "Slow or Lazy"
+
+If you are calling them *lekvár* because they are moving like molasses:
+
+* **"Slowcoach"** (British) or **"Slowpoke"** (American).
+* **"Slug"** – If they are being incredibly lazy and slow-moving.
+* **"Dead weight"** – If they aren't contributing and are just "there" like a heavy jar of jam.
+
+### 3. As an Adjective (Lekvárnak lenni)
+
+If someone is feeling weak or "shaky" (e.g., after a workout or when sick):
+
+* **"My legs feel like jelly."** (This is a direct parallel to the food metaphor!)
+* **"To be soft."**
+
+---
+
+### A Quick Comparison
+
+| Hungarian | English Equivalent | Vibe |
+| --- | --- | --- |
+| **Befőtt** | "Vegetating" | Passive, just sitting there. |
+| **Lekvár** | "A wimp" / "Soft" | Weak, slow, or lacking "structure." |
+
+**Fun Fact:** In sports or games, if a Hungarian calls a player "lekvár," the best English insult would be calling them **"soft"** or a **"bottler"** (someone who crumbles under pressure).
+
+Would you like to explore more food-related insults, or should we look at some "spicier" Hungarian expressions?
