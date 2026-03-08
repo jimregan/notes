@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Hungarian notes from ChatGPT
+title: Verb list
+categories: [hungarian, chatgpt, reels]
+---
+
 ## Hungarian Verb Master List (Indefinite/Definite)
 
 lát (to see) - látok / látom
