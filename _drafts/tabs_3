@@ -259,6 +259,9 @@ https://huggingface.co/models?other=whisper&p=1&sort=trending&search=ga
 Qwen3-ASR - a mlx-community Collection
 https://huggingface.co/collections/mlx-community/qwen3-asr
 
+jimregan/sst-wavlm-merged-tts · Training metrics
+https://huggingface.co/jimregan/sst-wavlm-merged-tts/tensorboard
+
 mlx-community/Qwen3-ForcedAligner-0.6B-4bit · Hugging Face
 https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit
 
@@ -312,5 +315,116 @@ https://huggingface.co/docs/huggingface_hub/en/guides/manage-cache
 
 Exclude GPU 0 script
 https://chatgpt.com/c/69a9ed97-6ee0-838b-a2bc-9b7a4eee2a68
+
+jimregan/merged-vctk-cmuarctic-gbi · Datasets at Hugging Face
+https://huggingface.co/datasets/jimregan/merged-vctk-cmuarctic-gbi
+
+jimregan (Jim O'Regan)
+https://huggingface.co/jimregan/models
+
+Commits · jimregan/merged-vctk-cmuarctic-gbi
+https://huggingface.co/datasets/jimregan/merged-vctk-cmuarctic-gbi/commits/main
+
+README.md · jimregan/merged-vctk-cmuarctic-gbi at main
+https://huggingface.co/datasets/jimregan/merged-vctk-cmuarctic-gbi/blob/main/README.md
+
+jaman21/spkrec-ecapa-voxceleb · Hugging Face
+https://huggingface.co/jaman21/spkrec-ecapa-voxceleb
+
+Models – Hugging Face
+https://huggingface.co/models?other=wavlm
+
+microsoft/wavlm-base-sv · Hugging Face
+https://huggingface.co/microsoft/wavlm-base-sv
+
+prithivMLmods/Common-Voice-Gender-Detection · Hugging Face
+https://huggingface.co/prithivMLmods/Common-Voice-Gender-Detection
+
+rizvandwiki/gender-classification · Hugging Face
+https://huggingface.co/rizvandwiki/gender-classification
+
+wavlm gender detection huggingface - Google Search
+https://www.google.com/search?q=wavlm+gender+detection+huggingface&sca_esv=d68f2633f4bc5039&rlz=1C5GCCM_en&sxsrf=ANbL-n5-yErD3TMP9HBzlng2s_Sb5Imo_A%3A1772981817165&ei=OY6tafnWCZCHwPAP4Y_G8QE&biw=1440&bih=710&ved=0ahUKEwi51577x5CTAxWQAxAIHeGHMR4Q4dUDCBM&uact=5&oq=wavlm+gender+detection+huggingface&gs_lp=Egxnd3Mtd2l6LXNlcnAiIndhdmxtIGdlbmRlciBkZXRlY3Rpb24gaHVnZ2luZ2ZhY2UyBxAhGKABGApIqBNQGVjmEnABeACQAQCYAYABoAGzB6oBBDEwLjG4AQPIAQD4AQGYAgygAt8HwgILEAAYgAQYsAMYogTCAggQABiwAxjvBcICBRAhGKABwgIFECEYnwWYAwCIBgGQBgWSBwQxMC4yoAfqFrIHAzkuMrgH2wfCBwUyLjkuMcgHE4AIAA&sclient=gws-wiz-serp
+
+Models – Hugging Face
+https://huggingface.co/models?library=transformers&pipeline_tag=audio-classification&p=1&sort=downloads
+
+model.py · Darveht/zenvion-voice-detector-v0.3 at main
+https://huggingface.co/Darveht/zenvion-voice-detector-v0.3/blob/main/model.py
+
+wavlm superb - Google Search
+https://www.google.com/search?q=wavlm+superb&rlz=1C5GCCM_en&oq=wavlm+superb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yBwgCEAAY7wUyBwgDEAAY7wUyBwgEEAAY7wUyBwgFEAAY7wXSAQg0NjUxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+microsoft/wavlm-large · Hugging Face
+https://huggingface.co/microsoft/wavlm-large
+
+unilm/wavlm at master · microsoft/unilm
+https://github.com/microsoft/unilm/tree/master/wavlm
+
+UniSpeech/WavLM/WavLM.py at main · microsoft/UniSpeech
+https://github.com/microsoft/UniSpeech/blob/main/WavLM/WavLM.py
+
+microsoft/UniSpeech: UniSpeech - Large Scale Self-Supervised Learning for Speech
+https://github.com/microsoft/UniSpeech?tab=readme-ov-file
+
+Models – Hugging Face
+https://huggingface.co/models?other=wavlm&p=2&sort=trending
+
+wrice/wavlm-large-timit-punctuation · Hugging Face
+https://huggingface.co/wrice/wavlm-large-timit-punctuation
+
+Darveht/zenvion-voice-detector-v0.3 · Hugging Face
+https://huggingface.co/Darveht/zenvion-voice-detector-v0.3
+
+microsoft/wavlm-base-plus-sv · Hugging Face
+https://huggingface.co/microsoft/wavlm-base-plus-sv
+
+VoxCeleb
+https://www.robots.ox.ac.uk/~vgg/data/voxceleb/#:~:text=VoxCeleb%20is%20an%20audio%2Dvisual,interview%20videos%20uploaded%20to%20YouTube
+
+VoxCeleb
+https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html
+
+VoxCeleb
+https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html
+
+s3prl/s3prl: Self-Supervised Speech Pre-training and Representation Learning Toolkit
+https://github.com/s3prl/s3prl?tab=readme-ov-file
+
+Adding New Upstream - S3PRL 0.4.18 documentation
+https://s3prl.github.io/s3prl/contribute/upstream.html
+
+MS-HuBERT: Mitigating Pre-training and Inference Mismatch in Masked Language Modelling methods for learning Speech Representations
+https://arxiv.org/pdf/2406.05661
+
+superbbenchmark.org
+https://superbbenchmark.org/
+
+superbbenchmark.org
+https://superbbenchmark.org/
+
+BUTSpeechFIT/TS_SUPERB
+https://github.com/BUTSpeechFIT/TS_SUPERB
+
+[2110.13900] WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing
+https://arxiv.org/abs/2110.13900
+
+SUPERB
+http://web.archive.org/web/20250330184533/https://superbbenchmark.org/leaderboard
+
+voxceleb - Google Search
+https://www.google.com/search?q=voxceleb&rlz=1C5GCCM_en&oq=voxceleb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIMCAIQABhDGIAEGIoFMgcIAxAAGIAEMgwIBBAAGEMYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxNjgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+v-iashin/VoxCeleb: An attempt to replicate the results of [1706.08612] VoxCeleb: a large-scale speaker identification dataset
+https://github.com/v-iashin/VoxCeleb
+
+voxceleb  |  TensorFlow Datasets
+https://www.tensorflow.org/datasets/catalog/voxceleb
+
+speechbrain/spkrec-ecapa-voxceleb · Hugging Face
+https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb
+
+Stevie Nicks - Edge of Seventeen (Official Music Video) - YouTube
+https://www.youtube.com/watch?v=UmPgMc3R8zg
 
 
