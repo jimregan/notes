@@ -4,7 +4,7 @@ layout: post
 hidden: true
 description: Hungarian notes from Gemini
 title: Idiom explanation
-categories: [hungarian, gemini, reels]
+categories: [hungarian, gemini, idioms]
 ---
 
 [befőtt](https://en.bab.la/dictionary/hungarian-english/bef%C5%91tt)
@@ -83,8 +83,6 @@ If someone is feeling weak or "shaky" (e.g., after a workout or when sick):
 * **"My legs feel like jelly."** (This is a direct parallel to the food metaphor!)
 * **"To be soft."**
 
----
-
 ### A Quick Comparison
 
 | Hungarian | English Equivalent | Vibe |
@@ -93,5 +91,3 @@ If someone is feeling weak or "shaky" (e.g., after a workout or when sick):
 | **Lekvár** | "A wimp" / "Soft" | Weak, slow, or lacking "structure." |
 
 **Fun Fact:** In sports or games, if a Hungarian calls a player "lekvár," the best English insult would be calling them **"soft"** or a **"bottler"** (someone who crumbles under pressure).
-
-Would you like to explore more food-related insults, or should we look at some "spicier" Hungarian expressions?
