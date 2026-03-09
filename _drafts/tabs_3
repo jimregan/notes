@@ -52,7 +52,7 @@ https://github.com/lumaku/ctc-segmentation?tab=readme-ov-file
 Processing MP3 files with unnormalized text and line breaks - Claude
 https://claude.ai/chat/05214162-b0a6-4a34-a930-c391f8d15990
 
-Instagram
+(1) Instagram
 https://www.instagram.com/reels/DUyU_XGFIK6/
 
 Robinson Crusoe — in Words of One Syllable by Daniel Defoe and Lucy Aikin | Project Gutenberg
@@ -256,6 +256,12 @@ https://pypi.org/project/mlx-whisper/
 Models – Hugging Face
 https://huggingface.co/models?other=whisper&p=1&sort=trending&search=ga
 
+jimregan/merged-vctk-cmuarctic-gbi · Datasets at Hugging Face
+https://huggingface.co/datasets/jimregan/merged-vctk-cmuarctic-gbi
+
+jimregan/sst-wavlm-merged-tts · Training metrics
+https://huggingface.co/jimregan/sst-wavlm-merged-tts/tensorboard
+
 Qwen3-ASR - a mlx-community Collection
 https://huggingface.co/collections/mlx-community/qwen3-asr
 
@@ -373,28 +379,118 @@ https://huggingface.co/models?other=wavlm&p=2&sort=trending
 wrice/wavlm-large-timit-punctuation · Hugging Face
 https://huggingface.co/wrice/wavlm-large-timit-punctuation
 
-Darveht/zenvion-voice-detector-v0.3 · Hugging Face
-https://huggingface.co/Darveht/zenvion-voice-detector-v0.3
-
 microsoft/wavlm-base-plus-sv · Hugging Face
 https://huggingface.co/microsoft/wavlm-base-plus-sv
 
-microsoft (Microsoft)
-https://huggingface.co/microsoft/collections
+prithivMLmods/Common-Voice-Gender-Detection · Hugging Face
+https://huggingface.co/prithivMLmods/Common-Voice-Gender-Detection
+
+Models – Hugging Face
+https://huggingface.co/models?sort=trending&search=accent
+
+README.md · vkao8264/mms-accent-predict at main
+https://huggingface.co/vkao8264/mms-accent-predict/blob/main/README.md
+
+Speech Accent Archive
+https://www.kaggle.com/datasets/rtatman/speech-accent-archive/code
+
+accent-recognition
+https://www.kaggle.com/code/mohamedfarouk94/accent-recognition
+
+Speech Accent Detection using CNN
+https://www.kaggle.com/code/taliyameyswara/speech-accent-detection-using-cnn#%F0%9F%8C%9F-Label-Encoding-%F0%9F%8C%9F
+
+accent-detection-done
+https://www.kaggle.com/code/taliyameyswara/accent-detection-done
+
+Speech_accent
+https://www.kaggle.com/code/jogaedukondalu/speech-accent
+
+Sounify Accent Recognition - Kelompok 4
+https://www.kaggle.com/code/verrenangelina/sounify-accent-recognition-kelompok-4
+
+accent_classification
+https://www.kaggle.com/code/mariusdumitrescu/accent-classification
+
+Speech Accent Multiclass Classification
+https://www.kaggle.com/code/dima806/speech-accent-multiclass-classification
+
+speech_accent_classification
+https://www.kaggle.com/code/dima806/speech-accent-classification
+
+fbadine/uk_ireland_accent_classification · Hugging Face
+https://huggingface.co/fbadine/uk_ireland_accent_classification
+
+keras-io/english-speaker-accent-recognition-using-transfer-learning · Hugging Face
+https://huggingface.co/keras-io/english-speaker-accent-recognition-using-transfer-learning
+
+Google | yamnet | Kaggle
+https://www.kaggle.com/models/google/yamnet/tensorFlow2/yamnet/1?tfhub-redirect=true
+
+vkao8264/mms-accent-predict · Hugging Face
+https://huggingface.co/vkao8264/mms-accent-predict
+
+Speech Accent Archive
+https://www.kaggle.com/datasets/rtatman/speech-accent-archive/discussion?sort=undefined
+
+English Accent Classification Dataset
+https://www.kaggle.com/datasets/himanshu9648/english-accent-classification-dataset
 
 speechbrain/spkrec-ecapa-voxceleb · Hugging Face
 https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb
 
-YouTube
-https://www.youtube.com/
+Process audio data
+https://huggingface.co/docs/datasets/audio_process
 
-Eddie Van Halen Absolutely Going Off #vanhalen #guitar #rocklegend - YouTube
-https://www.youtube.com/shorts/5Fz9GwqVoUk
+New tab
+chrome://newtab/
 
-Steve Vai vs Yngwie Malmsteen: The “Black Star” Duel - YouTube
-https://www.youtube.com/watch?v=6WNVDNOPVuE
+spoken-sentence-transformers/docs/adding-a-dataset.md at main · jimregan/spoken-sentence-transformers
+https://github.com/jimregan/spoken-sentence-transformers/blob/main/docs/adding-a-dataset.md
 
-Yngwie & Vai, GENERATION AXE, Dallas 2106 - YouTube
-https://www.youtube.com/watch?v=teS2ozmPwt8
+tropes.md - Tropes
+https://tropes.fyi/tropes-md
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+accent classifier wav2vec huggingface - Google Search
+https://www.google.com/search?q=accent+classifier+wav2vec+huggingface&rlz=1C5GCCM_en&oq=accent+classifier+wav2vec+huggingface&gs_lcrp=EgZjaHJvbWUyCwgAEEUYChg5GKABMgkIARAhGAoYoAEyBwgCECEYnwXSAQg3MTQxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+MilesPurvis/english-accent-classifier · Hugging Face
+https://huggingface.co/MilesPurvis/english-accent-classifier
+
+Jzuluaga/accent-id-commonaccent_xlsr-en-english · Hugging Face
+https://huggingface.co/Jzuluaga/accent-id-commonaccent_xlsr-en-english
+
+JuanPZuluaga/accent-recog-slt2022: Repository for Accent Recognition (Hackathon @SLT2022)
+https://github.com/JuanPZuluaga/accent-recog-slt2022
+
+Jzuluaga (Juan Pablo Zuluaga)
+https://huggingface.co/Jzuluaga/models
+
+Jzuluaga/accent-id-commonaccent_ecapa · Hugging Face
+https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa
+
+speechbrain/recipes/CommonLanguage at develop · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/tree/develop/recipes/CommonLanguage
+
+ylacombe/accent-classifier · Hugging Face
+https://huggingface.co/ylacombe/accent-classifier
+
+[2305.18283] CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice
+https://arxiv.org/abs/2305.18283
+
+speechbrain/recipes at develop · speechbrain/speechbrain
+https://github.com/speechbrain/speechbrain/tree/develop/recipes
+
+Using Wav2Vec in speech classification/regression problems - Languages at Hugging Face - Hugging Face Forums
+https://discuss.huggingface.co/t/using-wav2vec-in-speech-classification-regression-problems/6361/3
+
+kim24l_interspeech.pdf
+https://www.isca-archive.org/interspeech_2024/kim24l_interspeech.pdf
+
+Multi Variable Regression - Emotion recognition in Greek speech using Wav2Vec2.ipynb - Colab
+https://colab.research.google.com/github/m3hrdadfi/soxan/blob/main/notebooks/Regression_Example_Emotion_recognition_in_Greek_speech_using_Wav2Vec2.ipynb
 
 
