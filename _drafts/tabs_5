@@ -1,5 +1,5 @@
-[2602.01634] HuPER: A Human-Inspired Framework for Phonetic Perception
-https://arxiv.org/abs/2602.01634
+HuPER: A Human-Inspired Framework for Phonetic Perception
+https://arxiv.org/pdf/2602.01634
 
 HuPER29/HuPER
 https://github.com/HuPER29/HuPER/tree/main?tab=readme-ov-file
@@ -37,11 +37,38 @@ https://www.tsdconference.org/tsd2026/conf_dates.html
 TSD 2026 Conference Topics
 https://www.tsdconference.org/tsd2026/conf_topics.html
 
-WavLM - Google Search
-https://www.google.com/search?q=WavLM&rlz=1C5GCCM_en&oq=WavLM&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEHMzYxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+[2110.13900] WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing
+https://arxiv.org/abs/2110.13900
+
+2110.13900
+https://arxiv.org/pdf/2110.13900
 
 disentanglement in speech - Google Search
 https://www.google.com/search?q=disentanglement+in+speech&sca_esv=8b337c4555c3eeec&rlz=1C5GCCM_en&sxsrf=ANbL-n71_J0Uph9IP6fWaLDZfauCy7k3LA%3A1771323144007&ei=CD-UabgW49DA8A-bjswR&biw=1440&bih=710&ved=0ahUKEwi4up_2pOCSAxVjKBAIHRsHMwIQ4dUDCBM&uact=5&oq=disentanglement+in+speech&gs_lp=Egxnd3Mtd2l6LXNlcnAiGWRpc2VudGFuZ2xlbWVudCBpbiBzcGVlY2gyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGJ8FSMUQUKgBWJYOcAF4AZABAJgBgAGgAbcGqgEDOS4xuAEDyAEA-AEBmAILoALMBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIGEAAYFhgewgIIEAAYFhgKGB7CAgUQABjvBcICCBAAGIAEGKIEwgIIEAAYogQYiQXCAgcQIRigARgKmAMAiAYBkAYKkgcEMTAuMaAH7S-yBwM5LjG4B8gGwgcDNS42yAcNgAgA&sclient=gws-wiz-serp
+
+Dispeech: A Synthetic Toy Dataset for Speech Disentangling | IEEE Conference Publication | IEEE Xplore
+https://ieeexplore.ieee.org/document/9747011
+
+β-VAE - Google Search
+https://www.google.com/search?q=%CE%B2-VAE&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | OpenReview
+https://openreview.net/forum?id=Sy2fzU9gl
+
+[1804.03599] Understanding disentangling in $β$-VAE
+https://arxiv.org/abs/1804.03599
+
+Understanding disentangling in - Google Search
+https://www.google.com/search?q=Understanding+disentangling+in&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+mathieu19a.pdf
+https://proceedings.mlr.press/v97/mathieu19a/mathieu19a.pdf
+
+Understanding disentangling in β-VAE · Issue #33 · howardyclo/papernotes
+https://github.com/howardyclo/papernotes/issues/33
+
+disentanglement_lib/disentanglement_lib/methods/unsupervised/train.py at master · google-research/disentanglement_lib
+https://github.com/google-research/disentanglement_lib/blob/master/disentanglement_lib/methods/unsupervised/train.py
 
 Learning Disentangled Speech Representations
 https://synspeech.github.io/
@@ -55,11 +82,38 @@ https://arxiv.org/abs/2401.08096
 2401.08096
 https://arxiv.org/pdf/2401.08096
 
-YoungSeng/SRD-VC: Speech Representation Disentanglement with Adversarial Mutual Information Learning for One-shot Voice Conversion (Interspeech 2022)
-https://github.com/YoungSeng/SRD-VC
+SRD-VC/f0_pcc.py at master · YoungSeng/SRD-VC
+https://github.com/YoungSeng/SRD-VC/blob/master/f0_pcc.py
+
+auspicious3000/SpeechSplit: Unsupervised Speech Decomposition Via Triple Information Bottleneck
+https://github.com/auspicious3000/SpeechSplit/blob/master/make_spect_f0.py
+
+Jupyter Notebook Viewer
+https://nbviewer.org/github/r9y9/pysptk/blob/master/examples/pysptk%20introduction.ipynb
+
+Jupyter Notebook Viewer
+https://nbviewer.org/github/r9y9/pysptk/blob/master/examples/Speech%20analysis%20and%20re-synthesis.ipynb
 
 Berkeley-Speech-Group/Speech-Articulatory-Coding
 https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding?tab=readme-ov-file
+
+EXPRESSO dataset - Google Search
+https://www.google.com/search?q=EXPRESSO+dataset&sca_esv=633469e161d1facd&rlz=1C5GCCM_en&sxsrf=ANbL-n5fKwbnN5nsLJGWaCVJ605HNIheDg%3A1771854867273&ei=E1ycab-qEObvwPAP1Myp4Qc&biw=1440&bih=710&ved=0ahUKEwj__9Pf4e-SAxXmNxAIHVRmKnwQ4dUDCBE&uact=5&oq=EXPRESSO+dataset&gs_lp=Egxnd3Mtd2l6LXNlcnAiEEVYUFJFU1NPIGRhdGFzZXQyChAjGIAEGCcYigUyBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyBRAAGO8FMgUQABjvBUj5DFCeA1iEDHABeAGQAQCYAXCgAZcFqgEDNi4yuAEDyAEA-AEBmAIIoALEBcICDxAuGIAEGNEDGMcBGAoYC8ICCRAuGIAEGAoYC8ICDBAAGIAEGMkDGAoYC8ICDBAAGIAEGJIDGAoYC8ICCxAAGIAEGJIDGIoFwgIJEAAYgAQYChgLwgILEAAYgAQYkQIYigXCAgoQABiABBgUGIcCwgIFEAAYgATCAgUQLhiABMICBxAuGIAEGArCAggQABgWGAoYHpgDAIgGAZIHAzYuMqAHv1iyBwM2LjK4B8QFwgcDMi04yAcggAgA&sclient=gws-wiz-serp
+
+speechbot.github.io/expresso/
+https://speechbot.github.io/expresso/
+
+ylacombe/expresso · Datasets at Hugging Face
+https://huggingface.co/datasets/ylacombe/expresso
+
+Submitted to INTERSPEECH
+https://arxiv.org/pdf/2308.05725
+
+maxrmorrison/torchcrepe: Pytorch implementation of the CREPE pitch tracker
+https://github.com/maxrmorrison/torchcrepe?tab=readme-ov-file
+
+microsoft/MMdnn: MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization. Convert models between Caffe, Keras, MXNet, Tensorflow, CNTK, PyTorch Onnx and CoreML.
+https://github.com/microsoft/MMdnn
 
 interactiveaudiolab/penn: Pitch Estimating Neural Networks (PENN)
 https://github.com/interactiveaudiolab/penn?tab=readme-ov-file
@@ -70,22 +124,31 @@ https://github.com/maxrmorrison/torbi
 maxrmorrison/torchcrepe: Pytorch implementation of the CREPE pitch tracker
 https://github.com/maxrmorrison/torchcrepe
 
-New tab
-chrome://newtab/
-
-Skaffa bibliotekskort — Stockholms stadsbibliotek
-https://biblioteket.stockholm.se/ansok-lanekort
-
-studentbacken 25 postort - Google Search
-https://www.google.com/search?q=studentbacken+25+postort&sca_esv=3c51e872d41103f9&rlz=1C5GCCM_en&sxsrf=ANbL-n6USg5IBgfTTe0JZctv6SF3t4nKrw%3A1771845157632&ei=JTacad-eJp6pwPAPtLqCyAM&biw=1440&bih=710&ved=0ahUKEwifxd7Jve-SAxWeFBAIHTSdADkQ4dUDCBE&uact=5&oq=studentbacken+25+postort&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHN0dWRlbnRiYWNrZW4gMjUgcG9zdG9ydDIFECEYoAEyBRAhGKABSOYMUIkEWOELcAJ4AJABAJgBhQGgAYwFqgEDNS4yuAEDyAEA-AEBmAIJoAKyBcICBxAAGLADGB7CAg4QABiABBiwAxiGAxiKBcICCBAAGLADGO8FwgILEAAYgAQYsAMYogTCAgQQIxgnwgILEAAYgAQYhgMYigXCAgUQABjvBcICCBAAGIAEGKIEwgIEECEYFcICBxAhGKABGAqYAwCIBgGQBgqSBwM3LjKgB6cisgcDNS4yuAerBcIHBTAuNS40yAcXgAgA&sclient=gws-wiz-serp
-
-New tab
-chrome://newtab/
-
-postort english - Google Search
-https://www.google.com/search?q=postort+english&sca_esv=3c51e872d41103f9&rlz=1C5GCCM_en&sxsrf=ANbL-n48KcsweKQCK07T-WAhCuxymNgibQ%3A1771845179113&ei=OzacaaLIBtLLwPAPidC0-Qo&biw=1440&bih=710&ved=0ahUKEwji0f3Tve-SAxXSJRAIHQkoLa8Q4dUDCBE&uact=5&oq=postort+english&gs_lp=Egxnd3Mtd2l6LXNlcnAiD3Bvc3RvcnQgZW5nbGlzaDIGEAAYFhgeMgYQABgWGB4yCBAAGBYYChgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMgUQABjvBUjECFAdWNMGcAF4AZABAJgBWKABrQSqAQE4uAEDyAEA-AEBmAIJoALRBMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIFEAAYgATCAgoQABiABBgUGIcCwgIKEAAYgAQYQxiKBZgDAIgGAZAGCpIHATmgB9AusgcBOLgHzQTCBwUwLjQuNcgHG4AIAA&sclient=gws-wiz-serp
-
 1807.03748
 https://arxiv.org/pdf/1807.03748
+
+Current things, 14 June 2025 - Speech-to-Retrieval Overview
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/699217de-7894-8386-b5a7-a94ec823c06a
+
+[2008.03648] An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning
+https://arxiv.org/abs/2008.03648
+
+An Overview of Voice Conversion and Its Challenges: From Statistical Modeling to Deep Learning
+https://dl.acm.org/doi/pdf/10.1109/TASLP.2020.3038524
+
+beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | OpenReview
+https://openreview.net/forum?id=Sy2fzU9gl
+
+speechbot.github.io/expresso/
+https://speechbot.github.io/expresso/
+
+spoken-sentence-transformers-odyssey - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/69b31c8071451d30234130ce
+
+Git Commit Fix
+https://chatgpt.com/c/69b478d2-22b8-8387-8fbf-e9ecb4a8e544
+
+sur patron - Google Search
+https://www.google.com/search?q=sur+patron&rlz=1C5GCCM_en&oq=sur+pat&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQLhiABDIHCAYQABiABDIPCAcQLhgKGK8BGMcBGIAEMgkICBAAGAoYgAQyBwgJEAAYgATSAQgyMDcxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#sv=CAMSVhozKhFpYy1XYktKcDZsLUFxVjZ6TTIOV2JLSnA2bC1BcVY2ek06DnNkNm9rU2tTSmtrWEZNIAQqGwoEc3ZpbRIRaWMtV2JLSnA2bC1BcVY2ek0YATABGAcg0KewkQQwAg
 
 
