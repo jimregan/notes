@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>CMU Arctic sentence ID mapping | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="CMU Arctic sentence ID mapping" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Part of a dataset I’m working on" />
+<meta property="og:description" content="Part of a dataset I’m working on" />
+<link rel="canonical" href="https://jimregan.github.io/notes/arctic/2026/03/03/cmu-arctic-sentence-ids.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/arctic/2026/03/03/cmu-arctic-sentence-ids.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-03T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/arctic/2026/03/03/cmu-arctic-sentence-ids.html","@type":"BlogPosting","headline":"CMU Arctic sentence ID mapping","dateModified":"2026-03-03T00:00:00-06:00","datePublished":"2026-03-03T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/arctic/2026/03/03/cmu-arctic-sentence-ids.html"},"description":"Part of a dataset I’m working on","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">CMU Arctic sentence ID mapping</h1><p class="page-description">Part of a dataset I'm working on</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-03T00:00:00-06:00" itemprop="datePublished">
+        Mar 3, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      8 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#arctic">arctic</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/jimregan/notes/tree/master/_notebooks/2026-03-03-cmu-arctic-sentence-ids.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/notes/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/jimregan/notes/master?filepath=_notebooks%2F2026-03-03-cmu-arctic-sentence-ids.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/jimregan/notes/blob/master/_notebooks/2026-03-03-cmu-arctic-sentence-ids.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/notes/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2026-03-03-cmu-arctic-sentence-ids.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">BASE</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;/Users/joregan/Playing/work-2026/arctic&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">RXR</span> <span class="o">=</span> <span class="n">BASE</span> <span class="o">/</span> <span class="s2">&quot;cmu_us_rxr_arctic&quot;</span> <span class="o">/</span> <span class="s2">&quot;etc&quot;</span> <span class="o">/</span> <span class="s2">&quot;txt.done.data&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">read_text</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">):</span>
+    <span class="n">text_pairs</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
+            <span class="n">text_start</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+            <span class="n">text_end</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rfind</span><span class="p">(</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="n">text_start</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span><span class="n">text_end</span><span class="p">]</span>
+            <span class="n">text_id</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="n">text_start</span><span class="p">]</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+            <span class="n">text_pairs</span><span class="p">[</span><span class="n">text_id</span><span class="p">]</span> <span class="o">=</span> <span class="n">text</span>
+    <span class="k">return</span> <span class="n">text_pairs</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rxr_ids</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">read_text</span><span class="p">(</span><span class="n">RXR</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">norm_word</span><span class="p">(</span><span class="n">word</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;--&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">word</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s2">&quot;.,!?;:</span><span class="se">\&quot;</span><span class="s2">()&quot;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">norm_sentence</span><span class="p">(</span><span class="n">sentence</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">norm_word</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">sentence</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">norm_word</span><span class="p">(</span><span class="n">w</span><span class="p">)</span> <span class="o">!=</span> <span class="s2">&quot;&quot;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reverse_rxr_ids</span> <span class="o">=</span> <span class="p">{</span><span class="n">norm_sentence</span><span class="p">(</span><span class="n">v</span><span class="p">):</span> <span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">rxr_ids</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">remapped</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">subset</span> <span class="ow">in</span> <span class="n">BASE</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;cmu_us_*_arctic&quot;</span><span class="p">):</span>
+    <span class="n">person</span> <span class="o">=</span> <span class="n">subset</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;_&quot;</span><span class="p">)[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">subset</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s2">&quot;etc/txt.done.data&quot;</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">read_text</span><span class="p">(</span><span class="n">file</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">sentence</span> <span class="o">=</span> <span class="n">norm_sentence</span><span class="p">(</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="k">if</span> <span class="n">sentence</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">reverse_rxr_ids</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">rxr_ids</span><span class="p">:</span>
+                    <span class="n">rxr_ids</span><span class="p">[</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                    <span class="n">reverse_rxr_ids</span><span class="p">[</span><span class="n">sentence</span><span class="p">]</span> <span class="o">=</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="k">elif</span> <span class="n">person</span> <span class="o">==</span> <span class="s2">&quot;awb&quot;</span> <span class="ow">and</span> <span class="s2">&quot;-&quot;</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+                    <span class="n">sentence_no_hyphen</span> <span class="o">=</span> <span class="n">sentence</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="s2">&quot; &quot;</span><span class="p">)</span>
+                    <span class="k">if</span> <span class="n">sentence_no_hyphen</span> <span class="ow">in</span> <span class="n">reverse_rxr_ids</span> <span class="ow">and</span> <span class="n">reverse_rxr_ids</span><span class="p">[</span><span class="n">sentence_no_hyphen</span><span class="p">]</span> <span class="o">!=</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                        <span class="k">if</span> <span class="ow">not</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">remapped</span><span class="p">:</span>
+                            <span class="n">remapped</span><span class="p">[</span><span class="n">person</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+                        <span class="n">remapped</span><span class="p">[</span><span class="n">person</span><span class="p">][</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">reverse_rxr_ids</span><span class="p">[</span><span class="n">sentence_no_hyphen</span><span class="p">]</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Missing: </span><span class="si">{</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">person</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">sentence</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">reverse_rxr_ids</span> <span class="ow">and</span> <span class="n">reverse_rxr_ids</span><span class="p">[</span><span class="n">sentence</span><span class="p">]</span> <span class="o">!=</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">remapped</span><span class="p">:</span>
+                        <span class="n">remapped</span><span class="p">[</span><span class="n">person</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+                    <span class="n">remapped</span><span class="p">[</span><span class="n">person</span><span class="p">][</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">reverse_rxr_ids</span><span class="p">[</span><span class="n">sentence</span><span class="p">]</span>            
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Missing: arctic_b0028 jmk lord fitzhugh is the key to this whole situation
+Missing: arctic_a0335 awb this is no place fer you
+Missing: arctic_a0336 awb he&#39;ll knock yeh off a few sticks in no time
+Missing: arctic_a0433 awb her true course had been west 0.75 south
+Missing: arctic_a0557 awb jack london waikiki beach honolulu oahu t.h
+Missing: arctic_a0567 awb an hallucination began to trouble him
+Missing: arctic_b0211 awb this is 1880
+Missing: arctic_b0234 awb and watch out for wet feet,&#39; was his parting advice
+Missing: arctic_b0419 awb to begin with i read late
+Missing: arctic_b0426 awb there were orange green gold green and a copper green
+Missing: arctic_b0445 awb he sat beside the gendarme and beamed
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">SIMILAR</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;jmk&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;arctic_b0028&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_b0028&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;awb&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;arctic_a0335&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_a0333&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;arctic_a0336&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_a0334&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;arctic_a0433&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_c0036&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;arctic_a0557&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_a0554&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;arctic_b0211&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_b0211&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;arctic_b0234&quot;</span><span class="p">:</span> <span class="s2">&quot;arctic_b0234&quot;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">remapped</span><span class="p">[</span><span class="s2">&quot;awb&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;arctic_a0075&#39;: &#39;arctic_a0074&#39;,
+ &#39;arctic_a0076&#39;: &#39;arctic_a0075&#39;,
+ &#39;arctic_a0077&#39;: &#39;arctic_a0076&#39;,
+ &#39;arctic_a0078&#39;: &#39;arctic_a0077&#39;,
+ &#39;arctic_a0079&#39;: &#39;arctic_c0026&#39;,
+ &#39;arctic_a0080&#39;: &#39;arctic_a0078&#39;,
+ &#39;arctic_a0081&#39;: &#39;arctic_a0079&#39;,
+ &#39;arctic_a0082&#39;: &#39;arctic_a0080&#39;,
+ &#39;arctic_a0083&#39;: &#39;arctic_a0081&#39;,
+ &#39;arctic_a0084&#39;: &#39;arctic_a0082&#39;,
+ &#39;arctic_a0085&#39;: &#39;arctic_a0083&#39;,
+ &#39;arctic_a0086&#39;: &#39;arctic_a0084&#39;,
+ &#39;arctic_a0087&#39;: &#39;arctic_a0085&#39;,
+ &#39;arctic_a0088&#39;: &#39;arctic_a0086&#39;,
+ &#39;arctic_a0089&#39;: &#39;arctic_a0087&#39;,
+ &#39;arctic_a0090&#39;: &#39;arctic_a0088&#39;,
+ &#39;arctic_a0092&#39;: &#39;arctic_a0090&#39;,
+ &#39;arctic_a0093&#39;: &#39;arctic_a0091&#39;,
+ &#39;arctic_a0095&#39;: &#39;arctic_a0093&#39;,
+ &#39;arctic_a0096&#39;: &#39;arctic_a0094&#39;,
+ &#39;arctic_a0097&#39;: &#39;arctic_a0095&#39;,
+ &#39;arctic_a0098&#39;: &#39;arctic_a0096&#39;,
+ &#39;arctic_a0099&#39;: &#39;arctic_a0097&#39;,
+ &#39;arctic_a0100&#39;: &#39;arctic_a0098&#39;,
+ &#39;arctic_a0101&#39;: &#39;arctic_a0099&#39;,
+ &#39;arctic_a0102&#39;: &#39;arctic_a0100&#39;,
+ &#39;arctic_a0104&#39;: &#39;arctic_a0102&#39;,
+ &#39;arctic_a0105&#39;: &#39;arctic_a0103&#39;,
+ &#39;arctic_a0106&#39;: &#39;arctic_a0104&#39;,
+ &#39;arctic_a0107&#39;: &#39;arctic_a0105&#39;,
+ &#39;arctic_a0108&#39;: &#39;arctic_a0106&#39;,
+ &#39;arctic_a0109&#39;: &#39;arctic_a0107&#39;,
+ &#39;arctic_a0110&#39;: &#39;arctic_a0108&#39;,
+ &#39;arctic_a0111&#39;: &#39;arctic_a0109&#39;,
+ &#39;arctic_a0112&#39;: &#39;arctic_a0110&#39;,
+ &#39;arctic_a0113&#39;: &#39;arctic_a0111&#39;,
+ &#39;arctic_a0114&#39;: &#39;arctic_a0112&#39;,
+ &#39;arctic_a0115&#39;: &#39;arctic_a0113&#39;,
+ &#39;arctic_a0116&#39;: &#39;arctic_a0114&#39;,
+ &#39;arctic_a0117&#39;: &#39;arctic_a0115&#39;,
+ &#39;arctic_a0118&#39;: &#39;arctic_a0116&#39;,
+ &#39;arctic_a0119&#39;: &#39;arctic_a0117&#39;,
+ &#39;arctic_a0120&#39;: &#39;arctic_a0118&#39;,
+ &#39;arctic_a0121&#39;: &#39;arctic_a0119&#39;,
+ &#39;arctic_a0122&#39;: &#39;arctic_a0120&#39;,
+ &#39;arctic_a0123&#39;: &#39;arctic_a0121&#39;,
+ &#39;arctic_a0124&#39;: &#39;arctic_a0122&#39;,
+ &#39;arctic_a0125&#39;: &#39;arctic_a0123&#39;,
+ &#39;arctic_a0126&#39;: &#39;arctic_a0124&#39;,
+ &#39;arctic_a0127&#39;: &#39;arctic_a0125&#39;,
+ &#39;arctic_a0128&#39;: &#39;arctic_a0126&#39;,
+ &#39;arctic_a0129&#39;: &#39;arctic_a0127&#39;,
+ &#39;arctic_a0130&#39;: &#39;arctic_a0128&#39;,
+ &#39;arctic_a0131&#39;: &#39;arctic_a0129&#39;,
+ &#39;arctic_a0132&#39;: &#39;arctic_a0130&#39;,
+ &#39;arctic_a0133&#39;: &#39;arctic_a0131&#39;,
+ &#39;arctic_a0134&#39;: &#39;arctic_a0132&#39;,
+ &#39;arctic_a0135&#39;: &#39;arctic_a0133&#39;,
+ &#39;arctic_a0136&#39;: &#39;arctic_a0134&#39;,
+ &#39;arctic_a0137&#39;: &#39;arctic_a0135&#39;,
+ &#39;arctic_a0138&#39;: &#39;arctic_a0136&#39;,
+ &#39;arctic_a0139&#39;: &#39;arctic_a0137&#39;,
+ &#39;arctic_a0140&#39;: &#39;arctic_a0138&#39;,
+ &#39;arctic_a0141&#39;: &#39;arctic_a0139&#39;,
+ &#39;arctic_a0142&#39;: &#39;arctic_a0140&#39;,
+ &#39;arctic_a0143&#39;: &#39;arctic_a0141&#39;,
+ &#39;arctic_a0144&#39;: &#39;arctic_a0142&#39;,
+ &#39;arctic_a0145&#39;: &#39;arctic_a0143&#39;,
+ &#39;arctic_a0146&#39;: &#39;arctic_a0144&#39;,
+ &#39;arctic_a0147&#39;: &#39;arctic_a0145&#39;,
+ &#39;arctic_a0148&#39;: &#39;arctic_a0146&#39;,
+ &#39;arctic_a0149&#39;: &#39;arctic_a0147&#39;,
+ &#39;arctic_a0150&#39;: &#39;arctic_a0148&#39;,
+ &#39;arctic_a0151&#39;: &#39;arctic_a0149&#39;,
+ &#39;arctic_a0153&#39;: &#39;arctic_a0151&#39;,
+ &#39;arctic_a0154&#39;: &#39;arctic_a0152&#39;,
+ &#39;arctic_a0155&#39;: &#39;arctic_a0153&#39;,
+ &#39;arctic_a0156&#39;: &#39;arctic_a0154&#39;,
+ &#39;arctic_a0157&#39;: &#39;arctic_a0155&#39;,
+ &#39;arctic_a0158&#39;: &#39;arctic_a0156&#39;,
+ &#39;arctic_a0159&#39;: &#39;arctic_a0157&#39;,
+ &#39;arctic_a0160&#39;: &#39;arctic_a0158&#39;,
+ &#39;arctic_a0161&#39;: &#39;arctic_a0159&#39;,
+ &#39;arctic_a0162&#39;: &#39;arctic_a0160&#39;,
+ &#39;arctic_a0163&#39;: &#39;arctic_a0161&#39;,
+ &#39;arctic_a0164&#39;: &#39;arctic_a0162&#39;,
+ &#39;arctic_a0165&#39;: &#39;arctic_a0163&#39;,
+ &#39;arctic_a0166&#39;: &#39;arctic_a0164&#39;,
+ &#39;arctic_a0168&#39;: &#39;arctic_a0166&#39;,
+ &#39;arctic_a0169&#39;: &#39;arctic_a0167&#39;,
+ &#39;arctic_a0170&#39;: &#39;arctic_a0168&#39;,
+ &#39;arctic_a0171&#39;: &#39;arctic_a0169&#39;,
+ &#39;arctic_a0172&#39;: &#39;arctic_a0170&#39;,
+ &#39;arctic_a0173&#39;: &#39;arctic_a0171&#39;,
+ &#39;arctic_a0174&#39;: &#39;arctic_a0172&#39;,
+ &#39;arctic_a0175&#39;: &#39;arctic_a0173&#39;,
+ &#39;arctic_a0176&#39;: &#39;arctic_a0174&#39;,
+ &#39;arctic_a0177&#39;: &#39;arctic_a0175&#39;,
+ &#39;arctic_a0178&#39;: &#39;arctic_a0176&#39;,
+ &#39;arctic_a0179&#39;: &#39;arctic_a0177&#39;,
+ &#39;arctic_a0180&#39;: &#39;arctic_a0178&#39;,
+ &#39;arctic_a0182&#39;: &#39;arctic_a0180&#39;,
+ &#39;arctic_a0183&#39;: &#39;arctic_a0181&#39;,
+ &#39;arctic_a0184&#39;: &#39;arctic_a0182&#39;,
+ &#39;arctic_a0185&#39;: &#39;arctic_a0183&#39;,
+ &#39;arctic_a0186&#39;: &#39;arctic_a0184&#39;,
+ &#39;arctic_a0187&#39;: &#39;arctic_a0185&#39;,
+ &#39;arctic_a0188&#39;: &#39;arctic_a0186&#39;,
+ &#39;arctic_a0189&#39;: &#39;arctic_a0187&#39;,
+ &#39;arctic_a0190&#39;: &#39;arctic_a0188&#39;,
+ &#39;arctic_a0191&#39;: &#39;arctic_a0189&#39;,
+ &#39;arctic_a0192&#39;: &#39;arctic_a0190&#39;,
+ &#39;arctic_a0193&#39;: &#39;arctic_a0191&#39;,
+ &#39;arctic_a0194&#39;: &#39;arctic_a0192&#39;,
+ &#39;arctic_a0195&#39;: &#39;arctic_a0193&#39;,
+ &#39;arctic_a0196&#39;: &#39;arctic_a0194&#39;,
+ &#39;arctic_a0197&#39;: &#39;arctic_a0195&#39;,
+ &#39;arctic_a0198&#39;: &#39;arctic_a0196&#39;,
+ &#39;arctic_a0199&#39;: &#39;arctic_a0197&#39;,
+ &#39;arctic_a0200&#39;: &#39;arctic_a0198&#39;,
+ &#39;arctic_a0201&#39;: &#39;arctic_a0199&#39;,
+ &#39;arctic_a0202&#39;: &#39;arctic_a0200&#39;,
+ &#39;arctic_a0203&#39;: &#39;arctic_a0201&#39;,
+ &#39;arctic_a0204&#39;: &#39;arctic_a0202&#39;,
+ &#39;arctic_a0205&#39;: &#39;arctic_a0203&#39;,
+ &#39;arctic_a0206&#39;: &#39;arctic_a0204&#39;,
+ &#39;arctic_a0207&#39;: &#39;arctic_a0205&#39;,
+ &#39;arctic_a0208&#39;: &#39;arctic_a0206&#39;,
+ &#39;arctic_a0209&#39;: &#39;arctic_a0207&#39;,
+ &#39;arctic_a0210&#39;: &#39;arctic_a0208&#39;,
+ &#39;arctic_a0211&#39;: &#39;arctic_a0209&#39;,
+ &#39;arctic_a0212&#39;: &#39;arctic_a0210&#39;,
+ &#39;arctic_a0213&#39;: &#39;arctic_a0211&#39;,
+ &#39;arctic_a0214&#39;: &#39;arctic_a0212&#39;,
+ &#39;arctic_a0215&#39;: &#39;arctic_a0213&#39;,
+ &#39;arctic_a0216&#39;: &#39;arctic_a0214&#39;,
+ &#39;arctic_a0217&#39;: &#39;arctic_a0215&#39;,
+ &#39;arctic_a0218&#39;: &#39;arctic_a0216&#39;,
+ &#39;arctic_a0219&#39;: &#39;arctic_a0217&#39;,
+ &#39;arctic_a0220&#39;: &#39;arctic_a0218&#39;,
+ &#39;arctic_a0221&#39;: &#39;arctic_a0219&#39;,
+ &#39;arctic_a0222&#39;: &#39;arctic_a0220&#39;,
+ &#39;arctic_a0223&#39;: &#39;arctic_a0221&#39;,
+ &#39;arctic_a0224&#39;: &#39;arctic_a0222&#39;,
+ &#39;arctic_a0225&#39;: &#39;arctic_a0223&#39;,
+ &#39;arctic_a0226&#39;: &#39;arctic_a0224&#39;,
+ &#39;arctic_a0227&#39;: &#39;arctic_a0225&#39;,
+ &#39;arctic_a0228&#39;: &#39;arctic_a0226&#39;,
+ &#39;arctic_a0229&#39;: &#39;arctic_a0227&#39;,
+ &#39;arctic_a0230&#39;: &#39;arctic_a0228&#39;,
+ &#39;arctic_a0231&#39;: &#39;arctic_a0229&#39;,
+ &#39;arctic_a0232&#39;: &#39;arctic_a0230&#39;,
+ &#39;arctic_a0233&#39;: &#39;arctic_a0231&#39;,
+ &#39;arctic_a0234&#39;: &#39;arctic_a0232&#39;,
+ &#39;arctic_a0235&#39;: &#39;arctic_a0233&#39;,
+ &#39;arctic_a0236&#39;: &#39;arctic_a0234&#39;,
+ &#39;arctic_a0237&#39;: &#39;arctic_a0235&#39;,
+ &#39;arctic_a0238&#39;: &#39;arctic_a0236&#39;,
+ &#39;arctic_a0239&#39;: &#39;arctic_a0237&#39;,
+ &#39;arctic_a0240&#39;: &#39;arctic_a0238&#39;,
+ &#39;arctic_a0241&#39;: &#39;arctic_a0239&#39;,
+ &#39;arctic_a0242&#39;: &#39;arctic_a0240&#39;,
+ &#39;arctic_a0243&#39;: &#39;arctic_a0241&#39;,
+ &#39;arctic_a0244&#39;: &#39;arctic_a0242&#39;,
+ &#39;arctic_a0245&#39;: &#39;arctic_a0243&#39;,
+ &#39;arctic_a0246&#39;: &#39;arctic_a0244&#39;,
+ &#39;arctic_a0247&#39;: &#39;arctic_a0245&#39;,
+ &#39;arctic_a0248&#39;: &#39;arctic_a0246&#39;,
+ &#39;arctic_a0250&#39;: &#39;arctic_a0248&#39;,
+ &#39;arctic_a0251&#39;: &#39;arctic_a0249&#39;,
+ &#39;arctic_a0252&#39;: &#39;arctic_a0250&#39;,
+ &#39;arctic_a0253&#39;: &#39;arctic_a0251&#39;,
+ &#39;arctic_a0254&#39;: &#39;arctic_a0252&#39;,
+ &#39;arctic_a0255&#39;: &#39;arctic_a0253&#39;,
+ &#39;arctic_a0256&#39;: &#39;arctic_a0254&#39;,
+ &#39;arctic_a0257&#39;: &#39;arctic_a0255&#39;,
+ &#39;arctic_a0258&#39;: &#39;arctic_a0256&#39;,
+ &#39;arctic_a0259&#39;: &#39;arctic_a0257&#39;,
+ &#39;arctic_a0261&#39;: &#39;arctic_a0259&#39;,
+ &#39;arctic_a0262&#39;: &#39;arctic_a0260&#39;,
+ &#39;arctic_a0263&#39;: &#39;arctic_a0261&#39;,
+ &#39;arctic_a0264&#39;: &#39;arctic_a0262&#39;,
+ &#39;arctic_a0265&#39;: &#39;arctic_a0263&#39;,
+ &#39;arctic_a0266&#39;: &#39;arctic_a0264&#39;,
+ &#39;arctic_a0267&#39;: &#39;arctic_a0265&#39;,
+ &#39;arctic_a0268&#39;: &#39;arctic_a0266&#39;,
+ &#39;arctic_a0269&#39;: &#39;arctic_a0267&#39;,
+ &#39;arctic_a0270&#39;: &#39;arctic_a0268&#39;,
+ &#39;arctic_a0271&#39;: &#39;arctic_a0269&#39;,
+ &#39;arctic_a0272&#39;: &#39;arctic_a0270&#39;,
+ &#39;arctic_a0273&#39;: &#39;arctic_a0271&#39;,
+ &#39;arctic_a0274&#39;: &#39;arctic_a0272&#39;,
+ &#39;arctic_a0275&#39;: &#39;arctic_a0273&#39;,
+ &#39;arctic_a0276&#39;: &#39;arctic_a0274&#39;,
+ &#39;arctic_a0277&#39;: &#39;arctic_a0275&#39;,
+ &#39;arctic_a0278&#39;: &#39;arctic_a0276&#39;,
+ &#39;arctic_a0279&#39;: &#39;arctic_a0277&#39;,
+ &#39;arctic_a0280&#39;: &#39;arctic_a0278&#39;,
+ &#39;arctic_a0281&#39;: &#39;arctic_a0279&#39;,
+ &#39;arctic_a0282&#39;: &#39;arctic_a0280&#39;,
+ &#39;arctic_a0283&#39;: &#39;arctic_a0281&#39;,
+ &#39;arctic_a0284&#39;: &#39;arctic_a0282&#39;,
+ &#39;arctic_a0285&#39;: &#39;arctic_a0283&#39;,
+ &#39;arctic_a0286&#39;: &#39;arctic_a0284&#39;,
+ &#39;arctic_a0287&#39;: &#39;arctic_a0285&#39;,
+ &#39;arctic_a0288&#39;: &#39;arctic_a0286&#39;,
+ &#39;arctic_a0289&#39;: &#39;arctic_a0287&#39;,
+ &#39;arctic_a0290&#39;: &#39;arctic_a0288&#39;,
+ &#39;arctic_a0291&#39;: &#39;arctic_a0289&#39;,
+ &#39;arctic_a0292&#39;: &#39;arctic_a0290&#39;,
+ &#39;arctic_a0293&#39;: &#39;arctic_a0291&#39;,
+ &#39;arctic_a0295&#39;: &#39;arctic_a0293&#39;,
+ &#39;arctic_a0296&#39;: &#39;arctic_a0294&#39;,
+ &#39;arctic_a0297&#39;: &#39;arctic_a0295&#39;,
+ &#39;arctic_a0298&#39;: &#39;arctic_a0296&#39;,
+ &#39;arctic_a0299&#39;: &#39;arctic_a0297&#39;,
+ &#39;arctic_a0300&#39;: &#39;arctic_a0298&#39;,
+ &#39;arctic_a0302&#39;: &#39;arctic_a0300&#39;,
+ &#39;arctic_a0303&#39;: &#39;arctic_a0301&#39;,
+ &#39;arctic_a0304&#39;: &#39;arctic_a0302&#39;,
+ &#39;arctic_a0305&#39;: &#39;arctic_a0303&#39;,
+ &#39;arctic_a0306&#39;: &#39;arctic_a0304&#39;,
+ &#39;arctic_a0307&#39;: &#39;arctic_a0305&#39;,
+ &#39;arctic_a0308&#39;: &#39;arctic_a0306&#39;,
+ &#39;arctic_a0309&#39;: &#39;arctic_a0307&#39;,
+ &#39;arctic_a0310&#39;: &#39;arctic_a0308&#39;,
+ &#39;arctic_a0311&#39;: &#39;arctic_a0309&#39;,
+ &#39;arctic_a0312&#39;: &#39;arctic_a0310&#39;,
+ &#39;arctic_a0313&#39;: &#39;arctic_a0311&#39;,
+ &#39;arctic_a0314&#39;: &#39;arctic_a0312&#39;,
+ &#39;arctic_a0315&#39;: &#39;arctic_a0313&#39;,
+ &#39;arctic_a0316&#39;: &#39;arctic_a0314&#39;,
+ &#39;arctic_a0317&#39;: &#39;arctic_a0315&#39;,
+ &#39;arctic_a0318&#39;: &#39;arctic_a0316&#39;,
+ &#39;arctic_a0319&#39;: &#39;arctic_a0317&#39;,
+ &#39;arctic_a0320&#39;: &#39;arctic_a0318&#39;,
+ &#39;arctic_a0321&#39;: &#39;arctic_a0319&#39;,
+ &#39;arctic_a0322&#39;: &#39;arctic_a0320&#39;,
+ &#39;arctic_a0323&#39;: &#39;arctic_a0321&#39;,
+ &#39;arctic_a0324&#39;: &#39;arctic_a0322&#39;,
+ &#39;arctic_a0325&#39;: &#39;arctic_a0323&#39;,
+ &#39;arctic_a0326&#39;: &#39;arctic_a0324&#39;,
+ &#39;arctic_a0327&#39;: &#39;arctic_a0325&#39;,
+ &#39;arctic_a0328&#39;: &#39;arctic_a0326&#39;,
+ &#39;arctic_a0329&#39;: &#39;arctic_a0327&#39;,
+ &#39;arctic_a0330&#39;: &#39;arctic_a0328&#39;,
+ &#39;arctic_a0331&#39;: &#39;arctic_a0329&#39;,
+ &#39;arctic_a0332&#39;: &#39;arctic_a0330&#39;,
+ &#39;arctic_a0333&#39;: &#39;arctic_a0331&#39;,
+ &#39;arctic_a0334&#39;: &#39;arctic_a0332&#39;,
+ &#39;arctic_a0337&#39;: &#39;arctic_a0335&#39;,
+ &#39;arctic_a0338&#39;: &#39;arctic_a0336&#39;,
+ &#39;arctic_a0339&#39;: &#39;arctic_a0337&#39;,
+ &#39;arctic_a0340&#39;: &#39;arctic_a0338&#39;,
+ &#39;arctic_a0341&#39;: &#39;arctic_a0339&#39;,
+ &#39;arctic_a0342&#39;: &#39;arctic_a0340&#39;,
+ &#39;arctic_a0344&#39;: &#39;arctic_a0342&#39;,
+ &#39;arctic_a0345&#39;: &#39;arctic_a0343&#39;,
+ &#39;arctic_a0346&#39;: &#39;arctic_a0344&#39;,
+ &#39;arctic_a0347&#39;: &#39;arctic_a0345&#39;,
+ &#39;arctic_a0348&#39;: &#39;arctic_a0346&#39;,
+ &#39;arctic_a0349&#39;: &#39;arctic_a0347&#39;,
+ &#39;arctic_a0350&#39;: &#39;arctic_a0348&#39;,
+ &#39;arctic_a0351&#39;: &#39;arctic_a0349&#39;,
+ &#39;arctic_a0352&#39;: &#39;arctic_a0350&#39;,
+ &#39;arctic_a0353&#39;: &#39;arctic_a0351&#39;,
+ &#39;arctic_a0354&#39;: &#39;arctic_a0352&#39;,
+ &#39;arctic_a0355&#39;: &#39;arctic_a0353&#39;,
+ &#39;arctic_a0356&#39;: &#39;arctic_a0354&#39;,
+ &#39;arctic_a0357&#39;: &#39;arctic_a0355&#39;,
+ &#39;arctic_a0358&#39;: &#39;arctic_a0356&#39;,
+ &#39;arctic_a0359&#39;: &#39;arctic_a0357&#39;,
+ &#39;arctic_a0360&#39;: &#39;arctic_a0358&#39;,
+ &#39;arctic_a0361&#39;: &#39;arctic_a0359&#39;,
+ &#39;arctic_a0362&#39;: &#39;arctic_a0360&#39;,
+ &#39;arctic_a0363&#39;: &#39;arctic_a0361&#39;,
+ &#39;arctic_a0364&#39;: &#39;arctic_a0362&#39;,
+ &#39;arctic_a0365&#39;: &#39;arctic_a0363&#39;,
+ &#39;arctic_a0366&#39;: &#39;arctic_a0364&#39;,
+ &#39;arctic_a0367&#39;: &#39;arctic_a0365&#39;,
+ &#39;arctic_a0368&#39;: &#39;arctic_a0366&#39;,
+ &#39;arctic_a0369&#39;: &#39;arctic_a0367&#39;,
+ &#39;arctic_a0370&#39;: &#39;arctic_a0368&#39;,
+ &#39;arctic_a0371&#39;: &#39;arctic_a0369&#39;,
+ &#39;arctic_a0372&#39;: &#39;arctic_a0370&#39;,
+ &#39;arctic_a0373&#39;: &#39;arctic_a0371&#39;,
+ &#39;arctic_a0374&#39;: &#39;arctic_a0372&#39;,
+ &#39;arctic_a0375&#39;: &#39;arctic_a0373&#39;,
+ &#39;arctic_a0376&#39;: &#39;arctic_a0374&#39;,
+ &#39;arctic_a0377&#39;: &#39;arctic_a0375&#39;,
+ &#39;arctic_a0378&#39;: &#39;arctic_a0376&#39;,
+ &#39;arctic_a0379&#39;: &#39;arctic_a0377&#39;,
+ &#39;arctic_a0380&#39;: &#39;arctic_a0378&#39;,
+ &#39;arctic_a0381&#39;: &#39;arctic_a0379&#39;,
+ &#39;arctic_a0382&#39;: &#39;arctic_a0380&#39;,
+ &#39;arctic_a0383&#39;: &#39;arctic_a0381&#39;,
+ &#39;arctic_a0384&#39;: &#39;arctic_a0382&#39;,
+ &#39;arctic_a0385&#39;: &#39;arctic_a0383&#39;,
+ &#39;arctic_a0386&#39;: &#39;arctic_a0384&#39;,
+ &#39;arctic_a0387&#39;: &#39;arctic_a0385&#39;,
+ &#39;arctic_a0388&#39;: &#39;arctic_a0386&#39;,
+ &#39;arctic_a0389&#39;: &#39;arctic_a0387&#39;,
+ &#39;arctic_a0390&#39;: &#39;arctic_a0388&#39;,
+ &#39;arctic_a0391&#39;: &#39;arctic_a0389&#39;,
+ &#39;arctic_a0393&#39;: &#39;arctic_a0391&#39;,
+ &#39;arctic_a0394&#39;: &#39;arctic_a0392&#39;,
+ &#39;arctic_a0395&#39;: &#39;arctic_a0393&#39;,
+ &#39;arctic_a0396&#39;: &#39;arctic_a0394&#39;,
+ &#39;arctic_a0397&#39;: &#39;arctic_a0395&#39;,
+ &#39;arctic_a0398&#39;: &#39;arctic_a0396&#39;,
+ &#39;arctic_a0399&#39;: &#39;arctic_a0397&#39;,
+ &#39;arctic_a0400&#39;: &#39;arctic_a0398&#39;,
+ &#39;arctic_a0401&#39;: &#39;arctic_a0399&#39;,
+ &#39;arctic_a0402&#39;: &#39;arctic_a0400&#39;,
+ &#39;arctic_a0403&#39;: &#39;arctic_a0401&#39;,
+ &#39;arctic_a0404&#39;: &#39;arctic_a0402&#39;,
+ &#39;arctic_a0405&#39;: &#39;arctic_a0403&#39;,
+ &#39;arctic_a0406&#39;: &#39;arctic_a0404&#39;,
+ &#39;arctic_a0407&#39;: &#39;arctic_a0405&#39;,
+ &#39;arctic_a0408&#39;: &#39;arctic_a0406&#39;,
+ &#39;arctic_a0409&#39;: &#39;arctic_a0407&#39;,
+ &#39;arctic_a0410&#39;: &#39;arctic_a0408&#39;,
+ &#39;arctic_a0411&#39;: &#39;arctic_a0409&#39;,
+ &#39;arctic_a0412&#39;: &#39;arctic_a0410&#39;,
+ &#39;arctic_a0413&#39;: &#39;arctic_a0411&#39;,
+ &#39;arctic_a0414&#39;: &#39;arctic_a0412&#39;,
+ &#39;arctic_a0415&#39;: &#39;arctic_a0413&#39;,
+ &#39;arctic_a0416&#39;: &#39;arctic_a0414&#39;,
+ &#39;arctic_a0417&#39;: &#39;arctic_a0415&#39;,
+ &#39;arctic_a0418&#39;: &#39;arctic_a0416&#39;,
+ &#39;arctic_a0419&#39;: &#39;arctic_a0417&#39;,
+ &#39;arctic_a0420&#39;: &#39;arctic_a0418&#39;,
+ &#39;arctic_a0421&#39;: &#39;arctic_a0419&#39;,
+ &#39;arctic_a0422&#39;: &#39;arctic_a0420&#39;,
+ &#39;arctic_a0423&#39;: &#39;arctic_a0421&#39;,
+ &#39;arctic_a0424&#39;: &#39;arctic_a0422&#39;,
+ &#39;arctic_a0425&#39;: &#39;arctic_a0423&#39;,
+ &#39;arctic_a0426&#39;: &#39;arctic_a0424&#39;,
+ &#39;arctic_a0428&#39;: &#39;arctic_a0426&#39;,
+ &#39;arctic_a0429&#39;: &#39;arctic_a0427&#39;,
+ &#39;arctic_a0430&#39;: &#39;arctic_a0428&#39;,
+ &#39;arctic_a0431&#39;: &#39;arctic_a0429&#39;,
+ &#39;arctic_a0432&#39;: &#39;arctic_a0430&#39;,
+ &#39;arctic_a0434&#39;: &#39;arctic_a0431&#39;,
+ &#39;arctic_a0435&#39;: &#39;arctic_a0432&#39;,
+ &#39;arctic_a0436&#39;: &#39;arctic_a0433&#39;,
+ &#39;arctic_a0437&#39;: &#39;arctic_a0434&#39;,
+ &#39;arctic_a0438&#39;: &#39;arctic_a0435&#39;,
+ &#39;arctic_a0439&#39;: &#39;arctic_a0436&#39;,
+ &#39;arctic_a0440&#39;: &#39;arctic_a0437&#39;,
+ &#39;arctic_a0441&#39;: &#39;arctic_a0438&#39;,
+ &#39;arctic_a0442&#39;: &#39;arctic_a0439&#39;,
+ &#39;arctic_a0443&#39;: &#39;arctic_a0440&#39;,
+ &#39;arctic_a0444&#39;: &#39;arctic_a0441&#39;,
+ &#39;arctic_a0445&#39;: &#39;arctic_a0442&#39;,
+ &#39;arctic_a0446&#39;: &#39;arctic_a0443&#39;,
+ &#39;arctic_a0447&#39;: &#39;arctic_a0444&#39;,
+ &#39;arctic_a0448&#39;: &#39;arctic_a0445&#39;,
+ &#39;arctic_a0449&#39;: &#39;arctic_a0446&#39;,
+ &#39;arctic_a0450&#39;: &#39;arctic_a0447&#39;,
+ &#39;arctic_a0451&#39;: &#39;arctic_a0448&#39;,
+ &#39;arctic_a0452&#39;: &#39;arctic_a0449&#39;,
+ &#39;arctic_a0453&#39;: &#39;arctic_a0450&#39;,
+ &#39;arctic_a0454&#39;: &#39;arctic_a0451&#39;,
+ &#39;arctic_a0455&#39;: &#39;arctic_a0452&#39;,
+ &#39;arctic_a0456&#39;: &#39;arctic_a0453&#39;,
+ &#39;arctic_a0457&#39;: &#39;arctic_a0454&#39;,
+ &#39;arctic_a0458&#39;: &#39;arctic_a0455&#39;,
+ &#39;arctic_a0459&#39;: &#39;arctic_c0035&#39;,
+ &#39;arctic_a0460&#39;: &#39;arctic_a0457&#39;,
+ &#39;arctic_a0462&#39;: &#39;arctic_a0459&#39;,
+ &#39;arctic_a0463&#39;: &#39;arctic_a0460&#39;,
+ &#39;arctic_a0464&#39;: &#39;arctic_a0461&#39;,
+ &#39;arctic_a0465&#39;: &#39;arctic_a0462&#39;,
+ &#39;arctic_a0466&#39;: &#39;arctic_a0463&#39;,
+ &#39;arctic_a0467&#39;: &#39;arctic_a0464&#39;,
+ &#39;arctic_a0468&#39;: &#39;arctic_a0465&#39;,
+ &#39;arctic_a0469&#39;: &#39;arctic_a0466&#39;,
+ &#39;arctic_a0470&#39;: &#39;arctic_a0467&#39;,
+ &#39;arctic_a0471&#39;: &#39;arctic_a0468&#39;,
+ &#39;arctic_a0472&#39;: &#39;arctic_a0469&#39;,
+ &#39;arctic_a0473&#39;: &#39;arctic_a0470&#39;,
+ &#39;arctic_a0474&#39;: &#39;arctic_a0471&#39;,
+ &#39;arctic_a0475&#39;: &#39;arctic_a0472&#39;,
+ &#39;arctic_a0476&#39;: &#39;arctic_a0473&#39;,
+ &#39;arctic_a0477&#39;: &#39;arctic_a0474&#39;,
+ &#39;arctic_a0478&#39;: &#39;arctic_a0475&#39;,
+ &#39;arctic_a0479&#39;: &#39;arctic_a0476&#39;,
+ &#39;arctic_a0480&#39;: &#39;arctic_a0477&#39;,
+ &#39;arctic_a0481&#39;: &#39;arctic_a0478&#39;,
+ &#39;arctic_a0482&#39;: &#39;arctic_a0479&#39;,
+ &#39;arctic_a0483&#39;: &#39;arctic_a0480&#39;,
+ &#39;arctic_a0484&#39;: &#39;arctic_a0481&#39;,
+ &#39;arctic_a0485&#39;: &#39;arctic_a0482&#39;,
+ &#39;arctic_a0486&#39;: &#39;arctic_a0483&#39;,
+ &#39;arctic_a0487&#39;: &#39;arctic_a0484&#39;,
+ &#39;arctic_a0488&#39;: &#39;arctic_a0485&#39;,
+ &#39;arctic_a0489&#39;: &#39;arctic_a0486&#39;,
+ &#39;arctic_a0490&#39;: &#39;arctic_a0487&#39;,
+ &#39;arctic_a0491&#39;: &#39;arctic_a0488&#39;,
+ &#39;arctic_a0492&#39;: &#39;arctic_a0489&#39;,
+ &#39;arctic_a0493&#39;: &#39;arctic_a0490&#39;,
+ &#39;arctic_a0494&#39;: &#39;arctic_a0491&#39;,
+ &#39;arctic_a0495&#39;: &#39;arctic_a0492&#39;,
+ &#39;arctic_a0496&#39;: &#39;arctic_a0493&#39;,
+ &#39;arctic_a0497&#39;: &#39;arctic_a0494&#39;,
+ &#39;arctic_a0498&#39;: &#39;arctic_a0495&#39;,
+ &#39;arctic_a0499&#39;: &#39;arctic_a0496&#39;,
+ &#39;arctic_a0500&#39;: &#39;arctic_a0497&#39;,
+ &#39;arctic_a0501&#39;: &#39;arctic_a0498&#39;,
+ &#39;arctic_a0502&#39;: &#39;arctic_a0499&#39;,
+ &#39;arctic_a0503&#39;: &#39;arctic_a0500&#39;,
+ &#39;arctic_a0504&#39;: &#39;arctic_a0501&#39;,
+ &#39;arctic_a0505&#39;: &#39;arctic_a0502&#39;,
+ &#39;arctic_a0506&#39;: &#39;arctic_a0503&#39;,
+ &#39;arctic_a0507&#39;: &#39;arctic_a0504&#39;,
+ &#39;arctic_a0508&#39;: &#39;arctic_a0505&#39;,
+ &#39;arctic_a0509&#39;: &#39;arctic_a0506&#39;,
+ &#39;arctic_a0510&#39;: &#39;arctic_a0507&#39;,
+ &#39;arctic_a0511&#39;: &#39;arctic_a0508&#39;,
+ &#39;arctic_a0512&#39;: &#39;arctic_a0509&#39;,
+ &#39;arctic_a0513&#39;: &#39;arctic_a0510&#39;,
+ &#39;arctic_a0514&#39;: &#39;arctic_a0511&#39;,
+ &#39;arctic_a0515&#39;: &#39;arctic_a0512&#39;,
+ &#39;arctic_a0516&#39;: &#39;arctic_a0513&#39;,
+ &#39;arctic_a0517&#39;: &#39;arctic_a0514&#39;,
+ &#39;arctic_a0518&#39;: &#39;arctic_a0515&#39;,
+ &#39;arctic_a0519&#39;: &#39;arctic_a0516&#39;,
+ &#39;arctic_a0520&#39;: &#39;arctic_a0517&#39;,
+ &#39;arctic_a0521&#39;: &#39;arctic_a0518&#39;,
+ &#39;arctic_a0522&#39;: &#39;arctic_a0519&#39;,
+ &#39;arctic_a0523&#39;: &#39;arctic_a0520&#39;,
+ &#39;arctic_a0524&#39;: &#39;arctic_a0521&#39;,
+ &#39;arctic_a0525&#39;: &#39;arctic_a0522&#39;,
+ &#39;arctic_a0526&#39;: &#39;arctic_a0523&#39;,
+ &#39;arctic_a0527&#39;: &#39;arctic_a0524&#39;,
+ &#39;arctic_a0528&#39;: &#39;arctic_a0525&#39;,
+ &#39;arctic_a0529&#39;: &#39;arctic_a0526&#39;,
+ &#39;arctic_a0530&#39;: &#39;arctic_a0527&#39;,
+ &#39;arctic_a0531&#39;: &#39;arctic_a0528&#39;,
+ &#39;arctic_a0532&#39;: &#39;arctic_a0529&#39;,
+ &#39;arctic_a0533&#39;: &#39;arctic_a0530&#39;,
+ &#39;arctic_a0534&#39;: &#39;arctic_a0531&#39;,
+ &#39;arctic_a0535&#39;: &#39;arctic_a0532&#39;,
+ &#39;arctic_a0536&#39;: &#39;arctic_a0533&#39;,
+ &#39;arctic_a0537&#39;: &#39;arctic_a0534&#39;,
+ &#39;arctic_a0538&#39;: &#39;arctic_a0535&#39;,
+ &#39;arctic_a0539&#39;: &#39;arctic_a0536&#39;,
+ &#39;arctic_a0540&#39;: &#39;arctic_a0537&#39;,
+ &#39;arctic_a0541&#39;: &#39;arctic_a0538&#39;,
+ &#39;arctic_a0542&#39;: &#39;arctic_a0539&#39;,
+ &#39;arctic_a0544&#39;: &#39;arctic_a0541&#39;,
+ &#39;arctic_a0545&#39;: &#39;arctic_a0542&#39;,
+ &#39;arctic_a0546&#39;: &#39;arctic_a0543&#39;,
+ &#39;arctic_a0547&#39;: &#39;arctic_a0544&#39;,
+ &#39;arctic_a0548&#39;: &#39;arctic_a0545&#39;,
+ &#39;arctic_a0549&#39;: &#39;arctic_a0546&#39;,
+ &#39;arctic_a0550&#39;: &#39;arctic_a0547&#39;,
+ &#39;arctic_a0551&#39;: &#39;arctic_a0548&#39;,
+ &#39;arctic_a0552&#39;: &#39;arctic_a0549&#39;,
+ &#39;arctic_a0553&#39;: &#39;arctic_a0550&#39;,
+ &#39;arctic_a0554&#39;: &#39;arctic_a0551&#39;,
+ &#39;arctic_a0555&#39;: &#39;arctic_a0552&#39;,
+ &#39;arctic_a0556&#39;: &#39;arctic_a0553&#39;,
+ &#39;arctic_a0558&#39;: &#39;arctic_a0555&#39;,
+ &#39;arctic_a0559&#39;: &#39;arctic_a0556&#39;,
+ &#39;arctic_a0560&#39;: &#39;arctic_a0557&#39;,
+ &#39;arctic_a0561&#39;: &#39;arctic_a0558&#39;,
+ &#39;arctic_a0562&#39;: &#39;arctic_a0559&#39;,
+ &#39;arctic_a0563&#39;: &#39;arctic_a0560&#39;,
+ &#39;arctic_a0564&#39;: &#39;arctic_a0561&#39;,
+ &#39;arctic_a0565&#39;: &#39;arctic_a0562&#39;,
+ &#39;arctic_a0566&#39;: &#39;arctic_a0563&#39;,
+ &#39;arctic_a0568&#39;: &#39;arctic_a0564&#39;,
+ &#39;arctic_a0569&#39;: &#39;arctic_a0565&#39;,
+ &#39;arctic_a0570&#39;: &#39;arctic_a0566&#39;,
+ &#39;arctic_a0571&#39;: &#39;arctic_a0567&#39;,
+ &#39;arctic_a0572&#39;: &#39;arctic_a0568&#39;,
+ &#39;arctic_a0573&#39;: &#39;arctic_a0569&#39;,
+ &#39;arctic_a0574&#39;: &#39;arctic_a0570&#39;,
+ &#39;arctic_a0575&#39;: &#39;arctic_a0571&#39;,
+ &#39;arctic_a0576&#39;: &#39;arctic_a0572&#39;,
+ &#39;arctic_a0577&#39;: &#39;arctic_a0573&#39;,
+ &#39;arctic_a0578&#39;: &#39;arctic_a0574&#39;,
+ &#39;arctic_a0579&#39;: &#39;arctic_a0575&#39;,
+ &#39;arctic_a0580&#39;: &#39;arctic_a0576&#39;,
+ &#39;arctic_a0581&#39;: &#39;arctic_a0577&#39;,
+ &#39;arctic_a0582&#39;: &#39;arctic_a0578&#39;,
+ &#39;arctic_a0583&#39;: &#39;arctic_a0579&#39;,
+ &#39;arctic_a0584&#39;: &#39;arctic_a0580&#39;,
+ &#39;arctic_a0585&#39;: &#39;arctic_a0581&#39;,
+ &#39;arctic_a0586&#39;: &#39;arctic_a0582&#39;,
+ &#39;arctic_a0587&#39;: &#39;arctic_a0583&#39;,
+ &#39;arctic_a0588&#39;: &#39;arctic_a0584&#39;,
+ &#39;arctic_a0589&#39;: &#39;arctic_a0585&#39;,
+ &#39;arctic_a0590&#39;: &#39;arctic_a0586&#39;,
+ &#39;arctic_a0591&#39;: &#39;arctic_a0587&#39;,
+ &#39;arctic_a0593&#39;: &#39;arctic_a0589&#39;,
+ &#39;arctic_a0594&#39;: &#39;arctic_a0590&#39;,
+ &#39;arctic_a0595&#39;: &#39;arctic_a0591&#39;,
+ &#39;arctic_a0596&#39;: &#39;arctic_a0592&#39;,
+ &#39;arctic_a0597&#39;: &#39;arctic_a0593&#39;,
+ &#39;arctic_b0420&#39;: &#39;arctic_b0419&#39;,
+ &#39;arctic_b0421&#39;: &#39;arctic_b0420&#39;,
+ &#39;arctic_b0422&#39;: &#39;arctic_b0421&#39;,
+ &#39;arctic_b0423&#39;: &#39;arctic_b0422&#39;,
+ &#39;arctic_b0424&#39;: &#39;arctic_b0423&#39;,
+ &#39;arctic_b0425&#39;: &#39;arctic_b0424&#39;,
+ &#39;arctic_b0427&#39;: &#39;arctic_b0426&#39;,
+ &#39;arctic_b0428&#39;: &#39;arctic_b0427&#39;,
+ &#39;arctic_b0429&#39;: &#39;arctic_b0428&#39;,
+ &#39;arctic_b0430&#39;: &#39;arctic_b0429&#39;,
+ &#39;arctic_b0431&#39;: &#39;arctic_b0430&#39;,
+ &#39;arctic_b0432&#39;: &#39;arctic_b0431&#39;,
+ &#39;arctic_b0433&#39;: &#39;arctic_b0432&#39;,
+ &#39;arctic_b0435&#39;: &#39;arctic_b0434&#39;,
+ &#39;arctic_b0436&#39;: &#39;arctic_b0435&#39;,
+ &#39;arctic_b0437&#39;: &#39;arctic_b0436&#39;,
+ &#39;arctic_b0438&#39;: &#39;arctic_b0437&#39;,
+ &#39;arctic_b0439&#39;: &#39;arctic_b0438&#39;,
+ &#39;arctic_b0440&#39;: &#39;arctic_b0439&#39;,
+ &#39;arctic_b0441&#39;: &#39;arctic_b0440&#39;,
+ &#39;arctic_b0442&#39;: &#39;arctic_b0441&#39;,
+ &#39;arctic_b0443&#39;: &#39;arctic_b0442&#39;,
+ &#39;arctic_b0444&#39;: &#39;arctic_b0443&#39;,
+ &#39;arctic_b0446&#39;: &#39;arctic_b0444&#39;,
+ &#39;arctic_b0447&#39;: &#39;arctic_b0445&#39;,
+ &#39;arctic_b0448&#39;: &#39;arctic_b0446&#39;,
+ &#39;arctic_b0449&#39;: &#39;arctic_b0447&#39;,
+ &#39;arctic_b0450&#39;: &#39;arctic_b0448&#39;,
+ &#39;arctic_b0451&#39;: &#39;arctic_b0449&#39;,
+ &#39;arctic_b0452&#39;: &#39;arctic_b0450&#39;,
+ &#39;arctic_b0454&#39;: &#39;arctic_b0452&#39;,
+ &#39;arctic_b0455&#39;: &#39;arctic_b0453&#39;,
+ &#39;arctic_b0456&#39;: &#39;arctic_b0454&#39;,
+ &#39;arctic_b0457&#39;: &#39;arctic_b0455&#39;,
+ &#39;arctic_b0458&#39;: &#39;arctic_b0456&#39;,
+ &#39;arctic_b0459&#39;: &#39;arctic_b0457&#39;,
+ &#39;arctic_b0460&#39;: &#39;arctic_b0458&#39;,
+ &#39;arctic_b0461&#39;: &#39;arctic_b0459&#39;,
+ &#39;arctic_b0462&#39;: &#39;arctic_b0460&#39;,
+ &#39;arctic_b0463&#39;: &#39;arctic_b0461&#39;,
+ &#39;arctic_b0464&#39;: &#39;arctic_b0462&#39;,
+ &#39;arctic_b0465&#39;: &#39;arctic_b0463&#39;,
+ &#39;arctic_b0466&#39;: &#39;arctic_b0464&#39;,
+ &#39;arctic_b0467&#39;: &#39;arctic_b0465&#39;,
+ &#39;arctic_b0468&#39;: &#39;arctic_b0466&#39;,
+ &#39;arctic_b0469&#39;: &#39;arctic_b0467&#39;,
+ &#39;arctic_b0470&#39;: &#39;arctic_b0468&#39;,
+ &#39;arctic_b0471&#39;: &#39;arctic_b0469&#39;,
+ &#39;arctic_b0472&#39;: &#39;arctic_b0470&#39;,
+ &#39;arctic_b0473&#39;: &#39;arctic_b0471&#39;,
+ &#39;arctic_b0474&#39;: &#39;arctic_b0472&#39;,
+ &#39;arctic_b0475&#39;: &#39;arctic_b0473&#39;,
+ &#39;arctic_b0476&#39;: &#39;arctic_b0474&#39;,
+ &#39;arctic_b0477&#39;: &#39;arctic_b0475&#39;,
+ &#39;arctic_b0478&#39;: &#39;arctic_b0476&#39;,
+ &#39;arctic_b0479&#39;: &#39;arctic_b0477&#39;,
+ &#39;arctic_b0480&#39;: &#39;arctic_b0478&#39;,
+ &#39;arctic_b0481&#39;: &#39;arctic_b0479&#39;,
+ &#39;arctic_b0482&#39;: &#39;arctic_b0480&#39;,
+ &#39;arctic_b0483&#39;: &#39;arctic_b0481&#39;,
+ &#39;arctic_b0484&#39;: &#39;arctic_b0482&#39;,
+ &#39;arctic_b0485&#39;: &#39;arctic_b0483&#39;,
+ &#39;arctic_b0486&#39;: &#39;arctic_b0484&#39;,
+ &#39;arctic_b0487&#39;: &#39;arctic_b0485&#39;,
+ &#39;arctic_b0488&#39;: &#39;arctic_b0486&#39;,
+ &#39;arctic_b0489&#39;: &#39;arctic_b0487&#39;,
+ &#39;arctic_b0490&#39;: &#39;arctic_b0488&#39;,
+ &#39;arctic_b0491&#39;: &#39;arctic_b0489&#39;,
+ &#39;arctic_b0492&#39;: &#39;arctic_b0490&#39;,
+ &#39;arctic_b0494&#39;: &#39;arctic_b0492&#39;,
+ &#39;arctic_b0495&#39;: &#39;arctic_b0493&#39;,
+ &#39;arctic_b0496&#39;: &#39;arctic_b0494&#39;,
+ &#39;arctic_b0497&#39;: &#39;arctic_b0495&#39;,
+ &#39;arctic_b0498&#39;: &#39;arctic_b0496&#39;,
+ &#39;arctic_b0499&#39;: &#39;arctic_b0497&#39;,
+ &#39;arctic_b0500&#39;: &#39;arctic_b0498&#39;,
+ &#39;arctic_b0501&#39;: &#39;arctic_b0499&#39;,
+ &#39;arctic_b0502&#39;: &#39;arctic_b0500&#39;,
+ &#39;arctic_b0503&#39;: &#39;arctic_b0501&#39;,
+ &#39;arctic_b0504&#39;: &#39;arctic_b0502&#39;,
+ &#39;arctic_b0505&#39;: &#39;arctic_b0503&#39;,
+ &#39;arctic_b0506&#39;: &#39;arctic_b0504&#39;,
+ &#39;arctic_b0507&#39;: &#39;arctic_b0505&#39;,
+ &#39;arctic_b0508&#39;: &#39;arctic_b0506&#39;,
+ &#39;arctic_b0509&#39;: &#39;arctic_b0507&#39;,
+ &#39;arctic_b0510&#39;: &#39;arctic_b0508&#39;,
+ &#39;arctic_b0511&#39;: &#39;arctic_b0509&#39;,
+ &#39;arctic_b0512&#39;: &#39;arctic_b0510&#39;,
+ &#39;arctic_b0513&#39;: &#39;arctic_b0511&#39;,
+ &#39;arctic_b0514&#39;: &#39;arctic_b0512&#39;,
+ &#39;arctic_b0515&#39;: &#39;arctic_b0513&#39;,
+ &#39;arctic_b0517&#39;: &#39;arctic_b0515&#39;,
+ &#39;arctic_b0518&#39;: &#39;arctic_b0516&#39;,
+ &#39;arctic_b0519&#39;: &#39;arctic_b0517&#39;,
+ &#39;arctic_b0520&#39;: &#39;arctic_b0518&#39;,
+ &#39;arctic_b0521&#39;: &#39;arctic_b0519&#39;,
+ &#39;arctic_b0522&#39;: &#39;arctic_b0520&#39;,
+ &#39;arctic_b0523&#39;: &#39;arctic_b0521&#39;,
+ &#39;arctic_b0524&#39;: &#39;arctic_b0522&#39;,
+ &#39;arctic_b0525&#39;: &#39;arctic_b0523&#39;,
+ &#39;arctic_b0526&#39;: &#39;arctic_b0524&#39;,
+ &#39;arctic_b0527&#39;: &#39;arctic_b0525&#39;,
+ &#39;arctic_b0528&#39;: &#39;arctic_b0526&#39;,
+ &#39;arctic_b0529&#39;: &#39;arctic_b0527&#39;,
+ &#39;arctic_b0530&#39;: &#39;arctic_b0528&#39;,
+ &#39;arctic_b0531&#39;: &#39;arctic_b0529&#39;,
+ &#39;arctic_b0532&#39;: &#39;arctic_b0530&#39;,
+ &#39;arctic_b0533&#39;: &#39;arctic_b0531&#39;,
+ &#39;arctic_b0534&#39;: &#39;arctic_b0532&#39;,
+ &#39;arctic_b0535&#39;: &#39;arctic_b0533&#39;,
+ &#39;arctic_b0536&#39;: &#39;arctic_b0534&#39;,
+ &#39;arctic_b0537&#39;: &#39;arctic_b0535&#39;,
+ &#39;arctic_b0538&#39;: &#39;arctic_b0536&#39;,
+ &#39;arctic_b0539&#39;: &#39;arctic_b0537&#39;,
+ &#39;arctic_b0540&#39;: &#39;arctic_b0538&#39;,
+ &#39;arctic_b0541&#39;: &#39;arctic_b0539&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;arctic-remapped-ids.json&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">remapped</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/notes/arctic/2026/03/03/cmu-arctic-sentence-ids.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
