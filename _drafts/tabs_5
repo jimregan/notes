@@ -1,17 +1,14 @@
-Research Paper Summary
-https://chatgpt.com/c/69ba91f8-a6fc-8396-9c3d-78b7cdd02edb
+HuPER29/HuPER
+https://github.com/HuPER29/HuPER?tab=readme-ov-file
 
-HuPER/notebooks/corrector.ipynb at main · HuPER29/HuPER
-https://github.com/HuPER29/HuPER/blob/main/notebooks/corrector.ipynb
+[2602.01634] HuPER: A Human-Inspired Framework for Phonetic Perception
+https://arxiv.org/abs/2602.01634
 
-huper29/huper-clean100-proxyphones at main
-https://huggingface.co/datasets/huper29/huper-clean100-proxyphones/tree/main/blobs
+huper29/huper_recognizer · Hugging Face
+https://huggingface.co/huper29/huper_recognizer
 
-huper29/huper-clean100-proxyphones · Datasets at Hugging Face
-https://huggingface.co/datasets/huper29/huper-clean100-proxyphones
-
-edit_seq_speech/inference.py · huper29/huper_corrector at main
-https://huggingface.co/huper29/huper_corrector/blob/main/edit_seq_speech/inference.py
+huper29/huper_corrector · Hugging Face
+https://huggingface.co/huper29/huper_corrector
 
 Berkeley-Speech-Group/sylber: Sylber: Syllabic Embedding Representation of Speech from Raw Audio
 https://github.com/Berkeley-Speech-Group/sylber/tree/main
@@ -40,38 +37,23 @@ https://www.tsdconference.org/tsd2026/conf_topics.html
 [2110.13900] WavLM: Large-Scale Self-Supervised Pre-Training for Full Stack Speech Processing
 https://arxiv.org/abs/2110.13900
 
-2110.13900
-https://arxiv.org/pdf/2110.13900
+Disentangling Disentanglement in Variational Autoencoders - Google Search
+https://www.google.com/search?q=Disentangling+Disentanglement+in+Variational+Autoencoders&rlz=1C5GCCM_en&oq=Disentangling+Disentanglement+in+Variational+Autoencoders&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBDIHCAIQABjvBdIBBzU5N2owajSoAgCwAgE&sourceid=chrome&ie=UTF-8
 
-disentanglement in speech - Google Search
-https://www.google.com/search?q=disentanglement+in+speech&sca_esv=8b337c4555c3eeec&rlz=1C5GCCM_en&sxsrf=ANbL-n71_J0Uph9IP6fWaLDZfauCy7k3LA%3A1771323144007&ei=CD-UabgW49DA8A-bjswR&biw=1440&bih=710&ved=0ahUKEwi4up_2pOCSAxVjKBAIHRsHMwIQ4dUDCBM&uact=5&oq=disentanglement+in+speech&gs_lp=Egxnd3Mtd2l6LXNlcnAiGWRpc2VudGFuZ2xlbWVudCBpbiBzcGVlY2gyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGJ8FSMUQUKgBWJYOcAF4AZABAJgBgAGgAbcGqgEDOS4xuAEDyAEA-AEBmAILoALMBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIGEAAYFhgewgIIEAAYFhgKGB7CAgUQABjvBcICCBAAGIAEGKIEwgIIEAAYogQYiQXCAgcQIRigARgKmAMAiAYBkAYKkgcEMTAuMaAH7S-yBwM5LjG4B8gGwgcDNS42yAcNgAgA&sclient=gws-wiz-serp
-
-Dispeech: A Synthetic Toy Dataset for Speech Disentangling | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/9747011
-
-β-VAE - Google Search
-https://www.google.com/search?q=%CE%B2-VAE&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
-
-beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | OpenReview
-https://openreview.net/forum?id=Sy2fzU9gl
-
-[1804.03599] Understanding disentangling in $β$-VAE
-https://arxiv.org/abs/1804.03599
-
-Understanding disentangling in - Google Search
-https://www.google.com/search?q=Understanding+disentangling+in&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
-
-mathieu19a.pdf
-https://proceedings.mlr.press/v97/mathieu19a/mathieu19a.pdf
-
-Understanding disentangling in β-VAE · Issue #33 · howardyclo/papernotes
-https://github.com/howardyclo/papernotes/issues/33
-
-disentanglement_lib/disentanglement_lib/methods/unsupervised/train.py at master · google-research/disentanglement_lib
-https://github.com/google-research/disentanglement_lib/blob/master/disentanglement_lib/methods/unsupervised/train.py
+disentangling disentanglement in variational autoencoders icml - Google Search
+https://www.google.com/search?q=disentangling+disentanglement+in+variational+autoencoders+icml&rlz=1C5GCCM_en&oq=Disentangling+Disentanglement+in+Variational+Autoencoders&gs_lcrp=EgZjaHJvbWUqBggBECMYJzIGCAAQRRg7MgYIARAjGCcyBggCEEUYOzINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTIGCAYQRRg9MgYIBxBFGD3SAQgyMTE0ajBqNKgCA7ACAfEFRJ1ZALxIwWg&sourceid=chrome&ie=UTF-8
 
 Learning Disentangled Speech Representations
 https://synspeech.github.io/
+
+Learning Disentangled Speech Representations - Google Search
+https://www.google.com/search?q=Learning+Disentangled+Speech+Representations&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+[2311.03389] Learning Disentangled Speech Representations
+https://arxiv.org/abs/2311.03389
+
+
+
 
 ISCA Archive - Adversarially Learning Disentangled Speech Representations for Robust Multi-Factor Voice Conversion
 https://www.isca-archive.org/interspeech_2021/wang21h_interspeech.html
