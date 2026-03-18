@@ -27,3 +27,5 @@ categories: [links]
 
 [Learning disentangled speech representations](https://era.ed.ac.uk/items/e2eed65c-9305-44ee-8aaa-05f85a43ab00)
 
+[An Overview of Voice Conversion and Its Challenges: From Statistical Modeling to Deep Learning](https://dl.acm.org/doi/10.1109/TASLP.2020.3038524)
+
