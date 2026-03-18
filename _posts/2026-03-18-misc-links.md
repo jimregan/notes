@@ -20,3 +20,10 @@ categories: [links]
 - [arxiv](https://arxiv.org/abs/1812.02833)
 - [code](https://github.com/iffsid/disentangling-disentanglement) --- GPL 3
 
+[VQ-CL: Learning Disentangled Speech Representations with Contrastive Learning and Vector Quantization](https://ieeexplore.ieee.org/abstract/document/10095654)
+
+[Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval](https://ieeexplore.ieee.org/abstract/document/10447283)
+- [arXiv](https://arxiv.org/abs/2401.08096)
+
+[Learning disentangled speech representations](https://era.ed.ac.uk/items/e2eed65c-9305-44ee-8aaa-05f85a43ab00)
+
