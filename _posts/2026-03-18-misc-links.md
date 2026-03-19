@@ -29,3 +29,10 @@ categories: [links]
 
 [An Overview of Voice Conversion and Its Challenges: From Statistical Modeling to Deep Learning](https://dl.acm.org/doi/10.1109/TASLP.2020.3038524)
 
+---
+
+[Netflix/ttal-dapt-conv](https://github.com/Netflix/ttal-dapt-conv) --- Tool to convert Netflix Timed Text Authoring Lineage (TTAL) format to Dubbing and Audio description Profiles of TTML2 (DAPT).
+
+[Netflix/photon](https://github.com/Netflix/photon) --- Photon is a Java implementation of the Interoperable Master Format (IMF) standard. IMF is a SMPTE standard whose core constraints are defined in the specification st2067-2:2013
+
+
