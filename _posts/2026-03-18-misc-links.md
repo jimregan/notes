@@ -37,3 +37,12 @@ categories: [links]
 
 [VibeVoice ASR LoRA Fine-tuning](https://github.com/microsoft/VibeVoice/tree/main/finetuning-asr)
 
+[Automatic Phone Alignment of Code-switched Urum–Russian Field Data](https://aclanthology.org/2025.fieldmatters-1.1/)
+
+[joyce](https://www.seasip.info/Unix/Joyce/download.html)
+- [games](https://www.cpcwiki.eu/forum/nc100-nc200-pcw-pda600/amstrad-pcw-8256-games-archive/)
+- [disks](http://www.retroarchive.org/maslin/disks/amstrad/index.html)
+
+[Speech Accent Archive - Kaggle](https://www.kaggle.com/datasets/rtatman/speech-accent-archive/data)
+
+
