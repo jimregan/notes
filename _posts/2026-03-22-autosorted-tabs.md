@@ -403,3 +403,34 @@ categories: [links]
 
 - [Speech-to-Retrieval (S2R): A new approach to voice search (Google Research)](https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/)
 - [google/svq dataset (Hugging Face)](https://huggingface.co/datasets/google/svq)
+
+
+# Speech Embeddings and MSEB
+
+## Massive Sound Embedding Benchmark (MSEB)
+
+- [MSEB project page (Google Research)](https://research.google/pubs/massive-sound-embedding-benchmark-mseb/)
+- [MSEB paper (2602.07143)](https://arxiv.org/pdf/2602.07143)
+- [google-research/mseb GitHub](https://github.com/google-research/mseb/tree/main)
+- [MSEB encoder module](https://github.com/google-research/mseb/blob/main/mseb/encoder.py)
+- [MSEB segmentation encoder](https://github.com/google-research/mseb/blob/main/mseb/encoders/segmentation_encoder.py)
+- [MSEB whisper encoder](https://github.com/google-research/mseb/blob/main/mseb/encoders/whisper_encoder.py)
+- [MSEB raw encoder](https://github.com/google-research/mseb/blob/main/mseb/encoders/raw_encoder.py)
+- [From Waveforms to Wisdom: The New Benchmark for Auditory Intelligence (Google blog)](https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/)
+- [NeurIPS 2025 MSEB poster](https://neurips.cc/virtual/2025/loc/san-diego/poster/121597)
+
+## Speech-to-Retrieval (S2R)
+
+- [Speech-to-Retrieval (S2R): A new approach to voice search](https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/)
+- [google/svq dataset (Hugging Face)](https://huggingface.co/datasets/google/svq)
+
+## Google speech embedding (older)
+
+- [google-research/speech_embedding](https://github.com/google-research/google-research/tree/master/speech_embedding)
+- [speech_embedding record_train.ipynb](https://github.com/google-research/google-research/blob/master/speech_embedding/record_train.ipynb)
+- [speech_embedding speech_commands.ipynb](https://github.com/google-research/google-research/blob/master/speech_embedding/speech_commands.ipynb)
+
+## CLAP
+
+- [laion/clap-htsat-unfused (Hugging Face)](https://huggingface.co/laion/clap-htsat-unfused)
+- [lingjzhu/clap-ipa](https://github.com/lingjzhu/clap-ipa/blob/main/README.md)
