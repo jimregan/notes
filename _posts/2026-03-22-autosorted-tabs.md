@@ -104,3 +104,59 @@ categories: [links]
 - [australian-lexicon: Australian IPA phonemes](https://github.com/twocs/australian-lexicon/blob/master/pronunciation_dictionary/australian-ipa-phonemes.xml)
 - [GlobalPhone Language Models](https://www.csl.uni-bremen.de/GlobalPhone/)
 - [CMU Sphinx Acoustic and Language Models (SourceForge)](https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/)
+
+# Northern Sami
+
+## Corpora
+
+- [Giellagas corpus (Kielipankki)](https://www.kielipankki.fi/aineistot/giellagas/)
+- [Giellagas license page](https://www.kielipankki.fi/lic/giellagas/?lang=en)
+- [Kielipankki access](https://www.kielipankki.fi/access/)
+- [LIA sápmi - LIA corpus of Sami dialects (Språkbanken)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-tekstlab-uio-no-lia-sapmi/)
+- [Northern Sami YleAreena Subtitle Corpus (Zenodo)](https://zenodo.org/records/14176353)
+- [Northern Saami interactive text corpus (Giellatekno)](https://giellatekno.uit.no/text.en.html)
+- [COMEDI editor (Clarino)](https://clarino.uib.no/comedi/editor/lb-201407302)
+- [UD_North_Sami-Giella](https://github.com/UniversalDependencies/UD_North_Sami-Giella)
+
+## ASR models
+
+- [GetmanY1/wav2vec2-large-sami-22k-finetuned](https://huggingface.co/GetmanY1/wav2vec2-large-sami-22k-finetuned)
+- [Fine-Tune W2V2-Bert for low-resource ASR](https://huggingface.co/blog/fine-tune-w2v2-bert)
+- [facebook/w2v-bert-2.0](https://huggingface.co/facebook/w2v-bert-2.0)
+- [SeamlessM4T-v2 docs](https://huggingface.co/docs/transformers/main/en/model_doc/seamless_m4t_v2)
+- [facebook/seamless-m4t-v2-large](https://huggingface.co/facebook/seamless-m4t-v2-large)
+- [divvun-tts/multi-sami HF Space](https://huggingface.co/spaces/divvun-tts/multi-sami)
+- [Getman 2024 Interspeech paper](https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.pdf)
+- [anyspeech/zipa-large-crctc-ns-800k](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k)
+
+## Phonetics / phonology
+
+- [Guide to North Sámi Pronunciation (Oahpa Muinna)](https://oahpamuinna.wordpress.com/2021/12/28/guide-to-north-sami-pronunciation/)
+- [Forvo: Northern Sami pronunciation dictionary](https://forvo.com/languages/sme/)
+- [Forvo: čáhci pronunciation](https://forvo.com/word/%C4%8D%C3%A1hci/#sme)
+- [Wiktionnaire: Annexe:Prononciation/same du Nord](https://fr.wiktionary.org/wiki/Annexe:Prononciation/same_du_Nord)
+- [Wayback: Odden Saami phonology PDF](https://web.archive.org/web/20141209061155/http://www.ling.ohio-state.edu/~odden/Saami.pdf)
+- [Sami Grammar - Vocabulary (archived)](https://web.archive.org/web/20190504031515/https://people.uta.fi/~km56049/same/svocab.html)
+- [The acoustic manifestation of consonant gradation in Northern Sami (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_crossref_primary_10_1121_1_2935810&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,Northern%20S%C3%A1mi%20phonetics&offset=0)
+- [An analysis of North Saami gradation (JSTOR via KTH)](https://www-jstor-org.focus.lib.kth.se/stable/23325576)
+- [Dialectal variation of duration patterns in Finnmark North Sámi (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_crossref_citationtrail_10_1121_10_0000994&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,North%20S%C3%A1mi%20phonetics&offset=0)
+- [Initially and Finally Stressed Vowel Sequences of Guovdageaidnu Dialect (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_proquest_miscellaneous_85665862&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,North%20S%C3%A1mi%20phonetics&offset=0)
+- [Helsinki paper (content link)](https://helda.helsinki.fi/server/api/core/bitstreams/05486b7f-e5ab-44a4-8540-3affa4fc5a35/content)
+
+## Learning resources / language documentation
+
+- [DigiSami project](https://blogs.helsinki.fi/digisami-project/)
+- [DigiSami IT paper](https://blogs.helsinki.fi/digisami-project/files/2020/02/ds-it.pdf)
+- [Yle: Say it in Saami soundboard](http://sayitinsaami.yle.fi/soundboard/)
+- [Learn North-Sámi part 1 (YouTube)](https://www.youtube.com/watch?v=kyv058EeNR0&t=321s)
+- [About the Sámi languages (YouTube)](https://www.youtube.com/watch?v=Njk18l5BxqA)
+- [Finnish-Samish YouTube channel](https://www.youtube.com/@Finnish-Samish/videos)
+- [Northern sami - 10 common words (YouTube)](https://www.youtube.com/watch?v=uPX6qb1eao8)
+- [Numbers in Northern Sami 1-100 (YouTube)](https://www.youtube.com/watch?v=Ni9IHyGHDng)
+- [From Language to Language From Mind to Nation 9 (ovttas.no)](https://ovttas.no/girji_gielas-gillii-mielas-millii-9)
+- [About the Sámi Parliament (Sametinget)](https://sametinget.no/about-the-sami-parliament/)
+- [Radio and Television Archive - Kavi (Finland)](https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/)
+
+## KTH library search
+
+- [KTH library search: northern sámi books](https://kth-ch.primo.exlibrisgroup.com/discovery/search?query=any,contains,northern%20s%C3%A1mi&pfilter=rtype,exact,books&tab=Everything&search_scope=MyInst_and_CI&vid=46KTH_INST:46KTH_VU1_L&lang=en&offset=60)
