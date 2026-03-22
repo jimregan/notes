@@ -198,3 +198,47 @@ categories: [links]
 - [Tandem Long-Short Duration-based Modeling for ASR](https://aclanthology.org/2024.sigul-1.40.pdf)
 - [SIGUL 2026 Joint Workshop CfP](https://groups.google.com/g/open-linguistics/c/oDrgoVNUcf0)
 - [LaTeLL 2026: Language Technologies for Low-resource Languages](https://latell.org/2026/)
+
+
+# CTC Decoding and Forced Alignment
+
+## CTC decoding
+
+- [CTC Networks and Language Models: Prefix Beam Search Explained (Medium)](https://medium.com/corti-ai/ctc-networks-and-language-models-prefix-beam-search-explained-c11d1ee23306)
+- [kensho-technologies/pyctcdecode: Fast and lightweight CTC beam search decoder](https://github.com/kensho-technologies/pyctcdecode)
+- [torchaudio ctc_decoder documentation](https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.ctc_decoder.html)
+- [torchaudio CTCDecoder documentation](https://docs.pytorch.org/audio/main/generated/torchaudio.models.decoder.CTCDecoder.html#torchaudio.models.decoder.CTCDecoderLM)
+- [ASR Inference with CTC Decoder tutorial (torchaudio)](https://docs.pytorch.org/audio/main/tutorials/asr_inference_with_ctc_decoder_tutorial.html)
+- [ASR inference with CUDA CTC decoder tutorial](https://docs.pytorch.org/audio/2.5.0/tutorials/asr_inference_with_cuda_ctc_decoder_tutorial.html)
+- [SpeechBrain CTC prefix beam search docs](https://speechbrain.readthedocs.io/en/latest/API/speechbrain.decoders.ctc.html#speechbrain.decoders.ctc.CTCPrefixBeamSearcher)
+- [FlexCTC: GPU-powered CTC Beam Decoding With Advanced Contextual Abilities](https://arxiv.org/pdf/2508.07315)
+
+## Forced alignment tools
+
+- [lumaku/ctc-segmentation: Segment audio and obtain utterance alignments](https://github.com/lumaku/ctc-segmentation?tab=readme-ov-file)
+- [m-bain/whisperX alignment module](https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py)
+- [tabahi/bournemouth-forced-aligner](https://github.com/tabahi/bournemouth-forced-aligner/blob/main/examples/read_embeddings.py)
+- [BFA: Real-time Multilingual Text-to-speech Forced Alignment (2509.23147)](https://arxiv.org/pdf/2509.23147)
+- [tabahi/contexless-phonemes-CUPE](https://github.com/tabahi/contexless-phonemes-CUPE)
+- [CUPE: Contextless Universal Phoneme Encoder (2508.15316)](https://arxiv.org/abs/2508.15316)
+- [mlx-audio Qwen3 forced aligner](https://github.com/Blaizzy/mlx-audio/tree/main/mlx_audio/stt/models/qwen3_forced_aligner)
+- [mlx-community/Qwen3-ForcedAligner-0.6B-4bit (Hugging Face)](https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit)
+- [bertsky/nmalign: Forced alignment of string lists by fuzzy string matching](https://github.com/bertsky/nmalign?tab=readme-ov-file)
+- [emilyahn/align_cs](https://github.com/emilyahn/align_cs)
+
+## Phoneme recognition / IPA models
+
+- [kgnlp/allophant: Multilingual phoneme recognizer with zero-shot generalization](https://github.com/kgnlp/allophant?tab=readme-ov-file)
+- [lingjzhu/zipa: IPA-based ASR](https://github.com/lingjzhu/zipa/blob/main/ipa_simplified/unigram_127.vocab)
+- [anyspeech/zipa-large-crctc-ns-800k (Hugging Face)](https://huggingface.co/anyspeech/zipa-large-crctc-ns-800k)
+- [PRiSM: Benchmarking Phone Realization in Speech Models (2601.14046)](https://arxiv.org/abs/2601.14046)
+- [lingjzhu/clap-ipa](https://github.com/lingjzhu/clap-ipa/blob/main/README.md)
+- [anyspeech/ipapack_plus_meta (Hugging Face)](https://huggingface.co/datasets/anyspeech/ipapack_plus_meta)
+- [allophoible](https://github.com/Aariciah/allophoible/blob/main/README.md)
+- [xinjli/ucla-phonetic-corpus](https://github.com/xinjli/ucla-phonetic-corpus?tab=readme-ov-file)
+- [VinAIResearch/XPhoneBERT (Interspeech 2023)](https://github.com/VinAIResearch/XPhoneBERT)
+
+## Segmentation / other
+
+- [felixkreuk/UnsupSeg: Unsupervised segmentation](https://github.com/felixkreuk/UnsupSeg/blob/master/predict.py)
+- [Dysfluent WFST: Zero-Shot Speech Dysfluency Transcription (2505.16351)](https://arxiv.org/pdf/2505.16351)
