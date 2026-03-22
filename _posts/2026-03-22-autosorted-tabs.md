@@ -242,3 +242,48 @@ categories: [links]
 
 - [felixkreuk/UnsupSeg: Unsupervised segmentation](https://github.com/felixkreuk/UnsupSeg/blob/master/predict.py)
 - [Dysfluent WFST: Zero-Shot Speech Dysfluency Transcription (2505.16351)](https://arxiv.org/pdf/2505.16351)
+
+
+# Disentangled Speech Representations / Voice Conversion
+
+## Key models / implementations
+
+- [Berkeley-Speech-Group/sparc: Speech Articulatory Coding](https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding?tab=readme-ov-file)
+- [SPARC demo notebook (Colab)](https://colab.research.google.com/drive/1TVGJJpOzPiesLPo46gZNCQLMl-y_QIKe#scrollTo=NCNkC9sk_Od3)
+- [cheoljun95/Speech-Articulatory-Coding (Hugging Face model)](https://huggingface.co/cheoljun95/Speech-Articulatory-Coding/blob/main/model_english_1500k.yaml)
+- [Berkeley-Speech-Group/sylber: Syllabic Embedding Representation of Speech](https://github.com/Berkeley-Speech-Group/sylber/tree/main)
+- [light1726/SpeechTripleNet: End-to-End Disentangled Speech (content, timbre, prosody)](https://github.com/light1726/SpeechTripleNet?tab=readme-ov-file)
+- [SpeechTripleNet demo page](https://speechtriplenet.github.io/)
+- [auspicious3000/SpeechSplit: Unsupervised Speech Decomposition via Triple Information Bottleneck](https://github.com/auspicious3000/SpeechSplit/blob/master/make_spect_f0.py)
+- [ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers (ICML 2022)](https://proceedings.mlr.press/v162/qian22b.html)
+- [YoungSeng/SRD-VC](https://github.com/YoungSeng/SRD-VC/blob/master/f0_pcc.py)
+- [synspeech.github.io: Learning Disentangled Speech Representations](https://synspeech.github.io/)
+
+## Papers
+
+- [Learning Disentangled Speech Representations (2311.03389)](https://arxiv.org/abs/2311.03389)
+- [Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval (2401.08096)](https://arxiv.org/abs/2401.08096)
+- [VQ-CL: Learning Disentangled Speech with Contrastive Learning and Vector Quantization (ICASSP 2023)](https://ieeexplore.ieee.org/abstract/document/10095654)
+- [SpeechTripleNet: End-to-End Disentangled Speech Representation Learning (ACM MM 2023)](https://dl.acm.org/doi/10.1145/3581783.3612485)
+- [Unsupervised speech decomposition via triple information bottleneck (ICML 2020)](https://dl.acm.org/doi/10.5555/3524938.3525664)
+- [Adversarially Learning Disentangled Speech Representations for Robust Multi-Factor Voice Conversion (Interspeech 2021)](https://www.isca-archive.org/interspeech_2021/wang21h_interspeech.html)
+- [Disentangled Speech Representation for Cross-Lingual Voice Conversion Using β-VAE (IEEE 2023)](https://ieeexplore.ieee.org/document/10022787)
+- [An Overview of Voice Conversion and its Challenges (2008.03648)](https://arxiv.org/abs/2008.03648)
+- [ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers (2204.09224)](https://arxiv.org/abs/2204.09224)
+- [MeanVoiceFlow: One-step Nonparallel Voice Conversion with Mean Flows (2602.18104)](https://arxiv.org/abs/2602.18104)
+- [Speech to Speech Synthesis for Voice Impersonation (2602.16721)](https://arxiv.org/abs/2602.16721)
+- [Representation Learning with Contrastive Predictive Coding (1807.03748)](https://arxiv.org/abs/1807.03748)
+- [beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework (OpenReview)](https://openreview.net/forum?id=Sy2fzU9gl)
+
+## Pitch / prosody tools
+
+- [maxrmorrison/torchcrepe: PyTorch CREPE pitch tracker](https://github.com/maxrmorrison/torchcrepe?tab=readme-ov-file)
+- [interactiveaudiolab/penn: Pitch Estimating Neural Networks](https://github.com/interactiveaudiolab/penn?tab=readme-ov-file)
+- [maxrmorrison/torbi: Viterbi decoding in PyTorch](https://github.com/maxrmorrison/torbi)
+- [marl/crepe](https://github.com/marl/crepe/blob/master/crepe/core.py)
+
+## Datasets
+
+- [ylacombe/expresso (Hugging Face)](https://huggingface.co/datasets/ylacombe/expresso)
+- [EXPRESSO dataset demo page](https://speechbot.github.io/expresso/)
+- [EXPRESSO paper (Interspeech 2023, 2308.05725)](https://arxiv.org/pdf/2308.05725)
