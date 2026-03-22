@@ -308,3 +308,51 @@ categories: [links]
 ## Lhotse
 
 - [lhotse-speech/lhotse PR diff (patch-diff)](https://patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff)
+
+
+# LibriVox and English Accent Data
+
+## LibriVox wiki / data collection
+
+- [LibriVox wiki main page](https://wiki.librivox.org/index.php?title=Main_Page)
+- [Accents Table - LibriVox wiki](https://wiki.librivox.org/index.php?title=Accents_Table)
+- [Recordings of Books on the Ambleside List](https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_List)
+- [Recordings of Books on the Ambleside List 2](https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_List_2)
+- [Other British Readers on LibriVox (RuthieG's CataBlog)](https://golding.wordpress.com/home/other-british-readers-on-librivox/)
+
+## Multi-accent speech datasets
+
+- [Open-source Multi-speaker Corpora of English Accents in the British Isles (LREC 2020)](https://aclanthology.org/2020.lrec-1.804.pdf)
+- [The Edinburgh International Accents of English Corpus](https://datashare.ed.ac.uk/handle/10283/8983)
+- [The Voice Bank Corpus: Large Regional Accent Speech Database (IEEE 2013)](https://ieeexplore.ieee.org/document/6709856)
+- [CSTR VCTK Corpus: English Multi-speaker Corpus](https://datashare.ed.ac.uk/handle/10283/3443)
+- [KBLab/rixvox-v2 (Swedish) (Hugging Face)](https://huggingface.co/datasets/KBLab/rixvox-v2)
+- [Google Nigerian English (MFA models)](https://mfa-models.readthedocs.io/en/latest/corpus/English/Google%20Nigerian%20English.html)
+- [kth-tmh/google-britain-ireland (Hugging Face)](https://huggingface.co/datasets/kth-tmh/google-britain-ireland/blob/main/dataset/dataset_info.json)
+- [LibriTTS British Accents (GitHub)](https://github.com/OscarVanL/LibriTTS-British-Accents)
+- [Speech Accent Archive (Weinberger & Kunath)](https://sites.ualberta.ca/~aacl2009/PDFs/WeinbergerKunath2009AACL.pdf)
+- [cvaccents notebook (Kathy Reid)](https://github.com/KathyReid/cvaccents/blob/master/cvaccents-v9.ipynb)
+- [Effect AI Scripted Speech 1.0 - English (Mozilla Data Collective)](https://datacollective.mozillafoundation.org/datasets/cmkfm9fbl00nto0070sdcrak2)
+- [Common Voice Spontaneous Speech 3.0 - English](https://datacollective.mozillafoundation.org/datasets/cmn1pv5hi00uto1072y1074y7)
+- [Common Voice Spontaneous Speech 3.0 - Irish](https://datacollective.mozillafoundation.org/datasets/cmmy33q7l0018mf0721oocrh7)
+- [IDEA: Accents and Dialects of Europe](https://www.dialectsarchive.com/europe)
+- [Accents of English (Cambridge book)](https://www.cambridge.org/core/books/accents-of-english/1E9E89C38DFD0AB53B47EF96D8442594)
+
+## British/Irish accent reference pages (Wikipedia)
+
+- [Regional accents of English - Wikipedia](https://en.wikipedia.org/wiki/Regional_accents_of_English)
+- [Australian English phonology - Wikipedia](https://en.wikipedia.org/wiki/Australian_English_phonology)
+- [Received Pronunciation - Wikipedia](https://en.wikipedia.org/wiki/Received_Pronunciation)
+- [Cockney - Wikipedia](https://en.wikipedia.org/wiki/Cockney#Dialect)
+- [Estuary English - Wikipedia](https://en.wikipedia.org/wiki/Estuary_English)
+- [Scouse - Wikipedia](https://en.wikipedia.org/wiki/Scouse)
+- [Geordie - Wikipedia](https://en.wikipedia.org/wiki/Geordie)
+- [West Country English - Wikipedia](https://en.wikipedia.org/wiki/West_Country_English)
+- [Glasgow dialect - Wikipedia](https://en.wikipedia.org/wiki/Glasgow_dialect)
+- [Lancashire dialect - Wikipedia](https://en.wikipedia.org/wiki/Lancashire_dialect)
+
+## Edinburgh / CSTR datasets
+
+- [Centre for Speech Technology Research (CSTR) data](https://datashare.ed.ac.uk/handle/10283/302)
+- [NST (Natural Speech Technology) data (Edinburgh)](https://datashare.ed.ac.uk/handle/10283/786)
+- [Listening test materials for modern speech synthesis evaluation](https://datashare.ed.ac.uk/handle/10283/3289)
