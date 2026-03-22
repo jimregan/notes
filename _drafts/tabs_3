@@ -1,23 +1,11 @@
 Lecture 1: The Column Space of A Contains All Vectors Ax - YouTube
 https://www.youtube.com/watch?v=YiqIkSHSmyc&list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k&index=7
 
-bertsky/nmalign: forced alignment of lists of string by fuzzy string matching
-https://github.com/bertsky/nmalign?tab=readme-ov-file
-
 Meta AI Open-Sourced Perception Encoder Audiovisual (PE-AV): The Audiovisual Encoder Powering SAM Audio And Large Scale Multimodal Retrieval - MarkTechPost
 https://www.marktechpost.com/2025/12/22/meta-ai-open-sourced-perception-encoder-audiovisual-pe-av-the-audiovisual-encoder-powering-sam-audio-and-large-scale-multimodal-retrieval/
 
-getman24b_interspeech.pdf
-https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.pdf
-
-HTRflow - A tool for HTR and OCR
-https://huggingface.co/blog/Gabriel/htrflow
-
 KBLab/svwikiqa · Datasets at Hugging Face
 https://huggingface.co/datasets/KBLab/svwikiqa
-
-lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
-https://github.com/lumaku/ctc-segmentation?tab=readme-ov-file
 
 Robinson Crusoe — in Words of One Syllable by Daniel Defoe and Lucy Aikin | Project Gutenberg
 https://www.gutenberg.org/ebooks/6936
@@ -25,26 +13,8 @@ https://www.gutenberg.org/ebooks/6936
 Works by Daniel Defoe | LibriVox
 https://librivox.org/author/895?primary_key=895&search_category=author&search_page=2&search_form=get_results&search_order=alpha
 
-The status of function words in dependency grammar: A critique of Universal Dependencies (UD) | Glossa: a journal of general linguistics
-https://www.glossa-journal.org/article/id/5124/
-
 lumaku/ctc-segmentation: Segment an audio file and obtain utterance alignments. (Python package)
 https://github.com/lumaku/ctc-segmentation/tree/master
-
-UnsupSeg/predict.py at master · felixkreuk/UnsupSeg
-https://github.com/felixkreuk/UnsupSeg/blob/master/predict.py
-
-Librivox wiki
-https://wiki.librivox.org/index.php?title=Main_Page
-
-Accents Table - Librivox wiki
-https://wiki.librivox.org/index.php?title=Accents_Table
-
-Recordings of Books on the Ambleside List - Librivox wiki
-https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_List
-
-Recordings of Books on the Ambleside List 2 - Librivox wiki
-https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_List_2
 
 Recordings of Books on the Ambleside List 2 - Librivox wiki
 https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_List_2#Not_in_the_Public_Domain
@@ -52,20 +22,8 @@ https://wiki.librivox.org/index.php?title=Recordings_of_Books_on_the_Ambleside_L
 DeepPhonemizer/dp/model/model.py at main · spring-media/DeepPhonemizer
 https://github.com/spring-media/DeepPhonemizer/blob/main/dp/model/model.py
 
-Training_Example.ipynb - Colab
-https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb
-
-Grapheme-to-phoneme conversion using Long Short-Term Memory recurrent neural networks | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/7178767
-
-ISCA Archive - Transformer Based Grapheme-to-Phoneme Conversion
-https://www.isca-archive.org/interspeech_2019/yolchuyeva19_interspeech.html#
-
 ploujnikov22_interspeech.pdf
 https://www.isca-archive.org/interspeech_2022/ploujnikov22_interspeech.pdf
-
-flexthink/librig2p-nostress-space · Datasets at Hugging Face
-https://huggingface.co/datasets/flexthink/librig2p-nostress-space/viewer/default/sentence_train?row=10
 
 Help:Pronunciation respelling key - Wikipedia
 https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key
@@ -73,17 +31,8 @@ https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key
 ArXiv -> HF Papers (#3565) · huggingface/sentence-transformers@4f48905
 https://github.com/huggingface/sentence-transformers/commit/4f48905755d43d5d51c669d142cdb82ceb4539c6
 
-[2412.09102] PolyIPA -- Multilingual Phoneme-to-Grapheme Conversion Model
-https://arxiv.org/abs/2412.09102
-
 jiaaro/pydub: Manipulate audio with a simple and easy high level interface
 https://github.com/jiaaro/pydub
-
-Bridging the gap: A comparative exploration of Speech-LLM and end-to-end architecture for multilingual conversational ASR
-https://arxiv.org/pdf/2601.01461
-
-rhasspy/wiktionary2dict: Tool for extracting IPA pronunciations from Wiktionary XML dump
-https://github.com/rhasspy/wiktionary2dict
 
 mmBERT/README.md at main · JHU-CLSP/mmBERT
 https://github.com/JHU-CLSP/mmBERT/blob/main/README.md
@@ -97,32 +46,17 @@ https://github.com/jhu-clsp/ettin-encoder-vs-decoder
 NaoyukiKanda/LibriSpeechMix
 https://github.com/NaoyukiKanda/LibriSpeechMix
 
-Accents and Dialects of Europe | IDEA: International Dialects of English Archive
-https://www.dialectsarchive.com/europe
-
 Warning: Bas Rutten is TERRIFYING - YouTube
 https://www.youtube.com/watch?v=6TZek_gZ5s8
 
 Leabhar Sgeulaigheachta/Monachar agus Manachar - Wikisource
 https://wikisource.org/wiki/Leabhar_Sgeulaigheachta/Monachar_agus_Manachar
 
-[2412.09102] PolyIPA -- Multilingual Phoneme-to-Grapheme Conversion Model
-https://arxiv.org/abs/2412.09102
-
-ISCA Archive - T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion
-https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.html#
-
 mlx-whisper · PyPI
 https://pypi.org/project/mlx-whisper/
 
-mlx-community/Qwen3-ForcedAligner-0.6B-4bit · Hugging Face
-https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit
-
 2025.fieldmatters-1.1.pdf
 https://aclanthology.org/2025.fieldmatters-1.1.pdf
-
-emilyahn/align_cs
-https://github.com/emilyahn/align_cs
 
 remove from git add - Google Search
 https://www.google.com/search?q=remove+from+git+add&rlz=1C5GCCM_en&oq=remove+from+git+add&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEIMzI2MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -142,12 +76,6 @@ https://github.com/huggingface/sentence-transformers/blob/main/sentence_transfor
 Paper page - SimCSE: Simple Contrastive Learning of Sentence Embeddings
 https://huggingface.co/papers/2104.08821
 
-cvaccents/cvaccents-v9.ipynb at master · KathyReid/cvaccents
-https://github.com/KathyReid/cvaccents/blob/master/cvaccents-v9.ipynb
-
-Effect AI Scripted Speech 1.0 - English | Mozilla Data Collective
-https://datacollective.mozillafoundation.org/datasets/cmkfm9fbl00nto0070sdcrak2
-
 Kathleen 1.0 | Mozilla Data Collective
 https://datacollective.mozillafoundation.org/datasets/cmid4ekjn00b8nu07xonhj0x8
 
@@ -157,13 +85,5 @@ https://datacollective.mozillafoundation.org/datasets/cmid3cyuy00gnnv07mo54373n
 Datasets
 https://datacollective.mozillafoundation.org/datasets?q=english
 
-Common Voice Spontaneous Speech 3.0 - English | Mozilla Data Collective
-https://datacollective.mozillafoundation.org/datasets/cmn1pv5hi00uto1072y1074y7
-
-Common Voice Spontaneous Speech 3.0 - Irish | Mozilla Data Collective
-https://datacollective.mozillafoundation.org/datasets/cmmy33q7l0018mf0721oocrh7
-
 Bin - Google Drive
 https://drive.google.com/drive/u/0/trash
-
-

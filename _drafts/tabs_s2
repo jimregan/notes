@@ -1,26 +1,11 @@
-Multi Sami - a Hugging Face Space by divvun-tts
-https://huggingface.co/spaces/divvun-tts/multi-sami
-
-ParlaSpeech - Parliamentary Speech Corpus
-https://clarinsi.github.io/parlaspeech/
-
-How to Use the ParlaSpeech Corpus Through a Concordancer
-https://clarinsi.github.io/parlaspeech/concordancer/concordancer-guide.html
-
 Taja Kuzman Pungeršek
 https://taja-kuzman.notion.site/Taja-Kuzman-Punger-ek-8fdda29e5968470286b57421984ed21d
 
 duhát — Wiktionnaire, le dictionnaire libre
 https://fr.wiktionary.org/wiki/duh%C3%A1t#Same_du_Nord
 
-Annexe:Prononciation/same du Nord — Wiktionnaire, le dictionnaire libre
-https://fr.wiktionary.org/wiki/Annexe:Prononciation/same_du_Nord
-
 Appendix:Swedish pronunciation - Wiktionary, the free dictionary
 https://en.wiktionary.org/wiki/Appendix:Swedish_pronunciation
-
-Sameradion
-https://www.sverigesradio.se/sameradion
 
 Entropy-Based Methods for Word-Level ASR Confidence Estimation | NVIDIA Technical Blog
 https://developer.nvidia.com/blog/entropy-based-methods-for-word-level-asr-confidence-estimation/
@@ -52,9 +37,6 @@ https://gemini.google.com/app/5d0add36867da4eb
 lrec-g2p-pivot - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/68c9332f60544944748edef0
 
-ISCA Archive - SoundChoice: Grapheme-to-Phoneme Models with Semantic Disambiguation
-https://www.isca-archive.org/interspeech_2022/ploujnikov22_interspeech.html
-
 Foclóir Gaeilge–Béarla (Ó Dónaill): brúitín
 https://www.teanglann.ie/en/fgb/br%C3%BAit%C3%ADn
 
@@ -79,20 +61,8 @@ https://arxiv.org/pdf/2204.03067
 2401.10465
 https://arxiv.org/pdf/2401.10465
 
-fdemelo/g2p-mbyt5-12l-ipa-childes-espeak · Hugging Face
-https://huggingface.co/fdemelo/g2p-mbyt5-12l-ipa-childes-espeak
-
-Italianising English words with G2P techniques in TTS voices. An evaluation of different models
-https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1868326&dswid=6766
-
 FULLTEXT01.pdf
 https://uu.diva-portal.org/smash/get/diva2:1868326/FULLTEXT01.pdf
-
-spring-media/DeepPhonemizer: Grapheme to phoneme conversion with deep learning.
-https://github.com/spring-media/DeepPhonemizer?tab=readme-ov-file
-
-Training_Example.ipynb - Colab
-https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb
 
 Training_Example.ipynb - Colab
 https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb#scrollTo=Xt85fzFneDno
@@ -103,14 +73,8 @@ https://github.com/lingjzhu/CharsiuG2P/blob/main/README.md#pretrained-models
 charsiu (charsiu)
 https://huggingface.co/charsiu/models
 
-charsiu/g2p_multilingual_byT5_small_100 · Hugging Face
-https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100
-
 arxiv.org
 https://arxiv.org/pdf/2204.03067
-
-open-dict-data/ipa-dict: Monolingual wordlists with pronunciation information in IPA
-https://github.com/open-dict-data/ipa-dict?tab=readme-ov-file
 
 Open Grammar Project
 https://github.com/opengrammar/
@@ -118,23 +82,11 @@ https://github.com/opengrammar/
 opengrammar/jam-learners-grammar: A reference guide to the Jamaican language for language learners
 https://github.com/opengrammar/jam-learners-grammar?tab=readme-ov-file
 
-KBLab/kb-whisper-large · Hugging Face
-https://huggingface.co/KBLab/kb-whisper-large
-
 CharsiuG2P/notebooks at main · lingjzhu/CharsiuG2P
 https://github.com/lingjzhu/CharsiuG2P/tree/main/notebooks
 
-lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages
-https://github.com/lingjzhu/CharsiuG2P
-
 CharsiuG2P/notebooks/train_individual.ipynb at main · lingjzhu/CharsiuG2P
 https://github.com/lingjzhu/CharsiuG2P/blob/main/notebooks/train_individual.ipynb
-
-CharsiuG2P/notebooks/finetuning_low_resource.ipynb at main · lingjzhu/CharsiuG2P
-https://github.com/lingjzhu/CharsiuG2P/blob/main/notebooks/finetuning_low_resource.ipynb
-
-CMU Sphinx - Browse /Acoustic and Language Models at SourceForge.net
-https://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/
 
 Wikipedia:Transliteración y transcripción - Wikipedia, la enciclopedia libre
 https://es.wikipedia.org/wiki/Wikipedia%3ATransliteraci%C3%B3n_y_transcripci%C3%B3n
@@ -145,56 +97,17 @@ https://www.udep.edu.pe/castellanoactual/duda-resuelta-pronunciacion-de-extranje
 Ressurser fra ressursbanken Archive - Språkbanken
 https://www.nb.no/sprakbanken/ressurskatalog/?_type=leksikon&_paged=5
 
-NB Pronunciation - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-79/
-
-NB_Uttale_Work_on_Dialects.pdf
-https://www.nb.no/sbfil/uttaleleksikon/NB_Uttale_Work_on_Dialects.pdf
-
-Norsk ordbank - bokmål 2005 - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-5/
-
-Norsk ordbank - nynorsk 2012 - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-41/
-
 repo.clarino.uib.no/xmlui/handle/11509/137
 https://repo.clarino.uib.no/xmlui/handle/11509/137
 
 Ressurser fra ressursbanken Archive - Språkbanken
 https://www.nb.no/sprakbanken/ressurskatalog/?_type=leksikon
 
-NB Uttale - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-79/
-
-Lingit uttaleleksikon for nynorsk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-65/
-
 Språkbanken - Språkbanken
 https://www.nb.no/sprakbanken/
 
 asr-rapport
 https://www.nb.no/sbfil/dok/2024_talegjenkjenning.pdf
-
-SCRIBE - Home
-https://scribe-project.github.io/
-
-Automatic Text Recognition / PyLaia · GitLab
-https://gitlab.teklia.com/atr/pylaia
-
-Explicit language modeling with n-grams :: Teklia Documentation
-https://doc.teklia.com/pylaia/usage/language_models/
-
-NST uttaleleksikon for dansk - Språkbanken
-https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-26/
-
-NB_Uttale_Work_on_Dialects.pdf
-https://www.nb.no/sbfil/uttaleleksikon/NB_Uttale_Work_on_Dialects.pdf
-
-Grounded_Fine_tuning.ipynb · merve/smol-vision at main
-https://huggingface.co/merve/smol-vision/blob/main/Grounded_Fine_tuning.ipynb
-
-Supercharge your OCR Pipelines with Open Models
-https://huggingface.co/blog/ocr-open-models
 
 Sentence Transformers is joining Hugging Face!
 https://huggingface.co/blog/sentence-transformers-joins-hf
@@ -205,9 +118,6 @@ https://github.com/TGuichoux/Gelina/tree/main?tab=readme-ov-file
 HPLT - High Performance Language Technologies
 https://hplt-project.org/datasets/v3.0
 
-granite-docling-258M demo - a Hugging Face Space by ibm-granite
-https://huggingface.co/spaces/ibm-granite/granite-docling-258m-demo
-
 Page:A contribution to the phonology of Desi-Irish to serve as an introduction to the metrical system of Munster Poetry (IA contributiontoph00henerich).pdf/13 - Wikisource, the free online library
 https://en.wikisource.org/wiki/Page:A_contribution_to_the_phonology_of_Desi-Irish_to_serve_as_an_introduction_to_the_metrical_system_of_Munster_Poetry_(IA_contributiontoph00henerich).pdf/13
 
@@ -216,12 +126,6 @@ https://en.wikisource.org/wiki/Index:A_contribution_to_the_phonology_of_Desi-Iri
 
 Steppenwolf/Preface - Wikisource, the free online library
 https://en.wikisource.org/wiki/Steppenwolf/Preface
-
-ibm-granite/granite-docling-258M · Hugging Face
-https://huggingface.co/ibm-granite/granite-docling-258M
-
-mseb/mseb/encoders/segmentation_encoder.py at main · google-research/mseb
-https://github.com/google-research/mseb/blob/main/mseb/encoders/segmentation_encoder.py
 
 huggingface | Docker Hub
 https://hub.docker.com/u/huggingface
@@ -306,15 +210,6 @@ https://www.reddit.com/r/hungary/comments/1n1atf3/kurv%C3%A1ra_felbasz_ez_az_ors
 
 wooorm/dictionaries: Hunspell dictionaries in UTF-8
 https://github.com/wooorm/dictionaries?tab=readme-ov-file
-
-bournemouth-forced-aligner/examples/read_embeddings.py at main · tabahi/bournemouth-forced-aligner
-https://github.com/tabahi/bournemouth-forced-aligner/blob/main/examples/read_embeddings.py
-
-BFA: Real-time Multilingual Text-to-speech Forced Alignment
-https://arxiv.org/pdf/2509.23147
-
-tabahi/contexless-phonemes-CUPE: pytorch model for contexless-phoneme prediction from speech audio
-https://github.com/tabahi/contexless-phonemes-CUPE
 
 srt/tests/test_srt.py at develop · cdown/srt
 https://github.com/cdown/srt/blob/develop/tests/test_srt.py

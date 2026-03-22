@@ -4,9 +4,6 @@ https://www.coli.uni-saarland.de/groups/FK/speech_science/icphs/ICPhS1995/13_ICP
 speech to speech search - Google Search
 https://www.google.com/search?q=speech+to+speech+search&rlz=1C5GCCM_en&oq=speech+to+speech+search&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg0MTk0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-​​Speech-to-Retrieval (S2R): A new approach to voice search
-https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/
-
 Siteseeker Voice - A speech controlled search engine for Swedish
 https://people.dsv.su.se/~hercules/papers/SiteSeekerVoice.html
 
@@ -25,65 +22,23 @@ https://arxiv.org/pdf/2402.0288
 Respiro-en/demo.ipynb at main · ydqmkkx/Respiro-en
 https://github.com/ydqmkkx/Respiro-en/blob/main/demo.ipynb
 
-QUESST 2014 Multilingual Database for Query-by-Example Keyword Spotting | BUT Speech@FIT
-https://speech.fit.vut.cz/software/quesst-2014-multilingual-database-query-by-example-keyword-spotting
-
-CEUR-WS.org/Vol-1263 - MediaEval Multimedia Benchmark Workshop 2014
-https://ceur-ws.org/Vol-1263/
-
 spoken query by example - Google Search
 https://www.google.com/search?q=spoken+query+by+example&rlz=1C5GCCM_en&oq=spoken+query+by+example&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyBwgFEAAY7wUyBwgGEAAY7wUyBggHEEUYPdIBCDQ5NzBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#cobssid=s
-
-Query-by-example spoken term detection using bottleneck feature and Hidden Markov model | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/7382134
-
-2410.04091
-https://arxiv.org/pdf/2410.04091
 
 2023.icnlsp-1.31.pdf
 https://aclanthology.org/2023.icnlsp-1.31.pdf
 
-ISCA Archive - CNN Based Query by Example Spoken Term Detection
-https://www.isca-archive.org/interspeech_2018/ram18_interspeech.html
-
-[2506.16751] H-QuEST: Accelerating Query-by-Example Spoken Term Detection with Hierarchical Indexing
-https://arxiv.org/abs/2506.16751
-
-A lattice-based approach to query-by-example spoken document retrieval | Proceedings of the 31st annual international ACM SIGIR conference on Research and development in information retrieval
-https://dl.acm.org/doi/10.1145/1390334.1390397
-
-Query-by-Example Spoken Term Detection using Attentive Pooling Networks | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/9023023
-
 disentangled speech representations - Google Search
 https://www.google.com/search?q=disentangled+speech+representations&rlz=1C5GCCM_en&oq=disentangled+speech+representations&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyBwgGEAAY7wUyBwgHEAAY7wUyBwgIEAAY7wUyCggJEAAYgAQYogTSAQg2NzM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-[2311.03389] Learning Disentangled Speech Representations
-https://arxiv.org/abs/2311.03389
 
 peyser22_interspeech.pdf
 https://www.isca-archive.org/interspeech_2022/peyser22_interspeech.pdf
 
-Disentangled Speech Representation Learning for One-Shot Cross-Lingual Voice Conversion Using ß-VAE | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/10022787
-
-SpeechTripleNet: End-to-End Disentangled Speech Representation Learning for Content, Timbre and Prosody | Proceedings of the 31st ACM International Conference on Multimedia
-https://dl.acm.org/doi/10.1145/3581783.3612485
-
 SpeechTripleNet: End-to-End Disentangled Speech Representation Learning for Content, Timbre and Prosody
 https://dl.acm.org/doi/pdf/10.1145/3581783.3612485
 
-light1726/SpeechTripleNet: The implementation of paper "SpeechTripleNet: End-to-End Disentangled Speech Representation Learning for Content, Timbre and Prosody"
-https://github.com/light1726/SpeechTripleNet?tab=readme-ov-file
-
-Demo page for our paper SpeechTripleNet
-https://speechtriplenet.github.io/
-
 Can the definition of each speaker by expected to... - Google Scholar
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Can+the+definition+of+each+speaker+by+expected+to+come+from+the+laboratory+in+the+next+decades%3F&btnG=
-
-[1807.03748] Representation Learning with Contrastive Predictive Coding
-https://arxiv.org/abs/1807.03748
 
 1807.03748
 https://arxiv.org/pdf/1807.03748
@@ -121,35 +76,17 @@ https://www-mmsp.ece.mcgill.ca/Documents/Data/
 vctk  |  TensorFlow Datasets
 https://www.tensorflow.org/datasets/catalog/vctk
 
-WeinbergerKunath2009AACL.pdf
-https://sites.ualberta.ca/~aacl2009/PDFs/WeinbergerKunath2009AACL.pdf
-
-KBLab/rixvox-v2 · Datasets at Hugging Face
-https://huggingface.co/datasets/KBLab/rixvox-v2
-
 IEEE Xplore Full-Text PDF:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8099676
 
 {CSTR VCTK} Corpus: English Multi-speaker Corpus for {CSTR} Voice Cloning Toolkit - Google Search
 https://www.google.com/search?q=%7BCSTR+VCTK%7D+Corpus%3A+English+Multi-speaker+Corpus+for+%7BCSTR%7D+Voice+Cloning+Toolkit&rlz=1C5GCCM_en&oq=%7BCSTR+VCTK%7D+Corpus%3A+English+Multi-speaker+Corpus+for+%7BCSTR%7D+Voice+Cloning+Toolkit&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg70gEHMzkyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
 
-CSTR VCTK Corpus: English Multi-speaker Corpus for CSTR Voice Cloning Toolkit (version 0.92)
-https://datashare.ed.ac.uk/handle/10283/3443
-
 Registration - LREC 2026
 https://lrec2026.info/registration/
 
-The voice bank corpus: Design, collection and data analysis of a large regional accent speech database | IEEE Conference Publication | IEEE Xplore
-https://ieeexplore.ieee.org/document/6709856
-
-beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework | OpenReview
-https://openreview.net/forum?id=Sy2fzU9gl
-
 pdf
 https://openreview.net/pdf?id=Sy2fzU9gl
-
-Unsupervised speech decomposition via triple information bottleneck | Proceedings of the 37th International Conference on Machine Learning
-https://dl.acm.org/doi/10.5555/3524938.3525664
 
 {ContentVec}: An Improved Self-Supervised Speech Representation by Disentangling Speakers - Google Search
 https://www.google.com/search?q=%7BContentVec%7D%3A+An+Improved+Self-Supervised+Speech+Representation+by+Disentangling+Speakers&rlz=1C5GCCM_en&oq=%7BContentVec%7D%3A+An+Improved+Self-Supervised+Speech+Representation+by+Disentangling+Speakers&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzM1M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -160,32 +97,14 @@ https://research.ibm.com/publications/contentvec-an-improved-self-supervised-spe
 ICML 2022 Papers
 https://icml.cc/virtual/2022/papers.html?search=ContentVec:+An+Improved+Self-Supervised+Speech+Representation+by+Disentangling+Speakers
 
-ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers
-https://proceedings.mlr.press/v162/qian22b.html
-
-[2204.09224] ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers
-https://arxiv.org/abs/2204.09224
-
 dblp: ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers.
 https://dblp.org/rec/conf/icml/QianZGNLCHC22.html
 
 [Quick Review] ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers
 https://liner.com/review/contentvec-improved-selfsupervised-speech-representation-by-disentangling-speakers
 
-[2204.09224] ContentVec: An Improved Self-Supervised Speech Representation by Disentangling Speakers
-https://arxiv.org/abs/2204.09224
-
 {SpeechTokenizer}: Unified Speech Tokenizer for Speech Language Models - Google Search
 https://www.google.com/search?q=%7BSpeechTokenizer%7D%3A+Unified+Speech+Tokenizer+for+Speech+Language+Models&rlz=1C5GCCM_en&oq=%7BSpeechTokenizer%7D%3A+Unified+Speech+Tokenizer+for+Speech+Language+Models&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzU0N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models | OpenReview
-https://openreview.net/forum?id=AF9Q8Vip84
-
-[1807.03748] Representation Learning with Contrastive Predictive Coding
-https://arxiv.org/abs/1807.03748
-
-Other British Readers on LibriVox | RuthieG's CataBlog
-https://golding.wordpress.com/home/other-british-readers-on-librivox/
 
 'Tis Pity She's a Whore | LibriVox
 https://librivox.org/tis-pity-shes-a-whore-by-john-ford/

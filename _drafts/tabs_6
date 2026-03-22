@@ -1,6 +1,3 @@
-Massive Sound Embedding Benchmark (MSEB)
-https://arxiv.org/pdf/2602.07143
-
 Wuthering Heights | Project Gutenberg
 https://www.gutenberg.org/cache/epub/768/pg768-images.html
 
@@ -28,9 +25,6 @@ https://github.com/Wataru-Nakata/miipher?tab=readme-ov-file
 Shinnosuke Takamichi (高道 慎之介) - jvs_corpus
 https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus
 
-VinAIResearch/XPhoneBERT: XPhoneBERT: A Pre-trained Multilingual Model for Phoneme Representations for Text-to-Speech (INTERSPEECH 2023)
-https://github.com/VinAIResearch/XPhoneBERT
-
 [2103.15060] PnG BERT: Augmented BERT on Phonemes and Graphemes for Neural TTS
 https://arxiv.org/abs/2103.15060
 
@@ -52,23 +46,11 @@ https://www.researchgate.net/publication/361999472_Investigation_of_Japanese_PnG
 IEEE Xplore Full-Text PDF:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9829304&tag=1
 
-ktvoice/Codec · Hugging Face
-https://huggingface.co/ktvoice/Codec
-
-neuphonic/emilia-yodas-english-neucodec · Datasets at Hugging Face
-https://huggingface.co/datasets/neuphonic/emilia-yodas-english-neucodec
-
 neuphonic (Neuphonic)
 https://huggingface.co/neuphonic
 
-neuphonic/neucodec · Hugging Face
-https://huggingface.co/neuphonic/neucodec
-
 neuphonic/neutts-air · Hugging Face
 https://huggingface.co/neuphonic/neutts-air
-
-neuphonic/neucodec: A package for NeuCodec: a 50hz, 0.8kbps, 24kHz audio codec.
-https://github.com/neuphonic/neucodec
 
 Wuthering Heights (version 3 dramatic reading) | LibriVox
 https://librivox.org/wuthering-heights-dramatic-reading-by-emily-bronte
@@ -78,11 +60,3 @@ https://www.gutenberg.org/cache/epub/768/pg768-images.html
 
 nv-tlabs/kimodo
 https://github.com/nv-tlabs/kimodo
-
-Dysfluent WFST: A Framework for Zero-Shot Speech Dysfluency Transcription and Detection
-https://arxiv.org/pdf/2505.16351
-
-DysfluentWFST/config/ipa2cmu.json at main · Berkeley-Speech-Group/DysfluentWFST
-https://github.com/Berkeley-Speech-Group/DysfluentWFST/blob/main/config/ipa2cmu.json
-
-
