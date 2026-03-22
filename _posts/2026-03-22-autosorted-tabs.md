@@ -650,3 +650,64 @@ categories: [links]
 - [UCLA Phonetics: Gaelic, Irish](https://archive.phonetics.ucla.edu/Language/GLE/gle.html)
 - [UCLA Phonetics: Word List for Gaelic, Irish (Galway dialect)](https://archive.phonetics.ucla.edu/Language/GLE/gle_word-list_1982_01.html)
 - [Foclóir Gaeilge–Béarla (Ó Dónaill): taoide](https://www.teanglann.ie/ga/fgb/taoide)
+
+
+# Hungarian Language Learning
+
+## Grammar references
+
+- [HungarianReference.com - Verb conjugation overview](http://www.hungarianreference.com/Verbs/conjugation/#google_vignette)
+- [The may/permission suffix: -hat/het](http://www.hungarianreference.com/Verbs/may-permission-potential-hat.aspx)
+- [The conditional mood: would/should](http://www.hungarianreference.com/Verbs/conditional-would-should.aspx)
+- [Expressing need with kell + personal infinitives](http://www.hungarianreference.com/Verbs/need-must-kell-infinitives-with-personal-suffixes.aspx)
+- [Future tense and using two verbs](http://www.hungarianreference.com/Verbs/Future-tense-fog-two-verbs-will-want-know.aspx)
+- [Repeated actions with -gat/get](http://www.hungarianreference.com/Verbs/Repetition-gat.aspx)
+- [Splitting coverbs from verb root](http://www.hungarianreference.com/Verbs/splitting-of-coverbs-verbal-prefixes-meg-el-ki-le-be-fel.aspx)
+- [Syntax, word order and forming sentences](http://www.hungarianreference.com/Misc_Grammar/syntax-sentences-word-order.aspx)
+- [The word 'hogy' and its uses](http://www.hungarianreference.com/Hogy-how-that-conjunction-explanation.aspx)
+- [Hungarian Dative case: -nak/-nek](http://www.hungarianreference.com/nouns/nak-nek-dative.aspx)
+- [HungarianReference.com links/dictionary/resources](http://www.hungarianreference.com/Links/Links-dictionary-resources-other-courses.aspx)
+- [Hungarian verbs - Wikipedia](https://en.wikipedia.org/wiki/Hungarian_verbs)
+- [Magyar helyesírás – Wikipédia](https://hu.wikipedia.org/wiki/Magyar_helyes%C3%ADr%C3%A1s)
+- [Hungarian Grammar/Vocabulary - Wikibooks](https://hu.wikibooks.org/wiki/Magyar_nyelvtan/Sz%C3%B3tan)
+
+## Courses / learning resources
+
+- [The MagyarOK textbook series](https://mnyi.eu/en/oktatasi-anyagok/magyarok-tankonyvcsalad)
+- [Easy Hungarian - Bits of Hungarian](https://www.easyhungarian.com/)
+- [Best Resources for Learning Hungarian (Catch Budapest)](https://www.catchbudapest.com/hungarian-learning-resources/)
+- [Hungarian resources - Lindie Botes](https://lindiebotes.com/hungarian-resources/)
+- [r/hungarian wiki: Learn Hungarian Online](https://www.reddit.com/r/hungarian/wiki/resources/)
+- [Fluent Forever base vocabulary list](https://method.fluent-forever.com/base-vocabulary-list/)
+- [How to say "IN" in Hungarian: -ban, -ben, -n, -on (YouTube)](https://www.youtube.com/watch?v=1nhB9yPGj8w)
+- [Bogyó és Babóca - Hungarian children's show (YouTube)](https://www.youtube.com/watch?v=CCCD5lN2neY)
+- [Zsenileszek channel (YouTube)](https://www.youtube.com/@zsenileszek/featured)
+- [Harisnyás Pippi (Pippi Longstocking in Hungarian, Dailymotion)](https://www.dailymotion.com/video/x5ae95h)
+
+## Anki tools
+
+- [kerrickstaley/genanki: Python library for generating Anki decks](https://github.com/kerrickstaley/genanki)
+- [markdown-anki-decks (PyPI)](https://pypi.org/project/markdown-anki-decks/)
+
+## Gutenberg texts (Hungarian)
+
+- [Books: Language: Hungarian - Project Gutenberg](https://www.gutenberg.org/ebooks/search/?query=l.hu&start_index=151)
+- [Világ ura (Master of the World) - Jules Verne](https://www.gutenberg.org/ebooks/75143)
+- [Kárpáthy Zoltán - Mór Jókai](https://www.gutenberg.org/ebooks/56636)
+- [Utazás a Holdba (From the Earth to the Moon) - Jules Verne](https://www.gutenberg.org/cache/epub/69391/pg69391-images.html)
+- [Figurák - Géza Gárdonyi](https://www.gutenberg.org/cache/epub/41683/pg41683-images.html)
+- [Az emberiség képviselői (Representative Men) - Emerson](https://www.gutenberg.org/ebooks/68321)
+- [Népvilág - Mór Jókai](https://www.gutenberg.org/cache/epub/61488/pg61488-images.html)
+- [Légy jó mindhalálig - Zsigmond Móricz](https://www.gutenberg.org/ebooks/67140)
+- [Virradóra - Mór Jókai](https://www.gutenberg.org/ebooks/56755)
+- [Huckleberry Finn kalandjai - Mark Twain](https://www.gutenberg.org/cache/epub/66159/pg66159-images.html)
+- [Életbölcseség (Aphorisms on the Wisdom of Life) - Schopenhauer](https://www.gutenberg.org/ebooks/64278)
+- [Im-ígyen szóla Zarathustra (Thus Spoke Zarathustra) - Nietzsche](https://www.gutenberg.org/cache/epub/66444/pg66444-images.html)
+- [Grimm Fairy Tales (Hungarian)](https://www.gutenberg.org/cache/epub/40088/pg40088-images.html)
+- [Books by Jókai, Mór - Project Gutenberg](https://www.gutenberg.org/ebooks/author/5845?start_index=51)
+
+## Sentence alignment tools
+
+- [hunalign – sentence aligner (Hungarian NLP)](http://mokk.bme.hu/en/resources/hunalign/)
+- [loomchild/maligna: Bilingual sentence aligner](https://github.com/loomchild/maligna)
+- [pombredanne/anymalign: Multilingual aligner for SMT](https://github.com/pombredanne/anymalign?tab=readme-ov-file)
