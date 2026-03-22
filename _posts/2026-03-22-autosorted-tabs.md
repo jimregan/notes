@@ -287,3 +287,24 @@ categories: [links]
 - [ylacombe/expresso (Hugging Face)](https://huggingface.co/datasets/ylacombe/expresso)
 - [EXPRESSO dataset demo page](https://speechbot.github.io/expresso/)
 - [EXPRESSO paper (Interspeech 2023, 2308.05725)](https://arxiv.org/pdf/2308.05725)
+
+
+# Distributed Training
+
+## Ray
+
+- [ray-project/ray: AI compute engine and distributed runtime](https://github.com/ray-project/ray?tab=readme-ov-file)
+- [Ray Train: Scalable Model Training](https://docs.ray.io/en/latest/train/train.html)
+- [Ray Train Overview](https://docs.ray.io/en/latest/train/overview.html#train-overview)
+- [Get Started with Distributed Training using PyTorch Lightning](https://docs.ray.io/en/latest/train/getting-started-pytorch-lightning.html#train-pytorch-lightning)
+- [Get Started with Distributed Training using Hugging Face Transformers](https://docs.ray.io/en/latest/train/getting-started-transformers.html#train-pytorch-transformers)
+- [Loading Data in Ray](https://docs.ray.io/en/latest/data/loading-data.html#loading-data-from-other-libraries)
+
+## Submitit (Slurm)
+
+- [facebookincubator/submitit: Python toolbox for submitting jobs to Slurm](https://github.com/facebookincubator/submitit?tab=readme-ov-file)
+- [submitit examples](https://github.com/facebookincubator/submitit/blob/main/docs/examples.md)
+
+## Lhotse
+
+- [lhotse-speech/lhotse PR diff (patch-diff)](https://patch-diff.githubusercontent.com/raw/lhotse-speech/lhotse/pull/1506.diff)
