@@ -586,3 +586,26 @@ categories: [links]
 
 - [Sameradion (Wayback Machine, March 2024)](http://web.archive.org/web/20240331235801/https://sverigesradio.se/sameradion)
 - [Radio and Television Archive - Kavi (Finland)](https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/)
+
+
+# Web Archiving
+
+## Tools / frameworks
+
+- [Webrecorder: Web Archiving for All](https://webrecorder.net/)
+- [webrecorder/pywb: Core Python Web Archiving Toolkit](https://github.com/webrecorder/pywb)
+- [pywb documentation](https://pywb.readthedocs.io/en/latest/)
+- [pywb recording mode configuration](https://pywb.readthedocs.io/en/latest/manual/configuring.html#recording-mode)
+- [pywb Memento API](https://pywb.readthedocs.io/en/latest/manual/memento.html#memento-api)
+- [ReplayWeb.page (Webrecorder)](https://webrecorder.net/replaywebpage/)
+
+## Warchaeology (Norwegian National Library)
+
+- [Warchaeology usage](https://nlnwa.github.io/warchaeology/cmd/)
+- [warc cat command](https://nlnwa.github.io/warchaeology/cmd/warc_cat/)
+- [warc command](https://nlnwa.github.io/warchaeology/cmd/warc/)
+- [warc convert nedlib](https://nlnwa.github.io/warchaeology/cmd/warc_convert_nedlib/)
+
+## Formats
+
+- [Web Archive Collection Zipped (WACZ) spec 1.1.1](https://specs.webrecorder.net/wacz/1.1.1/)
