@@ -551,3 +551,38 @@ categories: [links]
 ## Abgeleitete Textformate / derived text formats
 
 - [Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen | ZfdG](https://zfdg.de/2020_006)
+
+
+# Swedish Radio Minority Language Programming
+
+## Sveriges Radio channels
+
+- [Sameradion](https://www.sverigesradio.se/sameradion)
+- [Sameradiopodden (all episodes)](https://www.sverigesradio.se/sameradiopodden)
+- [Tablå Sameradion](https://www.sverigesradio.se/kanaler/tabla/sameradion)
+- [Meänraatio](https://www.sverigesradio.se/meanraatio)
+- [Radio Romano](https://www.sverigesradio.se/radio-romano)
+- [Terni Generatcia (romani och svenska)](https://www.sverigesradio.se/terni-generatcia-podd-romani)
+- [Mitt jiddischorakel](https://www.sverigesradio.se/mitt-jiddischorakel)
+- [Jiddisch far alle](https://www.sverigesradio.se/jiddischfaralle)
+- [News in other languages](https://www.sverigesradio.se/kategori/news-in-other-languages)
+- [All podcasts/programs](https://www.sverigesradio.se/poddar-program)
+
+## SVT (Swedish Television)
+
+- [Jiddisch/Yiddish | SVT Play](https://www.svtplay.se/kategori/jiddisch-yiddish)
+
+## Sveriges Radio Open API
+
+- [This is Swedish Radio's open API](https://www.sverigesradio.se/artikel/this-is-swedish-radios-open-api)
+- [RSS and Podcasting info](https://www.sverigesradio.se/artikel/579735)
+- [API channels list](https://api.sr.se/api/v2/channels/)
+- [RSS feed: Sameradion program 2327](https://api.sr.se/api/rss/program/2327)
+- [RSS feed: pod 4901](https://api.sr.se/api/rss/pod/4901)
+- [RSS feed: program 2054](https://api.sr.se/api/rss/program/2054)
+- [Now playing API (channel 213)](https://api.sr.se/api/v2/playlists/rightnow?channelid=213)
+
+## Archive
+
+- [Sameradion (Wayback Machine, March 2024)](http://web.archive.org/web/20240331235801/https://sverigesradio.se/sameradion)
+- [Radio and Television Archive - Kavi (Finland)](https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/)
