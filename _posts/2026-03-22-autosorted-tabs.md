@@ -466,3 +466,19 @@ categories: [links]
 - [SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models (OpenReview ICLR 2024)](https://openreview.net/forum?id=AF9Q8Vip84)
 - [DeCodec: Rethinking Audio Codecs as Universal Disentangled Representation Learners (2509.09201)](https://arxiv.org/abs/2509.09201)
 - [Scaling Open Discrete Audio Foundation Models with Interleaved Tokens (2602.16687)](https://arxiv.org/abs/2602.16687)
+
+
+# WFST for ASR
+
+## System combination / multi-stream decoding
+
+- [A WFST Framework for Single-Pass Multi-Stream Decoding (Interspeech 2016)](https://www.isca-archive.org/interspeech_2016/xu16c_interspeech.html)
+- [Combination of multiple aligned recognition outputs using WFST and LSTM (IEEE 2015)](https://ieeexplore.ieee.org/document/7333720)
+- [Language Model Combination and Adaptation Using WFSTs (NASA NTRS)](https://ntrs.nasa.gov/citations/20110023765)
+- [WFST Enabled Solutions to ASR Problems: Beyond HMM Decoding (Google Research)](https://research.google/pubs/wfst-enabled-solutions-to-asr-problems-beyond-hmm-decoding/)
+
+## Dysfluency / other applications
+
+- [Dysfluent WFST: A Framework for Zero-Shot Speech Dysfluency Transcription and Detection (2505.16351)](https://arxiv.org/pdf/2505.16351)
+- [DysfluentWFST IPA2CMU config](https://github.com/Berkeley-Speech-Group/DysfluentWFST/blob/main/config/ipa2cmu.json)
+- [transducersaurus/regex2wfst.py](https://github.com/markusdr/transducersaurus/blob/master/python/regex2wfst.py)
