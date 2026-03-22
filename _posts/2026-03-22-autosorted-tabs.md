@@ -160,3 +160,47 @@ categories: [links]
 ## KTH library search
 
 - [KTH library search: northern sámi books](https://kth-ch.primo.exlibrisgroup.com/discovery/search?query=any,contains,northern%20s%C3%A1mi&pfilter=rtype,exact,books&tab=Everything&search_scope=MyInst_and_CI&vid=46KTH_INST:46KTH_VU1_L&lang=en&offset=60)
+
+
+# Multilingual / Low-Resource ASR
+
+## Omnilingual ASR (Facebook Research)
+
+- [facebookresearch/omnilingual-asr: Open-Source Multilingual Speech Recognition for 1600+ Languages](https://github.com/facebookresearch/omnilingual-asr?tab=readme-ov-file#installation)
+- [facebook/omniASR-LLM-7B (Hugging Face)](https://huggingface.co/facebook/omniASR-LLM-7B)
+- [omnilingual-asr data preparation README](https://github.com/facebookresearch/omnilingual-asr/blob/main/workflows/dataprep/README.md)
+- [omnilingual-asr per-language results (7B LLM ASR)](https://github.com/facebookresearch/omnilingual-asr/blob/main/per_language_results_table_7B_llm_asr.csv)
+
+## OWSM (Open Whisper-style Speech Models)
+
+- [OWSM V4 Demo Space (ESPnet)](https://huggingface.co/spaces/espnet/OWSM_V4_Demo)
+- [espnet/owsm_ctc_v3.1_1B (Hugging Face)](https://huggingface.co/espnet/owsm_ctc_v3.1_1B)
+
+## Audio LLM / speech-language model frameworks
+
+- [X-LANCE/SLAM-LLM: Speech, Language, Audio, Music with LLM](https://github.com/X-LANCE/SLAM-LLM)
+- [SLAM-LLM speech-to-speech README](https://github.com/X-LANCE/SLAM-LLM/blob/main/examples/s2s/README.md)
+- [FunAudioLLM/CosyVoice: Multilingual large voice generation model](https://github.com/FunAudioLLM/CosyVoice)
+- [modelscope/FunASR](https://github.com/modelscope/FunASR)
+- [Continuous Audio Language Models (2509.06926)](https://arxiv.org/abs/2509.06926)
+- [Bridging the Modality Gap: Softly Discretizing Audio for LLM-based ASR (2506.05706)](https://arxiv.org/abs/2506.05706)
+- [Retrieval Augmented Generation based context discovery for ASR (2509.19567)](https://arxiv.org/abs/2509.19567)
+- [NLE: Non-autoregressive LLM-based ASR by Transcript Editing](https://arxiv.org/pdf/2603.08397)
+- [Bridging the gap: Speech-LLM and end-to-end for multilingual conversational ASR](https://arxiv.org/pdf/2601.01461)
+
+## W2V2 / multilingual fine-tuning
+
+- [Fine-Tune W2V2-Bert for low-resource ASR (HF blog)](https://huggingface.co/blog/fine-tune-w2v2-bert)
+- [facebook/w2v-bert-2.0 (Hugging Face)](https://huggingface.co/facebook/w2v-bert-2.0)
+- [facebook/seamless-m4t-v2-large (Hugging Face)](https://huggingface.co/facebook/seamless-m4t-v2-large)
+- [GetmanY1/wav2vec2-large-sami-22k-finetuned (Hugging Face)](https://huggingface.co/GetmanY1/wav2vec2-large-sami-22k-finetuned)
+- [Getman 2024 Interspeech paper](https://www.isca-archive.org/interspeech_2024/getman24b_interspeech.pdf)
+- [KBLab/kb-whisper-large (Hugging Face)](https://huggingface.co/KBLab/kb-whisper-large)
+
+## SIGUL: Low-resource and endangered language NLP
+
+- [SIGUL 2024 Proceedings (LREC-COLING)](https://aclanthology.org/events/lrec-2024/#2024sigul-1)
+- [Assessing Pre-Built Speaker Recognition Models for Endangered Language Data](https://aclanthology.org/2024.sigul-1.4/)
+- [Tandem Long-Short Duration-based Modeling for ASR](https://aclanthology.org/2024.sigul-1.40.pdf)
+- [SIGUL 2026 Joint Workshop CfP](https://groups.google.com/g/open-linguistics/c/oDrgoVNUcf0)
+- [LaTeLL 2026: Language Technologies for Low-resource Languages](https://latell.org/2026/)
