@@ -343,3 +343,23 @@ categories: [links]
 - [Centre for Speech Technology Research (CSTR) data](https://datashare.ed.ac.uk/handle/10283/302)
 - [NST (Natural Speech Technology) data (Edinburgh)](https://datashare.ed.ac.uk/handle/10283/786)
 - [Listening test materials for modern speech synthesis evaluation](https://datashare.ed.ac.uk/handle/10283/3289)
+
+
+# OCR / HTR Tools
+
+## Document processing platforms
+
+- [Arkindex: a document processing platform (Teklia)](https://doc.teklia.com/arkindex/)
+- [Arkindex GitLab](https://gitlab.teklia.com/arkindex)
+- [Automatic Text Recognition / PyLaia (Teklia GitLab)](https://gitlab.teklia.com/atr/pylaia)
+- [Explicit language modeling with n-grams (PyLaia docs)](https://doc.teklia.com/pylaia/usage/language_models/)
+- [SCRIBE project](https://scribe-project.github.io/)
+
+## Models
+
+- [ibm-granite/granite-docling-258M (Hugging Face)](https://huggingface.co/ibm-granite/granite-docling-258M)
+- [granite-docling-258M demo Space](https://huggingface.co/spaces/ibm-granite/granite-docling-258m-demo)
+- [HTRflow: A tool for HTR and OCR (HF blog)](https://huggingface.co/blog/Gabriel/htrflow)
+- [Supercharge your OCR Pipelines with Open Models (HF blog)](https://huggingface.co/blog/ocr-open-models)
+- [Grounded Fine-tuning notebook (smol-vision)](https://huggingface.co/merve/smol-vision/blob/main/Grounded_Fine_tuning.ipynb)
+- [deepseek-ai/DeepSeek-OCR: Contexts Optical Compression](https://github.com/deepseek-ai/DeepSeek-OCR)
