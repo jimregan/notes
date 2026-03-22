@@ -609,3 +609,44 @@ categories: [links]
 ## Formats
 
 - [Web Archive Collection Zipped (WACZ) spec 1.1.1](https://specs.webrecorder.net/wacz/1.1.1/)
+
+
+# Irish Language / Irish ASR
+
+## ASR systems and papers
+
+- [Automatic Speech Recognition for Irish: the ABAIR-ÉIST System (CLTW 2022)](https://aclanthology.org/2022.cltw-1.7.pdf)
+- [Fotheidil: an Automatic Transcription System for the Irish Language (CLTW 2025)](https://aclanthology.org/2025.cltw-1.4.pdf)
+- [Cross-dialect lexicon optimisation for an endangered language ASR system: the case of Irish](https://www.repository.cam.ac.uk/items/7ba60f39-dd47-4b14-ae18-6a5445b5f9b3)
+- [Automatic Speech Recognition for Irish: testing lexicons and language models (IEEE 2022)](https://ieeexplore.ieee.org/abstract/document/9826201)
+- [‪Liam Lonergan‬ - Google Scholar](https://scholar.google.com/citations?user=NyD6JnIAAAAJ&hl=en)
+- [dblp: Neasa Ní Chiaráin](https://dblp.org/pid/143/8452.html)
+
+## Celtic Language Technology Workshop (CLTW)
+
+- [Proceedings of the 4th Celtic Language Technology Workshop (LREC 2022)](https://aclanthology.org/volumes/2022.cltw-1/)
+- [Second Celtic Language Technology Workshop (LATTICE)](https://www.lattice.cnrs.fr/CLTW/index-en.html)
+
+## Irish language NLP
+
+- [Kevin Scannell: Tiomsú Corpais don Taighde Foclóireachta (CFG2020)](https://kevinscannell.com/publication/2021-11-23-corpas-focloireachta)
+- [Kevin Scannell: Neural Models for Predicting Celtic Mutations](https://kevinscannell.com/publication/2020-05-11-celtic-mutations)
+- [Kevin Scannell: Claonadh Inscne, Líonraí Néaracha, agus an Ghaeilge](https://kevinscannell.com/publication/2020-04-27-claonadh-inscne)
+- [Irish corpus from the web | Sketch Engine](https://www.sketchengine.eu/gatenten-irish-corpus/)
+- [Innovative Irish Language and AI projects at DCU](https://www.dcu.ie/humanities-and-social-sciences/news/2025/nov/tionscadail-nualacha-gaeilge-agus-intleachta-saorga)
+- [Call for papers: TEANGA special edition on Irish-language corpus linguistics](https://www.gaois.ie/en/blog/gairm-ar-phaipeir-eagran-speisialta-teanga-faoin-teangeolaiocht-chorpais)
+
+## Irish language text resources
+
+- [Leigh Leat: Irish reading app](https://leighleat.com/sc%C3%A9alta)
+- [Stór Scéalta | Leigh Leat](https://leighleat.com/st%C3%B3r_sc%C3%A9alta/inn%C3%A9acs)
+- [ClubLeabhar.com: na leabhair](https://www.clubleabhar.com/leabhair#2018)
+- [Sources for Connemara Irish - Gaeilge Chonamara](https://gaeilgechonamara.com/sources-for-connemara-irish/)
+- [Bailiúchán Béaloidis Árann (Aran Folklore Collection)](https://bba.duchas.ie/en/bbaf/6100118)
+
+## Irish phonology
+
+- [A contribution to the phonology of Desi-Irish (Wikisource)](https://en.wikisource.org/wiki/Index:A_contribution_to_the_phonology_of_Desi-Irish_to_serve_as_an_introduction_to_the_metrical_system_of_Munster_Poetry_(IA_contributiontoph00henerich).pdf)
+- [UCLA Phonetics: Gaelic, Irish](https://archive.phonetics.ucla.edu/Language/GLE/gle.html)
+- [UCLA Phonetics: Word List for Gaelic, Irish (Galway dialect)](https://archive.phonetics.ucla.edu/Language/GLE/gle_word-list_1982_01.html)
+- [Foclóir Gaeilge–Béarla (Ó Dónaill): taoide](https://www.teanglann.ie/ga/fgb/taoide)
