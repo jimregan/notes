@@ -482,3 +482,46 @@ categories: [links]
 - [Dysfluent WFST: A Framework for Zero-Shot Speech Dysfluency Transcription and Detection (2505.16351)](https://arxiv.org/pdf/2505.16351)
 - [DysfluentWFST IPA2CMU config](https://github.com/Berkeley-Speech-Group/DysfluentWFST/blob/main/config/ipa2cmu.json)
 - [transducersaurus/regex2wfst.py](https://github.com/markusdr/transducersaurus/blob/master/python/regex2wfst.py)
+
+
+# Universal Dependencies and Spoken Language Parsing
+
+## UD tools and annotation
+
+- [Universal Dependencies main site](https://universaldependencies.org/#language-)
+- [UD tools page](https://universaldependencies.org/tools.html#lighttag)
+- [DepEdit - tool for manipulating dependency trees](https://gucorpling.org//depedit/)
+- [nats/TrUDucer (GitLab)](https://gitlab.com/nats/TrUDucer)
+- [furkan7258/boat: Boğaziçi University Annotation Tool](https://github.com/furkan7258/boat)
+- [LR-POR/cl-conllu: Tool for working with CoNLL-U files in CL](https://github.com/LR-POR/cl-conllu)
+
+## Spoken / non-standard UD
+
+- [ufcompling/spoken_parsing (MaChAmp predict)](https://github.com/ufcompling/spoken_parsing/tree/main/predict/machamp)
+- [stavros-bompolas/ngud-transformer: NGUD transformer](https://github.com/stavros-bompolas/ngud-transformer/blob/main/creating-NGUD.py)
+- [xiulinyang/UD-CHILDES](https://github.com/xiulinyang/UD-CHILDES?tab=readme-ov-file)
+- [UniversalDependencies/UD_English-CHILDES](https://github.com/UniversalDependencies/UD_English-CHILDES)
+- [UD_Yiddish-YiTB](https://github.com/UniversalDependencies/UD_Yiddish-YiTB/blob/master/yi_yitb-ud-dev.conllu)
+- [Swedish UD](https://universaldependencies.org/sv/)
+- [UniversalDependencies/UD_North_Sami-Giella](https://github.com/UniversalDependencies/UD_North_Sami-Giella)
+
+## NLP tools
+
+- [stanfordnlp/stanza: Retrain UD models](https://stanfordnlp.github.io/stanza/retrain_ud.html)
+- [nlp-uoregon/trankit: Light-Weight Transformer-based Multilingual NLP](https://github.com/nlp-uoregon/trankit?tab=readme-ov-file)
+- [TurkuNLP/Turku-paraphrase-corpus (Swedish)](https://github.com/TurkuNLP/Turku-paraphrase-corpus/blob/main/data-sv/test.json)
+- [Surface-Syntactic UD data](https://surfacesyntacticud.org/data/)
+- [heinz-jeffrey/bufia: Formal language learning from positive examples](https://github.com/heinz-jeffrey/bufia/tree/main/sanity)
+
+## Workshops
+
+- [UDW26 - Universal Dependencies Workshop](https://universaldependencies.org/udw26/cfp.html)
+- [2025.udw-1.9.pdf (ACL Anthology)](https://aclanthology.org/2025.udw-1.9.pdf)
+- [2025.udw-1.5.pdf (ACL Anthology)](https://aclanthology.org/2025.udw-1.5.pdf)
+- [2025.udw-1.6.pdf (ACL Anthology)](https://aclanthology.org/2025.udw-1.6.pdf)
+- [The status of function words in UD (Glossa)](https://www.glossa-journal.org/article/id/5124/)
+
+## WFST for morphology / phonology
+
+- [Learning Cross-Dialectal Morphophonology with Syllable Structure Constraints (VarDial 2025)](https://aclanthology.org/2025.vardial-1.12.pdf)
+- [transducersaurus/regex2wfst.py](https://github.com/markusdr/transducersaurus/blob/master/python/regex2wfst.py)
