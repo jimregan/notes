@@ -525,3 +525,29 @@ categories: [links]
 
 - [Learning Cross-Dialectal Morphophonology with Syllable Structure Constraints (VarDial 2025)](https://aclanthology.org/2025.vardial-1.12.pdf)
 - [transducersaurus/regex2wfst.py](https://github.com/markusdr/transducersaurus/blob/master/python/regex2wfst.py)
+
+
+# RDF / Linked Data
+
+## Standards and specs
+
+- [JSON-LD 1.1 (W3C)](https://www.w3.org/TR/json-ld11/)
+- [RDF HDT format](https://www.rdfhdt.org/datasets/)
+
+## Tools / frameworks
+
+- [sparql-generate/sparql-generate: SPARQL-Generate over Apache Jena](https://github.com/sparql-generate/sparql-generate?tab=License-1-ov-file#readme)
+- [ClioPatria: SWI-Prolog Semantic Web Server](https://cliopatria.swi-prolog.org/help/)
+- [kba/jsonld-rapper: Create RDF from JSON-LD with rapper](https://github.com/kba/jsonld-rapper)
+- [figshare/cc0rdfhosting: CC0 RDF Hosting](https://github.com/figshare/cc0rdfhosting)
+- [RDF workflow for figshare (proof of concept, figshare)](https://figshare.com/articles/code/RDF_workflow_for_figshare_proof_of_concept_/4880567?file=8174288)
+
+## WordNet / linguistic linked data
+
+- [jrvosse/wordnet-3.0-rdf: Princeton WordNet 3.0 as linked open data](https://github.com/jrvosse/wordnet-3.0-rdf/tree/master)
+- [jmccrae/wordnet-angular: Princeton WordNet Interface](https://github.com/jmccrae/wordnet-angular)
+- [VU WordNet dataset (datahub.io)](http://datahub.io/dataset/vu-wordnet)
+
+## Abgeleitete Textformate / derived text formats
+
+- [Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen | ZfdG](https://zfdg.de/2020_006)
