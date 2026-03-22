@@ -22,8 +22,11 @@ https://github.com/alexa/massive/blob/main/src/massive/models/mt5_ic_sf_encoder_
 Commits · google-research/mseb
 https://github.com/google-research/mseb/commits/main/
 
-google-research/google-research: Google Research
-https://github.com/google-research/google-research
+Register Encodec and JointWhisper encoders. · google-research/mseb@937be45
+https://github.com/google-research/mseb/commit/937be4574bd1cf6e1f79dfc8be2d6a60819a4c20
+
+laion/clap-htsat-unfused · Hugging Face
+https://huggingface.co/laion/clap-htsat-unfused
 
 google-research/arxiv-latex-cleaner: arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv
 https://github.com/google-research/arxiv-latex-cleaner
@@ -31,14 +34,17 @@ https://github.com/google-research/arxiv-latex-cleaner
 google-research/dictionary_learning at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/dictionary_learning
 
-Sparse dictionary learning - Wikipedia
-https://en.wikipedia.org/wiki/Sparse_dictionary_learning
-
 google-research/specinvert at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/specinvert
 
 google-research/speech_embedding at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/speech_embedding
+
+google-research/speech_embedding/record_train.ipynb at master · google-research/google-research
+https://github.com/google-research/google-research/blob/master/speech_embedding/record_train.ipynb
+
+google-research/speech_embedding/speech_commands.ipynb at master · google-research/google-research
+https://github.com/google-research/google-research/blob/master/speech_embedding/speech_commands.ipynb
 
 google-research/spelling_convention_nlm at master · google-research/google-research
 https://github.com/google-research/google-research/tree/master/spelling_convention_nlm
@@ -81,5 +87,8 @@ https://zvec.org/en/docs/quickstart/
 
 [feat] Add MultiVectorEncoder Support (a.k.a late-interaction models or ColBERT-style models) by AymenKallala · Pull Request #3614 · huggingface/sentence-transformers
 https://github.com/huggingface/sentence-transformers/pull/3614
+
+monologg/JointBERT: Pytorch implementation of JointBERT: "BERT for Joint Intent Classification and Slot Filling"
+https://github.com/monologg/JointBERT/
 
 
