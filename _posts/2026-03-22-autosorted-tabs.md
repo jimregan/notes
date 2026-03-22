@@ -338,19 +338,6 @@ categories: [links]
 - [IDEA: Accents and Dialects of Europe](https://www.dialectsarchive.com/europe)
 - [Accents of English (Cambridge book)](https://www.cambridge.org/core/books/accents-of-english/1E9E89C38DFD0AB53B47EF96D8442594)
 
-## British/Irish accent reference pages (Wikipedia)
-
-- [Regional accents of English - Wikipedia](https://en.wikipedia.org/wiki/Regional_accents_of_English)
-- [Australian English phonology - Wikipedia](https://en.wikipedia.org/wiki/Australian_English_phonology)
-- [Received Pronunciation - Wikipedia](https://en.wikipedia.org/wiki/Received_Pronunciation)
-- [Cockney - Wikipedia](https://en.wikipedia.org/wiki/Cockney#Dialect)
-- [Estuary English - Wikipedia](https://en.wikipedia.org/wiki/Estuary_English)
-- [Scouse - Wikipedia](https://en.wikipedia.org/wiki/Scouse)
-- [Geordie - Wikipedia](https://en.wikipedia.org/wiki/Geordie)
-- [West Country English - Wikipedia](https://en.wikipedia.org/wiki/West_Country_English)
-- [Glasgow dialect - Wikipedia](https://en.wikipedia.org/wiki/Glasgow_dialect)
-- [Lancashire dialect - Wikipedia](https://en.wikipedia.org/wiki/Lancashire_dialect)
-
 ## Edinburgh / CSTR datasets
 
 - [Centre for Speech Technology Research (CSTR) data](https://datashare.ed.ac.uk/handle/10283/302)
