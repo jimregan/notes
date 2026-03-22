@@ -363,3 +363,43 @@ categories: [links]
 - [Supercharge your OCR Pipelines with Open Models (HF blog)](https://huggingface.co/blog/ocr-open-models)
 - [Grounded Fine-tuning notebook (smol-vision)](https://huggingface.co/merve/smol-vision/blob/main/Grounded_Fine_tuning.ipynb)
 - [deepseek-ai/DeepSeek-OCR: Contexts Optical Compression](https://github.com/deepseek-ai/DeepSeek-OCR)
+
+
+# Query-by-Example Spoken Term Detection (QbE-STD)
+
+## Tools / implementations
+
+- [idiap/CNN_QbE_STD: CNN based Query by Example Spoken Term Detection](https://github.com/idiap/CNN_QbE_STD)
+- [anupsingh15/BEST-STD2.0: Token subword mapping](https://github.com/anupsingh15/BEST-STD2.0/tree/main/token_subword_mapping)
+- [Yushi-Hu/Query-by-Example](https://github.com/Yushi-Hu/Query-by-Example/)
+- [Yushi-Hu/Acoustic-Span-Embeddings](https://github.com/Yushi-Hu/Acoustic-Span-Embeddings)
+- [rainmaker29/SpokenWord2Vec](https://github.com/rainmaker29/SpokenWord2Vec?tab=readme-ov-file)
+
+## Datasets / benchmarks
+
+- [QUESST 2014 Multilingual Database for QbE Keyword Spotting (BUT Speech@FIT)](https://speech.fit.vut.cz/software/quesst-2014-multilingual-database-query-by-example-keyword-spotting)
+- [MediaEval 2014 Workshop Proceedings (CEUR-WS Vol-1263)](https://ceur-ws.org/Vol-1263/)
+- [MediaEval 2013 SWS - Spoken Web Search](http://www.multimediaeval.org/mediaeval2013/sws2013/)
+- [MediaEval 2013 Workshop Proceedings (CEUR-WS Vol-1043)](https://ceur-ws.org/Vol-1043/)
+- [MediaEval 2012 Workshop Proceedings (CEUR-WS Vol-927)](https://ceur-ws.org/Vol-927/)
+
+## Papers
+
+- [H-QuEST: Accelerating QbE STD with Hierarchical Indexing (2506.16751)](https://arxiv.org/abs/2506.16751)
+- [CNN Based Query by Example Spoken Term Detection (Interspeech 2018)](https://www.isca-archive.org/interspeech_2018/ram18_interspeech.html)
+- [Attention-Based Audio Embeddings for Query-by-Example (2210.08624)](https://arxiv.org/abs/2210.08624)
+- [Query-by-Example Spoken Term Detection using Attentive Pooling Networks (IEEE 2020)](https://ieeexplore.ieee.org/document/9023023)
+- [Query-by-example spoken term detection using bottleneck features and HMM (IEEE 2016)](https://ieeexplore.ieee.org/document/7382134)
+- [Spoken Word2Vec: Learning Skipgram Embeddings from Speech (2311.09319)](https://arxiv.org/pdf/2311.09319)
+- [Vocabulary independent spoken term detection (ACM SIGIR 2007)](https://dl.acm.org/doi/pdf/10.1145/1277741.1277847)
+- [A lattice-based approach to QbE spoken document retrieval (ACM SIGIR 2008)](https://dl.acm.org/doi/10.1145/1390334.1390397)
+- [Unsupervised Pattern Discovery in Speech (IEEE 2008)](https://ieeexplore.ieee.org/document/4378402)
+- [A Nonparametric Bayesian Approach to Acoustic Model Discovery (ACL 2012)](https://aclanthology.org/P12-1005/)
+- [Phonetic-and-semantic embedding of spoken words (Interspeech 2024)](https://www.isca-archive.org/interspeech_2024/sayeed24_interspeech.pdf)
+- [QbE-STD using bottleneck features (2410.04091)](https://arxiv.org/pdf/2410.04091)
+- [An introduction to voice search (IEEE 2008)](https://ieeexplore.ieee.org/document/4490199)
+
+## Related: Speech-to-Retrieval
+
+- [Speech-to-Retrieval (S2R): A new approach to voice search (Google Research)](https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/)
+- [google/svq dataset (Hugging Face)](https://huggingface.co/datasets/google/svq)
