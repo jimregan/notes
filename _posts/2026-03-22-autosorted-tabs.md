@@ -7,7 +7,6 @@ title: Claude sorted tabs, 22/03/2026
 categories: [links]
 ---
 
-
 # Parliamentary Corpora
 
 ## ParlaMint / ParlaCLARIN
@@ -49,9 +48,9 @@ categories: [links]
 
 ## CLARIN resource families
 
-- [Parliamentary Corpora | CLARIN](https://www.clarin.eu/resource-families/parliamentary-corpora)
-- [Legal Corpora | CLARIN](https://www.clarin.eu/resource-families/legal-corpora)
-- [Sign Language Resources | CLARIN](https://www.clarin.eu/resource-families/sign-language-resources)
+- [Parliamentary Corpora](https://www.clarin.eu/resource-families/parliamentary-corpora)
+- [Legal Corpora](https://www.clarin.eu/resource-families/legal-corpora)
+- [Sign Language Resources](https://www.clarin.eu/resource-families/sign-language-resources)
 - [Licenses and CLARIN Categories](https://www.clarin.eu/content/licenses-and-clarin-categories)
 - [CLARIN Licensing Framework](https://www.clarin.eu/content/clarin-licensing-framework)
 - [JRC EU DGT Translation Memory Parsebank DGT-UD 1.0](https://www.clarin.si/repository/xmlui/handle/11356/1197)
@@ -64,9 +63,9 @@ categories: [links]
 - [spring-media/DeepPhonemizer: Grapheme to phoneme with deep learning](https://github.com/spring-media/DeepPhonemizer?tab=readme-ov-file)
 - [DeepPhonemizer training notebook (Colab)](https://colab.research.google.com/github/as-ideas/DeepPhonemizer/blob/main/dp/notebooks/Training_Example.ipynb)
 - [lingjzhu/CharsiuG2P: Multilingual G2P in 100 languages](https://github.com/lingjzhu/CharsiuG2P)
-- [charsiu/g2p_multilingual_byT5_small_100 (Hugging Face)](https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100)
+- [charsiu/g2p_multilingual_byT5_small_100](https://huggingface.co/charsiu/g2p_multilingual_byT5_small_100)
 - [CharsiuG2P fine-tuning low-resource notebook](https://github.com/lingjzhu/CharsiuG2P/blob/main/notebooks/finetuning_low_resource.ipynb)
-- [fdemelo/g2p-mbyt5-12l-ipa-childes-espeak (Hugging Face)](https://huggingface.co/fdemelo/g2p-mbyt5-12l-ipa-childes-espeak)
+- [fdemelo/g2p-mbyt5-12l-ipa-childes-espeak](https://huggingface.co/fdemelo/g2p-mbyt5-12l-ipa-childes-espeak)
 - [rhasspy/wiktionary2dict: Extract IPA pronunciations from Wiktionary XML dump](https://github.com/rhasspy/wiktionary2dict)
 - [open-dict-data/ipa-dict: Monolingual wordlists with IPA pronunciation](https://github.com/open-dict-data/ipa-dict?tab=readme-ov-file)
 - [CUNY-CL/wikipron (phoneme data)](https://github.com/CUNY-CL/wikipron/tree/master/data/phones/phones)
@@ -82,10 +81,10 @@ categories: [links]
 - [Massively Multilingual Neural G2P Conversion (ACL 2017)](https://aclanthology.org/W17-5403.pdf)
 - [Joint-sequence models for G2P conversion (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S0167639308000046)
 - [Jointly learning to align and convert graphemes to phonemes (ASRU 2017)](https://ieeexplore.ieee.org/abstract/document/7846248)
-- [Italianising English words with G2P in TTS (Uppsala thesis)](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1868326&dswid=6766)
-- [Stress Assignment in Letter to Sound Rules (ACL 1985)](https://aclanthology.org/P85-1030.pdf)
-- [Phoneme-to-Grapheme Conversion Based Large-Scale Pre-Training for ASR (Interspeech 2020)](https://www.isca-archive.org/interspeech_2020/masumura20_interspeech.pdf)
-- [Knowledge of language origin improves pronunciation of proper names (ResearchGate)](https://www.researchgate.net/publication/362423262_Knowledge_of_language_origin_improves_pronunciation_accuracy_of_proper_names)
+- [Italianising English words with G2P in TTS](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1868326&dswid=6766)
+- [Stress Assignment in Letter to Sound Rules](https://aclanthology.org/P85-1030.pdf)
+- [Phoneme-to-Grapheme Conversion Based Large-Scale Pre-Training for ASR](https://www.isca-archive.org/interspeech_2020/masumura20_interspeech.pdf)
+- [Knowledge of language origin improves pronunciation of proper names](https://www.researchgate.net/publication/362423262_Knowledge_of_language_origin_improves_pronunciation_accuracy_of_proper_names)
 - [Improving Proper Name Recognition by Adding Learned Pronunciation Variants (LREC 2010)](https://aclanthology.org/L10-1195/)
 - [Galescu 2002 (ICSLP) - joint grapheme-phoneme alignment](https://www.isca-archive.org/icslp_2002/galescu02_icslp.pdf)
 
@@ -138,7 +137,7 @@ categories: [links]
 - [Wayback: Odden Saami phonology PDF](https://web.archive.org/web/20141209061155/http://www.ling.ohio-state.edu/~odden/Saami.pdf)
 - [Sami Grammar - Vocabulary (archived)](https://web.archive.org/web/20190504031515/https://people.uta.fi/~km56049/same/svocab.html)
 - [The acoustic manifestation of consonant gradation in Northern Sami (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_crossref_primary_10_1121_1_2935810&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,Northern%20S%C3%A1mi%20phonetics&offset=0)
-- [An analysis of North Saami gradation (JSTOR via KTH)](https://www-jstor-org.focus.lib.kth.se/stable/23325576)
+- [An analysis of North Saami gradation](https://www-jstor-org.focus.lib.kth.se/stable/23325576)
 - [Dialectal variation of duration patterns in Finnmark North Sámi (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_crossref_citationtrail_10_1121_10_0000994&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,North%20S%C3%A1mi%20phonetics&offset=0)
 - [Initially and Finally Stressed Vowel Sequences of Guovdageaidnu Dialect (KTH)](https://kth-ch.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_proquest_miscellaneous_85665862&context=PC&vid=46KTH_INST:46KTH_VU1_L&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,North%20S%C3%A1mi%20phonetics&offset=0)
 - [Helsinki paper (content link)](https://helda.helsinki.fi/server/api/core/bitstreams/05486b7f-e5ab-44a4-8540-3affa4fc5a35/content)
@@ -156,11 +155,6 @@ categories: [links]
 - [From Language to Language From Mind to Nation 9 (ovttas.no)](https://ovttas.no/girji_gielas-gillii-mielas-millii-9)
 - [About the Sámi Parliament (Sametinget)](https://sametinget.no/about-the-sami-parliament/)
 - [Radio and Television Archive - Kavi (Finland)](https://kavi.fi/en/radio-ja-televisioarkistointia-vuodesta-2008/)
-
-## KTH library search
-
-- [KTH library search: northern sámi books](https://kth-ch.primo.exlibrisgroup.com/discovery/search?query=any,contains,northern%20s%C3%A1mi&pfilter=rtype,exact,books&tab=Everything&search_scope=MyInst_and_CI&vid=46KTH_INST:46KTH_VU1_L&lang=en&offset=60)
-
 
 # Multilingual / Low-Resource ASR
 
