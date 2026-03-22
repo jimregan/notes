@@ -610,7 +610,6 @@ categories: [links]
 
 - [Web Archive Collection Zipped (WACZ) spec 1.1.1](https://specs.webrecorder.net/wacz/1.1.1/)
 
-
 # Irish Language / Irish ASR
 
 ## ASR systems and papers
@@ -619,8 +618,6 @@ categories: [links]
 - [Fotheidil: an Automatic Transcription System for the Irish Language (CLTW 2025)](https://aclanthology.org/2025.cltw-1.4.pdf)
 - [Cross-dialect lexicon optimisation for an endangered language ASR system: the case of Irish](https://www.repository.cam.ac.uk/items/7ba60f39-dd47-4b14-ae18-6a5445b5f9b3)
 - [Automatic Speech Recognition for Irish: testing lexicons and language models (IEEE 2022)](https://ieeexplore.ieee.org/abstract/document/9826201)
-- [‪Liam Lonergan‬ - Google Scholar](https://scholar.google.com/citations?user=NyD6JnIAAAAJ&hl=en)
-- [dblp: Neasa Ní Chiaráin](https://dblp.org/pid/143/8452.html)
 
 ## Celtic Language Technology Workshop (CLTW)
 
@@ -638,8 +635,8 @@ categories: [links]
 
 ## Irish language text resources
 
-- [Leigh Leat: Irish reading app](https://leighleat.com/sc%C3%A9alta)
-- [Stór Scéalta | Leigh Leat](https://leighleat.com/st%C3%B3r_sc%C3%A9alta/inn%C3%A9acs)
+- [Leigh Leat](https://leighleat.com/sc%C3%A9alta)
+- [Stór Scéalta - Leigh Leat](https://leighleat.com/st%C3%B3r_sc%C3%A9alta/inn%C3%A9acs)
 - [ClubLeabhar.com: na leabhair](https://www.clubleabhar.com/leabhair#2018)
 - [Sources for Connemara Irish - Gaeilge Chonamara](https://gaeilgechonamara.com/sources-for-connemara-irish/)
 - [Bailiúchán Béaloidis Árann (Aran Folklore Collection)](https://bba.duchas.ie/en/bbaf/6100118)
@@ -649,14 +646,12 @@ categories: [links]
 - [A contribution to the phonology of Desi-Irish (Wikisource)](https://en.wikisource.org/wiki/Index:A_contribution_to_the_phonology_of_Desi-Irish_to_serve_as_an_introduction_to_the_metrical_system_of_Munster_Poetry_(IA_contributiontoph00henerich).pdf)
 - [UCLA Phonetics: Gaelic, Irish](https://archive.phonetics.ucla.edu/Language/GLE/gle.html)
 - [UCLA Phonetics: Word List for Gaelic, Irish (Galway dialect)](https://archive.phonetics.ucla.edu/Language/GLE/gle_word-list_1982_01.html)
-- [Foclóir Gaeilge–Béarla (Ó Dónaill): taoide](https://www.teanglann.ie/ga/fgb/taoide)
-
 
 # Hungarian Language Learning
 
 ## Grammar references
 
-- [HungarianReference.com - Verb conjugation overview](http://www.hungarianreference.com/Verbs/conjugation/#google_vignette)
+- [HungarianReference.com - Verb conjugation overview](http://www.hungarianreference.com/Verbs/conjugation/)
 - [The may/permission suffix: -hat/het](http://www.hungarianreference.com/Verbs/may-permission-potential-hat.aspx)
 - [The conditional mood: would/should](http://www.hungarianreference.com/Verbs/conditional-would-should.aspx)
 - [Expressing need with kell + personal infinitives](http://www.hungarianreference.com/Verbs/need-must-kell-infinitives-with-personal-suffixes.aspx)
@@ -684,11 +679,6 @@ categories: [links]
 - [Zsenileszek channel (YouTube)](https://www.youtube.com/@zsenileszek/featured)
 - [Harisnyás Pippi (Pippi Longstocking in Hungarian, Dailymotion)](https://www.dailymotion.com/video/x5ae95h)
 
-## Anki tools
-
-- [kerrickstaley/genanki: Python library for generating Anki decks](https://github.com/kerrickstaley/genanki)
-- [markdown-anki-decks (PyPI)](https://pypi.org/project/markdown-anki-decks/)
-
 ## Gutenberg texts (Hungarian)
 
 - [Books: Language: Hungarian - Project Gutenberg](https://www.gutenberg.org/ebooks/search/?query=l.hu&start_index=151)
@@ -706,8 +696,14 @@ categories: [links]
 - [Grimm Fairy Tales (Hungarian)](https://www.gutenberg.org/cache/epub/40088/pg40088-images.html)
 - [Books by Jókai, Mór - Project Gutenberg](https://www.gutenberg.org/ebooks/author/5845?start_index=51)
 
-## Sentence alignment tools
+# Sentence alignment tools
 
 - [hunalign – sentence aligner (Hungarian NLP)](http://mokk.bme.hu/en/resources/hunalign/)
 - [loomchild/maligna: Bilingual sentence aligner](https://github.com/loomchild/maligna)
 - [pombredanne/anymalign: Multilingual aligner for SMT](https://github.com/pombredanne/anymalign?tab=readme-ov-file)
+
+# Anki tools
+
+- [kerrickstaley/genanki: Python library for generating Anki decks](https://github.com/kerrickstaley/genanki)
+- [markdown-anki-decks (PyPI)](https://pypi.org/project/markdown-anki-decks/)
+
