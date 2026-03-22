@@ -434,3 +434,35 @@ categories: [links]
 
 - [laion/clap-htsat-unfused (Hugging Face)](https://huggingface.co/laion/clap-htsat-unfused)
 - [lingjzhu/clap-ipa](https://github.com/lingjzhu/clap-ipa/blob/main/README.md)
+
+
+# Speech Codecs and Audio Tokenization
+
+## Models / implementations
+
+- [ZhangXInFD/SpeechTokenizer: Unified Speech Tokenizer for Speech LMs (ICLR 2024)](https://github.com/ZhangXInFD/SpeechTokenizer/?tab=readme-ov-file)
+- [OpenMOSS-Team/SpeechTokenizer (Hugging Face)](https://huggingface.co/OpenMOSS-Team/SpeechTokenizer)
+- [0nutation/USLM: Unified Speech Language Model](https://github.com/0nutation/USLM)
+- [0nutation/SLMTokBench: SpeechTokenizer benchmark](https://github.com/0nutation/SLMTokBench)
+- [novateur/WavTokenizer-large-speech-75token (Hugging Face)](https://huggingface.co/novateur/WavTokenizer-large-speech-75token)
+- [novateur/WavTokenizer-medium-music-audio-75token (Hugging Face)](https://huggingface.co/novateur/WavTokenizer-medium-music-audio-75token)
+- [neuphonic/neucodec: 50hz, 0.8kbps, 24kHz audio codec](https://github.com/neuphonic/neucodec)
+- [neuphonic/neucodec (Hugging Face)](https://huggingface.co/neuphonic/neucodec)
+- [neuphonic/emilia-yodas-english-neucodec dataset (Hugging Face)](https://huggingface.co/datasets/neuphonic/emilia-yodas-english-neucodec)
+- [modelscope/FunCodec](https://github.com/modelscope/FunCodec)
+- [yangdongchao/AcademiCodec](https://github.com/yangdongchao/AcademiCodec)
+- [ktvoice/Codec (Hugging Face)](https://huggingface.co/ktvoice/Codec)
+- [speechbrain/hifigan-wavlm-k1000-LibriTTS (Hugging Face)](https://huggingface.co/speechbrain/hifigan-wavlm-k1000-LibriTTS)
+
+## SODA (Scaling Open Discrete Audio)
+
+- [SODA project page](https://soda-audio.github.io/)
+- [SODA paper (2602.16687)](https://arxiv.org/abs/2602.16687)
+- [soda-research/soda-4b-base (Hugging Face)](https://huggingface.co/soda-research/soda-4b-base)
+
+## Papers / surveys
+
+- [Discrete Audio Tokens: More Than a Survey! (2506.10274)](https://arxiv.org/pdf/2506.10274)
+- [SpeechTokenizer: Unified Speech Tokenizer for Speech Language Models (OpenReview ICLR 2024)](https://openreview.net/forum?id=AF9Q8Vip84)
+- [DeCodec: Rethinking Audio Codecs as Universal Disentangled Representation Learners (2509.09201)](https://arxiv.org/abs/2509.09201)
+- [Scaling Open Discrete Audio Foundation Models with Interleaved Tokens (2602.16687)](https://arxiv.org/abs/2602.16687)
