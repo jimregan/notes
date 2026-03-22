@@ -1,12 +1,6 @@
 massive/src/massive/models/mt5_ic_sf_encoder_only.py at main · alexa/massive
 https://github.com/alexa/massive/blob/main/src/massive/models/mt5_ic_sf_encoder_only.py
 
-Commits · google-research/mseb
-https://github.com/google-research/mseb/commits/main/
-
-Register Encodec and JointWhisper encoders. · google-research/mseb@937be45
-https://github.com/google-research/mseb/commit/937be4574bd1cf6e1f79dfc8be2d6a60819a4c20
-
 google-research/arxiv-latex-cleaner: arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv
 https://github.com/google-research/arxiv-latex-cleaner
 
@@ -25,29 +19,8 @@ https://github.com/google-research/google-research/tree/master/speculative_kd
 Adds a speech-to-text encoder based on the LiteLLM Transcription API… · google-research/mseb@2a1147d
 https://github.com/google-research/mseb/commit/2a1147d548727150e21e031d8186475dc8c9d01d
 
-Pull requests · google-research/mseb
-https://github.com/google-research/mseb/pulls?page=2&q=is%3Apr+is%3Aclosed
-
-Add flag for setting the path to the CLAP model. by copybara-service[bot] · Pull Request #362 · google-research/mseb
-https://github.com/google-research/mseb/pull/362/changes
-
-Move gemma encoder out of google subdir and support LLMs from genai. by copybara-service[bot] · Pull Request #346 · google-research/mseb
-https://github.com/google-research/mseb/pull/346
-
-Update RAG-based retrieval. by copybara-service[bot] · Pull Request #347 · google-research/mseb
-https://github.com/google-research/mseb/pull/347/changes
-
-Add support for speech transcription with contextual bias. · google-research/mseb@36cfda9
-https://github.com/google-research/mseb/commit/36cfda955d872fa734c450bb50a2d585347d8d4f
-
-Adds speaker-gender classification task for Speech Massive · google-research/mseb@83c7d37
-https://github.com/google-research/mseb/commit/83c7d37ab740d7d7373389ca473af5cad5ba5120#diff-1b5300f49558df9ba080d12e580462def8502ce7bab50cb547ec7e7fb9328ba7
-
 Quickstart | Zvec
 https://zvec.org/en/docs/quickstart/
-
-[feat] Add MultiVectorEncoder Support (a.k.a late-interaction models or ColBERT-style models) by AymenKallala · Pull Request #3614 · huggingface/sentence-transformers
-https://github.com/huggingface/sentence-transformers/pull/3614
 
 monologg/JointBERT: Pytorch implementation of JointBERT: "BERT for Joint Intent Classification and Slot Filling"
 https://github.com/monologg/JointBERT/
