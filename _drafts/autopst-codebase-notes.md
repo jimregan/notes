@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: AutoPST codebase notes
+title: Codebase summary from Claude
+categories: [autopst, claude]
+---
+
 # AutoPST Codebase Notes
 
 **Paper:** "Global Rhythm Style Transfer Without Text Transcriptions"
