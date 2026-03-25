@@ -79,8 +79,8 @@ https://platform.claude.com/usage
 Qwen (Qwen)
 https://huggingface.co/Qwen
 
-Qwen
-https://qwen.ai/research
+MiniMaxAI (MiniMax)
+https://huggingface.co/MiniMaxAI
 
 Qwen/Qwen3-Coder-Next · Hugging Face
 https://huggingface.co/Qwen/Qwen3-Coder-Next
@@ -181,11 +181,14 @@ https://swedia.ling.gu.se/info/info_lyssna.html
 Språkrådet
 https://github.com/sprakradet
 
-sprakradet/tbx-conversion
-https://github.com/sprakradet/tbx-conversion
+lexin-xml-parse/xmlprocess.py at main · sprakradet/lexin-xml-parse
+https://github.com/sprakradet/lexin-xml-parse/blob/main/xmlprocess.py
 
-sprakradet/num2words: Modules to convert numbers to words. 42 --> forty-two (Adding Swedish national minority languages)
-https://github.com/sprakradet/num2words
+lexin-json/lexin-entries-swe.json at main · sprakradet/lexin-json
+https://github.com/sprakradet/lexin-json/blob/main/lexin-entries-swe.json
+
+Initial commit Yiddish - yivo transliteration · sprakradet/num2words@1e6935b
+https://github.com/sprakradet/num2words/commit/1e6935b4ed73ededcd777adca95968ad68898741
 
 sprakradet/yiddish: yiddish: A Python library for processing Yiddish text
 https://github.com/sprakradet/yiddish
@@ -198,5 +201,20 @@ https://github.com/sprakradet/swedia_test_set/blob/main/data/Svealand/Vastmanlan
 
 Qwen Chat
 https://chat.qwen.ai/c/guest
+
+SRUN all GPUs usage
+https://chatgpt.com/c/69c3ab68-448c-838d-a50a-00eac022ee56
+
+slurm allocate all gpus - Google Search
+https://www.google.com/search?q=slurm+allocate+all+gpus&rlz=1C5GCCM_en&oq=slurm+allocate+all+gpus&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRiPAtIBCDM5MzFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+slurm GPU allocation and outsmarting slurm. : r/SLURM
+https://www.reddit.com/r/SLURM/comments/m0pkhw/slurm_gpu_allocation_and_outsmarting_slurm/
+
+Slurm - CSCS Documentation
+https://docs.cscs.ch/running/slurm/#running-more-than-one-job-step-per-gpu
+
+Claude
+https://claude.ai/new
 
 
