@@ -263,6 +263,9 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
 
 ## [LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation](https://aclanthology.org/2025.emnlp-main.169/)
 
+- [arXiv](https://arxiv.org/abs/2502.20583)
+- [code](https://github.com/efeslab/LiteASR) --- Apache 2.0
+
 ```bibtex
 @inproceedings{kamahori-etal-2025-liteasr,
     title = "{L}ite{ASR}: Efficient Automatic Speech Recognition with Low-Rank Approximation",
@@ -283,6 +286,5 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
     doi = "10.18653/v1/2025.emnlp-main.169",
     pages = "3430--3442",
     ISBN = "979-8-89176-332-6",
-    abstract = "Modern automatic speech recognition (ASR) models, such as OpenAI{'}s Whisper, rely on deep encoder-decoder architectures, and their encoders are a critical bottleneck for efficient deployment due to high computational intensity. We introduce LiteASR, a low-rank compression scheme for ASR encoders that significantly reduces inference costs while maintaining transcription accuracy. Our approach leverages the strong low-rank properties observed in intermediate activations: by applying principal component analysis (PCA) with a small calibration dataset, we approximate linear transformations with a chain of low-rank matrix multiplications, and further optimize self-attention to work in reduced dimensionality. Evaluation results show that our method can compress Whisper large-v3{'}s encoder size by over 50{\%}, matching Whisper medium{'}s size with better transcription accuracy, thereby establishing a new Pareto frontier of accuracy and efficiency. The code of LiteASR is available at https://github.com/efeslab/LiteASR."
 }
 ```
