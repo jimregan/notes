@@ -258,6 +258,31 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
     url = "https://aclanthology.org/2024.naacl-long.43/",
     doi = "10.18653/v1/2024.naacl-long.43",
     pages = "750--772",
-    abstract = "In this project, we demonstrate that phoneme-based models for speech processing can achieve strong crosslinguistic generalizability to unseen languages. We curated the IPAPACK, a massively multilingual speech corpora with phonemic transcriptions, encompassing more than 115 languages from diverse language families, selectively checked by linguists. Based on the IPAPACK, we propose CLAP-IPA, a multi-lingual phoneme-speech contrastive embedding model capable of open-vocabulary matching between arbitrary speech signals and phonemic sequences. The proposed model was tested on 95 unseen languages, showing strong generalizability across languages. Temporal alignments between phonemes and speech signals also emerged from contrastive training, enabling zeroshot forced alignment in unseen languages. We further introduced a neural forced aligner IPA-ALIGNER by finetuning CLAP-IPA with the Forward-Sum loss to learn better phone-to-audio alignment. Evaluation results suggest that IPA-ALIGNER can generalize to unseen languages without adaptation."
+}
+```
+
+## [LiteASR: Efficient Automatic Speech Recognition with Low-Rank Approximation](https://aclanthology.org/2025.emnlp-main.169/)
+
+```bibtex
+@inproceedings{kamahori-etal-2025-liteasr,
+    title = "{L}ite{ASR}: Efficient Automatic Speech Recognition with Low-Rank Approximation",
+    author = "Kamahori, Keisuke  and
+      Kasai, Jungo  and
+      Kojima, Noriyuki  and
+      Kasikci, Baris",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.169/",
+    doi = "10.18653/v1/2025.emnlp-main.169",
+    pages = "3430--3442",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Modern automatic speech recognition (ASR) models, such as OpenAI{'}s Whisper, rely on deep encoder-decoder architectures, and their encoders are a critical bottleneck for efficient deployment due to high computational intensity. We introduce LiteASR, a low-rank compression scheme for ASR encoders that significantly reduces inference costs while maintaining transcription accuracy. Our approach leverages the strong low-rank properties observed in intermediate activations: by applying principal component analysis (PCA) with a small calibration dataset, we approximate linear transformations with a chain of low-rank matrix multiplications, and further optimize self-attention to work in reduced dimensionality. Evaluation results show that our method can compress Whisper large-v3{'}s encoder size by over 50{\%}, matching Whisper medium{'}s size with better transcription accuracy, thereby establishing a new Pareto frontier of accuracy and efficiency. The code of LiteASR is available at https://github.com/efeslab/LiteASR."
 }
 ```
