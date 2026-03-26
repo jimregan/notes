@@ -7,6 +7,10 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [Flow Matching Guide and Code](https://ai.meta.com/research/publications/flow-matching-guide-and-code/)
+
+- [arXiv](https://arxiv.org/abs/2412.06264)
+
 ## [On The Landscape of Spoken Language Models: A Comprehensive Survey](https://openreview.net/forum?id=BvxaP3sVbA)
 - [arXiv](https://arxiv.org/abs/2504.08528)
 - TMLR
@@ -307,11 +311,12 @@ volume={48},
 number={04},
 ISSN={1939-3539},
 pages={4184-4204},
-abstract={ The rapid advancement of speech generation technologies in the era of large language models (LLMs) has established discrete speech tokens as a foundational paradigm for speech representation. These tokens, characterized by their discrete, compact, and concise nature, are not only advantageous for efficient transmission and storage, but also inherently compatible with the language modeling framework, enabling seamless integration of speech into text-dominated LLM architectures. Current research categorizes discrete speech tokens into two principal classes: acoustic tokens and semantic tokens, each of which has evolved into a rich research domain characterized by unique design philosophies and methodological approaches. This survey systematically synthesizes the existing taxonomy and recent innovations in discrete speech tokenization, conducts a critical examination of the strengths and limitations of each paradigm, and presents systematic experimental comparisons across token types. Furthermore, we identify persistent challenges in the field and propose potential research directions, aiming to offer actionable insights to inspire future advancements in the development and application of discrete speech tokens. },
-keywords={Semantics;Speech coding;Speech processing;Acoustics;Tokenization;Reviews;Predictive models;Transforms;Clustering algorithms;Analytical models},
 doi={10.1109/TPAMI.2025.3643619},
 url = {https://doi.ieeecomputersociety.org/10.1109/TPAMI.2025.3643619},
 publisher={IEEE Computer Society},
 address={Los Alamitos, CA, USA},
 month=apr}
-```\
+```
+
+## [How Neural Networks Learn: A Probabilistic Viewpoint](https://towardsdatascience.com/how-neural-networks-learn-a-probabilistic-viewpoint-0f6a78dc58e2/)
+
