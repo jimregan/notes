@@ -13,6 +13,8 @@ categories: [papers]
 
 ## [Topics in North Saami Phonology](https://www.semanticscholar.org/paper/Topics-in-North-Saami-Phonology-Bals-Odden/302290e51c2c8dcbbbed267385080b59164fe613)
 
+- [Wayback](http://web.archive.org/web/20171011125815/http://www.ling.ohio-state.edu/~odden.1/Saami.pdf)
+
 ```bibtex
 @inproceedings{Bals2005TopicsIN,
   title={Topics in North Saami Phonology},
