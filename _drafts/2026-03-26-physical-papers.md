@@ -7,6 +7,38 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation](https://aclanthology.org/Q17-1024/)
+
+```bibtex
+@article{johnson-etal-2017-googles,
+    title = "{G}oogle{'}s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation",
+    author = "Johnson, Melvin  and
+      Schuster, Mike  and
+      Le, Quoc V.  and
+      Krikun, Maxim  and
+      Wu, Yonghui  and
+      Chen, Zhifeng  and
+      Thorat, Nikhil  and
+      Vi{\'e}gas, Fernanda  and
+      Wattenberg, Martin  and
+      Corrado, Greg  and
+      Hughes, Macduff  and
+      Dean, Jeffrey",
+    editor = "Lee, Lillian  and
+      Johnson, Mark  and
+      Toutanova, Kristina",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "5",
+    year = "2017",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/Q17-1024/",
+    doi = "10.1162/tacl_a_00065",
+    pages = "339--351",
+    abstract = "We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate between multiple languages. Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language. Using a shared wordpiece vocabulary, our approach enables Multilingual NMT systems using a single model. On the WMT{'}14 benchmarks, a single multilingual model achieves comparable performance for English{\textrightarrow}French and surpasses state-of-theart results for English{\textrightarrow}German. Similarly, a single multilingual model surpasses state-of-the-art results for French{\textrightarrow}English and German{\textrightarrow}English on WMT{'}14 and WMT{'}15 benchmarks, respectively. On production corpora, multilingual models of up to twelve language pairs allow for better translation of many individual pairs. Our models can also learn to perform implicit bridging between language pairs never seen explicitly during training, showing that transfer learning and zero-shot translation is possible for neural translation. Finally, we show analyses that hints at a universal interlingua representation in our models and also show some interesting examples when mixing languages."
+}
+```
+
 ## [Codec-ASR: Training Performant Automatic Speech Recognition Systems with Discrete Speech Representations](https://www.isca-archive.org/interspeech_2024/dhawan24_interspeech.html)
 
 ```bibtex
