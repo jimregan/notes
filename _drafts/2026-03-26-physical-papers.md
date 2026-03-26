@@ -7,6 +7,20 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion](https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.html)
+
+```bibtex
+@inproceedings{rezackova21_interspeech,
+  title     = {{T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion}},
+  author    = {Markéta Řezáčková and Jan Švec and Daniel Tihelka},
+  year      = {2021},
+  booktitle = {{Interspeech 2021}},
+  pages     = {6--10},
+  doi       = {10.21437/Interspeech.2021-546},
+  issn      = {2958-1796},
+}
+```
+
 ## [The Swedish Parliament Corpus 1867 – 2022](https://aclanthology.org/2024.lrec-main.1400/)
 
 ```bibtex
@@ -33,7 +47,6 @@ categories: [papers]
     publisher = "ELRA and ICCL",
     url = "https://aclanthology.org/2024.lrec-main.1400/",
     pages = "16100--16112",
-    abstract = "The Swedish parliamentary records are an important source material for social science and humanities researchers. We introduce a new research corpus, the Swedish Parliament Corpus, which is larger and more developed than previously available research corpora for the Swedish parliament. The corpus contains annotated and structured parliamentary records over more than 150 years, through the bicameral parliament (1867{--}1970) and the unicameral parliament (1971{--}). In addition to the records, which contain all speeches in the parliament, we also provide a database of all members of parliament over the same period. Along with the corpus, we describe procedures to ensure data quality. The corpus facilitates detailed analysis of parliamentary speeches in several research fields."
 }
 ```
 
