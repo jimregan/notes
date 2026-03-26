@@ -320,3 +320,4 @@ month=apr}
 
 ## [How Neural Networks Learn: A Probabilistic Viewpoint](https://towardsdatascience.com/how-neural-networks-learn-a-probabilistic-viewpoint-0f6a78dc58e2/)
 
+## [Dynamic pronunciation models for automatic speech recognition](https://dl.acm.org/doi/book/10.5555/931366)
