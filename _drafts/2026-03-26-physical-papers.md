@@ -11,6 +11,17 @@ categories: [papers]
 
 - [arXiv](https://arxiv.org/abs/2412.06264)
 
+## [Topics in North Saami Phonology](https://www.semanticscholar.org/paper/Topics-in-North-Saami-Phonology-Bals-Odden/302290e51c2c8dcbbbed267385080b59164fe613)
+
+```bibtex
+@inproceedings{Bals2005TopicsIN,
+  title={Topics in North Saami Phonology},
+  author={Berit Anne Bals and David Odden and K. Gjerum Nielsen},
+  year={2005},
+  url={https://api.semanticscholar.org/CorpusID:15957850}
+}
+```
+
 ## [On The Landscape of Spoken Language Models: A Comprehensive Survey](https://openreview.net/forum?id=BvxaP3sVbA)
 - [arXiv](https://arxiv.org/abs/2504.08528)
 - TMLR
