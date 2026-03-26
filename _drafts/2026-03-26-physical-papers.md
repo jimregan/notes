@@ -7,6 +7,23 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [On The Landscape of Spoken Language Models: A Comprehensive Survey](https://openreview.net/forum?id=BvxaP3sVbA)
+- [arXiv](https://arxiv.org/abs/2504.08528)
+- TMLR
+
+```bibtex
+@article{
+arora2025on,
+title={On The Landscape of Spoken Language Models: A Comprehensive Survey},
+author={Siddhant Arora and Kai-Wei Chang and Chung-Ming Chien and Yifan Peng and Haibin Wu and Yossi Adi and Emmanuel Dupoux and Hung-yi Lee and Karen Livescu and Shinji Watanabe},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=BvxaP3sVbA},
+note={}
+}
+```
+
 ## [T5G2P: Using Text-to-Text Transfer Transformer for Grapheme-to-Phoneme Conversion](https://www.isca-archive.org/interspeech_2021/rezackova21_interspeech.html)
 
 ```bibtex
