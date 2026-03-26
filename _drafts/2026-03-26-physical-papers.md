@@ -203,7 +203,7 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
 
 ## [WavLLM: Towards Robust and Adaptive Speech Large Language Model](https://aclanthology.org/2024.findings-emnlp.263/)
 
--[arXiv](https://arxiv.org/abs/2404.00656)
+- [arXiv](https://arxiv.org/abs/2404.00656)
 - [code](https://github.com/microsoft/SpeechT5/tree/main/WavLLM)
 
 ```bibtex
@@ -232,6 +232,32 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
     url = "https://aclanthology.org/2024.findings-emnlp.263/",
     doi = "10.18653/v1/2024.findings-emnlp.263",
     pages = "4552--4572",
-    abstract = "Recent advancements in large language models (LLMs) have expanded their scope in natural language processing (NLP) to encompass multimodal functions. However, integrating listening capabilities effectively remains a significant challenge for generalization and complex auditory task execution. In this work, we introduce WavLLM, a robust and adaptive speech large language model featuring dual encoders{---}a Whisper encoder for semantics and a WavLM encoder for speaker characteristics. Within the two-stage curriculum learning framework, WavLLM first builds its foundational capabilities by optimizing on mixed elementary single tasks, followed by advanced multi-task training on more complex tasks such as combinations of the elementary tasks. To enhance the flexibility and adherence to different tasks and instructions, a prompt-aware LoRA weight adapter is introduced in the second advanced multi-task training stage. We validate the proposed model on universal speech benchmarks and also apply it to specialized speech-question-answer (SQA) dataset, and speech Chain-of-Thought (CoT) evaluation set. Experiments demonstrate that the proposed model achieves state-of-the-art performance across a range of speech tasks on the same model size, exhibiting robust generalization capabilities in executing complex tasks using CoT approach. The codes, models, audio samples, and SQA evaluation set can be accessed at \url{https://github.com/microsoft/SpeechT5/tree/main/WavLLM}."
+}
+```
+
+## [The taste of IPA: Towards open-vocabulary keyword spotting and forced alignment in any language](https://aclanthology.org/2024.naacl-long.43/)
+
+- [arXiv](https://arxiv.org/abs/2311.08323)
+- [code](https://github.com/lingjzhu/clap-ipa)
+
+```bibtex
+@inproceedings{zhu-etal-2024-taste,
+    title = "The taste of {IPA}: Towards open-vocabulary keyword spotting and forced alignment in any language",
+    author = "Zhu, Jian  and
+      Yang, Changbing  and
+      Samir, Farhan  and
+      Islam, Jahurul",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.43/",
+    doi = "10.18653/v1/2024.naacl-long.43",
+    pages = "750--772",
+    abstract = "In this project, we demonstrate that phoneme-based models for speech processing can achieve strong crosslinguistic generalizability to unseen languages. We curated the IPAPACK, a massively multilingual speech corpora with phonemic transcriptions, encompassing more than 115 languages from diverse language families, selectively checked by linguists. Based on the IPAPACK, we propose CLAP-IPA, a multi-lingual phoneme-speech contrastive embedding model capable of open-vocabulary matching between arbitrary speech signals and phonemic sequences. The proposed model was tested on 95 unseen languages, showing strong generalizability across languages. Temporal alignments between phonemes and speech signals also emerged from contrastive training, enabling zeroshot forced alignment in unseen languages. We further introduced a neural forced aligner IPA-ALIGNER by finetuning CLAP-IPA with the Forward-Sum loss to learn better phone-to-audio alignment. Evaluation results suggest that IPA-ALIGNER can generalize to unseen languages without adaptation."
 }
 ```
