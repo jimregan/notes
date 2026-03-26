@@ -322,15 +322,15 @@ month=apr}
 
 ## [Dynamic pronunciation models for automatic speech recognition](https://dl.acm.org/doi/book/10.5555/931366)
 
-
+```bibtex
 @misc{alma991040256419706532,
 year = {1999},
-abstract = {As of this writing, the automatic recognition of spontaneous speech by computer is fraught with errors; many systems transcribe one out of every three to five words incorrectly, whereas humans can transcribe spontaneous speech with one error in twenty words or better. This high error rate is due in part to the poor modeling of pronunciations within spontaneous speech. This dissertation examines how pronunciations vary in this speaking style, and how speaking rate and word predictability can be used to predict when greater pronunciation variation can be expected. It includes an investigation of the relationship between speaking rate, word predictability, pronunciations, and errors made by speech recognition systems. The results of these studies suggest that for spontaneous speech, it may be appropriate to build models for syllables and words that can dynamically change the pronunciations used in the speech recognizer based on the extended context (including surrounding words, phones, speaking rate, etc.). Implementation of new pronunciation models automatically derived from data within the ICSI speech recognition system has shown a 4-5% relative improvement on the Broadcast News recognition task. Roughly two thirds of these gains can be attributed to static baseform improvements; adding the ability to dynamically adjust pronunciations within the recognizer provides the other third of the improvement. The Broadcast News task also allows for comparison of performance on different styles of speech: the new pronunciation models do not help for pre-planned speech, but they provide a significant gain for spontaneous speech. Not only do the automatically learned pronunciation models capture some of the linguistic variation due to the speaking style, but they also represent variation in the acoustic model due to channel effects. The largest improvement was seen in the telephone speech condition, in which 12% of the errors produced by the baseline system were corrected.},
 author = {Fosler-Lussier, John Eric.},
 booktitle = {Dynamic pronunciation models for automatic speech recognition},
 keywords = {University of California Berkeley Department of Electrical Engineering and Computer Sciences},
 language = {eng},
 publisher = {Thesis (Ph. D. in Computer Science)--University of California, Berkeley Fall 1999.},
-title = {Dynamic pronunciation models for automatic speech recognition / by John Eric Fosler-Lussier.},
+title = {Dynamic pronunciation models for automatic speech recognition},
 }
+```
 
