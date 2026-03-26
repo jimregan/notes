@@ -163,4 +163,25 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
 }
 ```
 
+## [Hierarchical Phrase-based Translation Representations](https://aclanthology.org/D11-1127/)
+
+```bibtex
+@inproceedings{iglesias-etal-2011-hierarchical,
+    title = "Hierarchical Phrase-based Translation Representations",
+    author = "Iglesias, Gonzalo  and
+      Allauzen, Cyril  and
+      Byrne, William  and
+      de Gispert, Adri{\`a}  and
+      Riley, Michael",
+    editor = "Barzilay, Regina  and
+      Johnson, Mark",
+    booktitle = "Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing",
+    month = jul,
+    year = "2011",
+    address = "Edinburgh, Scotland, UK.",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D11-1127/",
+    pages = "1373--1383"
+}
+```
 
