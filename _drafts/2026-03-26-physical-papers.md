@@ -7,6 +7,20 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [Codec-ASR: Training Performant Automatic Speech Recognition Systems with Discrete Speech Representations](https://www.isca-archive.org/interspeech_2024/dhawan24_interspeech.html)
+
+```bibtex
+@inproceedings{dhawan24_interspeech,
+  title     = {{Codec-ASR: Training Performant Automatic Speech Recognition Systems with Discrete Speech Representations}},
+  author    = {Kunal Dhawan and Nithin Rao Koluguri and Ante Jukić and Ryan Langman and Jagadeesh Balam and Boris Ginsburg},
+  year      = {2024},
+  booktitle = {{Interspeech 2024}},
+  pages     = {2574--2578},
+  doi       = {10.21437/Interspeech.2024-330},
+  issn      = {2958-1796},
+}
+```
+
 ## [SPACER: A Parallel Dataset of Speech Production And Comprehension of Error Repairs](https://aclanthology.org/2025.cmcl-1.19/)
 
 ```bibtex
@@ -30,7 +44,6 @@ categories: [papers]
     doi = "10.18653/v1/2025.cmcl-1.19",
     pages = "144--154",
     ISBN = "979-8-89176-227-5",
-    abstract = "Speech errors are a natural part of communication, yet they rarely lead to complete communicative failure because both speakers and comprehenders can detect and correct errors. Although prior research has examined error monitoring and correction in production and comprehension separately, integrated investigation of both systems has been impeded by the scarcity of parallel data. In this study, we present SPACER, a parallel dataset that captures how naturalistic speech errors are corrected by both speakers and comprehenders. We focus on single-word substitution errors extracted from the Switchboard speech corpus, accompanied by speaker{'}s self-repairs and comprehenders' responses from an offline text-editing experiment. Our exploratory analysis suggests asymmetries in error correction strategies: speakers are more likely to repair errors that introduce greater semantic and phonemic deviations, whereas comprehenders tend to correct errors that are phonemically similar to more plausible alternatives or do not fit into prior contexts. Our dataset enables future research on the integrated approach of language production and comprehension."
 }
 ```
 
