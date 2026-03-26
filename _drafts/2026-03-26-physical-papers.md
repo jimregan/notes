@@ -7,6 +7,36 @@ title: Physical papers, 26/03/2026
 categories: [papers]
 ---
 
+## [The Swedish Parliament Corpus 1867 – 2022](https://aclanthology.org/2024.lrec-main.1400/)
+
+```bibtex
+@inproceedings{yrjanainen-etal-2024-swedish,
+    title = "The {S}wedish Parliament Corpus 1867 {--} 2022",
+    author = {Yrj{\"a}n{\"a}inen, V{\"a}in{\"o} Aleksi  and
+      Mohammadi Nor{\'e}n, Fredrik  and
+      Borges, Robert  and
+      Jarlbrink, Johan  and
+      {\r{A}}berg Brorsson, Lotta  and
+      Olsson, Anders P.  and
+      Snickars, Pelle  and
+      Magnusson, M{\r{a}}ns},
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1400/",
+    pages = "16100--16112",
+    abstract = "The Swedish parliamentary records are an important source material for social science and humanities researchers. We introduce a new research corpus, the Swedish Parliament Corpus, which is larger and more developed than previously available research corpora for the Swedish parliament. The corpus contains annotated and structured parliamentary records over more than 150 years, through the bicameral parliament (1867{--}1970) and the unicameral parliament (1971{--}). In addition to the records, which contain all speeches in the parliament, we also provide a database of all members of parliament over the same period. Along with the corpus, we describe procedures to ensure data quality. The corpus facilitates detailed analysis of parliamentary speeches in several research fields."
+}
+```
+
 ## [Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation](https://aclanthology.org/Q17-1024/)
 
 ```bibtex
@@ -35,7 +65,6 @@ categories: [papers]
     url = "https://aclanthology.org/Q17-1024/",
     doi = "10.1162/tacl_a_00065",
     pages = "339--351",
-    abstract = "We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate between multiple languages. Our solution requires no changes to the model architecture from a standard NMT system but instead introduces an artificial token at the beginning of the input sentence to specify the required target language. Using a shared wordpiece vocabulary, our approach enables Multilingual NMT systems using a single model. On the WMT{'}14 benchmarks, a single multilingual model achieves comparable performance for English{\textrightarrow}French and surpasses state-of-theart results for English{\textrightarrow}German. Similarly, a single multilingual model surpasses state-of-the-art results for French{\textrightarrow}English and German{\textrightarrow}English on WMT{'}14 and WMT{'}15 benchmarks, respectively. On production corpora, multilingual models of up to twelve language pairs allow for better translation of many individual pairs. Our models can also learn to perform implicit bridging between language pairs never seen explicitly during training, showing that transfer learning and zero-shot translation is possible for neural translation. Finally, we show analyses that hints at a universal interlingua representation in our models and also show some interesting examples when mixing languages."
 }
 ```
 
