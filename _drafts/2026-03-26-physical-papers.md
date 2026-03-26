@@ -185,3 +185,18 @@ url={https://openreview.net/forum?id=5oaUMZEjWe}
 }
 ```
 
+## [ByT5 model for massively multilingual grapheme-to-phoneme conversion](https://www.isca-archive.org/interspeech_2022/zhu22_interspeech.html)
+- [arXiv]()
+- [CharsiuG2P](https://github.com/lingjzhu/CharsiuG2P)
+
+```bibtex
+@inproceedings{zhu22_interspeech,
+  title     = {{ByT5 model for massively multilingual grapheme-to-phoneme conversion}},
+  author    = {Jian Zhu and Cong Zhang and David Jurgens},
+  year      = {2022},
+  booktitle = {{Interspeech 2022}},
+  pages     = {446--450},
+  doi       = {10.21437/Interspeech.2022-538},
+  issn      = {2958-1796},
+}
+```
