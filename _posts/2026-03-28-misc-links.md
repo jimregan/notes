@@ -42,3 +42,8 @@ categories: [links]
 
 [Reward Function Design: a starter pack](https://www.alignmentforum.org/posts/xw8P8H4TRaTQHJnoP/reward-function-design-a-starter-pack)
 
+[Visdeurbel Livestream 2026](https://www.youtube.com/watch?v=Ud2tEV0wYZg)
+
+{% twitter https://x.com/sukh_saroy/status/2031017579322753372 %}
+
+[Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
