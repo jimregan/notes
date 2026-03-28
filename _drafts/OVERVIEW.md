@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: NeMo-speech-data-processor codebase notes
+title: Codebase summary from Claude
+categories: [nemo, sdp, claude]
+---
+
 ## NeMo Speech Data Processor (SDP) Overview
 
 **Purpose:** A NVIDIA framework for building composable pipelines that prepare speech datasets for ASR/TTS model training. The core abstraction is a chain of *processor* classes that transform NeMo-style JSONL manifest files.
