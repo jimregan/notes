@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: VoXtream codebase notes
+title: Codebase summary from Claude
+categories: [voxtream, claude]
+---
+
 # VoXtream2 Codebase
 
 ## Overview
