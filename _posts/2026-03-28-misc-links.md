@@ -31,6 +31,14 @@ categories: [links]
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.bucc-1.9/",
     pages = "73--82",
-    abstract = "Most conference papers present new results, but this paper will focus more on opportunities for the audience to make their own contributions. This paper is intended to challenge the community to think more broadly about what we can do with comparable corpora. We will start with a review of the history, and then suggest new directions for future research."
 }
 ```
+
+{% twitter https://x.com/Sumanth_077/status/1997668610660315144 %}
+
+[rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) --- Apache 2.0
+
+{% twitter https://x.com/steve47285/status/1998116981786939609 %}
+
+[Reward Function Design: a starter pack](https://www.alignmentforum.org/posts/xw8P8H4TRaTQHJnoP/reward-function-design-a-starter-pack)
+
