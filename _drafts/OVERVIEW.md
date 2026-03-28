@@ -1,3 +1,13 @@
+---
+toc: false
+layout: post
+hidden: true
+description: LeWorldModel codebase notes
+title: Codebase summary from Claude
+categories: [lewm, claude]
+---
+
+
 # LeWorldModel (LeWM) — Codebase Overview
 
 LeWorldModel is a **Joint Embedding Predictive Architecture (JEPA)** that learns compact world models directly from raw pixels. It learns latent space representations from observations and actions, then predicts future state embeddings autoregressively to enable model-predictive control (MPC) planning. Training is kept simple: only two loss terms (prediction loss + Gaussian regularizer), ~15M parameters, single GPU.
