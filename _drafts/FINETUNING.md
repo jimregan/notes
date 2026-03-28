@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: VoXtream fine-tuning notes
+title: Summary from Claude
+categories: [voxtream, claude]
+---
+
 # Fine-tuning VoXtream2
 
 This document covers how to fine-tune VoXtream2 on a custom dataset. The process has two main phases: dataset preparation and training.
