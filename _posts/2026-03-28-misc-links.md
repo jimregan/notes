@@ -49,3 +49,6 @@ categories: [links]
 [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
 
 [Natural Scientific Language Processing and Research Knowledge Graphs](https://www.springerprofessional.de/natural-scientific-language-processing-and-research-knowledge-gr/27468346)
+
+[LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](https://arxiv.org/abs/2603.19312),
+[code](https://github.com/lucas-maes/le-wm) --- MIT licence
