@@ -47,3 +47,5 @@ categories: [links]
 {% twitter https://x.com/sukh_saroy/status/2031017579322753372 %}
 
 [Foundations of Large Language Models](https://arxiv.org/abs/2501.09223)
+
+[Natural Scientific Language Processing and Research Knowledge Graphs](https://www.springerprofessional.de/natural-scientific-language-processing-and-research-knowledge-gr/27468346)
