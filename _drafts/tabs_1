@@ -463,79 +463,46 @@ https://github.com/jpuigcerver/PyLaia?tab=readme-ov-file
 Automatic Text Recognition / PyLaia · GitLab
 https://gitlab.teklia.com/atr/pylaia
 
-Dataset :: Teklia Documentation
-https://doc.teklia.com/pylaia/usage/datasets/
-
-An Gaodhal Irish-English Bilingual Model | English, Irish Text Recognition Model | Transkribus
-https://www.transkribus.org/models/an-gaodhal-irish-english-bilingual-model
-
-Sign in to Transkribus
-https://account.readcoop.eu/auth/realms/readcoop/protocol/openid-connect/auth?client_id=transkribus-webui-app&redirect_uri=https%3A%2F%2Fapp.transkribus.org%2Fmodels%2Ftext%2F501397&state=08cacd35-5ac0-4f5b-85ef-70bd7402cfae&response_mode=fragment&response_type=code&scope=openid&nonce=3e4e6120-38f3-4fb9-8f1a-d97e04f15cd7&code_challenge=504zT1qtbUp2Q3tBQLoQBYn8ykzAiD8Fzc_H5tuxfoY&code_challenge_method=S256
-
-An Gaodhal Gaeilge / Irish Monolingual Model | Irish Text Recognition Model | Transkribus
-https://www.transkribus.org/models/an-gaodhal-gaeilge-irish-monolingual-model
-
-ancatmara/historical-irish-bert · Hugging Face
-https://huggingface.co/ancatmara/historical-irish-bert
-
-ancatmara/CELT · Datasets at Hugging Face
-https://huggingface.co/datasets/ancatmara/CELT
-
-ancatmara/CSnaG · Datasets at Hugging Face
-https://huggingface.co/datasets/ancatmara/CSnaG
-
-ancatmara/an-gaodhal-ocr-correction · Datasets at Hugging Face
-https://huggingface.co/datasets/ancatmara/an-gaodhal-ocr-correction
-
-kscanne/tesseract-gle-uncial: Data and scripts to train Tesseract OCR model for old Irish fonts (seanchló)
-https://github.com/kscanne/tesseract-gle-uncial
-
-New tab
-chrome://newtab/
-
-New tab
-chrome://newtab/
-
-Ó pheann an Phiaraigh : i. téacsa toghaidhe as an saothar liteardha do rinne Pádraig Mac Piarais : Pearse, Padraic, 1879-1916 : Free Download, Borrow, and Streaming : Internet Archive
-https://archive.org/details/pheannphiaraig00pearuoft/page/108/mode/2up
-
-Ó pheann an Phiarsaigh : .i. téacsa toghaidhe as an saothar liteardha do rinne Pádraig Mac Piarais
-https://dn790003.ca.archive.org/0/items/pheannphiarsai00pearuoft/pheannphiarsai00pearuoft.pdf
-
-Active learning: theory and applications to automatic speech recognition | IEEE Journals & Magazine | IEEE Xplore
-https://ieeexplore.ieee.org/document/1453593
+Dataset formatting :: Teklia Documentation
+https://doc.teklia.com/pylaia/usage/datasets/format/
 
 Active learning for speech recognition - Claude
 https://claude.ai/chat/fe571bf2-4f3b-4847-8ff5-733c79c513d7
 
-Multi-Factor Authentication
-https://login.ug.kth.se/adfs/oauth2/authorize/?client_id=27b0293f-5b70-4cd4-b353-76ef542a1ec5&scope=openid%20email%20profile&response_type=id_token&redirect_uri=https%3A%2F%2Fapp.kth.se%2Fkpm%2Fauth%2Fcallback%3FnextUrl%3Dhttps%253A%252F%252Fwww.kth.se%252F&response_mode=form_post&nonce=aLZVTgKVuSorZEAjcUapPTe7VNLX3ZikKRzkVYS1rZo&client-request-id=c9becd9a-e201-487e-3189-0040020000da
+Pull requests · tesseract-ocr/tessdata_contrib
+https://github.com/tesseract-ocr/tessdata_contrib/pulls?q=is%3Apr+is%3Aclosed
 
-CityCity
-https://book.bigtravel.se/trains
+gle_uncial.traineddata - Google Search
+https://www.google.com/search?q=gle_uncial.traineddata&rlz=1C5GCCM_en&oq=gle_uncial.traineddata&gs_lcrp=EgZjaHJvbWUyBggAEEUYQNIBCDc0NDVqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
 
-KTH | Search
-https://www.kth.se/search?q=Grupprumsbokning
+Release v0.1beta4_gen: add generated data · jimregan/tesseract-gle-uncial
+https://github.com/jimregan/tesseract-gle-uncial/releases/tag/v0.1beta4_gen
 
-Beslut om
-https://intra.kth.se/polopoly_fs/1.1443150.1764319352!/Beslut%2020250610%20-%20Priss%C3%A4ttning%20f%C3%B6r%20undervisningslokaler%20p%C3%A5%20KTH%202026%20final.pdf
+notebook to generate data · jimregan/tesseract-gle-uncial@2ff9d00
+https://github.com/jimregan/tesseract-gle-uncial/commit/2ff9d006394283b256fe4cf2447363cec47e64fe
 
-Plan 4 - Kollegiesalen
-https://intra.kth.se/campus/service/serviceverksamhetsstodet/lokaler/motesrum/brinellvagen-8/plan-4-kollegiesalen-1.1326025
+mittagessen/kraken: OCR engine for all the languages
+https://github.com/mittagessen/kraken
 
-Plan 4 - Bakfickan
-https://intra.kth.se/campus/service/serviceverksamhetsstodet/lokaler/motesrum/brinellvagen-8/plan-4-bakfickan-1.1325453
+Kraken ocr by jimregan · Pull Request #27 · jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles/pull/27
 
-Plan 4 - Hadrian
-https://intra.kth.se/campus/service/serviceverksamhetsstodet/lokaler/motesrum/brinellvagen-8/plan-4-hadrian-1.1325516
+registry.gitlab.teklia.com/atr/pylaia
+https://registry.gitlab.teklia.com/atr/pylaia
 
-Plan 4 - Juridicum
-https://intra.kth.se/campus/service/serviceverksamhetsstodet/lokaler/motesrum/brinellvagen-8/plan-4-juridicum-1.1325554
+kenlm · PyPI
+https://pypi.org/project/kenlm/
 
-Room booking at KTH | KTH Intranet
-https://intra.kth.se/en/campus/gemensamma-lokaler-p/lokalbokning-1.49026
+Issue search results
+https://github.com/search?q=repo%3ALightning-AI%2Fpytorch-lightning+convert_inf&type=issues
 
-KTH | Kollegiesalen
-https://www.kth.se/places/room/id/dec1b09f-cf92-4a13-a71c-fae5bec331e1
+Training :: Teklia Documentation
+https://doc.teklia.com/pylaia/usage/training/
+
+Dataset formatting :: Teklia Documentation
+https://doc.teklia.com/pylaia/usage/datasets/format/
+
+Configuration check failed :: No action for destination key to check its value · Issue #10859 · Lightning-AI/pytorch-lightning
+https://github.com/Lightning-AI/pytorch-lightning/issues/10859
 
 
