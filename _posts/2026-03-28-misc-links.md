@@ -52,3 +52,22 @@ categories: [links]
 
 [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](https://arxiv.org/abs/2603.19312),
 [code](https://github.com/lucas-maes/le-wm) --- MIT licence
+
+[Active learning: theory and applications to automatic speech recognition](https://ieeexplore.ieee.org/document/1453593)
+
+[An Gaodhal Gaeilge / Irish Monolingual Model](https://www.transkribus.org/models/an-gaodhal-gaeilge-irish-monolingual-model) --- Transkribus model,
+[output](https://ultraviolet.library.nyu.edu/records/5ya5n-mc504)
+
+[An Gaodhal Irish-English Bilingual Model](https://www.transkribus.org/models/an-gaodhal-irish-english-bilingual-model)
+
+[Ó pheann an Phiarsaigh : .i. téacsa toghaidhe as an saothar liteardha do rinne Pádraig Mac Piarais](https://archive.org/details/pheannphiarsai00pearuoft) --- no copyright notice
+
+[Ó pheann an Phiaraigh : i. téacsa toghaidhe as an saothar liteardha do rinne Pádraig Mac Piarais](https://archive.org/details/pheannphiaraig00pearuoft)
+
+[anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks)
+
+[The Readings of Mr. Charles Dickens, as Condensed by Himself](https://books.google.se/books?id=vMYVAAAAYAAJ)
+
+[Global Rhythm Style Transfer Without Text Transcriptions](https://arxiv.org/abs/2106.08519)
+
+
