@@ -72,3 +72,30 @@ categories: [links]
 
 [herimor/voxtream](https://github.com/herimor/voxtream)
 
+[Qwen/Qwen3-Coder-Next](https://huggingface.co/Qwen/Qwen3-Coder-Next)
+
+[Modern Irish grammar](https://archive.org/details/modernirishgram00craigoog)
+
+[First Irish Grammar](https://archive.org/details/firstirishgramma00chri) --- 1920
+
+[First Irish grammar](https://archive.org/details/firstirishgramm00chri) --- 1900
+
+
+[#AnGaodhal: Training the First Irish-English Bilingual OCR Model](https://hardimanlibrary.blogspot.com/2024/08/an-gaodhal-ocr.html)
+
+[Frame-Wise Breath Detection with Self-Training: An Exploration of Enhancing Breath Naturalness in Text-to-Speech](https://www.isca-archive.org/interspeech_2024/yang24c_interspeech.html),
+[arXiv](https://arxiv.org/abs/2402.00288),
+[code](https://github.com/ydqmkkx/Respiro-en)
+
+[Foghraidheacht Ghaedhilge an Tuaiscirt](https://www.donegalculture.ie/media/cavpveyt/foghraidheacht-ghaeodhilge-an-tuaiscirt-compressed.pdf) --- scan
+
+[A Phonetic Key to Modern Ulster Irish](https://www.donegalculture.ie/media/10nd2av5/a-phoentic-key-to-modern-ulster-irish.pdf) --- scan
+
+[The Gaelic of Tangaveane and Commeen, County Donegal](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/428007479/The_gaelic_of_Tangaveane_and_Commeen_County_Donegal.pdf)
+
+[cberner/fuser](https://github.com/cberner/fuser) --- Filesystem in Userspace (FUSE) for Rust
+
+[xetdata/nfsserve](https://github.com/xetdata/nfsserve) --- A Rust NFS Server implementation
+
+[huggingface/hf-mount](https://github.com/huggingface/hf-mount)
+
