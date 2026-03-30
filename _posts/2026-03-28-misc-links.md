@@ -99,3 +99,5 @@ categories: [links]
 
 [huggingface/hf-mount](https://github.com/huggingface/hf-mount)
 
+[jupyterhub/nbgitpuller](https://github.com/jupyterhub/nbgitpuller) --- Jupyter server extension to sync a git repository one-way to a local path
+
