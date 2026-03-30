@@ -97,8 +97,8 @@ https://github.com/auspicious3000/contentvec
 Hur gör jag för att lyssna?
 https://swedia.ling.gu.se/info/info_lyssna.html
 
-Språkrådet
-https://github.com/sprakradet
+num2words/num2words/lang_PL.py at master · sprakradet/num2words
+https://github.com/sprakradet/num2words/blob/master/num2words/lang_PL.py
 
 Information for Authors-SPL | IEEE Signal Processing Society
 https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters/information-authors-spl
@@ -226,53 +226,23 @@ https://www.overleaf.com/project/6473399a26502ea5fcfc2ed7
 Interspeech Paper Kit - Online LaTeX Editor Overleaf
 https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
 
-Cleaning up Docker to free server space - Claude
-https://claude.ai/chat/6ccf8f90-2789-40e3-8f22-91682a644a8a
-
-Image Layer Details - jimregan/sst:odys-sub
-https://hub.docker.com/repository/docker/jimregan/sst/tags/odys-sub/sha256-1f5b18e7346494456e7dbcd28e699bc2ca06ac7b489eec8aab5d12d65aaa51c7
-
-Undoing a commit without deleting files - Claude
-https://claude.ai/chat/c769b4bf-87ba-4291-8b47-26f8b245e09a
-
-README.md · jimregan/sst-wavlm-sem384-spk256-resem-grl at main
-https://huggingface.co/jimregan/sst-wavlm-sem384-spk256-resem-grl/blob/main/README.md
-
-jimregan/sst-wavlm-sem384-spk768-xvec at main
-https://huggingface.co/jimregan/sst-wavlm-sem384-spk768-xvec/tree/main
-
-Gradio Microphone recording not working · Issue #10665 · gradio-app/gradio
-https://github.com/gradio-app/gradio/issues/10665
-
-add changes from sentence-extraction branch; does not work currently,… by jimregan · Pull Request #60 · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/pull/60
-
-Branches · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/branches
-
-Corpus scripts by jimregan · Pull Request #64 · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/pull/64/changes
-
-sync-asr/sync_asr/riksdag/time_aligner.py at main · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/blob/main/sync_asr/riksdag/time_aligner.py
-
-implement by jimregan · Pull Request #65 · jimregan/sync-asr
-https://github.com/jimregan/sync-asr/pull/65
-
 herimor/voxtream: VoXtream is a Full-Stream Zero-shot TTS model with Extremely Low Latency and Speaking rate Control
 https://github.com/herimor/voxtream
 
 README.md · nvidia/hifitts-2 at main
 https://huggingface.co/datasets/nvidia/hifitts-2/blob/main/README.md
 
-NeMo-speech-data-processor/tests/prepare_test_data/prepare_coraa_data.py at main · NVIDIA/NeMo-speech-data-processor
+NVIDIA/NeMo-speech-data-processor: A toolkit for processing speech data and creating speech datasets
 https://github.com/NVIDIA/NeMo-speech-data-processor
 
 Supported datasets — NVIDIA NeMo SDP
 https://nvidia.github.io/NeMo-speech-data-processor/sdp/existing_configs.html
 
-NVIDIA/NeMo-speech-data-processor: A toolkit for processing speech data and creating speech datasets
-https://github.com/NVIDIA/NeMo-speech-data-processor
+Pull requests · NVIDIA/NeMo-speech-data-processor
+https://github.com/NVIDIA/NeMo-speech-data-processor/pulls
+
+Granary Dataset Processing (Component-Based) by ssh-meister · Pull Request #135 · NVIDIA/NeMo-speech-data-processor
+https://github.com/NVIDIA/NeMo-speech-data-processor/pull/135/changes
 
 Updates by jimregan · Pull Request #47 · jimregan/wolnelektury-speech-corpus
 https://github.com/jimregan/wolnelektury-speech-corpus/pull/47
@@ -285,9 +255,6 @@ https://arxiv.org/pdf/2402.00288v1
 
 Frame-Wise Breath Detection with Self-Training: An Exploration of Enhancing Breath Naturalness in Text-to-Speech
 https://arxiv.org/pdf/2402.00288v2
-
-doras - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/doras
 
 Foghraidheacht Ghaedhilge an Tuaiscirt - Google Search
 https://www.google.com/search?q=Foghraidheacht+Ghaedhilge+an+Tuaiscirt&rlz=1C5GCCM_en&oq=Foghraidheacht+Ghaedhilge+an+Tuaiscirt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIKCAMQABiABBiiBDIHCAQQABjvBTIHCAUQABjvBTIGCAYQRRhB0gEHNDA3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
@@ -505,22 +472,10 @@ https://github.com/xetdata/nfsserve/blob/main/examples/demo.rs
 cberner/fuser: Filesystem in Userspace (FUSE) for Rust
 https://github.com/cberner/fuser
 
-CUDA initialization warning and device detection - Claude
-https://claude.ai/chat/a9add867-1e35-4940-890e-f93eab7bd4c6
-
 Getting Started — kraken documentation
 https://kraken.re/main/getting_started.html
 
-Page:Catilína - Ua Laoghaire.djvu/17 - Wikisource
-https://wikisource.org/wiki/Page:Catil%C3%ADna_-_Ua_Laoghaire.djvu/17
-
-linux chown numeric group - Google Search
-https://www.google.com/search?q=linux+chown+numeric+group&rlz=1C5GCCM_en&oq=linux+chown+numeric+group&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBdIBCDkyNzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Aaa - Google Drive
-https://drive.google.com/drive/u/0/folders/1eG1L_Dsx29Jix0oytsk-J1s80nmkW_U9
-
-Decoding :: Teklia Documentation
-https://doc.teklia.com/pylaia/usage/prediction/
+Departures | Stockholm Arlanda Airport
+https://www.swedavia.com/arlanda/departures/#/2026-03-31
 
 
