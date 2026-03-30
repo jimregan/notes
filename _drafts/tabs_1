@@ -431,22 +431,10 @@ Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wa
 https://archive.org/search?query=creator%3A%22Christian+Brothers%22&page=3
 
 First Irish Grammar : Christian Brothers : Free Download, Borrow, and Streaming : Internet Archive
-https://archive.org/details/firstirishgramma00chri/page/n5/mode/2up
-
-Aids to Irish composition : Christian Brothers : Free Download, Borrow, and Streaming : Internet Archive
-https://archive.org/details/aidstoirishcompo00chri/page/n3/mode/2up
+https://archive.org/details/firstirishgramma00chri/page/2/mode/2up
 
 First Irish grammar : Christian Brothers : Free Download, Borrow, and Streaming : Internet Archive
-https://archive.org/details/firstirishgramm00chri/page/6/mode/2up
-
-Commons:Upload tools - Wikimedia Commons
-https://commons.wikimedia.org/wiki/Commons:Upload_tools
-
-IA Upload
-https://ia-upload.wmcloud.org/
-
-Welcome to the Endangered Archives Programme | Endangered Archives Programme
-https://eap.bl.uk/
+https://archive.org/details/firstirishgramm00chri/page/n3/mode/2up
 
 Fine-tuning OCR for custom scripts - Claude
 https://claude.ai/chat/50dcc3a5-4ba2-485f-8d79-788574bfad35
@@ -457,26 +445,8 @@ https://hardimanlibrary.blogspot.com/2024/08/an-gaodhal-ocr.html
 Irish, Gaelic and Roman type (Seanchló agus Cló Rómhánach) v.3 | Irish Text Recognition Model | Transkribus
 https://www.transkribus.org/models/irish-gaelic-and-roman-type-seanchl-agus-cl-rmhnach-v3
 
-jpuigcerver/PyLaia: A deep learning toolkit specialized for handwritten document analysis
-https://github.com/jpuigcerver/PyLaia?tab=readme-ov-file
-
-Automatic Text Recognition / PyLaia · GitLab
-https://gitlab.teklia.com/atr/pylaia
-
-Dataset formatting :: Teklia Documentation
-https://doc.teklia.com/pylaia/usage/datasets/format/
-
 Active learning for speech recognition - Claude
 https://claude.ai/chat/fe571bf2-4f3b-4847-8ff5-733c79c513d7
-
-Pull requests · tesseract-ocr/tessdata_contrib
-https://github.com/tesseract-ocr/tessdata_contrib/pulls?q=is%3Apr+is%3Aclosed
-
-gle_uncial.traineddata - Google Search
-https://www.google.com/search?q=gle_uncial.traineddata&rlz=1C5GCCM_en&oq=gle_uncial.traineddata&gs_lcrp=EgZjaHJvbWUyBggAEEUYQNIBCDc0NDVqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
-
-Release v0.1beta4_gen: add generated data · jimregan/tesseract-gle-uncial
-https://github.com/jimregan/tesseract-gle-uncial/releases/tag/v0.1beta4_gen
 
 notebook to generate data · jimregan/tesseract-gle-uncial@2ff9d00
 https://github.com/jimregan/tesseract-gle-uncial/commit/2ff9d006394283b256fe4cf2447363cec47e64fe
@@ -484,25 +454,49 @@ https://github.com/jimregan/tesseract-gle-uncial/commit/2ff9d006394283b256fe4cf2
 mittagessen/kraken: OCR engine for all the languages
 https://github.com/mittagessen/kraken
 
-Kraken ocr by jimregan · Pull Request #27 · jimregan/dockerfiles
-https://github.com/jimregan/dockerfiles/pull/27
-
-registry.gitlab.teklia.com/atr/pylaia
-https://registry.gitlab.teklia.com/atr/pylaia
-
-kenlm · PyPI
-https://pypi.org/project/kenlm/
-
-Issue search results
-https://github.com/search?q=repo%3ALightning-AI%2Fpytorch-lightning+convert_inf&type=issues
-
-Training :: Teklia Documentation
-https://doc.teklia.com/pylaia/usage/training/
-
 Dataset formatting :: Teklia Documentation
 https://doc.teklia.com/pylaia/usage/datasets/format/
 
-Configuration check failed :: No action for destination key to check its value · Issue #10859 · Lightning-AI/pytorch-lightning
-https://github.com/Lightning-AI/pytorch-lightning/issues/10859
+Training — kraken documentation
+https://kraken.re/2.0.0/ketos.html#artificial-training-data
+
+Recognition Model Training — kraken documentation
+https://kraken.re/main/user_guide/training_recognition.html
+
+Search OCR/HTR model repository
+https://zenodo.org/communities/ocr_models/records?q=&l=list&p=2&s=10&sort=newest
+
+D-FINE Large region segmentation model trained on LADaS
+https://zenodo.org/records/18715364
+
+HTR model for 19th-20th century French-Vietnamese historical documents with Vietnamese tone mark support
+https://zenodo.org/records/17690418
+
+CATMuS-Print - Google Search
+https://www.google.com/search?q=CATMuS-Print&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+CATMuS-Print [Large]
+https://zenodo.org/records/10592716
+
+Generic HTR model for Old Cyrillic uncial and semi-uncial script styles (11th-16th c.)
+https://zenodo.org/records/7755483
+
+CATMuS Medieval
+https://zenodo.org/records/12743230
+
+Training — kraken documentation
+https://kraken.re/2.0.0/ketos.html#artificial-training-data
+
+System architecture - JupyterHub @ KTH
+https://gpu1.eecs.kth.se/static/architecture/
+
+nbgitpuller — nbgitpuller documentation
+https://nbgitpuller.readthedocs.io/en/latest/
+
+How to use AFS (Andrew File System) | KTH Intranet
+https://intra.kth.se/en/it/dokument/spara-filer-pa-kths-filservrar/afs-readme-1.33932
+
+Understanding NVIDIA GPU monitoring output - Claude
+https://claude.ai/chat/94862096-60db-454a-838a-3bad0ba897f7
 
 
