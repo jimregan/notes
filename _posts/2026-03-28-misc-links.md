@@ -93,6 +93,18 @@ categories: [links]
 
 [The Gaelic of Tangaveane and Commeen, County Donegal](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/428007479/The_gaelic_of_Tangaveane_and_Commeen_County_Donegal.pdf)
 
+[The Irish of Tory Island](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/The%20Irish%20of%20Tory%20Island%20-%20Hamilton.pdf)
+
+[Grammar of Ros Goill Irish](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/Lucas%20(1979)%20Grammar%20of%20Ros%20Goill%20Irish.pdf)
+
+[A Vocabulary of the Dialects of Fanad and Glenvar, Co. Donegal](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/Evans%20Fanad%20and%20Glenvar.pdf)
+
+[The Gaelic dialect of Urris, Inishowen, Co. Donegal](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/201388458/Evans_The_Gaelic_62516868.pdf)
+
+[South Armagh Irish](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/Sommerfelt_South_Armagh_Irish.pdf)
+
+[The Dialect of Torr, Co. Donegal](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/The%20Dialect%20of%20Torr,%20Co.%20Donegal%20-%20I.%20Phonology%20(1922).pdf)
+
 [Books about Ulster Gaelic: full page images from around the internet](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/bookimages.htm)
 
 [cberner/fuser](https://github.com/cberner/fuser) --- Filesystem in Userspace (FUSE) for Rust
