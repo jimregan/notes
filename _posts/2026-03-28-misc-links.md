@@ -93,6 +93,8 @@ categories: [links]
 
 [The Gaelic of Tangaveane and Commeen, County Donegal](https://pureadmin.qub.ac.uk/ws/portalfiles/portal/428007479/The_gaelic_of_Tangaveane_and_Commeen_County_Donegal.pdf)
 
+[Books about Ulster Gaelic: full page images from around the internet](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/bookimages.htm)
+
 [cberner/fuser](https://github.com/cberner/fuser) --- Filesystem in Userspace (FUSE) for Rust
 
 [xetdata/nfsserve](https://github.com/xetdata/nfsserve) --- A Rust NFS Server implementation
