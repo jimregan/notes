@@ -115,3 +115,5 @@ categories: [links]
 
 [jupyterhub/nbgitpuller](https://github.com/jupyterhub/nbgitpuller) --- Jupyter server extension to sync a git repository one-way to a local path
 
+[microsoft/harrier-oss-v1-27b](https://huggingface.co/microsoft/harrier-oss-v1-27b) --- a family of multilingual text embedding models
+
