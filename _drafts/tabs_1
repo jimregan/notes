@@ -4,17 +4,23 @@ https://github.com/jimregan/notes/pull/348/changes#diff-9686d8d2c1772e463a006fd6
 common voice - Google Search
 https://www.google.com/search?q=common+voice&sca_esv=458b599867fd176c&rlz=1C5GCCM_en&sxsrf=ANbL-n4mapDqof5INscaodEHLcNULzYM6g:1774199343404&ei=LyLAaZuyGKuuwPAPgqqLmQU&start=20&sa=N&sstk=Af77f_cP-PxZXDzZ_NJXIIhbilPA5ZHzI_ogx495ICi09q6i09eEDbb7kIoX9WbsT0wHxDdOggSSaji3hTisHfiCKJczJH1dREfxPaB7PmIQgAamZDPreZXSusnruLDcqoKq&ved=2ahUKEwjbhf_M_7OTAxUrFxAIHQLVIlM4ChDw0wN6BAgxEBc&biw=1425&bih=714&dpr=2
 
-Common Voice
-https://www.kaggle.com/datasets/mozillaorg/common-voice?select=cv-valid-test.csv
-
 common-voice/cv-dataset: Metadata and versioning details for the Common Voice dataset
 https://github.com/common-voice/cv-dataset
 
-Common Voice Corpus_1
-https://www.kaggle.com/datasets/nickj26/common-voice-corpus-1
-
 ntfy
 https://docs.ntfy.sh/
+
+From your phone - ntfy
+https://docs.ntfy.sh/subscribe/phone/
+
+binwiederhier/ntfy-android: Android app for ntfy.sh
+https://github.com/binwiederhier/ntfy-android?tab=readme-ov-file
+
+ntfy/Dockerfile-build at main · binwiederhier/ntfy
+https://github.com/binwiederhier/ntfy/blob/main/Dockerfile-build
+
+ntfy - PUT/POST to your phone – Apps on Google Play
+https://play.google.com/store/apps/details?id=io.heckel.ntfy
 
 Multi-Axis Speech Similarity - a Hugging Face Space by jimregan
 https://huggingface.co/spaces/jimregan/sst-demo
@@ -226,24 +232,6 @@ https://wikisource.org/wiki/Index:Maighdean_an_tSoluis_agus_Sg%C3%A9alta_Eile.dj
 File:Maighdean an tSoluis agus Sgéalta Eile.djvu - Wikimedia Commons
 https://commons.wikimedia.org/wiki/File:Maighdean_an_tSoluis_agus_Sg%C3%A9alta_Eile.djvu
 
-Jimín/1 - Wikisource
-https://wikisource.org/wiki/Jim%C3%ADn/1
-
-OAuth - Wikimedia Commons
-https://commons.wikimedia.org/wiki/Special:OAuth/authenticate
-
-Énrí Ó Muirgheasa - Wikidata
-https://www.wikidata.org/wiki/Q13157959
-
-Editing File:Seanfhocla Uladh - Ua Muirgheasa.djvu - Wikimedia Commons
-https://commons.wikimedia.org/w/index.php?title=File:Seanfhocla_Uladh_-_Ua_Muirgheasa.djvu&action=edit
-
-Énrí Ó Muirgheasa - Wikipedia
-https://en.wikipedia.org/wiki/%C3%89nr%C3%AD_%C3%93_Muirgheasa
-
-KBLab/rixvox-v2 · Datasets at Hugging Face
-https://huggingface.co/datasets/KBLab/rixvox-v2
-
 SWERIK
 https://swerik-project.github.io/
 
@@ -283,7 +271,106 @@ https://era.ed.ac.uk/server/api/core/bitstreams/b5f2440d-633f-4fe9-9024-80610577
 Generate raw word embeddings using transformer models like BERT for downstream process - Beginners - Hugging Face Forums
 https://discuss.huggingface.co/t/generate-raw-word-embeddings-using-transformer-models-like-bert-for-downstream-process/2958
 
-microsoft/harrier-oss-v1-27b · Hugging Face
-https://huggingface.co/microsoft/harrier-oss-v1-27b
+OmniVoice - a Hugging Face Space by k2-fsa
+https://huggingface.co/spaces/k2-fsa/OmniVoice
+
+OmniVoice/README.md at master · k2-fsa/OmniVoice
+https://github.com/k2-fsa/OmniVoice/blob/master/README.md
+
+k2-fsa/OmniVoice · Hugging Face
+https://huggingface.co/k2-fsa/OmniVoice
+
+plexusone/omnivoice-core: Voice abstraction layer supporting TTS, STT, and Voice Agents across multiple providers and transport protocols.
+https://github.com/plexusone/omnivoice-core
+
+(2) Home / X
+https://x.com/home
+
+Perceptron — Machine Learning Visualized
+https://ml-visualized.com/chapter3/perceptron.html
+
+(2) Yasser Dahou on X: "We are releasing Falcon Perception, an open-vocabulary referring expression segmentation model. Along with it, a 0.3B OCR model that is on par with 3-10x larger competitors. Current systems solve this with complex pipelines (separate encoders, late fusion, matching algorithms). https://t.co/1RZuPtuZAE" / X
+https://x.com/dahou_yasser/status/2039242378809385331
+
+Falcon Perception
+https://arxiv.org/pdf/2603.27365
+
+x.com/_avichawla/status/2039598698548850949
+https://x.com/_avichawla/status/2039598698548850949
+
+onyx/AGENTS.md at main · onyx-dot-app/onyx
+https://github.com/onyx-dot-app/onyx/blob/main/AGENTS.md
+
+Quickstart - Onyx Documentation
+https://docs.onyx.app/deployment/getting_started/quickstart
+
+raw.githubusercontent.com/onyx-dot-app/onyx/main/deployment/docker_compose/install.sh
+https://raw.githubusercontent.com/onyx-dot-app/onyx/main/deployment/docker_compose/install.sh
+
+Instagram
+https://www.instagram.com/reels/DWZGHDtu0kt/
+
+Instagram
+https://www.instagram.com/
+
+Onyx AI | Open Source Enterprise Search & AI Assistant
+https://onyx.app/
+
+Qwen3.5-9B - Google Search
+https://www.google.com/search?q=Qwen3.5-9B&rlz=1C5GCCM_en&oq=Qwen3.5-9B&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+qwen3.5:9b
+https://ollama.com/library/qwen3.5:9b
+
+Jackrong/Qwopus3.5-9B-v3-GGUF · Hugging Face
+https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF
+
+Qwen3.5-9B is actually quite good for agentic coding : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/
+
+Local agent system setup - Claude
+https://claude.ai/chat/ed079acd-e955-4e06-aa0e-f718bcc3d7ff
+
+A Dialect of Donegal/Texts/Leadairt na bhfear mór - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C3%B3r
+
+caighdean/spurious.txt at master · kscanne/caighdean
+https://github.com/kscanne/caighdean/blob/master/spurious.txt
+
+Docker cleanup and maintenance - Claude
+https://claude.ai/chat/b411e806-c3b8-41e7-805d-fc6cb52479c6
+
+add audit and workflow scripts for quiggin JSON data by jimregan · Pull Request #33 · jimregan/irish-attested-pronunciations
+https://github.com/jimregan/irish-attested-pronunciations/pull/33/changes#diff-1c3c71361b978f5f70df673f9b395421d203b964786fc1cade0f39522c73927c
+
+ollama/Dockerfile at main · ollama/ollama
+https://github.com/ollama/ollama/blob/main/Dockerfile
+
+pussi - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/pussi
+
+How do I create a Docker image containing a model? · Issue #957 · ollama/ollama
+https://github.com/ollama/ollama/issues/957
+
+jimregan/irish-attested-pronunciations
+https://github.com/jimregan/irish-attested-pronunciations/
+
+Scripts and workflow by jimregan · Pull Request #34 · jimregan/irish-attested-pronunciations
+https://github.com/jimregan/irish-attested-pronunciations/pull/34/
+
+Finck original by jimregan · Pull Request #14 · jimregan/irish-attested-pronunciations
+https://github.com/jimregan/irish-attested-pronunciations/pull/14/changes#diff-3b777a939d72eccb049024ac15087b5badb62d0bca2ec9bcebe32ccd94ef55b3
+
+(1) Instagram
+https://www.instagram.com/
+
+(1) Instagram
+https://www.instagram.com/nikola_uhlirova/
+
+Claude
+https://claude.ai/new
+
+Seite:Die araner mundart.djvu/20 – Wikisource
+https://de.wikisource.org/wiki/Seite:Die_araner_mundart.djvu/20
 
 
