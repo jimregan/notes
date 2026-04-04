@@ -128,3 +128,29 @@ categories: [links]
 [SWERIK](https://swerik-project.github.io/)
 
 [Automatic Annotation of Speech: Exploring Boundaries within Forced Alignment for Swedish and Norwegian](https://uu.diva-portal.org/smash/get/diva2:1674281/FULLTEXT01.pdf)
+
+[Multi-dialect acoustic modeling using phone mapping and online i-vectors](https://www.amazon.science/publications/multi-dialect-acoustic-modeling-using-phone-mapping-and-online-i-vectors)
+
+```bibtex
+@Article{Arsikere2019,
+ author = {Harish Arsikere and Ashtosh Sapru and Sri Garimella},
+ title = {Multi-dialect acoustic modeling using phone mapping and online i-vectors},
+ year = {2019},
+ url = {https://www.amazon.science/publications/multi-dialect-acoustic-modeling-using-phone-mapping-and-online-i-vectors},
+}
+```
+
+[Phone Classification in Pseudo-Euclidean Vector Spaces](https://era.ed.ac.uk/items/d8755f46-f437-42fc-abd7-66d336d6f1d0)
+
+[Coisceim ar aghaidh](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/Coisceim%20Ar%20Aghaidh.pdf)
+
+[First Irish Grammar, Ulster Edition](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/First%20Irish%20Grammar%20(Ulster%20Edition).pdf)
+
+[Coimhreir Ghaedhilg an Tuaiscirt](https://www3.smo.uhi.ac.uk/oduibhin/leabharthai/Coimhr%C3%A9ir%20Ghaedhilg%20an%20Tuaiscirt.pdf)
+
+{% twitter https://x.com/dahou_yasser/status/2039242378809385331 %}
+
+[Falcon Perception](https://arxiv.org/pdf/2603.27365),
+[dataset](https://huggingface.co/datasets/tiiuae/PBench) --- no licence,
+[code](https://github.com/tiiuae/falcon-perception) --- Apache 2.0
+
