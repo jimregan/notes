@@ -117,3 +117,14 @@ categories: [links]
 
 [microsoft/harrier-oss-v1-27b](https://huggingface.co/microsoft/harrier-oss-v1-27b) --- a family of multilingual text embedding models
 
+[Common Voice English 1](https://www.kaggle.com/datasets/mozillaorg/common-voice)
+
+[SnasTV Nuacht TG4](https://www.maynoothuniversity.ie/larionad-gaeilge-centre-irish-language/acmhainn-gaeilge/vifax-ghaeilge)
+
+[snas.ie](https://snas.ie/)
+
+[Mion-ċaint na Miḋe agus Ulaḋ](https://archive.org/details/mionaintnamieag00dubhgoog)
+
+[SWERIK](https://swerik-project.github.io/)
+
+[Automatic Annotation of Speech: Exploring Boundaries within Forced Alignment for Swedish and Norwegian](https://uu.diva-portal.org/smash/get/diva2:1674281/FULLTEXT01.pdf)
