@@ -31,26 +31,47 @@ https://x.com/christinetyip/status/2013196232181637500
 (1) Home / X
 https://x.com/home
 
-x.com/GTL094144/status/2041065414659285444
+(1) Guan-Ting (Daniel) Lin on X: "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗙𝘂𝗹𝗹-𝗗𝘂𝗽𝗹𝗲𝘅-𝗕𝗲𝗻𝗰𝗵-𝘃𝟯 🚀 Voice agents aren't just chatbots—they need to ACT by using tools 🔨. To feel natural, they must handle your "ums", mid-sentence corrections, and call APIs with low latency. 🧵👇 https://t.co/32ovJsCJPu" / X
 https://x.com/GTL094144/status/2041065414659285444
 
-x.com/i/trending/2041473820670738632
-https://x.com/i/trending/2041473820670738632
+Google AI Edge  |  Google AI for Developers
+https://ai.google.dev/edge
 
-x.com/i/trending/2041475583511773274
-https://x.com/i/trending/2041475583511773274
-
-x.com/ModelScope2022/status/2041343097498374564
+(1) ModelScope on X: "VoxCPM2 is now open source — tokenizer-free diffusion TTS, 2B params, 30 languages. 🚀 🌍 30 languages + 9 Chinese dialects — no language tag 🎨 Voice Design: text description → voice generation. No reference audio. 🎙️ 3 cloning modes: basic / controllable (style steering) / https://t.co/H0CaPV8lFN" / X
 https://x.com/ModelScope2022/status/2041343097498374564
 
-x.com/MaziyarPanahi/status/2040440429989027919
-https://x.com/MaziyarPanahi/status/2040440429989027919
+VoxCPM2 · Models
+https://modelscope.ai/models/OpenBMB/VoxCPM2
 
-x.com/DataChaz/status/2041289800695873546
+(1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
+https://x.com/MaziyarPanahi/status/2040776481673281936
+
+tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
+https://github.com/tiiuae/falcon-perception
+
+(1) Charly Wargnier on X: "🚨 The new era of Open-Source TTS is here. @OpenBMB's VoxCPM 2 just dropped and it changes the game for voice synthesis. We are moving past fixed speaker presets to true "Concept-to-Voice" generation. Just describe the voice you want in text, and the 2B model builds it. How https://t.co/wetVFDVTyc" / X
 https://x.com/DataChaz/status/2041289800695873546
 
-x.com/Sumanth_077/status/2041157100840051111
+(1) Sumanth on X: "Microsoft just fixed a major speech recognition problem! They open sourced VibeVoice-ASR, a speech-to-text model that processes 60 minutes of audio in a single pass. Here's the problem with most ASR models. They slice audio into short chunks, usually 30 seconds or less. Process https://t.co/PCfHaGGoHi" / X
 https://x.com/Sumanth_077/status/2041157100840051111
+
+(1) Paul Couvert on X: "You can now fine-tune Gemma 4 (and 500 other open source models) in a free Google Colab 🔥 1. Open the Colab notebook below 2. Run the blocks to launch Unsloth Studio 3. Choose a model and dataset 4. Hit 'Start Training' And you're done! https://t.co/jfmdJ1KjQz" / X
+https://x.com/itsPaulAi/status/2041217694767415320
+
+Unsloth_Studio_Colab.ipynb - Colab
+https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb#scrollTo=f2b0c6a1
+
+Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation
+https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning
+
+unslothai/unsloth: Unsloth Studio is a web UI for training and running open models like Qwen3.5, Gemma 4, DeepSeek, gpt-oss locally.
+https://github.com/unslothai/unsloth?tab=readme-ov-file
+
+Gemma 4 - How to Run Locally | Unsloth Documentation
+https://unsloth.ai/docs/models/gemma-4
+
+Gemma4_(E2B)-Vision.ipynb - Colab
+https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)-Vision.ipynb
 
 (1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
 https://x.com/MaziyarPanahi/status/2040776481673281936
@@ -120,5 +141,95 @@ https://github.com/IDEA-Research/DWPose/blob/onnx/mmpose/README.md
 
 mmhuman3d/requirements/runtime.txt at main · open-mmlab/mmhuman3d
 https://github.com/open-mmlab/mmhuman3d/blob/main/requirements/runtime.txt
+
+Fine-Tuning Gemma for Chain-of-Thought - Google Gemini
+https://gemini.google.com/app/a3904a21c5e42934?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
+
+Index:Die araner mundart.djvu – Wikisource
+https://de.wikisource.org/wiki/Index:Die_araner_mundart.djvu
+
+Seite:Die araner mundart.djvu/28 – Wikisource
+https://de.wikisource.org/wiki/Seite:Die_araner_mundart.djvu/28
+
+Common Voice Scripted Speech 25.0 - English | Mozilla Data Collective
+https://datacollective.mozillafoundation.org/datasets/cmndapwry02jnmh07dyo46mot
+
+tar extract files with wildcard - Google Search
+https://www.google.com/search?q=tar+extract+files+with+wildcard&rlz=1C5GCCM_en&oq=tar+extract+files+by&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg2NDU1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+datasets common voice - Google Search
+https://www.google.com/search?q=datasets+common+voice&sca_esv=1a51245140343e35&rlz=1C5GCCM_en&sxsrf=ANbL-n6gU1V277UpvYD7YQ3e5GKm9XOP9g:1775569548518&ei=jArVacWmH_fzwPAPtKi-YA&start=10&sa=N&sstk=Af77f_d0E9odIHsCp1NkQFHRH8NfeuNnV1N7w_IAKLBuuKurK0WlX1zfWoPcnqgbWdwUn7jZ0X9nKyjdN2eRPcNg-jDr1bVX-qx98Q&ved=2ahUKEwjFnNqB8NuTAxX3ORAIHTSUDwwQ8NMDegQIWRAW&biw=1424&bih=714&dpr=2
+
+common-voice/cv-dataset: Metadata and versioning details for the Common Voice dataset
+https://github.com/common-voice/cv-dataset
+
+What happened to the Mozilla Common Voice dataset on Hugging Face? : r/huggingface
+https://www.reddit.com/r/huggingface/comments/1oe154v/what_happened_to_the_mozilla_common_voice_dataset/
+
+transcript/ga-IE/test.tsv · fsicoli/common_voice_15_0 at main
+https://huggingface.co/datasets/fsicoli/common_voice_15_0/blob/main/transcript/ga-IE/test.tsv
+
+current time utc - Google Search
+https://www.google.com/search?q=current+time+utc&rlz=1C5GCCM_en&oq=current+time&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIRCAAQRRg5GEMYyQMYgAQYigUyDAgBEAAYQxiABBiKBTINCAIQABiSAxiABBiKBTINCAMQABiSAxiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMwMzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Plenary Lectures | JSALT2025
+https://jsalt2025.fit.vut.cz/plenary-lectures#3
+
+ChatGPT
+https://chatgpt.com/codex?tab=all
+
+CLI – Codex | OpenAI Developers
+https://developers.openai.com/codex/cli
+
+codex/.vscode/settings.json at main · openai/codex
+https://github.com/openai/codex/blob/main/.vscode/settings.json
+
+Sign into Codex
+http://localhost:1455/success?id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZGQzZjhmLTlhYWQtNDdmZS1iMGU3LWVkYjAwOTc3N2Q2YiIsInR5cCI6IkpXVCJ9.eyJhdF9oYXNoIjoiR2I2UTh6Mmp0X01GXzBNUllwVk9tUSIsImF1ZCI6WyJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIl0sImF1dGhfcHJvdmlkZXIiOiJnb29nbGUiLCJhdXRoX3RpbWUiOjE3NzU1NzE3OTEsImVtYWlsIjoiamFvcmVnYW5AdGNkLmllIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImV4cCI6MTc3NTU3NTM5MiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6ImU3OTEyZWFmLTEyYWQtNDg0MC1iZTQ5LWQ5YmQyM2Q2Njg2NiIsImNoYXRncHRfcGxhbl90eXBlIjoicGx1cyIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2FjdGl2ZV9zdGFydCI6bnVsbCwiY2hhdGdwdF9zdWJzY3JpcHRpb25fYWN0aXZlX3VudGlsIjoiMjAyNi0wNC0xNlQyMToyNDozMSswMDowMCIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2xhc3RfY2hlY2tlZCI6IjIwMjYtMDQtMDdUMTQ6MjM6MTEuMjE0MDU4KzAwOjAwIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1OSUxCaWhzNTRaNU1IZGV3WHNkRnBtc0wiLCJncm91cHMiOltdLCJsb2NhbGhvc3QiOnRydWUsIm9yZ2FuaXphdGlvbnMiOlt7ImlkIjoib3JnLTE0cE9MTGN2QXRRaVdnWXprZ3ljUVdUaiIsImlzX2RlZmF1bHQiOnRydWUsInJvbGUiOiJvd25lciIsInRpdGxlIjoiUGVyc29uYWwifV0sInVzZXJfaWQiOiJ1c2VyLU5JTEJpaHM1NFo1TUhkZXdYc2RGcG1zTCJ9LCJpYXQiOjE3NzU1NzE3OTIsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiOTI4NGYzNGEtOGVkOC00MDZhLWI5MDItNGViMjhjMDY0ZTljIiwibmFtZSI6IkppbSBPJ1JlZ2FuIiwicmF0IjoxNzc1NTcxNzM5LCJzaWQiOiJiYTI4NTkyZi02MTU2LTQxMTktYjYzMS1kZjI2OWUyNTU1ZmQiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzg4NjkzOTQzMTI4MzUwNDUzMiJ9.vm6liK0VEA_N4EoaSQ1HeLinXKcKHte5RgIG80ci2BWHaZyVW-RupC29quaFBfLje2zsnDoBMVCmDJc3VJ9FuL2FuJCtCjIg0Fo84c0O878YGwZbsqzcTaj-gED5cKyABqFp0awUZipLgbaQaxElhhu3BQoh48GpDbH5iO0nqWc1x93DlVc3PV_xdQaW2XO6Q3qXp0A4v_l0yNL4kVpB-WQpgxnk7zhr4eSGGe1rI3Q9bHVv6CqR141QlgIY49SQEqvlI-AdHRx45wwxY5KWobj8opMX-hIKVFbRkHzPbxzOn8_k-S8xscv8uMcd25c3w1yMHjSsSnmSUPfVliVyTXrfGBlW_r6UnmSf_RwT0cK7jJzmCIvsuk2fGChrQPEf-oZ8D7pBmVJfZrtBIML3NDaq8KnckbEgNfd7ri1BzQp-vDZtdpQCzJ3otz2QuwXSrHkGB5Is2oGJxlrvrey-bWIElQkbB99H4QhlK8uemP8S5qClkilnzeRaPffFWK-c73XhKfJxLVx5zYO6qxCQMi-dGnbDlnkYM5zcrBXdG9ADSONmLG6Qt3JRnYzGUnPHFOEY12vJR9PP9DdV2YsgqO04KYz_2oq1K0lnggY1mk4WC5y88oxnHsIIuME6DBsOFfdoe-lc_uRinHGPeI8NUHx-7Z5vvoXR9iM2_urJ80A&needs_setup=false&org_id=&project_id=&plan_type=plus&platform_url=https%3A%2F%2Fplatform.openai.com
+
+ChatGPT
+https://chatgpt.com/
+
+Test conversation
+https://chatgpt.com/c/69d514a7-e6b8-8325-805d-3146b947988b
+
+ChatGPT | Slack Marketplace
+https://tmh-kth.slack.com/marketplace/A097V82EGG2-chatgpt
+
+YouTube
+https://www.youtube.com/
+
+Irish People Try Swedish Nöt-Crème Chocolate Truffles - YouTube
+https://www.youtube.com/watch?v=XMYUo5C8L4E
+
+They Said I Can't Play His IMPOSSIBLE Bass Riff... so I did it. - YouTube
+https://www.youtube.com/watch?v=kugHh7bUDRQ
+
+Why Is The PAINKILLER Solo So F*cking Good? - YouTube
+https://www.youtube.com/watch?v=J_k7h4qp7Ls
+
+Scorpions - Sails of Charon (Uli John Roth intro solo) - YouTube
+https://www.youtube.com/shorts/6p2JRd9vBgM
+
+Gemma Hayes - Hanging Around - YouTube
+https://www.youtube.com/watch?v=IktgyKAcCBI&list=OLAK5uy_l_X7z9xP6DmA4_oMXTsn9iI8zSY7TEixM&index=1
+
+Gemma Hayes - Back Of My Hand - YouTube
+https://www.youtube.com/watch?v=mMh-Y2IWJZc&list=RDvJY44NMEHIg&index=3
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+YouTube
+https://www.youtube.com/
+
+YouTube
+https://www.youtube.com/watch?v=7RHYE2J2pfs
+
+The Groove That Starts Before It Starts - YouTube
+https://www.youtube.com/watch?v=kIK7B7btnDQ
+
+What Are Zara Larsson's Recs For a Swedish Road Trip? - YouTube
+https://www.youtube.com/shorts/w62WPCW3FvM
 
 
