@@ -154,3 +154,12 @@ categories: [links]
 [dataset](https://huggingface.co/datasets/tiiuae/PBench) --- no licence,
 [code](https://github.com/tiiuae/falcon-perception) --- Apache 2.0
 
+[Object detection for cross-linguistic vowel analysis: A novel language-agnostic method for forensic speech processing](https://www.sciencedirect.com/science/article/pii/S0167639326000166),
+[dataset + model](https://universe.roboflow.com/inderpreet-singh-soham-gangopadhyay/vowel-detection)
+
+[Marxim Söröző](https://welovebudapest.com/en/venue/marxim-sorozo-1/)
+
+[tiiuae/falcon-perception](https://github.com/tiiuae/falcon-perception)
+
+[OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
+
