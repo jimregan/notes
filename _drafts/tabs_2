@@ -46,8 +46,8 @@ https://modelscope.ai/models/OpenBMB/VoxCPM2
 (1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
 https://x.com/MaziyarPanahi/status/2040776481673281936
 
-tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
-https://github.com/tiiuae/falcon-perception
+Falcon-OCR.ipynb - Colab
+https://colab.research.google.com/drive/1HYOcYWqmeUT9j2h6_dNM2lX1mlI34Bfa
 
 (1) Charly Wargnier on X: "🚨 The new era of Open-Source TTS is here. @OpenBMB's VoxCPM 2 just dropped and it changes the game for voice synthesis. We are moving past fixed speaker presets to true "Concept-to-Voice" generation. Just describe the voice you want in text, and the 2B model builds it. How https://t.co/wetVFDVTyc" / X
 https://x.com/DataChaz/status/2041289800695873546
@@ -58,11 +58,11 @@ https://x.com/Sumanth_077/status/2041157100840051111
 (1) Paul Couvert on X: "You can now fine-tune Gemma 4 (and 500 other open source models) in a free Google Colab 🔥 1. Open the Colab notebook below 2. Run the blocks to launch Unsloth Studio 3. Choose a model and dataset 4. Hit 'Start Training' And you're done! https://t.co/jfmdJ1KjQz" / X
 https://x.com/itsPaulAi/status/2041217694767415320
 
-Unsloth_Studio_Colab.ipynb - Colab
-https://colab.research.google.com/github/unslothai/unsloth/blob/main/studio/Unsloth_Studio_Colab.ipynb#scrollTo=f2b0c6a1
-
 Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation
-https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning
+https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning#preparing-your-dataset
+
+MrDragonFox/Elise · Datasets at Hugging Face
+https://huggingface.co/datasets/MrDragonFox/Elise
 
 unslothai/unsloth: Unsloth Studio is a web UI for training and running open models like Qwen3.5, Gemma 4, DeepSeek, gpt-oss locally.
 https://github.com/unslothai/unsloth?tab=readme-ov-file
@@ -201,8 +201,5 @@ https://www.youtube.com/watch?v=7RHYE2J2pfs
 
 Montreal-Forced-Aligner/montreal_forced_aligner/language_modeling/multiprocessing.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/montreal_forced_aligner/language_modeling/multiprocessing.py
-
-Marxim Söröző - English - We love Budapest
-https://welovebudapest.com/en/venue/marxim-sorozo-1/
 
 
