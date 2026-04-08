@@ -52,11 +52,14 @@ https://colab.research.google.com/drive/1HYOcYWqmeUT9j2h6_dNM2lX1mlI34Bfa
 (1) Charly Wargnier on X: "🚨 The new era of Open-Source TTS is here. @OpenBMB's VoxCPM 2 just dropped and it changes the game for voice synthesis. We are moving past fixed speaker presets to true "Concept-to-Voice" generation. Just describe the voice you want in text, and the 2B model builds it. How https://t.co/wetVFDVTyc" / X
 https://x.com/DataChaz/status/2041289800695873546
 
-(1) Sumanth on X: "Microsoft just fixed a major speech recognition problem! They open sourced VibeVoice-ASR, a speech-to-text model that processes 60 minutes of audio in a single pass. Here's the problem with most ASR models. They slice audio into short chunks, usually 30 seconds or less. Process https://t.co/PCfHaGGoHi" / X
-https://x.com/Sumanth_077/status/2041157100840051111
+OpenBMB/VoxCPM: VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
+https://github.com/OpenBMB/VoxCPM/
 
 (1) Paul Couvert on X: "You can now fine-tune Gemma 4 (and 500 other open source models) in a free Google Colab 🔥 1. Open the Colab notebook below 2. Run the blocks to launch Unsloth Studio 3. Choose a model and dataset 4. Hit 'Start Training' And you're done! https://t.co/jfmdJ1KjQz" / X
 https://x.com/itsPaulAi/status/2041217694767415320
+
+Gemma 4 Fine-tuning Guide | Unsloth Documentation
+https://unsloth.ai/docs/models/gemma-4/train
 
 Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation
 https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning#preparing-your-dataset
@@ -114,6 +117,12 @@ https://github.com/SynaLinks/synalinks-memory-skills/blob/main/synalinks-memory-
 
 Calendar
 https://canvas.kth.se/calendar?include_contexts=course_62544#view_name=month&view_start=2026-04-07
+
+Gradebook - DT2119/FDT3119 VT26 Speech and Speaker Recognition
+https://canvas.kth.se/courses/62544/gradebook?cid=1fa37302-035c-486b-abe7-3e5195361b94
+
+Announcements: DT2119/FDT3119 VT26 Speech and Speaker Recognition
+https://canvas.kth.se/courses/62544/announcements
 
 Course groups: DT2119/FDT3119 VT26 Speech and Speaker Recognition
 https://canvas.kth.se/courses/62544/groups#tab-35858
@@ -193,13 +202,25 @@ https://chatgpt.com/
 Test conversation
 https://chatgpt.com/c/69d514a7-e6b8-8325-805d-3146b947988b
 
-Irish People Try Swedish Nöt-Crème Chocolate Truffles - YouTube
-https://www.youtube.com/watch?v=XMYUo5C8L4E
-
 ARMANDO IANNUCCI - Season 21 Interview | Taskmaster - YouTube
 https://www.youtube.com/watch?v=7RHYE2J2pfs
 
 Montreal-Forced-Aligner/montreal_forced_aligner/language_modeling/multiprocessing.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/montreal_forced_aligner/language_modeling/multiprocessing.py
+
+Fine-Tuning Gemma for Chain-of-Thought - Google Gemini
+https://gemini.google.com/app/a3904a21c5e42934?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
+
+Liftering Origin Explained
+https://chatgpt.com/c/69d60e22-d640-8397-80b0-2f4088820363
+
+he Quefrency Analysis of Time Series for Echoes: Cepstrum, Pseudo-Autocovariance, Cross-Cepstrum, and Saphe-Cracking - Google Search
+https://www.google.com/search?q=he+Quefrency+Analysis+of+Time+Series+for+Echoes%3A+Cepstrum%2C+Pseudo-Autocovariance%2C+Cross-Cepstrum%2C+and+Saphe-Cracking&rlz=1C5GCCM_en&oq=he+Quefrency+Analysis+of+Time+Series+for+Echoes%3A+Cepstrum%2C+Pseudo-Autocovariance%2C+Cross-Cepstrum%2C+and+Saphe-Cracking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzQ4MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Bogert, B.P., Healy, M.J. and Tukey, J.W. (1963) The Quefrency Analysis of Time Series for Echoes Cepstrum, Pseudo-Autocovariance, Cross-Cepstrum and Saphe Cracking. Proceedings of the Symposium on Time Series Analysis, Vol. 15, 209-243. - References - Scientific Research Publishing
+https://www.scirp.org/reference/referencespapers?referenceid=2691821
+
+How to Generate Text in One Step
+https://one-step-lm.github.io/blog/
 
 
