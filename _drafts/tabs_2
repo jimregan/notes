@@ -16,259 +16,436 @@ https://drive.google.com/file/d/1YUD1RnGVbzI38iaTSul_WgdU1Qi33Jcv/view
 The Fish Doorbell — The Fish Doorbell
 https://visdeurbel.nl/en/
 
-openclaw/openclaw: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞
-https://github.com/openclaw/openclaw
+Next notes by jimregan · Pull Request #348 · jimregan/notes
+https://github.com/jimregan/notes/pull/348
 
-OpenClaw — Personal AI Assistant
-https://openclaw.ai/
-
-Showcase — What People Are Building with OpenClaw
-https://openclaw.ai/showcase
-
-(1) Christine Yip on X: "@jcochranio @openclaw I connected mine to an external memory layer - check out the shared-memory skill in clawdhub. Clawdbot helps me build my second brain and selectively shares context and state with my partner's clawdbot. https://t.co/5nFWBF6o6T" / X
-https://x.com/christinetyip/status/2013196232181637500
-
-(1) Home / X
-https://x.com/home
-
-(1) Guan-Ting (Daniel) Lin on X: "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗙𝘂𝗹𝗹-𝗗𝘂𝗽𝗹𝗲𝘅-𝗕𝗲𝗻𝗰𝗵-𝘃𝟯 🚀 Voice agents aren't just chatbots—they need to ACT by using tools 🔨. To feel natural, they must handle your "ums", mid-sentence corrections, and call APIs with low latency. 🧵👇 https://t.co/32ovJsCJPu" / X
-https://x.com/GTL094144/status/2041065414659285444
-
-Google AI Edge  |  Google AI for Developers
-https://ai.google.dev/edge
-
-(1) ModelScope on X: "VoxCPM2 is now open source — tokenizer-free diffusion TTS, 2B params, 30 languages. 🚀 🌍 30 languages + 9 Chinese dialects — no language tag 🎨 Voice Design: text description → voice generation. No reference audio. 🎙️ 3 cloning modes: basic / controllable (style steering) / https://t.co/H0CaPV8lFN" / X
-https://x.com/ModelScope2022/status/2041343097498374564
-
-VoxCPM2 · Models
-https://modelscope.ai/models/OpenBMB/VoxCPM2
-
-(1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
-https://x.com/MaziyarPanahi/status/2040776481673281936
-
-Falcon-OCR.ipynb - Colab
-https://colab.research.google.com/drive/1HYOcYWqmeUT9j2h6_dNM2lX1mlI34Bfa
-
-(1) Charly Wargnier on X: "🚨 The new era of Open-Source TTS is here. @OpenBMB's VoxCPM 2 just dropped and it changes the game for voice synthesis. We are moving past fixed speaker presets to true "Concept-to-Voice" generation. Just describe the voice you want in text, and the 2B model builds it. How https://t.co/wetVFDVTyc" / X
-https://x.com/DataChaz/status/2041289800695873546
-
-OpenBMB/VoxCPM: VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
-https://github.com/OpenBMB/VoxCPM/
-
-(1) Paul Couvert on X: "You can now fine-tune Gemma 4 (and 500 other open source models) in a free Google Colab 🔥 1. Open the Colab notebook below 2. Run the blocks to launch Unsloth Studio 3. Choose a model and dataset 4. Hit 'Start Training' And you're done! https://t.co/jfmdJ1KjQz" / X
-https://x.com/itsPaulAi/status/2041217694767415320
-
-Gemma 4 Fine-tuning Guide | Unsloth Documentation
-https://unsloth.ai/docs/models/gemma-4/train
-
-Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation
-https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning#preparing-your-dataset
-
-MrDragonFox/Elise · Datasets at Hugging Face
-https://huggingface.co/datasets/MrDragonFox/Elise
-
-unslothai/unsloth: Unsloth Studio is a web UI for training and running open models like Qwen3.5, Gemma 4, DeepSeek, gpt-oss locally.
-https://github.com/unslothai/unsloth?tab=readme-ov-file
-
-Gemma 4 - How to Run Locally | Unsloth Documentation
-https://unsloth.ai/docs/models/gemma-4
-
-Gemma4_(E2B)-Vision.ipynb - Colab
-https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)-Vision.ipynb
-
-(1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
-https://x.com/MaziyarPanahi/status/2040776481673281936
-
-tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
-https://github.com/tiiuae/falcon-perception
-
-Integrations — OpenClaw
-https://openclaw.ai/integrations
-
-Models CLI - OpenClaw
-https://docs.openclaw.ai/concepts/models
-
-OpenRouter
-https://openrouter.ai/
-
-Arthur-Ficial/apfel: Apple Intelligence from the command line. On-device LLM via FoundationModels framework. No API keys, no cloud, no dependencies.
-https://github.com/Arthur-Ficial/apfel
-
-openclaw/clawhub: Skill Directory for OpenClaw
-https://github.com/openclaw/clawhub?tab=readme-ov-file
-
-onlycrabs.ai
-https://onlycrabs.ai/
-
-ClawHub
-https://clawhub.ai/skills?sort=downloads&nonSuspicious=true
-
-Obsidian — ClawHub
-https://clawhub.ai/steipete/obsidian
-
-Video Transcript Downloader — ClawHub
-https://clawhub.ai/steipete/video-transcript-downloader
-
-jimregan/merged-tts-dialect-classification at main
-https://huggingface.co/jimregan/merged-tts-dialect-classification/tree/main
-
-synalinks-memory-skills/synalinks-memory-cli/SKILL.md at main · SynaLinks/synalinks-memory-skills
-https://github.com/SynaLinks/synalinks-memory-skills/blob/main/synalinks-memory-cli/SKILL.md
-
-Course groups: DT2119/FDT3119 VT26 Speech and Speaker Recognition
-https://canvas.kth.se/courses/62544/groups#tab-35858
-
-sam2/training/README.md at main · facebookresearch/sam2
-https://github.com/facebookresearch/sam2/blob/main/training/README.md
-
-DWPose/INSTALL.md at onnx · IDEA-Research/DWPose
-https://github.com/IDEA-Research/DWPose?tab=readme-ov-file
-
-lllyasviel/ControlNet-v1-1-nightly: Nightly release of ControlNet 1.1
-https://github.com/lllyasviel/ControlNet-v1-1-nightly?tab=readme-ov-file
-
-Mikubill/sd-webui-controlnet: WebUI extension for ControlNet
-https://github.com/Mikubill/sd-webui-controlnet?tab=readme-ov-file
-
-lllyasviel/ControlNet: Let us control diffusion models!
-https://github.com/lllyasviel/ControlNet?tab=readme-ov-file
-
-lllyasviel/ControlNet · Hugging Face
-https://huggingface.co/lllyasviel/ControlNet
-
-DWPose/mmpose/README.md at onnx · IDEA-Research/DWPose
-https://github.com/IDEA-Research/DWPose/blob/onnx/mmpose/README.md
-
-mmhuman3d/requirements/runtime.txt at main · open-mmlab/mmhuman3d
-https://github.com/open-mmlab/mmhuman3d/blob/main/requirements/runtime.txt
-
-Fine-Tuning Gemma for Chain-of-Thought - Google Gemini
-https://gemini.google.com/app/a3904a21c5e42934?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
-
-Index:Die araner mundart.djvu – Wikisource
-https://de.wikisource.org/wiki/Index:Die_araner_mundart.djvu
-
-Seite:Die araner mundart.djvu/28 – Wikisource
-https://de.wikisource.org/wiki/Seite:Die_araner_mundart.djvu/28
-
-Common Voice Scripted Speech 25.0 - English | Mozilla Data Collective
-https://datacollective.mozillafoundation.org/datasets/cmndapwry02jnmh07dyo46mot
-
-tar extract files with wildcard - Google Search
-https://www.google.com/search?q=tar+extract+files+with+wildcard&rlz=1C5GCCM_en&oq=tar+extract+files+by&gs_lcrp=EgZjaHJvbWUqCAgBEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg2NDU1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-datasets common voice - Google Search
-https://www.google.com/search?q=datasets+common+voice&sca_esv=1a51245140343e35&rlz=1C5GCCM_en&sxsrf=ANbL-n6gU1V277UpvYD7YQ3e5GKm9XOP9g:1775569548518&ei=jArVacWmH_fzwPAPtKi-YA&start=10&sa=N&sstk=Af77f_d0E9odIHsCp1NkQFHRH8NfeuNnV1N7w_IAKLBuuKurK0WlX1zfWoPcnqgbWdwUn7jZ0X9nKyjdN2eRPcNg-jDr1bVX-qx98Q&ved=2ahUKEwjFnNqB8NuTAxX3ORAIHTSUDwwQ8NMDegQIWRAW&biw=1424&bih=714&dpr=2
+common voice - Google Search
+https://www.google.com/search?q=common+voice&sca_esv=458b599867fd176c&rlz=1C5GCCM_en&sxsrf=ANbL-n4mapDqof5INscaodEHLcNULzYM6g:1774199343404&ei=LyLAaZuyGKuuwPAPgqqLmQU&start=20&sa=N&sstk=Af77f_cP-PxZXDzZ_NJXIIhbilPA5ZHzI_ogx495ICi09q6i09eEDbb7kIoX9WbsT0wHxDdOggSSaji3hTisHfiCKJczJH1dREfxPaB7PmIQgAamZDPreZXSusnruLDcqoKq&ved=2ahUKEwjbhf_M_7OTAxUrFxAIHQLVIlM4ChDw0wN6BAgxEBc&biw=1425&bih=714&dpr=2
 
 common-voice/cv-dataset: Metadata and versioning details for the Common Voice dataset
 https://github.com/common-voice/cv-dataset
 
-What happened to the Mozilla Common Voice dataset on Hugging Face? : r/huggingface
-https://www.reddit.com/r/huggingface/comments/1oe154v/what_happened_to_the_mozilla_common_voice_dataset/
+ntfy
+https://docs.ntfy.sh/
 
-transcript/ga-IE/test.tsv · fsicoli/common_voice_15_0 at main
-https://huggingface.co/datasets/fsicoli/common_voice_15_0/blob/main/transcript/ga-IE/test.tsv
+From your phone - ntfy
+https://docs.ntfy.sh/subscribe/phone/
 
-current time utc - Google Search
-https://www.google.com/search?q=current+time+utc&rlz=1C5GCCM_en&oq=current+time&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIRCAAQRRg5GEMYyQMYgAQYigUyDAgBEAAYQxiABBiKBTINCAIQABiSAxiABBiKBTINCAMQABiSAxiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMwMzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+binwiederhier/ntfy-android: Android app for ntfy.sh
+https://github.com/binwiederhier/ntfy-android?tab=readme-ov-file
 
-Plenary Lectures | JSALT2025
-https://jsalt2025.fit.vut.cz/plenary-lectures#3
+ntfy/Dockerfile-build at main · binwiederhier/ntfy
+https://github.com/binwiederhier/ntfy/blob/main/Dockerfile-build
 
-Fix issues in codebase
-https://chatgpt.com/codex/tasks/task_e_69d55172d03c8331b19981c09b7d67d9
+Multi-Axis Speech Similarity - a Hugging Face Space by jimregan
+https://huggingface.co/spaces/jimregan/sst-demo?docker=true
 
-CLI – Codex | OpenAI Developers
-https://developers.openai.com/codex/cli
+Multi-Axis Speech Similarity - a Hugging Face Space by jimregan
+https://huggingface.co/spaces/jimregan/sst-demo?logs=build
 
-codex/.vscode/settings.json at main · openai/codex
-https://github.com/openai/codex/blob/main/.vscode/settings.json
+jimregan/sst-demo at main
+https://huggingface.co/spaces/jimregan/sst-demo/tree/main
 
-Sign into Codex
-http://localhost:1455/success?id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZGQzZjhmLTlhYWQtNDdmZS1iMGU3LWVkYjAwOTc3N2Q2YiIsInR5cCI6IkpXVCJ9.eyJhdF9oYXNoIjoiR2I2UTh6Mmp0X01GXzBNUllwVk9tUSIsImF1ZCI6WyJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIl0sImF1dGhfcHJvdmlkZXIiOiJnb29nbGUiLCJhdXRoX3RpbWUiOjE3NzU1NzE3OTEsImVtYWlsIjoiamFvcmVnYW5AdGNkLmllIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImV4cCI6MTc3NTU3NTM5MiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6ImU3OTEyZWFmLTEyYWQtNDg0MC1iZTQ5LWQ5YmQyM2Q2Njg2NiIsImNoYXRncHRfcGxhbl90eXBlIjoicGx1cyIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2FjdGl2ZV9zdGFydCI6bnVsbCwiY2hhdGdwdF9zdWJzY3JpcHRpb25fYWN0aXZlX3VudGlsIjoiMjAyNi0wNC0xNlQyMToyNDozMSswMDowMCIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2xhc3RfY2hlY2tlZCI6IjIwMjYtMDQtMDdUMTQ6MjM6MTEuMjE0MDU4KzAwOjAwIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1OSUxCaWhzNTRaNU1IZGV3WHNkRnBtc0wiLCJncm91cHMiOltdLCJsb2NhbGhvc3QiOnRydWUsIm9yZ2FuaXphdGlvbnMiOlt7ImlkIjoib3JnLTE0cE9MTGN2QXRRaVdnWXprZ3ljUVdUaiIsImlzX2RlZmF1bHQiOnRydWUsInJvbGUiOiJvd25lciIsInRpdGxlIjoiUGVyc29uYWwifV0sInVzZXJfaWQiOiJ1c2VyLU5JTEJpaHM1NFo1TUhkZXdYc2RGcG1zTCJ9LCJpYXQiOjE3NzU1NzE3OTIsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiOTI4NGYzNGEtOGVkOC00MDZhLWI5MDItNGViMjhjMDY0ZTljIiwibmFtZSI6IkppbSBPJ1JlZ2FuIiwicmF0IjoxNzc1NTcxNzM5LCJzaWQiOiJiYTI4NTkyZi02MTU2LTQxMTktYjYzMS1kZjI2OWUyNTU1ZmQiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzg4NjkzOTQzMTI4MzUwNDUzMiJ9.vm6liK0VEA_N4EoaSQ1HeLinXKcKHte5RgIG80ci2BWHaZyVW-RupC29quaFBfLje2zsnDoBMVCmDJc3VJ9FuL2FuJCtCjIg0Fo84c0O878YGwZbsqzcTaj-gED5cKyABqFp0awUZipLgbaQaxElhhu3BQoh48GpDbH5iO0nqWc1x93DlVc3PV_xdQaW2XO6Q3qXp0A4v_l0yNL4kVpB-WQpgxnk7zhr4eSGGe1rI3Q9bHVv6CqR141QlgIY49SQEqvlI-AdHRx45wwxY5KWobj8opMX-hIKVFbRkHzPbxzOn8_k-S8xscv8uMcd25c3w1yMHjSsSnmSUPfVliVyTXrfGBlW_r6UnmSf_RwT0cK7jJzmCIvsuk2fGChrQPEf-oZ8D7pBmVJfZrtBIML3NDaq8KnckbEgNfd7ri1BzQp-vDZtdpQCzJ3otz2QuwXSrHkGB5Is2oGJxlrvrey-bWIElQkbB99H4QhlK8uemP8S5qClkilnzeRaPffFWK-c73XhKfJxLVx5zYO6qxCQMi-dGnbDlnkYM5zcrBXdG9ADSONmLG6Qt3JRnYzGUnPHFOEY12vJR9PP9DdV2YsgqO04KYz_2oq1K0lnggY1mk4WC5y88oxnHsIIuME6DBsOFfdoe-lc_uRinHGPeI8NUHx-7Z5vvoXR9iM2_urJ80A&needs_setup=false&org_id=&project_id=&plan_type=plus&platform_url=https%3A%2F%2Fplatform.openai.com
+Unable to launch in Windows 11 · Issue #362 · ace-step/ACE-Step
+https://github.com/ace-step/ACE-Step/issues/362
 
-ChatGPT
-https://chatgpt.com/
+julien-c/hotdog-not-hotdog · Hugging Face
+https://huggingface.co/julien-c/hotdog-not-hotdog
 
-YouTube
-https://www.youtube.com/
+README.md · nvidia/Kimodo at main
+https://huggingface.co/spaces/nvidia/Kimodo/blob/main/README.md
 
-Why Is This The Most METAL Scale? - YouTube
-https://www.youtube.com/watch?v=mQbg70trTIU
+spoken-sentence-transformers-odyssey - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/69b31c8071451d30234130ce
 
-Self Defense Expert Answers Self Defense Questions | WIRED - YouTube
-https://www.youtube.com/watch?v=BsE1RyxuLFo
+MiniMaxAI (MiniMax)
+https://huggingface.co/MiniMaxAI
 
-Montreal-Forced-Aligner/montreal_forced_aligner/language_modeling/multiprocessing.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
-https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/montreal_forced_aligner/language_modeling/multiprocessing.py
+The Maltese Falcon (1930)/Chapter 1 - Wikisource, the free online library
+https://en.wikisource.org/wiki/The_Maltese_Falcon_(1930)/Chapter_1
+
+The Good Soldier: Schweik/Book 1/Chapter 1 - Wikisource, the free online library
+https://en.wikisource.org/wiki/The_Good_Soldier:_Schweik/Book_1/Chapter_1
+
+TSD 2026
+https://www.tsdconference.org/tsd2026/paper_instr.html
+
+xuanjihe/speech-emotion-recognition: speech emotion recognition using a convolutional recurrent networks based on IEMOCAP
+https://github.com/xuanjihe/speech-emotion-recognition
+
+auspicious3000/SpeechSplit: Unsupervised Speech Decomposition Via Triple Information Bottleneck
+https://github.com/auspicious3000/SpeechSplit?tab=readme-ov-file
+
+Unsupervised Speech Decomposition via Triple Information Bottleneck
+https://arxiv.org/pdf/2004.11284
+
+auspicious3000/contentvec: speech self-supervised representations
+https://github.com/auspicious3000/contentvec
+
+Information for Authors-SPL | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters/information-authors-spl
+
+IEEE Signal Processing Letters | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters?page=0
+
+Librivox Multilingual Short Works Collection 001 | LibriVox
+https://librivox.org/librivox-multilingual-short-works-collection-001-by-various/
+
+Wigilja Bożego Narodzenia | LibriVox
+https://librivox.org/wigilja-bozego-narodzenia-by-charles-dickens-2/
+
+Wigilja Bożego Narodzenia (Dickens, 1909) - Wikiźródła, wolna biblioteka
+https://pl.wikisource.org/wiki/Wigilja_Bo%C5%BCego_Narodzenia_(Dickens,_1909)
+
+Wigilja Bożego Narodzenia (Dickens, 1909)/1. W kantorze - Wikiźródła, wolna biblioteka
+https://pl.wikisource.org/wiki/Wigilja_Bo%C5%BCego_Narodzenia_(Dickens,_1909)/1._W_kantorze#cite_ref-9
+
+Ebenezer Scrooge – Wikipedia, wolna encyklopedia
+https://pl.wikipedia.org/wiki/Ebenezer_Scrooge
+
+WolneLektury.pl
+https://wolnelektury.pl/katalog/lektura/dickens-opowiesc-wigilijna/
+
+WolneLektury.pl
+https://wolnelektury.pl/katalog/lektura/dickens-opowiesc-wigilijna.html
+
+auspicious3000/AutoPST: Global Rhythm Style Transfer Without Text Transcriptions
+https://github.com/auspicious3000/AutoPST?tab=readme-ov-file
+
+KTH/speechdat at main
+https://huggingface.co/datasets/KTH/speechdat/tree/main
+
+lsp-sst - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/69c5228d0dfde90eac104650
+
+geibheann - Google Search
+https://www.google.com/search?sca_esv=ea79f29eab3dedca&rlz=1C5GCCM_en&udm=7&sxsrf=ANbL-n5TEotel5tb0zZU2ZyVbCNDFQ_Isg:1774533481482&q=geibheann&sa=X&ved=2ahUKEwih77iu3L2TAxWwCBAIHbldPIQQ8ccDKAJ6BAhNEAQ&biw=1424&bih=714&dpr=2#ip=1
+
+3. Géibheann - Reading of the Poem: Leaving Cert Irish Poetry - YouTube
+https://www.youtube.com/watch?v=kyUHl9hcsYo
+
+Géibheann - YouTube
+https://www.youtube.com/watch?v=N2vG7nDRyDg
+
+vifax - Google Search
+https://www.google.com/search?q=vifax&rlz=1C5GCCM_en&oq=vifax&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQABgKGAsYgAQyBwgCEAAYgAQyCQgDEAAYChiABDILCAQQABgKGAsYgAQyBwgFEAAYgAQyCwgGEAAYChgLGIAEMg8IBxAuGAoYxwEY0QMYgAQyCwgIEAAYChgLGIAEMgsICRAAGAoYCxiABNIBCDEwNDZqMGo5qAIGsAIB8QXcPwnkeF4H9w&sourceid=chrome&ie=UTF-8
+
+Your projects - Overleaf, Online LaTeX Editor
+https://www.overleaf.com/project
+
+INTERSPEECH 2023 Paper Kit - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/63f3926043b07cc3ab8f73a0
+
+active-learning-asr - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/63f483090d05594f355b1df7
+
+diss-paper - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/6437e13e7b453771bf696a94
+
+Interspeech Paper Kit - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/65e23a46ae82cda8147ebde7
+
+README.md · nvidia/hifitts-2 at main
+https://huggingface.co/datasets/nvidia/hifitts-2/blob/main/README.md
+
+Granary large-scale speech processing pipeline (#155) · NVIDIA/NeMo-speech-data-processor@1ac730d
+https://github.com/NVIDIA/NeMo-speech-data-processor/commit/1ac730db3d9c6d1082294e4d31a4db1c441fe5cc#diff-2b5950465e6e193920c6be88c4031a04760578d882bef0a08964c2c79f5a9b89
+
+Supported datasets — NVIDIA NeMo SDP
+https://nvidia.github.io/NeMo-speech-data-processor/sdp/existing_configs.html
+
+Pull requests · NVIDIA/NeMo-speech-data-processor
+https://github.com/NVIDIA/NeMo-speech-data-processor/pulls
+
+Granary Dataset Processing (Component-Based) by ssh-meister · Pull Request #135 · NVIDIA/NeMo-speech-data-processor
+https://github.com/NVIDIA/NeMo-speech-data-processor/pull/135/changes
+
+Updates by jimregan · Pull Request #47 · jimregan/wolnelektury-speech-corpus
+https://github.com/jimregan/wolnelektury-speech-corpus/pull/47
+
+Corpas
+http://corpas.ria.ie/index.php?fsg_function=5&fsg_id=4088
+
+ChatGPT - Current things, 14 June 2025
+https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/69d147c5-dff4-8397-9d0c-a5ec25a6ae5e
+
+Generate raw word embeddings using transformer models like BERT for downstream process - Beginners - Hugging Face Forums
+https://discuss.huggingface.co/t/generate-raw-word-embeddings-using-transformer-models-like-bert-for-downstream-process/2958
+
+OmniVoice - a Hugging Face Space by k2-fsa
+https://huggingface.co/spaces/k2-fsa/OmniVoice
+
+OmniVoice/README.md at master · k2-fsa/OmniVoice
+https://github.com/k2-fsa/OmniVoice/blob/master/README.md
+
+k2-fsa/OmniVoice · Hugging Face
+https://huggingface.co/k2-fsa/OmniVoice
+
+plexusone/omnivoice-core: Voice abstraction layer supporting TTS, STT, and Voice Agents across multiple providers and transport protocols.
+https://github.com/plexusone/omnivoice-core
+
+(2) Home / X
+https://x.com/home
+
+(2) Yasser Dahou on X: "We are releasing Falcon Perception, an open-vocabulary referring expression segmentation model. Along with it, a 0.3B OCR model that is on par with 3-10x larger competitors. Current systems solve this with complex pipelines (separate encoders, late fusion, matching algorithms). https://t.co/1RZuPtuZAE" / X
+https://x.com/dahou_yasser/status/2039242378809385331
+
+tiiuae/PBench · Datasets at Hugging Face
+https://huggingface.co/datasets/tiiuae/PBench
+
+tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
+https://github.com/tiiuae/falcon-perception
+
+(2) Avi Chawla on X: "Another blow to Anthropic! Devs built a free and better Claude alternative that: - runs locally - works with any LLM - beats it on deep research - has Cowork-like capabilities - connects to 40+ data sources - self-hosts via Docker, and more. 100% open-source (20k+ stars). https://t.co/pC0Q9yx7tU" / X
+https://x.com/_avichawla/status/2039598698548850949
+
+onyx/AGENTS.md at main · onyx-dot-app/onyx
+https://github.com/onyx-dot-app/onyx/blob/main/AGENTS.md
+
+Quickstart - Onyx Documentation
+https://docs.onyx.app/deployment/getting_started/quickstart
+
+raw.githubusercontent.com/onyx-dot-app/onyx/main/deployment/docker_compose/install.sh
+https://raw.githubusercontent.com/onyx-dot-app/onyx/main/deployment/docker_compose/install.sh
+
+Onyx AI | Open Source Enterprise Search & AI Assistant
+https://onyx.app/
+
+Qwen3.5-9B - Google Search
+https://www.google.com/search?q=Qwen3.5-9B&rlz=1C5GCCM_en&oq=Qwen3.5-9B&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBBzYxMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+qwen3.5:9b
+https://ollama.com/library/qwen3.5:9b
+
+Jackrong/Qwopus3.5-9B-v3-GGUF · Hugging Face
+https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF
+
+Qwen3.5-9B is actually quite good for agentic coding : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/
+
+Local agent system setup - Claude
+https://claude.ai/chat/ed079acd-e955-4e06-aa0e-f718bcc3d7ff
+
+A Dialect of Donegal/Texts/Leadairt na bhfear mór - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C3%B3r
+
+caighdean/spurious.txt at master · kscanne/caighdean
+https://github.com/kscanne/caighdean/blob/master/spurious.txt
+
+Docker cleanup and maintenance - Claude
+https://claude.ai/chat/b411e806-c3b8-41e7-805d-fc6cb52479c6
+
+add audit and workflow scripts for quiggin JSON data by jimregan · Pull Request #33 · jimregan/irish-attested-pronunciations
+https://github.com/jimregan/irish-attested-pronunciations/pull/33/changes#diff-1c3c71361b978f5f70df673f9b395421d203b964786fc1cade0f39522c73927c
+
+ollama/Dockerfile at main · ollama/ollama
+https://github.com/ollama/ollama/blob/main/Dockerfile
+
+raw.githubusercontent.com/jimregan/irish-attested-pronunciations/78da02f260cdbb245e7e40d8dc20c4d7b1b77d20/finck/raw/section14.json?token=GHSAT0AAAAAACVAVRR2JXELZP4KPZXIP5RI2ORDTRA
+https://raw.githubusercontent.com/jimregan/irish-attested-pronunciations/78da02f260cdbb245e7e40d8dc20c4d7b1b77d20/finck/raw/section14.json?token=GHSAT0AAAAAACVAVRR2JXELZP4KPZXIP5RI2ORDTRA
+
+Instagram
+https://www.instagram.com/reels/DW7-jk1jHlA/
+
+Index:Die araner mundart.djvu – Wikisource
+https://de.wikisource.org/wiki/Index:Die_araner_mundart.djvu
+
+Seite:Die araner mundart.djvu/26 – Wikisource
+https://de.wikisource.org/wiki/Seite:Die_araner_mundart.djvu/26
+
+Bearbeiten von „Seite:Die araner mundart.djvu/26“ – Wikisource
+https://de.wikisource.org/w/index.php?title=Seite:Die_araner_mundart.djvu/26&action=edit
+
+New tab
+chrome://newtab/
+
+Claude
+https://claude.ai/new
 
 Fine-Tuning Gemma for Chain-of-Thought - Google Gemini
 https://gemini.google.com/app/a3904a21c5e42934?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
 
-Liftering Origin Explained
-https://chatgpt.com/c/69d60e22-d640-8397-80b0-2f4088820363
+Datasets
+https://datacollective.mozillafoundation.org/datasets?q=swedish&page=3
 
-How to Generate Text in One Step
-https://one-step-lm.github.io/blog/
+Common Voice Scripted Speech 25.0 - Swedish | Mozilla Data Collective
+https://datacollective.mozillafoundation.org/datasets/cmn2e8gr301evo1079gujuzqr
+
+Common Voice Scripted Speech 25.0 - Romansh Vallader | Mozilla Data Collective
+https://datacollective.mozillafoundation.org/datasets/cmn29u34u0179o107folbxhma
+
+ASR Inference with CTC Decoder — Torchaudio 0.12.0 documentation
+https://docs.pytorch.org/audio/0.12.0/tutorials/asr_inference_with_ctc_decoder_tutorial.html#sphx-glr-tutorials-asr-inference-with-ctc-decoder-tutorial-py
+
+Import from Apple Notes - Obsidian Help
+https://obsidian.md/help/import/apple-notes
+
+obsidian-importer/src/formats/apple-notes/convert-table.ts at master · obsidianmd/obsidian-importer
+https://github.com/obsidianmd/obsidian-importer/blob/master/src/formats/apple-notes/convert-table.ts
+
+(1) Instagram • Messages
+https://www.instagram.com/direct/t/102204004515465/
+
+TSD 2026
+https://www.tsdconference.org/tsd2026/paper_instr.html
+
+TSD 2026 Paper Review System
+https://www.tsdconference.org/tsd2026/submit.php
+
+cfp2a4.pdf
+https://www.tsdconference.org/tsd2026/cfp/cfp2a4.pdf
+
+TSD spoken sentence transformers - Online LaTeX Editor Overleaf
+https://www.overleaf.com/project/69d2d05105cfc68b0a0ac4fe
+
+Search results - joregan@gmail.com - Gmail
+https://mail.google.com/mail/u/0/#search/corpora-list
+
+accounts.google.com
+https://accounts.google.com/restart?authuser=3&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&dsh=S-1859774156%3A1775808480993221&emr=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F3%2F&ifkv=AT1y2_Xw06aoUpTzrUuZ2WAvEiT2obfPquSkloVv068KKXaR7ClaOJPjYnkyTnKcL2QXdEMYmSQJ&osid=1&service=mail
+
+Secret scanning · jimregan/work-2026
+https://github.com/jimregan/work-2026/security/secret-scanning/1
+
+Secret scanning · jimregan/work-2026
+https://github.com/jimregan/work-2026/security/secret-scanning/2
+
+Object detection for cross-linguistic vowel analysis: A novel language-agnostic method for forensic speech processing - ScienceDirect
+https://www.sciencedirect.com/science/article/pii/S0167639326000166
+
+Relevant paper on vowel analysis
+https://chatgpt.com/c/69d2d3d0-f910-8395-9df0-d5befbfb146e
+
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+gemma4 ollama audio example - Google Search
+https://www.google.com/search?q=gemma4+ollama+audio+example&rlz=1C5GCCM_en&oq=gemma4+ollama+audio+example&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEINjg5OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:67567830,vid:c3hba327nJY,st:0
+
+Deploying Gemma 4 Locally - Google Gemini
+https://gemini.google.com/app/3388a4ae897a099a?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
+
+gemma4:31b
+https://ollama.com/library/gemma4:31b
+
+garvys-org/rustfst: Rust re-implementation of OpenFST - library for constructing, combining, optimizing, and searching weighted finite-state transducers (FSTs). A Python binding is also available.
+https://github.com/garvys-org/rustfst?tab=readme-ov-file
+
+mhulden/pyfoma: Python Finite-State Toolkit
+https://github.com/mhulden/pyfoma?tab=readme-ov-file
+
+fix: correctly handle escaped quotes in multichar matcher (#70) · mhulden/pyfoma@36e0660
+https://github.com/mhulden/pyfoma/commit/36e0660008f091723ff0e1a8fba5ba2d03d79261
+
+PyFoma.js – FST playground
+https://fomafst.github.io/pyfomajs/
+
+pyfoma/src/pyfoma/lexd.py at main · mhulden/pyfoma
+https://github.com/mhulden/pyfoma/blob/main/src/pyfoma/lexd.py
+
+pyfoma/docs/examples/CFG Parsing.ipynb at main · mhulden/pyfoma
+https://github.com/mhulden/pyfoma/blob/main/docs/examples/CFG%20Parsing.ipynb
+
+pyfoma/docs/examples/MorphologicalAnalyzerTutorial.ipynb at main · mhulden/pyfoma
+https://github.com/mhulden/pyfoma/blob/main/docs/examples/MorphologicalAnalyzerTutorial.ipynb
+
+pyfoma/docs/examples/lexd-intro.ipynb at main · mhulden/pyfoma
+https://github.com/mhulden/pyfoma/blob/main/docs/examples/lexd-intro.ipynb
+
+KBLab/rixvox-v2 · Datasets at Hugging Face
+https://huggingface.co/datasets/KBLab/rixvox-v2/viewer/default/train?row=0
 
 Type IPA phonetic symbols - online keyboard (all languages)
 https://ipa.typeit.org/full/
 
-ceannaigh - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/ceannaigh
+Run with Docker · Hugging Face
+https://huggingface.co/docs/hub/spaces-run-with-docker
 
-Irish Pronunciation Database: sroich
-https://www.teanglann.ie/en/fuaim/sroich
+The Project Gutenberg eBook of Æsop's Fables.
+https://www.gutenberg.org/cache/epub/18732/pg18732-images.html
 
-cheannachaidh - Google Search
-https://www.google.com/search?q=cheannachaidh&rlz=1C5GCCM_en&oq=cheannachaidh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMgkIAhAAGA0YgAQyCQgDEAAYDRiABDILCAQQABgKGA0YgAQyCAgFEAAYDRgeMggIBhAAGA0YHjIKCAcQABgFGA0YHjIKCAgQABiABBiiBDIHCAkQABjvBdIBCDI1NDlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+dn710905.ca.archive.org/0/items/aesopsfablesrevisededition_pc_librivox/aesopsfablesnewrevisedversion_00_aesop_64kb.mp3
+https://dn710905.ca.archive.org/0/items/aesopsfablesrevisededition_pc_librivox/aesopsfablesnewrevisedversion_00_aesop_64kb.mp3
 
-sroich - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/sroich
+Amazon.com: Deep Learning Math Workbook: 300 puzzles to build your mathematical foundation for deep learning: 9781806674770: Tom Yeh: Books
+https://www.amazon.com/Deep-Learning-Math-Workbook-mathematical/dp/1806674777?utm_source=substack&utm_medium=email
 
-croith - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/croith
+mcp examples - Google Search
+https://www.google.com/search?q=mcp+examples&rlz=1C5GCCM_en&oq=mcp+exam&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDEzNzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-muintir - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/muintir
+Example Servers - Model Context Protocol
+https://modelcontextprotocol.io/examples
 
-language-resources/af/BUILD.bazel at master · google/language-resources
-https://github.com/google/language-resources/blob/master/af/BUILD.bazel
+servers/src/git at main · modelcontextprotocol/servers
+https://github.com/modelcontextprotocol/servers/tree/main/src/git
 
-Branches · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/branches
+servers/src/time at main · modelcontextprotocol/servers
+https://github.com/modelcontextprotocol/servers/tree/main/src/time
 
-Gweedore alignables for fuaimeanna.ie by jimregan · Pull Request #29 · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/pull/29/changes#diff-f1a5228f424b555f4a5ac4a49879dfbf2e68a357e314dc59406b629c99ae3de3
+servers/src/memory/index.ts at main · modelcontextprotocol/servers
+https://github.com/modelcontextprotocol/servers/blob/main/src/memory/index.ts
 
-pyfestus/examples/gaeilge_chorca_dhuibhne/alignables.txt at main · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/blob/main/examples/gaeilge_chorca_dhuibhne/alignables.txt
+datalayer/jupyter-mcp-server: 🪐 🔧 Model Context Protocol (MCP) Server for Jupyter.
+https://github.com/datalayer/jupyter-mcp-server
 
-scríob - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/scr%C3%ADob
+MCP-0.08 - Connect Perl with AI using MCP (Model Context Protocol) - metacpan.org
+https://metacpan.org/dist/MCP
 
-gaeilge chorca dhuibhne - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TE8qq6hMN08zYPQST09MzcxJT1VIzsgvSk5USMkozUzKyEsFAAxXDco&q=gaeilge+chorca+dhuibhne&rlz=1C5GCCM_en&oq=gaeilge+chor&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyBggAEEUYOTIHCAEQLhiABDINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIKCAYQABiABBiiBDIKCAcQABiABBiiBDIKCAgQABiABBiiBNIBCDM5MDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Local MCP Development with Perl and Gemini CLI | by xbill | Medium
+https://xbill999.medium.com/local-mcp-development-with-perl-and-gemini-cli-6e57172b6816
 
-.bash_history
-https://gist.github.com/jimregan/1cf692a88d7fefa1de7714711f6c813f
+MCP - Model Context Protocol Perl SDK - metacpan.org
+https://metacpan.org/pod/MCP?source=post_page-----6e57172b6816---------------------------------------
 
-(2) Instagram • Messages
-https://www.instagram.com/direct/t/110437113687820/
+mojo-mcp/t/apps/lite_app.pl at main · mojolicious/mojo-mcp
+https://github.com/mojolicious/mojo-mcp/blob/main/t/apps/lite_app.pl
 
-omnipollos kyrka - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LKwsNC1PLrc0YLRSNagwMTNNs0xJNEoyTUpOSzVPszKoMDYwSDZPNDBPTUo0MbYwtfASyM_NyyzIz8nJL1bIrizKTgQADZUWfQ&q=omnipollos+kyrka&rlz=1C5GCCM_en&oq=omnipollo&gs_lcrp=EgZjaHJvbWUqDQgCEC4YrwEYxwEYgAQyCggAEAAY4wIYgAQyDQgBEC4YxwEY0QMYgAQyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgzNjI3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+papermill plugin mcp - Google Search
+https://www.google.com/search?q=papermill+plugin+mcp&sca_esv=82deded41e87c894&rlz=1C5GCCM_en&sxsrf=ANbL-n5MVvsz6ZDl3azzz9i7WuX8AKdwxg%3A1775895341101&ei=LQPaaejvBbrLwPAPp9CmuAs&biw=1424&bih=714&ved=0ahUKEwioutvXreWTAxW6JRAIHSeoCbcQ4dUDCBE&uact=5&oq=papermill+plugin+mcp&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHBhcGVybWlsbCBwbHVnaW4gbWNwMgUQIRigATIEECEYFUjgC1CsA1iqCXABeAGQAQCYAWCgAZMDqgEBNbgBA8gBAPgBAZgCBqACoAPCAgoQABiwAxjWBBhHwgIEECMYJ8ICBRAAGO8FwgIIEAAYgAQYogSYAwCIBgGQBgiSBwE2oAftEbIHATW4B50DwgcDMy4zyAcHgAgA&sclient=gws-wiz-serp
 
-(2) Instagram
-https://www.instagram.com/p/DVdtYIiiDvl/
+Extending papermill through entry points - papermill 2.7.0 documentation
+https://papermill.readthedocs.io/en/latest/extending-entry-points.html
 
-Omnipollos Kyrka - Food
-https://www.omnipolloskyrka.com/food/food
+Build an MCP server - Model Context Protocol
+https://modelcontextprotocol.io/docs/develop/build-server
 
-Mozilla Common Voice Uniqueness
-https://chatgpt.com/c/69d8337a-5c88-8394-a5d5-57275e195618
+New tab
+chrome://newtab/
 
-"Savage Imperial Death March" by The Melvins & Napalm Death | ALBUM REVIEW - YouTube
-https://www.youtube.com/watch?v=Mk4OZ_uT9Jw
+scary movie 6 trailer - Google Search
+https://www.google.com/search?q=scary+movie+6+trailer&rlz=1C5GCCM_en&oq=scary+movie+6+trailer&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQg3MjE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+SCARY MOVIE 6 Official Trailer (2026) - YouTube
+https://www.youtube.com/watch?v=E4Hv7fxjqr4
+
+THE BUTCHER'S BLADE Official Trailer (2026) - YouTube
+https://www.youtube.com/watch?v=tFHGqEEr5p0
+
+THE PUNISHER: ONE LAST KILL Official Trailer (2026) Marvel's - YouTube
+https://www.youtube.com/watch?v=d8jvAFn4H8A
+
+(1) Instagram • Messages
+https://www.instagram.com/direct/t/17845647458552890/
+
+Example Servers - Model Context Protocol
+https://modelcontextprotocol.io/examples
+
+servers/src/memory at main · modelcontextprotocol/servers
+https://github.com/modelcontextprotocol/servers/tree/main/src/memory
+
+ChatGPT - CBT
+https://chatgpt.com/g/g-p-6825c4aefc748191b31f39848a1b0ef1-cbt/c/69da8f0b-53fc-8388-b02d-a890cf1f163e
+
+Anthrax & Public Enemy - Bring The Noise (Official Video) - YouTube
+https://www.youtube.com/watch?v=kl1hgXfX5-U
+
+anthrax live with DImebag Darrell hd remaster - YouTube
+https://www.youtube.com/watch?v=b12siOwNUyo
+
+Dimebag Darrell performances - Wikipedia
+https://en.wikipedia.org/wiki/Dimebag_Darrell_performances
+
+Riding Shotgun - YouTube
+https://www.youtube.com/watch?v=ajUblDAg9xk&list=RDajUblDAg9xk&start_radio=1
 
 
