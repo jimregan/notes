@@ -163,3 +163,4 @@ categories: [links]
 
 [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
 
+[Common Voice Scripted Speech 25.0 - Swedish](https://datacollective.mozillafoundation.org/datasets/cmn2e8gr301evo1079gujuzqr)
