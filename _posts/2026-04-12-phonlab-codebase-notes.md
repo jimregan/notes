@@ -1,3 +1,12 @@
+---
+toc: false
+layout: post
+hidden: true
+description: phonlab codebase notes
+title: Codebase summary from ChatGPT
+categories: [phonlab, chatgtp]
+---
+
 # Phonlab Codebase Overview
 
 ## Overview
