@@ -559,25 +559,34 @@ https://sourceforge.net/p/wavesurfer/code/HEAD/tree/trunk/wavesurfer/src/plugins
 WaveSurfer / Code / [r62] /trunk/wavesurfer/src/wsurf/wsurf.tcl
 https://sourceforge.net/p/wavesurfer/code/HEAD/tree/trunk/wavesurfer/src/wsurf/wsurf.tcl
 
-SVP 31OCT2021: Updated notes and licence. · scottypitcher/tcl-snack@ceda11d
-https://github.com/scottypitcher/tcl-snack/commit/ceda11d5954bcdc2e49836b9e88bf5f38fe8734e
+SVP 14OCT2021: Patches for building on Windows 32 and 64 bit. · scottypitcher/tcl-snack@8cdf674
+https://github.com/scottypitcher/tcl-snack/commit/8cdf6748872917fd54cb06d4add503c012384e65
 
 Snack Home Page
 https://www.speech.kth.se/snack/
 
-Snack Download Page
-https://www.speech.kth.se/snack/download.html
-
-Wayback Machine - URLs of https://www.speech.kth.se/snack/dist/
-http://web.archive.org/web/*/https://www.speech.kth.se/snack/dist/*
-
-Create new workflow · kth-tmh/snack
-https://github.com/kth-tmh/snack/new/main?filename=.github%2Fworkflows%2Fc-cpp.yml&workflow_template=ci%2Fc-cpp
+kth-tmh/snack: The Snack Sound Toolkit is designed to be used with a scripting language such as Tcl/Tk or Python.
+https://github.com/kth-tmh/snack
 
 git delete tag - Google Search
 https://www.google.com/search?q=git+delete+tag&rlz=1C5GCCM_en&oq=git+delete+tag&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAAGBQYhwIYgAQyDAgCEAAYFBiHAhiABDINCAMQABiRAhiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM3NzZqMGo0qAIBsAIB8QV545k1x4sCUPEFeeOZNceLAlA&sourceid=chrome&ie=UTF-8
 
 Importing a Subversion repository - GitHub Docs
 https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/importing-a-subversion-repository
+
+amp MPEG audio decoder - Google Search
+https://www.google.com/search?q=amp+MPEG+audio+decoder&rlz=1C5GCCM_en&oq=amp+MPEG+audio+decoder&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBBzQ3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Tomislav Uzelac - Wikipedia
+https://en.wikipedia.org/wiki/Tomislav_Uzelac
+
+lieff/minimp3: Minimalistic MP3 decoder single header library
+https://github.com/lieff/minimp3
+
+Agents · kth-tmh/snack
+https://github.com/kth-tmh/snack/tasks/b406ccc2-189e-4527-9793-71a2ce08913e?author=jimregan
+
+SVP 14OCT2021: Patches for building on Windows 32 and 64 bit. · scottypitcher/tcl-snack@8cdf674
+https://github.com/scottypitcher/tcl-snack/commit/8cdf6748872917fd54cb06d4add503c012384e65
 
 
