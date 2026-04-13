@@ -1,6 +1,26 @@
-# Markdown Summary — *Optimizing the Extraction of Vowel Formants*
+---
+toc: false
+layout: post
+hidden: true
+description: Book chapter summary from ChatGPT
+title: Optimizing the Extraction of Vowel Formants
+categories: [chatgpt, formants]
+---
 
-*Skarnitzl, Vaňková & Bořil (2015)* 
+# Chapter Summary — *Optimizing the Extraction of Vowel Formants*
+
+*[Skarnitzl, Vaňková & Bořil (2015)](https://www.researchgate.net/publication/281177316_Optimizing_the_Extraction_of_Vowel_Formants)* 
+
+```bibtex
+@inbook{skarnitzl2015optimizing,
+  author = {Skarnitzl, Radek and Vaňková, Jitka and Boril, Tomas},
+  year = {2015},
+  month = {06},
+  pages = {165-182},
+  title = {Optimizing the Extraction of Vowel Formants},
+  isbn = {978-80-7308-558-2}
+}
+```
 
 ## Overview
 
@@ -216,8 +236,4 @@ The gains from “optimized” settings are often **not statistically meaningful
 * **Snack is worse than Praat** on clean studio data
 * Praat tracker offers **little benefit over extractor**
 * F3 remains the **most difficult formant to estimate reliably**
-
----
-
-If you'd like, I can next convert this into a **1-page literature review style summary (background → methods → findings → implications)** suitable for citation notes.
 
