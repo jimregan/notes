@@ -493,16 +493,58 @@ https://docs.google.com/presentation/d/1gfwlxLWZaZY7Zth8zP1LvmHAi21qQs6uBAm1Ep7D
 MyProsody - Google Search
 https://www.google.com/search?q=MyProsody&rlz=1C5GCCM_en&oq=python+for+acoustic+phonetics&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBdIBCDY0MDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&mstk=AUtExfAplchZA3QBOKTUTFSqJuNb0Flrgqp09ic5jLHjcFA1iEummKrQZYOwR6wS-m9W49WwW14Jo5-2q52Vq_VWvI9vGctBRl8vUDWkhRV8Gez2HW6H3hKOxAO9_dmseN-Lqto8d5fHDzugmRu6iHWr-fIXhfhDQL2W8KEP9pxIV0A1OIGZhJNycTr57XxTwrn1hKl1L61B-9uaFMRnXh5HLtJ4iEYtSB85dmSa45XNBq9NUTf0rNiXifQ-GDlmOFdclM044qe4Dpy856jLjn3S67wT&csui=3&ved=2ahUKEwi76Y_6j-mTAxV0QFUIHf2tPYMQgK4QegQIARAF
 
-Multi-head CTC training for phonetic and orthographic modeling - Claude
-https://claude.ai/chat/f6e29696-a9ba-4750-a4c8-812ceb50a8af
+Converting LaTeX to IEEE template format - Claude
+https://claude.ai/chat/30793c08-0372-4d6e-9d58-81d18d5a7f1e
 
-Current things, 14 June 2025 - DSA-Tokenizer Paper Summary
-https://chatgpt.com/g/g-p-684dc8075e508191ae070a06c599469d-current-things-14-june-2025/c/696adb6e-dfcc-832f-bc24-7c5c84d4bbe6
+Relevant paper on vowel analysis
+https://chatgpt.com/c/69d2d3d0-f910-8395-9df0-d5befbfb146e
+
+HITL phoneme learning - Soft-DTW CUDA Implementation
+https://chatgpt.com/c/683d91d0-d0c0-8011-bb8a-123583200977
+
+Swedish Riksdag Phonetic corpus paper - Accent Similarity Metric
+https://chatgpt.com/c/683dbb34-852c-8011-bbbf-3d55200d6a80
+
+HITL phoneme learning - Phonological Modeling and Alignment
+https://chatgpt.com/c/683c935b-f74c-8011-96fa-15f58019b80a
+
+Current things, 14 June 2025 - Task Organization Plan
+https://chatgpt.com/c/684dcbd2-6678-8011-b027-43ae76368d86
+
+Pitch Tracking for Sentence Start
+https://chatgpt.com/c/6864eef7-0e54-8011-b3f9-351a6f762b21
+
+Phonetic research prompt
+https://chatgpt.com/c/68a326b7-61b0-8333-a3ee-ea2b2e9cb12c
+
+Penn Phonetics Laboratory | Department of Linguistics
+https://web.sas.upenn.edu/phonetics-lab/
+
+Current things, 14 June 2025 - Reference text extraction
+https://chatgpt.com/c/68ac599f-84b4-832d-bec8-11e49e6d311f
 
 [2601.09239] DSA-Tokenizer: Disentangled Semantic-Acoustic Tokenization via Flow Matching-based Hierarchical Fusion
 https://arxiv.org/abs/2601.09239
 
-New tab
-chrome://newtab/
+(PDF) Optimizing the Extraction of Vowel Formants
+https://www.researchgate.net/publication/281177316_Optimizing_the_Extraction_of_Vowel_Formants
+
+Kulturnatt Stockholm
+https://kulturnattstockholm.se/?lang=en
+
+Vowel Formant Extraction Optimization
+https://chatgpt.com/c/69dca390-da00-8392-8dc4-a01eacf15e10
+
+scholar.googleusercontent.com/scholar.bib?q=info:NBHjWorSSlEJ:scholar.google.com/&output=citation&scisdr=Cjzh9VF2ELTuyRquIm0:ADi0EEUAAAAAadyoOm2njZoqt3RyHheGSfzMByM&scisig=ADi0EEUAAAAAadyoOlAutMQokPAOC6ja00PvMeU&scisf=4&ct=citation&cd=-1&hl=en
+https://scholar.googleusercontent.com/scholar.bib?q=info:NBHjWorSSlEJ:scholar.google.com/&output=citation&scisdr=Cjzh9VF2ELTuyRquIm0:ADi0EEUAAAAAadyoOm2njZoqt3RyHheGSfzMByM&scisig=ADi0EEUAAAAAadyoOlAutMQokPAOC6ja00PvMeU&scisf=4&ct=citation&cd=-1&hl=en
+
+67960.pdf
+https://link.springer.com/content/pdf/10.1155/ASP/2006/67960.pdf
+
+Evaluating the Representation of Vowels in Wav2Vec Feature Extractor: A Layer-Wise Analysis Using MFCCs
+https://arxiv.org/html/2508.17914v1
+
+Tackling the Complexity in Speech - Google Search
+https://www.google.com/search?sca_esv=d690ffcb785891a9&rlz=1C5GCCM_en&sxsrf=ANbL-n4ALwTuKkL2DHnSokiXqTc7i9XPMA:1776068087100&q=Tackling+the+Complexity+in+Speech&si=AL3DRZEHca6XkyN49T3T8E-njBIUGWs3zrGnCIPmAtz1Ayz-Ok9yxQEpXQOYs7FfFMxR8FRd4inWy0hw7AqwHn9NibkTtxECWFJPJaurXpXhc3zpyBJOCScF--caiXtfmC2idEYaRu4g5bBAkGDMFsoqJSIKzsWQj3VVeEKr6jp9UQi8ZcuBXVM%3D&sa=X&ved=2ahUKEwiavbabseqTAxWjAhAIHfcNHoAQ_coHegQIDxAB&ictx=0&biw=1424&bih=714&dpr=2
 
 
