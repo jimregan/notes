@@ -18,6 +18,8 @@ categories: [chatgpt, formants]
   month = {06},
   pages = {165-182},
   title = {Optimizing the Extraction of Vowel Formants},
+  booktitle = {Tackling the complexity in speech},
+  editors = {Niebuhr, Oliver and Skarnitzl, Radek},
   isbn = {978-80-7308-558-2}
 }
 ```
