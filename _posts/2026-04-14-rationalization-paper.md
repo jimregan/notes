@@ -178,3 +178,174 @@ A limitation the authors mention:
 * the framework still captures **correlation, not causation**
 * causal rationale extraction remains future work 
 
+---
+
+That’s the most interesting *general* idea in the paper, and it applies far beyond rationalization.
+
+The core point is:
+
+> **Using cross-entropy loss is often an implicit way of optimizing a maximum mutual information (MMI) objective.**
+
+The paper’s real contribution is not the application, but a careful analysis of **when this surrogate works and when it breaks**. 
+
+---
+
+# The core mathematical idea
+
+Suppose you want a representation (Z) (features, selected tokens, latent variable, etc.) that preserves as much information as possible about a target (Y).
+
+The ideal MMI objective is:
+
+I(Y;Z)=H(Y)-H(Y\mid Z)
+
+Since (H(Y)) is fixed for a dataset, maximizing mutual information is equivalent to minimizing:
+
+H(Y\mid Z)
+
+So the true target is:
+
+> make (Y) as predictable as possible from (Z)
+
+---
+
+# Why people replace it with cross-entropy
+
+The problem is that the true conditional distribution (P(Y\mid Z)) is unknown.
+
+So instead we train a model (q_\theta(Y\mid Z)) and minimize:
+
+\mathbb{E}[-\log q_\theta(Y\mid Z)]
+
+This is just the **cross-entropy loss**.
+
+The key identity is:
+
+H_c(Y,\hat Y\mid Z)=H(Y\mid Z)+D_{KL}(P(Y\mid Z)|q_\theta(Y\mid Z))
+
+This is the whole story.
+
+So minimizing cross-entropy means minimizing:
+
+1. **the true conditional entropy** → the MMI part you actually want
+2. **the approximation error of your predictor**
+
+This is why CE is such a common surrogate for MMI. 
+
+---
+
+# The deep insight: CE is only a *variational upper bound*
+
+A very useful way to think about this:
+
+> cross-entropy is a **tractable upper bound** on conditional entropy
+
+because KL divergence is always nonnegative.
+
+So:
+
+H_c(Y,\hat Y\mid Z)\ge H(Y\mid Z)
+
+Therefore minimizing CE indirectly pushes down the true conditional entropy.
+
+This idea appears everywhere:
+
+* **InfoMax / Deep InfoMax**
+* **contrastive learning**
+* **variational information bottleneck**
+* **CPC / InfoNCE**
+* **representation learning**
+* **feature selection**
+* **rationale extraction**
+* **self-supervised predictive coding**
+
+So yes—the paper’s setup is just one instance of a much broader information-theoretic trick.
+
+---
+
+# When this surrogate is good
+
+The surrogate is excellent when your predictor family is expressive enough that:
+
+[
+q_\theta(Y\mid Z)\approx P(Y\mid Z)
+]
+
+Then the KL term becomes small, so CE closely tracks the true conditional entropy.
+
+This is why in standard supervised learning we often casually say:
+
+> “minimizing CE maximizes information about the label”
+
+That statement is approximately true **if the decoder is strong enough**.
+
+---
+
+# When it fails (the important lesson from this paper)
+
+The subtle point this paper highlights is:
+
+> minimizing CE only maximizes MI **through the lens of the predictor you trained**
+
+If the predictor is biased, underfit, overfit, or only sees part of the space, the KL term dominates.
+
+Then CE can strongly disagree with true informativeness.
+
+This is a very general warning.
+
+It means:
+
+* a **bad decoder makes CE a bad MI estimator**
+* local training dynamics can distort MI optimization
+* optimization may favor regions where the decoder is easy to fit, rather than truly informative regions 
+
+That idea is broadly useful in latent-variable models and representation learning.
+
+---
+
+# Big-picture interpretation
+
+The most reusable takeaway is:
+
+> **Cross-entropy is not mutual information itself.**
+> It is **conditional entropy + decoder approximation bias**.
+
+So whenever you see CE used as an “information maximization” objective, always ask:
+
+> *How much of the loss is actual information, and how much is decoder error?*
+
+That’s the conceptual gem in this paper.
+
+---
+
+# Why this matters outside their topic
+
+This insight generalizes immediately to:
+
+### Representation learning
+
+A representation may look “informative” only because the decoder is weak.
+
+### Latent variable models
+
+Posterior collapse can be reinterpreted as CE dominating the MI term.
+
+### Contrastive learning
+
+InfoNCE is another surrogate bound with similar decoder/critic dependence.
+
+### Feature selection
+
+Selected features may be chosen because the downstream classifier likes them, not because they maximize true information.
+
+So this paper’s lesson is a **general caution about variational surrogates for MI**.
+
+---
+
+Personally, I think the most elegant takeaway is this sentence:
+
+> **Cross-entropy is a model-dependent estimator of conditional entropy.**
+
+That framing is useful in almost every ML subfield.
+
+If you'd like, I can connect this idea directly to **InfoNCE and contrastive learning**, where the same “MI-via-cross-entropy” trick is even more common.
+
