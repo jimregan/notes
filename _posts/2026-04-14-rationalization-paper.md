@@ -10,6 +10,21 @@ categories: [chatgpt, summary, paper]
 ## [Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00758/131564/Exploring-Practical-Gaps-in-Using-Cross-Entropy-to)
 
 
+```bibtex
+@article{10.1162/tacl_a_00758,
+    author = {Liu, Wei and Deng, Zhiying and Niu, Zhongyu and Wang, Jun and Wang, Haozhao and Li, Ruixuan},
+    title = {Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization},
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {13},
+    pages = {577-594},
+    year = {2025},
+    month = {06},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00758},
+    url = {https://doi.org/10.1162/tacl_a_00758},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00758/2534936/tacl_a_00758.pdf},
+}
+```
 ---
 
 ## One-sentence takeaway
