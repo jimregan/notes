@@ -1,4 +1,14 @@
-Here’s a concise summary of the paper **“Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization”**. 
+---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization
+categories: [chatgpt, summary, paper]
+---
+
+## [Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00758/131564/Exploring-Practical-Gaps-in-Using-Cross-Entropy-to)
+
 
 ---
 
@@ -152,8 +162,4 @@ A limitation the authors mention:
 
 * the framework still captures **correlation, not causation**
 * causal rationale extraction remains future work 
-
----
-
-If you'd like, I can next give you a **“reviewer-style critique” (strengths, weaknesses, novelty, and likely acceptance reasons)**.
 
