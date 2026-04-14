@@ -769,50 +769,43 @@ https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/17_gemma4/standalone-g
 (1) Paweł Huryn on X: "There is a catch nobody is talking about. Gemma 4 uses shared KV cache layers - the last layers reuse K/V tensors from earlier layers instead of computing their own. That is why it fits on a laptop. But that same architecture breaks cache reuse in llama.cpp. Every request" / X
 https://x.com/PawelHuryn/status/2042276953470931197
 
-Aishwarya Kamath on X: "The efficiency gains are substantial: our smaller Gemma 4 models (E2B and E4B) already match the performance of the largest Gemma 3 models. We are also releasing two distinct vision encoders: a highly optimized 150M version and a 550M version." / X
+(1) Aishwarya Kamath on X: "The efficiency gains are substantial: our smaller Gemma 4 models (E2B and E4B) already match the performance of the largest Gemma 3 models. We are also releasing two distinct vision encoders: a highly optimized 150M version and a 550M version." / X
 https://x.com/ashkamath20/status/2041798041577865598
-
-(1) JUMPERZ on X: "so, I can confirm that glm 5.1 is the smartest local model i’ve tested. using it through opencode currently and to be fair, it feels more like an opus 4.5 or gpt 5.2 my usage ranking is something like: codex &gt; glm &gt; claude for anything with big tasks and high volume, glm is" / X
-https://x.com/jumperz/status/2043772057310105687
-
-(1) Guri Singh on X: "Holy shit... Google just dropped a FREE coding model that beats GPT-4 class performance. It's called Gemma 4 and it runs inside Claude Code with ONE command. No $200/mo subscription. No API keys. 80% on LiveCodeBench. 256K context. Apache 2.0. Here's how to set it up in 60 https://t.co/cF3hHe01Zk" / X
-https://x.com/heygurisingh/status/2042459835296629025
-
-(1) Veer Kheterpal on X: "@yazins The part Google isn't highlighting: Gemma 4 was trained with Multi-Token Prediction heads that give 1.5-2x decode speedup at zero quality loss. They stripped them from the public HuggingFace weights while keeping them in LiteRT, their own on-device runtime. Every open-source" / X
-https://x.com/veerbhanX/status/2042484510353473703
-
-(1) Ivan Nardini on X: "What a great day for Gemma 4 Tunix now supports Gemma 4 dense and MoE variants to run on TPU Gemma 4 MoE models in vLLM can now be quantized to FP8 and NVFp4 with calibration support SGLang added full support for Dense and MoE variants with multimodal capabilities and native" / X
-https://x.com/ivnardini/status/2041977000278290777
 
 tunix/tunix/models/gemma4/sampling_example.ipynb at main · google/tunix
 https://github.com/google/tunix/blob/main/tunix/models/gemma4/sampling_example.ipynb
 
 Gemma 4 Usage Guide - vLLM Recipes
-https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html
+https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html#text-benchmark
 
-(1) Gao Dalie (高達烈) on X: "🚀 Gemma 4 + TurboQuant + RAG = Better OCR &amp; Self-Hosted Gemma 4 is finally fully unlocked — and this changes everything. I’m running it locally on a MacBook. No cloud. No API. Just pure on-device intelligence with real-time scene understanding. Here’s what stands out 👇 ⚡ https://t.co/CdFdmF5q4G" / X
-https://x.com/GaoDalie_AI/status/2041885582880538652
+(1) Israels - Search / X
+https://x.com/search?q=Israels&src=trend_click&vertical=trends
 
-(1) Tom Dörr on X: "Apple Silicon speech models with MLX Swift and CoreML https://t.co/N4knqk5A0u https://t.co/MSFZfV0nRr" / X
-https://x.com/tom_doerr/status/2043569929547358460
+x.com/IG_Zahra/status/2043705576795042124
+https://x.com/IG_Zahra/status/2043705576795042124
 
-(1) Loreto Parisi on X: "Basically Google’s new LiteRT-LM in C++ running Gemma4 is a @ggerganov inspired llama.cpp 👉The model file size is 2.58 GB, which includes a text decoder with 0.79GB of weights and 1.12GB of embedding parameters. LiteRT-LM framework always keeps main weights in memory, while" / X
-https://x.com/loretoparisi/status/2041613451773010044
+x.com/Osint613/status/2043694517916680193
+https://x.com/Osint613/status/2043694517916680193
+
+x.com/neyikaybettik/status/2043744919638950383
+https://x.com/neyikaybettik/status/2043744919638950383
+
+x.com/Amiran_Zizovi/status/2043735968881004770
+https://x.com/Amiran_Zizovi/status/2043735968881004770
 
 litert-community/gemma-4-E2B-it-litert-lm · Hugging Face
 https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm
 
-(1) Giacomo Venier on X: "@zeeg The models are getting much better though! I wouldn’t use local models for coding or agentic workflows, but ASR models are very solid, and Gemma 4 4B is actually good at simple tasks like email rewriting and translation. Gemma 4 runs at 55+ tok/s on my Mac with mlx" / X
-https://x.com/giacomovenier/status/2043254289980674303
+google/gemma-4-E2B-it · Hugging Face
+https://huggingface.co/google/gemma-4-E2B-it
 
-fyi: Gemma 4 on MLX seems noticeably worse than GGUF right now : r/LocalLLaMA
-https://www.reddit.com/r/LocalLLaMA/comments/1sb0jv3/fyi_gemma_4_on_mlx_seems_noticeably_worse_than/
-
-Add gemma 4 by Blaizzy · Pull Request #1093 · ml-explore/mlx-lm
-https://github.com/ml-explore/mlx-lm/pull/1093
+ml-explore/mlx-lm: Run LLMs with MLX
+https://github.com/ml-explore/mlx-lm
 
 transformers/docs/source/en/model_doc/gemma4.md at main · huggingface/transformers
 https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/gemma4.md
 
+Multi-Model Gemma for Transcription Correction - Google Gemini
+https://gemini.google.com/app/227a8c8e05727454?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
 
 
