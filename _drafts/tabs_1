@@ -133,8 +133,11 @@ https://huggingface.co/datasets/nvidia/hifitts-2/blob/main/README.md
 Granary large-scale speech processing pipeline (#155) · NVIDIA/NeMo-speech-data-processor@1ac730d
 https://github.com/NVIDIA/NeMo-speech-data-processor/commit/1ac730db3d9c6d1082294e4d31a4db1c441fe5cc#diff-2b5950465e6e193920c6be88c4031a04760578d882bef0a08964c2c79f5a9b89
 
-Supported datasets — NVIDIA NeMo SDP
-https://nvidia.github.io/NeMo-speech-data-processor/sdp/existing_configs.html
+NeMo-speech-data-processor/dataset_configs/english/coraal/config.yaml at main · NVIDIA/NeMo-speech-data-processor
+https://github.com/NVIDIA/NeMo-speech-data-processor/blob/main/dataset_configs/english/coraal/config.yaml
+
+README.md · PleIAs/YouTube-Commons at main
+https://huggingface.co/datasets/PleIAs/YouTube-Commons/blob/main/README.md
 
 Pull requests · NVIDIA/NeMo-speech-data-processor
 https://github.com/NVIDIA/NeMo-speech-data-processor/pulls
@@ -778,21 +781,6 @@ https://github.com/google/tunix/blob/main/tunix/models/gemma4/sampling_example.i
 Gemma 4 Usage Guide - vLLM Recipes
 https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html#text-benchmark
 
-(1) Israels - Search / X
-https://x.com/search?q=Israels&src=trend_click&vertical=trends
-
-x.com/IG_Zahra/status/2043705576795042124
-https://x.com/IG_Zahra/status/2043705576795042124
-
-x.com/Osint613/status/2043694517916680193
-https://x.com/Osint613/status/2043694517916680193
-
-x.com/neyikaybettik/status/2043744919638950383
-https://x.com/neyikaybettik/status/2043744919638950383
-
-x.com/Amiran_Zizovi/status/2043735968881004770
-https://x.com/Amiran_Zizovi/status/2043735968881004770
-
 litert-community/gemma-4-E2B-it-litert-lm · Hugging Face
 https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm
 
@@ -807,5 +795,104 @@ https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/g
 
 Multi-Model Gemma for Transcription Correction - Google Gemini
 https://gemini.google.com/app/227a8c8e05727454?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
+
+CHI '26 Affiliations
+https://programs.sigchi.org/chi/2026/people/affiliations
+
+CHI '26 Affiliation
+https://programs.sigchi.org/chi/2026/people/affiliations/kth-royal-institute-of-techonology
+
+From Seeing it to Experiencing it: Interactive Evaluation of Intersectional Voice Bias in Human–AI Speech Interaction - CHI '26
+https://programs.sigchi.org/chi/2026/program/content/229432
+
+From Seeing it to Experiencing it: Interactive Evaluation of Intersectional Voice Bias in Human-AI Speech Interaction
+https://dl.acm.org/doi/pdf/10.1145/3772363.3798677
+
+Alphabetical Listing of ACM SIGs
+https://www.acm.org/special-interest-groups/alphabetical-listing
+
+SIGAI
+https://www.acm.org/special-interest-groups/sigs/sigai
+
+SIGMM
+https://www.acm.org/special-interest-groups/sigs/sigmm
+
+CALL FOR PAPERS – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics
+https://aclrollingreview.org/cfp
+
+Anonymous GitHub
+https://anonymous.4open.science/
+
+Authors Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics
+https://aclrollingreview.org/authors
+
+ACL ARR 2024 | OpenReview
+https://openreview.net/group?id=aclweb.org/ACL/ARR/2024
+
+Authors Guidelines – ACL Rolling Review – A peer review platform for the Association for Computational Linguistics
+https://aclrollingreview.org/authors
+
+Venues | OpenReview
+https://openreview.net/
+
+ACM | OpenReview
+https://openreview.net/group?id=ACM.org&referrer=%5BHomepage%5D(%2F)
+
+EUSIPCO 2026 Workshop SPQT | OpenReview
+https://openreview.net/group?id=EUSIPCO/2026/Workshop/SPQT&referrer=%5BHomepage%5D(%2F)#tab-recent-activity
+
+Submissions – eusipco2026
+https://eusipco2026.org/submissions/#papersubmission
+
+About TASLPRO | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing/about-taslpro
+
+IEEE/ACM TRANSACTIONS ON AUDIO, SPEECH AND LANGUAGE PROCESSING Home
+https://dl.acm.org/journal/taslp
+
+IEEE Transactions on Audio, Speech and Language Processing | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-transactions-audio-speech-and-language-processing
+
+IEEE Journal of Selected Topics in Signal Processing | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing
+
+IEEE Open Journal of Signal Processing | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing?page=1
+
+Recallable Question Answering-Based Re-Ranking Considering Semantic Region for Cross-Modal Retrieval | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing/2023/04/recallable-question-answering
+
+Recallable Question Answering-Based Re-Ranking Considering Semantic Region for Cross-Modal Retrieval | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/10022040
+
+IEEE Signal Processing Letters | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters
+
+SPL Volume 32 | 2025 | IEEE Signal Processing Society
+https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters/2025/01
+
+IEEE Signal Processing Letters | All Volumes | IEEE Xplore
+https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10802935&punumber=97&sortType=vol-only-seq&pageNumber=30
+
+Physics-Informed Pulse Decomposition and Local STFT Attention for Specific Emitter Identification | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/11029137
+
+IEEE Signal Processing Letters | Current Volume | IEEE Xplore
+https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=97&isnumber=11304147&sortType=vol-only-seq&pageNumber=4
+
+Listening for “You”: Enhancing Speech Image Retrieval via Target Speaker Extraction | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/11271847
+
+Comparative Analysis of Automatic Speech Recognition Fine-Tuning Strategies for Speech From Cochlear Implant Users | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/11278050
+
+Wavelet-Based Denoising Transformer With Fourier Adjustment for UAV Nighttime Tracking | IEEE Journals & Magazine | IEEE Xplore
+https://ieeexplore.ieee.org/document/11304559
+
+Speech Communication - Google Search
+https://www.google.com/search?q=Speech+Communication&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+EURASIP Journal on Audio, Speech and Music Processing - Google Search
+https://www.google.com/search?q=EURASIP+Journal+on+Audio%2C+Speech+and+Music+Processing&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
 
 
