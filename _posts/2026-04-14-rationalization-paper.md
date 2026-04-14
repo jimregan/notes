@@ -180,10 +180,6 @@ A limitation the authors mention:
 
 ---
 
-That’s the most interesting *general* idea in the paper, and it applies far beyond rationalization.
-
-The core point is:
-
 > **Using cross-entropy loss is often an implicit way of optimizing a maximum mutual information (MMI) objective.**
 
 The paper’s real contribution is not the application, but a careful analysis of **when this surrogate works and when it breaks**. 
