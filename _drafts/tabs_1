@@ -718,56 +718,68 @@ https://ai.google.dev/gemma/docs/core
 (1) gemma4 audio encoder linear classifier - Search / X
 https://x.com/search?q=gemma4%20audio%20encoder%20linear%20classifier&src=typed_query&f=top
 
+(1) ghchinoy on X: "Giving Gemma 4 ears on Apple Silicon 🎧🍎 Gemma 4 is an incredible multimodal model, but its audio processing pipeline doesn't exist in Swift | MLX. Read about the port here: https://t.co/ZTo5tLGg0v Looking forward to the upstream MLX generation updates for the end-to-end flow! https://t.co/iAQFEqmD2Z" / X
+https://x.com/ghchinoy/status/2043482580562088269
+
+Abdur Rahim on X: "The full Gemma 4 family is now fine-tunable on your Mac! 🍏✨ You can now fine-tune the entire family locally with mlx-tune: ✅ E2B &amp; E4B (Text, Vision, Audio) ✅ 26B-A4B MoE &amp; 31B Dense (Text, Vision) The best part? No complex routing. One unified FastVisionModel API handles https://t.co/dwLAgT5kWn" / X
+https://x.com/_ARahim_/status/2041979482043744347
+
+rahul on X: "Gemma 4 is the latest version of Gemma family open source LLMs introduced by Google and DeepMind. Gemma 4 models handle function calling, structured JSON output, and system instructions at the model level rather than through prompt engineering. The 31B dense model currently https://t.co/ihgbc8ZOrj" / X
+https://x.com/ErRahul337/status/2043032379523252690
+
+(1) Zubaer Olee on X: "Gemma’s E2B &amp; E4B are tiny but terrifyingly capable. By using clever Per-Layer Embeddings so each decoder layer gets its own mini embedding lookup. These are mobile first monsters which means your local llms on apps no internet needed and realtime audio + vision on a phone. Im" / X
+https://x.com/zubaerolee/status/2041964473569665176
+
+(1) Lila on X: "@Franzferdinan57 Don’t expect opus-like quality today on an 18.5GB model, that’s not what it’s for. Gemma 4 is not a series of models to replace models we use to code or perform other advanced tasks. But for its size, it’s one of the rare models with Qwen 3.5 27B to be that cost efficient at" / X
+https://x.com/LilaRest/status/2043027003842937119
+
+(1) Awesome Agents on X: "Three separate PRs merged into llama.cpp between April 11-13 add MERaLiON-2, Gemma 4's Conformer encoder, and Qwen3-Omni/ASR - making local voice AI inference practical on consumer hardware for the first time. #OpenSource #LocalAi Link in the first comment 👇 https://t.co/qTh6D41iB7" / X
+https://x.com/awagents/status/2043671651364090125
+
+(1) Sachin on X: "docker vllm[audio] for gemma-4-e2b-it !! deploy anywhere and get multi-modal inference for Indian languages PR - https://t.co/WFZwmVQEZb @vllm_project @googlegemma @dwani_ai https://t.co/wacdLuzQOG" / X
+https://x.com/gaganyatri/status/2041532952606392637
+
+(1) Google on X: "We just released Gemma 4 — our most intelligent open models to date. Built from the same world-class research as Gemini 3, Gemma 4 brings breakthrough intelligence directly to your own hardware for advanced reasoning and agentic workflows. Released under a commercially https://t.co/W6Tvj9CuHW" / X
+https://x.com/Google/status/2039736220834480233
+
+Gemma 4: Our most capable open models to date
+https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/?utm_source=tw&utm_medium=social&utm_campaign=og&utm_content=&utm_term=
+
+google/gemma-4-E4B-it · Hugging Face
+https://huggingface.co/google/gemma-4-E4B-it
+
+(1) Pasha S on X: "Google just gave us a 4.5B model that natively understands audio, images, AND text. Gemma 4 E4B. Apache 2.0. Runs on a phone. ━━━ Most multimodal models treat audio as an afterthought. Gemma 4 E4B has a 300M parameter audio encoder baked in — not bolted on. Here's what makes https://t.co/uXnA6jdVpH" / X
+https://x.com/psk90_ai/status/2044047739454165251
+
+(1) Robert McGee on X: "I’m probably the only weirdo that was curious to know what @MaartenGr recorded in his article “A Visual Guide to Gemma 4”; https://t.co/nESIFARlNY I made a Mac app that takes a spectogram and converts it to audio. Then I had Gemma 4 e4b tell me about it. https://t.co/mXf8zWQhXx" / X
+https://x.com/rmcgee_/status/2042394440673726762
+
+A Visual Guide to Gemma 4 - by Maarten Grootendorst
+https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-gemma-4
+
 (1) Polish Physicist Discovers Universal Calculator Operator / X
 https://x.com/i/trending/2043726207376609641
 
-x.com/i/trending/2043855201732297163
-https://x.com/i/trending/2043855201732297163
-
-All elementary functions from a single operator
-https://arxiv.org/html/2603.21852v2
-
-x.com/MaziyarPanahi/status/2042599069898473768
-https://x.com/MaziyarPanahi/status/2042599069898473768
-
-x.com/Raullen/status/2043195881382347138
+(1) raullen.eth on X: "Hermes Agent @NousResearch + Gemma 4 26B @GoogleDeepMind, fully working on local Mac 🤯: one prompt → full CLI app + tests + pytest passing tool calls firing back to back — local Claude Code vibes Gemma 4 MoE is fast AND smart, and tool calling just works — powered by Rapid-MLX https://t.co/AO3F7gQ9gL" / X
 https://x.com/Raullen/status/2043195881382347138
 
 LLMs-from-scratch/ch05/17_gemma4/standalone-gemma4.ipynb at main · rasbt/LLMs-from-scratch
 https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/17_gemma4/standalone-gemma4.ipynb
 
-x.com/PawelHuryn/status/2042276953470931197
+(1) Paweł Huryn on X: "There is a catch nobody is talking about. Gemma 4 uses shared KV cache layers - the last layers reuse K/V tensors from earlier layers instead of computing their own. That is why it fits on a laptop. But that same architecture breaks cache reuse in llama.cpp. Every request" / X
 https://x.com/PawelHuryn/status/2042276953470931197
 
-x.com/ashkamath20/status/2041798041577865598
+Aishwarya Kamath on X: "The efficiency gains are substantial: our smaller Gemma 4 models (E2B and E4B) already match the performance of the largest Gemma 3 models. We are also releasing two distinct vision encoders: a highly optimized 150M version and a 550M version." / X
 https://x.com/ashkamath20/status/2041798041577865598
 
-x.com/jumperz/status/2043772057310105687
+(1) JUMPERZ on X: "so, I can confirm that glm 5.1 is the smartest local model i’ve tested. using it through opencode currently and to be fair, it feels more like an opus 4.5 or gpt 5.2 my usage ranking is something like: codex &gt; glm &gt; claude for anything with big tasks and high volume, glm is" / X
 https://x.com/jumperz/status/2043772057310105687
 
-x.com/heygurisingh/status/2042459835296629025
+(1) Guri Singh on X: "Holy shit... Google just dropped a FREE coding model that beats GPT-4 class performance. It's called Gemma 4 and it runs inside Claude Code with ONE command. No $200/mo subscription. No API keys. 80% on LiveCodeBench. 256K context. Apache 2.0. Here's how to set it up in 60 https://t.co/cF3hHe01Zk" / X
 https://x.com/heygurisingh/status/2042459835296629025
 
-x.com/veerbhanX/status/2042484510353473703
+(1) Veer Kheterpal on X: "@yazins The part Google isn't highlighting: Gemma 4 was trained with Multi-Token Prediction heads that give 1.5-2x decode speedup at zero quality loss. They stripped them from the public HuggingFace weights while keeping them in LiteRT, their own on-device runtime. Every open-source" / X
 https://x.com/veerbhanX/status/2042484510353473703
-
-x.com/veerbhanX/status/2042484510353473703
-https://x.com/veerbhanX/status/2042484510353473703
-
-x.com/onusoz/status/2043817471673586010
-https://x.com/onusoz/status/2043817471673586010
-
-(1) Shreyas Karnik on X: "One powerful model. Four modalities. Zero servers. Gemma 4 E2B doing image analysis, audio transcription, video understanding, and text generation — all in a single browser tab via WebGPU powered by Transformers.js from @huggingface . Examples: 📷 Analyzes the Artemis II https://t.co/Db3ZhKlQp2" / X
-https://x.com/KarnikShreyas/status/2041546555136921751
-
-(1) Muhammad Alzaidi on X: "I’m a Phonetician I annotate it I model it I predict it You are just the data" / X
-https://x.com/Malzaidi1/status/2043629713927934055
-
-(1) Anubhav on X: "Released this week, Gemma 4 is the first open-weight model family that actually understands "Agent Skills" at the weights level. It supports 140+ languages and is small enough to run on a phone but smart enough to handle constrained decoding. No more broken JSON when your local" / X
-https://x.com/anubhavlive/status/2041575387193565229
-
-(1) Igor Shadurin on X: "The aftertaste of local models is pretty strange. For specific repeatable tasks, it is better to build a dedicated solution. For unique tasks, they are still too dumb. Gemma 4 is not that great for audio in some cases. Whisper is still better. For now, I only see them being" / X
-https://x.com/Web3Igor/status/2041784602964926804
 
 (1) Ivan Nardini on X: "What a great day for Gemma 4 Tunix now supports Gemma 4 dense and MoE variants to run on TPU Gemma 4 MoE models in vLLM can now be quantized to FP8 and NVFp4 with calibration support SGLang added full support for Dense and MoE variants with multimodal capabilities and native" / X
 https://x.com/ivnardini/status/2041977000278290777
@@ -798,5 +810,9 @@ https://www.reddit.com/r/LocalLLaMA/comments/1sb0jv3/fyi_gemma_4_on_mlx_seems_no
 
 Add gemma 4 by Blaizzy · Pull Request #1093 · ml-explore/mlx-lm
 https://github.com/ml-explore/mlx-lm/pull/1093
+
+transformers/docs/source/en/model_doc/gemma4.md at main · huggingface/transformers
+https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/gemma4.md
+
 
 
