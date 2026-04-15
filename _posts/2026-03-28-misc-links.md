@@ -164,3 +164,13 @@ categories: [links]
 [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
 
 [Common Voice Scripted Speech 25.0 - Swedish](https://datacollective.mozillafoundation.org/datasets/cmn2e8gr301evo1079gujuzqr)
+
+[Power Tab Editor](https://powertab.github.io/)
+
+[DrumGizmo](https://drumgizmo.org/)
+
+{% twitter https://x.com/dahou_yasser/status/2039242378809385331 %}
+
+[arXiv](https://arxiv.org/abs/2603.27365),
+[code](https://github.com/tiiuae/falcon-perception)
+
