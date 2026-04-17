@@ -43,9 +43,6 @@ https://huggingface.co/MiniMaxAI
 The Maltese Falcon (1930)/Chapter 1 - Wikisource, the free online library
 https://en.wikisource.org/wiki/The_Maltese_Falcon_(1930)/Chapter_1
 
-The Good Soldier: Schweik/Book 1/Chapter 1 - Wikisource, the free online library
-https://en.wikisource.org/wiki/The_Good_Soldier:_Schweik/Book_1/Chapter_1
-
 TSD 2026
 https://www.tsdconference.org/tsd2026/paper_instr.html
 
@@ -196,9 +193,6 @@ https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C
 caighdean/spurious.txt at master · kscanne/caighdean
 https://github.com/kscanne/caighdean/blob/master/spurious.txt
 
-Docker cleanup and maintenance - Claude
-https://claude.ai/chat/b411e806-c3b8-41e7-805d-fc6cb52479c6
-
 add audit and workflow scripts for quiggin JSON data by jimregan · Pull Request #33 · jimregan/irish-attested-pronunciations
 https://github.com/jimregan/irish-attested-pronunciations/pull/33/changes#diff-1c3c71361b978f5f70df673f9b395421d203b964786fc1cade0f39522c73927c
 
@@ -238,20 +232,17 @@ https://www.tsdconference.org/tsd2026/php/abstract.php
 cfp2a4.pdf
 https://www.tsdconference.org/tsd2026/cfp/cfp2a4.pdf
 
-TSD spoken sentence transformers - Online LaTeX Editor Overleaf
-https://www.overleaf.com/project/69d2d05105cfc68b0a0ac4fe
-
 Object detection for cross-linguistic vowel analysis: A novel language-agnostic method for forensic speech processing - ScienceDirect
-https://www.sciencedirect.com/science/article/pii/S0167639326000166
+https://www.sciencedirect.com/science/article/pii/S0167639326000166#b4
 
 Building Multi-Agent Systems Locally - Google Gemini
 https://gemini.google.com/app/cdec1ccbad4c7b95?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
 
-gemma4:31b
-https://ollama.com/library/gemma4:31b
+Ollama
+https://ollama.com/search
 
-garvys-org/rustfst: Rust re-implementation of OpenFST - library for constructing, combining, optimizing, and searching weighted finite-state transducers (FSTs). A Python binding is also available.
-https://github.com/garvys-org/rustfst?tab=readme-ov-file
+rustfst/rustfst-python/rustfst/tr.py at main · garvys-org/rustfst
+https://github.com/garvys-org/rustfst/blob/main/rustfst-python/rustfst/tr.py
 
 mhulden/pyfoma: Python Finite-State Toolkit
 https://github.com/mhulden/pyfoma?tab=readme-ov-file
@@ -286,10 +277,10 @@ https://modelcontextprotocol.io/examples
 servers/src/memory at main · modelcontextprotocol/servers
 https://github.com/modelcontextprotocol/servers/tree/main/src/memory
 
-(1) Instagram • Messages
+(2) Instagram • Messages
 https://www.instagram.com/direct/t/110437113687820/?hl=en
 
-(1) Instagram
+(2) Instagram
 https://www.instagram.com/karenfukuhara/?hl=en
 
 Superman (2025 film) - Wikipedia
@@ -907,8 +898,8 @@ https://github.com/kth-tmh/snack/blob/main/tests/all.tcl
 snack/python at main · kth-tmh/snack
 https://github.com/kth-tmh/snack/tree/main/python
 
-snack/python/tkSnack.py at main · kth-tmh/snack
-https://github.com/kth-tmh/snack/blob/main/python/tkSnack.py
+kth-tmh/snack: The Snack Sound Toolkit is designed to be used with a scripting language such as Tcl/Tk or Python.
+https://github.com/kth-tmh/snack
 
 feat: NumPy / librosa / torchaudio interoperability for snack Python package by Copilot · Pull Request #12 · kth-tmh/snack
 https://github.com/kth-tmh/snack/pull/12/changes#diff-431c7eceb4fe9c0e5bfaa1786deb9ee0e208bac3cea8fdbf61691e85e00c7db3
@@ -922,64 +913,25 @@ https://github.com/infiniflow/ragflow
 RAGFlow
 https://ragflow.io/
 
-torchcodec docker - Google Search
-https://www.google.com/search?q=torchcodec+docker&rlz=1C5GCCM_en&oq=torchcodec+docker&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIxgnMgcIAhAAGIAEMgcIAxAAGIAEMgoIBBAAGIAEGKIEMgcIBRAAGO8FMgcIBhAAGO8FMgcIBxAAGO8FMgcICBAAGO8F0gEINTQ4MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+GUI multi platform - The Rust Programming Language Forum
+https://users.rust-lang.org/t/gui-multi-platform/100323
 
-Cant Install torch + torchaudio + torchcodec - DGX Spark / GB10 User Forum / DGX Spark / GB10 - NVIDIA Developer Forums
-https://forums.developer.nvidia.com/t/cant-install-torch-torchaudio-torchcodec/348660
+iced - crates.io: Rust Package Registry
+https://crates.io/crates/iced
 
-torchcodec · PyPI
-https://pypi.org/project/torchcodec/
+iced/winit at dffc6765238090db89e33b4b84400a12e7dacfa2 · iced-rs/iced
+https://github.com/iced-rs/iced/tree/dffc6765238090db89e33b4b84400a12e7dacfa2/winit
 
-Cannot load torchcodec - Beginners - Hugging Face Forums
-https://discuss.huggingface.co/t/cannot-load-torchcodec/169260/4
+egui/crates/eframe at main · emilk/egui
+https://github.com/emilk/egui/tree/main/crates/eframe
 
-Important dates – Odyssey 2026
-https://odyssey2026.inesc-id.pt/important-dates/
+cpal/examples/android at master · RustAudio/cpal
+https://github.com/RustAudio/cpal/tree/master/examples/android
 
-Login | SSSB
-https://minasidor.sssb.se/login/
+tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
+https://github.com/tiiuae/falcon-perception?tab=readme-ov-file#paged-ocr-inference-engine
 
-thrips non toxic pesticides - Google Search
-https://www.google.com/search?q=thrips+non+toxic+pesticides&rlz=1C5GCCM_en&oq=thrips+non+toxic&gs_lcrp=EgZjaHJvbWUqBwgBECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAjIHCAUQIRiPAtIBCDM1OTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-neem olja - Google Search
-https://www.google.com/search?q=neem+olja&rlz=1C5GCCM_en&oq=neem+olja&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCggDEAAYChgWGB4yCggEEAAYChgWGB4yCggFEAAYChgWGB4yCggGEAAYChgWGB4yCggHEAAYChgWGB4yCggIEAAYChgWGB4yCAgJEAAYFhge0gEIMjA1NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-Neemolja – 500 ml - Supergrow.se
-https://supergrow.se/shop/microgreens/haveudstyr/neem-olie-500ml-klar-til-brug/?gad_source=1&gad_campaignid=18588132685&gbraid=0AAAAABUX5lj0tHLlHUknhDcKv838Q6nmn&gclid=Cj0KCQjwkYLPBhC3ARIsAIyHi3TOiNcSFN1YghQk8MAisE9sklA-U26uRQ4BqYpD4AJ2QfYeukHHxTAaAm6eEALw_wcB
-
-Pest control | Plantagen
-https://plantagen.se/en/garden-care/pest-and-weed-control/pest-control
-
-Skadekryps Effekt 500 ml spray | Plantagen
-https://plantagen.se/en/p/skadekryps-effekt-500-ml-spray-533728
-
-Gryningen - Handla hälsokost på nätet
-https://www.gryningen.eu/
-
-skadekryps effekt trips - Google Search
-https://www.google.com/search?q=skadekryps+effekt+trips&sca_esv=00e10f0057297768&rlz=1C5GCCM_en&sxsrf=ANbL-n6IjLVXiX-uYiQpoFlZm4B_9PMgjQ%3A1776351610828&ei=evngaaueMufuwPAPsvzu8A8&biw=1424&bih=714&oq=Skadekryps+Effekt&gs_lp=Egxnd3Mtd2l6LXNlcnAiEVNrYWRla3J5cHMgRWZmZWt0KgIIADIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYRzIKEAAYsAMY1gQYR0iLE1AAWABwAXgBkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAIDmAMAiAYBkAYIkgcBMaAHALIHALgHAMIHAzAuMcgHAoAIAA&sclient=gws-wiz-serp
-
-Thrips - control guide
-https://stick.se/skadedjur/trips/
-
-Produkter
-https://www.neudorff.se/produkter/neudosan-skadekryps-effekt.html
-
-YouTube
-https://www.youtube.com/
-
-Why Hungarian Is So Different? l Word Differences Between Europe VS Turkic Languages!! - YouTube
-https://www.youtube.com/watch?v=3Cq1hPwFei8
-
-10 Slipknot Riffs Most Guitarists Can’t Actually Play! - YouTube
-https://www.youtube.com/watch?v=xCeCT70jVio
-
-Laufey Tries British & Icelandic Food | Snack Wars - YouTube
-https://www.youtube.com/watch?v=ZoUc7z_DB_w
-
-Are Your Favorite METAL Bands REALLY That Good? - YouTube
-https://www.youtube.com/watch?v=r4wNKm__wDI
+Falcon-Perception/demo/ocr.ipynb at main · tiiuae/Falcon-Perception
+https://github.com/tiiuae/Falcon-Perception/blob/main/demo/ocr.ipynb
 
 
