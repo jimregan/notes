@@ -174,3 +174,11 @@ categories: [links]
 [arXiv](https://arxiv.org/abs/2603.27365),
 [code](https://github.com/tiiuae/falcon-perception)
 
+[OscarMBravo/bat-mirialta](https://github.com/OscarMBravo/bat-mirialta)
+
+[Físeáin Scéalta](https://www.glornangael.ie/teangati/acmhainni/fis-fuaim/)
+
+[Leabhair do Pháistí](https://padlet.com/maire8/leabhair-do-ph-ist-iv5c9jic9h6i)
+
+[Ranganna 5 & 6](https://evastack.wixsite.com/robo/rang-5-6)
+
