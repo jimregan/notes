@@ -184,3 +184,4 @@ categories: [links]
 
 [julien-c/hotdog-not-hotdog](https://huggingface.co/julien-c/hotdog-not-hotdog)
 
+[Common Voice Scripted Speech 25.0 - Swedish](https://datacollective.mozillafoundation.org/datasets/cmn2e8gr301evo1079gujuzqr)
