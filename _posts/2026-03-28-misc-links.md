@@ -182,3 +182,5 @@ categories: [links]
 
 [Ranganna 5 & 6](https://evastack.wixsite.com/robo/rang-5-6)
 
+[julien-c/hotdog-not-hotdog](https://huggingface.co/julien-c/hotdog-not-hotdog)
+
