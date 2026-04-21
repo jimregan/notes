@@ -691,3 +691,341 @@ If you want, I can sketch a concrete loss that uses:
 
 in a way that lines up with phonetic theory rather than just ML convenience.
 
+-----
+
+Here’s a concrete setup I’d try.
+
+The main design choice is to stop asking one space to do everything, and instead make the decomposition explicit:
+
+[
+z(x) = \big[z_{\text{ling}}(x); ;; z_{\text{spk}}(x); ;; z_{\text{pros}}(x)\big]
+]
+
+You could add a fourth block later for channel / voice quality / persona, but I would start with three.
+
+The motivation is the same as the paper’s broad lesson: contrastive objectives tend to force one geometry into the learned space, while richer structure needs either separate subspaces or losses that do not aggressively collapse rank. That is one reason a VICReg-like direction is attractive here. 
+
+## Model sketch
+
+Let the trunk be a speech encoder:
+
+[
+h = f_\theta(x)
+]
+
+Then three projection heads:
+
+[
+z_{\text{ling}} = P_{\text{ling}} h,\quad
+z_{\text{spk}} = P_{\text{spk}} h,\quad
+z_{\text{pros}} = P_{\text{pros}} h
+]
+
+I would make them modestly sized and initially similar in width, since your earlier findings suggest imbalance causes one factor to dominate.
+
+A plausible first split:
+
+* (d_{\text{ling}} = 256)
+* (d_{\text{spk}} = 192)
+* (d_{\text{pros}} = 128)
+
+If you want to be conservative, just set all three to 192 at first.
+
+## Data relations to exploit
+
+For each anchor utterance (x), try to construct some subset of:
+
+* (x^{\text{text}}): same or near-same text, different speaker
+* (x^{\text{spk}}): same speaker, different text
+* (x^{\text{pitch}+}), (x^{\text{pitch}-}): pitch-shifted versions
+* (x^{\text{style}}): same speaker, acted voice / dialect imitation / “trying to sound different”
+* (x^{\text{par}}): parallel reading of same text from Librivox
+
+Then define which blocks should be invariant and which should move.
+
+## Losses by block
+
+### 1. Linguistic block
+
+Goal: preserve lexical/semantic content, ignore speaker and moderate prosodic changes.
+
+For (z_{\text{ling}}), use either teacher alignment from sentence transformers or text-linked positives. I would avoid pure shared-space InfoNCE and use a VICReg-style or similarity-regression objective.
+
+A simple version:
+
+[
+\mathcal L_{\text{ling-inv}}
+============================
+
+|z_{\text{ling}}(x)-z_{\text{ling}}(x^{\text{text}})|*2^2
++
+\lambda*{\text{pitch-ling}}
+|z_{\text{ling}}(x)-z_{\text{ling}}(x^{\text{pitch}})|_2^2
+]
+
+If you have a semantic teacher similarity (s^{\text{sem}}_{ij}), better still:
+
+[
+\mathcal L_{\text{ling-rel}}
+============================
+
+\sum_{(i,j)\in \mathcal P}
+\Big(\cos(z_{\text{ling},i},z_{\text{ling},j}) - s^{\text{sem}}_{ij}\Big)^2
+]
+
+Then add VICReg-style variance and covariance regularizers on the batch:
+
+[
+\mathcal L_{\text{ling-var}} + \mathcal L_{\text{ling-cov}}
+]
+
+That gives:
+
+[
+\mathcal L_{\text{ling}}
+========================
+
+\mathcal L_{\text{ling-inv or rel}}
++
+\alpha_\ell \mathcal L_{\text{ling-var}}
++
+\beta_\ell \mathcal L_{\text{ling-cov}}
+]
+
+### 2. Speaker-core block
+
+Goal: stable across text changes and small prosodic manipulations; somewhat stable across performed-voice changes.
+
+Use your speaker teacher if it works, but again I’d lean toward similarity regression or VICReg rather than one global InfoNCE.
+
+[
+\mathcal L_{\text{spk-rel}}
+===========================
+
+\sum_{(i,j)\in \mathcal P}
+\Big(\cos(z_{\text{spk},i},z_{\text{spk},j}) - s^{\text{spk}}_{ij}\Big)^2
+]
+
+Then explicitly add invariance across pitch-shifted versions:
+
+[
+\mathcal L_{\text{spk-pitch}}
+=============================
+
+|z_{\text{spk}}(x)-z_{\text{spk}}(x^{\text{pitch}})|_2^2
+]
+
+And optionally soft invariance across acted voice:
+
+[
+\mathcal L_{\text{spk-style}}
+=============================
+
+w_{\text{style}}
+|z_{\text{spk}}(x)-z_{\text{spk}}(x^{\text{style}})|_2^2
+]
+
+with (w_{\text{style}} < 1), because acted voice may legitimately perturb some speaker cues.
+
+Then again:
+
+[
+\mathcal L_{\text{spk}}
+=======================
+
+\mathcal L_{\text{spk-rel}}
++
+\lambda_{\text{pitch}} \mathcal L_{\text{spk-pitch}}
++
+\lambda_{\text{style}} \mathcal L_{\text{spk-style}}
++
+\alpha_s \mathcal L_{\text{spk-var}}
++
+\beta_s \mathcal L_{\text{spk-cov}}
+]
+
+### 3. Prosody block
+
+Goal: capture pitch/register/contour/style differences while not swallowing semantics or speaker identity.
+
+Here I would not start with a classifier. I would use continuous targets or pairwise ordering.
+
+If you apply a known pitch transform (\Delta) in semitones, you can ask the prosody block distance to reflect it:
+
+[
+\mathcal L_{\text{pros-pitch}}
+==============================
+
+\Big(|z_{\text{pros}}(x)-z_{\text{pros}}(x^{\text{pitch}_\Delta})|_2 - g(|\Delta|)\Big)^2
+]
+
+where (g) can be linear at first, say (g(|\Delta|)=c|\Delta|).
+
+Or, if you want something weaker and safer, use ranking:
+
+[
+|\Delta_1| < |\Delta_2|
+;\Rightarrow;
+|z_{\text{pros}}(x)-z_{\text{pros}}(x^{\text{pitch}*{\Delta_1}})|*2
+<
+|z*{\text{pros}}(x)-z*{\text{pros}}(x^{\text{pitch}_{\Delta_2}})|_2
+]
+
+For acted voice / dialect imitation, use pairwise similarity targets if you have annotations, otherwise just let those examples contribute to variance and relational structure within the prosody block.
+
+You can also add a light regression head for interpretable summaries such as speaker-normalized mean F0, range, or a contour embedding:
+
+[
+\mathcal L_{\text{pros-reg}} = |\hat p(x)-p(x)|_2^2
+]
+
+where (p(x)) is a prosodic descriptor, not raw framewise F0 unless you want to go there.
+
+Then:
+
+[
+\mathcal L_{\text{pros}}
+========================
+
+\mathcal L_{\text{pros-pitch/rank}}
++
+\lambda_{\text{reg}} \mathcal L_{\text{pros-reg}}
++
+\alpha_p \mathcal L_{\text{pros-var}}
++
+\beta_p \mathcal L_{\text{pros-cov}}
+]
+
+## Cross-block separation
+
+This is the part I would consider essential.
+
+Penalize cross-covariance between blocks:
+
+[
+\mathcal L_{\text{sep}}
+=======================
+
+|\mathrm{Cov}(Z_{\text{ling}}, Z_{\text{spk}})|*F^2
++
+|\mathrm{Cov}(Z*{\text{ling}}, Z_{\text{pros}})|*F^2
++
+|\mathrm{Cov}(Z*{\text{spk}}, Z_{\text{pros}})|_F^2
+]
+
+where (Z_{\text{ling}}) etc. are batch matrices.
+
+That is more useful than just hoping the heads separate on their own.
+
+If you want something stronger, add adversarial nuisance removal:
+
+* a gradient-reversal classifier predicting speaker from (z_{\text{ling}})
+* a classifier predicting text/semantics from (z_{\text{spk}})
+* maybe predicting coarse pitch bin from (z_{\text{ling}})
+
+But I would start with covariance penalties first.
+
+## Full loss
+
+A clean first full objective would be:
+
+[
+\mathcal L
+==========
+
+\lambda_\ell \mathcal L_{\text{ling}}
++
+\lambda_s \mathcal L_{\text{spk}}
++
+\lambda_p \mathcal L_{\text{pros}}
++
+\lambda_{\text{sep}} \mathcal L_{\text{sep}}
+]
+
+with all four weights of the same rough order initially.
+
+If you want a concrete starting point:
+
+[
+\lambda_\ell = 1.0,\quad
+\lambda_s = 1.0,\quad
+\lambda_p = 0.7,\quad
+\lambda_{\text{sep}} = 0.1
+]
+
+Then tune based on leakage diagnostics.
+
+## Why not just InfoNCE everywhere?
+
+Because your own experiments already suggest the failure mode: one shared contrastive geometry tends to let the easiest or coarsest target dominate. The paper’s framing is consistent with that: these methods are tightly tied to the geometry of the target relation structure, and contrastive losses in particular can push toward a compressed representation of that structure. VICReg-like terms are less brittle when you need multiple structures to coexist. 
+
+## How to use the Librivox cases
+
+These are especially useful because one pair can supervise different blocks differently.
+
+For same speaker, same text, different performed voice:
+
+* (z_{\text{ling}}): positive
+* (z_{\text{spk}}): moderately positive
+* (z_{\text{pros}}): allowed to differ
+
+For same text, different speaker:
+
+* (z_{\text{ling}}): positive
+* (z_{\text{spk}}): negative or unrelated
+* (z_{\text{pros}}): maybe neutral
+
+For same speaker, dialect imitation:
+
+* (z_{\text{spk}}): positive
+* (z_{\text{pros}}): likely different
+* (z_{\text{ling}}): depends whether text is same or paraphrastic
+
+That block-specific reuse of the same pair is the real advantage.
+
+## Diagnostics I’d track
+
+You’ll want more than retrieval metrics.
+
+I’d explicitly measure:
+
+1. How well text is recoverable from (z_{\text{ling}}), and how poorly from (z_{\text{spk}}).
+2. How well speaker is recoverable from (z_{\text{spk}}), and how poorly from (z_{\text{ling}}).
+3. Whether pitch-shift magnitude is monotonic with distance in (z_{\text{pros}}).
+4. Whether same-speaker acted-voice pairs stay closer in (z_{\text{spk}}) than different-speaker pairs.
+5. Cross-block covariance over training.
+
+If one block starts solving everyone else’s job, you’ll see it quickly.
+
+## A very simple first ablation
+
+If you want the shortest path to something informative, I’d do this first:
+
+* three heads
+* semantic teacher similarity regression on (z_{\text{ling}})
+* speaker teacher similarity regression on (z_{\text{spk}})
+* pitch-shift ranking loss on (z_{\text{pros}})
+* VICReg variance/covariance within each block
+* cross-block covariance penalty
+
+No gender classifier, no dialect classifier at first.
+
+Then, once that is stable, add dialect as either:
+
+* a tiny auxiliary classifier on (z_{\text{pros}}), or
+* a fourth block if it clearly behaves as its own axis
+
+That seems safer than mixing it in from the start.
+
+## My strongest guess
+
+The highest-payoff change is probably not any one loss term, but the combination of:
+
+* block-specific objectives
+* within-block anti-collapse regularization
+* explicit cross-block decorrelation
+
+That is the smallest design that matches what your experiments already seem to be telling you.
+
+If you want, next I can turn this into a more implementation-shaped recipe, including a batch construction strategy for Librivox-style parallel readings.
+
