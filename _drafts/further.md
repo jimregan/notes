@@ -303,3 +303,188 @@ The shortest version is:
 
 A concrete next step would be to treat these Librivox examples as supervision for a new **style/persona factor**, not just as a refinement of gender. That framing is likely to be much more productive.
 
+-----
+
+Exactly — **within-speaker transformations** are the valuable part.
+
+Those cases give you supervision of the form:
+
+* same underlying speaker
+* changed surface realization
+* sometimes same text, sometimes different text
+* changed dialect/style/persona/presentation
+
+That is much stronger than ordinary labels because it tells you which factors are allowed to move and which should stay stable.
+
+In your setting, those examples let you ask for something like:
+
+[
+z = [z_{\text{sem}}, z_{\text{speaker-core}}, z_{\text{style}}, z_{\text{dialect}}]
+]
+
+with constraints such as:
+
+* same text, same speaker, different performed voice
+  → keep (z_{\text{sem}}) stable, keep much of (z_{\text{speaker-core}}) stable, allow (z_{\text{style}}) to move
+
+* same speaker, dialect emulation
+  → keep speaker-core stable, let dialect/style move
+
+* same text, different speakers
+  → keep semantics stable, allow speaker/style/dialect to move
+
+That is the kind of data that can actually teach a model not to collapse these factors together.
+
+The reason this matters so much is that most datasets only show correlations:
+
+* one speaker usually has one habitual dialect range
+* one speaker usually has one gender presentation
+* one text is usually read one way
+
+Your Librivox-style cases give you **interventions** instead of just correlations. They are not perfect interventions, but they are close enough to be useful:
+
+* “same speaker, different apparent dialect”
+* “same speaker, different character voice”
+* “same speaker, trying to sound different”
+
+That is exactly what helps break shortcut learning.
+
+I would lean toward treating these not mainly as class labels, but as **transformation metadata**. In other words, the supervision is not just “this sample belongs to dialect X,” but “this sample is a transformed version of the same speaker under a different style/dialect condition.”
+
+That points toward a better loss design than plain shared-space InfoNCE.
+
+A useful recipe would be:
+
+[
+\mathcal L =
+\lambda_{\text{sem}} \mathcal L_{\text{sem}}
+
+* \lambda_{\text{spk}} \mathcal L_{\text{spk-core}}
+* \lambda_{\text{style}} \mathcal L_{\text{style}}
+* \lambda_{\text{sep}} \mathcal L_{\text{separation}}
+  ]
+
+where:
+
+* (\mathcal L_{\text{sem}}): align same/similar text regardless of speaker/style
+* (\mathcal L_{\text{spk-core}}): pull together same underlying reader across performed voices
+* (\mathcal L_{\text{style}}): capture acted voice / dialect / persona differences in a separate block
+* (\mathcal L_{\text{separation}}): decorrelate or orthogonalize these blocks
+
+The really important part is that the same pair of examples can be:
+
+* positive for one block
+* neutral or negative for another
+
+For example, two readings by the same speaker in different voices might be:
+
+* positive for speaker-core
+* positive for semantics if same text
+* explicitly different for style
+
+That kind of multi-view supervision is much more expressive than one global contrastive loss.
+
+I also think “trying to sound different” is valuable even if it is vague. In fact, vague natural variation may be better than a hard label in some cases, because it produces a continuum rather than another brittle partition. A model can learn that there are dimensions of controlled vocal change without needing you to perfectly name them.
+
+So I would treat within-speaker transformations as evidence that your problem is really about **equivariance and invariance**:
+
+* semantics should be invariant to speaker/style/dialect changes
+* speaker-core should be invariant to many style changes
+* style/dialect blocks should be equivariant to those transformations
+
+That is a much richer framing than “one embedding for everything.”
+
+The cleanest hypothesis statement might be:
+
+> Performance improves when supervision includes within-speaker transformations that decouple stable speaker identity from controllable surface variation.
+
+That feels like a strong empirical thesis.
+
+The most promising next move is probably to build a training set organized around transformation pairs/triples, not just labels.
+
+-----
+
+Yes — **within-speaker transformations** is the key idea.
+
+That kind of data is unusually valuable because it gives you examples where the same underlying speaker moves along some axes but not others. In your setting, those axes might include:
+
+* semantic content
+* speaker core identity
+* dialect/style/persona
+* coarse sex-coded vocal presentation
+* expressive or character voice
+
+That is much better supervision than ordinary speaker labels, because ordinary labels mostly tell you **who differs from whom**, while these examples tell you **how the same person can differ from themselves**.
+
+From the perspective of the paper, the important thing is that your training signal is really a collection of relation structures (G), not just a single one. What your Librivox-style cases give you is a way to define relations like:
+
+* same speaker core, different style
+* same speaker core, different dialect performance
+* same semantics, different speaker
+* same speaker, “trying to sound different”
+
+That is exactly the sort of richer relation graph that a simple InfoNCE setup usually does not encode well when forced into one shared geometry. The paper’s main lesson here is that SSL behavior depends very strongly on the structure of the relation matrix, and contrastive methods are tightly constrained by it. 
+
+The really useful conceptual split is probably:
+
+[
+z = [z_{\text{sem}}, z_{\text{speaker-core}}, z_{\text{style/persona}}, z_{\text{dialect/style-shift}}]
+]
+
+Not because those factors are perfectly clean, but because your new data finally gives you a chance to tell them apart.
+
+What makes “trying to sound different” especially interesting is that it is broader than a neat class label. It is not just “dialect A vs dialect B.” It may involve:
+
+* pitch placement
+* prosodic patterning
+* articulation changes
+* timing/rhythm changes
+* affect/performance
+* imitation
+
+So it behaves less like a fixed categorical target and more like a **family of within-speaker transformations**. That is good news, because it means you can use it to supervise **invariance and equivariance**, not just classification.
+
+The most natural reading is:
+
+* **speaker-core** should remain relatively stable
+* **style/persona/dialect-performance** should be allowed to move
+* **semantics** should depend mostly on the text, not on the voice change
+
+That gives you much sharper training relations than “this clip is male” or “this clip is dialect X.”
+
+I think this also clarifies why the earlier gender softmax caused collapse while dialect softmax could help. A binary gender label is a crude partition that the model can exploit as a shortcut. But within-speaker dialect emulation or character voicing creates **counterexamples to the shortcut**. It teaches the model that apparent surface voice properties are not identical to speaker identity. That is exactly the kind of structure you need if you want factorization instead of entanglement.
+
+A good way to use this data would be to make pairs or triplets with explicit meanings:
+
+* same speaker, same text, different performed voice
+  → preserve semantics, mostly preserve speaker-core, allow style shift
+
+* same speaker, different text, different performed voice
+  → preserve speaker-core more weakly, separate semantics, allow style shift
+
+* different speakers, same text
+  → preserve semantic similarity, separate speaker-core
+
+* same speaker, dialect emulation vs native style
+  → preserve speaker-core, move dialect/style block
+
+So the signal is not just “what class is this?”, but “what should stay fixed and what should change?”
+
+That suggests a very promising modeling direction: treat these examples as supervision for a **transform block** rather than just another classifier target. In other words, instead of only asking the model to assign labels, ask it to encode:
+
+* stable identity
+* controllable deviation from identity
+
+That is closer to what your data actually contains.
+
+The shortest summary is:
+
+> Within-speaker transformations are valuable because they replace static labels with structured counterfactuals.
+
+And for your problem, counterfactuals are probably the missing ingredient.
+
+If you want, I can next sketch a concrete loss setup built around within-speaker transformation pairs, with separate terms for speaker-core, semantics, and style shift.
+
+-----
+
+
