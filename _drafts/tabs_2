@@ -16,62 +16,8 @@ https://openclaw.ai/
 Showcase — What People Are Building with OpenClaw
 https://openclaw.ai/showcase
 
-(1) Christine Yip on X: "@jcochranio @openclaw I connected mine to an external memory layer - check out the shared-memory skill in clawdhub. Clawdbot helps me build my second brain and selectively shares context and state with my partner's clawdbot. https://t.co/5nFWBF6o6T" / X
-https://x.com/christinetyip/status/2013196232181637500
-
-(1) Home / X
-https://x.com/home
-
-(1) Guan-Ting (Daniel) Lin on X: "𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗻𝗴 𝗙𝘂𝗹𝗹-𝗗𝘂𝗽𝗹𝗲𝘅-𝗕𝗲𝗻𝗰𝗵-𝘃𝟯 🚀 Voice agents aren't just chatbots—they need to ACT by using tools 🔨. To feel natural, they must handle your "ums", mid-sentence corrections, and call APIs with low latency. 🧵👇 https://t.co/32ovJsCJPu" / X
-https://x.com/GTL094144/status/2041065414659285444
-
-(1) ModelScope on X: "VoxCPM2 is now open source — tokenizer-free diffusion TTS, 2B params, 30 languages. 🚀 🌍 30 languages + 9 Chinese dialects — no language tag 🎨 Voice Design: text description → voice generation. No reference audio. 🎙️ 3 cloning modes: basic / controllable (style steering) / https://t.co/H0CaPV8lFN" / X
-https://x.com/ModelScope2022/status/2041343097498374564
-
-VoxCPM2 · Models
-https://modelscope.ai/models/OpenBMB/VoxCPM2
-
-(1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
-https://x.com/MaziyarPanahi/status/2040776481673281936
-
-(1) Charly Wargnier on X: "🚨 The new era of Open-Source TTS is here. @OpenBMB's VoxCPM 2 just dropped and it changes the game for voice synthesis. We are moving past fixed speaker presets to true "Concept-to-Voice" generation. Just describe the voice you want in text, and the 2B model builds it. How https://t.co/wetVFDVTyc" / X
-https://x.com/DataChaz/status/2041289800695873546
-
-OpenBMB/VoxCPM: VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
-https://github.com/OpenBMB/VoxCPM/
-
-(1) Paul Couvert on X: "You can now fine-tune Gemma 4 (and 500 other open source models) in a free Google Colab 🔥 1. Open the Colab notebook below 2. Run the blocks to launch Unsloth Studio 3. Choose a model and dataset 4. Hit 'Start Training' And you're done! https://t.co/jfmdJ1KjQz" / X
-https://x.com/itsPaulAi/status/2041217694767415320
-
-Text-to-Speech (TTS) Fine-tuning Guide | Unsloth Documentation
-https://unsloth.ai/docs/basics/text-to-speech-tts-fine-tuning#preparing-your-dataset
-
 MrDragonFox/Elise · Datasets at Hugging Face
 https://huggingface.co/datasets/MrDragonFox/Elise
-
-unslothai/unsloth: Unsloth Studio is a web UI for training and running open models like Qwen3.5, Gemma 4, DeepSeek, gpt-oss locally.
-https://github.com/unslothai/unsloth?tab=readme-ov-file
-
-(1) Maziyar PANAHI on X: "I showed you SAM 3 all week. This is a 0.6B model that outperforms it. Falcon Perception. Type "detect the plane" and it segments every plane in the frame. Pixel-accurate masks from natural language. Fighter jets. Fire. Crowds. All on a MacBook via MLX. No cloud. https://t.co/qutMgI0N9L" / X
-https://x.com/MaziyarPanahi/status/2040776481673281936
-
-tiiuae/Falcon-Perception: Inference repo for Falcon-Perception and Falcon-OCR model, early-fusion, natively multimodal, dense Autoregressive Transformer models.
-https://github.com/tiiuae/falcon-perception
-
-Integrations — OpenClaw
-https://openclaw.ai/integrations
-
-Models CLI - OpenClaw
-https://docs.openclaw.ai/concepts/models
-
-OpenRouter
-https://openrouter.ai/
-
-Arthur-Ficial/apfel: Apple Intelligence from the command line. On-device LLM via FoundationModels framework. No API keys, no cloud, no dependencies.
-https://github.com/Arthur-Ficial/apfel
-
-openclaw/clawhub: Skill Directory for OpenClaw
-https://github.com/openclaw/clawhub?tab=readme-ov-file
 
 onlycrabs.ai
 https://onlycrabs.ai/
@@ -90,9 +36,6 @@ https://huggingface.co/jimregan/merged-tts-dialect-classification/tree/main
 
 synalinks-memory-skills/synalinks-memory-cli/SKILL.md at main · SynaLinks/synalinks-memory-skills
 https://github.com/SynaLinks/synalinks-memory-skills/blob/main/synalinks-memory-cli/SKILL.md
-
-Course groups: DT2119/FDT3119 VT26 Speech and Speaker Recognition
-https://canvas.kth.se/courses/62544/groups#tab-35858
 
 sam2/training/README.md at main · facebookresearch/sam2
 https://github.com/facebookresearch/sam2/blob/main/training/README.md
@@ -130,61 +73,10 @@ https://datacollective.mozillafoundation.org/datasets/cmndapwry02jnmh07dyo46mot
 common-voice/cv-dataset: Metadata and versioning details for the Common Voice dataset
 https://github.com/common-voice/cv-dataset
 
-What happened to the Mozilla Common Voice dataset on Hugging Face? : r/huggingface
-https://www.reddit.com/r/huggingface/comments/1oe154v/what_happened_to_the_mozilla_common_voice_dataset/
-
-transcript/ga-IE/test.tsv · fsicoli/common_voice_15_0 at main
-https://huggingface.co/datasets/fsicoli/common_voice_15_0/blob/main/transcript/ga-IE/test.tsv
-
-Plenary Lectures | JSALT2025
-https://jsalt2025.fit.vut.cz/plenary-lectures#3
-
-CLI – Codex | OpenAI Developers
-https://developers.openai.com/codex/cli
-
-codex/.vscode/settings.json at main · openai/codex
-https://github.com/openai/codex/blob/main/.vscode/settings.json
-
-Sign into Codex
-http://localhost:1455/success?id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImIxZGQzZjhmLTlhYWQtNDdmZS1iMGU3LWVkYjAwOTc3N2Q2YiIsInR5cCI6IkpXVCJ9.eyJhdF9oYXNoIjoiR2I2UTh6Mmp0X01GXzBNUllwVk9tUSIsImF1ZCI6WyJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIl0sImF1dGhfcHJvdmlkZXIiOiJnb29nbGUiLCJhdXRoX3RpbWUiOjE3NzU1NzE3OTEsImVtYWlsIjoiamFvcmVnYW5AdGNkLmllIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImV4cCI6MTc3NTU3NTM5MiwiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9hdXRoIjp7ImNoYXRncHRfYWNjb3VudF9pZCI6ImU3OTEyZWFmLTEyYWQtNDg0MC1iZTQ5LWQ5YmQyM2Q2Njg2NiIsImNoYXRncHRfcGxhbl90eXBlIjoicGx1cyIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2FjdGl2ZV9zdGFydCI6bnVsbCwiY2hhdGdwdF9zdWJzY3JpcHRpb25fYWN0aXZlX3VudGlsIjoiMjAyNi0wNC0xNlQyMToyNDozMSswMDowMCIsImNoYXRncHRfc3Vic2NyaXB0aW9uX2xhc3RfY2hlY2tlZCI6IjIwMjYtMDQtMDdUMTQ6MjM6MTEuMjE0MDU4KzAwOjAwIiwiY2hhdGdwdF91c2VyX2lkIjoidXNlci1OSUxCaWhzNTRaNU1IZGV3WHNkRnBtc0wiLCJncm91cHMiOltdLCJsb2NhbGhvc3QiOnRydWUsIm9yZ2FuaXphdGlvbnMiOlt7ImlkIjoib3JnLTE0cE9MTGN2QXRRaVdnWXprZ3ljUVdUaiIsImlzX2RlZmF1bHQiOnRydWUsInJvbGUiOiJvd25lciIsInRpdGxlIjoiUGVyc29uYWwifV0sInVzZXJfaWQiOiJ1c2VyLU5JTEJpaHM1NFo1TUhkZXdYc2RGcG1zTCJ9LCJpYXQiOjE3NzU1NzE3OTIsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiOTI4NGYzNGEtOGVkOC00MDZhLWI5MDItNGViMjhjMDY0ZTljIiwibmFtZSI6IkppbSBPJ1JlZ2FuIiwicmF0IjoxNzc1NTcxNzM5LCJzaWQiOiJiYTI4NTkyZi02MTU2LTQxMTktYjYzMS1kZjI2OWUyNTU1ZmQiLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNzg4NjkzOTQzMTI4MzUwNDUzMiJ9.vm6liK0VEA_N4EoaSQ1HeLinXKcKHte5RgIG80ci2BWHaZyVW-RupC29quaFBfLje2zsnDoBMVCmDJc3VJ9FuL2FuJCtCjIg0Fo84c0O878YGwZbsqzcTaj-gED5cKyABqFp0awUZipLgbaQaxElhhu3BQoh48GpDbH5iO0nqWc1x93DlVc3PV_xdQaW2XO6Q3qXp0A4v_l0yNL4kVpB-WQpgxnk7zhr4eSGGe1rI3Q9bHVv6CqR141QlgIY49SQEqvlI-AdHRx45wwxY5KWobj8opMX-hIKVFbRkHzPbxzOn8_k-S8xscv8uMcd25c3w1yMHjSsSnmSUPfVliVyTXrfGBlW_r6UnmSf_RwT0cK7jJzmCIvsuk2fGChrQPEf-oZ8D7pBmVJfZrtBIML3NDaq8KnckbEgNfd7ri1BzQp-vDZtdpQCzJ3otz2QuwXSrHkGB5Is2oGJxlrvrey-bWIElQkbB99H4QhlK8uemP8S5qClkilnzeRaPffFWK-c73XhKfJxLVx5zYO6qxCQMi-dGnbDlnkYM5zcrBXdG9ADSONmLG6Qt3JRnYzGUnPHFOEY12vJR9PP9DdV2YsgqO04KYz_2oq1K0lnggY1mk4WC5y88oxnHsIIuME6DBsOFfdoe-lc_uRinHGPeI8NUHx-7Z5vvoXR9iM2_urJ80A&needs_setup=false&org_id=&project_id=&plan_type=plus&platform_url=https%3A%2F%2Fplatform.openai.com
-
-YouTube
-https://www.youtube.com/
-
 Montreal-Forced-Aligner/montreal_forced_aligner/language_modeling/multiprocessing.py at main · MontrealCorpusTools/Montreal-Forced-Aligner
 https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/montreal_forced_aligner/language_modeling/multiprocessing.py
 
 How to Generate Text in One Step
 https://one-step-lm.github.io/blog/
-
-Type IPA phonetic symbols - online keyboard (all languages)
-https://ipa.typeit.org/full/
-
-ceannaigh - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/ceannaigh
-
-Irish Pronunciation Database: sroich
-https://www.teanglann.ie/en/fuaim/sroich
-
-sroich - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/sroich
-
-croith - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/croith
-
-muintir - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/muintir
-
-language-resources/af/BUILD.bazel at master · google/language-resources
-https://github.com/google/language-resources/blob/master/af/BUILD.bazel
-
-Branches · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/branches
-
-Gweedore alignables for fuaimeanna.ie by jimregan · Pull Request #29 · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/pull/29/changes#diff-f1a5228f424b555f4a5ac4a49879dfbf2e68a357e314dc59406b629c99ae3de3
-
-pyfestus/examples/gaeilge_chorca_dhuibhne/alignables.txt at main · jimregan/pyfestus
-https://github.com/jimregan/pyfestus/blob/main/examples/gaeilge_chorca_dhuibhne/alignables.txt
 
 
