@@ -1,6 +1,38 @@
-Here’s a clear, concise summary of the paper:
-
 ---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Retrieval Augmented Generation based context discovery for ASR
+categories: [chatgpt, summary]
+---
+
+# [Retrieval Augmented Generation based context discovery for ASR](https://aclanthology.org/2025.findings-emnlp.768/)
+
+```bibtex
+@inproceedings{dimitrios-etal-2025-retrieval,
+    title = "Retrieval Augmented Generation based context discovery for {ASR}",
+    author = "Dimitrios, Siskos  and
+      Papadopoulos, Stavros  and
+      Parada, Pablo Peso  and
+      Zhang, Jisi  and
+      Saravanan, Karthikeyan  and
+      Drosou, Anastasios",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.768/",
+    doi = "10.18653/v1/2025.findings-emnlp.768",
+    pages = "14247--14254",
+    ISBN = "979-8-89176-335-7",
+}
+```
 
 ## **Summary of the Paper**
 
@@ -99,8 +131,4 @@ The proposed **CB-RAG approach** is:
 * **Flexible** (works with black-box ASR systems)
 
 ➡️ Best suited for **real-time or resource-constrained applications**, where LLM-based solutions are too expensive.
-
----
-
-If you want, I can also break it down into a super simple explanation or compare it with other RAG systems.
 
