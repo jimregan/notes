@@ -188,3 +188,118 @@ The shortest diagnosis is: you were mixing **metric supervision** and **decision
 
 I can sketch a full candidate loss for your speech setup next, with terms and recommended dimensional splits.
 
+-----
+
+Yes — that sounds like exactly the kind of data that could help tease these things apart.
+
+What you want, in effect, is to **break the shortcut** between coarse attribute labels and stable speaker identity. Right now, “gender” is probably acting less like an independent factor and more like a cheap proxy for speaker clusters. If the same underlying reader can produce both their usual voice and a character voice that crosses that boundary, then the model can no longer rely on the old equivalence:
+
+[
+\text{gender-like cue} \approx \text{speaker identity}
+]
+
+That is valuable even if the acting is imperfect.
+
+The nice thing about your Librivox idea is that it gives you something stronger than just more label variety. It gives you **controlled violations** of the usual correlations:
+
+* same speaker, different presented voice
+* same text, different speakers
+* same semantic content, different vocal persona
+* possibly same speaker, multiple character styles
+
+That is much closer to the kind of supervision you need if you want the model to stop entangling speaker identity, coarse sex-coded acoustics, and semantics.
+
+The particular expansion from male/female to male/female/male-acting-female/female-acting-male is useful not because those are perfect ontological categories, but because they create a more informative structure in the data. A binary gender label is spectrally tiny and easy for the model to exploit as a shortcut. A richer label family like this starts to behave more like a structured nuisance or style variable instead of a single dominant partition. That fits the broader lesson from the paper: the geometry induced by the supervision matters a lot, and crude low-rank partitions can dominate in bad ways, while richer structure can coexist more constructively with other objectives. 
+
+I would be slightly careful, though, about how you use those categories.
+
+The most promising use is probably **not**:
+
+* “train a bigger softmax over these four labels”
+
+but rather:
+
+* use them to build **counterfactual pairs and triplets**
+
+For example:
+
+* same speaker, same text, different presented voice
+* same speaker, different text, similar presented voice
+* different speaker, same text
+* different speaker, different text, similar character type
+
+Those are much more informative than a plain class label because they tell the model what should stay invariant and what should move.
+
+The really interesting signal in your proposed data is:
+
+> “Here is a case where apparent gender presentation changed, but speaker identity did not.”
+
+That is gold for disentanglement. It lets you tell the model:
+
+* speaker block should stay stable here
+* style / character block may move
+* semantic block should stay stable if the text is unchanged
+
+So I think the main value is not just “expands the speaker identity space a little,” though it does. The bigger value is that it gives you **within-speaker transformations** that expose the internal structure of speaker representation.
+
+A useful way to think about it is to decompose the vocal factors as something like:
+
+[
+z_{\text{audio}} = [z_{\text{sem}}, z_{\text{speaker}}, z_{\text{style}}, z_{\text{channel}}]
+]
+
+and your Librivox material may finally give you examples where:
+
+* (z_{\text{sem}}) fixed
+* (z_{\text{speaker}}) mostly fixed
+* (z_{\text{style}}) changes a lot
+
+That is exactly the kind of supervision ordinary datasets rarely provide.
+
+There is one subtlety: if the reader is “putting on a voice,” the model may decide that this *is* part of speaker identity rather than a separate factor. That is not necessarily wrong. In practice, your speaker space probably has at least two layers:
+
+* stable biological / habitual vocal traits
+* controllable performative style
+
+So you may eventually want to split what you currently call “speaker” into:
+
+* **speaker core**
+* **voice style / persona**
+
+That might explain some of your earlier findings too. Gender could have caused collapse because it was too coarse and too correlated with speaker shortcuts, while this new acted-voice material may work better because it introduces **variation within a speaker**, which helps the model see that those cues are not identical.
+
+If I were designing around this data, I would probably use it in one of these ways:
+
+First, as **invariance supervision**:
+
+* same text across readers: preserve semantics
+* same reader across character voices: preserve speaker-core somewhat
+* same reader, different character voice: allow style block to vary
+
+Second, as **anti-shortcut supervision**:
+
+* explicitly penalize a semantic block if it can predict presented gender/style too easily
+* maybe also penalize a speaker-core block if it moves too much across acted voices
+
+Third, as **relational supervision** rather than class supervision:
+
+* do not just classify “male/female/etc.”
+* build pairwise similarities like:
+
+  * same underlying reader
+  * same textual content
+  * same character style family
+  * same recording session/book
+
+That should give you cleaner geometry than another softmax alone.
+
+So I think your instinct is good. What this data buys you is not merely more labels. It gives you **correlation-breaking examples**, and those are exactly what a factorized system needs.
+
+The shortest version is:
+
+* Binary gender labels collapse because they are coarse shortcuts.
+* Acted-voice data helps because it creates cases where coarse vocal presentation changes while speaker identity does not.
+* That gives you the raw material to separate speaker-core from style/persona instead of forcing the model to conflate them.
+
+A concrete next step would be to treat these Librivox examples as supervision for a new **style/persona factor**, not just as a refinement of gender. That framing is likely to be much more productive.
+
