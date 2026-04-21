@@ -1,5 +1,32 @@
-Here’s a **clear, low-math summary** of the paper you uploaded:
+---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Simulating Hard Attention Using Soft Attention
+categories: [chatgpt, summary]
+---
 
+
+## [Simulating Hard Attention Using Soft Attention](https://aclanthology.org/2026.tacl-1.8/)
+
+```bibtex
+@article{yang-etal-2026-simulating,
+    title = "Simulating Hard Attention Using Soft Attention",
+    author = "Yang, Andy  and
+      Strobl, Lena  and
+      Chiang, David  and
+      Angluin, Dana",
+    journal = "Transactions of the Association for Computational Linguistics",
+    volume = "14",
+    year = "2026",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/2026.tacl-1.8/",
+    doi = "10.1162/tacl.a.597",
+    pages = "147--166",
+}
+```
 
 ---
 
@@ -150,11 +177,4 @@ To make this work, you must give up something:
 This paper shows:
 
 > Standard transformers *can* simulate more “symbolic” or “algorithmic” behavior—but only under specific conditions that make attention sharper or more sensitive.
-
----
-
-If you want, I can also give:
-
-* A 1-paragraph ultra-short summary
-* Or a visual analogy version (even simpler)
 
