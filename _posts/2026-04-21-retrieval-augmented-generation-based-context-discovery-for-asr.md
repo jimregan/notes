@@ -134,11 +134,7 @@ The proposed **CB-RAG approach** is:
 
 ---
 
-Here’s a **skeptical addendum** you can attach to the earlier summary—written so future-you immediately knows whether it’s worth revisiting:
-
----
-
-## **Addendum (Critical Perspective / “Should I re-read this?”)**
+## Addendum
 
 ### **Core Reality Check**
 
@@ -156,7 +152,7 @@ The “RAG” label is largely superficial:
 
 ---
 
-### **Historical Context (Why it feels familiar)**
+### **Historical Context
 
 The method closely mirrors long-standing techniques:
 
@@ -181,7 +177,7 @@ These are **engineering updates**, not conceptual advances.
 
 ---
 
-### **Limitations / Why it’s not that impactful**
+### **Limitations**
 
 * Retrieval is still **lexical-heavy** (weak semantic generalization)
 * No principled integration with decoding (unlike proper LM fusion)
@@ -204,22 +200,4 @@ These are **engineering updates**, not conceptual advances.
 not:
 
 > **“a paper that changes how we think about ASR or RAG”**
-
----
-
-### **Recommendation to Future You**
-
-* **Do NOT re-read for theory or novelty**
-* Only revisit if you need:
-
-  * a simple **plug-and-play contextual biasing baseline**
-  * or a **lightweight alternative to LLM-based pipelines**
-
-Otherwise, it’s safe to treat as:
-
-> **incremental + well-executed, but not essential reading**
-
----
-
-If you want, I can compress this even further into a one-paragraph “paper memory” version for quick recall.
 
