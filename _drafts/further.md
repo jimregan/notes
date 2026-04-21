@@ -487,4 +487,207 @@ If you want, I can next sketch a concrete loss setup built around within-speaker
 
 -----
 
+Good — then you already know where the bodies are buried here 🙂
+
+What I said about pitch being only a partial proxy for prosody was the polite, ML-friendly understatement. From a phonetics perspective, the real issue is more structural:
+
+> **F0 is one control signal among several, and often not the one that carries the linguistically relevant contrast.**
+
+So if you lean too hard on pitch as “the prosody axis,” you risk teaching the model a very particular, somewhat artificial decomposition of the signal.
+
+---
+
+## 🧠 What your background lets you exploit (that most ML setups miss)
+
+Most ML treatments flatten prosody into:
+
+* pitch (maybe log-F0)
+* sometimes energy
+
+But you know prosody lives in:
+
+* **contour shape**, not just level (intonational phonology)
+* **timing** (durational patterns, rhythm class, segment lengthening)
+* **relative scaling** (speaker-normalized ranges, register shifts)
+* **alignment** (tone–segment anchoring)
+* **discourse structure** (focus, phrasing, boundary strength)
+
+So the interesting opportunity in your setup is not “add pitch,” but:
+
+> Use pitch *as a controllable intervention*, while letting the model discover a broader **prosodic subspace**.
+
+---
+
+## 🔬 Why pitch still works well in your case
+
+Even with all that, pitch is still extremely useful here for one reason:
+
+> It gives you **clean counterfactuals with minimal lexical disruption**
+
+A small pitch shift:
+
+* preserves segmental content
+* mostly preserves speaker identity (up to limits)
+* perturbs a salient but *non-discrete* dimension
+
+That makes it ideal for **probing invariances**, not defining the space.
+
+---
+
+## ⚠️ Where pitch-as-target can go wrong (phonetically speaking)
+
+You’ll already anticipate these, but they matter for modeling:
+
+### 1. Register vs contour
+
+A global pitch shift changes register, not contour shape.
+
+So:
+
+* the model may learn “prosody = mean F0”
+* and completely ignore contour-level distinctions (e.g. H* vs L* patterns)
+
+### 2. Speaker normalization leakage
+
+If your speaker embedding encodes pitch range (it usually does), then:
+
+* pitch shifts can leak into speaker-core
+* unless you explicitly constrain it
+
+### 3. Nonlinear perceptual effects
+
+Equal Hz shifts ≠ equal perceptual shifts:
+
+* semitone scaling is better, but still not perfect across speakers
+
+### 4. Interaction with voice quality
+
+Especially in acted speech:
+
+* falsetto, creak, breathiness, etc.
+* these often co-vary with F0 but are not reducible to it
+
+---
+
+## 💡 A more “phonetician-native” way to use pitch here
+
+Instead of treating pitch as a **target**, treat it as a **known transformation operator**.
+
+You can think in terms of:
+
+> “What representation is invariant under this transformation, and what representation is equivariant?”
+
+---
+
+### Suggested decomposition (phonetically grounded)
+
+[
+z = [z_{\text{ling}}, z_{\text{speaker-core}}, z_{\text{prosody}}, z_{\text{voice-quality}}]
+]
+
+Where:
+
+* **(z_{\text{ling}})** → segmental + lexical + semantic content
+* **(z_{\text{speaker-core}})** → anatomical / habitual traits
+* **(z_{\text{prosody}})** → contour, phrasing, prominence
+* **(z_{\text{voice-quality}})** → phonation, register, etc.
+
+Pitch shifts should ideally:
+
+* leave (z_{\text{ling}}) invariant
+* mostly leave (z_{\text{speaker-core}}) invariant (small shifts)
+* move (z_{\text{prosody}}) in a structured way
+* possibly interact with (z_{\text{voice-quality}})
+
+---
+
+## 🧪 Better than raw pitch: relative / structured signals
+
+Given your background, you might get more mileage from:
+
+### 1. **Speaker-normalized F0**
+
+* z-score or semitone relative to speaker baseline
+* reduces leakage into speaker-core
+
+### 2. **Contour features**
+
+* slope, curvature, turning points
+* or even learned via a small contour encoder
+
+### 3. **Pairwise prosodic similarity**
+
+Instead of absolute pitch targets:
+
+* “these two utterances have similar intonation”
+* “these differ mainly in register”
+
+### 4. **Time-aligned representations**
+
+* DTW-aligned F0 contours for same text
+* especially powerful with your Librivox parallel readings
+
+---
+
+## 🔄 Connecting back to your earlier findings
+
+Your earlier results now line up even more cleanly:
+
+* **Gender softmax collapsed**
+  → low-dimensional, shortcut-prone, highly correlated with speaker
+
+* **Dialect softmax worked**
+  → richer structure, partly orthogonal to speaker/semantics
+
+* **Acted voices help**
+  → within-speaker transformations break correlations
+
+* **Pitch axis promising**
+  → continuous, controllable, non-collapsing
+
+From a phonetics lens, the pattern is:
+
+> The model behaves well when supervision reflects **continuous or structured variation**, and collapses when given **coarse categorical partitions that align with existing correlations**.
+
+---
+
+## 🧭 If I were to push one idea further
+
+Given your expertise, I’d seriously consider this:
+
+> Use **same-text, multi-speaker Librivox data + F0 contour alignment** as a core supervision signal.
+
+That gives you:
+
+* identical lexical content
+* variation in speaker, dialect, style
+* measurable prosodic differences
+
+You can then explicitly train:
+
+* semantic invariance
+* speaker separation
+* prosodic variation tracking
+
+This is much closer to how prosody is actually studied experimentally.
+
+---
+
+## 🧾 Bottom line
+
+Pitch is valuable here not because it *is* prosody, but because it gives you:
+
+> A clean, controllable perturbation that exposes whether your representation is properly factorized.
+
+And with your background, you’re in a rare position to go beyond the usual ML simplifications and actually build something that respects the structure of the signal.
+
+---
+
+If you want, I can sketch a concrete loss that uses:
+
+* pitch-shift augmentations
+* Librivox parallel readings
+* and block-structured embeddings
+
+in a way that lines up with phonetic theory rather than just ML convenience.
 
