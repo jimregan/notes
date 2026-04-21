@@ -21,3 +21,9 @@ categories: [links]
 
 [Attention to Mamba: A Recipe for Cross-Architecture Distillation](https://arxiv.org/abs/2604.14191)
 
+[patrick-kidger/equinox](https://github.com/patrick-kidger/equinox) --- Elegant easy-to-use neural networks + scientific computing in JAX
+
+[klattSyn](https://www.source-code.biz/klattSyn/)
+
+[A Speech Recognition Extension to Snack](https://www.speech.kth.se/snack/modex2.html)
+
