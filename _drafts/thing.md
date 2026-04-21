@@ -1,6 +1,13 @@
-Here’s a clear, concise summary of the paper **“Attention to Mamba: A Recipe for Cross-Architecture Distillation”**:
-
 ---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Attention to Mamba: A Recipe for Cross-Architecture Distillation
+categories: [chatgpt, summary]
+---
+
+# [Attention to Mamba: A Recipe for Cross-Architecture Distillation](https://arxiv.org/abs/2604.14191)
 
 ## 🔑 Core Idea
 
@@ -72,8 +79,4 @@ Instead of direct transfer, the authors introduce a **bridge strategy**:
 You can convert powerful but expensive Transformer models into **fast, efficient Mamba models**—**without losing much performance**—by:
 
 > **bridging them through Linear Attention first, instead of distilling directly.**
-
----
-
-If you want, I can also explain Mamba vs Transformer intuitively or break down the math in simpler terms.
 
