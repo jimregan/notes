@@ -132,3 +132,94 @@ The proposed **CB-RAG approach** is:
 
 ➡️ Best suited for **real-time or resource-constrained applications**, where LLM-based solutions are too expensive.
 
+---
+
+Here’s a **skeptical addendum** you can attach to the earlier summary—written so future-you immediately knows whether it’s worth revisiting:
+
+---
+
+## **Addendum (Critical Perspective / “Should I re-read this?”)**
+
+### **Core Reality Check**
+
+Despite the framing, this paper is **not introducing a new paradigm**.
+It is best understood as:
+
+> **A modern reimplementation of classic contextual biasing / cache LM ideas using embeddings.**
+
+The “RAG” label is largely superficial:
+
+* No document grounding
+* No multi-step reasoning
+* No generation conditioned on retrieved knowledge
+  → just **retrieval → word list → biasing**
+
+---
+
+### **Historical Context (Why it feels familiar)**
+
+The method closely mirrors long-standing techniques:
+
+* Cache-based language models (recent context boosting)
+* IR-based LM adaptation (retrieve relevant terms/docs)
+* WFST contextual biasing (inject vocab at decode time)
+
+The underlying pattern:
+
+> **retrieve context → bias decoding → improve rare words**
+> has existed since at least the early 2000s.
+
+---
+
+### **What’s Actually New (Narrowly)**
+
+* Uses **dense embeddings instead of symbolic retrieval**
+* Works in a **fully unsupervised, no-catalog setup**
+* Designed for **black-box ASR (plug-and-play)**
+
+These are **engineering updates**, not conceptual advances.
+
+---
+
+### **Limitations / Why it’s not that impactful**
+
+* Retrieval is still **lexical-heavy** (weak semantic generalization)
+* No principled integration with decoding (unlike proper LM fusion)
+* Gains are **incremental (~1–2 WER points in many cases)**
+* “Context overlap” is low → suggests noisy or indirect improvements
+* LLM comparisons are somewhat weak baselines (latency-heavy strawman)
+
+---
+
+### **Bottom Line Judgment**
+
+* **Research novelty:** low
+* **Engineering practicality:** decent
+* **Conceptual insight:** minimal
+
+👉 This is:
+
+> **“a clean, practical baseline using modern tools”**
+
+not:
+
+> **“a paper that changes how we think about ASR or RAG”**
+
+---
+
+### **Recommendation to Future You**
+
+* **Do NOT re-read for theory or novelty**
+* Only revisit if you need:
+
+  * a simple **plug-and-play contextual biasing baseline**
+  * or a **lightweight alternative to LLM-based pipelines**
+
+Otherwise, it’s safe to treat as:
+
+> **incremental + well-executed, but not essential reading**
+
+---
+
+If you want, I can compress this even further into a one-paragraph “paper memory” version for quick recall.
+
