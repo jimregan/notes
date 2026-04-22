@@ -27,3 +27,10 @@ categories: [links]
 
 [A Speech Recognition Extension to Snack](https://www.speech.kth.se/snack/modex2.html)
 
+[DT2119 Calendary](https://canvas.kth.se/calendar?include_contexts=course_62544#view_name=month&view_start=2026-04-21)
+
+{% twitter https://x.com/KyeGomezB/status/2045659150340723107 %}
+
+[olgasafonova/mediawiki-mcp-server](https://github.com/olgasafonova/mediawiki-mcp-server) --- MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants
+
+
