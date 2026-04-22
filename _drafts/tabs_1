@@ -514,25 +514,79 @@ https://github.com/topics/teamviewer
 dchapyshev/aspia: Remote desktop and file transfer tool.
 https://github.com/dchapyshev/aspia
 
-dianariyanto/virtual-display-linux: Create virtual display / monitor on linux OS for extended display via teamviewer or vnc server without any real Monitor is Plugged In.
-https://github.com/dianariyanto/virtual-display-linux
-
 barry-ran/QuickDesk: QuickDesk is the first AI-native remote desktop — an open-source, free application with a built-in MCP (Model Context Protocol) Server that lets any AI agent see and control remote computers.
 https://github.com/barry-ran/QuickDesk
+
+remoting - chromium/src - Git at Google
+https://chromium.googlesource.com/chromium/src/+/refs/tags/140.0.7339.249/remoting/
+
+mcp · GitHub Topics
+https://github.com/topics/mcp
+
+affaan-m/everything-claude-code: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+https://github.com/affaan-m/everything-claude-code
+
+punkpeye/awesome-mcp-servers: A collection of MCP servers.
+https://github.com/punkpeye/awesome-mcp-servers
+
+TwelveTake-Studios/reaper-mcp
+https://github.com/TwelveTake-Studios/reaper-mcp
+
+graphlit/graphlit-mcp-server: Model Context Protocol (MCP) Server for Graphlit Platform
+https://github.com/graphlit/graphlit-mcp-server
+
+hyunjae-labs/lore: Semantic search MCP server for Claude Code conversations. Hybrid vector + keyword search across all your sessions, fully local.
+https://github.com/hyunjae-labs/lore
+
+lyonzin/knowledge-rag: Local RAG System for Claude Code — Hybrid search + Cross-encoder Reranking + Markdown-aware Chunking + 12 MCP Tools. No external servers, pure ONNX in-process.
+https://github.com/lyonzin/knowledge-rag
+
+n24q02m/mnemo-mcp: Persistent AI memory with hybrid search and embedded sync - open, free, unlimited
+https://github.com/n24q02m/mnemo-mcp
+
+olgasafonova/mediawiki-mcp-server: MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants
+https://github.com/olgasafonova/mediawiki-mcp-server
+
+pi22by7/In-Memoria: Persistent Intelligence Infrastructure for AI Agents
+https://github.com/pi22by7/In-Memoria
+
+infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+https://github.com/infiniflow/ragflow
+
+awesome-claude-skills/document-skills/pdf/SKILL.md at master · ComposioHQ/awesome-claude-skills
+https://github.com/ComposioHQ/awesome-claude-skills/blob/master/document-skills/pdf/SKILL.md
+
+reportlab.com
+https://www.reportlab.com/
+
+MemPalace/mempalace: The best-benchmarked open-source AI memory system. And it's free.
+https://github.com/MemPalace/mempalace
+
+Getting Started | MemPalace
+https://mempalaceofficial.com/guide/getting-started.html
+
+chroma-core/chroma: Data infrastructure for AI
+https://github.com/chroma-core/chroma
+
+Local Models | MemPalace
+https://mempalaceofficial.com/guide/local-models.html
+
+Specialist Agents | MemPalace
+https://mempalaceofficial.com/concepts/agents.html
+
+rdp · GitHub Topics
+https://github.com/topics/rdp
+
+rustdesk · GitHub Topics
+https://github.com/topics/rustdesk
+
+remote-control · GitHub Topics
+https://github.com/topics/remote-control
 
 rustdesk/muxnet
 https://github.com/rustdesk/muxnet
 
 rustdesk/engine: The Flutter engine
 https://github.com/rustdesk/engine
-
-Events in Stockholm - What's on? - Visit Stockholm
-https://www.visitstockholm.com/events/?
-
-Cherry Blossom Day 2026 - Visit Stockholm
-https://www.visitstockholm.com/events/cherry-blossom-day/next/
-
-(1) Kye Gomez (swarms) on X: "Introducing OpenMythos An open-source, first-principles theoretical reconstruction of Claude Mythos, implemented in PyTorch. The architecture instantiates a looped transformer with a Mixture-of-Experts (MoE) routing mechanism, enabling iterative depth via weight sharing and https://t.co/YLvCid6CAr" / X
-https://x.com/KyeGomezB/status/2045659150340723107
 
 
