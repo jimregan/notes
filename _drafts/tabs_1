@@ -544,9 +544,6 @@ https://github.com/lyonzin/knowledge-rag
 n24q02m/mnemo-mcp: Persistent AI memory with hybrid search and embedded sync - open, free, unlimited
 https://github.com/n24q02m/mnemo-mcp
 
-olgasafonova/mediawiki-mcp-server: MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants
-https://github.com/olgasafonova/mediawiki-mcp-server
-
 pi22by7/In-Memoria: Persistent Intelligence Infrastructure for AI Agents
 https://github.com/pi22by7/In-Memoria
 
@@ -588,5 +585,35 @@ https://github.com/rustdesk/muxnet
 
 rustdesk/engine: The Flutter engine
 https://github.com/rustdesk/engine
+
+slack local cache reader - Google Search
+https://www.google.com/search?q=slack+local+cache+reader&sca_esv=403227064bbf28af&rlz=1C5GCCM_en&sxsrf=ANbL-n76YIXvQnBiyqXlheF_aAkbO5kFJg:1776878262231&ei=tgLpadrhDcHcwPAPxOaK4Q4&start=10&sa=N&sstk=Af77f_faH7PqbZup1Xgi7OYBteYv6x7B7VhyworlAG0jYZrbNZ1evCbnCaPchXfPfSgWG0dmW0_zFdo4bUbrN9-HqWtjUDjNIaBGQA&ved=2ahUKEwjalISt-4GUAxVBLhAIHUSzIuwQ8NMDegQIMxAW&biw=1424&bih=714&dpr=2
+
+korotovsky/slack-mcp-server: The most powerful MCP Slack Server with no permission requirements, Apps support, GovSlack, DMs, Group DMs and smart history fetch logic.
+https://github.com/korotovsky/slack-mcp-server
+
+Initialization vectors: Finding Slack app messages in Android and using json_extract to do it.
+https://abrignoni.blogspot.com/2018/09/finding-slack-messages-in-android-and.html
+
+slack-anti-delete/slack_patch_delete.py at main · SharonBrizinov/slack-anti-delete
+https://github.com/SharonBrizinov/slack-anti-delete/blob/main/slack_patch_delete.py
+
+hfaran/slack-export-viewer: A Slack Export archive viewer that allows you to easily view and share your Slack team's export
+https://github.com/hfaran/slack-export-viewer
+
+Forensics: Finding slack chat artifacts | by Jeroen Verhaeghe | Medium
+https://medium.com/@jeroenverhaeghe/forensics-finding-slack-chat-artifacts-d5eeffd31b9c
+
+Slack-Parser/Slack-Parser.py at main · 0xHasanM/Slack-Parser
+https://github.com/0xHasanM/Slack-Parser/blob/main/Slack-Parser.py
+
+Slack Thread Reader — ClawHub
+https://clawhub.ai/epikoding/slack-reader
+
+Should We Still Pretrain Encoders with Masked Language Modeling?
+https://arxiv.org/pdf/2507.00994
+
+EuroBERT/LICENSE.TXT at main · Nicolas-BZRD/EuroBERT
+https://github.com/Nicolas-BZRD/EuroBERT/blob/main/LICENSE.TXT
 
 
