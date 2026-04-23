@@ -37,3 +37,10 @@ categories: [links]
 [Huggingface](https://huggingface.co/MLMvsCLM),
 [training code](https://github.com/Nicolas-BZRD/EuroBERT/tree/MLM_vs_CLM)
 
+TMH
+- [MRI gallery excerpt](http://web.archive.org/web/20070920052555/http://www.speech.kth.se/~olov/mri.html)
+- [Multimodal speech synthesis](http://web.archive.org/web/20071001165723/http://www.speech.kth.se/multimodal/)
+- [Waxholm](http://web.archive.org/web/20010419104703/http://www.speech.kth.se/waxholm/waxholm2.html)
+- [Open source, 2001](http://web.archive.org/web/20010522051913/http://www.speech.kth.se/software/)
+- [Nico](http://web.archive.org/web/20010417053821/http://www.speech.kth.se/NICO/download.html)
+
