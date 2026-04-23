@@ -33,4 +33,7 @@ categories: [links]
 
 [olgasafonova/mediawiki-mcp-server](https://github.com/olgasafonova/mediawiki-mcp-server) --- MCP server for MediaWiki wikis - search, read, and edit wiki content from AI assistants
 
+[Should We Still Pretrain Encoders with Masked Language Modeling?](https://arxiv.org/abs/2507.00994),
+[Huggingface](https://huggingface.co/MLMvsCLM),
+[training code](https://github.com/Nicolas-BZRD/EuroBERT/tree/MLM_vs_CLM)
 
