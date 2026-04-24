@@ -44,3 +44,9 @@ TMH
 - [Open source, 2001](http://web.archive.org/web/20010522051913/http://www.speech.kth.se/software/)
 - [Nico](http://web.archive.org/web/20010417053821/http://www.speech.kth.se/NICO/download.html)
 
+Strange paper titles:
+- [What Is Your Other Hand Doing, Robot? A Model of Behavior for Shopkeeper Robot's Idle Hand](https://dl.acm.org/doi/10.1145/3610977.3634986)
+- ["I'm Not Touching You. It's The Robot!": Inclusion Through A Touch-Based Robot Among Mixed-Visual Ability Children](https://dl.acm.org/doi/10.1145/3610977.3634992)
+- [Feel the Bite: Robot-Assisted Inside-Mouth Bite Transfer using Robust Mouth Perception and Physical Interaction-Aware Control](https://dl.acm.org/doi/10.1145/3610977.3634975)
+- [I'm very pleased that my paper "Kiss Me More: Artificial Lips for Intimate Encounters" has been accepted at ICSR + Art 2026](https://www.linkedin.com/posts/oliver-bendel-08904163_im-very-pleased-that-my-paper-kiss-me-more-activity-7452982396691378176-lgJs/)
+
