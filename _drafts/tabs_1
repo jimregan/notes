@@ -145,8 +145,8 @@ https://github.com/tabahi/formantfeatures?tab=readme-ov-file
 SciPy - Installation
 https://scipy.org/install/
 
-GuiMarion/formantsExtraction: This project allows you to extract each formants over time from arbitrary wave file.
-https://github.com/GuiMarion/formantsExtraction
+formantsExtraction/F2_F3.png at master · GuiMarion/formantsExtraction
+https://github.com/GuiMarion/formantsExtraction/blob/master/F2_F3.png
 
 How to extract formant tracks with Praat and python | speechsurfer
 https://blog.syntheticspeech.de/2021/03/10/how-to-extract-formant-tracks-with-praat-and-python/
@@ -226,10 +226,7 @@ https://chatgpt.com/c/69e73574-12a0-8396-840a-3bdb9fc01013
 phonerec/phonerec.py at main · jbeskow/phonerec
 https://github.com/jbeskow/phonerec/blob/main/phonerec.py
 
-Login
-https://sssb.aptustotal.se/AptusPortal/Account/Login?ReturnUrl=%2fAptusPortal%2f
-
-raullen.eth on X: "Hermes Agent @NousResearch + Gemma 4 26B @GoogleDeepMind, fully working on local Mac 🤯: one prompt → full CLI app + tests + pytest passing tool calls firing back to back — local Claude Code vibes Gemma 4 MoE is fast AND smart, and tool calling just works — powered by Rapid-MLX https://t.co/AO3F7gQ9gL" / X
+(1) raullen.eth on X: "Hermes Agent @NousResearch + Gemma 4 26B @GoogleDeepMind, fully working on local Mac 🤯: one prompt → full CLI app + tests + pytest passing tool calls firing back to back — local Claude Code vibes Gemma 4 MoE is fast AND smart, and tool calling just works — powered by Rapid-MLX https://t.co/AO3F7gQ9gL" / X
 https://x.com/Raullen/status/2043195881382347138
 
 LLMs-from-scratch/ch05/17_gemma4/standalone-gemma4.ipynb at main · rasbt/LLMs-from-scratch
@@ -601,61 +598,157 @@ https://web.archive.org/web/20000929141746/http://www.speech.kth.se/labs/analysi
 FFT window length
 https://web.archive.org/web/20000929141741/http://www.speech.kth.se/labs/analysis/fftwin.html
 
-Internet Archive: View Archive
-https://ia601901.us.archive.org/view_archive.php?archive=/34/items/red-hat-linux-7.2-cd/Red%20Hat%20Linux%207.2%20CD1%20image_.iso
+red-hat-linux-7.2-cd directory listing
+https://archive.org/download/red-hat-linux-7.2-cd
 
-Tcl/Tk Plugin for Netscape/IE download | SourceForge.net
-https://sourceforge.net/projects/tclplugin/
+huggingface default validation set name - Google Search
+https://www.google.com/search?q=huggingface+default+validation+set+name&rlz=1C5GCCM_en&oq=huggingface+default+validation+set+name&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDYyODFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
-Tcl/Tk Plugin for Netscape/IE download | SourceForge.net
-https://sourceforge.net/projects/tclplugin/
+Get Started
+https://pytorch.org/get-started/locally/
+
+vllm - Google Search
+https://www.google.com/search?q=vllm&rlz=1C5GCCM_en&oq=vllm&gs_lcrp=EgZjaHJvbWUyDggAEEUYJxg5GIAEGIoFMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgYIBhBFGDwyBggHEEUYPNIBBzc0NWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+google/gemma-4-E4B-it · Hugging Face
+https://huggingface.co/google/gemma-4-E4B-it
+
+To support decoding audio data, please install 'torchcodec'. · Issue #7678 · huggingface/datasets
+https://github.com/huggingface/datasets/issues/7678
+
+Torchcodec Debugging with Datasets
+https://chatgpt.com/c/69ece598-5d74-8389-bd26-813669fccf61
+
+Gemma4AudioFeatureExtractor huggingface - Google Search
+https://www.google.com/search?q=Gemma4AudioFeatureExtractor+huggingface&sca_esv=7f2484e9b2afd927&rlz=1C5GCCM_en&sxsrf=ANbL-n4rzDBAocU1-wlj9dWDYGuGFJ-ibA%3A1777134895804&ei=L-3saaHOMIOvwPAPyu65KA&biw=1424&bih=714&ved=0ahUKEwjhobqxt4mUAxWDFxAIHUp3DgUQ4dUDCBE&uact=5&oq=Gemma4AudioFeatureExtractor+huggingface&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ0dlbW1hNEF1ZGlvRmVhdHVyZUV4dHJhY3RvciBodWdnaW5nZmFjZTIHECEYChigAUiPD1AbWMcOcAF4AZABAJgBggGgAaAJqgEDNC43uAEDyAEA-AEBmAIMoALFCcICChAAGEcY1gQYsAPCAggQABiABBiiBMICBRAAGO8FwgIEECEYFZgDAOIDBRIBMSBAiAYBkAYIkgcDMy45oAf8HrIHAzIuObgHvgnCBwU3LjQuMcgHDoAIAQ&sclient=gws-wiz-serp
+
+Add Gemma 4 Audio Processing Primitives and Feature Extractor by ghchinoy · Pull Request #471 · ml-explore/mlx-swift-examples
+https://github.com/ml-explore/mlx-swift-examples/pull/471
+
+What Is Gemma 4's Audio Encoder? How the E2B and E4B Models Handle Speech Recognition | MindStudio
+https://www.mindstudio.ai/blog/gemma-4-audio-encoder-e2b-e4b-speech-recognition
+
+rnagabh/gemma4-audio-encoder · Hugging Face
+https://huggingface.co/rnagabh/gemma4-audio-encoder
 
 New tab
 chrome://newtab/
 
-tclplugin rpm redhat 7.2 - Google Search
-https://www.google.com/search?q=tclplugin+rpm+redhat+7.2&sca_esv=4464ee469522b0d6&rlz=1C5GCCM_en&sxsrf=ANbL-n4yDGXu2_AxkyDptTjg21BilkCYfQ%3A1776932058466&ei=2tTpaaSXHMeqwPAP--6jiQU&biw=1424&bih=714&ved=0ahUKEwik7Inhw4OUAxVHFRAIHXv3KFEQ4dUDCBE&uact=5&oq=tclplugin+rpm+redhat+7.2&gs_lp=Egxnd3Mtd2l6LXNlcnAiGHRjbHBsdWdpbiBycG0gcmVkaGF0IDcuMjIHECEYoAEYCjIHECEYoAEYCkjWQlCcLVi5QXADeACQAQCYAX6gAa0IqgEDOC4zuAEDyAEA-AEBmAIOoALeCMICCBAAGLADGO8FmAMAiAYBkAYFkgcDOS41oAfXKbIHAzYuNbgH1gjCBwYwLjEzLjHIBxeACAA&sclient=gws-wiz-serp
+ml-explore/mlx-lm: Run LLMs with MLX
+https://github.com/ml-explore/mlx-lm
 
-Welcome to the Tcl Plugin
-https://www.tcl-lang.org/software/plugin/
+Moe's Burger Reviews - Google Search
+https://www.google.com/search?sca_esv=903386efdd046f5a&rlz=1C5GCCM_en&sxsrf=ANbL-n5JIlnSzurCBmz37JtnCTwQ8gIA-A:1777135685749&q=Moe%27s%20Burger%20Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2MzA0NTQ3tDQ3NrI0MzY2M7A03sDI-IpRxDc_Vb1Ywam0KD21SCEotSwztbx4EStWYQCe5VGkSAAAAA&rldimm=6015171973296336093&tbm=lcl&hl=en-SE&sa=X&ved=0CAwQ5foLahcKEwjQ3sOquomUAxUAAAAAHQAAAAAQBQ#lkt=LocalPoiReviews&arid=Ci9DQUlRQUNvZENodHljRjlvT2pkaGRGZFNhRzVPU1V4SmVXRjVSMFUwU0dWbk1rRRAB
 
-ftp.tcl.tk/pub/tcl/plugin/ - Google Search
-https://www.google.com/search?q=ftp.tcl.tk%2Fpub%2Ftcl%2Fplugin%2F&rlz=1C5GCCM_en&oq=ftp.tcl.tk%2Fpub%2Ftcl%2Fplugin%2F&gs_lcrp=EgZjaHJvbWUyBggAEEUYQNIBCDEzNzFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+Stories • Instagram
+https://www.instagram.com/stories/highlights/17969334953545574/
 
-Obtaining the TCL Plugin
-https://wiki.tcl-lang.org/page/Obtaining+the+TCL+Plugin
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
 
-Tcl Plug-in 2.0 Download
-https://www.tcl-lang.org/software/plugin/v2/download.html
+To-Do List System
+https://chatgpt.com/c/69eaef2d-cae8-8394-8270-d8129e1e829e
 
-Tcl Plug-in 2.0 Download
-https://www.tcl-lang.org/software/plugin/v2/download.html#source
+Commits · jimregan/wav2vec2-swedish-phonetic-waxholm
+https://huggingface.co/jimregan/wav2vec2-swedish-phonetic-waxholm/commits/main
 
-/public/ftp/pub/Linux/devel/lang/tcl
-https://ftp.nluug.nl/languages/tcl/%21INDEX.short.html
+lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
+https://github.com/lingjzhu/charsiu
 
-tclplug rpm - Google Search
-https://www.google.com/search?q=tclplug+rpm&rlz=1C5GCCM_en&oq=tclplug+rpm&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBTIHCAQQABjvBTIHCAUQABjvBTIGCAYQRRg80gEINDQzOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+charsiu_tutorial.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_tutorial.ipynb#scrollTo=gUye9Hgpzpxb
 
-RPM of Group Development/Libraries/Tcl
-https://www.rpmfind.net/linux/RPM/Development_Libraries_Tcl.html
+charsiu_demo.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_forced_alignment_demo.ipynb
 
-tclplug-2.0-660.i586 RPM
-http://web.archive.org/web/20040101194715/http://rpmfind.net/linux/RPM/suse/8.1/i386/suse/i586/tclplug-2.0-660.i586.html
+charsiu_demo.ipynb - Colab
+https://colab.research.google.com/github/lingjzhu/charsiu/blob/development/charsiu_textless_demo.ipynb
 
-index by Distribution
-http://web.archive.org/web/20031205025216/http://rpmfind.net/linux/RPM/Distribs.html
+charsiu/misc/data.md at main · lingjzhu/charsiu
+https://github.com/lingjzhu/charsiu/blob/main/misc/data.md#alignments-for-english-datasets
 
-redhat.com | about red hat
-http://web.archive.org/web/20000510021045/http://www.redhat.com/knowledgebase/pkglist/rhl-intel
+lingjzhu/clap-ipa: Keyword spotting and forced alignment in any language
+https://github.com/lingjzhu/clap-ipa
 
-suse scripted install 8.2 - Google Search
-https://www.google.com/search?q=suse+scripted+install+8.2&rlz=1C5GCCM_en&oq=suse+scripted+install+8.2&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAjIHCAUQIRiPAtIBCDY2NzlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+lingjzhu/zipa: A family of efficient speech models for multilingual phone recognition
+https://github.com/lingjzhu/zipa
 
-YaST - Wikipedia
-https://en.wikipedia.org/wiki/YaST#AutoYaST
+clap-ipa/README.md at main · lingjzhu/clap-ipa
+https://github.com/lingjzhu/clap-ipa/blob/main/README.md
 
-Login | SSSB
-https://minasidor.sssb.se/login/
+clap-ipa/clap/evaluate.py at main · lingjzhu/clap-ipa
+https://github.com/lingjzhu/clap-ipa/blob/main/clap/evaluate.py
+
+config.json · anyspeech/PhoneBERT-tiny at main
+https://huggingface.co/anyspeech/PhoneBERT-tiny/blob/main/config.json
+
+ChatGPT
+https://chatgpt.com/
+
+pionxzh/chatgpt-exporter: Export and Share your ChatGPT conversation history
+https://github.com/pionxzh/chatgpt-exporter
+
+Home | Tampermonkey
+https://www.tampermonkey.net/index.php?version=5.4.1&ext=dhdg&updated=true#google_vignette
+
+(1) Instagram
+https://www.instagram.com/
+
+guo25d_interspeech.pdf
+https://www.isca-archive.org/interspeech_2025/guo25d_interspeech.pdf
+
+Berkeley-Speech-Group/DysfluentWFST: DysfluentWFST
+https://github.com/Berkeley-Speech-Group/DysfluentWFST
+
+kylebgorman/EditTransducer: Python implementation of Levenshtein distance and Levenshtein automata matching
+https://github.com/kylebgorman/EditTransducer
+
+[2404.16518] Edit Distance of Finite State Transducers
+https://arxiv.org/abs/2404.16518
+
+Levenshtein automaton - Wikipedia
+https://en.wikipedia.org/wiki/Levenshtein_automaton
+
+The Orville - Wikipedia
+https://en.wikipedia.org/wiki/The_Orville
+
+The Orville (TV Series 2017–2022) - IMDb
+https://www.imdb.com/title/tt5691552/
+
+The Orville (TV Series 2017–2022) - Episode list - IMDb
+https://www.imdb.com/title/tt5691552/episodes/?season=3&ref_=ttep
+
+"The Orville" Electric Sheep (TV Episode 2022) - IMDb
+https://www.imdb.com/title/tt10318236/?ref_=ttep_ep_1
+
+Anne Winters - IMDb
+https://www.imdb.com/name/nm3453476/?ref_=tt_cst_t_9
+
+Anne Christine Winters - Google Search
+https://www.google.com/search?q=Anne+Christine+Winters&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
+
+(2) Instagram
+https://www.instagram.com/annewinters/?hl=en
+
+Anne Winters (actress) - Wikipedia
+https://en.wikipedia.org/wiki/Anne_Winters_(actress)
+
+Anne Winters - Wikidata
+https://www.wikidata.org/wiki/Q16236657
+
+Anne Winters – Wikipedie
+https://cs.wikipedia.org/wiki/Anne_Winters
+
+The Orville (TV Series 2017–2022) - Episode list - IMDb
+https://www.imdb.com/title/tt5691552/episodes/?season=4&ref_=ttep
+
+Halston Sage - Google Search
+https://www.google.com/search?sca_esv=9f8463f094060b86&rlz=1C5GCCM_en&sxsrf=ANbL-n66dEE0_kda9rO-a-YxlTzsENjt0A:1777222941320&q=Halston+Sage&stick=H4sIAAAAAAAAAONgFuLVT9c3NEw2zLPIrbLMUuLSz9U3yDCqSqoq0xLLTrbSLykDoviCovz0osRcq-TE4pJFrDweiTnFJfl5CsGJ6akAj8Gb5kQAAAA&sa=X&ved=2ahUKEwjNneqw_4uUAxUFExAIHXzFI24QgOQBegQIJxAk&biw=1424&bih=714&dpr=2
+
+The Orville season 2 - Wikipedia
+https://en.wikipedia.org/wiki/The_Orville_season_2
+
+(2) Instagram
+https://www.instagram.com/annewinters/
 
 
