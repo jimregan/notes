@@ -10,24 +10,6 @@ https://github.com/jimregan/notes/pull/348/changes/b460279df3a1f39d91a2004ab95e4
 Unable to launch in Windows 11 · Issue #362 · ace-step/ACE-Step
 https://github.com/ace-step/ACE-Step/issues/362
 
-auspicious3000/SpeechSplit: Unsupervised Speech Decomposition Via Triple Information Bottleneck
-https://github.com/auspicious3000/SpeechSplit?tab=readme-ov-file
-
-Unsupervised Speech Decomposition via Triple Information Bottleneck
-https://arxiv.org/pdf/2004.11284
-
-auspicious3000/contentvec: speech self-supervised representations
-https://github.com/auspicious3000/contentvec
-
-Information for Authors-SPL | IEEE Signal Processing Society
-https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters/information-authors-spl
-
-IEEE Signal Processing Letters | IEEE Signal Processing Society
-https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters?page=0
-
-Wigilja Bożego Narodzenia (Dickens, 1909) - Wikiźródła, wolna biblioteka
-https://pl.wikisource.org/wiki/Wigilja_Bo%C5%BCego_Narodzenia_(Dickens,_1909)
-
 WolneLektury.pl
 https://wolnelektury.pl/katalog/lektura/dickens-opowiesc-wigilijna/
 
@@ -148,12 +130,6 @@ https://scipy.org/install/
 formantsExtraction/F2_F3.png at master · GuiMarion/formantsExtraction
 https://github.com/GuiMarion/formantsExtraction/blob/master/F2_F3.png
 
-How to extract formant tracks with Praat and python | speechsurfer
-https://blog.syntheticspeech.de/2021/03/10/how-to-extract-formant-tracks-with-praat-and-python/
-
-How to compare formant tracks extracted with opensmile vs. Praat | speechsurfer
-https://blog.syntheticspeech.de/2021/03/10/how-to-compare-opensmile-with-praat_extracted-formant-tracks/
-
 Comparative Evaluation of Acoustic Feature Extraction Tools for Clinical Speech Analysis
 https://arxiv.org/pdf/2506.01129
 
@@ -211,8 +187,8 @@ https://gallery.ecr.aws/ucblx/esps
 phonlab/phonlab/utils/tidy.py at master · phonetics-projects/phonlab
 https://github.com/phonetics-projects/phonlab/blob/master/phonlab/utils/tidy.py
 
-Penn Phonetics Laboratory | Department of Linguistics
-https://web.sas.upenn.edu/phonetics-lab/
+Research | Penn Phonetics Laboratory
+https://web.sas.upenn.edu/phonetics-lab/research/
 
 (PDF) Optimizing the Extraction of Vowel Formants
 https://www.researchgate.net/publication/281177316_Optimizing_the_Extraction_of_Vowel_Formants
@@ -274,26 +250,14 @@ http://130.237.3.105:3000/app?chatId=283e95d0-a8e7-4cab-b8a8-ecca548d8754
 Onyx AI | Open Source Enterprise Search & AI Assistant
 https://onyx.app/
 
-gemma4
-https://ollama.com/library/gemma4
-
-This page has moved
-https://www.mintlify.com/onyx-dot-app/onyx/features/tools-and-mcp
-
-Claude Code - Ollama
-https://docs.ollama.com/integrations/claude-code
-
 anomalyco/opencode: The open source coding agent.
 https://github.com/anomalyco/opencode
 
-Comparing main...claude_code · jimregan/dockerfiles
-https://github.com/jimregan/dockerfiles/compare/claude_code?expand=1
-
-Multi-Factor Authentication
-https://login.ug.kth.se/adfs/ls/?SAMLRequest=fZJNb9swDIb%2FisC7LUerMkeIU2QNigbo1qB2d%2BilkG0mFqpImSh367%2Bv8zVkO%2FQs8iH5vJpe%2F9la9oaBjHcFjNIMGLrGt8ZtCniqbpMcrmdT0lsrdmrex8494q8eKbKh0ZE6vhTQB6e8JkPK6S2Sio0q59%2FvlUgztQs%2B%2BsZbYHMiDHEYdeMd9VsMJYY30%2BDT430BXYw7UpzvkYlM6Z3S19ilhNy0Oz5A1sYiP%2BzA92zBVw9lxcvyAdhi2Mg4HQ9XnEHWb4xL%2B80Zo9s1cUsc2K0PDR5IBcTQI7DlooAXjc2VrGv9VbQSsyxr8wmu2y%2B5FHk%2BmeTjoYyox6WjqF0sQGRinGRXyUhWI6nEWEmZiol8BrY6nfzNuKPKz%2FzUxyJSd1W1SvZHAft5jmQogFMA6jA9XJr%2FHKzPumF2Kfd%2FtdSZuvYWYzfll4P%2B5v5jIC8XK29N887m1vrfNwF1xJM8Pjv1%2FftDZh8%3D&RelayState=e1s2&client-request-id=5d9db894-a5ca-4b2b-cd00-0040050000f4&ssoCookie=MSISTempAuth_ea5321ff-b5b2-4a27-9566-6d576acd4896
-
 Little Women (version 3 dramatic reading) | LibriVox
 https://librivox.org/little-women-dramatic-reading-by-louisa-may-alcott
+
+dn720202.ca.archive.org/0/items/little_women_1101_librivox/littlewomen_00_alcott.mp3
+https://dn720202.ca.archive.org/0/items/little_women_1101_librivox/littlewomen_00_alcott.mp3
 
 Little Women by Louisa May Alcott | Project Gutenberg
 https://www.gutenberg.org/ebooks/514
@@ -1345,34 +1309,70 @@ https://github.com/huggingface/transformers/issues/38128
 transformers/docs/source/en/tasks/asr.md at main · huggingface/transformers
 https://github.com/huggingface/transformers/blob/main/docs/source/en/tasks/asr.md
 
-Properties of Human Speech
-https://apxml.com/courses/applied-speech-recognition/chapter-1-foundations-digital-audio-speech/properties-human-speech
+Build a Speech-to-Text App with Gradio
+https://apxml.com/courses/applied-speech-recognition/chapter-6-evaluating-deploying-asr-systems/building-stt-app-gradio
 
-Processors · Hugging Face
-https://huggingface.co/docs/transformers/en/main_classes/processors
+Feature extraction — lhotse 1.33.0.dev documentation
+https://lhotse.readthedocs.io/en/latest/features.html
+
+Welcome to lhotse’s documentation! — lhotse 1.33.0.dev documentation
+https://lhotse.readthedocs.io/en/latest/index.html
+
+Executing tasks in parallel — lhotse 1.33.0.dev documentation
+https://lhotse.readthedocs.io/en/latest/parallelism.html
+
+PyTorch Datasets — lhotse 1.33.0.dev documentation
+https://lhotse.readthedocs.io/en/latest/datasets.html
+
+Feature extraction — lhotse 1.33.0.dev documentation
+https://lhotse.readthedocs.io/en/latest/features.html#storing-features
+
+Code search results
+https://github.com/search?q=repo%3Alhotse-speech%2Flhotse%20hugging&type=code
+
+Support object stores: `CutSet.from_shar(in_dir='s3://...')` by pzelasko · Pull Request #1558 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1558
+
+[WIP] Adds preliminary sbcsae (Santa Barbara Corpus of Spoken American English) recipe by m-wiesner · Pull Request #1274 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1274
+
+Fixing recording move to memory by Tomiinek · Pull Request #1306 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1306
+
+ASR,ST and CS recipies by AmirHussein96 · Pull Request #1307 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1307
+
+[Not for merge] Diarization workflow with SpeechBrain by desh2608 · Pull Request #1031 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/pull/1031
+
+Fleurs (possibly others) Recipe Download Broken with Huggingface datasets >=3.0 · Issue #1535 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/issues/1535
+
+lhotse/lhotse/dataset/webdataset.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/dataset/webdataset.py
+
+lhotse/lhotse/dataset/surt.py at master · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/master/lhotse/dataset/surt.py
+
+lhotse/lhotse/recipes/vctk.py at 6b45efe1275f6299e0fb9ff12c5878b21836b007 · lhotse-speech/lhotse
+https://github.com/lhotse-speech/lhotse/blob/6b45efe1275f6299e0fb9ff12c5878b21836b007/lhotse/recipes/vctk.py
+
+WhisperX Segment Editor
+http://127.0.0.1:5000/
 
 New tab
 chrome://newtab/
 
-ChatGPT
-https://chatgpt.com/
+New tab
+chrome://newtab/
 
-Gemma4 copies by jimregan · Pull Request #2 · jimregan/gemma4-ctc
-https://github.com/jimregan/gemma4-ctc/pull/2/changes
+(1) Instagram
+https://www.instagram.com/
 
-gemma4 paper - Google Search
-https://www.google.com/search?q=gemma4+paper&rlz=1C5GCCM_en&oq=gemma4+paper&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTILCAEQABgKGAsYgAQyCwgCEAAYChgLGIAEMgsIAxAAGAoYCxiABDILCAQQABgKGAsYgAQyCggFEAAYChgWGB4yCggGEAAYChgWGB4yCggHEAAYgAQYogQyBwgIEAAY7wUyBwgJEAAY7wXSAQg2MDkwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+Buckingham Palace responds after Trump claims King Charles 'agrees' with him on Iran stance
+https://www.unilad.com/news/us-news/king-charles-donald-trump-us-state-visit-iran-war-873295-20260429?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnMXg9uSIGLvMvN7qEXRyXI6ObFkv0AvDZO5y_sDvw0OtKYAunMylfGr_OXl4_aem_P1eqWcXTi_yW_aGarLx8vw
 
-Gemma 4 model overview  |  Google AI for Developers
-https://ai.google.dev/gemma/docs/core
-
-Welcome Gemma 4: Frontier multimodal intelligence on device
-https://huggingface.co/blog/gemma4
-
-Gemma 4 - lazy model or am I crazy? (bit of a rant) : r/LocalLLaMA
-https://www.reddit.com/r/LocalLLaMA/comments/1sjyzmi/gemma_4_lazy_model_or_am_i_crazy_bit_of_a_rant/
-
-Password Manager
-https://passwords.google.com/password/1YS_LC4Vwgd0c7pdqkd88OBTOkC49SROQ4zombTe34E%3D?ep=1&bnt=1&rapt=AEjHL4PdLxYBnpy2ZhuglDwTXdRO5WVTRnbQBa8kB4rbX9IFqwQiQRUdCh3C5dFmetcPeKdhRhmszA2wris8Y0WVC5hlDXq8DyouZXhtnhACbkSwuvmmhbI
+Epstein survivor recalls how she felt when convicted sex offender died
+https://www.unilad.com/news/us-news/anouska-georgiou-epstein-death-reaction-738544-20260427?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGneJbDe4cpTukuhTKeAq2dXORDkZ1XTpIocIBSdNoM9-8sWDYxCQnWTKVYeFg_aem_AcF5EDAn0w_UxCf4pnp4_w
 
 
