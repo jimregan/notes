@@ -157,8 +157,26 @@ https://github.com/timmahrt/pyAcoustics/blob/main/pyacoustics/intensity_and_pitc
 ESPS getf0 - Google Search
 https://www.google.com/search?q=ESPS+getf0&sca_esv=7127d2bfff853169&rlz=1C5GCCM_en&sxsrf=ANbL-n6tDfRgjrEu7M1-mIxPYUOox5T0fA%3A1776707020202&ei=zGXmaaqFDLGC1fIPsuKd6Ak&biw=1424&bih=714&ved=0ahUKEwiqm7y2_fyTAxUxQVUIHTJxB50Q4dUDCBE&uact=5&oq=ESPS+getf0&gs_lp=Egxnd3Mtd2l6LXNlcnAiCkVTUFMgZ2V0ZjAyBRAhGKABSLsNULAEWOgLcAF4AZABAJgBeqAB1QSqAQMzLjO4AQPIAQD4AQGYAgegAvUEwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgUQABiABMICChAAGIAEGEMYigXCAgkQABiABBgKGAvCAgYQABgWGB7CAgsQABiABBiGAxiKBcICBRAAGO8FmAMAiAYBkAYKkgcDNC4zoAfLIbIHAzMuM7gH8gTCBwUwLjQuM8gHFYAIAA&sclient=gws-wiz-serp
 
-gareth-ferneyhough/get_f0: Pitch tracking algorithm based on David Talkin's RAPT. Code is modified from the ESPS package.
-https://github.com/gareth-ferneyhough/get_f0
+get_f0/sigproc.c at master · gareth-ferneyhough/get_f0
+https://github.com/gareth-ferneyhough/get_f0/blob/master/sigproc.c
+
+spk_ody.dvi
+https://www.isca-archive.org/odyssey_2001/hansen01_odyssey.pdf
+
+ESPS/ESPS/general/src/dtw/dtw.t at master · jeremysalwen/ESPS
+https://github.com/jeremysalwen/ESPS/blob/master/ESPS/general/src/dtw/dtw.t
+
+Audio File Format Specifications
+https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/ESPS/ESPS.html
+
+Portable Software Modules for Speech Recognition
+https://aclanthology.org/H90-1088.pdf
+
+Typical ESPS/waves screen layout. | Download Scientific Diagram
+https://www.researchgate.net/figure/Typical-ESPS-waves-screen-layout_fig7_250608836
+
+Examples using Snack
+https://www.speech.kth.se/snack/tutorial.html
 
 Today's Most Frequently Used F0 Estimation Methods, and Their Accuracy in Estimating Male and Female Pitch in Clean Speech
 https://www.isca-archive.org/interspeech_2016/strombergsson16_interspeech.pdf
@@ -201,9 +219,6 @@ https://chatgpt.com/c/69e73574-12a0-8396-840a-3bdb9fc01013
 
 phonerec/phonerec.py at main · jbeskow/phonerec
 https://github.com/jbeskow/phonerec/blob/main/phonerec.py
-
-(1) raullen.eth on X: "Hermes Agent @NousResearch + Gemma 4 26B @GoogleDeepMind, fully working on local Mac 🤯: one prompt → full CLI app + tests + pytest passing tool calls firing back to back — local Claude Code vibes Gemma 4 MoE is fast AND smart, and tool calling just works — powered by Rapid-MLX https://t.co/AO3F7gQ9gL" / X
-https://x.com/Raullen/status/2043195881382347138
 
 LLMs-from-scratch/ch05/17_gemma4/standalone-gemma4.ipynb at main · rasbt/LLMs-from-scratch
 https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/17_gemma4/standalone-gemma4.ipynb
@@ -1360,19 +1375,64 @@ https://github.com/lhotse-speech/lhotse/blob/6b45efe1275f6299e0fb9ff12c5878b2183
 WhisperX Segment Editor
 http://127.0.0.1:5000/
 
-New tab
-chrome://newtab/
+Blaizzy/mlx-audio: A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.
+https://github.com/Blaizzy/mlx-audio
 
-New tab
-chrome://newtab/
+mlx-community/Qwen3-ForcedAligner-0.6B-8bit · Hugging Face
+https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-8bit
 
-(1) Instagram
-https://www.instagram.com/
+Fix VibeVoice-ASR streaming via generate() and server mapping by JM27616 · Pull Request #483 · Blaizzy/mlx-audio
+https://github.com/Blaizzy/mlx-audio/pull/483
 
-Buckingham Palace responds after Trump claims King Charles 'agrees' with him on Iran stance
-https://www.unilad.com/news/us-news/king-charles-donald-trump-us-state-visit-iran-war-873295-20260429?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnMXg9uSIGLvMvN7qEXRyXI6ObFkv0AvDZO5y_sDvw0OtKYAunMylfGr_OXl4_aem_P1eqWcXTi_yW_aGarLx8vw
+feat: Add Vibevoice7B model support by Talpik · Pull Request #640 · Blaizzy/mlx-audio
+https://github.com/Blaizzy/mlx-audio/pull/640
 
-Epstein survivor recalls how she felt when convicted sex offender died
-https://www.unilad.com/news/us-news/anouska-georgiou-epstein-death-reaction-738544-20260427?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGneJbDe4cpTukuhTKeAq2dXORDkZ1XTpIocIBSdNoM9-8sWDYxCQnWTKVYeFg_aem_AcF5EDAn0w_UxCf4pnp4_w
+mlx-audio/mlx_audio/utils.py at bb6533dcbca290d5e85913c70491e1b0c206970b · Blaizzy/mlx-audio
+https://github.com/Blaizzy/mlx-audio/blob/bb6533dcbca290d5e85913c70491e1b0c206970b/mlx_audio/utils.py
+
+Models – Hugging Face
+https://huggingface.co/models?other=mms
+
+mlx-audio/mlx_audio/stt/models/mms/README.md at main · Blaizzy/mlx-audio
+https://github.com/Blaizzy/mlx-audio/blob/main/mlx_audio/stt/models/mms/README.md
+
+lingjzhu/charsiu: Charsiu: A neural phonetic aligner.
+https://github.com/lingjzhu/charsiu
+
+charsiu/experiments/train_asr.py at main · lingjzhu/charsiu
+https://github.com/lingjzhu/charsiu/blob/main/experiments/train_asr.py
+
+harpen stockholm - Google Maps
+https://www.google.com/maps/search/harpen+stockholm/@59.3360413,18.0224868,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDQyNy4wIKXMDSoASAFQAw%3D%3D
+
+lingopie - Google Search
+https://www.google.com/search?q=lingopie&rlz=1C5GCCM_en&oq=lingopie&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YxwEY0QMYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBggHEEUYPdIBCDEzMDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Registration
+https://lingopie.com/app/registration?_gl=1*5nufii*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwntHPBhAaEiwA_Xp6RlRxzjzG9qoFhLw8JkV_UwYbAibo_WUgL5PPb26dwYU4QaCkGAVtYBoCmX4QAvD_BwE&gbraid=0AAAAACXS0ioUomvBGBfqypLo_6K3AtT13
+
+Finding Hungarian language learning alternatives - Claude
+https://claude.ai/chat/dc862a26-d66c-4498-8a74-53fb7642a72b
+
+A besúgó youtube - Google Search
+https://www.google.com/search?q=A+bes%C3%BAg%C3%B3+youtube&sca_esv=e11ce942ef99a1b2&rlz=1C5GCCM_en&sxsrf=ANbL-n7JE2KGDoFc9trSEBMb-Frk2erJwg%3A1777644877274&ei=TbX0aZy8EKjOwPAPvtuuwQo&biw=1424&bih=714&ved=0ahUKEwjclsmbo5iUAxUoJxAIHb6tK6gQ4dUDCBM&uact=5&oq=A+bes%C3%BAg%C3%B3+youtube&gs_lp=Egxnd3Mtd2l6LXNlcnAiEkEgYmVzw7pnw7MgeW91dHViZTIGEAAYFhgeMgYQABgWGB4yCBAAGIAEGKIEMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUi4C1A9WKwKcAF4AZABAJgBb6AB6ASqAQM3LjG4AQPIAQD4AQGYAgmgApUFwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAPCAhMQLhiABBiKBRhDGMgDGLAD2AEBwgILEAAYgAQYigUYkQLCAgUQABiABMICBRAuGIAEmAMAiAYBkAYLugYECAEYCJIHAzguMaAHxiSyBwM3LjG4B4oFwgcFMC40LjXIByCACAE&sclient=gws-wiz-serp
+
+The Informant (TV series) - Wikipedia
+https://en.wikipedia.org/wiki/The_Informant_(TV_series)
+
+A besúgó | 1. rész | SkyShowtime Magyarország - YouTube
+https://www.youtube.com/watch?v=Nip8K47UvdE
+
+Language Reactor
+https://www.languagereactor.com/
+
+Language Reactor - Chrome Web Store
+https://chromewebstore.google.com/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm
+
+Language Reactor - Get Started
+https://www.languagereactor.com/help/basic#showSetupComplete=
+
+⁨Search⁩ • HBO Max
+https://play.hbomax.com/search/result?q=A+mi+kis+falunk
 
 
