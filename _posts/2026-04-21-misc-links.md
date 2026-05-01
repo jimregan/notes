@@ -50,3 +50,9 @@ Strange paper titles:
 - [Feel the Bite: Robot-Assisted Inside-Mouth Bite Transfer using Robust Mouth Perception and Physical Interaction-Aware Control](https://dl.acm.org/doi/10.1145/3610977.3634975)
 - [I'm very pleased that my paper "Kiss Me More: Artificial Lips for Intimate Encounters" has been accepted at ICSR + Art 2026](https://www.linkedin.com/posts/oliver-bendel-08904163_im-very-pleased-that-my-paper-kiss-me-more-activity-7452982396691378176-lgJs/)
 
+[Blackened Thrash Metal VS Blackened Death Metal](https://www.youtube.com/watch?v=w75bZlLvPqo)
+
+[olvwm4 source tar](https://web.archive.org/web/20070204232957/http://home.nyc.rr.com/twopks/olvwm/olvwm4.src.tar.gz)
+
+[rsprouse/espsfree](https://github.com/rsprouse/espsfree) --- BSD-licensed Entropic Signal Processing System (ESPS) released by Microsoft, repackaged and slightly updated.
+
