@@ -61,3 +61,6 @@ Strange paper titles:
 [Extending papermill through entry points](https://papermill.readthedocs.io/en/latest/extending-entry-points.html)
 
 [huggingface/hf-mount](https://github.com/huggingface/hf-mount)
+
+[torchdsp/torchsig](https://github.com/torchdsp/torchsig)
+
