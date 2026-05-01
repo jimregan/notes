@@ -214,9 +214,6 @@ https://github.com/anomalyco/opencode
 Little Women by Louisa May Alcott | Project Gutenberg
 https://www.gutenberg.org/ebooks/514
 
-Members | KTH
-https://www.kth.se/tmh/staff-1.1067415
-
 Frontiers | High-accuracy prediction of mental health scores from English BERT embeddings trained on LLM-generated synthetic self-reports: a synthetic-only method development study
 https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1694464/full
 
@@ -886,8 +883,8 @@ https://torchsig.readthedocs.io/latest/transforms.html#module-torchsig.transform
 torchsig/torchsig/utils/dsp.py at main · TorchDSP/torchsig
 https://github.com/TorchDSP/torchsig/blob/main/torchsig/utils/dsp.py
 
-GNU Radio Conference 2024 (16-20 September 2024): TorchSig: A GNU Radio Block & New Tools for Augmenting ML Training with Real World Data · GNU Radio Events (Indico)
-https://events.gnuradio.org/event/24/contributions/628/
+TorchDSP/torchsig: TorchSig is an open-source signal processing machine learning toolkit based on the PyTorch data handling pipeline.
+https://github.com/torchdsp/torchsig
 
 Speech Type Classification Algorithms - Google Gemini
 https://gemini.google.com/app/76e7ff535b1bf885?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
@@ -907,9 +904,6 @@ https://www.fon.hum.uva.nl/david/sspbook/sspbook.pdf
 Z:\seminars\akustikwise0708\nasalacousticsnotes.wpd
 https://www.phonetik.uni-muenchen.de/~hoole/kurse/akustikfort/nasalacousticsnotes.pdf
 
-New tab
-chrome://newtab/
-
 Librosa vs Praat LPC
 https://chatgpt.com/c/69f07d33-a400-83eb-8219-9b28508a5b6a
 
@@ -925,17 +919,11 @@ https://herimor.github.io/
 herimor/voxtream: VoXtream is a Full-Stream Zero-shot TTS model with Extremely Low Latency and Speaking rate Control
 https://github.com/herimor/voxtream
 
-New tab
-chrome://newtab/
-
 [Corpora-List] KONVENS 2026: Final Call For Papers & Deadline Extension - jaoregan@tcd.ie - Ríomhphost Trinity College Dublin
 https://mail.google.com/mail/u/3/#inbox/FMfcgzQgLXtGQqddKcLwwvVzBfcXRvKm
 
 NLP for Positive Impact - Call for Papers 2026
 https://sites.google.com/view/nlp4positiveimpact/call-for-papers-2026
-
-phone segmentations - Google Search
-https://www.google.com/search?q=phone+segmentations&rlz=1C5GCCM_en&oq=phone+segmentations&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBdIBCDMwNjdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
 
 Beyond Deep Learning: Speech Segmentation and Phone Classification with Neural Assemblies
 https://arxiv.org/pdf/2603.16923
@@ -994,35 +982,8 @@ https://github.com/mlml/autovot/blob/master/autovot/code/vot_predictor/KernelExp
 Matcha-TTS/matcha/models/components/flow_matching.py at main · shivammehta25/Matcha-TTS
 https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/models/components/flow_matching.py
 
-KTH | Departmental duties
-https://www.kth.se/form/69e61686a98111aad2f77c1a?l=sv
-
-Thesis | EECS internal pages
-https://intra.kth.se/en/eecs/forskarutbildning/thesis-1.825916
-
-Thesis template | Student
-https://www.kth.se/en/student/studier/examensarbete/avhandlingarochexamensarbeten/mall-for-avhandling-1.458236
-
-LATEX instruktioner Eng
-https://intra.kth.se/polopoly_fs/1.1028180.1605181108!/LATEX%20Checklista.pdf
-
-EECS Kappa Guidance 20260319.pdf
-https://intra.kth.se/polopoly_fs/1.1355932.1773925265!/EECS%20Kappa%20Guidance%2020260319.pdf
-
-Thesis | EECS internal pages
-http://web.archive.org/web/20260211091236/https://intra.kth.se/en/eecs/forskarutbildning/thesis-1.825916
-
-Thesis template | Student
-http://web.archive.org/web/20260314085338/https://www.kth.se/en/student/studier/examensarbete/avhandlingarochexamensarbeten/mall-for-avhandling-1.458236
-
 Wayback Machine
 http://web.archive.org/web/20250217011816/https://intra.kth.se/polopoly_fs/1.1355932.1726050722!/EECS%20Kappa%20Guidance%2020240910.pdf
-
-Thesis | EECS internal pages
-https://intra.kth.se/en/eecs/forskarutbildning/thesis-1.825916
-
-EECS Kappa Guidance 20260319.pdf
-https://intra.kth.se/polopoly_fs/1.1355932.1773925265!/EECS%20Kappa%20Guidance%2020260319.pdf
 
 python opensmile - Google Search
 https://www.google.com/search?q=python+opensmile&rlz=1C5GCCM_en&oq=python+opensmile&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhge0gEIMzYwMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -1051,9 +1012,6 @@ https://github.com/r9y9/pysptk/blob/master/pysptk/_sptk.pyx
 Jupyter Notebook Viewer
 https://nbviewer.org/github/r9y9/pysptk/blob/master/examples/pysptk%20introduction.ipynb
 
-audeering repositories
-https://github.com/orgs/audeering/repositories?type=all
-
 opensmile/src/lldcore/pitchACF.cpp at 055dda577c82383f8239663e5ac6c58d25b504db · audeering/opensmile
 https://github.com/audeering/opensmile/blob/055dda577c82383f8239663e5ac6c58d25b504db/src/lldcore/pitchACF.cpp#L346
 
@@ -1066,48 +1024,6 @@ https://github.com/audeering/audiofile/blob/main/audiofile/core/io.py
 audb/pyproject.toml at main · audeering/audb
 https://github.com/audeering/audb/blob/main/pyproject.toml
 
-audeering/audbackend: Manage file storage on different backends
-https://github.com/audeering/audbackend
-
-audeering/audonnx: Deploy models in ONNX format
-https://github.com/audeering/audonnx
-
-audeering/audobject: Generic Python interface for serializing objects to YAML
-https://github.com/audeering/audobject
-
-audeering/audformat: Format to store media files and annotations
-https://github.com/audeering/audformat
-
-audeering/audinterface: Generic interfaces for signal processing
-https://github.com/audeering/audinterface
-
-Usage — Documentation
-https://audeering.github.io/audinterface/usage.html#segmentation-interface
-
-audeering/audmodel: Store and version machine learning models
-https://github.com/audeering/audmodel
-
-audmetric/audmetric/core/api.py at main · audeering/audmetric
-https://github.com/audeering/audmetric/blob/main/audmetric/core/api.py
-
-audeering/audeer: Helpful Python functions
-https://github.com/audeering/audeer
-
-audeering/audpsychometric: Analyse rater annotations
-https://github.com/audeering/audpsychometric
-
-audpsychometric — Documentation
-https://audeering.github.io/audpsychometric/api/audpsychometric.html
-
-audeering/cough-speech-sneeze: Publish cough-speech-sneeze dataset
-https://github.com/audeering/cough-speech-sneeze
-
-hard drive - Google Search
-https://www.google.com/search?q=hard+drive&rlz=1C5GCCM_en&oq=hard+drive&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiPAtIBCDMwOTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-WD 4 TB Elements Portable External Hard Drive - USB 3.0, Black : Amazon.se: Musikinstrument
-https://www.amazon.se/WD-Elements-Portable-External-Drive/dp/B0713WPGLL/ref=asc_df_B0713WPGLL?mcid=2901cea036103a8abd0a42be65ab70fc&tag=shpngadsglede-21&linkCode=df0&hvadid=719639329392&hvpos=&hvnetw=g&hvrand=14410950400752130907&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9190181&hvtargid=pla-349199156361&language=sv_SE&gad_source=1&th=1
-
 numpy audio - Google Search
 https://www.google.com/search?q=numpy+audio&sca_esv=f5a9621dc91fdca6&rlz=1C5GCCM_en&sxsrf=ANbL-n59g26eYBqL6cVTrqkB_-goOD7lXA%3A1777385749690&ei=FcHwaZ7nKZCGwPAP5L_O8Qg&biw=1424&bih=714&ved=0ahUKEwjexfTx3ZCUAxUQAxAIHeSfM44Q4dUDCBE&uact=5&oq=numpy+audio&gs_lp=Egxnd3Mtd2l6LXNlcnAiC251bXB5IGF1ZGlvMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkjlEVCMBVjuD3AEeAGQAQGYAXigAfcDqgEDNi4xuAEDyAEA-AEBmAIKoAKwA8ICChAAGEcY1gQYsAPCAgUQIRigAcICBxAAGIAEGA3CAgYQABgeGA3CAgoQABgFGB4YDRgKwgIIEAAYCBgeGA2YAwCIBgGQBgiSBwIxMKAHsSKyBwE2uAecA8IHBTAuMy43yAchgAgB&sclient=gws-wiz-serp
 
@@ -1116,9 +1032,6 @@ https://github.com/bendalab/audioio
 
 ArjaanAuinger/pyaudiodsptools: Numpy Audio DSP Tools
 https://github.com/ArjaanAuinger/pyaudiodsptools
-
-dsp · GitHub Topics
-https://github.com/topics/dsp
 
 chaosprint/glicol: Graph-oriented live coding language and music/audio DSP library written in Rust
 https://github.com/chaosprint/glicol
@@ -1177,9 +1090,6 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10759573
 Speech-Articulatory-Coding/README.md at main · Berkeley-Speech-Group/Speech-Articulatory-Coding
 https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding/blob/main/README.md
 
-Organisation — Nordic Prosody XIV (NPXIV)
-https://npxiv.nordicprosody.org/organisation/
-
 huggingface/ml-intern: 🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models
 https://github.com/huggingface/ml-intern
 
@@ -1198,19 +1108,7 @@ https://github.com/lingjzhu/charsiu
 charsiu/experiments/masked_phone_modeling.py at main · lingjzhu/charsiu
 https://github.com/lingjzhu/charsiu/blob/main/experiments/masked_phone_modeling.py
 
-KNEECAP - LIARS TALE (OFFICIAL VIDEO) - YouTube
-https://www.youtube.com/watch?v=e061Py8MTHg&list=OLAK5uy_mvayhokTVfA9Pw5RtVBFy0x_jLY056QuU&index=5
-
-A besúgó | 1. rész | SkyShowtime Magyarország - YouTube
-https://www.youtube.com/watch?v=Nip8K47UvdE
-
 (1) Instagram
 https://www.instagram.com/
-
-New tab
-chrome://newtab/
-
-TIMIT — mfa model 3.1.2 documentation
-https://mfa-models.readthedocs.io/en/latest/corpus/English/TIMIT.html
 
 
