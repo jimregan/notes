@@ -56,3 +56,8 @@ Strange paper titles:
 
 [rsprouse/espsfree](https://github.com/rsprouse/espsfree) --- BSD-licensed Entropic Signal Processing System (ESPS) released by Microsoft, repackaged and slightly updated.
 
+[Deep Learning Math Workbook](https://www.amazon.com/Deep-Learning-Math-Workbook-mathematical/dp/1806674777)
+
+[Extending papermill through entry points](https://papermill.readthedocs.io/en/latest/extending-entry-points.html)
+
+[huggingface/hf-mount](https://github.com/huggingface/hf-mount)
