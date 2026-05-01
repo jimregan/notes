@@ -64,3 +64,5 @@ Strange paper titles:
 
 [torchdsp/torchsig](https://github.com/torchdsp/torchsig)
 
+[AcousTools: A 'Full-Stack', Python-Based, Acoustic Holography Library](https://arxiv.org/abs/2511.07336),
+[code](https://github.com/JoshuaMukherjee/AcousTools)
