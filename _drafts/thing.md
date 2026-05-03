@@ -1,6 +1,27 @@
-Here’s a **deep, structured, and conceptually rich summary** of the paper:
-
 ---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods
+categories: [chatgpt, summary]
+---
+
+```bibtex
+@inproceedings{balestriero2022spectral,
+author = {Balestriero, Randall and LeCun, Yann},
+title = {Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods},
+year = {2022},
+isbn = {9781713871088},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+booktitle = {Proceedings of the 36th International Conference on Neural Information Processing Systems},
+articleno = {1934},
+numpages = {15},
+location = {New Orleans, LA, USA},
+series = {NIPS '22}
+}
+```
 
 # 📄 **Article Summary (In-Depth)**
 
