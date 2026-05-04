@@ -1,10 +1,3 @@
-cd snack/
-git init .
-wget https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
-tar ztvf snack1.7.0.tar.Z 
-ls
-tar zxvf snack1.7.0.tar.Z 
-rm snack1.7.0.tar.Z 
 mv snack1.7.0/* .
 rmdir snack1.7.0/
 ls
@@ -498,3 +491,10 @@ ssh sbtaldeep24
 ssh sbtaldeep24
 ssh sbtaldeep24
 ssh sbtaldeep23
+ssh sbtaldeep21
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep21
+ssh sbtaldeep23
+ssh sbtaldeep24
+ssh sbtaldeep24
