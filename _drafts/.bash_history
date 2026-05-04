@@ -1,11 +1,3 @@
-git log
-git diff
-git diff
-git status
-git diff generic/jkCanvSpeg.c
-git add generic/jkCanvSpeg.c
-git commit -m 'tk 9 fixes'
-git diff
 git push origin copilot/build-github-packages 
 git diff
 git diff
@@ -498,3 +490,11 @@ git status
 git status
 git add src/plugins/pitch-track.ts 
 git commit -m 'add pitch track'
+cd ..
+git clone https://github.com/kth-tmh/wavesurfer
+cd snack
+git pull
+ls -al
+cd ..
+rm -rf snack
+git clone https://github.com/kth-tmh/snack
