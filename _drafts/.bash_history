@@ -1,9 +1,3 @@
-vi collator.py
-git add collator.py
-git commit -m 'start with DataCollatorCTCWithPadding, taken from transformers_doc/en/asr.ipynb'
-ls
-less ../sync_asr/LICENSE 
-cp ../sync_asr/LICENSE .
 git add LICENSE 
 git commit -m 'add LICENSE (Apache 2.0)'
 cp ~/Playing/transformers/src/transformers/models/wav2vec2/modeling_wav2vec2.py modeling_gemma4_ctc.py
@@ -498,3 +492,9 @@ git diff
 git add unix/Makefile.in 
 git commit -m 'remove X11'
 git push origin copilot/build-github-packages 
+cd ..
+wget http://deb.debian.org/debian/pool/main/s/snack/snack_2.2.10.20090624+dfsg.orig.tar.xz
+tar zxvf snack_2.2.10.20090624+dfsg.orig.tar.xz
+wget http://deb.debian.org/debian/pool/main/s/snack/snack_2.2.10.20090624+dfsg-4.debian.tar.xz
+tar zxvf snack_2.2.10.20090624+dfsg-4.debian.tar.xz
+git log
