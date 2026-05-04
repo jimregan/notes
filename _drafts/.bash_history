@@ -1,18 +1,3 @@
-git commit -m trim
-vi tabs_2
-git add tabs_2
-git commit -m trim
-git pull origin notes-jan-26 
-git add 2026-04-20-tabs-jan26.md 
-git commit -m more
-git pull origin notes-jan-26 
-vi tabs_ph 
-git add tabs_ph 
-git commit -m update
-vi tabs_ph 
-git add tabs_ph 
-git commit -m update
-cp ../_posts/2026-03-28-misc-links.md ../_posts/2026-04-21-misc-links.md 
 vi ../_posts/2026-04-21-misc-links.md 
 git add ../_posts/2026-04-21-misc-links.md 
 git commit -m cvt
@@ -498,3 +483,18 @@ python admin.py sync-users
 reset
 git push
 git log
+cd ~/Playing/transformers/
+ls
+git log
+git log examples/pytorch/speech-recognition/run_speech_recognition_ctc.py
+less ~/.ssh/config
+cd ~/Playing/gemma4ctc/
+ls
+mkdir ~/Playing/work-2026/timit-alignment
+mv timit_utils.py error_introduction.py alignment_runners.py run_experiment.py timit_alignment.ipynb ~/Playing/work-2026/timit-alignment
+ls
+less LICENSE 
+less papermill_hfmount.py 
+mv papermill_hfmount.py ~/Playing/work-2026/
+ls
+mv timit_alignment_experiment.ipynb ~/Playing/work-2026/timit-alignment/
