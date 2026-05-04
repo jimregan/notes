@@ -1,9 +1,5 @@
 git add tabs_1
 git commit -m more
-rm tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m more
 vi tabs_1
 git diff
 git add tabs_1
@@ -498,3 +494,7 @@ ls
 ls scripts/
 ls
 pwd
+cd ~/Playing/librivox_mult/
+ls
+ls json/
+less json/little-women/little-women-dramatic-reading-by-louisa-may-alcott/index.json 
