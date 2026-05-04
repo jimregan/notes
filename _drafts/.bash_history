@@ -1,4 +1,3 @@
-git add tabs_1
 git add tabs_2
 git commit -m more
 grep speech.kth tabs_*
@@ -498,3 +497,4 @@ less collator.py
 claude --resume 85b79d33-cc69-4ebf-af18-f4fc78a23960
 svn-multi --help
 ssh deepflow 
+ssh tts2
