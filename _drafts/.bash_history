@@ -1,7 +1,3 @@
-cat /tmp/eh
-cat /tmp/head 
-vi thing.md 
-git add thing.md 
 git commit -m meta
 git mv thing.md ../_posts/2026-04-21-simulating-hard-attention-using-soft-attention.md
 git commit -m mv
@@ -498,3 +494,7 @@ cd -
 cd work-2026/
 mv ~/Downloads/Falcon_OCR.ipynb .
 codex
+cd gemma4-ctc/
+ls
+less dict.ltr.txt 
+# codex resume 019d9baf-594d-7b73-915f-274d5cdbd9f5
