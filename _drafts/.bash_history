@@ -1,8 +1,3 @@
-git add tabs_1
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
 git commit -m more
 rm tabs_1
 vi tabs_1
@@ -498,3 +493,8 @@ cd ~/Playing/librivox_mult/
 ls
 ls json/
 less json/little-women/little-women-dramatic-reading-by-louisa-may-alcott/index.json 
+less whisperx/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
+echo $PWD/whisperx/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
+ls
+echo less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
+ less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
