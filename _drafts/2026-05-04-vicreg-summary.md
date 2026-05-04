@@ -1,6 +1,26 @@
-Here’s a clean, self-contained summary of the VICReg paper, with emphasis on the parts most relevant to learning structured representations (without pulling in anything else we’ve discussed).
+---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning
+categories: [chatgpt, summary]
+---
 
-⸻
+## [VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://openreview.net/forum?id=xm6YD62D1Ub)
+
+[arXiv](https://arxiv.org/abs/2105.04906)
+
+```bibtex
+@inproceedings{
+bardes2022vicreg,
+title={{VICR}eg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning},
+author={Adrien Bardes and Jean Ponce and Yann LeCun},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=xm6YD62D1Ub}
+}
+```
 
 🧠 VICReg — Core Idea
 
@@ -190,8 +210,3 @@ A good representation must:
 * use the full space
 * not waste dimensions on redundant information
 
-⸻
-
-If you want, next step I can do:
-
-👉 translate VICReg directly into the “graph / spectral / geometry” lens you’ve been building — that connection is very deep.
