@@ -1,4 +1,3 @@
-git status
 ls
 git remote add origin git@github.com:jimregan/gemma4-ctc.git
 git branch -M main
@@ -498,3 +497,4 @@ less ~/.ssh/config
 vi /tmp/files
 vi /tmp/files
 ssh deepflow 
+ssh tts2
