@@ -1,23 +1,3 @@
-mv snack1.7.0/* .
-rmdir snack1.7.0/
-ls
-git add .
-git commit -m 'Version 1.7.0'
-ls
-less COPYING 
-wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.Z
-wget https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz
-wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.gz
-mv snack2.1.6.tar.gz ..
-mv snack2.0.7.tar.gz ..
-ls
-git tag -a snack1.7.0 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack1.7.0.tar.Z'
-ls
-git log
-git commit --amend --author="Kåre Sjölander <kare@speech.kth.se>" --no-edit
-git log
-cd ..
-wget https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
 ls -al snack1.7.0.tar.Z 
 tar ztvf snack1.7.0.tar.Z |less
 tar zxvf snack1.7.0.tar.Z 
@@ -498,3 +478,23 @@ ssh sbtaldeep21
 ssh sbtaldeep23
 ssh sbtaldeep24
 ssh sbtaldeep24
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
