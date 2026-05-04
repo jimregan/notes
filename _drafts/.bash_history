@@ -1,83 +1,3 @@
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-vi thing.md
-git add thing.md 
-git commit -m add
-vi thing.md 
-git add thing.md 
-git commit -m meta
-git mv thing.md ../_posts/2026-04-21-attention-to-mamba-a-recipe-for-cross-architecture-distillation.md
-git commit -m mv
-git push origin notes-jan-26 
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-vi thing.md
-git add thing.md
-git commit -m add
-vi thing.md
-head -9 ../_posts/2026-04-21-simulating-hard-attention-using-soft-attention.md > /tmp/head 
-vi thing.md 
-git add thing.md 
-git commit -m meta
-vi thing.md 
-echo "Retrieval Augmented Generation based context discovery for ASR"|tr 'A-Z' 'a-z'|tr ' ' '-'
-git mv thing.md ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md
-git commit -m mv
-vi ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md
-git add ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md
-git commit -m addendum
-vi ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md
-git add ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md
-git commit -m trim
-vi thing.md 
-git add thing.md 
-git commit -m add
-vi further.md
-git add further.md 
-git commit -m add
-vi further.md
-git add further.md 
-git commit -m add
-vi further.md
-git add further.md 
-git commit -m add
-vi further.md
-git add further.md 
-git commit -m add
-vi further.md
-git add further.md 
-git commit -m add
-vi tabs_2
-git add tabs_2 
-git commit -m add
-vi tabs_1
-git add tabs_1
-git commit -m add
-vi tabs_1
-git add tabs_1
-git commit -m add
-vi ../_posts/2026-04-21-misc-links.md 
-vi tabs_1
-git add tabs_1
-git commit -m add
-git push origin notes-jan-26 
-vi ../_posts/2026-04-21-misc-links.md 
-vi tabs_1
-git add tabs_1
-git commit -m add
-vi tabs_1
-git add tabs_1
-git commit -m add
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-vi tabs_2
-git add tabs_2 
-git commit -m more
-vi ../_posts/2026-04-21-misc-links.md 
-vi tabs_1
 git add tabs_1
 git commit -m more
 vi tabs_2
@@ -498,3 +418,83 @@ less papermill_hfmount.py
 mv papermill_hfmount.py ~/Playing/work-2026/
 ls
 mv timit_alignment_experiment.ipynb ~/Playing/work-2026/timit-alignment/
+ls
+vi collator.py
+git add collator.py
+git commit -m 'start with DataCollatorCTCWithPadding, taken from transformers_doc/en/asr.ipynb'
+ls
+less ../sync_asr/LICENSE 
+cp ../sync_asr/LICENSE .
+git add LICENSE 
+git commit -m 'add LICENSE (Apache 2.0)'
+cp ~/Playing/transformers/src/transformers/models/wav2vec2/modeling_wav2vec2.py modeling_gemma4_ctc.py
+cp ~/Playing/transformers/src/transformers/models/wav2vec2/configuration_wav2vec2.py configuration_gemma4_ctc.py
+git add configuration_gemma4_ctc.py modeling_gemma4_ctc.py 
+git commit -m 'copy transformers/src/transformers/models/wav2vec2/{configuration,modeling}_wav2vec2.py'
+less configuration_gemma4_ctc.py 
+git diff
+git status
+ls
+git remote add origin git@github.com:jimregan/gemma4-ctc.git
+git branch -M main
+git push -u origin main
+git diff
+git diff
+git diff
+less modeling_gemma4_ctc.py 
+git status
+git diff
+git add modeling_gemma4_ctc.py configuration_gemma4_ctc.py 
+git commit -m 'remove wav2vec2 specific pieces'
+ls
+less configuration_gemma4_ctc.py 
+git diff
+git diff
+git add configuration_gemma4_ctc.py 
+git commit -m 'remove more unneeded code'
+git diff
+git status
+git diff
+git add modeling_gemma4_ctc.py 
+git commit -m 'CTC code'
+git push -u origin gemma4-copies 
+git diff
+git status
+git add modeling_gemma4_ctc.py 
+git diff
+git add collator.py 
+git diff
+git add configuration_gemma4_ctc.py 
+git commit -m update
+git log
+git push origin gemma4-copies 
+ls
+diff -u collator.py ~/Playing/work-2026/gemma4-ctc/collator.py 
+diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py 
+diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
+diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
+diff -u modeling_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/modeling_gemma4_ctc.py |less
+diff -u  ~/Playing/work-2026/gemma4-ctc/modeling_gemma4_ctc.py modeling_gemma4_ctc.py |less
+git diff
+find /Users/joregan/Playing/transformers/ -name run_speech_recognition_ctc.py
+cp /Users/joregan/Playing/transformers//examples/pytorch/speech-recognition/run_speech_recognition_ctc.py trainer.py
+git add trainer.py 
+git commit
+git log
+git diff
+git add trainer.py 
+git commit -m adapt
+git push origin gemma4-copies 
+git diff
+git add trainer.py 
+git commit -m "don't crash if the model directory is empty"
+git diff
+git add trainer.py 
+git commit -m 'the text processing is intended for text'
+git diff
+git add trainer.py 
+git commit -m 'update help'
+git push origin gemma4-copies 
+git status
+ls
+less collator.py 
