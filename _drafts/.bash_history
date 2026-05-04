@@ -1,4 +1,3 @@
-git diff
 git status
 ls
 git remote add origin git@github.com:jimregan/gemma4-ctc.git
@@ -498,3 +497,4 @@ rm /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.49.png /Users/jorega
 less ~/.ssh/config
 vi /tmp/files
 vi /tmp/files
+ssh deepflow 
