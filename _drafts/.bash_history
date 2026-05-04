@@ -1,33 +1,3 @@
-git add tabs_s
-git commit -m trim
-rm tab-missing 
-grep http tabs_1|while read i;do grep "$i" 2026-04-20-tabs-jan26.md && echo "$i" >> present ; done
-less present 
-git push origin notes-jan-26 
-git diff
-git add 2026-04-20-tabs-jan26.md 
-git commit -m update
-git pull origin notes-jan-26 
-git push origin notes-jan-26 
-grep https://github.com/plexusone/omnivoice-core 2026-04-20-tabs-jan26.md ../_posts/2026-04-20-old-tabs.md 
-git log
-git push origin notes-jan-26 
-git checkout b460279df3a1f39d91a2004ab95e49b76c8591e3 tabs_1
-git checkout b460279df3a1f39d91a2004ab95e49b76c8591e3 tabs_2
-git status
-git status|less
-git commit -m 're-add'
-vi tabs_1
-git diff
-git add tabs_1 
-git commit -m trim
-vi tabs_1
-git diff
-git add 2026-04-20-tabs-jan26.md 
-git commit -m cvt
-git checkout b460279df3a1f39d91a2004ab95e49b76c8591e3 tabs_ph
-grep https://ieeexplore.ieee.org/document/10022040 2026-04-20-tabs-jan26.md 
-vi thing.md
 git add thing.md 
 git commit -m add
 vi thing.md 
@@ -498,3 +468,33 @@ git commit -m meta
 git mv 2026-05-04-vicreg-summary.md ../_posts/
 git commit -m mv
 git push origin notes-jan-26 
+git add falcon-pdf-ocr/
+git commit -m add
+less falcon-pdf-ocr/README.md 
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+git diff
+cd falcon-pdf-ocr/
+ls
+rm -rf __pycache__/
+git add .
+git commit -m update
+git status
+cd ..
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+git diff
+ls
+cd falcon-pdf-ocr/
+git status
+ls
+git add .
+git commit -m update
+cd ..
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+ls
+rm -rf falcon-pdf-ocr/__pycache__/
+scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
+mkdir cdc1700
+cd cdc1700/
+codex
