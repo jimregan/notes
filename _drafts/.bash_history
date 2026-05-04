@@ -1,10 +1,3 @@
-git add LICENSE 
-git commit -m 'add LICENSE (Apache 2.0)'
-cp ~/Playing/transformers/src/transformers/models/wav2vec2/modeling_wav2vec2.py modeling_gemma4_ctc.py
-cp ~/Playing/transformers/src/transformers/models/wav2vec2/configuration_wav2vec2.py configuration_gemma4_ctc.py
-git add configuration_gemma4_ctc.py modeling_gemma4_ctc.py 
-git commit -m 'copy transformers/src/transformers/models/wav2vec2/{configuration,modeling}_wav2vec2.py'
-less configuration_gemma4_ctc.py 
 git diff
 git status
 ls
@@ -498,3 +491,10 @@ tar zxvf snack_2.2.10.20090624+dfsg.orig.tar.xz
 wget http://deb.debian.org/debian/pool/main/s/snack/snack_2.2.10.20090624+dfsg-4.debian.tar.xz
 tar zxvf snack_2.2.10.20090624+dfsg-4.debian.tar.xz
 git log
+ssh deepflow 
+ssh deepflow 
+cat ~/.huggingface/token 
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.49.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.53.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.39.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.48.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.37.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.32.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.35.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.30.png 
+less ~/.ssh/config
+vi /tmp/files
+vi /tmp/files
