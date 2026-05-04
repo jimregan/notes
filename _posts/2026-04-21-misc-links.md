@@ -66,3 +66,7 @@ Strange paper titles:
 
 [AcousTools: A 'Full-Stack', Python-Based, Acoustic Holography Library](https://arxiv.org/abs/2511.07336),
 [code](https://github.com/JoshuaMukherjee/AcousTools)
+
+[Introduction to Manifold Learning](https://www.youtube.com/playlist?list=PLqgZEQsU_8E3ofyYLrAQkPAj-L14NM7ZY)
+
+
