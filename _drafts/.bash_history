@@ -1,141 +1,3 @@
-ls -al snack1.7.0.tar.Z 
-tar ztvf snack1.7.0.tar.Z |less
-tar zxvf snack1.7.0.tar.Z 
-cd snack1.7.0/
-ls -al
-cd -
-cd snack
-ls -al
-date
-less COPYING 
-man date
-date -r README 
-date -r COPYING 
-git commit --amend --date="$(date -r COPYING)" --no-edit 
-git log
-ls
-rm *
-rm -rf *
-tar zxvf ../snack2.0.7.tar.gz 
-mv snack2.0.7/* .
-rmdir snack2.0.7/
-ls
-git status
-git add .
-#git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 
-ls
-git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 2.0.7"
-git log
-git tag -a snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack1.7.0.tar.Z'
-git log
-git remote add origin git@github.com:kth-tmh/snack.git
-git branch -M main
-git push -u origin main
-ls
-rm -rf *
-git tag -m snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
-git tag --edit snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
-git tag -d snack2.0.7 
-git tag -a snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
-git push --tags
-ls
-tar zxvf ../snack2.1.6.tar.gz 
-mv snack2.1.6/* .
-rmdir snack2.1.6/
-git add .
-git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 2.1.6"
-git log
-git tag -a snack2.1.6 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz'
-git push origin main 
-git push --tags
-wget http://web.archive.org/web/20250708034751*/http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
-less snack2.2.2.tar.gz 
-rm snack2.2.2.tar.gz 
-wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
-tar zxvf snack2.2.2.tar.gz 
-ls
-rm -rf *
-wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
-ls -al snack2.2.2.tar.gz 
-tar zxvf snack2.2.2.tar.gz 
-ls -al snack2.2.2
-tar ztvf snack2.2.2.tar.gz 
-ls
-rm snack2.2.2.tar.gz 
-mv snack2.2.2/* .
-rmdir snack2.2.2/
-git add .
-git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.2"
-git log
-git tag -a snack2.2.2 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.2.2.tar.gz'
-ls
-less README 
-git push --tags
-git push origin main 
-ls
-cd ..
-wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
-tar ztvf snack2.2.2.tar.gz 
-wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
-cd snack
-ls
-rm -rf *
-tar zxvf ../snack2.2.10.tar.gz 
-git add .
-git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.10"
-date -r R
-git mv snack2.2.10/* .
-ls
-rmdir snack2.2.10/
-git add .
-git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.10"
-git tag -a snack2.2.10 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz'
-git push origin main 
-git push --tags
-cd ..
-mkdir snack-dist
-cd snack-dist/
-wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
-wget https://www.speech.kth.se/snack/dist/snack2210-tcl.zip
-wget https://www.speech.kth.se/snack/dist/snack2210-py.zip
-wget https://www.speech.kth.se/snack/dist/snack2.2.10-linux.tar.gz
-wget https://www.speech.kth.se/snack/dist/snack2.2.9-osx.tar.gz
-rm *
-wget https://www.speech.kth.se/snack/dist/snack170n.exe https://www.speech.kth.se/snack/dist/snack170o.exe https://www.speech.kth.se/snack/dist/snack170.sea.hqx https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
-rm *
-ls
-wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.gz
-wget https://www.speech.kth.se/snack/dist/snack2.0.7.sea.hqx
-wget https://www.speech.kth.se/snack/dist/snack207p.exe
-wget https://www.speech.kth.se/snack/dist/snack207o.exe
-wget https://www.speech.kth.se/snack/dist/snack207n.exe
-rm *
-wget https://www.speech.kth.se/snack/dist/libsnacksphere.so https://www.speech.kth.se/snack/dist/libsnacksphere.dll https://www.speech.kth.se/snack/dist/ogg.tar.gz https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz https://www.speech.kth.se/snack/dist/snack2.1.6.tar.Z https://www.speech.kth.se/snack/dist/snack2.1.6.sea.hqx https://www.speech.kth.se/snack/dist/snack216p.exe https://www.speech.kth.se/snack/dist/snack216n.exe
-rm *
-wget https://www.speech.kth.se/snack/dist/libsnacksphere.so https://www.speech.kth.se/snack/dist/libsnacksphere.dll https://www.speech.kth.se/snack/dist/ogg.tar.gz https://www.speech.kth.se/snack/dist/snack2.2.2.tar.Z https://www.speech.kth.se/snack/dist/snack2.2.2.tar.gz https://www.speech.kth.se/snack/dist/snack2.2.sea.hqx https://www.speech.kth.se/snack/dist/snack222p.exe https://www.speech.kth.se/snack/dist/snack222n.exe
-cd ..
-rm -rf snack-dist/
-cd snack
-ls
-git rm COPYING 
-git mv BSD.txt LICENSE.txt
-git commit -m 'make licence look nice in github'
-git push origin main 
-ls
-claude 
-claude --resume 6ba5b925-5a00-4900-97b5-ca3a2650b4ad
-git status
-less generic/minimp3.h 
-git status
-less generic/jkFormatMP3.h 
-less generic/jkFormatMP3.c 
-git checkout -b dev
-git add generic/minimp3*
-git status
-git diff
-git push origin dev 
-git diff
-git status
 git status
 find . -name '*.[ch]' |xargs grep CONST
 git diff
@@ -498,3 +360,141 @@ ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log 
+cat inp.log |perl wget-http.pl >> tocheck 
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cd ../8c08e58ba0638cacfea6a84a97fae1f4/
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+grep sizeInB tocheck 
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}'
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+. spidering.sh 
+spiderfile recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+cat recheck.log |perl wget-http.pl |grep sizeIn
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}'
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+scp todel sbtaldeep22:.srv/done/
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+less recheck
+spiderfile recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+scp todel sbtaldeep22:.srv/done/
+rm tocheck 
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cat inp.log |perl wget-http.pl >> tocheck 
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+less tocheck 
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+less recheck
+spiderfile recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+scp todel sbtaldeep22:.srv/done/
+scp sbtaldeep22:.srv/wg/inp.log .
+rm tocheck 
+cat inp.log |perl wget-http.pl >> tocheck 
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+caffeinate 
+brew install codex
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+spiderfile recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+scp todel sbtaldeep22:.srv/done/
+rm tocheck 
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cat inp.log |perl wget-http.pl >> tocheck 
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+cd -
+grep Sc5feb wget-20260*
+grep Sc1nov wget-20260*
+grep Sc20oct wget-20260*
+pwd
+ls
+cd -
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+spiderfile recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+scp todel sbtaldeep22:.srv/done/
+rm tocheck 
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log |perl wget-http.pl >> tocheck 
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cat inp.log |perl wget-http.pl >> tocheck 
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
+grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
+spiderfile recheck
+less recheck
+less recheck.log 
+cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
+cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
+cd -
+git add wget-20260405c.nt 
+git commit -m recheck
+cd -
+scp sbtaldeep22:.srv/wg/inp.log .
+tail tocheck 
+tail inp.log 
+scp todel sbtaldeep22:.srv/done/
+rm tocheck 
+rm todel 
+scp sbtaldeep22:.srv/wg/inp.log .
+cat inp.log |perl wget-http.pl >> tocheck 
+cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
+cd -
+git add wget-20260405.nt 
+git commit -m inp
+cd -
