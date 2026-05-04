@@ -1,7 +1,3 @@
-rm m*/Ss_26feb26-1.zip
-ls m*/Ss_2feb26-1.zip
-rm m*/Ss_2feb26-1.zip
-ls m*/Ss_31mar26-1.zip
 rm m*/Ss_31mar26-1.zip
 ls m*/Ss_4feb26-1.zip
 rm m*/Ss_4feb26-1.zip
@@ -498,3 +494,7 @@ claude --resume b5f8df20-4074-4e22-bcc9-724c22f64154
 claude --resume b5f8df20-4074-4e22-bcc9-724c22f64154
 claude --resume b5f8df20-4074-4e22-bcc9-724c22f64154
 claude --resume b5f8df20-4074-4e22-bcc9-724c22f64154
+cd ..
+git add writing/
+git commit -m update
+vi tabs_1
