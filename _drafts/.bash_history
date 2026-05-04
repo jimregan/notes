@@ -1,7 +1,3 @@
-git add thing.md 
-git commit -m add
-vi thing.md 
-head -n 9 ../_posts/2026-03-28-voxtream-codebase-notes.md  > /tmp/head
 cat /tmp/eh
 cat /tmp/head 
 vi thing.md 
@@ -497,4 +493,8 @@ rm -rf falcon-pdf-ocr/__pycache__/
 scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
 mkdir cdc1700
 cd cdc1700/
+codex
+cd -
+cd work-2026/
+mv ~/Downloads/Falcon_OCR.ipynb .
 codex
