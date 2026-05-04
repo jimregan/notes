@@ -1,171 +1,3 @@
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi ../_posts/2026-03-28-misc-links.md 
-git add ../_posts/2026-03-28-misc-links.md 
-git commit -m cvt
-vi tabs_2
-git add tabs_2
-git commit -m more
-vi tabs_2
-git diff
-git add tabs_2
-git commit -m more
-vi tabs_2
-git add tabs_2
-git commit -m more
-vi ../_posts/2026-03-28-misc-links.md 
-vi /Users/joregan/Downloads/S0167639326000166.bib 
-ls ../_notebooks/*accen*
-git branch
-git push origin notes-jan-26 
-git remote show origin 
-git status
-less wacv.md 
-git add wacv.md 
-git commit -m add
-git rm wacv.md 
-git commit -m rm
-less test.jsgf 
-less ../_notebooks/label_studio_whisperx 
-ls
-git status
-rm A\ büfében.\ Dialógus\ kérdésekkel\ és\ válaszokkal\ ｜A1-B1｜\ Magyar\ nyelv\ külföldieknek\ \[yaP9zVJczg8\].hu.vtt 
-less rv.md 
-git add rv.md 
-git commit -m add
-git rm rv.md 
-git commit -m rm
-git status
-git push origin notes-jan-26 
-ls *.ts
-rm *.ts
-ls
-git status
-less tt 
-less trimtakes.py 
-less 1voc 
-rm 1voc 
-less validate-by-wer.py 
-git add validate-by-wer.py 
-git commit -m add
-ls
-git status
-less split-texts.ipynb 
-rm split-texts.ipynb 
-ls
-less vosk-ffmpeg-glob.py 
-git status
-less qprs-names.md 
-git add qprs-names.md 
-git commit -m add
-git rm qprs-names.md 
-git commit -m rm
-git status
-less sample-ls-annot.json 
-git rm _drafts/old_tabs_t
-git rm old_tabs_t
-git rm raw_tabs_* unsorted_links 
-git commit -m rm
-git push origin notes-jan-26 
-git pull origin notes-jan-26 
-ls
-git status
-less liepa.py 
-git add liepa.py 
-git commit -m add
-less tt
-ls
-less tx-gath 
-rm tx-gath 
-git status
-rm head 
-git status
-git status|head
-less 2017-2018-text.txt 
-less 2017-2018-videos.txt 
-less 2026-ep147.vtt 
-rm 2026-ep147.vtt 
-git status|head
-ffplay 2442207180020054721_480p.mp4
-rm 2442207180020054721_480p.mp4
-git status
-less delte
-less delete 
-rm delete 
-less whisperx-runner.ipynb 
-rm whisperx-runner.ipynb 
-find . -size 0
-git status | grep fix-esp
-git status | grep fairseq-w
-git status | grep widg
-git status | grep alig
-git status | grep grab-p
-find . -size 0 -delete
-git pull origin notes-jan-26 
-git push origin notes-jan-26 
-ls ../_notebooks/
-git branch
-git pull origin notes-jan-26 
-git fetch
-git merge master
-git branch
-git branch
-git pull origin notes-jan-26 
-code ../_posts/2026-04-20-old-tabs.md
-git diff ../_posts/2026-04-20-old-tabs.md
-git add ../_posts/2026-04-20-old-tabs.md
-git commit -m fix
-git status
-git push origin notes-jan-26 
-less scraping-pages.md 
-git add scraping-pages.md 
-git commit -m add
-git rm scraping-pages.md 
-git commit -m rm
-git status
-less throttle.ctrl
-git add throttle.ctrl
-git commit -m add
-git rm throttle.ctrl
-git commit -m rm
-git status
-less test-phone 
-git add test-phone 
-less transcri
-less transcript
-rm transcript
-ls
-git status
-less thing-intro 
-git add thing-intro 
-git commit -m add
-cp thing-intro ~/Playing/work-2026/writing/LRE\ -\ Phonetic\ corpus/XX-Old-intro.md
-git rm test-phone thing-intro 
-git commit -m rm
-git status
-less config.yaml 
-git push origin notes-jan-26 
-grep http tabs_z
-grep http tabs_z|while read i;do grep $i 2026-04-20-tabs-jan26.md ; done
-git rm tabs_z
-git commit -m rm
-grep http tabs_y|while read i;do grep $i 2026-04-20-tabs-jan26.md ; done
-vi tabs_y 
-grep http tabs_y|while read i;do grep "$i" 2026-04-20-tabs-jan26.md || echo "$i" >> tab-missing ; done
-less tab-missing 
-rm tab-missing 
-git rm tabs_y 
-git add 2026-04-20-tabs-jan26.md 
-git commit -m cvt
-grep http tabs_s|while read i;do grep "$i" 2026-04-20-tabs-jan26.md || echo "$i" >> tab-missing ; done
-less tab-missing 
-vi tabs_s
-rm tab-missing 
-grep http tabs_1|while read i;do grep "$i" 2026-04-20-tabs-jan26.md || echo "$i" >> tab-missing ; done
-less tabs_1
-less tab-missing 
-git diff
 git add tabs_s
 git commit -m trim
 rm tab-missing 
@@ -498,3 +330,171 @@ conda activate flask
 pip install flask
 python correct_splits.py
 less index.qmd 
+cd ~/Playing/notes/_drafts/
+vi tabs_2 
+git add tabs_2
+git commit -m more
+vi tabs_1 
+git add tabs_1
+git commit -m more
+vi tabs_1 
+vi tabs_2
+vi tabs_2
+git diff
+git add tabs_2 
+git commit -m more
+echo ~/Playing/*lib*
+ls ~/Playing/librivox_mult/
+less ~/Playing/librivox_mult/vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
+vi tabs_2
+git add tabs_2 
+git commit -m more
+vi ../_posts/2026-03-28-misc-links.md 
+vi ../_posts/2026-04-21-misc-links.md 
+git diff
+vi tabs_2
+vi tabs_1
+git add tabs_1
+git commit -m more
+vi tabs_2
+git diff
+git add tabs_2 
+git commit -m more
+vi tabs_2
+vi tabs_1
+git add tabs_1
+git commit -m more
+vi ../_posts/2026-04-21-misc-links.md 
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+rm tabs_1
+vi tabs_1
+git diff tabs_1
+git add tabs_1
+git commit -m trim
+wc -l tabs_1
+vi ../_posts/2026-04-21-misc-links.md 
+vi tabs_1
+git add tabs_1
+git commit -m trim
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+vi tabs_2
+git add tabs_2 
+git commit -m trim
+vi ../_posts/2026-04-21-misc-links.md 
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+rm tabs_1
+vi tabs_1
+git diff
+git add tabs_1
+git commit -m trim
+rm tabs_1
+vi tabs_1
+git add tabs_1
+git commit -m trim
+vi tabs_2
+git diff
+git add tabs_2 
+git commit -m trim
+vi tabs_2
+git diff
+vi ../_posts/2026-04-21-misc-links.md 
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+git push origin notes-jan-26 
+git rm fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json 
+git commit -m rm
+vi ../_posts/2026-04-21-misc-links.md 
+head -n 9 ../_posts/2026-04-21-misc-links.md 
+head -n 9 ../_posts/2026-04-21-misc-links.md  > /tmp/head
+vi 2026-04-20-tabs-jan26.md 
+git add 2026-04-20-tabs-jan26.md 
+git commit -m meta
+git mv 2026-04-20-tabs-jan26.md ../_posts/
+git commit -m mv
+git push origin notes-jan-26 
+vi tabs_2
+git add tabs_2 
+git commit -m more
+git log
+git log
+git revert a9fd106f2bd4cae51b06daa7ea489aeaec479baf
+vi tabs_2
+git diff
+git add tabs_2 
+git commit -m more
+ls ~/Playing/work-2026/
+mkdir ~/Playing/work-2026/kolibri
+ls ~/Playing/work-2026/kolibri/
+ls ~/Playing/work-2026/kolibri/
+less ~/Playing/work-2026/kolibri/Dockerfile 
+less ~/Playing/work-2026/kolibri/Dockerfile 
+vi tabs_2
+git add tabs_2 
+git commit -m more
+less /Users/joregan/Downloads/IEEE\ Xplore\ Reference\ Download\ 2026.5.2.12.36.52.txt 
+rm /Users/joregan/Downloads/IEEE\ Xplore\ Reference\ Download\ 2026.5.2.12.36.52.txt 
+vi tabs_2
+git add tabs_2 
+git commit -m more
+vi tabs_2
+git add tabs_2 
+git commit -m more
+vi tabs_2
+git diff
+git add tabs_2 
+git commit -m more
+vi tabs_1
+git add tabs_1
+git commit -m more
+vi tabs_2
+git diff
+git add tabs_2
+git commit -m more
+grep 3600270.3602204 *md
+less thing.md 
+head -n 9 ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md  > /tmp/head
+less /tmp/head 
+vi thing.md 
+git add thing.md 
+git commit -m meta
+git long thing.md
+git log thing.md
+git mv thing.md ../_posts/2026-04-21-ssl-spectral-embedding-methods.md
+git commit -m mv
+mv ~/Downloads/Untitled68.ipynb .
+git add Untitled68.ipynb 
+git commit -m run-whisper
+vi tabs_2
+git add tabs_2
+git commit -m more
+vi ../_posts/2026-04-21-misc-links.md 
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+vi ../_posts/2026-04-21-misc-links.md 
+vi tabs_2
+git add tabs_2
+git commit -m more
+vi tabs_2
+git add tabs_2
+git commit -m more
+vi ../_posts/2026-04-21-misc-links.md 
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m more
+vi tabs_1
+git diff
+git add tabs_1 
+git commit -m more
+git branch
+git push origin notes-jan-26 
+vi 2026-05-04-vicreg-summary.md
+git add 2026-05-04-vicreg-summary.md 
+git commit -m add
+vi 2026-05-04-vicreg-summary.md
+git add 2026-05-04-vicreg-summary.md
+git commit -m meta
+git mv 2026-05-04-vicreg-summary.md ../_posts/
+git commit -m mv
+git push origin notes-jan-26 
