@@ -1,26 +1,3 @@
-less configuration_gemma4_ctc.py 
-git diff
-git diff
-git add configuration_gemma4_ctc.py 
-git commit -m 'remove more unneeded code'
-git diff
-git status
-git diff
-git add modeling_gemma4_ctc.py 
-git commit -m 'CTC code'
-git push -u origin gemma4-copies 
-git diff
-git status
-git add modeling_gemma4_ctc.py 
-git diff
-git add collator.py 
-git diff
-git add configuration_gemma4_ctc.py 
-git commit -m update
-git log
-git push origin gemma4-copies 
-ls
-diff -u collator.py ~/Playing/work-2026/gemma4-ctc/collator.py 
 diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py 
 diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
 diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
@@ -498,3 +475,26 @@ git mv TODO.md to-sort/
 git commit -m mv
 claude
 £ claude --resume 87a616ee-ce3f-4fdd-b6b7-8f976b89739a
+ssh sbtaldeep23
+ssh sbtaldeep21
+ssh sbtaldeep21
+ssh sbtaldeep21
+ssh sbtaldeep21
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
