@@ -1,158 +1,3 @@
-less /Users/joregan/Downloads/tclplugin/tclplugin/license.terms\,v 
-wget ftp://ftp.tcl.tk/pub/tcl/plugin/tclplugin31-linux-glibc2.3-ix86.xpi
-unzip -l tclplugin31-linux-glibc2.3-ix86.xpi 
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_2
-git add tabs_2
-git commit -m more
-ls
-less README.md 
-scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
-:q
-scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
-less docker-entrypoint.sh 
-scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
-cd ..
-rm -rf cdc1700/
-git fetch
-ls
-git status
-rm 0001-*
-rm Falcon_OCR.ipynb 
-ls hungarian
-less english_native.json 
-git diff
-git fetch
-#git push --force origin 
-git branch
-git push origin unsorted-new 
-git push --force origin unsorted-new 
-git log
-git branch
-git log 
-git checkout -b pre-part
-git branch
-git checkout unsorted-new 
-git branch -D pre-part 
-git checkout -b pre-part 30d5d778b920a832c2c27f7ee01dffee78fa41e4
-git add training-plan.md writing/ falcon-pdf-ocr/
-git commit -m prestash
-git checkout -b pre-part 30d5d778b920a832c2c27f7ee01dffee78fa41e4
-git push origin pre-part 
-git checkout unsorted-new 
-git diff
-git stash
-git checkout unsorted-new 
-git log
-git branch
-pwd
-git push origin unsorted-new 
-git log
-pwd
-pwd
-git branch
-git log
-git branch
-ls spoken-sentence-transformers
-git rm spoken-sentence-transformers/notes*
-git commit -m rm
-git push origin unsorted-new 
-git rm -r derived-text/
-git commit -m rm
-git rm record_streams.py 
-git rm accents-scraper.ipynb 
-git commit -m 
-git rm -r editions-alignment/
-git commit -m rm
-git push origin unsorted-new 
-ls align_whisper/
-git rm -r align-html/
-git rm -r align_whisper/
-git commit -m rm
-git push origin unsorted-new 
-git status
-less multi-source-scorer-instructions.md 
-less nettt.md 
-git add nettt.md 
-git commit -m add
-git rm nettt.md 
-git commit -m rm
-git push origin unsorted-new 
-git pull origin unsorted-new 
-git rm -r ocr-alignment/
-git rm -r correct_whisper/
-git commit -m rm
-git push origin unsorted-new 
-mkdir local_mail
-cd local_mail/
-mv ~/Downloads/setup.sh .
-less setup.sh 
-mv ~/Downloads/docker-compose.yml .
-mv ~/Downloads/index.js .
-less index.js 
-mv ~/Downloads/CLAUDE.md .
-mv ~/Downloads/README.md .
-less README.md 
-brew install docker
-docker up
-docker compose up
-unzip /Users/joregan/Downloads/files.zip 
-git add .
-git commit -m local
-git branch
-git push origin unsorted
-git push origin unsorted-new 
-less setup.sh 
-bash setup.sh 
-vi setup.sh 
-bash setup.sh 
-brew install orbstack
-ls
-bash setup.sh 
-pwd
-git diff
-git add setup.sh 
-git commit -m update
-git push origin unsorted-new 
-tar zxvf ~/Desktop/claudemail.tar.gz 
-mv claudemail/* .
-ls
-ls
-rmdir claudemail/
-git add .
-git commit -m update
-ls ./\{mcp-server\,scripts\}/
-tar zxvf ~/Desktop/claudemail\ \(1\).tar.gz 
-ls
-rm *
-rm -rf ./\{mcp-server\,scripts\}/
-rm -rf scripts/
-rm -rf mcp-server/
-mv claudemail/* .
-rmdir claudemail/
-git status
-git add .
-git commit -m update
-git log
-ls
-git revert d1e9a564f67312e2293381b33a12c642e5ff58c2
-ls
-ls scripts/
-ls
-pwd
-cd ~/Playing/librivox_mult/
-ls
-ls json/
-less json/little-women/little-women-dramatic-reading-by-louisa-may-alcott/index.json 
-less whisperx/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
-echo $PWD/whisperx/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
-ls
-echo less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
- less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
-cd dysfluent-wfst/
-ls
 less 2506.01129v2-summary.md 
 less 2506.01129v2-summary.md 
 ls
@@ -498,3 +343,158 @@ less /tmp/procced/train.txt
 ls
 less littlewomen_00_alcott.corrected.json
 less littlewomen_00_alcott.corrected.json
+cd /tmp
+mkdir snack
+cd snack/
+git init .
+wget https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
+tar ztvf snack1.7.0.tar.Z 
+ls
+tar zxvf snack1.7.0.tar.Z 
+rm snack1.7.0.tar.Z 
+mv snack1.7.0/* .
+rmdir snack1.7.0/
+ls
+git add .
+git commit -m 'Version 1.7.0'
+ls
+less COPYING 
+wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.Z
+wget https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz
+wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.gz
+mv snack2.1.6.tar.gz ..
+mv snack2.0.7.tar.gz ..
+ls
+git tag -a snack1.7.0 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack1.7.0.tar.Z'
+ls
+git log
+git commit --amend --author="Kåre Sjölander <kare@speech.kth.se>" --no-edit
+git log
+cd ..
+wget https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
+ls -al snack1.7.0.tar.Z 
+tar ztvf snack1.7.0.tar.Z |less
+tar zxvf snack1.7.0.tar.Z 
+cd snack1.7.0/
+ls -al
+cd -
+cd snack
+ls -al
+date
+less COPYING 
+man date
+date -r README 
+date -r COPYING 
+git commit --amend --date="$(date -r COPYING)" --no-edit 
+git log
+ls
+rm *
+rm -rf *
+tar zxvf ../snack2.0.7.tar.gz 
+mv snack2.0.7/* .
+rmdir snack2.0.7/
+ls
+git status
+git add .
+#git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 
+ls
+git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 2.0.7"
+git log
+git tag -a snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack1.7.0.tar.Z'
+git log
+git remote add origin git@github.com:kth-tmh/snack.git
+git branch -M main
+git push -u origin main
+ls
+rm -rf *
+git tag -m snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
+git tag --edit snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
+git tag -d snack2.0.7 
+git tag -a snack2.0.7 -m 'contents of http://www.speech.kth.se:80/snack/dist/snack2.0.7.tar.gz'
+git push --tags
+ls
+tar zxvf ../snack2.1.6.tar.gz 
+mv snack2.1.6/* .
+rmdir snack2.1.6/
+git add .
+git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r COPYING)" -m "Version 2.1.6"
+git log
+git tag -a snack2.1.6 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz'
+git push origin main 
+git push --tags
+wget http://web.archive.org/web/20250708034751*/http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
+less snack2.2.2.tar.gz 
+rm snack2.2.2.tar.gz 
+wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
+tar zxvf snack2.2.2.tar.gz 
+ls
+rm -rf *
+wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
+ls -al snack2.2.2.tar.gz 
+tar zxvf snack2.2.2.tar.gz 
+ls -al snack2.2.2
+tar ztvf snack2.2.2.tar.gz 
+ls
+rm snack2.2.2.tar.gz 
+mv snack2.2.2/* .
+rmdir snack2.2.2/
+git add .
+git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.2"
+git log
+git tag -a snack2.2.2 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.2.2.tar.gz'
+ls
+less README 
+git push --tags
+git push origin main 
+ls
+cd ..
+wget http://www.speech.kth.se:80/snack/dist/snack2.2.2.tar.gz
+tar ztvf snack2.2.2.tar.gz 
+wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
+cd snack
+ls
+rm -rf *
+tar zxvf ../snack2.2.10.tar.gz 
+git add .
+git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.10"
+date -r R
+git mv snack2.2.10/* .
+ls
+rmdir snack2.2.10/
+git add .
+git commit --author="Kåre Sjölander <kare@speech.kth.se>" --date="$(date -r README)" -m "Version 2.2.10"
+git tag -a snack2.2.10 -m 'contents of https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz'
+git push origin main 
+git push --tags
+cd ..
+mkdir snack-dist
+cd snack-dist/
+wget https://www.speech.kth.se/snack/dist/snack2.2.10.tar.gz
+wget https://www.speech.kth.se/snack/dist/snack2210-tcl.zip
+wget https://www.speech.kth.se/snack/dist/snack2210-py.zip
+wget https://www.speech.kth.se/snack/dist/snack2.2.10-linux.tar.gz
+wget https://www.speech.kth.se/snack/dist/snack2.2.9-osx.tar.gz
+rm *
+wget https://www.speech.kth.se/snack/dist/snack170n.exe https://www.speech.kth.se/snack/dist/snack170o.exe https://www.speech.kth.se/snack/dist/snack170.sea.hqx https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
+rm *
+ls
+wget https://www.speech.kth.se/snack/dist/snack2.0.7.tar.gz
+wget https://www.speech.kth.se/snack/dist/snack2.0.7.sea.hqx
+wget https://www.speech.kth.se/snack/dist/snack207p.exe
+wget https://www.speech.kth.se/snack/dist/snack207o.exe
+wget https://www.speech.kth.se/snack/dist/snack207n.exe
+rm *
+wget https://www.speech.kth.se/snack/dist/libsnacksphere.so https://www.speech.kth.se/snack/dist/libsnacksphere.dll https://www.speech.kth.se/snack/dist/ogg.tar.gz https://www.speech.kth.se/snack/dist/snack2.1.6.tar.gz https://www.speech.kth.se/snack/dist/snack2.1.6.tar.Z https://www.speech.kth.se/snack/dist/snack2.1.6.sea.hqx https://www.speech.kth.se/snack/dist/snack216p.exe https://www.speech.kth.se/snack/dist/snack216n.exe
+rm *
+wget https://www.speech.kth.se/snack/dist/libsnacksphere.so https://www.speech.kth.se/snack/dist/libsnacksphere.dll https://www.speech.kth.se/snack/dist/ogg.tar.gz https://www.speech.kth.se/snack/dist/snack2.2.2.tar.Z https://www.speech.kth.se/snack/dist/snack2.2.2.tar.gz https://www.speech.kth.se/snack/dist/snack2.2.sea.hqx https://www.speech.kth.se/snack/dist/snack222p.exe https://www.speech.kth.se/snack/dist/snack222n.exe
+cd ..
+rm -rf snack-dist/
+cd snack
+ls
+git rm COPYING 
+git mv BSD.txt LICENSE.txt
+git commit -m 'make licence look nice in github'
+git push origin main 
+ls
+claude 
+claude --resume 6ba5b925-5a00-4900-97b5-ca3a2650b4ad
