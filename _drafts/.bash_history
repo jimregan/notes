@@ -1,6 +1,3 @@
-vi tabs_1
-git add tabs_1
-git commit -m more
 less /Users/joregan/Downloads/tclplugin/tclplugin/license.terms\,v 
 wget ftp://ftp.tcl.tk/pub/tcl/plugin/tclplugin31-linux-glibc2.3-ix86.xpi
 unzip -l tclplugin31-linux-glibc2.3-ix86.xpi 
@@ -498,3 +495,6 @@ ssh tts2
 ls ~/Playing/spoken-sentence-transformers/
 ls ~/Playing/spoken-sentence-transformers/
 less /tmp/procced/train.txt 
+ls
+less littlewomen_00_alcott.corrected.json
+less littlewomen_00_alcott.corrected.json
