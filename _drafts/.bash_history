@@ -1,4 +1,3 @@
-git commit -m meta
 git mv thing.md ../_posts/2026-04-21-simulating-hard-attention-using-soft-attention.md
 git commit -m mv
 git push origin notes-jan-26 
@@ -498,3 +497,4 @@ cd gemma4-ctc/
 ls
 less dict.ltr.txt 
 # codex resume 019d9baf-594d-7b73-915f-274d5cdbd9f5
+claude --resume 24c694f0-6fc8-46fb-8d32-a4c411599114
