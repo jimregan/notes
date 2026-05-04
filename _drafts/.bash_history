@@ -1,15 +1,3 @@
-git commit -m more
-rm tabs_1
-vi tabs_1
-git diff
-vi tabs_2
-git diff
-rm tabs_1
-vi tabs_1
-git diff tabs_1
-git add tabs_1
-git commit -m more
-git diff tabs_2
 vi tabs_2
 git diff
 git add tabs_2 
@@ -498,3 +486,15 @@ echo $PWD/whisperx/little-women/little-women-dramatic-reading-by-louisa-may-alco
 ls
 echo less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
  less vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
+cd dysfluent-wfst/
+ls
+less 2506.01129v2-summary.md 
+less 2506.01129v2-summary.md 
+ls
+less dysfluent_wfst/acoustics.py 
+less dysfluent_wfst/alignment.py 
+code
+code dysfluent_wfst/praat.py 
+ls
+less CLAUDE.md 
+claude 
