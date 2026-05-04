@@ -1,14 +1,3 @@
-git mv thing.md ../_posts/2026-04-21-simulating-hard-attention-using-soft-attention.md
-git commit -m mv
-git push origin notes-jan-26 
-vi tabs_1
-git add tabs_1 
-git commit -m trim
-vi tabs_2
-git add tabs_2
-git commit -m trim
-vi tabs_2
-git add tabs_2
 git commit -m trim
 vi tabs_2
 git add tabs_2
@@ -498,3 +487,14 @@ ls
 less dict.ltr.txt 
 # codex resume 019d9baf-594d-7b73-915f-274d5cdbd9f5
 claude --resume 24c694f0-6fc8-46fb-8d32-a4c411599114
+cd ~/Playing/gpu-admin/
+git pull
+vi users.json
+git diff
+git add users.json
+git commit -m "Éva's intern"
+git push
+python admin.py sync-users
+reset
+git push
+git log
