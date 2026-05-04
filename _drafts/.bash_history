@@ -1,136 +1,3 @@
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-grep https://datacollective.mozillafoundation.org/datasets/cmn2e8gr301evo1079gujuzqr ../_posts/*
-vi ../_posts/2026-03-28-misc-links.md 
-git add ../_posts/2026-03-28-misc-links.md 
-git commit -m cbt
-vi ../_posts/2026-03-28-misc-links.md 
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-ls ../_posts/
-head -n 9 ../_posts/2026-03-28-voxtream-codebase-notes.md 
-head -n 9 ../_posts/2026-03-28-voxtream-codebase-notes.md  > /tmp/head
-vi /tmp/head 
-mv /Users/joregan/Playing/phonlab/CODEBASE_OVERVIEW.md ../_posts/2026-04-12-phonlab-codebase-notes.md 
-git add ../_posts/2026-04-12-phonlab-codebase-notes.md 
-git commit -m add
-vi ../_posts/2026-04-12-phonlab-codebase-notes.md 
-git add ../_posts/2026-04-12-phonlab-codebase-notes.md 
-git commit -m header
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-head -n 9 ../_posts/2026-03-28-voxtream-codebase-notes.md  > /tmp/head
-ls ../_posts/
-vi ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git add ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git commit -m add
-vi ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git add ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git commit -m meta/bibtex
-vi ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git add ../_posts/2026-04-13-optimizing-the-extraction-of-vowel-formants.md
-git commit -m meta/bibtex
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-#leaelui blankanovak_ 
-vi tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-rm tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m more
-less /Users/joregan/Downloads/citations-20260414T181921.bibtex 
-vi /Users/joregan/Downloads/citations-20260414T181921.bibtex 
-rm /Users/joregan/Downloads/citations-20260414T181921.bibtex 
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi /Users/joregan/Downloads/citations-20260414T183136.bibtex 
-vi /Users/joregan/Playing/work-2026/writing/2026-04-14.md 
-rm /Users/joregan/Playing/work-2026/writing/2026-04-14.md 
-less ~/Downloads/citations-20260414T183136.bibtex
-less ~/Downloads/citations-20260414T184758.bibtex 
-vi ~/Downloads/citations-20260414T184758.bibtex 
-cat ~/Downloads/citations-20260414T184758.bibtex |tr -d '\r'
-vi ../_posts/2026-04-14-rationalization-paper.md
-git add ../_posts/2026-04-14-rationalization-paper.md
-git commit -m add
-vi ../_posts/2026-04-14-rationalization-paper.md
-git add ../_posts/2026-04-14-rationalization-paper.md
-git commit -m add
-vi ../_posts/2026-04-14-rationalization-paper.md
-git add ../_posts/2026-04-14-rationalization-paper.md
-git commit -m add
-vi ../_posts/2026-04-14-rationalization-paper.md
-git add ../_posts/2026-04-14-rationalization-paper.md
-git commit -m more
-vi ../_posts/2026-04-14-rationalization-paper.md
-git add ../_posts/2026-04-14-rationalization-paper.md
-git commit -m more
-rm tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi ../_posts/2026-03-28-misc-links.md 
-git add ../_posts/2026-03-28-misc-links.md 
-git commit -m more
-rm tabs_1
-vi tabs_1
-git add tabs_1 
-git commit -m more
-vi ../_posts/2026-03-28-misc-links.md 
-vi tabs_1
-git add tabs_1
-git commit -m more
-rm tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m more
 rm tabs_1
 vi tabs_1
 git add tabs_1
@@ -498,3 +365,136 @@ git commit -m more
 vi tabs_2
 git add tabs_2
 git commit -m more
+ls
+less README.md 
+scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
+:q
+scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
+less docker-entrypoint.sh 
+scp ./* sbtaldeep24:dockerfiles/simh_cdc1700/
+cd ..
+rm -rf cdc1700/
+git fetch
+ls
+git status
+rm 0001-*
+rm Falcon_OCR.ipynb 
+ls hungarian
+less english_native.json 
+git diff
+git fetch
+#git push --force origin 
+git branch
+git push origin unsorted-new 
+git push --force origin unsorted-new 
+git log
+git branch
+git log 
+git checkout -b pre-part
+git branch
+git checkout unsorted-new 
+git branch -D pre-part 
+git checkout -b pre-part 30d5d778b920a832c2c27f7ee01dffee78fa41e4
+git add training-plan.md writing/ falcon-pdf-ocr/
+git commit -m prestash
+git checkout -b pre-part 30d5d778b920a832c2c27f7ee01dffee78fa41e4
+git push origin pre-part 
+git checkout unsorted-new 
+git diff
+git stash
+git checkout unsorted-new 
+git log
+git branch
+pwd
+git push origin unsorted-new 
+git log
+pwd
+pwd
+git branch
+git log
+git branch
+ls spoken-sentence-transformers
+git rm spoken-sentence-transformers/notes*
+git commit -m rm
+git push origin unsorted-new 
+git rm -r derived-text/
+git commit -m rm
+git rm record_streams.py 
+git rm accents-scraper.ipynb 
+git commit -m 
+git rm -r editions-alignment/
+git commit -m rm
+git push origin unsorted-new 
+ls align_whisper/
+git rm -r align-html/
+git rm -r align_whisper/
+git commit -m rm
+git push origin unsorted-new 
+git status
+less multi-source-scorer-instructions.md 
+less nettt.md 
+git add nettt.md 
+git commit -m add
+git rm nettt.md 
+git commit -m rm
+git push origin unsorted-new 
+git pull origin unsorted-new 
+git rm -r ocr-alignment/
+git rm -r correct_whisper/
+git commit -m rm
+git push origin unsorted-new 
+mkdir local_mail
+cd local_mail/
+mv ~/Downloads/setup.sh .
+less setup.sh 
+mv ~/Downloads/docker-compose.yml .
+mv ~/Downloads/index.js .
+less index.js 
+mv ~/Downloads/CLAUDE.md .
+mv ~/Downloads/README.md .
+less README.md 
+brew install docker
+docker up
+docker compose up
+unzip /Users/joregan/Downloads/files.zip 
+git add .
+git commit -m local
+git branch
+git push origin unsorted
+git push origin unsorted-new 
+less setup.sh 
+bash setup.sh 
+vi setup.sh 
+bash setup.sh 
+brew install orbstack
+ls
+bash setup.sh 
+pwd
+git diff
+git add setup.sh 
+git commit -m update
+git push origin unsorted-new 
+tar zxvf ~/Desktop/claudemail.tar.gz 
+mv claudemail/* .
+ls
+ls
+rmdir claudemail/
+git add .
+git commit -m update
+ls ./\{mcp-server\,scripts\}/
+tar zxvf ~/Desktop/claudemail\ \(1\).tar.gz 
+ls
+rm *
+rm -rf ./\{mcp-server\,scripts\}/
+rm -rf scripts/
+rm -rf mcp-server/
+mv claudemail/* .
+rmdir claudemail/
+git status
+git add .
+git commit -m update
+git log
+ls
+git revert d1e9a564f67312e2293381b33a12c642e5ff58c2
+ls
+ls scripts/
