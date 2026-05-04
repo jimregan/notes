@@ -1,26 +1,3 @@
-diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py 
-diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
-diff -u configuration_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/configuration_gemma4_ctc.py |less
-diff -u modeling_gemma4_ctc.py ~/Playing/work-2026/gemma4-ctc/modeling_gemma4_ctc.py |less
-diff -u  ~/Playing/work-2026/gemma4-ctc/modeling_gemma4_ctc.py modeling_gemma4_ctc.py |less
-git diff
-find /Users/joregan/Playing/transformers/ -name run_speech_recognition_ctc.py
-cp /Users/joregan/Playing/transformers//examples/pytorch/speech-recognition/run_speech_recognition_ctc.py trainer.py
-git add trainer.py 
-git commit
-git log
-git diff
-git add trainer.py 
-git commit -m adapt
-git push origin gemma4-copies 
-git diff
-git add trainer.py 
-git commit -m "don't crash if the model directory is empty"
-git diff
-git add trainer.py 
-git commit -m 'the text processing is intended for text'
-git diff
-git add trainer.py 
 git commit -m 'update help'
 git push origin gemma4-copies 
 git status
@@ -498,3 +475,26 @@ ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
+ssh sbtaldeep21
+ssh sbtaldeep22
+ssh sbtaldeep23
+ssh sbtaldeep21
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep21
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep21
+ssh sbtaldeep21
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
