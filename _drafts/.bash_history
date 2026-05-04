@@ -1,20 +1,3 @@
-git commit -m 'update help'
-git push origin gemma4-copies 
-git status
-ls
-less collator.py 
-claude --resume 85b79d33-cc69-4ebf-af18-f4fc78a23960
-svn-multi --help
-ssh deepflow 
-ssh tts2
-ls ~/Playing/spoken-sentence-transformers/
-ls ~/Playing/spoken-sentence-transformers/
-less /tmp/procced/train.txt 
-ls
-less littlewomen_00_alcott.corrected.json
-less littlewomen_00_alcott.corrected.json
-cd /tmp
-mkdir snack
 cd snack/
 git init .
 wget https://www.speech.kth.se/snack/dist/snack1.7.0.tar.Z
@@ -497,4 +480,21 @@ ssh sbtaldeep23
 ssh sbtaldeep23
 ssh sbtaldeep23
 ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23 
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep22
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep22
+ssh sbtaldeep21
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep24
 ssh sbtaldeep23
