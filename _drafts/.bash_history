@@ -1,15 +1,3 @@
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m more
-vi tabs_1
-vi tabs_2
-git add tabs_2
-git commit -m more
 vi tabs_1
 git add tabs_1
 git commit -m more
@@ -498,3 +486,15 @@ code dysfluent_wfst/praat.py
 ls
 less CLAUDE.md 
 claude 
+cd ../
+ls
+ls site/
+cd site/correct-whisper/
+ls
+less correct_splits.py 
+python correct_splits.py
+conda create --name flask python=3.11
+conda activate flask
+pip install flask
+python correct_splits.py
+less index.qmd 
