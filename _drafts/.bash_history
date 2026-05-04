@@ -1,27 +1,3 @@
-git status
-find . -name '*.[ch]' |xargs grep CONST
-git diff
-git diff
-git status
-git diff generic/snack.c
-git status
-git branch
-git log
-git push origin modernise 
-git log
-git checkout -b python-ext
-git log
-git revert 574402784e7bcad3e6686d724fda8fe68128f32b
-git log
-git revert 34830e0853b951b4001dccf66698d3fef13c58b4
-git push origin python-ext 
-git checkout modernise 
-git log
-git revert 54da16683646ce8e0927777141633c3372108992
-git push origin modernise 
-git fetch
-git fetch
-git checkout copilot/build-github-packages 
 git log
 git diff
 git diff
@@ -498,3 +474,27 @@ cd -
 git add wget-20260405.nt 
 git commit -m inp
 cd -
+brew install google-gemini
+git branch
+git checkout -b real_wavesurfer
+git diff
+git status
+git add src/plugins/elan.ts src/__tests__/elan.test.ts 
+git commit -m 'revive old elan plugin'
+git status
+less examples/audio/annotations.eaf 
+ls src/plugins/selection.ts 
+less src/plugins/selection.ts 
+git status
+git diff
+git status
+git add index.html src/__tests__/elan.test.ts  src/plugins/elan.ts examples/elan.js 
+git add examples/audio/annotations.eaf 
+git commit -m 'revive old elan plugin'
+git status
+git add examples/clipboard.js examples/commands.js examples/selection.js src/__tests__/ src/editor/timeline-projection.ts src/plugins/ src/state/
+git commit -m 'editing updates from wavesurfer'
+git status
+git status
+git add src/plugins/pitch-track.ts 
+git commit -m 'add pitch track'
