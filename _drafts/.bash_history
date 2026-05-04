@@ -1,16 +1,3 @@
-ls
-git remote add origin git@github.com:jimregan/gemma4-ctc.git
-git branch -M main
-git push -u origin main
-git diff
-git diff
-git diff
-less modeling_gemma4_ctc.py 
-git status
-git diff
-git add modeling_gemma4_ctc.py configuration_gemma4_ctc.py 
-git commit -m 'remove wav2vec2 specific pieces'
-ls
 less configuration_gemma4_ctc.py 
 git diff
 git diff
@@ -498,3 +485,16 @@ vi /tmp/files
 vi /tmp/files
 ssh deepflow 
 ssh tts2
+less To
+less TODO.md 
+git log TODO.md
+git add TODO.md 
+git commit -m more
+git diff
+ls mo-sceal-fein/
+less mo-sceal-fein/MsfChapter1.ogg.w2v.json 
+cat mo-sceal-fein/MsfChapter1.ogg.w2v.json |jq .|less
+git mv TODO.md to-sort/
+git commit -m mv
+claude
+£ claude --resume 87a616ee-ce3f-4fdd-b6b7-8f976b89739a
