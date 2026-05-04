@@ -1,5 +1,3 @@
-git commit -m more
-vi tabs_2
 git add tabs_1
 git add tabs_2
 git commit -m more
@@ -498,3 +496,5 @@ git status
 ls
 less collator.py 
 claude --resume 85b79d33-cc69-4ebf-af18-f4fc78a23960
+svn-multi --help
+ssh deepflow 
