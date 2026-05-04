@@ -1,259 +1,3 @@
-less 2506.01129v2-summary.md 
-less 2506.01129v2-summary.md 
-ls
-less dysfluent_wfst/acoustics.py 
-less dysfluent_wfst/alignment.py 
-code
-code dysfluent_wfst/praat.py 
-ls
-less CLAUDE.md 
-claude 
-cd ../
-ls
-ls site/
-cd site/correct-whisper/
-ls
-less correct_splits.py 
-python correct_splits.py
-conda create --name flask python=3.11
-conda activate flask
-pip install flask
-python correct_splits.py
-less index.qmd 
-cd ~/Playing/notes/_drafts/
-vi tabs_2 
-git add tabs_2
-git commit -m more
-vi tabs_1 
-git add tabs_1
-git commit -m more
-vi tabs_1 
-vi tabs_2
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m more
-echo ~/Playing/*lib*
-ls ~/Playing/librivox_mult/
-less ~/Playing/librivox_mult/vibevoice/little-women/little-women-dramatic-reading-by-louisa-may-alcott/littlewomen_00_alcott.json 
-vi tabs_2
-git add tabs_2 
-git commit -m more
-vi ../_posts/2026-03-28-misc-links.md 
-vi ../_posts/2026-04-21-misc-links.md 
-git diff
-vi tabs_2
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m more
-vi tabs_2
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-rm tabs_1
-vi tabs_1
-git diff tabs_1
-git add tabs_1
-git commit -m trim
-wc -l tabs_1
-vi ../_posts/2026-04-21-misc-links.md 
-vi tabs_1
-git add tabs_1
-git commit -m trim
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-vi tabs_2
-git add tabs_2 
-git commit -m trim
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-rm tabs_1
-vi tabs_1
-git diff
-git add tabs_1
-git commit -m trim
-rm tabs_1
-vi tabs_1
-git add tabs_1
-git commit -m trim
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m trim
-vi tabs_2
-git diff
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-git push origin notes-jan-26 
-git rm fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json 
-git commit -m rm
-vi ../_posts/2026-04-21-misc-links.md 
-head -n 9 ../_posts/2026-04-21-misc-links.md 
-head -n 9 ../_posts/2026-04-21-misc-links.md  > /tmp/head
-vi 2026-04-20-tabs-jan26.md 
-git add 2026-04-20-tabs-jan26.md 
-git commit -m meta
-git mv 2026-04-20-tabs-jan26.md ../_posts/
-git commit -m mv
-git push origin notes-jan-26 
-vi tabs_2
-git add tabs_2 
-git commit -m more
-git log
-git log
-git revert a9fd106f2bd4cae51b06daa7ea489aeaec479baf
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m more
-ls ~/Playing/work-2026/
-mkdir ~/Playing/work-2026/kolibri
-ls ~/Playing/work-2026/kolibri/
-ls ~/Playing/work-2026/kolibri/
-less ~/Playing/work-2026/kolibri/Dockerfile 
-less ~/Playing/work-2026/kolibri/Dockerfile 
-vi tabs_2
-git add tabs_2 
-git commit -m more
-less /Users/joregan/Downloads/IEEE\ Xplore\ Reference\ Download\ 2026.5.2.12.36.52.txt 
-rm /Users/joregan/Downloads/IEEE\ Xplore\ Reference\ Download\ 2026.5.2.12.36.52.txt 
-vi tabs_2
-git add tabs_2 
-git commit -m more
-vi tabs_2
-git add tabs_2 
-git commit -m more
-vi tabs_2
-git diff
-git add tabs_2 
-git commit -m more
-vi tabs_1
-git add tabs_1
-git commit -m more
-vi tabs_2
-git diff
-git add tabs_2
-git commit -m more
-grep 3600270.3602204 *md
-less thing.md 
-head -n 9 ../_posts/2026-04-21-retrieval-augmented-generation-based-context-discovery-for-asr.md  > /tmp/head
-less /tmp/head 
-vi thing.md 
-git add thing.md 
-git commit -m meta
-git long thing.md
-git log thing.md
-git mv thing.md ../_posts/2026-04-21-ssl-spectral-embedding-methods.md
-git commit -m mv
-mv ~/Downloads/Untitled68.ipynb .
-git add Untitled68.ipynb 
-git commit -m run-whisper
-vi tabs_2
-git add tabs_2
-git commit -m more
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m cvt
-vi ../_posts/2026-04-21-misc-links.md 
-vi tabs_2
-git add tabs_2
-git commit -m more
-vi tabs_2
-git add tabs_2
-git commit -m more
-vi ../_posts/2026-04-21-misc-links.md 
-git add ../_posts/2026-04-21-misc-links.md 
-git commit -m more
-vi tabs_1
-git diff
-git add tabs_1 
-git commit -m more
-git branch
-git push origin notes-jan-26 
-vi 2026-05-04-vicreg-summary.md
-git add 2026-05-04-vicreg-summary.md 
-git commit -m add
-vi 2026-05-04-vicreg-summary.md
-git add 2026-05-04-vicreg-summary.md
-git commit -m meta
-git mv 2026-05-04-vicreg-summary.md ../_posts/
-git commit -m mv
-git push origin notes-jan-26 
-git add falcon-pdf-ocr/
-git commit -m add
-less falcon-pdf-ocr/README.md 
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-git diff
-cd falcon-pdf-ocr/
-ls
-rm -rf __pycache__/
-git add .
-git commit -m update
-git status
-cd ..
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-git diff
-ls
-cd falcon-pdf-ocr/
-git status
-ls
-git add .
-git commit -m update
-cd ..
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-ls
-rm -rf falcon-pdf-ocr/__pycache__/
-scp -r falcon-pdf-ocr/ sbtaldeep23:dockerfiles/
-mkdir cdc1700
-cd cdc1700/
-codex
-cd -
-cd work-2026/
-mv ~/Downloads/Falcon_OCR.ipynb .
-codex
-cd gemma4-ctc/
-ls
-less dict.ltr.txt 
-# codex resume 019d9baf-594d-7b73-915f-274d5cdbd9f5
-claude --resume 24c694f0-6fc8-46fb-8d32-a4c411599114
-cd ~/Playing/gpu-admin/
-git pull
-vi users.json
-git diff
-git add users.json
-git commit -m "Éva's intern"
-git push
-python admin.py sync-users
-reset
-git push
-git log
-cd ~/Playing/transformers/
-ls
-git log
-git log examples/pytorch/speech-recognition/run_speech_recognition_ctc.py
-less ~/.ssh/config
-cd ~/Playing/gemma4ctc/
-ls
-mkdir ~/Playing/work-2026/timit-alignment
-mv timit_utils.py error_introduction.py alignment_runners.py run_experiment.py timit_alignment.ipynb ~/Playing/work-2026/timit-alignment
-ls
-less LICENSE 
-less papermill_hfmount.py 
-mv papermill_hfmount.py ~/Playing/work-2026/
-ls
-mv timit_alignment_experiment.ipynb ~/Playing/work-2026/timit-alignment/
-ls
 vi collator.py
 git add collator.py
 git commit -m 'start with DataCollatorCTCWithPadding, taken from transformers_doc/en/asr.ipynb'
@@ -498,3 +242,259 @@ git push origin main
 ls
 claude 
 claude --resume 6ba5b925-5a00-4900-97b5-ca3a2650b4ad
+git status
+less generic/minimp3.h 
+git status
+less generic/jkFormatMP3.h 
+less generic/jkFormatMP3.c 
+git checkout -b dev
+git add generic/minimp3*
+git status
+git diff
+git push origin dev 
+git diff
+git status
+git status
+find . -name '*.[ch]' |xargs grep CONST
+git diff
+git diff
+git status
+git diff generic/snack.c
+git status
+git branch
+git log
+git push origin modernise 
+git log
+git checkout -b python-ext
+git log
+git revert 574402784e7bcad3e6686d724fda8fe68128f32b
+git log
+git revert 34830e0853b951b4001dccf66698d3fef13c58b4
+git push origin python-ext 
+git checkout modernise 
+git log
+git revert 54da16683646ce8e0927777141633c3372108992
+git push origin modernise 
+git fetch
+git fetch
+git checkout copilot/build-github-packages 
+git log
+git diff
+git diff
+git status
+git diff generic/jkCanvSpeg.c
+git add generic/jkCanvSpeg.c
+git commit -m 'tk 9 fixes'
+git diff
+git push origin copilot/build-github-packages 
+git diff
+git diff
+git status
+git status
+git diff
+git log
+git push origin copilot/build-github-packages 
+git log
+git push origin copilot/build-github-packages 
+git log
+git push origin modernise 
+git push origin copilot/build-github-packages 
+git push origin copilot/build-github-packages 
+git diff
+git log
+git push origin copilot/build-github-packages 
+git push origin copilot/build-github-packages 
+git push origin copilot/build-github-packages 
+git log
+git push origin copilot/build-github-packages 
+git status
+git log
+git checkout -b 5169fdb122c9bbcfabce48218da8ddff15e03d76 debian
+git checkout -b debian 5169fdb122c9bbcfabce48218da8ddff15e03d76 
+ls ../*xz
+ls
+rm -rf *
+tar zxvf ../snack_2.2.10.20090624+dfsg.orig.tar.xz
+mv snack2.2.10/* .
+rmdir snack2.2.10/
+git status
+git diff
+git log
+git add .
+git commit -m 
+less generic/SnackMpg.c
+ls ../*xz
+tar zxvf ../snack_2.2.10.20090624+dfsg-4.debian.tar.xz
+git status
+git add debian/
+git commit -m snack_2.2.10.20090624+dfsg-4.debian
+git push origin debian 
+ls
+cd debian/
+ls
+less patches/CVE-2012-6303.patch 
+less patches/CVE-2012-6303.patch 
+cd ..
+git apply debian/patches/CVE-2012-6303.patch
+git log
+git diff
+git stash
+git am debian/patches/CVE-2012-6303.patch
+git log
+less debian/patches/CVE-2012-6303.patch
+git status
+git am --abort
+git log
+git diff
+git log
+less debian/patches/CVE-2012-6303.patch
+vi debian/patches/CVE-2012-6303.patch
+grep From: debian/patches/*
+vi debian/patches/tcl9.patch 
+grep From: debian/patches/*
+vi debian/patches/make-shuffle.patch 
+grep From: debian/patches/
+vi debian/patches/make-shuffle.patch 
+grep From: debian/patches/*
+vi debian/patches/gnu-hurd.patch 
+vi debian/patches/gcc-15.patch 
+vi debian/patches/gcc-15.patch 
+vi debian/patches/args.patch 
+vi debian/patches/autoconf.patch 
+grep From: debian/patches/*
+vi debian/patches/libs.patch 
+vi debian/patches/alsa.patch 
+grep From: debian/patches/
+grep From: debian/patches/*
+git log
+git push origin debian 
+git log
+git log
+git push --force origin debian 
+git checkout main 
+git stash
+git checkout main 
+git log
+git push origin main 
+git pull origin main 
+git push origin main 
+git log
+git cherry-pick d59d87385942375289d1617ba2b72c44b59e4178
+git push origin main 
+git log
+git checkout debian 
+git log
+git tag -a snack_2.2.10.20090624+dfsg-4.debian -m 'Debian packaging and patches'
+git push --tags 
+git rm -r debian/
+git commit -m 'remove debian/ directory'
+git push origin debian 
+git checkout copilot/build-github-packages 
+git log
+git checkout debian 
+git log
+git format-patch -1 777c7cda9d1e6db7c4796bb01b7f8d639eee4d01
+git revert 777c7cda9d1e6db7c4796bb01b7f8d639eee4d01
+vi 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
+git am 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
+git log
+git push origin debian 
+rm 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
+git branch
+git log
+git push origin debian 
+git log
+git revert 3f49a68e36d688b4434f0772bd7cc4f5bcb395f8
+git revert -m 3f49a68e36d688b4434f0772bd7cc4f5bcb395f8
+git reset --hard HEAD^
+git push --force origin debian 
+git checkout debian 
+git log
+git checkout -b debian-upstream 4e917d233f6a52ba32c86451f4a416d6467e6f27
+git push origin debian-upstream 
+git checkout main 
+git pull origin main 
+git checkout debian
+git merge -X ours main
+git push origin debian
+git fetch
+git checkout copilot/build-github-packages 
+git diff
+git diff
+git branch
+git log
+git log
+git push origin copilot/build-github-packages 
+git pull origin copilot/build-github-packages 
+git config pull.rebase false
+git pull origin copilot/build-github-packages 
+git log
+git push origin copilot/build-github-packages 
+git status
+git fetch
+git merge main
+vi generic/jkAudIO.h 
+git diff
+vi generic/jkAudIO.h 
+git diff
+git log
+vi python/tkSnack.py 
+git diff
+git add python/tkSnack.py 
+git commit -m 'take main version'
+vi generic/snack.h 
+git diff
+git add generic/snack.h 
+git commit -m 'take main version'
+vi generic/jkSound.h 
+git diff
+git add generic/jkSound.h 
+git commit -m 'take main version'
+git push origin copilot/build-github-packages 
+git checkout main 
+git pull origin main 
+git log
+git checkout copilot/build-github-packages 
+git log
+git diff
+git diff
+git log
+git log
+git push origin copilot/build-github-packages 
+git checkout main generic/jkFormant.c
+git diff
+git status
+git add generic/jkFormant.c
+git commit -m revert
+git push origin copilot/build-github-packages 
+git checkout main generic/snack.h
+git checkout main generic/sigproc2.c
+git checkout main generic/jkFormant.c
+git commit -m revert
+git push origin copilot/build-github-packages 
+git checkout main generic/jkFormant.c
+git checkout main generic/jkGetF0.c
+git checkout main generic/jkSoundFile.c
+git checkout main generic/sigproc2.c
+git checkout main generic/snack.h
+git commit -m revert
+git push origin copilot/build-github-packages 
+vi generic/jkSound.h 
+git add generic/jkSound.h 
+git commit -m 'missing #endif'
+git push origin copilot/build-github-packages 
+git pull origin copilot/build-github-packages 
+git push origin copilot/build-github-packages 
+git checkout main generic/jkCanvSpeg.c
+git commit -m revert
+git push origin copilot/build-github-packages 
+git diff
+git status
+git add generic/jkCanvItems.h 
+git commit -m 'fix'
+git push origin copilot/build-github-packages 
+git diff
+git diff
+git add unix/Makefile.in 
+git commit -m 'remove X11'
+git push origin copilot/build-github-packages 
