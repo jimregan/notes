@@ -1,4 +1,3 @@
-grep speech.kth tabs_*
 vi tabs_1
 git add tabs_1
 git commit -m more
@@ -498,3 +497,4 @@ ssh deepflow
 ssh tts2
 ls ~/Playing/spoken-sentence-transformers/
 ls ~/Playing/spoken-sentence-transformers/
+less /tmp/procced/train.txt 
