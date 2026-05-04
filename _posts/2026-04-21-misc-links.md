@@ -69,4 +69,7 @@ Strange paper titles:
 
 [Introduction to Manifold Learning](https://www.youtube.com/playlist?list=PLqgZEQsU_8E3ofyYLrAQkPAj-L14NM7ZY)
 
+[54yyyu/kaggle-mcp](https://github.com/54yyyu/kaggle-mcp) --- Kaggle-MCP: Connect Claude AI to the Kaggle API through the Model Context Protocol (MCP), enabling competition, dataset, and kernel operations through the AI interface.
+
+[googlecolab/colab-mcp](https://github.com/googlecolab/colab-mcp) --- An MCP server for interacting with Google Colab
 
