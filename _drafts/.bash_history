@@ -1,4 +1,3 @@
-rm tabs_1
 vi tabs_1
 git add tabs_1
 git commit -m more
@@ -498,3 +497,4 @@ ls
 git revert d1e9a564f67312e2293381b33a12c642e5ff58c2
 ls
 ls scripts/
+ls
