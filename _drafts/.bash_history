@@ -1,25 +1,3 @@
-ls src/plugins/selection.ts 
-less src/plugins/selection.ts 
-git status
-git diff
-git status
-git add index.html src/__tests__/elan.test.ts  src/plugins/elan.ts examples/elan.js 
-git add examples/audio/annotations.eaf 
-git commit -m 'revive old elan plugin'
-git status
-git add examples/clipboard.js examples/commands.js examples/selection.js src/__tests__/ src/editor/timeline-projection.ts src/plugins/ src/state/
-git commit -m 'editing updates from wavesurfer'
-git status
-git status
-git add src/plugins/pitch-track.ts 
-git commit -m 'add pitch track'
-cd ..
-git clone https://github.com/kth-tmh/wavesurfer
-cd snack
-git pull
-ls -al
-cd ..
-rm -rf snack
 git clone https://github.com/kth-tmh/snack
 cd /tmp
 mkdir nico
@@ -498,3 +476,25 @@ git checkout future-work
 codex 
 codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
 codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
+cd ~/Playing/work-2026/
+ls
+ls spoken-sentence-transformers/notes.md 
+less spoken-sentence-transformers/notes.md 
+less training-plan.md 
+ls *.md
+less multi-source-scorer-instructions.md 
+less resemblyzer-eval-results.md 
+less training-plan.md 
+echo $PWD/training-plan.md 
+echo $PWD/eval-plan.md 
+echo $PWD/spoken-sentence-transformers-odyssey/od2026_latex_template/ 
+cd spoken-sentence-transformers-odyssey/
+git pull
+git diff
+ls
+less od2026_latex_template/Odyssey2026_Latex_Template.tex 
+git diff
+git branch
+git checkout -b edits
+git add od2026_latex_template/Odyssey2026_Latex_Template.tex 
+git commit -m p315
