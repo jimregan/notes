@@ -1,37 +1,3 @@
-git commit -m revert
-git push origin copilot/build-github-packages 
-vi generic/jkSound.h 
-git add generic/jkSound.h 
-git commit -m 'missing #endif'
-git push origin copilot/build-github-packages 
-git pull origin copilot/build-github-packages 
-git push origin copilot/build-github-packages 
-git checkout main generic/jkCanvSpeg.c
-git commit -m revert
-git push origin copilot/build-github-packages 
-git diff
-git status
-git add generic/jkCanvItems.h 
-git commit -m 'fix'
-git push origin copilot/build-github-packages 
-git diff
-git diff
-git add unix/Makefile.in 
-git commit -m 'remove X11'
-git push origin copilot/build-github-packages 
-cd ..
-wget http://deb.debian.org/debian/pool/main/s/snack/snack_2.2.10.20090624+dfsg.orig.tar.xz
-tar zxvf snack_2.2.10.20090624+dfsg.orig.tar.xz
-wget http://deb.debian.org/debian/pool/main/s/snack/snack_2.2.10.20090624+dfsg-4.debian.tar.xz
-tar zxvf snack_2.2.10.20090624+dfsg-4.debian.tar.xz
-git log
-ssh deepflow 
-ssh deepflow 
-cat ~/.huggingface/token 
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.49.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.53.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.39.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.48.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.37.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.32.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.35.png /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.01.30.png 
-less ~/.ssh/config
-vi /tmp/files
-vi /tmp/files
 ssh deepflow 
 ssh tts2
 less To
@@ -498,3 +464,37 @@ git checkout -b generated-pytorch
 git add toy-examples/pytorch_demo/
 git commit -m 'codex-generated pytorch conversion'
 git push origin generated-pytorch 
+claude
+ls
+git status
+ls ~/Playing/librivox_mult/
+git add writing/
+git commit -m add
+vi writing/LRE\ -\ Phonetic\ corpus/old-towards.tex
+cd writing/LRE\ -\ Phonetic\ corpus/
+pandoc old-towards.tex -f latex -t markdown old-towards.md
+pandoc old-towards.tex -f latex -t markdown -o old-towards.md
+ls
+vi old-towards.tex 
+pandoc old-towards.tex -f latex -t markdown -o old-towards.md
+pandoc old-towards.tex -f latex -t markdown+tex_math_dollars -o old-towards.md
+vi mybib.tex
+git add .
+git commit -m 'old latex'
+mkdir old-towards
+git mv old-towards.tex mybib.tex old-towards/
+git commit -m mv
+touch top-level.md
+vi top-level.md 
+git add .
+git commit -m more
+cd ..
+cd ..
+grep -i formant *
+find . -name '*.md'|xargs grep -i formant
+find . -name '*.md' -exec  grep -i formant {}
+find . -name '*.md' -exec  grep -i formant {} \;
+find . -name '*.md' |while read i;do grep -i format "$i";done
+find . -name '*.md' |while read i;do grep -i format "$i" && echo $i;done
+find . -name '*.md' |while read i;do grep -i formant "$i" && echo $i;done
+less ./dysfluent-wfst/CLAUDE.md
