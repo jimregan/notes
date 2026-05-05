@@ -1,13 +1,3 @@
-cd -
-brew install google-gemini
-git branch
-git checkout -b real_wavesurfer
-git diff
-git status
-git add src/plugins/elan.ts src/__tests__/elan.test.ts 
-git commit -m 'revive old elan plugin'
-git status
-less examples/audio/annotations.eaf 
 ls src/plugins/selection.ts 
 less src/plugins/selection.ts 
 git status
@@ -498,3 +488,13 @@ claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
 claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
 claude 
 git clone https://github.com/sprakradet/swedia_test_set
+cd ~/Playing/spoken-sentence-transformers/
+ls
+git log
+git diff
+git checkout main 
+git pull origin main 
+git checkout future-work 
+codex 
+codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
+codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
