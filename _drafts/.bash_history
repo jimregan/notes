@@ -1,4 +1,3 @@
-git commit -m inp
 cd -
 brew install google-gemini
 git branch
@@ -498,3 +497,4 @@ scp sbtaldeep22:dockerfiles/claude-code/dot-claude/script /tmp
 claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
 claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
 claude 
+git clone https://github.com/sprakradet/swedia_test_set
