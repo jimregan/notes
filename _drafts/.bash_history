@@ -1,5 +1,4 @@
 ssh sbtaldeep21
-ssh sbtaldeep21
 ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
@@ -498,3 +497,4 @@ ls
 git diff
 git log
 ls writing/Hungarian\ Reels.md 
+less ~/Playing/notes/_posts/2026-02-16-mseb.md 
