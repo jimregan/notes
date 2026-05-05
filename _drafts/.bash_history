@@ -1,6 +1,3 @@
-rm tocheck 
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> tocheck 
 cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
 cd -
 git add wget-20260405.nt 
@@ -498,3 +495,6 @@ git add ../.gitignore
 git commit -m update
 git add .
 git commit -m update
+echo $(PWD)
+ls $(PWD)
+ls /Users/joregan/Playing/librivox_mult/text/the-crocodile
