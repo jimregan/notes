@@ -1,12 +1,3 @@
-cd ..
-git log
-ls
-rmdir nico-1.1.2/
-git status
-git remote add origin git@github.com:kth-tmh/nico-toolkit.git
-git branch -M main
-git push -u origin main
-git push --tags --all
 git push --tags -a
 git push --tags 
 date -r lib
@@ -498,3 +489,12 @@ git commit -m add
 git rm writing/Lab\ 1.md 
 git commit -m rm
 git diff
+cd Playing/work-2026/
+ls
+ls wolne-lektury/
+ls wolne-lektury/notebooks/
+ls
+ls align-html/
+ls align_whisper/
+codex
+codex resume 019d6853-9427-7f92-a27f-e921011b927f
