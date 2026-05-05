@@ -1,4 +1,3 @@
-ls
 make clean
 ls
 cd ..
@@ -498,3 +497,4 @@ find . -name 'configuration*.py'|grep -i gemma
 less ./src/transformers/models/gemma4/configuration_gemma4.py
 conda env list
 ls ~/Playing/
+grep https://dl.acm.org/doi/10.1145/3581783.3612485 site/*/*qmd
