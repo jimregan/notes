@@ -1,28 +1,4 @@
 cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cat inp.log |perl wget-http.pl >> tocheck 
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-spiderfile recheck
-less recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-scp sbtaldeep22:.srv/wg/inp.log .
-tail tocheck 
-tail inp.log 
-scp todel sbtaldeep22:.srv/done/
-rm tocheck 
-rm todel 
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> tocheck 
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
 cd -
 git add wget-20260405.nt 
 git commit -m inp
@@ -498,3 +474,27 @@ pdftohtml 1967_8_1_001-014.pdf
 ls
 ls 1967_8_1_001-014
 ssh deepwave 
+cd ~/Playing/gpu-admin/
+git pull
+vi users.json
+git diff
+vi users.json
+git stash
+vi users.json
+git add users.json
+git commit -m "Fredrik/Anya's master student"
+git push 
+python admin.py sync-users
+less ~/.ssh/config
+vi /Users/joregan/Downloads/S0167639326000166.bib 
+less ~/.ssh/config
+ls ~/Downloads/*mp3
+ffplay ~/Downloads/1.mp3 
+less ~/.ssh/config
+ssh deepflow 
+ssh deepflow 
+ssh deepflow 
+ssh deepflow 
+ssh deepflow 
+ssh deepflow 
+scp sbtaldeep22:dockerfiles/claude-code/dot-claude/script /tmp
