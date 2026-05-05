@@ -1,105 +1,3 @@
-ssh sbtaldeep22
-ssh sbtaldeep22
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log 
-cat inp.log |perl wget-http.pl >> tocheck 
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cd ../8c08e58ba0638cacfea6a84a97fae1f4/
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-grep sizeInB tocheck 
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}'
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-. spidering.sh 
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl |grep sizeIn
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}'
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-scp todel sbtaldeep22:.srv/done/
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-less recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-scp todel sbtaldeep22:.srv/done/
-rm tocheck 
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cat inp.log |perl wget-http.pl >> tocheck 
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-less tocheck 
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-less recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-scp todel sbtaldeep22:.srv/done/
-scp sbtaldeep22:.srv/wg/inp.log .
-rm tocheck 
-cat inp.log |perl wget-http.pl >> tocheck 
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-caffeinate 
-brew install codex
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-scp todel sbtaldeep22:.srv/done/
-rm tocheck 
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cat inp.log |perl wget-http.pl >> tocheck 
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-cd -
-grep Sc5feb wget-20260*
-grep Sc1nov wget-20260*
-grep Sc20oct wget-20260*
-pwd
-ls
-cd -
-grep sizeInB tocheck |awk -F'[<>]' '{print $2}' > recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel
-scp todel sbtaldeep22:.srv/done/
 rm tocheck 
 scp sbtaldeep22:.srv/wg/inp.log .
 cat inp.log |perl wget-http.pl >> tocheck 
@@ -498,3 +396,105 @@ ls ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-4
 less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
 less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
 ls $(PWD)
+pwd
+less aligner.py 
+less CLAUDE.md 
+git status
+less ../pronunciation-data/
+ls
+git add .
+git commit -m 'edition alignment tool'
+git status
+ls ../mmconv/
+ls ../mmconv/vibevoice/
+less ../mmconv/vibevoice/hsi_3_0715_209_006_inter.json 
+cd ..
+less r1 
+less r2 
+git status
+less multi-source-scorer-instructions.md
+ls dysfluent-wfst/
+less dysfluent-wfst/CLAUDE.md 
+ls accents-gmu-native 
+less accents-gmu-native 
+git branch
+git push origin unsorted-new 
+mkdir align-html
+cd align-html/
+mv ~/Downloads/align.py .
+mv ~/Downloads/parse_index.py .
+mv ~/Downloads/fetch_text.py .
+mv ~/Downloads/book_config.yaml .
+mv ~/Downloads/requirements.txt .
+ls
+vi README
+git add .
+git commit -m generated
+less align.py 
+less book_config.yaml 
+ls ../writing/
+ls ../writing/Welcome.md 
+ls ../writing/2026-04-05.md 
+less ../writing/2026-04-05.md 
+cd ..
+git add writing/
+git commit -m add
+ls writing/
+cd writing/
+ls
+ls
+ls Apple\ Notes/
+cd Apple\ Notes/
+ls
+cd ..
+git status
+rm *.gif
+ls
+rm *.jpg
+ls
+rm *.png
+ls
+rm *.svg recording.m4a 
+ls
+cd  Apple\ Notes/
+ls
+less ffs.md 
+less ./~deichler-code-flask_webgl_app-app_csmp.py.md 
+rm ffs.md 
+rm tocejag970@icousd.com.md 
+cd ..
+rm -rf Apple\ Notes/
+ls
+rm *jpg
+rm *png *svg *.m4a
+ls
+rm *.gif
+ls
+cd Apple\ Notes/
+ls
+less 2025-03-08\ So…\ yeah\,\ I\ was\ in\ Estonia\ last\ week….md 
+ls *ffs*
+less 2024-05-24\ ffs.md 
+cat *ffs.md
+rm *ffs*
+ls
+less 2025-04-01\ What\ do\ you\ think\ has\ affected\ your\ self-esteem.md 
+less 2024-09-24\ Oh\ God\,\ why\ did\ you\ leave\ keys\ on\ the\ table.md 
+ls *toce*
+rm 2026-01-05\ tocejag970@icousd.com.md 
+ls
+less 2024-06-08\ CPT.md 
+cd ..
+git add Apple\ Notes/
+git commit -m add
+git rm -r Apple\ Notes/
+git commit -m 'discard, not useful'
+ls
+git diff
+git add .
+git commit -m update
+git diff
+git add ../.gitignore 
+git commit -m update
+git add .
+git commit -m update
