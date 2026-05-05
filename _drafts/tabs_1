@@ -2,7 +2,16 @@ jimregan/notes
 https://github.com/jimregan/notes
 
 Next notes by jimregan · Pull Request #348 · jimregan/notes
-https://github.com/jimregan/notes/pull/348
+https://github.com/jimregan/notes/pull/348/changes#diff-f6cccbee95d814d97984d0d4b4c31e9f06d1a58b1aa063dc3056572cb46a266c
+
+Branch · Study Plan for Paper Understanding
+https://chatgpt.com/c/69f7a53c-e17c-83eb-bfb9-a50f22767ea2
+
+VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning | OpenReview
+https://openreview.net/forum?id=xm6YD62D1Ub
+
+Code for VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning
+https://www.catalyzex.com/paper/vicreg-variance-invariance-covariance/code
 
 Next notes by jimregan · Pull Request #348 · jimregan/notes
 https://github.com/jimregan/notes/pull/348/changes/b460279df3a1f39d91a2004ab95e49b76c8591e3
@@ -913,22 +922,10 @@ https://www.instagram.com/francisfrancissoftserve/?hl=en
 Division of Speech, Music and Hearing - KTH to Francis & Francis - Google Maps
 https://www.google.com/maps/dir/KTH+Speech,+Music+and+Hearing,+Lindstedtsv%C3%A4gen+24,+114+28+Stockholm,+Sweden/Francis+%26+Francis,+G%C3%B6tgatan+11,+116+46+Stockholm/@59.3193764,18.0674969,16z/am=t/data=!4m17!4m16!1m5!1m1!1s0x465f9d4013dc1941:0x7f16100282386d0c!2m2!1d18.0748591!2d59.348301!1m5!1m1!1s0x465f9dbdaa0effdf:0xe212291ffb2764a1!2m2!1d18.0713623!2d59.3184104!6m3!1i0!2i2!3i2?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%3D%3D
 
-(1) Instagram
+Instagram
 https://www.instagram.com/
 
-Grok
-https://grok.com/
-
-Terms of Service - Consumer | xAI
-https://x.ai/legal/terms-of-service
-
-LICENSE · xai-org/grok-2 at main
-https://huggingface.co/xai-org/grok-2/blob/main/LICENSE
-
-riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/dokument/
-https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/dokument/
-
-500 | Sveriges riksdag
+Om dataset | Sveriges riksdag
 https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/anvandarstod/om-dataset/
 
 Riksdagsförvaltningens diarium | Sveriges riksdag
@@ -945,5 +942,47 @@ https://github.com/webdataset/tarp/actions
 
 bghira/webshart: fast, indexed, sharded datasets for python written in rust
 https://github.com/bghira/webshart
+
+UniMorph: Schema and datasets for universal morphological annotation
+https://unimorph.github.io/
+
+SALDO | Språkbanken Text
+https://spraakbanken.gu.se/resurser/saldo
+
+Instagram
+https://www.instagram.com/
+
+2503.19786
+https://arxiv.org/pdf/2503.19786
+
+twitter gemma4 linear classifier audio - Google Search
+https://www.google.com/search?q=twitter+gemma4+linear+classifier+audio&sca_esv=e0db249db5055037&rlz=1C5GCCM_en&sxsrf=ANbL-n7k1nAVY7oqpReJ6fSlfq-Kv6uxmQ%3A1777977682688&ei=Usn5aYnZKcLIwPAP5JCm4AQ&biw=1424&bih=714&ved=0ahUKEwiJyseB-6GUAxVCJBAIHWSICUwQ4dUDCBE&uact=5&oq=twitter+gemma4+linear+classifier+audio&gs_lp=Egxnd3Mtd2l6LXNlcnAiJnR3aXR0ZXIgZ2VtbWE0IGxpbmVhciBjbGFzc2lmaWVyIGF1ZGlvMgcQIRgKGKABMgcQIRgKGKABSI4QUJQDWP0KcAF4AZABAJgBc6AB4AOqAQM1LjG4AQPIAQD4AQGYAgegAvIDwgIKEAAYRxjWBBiwA8ICBBAhGBWYAwCIBgGQBgiSBwM2LjGgB9AgsgcDNS4xuAfuA8IHBTIuNC4xyAcJgAgB&sclient=gws-wiz-serp
+
+Jeff Dean on X: "Today we're releasing Gemma 4, our new family of open foundation models, built on the same research and technology as our Gemini 3 series. These models set a new standard for open intelligence, offering SOTA reasoning capabilities from edge-scale (2B and 4B w/ vision/audio) up" / X
+https://x.com/JeffDean/status/2039748604232122707
+
+Logan Kilpatrick on X: "Introducing Gemma 4, our series of open weight (Apache 2.0 licensed) models, which are byte for byte the most capable open models in the world! Gemma 4 is build to run on your hardware: phones, laptops, and desktops. Frontier intelligence with a 26B MOE and a 31B Dense model! https://t.co/PVtYRnKQW0" / X
+https://x.com/OfficialLoganK/status/2039735606268314071
+
+(1) Google AI Developers on X: "We’ve seen some impressive use cases for Gemma 4 Here are a few of them 🧵" / X
+https://x.com/googleaidevs/status/2041639052496232899
+
+x.com/baaaiinc/status/2041839063519629544
+https://x.com/baaaiinc/status/2041839063519629544
+
+AI That Doesn't Phone Home - by Vikram - Going Frictionless
+https://gofrictionless.substack.com/p/ai-that-doesnt-phone-home?triedRedirect=true
+
+Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon | Hacker News
+https://news.ycombinator.com/item?id=47680309
+
+What framework support audio / video input for gemma 4? : r/LocalLLaMA
+https://www.reddit.com/r/LocalLLaMA/comments/1sd4l6m/what_framework_support_audio_video_input_for/
+
+(1) Google Gemma on X: "We love seeing what you build with Gemma! 🚀 Like this incredible community project that helps you fine-tune Gemma 4 with audio, text, and images on Apple silicon. 🧵👇 https://t.co/QbtmtYDdOs" / X
+https://x.com/googlegemma/status/2041942389745709213
+
+mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.
+https://github.com/mattmireles/gemma-tuner-multimodal
 
 
