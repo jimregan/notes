@@ -1,18 +1,3 @@
-git push --tags -a
-git push --tags 
-date -r lib
-git status
-git commit --author "Giampiero Salvi <giampi@speech.kth.se>" --date "Wed Jan  8 20:31:37 CET 2020"
-git log
-git push 
-codex
-codex
-pwd
-cd ..
-cd nico/
-ls
-codex
-codex
 ls
 ls lib
 cd lib/
@@ -498,3 +483,18 @@ ls align-html/
 ls align_whisper/
 codex
 codex resume 019d6853-9427-7f92-a27f-e921011b927f
+vi tabs_1
+git add tabs_1
+git commit -m add
+less  /Users/joregan/Playing/work-2026/pronunciation-data/template.tex
+vi /tmp/tha
+vi /tmp/thb
+wdiff /tmp/tha /tmp/thb 
+wdiff /tmp/tha /tmp/thb |less
+vi tm
+mv tm fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json
+git add fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json 
+git commit -m 'onyx chat'
+cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .
+cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
+cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
