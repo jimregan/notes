@@ -1,12 +1,4 @@
 ls
-ls lib
-cd lib/
-ls
-make
-ls
-git log
-git push 
-ls
 make clean
 ls
 cd ..
@@ -498,3 +490,11 @@ git commit -m 'onyx chat'
 cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .
 cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
 cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
+ls
+cd ~/Playing/transformers/
+git pull
+find . -name 'configuration*.py'
+find . -name 'configuration*.py'|grep -i gemma
+less ./src/transformers/models/gemma4/configuration_gemma4.py
+conda env list
+ls ~/Playing/
