@@ -1,25 +1,3 @@
-ssh sbtaldeep21
-ssh sbtaldeep23
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
 scp sbtaldeep22:.srv/wg/inp.log .
@@ -498,3 +476,25 @@ ssh deepwave
 less ~/.ssh/config
 ssh b-tower 
 ssh b-tower 
+cd ~/Playing/
+git clone https://github.com/huggingface/transformers
+cd transformers/
+pwd
+cd ~/Playing/work-2026/
+claude
+cd gemma4-ctc/
+git status
+ls
+rm -rf __pycache__/
+git add .
+git commit -m update
+less convert_fairseq_to_hf_dataset.py 
+ls
+less CLAUDE.md 
+scp sbtaldeep24:waxholm_fairseq/dict.ltr.txt .
+less dict.ltr.txt 
+claude --resume 11bc846f-2c59-4fa5-9ee4-470880bf945b
+ls ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
+less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
+less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
+ls $(PWD)
