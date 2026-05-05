@@ -1,83 +1,3 @@
-git clone https://github.com/kth-tmh/snack
-cd /tmp
-mkdir nico
-cd nico/
-git init .
-tar zxvf ~/Downloads/nico_v1.1.tar.gz 
-mv NICO_1-1/* .
-ls
-rmdir NICO_1-1/
-git add .
-git commit -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
-#git tag -a v1.1
-git tag -a v1.1 -m '1.1'
-ls
-tar zxvf ~/Downloads/nico-1.1.1.tar.gz 
-mv nico-1.1.1/* .
-cd ..
-rm -rf nico/
-mkdir nico
-cd nico/
-ls
-tar zxvf ~/Downloads/nico_v1.1.tar.gz 
-mv NICO_1-1/* .
-rmdir NICO_1-1/
-git add .
-git init .
-git add .
-ls
-ls -al
-less doc_html/COMMANDS/Import.html 
-ls
-less lib/Math.c 
-cat lib/Math.c |iconv -f latin1 -t utf-8
-cat lib/Math.c |iconv -f latin1 -t utf-8|jead
-cat lib/Math.c |iconv -f latin1 -t utf-8|head
-cat lib/Math.c |iconv -f latin1 -t utf-8|head -n 123
-cat lib/Math.c |iconv -f latin1 -t utf-8|less
-ls
-git commit --author "Nikko Ström <nikko@speech.kth.se>" --date "$(date -r doc_html/index.html)" -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
-git log
-ls
-rm -rf *
-tar zxvf ~/Downloads/nico_v1.1.tar.gz 
-rm -rf NICO_1-1/
-tar zxvf ~/Downloads/nico-1.1.1.tar.gz 
-git tag -a v1.1 -m 'v1.1'
-mv nico-1.1.1/* .
-rmdir nico-1.1.1/
-ls doc/index.html 
-ls -al
-git add .
-git status
-#git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
-ls
-#git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.1/'
-git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.1/'
-git log
-git tag -a v1.1.1 -m 'v1.1.1'
-ls
-rm -rf *
-tar zxvf ~/Downloads/nico-1.1.2.tar.gz 
-git add .
-git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.2/'
-ls
-git status
-mv nico-1.1.2/* .
-git add .
-git status
-ls doc/
-git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.2/'
-git log
-git tag -a v1.1.2 -m 'v1.1.2'
-ls
-ls lib/
-less lib/RTSim.c 
-less ~/Downloads/RTDNN1.1.2_c.patch 
-cd lib/
-patch -p0 < ~/Downloads/RTDNN1.1.2_c.patch 
-patch -p0 < ~/Downloads/RTSim1.1.2_c.patch 
-patch -p0 < ~/Downloads/Simulation1.1.2_c.patch 
 git diff
 vi RTDNN.c 
 git diff
@@ -498,3 +418,83 @@ git branch
 git checkout -b edits
 git add od2026_latex_template/Odyssey2026_Latex_Template.tex 
 git commit -m p315
+git diff
+git diff
+git status
+git add experiment/analyze_results.py 
+git add experiment/build_osr_dataset.py 
+git add experiment/retrieval_eval.py 
+git add experiment/run_eval_p315.sh 
+git status
+ls -al experiment/ablation_results.ipynb 
+ls -al tests/test_retrieval_eval.py 
+git add tests/test_retrieval_eval.py 
+git commit -m corrections
+git add experiment/ablation_results.ipynb 
+git commit -m 'from March 23; totally forgot'
+code experiment/ablation_results.ipynb 
+git branch
+git push origin future-work 
+git status
+git status
+scp experiment/inspect_eval_state.sh sbtaldeep22:merged_tts/
+git status
+git add experiment/rerun_eval.sh 
+git commit -m add
+git push origin future-work 
+git diff
+git add experiment/rerun_eval.sh 
+git commit -m add
+git push origin future-work 
+git diff
+git add experiment/rerun_eval.sh 
+git diff
+git add experiment/retrieval_eval.py 
+git commit -m 'run from steps; memory leak'
+git push origin future-work 
+git diff
+git status
+ls -al experiment/visualize_axes.py 
+git add experiment/visualize_axes.py 
+git commit -m 'from March 25'
+git add experiment/run_*sh
+git commit -m 're-add base'
+git push origin future-work 
+git diff
+git add experiment/rerun_eval.sh 
+git commit -m 're-add base'
+git push origin future-work 
+git log
+git revert a9341942f44c6a564964a841bd03b46b18d5017f
+git log
+git format-patch -1 672c4ea7aa3ca6d24d008239628cb462f5bca44f
+less 0001-run-from-steps-memory-leak.patch 
+git revert 672c4ea7aa3ca6d24d008239628cb462f5bca44f
+git diff
+git status
+git add experiment/rerun_eval.sh 
+git commit -m redo
+git push origin future-work 
+git diff
+git diff
+git add experiment/rerun_eval.sh 
+git commit -m bah
+git push origin future-work 
+git diff
+git diff
+git add experiment/retrieval_eval.py 
+git commit -m individual
+git push origin future-work 
+git diff
+git add experiment/run_eval_p315.sh 
+git commit -m fix
+git push origin future-work 
+git add experiment/report_p315_metrics.py 
+git commit -m results
+git push origin future-work 
+git status
+git add experiment/inspect_eval_state.sh 
+git add experiment/report_rehasp_metrics.py 
+git commit -m add
+git push origin future-work 
+scp sbtaldeep22:merged_tts/osr.results /tmp
