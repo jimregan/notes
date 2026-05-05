@@ -1,114 +1,3 @@
-git push origin copilot/build-github-packages 
-git diff
-git diff
-git status
-git status
-git diff
-git log
-git push origin copilot/build-github-packages 
-git log
-git push origin copilot/build-github-packages 
-git log
-git push origin modernise 
-git push origin copilot/build-github-packages 
-git push origin copilot/build-github-packages 
-git diff
-git log
-git push origin copilot/build-github-packages 
-git push origin copilot/build-github-packages 
-git push origin copilot/build-github-packages 
-git log
-git push origin copilot/build-github-packages 
-git status
-git log
-git checkout -b 5169fdb122c9bbcfabce48218da8ddff15e03d76 debian
-git checkout -b debian 5169fdb122c9bbcfabce48218da8ddff15e03d76 
-ls ../*xz
-ls
-rm -rf *
-tar zxvf ../snack_2.2.10.20090624+dfsg.orig.tar.xz
-mv snack2.2.10/* .
-rmdir snack2.2.10/
-git status
-git diff
-git log
-git add .
-git commit -m 
-less generic/SnackMpg.c
-ls ../*xz
-tar zxvf ../snack_2.2.10.20090624+dfsg-4.debian.tar.xz
-git status
-git add debian/
-git commit -m snack_2.2.10.20090624+dfsg-4.debian
-git push origin debian 
-ls
-cd debian/
-ls
-less patches/CVE-2012-6303.patch 
-less patches/CVE-2012-6303.patch 
-cd ..
-git apply debian/patches/CVE-2012-6303.patch
-git log
-git diff
-git stash
-git am debian/patches/CVE-2012-6303.patch
-git log
-less debian/patches/CVE-2012-6303.patch
-git status
-git am --abort
-git log
-git diff
-git log
-less debian/patches/CVE-2012-6303.patch
-vi debian/patches/CVE-2012-6303.patch
-grep From: debian/patches/*
-vi debian/patches/tcl9.patch 
-grep From: debian/patches/*
-vi debian/patches/make-shuffle.patch 
-grep From: debian/patches/
-vi debian/patches/make-shuffle.patch 
-grep From: debian/patches/*
-vi debian/patches/gnu-hurd.patch 
-vi debian/patches/gcc-15.patch 
-vi debian/patches/gcc-15.patch 
-vi debian/patches/args.patch 
-vi debian/patches/autoconf.patch 
-grep From: debian/patches/*
-vi debian/patches/libs.patch 
-vi debian/patches/alsa.patch 
-grep From: debian/patches/
-grep From: debian/patches/*
-git log
-git push origin debian 
-git log
-git log
-git push --force origin debian 
-git checkout main 
-git stash
-git checkout main 
-git log
-git push origin main 
-git pull origin main 
-git push origin main 
-git log
-git cherry-pick d59d87385942375289d1617ba2b72c44b59e4178
-git push origin main 
-git log
-git checkout debian 
-git log
-git tag -a snack_2.2.10.20090624+dfsg-4.debian -m 'Debian packaging and patches'
-git push --tags 
-git rm -r debian/
-git commit -m 'remove debian/ directory'
-git push origin debian 
-git checkout copilot/build-github-packages 
-git log
-git checkout debian 
-git log
-git format-patch -1 777c7cda9d1e6db7c4796bb01b7f8d639eee4d01
-git revert 777c7cda9d1e6db7c4796bb01b7f8d639eee4d01
-vi 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
-git am 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
 git log
 git push origin debian 
 rm 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
@@ -498,3 +387,114 @@ ls -al
 cd ..
 rm -rf snack
 git clone https://github.com/kth-tmh/snack
+cd /tmp
+mkdir nico
+cd nico/
+git init .
+tar zxvf ~/Downloads/nico_v1.1.tar.gz 
+mv NICO_1-1/* .
+ls
+rmdir NICO_1-1/
+git add .
+git commit -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
+#git tag -a v1.1
+git tag -a v1.1 -m '1.1'
+ls
+tar zxvf ~/Downloads/nico-1.1.1.tar.gz 
+mv nico-1.1.1/* .
+cd ..
+rm -rf nico/
+mkdir nico
+cd nico/
+ls
+tar zxvf ~/Downloads/nico_v1.1.tar.gz 
+mv NICO_1-1/* .
+rmdir NICO_1-1/
+git add .
+git init .
+git add .
+ls
+ls -al
+less doc_html/COMMANDS/Import.html 
+ls
+less lib/Math.c 
+cat lib/Math.c |iconv -f latin1 -t utf-8
+cat lib/Math.c |iconv -f latin1 -t utf-8|jead
+cat lib/Math.c |iconv -f latin1 -t utf-8|head
+cat lib/Math.c |iconv -f latin1 -t utf-8|head -n 123
+cat lib/Math.c |iconv -f latin1 -t utf-8|less
+ls
+git commit --author "Nikko Ström <nikko@speech.kth.se>" --date "$(date -r doc_html/index.html)" -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
+git log
+ls
+rm -rf *
+tar zxvf ~/Downloads/nico_v1.1.tar.gz 
+rm -rf NICO_1-1/
+tar zxvf ~/Downloads/nico-1.1.1.tar.gz 
+git tag -a v1.1 -m 'v1.1'
+mv nico-1.1.1/* .
+rmdir nico-1.1.1/
+ls doc/index.html 
+ls -al
+git add .
+git status
+#git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from http://web.archive.org/web/20060511223110if_/http://www.speech.kth.se:80/NICO/nico_v1.1.tar.gz'
+ls
+#git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.1/'
+git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.1/'
+git log
+git tag -a v1.1.1 -m 'v1.1.1'
+ls
+rm -rf *
+tar zxvf ~/Downloads/nico-1.1.2.tar.gz 
+git add .
+git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.2/'
+ls
+git status
+mv nico-1.1.2/* .
+git add .
+git status
+ls doc/
+git commit --author "Nikko Ström <nikkostrom@users.sourceforge.net>" --date "$(date -r doc/index.html)" -m 'Downloaded from https://sourceforge.net/projects/nico/files/nico/nico-1.1.2/'
+git log
+git tag -a v1.1.2 -m 'v1.1.2'
+ls
+ls lib/
+less lib/RTSim.c 
+less ~/Downloads/RTDNN1.1.2_c.patch 
+cd lib/
+patch -p0 < ~/Downloads/RTDNN1.1.2_c.patch 
+patch -p0 < ~/Downloads/RTSim1.1.2_c.patch 
+patch -p0 < ~/Downloads/Simulation1.1.2_c.patch 
+git diff
+vi RTDNN.c 
+git diff
+git stash
+patch -p0 < ~/Downloads/Simulation1.1.2_c.patch 
+patch -p0 < ~/Downloads/RTSim1.1.2_c.patch 
+patch -p0 < ~/Downloads/RTDNN1.1.2_c.patch 
+git add RT* Simulation.c 
+cd ..
+git log
+ls
+rmdir nico-1.1.2/
+git status
+git remote add origin git@github.com:kth-tmh/nico-toolkit.git
+git branch -M main
+git push -u origin main
+git push --tags --all
+git push --tags -a
+git push --tags 
+date -r lib
+git status
+git commit --author "Giampiero Salvi <giampi@speech.kth.se>" --date "Wed Jan  8 20:31:37 CET 2020"
+git log
+git push 
+codex
+codex
+pwd
+cd ..
+cd nico/
+ls
+codex
+codex
