@@ -1,20 +1,3 @@
-ssh deepflow 
-ssh tts2
-less To
-less TODO.md 
-git log TODO.md
-git add TODO.md 
-git commit -m more
-git diff
-ls mo-sceal-fein/
-less mo-sceal-fein/MsfChapter1.ogg.w2v.json 
-cat mo-sceal-fein/MsfChapter1.ogg.w2v.json |jq .|less
-git mv TODO.md to-sort/
-git commit -m mv
-claude
-£ claude --resume 87a616ee-ce3f-4fdd-b6b7-8f976b89739a
-ssh sbtaldeep23
-ssh sbtaldeep21
 ssh sbtaldeep21
 ssh sbtaldeep21
 ssh sbtaldeep21
@@ -498,3 +481,20 @@ find . -name '*.md' |while read i;do grep -i format "$i";done
 find . -name '*.md' |while read i;do grep -i format "$i" && echo $i;done
 find . -name '*.md' |while read i;do grep -i formant "$i" && echo $i;done
 less ./dysfluent-wfst/CLAUDE.md
+ls
+cd hungarian-reels/
+ls
+git add .
+git commit -m hu-reels
+git diff
+git diff
+ls
+git add .
+git commit -m hu-reels
+cd ../writing/
+git add .
+git commit -m update
+cd -
+ls
+git diff
+git log
