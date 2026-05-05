@@ -961,17 +961,20 @@ https://www.google.com/search?q=twitter+gemma4+linear+classifier+audio&sca_esv=e
 Jeff Dean on X: "Today we're releasing Gemma 4, our new family of open foundation models, built on the same research and technology as our Gemini 3 series. These models set a new standard for open intelligence, offering SOTA reasoning capabilities from edge-scale (2B and 4B w/ vision/audio) up" / X
 https://x.com/JeffDean/status/2039748604232122707
 
-Logan Kilpatrick on X: "Introducing Gemma 4, our series of open weight (Apache 2.0 licensed) models, which are byte for byte the most capable open models in the world! Gemma 4 is build to run on your hardware: phones, laptops, and desktops. Frontier intelligence with a 26B MOE and a 31B Dense model! https://t.co/PVtYRnKQW0" / X
+(1) Logan Kilpatrick on X: "Introducing Gemma 4, our series of open weight (Apache 2.0 licensed) models, which are byte for byte the most capable open models in the world! Gemma 4 is build to run on your hardware: phones, laptops, and desktops. Frontier intelligence with a 26B MOE and a 31B Dense model! https://t.co/PVtYRnKQW0" / X
 https://x.com/OfficialLoganK/status/2039735606268314071
 
-(1) Google AI Developers on X: "We’ve seen some impressive use cases for Gemma 4 Here are a few of them 🧵" / X
-https://x.com/googleaidevs/status/2041639052496232899
+Google | Gemma 4 | Kaggle
+https://www.kaggle.com/models/google/gemma-4/code
 
-x.com/baaaiinc/status/2041839063519629544
-https://x.com/baaaiinc/status/2041839063519629544
+Macro Sentiment Analysis with Gemma
+https://www.kaggle.com/code/pavankumar960/macro-sentiment-analysis-with-gemma#2.-The-Flaw-of-Lexicon-Models-(VADER)
 
-AI That Doesn't Phone Home - by Vikram - Going Frictionless
-https://gofrictionless.substack.com/p/ai-that-doesnt-phone-home?triedRedirect=true
+Kaggle/kagglehub: Python library to access Kaggle resources
+https://github.com/Kaggle/kagglehub
+
+Fuzzy-Gemma
+https://www.kaggle.com/code/fabioporcelli/fuzzy-gemma
 
 Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon | Hacker News
 https://news.ycombinator.com/item?id=47680309
@@ -984,5 +987,11 @@ https://x.com/googlegemma/status/2041942389745709213
 
 mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.
 https://github.com/mattmireles/gemma-tuner-multimodal
+
+Receipt | Skatteverket
+https://www7.skatteverket.se/portal/privat-min-inkomstdeklaration/b918db47-3f82-41bb-805f-08fbf118fa38/kvittens
+
+New tab
+chrome://newtab/
 
 
