@@ -1,83 +1,3 @@
-git log
-git push origin debian 
-rm 0001-Patch-makes-porting-of-the-tkSnack-Python-module-and.patch 
-git branch
-git log
-git push origin debian 
-git log
-git revert 3f49a68e36d688b4434f0772bd7cc4f5bcb395f8
-git revert -m 3f49a68e36d688b4434f0772bd7cc4f5bcb395f8
-git reset --hard HEAD^
-git push --force origin debian 
-git checkout debian 
-git log
-git checkout -b debian-upstream 4e917d233f6a52ba32c86451f4a416d6467e6f27
-git push origin debian-upstream 
-git checkout main 
-git pull origin main 
-git checkout debian
-git merge -X ours main
-git push origin debian
-git fetch
-git checkout copilot/build-github-packages 
-git diff
-git diff
-git branch
-git log
-git log
-git push origin copilot/build-github-packages 
-git pull origin copilot/build-github-packages 
-git config pull.rebase false
-git pull origin copilot/build-github-packages 
-git log
-git push origin copilot/build-github-packages 
-git status
-git fetch
-git merge main
-vi generic/jkAudIO.h 
-git diff
-vi generic/jkAudIO.h 
-git diff
-git log
-vi python/tkSnack.py 
-git diff
-git add python/tkSnack.py 
-git commit -m 'take main version'
-vi generic/snack.h 
-git diff
-git add generic/snack.h 
-git commit -m 'take main version'
-vi generic/jkSound.h 
-git diff
-git add generic/jkSound.h 
-git commit -m 'take main version'
-git push origin copilot/build-github-packages 
-git checkout main 
-git pull origin main 
-git log
-git checkout copilot/build-github-packages 
-git log
-git diff
-git diff
-git log
-git log
-git push origin copilot/build-github-packages 
-git checkout main generic/jkFormant.c
-git diff
-git status
-git add generic/jkFormant.c
-git commit -m revert
-git push origin copilot/build-github-packages 
-git checkout main generic/snack.h
-git checkout main generic/sigproc2.c
-git checkout main generic/jkFormant.c
-git commit -m revert
-git push origin copilot/build-github-packages 
-git checkout main generic/jkFormant.c
-git checkout main generic/jkGetF0.c
-git checkout main generic/jkSoundFile.c
-git checkout main generic/sigproc2.c
-git checkout main generic/snack.h
 git commit -m revert
 git push origin copilot/build-github-packages 
 vi generic/jkSound.h 
@@ -498,3 +418,83 @@ cd nico/
 ls
 codex
 codex
+ls
+ls lib
+cd lib/
+ls
+make
+ls
+git log
+git push 
+ls
+make clean
+ls
+cd ..
+git status
+rm tools/Excite.o 
+git status
+ls
+ls bin/
+find . -type f|while read i;do cat $i|iconv -f latin1 -t utf-8 > tmp; mv tmp $i;done
+git diff
+git status
+git stash
+cd ..
+rm -rf nico/
+git clone git@github.com:kth-tmh/nico-toolkit.git
+git clone git@github.com:kth-tmh/nico-toolkit.git nico
+cd nico/
+ls
+find [a-z]* -type f|while read i;do cat $i|iconv -f latin1 -t utf-8 > tmp; mv tmp $i;done
+git diff
+git add lib/AudioData.c 
+git status
+git diff
+git status
+less toy-examples/XOR/xor.rtdnn 
+git commit -m 'latin1 -> utf-8'
+git push 
+git stash
+less speech-example/make_simpletimit
+git diff
+git diff
+less lib/Makefile 
+git diff
+git add lib/Makefile lib/System.c 
+git diff
+git commit -m 'put in a check for old-style malloc'
+git push 
+git status
+less README.md 
+git add README.md 
+git commit -m 'add README'
+git push 
+git status
+git add LICENSE 
+git commit -m 'add LICENSE' 
+git push 
+git status
+echo '*.o' >> .gitignore
+echo '*.a' >> .gitignore
+git add .gitignore 
+git commit -m add\ .gitignore 
+git push 
+conda env list
+git status
+ls toy-examples/pytorch_demo/
+ls toy-examples/pytorch_demo/README.md 
+less toy-examples/pytorch_demo/README.md 
+less toy-examples/pytorch_demo/generated/xor_demo.py 
+ls toy-examples/pytorch_demo/README.md 
+less toy-examples/pytorch_demo/README.md 
+ls toy-examples/pytorch_demo/
+ls toy-examples/pytorch_demo/generate.py 
+less toy-examples/pytorch_demo/generate.py 
+echo __pycache__ >> .gitignore 
+git add .gitignore 
+git commit -m update\ .gitignore 
+git push 
+git checkout -b generated-pytorch
+git add toy-examples/pytorch_demo/
+git commit -m 'codex-generated pytorch conversion'
+git push origin generated-pytorch 
