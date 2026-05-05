@@ -1,6 +1,3 @@
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
-cd -
-git add wget-20260405.nt 
 git commit -m inp
 cd -
 brew install google-gemini
@@ -498,3 +495,6 @@ ssh deepflow
 ssh deepflow 
 ssh deepflow 
 scp sbtaldeep22:dockerfiles/claude-code/dot-claude/script /tmp
+claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
+claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
+claude 
