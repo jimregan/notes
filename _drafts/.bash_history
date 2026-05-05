@@ -1,4 +1,3 @@
-scp sbtaldeep22:.srv/wg/inp.log .
 cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt
 cat inp.log |perl wget-http.pl >> tocheck 
 cd -
@@ -498,3 +497,4 @@ cp ~/Downloads/1967_8_1_001-014.pdf .
 pdftohtml 1967_8_1_001-014.pdf 
 ls
 ls 1967_8_1_001-014
+ssh deepwave 
