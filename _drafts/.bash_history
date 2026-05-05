@@ -1,62 +1,3 @@
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep21
-ssh sbtaldeep22
-ssh sbtaldeep23
-ssh sbtaldeep21
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep21
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep21
-ssh sbtaldeep21
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23 
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep22
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep22
-ssh sbtaldeep21
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep24
-ssh sbtaldeep23
-ssh sbtaldeep21
-ssh sbtaldeep24
-ssh sbtaldeep24
 ssh sbtaldeep21
 ssh sbtaldeep23
 ssh sbtaldeep24
@@ -498,3 +439,62 @@ less ~/Playing/notes/_posts/2026-02-16-mseb.md
 claude
 python
 less output_01.tsv 
+less gemma4-ctc/CLAUDE.md 
+git diff
+less gemma4-ctc/CLAUDE.md 
+git status
+git add writing/
+git commit -m add
+git add writing/
+git commit -m add
+git add writing/
+git commit -m add
+git add writing/
+git commit -m add
+ls ~/Playing/librivox_mult/
+cd ~/Playing/librivox_mult/
+git status
+ls respiro/
+ls
+git status
+ls index/
+ls
+git log
+ls
+git add respiro/
+git commit -m 'add respiro output'
+git status
+find index/ -type f
+git add index/
+git commit -m 'add index files'
+git push 
+git branch
+git checkout main 
+git status
+ls
+git remote show origin 
+git remote prune
+git remote show origin 
+git pull origin main 
+git branch
+git remote show origin 
+git checkout text 
+git log
+git push origin text 
+git pull origin text 
+git checkout -b respiro
+git push origin respiro 
+ls
+find . -name '*.py'
+git log
+git format-patch -1 a06b555fb1cc3161276ba426cfe952a3537fb246
+less 0001-Use-Moses-with-semicolon-rejoin-post-processing-for-.patch
+less text/the-crocodile/parse_text.ipynb 
+pwd
+ssh deepflow 
+ssh deepflow 
+ssh deepflow 
+ssh deepwave 
+less ~/.ssh/config
+ssh b-tower 
+ssh b-tower 
