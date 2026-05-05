@@ -1,6 +1,5 @@
 ssh sbtaldeep21
 ssh sbtaldeep21
-ssh sbtaldeep21
 ssh sbtaldeep22
 ssh sbtaldeep22
 ssh sbtaldeep22
@@ -498,3 +497,4 @@ cd -
 ls
 git diff
 git log
+ls writing/Hungarian\ Reels.md 
