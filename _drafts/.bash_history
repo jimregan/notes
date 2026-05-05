@@ -1,11 +1,3 @@
-git diff
-vi RTDNN.c 
-git diff
-git stash
-patch -p0 < ~/Downloads/Simulation1.1.2_c.patch 
-patch -p0 < ~/Downloads/RTSim1.1.2_c.patch 
-patch -p0 < ~/Downloads/RTDNN1.1.2_c.patch 
-git add RT* Simulation.c 
 cd ..
 git log
 ls
@@ -498,3 +490,11 @@ git add experiment/report_rehasp_metrics.py
 git commit -m add
 git push origin future-work 
 scp sbtaldeep22:merged_tts/osr.results /tmp
+ls
+echo $PWD/gemma4-ctc/
+scp -r gemma4-ctc/ sbtaldeep22:
+git add writing/
+git commit -m add
+git rm writing/Lab\ 1.md 
+git commit -m rm
+git diff
