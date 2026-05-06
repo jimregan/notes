@@ -1,500 +1,500 @@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+unzip -l /Users/joregan/Downloads/Sc-20260409T105146Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260409T110110Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm Scr* *story* 
+cd -
+scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
+mv S[sc]*.zip ~/backup/m12feb26/
+ls *cv*gz
+scp 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz sbtaldeep23:
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+unzip -l /Users/joregan/Downloads/Sc-20260410T134243Z-3-001.zip 
+cd 0
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm Scr* *story* 
+cd -
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.05.21.png 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm Scr* *story* 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+unzip -l Sc-20260412T120727Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm *story*
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.41.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 19.44.38.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.30.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.50.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.06.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.19.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.11.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.17.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.47.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.57.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.37.png 
+unzip -l /Users/joregan/Downloads/Sc-20260412T190313Z-3-001.zip 
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 20.00.52.png 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc-20260412T190313Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260413T105654Z-3-001.zip 
+unzip -l Sc-20260413T110529Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+unzip -l Ss-20260413T121403Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls *cv*
+tar ztvf 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz 
+scp 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz deepflow:/shared/datasets/Common_Voice_Swedish_25/cv-corpus-25.0-2026-03-09-sv-SE.tar.gz
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc-20260418T152401Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260418T162936Z-3-002.zip 
+rm  /Users/joregan/Downloads/Sc-20260418T162936Z-3-002.zip 
+rm  /Users/joregan/Downloads/Sc-20260418T163020Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260418T163340Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260418T163020Z-3-002.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
+unzip -l /Users/joregan/Downloads/Sc-20260418T164701Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
+unzip -l /Users/joregan/Downloads/uv7swre.zip 
+file /Users/joregan/Downloads/uv7swre/unix_v7_rl.dsk 
+less /Users/joregan/Downloads/uv7swre/unix_v7_rl.dsk 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
+unzip -l /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm *story*
 ls
-cd ..
-git status
-rm tools/Excite.o 
-git status
+cat /Users/joregan/Desktop/citations-20260420T192716.bibtex 
+cat /Users/joregan/Desktop/citations-20260420T192911.bibtex 
+cat /Users/joregan/Desktop/citations-20260420T193022.bibtex 
+rm /Users/joregan/Desktop/citations-20260420T193022.bibtex /Users/joregan/Desktop/citations-20260420T192716.bibtex /Users/joregan/Desktop/citations-20260420T192911.bibtex 
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.18.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.05.43.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.21.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.06.54.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.05.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.58.57.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.00.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.01.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.05.50.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.20.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.48.16.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.36.36.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.34.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.46.43.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.36.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.29.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.46.40.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.35.48.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.33.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.33.01.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.38.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.08.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.55.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.16.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.56.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.28.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.20.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.17.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.11.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.09.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.15.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.14.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.55.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.13.47.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.03.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.02.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.06.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.42.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.13.23.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 19.34.09\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 19.34.03\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.37\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.40\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.56\ \(2\).png 
+rm /Users/joregan/Desktop/Screenshot\ 2026-04-17\ at\ 16.55.58.png /Users/joregan/Desktop/Screenshot\ 2026-04-17\ at\ 14.03.27.png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.55.54\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.12\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.21\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.55.57\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.56.03\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.25\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.05\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.42\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.47\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.36\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-14\ at\ 11.31.15.png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.32\ \(2\).png 
+cd ../Desktop/
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc-20260421T191419Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260422T050813Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260422T054525Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260422T062552Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260422T063221Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+tar ztvf nico_v1.1.tar.gz 
+tar zxvf nico_v1.1.tar.gz 
+ls NICO_1-1/
+less NICO_1-1/tools/CreateNet.c 
+less NICO_1-1/speech-example/make_timit_links 
+less NICO_1-1/speech-example/phoneme_set 
+less NICO_1-1/lib/RTDNN.c 
+less NICO_1-1/lib/AudioData.c 
+less NICO_1-1/lib/StdHead.c 
+less NICO_1-1/lib/StdHead.h
+cd ~/Playing/pygramadan/
 ls
-ls bin/
-find . -type f|while read i;do cat $i|iconv -f latin1 -t utf-8 > tmp; mv tmp $i;done
-git diff
-git status
-git stash
-cd ..
-rm -rf nico/
-git clone git@github.com:kth-tmh/nico-toolkit.git
-git clone git@github.com:kth-tmh/nico-toolkit.git nico
-cd nico/
-ls
-find [a-z]* -type f|while read i;do cat $i|iconv -f latin1 -t utf-8 > tmp; mv tmp $i;done
-git diff
-git add lib/AudioData.c 
-git status
-git diff
-git status
-less toy-examples/XOR/xor.rtdnn 
-git commit -m 'latin1 -> utf-8'
-git push 
-git stash
-less speech-example/make_simpletimit
-git diff
-git diff
-less lib/Makefile 
-git diff
-git add lib/Makefile lib/System.c 
-git diff
-git commit -m 'put in a check for old-style malloc'
-git push 
-git status
-less README.md 
-git add README.md 
-git commit -m 'add README'
-git push 
-git status
-git add LICENSE 
-git commit -m 'add LICENSE' 
-git push 
-git status
-echo '*.o' >> .gitignore
-echo '*.a' >> .gitignore
-git add .gitignore 
-git commit -m add\ .gitignore 
-git push 
-conda env list
-git status
-ls toy-examples/pytorch_demo/
-ls toy-examples/pytorch_demo/README.md 
-less toy-examples/pytorch_demo/README.md 
-less toy-examples/pytorch_demo/generated/xor_demo.py 
-ls toy-examples/pytorch_demo/README.md 
-less toy-examples/pytorch_demo/README.md 
-ls toy-examples/pytorch_demo/
-ls toy-examples/pytorch_demo/generate.py 
-less toy-examples/pytorch_demo/generate.py 
-echo __pycache__ >> .gitignore 
-git add .gitignore 
-git commit -m update\ .gitignore 
-git push 
-git checkout -b generated-pytorch
-git add toy-examples/pytorch_demo/
-git commit -m 'codex-generated pytorch conversion'
-git push origin generated-pytorch 
-claude
-ls
-git status
-ls ~/Playing/librivox_mult/
-git add writing/
-git commit -m add
-vi writing/LRE\ -\ Phonetic\ corpus/old-towards.tex
-cd writing/LRE\ -\ Phonetic\ corpus/
-pandoc old-towards.tex -f latex -t markdown old-towards.md
-pandoc old-towards.tex -f latex -t markdown -o old-towards.md
-ls
-vi old-towards.tex 
-pandoc old-towards.tex -f latex -t markdown -o old-towards.md
-pandoc old-towards.tex -f latex -t markdown+tex_math_dollars -o old-towards.md
-vi mybib.tex
-git add .
-git commit -m 'old latex'
-mkdir old-towards
-git mv old-towards.tex mybib.tex old-towards/
-git commit -m mv
-touch top-level.md
-vi top-level.md 
-git add .
-git commit -m more
-cd ..
-cd ..
-grep -i formant *
-find . -name '*.md'|xargs grep -i formant
-find . -name '*.md' -exec  grep -i formant {}
-find . -name '*.md' -exec  grep -i formant {} \;
-find . -name '*.md' |while read i;do grep -i format "$i";done
-find . -name '*.md' |while read i;do grep -i format "$i" && echo $i;done
-find . -name '*.md' |while read i;do grep -i formant "$i" && echo $i;done
-less ./dysfluent-wfst/CLAUDE.md
-ls
-cd hungarian-reels/
-ls
-git add .
-git commit -m hu-reels
-git diff
-git diff
-ls
-git add .
-git commit -m hu-reels
-cd ../writing/
-git add .
-git commit -m update
+git branch -a
 cd -
 ls
-git diff
-git log
-ls writing/Hungarian\ Reels.md 
-less ~/Playing/notes/_posts/2026-02-16-mseb.md 
-claude
-python
-less output_01.tsv 
-less gemma4-ctc/CLAUDE.md 
-git diff
-less gemma4-ctc/CLAUDE.md 
-git status
-git add writing/
-git commit -m add
-git add writing/
-git commit -m add
-git add writing/
-git commit -m add
-git add writing/
-git commit -m add
-ls ~/Playing/librivox_mult/
-cd ~/Playing/librivox_mult/
-git status
-ls respiro/
-ls
-git status
-ls index/
-ls
-git log
-ls
-git add respiro/
-git commit -m 'add respiro output'
-git status
-find index/ -type f
-git add index/
-git commit -m 'add index files'
-git push 
-git branch
-git checkout main 
-git status
-ls
-git remote show origin 
-git remote prune
-git remote show origin 
-git pull origin main 
-git branch
-git remote show origin 
-git checkout text 
-git log
-git push origin text 
-git pull origin text 
-git checkout -b respiro
-git push origin respiro 
-ls
-find . -name '*.py'
-git log
-git format-patch -1 a06b555fb1cc3161276ba426cfe952a3537fb246
-less 0001-Use-Moses-with-semicolon-rejoin-post-processing-for-.patch
-less text/the-crocodile/parse_text.ipynb 
-pwd
-ssh deepflow 
-ssh deepflow 
-ssh deepflow 
-ssh deepwave 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+cd ../Desktop/
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+cd -
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc25apr26-1.zip 
+unzip -l /Users/joregan/Downloads/Sc25apr26-2.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc-20260428T082358Z-3-001.zip 
+scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
+scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
+mv S[sc]*.zip ~/backup/m12feb26/
+unzip -l /Users/joregan/Downloads/deepseek_data-2026-04-28.zip 
+rm -rf /Users/joregan/Downloads/deepseek_data-2026-04-28 
+unzip -l  /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/Sc-20260503T065206Z-3-001.zip 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
 less ~/.ssh/config
-ssh b-tower 
-ssh b-tower 
-cd ~/Playing/
-git clone https://github.com/huggingface/transformers
-cd transformers/
-pwd
-cd ~/Playing/work-2026/
-claude
-cd gemma4-ctc/
-git status
-ls
-rm -rf __pycache__/
-git add .
-git commit -m update
-less convert_fairseq_to_hf_dataset.py 
-ls
-less CLAUDE.md 
-scp sbtaldeep24:waxholm_fairseq/dict.ltr.txt .
-less dict.ltr.txt 
-claude --resume 11bc846f-2c59-4fa5-9ee4-470880bf945b
-ls ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
-less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
-less ~/.claude/projects/-Users-joregan-Playing-work-2026/11bc846f-2c59-4fa5-9ee4-470880bf945b.jsonl 
-ls $(PWD)
-pwd
-less aligner.py 
-less CLAUDE.md 
-git status
-less ../pronunciation-data/
-ls
-git add .
-git commit -m 'edition alignment tool'
-git status
-ls ../mmconv/
-ls ../mmconv/vibevoice/
-less ../mmconv/vibevoice/hsi_3_0715_209_006_inter.json 
-cd ..
-less r1 
-less r2 
-git status
-less multi-source-scorer-instructions.md
-ls dysfluent-wfst/
-less dysfluent-wfst/CLAUDE.md 
-ls accents-gmu-native 
-less accents-gmu-native 
-git branch
-git push origin unsorted-new 
-mkdir align-html
-cd align-html/
-mv ~/Downloads/align.py .
-mv ~/Downloads/parse_index.py .
-mv ~/Downloads/fetch_text.py .
-mv ~/Downloads/book_config.yaml .
-mv ~/Downloads/requirements.txt .
-ls
-vi README
-git add .
-git commit -m generated
-less align.py 
-less book_config.yaml 
-ls ../writing/
-ls ../writing/Welcome.md 
-ls ../writing/2026-04-05.md 
-less ../writing/2026-04-05.md 
-cd ..
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+unzip -l /Users/joregan/Downloads/spoken_sentence_transformers_odyssey.zip 
+less ~/Playing/braxen/dict/braxen-sv.tsv 
+echo $HOME/Playing/braxen/dict/braxen-sv.tsv 
+echo $HOME/Playing/braxen/dict/braxen-sv.tsv 
+less ~/Playing/braxen/dict/braxen-sv.tsv 
+less ~/Playing/braxen/dict/braxen-sv.tsv 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+cd ../Desktop/
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm Scr* *story* 
+cd -
+ls Scr* *story* tvpresenters_3888979844817646860.jpg  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm zsuzsa_szekely\'s2026-5-5-12.12.749\ story.mp4 tvpresenters_3888979844817646860.jpg 
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm *story*
+ls 675450064_18582445021065447_6210305290152450059_n.jpg AQ*.mp4  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm 675450064_18582445021065447_6210305290152450059_n.jpg AQ*.mp4  
+ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
+rm *story*
+git diff
 git add writing/
 git commit -m add
-ls writing/
-cd writing/
-ls
-ls
-ls Apple\ Notes/
-cd Apple\ Notes/
-ls
-cd ..
-git status
-rm *.gif
-ls
-rm *.jpg
-ls
-rm *.png
-ls
-rm *.svg recording.m4a 
-ls
-cd  Apple\ Notes/
-ls
-less ffs.md 
-less ./~deichler-code-flask_webgl_app-app_csmp.py.md 
-rm ffs.md 
-rm tocejag970@icousd.com.md 
-cd ..
-rm -rf Apple\ Notes/
-ls
-rm *jpg
-rm *png *svg *.m4a
-ls
-rm *.gif
-ls
-cd Apple\ Notes/
-ls
-less 2025-03-08\ So…\ yeah\,\ I\ was\ in\ Estonia\ last\ week….md 
-ls *ffs*
-less 2024-05-24\ ffs.md 
-cat *ffs.md
-rm *ffs*
-ls
-less 2025-04-01\ What\ do\ you\ think\ has\ affected\ your\ self-esteem.md 
-less 2024-09-24\ Oh\ God\,\ why\ did\ you\ leave\ keys\ on\ the\ table.md 
-ls *toce*
-rm 2026-01-05\ tocejag970@icousd.com.md 
-ls
-less 2024-06-08\ CPT.md 
-cd ..
-git add Apple\ Notes/
+git add gutenberg-scraper.py 
+git commit -m 'rewritten'
+git diff
+git diff
+git diff
+less extract-index-json.py 
+mkdir ~/Playing/librivox_mult/json
+python3 extract-index-json.py ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
+less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-by-emily-bronte/index.json
+git add extract-index-json.py 
 git commit -m add
-git rm -r Apple\ Notes/
-git commit -m 'discard, not useful'
+less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-by-emily-bronte/index.json
+less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-dramatic-reading-by-emily-bronte/index.json 
+git diff
+python3 extract-index-json.py ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
+python3 extract-index-json.py --overwrite ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
+less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-dramatic-reading-by-emily-bronte/index.json 
+git diff
+git add gutenberg-scraper.py 
+git commit -m 'track reader ID'
 ls
+git didf
+ls *.py
+less gutenberg-scraper.py 
+mkdir ebook
+less gutenberg-scraper.py 
+python gutenberg-scraper.py ~/Playing/librivox_mult/index/ ebook/
+python gutenberg-scraper.py ~/Playing/librivox_mult/index/ --outdir ebook/
+ls ebook/
+less ebook/gutenberg-19994.html 
 git diff
-git add .
-git commit -m update
-git diff
-git add ../.gitignore 
-git commit -m update
-git add .
-git commit -m update
-echo $(PWD)
-ls $(PWD)
-ls /Users/joregan/Playing/librivox_mult/text/the-crocodile
+git add align-html/ align_whisper/
+git commit -m 'update alignment'
+python align-html/parse_index.py ebook/gutenberg-2.html 
+python align-html/parse_index.py --html ebook/gutenberg-2.html 
+pip install lxml
+python align-html/parse_index.py --html ebook/gutenberg-2.html 
+less book_config.yaml 
+python align-html/parse_index.py --html ebook/gutenberg-280.html 
+less book_config.yaml 
+rm book_config.yaml 
+python align-html/parse_index.py --html ebook/gutenberg-2554.html 
+less book_config.yaml 
+less align-html/parse_index.py 
+python align-html/parse_index.py --html ~/Playing/librivox_mult/index/journey-to-the-centre-of-the-earth/journey-into-the-interior-of-the-earth-jules-verne/index.html 
+less book_config.yaml 
+git add align-html/ align_whisper/
+git commit -m 'update alignment'
+less ebook/gutenberg-19994.html 
+less ebook/gutenberg-29345.html 
+less ebook/gutenberg-1837.html 
+python align-html/split_text.py ebook/gutenberg-1837.html
+less align-html/split_text.py 
+less book_config.yaml 
 cd /tmp
-cp ~/Downloads/1967_8_1_001-014.pdf .
-pdftohtml 1967_8_1_001-014.pdf 
-ls
-ls 1967_8_1_001-014
+unzip -l /Users/joregan/Downloads/tclplugin.zip 
+ssh redsofa4
 ssh deepwave 
+ssh deepflow 
 cd ~/Playing/gpu-admin/
 git pull
 vi users.json
-git diff
-vi users.json
-git stash
-vi users.json
 git add users.json
-git commit -m "Fredrik/Anya's master student"
+git commit -m "new postdoc"
 git push 
 python admin.py sync-users
+reset
 less ~/.ssh/config
-vi /Users/joregan/Downloads/S0167639326000166.bib 
-less ~/.ssh/config
-ls ~/Downloads/*mp3
-ffplay ~/Downloads/1.mp3 
-less ~/.ssh/config
-ssh deepflow 
-ssh deepflow 
-ssh deepflow 
-ssh deepflow 
-ssh deepflow 
-ssh deepflow 
-scp sbtaldeep22:dockerfiles/claude-code/dot-claude/script /tmp
-claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
-claude --resume 34a8d93c-07bd-44cf-9016-eaee595cba87
-claude 
-git clone https://github.com/sprakradet/swedia_test_set
-cd ~/Playing/spoken-sentence-transformers/
-ls
+ssh sbtaldeep21
+ssh sbtaldeep22
+less ~/Playing/gpu-admin/README.md 
+ssh sbtaldeep21
+ping 130.237.3.105
+less ~/Playing/gpu-admin/README.md 
+ping 130.237.3.105
+ssh sbtaldeep21
+ping 130.237.3.105
+ssh 130.237.3.105
+ssh 130.237.3.105
+less ~/Playing/gpu-admin/README.md 
+ssh 130.237.3.105
+ping 130.237.3.105
+traceroute 130.237.3.105
+ping 130.237.3.105
+ssh 130.237.3.105
+ssh 130.237.3.105
+ssh 130.237.3.105
+ping 130.237.3.105
+cd ~/.claude/
 git log
+git push 
 git diff
-git checkout main 
-git pull origin main 
-git checkout future-work 
-codex 
-codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
-codex resume 019d7346-eec1-7b92-8fb5-20a0ef86ba47
-cd ~/Playing/work-2026/
+git add projects/-Users-joregan-Playing-work-2026/87a616ee-ce3f-4fdd-b6b7-8f976b89739a.jsonl history.jsonl 
+git diff
+git add sessions/ shell-snapshots/
+git diff
+git add telemetry/
+git dif
+git diff
+git commit -m more
+git push 
+git status
+cd ~/.claude/
+git status
+git diff
+git status|less
+git add debug/ file-history/
+git status
+git add shell-snapshots/ sessions/
+git status
+git add projects/
+ls telemetry/
+git add telemetry/
+git status
+git add paste-cache/
+git status
+git add history.jsonl 
+ls backups/
+ls ide/
+less ide/63617.lock 
+ls plans/
+git add plans/
+ls stats
+ls statsig/
+git add statsig/
+git diff
+git status
+git add telemetry/
+git status
+git add telemetry/
+git status
+git commit -m update
+git push 
+cd ../.codex/
 ls
-ls spoken-sentence-transformers/notes.md 
-less spoken-sentence-transformers/notes.md 
-less training-plan.md 
-ls *.md
-less multi-source-scorer-instructions.md 
-less resemblyzer-eval-results.md 
-less training-plan.md 
-echo $PWD/training-plan.md 
-echo $PWD/eval-plan.md 
-echo $PWD/spoken-sentence-transformers-odyssey/od2026_latex_template/ 
-cd spoken-sentence-transformers-odyssey/
-git pull
-git diff
-ls
-less od2026_latex_template/Odyssey2026_Latex_Template.tex 
-git diff
-git branch
-git checkout -b edits
-git add od2026_latex_template/Odyssey2026_Latex_Template.tex 
-git commit -m p315
-git diff
-git diff
 git status
-git add experiment/analyze_results.py 
-git add experiment/build_osr_dataset.py 
-git add experiment/retrieval_eval.py 
-git add experiment/run_eval_p315.sh 
+git add sessions/ shell_snapshots/
+ls skills/
 git status
-ls -al experiment/ablation_results.ipynb 
-ls -al tests/test_retrieval_eval.py 
-git add tests/test_retrieval_eval.py 
-git commit -m corrections
-git add experiment/ablation_results.ipynb 
-git commit -m 'from March 23; totally forgot'
-code experiment/ablation_results.ipynb 
-git branch
-git push origin future-work 
+git add config.toml history.jsonl logs_2.sqlite
 git status
-git status
-scp experiment/inspect_eval_state.sh sbtaldeep22:merged_tts/
-git status
-git add experiment/rerun_eval.sh 
-git commit -m add
-git push origin future-work 
-git diff
-git add experiment/rerun_eval.sh 
-git commit -m add
-git push origin future-work 
-git diff
-git add experiment/rerun_eval.sh 
-git diff
-git add experiment/retrieval_eval.py 
-git commit -m 'run from steps; memory leak'
-git push origin future-work 
-git diff
-git status
-ls -al experiment/visualize_axes.py 
-git add experiment/visualize_axes.py 
-git commit -m 'from March 25'
-git add experiment/run_*sh
-git commit -m 're-add base'
-git push origin future-work 
-git diff
-git add experiment/rerun_eval.sh 
-git commit -m 're-add base'
-git push origin future-work 
-git log
-git revert a9341942f44c6a564964a841bd03b46b18d5017f
-git log
-git format-patch -1 672c4ea7aa3ca6d24d008239628cb462f5bca44f
-less 0001-run-from-steps-memory-leak.patch 
-git revert 672c4ea7aa3ca6d24d008239628cb462f5bca44f
-git diff
-git status
-git add experiment/rerun_eval.sh 
-git commit -m redo
-git push origin future-work 
-git diff
-git diff
-git add experiment/rerun_eval.sh 
-git commit -m bah
-git push origin future-work 
-git diff
-git diff
-git add experiment/retrieval_eval.py 
-git commit -m individual
-git push origin future-work 
-git diff
-git add experiment/run_eval_p315.sh 
-git commit -m fix
-git push origin future-work 
-git add experiment/report_p315_metrics.py 
-git commit -m results
-git push origin future-work 
-git status
-git add experiment/inspect_eval_state.sh 
-git add experiment/report_rehasp_metrics.py 
-git commit -m add
-git push origin future-work 
-scp sbtaldeep22:merged_tts/osr.results /tmp
-ls
-echo $PWD/gemma4-ctc/
-scp -r gemma4-ctc/ sbtaldeep22:
-git add writing/
-git commit -m add
-git rm writing/Lab\ 1.md 
-git commit -m rm
-git diff
-cd Playing/work-2026/
-ls
-ls wolne-lektury/
-ls wolne-lektury/notebooks/
-ls
-ls align-html/
-ls align_whisper/
+git add models_cache.json logs_2.sqlite* log/codex-tui.log 
+git add version.json *sqlite
+git commit -m update
+git push 
+cd /tmp
+git clone https://github.com/katspaugh/wavesurfer.js
+ls snack
+cd wavesurfer.js/
 codex
-codex resume 019d6853-9427-7f92-a27f-e921011b927f
-vi tabs_1
-git add tabs_1
-git commit -m add
-less  /Users/joregan/Playing/work-2026/pronunciation-data/template.tex
-vi /tmp/tha
-vi /tmp/thb
-wdiff /tmp/tha /tmp/thb 
-wdiff /tmp/tha /tmp/thb |less
-vi tm
-mv tm fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json
-git add fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json 
-git commit -m 'onyx chat'
-cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .
-cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
-cat fe60144e-9a63-495b-bccf-f8d7ce6ccb04.json |jq .|less
-ls
-cd ~/Playing/transformers/
-git pull
-find . -name 'configuration*.py'
-find . -name 'configuration*.py'|grep -i gemma
-less ./src/transformers/models/gemma4/configuration_gemma4.py
-conda env list
-ls ~/Playing/
-grep https://dl.acm.org/doi/10.1145/3581783.3612485 site/*/*qmd
+codex
+rm 2026-05-04-braxen-compounds.ipynb 
+git add 2026-05-04-braxen-compounds.ipynb 
+git commit -m 'first parts'
+less braxen-simple-reverse.json 
+less braxen-simple-reverse.json 
+git add 2026-05-04-braxen-compounds.ipynb 
+git commit -m errata
+less braxen-simple-reverse.json 
+jupyter-server 
+git add site/reading-04-2026/papers.qmd 
+git commit -m cp
+git add site/reading-04-2026/
+git commit -m mv
+git add site/reading-04-2026/
+git commit -m refs
+git branch
 git push origin unsorted-new 
+git add site/reading-04-2026/
+git commit -m refs
+git add site/reading-04-2026/
+git commit -m refs
+echo 'Simulating Hard Attention Using Soft Attention' |tr 'A-Z' 'a-z' |tr ' ' '-'
+git add site/reading-04-2026/
+git commit -m refs
+echo 'Attention to Mamba: A Recipe for Cross-Architecture Distillation' |tr 'A-Z' 'a-z'|tr -d ':' |tr ' ' '-'
+rm to-sort/tabs_*
+mkdir site/reading-05-2026
+cp site/reading-04-2026/* site/reading-05-2026/
+git add site/reading-05-2026/
+git commit -m add
+git add site/reading-05-2026/
+git commit -m add
+git status
+cd spoken-sentence-transformers
+ls
+rm refs.html 
+rm -rf refs_files/
+cd ..
+rmdir spoken-sentence-transformers
+ls spoken-sentence-transformers-odyssey/
+ls
+git status
+git status|less
+git rm to-sort/tabs_*
+git commit -m rm
+git status
+git add local_mail/scripts/mailpit_to_obsidian.py 
+git commit -m add
+cd local_mail/
+ls
+less README.md 
+git branch
+git push origin unsorted
+git push origin unsorted-new 
+git diff
