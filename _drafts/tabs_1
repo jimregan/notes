@@ -295,7 +295,7 @@ https://arxiv.org/abs/2508.15316
 Welcome - ICNLSP
 https://www.icnlsp.org/2025welcome/
 
-Onyx
+130.237.3.105
 http://130.237.3.105:3000/app
 
 onyx/AGENTS.md at main · onyx-dot-app/onyx
@@ -423,6 +423,12 @@ https://web.archive.org/web/20000929141741/http://www.speech.kth.se/labs/analysi
 
 Internet Archive: View Archive
 https://ia801901.us.archive.org/view_archive.php?archive=/34/items/red-hat-linux-7.2-cd/Red%20Hat%20Linux%207.2%20CD1%20image_.iso
+
+red-hat-linux-7.2-cd directory listing
+https://archive.org/download/red-hat-linux-7.2-cd
+
+Internet Archive: View Archive
+https://ia601901.us.archive.org/view_archive.php?archive=/34/items/red-hat-linux-7.2-cd/Red%20Hat%20Linux%207.2%20CD2%20image_.iso
 
 google/gemma-4-E4B-it · Hugging Face
 https://huggingface.co/google/gemma-4-E4B-it
@@ -877,8 +883,8 @@ https://github.com/lingjzhu/charsiu/blob/main/experiments/masked_phone_modeling.
 Instagram
 https://www.instagram.com/
 
-Kickstart Commands
-https://legacy.redhat.com/pub/redhat/linux/7.0/tc/doc/RH-DOCS/rhl-rg-en-7.0/s1-kickstart2-commands.html
+Starting a Kickstart Installation
+https://legacy.redhat.com/pub/redhat/linux/7.0/tc/doc/RH-DOCS/rhl-rg-en-7.0/s1-kickstart2-startinginstall.html
 
 Ice cream & gelato 2026 – Visit Stockholm
 https://www.visitstockholm.com/eat-drink/cafes/cool-ice-cream-places/
@@ -964,6 +970,27 @@ https://x.com/JeffDean/status/2039748604232122707
 (1) Logan Kilpatrick on X: "Introducing Gemma 4, our series of open weight (Apache 2.0 licensed) models, which are byte for byte the most capable open models in the world! Gemma 4 is build to run on your hardware: phones, laptops, and desktops. Frontier intelligence with a 26B MOE and a 31B Dense model! https://t.co/PVtYRnKQW0" / X
 https://x.com/OfficialLoganK/status/2039735606268314071
 
+(1) Home / X
+https://x.com/home
+
+(1) Jake Gilman on X: "Scientists gave 200 married couples a voodoo doll of their spouse. They were told to add a pin every time their spouse annoyed them. After 6 weeks, one measurement predicted who stabbed it the most. And it had nothing to do with their relationship... (thread): https://t.co/yRLwDJDPSD" / X
+https://x.com/jakeglmn/status/2051421093010030981
+
+Introducing Code Wiki: Accelerating your code understanding - Google Developers Blog
+https://developers.googleblog.com/introducing-code-wiki-accelerating-your-code-understanding/
+
+(1) fabian on X: "when Claude Opus 6 tells you to "stop spiraling and go to bed" 😵‍💫 https://t.co/dgewyBECv2" / X
+https://x.com/fabianstelzer/status/2051260931758272863
+
+(1) fabian (@fabianstelzer) / X
+https://x.com/fabianstelzer
+
+(1) SilenceÇaPrompt on X: "Cet Africain a écrit un livre interactif de 680 pages sur les algorithmes CS. Les profs sont silencieux. Lien en commentaires. https://t.co/Cx3ChoT6VI" / X
+https://x.com/SilenceCaPrompt/status/2051407024290992395
+
+(1) Luz de Otoño. on X: "Dos tipos aprenden por las malas lo que sucede cuando arrojas rocas gigantes desde un puente. https://t.co/bN4CHehpgY" / X
+https://x.com/otolz_/status/2051363612107661771
+
 Google | Gemma 4 | Kaggle
 https://www.kaggle.com/models/google/gemma-4/code
 
@@ -988,10 +1015,109 @@ https://x.com/googlegemma/status/2041942389745709213
 mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.
 https://github.com/mattmireles/gemma-tuner-multimodal
 
-Receipt | Skatteverket
-https://www7.skatteverket.se/portal/privat-min-inkomstdeklaration/b918db47-3f82-41bb-805f-08fbf118fa38/kvittens
+gemma-tuner-multimodal/README/Datasets.md at main · mattmireles/gemma-tuner-multimodal
+https://github.com/mattmireles/gemma-tuner-multimodal/blob/main/README/Datasets.md
 
-New tab
-chrome://newtab/
+lora based fine tuning audio text gemma4 - Google Search
+https://www.google.com/search?q=lora+based+fine+tuning+audio+text+gemma4&rlz=1C5GCCM_en&oq=lora+based+fine+tuning+audio+text+gemma4&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAHSAQkxMDg0NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+Fine-tune Gemma in Keras using LoRA  |  Google AI for Developers
+https://ai.google.dev/gemma/docs/core/lora_tuning
+
+mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.
+https://github.com/mattmireles/gemma-tuner-multimodal
+
+Fine-Tune Gemma using Hugging Face Transformers and QloRA  |  Google AI for Developers
+https://ai.google.dev/gemma/docs/core/huggingface_text_finetune_qlora
+
+Fine-Tune Gemma for Vision Tasks using Hugging Face Transformers and QLoRA  |  Google AI for Developers
+https://ai.google.dev/gemma/docs/core/huggingface_vision_finetune_qlora
+
+jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles
+
+dockerfiles/festus/Dockerfile at main · jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles/blob/main/festus/Dockerfile
+
+jimregan/unsupseg | Docker Hub
+https://hub.docker.com/repository/docker/jimregan/unsupseg/general
+
+Image Layer Details - jimregan/unsupseg:latest
+https://hub.docker.com/repository/docker/jimregan/unsupseg/tags/latest/sha256-de6917891494b00c9fb0590d441fd8567738d6149a95695a64657f4e079936fb
+
+tclplugin rpm - Google Search
+https://www.google.com/search?q=tclplugin+rpm&sca_esv=236bc161f81c4548&rlz=1C5GCCM_en&sxsrf=ANbL-n4ghZQrYIX0F7ShJA73OqkD6ojDWg%3A1777985065112&ei=Keb5abvBBqeSwPAP_47eGA&biw=1424&bih=714&ved=0ahUKEwj7-eLBlqKUAxUnCRAIHX-HFwMQ4dUDCBE&uact=5&oq=tclplugin+rpm&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXRjbHBsdWdpbiBycG0yBBAjGCcyBBAjGCcyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FSJYTUNoBWLAMcAJ4AJABAJgBWqAB6wKqAQE1uAEDyAEA-AEBmAIHoAKFA8ICBxAjGLADGCfCAgkQABgeGA0YsAPCAgsQABgIGB4YDRiwA8ICDRAAGAgYHhgNGLADGArCAgYQABgeGA3CAgoQABgIGB4YDRgKwgIIEAAYCBgeGA3CAgsQABiABBiKBRiGA8ICBhAAGBYYHpgDAOIDBRIBMSBAiAYBkAYHkgcBN6AHtByyBwE1uAf-AsIHBTAuNS4yyAcRgAgB&sclient=gws-wiz-serp
+
+RPM resource tclplug
+https://rpmfind.net/linux/rpm2html/search.php?query=tclplug
+
+tclplug rpm spec - Google Search
+https://www.google.com/search?q=tclplug+rpm+spec&rlz=1C5GCCM_en&oq=tclplug+rpm+spec&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigATIHCAQQIRiPAtIBCDU5NTlqMGo5qAIGsAIB8QXqAMUalrIJ3g&sourceid=chrome&ie=UTF-8
+
+tclreadline-spec/tclreadline.spec at master · ray2501/tclreadline-spec
+https://github.com/ray2501/tclreadline-spec/blob/master/tclreadline.spec
+
+SunScript
+https://wiki.tcl-lang.org/page/SunScript
+
+v21.1 - Sun Script | Eevee Expo
+https://eeveeexpo.com/resources/1624/
+
+Using Tcl/Tk gui's in c/c++ programs
+https://www.cs.unc.edu/~weberh/TclTk/index.html
+
+Tcl/Tk Plugin for Netscape/IE download | SourceForge.net
+https://sourceforge.net/projects/tclplugin/
+
+tclplugin debian - Google Search
+https://www.google.com/search?sca_esv=236bc161f81c4548&rlz=1C5GCCM_en&sxsrf=ANbL-n7bu666zWD_jBu--4ur45VR5ku83w:1777985398344&q=tclplugin+debian&nfpr=1&sa=X&ved=2ahUKEwij39Xgl6KUAxXqKhAIHfusGuwQvgUoAXoECBEQAg&biw=1424&bih=714&dpr=2
+
+Deploying the TCL Plugin
+https://wiki.tcl-lang.org/page/Deploying+the+TCL+Plugin
+
+Debian -- Details of package weechat-tcl in forky
+https://packages.debian.org/forky/weechat-tcl
+
+Debian -- Package Search Results -- weechat
+https://packages.debian.org/search?keywords=weechat
+
+Obtaining the TCL Plugin
+https://wiki.tcl-lang.org/page/Obtaining+the+TCL+Plugin
+
+the rings of power - Google Search
+https://www.google.com/search?q=the+rings+of+power&rlz=1C5GCCM_en&oq=the+rings+of+&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyBwgDEAAYgAQyBggEEEUYOTIHCAUQLhiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQ4NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/reels/DX9oK2SAUxW/
+
+Instagram
+https://www.instagram.com/minamurgasova/reels/
+
+Star Wars: How Darth Maul Survived Being Cut in Half - YouTube
+https://www.youtube.com/watch?v=Vj-G0OGRsB4
+
+maori moko - Google Search
+https://www.google.com/search?q=maori+moko&rlz=1C5GCCM_en&oq=maori+moko&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMxNzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Instagram
+https://www.instagram.com/reels/DX9oK2SAUxW/
+
+gpu-machines/instructions_getting_access.md at master · socialroboticslab/gpu-machines
+https://gits-15.sys.kth.se/socialroboticslab/gpu-machines/blob/master/instructions_getting_access.md
+
+qwen3.5
+https://ollama.com/library/qwen3.5
+
+ollama qwen3.5 9b docker webui - Google Search
+https://www.google.com/search?q=ollama+qwen3.5+9b+docker+webui&sca_esv=39f50cfd4d7ec138&rlz=1C5GCCM_en&biw=1424&bih=714&sxsrf=ANbL-n69hEIPKlNiVmQqZ7RPuTb-5Dl8ng%3A1778002887450&ei=xyv6aZCVG5XbwPAPu7joiAY&ved=0ahUKEwjQlJD02KKUAxWVLRAIHTscGmEQ4dUDCBE&uact=5&oq=ollama+qwen3.5+9b+docker+webui&gs_lp=Egxnd3Mtd2l6LXNlcnAiHm9sbGFtYSBxd2VuMy41IDliIGRvY2tlciB3ZWJ1aTIFECEYoAEyBRAhGKABSIkLUMMBWJUJcAF4AZABAJgBfqABkASqAQM1LjG4AQPIAQD4AQGYAgegAqcEwgIKEAAYRxjWBBiwA8ICBxAhGAoYoAGYAwCIBgGQBgiSBwM2LjGgB6YTsgcDNS4xuAekBMIHAzAuN8gHDIAIAQ&sclient=gws-wiz-serp
+
+How do I create a Docker image containing a model? · Issue #957 · ollama/ollama
+https://github.com/ollama/ollama/issues/957
+
+Instagram
+https://www.instagram.com/
+
+Rapper Kid Cudi fires MIA from tour after ‘offensive’ Republican rant | MIA | The Guardian
+https://www.theguardian.com/music/2026/may/04/kid-cudi-fires-mia-tour-republican-rant?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGng4mBntXAGrczK-eJund5D5WQWya5ID_shvNv13xKUJ3Nl8cM4E5HmYitm3s_aem_BntsgNjECojJ1JOAYbSJig&brid=YWdncwH262vrfm86eq-BlgXZ109W
 
 
