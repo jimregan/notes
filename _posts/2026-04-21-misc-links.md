@@ -73,3 +73,5 @@ Strange paper titles:
 
 [googlecolab/colab-mcp](https://github.com/googlecolab/colab-mcp) --- An MCP server for interacting with Google Colab
 
+[Red Hat Linux 7.0 - Appendix F. Kickstart Installations](https://legacy.redhat.com/pub/redhat/linux/7.0/tc/doc/RH-DOCS/rhl-rg-en-7.0/ch-kickstart2.html)
+
