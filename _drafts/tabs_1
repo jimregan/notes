@@ -160,12 +160,6 @@ https://www.isca-archive.org/odyssey_2001/hansen01_odyssey.pdf
 ESPS/ESPS/general/src/dtw/dtw.t at master · jeremysalwen/ESPS
 https://github.com/jeremysalwen/ESPS/blob/master/ESPS/general/src/dtw/dtw.t
 
-Audio File Format Specifications
-https://www.mmsp.ece.mcgill.ca/Documents/AudioFormats/ESPS/ESPS.html
-
-Portable Software Modules for Speech Recognition
-https://aclanthology.org/H90-1088.pdf
-
 Examples using Snack
 https://www.speech.kth.se/snack/tutorial.html
 
@@ -244,17 +238,17 @@ https://github.com/kth-tmh/snack
 feat: NumPy / librosa / torchaudio interoperability for snack Python package by Copilot · Pull Request #12 · kth-tmh/snack
 https://github.com/kth-tmh/snack/pull/12/changes#diff-431c7eceb4fe9c0e5bfaa1786deb9ee0e208bac3cea8fdbf61691e85e00c7db3
 
-Agents · kth-tmh/snack
-https://github.com/kth-tmh/snack/tasks/53c2879f-8812-48e2-811e-90d360e252e1?author=jimregan
+Modernize SNACK IIR DSP core: standalone kernel, legacy bug fixes, Python/NumPy binding by Copilot · Pull Request #13 · kth-tmh/snack
+https://github.com/kth-tmh/snack/pull/13/changes/b171cce38c54a048d0b6364e999fb3aef6378417
+
+IIR filter kernel - Google Search
+https://www.google.com/search?q=IIR+filter+kernel&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
 
 Quickstart | RAGFlow
 https://ragflow.io/docs/
 
 RAGFlow
 https://ragflow.io/
-
-raw.githubusercontent.com/jimregan/dockerfiles/baf70616b3a2b1ea6ef7ba389b3c35bf160f0210/falcon-pdf-ocr/batch_ocr.py
-https://raw.githubusercontent.com/jimregan/dockerfiles/baf70616b3a2b1ea6ef7ba389b3c35bf160f0210/falcon-pdf-ocr/batch_ocr.py
 
 Next notes by jimregan · Pull Request #348 · jimregan/notes
 https://github.com/jimregan/notes/pull/348/changes#diff-0d534d36e33ad489d5bf48b18b4c2cad8ae84bcbf019adafab139388a12cf6ae
@@ -1057,67 +1051,61 @@ https://www.google.com/search?q=tclplug+rpm+spec&rlz=1C5GCCM_en&oq=tclplug+rpm+s
 tclreadline-spec/tclreadline.spec at master · ray2501/tclreadline-spec
 https://github.com/ray2501/tclreadline-spec/blob/master/tclreadline.spec
 
-SunScript
-https://wiki.tcl-lang.org/page/SunScript
-
 v21.1 - Sun Script | Eevee Expo
 https://eeveeexpo.com/resources/1624/
 
 Using Tcl/Tk gui's in c/c++ programs
 https://www.cs.unc.edu/~weberh/TclTk/index.html
 
-Tcl/Tk Plugin for Netscape/IE download | SourceForge.net
-https://sourceforge.net/projects/tclplugin/
-
-tclplugin debian - Google Search
-https://www.google.com/search?sca_esv=236bc161f81c4548&rlz=1C5GCCM_en&sxsrf=ANbL-n7bu666zWD_jBu--4ur45VR5ku83w:1777985398344&q=tclplugin+debian&nfpr=1&sa=X&ved=2ahUKEwij39Xgl6KUAxXqKhAIHfusGuwQvgUoAXoECBEQAg&biw=1424&bih=714&dpr=2
-
-Deploying the TCL Plugin
-https://wiki.tcl-lang.org/page/Deploying+the+TCL+Plugin
-
-Debian -- Details of package weechat-tcl in forky
-https://packages.debian.org/forky/weechat-tcl
-
-Debian -- Package Search Results -- weechat
-https://packages.debian.org/search?keywords=weechat
-
 Obtaining the TCL Plugin
 https://wiki.tcl-lang.org/page/Obtaining+the+TCL+Plugin
 
-the rings of power - Google Search
-https://www.google.com/search?q=the+rings+of+power&rlz=1C5GCCM_en&oq=the+rings+of+&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyBwgDEAAYgAQyBggEEEUYOTIHCAUQLhiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQ4NTlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
 Instagram
 https://www.instagram.com/reels/DX9oK2SAUxW/
-
-Instagram
-https://www.instagram.com/minamurgasova/reels/
-
-Star Wars: How Darth Maul Survived Being Cut in Half - YouTube
-https://www.youtube.com/watch?v=Vj-G0OGRsB4
-
-maori moko - Google Search
-https://www.google.com/search?q=maori+moko&rlz=1C5GCCM_en&oq=maori+moko&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDMxNzZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-Instagram
-https://www.instagram.com/reels/DX9oK2SAUxW/
-
-gpu-machines/instructions_getting_access.md at master · socialroboticslab/gpu-machines
-https://gits-15.sys.kth.se/socialroboticslab/gpu-machines/blob/master/instructions_getting_access.md
-
-qwen3.5
-https://ollama.com/library/qwen3.5
-
-ollama qwen3.5 9b docker webui - Google Search
-https://www.google.com/search?q=ollama+qwen3.5+9b+docker+webui&sca_esv=39f50cfd4d7ec138&rlz=1C5GCCM_en&biw=1424&bih=714&sxsrf=ANbL-n69hEIPKlNiVmQqZ7RPuTb-5Dl8ng%3A1778002887450&ei=xyv6aZCVG5XbwPAPu7joiAY&ved=0ahUKEwjQlJD02KKUAxWVLRAIHTscGmEQ4dUDCBE&uact=5&oq=ollama+qwen3.5+9b+docker+webui&gs_lp=Egxnd3Mtd2l6LXNlcnAiHm9sbGFtYSBxd2VuMy41IDliIGRvY2tlciB3ZWJ1aTIFECEYoAEyBRAhGKABSIkLUMMBWJUJcAF4AZABAJgBfqABkASqAQM1LjG4AQPIAQD4AQGYAgegAqcEwgIKEAAYRxjWBBiwA8ICBxAhGAoYoAGYAwCIBgGQBgiSBwM2LjGgB6YTsgcDNS4xuAekBMIHAzAuN8gHDIAIAQ&sclient=gws-wiz-serp
-
-How do I create a Docker image containing a model? · Issue #957 · ollama/ollama
-https://github.com/ollama/ollama/issues/957
 
 Instagram
 https://www.instagram.com/
 
-Rapper Kid Cudi fires MIA from tour after ‘offensive’ Republican rant | MIA | The Guardian
-https://www.theguardian.com/music/2026/may/04/kid-cudi-fires-mia-tour-republican-rant?utm_source=instagramstories&utm_campaign=guardian_igstories&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGng4mBntXAGrczK-eJund5D5WQWya5ID_shvNv13xKUJ3Nl8cM4E5HmYitm3s_aem_BntsgNjECojJ1JOAYbSJig&brid=YWdncwH262vrfm86eq-BlgXZ109W
+Redhat72 by jimregan · Pull Request #33 · jimregan/dockerfiles
+https://github.com/jimregan/dockerfiles/pull/33/changes
+
+QEMU - noVNC
+http://130.237.3.106:6080/vnc.html
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=14007&bare=1
+
+Get Published! Author Workshop - 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
+https://2026.ieeeicassp.org/get-published-workshop/
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1315&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1000&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1277&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1366&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1318&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1259&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1264&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1265&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1370&bare=1
+
+IEEE ICASSP 2026 || Barcelona, Spain || 4-8 May 2026
+https://www.cmsworkshops.com/ICASSP2026/view_session.php?SessionID=1404&bare=1
 
 
