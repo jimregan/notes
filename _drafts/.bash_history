@@ -1,4 +1,3 @@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
 rm *story*
 unzip -l /Users/joregan/Downloads/Sc-20260409T105146Z-3-001.zip 
 unzip -l /Users/joregan/Downloads/Sc-20260409T110110Z-3-001.zip 
@@ -498,3 +497,4 @@ git branch
 git push origin unsorted
 git push origin unsorted-new 
 git diff
+ls ~/Playing/work-2026/writing/LRE\ -\ Phonetic\ corpus/old-towards 
