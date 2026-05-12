@@ -77,4 +77,7 @@ Strange paper titles:
 
 [libAudioFlux/audioFlux](https://github.com/libAudioFlux/audioFlux) --- A library for audio and music analysis, feature extraction.
 
+[Optimizing ASR Models with Semantic Information](https://link.springer.com/chapter/10.1007/978-3-032-02548-7_3)
+
+[VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://openreview.net/forum?id=xm6YD62D1Ub)
 
