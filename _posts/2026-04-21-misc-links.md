@@ -75,3 +75,6 @@ Strange paper titles:
 
 [Red Hat Linux 7.0 - Appendix F. Kickstart Installations](https://legacy.redhat.com/pub/redhat/linux/7.0/tc/doc/RH-DOCS/rhl-rg-en-7.0/ch-kickstart2.html)
 
+[libAudioFlux/audioFlux](https://github.com/libAudioFlux/audioFlux) --- A library for audio and music analysis, feature extraction.
+
+
