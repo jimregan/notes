@@ -81,3 +81,9 @@ Strange paper titles:
 
 [VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning](https://openreview.net/forum?id=xm6YD62D1Ub)
 
+[Bridging the linguistic divide: a survey on leveraging large language models for machine translation](https://link.springer.com/article/10.1007/s10579-026-09919-7)
+
+[Aratox: a multi-dialect, multi-label arabic dataset and model benchmark for toxicity detection](https://link.springer.com/article/10.1007/s10579-026-09917-9)
+
+[Top 12 90s DEATH METAL Riffs](https://www.youtube.com/watch?v=uBV-SHuu4Ss)
+
