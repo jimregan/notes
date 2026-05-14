@@ -1,3 +1,38 @@
+---
+toc: false
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English
+categories: [chatgpt, summary]
+---
+
+[paper](https://link.springer.com/chapter/10.1007/978-3-032-00972-2_20),
+[arXiv](https://arxiv.org/abs/2508.19270)
+
+```bibtex
+@InProceedings{nguyen2026whisper,
+author="Nguyen, Huu Nhat Minh
+and Tran, Nguyen Anh
+and Truong, Dinh Dung
+and Vo, Van Nam
+and Le, Pham Tuyen",
+editor="Nguyen, Ngoc Thanh
+and Huynh, Cong-Phap
+and Nguyen, Thanh Thuy
+and Le-Khac, Nhien-An
+and Seng, Sopheap
+and Nguyen, Quang-Vu",
+title="Whisper Based Cross-Lingual Phoneme Recognition Between Vietnamese and English",
+booktitle="The 14th Conference on Information Technology and its Applications",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="259--271",
+isbn="978-3-032-00972-2"
+}
+```
+
 This paper proposes a bilingual phoneme-recognition system for Vietnamese and English, specifically targeting the messiness of real-world “Vietlish” speech: English words pronounced with Vietnamese phonology, mixed-language utterances, and code-switching. 
 
 The core problem the authors tackle is that Vietnamese and English encode pronunciation very differently. Vietnamese is tonal, meaning pitch changes alter meaning, while English relies more on stress, rhythm, and irregular pronunciation. Existing multilingual ASR systems — including Whisper-derived systems — struggle when Vietnamese speakers insert English words into speech or pronounce English using Vietnamese phonetic patterns. 
