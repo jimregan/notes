@@ -89,5 +89,9 @@ Strange paper titles:
 
 [NVlabs/Jet-Nemotron](https://github.com/NVlabs/Jet-Nemotron)
 
-[Toldi](https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/arany/telso.htm)
+[Toldi](https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/arany/telso.htm),
+[audio](https://web.archive.org/web/20200105102519/http://mek.oszk.hu/03300/03309/mp3/)
+
+[Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English](https://link.springer.com/chapter/10.1007/978-3-032-00972-2_20),
+[arXiv](https://arxiv.org/abs/2508.19270)
 
