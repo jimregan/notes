@@ -87,3 +87,7 @@ Strange paper titles:
 
 [Top 12 90s DEATH METAL Riffs](https://www.youtube.com/watch?v=uBV-SHuu4Ss)
 
+[NVlabs/Jet-Nemotron](https://github.com/NVlabs/Jet-Nemotron)
+
+[Toldi](https://magyar-irodalom.elte.hu/sulinet/igyjo/setup/portrek/arany/telso.htm)
+
