@@ -136,4 +136,12 @@ Strange paper titles:
 
 [Multilingual text analysis for text-to-speech synthesis](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/multilingual-text-analysis-for-texttospeech-synthesis/C7CD4AC0020A014A2DF614DC45486CB5)
 
+[How To Become a Mathematical Genius](https://www.butthistime.com/p/how-to-become-a-mathematical-genius)
+
+[Personal Exceptionalism: why knowing you’re the exception to the rule matters](https://joinef.substack.com/p/personal-exceptionalism-why-knowing)
+1. Take on insane goals (that stretch beyond skill/experience level)
+2. Break the rules
+3. Be resilient
+4. Push themselves
+5. Upside thinking
 
