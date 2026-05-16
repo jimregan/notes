@@ -145,3 +145,8 @@ Strange paper titles:
 4. Push themselves
 5. Upside thinking
 
+[Laminate](https://laminatemusic.bandcamp.com/album/laminate),
+[Immodium](https://immodiummusic.bandcamp.com/album/ep-other-bits)
+
+[Spectral Embedding and Laplacian Eigenmaps](https://www.youtube.com/watch?v=rYxGfa8ZSoM)
+
