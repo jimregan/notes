@@ -124,3 +124,16 @@ Strange paper titles:
 
 [deepinsight/insightface](https://github.com/deepinsight/insightface)
 
+[LRE Journal - template](https://link.springer.com/journal/10579/updates/17234296),
+[overleaf](https://www.overleaf.com/org/springer/journal/LREV) (broken link);
+[Wayback](https://web.archive.org/web/20231208213302/https://www.overleaf.com/latex/templates/springer-nature-latex-template/myxmhdsbzkyd)
+
+[Submission guidelines](https://link.springer.com/journal/10579/submission-guidelines)
+
+[The NeWMe corpus: a gold standard corpus for the study of word meaning negotiation](https://link.springer.com/article/10.1007/s10579-026-09907-x)
+
+[The Kestrel TTS text normalization system](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/kestrel-tts-text-normalization-system/F0C18A3F596B75D83B75C479E23795DA)
+
+[Multilingual text analysis for text-to-speech synthesis](https://www.cambridge.org/core/journals/natural-language-engineering/article/abs/multilingual-text-analysis-for-texttospeech-synthesis/C7CD4AC0020A014A2DF614DC45486CB5)
+
+
