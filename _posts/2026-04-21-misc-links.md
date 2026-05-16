@@ -95,3 +95,14 @@ Strange paper titles:
 [Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English](https://link.springer.com/chapter/10.1007/978-3-032-00972-2_20),
 [arXiv](https://arxiv.org/abs/2508.19270)
 
+[VICReg Pytorch](https://github.com/facebookresearch/vicreg) (official),
+[Jax](https://github.com/BalajiAI/VICReg)
+
+[facebookresearch/sam2](https://github.com/facebookresearch/sam2)
+
+[IDEA-Research/DWPose](https://github.com/IDEA-Research/DWPose)
+
+[lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet)
+
+[How to Generate Text in One Step](https://one-step-lm.github.io/blog/)
+
