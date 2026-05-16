@@ -106,3 +106,7 @@ Strange paper titles:
 
 [How to Generate Text in One Step](https://one-step-lm.github.io/blog/)
 
+[antirez/qwen-asr](https://github.com/antirez/qwen-asr) --- C inference for Qwen3-ASR 0.6b and 1.7b transcriptions models
+
+[antirez/sds](https://github.com/antirez/sds) --- Simple Dynamic Strings library for C
+
