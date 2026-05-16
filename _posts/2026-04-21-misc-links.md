@@ -110,3 +110,17 @@ Strange paper titles:
 
 [antirez/sds](https://github.com/antirez/sds) --- Simple Dynamic Strings library for C
 
+[IEMOCAP](https://sail.usc.edu/iemocap/),
+[Kaggle](https://www.kaggle.com/datasets/dejolilandry/iemocapfullrelease),
+[HF](https://huggingface.co/datasets/jjuik2014/phys-private/tree/main)
+
+[ljuvela/GlotNet](https://github.com/ljuvela/GlotNet)
+
+[ljuvela/SourceFilterNeuralFormants](https://github.com/ljuvela/SourceFilterNeuralFormants) --- Neural formant synthesis using differtiable resonant filters and source-filter model structure.
+
+[HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters](https://arxiv.org/abs/2409.14823),
+[code](https://github.com/PupuAI/HiFi-Glot),
+[model](https://huggingface.co/Aalto-Speech-Synthesis/HiFi-Glot)
+
+[deepinsight/insightface](https://github.com/deepinsight/insightface)
+
