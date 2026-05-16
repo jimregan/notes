@@ -11,6 +11,8 @@ categories: [chatgpt, summary]
 
 [arXiv](https://arxiv.org/abs/2105.04906)
 
+[official implementation](https://github.com/facebookresearch/vicreg)
+
 ```bibtex
 @inproceedings{
 bardes2022vicreg,
