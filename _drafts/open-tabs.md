@@ -32,5 +32,11 @@
 ## ✏️ Sketching Supplies
 
 - [Best Pencil Brands for Drawing and Sketching — Anna Bregman Portraits](https://www.annabregmanportraits.co.uk/project/pencil-brands-review/)
-- [Caran d'Ache Graphite Line — Google Search](https://www.google.com/search?q=graphite+line+caran+d+ache&rlz=1C5GCCM_en)
+- [Caran d'Ache Graphite Line](https://www.carandache.com/ch/en/graphite-line-s-1088.htm)
+
+## Misc
+
+- [Kerbdog - Manchester Academy 28/11/93](https://www.youtube.com/watch?v=Ptplfbd-zuY)
+- [Inference Engines for LLMs & Local AI Hardware](https://x.com/TheAhmadOsman/status/2057183854444843202)
+- [GPU Memory Math for LLMs](https://x.com/TheAhmadOsman/status/2040103488714068245)
 
