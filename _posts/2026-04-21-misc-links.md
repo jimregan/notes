@@ -150,3 +150,12 @@ Strange paper titles:
 
 [Spectral Embedding and Laplacian Eigenmaps](https://www.youtube.com/watch?v=rYxGfa8ZSoM)
 
+[Blending Supervised and Reinforcement Fine-Tuning with Prefix Sampling](https://arxiv.org/abs/2507.01679),
+[code](https://github.com/ZeroYuHuang/prefix_rft)
+
+[Streaming Speech-to-Text Translation with a SpeechLLM](https://arxiv.org/abs/2605.14766)
+
+[NVlabs/Sana](https://github.com/NVlabs/Sana) --- Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer. --- Code is open, models are not.
+
+[Wikipedia volunteers spent years cataloging AI tells. Now there’s a plugin to avoid them.](https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/),
+[code](https://github.com/blader/humanizer)
