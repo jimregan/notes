@@ -159,3 +159,6 @@ Strange paper titles:
 
 [Wikipedia volunteers spent years cataloging AI tells. Now there’s a plugin to avoid them.](https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/),
 [code](https://github.com/blader/humanizer)
+
+[ericcurtin/wayoa](https://github.com/ericcurtin/wayoa)
+
