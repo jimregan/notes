@@ -88,8 +88,8 @@ https://venturebeat.com/ai/baidu-just-dropped-an-open-source-multimodal-ai-that-
 sam-3d-body/LICENSE at main · facebookresearch/sam-3d-body · GitHub
 https://github.com/facebookresearch/sam-3d-body/blob/main/LICENSE
 
-[2509.19567] Retrieval Augmented Generation based context discovery for ASR
-https://arxiv.org/abs/2509.19567
+CB-RAG Path Implementation
+https://chatgpt.com/c/6a097256-7a04-83eb-8ce7-5df31c58ad30
 
 [2506.05706] Bridging the Modality Gap: Softly Discretizing Audio Representation for LLM-based Automatic Speech Recognition
 https://arxiv.org/abs/2506.05706
@@ -130,7 +130,7 @@ https://github.com/cisean/barcode_database
 Models you HAVE to Know About -> AI 101 Recap
 https://www.turingpost.com/p/models2recap
 
-arxiv.org/pdf/2509.17988v1
+Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech
 https://arxiv.org/pdf/2509.17988v1
 
 The Roadmap of Mathematics for Machine Learning
@@ -174,9 +174,6 @@ https://claude.ai/chat/f71f7156-d11c-44c1-ac3d-c1434ecfe412
 
 microsoft/VibeVoice-ASR · Hugging Face
 https://huggingface.co/microsoft/VibeVoice-ASR
-
-Wikipedia volunteers spent years cataloging AI tells. Now there's a plugin to avoid them. - Ars Technica
-https://arstechnica.com/ai/2026/01/new-ai-plugin-uses-wikipedias-ai-writing-detection-rules-to-help-it-sound-human/
 
 Paul McKenna: I Can Change Your Life, Sky One - The Custard TV
 https://www.thecustardtv.com/paul-mckenna-i-can-change-your-life-sky/
@@ -253,8 +250,23 @@ https://x.com/jm_alexia/status/2015458368375103870
 Issues · zartbot/blog · GitHub
 https://github.com/zartbot/blog/issues
 
-GitHub - ysharma3501/LuxTTS: A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.
+ysharma3501/LuxTTS: A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.
 https://github.com/ysharma3501/LuxTTS
+
+k2-fsa/ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching
+https://github.com/k2-fsa/ZipVoice
+
+[2507.09318] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
+https://arxiv.org/abs/2507.09318
+
+ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
+https://arxiv.org/pdf/2507.09318
+
+k2 - Next-gen Kaldi
+https://k2-fsa.org/get-started/k2/
+
+k2-fsa/ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching
+https://github.com/k2-fsa/ZipVoice
 
 7 learnings from Anders Hejlsberg: The architect behind C# and TypeScript - The GitHub Blog
 https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/
@@ -1567,10 +1579,10 @@ https://www.kdnuggets.com/5-small-language-models-for-agentic-tool-calling
 Qwen-Agent - Qwen
 https://qwen.readthedocs.io/en/latest/framework/qwen_agent.html
 
-GitHub - QwenLM/Qwen-Agent: Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc. · GitHub
+QwenLM/Qwen-Agent: Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.
 https://github.com/QwenLM/Qwen-Agent
 
-Qwen-Agent/examples/assistant_qwen3.5.py at main · QwenLM/Qwen-Agent · GitHub
+Qwen-Agent/examples/assistant_qwen3.5.py at main · QwenLM/Qwen-Agent
 https://github.com/QwenLM/Qwen-Agent/blob/main/examples/assistant_qwen3.5.py
 
 Index | Qwen Agent
@@ -1600,22 +1612,10 @@ https://www.burgerdudes.se/the-worlds-best-burgers/
 bytedance/UI-TARS: Pioneering Automated GUI Interaction with Native Agents
 https://github.com/bytedance/ui-tars
 
-NVlabs/Sana: SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer
-https://github.com/NVlabs/Sana
-
-Model Zoo - Sana Documentation
-https://nvlabs.github.io/Sana/docs/model_zoo/#4-int4-inference
-
-Sana - a Efficient-Large-Model Collection
-https://huggingface.co/collections/Efficient-Large-Model/sana
-
 Karma
 https://store.beta.karma.life/tengu/confirmation?purchaseIntentId=a654c9b0-0bcc-45b7-90e7-00314454d4dc&tabId=50b53a26-b561-47fa-8628-6fd86822a84b&usedStoredPaymentMethodId=null&usedUuid=null&currentDefaultStoredMethodId=null&flow=components&paymentMethodKind=card&swishPayerAlias=null
 
-Doughnuts | Doughnut Disturb
-https://www.doughnutdisturb.se/menus
-
-Streaming Speech-to-Text Translation with a SpeechLLM
-https://arxiv.org/pdf/2605.14766
+Matcha-TTS: A fast TTS architecture with conditional flow matching
+https://arxiv.org/pdf/2309.03199
 
 
