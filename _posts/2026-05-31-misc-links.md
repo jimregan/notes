@@ -16,3 +16,11 @@ categories: [links]
 
 [JSALT2024/slt-demo](https://github.com/JSALT2024/slt-demo) --- Sign Language Recognition - Gradio web app for Video to Caption
 
+[orangeduck/BVHView](https://github.com/orangeduck/BVHView)
+
+[Interpreting Language Model Parameters](https://www.goodfire.ai/research/interpreting-lm-parameters)
+
+{% twitter https://x.com/AnatoliKopadze/status/2056362875195686927 %}
+
+[Odyssey 2026 Schedule](https://odyssey2026.inesc-id.pt/the-full-schedule/)
+
