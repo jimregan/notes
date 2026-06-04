@@ -1,39 +1,3 @@
-claude 
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep23
-ssh sbtaldeep22
-ssh sbtaldeep23
-cd ~/Playing/work-2026/writing/
-ls
-ls *space*
-vi Redsofa\ disk\ space.md 
-git add  Redsofa\ disk\ space.md 
-git commit -m update
-cd ~/Playing/spoken-sentence-transformers/
-codex 
-cd /tmp
-scp tmh@redsofa1:Documents/Zoom/2023-10-09\\\ 12.56.01\\\ GENEA\\\ 2023.zip .
-unzip 2023-10-09\ 12.56.01\ GENEA\ 2023.zip 
-ffplay 2023-10-09\ 12.56.01\ GENEA\ 2023/video1753935236.mp4 
-ffplay 2023-10-09\ 12.56.01\ GENEA\ 2023/video2753935236.mp4 
-ls
-scp tmh@redsofa1:Desktop/melvinlu.zip .
-git clone git@gist.github.com:afcef7548f49e3b76f9da066282e8bdd.git melvinlu
-cd melvinlu/
-unzip ../melvinlu.zip 
-mv melvinlu/Experiment/.ipynb_checkpoints/ .
-mv melvinlu/Experiment/*nb .
-mv melvinlu/Experiment/neumf.yaml .
-mv melvinlu/Experiment/hyper.test .
-ls
-ls -al
-git add .ipynb_checkpoints/
-git add boksnok-rs.ipynb 
-git add data.ipynb 
-git add *nb
-git status
-git add hyper.test neumf.yaml 
 git commit -m 'add basic'
 git rm -r .ipynb_checkpoints/
 git commit -m rm
@@ -498,3 +462,39 @@ git commit -m more
 git add ../_posts/2026-04-21-misc-links.md 
 git commit -m cvt
 git diff
+cd ~/Playing/work-2026/
+ls
+cd align_librivox/
+ls
+less split_text.py 
+codex
+codex
+codex app
+git status
+git diff
+git add split_text.py 
+git mv split_text.py split_html.py
+git commit -m 'split_text was useless, split HTML instead'
+git diff
+git add split_html.py 
+git commit -m 'update usage'
+git gc
+git branch
+git push origin unsorted-sorting 
+git diff
+git add ../writing/
+git commit -m update
+git diff
+git diff
+git add split_html.py 
+git commit -m simplify
+rm ../.git/gc.log 
+git gc
+git push origin unsorted-sorting 
+git diff
+git diff
+git add split_html.py 
+git commit -m 'heuristic for non-chapters that use <div class="chapter">'
+git diff
+git add split_html.py 
+git commit -m 'make match configurable'
