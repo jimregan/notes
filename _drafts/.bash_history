@@ -1,500 +1,500 @@
-rm *story*
-unzip -l /Users/joregan/Downloads/Sc-20260409T105146Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260409T110110Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm Scr* *story* 
-cd -
-scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
-mv S[sc]*.zip ~/backup/m12feb26/
-ls *cv*gz
-scp 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz sbtaldeep23:
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-unzip -l /Users/joregan/Downloads/Sc-20260410T134243Z-3-001.zip 
-cd 0
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm Scr* *story* 
-cd -
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-10\ at\ 16.05.21.png 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm Scr* *story* 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_6apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-unzip -l Sc-20260412T120727Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm *story*
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.41.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 19.44.38.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.30.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.50.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.06.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.28.19.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.11.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.27.17.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.47.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.57.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 16.26.37.png 
-unzip -l /Users/joregan/Downloads/Sc-20260412T190313Z-3-001.zip 
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-11\ at\ 20.00.52.png 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc-20260412T190313Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260413T105654Z-3-001.zip 
-unzip -l Sc-20260413T110529Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-unzip -l Ss-20260413T121403Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls *cv*
-tar ztvf 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz 
-scp 1774204038670-cv-corpus-25.0-2026-03-09-sv-SE.tar.gz deepflow:/shared/datasets/Common_Voice_Swedish_25/cv-corpus-25.0-2026-03-09-sv-SE.tar.gz
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_11apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc-20260418T152401Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260418T162936Z-3-002.zip 
-rm  /Users/joregan/Downloads/Sc-20260418T162936Z-3-002.zip 
-rm  /Users/joregan/Downloads/Sc-20260418T163020Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260418T163340Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260418T163020Z-3-002.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-unzip -l /Users/joregan/Downloads/Sc-20260418T164701Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-unzip -l /Users/joregan/Downloads/uv7swre.zip 
-file /Users/joregan/Downloads/uv7swre/unix_v7_rl.dsk 
-less /Users/joregan/Downloads/uv7swre/unix_v7_rl.dsk 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-unzip -l /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm *story*
-ls
-cat /Users/joregan/Desktop/citations-20260420T192716.bibtex 
-cat /Users/joregan/Desktop/citations-20260420T192911.bibtex 
-cat /Users/joregan/Desktop/citations-20260420T193022.bibtex 
-rm /Users/joregan/Desktop/citations-20260420T193022.bibtex /Users/joregan/Desktop/citations-20260420T192716.bibtex /Users/joregan/Desktop/citations-20260420T192911.bibtex 
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.18.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.05.43.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.21.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.06.54.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.05.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.58.57.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.00.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.59.01.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.05.50.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 23.19.20.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.48.16.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.36.36.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.34.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.46.43.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.36.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.29.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.46.40.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.35.48.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.34.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.33.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.33.01.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.38.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.08.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.32.55.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.26.16.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.56.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.51.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.26.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.44.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.22.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.28.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.20.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.17.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.11.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.09.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.15.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.25.14.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.12.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.55.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.13.47.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.03.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.02.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.15.06.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.14.42.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 22.13.23.png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 19.34.09\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 19.34.03\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.37\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.40\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-19\ at\ 17.41.56\ \(2\).png 
-rm /Users/joregan/Desktop/Screenshot\ 2026-04-17\ at\ 16.55.58.png /Users/joregan/Desktop/Screenshot\ 2026-04-17\ at\ 14.03.27.png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.55.54\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.12\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.21\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.55.57\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.56.03\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.25\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.44.05\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.42\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.47\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.36\ \(2\).png /Users/joregan/Desktop/Screenshot\ 2026-04-14\ at\ 11.31.15.png /Users/joregan/Desktop/Screenshot\ 2026-04-16\ at\ 19.43.32\ \(2\).png 
-cd ../Desktop/
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_16apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc-20260421T191419Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260422T050813Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260422T054525Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260422T062552Z-3-001.zip 
-unzip -l /Users/joregan/Downloads/Sc-20260422T063221Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-tar ztvf nico_v1.1.tar.gz 
-tar zxvf nico_v1.1.tar.gz 
-ls NICO_1-1/
-less NICO_1-1/tools/CreateNet.c 
-less NICO_1-1/speech-example/make_timit_links 
-less NICO_1-1/speech-example/phoneme_set 
-less NICO_1-1/lib/RTDNN.c 
-less NICO_1-1/lib/AudioData.c 
-less NICO_1-1/lib/StdHead.c 
-less NICO_1-1/lib/StdHead.h
-cd ~/Playing/pygramadan/
-ls
-git branch -a
-cd -
-ls
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_21apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-cd ../Desktop/
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-cd -
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc25apr26-1.zip 
-unzip -l /Users/joregan/Downloads/Sc25apr26-2.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc-20260428T082358Z-3-001.zip 
-scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
-scp S[sc]*zip sbtaldeep22:.srv/m12feb26/
-mv S[sc]*.zip ~/backup/m12feb26/
-unzip -l /Users/joregan/Downloads/deepseek_data-2026-04-28.zip 
-rm -rf /Users/joregan/Downloads/deepseek_data-2026-04-28 
-unzip -l  /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_24apr26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/Sc-20260503T065206Z-3-001.zip 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-less ~/.ssh/config
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-unzip -l /Users/joregan/Downloads/spoken_sentence_transformers_odyssey.zip 
-less ~/Playing/braxen/dict/braxen-sv.tsv 
-echo $HOME/Playing/braxen/dict/braxen-sv.tsv 
-echo $HOME/Playing/braxen/dict/braxen-sv.tsv 
-less ~/Playing/braxen/dict/braxen-sv.tsv 
-less ~/Playing/braxen/dict/braxen-sv.tsv 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-cd ../Desktop/
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm Scr* *story* 
-cd -
-ls Scr* *story* tvpresenters_3888979844817646860.jpg  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm zsuzsa_szekely\'s2026-5-5-12.12.749\ story.mp4 tvpresenters_3888979844817646860.jpg 
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm *story*
-ls 675450064_18582445021065447_6210305290152450059_n.jpg AQ*.mp4  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm 675450064_18582445021065447_6210305290152450059_n.jpg AQ*.mp4  
-ls Scr* *story*  | zip /Users/joregan/backup/m5jan26/Ss_2may26-1.zip -@
-rm *story*
-git diff
-git add writing/
-git commit -m add
-git add gutenberg-scraper.py 
-git commit -m 'rewritten'
-git diff
-git diff
-git diff
-less extract-index-json.py 
-mkdir ~/Playing/librivox_mult/json
-python3 extract-index-json.py ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
-less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-by-emily-bronte/index.json
-git add extract-index-json.py 
-git commit -m add
-less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-by-emily-bronte/index.json
-less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-dramatic-reading-by-emily-bronte/index.json 
-git diff
-python3 extract-index-json.py ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
-python3 extract-index-json.py --overwrite ~/Playing/librivox_mult/index --outdir ~/Playing/librivox_mult/json
-less /Users/joregan/Playing/librivox_mult/json/wuthering-heights/wuthering-heights-dramatic-reading-by-emily-bronte/index.json 
-git diff
-git add gutenberg-scraper.py 
-git commit -m 'track reader ID'
-ls
-git didf
-ls *.py
-less gutenberg-scraper.py 
-mkdir ebook
-less gutenberg-scraper.py 
-python gutenberg-scraper.py ~/Playing/librivox_mult/index/ ebook/
-python gutenberg-scraper.py ~/Playing/librivox_mult/index/ --outdir ebook/
-ls ebook/
-less ebook/gutenberg-19994.html 
-git diff
-git add align-html/ align_whisper/
-git commit -m 'update alignment'
-python align-html/parse_index.py ebook/gutenberg-2.html 
-python align-html/parse_index.py --html ebook/gutenberg-2.html 
-pip install lxml
-python align-html/parse_index.py --html ebook/gutenberg-2.html 
-less book_config.yaml 
-python align-html/parse_index.py --html ebook/gutenberg-280.html 
-less book_config.yaml 
-rm book_config.yaml 
-python align-html/parse_index.py --html ebook/gutenberg-2554.html 
-less book_config.yaml 
-less align-html/parse_index.py 
-python align-html/parse_index.py --html ~/Playing/librivox_mult/index/journey-to-the-centre-of-the-earth/journey-into-the-interior-of-the-earth-jules-verne/index.html 
-less book_config.yaml 
-git add align-html/ align_whisper/
-git commit -m 'update alignment'
-less ebook/gutenberg-19994.html 
-less ebook/gutenberg-29345.html 
-less ebook/gutenberg-1837.html 
-python align-html/split_text.py ebook/gutenberg-1837.html
-less align-html/split_text.py 
-less book_config.yaml 
-cd /tmp
-unzip -l /Users/joregan/Downloads/tclplugin.zip 
-ssh redsofa4
-ssh deepwave 
-ssh deepflow 
-cd ~/Playing/gpu-admin/
-git pull
-vi users.json
-git add users.json
-git commit -m "new postdoc"
-git push 
-python admin.py sync-users
-reset
-less ~/.ssh/config
-ssh sbtaldeep21
+claude 
+ssh sbtaldeep23
+ssh sbtaldeep23
+ssh sbtaldeep23
 ssh sbtaldeep22
-less ~/Playing/gpu-admin/README.md 
-ssh sbtaldeep21
-ping 130.237.3.105
-less ~/Playing/gpu-admin/README.md 
-ping 130.237.3.105
-ssh sbtaldeep21
-ping 130.237.3.105
-ssh 130.237.3.105
-ssh 130.237.3.105
-less ~/Playing/gpu-admin/README.md 
-ssh 130.237.3.105
-ping 130.237.3.105
-traceroute 130.237.3.105
-ping 130.237.3.105
-ssh 130.237.3.105
-ssh 130.237.3.105
-ssh 130.237.3.105
-ping 130.237.3.105
-cd ~/.claude/
+ssh sbtaldeep23
+cd ~/Playing/work-2026/writing/
+ls
+ls *space*
+vi Redsofa\ disk\ space.md 
+git add  Redsofa\ disk\ space.md 
+git commit -m update
+cd ~/Playing/spoken-sentence-transformers/
+codex 
+cd /tmp
+scp tmh@redsofa1:Documents/Zoom/2023-10-09\\\ 12.56.01\\\ GENEA\\\ 2023.zip .
+unzip 2023-10-09\ 12.56.01\ GENEA\ 2023.zip 
+ffplay 2023-10-09\ 12.56.01\ GENEA\ 2023/video1753935236.mp4 
+ffplay 2023-10-09\ 12.56.01\ GENEA\ 2023/video2753935236.mp4 
+ls
+scp tmh@redsofa1:Desktop/melvinlu.zip .
+git clone git@gist.github.com:afcef7548f49e3b76f9da066282e8bdd.git melvinlu
+cd melvinlu/
+unzip ../melvinlu.zip 
+mv melvinlu/Experiment/.ipynb_checkpoints/ .
+mv melvinlu/Experiment/*nb .
+mv melvinlu/Experiment/neumf.yaml .
+mv melvinlu/Experiment/hyper.test .
+ls
+ls -al
+git add .ipynb_checkpoints/
+git add boksnok-rs.ipynb 
+git add data.ipynb 
+git add *nb
+git status
+git add hyper.test neumf.yaml 
+git commit -m 'add basic'
+git rm -r .ipynb_checkpoints/
+git commit -m rm
+git push 
+cd ..
+rm -rf melvinlu
+rm melvinlu.zip 
+ls
+rm 2023-10-09\ 12.56.01\ GENEA\ 2023.zip 
+rm -rf 2023-10-09\ 12.56.01\ GENEA\ 2023/
+git clone git@gist.github.com:3d179bbd8a9d3c816df819f12b323e32.git old-envs
+cd old-envs/
+ls
+vi runner.sh 
+scp  runner.sh redsofa2:
+scp redsofa2:old-envs/* .
+git add .
+git commit -m redsofa2
+git push
+cd ..
+scp redsofa2:/tmp/glow-n.diff
+scp redsofa2:/tmp/glow-n.diff .
+less glow-n.diff 
+git clone git@gist.github.com:f6e2e8b7ceea02f3a8b6b5140e19defb.git
+cd f6e2e8b7ceea02f3a8b6b5140e19defb/
+mv ../glow-n.diff .
+git add glow-n.diff 
+git commit -m add
+git push
+scp redsofa2:/home/kildo/glow-n/data/* .
+git add test.csv train.csv 
+git commit -m /home/kildo/glow-n/data
+scp redsofa2:/home/kildo/glow-n/data/* .
+git diff
+git status
+git add INVE-B*
+git commit -m /home/kildo/glow/data
+scp redsofa2:/tmp/glow.diff
+scp redsofa2:/tmp/glow.diff .
+git add glow.diff 
+git commit -m 'glow diff'
+git status
+git push
+pwd
+ls
+cd ..
+rm -rf f6e2e8b7ceea02f3a8b6b5140e19defb/
+ls
+cd old-envs/
+ls
+git status
+git diff
 git log
-git push 
-git diff
-git add projects/-Users-joregan-Playing-work-2026/87a616ee-ce3f-4fdd-b6b7-8f976b89739a.jsonl history.jsonl 
-git diff
-git add sessions/ shell-snapshots/
-git diff
-git add telemetry/
-git dif
-git diff
+df -h
+ls m*/Sc-20260426T201843Z-3-001.zip
+ls
+cat ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/todel |while read i;do rm ./m*/$i;done
+ls m*/Ss_20may26-1.zip
+ls m*/Ss_18may26-1.zip
+rm m5jan26/Ss_18may26-1.zip 
+rm m5jan26/Ss_6may26-1.zip 
+ls m5jan26/Ss_12may26-1.zip 
+rm m5jan26/Ss_12may26-1.zip 
+rm m5jan26/Ss_2may26-1.zip 
+du -sh m5jan26/Ss_11apr26-1.zip 
+rm  m5jan26/Ss_11apr26-1.zip 
+rm  m5jan26/Ss_16apr26-1.zip 
+cat ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/todel |while read i;do rm ./m*/$i;done
+ls m5jan26/
+unzip -l m5jan26/Ss_16may26-1.zip 
+unzip -l m5jan26/Ss_16may26-1.zip |grep Scr
+rm m5jan26/Ss_16may26-1.zip 
+ls m5jan26/
+rm m5jan26/Ss_1apr26-1.zip 
+rm m5jan26/Ss_21apr26-1.zip 
+rm m5jan26/Ss_4apr26-1.zip 
+rm m5jan26/Ss_6apr26-1.zip 
+echo *ids*
+less ids
+less ffs-ids 
+les last-ids 
+less last-ids 
+df -h
+for i in *;do if [ -e $i/id ];then printf "%s\t%s\n" $i $(cat $i/id);fi;done
+ls
+less id_mapping 
+for i in *;do if [ -e $i/id ];then printf "%s\t%s\n" $i $(cat $i/id);fi;done > id_mapping2
+less id_mapping2 
+grep oh_nurayyy id_mapping*
+grep latuagaja06 id_mapping*
+grep gaia_baby05 id_mapping*
+grep milliethomasofficial id_mapping*
+grep v id_mapping*
+grep grayson id_mapping*
+grep daintymilder id_mapping*
+grep itsissyys id_mapping*
+grep nyx id_mapping*
+grep morillo.alix id_mapping*
+echo  heyy.imemmaa/id
+echo 78141389520 >  heyy.imemmaa/id
+cat heyy.imemmaa/id 
+instaloader -F marthagiheaney
+instaloader -F ki_rogozhina
+instaloader -F shannon_stretches
+instaloader -F shannon_stretches
+instaloader -F yung.planet
+ls shannon_stretches/
+instaloader -F ty.mfeldman
+instaloader -F anna_fury
+instaloader -F iamwiola
+instaloader -F peytoncolee
+instaloader -F ngodcreatedwoman
+instaloader -F ellamayvandergaag
+instaloader -F aliciamuxel
+instaloader -F lilyrlowry
+instaloader -F yambogdini
+instaloader -F krystalthehustler
+instaloader -F alannahbeirne
+mkdir krystalthehustler
+echo 52931601778  >  krystalthehustler/id
+instaloader -F alixsacharova
+instaloader -F madzzyg6
+instaloader -F krisssssssssssa
+instaloader -F albaaa._gv
+ls anna_fury
+instaloader -F anna_fury
+instaloader -F thisisellowen
+instaloader -F a__s__t__r
+instaloader -F boss_janesoul
+mkdir boss_janesoul
+echo 70752006439 > boss_janesoul/id
+instaloader -F eva.vlaar
+instaloader -F jaz_sinclair
+instaloader -F kseniyango
+find . -name '*.txt' -delete
+for i in *;do if [ -e $i/id ];then printf "%s\t%s\n" $i $(cat $i/id);fi;done > id_mapping2
+less id_mapping2 
+cp id_mapping* ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
+du -sh *.zip
+du -sh *.zip
+du -sh *.zip
+du -sh *.zip
+vi ids-not-done 
+vi ids-not-done 
+cp ids-not-done ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/
+ls jethpoco/
+for i in $(cat ids-not-done );do if [ ! -e $i ];then echo $i;fi;done
+ls
+rm ids-not-done 
+for i in *;do if [ -e $i/id ];then printf "%s\t%s\n" $i $(cat $i/id);fi;done > id_mapping2
+less id_mapping2 
+cat id_mapping2 >> ~/Playing/3d2d19ca10a757293d8c4407ee3fcf4f/id_mapping 
+du -sh *.zip
+unzip -l ig_e.zip 
+ssh tmh@deepsleep
+ssh tmh@deepvoice
+ssh sbtaldeep24
+ssh sbtaldeep24
+ssh sbtaldeep23
+ssh sbtaldeep23
+git add id_mapping*
+git commit -m add
+cat id_mapping*|sort|uniq
+cat id_mapping*|sort|uniq > tmid
+less tmid 
+mv tmid id_mapping
+git rm id_mapping2 
+git add id_mapping 
+git commit -m combine
+ls
+git add ids-not-done 
+git commit -m add
+vi ids-not-done 
+git add ids-not-done 
+git commit -m trim
+git add id_mapping 
 git commit -m more
-git push 
-git status
-cd ~/.claude/
+cat id_mapping*|sort|uniq > tmid
+mv tmid id_mapping
+git diff
+git add sourceme.sh 
+git commit -m add
+git diff id_mapping
+git add id_mapping 
+git commit -m sort
+git push
+git diff
+cd ~/Playing/spoken-sentence-transformers/
+ls
+git branch
+git log
+git checkout main 
+git diff
+git checkout kinematic-transforms 
+git add spoken_sentence_transformers/__init__.py 
+git commit -m 'missing import'
+git checkout main 
+git log
+git pull
+git log
+git checkout -b vicreg
 git status
 git diff
-git status|less
-git add debug/ file-history/
 git status
+less experiment/prepare_cv.py 
+git add experiment/prepare_cv.py 
+git commit -m 'Common Voice prep script'
+git branch
+git diff
+git add experiment/precompute_targets.py 
+git commit -m DatasetDict
+git diff
+git add experiment/train_wavlm.py
+git commit -m DatasetDict
+git diff
+git status
+less experiment/prepare_nst.py 
+git add experiment/prepare_nst.py 
+git commit -m NST
+git add experiment/run_forced_alignment.py 
+less experiment/run_forced_alignment.py 
+git commit -m add
+git status
+less experiment/configs/cv-en-sem384-spk256-resem-dial.json 
+git add experiment/configs/
+git commit -m 'add, but these are wrong'
+git log
+git revert ed929720a1580df97f5e029f84e167e417fce24d
+ls experiment/configs/
+git status
+git branch
+ls harvard/
+ls open_speech/
+ls
+git status
+ls experiment/configs/
+less experiment/configs/wavlm-sem384-spk256-resem-dial.json
+ls ~/Playing/work-2026/training-plan.md  
+less ~/Playing/work-2026/training-plan.md 
+ssh deepflow 
+less ~/Playing/gpu-admin/users.json
+ssh deepflow 
+git diff
+git log
+git push
+less users.json
+ssh deepwave 
+ssh deepwave 
+ssh tts2
+ssh tts2
+ls
+vi sudo.json 
+grep docker *json
+grep docker *py
+less users.py 
+vi users.json
+ssh deepflow 
+git status
+git add projects/ sessions/
+git status
+git add file-history/
+ls backups/
+ls shell-snapshots/
+git add shell-snapshots/
+git add backups/
+git add plans/
+git commit -m add
+ssh tts2
+git status
+git add backups/
+git add plans/
+git status
+git diff
 git add shell-snapshots/ sessions/
+git add projects/
+git commit -m add
+git status
+git add projects/ backups/ sessions/ shell-snapshots/
+git commit -m add
+git status
 git status
 git add projects/
-ls telemetry/
-git add telemetry/
-git status
-git add paste-cache/
-git status
-git add history.jsonl 
-ls backups/
-ls ide/
-less ide/63617.lock 
-ls plans/
-git add plans/
-ls stats
-ls statsig/
-git add statsig/
+git commit -m add
 git diff
+git diff
+git add projects/
+git commit -m add
 git status
-git add telemetry/
+git add backups/ history.jsonl settings.json  backups/ plans/ sessions/
+git commit -m add
+ssh b-tower 
+ssh deepflow 
 git status
-git add telemetry/
+git add shell-snapshots/ backups/ sessions/
+git status
+git add projects/ paste-cache/
+git status
+git add file-history/
+git status
+less .last-cleanup 
+git commit -m update
+less projects/-Users-joregan-Playing-work-2026/1d94527d-05de-455a-b804-843ace25a4be.jsonl 
+git push
+git remote show 
+git remote show origin 
+git status
+git add backups/
 git status
 git commit -m update
-git push 
-cd ../.codex/
-ls
+git push
 git status
-git add sessions/ shell_snapshots/
-ls skills/
+git add backups/ sessions/ projects/ shell-snapshots 
 git status
-git add config.toml history.jsonl logs_2.sqlite
-git status
-git add models_cache.json logs_2.sqlite* log/codex-tui.log 
-git add version.json *sqlite
 git commit -m update
-git push 
-cd /tmp
-git clone https://github.com/katspaugh/wavesurfer.js
-ls snack
-cd wavesurfer.js/
-codex
-codex
-rm 2026-05-04-braxen-compounds.ipynb 
-git add 2026-05-04-braxen-compounds.ipynb 
-git commit -m 'first parts'
-less braxen-simple-reverse.json 
-less braxen-simple-reverse.json 
-git add 2026-05-04-braxen-compounds.ipynb 
-git commit -m errata
-less braxen-simple-reverse.json 
-jupyter-server 
-git add site/reading-04-2026/papers.qmd 
-git commit -m cp
-git add site/reading-04-2026/
-git commit -m mv
-git add site/reading-04-2026/
-git commit -m refs
-git branch
-git push origin unsorted-new 
-git add site/reading-04-2026/
-git commit -m refs
-git add site/reading-04-2026/
-git commit -m refs
-echo 'Simulating Hard Attention Using Soft Attention' |tr 'A-Z' 'a-z' |tr ' ' '-'
-git add site/reading-04-2026/
-git commit -m refs
-echo 'Attention to Mamba: A Recipe for Cross-Architecture Distillation' |tr 'A-Z' 'a-z'|tr -d ':' |tr ' ' '-'
-rm to-sort/tabs_*
-mkdir site/reading-05-2026
-cp site/reading-04-2026/* site/reading-05-2026/
-git add site/reading-05-2026/
-git commit -m add
-git add site/reading-05-2026/
-git commit -m add
 git status
-cd spoken-sentence-transformers
-ls
-rm refs.html 
-rm -rf refs_files/
-cd ..
-rmdir spoken-sentence-transformers
-ls spoken-sentence-transformers-odyssey/
-ls
+git add backups/
 git status
-git status|less
-git rm to-sort/tabs_*
-git commit -m rm
+git add projects/
+git commit -m update
 git status
-git add local_mail/scripts/mailpit_to_obsidian.py 
-git commit -m add
-cd local_mail/
-ls
-less README.md 
-git branch
-git push origin unsorted
-git push origin unsorted-new 
+git add projects/
+git add backups/ sessions/
+git status
+git add file-history/
+git status
+less telemetry/1p_failed_events.278a3b3a-d8c1-4b8e-b421-98274a95fbd3.f8f2ac92-d556-4f02-a691-12fab3f35ab1.json 
+git add telemetry/
+git commit -m update
+git push
+git status
+git add projects/
+git commit -m update
+git status
+less projects/-Users-joregan-Playing-spoken-sentence-transformers/278a3b3a-d8c1-4b8e-b421-98274a95fbd3.jsonl
 git diff
-ls ~/Playing/work-2026/writing/LRE\ -\ Phonetic\ corpus/old-towards 
+git add projects/
+git commit -m update
+git status
+git add backups/ projects/ sessions/
+git commit -m update
+less projects/-Users-joregan-Playing-spoken-sentence-transformers/278a3b3a-d8c1-4b8e-b421-98274a95fbd3.jsonl
+git status
+git add projects/ sessions/
+git commit -m update
+less projects/-Users-joregan-Playing-spoken-sentence-transformers/278a3b3a-d8c1-4b8e-b421-98274a95fbd3.jsonl
+git push
+ssh tts2
+df -h
+df -h
+df -h
+ssh tts2
+git status
+git add backups/ projects/
+git status
+git add shell-snapshots/
+git commit -m more
+git push 
+ssh sbtaldeep22
+vi /Users/joregan/Playing/work-2026/writing/Redsofa\ disk\ space.md 
+cd ~/Playing/work-2026/writing/
+git add Redsofa\ disk\ space.md 
+git commit -m redsofa2
+vi /Users/joregan/Playing/work-2026/writing/Redsofa\ disk\ space.md 
+git add /Users/joregan/Playing/work-2026/writing/Redsofa\ disk\ space.md 
+git commit -m redsofa2
+vi /Users/joregan/Playing/work-2026/writing/Redsofa\ disk\ space.md 
+git diff
+git add Redsofa\ disk\ space.md 
+git commit -m update
+ssh sbtaldeep22 
+ssh sbtaldeep22 
+networksetup -setairportpower en0 off
+networksetup -setairportpower en0 on
+sudo pkill airportd
+ssh sbtaldeep22 
+git log
+git checkout -b slurm-default-account
+git push origin slurm-default-account 
+git checkout master 
+git log
+git reset --hard 4789a40a9731f68867163476dfd571588e3f73f3
+git pull
+git log
+git log
+git format-patch -1 6075d5bd31100f54ccc2063ae9645a7e38e36124
+less 0001-check-stderr-as-well-as-stdout-for-sacctmgr-Nothing-.patch 
+git checkout -b reduce-noise
+git push origin reduce-noise 
+rm 0001-check-stderr-as-well-as-stdout-for-sacctmgr-Nothing-.patch 
+git log
+git checkout slurm-default-account 
+git cherry-pick 6075d5bd31100f54ccc2063ae9645a7e38e36124
+vi users.py 
+git diff
+git branch
+git add users.py 
+git commit -m 'cherry-pick 6075d5bd31100f54ccc2063ae9645a7e38e36124'
+git push origin slurm-default-account 
+git log
+git reset --hard 74b3c3cd37ff355997cbe7a0e7d321997b0ce9a7
+git log
+git branch
+git checkout master 
+git log
+git reset --hard 18908def82d99a20bbdf142164ff39a3d0ab1a1c
+git pull
+git branch
+git branch -D reduce-noise
+git branch -D slurm-default-account
+rm /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.33.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.02.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.56.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.00.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.57.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.53.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.49.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.08.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.13.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.44.08.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.43.50.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.35.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.57.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.53.47.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.49.00.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.29.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.00.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.46.45.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.43.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.46.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.58.47.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.53.53.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.51.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.23.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.49.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.23.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.22.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.44.02.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.01.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.32.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.00.00.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.59.54.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.58.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.54.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.52.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.51.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.49.53.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.45.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.24.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.48.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.24.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.47.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.44.07.png 
+rm /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.42.28.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.40.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.41.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.41.16.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.40.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.39.48.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.39.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.38.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.39.02.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.39.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.38.48.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.38.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.35.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.33.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.35.12.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.35.29.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.30.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.29.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.30.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.30.22.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.29.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.28.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.28.52.png 
+rm /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 17.28.23.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.36.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.36.20.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.36.28.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.36.31.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.37.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.37.28.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.37.37.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.37.40.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.37.54.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.48.48.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.48.58.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.49.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.52.32.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.52.33.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.52.35.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.52.41.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.53.08.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.53.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.53.13.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.56.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.00.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.47.01.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.47.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.48.25.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.48.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.48.37.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.48.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.48.46.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.52.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.53.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.53.12.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.53.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.54.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.56.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.56.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.56.45.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 19.56.56.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.03.37.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.06.40.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.06.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.06.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.06.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.07.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.08.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.08.36.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.08.52.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.09.12.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.09.33.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.09.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.09.43.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.09.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.20.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.29.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.31.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.31\ 1.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.33.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.35.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.10.38.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.11.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.11.46.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.11.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.11.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.33.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.33.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.33.40.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.34.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.34.17.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.35.52.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.37.45.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.39.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.39.36.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.40.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.40.53.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.40.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.41.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.41.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.41.37.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.41.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.41.46.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.42.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.43.38.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.20.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.29.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.31.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.44.53.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.45.01.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.45.21.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.48.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.48.33.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.48.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.49.06.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.49.09.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.49.11.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.49.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.50.03.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.50.28.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.50.45.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.50.47.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.51.51.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.52.18.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.52.22.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.52.24.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.52.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.53.06.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.53.17.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.54.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.54.51.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.54.52.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.54.56.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 20.55.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.02.47.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.04.08.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.04.23.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.04.23\ 1.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.05.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.05.50.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.20.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.20.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.20.31.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.21.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.21.32.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.22.01.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.22.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.23.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.23.35.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.23.36.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.23.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.24.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.24.31.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.16.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.22.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.23.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.26.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.25.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.26.20.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.26.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 21.27.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 22.46.58.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 22.49.34.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 22.50.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 22.52.07.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 22.53.24.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 16.51.59.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 16.53.38.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 16.56.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 16.58.56.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.00.50.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.04.13.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.05.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.09.12.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.12.57.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.14.32.png /Users/joregan/Desktop/Screenshot\ 2026-05-20\ at\ 17.16.29.png 
+rm /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.44.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.19.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.35.06.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.47.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.20.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.35.08.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.50.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.36.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.17.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.10.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.33.04.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.15.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.06.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.32.55.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.34.12.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.33.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.32.52.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.51.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.42.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.53.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.46.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.30.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.54.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.49.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.39.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.22\ 1.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.14.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.27.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.17.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.28.22.png /Users/joregan/Desktop/Screenshot\ 2026-05-17\ at\ 18.27.55.png 
+mkdir /tmp/dtop
+mv ~/Desktop/Scr* /tmp/dtop/
+cd ~/Playing/gpu-admin/
+ls
+vi users.json
+git diff
+git add users.json
+git commit -m 'put temp users into redsofa where they always should have been'
+git push
+sql
+#git remote add mine git@github.com:jimregan/gpu-admin.git
+git remote add mine git@github.com:jimregan/gpu-admin.git
+git push --all mine
+git log
+git checkout -b slurm
+git push mine slurm 
+python admin.py sync-users
+ssh b-tower 
+ssh b-tower 
+vi tabs_5
+git add tabs_5 
+git commit -m add
+vi tabs_5
+git add tabs_5 
+git commit -m add
+vi open-tabs.md 
+vi tabs_5
+git add tabs_5 
+git commit -m add
+vi open-tabs.md 
+git add open-tabs.md 
+git commit -m more
+vi tabs_5
+git add open-tabs.md 
+git add tabs_5 
+git commit -m more
+vi tabs_5
+git add tabs_5 
+git commit -m more
+vi tabs_5
+git add tabs_5 
+git commit -m more
+ls ~/Playing/work-2026/training-plan.md 
+less ~/Playing/work-2026/training-plan.md 
+vi tabs_5
+git diff
+git add tabs_5 
+git commit -m more
+git add ../_posts/2026-04-21-misc-links.md 
+git commit -m cvt
+git diff
