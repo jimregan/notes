@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: ChatGPT paper summary
-title: Attention to Mamba: A Recipe for Cross-Architecture Distillation
+title: Attention to Mamba - A Recipe for Cross-Architecture Distillation
 categories: [chatgpt, summary]
 ---
 
