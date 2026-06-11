@@ -24,3 +24,8 @@ categories: [links]
 
 [Odyssey 2026 Schedule](https://odyssey2026.inesc-id.pt/the-full-schedule/)
 
+[UCR Time Series Classification Archive](https://www.cs.ucr.edu/~eamonn/time_series_data/), replaced by:
+[this](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/)
+
+[Dual-domain Hierarchical Classification of Phonetic Time Series](https://www.cs.unm.edu/~hamooni/papers/Dual_2014/index.html) --- "Phoneme" classification.
+
