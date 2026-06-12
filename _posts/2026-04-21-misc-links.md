@@ -162,3 +162,12 @@ Strange paper titles:
 
 [ericcurtin/wayoa](https://github.com/ericcurtin/wayoa)
 
+[poloclub/transformer-explainer](https://github.com/poloclub/transformer-explainer)
+
+[jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+
+[ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) --- LuxTTS is an lightweight zipvoice based text-to-speech model designed for high quality voice cloning and realistic generation at speeds exceeding 150x realtime.
+
+[k2-fsa/ZipVoice](https://github.com/k2-fsa/ZipVoice) --- Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching
+
+
