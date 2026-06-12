@@ -49,6 +49,8 @@ One file per loss function, ~25 implementations. All inherit from `torch.nn.Modu
 
 - **`VICRegLoss`** — Three-term loss: invariance (MSE between views), variance (hinge on per-dimension std), covariance (off-diagonal of covariance matrix). No negatives required.
 
+- **`VICRegLLoss`** — Runs the same three-term VICReg loss at two separate granularities: a global branch (one feature vector per image) and a local branch (a spatial grid of feature vectors per image). The two branches are independent modules weighted by `alpha * global_loss + (1 - alpha) * local_loss`. Local features from different views are matched via nearest-neighbour lookup on the coordinate grids rather than by position, so the local branch is view-position-aware. This is not "VICReg plus a patch loss"; it is two parallel VICReg computations on different feature representations.
+
 - **`SwaVLoss`** — Computes Sinkhorn-normalised soft cluster assignments and applies a swapped prediction objective between views.
 
 - **`MSNLoss` / `PMSNLoss`** — Masked Siamese Networks loss. `PMSNLoss` adds a prior-matching term (student prototype distribution should match a target prior).
