@@ -142,11 +142,18 @@ Each SSL method has a dedicated transform class that subclasses `MultiViewTransf
 `MultiViewTransform` is a simple container:
 
 ```python
-def __call__(self, image):
-    return [t(image) for t in self.transforms]
+def __call__(self, image: Union[Tensor, Image]) -> List[Tensor]:
+    return [transform(image) for transform in self.transforms]
 ```
 
-Returning a list of tensors from a single image is the universal contract. The dataloader's batch will then be a list of `(B, C, H, W)` tensors, one per view.
+**Batch contract** — `__call__` returns a `List[Tensor]` with one element per crop view. When this is used as the dataset's `transform`, each sample's image field becomes a list of tensors. PyTorch's default `collate_fn` sees a batch of those lists and stacks each position independently, so a batch from a two-view transform produces a `List[Tensor]` of length 2 where each tensor has shape `(B, C, H, W)`. Training loops unpack this as:
+
+```python
+(x0, x1), labels, filenames = batch   # SimCLR, two views
+views, labels, filenames = batch       # DINO; views is a list of 8 tensors
+```
+
+This is the one contract that every training loop must respect: the first element of the batch is not a single `(B, C, H, W)` tensor but a list of them, one per view.
 
 **`DINOTransform`** is the most complex example:
 - 2 global crops: `crop_size=224`, `scale=(0.4, 1.0)`, Gaussian blur prob = 1.0
