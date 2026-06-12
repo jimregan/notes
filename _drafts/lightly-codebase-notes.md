@@ -57,6 +57,16 @@ One file per loss function, ~25 implementations. All inherit from `torch.nn.Modu
 
 - **`KoLeoLoss`** — Pairwise log-repulsion loss encouraging uniform coverage of the embedding sphere.
 
+- **`DirectCLRLoss`** — Subclass of `NTXentLoss`. Applies contrastive loss on only the first `loss_dim` dimensions of the embedding, bypassing the need for a projection head. Useful for studying which representation dimensions carry useful information.
+
+- **`MMCRLoss`** — Maximum Manifold Capacity Representations loss (2023). Uses the singular values of the online and momentum embedding matrices; maximises nuclear norm of the centred online embeddings while minimising distance to the momentum embeddings.
+
+- **`EMPSSLLoss`** — EMP-SSL loss (2023). Combines a Total Coding Rate (TCR) term (from the rate-distortion literature) with a cross-patch invariance term. No example script is shipped; the loss class is provided as a building block.
+
+- **`MACLLoss`** — Model-Aware Contrastive Loss (ICML 2023). Adapts the contrastive temperature per sample based on alignment magnitude, reducing the risk of collapsing easy negatives. No example script.
+
+- **`HypersphereLoss`** — Alignment and uniformity loss on the hypersphere (Wang & Isola, 2020). Applies L2 normalisation internally; encourages alignment between positive pairs and uniform coverage of the sphere. No example script.
+
 - **`MemoryBankModule`** (`loss/memory_bank.py`) — FIFO queue with a learnable pointer. Shared by `NTXentLoss`, `NNMemoryBankModule`, and others. `forward(output, update)` returns the current bank contents and optionally enqueues the batch.
 
 ### `models/`
