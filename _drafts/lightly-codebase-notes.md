@@ -325,12 +325,15 @@ for images, masks_enc, masks_pred in loader:
 | DCL / DCLW | 2021 | `DCLLoss` / `DCLWLoss` | `SimCLRTransform` |
 | DenseCL | 2021 | `NTXentLoss` (dense) | `DenseCLTransform` |
 | DetConB / DetConS | 2021 | `DetConBLoss` / `DetConSLoss` | `DetConTransform` |
+| DirectCLR | 2021 | `DirectCLRLoss` | `SimCLRTransform` |
 | DINO | 2021 | `DINOLoss` | `DINOTransform` |
 | DINOv2 | 2023 | `DINOLoss` + `IBOTPatchLoss` + `KoLeoLoss` | `DINOTransform` |
+| FastSiam | 2022 | `NegativeCosineSimilarity` | `FastSiamTransform` |
 | iBOT | 2021 | `DINOLoss` + `IBOTPatchLoss` | `IBOTTransform` |
 | I-JEPA | 2023 | MSE in embedding space | `IJEPATransform` + `IJEPAMaskCollator` |
 | LeJEPA | 2024 | `LeJEPALoss` + `SIGReg` | `IJEPATransform` |
 | MAE | 2021 | MSE (pixel reconstruction) | `MAETransform` |
+| MMCR | 2023 | `MMCRLoss` | `MMCRTransform` |
 | MoCo | 2019 | `NTXentLoss` + memory bank | `MoCoTransform` |
 | MSN | 2022 | `MSNLoss` | `MSNTransform` |
 | NNCLR | 2021 | `NTXentLoss` + NN bank | `SimCLRTransform` |
@@ -338,6 +341,7 @@ for images, masks_enc, masks_pred in loader:
 | SimCLR | 2020 | `NTXentLoss` | `SimCLRTransform` |
 | SimMIM | 2022 | MSE (pixel reconstruction) | `SimMIMTransform` |
 | SimSiam | 2021 | `NegativeCosineSimilarity` | `SimSiamTransform` |
+| SMoG | 2022 | `nn.CrossEntropyLoss` (standard) | `SMoGTransform` |
 | SwaV | 2020 | `SwaVLoss` | `SwaVTransform` |
 | TiCo | 2022 | `TiCoLoss` | `SimCLRTransform` |
 | VICReg | 2021 | `VICRegLoss` | `VICRegTransform` |
@@ -374,12 +378,54 @@ Each is a standalone script; no shared library. The PyTorch examples are the can
 
 Tests live in `tests/`, mirroring the package layout. The suite uses pytest.
 
-**Key conventions:**
-- `--runslow` flag gates slow integration tests (marked `@pytest.mark.slow`)
-- `conftest.py` mocks `LIGHTLY_DID_VERSION_CHECK` and `LIGHTLY_SERVER_LOCATION` env vars to avoid network calls
-- Numerical assertions use `pytest.approx()` for float comparisons
-- Distributed training tests use `mocker` to patch `torch.distributed` functions
-- Loss tests typically compute the loss manually and compare against the module output
+**Markers and slow tests**
+
+`@pytest.mark.slow` gates tests that are too expensive for CI on every commit (typically end-to-end data-loading tests, tests that download datasets, or tests that spin up a real distributed process). They are skipped by default and must be explicitly opted in:
+
+```
+pytest --runslow
+```
+
+The marker is registered in `conftest.py`; unmarked tests always run.
+
+**Global fixtures (`tests/conftest.py`)**
+
+Two environment variables are set unconditionally at collection time (before any fixtures apply) so that importing `lightly` never triggers a real network call:
+
+- `LIGHTLY_DID_VERSION_CHECK=True` — suppresses the background version-check thread that fires on the first import.
+- `LIGHTLY_SERVER_LOCATION=https://dummy-url` — redirects any residual API calls to a non-existent host.
+
+A module-scoped `autouse` fixture `mock_versioning_api` additionally patches `VersioningApi.get_latest_pip_version` and `VersioningApi.get_minimum_compatible_pip_version` so that tests creating `ApiWorkflowClient` instances do not make real HTTP requests. The `module` scope means the patch is applied once per test module rather than once per test, which matters because `ApiWorkflowClient.__init__` triggers the versioning call at construction.
+
+**Distributed training tests**
+
+None of the tests run in a real multi-process distributed context. Instead, distributed behaviour is tested by patching `torch.distributed` via `pytest-mock`'s `mocker` fixture:
+
+```python
+def test__gather_distributed(self, mocker: MockerFixture) -> None:
+    mock_is_available = mocker.patch.object(dist, "is_available", return_value=True)
+    NTXentLoss(gather_distributed=True)
+    mock_is_available.assert_called_once()
+
+def test__gather_distributed_dist_not_available(self, mocker: MockerFixture) -> None:
+    mock_is_available = mocker.patch.object(dist, "is_available", return_value=False)
+    with pytest.raises(ValueError):
+        NTXentLoss(gather_distributed=True)
+```
+
+This pattern appears in every loss that accepts `gather_distributed`: it confirms that the constructor validates availability and raises `ValueError` when the flag is set but `torch.distributed` is not available, without requiring a real distributed backend.
+
+**Numerical testing of losses**
+
+Loss tests compute the expected value independently (a manual implementation of the loss formula) and compare with `pytest.approx()`:
+
+```python
+l1 = float(loss_fn(out0, out1))
+l1_manual = _calc_ntxent_loss_manual(out0, out1, temperature=temperature)
+assert l1 == pytest.approx(l1_manual, abs=1e-5)
+```
+
+Tests are parameterised over batch size, embedding dimension, temperature, and `gather_distributed` using `@pytest.mark.parametrize` to get broad coverage from a small number of test functions.
 
 ---
 
