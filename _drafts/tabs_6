@@ -47,24 +47,15 @@ PXL_20260623_191217216.LS | Jim O'Regan | Flickr
 https://www.flickr.com/photos/jimregan/55353958984/
 
 Instagram
-https://www.instagram.com/p/DZPD4ZGsdDE/
-
-Instagram
-https://www.instagram.com/kirsanov_ak/
+https://www.instagram.com/p/DZf2RS-DG2V/
 
 Instagram
 https://www.instagram.com/p/C5x53rgsC5s/?img_index=4
 
-Instagram
-https://www.instagram.com/reels/DaIgZ_xtWsx/
+Fix Post metadata fetching broken by Instagram deprecating doc_id by hyperplural · Pull Request #2706 · instaloader/instaloader
+https://github.com/instaloader/instaloader/pull/2706
 
-Instagram
-https://www.instagram.com/krai_alena/reels/
-
-PXL_20260625_164310573.LS | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/55356505852/in/photostream/
-
-PXL_20260626_131855161 | Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/55358180152/
+Guard against null `data` in Post metadata response by mholzinger · Pull Request #2705 · instaloader/instaloader
+https://github.com/instaloader/instaloader/pull/2705
 
 
