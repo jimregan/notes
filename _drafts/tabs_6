@@ -1,4 +1,4 @@
-(5) Home / X
+x.com/home
 https://x.com/home
 
 x.com/SungjinAhn_/status/2072230094614237320
@@ -61,11 +61,14 @@ https://www.nature.com/articles/s41583-020-0277-3
 (5) NVIDIA AI on X: "We took a 30B model and split it in two to write tokens in parallel instead of one at a time. Introducing Nemotron-Labs-TwoTower: a diffusion language model from NVIDIA Research adapted from Nemotron-3-Nano-30B-A3B. Here’s how it works: one half holds the context, the other https://t.co/Uza5QAO7N9" / X
 https://x.com/NVIDIAAI/status/2072394812301480067
 
+nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16 · Hugging Face
+https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16
+
+[2606.26493] Nemotron-Labs-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context
+https://arxiv.org/abs/2606.26493
+
 (5) MOSI (@MosiAI_Official) / X
 https://x.com/MosiAI_Official
-
-Instagram
-https://www.instagram.com/
 
 Instagram
 https://www.instagram.com/noapology_official/
@@ -77,7 +80,7 @@ Instagram
 https://www.instagram.com/vikyvarga/
 
 Instagram
-https://www.instagram.com/reel/DZPtAoRAdSM/
+https://www.instagram.com/reels/DZPtAoRAdSM/
 
 Instagram
 https://www.instagram.com/indenavarrette/tagged/
@@ -97,37 +100,190 @@ https://huggingface.co/espnet/owsm_ctc_v4_1B
 README.md · espnet/yodas_owsmv4 at main
 https://huggingface.co/datasets/espnet/yodas_owsmv4/blob/main/README.md
 
-Inde Navarrette - Wikidata
-https://www.wikidata.org/wiki/Q106932301
+Daria Zaritskaya - Wikidata
+https://www.wikidata.org/wiki/Q123177154
 
-Valeria Lipovetsky - Search results - Wikipedia
-https://en.wikipedia.org/w/index.php?search=Valeria+Lipovetsky&title=Special%3ASearch&ns0=1&searchToken=6auh4eh79v73tubq5t9mwmcp8
+Instagram
+https://www.instagram.com/
 
-Vita Sidorkina - Wikidata
-https://www.wikidata.org/wiki/Q21786391
+view-source:https://www.instagram.com/dariazaritskaya/?hl=en
+view-source:https://www.instagram.com/dariazaritskaya/?hl=en
 
-Max Azria - Wikipedia
-https://en.wikipedia.org/wiki/Max_Azria#BCBG_Max_Azria
+[2604.14191] Attention to Mamba: A Recipe for Cross-Architecture Distillation
+https://arxiv.org/abs/2604.14191
 
-Instajack: Robo-Babe, Russian, and Model Vita Sidorkina | GQ
-https://www.gq.com/story/instajack-robo-babe-russian-and-model-vita-sidorkina
+hustvl/mmMamba: The first decoder-only multimodal state space model
+https://github.com/hustvl/mmMamba
 
-Valeria Lipovetsky - Google Search
-https://www.google.com/search?q=Valeria+Lipovetsky&rlz=1C5GCCM_en&oq=Valeria+Lipovetsky&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBBzIzMGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+(5) DAIR.AI on X: "NEW paper from Apple. Interesting idea: "Attention to Mamba". The paper introduces a two-stage recipe for cross-architecture distillation from Transformers into Mamba. Naive distillation collapses teacher performance. Their trick: first distill the transformer into a https://t.co/tt1P4XWOJK" / X
+https://x.com/dair_ai/status/2045600012860801113
 
-Valeria lipovetsky in real life : r/NYCinfluencersnark
-https://www.reddit.com/r/NYCinfluencersnark/comments/1qcifk3/valeria_lipovetsky_in_real_life/
+(5) Prosperous727 on X: "@dair_ai @grok summarize this and also compare it to my repo. Dive deep as I've updated the repo recently" / X
+https://x.com/prosperous727/status/2045613082844782660
+
+(5) Drew Schuyler on X: "@dair_ai @no_stp_on_snek this feels like it connects to your TurboQuant work. You're compressing KV cache at the quantization layer — this is eliminating it at the architecture layer. Bridge or destination?" / X
+https://x.com/drewsky1/status/2045680625034694718
+
+fla-org/flash-linear-attention: 🚀 Efficient implementations for emerging model architectures
+https://github.com/fla-org/flash-linear-attention
+
+2502.13189
+https://arxiv.org/pdf/2502.13189
+
+2505.19488v1
+https://arxiv.org/pdf/2505.19488v1
+
+fla-org/flash-linear-attention: 🚀 Efficient implementations for emerging model architectures
+https://github.com/fla-org/flash-linear-attention/tree/main
+
+flash-linear-attention/fla/models/deltaformer/modeling_deltaformer.py at main · fla-org/flash-linear-attention
+https://github.com/fla-org/flash-linear-attention/blob/main/fla/models/deltaformer/modeling_deltaformer.py
+
+hustvl/mmMamba-linear · Hugging Face
+https://huggingface.co/hustvl/mmMamba-linear
+
+hustvl/mmMamba-hybrid · Hugging Face
+https://huggingface.co/hustvl/mmMamba-hybrid
+
+Attention to Mamba: A Recipe for Cross-Architecture Distillation
+https://arxiv.org/pdf/2604.14191
+
+tensorsense/gemamba: This repository contains training code for the Gemamba VLM
+https://github.com/tensorsense/gemamba
+
+RupertLuo/Valley: The official repository of "Video assistant towards large language model makes everything easy"
+https://github.com/RupertLuo/Valley
+
+bytedance/Valley: Valley is a cutting-edge multimodal large model designed to handle a variety of tasks involving text, images, video, and audio data.
+https://github.com/bytedance/Valley
+
+bytedance-research/Valley3-8B-Instruct · Hugging Face
+https://huggingface.co/bytedance-research/Valley3-8B-Instruct
+
+Video-ChatGPT/docs/train_video_chatgpt.md at main · mbzuai-oryx/Video-ChatGPT
+https://github.com/mbzuai-oryx/Video-ChatGPT/blob/main/docs/train_video_chatgpt.md
+
+2402.04347
+https://arxiv.org/pdf/2402.04347
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Du%20har%20f%C3%A5tt%20detta%20mail%20eftersom%20att%20du%20har%20ett%20Student%20medlemskap%20hos%20oss%2C%20Du%20beh%C3%B6ver%20visa%20upp%20att%20du%20studerar%20f%C3%B6r%20att%20beh%C3%A5lla%20ditt%20reducerade%20pris.%0A%0AVet%20du%20med%20dig%20att%20du%20har%20gjort%20det%20s%C3%A5%20kan%20du%20bortse%20fr%C3%A5n%20detta%20mail.%20Annars%20%C3%A4r%20du%20varmt%20v%C3%A4lkommen%20att%20g%C3%B6ra%20detta%20i%20valfri%20reception.%20&op=translate
+
+A Dialect of Donegal/Texts/Áindrías an Ime - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/%C3%81indr%C3%ADas_an_Ime
+
+Baile ui Mún - Google Search
+https://www.google.com/search?q=Baile+ui+M%C3%BAn&sca_esv=8225844d7b9d53f0&rlz=1C5GCCM_en&sxsrf=APpeQnvNsrbSeetW9TfFdLrxQfnRd_Rg3Q%3A1782987531350&ei=CztGao3qFNO6hbIPxryq2AY&biw=1424&bih=714&ved=0ahUKEwjNm8eT4rOVAxVTXUEAHUaeCmsQ4dUDCBI&uact=5&oq=Baile+ui+M%C3%BAn&gs_lp=Egxnd3Mtd2l6LXNlcnAiDUJhaWxlIHVpIE3Dum4yBBAjGCcyBRAAGO8FMgUQABjvBTIFEAAY7wUyBRAAGO8FMgUQABjvBUj8AVAAWABwAHgAkAEAmAGNAaABjQGqAQMwLjG4AQPIAQD4AQGYAgGgApIBmAMAkgcDMC4xoAfqA7IHAzAuMbgHkgHCBwMyLTHIBwOACAE&sclient=gws-wiz-serp
+
+Baile Uí Laí – Cartlanna Sheosaimh Uí Éanaí
+https://www.joeheaney.org/en/baile-ui-lai/
+
+Cartlanna Sheosaimh Uí Éanaí – Singing, storytelling ⁊ folklore from the Carna tradition
+https://www.joeheaney.org/en/
+
+Baile Mún/Ballymoon | logainm.ie
+https://www.logainm.ie/en/14879
+
+Gleann an Bhaile Dhuibh | logainm.ie
+https://www.logainm.ie/en/1415845
+
+Áindrías - Google Search
+https://www.google.com/search?q=%C3%81indr%C3%ADas&rlz=1C5GCCM_en&oq=%C3%81indr%C3%ADas&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg80gEHMzc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+A Dialect of Donegal/Texts/Eóin Ua Míodhchán agus an Sionnach - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/E%C3%B3in_Ua_M%C3%ADodhch%C3%A1n_agus_an_Sionnach
+
+Page:Quiggin Dialect of Donegal 0203.png - Wikisource, the free online library
+https://en.wikisource.org/wiki/Page%3AQuiggin_Dialect_of_Donegal_0203.png
+
+A Dialect of Donegal/Texts/Scéal Ghiolla na gCochall Craicionn - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Sc%C3%A9al_Ghiolla_na_gCochall_Craicionn#cite_ref-1
+
+A Dialect of Donegal/Texts/Leadairt na bhfear mór - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Leadairt_na_bhfear_m%C3%B3r
+
+A Dialect of Donegal/Texts/Na trí daill agus an Chevalier i mBaile-átha-clíath - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Na_tr%C3%AD_daill_agus_an_Chevalier_i_mBaile-%C3%A1tha-cl%C3%ADath
+
+A Dialect of Donegal/Texts/Notes - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/Notes
+
+A Dialect of Donegal/Texts/Eóin Ua Míodhchán agus an Sionnach - Wikisource, the free online library
+https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/E%C3%B3in_Ua_M%C3%ADodhch%C3%A1n_agus_an_Sionnach
+
+An Darnaigh/Darney | logainm.ie
+https://www.logainm.ie/en/14056
+
+Dunkineely - Wikipedia
+https://en.wikipedia.org/wiki/Dunkineely
+
+Aindrias - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/Aindrias#cite_note-3
+
+scór - Wiktionary, the free dictionary
+https://en.wiktionary.org/wiki/sc%C3%B3r
+
+Google Translate
+https://translate.google.com/?sl=auto&tl=en&text=Chaith%20an%20t-eallach%20a%20n-am%20ansin%20go%20dt%C3%AD%20an%20f%C3%B3mhar.&op=translate
+
+Type IPA phonetic symbols - online keyboard (all languages)
+https://ipa.typeit.org/full/
+
+python - Install npm package with conda via environment.yml - Stack Overflow
+https://stackoverflow.com/questions/57082949/install-npm-package-with-conda-via-environment-yml
+
+ufal/udpipe: UDPipe: Trainable pipeline for tokenizing, tagging, lemmatizing and parsing Universal Treebanks and other CoNLL-U files
+https://github.com/ufal/udpipe
+
+Baile Uí Eára/Ballyara | logainm.ie
+https://www.logainm.ie/en/14851
+
+Leitir Mhic an Bhaird/Lettermacaward | logainm.ie
+https://www.logainm.ie/en/804
+
+Instagram
+https://www.instagram.com/p/DZEnE3Yhfiq/
+
+Instagram
+https://www.instagram.com/arissha_ak/
+
+Instagram
+https://www.instagram.com/alevtina.blits/
+
+Instagram
+https://www.instagram.com/grrdasha/
+
+Instagram
+https://www.instagram.com/misha_melkumova/
+
+Instagram
+https://www.instagram.com/annascherbatiuk
+
+Instagram
+https://www.instagram.com/zai_sryk/
+
+Instagram
+https://www.instagram.com/manjamiltenovicc/
+
+New tab
+chrome://newtab/
+
+Instaloader — Download Instagram Photos and Metadata
+https://instaloader.github.io/
 
 Pull requests · instaloader/instaloader
 https://github.com/instaloader/instaloader/pulls
 
-Issues · instaloader/instaloader
-https://github.com/instaloader/instaloader/issues
-
-TypeError: 'NoneType' object is not subscriptable · Issue #2704 · instaloader/instaloader
-https://github.com/instaloader/instaloader/issues/2704
-
 fix: raise BadResponseException for None GraphQL responses in Post._obtain_metadata by AmSach · Pull Request #2707 · instaloader/instaloader
 https://github.com/instaloader/instaloader/pull/2707
+
+aandergr (Alexander Graf)
+https://github.com/aandergr
+
+gallery-dl/docs/options.md at master - mikf/gallery-dl - Codeberg.org
+https://codeberg.org/mikf/gallery-dl/src/branch/master/docs/options.md
+
+Pull requests - mikf/gallery-dl - Codeberg.org
+https://codeberg.org/mikf/gallery-dl/pulls
 
 
