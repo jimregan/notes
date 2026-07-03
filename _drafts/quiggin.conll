@@ -14,6 +14,7 @@
 # text_modern = Bhí Aindrias an Ime ina chónaí i mBaile uí Mún i nGleann an Bhaile Dhuibh.
 # text_english = Aindrias of the Butter lived in Ballymoon in Gleann an Bhaile Dhuibh.
 # text_phonetic = vi: α:nṟαs ə N′ïm′ə Nα χõ:ni: ə mwel′ i: ·mũ:n ə ɲl′αN ə wel′ə ꬶïv.
+# text_abair = ˈvʲiː ˈaːn̻ˠ.ˌɾˠəsˠ ˈən̻ˠ ˈi.ˌmʲə ˈi.ˌn̻ˠə ˈxo.ˌn̻ˠiː ˈi ˈmˠa.ˌlʲə ˈiː ˈmˠuːn̻ˠ ˈi ˈŋlʲan̻ˠ ˈən̻ˠ ˈvˠa.ˌlʲə ˈɣuvʲ
 # text_ipa = vʲiː ˈaːnˠɾˠas əɴʲ ˈimʲə n̪ˠə ˈxoɴˠiː ə mˠelʲ iː mˠuːɴˠ ə ɲlʲaɴˠ ə welʲə ɣivʲ.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	NamedEntity=Yes
@@ -37,6 +38,7 @@
 # text_standard = Ba leis Baile Mún, áit fiche bó ⁊ tarbh leo.
 # text_modern = Ba leis Baile uí Mún, áit fiche bó ⁊ tarbh leofa.
 # text_phonetic = bə l′eʃ bwel′ i: mũ:n α:t′ f′ihə bɔ: αgəs tαruw l′ɔ:fə.
+# text_abair = ˈbˠə ˈlʲiʃ ˈbˠa.ˌlʲə ˈiː ˈmˠuːn̻ˠ ˈaːtʲ ˈfʲi.ˌçə ˈbˠoː ˈa.ˌɡəsˠ ˈt̪ˠa.ˌɾˠau ˈl̻ʲoː.ˌfˠə
 # text_ipa = bˠə lʲeʃ bˠelʲ iː mˠuːɴˠ, aːtʲ ˈfʲihə bˠoː ˈagəsˠ ˈtˠaɾˠuː ˈʟʲoːfˠə.
 1	Bu	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	leis	le	ADP	Simp	_	3	case	_	_
@@ -55,7 +57,9 @@
 # sent_id = 4
 # text = Ghlac an Seónstanach Mór é air scór ceithre chroc dhéag ime do dheánadh air fhichid bó an tSeónstanaigh.
 # text_standard = Ghlac an Seónstanach Mór é ar scór ceithre chroca dhéag ime a rinneadh ar fhichid bó an tSeónstanaigh.
+# text_modern = Ghlac an Seónstanach Mór é ar scór ceithre chroc dhéag ime a dheánadh ar fhichid bó an tSeónstanaigh.
 # text_phonetic = ꬶlαk ə ʃo:Nstənαχ mo:r ɛ ɛr skɔ:r k′er′ə χrɔk jɛəg ïm′ ə jα:nuw er′ ihid(′) bɔ: N′ t′o:Nstəni:.
+# text_abair = ˈɣl̻ˠak ˈən̻ˠ ˈʃoːn̻ˠsˠ.ˌt̪ˠə.ˌn̻ˠəh ˈmˠoːɾˠ ˈeː ˈeɾʲ ˈsˠkoːɾˠ ˈce.ˌɾʲə ˈxɾˠok ˈɣeːɡ ˈi.ˌmʲə ˌə ˈjaː.ˌn̻ˠuː ˈeɾʲ ˈi.ˌçədʲ ˈbˠoː ˈən̻ˠ ˈtʲoːn̻ˠsˠ.ˌt̪ˠə.ˌn̻ˠiː
 # text_ipa = ɣʟˠakˠ ə ˈʃoːɴˠsˠtˠəɴˠax mˠoːɾˠ e eɾˠ sˠkˠoːɾˠ ˈceɾʲə xɾˠokˠ jeːgˠ ˈimʲ ə ˈjaːɴˠuː eːɾʲ ˈihədˠ bˠoː ɴʲ ˈtʲoːɴˠsˠtˠəɴˠiː.
 1	Ghlac	glac	VERB	VT	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
@@ -80,7 +84,9 @@
 # sent_id = 5
 # text = Seachtmhain roimhe Shamhain chuaidh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh air ghach gearrán fá choinne a chuid ime.
 # text_standard = Seachtain roimh Shamhain chuaigh an Seónstanach siar ⁊ seacht ngearráin ⁊ péire cliabh ar gach gearrán faoi choinne a chuid ime.
+# text_modern = Seachtain roimhe Shamhain chuaigh an Seónstanach siar agus seacht ngearráin agus péire cliabh ar gach gearrán fá choinne a chuid ime.
 # text_phonetic = ʃαχtən ṟï̃və hα͠uwin′ χUi ə ʃo:Nstənαχ ʃiər αgəs ʃαχt ɲ′αræn′ αgəs p′eir′ə k′l′iuw er′ ꬶαχ g′αrαn fα χyN′ə ə χyd′ ïm′ə.
+# text_abair = ˈʃaɾˠ.ˌt̪ˠənʲ ˈɾˠi.ˌvʲə ˈhanʲ ˈxuaj ˈən̻ˠ ˈʃoːn̻ˠsˠ.ˌt̪ˠə.ˌn̻ˠəh ˈʃiaɾˠ ˈa.ˌɡəsˠ ˈʃaxt̪ˠ ˈɲa.ˌɾˠaːnʲ ˈa.ˌɡəsˠ ˈpʲeː.ˌɾʲə ˈclʲiavˠ ˈeɾʲ ˈɡah ˈɟa.ˌɾˠaːn̻ˠ ˈfˠaː ˈxo.ˌn̻ʲə ˌə ˈxidʲ ˈi.ˌmʲə
 # text_ipa = ˈʃaxtˠənʲ ˈɾˠivʲə ˈhauwənʲ ˈxui ə ˈʃoːɴˠsˠtˠəɴˠax ˈʃiəɾˠ ˈagˠəsˠ ʃaxtˠ ˈɲaɾˠanʲ ˈagˠəsˠ ˈpʲeːɾʲə clʲiəw eɾʲ ɣax ˈɟaɾˠaɴˠ fˠa ˈxiɴʲə ə xidʲ ˈimʲə.
 1	Seachtmhain	seachtain	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obl:tmod	_	_
 2	roimhe	roimh	ADP	Simp	_	3	case	_	_
