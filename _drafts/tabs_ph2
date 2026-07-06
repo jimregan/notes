@@ -37,15 +37,6 @@ https://github.com/kadirnar/notebooks/blob/update-orp-value/nb/Orpheus_(3B)-TTS.
 [2508.15316] CUPE: Contextless Universal Phoneme Encoder for Language-Agnostic Speech Processing
 https://arxiv.org/abs/2508.15316
 
-Call for papers: A special edition of TEANGA on corpus linguistics in an Irish-language context | Gaois research group
-https://www.gaois.ie/en/blog/gairm-ar-phaipeir-eagran-speisialta-teanga-faoin-teangeolaiocht-chorpais
-
-GitHub - shiml20/SVG: Official PyTorch Implementation of "Latent Diffusion Model Without Variational Autoencoder".
-https://github.com/shiml20/SVG
-
-GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression
-https://github.com/deepseek-ai/DeepSeek-OCR
-
 Alibaba’s Qwen AI Releases Compact Dense Qwen3-VL 4B/8B (Instruct & Thinking) With FP8 Checkpoints - MarkTechPost
 https://www.marktechpost.com/2025/10/14/alibabas-qwen-ai-releases-compact-dense-qwen3-vl-4b-8b-instruct-thinking-with-fp8-checkpoints/
 
@@ -85,35 +76,8 @@ https://screenrant.com/cheesy-sci-fi-better-than-modern-tv-shows/
 Baidu just dropped an open-source multimodal AI that it claims beats GPT-5 and Gemini | VentureBeat
 https://venturebeat.com/ai/baidu-just-dropped-an-open-source-multimodal-ai-that-it-claims-beats-gpt-5
 
-sam-3d-body/LICENSE at main · facebookresearch/sam-3d-body · GitHub
-https://github.com/facebookresearch/sam-3d-body/blob/main/LICENSE
-
-CB-RAG Path Implementation
-https://chatgpt.com/c/6a097256-7a04-83eb-8ce7-5df31c58ad30
-
-[2506.05706] Bridging the Modality Gap: Softly Discretizing Audio Representation for LLM-based Automatic Speech Recognition
-https://arxiv.org/abs/2506.05706
-
-Hear Me Out | Hear Me Out: Interactive evaluation and bias discovery platform for speech-to-speech conversational AI
-https://shreeharsha-bs.github.io/Hear-Me-Out/
-
-frankmorgner/vsmartcard: umbrella project for emulation of smart card readers or smart cards
-https://github.com/frankmorgner/vsmartcard
-
-Android Smart Card Emulator — vsmartcard 2025-03-27 documentation
-https://frankmorgner.github.io/vsmartcard/ACardEmulator/README.html
-
-Releases · frankmorgner/vsmartcard
-https://github.com/frankmorgner/vsmartcard/releases
-
-The Unexpected Effectiveness of One-Shot Decompilation with Claude
-https://simonwillison.net/2025/Dec/6/one-shot-decompilation/
-
-decomp.me
-https://decomp.me/
-
-AI in 2025: Reasoning Models, World Models & Open Source
-https://www.turingpost.com/p/models2recap
+sam-3d-body/sam_3d_body/models/backbones/vit.py at main · facebookresearch/sam-3d-body
+https://github.com/facebookresearch/sam-3d-body/blob/main/sam_3d_body/models/backbones/vit.py
 
 Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech
 https://arxiv.org/pdf/2509.17988v1
@@ -121,22 +85,13 @@ https://arxiv.org/pdf/2509.17988v1
 The Roadmap of Mathematics for Machine Learning
 https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning
 
-What could happen if you refused conscription?
-https://www.ladbible.com/news/uk-news/what-happens-if-refuse-conscription-war-uk-355473-20260104?fbclid=Iwb21leAPHq-NjbGNrA8er33NydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHnH912S2V1kFhrEZnVSNPl_Jpn6I1wBeHuw1tmHH4FfZ__3iFtCHMYVoDzN_&brid=6qUBM7EACIwzHbrtLUt_cw
-
-GitHub - UniversalDependencies/UD_North_Sami-Giella: North Sámi data.
+UniversalDependencies/UD_North_Sami-Giella: North Sámi data.
 https://github.com/UniversalDependencies/UD_North_Sami-Giella
 
-arxiv.org/pdf/2205.11508
-https://arxiv.org/pdf/2205.11508
-
-GitHub - lbalazscs/Pixelitor: A desktop image editor
-https://github.com/lbalazscs/Pixelitor
-
-transducersaurus/python/regex2wfst.py at master · markusdr/transducersaurus · GitHub
+Unicorn! · GitHub
 https://github.com/markusdr/transducersaurus/blob/master/python/regex2wfst.py
 
-smol-vision/Qwen3VL_Multimodal_RAG.ipynb at main · merveenoyan/smol-vision · GitHub
+smol-vision/Qwen3VL_Multimodal_RAG.ipynb at main · merveenoyan/smol-vision
 https://github.com/merveenoyan/smol-vision/blob/main/Qwen3VL_Multimodal_RAG.ipynb
 
 HuggingFaceFW/finetranslations · Datasets at Hugging Face
@@ -151,13 +106,7 @@ https://github.com/dspinellis/speak
 microsoft/FrogMini-14B-2510 · Hugging Face
 https://huggingface.co/microsoft/FrogMini-14B-2510
 
-[2510.19898] BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills
-https://arxiv.org/abs/2510.19898
-
-unsloth/FLUX.2-klein-4B-GGUF · Hugging Face
-https://huggingface.co/unsloth/FLUX.2-klein-4B-GGUF
-
-Claude
+Kaldi HCLG graph phonotactics composition - Claude
 https://claude.ai/chat/f71f7156-d11c-44c1-ac3d-c1434ecfe412
 
 microsoft/VibeVoice-ASR · Hugging Face
@@ -235,29 +184,41 @@ https://github.com/k2-fsa/ZipVoice
 [2507.09318] ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
 https://arxiv.org/abs/2507.09318
 
-ZipVoice-Dialog: Non-Autoregressive Spoken Dialogue Generation with Flow Matching
-https://arxiv.org/pdf/2507.09318
+Next-gen Kaldi - Next-gen Kaldi
+https://k2-fsa.org/
 
-k2 - Next-gen Kaldi
-https://k2-fsa.org/get-started/k2/
+icefall/egs at master · k2-fsa/icefall
+https://github.com/k2-fsa/icefall/tree/master/egs
 
-k2-fsa/ZipVoice: Fast and High-Quality Zero-Shot Text-to-Speech with Flow Matching
-https://github.com/k2-fsa/ZipVoice
+icefall/egs/vctk/TTS at master · k2-fsa/icefall
+https://github.com/k2-fsa/icefall/tree/master/egs/vctk/TTS
 
-7 learnings from Anders Hejlsberg: The architect behind C# and TypeScript - The GitHub Blog
-https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/
+icefall/egs/timit/ASR/tdnn_lstm_ctc/decode.py at master · k2-fsa/icefall
+https://github.com/k2-fsa/icefall/blob/master/egs/timit/ASR/tdnn_lstm_ctc/decode.py
 
-Banned C++ In Chromium: std::function, Exceptions, Regex | Medium
-https://medium.com/@build_break_learn/modern-c-is-a-lie-chromium-treats-half-the-standard-library-as-a-bug-42a9aa60a427
+Icefall — icefall 0.1 documentation
+https://k2-fsa.github.io/icefall/
+
+FST-based forced alignment — icefall 0.1 documentation
+https://k2-fsa.github.io/icefall/fst-based-forced-alignment/index.html
+
+Two approaches — icefall 0.1 documentation
+https://k2-fsa.github.io/icefall/fst-based-forced-alignment/diff.html#differences-between-the-two-approaches
+
+Kaldi-based forced alignment — icefall 0.1 documentation
+https://k2-fsa.github.io/icefall/fst-based-forced-alignment/kaldi-based.html
+
+k2-fsa/libriheavy: Libriheavy: a 50,000 hours ASR corpus with punctuation casing and context
+https://github.com/k2-fsa/libriheavy
+
+icefall/egs/librispeech/ASR/conformer_ctc/jit_pretrained_decode_with_H.py at master · k2-fsa/icefall
+https://github.com/k2-fsa/icefall/blob/master/egs/librispeech/ASR/conformer_ctc/jit_pretrained_decode_with_H.py
 
 Radio 1 - Listen Live - BBC Sounds
 https://www.bbc.co.uk/sounds/play/live/bbc_radio_one?partner=uk.co.bbc&origin=share-mobile&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNTY3MDY3MzQzMzUyNDI3AAGnEHMtI9i7fe57gEYOuTtHksJhF5V7p8yOT-ldSDoQayDVuMU_va0qe_zABoc_aem_hXR5tnFdqbIkXx6aqWGnVQ
 
 Qwen/Qwen3-ASR-1.7B · Hugging Face
 https://huggingface.co/Qwen/Qwen3-ASR-1.7B
-
-RESOURCEFUL workshop series | resourceful-workshop
-https://resourceful-workshop.github.io/
 
 speechbrain/soundchoice-g2p · Hugging Face
 https://huggingface.co/speechbrain/soundchoice-g2p
@@ -277,10 +238,7 @@ https://www.mcdonalds.com/se/sv-se/just-nu/aktuellkampanj.html
 GitHub - volcengine/OpenViking: OpenViking is an open-source context database designed specifically for AI Agents. OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-iteration.
 https://github.com/volcengine/OpenViking
 
-Dave Mustaine doesn’t want to reunite with certain former Megadeth members because they bad-mouthed him in interviews | Louder
-https://www.loudersound.com/news/megadeth-dave-mustaine-no-reunion-some-members-bad-mouthed-interviews-2026?fbclid=Iwb21leAPtpWVjbGNrA-2lXGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHuU0vJqhVGy5PQX-UohKH43ShCo00R39SCHNcGUAcC3OC5EPduhOuLvYNio7_aem_s6MUMQz7ehWu9n9XkEWUrQ
-
-GitHub - dreamtheater123/Awesome-SpeechLM-Survey: Github repository for ACL 2025 paper: Recent Advances in Speech Language Models: A Survey.
+dreamtheater123/Awesome-SpeechLM-Survey: Github repository for ACL 2025 paper: Recent Advances in Speech Language Models: A Survey.
 https://github.com/dreamtheater123/Awesome-SpeechLM-Survey
 
 librivox.org/api/info
@@ -291,12 +249,6 @@ https://arxiv.org/abs/2602.01032
 
 [2602.00681] Audio-to-Image Bird Species Retrieval without Audio-Image Pairs via Text Distillation
 https://arxiv.org/abs/2602.00681
-
-Personalized workout program - MadMuscles
-https://madmuscles.com/funnel/taichi-v490-unsx/step-one?utm_source=google_discovery&utm_medium=191017949516&utm_campaign=23416505515&utm_content=790420834059&utm_term=&camp_name=&asn=&utm_target=v%28martial_arts%29_tm1%28martarts%29_tm2%28taichi%29&utm_adname=DaiquiriCLV1_v1_cYM_dRA_pic_MM_tm1%28taichi%29_tm2%28general%29_len_p%28google%29_aMs_gM&gad_source=5&gad_campaignid=23416505515&gclid=EAIaIQobChMI3_yog7W-kgMVZYdQBh02YQdGEAEYASAAEgIVP_D_BwE&rr=0
-
-Star Wars Is Officially Retconning The Last Jedi
-https://screenrant.com/star-wars-mandoverse-luke-skywalker-rewriting-last-jedi/
 
 [2412.13462] SAVGBench: Benchmarking Spatially Aligned Audio-Video Generation
 https://arxiv.org/abs/2412.13462
@@ -1679,15 +1631,6 @@ inverse-hessian-regularization/README.md at main · StevenVdEeckt/inverse-hessia
 https://github.com/StevenVdEeckt/inverse-hessian-regularization/blob/main/README.md
 
 Continual Learning Overview
-https://chatgpt.com/c/6a4bb203-e308-83eb-8390-a6cb43ee3a6c
-
-SVT Sport
-https://www.svt.se/sport/
-
-svenskfotboll - YouTube
-https://www.youtube.com/@svenskfotboll/videos
-
-Every Time Obi-Wan Used a FORBIDDEN Move to Defeat an Enemy - YouTube
-https://www.youtube.com/watch?v=TeYQdOH3rnQ
+https://chatgpt.com/c/6a4bb203-e308-83eb-8390-a6cb43ee3a6c?mweb_fallback=1
 
 
