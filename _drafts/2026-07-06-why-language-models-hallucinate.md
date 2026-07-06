@@ -1,4 +1,23 @@
-Here’s a summary of **“Why Language Models Hallucinate”** by Adam Tauman Kalai, Ofir Nachum, Santosh S. Vempala, and Edwin Zhang. 
+---
+toc: true
+layout: post
+hidden: true
+description: ChatGPT paper summary
+title: Why Language Models Hallucinate
+categories: [summary, chatgpt]
+---
+
+```bibtex
+@misc{kalai2025languagemodelshallucinate,
+      title={Why Language Models Hallucinate}, 
+      author={Adam Tauman Kalai and Ofir Nachum and Santosh S. Vempala and Edwin Zhang},
+      year={2025},
+      eprint={2509.04664},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.04664}, 
+}
+```
 
 The paper argues that language model hallucinations are not mysterious or purely accidental. They arise from two main sources: **statistical pressures during pretraining** and **misaligned incentives during evaluation and post-training**.
 
