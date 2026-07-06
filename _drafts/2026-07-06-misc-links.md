@@ -56,3 +56,13 @@ categories: [links]
 [TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Curation for Localized Audio-Language Modeling](https://arxiv.org/abs/2603.05094)
 
 [Why Language Models Hallucinate](https://arxiv.org/abs/2509.04664)
+
+[PRiSM: Benchmarking Phone Realization in Speech Models](https://arxiv.org/abs/2601.14046)
+
+[WAXAL: A Large-Scale Multilingual African Language Speech Corpus](https://arxiv.org/abs/2602.02734),
+[google/WaxalNLP](https://huggingface.co/datasets/google/WaxalNLP)
+
+[Self-Supervised Speech Models Encode Phonetic Context via Position-dependent Orthogonal Subspaces](https://arxiv.org/abs/2603.12642),
+[code](https://github.com/juice500ml/phonetic-arithmetic)
+
+[Archaeologists Unearth “First Direct Evidence” of Advanced Ancient Metallurgy in Egypt’s Middle Kingdom](https://thedebrief.org/archaeologists-unearth-first-direct-evidence-of-advanced-ancient-metallurgy-in-egypts-middle-kingdom/)
