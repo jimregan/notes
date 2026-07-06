@@ -38,3 +38,21 @@ categories: [links]
 [code](https://github.com/k2-fsa/ZipVoice)
 
 [Modern C++ Is A Lie: Chromium Treats Half The Standard Library As A Bug](https://medium.com/@build_break_learn/modern-c-is-a-lie-chromium-treats-half-the-standard-library-as-a-bug-42a9aa60a427)
+
+[unsloth/FLUX.2-klein-4B-GGUF](https://huggingface.co/unsloth/FLUX.2-klein-4B-GGUF)
+
+[Nord-Parl-TTS: Finnish and Swedish TTS Dataset from Parliament Speech](https://arxiv.org/abs/2509.17988)
+
+[Replacing Protobuf with Rust to go 5 times faster](https://pgdog.dev/blog/replace-protobuf-with-rust)
+
+[noctalia-dev/noctalia](https://github.com/noctalia-dev/noctalia) --- A sleek and minimal desktop shell thoughtfully crafted for Wayland.
+
+[AG-REPA: Causal Layer Selection for Representation Alignment in Audio Flow Matching](https://arxiv.org/abs/2603.01006),
+[code](https://github.com/zpforlove/AG-REPA)
+
+[Whisper-MLA: Reducing GPU Memory Consumption of ASR Models based on MHA2MLA Conversion](https://arxiv.org/abs/2603.00563),
+[code](https://github.com/ssss-sen/Whisper_MLA)
+
+[TW-Sound580K: A Regional Audio-Text Dataset with Verification-Guided Curation for Localized Audio-Language Modeling](https://arxiv.org/abs/2603.05094)
+
+[Why Language Models Hallucinate](https://arxiv.org/abs/2509.04664)
