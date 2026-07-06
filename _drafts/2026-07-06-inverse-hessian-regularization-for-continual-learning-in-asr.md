@@ -7,9 +7,18 @@ title: Inverse-Hessian Regularization for Continual Learning in ASR
 categories: [summary, chatgpt]
 ---
 
-I've read the paper. At a high level, this is a fairly elegant idea: take the simplicity of **weight averaging** for continual learning and replace its heuristic merge step with a **curvature-aware merge** based on an approximate inverse Hessian. The authors show that this substantially improves adaptation while keeping forgetting very low, without storing previous data. 
-
-Here's the overview I'd want before diving into the code.
+```bibtex
+@INPROCEEDINGS{vander_eeckt_icassp26,
+  author={Vander Eeckt, Steven and Van Hamme, Hugo},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Inverse-Hessian Regularization for Continual Learning in ASR}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={18192-18196},
+  doi={10.1109/ICASSP55912.2026.11461503}
+}
+```
 
 ---
 
@@ -468,22 +477,3 @@ Merge
 ```
 
 This makes it easy to add to existing fine-tuning pipelines.
-
----
-
-## From a code perspective
-
-Since you've pointed me to the repository at:
-
-```
-/Users/joregan/Playing/inverse-hessian-regularization
-```
-
-I expect the implementation to break down into a few clear components:
-
-1. Standard ASR fine-tuning (ESPnet).
-2. Estimation and storage of KFAC inverse-Hessian factors for each linear layer.
-3. A post-training merge routine that replaces the raw update with the Hessian-corrected update.
-4. Evaluation across continual-learning tasks.
-
-When you're ready, we can walk through the repository file by file, identify where each of these pieces lives, and map every major equation in the paper to the corresponding implementation.
