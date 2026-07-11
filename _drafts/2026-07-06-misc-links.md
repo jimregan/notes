@@ -66,3 +66,7 @@ categories: [links]
 [code](https://github.com/juice500ml/phonetic-arithmetic)
 
 [Archaeologists Unearth “First Direct Evidence” of Advanced Ancient Metallurgy in Egypt’s Middle Kingdom](https://thedebrief.org/archaeologists-unearth-first-direct-evidence-of-advanced-ancient-metallurgy-in-egypts-middle-kingdom/)
+
+[Do Neural Codecs Generalize? A Controlled Study Across Unseen Languages and Non-Speech Tasks](https://arxiv.org/abs/2601.12205)
+
+[Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data](https://arxiv.org/abs/2509.15389)
