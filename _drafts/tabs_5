@@ -55,9 +55,6 @@ https://github.com/facebookresearch/vicreg
 2105.04906
 https://arxiv.org/pdf/2105.04906
 
-vicreg/main_vicreg.py at main · facebookresearch/vicreg
-https://github.com/facebookresearch/vicreg/blob/main/main_vicreg.py
-
 RandomResizedCrop — Torchvision main documentation
 https://docs.pytorch.org/vision/main/generated/torchvision.transforms.RandomResizedCrop.html
 
@@ -90,12 +87,6 @@ https://www.gutenberg.org/cache/epub/1184/pg1184-images.html
 
 Self Attention (Shared KV) - by Prof. Tom Yeh
 https://www.byhand.ai/p/library-models-attention-self-attention-shared-kv
-
-CLARIN Café | JOHD Special Collection on Language Dataset Reuse | CLARIN ERIC - Common Language Resources and Technology Infrastructure
-https://www.clarin.eu/event/2026/clarin-cafe-johd-special-collection-language-dataset-reuse
-
-Reviving Legacy WordNet-like Resources: MariTerm and ItalWordNet Renewal through Mutual Expansion and Plug-in Links - Google Search
-https://www.google.com/search?q=Reviving+Legacy+WordNet-like+Resources%3A+MariTerm+and+ItalWordNet+Renewal+through+Mutual+Expansion+and+Plug-in+Links&rlz=1C5GCCM_en&sourceid=chrome&ie=UTF-8
 
 Call for Workshop Papers - EMNLP 2026
 https://2026.emnlp.org/calls/workshops/
@@ -133,8 +124,17 @@ https://www.hsi-workshop.com/
 Gemma 4 - a google Collection
 https://huggingface.co/collections/google/gemma-4
 
-Minimizing Modality Gap from the Input Side: Your Speech LLM Can Be a Prosody-Aware Text LLM
-https://arxiv.org/pdf/2605.05927
+whisperpro github - Google Search
+https://www.google.com/search?q=whisperpro+github&sca_esv=e501d8701d597876&rlz=1C5GCCM_en&sxsrf=APpeQnvi2kdIsJ4hSyY-4HCJmqjnVBWX1w%3A1783340334402&ei=Lp1Lap-QGKWphbIP7KPPqQY&biw=1424&bih=714&ved=0ahUKEwif35S5hL6VAxWlVEEAHezRM2UQ4dUDCBA&uact=5&oq=whisperpro+github&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXdoaXNwZXJwcm8gZ2l0aHViMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIqQ1QoAVYiQtwAXgBkAEAmAGTAaAB4QWqAQM1LjK4AQPIAQD4AQGYAgigAvoFwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgeGA3CAgYQABgWGB7CAggQABgFGB4YDcICCBAAGAgYHhgNwgIHECEYChigAZgDAIgGAZAGCJIHAzYuMqAH2RmyBwM1LjK4B_UFwgcFMi4zLjPIBxCACAE&sclient=gws-wiz-serp
+
+Harnessing Whisper for Prosodic Stress Analysis - ACL Anthology
+https://aclanthology.org/2025.findings-acl.1331/
+
+[2503.02907] Fine-Tuning Whisper for Inclusive Prosodic Stress Analysis
+https://arxiv.org/abs/2503.02907
+
+slu-prosody/visualize_attention.ipynb at main · skit-ai/slu-prosody
+https://github.com/skit-ai/slu-prosody/blob/main/visualize_attention.ipynb
 
 RF-DETR Realtime Webcam Demo - a Hugging Face Space by huggingface-projects
 https://huggingface.co/spaces/huggingface-projects/rf-detr-realtime-webcam
@@ -205,27 +205,6 @@ https://www.youtube.com/watch?v=AaRyQQvU7RQ
 Unacceptable - S01E01 : r/panelshow
 https://www.reddit.com/r/panelshow/comments/1uog4vp/unacceptable_s01e01/
 
-Unacceptable: Series 1, Episode 1 - British Comedy Guide
-https://www.comedy.co.uk/tv/unacceptable/episodes/1/1/
-
-Guy Montgomery's Guy Mont Spelling Bee AU - S03E05 : r/panelshow
-https://www.reddit.com/r/panelshow/comments/1tom17b/guy_montgomerys_guy_mont_spelling_bee_au_s03e05/
-
-You know what they say about Tom Sainsbury's feet... #spellingbee #nz #comedy - YouTube
-https://www.youtube.com/shorts/9zeoQ5Vtuow
-
-guy montgomery spelling bee - Google Search
-https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zE42iC8rMjAxYPSSTi-tVMjNzytJz89NLapUKC5IzcnJzEtXSEpNBQA78w8O&q=guy+montgomery+spelling+bee&rlz=1C5GCCM_en&oq=guy+mont&gs_lcrp=EgZjaHJvbWUqBwgCEC4YgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEC4YgAQyBggDEEUYOTIHCAQQABiABDIHCAUQLhiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM0MzZqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
-
-Guy Montgomery's Guy Mont Spelling Bee (AU) - S03E01 : r/panelshow
-https://www.reddit.com/r/panelshow/comments/1syvf6m/guy_montgomerys_guy_mont_spelling_bee_au_s03e01/
-
-Guy Montgomery - Australian Border Security 2024 Melbourne International Comedy Festival Gala - YouTube
-https://www.youtube.com/watch?v=4h-s2wlf1oo
-
-New tab
-chrome://newtab/
-
 Dysfluent WFST: A Framework for Zero-Shot Speech Dysfluency Transcription and Detection
 https://arxiv.org/pdf/2505.16351
 
@@ -276,9 +255,6 @@ https://github.com/sprakbankental/dev-ars/blob/main/README-alenalin.md
 
 sprakbankental/dev-moma-drivers: Development of a MOMA-aligned system to project drivers (for action) from world states (from constrained worlds).
 https://github.com/sprakbankental/dev-moma-drivers
-
-sprakbankental/web-nordicprosody: Nordic prosody web site
-https://github.com/sprakbankental/web-nordicprosody
 
 core-corpora/xmlns/2025/gadda/criteria.xsd at develop · sprakbankental/core-corpora
 https://github.com/sprakbankental/core-corpora/blob/develop/xmlns/2025/gadda/criteria.xsd
@@ -439,7 +415,7 @@ https://www.reddit.com/user/ozmartian/
 ozmartian videos - Dailymotion
 https://www.dailymotion.com/user/ozmartian/videos
 
-Unacceptable (2026) - S01 E01 ::: Ed Gamble Richard Ayoade Joanne McNally - YouTube
-https://www.youtube.com/watch?v=XpObD_olnNk
+How to merge several .warc files into one? - Stack Overflow
+https://stackoverflow.com/questions/78764847/how-to-merge-several-warc-files-into-one
 
 
