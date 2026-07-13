@@ -70,3 +70,39 @@ categories: [links]
 [Do Neural Codecs Generalize? A Controlled Study Across Unseen Languages and Non-Speech Tasks](https://arxiv.org/abs/2601.12205)
 
 [Exploring Fine-Tuning of Large Audio Language Models for Spoken Language Understanding under Limited Speech Data](https://arxiv.org/abs/2509.15389)
+
+[Man Plays The Entire REIGN IN BLOOD Album At 200% SPEED In 1 Take](https://www.youtube.com/watch?v=Lv82IqyCb7E)
+
+[gaHealth: An English–Irish Bilingual Corpus of Health Data](https://aclanthology.org/2022.lrec-1.727/)
+
+```bibtex
+@inproceedings{lankford-etal-2022-gahealth,
+    title = "ga{H}ealth: An {E}nglish{--}{I}rish Bilingual Corpus of Health Data",
+    author = "Lankford, S{\'e}amus  and
+      Afli, Haithem  and
+      N{\'i} Loinsigh, {\'O}rla  and
+      Way, Andy",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.727/",
+    pages = "6753--6758",
+}
+```
+
+[Acoustic Phonetics](https://www.jstor.org/stable/522229)
