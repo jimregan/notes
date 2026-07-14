@@ -1243,8 +1243,6 @@ the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/Dave2syNtST/)
 
-I have corrected the likely slips to **megérkeztek a vendégek**, **együtt látni**, **egy évben**, and **azt érzitek … nincs idő mindenre**.
-
 **Mint láthatjátok, nem indult minden zökkenőmentesen: orkánerejű széllel indult, de megoldottuk.**
 
 As you can see, not everything started smoothly: it began with hurricane-force winds, but we solved it.
@@ -1403,5 +1401,3 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 * **pizzázás** — eating or going out for pizza
 * **jövőre** — next year
 * **tali** — see you; meetup, colloquial
-
-The reconstruction **„nincs idő mindenre, és…”** closely matches your uncertain **„[minden rész?]”** and is grammatically and contextually natural.
