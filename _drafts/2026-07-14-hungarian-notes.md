@@ -1401,3 +1401,10 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 * **pizzázás** — eating or going out for pizza
 * **jövőre** — next year
 * **tali** — see you; meetup, colloquial
+
+---
+
+[Reel](https://www.instagram.com/reels/DYaPGn7o3EQ/)
+
+Szia bby. Én nem degradalni akarlak se nem felmagasztalni, mint a rajongói kommentekben, en egy
+kolcsomosen elonyos ajánlatot adnék neked.
