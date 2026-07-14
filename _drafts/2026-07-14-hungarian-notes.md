@@ -489,3 +489,16 @@ because  this  the  3SG  page-3SG.POSS  get-2SG.DEF
 * **kár, hogy…** — it is a pity that…
 * **annyira…, hogy…** — so… that…
 * **valami helyett** — instead of something
+
+---
+
+[Reel](https://www.instagram.com/reels/DY7W6cVshSC/)
+
+És most beszéljünk a situationship-ről
+
+---
+
+[Reel](https://www.instagram.com/reels/DYZ64SWIWCI/)
+
+Ribancokkal normalis pasi nem foglalkozik pont
+Szerencsére pont itt van nálam
