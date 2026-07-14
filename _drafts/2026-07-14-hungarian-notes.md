@@ -1243,10 +1243,165 @@ the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/Dave2syNtST/)
 
-Mint láthatjátok nem indult minden zökkenőmentesen, orkán erejű széllel indult, de megoldottuk.
-Szépen lassan megérkezni vendégek, és minden egyes érkezéssel egyre jobb lett a hangulat is.
-Annyira jó érzés volt körbenézni és látni együtt azokat az embereket, akiket ennyire szeretek.
-Együtt ünnepelnek velem. Miért van ilyen egy éppen csak egyszer
-Ti is azt kezditek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő, [minden rész?] hirtelen vége is lesz.
-Külön köszönet Bencenek és Rebekának, hogy zenéltek nekünk videózás, naplementézés után az estét egy olasz pizzázással zártuk.
-Köszönöm mindenkinek, jövőre. Tali!
+I have corrected the likely slips to **megérkeztek a vendégek**, **együtt látni**, **egy évben**, and **azt érzitek … nincs idő mindenre**.
+
+**Mint láthatjátok, nem indult minden zökkenőmentesen: orkánerejű széllel indult, de megoldottuk.**
+
+As you can see, not everything started smoothly: it began with hurricane-force winds, but we solved it.
+
+```text
+Mint  lát-hat-já-tok,      nem  indul-t
+as    see-POT-2PL.DEF      NEG  start-PST.3SG
+
+minden  zökkenőmentes-en:  orkán-erejű
+everything smooth-ADV      hurricane-force
+
+szél-lel  indul-t,       de   meg-old-ott-uk.
+wind-INST start-PST.3SG  but  PV-solve-PST-1PL.DEF
+```
+
+**Szépen lassan megérkeztek a vendégek, és minden egyes érkezéssel egyre jobb lett a hangulat is.**
+
+Gradually, the guests arrived, and with every single arrival the atmosphere became better and better.
+
+```text
+Szép-en  lass-an  meg-érkez-t-ek       a
+nice-ADV slow-ADV PV-arrive-PST-3PL    the
+
+vendég-ek,  és   minden  egyes  érkezés-sel
+guest-PL    and  every   single arrival-INST
+
+egy-re       jobb       lett,           a
+one-SBL      good.CMPR  become.PST.3SG the
+
+hangulat  is.
+atmosphere also
+```
+
+**Annyira jó érzés volt körbenézni és együtt látni azokat az embereket, akiket ennyire szeretek.**
+
+It was such a good feeling to look around and see together all those people whom I love so much.
+
+```text
+Annyira  jó    érzés    volt          körbe-néz-ni
+so.much  good  feeling  be.PST.3SG    around-look-INF
+
+és   együtt    lát-ni  az-ok-at
+and  together  see-INF that-PL-ACC
+
+az   ember-ek-et,  aki-k-et       ennyire
+the  person-PL-ACC REL-PL-ACC     this.much
+
+szeret-ek.
+love-1SG.DEF
+```
+
+**Együtt ünnepelnek velem.**
+
+They are celebrating together with me.
+
+```text
+Együtt    ünnepel-nek       vel-em.
+together  celebrate-3PL     with-1SG
+```
+
+**Miért van ilyen egy évben csak egyszer?**
+
+Why does something like this happen only once a year?
+
+```text
+Miért  van     ilyen  egy  év-ben   csak  egyszer?
+why    be.3SG  such   a    year-INE only  once
+```
+
+**Ti is azt érzitek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő mindenre, és hirtelen vége is lesz?**
+
+Do you also feel at times like this that you would talk to everyone, but there simply is not time for everything, and suddenly it is over?
+
+```text
+Ti   is    az-t      érz-i-tek       ilyen-kor,
+2PL  also  that-ACC  feel-2PL.DEF    such-TEMP
+
+hogy  mindenki-vel  beszélget-né-tek,
+that  everyone-INST talk-COND-2PL
+
+de   egyszerű-en  nincs        idő   minden-re,
+but  simple-ADV   NEG.be.3SG   time  everything-SBL
+
+és   hirtelen  vég-e          is    lesz?
+and  suddenly  end-3SG.POSS   also  become.3SG
+```
+
+**Külön köszönet Bencének és Rebekának, hogy zenéltek nekünk.**
+
+Special thanks to Bence and Rebeka for playing music for us.
+
+```text
+Külön    köszönet  Bencé-nek  és   Rebeká-nak,
+special  thanks    Bence-DAT   and  Rebeka-DAT
+
+hogy  zenél-t-ek         nek-ünk.
+that  play.music-PST-3PL DAT-1PL
+```
+
+**Videózás, naplementézés után az estét egy olasz pizzázással zártuk.**
+
+After filming and watching the sunset, we ended the evening by having Italian pizza.
+
+```text
+Videó-zás,  nap-lementé-zés  után   az
+video-NMLZ  sun-setting-NMLZ after  the
+
+est-é-t           egy  olasz    pizzá-zás-sal
+evening-POSS-ACC  an   Italian  pizza-NMLZ-INST
+
+zár-t-uk.
+close-PST-1PL.DEF
+```
+
+**Köszönöm mindenkinek. Jövőre tali!**
+
+Thank you, everyone. See you next year!
+
+```text
+Köszön-öm       mindenki-nek.  Jövő-re  tali!
+thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
+```
+
+## A2 vocabulary
+
+* **mint láthatjátok** — as you can see
+* **zökkenőmentesen** — smoothly; without problems
+* **orkánerejű** — hurricane-force
+* **megold** — solve; sort out
+* **szépen lassan** — gradually; little by little
+* **megérkezik** — arrive
+* **vendég** — guest
+* **minden egyes** — every single
+* **érkezés** — arrival
+* **egyre jobb** — better and better
+* **hangulat** — atmosphere; mood
+* **annyira** — so; to such an extent
+* **körbenéz** — look around
+* **együtt** — together
+* **ünnepel** — celebrate
+* **egy évben egyszer** — once a year
+* **ilyenkor** — at times like this
+* **érez** — feel
+* **mindenkivel** — with everyone
+* **beszélget** — talk; have a conversation
+* **egyszerűen** — simply
+* **mindenre** — for everything
+* **hirtelen** — suddenly
+* **vége lesz** — come to an end; be over
+* **külön köszönet** — special thanks
+* **zenél** — play music
+* **videózás** — filming; making videos
+* **naplementézés** — watching the sunset
+* **valami után** — after something
+* **az estét valamivel zárja** — end the evening with something
+* **pizzázás** — eating or going out for pizza
+* **jövőre** — next year
+* **tali** — see you; meetup, colloquial
+
+The reconstruction **„nincs idő mindenre, és…”** closely matches your uncertain **„[minden rész?]”** and is grammatically and contextually natural.
