@@ -345,14 +345,19 @@ tyúk-basz-ó,  redvás  kis     köcsög.
 hen-fuck-AGT  filthy  little  asshole
 ```
 
-**Ez egy pudekli volt, jó van?**
+**Ez egy pukedli volt, jó van?**
 
-That was a *pudekli*, all right?
+That was a curtsy, all right?
 
 ```text
-Ez    egy  pudekli  volt,        jó    van?
-this  a    UNK      be.PST.3SG   good  be.3SG
+Ez    egy  pukedli  volt,        jó    van?
+this  a    curtsy   be.PST.3SG   good  be.3SG
 ```
+
+**Pukedli** means a curtsy or ceremonial knee-bend. ([arcanum.com][1])
+
+[1]: https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/p-44572/pukedli-469E8/?utm_source=chatgpt.com "pukedli | A magyar nyelv értelmező szótára | Kézikönyvtár"
+
 
 **Jaj, hugyos, kapcsold le magad, mielőtt más is lekapcsol.**
 
