@@ -905,21 +905,247 @@ DM   2PL  what-ACC  think-2PL.INDF  this-DEL
 
 [Reel](https://www.instagram.com/reels/DYZ64SWIWCI/)
 
-Ribancokkal normalis pasi nem foglalkozik pont
-Szerencsére pont itt van nálam a normális pasik kézikönyve
-[1. Ne foglalkozz a ribikkel]
-Egyes pont. Ribancokkal nem foglalkozni.
-[2. Oszd ki a ribiket]
-Kettes pont.
-Nőgyűlölő kommentek hagyása a Facebookon.
-Várjunk hogyha megírja a ribiknek hogy ő nem foglalkozik a ribikkel akkor az tulajdonképpen ribikkel való foglalkozásnak minősül nem?
-hogy rívikkel a krestor egy nonkét tár rívik, kével a foglalkozáslatmíny és új nál?
-Ne mutogasd nekik a melled mert jobban tetszenél nekik ha a farkadat mutogatnád.
-Bár nem értem mért követnek és kommentelnek...
-De te is kommentelsz
-...a postjaid alatt. Fú de beteg ez a magyar társadalom.
-Egy nő? He?
-Hát tudod mit szerintem meg nagyon jó a sminked tök jó a hajad.
-Szép a mosolyod és biztos vagyok benne hogy egy intelligens és humoros nő vagy
-amikor éppen nincsen gyenge pillanatod és nem hagysz ilyen kommenteket.
-Letiltottalak, fasz se kíváncsi rád
+The severely garbled line after **„…minősül, nem?”** seems to repeat or reformulate that same thought. I have omitted it rather than inventing a second sentence.
+
+**Ribancokkal normális pasi nem foglalkozik. Pont.**
+
+A normal guy does not deal with sluts. Period.
+
+```text
+Ribanc-ok-kal  normális  pasi  nem  foglalkoz-ik.  Pont.
+slut-PL-INST   normal    guy   NEG  deal.with-3SG  period
+```
+
+**Szerencsére pont itt van nálam a normális pasik kézikönyve.**
+
+Luckily, I happen to have the normal guys’ handbook right here.
+
+```text
+Szerencsé-re  pont     itt   van     nál-am
+luck-SBL      exactly  here  be.3SG  at-1SG
+
+a    normális  pasi-k  kézi-könyv-e.
+the  normal    guy-PL  hand-book-3SG.POSS
+```
+
+**1. Ne foglalkozz a ribikkel.**
+
+1. Do not deal with the sluts.
+
+```text
+Ne       foglalkoz-z       a    ribi-k-kel.
+NEG.IMP  deal.with-IMP.2SG the  slut-PL-INST
+```
+
+**Egyes pont: ribancokkal nem foglalkozni.**
+
+Point one: do not deal with sluts.
+
+```text
+Egy-es  pont:  ribanc-ok-kal  nem  foglalkoz-ni.
+one-ORD point   slut-PL-INST   NEG  deal.with-INF
+```
+
+**2. Oszd ki a ribiket.**
+
+2. Put the sluts in their place.
+
+```text
+Osz-d             ki  a    ribi-k-et.
+deal-IMP.2SG.DEF  PV  the  slut-PL-ACC
+```
+
+**Kettes pont: nőgyűlölő kommentek hagyása a Facebookon.**
+
+Point two: leaving misogynistic comments on Facebook.
+
+```text
+Kett-es  pont:  nő-gyűlöl-ő    komment-ek
+two-ORD  point   woman-hate-PTCP comment-PL
+
+hagy-ás-a             a    Facebook-on.
+leave-NMLZ-3SG.POSS   the  Facebook-SUP
+```
+
+**Várjunk, hogyha megírja a ribiknek, hogy ő nem foglalkozik a ribikkel, akkor az tulajdonképpen ribikkel való foglalkozásnak minősül, nem?**
+
+Wait: if he writes to the sluts that he does not deal with sluts, then that actually counts as dealing with sluts, doesn’t it?
+
+```text
+Vár-j-unk,       hogyha  meg-ír-ja
+wait-SBJV-1PL    if      PV-write-3SG.DEF
+
+a    ribi-k-nek,  hogy  ő   nem  foglalkoz-ik
+the  slut-PL-DAT  that  3SG NEG  deal.with-3SG
+
+a    ribi-k-kel,  akkor  az    tulajdonképpen
+the  slut-PL-INST then   that  actually
+
+ribi-k-kel    való  foglalkoz-ás-nak
+slut-PL-INST  being deal.with-NMLZ-DAT
+
+minősül,          nem?
+count.as.3SG      NEG
+```
+
+**Ne mutogasd nekik a melled, mert jobban tetszenél nekik, ha a farkadat mutogatnád.**
+
+Do not keep showing them your breasts, because they would like you better if you showed them your dick.
+
+```text
+Ne       mutogat-d          nek-ik   a
+NEG.IMP  show.REP-IMP.2SG.DEF DAT-3PL the
+
+mell-ed-et,           mert     jobb-an
+breast-2SG.POSS-ACC   because  good-CMPR-ADV
+
+tetsz-enél       nek-ik,   ha  a
+please-COND.2SG DAT-3PL    if  the
+
+fark-ad-at           mutogat-ná-d.
+dick-2SG.POSS-ACC    show.REP-COND-2SG.DEF
+```
+
+**Bár nem értem, miért követnek és kommentelnek…**
+
+Although I do not understand why they follow you and leave comments…
+
+```text
+Bár       nem  ért-em,          miért  követ-nek
+although  NEG  understand-1SG.DEF why    follow-3PL
+
+és   kommentel-nek…
+and  comment-3PL
+```
+
+**De te is kommentelsz.**
+
+But you comment too.
+
+```text
+De   te   is    kommentel-sz.
+but  2SG  also  comment-2SG
+```
+
+**…a posztjaid alatt.**
+
+…under your posts.
+
+```text
+a    poszt-ja-id       alatt.
+the  post-3SG.POSS-2SG under
+```
+
+**Fú, de beteg ez a magyar társadalom.**
+
+Ugh, how sick Hungarian society is.
+
+```text
+Fú,   de   beteg  ez    a    magyar     társadalom.
+ugh   how  sick   this  the  Hungarian  society
+```
+
+**Egy nő? He?**
+
+A woman? Huh?
+
+```text
+Egy  nő?     He?
+a    woman   huh
+```
+
+**Hát tudod mit, szerintem meg nagyon jó a sminked, tök jó a hajad.**
+
+Well, you know what? I think your makeup is very good, and your hair is really good.
+
+```text
+Hát  tud-od       mi-t,      szerint-em  meg
+DM    know-2SG.DEF what-ACC   opinion-1SG and
+
+nagyon  jó    a    smink-ed,          tök
+very    good  the  makeup-2SG.POSS    totally
+
+jó    a    haj-ad.
+good  the  hair-2SG.POSS
+```
+
+**Szép a mosolyod, és biztos vagyok benne, hogy egy intelligens és humoros nő vagy.**
+
+Your smile is beautiful, and I am sure that you are an intelligent and funny woman.
+
+```text
+Szép       a    mosoly-od,         és   biztos
+beautiful  the  smile-2SG.POSS     and  certain
+
+vagy-ok  benne,  hogy  egy  intelligens  és
+be-1SG   in.it   that  an   intelligent  and
+
+humor-os  nő     vagy.
+humour-ADJ woman be.2SG
+```
+
+**Amikor éppen nincsen gyenge pillanatod, és nem hagysz ilyen kommenteket.**
+
+When you are not having a weak moment and leaving comments like these.
+
+```text
+Amikor  éppen  nincs-en      gyenge  pillanat-od,
+when    just    NEG.be-3SG    weak    moment-2SG.POSS
+
+és   nem  hagy-sz         ilyen  komment-ek-et.
+and  NEG  leave-2SG.INDF  such   comment-PL-ACC
+```
+
+**Letiltottalak, fasz se kíváncsi rád.**
+
+I blocked you; no fucker is interested in you.
+
+```text
+Le-tilt-ott-alak,       fasz  se
+PV-block-PST-1SG>2SG    dick  neither
+
+kíváncsi    rád.
+interested  onto.2SG
+```
+
+## A2 vocabulary
+
+* **normális** — normal
+* **pasi** — guy
+* **foglalkozik valakivel** — deal with someone; concern oneself with someone
+* **pont** — exactly; just; period
+* **szerencsére** — luckily
+* **kézikönyv** — handbook; manual
+* **egyes pont** — point one
+* **kettes pont** — point two
+* **kioszt valakit** — tell someone off; put someone in their place
+* **nőgyűlölő** — misogynistic
+* **kommentet hagy** — leave a comment
+* **várjunk** — wait; hold on
+* **megír valakinek valamit** — write something to someone
+* **tulajdonképpen** — actually; essentially
+* **valaminek minősül** — count as something; qualify as something
+* **mutogat** — repeatedly show; display
+* **mell** — breast; chest
+* **jobban tetszik** — like better; find more attractive
+* **követ valakit** — follow someone
+* **kommentel** — comment
+* **poszt alatt** — under a post
+* **beteg** — sick; unhealthy
+* **társadalom** — society
+* **szerintem** — in my opinion
+* **smink** — makeup
+* **tök jó** — really good; very good
+* **mosoly** — smile
+* **biztos vagyok benne** — I am sure of it
+* **humoros** — humorous; funny
+* **éppen** — just; currently
+* **gyenge pillanat** — weak moment
+* **letilt valakit** — block someone
+* **kíváncsi valakire** — be interested in or curious about someone
+
+## Recognition-only slang and insults
+
+* **ribanc** — slut; whore
+* **ribi** — shortened slang form of **ribanc**
+* **fasz se** — literally “not a dick”; vulgar “nobody at all”
