@@ -494,8 +494,6 @@ because  this  the  3SG  page-3SG.POSS  get-2SG.DEF
 
 [Reel](https://www.instagram.com/reels/DY7W6cVshSC/)
 
-Yes: the ending is **-ről**. I would write it **situationshipről**, without a hyphen. Hungarian usage normally attaches suffixes directly to this word: **situationshipben, situationshipek, situationshipet**. ([mindsetpszichologia.hu][1])
-
 **És most beszéljünk a situationshipről.**
 
 And now let’s talk about the situationship.
@@ -505,9 +503,6 @@ And now let’s talk about the situationship.
 and  now   speak-SBJV-1PL.INDF the  situationship-DEL
 ```
 
-The suffix is **-ről** because the word is pronounced with a front-vowel ending: approximately *szituésönsip-ről*. The hyphen in the gloss marks the morpheme boundary; it is not used in the normal Hungarian spelling.
-
-[1]: https://mindsetpszichologia.hu/nem-kellesz-elegge-a-situationshipek-vilaga?utm_source=chatgpt.com "Nem kellesz eléggé! – a situationshipek világa"
 
 
 ---
