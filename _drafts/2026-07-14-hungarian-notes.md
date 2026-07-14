@@ -1409,9 +1409,9 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 Szia bby.
 Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentekben, én egy kölcsönmösen előnyes ajánlatot adnék neked.
 Én rapper!
-És hála az Istennek, megyek a megastárba!
+És hála az Istennek, megyek a megasztárba!
 Így végre be fogok futni.
-Te egy szép lány vagy, eljöhetnéd az egyik videóklippembe.
+Te egy szép lány vagy, eljöhetnel az egyik videóklippembe.
 Utána, ha megvan a kellő vibe,
 akkor faszra kaplak.
 Mit szólsz mindehhez?
@@ -1422,22 +1422,33 @@ Baszki, ezek mi is lehettünk volna, ha egy kicsit bevállalósabb lennék.
 Mi van? Mi ez a szám?
 Megbasztam én a dalmát, szedtem neki vadalmát.
 Itt volt velem a Natika, a pinája mindig patika.
-Nagyon jó csaj a Kitty, színe nekem itti.
-Nagyon jó csaj az Ágnes, a pinája vas, a farka meg a mágnes.
-Nagyon jó bőr a Brigitta, a Getsin Franco megitta.
-Itt van velem a Renálta, a faszom kajak lerákta.
+Nagyon jó csaj a Kitti, szil e nekem itti.
+Nagyon jó csaj az Ágnes, a pinája vas, a farkam meg a mágnes.
+Nagyon jó bőr a Brigitta, gecim frankón megitta.
+Itt van velem a Renáta, a faszom kajak lerágta.
 Elnézést, de most kellett egy perc, hogy összeszedjem magam.
-Nagyon jó csaj az Ágnes, pinája vas, farka meg mágnes.
+Nagyon jó csaj az Ágnes, pinája vas, farkam meg mágnes.
 Kreativitás az van.
 Pfff...
 Persze majdnem minden létező nő belekerült a videóba,
-de Emma-ra, Emma-ra nem találták ki semmit.
+de Emmára, Emmára nem találták ki semmit.
 Hm...
-Vajon mit írtál volna rólam, hogyha együtt működünk?
+Vajon mit írtál volna rólam, hogyha együttműködünk?
 Nagyon jó csaj az Emma, a kommentelők sírnak ma.
-Azt írják, kurva nagy a pofája, közben ráverik a fotójára.
+Azt írják, kurva nagy a pofája, közbe ráverik a fotójára.
 A nőkön vered a nyomorod szét, mert az önbizalmad elfogyott rég.
-Nagyon jó csaj az Emma, a Reddit népe full idegbajban.
-Biztos eszkod, biztos kurva, közben anyuktól kérnek, puszad buszra.
-Biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biz
-Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességet.
+Nagyon jó csaj az Emma, a Reddit népe full idegbajba
+Biztos Escort, biztos kurva, közbe anyu któl kérnek húszas t buszra.
+Nagyon jó csaj az Emma, a Facebook népe habzik rajta ki a faszt nézi ezt a picsát
+ezért tart ma itt a világ
+A nőkön vered a nyomorod szét közbe apád se mondta hogy büszke rád még
+Nagyon jó csaj az Emma, a Tiktok népe ki van bukva
+Én ezt tuti meg num dugnám
+Emma inkább remetének állna megsúgnám
+Régen minden nő tudta a helyét
+Feri még mindig ezen eszi a kefét
+Én az ilyen picsákat nem bírom attila profilekép
+E egy kerti grillácson
+Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességed.
+Veszítsd el végre a szüzességed
+
