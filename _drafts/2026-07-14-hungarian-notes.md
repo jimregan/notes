@@ -906,17 +906,20 @@ DM   2PL  what-ACC  think-2PL.INDF  this-DEL
 [Reel](https://www.instagram.com/reels/DYZ64SWIWCI/)
 
 Ribancokkal normalis pasi nem foglalkozik pont
-Szerencsére pont itt van nálam
-mális poszik kérdikön, ve?
-Egy leszbont. Riban foglalkozni. Kettesbont.
-Gyűdűdőle fognán tekoydásra a Facebookon.
-Márim, hogy a magídi, hogy a ríviknek, hogy a nap foglalkozik,
+Szerencsére pont itt van nálam a normális pasik kézikönyve
+[1. Ne foglalkozz a ribikkel]
+Egyes pont. Ribancokkal nem foglalkozni.
+[2. Oszd ki a ribiket]
+Kettes pont.
+Nőgyűlölő kommentek hagyása a Facebookon.
+Várjunk hogyha megírja a ribiknek hogy ő nem foglalkozik a ribikkel akkor az tulajdonképpen ribikkel való foglalkozásnak minősül nem?
 hogy rívikkel a krestor egy nonkét tár rívik, kével a foglalkozáslatmíny és új nál?
-Nem utogásnakik a melyed, és mert jobbantett szerej elnekik ha a farkodat.
-Mútógat lát.
-Bár nemértem mert követnek és koment elnek.
-Mertéz komentál.
-A postja idala. Fudabeteg ez a magiartásadalom.
-Egy nyő? He?
-Hát tudod, mit szerintem megmelyojó, és minden tök jó a hojad.
-És a kével, hogy a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével
+Ne mutogasd nekik a melled mert jobban tetszenél nekik ha a farkadat mutogatnád.
+Bár nem értem mért követnek és kommentelnek...
+De te is kommentelsz
+...a postjaid alatt. Fú de beteg ez a magyar társadalom.
+Egy nő? He?
+Hát tudod mit szerintem meg nagyon jó a sminked tök jó a hajad.
+Szép a mosolyod és biztos vagyok benne hogy egy intelligens és humoros nő vagy
+amikor éppen nincsen gyenge pillanatod és nem hagysz ilyen kommenteket.
+Letiltottalak, fasz se kíváncsi rád
