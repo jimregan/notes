@@ -1200,3 +1200,11 @@ or    really   be.interested-2PL  towards-1PL
 * **tényleg** — really; genuinely
 * **érdeklődik valaki iránt** — be interested in someone
 * **irántunk** — in us; towards us
+
+---
+
+[Reel](https://www.instagram.com/reels/DZM-OyRMux6/)
+
+Miben hasonlít az óvszer és a feleség?
+
+Mind a kettő többet tartózkodik a pénztárcádban, mint a f*rkd*n...
