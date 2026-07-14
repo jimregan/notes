@@ -1406,49 +1406,600 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 
 [Reel](https://www.instagram.com/reels/DYaPGn7o3EQ/)
 
-Szia bby.
-Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentekben, én egy kölcsönmösen előnyes ajánlatot adnék neked.
-Én rapper!
-És hála az Istennek, megyek a megasztárba!
-Így végre be fogok futni.
-Te egy szép lány vagy, eljöhetnel az egyik videóklippembe.
-Utána, ha megvan a kellő vibe,
-akkor faszra kaplak.
-Mit szólsz mindehhez?
-Benne lennél egy ilyen jellegű kollaborációba?
-Ehh... no.
-Annyira csábító volt ez az ajánlat, hogy muszáj volt megnéznem ennek a rappernek az oldalát.
-Baszki, ezek mi is lehettünk volna, ha egy kicsit bevállalósabb lennék.
-Mi van? Mi ez a szám?
-Megbasztam én a dalmát, szedtem neki vadalmát.
-Itt volt velem a Natika, a pinája mindig patika.
-Nagyon jó csaj a Kitti, szil e nekem itti.
-Nagyon jó csaj az Ágnes, a pinája vas, a farkam meg a mágnes.
-Nagyon jó bőr a Brigitta, gecim frankón megitta.
-Itt van velem a Renáta, a faszom kajak lerágta.
-Elnézést, de most kellett egy perc, hogy összeszedjem magam.
-Nagyon jó csaj az Ágnes, pinája vas, farkam meg mágnes.
-Kreativitás az van.
-Pfff...
-Persze majdnem minden létező nő belekerült a videóba,
-de Emmára, Emmára nem találták ki semmit.
-Hm...
-Vajon mit írtál volna rólam, hogyha együttműködünk?
-Nagyon jó csaj az Emma, a kommentelők sírnak ma.
-Azt írják, kurva nagy a pofája, közbe ráverik a fotójára.
-A nőkön vered a nyomorod szét, mert az önbizalmad elfogyott rég.
-Nagyon jó csaj az Emma, a Reddit népe full idegbajba
-Biztos Escort, biztos kurva, közbe anyu któl kérnek húszas t buszra.
-Nagyon jó csaj az Emma, a Facebook népe habzik rajta ki a faszt nézi ezt a picsát
-ezért tart ma itt a világ
-A nőkön vered a nyomorod szét közbe apád se mondta hogy büszke rád még
-Nagyon jó csaj az Emma, a Tiktok népe ki van bukva
-Én ezt tuti meg num dugnám
-Emma inkább remetének állna megsúgnám
-Régen minden nő tudta a helyét
-Feri még mindig ezen eszi a kefét
-Én az ilyen picsákat nem bírom attila profilekép
-E egy kerti grillácson
-Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességed.
-Veszítsd el végre a szüzességed
+I’ve regularized obvious forms such as **kölcsönösen előnyös**, **eljöhetnél**, **kollaborációban**, **közben**, **anyujuktól**, and **meg nem dugnám**. The Kitti rhyme and the profile-picture aside remain uncertain. **Eszi a kefét** means “is annoyed/worked up.” ([arcanum.com][1])
 
+**Szia, bby.**
+
+Hi, baby.
+
+```text
+Szia,  bby.
+hello  baby
+```
+
+**Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentben; én egy kölcsönösen előnyös ajánlatot adnék neked.**
+
+I do not want to demean you or exalt you as in a fan comment; I would make you a mutually beneficial offer.
+
+```text
+Én  nem  degradál-ni  akar-lak,      se      nem
+1SG NEG  demean-INF   want-1SG>2SG   neither NEG
+
+fel-magasztal-ni,  mint  egy  rajongó-i  komment-ben;
+PV-exalt-INF       as    a    fan-ADJ     comment-INE
+
+én  egy  kölcsönös-en  előny-ös       ajánlat-ot
+1SG a    mutual-ADV    advantage-ADJ  offer-ACC
+
+ad-né-k          nek-ed.
+give-COND-1SG    DAT-2SG
+```
+
+**Én rapper vagyok!**
+
+I am a rapper!
+
+```text
+Én   rapper  vagy-ok!
+1SG  rapper  be-1SG
+```
+
+**És hála az Istennek, megyek a Megasztárba!**
+
+And thank God, I am going on *Megasztár*!
+
+```text
+És  hála    az   Isten-nek,  megy-ek
+and thanks  the  God-DAT     go-1SG.INDF
+
+a    Megasztár-ba!
+the  Megasztár-ILL
+```
+
+**Így végre be fogok futni.**
+
+This way I will finally make it.
+
+```text
+Így   végre    be  fog-ok   fut-ni.
+thus  finally  PV  FUT-1SG  run-INF
+```
+
+**Te egy szép lány vagy, eljöhetnél az egyik videóklipembe.**
+
+You are a beautiful girl; you could come and appear in one of my music videos.
+
+```text
+Te   egy  szép       lány  vagy,
+2SG  a    beautiful  girl  be.2SG
+
+el-jö-het-né-l            az   egy-ik
+PV-come-POT-COND-2SG      the  one-ONE
+
+videóklip-em-be.
+music.video-1SG.POSS-ILL
+```
+
+**Utána, ha megvan a kellő vibe, akkor faszra kaplak.**
+
+Afterwards, if the vibe is right, I will put you on my dick.
+
+```text
+Utána,  ha  meg-van      a    kell-ő  vibe,
+after   if  PV-be.3SG    the  need-PTCP vibe
+
+akkor  fasz-ra   kap-lak.
+then   dick-SBL  take-1SG>2SG
+```
+
+**Mit szólsz mindehhez?**
+
+What do you say to all this?
+
+```text
+Mi-t      szól-sz         mind-ez-hez?
+what-ACC  say-2SG.INDF    all-this-ALL
+```
+
+**Benne lennél egy ilyen jellegű kollaborációban?**
+
+Would you be up for a collaboration of this kind?
+
+```text
+Benne   len-né-l      egy  ilyen  jelleg-ű
+in.it   be-COND-2SG   a    such   kind-PROP
+
+kollaboráció-ban?
+collaboration-INE
+```
+
+**Ehh… no.**
+
+Ehh… no.
+
+```text
+Ehh…  no.
+ehh    no
+```
+
+**Annyira csábító volt ez az ajánlat, hogy muszáj volt megnéznem ennek a rappernek az oldalát.**
+
+This offer was so tempting that I had to look at this rapper’s page.
+
+```text
+Annyira  csábító  volt          ez    az   ajánlat,
+so.much  tempting  be.PST.3SG   this  the  offer
+
+hogy  muszáj     volt          meg-néz-n-em
+that  necessary  be.PST.3SG    PV-look-INF-1SG
+
+ennek     a    rapper-nek  az   oldal-á-t.
+this.DAT  the  rapper-DAT  the  page-3SG.POSS-ACC
+```
+
+**Baszki, ezek mi is lehettünk volna, ha egy kicsit bevállalósabb lennék.**
+
+Fuck, this could have been us too, if I were a little more adventurous.
+
+```text
+Baszki,  ez-ek     mi   is    lehet-t-ünk
+fuck     this-PL   1PL  also  be.POT-PST-1PL
+
+volna,     ha  egy  kicsi-t     be-vállal-ós-abb
+AUX.COND   if  a    little-ACC  PV-take.on-ADJ-CMPR
+
+len-né-k.
+be-COND-1SG
+```
+
+**Mi van? Mi ez a szám?**
+
+What is this? What is this song?
+
+```text
+Mi    van?     Mi    ez    a    szám?
+what  be.3SG   what  this  the  song
+```
+
+**Megbasztam én a Dalmát, szedtem neki vadalmát.**
+
+I fucked Dalma; I picked wild apples for her.
+
+```text
+Meg-basz-t-am      én   a    Dalmá-t,
+PV-fuck-PST-1SG    1SG  the  Dalma-ACC
+
+szed-t-em       nek-i    vad-almá-t.
+pick-PST-1SG    DAT-3SG  wild-apple-ACC
+```
+
+**Itt volt velem a Natika, a pinája mindig patika.**
+
+Natika was here with me; her pussy is always top-notch.
+
+```text
+Itt   volt         vel-em   a    Natika,
+here  be.PST.3SG   with-1SG the  Natika
+
+a    piná-ja            mindig  patika.
+the  pussy-3SG.POSS     always  top.notch
+```
+
+**Nagyon jó csaj a Kitti, [érthetetlen rímsor].**
+
+Kitti is a very hot girl, [unintelligible rhyming phrase].
+
+```text
+Nagyon  jó    csaj  a    Kitti,  [...]
+very    good  girl  the  Kitti
+```
+
+**Nagyon jó csaj az Ágnes, a pinája vas, a farkam meg a mágnes.**
+
+Ágnes is a very hot girl: her pussy is iron, and my dick is the magnet.
+
+```text
+Nagyon  jó    csaj  az   Ágnes,
+very    good  girl  the  Ágnes
+
+a    piná-ja         vas,   a    fark-am
+the  pussy-3SG.POSS  iron   the  dick-1SG.POSS
+
+meg  a    mágnes.
+and  the  magnet
+```
+
+**Nagyon jó bőr a Brigitta, gecim frankón megitta.**
+
+Brigitta is a very hot piece; she properly drank my cum.
+
+```text
+Nagyon  jó    bőr   a    Brigitta,
+very    good  skin  the  Brigitta
+
+geci-m          frankó-n   meg-i-tt-a.
+semen-1SG.POSS  proper-ADV PV-drink-PST-3SG.DEF
+```
+
+**Itt van velem a Renáta, a faszom kajak lerágta.**
+
+Renáta is here with me; she seriously gnawed my dick off.
+
+```text
+Itt   van     vel-em    a    Renáta,
+here  be.3SG  with-1SG  the  Renáta
+
+a    fasz-om          kajak   le-rág-t-a.
+the  dick-1SG.POSS    really  PV-gnaw-PST-3SG.DEF
+```
+
+**Elnézést, de most kellett egy perc, hogy összeszedjem magam.**
+
+Sorry, but I needed a minute to pull myself together.
+
+```text
+Elnézés-t,  de   most  kell-ett      egy  perc,
+pardon-ACC but  now   need-PST.3SG  a    minute
+
+hogy  össze-szed-j-em          mag-am.
+that  PV-collect-SBJV-1SG.DEF  self-1SG
+```
+
+**Nagyon jó csaj az Ágnes, pinája vas, farkam meg mágnes.**
+
+Ágnes is a very hot girl: her pussy is iron, and my dick is a magnet.
+
+```text
+Nagyon  jó    csaj  az   Ágnes,
+very    good  girl  the  Ágnes
+
+piná-ja            vas,   fark-am          meg  mágnes.
+pussy-3SG.POSS     iron   dick-1SG.POSS    and  magnet
+```
+
+**Kreativitás, az van.**
+
+Creativity—there is that.
+
+```text
+Kreativitás,  az    van.
+creativity    that  be.3SG
+```
+
+**Pfff…**
+
+Pfff…
+
+```text
+Pfff…
+pfff
+```
+
+**Persze majdnem minden létező nő belekerült a videóba, de Emmára, Emmára nem találtak ki semmit.**
+
+Of course, almost every woman in existence appeared in the video, but for Emma—for Emma—they did not come up with anything.
+
+```text
+Persze   majdnem  minden  létez-ő   nő
+of.course almost   every   exist-PTCP woman
+
+bele-kerül-t        a    videó-ba,
+into-get-PST.3SG    the  video-ILL
+
+de   Emma-ra,  Emma-ra   nem  talál-t-ak
+but  Emma-SBL  Emma-SBL  NEG  find-PST-3PL
+
+ki  sem-mi-t.
+PV  NEG-thing-ACC
+```
+
+**Hm…**
+
+Hm…
+
+```text
+Hm…
+hm
+```
+
+**Vajon mit írtál volna rólam, hogyha együttműködünk?**
+
+I wonder what you would have written about me if we had collaborated.
+
+```text
+Vajon    mi-t      ír-t-ál       volna
+I.wonder what-ACC  write-PST-2SG AUX.COND
+
+ról-am,   hogyha  együtt-működ-ünk?
+DEL-1SG   if      together-work-1PL
+```
+
+**Nagyon jó csaj az Emma, a kommentelők sírnak ma.**
+
+Emma is a very hot girl; the commenters are crying today.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    kommentelő-k  sír-nak   ma.
+the  commenter-PL  cry-3PL   today
+```
+
+**Azt írják, kurva nagy a pofája, közben ráverik a fotójára.**
+
+They write that she has a fucking big mouth, while jerking off to her photo.
+
+```text
+Az-t      ír-já-k,         kurva  nagy  a
+that-ACC  write-3PL.DEF    whore  big   the
+
+pofá-ja,          közben     rá-ver-ik
+mug-3SG.POSS      meanwhile  onto.it-beat-3PL.DEF
+
+a    fotó-já-ra.
+the  photo-3SG.POSS-SBL
+```
+
+**A nőkön vered a nyomorod szét, mert az önbizalmad elfogyott rég.**
+
+You take your misery out on women because your self-confidence ran out long ago.
+
+```text
+A    nő-k-ön       ver-ed         a
+the  woman-PL-SUP  beat-2SG.DEF   the
+
+nyomor-od          szét,  mert     az
+misery-2SG.POSS    PV     because  the
+
+ön-bizalm-ad                 el-fogy-ott      rég.
+self-confidence-2SG.POSS     PV-run.out-PST.3SG long.ago
+```
+
+**Nagyon jó csaj az Emma, a Reddit népe full idegbajban.**
+
+Emma is a very hot girl; Reddit’s crowd is having a complete nervous breakdown.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    Reddit  nép-e             full     ideg-baj-ban.
+the  Reddit  people-3SG.POSS   totally  nerve-trouble-INE
+```
+
+**Biztos escort, biztos kurva, közben anyujuktól kérnek húszast buszra.**
+
+Surely she is an escort, surely she is a whore, while they ask their mothers for a twenty for the bus.
+
+```text
+Biztos  escort,  biztos  kurva,
+surely  escort   surely  whore
+
+közben     anyu-juk-tól        kér-nek
+meanwhile  mum-3PL.POSS-DEL    ask-3PL.INDF
+
+húszas-t         busz-ra.
+twenty.note-ACC  bus-SBL
+```
+
+**Nagyon jó csaj az Emma, a Facebook népe habzik rajta.**
+
+Emma is a very hot girl; Facebook’s crowd is foaming over her.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    Facebook  nép-e            habz-ik      rajt-a.
+the  Facebook  people-3SG.POSS  foam-3SG     on-3SG
+```
+
+**Ki a fasz nézi ezt a picsát?**
+
+Who the fuck watches this bitch?
+
+```text
+Ki   a    fasz  néz-i          ez-t
+who  the  dick  watch-3SG.DEF  this-ACC
+
+a    picsá-t?
+the  cunt-ACC
+```
+
+**Ezért tart ma itt a világ.**
+
+This is why the world is where it is today.
+
+```text
+Ez-ért    tart          ma     itt   a    világ.
+this-CAUS be.at.3SG     today  here  the  world
+```
+
+**A nőkön vered a nyomorod szét, közben apád se mondta, hogy büszke rád még.**
+
+You take your misery out on women, while even your father still has not said that he is proud of you.
+
+```text
+A    nő-k-ön       ver-ed         a
+the  woman-PL-SUP  beat-2SG.DEF   the
+
+nyomor-od          szét,  közben     apá-d
+misery-2SG.POSS    PV     meanwhile  father-2SG.POSS
+
+se        mond-t-a,       hogy  büszke  rád      még.
+even.NEG  say-PST-3SG.DEF that  proud   onto.2SG yet
+```
+
+**Nagyon jó csaj az Emma, a TikTok népe ki van bukva.**
+
+Emma is a very hot girl; TikTok’s crowd is outraged.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    TikTok  nép-e             ki  van     buk-va.
+the  TikTok  people-3SG.POSS   PV  be.3SG  upset-CVB
+```
+
+**Én ezt tuti meg nem dugnám.**
+
+I definitely would not fuck this one.
+
+```text
+Én   ez-t      tuti        meg  nem  dug-ná-m.
+1SG  this-ACC  definitely  PV   NEG  fuck-COND-1SG.DEF
+```
+
+**Emma inkább remetének állna, megsúgnám.**
+
+Emma would rather become a hermit, let me tell you.
+
+```text
+Emma  inkább  remeté-nek  áll-na,
+Emma  rather  hermit-DAT  become-COND.3SG
+
+meg-súg-ná-m.
+PV-whisper-COND-1SG.DEF
+```
+
+**Régen minden nő tudta a helyét.**
+
+In the old days, every woman knew her place.
+
+```text
+Régen     minden  nő     tud-t-a
+long.ago  every   woman  know-PST-3SG.DEF
+
+a    hely-é-t.
+the  place-3SG.POSS-ACC
+```
+
+**Feri még mindig ezen eszi a kefét.**
+
+Feri is still worked up about this.
+
+```text
+Feri  még  mindig  ez-en      esz-i
+Feri  yet  always  this-SUP   eat-3SG.DEF
+
+a    kefé-t.
+the  brush-ACC
+```
+
+**„Én az ilyen picsákat nem bírom.”**
+
+“I cannot stand bitches like this.”
+
+```text
+Én   az   ilyen  picsá-k-at  nem  bír-om.
+1SG  the  such   cunt-PL-ACC NEG  bear-1SG.DEF
+```
+
+**Attila profilképe: [ő egy kerti grillrácson?]**
+
+Attila’s profile picture: [him on a garden grill rack?]
+
+```text
+Attila  profil-kép-e:             ő
+Attila  profile-picture-3SG.POSS  3SG
+
+egy  kert-i      grill-rács-on?
+a    garden-ADJ  grill-grate-SUP
+```
+
+**Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességed.**
+
+Instead, do everyone a favour and finally lose your virginity.
+
+```text
+Tégy         inkább  mindenki-nek  egy
+do.IMP.2SG   rather  everyone-DAT  a
+
+szívesség-et,  és   veszít-s-d
+favour-ACC     and  lose-SBJV-2SG.DEF
+
+el  végre    a    szüzesség-ed-et.
+PV  finally  the  virginity-2SG.POSS-ACC
+```
+
+**Veszítsd el végre a szüzességed.**
+
+Finally lose your virginity.
+
+```text
+Veszít-s-d          el  végre    a
+lose-SBJV-2SG.DEF   PV  finally  the
+
+szüzesség-ed-et.
+virginity-2SG.POSS-ACC
+```
+
+## A2 vocabulary
+
+* **degradál** — demean; degrade
+* **felmagasztal** — exalt; praise excessively
+* **rajongói** — fan-related; from an admirer
+* **kölcsönösen** — mutually
+* **előnyös** — advantageous; beneficial
+* **ajánlat** — offer; proposal
+* **hála Istennek** — thank God
+* **befut** — become successful; make it
+* **eljöhetne** — could come
+* **videóklip** — music video
+* **kellő** — sufficient; appropriate
+* **mit szólsz hozzá?** — what do you think of it?
+* **benne lenne valamiben** — be willing to participate in something
+* **ilyen jellegű** — of this kind
+* **kollaboráció** — collaboration
+* **csábító** — tempting
+* **muszáj** — necessary; have to
+* **bevállalós** — daring; adventurous
+* **összeszedi magát** — pull oneself together
+* **kreativitás** — creativity
+* **létező** — existing
+* **belekerül** — get into; be included in
+* **kitalál valamit** — invent or come up with something
+* **vajon** — I wonder; perhaps
+* **együttműködik** — collaborate; cooperate
+* **kommentelő** — commenter
+* **önbizalom** — self-confidence
+* **elfogy** — run out; be used up
+* **idegbaj** — nervous breakdown; extreme agitation
+* **habzik valamin** — foam or become worked up over something
+* **büszke valakire** — be proud of someone
+* **ki van bukva** — be upset; outraged
+* **remete** — hermit
+* **megsúg** — whisper; tell someone confidentially
+* **tudja a helyét** — know one’s place
+* **eszi a kefét** — be annoyed; worked up
+* **nem bír valakit** — be unable to stand someone
+* **profilkép** — profile picture
+* **szívességet tesz** — do a favour
+* **szüzesség** — virginity
+* **elveszíti a szüzességét** — lose one’s virginity
+
+## Recognition-only slang
+
+* **bby** — abbreviated English *baby*
+* **vibe** — atmosphere; feeling
+* **baszki** — fuck; damn
+* **bevállalós** — daring, sometimes sexually adventurous
+* **csaj** — girl; woman
+* **jó bőr** — attractive woman
+* **patika** — top-notch; immaculate
+* **frankón** — genuinely; properly
+* **kajak** — really; seriously
+* **full** — totally; completely
+* **tuti** — definitely
+* **fasz** — dick
+* **pina** — pussy
+* **geci** — semen; also a severe insult
+* **picsa** — cunt; bitch
+* **ráver valamire** — masturbate to something
+* **megdug valakit** — fuck someone
+
+The Kitti rhyme and the exact wording of the Attila profile-picture line still require the audio to resolve confidently.
+
+[1]: https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-szines-szinonimatar-F9792/e-e-F9F3B/eszi-a-kefetzabot-FA36E/?utm_source=chatgpt.com "eszi a kefét/zabot | Színes szinonimatár | Kézikönyvtár"
