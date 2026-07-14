@@ -907,3 +907,18 @@ DM   2PL  what-ACC  think-2PL.INDF  this-DEL
 
 Ribancokkal normalis pasi nem foglalkozik pont
 Szerencsére pont itt van nálam
+
+[00:00.000 --> 00:05.000]  Riban foggön, ormális poszinem foglalkozik.
+[00:05.000 --> 00:10.000]  Szerensére pontítva nálavanol, mális poszik kérdikön, ve?
+[00:10.000 --> 00:15.000]  Egy leszbont. Riban foglalkozni. Kettesbont.
+[00:15.000 --> 00:18.000]  Gyűdűdőle fognán tekoydásra a Facebookon.
+[00:18.000 --> 00:21.000]  Márim, hogy a magídi, hogy a ríviknek, hogy a nap foglalkozik,
+[00:21.000 --> 00:25.000]  hogy rívikkel a krestor egy nonkét tár rívik, kével a foglalkozáslatmíny és új nál?
+[00:25.000 --> 00:30.000]  Nem utogásnakik a melyed, és mert jobbantett szerej elnekik ha a farkodat.
+[00:30.000 --> 00:33.000]  Mútógat lát.
+[00:33.000 --> 00:37.000]  Bár nemértem mert követnek és koment elnek.
+[00:37.000 --> 00:39.000]  Mertéz komentál.
+[00:39.000 --> 00:43.000]  A postja idala. Fudabeteg ez a magiartásadalom.
+[00:45.000 --> 00:47.000]  Egy nyő? He?
+[00:47.000 --> 00:52.000]  Hát tudod, mit szerintem megmelyojó, és minden tök jó a hojad.
+[00:52.000 --> 01:09.960]  És a kével, hogy a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével, és a kével
