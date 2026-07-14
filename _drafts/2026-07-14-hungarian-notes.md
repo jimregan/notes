@@ -1239,3 +1239,16 @@ the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
 * **mint** — than; like
 * **farkadon** — on your dick; vulgar
 
+---
+
+[Reel](https://www.instagram.com/reels/Dave2syNtST/)
+
+[00:00.000 --> 00:05.280]  Mint láthatjátok nem indult minden szökkörömentesen, orkán erőszélel indult, de megoldott.
+[00:05.280 --> 00:08.560]  Szépen lassan elkezdtek ma érkezni a vendégek, és minden egyes érkezéssel.
+[00:08.560 --> 00:09.880]  Egyre jobb lett a hangulat is.
+[00:09.880 --> 00:14.080]  Annyira jó érzést voltok arra nézni és látni együtt azokat az embereket, akiket ennyire szeretek.
+[00:14.080 --> 00:16.840]  Együtt ünnepelnek velem. Miért tanuljál egyébként csak egyszer?
+[00:16.840 --> 00:21.720]  Ki is azt értitek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő, minden rész hirtelen vége is lesz.
+[00:21.720 --> 00:24.200]  Nagyon köszönöm Bence-nek és Sebek-nek, hogy tanáltak nekünk.
+[00:24.200 --> 00:27.560]  Videóutás, napzementézés után az este egy olasz pizzázással zártuk.
+[00:27.560 --> 00:29.360]  Köszönöm mindenkinek, jövőre tali!
