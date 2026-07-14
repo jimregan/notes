@@ -1243,12 +1243,10 @@ the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
 
 [Reel](https://www.instagram.com/reels/Dave2syNtST/)
 
-Mint láthatjátok nem indult minden szökkörömentesen, orkán erőszélel indult, de megoldott.
-Szépen lassan elkezdtek ma érkezni a vendégek, és minden egyes érkezéssel.
-Egyre jobb lett a hangulat is.
-Annyira jó érzést voltok arra nézni és látni együtt azokat az embereket, akiket ennyire szeretek.
-Együtt ünnepelnek velem. Miért tanuljál egyébként csak egyszer?
-Ki is azt értitek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő, minden rész hirtelen vége is lesz.
-Nagyon köszönöm Bence-nek és Sebek-nek, hogy tanáltak nekünk.
-Videóutás, napzementézés után az este egy olasz pizzázással zártuk.
-Köszönöm mindenkinek, jövőre tali!
+Mint láthatjátok nem indult minden zökkenőmentesen, orkán erejű széllel indult, de megoldottuk.
+Szépen lassan megérkezni vendégek, és minden egyes érkezéssel egyre jobb lett a hangulat is.
+Annyira jó érzés volt körbenézni és látni együtt azokat az embereket, akiket ennyire szeretek.
+Együtt ünnepelnek velem. Miért van ilyen egy éppen csak egyszer
+Ti is azt kezditek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő, [minden rész?] hirtelen vége is lesz.
+Külön köszönet Bencenek és Rebekának, hogy zenéltek nekünk videózás, naplementézés után az estét egy olasz pizzázással zártuk.
+Köszönöm mindenkinek, jövőre. Tali!
