@@ -1951,8 +1951,6 @@ virginity-2SG.POSS-ACC
 
 ## Recognition-only slang
 
-* **bby** — abbreviated English *baby*
-* **vibe** — atmosphere; feeling
 * **baszki** — fuck; damn
 * **bevállalós** — daring, sometimes sexually adventurous
 * **csaj** — girl; woman
@@ -1968,3 +1966,18 @@ virginity-2SG.POSS-ACC
 * **picsa** — cunt; bitch
 * **ráver valamire** — masturbate to something
 * **megdug valakit** — fuck someone
+
+---
+
+[Reel](https://www.instagram.com/reels/DZvB6wnNrid/)
+
+[00:00.000 --> 00:03.500]  Milyen nevű srácsal soha nem mennétek el randizni, és miért?
+[00:03.500 --> 00:09.500]  Lehet, hogy Botonddal, mert az előző kapcsolatom az kicsit érdekes volt,
+[00:09.500 --> 00:13.500]  és ő egy Botond volt, úgyhogy én Botondot nem igazán szeretnék.
+[00:13.500 --> 00:17.500]  És ilyen fura nevű, mint Amadeusz, meg...
+[00:18.500 --> 00:21.000]  Mindjárt kitalálok valamit nevűvel.
+[00:21.000 --> 00:24.000]  Azt mondanám, hogy Arturral sose jönnék össze, meg Bencevel.
+[00:24.000 --> 00:26.000]  Vagyis...nem.
+[00:26.000 --> 00:30.500]  Hát...Bendegúz, Bence...Bálint.
+[00:30.500 --> 00:36.500]  Tényleg, én az öcsém nevűvel nem jönnék össze, ami Balázs, Balázsral se jönnék össze.
+[00:36.500 --> 00:39.000]  Jó, szuper, köszönöm szépen a válaszaitokat!
