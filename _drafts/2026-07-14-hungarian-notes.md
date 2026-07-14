@@ -1406,16 +1406,9 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 
 [Reel](https://www.instagram.com/reels/DYaPGn7o3EQ/)
 
-I’ve regularized obvious forms such as **kölcsönösen előnyös**, **eljöhetnél**, **kollaborációban**, **közben**, **anyujuktól**, and **meg nem dugnám**. The Kitti rhyme and the profile-picture aside remain uncertain. **Eszi a kefét** means “is annoyed/worked up.” ([arcanum.com][1])
-
 **Szia, bby.**
 
 Hi, baby.
-
-```text
-Szia,  bby.
-hello  baby
-```
 
 **Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentben; én egy kölcsönösen előnyös ajánlatot adnék neked.**
 
@@ -1514,13 +1507,6 @@ collaboration-INE
 ```
 
 **Ehh… no.**
-
-Ehh… no.
-
-```text
-Ehh…  no.
-ehh    no
-```
 
 **Annyira csábító volt ez az ajánlat, hogy muszáj volt megnéznem ennek a rappernek az oldalát.**
 
@@ -1999,7 +1985,3 @@ virginity-2SG.POSS-ACC
 * **picsa** — cunt; bitch
 * **ráver valamire** — masturbate to something
 * **megdug valakit** — fuck someone
-
-The Kitti rhyme and the exact wording of the Attila profile-picture line still require the audio to resolve confidently.
-
-[1]: https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-szines-szinonimatar-F9792/e-e-F9F3B/eszi-a-kefetzabot-FA36E/?utm_source=chatgpt.com "eszi a kefét/zabot | Színes szinonimatár | Kézikönyvtár"
