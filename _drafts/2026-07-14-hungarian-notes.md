@@ -503,7 +503,36 @@ And now let’s talk about the situationship.
 and  now   speak-SBJV-1PL.INDF the  situationship-DEL
 ```
 
-
+A situationship nem szabadság nem ha közben a másik embert bizonytalanságban tartod
+A situationship önmagában nem rossz ha mindkét fél ugyanazt akarja
+És őszinte beszélnek az érzéseikről
+A probléma ott kezdődik amikor valaki élvezi a kapcsolat előnyeit de kerüli a felelősséget a döntéseket és a tiszta kommunikációt
+A felelősséget kerülő ember gyakran nyitva hagy minden ajtót 
+Közel enged magához figyelmet szeretetet és intimitást vár meg ad is egy kicsit
+De amikor eljön az ideje a valódi elköteleződésnek hirtelen nem áll készen
+Nem akar címkéket vagy majd meglátjuk nincs kész egy kapcsolatra
+Közben a másik fél érzelmileg egyre mélyebbre kerül egy olyan kapcsolatban amelynek nincs egyértelmű iránya
+Ez azért káros mert a bizonytalanság hosszú távon rombolóbb lehet mint egy őszinte visszautasítás
+Az ember folyamatosan reménykedik elemez várakozik és olyan energiát fektet valamibe aminek a másik fél nem akar valódi alapot adni
+így hónapot vagy akár évek is elveszthetnek egy olyan helyzetben amely valójában nem halad sehova sem
+az őszinteség nem azt hogy valaki azt mondja
+nem akarok kapcsolatot
+miközben kapcsolatként viselkedik
+az őszinteség az amikor a szavak és a tettek összhangban vannak
+aki valóban tiszteli a másikat az nem tartja tartalékban
+nem adagolja a figyelmet azért hogy a másik maradjon
+nem épít érzelmi kötődést úgy hogy közben tudja
+nem akar felelősséget vállalni érte
+A situationship [sok ?] szerelem új formája 
+sok esetben egyszerűen a döntésképtelenség
+az önzőség vagy a felelősség elkerülésének kulturáltabb neve
+mert aki tényleg akar valakit
+az nem hagyja találgatni
+aki pedig folyamatosan bizonytalanságban tart
+az valójában már választott
+csak
+nem meri kimondani
+[?]
 
 ---
 
