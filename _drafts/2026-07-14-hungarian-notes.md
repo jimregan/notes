@@ -1406,5 +1406,38 @@ thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
 
 [Reel](https://www.instagram.com/reels/DYaPGn7o3EQ/)
 
-Szia bby. Én nem degradalni akarlak se nem felmagasztalni, mint a rajongói kommentekben, en egy
-kolcsomosen elonyos ajánlatot adnék neked.
+Szia bby.
+Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentekben, én egy kölcsönmösen előnyes ajánlatot adnék neked.
+Én rapper!
+És hála az Istennek, megyek a megastárba!
+Így végre be fogok futni.
+Te egy szép lány vagy, eljöhetnéd az egyik videóklippembe.
+Utána, ha megvan a kellő vibe,
+akkor faszra kaplak.
+Mit szólsz mindehhez?
+Benne lennél egy ilyen jellegű kollaborációba?
+Ehh... no.
+Annyira csábító volt ez az ajánlat, hogy muszáj volt megnéznem ennek a rappernek az oldalát.
+Baszki, ezek mi is lehettünk volna, ha egy kicsit bevállalósabb lennék.
+Mi van? Mi ez a szám?
+Megbasztam én a dalmát, szedtem neki vadalmát.
+Itt volt velem a Natika, a pinája mindig patika.
+Nagyon jó csaj a Kitty, színe nekem itti.
+Nagyon jó csaj az Ágnes, a pinája vas, a farka meg a mágnes.
+Nagyon jó bőr a Brigitta, a Getsin Franco megitta.
+Itt van velem a Renálta, a faszom kajak lerákta.
+Elnézést, de most kellett egy perc, hogy összeszedjem magam.
+Nagyon jó csaj az Ágnes, pinája vas, farka meg mágnes.
+Kreativitás az van.
+Pfff...
+Persze majdnem minden létező nő belekerült a videóba,
+de Emma-ra, Emma-ra nem találták ki semmit.
+Hm...
+Vajon mit írtál volna rólam, hogyha együtt működünk?
+Nagyon jó csaj az Emma, a kommentelők sírnak ma.
+Azt írják, kurva nagy a pofája, közben ráverik a fotójára.
+A nőkön vered a nyomorod szét, mert az önbizalmad elfogyott rég.
+Nagyon jó csaj az Emma, a Reddit népe full idegbajban.
+Biztos eszkod, biztos kurva, közben anyuktól kérnek, puszad buszra.
+Biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biztos, biz
+Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességet.
