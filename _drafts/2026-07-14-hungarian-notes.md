@@ -905,8 +905,6 @@ DM   2PL  what-ACC  think-2PL.INDF  this-DEL
 
 [Reel](https://www.instagram.com/reels/DYZ64SWIWCI/)
 
-The severely garbled line after **„…minősül, nem?”** seems to repeat or reformulate that same thought. I have omitted it rather than inventing a second sentence.
-
 **Ribancokkal normális pasi nem foglalkozik. Pont.**
 
 A normal guy does not deal with sluts. Period.
@@ -1149,3 +1147,6 @@ interested  onto.2SG
 * **ribanc** — slut; whore
 * **ribi** — shortened slang form of **ribanc**
 * **fasz se** — literally “not a dick”; vulgar “nobody at all”
+
+---
+
