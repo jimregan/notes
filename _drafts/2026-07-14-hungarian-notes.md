@@ -354,11 +354,6 @@ Ez    egy  pukedli  volt,        jó    van?
 this  a    curtsy   be.PST.3SG   good  be.3SG
 ```
 
-**Pukedli** means a curtsy or ceremonial knee-bend. ([arcanum.com][1])
-
-[1]: https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-a-magyar-nyelv-ertelmezo-szotara-1BE8B/p-44572/pukedli-469E8/?utm_source=chatgpt.com "pukedli | A magyar nyelv értelmező szótára | Kézikönyvtár"
-
-
 **Jaj, hugyos, kapcsold le magad, mielőtt más is lekapcsol.**
 
 Oh, you pissy one, switch yourself off before somebody else switches you off.
@@ -451,71 +446,41 @@ because  this  the  3SG  page-3SG.POSS  get-2SG.DEF
 
 ## A2 vocabulary
 
-* **ki?** — who?
 * **az összes** — all; all of them
 * **olyan** — such; like that
-* **férfi** — man
 * **kérdés** — question
 * **egyébként** — by the way; otherwise
 * **kinéz** — look; appear
-* **rosszul** — badly; unwell
 * **látszik** — be visible; be apparent
 * **rajtad** — on you
 * **centi** — centimetre
 * **mérleg** — scales
-* **áll** — stand
-* **ez van** — that is how it is
-* **igen** — yes
 * **végül is** — after all
 * **vélemény** — opinion
-* **kell** — must; need to
-* **fej** — head
-* **agy** — brain
 * **helyett** — instead of
 * **várj / várjál** — wait
-* **tudom** — I know
-* **benne** — in it
-* **már** — already
-* **videó** — video
-* **mond** — say; tell
-* **valami** — something
-* **haj** — hair
 * **hiány** — absence; lack
 * **nézzük meg** — let us see
-* **komment** — comment
 * **hozzászólás** — comment
-* **internet** — internet
 * **után** — after
-* **egy kicsit** — a little
-* **elnézést** — excuse me; sorry
 * **tényleg** — really
 * **gyerekes** — childish
 * **válaszol** — answer; reply
-* **most** — now
 * **mélyen** — deeply
 * **kíván** — wish
 * **villám** — lightning
-* **esik** — fall; rain
 * **rád** — onto you; at you
 * **aztán** — then; afterwards
 * **egészen** — completely; quite
-* **szép** — nice; beautiful
 * **kár** — pity; shame
-* **csak** — only; just
-* **például** — for example
-* **elegáns** — elegant
 * **gondolat** — thought; idea
-* **vonat** — train
 * **rövidnadrág** — shorts
-* **jól van** — all right; okay
 * **mielőtt** — before
 * **más** — other; someone else
 * **jó szándék** — good intention
-* **gondol** — think
 * **fenyegetés** — threat
 * **innen** — from here
 * **töröl** — delete
-* **akar** — want
 * **mert** — because
 * **oldal** — side; page
 * **vágod?** — do you get it?
