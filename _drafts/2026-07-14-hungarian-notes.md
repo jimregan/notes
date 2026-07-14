@@ -1971,14 +1971,153 @@ virginity-2SG.POSS-ACC
 
 [Reel](https://www.instagram.com/reels/DZvB6wnNrid/)
 
-Milyen nevű sráccal soha nem mennétek el randizni és miért?
-Lehet, hogy Botonddal, mert az előző kapcsolatom az kicsit érdekes volt,
-és ő egy Botond volt, úgyhogy én Botondot nem igazán szeretnék.
-És ilyen fura nevű, mint Amadeusz, meg...
-mindjárt kitalálok valamit nevűvel...
+**Milyen nevű sráccal soha nem mennétek el randizni, és miért?**
 
-Azt mondanám, hogy Artúrral sose jönnék össze, meg Bencével.
-Vagyis... nem.
-Hát... Bendegúz, Bence, Bálint.
-Tényleg! Én az öcsém nevével nem jönnék össze, ami Balázs, Balázsral se jönnék össze.
-Jó, szuper! Köszönöm szépen a válaszaitokat.
+What name would a guy have for you never to go on a date with him, and why?
+
+```text
+Milyen  nev-ű     srác-cal  soha  nem  men-né-tek
+what.kind name-PROP guy-INST never NEG go-COND-2PL
+
+el  randi-z-ni,  és   miért?
+PV  date-DER-INF and  why
+```
+
+**Lehet, hogy Botonddal, mert az előző kapcsolatom az kicsit érdekes volt.**
+
+Maybe with a guy named Botond, because my previous relationship was a little interesting.
+
+```text
+Lehet,       hogy  Botond-dal,  mert     az
+be.POT.3SG  that  Botond-INST  because  the
+
+előző     kapcsolat-om       az    kicsi-t
+previous  relationship-1SG.POSS that  little-ACC
+
+érdekes  volt.
+interesting be.PST.3SG
+```
+
+**És ő egy Botond volt, úgyhogy én Botondot nem igazán szeretnék.**
+
+And he was a Botond, so I would not really want a Botond.
+
+```text
+És  ő   egy  Botond  volt,        úgyhogy
+and 3SG a    Botond  be.PST.3SG   so
+
+én   Botond-ot  nem  igazán  szeret-né-k.
+1SG  Botond-ACC NEG  really   want-COND-1SG
+```
+
+**És ilyen fura nevű, mint Amadeusz, meg…**
+
+And someone with a strange name like Amadeusz, and…
+
+```text
+És  ilyen  fura     nev-ű,     mint  Amadeusz,  meg…
+and such   strange  name-PROP  like  Amadeusz   and
+```
+
+**Mindjárt kitalálok valamit… nevűvel…**
+
+I’ll come up with something in a moment… with a name…
+
+```text
+Mindjárt  ki-talál-ok          vala-mi-t…
+soon      PV-find-1SG.INDF     some-thing-ACC
+
+nev-ű-vel…
+name-PROP-INST
+```
+
+**Azt mondanám, hogy Artúrral sose jönnék össze, meg Bencével.**
+
+I would say that I would never get together with Artúr, nor with Bence.
+
+```text
+Az-t      mond-aná-m,       hogy  Artúr-ral
+that-ACC  say-COND-1SG.DEF  that  Artúr-INST
+
+sose   jö-nné-k        össze,  meg  Bencé-vel.
+never  come-COND-1SG   together and  Bence-INST
+```
+
+**Vagyis… nem.**
+
+That is… no.
+
+```text
+Vagyis…  nem.
+that.is  no
+```
+
+**Hát… Bendegúz, Bence, Bálint.**
+
+Well… Bendegúz, Bence, Bálint.
+
+```text
+Hát…  Bendegúz,  Bence,  Bálint.
+DM     Bendegúz   Bence   Bálint
+```
+
+**Tényleg! Én az öcsém nevével nem jönnék össze, ami Balázs.**
+
+Actually! I would not get together with someone who has my younger brother’s name, which is Balázs.
+
+```text
+Tényleg!  Én   az   öcs-ém
+really    1SG  the  younger.brother-1SG.POSS
+
+nev-é-vel               nem  jö-nné-k
+name-3SG.POSS-INST      NEG  come-COND-1SG
+
+össze,    ami  Balázs.
+together  REL  Balázs
+```
+
+**Balázzsal se jönnék össze.**
+
+I would not get together with a Balázs either.
+
+```text
+Balázs-sal  se        jö-nné-k       össze.
+Balázs-INST also.NEG  come-COND-1SG  together
+```
+
+**Jó, szuper! Köszönöm szépen a válaszaitokat.**
+
+Okay, great! Thank you very much for your answers.
+
+```text
+Jó,    szuper!  Köszön-öm       szépen
+good   great    thank-1SG.DEF   nicely
+
+a    válasz-ai-tok-at.
+the  answer-PL-2PL.POSS-ACC
+```
+
+## A2 vocabulary
+
+* **milyen nevű?** — what is someone called?; having what name?
+* **srác** — guy; young man
+* **elmegy randizni** — go on a date
+* **lehet, hogy…** — perhaps; it may be that…
+* **előző** — previous
+* **kapcsolat** — relationship
+* **érdekes** — interesting; sometimes euphemistically “strange”
+* **úgyhogy** — so; therefore
+* **nem igazán** — not really
+* **fura** — strange; odd
+* **mindjárt** — in a moment; very soon
+* **kitalál** — think of; invent; figure out
+* **azt mondanám, hogy…** — I would say that…
+* **sose / soha** — never
+* **összejön valakivel** — get together with someone; start dating someone
+* **vagyis** — that is; rather; I mean
+* **tényleg** — really; actually
+* **öcs** — younger brother
+* **valakinek a nevével** — with someone’s name
+* **se** — neither; not either
+* **válasz** — answer
+* **válaszaitok** — your answers, addressing several people
