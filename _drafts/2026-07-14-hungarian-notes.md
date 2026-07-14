@@ -1150,3 +1150,9 @@ interested  onto.2SG
 
 ---
 
+[Reel](https://www.instagram.com/reels/DZHrcFdqMk2/)
+
+ezt minden nő csinálja
+csak nem vallja be
+
+igen néha direkt lassabban válaszolunk de nem azért mert nem érdekeltek hanem kíváncsiak vagyunk hogy csak unatkoztok vagy tényleg érdeklődtök irántunk
