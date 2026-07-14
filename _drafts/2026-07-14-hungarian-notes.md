@@ -1975,9 +1975,10 @@ Milyen nevű sráccal soha nem mennétek el randizni és miért?
 Lehet, hogy Botonddal, mert az előző kapcsolatom az kicsit érdekes volt,
 és ő egy Botond volt, úgyhogy én Botondot nem igazán szeretnék.
 És ilyen fura nevű, mint Amadeusz, meg...
-Mindjárt kitalálok valamit nevűvel.
-Azt mondanám, hogy Arturral sose jönnék össze, meg Bencevel.
-Vagyis...nem.
-Hát...Bendegúz, Bence...Bálint.
-Tényleg, én az öcsém nevűvel nem jönnék össze, ami Balázs, Balázsral se jönnék össze.
-Jó, szuper, köszönöm szépen a válaszaitokat!
+mindjárt kitalálok valamit nevűvel...
+
+Azt mondanám, hogy Artúrral sose jönnék össze, meg Bencével.
+Vagyis... nem.
+Hát... Bendegúz, Bence, Bálint.
+Tényleg! Én az öcsém nevével nem jönnék össze, ami Balázs, Balázsral se jönnék össze.
+Jó, szuper! Köszönöm szépen a válaszaitokat.
