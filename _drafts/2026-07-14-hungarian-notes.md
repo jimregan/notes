@@ -1152,7 +1152,51 @@ interested  onto.2SG
 
 [Reel](https://www.instagram.com/reels/DZHrcFdqMk2/)
 
-ezt minden nő csinálja
-csak nem vallja be
+**Ezt minden nő csinálja, csak nem vallja be.**
 
-igen néha direkt lassabban válaszolunk de nem azért mert nem érdekeltek hanem kíváncsiak vagyunk hogy csak unatkoztok vagy tényleg érdeklődtök irántunk
+Every woman does this; she just does not admit it.
+
+```text
+Ez-t       minden  nő     csinál-ja,     csak
+this-ACC   every   woman  do-3SG.DEF     just
+
+nem  vall-ja       be.
+NEG  admit-3SG.DEF PV
+```
+
+**Igen, néha direkt lassabban válaszolunk, de nem azért, mert nem érdekeltek, hanem kíváncsiak vagyunk, hogy csak unatkoztok, vagy tényleg érdeklődtök irántunk.**
+
+Yes, sometimes we deliberately reply more slowly, but not because you do not interest us; rather, we are curious whether you are just bored or are genuinely interested in us.
+
+```text
+Igen,  néha       direkt        lass-abb-an
+yes    sometimes  deliberately  slow-CMPR-ADV
+
+válaszol-unk,      de   nem  azért,      mert
+answer-1PL.INDF    but  NEG  for.that    because
+
+nem  érdekel-tek,        hanem       kíváncsi-ak
+NEG  interest-2PL.INDF   but.rather  curious-PL
+
+vagy-unk,  hogy    csak  unatkoz-tok,
+be-1PL     whether  just  be.bored-2PL
+
+vagy  tényleg  érdeklőd-tök       iránt-unk.
+or    really   be.interested-2PL  towards-1PL
+```
+
+## A2 vocabulary
+
+* **bevall** — admit; confess
+* **néha** — sometimes
+* **direkt** — deliberately; on purpose
+* **lassabban** — more slowly
+* **válaszol** — answer; reply
+* **nem azért, mert…** — not because…
+* **hanem** — but rather
+* **érdekel valakit** — interest someone
+* **kíváncsi** — curious
+* **unatkozik** — be bored
+* **tényleg** — really; genuinely
+* **érdeklődik valaki iránt** — be interested in someone
+* **irántunk** — in us; towards us
