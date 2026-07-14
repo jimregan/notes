@@ -1205,6 +1205,37 @@ or    really   be.interested-2PL  towards-1PL
 
 [Reel](https://www.instagram.com/reels/DZM-OyRMux6/)
 
-Miben hasonlít az óvszer és a feleség?
+**Miben hasonlít az óvszer és a feleség?**
 
-Mind a kettő többet tartózkodik a pénztárcádban, mint a f*rkd*n...
+In what way are a condom and a wife alike?
+
+```text
+Mi-ben  hasonlít       az   óvszer   és   a    feleség?
+what-INE resemble.3SG  the  condom   and  the  wife
+```
+
+**Mind a kettő többet tartózkodik a pénztárcádban, mint a farkadon.**
+
+Both spend more time in your wallet than on your dick.
+
+```text
+Mind  a    kettő  több-et  tartózkod-ik
+both  the  two     more-ACC stay-3SG
+
+a    pénz-tárcá-d-ban,      mint  a    fark-ad-on.
+the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
+```
+
+## A2 vocabulary
+
+* **miben?** — in what?; in what way?
+* **hasonlít valamire / valakihez** — resemble something or someone
+* **óvszer** — condom
+* **feleség** — wife
+* **mind a kettő** — both
+* **többet** — more; for longer
+* **tartózkodik** — stay; remain; spend time
+* **pénztárca** — wallet
+* **mint** — than; like
+* **farkadon** — on your dick; vulgar
+
