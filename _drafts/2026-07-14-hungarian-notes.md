@@ -1571,13 +1571,13 @@ a    piná-ja            mindig  patika.
 the  pussy-3SG.POSS     always  top.notch
 ```
 
-**Nagyon jó csaj a Kitti, [érthetetlen rímsor].**
+**Nagyon jó csaj a Kitti, szil e nekem itti.**
 
-Kitti is a very hot girl, [unintelligible rhyming phrase].
+Kitti is a very hot girl; *szil e nekem itti*.
 
 ```text
-Nagyon  jó    csaj  a    Kitti,  [...]
-very    good  girl  the  Kitti
+Nagyon  jó    csaj  a    Kitti,  szil  e    nek-em   itti.
+very    good  girl  the  Kitti   UNK   UNK  DAT-1SG  UNK
 ```
 
 **Nagyon jó csaj az Ágnes, a pinája vas, a farkam meg a mágnes.**
@@ -1654,13 +1654,6 @@ creativity    that  be.3SG
 
 **Pfff…**
 
-Pfff…
-
-```text
-Pfff…
-pfff
-```
-
 **Persze majdnem minden létező nő belekerült a videóba, de Emmára, Emmára nem találtak ki semmit.**
 
 Of course, almost every woman in existence appeared in the video, but for Emma—for Emma—they did not come up with anything.
@@ -1680,13 +1673,6 @@ PV  NEG-thing-ACC
 ```
 
 **Hm…**
-
-Hm…
-
-```text
-Hm…
-hm
-```
 
 **Vajon mit írtál volna rólam, hogyha együttműködünk?**
 
@@ -1883,16 +1869,13 @@ the  brush-ACC
 1SG  the  such   cunt-PL-ACC NEG  bear-1SG.DEF
 ```
 
-**Attila profilképe: [ő egy kerti grillrácson?]**
+**Attila profilképe: e egy kerti grillrácson.**
 
-Attila’s profile picture: [him on a garden grill rack?]
+Attila’s profile picture: this one on a garden grill grate.
 
 ```text
-Attila  profil-kép-e:             ő
-Attila  profile-picture-3SG.POSS  3SG
-
-egy  kert-i      grill-rács-on?
-a    garden-ADJ  grill-grate-SUP
+Attila  profil-kép-e:             e    egy  kert-i      grill-rács-on.
+Attila  profile-picture-3SG.POSS  this  a    garden-ADJ  grill-grate-SUP
 ```
 
 **Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességed.**
