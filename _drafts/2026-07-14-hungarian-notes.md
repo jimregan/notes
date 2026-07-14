@@ -503,36 +503,403 @@ And now let’s talk about the situationship.
 and  now   speak-SBJV-1PL.INDF the  situationship-DEL
 ```
 
-A situationship nem szabadság nem ha közben a másik embert bizonytalanságban tartod
-A situationship önmagában nem rossz ha mindkét fél ugyanazt akarja
-És őszinte beszélnek az érzéseikről
-A probléma ott kezdődik amikor valaki élvezi a kapcsolat előnyeit de kerüli a felelősséget a döntéseket és a tiszta kommunikációt
-A felelősséget kerülő ember gyakran nyitva hagy minden ajtót 
-Közel enged magához figyelmet szeretetet és intimitást vár meg ad is egy kicsit
-De amikor eljön az ideje a valódi elköteleződésnek hirtelen nem áll készen
-Nem akar címkéket vagy majd meglátjuk nincs kész egy kapcsolatra
-Közben a másik fél érzelmileg egyre mélyebbre kerül egy olyan kapcsolatban amelynek nincs egyértelmű iránya
-Ez azért káros mert a bizonytalanság hosszú távon rombolóbb lehet mint egy őszinte visszautasítás
-Az ember folyamatosan reménykedik elemez várakozik és olyan energiát fektet valamibe aminek a másik fél nem akar valódi alapot adni
-így hónapot vagy akár évek is elveszthetnek egy olyan helyzetben amely valójában nem halad sehova sem
-az őszinteség nem azt hogy valaki azt mondja
-nem akarok kapcsolatot
-miközben kapcsolatként viselkedik
-az őszinteség az amikor a szavak és a tettek összhangban vannak
-aki valóban tiszteli a másikat az nem tartja tartalékban
-nem adagolja a figyelmet azért hogy a másik maradjon
-nem épít érzelmi kötődést úgy hogy közben tudja
-nem akar felelősséget vállalni érte
-A situationship [sok ?] szerelem új formája 
-sok esetben egyszerűen a döntésképtelenség
-az önzőség vagy a felelősség elkerülésének kulturáltabb neve
-mert aki tényleg akar valakit
-az nem hagyja találgatni
-aki pedig folyamatosan bizonytalanságban tart
-az valójában már választott
-csak
-nem meri kimondani
-[?]
+**A situationship nem szabadság, ha közben a másik embert bizonytalanságban tartod.**
+
+A situationship is not freedom if you keep the other person in uncertainty in the meantime.
+
+```text
+A    situationship  nem  szabadság,  ha  közben
+the  situationship  NEG  freedom     if  meanwhile
+
+a    más-ik  ember-t     bizonytalan-ság-ban  tart-od.
+the  other-ONE person-ACC uncertain-NMLZ-INE  keep-2SG.DEF
+```
+
+**A situationship önmagában nem rossz, ha mindkét fél ugyanazt akarja.**
+
+A situationship is not bad in itself if both parties want the same thing.
+
+```text
+A    situationship  önmag-á-ban       nem  rossz,
+the  situationship  self-3SG.POSS-INE NEG  bad
+
+ha  mind-két  fél    ugyan-az-t     akar-ja.
+if  all-two   party  same-that-ACC  want-3SG.DEF
+```
+
+**És őszintén beszélnek az érzéseikről.**
+
+And they speak honestly about their feelings.
+
+```text
+És  őszinté-n  beszél-nek       az
+and  honest-ADV speak-3PL.INDF   the
+
+érzés-eik-ről.
+feeling-3PL.POSS-DEL
+```
+
+**A probléma ott kezdődik, amikor valaki élvezi a kapcsolat előnyeit, de kerüli a felelősséget, a döntéseket és a tiszta kommunikációt.**
+
+The problem begins when someone enjoys the advantages of the relationship but avoids responsibility, decisions and clear communication.
+
+```text
+A    probléma  ott    kezd-ődik,     amikor  valaki
+the  problem   there  begin-MID.3SG  when    someone
+
+élvez-i         a    kapcsolat    előny-e-i-t,
+enjoy-3SG.DEF   the  relationship advantage-3SG.POSS-PL-ACC
+
+de   kerül-i        a    felelősség-et,  a
+but  avoid-3SG.DEF  the  responsibility-ACC the
+
+döntés-ek-et    és   a    tiszta  kommunikáció-t.
+decision-PL-ACC and  the  clear   communication-ACC
+```
+
+**A felelősséget kerülő ember gyakran nyitva hagy minden ajtót.**
+
+The person who avoids responsibility often leaves every door open.
+
+```text
+A    felelősség-et     kerül-ő     ember
+the  responsibility-ACC avoid-PTCP  person
+
+gyakran  nyit-va   hagy             minden  ajtó-t.
+often    open-CVB  leave.3SG.INDF   every   door-ACC
+```
+
+**Közel enged magához, figyelmet, szeretetet és intimitást vár, meg ad is egy kicsit.**
+
+They let someone close to them, expect attention, love and intimacy, and give a little too.
+
+```text
+Közel  enged            mag-á-hoz,       figyelem-et,
+near   allow.3SG.INDF   self-3SG.POSS-ALL attention-ACC
+
+szeretet-et  és   intimitás-t  vár,
+love-ACC     and  intimacy-ACC expect.3SG.INDF
+
+meg  ad              is    egy  kicsi-t.
+and  give.3SG.INDF   also  a    little-ACC
+```
+
+**De amikor eljön az ideje a valódi elköteleződésnek, hirtelen nem áll készen.**
+
+But when the time for real commitment comes, suddenly they are not ready.
+
+```text
+De   amikor  el-jön          az   idej-e
+but  when    PV-come.3SG     the  time-3SG.POSS
+
+a    valódi  el-köteleződés-nek,  hirtelen
+the  real    PV-commitment-DAT     suddenly
+
+nem  áll              kész-en.
+NEG  stand.3SG.INDF   ready-ADV
+```
+
+**Nem akar címkéket, vagy „majd meglátjuk”, még nincs kész egy kapcsolatra.**
+
+They do not want labels, or “we’ll see”; they are not yet ready for a relationship.
+
+```text
+Nem  akar             címké-k-et,  vagy  majd
+NEG  want.3SG.INDF    label-PL-ACC or    later
+
+meg-lát-juk,       még  nincs         kész
+PV-see-1PL.DEF     yet  NEG.be.3SG    ready
+
+egy  kapcsolat-ra.
+a    relationship-SBL
+```
+
+**Közben a másik fél érzelmileg egyre mélyebbre kerül egy olyan kapcsolatban, amelynek nincs egyértelmű iránya.**
+
+Meanwhile, the other party becomes emotionally more and more deeply involved in a relationship that has no clear direction.
+
+```text
+Közben    a    más-ik  fél    érzelmi-leg
+meanwhile the  other-ONE party emotional-ADV
+
+egy-re         mély-ebb-re      kerül
+one-SBL        deep-CMPR-SBL    get.3SG.INDF
+
+egy  olyan  kapcsolat-ban,   amely-nek  nincs
+a    such   relationship-INE REL-DAT    NEG.be.3SG
+
+egyértelmű  irány-a.
+clear       direction-3SG.POSS
+```
+
+**Ez azért káros, mert a bizonytalanság hosszú távon rombolóbb lehet, mint egy őszinte visszautasítás.**
+
+This is harmful because uncertainty can be more destructive in the long term than an honest rejection.
+
+```text
+Ez    azért      káros,    mert     a
+this  therefore  harmful   because  the
+
+bizonytalan-ság  hosszú  táv-on    romboló-bb
+uncertain-NMLZ   long    term-SUP  destructive-CMPR
+
+lehet,       mint  egy  őszinte  vissza-utasítás.
+be.POT.3SG  than  an   honest   back-refusal
+```
+
+**Az ember folyamatosan reménykedik, elemez, várakozik, és olyan energiát fektet valamibe, aminek a másik fél nem akar valódi alapot adni.**
+
+A person continually hopes, analyses and waits, and invests energy in something to which the other party does not want to give a real foundation.
+
+```text
+Az   ember   folyamatos-an  remény-ked-ik,
+the  person  continuous-ADV hope-DER-3SG
+
+elemez,             várakoz-ik,  és   olyan
+analyse.3SG.INDF    wait-3SG     and  such
+
+energia-t  fektet            vala-mi-be,
+energy-ACC invest.3SG.INDF   some-thing-ILL
+
+ami-nek  a    más-ik  fél    nem  akar
+REL-DAT  the  other-ONE party NEG  want.3SG.INDF
+
+valódi  alap-ot       ad-ni.
+real    foundation-ACC give-INF
+```
+
+**Így hónapok vagy akár évek is elveszhetnek egy olyan helyzetben, amely valójában nem halad sehová sem.**
+
+In this way, months or even years can be lost in a situation that is actually going nowhere.
+
+```text
+Így  hónap-ok  vagy  akár  év-ek  is
+thus month-PL  or    even  year-PL also
+
+el-vesz-het-nek         egy  olyan  helyzet-ben,
+PV-be.lost-POT-3PL      a    such   situation-INE
+
+amely  való-já-ban      nem  halad
+REL    real-3SG.POSS-INE NEG proceed.3SG.INDF
+
+se-hová       sem.
+NEG-where.ILL NEG
+```
+
+**Az őszinteség nem az, hogy valaki azt mondja: „Nem akarok kapcsolatot”, miközben kapcsolatként viselkedik.**
+
+Honesty is not when someone says, “I do not want a relationship,” while behaving as though it were a relationship.
+
+```text
+Az   őszinte-ség  nem  az,    hogy  valaki
+the  honest-NMLZ  NEG  that   that  someone
+
+az-t      mond-ja:       Nem  akar-ok
+that-ACC  say-3SG.DEF    NEG  want-1SG.INDF
+
+kapcsolat-ot,     miközben  kapcsolat-ként
+relationship-ACC while       relationship-ESS
+
+viselked-ik.
+behave-3SG
+```
+
+**Az őszinteség az, amikor a szavak és a tettek összhangban vannak.**
+
+Honesty is when words and actions are in harmony.
+
+```text
+Az   őszinte-ség  az,    amikor  a    szav-ak
+the  honest-NMLZ  that   when    the  word-PL
+
+és   a    tett-ek  össz-hang-ban  van-nak.
+and  the  deed-PL  together-sound-INE be-3PL
+```
+
+**Aki valóban tiszteli a másikat, az nem tartja tartalékban.**
+
+Someone who truly respects the other person does not keep them in reserve.
+
+```text
+Aki  való-ban  tisztel-i       a    más-ik-at,
+REL  real-INE  respect-3SG.DEF the  other-ONE-ACC
+
+az    nem  tart-ja       tartalék-ban.
+that  NEG  keep-3SG.DEF  reserve-INE
+```
+
+**Nem adagolja a figyelmet azért, hogy a másik maradjon.**
+
+They do not ration attention so that the other person will stay.
+
+```text
+Nem  adagol-ja     a    figyelem-et  azért,
+NEG  ration-3SG.DEF the  attention-ACC so.that
+
+hogy  a    más-ik  marad-j-on.
+that  the  other-ONE remain-SBJV-3SG
+```
+
+**Nem épít érzelmi kötődést úgy, hogy közben tudja: nem akar felelősséget vállalni érte.**
+
+They do not build an emotional attachment while knowing that they do not want to take responsibility for it.
+
+```text
+Nem  épít             érzelm-i     kötődés-t  úgy,
+NEG  build.3SG.INDF   emotion-ADJ  attachment-ACC so
+
+hogy  közben    tud-ja:       nem  akar
+that  meanwhile know-3SG.DEF  NEG  want.3SG.INDF
+
+felelősség-et      vállal-ni  érte.
+responsibility-ACC take-INF    for.it
+```
+
+**A situationship sokszor nem a modern szerelem új formája.**
+
+A situationship is often not a new form of modern love.
+
+```text
+A    situationship  sok-szor   nem  a    modern
+the  situationship  many-times NEG  the  modern
+
+szerelem  új   formá-ja.
+love      new  form-3SG.POSS
+```
+
+**Sok esetben egyszerűen a döntésképtelenség, az önzőség vagy a felelősség elkerülésének kulturáltabb neve.**
+
+In many cases, it is simply a more civilised name for indecisiveness, selfishness or the avoidance of responsibility.
+
+```text
+Sok   eset-ben  egyszerű-en  a
+many  case-INE  simple-ADV   the
+
+döntés-képtelen-ség,  az   önző-ség  vagy  a
+decision-incapable-NMLZ the selfish-NMLZ or    the
+
+felelősség     el-kerül-és-é-nek
+responsibility PV-avoid-NMLZ-3SG.POSS-DAT
+
+kulturált-abb  nev-e.
+civilised-CMPR name-3SG.POSS
+```
+
+**Mert aki tényleg akar valakit, az nem hagyja találgatni.**
+
+Because someone who truly wants someone does not leave them guessing.
+
+```text
+Mert     aki  tényleg  akar             valaki-t,
+because  REL  really   want.3SG.INDF    someone-ACC
+
+az    nem  hagy-ja        találgat-ni.
+that  NEG  leave-3SG.DEF  guess-INF
+```
+
+**Aki pedig folyamatosan bizonytalanságban tart, az valójában már választott.**
+
+But someone who continually keeps you in uncertainty has actually already chosen.
+
+```text
+Aki  pedig  folyamatos-an  bizonytalan-ság-ban
+REL  but    continuous-ADV uncertain-NMLZ-INE
+
+tart,             az    való-já-ban
+keep.3SG.INDF     that  real-3SG.POSS-INE
+
+már      választ-ott.
+already  choose-PST.3SG
+```
+
+**Csak nem meri kimondani.**
+
+They simply do not dare to say it.
+
+```text
+Csak    nem  mer-i         ki-mond-ani.
+simply  NEG  dare-3SG.DEF  PV-say-INF
+```
+
+**Na, ti mit gondoltok erről?**
+
+So, what do you think about this?
+
+```text
+Na,  ti   mi-t      gondol-tok      ez-ről?
+DM   2PL  what-ACC  think-2PL.INDF  this-DEL
+```
+
+## A2 vocabulary
+
+* **szabadság** — freedom
+* **közben** — meanwhile; while
+* **bizonytalanság** — uncertainty
+* **bizonytalanságban tart** — keep someone uncertain
+* **önmagában** — in itself
+* **mindkét** — both
+* **ugyanaz** — the same thing
+* **őszintén** — honestly
+* **érzés** — feeling
+* **kezdődik** — begin; start
+* **élvez** — enjoy
+* **előny** — advantage
+* **kerül valamit** — avoid something
+* **felelősség** — responsibility
+* **döntés** — decision
+* **tiszta kommunikáció** — clear communication
+* **gyakran** — often
+* **nyitva hagy** — leave open
+* **közel enged magához** — let someone close
+* **figyelem** — attention
+* **szeretet** — love; affection
+* **intimitás** — intimacy
+* **eljön az ideje** — the time comes
+* **valódi** — real; genuine
+* **elköteleződés** — commitment
+* **hirtelen** — suddenly
+* **készen áll** — be ready
+* **címke** — label
+* **érzelmileg** — emotionally
+* **egyre** — increasingly; more and more
+* **mélyebbre kerül** — become more deeply involved
+* **egyértelmű** — clear; unambiguous
+* **irány** — direction
+* **káros** — harmful
+* **hosszú távon** — in the long term
+* **romboló** — destructive
+* **visszautasítás** — rejection
+* **folyamatosan** — continually
+* **reménykedik** — hope
+* **elemez** — analyse
+* **várakozik** — wait
+* **energiát fektet valamibe** — invest energy in something
+* **alapot ad valaminek** — give something a foundation
+* **akár** — even; possibly
+* **elveszhet** — may be lost
+* **helyzet** — situation
+* **valójában** — actually; in reality
+* **halad** — progress; proceed
+* **sehová sem** — nowhere
+* **őszinteség** — honesty
+* **miközben** — while
+* **viselkedik** — behave
+* **tett** — action; deed
+* **összhangban van** — be in harmony; be consistent
+* **tisztel** — respect
+* **tartalékban tart** — keep in reserve
+* **adagol** — ration; give in measured amounts
+* **érzelmi kötődés** — emotional attachment
+* **felelősséget vállal** — take responsibility
+* **sokszor** — often; many times
+* **döntésképtelenség** — indecisiveness
+* **önzőség** — selfishness
+* **elkerülés** — avoidance
+* **kulturáltabb** — more civilised
+* **találgat** — guess; speculate
+* **választ** — choose
+* **meri** — dare
+* **kimond** — say aloud; state explicitly
 
 ---
 
