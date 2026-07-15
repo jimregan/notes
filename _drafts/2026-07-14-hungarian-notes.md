@@ -3070,30 +3070,28 @@ Hát sorban álltál a duda kirakásnál, látom.
 Letiltottalak, fasz se kíváncsi rád?
 Fúj! Rád meg még az se
 Malac!
-[00:56.000 --> 00:58.000]  Félkigyűlölő csoroszjavar.
-[00:59.000 --> 01:09.000]  A csoroszászó jelentésen nem ez amire használja. Nem egy fiatal lányra szokták alkalmazni. Mi ez az atomszar?
-[01:11.000 --> 01:13.000]  Jézus Mária!
-[01:13.000 --> 01:15.000]  Szánalmas vagy, de nagyon.
-[01:17.000 --> 01:20.000]  Téged még kategorizálni se lehet, barom.
-[01:20.000 --> 01:27.000]  Tudtad, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyodnak. Ezért mosolyodnak.
-[01:28.000 --> 01:31.000]  Hát jó, de nem rád, baszod.
-[01:35.000 --> 01:36.000]  Rád mosolyogni?
-[01:36.000 --> 01:37.000]  Kitörik a fogom.
-[01:38.000 --> 01:41.000]  Szia neked! Mi a kurva anyádra van önbizalmad?
-[01:41.000 --> 01:42.000]  Áh!
-[01:43.000 --> 01:50.000]  Áh! Hát azt nem értem sehogy se. Még egyszer még néztelek, most se értem. Érthetetlen hülye vagy.
-[01:51.000 --> 01:57.000]  A nők túl sokat képzelnek már magukról, de a valósággal nincs párhuzamban.
-[01:59.000 --> 02:02.000]  Jó Isten! Szép a szemed!
-[02:03.000 --> 02:04.000]  Kivéve az egyik.
-[02:04.000 --> 02:09.000]  Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.
-[02:09.000 --> 02:15.000]  Olyan nem figyelmetek be, hogy nem mondtok, nem beszéltek össze-vissza az unokára ilyen baromságokat.
-[02:16.000 --> 02:17.000]  Különben...
-[02:17.000 --> 02:18.000]  Különben...
-[02:18.000 --> 02:19.000]  Különben...
-[02:19.000 --> 02:20.000]  Mi lesz különben?
-[02:21.000 --> 02:23.000]  Különben odamegyek.
-[02:23.000 --> 02:24.000]  Oda megy.
-[02:24.000 --> 02:25.000]  Ez lesz nektek, jaj.
-[02:25.000 --> 02:27.000]  Mutass meg az izmodat, mutass meg az izmodat.
-[02:27.000 --> 02:28.000]  Mutass meg az izmodat.
-[02:29.000 --> 02:30.000]  Az izmodát!
+Férfigyűlölő csoroszja
+A csoroszjá szó jelentése nem ez amire használja. Nem egy fiatal lányra szokták alkalmazni.
+Mi ez az atomszar?
+Jézus Mária!
+Szánalmas vagy... de nagyon.
+Téged még kategorizálni se lehet, barom.
+Tuti, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyognak, ezért mosolyogj!
+Hát jó, de nem rád, baszod.
+Rád mosolyogni?
+Kitörik a fogam.
+Szia neked mi a kurva anyádra van önbizalmad?
+Hát azt nem értem sehogy se. Még egyszer mégnéztelek, most se értem. Érthetetlen hülye vagy.
+A nők túl sokat képzelnek már magukról, de a valósággal nincs párhuzamban.
+Úristen! Szép a szemed!
+Kivéve az egyik.
+Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.
+Ajánlanám figyelmetekben, hogy nem mondtok, nem beszéltek össze vissza az unokámra ilyen baromságokat.
+Különben...
+Különben...
+Különben...
+Mi lesz különben?
+Különben odamegyek.
+Odamegy s lesz nektek, jaj mutasd meg
+az izmodat, mutasd meg az izmodat.
+Az izmodát!
