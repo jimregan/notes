@@ -2812,9 +2812,14 @@ Fun with Whisper:
 
 [Reel](https://www.instagram.com/reels/DavFKnvufDK/)
 
-The captions are almost certainly right: **beginázta az italomat**. **Gina** is a Hungarian name for GHB, a drug that can be mixed into drinks; **beginázta** therefore means “spiked it with Gina/GHB.” **Becsinázta** is not a recognizable standard form here. ([egeszsegvonal.gov.hu][1])
+**Buliban pasizni**
 
-You did not include the title itself, so this begins with the spoken text.
+Picking up guys at a party.
+
+```text
+Buli-ban  pasi-z-ni
+party-INE guy-DER-INF
+```
 
 **A szüleim azt mondták, hogy szerintük amúgy jó ötlet ilyen helyeken ismerkedni.**
 
@@ -2945,8 +2950,6 @@ halászlé-vodká-t,  mert     akkor  jó    lesz.
 fish.soup-vodka-ACC because  then   good  become.3SG
 ```
 
-The last sentence is not grammatical as transcribed. A plausible phrase hidden in it may be **ha szívesen eszel halászlét…** (“if you like eating fish soup…”), but the audio is needed to recover the complete wording.
-
 ## A2 vocabulary
 
 * **szülők** — parents
@@ -2970,4 +2973,15 @@ The last sentence is not grammatical as transcribed. A plausible phrase hidden i
 * **szívesen** — gladly
 * **karácsonyi vacsora** — Christmas dinner
 
-[1]: https://egeszsegvonal.gov.hu/egeszseg-a-z/g-gy/ghb.html?utm_source=chatgpt.com "GHB (Gina)"
+---
+
+[Reel](https://www.instagram.com/reels/DYh_WxaCGPb/)
+
+[00:00.000 --> 00:02.000]  Idefújtás szemetek a szél.
+[00:02.000 --> 00:04.000]  Engem a kettes vélem most hozott.
+[00:04.000 --> 00:07.500]  És amúgy itt lesz koncert, május 23-ben a Follow the Dream-val.
+[00:07.500 --> 00:09.500]  Én leszek előttük, az egyik előzőnek van.
+[00:09.500 --> 00:11.500]  Én már itt a Budapest Parkban.
+[00:11.500 --> 00:13.500]  Itt.
+[00:13.500 --> 00:15.500]  Itt.
+
