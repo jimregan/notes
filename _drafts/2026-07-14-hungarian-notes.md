@@ -2710,3 +2710,24 @@ a    good  date-ELA   no.matter-what be.POT.3SG
 [00:00.000 --> 00:06.360]  Egy dalt a negatív kommentekből, és azt hiszem, hogy ez lesz a nyár legnagyobb slágere.
 [00:06.660 --> 00:08.360]  Fogadjátok sok szeretettel!
 
+<!--
+[00:30.000 --> 00:59.980]  Feliratok az Amara.org közösségétől
+[01:00.000 --> 01:29.980]  Feliratok az Amara.org közösségétől
+[01:30.000 --> 01:59.980]  Feliratok az Amara.org közösségétől
+[02:00.000 --> 02:29.980]  Feliratok az Amara.org közösségétől
+-->
+
+---
+
+[Reel](https://www.instagram.com/reels/DavFKnvufDK/)
+
+[00:00.000 --> 00:04.160]  A szüleim azt mondták, hogy szerintük amúgy jó ötlet ilyen helyeken ismerkedni.
+[00:04.340 --> 00:07.100]  Szerintem azért, mert még soha az életben nem voltak egy ilyen helyen.
+[00:07.340 --> 00:11.840]  És én azon gondolkodtam, hogy egyszer elvisszem őket a Morrisonzba, hogy így...
+[00:11.840 --> 00:12.700]  Ez a álaszték.
+[00:14.680 --> 00:16.340]  Édesapám, melyikhez menjek hozzá?
+[00:17.780 --> 00:18.860]  Melyik a sarokba húgy áll?
+[00:19.860 --> 00:21.260]  Melyik becsinázta az italomat?
+[00:21.600 --> 00:23.560]  Vagy amelyik anyaseggét fogdossan, a melyik legyen?
+[00:23.560 --> 00:31.560]  Bármelyiket hazaviszem szívesen a karácsonyi vasárára, hogyha szívesen eszel halászlé vodkát, mert akkor...
+[00:32.540 --> 00:33.140]  Jó lesz.
