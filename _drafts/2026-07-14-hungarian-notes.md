@@ -3051,3 +3051,50 @@ Here.
 * **előzenekar** — opening act; support band
 * **Budapest Parkban** — in Budapest Park
 
+---
+
+[Reel](https://www.instagram.com/reels/DZnE3SuoBuK/)
+
+[00:00.000 --> 00:04.800]  Legurvázol, mindennek elmondasz, és azt szeret büntetlenül megúzhatod.
+[00:04.800 --> 00:09.600]  Hát nem, eljött az idő, hogy megfizes, ugyanis megmondtalak a nagyinnak.
+[00:12.000 --> 00:13.000]  Szia kurva!
+[00:14.000 --> 00:15.500]  Szex lehet vele?
+[00:18.500 --> 00:19.500]  Ő érte.
+[00:20.500 --> 00:22.000]  Húzgál, húzgál!
+[00:22.000 --> 00:25.000]  Nálad nagyobb kurva sose láttam.
+[00:26.000 --> 00:28.000]  Te hülye seng!
+[00:28.000 --> 00:30.000]  Szutyog!
+[00:32.000 --> 00:36.000]  Te mondod, hogy szutyog? Hát te mi vagy? Te köcsög!
+[00:37.000 --> 00:39.000]  Pakold ki a dudákat még jobban!
+[00:41.000 --> 00:45.000]  Hát sorban álltál a duda kirakásnál, látom.
+[00:45.000 --> 00:46.000]  Lecírtottalak.
+[00:47.000 --> 00:48.000]  Fasra kíváncsi rád?
+[00:50.000 --> 00:53.000]  Fúj! Rád meg még az se?
+[00:53.000 --> 00:54.000]  Malac!
+[00:56.000 --> 00:58.000]  Félkigyűlölő csoroszjavar.
+[00:59.000 --> 01:09.000]  A csoroszászó jelentésen nem ez amire használja. Nem egy fiatal lányra szokták alkalmazni. Mi ez az atomszar?
+[01:11.000 --> 01:13.000]  Jézus Mária!
+[01:13.000 --> 01:15.000]  Szánalmas vagy, de nagyon.
+[01:17.000 --> 01:20.000]  Téged még kategorizálni se lehet, barom.
+[01:20.000 --> 01:27.000]  Tudtad, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyodnak. Ezért mosolyodnak.
+[01:28.000 --> 01:31.000]  Hát jó, de nem rád, baszod.
+[01:35.000 --> 01:36.000]  Rád mosolyogni?
+[01:36.000 --> 01:37.000]  Kitörik a fogom.
+[01:38.000 --> 01:41.000]  Szia neked! Mi a kurva anyádra van önbizalmad?
+[01:41.000 --> 01:42.000]  Áh!
+[01:43.000 --> 01:50.000]  Áh! Hát azt nem értem sehogy se. Még egyszer még néztelek, most se értem. Érthetetlen hülye vagy.
+[01:51.000 --> 01:57.000]  A nők túl sokat képzelnek már magukról, de a valósággal nincs párhuzamban.
+[01:59.000 --> 02:02.000]  Jó Isten! Szép a szemed!
+[02:03.000 --> 02:04.000]  Kivéve az egyik.
+[02:04.000 --> 02:09.000]  Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.
+[02:09.000 --> 02:15.000]  Olyan nem figyelmetek be, hogy nem mondtok, nem beszéltek össze-vissza az unokára ilyen baromságokat.
+[02:16.000 --> 02:17.000]  Különben...
+[02:17.000 --> 02:18.000]  Különben...
+[02:18.000 --> 02:19.000]  Különben...
+[02:19.000 --> 02:20.000]  Mi lesz különben?
+[02:21.000 --> 02:23.000]  Különben odamegyek.
+[02:23.000 --> 02:24.000]  Oda megy.
+[02:24.000 --> 02:25.000]  Ez lesz nektek, jaj.
+[02:25.000 --> 02:27.000]  Mutass meg az izmodat, mutass meg az izmodat.
+[02:27.000 --> 02:28.000]  Mutass meg az izmodat.
+[02:29.000 --> 02:30.000]  Az izmodát!
