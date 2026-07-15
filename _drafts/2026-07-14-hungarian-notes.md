@@ -2514,3 +2514,207 @@ that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
 [00:47.260 --> 00:50.800]  Szerintem, ha már lezártátok, nincsek érzelmek, meg túl akartok lépni,
 [00:50.940 --> 00:53.760]  akkor csak a jelenlegi kapcsolatot mérgezi.
 [00:53.760 --> 00:55.660]  Egy jó rándiból bármi lehet.
+
+I read **éheidőszak** as **ZH-időszak** (“test period”), and **Nem például úgy van** as **Nálunk például úgy van**. I have kept **állandóan** as heard, though **főállásban** (“full-time”) would also fit the context.
+
+**Szerintetek mennyire fontos az, hogy egy pár minden anyagi szükségletet felesben fizessen?**
+
+In your opinion, how important is it for a couple to pay for every financial need fifty-fifty?
+
+```text
+Szerint-etek     mennyi-re  fontos  az,    hogy  egy
+according.to-2PL how.much-SBL important that  that  a
+
+pár     minden  anyag-i       szükséglet-et
+couple  every   material-ADJ  need-ACC
+
+feles-ben  fizess-en?
+half-INE   pay-SBJV.3SG.INDF
+```
+
+**Szerintem ez amúgy attól függ, hogy ki dolgozik mondjuk állandóan, vagy ki van egyetemen.**
+
+I think this actually depends on who works all the time, say, and who is at university.
+
+```text
+Szerint-em      ez    amúgy     attól      függ,
+according.to-1SG this  actually  that-DEL   depend.3SG
+
+hogy  ki   dolgoz-ik       mondjuk  állandó-an,
+that  who  work-3SG        say      constant-ADV
+
+vagy  ki   van     egyetem-en.
+or    who  be.3SG  university-SUP
+```
+
+**Nálunk például úgy van, hogy nekem a párom egyetemen van, én meg dolgozok állandóan.**
+
+For us, for example, it is like this: my partner is at university, while I work all the time.
+
+```text
+Nál-unk  példá-ul     úgy   van,     hogy  nek-em
+at-1PL   example-ADV  thus  be.3SG  that  DAT-1SG
+
+a    pár-om          egyetem-en       van,
+the  partner-1SG.POSS university-SUP  be.3SG
+
+én   meg  dolgoz-ok      állandó-an.
+1SG  and  work-1SG.INDF  constant-ADV
+```
+
+**Ezért én általában több költséget fizetek, mint ő.**
+
+Therefore, I generally pay more expenses than my partner does.
+
+```text
+Ez-ért    én   általában  több  költség-et
+this-CAUS 1SG  generally  more  expense-ACC
+
+fizet-ek,      mint  ő.
+pay-1SG.INDF   than  3SG
+```
+
+**De amikor ZH-időszak van, vagy például nincs egyetem, akkor ő egyből elmegy dolgozni.**
+
+But when it is test period, or when there is no university, for example, my partner immediately goes to work.
+
+```text
+De   amikor  ZH-időszak  van,     vagy  példá-ul
+but  when    test-period be.3SG  or    example-ADV
+
+nincs,        egyetem,      akkor  ő
+NEG.be.3SG    university    then   3SG
+
+egyből       el-megy       dolgoz-ni.
+immediately  PV-go.3SG     work-INF
+```
+
+**És akkor általában felesben fizetünk, vagy ő ragaszkodik hozzá, hogy ő többet fizessen.**
+
+And then we generally pay fifty-fifty, or my partner insists on paying more.
+
+```text
+És  akkor  általában  feles-ben  fizet-ünk,
+and  then   generally  half-INE   pay-1PL.INDF
+
+vagy  ő    ragaszkod-ik  hozzá,    hogy  ő
+or    3SG  insist-3SG    to.it     that  3SG
+
+több-et   fizess-en.
+more-ACC  pay-SBJV.3SG.INDF
+```
+
+**Szerintetek oké az, hogyha valaki még mindig tartja a kapcsolatot az exével?**
+
+In your opinion, is it okay if someone still keeps in contact with their ex?
+
+```text
+Szerint-etek     oké  az,    hogyha  valaki
+according.to-2PL okay that   if      someone
+
+még  mindig  tart-ja       a    kapcsolat-ot
+yet  always  keep-3SG.DEF  the  contact-ACC
+
+az   ex-é-vel?
+the  ex-3SG.POSS-INST
+```
+
+**Szerintem nem, de nálunk nincs is ilyen.**
+
+I do not think so, but there is no such thing in our relationship anyway.
+
+```text
+Szerint-em       nem,  de   nál-unk  nincs
+according.to-1SG NEG   but  at-1PL   NEG.be.3SG
+
+is    ilyen.
+also  such
+```
+
+**Én értem, hogyha valaki jól válik el az exétől, de nem nagyon tudom megérteni azt, ha valaki ilyen barátságban marad az exével.**
+
+I understand if someone separates from their ex on good terms, but I cannot really understand it if someone remains friends with their ex like this.
+
+```text
+Én   ért-em,               hogyha  valaki   jól
+1SG  understand-1SG.DEF   if      someone  well
+
+vál-ik       el  az   ex-é-től,          de
+separate-3SG PV  the  ex-3SG.POSS-DEL    but
+
+nem  nagyon  tud-om          meg-ért-eni  az-t,
+NEG  very    can-1SG.DEF     PV-understand-INF that-ACC
+
+ha  valaki   ilyen  barátság-ban  marad
+if  someone  such   friendship-INE remain.3SG
+
+az   ex-é-vel.
+the  ex-3SG.POSS-INST
+```
+
+**És így nekem ez fura.**
+
+And so this is strange to me.
+
+```text
+És  így   nek-em   ez    fura.
+and  thus  DAT-1SG  this  strange
+```
+
+**Szerintem, ha már lezártátok, nincsenek érzelmek, meg túl akartok lépni, akkor csak a jelenlegi kapcsolatot mérgezi.**
+
+I think that if you have already ended it, there are no feelings, and you want to move on, then it only poisons the current relationship.
+
+```text
+Szerint-em,      ha  már      le-zár-tá-tok,
+according.to-1SG if  already  PV-close-PST-2PL.DEF
+
+nincs-enek     érzelem-ek,  meg  túl
+NEG.be-3PL     feeling-PL   and  beyond
+
+akar-tok       lép-ni,  akkor  csak  a
+want-2PL.INDF  step-INF then   only  the
+
+jelenleg-i  kapcsolat-ot   mérgez-i.
+current-ADJ relationship-ACC poison-3SG.DEF
+```
+
+**Egy jó randiból bármi lehet.**
+
+Anything can come from a good date.
+
+```text
+Egy  jó    randi-ból  bár-mi       lehet.
+a    good  date-ELA   no.matter-what be.POT.3SG
+```
+
+## A2 vocabulary
+
+* **szerintetek** — in your opinion, addressing several people
+* **mennyire** — how much; to what extent
+* **pár** — couple; partner
+* **anyagi** — financial; material
+* **szükséglet** — need; necessity
+* **felesben** — fifty-fifty; in equal halves
+* **attól függ** — depend on that
+* **amúgy** — actually; by the way
+* **állandóan** — constantly; all the time
+* **egyetemen van** — be at university
+* **nálunk** — at our place; in our situation
+* **általában** — generally; usually
+* **költség** — expense; cost
+* **több költséget fizet** — pay more of the expenses
+* **ZH-időszak** — university test period
+* **egyből** — immediately; straight away
+* **elmegy dolgozni** — go off to work
+* **ragaszkodik valamihez** — insist on something
+* **tartja a kapcsolatot valakivel** — keep in contact with someone
+* **ex** — ex-partner
+* **jól válik el valakitől** — separate from someone on good terms
+* **barátságban marad** — remain friends
+* **lezár valamit** — bring something to an end
+* **érzelem** — feeling; emotion
+* **túllép valamin** — move on from something
+* **jelenlegi** — current; present
+* **mérgez** — poison
+* **bármi lehet** — anything can happen; anything may come of it
