@@ -2129,24 +2129,24 @@ the  answer-PL-2PL.POSS-ACC
 Nem, nem, nem, nem, nem, nem.
 Lehetne, hogy leszokunk erről a marhaságról,
 hogy mindenki azt hiszi, hogy a szőke emberek hülyék,
-a jó tanulók stréberek, akiknek nincsen márkás ruhája,
-az csóró, és ilyen hülyeségek? Mi van?
-Attól még, hogy valakinek jók a jegyei, nem lesz stréber.
-Attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.
+a jó tanulók stréberek, akiknek nincsen márkás ruhája
+az csóró, és ilyen hülyeségek. Mi van?
+Attól még, hogy valakinek jók a jegyei, nem lesz stréber,
+attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.
 Attól még, hogy valaki szeret sportolni lányként,
-attól még, hogy ő nem fiús, és attól még,
-ha egy fiú szereti a rózsaszínt, ő nem lesz.
+attól még, hogy ő nem fiús. És attól még,
+ha egy fiú szereti a rózsaszínt, ő nem lesz...
 Attól még, hogy valakinek színes a bőre, nem fogja ellopni a cuccaidat.
 Attól még, hogy valaki nem akar a legújabb iPhone-ra költeni,
 attól még nem csóró.
-Szóval, drágáim, vegyük elő a jobbikeszünket,
-és felejtsük el ezeket a sztereotípiákat,
+Szóval, drágáim, vegyük elő a jobbi kezünket,
+és felejtsük el ezeket a sztereotípiákat
 és ezeket az előítéleteket,
 mert ezek az előítéletek általában információhiány miatt jönnek,
 tehát csak az gondolkozik így, akinek valami az ész,
-hiányzik az agyából,
-szóval légy szíves, vegyük elő a jobbikeszünket,
-és vegyük tudomásul, hogy mindenki ugyanolyan értékes,
+hiányzik az agyából.
+Szóval légy szíves, vegyük elő jobbi kezünket,
+és vegyük tudomásul, hogy mindenki ugyanolyan értékes
 és ugyanolyan szerethető, bárhogy néz ki, bármire költ,
 bármilyen, bármilyen.
 Jó?
