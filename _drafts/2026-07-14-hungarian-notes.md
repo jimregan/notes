@@ -2428,5 +2428,39 @@ Kisses!
 
 [Reel](https://www.instagram.com/reels/DZKA16AsY8i/)
 
-Azért, mert egy nő szexi képeket posztol, még nem azt jelenti, hogy könnyen kapható.
-Te is maffia vezér, idézeteket posztolsz, mégis egy vesztes vagy.
+**Azért, mert egy nő szexi képeket posztol, még nem azt jelenti, hogy könnyen kapható.**
+
+Just because a woman posts sexy pictures, it does not mean that she is easy to get.
+
+```text
+Azért,      mert     egy  nő     szexi  kép-ek-et
+for.that    because  a    woman  sexy   picture-PL-ACC
+
+posztol,          még  nem  az-t      jelent-i,
+post.3SG.INDF     still NEG  that-ACC  mean-3SG.DEF
+
+hogy  könny-en  kap-ható.
+that  easy-ADV  get-POT.PTCP
+```
+
+**Te is maffiavezér-idézeteket posztolsz, mégis egy vesztes vagy.**
+
+You post mafia-boss quotes too, yet you are a loser.
+
+```text
+Te   is    maffia-vezér-idézet-ek-et
+2SG  also  mafia-leader-quotation-PL-ACC
+
+posztol-sz,      mégis  egy  vesztes  vagy.
+post-2SG.INDF    yet     a    loser   be.2SG
+```
+
+## A2 vocabulary
+
+* **azért, mert…** — because; for the reason that…
+* **még nem azt jelenti, hogy…** — it still does not mean that…
+* **könnyen** — easily
+* **kapható** — available; obtainable
+* **mégis** — nevertheless; yet
+* **vesztes** — loser
+* **idézet** — quotation; quote
