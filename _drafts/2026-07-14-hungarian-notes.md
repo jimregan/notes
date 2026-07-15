@@ -2977,11 +2977,10 @@ fish.soup-vodka-ACC because  then   good  become.3SG
 
 [Reel](https://www.instagram.com/reels/DYh_WxaCGPb/)
 
-[00:00.000 --> 00:02.000]  Idefújtás szemetek a szél.
-[00:02.000 --> 00:04.000]  Engem a kettes vélem most hozott.
-[00:04.000 --> 00:07.500]  És amúgy itt lesz koncert, május 23-ben a Follow the Dream-val.
-[00:07.500 --> 00:09.500]  Én leszek előttük, az egyik előzőnek van.
-[00:09.500 --> 00:11.500]  Én már itt a Budapest Parkban.
-[00:11.500 --> 00:13.500]  Itt.
-[00:13.500 --> 00:15.500]  Itt.
-
+Idefújta a szemetet a szél.
+Engem a kettes villamos hozott.
+És amúgy itt lesz koncert, május 23-án a Follow the Flow-val.
+Én leszek előttük, az egyik előzenekar
+És itt a Budapest Parkba.
+Itt.
+Itt.
