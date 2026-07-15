@@ -4059,3 +4059,24 @@ NEG  come-PST.3SG PV
 * **tűzbe jön** — become excited or aroused
 * **cirkuszol** — make a scene; create drama
 * **nem jön be** — not work out; not appeal to someone
+
+---
+
+[Reel](https://www.instagram.com/reels/DZhZ7yNE0Vl/)
+
+Én, azaz Michelle Wild leszek fellógatva egy húskampóra.
+
+[00:00.000 --> 00:04.120]  Én, azaz Michelle White, leszek feldolgatva egy húskampóra.
+[00:04.120 --> 00:08.400]  Találkoztam Bart Katival itt a forgatáson is,
+[00:08.400 --> 00:13.360]  illetve megelőzően voltak találkozóink.
+[00:13.360 --> 00:16.000]  Telefonon is tartjuk a kapcsolatot.
+[00:16.000 --> 00:18.240]  Számomra egy nagyon jó élmény volt.
+[00:18.240 --> 00:24.400]  Borzasztóan izgultam, mert tényleg annyira felkészült voltam az életéből,
+[00:24.400 --> 00:27.480]  mire már találkoztunk, hogy tényleg azt éreztem, hogy
+[00:27.480 --> 00:30.680]  mint egy Hollywoodi sztárral találkozom.
+[00:30.680 --> 00:33.080]  Szóval rettentesen izgultam, de
+[00:33.080 --> 00:39.480]  hál' az égnek nagyon kedves és újtott emberként ismerhettem magakat itt.
+[00:39.480 --> 00:42.960]  Izgalmas kérdései voltak, amiben éreztem, hogy
+[00:42.960 --> 00:47.840]  szeretné felmérni, hogy nekem mi a véleményem erről a karakterről,
+[00:47.840 --> 00:51.320]  és szerintem tök jól vájboldott.
+[00:51.320 --> 00:53.400]  Rendezte Kowie.
