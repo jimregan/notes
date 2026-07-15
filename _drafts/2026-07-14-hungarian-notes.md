@@ -2428,5 +2428,5 @@ Kisses!
 
 [Reel](https://www.instagram.com/reels/DZKA16AsY8i/)
 
-[00:00.420 --> 00:04.800]  Azért, mert egy nő szexi képeket posztol, még nem azt jelenti, hogy könnyen kapható.
-[00:05.660 --> 00:09.380]  Te is maffia vezér, idézeteket posztolsz, mégis egyvesztes vagy.
+Azért, mert egy nő szexi képeket posztol, még nem azt jelenti, hogy könnyen kapható.
+Te is maffia vezér, idézeteket posztolsz, mégis egy vesztes vagy.
