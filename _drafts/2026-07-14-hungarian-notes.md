@@ -2126,16 +2126,9 @@ the  answer-PL-2PL.POSS-ACC
 
 [Reel](https://www.instagram.com/reels/DYHLvz6szRp/)
 
-I’ve corrected **jobbi kezünket** to the idiom **jobbik eszünket**, and regularized **akinek nincsen márkás ruhája** and **attól még ő nem fiús**. The word after **ő nem lesz…** is missing, so I leave the sentence unfinished.
-
 **Nem, nem, nem, nem, nem, nem.**
 
 No, no, no, no, no, no.
-
-```text
-Nem,  nem,  nem,  nem,  nem,  nem.
-NEG   NEG   NEG   NEG   NEG   NEG
-```
 
 **Lehetne, hogy leszokjunk erről a marhaságról.**
 
@@ -2375,11 +2368,6 @@ spend.3SG      no.matter-what.kind no.matter-what.kind
 
 Okay?
 
-```text
-Jó?
-good
-```
-
 **Tökéletesek vagytok, szerethetőek vagytok, és pont elegek vagytok úgy, ahogy vagytok.**
 
 You are perfect, you are lovable, and you are exactly enough just as you are.
@@ -2398,11 +2386,6 @@ so    how    be-2PL
 **Puszi!**
 
 Kisses!
-
-```text
-Puszi!
-kiss.DIM
-```
 
 ## A2 vocabulary
 
