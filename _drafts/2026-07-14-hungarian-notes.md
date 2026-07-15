@@ -2121,3 +2121,35 @@ the  answer-PL-2PL.POSS-ACC
 * **se** — neither; not either
 * **válasz** — answer
 * **válaszaitok** — your answers, addressing several people
+
+---
+
+[Reel](https://www.instagram.com/reels/DYHLvz6szRp/)
+
+[00:00.000 --> 00:02.860]  Nem, nem, nem, nem, nem, nem.
+[00:03.180 --> 00:05.920]  Lehetne, hogy leszokunk erről a marhaságról,
+[00:06.120 --> 00:09.120]  hogy mindenki azt hiszi, hogy a szőke emberek hülyék,
+[00:09.420 --> 00:13.040]  a jó tanulók stréberek, akiknek nincsen márkás ruhája,
+[00:13.120 --> 00:16.580]  az csóró, és ilyen hülyeségek? Mi van?
+[00:16.840 --> 00:20.240]  Attól még, hogy valakinek jók a jegyei, nem lesz stréber.
+[00:20.520 --> 00:23.860]  Attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.
+[00:24.260 --> 00:27.140]  Attól még, hogy valaki szeret sportolni lányként,
+[00:27.140 --> 00:29.500]  attól még, hogy ő nem fiús, és attól még,
+[00:29.580 --> 00:31.800]  ha egy fiú szereti a rózsaszínt, ő nem lesz.
+[00:32.740 --> 00:36.140]  Attól még, hogy valakinek színes a bőre, nem fogja ellopni a cuccaidat.
+[00:36.760 --> 00:39.700]  Attól még, hogy valaki nem akar a legújabb iPhone-ra költeni,
+[00:39.800 --> 00:41.000]  attól még nem csóró.
+[00:41.200 --> 00:43.140]  Szóval, drágáim, vegyük elő a jobbikeszünket,
+[00:43.780 --> 00:46.640]  és felejtsük el ezeket a sztereotípiákat,
+[00:46.700 --> 00:48.600]  és ezeket az előítéleteket,
+[00:48.800 --> 00:53.240]  mert ezek az előítéletek általában információhiány miatt jönnek,
+[00:53.240 --> 00:57.000]  tehát csak az gondolkozik így, akinek valami az ész,
+[00:57.140 --> 00:58.360]  hiányzik az agyából,
+[00:58.620 --> 01:00.840]  szóval légy szíves, vegyük elő a jobbikeszünket,
+[01:01.100 --> 01:05.100]  és vegyük tudomásul, hogy mindenki ugyanolyan értékes,
+[01:05.300 --> 01:08.660]  és ugyanolyan szerethető, bárhogy néz ki, bármire költ,
+[01:08.760 --> 01:10.300]  bármilyen, bármilyen.
+[01:11.060 --> 01:11.280]  Jó?
+[01:11.920 --> 01:14.100]  Tökéletesek vagytok, szerethetőek vagytok,
+[01:14.160 --> 01:16.700]  és pont elegek vagytok, úgy, ahogy vagytok.
+[01:17.600 --> 01:18.200]  Puszi!
