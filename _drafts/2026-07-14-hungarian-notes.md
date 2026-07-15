@@ -2977,10 +2977,87 @@ fish.soup-vodka-ACC because  then   good  become.3SG
 
 [Reel](https://www.instagram.com/reels/DYh_WxaCGPb/)
 
-Idefújta a szemetet a szél.
-Engem a kettes villamos hozott.
-És amúgy itt lesz koncert, május 23-án a Follow the Flow-val.
-Én leszek előttük, az egyik előzenekar
-És itt a Budapest Parkba.
+**Idefújta a szemetet a szél.**
+
+The wind blew the rubbish here.
+
+```text
+Ide  fúj-t-a         a    szemét-et  a    szél.
+here  blow-PST-3SG.DEF the  rubbish-ACC the  wind
+```
+
+**Engem a kettes villamos hozott.**
+
+The number 2 tram brought me here.
+
+```text
+Engem   a    kett-es  villamos  hoz-ott.
+1SG.ACC the  two-ADJ  tram      bring-PST.3SG
+```
+
+**És amúgy itt lesz koncert május 23-án a Follow the Flow-val.**
+
+And by the way, there will be a concert here on 23 May with Follow the Flow.
+
+```text
+És  amúgy     itt   lesz        koncert  május  23-án
+and by.the.way here  become.3SG  concert  May    23-SUP
+
+a    Follow_the_Flow-val.
+the  Follow_the_Flow-INST
+```
+
+**Én leszek előttük az egyik előzenekar.**
+
+I will be one of the opening acts before them.
+
+```text
+Én   lesz-ek       előtt-ük    az   egy-ik
+1SG  become-1SG    before-3PL  the  one-ONE
+
+elő-zenekar.
+opening-band
+```
+
+**És itt, a Budapest Parkban.**
+
+And here, in Budapest Park.
+
+```text
+És  itt,  a    Budapest_Park-ban.
+and here  the  Budapest_Park-INE
+```
+
+**Itt.**
+
+Here.
+
+```text
 Itt.
+here
+```
+
+**Itt.**
+
+Here.
+
+```text
 Itt.
+here
+```
+
+## A2 vocabulary
+
+* **idefúj** — blow something here
+* **szemét** — rubbish; trash
+* **szél** — wind
+* **kettes villamos** — tram number 2
+* **amúgy** — by the way; actually
+* **koncert** — concert
+* **május 23-án** — on 23 May
+* **valakivel** — with someone
+* **valaki előtt** — before someone; earlier in a programme
+* **előzenekar** — opening act; support band
+* **Budapest Parkban** — in Budapest Park
+
+The form **Budapest Parkba** would mean “into Budapest Park”; for a concert taking place there, **Budapest Parkban** is the expected form.
