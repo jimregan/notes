@@ -3568,38 +3568,496 @@ The final **izmodát** is a nonstandard or exaggerated pronunciation of standard
 
 [Reel](https://www.instagram.com/reels/DYu4iJBIMDf/)
 
-Szia. Csak szerepelni akarok a kövi vididbe mint aki rádírt hogy fel akar szedni
-Ezzel a dumaval?
-Amig meg tudsz fogalmazni egy osszefuggo, ertelmes mondatot, addig sajnos keves vagy hozza
-Na jó összeszedem magam
-Szia tetszel gyere svájcba lábkép léci 
-Ez milyen volt?
-Nagyon jo vagy, teljesen be is indultam.
-Tessek, ez ingyen volt
-Nem merem megnyitni
-Ilyenkor mi a következő lépés?
-Nekem is küldeni kell egyet?
-Ilyenkor elmondod, hogyan nyalnad végig a lábfejemet, és mennyire vágysz rá, hogy az izdat talpam az arcodra tegyem.
-Majd kérsz egy másik lábképet, vagy lábújj mozgatós videót, 30-40 dollárért.
-De tejszínhabot kérhetek rá, magában ez így erős?
-A mai modern udvarlási szokásokat még tanulnom kell, úgy látszik, de legyen
-Van revolútod?
-Pár hete eladtam egy olyat, amin gabonapelyhet kellett széttaposnom a padlón. A tejszínhab sima.
-Én nem hiszem el amúgy, hogy egyszerűbb pénzt utalni nőknek corn flakes taposásért, mint amúgy aktuálisan megtanulni beszélni velük.
-Ja, ők nem ismerkedni akarnak
-Csak lábfétisük van.
-De ha már lábfétised van, akkor nem egyszerűbb megismerni egy lányt, akinek ez bejön, és akkor együtt freakeskedni.
-Persze, és akkor már rögtön a használt bugyijaimat se rendeljék meg? Eszednél vagy? Akkor miből fogom fizetni a nyaralást?
-Amúgy nem tudom, van-e olyan nő, akinek ez bejön.
-Nekem valódi meggyőződésem, hogy a nők tudnak perverzebbek lenni, amúgy...
-De a nők szexi perverzek, nem megszopkodom a redvás lábújjadat, perverzek.
-És akkor te amúgy mit dolgozol? Vagy full time? nyomod ezt a lábképes melót.
-Stripper vagyok
-Egy cirkuszban
-Egy zebra hátán vetközöm.
-Wow! Micsoda véletlen
-Én egy akrobata tigrisdomár vagyok.
-Alapíthatnánk egy közös cirkuszt.
-Wow! Fogadok ettől, nem csak a karika jön tűzbe.
-Már próbáltam
-Az ex-em mindig cirkuszolt, nem jött be.
+I’ve restored the likely missing **nem** in **Amíg nem tudsz…**, and normalized obvious spelling such as **izzadt**, **lábujj**, **Revolutod**, and **vetkőzöm**.
+
+**Szia. Csak szerepelni akarok a kövi videódban, mint aki rád írt, hogy fel akar szedni.**
+
+Hi. I just want to appear in your next video as the guy who messaged you saying he wants to pick you up.
+
+```text
+Szia.  Csak  szerepel-ni  akar-ok         a    köv-i
+hello  just  appear-INF   want-1SG.INDF   the  next-ADJ
+
+videó-d-ban,       mint  aki  rá-d       ír-t,
+video-2SG.POSS-INE as    REL  onto-2SG   write-PST.3SG
+
+hogy  fel  akar            szed-ni.
+that  PV   want.3SG.INDF   pick.up-INF
+```
+
+**Ezzel a dumával?**
+
+With that line?
+
+```text
+Ez-zel    a    dumá-val?
+this-INST the  line-INST
+```
+
+**Amíg nem tudsz megfogalmazni egy összefüggő, értelmes mondatot, addig sajnos kevés vagy hozzá.**
+
+Until you can formulate a coherent, meaningful sentence, unfortunately you are not good enough for it.
+
+```text
+Amíg  nem  tud-sz          meg-fogalmaz-ni  egy
+until  NEG  can-2SG.INDF    PV-formulate-INF  a
+
+össze-függ-ő    értelm-es   mondat-ot,  addig
+together-hang-PTCP sense-ADJ sentence-ACC until.then
+
+sajnos         kevés  vagy    hozzá.
+unfortunately  little be.2SG  to.it
+```
+
+**Na jó, összeszedem magam.**
+
+All right, I’ll pull myself together.
+
+```text
+Na  jó,    össze-szed-em       mag-am.
+DM  good   PV-collect-1SG.DEF  self-1SG
+```
+
+**Szia, tetszel, gyere Svájcba, lábkép, léci.**
+
+Hi, I like you, come to Switzerland, foot picture, please.
+
+```text
+Szia,  tetsz-el,       gyere          Svájc-ba,
+hello  please-2SG.INDF come.IMP.2SG   Switzerland-ILL
+
+láb-kép,      léci.
+foot-picture  please
+```
+
+**Ez milyen volt?**
+
+How was that?
+
+```text
+Ez    milyen  volt?
+this  what.kind be.PST.3SG
+```
+
+**Nagyon jó vagy, teljesen be is indultam.**
+
+You are very good; I got completely turned on.
+
+```text
+Nagyon  jó    vagy,   teljes-en  be  is
+very    good  be.2SG  complete-ADV PV  also
+
+indul-t-am.
+start-PST-1SG
+```
+
+**Tessék, ez ingyen volt.**
+
+There you go, that one was free.
+
+```text
+Tessék,        ez    ingyen  volt.
+there.you.go   this  free    be.PST.3SG
+```
+
+**Nem merem megnyitni.**
+
+I do not dare to open it.
+
+```text
+Nem  mer-em        meg-nyit-ni.
+NEG  dare-1SG.DEF  PV-open-INF
+```
+
+**Ilyenkor mi a következő lépés?**
+
+At this point, what is the next step?
+
+```text
+Ilyen-kor  mi    a    következ-ő  lépés?
+such-TEMP  what  the  follow-PTCP step
+```
+
+**Nekem is küldeni kell egyet?**
+
+Do I have to send one too?
+
+```text
+Nek-em   is    küld-eni  kell       egy-et?
+DAT-1SG  also  send-INF  must.3SG   one-ACC
+```
+
+**Ilyenkor elmondod, hogyan nyalnád végig a lábfejemet, és mennyire vágysz rá, hogy az izzadt talpam az arcodra tegyem.**
+
+At this point, you say how you would lick all along my foot and how much you long for me to put my sweaty sole on your face.
+
+```text
+Ilyen-kor  el-mond-od,      hogyan  nyal-ná-d
+such-TEMP  PV-say-2SG.DEF   how     lick-COND-2SG.DEF
+
+végig  a    láb-fej-em-et,        és   mennyi-re
+along  the  foot-head-1SG.POSS-ACC and  how.much-SBL
+
+vágy-sz       rá,      hogy  az   izzad-t
+long-2SG.INDF onto.it  that  the  sweat-PTCP.PST
+
+talp-am          az   arc-od-ra      tegy-em.
+sole-1SG.POSS    the  face-2SG.POSS-SBL put-SBJV-1SG.DEF
+```
+
+**Majd kérsz egy másik lábképet vagy lábujj-mozgatós videót harminc-negyven dollárért.**
+
+Then you ask for another foot picture or a toe-wiggling video for thirty or forty dollars.
+
+```text
+Majd  kér-sz         egy  más-ik  láb-kép-et
+then  ask-2SG.INDF   a    other-ONE foot-picture-ACC
+
+vagy  láb-ujj-mozgat-ós  videó-t
+or    foot-toe-move-ADJ  video-ACC
+
+harminc-negyven  dollár-ért.
+thirty-forty     dollar-CAUS
+```
+
+**De tejszínhabot kérhetek rá? Magában ez így erős.**
+
+But can I ask for whipped cream on it? By itself, this is a bit intense.
+
+```text
+De   tejszín-hab-ot   kér-het-ek       rá?
+but  cream-foam-ACC   ask-POT-1SG.INDF onto.it
+
+Mag-á-ban        ez    így   erős.
+self-3SG.POSS-INE this  thus  strong
+```
+
+**A mai modern udvarlási szokásokat még tanulnom kell, úgy látszik, de legyen.**
+
+It seems I still have to learn today’s modern courting customs, but so be it.
+
+```text
+A    ma-i       modern  udvarlás-i  szokás-ok-at
+the  today-ADJ  modern  courtship-ADJ custom-PL-ACC
+
+még  tanul-n-om      kell,      úgy   látsz-ik,
+still learn-INF-1SG  must.3SG   thus  seem-3SG
+
+de   legyen.
+but  be.SBJV.3SG
+```
+
+**Van Revolutod?**
+
+Do you have Revolut?
+
+```text
+Van     Revolut-od?
+be.3SG  Revolut-2SG.POSS
+```
+
+**Pár hete eladtam egy olyat, amin gabonapelyhet kellett széttaposnom a padlón. A tejszínhab sima.**
+
+A few weeks ago, I sold one in which I had to trample cereal to pieces on the floor. Whipped cream is no problem.
+
+```text
+Pár  het-e        el-ad-t-am        egy  olyan-t,
+few  week-3SG.POSS PV-sell-PST-1SG  a    such-ACC
+
+ami-n    gabona-pehely-t  kell-ett
+REL-SUP  grain-flake-ACC  must-PST.3SG
+
+szét-tapos-n-om       a    padló-n.
+PV-trample-INF-1SG    the  floor-SUP
+
+A    tejszín-hab  sima.
+the  cream-foam   easy
+```
+
+**Én nem hiszem el amúgy, hogy egyszerűbb pénzt utalni nőknek cornflakes-taposásért, mint aktuálisan megtanulni beszélni velük.**
+
+I actually cannot believe that it is easier to transfer money to women for trampling cornflakes than to actually learn to talk to them.
+
+```text
+Én   nem  hisz-em         el  amúgy,    hogy
+1SG  NEG  believe-1SG.DEF PV  actually  that
+
+egyszerű-bb  pénz-t    utal-ni    nő-k-nek
+simple-CMPR  money-ACC transfer-INF woman-PL-DAT
+
+cornflakes-tapos-ás-ért,  mint  aktuális-an
+cornflakes-trample-NMLZ-CAUS than  actual-ADV
+
+meg-tanul-ni  beszél-ni  vel-ük.
+PV-learn-INF  speak-INF  with-3PL
+```
+
+**Ja, ők nem ismerkedni akarnak.**
+
+Oh, they do not want to meet people.
+
+```text
+Ja,  ő-k    nem  ismerked-ni      akar-nak.
+oh   3SG-PL NEG  get.acquainted-INF want-3PL.INDF
+```
+
+**Csak lábfétisük van.**
+
+They just have a foot fetish.
+
+```text
+Csak  láb-fétis-ük       van.
+just  foot-fetish-3PL.POSS be.3SG
+```
+
+**De ha már lábfétised van, akkor nem egyszerűbb megismerni egy lányt, akinek ez bejön, és akkor együtt freakeskedni?**
+
+But if you already have a foot fetish, is it not easier to meet a girl who is into it and then do freaky things together?
+
+```text
+De   ha  már      láb-fétis-ed       van,     akkor
+but  if  already  foot-fetish-2SG.POSS be.3SG then
+
+nem  egyszerű-bb  meg-ismer-ni  egy  lány-t,
+NEG  simple-CMPR  PV-know-INF    a    girl-ACC
+
+aki-nek  ez    be-jön,       és   akkor  együtt
+REL-DAT  this  PV-come.3SG   and  then   together
+
+freak-es-ked-ni?
+freak-ADJ-DER-INF
+```
+
+**Persze, és akkor már rögtön a használt bugyijaimat se rendeljék meg?**
+
+Of course, and then they should not order my used panties either?
+
+```text
+Persze,    és   akkor  már      rögtön
+of.course  and  then   already  immediately
+
+a    használ-t  bugyi-ja-i-m-at
+the  use-PTCP.PST panties-3SG.POSS-PL-1SG.POSS-ACC
+
+se        rendel-jé-k        meg?
+also.NEG  order-SBJV-3PL.DEF PV
+```
+
+**Eszednél vagy?**
+
+Are you in your right mind?
+
+```text
+Esz-ed-nél         vagy?
+mind-2SG.POSS-ADE  be.2SG
+```
+
+**Akkor miből fogom fizetni a nyaralást?**
+
+Then what am I going to use to pay for my holiday?
+
+```text
+Akkor  mi-ből    fog-om      fizet-ni  a
+then   what-ELA  FUT-1SG.DEF pay-INF   the
+
+nyaralás-t?
+holiday-ACC
+```
+
+**Amúgy nem tudom, van-e olyan nő, akinek ez bejön.**
+
+Actually, I do not know whether there is a woman who is into this.
+
+```text
+Amúgy     nem  tud-om,       van-e
+actually  NEG  know-1SG.DEF  be.3SG-Q
+
+olyan  nő,    aki-nek  ez    be-jön.
+such   woman  REL-DAT  this  PV-come.3SG
+```
+
+**Nekem valódi meggyőződésem, hogy a nők tudnak perverzebbek lenni, amúgy…**
+
+It is my genuine conviction that women can be more perverted, actually…
+
+```text
+Nek-em   valódi  meg-győződés-em,    hogy
+DAT-1SG  genuine PV-conviction-1SG.POSS that
+
+a    nő-k     tud-nak      perverz-ebb-ek
+the  woman-PL can-3PL.INDF perverse-CMPR-PL
+
+len-ni,  amúgy…
+be-INF   actually
+```
+
+**De a nők szexi perverzek, nem „megszopkodom a redvás lábujjadat” perverzek.**
+
+But women are sexy perverts, not “I’ll suck on your filthy toe” perverts.
+
+```text
+De   a    nő-k     szexi  perverz-ek,
+but  the  woman-PL sexy   pervert-PL
+
+nem  meg-szop-kod-om          a    redvá-s
+NEG  PV-suck-ITER-1SG.DEF     the  filthy-ADJ
+
+láb-ujj-ad-at              perverz-ek.
+foot-toe-2SG.POSS-ACC      pervert-PL
+```
+
+**És akkor te amúgy mit dolgozol? Vagy full-time nyomod ezt a lábképes melót?**
+
+And what do you do for work, anyway? Or do you do this foot-picture gig full-time?
+
+```text
+És  akkor  te   amúgy     mi-t      dolgoz-ol?
+and  then   2SG  actually  what-ACC  work-2SG.INDF
+
+Vagy  full-time  nyom-od       ez-t      a
+or    full-time  push-2SG.DEF  this-ACC  the
+
+láb-kép-es      meló-t?
+foot-picture-ADJ job-ACC
+```
+
+**Stripper vagyok.**
+
+I am a stripper.
+
+```text
+Stripper  vagy-ok.
+stripper  be-1SG
+```
+
+**Egy cirkuszban.**
+
+In a circus.
+
+```text
+Egy  cirkusz-ban.
+a    circus-INE
+```
+
+**Egy zebra hátán vetkőzöm.**
+
+I undress on the back of a zebra.
+
+```text
+Egy  zebra  hát-á-n          vetkőz-öm.
+a    zebra  back-3SG.POSS-SUP undress-1SG.INDF
+```
+
+**Wow! Micsoda véletlen!**
+
+Wow! What a coincidence!
+
+```text
+Wow!  Micsoda  véletlen!
+wow   what.a   coincidence
+```
+
+**Én egy akrobata tigrisdomár vagyok.**
+
+I am an acrobat tiger tamer.
+
+```text
+Én   egy  akrobata  tigris-domár  vagy-ok.
+1SG  an   acrobat   tiger-tamer   be-1SG
+```
+
+**Alapíthatnánk egy közös cirkuszt.**
+
+We could establish a circus together.
+
+```text
+Alapít-hat-ná-nk      egy  közös  cirkusz-t.
+establish-POT-COND-1PL a    shared circus-ACC
+```
+
+**Wow! Fogadok, ettől nem csak a karika jön tűzbe.**
+
+Wow! I bet this sets more than just the hoop on fire.
+
+```text
+Wow!  Fogad-ok,     ez-től    nem  csak  a
+wow   bet-1SG.INDF  this-DEL  NEG  only  the
+
+karika  jön          tűz-be.
+hoop    come.3SG     fire-ILL
+```
+
+**Már próbáltam.**
+
+I already tried that.
+
+```text
+Már      próbál-t-am.
+already  try-PST-1SG
+```
+
+**Az exem mindig cirkuszolt, nem jött be.**
+
+My ex was always making a scene; it did not work out.
+
+```text
+Az   ex-em          mindig  cirkusz-ol-t,
+the  ex-1SG.POSS    always  circus-DER-PST.3SG
+
+nem  jö-tt       be.
+NEG  come-PST.3SG PV
+```
+
+## A2 vocabulary
+
+* **szerepel** — appear; feature
+* **kövi** — next, colloquial
+* **ráír valakire** — message someone
+* **felszed valakit** — pick someone up romantically
+* **duma** — line; spiel; talk, colloquial
+* **megfogalmaz** — formulate; put into words
+* **összefüggő** — coherent
+* **értelmes** — meaningful; sensible
+* **kevés valamihez** — not good enough for something
+* **összeszedi magát** — pull oneself together
+* **beindul** — start up; become sexually aroused
+* **ingyen** — free of charge
+* **megnyit** — open
+* **következő lépés** — next step
+* **végignyal** — lick all along something
+* **lábfej** — foot
+* **izzadt** — sweaty
+* **talp** — sole of the foot
+* **vágyik valamire** — long for something
+* **lábujj** — toe
+* **udvarlás** — courtship
+* **szokás** — custom; habit
+* **úgy látszik** — it seems
+* **pár hete** — a few weeks ago
+* **elad** — sell
+* **gabonapehely** — breakfast cereal
+* **széttapos** — crush by trampling
+* **padló** — floor
+* **sima** — easy; no problem, colloquial
+* **pénzt utal** — transfer money
+* **megtanul** — learn
+* **ismerkedik** — meet people; get acquainted
+* **lábfétis** — foot fetish
+* **bejön valakinek** — appeal to someone
+* **használt** — used
+* **megrendel** — order
+* **eszednél vagy?** — are you in your right mind?
+* **nyaralás** — holiday; vacation
+* **meggyőződés** — conviction; firm belief
+* **perverz** — perverted
+* **meló** — job; gig, colloquial
+* **vetkőzik** — undress
+* **véletlen** — coincidence
+* **akrobata** — acrobat
+* **tigrisdomár** — tiger tamer
+* **alapít** — establish; found
+* **közös** — shared; joint
+* **fogadok** — I bet
+* **tűzbe jön** — become excited or aroused
+* **cirkuszol** — make a scene; create drama
+* **nem jön be** — not work out; not appeal to someone
