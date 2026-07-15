@@ -2469,5 +2469,34 @@ post-2SG.INDF    yet     a    loser   be.2SG
 
 [Reel](https://www.instagram.com/reels/DY7EOtlsov3/)
 
-Csak el akartam mondani, hogy azért jelentem meg az életedben,
-mert az univerzum úgy döntött, hogy te a legjobbat érdemled
+**Csak el akartam mondani, hogy azért jelentem meg az életedben, mert az univerzum úgy döntött, hogy te a legjobbat érdemled.**
+
+I just wanted to tell you that I appeared in your life because the universe decided that you deserve the best.
+
+```text
+Csak  el  akar-t-am      mond-ani,  hogy  azért
+just  PV  want-PST-1SG   say-INF    that  for.that
+
+jelen-t-em       meg  az   élet-ed-ben,
+appear-PST-1SG   PV   the  life-2SG.POSS-INE
+
+mert     az   univerzum  úgy   dönt-ött,
+because  the  universe   thus  decide-PST.3SG
+
+hogy  te   a    leg-jobb-at       érdeml-ed.
+that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
+```
+
+## A2 vocabulary
+
+* **el akar mondani valamit** — want to tell something
+* **megjelenik** — appear
+* **valakinek az életében** — in someone’s life
+* **univerzum** — universe
+* **úgy dönt** — decide
+* **legjobb** — best
+* **érdemel** — deserve
+
+---
+
+[Reel](https://www.instagram.com/reel/Dak_rVzNAZj/)
