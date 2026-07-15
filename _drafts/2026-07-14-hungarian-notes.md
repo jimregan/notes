@@ -3032,19 +3032,10 @@ and here  the  Budapest_Park-INE
 
 Here.
 
-```text
-Itt.
-here
-```
-
 **Itt.**
 
 Here.
 
-```text
-Itt.
-here
-```
 
 ## A2 vocabulary
 
@@ -3060,4 +3051,3 @@ here
 * **előzenekar** — opening act; support band
 * **Budapest Parkban** — in Budapest Park
 
-The form **Budapest Parkba** would mean “into Budapest Park”; for a concert taking place there, **Budapest Parkban** is the expected form.
