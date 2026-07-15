@@ -3568,8 +3568,6 @@ The final **izmodát** is a nonstandard or exaggerated pronunciation of standard
 
 [Reel](https://www.instagram.com/reels/DYu4iJBIMDf/)
 
-I’ve restored the likely missing **nem** in **Amíg nem tudsz…**, and normalized obvious spelling such as **izzadt**, **lábujj**, **Revolutod**, and **vetkőzöm**.
-
 **Szia. Csak szerepelni akarok a kövi videódban, mint aki rád írt, hogy fel akar szedni.**
 
 Hi. I just want to appear in your next video as the guy who messaged you saying he wants to pick you up.
