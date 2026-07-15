@@ -3055,22 +3055,21 @@ Here.
 
 [Reel](https://www.instagram.com/reels/DZnE3SuoBuK/)
 
-[00:00.000 --> 00:04.800]  Legurvázol, mindennek elmondasz, és azt szeret büntetlenül megúzhatod.
-[00:04.800 --> 00:09.600]  Hát nem, eljött az idő, hogy megfizes, ugyanis megmondtalak a nagyinnak.
-[00:12.000 --> 00:13.000]  Szia kurva!
-[00:14.000 --> 00:15.500]  Szex lehet vele?
-[00:18.500 --> 00:19.500]  Ő érte.
-[00:20.500 --> 00:22.000]  Húzgál, húzgál!
-[00:22.000 --> 00:25.000]  Nálad nagyobb kurva sose láttam.
-[00:26.000 --> 00:28.000]  Te hülye seng!
-[00:28.000 --> 00:30.000]  Szutyog!
-[00:32.000 --> 00:36.000]  Te mondod, hogy szutyog? Hát te mi vagy? Te köcsög!
-[00:37.000 --> 00:39.000]  Pakold ki a dudákat még jobban!
-[00:41.000 --> 00:45.000]  Hát sorban álltál a duda kirakásnál, látom.
-[00:45.000 --> 00:46.000]  Lecírtottalak.
-[00:47.000 --> 00:48.000]  Fasra kíváncsi rád?
-[00:50.000 --> 00:53.000]  Fúj! Rád meg még az se?
-[00:53.000 --> 00:54.000]  Malac!
+Lekurvázol? mindennek elmondasz, és asszed büntetlenül megúszhatod?
+Hát nem, eljött az idő, hogy megfizess, ugyanis megmondtalak a nagyimnak.
+Szia kurva!
+Szex lehet veled?
+Ő írta.
+Búzgár uszkár
+Nálad nagyobb kurva sose láttam.
+Te hülye segg
+Szutyok!
+Te mondod, hogy szutyok? Hát te mi vagy? Te köcsög!
+Pakold ki a dudákat még jobban!
+Hát sorban álltál a duda kirakásnál, látom.
+Letiltottalak, fasz se kíváncsi rád?
+Fúj! Rád meg még az se
+Malac!
 [00:56.000 --> 00:58.000]  Félkigyűlölő csoroszjavar.
 [00:59.000 --> 01:09.000]  A csoroszászó jelentésen nem ez amire használja. Nem egy fiatal lányra szokták alkalmazni. Mi ez az atomszar?
 [01:11.000 --> 01:13.000]  Jézus Mária!
