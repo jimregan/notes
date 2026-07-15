@@ -2812,14 +2812,162 @@ Fun with Whisper:
 
 [Reel](https://www.instagram.com/reels/DavFKnvufDK/)
 
-Buliban pasizni
+The captions are almost certainly right: **beginázta az italomat**. **Gina** is a Hungarian name for GHB, a drug that can be mixed into drinks; **beginázta** therefore means “spiked it with Gina/GHB.” **Becsinázta** is not a recognizable standard form here. ([egeszsegvonal.gov.hu][1])
 
-A szüleim azt mondták, hogy szerintük amúgy jó ötlet ilyen helyeken ismerkedni.
-Szerintem azért, mert még soha az életben nem voltak egy ilyen helyen.
-És én azon gondolkodtam, hogy egyszer elviszem őket a Morrisonsba, hogy így...
-Ez a választék.
-Édesapám, melyikhez menjek hozzá?
-Amelyik a sarokba húgyál?
-Amelyik becsinázta az italomat,
-vagy amelyik anyas eggét fogdossa? Melyik legyen?
-Bármelyiket hazaviszem szívesen a karácsonyi vacsorára, hogy az szívesen eszel halászlé-vodkát, mert akkor... jó lesz.
+You did not include the title itself, so this begins with the spoken text.
+
+**A szüleim azt mondták, hogy szerintük amúgy jó ötlet ilyen helyeken ismerkedni.**
+
+My parents said that, in their opinion, it is actually a good idea to meet people in places like this.
+
+```text
+A    szül-e-i-m             az-t      mond-t-á-k,
+the  parent-PL-1SG.POSS     that-ACC  say-PST-3PL.DEF
+
+hogy  szerint-ük       amúgy     jó    ötlet
+that  according.to-3PL actually  good  idea
+
+ilyen  hely-ek-en  ismerked-ni.
+such   place-PL-SUP meet.people-INF
+```
+
+**Szerintem azért, mert még soha az életben nem voltak egy ilyen helyen.**
+
+I think it is because they have never in their lives been to a place like this.
+
+```text
+Szerint-em       azért,      mert     még  soha
+according.to-1SG for.that     because  yet  never
+
+az   élet-ben  nem  volt-ak       egy  ilyen
+the  life-INE  NEG  be.PST-3PL    a    such
+
+hely-en.
+place-SUP
+```
+
+**És én azon gondolkodtam, hogy egyszer elviszem őket a Morrisonsba, hogy így…**
+
+And I was thinking that one day I would take them to Morrisons, like…
+
+```text
+És  én   az-on      gondolkod-t-am,  hogy  egyszer
+and  1SG  that-SUP   think-PST-1SG    that  once
+
+el-visz-em        ő-k-et       a    Morrisons-ba,
+PV-take-1SG.DEF   3SG-PL-ACC   the  Morrisons-ILL
+
+hogy  így…
+that  like.this
+```
+
+**Ez a választék.**
+
+This is the selection.
+
+```text
+Ez    a    választék.
+this  the  selection
+```
+
+**Édesapám, melyikhez menjek hozzá?**
+
+Father, which one should I marry?
+
+```text
+Édesapá-m,       melyik-hez  men-j-ek
+father-1SG.POSS  which-ALL   go-SBJV-1SG.INDF
+
+hozzá?
+PV
+```
+
+**Amelyik a sarokba húgyál?**
+
+The one who is pissing in the corner?
+
+```text
+Amelyik  a    sarok-ba    húgyál?
+REL.ONE  the  corner-ILL  piss.3SG.INDF
+```
+
+**Amelyik beginázta az italomat?**
+
+The one who spiked my drink with GHB?
+
+```text
+Amelyik  be-gináz-t-a               az   ital-om-at?
+REL.ONE  PV-spike.with.GHB-PST-3SG.DEF the drink-1SG.POSS-ACC
+```
+
+**Vagy amelyik anya seggét fogdossa?**
+
+Or the one who keeps groping Mum’s ass?
+
+```text
+Vagy  amelyik  anya    segg-é-t
+or    REL.ONE  mother  ass-3SG.POSS-ACC
+
+fogdos-sa?
+grope.REP-3SG.DEF
+```
+
+**Melyik legyen?**
+
+Which one should it be?
+
+```text
+Melyik  legyen?
+which   be.SBJV.3SG
+```
+
+**Bármelyiket hazaviszem szívesen a karácsonyi vacsorára.**
+
+I will happily take any of them home for Christmas dinner.
+
+```text
+Bár-melyik-et  haza-visz-em       szíves-en
+any-which-ACC  home-take-1SG.DEF  willing-ADV
+
+a    karácsony-i  vacsorá-ra.
+the  Christmas-ADJ dinner-SBL
+```
+
+**Hogy az szívesen eszel halászlé-vodkát, mert akkor… jó lesz.**
+
+[Uncertain:] That you happily eat fish-soup vodka, because then… it will be good.
+
+```text
+Hogy  az    szíves-en    esz-el
+that  that  willing-ADV  eat-2SG.INDF
+
+halászlé-vodká-t,  mert     akkor  jó    lesz.
+fish.soup-vodka-ACC because  then   good  become.3SG
+```
+
+The last sentence is not grammatical as transcribed. A plausible phrase hidden in it may be **ha szívesen eszel halászlét…** (“if you like eating fish soup…”), but the audio is needed to recover the complete wording.
+
+## A2 vocabulary
+
+* **szülők** — parents
+* **szerintük** — in their opinion
+* **amúgy** — actually; by the way
+* **ötlet** — idea
+* **ilyen helyeken** — in places like this
+* **ismerkedik** — meet people; get acquainted
+* **még soha az életben** — never before in one’s life
+* **azon gondolkodik, hogy…** — think about doing something
+* **elvisz valakit valahová** — take someone somewhere
+* **választék** — selection; range of choices
+* **hozzámegy valakihez** — marry someone, said of marrying a man
+* **sarok** — corner
+* **húgyál** — piss; vulgar
+* **begináz egy italt** — spike a drink with GHB
+* **ital** — drink
+* **fogdos** — keep touching or groping
+* **bármelyik** — any one of them
+* **hazavisz** — take home
+* **szívesen** — gladly
+* **karácsonyi vacsora** — Christmas dinner
+
+[1]: https://egeszsegvonal.gov.hu/egeszseg-a-z/g-gy/ghb.html?utm_source=chatgpt.com "GHB (Gina)"
