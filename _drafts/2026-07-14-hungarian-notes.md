@@ -2469,5 +2469,5 @@ post-2SG.INDF    yet     a    loser   be.2SG
 
 [Reel](https://www.instagram.com/reels/DY7EOtlsov3/)
 
-[00:00.340 --> 00:03.580]  Csak el akartam mondani, hogy azért jelentem meg az életedben,
-[00:03.980 --> 00:07.000]  mert az univerzum úgy döntött, hogy te a legjobbat érdemled
+Csak el akartam mondani, hogy azért jelentem meg az életedben,
+mert az univerzum úgy döntött, hogy te a legjobbat érdemled
