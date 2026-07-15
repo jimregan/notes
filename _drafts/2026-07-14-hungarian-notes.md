@@ -2500,3 +2500,17 @@ that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
 ---
 
 [Reel](https://www.instagram.com/reel/Dak_rVzNAZj/)
+
+[00:00.000 --> 00:05.180]  Szerintetek mennyire fontos az, hogy egy pár minden anyagi szükségletet felesbe fizessen?
+[00:07.020 --> 00:12.260]  Szerintem ez amúgy attól függ, hogy ki dolgozik mondjuk állandóan, vagy ki van egyetemen.
+[00:12.560 --> 00:17.000]  Nem például úgy van, hogy nekem a párom egyetemen van, én meg dolgozok állandóan,
+[00:17.120 --> 00:19.700]  ezért én általában több költséget fizetek, mint ő.
+[00:20.100 --> 00:24.720]  De mikor az éheidőszak van, vagy például nincs egyetem, akkor ő egyből elmegy dolgozni,
+[00:24.720 --> 00:29.720]  és akkor általában felesben fizetünk, vagy ő ragaszkodik hozzá, hogy ő többet fizessen.
+[00:30.100 --> 00:34.400]  Szerintetek oké az, hogyha valaki még mindig tartja a kapcsolatot az ex párjával?
+[00:35.340 --> 00:37.600]  Szerintem nem, de nálunk nincs is ilyen.
+[00:37.980 --> 00:41.880]  Én értem, hogyha valaki jól válik el az exétől, de nem nagyon tudom megérteni azt,
+[00:41.980 --> 00:47.080]  ha valaki ilyen barátságban marad az exével, és így nekem ez fura.
+[00:47.260 --> 00:50.800]  Szerintem, ha már lezártátok, nincsek érzelmek, meg túl akartok lépni,
+[00:50.940 --> 00:53.760]  akkor csak a jelenlegi kapcsolatot mérgezi.
+[00:53.760 --> 00:55.660]  Egy jó rándiból bármi lehet.
