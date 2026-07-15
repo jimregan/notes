@@ -4064,17 +4064,149 @@ NEG  come-PST.3SG PV
 
 [Reel](https://www.instagram.com/reels/DZhZ7yNE0Vl/)
 
-Én, azaz Michelle Wild leszek fellógatva egy húskampóra.
-Találkoztam Vad Katival, itt a forgatáson is,
-illetve megelőzően voltak találkozóink.
-Telefonon is tartjuk a kapcsolatot.
-Számomra egy nagyon jó élmény volt,
-borzasztóan izgultam, mert tényleg annyira felkészült voltam az életéből,
-mire már találkoztunk, hogy tényleg azt éreztem, hogy
-egy ilyen Hollywoodi sztárral találkozom,
-szóval rettentesen izgultam, de
-hála az égnek, nagyon kedves és nyitott emberként ismerhettem meg a Katit.
-Izgalmas kérdései voltak, amiben éreztem, hogy
-szeretné felmérni, hogy nekem mi a véleményem erről a karakterről,
-és szerintem tök jól vibeoltunk.
-Rendezte: Kovi.
+**Én, azaz Michelle Wild leszek fellógatva egy húskampóra.**
+
+I—that is, Michelle Wild—will be hung from a meat hook.
+
+```text
+Én,  azaz     Michelle_Wild  lesz-ek      fel-lógat-va
+1SG  that.is  Michelle_Wild  be.FUT-1SG   PV-hang-PASS.CVB
+
+egy  hús-kampó-ra.
+a    meat-hook-SBL
+```
+
+**Találkoztam Vad Katival itt a forgatáson is, illetve megelőzően voltak találkozóink.**
+
+I met Kati Vad here at the filming too, and we had also met previously.
+
+```text
+Találkoz-t-am  Vad_Kati-val  itt   a    forgatás-on  is,
+meet-PST-1SG   Vad_Kati-INST here  the  filming-SUP  also
+
+illetve  meg-előző-en  volt-ak       találkozó-i-nk.
+and      PV-previous-ADV be.PST-3PL   meeting-PL-1PL.POSS
+```
+
+**Telefonon is tartjuk a kapcsolatot.**
+
+We also keep in contact by phone.
+
+```text
+Telefon-on  is    tart-juk       a    kapcsolat-ot.
+telephone-SUP also keep-1PL.DEF   the  contact-ACC
+```
+
+**Számomra egy nagyon jó élmény volt.**
+
+For me, it was a very good experience.
+
+```text
+Szám-om-ra          egy  nagyon  jó    élmény
+account-1SG.POSS-SBL a    very    good  experience
+
+volt.
+be.PST.3SG
+```
+
+**Borzasztóan izgultam, mert tényleg annyira felkészült voltam az életéből, mire már találkoztunk, hogy tényleg azt éreztem, hogy egy ilyen hollywoodi sztárral találkozom.**
+
+I was terribly nervous, because by the time we met I had really prepared so thoroughly by studying her life that I truly felt I was meeting a Hollywood star.
+
+```text
+Borzasztó-an  izgul-t-am,      mert     tényleg  annyi-ra
+terrible-ADV  be.nervous-PST-1SG because  really   that.much-SBL
+
+fel-készül-t  volt-am       az   élet-é-ből,
+PV-prepare-PTCP be.PST-1SG  the  life-3SG.POSS-ELA
+
+mi-re      már      találkoz-t-unk,  hogy  tényleg
+what-SBL   already  meet-PST-1PL     that  really
+
+az-t      érez-t-em,      hogy  egy  ilyen  hollywood-i
+that-ACC  feel-PST-1SG.DEF that  a    such   Hollywood-ADJ
+
+sztár-ral  találkoz-om.
+star-INST meet-1SG.INDF
+```
+
+**Szóval rettenetesen izgultam, de hála az égnek, nagyon kedves és nyitott emberként ismerhettem meg Katit.**
+
+So I was terribly nervous, but thank heavens, I was able to get to know Kati as a very kind and open person.
+
+```text
+Szóval  rettenetes-en  izgul-t-am,      de   hála
+so      terrible-ADV   be.nervous-PST-1SG but  thanks
+
+az   ég-nek,  nagyon  kedves  és   nyitott
+the  sky-DAT  very    kind    and  open
+
+ember-ként  meg-ismer-het-t-em      Kati-t.
+person-ESS  PV-know-POT-PST-1SG.DEF Kati-ACC
+```
+
+**Izgalmas kérdései voltak, amikben éreztem, hogy szeretné felmérni, hogy nekem mi a véleményem erről a karakterről.**
+
+She had interesting questions in which I felt that she wanted to assess what my opinion was of this character.
+
+```text
+Izgalmas  kérdés-e-i         volt-ak,      ami-k-ben
+exciting  question-3SG.POSS-PL be.PST-3PL REL-PL-INE
+
+érez-t-em,       hogy  szeret-né        fel-mér-ni,
+feel-PST-1SG.DEF that  want-COND.3SG    PV-measure-INF
+
+hogy  nek-em   mi    a    vélemény-em
+that  DAT-1SG  what  the  opinion-1SG.POSS
+
+ez-ről      a    karakter-ről.
+this-DEL    the  character-DEL
+```
+
+**És szerintem tök jól vibe-oltunk.**
+
+And I think we vibed really well.
+
+```text
+És  szerint-em       tök      jól  vibe-ol-t-unk.
+and  according.to-1SG totally  well  vibe-DER-PST-1PL
+```
+
+**Rendezte: Kovi.**
+
+Directed by Kovi.
+
+```text
+Rendez-t-e:       Kovi.
+direct-PST-3SG.DEF Kovi
+```
+
+## A2 vocabulary
+
+* **azaz** — that is; in other words
+* **fellógat** — hang up; suspend
+* **húskampó** — meat hook
+* **forgatás** — filming; film shoot
+* **illetve** — and; as well as; or rather
+* **megelőzően** — previously; before that
+* **találkozó** — meeting
+* **telefonon** — by phone
+* **tartja a kapcsolatot** — keep in contact
+* **számomra** — for me
+* **élmény** — experience
+* **borzasztóan** — terribly; extremely
+* **izgul** — be nervous; be excited
+* **felkészül** — prepare
+* **mire** — by the time that
+* **sztár** — star; celebrity
+* **rettenetesen** — terribly; extremely
+* **hála az égnek** — thank heavens
+* **nyitott** — open; open-minded
+* **emberként** — as a person
+* **megismer** — get to know
+* **izgalmas** — exciting; interesting
+* **felmér** — assess; evaluate
+* **karakter** — character
+* **tök jól** — really well; colloquial
+* **vibe-ol valakivel** — vibe with someone
+* **rendezte** — directed by
