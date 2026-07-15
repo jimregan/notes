@@ -2707,8 +2707,97 @@ a    good  date-ELA   no.matter-what be.POT.3SG
 
 [Reel](https://www.instagram.com/reels/DZ7x4NHsQH2/)
 
-[00:00.000 --> 00:06.360]  Egy dalt a negatív kommentekből, és azt hiszem, hogy ez lesz a nyár legnagyobb slágere.
-[00:06.660 --> 00:08.360]  Fogadjátok sok szeretettel!
+**Egy dalt a negatív kommentekből, és azt hiszem, hogy ez lesz a nyár legnagyobb slágere.**
+
+A song made from negative comments, and I think this will be the biggest hit of the summer.
+
+```text
+Egy  dal-t   a    negatív  komment-ek-ből,  és   az-t
+a    song-ACC the  negative comment-PL-ELA  and  that-ACC
+
+hisz-em,          hogy  ez    lesz        a    nyár
+believe-1SG.DEF   that  this  become.3SG  the  summer
+
+leg-nagy-obb      sláger-e.
+SUPL-big-CMPR     hit-3SG.POSS
+```
+
+**Fogadjátok sok szeretettel!**
+
+Please welcome it with lots of love!
+
+```text
+Fogad-já-tok         sok   szeretet-tel!
+receive-SBJV-2PL.DEF much  love-INST
+```
+
+**Kurva vagy, ilyen egyszerű.**
+
+You are a whore; it is that simple.
+
+```text
+Kurva  vagy,   ilyen  egyszerű.
+whore  be.2SG  such   simple
+```
+
+**És a puncikád egy rózsát nem ér, nemhogy több tízezret.**
+
+And your little pussy is not worth a single rose, let alone tens of thousands.
+
+```text
+És  a    punci-ká-d             egy  rózsá-t  nem
+and  the  pussy-DIM-2SG.POSS     a    rose-ACC NEG
+
+ér,              nemhogy    több  tíz-ezer-et.
+be.worth.3SG     let.alone  more  ten-thousand-ACC
+```
+
+**Ahhoz ki kellene nézned valahogy.**
+
+For that, you would have to look like something.
+
+```text
+Ah-hoz    ki  kell-ene          néz-n-ed
+that-ALL  PV  need-COND.3SG     look-INF-2SG
+
+vala-hogy.
+some-how
+```
+
+**De a nagyanyám szebb, mint te, pedig már harmincöt éve nincs köztünk.**
+
+But my grandmother is prettier than you, even though she has not been among us for thirty-five years.
+
+```text
+De   a    nagy-anyá-m             szép-ebb,   mint  te,
+but  the  grand-mother-1SG.POSS   pretty-CMPR than  2SG
+
+pedig     már      harminc-öt  év-e
+although  already  thirty-five year-3SG.POSS
+
+nincs            közt-ünk.
+NEG.be.3SG       among-1PL
+```
+
+## A2 vocabulary
+
+* **negatív** — negative
+* **kommentekből** — from comments
+* **azt hiszem** — I think
+* **sláger** — hit song
+* **fogad valakit/valamit** — welcome or receive someone/something
+* **sok szeretettel** — with lots of love
+* **ilyen egyszerű** — it is that simple
+* **ér valamit** — be worth something
+* **nemhogy** — let alone
+* **több tízezer** — tens of thousands
+* **ahhoz** — for that; to that
+* **ki kellene néznie valahogy** — would have to look presentable or look like something
+* **nagyanya** — grandmother
+* **szebb, mint…** — prettier than…
+* **pedig** — although; yet
+* **harmincöt éve** — for thirty-five years
+* **nincs köztünk** — is no longer among us; is dead, euphemistic
 
 Fun with Whisper:
 
