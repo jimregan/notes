@@ -2501,12 +2501,11 @@ that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
 
 [Reel](https://www.instagram.com/reel/Dak_rVzNAZj/)
 
-[00:00.000 --> 00:05.180]  Szerintetek mennyire fontos az, hogy egy pár minden anyagi szükségletet felesbe fizessen?
-[00:07.020 --> 00:12.260]  Szerintem ez amúgy attól függ, hogy ki dolgozik mondjuk állandóan, vagy ki van egyetemen.
-[00:12.560 --> 00:17.000]  Nem például úgy van, hogy nekem a párom egyetemen van, én meg dolgozok állandóan,
-[00:17.120 --> 00:19.700]  ezért én általában több költséget fizetek, mint ő.
-[00:20.100 --> 00:24.720]  De mikor az éheidőszak van, vagy például nincs egyetem, akkor ő egyből elmegy dolgozni,
-[00:24.720 --> 00:29.720]  és akkor általában felesben fizetünk, vagy ő ragaszkodik hozzá, hogy ő többet fizessen.
+Nem például úgy van, hogy nekem a párom ugye egyetemen van, én meg dolgozok állandóan,
+ezért én általában több költséget fizetek, mint ő,
+de mikor zh időszak van, vagy például nincs ugye egyetem, akkor ő egyből elmegy dolgozni,
+és akkor általában felesben fizetünk, vagy ő ragaszkodik hozzá, hogy ő többet fizessen.
+
 [00:30.100 --> 00:34.400]  Szerintetek oké az, hogyha valaki még mindig tartja a kapcsolatot az ex párjával?
 [00:35.340 --> 00:37.600]  Szerintem nem, de nálunk nincs is ilyen.
 [00:37.980 --> 00:41.880]  Én értem, hogyha valaki jól válik el az exétől, de nem nagyon tudom megérteni azt,
@@ -2514,8 +2513,6 @@ that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
 [00:47.260 --> 00:50.800]  Szerintem, ha már lezártátok, nincsek érzelmek, meg túl akartok lépni,
 [00:50.940 --> 00:53.760]  akkor csak a jelenlegi kapcsolatot mérgezi.
 [00:53.760 --> 00:55.660]  Egy jó rándiból bármi lehet.
-
-I read **éheidőszak** as **ZH-időszak** (“test period”), and **Nem például úgy van** as **Nálunk például úgy van**. I have kept **állandóan** as heard, though **főállásban** (“full-time”) would also fit the context.
 
 **Szerintetek mennyire fontos az, hogy egy pár minden anyagi szükségletet felesben fizessen?**
 
@@ -2547,16 +2544,18 @@ vagy  ki   van     egyetem-en.
 or    who  be.3SG  university-SUP
 ```
 
-**Nálunk például úgy van, hogy nekem a párom egyetemen van, én meg dolgozok állandóan.**
+I’d punctuate the opening as **Nem, például úgy van…**, with **nem** functioning as a response to the previous speaker.
 
-For us, for example, it is like this: my partner is at university, while I work all the time.
+**Nem, például úgy van, hogy nekem a párom ugye egyetemen van, én meg dolgozok állandóan.**
+
+No, for example, it is like this: my partner, you know, is at university, while I work all the time.
 
 ```text
-Nál-unk  példá-ul     úgy   van,     hogy  nek-em
-at-1PL   example-ADV  thus  be.3SG  that  DAT-1SG
+Nem,  példá-ul     úgy   van,     hogy  nek-em
+no    example-ADV  thus  be.3SG   that  DAT-1SG
 
-a    pár-om          egyetem-en       van,
-the  partner-1SG.POSS university-SUP  be.3SG
+a    pár-om           ugye  egyetem-en       van,
+the  partner-1SG.POSS DM    university-SUP  be.3SG
 
 én   meg  dolgoz-ok      állandó-an.
 1SG  and  work-1SG.INDF  constant-ADV
@@ -2567,23 +2566,23 @@ the  partner-1SG.POSS university-SUP  be.3SG
 Therefore, I generally pay more expenses than my partner does.
 
 ```text
-Ez-ért    én   általában  több  költség-et
-this-CAUS 1SG  generally  more  expense-ACC
+Ez-ért     én   általában  több  költség-et
+this-CAUS  1SG  generally  more  expense-ACC
 
 fizet-ek,      mint  ő.
 pay-1SG.INDF   than  3SG
 ```
 
-**De amikor ZH-időszak van, vagy például nincs egyetem, akkor ő egyből elmegy dolgozni.**
+**De mikor ZH-időszak van, vagy például nincs ugye egyetem, akkor ő egyből elmegy dolgozni.**
 
-But when it is test period, or when there is no university, for example, my partner immediately goes to work.
+But when it is test period, or when there is no university, for example, then my partner immediately goes to work.
 
 ```text
-De   amikor  ZH-időszak  van,     vagy  példá-ul
-but  when    test-period be.3SG  or    example-ADV
+De   mikor  ZH-időszak  van,     vagy  példá-ul
+but  when   test-period be.3SG   or    example-ADV
 
-nincs,        egyetem,      akkor  ő
-NEG.be.3SG    university    then   3SG
+nincs        ugye  egyetem,      akkor  ő
+NEG.be.3SG   DM    university    then   3SG
 
 egyből       el-megy       dolgoz-ni.
 immediately  PV-go.3SG     work-INF
@@ -2597,8 +2596,8 @@ And then we generally pay fifty-fifty, or my partner insists on paying more.
 És  akkor  általában  feles-ben  fizet-ünk,
 and  then   generally  half-INE   pay-1PL.INDF
 
-vagy  ő    ragaszkod-ik  hozzá,    hogy  ő
-or    3SG  insist-3SG    to.it     that  3SG
+vagy  ő    ragaszkod-ik  hozzá,  hogy  ő
+or    3SG  insist-3SG    to.it   that  3SG
 
 több-et   fizess-en.
 more-ACC  pay-SBJV.3SG.INDF
