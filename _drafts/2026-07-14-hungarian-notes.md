@@ -3563,3 +3563,33 @@ The final **izmodát** is a nonstandard or exaggerated pronunciation of standard
 * **atomszar** — extremely bad shit
 * **barom** — moron; brute
 * **baszod** — literally “you fuck it”; vulgar discourse marker
+
+---
+
+[00:00.000 --> 00:00.720]  Sziasztok!
+[00:30.000 --> 00:34.740]  Ilyenkor mi a következő lépés? Nekem is küldeni kell egyet.
+[00:35.760 --> 00:43.020]  Ilyenkor elmondod, hogy a nyalná végig a láb fejemet, és mennyire vágysz rá, hogy az izdat talpam az arcodra tegyen,
+[00:43.140 --> 00:50.080]  majd kérsz egy másik lábképet, vagy lábúj mozgatós videót, 30-40 dollárért.
+[00:50.080 --> 00:58.100]  De tejszínhavot kérhetek rá, magában ez így erős, a mai modern udvarlási szokásokat még tanulnom kell, úgy látszik,
+[00:58.440 --> 00:59.920]  de legyen van revolútod.
+[01:00.000 --> 01:08.540]  Pár het eladtam egy olyat, amin gabonapályhát kellett széttaposnom a padlón, a tejszínhav sima.
+[01:08.760 --> 01:17.780]  Én nem hiszem el amúgy, hogy egyszerűbb pénzt utalni nőknek korfléksz taposásáért, mint amúgy aktuálisan megtanulni beszélni velük.
+[01:17.960 --> 01:23.000]  Ja, ők nem ismerkedni akarnak, csak lábfétisük van.
+[01:23.020 --> 01:29.980]  De ha már lábfétised van, akkor nem egyszerűbb megismerni egy lányt, akinek ez bejön, és akkor együtt frikezkedni.
+[01:30.000 --> 01:31.000]  Persze.
+[01:31.000 --> 01:35.000]  És akkor már rögtön a használt bugyiaimat se rendeljék meg.
+[01:35.000 --> 01:39.000]  Eszednél vagy? Akkor miből fogom fizetni a nyaralást?
+[01:39.000 --> 01:44.000]  Amúgy nem tudom, van-e olyan nő, akinek ez bejön.
+[01:44.000 --> 01:49.000]  Nekem valódi meggyőződésem, hogy a nők tudnak perverzebbek lenni, amúgy...
+[01:49.000 --> 01:52.000]  De a nők szexi perverzek.
+[01:52.000 --> 01:56.000]  Nem megszokkodom a ledvás lábújjadat, perverzek.
+[01:56.000 --> 02:00.000]  És akkor te amúgy mit dolgozol? Vagy full time?
+[02:00.000 --> 02:03.000]  Nem nyomod ezt a lábképes melót.
+[02:05.000 --> 02:10.000]  Stripper vagyok egy cirkuszban, egy zebra hátán vet közöm.
+[02:10.000 --> 02:11.000]  Wow!
+[02:11.000 --> 02:14.000]  Nincs oda véletlen, én egy akrobat, a tigris, hiddomár vagyok.
+[02:14.000 --> 02:17.000]  Alapíthatnánk egy közös cirkuszt.
+[02:17.000 --> 02:18.000]  Wow!
+[02:18.000 --> 02:21.000]  Fogadok ettől, nem csak a karika jön tűzbe.
+[02:21.000 --> 02:24.000]  Már próbáltam, az ex-em mindig cirkusz szólt.
+[02:24.000 --> 02:26.000]  Nem jött be.
