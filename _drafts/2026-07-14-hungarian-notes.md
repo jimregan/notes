@@ -3055,43 +3055,511 @@ Here.
 
 [Reel](https://www.instagram.com/reels/DZnE3SuoBuK/)
 
-Lekurvázol? mindennek elmondasz, és asszed büntetlenül megúszhatod?
-Hát nem, eljött az idő, hogy megfizess, ugyanis megmondtalak a nagyimnak.
-Szia kurva!
-Szex lehet veled?
-Ő írta.
-Búzgár uszkár
-Nálad nagyobb kurva sose láttam.
-Te hülye segg
+**Lekurvázol? Mindennek elmondasz, és azt hiszed, büntetlenül megúszhatod?**
+
+You call me a whore? You call me every name under the sun, and you think you can get away with it unpunished?
+
+```text
+Le-kurvá-z-ol?        minden-nek  el-mond-a-sz,
+PV-whore-DER-2SG.INDF everything-DAT PV-say-2SG.INDF
+
+és   az-t      hisz-ed,          büntetlen-ül
+and  that-ACC  believe-2SG.DEF   unpunished-ADV
+
+meg-úsz-hat-od?
+PV-escape-POT-2SG.DEF
+```
+
+**Hát nem. Eljött az idő, hogy megfizess, ugyanis megmondtalak a nagyimnak.**
+
+Well, no. The time has come for you to pay, because I told my granny about you.
+
+```text
+Hát  nem.  El-jö-tt       az   idő,   hogy
+DM    no    PV-come-PST.3SG the  time   that
+
+meg-fizess,       ugyanis  meg-mond-t-alak
+PV-pay.SBJV.2SG   because  PV-tell-PST-1SG>2SG
+
+a    nagyi-m-nak.
+the  granny-1SG.POSS-DAT
+```
+
+**Szia, kurva!**
+
+Hi, whore!
+
+```text
+Szia,  kurva!
+hello  whore
+```
+
+**Szex lehet veled?**
+
+Can I have sex with you?
+
+```text
+Szex  lehet        vel-ed?
+sex   be.POT.3SG   with-2SG
+```
+
+**Ő írta.**
+
+He wrote it.
+
+```text
+Ő    ír-t-a.
+3SG  write-PST-3SG.DEF
+```
+
+**Búzgár uszkár.**
+
+You sand-boil poodle.
+
+```text
+Búzgár     uszkár.
+sand.boil  poodle
+```
+
+**Nálad nagyobb kurvát sose láttam.**
+
+I have never seen a bigger whore than you.
+
+```text
+Nál-ad  nagy-obb  kurvá-t   sose
+at-2SG  big-CMPR  whore-ACC never
+
+lát-t-am.
+see-PST-1SG
+```
+
+**Te hülye segg!**
+
+You stupid ass!
+
+```text
+Te   hülye   segg!
+2SG  stupid  ass
+```
+
+**Szutyok!**
+
+Filth!
+
+```text
 Szutyok!
-Te mondod, hogy szutyok? Hát te mi vagy? Te köcsög!
-Pakold ki a dudákat még jobban!
-Hát sorban álltál a duda kirakásnál, látom.
-Letiltottalak, fasz se kíváncsi rád?
-Fúj! Rád meg még az se
+filth
+```
+
+**Te mondod, hogy szutyok? Hát te mi vagy? Te köcsög!**
+
+You call me filth? Well, what are you? You asshole!
+
+```text
+Te   mond-od,      hogy  szutyok?  Hát  te
+2SG  say-2SG.DEF   that  filth     DM    2SG
+
+mi    vagy?   Te   köcsög!
+what  be.2SG  2SG  asshole
+```
+
+**Pakold ki a dudákat még jobban!**
+
+Show off your tits even more!
+
+```text
+Pakol-d           ki  a    dudá-k-at   még
+put-IMP.2SG.DEF   PV  the  boob-PL-ACC still
+
+jobb-an!
+good-CMPR-ADV
+```
+
+**Hát sorban álltál a duda kirakásánál, látom.**
+
+Well, I see you queued up for showing off your tits.
+
+```text
+Hát  sor-ban  áll-t-ál       a    duda
+DM    line-INE stand-PST-2SG  the  boob
+
+ki-rak-ás-á-nál,             lát-om.
+PV-put-NMLZ-3SG.POSS-ADE     see-1SG.DEF
+```
+
+**„Letiltottalak, fasz se kíváncsi rád.”**
+
+“I blocked you; nobody gives a fuck about you.”
+
+```text
+Le-tilt-ott-alak,       fasz  se
+PV-block-PST-1SG>2SG    dick  also.NEG
+
+kíváncsi    rád.
+interested  onto.2SG
+```
+
+**Fúj! Rád meg még az se.**
+
+Yuck! And not even a dick is interested in you.
+
+```text
+Fúj!  Rád       meg  még  az    se.
+yuck  onto.2SG  and  even that  also.NEG
+```
+
+**Malac!**
+
+Pig!
+
+```text
 Malac!
-Férfigyűlölő csoroszja
-A csoroszjá szó jelentése nem ez amire használja. Nem egy fiatal lányra szokták alkalmazni.
-Mi ez az atomszar?
-Jézus Mária!
-Szánalmas vagy... de nagyon.
-Téged még kategorizálni se lehet, barom.
-Tuti, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyognak, ezért mosolyogj!
-Hát jó, de nem rád, baszod.
-Rád mosolyogni?
-Kitörik a fogam.
-Szia neked mi a kurva anyádra van önbizalmad?
-Hát azt nem értem sehogy se. Még egyszer mégnéztelek, most se értem. Érthetetlen hülye vagy.
-A nők túl sokat képzelnek már magukról, de a valósággal nincs párhuzamban.
-Úristen! Szép a szemed!
-Kivéve az egyik.
-Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.
-Ajánlanám figyelmetekben, hogy nem mondtok, nem beszéltek össze vissza az unokámra ilyen baromságokat.
-Különben...
-Különben...
-Különben...
-Mi lesz különben?
-Különben odamegyek.
-Odamegy s lesz nektek, jaj mutasd meg
-az izmodat, mutasd meg az izmodat.
-Az izmodát!
+pig
+```
+
+**Férfigyűlölő csoroszlya.**
+
+Man-hating old hag.
+
+```text
+Férfi-gyűlöl-ő  csoroszlya.
+man-hate-PTCP   old.hag
+```
+
+**A „csoroszlya” szó jelentése nem az, amire használja.**
+
+The meaning of the word *csoroszlya* is not what he is using it to mean.
+
+```text
+A    csoroszlya  szó   jelentés-e
+the  old.hag     word  meaning-3SG.POSS
+
+nem  az,    ami-re   használ-ja.
+NEG  that   REL-SBL  use-3SG.DEF
+```
+
+**Nem egy fiatal lányra szokták alkalmazni.**
+
+It is not usually applied to a young girl.
+
+```text
+Nem  egy  fiatal  lány-ra  szok-tá-k
+NEG  a    young   girl-SBL HAB-3PL.DEF
+
+alkalmaz-ni.
+apply-INF
+```
+
+**Mi ez az atomszar?**
+
+What is this nuclear-grade shit?
+
+```text
+Mi    ez    az   atom-szar?
+what  this  the  atom-shit
+```
+
+**Jézus Mária!**
+
+Jesus Mary!
+
+```text
+Jézus  Mária!
+Jesus  Mary
+```
+
+**Szánalmas vagy… de nagyon.**
+
+You are pathetic—extremely so.
+
+```text
+Szánalmas  vagy…   de   nagyon.
+pathetic   be.2SG  but  very
+```
+
+**Téged még kategorizálni se lehet, barom.**
+
+You cannot even be categorized, moron.
+
+```text
+Téged    még   kategorizál-ni  se
+2SG.ACC  even  categorize-INF  also.NEG
+
+lehet,        barom.
+be.POT.3SG    moron
+```
+
+**Tuti, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyognak, ezért mosolyogj!**
+
+Surely nobody told you this: pretty girls always smile, so smile!
+
+```text
+Tuti,       hogy  nem  mond-t-ak      ilyen-t
+certainly  that  NEG  say-PST-3PL    such-ACC
+
+nek-ed,   hogy  a    szép       lány-ok
+DAT-2SG   that  the  beautiful  girl-PL
+
+mindig  mosolyog-nak,  ez-ért    mosolyog-j!
+always  smile-3PL      this-CAUS smile-IMP.2SG
+```
+
+**Hát jó, de nem rád, baszod.**
+
+Fine, but not at you, fuck.
+
+```text
+Hát  jó,   de   nem  rád,      basz-od.
+DM    good  but  NEG  onto.2SG  fuck-2SG.DEF
+```
+
+**Rád mosolyogni? Kitörik a fogam.**
+
+Smile at you? My tooth will break.
+
+```text
+Rád       mosolyog-ni?  Ki-tör-ik
+onto.2SG  smile-INF     PV-break-3SG
+
+a    fog-am.
+the  tooth-1SG.POSS
+```
+
+**Szia, neked mi a kurva anyádra van önbizalmad?**
+
+Hi, what the fuck gives you self-confidence?
+
+```text
+Szia,  nek-ed   mi    a    kurva  anyá-d-ra
+hello  DAT-2SG  what  the  whore  mother-2SG.POSS-SBL
+
+van     ön-bizalm-ad?
+be.3SG  self-confidence-2SG.POSS
+```
+
+**Hát azt nem értem sehogy se.**
+
+Well, I cannot understand that in any way at all.
+
+```text
+Hát  az-t      nem  ért-em
+DM    that-ACC  NEG  understand-1SG.DEF
+
+se-hogy  se.
+NEG-how  also.NEG
+```
+
+**Még egyszer megnéztelek, most se értem.**
+
+I looked at you once more, and I still do not understand it.
+
+```text
+Még   egyszer  meg-néz-t-elek,
+once.more      PV-look-PST-1SG>2SG
+
+most  se        ért-em.
+now   also.NEG  understand-1SG.DEF
+```
+
+**Érthetetlen hülye vagy.**
+
+You are incomprehensibly stupid.
+
+```text
+Érthetetlen      hülye   vagy.
+incomprehensible stupid  be.2SG
+```
+
+**A nők túl sokat képzelnek már magukról, de ez a valósággal nincs párhuzamban.**
+
+Women think far too highly of themselves now, but this does not correspond to reality.
+
+```text
+A    nő-k    túl  sok-at   képzel-nek
+the  woman-PL too  much-ACC imagine-3PL
+
+már      mag-uk-ról,       de   ez
+already  self-3PL.POSS-DEL but  this
+
+a    valóság-gal  nincs         párhuzam-ban.
+the  reality-INST NEG.be.3SG    parallel-INE
+```
+
+**Úristen! Szép a szemed!**
+
+Oh my God! Your eyes are beautiful!
+
+```text
+Úr-isten!  Szép       a    szem-ed!
+lord-God   beautiful  the  eye-2SG.POSS
+```
+
+**Kivéve az egyik.**
+
+Except one of them.
+
+```text
+Ki-véve      az   egy-ik.
+PV-take.CVB  the  one-ONE
+```
+
+**Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.**
+
+I hope you have learned from this, and next time you will think through what you write.
+
+```text
+Remél-em,       hogy  ez-ből    tanul-t-atok,
+hope-1SG.DEF    that  this-ELA  learn-PST-2PL
+
+és   leg-közel-ebb  át-gondol-já-tok,
+and  SUPL-near-CMPR PV-think-2PL.DEF
+
+hogy  mi-t      ír-tok.
+that  what-ACC  write-2PL.INDF
+```
+
+**Azt ajánlanám a figyelmetekbe, hogy ne mondjatok, ne beszéljetek összevissza az unokámra ilyen baromságokat.**
+
+I would bring it to your attention that you should not say or talk such nonsense about my granddaughter.
+
+```text
+Az-t      ajánl-aná-m        a    figyelem-etek-be,
+that-ACC  recommend-COND-1SG.DEF the attention-2PL.POSS-ILL
+
+hogy  ne       mond-j-atok,      ne
+that  NEG.IMP  say-SBJV-2PL      NEG.IMP
+
+beszél-j-etek      össze-vissza  az
+speak-SBJV-2PL     all.over      the
+
+unoká-m-ra    ilyen  baromság-ok-at.
+grandchild-1SG.POSS-SBL such nonsense-PL-ACC
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Mi lesz különben?**
+
+What will happen otherwise?
+
+```text
+Mi    lesz         különben?
+what  become.3SG   otherwise
+```
+
+**Különben odamegyek.**
+
+Otherwise, I will go over there.
+
+```text
+Különben   oda-megy-ek.
+otherwise  there-go-1SG.INDF
+```
+
+**Odamegyek, s lesz nektek jaj!**
+
+I will come over there, and then you will be sorry!
+
+```text
+Oda-megy-ek,       s    lesz
+there-go-1SG.INDF  and  become.3SG
+
+nek-tek   jaj.
+DAT-2PL   woe
+```
+
+**Mutasd meg az izmodat! Mutasd meg az izmodat!**
+
+Show your muscle! Show your muscle!
+
+```text
+Mutat-s-d          meg  az   izm-od-at!
+show-SBJV-2SG.DEF  PV   the  muscle-2SG.POSS-ACC
+
+Mutat-s-d          meg  az   izm-od-at!
+show-SBJV-2SG.DEF  PV   the  muscle-2SG.POSS-ACC
+```
+
+**Az izmodát!**
+
+Your muscle!
+
+```text
+Az   izmodát!
+the  muscle.2SG.POSS.ACC
+```
+
+The final **izmodát** is a nonstandard or exaggerated pronunciation of standard **izmodat**.
+
+## A2 vocabulary
+
+* **lekurváz valakit** — call someone a whore
+* **mindennek elmond valakit** — call someone every name under the sun
+* **büntetlenül** — without punishment; unpunished
+* **megúszik valamit** — get away with something
+* **eljött az idő** — the time has come
+* **megfizet valamiért** — pay for something; suffer the consequences
+* **megmond valakit valakinek** — tell on someone to someone
+* **szutyok** — filth; scum
+* **sorban áll** — stand in a queue
+* **letilt valakit** — block someone
+* **kíváncsi valakire** — be interested in or curious about someone
+* **férfigyűlölő** — man-hating
+* **csoroszlya** — old hag; derogatory
+* **jelentés** — meaning
+* **alkalmaz valamire** — apply to something
+* **szánalmas** — pathetic
+* **kategorizál** — categorize
+* **mosolyog** — smile
+* **önbizalom** — self-confidence
+* **sehogy se** — not in any way; not at all
+* **érthetetlen** — incomprehensible
+* **túl sokat képzel magáról** — think too highly of oneself
+* **valóság** — reality
+* **párhuzamban van valamivel** — correspond to; be parallel with
+* **kivéve** — except
+* **tanul valamiből** — learn from something
+* **legközelebb** — next time
+* **átgondol** — think through; consider carefully
+* **valakinek a figyelmébe ajánl valamit** — bring something to someone’s attention
+* **összevissza** — incoherently; all over the place
+* **unoka** — grandchild
+* **különben** — otherwise
+* **lesz nektek jaj** — you will be sorry
+* **izom** — muscle
+
+## Recognition-only insults and slang
+
+* **kurva** — whore; also a vulgar intensifier
+* **köcsög** — asshole; potentially homophobic
+* **fasz se** — absolutely nobody
+* **duda** — boob; tit
+* **malac** — pig
+* **atomszar** — extremely bad shit
+* **barom** — moron; brute
+* **baszod** — literally “you fuck it”; vulgar discourse marker
