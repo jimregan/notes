@@ -2126,30 +2126,317 @@ the  answer-PL-2PL.POSS-ACC
 
 [Reel](https://www.instagram.com/reels/DYHLvz6szRp/)
 
-Nem, nem, nem, nem, nem, nem.
-Lehetne, hogy leszokunk erről a marhaságról,
-hogy mindenki azt hiszi, hogy a szőke emberek hülyék,
-a jó tanulók stréberek, akiknek nincsen márkás ruhája
-az csóró, és ilyen hülyeségek. Mi van?
-Attól még, hogy valakinek jók a jegyei, nem lesz stréber,
-attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.
-Attól még, hogy valaki szeret sportolni lányként,
-attól még, hogy ő nem fiús. És attól még,
-ha egy fiú szereti a rózsaszínt, ő nem lesz...
-Attól még, hogy valakinek színes a bőre, nem fogja ellopni a cuccaidat.
-Attól még, hogy valaki nem akar a legújabb iPhone-ra költeni,
-attól még nem csóró.
-Szóval, drágáim, vegyük elő a jobbi kezünket,
-és felejtsük el ezeket a sztereotípiákat
-és ezeket az előítéleteket,
-mert ezek az előítéletek általában információhiány miatt jönnek,
-tehát csak az gondolkozik így, akinek valami az ész,
-hiányzik az agyából.
-Szóval légy szíves, vegyük elő jobbi kezünket,
-és vegyük tudomásul, hogy mindenki ugyanolyan értékes
-és ugyanolyan szerethető, bárhogy néz ki, bármire költ,
-bármilyen, bármilyen.
+I’ve corrected **jobbi kezünket** to the idiom **jobbik eszünket**, and regularized **akinek nincsen márkás ruhája** and **attól még ő nem fiús**. The word after **ő nem lesz…** is missing, so I leave the sentence unfinished.
+
+**Nem, nem, nem, nem, nem, nem.**
+
+No, no, no, no, no, no.
+
+```text
+Nem,  nem,  nem,  nem,  nem,  nem.
+NEG   NEG   NEG   NEG   NEG   NEG
+```
+
+**Lehetne, hogy leszokjunk erről a marhaságról.**
+
+Could we stop this nonsense?
+
+```text
+Lehet-ne,       hogy  le-szok-j-unk
+be.POT-COND.3SG that  PV-stop-SBJV-1PL.INDF
+
+ez-ről      a    marhaság-ról.
+this-DEL    the  nonsense-DEL
+```
+
+**Hogy mindenki azt hiszi, hogy a szőke emberek hülyék.**
+
+The nonsense that everyone thinks blond people are stupid.
+
+```text
+Hogy  mindenki  az-t      hisz-i,
+that  everyone  that-ACC  believe-3SG.DEF
+
+hogy  a    szőke  ember-ek  hülyé-k.
+that  the  blond  person-PL stupid-PL
+```
+
+**A jó tanulók stréberek.**
+
+Good students are swots.
+
+```text
+A    jó    tanuló-k   stréber-ek.
+the  good  student-PL swot-PL
+```
+
+**Akinek nincsen márkás ruhája, az csóró, és ilyen hülyeségek.**
+
+Someone who does not have branded clothes is broke, and other stupid things like that.
+
+```text
+Aki-nek  nincs-en      márká-s    ruhá-ja,
+REL-DAT  NEG.be-3SG    brand-ADJ  clothing-3SG.POSS
+
+az    csóró,  és   ilyen  hülye-ség-ek.
+that  broke   and  such   stupid-NMLZ-PL
+```
+
+**Mi van?**
+
+What?
+
+```text
+Mi    van?
+what  be.3SG
+```
+
+**Attól még, hogy valakinek jók a jegyei, nem lesz stréber.**
+
+Just because someone has good grades, they do not become a swot.
+
+```text
+Attól      még,  hogy  valaki-nek  jó-k
+that-DEL   still that  someone-DAT  good-PL
+
+a    jegy-e-i,              nem  lesz
+the  grade-3SG.POSS-PL      NEG  become.3SG
+
+stréber.
+swot
+```
+
+**Attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.**
+
+Just because someone has bad grades, they do not become stupid.
+
+```text
+Attól     még,  hogy  valaki-nek  rossz-ak
+that-DEL  still that  someone-DAT  bad-PL
+
+a    jegy-e-i,           nem  lesz        hülye.
+the  grade-3SG.POSS-PL   NEG  become.3SG stupid
+```
+
+**Attól még, hogy valaki szeret sportolni lányként, ő nem fiús.**
+
+Just because someone likes doing sport as a girl, she is not boyish.
+
+```text
+Attól     még,  hogy  valaki   szeret
+that-DEL  still that  someone  like.3SG
+
+sportol-ni  lány-ként,  ő    nem  fiú-s.
+do.sport-INF girl-ESS  3SG  NEG  boy-ADJ
+```
+
+**És attól még, hogy egy fiú szereti a rózsaszínt, ő nem lesz…**
+
+And just because a boy likes pink, he will not become…
+
+```text
+És  attól     még,  hogy  egy  fiú
+and  that-DEL  still that  a    boy
+
+szeret-i       a    rózsaszín-t,  ő
+like-3SG.DEF   the  pink-ACC      3SG
+
+nem  lesz…
+NEG  become.3SG
+```
+
+**Attól még, hogy valakinek színes a bőre, nem fogja ellopni a cuccaidat.**
+
+Just because someone’s skin is coloured, they are not going to steal your stuff.
+
+```text
+Attól     még,  hogy  valaki-nek  szín-es
+that-DEL  still that  someone-DAT  colour-ADJ
+
+a    bőr-e,            nem  fog-ja
+the  skin-3SG.POSS     NEG  FUT-3SG.DEF
+
+el-lop-ni  a    cucc-ai-d-at.
+PV-steal-INF the  stuff-PL-2SG.POSS-ACC
+```
+
+**Attól még, hogy valaki nem akar a legújabb iPhone-ra költeni, nem csóró.**
+
+Just because someone does not want to spend money on the newest iPhone, they are not broke.
+
+```text
+Attól     még,  hogy  valaki   nem  akar
+that-DEL  still that  someone  NEG  want.3SG
+
+a    leg-új-abb        iPhone-ra  költ-eni,
+the  SUPL-new-CMPR     iPhone-SBL spend-INF
+
+nem  csóró.
+NEG  broke
+```
+
+**Szóval, drágáim, vegyük elő a jobbik eszünket.**
+
+So, my dears, let us use our better judgement.
+
+```text
+Szóval,  drágá-i-m,          vegy-ük
+so       dear-PL-1SG.POSS     take-SBJV.1PL.DEF
+
+elő  a    jobb-ik    esz-ünk-et.
+PV   the  good.CMPR-ONE mind-1PL.POSS-ACC
+```
+
+**És felejtsük el ezeket a sztereotípiákat és ezeket az előítéleteket.**
+
+And let us forget these stereotypes and these prejudices.
+
+```text
+És  felejt-s-ük          el  ez-ek-et
+and  forget-SBJV-1PL.DEF  PV  this-PL-ACC
+
+a    sztereotípiá-k-at  és   ez-ek-et
+the  stereotype-PL-ACC  and  this-PL-ACC
+
+az   előítélet-ek-et.
+the  prejudice-PL-ACC
+```
+
+**Mert ezek az előítéletek általában információhiány miatt jönnek.**
+
+Because these prejudices generally arise because of a lack of information.
+
+```text
+Mert     ez-ek     az   előítélet-ek
+because  this-PL   the  prejudice-PL
+
+általában  információ-hiány  miatt
+generally  information-lack  because.of
+
+jön-nek.
+come-3PL.INDF
+```
+
+**Tehát csak az gondolkozik így, akinek valami ész hiányzik az agyából.**
+
+Therefore, only someone who is missing some sense from their brain thinks like this.
+
+```text
+Tehát      csak  az    gondolkoz-ik  így,
+therefore  only  that  think-3SG     thus
+
+aki-nek  vala-mi  ész    hiányz-ik
+REL-DAT  some-thing sense  be.missing-3SG
+
+az   agy-á-ból.
+the  brain-3SG.POSS-ELA
+```
+
+**Szóval, légy szíves, vegyük elő a jobbik eszünket.**
+
+So please, let us use our better judgement.
+
+```text
+Szóval,  légy       szíves,  vegy-ük
+so       be.IMP.2SG willing  take-SBJV.1PL.DEF
+
+elő  a    jobb-ik       esz-ünk-et.
+PV   the  good.CMPR-ONE mind-1PL.POSS-ACC
+```
+
+**És vegyük tudomásul, hogy mindenki ugyanolyan értékes és ugyanolyan szerethető.**
+
+And let us accept that everyone is equally valuable and equally lovable.
+
+```text
+És  vegy-ük              tudomás-ul,
+and  take-SBJV.1PL.DEF   knowledge-ESS
+
+hogy  mindenki  ugyan-olyan  érték-es
+that  everyone  same-such    value-ADJ
+
+és   ugyan-olyan  szeret-hető.
+and  same-such    love-POT.PTCP
+```
+
+**Bárhogy néz ki, bármire költ, bármilyen, bármilyen.**
+
+However they look, whatever they spend money on, whatever they are like—whatever.
+
+```text
+Bár-hogy  néz          ki,  bár-mi-re
+no.matter-how look.3SG PV   no.matter-what-SBL
+
+költ,          bár-milyen,       bár-milyen.
+spend.3SG      no.matter-what.kind no.matter-what.kind
+```
+
+**Jó?**
+
+Okay?
+
+```text
 Jó?
-Tökéletesek vagytok, szerethetőek vagytok,
-és pont elegek vagytok, úgy, ahogy vagytok.
+good
+```
+
+**Tökéletesek vagytok, szerethetőek vagytok, és pont elegek vagytok úgy, ahogy vagytok.**
+
+You are perfect, you are lovable, and you are exactly enough just as you are.
+
+```text
+Tökéletes-ek  vagy-tok,  szeret-hető-ek
+perfect-PL    be-2PL     love-POT.PTCP-PL
+
+vagy-tok,  és   pont     elég-ek  vagy-tok
+be-2PL     and  exactly  enough-PL be-2PL
+
+úgy,  ahogy  vagy-tok.
+so    how    be-2PL
+```
+
+**Puszi!**
+
+Kisses!
+
+```text
 Puszi!
+kiss.DIM
+```
+
+## A2 vocabulary
+
+* **leszokik valamiről** — stop or give up something
+* **marhaság** — nonsense; foolishness
+* **szőke** — blond
+* **stréber** — swot; excessively diligent student
+* **márkás** — branded; designer
+* **csóró** — broke; poor, colloquial
+* **attól még, hogy…** — just because…
+* **jegy** — grade; mark
+* **fiús** — boyish
+* **rózsaszín** — pink
+* **bőr** — skin
+* **ellop** — steal
+* **cucc** — stuff; belongings, colloquial
+* **legújabb** — newest; latest
+* **költ valamire** — spend money on something
+* **a jobbik eszét veszi elő** — use one’s better judgement
+* **sztereotípia** — stereotype
+* **előítélet** — prejudice
+* **általában** — generally; usually
+* **információhiány** — lack of information
+* **valami miatt** — because of something
+* **gondolkozik** — think
+* **hiányzik** — be missing
+* **légy szíves** — please
+* **tudomásul vesz** — accept; acknowledge
+* **ugyanolyan** — the same kind; equally
+* **értékes** — valuable
+* **szerethető** — lovable
+* **bárhogy** — however; no matter how
+* **bármire** — on anything; no matter what
+* **bármilyen** — any kind; no matter what kind
+* **pont elég** — exactly enough
+* **úgy, ahogy van** — just as one is
+* **puszi** — kiss; kisses
