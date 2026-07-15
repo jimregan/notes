@@ -105,6 +105,8 @@ categories: [links]
 }
 ```
 
+[UCCIX: Irish-eXcellence Large Language Model](https://ebooks.iospress.nl/doi/10.3233/FAIA241040)
+
 [Acoustic Phonetics](https://www.jstor.org/stable/522229)
 
 [Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)
