@@ -319,7 +319,7 @@
 3	mbath	bó	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Fem|Number=Plur	1	nsubj	_	_
 4	aig	ag	ADP	Simp	_	5	case	_	_
 5	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	_
-6	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	obj	_	_
+6	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
 7	fhéin	féin	PRON	Ref	Reflex=Yes	6	nmod	_	_
 8	⁊	agus	CCONJ	Coord	_	9	cc	_	_
 9	shábháil	sábháil	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
@@ -333,9 +333,9 @@
 17	ocht	ocht	NUM	Num	NumType=Card	18	nummod	_	_
 18	gcroc	croca	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	15	obj	_	_
 19	⁊	agus	CCONJ	Coord	_	20	cc	_	_
-20	fiche	fiche	NUM	Num	NumType=Card	18	conj	_	_
-21	air	ar	ADP	Simp	_	22	case	_	_
-22	shon	son	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	15	obl	_	_
+20	fiche	fiche	NUM	Num	NumType=Card	17	conj	_	_
+21	air	ar	ADP	Cmpd	PrepForm=Cmpd	25	case	_	_
+22	shon	son	NOUN	Cmpd	Case=Nom|Form=Len|Gender=Masc|Number=Sing|PrepForm=Cmpd	21	fixed	_	_
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
 24	dá	dó	NUM	Num	NumType=Card	25	nummod	_	_
 25	bhliadhan	bliain	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	15	obl:tmod	_	SpaceAfter=No
@@ -350,7 +350,7 @@
 3	Seónstanach	Seónstanach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	tseachtmhain	seachtain	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obl:tmod	_	_
-6	roimhe	roimh	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	case	_	_
+6	roimhe	roimh	ADP	Simp	_	7	case	_	_
 7	Shamhain	Samhain	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	obl	_	_
 8	⁊	agus	CCONJ	Coord	_	10	cc	_	_
 9	ceithre	ceathair	NUM	Num	NumType=Card	10	nummod	_	_
@@ -381,7 +381,7 @@
 # text = Ní bhéidh luach píngne de roinn agam leat, arsa Áindrías.
 # text_standard = Ní bheidh luach pingine de roinn agam leat, arsa Aindrias.
 # text_phonetic = N′i: vɛ Lɔχ p′i:N′ə də rïN′ əgəm l′αt, ərsə α:nṟαs.
-1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	mark:prt	_	_
 2	bhéidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Fut	10	parataxis	_	_
 3	luach	luach	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	píngne	pingin	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	ModernForm=pínne
@@ -391,7 +391,7 @@
 8	leat	le	ADP	Prep	Number=Sing|Person=2	2	obl:prep	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	2	punct	_	_
 10	arsa	arsa	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	_
-11	Áindrías	Aindrias	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+11	Áindrías	Aindrias	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = 20
