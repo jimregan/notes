@@ -64,4 +64,42 @@ who  be.PST.3SG   there   the  broccoli
 
 [Reel](https://www.instagram.com/reel/DUYypBZjN6I/)
 
-Megkínáltam az egyik barátomat marha nyelvvel de ő azt mondta, hogy nem kell neki, hiszen az egy tehén szájában volt. Ezért adtam neki egy tojást.
+**Megkínáltam az egyik barátomat marhanyelvvel, de ő azt mondta, hogy nem kell neki, hiszen az egy tehén szájában volt.**
+
+I offered one of my friends beef tongue, but he said he did not want it, since it had been in a cow’s mouth.
+
+```text
+Meg-kínál-t-am       az   egy-ik  barát-om-at
+PV-offer-PST-1SG     the  one-ONE friend-1SG.POSS-ACC
+
+marha-nyelv-vel,  de   ő    az-t      mond-t-a,
+cattle-tongue-INST but  3SG  that-ACC  say-PST-3SG.DEF
+
+hogy  nem  kell       nek-i,   hiszen  az
+that  NEG  be.needed  DAT-3SG  since   that
+
+egy  tehén  száj-á-ban       volt.
+a    cow    mouth-3SG.POSS-INE be.PST.3SG
+```
+
+**Ezért adtam neki egy tojást.**
+
+Therefore, I gave him an egg.
+
+```text
+Ez-ért     ad-t-am       nek-i    egy  tojás-t.
+this-CAUS  give-PST-1SG  DAT-3SG  an   egg-ACC
+```
+
+## A2 vocabulary
+
+* **megkínál valakit valamivel** — offer someone something
+* **az egyik barátom** — one of my friends
+* **marhanyelv** — beef tongue
+* **azt mondja, hogy…** — say that…
+* **nem kell neki** — he/she does not want or need it
+* **hiszen** — since; after all
+* **tehén** — cow
+* **száj** — mouth
+* **ezért** — therefore; for this reason
+* **tojás** — egg
