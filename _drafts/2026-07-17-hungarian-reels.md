@@ -103,3 +103,11 @@ this-CAUS  give-PST-1SG  DAT-3SG  an   egg-ACC
 * **száj** — mouth
 * **ezért** — therefore; for this reason
 * **tojás** — egg
+
+---
+
+[Reel](https://www.instagram.com/reels/DY7BlQpMeaf/)
+
+Ha eléred hogy egy férfi azt érezze hogy meghalnál érte akkor ő hagyni fog meghalni
+hm
+
