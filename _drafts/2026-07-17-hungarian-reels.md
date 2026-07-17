@@ -108,6 +108,35 @@ this-CAUS  give-PST-1SG  DAT-3SG  an   egg-ACC
 
 [Reel](https://www.instagram.com/reels/DY7BlQpMeaf/)
 
-Ha eléred hogy egy férfi azt érezze hogy meghalnál érte akkor ő hagyni fog meghalni
-hm
+**Ha eléred, hogy egy férfi azt érezze, hogy meghalnál érte, akkor ő hagyni fog meghalni.**
 
+If you make a man feel that you would die for him, then he will let you die.
+
+```text
+Ha  el-ér-ed,         hogy  egy  férfi  az-t
+if  PV-achieve-2SG.DEF that  a    man    that-ACC
+
+érez-z-e,          hogy  meg-hal-ná-l  érte,
+feel-SBJV-3SG.DEF  that  PV-die-COND-2SG for.3SG
+
+akkor  ő    hagy-ni  fog       meg-hal-ni.
+then   3SG  let-INF  FUT.3SG   PV-die-INF
+```
+
+**Hm.**
+
+Hm.
+
+```text
+Hm.
+hm
+```
+
+## A2 vocabulary
+
+* **elér valamit** — achieve something
+* **azt érezteti valakivel, hogy…** — make someone feel that…
+* **meghal valakiért** — die for someone
+* **érte** — for him; for her; for it
+* **hagyni fog valamit történni** — will allow something to happen
+* **meghalni hagy valakit** — let someone die
