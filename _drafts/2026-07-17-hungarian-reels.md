@@ -37,8 +37,6 @@ become.3SG
 
 [Reel](https://www.instagram.com/reels/Da0c_WOsFUZ/)
 
-I’d punctuate the punchline as **„…ki volt ott? A brokkoli?”**
-
 **Mindenki a dohányzás, az alkohol és a cukor ellen van, de amikor nehéz volt, ki volt ott? A brokkoli?**
 
 Everyone is against smoking, alcohol and sugar, but when things were difficult, who was there? Broccoli?
