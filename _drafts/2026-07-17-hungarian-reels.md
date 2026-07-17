@@ -32,3 +32,9 @@ become.3SG
 * **-tól / -től** — from; because of
 * **még … is** — even
 * **orgazmus** — orgasm
+
+---
+
+[Reel](https://www.instagram.com/reels/Da0c_WOsFUZ/)
+
+Mindenki a dohányzás, az alkohol és a cukor ellen van, de amikor nehéz volt, ki volt ott a brokkoli?
