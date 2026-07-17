@@ -123,15 +123,6 @@ akkor  ő    hagy-ni  fog       meg-hal-ni.
 then   3SG  let-INF  FUT.3SG   PV-die-INF
 ```
 
-**Hm.**
-
-Hm.
-
-```text
-Hm.
-hm
-```
-
 ## A2 vocabulary
 
 * **elér valamit** — achieve something
