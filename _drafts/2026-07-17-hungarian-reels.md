@@ -59,3 +59,9 @@ who  be.PST.3SG   there   the  broccoli
 * **amikor** — when
 * **nehéz** — difficult; hard
 * **brokkoli** — broccoli
+
+---
+
+[Reel](https://www.instagram.com/reel/DUYypBZjN6I/)
+
+Megkínáltam az egyik barátomat marha nyelvvel de ő azt mondta, hogy nem kell neki, hiszen az egy tehén szájában volt. Ezért adtam neki egy tojást.
