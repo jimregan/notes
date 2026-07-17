@@ -55,10 +55,7 @@ who  be.PST.3SG   there   the  broccoli
 ## A2 vocabulary
 
 * **dohányzás** — smoking
-* **alkohol** — alcohol
-* **cukor** — sugar
 * **valami ellen van** — be against something
 * **amikor** — when
 * **nehéz** — difficult; hard
-* **ott** — there
 * **brokkoli** — broccoli
