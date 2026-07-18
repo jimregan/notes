@@ -1,7 +1,7 @@
-(4) Home / X
+(5) Home / X
 https://x.com/home
 
-(4) Sungjin Ahn on X: "🚀 We introduce Neural Theorizer (NEO) — a new type of world model that learns to theorize the world from observation, without language or LLM supervision. Selected as an ICML 2026 oral presentation — 0.7% of submitted papers. The paper asks: "What does it mean to understand https://t.co/TLw8YR2VsK" / X
+(5) Sungjin Ahn on X: "🚀 We introduce Neural Theorizer (NEO) — a new type of world model that learns to theorize the world from observation, without language or LLM supervision. Selected as an ICML 2026 oral presentation — 0.7% of submitted papers. The paper asks: "What does it mean to understand https://t.co/TLw8YR2VsK" / X
 https://x.com/SungjinAhn_/status/2072230094614237320
 
 x.com/clankrmedia/status/2072261095004180891
@@ -16,14 +16,8 @@ https://x.com/HuggingPapers/status/2072192895541522467
 (5) Lior Alexander on X: "You now convert any LLM into a faster one without retraining from scratch. NVIDIA just did this to their 30B model. Here's the trick: 1. Duplicate the model into two copies 2. Freeze one copy, it just reads the prompt and remembers context 3. Train the other copy to write" / X
 https://x.com/LiorOnAI/status/2072402904867365167
 
-x.com/GoogleResearch/status/2072057987762708932
+(5) Google Research on X: "Introducing TabFM, a foundation model designed specifically for tabular data classification &amp; regression. This approach allows generation of high-quality predictions on previously unseen tables in a single forward pass. Learn more and try out the model →https://t.co/OTbVQ8oUQs https://t.co/XTD1RCgGjE" / X
 https://x.com/GoogleResearch/status/2072057987762708932
-
-x.com/harrytwips/status/2072328788608946197
-https://x.com/harrytwips/status/2072328788608946197
-
-x.com/sozita_LST/status/2072250492881674590
-https://x.com/sozita_LST/status/2072250492881674590
 
 1782666430272 - Google Drive
 https://drive.google.com/file/d/1uWumB-LNrqw_SfnyzNXTxmm67SmjmF0G/view
@@ -31,29 +25,11 @@ https://drive.google.com/file/d/1uWumB-LNrqw_SfnyzNXTxmm67SmjmF0G/view
 (5) Middle Eastern Affairs on X: "🚨 The image of France's superstar Mbappé's face during the Sweden match has become a trend on social media.. You know what caused these pimples, right 🤔 https://t.co/RgLO43Lbs0" / X
 https://x.com/OpsHQs/status/2072328578990326192
 
-(5) Freiformation on X: "Ich laufe nachts durch einen Stadtpark in Polen. Junge Frauen kommen mir entgegen, gekleidet in Mini-Röcken. Es ist bereits nach 22:00 Uhr. Es scheint, als wäre das die absolute Normalität. Ich komme gerade aus Deutschland und kann diese Normalität kaum begreifen. Selbst ein Kind https://t.co/X9Gs39oA6I" / X
-https://x.com/freiformation/status/2072235097680404545
-
-(5) derek guy on X: "But first, let's play a game. Here are two men wearing gray tailored jackets with blue pants. Which outfit looks better to you? Ignore physical attributes of the people underneath and focus on the outfits. Then reply with your answer. https://t.co/XtCw5BM19S" / X
-https://x.com/dieworkwear/status/2072179862337703980
-
-Andrew Ng on X: "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d https://t.co/bhuRw8lrFC" / X
+(5) Andrew Ng on X: "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d https://t.co/bhuRw8lrFC" / X
 https://x.com/AndrewYNg/status/2071988145667928442
 
-陈成 on X: "翻了下 claude code version 191 的源码，感觉从技术角度看，Anthropic 这个反蒸馏机制设计还是挺精妙的。 Claude Code 有段提示词是这样。 return `Today${n}s date is ${r}.`; 他对这句做了隐写，用肉眼分不出的字符，把系统时区和代理端点身份偷偷编码进了系统提示词。" / X
+(5) 陈成 on X: "翻了下 claude code version 191 的源码，感觉从技术角度看，Anthropic 这个反蒸馏机制设计还是挺精妙的。 Claude Code 有段提示词是这样。 return `Today${n}s date is ${r}.`; 他对这句做了隐写，用肉眼分不出的字符，把系统时区和代理端点身份偷偷编码进了系统提示词。" / X
 https://x.com/chenchengpro/status/2072209406184526013
-
-(5) Aaron Rupar on X: "here is the entirety of Palantir CEO Alex Karp's televised nervous breakdown this morning on CNBC https://t.co/gzD8debrKB" / X
-https://x.com/atrupar/status/2072313022035398795
-
-(5) Shukla Ji on X: "Hey @grok, swap their skin tones perfectly. I want to see something https://t.co/DvKzL68gCp" / X
-https://x.com/Imdavn_/status/2072268086682800353
-
-(5) John Carmack on X: "AI may move to directly generating binary code, but I suspect there are still advantages to reasoning in a different representation. Textual code is a flattening of an abstract syntax tree, and while LLMs produce tokens linearly, the prior context is only linearly connected by" / X
-https://x.com/ID_AA_Carmack/status/2072152520374280269
-
-(5) Gabriele Berton on X: "4 personal thoughts about AI 1) AI/DL/LLMs have nothing in common with the brain. Deep Learning is based on backprop, the brain isn't 2) Anything with backprop is a dead end for understanding the brain. Don't let "brain-inspired" works like JEPA / HRM fool you [1/2] https://t.co/OpUU3AlUSh" / X
-https://x.com/gabriberton/status/2072171544894431526
 
 Backpropagation and the brain | Nature Reviews Neuroscience
 https://www.nature.com/articles/s41583-020-0277-3
@@ -69,9 +45,6 @@ https://arxiv.org/abs/2606.26493
 
 (5) MOSI (@MosiAI_Official) / X
 https://x.com/MosiAI_Official
-
-Instagram
-https://www.instagram.com/noapology_official/
 
 automl/oswm: One-shot World Models Using a Transformer Trained on a Synthetic Prior
 https://github.com/automl/oswm
@@ -144,9 +117,6 @@ https://github.com/mbzuai-oryx/Video-ChatGPT/blob/main/docs/train_video_chatgpt.
 
 2402.04347
 https://arxiv.org/pdf/2402.04347
-
-Google Translate
-https://translate.google.com/?sl=auto&tl=en&text=Du%20har%20f%C3%A5tt%20detta%20mail%20eftersom%20att%20du%20har%20ett%20Student%20medlemskap%20hos%20oss%2C%20Du%20beh%C3%B6ver%20visa%20upp%20att%20du%20studerar%20f%C3%B6r%20att%20beh%C3%A5lla%20ditt%20reducerade%20pris.%0A%0AVet%20du%20med%20dig%20att%20du%20har%20gjort%20det%20s%C3%A5%20kan%20du%20bortse%20fr%C3%A5n%20detta%20mail.%20Annars%20%C3%A4r%20du%20varmt%20v%C3%A4lkommen%20att%20g%C3%B6ra%20detta%20i%20valfri%20reception.%20&op=translate
 
 A Dialect of Donegal/Texts/Áindrías an Ime - Wikisource, the free online library
 https://en.wikisource.org/wiki/A_Dialect_of_Donegal/Texts/%C3%81indr%C3%ADas_an_Ime
