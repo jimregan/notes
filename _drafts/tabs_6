@@ -1,53 +1,8 @@
-(5) Home / X
-https://x.com/home
-
-(5) Sungjin Ahn on X: "🚀 We introduce Neural Theorizer (NEO) — a new type of world model that learns to theorize the world from observation, without language or LLM supervision. Selected as an ICML 2026 oral presentation — 0.7% of submitted papers. The paper asks: "What does it mean to understand https://t.co/TLw8YR2VsK" / X
-https://x.com/SungjinAhn_/status/2072230094614237320
-
-x.com/clankrmedia/status/2072261095004180891
-https://x.com/clankrmedia/status/2072261095004180891
-
-x.com/rohanpaul_ai/status/2072119012662841559
-https://x.com/rohanpaul_ai/status/2072119012662841559
-
-x.com/HuggingPapers/status/2072192895541522467
+(5) DailyPapers on X: "Orca: The World is in Your Mind A general world foundation model that learns a unified latent space from multimodal world signals. It moves beyond next-token and next-frame prediction to Next-State-Prediction. This enables understanding, prediction, and action upon the world. https://t.co/zcGsQmWxxc" / X
 https://x.com/HuggingPapers/status/2072192895541522467
-
-(5) Lior Alexander on X: "You now convert any LLM into a faster one without retraining from scratch. NVIDIA just did this to their 30B model. Here's the trick: 1. Duplicate the model into two copies 2. Freeze one copy, it just reads the prompt and remembers context 3. Train the other copy to write" / X
-https://x.com/LiorOnAI/status/2072402904867365167
-
-(5) Google Research on X: "Introducing TabFM, a foundation model designed specifically for tabular data classification &amp; regression. This approach allows generation of high-quality predictions on previously unseen tables in a single forward pass. Learn more and try out the model →https://t.co/OTbVQ8oUQs https://t.co/XTD1RCgGjE" / X
-https://x.com/GoogleResearch/status/2072057987762708932
-
-1782666430272 - Google Drive
-https://drive.google.com/file/d/1uWumB-LNrqw_SfnyzNXTxmm67SmjmF0G/view
-
-(5) Middle Eastern Affairs on X: "🚨 The image of France's superstar Mbappé's face during the Sweden match has become a trend on social media.. You know what caused these pimples, right 🤔 https://t.co/RgLO43Lbs0" / X
-https://x.com/OpsHQs/status/2072328578990326192
-
-(5) Andrew Ng on X: "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d https://t.co/bhuRw8lrFC" / X
-https://x.com/AndrewYNg/status/2071988145667928442
-
-(5) 陈成 on X: "翻了下 claude code version 191 的源码，感觉从技术角度看，Anthropic 这个反蒸馏机制设计还是挺精妙的。 Claude Code 有段提示词是这样。 return `Today${n}s date is ${r}.`; 他对这句做了隐写，用肉眼分不出的字符，把系统时区和代理端点身份偷偷编码进了系统提示词。" / X
-https://x.com/chenchengpro/status/2072209406184526013
-
-Backpropagation and the brain | Nature Reviews Neuroscience
-https://www.nature.com/articles/s41583-020-0277-3
-
-(5) NVIDIA AI on X: "We took a 30B model and split it in two to write tokens in parallel instead of one at a time. Introducing Nemotron-Labs-TwoTower: a diffusion language model from NVIDIA Research adapted from Nemotron-3-Nano-30B-A3B. Here’s how it works: one half holds the context, the other https://t.co/Uza5QAO7N9" / X
-https://x.com/NVIDIAAI/status/2072394812301480067
-
-nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16 · Hugging Face
-https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16
-
-[2606.26493] Nemotron-Labs-TwoTower: Diffusion Language Modeling with Pretrained Autoregressive Context
-https://arxiv.org/abs/2606.26493
 
 (5) MOSI (@MosiAI_Official) / X
 https://x.com/MosiAI_Official
-
-automl/oswm: One-shot World Models Using a Transformer Trained on a Synthetic Prior
-https://github.com/automl/oswm
 
 OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning
 https://arxiv.org/pdf/2506.00338
