@@ -76,32 +76,23 @@ https://jimregan.github.io/notes/riksdag/2022/03/15/filter-by-year.html
 OpenCV and Riksdag | notes
 https://jimregan.github.io/notes/riksdag/opencv/incomplete/2022/03/24/cv2-riksdag.html
 
-myrmidon - Google Search
-https://www.google.com/search?q=myrmidon&rlz=1C5GCCM_en&oq=mermidan&gs_lcrp=EgZjaHJvbWUqCwgBEAAYChgLGIAEMgYIABBFGDkyCwgBEAAYChgLGIAEMgsIAhAAGAoYCxiABDILCAMQABgKGAsYgAQyCwgEEAAYChgLGIAEMgsIBRAAGAoYCxiABDILCAYQABgKGAsYgAQyCwgHEAAYChgLGIAEMgsICBAAGAoYCxiABDILCAkQLhgKGAsYgATSAQgzNjEwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-triskaidekaphobia - Google Search
-https://www.google.com/search?q=triskaidekaphobia&rlz=1C5GCCM_en&oq=triskaid&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBggDEEUYOTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI0NTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-
-logorrhoea - Google Search
-https://www.google.com/search?q=logorrhoea&rlz=1C5GCCM_en&oq=logorrho&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyBggAEEUYOTINCAEQABiRAhiABBiKBTIHCAIQABiABDINCAMQABiRAhiABBiKBTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIGCAgQABgeMgYICRAAGB7SAQg0ODIzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
-
-indefatigable - Wiktionary, the free dictionary
-https://en.wiktionary.org/wiki/indefatigable
-
-riksdag open data - Google Search
-https://www.google.com/search?q=riksdag+open+data&rlz=1C5GCCM_en&oq=riksdag+open+data&gs_lcrp=EgZjaHJvbWUyCggAEEUYFhgeGDkyCAgBEAAYFhgeMg0IAhAAGIYDGIAEGIoFMgcIAxAAGO8FMgcIBBAAGO8FMgcIBRAAGO8FMgcIBhAAGO8F0gEINDAxNmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-
-ChangeIsKey/open-riksdag · Datasets at Hugging Face
-https://huggingface.co/datasets/ChangeIsKey/open-riksdag
-
 Teckenspråk | Sveriges riksdag
 https://www.riksdagen.se/sv/teckensprak/
+
+Vad gör EU? | Sveriges riksdag
+https://www.riksdagen.se/sv/teckensprak/sa-fungerar-eu/vad-gor-eu/
 
 Demokrati | Sveriges riksdag
 https://www.riksdagen.se/sv/teckensprak/sa-fungerar-riksdagen/demokrati/
 
 Sök | Sveriges riksdag
-https://www.riksdagen.se/sv/sok/?avd=webbtv&lang=sgn&p=9
+https://www.riksdagen.se/sv/sok/?avd=webbtv&lang=sgn&p=21
+
+Partiledardebatt – teckenspråkstolkad (Partiledardebatt) | Sveriges riksdag
+https://www.riksdagen.se/sv/webb-tv/video/partiledardebatt/partiledardebatt-teckensprakstolkad_hcc120240911pd2tt/
+
+view-source:https://www.riksdagen.se/sv/webb-tv/video/partiledardebatt/partiledardebatt-teckensprakstolkad_hcc120240911pd2tt/
+view-source:https://www.riksdagen.se/sv/webb-tv/video/partiledardebatt/partiledardebatt-teckensprakstolkad_hcc120240911pd2tt/
 
 Riksmötets öppnande - teckenspråkstolkad (Riksmötets öppnande) | Sveriges riksdag
 https://www.riksdagen.se/sv/webb-tv/video/riksmotets-oppnande/riksmotets-oppnande-teckensprakstolkad_hcc120240910ro2tt/
@@ -148,40 +139,112 @@ https://teckensprakslexikon.su.se/ord/01481
 data.riksdagen.se/dokumentstatus/HD036.xml
 https://data.riksdagen.se/dokumentstatus/HD036.xml
 
-teckentranskription/pdf/bergman+bjorkstrand-1993-kompendium_i_teckentranskription.pdf at master · zrajm/teckentranskription
-https://github.com/zrajm/teckentranskription/blob/master/pdf/bergman%2Bbjorkstrand-1993-kompendium_i_teckentranskription.pdf
+stsnet/scripts at main · jbeskow/stsnet
+https://github.com/jbeskow/stsnet/tree/main/scripts
 
-zrajm/teckentranskription: Simple and fast sign language lexicon & transcription system.
-https://github.com/zrajm/teckentranskription/tree/master
+stsnet/scripts/mine_sslc.py at main · jbeskow/stsnet
+https://github.com/jbeskow/stsnet/blob/main/scripts/mine_sslc.py
 
-Transcribing sign language
-https://zrajm.org/teckentranskription/intro.html
+lrc2vid/lrc2vid.py at main · jbeskow/lrc2vid
+https://github.com/jbeskow/lrc2vid/blob/main/lrc2vid.py
 
-TSP-Lex!
-https://zrajm.org/teckentranskription/lexicon.html
+Sign Language Processing
+https://github.com/sign-language-processing/
 
-Swedish Sign Language Corpus - Stockholms universitet
-https://www.su.se/english/research/research-catalogue/research-projects/4/swedish-sign-language-corpus?utm_source=chatgpt.com
+sign-language-processing/signwriting-animation: Automatic animation from SignWriting to skeletal pose animation
+https://github.com/sign-language-processing/signwriting-animation
 
-zrajm/teckentranskription: Simple and fast sign language lexicon & transcription system.
-https://github.com/zrajm/teckentranskription
+sign-language-processing/sign-gpt: Multi Task GPT Model for Sign Language
+https://github.com/sign-language-processing/sign-gpt
 
-zrajm/teckenskrift: An introduction to writing Swedish Sign Language (based on ASLWrite).
-https://github.com/zrajm/teckenskrift/tree/master
+sign-language-processing/synthetic-signwriting: A utility to generate synthetic SignWriting poses, for pretraining machine learning models
+https://github.com/sign-language-processing/synthetic-signwriting
 
-swedish-sign-language · GitHub Topics
-https://github.com/topics/swedish-sign-language
+sign-language-processing/lexicon-induction: Induce a lexicon from a continuous sign language corpus
+https://github.com/sign-language-processing/lexicon-induction
 
-zrajm/STS-signbank: The signbank of Department of Linguistics at Stockholm university.
-https://github.com/zrajm/STS-signbank
+sign-language-processing/pose: Library for viewing, augmenting, and handling .pose files
+https://github.com/sign-language-processing/pose
 
-Home · Signbank/FinSL-signbank Wiki
-https://github.com/Signbank/FinSL-signbank/wiki
+24-mohamedyehia/pose-format-tutorials: Practical, end-to-end notebooks and examples that teach the pose-format library from basics to advanced workflows (conversion, Normalizing Data,Interpolation visualization, augmentation).
+https://github.com/24-mohamedyehia/pose-format-tutorials
 
-fingerfonetik/index.html at master · zrajm/fingerfonetik
-https://github.com/zrajm/fingerfonetik/blob/master/index.html
+01_extract_landmarks_from_video.ipynb - Colab
+https://colab.research.google.com/github/24-mohamedyehia/pose-format-tutorials/blob/main/examples/01_extract_landmarks_from_video.ipynb
 
-Transcribing sign language
-https://zrajm.org/teckentranskription/intro.html
+sign-language-processing/segmentation: Sign language pose segmentation model on both the sentence and sign level
+https://github.com/sign-language-processing/segmentation
+
+sign-language-processing/spoken-to-signed-translation: a text-to-gloss-to-pose-to-video pipeline for spoken to signed language translation
+https://github.com/sign-language-processing/spoken-to-signed-translation
+
+sign-language-processing/signwriting-evaluation: Automatic Evaluation for SignWriting Machine Learning Outputs
+https://github.com/sign-language-processing/signwriting-evaluation
+
+sign-language-processing/lexicon-induction: Induce a lexicon from a continuous sign language corpus
+https://github.com/sign-language-processing/lexicon-induction
+
+sign-language-processing/synthetic-signwriting: A utility to generate synthetic SignWriting poses, for pretraining machine learning models
+https://github.com/sign-language-processing/synthetic-signwriting
+
+Train using HuggingFace by AmitMY · Pull Request #17 · sign-language-processing/signwriting-transcription
+https://github.com/sign-language-processing/signwriting-transcription/pull/17/changes#diff-0399876188126537556246f1ddc0ba1fe1cf76e923915557672eb8536e307b97
+
+NVIDIA-NeMo
+https://github.com/NVIDIA-NeMo
+
+Curator/api-design.md at main · NVIDIA-NeMo/Curator
+https://github.com/NVIDIA-NeMo/Curator/blob/main/api-design.md
+
+Curator/nemo_curator/models at main · NVIDIA-NeMo/Curator
+https://github.com/NVIDIA-NeMo/Curator/tree/main/nemo_curator/models
+
+NVIDIA-NeMo/DataDesigner: 🎨 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data.
+https://github.com/NVIDIA-NeMo/DataDesigner
+
+ZeroMQ - Wikipedia
+https://en.wikipedia.org/wiki/ZeroMQ#:~:text=ZeroMQ%20(also%20spelled%20%C3%98MQ%2C%200MQ,in%20distributed%20or%20concurrent%20applications.
+
+Pull requests · sprakbankental/braxen
+https://github.com/sprakbankental/braxen/pulls
+
+Språkbanken Tal
+https://github.com/sprakbankental
+
+sprakbankental/web-gateway: This is the repo holding the gateway that holds SBTal services together
+https://github.com/sprakbankental/web-gateway
+
+sprakbankental/mtmpreproc: Refactorization of the TTS pre-processing system developed by Swedish Agency for Accessible Media.
+https://github.com/sprakbankental/mtmpreproc
+
+[FEAT] Ingest-pipline · Issue #1 · sprakbankental/policy-rag
+https://github.com/sprakbankental/policy-rag/issues/1
+
+Commits · sprakbankental/policy-rag
+https://github.com/sprakbankental/policy-rag/commits/develop/
+
+fix: pip install from github sgl-kernel · sprakbankental/policy-rag@4732cf6
+https://github.com/sprakbankental/policy-rag/commit/4732cf687783a65cb0ed6fcc9eeae50080f25e28
+
+feat: add openSMILE example config files for feature extraction. · sprakbankental/dev-shaas@8f9e612
+https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d4fbceb1e3b3
+
+feat: add openSMILE example config files for feature extraction. · sprakbankental/dev-shaas@8f9e612
+https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d4fbceb1e3b3
+
+sprakbankental/web-nordicprosody: Nordic prosody web site
+https://github.com/sprakbankental/web-nordicprosody
+
+sprakbankental/dev-dia-rf: Development repo for SBTal internship 2025
+https://github.com/sprakbankental/dev-dia-rf
+
+sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models.
+https://github.com/sgl-project/sglang
+
+Ray Data: Scalable Data Processing for AI Workloads — Ray 2.56.0
+https://docs.ray.io/en/latest/data/data.html
+
+Distributed Machine Learning at Instacart | by Han Li | tech-at-instacart
+https://tech.instacart.com/distributed-machine-learning-at-instacart-4b11d7569423
 
 
