@@ -112,8 +112,8 @@ https://www.riksdagen.se/sv/sok/?avd=webbtv&doktyp=kam-vo&lang=sgn
 Riksdagens öppna data | Sveriges riksdag
 https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/
 
-Create search query for API - Riksdag
-https://data.riksdagen.se/dokumentlista/
+data.riksdagen.se/dokumentlista/?sok=&doktyp=&rm=&from=&tom=&ts=&bet=&tempbet=&nr=&org=&iid=&avd=&webbtv=&talare=&exakt=&planering=&facets=&sort=rel&sortorder=desc&rapport=&utformat=xml&a=s#soktraff
+https://data.riksdagen.se/dokumentlista/?sok=&doktyp=&rm=&from=&tom=&ts=&bet=&tempbet=&nr=&org=&iid=&avd=&webbtv=&talare=&exakt=&planering=&facets=&sort=rel&sortorder=desc&rapport=&utformat=xml&a=s#soktraff
 
 Anföranden | Sveriges riksdag
 https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/anforanden/
@@ -144,5 +144,44 @@ https://teckensprakslexikon.su.se/ord/17083
 
 kung - Svenskt teckenspråkslexikon - Stockholms universitet
 https://teckensprakslexikon.su.se/ord/01481
+
+data.riksdagen.se/dokumentstatus/HD036.xml
+https://data.riksdagen.se/dokumentstatus/HD036.xml
+
+teckentranskription/pdf/bergman+bjorkstrand-1993-kompendium_i_teckentranskription.pdf at master · zrajm/teckentranskription
+https://github.com/zrajm/teckentranskription/blob/master/pdf/bergman%2Bbjorkstrand-1993-kompendium_i_teckentranskription.pdf
+
+zrajm/teckentranskription: Simple and fast sign language lexicon & transcription system.
+https://github.com/zrajm/teckentranskription/tree/master
+
+Transcribing sign language
+https://zrajm.org/teckentranskription/intro.html
+
+TSP-Lex!
+https://zrajm.org/teckentranskription/lexicon.html
+
+Swedish Sign Language Corpus - Stockholms universitet
+https://www.su.se/english/research/research-catalogue/research-projects/4/swedish-sign-language-corpus?utm_source=chatgpt.com
+
+zrajm/teckentranskription: Simple and fast sign language lexicon & transcription system.
+https://github.com/zrajm/teckentranskription
+
+zrajm/teckenskrift: An introduction to writing Swedish Sign Language (based on ASLWrite).
+https://github.com/zrajm/teckenskrift/tree/master
+
+swedish-sign-language · GitHub Topics
+https://github.com/topics/swedish-sign-language
+
+zrajm/STS-signbank: The signbank of Department of Linguistics at Stockholm university.
+https://github.com/zrajm/STS-signbank
+
+Home · Signbank/FinSL-signbank Wiki
+https://github.com/Signbank/FinSL-signbank/wiki
+
+fingerfonetik/index.html at master · zrajm/fingerfonetik
+https://github.com/zrajm/fingerfonetik/blob/master/index.html
+
+Transcribing sign language
+https://zrajm.org/teckentranskription/intro.html
 
 
