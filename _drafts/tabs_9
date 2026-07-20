@@ -157,8 +157,8 @@ https://github.com/sign-language-processing/signwriting-animation
 sign-language-processing/sign-gpt: Multi Task GPT Model for Sign Language
 https://github.com/sign-language-processing/sign-gpt
 
-sign-language-processing/synthetic-signwriting: A utility to generate synthetic SignWriting poses, for pretraining machine learning models
-https://github.com/sign-language-processing/synthetic-signwriting
+synthetic-signwriting/synthetic_signwriting/hands/hands.py at main · sign-language-processing/synthetic-signwriting
+https://github.com/sign-language-processing/synthetic-signwriting/blob/main/synthetic_signwriting/hands/hands.py
 
 sign-language-processing/lexicon-induction: Induce a lexicon from a continuous sign language corpus
 https://github.com/sign-language-processing/lexicon-induction
@@ -168,6 +168,9 @@ https://github.com/sign-language-processing/pose
 
 24-mohamedyehia/pose-format-tutorials: Practical, end-to-end notebooks and examples that teach the pose-format library from basics to advanced workflows (conversion, Normalizing Data,Interpolation visualization, augmentation).
 https://github.com/24-mohamedyehia/pose-format-tutorials
+
+pose-format-tutorials/examples/06_Augmentation.ipynb at main · 24-mohamedyehia/pose-format-tutorials
+https://github.com/24-mohamedyehia/pose-format-tutorials/blob/main/examples/06_Augmentation.ipynb
 
 01_extract_landmarks_from_video.ipynb - Colab
 https://colab.research.google.com/github/24-mohamedyehia/pose-format-tutorials/blob/main/examples/01_extract_landmarks_from_video.ipynb
@@ -187,64 +190,43 @@ https://github.com/NVIDIA-NeMo/Curator/blob/main/api-design.md
 Curator/nemo_curator/models at main · NVIDIA-NeMo/Curator
 https://github.com/NVIDIA-NeMo/Curator/tree/main/nemo_curator/models
 
-NVIDIA-NeMo/DataDesigner: 🎨 NeMo Data Designer: Generate high-quality synthetic data from scratch or from seed data.
-https://github.com/NVIDIA-NeMo/DataDesigner
+sardin/p5m/lib/MTM/Analysis/Decimal.pm at develop · sprakbankental/sardin
+https://github.com/sprakbankental/sardin/blob/develop/p5m/lib/MTM/Analysis/Decimal.pm
 
-ZeroMQ - Wikipedia
-https://en.wikipedia.org/wiki/ZeroMQ#:~:text=ZeroMQ%20(also%20spelled%20%C3%98MQ%2C%200MQ,in%20distributed%20or%20concurrent%20applications.
+Journals | Frontiers
+https://www.frontiersin.org/journals?domain=Science&page=6
 
-Pull requests · sprakbankental/braxen
-https://github.com/sprakbankental/braxen/pulls
+Frontiers in Communication
+https://www.frontiersin.org/journals/communication
 
-Språkbanken Tal
-https://github.com/sprakbankental
+Frontiers in Artificial Intelligence
+https://www.frontiersin.org/journals/artificial-intelligence
 
-sprakbankental/web-gateway: This is the repo holding the gateway that holds SBTal services together
-https://github.com/sprakbankental/web-gateway
+Frontiers in Language Sciences
+https://www.frontiersin.org/journals/language-sciences
 
-sprakbankental/mtmpreproc: Refactorization of the TTS pre-processing system developed by Swedish Agency for Accessible Media.
-https://github.com/sprakbankental/mtmpreproc
+Frontiers in Language Sciences | Research Topics
+https://www.frontiersin.org/journals/language-sciences/research-topics
 
-[FEAT] Ingest-pipline · Issue #1 · sprakbankental/policy-rag
-https://github.com/sprakbankental/policy-rag/issues/1
+Frontiers | Auditory Cognition: Language and Music
+https://www.frontiersin.org/research-topics/80327/auditory-cognition-language-and-music
 
-Commits · sprakbankental/policy-rag
-https://github.com/sprakbankental/policy-rag/commits/develop/
+Frontiers | Author guidelines
+https://www.frontiersin.org/guidelines/author-guidelines
 
-fix: pip install from github sgl-kernel · sprakbankental/policy-rag@4732cf6
-https://github.com/sprakbankental/policy-rag/commit/4732cf687783a65cb0ed6fcc9eeae50080f25e28
+Royal Institute Of Technology
+https://www.frontiersin.org/about/institutional-partnership/royal-institute-of-technology
 
-feat: add openSMILE example config files for feature extraction. · sprakbankental/dev-shaas@8f9e612
-https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d4fbceb1e3b3
+Journals | Frontiers
+https://www.frontiersin.org/journals?query=speech
 
-feat: add openSMILE example config files for feature extraction. · sprakbankental/dev-shaas@8f9e612
-https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d4fbceb1e3b3
+Frontiers in Computer Science
+https://www.frontiersin.org/journals/computer-science
 
-Språkbanken Tal
-https://github.com/sprakbankental
+Frontiers in ICT
+https://www.frontiersin.org/journals/ict
 
-Feed | LinkedIn
-https://www.linkedin.com/feed/
-
-Alireza M. Kamelabad
-https://ali.mk/
-
-TMH 75 — about this collection
-https://www.sprakbanken.speech.kth.se/tmh75/about.html
-
-Bin - Google Drive
-https://drive.google.com/drive/u/0/trash
-
-Jim O'Regan | Flickr
-https://www.flickr.com/photos/jimregan/
-
-Repository search results
-https://github.com/search?q=flickr&type=repositories
-
-alexis-mignon/python-flickr-api: A python implementation of the Flickr API
-https://github.com/alexis-mignon/python-flickr-api
-
-Scraft/flickr-album-sorter: Sort flickr albums into date taken order
-https://github.com/Scraft/flickr-album-sorter
+Frontiers | Research Topics
+https://www.frontiersin.org/about/research-topics
 
 
