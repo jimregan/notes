@@ -43,7 +43,7 @@ categories: [links]
 [BalajiAI/VICReg](https://github.com/BalajiAI/VICReg) --- JAX/Flax implementation of "VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning". ICLR 2022.
 
 [VIbCReg: Variance-invariance-better-covariance regularization for self-supervised learning on time series](https://ml4its.github.io/publications/pub8/),
-
+[Computer Vision Self-supervised Learning Methods on Time Series](https://arxiv.org/abs/2109.00783) (updated title)
 
 [Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning](https://ai.meta.com/research/publications/pushing-the-frontier-of-audiovisual-perception-with-large-scale-multimodal-correspondence-learning/),
 [code](https://github.com/facebookresearch/perception_models) (Embedding model is open, "Perception LM" is not),
@@ -74,3 +74,5 @@ categories: [links]
    - Synthetic English audio dataset for time-aware speech understanding
    - temporal localization, temporal description, and timed summaries
    - Based on YODAS2 English
+
+[Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013)
