@@ -1,0 +1,142 @@
+input_label_type: UNICODE
+output_label_type: SYMBOL
+
+output_symbol { key: "a" value: 1 }
+output_symbol { key: "ä" value: 2 }
+output_symbol { key: "a:" value: 3 }
+output_symbol { key: "ä:" value: 4 }
+output_symbol { key: "aa:" value: 5 }
+output_symbol { key: "ae" value: 6 }
+output_symbol { key: "ae:" value: 7 }
+output_symbol { key: "ai" value: 8 }
+output_symbol { key: "an" value: 9 }
+output_symbol { key: "au" value: 10 }
+output_symbol { key: "b" value: 11 }
+output_symbol { key: "c" value: 12 }
+output_symbol { key: "d" value: 13 }
+output_symbol { key: "dh" value: 14 }
+output_symbol { key: "dj" value: 15 }
+output_symbol { key: "e" value: 16 }
+output_symbol { key: "e:" value: 17 }
+output_symbol { key: "eex" value: 18 }
+output_symbol { key: "eh" value: 19 }
+output_symbol { key: "ei" value: 20 }
+output_symbol { key: "en" value: 21 }
+output_symbol { key: "eu" value: 22 }
+output_symbol { key: "ex" value: 23 }
+output_symbol { key: "f" value: 24 }
+output_symbol { key: "g" value: 25 }
+output_symbol { key: "h" value: 26 }
+output_symbol { key: "i" value: 27 }
+output_symbol { key: "i:" value: 28 }
+output_symbol { key: "iex" value: 29 }
+output_symbol { key: "ih" value: 30 }
+output_symbol { key: "j" value: 31 }
+output_symbol { key: "k" value: 32 }
+output_symbol { key: "l" value: 33 }
+output_symbol { key: "m" value: 34 }
+output_symbol { key: "n" value: 35 }
+output_symbol { key: "ng" value: 36 }
+output_symbol { key: "o" value: 37 }
+output_symbol { key: "ö" value: 38 }
+output_symbol { key: "o:" value: 39 }
+output_symbol { key: "ö:" value: 40 }
+output_symbol { key: "oe" value: 41 }
+output_symbol { key: "oe:" value: 42 }
+output_symbol { key: "oh" value: 43 }
+output_symbol { key: "oi" value: 44 }
+output_symbol { key: "on" value: 45 }
+output_symbol { key: "ou" value: 46 }
+output_symbol { key: "p" value: 47 }
+output_symbol { key: "r" value: 48 }
+output_symbol { key: "r0" value: 49 }
+output_symbol { key: "rd" value: 50 }
+output_symbol { key: "rh" value: 51 }
+output_symbol { key: "rl" value: 52 }
+output_symbol { key: "rn" value: 53 }
+output_symbol { key: "rs" value: 54 }
+output_symbol { key: "rt" value: 55 }
+output_symbol { key: "rx" value: 56 }
+output_symbol { key: "s" value: 57 }
+output_symbol { key: "t" value: 58 }
+output_symbol { key: "tc" value: 59 }
+output_symbol { key: "th" value: 60 }
+output_symbol { key: "u" value: 61 }
+output_symbol { key: "u:" value: 62 }
+output_symbol { key: "uex" value: 63 }
+output_symbol { key: "uu" value: 64 }
+output_symbol { key: "uu:" value: 65 }
+output_symbol { key: "uuh" value: 66 }
+output_symbol { key: "uw" value: 67 }
+output_symbol { key: "uw:" value: 68 }
+output_symbol { key: "v" value: 69 }
+output_symbol { key: "w" value: 70 }
+output_symbol { key: "x" value: 71 }
+output_symbol { key: "xx" value: 72 }
+output_symbol { key: "y" value: 73 }
+output_symbol { key: "y:" value: 74 }
+output_symbol { key: "z" value: 75 }
+output_symbol { key: "zh" value: 76 }
+
+alignable { input: "-" output: "" }
+alignable { input: "a" output: "a" }
+alignable { input: "ä" output: "ä" }
+alignable { input: "a" output: "a:" }
+alignable { input: "a" output: "ae" }
+alignable { input: "ä" output: "ae:" }
+alignable { input: "c" output: "k" }
+alignable { input: "c" output: "s" }
+alignable { input: "ch" output: "x" }
+alignable { input: "ck" output: "k" }
+alignable { input: "d" output: "d" }
+alignable { input: "dd" output: "d" }
+alignable { input: "dt" output: "t" }
+alignable { input: "e" output: "ä" }
+alignable { input: "e" output: "e:" }
+alignable { input: "é" output: "e:" }
+alignable { input: "e" output: "eh" }
+alignable { input: "e" output: "ex" }
+alignable { input: "f" output: "f" }
+alignable { input: "ff" output: "f" }
+alignable { input: "g" output: "j" }
+alignable { input: "h" output: "h" }
+alignable { input: "i" output: "i" }
+alignable { input: "i" output: "i:" }
+alignable { input: "l" output: "l" }
+alignable { input: "ll" output: "l" }
+alignable { input: "m" output: "m" }
+alignable { input: "mm" output: "m" }
+alignable { input: "n" output: "n" }
+alignable { input: "ng" output: "ng g" }
+alignable { input: "ng" output: "ng" }
+alignable { input: "o" output: "o" }
+alignable { input: "o" output: "o:" }
+alignable { input: "ö" output: "oe:" }
+alignable { input: "o" output: "oh" }
+alignable { input: "o" output: "u" }
+alignable { input: "p" output: "p" }
+alignable { input: "pp" output: "p" }
+alignable { input: "r" output: "r" }
+alignable { input: "rd" output: "rd" }
+alignable { input: "rdn" output: "rd rn" }
+alignable { input: "rds" output: "rd rs" }
+alignable { input: "rn" output: "rn" }
+alignable { input: "rr" output: "r" }
+alignable { input: "rs" output: "rs" }
+alignable { input: "rsl" output: "rs rl" }
+alignable { input: "rst" output: "rs rt" }
+alignable { input: "rt" output: "rt" }
+alignable { input: "rtn" output: "rt rn" }
+alignable { input: "rts" output: "rt rs" }
+alignable { input: "rtss" output: "rt rs" }
+alignable { input: "s" output: "s" }
+alignable { input: "sc" output: "s" }
+alignable { input: "ss" output: "s" }
+alignable { input: "stj" output: "x" }
+alignable { input: "t" output: "c" }
+alignable { input: "t" output: "t" }
+alignable { input: "tsch" output: "rt rs" }
+alignable { input: "u" output: "uu" }
+alignable { input: "u" output: "uuh" }
+alignable { input: "v" output: "v" }
+alignable { input: "y" output: "y:" }
