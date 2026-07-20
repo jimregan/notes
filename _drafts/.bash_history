@@ -1,4 +1,3 @@
-grep '/source' tocheck |awk -F'[<>]' '{print $6}' > recheck
 spiderfile recheck
 scp recheck sbtaldeep22:.srv/wg/inp
 mv recheck.log inp.log 
@@ -498,3 +497,4 @@ git push origin notes-jan-26
 cd ,,
 cd ..
 rm -rf notes/
+history -a
