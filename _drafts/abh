@@ -1,0 +1,2000 @@
+cd blender-4.4.0-linux-x64/
+nano render.sh
+nano run_render.sh
+l
+nvidia-smi
+sudo reboot
+nvidia-smi
+df -h .
+sudo reboot
+tmux list-sessions
+tmux attach -t 0
+tmux attach -t 1
+sudo reboot
+code new_gpt_template.py 
+python new_gpt_template.py 
+conda activate vrate
+python new_gpt_template.py 
+cd ../src/
+l
+code florence_eval_gpt.py 
+code florence_eval.py 
+python run_gpt_base.py 
+l
+unzip meta.zip 
+l
+cd meta/
+l
+cd ..
+python florence_eval_gpt.py 
+CUDA_VISIBLE_DEVICES=1 pytohon new_florence_eval.py 
+CUDA_VISIBLE_DEVICES=1 python new_florence_eval.py 
+code ../utils/detection_utils.py 
+CUDA_VISIBLE_DEVICES=1 python new_florence_eval.py 
+code  annotated_images_lubos/
+l
+code eval_florence_res.py 
+code new_eval_res.py
+python new_eval_res.py 
+code new_eval_res.py 
+python new_eval_res.py 
+code ../utils/sam_utils.py 
+cd lego/
+l
+cd serve/
+code test.py
+cd ..
+cd .
+l
+cd ..
+l
+mv ckpt/ ../GPTG_Ckpt
+cd ..
+l
+ls | grep GPTG_Ckpt/
+l
+ls | grep gp
+l
+mv GroundingGPT/ prevGPT
+git clone https://github.com/lzw-lzw/GroundingGPT.git
+l
+cd prevGPT/
+l
+cd ..
+ls -laht | head
+ls -laht | head -10
+mv GPTG_Ckpt/ prevGPT/
+cd prevGPT/
+l
+mv GPTG_Ckpt/ ckpt
+l
+cd ckpt/
+l
+cd ckpt/
+cd ..
+l
+pip install -e .
+l
+pip install -e .
+ls
+ls lego/
+less README.md 
+l
+code ./
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.5.2025041001-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.5.2025041001-linux-x64/python_files/deactivate/bash/envVars.txt
+cd /home/deichler/unity_renders/server_infer_render_opt_210/Build
+bash run_o_3.sh 
+bash run_o_2.sh 
+bash run.sh 
+nano run.sh 
+bash run.sh 
+nano run.sh 
+bash run.sh 
+cd ..
+cd server_infer_render_opt_222/Build/
+cp run.sh  run2.sh
+nano run2.sh 
+bash run2.sh 
+cd code/mm-analysis/ref_analysis/
+conda activate vrate
+bash create_vids.sh 
+cd ffmpeg_filelists/
+./generate_videos.sh 7
+nano generate_vids.sh
+chmod +x gen
+chmod +x generate_vid
+chmod +x generate_vids.sh 
+./generate_vids.sh  3
+rm *mp4
+ls | grep sh
+rm gen_vis.sh 
+chmod +x generate_videos.sh 
+./generate_videos.sh 3
+rm *avi
+./generate_videos.sh 3
+l
+cd ffmpeg_filelists/
+./generate_vid_sub.sh hsi_7_0719_211_00
+./generate_videos.sh 5
+./generate_vid_sub.sh hsi_3_0715_227_00
+cd ffmpeg_filelists/
+l
+./generate_vid_sub.sh hsi_7_0719_227_00
+nvidia-smi
+tmux
+nvidia-smi
+l
+nvidia-smi
+df- h .
+df -h .
+cat ~/.ssh/id_rsa_mm
+l
+cd .ssh/
+l
+nano authorized_keys_tmh 
+ssh ubuntu@193.122.145.219
+l
+cat id_ed25519.pub 
+nano agentx.pub
+ssh ubuntu@209.20.157.0
+l
+cat id_ed25519.pub 
+cat id_rsa_mm.pub 
+ssh ubuntu@159.13.61.6
+ssh -i id_rsa_mm ubuntu@159.13.61.6
+clear
+;
+l
+cat id_rsa_mm.pub 
+git clone git@github.com:bordeauxred/agentx_orchestration.git
+cd
+cd code/
+git clone git@github.com:bordeauxred/agentx_orchestration.git
+cd agentx_orchestration/
+l
+cd ..
+l
+docker ps
+docker kill c48999499424
+docker ps
+docker kill fc3617f1a2ee
+rrrcd
+cd
+cd .ss
+l
+cd .ssh/
+l
+cat id_ed25519
+l
+ssh-keygen -t ed25519 -C "deichler@kth.se"
+l
+cat id_ed25519_new
+cat id_ed25519_new.pub 
+cat id_ed25519_new
+cat id_ed25519_new.pub 
+cat id_ed25519_new
+cat id_ed25519
+cat id_ed25519_new
+nvidia-smi
+ls
+df -h .
+l
+cd test_docker/
+docker run --gpus all -it --rm test
+docker build -t scene-gesture .
+docker build -t test .
+docker run --gpus all -it --rm test
+export DOCKER_BUILDKIT=1
+docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm -t agentx_orchestration:latest .
+docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm -t test .
+docker --version
+cd 
+mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/buildx/releases/latest/download/buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+chmod +x ~/.docker/cli-plugins/docker-buildx
+docker buildx version
+docker --version
+mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/buildx/releases/latest/download/buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+chmod +x ~/.docker/cli-plugins/docker-buildx
+docker buildx version
+docker buildx
+sudo apt install docker-buildx
+docker buildx
+sudo  systemctl restart docker
+sudo  systemctl status docker
+docker buildx
+wsl
+sudo apt list --installed | grep buildx
+sudo apt install docker-buildx-plugin
+docker build
+docker buildx
+rm -f ~/.docker/cli-plugins/docker-buildx
+docker build
+mkdir -p ~/.docker/cli-plugins
+curl -L https://github.com/docker/buildx/releases/latest/download/buildx-v0.11.2.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+chmod +x ~/.docker/cli-plugins/docker-buildx
+docker buildx version
+docker --version
+ls -la ~/.docker/cli-plugins/
+sudo systemctl restart docker
+docker buildx version
+export PATH=$PATH:$HOME/.docker/cli-plugins
+echo 'export PATH=$PATH:$HOME/.docker/cli-plugins' >> ~/.bashrc
+source ~/.bashrc 
+docker buildx version
+groups | grep docker
+~/.docker/cli-plugins/docker-buildx
+ls -la ~/.docker/cli-plugins/
+chmod +x ~/.docker/cli-plugins/docker-buildx
+docker 
+docker build
+sudo apt-get install docker-buildx-plugin
+sudo apt update
+sudo apt upgrade
+docker buildx create --use
+docker buildx create
+docker buildx
+l
+cd .do
+cd .docker/
+l
+ls -laht
+docker ps
+docker buildx
+sudo apt install docker-buildx-plugin
+cd
+curl -sSL https://get.docker.com/ | sh
+sudo apt install docker-buildx-plugin
+sudo systemctl restart docker
+docker
+cd test_docker/
+docker run --gpus all -it --rm test
+systemctl start docker
+sudo systemctl start docker
+docker run --gpus all -it --rm test
+dockerx
+docker buildx
+docker buildx version
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-buildx-plugin
+docker buildx
+docker build
+docker buildx
+docke
+docker
+docker build
+rm -rf /home/deichler/.docker/cli-plugins/docker-buildx 
+docker build
+l
+df - .
+df -h .
+ssh -i ~/.ssh/id_rsa_mm ubuntu@159.13.61.6
+docker build
+docker buildx
+BUILDX_EXPERIMENTAL=1 
+export BUILDX_EXPERIMENTAL=1 
+docker build -t test .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_rsa -t test .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm  -t test .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_rsa_mm -t test .
+cd
+cd code/
+git clone git@github.com:bordeauxred/agentx_orchestration.git
+cd
+cd 
+cd test_docker/
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519 -t test .
+ll
+l
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519 -t test .
+docker run --gpus all -t test
+exit
+sudo systemctl status docker
+sudo systemctl start docker
+docker run --rm hello-world
+docker run --gpus all -t test
+clear
+docker run --gpus all -t test
+docker run --gpus all -it --rm test
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519_new -t test .
+docker run --gpus all -it --rm test
+l
+k
+l
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519_new -t test .
+docker images
+doc
+docker rmi 0315b50f75bf
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519_new -t test .
+docker images
+docker rmi 0315b50f75bf
+docker rmi -f 0315b50f75bf
+docker rmi test
+docker images
+docker system prune
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=$HOME/.ssh/id_ed25519_new -t test .
+docker images
+docker run --gpus all -it --rm test
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t test_new
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t test_new .
+docker run --gpus all -it --rm test_new
+docker builder prune --all
+clear
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t test_new .
+docker run --gpus all -it --rm test_new
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t test_new .
+docker run --gpus all -it --rm test_new
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t test_new .
+docker run --gpus all -it --rm test_new
+docker login
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+l
+docker tag agentx deicha/agentx:latest
+docker push deicha/agentx:latest
+docker push deicha/agentx
+docker pull deicha/agentx
+docker images
+ssh-keygen -t ed25519 -C "dockerhub-deploy-key" -f ~/.ssh/dockerhub_deploy_key
+exit
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+l
+code Dockerfile 
+cd code/
+echo "# agent-x" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:annadeichler/agent-x.git
+git push -u origin main
+l
+ls -laht | head
+mkdir agent-x
+mv .git/ agent-x/
+mv README.md agent-x/
+cd agent-x/
+l
+git remote -v
+cd
+cd .ssh/
+l
+cat dockerhub_deploy_key.pub 
+cd test_docker/
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+l
+cat Dockerfile 
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker buildx create --driver cloud deicha/agent-x
+docker buildx
+export BUILDX_EXPERIMENTAL=1
+docker buildx
+docker buildx create --driver cloud deicha/agent-x
+exit
+docker pull deicha/agentx
+docker run --gpus all -it deicha/agent
+docker run --gpus all -it deicha/agentx
+ssh -i ~/.ssh/id_rsa_mm ssh ubuntu@104.171.202.245
+ssh -i ~/.ssh/id_rsa_mm ubuntu@104.171.202.245
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+l
+cd ..
+l
+ls -laht | head
+ls -laht | head -20
+c pt_smpl/
+l
+cd pt_s
+cd pt_smpl/
+l
+code .
+code transform.ipynb 
+cd ..
+l
+ls -laht | head 3-
+ls -laht | head 30
+ls -laht | head
+ls -laht | head -30
+code npz2hml/
+cd OmniControl
+l
+cat run_eval.sh 
+l
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+l
+cd
+l
+cd code/
+l
+ls -laht 
+cd OmniControl
+l
+code .
+df -h .
+l
+nvidia-smi
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+df -h .
+l
+conda create -n gemini-env python=3.9 -y
+conda activate gemini-env
+pip install google-generativeai
+mkdir notebooks
+cd notebooks/
+code test.ipynb
+nano set_key.sh
+bash set_key.sh 
+$GOOGLE_API_KEY
+GOOGLE_API_KEY
+$GOOGLE_API_KEY
+chmod +x set_key.sh 
+./set_key.sh 
+$GOOGLE_API_KEY
+cat set_key.sh 
+pip install --upgrade google-genai
+pip uninstall google-generativeai
+pip install google-genai
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+cd ..
+mkdir sft_rl_playground
+code sft_rl_playground/
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+exit
+df -h .
+exit
+cd eval
+l
+cd ..
+l
+cd sample/
+code generate.py 
+tmux ls
+tmux list-sessions
+exit
+cd ..
+cd code/OmniControl
+cd .
+code .
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+l
+cd /shared/deichler/data/ARIA_referential/
+l
+cd synced
+l
+cd ..
+l
+cd ../temp/
+l
+cd ..
+l
+cd ARIA_referential/
+l
+cd Participant_data/
+l
+cd Participants/
+l
+cd KTH-ARIA-referential/
+l
+cd ../new/
+l
+cd KTH-ARIA-referential/
+l
+cd code/
+l
+cd ..
+cd data/
+l
+cd detections/
+l
+cd ..
+l
+pwd
+l
+pwd
+cd ..
+mkdir annotations
+pwd
+cd
+exit
+l
+cd ..
+cd code/
+l
+ls -laht  | head
+ls -laht  | head -20
+ls -laht  | head -24
+cd /shared/deichler/data/ARIA_referential/
+l
+cd final/
+l
+cd ..
+l
+cd Participant_data/
+l
+cd temp/
+l
+cd ..
+l
+cd ..
+l
+pwd
+l
+pwd
+l
+cd 
+cd code/
+l
+cd aria/
+l
+ls -laht
+code run_sam_pid.py 
+code annotate_video.py
+code annotate_video.ipynb
+l
+conda info --envs
+conda activate samVLMdino
+python
+df -h .
+cd
+cd data/
+l
+cd aria
+l
+mkdir sink_data
+pwd
+l
+cd sink_data/
+l
+cd ..
+l
+cd sink_data/
+l
+cd Par1rec4_frames/
+l
+code .
+l
+cd data/
+l
+exit
+l
+cd data/
+l
+mkdir aria_annotations
+mv ParticipantJsonfiles-20250514T124739Z-1-001.zip  aria_annotations/
+cd aria_annotations/
+unzip ParticipantJsonfiles-20250514T124739Z-1-001.zip 
+l
+rm ParticipantJsonfiles
+rm ParticipantJsonfiles-20250514T124739Z-1-001.zip 
+l
+cd ParticipantJsonfiles/
+pwd
+l
+cd Par\ 1/
+l
+pwd
+l
+cd ..
+mv Par\ 1/ Par_1
+l
+mv Par 2 Par_2
+l
+mkdir pp
+mv Par_1/ pp
+mv Par\ 2/ pp/Par_2
+mv Par\ 3/ pp/Par_3
+l
+mv Par\ 4/ pp/Par_4
+l
+mv pp/* .
+l
+cd pp/
+l
+cd ..
+rm -rf pp/
+l
+cd Par_1/
+l
+cd ..
+l
+pwd
+cd Par_1/
+l
+pwd
+clear
+l
+pwd
+l
+cat Par1rec1_bbox.json 
+cat Par1rec4_bbox.json 
+cat Par1rec4_bbox.json l
+l
+cd /shared/deichler/data/ARIA_referential/
+l
+cd Participant_data/
+l
+cd Participant1
+cd ../Participants
+l
+cd new/KTH-ARIA-referential/
+l
+cd data/
+l
+cd recipes/
+l
+pwd
+l
+nvidia-smi
+ls -laht | head
+code annotat
+code annotate_video.
+code annotate_video.ipynb 
+code run_sam.py 
+l
+grep -rnwe 'add_new_mask' .
+code /home/deichler/how-to-segment-images-with-sam-2.ipynb 
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+cd
+l
+cd code/
+l
+cd aria/
+l
+code .
+code /home/deichler/data/aria
+l
+cd dco
+cd code/
+git clone https://github.com/qiancheng0/ToolRL.git
+cd ToolRL/
+l
+docker images
+l
+docker rmi agentx
+df -h .
+docker images
+docker rmi test_new
+cd ..
+ls -laht | head
+cd agent-x/
+l
+cd ..
+cd agentx_orchestration/
+l
+cd ..
+cd test/
+l
+cd .
+cd ..
+ls -laht | head
+nvidia-smi
+l
+docker images
+cd code/ToolRL/
+l
+cd code/
+l
+cd ToolRL/
+Docker build -t agentx .
+docker build -t agentx .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/path/to/your/private/key -t agentx_image .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm -t agentx_image .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm.pub -t agentx_image .
+cat ~/.ssh/id_rsa_mm.pub 
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm.pub -t agentx_image .
+cat ~/.ssh/id_rsa_mm.pub
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm.pub -t agentx_image .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=~/.ssh/id_rsa_mm.pub -t agentx .
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+code Dockerile
+mv Dockerile  Dockerfile
+code Docker
+code Dockerfile 
+cd ..
+cd te
+l
+code ../../code/ToolRL/
+cd code/ToolRL/
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+cd code/ToolRL/
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it agentx
+https://chatgpt.com/c/682597af-7b14-8012-b01f-26346305c4be\
+docker run --gpus all -it --rm agentx_image
+docker run --gpus all -it --rm agent
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx_image
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+cat Docker
+cat Dockerfile 
+docker run --gpus all -it --rm agentx
+nano Dockerfile 
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it --rm agentx
+conda activate samVLMdino
+pip install huggingface_hub
+python -m huggingface_hub download Qwen/Qwen2.5-3B-Instruct --local-dir ./Qwen2.5-3B-Instruct
+curl -fsSL https://ollama.com/install.sh | sh
+qwen2.5:1.5b
+ollama qwen2.5:1.5b
+ollama run qwen2.5:1.5b
+l
+df -h .
+l
+du -h -d1
+ls -laht 
+ls -laht  | head
+cd .ollama/
+l
+cat history 
+l
+cd /usr/share/
+l
+cd ollama/
+l
+cd
+cd .ollama/
+l
+cd /usr/share/ollama/.ollama/models/
+l
+cd blobs/
+l
+cd ..
+du -h -d1
+cd ..
+rm -rf models/
+sudo rm -rf models/
+l
+du -h -d1
+df -h .
+cd ..
+l
+df -h .
+cd
+df -h .
+cd /usr/share/o
+cd /usr/share/ollama/.ollama/
+l
+du -h -d1
+cd
+cd .cache/
+l
+cd huggingface/
+l
+cd modules/
+l
+cd ..
+du -h -d1
+cd hub/
+l
+du -h -d1
+rm -rf models--allenai--Molmo-7B-D-0924/
+df -h .
+rm -rf models--sentence-transformers--
+rm -rf models--sentence-transformers--paraphrase-MiniLM-L6-v2/
+df -h 
+rm -rf models--Salesforce--instructblip-vicuna-13b/
+df -h .
+l
+nvidia-smi
+df -h .
+nvidia-smi
+ps aux | grep 524424
+nvidia-smi
+df -h /dev/shm
+nvidia-smi
+ps aux | grep 578113
+nvidia-smi
+cd code/ToolRL/
+l
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all -it agentx
+docker run --shm-size=16g ---gpus all -it agentx
+docker run --gpus all --shm-size=16g -it agentx
+l
+cd data/sgs24/raw/
+l
+ls -laht | head -30
+cd tg_pt_concat_2500/
+l
+ls | wc -l
+cd ..
+l
+ls -laht | head
+ls -laht | head -20
+cd tg_pt_concat
+l
+cd ..
+l
+ls  | grep synth
+cd pkl_synth_matched/
+l
+cat st2.11976_12272_1.05stretch.txt
+l
+mkdir target_locs
+cat st1_mirrored.33134_33796_1.37stretch.txt
+l
+cp *txt target_locs/
+l
+cd target_locs/
+l
+zip -r target_locs.zip .
+l
+ls | grep zip
+ls -laht | grep zip
+pwd
+cat st1_mirrored.32625_33129_1.24stretch.txt
+l
+cd
+exit
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+l
+ls -laht | head -30
+ls -laht | head -40
+ls -laht | head -50
+cd ..
+ls -laht | head -50
+code ToolRL/
+cd data/sgs_recordings/
+l
+cd ..
+cd sgs24/
+l
+cd raw/
+l
+ls -laht | head
+ls -laht | head -40
+cd tg_pt_concat
+l
+cd ..
+l
+ls -laht \ head
+nvidia-smi
+docker ps
+nvidia-smi
+ps aux | grep 845593
+nvidia-smi
+docker ps
+l
+cd code/ToolRL/
+docker run --gpus all --shm-size=16g -it agentx
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all --shm-size=16g -it agentx
+docker ps
+nvidia-smi
+l
+docker ps
+docker attach dee
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.0/python_files/deactivate/bash/envVars.txt
+cd 
+cd code/OmniControl
+code .
+l
+cd ..
+ls -laht | head
+ls -laht | head - 30
+ls -laht | head -30
+cd pt_s
+cd pt_smpl/
+l
+code .
+cd ..
+cd ToolRL/
+code train_grpo.sh 
+l
+rm -rf .git
+echo "# ToolRL" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:annadeichler/ToolRL.git
+git push -u origin main
+l
+git status
+git add .
+git commit -am 'first'
+git push
+git add train_grpo.sh 
+git commit -am 'added new sh'
+git push
+git status
+cd examples/
+l
+cd grpo_trainer/
+l
+cp run_grpo.sh run_grpo_parallel.sh
+nan run_grpo_parallel.sh 
+code run_grpo_parallel.sh 
+git add run_grpo_parallel.sh 
+git commit -am 'added prallel grpo config'
+git push
+git add run_grpo_parallel.sh 
+git commit -am 'added prallel grpo config'
+git push
+l
+cd ..
+l
+cd ..
+l
+git status
+git add verl/trainer/config/(
+git add verl/trainer/config/*
+git commit -am 'mod train config'
+git push
+python
+git add verl/workers/actor/dp_actor.py 
+git commit -am 'added dp actor'
+git pish
+git push
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  -am 'update params'
+git push
+git diff
+git pull
+git status
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  -am 'added example'
+git commit examples/grpo_trainer/run_grpo_parallel.sh  --am 'add'
+git push
+git commit examples/grpo_trainer/run_grpo_parallel.sh  
+git push
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  
+git push
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  
+git push
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  
+git pull
+git push
+git add examples/grpo_trainer/run_grpo_parallel.sh 
+git commit examples/grpo_trainer/run_grpo_parallel.sh  
+git push
+code train_grpo.sh 
+git add train_grpo.sh 
+git commit -am 'added new cong' train_grpo.sh 
+git add train_grpo.sh  -am 'change cf'
+git add train_grpo.sh  -m 'change cf' 
+git add train_grpo.sh  
+git push
+git status
+git add train_grpo.sh 
+git commit train_grpo.sh 
+git push
+python
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+docker attach dee
+docker ps
+docker attach dee
+nvidia-smi
+ps aux | grep 
+python3 -m verl.trainer.main_ppo     algorithm.adv_estimator=grpo     data.train_files=$DATA_DIR/train.parquet     data.val_files=$DATA_DIR/test.parquet     data.train_batch_size=120     data.val_batch_size=30     data.max_prompt_length=2048     data.max_response_length=1024     actor_rollout_ref.model.path=$BASE_MODEL     actor_rollout_ref.actor.optim.lr=1e-6     actor_rollout_ref.model.use_remove_padding=True     actor_rollout_ref.actor.ppo_mini_batch_size=30     actor_rollout_ref.actor.use_dynamic_bsz=True     actor_rollout_ref.actor.use_kl_loss=False     actor_rollout_ref.actor.kl_loss_coef=0.001     actor_rollout_ref.actor.kl_loss_type=low_var_kl     actor_rollout_ref.model.enable_gradient_checkpointing=True     actor_rollout_ref.actor.fsdp_config.param_offload=False     actor_rollout_ref.actor.fsdp_config.grad_offload=False     actor_rollout_ref.actor.fsdp_config.optimizer_offload=False     actor_rollout_ref.rollout.tensor_model_parallel_size=$ROLLOUT_TP_SIZE     actor_rollout_ref.rollout.name=vllm     actor_rollout_ref.rollout.gpu_memory_utilization=0.6     actor_rollout_ref.rollout.n=4     actor_rollout_ref.ref.fsdp_config.param_offload=True     algorithm.kl_ctrl.kl_coef=0.001     trainer.critic_warmup=0     trainer.logger=['console','wandb']     trainer.project_name=TinyZero     trainer.experiment_name=$EXPERIMENT_NAME     trainer.n_gpus_per_node=$N_GPUS     trainer.nnodes=1     trainer.save_freq=15     trainer.test_freq=5     trainer.total_epochs=15
+nvidia-smi
+df -h .
+exit
+sudo -f -9 pkill WorkerDict
+sudo  pkill -f -9  WorkerDict
+nvidia-smi
+watch -n 2 nvidia-smi
+watch -n 1 nvidia-smi
+[A
+watch -n 1 nvidia-smi
+docker attach dee
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+code train_grpo.sh 
+cd ..
+code aria/
+watch -n 1 nvidia-smi
+docker attach dee
+watch -n 1 nvidia-smi
+docker attach dee
+docker logs --tail 50 dee
+df -h .
+cd code/ToolRL/
+du -h -d1
+l
+df -h .
+l
+cd ..
+du -h -d1
+docker builder prune --all
+l
+docker system prune
+df -h .
+l
+df -h .
+l
+df -h .
+exit
+docker logs --tail 50 dee
+docker attach dee
+exit
+cd /nfs/deepvoice/
+l
+cd home/
+l
+cd annkle/
+l
+cd 
+l
+cd annkle/
+cd /nfs/deepvoice/home/annkle/
+l
+cd vqvae-bailando/
+l
+ls -laht
+cd ..
+l
+cd dmytroka/
+l
+cd resolver
+l
+cd visibility/
+l
+cd ..
+sudo su
+docker logs --tail 50 dee
+watch -n 1 nvidia-smi
+df -h .
+l
+du -h -1
+du -h -d1
+cd .rustup/
+l
+cd ..
+rm -rf .rustup/
+df -h .
+l
+du -h -d1
+cd ../pablopz/
+l
+du -h -d1
+cd .
+l
+sudo su
+df -h .
+cd ..
+sudo us
+cd deichler/
+l
+cd .cache/
+du -h -d1
+cd huggingface/
+du -h -d1
+cd hub/
+l
+du -h -d1
+rm -rf models--runwayml--stable-diffusion-v1-5/
+df -h .
+cd
+l
+du -h -d1
+nvidia-smi
+sudo  pkill -f -9  WorkerDict
+nvidia-smi
+df -h .
+l
+du -h -d
+du -h -d1
+cd code/ToolRL/
+l
+cd verl/
+l
+cd models/
+l
+cd ..
+l
+cd ..
+l
+ls -laht | head
+cd verl/
+p
+l
+du -h -d1
+cd trainer/
+l
+exit
+docker attach dee
+df -h .
+l
+cd ..
+sudo iostat -x 5 5
+sudo find / -type f -mtime -1 -exec du -h {} + | sort -hr | head -n 20
+docker attach dee
+cd .vscode-server/
+l
+cd ..
+mv .vscode-server/ .vscode-server-backup
+ls -ld ~
+ls -laht | grep .vso
+ls -laht | grep .vs
+df -h .
+l
+du -h -d1
+cd code/ToolRL/
+l
+cd verl/
+l
+ls -laht | head
+cd ..
+l
+cat train_grpo.sh 
+grep -rnwe EXPERIMENT_NAME .
+cd verl/utils/reward_score/
+l
+cat rlla.py  | grep exp_name
+l
+cd ..
+cd examples/
+l
+cd grpo_trainer/
+l
+cd ..
+l
+docker attach dee
+grep -rnwe outputs .
+grep -rnwe save .
+cd verl/trainer/
+cat fsdp_sft_trainer.py  | grep save
+cat fsdp_sft_trainer.py  | path .
+grep -rnwe path .
+cd ..
+cd
+l
+du -h -d1
+mv .vscode-server-backup/ .vscode-server
+cd data/
+cd ../code/
+du -h -d1
+cd aria/
+l
+du -h -d1
+rm -rf frames_14_1/
+rm -rf frames_14_*
+df -h .
+rm -rf frames_12*
+rm -rf frames_15*
+df -h .
+sudo apt-get clean
+sudo apt-get autoremove
+df -h .
+sudo apt-get autoremove
+l
+df -h .
+du -h -d1
+cd temp/
+l
+cd ..
+l
+docker images
+docker rmi tacotron_shivam
+df -h .
+docker rmi neural-hmm-ljrun
+docker rmi fastpitch
+df -h .
+doccd
+cd
+cd .cache/
+l
+du -h -d1
+cd huggingface/
+du -h -d1
+cd modules/
+cd ../hub/
+du -h -d1
+df -h .
+cd ..
+l
+cd datasets/
+du -h -d1
+rm -rf TeoGchx___beat_hml3_d_english/
+df -h .
+du -h -d1
+cd -h .
+df -h .
+exit
+lsof | grep '(deleted)'
+sync
+df -h .
+df -i
+docker system prune -af
+df -h .
+docker ps
+watch -n 1 nvidia-smi
+df -h .
+cd code/ToolRL/
+l
+docker ps
+docker exec dee /bin/bash
+docker exec -it dee /bin/bash
+df -h .
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+cd code/ToolRL/
+l
+mkdir checkpoints
+l
+docker system prune
+df -h .
+sudo apt autoremove
+sudo apt autoclean
+l
+df -h .
+docker builder prune --all
+docker system prune -af
+l
+df -h .
+docker ps
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_3090/ /shared/deichler/
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_3165/ /shared/deichler/
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_3155/ /shared/deichler/
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_3150 /shared/deichler/
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_2940 /shared/deichler/
+l
+docker cp dee1ddacea97:/app/ToolRL/checkpoints/TinyZero/grpo-qwen2.5-1.5b/actor/global_step_1500 /shared/deichler/
+nano run_prev.sh]
+df -h .
+docker system prune -af
+df -h .
+docker images
+exi
+exit
+nvidia-smi
+df -h .
+docker attach dee
+df -h .
+docker attach dee
+df -h .
+docker attach dee
+cd /shared/deichler/
+l
+cd global_step_3090/
+l
+cat m
+cat merges.txt 
+docker attach dee
+cd
+l
+cd data/
+l
+cd ..
+cd data/
+l
+cd sgs_recordings/
+l
+cd
+cd /shared/
+l
+cd
+l
+cd code/ToolRL/
+l
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker run --gpus all --shm-size=16g -it agentx
+docker iamges
+docker images
+df -h .
+cd data/aria
+l
+cd sink_data/
+l
+cd Par1rec4_frames/
+l
+cd ..
+l
+cd frames/
+l
+cd batch_000/
+l
+ls | wc -l
+cd ..
+l
+cd batch_002/
+l
+cd ..
+l
+cd /shared/archived/
+l
+cd adamjac/
+l
+cd checkpoints/
+l
+cd
+l
+clear
+cd data/a
+cd data/aria
+l
+cd sink_data/
+l
+cd frames/
+l
+cd ..
+;
+l
+cd Par1rec4_frames/
+l
+rm *jpg
+l
+cd batch_000/
+l
+cd ..
+l
+cd batch_000/
+l
+ll
+l
+ccd ..
+cd ..
+l
+cd batch_001/
+l
+cd ..
+l
+cd batch_001/
+l
+cd ..
+l
+rm -rf batch_001/
+rm -rf batch_000/
+k
+l
+cd batch_001/
+l
+cd ..
+nvidia-smi
+ps aux | grep 2080094
+sudo kill -9 vrate
+sudo pkill -f -9 vrate
+nvidia--smi
+nvidia-smi
+exit
+l
+cd ..
+ls -laht | head
+ls -laht | head -30
+clear
+cd ../code/
+l
+ls -laht | head
+cd aria/
+l
+ls -laht | head
+code .
+l
+cd path/to/save/
+l
+cd f
+l
+cd frames/
+l
+rm -rf batch_00*
+l
+cd ..
+ls -laht |head
+ls -laht |head -10
+pwd
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd /shared/
+l
+cd deichler/
+l
+cd
+cd data/aria
+l
+cd sink_data/
+l
+cd Par1rec4_frames/
+l
+rm -rf batch_00*
+l
+cd batch_000/
+l
+cd ..
+rm -rf batch_00*
+cd batch_000
+l
+df -h .
+cd data/aria
+l
+cd sink_data/
+l
+cd Par1rec4_frames/
+l
+cd batch_0000
+cd batch_000/
+l
+pwd
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+code bbox_sam.ipynb
+nvidia-smi
+watch -n 1 nvidia-smi
+watch -n 1 nvidia-smi
+cd data/aria_annotations/
+l
+cd ParticipantJsonfiles/
+l
+cler
+lclear
+l
+clear
+cd Par_4/
+l
+cd
+cd data/aria
+l
+cd sink_data/
+l
+cd Par4rec2_frames/
+l
+cd batch_000/
+l
+cd ..
+cl
+cd ..
+clear
+l
+sudo  pkill -f -9  vrate
+ratponto
+sudo  pkill -f -9  vrate
+ll
+l
+clear
+l
+cd data/aria_annotations/
+l
+cd ParticipantJsonfiles/
+l
+cd Par_2/
+l
+cd ../Par_3/
+l
+cd
+cd data/aria/sink_data/
+l
+cd Par4rec5_frames/
+l
+cd batch_000/
+l
+l
+watch -n 1 nvidia-smi
+cd data/
+l
+cd 
+l
+cd data/
+l
+ls -laht 
+l
+cd
+l
+cd code/ToolRL/c
+cd code/ToolRL/ch
+cd code/ToolRL/
+l
+cd dataset/
+l
+cd ..
+l
+cd
+cd data/
+l
+ls -laht | head
+cd aria
+l
+cd 
+l
+ls -laht | head
+cd code/
+l
+ls -laht | head
+cd agent
+l
+ls -laht | head -40
+cd aria/
+l
+cd ../ToolRL/
+l
+cd
+grep -rnwe global_step_2940 .
+find . -type d -name  global_step_2940
+cd /shared/deichler/
+l
+du -h -d1
+cd global_step_3165/
+du -h -d1
+rclone
+rclone config
+rclone copy . gdrive:/PhD/ToolRL_ckps
+rclone config
+rclone lsd gdrive:/
+nano ~/.config/rclone/rclone.conf
+rclone lsd gdrive:/
+l
+du -h -d1
+ls -lah
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cat bbox_sam.ipynb 
+l
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd ..
+code OmniControl
+l
+cd code/ToolRL/
+docker run --gpus all --shm-size=16g -it agentx
+watch -n 1 nvidia-smi
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd ..
+code ToolRL/
+docker ps
+dcker attach ce
+docker attach ce
+cd code/ToolRL/
+nvidia-smi
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+docker images
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+watch -n 1 nvidia-smi
+ps aux | grep 2454171
+watch -n 1 nvidia-smi
+dcker attach ce
+docker attach ce
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+git status
+mkdir verl_recipes
+cd verl_recipes/
+cd ..
+mv verl_recipes/
+mv verl_recipes/ train_scripts
+cd train_scripts/
+l
+code train_drgrpo.sh
+cd ..
+cd verl/trainer/
+mv config/ppo_trainer.yaml drgrpo_trainer.yaml
+cp drgrpo_trainer.yaml ppo_trainer.yaml
+l
+code drgrpo_trainer.yaml 
+l
+cd config/
+l
+cd ..
+l
+cd config/
+l
+cd ..
+l
+mv ppo_trainer.yaml config/
+mv drgrpo_trainer.yaml config/
+l
+cd ..
+cd train_scripts/
+l
+code train_drgrpo.sh 
+l
+git add train_drgrpo.sh 
+git commit -am 'added drgpo train'
+git push
+cd ..
+cd verl/trainer/config/
+git add drgrpo_trainer.yaml 
+git commit drgrpo_trainer.yaml  -m 'added drgpo trainer config'
+git push
+l
+cd ..
+l
+code main_ppo.py 
+l
+docker images
+df -h .
+docker attach ce
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+lastlog | grep June
+lastlog | grep Jun
+lastlog | grep May
+sudo  pkill -f -9  WorkerDict
+watch -n 1 nvidia-smi
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+docker attach ce
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+watch -n 1 nvidia-smi
+docker attach ce
+watch -n 1 nvidia-smi
+sudo  pkill -f -9  WorkerDict
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+git status
+git pull
+git branch
+git status
+git checkout -b sppo
+git push -u origin your-branch-name
+git push -u origin sppo
+git status
+git diff verl/trainer/ppo/ray_trainer.py
+git diff verl/trainer/config/ppo_trainer.yaml
+git add verl/trainer/config/sppo_trainer.yaml 
+git commit verl/trainer/config/sppo_trainer.yaml -m 'added sppo config'
+git puh
+git push
+git status
+git diff verl/trainer/ppo/core_algos.py
+git add verl/trainer/ppo/core_algos.py 
+git commit verl/trainer/ppo/core_algos.py -m 'add sppo algo'
+git push
+git status
+git diff verl/trainer/ppo/ray_trainer.py
+code verl/trainer/ppo/ray_trainer.py
+git add verl/trainer/ppo/ray_trainer.py 
+git commit verl/trainer/ppo/ray_trainer.py -m 'updae rain trainer for sppo'
+git push
+git add verl/workers/actor/dp_actor_sppo.py 
+git commit verl/workers/actor/dp_actor_sppo.py  -m 'added sppo worker'
+git push
+git status
+git add verl/workers/actor/__init__.py 
+git commit verl/workers/actor/__init__.py -m 'sppo updates'
+git push
+git status
+git add verl/workers/fsdp_workers.py 
+git commit verl/workers/fsdp_workers.py  -m 'added worker sppo'
+git push
+code examples/grpo_trainer/train_new.sh 
+git add verl/trainer/ppo/ray_trainer.py 
+git commit verl/trainer/ppo/ray_trainer.py -m 'add sppo cond'
+git push
+git add verl/trainer/ppo/core_algos.py 
+git commit verl/trainer/ppo/core_algos.py -m 'add agg loss'
+git push
+git add verl/utils/logger/aggregate_logger.py 
+git commit verl/utils/logger/aggregate_logger.py  -m 'add aggreagate logger ext'
+git push
+git add verl/utils/debug/performance.py 
+git commit verl/utils/debug/performance.py  -m 'add functions
+'
+git pus
+git push
+git add verl/utils/logger/aggregate_logger.py 
+git commit verl/utils/logger/aggregate_logger.py  -m 'add aggreagate logger ext'
+git push
+git add verl/workers/actor/dp_actor_sppo.py 
+git commit verl/workers/actor/dp_actor_sppo.py -m 'corect path
+'
+gitp ush
+git push
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+sudo  pkill -f -9  WorkerDict
+docker attach ce
+exit
+cd code/
+git clone https://github.com/Paper2Poster/Paper2Poster.git
+conda info --envs
+conda activate gemini-env
+pip install -r requirements.txt
+cd Paper2Poster/
+pip install -r requirements.txt
+mv CVPR_2022_Author_Kit-37.pdf paper.pdf
+DOCKER_BUILDKIT=1 docker build --secret id=ssh_key,src=/home/deichler/.ssh/id_ed25519_new -t agentx .
+python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-7B-Instruct
+conda activate gemini-env
+python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-7B-Instruct
+conda deactivat
+conda deactivate
+conda activate p2p
+python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2.5-7B-Instruct
+exit
+cd code/
+l
+conda activate gemini-env
+l
+cd Paper2Poster/
+pip install -r requirements.txt
+python
+conda create -n p2p python=3.10
+conda activate p2p
+pip install -r requirements.txt 
+nano .env
+python -m PosterAgent.new_pipeline     --poster_path="${dataset_dir}/${paper_name}/paper.pdf"     --model_name_t="4o" \  # LLM
+nano create.sh
+bash create.sh 
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="vllm_qwen" \  # LLM
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="vllm_qwen"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+huggingface-cli login
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="vllm_qwen"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="4o"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+nano .env 
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="4o"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+sudo apt install libreoffice
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="4o"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+sudo apt install poppler-utils
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="4o"     --model_name_v="4o"     --poster_width_inches=48     --poster_height_inches=36
+cd 
+ls -laht | head
+cd code/Paper2Poster/
+l
+cd '<4o_4o>_generated_posters'/
+l
+cd home/
+l
+cd deichler/
+l
+cd ..
+l
+mv '<4o_4o>_generated_posters'/ generated_posters
+mv '<4o_4o>_images_and_tables'/ images_and_tables
+l
+python -m PosterAgent.new_pipeline     --poster_path="/home/deichler/paper.pdf"     --model_name_t="4o"     --model_name_v="4o"     --poster_width_inches=84     --poster_height_inches=42
+mv '<4o_4o>_generated_posters'/ generated_posters_2
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+l
+cd ..
+l
+ls -laht | head
+ls -laht | head -20
+cd pt_synth/
+l
+cde generate_gpt.py 
+code generate_gpt.py 
+conda activate p2p
+cd code/Paper2Poster/
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=48   --poster_height_inches=36
+sudo  pkill -f -9  PosterAgent
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=48   --poster_height_inches=36
+mv '<vllm_qwen_4o>_generated_posters'/ generated_qwen_poster
+exit
+ps aux | grep 2963914
+exit
+conda activate p2p
+cd code/Paper2Poster/
+l
+clear
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/poster.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=48   --poster_height_inches=36
+cd
+ls -laht | head
+cd code/Paper2Poster/a
+cd code/Paper2Poster/
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=48   --poster_height_inches=36
+vllm
+python -m vllm.entrypoints.openai.api_server     --model Qwen/Qwen2.5-7B-Instruct     --tokenizer Qwen/Qwen2.5-7B-Instruct     --port 8000  # default used by PosterAgent, unless otherwise specified
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m vllm.entrypoints.openai.api_server   --model Qwen/Qwen2.5-7B-Instruct   --tokenizer Qwen/Qwen2.5-7B-Instruct   --port 8000
+RuntimeError: Engine process failed to start. See stack trace for the root cause.
+CUDA_VISIBLE_DEVICES=1,2,3,4,5 python -m vllm.entrypoints.openai.api_server   --model Qwen/Qwen2.5-7B-Instruct   --tokenizer Qwen/Qwen2.5-7B-Instruct   --port 8000
+conda activate p2p
+cd code/Paper2Poster/
+l
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=84   --poster_height_inches=42
+watch -n 1 nvidia-smi
+ps aux | grep 2963914
+df -h .
+exit
+nvidia-smi
+ps aux | grep 2956572
+sudo  pkill -f -9  p2p
+ps aux | grep 2956572
+nvidia-smi
+tmux
+cd code/Paper2Poster/
+conda activate p2p
+l
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=84   --poster_height_inches=42
+clear
+python -m PosterAgent.new_pipeline   --poster_path="/home/deichler/paper.pdf"   --model_name_t="vllm_qwen"   --model_name_v="4o"   --poster_width_inches=84   --poster_height_inches=42
+mv '<vllm_qwen_4o>_generated_posters'/ generated_qwen_poster_3
+ls -laht | head
+docker attach ce
+conda create -n BFCL python=3.10
+conda activate BFCL
+cd code/
+git clone https://github.com/ShishirPatil/gorilla.git
+cd gorilla/berkeley-function-call-leaderboard
+pip install -e .[oss_eval_vllm]
+l
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd ..
+code Paper2Poster/
+conda activate BFCL
+pip install -e .
+cd code/
+l
+cd gorilla/berkeley-function-call-leaderboard/
+pip install -e .
+conda activate BFCL
+cd code/
+;
+pip install -e .
+cd gorilla/berkeley-function-call-leaderboard/
+pip install -e .
+vllm
+conda deactivage
+conda deactivate
+conda activate p2p
+pip install -e .
+vllm
+cd
+cd data/
+l
+cd ../code/
+l
+ls -laht | head
+cd agent_x
+l
+cd agent-x
+l
+cd ..
+l
+ls -laht | head
+ls -laht | head -20
+docker attach ce
+l
+ls -laht | head
+l
+cd /shared/
+l
+cd deichler/
+l
+ls -laht | head
+bfcl generate   --model Qwen/Qwen2.5-1.5B-Instruct   --test-category reasoning   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path ./global_step_3150/
+bfcl generate   --model Qwen/Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path ./global_step_3150/
+docker attach ce
+nvidia-smi
+docker attach ce
+l
+cd
+cd code/
+l
+docker attach ce
+docker run --gpus all --shm-size=16g -it agentx
+cd code/
+cd gorilla/berkeley-function-call-leaderboard/
+conda activate p2p
+bfcl generate   --model Qwen/Qwen2.5-1.5B-Instruct   --test-category reasoning   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+bfcl generate   --model Qwen/Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+bfcl generate   --model Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+git checkout 
+7709f5d 
+git checkout 7709f5d 
+git checkout v0.0.1
+git branch
+bfcl generate   --model Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+pip install -e .
+l
+cd bfcl
+l
+cd ..
+l
+git checkout v0.3
+l
+pip install -e .
+bfcl generate   --model Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+pip install -e .
+l
+git checkout v0.4
+git checkout v0.5
+git checkout v1.0
+l
+cd ..
+l
+cd berkeley-function-call-leaderboard/
+l
+cat README.md 
+git checkout v1.2
+l
+pip install -e .
+cat SUPPORTED_MODELS.md 
+cat SUPPORTED_MODELS.md  | grep qwen
+bfcl generate   --model Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /path/to/local/model
+bfcl generate   --model Qwen2.5-1.5B-Instruct   --test-category simple   --backend vllm   --num-gpus 1   --gpu-memory-utilization 0.9   --local-model-path /shared/deichler/global_step_1500/
+bfcl generate -h
+git checkout v1.3
+git checkout v1.4
+git checkout v1.5
+git checkout
+git checkout v1.5
+git checkout v1.1
+df -h .
+l
+nvidia-smi
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd ..
+grep -rnwe 'mot_dict' .
+cd OmniControl_base/
+code prep_test_data.ipynb 
+l
+code motion_utils_humanml3d.ipynb
+cd ..
+l
+ls -laht | head -20
+mkdir motion_base
+cd motion_base/
+code smplx_utils.py
+code smplx_utils.ipynb
+cd ..
+l
+code Omnicontrol_st_ref/
+cd OmniControl_st_ref_nonref/
+code eval_pt/
+l
+cd train/
+l
+code train_mdm.py 
+code ../../
+code ../
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd ..
+ls -laht | head
+ls -laht | head -30
+code pt_synth/
+code pt_smpl/
+python /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/printEnvVariablesToFile.py /home/deichler/.vscode-server/extensions/ms-python.python-2025.6.1/python_files/deactivate/bash/envVars.txt
+cd code/
+git clone https://github.com/groundedgestures/groundedgestures.github.io.git
+l
+cd groundedgestures.github.io/
+exit
