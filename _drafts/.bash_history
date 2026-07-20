@@ -1,12 +1,3 @@
-ls /Users/joregan/Playing/spoken-sentence-transformers/.pres_tmp/
-less recheck.log 
-cd -
-cd ../8c08e58ba0638cacfea6a84a97fae1f4/
-git diff
-cd -
-cat recheck.log |perl wget-http.pl 
-cat recheck.log |perl wget-http.pl  >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt 
-cd -
 git add wget-20260405c.nt 
 git commit -m recheck
 cd -
@@ -498,3 +489,12 @@ tail regs
 grep em_llouise2 id_mapping 
 grep emlouisec id_mapping 
 vi id_mapping 
+cd /Users/joregan/Playing//multi-axis-speech-similarity/
+ls
+git log
+git branch
+ls
+less template.tex 
+cd ..
+find . -name '*.bib'
+find ~ -name Odyssey2026_BibEntries.bib
