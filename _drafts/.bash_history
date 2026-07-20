@@ -1,48 +1,3 @@
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl  |grep sizeIn
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}'
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel 
-less recheck.log 
-grep Sc26may26-5.zip ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260*
-less tocheck 
-rm tocheck 
-unzip -l /Users/joregan/Downloads/Sc-20260630T100209Z-3-001.zip 
-grep sizeIn toch
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl 
-cat inp.log |perl wget-http.pl > tocheck
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt 
-cd ../8c08e58ba0638cacfea6a84a97fae1f4/
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-cat tocheck |grep sizeIn|awk -F'[<>]' '{print $2}' > recheck
-. spidering.sh 
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel 
-cat recheck.log |perl wget-http.pl  >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt 
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel 
-scp todel sbtaldeep22:.srv/done/
-cat todel 
-cd -
-grep Sc-20260614T195013Z-3-001.zip wget-20260405c.nt 
-grep Sc-20260614T195013Z-3-001.zip wget-20260405.nt 
-grep Sc-20260614T195013Z-3-001.zip wget-20260405.nt |grep sizeIn
-grep Sc-20260614T195013Z-3-001.zip wget-20260405.nt |grep sizeIn >> /tmp/tt
-less /tmp/tt
-grep Sc-20260614T221421Z-3-001.zip wget-20260405.nt |grep sizeIn >> /tmp/tt
-grep Sc-20260614T222408Z-3-001.zip wget-20260405.nt |grep sizeIn >> /tmp/tt
-cd -
-mv /tmp/tt tocheck 
-cat tocheck |grep sizeIn|awk -F'[<>]' '{print $2}' > recheck
 less recheck
 spiderfile recheck
 less recheck.log 
@@ -498,3 +453,48 @@ less template.tex
 cd ..
 find . -name '*.bib'
 find ~ -name Odyssey2026_BibEntries.bib
+cd /tmp
+mkdir ttt
+cd ttt/
+unzip /Users/joregan/Downloads/Sc-20260628T135912Z-3-001.zip 
+mkdir tild
+mv *~* tild/
+rm -rf tild/
+rm *
+unzip -l /Users/joregan/Downloads/Sc-20260628T142057Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T145047Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T150707Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T151751Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T153824Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T154619Z-3-001.zip  
+unzip -l /Users/joregan/Downloads/Sc-20260628T162833Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T164045Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T172056Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T173332Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T174027Z-3-001.zip 
+unzip /Users/joregan/Downloads/Sc-20260628T225621Z-3-001.zip 
+mv *~* tild/
+mkdir tild
+mv *~* tild/
+rm -rf tild/
+rm *
+unzip -l /Users/joregan/Downloads/Sc-20260628T230528Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T232603Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260628T235752Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T000438Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T000903Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T082418Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T082418Z-3-001.zip |grep '('
+
+ps aux|grep Java
+kill -9 649
+unzip -l /Users/joregan/Downloads/Sc-20260629T083040Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T083253Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T083253Z-3-001.zip |grep '('
+unzip -l /Users/joregan/Downloads/Sc-20260629T084318Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T085609Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T091607Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T105547Z-3-001.zip 
+unzip -l /Users/joregan/Downloads/Sc-20260629T110250Z-3-001.zip 
+rm /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260601-183757.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260601-092448.png 
+rm /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153654.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153651.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153647.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153645.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153642.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153620.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260607-121043.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260607-154245.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260613-121359.png 
