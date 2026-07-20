@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>VICReg - Variance-Invariance-Covariance Regularization for Self-Supervised Learning | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="VICReg - Variance-Invariance-Covariance Regularization for Self-Supervised Learning" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/2026/05/04/vicreg-summary.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/2026/05/04/vicreg-summary.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-05-04T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/2026/05/04/vicreg-summary.html","@type":"BlogPosting","headline":"VICReg - Variance-Invariance-Covariance Regularization for Self-Supervised Learning","dateModified":"2026-05-04T00:00:00-05:00","datePublished":"2026-05-04T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/2026/05/04/vicreg-summary.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">VICReg - Variance-Invariance-Covariance Regularization for Self-Supervised Learning</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-05-04T00:00:00-05:00" itemprop="datePublished">
+        May 4, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="vicreg-variance-invariance-covariance-regularization-for-self-supervised-learning"><a href="https://openreview.net/forum?id=xm6YD62D1Ub">VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning</a></h2>
+
+<p><a href="https://arxiv.org/abs/2105.04906">arXiv</a></p>
+
+<p><a href="https://github.com/facebookresearch/vicreg">official implementation</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span>
+<span class="nl">bardes2022vicreg</span><span class="p">,</span>
+<span class="na">title</span><span class="p">=</span><span class="s">{VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning}</span><span class="p">,</span>
+<span class="na">author</span><span class="p">=</span><span class="s">{Adrien Bardes and Jean Ponce and Yann LeCun}</span><span class="p">,</span>
+<span class="na">booktitle</span><span class="p">=</span><span class="s">{International Conference on Learning Representations}</span><span class="p">,</span>
+<span class="na">year</span><span class="p">=</span><span class="s">{2022}</span><span class="p">,</span>
+<span class="na">url</span><span class="p">=</span><span class="s">{https://openreview.net/forum?id=xm6YD62D1Ub}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>🧠 VICReg — Core Idea</p>
+
+<p>VICReg is a self-supervised learning method for training representations by comparing different views of the same input.</p>
+
+<p>Its key contribution is:</p>
+
+<p>A simple objective that prevents collapse explicitly, without needing contrastive negatives or architectural tricks.</p>
+
+<p>Instead of relying on heuristics (like stop-gradient or momentum encoders), it defines three direct constraints on the embedding space.</p>
+
+<p>⸻</p>
+
+<p>🔑 The Three Terms (this is the whole method)</p>
+
+<p>Given two embeddings Z and Z’ from two views of the same data:</p>
+
+<ol>
+  <li>Invariance</li>
+</ol>
+
+<p>Make representations of the same input similar</p>
+
+<p>s(Z, Z’) = \frac{1}{n} \sum_i |z_i - z’_i|^2</p>
+
+<ul>
+  <li>Pulls matching views together</li>
+  <li>This is the only term that aligns pairs</li>
+</ul>
+
+<p>⸻</p>
+
+<ol>
+  <li>Variance (collapse prevention)</li>
+</ol>
+
+<p>Ensure each dimension has sufficient spread across the batch</p>
+
+<p>v(Z) = \frac{1}{d} \sum_j \max(0, \gamma - \text{std}(z^j))</p>
+
+<ul>
+  <li>Prevents all embeddings becoming constant</li>
+  <li>Forces each dimension to carry signal</li>
+</ul>
+
+<p>This is the paper’s main innovation.</p>
+
+<p>⸻</p>
+
+<ol>
+  <li>Covariance (redundancy reduction)</li>
+</ol>
+
+<p>Make different dimensions independent</p>
+
+<p>c(Z) = \frac{1}{d} \sum_{i \neq j} \text{Cov}(Z)_{i,j}^2</p>
+
+<ul>
+  <li>Pushes off-diagonal covariance toward zero</li>
+  <li>Encourages each dimension to encode different information</li>
+</ul>
+
+<p>⸻</p>
+
+<p>Final loss</p>
+
+<p>\mathcal{L} = \lambda s + \mu (v(Z) + v(Z’)) + \nu (c(Z) + c(Z’))</p>
+
+<p>⸻</p>
+
+<p>🧩 Intuition (what each term is doing)</p>
+
+<p>From the paper’s description  ￼:</p>
+
+<ul>
+  <li>Invariance → alignment (same input → same representation)</li>
+  <li>Variance → prevents trivial collapse (everything identical)</li>
+  <li>Covariance → prevents informational collapse (dimensions redundant)</li>
+</ul>
+
+<p>⸻</p>
+
+<p>⚠️ What “collapse” means here</p>
+
+<p>Without constraints, the model can minimize invariance by doing:</p>
+
+<p>z = constant vector for all inputs</p>
+
+<p>That perfectly satisfies “same inputs match” — but carries no information.</p>
+
+<p>VICReg prevents this in two ways:</p>
+
+<ul>
+  <li>variance term → stops shrinking to a constant</li>
+  <li>covariance term → stops dimensions from collapsing together</li>
+</ul>
+
+<p>⸻</p>
+
+<p>🧠 Architectural structure</p>
+
+<p>From the diagram on page 2:</p>
+
+<ul>
+  <li>input → encoder → representation</li>
+  <li>representation → expander → embedding</li>
+  <li>loss applied on embeddings</li>
+</ul>
+
+<p>The expander:</p>
+
+<ul>
+  <li>increases dimensionality</li>
+  <li>helps decorrelation work effectively</li>
+</ul>
+
+<p>After training, it is discarded — only the encoder is used.</p>
+
+<p>⸻</p>
+
+<p>🔥 What makes VICReg different</p>
+
+<p>Compared to other SSL methods:</p>
+
+<p>No contrastive negatives</p>
+
+<ul>
+  <li>No need to push unrelated samples apart</li>
+</ul>
+
+<p>No special tricks</p>
+
+<ul>
+  <li>No stop-gradient</li>
+  <li>No momentum encoder</li>
+  <li>No normalization tricks required</li>
+</ul>
+
+<p>Works with asymmetric / multimodal setups</p>
+
+<ul>
+  <li>Two branches can:
+    <ul>
+      <li>have different architectures</li>
+      <li>have different inputs</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is explicitly highlighted as a key advantage  ￼.</p>
+
+<p>⸻</p>
+
+<p>🧠 Deeper interpretation</p>
+
+<p>VICReg is enforcing three properties on the representation space:</p>
+
+<p>⸻</p>
+
+<ol>
+  <li>Consistency (invariance)</li>
+</ol>
+
+<p>Same underlying input → same point</p>
+
+<p>⸻</p>
+
+<ol>
+  <li>Spread (variance)</li>
+</ol>
+
+<p>Data should occupy the space, not collapse</p>
+
+<p>⸻</p>
+
+<ol>
+  <li>Factorization (covariance)</li>
+</ol>
+
+<p>Different dimensions should encode different factors</p>
+
+<p>⸻</p>
+
+<p>🔑 Why covariance matters (subtle but important)</p>
+
+<p>Without it:</p>
+
+<ul>
+  <li>multiple dimensions can encode the same signal</li>
+  <li>representation becomes redundant</li>
+</ul>
+
+<p>With it:</p>
+
+<p>the model is pushed toward factorized structure</p>
+
+<p>⸻</p>
+
+<p>📊 Empirical results (briefly)</p>
+
+<ul>
+  <li>Matches state-of-the-art SSL performance</li>
+  <li>Stable training</li>
+  <li>Works well in multi-modal settings (image + text)</li>
+</ul>
+
+<p>Notably:</p>
+
+<p>performs comparably to methods like Barlow Twins, but with simpler constraints  ￼</p>
+
+<p>⸻</p>
+
+<p>🧠 One-line summary</p>
+
+<p>VICReg learns representations by enforcing alignment + spread + independence directly in the embedding space, instead of relying on contrast or architectural tricks.</p>
+
+<p>⸻</p>
+
+<p>🎯 The most important takeaway</p>
+
+<p>If you strip everything away, VICReg is saying:</p>
+
+<p>A good representation must:</p>
+
+<ul>
+  <li>map similar things together</li>
+  <li>use the full space</li>
+  <li>not waste dimensions on redundant information</li>
+</ul>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/2026/05/04/vicreg-summary.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

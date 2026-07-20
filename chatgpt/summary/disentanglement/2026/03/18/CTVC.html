@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Generated paper summary | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Generated paper summary" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval" />
+<meta property="og:description" content="Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/disentanglement/2026/03/18/CTVC.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/disentanglement/2026/03/18/CTVC.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-18T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/disentanglement/2026/03/18/CTVC.html","@type":"BlogPosting","headline":"Generated paper summary","dateModified":"2026-03-18T00:00:00-05:00","datePublished":"2026-03-18T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/disentanglement/2026/03/18/CTVC.html"},"description":"Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Generated paper summary</h1><p class="page-description">Learning Disentangled Speech Representations with Contrastive Learning and Time-Invariant Retrieval</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-18T00:00:00-05:00" itemprop="datePublished">
+        Mar 18, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#disentanglement">disentanglement</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul>
+  <li><a href="https://ieeexplore.ieee.org/abstract/document/10447283">ICASSP 2024</a></li>
+  <li><a href="https://arxiv.org/abs/2401.08096">arXiv</a></li>
+  <li>Uses <a href="https://github.com/resemble-ai/Resemblyzer">Resemblyzer</a></li>
+</ul>
+
+<h1 id="1-problem-formulation">1. Problem Formulation</h1>
+
+<p>Voice Conversion (VC) can be formalized as:</p>
+
+<p>[
+X_{src} \rightarrow (C, S_{tgt}) \rightarrow \hat{X}_{tgt}
+]</p>
+
+<p>Where:</p>
+
+<ul>
+  <li>( C ): content (linguistic information)</li>
+  <li>( S_{tgt} ): target speaker representation</li>
+  <li>( \hat{X}_{tgt} ): converted speech</li>
+</ul>
+
+<p>The <strong>core difficulty</strong> is:</p>
+
+<ul>
+  <li>Learning ( C ) such that it is <strong>speaker-invariant</strong></li>
+  <li>Learning ( S ) such that it is <strong>content-invariant</strong></li>
+</ul>
+
+<p>Most prior methods fail due to <strong>entangled latent representations</strong>.</p>
+
+<hr />
+
+<h1 id="2-ctvc-overview">2. CTVC Overview</h1>
+
+<p>CTVC explicitly enforces disentanglement via <strong>two orthogonal constraints</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Representation</th>
+      <th>Constraint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content (C)</td>
+      <td>Contrastive + adversarial (remove speaker info)</td>
+    </tr>
+    <tr>
+      <td>Speaker (S)</td>
+      <td>Time-invariant retrieval via mutual information</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The system (Fig. 1, page 2) consists of:</p>
+
+<ul>
+  <li>Content encoder (E_c)</li>
+  <li>Speaker encoder (E_s)</li>
+  <li>Decoder (D)</li>
+  <li>Speaker classifier (with GRL)</li>
+  <li>Compression module (frame → phoneme)</li>
+</ul>
+
+<hr />
+
+<h1 id="3-content-representation-learning">3. Content Representation Learning</h1>
+
+<h2 id="31-frame-level-representation">3.1 Frame-Level Representation</h2>
+
+<p>Given mel spectrogram:
+[
+X = (x_1, x_2, …, x_T)
+]</p>
+
+<p>Content encoder:
+[
+C_X = E_c(X) = (c_1, c_2, …, c_T)
+]</p>
+
+<p>Each (c_i) is a <strong>frame-level embedding</strong>.</p>
+
+<hr />
+
+<h2 id="32-phoneme-aware-supervision-via-alignment">3.2 Phoneme-Aware Supervision via Alignment</h2>
+
+<p>Using forced alignment (MFA), each frame is assigned a phoneme label.</p>
+
+<p>This enables:</p>
+
+<ul>
+  <li>Constructing <strong>positive pairs</strong>: frames within same phoneme</li>
+  <li>Constructing <strong>negative pairs</strong>: frames across phoneme boundaries</li>
+</ul>
+
+<hr />
+
+<h2 id="33-contrastive-similarity-loss">3.3 Contrastive Similarity Loss</h2>
+
+<p>Similarity:
+[
+G(c_i, c_j) = \frac{c_i^T c_j}{|c_i||c_j|}
+]</p>
+
+<p>Loss:
+[
+L_{sim} = \sum_{i,j} (-1)^h G(E_c(x_i), E_c(x_j))
+]</p>
+
+<p>Where:</p>
+
+<ul>
+  <li>(h = 1): same phoneme → maximize similarity</li>
+  <li>(h = -1): different phonemes → minimize similarity</li>
+</ul>
+
+<h3 id="interpretation">Interpretation</h3>
+
+<p>This is not a standard InfoNCE loss — instead:</p>
+
+<ul>
+  <li>It directly shapes <strong>embedding geometry</strong></li>
+  <li>Encourages <strong>phoneme clusters</strong> in latent space</li>
+</ul>
+
+<hr />
+
+<h2 id="34-compression-module-key-design">3.4 Compression Module (Key Design)</h2>
+
+<p>From Fig. 1 (page 2):</p>
+
+<ul>
+  <li>Frame-level features → aggregated into <strong>phoneme-level features</strong></li>
+  <li>Based on similarity + duration boundaries</li>
+</ul>
+
+<p>Effect:</p>
+
+<ul>
+  <li>Removes intra-phoneme redundancy</li>
+  <li>Improves alignment between latent space and linguistic units</li>
+</ul>
+
+<p>This is crucial because:</p>
+
+<ul>
+  <li>Speech redundancy exists at frame level</li>
+  <li>Linguistic information is naturally phoneme-level</li>
+</ul>
+
+<hr />
+
+<h2 id="35-adversarial-speaker-removal">3.5 Adversarial Speaker Removal</h2>
+
+<p>A speaker classifier is trained on (C_X), while the encoder is trained to <strong>fool it</strong> via GRL:</p>
+
+<p>[
+L_{adv-cls} = -\sum_k I(Spk_u = k)\log p_k
+]</p>
+
+<p>Mechanism:</p>
+
+<ul>
+  <li>Classifier: minimizes classification loss</li>
+  <li>Encoder: maximizes it (via gradient reversal)</li>
+</ul>
+
+<h3 id="result">Result:</h3>
+
+<ul>
+  <li>(C_X) becomes <strong>speaker-invariant</strong></li>
+  <li>Prevents leakage of timbre into content space</li>
+</ul>
+
+<hr />
+
+<h1 id="4-speaker-representation-learning">4. Speaker Representation Learning</h1>
+
+<h2 id="41-problem-with-standard-speaker-encoders">4.1 Problem with Standard Speaker Encoders</h2>
+
+<p>Typical CNN + pooling:</p>
+
+<ul>
+  <li>Capture global features</li>
+  <li>But still encode <strong>time-dependent artifacts</strong> (phoneme leakage)</li>
+</ul>
+
+<hr />
+
+<h2 id="42-time-invariant-assumption">4.2 Time-Invariant Assumption</h2>
+
+<p>Key assumption:</p>
+
+<blockquote>
+  <p>Speaker identity is invariant across time segments</p>
+</blockquote>
+
+<p>Meaning:
+[
+S(x_{segment1}) \approx S(x_{segment2})
+]</p>
+
+<hr />
+
+<h2 id="43-segment-sampling-strategy-fig-2-page-3">4.3 Segment Sampling Strategy (Fig. 2, page 3)</h2>
+
+<p>Two strategies:</p>
+
+<h3 id="a-two-short-segments">(a) Two short segments</h3>
+
+<ul>
+  <li>Sample from first and second halves</li>
+  <li>Produce embeddings (s_1, s_2)</li>
+</ul>
+
+<h3 id="b-whole-vs-large-segment">(b) Whole vs large segment</h3>
+
+<ul>
+  <li>Full utterance (s_x)</li>
+  <li>Partial long segment (s_3)</li>
+</ul>
+
+<hr />
+
+<h2 id="44-mutual-information-maximization">4.4 Mutual Information Maximization</h2>
+
+<p>MI definition:
+[
+I(u,v) = D_{KL}(P(u,v) || P(u)P(v))
+]</p>
+
+<p>Optimized via <strong>InfoNCE</strong>:</p>
+
+<p>[
+I_{NCE}(u,v) = \mathbb{E} \left[ \log \frac{e^{f(u_i,v_i)}}{\sum_j e^{f(u_j,v_j)}} \right]
+]</p>
+
+<p>Score function:
+[
+f(u,v) = \exp(h_i^T W v_i)
+]</p>
+
+<hr />
+
+<h2 id="45-style-loss">4.5 Style Loss</h2>
+
+<p>[
+L_s =
+\sum I(s_1, sg(s_2)) + I(s_2, sg(s_1))</p>
+
+<ul>
+  <li>I(s_x, sg(s_3)) + I(s_3, sg(s_x))
+]</li>
+</ul>
+
+<p>Key design:</p>
+
+<ul>
+  <li><strong>Stop-gradient (sg)</strong> prevents collapse</li>
+  <li>Symmetric constraints stabilize learning</li>
+</ul>
+
+<h3 id="interpretation-1">Interpretation:</h3>
+
+<ul>
+  <li>Forces embeddings from different segments of same speaker to match</li>
+  <li>Suppresses <strong>time-varying information</strong> (phonemes, prosody variation)</li>
+</ul>
+
+<hr />
+
+<h1 id="5-decoder-and-reconstruction">5. Decoder and Reconstruction</h1>
+
+<p>Final representation:
+[
+\hat{X} = D(C, S)
+]</p>
+
+<p>Reconstruction loss:
+[
+L_{recon} = \sum ||x_n - \hat{x}_n||^2
+]</p>
+
+<hr />
+
+<h1 id="6-total-objective">6. Total Objective</h1>
+
+<p>[
+L = L_{recon} + \alpha L_{sim} + \beta L_s + \lambda L_{adv-cls}
+]</p>
+
+<p>Each term controls:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(L_{recon})</td>
+      <td>Speech fidelity</td>
+    </tr>
+    <tr>
+      <td>(L_{sim})</td>
+      <td>Linguistic purity</td>
+    </tr>
+    <tr>
+      <td>(L_s)</td>
+      <td>Speaker consistency</td>
+    </tr>
+    <tr>
+      <td>(L_{adv-cls})</td>
+      <td>Remove speaker leakage</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h1 id="7-experimental-insights">7. Experimental Insights</h1>
+
+<h2 id="71-performance-table-1-page-4">7.1 Performance (Table 1, page 4)</h2>
+
+<p>CTVC improves:</p>
+
+<ul>
+  <li>Lower MCD → better spectral match</li>
+  <li>Higher MOS → better perceptual quality</li>
+  <li>Higher VSS → better speaker similarity</li>
+</ul>
+
+<p>Notably:</p>
+
+<ul>
+  <li>Works well in <strong>one-shot VC</strong>, meaning good generalization</li>
+</ul>
+
+<hr />
+
+<h2 id="72-ablation-table-2">7.2 Ablation (Table 2)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Removed Component</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GRL (no adversarial)</td>
+      <td>Speaker info leaks into content</td>
+    </tr>
+    <tr>
+      <td>TIR</td>
+      <td>Worse speaker similarity</td>
+    </tr>
+    <tr>
+      <td>Contrastive loss</td>
+      <td>Poor content representation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Key takeaway:</p>
+
+<ul>
+  <li>Each component is <strong>necessary and complementary</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="8-key-technical-insights">8. Key Technical Insights</h1>
+
+<h2 id="81-disentanglement-strategy">8.1 Disentanglement Strategy</h2>
+
+<p>Instead of implicit separation, CTVC enforces:</p>
+
+<ul>
+  <li><strong>Content purity</strong> via contrastive geometry + adversarial loss</li>
+  <li><strong>Speaker purity</strong> via time-invariant constraints</li>
+</ul>
+
+<p>This is stronger than prior work relying on:</p>
+
+<ul>
+  <li>Bottlenecks</li>
+  <li>Pretrained embeddings</li>
+</ul>
+
+<hr />
+
+<h2 id="82-why-it-works">8.2 Why It Works</h2>
+
+<ul>
+  <li>Phoneme-level contrastive learning aligns latent space with linguistic structure</li>
+  <li>Time-invariant retrieval removes temporal noise from speaker embeddings</li>
+  <li>Adversarial training ensures orthogonality between (C) and (S)</li>
+</ul>
+
+<hr />
+
+<h2 id="83-conceptual-view">8.3 Conceptual View</h2>
+
+<p>You can think of CTVC as enforcing:</p>
+
+<p>[
+C \perp S
+]</p>
+
+<p>via:</p>
+
+<ul>
+  <li>Contrastive separation (content space structure)</li>
+  <li>MI-based consistency (speaker space structure)</li>
+  <li>Adversarial orthogonalization</li>
+</ul>
+
+<hr />
+
+<h1 id="9-limitations-implicit">9. Limitations (Implicit)</h1>
+
+<p>Not explicitly discussed, but inferred:</p>
+
+<ul>
+  <li>Requires forced alignment (MFA dependency)</li>
+  <li>Pairwise contrastive computation is expensive</li>
+  <li>Assumes phoneme boundaries are accurate</li>
+</ul>
+
+<hr />
+
+<h1 id="10-final-takeaway">10. Final Takeaway</h1>
+
+<p>CTVC’s main contribution is <strong>explicit, multi-level disentanglement enforcement</strong>:</p>
+
+<ul>
+  <li>Local (frame/phoneme) → content via contrastive loss</li>
+  <li>Global (utterance) → speaker via MI-based retrieval</li>
+  <li>Cross-space → adversarial separation</li>
+</ul>
+
+<p>This combination leads to significantly improved voice conversion quality without relying heavily on external pretrained speaker models.</p>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/disentanglement/2026/03/18/CTVC.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Simulating Hard Attention Using Soft Attention | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Simulating Hard Attention Using Soft Attention" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/simulating-hard-attention-using-soft-attention.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/simulating-hard-attention-using-soft-attention.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/simulating-hard-attention-using-soft-attention.html","@type":"BlogPosting","headline":"Simulating Hard Attention Using Soft Attention","dateModified":"2026-04-21T00:00:00-05:00","datePublished":"2026-04-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/simulating-hard-attention-using-soft-attention.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Simulating Hard Attention Using Soft Attention</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-04-21T00:00:00-05:00" itemprop="datePublished">
+        Apr 21, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="simulating-hard-attention-using-soft-attention"><a href="https://aclanthology.org/2026.tacl-1.8/">Simulating Hard Attention Using Soft Attention</a></h2>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">yang-etal-2026-simulating</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">"Simulating Hard Attention Using Soft Attention"</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">"Yang, Andy  and
+      Strobl, Lena  and
+      Chiang, David  and
+      Angluin, Dana"</span><span class="p">,</span>
+    <span class="na">journal</span> <span class="p">=</span> <span class="s">"Transactions of the Association for Computational Linguistics"</span><span class="p">,</span>
+    <span class="na">volume</span> <span class="p">=</span> <span class="s">"14"</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">"2026"</span><span class="p">,</span>
+    <span class="na">address</span> <span class="p">=</span> <span class="s">"Cambridge, MA"</span><span class="p">,</span>
+    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"MIT Press"</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://aclanthology.org/2026.tacl-1.8/"</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">"10.1162/tacl.a.597"</span><span class="p">,</span>
+    <span class="na">pages</span> <span class="p">=</span> <span class="s">"147--166"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="-big-picture-what-is-this-paper-about">🧠 Big Picture (What is this paper about?)</h1>
+
+<p>Transformers use <strong>attention</strong> to decide what parts of the input to focus on.</p>
+
+<ul>
+  <li><strong>Soft attention (standard)</strong>: spreads focus across many positions (like probabilities).</li>
+  <li><strong>Hard attention</strong>: focuses <strong>entirely on one or a few positions</strong> (like picking exactly one item).</li>
+</ul>
+
+<p>👉 The paper asks:</p>
+
+<blockquote>
+  <p><strong>Can standard soft-attention transformers behave like hard-attention ones?</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="️-why-this-matters">⚠️ Why this matters</h1>
+
+<p>Hard attention is better for:</p>
+
+<ul>
+  <li>Logic and reasoning</li>
+  <li>Counting and exact computation</li>
+  <li>Algorithm-like tasks (e.g., parity, parentheses)</li>
+</ul>
+
+<p>But real transformers use soft attention, which:</p>
+
+<ul>
+  <li>Always gives <em>some</em> weight to everything</li>
+  <li>Struggles to make sharp, discrete decisions</li>
+</ul>
+
+<p>So the key question:
+👉 <strong>Can soft attention simulate these sharp behaviors?</strong></p>
+
+<hr />
+
+<h1 id="-main-insight">🔑 Main Insight</h1>
+
+<p><strong>Yes—but only if you tweak the model in specific ways.</strong></p>
+
+<p>The paper shows two main tricks:</p>
+
+<h3 id="1-temperature-scaling">1. Temperature scaling</h3>
+
+<ul>
+  <li>Make softmax “sharper” by lowering temperature</li>
+  <li>As temperature → 0, soft attention behaves more like hard attention</li>
+</ul>
+
+<p>👉 Think: turning a blurry spotlight into a laser beam</p>
+
+<hr />
+
+<h3 id="2-unbounded-positional-embeddings">2. Unbounded positional embeddings</h3>
+
+<ul>
+  <li>Let position signals grow with input length</li>
+  <li>This helps the model distinguish positions more strongly</li>
+</ul>
+
+<hr />
+
+<h1 id="-the-core-obstacle">🚧 The core obstacle</h1>
+
+<p>A prior result (Hahn, 2020) says:</p>
+
+<blockquote>
+  <p>In standard transformers, changing one input token only slightly changes outputs (≈ 1/n effect)</p>
+</blockquote>
+
+<p>But hard attention can cause <strong>big changes (constant effect)</strong>.</p>
+
+<p>👉 This mismatch makes simulation difficult.</p>
+
+<p>So the paper <strong>circumvents this limitation</strong> by:</p>
+
+<ul>
+  <li>Using temperature scaling, OR</li>
+  <li>Using stronger positional signals</li>
+</ul>
+
+<hr />
+
+<h1 id="-what-they-prove">🧩 What they prove</h1>
+
+<h2 id="1-soft-attention-can-simulate-many-structured-computations">1. Soft attention can simulate many structured computations</h2>
+
+<p>They show soft-attention transformers can simulate:</p>
+
+<ul>
+  <li>Simple patterns (like n-grams)</li>
+  <li>Logical rules (temporal logic)</li>
+  <li>Counting tasks (like parity, majority)</li>
+</ul>
+
+<p>👉 These correspond to increasingly complex reasoning abilities.</p>
+
+<hr />
+
+<h2 id="2-even-general-hard-attention-transformers-can-be-approximated">2. Even general hard-attention transformers can be approximated</h2>
+
+<p>They prove:</p>
+
+<ul>
+  <li>If the hard-attention model has a <strong>clear margin</strong> (gap) between best and second-best choices,</li>
+  <li>Then soft attention can approximate it well</li>
+</ul>
+
+<p>👉 The required sharpness depends on that gap.</p>
+
+<hr />
+
+<h2 id="3-error-can-be-controlled">3. Error can be controlled</h2>
+
+<p>They give bounds showing:</p>
+
+<ul>
+  <li>The smaller the temperature,</li>
+  <li>The closer soft attention gets to hard attention</li>
+</ul>
+
+<hr />
+
+<h1 id="-intuition-in-plain-terms">🧠 Intuition in plain terms</h1>
+
+<p>Imagine choosing the <strong>largest number in a list</strong>:</p>
+
+<ul>
+  <li>Hard attention: picks it exactly</li>
+  <li>Soft attention: averages everything, but favors bigger numbers</li>
+</ul>
+
+<p>👉 If you:</p>
+
+<ul>
+  <li>Increase contrast (temperature ↓)</li>
+  <li>Or exaggerate differences (positional embeddings ↑)</li>
+</ul>
+
+<p>Then soft attention will <strong>almost always pick the max</strong>, like hard attention.</p>
+
+<hr />
+
+<h1 id="-key-takeaway">📊 Key takeaway</h1>
+
+<p>👉 <strong>Soft attention is more powerful than it looks.</strong></p>
+
+<p>With the right adjustments, it can:</p>
+
+<ul>
+  <li>Mimic discrete reasoning</li>
+  <li>Simulate algorithm-like behavior</li>
+  <li>Approximate hard attention models</li>
+</ul>
+
+<hr />
+
+<h1 id="️-but-theres-a-tradeoff">⚖️ But there’s a tradeoff</h1>
+
+<p>To make this work, you must give up something:</p>
+
+<ul>
+  <li>Fixed parameters (need scaling with input length)</li>
+  <li>Smooth behavior (introduce sharp transitions)</li>
+  <li>Stability (very small temperature can be tricky)</li>
+</ul>
+
+<hr />
+
+<h1 id="-final-takeaway">🧾 Final takeaway</h1>
+
+<p>This paper shows:</p>
+
+<blockquote>
+  <p>Standard transformers <em>can</em> simulate more “symbolic” or “algorithmic” behavior—but only under specific conditions that make attention sharper or more sensitive.</p>
+</blockquote>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/2026/04/21/simulating-hard-attention-using-soft-attention.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

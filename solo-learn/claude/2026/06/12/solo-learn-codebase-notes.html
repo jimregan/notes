@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>solo-learn codebase reference | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="solo-learn codebase reference" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Claude-generated codebase reference" />
+<meta property="og:description" content="Claude-generated codebase reference" />
+<link rel="canonical" href="https://jimregan.github.io/notes/solo-learn/claude/2026/06/12/solo-learn-codebase-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/solo-learn/claude/2026/06/12/solo-learn-codebase-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-12T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/solo-learn/claude/2026/06/12/solo-learn-codebase-notes.html","@type":"BlogPosting","headline":"solo-learn codebase reference","dateModified":"2026-06-12T00:00:00-05:00","datePublished":"2026-06-12T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/solo-learn/claude/2026/06/12/solo-learn-codebase-notes.html"},"description":"Claude-generated codebase reference","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">solo-learn codebase reference</h1><p class="page-description">Claude-generated codebase reference</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-06-12T00:00:00-05:00" itemprop="datePublished">
+        Jun 12, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#solo-learn">solo-learn</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#solo-learn-codebase-description">solo-learn Codebase Description</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#repository-layout">Repository layout</a></li>
+<li class="toc-entry toc-h2"><a href="#entry-points">Entry points</a></li>
+<li class="toc-entry toc-h2"><a href="#core-library-solo">Core library (solo/)</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#methods">methods/</a></li>
+<li class="toc-entry toc-h3"><a href="#losses">losses/</a></li>
+<li class="toc-entry toc-h3"><a href="#backbones">backbones/</a></li>
+<li class="toc-entry toc-h3"><a href="#data">data/</a></li>
+<li class="toc-entry toc-h3"><a href="#args">args/</a></li>
+<li class="toc-entry toc-h3"><a href="#utils">utils/</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#how-the-pieces-wire-together">How the pieces wire together</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#contrastive-method-simclr">Contrastive method (SimCLR)</a></li>
+<li class="toc-entry toc-h3"><a href="#momentum--teacher-student-byol">Momentum / teacher-student (BYOL)</a></li>
+<li class="toc-entry toc-h3"><a href="#configuration-system">Configuration system</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#supported-methods">Supported methods</a></li>
+<li class="toc-entry toc-h2"><a href="#testing">Testing</a></li>
+<li class="toc-entry toc-h2"><a href="#installation">Installation</a></li>
+<li class="toc-entry toc-h2"><a href="#cicd-and-tooling">CI/CD and tooling</a></li>
+<li class="toc-entry toc-h2"><a href="#adding-a-new-method">Adding a new method</a></li>
+</ul>
+</li>
+</ul><h1 id="solo-learn-codebase-description">
+<a class="anchor" href="#solo-learn-codebase-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>solo-learn Codebase Description</h1>
+
+<p>solo-learn is a PyTorch Lightning-based library providing implementations of self-supervised learning methods for visual representation learning. It was published in JMLR (2022) and provides 21 self-supervised methods with consistent training infrastructure, multiple backbone architectures, and evaluation utilities.</p>
+
+<hr>
+
+<h2 id="repository-layout">
+<a class="anchor" href="#repository-layout" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository layout</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>solo-learn/
+├── solo/                    # Core library
+│   ├── methods/             # Method implementations (BaseMethod + 21 subclasses)
+│   ├── losses/              # Loss functions (one file per method)
+│   ├── backbones/           # Backbone architectures
+│   ├── data/                # Data loading and augmentation
+│   ├── args/                # Configuration validation (Hydra/OmegaConf)
+│   └── utils/               # Shared utilities
+├── tests/                   # pytest suite mirroring the package structure
+├── scripts/                 # YAML training configs
+│   ├── pretrain/            # Pretraining configs (CIFAR, ImageNet)
+│   ├── linear/              # Linear evaluation configs
+│   ├── finetune/            # Fine-tuning configs
+│   ├── knn/                 # K-NN evaluation scripts
+│   └── umap/                # UMAP visualization scripts
+├── downstream/              # Downstream task examples (object detection via Detectron2)
+├── docs/                    # Sphinx documentation
+├── main_pretrain.py         # Pretraining entry point
+├── main_linear.py           # Linear evaluation / fine-tuning entry point
+├── main_knn.py              # K-NN evaluation entry point
+└── main_umap.py             # UMAP visualization entry point
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="entry-points">
+<a class="anchor" href="#entry-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Entry points</h2>
+
+<ul>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">main_pretrain.py</code></strong>: Hydra-based pretraining orchestrator. Handles distributed training setup, auto-resume from checkpoints, and optional UMAP visualization at end of training.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">main_linear.py</code></strong>: Linear evaluation and fine-tuning over a frozen backbone. Supports mixup, cutmix, and label smoothing.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">main_knn.py</code></strong>: Offline K-NN evaluation using a weighted KNN classifier over frozen features.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">main_umap.py</code></strong>: Extracts features and generates UMAP visualizations.</li>
+</ul>
+
+<hr>
+
+<h2 id="core-library-solo">
+<a class="anchor" href="#core-library-solo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Core library (<code class="language-plaintext highlighter-rouge">solo/</code>)</h2>
+
+<h3 id="methods">
+<a class="anchor" href="#methods" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">methods/</code>
+</h3>
+
+<p><code class="language-plaintext highlighter-rouge">base.py</code> defines <code class="language-plaintext highlighter-rouge">BaseMethod</code> (a <code class="language-plaintext highlighter-rouge">LightningModule</code>) and <code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code>. All method classes extend one of these.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">BaseMethod</code> responsibilities:</strong></p>
+<ul>
+  <li>Backbone construction and feature extraction</li>
+  <li>Projector management and optimizer/scheduler setup (SGD, LARS, Adam, AdamW)</li>
+  <li>Training step with multi-crop support via <code class="language-plaintext highlighter-rouge">multicrop_forward()</code>
+</li>
+  <li>Online linear evaluation (a lightweight linear head trained in parallel with pretraining)</li>
+  <li>K-NN and UMAP integration</li>
+</ul>
+
+<p><strong>Batch format contract:</strong> every training batch has the shape <code class="language-plaintext highlighter-rouge">[img_indexes, [X], Y]</code>, where <code class="language-plaintext highlighter-rouge">[X]</code> is a list of <code class="language-plaintext highlighter-rouge">num_large_crops + num_small_crops</code> tensors of shape <code class="language-plaintext highlighter-rouge">(B, C, H, W)</code>. Methods receive this via <code class="language-plaintext highlighter-rouge">training_step</code> and call <code class="language-plaintext highlighter-rouge">super().training_step()</code> first to get backbone features for all crops.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">learnable_params</code> API:</strong> each method exposes a <code class="language-plaintext highlighter-rouge">learnable_params</code> property returning a list of <code class="language-plaintext highlighter-rouge">{"name": ..., "params": ...}</code> dicts. The base class uses this to build optimizer param groups, which allows per-group settings (e.g., disabling the LR scheduler for the projection head in SimSiam).</p>
+
+<p>Each method file adds only what is specific to that method: projector/predictor architecture, the <code class="language-plaintext highlighter-rouge">learnable_params</code> extension, and a <code class="language-plaintext highlighter-rouge">training_step</code> that calls the corresponding loss function.</p>
+
+<h3 id="losses">
+<a class="anchor" href="#losses" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">losses/</code>
+</h3>
+
+<p>One file per method, exposing a single <code class="language-plaintext highlighter-rouge">*_loss_func()</code> function or loss class. These are pure functions — they take raw feature tensors and return a scalar. The single exception is <code class="language-plaintext highlighter-rouge">DINOLoss</code>, which is a <code class="language-plaintext highlighter-rouge">nn.Module</code> that maintains a running teacher center.</p>
+
+<h3 id="backbones">
+<a class="anchor" href="#backbones" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">backbones/</code>
+</h3>
+
+<p>Six backbone families. Each backbone callable returns <code class="language-plaintext highlighter-rouge">(backbone_module, feature_dim)</code> so projection heads can be sized correctly without hard-coding dimensions.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Family</th>
+      <th>Variants</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ResNet</td>
+      <td>resnet18, resnet50</td>
+    </tr>
+    <tr>
+      <td>ViT</td>
+      <td>vit_tiny, vit_small, vit_base, vit_large</td>
+    </tr>
+    <tr>
+      <td>Swin Transformer</td>
+      <td>swin_tiny, swin_small, swin_base, swin_large</td>
+    </tr>
+    <tr>
+      <td>ConvNeXt</td>
+      <td>convnext_tiny, convnext_small, convnext_base, convnext_large</td>
+    </tr>
+    <tr>
+      <td>PoolFormer</td>
+      <td>poolformer_s12, poolformer_s24, poolformer_s36, poolformer_m36, poolformer_m48</td>
+    </tr>
+    <tr>
+      <td>WideResNet</td>
+      <td>wide_resnet28w2, wide_resnet28w8</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="data">
+<a class="anchor" href="#data" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">data/</code>
+</h3>
+
+<ul>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">pretrain_dataloader.py</code></strong>: Multi-crop augmentation pipelines (<code class="language-plaintext highlighter-rouge">NCropAugmentation</code>, <code class="language-plaintext highlighter-rouge">FullTransformPipeline</code>, <code class="language-plaintext highlighter-rouge">build_transform_pipeline</code>) and dataset wrappers for CIFAR, STL-10, ImageNet, H5, and custom image folders. The <code class="language-plaintext highlighter-rouge">dataset_with_index</code> factory wraps any dataset to also return the sample index, which methods use for hard-negative mining.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">classification_dataloader.py</code></strong>: Standard supervised evaluation data loading.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">dali_dataloader.py</code></strong>: Optional NVIDIA DALI integration providing ~50% data loading speedup on GPU runners.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">h5_dataset.py</code></strong>: HDF5 dataset wrapper (optional dependency).</li>
+</ul>
+
+<h3 id="args">
+<a class="anchor" href="#args" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">args/</code>
+</h3>
+
+<p>Hydra/OmegaConf configuration parsing and validation. One file per entry point (<code class="language-plaintext highlighter-rouge">pretrain.py</code>, <code class="language-plaintext highlighter-rouge">linear.py</code>, <code class="language-plaintext highlighter-rouge">knn.py</code>, <code class="language-plaintext highlighter-rouge">umap.py</code>) plus <code class="language-plaintext highlighter-rouge">dataset.py</code> for dataset-specific parameters. Each file’s <code class="language-plaintext highlighter-rouge">add_and_assert_specific_cfg()</code> pattern is also used by individual method classes to validate their own <code class="language-plaintext highlighter-rouge">method_kwargs</code>.</p>
+
+<h3 id="utils">
+<a class="anchor" href="#utils" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">utils/</code>
+</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lars.py</code></td>
+      <td>LARS optimizer (layer-wise adaptive rate scaling)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lr_scheduler.py</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LinearWarmupCosineAnnealingLR</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">momentum.py</code></td>
+      <td>
+<code class="language-plaintext highlighter-rouge">MomentumUpdater</code> (EMA) and <code class="language-plaintext highlighter-rouge">initialize_momentum_params</code> for BYOL/MoCo-style methods</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">knn.py</code></td>
+      <td>
+<code class="language-plaintext highlighter-rouge">WeightedKNNClassifier</code> for online and offline evaluation</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">auto_resumer.py</code></td>
+      <td>Automatic checkpoint resumption on crash</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">checkpointer.py</code></td>
+      <td>Custom checkpoint saving with directory organisation</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">auto_umap.py</code></td>
+      <td>Feature extraction and UMAP plotting</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">metrics.py</code></td>
+      <td>
+<code class="language-plaintext highlighter-rouge">accuracy_at_k</code>, <code class="language-plaintext highlighter-rouge">weighted_mean</code>
+</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">kmeans.py</code></td>
+      <td>K-means clustering (used by DeepCluster V2)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">sinkhorn_knopp.py</code></td>
+      <td>Sinkhorn-Knopp algorithm (used by SwAV)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">whitening.py</code></td>
+      <td>Feature whitening (used by W-MSE)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">misc.py</code></td>
+      <td>
+<code class="language-plaintext highlighter-rouge">omegaconf_select</code>, <code class="language-plaintext highlighter-rouge">remove_bias_and_norm_from_weight_decay</code>, <code class="language-plaintext highlighter-rouge">make_contiguous</code>
+</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">positional_encodings.py</code></td>
+      <td>Positional encodings for ViT backbones</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="how-the-pieces-wire-together">
+<a class="anchor" href="#how-the-pieces-wire-together" aria-hidden="true"><span class="octicon octicon-link"></span></a>How the pieces wire together</h2>
+
+<h3 id="contrastive-method-simclr">
+<a class="anchor" href="#contrastive-method-simclr" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contrastive method (SimCLR)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># SimCLR.training_step — the full pattern every contrastive method follows
+</span><span class="k">def</span> <span class="nf">training_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">):</span>
+    <span class="n">indexes</span> <span class="o">=</span> <span class="n">batch</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>                        <span class="c1"># sample indices, used for hard negatives
+</span>    <span class="n">out</span> <span class="o">=</span> <span class="nb">super</span><span class="p">().</span><span class="n">training_step</span><span class="p">(</span><span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">)</span>  <span class="c1"># runs backbone on all crops, online linear eval
+</span>    <span class="n">class_loss</span> <span class="o">=</span> <span class="n">out</span><span class="p">[</span><span class="s">"loss"</span><span class="p">]</span>                  <span class="c1"># cross-entropy from the online linear head
+</span>    <span class="n">z</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">(</span><span class="n">out</span><span class="p">[</span><span class="s">"z"</span><span class="p">])</span>                   <span class="c1"># projected features from all crops
+</span>
+    <span class="n">n_augs</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">num_large_crops</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">num_small_crops</span>
+    <span class="n">indexes</span> <span class="o">=</span> <span class="n">indexes</span><span class="p">.</span><span class="n">repeat</span><span class="p">(</span><span class="n">n_augs</span><span class="p">)</span>
+
+    <span class="n">nce_loss</span> <span class="o">=</span> <span class="n">simclr_loss_func</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">indexes</span><span class="o">=</span><span class="n">indexes</span><span class="p">,</span> <span class="n">temperature</span><span class="o">=</span><span class="bp">self</span><span class="p">.</span><span class="n">temperature</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">nce_loss</span> <span class="o">+</span> <span class="n">class_loss</span>
+</code></pre></div></div>
+
+<h3 id="momentum--teacher-student-byol">
+<a class="anchor" href="#momentum--teacher-student-byol" aria-hidden="true"><span class="octicon octicon-link"></span></a>Momentum / teacher-student (BYOL)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># BYOL extends BaseMomentumMethod, which manages the EMA copy automatically.
+# The predictor is applied to the online branch; the momentum branch is the target.
+</span>
+<span class="k">class</span> <span class="nc">BYOL</span><span class="p">(</span><span class="n">BaseMomentumMethod</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cfg</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">(</span><span class="n">cfg</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">projector</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(...)</span>           <span class="c1"># online projector
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">momentum_projector</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(...)</span>  <span class="c1"># EMA copy
+</span>        <span class="n">initialize_momentum_params</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">projector</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">momentum_projector</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">predictor</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(...)</span>
+
+    <span class="k">def</span> <span class="nf">training_step</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">):</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="nb">super</span><span class="p">().</span><span class="n">training_step</span><span class="p">(</span><span class="n">batch</span><span class="p">,</span> <span class="n">batch_idx</span><span class="p">)</span>  <span class="c1"># also runs momentum_forward()
+</span>        <span class="n">p</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">(</span><span class="n">out</span><span class="p">[</span><span class="s">"p"</span><span class="p">])</span>   <span class="c1"># predictor outputs (online)
+</span>        <span class="n">z</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">(</span><span class="n">out</span><span class="p">[</span><span class="s">"momentum_z"</span><span class="p">])</span>  <span class="c1"># momentum projector outputs (target, no grad)
+</span>        <span class="n">loss</span> <span class="o">=</span> <span class="n">byol_loss_func</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">loss</span> <span class="o">+</span> <span class="n">out</span><span class="p">[</span><span class="s">"loss"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">BaseMomentumMethod.on_train_batch_end()</code> calls <code class="language-plaintext highlighter-rouge">MomentumUpdater.update()</code> to EMA-update the momentum backbone and projector after each step.</p>
+
+<h3 id="configuration-system">
+<a class="anchor" href="#configuration-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>Configuration system</h3>
+
+<p>Training is configured via Hydra with YAML files in <code class="language-plaintext highlighter-rouge">scripts/</code>. A representative config:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">method</span><span class="pi">:</span> <span class="s">barlow_twins</span>
+<span class="na">backbone</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">resnet18</span>
+<span class="na">method_kwargs</span><span class="pi">:</span>
+  <span class="na">proj_hidden_dim</span><span class="pi">:</span> <span class="m">2048</span>
+  <span class="na">proj_output_dim</span><span class="pi">:</span> <span class="m">2048</span>
+  <span class="na">scale_loss</span><span class="pi">:</span> <span class="m">0.1</span>
+<span class="na">data</span><span class="pi">:</span>
+  <span class="na">dataset</span><span class="pi">:</span> <span class="s">imagenet100</span>
+  <span class="na">train_path</span><span class="pi">:</span> <span class="s">./datasets/imagenet-100/train</span>
+  <span class="na">num_workers</span><span class="pi">:</span> <span class="m">4</span>
+  <span class="na">num_large_crops</span><span class="pi">:</span> <span class="m">2</span>
+  <span class="na">num_small_crops</span><span class="pi">:</span> <span class="m">0</span>
+<span class="na">optimizer</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">lars</span>
+  <span class="na">batch_size</span><span class="pi">:</span> <span class="m">128</span>
+  <span class="na">lr</span><span class="pi">:</span> <span class="m">0.3</span>
+  <span class="na">weight_decay</span><span class="pi">:</span> <span class="s">1.0e-4</span>
+<span class="na">scheduler</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">warmup_cosine</span>
+<span class="na">max_epochs</span><span class="pi">:</span> <span class="m">400</span>
+<span class="na">devices</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">0</span><span class="pi">,</span> <span class="nv">1</span><span class="pi">]</span>
+<span class="na">accelerator</span><span class="pi">:</span> <span class="s">gpu</span>
+<span class="na">strategy</span><span class="pi">:</span> <span class="s">ddp</span>
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="supported-methods">
+<a class="anchor" href="#supported-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supported methods</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Year</th>
+      <th>Loss</th>
+      <th>Base class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>All4One</td>
+      <td>2023</td>
+      <td><code class="language-plaintext highlighter-rouge">all4one_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>Barlow Twins</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">barlow_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>BYOL</td>
+      <td>2020</td>
+      <td><code class="language-plaintext highlighter-rouge">byol_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>DeepCluster V2</td>
+      <td>2020</td>
+      <td>CE over cluster assignments</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>DINO</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">DINOLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>MAE</td>
+      <td>2021</td>
+      <td>MSE (pixel reconstruction)</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>MoCo V2+</td>
+      <td>2020</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">simclr_loss_func</code> + queue</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>MoCo V3</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">mocov3_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>NNBYOL</td>
+      <td>—</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">byol_loss_func</code> + NN bank</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>NNCLR</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">simclr_loss_func</code> + NN bank</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>NNSiam</td>
+      <td>—</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">simsiam_loss_func</code> + NN bank</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>ReSSL</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">ressl_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code></td>
+    </tr>
+    <tr>
+      <td>SimCLR</td>
+      <td>2020</td>
+      <td><code class="language-plaintext highlighter-rouge">simclr_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>SimSiam</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">simsiam_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>SupCon</td>
+      <td>2020</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">simclr_loss_func</code> (supervised)</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>SwAV</td>
+      <td>2020</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">swav_loss_func</code> + Sinkhorn</td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>VIbCReg</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">vibcreg_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>VICReg</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">vicreg_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+    <tr>
+      <td>W-MSE</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">wmse_loss_func</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BaseMethod</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>NNBYOL and NNSiam are solo-learn-specific nearest-neighbour variants without a separate publication.</p>
+
+<hr>
+
+<h2 id="testing">
+<a class="anchor" href="#testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>58 test files organised to mirror <code class="language-plaintext highlighter-rouge">solo/</code>:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/methods/</code>: One file per method — validates config, learnable parameters, forward/backward pass, and momentum updates.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/losses/</code>: Loss function shape and value sanity checks.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/backbones/</code>: Output shape tests for each backbone family.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/args/</code>: Config parsing and validation tests.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/data/</code>: Data loading and augmentation tests.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/utils/</code>: Utility function tests.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/dali/</code>: DALI-specific tests (requires GPU runner; separate CI workflow).</li>
+</ul>
+
+<p><strong>Key conventions:</strong></p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">tests/methods/utils.py</code> provides <code class="language-plaintext highlighter-rouge">gen_base_cfg()</code>, <code class="language-plaintext highlighter-rouge">gen_batch()</code>, and <code class="language-plaintext highlighter-rouge">gen_trainer()</code> to reduce boilerplate across all method tests.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">gen_base_cfg()</code> builds a minimal OmegaConf config using <code class="language-plaintext highlighter-rouge">resnet18</code> and a custom dataset, avoiding any real data dependency.</li>
+  <li>Method tests verify that <code class="language-plaintext highlighter-rouge">learnable_params</code> returns the expected parameter groups and that a training step runs without error.</li>
+</ul>
+
+<p>Run the main suite (no DALI or GPU required):</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest <span class="nt">--cov</span><span class="o">=</span>solo tests/args tests/backbones tests/data tests/losses tests/methods tests/utils
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="installation">
+<a class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Full install (DALI requires NVIDIA index)</span>
+pip <span class="nb">install</span> .[dali,umap,h5] <span class="nt">--extra-index-url</span> https://developer.download.nvidia.com/compute/redist
+
+<span class="c"># Development</span>
+pip <span class="nb">install</span> <span class="nt">-e</span> .[umap,h5]
+pre-commit <span class="nb">install</span>
+</code></pre></div></div>
+
+<p><strong>Core dependencies:</strong> torch ≥ 1.10, torchvision, lightning 2.1.2, torchmetrics, einops, wandb, timm, hydra-core, scikit-learn, scipy</p>
+
+<p><strong>Optional extras:</strong></p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">[dali]</code> — nvidia-dali-cuda110; ~50% faster data loading on GPU runners</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[umap]</code> — umap-learn, matplotlib, seaborn; enables UMAP visualisation</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[h5]</code> — h5py; enables HDF5 dataset support</li>
+</ul>
+
+<hr>
+
+<h2 id="cicd-and-tooling">
+<a class="anchor" href="#cicd-and-tooling" aria-hidden="true"><span class="octicon octicon-link"></span></a>CI/CD and tooling</h2>
+
+<ul>
+  <li>
+<strong>GitHub Actions</strong>: tests on Python 3.8–3.11 / Ubuntu + Windows; separate GPU workflow for DALI tests; Sphinx docs build and link check.</li>
+  <li>
+<strong>pre-commit</strong>: black (line length 100), isort, mypy, nbstripout, yapf.</li>
+  <li>
+<strong>Experiment tracking</strong>: Weights &amp; Biases (wandb), configured per run via Hydra.</li>
+  <li>
+<strong>Documentation</strong>: Sphinx on ReadTheDocs, with tutorials for adding new methods, offline evaluation, K-NN, and UMAP.</li>
+</ul>
+
+<hr>
+
+<h2 id="adding-a-new-method">
+<a class="anchor" href="#adding-a-new-method" aria-hidden="true"><span class="octicon octicon-link"></span></a>Adding a new method</h2>
+
+<ol>
+  <li>Add <code class="language-plaintext highlighter-rouge">solo/methods/my_method.py</code> extending <code class="language-plaintext highlighter-rouge">BaseMethod</code> or <code class="language-plaintext highlighter-rouge">BaseMomentumMethod</code>.</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">solo/losses/my_method.py</code> with the loss function.</li>
+  <li>Register the method name in <code class="language-plaintext highlighter-rouge">solo/methods/__init__.py</code>.</li>
+  <li>Add a YAML config under <code class="language-plaintext highlighter-rouge">scripts/pretrain/</code>.</li>
+  <li>Add tests under <code class="language-plaintext highlighter-rouge">tests/methods/</code> and <code class="language-plaintext highlighter-rouge">tests/losses/</code>.</li>
+  <li>Reproduce results on CIFAR-10/100 (ImageNet optional).</li>
+</ol>
+
+  </div><a class="u-url" href="/notes/solo-learn/claude/2026/06/12/solo-learn-codebase-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

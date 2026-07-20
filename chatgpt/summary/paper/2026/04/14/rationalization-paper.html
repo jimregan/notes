@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/paper/2026/04/14/rationalization-paper.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/paper/2026/04/14/rationalization-paper.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/paper/2026/04/14/rationalization-paper.html","@type":"BlogPosting","headline":"Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization","dateModified":"2026-04-14T00:00:00-05:00","datePublished":"2026-04-14T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/paper/2026/04/14/rationalization-paper.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-04-14T00:00:00-05:00" itemprop="datePublished">
+        Apr 14, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#paper">paper</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="exploring-practical-gaps-in-using-cross-entropy-to-implement-maximum-mutual-information-criterion-for-rationalization"><a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00758/131564/Exploring-Practical-Gaps-in-Using-Cross-Entropy-to">Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization</a></h2>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@article</span><span class="p">{</span><span class="nl">10.1162/tacl_a_00758</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Wei and Deng, Zhiying and Niu, Zhongyu and Wang, Jun and Wang, Haozhao and Li, Ruixuan}</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">{Exploring Practical Gaps in Using Cross Entropy to Implement Maximum Mutual Information Criterion for Rationalization}</span><span class="p">,</span>
+    <span class="na">journal</span> <span class="p">=</span> <span class="s">{Transactions of the Association for Computational Linguistics}</span><span class="p">,</span>
+    <span class="na">volume</span> <span class="p">=</span> <span class="s">{13}</span><span class="p">,</span>
+    <span class="na">pages</span> <span class="p">=</span> <span class="s">{577-594}</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+    <span class="na">month</span> <span class="p">=</span> <span class="s">{06}</span><span class="p">,</span>
+    <span class="na">issn</span> <span class="p">=</span> <span class="s">{2307-387X}</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1162/tacl_a_00758}</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1162/tacl_a_00758}</span><span class="p">,</span>
+    <span class="na">eprint</span> <span class="p">=</span> <span class="s">{https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl_a_00758/2534936/tacl_a_00758.pdf}</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<hr />
+
+<h2 id="one-sentence-takeaway">One-sentence takeaway</h2>
+
+<p>The paper shows that <strong>standard rationale extraction models optimize the wrong practical signal</strong>: instead of truly selecting the most informative text spans, they often overfit to a narrow region of candidate rationales because the predictor only learns from what the selector already samples. To fix this, the authors propose <strong>Vicinal Evaluation Rationalization (VER)</strong>, which perturbs selected rationales during training so the predictor learns to evaluate a <em>neighborhood</em> of plausible rationales instead of a single point.</p>
+
+<hr />
+
+<h2 id="what-problem-the-paper-studies">What problem the paper studies</h2>
+
+<p>The setting is <strong>NLP rationalization</strong>:</p>
+
+<ul>
+  <li>a <strong>selector</strong> picks a subset of tokens as a rationale</li>
+  <li>a <strong>predictor</strong> makes the label prediction from only those tokens</li>
+  <li>the rationale should be <strong>faithful and human-interpretable</strong></li>
+</ul>
+
+<p>The standard objective minimizes:</p>
+
+<ul>
+  <li>prediction <strong>cross-entropy on the selected rationale</strong></li>
+</ul>
+
+<p>The paper argues that this is only an approximation to the ideal <strong>maximum mutual information (MMI)</strong> objective.</p>
+
+<p>The key theoretical decomposition is:</p>
+
+<ul>
+  <li>ideal: minimize <strong>entropy</strong> of label given rationale → pick most informative rationale</li>
+  <li>practical: minimize <strong>cross-entropy</strong></li>
+  <li>cross-entropy = <strong>true informativeness + predictor fitting error</strong></li>
+</ul>
+
+<p>So the selector is rewarded not only for choosing informative rationales, but also for choosing rationales the predictor already happens to model well.</p>
+
+<hr />
+
+<h2 id="main-insight-the-practical-gap">Main insight: the “practical gap”</h2>
+
+<p>The central finding is a <strong>feedback loop failure</strong>:</p>
+
+<ol>
+  <li>early in training, the selector finds some <em>reasonably good</em> rationale</li>
+  <li>it rapidly increases probability of selecting similar ones</li>
+  <li>the predictor mostly trains on this tiny local region</li>
+  <li>it becomes <strong>biased toward that region</strong></li>
+  <li>potentially better rationales elsewhere are undervalued</li>
+</ol>
+
+<p>So the predictor’s cross-entropy score stops being a good proxy for real informativeness.</p>
+
+<p>The authors give strong evidence that:</p>
+
+<ul>
+  <li>the selector’s sampled rationales quickly become almost identical across iterations</li>
+  <li>gold human rationales can score <strong>worse</strong> than model-selected ones under the trained predictor</li>
+  <li>predictor smoothness worsens, indicating overfitting to trivial patterns</li>
+</ul>
+
+<p>A particularly striking result:</p>
+
+<blockquote>
+  <p>sometimes the trained predictor gives <strong>higher accuracy to its own selected rationale than to the human gold rationale</strong>, showing the predictor has become biased to its local training region.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="their-proposed-solution-ver">Their proposed solution: VER</h2>
+
+<p>Their fix is surprisingly simple.</p>
+
+<p>Instead of feeding the predictor only the selector’s exact rationale mask, they:</p>
+
+<ul>
+  <li>randomly <strong>flip some selected tokens off</strong></li>
+  <li>replace them with the same number of previously unselected tokens</li>
+  <li>preserve overall sparsity</li>
+  <li>do this <strong>only during training</strong></li>
+</ul>
+
+<p>This creates a <strong>vicinal neighborhood</strong> around the selected rationale.</p>
+
+<h3 id="intuition">Intuition</h3>
+
+<p>If the selector already finds a decent rationale, the true optimum is likely nearby in token-space.</p>
+
+<p>So the predictor should learn to evaluate:</p>
+
+<ul>
+  <li>not just one rationale</li>
+  <li>but <strong>a small local family of related rationales</strong></li>
+</ul>
+
+<p>This improves the predictor’s approximation of the true conditional label distribution.</p>
+
+<hr />
+
+<h2 id="results">Results</h2>
+
+<p>The method is tested on:</p>
+
+<ul>
+  <li>BeerAdvocate rationale benchmarks</li>
+  <li>HotelReviews benchmarks</li>
+  <li>MultiRC</li>
+  <li>FEVER</li>
+  <li>also BERT-based settings</li>
+</ul>
+
+<h3 id="main-empirical-gains">Main empirical gains</h3>
+
+<p>Compared with strong baselines:</p>
+
+<ul>
+  <li><strong>up to +6.6 F1</strong> rationale quality improvement</li>
+  <li>consistently better overlap with human rationales</li>
+  <li>better predictor evaluation of gold rationales</li>
+  <li>improvements transfer to reading comprehension and fact verification tasks</li>
+</ul>
+
+<p>The gains are strongest on rationale quality rather than classification accuracy, which is appropriate because explanation quality is the main target.</p>
+
+<hr />
+
+<h2 id="why-this-paper-matters">Why this paper matters</h2>
+
+<p>This is a strong paper because it contributes at <strong>three levels</strong>:</p>
+
+<h3 id="1-theory">1) Theory</h3>
+
+<p>It clearly separates:</p>
+
+<ul>
+  <li><strong>rationale informativeness</strong></li>
+  <li><strong>predictor approximation bias</strong></li>
+</ul>
+
+<p>That decomposition explains why cross-entropy optimization can fail.</p>
+
+<h3 id="2-diagnosis">2) Diagnosis</h3>
+
+<p>The empirical evidence is unusually convincing:</p>
+
+<ul>
+  <li>selector collapse</li>
+  <li>local overfitting</li>
+  <li>poor valuation of gold rationales</li>
+  <li>smoothness analysis</li>
+</ul>
+
+<h3 id="3-practical-method">3) Practical method</h3>
+
+<p>VER is:</p>
+
+<ul>
+  <li>simple</li>
+  <li>architecture-agnostic</li>
+  <li>easy to add to existing rationalization pipelines</li>
+  <li>compatible with future methods</li>
+</ul>
+
+<p>So it is both <strong>conceptually insightful and practically useful</strong>.</p>
+
+<hr />
+
+<h2 id="my-quick-evaluation">My quick evaluation</h2>
+
+<p>The strongest idea here is that <strong>the failure is not in mutual information theory, but in the <em>cross-entropy surrogate under cooperative training dynamics</em>.</strong></p>
+
+<p>That’s a subtle but important distinction.</p>
+
+<p>The proposed perturbation method is elegant because it directly targets the mismatch without adding heavy auxiliary modules.</p>
+
+<p>A limitation the authors mention:</p>
+
+<ul>
+  <li>the framework still captures <strong>correlation, not causation</strong></li>
+  <li>causal rationale extraction remains future work</li>
+</ul>
+
+<hr />
+
+<blockquote>
+  <p><strong>Using cross-entropy loss is often an implicit way of optimizing a maximum mutual information (MMI) objective.</strong></p>
+</blockquote>
+
+<p>The paper’s real contribution is not the application, but a careful analysis of <strong>when this surrogate works and when it breaks</strong>.</p>
+
+<hr />
+
+<h1 id="the-core-mathematical-idea">The core mathematical idea</h1>
+
+<p>Suppose you want a representation (Z) (features, selected tokens, latent variable, etc.) that preserves as much information as possible about a target (Y).</p>
+
+<p>The ideal MMI objective is:</p>
+
+<p>I(Y;Z)=H(Y)-H(Y\mid Z)</p>
+
+<p>Since (H(Y)) is fixed for a dataset, maximizing mutual information is equivalent to minimizing:</p>
+
+<p>H(Y\mid Z)</p>
+
+<p>So the true target is:</p>
+
+<blockquote>
+  <p>make (Y) as predictable as possible from (Z)</p>
+</blockquote>
+
+<hr />
+
+<h1 id="why-people-replace-it-with-cross-entropy">Why people replace it with cross-entropy</h1>
+
+<p>The problem is that the true conditional distribution (P(Y\mid Z)) is unknown.</p>
+
+<p>So instead we train a model (q_\theta(Y\mid Z)) and minimize:</p>
+
+<p>\mathbb{E}[-\log q_\theta(Y\mid Z)]</p>
+
+<p>This is just the <strong>cross-entropy loss</strong>.</p>
+
+<p>The key identity is:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>H_c(Y,\hat Y\mid Z)=H(Y\mid Z)+D_{KL}(P(Y\mid Z)</td>
+      <td>q_\theta(Y\mid Z))</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This is the whole story.</p>
+
+<p>So minimizing cross-entropy means minimizing:</p>
+
+<ol>
+  <li><strong>the true conditional entropy</strong> → the MMI part you actually want</li>
+  <li><strong>the approximation error of your predictor</strong></li>
+</ol>
+
+<p>This is why CE is such a common surrogate for MMI.</p>
+
+<hr />
+
+<h1 id="the-deep-insight-ce-is-only-a-variational-upper-bound">The deep insight: CE is only a <em>variational upper bound</em></h1>
+
+<p>A very useful way to think about this:</p>
+
+<blockquote>
+  <p>cross-entropy is a <strong>tractable upper bound</strong> on conditional entropy</p>
+</blockquote>
+
+<p>because KL divergence is always nonnegative.</p>
+
+<p>So:</p>
+
+<p>H_c(Y,\hat Y\mid Z)\ge H(Y\mid Z)</p>
+
+<p>Therefore minimizing CE indirectly pushes down the true conditional entropy.</p>
+
+<p>This idea appears everywhere:</p>
+
+<ul>
+  <li><strong>InfoMax / Deep InfoMax</strong></li>
+  <li><strong>contrastive learning</strong></li>
+  <li><strong>variational information bottleneck</strong></li>
+  <li><strong>CPC / InfoNCE</strong></li>
+  <li><strong>representation learning</strong></li>
+  <li><strong>feature selection</strong></li>
+  <li><strong>rationale extraction</strong></li>
+  <li><strong>self-supervised predictive coding</strong></li>
+</ul>
+
+<p>So yes—the paper’s setup is just one instance of a much broader information-theoretic trick.</p>
+
+<hr />
+
+<h1 id="when-this-surrogate-is-good">When this surrogate is good</h1>
+
+<p>The surrogate is excellent when your predictor family is expressive enough that:</p>
+
+<p>[
+q_\theta(Y\mid Z)\approx P(Y\mid Z)
+]</p>
+
+<p>Then the KL term becomes small, so CE closely tracks the true conditional entropy.</p>
+
+<p>This is why in standard supervised learning we often casually say:</p>
+
+<blockquote>
+  <p>“minimizing CE maximizes information about the label”</p>
+</blockquote>
+
+<p>That statement is approximately true <strong>if the decoder is strong enough</strong>.</p>
+
+<hr />
+
+<h1 id="when-it-fails-the-important-lesson-from-this-paper">When it fails (the important lesson from this paper)</h1>
+
+<p>The subtle point this paper highlights is:</p>
+
+<blockquote>
+  <p>minimizing CE only maximizes MI <strong>through the lens of the predictor you trained</strong></p>
+</blockquote>
+
+<p>If the predictor is biased, underfit, overfit, or only sees part of the space, the KL term dominates.</p>
+
+<p>Then CE can strongly disagree with true informativeness.</p>
+
+<p>This is a very general warning.</p>
+
+<p>It means:</p>
+
+<ul>
+  <li>a <strong>bad decoder makes CE a bad MI estimator</strong></li>
+  <li>local training dynamics can distort MI optimization</li>
+  <li>optimization may favor regions where the decoder is easy to fit, rather than truly informative regions</li>
+</ul>
+
+<p>That idea is broadly useful in latent-variable models and representation learning.</p>
+
+<hr />
+
+<h1 id="big-picture-interpretation">Big-picture interpretation</h1>
+
+<p>The most reusable takeaway is:</p>
+
+<blockquote>
+  <p><strong>Cross-entropy is not mutual information itself.</strong>
+It is <strong>conditional entropy + decoder approximation bias</strong>.</p>
+</blockquote>
+
+<p>So whenever you see CE used as an “information maximization” objective, always ask:</p>
+
+<blockquote>
+  <p><em>How much of the loss is actual information, and how much is decoder error?</em></p>
+</blockquote>
+
+<p>That’s the conceptual gem in this paper.</p>
+
+<hr />
+
+<h1 id="why-this-matters-outside-their-topic">Why this matters outside their topic</h1>
+
+<p>This insight generalizes immediately to:</p>
+
+<h3 id="representation-learning">Representation learning</h3>
+
+<p>A representation may look “informative” only because the decoder is weak.</p>
+
+<h3 id="latent-variable-models">Latent variable models</h3>
+
+<p>Posterior collapse can be reinterpreted as CE dominating the MI term.</p>
+
+<h3 id="contrastive-learning">Contrastive learning</h3>
+
+<p>InfoNCE is another surrogate bound with similar decoder/critic dependence.</p>
+
+<h3 id="feature-selection">Feature selection</h3>
+
+<p>Selected features may be chosen because the downstream classifier likes them, not because they maximize true information.</p>
+
+<p>So this paper’s lesson is a <strong>general caution about variational surrogates for MI</strong>.</p>
+
+<hr />
+
+<p>Personally, I think the most elegant takeaway is this sentence:</p>
+
+<blockquote>
+  <p><strong>Cross-entropy is a model-dependent estimator of conditional entropy.</strong></p>
+</blockquote>
+
+<p>That framing is useful in almost every ML subfield.</p>
+
+<p>If you’d like, I can connect this idea directly to <strong>InfoNCE and contrastive learning</strong>, where the same “MI-via-cross-entropy” trick is even more common.</p>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/paper/2026/04/14/rationalization-paper.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

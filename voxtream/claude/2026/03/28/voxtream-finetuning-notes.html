@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Summary from Claude | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Summary from Claude" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="VoXtream fine-tuning notes" />
+<meta property="og:description" content="VoXtream fine-tuning notes" />
+<link rel="canonical" href="https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-finetuning-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-finetuning-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-28T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-finetuning-notes.html","@type":"BlogPosting","headline":"Summary from Claude","dateModified":"2026-03-28T00:00:00-05:00","datePublished":"2026-03-28T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-finetuning-notes.html"},"description":"VoXtream fine-tuning notes","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Summary from Claude</h1><p class="page-description">VoXtream fine-tuning notes</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-28T00:00:00-05:00" itemprop="datePublished">
+        Mar 28, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#voxtream">voxtream</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="fine-tuning-voxtream2">Fine-tuning VoXtream2</h1>
+
+<p>This document covers how to fine-tune VoXtream2 on a custom dataset. The process has two main phases: dataset preparation and training.</p>
+
+<hr />
+
+<h2 id="environment">Environment</h2>
+
+<p>Training requires the Docker container from the repository:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker-compose <span class="nt">-f</span> .devcontainer/docker-compose.yaml build voxtream
+</code></pre></div></div>
+
+<p>All subsequent commands are run inside the container. Use <code class="language-plaintext highlighter-rouge">GPU_IDS</code> to select which GPUs are visible:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GPU_IDS</span><span class="o">=</span>0,1 docker-compose <span class="nt">-f</span> .devcontainer/docker-compose.yaml run voxtream &lt;<span class="nb">command</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<p>The workspace directory is mounted at <code class="language-plaintext highlighter-rouge">/workspace</code> inside the container. The HuggingFace cache from <code class="language-plaintext highlighter-rouge">~/.cache</code> on the host is also mounted, so model weights downloaded once are reused across runs.</p>
+
+<hr />
+
+<h2 id="dataset-preparation">Dataset Preparation</h2>
+
+<p>The training pipeline consumes a set of pre-computed numpy arrays per dataset split. These are produced by running five scripts in sequence. All scripts read from a metadata Parquet file.</p>
+
+<h3 id="metadata-format">Metadata format</h3>
+
+<p>Your metadata file must be a Parquet file with at minimum these columns:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Column</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">text_norm</code></td>
+      <td>str</td>
+      <td>Normalised transcript for each utterance</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">full_path</code></td>
+      <td>str</td>
+      <td>Absolute path to the audio file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">paths</code></td>
+      <td>str</td>
+      <td><code class="language-plaintext highlighter-rouge">^</code>-separated audio file paths (for Mimi encoding and speaker embedding; typically same as <code class="language-plaintext highlighter-rouge">full_path</code>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <code class="language-plaintext highlighter-rouge">paths</code> column supports <code class="language-plaintext highlighter-rouge">^</code>-separated lists for concatenating multiple audio segments into one sample (used in the original training data). For single-file utterances, set it to the same value as <code class="language-plaintext highlighter-rouge">full_path</code>.</p>
+
+<h3 id="step-1-extract-phonemes">Step 1: Extract phonemes</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python voxtream/utils/dataset/extract_phonemes.py <span class="se">\</span>
+    <span class="nt">--meta-path</span> /path/to/metadata.parquet <span class="se">\</span>
+    <span class="nt">--output-dir</span> /path/to/output <span class="se">\</span>
+    <span class="nt">--num-proc</span> 8
+</code></pre></div></div>
+
+<p>Reads <code class="language-plaintext highlighter-rouge">text_norm</code> from the metadata, phonemizes each utterance with eSpeak, and separates out punctuation. Writes <code class="language-plaintext highlighter-rouge">phonemes.parquet</code> to the output directory with columns: <code class="language-plaintext highlighter-rouge">phones</code>, <code class="language-plaintext highlighter-rouge">punct_symbs</code>, <code class="language-plaintext highlighter-rouge">punct_pos</code>, <code class="language-plaintext highlighter-rouge">words_pos</code>.</p>
+
+<p>The script runs in parallel using <code class="language-plaintext highlighter-rouge">--num-proc</code>. Use a value close to your CPU count.</p>
+
+<h3 id="step-2-get-phoneme-timestamps-forced-alignment">Step 2: Get phoneme timestamps (forced alignment)</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python voxtream/utils/dataset/clap_ipa_aligner.py <span class="se">\</span>
+    <span class="nt">--meta-path</span> /path/to/phonemes.parquet <span class="se">\</span>
+    <span class="nt">--gpu</span> 0 <span class="se">\</span>
+    <span class="nt">--batch-size</span> 32 <span class="se">\</span>
+    <span class="nt">--num-workers</span> 4
+</code></pre></div></div>
+
+<p>Runs the ClapIPA forced aligner on each utterance to produce frame-level phoneme timestamps. Reads <code class="language-plaintext highlighter-rouge">phones</code> and <code class="language-plaintext highlighter-rouge">full_path</code> from the input Parquet file. Adds an <code class="language-plaintext highlighter-rouge">alignment</code> column to the same file and writes it back in place.</p>
+
+<p>Requires a GPU. Adjust <code class="language-plaintext highlighter-rouge">--batch-size</code> to fit your VRAM.</p>
+
+<h3 id="step-3-align-phonemes-to-mimi-frames">Step 3: Align phonemes to Mimi frames</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python voxtream/utils/dataset/align.py <span class="se">\</span>
+    <span class="nt">--meta</span> /path/to/phonemes.parquet <span class="se">\</span>
+    <span class="nt">--group-meta</span> /path/to/group_meta.parquet <span class="se">\</span>
+    <span class="nt">--output-dir</span> /path/to/output <span class="se">\</span>
+    <span class="nt">--num-phones</span> 2 <span class="se">\</span>
+    <span class="nt">--num-frames</span> 688 <span class="se">\</span>
+    <span class="nt">--shift</span> 2 <span class="se">\</span>
+    <span class="nt">--num-proc</span> 8
+</code></pre></div></div>
+
+<p>Maps the per-phoneme timestamps onto the Mimi frame grid (12.5 fps). Produces four numpy files in the output directory:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Shape</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">phone_tokens.npy</code></td>
+      <td><code class="language-plaintext highlighter-rouge">[N]</code> object array</td>
+      <td>Per-sample phoneme token index sequences</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">sem_label_shifts.npy</code></td>
+      <td><code class="language-plaintext highlighter-rouge">[N, num_frames]</code> uint8</td>
+      <td>Duration state label per frame</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">phone_emb_indices.npy</code></td>
+      <td><code class="language-plaintext highlighter-rouge">[N, num_frames, num_phones]</code> uint16</td>
+      <td>Phone embedding index per frame</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">punctuation.npy</code></td>
+      <td><code class="language-plaintext highlighter-rouge">[N]</code> object array</td>
+      <td>Punctuation insertion/deletion indices and tokens</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <code class="language-plaintext highlighter-rouge">--group-meta</code> file is a Parquet with an <code class="language-plaintext highlighter-rouge">indices</code> column that groups metadata rows into samples (used when one sample concatenates multiple utterances).</p>
+
+<p>Key arguments:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">--num-phones 2</code>: Number of phone indices tracked per frame (keep at 2 to match the model).</li>
+  <li><code class="language-plaintext highlighter-rouge">--num-frames 688</code>: Maximum frames per sample (55 seconds at 12.5 fps).</li>
+  <li><code class="language-plaintext highlighter-rouge">--shift 2</code>: Maximum allowed phoneme alignment shift.</li>
+</ul>
+
+<h3 id="step-4-extract-mimi-tokens">Step 4: Extract Mimi tokens</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python voxtream/utils/dataset/mimi.py <span class="se">\</span>
+    <span class="nt">--meta-path</span> /path/to/metadata.parquet <span class="se">\</span>
+    <span class="nt">--output-dir</span> /path/to/output <span class="se">\</span>
+    <span class="nt">--batch-size</span> 32 <span class="se">\</span>
+    <span class="nt">--num-workers</span> 4 <span class="se">\</span>
+    <span class="nt">--gpu</span> 0 <span class="se">\</span>
+    <span class="nt">--num-codebooks</span> 16 <span class="se">\</span>
+    <span class="nt">--target-length-sec</span> 55
+</code></pre></div></div>
+
+<p>Encodes audio with the Mimi codec (downloaded automatically from <code class="language-plaintext highlighter-rouge">kyutai/moshiko-pytorch-bf16</code>). Reads the <code class="language-plaintext highlighter-rouge">paths</code> column from the metadata. Writes <code class="language-plaintext highlighter-rouge">mimi_codes_16cb.npy</code> of shape <code class="language-plaintext highlighter-rouge">[N, 16, T]</code> (uint16).</p>
+
+<p>For chunked processing of large datasets, use <code class="language-plaintext highlighter-rouge">--chunk &lt;id&gt;</code> to process a slice of the metadata at a time.</p>
+
+<h3 id="step-5-extract-speaker-embeddings">Step 5: Extract speaker embeddings</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python voxtream/utils/dataset/speaker_encoder.py <span class="se">\</span>
+    <span class="nt">--meta-path</span> /path/to/metadata.parquet <span class="se">\</span>
+    <span class="nt">--output-dir</span> /path/to/output <span class="se">\</span>
+    <span class="nt">--batch-size</span> 64 <span class="se">\</span>
+    <span class="nt">--num-workers</span> 4 <span class="se">\</span>
+    <span class="nt">--gpu</span> 0 <span class="se">\</span>
+    <span class="nt">--target-length-sec</span> 3
+</code></pre></div></div>
+
+<p>Encodes the first 3 seconds of each audio file with the ReDimNet-M speaker encoder (downloaded automatically via <code class="language-plaintext highlighter-rouge">torch.hub</code>). Reads the first <code class="language-plaintext highlighter-rouge">^</code>-separated path from the <code class="language-plaintext highlighter-rouge">paths</code> column. Writes <code class="language-plaintext highlighter-rouge">spk_templates.npy</code> of shape <code class="language-plaintext highlighter-rouge">[N, 192]</code> (float32, L2-normalised).</p>
+
+<h3 id="output-directory-structure">Output directory structure</h3>
+
+<p>After all five steps, your dataset directory should contain:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/path/to/output/
+    mimi_codes_16cb.npy      → rename to mimi_codes.npy
+    phone_tokens.npy
+    sem_label_shifts.npy
+    phone_emb_indices.npy
+    punctuation.npy
+    spk_templates.npy
+</code></pre></div></div>
+
+<p>The training config expects the Mimi codes file to be named <code class="language-plaintext highlighter-rouge">mimi_codes.npy</code>. Rename it:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mv</span> /path/to/output/mimi_codes_16cb.npy /path/to/output/mimi_codes.npy
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="training-configuration">Training Configuration</h2>
+
+<p>Training is configured via <code class="language-plaintext highlighter-rouge">configs/train.yaml</code> using Hydra. Any field can be overridden on the command line as <code class="language-plaintext highlighter-rouge">key=value</code>.</p>
+
+<h3 id="loading-pre-trained-weights">Loading pre-trained weights</h3>
+
+<p>Fine-tuning starts from the released VoXtream2 checkpoint. There are two ways to point to it:</p>
+
+<p><strong>Option A — download automatically from HuggingFace:</strong></p>
+
+<p>Leave <code class="language-plaintext highlighter-rouge">model_weight_path: null</code> and <code class="language-plaintext highlighter-rouge">dep_former_weight_path: null</code> in the config. The Depth Former weights are downloaded automatically using <code class="language-plaintext highlighter-rouge">dep_former_name: dep_former_csm.safetensors</code> from <code class="language-plaintext highlighter-rouge">model_repo: herimor/voxtream2</code>.</p>
+
+<p>To also load the full model, you need Option B.</p>
+
+<p><strong>Option B — local checkpoint:</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">model_weight_path</span><span class="pi">:</span> <span class="s">/path/to/voxtream2_checkpoint.ckpt</span>
+<span class="na">dep_former_weight_path</span><span class="pi">:</span> <span class="s">/path/to/dep_former_csm.safetensors</span>  <span class="c1"># optional if included in model checkpoint</span>
+</code></pre></div></div>
+
+<p>A Lightning checkpoint saved by a previous training run has the format expected by <code class="language-plaintext highlighter-rouge">model_weight_path</code>. The loader strips the <code class="language-plaintext highlighter-rouge">model.</code> prefix from Lightning’s <code class="language-plaintext highlighter-rouge">state_dict</code> automatically.</p>
+
+<h3 id="freezing-the-depth-former">Freezing the Depth Former</h3>
+
+<p><code class="language-plaintext highlighter-rouge">freeze_dep_former: true</code> (the default) freezes the Depth Former and its associated audio embeddings and head. This is the recommended setting for fine-tuning: the Temporal Former (the main sequence model) adapts while the Depth Former (codebook prediction) remains fixed.</p>
+
+<p>Set <code class="language-plaintext highlighter-rouge">freeze_dep_former: false</code> only if you have enough data and want to fully retrain both components.</p>
+
+<h3 id="pointing-to-your-dataset">Pointing to your dataset</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">dataset_base_dir</span><span class="pi">:</span> <span class="s">/path/to/datasets</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">dataset_base_dir</code> is the parent directory. Under it, create one subdirectory per dataset, each containing the numpy files produced in the preparation steps:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/path/to/datasets/
+    my_dataset/
+        mimi_codes.npy
+        phone_tokens.npy
+        phone_emb_indices.npy
+        sem_label_shifts.npy
+        punctuation.npy
+        spk_templates.npy
+</code></pre></div></div>
+
+<p>Register the dataset under <code class="language-plaintext highlighter-rouge">dataset.datasets</code> in <code class="language-plaintext highlighter-rouge">train.yaml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">dataset</span><span class="pi">:</span>
+  <span class="na">datasets</span><span class="pi">:</span>
+    <span class="na">my_dataset</span><span class="pi">:</span>
+      <span class="na">audio_codes</span><span class="pi">:</span> <span class="s">mimi_codes.npy</span>
+      <span class="na">phoneme_sequence_map</span><span class="pi">:</span> <span class="s">phone_tokens.npy</span>
+      <span class="na">phoneme_embedding_indices</span><span class="pi">:</span> <span class="s">phone_emb_indices.npy</span>
+      <span class="na">semantic_label_shifts</span><span class="pi">:</span> <span class="s">sem_label_shifts.npy</span>
+      <span class="na">spk_templates</span><span class="pi">:</span> <span class="s">spk_templates.npy</span>
+      <span class="na">punctuation</span><span class="pi">:</span> <span class="s">punctuation.npy</span>
+</code></pre></div></div>
+
+<p>Multiple datasets can be listed; they are concatenated automatically.</p>
+
+<h3 id="batch-size-and-memory">Batch size and memory</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>GPU</th>
+      <th>Recommended batch size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H200 (80 GB)</td>
+      <td>64 (default)</td>
+    </tr>
+    <tr>
+      <td>RTX 3090 (24 GB)</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Use gradient accumulation if your per-GPU batch is smaller than desired:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># effective batch of 32 on a single RTX 3090</span>
+python voxtream/train.py <span class="nv">batch_size</span><span class="o">=</span>8 <span class="nv">accumulate_grad_batches</span><span class="o">=</span>4
+</code></pre></div></div>
+
+<p>Note: <code class="language-plaintext highlighter-rouge">accumulate_grad_batches</code> is passed through to the Lightning <code class="language-plaintext highlighter-rouge">Trainer</code> but is not listed in <code class="language-plaintext highlighter-rouge">train.yaml</code> by default — add it or pass it on the command line.</p>
+
+<h3 id="recommended-fine-tuning-hyperparameters">Recommended fine-tuning hyperparameters</h3>
+
+<p>For a small custom dataset (a few hours), start with:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">max_epochs</span><span class="pi">:</span> <span class="m">5</span>
+<span class="na">lr</span><span class="pi">:</span> <span class="s">5e-5</span>
+<span class="na">initial_lr</span><span class="pi">:</span> <span class="s">1e-6</span>
+<span class="na">warmup_epochs</span><span class="pi">:</span> <span class="m">1</span>
+<span class="na">freeze_dep_former</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>For a larger dataset approaching the scale of the original training data, the default values are appropriate:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">max_epochs</span><span class="pi">:</span> <span class="m">10</span>
+<span class="na">lr</span><span class="pi">:</span> <span class="s">2e-4</span>
+<span class="na">initial_lr</span><span class="pi">:</span> <span class="s">1e-5</span>
+<span class="na">warmup_epochs</span><span class="pi">:</span> <span class="m">1</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="running-fine-tuning">Running Fine-tuning</h2>
+
+<h3 id="single-gpu">Single GPU</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GPU_IDS</span><span class="o">=</span>0 docker-compose <span class="nt">-f</span> .devcontainer/docker-compose.yaml run voxtream <span class="se">\</span>
+    python voxtream/train.py <span class="se">\</span>
+    <span class="nv">batch_size</span><span class="o">=</span>12 <span class="se">\</span>
+    <span class="nv">dataset_base_dir</span><span class="o">=</span>/path/to/datasets <span class="se">\</span>
+    <span class="nv">model_weight_path</span><span class="o">=</span>/path/to/checkpoint.ckpt <span class="se">\</span>
+    <span class="nv">exp_name</span><span class="o">=</span>my_finetune <span class="se">\</span>
+    <span class="nv">gpus</span><span class="o">=</span>1
+</code></pre></div></div>
+
+<h3 id="multiple-gpus">Multiple GPUs</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">GPU_IDS</span><span class="o">=</span>0,1,2,3 docker-compose <span class="nt">-f</span> .devcontainer/docker-compose.yaml run voxtream <span class="se">\</span>
+    python voxtream/train.py <span class="se">\</span>
+    <span class="nv">batch_size</span><span class="o">=</span>32 <span class="se">\</span>
+    <span class="nv">dataset_base_dir</span><span class="o">=</span>/path/to/datasets <span class="se">\</span>
+    <span class="nv">model_weight_path</span><span class="o">=</span>/path/to/checkpoint.ckpt <span class="se">\</span>
+    <span class="nv">exp_name</span><span class="o">=</span>my_finetune
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">gpus: -1</code> (the default) uses all visible GPUs with DDP. Training uses bfloat16 mixed precision by default.</p>
+
+<h3 id="output">Output</h3>
+
+<p>Results are saved to <code class="language-plaintext highlighter-rouge">experiments/{exp_name}/</code>. Each run produces:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>experiments/my_finetune/
+    hydra_config.yaml          # full config snapshot
+    version_0/
+        checkpoints/
+            epoch=0.ckpt
+            epoch=1.ckpt
+            ...
+        events.out.tfevents.*  # TensorBoard logs
+</code></pre></div></div>
+
+<p>Monitor training with TensorBoard:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tensorboard <span class="nt">--logdir</span> experiments/my_finetune
+</code></pre></div></div>
+
+<p>Key metrics logged: <code class="language-plaintext highlighter-rouge">semantic_loss</code>, <code class="language-plaintext highlighter-rouge">audio_loss</code>, <code class="language-plaintext highlighter-rouge">train_loss</code>, <code class="language-plaintext highlighter-rouge">train_semantic_acc_top10</code>, <code class="language-plaintext highlighter-rouge">train_audio_acc_top10</code>, <code class="language-plaintext highlighter-rouge">lr-AdamW</code>.</p>
+
+<hr />
+
+<h2 id="using-a-fine-tuned-checkpoint-for-inference">Using a Fine-tuned Checkpoint for Inference</h2>
+
+<p>The Lightning checkpoint saved during training can be loaded directly by <code class="language-plaintext highlighter-rouge">SpeechGenerator</code> by converting it to a plain state dict. The easiest approach is to point the inference config at the checkpoint via a custom <code class="language-plaintext highlighter-rouge">generator.json</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">voxtream.generator</span> <span class="kn">import</span> <span class="n">SpeechGenerator</span><span class="p">,</span> <span class="n">SpeechGeneratorConfig</span>
+<span class="kn">import</span> <span class="nn">json</span><span class="p">,</span> <span class="n">torch</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'configs/generator.json'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">SpeechGeneratorConfig</span><span class="p">(</span><span class="o">**</span><span class="n">json</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">))</span>
+
+<span class="n">generator</span> <span class="o">=</span> <span class="n">SpeechGenerator</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+<span class="c1"># Load fine-tuned weights on top
+</span><span class="n">ckpt</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="s">'experiments/my_finetune/version_0/checkpoints/epoch=4.ckpt'</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="s">'cpu'</span><span class="p">)</span>
+<span class="n">state_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">.</span><span class="n">replace</span><span class="p">(</span><span class="s">'model.'</span><span class="p">,</span> <span class="s">''</span><span class="p">):</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">ckpt</span><span class="p">[</span><span class="s">'state_dict'</span><span class="p">].</span><span class="n">items</span><span class="p">()}</span>
+<span class="n">generator</span><span class="p">.</span><span class="n">model</span><span class="p">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">state_dict</span><span class="p">,</span> <span class="n">strict</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>After loading, use the generator normally as described in the README.</p>
+
+  </div><a class="u-url" href="/notes/voxtream/claude/2026/03/28/voxtream-finetuning-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

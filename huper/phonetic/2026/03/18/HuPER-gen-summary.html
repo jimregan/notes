@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Paper summary from ChatGPT | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Paper summary from ChatGPT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="HuPER paper summary" />
+<meta property="og:description" content="HuPER paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/huper/phonetic/2026/03/18/HuPER-gen-summary.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/huper/phonetic/2026/03/18/HuPER-gen-summary.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-18T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/huper/phonetic/2026/03/18/HuPER-gen-summary.html","@type":"BlogPosting","headline":"Paper summary from ChatGPT","dateModified":"2026-03-18T00:00:00-05:00","datePublished":"2026-03-18T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/huper/phonetic/2026/03/18/HuPER-gen-summary.html"},"description":"HuPER paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Paper summary from ChatGPT</h1><p class="page-description">HuPER paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-18T00:00:00-05:00" itemprop="datePublished">
+        Mar 18, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#huper">huper</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#phonetic">phonetic</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="huper-a-human-inspired-framework-for-phonetic-perception"><strong>HuPER: A Human-Inspired Framework for Phonetic Perception</strong></h1>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2602.01634">arXiv</a></li>
+  <li><a href="https://github.com/HuPER29/HuPER">code</a> — no licence</li>
+  <li><a href="https://huggingface.co/datasets/huper29/huper-clean100-proxyphones">generated dataset</a> — CC-BY 4.0 (LibriSpeech derived)</li>
+  <li><a href="https://huggingface.co/huper29/huper_corrector">corrector model</a> — no licence</li>
+  <li><a href="https://huggingface.co/huper29/huper_recognizer">recognition model</a> — MIT</li>
+</ul>
+
+<h2 id="1-overview-and-main-claim">1. Overview and Main Claim</h2>
+
+<p>This paper introduces <strong>HuPER</strong>, a modular framework for phonetic perception that models speech understanding as an <strong>adaptive inference process</strong> integrating:</p>
+
+<ul>
+  <li>bottom-up acoustic–phonetic evidence</li>
+  <li>top-down linguistic and contextual knowledge</li>
+</ul>
+
+<p>The central claim is that <strong>phonetic perception should not be treated as a single-pass mapping from audio to phonemes</strong>, but rather as a <strong>dynamic, multi-path process</strong> analogous to human speech perception.</p>
+
+<hr />
+
+<h2 id="2-motivation">2. Motivation</h2>
+
+<p>The work is motivated by two key limitations in current phonetic modeling:</p>
+
+<h3 id="21-supervision-mismatch">2.1 Supervision Mismatch</h3>
+
+<p>Most phoneme recognition systems rely on <strong>canonical phoneme labels</strong> (e.g., from G2P systems), which encode abstract phonological forms rather than <strong>realized acoustic forms</strong>. This leads to:</p>
+
+<ul>
+  <li>loss of fine phonetic variation</li>
+  <li>reduced robustness to natural speech phenomena (reductions, coarticulation, disfluencies)</li>
+</ul>
+
+<h3 id="22-lack-of-adaptive-inference">2.2 Lack of Adaptive Inference</h3>
+
+<p>Human perception is <strong>closed-loop and context-sensitive</strong>, whereas most models are:</p>
+
+<ul>
+  <li>strictly feedforward</li>
+  <li>unable to dynamically incorporate context or prior knowledge</li>
+</ul>
+
+<p>The paper argues that this mismatch explains why phonetic modeling has not benefited from scaling in the same way as word-level ASR.</p>
+
+<hr />
+
+<h2 id="3-framework-huper">3. Framework: HuPER</h2>
+
+<p>HuPER is a <strong>modular architecture</strong> consisting of four components:</p>
+
+<h3 id="31-huper-recognizer-bottom-up-module">3.1 HuPER-Recognizer (Bottom-Up Module)</h3>
+
+<ul>
+  <li>Backbone: WavLM-Large</li>
+  <li>
+    <p>Outputs:</p>
+
+    <ul>
+      <li>phone posterior distributions</li>
+      <li>decoded phone sequences</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Role:</p>
+
+<ul>
+  <li>Extract <strong>language-general acoustic–phonetic representations</strong></li>
+  <li>Define the upper bound of perceptual accuracy</li>
+</ul>
+
+<hr />
+
+<h3 id="32-huper-perceiver-integration-module">3.2 HuPER-Perceiver (Integration Module)</h3>
+
+<ul>
+  <li>
+    <p>Combines:</p>
+
+    <ul>
+      <li>phone-level evidence</li>
+      <li>lexical constraints</li>
+      <li>language model priors</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Implements decoding via WFST composition:
+[
+\hat{T} = \text{ShortestPath}(\Pi_\theta(X) \circ L \circ G)
+]</p>
+
+<p>Key idea:</p>
+
+<ul>
+  <li>Operates over a <strong>phone lattice</strong>, preserving uncertainty rather than using a single best sequence</li>
+</ul>
+
+<hr />
+
+<h3 id="33-dysfluent-wfst-top-down-constraint-module">3.3 Dysfluent WFST (Top-Down Constraint Module)</h3>
+
+<ul>
+  <li>
+    <p>Encodes:</p>
+
+    <ul>
+      <li>pronunciation variability</li>
+      <li>disfluencies</li>
+      <li>phonological alternations</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Provides:</p>
+
+<ul>
+  <li><strong>explicit, interpretable top-down constraints</strong></li>
+  <li>
+    <p>ability to incorporate:</p>
+
+    <ul>
+      <li>external references (e.g., known text)</li>
+      <li>internal hypotheses</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="34-huper-scheduler-control-module">3.4 HuPER-Scheduler (Control Module)</h3>
+
+<ul>
+  <li>Decides which inference pathway to use based on signal quality</li>
+  <li>Implements <strong>adaptive routing</strong> between:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Condition</th>
+      <th>Strategy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>High-confidence signal</td>
+      <td>bottom-up decoding</td>
+    </tr>
+    <tr>
+      <td>Low-confidence signal</td>
+      <td>constrained decoding with top-down priors</td>
+    </tr>
+    <tr>
+      <td>Reference available</td>
+      <td>reference-constrained decoding</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="4-self-learning-strategy-for-phonetic-modeling">4. Self-Learning Strategy for Phonetic Modeling</h2>
+
+<h3 id="41-problem">4.1 Problem</h3>
+
+<p>Human-annotated phonetic data is scarce.</p>
+
+<h3 id="42-solution-corrected-self-training">4.2 Solution: Corrected Self-Training</h3>
+
+<p>Pipeline:</p>
+
+<ol>
+  <li>Train initial model on labeled data (TIMIT)</li>
+  <li>Generate pseudo-labels on large unlabeled data (LibriSpeech)</li>
+  <li>Convert canonical phonemes (G2P) into <strong>acoustically grounded phone sequences</strong> using a learned <strong>Corrector</strong></li>
+  <li>Retrain recognizer on corrected pseudo-labels</li>
+</ol>
+
+<hr />
+
+<h3 id="43-theoretical-contribution-drrc">4.3 Theoretical Contribution: DRRC</h3>
+
+<p>The authors formulate self-training as a <strong>missing-label learning problem</strong> and introduce <strong>Doubly Robust Risk Correction (DRRC)</strong>.</p>
+
+<p>Key result:</p>
+
+<ul>
+  <li>
+    <p>The training objective is <strong>consistent if either</strong>:</p>
+
+    <ol>
+      <li>pseudo-labels are accurate, or</li>
+      <li>the missingness model is correctly specified</li>
+    </ol>
+  </li>
+</ul>
+
+<p>This provides a <strong>statistical justification for self-training</strong>, addressing:</p>
+
+<ul>
+  <li>confirmation bias</li>
+  <li>label noise</li>
+</ul>
+
+<hr />
+
+<h2 id="5-adaptive-inference-mechanism">5. Adaptive Inference Mechanism</h2>
+
+<h3 id="51-distortion-based-routing">5.1 Distortion-Based Routing</h3>
+
+<p>The scheduler computes an <strong>uncertainty score</strong> based on:</p>
+
+<ul>
+  <li>posterior margin</li>
+  <li>entropy</li>
+</ul>
+
+<p>[
+s(X) = \frac{1}{T} \sum_t d_t
+]</p>
+
+<p>Interpretation:</p>
+
+<ul>
+  <li>low ( s(X) ): reliable acoustic evidence</li>
+  <li>high ( s(X) ): degraded or ambiguous input</li>
+</ul>
+
+<hr />
+
+<h3 id="52-multi-path-inference">5.2 Multi-Path Inference</h3>
+
+<p>Depending on ( s(X) ), the system chooses:</p>
+
+<ol>
+  <li><strong>Direct decoding</strong> (bottom-up)</li>
+  <li><strong>Hypothesis-guided refinement</strong> (bottom-up + top-down)</li>
+  <li><strong>Reference-constrained decoding</strong> (strong top-down)</li>
+</ol>
+
+<p>This explicitly models <strong>human-like perceptual flexibility</strong>.</p>
+
+<hr />
+
+<h2 id="6-experimental-results">6. Experimental Results</h2>
+
+<h3 id="61-english-phoneme-recognition">6.1 English Phoneme Recognition</h3>
+
+<ul>
+  <li>Training data: <strong>100 hours</strong></li>
+  <li>Result: <strong>state-of-the-art PFER = 8.82</strong></li>
+</ul>
+
+<p>Notably:</p>
+
+<ul>
+  <li>Outperforms models trained on <strong>orders of magnitude more data</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="62-zero-shot-multilingual-transfer">6.2 Zero-Shot Multilingual Transfer</h3>
+
+<ul>
+  <li>Evaluated on <strong>95 unseen languages</strong></li>
+  <li>Achieves <strong>PFER = 0.19</strong></li>
+</ul>
+
+<p>Key observation:</p>
+
+<ul>
+  <li>Matches strong multilingual systems despite being trained <strong>only on English</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="63-robustness-to-degraded-speech">6.3 Robustness to Degraded Speech</h3>
+
+<ul>
+  <li>
+    <p>On disordered speech (PPA dataset):</p>
+
+    <ul>
+      <li>distortion correlates with error</li>
+      <li>adaptive switching significantly improves performance</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Main finding:</p>
+
+<ul>
+  <li><strong>Top-down constraints are most beneficial in high-uncertainty regimes</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="7-analysis-and-interpretation">7. Analysis and Interpretation</h2>
+
+<h3 id="71-acousticphonetic-representation-quality">7.1 Acoustic–Phonetic Representation Quality</h3>
+
+<ul>
+  <li>HuPER maintains stronger alignment with <strong>distinctive feature structure</strong></li>
+  <li>Preserves phonetic geometry deeper in the network</li>
+</ul>
+
+<hr />
+
+<h3 id="72-reduced-canonical-bias">7.2 Reduced Canonical Bias</h3>
+
+<ul>
+  <li>Standard models tend to “correct” toward canonical forms</li>
+  <li>
+    <p>HuPER:</p>
+
+    <ul>
+      <li>remains closer to <strong>realized acoustic forms</strong></li>
+      <li>avoids implicit normalization</li>
+    </ul>
+  </li>
+</ul>
+
+<p>This is critical for:</p>
+
+<ul>
+  <li>spontaneous speech</li>
+  <li>non-native speech</li>
+  <li>clinical speech</li>
+</ul>
+
+<hr />
+
+<h2 id="8-contributions">8. Contributions</h2>
+
+<p>The paper makes four primary contributions:</p>
+
+<ol>
+  <li>
+    <p><strong>Conceptual</strong></p>
+
+    <ul>
+      <li>Reframes phonetic perception as <strong>adaptive inference</strong></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Architectural</strong></p>
+
+    <ul>
+      <li>Introduces a <strong>multi-path, modular system</strong> combining bottom-up and top-down processes</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Theoretical</strong></p>
+
+    <ul>
+      <li>Provides <strong>DRRC</strong>, a principled framework for self-training with noisy labels</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Empirical</strong></p>
+
+    <ul>
+      <li>
+        <p>Demonstrates strong performance in:</p>
+
+        <ul>
+          <li>low-resource settings</li>
+          <li>cross-lingual transfer</li>
+          <li>degraded speech conditions</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="9-limitations">9. Limitations</h2>
+
+<ul>
+  <li>Limited availability of human-annotated phone labels</li>
+  <li>Scheduler relies on <strong>hand-designed thresholds</strong></li>
+  <li>WFST constraints are partially rule-based</li>
+  <li>Only a subset of human perceptual pathways is modeled</li>
+</ul>
+
+<hr />
+
+<h2 id="10-key-takeaway">10. Key Takeaway</h2>
+
+<p>HuPER represents a shift from:</p>
+
+<ul>
+  <li><strong>static phoneme prediction</strong></li>
+</ul>
+
+<p>to:</p>
+
+<ul>
+  <li><strong>adaptive, context-aware phonetic inference</strong></li>
+</ul>
+
+<p>This positions phonetic modeling closer to <strong>cognitive systems</strong> and suggests that future progress may depend more on <strong>inference structure and control</strong> than on scaling alone.</p>
+
+
+  </div><a class="u-url" href="/notes/huper/phonetic/2026/03/18/HuPER-gen-summary.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

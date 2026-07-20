@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Retrieval Augmented Generation based context discovery for ASR | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Retrieval Augmented Generation based context discovery for ASR" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/retrieval-augmented-generation-based-context-discovery-for-asr.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/retrieval-augmented-generation-based-context-discovery-for-asr.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/retrieval-augmented-generation-based-context-discovery-for-asr.html","@type":"BlogPosting","headline":"Retrieval Augmented Generation based context discovery for ASR","dateModified":"2026-04-21T00:00:00-05:00","datePublished":"2026-04-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/retrieval-augmented-generation-based-context-discovery-for-asr.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Retrieval Augmented Generation based context discovery for ASR</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-04-21T00:00:00-05:00" itemprop="datePublished">
+        Apr 21, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="retrieval-augmented-generation-based-context-discovery-for-asr"><a href="https://aclanthology.org/2025.findings-emnlp.768/">Retrieval Augmented Generation based context discovery for ASR</a></h1>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">dimitrios-etal-2025-retrieval</span><span class="p">,</span>
+    <span class="na">title</span> <span class="p">=</span> <span class="s">"Retrieval Augmented Generation based context discovery for {ASR}"</span><span class="p">,</span>
+    <span class="na">author</span> <span class="p">=</span> <span class="s">"Dimitrios, Siskos  and
+      Papadopoulos, Stavros  and
+      Parada, Pablo Peso  and
+      Zhang, Jisi  and
+      Saravanan, Karthikeyan  and
+      Drosou, Anastasios"</span><span class="p">,</span>
+    <span class="na">editor</span> <span class="p">=</span> <span class="s">"Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet"</span><span class="p">,</span>
+    <span class="na">booktitle</span> <span class="p">=</span> <span class="s">"Findings of the Association for Computational Linguistics: EMNLP 2025"</span><span class="p">,</span>
+    <span class="na">month</span> <span class="p">=</span> <span class="nv">nov</span><span class="p">,</span>
+    <span class="na">year</span> <span class="p">=</span> <span class="s">"2025"</span><span class="p">,</span>
+    <span class="na">address</span> <span class="p">=</span> <span class="s">"Suzhou, China"</span><span class="p">,</span>
+    <span class="na">publisher</span> <span class="p">=</span> <span class="s">"Association for Computational Linguistics"</span><span class="p">,</span>
+    <span class="na">url</span> <span class="p">=</span> <span class="s">"https://aclanthology.org/2025.findings-emnlp.768/"</span><span class="p">,</span>
+    <span class="na">doi</span> <span class="p">=</span> <span class="s">"10.18653/v1/2025.findings-emnlp.768"</span><span class="p">,</span>
+    <span class="na">pages</span> <span class="p">=</span> <span class="s">"14247--14254"</span><span class="p">,</span>
+    <span class="na">ISBN</span> <span class="p">=</span> <span class="s">"979-8-89176-335-7"</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="summary-of-the-paper"><strong>Summary of the Paper</strong></h2>
+
+<p><strong>“Retrieval Augmented Generation based context discovery for ASR”</strong></p>
+
+<h3 id="goal"><strong>Goal</strong></h3>
+
+<p>The paper tackles a key weakness in Automatic Speech Recognition (ASR): poor performance on <strong>rare or out-of-vocabulary (OOV) words</strong> (e.g., names, domain terms). It focuses on <strong>automatically discovering useful context</strong> to improve transcription accuracy—without modifying the ASR model.</p>
+
+<hr />
+
+<h2 id="key-idea"><strong>Key Idea</strong></h2>
+
+<p>The authors propose a <strong>retrieval-based method (CB-RAG)</strong> that:</p>
+
+<ul>
+  <li>Uses embeddings (MiniLM) to represent previous transcript segments</li>
+  <li>Retrieves <strong>relevant context words</strong> from a large vocabulary using similarity search</li>
+  <li>Feeds this context into a <strong>context-aware ASR system</strong></li>
+</ul>
+
+<p>This is compared with two LLM-based alternatives:</p>
+
+<ol>
+  <li><strong>LLM-generated context (CB-LLM)</strong> via prompting</li>
+  <li><strong>Post-ASR correction (LLM_fix)</strong> to refine transcripts</li>
+</ol>
+
+<hr />
+
+<h2 id="method-overview"><strong>Method Overview</strong></h2>
+
+<p>From the pipeline (Figure 1, page 2):</p>
+
+<ul>
+  <li>Audio is split into segments (via VAD)</li>
+  <li>
+    <p>Previous transcript segments are used to:</p>
+
+    <ul>
+      <li>Retrieve context (RAG) <strong>or</strong></li>
+      <li>Generate context (LLM)</li>
+    </ul>
+  </li>
+  <li>Context is injected into ASR</li>
+  <li>Optionally, an LLM corrects the output afterward</li>
+</ul>
+
+<hr />
+
+<h2 id="main-contributions"><strong>Main Contributions</strong></h2>
+
+<ol>
+  <li><strong>Model-agnostic retrieval method (CB-RAG)</strong> for context generation</li>
+  <li><strong>Comparison of plug-and-play approaches</strong> (retrieval vs LLM methods)</li>
+  <li><strong>Evaluation on real datasets</strong> using black-box ASR systems</li>
+</ol>
+
+<hr />
+
+<h2 id="results-key-findings"><strong>Results (Key Findings)</strong></h2>
+
+<p>From Table 2 (page 4):</p>
+
+<ul>
+  <li><strong>CB-RAG reduces Word Error Rate (WER) by up to ~17% relative</strong></li>
+  <li><strong>Oracle context (perfect knowledge)</strong> gives up to ~24% improvement</li>
+  <li>
+    <p>CB-RAG performs <strong>as well as or better than LLM approaches</strong>, despite:</p>
+
+    <ul>
+      <li>Lower “context overlap”</li>
+      <li>But <strong>higher diversity of retrieved terms</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="efficiency"><strong>Efficiency</strong></h3>
+
+<ul>
+  <li>
+    <p>CB-RAG is <strong>much faster</strong>:</p>
+
+    <ul>
+      <li>~1.0–1.3× slower than no-context baseline</li>
+      <li>LLM methods: <strong>3–6× slower</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="best-configuration"><strong>Best configuration</strong></h3>
+
+<ul>
+  <li>Using more retrieved words (c=250) and fewer past segments (k=10) works best</li>
+</ul>
+
+<hr />
+
+<h2 id="key-insights"><strong>Key Insights</strong></h2>
+
+<ul>
+  <li><strong>Retrieval-based context beats LLM-based methods in practice</strong></li>
+  <li>High-quality context ≠ high overlap with ground truth</li>
+  <li><strong>Recent context matters more than long history</strong></li>
+  <li>Lightweight methods can outperform large models in real-time systems</li>
+</ul>
+
+<hr />
+
+<h2 id="limitations"><strong>Limitations</strong></h2>
+
+<ul>
+  <li>CB-RAG may miss <strong>semantic (not lexical) matches</strong></li>
+  <li>Requires a <strong>predefined vocabulary</strong></li>
+  <li>LLM methods depend on prompt quality and are slower</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+
+<p>The proposed <strong>CB-RAG approach</strong> is:</p>
+
+<ul>
+  <li><strong>Accurate</strong> (lowest WER among practical methods)</li>
+  <li><strong>Efficient</strong> (low latency)</li>
+  <li><strong>Flexible</strong> (works with black-box ASR systems)</li>
+</ul>
+
+<p>➡️ Best suited for <strong>real-time or resource-constrained applications</strong>, where LLM-based solutions are too expensive.</p>
+
+<hr />
+
+<h2 id="addendum">Addendum</h2>
+
+<h3 id="core-reality-check"><strong>Core Reality Check</strong></h3>
+
+<p>Despite the framing, this paper is <strong>not introducing a new paradigm</strong>.
+It is best understood as:</p>
+
+<blockquote>
+  <p><strong>A modern reimplementation of classic contextual biasing / cache LM ideas using embeddings.</strong></p>
+</blockquote>
+
+<p>The “RAG” label is largely superficial:</p>
+
+<ul>
+  <li>No document grounding</li>
+  <li>No multi-step reasoning</li>
+  <li>No generation conditioned on retrieved knowledge
+→ just <strong>retrieval → word list → biasing</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="historical-context">**Historical Context</h3>
+
+<p>The method closely mirrors long-standing techniques:</p>
+
+<ul>
+  <li>Cache-based language models (recent context boosting)</li>
+  <li>IR-based LM adaptation (retrieve relevant terms/docs)</li>
+  <li>WFST contextual biasing (inject vocab at decode time)</li>
+</ul>
+
+<p>The underlying pattern:</p>
+
+<blockquote>
+  <p><strong>retrieve context → bias decoding → improve rare words</strong>
+has existed since at least the early 2000s.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="whats-actually-new-narrowly"><strong>What’s Actually New (Narrowly)</strong></h3>
+
+<ul>
+  <li>Uses <strong>dense embeddings instead of symbolic retrieval</strong></li>
+  <li>Works in a <strong>fully unsupervised, no-catalog setup</strong></li>
+  <li>Designed for <strong>black-box ASR (plug-and-play)</strong></li>
+</ul>
+
+<p>These are <strong>engineering updates</strong>, not conceptual advances.</p>
+
+<hr />
+
+<h3 id="limitations-1"><strong>Limitations</strong></h3>
+
+<ul>
+  <li>Retrieval is still <strong>lexical-heavy</strong> (weak semantic generalization)</li>
+  <li>No principled integration with decoding (unlike proper LM fusion)</li>
+  <li>Gains are <strong>incremental (~1–2 WER points in many cases)</strong></li>
+  <li>“Context overlap” is low → suggests noisy or indirect improvements</li>
+  <li>LLM comparisons are somewhat weak baselines (latency-heavy strawman)</li>
+</ul>
+
+<hr />
+
+<h3 id="bottom-line-judgment"><strong>Bottom Line Judgment</strong></h3>
+
+<ul>
+  <li><strong>Research novelty:</strong> low</li>
+  <li><strong>Engineering practicality:</strong> decent</li>
+  <li><strong>Conceptual insight:</strong> minimal</li>
+</ul>
+
+<p>👉 This is:</p>
+
+<blockquote>
+  <p><strong>“a clean, practical baseline using modern tools”</strong></p>
+</blockquote>
+
+<p>not:</p>
+
+<blockquote>
+  <p><strong>“a paper that changes how we think about ASR or RAG”</strong></p>
+</blockquote>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/2026/04/21/retrieval-augmented-generation-based-context-discovery-for-asr.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

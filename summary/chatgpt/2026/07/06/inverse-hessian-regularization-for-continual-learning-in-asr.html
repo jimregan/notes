@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Inverse-Hessian Regularization for Continual Learning in ASR | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Inverse-Hessian Regularization for Continual Learning in ASR" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/summary/chatgpt/2026/07/06/inverse-hessian-regularization-for-continual-learning-in-asr.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/summary/chatgpt/2026/07/06/inverse-hessian-regularization-for-continual-learning-in-asr.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-07-06T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/summary/chatgpt/2026/07/06/inverse-hessian-regularization-for-continual-learning-in-asr.html","@type":"BlogPosting","headline":"Inverse-Hessian Regularization for Continual Learning in ASR","dateModified":"2026-07-06T00:00:00-05:00","datePublished":"2026-07-06T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/summary/chatgpt/2026/07/06/inverse-hessian-regularization-for-continual-learning-in-asr.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Inverse-Hessian Regularization for Continual Learning in ASR</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-07-06T00:00:00-05:00" itemprop="datePublished">
+        Jul 6, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#the-problem">The problem</a></li>
+<li class="toc-entry toc-h1"><a href="#existing-solution-fine-tuning--averaging-fta">Existing solution: Fine-Tuning + Averaging (FTA)</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#1-adaptation-shrinks-over-time">1. Adaptation shrinks over time</a></li>
+<li class="toc-entry toc-h3"><a href="#2-every-parameter-is-treated-equally">2. Every parameter is treated equally</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#core-idea-of-the-paper">Core idea of the paper</a></li>
+<li class="toc-entry toc-h1"><a href="#geometric-intuition">Geometric intuition</a></li>
+<li class="toc-entry toc-h1"><a href="#the-algorithm">The algorithm</a></li>
+<li class="toc-entry toc-h1"><a href="#why-does-the-inverse-hessian-help">Why does the inverse Hessian help?</a></li>
+<li class="toc-entry toc-h1"><a href="#practical-challenge-1">Practical challenge #1</a></li>
+<li class="toc-entry toc-h1"><a href="#solution-kronecker-factored-approximation">Solution: Kronecker-factored approximation</a></li>
+<li class="toc-entry toc-h1"><a href="#practical-challenge-2">Practical challenge #2</a></li>
+<li class="toc-entry toc-h1"><a href="#layer-wise-implementation">Layer-wise implementation</a></li>
+<li class="toc-entry toc-h1"><a href="#what-about-other-parameters">What about other parameters?</a></li>
+<li class="toc-entry toc-h1"><a href="#computational-cost">Computational cost</a></li>
+<li class="toc-entry toc-h1"><a href="#experimental-results">Experimental results</a></li>
+<li class="toc-entry toc-h1"><a href="#why-this-paper-is-interesting">Why this paper is interesting</a></li>
+</ul><div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@INPROCEEDINGS</span><span class="p">{</span><span class="nl">vander_eeckt_icassp26</span><span class="p">,</span>
+  <span class="na">author</span><span class="p">=</span><span class="s">{Vander Eeckt, Steven and Van Hamme, Hugo}</span><span class="p">,</span>
+  <span class="na">booktitle</span><span class="p">=</span><span class="s">{ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}</span><span class="p">,</span> 
+  <span class="na">title</span><span class="p">=</span><span class="s">{Inverse-Hessian Regularization for Continual Learning in ASR}</span><span class="p">,</span> 
+  <span class="na">year</span><span class="p">=</span><span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">volume</span><span class="p">=</span><span class="s">{}</span><span class="p">,</span>
+  <span class="na">number</span><span class="p">=</span><span class="s">{}</span><span class="p">,</span>
+  <span class="na">pages</span><span class="p">=</span><span class="s">{18192-18196}</span><span class="p">,</span>
+  <span class="na">doi</span><span class="p">=</span><span class="s">{10.1109/ICASSP55912.2026.11461503}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr>
+
+<h1 id="the-problem">
+<a class="anchor" href="#the-problem" aria-hidden="true"><span class="octicon octicon-link"></span></a>The problem</h1>
+
+<p>The paper studies <strong>continual learning (CL)</strong> for <strong>automatic speech recognition (ASR)</strong>.</p>
+
+<p>Training proceeds as</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Task 1  -&gt;  Task 2  -&gt;  Task 3  -&gt; ...
+</code></pre></div></div>
+
+<p>where each task might correspond to</p>
+
+<ul>
+  <li>a new accent</li>
+  <li>microphone</li>
+  <li>recording condition</li>
+  <li>speaker population</li>
+</ul>
+
+<p>The challenge is <strong>catastrophic forgetting</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>train on Task 1
+↓
+
+good on Task 1
+
+train on Task 2
+↓
+
+good on Task 2
+bad on Task 1
+</code></pre></div></div>
+
+<p>The important constraint is <strong>memory-free continual learning</strong>:</p>
+
+<ul>
+  <li>no replay buffer</li>
+  <li>no old datasets</li>
+  <li>no expanding architecture</li>
+</ul>
+
+<p>Only the previous model is available.</p>
+
+<hr>
+
+<h1 id="existing-solution-fine-tuning--averaging-fta">
+<a class="anchor" href="#existing-solution-fine-tuning--averaging-fta" aria-hidden="true"><span class="octicon octicon-link"></span></a>Existing solution: Fine-Tuning + Averaging (FTA)</h1>
+
+<p>The previous state-of-the-art memory-free method is surprisingly simple.</p>
+
+<p>Suppose</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ_old
+</code></pre></div></div>
+
+<p>is the model before learning the new task.</p>
+
+<p>Fine-tune normally:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ_old
+   |
+   |  fine tune
+   V
+θ_ft
+</code></pre></div></div>
+
+<p>Instead of keeping the fine-tuned model, average the parameters:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ_new =
+(1-η) θ_old
++
+η θ_ft
+</code></pre></div></div>
+
+<p>where</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>η = 1/t
+</code></pre></div></div>
+
+<p>after task <em>t</em>.</p>
+
+<p>This reduces forgetting because it never fully commits to the new weights.</p>
+
+<p>However, the authors identify two problems.</p>
+
+<h3 id="1-adaptation-shrinks-over-time">
+<a class="anchor" href="#1-adaptation-shrinks-over-time" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Adaptation shrinks over time</h3>
+
+<p>Since</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>η = 1/t
+</code></pre></div></div>
+
+<p>later tasks receive tiny updates.</p>
+
+<p>Eventually</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>η ≈ 0
+</code></pre></div></div>
+
+<p>so learning almost stops.</p>
+
+<hr>
+
+<h3 id="2-every-parameter-is-treated-equally">
+<a class="anchor" href="#2-every-parameter-is-treated-equally" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Every parameter is treated equally</h3>
+
+<p>Suppose two directions in parameter space:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Direction A
+very important for Task 1
+
+Direction B
+almost irrelevant
+</code></pre></div></div>
+
+<p>Weight averaging scales both equally.</p>
+
+<p>But ideally we’d like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>preserve A
+allow movement along B
+</code></pre></div></div>
+
+<p>Weight averaging has no notion of this.</p>
+
+<hr>
+
+<h1 id="core-idea-of-the-paper">
+<a class="anchor" href="#core-idea-of-the-paper" aria-hidden="true"><span class="octicon octicon-link"></span></a>Core idea of the paper</h1>
+
+<p>The authors ask:</p>
+
+<blockquote>
+  <p>Instead of averaging blindly, can we determine which parameter directions are “safe” to move?</p>
+</blockquote>
+
+<p>Their answer:</p>
+
+<p><strong>Use the inverse Hessian of the previous task.</strong></p>
+
+<p>This is the entire contribution.</p>
+
+<hr>
+
+<h1 id="geometric-intuition">
+<a class="anchor" href="#geometric-intuition" aria-hidden="true"><span class="octicon octicon-link"></span></a>Geometric intuition</h1>
+
+<p>Imagine two loss basins.</p>
+
+<p>Old task:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      _______
+     /       \
+    /         \
+</code></pre></div></div>
+
+<p>New task:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>           _______
+          /       \
+         /         \
+</code></pre></div></div>
+
+<p>Fine-tuning moves directly toward the new basin:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>old ● -------------&gt; new
+</code></pre></div></div>
+
+<p>which exits the old basin.</p>
+
+<p>Instead, they propose</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>old
+ \
+  \
+   curved path
+      \
+       \
+       new
+</code></pre></div></div>
+
+<p>where the update is warped by the inverse Hessian so it stays inside flatter directions of the previous task.</p>
+
+<p>Figure 1 in the paper illustrates exactly this intuition.</p>
+
+<hr>
+
+<h1 id="the-algorithm">
+<a class="anchor" href="#the-algorithm" aria-hidden="true"><span class="octicon octicon-link"></span></a>The algorithm</h1>
+
+<p>Suppose fine-tuning produces</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ̃
+</code></pre></div></div>
+
+<p>The update is</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Δθ = θ̃ − θ_old
+</code></pre></div></div>
+
+<p>Normally we’d do</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ_new = θ_old + Δθ
+</code></pre></div></div>
+
+<p>Instead they compute</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>θ_new =
+θ_old
++
+H^{-1} Δθ
+</code></pre></div></div>
+
+<p>where</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H^{-1}
+</code></pre></div></div>
+
+<p>is the inverse Hessian of the previous task.</p>
+
+<p>So rather than changing the endpoint,</p>
+
+<p>they transform the <strong>update vector</strong>.</p>
+
+<hr>
+
+<h1 id="why-does-the-inverse-hessian-help">
+<a class="anchor" href="#why-does-the-inverse-hessian-help" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why does the inverse Hessian help?</h1>
+
+<p>Recall:</p>
+
+<p>Large Hessian eigenvalue</p>
+
+<p>→ steep direction</p>
+
+<p>Small movement hurts performance.</p>
+
+<p>Small Hessian eigenvalue</p>
+
+<p>→ flat direction</p>
+
+<p>Large movement is acceptable.</p>
+
+<p>The inverse Hessian flips these:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>steep direction
+↓
+
+small update
+
+flat direction
+↓
+
+large update
+</code></pre></div></div>
+
+<p>So the update automatically avoids damaging directions.</p>
+
+<hr>
+
+<h1 id="practical-challenge-1">
+<a class="anchor" href="#practical-challenge-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practical challenge #1</h1>
+
+<p>A full Hessian is impossible.</p>
+
+<p>For a 47M parameter model,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>47,000,000²
+</code></pre></div></div>
+
+<p>entries would be required.</p>
+
+<p>Impossible.</p>
+
+<hr>
+
+<h1 id="solution-kronecker-factored-approximation">
+<a class="anchor" href="#solution-kronecker-factored-approximation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution: Kronecker-factored approximation</h1>
+
+<p>Instead they use a <strong>KFAC-style approximation</strong>.</p>
+
+<p>Rather than one enormous Hessian,</p>
+
+<p>each linear layer has</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A
+×
+
+B
+</code></pre></div></div>
+
+<p>Kronecker factors.</p>
+
+<p>This allows efficient inverse-Hessian × vector products.</p>
+
+<p>Importantly,</p>
+
+<p>they never build the full Hessian.</p>
+
+<hr>
+
+<h1 id="practical-challenge-2">
+<a class="anchor" href="#practical-challenge-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practical challenge #2</h1>
+
+<p>You don’t have old data</p>
+
+<p>Ideally we’d compute</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H(Task1 + Task2 + ...)
+</code></pre></div></div>
+
+<p>But after Task 3 starts,</p>
+
+<p>Task 1 data is gone.</p>
+
+<p>So they approximate</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>H(previous tasks)
+≈
+H(last task)
+</code></pre></div></div>
+
+<p>Only the most recent task’s Hessian is retained.</p>
+
+<p>This keeps storage constant regardless of the number of tasks.</p>
+
+<hr>
+
+<h1 id="layer-wise-implementation">
+<a class="anchor" href="#layer-wise-implementation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Layer-wise implementation</h1>
+
+<p>Only <strong>linear layers</strong> use Hessian correction.</p>
+
+<p>For each weight matrix</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>W
+</code></pre></div></div>
+
+<p>they compute</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ΔW = W_ft − W_old
+</code></pre></div></div>
+
+<p>then</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>W_new =
+W_old
++
+α H^{-1} ΔW
+</code></pre></div></div>
+
+<p>where α rescales the corrected update to have a comparable norm to the original update. The scalar τ controls the stability–plasticity tradeoff.</p>
+
+<hr>
+
+<h1 id="what-about-other-parameters">
+<a class="anchor" href="#what-about-other-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>What about other parameters?</h1>
+
+<p>Things like</p>
+
+<ul>
+  <li>convolution kernels</li>
+  <li>normalization parameters</li>
+  <li>biases</li>
+</ul>
+
+<p>are simply averaged:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>p_new
+=
+p_old
++
+(1/t)
+Δp
+</code></pre></div></div>
+
+<p>Exactly as in the earlier weight-averaging method.</p>
+
+<p>Only the large linear layers receive Hessian-based correction.</p>
+
+<hr>
+
+<h1 id="computational-cost">
+<a class="anchor" href="#computational-cost" aria-hidden="true"><span class="octicon octicon-link"></span></a>Computational cost</h1>
+
+<p>A nice aspect is that this is <strong>not</strong> a second-order optimizer.</p>
+
+<p>Training is still ordinary Adam.</p>
+
+<p>The workflow is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fine tune
+↓
+
+Done training
+
+↓
+
+Apply one inverse-Hessian correction
+
+↓
+
+Finished
+</code></pre></div></div>
+
+<p>So the expensive second-order computation happens <strong>once per task</strong>, not at every optimization step.</p>
+
+<hr>
+
+<h1 id="experimental-results">
+<a class="anchor" href="#experimental-results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Experimental results</h1>
+
+<p>The paper evaluates on two continual-learning benchmarks for ASR:</p>
+
+<ol>
+  <li>Sequential English accents (Common Voice)</li>
+  <li>LibriSpeech → Libri-Adapt with accent + microphone shifts</li>
+</ol>
+
+<p>Across both:</p>
+
+<ul>
+  <li>IHR consistently outperforms previous <strong>memory-free</strong> methods.</li>
+  <li>On the first benchmark it even outperforms experience replay (which stores past data), while maintaining essentially zero forgetting.</li>
+  <li>On the harder second benchmark it remains the strongest memory-free method and comes closest to experience replay.</li>
+</ul>
+
+<hr>
+
+<h1 id="why-this-paper-is-interesting">
+<a class="anchor" href="#why-this-paper-is-interesting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why this paper is interesting</h1>
+
+<p>The contribution isn’t a new optimizer or a new continual-learning framework. Instead, it’s a smarter <strong>merge operator</strong>.</p>
+
+<p>The pattern becomes:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Fine tune
+
+↓
+
+Obtain update Δθ
+
+↓
+
+Transform update using curvature
+
+↓
+
+Merge
+</code></pre></div></div>
+
+<p>This makes it easy to add to existing fine-tuning pipelines.</p>
+
+  </div><a class="u-url" href="/notes/summary/chatgpt/2026/07/06/inverse-hessian-regularization-for-continual-learning-in-asr.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

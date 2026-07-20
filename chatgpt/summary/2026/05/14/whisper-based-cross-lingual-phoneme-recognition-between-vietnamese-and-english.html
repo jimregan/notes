@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/2026/05/14/whisper-based-cross-lingual-phoneme-recognition-between-vietnamese-and-english.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/2026/05/14/whisper-based-cross-lingual-phoneme-recognition-between-vietnamese-and-english.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-05-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/2026/05/14/whisper-based-cross-lingual-phoneme-recognition-between-vietnamese-and-english.html","@type":"BlogPosting","headline":"Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English","dateModified":"2026-05-14T00:00:00-05:00","datePublished":"2026-05-14T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/2026/05/14/whisper-based-cross-lingual-phoneme-recognition-between-vietnamese-and-english.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Whisper based Cross-Lingual Phoneme Recognition between Vietnamese and English</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-05-14T00:00:00-05:00" itemprop="datePublished">
+        May 14, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://link.springer.com/chapter/10.1007/978-3-032-00972-2_20">paper</a>,
+<a href="https://arxiv.org/abs/2508.19270">arXiv</a></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@InProceedings</span><span class="p">{</span><span class="nl">nguyen2026whisper</span><span class="p">,</span>
+<span class="na">author</span><span class="p">=</span><span class="s">"Nguyen, Huu Nhat Minh
+and Tran, Nguyen Anh
+and Truong, Dinh Dung
+and Vo, Van Nam
+and Le, Pham Tuyen"</span><span class="p">,</span>
+<span class="na">editor</span><span class="p">=</span><span class="s">"Nguyen, Ngoc Thanh
+and Huynh, Cong-Phap
+and Nguyen, Thanh Thuy
+and Le-Khac, Nhien-An
+and Seng, Sopheap
+and Nguyen, Quang-Vu"</span><span class="p">,</span>
+<span class="na">title</span><span class="p">=</span><span class="s">"Whisper Based Cross-Lingual Phoneme Recognition Between Vietnamese and English"</span><span class="p">,</span>
+<span class="na">booktitle</span><span class="p">=</span><span class="s">"The 14th Conference on Information Technology and its Applications"</span><span class="p">,</span>
+<span class="na">year</span><span class="p">=</span><span class="s">"2026"</span><span class="p">,</span>
+<span class="na">publisher</span><span class="p">=</span><span class="s">"Springer Nature Switzerland"</span><span class="p">,</span>
+<span class="na">address</span><span class="p">=</span><span class="s">"Cham"</span><span class="p">,</span>
+<span class="na">pages</span><span class="p">=</span><span class="s">"259--271"</span><span class="p">,</span>
+<span class="na">isbn</span><span class="p">=</span><span class="s">"978-3-032-00972-2"</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This paper proposes a bilingual phoneme-recognition system for Vietnamese and English, specifically targeting the messiness of real-world “Vietlish” speech: English words pronounced with Vietnamese phonology, mixed-language utterances, and code-switching.</p>
+
+<p>The core problem the authors tackle is that Vietnamese and English encode pronunciation very differently. Vietnamese is tonal, meaning pitch changes alter meaning, while English relies more on stress, rhythm, and irregular pronunciation. Existing multilingual ASR systems — including Whisper-derived systems — struggle when Vietnamese speakers insert English words into speech or pronounce English using Vietnamese phonetic patterns.</p>
+
+<p>The paper’s two main contributions are:</p>
+
+<ol>
+  <li>A cross-lingual phoneme representation that maps English pronunciation into a Vietnamese-compatible phonological structure.</li>
+  <li>An end-to-end encoder–decoder architecture using a frozen PhoWhisper encoder and Transformer decoder for phoneme recognition.</li>
+</ol>
+
+<p>The phoneme representation work is probably the most interesting part of the paper. The authors build a shared phoneme inventory based on Vietnamese syllable structure — Initial, Rhyme, Tone, etc. — and then adapt English words into that system.</p>
+
+<p>They distinguish between:</p>
+
+<ul>
+  <li><strong>Standard English pronunciation</strong></li>
+  <li><strong>Localized Vietnamese-style pronunciation (“Vietlish”)</strong></li>
+</ul>
+
+<p>For example, an English word like <em>message</em> may be pronounced approximately according to Vietnamese syllable constraints rather than canonical English phonology. The system attempts to normalize both pronunciations into a unified phoneme representation. The diagram on page 5 shows this conversion pipeline visually, including how tones and syllable boundaries are represented.</p>
+
+<p>Architecturally, the model combines:</p>
+
+<ul>
+  <li>a <strong>frozen PhoWhisper encoder</strong> trained on Vietnamese ASR,</li>
+  <li>with a <strong>Transformer decoder</strong> that autoregressively predicts phoneme sequences.</li>
+</ul>
+
+<p>The encoder extracts acoustic features from log-mel spectrograms using convolutional layers and Whisper attention blocks. The decoder then uses self-attention plus cross-attention to map audio features into phoneme sequences. One implementation detail they emphasize is the use of <em>multiple cross-attention mechanisms</em> to avoid losing encoded information through deep Transformer stacks.</p>
+
+<p>The experimental section uses both:</p>
+
+<ul>
+  <li>real Vietnamese datasets (VLSP 2020, Common Voice, VIVOS, FOSD),</li>
+  <li>and a synthetic bilingual dataset constructed from English words, Vietlish pronunciations, and interleaved Vietnamese-English speech.</li>
+</ul>
+
+<p>The synthetic dataset design is fairly elaborate:</p>
+
+<ul>
+  <li>“Native English” uses Cambridge Dictionary audio,</li>
+  <li>“Vietlish” converts English words into Vietnamese phonetic approximations,</li>
+  <li>“IEV” contains mixed-language utterances with alternating Vietnamese and English words.</li>
+</ul>
+
+<p>They compare four architectures:</p>
+
+<ul>
+  <li>Whisper-GRU</li>
+  <li>Whisper-LSTM</li>
+  <li>Wav2Vec2-Transformer</li>
+  <li>Whisper-Transformer</li>
+</ul>
+
+<p>The Whisper-Transformer model consistently wins by a large margin.</p>
+
+<p>On Vietnamese datasets:</p>
+
+<ul>
+  <li>VIVOS PER: <strong>8.85%</strong></li>
+  <li>Common Voice PER: <strong>13.02%</strong></li>
+  <li>FOSD PER: <strong>16.7%</strong></li>
+  <li>VLSP 2020 PER: <strong>22.4%</strong></li>
+</ul>
+
+<p>On synthetic bilingual datasets:</p>
+
+<ul>
+  <li>IEV PER: <strong>7.02%</strong></li>
+  <li>Vietlish PER: <strong>16.21%</strong></li>
+  <li>Native English PER: <strong>28.55%</strong></li>
+</ul>
+
+<p>The striking thing is how badly the simpler GRU/LSTM systems perform, especially on English. Some PER values exceed 100%, which implies catastrophic insertion/deletion/substitution behavior in phoneme prediction. The authors argue that the Transformer decoder is much better at handling long-range dependencies and code-switching structure.</p>
+
+<p>The paper’s strengths:</p>
+
+<ul>
+  <li>sensible framing of Vietlish/code-switching as a phonological problem rather than purely lexical,</li>
+  <li>practical bilingual phoneme mapping,</li>
+  <li>decent engineering integration of PhoWhisper with a Transformer decoder,</li>
+  <li>synthetic dataset construction tailored to Vietnamese-English mixing.</li>
+</ul>
+
+<p>But there are also limitations:</p>
+
+<ul>
+  <li>the English dataset is tiny (~6 hours training audio), which weakens claims about robust bilingual generalization,</li>
+  <li>much of the bilingual data is synthetic rather than naturally occurring conversational speech,</li>
+  <li>evaluation focuses only on PER, not downstream ASR usefulness,</li>
+  <li>comparisons against modern multilingual Whisper fine-tuning baselines are limited,</li>
+  <li>the paper sometimes overstates novelty; many ideas derive directly from established encoder–decoder and multilingual phoneme-recognition work.</li>
+</ul>
+
+<p>Overall, the paper is less a breakthrough in multilingual speech modeling than a solid applied engineering paper focused on Vietnamese-English code-switching and accent localization. The most original piece is the phoneme normalization strategy for Vietlish pronunciation. The architecture itself is relatively conventional, but the results suggest that combining PhoWhisper with a Transformer decoder is effective for this specific bilingual setting.</p>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/2026/05/14/whisper-based-cross-lingual-phoneme-recognition-between-vietnamese-and-english.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

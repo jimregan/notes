@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>LightlySSL Codebase Overview | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="LightlySSL Codebase Overview" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Claude-generated codebase reference" />
+<meta property="og:description" content="Claude-generated codebase reference" />
+<link rel="canonical" href="https://jimregan.github.io/notes/mseb/lightlyssl/2026/06/12/lightly-codebase-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/mseb/lightlyssl/2026/06/12/lightly-codebase-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-12T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/mseb/lightlyssl/2026/06/12/lightly-codebase-notes.html","@type":"BlogPosting","headline":"LightlySSL Codebase Overview","dateModified":"2026-06-12T00:00:00-05:00","datePublished":"2026-06-12T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/mseb/lightlyssl/2026/06/12/lightly-codebase-notes.html"},"description":"Claude-generated codebase reference","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">LightlySSL Codebase Overview</h1><p class="page-description">Claude-generated codebase reference</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-06-12T00:00:00-05:00" itemprop="datePublished">
+        Jun 12, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      14 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#mseb">mseb</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#lightlyssl">lightlyssl</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#lightlyssl-codebase-overview">LightlySSL Codebase Overview</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#top-level-layout">Top-level layout</a></li>
+<li class="toc-entry toc-h2"><a href="#package-internals-lightly">Package internals (lightly/)</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#corepy">core.py</a></li>
+<li class="toc-entry toc-h3"><a href="#loss">loss/</a></li>
+<li class="toc-entry toc-h3"><a href="#models">models/</a></li>
+<li class="toc-entry toc-h3"><a href="#modelsmodules">models/modules/</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#projection-and-prediction-heads-headspy">Projection and prediction heads (heads.py)</a></li>
+<li class="toc-entry toc-h4"><a href="#masked-vision-transformers">Masked Vision Transformers</a></li>
+<li class="toc-entry toc-h4"><a href="#i-jepa-predictor-ijepapy-ijepa_timmpy">I-JEPA predictor (ijepa.py, ijepa_timm.py)</a></li>
+<li class="toc-entry toc-h4"><a href="#memory-and-nearest-neighbour-modules">Memory and nearest-neighbour modules</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#transforms">transforms/</a></li>
+<li class="toc-entry toc-h3"><a href="#data">data/</a></li>
+<li class="toc-entry toc-h3"><a href="#utils">utils/</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#benchmarking-utilsbenchmarking">Benchmarking (utils/benchmarking/)</a></li>
+<li class="toc-entry toc-h4"><a href="#other-utilities">Other utilities</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h3"><a href="#api">api/</a></li>
+<li class="toc-entry toc-h3"><a href="#cli">cli/</a></li>
+<li class="toc-entry toc-h3"><a href="#embedding">embedding/</a></li>
+<li class="toc-entry toc-h3"><a href="#active_learning">active_learning/</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#how-the-pieces-wire-together">How the pieces wire together</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#minimal-training-loop">Minimal training loop</a></li>
+<li class="toc-entry toc-h3"><a href="#teacher-student-dino">Teacher-student (DINO)</a></li>
+<li class="toc-entry toc-h3"><a href="#masked-prediction-i-jepa">Masked prediction (I-JEPA)</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#supported-ssl-methods">Supported SSL methods</a></li>
+<li class="toc-entry toc-h2"><a href="#benchmarks-benchmarksimagenet">Benchmarks (benchmarks/imagenet/)</a></li>
+<li class="toc-entry toc-h2"><a href="#examples-examples">Examples (examples/)</a></li>
+<li class="toc-entry toc-h2"><a href="#testing">Testing</a></li>
+<li class="toc-entry toc-h2"><a href="#dependencies">Dependencies</a></li>
+</ul>
+</li>
+</ul><h1 id="lightlyssl-codebase-overview">
+<a class="anchor" href="#lightlyssl-codebase-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>LightlySSL Codebase Overview</h1>
+
+<p>LightlySSL is a modular PyTorch framework for self-supervised visual representation learning. It provides low-level building blocks — loss functions, model heads, data transforms — that you compose yourself. It also ships an optional REST client for the commercial Lightly platform.</p>
+
+<hr>
+
+<h2 id="top-level-layout">
+<a class="anchor" href="#top-level-layout" aria-hidden="true"><span class="octicon octicon-link"></span></a>Top-level layout</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lightly/          # main Python package
+benchmarks/       # ImageNet benchmark scripts
+examples/         # standalone usage examples (PyTorch + PyTorch Lightning)
+tests/            # pytest suite mirroring the package structure
+docs/             # Sphinx documentation source
+requirements/     # pinned requirement files
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="package-internals-lightly">
+<a class="anchor" href="#package-internals-lightly" aria-hidden="true"><span class="octicon octicon-link"></span></a>Package internals (<code class="language-plaintext highlighter-rouge">lightly/</code>)</h2>
+
+<h3 id="corepy">
+<a class="anchor" href="#corepy" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">core.py</code>
+</h3>
+
+<p>High-level one-liner API (<code class="language-plaintext highlighter-rouge">train_model_and_embed_images</code>, <code class="language-plaintext highlighter-rouge">train_embedding_model</code>, <code class="language-plaintext highlighter-rouge">embed_images</code>). Intended for quick experimentation; not the primary interface for serious use.</p>
+
+<h3 id="loss">
+<a class="anchor" href="#loss" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">loss/</code>
+</h3>
+
+<p>One file per loss function, ~25 implementations. All inherit from <code class="language-plaintext highlighter-rouge">torch.nn.Module</code> and expose a <code class="language-plaintext highlighter-rouge">forward()</code> that takes raw feature tensors (not logits or class scores).</p>
+
+<p><strong>Common constructor parameters:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">temperature</code></td>
+      <td>Softmax sharpening (contrastive methods)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">gather_distributed</code></td>
+      <td>All-gather features across GPUs before computing loss</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">memory_bank_size</code></td>
+      <td>Tuple <code class="language-plaintext highlighter-rouge">(num_features, dim)</code> for queue-based negatives</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Representative implementations:</strong></p>
+
+<ul>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">NTXentLoss</code></strong> — SimCLR/MoCo contrastive loss. Computes cosine similarity matrix over a batch, masks the diagonal (self-pairs), and optionally draws negatives from a <code class="language-plaintext highlighter-rouge">MemoryBankModule</code>. Distributed gathering dequeues from all ranks before masking.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">BarlowTwinsLoss</code></strong> — Computes the cross-correlation matrix of the two batch embeddings after batch normalisation. Penalises off-diagonal entries (redundancy reduction) with weight <code class="language-plaintext highlighter-rouge">lambda_param</code>.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">DINOLoss</code></strong> — Cross-entropy between teacher softmax and student log-softmax across the multi-crop views. Maintains a running <code class="language-plaintext highlighter-rouge">center</code> (moving average of teacher outputs) to prevent collapse. The teacher temperature is linearly warmed up over <code class="language-plaintext highlighter-rouge">warmup_teacher_temp_epochs</code> epochs. <code class="language-plaintext highlighter-rouge">update_center()</code> must be called after each backward pass.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">IBOTPatchLoss</code> / <code class="language-plaintext highlighter-rouge">IBOTPlusPlusPatchLoss</code></strong> — Patch-level counterpart to DINO loss; operates on per-token output rather than the CLS token.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">LeJEPALoss</code> + <code class="language-plaintext highlighter-rouge">SIGReg</code></strong> — The newest addition (2026). <code class="language-plaintext highlighter-rouge">lejepa_invariance_loss()</code> pulls local-view projections toward the global-view mean (MSE). <code class="language-plaintext highlighter-rouge">SIGReg</code> is a regulariser based on the Epps-Pulley test that encourages the embedding distribution to match an isotropic Gaussian via characteristic function integration over a frequency grid. Unusual compared to the variance terms in VICReg.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">VICRegLoss</code></strong> — Three-term loss: invariance (MSE between views), variance (hinge on per-dimension std), covariance (off-diagonal of covariance matrix). No negatives required.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">VICRegLLoss</code></strong> — Runs the same three-term VICReg loss at two separate granularities: a global branch (one feature vector per image) and a local branch (a spatial grid of feature vectors per image). The two branches are independent modules weighted by <code class="language-plaintext highlighter-rouge">alpha * global_loss + (1 - alpha) * local_loss</code>. Local features from different views are matched via nearest-neighbour lookup on the coordinate grids rather than by position, so the local branch is view-position-aware. This is not “VICReg plus a patch loss”; it is two parallel VICReg computations on different feature representations.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">SwaVLoss</code></strong> — Computes Sinkhorn-normalised soft cluster assignments and applies a swapped prediction objective between views.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">MSNLoss</code> / <code class="language-plaintext highlighter-rouge">PMSNLoss</code></strong> — Masked Siamese Networks loss. <code class="language-plaintext highlighter-rouge">PMSNLoss</code> adds a prior-matching term (student prototype distribution should match a target prior).</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">KoLeoLoss</code></strong> — Pairwise log-repulsion loss encouraging uniform coverage of the embedding sphere.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">DirectCLRLoss</code></strong> — Subclass of <code class="language-plaintext highlighter-rouge">NTXentLoss</code>. Applies contrastive loss on only the first <code class="language-plaintext highlighter-rouge">loss_dim</code> dimensions of the embedding, bypassing the need for a projection head. Useful for studying which representation dimensions carry useful information.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">MMCRLoss</code></strong> — Maximum Manifold Capacity Representations loss (2023). Uses the singular values of the online and momentum embedding matrices; maximises nuclear norm of the centred online embeddings while minimising distance to the momentum embeddings.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">EMPSSLLoss</code></strong> — EMP-SSL loss (2023). Combines a Total Coding Rate (TCR) term (from the rate-distortion literature) with a cross-patch invariance term. No example script is shipped; the loss class is provided as a building block.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">MACLLoss</code></strong> — Model-Aware Contrastive Loss (ICML 2023). Adapts the contrastive temperature per sample based on alignment magnitude, reducing the risk of collapsing easy negatives. No example script.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">HypersphereLoss</code></strong> — Alignment and uniformity loss on the hypersphere (Wang &amp; Isola, 2020). Applies L2 normalisation internally; encourages alignment between positive pairs and uniform coverage of the sphere. No example script.</p>
+  </li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">MemoryBankModule</code></strong> (<code class="language-plaintext highlighter-rouge">loss/memory_bank.py</code>) — FIFO queue with a learnable pointer. Shared by <code class="language-plaintext highlighter-rouge">NTXentLoss</code>, <code class="language-plaintext highlighter-rouge">NNMemoryBankModule</code>, and others. <code class="language-plaintext highlighter-rouge">forward(output, update)</code> returns the current bank contents and optionally enqueues the batch.</p>
+  </li>
+</ul>
+
+<h3 id="models">
+<a class="anchor" href="#models" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">models/</code>
+</h3>
+
+<p>Legacy high-level wrappers (<code class="language-plaintext highlighter-rouge">SimCLR</code>, <code class="language-plaintext highlighter-rouge">BYOL</code>, <code class="language-plaintext highlighter-rouge">MoCo</code>, <code class="language-plaintext highlighter-rouge">SimSiam</code>, <code class="language-plaintext highlighter-rouge">NNCLR</code>, <code class="language-plaintext highlighter-rouge">BarlowTwins</code>) that bundle a backbone with projection/prediction heads. These pre-date the low-level approach and are being phased out; new work should use <code class="language-plaintext highlighter-rouge">models/modules/</code> directly.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">ResNetGenerator</code></strong> — Custom ResNet that swaps the 7×7 stem convolution for a 3×3 one. This makes it faster for small-image pretraining (CIFAR-scale), while remaining compatible with ImageNet.</p>
+
+<h3 id="modelsmodules">
+<a class="anchor" href="#modelsmodules" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">models/modules/</code>
+</h3>
+
+<p>The primary building-block layer.</p>
+
+<h4 id="projection-and-prediction-heads-headspy">
+<a class="anchor" href="#projection-and-prediction-heads-headspy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projection and prediction heads (<code class="language-plaintext highlighter-rouge">heads.py</code>)</h4>
+
+<p><code class="language-plaintext highlighter-rouge">ProjectionHead</code> is the base class. Its constructor takes a list of 4- or 5-tuples:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">in_features</span><span class="p">,</span> <span class="n">out_features</span><span class="p">,</span> <span class="n">batch_norm</span><span class="p">,</span> <span class="n">non_linearity</span><span class="p">[,</span> <span class="n">use_bias</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>It builds a sequential MLP from that spec. Method-specific subclasses fix the spec:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Head</th>
+      <th>Layers</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRProjectionHead</code></td>
+      <td>2 (BN+ReLU hidden)</td>
+      <td>Standard SimCLR MLP</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BarlowTwinsProjectionHead</code></td>
+      <td>3 (8192 hidden)</td>
+      <td>Wide MLP</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BYOLProjectionHead</code></td>
+      <td>2</td>
+      <td>No BN on output</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BYOLPredictionHead</code></td>
+      <td>2</td>
+      <td>Narrower</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MoCoProjectionHead</code></td>
+      <td>Configurable <code class="language-plaintext highlighter-rouge">num_layers</code>
+</td>
+      <td>Optional BN</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NNCLRProjectionHead</code></td>
+      <td>3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NNCLRPredictionHead</code></td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DINOProjectionHead</code></td>
+      <td>Configurable</td>
+      <td>Has <code class="language-plaintext highlighter-rouge">freeze_last_layer()</code> / <code class="language-plaintext highlighter-rouge">cancel_last_layer_gradients()</code> for the teacher weight normalisation trick</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DINOv2ProjectionHead</code></td>
+      <td>Configurable</td>
+      <td>Gated last layer</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LeJEPAProjectionHead</code></td>
+      <td>Configurable</td>
+      <td>For the local→global mapping</td>
+    </tr>
+    <tr>
+      <td>
+<code class="language-plaintext highlighter-rouge">SwaVProjectionHead</code> + <code class="language-plaintext highlighter-rouge">SwaVPrototypes</code>
+</td>
+      <td>Separate MLP + prototype matrix</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>
+<code class="language-plaintext highlighter-rouge">SMoGProjectionHead</code> + <code class="language-plaintext highlighter-rouge">SMoGPredictionHead</code> + <code class="language-plaintext highlighter-rouge">SMoGPrototypes</code>
+</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">AIMPredictionHead</code> lives in <code class="language-plaintext highlighter-rouge">heads_timm.py</code> and requires timm.</p>
+
+<h4 id="masked-vision-transformers">
+<a class="anchor" href="#masked-vision-transformers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Masked Vision Transformers</h4>
+
+<p><code class="language-plaintext highlighter-rouge">MaskedVisionTransformer</code> (abstract, <code class="language-plaintext highlighter-rouge">masked_vision_transformer.py</code>) defines the interface used by MAE, I-JEPA, and LeJEPA:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">preprocess(images, idx_mask, idx_keep)</code> — patchify, add positional embeddings, apply mask or keep subset</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">encode(images, idx_mask, idx_keep)</code> — run the transformer on the (masked) tokens</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">forward_intermediates(images, ...)</code> — return layer-by-layer activations</li>
+</ul>
+
+<p>Three concrete implementations:</p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">MaskedVisionTransformerTorchvision</code> — wraps torchvision ViT (requires torchvision ≥ 0.12)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">MaskedVisionTransformerTIMM</code> — wraps timm ViT (requires timm ≥ 0.9.9)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">MaskedCausalVisionTransformer</code> — causal attention variant for AIM</li>
+</ul>
+
+<p>Masking can be specified three ways: <code class="language-plaintext highlighter-rouge">idx_mask</code> (indices to zero out), boolean <code class="language-plaintext highlighter-rouge">mask</code>, or <code class="language-plaintext highlighter-rouge">idx_keep</code> (indices to retain). The <code class="language-plaintext highlighter-rouge">preprocess()</code> method handles all three.</p>
+
+<h4 id="i-jepa-predictor-ijepapy-ijepa_timmpy">
+<a class="anchor" href="#i-jepa-predictor-ijepapy-ijepa_timmpy" aria-hidden="true"><span class="octicon octicon-link"></span></a>I-JEPA predictor (<code class="language-plaintext highlighter-rouge">ijepa.py</code>, <code class="language-plaintext highlighter-rouge">ijepa_timm.py</code>)</h4>
+
+<p><code class="language-plaintext highlighter-rouge">IJEPAPredictor</code> takes already-encoded context tokens and predicts the embeddings of masked target tokens. Distinct from MAE’s pixel-space decoder: it predicts in embedding space.</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">predictor_embed</code> maps context tokens to <code class="language-plaintext highlighter-rouge">predictor_embed_dim</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">mask_token</code> is a learnable parameter (gradient flows through it)</li>
+  <li>Positional embeddings are 2D sinusoidal (from <code class="language-plaintext highlighter-rouge">utils.get_2d_sincos_pos_embed</code>)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">IJEPAPredictor.from_vit_encoder()</code> class method initialises from a torchvision ViT encoder</li>
+</ul>
+
+<h4 id="memory-and-nearest-neighbour-modules">
+<a class="anchor" href="#memory-and-nearest-neighbour-modules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Memory and nearest-neighbour modules</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">NNMemoryBankModule</code> (<code class="language-plaintext highlighter-rouge">nn_memory_bank.py</code>) — extends <code class="language-plaintext highlighter-rouge">MemoryBankModule</code>; returns the nearest neighbour from the bank for each query, used by NNCLR.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">CenterModule</code> (<code class="language-plaintext highlighter-rouge">center.py</code>) — maintains a running mean for teacher centering (used internally by <code class="language-plaintext highlighter-rouge">DINOLoss</code>).</li>
+</ul>
+
+<h3 id="transforms">
+<a class="anchor" href="#transforms" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">transforms/</code>
+</h3>
+
+<p>Each SSL method has a dedicated transform class that subclasses <code class="language-plaintext highlighter-rouge">MultiViewTransform</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">MultiViewTransform</code> is a simple container:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">Tensor</span><span class="p">,</span> <span class="n">Image</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tensor</span><span class="p">]:</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">transform</span><span class="p">(</span><span class="n">image</span><span class="p">)</span> <span class="k">for</span> <span class="n">transform</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">transforms</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p><strong>Batch contract</strong> — <code class="language-plaintext highlighter-rouge">__call__</code> returns a <code class="language-plaintext highlighter-rouge">List[Tensor]</code> with one element per crop view. When this is used as the dataset’s <code class="language-plaintext highlighter-rouge">transform</code>, each sample’s image field becomes a list of tensors. PyTorch’s default <code class="language-plaintext highlighter-rouge">collate_fn</code> sees a batch of those lists and stacks each position independently, so a batch from a two-view transform produces a <code class="language-plaintext highlighter-rouge">List[Tensor]</code> of length 2 where each tensor has shape <code class="language-plaintext highlighter-rouge">(B, C, H, W)</code>. Training loops unpack this as:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">),</span> <span class="n">labels</span><span class="p">,</span> <span class="n">filenames</span> <span class="o">=</span> <span class="n">batch</span>   <span class="c1"># SimCLR, two views
+</span><span class="n">views</span><span class="p">,</span> <span class="n">labels</span><span class="p">,</span> <span class="n">filenames</span> <span class="o">=</span> <span class="n">batch</span>       <span class="c1"># DINO; views is a list of 8 tensors
+</span></code></pre></div></div>
+
+<p>This is the one contract that every training loop must respect: the first element of the batch is not a single <code class="language-plaintext highlighter-rouge">(B, C, H, W)</code> tensor but a list of them, one per view.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">DINOTransform</code></strong> is the most complex example:</p>
+<ul>
+  <li>2 global crops: <code class="language-plaintext highlighter-rouge">crop_size=224</code>, <code class="language-plaintext highlighter-rouge">scale=(0.4, 1.0)</code>, Gaussian blur prob = 1.0</li>
+  <li>6 local crops: <code class="language-plaintext highlighter-rouge">crop_size=96</code>, <code class="language-plaintext highlighter-rouge">scale=(0.05, 0.4)</code>, Gaussian blur prob = 0.5</li>
+  <li>Shared augmentations: colour jitter, grayscale, solarisation, horizontal flip</li>
+  <li>Gaussian blur uses a (kernel_size, sigma_min, sigma_max) triple</li>
+</ul>
+
+<p>Other notable transforms:</p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">MAETransform</code> — generates a random token mask alongside the image</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">IBOTTransform</code> — similar to DINO but with patch masking</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">IJEPATransform</code> — produces images; masking is handled separately by <code class="language-plaintext highlighter-rouge">IJEPAMaskCollator</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">MultiViewTransformV2</code> — torchvision v2-compatible variant</li>
+  <li>Frequency-domain transforms (<code class="language-plaintext highlighter-rouge">RFFt2dTransform</code>, <code class="language-plaintext highlighter-rouge">IRFFt2dTransform</code>, <code class="language-plaintext highlighter-rouge">RandomFrequencyMaskTransform</code>, <code class="language-plaintext highlighter-rouge">AmplitudeRescaleTransform</code>, <code class="language-plaintext highlighter-rouge">PhaseShiftTransform</code>) — for frequency-space augmentation research</li>
+</ul>
+
+<p>Shared augmentation primitives: <code class="language-plaintext highlighter-rouge">GaussianBlur</code>, <code class="language-plaintext highlighter-rouge">RandomSolarization</code>, <code class="language-plaintext highlighter-rouge">random_rotation_transform</code>, <code class="language-plaintext highlighter-rouge">ImageGridTransform</code>, <code class="language-plaintext highlighter-rouge">AddGridTransform</code>.</p>
+
+<h3 id="data">
+<a class="anchor" href="#data" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">data/</code>
+</h3>
+
+<p><strong><code class="language-plaintext highlighter-rouge">LightlyDataset</code></strong> — the primary dataset class. Wraps either a local image folder or an existing <code class="language-plaintext highlighter-rouge">torch.utils.data.Dataset</code>.</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">__getitem__</code> returns <code class="language-plaintext highlighter-rouge">(sample, target, filename)</code> — the filename is important for the platform integration</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">from_torch_dataset(dataset)</code> class method wraps CIFAR10 etc.</li>
+  <li>Supports ImageNet-style subfolder layout and video files (requires <code class="language-plaintext highlighter-rouge">av</code>)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">get_filenames()</code> and <code class="language-plaintext highlighter-rouge">dump()</code> for export</li>
+</ul>
+
+<p><strong>Collate functions</strong> — these are being deprecated in favour of applying transforms directly in the dataset. They exist for backwards compatibility and for mask-generating workflows:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">BaseCollateFunction</code> — applies transform to each sample, returns <code class="language-plaintext highlighter-rouge">(list_of_view_batches, labels, filenames)</code>
+</li>
+  <li>Method-specific subclasses: <code class="language-plaintext highlighter-rouge">SimCLRCollateFunction</code>, <code class="language-plaintext highlighter-rouge">DINOCollateFunction</code>, <code class="language-plaintext highlighter-rouge">MoCoCollateFunction</code>, <code class="language-plaintext highlighter-rouge">SwaVCollateFunction</code>, <code class="language-plaintext highlighter-rouge">MAECollateFunction</code>, <code class="language-plaintext highlighter-rouge">MSNCollateFunction</code>, <code class="language-plaintext highlighter-rouge">VICRegLCollateFunction</code>, <code class="language-plaintext highlighter-rouge">MultiCropCollateFunction</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">IJEPAMaskCollator</code> — the modern pattern for mask-based methods; generates context and target masks per sample, decoupled from the image transform. Returns <code class="language-plaintext highlighter-rouge">(images, masks_enc, masks_pred)</code>.</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">IMAGENET_NORMALIZE</code> dict (<code class="language-plaintext highlighter-rouge">{"mean": [0.485, 0.456, 0.406], "std": [0.229, 0.224, 0.225]}</code>) is defined here and imported throughout.</p>
+
+<h3 id="utils">
+<a class="anchor" href="#utils" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">utils/</code>
+</h3>
+
+<h4 id="benchmarking-utilsbenchmarking">
+<a class="anchor" href="#benchmarking-utilsbenchmarking" aria-hidden="true"><span class="octicon octicon-link"></span></a>Benchmarking (<code class="language-plaintext highlighter-rouge">utils/benchmarking/</code>)</h4>
+
+<p>PyTorch Lightning modules for standard SSL evaluation protocols:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Class</th>
+      <th>Protocol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KNNClassifier</code></td>
+      <td>k-NN on frozen features, no gradient</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LinearClassifier</code></td>
+      <td>Linear probe on frozen backbone</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FinetuneClassifier</code></td>
+      <td>End-to-end fine-tuning</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OnlineLinearClassifier</code></td>
+      <td>Trains a linear head concurrently with SSL pretraining</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BenchmarkModule</code></td>
+      <td>Base Lightning module used by the benchmark scripts</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MetricCallback</code></td>
+      <td>Lightning callback that logs top-1/top-5 accuracy</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="other-utilities">
+<a class="anchor" href="#other-utilities" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other utilities</h4>
+
+<ul>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">dependency.py</code></strong> — gates optional features: <code class="language-plaintext highlighter-rouge">torchvision_vit_available()</code> (≥ 0.12), <code class="language-plaintext highlighter-rouge">timm_vit_available()</code> (timm ≥ 0.9.9, checks for <code class="language-plaintext highlighter-rouge">LayerType</code>), <code class="language-plaintext highlighter-rouge">torchvision_transforms_v2_available()</code>.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">dist.py</code></strong> — distributed helpers: <code class="language-plaintext highlighter-rouge">gather()</code>, <code class="language-plaintext highlighter-rouge">eye_rank()</code> (diagonal mask per rank), <code class="language-plaintext highlighter-rouge">rank()</code>, <code class="language-plaintext highlighter-rouge">world_size()</code>.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">lars.py</code></strong> — LARS optimiser (Layer-wise Adaptive Rate Scaling), used in ImageNet benchmarks.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">scheduler.py</code></strong> — <code class="language-plaintext highlighter-rouge">CosineWarmupScheduler</code>: cosine decay with a linear warmup phase.</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">io.py</code></strong> — read/write embeddings as CSV (<code class="language-plaintext highlighter-rouge">embedding_0</code>, <code class="language-plaintext highlighter-rouge">embedding_1</code>, …, <code class="language-plaintext highlighter-rouge">label</code>).</li>
+  <li>
+<strong><code class="language-plaintext highlighter-rouge">version_compare.py</code></strong> — semantic version comparison utility.</li>
+</ul>
+
+<h3 id="api">
+<a class="anchor" href="#api" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">api/</code>
+</h3>
+
+<p>REST client for the Lightly web platform. Entry point is <code class="language-plaintext highlighter-rouge">ApiWorkflowClient</code>, which mixes in ~25 workflow modules covering:</p>
+
+<ul>
+  <li>Dataset CRUD (<code class="language-plaintext highlighter-rouge">api_workflow_datasets.py</code>)</li>
+  <li>Embedding upload/download (<code class="language-plaintext highlighter-rouge">api_workflow_upload_embeddings.py</code>)</li>
+  <li>Datasource configuration (<code class="language-plaintext highlighter-rouge">api_workflow_datasources.py</code>)</li>
+  <li>Active learning selection (<code class="language-plaintext highlighter-rouge">api_workflow_selection.py</code>)</li>
+  <li>Tag management (<code class="language-plaintext highlighter-rouge">api_workflow_tags.py</code>)</li>
+  <li>Compute worker management (<code class="language-plaintext highlighter-rouge">api_workflow_compute_worker.py</code>)</li>
+  <li>Prediction upload (<code class="language-plaintext highlighter-rouge">api_workflow_predictions.py</code>)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">bitmask.py</code> — efficient bitset representation of selected sample subsets</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">_version_checking.py</code> — background thread that checks for newer package versions (throttled to avoid duplicate calls)</li>
+</ul>
+
+<p>The swagger client under <code class="language-plaintext highlighter-rouge">lightly/openapi_generated/</code> is auto-generated from the platform’s OpenAPI spec.</p>
+
+<h3 id="cli">
+<a class="anchor" href="#cli" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">cli/</code>
+</h3>
+
+<p>Hydra-based CLI with YAML config (<code class="language-plaintext highlighter-rouge">cli/config/config.yaml</code>). Registered entry points:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Handler</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-ssl-train</code></td>
+      <td><code class="language-plaintext highlighter-rouge">train_cli</code></td>
+      <td>SSL pretraining</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-embed</code></td>
+      <td><code class="language-plaintext highlighter-rouge">embed_cli</code></td>
+      <td>Generate embeddings</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-magic</code></td>
+      <td><code class="language-plaintext highlighter-rouge">lightly_cli</code></td>
+      <td>Platform dataset curation</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-crop</code></td>
+      <td><code class="language-plaintext highlighter-rouge">crop_cli</code></td>
+      <td>Crop images via bounding boxes</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-download</code></td>
+      <td><code class="language-plaintext highlighter-rouge">download_cli</code></td>
+      <td>Download data from platform</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-serve</code></td>
+      <td><code class="language-plaintext highlighter-rouge">serve_cli</code></td>
+      <td>Inference server</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lightly-version</code></td>
+      <td><code class="language-plaintext highlighter-rouge">version_cli</code></td>
+      <td>Show version</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="embedding">
+<a class="anchor" href="#embedding" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">embedding/</code>
+</h3>
+
+<p><code class="language-plaintext highlighter-rouge">SelfSupervisedEmbedding</code> and <code class="language-plaintext highlighter-rouge">BaseEmbedding</code> — higher-level wrappers around model training for the embedding workflow. Tightly coupled to the CLI and platform API.</p>
+
+<h3 id="active_learning">
+<a class="anchor" href="#active_learning" aria-hidden="true"><span class="octicon octicon-link"></span></a><code class="language-plaintext highlighter-rouge">active_learning/</code>
+</h3>
+
+<p>Deprecated. Now redirects users to the Lightly Worker Solution. The config stubs remain for backwards compatibility.</p>
+
+<hr>
+
+<h2 id="how-the-pieces-wire-together">
+<a class="anchor" href="#how-the-pieces-wire-together" aria-hidden="true"><span class="octicon octicon-link"></span></a>How the pieces wire together</h2>
+
+<h3 id="minimal-training-loop">
+<a class="anchor" href="#minimal-training-loop" aria-hidden="true"><span class="octicon octicon-link"></span></a>Minimal training loop</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># 1. Data
+</span><span class="n">dataset</span> <span class="o">=</span> <span class="n">LightlyDataset</span><span class="p">(</span><span class="s">"path/to/images"</span><span class="p">)</span>
+<span class="n">transform</span> <span class="o">=</span> <span class="n">SimCLRTransform</span><span class="p">(</span><span class="n">input_size</span><span class="o">=</span><span class="mi">224</span><span class="p">)</span>
+<span class="n">dataset</span><span class="p">.</span><span class="n">transform</span> <span class="o">=</span> <span class="n">transform</span>
+<span class="n">loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="mi">256</span><span class="p">,</span> <span class="p">...)</span>
+
+<span class="c1"># 2. Model
+</span><span class="n">backbone</span> <span class="o">=</span> <span class="n">torchvision</span><span class="p">.</span><span class="n">models</span><span class="p">.</span><span class="n">resnet50</span><span class="p">()</span>
+<span class="n">backbone</span><span class="p">.</span><span class="n">fc</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Identity</span><span class="p">()</span>
+<span class="n">head</span> <span class="o">=</span> <span class="n">SimCLRProjectionHead</span><span class="p">(</span><span class="mi">2048</span><span class="p">,</span> <span class="mi">2048</span><span class="p">,</span> <span class="mi">128</span><span class="p">)</span>
+
+<span class="c1"># 3. Loss
+</span><span class="n">criterion</span> <span class="o">=</span> <span class="n">NTXentLoss</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="mf">0.07</span><span class="p">)</span>
+
+<span class="c1"># 4. Training
+</span><span class="k">for</span> <span class="p">(</span><span class="n">x0</span><span class="p">,</span> <span class="n">x1</span><span class="p">),</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">loader</span><span class="p">:</span>        <span class="c1"># x0, x1: (B, C, H, W)
+</span>    <span class="n">z0</span> <span class="o">=</span> <span class="n">head</span><span class="p">(</span><span class="n">backbone</span><span class="p">(</span><span class="n">x0</span><span class="p">).</span><span class="n">flatten</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+    <span class="n">z1</span> <span class="o">=</span> <span class="n">head</span><span class="p">(</span><span class="n">backbone</span><span class="p">(</span><span class="n">x1</span><span class="p">).</span><span class="n">flatten</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">z0</span><span class="p">,</span> <span class="n">z1</span><span class="p">)</span>
+    <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+    <span class="n">optimizer</span><span class="p">.</span><span class="n">step</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="teacher-student-dino">
+<a class="anchor" href="#teacher-student-dino" aria-hidden="true"><span class="octicon octicon-link"></span></a>Teacher-student (DINO)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">student</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(</span><span class="n">backbone</span><span class="p">,</span> <span class="n">DINOProjectionHead</span><span class="p">(...))</span>
+<span class="n">teacher</span> <span class="o">=</span> <span class="n">copy</span><span class="p">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">student</span><span class="p">)</span>
+<span class="n">deactivate_requires_grad</span><span class="p">(</span><span class="n">teacher</span><span class="p">)</span>
+
+<span class="n">criterion</span> <span class="o">=</span> <span class="n">DINOLoss</span><span class="p">(</span><span class="n">output_dim</span><span class="o">=</span><span class="mi">65536</span><span class="p">,</span> <span class="p">...)</span>
+
+<span class="k">for</span> <span class="n">views</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">loader</span><span class="p">:</span>            <span class="c1"># views: list of 8 tensors
+</span>    <span class="n">teacher_out</span> <span class="o">=</span> <span class="p">[</span><span class="n">teacher</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">views</span><span class="p">[:</span><span class="mi">2</span><span class="p">]]</span>   <span class="c1"># global only
+</span>    <span class="n">student_out</span> <span class="o">=</span> <span class="p">[</span><span class="n">student</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">views</span><span class="p">]</span>        <span class="c1"># all views
+</span>    <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">teacher_out</span><span class="p">,</span> <span class="n">student_out</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)</span>
+    <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+    <span class="n">optimizer</span><span class="p">.</span><span class="n">step</span><span class="p">()</span>
+    <span class="n">update_momentum</span><span class="p">(</span><span class="n">student</span><span class="p">,</span> <span class="n">teacher</span><span class="p">,</span> <span class="n">m</span><span class="o">=</span><span class="n">momentum</span><span class="p">)</span>
+    <span class="n">criterion</span><span class="p">.</span><span class="n">update_center</span><span class="p">(</span><span class="n">teacher_out</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="masked-prediction-i-jepa">
+<a class="anchor" href="#masked-prediction-i-jepa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Masked prediction (I-JEPA)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># IJEPAMaskCollator generates masks; masking is separate from the image transform
+</span><span class="n">collator</span> <span class="o">=</span> <span class="n">IJEPAMaskCollator</span><span class="p">(...)</span>
+<span class="n">loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="n">collate_fn</span><span class="o">=</span><span class="n">collator</span><span class="p">,</span> <span class="p">...)</span>
+
+<span class="k">for</span> <span class="n">images</span><span class="p">,</span> <span class="n">masks_enc</span><span class="p">,</span> <span class="n">masks_pred</span> <span class="ow">in</span> <span class="n">loader</span><span class="p">:</span>
+    <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+        <span class="n">target</span> <span class="o">=</span> <span class="n">teacher</span><span class="p">.</span><span class="n">encode</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>          <span class="c1"># all tokens
+</span>    <span class="n">context</span> <span class="o">=</span> <span class="n">student</span><span class="p">.</span><span class="n">forward_context</span><span class="p">(</span><span class="n">images</span><span class="p">,</span> <span class="n">masks_enc</span><span class="p">)</span>
+    <span class="n">predicted</span> <span class="o">=</span> <span class="n">predictor</span><span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">masks_enc</span><span class="p">,</span> <span class="n">masks_pred</span><span class="p">)</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">mse_loss</span><span class="p">(</span><span class="n">predicted</span><span class="p">,</span> <span class="n">target</span><span class="p">[</span><span class="n">masks_pred</span><span class="p">])</span>
+</code></pre></div></div>
+
+<hr>
+
+<h2 id="supported-ssl-methods">
+<a class="anchor" href="#supported-ssl-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Supported SSL methods</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Year</th>
+      <th>Loss</th>
+      <th>Transform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AIM</td>
+      <td>2024</td>
+      <td>MSE (reconstruction)</td>
+      <td><code class="language-plaintext highlighter-rouge">AIMTransform</code></td>
+    </tr>
+    <tr>
+      <td>Barlow Twins</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">BarlowTwinsLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BYOLTransform</code></td>
+    </tr>
+    <tr>
+      <td>BYOL</td>
+      <td>2020</td>
+      <td><code class="language-plaintext highlighter-rouge">NegativeCosineSimilarity</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BYOLTransform</code></td>
+    </tr>
+    <tr>
+      <td>DCL / DCLW</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">DCLLoss</code> / <code class="language-plaintext highlighter-rouge">DCLWLoss</code>
+</td>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRTransform</code></td>
+    </tr>
+    <tr>
+      <td>DenseCL</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">NTXentLoss</code> (dense)</td>
+      <td><code class="language-plaintext highlighter-rouge">DenseCLTransform</code></td>
+    </tr>
+    <tr>
+      <td>DetConB / DetConS</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">DetConBLoss</code> / <code class="language-plaintext highlighter-rouge">DetConSLoss</code>
+</td>
+      <td><code class="language-plaintext highlighter-rouge">DetConTransform</code></td>
+    </tr>
+    <tr>
+      <td>DirectCLR</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">DirectCLRLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRTransform</code></td>
+    </tr>
+    <tr>
+      <td>DINO</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">DINOLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DINOTransform</code></td>
+    </tr>
+    <tr>
+      <td>DINOv2</td>
+      <td>2023</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">DINOLoss</code> + <code class="language-plaintext highlighter-rouge">IBOTPatchLoss</code> + <code class="language-plaintext highlighter-rouge">KoLeoLoss</code>
+</td>
+      <td><code class="language-plaintext highlighter-rouge">DINOTransform</code></td>
+    </tr>
+    <tr>
+      <td>FastSiam</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">NegativeCosineSimilarity</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FastSiamTransform</code></td>
+    </tr>
+    <tr>
+      <td>iBOT</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">DINOLoss</code> + <code class="language-plaintext highlighter-rouge">IBOTPatchLoss</code>
+</td>
+      <td><code class="language-plaintext highlighter-rouge">IBOTTransform</code></td>
+    </tr>
+    <tr>
+      <td>I-JEPA</td>
+      <td>2023</td>
+      <td>MSE in embedding space</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">IJEPATransform</code> + <code class="language-plaintext highlighter-rouge">IJEPAMaskCollator</code>
+</td>
+    </tr>
+    <tr>
+      <td>LeJEPA</td>
+      <td>2024</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">LeJEPALoss</code> + <code class="language-plaintext highlighter-rouge">SIGReg</code>
+</td>
+      <td><code class="language-plaintext highlighter-rouge">IJEPATransform</code></td>
+    </tr>
+    <tr>
+      <td>MAE</td>
+      <td>2021</td>
+      <td>MSE (pixel reconstruction)</td>
+      <td><code class="language-plaintext highlighter-rouge">MAETransform</code></td>
+    </tr>
+    <tr>
+      <td>MMCR</td>
+      <td>2023</td>
+      <td><code class="language-plaintext highlighter-rouge">MMCRLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MMCRTransform</code></td>
+    </tr>
+    <tr>
+      <td>MoCo</td>
+      <td>2019</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">NTXentLoss</code> + memory bank</td>
+      <td><code class="language-plaintext highlighter-rouge">MoCoTransform</code></td>
+    </tr>
+    <tr>
+      <td>MSN</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">MSNLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MSNTransform</code></td>
+    </tr>
+    <tr>
+      <td>NNCLR</td>
+      <td>2021</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">NTXentLoss</code> + NN bank</td>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRTransform</code></td>
+    </tr>
+    <tr>
+      <td>PMSN</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">PMSNLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MSNTransform</code></td>
+    </tr>
+    <tr>
+      <td>SimCLR</td>
+      <td>2020</td>
+      <td><code class="language-plaintext highlighter-rouge">NTXentLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRTransform</code></td>
+    </tr>
+    <tr>
+      <td>SimMIM</td>
+      <td>2022</td>
+      <td>MSE (pixel reconstruction)</td>
+      <td><code class="language-plaintext highlighter-rouge">SimMIMTransform</code></td>
+    </tr>
+    <tr>
+      <td>SimSiam</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">NegativeCosineSimilarity</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SimSiamTransform</code></td>
+    </tr>
+    <tr>
+      <td>SMoG</td>
+      <td>2022</td>
+      <td>
+<code class="language-plaintext highlighter-rouge">nn.CrossEntropyLoss</code> (standard)</td>
+      <td><code class="language-plaintext highlighter-rouge">SMoGTransform</code></td>
+    </tr>
+    <tr>
+      <td>SwaV</td>
+      <td>2020</td>
+      <td><code class="language-plaintext highlighter-rouge">SwaVLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SwaVTransform</code></td>
+    </tr>
+    <tr>
+      <td>TiCo</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">TiCoLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SimCLRTransform</code></td>
+    </tr>
+    <tr>
+      <td>VICReg</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">VICRegLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VICRegTransform</code></td>
+    </tr>
+    <tr>
+      <td>VICRegL</td>
+      <td>2022</td>
+      <td><code class="language-plaintext highlighter-rouge">VICRegLLoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VICRegLTransform</code></td>
+    </tr>
+    <tr>
+      <td>WMSE</td>
+      <td>2021</td>
+      <td><code class="language-plaintext highlighter-rouge">WMSELoss</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WMSETransform</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="benchmarks-benchmarksimagenet">
+<a class="anchor" href="#benchmarks-benchmarksimagenet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Benchmarks (<code class="language-plaintext highlighter-rouge">benchmarks/imagenet/</code>)</h2>
+
+<p>Separate directories for <code class="language-plaintext highlighter-rouge">resnet50/</code> and <code class="language-plaintext highlighter-rouge">vitb16/</code>, each containing one script per method. Each script is a self-contained PyTorch Lightning <code class="language-plaintext highlighter-rouge">LightningModule</code> that:</p>
+
+<ol>
+  <li>Builds backbone + projection head + loss</li>
+  <li>Attaches an <code class="language-plaintext highlighter-rouge">OnlineLinearClassifier</code> for concurrent evaluation</li>
+  <li>Uses LARS optimiser with weight-decay exclusion for BN/bias parameters</li>
+  <li>Applies <code class="language-plaintext highlighter-rouge">CosineWarmupScheduler</code> with 10-epoch warmup</li>
+  <li>Applies the linear scaling rule: <code class="language-plaintext highlighter-rouge">lr = base_lr * global_batch_size / 256</code>
+</li>
+</ol>
+
+<hr>
+
+<h2 id="examples-examples">
+<a class="anchor" href="#examples-examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples (<code class="language-plaintext highlighter-rouge">examples/</code>)</h2>
+
+<p>Three variants per method:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">examples/pytorch/</code> — plain PyTorch, no Lightning (minimal, easiest to read)</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">examples/pytorch_lightning/</code> — single-GPU Lightning</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">examples/pytorch_lightning_distributed/</code> — multi-GPU Lightning</li>
+</ul>
+
+<p>Each is a standalone script; no shared library. The PyTorch examples are the canonical reference for understanding how the building blocks assemble.</p>
+
+<hr>
+
+<h2 id="testing">
+<a class="anchor" href="#testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>Tests live in <code class="language-plaintext highlighter-rouge">tests/</code>, mirroring the package layout. The suite uses pytest.</p>
+
+<p><strong>Markers and slow tests</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">@pytest.mark.slow</code> gates tests that are too expensive for CI on every commit (typically end-to-end data-loading tests, tests that download datasets, or tests that spin up a real distributed process). They are skipped by default and must be explicitly opted in:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pytest --runslow
+</code></pre></div></div>
+
+<p>The marker is registered in <code class="language-plaintext highlighter-rouge">conftest.py</code>; unmarked tests always run.</p>
+
+<p><strong>Global fixtures (<code class="language-plaintext highlighter-rouge">tests/conftest.py</code>)</strong></p>
+
+<p>Two environment variables are set unconditionally at collection time (before any fixtures apply) so that importing <code class="language-plaintext highlighter-rouge">lightly</code> never triggers a real network call:</p>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">LIGHTLY_DID_VERSION_CHECK=True</code> — suppresses the background version-check thread that fires on the first import.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">LIGHTLY_SERVER_LOCATION=https://dummy-url</code> — redirects any residual API calls to a non-existent host.</li>
+</ul>
+
+<p>A module-scoped <code class="language-plaintext highlighter-rouge">autouse</code> fixture <code class="language-plaintext highlighter-rouge">mock_versioning_api</code> additionally patches <code class="language-plaintext highlighter-rouge">VersioningApi.get_latest_pip_version</code> and <code class="language-plaintext highlighter-rouge">VersioningApi.get_minimum_compatible_pip_version</code> so that tests creating <code class="language-plaintext highlighter-rouge">ApiWorkflowClient</code> instances do not make real HTTP requests. The <code class="language-plaintext highlighter-rouge">module</code> scope means the patch is applied once per test module rather than once per test, which matters because <code class="language-plaintext highlighter-rouge">ApiWorkflowClient.__init__</code> triggers the versioning call at construction.</p>
+
+<p><strong>Distributed training tests</strong></p>
+
+<p>None of the tests run in a real multi-process distributed context. Instead, distributed behaviour is tested by patching <code class="language-plaintext highlighter-rouge">torch.distributed</code> via <code class="language-plaintext highlighter-rouge">pytest-mock</code>’s <code class="language-plaintext highlighter-rouge">mocker</code> fixture:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">test__gather_distributed</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mocker</span><span class="p">:</span> <span class="n">MockerFixture</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="n">mock_is_available</span> <span class="o">=</span> <span class="n">mocker</span><span class="p">.</span><span class="n">patch</span><span class="p">.</span><span class="nb">object</span><span class="p">(</span><span class="n">dist</span><span class="p">,</span> <span class="s">"is_available"</span><span class="p">,</span> <span class="n">return_value</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">NTXentLoss</span><span class="p">(</span><span class="n">gather_distributed</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">mock_is_available</span><span class="p">.</span><span class="n">assert_called_once</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">test__gather_distributed_dist_not_available</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mocker</span><span class="p">:</span> <span class="n">MockerFixture</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="n">mock_is_available</span> <span class="o">=</span> <span class="n">mocker</span><span class="p">.</span><span class="n">patch</span><span class="p">.</span><span class="nb">object</span><span class="p">(</span><span class="n">dist</span><span class="p">,</span> <span class="s">"is_available"</span><span class="p">,</span> <span class="n">return_value</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="k">with</span> <span class="n">pytest</span><span class="p">.</span><span class="n">raises</span><span class="p">(</span><span class="nb">ValueError</span><span class="p">):</span>
+        <span class="n">NTXentLoss</span><span class="p">(</span><span class="n">gather_distributed</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This pattern appears in every loss that accepts <code class="language-plaintext highlighter-rouge">gather_distributed</code>: it confirms that the constructor validates availability and raises <code class="language-plaintext highlighter-rouge">ValueError</code> when the flag is set but <code class="language-plaintext highlighter-rouge">torch.distributed</code> is not available, without requiring a real distributed backend.</p>
+
+<p><strong>Numerical testing of losses</strong></p>
+
+<p>Loss tests compute the expected value independently (a manual implementation of the loss formula) and compare with <code class="language-plaintext highlighter-rouge">pytest.approx()</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">l1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">loss_fn</span><span class="p">(</span><span class="n">out0</span><span class="p">,</span> <span class="n">out1</span><span class="p">))</span>
+<span class="n">l1_manual</span> <span class="o">=</span> <span class="n">_calc_ntxent_loss_manual</span><span class="p">(</span><span class="n">out0</span><span class="p">,</span> <span class="n">out1</span><span class="p">,</span> <span class="n">temperature</span><span class="o">=</span><span class="n">temperature</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">l1</span> <span class="o">==</span> <span class="n">pytest</span><span class="p">.</span><span class="n">approx</span><span class="p">(</span><span class="n">l1_manual</span><span class="p">,</span> <span class="nb">abs</span><span class="o">=</span><span class="mf">1e-5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Tests are parameterised over batch size, embedding dimension, temperature, and <code class="language-plaintext highlighter-rouge">gather_distributed</code> using <code class="language-plaintext highlighter-rouge">@pytest.mark.parametrize</code> to get broad coverage from a small number of test functions.</p>
+
+<hr>
+
+<h2 id="dependencies">
+<a class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p><strong>Required:</strong></p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">torch</code>, <code class="language-plaintext highlighter-rouge">torchvision</code>
+</li>
+  <li><code class="language-plaintext highlighter-rouge">pytorch-lightning &gt;= 1.0.4</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">hydra-core &gt;= 1.0.0</code> (CLI)</li>
+  <li><code class="language-plaintext highlighter-rouge">pydantic &gt;= 1.10.5</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">numpy &gt;= 1.18.1</code>, <code class="language-plaintext highlighter-rouge">tqdm</code>, <code class="language-plaintext highlighter-rouge">requests</code>
+</li>
+</ul>
+
+<p><strong>Optional extras:</strong></p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">[timm]</code> — timm ≥ 0.9.9; unlocks AIM, MAE-TIMM, I-JEPA-TIMM, <code class="language-plaintext highlighter-rouge">MaskedCausalVisionTransformer</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[video]</code> — <code class="language-plaintext highlighter-rouge">av &gt;= 8.0.3</code>; unlocks video dataset support</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[matplotlib]</code> — visualisation utilities</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">[dev]</code> — ruff, mypy, pytest with xdist/forked/mock for contributors</li>
+</ul>
+
+<p>Optional features are gated at import time via <code class="language-plaintext highlighter-rouge">lightly/utils/dependency.py</code>; missing extras produce informative errors rather than hard import failures.</p>
+
+  </div><a class="u-url" href="/notes/mseb/lightlyssl/2026/06/12/lightly-codebase-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

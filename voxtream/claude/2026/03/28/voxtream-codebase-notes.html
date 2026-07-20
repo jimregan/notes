@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Codebase summary from Claude | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Codebase summary from Claude" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="VoXtream codebase notes" />
+<meta property="og:description" content="VoXtream codebase notes" />
+<link rel="canonical" href="https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-codebase-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-codebase-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-28T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-codebase-notes.html","@type":"BlogPosting","headline":"Codebase summary from Claude","dateModified":"2026-03-28T00:00:00-05:00","datePublished":"2026-03-28T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/voxtream/claude/2026/03/28/voxtream-codebase-notes.html"},"description":"VoXtream codebase notes","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Codebase summary from Claude</h1><p class="page-description">VoXtream codebase notes</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-28T00:00:00-05:00" itemprop="datePublished">
+        Mar 28, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      8 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#voxtream">voxtream</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="voxtream2-codebase">VoXtream2 Codebase</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>VoXtream2 is a streaming, zero-shot text-to-speech system with dynamic speaking-rate control. Given a 3–10 second audio prompt, it synthesizes speech in the same voice with low latency (74ms first-packet on a consumer GPU) and faster-than-real-time throughput (RTF ~0.256 on RTX 3090). Speaking rate can be adjusted mid-utterance at runtime. The system supports acoustic prompts in any language via prompt text masking (“translingual” zero-shot).</p>
+
+<p>The codebase is structured as a Python package (<code class="language-plaintext highlighter-rouge">voxtream</code>) with four CLI entry points, a Gradio web UI, a WebSocket server, and a PyTorch Lightning training pipeline.</p>
+
+<hr />
+
+<h2 id="repository-layout">Repository Layout</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>voxtream/
+├── voxtream/                  # Main package
+│   ├── config.py              # SpeechGeneratorConfig dataclass
+│   ├── model.py               # Neural network (Model)
+│   ├── generator.py           # High-level inference (SpeechGenerator)
+│   ├── dataset.py             # Training data loading (TrainDataset)
+│   ├── train.py               # Hydra-based training entry point
+│   ├── trainer.py             # PyTorch Lightning module
+│   ├── run.py                 # `voxtream` CLI
+│   ├── app.py                 # `voxtream-app` Gradio UI
+│   ├── server.py              # `voxtream-server` WebSocket server
+│   ├── client.py              # WebSocket client
+│   ├── benchmark.py           # RTF / first-packet latency measurement
+│   └── utils/
+│       ├── model.py           # Sampling and masking helpers
+│       ├── sampling.py        # Top-k / top-p sampling
+│       ├── trainer.py         # LinearWarmupDecayScheduler
+│       ├── sink_attention.py  # SinkAttention (streaming context)
+│       ├── sidon_se.py        # Optional speech enhancement
+│       ├── generator/         # Generation sub-utilities
+│       │   ├── context.py     # GenerationContext, FrameState
+│       │   ├── setup.py       # Model loader helpers
+│       │   ├── prompt.py      # Prompt audio encoding
+│       │   ├── runtime.py     # Per-frame decoding and index updates
+│       │   ├── text.py        # Streaming text processing
+│       │   └── helpers.py     # DTYPE_MAP, set_seed, etc.
+│       ├── text/              # Text normalisation and phonemization
+│       │   ├── phonemizer.py  # ESpeak wrapper
+│       │   ├── normalizer.py  # Text normalisation
+│       │   ├── number_norm.py # Number expansion
+│       │   ├── time_norm.py   # Time expression expansion
+│       │   └── punctuation.py # Punctuation handling
+│       ├── aligner/           # Forced phoneme alignment (dataset prep)
+│       ├── dataset/           # Dataset preparation scripts
+│       └── test/              # Evaluation utilities (ASR, MOS, SV)
+├── configs/
+│   ├── generator.json         # Inference configuration (~55 fields)
+│   ├── train.yaml             # Hydra training config
+│   └── speaking_rate.json     # Speaking rate level definitions
+├── tests/
+│   └── test_run_output_regression.py
+└── assets/                    # Example audio and test fixtures
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="model-architecture-voxtreammodelpy">Model Architecture (<code class="language-plaintext highlighter-rouge">voxtream/model.py</code>)</h2>
+
+<p>The core <code class="language-plaintext highlighter-rouge">Model(nn.Module)</code> contains three stacked transformers.</p>
+
+<h3 id="phone-former-6-layers-8-heads-1024-dims">Phone Former (6 layers, 8 heads, 1024 dims)</h3>
+
+<p>Encodes phoneme token sequences. Uses a set of dynamic look-ahead masks (5 levels) to control how far ahead in the phoneme stream the model can see, enabling a range from fully causal to partially non-causal attention during training and inference.</p>
+
+<h3 id="temporal-former-12-layers-16-heads">Temporal Former (12 layers, 16 heads)</h3>
+
+<p>The main autoregressive model. Accepts interleaved phone embeddings and audio embeddings and predicts the next <em>semantic</em> (primary codebook) audio token. During inference this transformer is cached and fed one frame at a time.</p>
+
+<h3 id="depth-former-4-layers-8-heads">Depth Former (4 layers, 8 heads)</h3>
+
+<p>Given the predicted semantic token, autoregressively predicts the remaining 15 Mimi codebook tokens for that frame. During training, it only runs over a 1/16 random subset of time steps (amortized computation).</p>
+
+<h3 id="embeddings-and-projections">Embeddings and projections</h3>
+
+<ul>
+  <li>Phone embedding: vocab size 125</li>
+  <li>Audio embedding: vocab size 2051 (2050 + 1 padding)</li>
+  <li>Speaker embedding projection: 192 → 1024 dims</li>
+  <li>Semantic head: linear projection to audio vocab</li>
+  <li>Audio head: linear projection for the 15 dependent codebooks</li>
+</ul>
+
+<h3 id="key-model-methods">Key model methods</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">extract_phoneme_embeddings()</code>: Runs the Phone Former with a selected look-ahead mask.</li>
+  <li><code class="language-plaintext highlighter-rouge">generate_frame()</code>: Single inference step. Runs the Temporal Former on cached context, applies classifier-free guidance (CFG), samples the semantic token using distribution matching, then runs the Depth Former loop for the remaining codebook tokens.</li>
+  <li><code class="language-plaintext highlighter-rouge">forward_audio()</code>: Training forward pass. Runs the Temporal Former over a full sequence and the amortized Depth Former.</li>
+  <li><code class="language-plaintext highlighter-rouge">forward()</code>: Wraps <code class="language-plaintext highlighter-rouge">forward_audio()</code> and handles punctuation removal.</li>
+</ul>
+
+<hr />
+
+<h2 id="generation-pipeline-voxtreamgeneratorpy">Generation Pipeline (<code class="language-plaintext highlighter-rouge">voxtream/generator.py</code>)</h2>
+
+<p><code class="language-plaintext highlighter-rouge">SpeechGenerator</code> is the main user-facing class. It owns and initialises all runtime dependencies:</p>
+
+<ul>
+  <li>Mimi codec (Kyutai <code class="language-plaintext highlighter-rouge">moshi</code> library) for encoding/decoding audio at 12.5 fps, 16 codebooks</li>
+  <li>Speaker encoder (IDRnD/ReDimNet, 192-dim embeddings at 16 kHz)</li>
+  <li>Voice Activity Detection (Silero VAD, optional)</li>
+  <li>Speech enhancement (SidonSE, optional)</li>
+  <li>ESpeak phonemizer and text normaliser</li>
+</ul>
+
+<h3 id="generate_streamprompt_audio-text-"><code class="language-plaintext highlighter-rouge">generate_stream(prompt_audio, text, ...)</code></h3>
+
+<p>The central method. It:</p>
+
+<ol>
+  <li>Resamples the prompt audio, runs VAD to trim silence, optionally runs speech enhancement.</li>
+  <li>Encodes the prompt with Mimi → audio tokens; encodes with the speaker encoder → speaker embedding.</li>
+  <li>Normalises and phonemizes <code class="language-plaintext highlighter-rouge">text</code> (which may be a string or a generator for streaming text input).</li>
+  <li>Runs a frame-by-frame generation loop (up to 750 frames / ~60 seconds):
+    <ul>
+      <li>Selects context via <code class="language-plaintext highlighter-rouge">SinkAttention</code> (prompt sink + sliding window).</li>
+      <li>Calls <code class="language-plaintext highlighter-rouge">Model.generate_frame()</code>.</li>
+      <li>Decodes the resulting Mimi codes back to a PCM waveform.</li>
+      <li>Yields the audio frame alongside timing metadata.</li>
+    </ul>
+  </li>
+  <li>Adjusts the output distribution on every frame when speaking-rate control is requested.</li>
+</ol>
+
+<p>Optional <code class="language-plaintext highlighter-rouge">torch.compile</code> and CUDA Graph patching are supported and roughly halve the RTF.</p>
+
+<hr />
+
+<h2 id="classifier-free-guidance">Classifier-Free Guidance</h2>
+
+<p>The model supports two-branch CFG inference. When enabled, both a <em>conditioned</em> pass (normal inputs) and an <em>unconditioned</em> pass (speaker embedding zeroed, text replaced with <code class="language-plaintext highlighter-rouge">&lt;UNK&gt;</code>) are run as a batch of 2. The final logits are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>logits = cond * γ + (1 - γ) * uncond
+</code></pre></div></div>
+
+<p>Separate γ values are used for semantic tokens (<code class="language-plaintext highlighter-rouge">cfg_gamma=1.5</code>) and acoustic tokens (<code class="language-plaintext highlighter-rouge">cfg_ac_gamma=3.0</code>).</p>
+
+<hr />
+
+<h2 id="speaking-rate-control">Speaking-Rate Control</h2>
+
+<p>Speaking-rate control is implemented via <em>distribution matching</em>. Each output frame prediction is a distribution over 6 duration states (how many audio frames correspond to the current phone). <code class="language-plaintext highlighter-rouge">configs/speaking_rate.json</code> defines 7 rate levels (1–7 syllables per second), each with a target state distribution and associated weight β and cfg_gamma. At inference time:</p>
+
+<ol>
+  <li>The current model output distribution is compared to the target distribution.</li>
+  <li>Token probabilities are reweighted: <code class="language-plaintext highlighter-rouge">exp(β * (log(P_target) - log(P_current))) * P_current</code>.</li>
+  <li>Rate level can be fractional (linear interpolation between adjacent levels).</li>
+  <li>The rate can change mid-utterance by updating <code class="language-plaintext highlighter-rouge">target_spk_rate_cnt</code> between frames.</li>
+</ol>
+
+<hr />
+
+<h2 id="text-processing-voxtreamutilstext">Text Processing (<code class="language-plaintext highlighter-rouge">voxtream/utils/text/</code>)</h2>
+
+<p>Pipeline: raw text → normalise → phonemize → extract punctuation → convert to token indices → interpolate.</p>
+
+<ul>
+  <li><strong>Normaliser</strong>: expands numbers, times, abbreviations.</li>
+  <li><strong>ESpeak</strong>: wraps <code class="language-plaintext highlighter-rouge">espeak-ng</code> for grapheme-to-phoneme conversion; outputs IPA or X-SAMPA.</li>
+  <li><strong>Punctuation module</strong>: extracts punctuation insertion/deletion indices and tokens separately from the phoneme sequence, allowing the model to handle punctuation as a soft signal injected at specific positions rather than as part of the phone vocabulary.</li>
+</ul>
+
+<hr />
+
+<h2 id="streaming-context-sink-attention-voxtreamutilssink_attentionpy">Streaming Context: Sink Attention (<code class="language-plaintext highlighter-rouge">voxtream/utils/sink_attention.py</code>)</h2>
+
+<p>For long-form generation, <code class="language-plaintext highlighter-rouge">SinkAttention</code> maintains an efficient context by combining:</p>
+
+<ul>
+  <li>A <strong>sink</strong>: the cached prompt embeddings (audio + phone) always kept in context.</li>
+  <li>A <strong>sliding window</strong>: the most recent 625 frames of generated audio.</li>
+</ul>
+
+<p>This gives O(1) memory overhead per frame while preserving prompt-speaker consistency throughout generation. When the local position index exceeds the window, the Temporal Former’s KV cache is rebuilt from the sink + latest window.</p>
+
+<hr />
+
+<h2 id="training-voxtreamtrainpy-voxtreamtrainerpy">Training (<code class="language-plaintext highlighter-rouge">voxtream/train.py</code>, <code class="language-plaintext highlighter-rouge">voxtream/trainer.py</code>)</h2>
+
+<h3 id="data-voxtreamdatasetpy">Data (<code class="language-plaintext highlighter-rouge">voxtream/dataset.py</code>)</h3>
+
+<p><code class="language-plaintext highlighter-rouge">TrainDataset</code> consumes per-sample numpy arrays:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Array</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">audio_codes</code></td>
+      <td>Mimi tokens, shape <code class="language-plaintext highlighter-rouge">[16, T]</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">phoneme_sequence</code></td>
+      <td>Token indices</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">phoneme_embedding_index</code></td>
+      <td>Maps each audio frame to a phone index</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">semantic_label_shifts</code></td>
+      <td>Duration state per frame (6 states)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">speaker_template</code></td>
+      <td>192-dim speaker embedding</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each <code class="language-plaintext highlighter-rouge">__getitem__</code> call:</p>
+
+<ol>
+  <li>Randomly crops a 625-frame window.</li>
+  <li>Applies prompt text masking: replaces the first 3–10 seconds of phone tokens with <code class="language-plaintext highlighter-rouge">&lt;UNK&gt;</code> (simulates zero-shot prompting).</li>
+  <li>Inserts/removes punctuation tokens at designated positions.</li>
+  <li>Encodes semantic labels with shift information.</li>
+  <li>Adds BOS/EOS and padding delays.</li>
+</ol>
+
+<h3 id="trainer-lightning-module">Trainer (Lightning module)</h3>
+
+<p>Two losses are optimised jointly:</p>
+
+<ul>
+  <li><strong>Semantic loss</strong>: CrossEntropy over the 6-state semantic label at each frame.</li>
+  <li><strong>Audio loss</strong>: CrossEntropy over the 15 dependent codebook tokens at 1/16 of positions (amortized depth former).</li>
+</ul>
+
+<p>Top-10 accuracy for both losses is logged. The learning rate schedule is <code class="language-plaintext highlighter-rouge">LinearWarmupDecayScheduler</code>: linear warmup for 1 epoch from 1e-5 to 2e-4, then cosine decay to 0.</p>
+
+<p>Key training hyperparameters:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Batch size</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>Learning rate</td>
+      <td>2e-4</td>
+    </tr>
+    <tr>
+      <td>Max epochs</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Gradient clip</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <td>Precision</td>
+      <td>bfloat16 mixed</td>
+    </tr>
+    <tr>
+      <td>Strategy</td>
+      <td>DDP</td>
+    </tr>
+    <tr>
+      <td>CFG dropout prob</td>
+      <td>0.1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The depth former can be frozen during fine-tuning with <code class="language-plaintext highlighter-rouge">freeze_dep_former: true</code>.</p>
+
+<hr />
+
+<h2 id="configuration">Configuration</h2>
+
+<h3 id="configsgeneratorjson"><code class="language-plaintext highlighter-rouge">configs/generator.json</code></h3>
+
+<p>A ~55-field JSON file consumed as <code class="language-plaintext highlighter-rouge">SpeechGeneratorConfig</code>. Key sections:</p>
+
+<ul>
+  <li>Special tokens (<code class="language-plaintext highlighter-rouge">sil</code>, <code class="language-plaintext highlighter-rouge">bos</code>, <code class="language-plaintext highlighter-rouge">eos</code>, <code class="language-plaintext highlighter-rouge">unk</code>, punctuation tokens)</li>
+  <li>HuggingFace repo IDs for all model weights</li>
+  <li>Mimi codec parameters (sample rate 24 kHz, 16 codebooks, 80ms frames)</li>
+  <li>Speaker encoder parameters (16 kHz, ReDimNet-M)</li>
+  <li>Inference tuning (temperature 0.9, top-k 5, top-p 0.9, cfg_gamma 1.5, cfg_ac_gamma 3.0)</li>
+  <li>Input limits (max prompt 20 sec, max phone tokens 2000)</li>
+  <li>Speaking rate parameters and phoneme index map</li>
+</ul>
+
+<h3 id="configstrainyaml"><code class="language-plaintext highlighter-rouge">configs/train.yaml</code></h3>
+
+<p>Hydra configuration for training. Specifies datasets (Emilia, HiFiTTS2), model architecture choices (<code class="language-plaintext highlighter-rouge">phone_former</code>, <code class="language-plaintext highlighter-rouge">temp_former</code>, <code class="language-plaintext highlighter-rouge">dep_former_csm</code>), and all training hyperparameters.</p>
+
+<h3 id="configsspeaking_ratejson"><code class="language-plaintext highlighter-rouge">configs/speaking_rate.json</code></h3>
+
+<p>Seven speaking-rate levels (1–7 sps), each with a <code class="language-plaintext highlighter-rouge">duration_state</code> probability vector over 6 states, a weight β, and a cfg_gamma override.</p>
+
+<hr />
+
+<h2 id="entry-points">Entry Points</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Module</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">voxtream</code></td>
+      <td><code class="language-plaintext highlighter-rouge">run.py</code></td>
+      <td>CLI: synthesize to WAV</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">voxtream-app</code></td>
+      <td><code class="language-plaintext highlighter-rouge">app.py</code></td>
+      <td>Gradio web UI with streaming playback</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">voxtream-server</code></td>
+      <td><code class="language-plaintext highlighter-rouge">server.py</code></td>
+      <td>FastAPI WebSocket server</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">voxtream-benchmark</code></td>
+      <td><code class="language-plaintext highlighter-rouge">benchmark.py</code></td>
+      <td>RTF and first-packet latency measurement</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">voxtream-server</code> exposes a WebSocket endpoint at <code class="language-plaintext highlighter-rouge">/voxtream</code> on port 7860. The client sends JSON with prompt audio (base64) and text, and the server streams back binary audio frames.</p>
+
+<hr />
+
+<h2 id="evaluation-utilities-voxtreamutilstest">Evaluation Utilities (<code class="language-plaintext highlighter-rouge">voxtream/utils/test/</code>)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Metric</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">asr.py</code></td>
+      <td>WER via OpenAI Whisper</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">utmos.py</code></td>
+      <td>MOS prediction</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ecapa_tdnn.py</code></td>
+      <td>Speaker verification (ECAPA-TDNN)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">spk_sim.py</code></td>
+      <td>Speaker similarity score</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">utils/test/run.py</code> orchestrates batch evaluation across a test set.</p>
+
+<hr />
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p><strong>Core ML</strong>: <code class="language-plaintext highlighter-rouge">torch==2.4.0</code>, <code class="language-plaintext highlighter-rouge">torchaudio==2.4.0</code>, <code class="language-plaintext highlighter-rouge">torchtune==0.4.0</code> (Llama3.2 transformer primitives), <code class="language-plaintext highlighter-rouge">transformers==4.50.0</code>, <code class="language-plaintext highlighter-rouge">lightning==2.4.0</code></p>
+
+<p><strong>Audio</strong>: <code class="language-plaintext highlighter-rouge">moshi==0.2.11</code> (Mimi codec), <code class="language-plaintext highlighter-rouge">librosa</code>, <code class="language-plaintext highlighter-rouge">soundfile</code>, <code class="language-plaintext highlighter-rouge">silero-vad==6.2.0</code></p>
+
+<p><strong>Text</strong>: <code class="language-plaintext highlighter-rouge">g2p-en==2.1.0</code>, <code class="language-plaintext highlighter-rouge">inflect==7.5.0</code>, <code class="language-plaintext highlighter-rouge">nltk==3.9.1</code></p>
+
+<p><strong>Web</strong>: <code class="language-plaintext highlighter-rouge">gradio==4.44.1</code>, <code class="language-plaintext highlighter-rouge">fastapi</code>, <code class="language-plaintext highlighter-rouge">uvicorn</code>, <code class="language-plaintext highlighter-rouge">websockets</code></p>
+
+<p><strong>Config/utils</strong>: <code class="language-plaintext highlighter-rouge">hydra-core==1.3.2</code>, <code class="language-plaintext highlighter-rouge">pydantic==2.10.6</code>, <code class="language-plaintext highlighter-rouge">torchao==0.9.0</code></p>
+
+<p><strong>External models</strong> (downloaded automatically via HuggingFace / <code class="language-plaintext highlighter-rouge">torch.hub</code>):</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">herimor/voxtream2</code> — generator weights (~2 GB)</li>
+  <li><code class="language-plaintext highlighter-rouge">kyutai/moshiko-pytorch-bf16</code> — Mimi codec</li>
+  <li><code class="language-plaintext highlighter-rouge">IDRnD/ReDimNet</code> — speaker encoder</li>
+</ul>
+
+<hr />
+
+<h2 id="tests">Tests</h2>
+
+<p>A single regression test (<code class="language-plaintext highlighter-rouge">tests/test_run_output_regression.py</code>) runs the full pipeline on a test prompt and asserts numerical equality (rtol=1e-5) against reference frames stored in <code class="language-plaintext highlighter-rouge">assets/test/reference_frames.npy</code>. This guards against silent changes in generation output.</p>
+
+<hr />
+
+<h2 id="licensing">Licensing</h2>
+
+<p>Dual-licensed under MIT and Apache 2.0. Dataset attributions (for training data) are tracked separately in <code class="language-plaintext highlighter-rouge">ATTRIBUTION.md</code>.</p>
+
+  </div><a class="u-url" href="/notes/voxtream/claude/2026/03/28/voxtream-codebase-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

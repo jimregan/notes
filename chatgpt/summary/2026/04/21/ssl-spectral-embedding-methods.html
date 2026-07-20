@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ChatGPT paper summary" />
+<meta property="og:description" content="ChatGPT paper summary" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/ssl-spectral-embedding-methods.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/ssl-spectral-embedding-methods.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-21T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/ssl-spectral-embedding-methods.html","@type":"BlogPosting","headline":"Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods","dateModified":"2026-04-21T00:00:00-05:00","datePublished":"2026-04-21T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/summary/2026/04/21/ssl-spectral-embedding-methods.html"},"description":"ChatGPT paper summary","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods</h1><p class="page-description">ChatGPT paper summary</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-04-21T00:00:00-05:00" itemprop="datePublished">
+        Apr 21, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#summary">summary</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">balestriero2022spectral</span><span class="p">,</span>
+<span class="na">author</span> <span class="p">=</span> <span class="s">{Balestriero, Randall and LeCun, Yann}</span><span class="p">,</span>
+<span class="na">title</span> <span class="p">=</span> <span class="s">{Contrastive and non-contrastive self-supervised learning recover global and local spectral embedding methods}</span><span class="p">,</span>
+<span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+<span class="na">isbn</span> <span class="p">=</span> <span class="s">{9781713871088}</span><span class="p">,</span>
+<span class="na">publisher</span> <span class="p">=</span> <span class="s">{Curran Associates Inc.}</span><span class="p">,</span>
+<span class="na">address</span> <span class="p">=</span> <span class="s">{Red Hook, NY, USA}</span><span class="p">,</span>
+<span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 36th International Conference on Neural Information Processing Systems}</span><span class="p">,</span>
+<span class="na">articleno</span> <span class="p">=</span> <span class="s">{1934}</span><span class="p">,</span>
+<span class="na">numpages</span> <span class="p">=</span> <span class="s">{15}</span><span class="p">,</span>
+<span class="na">location</span> <span class="p">=</span> <span class="s">{New Orleans, LA, USA}</span><span class="p">,</span>
+<span class="na">series</span> <span class="p">=</span> <span class="s">{NIPS '22}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="-article-summary-in-depth">📄 <strong>Article Summary (In-Depth)</strong></h1>
+
+<p><strong>“Contrastive and Non-Contrastive Self-Supervised Learning Recover Global and Local Spectral Embedding Methods”</strong>
+by Randall Balestriero &amp; Yann LeCun</p>
+
+<hr />
+
+<h1 id="-1-core-idea-of-the-paper">🧠 1. Core Idea of the Paper</h1>
+
+<p>The paper argues that <strong>modern self-supervised learning (SSL) methods</strong>—like <strong>VICReg, SimCLR, and Barlow Twins</strong>—are not fundamentally new algorithms, but instead:</p>
+
+<blockquote>
+  <p>They are <strong>equivalent to classical spectral embedding methods</strong> (from linear algebra and manifold learning).</p>
+</blockquote>
+
+<p>This creates a <strong>unifying theory</strong> that:</p>
+
+<ul>
+  <li>Explains how SSL works</li>
+  <li>Provides <strong>closed-form optimal solutions</strong></li>
+  <li>Bridges <strong>contrastive vs non-contrastive learning</strong></li>
+  <li>Gives <strong>practical design rules</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="-2-key-insight-ssl--spectral-learning-on-a-graph">🔑 2. Key Insight: SSL = Spectral Learning on a Graph</h1>
+
+<p>SSL operates on:</p>
+
+<ul>
+  <li>Data: ( X )</li>
+  <li>Pairwise relationships: ( G ) (a similarity graph)</li>
+</ul>
+
+<p>The <strong>central claim</strong>:</p>
+
+<blockquote>
+  <p>All SSL methods learn representations that preserve the <strong>left singular vectors (eigenvectors)</strong> of the similarity matrix ( G ).</p>
+</blockquote>
+
+<h3 id="interpretation">Interpretation:</h3>
+
+<ul>
+  <li>( G ) encodes <strong>semantic relationships</strong></li>
+  <li>SSL learns embeddings ( Z ) that reflect the <strong>structure of this graph</strong></li>
+  <li>This is exactly what <strong>spectral methods</strong> do</li>
+</ul>
+
+<hr />
+
+<h1 id="-3-the-big-unification">🧩 3. The Big Unification</h1>
+
+<p>The paper maps SSL methods to classical techniques:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>SSL Method</th>
+      <th>Spectral Equivalent</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>VICReg</td>
+      <td>Laplacian Eigenmaps / LPP</td>
+      <td><strong>Local</strong></td>
+    </tr>
+    <tr>
+      <td>SimCLR / NNCLR</td>
+      <td>ISOMAP / MDS</td>
+      <td><strong>Global</strong></td>
+    </tr>
+    <tr>
+      <td>Barlow Twins</td>
+      <td>Canonical Correlation Analysis (CCA)</td>
+      <td>Correlation-based</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="key-takeaway">Key takeaway:</h3>
+
+<ul>
+  <li><strong>Contrastive methods → global geometry</strong></li>
+  <li><strong>Non-contrastive methods → local geometry</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="️-4-what-ssl-actually-optimizes-mathematically">⚙️ 4. What SSL Actually Optimizes (Mathematically)</h1>
+
+<p>Across all methods:</p>
+
+<blockquote>
+  <p>The optimal embedding ( Z ) aligns with the <strong>top eigenvectors of ( G )</strong>.</p>
+</blockquote>
+
+<p>But:</p>
+
+<ul>
+  <li>SSL <strong>only constrains left singular vectors</strong></li>
+  <li>Right singular vectors remain <strong>free (rotations allowed)</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="-5-closed-form-solutions-major-contribution">📊 5. Closed-Form Solutions (Major Contribution)</h1>
+
+<p>The paper derives:</p>
+
+<h3 id="-optimal-representation--z-">✔ Optimal representation ( Z^* )</h3>
+
+<ul>
+  <li>
+    <p>Depends only on:</p>
+
+    <ul>
+      <li>Graph ( G )</li>
+      <li>Hyperparameters</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="-optimal-network-weights-linear-case">✔ Optimal network weights (linear case)</h3>
+
+<ul>
+  <li>For linear models ( Z = XW )</li>
+  <li>Exact formulas for ( W^* )</li>
+</ul>
+
+<p>This is rare: most deep learning papers do <strong>not</strong> provide closed-form optima.</p>
+
+<hr />
+
+<h1 id="-6-deep-dive-by-method">🔍 6. Deep Dive by Method</h1>
+
+<hr />
+
+<h2 id="-vicreg-non-contrastive">🟢 VICReg (Non-Contrastive)</h2>
+
+<h3 id="what-it-does">What it does:</h3>
+
+<ul>
+  <li>
+    <p>Encourages:</p>
+
+    <ul>
+      <li><strong>Invariance</strong> (similar samples close)</li>
+      <li><strong>Variance</strong> (avoid collapse)</li>
+      <li><strong>Decorrelation</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="key-result">Key result:</h3>
+
+<ul>
+  <li>Minimizes <strong>Dirichlet energy</strong> on graph ( G )</li>
+</ul>
+
+<blockquote>
+  <p>Equivalent to making embeddings <strong>smooth over the graph</strong></p>
+</blockquote>
+
+<h3 id="spectral-equivalent">Spectral equivalent:</h3>
+
+<ul>
+  <li><strong>Laplacian Eigenmaps</strong></li>
+</ul>
+
+<h3 id="unique-property">Unique property:</h3>
+
+<ul>
+  <li>Can maintain <strong>full-rank representations</strong></li>
+  <li>Flexible via hyperparameters</li>
+</ul>
+
+<p>👉 Important practical insight:</p>
+
+<ul>
+  <li>Works better when ( G ) is <strong>noisy or imperfect</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="-simclr-contrastive">🔵 SimCLR (Contrastive)</h2>
+
+<h3 id="what-it-does-1">What it does:</h3>
+
+<ol>
+  <li>Builds similarity matrix from embeddings</li>
+  <li>Matches it to ( G )</li>
+</ol>
+
+<h3 id="key-result-1">Key result:</h3>
+
+<ul>
+  <li>Solves a <strong>graph estimation + matching problem</strong></li>
+</ul>
+
+<h3 id="spectral-equivalent-1">Spectral equivalent:</h3>
+
+<ul>
+  <li><strong>ISOMAP / Multidimensional Scaling (MDS)</strong></li>
+</ul>
+
+<h3 id="critical-property">Critical property:</h3>
+
+<ul>
+  <li>Forces:
+[
+\text{rank}(Z) = \text{rank}(G)
+]</li>
+</ul>
+
+<p>👉 This leads to:</p>
+
+<ul>
+  <li><strong>Dimensional collapse</strong></li>
+  <li>High sensitivity to ( G )</li>
+</ul>
+
+<hr />
+
+<h2 id="-barlow-twins-non-contrastive">🟣 Barlow Twins (Non-Contrastive)</h2>
+
+<h3 id="what-it-does-2">What it does:</h3>
+
+<ul>
+  <li>Aligns two views by maximizing correlation</li>
+  <li>Decorrelates features</li>
+</ul>
+
+<h3 id="spectral-equivalent-2">Spectral equivalent:</h3>
+
+<ul>
+  <li><strong>Canonical Correlation Analysis (CCA)</strong></li>
+</ul>
+
+<h3 id="key-behavior">Key behavior:</h3>
+
+<ul>
+  <li>Also enforces rank collapse:
+[
+\text{rank}(Z) = \text{rank}(G)
+]</li>
+</ul>
+
+<hr />
+
+<h1 id="️-7-contrastive-vs-non-contrastive-fundamental-difference">⚖️ 7. Contrastive vs Non-Contrastive: Fundamental Difference</h1>
+
+<p>The paper gives a <strong>first theoretical distinction</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Behavior</th>
+      <th>Best for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Contrastive (SimCLR)</td>
+      <td>Global structure</td>
+      <td>Linear or simple manifolds</td>
+    </tr>
+    <tr>
+      <td>Non-contrastive (VICReg)</td>
+      <td>Local structure</td>
+      <td>Nonlinear manifolds</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="insight">Insight:</h3>
+
+<ul>
+  <li>Contrastive = <strong>metric-preserving</strong></li>
+  <li>Non-contrastive = <strong>manifold-smoothing</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="-8-when-does-ssl-work-perfectly">🎯 8. When Does SSL Work Perfectly?</h1>
+
+<p>A major theoretical result:</p>
+
+<blockquote>
+  <p>SSL can perfectly solve downstream tasks <strong>if the spectrum of ( G ) aligns with the target labels ( Y )</strong>.</p>
+</blockquote>
+
+<h3 id="translation">Translation:</h3>
+
+<ul>
+  <li>If your similarity graph captures task-relevant structure:
+→ SSL ≈ supervised learning</li>
+</ul>
+
+<hr />
+
+<h1 id="️-9-what-if-the-graph--g--is-wrong">⚠️ 9. What If the Graph ( G ) is Wrong?</h1>
+
+<p>This is crucial.</p>
+
+<h3 id="findings">Findings:</h3>
+
+<ul>
+  <li>
+    <p><strong>SimCLR / Barlow Twins</strong></p>
+
+    <ul>
+      <li>Fully depend on ( G )</li>
+      <li>Collapse if ( G ) is wrong</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>VICReg</strong></p>
+
+    <ul>
+      <li>Can ignore ( G ) partially</li>
+      <li>Maintains richer representations</li>
+    </ul>
+  </li>
+</ul>
+
+<p>👉 Recommendation:</p>
+
+<ul>
+  <li>If unsure about data augmentations → use <strong>VICReg</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="-10-practical-design-guidelines">🧪 10. Practical Design Guidelines</h1>
+
+<p>The paper extracts actionable rules:</p>
+
+<h3 id="-if--g--is-accurate">✔ If ( G ) is accurate:</h3>
+
+<ul>
+  <li>Any SSL method works</li>
+</ul>
+
+<h3 id="-if-data-is-scarce">✔ If data is scarce:</h3>
+
+<ul>
+  <li>Increase VICReg invariance weight</li>
+</ul>
+
+<h3 id="-if--g--is-noisy">✔ If ( G ) is noisy:</h3>
+
+<ul>
+  <li>Prefer VICReg with <strong>low invariance</strong></li>
+</ul>
+
+<h3 id="-if-manifold-is">✔ If manifold is:</h3>
+
+<ul>
+  <li><strong>Global/linear</strong> → use SimCLR</li>
+  <li><strong>Local/nonlinear</strong> → use VICReg</li>
+</ul>
+
+<hr />
+
+<h1 id="-11-linear-regime-insights">🔬 11. Linear Regime Insights</h1>
+
+<p>When networks are linear:</p>
+
+<ul>
+  <li>VICReg → <strong>LPP / LDA</strong></li>
+  <li>SimCLR → <strong>MDS</strong></li>
+  <li>Barlow Twins → <strong>CCA / LDA</strong></li>
+</ul>
+
+<p>👉 This connects deep learning to <strong>classical statistics</strong>.</p>
+
+<hr />
+
+<h1 id="-12-conceptual-takeaways">🧠 12. Conceptual Takeaways</h1>
+
+<hr />
+
+<h3 id="1-ssl-is-not-mysterious">1. SSL is not mysterious</h3>
+
+<p>It’s fundamentally:</p>
+
+<blockquote>
+  <p><strong>Spectral decomposition of a similarity graph</strong></p>
+</blockquote>
+
+<hr />
+
+<h3 id="2-all-methods-solve-the-same-core-problem">2. All methods solve the same core problem</h3>
+
+<p>They differ only in:</p>
+
+<ul>
+  <li>How they treat ( G )</li>
+  <li>Whether they preserve <strong>local vs global structure</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="3-the-graph--g--is-everything">3. The graph ( G ) is everything</h3>
+
+<ul>
+  <li>Encodes supervision</li>
+  <li>Determines success or failure</li>
+</ul>
+
+<hr />
+
+<h3 id="4-representation-learning--eigenvector-learning">4. Representation learning = eigenvector learning</h3>
+
+<ul>
+  <li>Embeddings = spectral coordinates</li>
+</ul>
+
+<hr />
+
+<h1 id="-13-why-this-paper-matters">🧾 13. Why This Paper Matters</h1>
+
+<p>This work is important because it:</p>
+
+<ul>
+  <li>Unifies many SSL methods under <strong>one theory</strong></li>
+  <li>Provides <strong>closed-form understanding</strong></li>
+  <li>Explains empirical behaviors (e.g., collapse)</li>
+  <li>Offers <strong>clear guidance for practitioners</strong></li>
+</ul>
+
+<hr />
+
+<h1 id="-final-intuition">🧩 Final Intuition</h1>
+
+<p>Think of SSL as:</p>
+
+<blockquote>
+  <p>“Take a graph of relationships between samples, and learn coordinates that preserve its structure.”</p>
+</blockquote>
+
+<p>Different methods:</p>
+
+<ul>
+  <li>VICReg → smooths locally</li>
+  <li>SimCLR → preserves global distances</li>
+  <li>Barlow Twins → aligns correlations</li>
+</ul>
+
+<hr />
+
+<p>If you want, I can:</p>
+
+<ul>
+  <li>Break down one method (e.g., VICReg) step-by-step</li>
+  <li>Give an intuitive visual explanation</li>
+  <li>Or compare this paper to other SSL theories</li>
+</ul>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/summary/2026/04/21/ssl-spectral-embedding-methods.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

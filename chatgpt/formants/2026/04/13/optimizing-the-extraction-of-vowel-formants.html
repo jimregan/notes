@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Optimizing the Extraction of Vowel Formants | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Optimizing the Extraction of Vowel Formants" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Book chapter summary from ChatGPT" />
+<meta property="og:description" content="Book chapter summary from ChatGPT" />
+<link rel="canonical" href="https://jimregan.github.io/notes/chatgpt/formants/2026/04/13/optimizing-the-extraction-of-vowel-formants.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/chatgpt/formants/2026/04/13/optimizing-the-extraction-of-vowel-formants.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-13T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/chatgpt/formants/2026/04/13/optimizing-the-extraction-of-vowel-formants.html","@type":"BlogPosting","headline":"Optimizing the Extraction of Vowel Formants","dateModified":"2026-04-13T00:00:00-05:00","datePublished":"2026-04-13T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/chatgpt/formants/2026/04/13/optimizing-the-extraction-of-vowel-formants.html"},"description":"Book chapter summary from ChatGPT","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Optimizing the Extraction of Vowel Formants</h1><p class="page-description">Book chapter summary from ChatGPT</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-04-13T00:00:00-05:00" itemprop="datePublished">
+        Apr 13, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#chatgpt">chatgpt</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#formants">formants</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="chapter-summary--optimizing-the-extraction-of-vowel-formants">Chapter Summary — <em>Optimizing the Extraction of Vowel Formants</em></h1>
+
+<p><em><a href="https://www.researchgate.net/publication/281177316_Optimizing_the_Extraction_of_Vowel_Formants">Skarnitzl, Vaňková &amp; Bořil (2015)</a></em></p>
+
+<div class="language-bibtex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">@inbook</span><span class="p">{</span><span class="nl">skarnitzl2015optimizing</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Skarnitzl, Radek and Vaňková, Jitka and Boril, Tomas}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2015}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="s">{06}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{165-182}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Optimizing the Extraction of Vowel Formants}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Tackling the complexity in speech}</span><span class="p">,</span>
+  <span class="na">editors</span> <span class="p">=</span> <span class="s">{Niebuhr, Oliver and Skarnitzl, Radek}</span><span class="p">,</span>
+  <span class="na">isbn</span> <span class="p">=</span> <span class="s">{978-80-7308-558-2}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="overview">Overview</h2>
+
+<p>This chapter investigates <strong>how to improve automatic vowel formant extraction</strong>, focusing on whether the <strong>default settings in Praat and Snack/WaveSurfer are actually optimal</strong>. Although formants are widely used and easy to obtain with software defaults, the authors argue that <strong>accurate extraction is much more complex than it appears</strong>, especially when benchmarked against carefully established manual measurements.</p>
+
+<p>The chapter has <strong>two main goals</strong>:</p>
+
+<ol>
+  <li><strong>Test multiple LPC/formant settings</strong> in Praat and Snack</li>
+  <li><strong>Compare Praat vs. Snack performance</strong> against manually labelled “ground truth” vowel formants</li>
+</ol>
+
+<hr />
+
+<h2 id="1-building-a-ground-truth-dataset">1) Building a “Ground Truth” Dataset</h2>
+
+<p>To evaluate software settings, the authors first created a <strong>manual reference dataset</strong>.</p>
+
+<h3 id="dataset">Dataset</h3>
+
+<ul>
+  <li><strong>250 Czech vowel tokens</strong></li>
+  <li>5 short monophthongs: <code class="language-plaintext highlighter-rouge">/ɪ ɛ a o u/</code></li>
+  <li>
+    <p>Produced by <strong>10 native Czech speakers</strong></p>
+
+    <ul>
+      <li>5 female</li>
+      <li>5 male</li>
+    </ul>
+  </li>
+  <li><strong>F1–F3 measured at vowel midpoint</strong></li>
+  <li>Two independent labellers measured every token</li>
+</ul>
+
+<h3 id="labelling-protocol">Labelling protocol</h3>
+
+<p>The authors used <strong>strict visual measurement guidelines</strong>:</p>
+
+<ul>
+  <li>Maximized Praat editor window</li>
+  <li>
+    <p>Frequency display:</p>
+
+    <ul>
+      <li>0–3 kHz for males</li>
+      <li>0–3.5 kHz for females</li>
+    </ul>
+  </li>
+  <li><strong>10 ms spectrogram window</strong></li>
+  <li>Primary decision based on <strong>spectrogram darkness</strong></li>
+  <li>
+    <p>Optional support:</p>
+
+    <ul>
+      <li>Praat formant tracks</li>
+      <li>FFT spectrum view</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="agreement-results">Agreement results</h3>
+
+<p>Initial disagreement between labellers:</p>
+
+<ul>
+  <li>F1 MAD: <strong>50.8 Hz</strong></li>
+  <li>F2 MAD: <strong>49.3 Hz</strong></li>
+  <li>F3 MAD: <strong>83.6 Hz</strong></li>
+</ul>
+
+<p>After collaborative correction of large disagreements:</p>
+
+<ul>
+  <li>F1: <strong>29.0 Hz</strong></li>
+  <li>F2: <strong>29.1 Hz</strong></li>
+  <li>F3: <strong>32.9 Hz</strong></li>
+</ul>
+
+<p>This corrected average became the <strong>ground truth reference</strong>.</p>
+
+<hr />
+
+<h2 id="2-why-ground-truth-is-still-uncertain">2) Why “Ground Truth” Is Still Uncertain</h2>
+
+<p>A major contribution of the chapter is showing that <strong>manual measurements themselves are noisy</strong>.</p>
+
+<p>The authors identify <strong>four uncertainty sources</strong>:</p>
+
+<h3 id="a-screen--mouse-resolution">A. Screen + mouse resolution</h3>
+
+<p>Because spectrogram display is pixel-limited, cursor values occur in <strong>discrete steps of ~24 Hz</strong>, even if the software shows 1 Hz precision.</p>
+
+<h3 id="b-spectrogram-resolution">B. Spectrogram resolution</h3>
+
+<p>With a <strong>10 ms window</strong>, spectral resolution is inherently limited by the time-frequency tradeoff.</p>
+
+<p>Estimated uncertainty contribution:</p>
+
+<ul>
+  <li><strong>~30 Hz</strong></li>
+</ul>
+
+<h3 id="c-estimating-formant-peaks-from-harmonics">C. Estimating formant peaks from harmonics</h3>
+
+<p>Even when the vocal tract resonance is unchanged, <strong>small F0 changes can visually shift the apparent formant peak</strong>.</p>
+
+<p>Observed effect:</p>
+
+<ul>
+  <li>Up to <strong>80 Hz shift</strong></li>
+  <li>Especially important for F1/F2 estimation</li>
+</ul>
+
+<h3 id="d-between-labeller-variability">D. Between-labeller variability</h3>
+
+<p>Even after consensus corrections:</p>
+
+<ul>
+  <li>residual uncertainty ≈ <strong>30 Hz</strong></li>
+</ul>
+
+<h3 id="combined-uncertainty">Combined uncertainty</h3>
+
+<p>The authors combine these into a <strong>95% confidence uncertainty of ±54 Hz</strong> around any manually determined formant value.</p>
+
+<p>This is one of the most important methodological insights in the chapter.</p>
+
+<hr />
+
+<h2 id="3-praat-performance">3) Praat Performance</h2>
+
+<p>The authors systematically tested <strong>Praat LPC settings</strong>.</p>
+
+<h3 id="tested-parameters">Tested parameters</h3>
+
+<p>They varied:</p>
+
+<ul>
+  <li><strong>LPC order: 8–12</strong></li>
+  <li>
+    <p>Maximum formant frequency:</p>
+
+    <ul>
+      <li><strong>5 kHz</strong></li>
+      <li><strong>5.5 kHz</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="main-result">Main result</h3>
+
+<p>The <strong>default Praat setting already performs very well</strong>.</p>
+
+<p>Slightly better alternatives were found:</p>
+
+<ul>
+  <li><strong>Females:</strong> LPC9, 5 kHz</li>
+  <li><strong>Males:</strong> LPC11, 5.5 kHz</li>
+</ul>
+
+<p>However, the improvement over defaults was:</p>
+
+<ul>
+  <li>tiny for F1/F2</li>
+  <li>only somewhat larger for F3</li>
+  <li>still <strong>smaller than the ±54 Hz uncertainty band</strong></li>
+</ul>
+
+<p>So the authors conclude:</p>
+
+<blockquote>
+  <p><strong>The practical improvement over Praat defaults is negligible.</strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="4-praat-vs-snack">4) Praat vs Snack</h2>
+
+<p>A major motivation was the widespread belief that <strong>Snack/WaveSurfer is better than Praat</strong>.</p>
+
+<h3 id="result">Result</h3>
+
+<p>The study found the opposite:</p>
+
+<ul>
+  <li><strong>Praat consistently outperformed Snack</strong></li>
+  <li>Especially strong advantage for <strong>F2</strong></li>
+  <li>Snack showed <strong>much larger RMSD errors</strong> across F1–F3</li>
+</ul>
+
+<p>This was a surprising result because informal phonetics practice often assumes Snack is superior.</p>
+
+<h3 id="best-snack-settings">Best Snack settings</h3>
+
+<p>Best Snack configurations differed by gender:</p>
+
+<ul>
+  <li><strong>Females:</strong> autocorrelation</li>
+  <li><strong>Males:</strong> covariance</li>
+  <li>5 kHz range generally better than 5.5 kHz</li>
+</ul>
+
+<p>Still, even the best Snack settings remained worse than Praat.</p>
+
+<hr />
+
+<h2 id="5-praat-tracker-vs-extractor">5) Praat Tracker vs Extractor</h2>
+
+<p>The authors also tested <strong>Praat’s formant tracker</strong>, which uses temporal continuity constraints (tracking trajectories rather than framewise extraction).</p>
+
+<h3 id="result-1">Result</h3>
+
+<ul>
+  <li>Generally <strong>similar to Praat extraction</strong></li>
+  <li>No consistent improvement</li>
+  <li>Worse for <strong>male F3</strong></li>
+</ul>
+
+<p>So <strong>tracking does not clearly outperform extraction</strong>.</p>
+
+<hr />
+
+<h2 id="6-final-recommendations">6) Final Recommendations</h2>
+
+<h3 id="practical-takeaway">Practical takeaway</h3>
+
+<p>For <strong>high-quality studio vowel recordings</strong>, the authors recommend:</p>
+
+<ul>
+  <li>
+    <p><strong>Female speakers:</strong></p>
+
+    <ul>
+      <li>LPC order <strong>9</strong></li>
+      <li>max frequency <strong>5 kHz</strong></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Male speakers:</strong></p>
+
+    <ul>
+      <li>LPC order <strong>11</strong></li>
+      <li>max frequency <strong>5.5 kHz</strong></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="but-the-bigger-conclusion">But the bigger conclusion</h3>
+
+<p>Because manual uncertainty is already ±54 Hz:</p>
+
+<blockquote>
+  <p><strong>Praat’s default settings are usually good enough in practice.</strong></p>
+</blockquote>
+
+<p>The gains from “optimized” settings are often <strong>not statistically meaningful</strong>.</p>
+
+<hr />
+
+<h2 id="key-takeaways-short-version">Key Takeaways (Short Version)</h2>
+
+<ul>
+  <li>Formant extraction is <strong>far less trivial than software defaults suggest</strong></li>
+  <li>Manual “ground truth” itself carries <strong>±54 Hz uncertainty</strong></li>
+  <li><strong>Praat defaults are robust</strong></li>
+  <li>
+    <p>Slight LPC tuning can help:</p>
+
+    <ul>
+      <li>females → LPC9 / 5 kHz</li>
+      <li>males → LPC11 / 5.5 kHz</li>
+    </ul>
+  </li>
+  <li><strong>Snack is worse than Praat</strong> on clean studio data</li>
+  <li>Praat tracker offers <strong>little benefit over extractor</strong></li>
+  <li>F3 remains the <strong>most difficult formant to estimate reliably</strong></li>
+</ul>
+
+
+  </div><a class="u-url" href="/notes/chatgpt/formants/2026/04/13/optimizing-the-extraction-of-vowel-formants.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>

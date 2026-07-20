@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Codebase summary from Claude | notes</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Codebase summary from Claude" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AutoPST codebase notes" />
+<meta property="og:description" content="AutoPST codebase notes" />
+<link rel="canonical" href="https://jimregan.github.io/notes/autopst/claude/2026/03/25/autopst-codebase-notes.html" />
+<meta property="og:url" content="https://jimregan.github.io/notes/autopst/claude/2026/03/25/autopst-codebase-notes.html" />
+<meta property="og:site_name" content="notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-25T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://jimregan.github.io/notes/autopst/claude/2026/03/25/autopst-codebase-notes.html","@type":"BlogPosting","headline":"Codebase summary from Claude","dateModified":"2026-03-25T00:00:00-05:00","datePublished":"2026-03-25T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://jimregan.github.io/notes/autopst/claude/2026/03/25/autopst-codebase-notes.html"},"description":"AutoPST codebase notes","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/notes/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jimregan.github.io/notes/feed.xml" title="notes" /><link rel="shortcut icon" type="image/x-icon" href="/notes/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/notes/">notes</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+
+        <div class="nav-items">
+  <a class="nav-item" href="/notes/about/">About Me</a>
+  <a class="nav-item" href="/notes/search/">Search</a>
+  <a class="nav-item" href="/notes/categories/">Tags</a>
+</div>
+
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Codebase summary from Claude</h1><p class="page-description">AutoPST codebase notes</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2026-03-25T00:00:00-05:00" itemprop="datePublished">
+        Mar 25, 2026
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      13 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/notes/categories/#autopst">autopst</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/notes/categories/#claude">claude</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="autopst-codebase-notes">AutoPST Codebase Notes</h1>
+
+<p><strong>Paper:</strong> “Global Rhythm Style Transfer Without Text Transcriptions”
+Kaizhi Qian, Yang Zhang, Shiyu Chang, Jinjun Xiong, Chuang Gan, David Cox, Mark Hasegawa-Johnson
+ICML 2021 (arXiv:2106.08519v1)</p>
+
+<hr />
+
+<h2 id="what-this-paper-does">What this paper does</h2>
+
+<p>Most voice/emotion style transfer systems convert timbre but leave rhythm untouched. The paper argues (§3.1) that rhythm — the number of frame-repetitions per phone — is the hard part to disentangle: removing it requires breaking the temporal synchrony between input and representation, which even supervised ASR models using Transformers find difficult (cited: Watanabe et al. 2017; Kim et al. 2017).</p>
+
+<p>The key idea is to treat the code sequence <strong>Z(t)</strong> as something to be randomly resampled — either compressed (fewer codes than frames, §4.2) or expanded (more codes, §4.4) — so that whatever rhythm information remains in <strong>Z̃(t)</strong> cannot be usefully decoded. The decoder is then trained to reconstruct the spectrogram conditioned on a <strong>domain ID</strong> (speaker identity), so it must learn to generate the target speaker’s natural rhythm from the compressed codes.</p>
+
+<p>The full system is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MFCC C(t) → Enc → Z(t) → Res → Z̃(t) → Dec(D) → Ŝ(t) ≈ X(t)
+</code></pre></div></div>
+
+<p>(Paper Figure 2, §4.1, eq. 4)</p>
+
+<hr />
+
+<h2 id="files-and-what-they-do">Files and what they do</h2>
+
+<h3 id="feature-extraction--data-prep">Feature extraction / data prep</h3>
+
+<p><strong><code class="language-plaintext highlighter-rouge">prepare_train_data.py</code></strong>
+Offline preprocessing script, not called during training. Iterates the VCTK directory tree and for each wav file:</p>
+
+<ol>
+  <li>High-pass filters at 30 Hz (<code class="language-plaintext highlighter-rouge">butter_highpass</code> in <code class="language-plaintext highlighter-rouge">utils.py</code>)</li>
+  <li>Computes STFT → 80-band log mel spectrogram (<code class="language-plaintext highlighter-rouge">pySTFT</code> + librosa mel basis, 16 kHz, FFT 1024, hop 256)</li>
+  <li>Normalises to <code class="language-plaintext highlighter-rouge">[0,1]</code>: <code class="language-plaintext highlighter-rouge">S = (D_db + 80) / 100</code></li>
+  <li>Computes normalised MFCCs from the mel spectrogram via a precomputed DCT matrix (<code class="language-plaintext highlighter-rouge">dctmx</code>) and saved z-score statistics (<code class="language-plaintext highlighter-rouge">mfcc_stats.pkl</code>)</li>
+  <li>Runs the pretrained SEA encoder (<code class="language-plaintext highlighter-rouge">model_sea.Generator</code>) on the first 20 MFCC dimensions to produce <strong>teacher codes</strong> — a 4-dimensional frame-level representation (see <code class="language-plaintext highlighter-rouge">hparams_sea.py</code>: <code class="language-plaintext highlighter-rouge">dim_neck_sea=8</code>, but AutoPST uses <code class="language-plaintext highlighter-rouge">dim_neck_sea=4</code> in <code class="language-plaintext highlighter-rouge">hparams_autopst.py</code>)</li>
+  <li>Saves three <code class="language-plaintext highlighter-rouge">.npy</code> files per utterance: mel spectrogram, full normalised MFCCs (all dims), teacher codes</li>
+</ol>
+
+<p>The metadata pickle (<code class="language-plaintext highlighter-rouge">train_vctk.meta</code>) is a list-of-lists: <code class="language-plaintext highlighter-rouge">[speaker_id, speaker_embedding, file1.npy, file2.npy, ...]</code> per speaker.</p>
+
+<p><strong>Why MFCC not mel?</strong> §4.1 notes that MFCC has “little pitch information”, which is intentional — the encoder should not encode pitch.</p>
+
+<hr />
+
+<h3 id="the-sea-encoder-model_seapy">The SEA encoder (<code class="language-plaintext highlighter-rouge">model_sea.py</code>)</h3>
+
+<p>The Self-Expressing Autoencoder (SEA) is from Bhati et al. (2020), modified to use similarity-based downsampling. It appears here only in two roles:</p>
+
+<ol>
+  <li><strong>Pretrained feature extractor</strong> — <code class="language-plaintext highlighter-rouge">Generator.encode()</code> is called in <code class="language-plaintext highlighter-rouge">prepare_train_data.py</code> to produce teacher codes saved to disk</li>
+  <li><strong>The online encoder</strong> — <code class="language-plaintext highlighter-rouge">Encoder_2</code> (imported as <code class="language-plaintext highlighter-rouge">Encoder_Code_2</code> in <code class="language-plaintext highlighter-rouge">model_autopst.py</code>) is the actual encoder inside the Generator models</li>
+</ol>
+
+<p><strong><code class="language-plaintext highlighter-rouge">Encoder</code> (kernel_size=1)</strong> vs <strong><code class="language-plaintext highlighter-rouge">Encoder_2</code> (kernel_size=5)</strong>
+<code class="language-plaintext highlighter-rouge">Encoder</code> uses pointwise 1×1 convolutions; <code class="language-plaintext highlighter-rouge">Encoder_2</code> uses 5-wide convolutions (padding=2, same-length output). AutoPST uses <code class="language-plaintext highlighter-rouge">Encoder_2</code>, which has a wider receptive field and no final ReLU on the last layer (contrast lines 113-114 vs 234-238 in <code class="language-plaintext highlighter-rouge">model_sea.py</code>). This is the live encoder in both training stages.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">GroupNorm_Mask</code></strong> (<code class="language-plaintext highlighter-rouge">model_sea.py:11-47</code>)
+Standard PyTorch <code class="language-plaintext highlighter-rouge">GroupNorm</code> does not respect padding. This custom version applies the boolean mask before computing mean and variance, so that padded frames do not contaminate the statistics. The mean is computed as a sum over valid positions divided by the count of valid positions, and likewise for variance.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">M43_Sequential</code></strong> (<code class="language-plaintext highlighter-rouge">model_sea.py:51-55</code>)
+A minimal subclass of <code class="language-plaintext highlighter-rouge">nn.Sequential</code> that passes a <code class="language-plaintext highlighter-rouge">mask</code> argument through to the <code class="language-plaintext highlighter-rouge">GroupNorm_Mask</code> module in position 1. The <code class="language-plaintext highlighter-rouge">ConvNorm</code> in position 0 does not receive the mask (it is just a 1D conv), but the normalisation that follows it does.</p>
+
+<p>The architecture is 5 layers of (ConvNorm → GroupNorm_Mask → ReLU), followed by two downprojection layers (512→128→32), and a final projection to <code class="language-plaintext highlighter-rouge">dim_neck_sea=4</code>. The result is a 4-dimensional frame-aligned code sequence. This is the <strong>information bottleneck</strong> described in §4.1 / §5.1 (“encoder output dimension is set to four”).</p>
+
+<hr />
+
+<h3 id="the-resampling-module-data_loaderpysegment_np">The resampling module (<code class="language-plaintext highlighter-rouge">data_loader.py:segment_np</code>)</h3>
+
+<p>This is the core novelty of the paper (§4.2–4.5). It is implemented <strong>in the data loader, not the model</strong> — resampling is done in NumPy on the CPU at batch construction time, not as a differentiable operation.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">Utterances.segment_np</code></strong> (<code class="language-plaintext highlighter-rouge">data_loader.py:69-109</code>):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">segment_np</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cd_long</span><span class="p">,</span> <span class="n">tau</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="c1"># Build Gram matrix G of cosine similarities
+</span>    <span class="n">cd_norm</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">cd_long</span> <span class="o">**</span> <span class="mi">2</span><span class="p">).</span><span class="nb">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdims</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="n">G</span> <span class="o">=</span> <span class="p">(</span><span class="n">cd_long</span> <span class="o">@</span> <span class="n">cd_long</span><span class="p">.</span><span class="n">T</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">cd_norm</span> <span class="o">@</span> <span class="n">cd_norm</span><span class="p">.</span><span class="n">T</span><span class="p">)</span>
+    <span class="p">...</span>
+    <span class="n">rate</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">uniform</span><span class="p">(</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">1.3</span><span class="p">)</span>     <span class="c1"># global G ~ U[u_l, u_r], paper eq. 8
+</span>    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">L</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">q</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">rate</span><span class="o">-</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">rate</span><span class="p">)</span>  <span class="c1"># local L(t) ~ U[G-0.05, G+0.05]
+</span>        <span class="n">epsilon</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">quantile</span><span class="p">(</span><span class="n">tmp</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>           <span class="c1"># threshold τ(t), paper eq. 8
+</span>        <span class="k">if</span> <span class="n">q</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>  <span class="c1"># downsampling case, paper §4.2
+</span>            <span class="k">if</span> <span class="n">np</span><span class="p">.</span><span class="nb">all</span><span class="p">(</span><span class="n">G</span><span class="p">[</span><span class="n">prev_boundary</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span><span class="n">t</span><span class="o">+</span><span class="n">tau</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">epsilon</span><span class="p">):</span>
+                <span class="c1"># new segment boundary
+</span>                <span class="n">num_rep</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span> <span class="o">-</span> <span class="n">prev_boundary</span><span class="p">)</span>
+                <span class="p">...</span>
+        <span class="k">else</span><span class="p">:</span>       <span class="c1"># upsampling case, paper §4.4
+</span>            <span class="k">if</span> <span class="n">np</span><span class="p">.</span><span class="nb">all</span><span class="p">(</span><span class="n">G</span><span class="p">[</span><span class="n">prev_boundary</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span><span class="n">t</span><span class="o">+</span><span class="n">tau</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">epsilon</span><span class="p">):</span>
+                <span class="n">num_rep</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span> <span class="o">-</span> <span class="n">prev_boundary</span><span class="p">)</span>     <span class="c1"># normal segment
+</span>            <span class="k">else</span><span class="p">:</span>
+                <span class="n">num_rep</span><span class="p">.</span><span class="n">extend</span><span class="p">([</span><span class="n">t</span><span class="o">-</span><span class="n">prev_boundary</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">])</span>  <span class="c1"># insert empty segment
+</span></code></pre></div></div>
+
+<p>The function returns two arrays:</p>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">num_rep</code></strong> — the resampled segment lengths, including the 0.5-weight empty segments for the upsampling case (eq. 10)</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">num_rep_sync</code></strong> — the segment lengths with no empty insertions (used only in Stage 1)</li>
+</ul>
+
+<p><strong>How <code class="language-plaintext highlighter-rouge">tau</code> works</strong> (paper eq. 6): the boundary condition requires that <em>all</em> frames in <code class="language-plaintext highlighter-rouge">[t, t+tau)</code> are below the threshold. With <code class="language-plaintext highlighter-rouge">tau=2</code> (hardcoded), a new segment starts only if both the current frame and the next have dropped in similarity. This prevents spurious boundaries in transiently dissimilar frames.</p>
+
+<p><strong>The double randomisation</strong> (paper §4.3):</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">rate ~ U[0.8, 1.3]</code> is the global threshold percentile, shared across all frames in the utterance. This obscures the global speech rate.</li>
+  <li><code class="language-plaintext highlighter-rouge">q ~ U[rate-0.1, rate]</code> is the per-frame perturbation. This obscures local fine-grained rhythm patterns.</li>
+</ul>
+
+<p>The two cases (<code class="language-plaintext highlighter-rouge">q &lt;= 1</code> → downsample, <code class="language-plaintext highlighter-rouge">q &gt; 1</code> → upsample) directly implement §4.2 and §4.4. The <code class="language-plaintext highlighter-rouge">0.5</code> in <code class="language-plaintext highlighter-rouge">num_rep.extend([t-prev_boundary-0.5, 0.5])</code> is the empty-segment encoding: at mean-pooling time, this 0.5-weight segment gets merged with the previous real code to produce the duplicate (eq. 10).</p>
+
+<hr />
+
+<h3 id="filter-bank-mean-pooling-utilspyfilter_bank_mean">Filter-bank mean pooling (<code class="language-plaintext highlighter-rouge">utils.py:filter_bank_mean</code>)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">filter_bank_mean</span><span class="p">(</span><span class="n">num_rep</span><span class="p">,</span> <span class="n">codes_mask</span><span class="p">,</span> <span class="n">max_len_long</span><span class="p">):</span>
+</code></pre></div></div>
+
+<p>This converts the variable-length <code class="language-plaintext highlighter-rouge">num_rep</code> array into a differentiable <code class="language-plaintext highlighter-rouge">(B, L_short, L_long)</code> mean-pooling matrix so that <code class="language-plaintext highlighter-rouge">torch.bmm(fb, cd_long)</code> produces the compressed code sequence <code class="language-plaintext highlighter-rouge">Z̃(m)</code> (paper eq. 7).</p>
+
+<p>The implementation uses cumulative sums to compute left and right edges for each segment, then builds a binary mask of which long-sequence positions fall inside each segment. The <code class="language-plaintext highlighter-rouge">torch.min(lower, upper)</code> triangular construction is a relic — the immediately following line <code class="language-plaintext highlighter-rouge">fb = (fb &gt; 0).float()</code> discards the triangular weights and makes it a simple mean pool. So effectively:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Z̃(m) = mean( Z(t_m : t_{m+1}) )   # eq. 7
+</code></pre></div></div>
+
+<p>In the upsampling case, the 0.5-weight empty segment means the empty segment has zero span and the mean pool returns a copy of the adjacent code — implementing eq. 10 without special-casing.</p>
+
+<hr />
+
+<h3 id="the-autopst-model-model_autopstpy">The AutoPST model (<code class="language-plaintext highlighter-rouge">model_autopst.py</code>)</h3>
+
+<h4 id="prenet-lines-20-41"><code class="language-plaintext highlighter-rouge">Prenet</code> (lines 20-41)</h4>
+<p>A linear projection followed by sinusoidal positional encoding (<code class="language-plaintext highlighter-rouge">onmt_modules/embeddings.py</code>). Used as the embedding layer for both encoder and decoder inputs. The <code class="language-plaintext highlighter-rouge">step</code> parameter threads through to the positional encoding for autoregressive inference.</p>
+
+<h4 id="encoder_tx_spk-lines-74-91"><code class="language-plaintext highlighter-rouge">Encoder_Tx_Spk</code> (lines 74-91)</h4>
+<p>The “text” encoder (called “text” because it encodes the code sequence, which plays the role of phoneme tokens in a TTS system). It concatenates the speaker embedding to each code frame before projecting and feeding to the Transformer encoder:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">spk_emb</span> <span class="o">=</span> <span class="n">spk_emb</span><span class="p">.</span><span class="n">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">).</span><span class="n">expand</span><span class="p">(</span><span class="n">src</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">src_spk</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">((</span><span class="n">src</span><span class="p">,</span> <span class="n">spk_emb</span><span class="p">),</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Input dimension: <code class="language-plaintext highlighter-rouge">dim_code + dim_spk = 4 + 82 = 86</code>. This is then projected to <code class="language-plaintext highlighter-rouge">enc_rnn_size=256</code> by the Prenet MLP. The concatenation implements the domain ID conditioning D mentioned in eq. 4.</p>
+
+<h4 id="decoder_sp-lines-45-70"><code class="language-plaintext highlighter-rouge">Decoder_Sp</code> (lines 45-70)</h4>
+<p>The speech decoder. Takes a shifted target spectrogram (teacher-forced during training), attends to the encoder memory, and outputs <code class="language-plaintext highlighter-rouge">dim_freq + 1 = 81</code> values: one gate logit plus 80 mel bins. The split is <code class="language-plaintext highlighter-rouge">spect, gate = spect_gate[:,:,1:], spect_gate[:,:,:1]</code>.</p>
+
+<h4 id="generator_1--synchronous-stage-lines-130-200"><code class="language-plaintext highlighter-rouge">Generator_1</code> — synchronous stage (lines 130-200)</h4>
+
+<p>This implements <strong>Figure 5(a)</strong> of the paper. The key method is <code class="language-plaintext highlighter-rouge">pad_sequences_rnn</code> (lines 145-155):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">pad_sequences_rnn</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cd_short</span><span class="p">,</span> <span class="n">num_rep</span><span class="p">,</span> <span class="n">len_long</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">B</span><span class="p">):</span>
+        <span class="n">code_sync</span> <span class="o">=</span> <span class="n">cd_short</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">repeat_interleave</span><span class="p">(</span><span class="n">num_rep</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">dim</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="n">out_tensor</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="p">:</span><span class="n">len_long</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">code_sync</span>
+</code></pre></div></div>
+
+<p>This is the <strong>re-alignment module</strong> (labelled “Align” in Figure 5a). Each downsampled code <code class="language-plaintext highlighter-rouge">Z̃(m)</code> is repeated <code class="language-plaintext highlighter-rouge">num_rep_sync[m]</code> times to re-expand the sequence back to the original length, so the decoder sees a frame-synchronous input. This is Stage 1: the decoder has access to rhythm information (via the alignment), so the encoder is forced to encode content only.</p>
+
+<p><strong>Stage 1 uses <code class="language-plaintext highlighter-rouge">num_rep_sync</code></strong> (the version without empty-segment insertions), not <code class="language-plaintext highlighter-rouge">num_rep</code>.</p>
+
+<p>In <code class="language-plaintext highlighter-rouge">forward</code> (lines 158-179):</p>
+<ol>
+  <li>Encode MFCC → codes via <code class="language-plaintext highlighter-rouge">encoder_cd</code> (Encoder_2)</li>
+  <li>Mean-pool to get <code class="language-plaintext highlighter-rouge">cd_short</code> via <code class="language-plaintext highlighter-rouge">filter_bank_mean</code></li>
+  <li>Re-expand to frame length via <code class="language-plaintext highlighter-rouge">pad_sequences_rnn</code> → <code class="language-plaintext highlighter-rouge">cd_short_sync</code></li>
+  <li>Encode (code, speaker) → Transformer encoder memory</li>
+  <li>Prepend speaker token: <code class="language-plaintext highlighter-rouge">memory_tx_spk = cat([spk_emb_1, memory_tx], dim=0)</code></li>
+  <li>Decode spectrogram</li>
+</ol>
+
+<p>The speaker embedding prepended to the memory (step 5) is a single extra token at position 0, giving the decoder a “global style” token to attend to — analogous to a style token in GST-style TTS.</p>
+
+<h4 id="generator_2--asynchronous-stage-lines-204-257"><code class="language-plaintext highlighter-rouge">Generator_2</code> — asynchronous stage (lines 204-257)</h4>
+
+<p>This implements <strong>Figure 5(b)</strong>. The differences from <code class="language-plaintext highlighter-rouge">Generator_1</code> are:</p>
+
+<ol>
+  <li>No <code class="language-plaintext highlighter-rouge">pad_sequences_rnn</code> — the decoder gets <code class="language-plaintext highlighter-rouge">cd_short</code> directly (asynchronous, length <code class="language-plaintext highlighter-rouge">L_short</code> not <code class="language-plaintext highlighter-rouge">L_long</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">encoder_cd</code> is frozen in <code class="language-plaintext highlighter-rouge">solver_2.py</code> (line 37: <code class="language-plaintext highlighter-rouge">self.freeze_layers(self.P.encoder_cd)</code>)</li>
+  <li>The mean-pool uses <code class="language-plaintext highlighter-rouge">.detach()</code> on both <code class="language-plaintext highlighter-rouge">fb</code> and <code class="language-plaintext highlighter-rouge">cd_long</code>: <code class="language-plaintext highlighter-rouge">cd_short = torch.bmm(fb.detach(), cd_long.detach())</code></li>
+  <li>Encoder memory lengths become <code class="language-plaintext highlighter-rouge">len_short+1</code> not <code class="language-plaintext highlighter-rouge">len_spect+1</code></li>
+</ol>
+
+<p>The asynchronous mismatch between encoder sequence length (L_short) and decoder sequence length (L_long) means the Transformer cross-attention must learn to handle non-square attention matrices — the decoder produces ~800 frames while attending to ~100 codes.</p>
+
+<p>The gradient detach on <code class="language-plaintext highlighter-rouge">cd_long</code> means the encoder receives no gradient signal from the reconstruction loss in Stage 2. This is what “freezes” the encoder effectively — the explicit <code class="language-plaintext highlighter-rouge">freeze_layers</code> call prevents any updates to it.</p>
+
+<hr />
+
+<h3 id="training-solver_1py-solver_2py">Training (<code class="language-plaintext highlighter-rouge">solver_1.py</code>, <code class="language-plaintext highlighter-rouge">solver_2.py</code>)</h3>
+
+<p>Both solvers share the same loss:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">loss_tx2sp</span> <span class="o">=</span> <span class="p">(</span><span class="n">F</span><span class="p">.</span><span class="n">mse_loss</span><span class="p">(</span><span class="n">spect_pred</span><span class="p">,</span> <span class="n">sp_real</span><span class="p">,</span> <span class="n">reduction</span><span class="o">=</span><span class="s">'none'</span><span class="p">)</span> <span class="o">*</span> <span class="n">mask</span><span class="p">).</span><span class="nb">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">mask</span><span class="p">.</span><span class="nb">sum</span><span class="p">()</span>
+<span class="n">loss_stop_sp</span> <span class="o">=</span> <span class="n">BCEWithLogitsLoss</span><span class="p">(</span><span class="n">stop_pred_sp</span><span class="p">,</span> <span class="n">mask_sp_real</span><span class="p">.</span><span class="nb">float</span><span class="p">())</span>
+<span class="n">loss_total</span> <span class="o">=</span> <span class="n">loss_tx2sp</span> <span class="o">+</span> <span class="n">loss_stop_sp</span>
+</code></pre></div></div>
+
+<p>The MSE mask extends 10 frames past the actual utterance length (<code class="language-plaintext highlighter-rouge">len_real + 10</code>, clipped to tensor length) to include the stop region in the loss. The stop target is the padding mask itself — frames within the utterance are 0 (continue), frames beyond are 1 (stop).</p>
+
+<p>The stop gate uses <code class="language-plaintext highlighter-rouge">BCEWithLogitsLoss</code> with no weighting, which may be imbalanced (most frames are within the utterance, so most targets are 0). In practice the gate threshold at inference is 0.48 (slightly below 0.5).</p>
+
+<p><strong>Stage 1</strong> (<code class="language-plaintext highlighter-rouge">solver_1.py</code>) uses <code class="language-plaintext highlighter-rouge">num_rep_sync</code> and <code class="language-plaintext highlighter-rouge">len_short_sync</code> (line 61).
+<strong>Stage 2</strong> (<code class="language-plaintext highlighter-rouge">solver_2.py</code>) uses <code class="language-plaintext highlighter-rouge">num_rep</code> and <code class="language-plaintext highlighter-rouge">len_short</code> (line 75) — the version including empty segment weights.</p>
+
+<p>Optimizer: Adam, lr=1e-4, β=(0.9, 0.999). No learning rate schedule. Checkpoints saved every 10,000 iterations (suffix <code class="language-plaintext highlighter-rouge">-A.ckpt</code> for Stage 1, <code class="language-plaintext highlighter-rouge">-B.ckpt</code> for Stage 2).</p>
+
+<hr />
+
+<h3 id="inference-fast_decoderspy-generatorinfer_onmt">Inference (<code class="language-plaintext highlighter-rouge">fast_decoders.py</code>, <code class="language-plaintext highlighter-rouge">Generator.infer_onmt</code>)</h3>
+
+<p>Inference uses autoregressive decoding (<code class="language-plaintext highlighter-rouge">DecodeFunc_Sp.infer</code>, lines 36-74). At each step <code class="language-plaintext highlighter-rouge">t</code>:</p>
+
+<ol>
+  <li>Feed <code class="language-plaintext highlighter-rouge">current_pred</code> (previous output frame, or zeros at t=0) to the decoder</li>
+  <li>Predict next frame and gate</li>
+  <li>Quantise gate: <code class="language-plaintext highlighter-rouge">stop = round(sigmoid(gate) - 0.48 + 0.5)</code> — this is equivalent to <code class="language-plaintext highlighter-rouge">sigmoid(gate) &gt; 0.48</code></li>
+  <li>Feed the gate prediction as <code class="language-plaintext highlighter-rouge">tgt_words</code> to the decoder on the next step (used by <code class="language-plaintext highlighter-rouge">override_decoder.py</code> to skip teacher-forcing the stop token)</li>
+  <li>Break when all batch items have stopped</li>
+</ol>
+
+<p>The <code class="language-plaintext highlighter-rouge">tgt_words</code> mechanism in <code class="language-plaintext highlighter-rouge">override_decoder.py</code> (<code class="language-plaintext highlighter-rouge">OnmtDecoder_1</code>) overrides the standard OpenNMT decoder behaviour, which would teacher-force the stop token during training. During inference there is no reference, so the predicted gate value is fed back.</p>
+
+<p>At inference, <code class="language-plaintext highlighter-rouge">Generator_2.infer_onmt</code> feeds <code class="language-plaintext highlighter-rouge">cd_long</code> (the full-length code sequence, <em>not</em> mean-pooled) directly to the encoder — the resampling is only applied during training. This means inference uses all the available code frames, letting the decoder figure out the rhythm from the codes plus the target speaker embedding.</p>
+
+<hr />
+
+<h3 id="transformer-modules-onmt_modules">Transformer modules (<code class="language-plaintext highlighter-rouge">onmt_modules/</code>)</h3>
+
+<p>Adapted from OpenNMT-py. The key configuration used:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Value</th>
+      <th>Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">enc_layers</code></td>
+      <td>4</td>
+      <td>Transformer encoder depth</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dec_layers</code></td>
+      <td>4</td>
+      <td>Transformer decoder depth</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">enc_rnn_size</code> / <code class="language-plaintext highlighter-rouge">dec_rnn_size</code></td>
+      <td>256</td>
+      <td>Model dimension</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">transformer_ff</code></td>
+      <td>1024</td>
+      <td>FFN hidden dimension (4× model dim)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">heads</code></td>
+      <td>8</td>
+      <td>Attention heads</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dropout</code></td>
+      <td>0.1</td>
+      <td>Applied after attention and FFN</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">max_relative_positions</code></td>
+      <td>0</td>
+      <td>No relative positional encoding</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">self_attn_type</code></td>
+      <td><code class="language-plaintext highlighter-rouge">"scaled-dot"</code></td>
+      <td>Standard attention</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The encoder produces a memory bank of shape <code class="language-plaintext highlighter-rouge">(L_src, B, d_model)</code>. The decoder’s cross-attention queries this memory bank. Sequence masking uses <code class="language-plaintext highlighter-rouge">onmt_modules/misc.py:sequence_mask</code>.</p>
+
+<hr />
+
+<h2 id="data-flow-summary">Data flow summary</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>WAV → highpass → STFT → mel 80-band → normalize → S (mel spectrogram)
+                                     → DCT → normalize → C (MFCC, 14 dims used)
+                                     → SEA encoder → teacher codes Z_teacher
+
+                save S, C, Z_teacher to disk
+
+Training batch:
+    C → Encoder_2 (8-layer conv, bottleneck 4-dim) → Z(t)   [L_long × 4]
+    Z_teacher + segment_np → num_rep                         [L_short]
+    filter_bank_mean(num_rep, Z(t)) → Z̃(m)                  [L_short × 4]
+
+Stage 1:
+    pad_sequences_rnn(Z̃, num_rep_sync) → Z'(t)             [L_long × 4]
+    Encoder_Tx_Spk(Z'(t), spk_emb) → memory                 [L_long × 256]
+    Decoder_Sp(S_shifted, memory) → Ŝ(t), gate              [L_long × 80]
+    loss = MSE(Ŝ, S) + BCE(gate, padding_mask)
+
+Stage 2:  [encoder_cd frozen]
+    Encoder_Tx_Spk(Z̃(m), spk_emb) → memory                 [L_short × 256]
+    Decoder_Sp(S_shifted, memory) → Ŝ(t), gate              [L_long × 80]
+    loss = MSE(Ŝ, S) + BCE(gate, padding_mask)
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="things-that-could-trip-you-up">Things that could trip you up</h2>
+
+<p><strong>Teacher codes vs. online encoder</strong>: <code class="language-plaintext highlighter-rouge">prepare_train_data.py</code> saves teacher codes using the SEA <code class="language-plaintext highlighter-rouge">Generator.Encoder</code> (kernel_size=1), but during training <code class="language-plaintext highlighter-rouge">model_autopst.py</code> imports <code class="language-plaintext highlighter-rouge">Encoder_2</code> (kernel_size=5) as its online encoder. These have different architectures. The teacher codes on disk are used in <code class="language-plaintext highlighter-rouge">segment_np</code> to build the Gram matrix — the segmentation is based on the precomputed codes, not on the codes being learned. The online encoder learns to produce codes suitable for the decoder independently.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">dim_neck_sea</code> inconsistency</strong>: <code class="language-plaintext highlighter-rouge">hparams_sea.py</code> sets <code class="language-plaintext highlighter-rouge">dim_neck_sea=8</code> but <code class="language-plaintext highlighter-rouge">hparams_autopst.py</code> sets <code class="language-plaintext highlighter-rouge">dim_neck_sea=4</code>. The SEA model loaded by <code class="language-plaintext highlighter-rouge">prepare_train_data.py</code> uses <code class="language-plaintext highlighter-rouge">hparams_sea</code>, so teacher codes are 8-dimensional. But the <code class="language-plaintext highlighter-rouge">Encoder_2</code> inside <code class="language-plaintext highlighter-rouge">Generator_1/2</code> uses <code class="language-plaintext highlighter-rouge">hparams_autopst</code>, so the online encoder produces 4-dimensional codes. The <code class="language-plaintext highlighter-rouge">segment_np</code> function in <code class="language-plaintext highlighter-rouge">data_loader.py</code> operates on <code class="language-plaintext highlighter-rouge">cd_real</code> loaded from the teacher code files — these have 8 dimensions, not 4. The segmentation quality depends on the 8-dim codes. Only the downstream encoding (Encoder_2) uses 4-dim. This discrepancy is not documented.</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">segment_np</code> uses the stored teacher codes, not the online encoder output</strong>: the Gram matrix <code class="language-plaintext highlighter-rouge">G</code> is built from <code class="language-plaintext highlighter-rouge">cd_real</code> (disk-loaded), not from the forward-pass codes. Gradient does not flow through the segmentation.</p>
+
+<p><strong>The <code class="language-plaintext highlighter-rouge">num_rep</code> values are floats</strong> (because of the <code class="language-plaintext highlighter-rouge">0.5</code> trick for empty segments), but <code class="language-plaintext highlighter-rouge">pad_sequences_rnn</code> calls <code class="language-plaintext highlighter-rouge">repeat_interleave</code> which requires integers. <code class="language-plaintext highlighter-rouge">pad_sequences_rnn</code> is only called in Stage 1, which uses <code class="language-plaintext highlighter-rouge">num_rep_sync</code> (integer values only). Stage 2 uses <code class="language-plaintext highlighter-rouge">filter_bank_mean</code> which handles floats via the triangular/mean-pooling construction.</p>
+
+<p><strong>Inference bypasses resampling entirely</strong>: <code class="language-plaintext highlighter-rouge">infer_onmt</code> in both <code class="language-plaintext highlighter-rouge">Generator_1</code> and <code class="language-plaintext highlighter-rouge">Generator_2</code> passes <code class="language-plaintext highlighter-rouge">cd_long</code> (full-length encoder output, not mean-pooled) directly to <code class="language-plaintext highlighter-rouge">encoder_tx</code>. The resampling procedure described at length in §4 is <em>only active during training</em>. At inference time the model just encodes the full MFCC sequence and relies on the decoder’s learned rhythm-from-domain-ID behaviour.</p>
+
+<hr />
+
+<h2 id="connection-to-paper-claims">Connection to paper claims</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Paper claim</th>
+      <th>Code location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>§3.1: measure rhythm as frame-aligned phone repetitions</td>
+      <td><code class="language-plaintext highlighter-rouge">data_loader.py:segment_np</code> (counts are <code class="language-plaintext highlighter-rouge">num_rep</code>)</td>
+    </tr>
+    <tr>
+      <td>§4.1: MFCC instead of spectrogram to reduce pitch</td>
+      <td><code class="language-plaintext highlighter-rouge">data_loader.py:61</code> (<code class="language-plaintext highlighter-rouge">cep_tmp = np.load(...)[:, 0:14]</code>), <code class="language-plaintext highlighter-rouge">prepare_train_data.py:69</code></td>
+    </tr>
+    <tr>
+      <td>§4.1: information bottleneck, encoder output dim = 4</td>
+      <td><code class="language-plaintext highlighter-rouge">hparams_autopst.py</code>: <code class="language-plaintext highlighter-rouge">dim_neck_sea=4</code></td>
+    </tr>
+    <tr>
+      <td>§4.2: similarity-based downsampling (eq. 6, 7)</td>
+      <td><code class="language-plaintext highlighter-rouge">data_loader.py:segment_np</code> q≤1 branch; <code class="language-plaintext highlighter-rouge">utils.py:filter_bank_mean</code></td>
+    </tr>
+    <tr>
+      <td>§4.3: double-randomised thresholding (eq. 8)</td>
+      <td><code class="language-plaintext highlighter-rouge">data_loader.py:80-91</code> (<code class="language-plaintext highlighter-rouge">rate</code>, <code class="language-plaintext highlighter-rouge">q</code>)</td>
+    </tr>
+    <tr>
+      <td>§4.4: upsampling with empty segment insertion (eq. 9, 10)</td>
+      <td><code class="language-plaintext highlighter-rouge">data_loader.py:101</code> (<code class="language-plaintext highlighter-rouge">num_rep.extend([..., 0.5])</code>)</td>
+    </tr>
+    <tr>
+      <td>§4.6: Stage 1 synchronous training (Figure 5a)</td>
+      <td><code class="language-plaintext highlighter-rouge">model_autopst.py:Generator_1</code>, <code class="language-plaintext highlighter-rouge">solver_1.py</code></td>
+    </tr>
+    <tr>
+      <td>§4.6: Stage 2 asynchronous, encoder frozen (Figure 5b)</td>
+      <td><code class="language-plaintext highlighter-rouge">model_autopst.py:Generator_2</code>, <code class="language-plaintext highlighter-rouge">solver_2.py:37</code></td>
+    </tr>
+    <tr>
+      <td>§5.1: 8×(1×5) conv encoder with GroupNorm</td>
+      <td><code class="language-plaintext highlighter-rouge">model_sea.py:Encoder_2</code>, <code class="language-plaintext highlighter-rouge">GroupNorm_Mask</code></td>
+    </tr>
+    <tr>
+      <td>§5.1: Transformer decoder, 4 enc + 4 dec layers</td>
+      <td><code class="language-plaintext highlighter-rouge">hparams_autopst.py</code>: <code class="language-plaintext highlighter-rouge">enc_layers=4</code>, <code class="language-plaintext highlighter-rouge">dec_layers=4</code></td>
+    </tr>
+    <tr>
+      <td>§5.1: WaveNet vocoder</td>
+      <td><code class="language-plaintext highlighter-rouge">demo.ipynb</code> (external, not in this repo)</td>
+    </tr>
+    <tr>
+      <td>§5.1: VCTK dataset, 109 speakers</td>
+      <td><code class="language-plaintext highlighter-rouge">hparams_autopst.py</code>: <code class="language-plaintext highlighter-rouge">dim_spk=82</code> (subset used)</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div><a class="u-url" href="/notes/autopst/claude/2026/03/25/autopst-codebase-notes.html" hidden></a>
+</article>
+
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/notes/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      </div>
+      <div class="footer-col">
+        <p>Things I know I&#39;ll forget</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list">
+  <li>
+    <a href="https://jimregan.github.io/notes/feed.xml" target="_blank" title="Subscribe to syndication feed">
+      <svg class="svg-icon grey" viewbox="0 0 16 16">
+        <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+          11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+          13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+          16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+        />
+      </svg>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+
+</body>
+
+</html>
