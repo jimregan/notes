@@ -61,3 +61,11 @@ categories: [links]
 
 [bytedance-research/Valley3-8B-Instruct](https://huggingface.co/bytedance-research/Valley3-8B-Instruct)
 
+[zrajm/teckenskrift](https://github.com/zrajm/teckenskrift) --- An introduction to writing Swedish Sign Language (based on ASLWrite).
+
+[zrajm/STS-signbank](https://github.com/zrajm/STS-signbank) --- The signbank of Department of Linguistics at Stockholm university.
+
+[Linguistically Motivated Sign Language Segmentation](https://aclanthology.org/2023.findings-emnlp.846/),
+[code](https://github.com/sign-language-processing/segmentation)
+
+[Overview of Datasets for the Sign Languages of Europe](https://www.fdr.uni-hamburg.de/record/9561)
