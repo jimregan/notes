@@ -133,8 +133,8 @@ https://researchdata.se/en/catalogue/dataset/ext0408-1
 demokrati - Svenskt teckenspråkslexikon - Stockholms universitet
 https://teckensprakslexikon.su.se/ord/17083
 
-kung - Svenskt teckenspråkslexikon - Stockholms universitet
-https://teckensprakslexikon.su.se/ord/01481
+finns - Svenskt teckenspråkslexikon - Stockholms universitet
+https://teckensprakslexikon.su.se/ord/00204?phraseid=002101
 
 data.riksdagen.se/dokumentstatus/HD036.xml
 https://data.riksdagen.se/dokumentstatus/HD036.xml
@@ -172,23 +172,11 @@ https://github.com/24-mohamedyehia/pose-format-tutorials
 01_extract_landmarks_from_video.ipynb - Colab
 https://colab.research.google.com/github/24-mohamedyehia/pose-format-tutorials/blob/main/examples/01_extract_landmarks_from_video.ipynb
 
-sign-language-processing/segmentation: Sign language pose segmentation model on both the sentence and sign level
-https://github.com/sign-language-processing/segmentation
-
 sign-language-processing/spoken-to-signed-translation: a text-to-gloss-to-pose-to-video pipeline for spoken to signed language translation
 https://github.com/sign-language-processing/spoken-to-signed-translation
 
-sign-language-processing/signwriting-evaluation: Automatic Evaluation for SignWriting Machine Learning Outputs
-https://github.com/sign-language-processing/signwriting-evaluation
-
 sign-language-processing/lexicon-induction: Induce a lexicon from a continuous sign language corpus
 https://github.com/sign-language-processing/lexicon-induction
-
-sign-language-processing/synthetic-signwriting: A utility to generate synthetic SignWriting poses, for pretraining machine learning models
-https://github.com/sign-language-processing/synthetic-signwriting
-
-Train using HuggingFace by AmitMY · Pull Request #17 · sign-language-processing/signwriting-transcription
-https://github.com/sign-language-processing/signwriting-transcription/pull/17/changes#diff-0399876188126537556246f1ddc0ba1fe1cf76e923915557672eb8536e307b97
 
 NVIDIA-NeMo
 https://github.com/NVIDIA-NeMo
@@ -232,19 +220,31 @@ https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d
 feat: add openSMILE example config files for feature extraction. · sprakbankental/dev-shaas@8f9e612
 https://github.com/sprakbankental/dev-shaas/commit/8f9e612ef6dae758080ba0916ae6d4fbceb1e3b3
 
-sprakbankental/web-nordicprosody: Nordic prosody web site
-https://github.com/sprakbankental/web-nordicprosody
+Språkbanken Tal
+https://github.com/sprakbankental
 
-sprakbankental/dev-dia-rf: Development repo for SBTal internship 2025
-https://github.com/sprakbankental/dev-dia-rf
+Feed | LinkedIn
+https://www.linkedin.com/feed/
 
-sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models.
-https://github.com/sgl-project/sglang
+Alireza M. Kamelabad
+https://ali.mk/
 
-Ray Data: Scalable Data Processing for AI Workloads — Ray 2.56.0
-https://docs.ray.io/en/latest/data/data.html
+TMH 75 — about this collection
+https://www.sprakbanken.speech.kth.se/tmh75/about.html
 
-Distributed Machine Learning at Instacart | by Han Li | tech-at-instacart
-https://tech.instacart.com/distributed-machine-learning-at-instacart-4b11d7569423
+Bin - Google Drive
+https://drive.google.com/drive/u/0/trash
+
+Jim O'Regan | Flickr
+https://www.flickr.com/photos/jimregan/
+
+Repository search results
+https://github.com/search?q=flickr&type=repositories
+
+alexis-mignon/python-flickr-api: A python implementation of the Flickr API
+https://github.com/alexis-mignon/python-flickr-api
+
+Scraft/flickr-album-sorter: Sort flickr albums into date taken order
+https://github.com/Scraft/flickr-album-sorter
 
 
