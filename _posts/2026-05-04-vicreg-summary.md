@@ -3,7 +3,7 @@ toc: false
 layout: post
 hidden: true
 description: ChatGPT paper summary
-title: VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning
+title: VICReg - Variance-Invariance-Covariance Regularization for Self-Supervised Learning
 categories: [chatgpt, summary]
 ---
 
