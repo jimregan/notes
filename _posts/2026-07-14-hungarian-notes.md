@@ -1,0 +1,4212 @@
+---
+toc: false
+layout: post
+hidden: true
+description: Hungarian notes from ChatGPT
+title: Reel breakdowns
+categories: [hungarian, chatgpt, reels]
+---
+
+[Reel](https://www.instagram.com/reels/DalUniZtS3d/)
+
+**Ki baszna meg téged?**
+
+Who would fuck you?
+
+```text
+Ki   basz-na          meg  téged?
+who  fuck-COND.3SG    PV   2SG.ACC
+```
+
+**Az összes olyan férfi, aki hidegen hagy.**
+
+All the men who do not interest you.
+
+```text
+Az   összes  olyan  férfi,  aki  hideg-en  hagy.
+the  all     such   man     REL  cold-ADV  leave.3SG.INDF
+```
+
+**De elbaszott egy kérdés volt ez.**
+
+But this was a fucked-up question.
+
+```text
+De   el-basz-ott       egy  kérdés    volt          ez.
+but  PV-fuck-PTCP.PST  a    question  be.PST.3SG    this
+```
+
+**Egyébként nem nézel ki rosszul, de látszik rajtad, hogy száznegyven centi vagy fürdőszobai mérlegen állva.**
+
+By the way, you do not look bad, but it shows that you are 140 centimetres tall while standing on a bathroom scale.
+
+```text
+Egyébként  nem  néz-el          ki  rossz-ul,  de   látszik
+by.the.way NEG  look-2SG.INDF    PV  bad-ADV    but  be.visible.3SG
+
+rajt-ad,  hogy  száz-negyven  centi       vagy
+on-2SG    that  hundred-forty centimetre  be.2SG
+
+fürdő-szoba-i  mérleg-en  áll-va.
+bath-room-ADJ  scale-SUP  stand-CVB
+```
+
+**Ez van.**
+
+That is how it is.
+
+```text
+Ez    van.
+this  be.3SG
+```
+
+**Hát igen, végül is nem a véleménnyel kell vitatkozni, hanem személyeskedni kell.**
+
+Well, yes, after all, you are not supposed to argue with the opinion; you are supposed to make it personal.
+
+```text
+Hát  igen,  végül_is  nem  a    vélemény-nyel  kell
+DM    yes    after.all NEG  the  opinion-INST   must
+
+vitatkoz-ni,  hanem      személyesked-ni  kell.
+argue-INF     but.rather get.personal-INF must
+```
+
+**De ez is bizonyítja, hogy levegő van a fejedben agy helyett.**
+
+But this also proves that there is air in your head instead of a brain.
+
+```text
+De   ez    is    bizonyít-ja    hogy  levegő  van
+but  this  also  prove-3SG.DEF  that  air     be.3SG
+
+a    fej-ed-ben        agy    helyett.
+the  head-2SG.POSS-INE brain  instead.of
+```
+
+**Ja, hát várjál, Tötös, hát tudom, hát te benne voltál már egy videómban.**
+
+Oh, wait, Tötös. I know—you have already been in one of my videos.
+
+```text
+Ja,  hát  vár-j-ál,      Tötös,  hát  tud-om,
+oh   DM    wait-IMP-2SG  Tötös   DM    know-1SG.DEF
+
+hát  te   benne  volt-ál      már      egy  videó-m-ban.
+DM    2SG  in.it  be.PST-2SG   already  a    video-1SG.POSS-INE
+```
+
+**Mondtam valamit a hajadról, vagyis hát annak a hiányáról, nem?**
+
+I said something about your hair—or rather, about its absence—didn’t I?
+
+```text
+Mond-t-am      vala-mi-t       a    haj-ad-ról,
+say-PST-1SG    some-thing-ACC  the  hair-2SG.POSS-DEL
+
+vagyis   hát  annak     a    hiány-á-ról,          nem?
+rather   DM    that.DAT  the  absence-3SG.POSS-DEL  NEG
+```
+
+**Nézzük meg, hogy mi volt ez a nagy komment meg ez a nagy véleménynyilvánításom.**
+
+Let us see what this great comment and this great expression of opinion of mine was.
+
+```text
+Néz-z-ük          meg,  hogy  mi    volt
+look-SBJV-1PL.DEF  PV    that  what  be.PST.3SG
+
+ez    a    nagy  komment  meg  ez    a    nagy
+this  the  great comment  and  this  the  great
+
+vélemény-nyilvánítás-om.
+opinion-expression-1SG.POSS
+```
+
+**Amire intellektuálisan kell véleményt nyilvánítanom.**
+
+In response to which I am supposed to express an opinion intellectually.
+
+```text
+ami-re   intellektuális-an  kell  vélemény-t
+REL-SBL  intellectual-ADV   must  opinion-ACC
+
+nyilvánít-an-om.
+express-INF-1SG
+```
+
+**Ennél kártékonyabb szart még nem láttam az interneten.**
+
+I have never seen more harmful shit than this on the internet.
+
+```text
+Ennél     kártékony-abb  szar-t    még  nem
+this.ADE  harmful-CMPR   shit-ACC  yet   NEG
+
+lát-t-am      az   internet-en.
+see-PST-1SG   the  internet-SUP
+```
+
+**Ráadásul annyira kártékony, hogy minden ilyen komment után egy kicsit feljebb kerül az ember hajvonala.**
+
+Moreover, it is so harmful that after every comment like this, one’s hairline moves a little higher.
+
+```text
+Ráadásul  annyi-ra       kártékony,  hogy  minden  ilyen
+moreover  that.much-SBL  harmful     that  every   such
+
+komment  után   egy  kicsi-t     fel-jebb  kerül
+comment  after  a    little-ACC  up-CMPR   move.3SG
+
+az   ember   haj-vonal-a.
+the  person  hair-line-3SG.POSS
+```
+
+**Elnézést, tényleg roppant gyerekes módon reagáltam erre a kommentre.**
+
+Sorry, I really reacted to this comment in an extremely childish way.
+
+```text
+Elnézés-t,  tényleg  roppant  gyerek-es  mód-on
+pardon-ACC really   extremely child-ADJ manner-SUP
+
+reagál-t-am     ez-re     a    komment-re.
+react-PST-1SG   this-SBL  the  comment-SBL
+```
+
+**Engedd meg, hogy egy Cserihanna-idézettel válaszoljak most.**
+
+Allow me to answer now with a quotation from Cserihanna.
+
+```text
+Enged-d            meg,  hogy  egy  Cserihanna-idézet-tel
+allow-IMP.2SG.DEF  PV    that  a    Cserihanna-quotation-INST
+
+válaszol-j-ak       most.
+answer-SBJV-1SG     now
+```
+
+**Ha úgy igazán mélyen magamba nézek, nem kívánom, hogy csapjon beléd a villám.**
+
+When I look really deeply into myself, I do not wish for lightning to strike you.
+
+```text
+Ha  úgy  igazán  mély-en  mag-am-ba
+if  so   really  deep-ADV self-1SG.POSS-ILL
+
+néz-ek,         nem  kíván-om,     hogy  csap-j-on
+look-1SG.INDF   NEG  wish-1SG.DEF  that  strike-SBJV-3SG
+
+beléd      a    villám.
+into.2SG   the  lightning
+```
+
+**Se azt, hogy essen rád egy zongora.**
+
+Nor for a piano to fall on you.
+
+```text
+Se   az-t      hogy  es-s-en          rád       egy  zongora.
+nor  that-ACC  that  fall-SBJV-3SG    onto.2SG  a    piano
+```
+
+**Mint ahogy arra sem vágyom, hogy vigyorogjon rád egy revolver fogsora.**
+
+Nor do I long for a revolver’s row of teeth to grin at you.
+
+```text
+Mint  ahogy  arra      sem       vágy-om,
+as    how    that.SBL  also.NEG  long.for-1SG.DEF
+
+hogy  vigyorog-j-on      rád       egy  revolver
+that  grin-SBJV-3SG      onto.2SG  a    revolver
+
+fog-sor-a.
+tooth-row-3SG.POSS
+```
+
+**De azt azért mondhatom, nem?**
+
+But I can at least say this, can’t I?
+
+```text
+De   az-t      azért    mond-hat-om,      nem?
+but  that-ACC  at.least say-POT-1SG.DEF   NEG
+```
+
+**Hogy bár beakadna a cipőfűződ a mozgólépcsőbe.**
+
+That I wish your shoelace would get caught in the escalator.
+
+```text
+Hogy  bár      be-akad-na              a
+that  if.only  PV-get.caught-COND.3SG  the
+
+cipő-fűző-d          a    mozgó-lépcső-be.
+shoe-lace-2SG.POSS   the  moving-stair-ILL
+```
+
+**Hogy aztán bedaráljon egészen.**
+
+So that it would then grind you up completely.
+
+```text
+Hogy  aztán  be-darál-j-on          egész-en.
+that  then   PV-grind-SBJV-3SG      whole-ADV
+```
+
+**„Bedarálni” egészen szép verscím lenne.**
+
+“To Grind Up” would be quite a nice title for a poem.
+
+```text
+Be-darál-ni  egészen  szép  vers-cím   lenne.
+PV-grind-INF quite    nice  poem-title be.COND.3SG
+```
+
+**Kár, hogy csak fikció.**
+
+It is a pity that it is only fiction.
+
+```text
+Kár,   hogy  csak  fikció.
+pity   that  only  fiction
+```
+
+**Vagy például, tudom, hogy nem elegáns, tudom.**
+
+Or, for example, I know it is not elegant—I know.
+
+```text
+Vagy  példá-ul     tud-om,       hogy  nem  elegáns,
+or    example-ADV  know-1SG.DEF  that  NEG  elegant
+
+tud-om.
+know-1SG.DEF
+```
+
+**De hát csak van tere ennek az absztrakt gondolatnak is.**
+
+But surely there is room for this abstract thought too.
+
+```text
+De   hát  csak    van      ter-e
+but  DM    surely  be.3SG  space-3SG.POSS
+
+ennek     az   absztrakt  gondolat-nak  is.
+this.DAT  the  abstract   thought-DAT   also
+```
+
+**Hogy azt mondhassam, hogy a vonat szabjon rád rövidnadrágot.**
+
+So that I may say: may the train tailor a pair of shorts onto you.
+
+```text
+Hogy  az-t      mond-hat-j-am,
+that  that-ACC  say-POT-SBJV-1SG.DEF
+
+hogy  a    vonat  szab-j-on                 rád
+that  the  train  tailor-SBJV-3SG.INDF      onto.2SG
+
+rövid-nadrág-ot.
+short-trousers-ACC
+```
+
+**Te takonyszagú gecipúder.**
+
+You snot-smelling semen-powder.
+
+```text
+Te   takony-szag-ú    geci-púder.
+2SG  snot-smell-PROP  semen-powder
+```
+
+**Vagy hogy a hullazsák cipzárja csípné be a mellszőrödet.**
+
+Or that the zipper of a body bag would catch your chest hair.
+
+```text
+Vagy  hogy  a    hulla-zsák  cipzár-ja
+or    that  the  corpse-bag  zipper-3SG.POSS
+
+csíp-né             be  a    mell-szőr-öd-et.
+pinch-COND.3SG.DEF  PV  the  chest-hair-2SG.POSS-ACC
+```
+
+**Te féregarcú, pudvás fostalicska, tyúkbaszó, redvás kis köcsög.**
+
+You worm-faced, rotten shit-wheelbarrow, chicken-fucker, filthy little asshole.
+
+```text
+Te   féreg-arc-ú    pudvás  fos-talicska,
+2SG  worm-face-PROP rotten  shit-wheelbarrow
+
+tyúk-basz-ó,  redvás  kis     köcsög.
+hen-fuck-AGT  filthy  little  asshole
+```
+
+**Ez egy pukedli volt, jó van?**
+
+That was a curtsy, all right?
+
+```text
+Ez    egy  pukedli  volt,        jó    van?
+this  a    curtsy   be.PST.3SG   good  be.3SG
+```
+
+**Jaj, hugyos, kapcsold le magad, mielőtt más is lekapcsol.**
+
+Oh, you pissy one, switch yourself off before somebody else switches you off.
+
+```text
+Jaj,  hugy-os,    kapcsol-d          le  mag-ad,
+INTJ  urine-ADJ   switch-IMP.2SG.DEF PV  self-2SG.ACC
+
+mielőtt  más           is    le-kapcsol.
+before   someone.else  also  PV-switch.3SG.INDF
+```
+
+**Ha nem ismerném jobban a Facebook-kommentelők jó szándékát, azt gondolnám, hogy ez egy fenyegetés.**
+
+If I did not know the good intentions of Facebook commenters better, I would think this was a threat.
+
+```text
+Ha  nem  ismer-né-m          jobb-an
+if  NEG  know-COND-1SG.DEF   good-CMPR-ADV
+
+a    Facebook-kommentelő-k  jó    szándék-á-t,
+the  Facebook-commenter-PL  good  intention-3SG.POSS-ACC
+
+az-t      gondol-ná-m,        hogy  ez    egy  fenyegetés.
+that-ACC  think-COND-1SG.DEF  that  this  a    threat
+```
+
+**Egyébként meg ki kapcsolna le?**
+
+Besides, who would switch me off?
+
+```text
+Egyébként  meg  ki   kapcsol-na       le?
+besides    and  who  switch-COND.3SG  PV
+```
+
+**Juhász Gergő, a kakaórapper?**
+
+Gergő Juhász, the cocoa rapper?
+
+```text
+Juhász_Gergő  a    kakaó-rapper?
+Juhász_Gergő  the  cocoa-rapper
+```
+
+**Asszem, törölt innen egy hozzászólást a némber.**
+
+I think the broad deleted a comment from here.
+
+```text
+Asszem,   töröl-t          innen      egy
+I.think   delete-PST.3SG   from.here  a
+
+hozzá-szólás-t     a    némber.
+to-speak-NMLZ-ACC  the  broad
+```
+
+**Igen.**
+
+Yes.
+
+```text
+Igen.
+yes
+```
+
+**A némber azt a hozzászólást törli, amelyiket csak kurvára akarja.**
+
+The broad deletes whichever comment she fucking wants to.
+
+```text
+A    némber  az-t      a    hozzá-szólás-t
+the  broad   that-ACC  the  to-speak-NMLZ-ACC
+
+törl-i,          amely-ik-et    csak    kurvá-ra
+delete-3SG.DEF   REL-ONE-ACC    simply  whore-SBL
+
+akar-ja.
+want-3SG.DEF
+```
+
+**Mert ez az ő oldala, vágod.**
+
+Because this is her page, you get it.
+
+```text
+Mert     ez    az   ő    oldal-a,       vág-od.
+because  this  the  3SG  page-3SG.POSS  get-2SG.DEF
+```
+
+## A2 vocabulary
+
+* **az összes** — all; all of them
+* **olyan** — such; like that
+* **kérdés** — question
+* **egyébként** — by the way; otherwise
+* **kinéz** — look; appear
+* **látszik** — be visible; be apparent
+* **rajtad** — on you
+* **centi** — centimetre
+* **mérleg** — scales
+* **végül is** — after all
+* **vélemény** — opinion
+* **helyett** — instead of
+* **várj / várjál** — wait
+* **hiány** — absence; lack
+* **nézzük meg** — let us see
+* **hozzászólás** — comment
+* **után** — after
+* **tényleg** — really
+* **gyerekes** — childish
+* **válaszol** — answer; reply
+* **mélyen** — deeply
+* **kíván** — wish
+* **villám** — lightning
+* **rád** — onto you; at you
+* **aztán** — then; afterwards
+* **egészen** — completely; quite
+* **kár** — pity; shame
+* **gondolat** — thought; idea
+* **rövidnadrág** — shorts
+* **mielőtt** — before
+* **más** — other; someone else
+* **jó szándék** — good intention
+* **fenyegetés** — threat
+* **innen** — from here
+* **töröl** — delete
+* **mert** — because
+* **oldal** — side; page
+* **vágod?** — do you get it?
+* **hidegen hagy valakit** — not interest someone
+* **látszik rajta, hogy…** — it is apparent from looking at someone that…
+* **kár, hogy…** — it is a pity that…
+* **annyira…, hogy…** — so… that…
+* **valami helyett** — instead of something
+
+---
+
+[Reel](https://www.instagram.com/reels/DY7W6cVshSC/)
+
+**És most beszéljünk a situationshipről.**
+
+And now let’s talk about the situationship.
+
+```text
+És  most  beszél-j-ünk        a    situationship-ről.
+and  now   speak-SBJV-1PL.INDF the  situationship-DEL
+```
+
+**A situationship nem szabadság, ha közben a másik embert bizonytalanságban tartod.**
+
+A situationship is not freedom if you keep the other person in uncertainty in the meantime.
+
+```text
+A    situationship  nem  szabadság,  ha  közben
+the  situationship  NEG  freedom     if  meanwhile
+
+a    más-ik  ember-t     bizonytalan-ság-ban  tart-od.
+the  other-ONE person-ACC uncertain-NMLZ-INE  keep-2SG.DEF
+```
+
+**A situationship önmagában nem rossz, ha mindkét fél ugyanazt akarja.**
+
+A situationship is not bad in itself if both parties want the same thing.
+
+```text
+A    situationship  önmag-á-ban       nem  rossz,
+the  situationship  self-3SG.POSS-INE NEG  bad
+
+ha  mind-két  fél    ugyan-az-t     akar-ja.
+if  all-two   party  same-that-ACC  want-3SG.DEF
+```
+
+**És őszintén beszélnek az érzéseikről.**
+
+And they speak honestly about their feelings.
+
+```text
+És  őszinté-n  beszél-nek       az
+and  honest-ADV speak-3PL.INDF   the
+
+érzés-eik-ről.
+feeling-3PL.POSS-DEL
+```
+
+**A probléma ott kezdődik, amikor valaki élvezi a kapcsolat előnyeit, de kerüli a felelősséget, a döntéseket és a tiszta kommunikációt.**
+
+The problem begins when someone enjoys the advantages of the relationship but avoids responsibility, decisions and clear communication.
+
+```text
+A    probléma  ott    kezd-ődik,     amikor  valaki
+the  problem   there  begin-MID.3SG  when    someone
+
+élvez-i         a    kapcsolat    előny-e-i-t,
+enjoy-3SG.DEF   the  relationship advantage-3SG.POSS-PL-ACC
+
+de   kerül-i        a    felelősség-et,  a
+but  avoid-3SG.DEF  the  responsibility-ACC the
+
+döntés-ek-et    és   a    tiszta  kommunikáció-t.
+decision-PL-ACC and  the  clear   communication-ACC
+```
+
+**A felelősséget kerülő ember gyakran nyitva hagy minden ajtót.**
+
+The person who avoids responsibility often leaves every door open.
+
+```text
+A    felelősség-et     kerül-ő     ember
+the  responsibility-ACC avoid-PTCP  person
+
+gyakran  nyit-va   hagy             minden  ajtó-t.
+often    open-CVB  leave.3SG.INDF   every   door-ACC
+```
+
+**Közel enged magához, figyelmet, szeretetet és intimitást vár, meg ad is egy kicsit.**
+
+They let someone close to them, expect attention, love and intimacy, and give a little too.
+
+```text
+Közel  enged            mag-á-hoz,       figyelem-et,
+near   allow.3SG.INDF   self-3SG.POSS-ALL attention-ACC
+
+szeretet-et  és   intimitás-t  vár,
+love-ACC     and  intimacy-ACC expect.3SG.INDF
+
+meg  ad              is    egy  kicsi-t.
+and  give.3SG.INDF   also  a    little-ACC
+```
+
+**De amikor eljön az ideje a valódi elköteleződésnek, hirtelen nem áll készen.**
+
+But when the time for real commitment comes, suddenly they are not ready.
+
+```text
+De   amikor  el-jön          az   idej-e
+but  when    PV-come.3SG     the  time-3SG.POSS
+
+a    valódi  el-köteleződés-nek,  hirtelen
+the  real    PV-commitment-DAT     suddenly
+
+nem  áll              kész-en.
+NEG  stand.3SG.INDF   ready-ADV
+```
+
+**Nem akar címkéket, vagy „majd meglátjuk”, még nincs kész egy kapcsolatra.**
+
+They do not want labels, or “we’ll see”; they are not yet ready for a relationship.
+
+```text
+Nem  akar             címké-k-et,  vagy  majd
+NEG  want.3SG.INDF    label-PL-ACC or    later
+
+meg-lát-juk,       még  nincs         kész
+PV-see-1PL.DEF     yet  NEG.be.3SG    ready
+
+egy  kapcsolat-ra.
+a    relationship-SBL
+```
+
+**Közben a másik fél érzelmileg egyre mélyebbre kerül egy olyan kapcsolatban, amelynek nincs egyértelmű iránya.**
+
+Meanwhile, the other party becomes emotionally more and more deeply involved in a relationship that has no clear direction.
+
+```text
+Közben    a    más-ik  fél    érzelmi-leg
+meanwhile the  other-ONE party emotional-ADV
+
+egy-re         mély-ebb-re      kerül
+one-SBL        deep-CMPR-SBL    get.3SG.INDF
+
+egy  olyan  kapcsolat-ban,   amely-nek  nincs
+a    such   relationship-INE REL-DAT    NEG.be.3SG
+
+egyértelmű  irány-a.
+clear       direction-3SG.POSS
+```
+
+**Ez azért káros, mert a bizonytalanság hosszú távon rombolóbb lehet, mint egy őszinte visszautasítás.**
+
+This is harmful because uncertainty can be more destructive in the long term than an honest rejection.
+
+```text
+Ez    azért      káros,    mert     a
+this  therefore  harmful   because  the
+
+bizonytalan-ság  hosszú  táv-on    romboló-bb
+uncertain-NMLZ   long    term-SUP  destructive-CMPR
+
+lehet,       mint  egy  őszinte  vissza-utasítás.
+be.POT.3SG  than  an   honest   back-refusal
+```
+
+**Az ember folyamatosan reménykedik, elemez, várakozik, és olyan energiát fektet valamibe, aminek a másik fél nem akar valódi alapot adni.**
+
+A person continually hopes, analyses and waits, and invests energy in something to which the other party does not want to give a real foundation.
+
+```text
+Az   ember   folyamatos-an  remény-ked-ik,
+the  person  continuous-ADV hope-DER-3SG
+
+elemez,             várakoz-ik,  és   olyan
+analyse.3SG.INDF    wait-3SG     and  such
+
+energia-t  fektet            vala-mi-be,
+energy-ACC invest.3SG.INDF   some-thing-ILL
+
+ami-nek  a    más-ik  fél    nem  akar
+REL-DAT  the  other-ONE party NEG  want.3SG.INDF
+
+valódi  alap-ot       ad-ni.
+real    foundation-ACC give-INF
+```
+
+**Így hónapok vagy akár évek is elveszhetnek egy olyan helyzetben, amely valójában nem halad sehová sem.**
+
+In this way, months or even years can be lost in a situation that is actually going nowhere.
+
+```text
+Így  hónap-ok  vagy  akár  év-ek  is
+thus month-PL  or    even  year-PL also
+
+el-vesz-het-nek         egy  olyan  helyzet-ben,
+PV-be.lost-POT-3PL      a    such   situation-INE
+
+amely  való-já-ban      nem  halad
+REL    real-3SG.POSS-INE NEG proceed.3SG.INDF
+
+se-hová       sem.
+NEG-where.ILL NEG
+```
+
+**Az őszinteség nem az, hogy valaki azt mondja: „Nem akarok kapcsolatot”, miközben kapcsolatként viselkedik.**
+
+Honesty is not when someone says, “I do not want a relationship,” while behaving as though it were a relationship.
+
+```text
+Az   őszinte-ség  nem  az,    hogy  valaki
+the  honest-NMLZ  NEG  that   that  someone
+
+az-t      mond-ja:       Nem  akar-ok
+that-ACC  say-3SG.DEF    NEG  want-1SG.INDF
+
+kapcsolat-ot,     miközben  kapcsolat-ként
+relationship-ACC while       relationship-ESS
+
+viselked-ik.
+behave-3SG
+```
+
+**Az őszinteség az, amikor a szavak és a tettek összhangban vannak.**
+
+Honesty is when words and actions are in harmony.
+
+```text
+Az   őszinte-ség  az,    amikor  a    szav-ak
+the  honest-NMLZ  that   when    the  word-PL
+
+és   a    tett-ek  össz-hang-ban  van-nak.
+and  the  deed-PL  together-sound-INE be-3PL
+```
+
+**Aki valóban tiszteli a másikat, az nem tartja tartalékban.**
+
+Someone who truly respects the other person does not keep them in reserve.
+
+```text
+Aki  való-ban  tisztel-i       a    más-ik-at,
+REL  real-INE  respect-3SG.DEF the  other-ONE-ACC
+
+az    nem  tart-ja       tartalék-ban.
+that  NEG  keep-3SG.DEF  reserve-INE
+```
+
+**Nem adagolja a figyelmet azért, hogy a másik maradjon.**
+
+They do not ration attention so that the other person will stay.
+
+```text
+Nem  adagol-ja     a    figyelem-et  azért,
+NEG  ration-3SG.DEF the  attention-ACC so.that
+
+hogy  a    más-ik  marad-j-on.
+that  the  other-ONE remain-SBJV-3SG
+```
+
+**Nem épít érzelmi kötődést úgy, hogy közben tudja: nem akar felelősséget vállalni érte.**
+
+They do not build an emotional attachment while knowing that they do not want to take responsibility for it.
+
+```text
+Nem  épít             érzelm-i     kötődés-t  úgy,
+NEG  build.3SG.INDF   emotion-ADJ  attachment-ACC so
+
+hogy  közben    tud-ja:       nem  akar
+that  meanwhile know-3SG.DEF  NEG  want.3SG.INDF
+
+felelősség-et      vállal-ni  érte.
+responsibility-ACC take-INF    for.it
+```
+
+**A situationship sokszor nem a modern szerelem új formája.**
+
+A situationship is often not a new form of modern love.
+
+```text
+A    situationship  sok-szor   nem  a    modern
+the  situationship  many-times NEG  the  modern
+
+szerelem  új   formá-ja.
+love      new  form-3SG.POSS
+```
+
+**Sok esetben egyszerűen a döntésképtelenség, az önzőség vagy a felelősség elkerülésének kulturáltabb neve.**
+
+In many cases, it is simply a more civilised name for indecisiveness, selfishness or the avoidance of responsibility.
+
+```text
+Sok   eset-ben  egyszerű-en  a
+many  case-INE  simple-ADV   the
+
+döntés-képtelen-ség,  az   önző-ség  vagy  a
+decision-incapable-NMLZ the selfish-NMLZ or    the
+
+felelősség     el-kerül-és-é-nek
+responsibility PV-avoid-NMLZ-3SG.POSS-DAT
+
+kulturált-abb  nev-e.
+civilised-CMPR name-3SG.POSS
+```
+
+**Mert aki tényleg akar valakit, az nem hagyja találgatni.**
+
+Because someone who truly wants someone does not leave them guessing.
+
+```text
+Mert     aki  tényleg  akar             valaki-t,
+because  REL  really   want.3SG.INDF    someone-ACC
+
+az    nem  hagy-ja        találgat-ni.
+that  NEG  leave-3SG.DEF  guess-INF
+```
+
+**Aki pedig folyamatosan bizonytalanságban tart, az valójában már választott.**
+
+But someone who continually keeps you in uncertainty has actually already chosen.
+
+```text
+Aki  pedig  folyamatos-an  bizonytalan-ság-ban
+REL  but    continuous-ADV uncertain-NMLZ-INE
+
+tart,             az    való-já-ban
+keep.3SG.INDF     that  real-3SG.POSS-INE
+
+már      választ-ott.
+already  choose-PST.3SG
+```
+
+**Csak nem meri kimondani.**
+
+They simply do not dare to say it.
+
+```text
+Csak    nem  mer-i         ki-mond-ani.
+simply  NEG  dare-3SG.DEF  PV-say-INF
+```
+
+**Na, ti mit gondoltok erről?**
+
+So, what do you think about this?
+
+```text
+Na,  ti   mi-t      gondol-tok      ez-ről?
+DM   2PL  what-ACC  think-2PL.INDF  this-DEL
+```
+
+## A2 vocabulary
+
+* **szabadság** — freedom
+* **közben** — meanwhile; while
+* **bizonytalanság** — uncertainty
+* **bizonytalanságban tart** — keep someone uncertain
+* **önmagában** — in itself
+* **mindkét** — both
+* **ugyanaz** — the same thing
+* **őszintén** — honestly
+* **érzés** — feeling
+* **kezdődik** — begin; start
+* **élvez** — enjoy
+* **előny** — advantage
+* **kerül valamit** — avoid something
+* **felelősség** — responsibility
+* **döntés** — decision
+* **tiszta kommunikáció** — clear communication
+* **gyakran** — often
+* **nyitva hagy** — leave open
+* **közel enged magához** — let someone close
+* **figyelem** — attention
+* **szeretet** — love; affection
+* **intimitás** — intimacy
+* **eljön az ideje** — the time comes
+* **valódi** — real; genuine
+* **elköteleződés** — commitment
+* **hirtelen** — suddenly
+* **készen áll** — be ready
+* **címke** — label
+* **érzelmileg** — emotionally
+* **egyre** — increasingly; more and more
+* **mélyebbre kerül** — become more deeply involved
+* **egyértelmű** — clear; unambiguous
+* **irány** — direction
+* **káros** — harmful
+* **hosszú távon** — in the long term
+* **romboló** — destructive
+* **visszautasítás** — rejection
+* **folyamatosan** — continually
+* **reménykedik** — hope
+* **elemez** — analyse
+* **várakozik** — wait
+* **energiát fektet valamibe** — invest energy in something
+* **alapot ad valaminek** — give something a foundation
+* **akár** — even; possibly
+* **elveszhet** — may be lost
+* **helyzet** — situation
+* **valójában** — actually; in reality
+* **halad** — progress; proceed
+* **sehová sem** — nowhere
+* **őszinteség** — honesty
+* **miközben** — while
+* **viselkedik** — behave
+* **tett** — action; deed
+* **összhangban van** — be in harmony; be consistent
+* **tisztel** — respect
+* **tartalékban tart** — keep in reserve
+* **adagol** — ration; give in measured amounts
+* **érzelmi kötődés** — emotional attachment
+* **felelősséget vállal** — take responsibility
+* **sokszor** — often; many times
+* **döntésképtelenség** — indecisiveness
+* **önzőség** — selfishness
+* **elkerülés** — avoidance
+* **kulturáltabb** — more civilised
+* **találgat** — guess; speculate
+* **választ** — choose
+* **meri** — dare
+* **kimond** — say aloud; state explicitly
+
+---
+
+[Reel](https://www.instagram.com/reels/DYZ64SWIWCI/)
+
+**Ribancokkal normális pasi nem foglalkozik. Pont.**
+
+A normal guy does not deal with sluts. Period.
+
+```text
+Ribanc-ok-kal  normális  pasi  nem  foglalkoz-ik.  Pont.
+slut-PL-INST   normal    guy   NEG  deal.with-3SG  period
+```
+
+**Szerencsére pont itt van nálam a normális pasik kézikönyve.**
+
+Luckily, I happen to have the normal guys’ handbook right here.
+
+```text
+Szerencsé-re  pont     itt   van     nál-am
+luck-SBL      exactly  here  be.3SG  at-1SG
+
+a    normális  pasi-k  kézi-könyv-e.
+the  normal    guy-PL  hand-book-3SG.POSS
+```
+
+**1. Ne foglalkozz a ribikkel.**
+
+1. Do not deal with the sluts.
+
+```text
+Ne       foglalkoz-z       a    ribi-k-kel.
+NEG.IMP  deal.with-IMP.2SG the  slut-PL-INST
+```
+
+**Egyes pont: ribancokkal nem foglalkozni.**
+
+Point one: do not deal with sluts.
+
+```text
+Egy-es  pont:  ribanc-ok-kal  nem  foglalkoz-ni.
+one-ORD point   slut-PL-INST   NEG  deal.with-INF
+```
+
+**2. Oszd ki a ribiket.**
+
+2. Put the sluts in their place.
+
+```text
+Osz-d             ki  a    ribi-k-et.
+deal-IMP.2SG.DEF  PV  the  slut-PL-ACC
+```
+
+**Kettes pont: nőgyűlölő kommentek hagyása a Facebookon.**
+
+Point two: leaving misogynistic comments on Facebook.
+
+```text
+Kett-es  pont:  nő-gyűlöl-ő    komment-ek
+two-ORD  point   woman-hate-PTCP comment-PL
+
+hagy-ás-a             a    Facebook-on.
+leave-NMLZ-3SG.POSS   the  Facebook-SUP
+```
+
+**Várjunk, hogyha megírja a ribiknek, hogy ő nem foglalkozik a ribikkel, akkor az tulajdonképpen ribikkel való foglalkozásnak minősül, nem?**
+
+Wait: if he writes to the sluts that he does not deal with sluts, then that actually counts as dealing with sluts, doesn’t it?
+
+```text
+Vár-j-unk,       hogyha  meg-ír-ja
+wait-SBJV-1PL    if      PV-write-3SG.DEF
+
+a    ribi-k-nek,  hogy  ő   nem  foglalkoz-ik
+the  slut-PL-DAT  that  3SG NEG  deal.with-3SG
+
+a    ribi-k-kel,  akkor  az    tulajdonképpen
+the  slut-PL-INST then   that  actually
+
+ribi-k-kel    való  foglalkoz-ás-nak
+slut-PL-INST  being deal.with-NMLZ-DAT
+
+minősül,          nem?
+count.as.3SG      NEG
+```
+
+**Ne mutogasd nekik a melled, mert jobban tetszenél nekik, ha a farkadat mutogatnád.**
+
+Do not keep showing them your breasts, because they would like you better if you showed them your dick.
+
+```text
+Ne       mutogat-d          nek-ik   a
+NEG.IMP  show.REP-IMP.2SG.DEF DAT-3PL the
+
+mell-ed-et,           mert     jobb-an
+breast-2SG.POSS-ACC   because  good-CMPR-ADV
+
+tetsz-enél       nek-ik,   ha  a
+please-COND.2SG DAT-3PL    if  the
+
+fark-ad-at           mutogat-ná-d.
+dick-2SG.POSS-ACC    show.REP-COND-2SG.DEF
+```
+
+**Bár nem értem, miért követnek és kommentelnek…**
+
+Although I do not understand why they follow you and leave comments…
+
+```text
+Bár       nem  ért-em,          miért  követ-nek
+although  NEG  understand-1SG.DEF why    follow-3PL
+
+és   kommentel-nek…
+and  comment-3PL
+```
+
+**De te is kommentelsz.**
+
+But you comment too.
+
+```text
+De   te   is    kommentel-sz.
+but  2SG  also  comment-2SG
+```
+
+**…a posztjaid alatt.**
+
+…under your posts.
+
+```text
+a    poszt-ja-id       alatt.
+the  post-3SG.POSS-2SG under
+```
+
+**Fú, de beteg ez a magyar társadalom.**
+
+Ugh, how sick Hungarian society is.
+
+```text
+Fú,   de   beteg  ez    a    magyar     társadalom.
+ugh   how  sick   this  the  Hungarian  society
+```
+
+**Egy nő? He?**
+
+A woman? Huh?
+
+```text
+Egy  nő?     He?
+a    woman   huh
+```
+
+**Hát tudod mit, szerintem meg nagyon jó a sminked, tök jó a hajad.**
+
+Well, you know what? I think your makeup is very good, and your hair is really good.
+
+```text
+Hát  tud-od       mi-t,      szerint-em  meg
+DM    know-2SG.DEF what-ACC   opinion-1SG and
+
+nagyon  jó    a    smink-ed,          tök
+very    good  the  makeup-2SG.POSS    totally
+
+jó    a    haj-ad.
+good  the  hair-2SG.POSS
+```
+
+**Szép a mosolyod, és biztos vagyok benne, hogy egy intelligens és humoros nő vagy.**
+
+Your smile is beautiful, and I am sure that you are an intelligent and funny woman.
+
+```text
+Szép       a    mosoly-od,         és   biztos
+beautiful  the  smile-2SG.POSS     and  certain
+
+vagy-ok  benne,  hogy  egy  intelligens  és
+be-1SG   in.it   that  an   intelligent  and
+
+humor-os  nő     vagy.
+humour-ADJ woman be.2SG
+```
+
+**Amikor éppen nincsen gyenge pillanatod, és nem hagysz ilyen kommenteket.**
+
+When you are not having a weak moment and leaving comments like these.
+
+```text
+Amikor  éppen  nincs-en      gyenge  pillanat-od,
+when    just    NEG.be-3SG    weak    moment-2SG.POSS
+
+és   nem  hagy-sz         ilyen  komment-ek-et.
+and  NEG  leave-2SG.INDF  such   comment-PL-ACC
+```
+
+**Letiltottalak, fasz se kíváncsi rád.**
+
+I blocked you; no fucker is interested in you.
+
+```text
+Le-tilt-ott-alak,       fasz  se
+PV-block-PST-1SG>2SG    dick  neither
+
+kíváncsi    rád.
+interested  onto.2SG
+```
+
+## A2 vocabulary
+
+* **normális** — normal
+* **pasi** — guy
+* **foglalkozik valakivel** — deal with someone; concern oneself with someone
+* **pont** — exactly; just; period
+* **szerencsére** — luckily
+* **kézikönyv** — handbook; manual
+* **egyes pont** — point one
+* **kettes pont** — point two
+* **kioszt valakit** — tell someone off; put someone in their place
+* **nőgyűlölő** — misogynistic
+* **kommentet hagy** — leave a comment
+* **várjunk** — wait; hold on
+* **megír valakinek valamit** — write something to someone
+* **tulajdonképpen** — actually; essentially
+* **valaminek minősül** — count as something; qualify as something
+* **mutogat** — repeatedly show; display
+* **mell** — breast; chest
+* **jobban tetszik** — like better; find more attractive
+* **követ valakit** — follow someone
+* **kommentel** — comment
+* **poszt alatt** — under a post
+* **beteg** — sick; unhealthy
+* **társadalom** — society
+* **szerintem** — in my opinion
+* **smink** — makeup
+* **tök jó** — really good; very good
+* **mosoly** — smile
+* **biztos vagyok benne** — I am sure of it
+* **humoros** — humorous; funny
+* **éppen** — just; currently
+* **gyenge pillanat** — weak moment
+* **letilt valakit** — block someone
+* **kíváncsi valakire** — be interested in or curious about someone
+
+## Recognition-only slang and insults
+
+* **ribanc** — slut; whore
+* **ribi** — shortened slang form of **ribanc**
+* **fasz se** — literally “not a dick”; vulgar “nobody at all”
+
+---
+
+[Reel](https://www.instagram.com/reels/DZHrcFdqMk2/)
+
+**Ezt minden nő csinálja, csak nem vallja be.**
+
+Every woman does this; she just does not admit it.
+
+```text
+Ez-t       minden  nő     csinál-ja,     csak
+this-ACC   every   woman  do-3SG.DEF     just
+
+nem  vall-ja       be.
+NEG  admit-3SG.DEF PV
+```
+
+**Igen, néha direkt lassabban válaszolunk, de nem azért, mert nem érdekeltek, hanem kíváncsiak vagyunk, hogy csak unatkoztok, vagy tényleg érdeklődtök irántunk.**
+
+Yes, sometimes we deliberately reply more slowly, but not because you do not interest us; rather, we are curious whether you are just bored or are genuinely interested in us.
+
+```text
+Igen,  néha       direkt        lass-abb-an
+yes    sometimes  deliberately  slow-CMPR-ADV
+
+válaszol-unk,      de   nem  azért,      mert
+answer-1PL.INDF    but  NEG  for.that    because
+
+nem  érdekel-tek,        hanem       kíváncsi-ak
+NEG  interest-2PL.INDF   but.rather  curious-PL
+
+vagy-unk,  hogy    csak  unatkoz-tok,
+be-1PL     whether  just  be.bored-2PL
+
+vagy  tényleg  érdeklőd-tök       iránt-unk.
+or    really   be.interested-2PL  towards-1PL
+```
+
+## A2 vocabulary
+
+* **bevall** — admit; confess
+* **néha** — sometimes
+* **direkt** — deliberately; on purpose
+* **lassabban** — more slowly
+* **válaszol** — answer; reply
+* **nem azért, mert…** — not because…
+* **hanem** — but rather
+* **érdekel valakit** — interest someone
+* **kíváncsi** — curious
+* **unatkozik** — be bored
+* **tényleg** — really; genuinely
+* **érdeklődik valaki iránt** — be interested in someone
+* **irántunk** — in us; towards us
+
+---
+
+[Reel](https://www.instagram.com/reels/DZM-OyRMux6/)
+
+**Miben hasonlít az óvszer és a feleség?**
+
+In what way are a condom and a wife alike?
+
+```text
+Mi-ben  hasonlít       az   óvszer   és   a    feleség?
+what-INE resemble.3SG  the  condom   and  the  wife
+```
+
+**Mind a kettő többet tartózkodik a pénztárcádban, mint a farkadon.**
+
+Both spend more time in your wallet than on your dick.
+
+```text
+Mind  a    kettő  több-et  tartózkod-ik
+both  the  two     more-ACC stay-3SG
+
+a    pénz-tárcá-d-ban,      mint  a    fark-ad-on.
+the  money-wallet-2SG.POSS-INE than  the  dick-2SG.POSS-SUP
+```
+
+## A2 vocabulary
+
+* **miben?** — in what?; in what way?
+* **hasonlít valamire / valakihez** — resemble something or someone
+* **óvszer** — condom
+* **feleség** — wife
+* **mind a kettő** — both
+* **többet** — more; for longer
+* **tartózkodik** — stay; remain; spend time
+* **pénztárca** — wallet
+* **mint** — than; like
+* **farkadon** — on your dick; vulgar
+
+---
+
+[Reel](https://www.instagram.com/reels/Dave2syNtST/)
+
+**Mint láthatjátok, nem indult minden zökkenőmentesen: orkánerejű széllel indult, de megoldottuk.**
+
+As you can see, not everything started smoothly: it began with hurricane-force winds, but we solved it.
+
+```text
+Mint  lát-hat-já-tok,      nem  indul-t
+as    see-POT-2PL.DEF      NEG  start-PST.3SG
+
+minden  zökkenőmentes-en:  orkán-erejű
+everything smooth-ADV      hurricane-force
+
+szél-lel  indul-t,       de   meg-old-ott-uk.
+wind-INST start-PST.3SG  but  PV-solve-PST-1PL.DEF
+```
+
+**Szépen lassan megérkeztek a vendégek, és minden egyes érkezéssel egyre jobb lett a hangulat is.**
+
+Gradually, the guests arrived, and with every single arrival the atmosphere became better and better.
+
+```text
+Szép-en  lass-an  meg-érkez-t-ek       a
+nice-ADV slow-ADV PV-arrive-PST-3PL    the
+
+vendég-ek,  és   minden  egyes  érkezés-sel
+guest-PL    and  every   single arrival-INST
+
+egy-re       jobb       lett,           a
+one-SBL      good.CMPR  become.PST.3SG the
+
+hangulat  is.
+atmosphere also
+```
+
+**Annyira jó érzés volt körbenézni és együtt látni azokat az embereket, akiket ennyire szeretek.**
+
+It was such a good feeling to look around and see together all those people whom I love so much.
+
+```text
+Annyira  jó    érzés    volt          körbe-néz-ni
+so.much  good  feeling  be.PST.3SG    around-look-INF
+
+és   együtt    lát-ni  az-ok-at
+and  together  see-INF that-PL-ACC
+
+az   ember-ek-et,  aki-k-et       ennyire
+the  person-PL-ACC REL-PL-ACC     this.much
+
+szeret-ek.
+love-1SG.DEF
+```
+
+**Együtt ünnepelnek velem.**
+
+They are celebrating together with me.
+
+```text
+Együtt    ünnepel-nek       vel-em.
+together  celebrate-3PL     with-1SG
+```
+
+**Miért van ilyen egy évben csak egyszer?**
+
+Why does something like this happen only once a year?
+
+```text
+Miért  van     ilyen  egy  év-ben   csak  egyszer?
+why    be.3SG  such   a    year-INE only  once
+```
+
+**Ti is azt érzitek ilyenkor, hogy mindenkivel beszélgetnétek, de egyszerűen nincs idő mindenre, és hirtelen vége is lesz?**
+
+Do you also feel at times like this that you would talk to everyone, but there simply is not time for everything, and suddenly it is over?
+
+```text
+Ti   is    az-t      érz-i-tek       ilyen-kor,
+2PL  also  that-ACC  feel-2PL.DEF    such-TEMP
+
+hogy  mindenki-vel  beszélget-né-tek,
+that  everyone-INST talk-COND-2PL
+
+de   egyszerű-en  nincs        idő   minden-re,
+but  simple-ADV   NEG.be.3SG   time  everything-SBL
+
+és   hirtelen  vég-e          is    lesz?
+and  suddenly  end-3SG.POSS   also  become.3SG
+```
+
+**Külön köszönet Bencének és Rebekának, hogy zenéltek nekünk.**
+
+Special thanks to Bence and Rebeka for playing music for us.
+
+```text
+Külön    köszönet  Bencé-nek  és   Rebeká-nak,
+special  thanks    Bence-DAT   and  Rebeka-DAT
+
+hogy  zenél-t-ek         nek-ünk.
+that  play.music-PST-3PL DAT-1PL
+```
+
+**Videózás, naplementézés után az estét egy olasz pizzázással zártuk.**
+
+After filming and watching the sunset, we ended the evening by having Italian pizza.
+
+```text
+Videó-zás,  nap-lementé-zés  után   az
+video-NMLZ  sun-setting-NMLZ after  the
+
+est-é-t           egy  olasz    pizzá-zás-sal
+evening-POSS-ACC  an   Italian  pizza-NMLZ-INST
+
+zár-t-uk.
+close-PST-1PL.DEF
+```
+
+**Köszönöm mindenkinek. Jövőre tali!**
+
+Thank you, everyone. See you next year!
+
+```text
+Köszön-öm       mindenki-nek.  Jövő-re  tali!
+thank-1SG.DEF   everyone-DAT   next.year-SBL meet.up
+```
+
+## A2 vocabulary
+
+* **mint láthatjátok** — as you can see
+* **zökkenőmentesen** — smoothly; without problems
+* **orkánerejű** — hurricane-force
+* **megold** — solve; sort out
+* **szépen lassan** — gradually; little by little
+* **megérkezik** — arrive
+* **vendég** — guest
+* **minden egyes** — every single
+* **érkezés** — arrival
+* **egyre jobb** — better and better
+* **hangulat** — atmosphere; mood
+* **annyira** — so; to such an extent
+* **körbenéz** — look around
+* **együtt** — together
+* **ünnepel** — celebrate
+* **egy évben egyszer** — once a year
+* **ilyenkor** — at times like this
+* **érez** — feel
+* **mindenkivel** — with everyone
+* **beszélget** — talk; have a conversation
+* **egyszerűen** — simply
+* **mindenre** — for everything
+* **hirtelen** — suddenly
+* **vége lesz** — come to an end; be over
+* **külön köszönet** — special thanks
+* **zenél** — play music
+* **videózás** — filming; making videos
+* **naplementézés** — watching the sunset
+* **valami után** — after something
+* **az estét valamivel zárja** — end the evening with something
+* **pizzázás** — eating or going out for pizza
+* **jövőre** — next year
+* **tali** — see you; meetup, colloquial
+
+---
+
+[Reel](https://www.instagram.com/reels/DYaPGn7o3EQ/)
+
+**Szia, bby.**
+
+Hi, baby.
+
+**Én nem degradálni akarlak, se nem felmagasztalni, mint egy rajongói kommentben; én egy kölcsönösen előnyös ajánlatot adnék neked.**
+
+I do not want to demean you or exalt you as in a fan comment; I would make you a mutually beneficial offer.
+
+```text
+Én  nem  degradál-ni  akar-lak,      se      nem
+1SG NEG  demean-INF   want-1SG>2SG   neither NEG
+
+fel-magasztal-ni,  mint  egy  rajongó-i  komment-ben;
+PV-exalt-INF       as    a    fan-ADJ     comment-INE
+
+én  egy  kölcsönös-en  előny-ös       ajánlat-ot
+1SG a    mutual-ADV    advantage-ADJ  offer-ACC
+
+ad-né-k          nek-ed.
+give-COND-1SG    DAT-2SG
+```
+
+**Én rapper vagyok!**
+
+I am a rapper!
+
+```text
+Én   rapper  vagy-ok!
+1SG  rapper  be-1SG
+```
+
+**És hála az Istennek, megyek a Megasztárba!**
+
+And thank God, I am going on *Megasztár*!
+
+```text
+És  hála    az   Isten-nek,  megy-ek
+and thanks  the  God-DAT     go-1SG.INDF
+
+a    Megasztár-ba!
+the  Megasztár-ILL
+```
+
+**Így végre be fogok futni.**
+
+This way I will finally make it.
+
+```text
+Így   végre    be  fog-ok   fut-ni.
+thus  finally  PV  FUT-1SG  run-INF
+```
+
+**Te egy szép lány vagy, eljöhetnél az egyik videóklipembe.**
+
+You are a beautiful girl; you could come and appear in one of my music videos.
+
+```text
+Te   egy  szép       lány  vagy,
+2SG  a    beautiful  girl  be.2SG
+
+el-jö-het-né-l            az   egy-ik
+PV-come-POT-COND-2SG      the  one-ONE
+
+videóklip-em-be.
+music.video-1SG.POSS-ILL
+```
+
+**Utána, ha megvan a kellő vibe, akkor faszra kaplak.**
+
+Afterwards, if the vibe is right, I will put you on my dick.
+
+```text
+Utána,  ha  meg-van      a    kell-ő  vibe,
+after   if  PV-be.3SG    the  need-PTCP vibe
+
+akkor  fasz-ra   kap-lak.
+then   dick-SBL  take-1SG>2SG
+```
+
+**Mit szólsz mindehhez?**
+
+What do you say to all this?
+
+```text
+Mi-t      szól-sz         mind-ez-hez?
+what-ACC  say-2SG.INDF    all-this-ALL
+```
+
+**Benne lennél egy ilyen jellegű kollaborációban?**
+
+Would you be up for a collaboration of this kind?
+
+```text
+Benne   len-né-l      egy  ilyen  jelleg-ű
+in.it   be-COND-2SG   a    such   kind-PROP
+
+kollaboráció-ban?
+collaboration-INE
+```
+
+**Ehh… no.**
+
+**Annyira csábító volt ez az ajánlat, hogy muszáj volt megnéznem ennek a rappernek az oldalát.**
+
+This offer was so tempting that I had to look at this rapper’s page.
+
+```text
+Annyira  csábító  volt          ez    az   ajánlat,
+so.much  tempting  be.PST.3SG   this  the  offer
+
+hogy  muszáj     volt          meg-néz-n-em
+that  necessary  be.PST.3SG    PV-look-INF-1SG
+
+ennek     a    rapper-nek  az   oldal-á-t.
+this.DAT  the  rapper-DAT  the  page-3SG.POSS-ACC
+```
+
+**Baszki, ezek mi is lehettünk volna, ha egy kicsit bevállalósabb lennék.**
+
+Fuck, this could have been us too, if I were a little more adventurous.
+
+```text
+Baszki,  ez-ek     mi   is    lehet-t-ünk
+fuck     this-PL   1PL  also  be.POT-PST-1PL
+
+volna,     ha  egy  kicsi-t     be-vállal-ós-abb
+AUX.COND   if  a    little-ACC  PV-take.on-ADJ-CMPR
+
+len-né-k.
+be-COND-1SG
+```
+
+**Mi van? Mi ez a szám?**
+
+What is this? What is this song?
+
+```text
+Mi    van?     Mi    ez    a    szám?
+what  be.3SG   what  this  the  song
+```
+
+**Megbasztam én a Dalmát, szedtem neki vadalmát.**
+
+I fucked Dalma; I picked wild apples for her.
+
+```text
+Meg-basz-t-am      én   a    Dalmá-t,
+PV-fuck-PST-1SG    1SG  the  Dalma-ACC
+
+szed-t-em       nek-i    vad-almá-t.
+pick-PST-1SG    DAT-3SG  wild-apple-ACC
+```
+
+**Itt volt velem a Natika, a pinája mindig patika.**
+
+Natika was here with me; her pussy is always top-notch.
+
+```text
+Itt   volt         vel-em   a    Natika,
+here  be.PST.3SG   with-1SG the  Natika
+
+a    piná-ja            mindig  patika.
+the  pussy-3SG.POSS     always  top.notch
+```
+
+**Nagyon jó csaj a Kitti, szil e nekem itti.**
+
+Kitti is a very hot girl; *szil e nekem itti*.
+
+```text
+Nagyon  jó    csaj  a    Kitti,  szil  e    nek-em   itti.
+very    good  girl  the  Kitti   UNK   UNK  DAT-1SG  UNK
+```
+
+**Nagyon jó csaj az Ágnes, a pinája vas, a farkam meg a mágnes.**
+
+Ágnes is a very hot girl: her pussy is iron, and my dick is the magnet.
+
+```text
+Nagyon  jó    csaj  az   Ágnes,
+very    good  girl  the  Ágnes
+
+a    piná-ja         vas,   a    fark-am
+the  pussy-3SG.POSS  iron   the  dick-1SG.POSS
+
+meg  a    mágnes.
+and  the  magnet
+```
+
+**Nagyon jó bőr a Brigitta, gecim frankón megitta.**
+
+Brigitta is a very hot piece; she properly drank my cum.
+
+```text
+Nagyon  jó    bőr   a    Brigitta,
+very    good  skin  the  Brigitta
+
+geci-m          frankó-n   meg-i-tt-a.
+semen-1SG.POSS  proper-ADV PV-drink-PST-3SG.DEF
+```
+
+**Itt van velem a Renáta, a faszom kajak lerágta.**
+
+Renáta is here with me; she seriously gnawed my dick off.
+
+```text
+Itt   van     vel-em    a    Renáta,
+here  be.3SG  with-1SG  the  Renáta
+
+a    fasz-om          kajak   le-rág-t-a.
+the  dick-1SG.POSS    really  PV-gnaw-PST-3SG.DEF
+```
+
+**Elnézést, de most kellett egy perc, hogy összeszedjem magam.**
+
+Sorry, but I needed a minute to pull myself together.
+
+```text
+Elnézés-t,  de   most  kell-ett      egy  perc,
+pardon-ACC but  now   need-PST.3SG  a    minute
+
+hogy  össze-szed-j-em          mag-am.
+that  PV-collect-SBJV-1SG.DEF  self-1SG
+```
+
+**Nagyon jó csaj az Ágnes, pinája vas, farkam meg mágnes.**
+
+Ágnes is a very hot girl: her pussy is iron, and my dick is a magnet.
+
+```text
+Nagyon  jó    csaj  az   Ágnes,
+very    good  girl  the  Ágnes
+
+piná-ja            vas,   fark-am          meg  mágnes.
+pussy-3SG.POSS     iron   dick-1SG.POSS    and  magnet
+```
+
+**Kreativitás, az van.**
+
+Creativity—there is that.
+
+```text
+Kreativitás,  az    van.
+creativity    that  be.3SG
+```
+
+**Pfff…**
+
+**Persze majdnem minden létező nő belekerült a videóba, de Emmára, Emmára nem találtak ki semmit.**
+
+Of course, almost every woman in existence appeared in the video, but for Emma—for Emma—they did not come up with anything.
+
+```text
+Persze   majdnem  minden  létez-ő   nő
+of.course almost   every   exist-PTCP woman
+
+bele-kerül-t        a    videó-ba,
+into-get-PST.3SG    the  video-ILL
+
+de   Emma-ra,  Emma-ra   nem  talál-t-ak
+but  Emma-SBL  Emma-SBL  NEG  find-PST-3PL
+
+ki  sem-mi-t.
+PV  NEG-thing-ACC
+```
+
+**Hm…**
+
+**Vajon mit írtál volna rólam, hogyha együttműködünk?**
+
+I wonder what you would have written about me if we had collaborated.
+
+```text
+Vajon    mi-t      ír-t-ál       volna
+I.wonder what-ACC  write-PST-2SG AUX.COND
+
+ról-am,   hogyha  együtt-működ-ünk?
+DEL-1SG   if      together-work-1PL
+```
+
+**Nagyon jó csaj az Emma, a kommentelők sírnak ma.**
+
+Emma is a very hot girl; the commenters are crying today.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    kommentelő-k  sír-nak   ma.
+the  commenter-PL  cry-3PL   today
+```
+
+**Azt írják, kurva nagy a pofája, közben ráverik a fotójára.**
+
+They write that she has a fucking big mouth, while jerking off to her photo.
+
+```text
+Az-t      ír-já-k,         kurva  nagy  a
+that-ACC  write-3PL.DEF    whore  big   the
+
+pofá-ja,          közben     rá-ver-ik
+mug-3SG.POSS      meanwhile  onto.it-beat-3PL.DEF
+
+a    fotó-já-ra.
+the  photo-3SG.POSS-SBL
+```
+
+**A nőkön vered a nyomorod szét, mert az önbizalmad elfogyott rég.**
+
+You take your misery out on women because your self-confidence ran out long ago.
+
+```text
+A    nő-k-ön       ver-ed         a
+the  woman-PL-SUP  beat-2SG.DEF   the
+
+nyomor-od          szét,  mert     az
+misery-2SG.POSS    PV     because  the
+
+ön-bizalm-ad                 el-fogy-ott      rég.
+self-confidence-2SG.POSS     PV-run.out-PST.3SG long.ago
+```
+
+**Nagyon jó csaj az Emma, a Reddit népe full idegbajban.**
+
+Emma is a very hot girl; Reddit’s crowd is having a complete nervous breakdown.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    Reddit  nép-e             full     ideg-baj-ban.
+the  Reddit  people-3SG.POSS   totally  nerve-trouble-INE
+```
+
+**Biztos escort, biztos kurva, közben anyujuktól kérnek húszast buszra.**
+
+Surely she is an escort, surely she is a whore, while they ask their mothers for a twenty for the bus.
+
+```text
+Biztos  escort,  biztos  kurva,
+surely  escort   surely  whore
+
+közben     anyu-juk-tól        kér-nek
+meanwhile  mum-3PL.POSS-DEL    ask-3PL.INDF
+
+húszas-t         busz-ra.
+twenty.note-ACC  bus-SBL
+```
+
+**Nagyon jó csaj az Emma, a Facebook népe habzik rajta.**
+
+Emma is a very hot girl; Facebook’s crowd is foaming over her.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    Facebook  nép-e            habz-ik      rajt-a.
+the  Facebook  people-3SG.POSS  foam-3SG     on-3SG
+```
+
+**Ki a fasz nézi ezt a picsát?**
+
+Who the fuck watches this bitch?
+
+```text
+Ki   a    fasz  néz-i          ez-t
+who  the  dick  watch-3SG.DEF  this-ACC
+
+a    picsá-t?
+the  cunt-ACC
+```
+
+**Ezért tart ma itt a világ.**
+
+This is why the world is where it is today.
+
+```text
+Ez-ért    tart          ma     itt   a    világ.
+this-CAUS be.at.3SG     today  here  the  world
+```
+
+**A nőkön vered a nyomorod szét, közben apád se mondta, hogy büszke rád még.**
+
+You take your misery out on women, while even your father still has not said that he is proud of you.
+
+```text
+A    nő-k-ön       ver-ed         a
+the  woman-PL-SUP  beat-2SG.DEF   the
+
+nyomor-od          szét,  közben     apá-d
+misery-2SG.POSS    PV     meanwhile  father-2SG.POSS
+
+se        mond-t-a,       hogy  büszke  rád      még.
+even.NEG  say-PST-3SG.DEF that  proud   onto.2SG yet
+```
+
+**Nagyon jó csaj az Emma, a TikTok népe ki van bukva.**
+
+Emma is a very hot girl; TikTok’s crowd is outraged.
+
+```text
+Nagyon  jó    csaj  az   Emma,
+very    good  girl  the  Emma
+
+a    TikTok  nép-e             ki  van     buk-va.
+the  TikTok  people-3SG.POSS   PV  be.3SG  upset-CVB
+```
+
+**Én ezt tuti meg nem dugnám.**
+
+I definitely would not fuck this one.
+
+```text
+Én   ez-t      tuti        meg  nem  dug-ná-m.
+1SG  this-ACC  definitely  PV   NEG  fuck-COND-1SG.DEF
+```
+
+**Emma inkább remetének állna, megsúgnám.**
+
+Emma would rather become a hermit, let me tell you.
+
+```text
+Emma  inkább  remeté-nek  áll-na,
+Emma  rather  hermit-DAT  become-COND.3SG
+
+meg-súg-ná-m.
+PV-whisper-COND-1SG.DEF
+```
+
+**Régen minden nő tudta a helyét.**
+
+In the old days, every woman knew her place.
+
+```text
+Régen     minden  nő     tud-t-a
+long.ago  every   woman  know-PST-3SG.DEF
+
+a    hely-é-t.
+the  place-3SG.POSS-ACC
+```
+
+**Feri még mindig ezen eszi a kefét.**
+
+Feri is still worked up about this.
+
+```text
+Feri  még  mindig  ez-en      esz-i
+Feri  yet  always  this-SUP   eat-3SG.DEF
+
+a    kefé-t.
+the  brush-ACC
+```
+
+**„Én az ilyen picsákat nem bírom.”**
+
+“I cannot stand bitches like this.”
+
+```text
+Én   az   ilyen  picsá-k-at  nem  bír-om.
+1SG  the  such   cunt-PL-ACC NEG  bear-1SG.DEF
+```
+
+**Attila profilképe: e egy kerti grillrácson.**
+
+Attila’s profile picture: this one on a garden grill grate.
+
+```text
+Attila  profil-kép-e:             e    egy  kert-i      grill-rács-on.
+Attila  profile-picture-3SG.POSS  this  a    garden-ADJ  grill-grate-SUP
+```
+
+**Tégy inkább mindenkinek egy szívességet, és veszítsd el végre a szüzességed.**
+
+Instead, do everyone a favour and finally lose your virginity.
+
+```text
+Tégy         inkább  mindenki-nek  egy
+do.IMP.2SG   rather  everyone-DAT  a
+
+szívesség-et,  és   veszít-s-d
+favour-ACC     and  lose-SBJV-2SG.DEF
+
+el  végre    a    szüzesség-ed-et.
+PV  finally  the  virginity-2SG.POSS-ACC
+```
+
+**Veszítsd el végre a szüzességed.**
+
+Finally lose your virginity.
+
+```text
+Veszít-s-d          el  végre    a
+lose-SBJV-2SG.DEF   PV  finally  the
+
+szüzesség-ed-et.
+virginity-2SG.POSS-ACC
+```
+
+## A2 vocabulary
+
+* **degradál** — demean; degrade
+* **felmagasztal** — exalt; praise excessively
+* **rajongói** — fan-related; from an admirer
+* **kölcsönösen** — mutually
+* **előnyös** — advantageous; beneficial
+* **ajánlat** — offer; proposal
+* **hála Istennek** — thank God
+* **befut** — become successful; make it
+* **eljöhetne** — could come
+* **videóklip** — music video
+* **kellő** — sufficient; appropriate
+* **mit szólsz hozzá?** — what do you think of it?
+* **benne lenne valamiben** — be willing to participate in something
+* **ilyen jellegű** — of this kind
+* **kollaboráció** — collaboration
+* **csábító** — tempting
+* **muszáj** — necessary; have to
+* **bevállalós** — daring; adventurous
+* **összeszedi magát** — pull oneself together
+* **kreativitás** — creativity
+* **létező** — existing
+* **belekerül** — get into; be included in
+* **kitalál valamit** — invent or come up with something
+* **vajon** — I wonder; perhaps
+* **együttműködik** — collaborate; cooperate
+* **kommentelő** — commenter
+* **önbizalom** — self-confidence
+* **elfogy** — run out; be used up
+* **idegbaj** — nervous breakdown; extreme agitation
+* **habzik valamin** — foam or become worked up over something
+* **büszke valakire** — be proud of someone
+* **ki van bukva** — be upset; outraged
+* **remete** — hermit
+* **megsúg** — whisper; tell someone confidentially
+* **tudja a helyét** — know one’s place
+* **eszi a kefét** — be annoyed; worked up
+* **nem bír valakit** — be unable to stand someone
+* **profilkép** — profile picture
+* **szívességet tesz** — do a favour
+* **szüzesség** — virginity
+* **elveszíti a szüzességét** — lose one’s virginity
+
+## Recognition-only slang
+
+* **baszki** — fuck; damn
+* **bevállalós** — daring, sometimes sexually adventurous
+* **csaj** — girl; woman
+* **jó bőr** — attractive woman
+* **patika** — top-notch; immaculate
+* **frankón** — genuinely; properly
+* **kajak** — really; seriously
+* **full** — totally; completely
+* **tuti** — definitely
+* **fasz** — dick
+* **pina** — pussy
+* **geci** — semen; also a severe insult
+* **picsa** — cunt; bitch
+* **ráver valamire** — masturbate to something
+* **megdug valakit** — fuck someone
+
+---
+
+[Reel](https://www.instagram.com/reels/DZvB6wnNrid/)
+
+**Milyen nevű sráccal soha nem mennétek el randizni, és miért?**
+
+What name would a guy have for you never to go on a date with him, and why?
+
+```text
+Milyen  nev-ű     srác-cal  soha  nem  men-né-tek
+what.kind name-PROP guy-INST never NEG go-COND-2PL
+
+el  randi-z-ni,  és   miért?
+PV  date-DER-INF and  why
+```
+
+**Lehet, hogy Botonddal, mert az előző kapcsolatom az kicsit érdekes volt.**
+
+Maybe with a guy named Botond, because my previous relationship was a little interesting.
+
+```text
+Lehet,       hogy  Botond-dal,  mert     az
+be.POT.3SG  that  Botond-INST  because  the
+
+előző     kapcsolat-om       az    kicsi-t
+previous  relationship-1SG.POSS that  little-ACC
+
+érdekes  volt.
+interesting be.PST.3SG
+```
+
+**És ő egy Botond volt, úgyhogy én Botondot nem igazán szeretnék.**
+
+And he was a Botond, so I would not really want a Botond.
+
+```text
+És  ő   egy  Botond  volt,        úgyhogy
+and 3SG a    Botond  be.PST.3SG   so
+
+én   Botond-ot  nem  igazán  szeret-né-k.
+1SG  Botond-ACC NEG  really   want-COND-1SG
+```
+
+**És ilyen fura nevű, mint Amadeusz, meg…**
+
+And someone with a strange name like Amadeusz, and…
+
+```text
+És  ilyen  fura     nev-ű,     mint  Amadeusz,  meg…
+and such   strange  name-PROP  like  Amadeusz   and
+```
+
+**Mindjárt kitalálok valamit… nevűvel…**
+
+I’ll come up with something in a moment… with a name…
+
+```text
+Mindjárt  ki-talál-ok          vala-mi-t…
+soon      PV-find-1SG.INDF     some-thing-ACC
+
+nev-ű-vel…
+name-PROP-INST
+```
+
+**Azt mondanám, hogy Artúrral sose jönnék össze, meg Bencével.**
+
+I would say that I would never get together with Artúr, nor with Bence.
+
+```text
+Az-t      mond-aná-m,       hogy  Artúr-ral
+that-ACC  say-COND-1SG.DEF  that  Artúr-INST
+
+sose   jö-nné-k        össze,  meg  Bencé-vel.
+never  come-COND-1SG   together and  Bence-INST
+```
+
+**Vagyis… nem.**
+
+That is… no.
+
+```text
+Vagyis…  nem.
+that.is  no
+```
+
+**Hát… Bendegúz, Bence, Bálint.**
+
+Well… Bendegúz, Bence, Bálint.
+
+```text
+Hát…  Bendegúz,  Bence,  Bálint.
+DM     Bendegúz   Bence   Bálint
+```
+
+**Tényleg! Én az öcsém nevével nem jönnék össze, ami Balázs.**
+
+Actually! I would not get together with someone who has my younger brother’s name, which is Balázs.
+
+```text
+Tényleg!  Én   az   öcs-ém
+really    1SG  the  younger.brother-1SG.POSS
+
+nev-é-vel               nem  jö-nné-k
+name-3SG.POSS-INST      NEG  come-COND-1SG
+
+össze,    ami  Balázs.
+together  REL  Balázs
+```
+
+**Balázzsal se jönnék össze.**
+
+I would not get together with a Balázs either.
+
+```text
+Balázs-sal  se        jö-nné-k       össze.
+Balázs-INST also.NEG  come-COND-1SG  together
+```
+
+**Jó, szuper! Köszönöm szépen a válaszaitokat.**
+
+Okay, great! Thank you very much for your answers.
+
+```text
+Jó,    szuper!  Köszön-öm       szépen
+good   great    thank-1SG.DEF   nicely
+
+a    válasz-ai-tok-at.
+the  answer-PL-2PL.POSS-ACC
+```
+
+## A2 vocabulary
+
+* **milyen nevű?** — what is someone called?; having what name?
+* **srác** — guy; young man
+* **elmegy randizni** — go on a date
+* **lehet, hogy…** — perhaps; it may be that…
+* **előző** — previous
+* **kapcsolat** — relationship
+* **érdekes** — interesting; sometimes euphemistically “strange”
+* **úgyhogy** — so; therefore
+* **nem igazán** — not really
+* **fura** — strange; odd
+* **mindjárt** — in a moment; very soon
+* **kitalál** — think of; invent; figure out
+* **azt mondanám, hogy…** — I would say that…
+* **sose / soha** — never
+* **összejön valakivel** — get together with someone; start dating someone
+* **vagyis** — that is; rather; I mean
+* **tényleg** — really; actually
+* **öcs** — younger brother
+* **valakinek a nevével** — with someone’s name
+* **se** — neither; not either
+* **válasz** — answer
+* **válaszaitok** — your answers, addressing several people
+
+---
+
+[Reel](https://www.instagram.com/reels/DYHLvz6szRp/)
+
+**Nem, nem, nem, nem, nem, nem.**
+
+No, no, no, no, no, no.
+
+**Lehetne, hogy leszokjunk erről a marhaságról.**
+
+Could we stop this nonsense?
+
+```text
+Lehet-ne,       hogy  le-szok-j-unk
+be.POT-COND.3SG that  PV-stop-SBJV-1PL.INDF
+
+ez-ről      a    marhaság-ról.
+this-DEL    the  nonsense-DEL
+```
+
+**Hogy mindenki azt hiszi, hogy a szőke emberek hülyék.**
+
+The nonsense that everyone thinks blond people are stupid.
+
+```text
+Hogy  mindenki  az-t      hisz-i,
+that  everyone  that-ACC  believe-3SG.DEF
+
+hogy  a    szőke  ember-ek  hülyé-k.
+that  the  blond  person-PL stupid-PL
+```
+
+**A jó tanulók stréberek.**
+
+Good students are swots.
+
+```text
+A    jó    tanuló-k   stréber-ek.
+the  good  student-PL swot-PL
+```
+
+**Akinek nincsen márkás ruhája, az csóró, és ilyen hülyeségek.**
+
+Someone who does not have branded clothes is broke, and other stupid things like that.
+
+```text
+Aki-nek  nincs-en      márká-s    ruhá-ja,
+REL-DAT  NEG.be-3SG    brand-ADJ  clothing-3SG.POSS
+
+az    csóró,  és   ilyen  hülye-ség-ek.
+that  broke   and  such   stupid-NMLZ-PL
+```
+
+**Mi van?**
+
+What?
+
+```text
+Mi    van?
+what  be.3SG
+```
+
+**Attól még, hogy valakinek jók a jegyei, nem lesz stréber.**
+
+Just because someone has good grades, they do not become a swot.
+
+```text
+Attól      még,  hogy  valaki-nek  jó-k
+that-DEL   still that  someone-DAT  good-PL
+
+a    jegy-e-i,              nem  lesz
+the  grade-3SG.POSS-PL      NEG  become.3SG
+
+stréber.
+swot
+```
+
+**Attól még, hogy valakinek rosszak a jegyei, nem lesz hülye.**
+
+Just because someone has bad grades, they do not become stupid.
+
+```text
+Attól     még,  hogy  valaki-nek  rossz-ak
+that-DEL  still that  someone-DAT  bad-PL
+
+a    jegy-e-i,           nem  lesz        hülye.
+the  grade-3SG.POSS-PL   NEG  become.3SG stupid
+```
+
+**Attól még, hogy valaki szeret sportolni lányként, ő nem fiús.**
+
+Just because someone likes doing sport as a girl, she is not boyish.
+
+```text
+Attól     még,  hogy  valaki   szeret
+that-DEL  still that  someone  like.3SG
+
+sportol-ni  lány-ként,  ő    nem  fiú-s.
+do.sport-INF girl-ESS  3SG  NEG  boy-ADJ
+```
+
+**És attól még, hogy egy fiú szereti a rózsaszínt, ő nem lesz…**
+
+And just because a boy likes pink, he will not become…
+
+```text
+És  attól     még,  hogy  egy  fiú
+and  that-DEL  still that  a    boy
+
+szeret-i       a    rózsaszín-t,  ő
+like-3SG.DEF   the  pink-ACC      3SG
+
+nem  lesz…
+NEG  become.3SG
+```
+
+**Attól még, hogy valakinek színes a bőre, nem fogja ellopni a cuccaidat.**
+
+Just because someone’s skin is coloured, they are not going to steal your stuff.
+
+```text
+Attól     még,  hogy  valaki-nek  szín-es
+that-DEL  still that  someone-DAT  colour-ADJ
+
+a    bőr-e,            nem  fog-ja
+the  skin-3SG.POSS     NEG  FUT-3SG.DEF
+
+el-lop-ni  a    cucc-ai-d-at.
+PV-steal-INF the  stuff-PL-2SG.POSS-ACC
+```
+
+**Attól még, hogy valaki nem akar a legújabb iPhone-ra költeni, nem csóró.**
+
+Just because someone does not want to spend money on the newest iPhone, they are not broke.
+
+```text
+Attól     még,  hogy  valaki   nem  akar
+that-DEL  still that  someone  NEG  want.3SG
+
+a    leg-új-abb        iPhone-ra  költ-eni,
+the  SUPL-new-CMPR     iPhone-SBL spend-INF
+
+nem  csóró.
+NEG  broke
+```
+
+**Szóval, drágáim, vegyük elő a jobbik eszünket.**
+
+So, my dears, let us use our better judgement.
+
+```text
+Szóval,  drágá-i-m,          vegy-ük
+so       dear-PL-1SG.POSS     take-SBJV.1PL.DEF
+
+elő  a    jobb-ik    esz-ünk-et.
+PV   the  good.CMPR-ONE mind-1PL.POSS-ACC
+```
+
+**És felejtsük el ezeket a sztereotípiákat és ezeket az előítéleteket.**
+
+And let us forget these stereotypes and these prejudices.
+
+```text
+És  felejt-s-ük          el  ez-ek-et
+and  forget-SBJV-1PL.DEF  PV  this-PL-ACC
+
+a    sztereotípiá-k-at  és   ez-ek-et
+the  stereotype-PL-ACC  and  this-PL-ACC
+
+az   előítélet-ek-et.
+the  prejudice-PL-ACC
+```
+
+**Mert ezek az előítéletek általában információhiány miatt jönnek.**
+
+Because these prejudices generally arise because of a lack of information.
+
+```text
+Mert     ez-ek     az   előítélet-ek
+because  this-PL   the  prejudice-PL
+
+általában  információ-hiány  miatt
+generally  information-lack  because.of
+
+jön-nek.
+come-3PL.INDF
+```
+
+**Tehát csak az gondolkozik így, akinek valami ész hiányzik az agyából.**
+
+Therefore, only someone who is missing some sense from their brain thinks like this.
+
+```text
+Tehát      csak  az    gondolkoz-ik  így,
+therefore  only  that  think-3SG     thus
+
+aki-nek  vala-mi  ész    hiányz-ik
+REL-DAT  some-thing sense  be.missing-3SG
+
+az   agy-á-ból.
+the  brain-3SG.POSS-ELA
+```
+
+**Szóval, légy szíves, vegyük elő a jobbik eszünket.**
+
+So please, let us use our better judgement.
+
+```text
+Szóval,  légy       szíves,  vegy-ük
+so       be.IMP.2SG willing  take-SBJV.1PL.DEF
+
+elő  a    jobb-ik       esz-ünk-et.
+PV   the  good.CMPR-ONE mind-1PL.POSS-ACC
+```
+
+**És vegyük tudomásul, hogy mindenki ugyanolyan értékes és ugyanolyan szerethető.**
+
+And let us accept that everyone is equally valuable and equally lovable.
+
+```text
+És  vegy-ük              tudomás-ul,
+and  take-SBJV.1PL.DEF   knowledge-ESS
+
+hogy  mindenki  ugyan-olyan  érték-es
+that  everyone  same-such    value-ADJ
+
+és   ugyan-olyan  szeret-hető.
+and  same-such    love-POT.PTCP
+```
+
+**Bárhogy néz ki, bármire költ, bármilyen, bármilyen.**
+
+However they look, whatever they spend money on, whatever they are like—whatever.
+
+```text
+Bár-hogy  néz          ki,  bár-mi-re
+no.matter-how look.3SG PV   no.matter-what-SBL
+
+költ,          bár-milyen,       bár-milyen.
+spend.3SG      no.matter-what.kind no.matter-what.kind
+```
+
+**Jó?**
+
+Okay?
+
+**Tökéletesek vagytok, szerethetőek vagytok, és pont elegek vagytok úgy, ahogy vagytok.**
+
+You are perfect, you are lovable, and you are exactly enough just as you are.
+
+```text
+Tökéletes-ek  vagy-tok,  szeret-hető-ek
+perfect-PL    be-2PL     love-POT.PTCP-PL
+
+vagy-tok,  és   pont     elég-ek  vagy-tok
+be-2PL     and  exactly  enough-PL be-2PL
+
+úgy,  ahogy  vagy-tok.
+so    how    be-2PL
+```
+
+**Puszi!**
+
+Kisses!
+
+## A2 vocabulary
+
+* **leszokik valamiről** — stop or give up something
+* **marhaság** — nonsense; foolishness
+* **szőke** — blond
+* **stréber** — swot; excessively diligent student
+* **márkás** — branded; designer
+* **csóró** — broke; poor, colloquial
+* **attól még, hogy…** — just because…
+* **jegy** — grade; mark
+* **fiús** — boyish
+* **rózsaszín** — pink
+* **bőr** — skin
+* **ellop** — steal
+* **cucc** — stuff; belongings, colloquial
+* **legújabb** — newest; latest
+* **költ valamire** — spend money on something
+* **a jobbik eszét veszi elő** — use one’s better judgement
+* **sztereotípia** — stereotype
+* **előítélet** — prejudice
+* **általában** — generally; usually
+* **információhiány** — lack of information
+* **valami miatt** — because of something
+* **gondolkozik** — think
+* **hiányzik** — be missing
+* **légy szíves** — please
+* **tudomásul vesz** — accept; acknowledge
+* **ugyanolyan** — the same kind; equally
+* **értékes** — valuable
+* **szerethető** — lovable
+* **bárhogy** — however; no matter how
+* **bármire** — on anything; no matter what
+* **bármilyen** — any kind; no matter what kind
+* **pont elég** — exactly enough
+* **úgy, ahogy van** — just as one is
+* **puszi** — kiss; kisses
+
+---
+
+[Reel](https://www.instagram.com/reels/DZKA16AsY8i/)
+
+**Azért, mert egy nő szexi képeket posztol, még nem azt jelenti, hogy könnyen kapható.**
+
+Just because a woman posts sexy pictures, it does not mean that she is easy to get.
+
+```text
+Azért,      mert     egy  nő     szexi  kép-ek-et
+for.that    because  a    woman  sexy   picture-PL-ACC
+
+posztol,          még  nem  az-t      jelent-i,
+post.3SG.INDF     still NEG  that-ACC  mean-3SG.DEF
+
+hogy  könny-en  kap-ható.
+that  easy-ADV  get-POT.PTCP
+```
+
+**Te is maffiavezér-idézeteket posztolsz, mégis egy vesztes vagy.**
+
+You post mafia-boss quotes too, yet you are a loser.
+
+```text
+Te   is    maffia-vezér-idézet-ek-et
+2SG  also  mafia-leader-quotation-PL-ACC
+
+posztol-sz,      mégis  egy  vesztes  vagy.
+post-2SG.INDF    yet     a    loser   be.2SG
+```
+
+## A2 vocabulary
+
+* **azért, mert…** — because; for the reason that…
+* **még nem azt jelenti, hogy…** — it still does not mean that…
+* **könnyen** — easily
+* **kapható** — available; obtainable
+* **mégis** — nevertheless; yet
+* **vesztes** — loser
+* **idézet** — quotation; quote
+
+---
+
+[Reel](https://www.instagram.com/reels/DY7EOtlsov3/)
+
+**Csak el akartam mondani, hogy azért jelentem meg az életedben, mert az univerzum úgy döntött, hogy te a legjobbat érdemled.**
+
+I just wanted to tell you that I appeared in your life because the universe decided that you deserve the best.
+
+```text
+Csak  el  akar-t-am      mond-ani,  hogy  azért
+just  PV  want-PST-1SG   say-INF    that  for.that
+
+jelen-t-em       meg  az   élet-ed-ben,
+appear-PST-1SG   PV   the  life-2SG.POSS-INE
+
+mert     az   univerzum  úgy   dönt-ött,
+because  the  universe   thus  decide-PST.3SG
+
+hogy  te   a    leg-jobb-at       érdeml-ed.
+that  2SG  the  SUPL-good-ACC     deserve-2SG.DEF
+```
+
+## A2 vocabulary
+
+* **el akar mondani valamit** — want to tell something
+* **megjelenik** — appear
+* **valakinek az életében** — in someone’s life
+* **univerzum** — universe
+* **úgy dönt** — decide
+* **legjobb** — best
+* **érdemel** — deserve
+
+---
+
+[Reel](https://www.instagram.com/reel/Dak_rVzNAZj/)
+
+**Szerintetek mennyire fontos az, hogy egy pár minden anyagi szükségletet felesben fizessen?**
+
+In your opinion, how important is it for a couple to pay for every financial need fifty-fifty?
+
+```text
+Szerint-etek     mennyi-re  fontos  az,    hogy  egy
+according.to-2PL how.much-SBL important that  that  a
+
+pár     minden  anyag-i       szükséglet-et
+couple  every   material-ADJ  need-ACC
+
+feles-ben  fizess-en?
+half-INE   pay-SBJV.3SG.INDF
+```
+
+**Szerintem ez amúgy attól függ, hogy ki dolgozik mondjuk állandóan, vagy ki van egyetemen.**
+
+I think this actually depends on who works all the time, say, and who is at university.
+
+```text
+Szerint-em      ez    amúgy     attól      függ,
+according.to-1SG this  actually  that-DEL   depend.3SG
+
+hogy  ki   dolgoz-ik       mondjuk  állandó-an,
+that  who  work-3SG        say      constant-ADV
+
+vagy  ki   van     egyetem-en.
+or    who  be.3SG  university-SUP
+```
+
+**Nem, például úgy van, hogy nekem a párom ugye egyetemen van, én meg dolgozok állandóan.**
+
+No, for example, it is like this: my partner, you know, is at university, while I work all the time.
+
+```text
+Nem,  példá-ul     úgy   van,     hogy  nek-em
+no    example-ADV  thus  be.3SG   that  DAT-1SG
+
+a    pár-om           ugye  egyetem-en       van,
+the  partner-1SG.POSS DM    university-SUP  be.3SG
+
+én   meg  dolgoz-ok      állandó-an.
+1SG  and  work-1SG.INDF  constant-ADV
+```
+
+**Ezért én általában több költséget fizetek, mint ő.**
+
+Therefore, I generally pay more expenses than my partner does.
+
+```text
+Ez-ért     én   általában  több  költség-et
+this-CAUS  1SG  generally  more  expense-ACC
+
+fizet-ek,      mint  ő.
+pay-1SG.INDF   than  3SG
+```
+
+**De mikor ZH-időszak van, vagy például nincs ugye egyetem, akkor ő egyből elmegy dolgozni.**
+
+But when it is test period, or when there is no university, for example, then my partner immediately goes to work.
+
+```text
+De   mikor  ZH-időszak  van,     vagy  példá-ul
+but  when   test-period be.3SG   or    example-ADV
+
+nincs        ugye  egyetem,      akkor  ő
+NEG.be.3SG   DM    university    then   3SG
+
+egyből       el-megy       dolgoz-ni.
+immediately  PV-go.3SG     work-INF
+```
+
+**És akkor általában felesben fizetünk, vagy ő ragaszkodik hozzá, hogy ő többet fizessen.**
+
+And then we generally pay fifty-fifty, or my partner insists on paying more.
+
+```text
+És  akkor  általában  feles-ben  fizet-ünk,
+and  then   generally  half-INE   pay-1PL.INDF
+
+vagy  ő    ragaszkod-ik  hozzá,  hogy  ő
+or    3SG  insist-3SG    to.it   that  3SG
+
+több-et   fizess-en.
+more-ACC  pay-SBJV.3SG.INDF
+```
+
+**Szerintetek oké az, hogyha valaki még mindig tartja a kapcsolatot az exével?**
+
+In your opinion, is it okay if someone still keeps in contact with their ex?
+
+```text
+Szerint-etek     oké  az,    hogyha  valaki
+according.to-2PL okay that   if      someone
+
+még  mindig  tart-ja       a    kapcsolat-ot
+yet  always  keep-3SG.DEF  the  contact-ACC
+
+az   ex-é-vel?
+the  ex-3SG.POSS-INST
+```
+
+**Szerintem nem, de nálunk nincs is ilyen.**
+
+I do not think so, but there is no such thing in our relationship anyway.
+
+```text
+Szerint-em       nem,  de   nál-unk  nincs
+according.to-1SG NEG   but  at-1PL   NEG.be.3SG
+
+is    ilyen.
+also  such
+```
+
+**Én értem, hogyha valaki jól válik el az exétől, de nem nagyon tudom megérteni azt, ha valaki ilyen barátságban marad az exével.**
+
+I understand if someone separates from their ex on good terms, but I cannot really understand it if someone remains friends with their ex like this.
+
+```text
+Én   ért-em,               hogyha  valaki   jól
+1SG  understand-1SG.DEF   if      someone  well
+
+vál-ik       el  az   ex-é-től,          de
+separate-3SG PV  the  ex-3SG.POSS-DEL    but
+
+nem  nagyon  tud-om          meg-ért-eni  az-t,
+NEG  very    can-1SG.DEF     PV-understand-INF that-ACC
+
+ha  valaki   ilyen  barátság-ban  marad
+if  someone  such   friendship-INE remain.3SG
+
+az   ex-é-vel.
+the  ex-3SG.POSS-INST
+```
+
+**És így nekem ez fura.**
+
+And so this is strange to me.
+
+```text
+És  így   nek-em   ez    fura.
+and  thus  DAT-1SG  this  strange
+```
+
+**Szerintem, ha már lezártátok, nincsenek érzelmek, meg túl akartok lépni, akkor csak a jelenlegi kapcsolatot mérgezi.**
+
+I think that if you have already ended it, there are no feelings, and you want to move on, then it only poisons the current relationship.
+
+```text
+Szerint-em,      ha  már      le-zár-tá-tok,
+according.to-1SG if  already  PV-close-PST-2PL.DEF
+
+nincs-enek     érzelem-ek,  meg  túl
+NEG.be-3PL     feeling-PL   and  beyond
+
+akar-tok       lép-ni,  akkor  csak  a
+want-2PL.INDF  step-INF then   only  the
+
+jelenleg-i  kapcsolat-ot   mérgez-i.
+current-ADJ relationship-ACC poison-3SG.DEF
+```
+
+**Egy jó randiból bármi lehet.**
+
+Anything can come from a good date.
+
+```text
+Egy  jó    randi-ból  bár-mi       lehet.
+a    good  date-ELA   no.matter-what be.POT.3SG
+```
+
+## A2 vocabulary
+
+* **szerintetek** — in your opinion, addressing several people
+* **mennyire** — how much; to what extent
+* **pár** — couple; partner
+* **anyagi** — financial; material
+* **szükséglet** — need; necessity
+* **felesben** — fifty-fifty; in equal halves
+* **attól függ** — depend on that
+* **amúgy** — actually; by the way
+* **állandóan** — constantly; all the time
+* **egyetemen van** — be at university
+* **nálunk** — at our place; in our situation
+* **általában** — generally; usually
+* **költség** — expense; cost
+* **több költséget fizet** — pay more of the expenses
+* **ZH-időszak** — university test period
+* **egyből** — immediately; straight away
+* **elmegy dolgozni** — go off to work
+* **ragaszkodik valamihez** — insist on something
+* **tartja a kapcsolatot valakivel** — keep in contact with someone
+* **ex** — ex-partner
+* **jól válik el valakitől** — separate from someone on good terms
+* **barátságban marad** — remain friends
+* **lezár valamit** — bring something to an end
+* **érzelem** — feeling; emotion
+* **túllép valamin** — move on from something
+* **jelenlegi** — current; present
+* **mérgez** — poison
+* **bármi lehet** — anything can happen; anything may come of it
+
+---
+
+[Reel](https://www.instagram.com/reels/DZ7x4NHsQH2/)
+
+**Egy dalt a negatív kommentekből, és azt hiszem, hogy ez lesz a nyár legnagyobb slágere.**
+
+A song made from negative comments, and I think this will be the biggest hit of the summer.
+
+```text
+Egy  dal-t   a    negatív  komment-ek-ből,  és   az-t
+a    song-ACC the  negative comment-PL-ELA  and  that-ACC
+
+hisz-em,          hogy  ez    lesz        a    nyár
+believe-1SG.DEF   that  this  become.3SG  the  summer
+
+leg-nagy-obb      sláger-e.
+SUPL-big-CMPR     hit-3SG.POSS
+```
+
+**Fogadjátok sok szeretettel!**
+
+Please welcome it with lots of love!
+
+```text
+Fogad-já-tok         sok   szeretet-tel!
+receive-SBJV-2PL.DEF much  love-INST
+```
+
+**Kurva vagy, ilyen egyszerű.**
+
+You are a whore; it is that simple.
+
+```text
+Kurva  vagy,   ilyen  egyszerű.
+whore  be.2SG  such   simple
+```
+
+**És a puncikád egy rózsát nem ér, nemhogy több tízezret.**
+
+And your little pussy is not worth a single rose, let alone tens of thousands.
+
+```text
+És  a    punci-ká-d             egy  rózsá-t  nem
+and  the  pussy-DIM-2SG.POSS     a    rose-ACC NEG
+
+ér,              nemhogy    több  tíz-ezer-et.
+be.worth.3SG     let.alone  more  ten-thousand-ACC
+```
+
+**Ahhoz ki kellene nézned valahogy.**
+
+For that, you would have to look like something.
+
+```text
+Ah-hoz    ki  kell-ene          néz-n-ed
+that-ALL  PV  need-COND.3SG     look-INF-2SG
+
+vala-hogy.
+some-how
+```
+
+**De a nagyanyám szebb, mint te, pedig már harmincöt éve nincs köztünk.**
+
+But my grandmother is prettier than you, even though she has not been among us for thirty-five years.
+
+```text
+De   a    nagy-anyá-m             szép-ebb,   mint  te,
+but  the  grand-mother-1SG.POSS   pretty-CMPR than  2SG
+
+pedig     már      harminc-öt  év-e
+although  already  thirty-five year-3SG.POSS
+
+nincs            közt-ünk.
+NEG.be.3SG       among-1PL
+```
+
+## A2 vocabulary
+
+* **negatív** — negative
+* **kommentekből** — from comments
+* **azt hiszem** — I think
+* **sláger** — hit song
+* **fogad valakit/valamit** — welcome or receive someone/something
+* **sok szeretettel** — with lots of love
+* **ilyen egyszerű** — it is that simple
+* **ér valamit** — be worth something
+* **nemhogy** — let alone
+* **több tízezer** — tens of thousands
+* **ahhoz** — for that; to that
+* **ki kellene néznie valahogy** — would have to look presentable or look like something
+* **nagyanya** — grandmother
+* **szebb, mint…** — prettier than…
+* **pedig** — although; yet
+* **harmincöt éve** — for thirty-five years
+* **nincs köztünk** — is no longer among us; is dead, euphemistic
+
+Fun with Whisper:
+
+```
+[00:30.000 --> 00:59.980]  Feliratok az Amara.org közösségétől
+[01:00.000 --> 01:29.980]  Feliratok az Amara.org közösségétől
+[01:30.000 --> 01:59.980]  Feliratok az Amara.org közösségétől
+[02:00.000 --> 02:29.980]  Feliratok az Amara.org közösségétől
+```
+
+---
+
+[Reel](https://www.instagram.com/reels/DavFKnvufDK/)
+
+**Buliban pasizni**
+
+Picking up guys at a party.
+
+```text
+Buli-ban  pasi-z-ni
+party-INE guy-DER-INF
+```
+
+**A szüleim azt mondták, hogy szerintük amúgy jó ötlet ilyen helyeken ismerkedni.**
+
+My parents said that, in their opinion, it is actually a good idea to meet people in places like this.
+
+```text
+A    szül-e-i-m             az-t      mond-t-á-k,
+the  parent-PL-1SG.POSS     that-ACC  say-PST-3PL.DEF
+
+hogy  szerint-ük       amúgy     jó    ötlet
+that  according.to-3PL actually  good  idea
+
+ilyen  hely-ek-en  ismerked-ni.
+such   place-PL-SUP meet.people-INF
+```
+
+**Szerintem azért, mert még soha az életben nem voltak egy ilyen helyen.**
+
+I think it is because they have never in their lives been to a place like this.
+
+```text
+Szerint-em       azért,      mert     még  soha
+according.to-1SG for.that     because  yet  never
+
+az   élet-ben  nem  volt-ak       egy  ilyen
+the  life-INE  NEG  be.PST-3PL    a    such
+
+hely-en.
+place-SUP
+```
+
+**És én azon gondolkodtam, hogy egyszer elviszem őket a Morrisonsba, hogy így…**
+
+And I was thinking that one day I would take them to Morrisons, like…
+
+```text
+És  én   az-on      gondolkod-t-am,  hogy  egyszer
+and  1SG  that-SUP   think-PST-1SG    that  once
+
+el-visz-em        ő-k-et       a    Morrisons-ba,
+PV-take-1SG.DEF   3SG-PL-ACC   the  Morrisons-ILL
+
+hogy  így…
+that  like.this
+```
+
+**Ez a választék.**
+
+This is the selection.
+
+```text
+Ez    a    választék.
+this  the  selection
+```
+
+**Édesapám, melyikhez menjek hozzá?**
+
+Father, which one should I marry?
+
+```text
+Édesapá-m,       melyik-hez  men-j-ek
+father-1SG.POSS  which-ALL   go-SBJV-1SG.INDF
+
+hozzá?
+PV
+```
+
+**Amelyik a sarokba húgyál?**
+
+The one who is pissing in the corner?
+
+```text
+Amelyik  a    sarok-ba    húgyál?
+REL.ONE  the  corner-ILL  piss.3SG.INDF
+```
+
+**Amelyik beginázta az italomat?**
+
+The one who spiked my drink with GHB?
+
+```text
+Amelyik  be-gináz-t-a               az   ital-om-at?
+REL.ONE  PV-spike.with.GHB-PST-3SG.DEF the drink-1SG.POSS-ACC
+```
+
+**Vagy amelyik anya seggét fogdossa?**
+
+Or the one who keeps groping Mum’s ass?
+
+```text
+Vagy  amelyik  anya    segg-é-t
+or    REL.ONE  mother  ass-3SG.POSS-ACC
+
+fogdos-sa?
+grope.REP-3SG.DEF
+```
+
+**Melyik legyen?**
+
+Which one should it be?
+
+```text
+Melyik  legyen?
+which   be.SBJV.3SG
+```
+
+**Bármelyiket hazaviszem szívesen a karácsonyi vacsorára.**
+
+I will happily take any of them home for Christmas dinner.
+
+```text
+Bár-melyik-et  haza-visz-em       szíves-en
+any-which-ACC  home-take-1SG.DEF  willing-ADV
+
+a    karácsony-i  vacsorá-ra.
+the  Christmas-ADJ dinner-SBL
+```
+
+**Hogy az szívesen eszel halászlé-vodkát, mert akkor… jó lesz.**
+
+[Uncertain:] That you happily eat fish-soup vodka, because then… it will be good.
+
+```text
+Hogy  az    szíves-en    esz-el
+that  that  willing-ADV  eat-2SG.INDF
+
+halászlé-vodká-t,  mert     akkor  jó    lesz.
+fish.soup-vodka-ACC because  then   good  become.3SG
+```
+
+## A2 vocabulary
+
+* **szülők** — parents
+* **szerintük** — in their opinion
+* **amúgy** — actually; by the way
+* **ötlet** — idea
+* **ilyen helyeken** — in places like this
+* **ismerkedik** — meet people; get acquainted
+* **még soha az életben** — never before in one’s life
+* **azon gondolkodik, hogy…** — think about doing something
+* **elvisz valakit valahová** — take someone somewhere
+* **választék** — selection; range of choices
+* **hozzámegy valakihez** — marry someone, said of marrying a man
+* **sarok** — corner
+* **húgyál** — piss; vulgar
+* **begináz egy italt** — spike a drink with GHB
+* **ital** — drink
+* **fogdos** — keep touching or groping
+* **bármelyik** — any one of them
+* **hazavisz** — take home
+* **szívesen** — gladly
+* **karácsonyi vacsora** — Christmas dinner
+
+---
+
+[Reel](https://www.instagram.com/reels/DYh_WxaCGPb/)
+
+**Idefújta a szemetet a szél.**
+
+The wind blew the rubbish here.
+
+```text
+Ide  fúj-t-a         a    szemét-et  a    szél.
+here  blow-PST-3SG.DEF the  rubbish-ACC the  wind
+```
+
+**Engem a kettes villamos hozott.**
+
+The number 2 tram brought me here.
+
+```text
+Engem   a    kett-es  villamos  hoz-ott.
+1SG.ACC the  two-ADJ  tram      bring-PST.3SG
+```
+
+**És amúgy itt lesz koncert május 23-án a Follow the Flow-val.**
+
+And by the way, there will be a concert here on 23 May with Follow the Flow.
+
+```text
+És  amúgy     itt   lesz        koncert  május  23-án
+and by.the.way here  become.3SG  concert  May    23-SUP
+
+a    Follow_the_Flow-val.
+the  Follow_the_Flow-INST
+```
+
+**Én leszek előttük az egyik előzenekar.**
+
+I will be one of the opening acts before them.
+
+```text
+Én   lesz-ek       előtt-ük    az   egy-ik
+1SG  become-1SG    before-3PL  the  one-ONE
+
+elő-zenekar.
+opening-band
+```
+
+**És itt, a Budapest Parkban.**
+
+And here, in Budapest Park.
+
+```text
+És  itt,  a    Budapest_Park-ban.
+and here  the  Budapest_Park-INE
+```
+
+**Itt.**
+
+Here.
+
+**Itt.**
+
+Here.
+
+
+## A2 vocabulary
+
+* **idefúj** — blow something here
+* **szemét** — rubbish; trash
+* **szél** — wind
+* **kettes villamos** — tram number 2
+* **amúgy** — by the way; actually
+* **koncert** — concert
+* **május 23-án** — on 23 May
+* **valakivel** — with someone
+* **valaki előtt** — before someone; earlier in a programme
+* **előzenekar** — opening act; support band
+* **Budapest Parkban** — in Budapest Park
+
+---
+
+[Reel](https://www.instagram.com/reels/DZnE3SuoBuK/)
+
+**Lekurvázol? Mindennek elmondasz, és azt hiszed, büntetlenül megúszhatod?**
+
+You call me a whore? You call me every name under the sun, and you think you can get away with it unpunished?
+
+```text
+Le-kurvá-z-ol?        minden-nek  el-mond-a-sz,
+PV-whore-DER-2SG.INDF everything-DAT PV-say-2SG.INDF
+
+és   az-t      hisz-ed,          büntetlen-ül
+and  that-ACC  believe-2SG.DEF   unpunished-ADV
+
+meg-úsz-hat-od?
+PV-escape-POT-2SG.DEF
+```
+
+**Hát nem. Eljött az idő, hogy megfizess, ugyanis megmondtalak a nagyimnak.**
+
+Well, no. The time has come for you to pay, because I told my granny about you.
+
+```text
+Hát  nem.  El-jö-tt       az   idő,   hogy
+DM    no    PV-come-PST.3SG the  time   that
+
+meg-fizess,       ugyanis  meg-mond-t-alak
+PV-pay.SBJV.2SG   because  PV-tell-PST-1SG>2SG
+
+a    nagyi-m-nak.
+the  granny-1SG.POSS-DAT
+```
+
+**Szia, kurva!**
+
+Hi, whore!
+
+```text
+Szia,  kurva!
+hello  whore
+```
+
+**Szex lehet veled?**
+
+Can I have sex with you?
+
+```text
+Szex  lehet        vel-ed?
+sex   be.POT.3SG   with-2SG
+```
+
+**Ő írta.**
+
+He wrote it.
+
+```text
+Ő    ír-t-a.
+3SG  write-PST-3SG.DEF
+```
+
+**Búzgár uszkár.**
+
+You sand-boil poodle.
+
+```text
+Búzgár     uszkár.
+sand.boil  poodle
+```
+
+**Nálad nagyobb kurvát sose láttam.**
+
+I have never seen a bigger whore than you.
+
+```text
+Nál-ad  nagy-obb  kurvá-t   sose
+at-2SG  big-CMPR  whore-ACC never
+
+lát-t-am.
+see-PST-1SG
+```
+
+**Te hülye segg!**
+
+You stupid ass!
+
+```text
+Te   hülye   segg!
+2SG  stupid  ass
+```
+
+**Szutyok!**
+
+Filth!
+
+```text
+Szutyok!
+filth
+```
+
+**Te mondod, hogy szutyok? Hát te mi vagy? Te köcsög!**
+
+You call me filth? Well, what are you? You asshole!
+
+```text
+Te   mond-od,      hogy  szutyok?  Hát  te
+2SG  say-2SG.DEF   that  filth     DM    2SG
+
+mi    vagy?   Te   köcsög!
+what  be.2SG  2SG  asshole
+```
+
+**Pakold ki a dudákat még jobban!**
+
+Show off your tits even more!
+
+```text
+Pakol-d           ki  a    dudá-k-at   még
+put-IMP.2SG.DEF   PV  the  boob-PL-ACC still
+
+jobb-an!
+good-CMPR-ADV
+```
+
+**Hát sorban álltál a duda kirakásánál, látom.**
+
+Well, I see you queued up for showing off your tits.
+
+```text
+Hát  sor-ban  áll-t-ál       a    duda
+DM    line-INE stand-PST-2SG  the  boob
+
+ki-rak-ás-á-nál,             lát-om.
+PV-put-NMLZ-3SG.POSS-ADE     see-1SG.DEF
+```
+
+**„Letiltottalak, fasz se kíváncsi rád.”**
+
+“I blocked you; nobody gives a fuck about you.”
+
+```text
+Le-tilt-ott-alak,       fasz  se
+PV-block-PST-1SG>2SG    dick  also.NEG
+
+kíváncsi    rád.
+interested  onto.2SG
+```
+
+**Fúj! Rád meg még az se.**
+
+Yuck! And not even a dick is interested in you.
+
+```text
+Fúj!  Rád       meg  még  az    se.
+yuck  onto.2SG  and  even that  also.NEG
+```
+
+**Malac!**
+
+Pig!
+
+```text
+Malac!
+pig
+```
+
+**Férfigyűlölő csoroszlya.**
+
+Man-hating old hag.
+
+```text
+Férfi-gyűlöl-ő  csoroszlya.
+man-hate-PTCP   old.hag
+```
+
+**A „csoroszlya” szó jelentése nem az, amire használja.**
+
+The meaning of the word *csoroszlya* is not what he is using it to mean.
+
+```text
+A    csoroszlya  szó   jelentés-e
+the  old.hag     word  meaning-3SG.POSS
+
+nem  az,    ami-re   használ-ja.
+NEG  that   REL-SBL  use-3SG.DEF
+```
+
+**Nem egy fiatal lányra szokták alkalmazni.**
+
+It is not usually applied to a young girl.
+
+```text
+Nem  egy  fiatal  lány-ra  szok-tá-k
+NEG  a    young   girl-SBL HAB-3PL.DEF
+
+alkalmaz-ni.
+apply-INF
+```
+
+**Mi ez az atomszar?**
+
+What is this nuclear-grade shit?
+
+```text
+Mi    ez    az   atom-szar?
+what  this  the  atom-shit
+```
+
+**Jézus Mária!**
+
+Jesus Mary!
+
+```text
+Jézus  Mária!
+Jesus  Mary
+```
+
+**Szánalmas vagy… de nagyon.**
+
+You are pathetic—extremely so.
+
+```text
+Szánalmas  vagy…   de   nagyon.
+pathetic   be.2SG  but  very
+```
+
+**Téged még kategorizálni se lehet, barom.**
+
+You cannot even be categorized, moron.
+
+```text
+Téged    még   kategorizál-ni  se
+2SG.ACC  even  categorize-INF  also.NEG
+
+lehet,        barom.
+be.POT.3SG    moron
+```
+
+**Tuti, hogy nem mondtak ilyet neked, hogy a szép lányok mindig mosolyognak, ezért mosolyogj!**
+
+Surely nobody told you this: pretty girls always smile, so smile!
+
+```text
+Tuti,       hogy  nem  mond-t-ak      ilyen-t
+certainly  that  NEG  say-PST-3PL    such-ACC
+
+nek-ed,   hogy  a    szép       lány-ok
+DAT-2SG   that  the  beautiful  girl-PL
+
+mindig  mosolyog-nak,  ez-ért    mosolyog-j!
+always  smile-3PL      this-CAUS smile-IMP.2SG
+```
+
+**Hát jó, de nem rád, baszod.**
+
+Fine, but not at you, fuck.
+
+```text
+Hát  jó,   de   nem  rád,      basz-od.
+DM    good  but  NEG  onto.2SG  fuck-2SG.DEF
+```
+
+**Rád mosolyogni? Kitörik a fogam.**
+
+Smile at you? My tooth will break.
+
+```text
+Rád       mosolyog-ni?  Ki-tör-ik
+onto.2SG  smile-INF     PV-break-3SG
+
+a    fog-am.
+the  tooth-1SG.POSS
+```
+
+**Szia, neked mi a kurva anyádra van önbizalmad?**
+
+Hi, what the fuck gives you self-confidence?
+
+```text
+Szia,  nek-ed   mi    a    kurva  anyá-d-ra
+hello  DAT-2SG  what  the  whore  mother-2SG.POSS-SBL
+
+van     ön-bizalm-ad?
+be.3SG  self-confidence-2SG.POSS
+```
+
+**Hát azt nem értem sehogy se.**
+
+Well, I cannot understand that in any way at all.
+
+```text
+Hát  az-t      nem  ért-em
+DM    that-ACC  NEG  understand-1SG.DEF
+
+se-hogy  se.
+NEG-how  also.NEG
+```
+
+**Még egyszer megnéztelek, most se értem.**
+
+I looked at you once more, and I still do not understand it.
+
+```text
+Még   egyszer  meg-néz-t-elek,
+once.more      PV-look-PST-1SG>2SG
+
+most  se        ért-em.
+now   also.NEG  understand-1SG.DEF
+```
+
+**Érthetetlen hülye vagy.**
+
+You are incomprehensibly stupid.
+
+```text
+Érthetetlen      hülye   vagy.
+incomprehensible stupid  be.2SG
+```
+
+**A nők túl sokat képzelnek már magukról, de ez a valósággal nincs párhuzamban.**
+
+Women think far too highly of themselves now, but this does not correspond to reality.
+
+```text
+A    nő-k    túl  sok-at   képzel-nek
+the  woman-PL too  much-ACC imagine-3PL
+
+már      mag-uk-ról,       de   ez
+already  self-3PL.POSS-DEL but  this
+
+a    valóság-gal  nincs         párhuzam-ban.
+the  reality-INST NEG.be.3SG    parallel-INE
+```
+
+**Úristen! Szép a szemed!**
+
+Oh my God! Your eyes are beautiful!
+
+```text
+Úr-isten!  Szép       a    szem-ed!
+lord-God   beautiful  the  eye-2SG.POSS
+```
+
+**Kivéve az egyik.**
+
+Except one of them.
+
+```text
+Ki-véve      az   egy-ik.
+PV-take.CVB  the  one-ONE
+```
+
+**Remélem, hogy ebből tanultatok, és legközelebb átgondoljátok, hogy mit írtok.**
+
+I hope you have learned from this, and next time you will think through what you write.
+
+```text
+Remél-em,       hogy  ez-ből    tanul-t-atok,
+hope-1SG.DEF    that  this-ELA  learn-PST-2PL
+
+és   leg-közel-ebb  át-gondol-já-tok,
+and  SUPL-near-CMPR PV-think-2PL.DEF
+
+hogy  mi-t      ír-tok.
+that  what-ACC  write-2PL.INDF
+```
+
+**Azt ajánlanám a figyelmetekbe, hogy ne mondjatok, ne beszéljetek összevissza az unokámra ilyen baromságokat.**
+
+I would bring it to your attention that you should not say or talk such nonsense about my granddaughter.
+
+```text
+Az-t      ajánl-aná-m        a    figyelem-etek-be,
+that-ACC  recommend-COND-1SG.DEF the attention-2PL.POSS-ILL
+
+hogy  ne       mond-j-atok,      ne
+that  NEG.IMP  say-SBJV-2PL      NEG.IMP
+
+beszél-j-etek      össze-vissza  az
+speak-SBJV-2PL     all.over      the
+
+unoká-m-ra    ilyen  baromság-ok-at.
+grandchild-1SG.POSS-SBL such nonsense-PL-ACC
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Különben…**
+
+Otherwise…
+
+```text
+Különben…
+otherwise
+```
+
+**Mi lesz különben?**
+
+What will happen otherwise?
+
+```text
+Mi    lesz         különben?
+what  become.3SG   otherwise
+```
+
+**Különben odamegyek.**
+
+Otherwise, I will go over there.
+
+```text
+Különben   oda-megy-ek.
+otherwise  there-go-1SG.INDF
+```
+
+**Odamegyek, s lesz nektek jaj!**
+
+I will come over there, and then you will be sorry!
+
+```text
+Oda-megy-ek,       s    lesz
+there-go-1SG.INDF  and  become.3SG
+
+nek-tek   jaj.
+DAT-2PL   woe
+```
+
+**Mutasd meg az izmodat! Mutasd meg az izmodat!**
+
+Show your muscle! Show your muscle!
+
+```text
+Mutat-s-d          meg  az   izm-od-at!
+show-SBJV-2SG.DEF  PV   the  muscle-2SG.POSS-ACC
+
+Mutat-s-d          meg  az   izm-od-at!
+show-SBJV-2SG.DEF  PV   the  muscle-2SG.POSS-ACC
+```
+
+**Az izmodát!**
+
+Your muscle!
+
+```text
+Az   izmodát!
+the  muscle.2SG.POSS.ACC
+```
+
+The final **izmodát** is a nonstandard or exaggerated pronunciation of standard **izmodat**.
+
+## A2 vocabulary
+
+* **lekurváz valakit** — call someone a whore
+* **mindennek elmond valakit** — call someone every name under the sun
+* **büntetlenül** — without punishment; unpunished
+* **megúszik valamit** — get away with something
+* **eljött az idő** — the time has come
+* **megfizet valamiért** — pay for something; suffer the consequences
+* **megmond valakit valakinek** — tell on someone to someone
+* **szutyok** — filth; scum
+* **sorban áll** — stand in a queue
+* **letilt valakit** — block someone
+* **kíváncsi valakire** — be interested in or curious about someone
+* **férfigyűlölő** — man-hating
+* **csoroszlya** — old hag; derogatory
+* **jelentés** — meaning
+* **alkalmaz valamire** — apply to something
+* **szánalmas** — pathetic
+* **kategorizál** — categorize
+* **mosolyog** — smile
+* **önbizalom** — self-confidence
+* **sehogy se** — not in any way; not at all
+* **érthetetlen** — incomprehensible
+* **túl sokat képzel magáról** — think too highly of oneself
+* **valóság** — reality
+* **párhuzamban van valamivel** — correspond to; be parallel with
+* **kivéve** — except
+* **tanul valamiből** — learn from something
+* **legközelebb** — next time
+* **átgondol** — think through; consider carefully
+* **valakinek a figyelmébe ajánl valamit** — bring something to someone’s attention
+* **összevissza** — incoherently; all over the place
+* **unoka** — grandchild
+* **különben** — otherwise
+* **lesz nektek jaj** — you will be sorry
+* **izom** — muscle
+
+## Recognition-only insults and slang
+
+* **kurva** — whore; also a vulgar intensifier
+* **köcsög** — asshole; potentially homophobic
+* **fasz se** — absolutely nobody
+* **duda** — boob; tit
+* **malac** — pig
+* **atomszar** — extremely bad shit
+* **barom** — moron; brute
+* **baszod** — literally “you fuck it”; vulgar discourse marker
+
+---
+
+[Reel](https://www.instagram.com/reels/DYu4iJBIMDf/)
+
+**Szia. Csak szerepelni akarok a kövi videódban, mint aki rád írt, hogy fel akar szedni.**
+
+Hi. I just want to appear in your next video as the guy who messaged you saying he wants to pick you up.
+
+```text
+Szia.  Csak  szerepel-ni  akar-ok         a    köv-i
+hello  just  appear-INF   want-1SG.INDF   the  next-ADJ
+
+videó-d-ban,       mint  aki  rá-d       ír-t,
+video-2SG.POSS-INE as    REL  onto-2SG   write-PST.3SG
+
+hogy  fel  akar            szed-ni.
+that  PV   want.3SG.INDF   pick.up-INF
+```
+
+**Ezzel a dumával?**
+
+With that line?
+
+```text
+Ez-zel    a    dumá-val?
+this-INST the  line-INST
+```
+
+**Amíg nem tudsz megfogalmazni egy összefüggő, értelmes mondatot, addig sajnos kevés vagy hozzá.**
+
+Until you can formulate a coherent, meaningful sentence, unfortunately you are not good enough for it.
+
+```text
+Amíg  nem  tud-sz          meg-fogalmaz-ni  egy
+until  NEG  can-2SG.INDF    PV-formulate-INF  a
+
+össze-függ-ő    értelm-es   mondat-ot,  addig
+together-hang-PTCP sense-ADJ sentence-ACC until.then
+
+sajnos         kevés  vagy    hozzá.
+unfortunately  little be.2SG  to.it
+```
+
+**Na jó, összeszedem magam.**
+
+All right, I’ll pull myself together.
+
+```text
+Na  jó,    össze-szed-em       mag-am.
+DM  good   PV-collect-1SG.DEF  self-1SG
+```
+
+**Szia, tetszel, gyere Svájcba, lábkép, léci.**
+
+Hi, I like you, come to Switzerland, foot picture, please.
+
+```text
+Szia,  tetsz-el,       gyere          Svájc-ba,
+hello  please-2SG.INDF come.IMP.2SG   Switzerland-ILL
+
+láb-kép,      léci.
+foot-picture  please
+```
+
+**Ez milyen volt?**
+
+How was that?
+
+```text
+Ez    milyen  volt?
+this  what.kind be.PST.3SG
+```
+
+**Nagyon jó vagy, teljesen be is indultam.**
+
+You are very good; I got completely turned on.
+
+```text
+Nagyon  jó    vagy,   teljes-en  be  is
+very    good  be.2SG  complete-ADV PV  also
+
+indul-t-am.
+start-PST-1SG
+```
+
+**Tessék, ez ingyen volt.**
+
+There you go, that one was free.
+
+```text
+Tessék,        ez    ingyen  volt.
+there.you.go   this  free    be.PST.3SG
+```
+
+**Nem merem megnyitni.**
+
+I do not dare to open it.
+
+```text
+Nem  mer-em        meg-nyit-ni.
+NEG  dare-1SG.DEF  PV-open-INF
+```
+
+**Ilyenkor mi a következő lépés?**
+
+At this point, what is the next step?
+
+```text
+Ilyen-kor  mi    a    következ-ő  lépés?
+such-TEMP  what  the  follow-PTCP step
+```
+
+**Nekem is küldeni kell egyet?**
+
+Do I have to send one too?
+
+```text
+Nek-em   is    küld-eni  kell       egy-et?
+DAT-1SG  also  send-INF  must.3SG   one-ACC
+```
+
+**Ilyenkor elmondod, hogyan nyalnád végig a lábfejemet, és mennyire vágysz rá, hogy az izzadt talpam az arcodra tegyem.**
+
+At this point, you say how you would lick all along my foot and how much you long for me to put my sweaty sole on your face.
+
+```text
+Ilyen-kor  el-mond-od,      hogyan  nyal-ná-d
+such-TEMP  PV-say-2SG.DEF   how     lick-COND-2SG.DEF
+
+végig  a    láb-fej-em-et,        és   mennyi-re
+along  the  foot-head-1SG.POSS-ACC and  how.much-SBL
+
+vágy-sz       rá,      hogy  az   izzad-t
+long-2SG.INDF onto.it  that  the  sweat-PTCP.PST
+
+talp-am          az   arc-od-ra      tegy-em.
+sole-1SG.POSS    the  face-2SG.POSS-SBL put-SBJV-1SG.DEF
+```
+
+**Majd kérsz egy másik lábképet vagy lábujj-mozgatós videót harminc-negyven dollárért.**
+
+Then you ask for another foot picture or a toe-wiggling video for thirty or forty dollars.
+
+```text
+Majd  kér-sz         egy  más-ik  láb-kép-et
+then  ask-2SG.INDF   a    other-ONE foot-picture-ACC
+
+vagy  láb-ujj-mozgat-ós  videó-t
+or    foot-toe-move-ADJ  video-ACC
+
+harminc-negyven  dollár-ért.
+thirty-forty     dollar-CAUS
+```
+
+**De tejszínhabot kérhetek rá? Magában ez így erős.**
+
+But can I ask for whipped cream on it? By itself, this is a bit intense.
+
+```text
+De   tejszín-hab-ot   kér-het-ek       rá?
+but  cream-foam-ACC   ask-POT-1SG.INDF onto.it
+
+Mag-á-ban        ez    így   erős.
+self-3SG.POSS-INE this  thus  strong
+```
+
+**A mai modern udvarlási szokásokat még tanulnom kell, úgy látszik, de legyen.**
+
+It seems I still have to learn today’s modern courting customs, but so be it.
+
+```text
+A    ma-i       modern  udvarlás-i  szokás-ok-at
+the  today-ADJ  modern  courtship-ADJ custom-PL-ACC
+
+még  tanul-n-om      kell,      úgy   látsz-ik,
+still learn-INF-1SG  must.3SG   thus  seem-3SG
+
+de   legyen.
+but  be.SBJV.3SG
+```
+
+**Van Revolutod?**
+
+Do you have Revolut?
+
+```text
+Van     Revolut-od?
+be.3SG  Revolut-2SG.POSS
+```
+
+**Pár hete eladtam egy olyat, amin gabonapelyhet kellett széttaposnom a padlón. A tejszínhab sima.**
+
+A few weeks ago, I sold one in which I had to trample cereal to pieces on the floor. Whipped cream is no problem.
+
+```text
+Pár  het-e        el-ad-t-am        egy  olyan-t,
+few  week-3SG.POSS PV-sell-PST-1SG  a    such-ACC
+
+ami-n    gabona-pehely-t  kell-ett
+REL-SUP  grain-flake-ACC  must-PST.3SG
+
+szét-tapos-n-om       a    padló-n.
+PV-trample-INF-1SG    the  floor-SUP
+
+A    tejszín-hab  sima.
+the  cream-foam   easy
+```
+
+**Én nem hiszem el amúgy, hogy egyszerűbb pénzt utalni nőknek cornflakes-taposásért, mint aktuálisan megtanulni beszélni velük.**
+
+I actually cannot believe that it is easier to transfer money to women for trampling cornflakes than to actually learn to talk to them.
+
+```text
+Én   nem  hisz-em         el  amúgy,    hogy
+1SG  NEG  believe-1SG.DEF PV  actually  that
+
+egyszerű-bb  pénz-t    utal-ni    nő-k-nek
+simple-CMPR  money-ACC transfer-INF woman-PL-DAT
+
+cornflakes-tapos-ás-ért,  mint  aktuális-an
+cornflakes-trample-NMLZ-CAUS than  actual-ADV
+
+meg-tanul-ni  beszél-ni  vel-ük.
+PV-learn-INF  speak-INF  with-3PL
+```
+
+**Ja, ők nem ismerkedni akarnak.**
+
+Oh, they do not want to meet people.
+
+```text
+Ja,  ő-k    nem  ismerked-ni      akar-nak.
+oh   3SG-PL NEG  get.acquainted-INF want-3PL.INDF
+```
+
+**Csak lábfétisük van.**
+
+They just have a foot fetish.
+
+```text
+Csak  láb-fétis-ük       van.
+just  foot-fetish-3PL.POSS be.3SG
+```
+
+**De ha már lábfétised van, akkor nem egyszerűbb megismerni egy lányt, akinek ez bejön, és akkor együtt freakeskedni?**
+
+But if you already have a foot fetish, is it not easier to meet a girl who is into it and then do freaky things together?
+
+```text
+De   ha  már      láb-fétis-ed       van,     akkor
+but  if  already  foot-fetish-2SG.POSS be.3SG then
+
+nem  egyszerű-bb  meg-ismer-ni  egy  lány-t,
+NEG  simple-CMPR  PV-know-INF    a    girl-ACC
+
+aki-nek  ez    be-jön,       és   akkor  együtt
+REL-DAT  this  PV-come.3SG   and  then   together
+
+freak-es-ked-ni?
+freak-ADJ-DER-INF
+```
+
+**Persze, és akkor már rögtön a használt bugyijaimat se rendeljék meg?**
+
+Of course, and then they should not order my used panties either?
+
+```text
+Persze,    és   akkor  már      rögtön
+of.course  and  then   already  immediately
+
+a    használ-t  bugyi-ja-i-m-at
+the  use-PTCP.PST panties-3SG.POSS-PL-1SG.POSS-ACC
+
+se        rendel-jé-k        meg?
+also.NEG  order-SBJV-3PL.DEF PV
+```
+
+**Eszednél vagy?**
+
+Are you in your right mind?
+
+```text
+Esz-ed-nél         vagy?
+mind-2SG.POSS-ADE  be.2SG
+```
+
+**Akkor miből fogom fizetni a nyaralást?**
+
+Then what am I going to use to pay for my holiday?
+
+```text
+Akkor  mi-ből    fog-om      fizet-ni  a
+then   what-ELA  FUT-1SG.DEF pay-INF   the
+
+nyaralás-t?
+holiday-ACC
+```
+
+**Amúgy nem tudom, van-e olyan nő, akinek ez bejön.**
+
+Actually, I do not know whether there is a woman who is into this.
+
+```text
+Amúgy     nem  tud-om,       van-e
+actually  NEG  know-1SG.DEF  be.3SG-Q
+
+olyan  nő,    aki-nek  ez    be-jön.
+such   woman  REL-DAT  this  PV-come.3SG
+```
+
+**Nekem valódi meggyőződésem, hogy a nők tudnak perverzebbek lenni, amúgy…**
+
+It is my genuine conviction that women can be more perverted, actually…
+
+```text
+Nek-em   valódi  meg-győződés-em,    hogy
+DAT-1SG  genuine PV-conviction-1SG.POSS that
+
+a    nő-k     tud-nak      perverz-ebb-ek
+the  woman-PL can-3PL.INDF perverse-CMPR-PL
+
+len-ni,  amúgy…
+be-INF   actually
+```
+
+**De a nők szexi perverzek, nem „megszopkodom a redvás lábujjadat” perverzek.**
+
+But women are sexy perverts, not “I’ll suck on your filthy toe” perverts.
+
+```text
+De   a    nő-k     szexi  perverz-ek,
+but  the  woman-PL sexy   pervert-PL
+
+nem  meg-szop-kod-om          a    redvá-s
+NEG  PV-suck-ITER-1SG.DEF     the  filthy-ADJ
+
+láb-ujj-ad-at              perverz-ek.
+foot-toe-2SG.POSS-ACC      pervert-PL
+```
+
+**És akkor te amúgy mit dolgozol? Vagy full-time nyomod ezt a lábképes melót?**
+
+And what do you do for work, anyway? Or do you do this foot-picture gig full-time?
+
+```text
+És  akkor  te   amúgy     mi-t      dolgoz-ol?
+and  then   2SG  actually  what-ACC  work-2SG.INDF
+
+Vagy  full-time  nyom-od       ez-t      a
+or    full-time  push-2SG.DEF  this-ACC  the
+
+láb-kép-es      meló-t?
+foot-picture-ADJ job-ACC
+```
+
+**Stripper vagyok.**
+
+I am a stripper.
+
+```text
+Stripper  vagy-ok.
+stripper  be-1SG
+```
+
+**Egy cirkuszban.**
+
+In a circus.
+
+```text
+Egy  cirkusz-ban.
+a    circus-INE
+```
+
+**Egy zebra hátán vetkőzöm.**
+
+I undress on the back of a zebra.
+
+```text
+Egy  zebra  hát-á-n          vetkőz-öm.
+a    zebra  back-3SG.POSS-SUP undress-1SG.INDF
+```
+
+**Wow! Micsoda véletlen!**
+
+Wow! What a coincidence!
+
+```text
+Wow!  Micsoda  véletlen!
+wow   what.a   coincidence
+```
+
+**Én egy akrobata tigrisdomár vagyok.**
+
+I am an acrobat tiger tamer.
+
+```text
+Én   egy  akrobata  tigris-domár  vagy-ok.
+1SG  an   acrobat   tiger-tamer   be-1SG
+```
+
+**Alapíthatnánk egy közös cirkuszt.**
+
+We could establish a circus together.
+
+```text
+Alapít-hat-ná-nk      egy  közös  cirkusz-t.
+establish-POT-COND-1PL a    shared circus-ACC
+```
+
+**Wow! Fogadok, ettől nem csak a karika jön tűzbe.**
+
+Wow! I bet this sets more than just the hoop on fire.
+
+```text
+Wow!  Fogad-ok,     ez-től    nem  csak  a
+wow   bet-1SG.INDF  this-DEL  NEG  only  the
+
+karika  jön          tűz-be.
+hoop    come.3SG     fire-ILL
+```
+
+**Már próbáltam.**
+
+I already tried that.
+
+```text
+Már      próbál-t-am.
+already  try-PST-1SG
+```
+
+**Az exem mindig cirkuszolt, nem jött be.**
+
+My ex was always making a scene; it did not work out.
+
+```text
+Az   ex-em          mindig  cirkusz-ol-t,
+the  ex-1SG.POSS    always  circus-DER-PST.3SG
+
+nem  jö-tt       be.
+NEG  come-PST.3SG PV
+```
+
+## A2 vocabulary
+
+* **szerepel** — appear; feature
+* **kövi** — next, colloquial
+* **ráír valakire** — message someone
+* **felszed valakit** — pick someone up romantically
+* **duma** — line; spiel; talk, colloquial
+* **megfogalmaz** — formulate; put into words
+* **összefüggő** — coherent
+* **értelmes** — meaningful; sensible
+* **kevés valamihez** — not good enough for something
+* **összeszedi magát** — pull oneself together
+* **beindul** — start up; become sexually aroused
+* **ingyen** — free of charge
+* **megnyit** — open
+* **következő lépés** — next step
+* **végignyal** — lick all along something
+* **lábfej** — foot
+* **izzadt** — sweaty
+* **talp** — sole of the foot
+* **vágyik valamire** — long for something
+* **lábujj** — toe
+* **udvarlás** — courtship
+* **szokás** — custom; habit
+* **úgy látszik** — it seems
+* **pár hete** — a few weeks ago
+* **elad** — sell
+* **gabonapehely** — breakfast cereal
+* **széttapos** — crush by trampling
+* **padló** — floor
+* **sima** — easy; no problem, colloquial
+* **pénzt utal** — transfer money
+* **megtanul** — learn
+* **ismerkedik** — meet people; get acquainted
+* **lábfétis** — foot fetish
+* **bejön valakinek** — appeal to someone
+* **használt** — used
+* **megrendel** — order
+* **eszednél vagy?** — are you in your right mind?
+* **nyaralás** — holiday; vacation
+* **meggyőződés** — conviction; firm belief
+* **perverz** — perverted
+* **meló** — job; gig, colloquial
+* **vetkőzik** — undress
+* **véletlen** — coincidence
+* **akrobata** — acrobat
+* **tigrisdomár** — tiger tamer
+* **alapít** — establish; found
+* **közös** — shared; joint
+* **fogadok** — I bet
+* **tűzbe jön** — become excited or aroused
+* **cirkuszol** — make a scene; create drama
+* **nem jön be** — not work out; not appeal to someone
+
+---
+
+[Reel](https://www.instagram.com/reels/DZhZ7yNE0Vl/)
+
+**Én, azaz Michelle Wild leszek fellógatva egy húskampóra.**
+
+I—that is, Michelle Wild—will be hung from a meat hook.
+
+```text
+Én,  azaz     Michelle_Wild  lesz-ek      fel-lógat-va
+1SG  that.is  Michelle_Wild  be.FUT-1SG   PV-hang-PASS.CVB
+
+egy  hús-kampó-ra.
+a    meat-hook-SBL
+```
+
+**Találkoztam Vad Katival itt a forgatáson is, illetve megelőzően voltak találkozóink.**
+
+I met Kati Vad here at the filming too, and we had also met previously.
+
+```text
+Találkoz-t-am  Vad_Kati-val  itt   a    forgatás-on  is,
+meet-PST-1SG   Vad_Kati-INST here  the  filming-SUP  also
+
+illetve  meg-előző-en  volt-ak       találkozó-i-nk.
+and      PV-previous-ADV be.PST-3PL   meeting-PL-1PL.POSS
+```
+
+**Telefonon is tartjuk a kapcsolatot.**
+
+We also keep in contact by phone.
+
+```text
+Telefon-on  is    tart-juk       a    kapcsolat-ot.
+telephone-SUP also keep-1PL.DEF   the  contact-ACC
+```
+
+**Számomra egy nagyon jó élmény volt.**
+
+For me, it was a very good experience.
+
+```text
+Szám-om-ra          egy  nagyon  jó    élmény
+account-1SG.POSS-SBL a    very    good  experience
+
+volt.
+be.PST.3SG
+```
+
+**Borzasztóan izgultam, mert tényleg annyira felkészült voltam az életéből, mire már találkoztunk, hogy tényleg azt éreztem, hogy egy ilyen hollywoodi sztárral találkozom.**
+
+I was terribly nervous, because by the time we met I had really prepared so thoroughly by studying her life that I truly felt I was meeting a Hollywood star.
+
+```text
+Borzasztó-an  izgul-t-am,      mert     tényleg  annyi-ra
+terrible-ADV  be.nervous-PST-1SG because  really   that.much-SBL
+
+fel-készül-t  volt-am       az   élet-é-ből,
+PV-prepare-PTCP be.PST-1SG  the  life-3SG.POSS-ELA
+
+mi-re      már      találkoz-t-unk,  hogy  tényleg
+what-SBL   already  meet-PST-1PL     that  really
+
+az-t      érez-t-em,      hogy  egy  ilyen  hollywood-i
+that-ACC  feel-PST-1SG.DEF that  a    such   Hollywood-ADJ
+
+sztár-ral  találkoz-om.
+star-INST meet-1SG.INDF
+```
+
+**Szóval rettenetesen izgultam, de hála az égnek, nagyon kedves és nyitott emberként ismerhettem meg Katit.**
+
+So I was terribly nervous, but thank heavens, I was able to get to know Kati as a very kind and open person.
+
+```text
+Szóval  rettenetes-en  izgul-t-am,      de   hála
+so      terrible-ADV   be.nervous-PST-1SG but  thanks
+
+az   ég-nek,  nagyon  kedves  és   nyitott
+the  sky-DAT  very    kind    and  open
+
+ember-ként  meg-ismer-het-t-em      Kati-t.
+person-ESS  PV-know-POT-PST-1SG.DEF Kati-ACC
+```
+
+**Izgalmas kérdései voltak, amikben éreztem, hogy szeretné felmérni, hogy nekem mi a véleményem erről a karakterről.**
+
+She had interesting questions in which I felt that she wanted to assess what my opinion was of this character.
+
+```text
+Izgalmas  kérdés-e-i         volt-ak,      ami-k-ben
+exciting  question-3SG.POSS-PL be.PST-3PL REL-PL-INE
+
+érez-t-em,       hogy  szeret-né        fel-mér-ni,
+feel-PST-1SG.DEF that  want-COND.3SG    PV-measure-INF
+
+hogy  nek-em   mi    a    vélemény-em
+that  DAT-1SG  what  the  opinion-1SG.POSS
+
+ez-ről      a    karakter-ről.
+this-DEL    the  character-DEL
+```
+
+**És szerintem tök jól vibe-oltunk.**
+
+And I think we vibed really well.
+
+```text
+És  szerint-em       tök      jól  vibe-ol-t-unk.
+and  according.to-1SG totally  well  vibe-DER-PST-1PL
+```
+
+**Rendezte: Kovi.**
+
+Directed by Kovi.
+
+```text
+Rendez-t-e:       Kovi.
+direct-PST-3SG.DEF Kovi
+```
+
+## A2 vocabulary
+
+* **azaz** — that is; in other words
+* **fellógat** — hang up; suspend
+* **húskampó** — meat hook
+* **forgatás** — filming; film shoot
+* **illetve** — and; as well as; or rather
+* **megelőzően** — previously; before that
+* **találkozó** — meeting
+* **telefonon** — by phone
+* **tartja a kapcsolatot** — keep in contact
+* **számomra** — for me
+* **élmény** — experience
+* **borzasztóan** — terribly; extremely
+* **izgul** — be nervous; be excited
+* **felkészül** — prepare
+* **mire** — by the time that
+* **sztár** — star; celebrity
+* **rettenetesen** — terribly; extremely
+* **hála az égnek** — thank heavens
+* **nyitott** — open; open-minded
+* **emberként** — as a person
+* **megismer** — get to know
+* **izgalmas** — exciting; interesting
+* **felmér** — assess; evaluate
+* **karakter** — character
+* **tök jól** — really well; colloquial
+* **vibe-ol valakivel** — vibe with someone
+* **rendezte** — directed by
