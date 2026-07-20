@@ -45,6 +45,11 @@ categories: [links]
 [VIbCReg: Variance-invariance-better-covariance regularization for self-supervised learning on time series](https://ml4its.github.io/publications/pub8/),
 [Computer Vision Self-supervised Learning Methods on Time Series](https://arxiv.org/abs/2109.00783) (updated title)
 
+[kaldi_swe](https://hub.docker.com/r/jimregan/kaldi_swe/tags),
+[huggingface](https://huggingface.co/jimregan/kaldi-sprakbanken_swe)
+
+---
+
 [Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning](https://ai.meta.com/research/publications/pushing-the-frontier-of-audiovisual-perception-with-large-scale-multimodal-correspondence-learning/),
 [code](https://github.com/facebookresearch/perception_models) (Embedding model is open, "Perception LM" is not),
 [Perception Encoder Audio-Visual (PE-AV)](https://huggingface.co/facebook/pe-av-large)
