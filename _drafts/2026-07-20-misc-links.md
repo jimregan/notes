@@ -32,6 +32,8 @@ categories: [links]
 
 [submission site for IEEE Signal Processing Letters](https://mc.manuscriptcentral.com/spl-ieee)
 
+[Information for Authors-SPL](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters/information-authors-spl)
+
 [rhasspy/sv_kaldi-rhasspy](https://github.com/rhasspy/sv_kaldi-rhasspy)
 
 [Do We Know Which Pre-trained Model Outperforms TIMIT Phoneme Recognition?](https://speechcompute.com/articles/)
@@ -52,3 +54,23 @@ categories: [links]
 [ML4ITS/repositories](https://github.com/orgs/ML4ITS/repositories?type=all)
 
 [Reinventing Entropy - Compression is Intelligence Part 1](https://www.youtube.com/watch?v=l6DKRf-fAAM)
+
+[DSTA: Reinforcing Vision-Language Understanding for Scene-Text VQA With Dual-Stream Training Approach](https://ieeexplore.ieee.org/document/10734181)
+
+[GigaAM Multilingual & GigaChat Audio — accepted to InterSpeech 2026, released fully open](https://www.linkedin.com/posts/georgygospodinov_gigaam-multilingual-gigachat-audio-accepted-share-7482694282764713984-vKmY/):
+- [ai-sage/GigaAM-Multilingual](https://huggingface.co/ai-sage/GigaAM-Multilingual)
+   - MIT
+   - Conformer-based foundation models (220M / 600M parameters)
+   - HuBERT-style pre-training objective
+   - trained on 2M hours of speech across 70+ languages
+   - fine-tuned character CTC decoders on 50K hours
+   - [Fine-tuning guide](https://github.com/salute-developers/GigaAM/blob/main/train_utils/README.md)
+- [GigaChat Audio 10B](https://huggingface.co/ai-sage/GigaChat3.1-Audio-10B-A1.8B)
+   - MIT
+   - built on [GigaChat](https://huggingface.co/ai-sage/GigaChat3.1-10B-A1.8B-GGUF)
+   - Conformer speech encoder and a modality adapter feed audio embeddings directly into a Mixture-of-Experts decoder
+- [ai-sage/TimeGround-1M](https://huggingface.co/datasets/ai-sage/TimeGround-1M)
+   - CC-BY
+   - Synthetic English audio dataset for time-aware speech understanding
+   - temporal localization, temporal description, and timed summaries
+   - Based on YODAS2 English
