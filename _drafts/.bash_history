@@ -1,45 +1,3 @@
-less recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel 
-cat recheck.log |perl wget-http.pl  >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt 
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-scp todel sbtaldeep22:.srv/done/
-cd -
-scp todel sbtaldeep22:.srv/done/
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt 
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-tail tocheck 
-cat inp.log |perl wget-http.pl >> tocheck 
-cat tocheck |grep sizeIn|awk -F'[<>]' '{print $2}' > recheck
-spiderfile recheck
-less recheck.log 
-cat recheck.log |perl wget-http.pl  >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405c.nt 
-cd -
-git add wget-20260405c.nt 
-git commit -m recheck
-cd -
-cat recheck.log |perl wget-http.pl  |grep sizeIn|awk -F'[<>]' '{print $2}'|awk -F'/' '{print $NF}' > todel 
-scp todel sbtaldeep22:.srv/done/
-rm tocheck 
-scp sbtaldeep22:.srv/wg/inp.log .
-cat inp.log |perl wget-http.pl >> tocheck 
-cat inp.log |perl wget-http.pl >> ../8c08e58ba0638cacfea6a84a97fae1f4/wget-20260405.nt 
-cd -
-git add wget-20260405.nt 
-git commit -m inp
-cd -
-less tocheck 
-grep '/source' tocheck 
-grep '/source' tocheck |awk -F'[<>]' '{print $NF}'
-grep '/source' tocheck |awk -F'[<>]' '{print $3}'
-grep '/source' tocheck |awk -F'[<>]' '{print $6}'
 grep '/source' tocheck |awk -F'[<>]' '{print $6}' > recheck
 spiderfile recheck
 scp recheck sbtaldeep22:.srv/wg/inp
@@ -498,3 +456,45 @@ unzip -l /Users/joregan/Downloads/Sc-20260629T105547Z-3-001.zip
 unzip -l /Users/joregan/Downloads/Sc-20260629T110250Z-3-001.zip 
 rm /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260601-183757.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260601-092448.png 
 rm /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153654.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153651.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153647.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153645.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153642.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260531-153620.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260607-121043.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260607-154245.png /Users/joregan/Downloads/Ss-20260613T193156Z-3-001/Screenshot_20260613-121359.png 
+cd /tmp
+git clone git@github.com:jimregan/notes.git
+cd notes/
+/VIC
+git fetch
+git branch
+git checkout notes-jan-26 
+git rm _drafts/.bash_history 
+git rm _drafts/tabs_*
+git commit -m junk
+git rm _drafts/stories.json 
+git commit -m rm
+git rm _drafts/missing-tabs 
+git commit -m rm
+git pull origin notes-jan-26 
+git config pull.rebase false
+git pull origin notes-jan-26 
+git push origin notes-jan-26 
+head -n _posts/2026-02-16-mseb.md 
+head -n 8 _posts/2026-02-16-mseb.md 
+git log _drafts/lightly-codebase-notes.md
+vi _drafts/lightly-codebase-notes.md
+git add _drafts/lightly-codebase-notes.md
+git commit -m meta
+git log _drafts/lightly-codebase-notes.md
+git mv _drafts/lightly-codebase-notes.md _posts/2026-07-12-lightly-codebase-notes.md
+git commit -m mv
+head -n 8 _posts/2026-02-16-mseb.md 
+vi _drafts/solo-learn-codebase-notes.md 
+git add _drafts/solo-learn-codebase-notes.md 
+git commit -m meta
+git log _drafts/solo-learn-codebase-notes.md 
+git mv _posts/2026-07-12-lightly-codebase-notes.md _posts/2026-06-12-lightly-codebase-notes.md 
+git mv _drafts/solo-learn-codebase-notes.md _posts/2026-06-12-solo-learn-codebase-notes.md
+git commit -m mv
+git push origin notes-jan-26 
+git rm _drafts/further.md 
+git commit -m rm
+git push origin notes-jan-26 
+cd ,,
+cd ..
+rm -rf notes/
