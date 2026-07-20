@@ -69,3 +69,34 @@ categories: [links]
 [code](https://github.com/sign-language-processing/segmentation)
 
 [Overview of Datasets for the Sign Languages of Europe](https://www.fdr.uni-hamburg.de/record/9561)
+
+# Local repos
+
+[Free-TV/IPTV](https://github.com/Free-TV/IPTV) --- M3U Playlist for free TV channels
+
+[Lightning-AI/litgpt](https://github.com/Lightning-AI/litgpt) --- 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale.
+
+[rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+
+[NbAiLab/whisper-large-sme](https://huggingface.co/NbAiLab/whisper-large-sme)
+
+# sbt22 repos
+
+[VoiceRestore: Flow-Matching Transformers for Speech Recording Quality Restoration](https://arxiv.org/abs/2501.00794),
+[skirdey/voicerestore](https://github.com/skirdey/voicerestore)
+
+[metavoiceio/metavoice-src](https://github.com/metavoiceio/metavoice-src) --- Foundational model for human-like, expressive TTS
+
+[EricGuo5513/HumanML3D](https://github.com/EricGuo5513/HumanML3D) --- A large and diverse 3d human motion-language dataset.
+
+# Watching
+
+[Taskmaster](https://www.reddit.com/r/panelshow/wiki/taskmaster/)
+
+- Kongen Befaler
+  - Last: S12 E07
+- Bäst i Test
+  - [Julspecial](https://drive.google.com/file/d/1wr-rcUnHzLEM0DUS9hampOcXgWbM1Pku/view)
+  - [Chans För Revansch](https://drive.google.com/file/d/1GXwFbxrYEu638G8kkLQEx76h7zBmemdJ/view)
+  - Last: S11 E01
+
