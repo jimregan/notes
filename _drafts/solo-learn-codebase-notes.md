@@ -1,3 +1,11 @@
+---
+title: solo-learn codebase reference
+layout: post
+toc: true
+description: Claude-generated codebase reference
+categories: [solo-learn, claude]
+---
+
 # solo-learn Codebase Description
 
 solo-learn is a PyTorch Lightning-based library providing implementations of self-supervised learning methods for visual representation learning. It was published in JMLR (2022) and provides 21 self-supervised methods with consistent training infrastructure, multiple backbone architectures, and evaluation utilities.
