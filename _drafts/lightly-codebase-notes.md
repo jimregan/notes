@@ -1,3 +1,11 @@
+---
+title: LightlySSL Codebase Overview
+layout: post
+toc: true
+description: Claude-generated codebase reference
+categories: [mseb, lightlyssl]
+---
+
 # LightlySSL Codebase Overview
 
 LightlySSL is a modular PyTorch framework for self-supervised visual representation learning. It provides low-level building blocks — loss functions, model heads, data transforms — that you compose yourself. It also ships an optional REST client for the commercial Lightly platform.
