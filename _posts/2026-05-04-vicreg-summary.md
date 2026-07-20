@@ -16,7 +16,7 @@ categories: [chatgpt, summary]
 ```bibtex
 @inproceedings{
 bardes2022vicreg,
-title={{VICR}eg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning},
+title={VICReg: Variance-Invariance-Covariance Regularization for Self-Supervised Learning},
 author={Adrien Bardes and Jean Ponce and Yann LeCun},
 booktitle={International Conference on Learning Representations},
 year={2022},
