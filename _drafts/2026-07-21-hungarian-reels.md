@@ -806,11 +806,166 @@ time-INST  develop.3SG  PV
 
 [Reel](https://www.instagram.com/reels/Dax8tWhK5d0/)
 
-[00:00.000 --> 00:02.000]  Van-e kedvenc színed és melyik, hogyha igen?
-[00:02.000 --> 00:04.500]  Igen, a lila a kedvenc színem. Bár ez most nem látszik.
-[00:04.500 --> 00:07.000]  Meg tudod indokolni, hogy mi miatt esetleg?
-[00:07.000 --> 00:14.000]  Igen, a lila egyrészt van olyan árnyalatában, ami a hideg nyárnak, mint amilyen én is szintípusban vagyok, jól áll. Ez az egyik ok.
-[00:14.000 --> 00:19.500]  A másik pedig az, hogy a lilában van valami frissesség. Én szeretem az orgonának például az illatát és az összekapcsódik ezzel.
-[00:19.500 --> 00:23.500]  Ja, és még egy. Van Színyei Mersének egy tök jó festménye a Magyar Nemzeti Galériában.
-[00:23.500 --> 00:29.000]  Lila ruhásnő, azt mindenkinek ajánlom. A sárgával olyan komplementerbe van rakva, hogy gyönyörűség megnézni is.
+I’ve preserved **összekapcsódik** as spoken. The standard form would be **összekapcsolódik**. I’ve also repaired the obvious Whisper error to **a lilának … van olyan árnyalata**.
 
+**Van-e kedvenc színed, és melyik, hogyha igen?**
+
+Do you have a favourite colour, and which one, if so?
+
+```text
+Van-e      kedvenc    szín-ed,          és   melyik,
+be.3SG-Q   favourite  colour-2SG.POSS   and  which
+
+hogyha  igen?
+if      yes
+```
+
+**Igen, a lila a kedvenc színem. Bár ez most nem látszik.**
+
+Yes, purple is my favourite colour. Although that is not apparent right now.
+
+```text
+Igen,  a    lila    a    kedvenc    szín-em.
+yes    the  purple  the  favourite  colour-1SG.POSS
+
+Bár       ez    most  nem  látsz-ik.
+although  this  now   NEG  be.visible-3SG
+```
+
+**Meg tudod indokolni, hogy mi miatt esetleg?**
+
+Can you perhaps explain why?
+
+```text
+Meg  tud-od       indokol-ni,  hogy  mi    miatt
+PV   can-2SG.DEF  justify-INF  that  what  because.of
+
+esetleg?
+perhaps
+```
+
+**Igen, a lilának egyrészt van olyan árnyalata, ami a hideg nyárnak – mint amilyen én is színtípusban vagyok – jól áll.**
+
+Yes, on the one hand, purple has a shade that suits a cool summer—which is what I am in terms of colour type.
+
+```text
+Igen,  a    lilá-nak   egy-részt     van
+yes    the  purple-DAT one-part.ADV  be.3SG
+
+olyan  árnyalat-a,     ami  a    hideg  nyár-nak
+such   shade-3SG.POSS  REL  the  cool   summer-DAT
+
+mint  amilyen    én   is    szín-típus-ban  vagy-ok
+as    what.kind  1SG  also  colour-type-INE be-1SG
+
+jól  áll.
+well suit.3SG
+```
+
+**Ez az egyik ok.**
+
+That is one reason.
+
+```text
+Ez    az   egy-ik  ok.
+this  the  one-ONE reason
+```
+
+**A másik pedig az, hogy a lilában van valami frissesség.**
+
+The other is that there is something fresh about purple.
+
+```text
+A    más-ik    pedig    az,    hogy  a    lilá-ban
+the  other-ONE however  that   that  the  purple-INE
+
+van     vala-mi  friss-es-ség.
+be.3SG  some-thing fresh-ADJ-NMLZ
+```
+
+**Én szeretem az orgonának például az illatát, és az összekapcsódik ezzel.**
+
+For example, I like the scent of lilac, and that is connected with this.
+
+```text
+Én   szeret-em      az   orgoná-nak  példá-ul
+1SG  like-1SG.DEF   the  lilac-DAT   example-ADV
+
+az   illat-á-t,           és   az
+the  scent-3SG.POSS-ACC   and  that
+
+össze-kapcsód-ik  ez-zel.
+PV-connect-3SG   this-INST
+```
+
+**Ja, és még egy.**
+
+Oh, and one more thing.
+
+```text
+Ja,  és   még    egy.
+oh   and  still  one
+```
+
+**Van Szinyei Mersének egy tök jó festménye a Magyar Nemzeti Galériában.**
+
+Szinyei Merse has a really good painting in the Hungarian National Gallery.
+
+```text
+Van     Szinyei_Merse-nek  egy  tök
+be.3SG  Szinyei_Merse-DAT  a    totally
+
+jó    festmény-e          a    Magyar_Nemzeti_Galériá-ban.
+good  painting-3SG.POSS   the  Hungarian_National_Gallery-INE
+```
+
+**Lila ruhás nő, azt mindenkinek ajánlom.**
+
+*Woman in a Purple Dress*—I recommend it to everyone.
+
+```text
+Lila    ruhá-s     nő,     az-t      mindenki-nek
+purple  dress-ADJ  woman   that-ACC  everyone-DAT
+
+ajánl-om.
+recommend-1SG.DEF
+```
+
+**A sárgával olyan komplementerbe van rakva, hogy gyönyörűség megnézni is.**
+
+It is placed in such a complementary relationship with the yellow that even looking at it is a delight.
+
+```text
+A    sárgá-val   olyan  komplementer-be
+the  yellow-INST such   complementary.relation-ILL
+
+van     rak-va,   hogy  gyönyörű-ség  meg-néz-ni  is.
+be.3SG  put-CVB   that  beautiful-NMLZ PV-look-INF also
+```
+
+## A2 vocabulary
+
+* **kedvenc szín** — favourite colour
+* **látszik** — be visible; be apparent
+* **megindokol** — explain; give a reason for
+* **mi miatt?** — because of what?; why?
+* **esetleg** — perhaps; possibly
+* **egyrészt** — on the one hand
+* **árnyalat** — shade; hue
+* **hideg nyár** — cool summer, a seasonal colour type
+* **színtípus** — colour type
+* **jól áll valakinek** — suit someone; look good on someone
+* **frissesség** — freshness
+* **orgona** — lilac
+* **illat** — scent; fragrance
+* **összekapcsódik valamivel** — be connected with something; nonstandard spoken form
+* **még egy** — one more
+* **festmény** — painting
+* **tök jó** — really good
+* **ruhás** — wearing clothes of a specified kind
+* **mindenkinek ajánl** — recommend to everyone
+* **sárga** — yellow
+* **komplementer** — complementary
+* **be van rakva** — be placed or arranged
+* **gyönyörűség** — delight; something beautiful
+* **megnéz** — look at; view
