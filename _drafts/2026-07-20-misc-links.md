@@ -48,6 +48,8 @@ categories: [links]
 [kaldi_swe](https://hub.docker.com/r/jimregan/kaldi_swe/tags),
 [huggingface](https://huggingface.co/jimregan/kaldi-sprakbanken_swe)
 
+[Fast vs Slow Swedish](https://www.instagram.com/reels/DXt1BXUjO-d/)
+
 ---
 
 [Pushing the Frontier of Audiovisual Perception with Large-Scale Multimodal Correspondence Learning](https://ai.meta.com/research/publications/pushing-the-frontier-of-audiovisual-perception-with-large-scale-multimodal-correspondence-learning/),
@@ -81,3 +83,8 @@ categories: [links]
    - Based on YODAS2 English
 
 [Audio-Native Speech Recognition with a Frozen Discrete-Diffusion Language Model](https://arxiv.org/abs/2607.13013)
+
+{% twitter https://x.com/4wavetech/status/2079258991528726586 %}
+
+[wavtechyukky/pyshiro](https://github.com/wavtechyukky/pyshiro)
+
