@@ -973,13 +973,14 @@ be.3SG  put-CVB   that  beautiful-NMLZ PV-look-INF also
 [Reel](https://www.instagram.com/reels/Dai7k_fs0_z/)
 
 [00:00.000 --> 00:03.000]  Mint tudjuk, magyarul lehet a legszebben káromkodni.
-[00:03.100 --> 00:03.860]  A baszomat.
-[00:04.680 --> 00:07.140]  Milyen kiárási tilalom a kurva életben.
-[00:07.160 --> 00:10.720]  De az biztos nem tudod, melyik a leghíresebb magyar káromkodás.
-[00:11.060 --> 00:13.340]  Ez pedig úgy hangzik, baszoma lelkét.
-[00:13.620 --> 00:16.400]  Ugyanis a moldovai köztársaságban, a Románia mellett,
-[00:16.620 --> 00:18.860]  van egy olyan családnév, hogy baszoma lelkét.
-[00:19.060 --> 00:20.660]  Pontosabban baszoma lelka.
+[00:03.100 --> 00:03.860]  A faszomat!
+[00:04.680 --> 00:07.140]  Mi van? kijárási tilalom? a kurva életbe!
+[00:07.160 --> 00:10.720]  De azt biztos nem tudod, melyik a leghíresebb magyar káromkodás.
+[00:11.060 --> 00:13.340]  Ez pedig úgy hangzik: baszom a lelkét.
+[00:13.620 --> 00:16.400]  Ugyanis a moldovai köztársaságban, a Románia mellett
+[00:16.620 --> 00:18.860]  van egy olyan családnév, hogy baszomalelkét,
+[00:19.060 --> 00:20.660]  pontosabban basamalerca.
 [00:21.020 --> 00:23.960]  Az ott harcoló magyar huszároktól hallották a moldávok,
-[00:24.140 --> 00:26.980]  és annyira megtetszett neki, hogy családnév lett belőle.
-[00:26.980 --> 00:29.360]  Szóval, van mire büszkék lennünk.
+[00:24.140 --> 00:26.980]  és annyira megtetszett nekik, hogy családnév lett belőle.
+[00:26.980 --> 00:29.360]  Szóval, van mire büszkék lennünk!
+
