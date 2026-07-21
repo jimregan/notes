@@ -261,26 +261,25 @@ expensive  shop-INST be.3SG  PV-put-PASS.CVB
 
 [Reel](https://www.instagram.com/reels/DbBYPe6MzDx/)
 
-ugye a halálig tart.
-Ami szerintem amúgy nem elég.
-Mert vannak nők, akik ilyeneket mondanak a férjéknek,
-hogy jaj szívem, hogyha meghalok,
-akkor nagyon szeretném, hogy boldog legyél,
-és újra házass, hogy faszt, ha nem hal utánam,
+Ugye a halálig tart,
+ami szerintem amúgy nem elég.
+Mert vannak nők, akik ilyeneket mondanak a férjeiknek,
+hogy "jaj, szívem, hogyha meghalok,
+akkor nagyon szeretném, hogy boldog legyél
+és újraházasodj". Faszt! ha nem hal utánam
 hat hónapon belül sose szeretett igazán.
-Ott egy házassodni készülő hölgy, így van.
+Ott egy házasodni készülő hölgy. így van.
 Annyi, hogy ez nem egy valós probléma,
 mert a statisztikák szerint a férfiak hamarabb halnak,
 úgyhogy minden rendben lesz.
-Tényleg egyébként a statisztikák szerint sajnos,
-a férfiak három kötőjel öt évvel halnak hamarabb, mint a nők,
+Tényleg egyébként a statisztikák szerint sajnos a férfiak három kötőjel öt évvel halnak hamarabb, mint a nők,
 ami szerintem pont annyi idő,
-amennyit így életetekben ettől bosszantásunkkal töltötök.
-Én azt mondom, hogy minden feleségnek jár egy kis én idő egy házasság után,
-hogy így, fú, szegény, jól meghalt,
-de legalább egy darabig nem akar senki főzés közben megdugni, fú.
-Én nem várnék ennyit, én nem várnám meg azt a három-öt évet,
-én mennék utána azonnal, nem fog ez nekem ott a túloldalt flörtölgetni
+amennyit így életetekben netto bosszantásunkkal töltötök.
+Ugyhogy én azt mondom, hogy minden feleségnek jár egy kis énidő, egy házasság után,
+hogy így. Fú, szegény, jól meghalt,
+de legalább egy darabig nem akar senki főzés közben megdugni. Fú.
+Én nem várnék ennyit. Én nem várnám meg azt a három, öt évet.
+Én mennék utána azonnal. Nem fog ez nekem ott a túloldalt flörtölgetni
 mindenféle halott ribancokkal.
-Alapból el sem hinném, hogy meghalt, így feküdne a földön.
-De hogyha haltál, te meg csak nem akarsz kiteregetni.
+Alapból el se hinném, hogy meghalt. így feküdne a földön,
+"dehogy haltál meg csak nem akarsz kiteregetni."
