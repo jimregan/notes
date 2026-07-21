@@ -972,7 +972,7 @@ be.3SG  put-CVB   that  beautiful-NMLZ PV-look-INF also
 
 [Reel](https://www.instagram.com/reels/Dai7k_fs0_z/)
 
-The surname **Basamalerca** is genuinely attested in Moldova. The proposed derivation from Hungarian **basszam a lelkét** is reported in Hungarian discussions, though the more detailed story about Moldovans hearing it specifically from Hungarian hussars is best treated as an etymological anecdote rather than firmly demonstrated history. ([grcvolley.hu][1])
+> The surname **Basamalerca** is genuinely attested in Moldova. The proposed derivation from Hungarian **basszam a lelkét** is reported in Hungarian discussions, though the more detailed story about Moldovans hearing it specifically from Hungarian hussars is best treated as an etymological anecdote rather than firmly demonstrated history. ([grcvolley.hu](https://grcvolley.hu/hirek/valogatott-fino-karomkodasok) "A káromkodás művészete: Finom szitokszavak titkai és társadalmi ...")
 
 **Mint tudjuk, magyarul lehet a legszebben káromkodni.**
 
@@ -1125,8 +1125,26 @@ be-INF-1PL
 * **büszke valamire** — proud of something
 * **van mire büszkének lenni** — have something to be proud of
 
-[1]: https://grcvolley.hu/hirek/valogatott-fino-karomkodasok?utm_source=chatgpt.com "A káromkodás művészete: Finom szitokszavak titkai és társadalmi ..."
-
 ---
 
 [Reel](https://www.instagram.com/reels/DZ9uEr_iOdO/)
+
+[00:00.000 --> 00:02.000]  30 cm nagy,
+[00:02.000 --> 00:04.000]  venezueli...
+[00:30.000 --> 00:32.000]  akcentussal angolul,
+[00:32.000 --> 00:34.000]  meg svédül a kellő mondatait.
+[00:34.000 --> 00:36.000]  Ezt a jelentet összebágtuk.
+[00:36.000 --> 00:38.000]  Utána kiköltők
+[00:38.000 --> 00:40.000]  Svédországba, ahol egy svéd
+[00:40.000 --> 00:42.000]  szinkronszínész
+[00:42.000 --> 00:44.000]  leszinkronizálta, de ugye
+[00:44.000 --> 00:46.000]  itt még nem ér véget ez a történet.
+[00:46.000 --> 00:48.000]  Jött az AI, ami
+[00:48.000 --> 00:50.000]  megtanulta gyakorlatilag
+[00:50.000 --> 00:52.000]  az Erwin-nek az orgánumát.
+[00:52.000 --> 00:54.000]  És amit a svéd szinkronszínész
+[00:54.000 --> 00:56.000]  helyes akcentussal elmondott,
+[00:56.000 --> 00:58.000]  az az Erwin orgánumával
+[00:58.000 --> 01:00.000]  és a hangszínével jött vissza,
+[01:00.000 --> 01:02.000]  és így kaptuk meg a végeredményt.
+
