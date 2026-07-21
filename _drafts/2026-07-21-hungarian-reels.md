@@ -261,27 +261,26 @@ expensive  shop-INST be.3SG  PV-put-PASS.CVB
 
 [Reel](https://www.instagram.com/reels/DbBYPe6MzDx/)
 
-Download complete: : 0.00B [00:00, ?B/s]                  | 0/4 [00:00<?, ?it/s]
-[00:00.000 --> 00:01.480]  ugye a halálig tart.
-[00:02.080 --> 00:03.640]  Ami szerintem amúgy nem elég.
-[00:04.260 --> 00:07.340]  Mert vannak nők, akik ilyeneket mondanak a férjéknek,
-[00:07.420 --> 00:09.460]  hogy jaj szívem, hogyha meghalok,
-[00:09.760 --> 00:11.480]  akkor nagyon szeretném, hogy boldog legyél,
-[00:11.560 --> 00:13.480]  és újra házass, hogy faszt, ha nem hal utánam,
-[00:13.560 --> 00:15.460]  hat hónapon belül sose szeretett igazán.
-[00:18.900 --> 00:21.440]  Ott egy házassodni készülő hölgy, így van.
-[00:22.960 --> 00:24.340]  Annyi, hogy ez nem egy valós probléma,
-[00:24.420 --> 00:26.920]  mert a statisztikák szerint a férfiak hamarabb halnak,
-[00:27.060 --> 00:28.600]  úgyhogy minden rendben lesz.
-[00:30.000 --> 00:33.180]  Tényleg egyébként a statisztikák szerint sajnos,
-[00:33.280 --> 00:36.980]  a férfiak három kötőjel öt évvel halnak hamarabb, mint a nők,
-[00:37.560 --> 00:38.900]  ami szerintem pont annyi idő,
-[00:38.960 --> 00:41.760]  amennyit így életetekben ettől bosszantásunkkal töltötök.
-[00:43.460 --> 00:47.600]  Én azt mondom, hogy minden feleségnek jár egy kis én idő egy házasság után,
-[00:47.700 --> 00:51.420]  hogy így, fú, szegény, jól meghalt,
-[00:52.340 --> 00:55.480]  de legalább egy darabig nem akar senki főzés közben megdugni, fú.
-[00:57.280 --> 00:59.980]  Én nem várnék ennyit, én nem várnám meg azt a három-öt évet,
-[01:00.000 --> 01:02.900]  én mennék utána azonnal, nem fog ez nekem ott a túloldalt flörtölgetni
-[01:02.900 --> 01:04.280]  mindenféle halott ribancokkal.
-[01:06.280 --> 01:08.480]  Alapból el sem hinném, hogy meghalt, így feküdne a földön.
-[01:09.100 --> 01:10.980]  De hogyha haltál, te meg csak nem akarsz kiteregetni.
+ugye a halálig tart.
+Ami szerintem amúgy nem elég.
+Mert vannak nők, akik ilyeneket mondanak a férjéknek,
+hogy jaj szívem, hogyha meghalok,
+akkor nagyon szeretném, hogy boldog legyél,
+és újra házass, hogy faszt, ha nem hal utánam,
+hat hónapon belül sose szeretett igazán.
+Ott egy házassodni készülő hölgy, így van.
+Annyi, hogy ez nem egy valós probléma,
+mert a statisztikák szerint a férfiak hamarabb halnak,
+úgyhogy minden rendben lesz.
+Tényleg egyébként a statisztikák szerint sajnos,
+a férfiak három kötőjel öt évvel halnak hamarabb, mint a nők,
+ami szerintem pont annyi idő,
+amennyit így életetekben ettől bosszantásunkkal töltötök.
+Én azt mondom, hogy minden feleségnek jár egy kis én idő egy házasság után,
+hogy így, fú, szegény, jól meghalt,
+de legalább egy darabig nem akar senki főzés közben megdugni, fú.
+Én nem várnék ennyit, én nem várnám meg azt a három-öt évet,
+én mennék utána azonnal, nem fog ez nekem ott a túloldalt flörtölgetni
+mindenféle halott ribancokkal.
+Alapból el sem hinném, hogy meghalt, így feküdne a földön.
+De hogyha haltál, te meg csak nem akarsz kiteregetni.
