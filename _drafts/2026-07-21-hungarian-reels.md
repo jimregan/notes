@@ -545,21 +545,259 @@ PV-hang.out-INF
 
 [Reel](https://www.instagram.com/reels/Da2cjLfMCD2/)
 
-[00:00.260 --> 00:05.080]  Mitől leszünk szerelmesek valakibe? És tényleg létezik szerelem első látásra?
-[00:05.520 --> 00:09.960]  Ha nagyon röviden kellene válaszolnom, akkor nem egyetlen dologtól leszünk szerelmesek...
-[00:10.280 --> 00:13.780]  A pszichológiában több tényező együtt alakítja ki a vonzalmat.
-[00:13.940 --> 00:15.600]  Az egyik ilyen a közelség.
-[00:15.920 --> 00:19.200]  Meglepően sokat számít, hogy milyen gyakran találkozunk valakivel.
-[00:19.620 --> 00:23.160]  Minél többször látunk egy embert, annál ismerősebbé válik számunkra,
-[00:23.240 --> 00:25.840]  és sokszor annál szimpatikusabbnak is érezzük.
-[00:25.980 --> 00:28.740]  Fontos az is, hogy vannak-e közös értékeink,
-[00:28.740 --> 00:32.260]  hogy hasonló-e a humorunk, és hogy jól érezzük magunkat együtt,
-[00:32.580 --> 00:35.940]  és hogy érzelmileg biztonságban érezzük magunkat mellette.
-[00:36.300 --> 00:39.180]  És persze a vonzalomnak van biológiai oldala is,
-[00:39.440 --> 00:43.280]  amikor szerelmesek leszünk. Különböző hormonok és ingerületátvívő anyagok
-[00:43.280 --> 00:47.820]  is szerepet játszanak abban, hogy ennyire intenzíven éljük meg az érzéseinket.
-[00:48.160 --> 00:50.640]  Szóval a szerelem nem egyetlen pillanat műve.
-[00:50.980 --> 00:54.380]  Sok apró tényező találkozása, amitől egyszer csak azt vesszük észre,
-[00:54.380 --> 00:56.780]  hogy valaki egyre fontosabbá válik számunkra.
-[00:56.780 --> 00:58.900]  És most kíváncsi vagyok a véleményetekre.
-[00:59.000 --> 01:04.080]  Ti hisztek a szerelemben első látásra? Vagy szerintetek a szerelem inkább idővel alakul ki?
+**Mitől leszünk szerelmesek valakibe? És tényleg létezik szerelem első látásra?**
+
+What makes us fall in love with someone? And does love at first sight really exist?
+
+```text
+Mi-től    lesz-ünk      szerelmes-ek  valaki-be?
+what-DEL  become-1PL    in.love-PL    someone-ILL
+
+És  tényleg  létez-ik       szerelem  első  látás-ra?
+and really   exist-3SG.INDF love      first sight-SBL
+```
+
+**Ha nagyon röviden kellene válaszolnom, akkor nem egyetlen dologtól leszünk szerelmesek.**
+
+To answer very briefly, we do not fall in love because of a single thing.
+
+```text
+Ha  nagyon  rövid-en  kell-ene        válaszol-n-om,
+if  very    brief-ADV must-COND.3SG   answer-INF-1SG
+
+akkor  nem  egyetlen  dolog-tól  lesz-ünk
+then   NEG  single    thing-DEL  become-1PL
+
+szerelmes-ek.
+in.love-PL
+```
+
+**A pszichológiában több tényező együtt alakítja ki a vonzalmat.**
+
+In psychology, several factors together create attraction.
+
+```text
+A    pszichológia-ban  több    tényező  együtt
+the  psychology-INE    several  factor   together
+
+alakít-ja      ki  a    vonzalm-at.
+shape-3SG.DEF  PV  the  attraction-ACC
+```
+
+**Az egyik ilyen a közelség.**
+
+One such factor is proximity.
+
+```text
+Az   egy-ik   ilyen  a    közelség.
+the  one-ONE  such   the  proximity
+```
+
+**Meglepően sokat számít, hogy milyen gyakran találkozunk valakivel.**
+
+It matters surprisingly much how often we meet someone.
+
+```text
+Meglepő-en     sok-at    számít,         hogy  milyen
+surprising-ADV much-ACC  matter.3SG.INDF that  how
+
+gyakran  találkoz-unk       valaki-vel.
+often    meet-1PL.INDF      someone-INST
+```
+
+**Minél többször látunk egy embert, annál ismerősebbé válik számunkra.**
+
+The more often we see a person, the more familiar they become to us.
+
+```text
+Minél     több-ször  lát-unk        egy  ember-t,
+the.more  many-times see-1PL.INDF   a    person-ACC
+
+annál        ismerős-ebb-é      vál-ik
+the.more     familiar-CMPR-TRANS become-3SG
+
+szám-unk-ra.
+for-1PL.POSS-SBL
+```
+
+**És sokszor annál szimpatikusabbnak is érezzük.**
+
+And we often find them all the more likeable.
+
+```text
+És  sok-szor   annál     szimpatikus-abb-nak  is
+and many-times the.more  likeable-CMPR-DAT    also
+
+érez-zük.
+feel-1PL.DEF
+```
+
+**Fontos az is, hogy vannak-e közös értékeink.**
+
+It is also important whether we have shared values.
+
+```text
+Fontos     az    is,    hogy  van-nak-e
+important  that  also   that  be-3PL-Q
+
+közös   érték-e-i-nk.
+shared  value-3SG.POSS-PL-1PL.POSS
+```
+
+**Hogy hasonló-e a humorunk, és hogy jól érezzük magunkat együtt.**
+
+Whether our sense of humour is similar and whether we feel good together.
+
+```text
+Hogy  hasonló-e  a    humor-unk,       és   hogy
+that  similar-Q  the  humour-1PL.POSS  and  that
+
+jól  érez-zük       mag-unk-at          együtt.
+well feel-1PL.DEF   self-1PL.POSS-ACC   together
+```
+
+**És hogy érzelmileg biztonságban érezzük magunkat mellette.**
+
+And whether we feel emotionally safe beside them.
+
+```text
+És  hogy  érzelmi-leg  biztonság-ban  érez-zük
+and that  emotion-ADV  safety-INE      feel-1PL.DEF
+
+mag-unk-at          mellette.
+self-1PL.POSS-ACC   beside.3SG
+```
+
+**És persze a vonzalomnak van biológiai oldala is.**
+
+And of course attraction also has a biological side.
+
+```text
+És  persze     a    vonzalom-nak  van
+and of.course  the  attraction-DAT be.3SG
+
+biológia-i  oldal-a        is.
+biology-ADJ side-3SG.POSS  also
+```
+
+**Amikor szerelmesek leszünk, különböző hormonok és ingerületátvivő anyagok is szerepet játszanak abban, hogy ennyire intenzíven éljük meg az érzéseinket.**
+
+When we fall in love, various hormones and neurotransmitters also play a role in our experiencing our feelings so intensely.
+
+```text
+Amikor  szerelmes-ek  lesz-ünk,    különböző
+when    in.love-PL    become-1PL   different
+
+hormon-ok  és   ingerület-átvivő  anyag-ok  is
+hormone-PL and  impulse-carrying  substance-PL also
+
+szerep-et  játsz-anak     ab-ban,    hogy
+role-ACC   play-3PL.INDF  that-INE   that
+
+ennyire   intenzív-en  él-jük        meg
+this.much intense-ADV  live-1PL.DEF  PV
+
+az   érzés-e-i-nk-et.
+the  feeling-3SG.POSS-PL-1PL.POSS-ACC
+```
+
+**Szóval a szerelem nem egyetlen pillanat műve.**
+
+So love is not the work of a single moment.
+
+```text
+Szóval  a    szerelem  nem  egyetlen  pillanat
+so      the  love      NEG  single    moment
+
+műv-e.
+work-3SG.POSS
+```
+
+**Sok apró tényező találkozása, amitől egyszer csak azt vesszük észre, hogy valaki egyre fontosabbá válik számunkra.**
+
+It is the meeting of many small factors, through which we suddenly notice that someone is becoming increasingly important to us.
+
+```text
+Sok   apró   tényező  találkozás-a,   ami-től
+many  small  factor   meeting-3SG.POSS REL-DEL
+
+egyszer  csak  az-t      vesz-szük      észre,
+suddenly just  that-ACC  take-1PL.DEF   PV
+
+hogy  valaki   egy-re   fontos-abb-á
+that  someone  one-SBL  important-CMPR-TRANS
+
+vál-ik         szám-unk-ra.
+become-3SG     for-1PL.POSS-SBL
+```
+
+**És most kíváncsi vagyok a véleményetekre.**
+
+And now I am curious about your opinions.
+
+```text
+És  most  kíváncsi  vagy-ok  a
+and now   curious   be-1SG   the
+
+vélemény-etek-re.
+opinion-2PL.POSS-SBL
+```
+
+**Ti hisztek a szerelemben első látásra?**
+
+Do you believe in love at first sight?
+
+```text
+Ti   hisz-tek         a    szerelem-ben  első
+2PL  believe-2PL.INDF the  love-INE      first
+
+látás-ra?
+sight-SBL
+```
+
+**Vagy szerintetek a szerelem inkább idővel alakul ki?**
+
+Or do you think love develops over time instead?
+
+```text
+Vagy  szerint-etek      a    szerelem  inkább
+or    according.to-2PL  the  love      rather
+
+idő-vel    alakul       ki?
+time-INST  develop.3SG  PV
+```
+
+## A2 vocabulary
+
+* **szerelmes lesz valakibe** — fall in love with someone
+* **első látásra** — at first sight
+* **röviden** — briefly
+* **egyetlen** — a single; only one
+* **tényező** — factor
+* **kialakít** — form; create; develop
+* **vonzalom** — attraction
+* **közelség** — proximity; closeness
+* **meglepően** — surprisingly
+* **sokat számít** — matter a great deal
+* **minél…, annál…** — the more…, the more…
+* **ismerőssé válik** — become familiar
+* **szimpatikus** — likeable; appealing
+* **közös értékek** — shared values
+* **hasonló** — similar
+* **érzelmileg** — emotionally
+* **biztonságban érzi magát** — feel safe
+* **biológiai oldal** — biological aspect
+* **különböző** — different; various
+* **hormon** — hormone
+* **ingerületátvivő anyag** — neurotransmitter
+* **szerepet játszik valamiben** — play a role in something
+* **intenzíven** — intensely
+* **megél egy érzést** — experience a feeling
+* **egy pillanat műve** — the result of a single moment
+* **apró** — small; tiny
+* **egyszer csak** — suddenly
+* **észrevesz** — notice
+* **egyre fontosabbá válik** — become increasingly important
+* **kíváncsi valakinek a véleményére** — be curious about someone’s opinion
+* **idővel** — over time
+* **kialakul** — develop; take shape
