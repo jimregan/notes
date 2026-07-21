@@ -261,25 +261,282 @@ expensive  shop-INST be.3SG  PV-put-PASS.CVB
 
 [Reel](https://www.instagram.com/reels/DbBYPe6MzDx/)
 
-Ugye a halálig tart,
-ami szerintem amúgy nem elég.
-Mert vannak nők, akik ilyeneket mondanak a férjeiknek,
-hogy "jaj, szívem, hogyha meghalok,
-akkor nagyon szeretném, hogy boldog legyél
-és újraházasodj". Faszt! ha nem hal utánam
-hat hónapon belül sose szeretett igazán.
-Ott egy házasodni készülő hölgy. így van.
-Annyi, hogy ez nem egy valós probléma,
-mert a statisztikák szerint a férfiak hamarabb halnak,
-úgyhogy minden rendben lesz.
-Tényleg egyébként a statisztikák szerint sajnos a férfiak három kötőjel öt évvel halnak hamarabb, mint a nők,
-ami szerintem pont annyi idő,
-amennyit így életetekben netto bosszantásunkkal töltötök.
-Ugyhogy én azt mondom, hogy minden feleségnek jár egy kis énidő, egy házasság után,
-hogy így. Fú, szegény, jól meghalt,
-de legalább egy darabig nem akar senki főzés közben megdugni. Fú.
-Én nem várnék ennyit. Én nem várnám meg azt a három, öt évet.
-Én mennék utána azonnal. Nem fog ez nekem ott a túloldalt flörtölgetni
-mindenféle halott ribancokkal.
-Alapból el se hinném, hogy meghalt. így feküdne a földön,
-"dehogy haltál meg csak nem akarsz kiteregetni."
+**Ugye a halálig tart, ami szerintem amúgy nem elég.**
+
+It lasts until death, right, which in my opinion is actually not enough.
+
+```text
+Ugye  a    halál-ig   tart,       ami  szerint-em
+DM    the  death-TERM last.3SG    REL  according.to-1SG
+
+amúgy     nem  elég.
+actually  NEG  enough
+```
+
+**Mert vannak nők, akik ilyeneket mondanak a férjeiknek.**
+
+Because there are women who say things like this to their husbands.
+
+```text
+Mert     van-nak  nő-k,     aki-k  ilyen-ek-et
+because  be-3PL   woman-PL  REL-PL such-PL-ACC
+
+mond-anak       a    férj-eik-nek.
+say-3PL.INDF   the  husband-3PL.POSS-DAT
+```
+
+**„Jaj, szívem, hogyha meghalok, akkor nagyon szeretném, hogy boldog legyél és újraházasodj.”**
+
+“Oh, darling, if I die, then I would really like you to be happy and remarry.”
+
+```text
+Jaj,   szív-em,         hogyha  meg-hal-ok,
+INTJ   heart-1SG.POSS   if      PV-die-1SG
+
+akkor  nagyon  szeret-né-m,       hogy  boldog
+then   very    want-COND-1SG.DEF  that  happy
+
+legy-él        és   újra-házasod-j.
+be-SBJV.2SG    and  again-marry-SBJV.2SG
+```
+
+**Faszt! Ha nem hal utánam hat hónapon belül, sose szeretett igazán.**
+
+Bullshit! If he does not die within six months after me, he never truly loved me.
+
+```text
+Fasz-t!   Ha  nem  hal        után-am
+dick-ACC  if  NEG  die.3SG    after-1SG
+
+hat  hónap-on  belül,   sose   szeret-ett
+six  month-SUP within   never  love-PST.3SG
+
+igazán.
+truly
+```
+
+**Ott egy házasodni készülő hölgy.**
+
+There is a lady over there who is preparing to get married.
+
+```text
+Ott    egy  házasod-ni  készül-ő     hölgy.
+there  a    marry-INF   prepare-PTCP  lady
+```
+
+**Így van.**
+
+That is right.
+
+```text
+Így   van.
+thus  be.3SG
+```
+
+**Annyi, hogy ez nem egy valós probléma.**
+
+The only thing is that this is not a real problem.
+
+```text
+Annyi,     hogy  ez    nem  egy  valós  probléma.
+that.much  that  this  NEG  a    real   problem
+```
+
+**Mert a statisztikák szerint a férfiak hamarabb halnak, úgyhogy minden rendben lesz.**
+
+Because according to the statistics, men die earlier, so everything will be all right.
+
+```text
+Mert     a    statisztiká-k  szerint       a
+because  the  statistic-PL   according.to  the
+
+férfi-ak  hamar-abb  hal-nak,      úgyhogy
+man-PL    early-CMPR die-3PL.INDF  so
+
+minden      rend-ben  lesz.
+everything  order-INE become.3SG
+```
+
+**Tényleg, egyébként a statisztikák szerint sajnos a férfiak három-öt évvel halnak hamarabb, mint a nők.**
+
+Indeed, according to the statistics, unfortunately men die three to five years earlier than women.
+
+```text
+Tényleg,  egyébként  a    statisztiká-k  szerint
+really    actually   the  statistic-PL   according.to
+
+sajnos         a    férfi-ak  három-öt  év-vel
+unfortunately  the  man-PL    three-five year-INST
+
+hal-nak       hamar-abb,  mint  a    nő-k.
+die-3PL.INDF  early-CMPR  than  the  woman-PL
+```
+
+**Ami szerintem pont annyi idő, amennyit így életetekben nettó bosszantásunkkal töltötök.**
+
+Which, in my opinion, is exactly as much time as you spend during your lives doing nothing but annoying us.
+
+```text
+Ami  szerint-em       pont     annyi  idő,
+REL  according.to-1SG exactly  that.much time
+
+amennyi-t     így   élet-etek-ben
+how.much-ACC  thus  life-2PL.POSS-INE
+
+nettó   bosszant-ás-unk-kal       tölt-ötök.
+purely  annoy-NMLZ-1PL.POSS-INST  spend-2PL.INDF
+```
+
+**Úgyhogy én azt mondom, hogy minden feleségnek jár egy kis énidő egy házasság után.**
+
+So I say that every wife is entitled to a little me-time after a marriage.
+
+```text
+Úgyhogy  én   az-t      mond-om,       hogy
+so       1SG  that-ACC  say-1SG.DEF    that
+
+minden  feleség-nek  jár             egy  kis
+every   wife-DAT     be.due.3SG       a    little
+
+én-idő   egy  házasság  után.
+self-time a   marriage  after
+```
+
+**Hogy így: „Fú, szegény, jól meghalt, de legalább egy darabig nem akar senki főzés közben megdugni.”**
+
+Like: “Ugh, poor thing, he really died, but at least for a while nobody wants to fuck me while I am cooking.”
+
+```text
+Hogy  így:  Fú,   szegény,  jól  meg-hal-t,
+that  thus  INTJ  poor       well  PV-die-PST.3SG
+
+de   legalább  egy  darab-ig  nem  akar
+but  at.least  a    piece-TERM NEG  want.3SG.INDF
+
+senki   főz-és  közben  meg-dug-ni.
+nobody  cook-NMLZ during PV-fuck-INF
+```
+
+**Fú.**
+
+Ugh.
+
+```text
+Fú.
+INTJ
+```
+
+**Én nem várnék ennyit.**
+
+I would not wait this long.
+
+```text
+Én   nem  vár-né-k       ennyi-t.
+1SG  NEG  wait-COND-1SG  this.much-ACC
+```
+
+**Én nem várnám meg azt a három-öt évet.**
+
+I would not wait out those three to five years.
+
+```text
+Én   nem  vár-ná-m          meg  az-t
+1SG  NEG  wait-COND-1SG.DEF PV   that-ACC
+
+a    három-öt  év-et.
+the  three-five year-ACC
+```
+
+**Én mennék utána azonnal.**
+
+I would go after him immediately.
+
+```text
+Én   men-né-k      után-a       azonnal.
+1SG  go-COND-1SG   after-3SG    immediately
+```
+
+**Nem fog ez nekem ott a túloldalt flörtölgetni mindenféle halott ribancokkal.**
+
+He is not going to be flirting around over there on the other side with all kinds of dead sluts.
+
+```text
+Nem  fog        ez    nek-em   ott    a
+NEG  FUT.3SG    this  DAT-1SG  there  the
+
+túl-oldal-t    flörtöl-get-ni   minden-féle
+beyond-side-ACC flirt-ITER-INF  every-kind
+
+halott  ribanc-ok-kal.
+dead    slut-PL-INST
+```
+
+**Alapból el se hinném, hogy meghalt.**
+
+To begin with, I would not even believe that he had died.
+
+```text
+Alap-ból    el  se        hinné-m,
+basis-ELA   PV  also.NEG  believe.COND-1SG.DEF
+
+hogy  meg-hal-t.
+that  PV-die-PST.3SG
+```
+
+**Így feküdne a földön.**
+
+He would be lying on the floor like this.
+
+```text
+Így   feküd-ne       a    föld-ön.
+thus  lie-COND.3SG   the  ground-SUP
+```
+
+**„Dehogy haltál meg, csak nem akarsz kiteregetni.”**
+
+“No way have you died; you just do not want to hang out the laundry.”
+
+```text
+Dehogy  hal-t-ál       meg,  csak  nem  akar-sz
+EMPH.NEG die-PST-2SG   PV    just  NEG  want-2SG.INDF
+
+ki-tereget-ni.
+PV-hang.out-INF
+```
+
+## A2 vocabulary
+
+* **halálig** — until death
+* **nem elég** — not enough
+* **férj** — husband
+* **meghal** — die
+* **boldog** — happy
+* **újraházasodik** — remarry
+* **hat hónapon belül** — within six months
+* **igazán** — truly; really
+* **házasodni készül** — be preparing to get married
+* **valós** — real
+* **statisztika** — statistic
+* **hamarabb** — earlier
+* **minden rendben lesz** — everything will be all right
+* **sajnos** — unfortunately
+* **három-öt évvel** — by three to five years
+* **pont annyi** — exactly that much
+* **bosszant** — annoy
+* **énidő** — me-time; personal time
+* **jár valakinek valami** — someone is entitled to something
+* **legalább** — at least
+* **egy darabig** — for a while
+* **főzés közben** — while cooking
+* **ennyit** — this much; this long
+* **azonnal** — immediately
+* **utánamegy valakinek** — go after someone
+* **túloldal** — the other side
+* **flörtölget** — flirt around
+* **mindenféle** — all kinds of
+* **halott** — dead
+* **alapból** — to begin with; by default
+* **elhisz valamit** — believe something
+* **a földön fekszik** — lie on the floor
+* **dehogy** — certainly not; no way
+* **kitereget** — hang out the laundry
