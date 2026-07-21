@@ -972,17 +972,160 @@ be.3SG  put-CVB   that  beautiful-NMLZ PV-look-INF also
 
 [Reel](https://www.instagram.com/reels/Dai7k_fs0_z/)
 
-[00:00.000 --> 00:03.000]  Mint tudjuk, magyarul lehet a legszebben káromkodni.
-[00:03.100 --> 00:03.860]  A faszomat!
-[00:04.680 --> 00:07.140]  Mi van? kijárási tilalom? a kurva életbe!
-[00:07.160 --> 00:10.720]  De azt biztos nem tudod, melyik a leghíresebb magyar káromkodás.
-[00:11.060 --> 00:13.340]  Ez pedig úgy hangzik: baszom a lelkét.
-[00:13.620 --> 00:16.400]  Ugyanis a moldovai köztársaságban, a Románia mellett
-[00:16.620 --> 00:18.860]  van egy olyan családnév, hogy baszomalelkét,
-[00:19.060 --> 00:20.660]  pontosabban basamalerca.
-[00:21.020 --> 00:23.960]  Az ott harcoló magyar huszároktól hallották a moldávok,
-[00:24.140 --> 00:26.980]  és annyira megtetszett nekik, hogy családnév lett belőle.
-[00:26.980 --> 00:29.360]  Szóval, van mire büszkék lennünk!
+The surname **Basamalerca** is genuinely attested in Moldova. The proposed derivation from Hungarian **basszam a lelkét** is reported in Hungarian discussions, though the more detailed story about Moldovans hearing it specifically from Hungarian hussars is best treated as an etymological anecdote rather than firmly demonstrated history. ([grcvolley.hu][1])
+
+**Mint tudjuk, magyarul lehet a legszebben káromkodni.**
+
+As we know, one can swear most beautifully in Hungarian.
+
+```text
+Mint  tud-juk,      magyar-ul  lehet
+as    know-1PL.DEF  Hungarian-ADV be.POT.3SG
+
+a    leg-szebb-en       káromkod-ni.
+the  SUPL-beautiful-ADV swear-INF
+```
+
+**A faszomat!**
+
+My dick! / Fuck that!
+
+```text
+A    fasz-om-at!
+the  dick-1SG.POSS-ACC
+```
+
+**Mi van? Kijárási tilalom? A kurva életbe!**
+
+What is it? A curfew? Fucking hell!
+
+```text
+Mi    van?     Ki-járás-i    tilalom?
+what  be.3SG   PV-go.out-ADJ prohibition
+
+A    kurva  élet-be!
+the  whore  life-ILL
+```
+
+**De azt biztos nem tudod, melyik a leghíresebb magyar káromkodás.**
+
+But you surely do not know which is the most famous Hungarian curse.
+
+```text
+De   az-t      biztos  nem  tud-od,
+but  that-ACC  surely  NEG  know-2SG.DEF
+
+melyik  a    leg-híres-ebb    magyar
+which   the  SUPL-famous-CMPR Hungarian
+
+káromkodás.
+curse
+```
+
+**Ez pedig úgy hangzik: „Baszom a lelkét.”**
+
+And this goes: “I fuck his soul.”
+
+```text
+Ez    pedig  úgy   hangz-ik:
+this  while  thus  sound-3SG
+
+Basz-om       a    lelk-é-t.
+fuck-1SG.DEF  the  soul-3SG.POSS-ACC
+```
+
+**Ugyanis a Moldovai Köztársaságban, Románia mellett, van egy olyan családnév, hogy „baszom a lelkét”.**
+
+Because in the Republic of Moldova, next to Romania, there is a surname resembling “I fuck his soul.”
+
+```text
+Ugyanis  a    Moldova-i  Köztársaság-ban,
+because  the  Moldova-ADJ republic-INE
+
+Románia  mellett,  van     egy  olyan
+Romania  beside    be.3SG  a    such
+
+család-név,  hogy  basz-om       a
+family-name  that  fuck-1SG.DEF  the
+
+lelk-é-t.
+soul-3SG.POSS-ACC
+```
+
+**Pontosabban: Basamalerca.**
+
+More precisely: Basamalerca.
+
+```text
+Pontos-abb-an:  Basamalerca.
+precise-CMPR-ADV Basamalerca
+```
+
+**Az ott harcoló magyar huszároktól hallották a moldávok.**
+
+The Moldovans heard it from the Hungarian hussars fighting there.
+
+```text
+Az   ott    harcol-ó    magyar
+the  there  fight-PTCP  Hungarian
+
+huszár-ok-tól  hall-ott-á-k     a
+hussar-PL-DEL  hear-PST-3PL.DEF the
+
+moldáv-ok.
+Moldovan-PL
+```
+
+**És annyira megtetszett nekik, hogy családnév lett belőle.**
+
+And they liked it so much that it became a surname.
+
+```text
+És  annyi-ra       meg-tetsz-ett
+and  that.much-SBL PV-appeal-PST.3SG
+
+nek-ik,   hogy  család-név  lett
+DAT-3PL   that  family-name become.PST.3SG
+
+belőle.
+from.3SG
+```
+
+**Szóval van mire büszkék lennünk!**
+
+So we have something to be proud of!
+
+```text
+Szóval  van     mi-re     büszké-k
+so      be.3SG  what-SBL  proud-PL
+
+len-n-ünk!
+be-INF-1PL
+```
+
+## A2 vocabulary
+
+* **káromkodik** — swear; use bad language
+* **legszebben** — most beautifully
+* **kijárási tilalom** — curfew
+* **biztos** — surely; certainly
+* **leghíresebb** — most famous
+* **káromkodás** — curse; swearing
+* **úgy hangzik** — sound like this
+* **ugyanis** — because; namely
+* **köztársaság** — republic
+* **valami mellett** — beside something
+* **családnév** — surname
+* **pontosabban** — more precisely
+* **harcoló** — fighting
+* **huszár** — hussar
+* **moldáv** — Moldovan
+* **megtetszik valakinek** — appeal to someone; be liked by someone
+* **lesz belőle valami** — become something
+* **büszke valamire** — proud of something
+* **van mire büszkének lenni** — have something to be proud of
+
+[1]: https://grcvolley.hu/hirek/valogatott-fino-karomkodasok?utm_source=chatgpt.com "A káromkodás művészete: Finom szitokszavak titkai és társadalmi ..."
 
 ---
 
