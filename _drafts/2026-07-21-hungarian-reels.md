@@ -806,8 +806,6 @@ time-INST  develop.3SG  PV
 
 [Reel](https://www.instagram.com/reels/Dax8tWhK5d0/)
 
-I’ve preserved **összekapcsódik** as spoken. The standard form would be **összekapcsolódik**. I’ve also repaired the obvious Whisper error to **a lilának … van olyan árnyalata**.
-
 **Van-e kedvenc színed, és melyik, hogyha igen?**
 
 Do you have a favourite colour, and which one, if so?
