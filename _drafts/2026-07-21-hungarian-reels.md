@@ -801,3 +801,15 @@ time-INST  develop.3SG  PV
 * **kíváncsi valakinek a véleményére** — be curious about someone’s opinion
 * **idővel** — over time
 * **kialakul** — develop; take shape
+
+---
+
+[Reel](https://www.instagram.com/reels/Dax8tWhK5d0/)
+
+[00:00.000 --> 00:02.000]  Van-e kedvenc színed és melyik, hogyha igen?
+[00:02.000 --> 00:04.500]  Igen, a lila a kedvenc színem. Bár ez most nem látszik.
+[00:04.500 --> 00:07.000]  Meg tudod indokolni, hogy mi miatt esetleg?
+[00:07.000 --> 00:14.000]  Igen, a lila egyrészt van olyan árnyalatában, ami a hideg nyárnak, mint amilyen én is szintípusban vagyok, jól áll. Ez az egyik ok.
+[00:14.000 --> 00:19.500]  A másik pedig az, hogy a lilában van valami frissesség. Én szeretem az orgonának például az illatát és az összekapcsolódik ezzel.
+[00:19.500 --> 00:23.500]  Ja, és még egy. Van Színyei Mersének egy tök jó festménye a Magyar Nemzeti Galériában.
+[00:23.500 --> 00:29.000]  Lila ruhás nő, azt mindenkinek ajánlom. A sárgával olyan komplementerben van rakva, hogy gyönyörűség megnézni is.
