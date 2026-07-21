@@ -1129,22 +1129,34 @@ be-INF-1PL
 
 [Reel](https://www.instagram.com/reels/DZ9uEr_iOdO/)
 
+Interestingly, whisper gives:
+```
 [00:00.000 --> 00:02.000]  30 cm nagy,
 [00:02.000 --> 00:04.000]  venezueli...
-[00:30.000 --> 00:32.000]  akcentussal angolul,
-[00:32.000 --> 00:34.000]  meg svédül a kellő mondatait.
-[00:34.000 --> 00:36.000]  Ezt a jelentet összebágtuk.
-[00:36.000 --> 00:38.000]  Utána kiköltők
+```
+where the quote is actually in English: "a 30cm long, thick Venezuelan (dick)"
+
+Nagy Ervin a sorozatban egy híres svéd pornóproducert játszik,
+hogyha igazán tökéletességre törekszünk,
+ahhoz valójában egy svéd színészre lett volna szükség,
+de mi nagyon szerettünk volna az Ervinnel dolgozni,
+és hát már ott tart ma a technika, meg az AI,
+hogy ezt meg lehet tenni.
+Az Ervin egyébként nagyon készült rá.
+Megtanulta svéd akcentussal angolul,
+meg svédül a kellő mondatait.
+[00:34.000 --> 00:36.000]  Ezt a jelentet összevágtuk.
+[00:36.000 --> 00:38.000]  Utána kiküldtük
 [00:38.000 --> 00:40.000]  Svédországba, ahol egy svéd
 [00:40.000 --> 00:42.000]  szinkronszínész
 [00:42.000 --> 00:44.000]  leszinkronizálta, de ugye
 [00:44.000 --> 00:46.000]  itt még nem ér véget ez a történet.
 [00:46.000 --> 00:48.000]  Jött az AI, ami
 [00:48.000 --> 00:50.000]  megtanulta gyakorlatilag
-[00:50.000 --> 00:52.000]  az Erwin-nek az orgánumát.
-[00:52.000 --> 00:54.000]  És amit a svéd szinkronszínész
-[00:54.000 --> 00:56.000]  helyes akcentussal elmondott,
-[00:56.000 --> 00:58.000]  az az Erwin orgánumával
+[00:50.000 --> 00:52.000]  az Ervinnek az orgánumát,
+[00:52.000 --> 00:54.000]  és amit a svéd szinkronszínész
+[00:54.000 --> 00:56.000]  a helyes akcentussal elmondott,
+[00:56.000 --> 00:58.000]  az az Ervin orgánumával
 [00:58.000 --> 01:00.000]  és a hangszínével jött vissza,
 [01:00.000 --> 01:02.000]  és így kaptuk meg a végeredményt.
-
+"We already have a newcomer."
